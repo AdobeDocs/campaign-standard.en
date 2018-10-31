@@ -11,6 +11,8 @@ snippet: y
 
 # Testing Anchors
 
+[Adding an anchor](placeholder.md#nunc)
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at metus egestas, ultricies arcu a, mattis nisl. Donec vehicula turpis ac felis ullamcorper, vel faucibus dolor maximus. Donec mattis eleifend velit et lacinia. 
 
 Sed sed ligula volutpat, fringilla leo in, pretium dolor. Curabitur leo nibh, faucibus vel fringilla sed, vulputate vel quam. Sed vulputate volutpat diam, vel maximus nibh accumsan ac. In gravida mi ut erat molestie faucibus. Aenean efficitur id lacus vitae tempor. 
