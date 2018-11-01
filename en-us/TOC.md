@@ -1,21 +1,49 @@
 ---
 cloud: experience-cloud
-product: adobe
+product: adobe campaign standard
 archtype: end-user
 user-guide: null
 ---
 
 # Table of Contents
 
-+ [v15.4](rn/using/v15_4.md)
++ Introduction{#introduction}
++ Release Notes{#release-notes}
+  + [Release Notes Overview](rn/using/release-notes.md)
+  + v18
+    + [v18.1](rn/using/v18_1.md)
+  + v17
+    + [v17.10](rn/using/v17_10.md)
+    + [v17.9](rn/using/v17_9.md)
+    + [v17.7](rn/using/v17_7.md)
+    + [v17.5](rn/using/v17_5.md)
+    + [v17.4](rn/using/v17_4.md)
+    + [v17.2](rn/using/v17_2.md)
+    + [v17.1](rn/using/v17_1.md)
+  + v16
+    + [v16.11](rn/using/v16_11.md)
+    + [v16.10](rn/using/v16_10.md)
+    + [v16.9](rn/using/v16_9.md)
+    + [v16.7](rn/using/v16_7.md)
+    + [v16.6](rn/using/v16_6.md)
+    + [v16.5](rn/using/v16_5.md)
+    + [v16.3](rn/using/v16_3.md)
+    + [v16.2](rn/using/v16_2.md)
+    + [v16.1](rn/using/v16_1.md)
+  + v15
+    + [v15.11](rn/using/v15_11.md)
+    + [v15.10](rn/using/v15_10.md)
+    + [v15.8](rn/using/v15_8.md)
+    + [v15.7](rn/using/v15_7.md)
+    + [v15.6](rn/using/v15_6.md)
+    + [v15.4](rn/using/v15_4.md)
+    + [v15.3](rn/using/v15_3.md)
+ + [rn](rn/rn.md)
+
 + [Integrating with Adobe Marketing Cloud](start/using/integrating-with-adobe-marketing-cloud.md)
 + [List of authorizations](administration/using/list-of-authorizations.md)
-+ [v15.3](rn/using/v15_3.md)
-+ [v17.9](rn/using/v17_9.md)
 + [About Adobe Analytics integration](integrating/using/about-adobe-analytics-integration.md)
-+ [v17.2](rn/using/v17_2.md)
 + [Delivery alerting](sending/using/delivery-alerting.md)
-+ [v17.5](rn/using/v17_5.md)
 + [Configure Adobe Analytics integration](integrating/using/configure-adobe-analytics-integration.md)
 + [Configuring the Points of Interest data integration](integrating/using/configuring-the-points-of-interest-data-integration.md)
 + [Execution process](integrating/using/execution-process.md)
@@ -29,24 +57,12 @@ user-guide: null
 + [Typologies](administration/using/typologies.md)
 + [Use cases](integrating/using/use-cases.md)
 + [Working with typology rules](administration/using/working-with-typology-rules.md)
-+ [v17.4](rn/using/v17_4.md)
-+ [v17.1](rn/using/v17_1.md)
-+ [v15.6](rn/using/v15_6.md)
-+ [v16.2](rn/using/v16_2.md)
-+ [v16.3](rn/using/v16_3.md)
-+ [v15.11](rn/using/v15_11.md)
-+ [v16.10](rn/using/v16_10.md)
-+ [v16.6](rn/using/v16_6.md)
 + [Provisioning and configuring People core service integration](integrating/using/provisioning-and-configuring-people-core-service-integration.md)
-+ [v16.7](rn/using/v16_7.md)
-+ [v17.10](rn/using/v17_10.md)
-+ [v15.10](rn/using/v15_10.md)
 + [Importing/Exporting audiences with People core service integration](integrating/using/importing-exporting-audiences-with-people-core-service-integration.md)
 + [Adding Adobe Target content](integrating/using/adding-adobe-target-content.md)
-+ [v16.11](rn/using/v16_11.md)
 + [Integrating with Experience Manager 6.1 or 6.2](integrating/using/integrating-with-experience-manager-6_1-or-6_2.md)
 + [About People core service Integration](integrating/using/about-people-core-service-integration.md)
-+ [v16.1](rn/using/v16_1.md)
+
 + [Configuration](integrating/using/configuration.md)
 + [Managing quarantines](administration/using/managing-quarantines.md)
 + [Sending at the recipient's time zone](sending/using/sending-at-the-recipient-s-time-zone.md)
@@ -56,9 +72,6 @@ user-guide: null
 + [Creating a Campaign form in Experience Manager 6.1 or 6.2](integrating/using/creating-a-campaign-form-in-experience-manager-6_1-or-6_2.md)
 + [Targeting dimension](audiences/using/targeting-dimension.md)
 + [User process](integrating/using/user-process.md)
-+ [v16.5](rn/using/v16_5.md)
-+ [v16.9](rn/using/v16_9.md)
-+ [v17.7](rn/using/v17_7.md)
 + [About Points of Interest data](integrating/using/about-points-of-interest-data.md)
 + [About Marketing Cloud Triggers](integrating/using/about-marketing-cloud-triggers.md)
 + [Assets core service integration](integrating/using/assets-core-service-integration.md)
@@ -66,8 +79,6 @@ user-guide: null
 + [Use case: Importing profiles](automating/using/use-case--importing-profiles.md)
 + [Creating personalized messages with Point of Interest data](integrating/using/creating-personalized-messages-with-point-of-interest-data.md)
 + [About integrations](integrating/using/about-integrations.md)
-+ [v15.7](rn/using/v15_7.md)
-+ [v15.8](rn/using/v15_8.md)
 + [About testing and sending](sending/using/about-testing-and-sending.md)
 + [About the scheduling](sending/using/about-the-scheduling.md)
 + [Transactional messaging configuration](administration/using/transactional-messaging-configuration.md)
@@ -75,8 +86,7 @@ user-guide: null
 + [Adobe Campaign Standard - Release Notes](rn/acs_rn.md)
 + [Adobe Campaign Standard - Release Notes](rn/acs_rn1.md)
 + [test](rn/testtttt.md)
-+ [v18.1](rn/using/v18_1.md)
-+ [rn](rn/rn.md)
+
 + [Using import templates](automating/using/using-import-templates.md)
 + [creating-campaigns-and-emails-in-experience-manager-6_3](integrating/using/creating-campaigns-and-emails-in-experience-manager-6_3.md)
 + [About blacklisting in Campaign](audiences/using/about-blacklisting-in-campaign.md)
@@ -368,4 +378,4 @@ user-guide: null
 + [Sharing a landing page](channels/using/sharing-a-landing-page.md)
 + [About emails](channels/using/about-emails.md)
 + [Creating the direct mail](channels/using/creating-the-direct-mail.md)
-+ [Release Notes](rn/using/release-notes.md)
+
