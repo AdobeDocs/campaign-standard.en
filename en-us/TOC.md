@@ -104,7 +104,7 @@ user-guide: null
   + [About channel configuration](administration/using/about-channel-configuration.md)
   + [Technical workflows](administration/using/technical-workflows.md)
   + [Configuring transactional messaging](administration/using/configuring-transactional-messaging.md)
-  + [Organizational and geographical units](administration/using/organizational-and-geographical-units.md}
+  + [Organizational and geographical units](administration/using/organizational-and-geographical-units.md)
 
 + Audiences{#audiences}
   + [Targeting dimension](audiences/using/targeting-dimension.md)
