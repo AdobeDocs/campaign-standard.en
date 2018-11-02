@@ -1,0 +1,44 @@
+<html>
+ <head>
+  <meta content="Targeting dimension" name="navTitle" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-01-10T15:16:25.862-0500" name="lastPublishExternalDate" />
+  <meta content="2018-01-10T15:16:25.862-0500" name="firstPublishExternalDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-01-11T19:01:25.593-0500" name="jcr:created" />
+  <meta content="2018-01-10T15:16:25.862-0500" name="publishExternalDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:audiences;content_type:reference;topic_tags:managing-audiences" name="cq:tags" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="https://helpx.adobe.com/campaign/standard/audiences/using/targeting-dimension.html" name="publishExternalURL" />
+  <meta content="2018-01-10T15:16:25.872-0500" name="cq:lastModified" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-01-10T15:16:25.862-0500" name="topicBrowsingSortDate" />
+  <meta content="audience:audiences" name="primaryAudienceTag" />
+  <meta content="cb3f7237-acba-4a26-a8c1-de762ffec29e" name="jcr:uuid" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="d1a30100-698f-4109-8ee5-9a48eb446cce" name="jcr:predecessors" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="light" name="heroGradient" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Targeting dimension" name="jcr:description" />
+  <meta content="Targeting dimension" name="jcr:title" />
+  <meta content="Learn about target mapping selection, creation and management in Adobe Campaign." name="seoDescription" />
+ </head>
+ <body>
+  <p>You can create audiences from different resources available in Adobe Campaign. However, each audience is made up of a single targeting dimension. For example, you cannot create an audience made up of both profiles, test profiles and subscribers for example.</p> 
+  <p>Targeting dimensions are defined in target mappings and stored under <strong>Administration</strong> &gt; <strong>Application settings</strong> &gt; <strong>Target mappings</strong>, accessible from the Adobe Campaign logo.</p> 
+  <ul>
+   <li><p><strong>File</strong> audiences (created directly from a <a href="../../automating/using/use-case--importing-profiles.md">file import</a>) are not linked to an Adobe Campaign targeting dimension.</p> </li>
+   <li><p> <a href="../../audiences/using/about-profiles.md">Profiles</a>: audiences of identified profiles are particularly used to define the main targets for your messages, groups to exclude in your sends, etc.</p> </li>
+   <li><p> <a href="../../sending/using/managing-test-profiles-and-sending-proofs.md#about-test-profiles">Test profiles (seedMember)</a>: test profile audiences are particularly used to establish trap addresses, proof targets, etc.</p> </li>
+   <li><p><strong>Delivery</strong>: deliveries (emails) created or sent with Adobe Campaign.</p> </li>
+  </ul>
+  <img alt="" captionBottom="" imageRotate="0" src="assets/audience_resource_selection.png" title="" />
+ </body>
+</html>

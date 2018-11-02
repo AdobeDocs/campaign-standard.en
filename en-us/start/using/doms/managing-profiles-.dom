@@ -1,0 +1,52 @@
+<html>
+ <head>
+  <meta content="" name="jcr:primaryType" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Managing profiles " name="navTitle" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-07-27T03:26:17.383-0400" name="cq:lastModified" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="audience:start" name="primaryAudienceTag" />
+  <meta content="2018-07-23T06:00:32.918-0400" name="lastPublishExternalDate" />
+  <meta content="849d8580-d907-4678-9ad5-e302498f1d61" name="jcr:predecessors" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:start;content_type:reference;topic_tags:about-adobe-campaign" name="cq:tags" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="Managing profiles " name="jcr:title" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="2018-03-15T09:01:17.956-0400" name="jcr:created" />
+  <meta content="2018-07-27T03:26:17.382-0400" name="locHandOffDate" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="2018-07-23T06:00:33.141-0400" name="cq:lastReplicated" />
+  <meta content="2018-07-23T06:00:32.918-0400" name="publishExternalDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="f6adaf3e-14a0-4ffc-8e9d-6154a28c54e3" name="jcr:uuid" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Managing profiles " name="jcr:description" />
+  <meta content="2018-07-23T06:00:32.918-0400" name="firstPublishExternalDate" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="https://helpx.adobe.com/campaign/standard/start/using/managing-profiles-.html" name="publishExternalURL" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2018-07-23T06:00:32.918-0400" name="topicBrowsingSortDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="Learn about profiles, targeting and audience creation in Campaign: send personalized messages, and access all your data to discover customer insights from both online and offline channels." name="seoDescription" />
+  <meta content="light" name="heroGradient" />
+ </head>
+ <body>
+  <h2>Profiles</h2>
+  <p>Adobe Campaign profiles represent all of the contacts stored in the database. Each profile corresponds to one entry in the database which contains the necessary information for that profile to be targeted, qualified and individually tracked. This means that a profile can be: a client, a prospect, an individual subscribed to a newsletter, a recipient, a user, or any other denomination depending on the organization.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/mkt_hist_view.png" title="" />
+  <p>The different types of profiles and their management modes are presented in the <a href="../../audiences/using/about-profiles.md">Profiles</a> section.</p> 
+  <p>Adobe Campaign provides a report that displays the number of active profiles. For more information, refer to <a href="../../audiences/using/active-profiles.md">Active profiles</a>.</p> 
+  <h2>Targeting</h2>
+  <p>To enable you to deliver relevant and effective messages, Adobe Campaign integrates advanced analysis and targeting functionalities. Thanks to the workflows and the query editor, you can construct audiences that will be targeted by your marketing campaigns, depending on the information that you have on them, their activities, and their marketing history. This allows you to filter subscribed profiles, sample, or create target audiences on an unlimited number of criteria.</p> 
+  <p>The mode for creating audiences is detailed in the <a href="../../audiences/using/creating-audiences.md">Audiences</a> section.</p> 
+  <h2>General Data Protection Regulation</h2>
+  <p>GDPR is the European Union’s (EU) new privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU. In addition to the privacy capabilities already available in Adobe Campaign (including consent management, data retention settings, and user roles), we are taking this opportunity in our role as a Data Processor to include additional capabilities, to help facilitate your readiness as a Data Controller for certain GDPR requests.</p> 
+  <p>Refer to this <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">guide</a> to learn more about the tools and functionalities that Adobe Campaign provides to help you become GDPR compliant.</p> 
+ </body>
+</html>

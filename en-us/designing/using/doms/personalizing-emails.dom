@@ -1,0 +1,48 @@
+<html>
+ <head>
+  <meta content="Learn how to personalize an email by inserting personalization fields and dynamic content." name="seoDescription" />
+  <meta content="2018-03-26T11:16:00.311-0400" name="topicBrowsingSortDate" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="light" name="heroGradient" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="Personalizing emails" name="jcr:title" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="2018-03-26T11:16:00.646-0400" name="cq:lastReplicated" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2018-03-26T11:16:00.311-0400" name="firstPublishExternalDate" />
+  <meta content="Personalizing emails" name="navTitle" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-04-04T11:45:21.717-0400" name="locHandOffDate" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="audience:designing" name="primaryAudienceTag" />
+  <meta content="2018-03-26T11:16:00.311-0400" name="publishExternalDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-03-15T09:01:26.298-0400" name="jcr:created" />
+  <meta content="Personalizing emails" name="jcr:description" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="https://helpx.adobe.com/campaign/standard/designing/using/personalizing-emails.html" name="publishExternalURL" />
+  <meta content="2018-04-04T11:45:21.718-0400" name="cq:lastModified" />
+  <meta content="e99c2362-ff80-4f31-b577-881771f6ae60" name="jcr:uuid" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:editing-message-and-landing-page-content" name="cq:tags" />
+  <meta content="2018-03-26T11:16:00.311-0400" name="lastPublishExternalDate" />
+  <meta content="ff7142a9-2224-481a-8e03-7c7f776a8225" name="jcr:predecessors" />
+  <meta content="admin" name="jcr:createdBy" />
+ </head>
+ <body>
+  <p>You can personalize the email by inserting personalization fields and dynamic content.</p> 
+  <h2>Inserting personalization fields</h2>
+  <p>The personalization fields are used for a basic level of personalization of the content of sent messages. The fields that you insert into the email content mark the place where the information from the Adobe Campaign database is to be inserted.</p> 
+  <p>Inserting personalization fields is detailed in the <a href="../../designing/using/adding-a-personalization-field.md" target="_blank">Adding a personalization field</a> section.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/delivery_content_21.png" title="" />
+  <h2>Adding dynamic content</h2>
+  <p>Adding dynamic content is detailed in <a href="../../designing/using/defining-dynamic-content.md" target="_blank">Defining dynamic content</a>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/delivery_content_25.png" title="" />
+ </body>
+</html>

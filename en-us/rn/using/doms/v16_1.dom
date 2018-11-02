@@ -1,0 +1,121 @@
+<html>
+ <head>
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2018-01-10T15:33:41.943-0500" name="cq:lastModified" />
+  <meta content="2018-01-11T19:02:17.448-0500" name="jcr:created" />
+  <meta content="sauviat" name="cq:lastModifiedBy" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="b8fb4abf-675a-4106-b3cb-e0822be2f825" name="jcr:uuid" />
+  <meta content="2018-01-10T15:33:41.936-0500" name="lastPublishExternalDate" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="v16.1" name="navTitle" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="light" name="heroGradient" />
+  <meta content="https://helpx.adobe.com/campaign/standard/rn/using/v16_1.html" name="publishExternalURL" />
+  <meta content="8fc90669-2b35-43f8-8c4a-5d9e8a8849e6" name="jcr:predecessors" />
+  <meta content="audience:rn" name="primaryAudienceTag" />
+  <meta content="2017-11-28T11:31:25.898-0500" name="locHandOffDate" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="v16.1" name="jcr:title" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="02/04/2016" name="jcr:description" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2017-11-16T10:46:59.216-0500" name="firstPublishExternalDate" />
+  <meta content="2018-01-10T15:33:41.936-0500" name="topicBrowsingSortDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-01-10T15:33:41.936-0500" name="publishExternalDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:rn;content_type:reference;topic_tags:adobe-campaign-standard-release-notes" name="cq:tags" />
+ </head>
+ <body>
+  <h2>Improvements</h2>
+  <table> 
+   <thead> 
+    <tr> 
+     <th> Functionality </th> 
+     <th> Description </th> 
+    </tr> 
+   </thead> 
+   <tbody> 
+    <tr> 
+     <td> Reports </td> 
+     <td> The following email specific reports have been added: <strong>Complaints</strong>, <strong>Opens</strong>, and <strong>Unsubscriptions</strong>. The following reports have been improved: <strong>Delivery summary</strong>, <strong>Bounce summary</strong>, <strong>Delivery throughput</strong>, and <strong>Tracking indicators</strong>. For more information, refer to the <a href="../../reporting/using/defining-the-report-period.md">detailed documentation</a>. </td> 
+    </tr> 
+    <tr> 
+     <td> Query editing </td> 
+     <td> The query editor has been improved and now allows you to scan the <strong>1-N</strong> type links. For more information, refer to the <a href="../../automating/using/editing-queries.md#creating-queries">detailed documentation</a>. </td> 
+    </tr> 
+    <tr> 
+     <td> Content personalization </td> 
+     <td> As for email or landing page editing, the input interface for content block display conditions has been improved. </td> 
+    </tr> 
+    <tr> 
+     <td> Workflows: column definition when importing </td> 
+     <td> The <strong>Load file</strong> activity now allows you to configure the columns of an imported file in detail: expected data type, date and time format, processing to apply in case of an empty value or an error, and value remapping. For more information, refer to the <a href="../../automating/using/load-file.md#column-format">detailed documentation</a>. </td> 
+    </tr> 
+    <tr> 
+     <td> Mapping of SMS encodings </td> 
+     <td> It is now possible to define mappings of encodings of personalized SMS messages for providers not using standard encoding. An administrator can carry out the configuration of personalized mappings and define the order in which they are supposed to be taken into account. For more information, refer to the . </td> 
+    </tr> 
+   </tbody> 
+  </table>
+  <h2>Patches</h2>
+  <h3>General</h3>
+  <ul>
+   <li><p>Improved compatibility with Internet Explorer and Chrome for hybrid/touchscreen devices.</p> </li>
+   <li><p>Fixed an error that could lead to the loss of all data entered for a new user/profile/test profile if the indicated email address contained syntax errors.</p> </li>
+  </ul>
+  <h3>Emails and SMS messages</h3>
+  <ul>
+   <li><p>Fixed an error that could prevent the content thumbnail from being generated in the email preview screen.</p> </li>
+   <li><p>Fixed an error that could prevent the raw content of a message (email or SMS) from being displayed in the message preview screen.</p> </li>
+  </ul>
+  <h3>Audiences and queries</h3>
+  <ul>
+   <li><p>Fixed an error that could prevent a <strong>Query</strong> type audience from being created in the <strong>Service</strong> resource.</p> </li>
+   <li><p>Fixed an error that could prevent the function list from being displayed correctly when editing a condition of a query in advanced mode.</p> </li>
+   <li><p>Fixed an error that could prevent a <strong>Query</strong> type audience from being created if it contained criteria based on collections.</p> </li>
+   <li><p>Fixed an error that could prevent queries containing filters on delivery KPIs from being created.</p> </li>
+   <li><p>Fixed an error that could prevent the content of an audience created from a workflow from being previewed.</p> </li>
+  </ul>
+  <h3>Custom resources</h3>
+  <ul>
+   <li><p>Fixed an error that could lead to a server crash if a custom resource contained a field with a dynamic default value.</p> </li>
+   <li><p>Fixed an error caused by moving, then deleting an element in the <strong>Detail screen configuration</strong> section while defining screens of a custom resource.</p> </li>
+   <li><p>Fixed an error that occurred when a default value had been defined for an <strong>integer</strong> list that did not include <strong>0</strong> in its range of possible values.</p> </li>
+   <li><p>Fixed an error that could prevent an element from being added in the detail screen configuration of a custom resource after a reinitialization.</p> </li>
+  </ul>
+  <h3>Workflows</h3>
+  <ul>
+   <li><p>Fixed an error that could cause logs of all activities in a workflow to be displayed instead of only displaying those of the activity selected.</p> </li>
+   <li><p>Fixed an error in the <strong>Scheduler</strong> activity. The <strong>Day of the month</strong> option was not correctly taken into account and replaced by <strong>Week day</strong>.</p> </li>
+   <li><p>Fixed an error that could prevent a <strong>Scheduler</strong> activity from working correctly with the expiration mode set to <strong>After a certain number of iterations</strong>.</p> </li>
+   <li><p>Fixed an error that occurred when exporting data using an <strong>Extract file</strong> activity. The number of lines present in the export file was inferior to the number of exported elements.</p> </li>
+   <li><p>Fixed an error that could prevent a file in a <strong>Load file</strong> activity from being selected.</p> </li>
+   <li><p>Fixed an error that prevented fields that were to be updated in an <strong>Update data</strong> activity from being deleted.</p> </li>
+   <li><p>Fixed an error that prevented the modifications made to a workflow from being saved after having opened the workflow execution logs.</p> </li>
+   <li><p>Fixed an error that caused a <strong>Load file</strong> activity to be executed twice if it was configured to use the file from its inbound transition and this file had been loaded using a <strong>Transfer file</strong> activity.</p> </li>
+   <li><p>Fixed an error that could prevent certain temporary entities from being correctly processed by an <strong>Exclusion</strong> activity.</p> </li>
+   <li><p>Fixed an error that could prevent a <strong>Query</strong> activity from being executed correctly if the targeting dimension and the filtering dimension configured in the activity were different.</p> </li>
+   <li><p>Fixed an error concerning the automatic naming of outbound transitions added to a <strong>Fork</strong> activity that could prevent the workflow from being saved.</p> </li>
+  </ul>
+  <h3>Content editing</h3>
+  <ul>
+   <li><p>Fixed an error that could lead to an icon or a search bar being undesirably displayed when editing content.</p> </li>
+  </ul>
+  <h3>Landing pages</h3>
+  <ul>
+   <li><p>Fixed an error that prevented a landing page from being imported using a package import.</p> </li>
+  </ul>
+  <h3>Transactional messages</h3>
+  <ul>
+   <li><p>It is now possible to specify a trusted IP address in the security parameters of the Message Center Push agent operator.</p> </li>
+   <li><p>Fixed an error that could prevent a new type of event from being created.</p> </li>
+  </ul>
+ </body>
+</html>

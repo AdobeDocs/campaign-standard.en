@@ -1,0 +1,50 @@
+<html>
+ <head>
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="2018-07-23T06:00:22.377-0400" name="firstPublishExternalDate" />
+  <meta content="2018-07-27T03:27:04.598-0400" name="cq:lastModified" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:reporting;content_type:reference;topic_tags:list-of-reports" name="cq:tags" />
+  <meta content="2018-03-15T09:01:57.124-0400" name="jcr:created" />
+  <meta content="Push notification report" name="navTitle" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="With the Push notification out-of-the-box report, learn about the success of your push notifications." name="seoDescription" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-07-23T06:00:22.377-0400" name="publishExternalDate" />
+  <meta content="2018-07-27T03:27:04.596-0400" name="locHandOffDate" />
+  <meta content="Push notification report" name="jcr:title" />
+  <meta content="Push notification report" name="jcr:description" />
+  <meta content="light" name="heroGradient" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="28923608-6cf0-43a8-810a-8b96d0ecbe76" name="jcr:predecessors" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-07-23T06:00:22.518-0400" name="cq:lastReplicated" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="aeafffa7-b7fe-4616-9d92-ffd09d2be200" name="jcr:uuid" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-07-23T06:00:22.377-0400" name="topicBrowsingSortDate" />
+  <meta content="audience:reporting" name="primaryAudienceTag" />
+  <meta content="2018-07-23T06:00:22.377-0400" name="lastPublishExternalDate" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="https://helpx.adobe.com/campaign/standard/reporting/using/push-notification-report.html" name="publishExternalURL" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+ </head>
+ <body>
+  <p>The <strong>Push notification</strong> report provides details related to push notifications. For example, delivered and open rates.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/dynamic_report_push.png" title="" />
+  <p>Each table is represented by summary numbers and charts. You can change how the details are shown in their respective visualization settings.</p> 
+  <p>The first table, <strong>Push summary</strong>, displays the total number of sent, delivered, and opened push notifications.</p> 
+  <p>The following two tables, <strong>Mobile app repartition</strong> and <strong>Platform repartition</strong>, contain the available data for push notifications. This data depends upon:</p> 
+  <ul>
+   <li><p>The mobile applications used to send the push notifications.</p> </li>
+   <li><p>The recipients' mobile operating systems.</p> </li>
+  </ul>
+ </body>
+</html>

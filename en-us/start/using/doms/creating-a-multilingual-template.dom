@@ -1,0 +1,68 @@
+<html>
+ <head>
+  <meta content="light" name="heroGradient" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="audience:start" name="primaryAudienceTag" />
+  <meta content="2018-07-27T03:27:23.244-0400" name="locHandOffDate" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="f362a478-a74a-4145-a478-a9e246506b4f" name="jcr:uuid" />
+  <meta content="2018-07-23T06:00:48.808-0400" name="lastPublishExternalDate" />
+  <meta content="2018-03-15T09:01:50.380-0400" name="jcr:created" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:start;content_type:reference;topic_tags:managing-templates" name="cq:tags" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Creating a multilingual template" name="jcr:description" />
+  <meta content="2018-07-23T06:00:48.808-0400" name="topicBrowsingSortDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="Learn how to define and execute multilingual Email/SMS deliveries through a single delivery based on your automatically segmented customers' preferred language. Report on the performance of every delivery down to the language and individual levels." name="seoDescription" />
+  <meta content="/content/help/en/campaign/standard/start/morehelp/managing-templates;/content/help/en/campaign/standard/start/morehelp/managing-templates" name="moreHelpPaths" />
+  <meta content="Creating a multilingual template" name="jcr:title" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="2018-07-23T06:00:48.808-0400" name="firstPublishExternalDate" />
+  <meta content="https://helpx.adobe.com/campaign/standard/start/using/creating-a-multilingual-template.html" name="publishExternalURL" />
+  <meta content="Creating a multilingual template" name="navTitle" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="6bb93aee-8d7a-4549-bf1a-8c1f1d62d004" name="jcr:predecessors" />
+  <meta content="2018-07-27T03:27:23.245-0400" name="cq:lastModified" />
+  <meta content="2018-07-23T06:00:48.849-0400" name="cq:lastReplicated" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="2018-07-23T06:00:48.808-0400" name="publishExternalDate" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:versionHistory" />
+ </head>
+ <body>
+  <p>A multilingual template is a specific template to manage multilingual messages.</p> 
+  <p>This kind of template is available for <strong>Email and SMS messages</strong> and useable in standalone mode, within a workflow or in a recurring delivery.</p> 
+  <p>In the multilingual feature templates, the language management is based on variants. <strong>Each variant represents one language.</strong></p> 
+  <p>Adobe Campaign Standard is able to set up a maximum of 40 variants.</p> 
+  <p>A default language is mandatory. By default, for all instances, the sending language is US.</p> 
+  <p>During the template creation, you can add the number of variants corresponding to the number of needed languages in the message.</p> 
+  <p>To perform the creation of SMS or email template, follow the steps:</p> 
+  <ol>
+   <li><p>Duplicate an existing multilingual template (SMS or Email).</p> <img alt="" captionBottom="" imageRotate="0" src="assets/multi_template_duplicate.png" title="" />
+    <note>
+     <p> You can also modify an existing standard template in a multilingual template by clicking on the <strong>Initialize content variant</strong> button in the template properties. </p> 
+    </note></li>
+   <li><p>Modify the properties to customize label, tracking, etc.</p> </li>
+   <li><p>Modify the number of desired variants by clicking on the variants tile. The variants window is displayed</p> <img alt="" captionBottom="" imageRotate="0" src="assets/multi_template_variants.png" title="" /><p>You can add or remove variants. To add a variant, complete the <strong>New content variant</strong> window.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/multi_template_newvariant.png" title="" />
+    <note>
+     <p> Do not delete the "default" variant as it is the variant sent to profiles without a completed preferred language parameter. </p> 
+    </note></li>
+   <li><p>Customize label variant if needed and click on confirm.</p> </li>
+   <li><p>You can also directly add the content for each variant.</p> </li>
+  </ol>
+  <p>You are now ready to create an email or an SMS message based on this multilingual template.</p> 
+  <p><strong>Related topics:</strong></p> 
+  <ul>
+   <li><p> <a href="../../channels/using/creating-a-multilingual-email.md">Creating a multilingual email</a></p> </li>
+   <li><p> <a href="../../audiences/using/creating-profiles.md">Creating profiles</a></p> </li>
+  </ul>
+ </body>
+</html>

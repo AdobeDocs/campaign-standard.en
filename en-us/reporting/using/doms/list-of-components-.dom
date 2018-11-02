@@ -1,0 +1,333 @@
+<html>
+ <head>
+  <meta content="2018-07-27T03:26:33.069-0400" name="locHandOffDate" />
+  <meta content="Find here the list of every components available in Dynamic reports as well as their definitions." name="seoDescription" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="db1e2c4b-c312-4e6d-9592-43c17757144c" name="jcr:predecessors" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="List of components " name="jcr:description" />
+  <meta content="2018-07-23T06:00:10.696-0400" name="firstPublishExternalDate" />
+  <meta content="2018-07-27T03:26:33.071-0400" name="cq:lastModified" />
+  <meta content="2018-03-15T09:03:02.772-0400" name="jcr:created" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="https://helpx.adobe.com/campaign/standard/reporting/using/list-of-components-.html" name="publishExternalURL" />
+  <meta content="audience:reporting" name="primaryAudienceTag" />
+  <meta content="0e2fab02-b0d3-49c6-9fb3-fdeb0bdc99c1" name="jcr:uuid" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-07-23T06:00:10.696-0400" name="lastPublishExternalDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="light" name="heroGradient" />
+  <meta content="List of components " name="jcr:title" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-07-23T06:00:10.696-0400" name="topicBrowsingSortDate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:reporting;content_type:reference;topic_tags:about-reporting" name="cq:tags" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="List of components " name="navTitle" />
+  <meta content="2018-07-23T06:00:10.739-0400" name="cq:lastReplicated" />
+  <meta content="2018-07-23T06:00:10.696-0400" name="publishExternalDate" />
+ </head>
+ <body>
+  <h2>Dimensions</h2>
+  <p>The table below gives you the list of dimensions used in reports and their definitions.</p> 
+  <table> 
+   <thead> 
+    <tr> 
+     <th> Dimension<br /> </th> 
+     <th> Definition<br /> </th> 
+    </tr> 
+   </thead> 
+   <tbody> 
+    <tr> 
+     <td> Browser<br /> </td> 
+     <td> Browser from which the message was opened or clicked on.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Campaign<br /> </td> 
+     <td> Label and ID of your campaign.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> City<br /> </td> 
+     <td> City registered in the recipient's profile.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Country<br /> </td> 
+     <td> Country registered in the recipient's profile.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Delivery<br /> </td> 
+     <td> Label and ID of the delivery.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Device<br /> </td> 
+     <td> Device from which the message was opened or clicked on.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Gender<br /> </td> 
+     <td> Recipient's gender such as male or female. If the gender field is empty in the recipient's profile, the value will be none.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Message type<br /> </td> 
+     <td> Channel used for the delivery, such as email, SMS or push notification.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Platform<br /> </td> 
+     <td> Platform of the device from which the message was opened or clicked on.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Profiles<br /> </td> 
+     <td> Regroups out-of-the-box and custom profile fields created during the profile resource extension, for more on this refer to this <a href="../../developing/using/key-steps.md">page</a> or this <a href="../../reporting/using/creating-a-custom-profile-dimension.md">example</a>.<br /> Note that data for this dimension is retrieved as soon as the custom resource linked to the profile field is published.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Push notification Mobile App<br /> </td> 
+     <td> Mobile app ID of the push notification.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Push platform<br /> </td> 
+     <td> Platform of the device from which the push notification was opened, such as iOS or Android.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Recipient domain<br /> </td> 
+     <td> Domain used to open the email.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Recurring delivery<br /> </td> 
+     <td> Label and ID of the recurring delivery.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Sender domain<br /> </td> 
+     <td> Domain used to send the email.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Sender IP<br /> </td> 
+     <td> IP used to send the email.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> State<br /> </td> 
+     <td> State registered in the recipient's profile.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Tracking URL<br /> </td> 
+     <td> URL that was clicked on by the user from the message.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Tracking URL category<br /> </td> 
+     <td> Category assigned to the tracking URL.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Tracking URL label<br /> </td> 
+     <td> Label given to the URL, such as mirror page, contact us or open.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Transactional delivery<br /> </td> 
+     <td> Label and ID of the transactional delivery.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Variant<br /> </td> 
+     <td> Variant of the email in case of A/B testing.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Zip code<br /> </td> 
+     <td> Zip code registered in the recipient's profile.<br /> </td> 
+    </tr> 
+   </tbody> 
+  </table>
+  <h2>Metrics</h2>
+  <p>The table below gives you the list of metrics used in reports and their definitions.</p> 
+  <table> 
+   <thead> 
+    <tr> 
+     <th> Metric<br /> </th> 
+     <th> Definition<br /> </th> 
+    </tr> 
+   </thead> 
+   <tbody> 
+    <tr> 
+     <td> Blacklisted<br /> </td> 
+     <td> Number of recipients who have declared an email as spam or junk.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Blacklisted rate<br /> </td> 
+     <td> Percentage of deliveries marked as blacklisted.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Bounces + Errors<br /> </td> 
+     <td> Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Bounce + Error rate<br /> </td> 
+     <td> Percentage of emails that bounced compared to email sent.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Click<br /> </td> 
+     <td> Number of times a content was clicked in a delivery.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Click through rate<br /> </td> 
+     <td> Percentage of clicks in a delivery.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Delivered<br /> </td> 
+     <td> Number of messages successfully sent, in relation to the total number of sent messages.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Delivered rate<br /> </td> 
+     <td> Percentage of messages successfully sent.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Hard bounce<br /> </td> 
+     <td> Total number of permanent errors, such as a wrong email address.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Hard bounce rate<br /> </td> 
+     <td> Percentage of deliveries that failed due to permanent errors.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Mirror page<br /> </td> 
+     <td> Number of recipients who clicked on the mirror page link.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Mirror page rate<br /> </td> 
+     <td> Percentage of clicks on the mirror page link compared to the total delivery messages.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Open<br /> </td> 
+     <td> Number of times a message was opened in a delivery<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Open rate<br /> </td> 
+     <td> Percentage of opened messages.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Quarantine<br /> </td> 
+     <td> Number of messages that bounced and resulted in the quarantine of the address.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Quarantine rate<br /> </td> 
+     <td> Percentage of quarantines compared to sent messages.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Rejected<br /> </td> 
+     <td> Number of messages classified as spam by the SMTP servers.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Rejected rate<br /> </td> 
+     <td> Percentage of messages marked as rejected.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Sent<br /> </td> 
+     <td> Total number of sends for the delivery.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Soft bounce<br /> </td> 
+     <td> Total number of temporary errors, such as a full inbox.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Soft bounce rate<br /> </td> 
+     <td> Percentage of deliveries that failed due to temporary reason.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Unique Clicks<br /> </td> 
+     <td> Number of recipients who clicked on a content in a delivery.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Unique Opens<br /> </td> 
+     <td> Number of recipients who opened the delivery.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Unsubscribe rate<br /> </td> 
+     <td> Percentage of unsubscriptions by recipient compared to the delivered messages.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Unsubscribed<br /> </td> 
+     <td> Number of clicks on the unsubscription link.<br /> </td> 
+    </tr> 
+   </tbody> 
+  </table>
+  <h2>Segments</h2>
+  <p>The table below gives you the list of segments used in reports and their definitions.</p> 
+  <table> 
+   <thead> 
+    <tr> 
+     <th> Segment<br /> </th> 
+     <th> Definition<br /> </th> 
+    </tr> 
+   </thead> 
+   <tbody> 
+    <tr> 
+     <td> Age: Boomers 1<br /> </td> 
+     <td> Recipients born from 1946 to 1954.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Age: Boomers 2<br /> </td> 
+     <td> Recipients born from 1955 to 1965.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Age: From 18 to 25<br /> </td> 
+     <td> Recipients from 18 to 25 years old.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Age: From 26 to 30<br /> </td> 
+     <td> Recipients from 26 to 30 years old.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Age: From 31 to 40<br /> </td> 
+     <td> Recipients from 31 to 40 years old.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Age: From 41 to 50<br /> </td> 
+     <td> Recipients from 41 to 50 years old.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Age: Generation X<br /> </td> 
+     <td> Recipients born from 1966 to 1976.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Age: Generation Y (Millennials)<br /> </td> 
+     <td> Recipients born from 1977 to 1994.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Age: Generation Z<br /> </td> 
+     <td> Recipients born from 1995 to today.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Age: Greater than 50<br /> </td> 
+     <td> Recipients whose age is greater than 50.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Age: Less than 25<br /> </td> 
+     <td> Recipients whose age is less than 25.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Age: Less than 30<br /> </td> 
+     <td> Recipients whose age is less than 30.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Age: Less than 40<br /> </td> 
+     <td> Recipients whose age is less than 40.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Age: Less than 50<br /> </td> 
+     <td> Recipients whose age is less than 50.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> Age: Silent Generation<br /> </td> 
+     <td> Recipients born in 1945 or before.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> All visits<br /> </td> 
+     <td> Every recipient<br /> </td> 
+    </tr> 
+   </tbody> 
+  </table>
+ </body>
+</html>

@@ -1,0 +1,84 @@
+<html>
+ <head>
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-07-26T02:53:52.163-0400" name="cq:lastModified" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-07-26T02:53:52.163-0400" name="locHandOffDate" />
+  <meta content="2018-07-23T08:13:50.140-0400" name="publishExternalDate" />
+  <meta content="audience:designing" name="primaryAudienceTag" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-03-15T09:02:42.371-0400" name="jcr:created" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="a10809bf-8292-43c6-90b4-49943ff85735" name="jcr:predecessors" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="light" name="heroGradient" />
+  <meta content="6c3c7690-346e-4648-8c54-d79a5ae2e36b" name="jcr:uuid" />
+  <meta content="Adding a content block" name="jcr:title" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-07-23T05:58:39.470-0400" name="firstPublishExternalDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="Discover the various out-of-the-box dynamic content blocks you can use to personalize your messages and learn how to create custom content blocks." name="seoDescription" />
+  <meta content="2018-07-23T08:13:50.140-0400" name="topicBrowsingSortDate" />
+  <meta content="2018-07-23T08:13:50.140-0400" name="lastPublishExternalDate" />
+  <meta content="Adding a content block" name="navTitle" />
+  <meta content="Adding a content block" name="jcr:description" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="https://helpx.adobe.com/campaign/standard/designing/using/adding-a-content-block.html" name="publishExternalURL" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:personalizing-content" name="cq:tags" />
+  <meta content="2018-07-23T08:13:50.191-0400" name="cq:lastReplicated" />
+ </head>
+ <body>
+  <p>Adobe Campaign offers a list of pre-configured content blocks. These content blocks are dynamic, personalized and have a specific rendering. For example, you can add a greeting or a link to the mirror page.</p> 
+  <note>
+   <p> The images below show how to insert a content block using the <a href="../../designing/using/about-email-content-design.md#using-the-email-content-editor">content editor</a>. </p> 
+  </note>
+  <p>To add a content block, click inside a text block and click the <strong>Insert content block</strong> button in the toolbar (refer to <a href="../../designing/using/about-email-content-design.md#email-content-editor-toolbar">Email content editor toolbar</a>).</p> 
+  <p>Select the content block that you would like to insert. The blocks available vary depending on the context (email or landing page).</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/delivery_content_23.png" title="" />
+  <p>The name of the content block appears in the editor and it is highlighted in yellow. It will automatically adapt to the recipient profile when the personalization is generated.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/delivery_content_24.png" title="" />
+  <p>The out-of-the-box content blocks are:</p> 
+  <ul>
+   <li><p>Database URL in emails (EmailUrlBase): This content block can only be used in a <strong>delivery</strong>.</p> </li>
+   <li><p>Mirror page URL (MirrorPageUrl): This content block can only be used in a <strong>delivery</strong>.</p> </li>
+   <li><p>Link to mirror page (MirrorPage): This content block can only be used in a <strong>delivery</strong>.</p> </li>
+   <li><p>Greetings</p> </li>
+   <li><p>Unsubscription link (UnsubscriptionLink): This content block can only be used in a <strong>delivery</strong>.</p> </li>
+   <li><p>Social network sharing links (LandingPageViralLinks): This content block can only be used in a <strong>landing page</strong>.</p> </li>
+   <li><p>Default sender name (DefaultSenderName): This content block can only be used in a <strong>delivery</strong>.</p> </li>
+   <li><p>Name of default reply-to email address (DefaultReplyName): This content block can only be used in a <strong>delivery</strong>.</p> </li>
+   <li><p>Email address of default sender (DefaultSenderAddress): This content block can only be used in a <strong>delivery</strong>.</p> </li>
+   <li><p>Default error email address (DefaultErrorAddress): This content block can only be used in a <strong>delivery</strong>.</p> </li>
+   <li><p>Default reply-to email address (DefaultReplyAddress): This content block can only be used in a <strong>delivery</strong>.</p> </li>
+   <li><p>Brand name (BrandingUsualName)</p> </li>
+   <li><p>Link to the brand website (BrandingWebSiteLink)</p> </li>
+   <li><p>Brand logo (BrandingLogo)</p> </li>
+   <li><p>Notification style (notificationStyle)</p> </li>
+  </ul>
+  <h2>Creating custom content blocks</h2>
+  <p>You can define new content blocks that will be inserted into a delivery or landing page.</p> 
+  <p>To create a content block, follow these steps:</p> 
+  <ol>
+   <li><p>Click <strong>Resources &gt; Content blocks</strong> from the advanced menu to access the list of content blocks.</p> </li>
+   <li><p>Click the <strong>Create</strong> button or duplicate a pre-existing content block.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/content_bloc_01.png" title="" /></li>
+   <li><p>Enter the block label.</p> </li>
+   <li><p>Select the block's <strong>Content type</strong>. There are three options available:</p> 
+    <ul>
+     <li><p>Shared: The content block can be used in a delivery or a landing page.</p> </li>
+     <li><p>Delivery: The content block can only be used in a delivery.</p> </li>
+     <li><p>Landing page: The content block can only be used in a landing page.</p> </li>
+    </ul><img alt="" captionBottom="" imageRotate="0" src="assets/content_bloc_02.png" title="" /></li>
+   <li><p>You can select the <strong>Depends on format</strong> option to define two different blocks for HTML emails and those that are in text format. Two tabs will then be displayed in the editor (HTML and Text) to define the corresponding contents.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/content_bloc_03.png" title="" /></li>
+   <li><p>Enter the content of the content block(s), and click the <strong>Create</strong> button.</p> <p>Your content block can now be used in the content editor of a delivery or a landing page.</p> </li>
+  </ol>
+ </body>
+</html>

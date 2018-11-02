@@ -1,0 +1,56 @@
+<html>
+ <head>
+  <meta content="2018-07-25T09:29:58.264-0400" name="locHandOffDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-07-23T05:57:50.716-0400" name="lastPublishExternalDate" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="audience:automating" name="primaryAudienceTag" />
+  <meta content="2018-07-23T05:57:50.716-0400" name="publishExternalDate" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:importing-and-exporting-data" name="cq:tags" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2018-03-15T09:01:18.132-0400" name="jcr:created" />
+  <meta content="2018-07-23T05:57:50.716-0400" name="topicBrowsingSortDate" />
+  <meta content="About data import and export" name="jcr:title" />
+  <meta content="2018-07-23T05:57:50.829-0400" name="cq:lastReplicated" />
+  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/about-data-import-and-export.html" name="publishExternalURL" />
+  <meta content="2018-07-25T09:29:58.264-0400" name="cq:lastModified" />
+  <meta content="Learn about the different ways to import and export data with Adobe Campaign." name="seoDescription" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="d6ddf720-86a5-4a65-bdae-6a61be0aa002" name="jcr:uuid" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-07-23T05:57:50.716-0400" name="firstPublishExternalDate" />
+  <meta content="About data import and export" name="navTitle" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="About data import and export" name="jcr:description" />
+  <meta content="b0ca7e74-36e9-4047-8f8c-0ccaee663cd9" name="jcr:predecessors" />
+ </head>
+ <body>
+  <p>Depending on your business needs, you have several ways to import and export data with Adobe Campaign:</p> 
+  <ul>
+   <li><p><strong>Packages</strong>: packages are XML files that allow you to export and import configurations and sets of data from an Adobe Campaign instance to another one. System updates are also performed through package imports.</p> </li>
+   <li><p><strong>Lists</strong>: all list screens can be configured and the displayed data exported in a separate file.</p> </li>
+   <li><p><strong>Workflows</strong>: import data from files and use it to update the database or send emails. You can also select data to export in files. Workflows are the best way to automate regular updates, like profile imports.</p> </li>
+  </ul>
+  <p>When designing import processes, it is a best practice to use workflow templates that you can adapt to fit your needs. For more on how to set up a workflow template to import data, refer to <a href="../../automating/using/importing-data.md#example--import-workflow-template">this use case</a>.</p> 
+  <p>Adobe Campaign also offers a simplified way to perform regular imports which consists in designing <strong>import templates</strong>. Import templates are specialized workflow templates available through a dedicated screen. Once designed, the user performing the import only has to upload the file to import in a simplified view.</p> 
+  <p><strong>Related topics</strong>:</p> 
+  <ul>
+   <li><p> <a href="../../automating/using/importing-data-with-import-templates.md" target="_blank">Importing data with import templates</a></p> </li>
+   <li><p> <a href="../../automating/using/defining-import-templates.md" target="_blank">Defining import templates</a></p> </li>
+   <li><p> <a href="../../automating/using/managing-packages.md" target="_blank">Managing packages</a></p> </li>
+   <li><p> <a href="../../automating/using/importing-data.md" target="_blank">Importing data</a></p> </li>
+  </ul>
+ </body>
+</html>

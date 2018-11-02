@@ -1,0 +1,75 @@
+<html>
+ <head>
+  <meta content="f3262277-6875-4c02-a2ca-875a384fafd0" name="jcr:predecessors" />
+  <meta content="2018-07-25T09:29:10.676-0400" name="cq:lastModified" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-07-23T05:55:19.830-0400" name="lastPublishExternalDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="light" name="heroGradient" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="audience:audiences" name="primaryAudienceTag" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="8e7f824f-612c-45cd-ab5b-943b6dc4b466" name="jcr:uuid" />
+  <meta content="2018-07-25T09:29:10.676-0400" name="locHandOffDate" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-07-23T05:55:19.830-0400" name="topicBrowsingSortDate" />
+  <meta content="Creating profiles" name="jcr:title" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="https://helpx.adobe.com/campaign/standard/audiences/using/creating-profiles.html" name="publishExternalURL" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:audiences;content_type:reference;topic_tags:managing-profiles" name="cq:tags" />
+  <meta content="2018-07-23T05:55:19.872-0400" name="cq:lastReplicated" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2018-07-23T05:55:19.830-0400" name="publishExternalDate" />
+  <meta content="Learn how to create profiles and collect data on your contacts, using APIs, import capabilities, online acquisition, automatic or manual updates." name="seoDescription" />
+  <meta content="Creating profiles" name="jcr:description" />
+  <meta content="2018-03-15T09:01:37.426-0400" name="jcr:created" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Creating profiles" name="navTitle" />
+  <meta content="2018-07-23T05:55:19.830-0400" name="firstPublishExternalDate" />
+ </head>
+ <body>
+  <p>In Adobe Campaign, profiles are used by default to define the main target of messages. </p> 
+  <p>To create or update a profile in Campaign, you can:</p> 
+  <ul>
+   <li><p>Import a profile list from a file, via a <a href="https://docs.campaign.adobe.com/doc/standard/en/Videos/importing_profiles.mp4">workflow</a></p> </li>
+   <li><p>Collect data online, via <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_CreateLandingPage.html">landing pages</a></p> </li>
+   <li><p>Create bulk via <a href="http://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html">REST API</a></p> </li>
+   <li><p>Enter data using the graphical interface screens, as explained below</p> </li>
+  </ul>
+  <p>As an example, to create a new profile directly in the user interface, follow the steps below:</p> 
+  <ol>
+   <li><p>From the Adobe Campaign home page, click the <strong>Customer Profiles</strong> card or the <strong>Profiles</strong> tab to access the list of profiles.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/profile_creation_1.png" title="" /></li>
+   <li><p>Then click <strong>Create</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/profile_creation.png" title="" /></li>
+   <li><p>Enter the profile data.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/profile_creation1.png" title="" />
+    <ul>
+     <li><p>The contact information, such as first name, last name, gender, date of birth, photo, preferred language (for <a href="../../channels/using/creating-a-multilingual-email.md">multilingual emails</a>) helps better personalize deliveries.</p> </li>
+     <li><p>The <strong>Channels</strong> category, which contains the email address, mobile phone number, opt-out information, lets you know on which channel the profile is reachable.</p> </li>
+     <li><p>The <strong>No longer contact</strong> category is updated as soon as the profile unsubscribe to a channel.</p> </li>
+     <li><p>The <strong>Address</strong> category contains the postal address that needs to be filled along with the <strong>Address specified</strong> option to send <a href="../../channels/using/about-direct-mail.md">direct mail</a> to this profile. If the <strong>Address specified </strong>option is not checked, this profile will be excluded from every direct mail delivery. </p> <p>The profile's <strong>Time zone</strong> is used to send deliveries at the profile's time zone. For more on this, refer to this <a href="../../sending/using/sending-messages-at-the-recipient-s-time-zone.md">section</a>. </p> </li>
+     <li><p>The <strong>Access authorization</strong> category indicates the profile's geographical and organizational units (to <a href="../../administration/using/about-access-management.md">manage permissions</a>). See also <a href="../../administration/using/organizational-and-geographical-units.md#partitioning-profiles">Partitioning profiles</a>.</p> </li>
+     <li><p>The <strong>Traceability</strong> category automatically updates with information concerning the user who created or modified the profile.</p> </li>
+    </ul></li>
+   <li><p>Click <strong>Create</strong> to save the profile.</p> </li>
+  </ol>
+  <p>The profile will now appear in the list.</p> 
+  <p>Profiles can also be partitioned depending on their organizational and geographical units. To add the organizational and geographical fields to your profiles, refer to the <a href="../../administration/using/organizational-and-geographical-units.md#partitioning-profiles">Partitioning profiles</a> section.</p> 
+  <note>
+   <p> The preferred language field is used to select the language when sending multilingual messages. For more information about the multilingual messages <a href="../../channels/using/creating-a-multilingual-email.md">refer to this page</a>. </p> 
+  </note>
+  <p><strong>Related topics:</strong></p> 
+  <ul>
+   <li><p> <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_CreateLandingPage.html">Creating a landing page</a> step-by-step guide</p> </li>
+   <li><p> <a href="https://docs.campaign.adobe.com/doc/standard/en/Videos/importing_profiles.mp4">Importing profiles</a></p> </li>
+   <li><p> <a href="http://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html">Adobe Campaign REST API Documentation</a> (<strong>Quick Starts</strong> &gt; <strong>How to create a profile</strong>)</p> </li>
+  </ul>
+ </body>
+</html>

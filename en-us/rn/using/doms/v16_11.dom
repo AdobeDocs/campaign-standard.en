@@ -1,0 +1,94 @@
+<html>
+ <head>
+  <meta content="2018-01-10T15:33:49.878-0500" name="publishExternalDate" />
+  <meta content="v16.11" name="navTitle" />
+  <meta content="2017-11-16T10:46:27.188-0500" name="firstPublishExternalDate" />
+  <meta content="2017-11-28T11:30:39.846-0500" name="locHandOffDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="audience:rn" name="primaryAudienceTag" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2018-01-11T19:02:26.644-0500" name="jcr:created" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="ecbae3e0-2b5a-46af-9503-5854a95842b9" name="jcr:predecessors" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="11/09/2016" name="jcr:description" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-01-10T15:33:49.883-0500" name="cq:lastModified" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="v16.11" name="jcr:title" />
+  <meta content="https://helpx.adobe.com/campaign/standard/rn/using/v16_11.html" name="publishExternalURL" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-01-10T15:33:49.878-0500" name="topicBrowsingSortDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="sauviat" name="cq:lastModifiedBy" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="light" name="heroGradient" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="5419d17d-adbc-438c-93d4-2d755e34d367" name="jcr:uuid" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:rn;content_type:reference;topic_tags:adobe-campaign-standard-release-notes" name="cq:tags" />
+  <meta content="2018-01-10T15:33:49.878-0500" name="lastPublishExternalDate" />
+ </head>
+ <body>
+  <h2>Improvements</h2>
+  <table> 
+   <thead> 
+    <tr> 
+     <th> Functionality </th> 
+     <th> Description </th> 
+    </tr> 
+   </thead> 
+   <tbody> 
+    <tr> 
+     <td> Deliverability exclusion rules </td> 
+     <td> An encrypted global suppression list is now managed in the deliverability instance to avoid being blacklisted due to malicious activity, especially the use of a Spamtrap. For each email delivery, two default typology rules compare the recipient email addresses with the forbidden addresses or domain names contained in this list. If there is a match, that recipient is excluded from the target population. For more information, refer to the . </td> 
+    </tr> 
+    <tr> 
+     <td> General optimization </td> 
+     <td> This update includes numerous changes and patches that fix issues encountered by our clients. The global platform performances have also been optimized. </td> 
+    </tr> 
+   </tbody> 
+  </table>
+  <h2>Patches</h2>
+  <h3>General</h3>
+  <ul>
+   <li><p>Fixed several security issues.</p> </li>
+   <li><p>Fixed several issues regarding empty fields or duplicate fields in the REST API.</p> </li>
+   <li><p>You can now create SMS messages and push notifications directly from the home page of the application.</p> </li>
+  </ul>
+  <h3>Emails and SMS messages</h3>
+  <ul>
+   <li><p>Fixed an issue that prevented users from uploading zip files in the content editor.</p> </li>
+   <li><p>Fixed an issue that prevented opening a proof after sending it.</p> </li>
+   <li><p>Fixed an issue that led to an error message displaying when accessing the <strong>Hot Clicks</strong> report on an A/B test email.</p> </li>
+   <li><p>Fixed an issue that prevented modifications made using the <strong>Show source</strong> mode from being applied.</p> </li>
+   <li><p>Fixed an issue that could prevent predictive subject line xml model files from being imported.</p> </li>
+   <li><p>A new screen dedicated to importing data for the subject line trained model is now available in <strong>Administration &gt; Channels &gt; Emails &gt; Predictive Subject Line</strong>.</p> </li>
+   <li><p>Fixed an issue that allowed non admin users to edit the authorized masks in the email configuration screen. </p> </li>
+  </ul>
+  <h3>Push notifications</h3>
+  <ul>
+   <li><p>Fixed an issue that prevented sending logs and event logs from being displayed for the recipients after sending a push notification using the <strong>Send push on profiles</strong> template.</p> </li>
+   <li><p>Fixed an issue that could prevent new mobile applications from being created.</p> </li>
+  </ul>
+  <h3>Workflows</h3>
+  <ul>
+   <li><p>Fixed a performance issue that occured when using the <strong>Subscription</strong> activity.</p> </li>
+   <li><p>Fixed an issue that prevented a workflow from functioning when its internal name contained a space. </p> </li>
+  </ul>
+  <h3>Integrations</h3>
+  <ul>
+   <li><p>Fixed an issue that could lead to an error being displayed when using the <strong>Image shared from Adobe Marketing Cloud</strong> option in an email.</p> </li>
+  </ul>
+  <h3>Custom resources</h3>
+  <ul>
+   <li><p>Enhanced APIs log preview between two publications of extended API fields.</p> </li>
+   <li><p>Fixed an issue that prevented a custom resource from being deleted before it was published.</p> </li>
+   <li><p>Fixed an issue that prevented profiles from being extended and identifier keys from being set with a dynamic field.</p> </li>
+   <li><p>Fixed an issue that could occur when adding links in a custom resource.</p> </li>
+  </ul>
+ </body>
+</html>

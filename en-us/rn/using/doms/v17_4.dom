@@ -1,0 +1,117 @@
+<html>
+ <head>
+  <meta content="sauviat" name="cq:lastModifiedBy" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="light" name="heroGradient" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:rn;content_type:reference;topic_tags:adobe-campaign-standard-release-notes" name="cq:tags" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2017-11-28T11:30:20.574-0500" name="locHandOffDate" />
+  <meta content="f4cc8452-fbd6-4b86-a28f-e9ca8c8d00b8" name="jcr:predecessors" />
+  <meta content="https://helpx.adobe.com/campaign/standard/rn/using/v17_4.html" name="publishExternalURL" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-01-10T15:33:51.801-0500" name="lastPublishExternalDate" />
+  <meta content="2017-11-16T10:46:15.457-0500" name="firstPublishExternalDate" />
+  <meta content="audience:rn" name="primaryAudienceTag" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-01-10T15:33:51.801-0500" name="publishExternalDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-01-10T15:33:51.801-0500" name="topicBrowsingSortDate" />
+  <meta content="7831311b-b277-4ad1-8731-fb9c4cea0184" name="jcr:uuid" />
+  <meta content="2018-01-10T15:33:51.810-0500" name="cq:lastModified" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="04/18/2017" name="jcr:description" />
+  <meta content="v17.4" name="jcr:title" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="v17.4" name="navTitle" />
+  <meta content="2018-01-11T19:02:00.566-0500" name="jcr:created" />
+ </head>
+ <body>
+  <h2>Improvements</h2>
+  <table> 
+   <thead> 
+    <tr> 
+     <th> Functionality </th> 
+     <th> Description </th> 
+    </tr> 
+   </thead> 
+   <tbody> 
+    <tr> 
+     <td> Enhanced Image edition capabilities with the Creative SDK </td> 
+     <td> You now have access to a complete set of features powered by the Creative SDK to enhance your images directly in the content editor when editing emails or landing pages. This feature does not require the acquisition of additional Creative Cloud solutions. For more information, refer to the . </td> 
+    </tr> 
+    <tr> 
+     <td> Transactional push notifications </td> 
+     <td> The Mobile application channel has been added to Adobe Campaign's transactional messaging capabilities. Three channels are now supported for transactional messages: email, SMS and push notifications. For more information, refer to the <a href="../../channels/using/transactional-push-notifications.md">detailed documentation</a>. </td> 
+    </tr> 
+    <tr> 
+     <td> Recurring push notifications </td> 
+     <td> You can now configure recurring push notifications in a workflow. You can use recurring push notifications in situations where your customers expect periodic updates like weekly reminders to check out new content or promotions. For more information, refer to the <a href="../../automating/using/mobile-app-delivery.md">detailed documentation</a>. </td> 
+    </tr> 
+    <tr> 
+     <td> Amazon Simple Storage Service (S3) connector </td> 
+     <td> The Amazon Simple Storage Service (S3) connector can now be used to import or export data to Adobe Campaign. It can be set up in a workflow activity. The configuration is done in an external account. For more information, refer to the <a href="../../administration/using/external-accounts.md">detailed documentation</a>. </td> 
+    </tr> 
+    <tr> 
+     <td> Dreamweaver integration live </td> 
+     <td> The integration between Adobe Campaign and Dreamweaver is now live. It now works with the official last released version of Dreamweaver (17.0.2). This requires the installation of Adobe Campaign Integration extension from here: <a href="http://adobe.ly/acdw_addon">http://adobe.ly/acdw_addon</a> For more information, refer to this <a href="http://docs.campaign.adobe.com/doc/standard/en/Videos/ACS_Dreamweaver.mp4">video</a>. </td> 
+    </tr> 
+   </tbody> 
+  </table>
+  <h2>Patches</h2>
+  <h3>Platform</h3>
+  <ul>
+   <li><p>Fixed a memory consumption issue.</p> </li>
+  </ul>
+  <h3>Emails and SMS messages</h3>
+  <ul>
+   <li><p>Fixed an issue where content could not be properly synchronized with the latest changes when previewing a message.</p> </li>
+   <li><p>Fixed an issue which prevented an MX or Domain email processing rule from being created or deleted.</p> </li>
+   <li><p>Fixed an issue that could prevent you from sending emails with multiple aliases.</p> </li>
+   <li><p>Fixed an issue that prevented trap delivery logs from appearing in the sending logs of the delivery.</p> </li>
+   <li><p>Fixed an issue that led to an error when displaying the tracked URLs of a delivery with no URL in its content.</p> </li>
+   <li><p>Fixed an issue that prevented an image's size attributes from being correctly applied in the sent message.</p> </li>
+  </ul>
+  <h3>Transactional messages</h3>
+  <ul>
+   <li><p>The rtEventHistoId field is no longer exposed as a personalization field in a transactional message template.</p> </li>
+  </ul>
+  <h3>Landing pages</h3>
+  <ul>
+   <li><p>We have optimized the <strong>by email</strong> filter used in landing pages to reconcile new subscribers with database profiles.</p> </li>
+   <li><p>Fixed an issue which displayed free text inputs instead of check boxes when using boolean fields in a form configuration.</p> </li>
+   <li><p>Fixed an issue that prevented landing page thumbnails from being generated.</p> </li>
+  </ul>
+  <h3>Workflows</h3>
+  <ul>
+   <li><p>Fixed a display error when editing an <strong>End</strong> or <strong>External Signal</strong> activity (on Safari only).</p> </li>
+   <li><p>Improved the error message displayed when editing a <strong>Read Audience</strong> activity containing an erroneous audience.</p> </li>
+   <li><p>Fixed an issue that could lead to an SQL error when executing a subscription activity.</p> </li>
+  </ul>
+  <h3>Integrations</h3>
+  <ul>
+   <li><p>Points of Interest data: fixed an error that occurred when counting location subscribers.</p> </li>
+  </ul>
+  <h3>Audiences and queries</h3>
+  <ul>
+   <li><p>Fixed an issue that prevented sum and average aggregates from being used on a collection in the query editor.</p> </li>
+   <li><p>Fixed an issue that could prevent the query editor from being reloaded after changing the filter’s resource.</p> </li>
+  </ul>
+  <h3>Reports</h3>
+  <ul>
+   <li><p>Fixed an issue that prevented Open rate metrics to be correctly calculated when selecting multiple rows in a table.</p> </li>
+   <li><p>Fixed an error that only showed metrics as integer values. Metrics can now be displayed with decimals.</p> </li>
+  </ul>
+  <h3>Push notifications</h3>
+  <ul>
+   <li><p>Fixed an issue where an error message was not displayed when creating an Android application linked to a mobile app that had failed being created on MCPNS.</p> </li>
+   <li><p>Fixed an issue that allowed a user to add sounds to a silent notification.</p> </li>
+  </ul>
+ </body>
+</html>

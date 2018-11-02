@@ -1,0 +1,53 @@
+<html> 
+ <head> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2018-06-14T08:43:37.917-0400" name="firstPublishExternalDate" /> 
+  <meta content="Design best practices" name="navTitle" /> 
+  <meta content="Read about these guidelines to ensure the editor's optimal operation." name="seoDescription" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="https://helpx.adobe.com/campaign/standard/designing/using/design-best-practices.html" name="publishExternalURL" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-06-14T08:43:37.917-0400" name="lastPublishExternalDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2018-03-15T09:01:47.498-0400" name="jcr:created" /> 
+  <meta content="audience:designing" name="primaryAudienceTag" /> 
+  <meta content="2018-06-25T08:45:00.832-0400" name="locHandOffDate" /> 
+  <meta content="52ce6f3e-7210-4d53-845f-8ca514aa49cb" name="jcr:uuid" /> 
+  <meta content="Design best practices" name="jcr:title" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-06-14T08:43:37.917-0400" name="publishExternalDate" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="34682077-3450-490f-b7d9-3886207dadbd" name="jcr:predecessors" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:about-content-design" name="cq:tags" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2018-06-14T08:43:37.917-0400" name="topicBrowsingSortDate" /> 
+  <meta content="Design best practices" name="jcr:description" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-06-14T08:43:37.939-0400" name="cq:lastReplicated" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="sauviat" name="cq:lastReplicatedBy" /> 
+  <meta content="2018-06-25T08:45:00.832-0400" name="cq:lastModified" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+ </head> 
+ <body> 
+  <p>To ensure the editor's optimal operation, we recommend observing the following guidelines: </p> 
+  <ul> 
+   <li><p>Before <strong>importing an HTML page template</strong> in Adobe Campaign, please make sure the template opens and displays correctly in the various browsers.</p> </li> 
+   <li><p>If the HTML page contains <strong>JavaScript scripts</strong>, they need to execute <strong>without errors</strong> outside of the editor. In general, avoid using scripts in message content to make sure it is correctly processed by email clients.</p> </li> 
+   <li><p>When building a template, we recommend adding a <strong>'type'</strong> attribute to &amp;lt;input&amp;gt; tags. This information will be processed by the editor and help the user to link a database field to the form field when configuring the web application.</p> <p>Example of HTML code in the template: </p> 
+    <codeblock gutter="true" class="syntax html">
+      !!discoiqbr!!&lt;input&amp;nbsp;id="email"&amp;nbsp;type="email"&amp;nbsp;name="email"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+    </codeblock><p>The official list of 'type' attributes is available at the following address: <a href="http://www.w3schools.com/tags/att_input_type.asp">http://www.w3schools.com/tags/att_input_type.asp</a></p> </li> 
+   <li><p>Preview your messages before sending them. Adobe Campaign offers a way to test email rendering using Litmus. For more on this, see <a href="../../sending/using/email-rendering.md">Email rendering</a>.</p> </li> 
+   <li><p>SCSS style sheets are not supported. Use regular CSS if you import ZIP files containing your HTML content.</p> </li> 
+  </ul> 
+  <p>More design and general best practices regarding messages are presented in the following Adobe Campaign step-by-step guide: <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html ">Delivery best practices with Adobe Campaign</a>.</p> 
+ </body> 
+</html>

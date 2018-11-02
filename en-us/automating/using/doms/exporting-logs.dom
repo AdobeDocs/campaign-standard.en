@@ -1,0 +1,71 @@
+<html>
+ <head>
+  <meta content="en_us" name="jcr:language" />
+  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/exporting-logs.html" name="publishExternalURL" />
+  <meta content="a2cadfe5-05b6-49c2-a913-533fcaa579e3" name="jcr:predecessors" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="audience:automating" name="primaryAudienceTag" />
+  <meta content="6617cba6-95bc-4853-ad72-354773705152" name="jcr:uuid" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-07-23T05:57:55.338-0400" name="cq:lastReplicated" />
+  <meta content="2018-07-23T05:57:55.259-0400" name="topicBrowsingSortDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="2018-07-23T05:57:55.259-0400" name="lastPublishExternalDate" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:importing-and-exporting-data" name="cq:tags" />
+  <meta content="2018-07-23T05:57:55.259-0400" name="publishExternalDate" />
+  <meta content="Exporting logs" name="jcr:description" />
+  <meta content="2018-07-23T05:57:55.259-0400" name="firstPublishExternalDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Exporting logs" name="navTitle" />
+  <meta content="light" name="heroGradient" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="Exporting logs" name="jcr:title" />
+  <meta content="2018-07-25T09:29:59.434-0400" name="cq:lastModified" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-03-15T09:02:00.687-0400" name="jcr:created" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="Log data, whether they are related to deliveries or to subscriptions, can be exported through a simple workflow." name="seoDescription" />
+  <meta content="2018-07-25T09:29:59.434-0400" name="locHandOffDate" />
+ </head>
+ <body>
+  <p>Log data, whether they are related to deliveries or to subscriptions, can be exported through a simple workflow. It enables you to analyze the results of your campaigns in your own reporting or BI tool.</p> 
+  <p>By using an <strong>Incremental query</strong> that only retrieves new logs every time the workflow is executed and a simple <strong>Extract file</strong> activity to define the output columns, you can get a file with the format and all the data you need. Then use a <strong>Transfer file</strong> activity to retrieve the final file. Each workflow execution is planned by a <strong>Scheduler</strong>. </p> 
+  <p>The export logs operation can be carried out by standard users. Private resources such as: broadlogs, tracking logs, exclusion logs subscription logs and subscription history logs on <strong>Profiles</strong> can only be managed by functional administrator.</p> 
+  <ol>
+   <li><p>Create a new workflow as detailed in <a href="../../automating/using/building-a-workflow.md#creating-a-workflow">this section</a>.</p> </li>
+   <li><p>Add a <strong>Scheduler</strong> activity and set it according to your needs. Below is an example of a monthly execution.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/export_logs_scheduler.png" title="" /></li>
+   <li><p>Add an <strong>Incremental query</strong> activity and configure it so that it selects the logs you need. For example, to select all new or updated broadlogs (profile delivery logs):</p> 
+    <ul>
+     <li><p>In the <strong>Properties</strong> tab, change the target resource to <strong>Delivery logs</strong> (broadLogRcp).</p> <img alt="" captionBottom="" imageRotate="0" src="assets/export_logs_query_properties.png" title="" /></li>
+     <li><p>In the <strong>Target</strong> tab, set a condition to retrieve all delivery logs that correspond to deliveries sent in 2016 or after. For more information, refer to the <a href="../../automating/using/editing-queries.md#creating-queries">Editing queries</a> section.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/export_logs_query_target.png" title="" /></li>
+     <li><p>In the <strong>Processed data</strong> tab, select <strong>Use a date field</strong> and choose the <strong>lastModified</strong> field. On the next executions of the workflow, only logs that will have been modified or created after the last execution will be retrieved.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/export_logs_query_processeddata.png" title="" /><p>After the first execution of the workflow, you can see in this tab the last execution date that will be used for the next execution. It is automatically updated every time the workflow is executed. You still have the possibility to override this value by manually entering a new one so that it fits your needs.</p> </li>
+    </ul></li>
+   <li><p>Add an <strong>Extract file</strong> activity that will export the queried data in a file:</p> 
+    <ul>
+     <li><p>In the <strong>Extraction</strong> tab, specify the name of the file. This name will be automatically completed with the date of the export to ensure all extracted files are unique.</p> <p>Select the columns that you want to export in your file. You can select here data coming from related resources such as delivery or profile information. To organize the final file, you can apply a sort. For example on the log date, as shown in the example below.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/export_logs_extractfile_extraction.png" title="" />
+      <note>
+       <p> It is not possible to export unique identifiers (primary keys) of log resources. </p> 
+      </note></li>
+     <li><p>In the <strong>File structure</strong> tab, define the format of the output file to match your needs.</p> <p>Check the <strong>Export labels instead of internal values of enumerations</strong> option in case you export enumeration values. This option allows to retrieve shorter labels that are easy to understand instead of IDs.</p> </li>
+    </ul></li>
+   <li><p>Add a <strong>Transfer file</strong> activity and configure it to transfer the newly created file from the Adobe Campaign server to another location where you can access it, such as a SFTP server.</p> 
+    <ul>
+     <li><p>In the <strong>General</strong> tab, select <strong>File upload</strong> as the purpose is to send the file from Adobe Campaign to another server.</p> </li>
+     <li><p>In the <strong>Protocol</strong> tab, specify the transfer parameters and select the <a href="../../administration/using/external-accounts.md#creating-an-external-account">external account</a> to use.</p> </li>
+    </ul></li>
+   <li><p>Add an <strong>End</strong> activity to make sure it properly ends and save your workflow.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/export_logs_example_workflow.png" title="" /></li>
+  </ol>
+  <p>You can now execute the workflow and retrieve the output file on your external server.</p> 
+  <p><strong>Related topic:</strong></p> 
+  <p> <a href="../../automating/using/discovering-workflows.md">Workflows</a></p> 
+ </body>
+</html>

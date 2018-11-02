@@ -1,0 +1,97 @@
+<html>
+ <head>
+  <meta content="" name="jcr:primaryType" />
+  <meta content="80d001cd-c35b-4348-b291-980474265566" name="jcr:predecessors" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:rn;content_type:reference;topic_tags:adobe-campaign-standard-release-notes" name="cq:tags" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-01-10T15:33:48.207-0500" name="lastPublishExternalDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="3d2498f2-b952-462e-8a88-d8eccc5708a4" name="jcr:uuid" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="v16.10" name="jcr:title" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="sauviat" name="cq:lastModifiedBy" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-01-10T15:33:48.212-0500" name="cq:lastModified" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-01-11T19:02:01.154-0500" name="jcr:created" />
+  <meta content="2017-11-16T10:46:31.659-0500" name="firstPublishExternalDate" />
+  <meta content="v16.10" name="navTitle" />
+  <meta content="2018-01-10T15:33:48.207-0500" name="publishExternalDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="audience:rn" name="primaryAudienceTag" />
+  <meta content="10/17/2016" name="jcr:description" />
+  <meta content="light" name="heroGradient" />
+  <meta content="https://helpx.adobe.com/campaign/standard/rn/using/v16_10.html" name="publishExternalURL" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2017-11-28T11:30:47.595-0500" name="locHandOffDate" />
+  <meta content="2018-01-10T15:33:48.207-0500" name="topicBrowsingSortDate" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+ </head>
+ <body>
+  <h2>Improvements</h2>
+  <table> 
+   <thead> 
+    <tr> 
+     <th> Functionality </th> 
+     <th> Description </th> 
+    </tr> 
+   </thead> 
+   <tbody> 
+    <tr> 
+     <td> Email predictive subject line </td> 
+     <td> When editing an email, a new option lets you try out different subject lines and get an estimation of its open rate before you send it. This is made possible by training your own model based on your past delivery data or by using a pre-defined model that is specific to your industry. This feature is available for email messages and for databases that contain English contents only. For more information about enabling and using it, refer to the . </td> 
+    </tr> 
+    <tr> 
+     <td> SMS transactional messaging </td> 
+     <td> The SMS channel has been added to Adobe Campaign's transactional messaging capabilities. Two channels are now supported for transactional messages: email and SMS. For more information, refer to the <a href="../../administration/using/transactional-messaging-configuration.md#creating-an-event">detailed documentation</a>. </td> 
+    </tr> 
+    <tr> 
+     <td> Follow-up message for transactional messaging </td> 
+     <td> It is now possible to create a workflow targeting an event. This means that you can send a follow-up message to the customers who previously received a transactional message. You can filter the target by the event type, the event broadlogs and the tracking logs. In the follow-up message, you will be able to leverage the content of the event (payload). For more information, refer to the <a href="../../channels/using/follow-up-messages.md">detailed documentation</a>. </td> 
+    </tr> 
+    <tr> 
+     <td> Extended Profile &amp; Services API </td> 
+     <td> You can now expose extended fields in the Profile and Services API. The publication mechanism allows APIs to map the extended fields of the Profiles or Services custom resources. For this to work, the <strong>Datamodel</strong> role has been added. This new role allows the user to configure a set of administrators who will have access to the data model. For more information, refer to the <a href="../../developing/using/step-5--update-the-database-structure.md#publishing-a-resource-with-api-extension">detailed documentation</a>. </td> 
+    </tr> 
+   </tbody> 
+  </table>
+  <h2>Patches</h2>
+  <h3>General</h3>
+  <ul>
+   <li><p>Fixed several security issues. </p> </li>
+  </ul>
+  <h3>Emails and SMS messages</h3>
+  <ul>
+   <li><p>The SMS external account configuration screen (<strong>Administration &gt; Channels &gt; SMS &gt; SMS accounts</strong>) has been improved. Several parameters have been added in the <strong>SMSC specifics</strong> section to support error codes in the "Text" field.</p> </li>
+  </ul>
+  <h3>Push notifications</h3>
+  <ul>
+   <li><p>Fixed an issue that prevented the predefined filters from being displayed when editing the audience of a push notification based on the <strong>Send via push notification</strong> (mobileApp) template.</p> </li>
+   <li><p>The mobile application configuration screen (<strong>Administration &gt; Channels &gt; Push Notification &gt; Mobile applications</strong>) now displays a message to indicate that the iOS or Android platform has been successfully created.</p> </li>
+  </ul>
+  <h3>Landing pages</h3>
+  <ul>
+   <li><p>Fixed issues that prevented confirmation emails from being sent when a landing page form was submitted.</p> </li>
+  </ul>
+  <h3>Audiences and queries</h3>
+  <ul>
+   <li><p>Fixed several issues that occurred when selecting a profile in the query editor.</p> </li>
+  </ul>
+  <h3>Transactional messages</h3>
+  <ul>
+   <li><p>Fixed an error that prevented a transactional template from being unpublished.</p> </li>
+   <li><p>Fixed an issue that led to trigger events being displayed in the event list.</p> </li>
+  </ul>
+  <h3>Integrations</h3>
+  <ul>
+   <li><p>Fixed an issue that prevented a shared audience from being used in a delivery after that audience was updated.</p> </li>
+   <li><p>Fixed an issue that prevented a shared asset (<strong>Image shared from Adobe Marketing Cloud</strong> option) from being used in a landing page.</p> </li>
+   <li><p>Fixed issues that occurred when editing a shared audience imported from Adobe Audience Manager.</p> </li>
+  </ul>
+ </body>
+</html>

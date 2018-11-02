@@ -1,0 +1,83 @@
+<html>
+ <head>
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Follow-up messages" name="navTitle" />
+  <meta content="2018-07-23T06:03:13.845-0400" name="lastPublishExternalDate" />
+  <meta content="2018-07-23T06:03:13.878-0400" name="cq:lastReplicated" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:channels;content_type:reference;topic_tags:transactional-messaging" name="cq:tags" />
+  <meta content="2018-07-30T04:54:08.339-0400" name="locHandOffDate" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="2018-03-15T09:01:28.109-0400" name="jcr:created" />
+  <meta content="2018-07-23T06:03:13.845-0400" name="publishExternalDate" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Follow-up messages" name="jcr:description" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="2018-07-30T04:54:08.339-0400" name="cq:lastModified" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Learn how to create and publish a follow-up message." name="seoDescription" />
+  <meta content="Follow-up messages" name="jcr:title" />
+  <meta content="6c02a640-efe5-4123-bdf7-bdc793edee2d" name="jcr:uuid" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2018-07-23T06:03:13.845-0400" name="firstPublishExternalDate" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="light" name="heroGradient" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="b590045e-7561-44b8-8a41-366ec54a88f9" name="jcr:predecessors" />
+  <meta content="audience:channels" name="primaryAudienceTag" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="https://helpx.adobe.com/campaign/standard/channels/using/follow-up-messages.html" name="publishExternalURL" />
+  <meta content="2018-07-23T06:03:13.845-0400" name="topicBrowsingSortDate" />
+ </head>
+ <body>
+  <p>You can send a follow-up message to the customers who received a specific transactional message. To do this, you need to set up a workflow targeting the corresponding event.</p> 
+  <p>Let's reuse the example described in the <a href="../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle" target="_blank">Transactional messaging operating principle</a> section: a cart abandonment email is sent to your website users who added products to their cart, but left the site without going through with their purchases.</p> 
+  <p>You want to send a friendly reminder to all of the customers who received the cart abandonment notification but who did not open it after three days.</p> 
+  <p>Each concerned customer will then receive a follow-up message based on the same data that was used in the first email that was sent.</p> 
+  <h2>Accessing the follow-up messages</h2>
+  <p>Once you have created and published an event (the cart abandonment as per the <a href="../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle">example</a> above), the corresponding transactional message and follow-up message are created automatically.</p> 
+  <p>The configuration steps are presented in the <a href="../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message">Configuring an event to send a follow-up message</a> section.</p> 
+  <p>To handle an event in a workflow, a delivery template is required. However, when publishing the event, the <a href="../../channels/using/event-transactional-messages.md">transactional message</a> that is created cannot be used as a template. Therefore, you need to create a specific follow-up delivery template designed to support this event type and to be used as a template in a workflow.</p> 
+  <p>To access this template:</p> 
+  <ol>
+   <li><p>Click the <strong>Adobe Campaign</strong> logo, in the top left corner.</p> </li>
+   <li><p>Select <strong>Resources</strong> &gt; <strong>Templates</strong> &gt; <strong>Delivery templates</strong>.</p> </li>
+   <li><p>Check the <strong>Follow-up messages</strong> box in the left pane.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/message-center_follow-up-search.png" title="" /></li>
+  </ol>
+  <p>Only the follow-up messages are displayed.</p> 
+  <note>
+   <p> To access the transactional messages, you must have administration rights or appear in the <strong>Message Center agents</strong> (mcExec) security group. </p> 
+  </note>
+  <h2>Sending a follow-up message</h2>
+  <p>Once you created the follow-up delivery template, you can use it in a workflow to send a follow-up message.</p> 
+  <ol>
+   <li><p>Access the marketing activity list and create a new workflow.</p> <p>See <a href="../../automating/using/building-a-workflow.md#creating-a-workflow">Creating a workflow</a>.</p> </li>
+   <li><p>Drag and drop a <strong>Scheduler</strong> activity into your workflow and open it. Set the execution frequency to once a day.</p> <p>The Scheduler activity is presented in the <a href="../../automating/using/scheduler.md">Scheduler</a> section.</p> </li>
+   <li><p>Drag and drop a <strong>Query</strong> activity into your workflow and open it.</p> <p>The Query activity is presented in the <a href="../../automating/using/query.md">Query</a> section.</p> </li>
+   <li><p>To run the query on a resource other than the profile resource, go to the activity's <strong>Properties</strong> tab and click the <strong>Resource</strong> drop-down list.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/message-center_follow-up-query-properties.png" title="" />
+    <note>
+     <p> By default, the activity is pre-configured to search for profiles. </p> 
+    </note></li>
+   <li><p>Select the event that you want to target so that you only access data from this event.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/message-center_follow-up-query-resource.png" title="" /></li>
+   <li><p>Go to the activity's <strong>Target</strong> tab and drag and drop the <strong>Delivery logs (logs)</strong> element from the <strong>Email</strong> section into the workspace.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/message-center_follow-up-delivery-logs.png" title="" /><p>Select <strong>Exists</strong> to target all of the customers who received the email.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/message-center_follow-up-delivery-logs-exists.png" title="" /></li>
+   <li><p>Move the <strong>Tracking logs (tracking)</strong> element from the palette to the workspace and select <strong>Does not exist</strong> to target all of the customers who did not open the email.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/message-center_follow-up-delivery-and-tracking-logs.png" title="" /></li>
+   <li><p>Drag and drop the event that you are targeting (<strong>Cart abandonment</strong> in this example) from the <strong>Email</strong> section into the workspace. Then define a rule to target all messages sent three days ago.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/message-center_follow-up-created.png" title="" /><p>This means that all recipients who received the transactional message three days before the execution of the workflow and still have not opened it are targeted.</p> <p>Click <strong>Confirm</strong> to save the query.</p> </li>
+   <li><p>Drag and drop an <strong>Email delivery</strong> activity into your workflow.</p> <p>The Email delivery activity is presented in the <a href="../../automating/using/email-delivery.md">Email delivery</a> section.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/message-center_follow-up-workflow.png" title="" /><p>You can also use an <a href="../../automating/using/sms-delivery.md">SMS delivery</a> or a <a href="../../automating/using/mobile-app-delivery.md">Mobile app delivery</a> activity. In this case, make sure you select the <strong>Mobile (SMS)</strong> or <strong>Mobile application</strong> channel when creating your event configuration. See <a href="../../administration/using/configuring-transactional-messaging.md#creating-an-event">Creating an event</a>.</p> </li>
+   <li><p>Open the <strong>Email delivery</strong> activity. In the creation wizard, check the <strong>Follow-up messages</strong> box and select the follow-up delivery template that was created after publishing the event.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/message-center_follow-up-template.png" title="" /></li>
+   <li><p>In the follow-up message content, you can leverage the content of your event by adding personalization fields.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/message-center_follow-up-content.png" title="" /></li>
+   <li><p>Find the fields that you defined when creating your event by selecting <strong>Transactional event</strong> &gt; <strong>Event context</strong>. See <a href="../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message" target="_blank">Personalizing a transactional message</a>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/message-center_follow-up-personalization.png" title="" /><p>This means that you can leverage the same content, including enriched data, that was used the first time the event was sent, to create a personalized friendly reminder.</p> </li>
+   <li><p>Save the activity and start the workflow.</p> </li>
+  </ol>
+  <p>Once the workflow is started, every customer that received your cart abandonment notification three days ago but did not open it will receive a follow-up message based on the same data.</p> 
+  <note>
+   <p> If you selected the <strong>Profile</strong> targeting dimension when creating the event configuration, the follow-up message will also leverage the Adobe Campaign marketing database. See <a href="../../channels/using/profile-transactional-messages.md" target="_blank">Profile transactional messages</a>. </p> 
+  </note>
+ </body>
+</html>
