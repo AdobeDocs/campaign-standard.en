@@ -391,7 +391,7 @@ We recommend that you do not use Internet Explorer version 11 because of possibl
 
 Some issues might occur when using contextual help links from Campaign interface. They will be fixed in 18.3.
 
-## 18.1 - January 2018 release
+## v18.1 - January 2018 release
 
 ### New capabilities
 
