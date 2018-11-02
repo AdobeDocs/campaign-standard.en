@@ -148,8 +148,8 @@ The following parameters are available for each rule:
 
 * **Range of IDs**: this option lets you indicate the ranges of identifiers (publicId) for which the rule applies. You can specify:
 
-    * A number: the rule will only apply to this publicId.
-    * A range of numbers (number1-number2): the rule will apply to all publicIds between these two numbers.
+  * A number: the rule will only apply to this publicId.
+  * A range of numbers (number1-number2): the rule will apply to all publicIds between these two numbers.
 
   If the field is empty, the rule applies to all IDs.
 
@@ -232,10 +232,10 @@ The **Validity** section contains the following parameters:
   >
   >An HTML content must have been defined for the email for the mirror page to be created.
 
-    * **Generate the mirror page if a mirror link appears in the email content** (default mode): the mirror page is generated if the link is inserted in the mail content. 
-    * **Force the generation of the mirror page**: even if no link to the mirror page is inserted into the messages, the mirror page will be created. 
-    * **Do not generate the mirror page**: no mirror page is generated, even if the link is in the messages. 
-    * **Generate a mirror page accessible using only the message ID**: this option lets you access the content of the mirror page, with personalization information, in the delivery log window.
+  * **Generate the mirror page if a mirror link appears in the email content** (default mode): the mirror page is generated if the link is inserted in the mail content. 
+  * **Force the generation of the mirror page**: even if no link to the mirror page is inserted into the messages, the mirror page will be created. 
+  * **Do not generate the mirror page**: no mirror page is generated, even if the link is in the messages. 
+  * **Generate a mirror page accessible using only the message ID**: this option lets you access the content of the mirror page, with personalization information, in the delivery log window.
 
 ### List of email tracking parameters
 
