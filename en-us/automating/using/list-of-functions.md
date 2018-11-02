@@ -63,6 +63,7 @@ Several function types are available, depending on the desired results and the t
 ## Dates
 
 The date functions are used to manipulate date or time values. 
+
 ||||
 |--- |--- |--- |
 |Name|Description|Syntax|
