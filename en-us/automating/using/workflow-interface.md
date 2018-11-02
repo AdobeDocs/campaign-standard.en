@@ -95,205 +95,33 @@ Certain functions are only enabled in the workspace:
 
 Depending on the elements selected in the workspace or on the workflow's execution status, the buttons available in the action bar may vary.
 
-<table> 
- <thead> 
-  <tr> 
-   <th> Button<br /> </th> 
-   <th> No selection<br /> </th> 
-   <th> Single-selection<br /> </th> 
-   <th> Multi-selection<br /> </th> 
-   <th> Running<br /> </th> 
-   <th> Description<br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> Allows you to edit the workflow's properties.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> Starts the workflow.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> Pauses the workflow.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> Interrupts workflow execution. Cannot be resumed from where it was stopped.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> Restarts the workflow.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> Opens the workflow's execution log.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> Enables multi-selection mode. The workflow must be made up of at least two activities.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> Disables multi-selection mode.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> Opens the selected transition.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> Re-enables selection if it has previously been disabled or marked as paused.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> Pauses the workflow at the selected activity.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> Disables the activity.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> Deletes the activities that are selected.<br /> </td> 
-  </tr> 
- </tbody> 
-</table>
+|Button|No selection|Single-selection|Multi-selection|Running|Description|
+|--- |--- |--- |--- |--- |--- |
+||||||Allows you to edit the workflow's properties.|
+||||||Starts the workflow.|
+||||||Pauses the workflow.|
+||||||Interrupts workflow execution. Cannot be resumed from where it was stopped.|
+||||||Restarts the workflow.|
+||||||Opens the workflow's execution log.|
+||||||Enables multi-selection mode. The workflow must be made up of at least two activities.|
+||||||Disables multi-selection mode.|
+||||||Opens the selected transition.|
+||||||Re-enables selection if it has previously been disabled or marked as paused.|
+||||||Pauses the workflow at the selected activity.|
+||||||Disables the activity.|
+||||||Deletes the activities that are selected.|
 
 ## Quick actions
 
 When an activity is selected, quick action buttons appear around the activity, allowing you to interact with it.
 
-<table> 
- <thead> 
-  <tr> 
-   <th> Button<br /> </th> 
-   <th> No selection<br /> </th> 
-   <th> Single-selection<br /> </th> 
-   <th> Multi-selection<br /> </th> 
-   <th> Running<br /> </th> 
-   <th> Description<br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> Disables selecting the activity.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> Opens the selected activity.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> Opens the advanced options of the Email or SMS delivery activity selected.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> Re-enables selection if it has previously been disabled or marked as paused.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> Pauses the workflow at the selected activity.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> Disables the activity.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> Forces immediate processing of the selection. This button is only available for the <strong>Scheduler</strong> and <strong>Wait</strong> activities.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> Deletes the activities that are selected.<br /> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+|Button|No selection|Single-selection|Multi-selection|Running|Description|
+|--- |--- |--- |--- |--- |--- |
+||||||Disables selecting the activity.|
+||||||Opens the selected activity.|
+||||||Opens the advanced options of the Email or SMS delivery activity selected.|
+||||||Re-enables selection if it has previously been disabled or marked as paused.|
+||||||Pauses the workflow at the selected activity.|
+||||||Disables the activity.|
+||||||Forces immediate processing of the selection. This button is only available for the Scheduler and Wait activities.|
+||||||Deletes the activities that are selected.|
