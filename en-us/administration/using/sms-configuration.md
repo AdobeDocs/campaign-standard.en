@@ -182,8 +182,8 @@ The **Define a specific mapping of encodings** functionality allows you to decla
 
 * When the **Define a specific mapping of encodings** functionality is not checked, the connector takes on a generic behavior:
 
-    * It will try to use GSM encoding to which it assigns the value **data_coding = 0**.
-    * If GSM encoding fails, it will use **UCS2** encoding to which it assigns the value **data_coding = 8**.
+  * It will try to use GSM encoding to which it assigns the value **data_coding = 0**.
+  * If GSM encoding fails, it will use **UCS2** encoding to which it assigns the value **data_coding = 8**.
 
   ![](assets/sms_data_coding.png)
 
@@ -247,7 +247,6 @@ The specific parameters for sending SMS messages are regrouped in the **Send** a
 
 * The **Transmission mode** field allows you to determine the delivery method for SMS messages:
 
-    * **Saved on SIM card**: the message is stored on the recipient's telephone SIM card.
-    * **Saved on mobile**: the message is stored on the telephone's internal memory.
-    * **Flash**: the message is displayed on the recipient's mobile telephone as a notification, then it disappears without being saved.
-
+  * **Saved on SIM card**: the message is stored on the recipient's telephone SIM card.
+  * **Saved on mobile**: the message is stored on the telephone's internal memory.
+  * **Flash**: the message is displayed on the recipient's mobile telephone as a notification, then it disappears without being saved.
