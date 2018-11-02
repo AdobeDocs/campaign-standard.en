@@ -1,7 +1,7 @@
 ---
-title: Example: Email personalization
-seo-title: Example: Email personalization
-description: Example: Email personalization
+title: "Example: Email personalization"
+seo-title: "Example: Email personalization"
+description: "Example: Email personalization"
 seo-description: See a full example of personalizing an email with dynamic content and text according to the recipients' ages.
 uuid: 30d1adbd-8ec9-4051-a1fa-16f84783bee4
 content-encoding: ISO-8859-1
@@ -30,7 +30,7 @@ lastPublishExternalDate: 2018-07-23T08:13:53.959-0400
 lochandoffdate: 2018-07-26T02 53 55.392-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
-navTitle: Example: Email personalization
+navTitle: "Example: Email personalization"
 publishexternaldate: 2018-07-23T08 13 53.959-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/example--email-personalization.html
 sha1: 3127a913f6d8d2a4651e00f5f969ecb7c35199ef

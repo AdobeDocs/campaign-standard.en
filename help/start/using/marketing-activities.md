@@ -2,7 +2,7 @@
 title: Marketing activities
 seo-title: Marketing activities
 description: Marketing activities
-seo-description: Learn how to create and manage your marketing activities: campaigns, email, SMS and push notification deliveries, landing pages, workflows. You can easily design a new activity, edit an existing one, and consult their status and validity.
+seo-description: "Learn how to create and manage your marketing activities: campaigns, email, SMS and push notification deliveries, landing pages, workflows. You can easily design a new activity, edit an existing one, and consult their status and validity."
 uuid: 8c9b5e1b-0718-4665-be2e-369edb83c014
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/start/using/marketing-activities

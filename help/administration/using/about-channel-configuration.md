@@ -2,7 +2,7 @@
 title: About channel configuration
 seo-title: About channel configuration
 description: About channel configuration
-seo-description: Each channel needs to be configured: technical configuration, message properties and templates.
+seo-description: "Each channel needs to be configured: technical configuration, message properties and templates."
 uuid: 4c499f53-f453-466f-a772-9407e79e4230
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/about-channel-configuration

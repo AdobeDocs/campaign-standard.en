@@ -1,7 +1,7 @@
 ---
-title: Step 4: Define filters
-seo-title: Step 4: Define filters
-description: Step 4: Define filters
+title: "Step 4: Define filters"
+seo-title: "Step 4: Define filters"
+description: "Step 4: Define filters"
 seo-description: Discover the filter feature to manage large data set.
 uuid: 8ff156ec-fd66-4eac-a79b-d4eee9219312
 content-encoding: ISO-8859-1
@@ -30,7 +30,7 @@ lastPublishExternalDate: 2018-07-23T05:59:10.960-0400
 lochandoffdate: 2018-07-26T02 53 27.378-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
-navTitle: Step 4: Define filters
+navTitle: "Step 4: Define filters"
 publishexternaldate: 2018-07-23T05 59 10.960-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/step-4--define-filters.html
 sha1: c1d9716aecc217789b5cb8ca7fdd6c4e138b8dca

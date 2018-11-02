@@ -1,7 +1,7 @@
 ---
-title: Step 3: Configure the screens
-seo-title: Step 3: Configure the screens
-description: Step 3: Configure the screens
+title: "Step 3: Configure the screens"
+seo-title: "Step 3: Configure the screens"
+description: "Step 3: Configure the screens"
 seo-description: Learn how to define new Adobe Campaign screens based on the resource data structure.
 uuid: 7453bf8c-a4d4-49b2-ac28-dadf385acb00
 content-encoding: ISO-8859-1
@@ -30,7 +30,7 @@ lastPublishExternalDate: 2018-07-23T05:59:09.975-0400
 lochandoffdate: 2018-07-26T02 53 25.393-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
-navTitle: Step 3: Configure the screens
+navTitle: "Step 3: Configure the screens"
 publishexternaldate: 2018-07-23T05 59 09.975-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/step-3--configure-the-screens.html
 sha1: 54e565e4707ef7c67226aefa8ce7818d2fb26c74

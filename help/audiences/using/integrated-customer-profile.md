@@ -2,7 +2,7 @@
 title: Integrated customer profile
 seo-title: Integrated customer profile
 description: Integrated customer profile
-seo-description: Track every customer interaction in a single view: Adobe Campaign integrated customer profile is updated throughout the customer life cycle.
+seo-description: "Track every customer interaction in a single view: Adobe Campaign integrated customer profile is updated throughout the customer life cycle."
 uuid: 2354688a-a7d6-443b-a9aa-3678f4eb6fcb
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/audiences/using/integrated-customer-profile

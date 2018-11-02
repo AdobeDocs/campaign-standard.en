@@ -1,7 +1,7 @@
 ---
-title: Step 5: Update the database structure
-seo-title: Step 5: Update the database structure
-description: Step 5: Update the database structure
+title: "Step 5: Update the database structure"
+seo-title: "Step 5: Update the database structure"
+description: "Step 5: Update the database structure"
 seo-description: Discover how to update the Adobe Campaign database.
 uuid: 0753a267-1841-4ce1-bc4e-8c0ed5d3f2df
 content-encoding: ISO-8859-1
@@ -30,7 +30,7 @@ lastPublishExternalDate: 2018-07-23T05:59:11.768-0400
 lochandoffdate: 2018-07-26T02 53 32.666-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
-navTitle: Step 5: Update the database structure
+navTitle: "Step 5: Update the database structure"
 publishexternaldate: 2018-07-23T05 59 11.768-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/step-5--update-the-database-structure.html
 sha1: e7604cff12976ec26f7a030c618546b81441260b
@@ -62,18 +62,18 @@ To apply the changes carried out on the resources, you must perform a database u
 
    ![](assets/schema_extension_12.png)
 
-1. By default, the option **Determine modifications since the last publication** is checked, which means that only the changes carried out since the last update will be applied.
+2. By default, the option **Determine modifications since the last publication** is checked, which means that only the changes carried out since the last update will be applied.
 
    >[!NOTE]
    >
    >The **Repair database structure** reestablishes a correct configuration if the publication failed before completing. Any modification that was carried out directly in the database and not using custom resources will be deleted.
 
-1. Click the **Prepare publication** button to start the analysis.
+3. Click the **Prepare publication** button to start the analysis.
 
    ![](assets/schema_extension_13.png)
 
-1. Once the publication has been carried out, click the **Publish** button to apply your new configurations.
-1. Once published, the **Summary** pane of each resource indicates that the status is now **Published** and specifies the date of the last publication.
+4. Once the publication has been carried out, click the **Publish** button to apply your new configurations.
+5. Once published, the **Summary** pane of each resource indicates that the status is now **Published** and specifies the date of the last publication.
 
    >[!NOTE]
    >
