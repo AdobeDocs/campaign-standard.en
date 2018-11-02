@@ -1,34 +1,34 @@
 <html>
  <head>
+  <meta content="light" name="heroGradient" />
+  <meta content="2018-01-10T15:24:11.241-0500" name="cq:lastModified" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
   <meta content="8faedb14-3355-418c-b50d-bf6cd7c29aa2" name="jcr:predecessors" />
+  <meta content="Importing/Exporting audiences with People core service integration" name="navTitle" />
+  <meta content="Importing/Exporting audiences with People core service integration" name="jcr:description" />
+  <meta content="2018-01-10T15:24:11.233-0500" name="lastPublishExternalDate" />
+  <meta content="2018-01-11T19:02:13.270-0500" name="jcr:created" />
+  <meta content="Importing/Exporting audiences with People core service integration" name="jcr:title" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="audience:integrating" name="primaryAudienceTag" />
+  <meta content="453be246-ebda-4c43-b6e4-5fe690c64f8a" name="jcr:uuid" />
+  <meta content="2018-01-10T15:24:11.233-0500" name="firstPublishExternalDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="https://helpx.adobe.com/campaign/standard/integrating/using/importing-exporting-audiences-with-people-core-service-integration.html" name="publishExternalURL" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:integrating;content_type:reference;topic_tags:people-core-service-integration" name="cq:tags" />
+  <meta content="Learn how to import or export your audience within the different Adobe Marketing Cloud solutions." name="seoDescription" />
   <meta content="/apps/help/templates/article-3" name="cq:template" />
   <meta content="2018-01-10T15:24:11.233-0500" name="publishExternalDate" />
   <meta content="2018-01-10T15:24:11.233-0500" name="topicBrowsingSortDate" />
-  <meta content="2018-01-11T19:02:13.270-0500" name="jcr:created" />
-  <meta content="Importing/Exporting audiences with People core service integration" name="jcr:title" />
-  <meta content="2018-01-10T15:24:11.233-0500" name="firstPublishExternalDate" />
-  <meta content="453be246-ebda-4c43-b6e4-5fe690c64f8a" name="jcr:uuid" />
-  <meta content="Learn how to import or export your audience within the different Adobe Marketing Cloud solutions." name="seoDescription" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="audience:integrating" name="primaryAudienceTag" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="2018-01-10T15:24:11.233-0500" name="lastPublishExternalDate" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="https://helpx.adobe.com/campaign/standard/integrating/using/importing-exporting-audiences-with-people-core-service-integration.html" name="publishExternalURL" />
-  <meta content="Importing/Exporting audiences with People core service integration" name="navTitle" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="Importing/Exporting audiences with People core service integration" name="jcr:description" />
-  <meta content="2018-01-10T15:24:11.241-0500" name="cq:lastModified" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="light" name="heroGradient" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:integrating;content_type:reference;topic_tags:people-core-service-integration" name="cq:tags" />
  </head>
  <body>
   <h2>Importing an audience</h2>

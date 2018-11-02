@@ -3,7 +3,7 @@ title: Email rendering
 seo-title: Email rendering
 description: Email rendering
 seo-description: Discover the email rendering feature.
-uuid: 9657cff4-8868-4bb8-a974-656622dbfae6
+uuid: 21e47fe4-f8b7-49b7-b058-114b0587b3c2
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/sending/using/email-rendering
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 cq-template: /apps/help/templates/article-3
-discoiquuid: 1efc1da8-fc6c-49ba-983e-02b25c4bddcb
+discoiquuid: 243ad86c-55bc-43ee-ae21-d97d3d5e5b8d
 firstPublishExternalDate: 2018-07-23T06:02:18.935-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Email rendering
 publishexternaldate: 2018-07-23T06 02 18.935-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/sending/using/email-rendering.html
-sha1: edb4d244ceebd57ef2966f6c35f9dcb8571a3797
+sha1: 6811e39c2fad548abac377ac7e5e54420fbb2f75
 topicBrowsingSortDate: 2018-07-23T06:02:18.935-0400
 index: y
 internal: n

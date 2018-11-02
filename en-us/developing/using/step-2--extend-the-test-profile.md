@@ -3,7 +3,7 @@ title: Step 2: Extend the test profile
 seo-title: Step 2: Extend the test profile
 description: Step 2: Extend the test profile
 seo-description: Learn how to extend the test profile resource.
-uuid: 1c9bca29-219f-4182-bfdb-28a6c473f573
+uuid: a41fbf8f-9267-43b4-ad71-d64d9a49e02e
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/developing/using/step-2--extend-the-test-profile
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: developing
 content-type: reference
 topic-tags: use-case--extending-profiles
 cq-template: /apps/help/templates/article-3
-discoiquuid: 9a9b4690-64a0-44a6-917b-f1b412234436
+discoiquuid: 169020ee-573d-49d4-9979-7e224b97c6c5
 firstPublishExternalDate: 2018-07-23T05:59:20.115-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Step 2: Extend the test profile
 publishexternaldate: 2018-07-23T05 59 20.115-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/step-2--extend-the-test-profile.html
-sha1: a87d33055c7b32f261d6988ecd3b9961c8d114e7
+sha1: 64fafc648a6296f237452bcf1124aabc7f7eec2d
 topicBrowsingSortDate: 2018-07-23T05:59:20.115-0400
 index: y
 internal: n

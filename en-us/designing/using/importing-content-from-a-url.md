@@ -3,7 +3,7 @@ title: Importing content from a URL
 seo-title: Importing content from a URL
 description: Importing content from a URL
 seo-description: 
-uuid: 8a842d50-250a-48b3-9e51-74c4a61b0757
+uuid: 2f0c5249-9100-4f14-b54e-813755d9f1cf
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/importing-content-from-a-url
 contentOwner: sauviat
@@ -18,7 +18,7 @@ audience: designing
 content-type: reference
 topic-tags: loading-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: 7e78c7d0-1ec0-4ebe-8800-46a524cc8488
+discoiquuid: a1e1928b-eb8c-4bab-b743-29a8f3128601
 firstPublishExternalDate: 2018-07-23T05:58:19.358-0400
 herogradient: light
 isreadyforlocalization: false
@@ -35,7 +35,7 @@ moreHelpPaths: /content/help/en/campaign/standard/designing/morehelp/loading-con
 navTitle: Importing content from a URL
 publishexternaldate: 2018-07-23T08 13 39.572-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/importing-content-from-a-url.html
-sha1: 92538b99fb8ad30d3504ed32f692d425b5cd633d
+sha1: f41d2a043a60b132a9a49e298913ecce92b46d7d
 topicBrowsingSortDate: 2018-07-23T08:13:39.572-0400
 index: y
 internal: n

@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="2018-07-23T06:00:13.811-0400" name="lastPublishExternalDate" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="light" name="heroGradient" />
+  <meta content="2018-03-15T09:02:19.131-0400" name="jcr:created" />
   <meta content="Delivery summary" name="jcr:description" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="2018-07-27T03:26:38.372-0400" name="cq:lastModified" />
   <meta content="admin" name="jcr:createdBy" />
-  <meta content="2018-07-23T06:00:13.811-0400" name="firstPublishExternalDate" />
-  <meta content="2018-07-27T03:26:38.371-0400" name="locHandOffDate" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="With the Delivery summary out-of-the-box report, learn about your deliveries statistics, such as number of sends, bounces and opens." name="seoDescription" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="0109086e-d076-4282-bc0d-4af68bd5f9ea" name="jcr:uuid" />
   <meta content="sauviat" name="contentOwner" />
-  <meta content="2018-07-23T06:00:13.811-0400" name="publishExternalDate" />
-  <meta content="2018-07-23T06:00:13.869-0400" name="cq:lastReplicated" />
-  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
   <meta content="" name="jcr:primaryType" />
+  <meta content="2018-07-23T06:00:13.811-0400" name="firstPublishExternalDate" />
+  <meta content="2018-07-23T06:00:13.811-0400" name="lastPublishExternalDate" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="7e597b99-1c36-4eeb-af8b-ee94c8bf1ebb" name="jcr:predecessors" />
+  <meta content="Delivery summary" name="jcr:title" />
+  <meta content="2018-07-23T06:00:13.811-0400" name="publishExternalDate" />
+  <meta content="2018-07-27T03:26:38.372-0400" name="cq:lastModified" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:reporting;content_type:reference;topic_tags:list-of-reports" name="cq:tags" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-07-27T03:26:38.371-0400" name="locHandOffDate" />
+  <meta content="https://helpx.adobe.com/campaign/standard/reporting/using/delivery-summary.html" name="publishExternalURL" />
   <meta content="" name="jcr:versionHistory" />
   <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-07-23T06:00:13.869-0400" name="cq:lastReplicated" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="light" name="heroGradient" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
   <meta content="Delivery summary" name="navTitle" />
-  <meta content="With the Delivery summary out-of-the-box report, learn about your deliveries statistics, such as number of sends, bounces and opens." name="seoDescription" />
   <meta content="2018-07-23T06:00:13.811-0400" name="topicBrowsingSortDate" />
-  <meta content="audience:reporting" name="primaryAudienceTag" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="2018-03-15T09:02:19.131-0400" name="jcr:created" />
+  <meta content="false" name="isReadyForLocalization" />
   <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="7e597b99-1c36-4eeb-af8b-ee94c8bf1ebb" name="jcr:predecessors" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="Delivery summary" name="jcr:title" />
-  <meta content="https://helpx.adobe.com/campaign/standard/reporting/using/delivery-summary.html" name="publishExternalURL" />
-  <meta content="0109086e-d076-4282-bc0d-4af68bd5f9ea" name="jcr:uuid" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:reporting;content_type:reference;topic_tags:list-of-reports" name="cq:tags" />
+  <meta content="audience:reporting" name="primaryAudienceTag" />
  </head>
  <body>
   <p>The <strong>Delivery summary</strong> report details the main information relative to an email, or several emails.</p> 

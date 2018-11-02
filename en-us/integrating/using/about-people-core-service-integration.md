@@ -4,7 +4,7 @@ seo-title: About People core service Integration
 description: About People core service Integration
 seo-description: With the People core service integration, you can share audiences or segments within the different Adobe Marketing Cloud solutions.
 page-status-flag: never-activated
-uuid: b29edc45-4058-4bbe-9e60-bfe6fcb23b0c
+uuid: 8531803d-2a2d-45d6-a6e3-d98dbca35b90
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/integrating/using/about-people-core-service-integration
 contentOwner: sauviat
@@ -15,7 +15,7 @@ audience: integrating
 content-type: reference
 topic-tags: people-core-service-integration
 cq-template: /apps/help/templates/article-3
-discoiquuid: fd6ced78-a27b-4deb-8540-8feedabbe219
+discoiquuid: 23ae2c2e-f240-4b7a-aff8-c10c60e17c31
 firstPublishExternalDate: 2018-01-10T15:24:08.743-0500
 herogradient: light
 jcr-created: 2018-01-11T19 02 24.702-0500
@@ -28,7 +28,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About People core service Integration
 publishexternaldate: 2018-01-10T15 24 08.743-0500
 publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/about-people-core-service-integration.html
-sha1: 6392958e2139f2eb74f98687f3145b90e68c9b66
+sha1: 97bbfe3bf600de7487b9cd28af532a62e83b4232
 topicBrowsingSortDate: 2018-01-10T15:24:08.743-0500
 index: y
 internal: n

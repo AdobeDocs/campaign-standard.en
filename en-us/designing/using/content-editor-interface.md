@@ -3,7 +3,7 @@ title: Content editor interface
 seo-title: Content editor interface
 description: Content editor interface
 seo-description: Learn how to use the different sections of the editor, such as the action bar, to modify your message content.
-uuid: e3727c23-2288-4274-8608-98b3c2ee06d6
+uuid: d47124d4-a754-4725-86bf-fbe91c73a169
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/content-editor-interface
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-message-and-landing-page-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: fa959fa0-34de-465f-894c-788d63ba4169
+discoiquuid: 0a393af4-faa5-47f4-b2a7-ce101b6919c1
 firstPublishExternalDate: 2018-06-14T08:43:38.476-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Content editor interface
 publishexternaldate: 2018-06-14T08 43 38.476-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/content-editor-interface.html
-sha1: b79e0aa7370eccceac4522a293628834ed3782dd
+sha1: a2011dd4782995bf93e452fa6f75b1b87b79cb6c
 topicBrowsingSortDate: 2018-06-14T08:43:38.476-0400
 index: y
 internal: n

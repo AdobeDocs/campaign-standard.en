@@ -3,7 +3,7 @@ title: Scheduler
 seo-title: Scheduler
 description: Scheduler
 seo-description: The Scheduler activity allows you to schedule when a workflow or an activity is started.
-uuid: 12bc9b70-01a7-4077-b79d-8b0ae909aeff
+uuid: dd06493c-ab7d-4635-a398-076a7b5bcb67
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/scheduler
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: 64a87049-8618-4628-81fd-bd78dd1b37b4
+discoiquuid: 07edfdda-f7f2-4050-b359-5b1ab2fca551
 firstPublishExternalDate: 2018-07-23T05:57:15.363-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Scheduler
 publishexternaldate: 2018-07-23T05 57 15.363-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/scheduler.html
-sha1: b9a73e4a4c6bef7247201c0aaaad355fdc849874
+sha1: c8e39240662c984320ddb6e904c8325b12d8b86f
 topicBrowsingSortDate: 2018-07-23T05:57:15.363-0400
 index: y
 internal: n

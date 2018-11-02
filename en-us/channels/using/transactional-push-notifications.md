@@ -3,7 +3,7 @@ title: Transactional push notifications
 seo-title: Transactional push notifications
 description: Transactional push notifications
 seo-description: Learn how to create and publish a transactional push notification.
-uuid: b62a3930-fcfd-46d8-847f-a969ed046334
+uuid: c24dd33f-924f-4960-bb20-4ad92646ccb5
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/transactional-push-notifications
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 cq-template: /apps/help/templates/article-3
-discoiquuid: 7a6052ff-50df-4377-96ba-503b51d14077
+discoiquuid: 9448f88c-baea-4a87-ab0a-adb73539fc3f
 firstPublishExternalDate: 2018-07-23T06:03:07.976-0400
 herogradient: light
 isreadyforlocalization: false
@@ -34,7 +34,7 @@ moreHelpPaths: /content/help/en/campaign/standard/channels/morehelp/transactiona
 navTitle: Transactional push notifications
 publishexternaldate: 2018-07-23T06 03 07.976-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/transactional-push-notifications.html
-sha1: 0f3639f7c4ccf502607c1d1985ddb06dd266cf86
+sha1: 4ff8afa812d60b335f1f0f5e8b8635c156a6ed8a
 topicBrowsingSortDate: 2018-07-23T06:03:07.976-0400
 index: y
 internal: n

@@ -3,7 +3,7 @@ title: Previewing and checking anti-spam analysis
 seo-title: Previewing and checking anti-spam analysis
 description: Previewing and checking anti-spam analysis
 seo-description: 
-uuid: c08da82f-ac32-4ff2-84cb-ae75d23a12c9
+uuid: 72be2bf4-75f1-46f1-ac97-b302b66f4aee
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/previewing-and-checking-anti-spam-analysis
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: designing-email-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: 7ca9e077-3fac-4a75-8faa-2ca02beb2dbc
+discoiquuid: 73924595-4071-42ce-9496-b38f552ffa41
 firstPublishExternalDate: 2018-06-14T08:43:54.255-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Previewing and checking anti-spam analysis
 publishexternaldate: 2018-06-14T08 43 54.255-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/previewing-and-checking-anti-spam-analysis.html
-sha1: e6487047b9bb9f494f5021719b3e2a2df5590e66
+sha1: 09383701cf6468203010e1f9666e423830ab98b8
 topicBrowsingSortDate: 2018-06-14T08:43:54.255-0400
 index: y
 internal: n

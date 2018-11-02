@@ -3,7 +3,7 @@ title: Creating a multilingual template
 seo-title: Creating a multilingual template
 description: Creating a multilingual template
 seo-description: Learn how to define and execute multilingual Email/SMS deliveries through a single delivery based on your automatically segmented customers' preferred language. Report on the performance of every delivery down to the language and individual levels.
-uuid: 42162138-4edd-4209-b71b-99446a884e36
+uuid: 20be2fec-9289-4b9b-a8d8-c65e1cd32352
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/start/using/creating-a-multilingual-template
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: start
 content-type: reference
 topic-tags: managing-templates
 cq-template: /apps/help/templates/article-3
-discoiquuid: 2de4c0d7-0530-4353-8d06-7b569fe37a08
+discoiquuid: 55366353-24d8-4a89-90ff-f1b1c9adc941
 firstPublishExternalDate: 2018-07-23T06:00:48.808-0400
 herogradient: light
 isreadyforlocalization: false
@@ -34,7 +34,7 @@ moreHelpPaths: /content/help/en/campaign/standard/start/morehelp/managing-templa
 navTitle: Creating a multilingual template
 publishexternaldate: 2018-07-23T06 00 48.808-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/start/using/creating-a-multilingual-template.html
-sha1: 734619de83995e598b9443cd833718b43bef8bc6
+sha1: 741fd567f79e9bf18210059bd43978b64dc352e6
 topicBrowsingSortDate: 2018-07-23T06:00:48.808-0400
 index: y
 internal: n

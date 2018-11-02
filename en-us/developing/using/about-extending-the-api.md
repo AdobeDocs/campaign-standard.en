@@ -3,7 +3,7 @@ title: About extending the API
 seo-title: About extending the API
 description: About extending the API
 seo-description: 
-uuid: d4c583bc-686f-4c14-b0e7-2613712e4dbe
+uuid: 1ba9e26d-656b-4fb2-b115-884df729d483
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/developing/using/about-extending-the-api
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
 cq-template: /apps/help/templates/article-3
-discoiquuid: 708dd85e-6e91-43bd-849b-a16d0219d3b9
+discoiquuid: 8e6bc991-7603-4ec8-aaa4-b50af12ff2aa
 firstPublishExternalDate: 2018-07-23T05:59:15.187-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About extending the API
 publishexternaldate: 2018-07-23T05 59 15.187-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/about-extending-the-api.html
-sha1: a354e3c9e86ecfd7fb387aedfedbffb290c95e70
+sha1: aa1faabaffc6d8a6d92b338fd3c05714abc8b512
 topicBrowsingSortDate: 2018-07-23T05:59:15.187-0400
 index: y
 internal: n

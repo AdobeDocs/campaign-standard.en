@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="4aa69549-4d35-4124-b66e-5ee5e39be481" name="jcr:predecessors" />
-  <meta content="Learn how to insert a field from the database into your message such as the recipient's first name." name="seoDescription" />
-  <meta content="2018-06-25T08:45:10.305-0400" name="locHandOffDate" />
+  <meta content="https://helpx.adobe.com/campaign/standard/designing/using/adding-a-personalization-field.html" name="publishExternalURL" />
+  <meta content="2018-06-14T08:43:43.752-0400" name="topicBrowsingSortDate" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="audience:designing" name="primaryAudienceTag" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:editing-message-and-landing-page-content" name="cq:tags" />
   <meta content="2018-06-25T08:45:10.306-0400" name="cq:lastModified" />
+  <meta content="true" name="jcr:isCheckedOut" />
   <meta content="2018-06-14T08:43:43.770-0400" name="cq:lastReplicated" />
   <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="2018-06-14T08:43:43.752-0400" name="lastPublishExternalDate" />
-  <meta content="2018-06-14T08:43:43.752-0400" name="topicBrowsingSortDate" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:editing-message-and-landing-page-content" name="cq:tags" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="Adding a personalization field" name="jcr:description" />
-  <meta content="light" name="heroGradient" />
-  <meta content="audience:designing" name="primaryAudienceTag" />
-  <meta content="Adding a personalization field" name="jcr:title" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Adding a personalization field" name="navTitle" />
   <meta content="2018-06-14T08:43:43.752-0400" name="publishExternalDate" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
   <meta content="29acd0cf-6472-47b0-bea6-2b285d42ba95" name="jcr:uuid" />
   <meta content="" name="jcr:versionHistory" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="Adding a personalization field" name="navTitle" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="2018-06-14T08:43:43.752-0400" name="firstPublishExternalDate" />
-  <meta content="https://helpx.adobe.com/campaign/standard/designing/using/adding-a-personalization-field.html" name="publishExternalURL" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
   <meta content="2018-03-15T09:01:25.479-0400" name="jcr:created" />
+  <meta content="Learn how to insert a field from the database into your message such as the recipient's first name." name="seoDescription" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="light" name="heroGradient" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-06-14T08:43:43.752-0400" name="lastPublishExternalDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="Adding a personalization field" name="jcr:description" />
+  <meta content="2018-06-14T08:43:43.752-0400" name="firstPublishExternalDate" />
+  <meta content="4aa69549-4d35-4124-b66e-5ee5e39be481" name="jcr:predecessors" />
+  <meta content="Adding a personalization field" name="jcr:title" />
+  <meta content="2018-06-25T08:45:10.305-0400" name="locHandOffDate" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
  </head>
  <body>
   <p>Adobe Campaign allows you to insert a field from the database into your page such as the recipient's first name. Once personalization is generated (when previewing and preparing the email or when testing the landing page for example), this field will be replaced by the value corresponding to the targeted recipient.</p> 

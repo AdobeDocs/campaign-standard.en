@@ -3,7 +3,7 @@ title: Configure Campaign-Analytics integration
 seo-title: Configure Campaign-Analytics integration
 description: Configure Campaign-Analytics integration
 seo-description: Learn how to configure the Adobe Analytics integration to start measuring the success of your email deliveries.
-uuid: 6b6ed52f-6263-4409-be5a-a3b8351db9f9
+uuid: 71409521-3283-43b8-9274-f85501d1bfdd
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/integrating/using/configure-campaign-analytics-integration
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
 cq-template: /apps/help/templates/article-3
-discoiquuid: 0c901842-5b40-4d17-876a-297791232919
+discoiquuid: 34970a7a-0e1b-4a5d-a1ec-24039e8d9036
 firstPublishExternalDate: 2018-07-23T05:59:37.563-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Configure Campaign-Analytics integration
 publishexternaldate: 2018-07-23T05 59 37.563-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/configure-campaign-analytics-integration.html
-sha1: bbb482a2c1a611b2d58e74a21e77908ab9ff8086
+sha1: 1b9df6b8890395f0680fa02761a36b00a6efaceb
 topicBrowsingSortDate: 2018-07-23T05:59:37.563-0400
 index: y
 internal: n

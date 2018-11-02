@@ -4,7 +4,7 @@ seo-title: About integrations
 description: About integrations
 seo-description: Adobe Campaign allows you to use other solutions from Adobe Marketing Cloud and combine their different functionalities.
 page-status-flag: never-activated
-uuid: dd2532f7-a78a-45d5-b2fd-275e337f4cb5
+uuid: 6a95d288-1d61-4cae-af33-d27f185b13de
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/integrating/using/about-integrations
 contentOwner: sauviat
@@ -15,7 +15,7 @@ audience: integrating
 content-type: reference
 topic-tags: about-integrations
 cq-template: /apps/help/templates/article-3
-discoiquuid: 1f2f7667-61ba-44b8-b1dd-25df1db46281
+discoiquuid: 610841b6-10d8-4f03-aec2-afcb09a1fb8f
 firstPublishExternalDate: 2018-01-10T15:23:59.523-0500
 herogradient: light
 jcr-created: 2018-01-11T19 01 29.139-0500
@@ -28,7 +28,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About integrations
 publishexternaldate: 2018-01-10T15 23 59.523-0500
 publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/about-integrations.html
-sha1: 38930636ebc0e96dd2cfd293f076798281896218
+sha1: cad23d03dc25b1120c73971ee3c0ac9daad86bf3
 topicBrowsingSortDate: 2018-01-10T15:23:59.523-0500
 index: y
 internal: n

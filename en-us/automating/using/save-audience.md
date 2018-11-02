@@ -3,7 +3,7 @@ title: Save audience
 seo-title: Save audience
 description: Save audience
 seo-description: The Save audience activity allows you to update an existing audience or create a new audience from the population computed upstream in a workflow.
-uuid: 042e8a01-794b-4cb1-a9ef-f1b36162e230
+uuid: dd8d793d-9708-4cf0-a2b9-25a54157f383
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/save-audience
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: 96f5a723-2766-4edb-b97a-17d8cad68958
+discoiquuid: e1f5f227-51b3-4f13-930f-81c8d853e43f
 firstPublishExternalDate: 2018-07-23T05:57:06.975-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Save audience
 publishexternaldate: 2018-07-23T05 57 06.975-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/save-audience.html
-sha1: 777f1ad11594b0fa3904e7bd6dcd40236ca4fac4
+sha1: 4e2e82d197c42a3923ec25b00be5a9db3fe0d3fe
 topicBrowsingSortDate: 2018-07-23T05:57:06.975-0400
 index: y
 internal: n

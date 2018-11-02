@@ -3,7 +3,7 @@ title: Start and end
 seo-title: Start and end
 description: Start and end
 seo-description: The Start and End activities allow you to clearly mark where your workflow starts and ends.
-uuid: ac0e42be-ead4-4119-8d99-21e399e59302
+uuid: bd478a57-6030-4240-ae83-afa37057cc57
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/start-and-end
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: 035c0791-4533-44c3-b31d-453ac6f7e8b9
+discoiquuid: 66fccf06-1cc1-4907-aa47-2aa8b7b691b6
 firstPublishExternalDate: 2018-07-23T05:57:11.698-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Start and end
 publishexternaldate: 2018-07-23T05 57 11.698-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/start-and-end.html
-sha1: d789e2fadd7aeda51bd8f68763a023227fbf23a0
+sha1: 3914b47e492b8d373e43fdd43f07f05f62b0ec24
 topicBrowsingSortDate: 2018-07-23T05:57:11.698-0400
 index: y
 internal: n

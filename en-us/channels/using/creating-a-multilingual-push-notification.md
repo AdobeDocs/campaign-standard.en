@@ -3,7 +3,7 @@ title: Creating a multilingual push notification
 seo-title: Creating a multilingual push notification
 description: Creating a multilingual push notification
 seo-description: Create multilingual push notifications to target your users in their preferred languages and regions.
-uuid: 05f0294e-c407-4763-9141-0f6c9a915985
+uuid: 1d2c1e37-e2c4-4c9c-b958-446642c044b5
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/creating-a-multilingual-push-notification
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 cq-template: /apps/help/templates/article-3
-discoiquuid: 7f7cf50e-933d-44f4-bf6a-bde2a66ee604
+discoiquuid: 94b28fb9-6d66-40b3-8857-17ab5494c667
 firstPublishExternalDate: 2018-07-23T06:02:53.343-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Creating a multilingual push notification
 publishexternaldate: 2018-07-23T06 02 53.343-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/creating-a-multilingual-push-notification.html
-sha1: 4c0fd13472c514943dbc5df58b062c0a2af8b887
+sha1: d1b19149f76bb597e2148dcb3b28c2197098c783
 topicBrowsingSortDate: 2018-07-23T06:02:53.343-0400
 index: y
 internal: n

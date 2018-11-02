@@ -3,7 +3,7 @@ title: Changing a landing page form data properties
 seo-title: Changing a landing page form data properties
 description: Changing a landing page form data properties
 seo-description: Learn how to link database fields to input zone, radio button or checkbox type blocks.
-uuid: e4f6ebac-7963-4890-9125-a4057cfd254a
+uuid: 47d9bd7a-210b-4524-9174-93828f264fa9
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/changing-a-landing-page-form-data-properties
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-landing-page-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: cde0824c-f487-497a-957b-7dd68bbc030e
+discoiquuid: 29eb8ba4-5fd6-4dfc-970b-35b791220033
 firstPublishExternalDate: 2018-07-23T05:58:12.820-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Changing a landing page form data properties
 publishexternaldate: 2018-07-23T08 13 34.314-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/changing-a-landing-page-form-data-properties.html
-sha1: 0341001bf02561992ecfd32ac7d5c9ce7f5b7ad4
+sha1: 93bfa63b2ccf8ec7836d6e6d1a19f0fbf32145b7
 topicBrowsingSortDate: 2018-07-23T08:13:34.314-0400
 index: y
 internal: n

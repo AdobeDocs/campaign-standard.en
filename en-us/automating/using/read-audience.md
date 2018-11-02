@@ -3,7 +3,7 @@ title: Read audience
 seo-title: Read audience
 description: Read audience
 seo-description: The Read audience activity allows you to retrieve an existing audience and to refine it by applying additional filtering conditions.
-uuid: 5d368b85-9743-46ca-b9fb-7a20d2829b37
+uuid: 8b69d59d-aa30-49fb-a677-57e5a83cbb2c
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/read-audience
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: f5cee71e-4f0d-4e4f-864c-4e43be02e49a
+discoiquuid: 46fee538-8684-49ae-933d-a8e29b39a6b4
 firstPublishExternalDate: 2018-07-23T05:57:05.900-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Read audience
 publishexternaldate: 2018-07-23T05 57 05.900-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/read-audience.html
-sha1: 9a5fba2c56df841ad6239f584c6f3f73c56784a8
+sha1: 5532500ad7ee57d9435369e860bcd3e9e77c089d
 topicBrowsingSortDate: 2018-07-23T05:57:05.900-0400
 index: y
 internal: n

@@ -3,7 +3,7 @@ title: SMS report
 seo-title: SMS report
 description: SMS report
 seo-description: With the SMS out-of-the-box report, learn about the success of your SMS deliveries. 
-uuid: 42ec12be-330a-432f-b7f2-31bf5969fc73
+uuid: f2ee70bb-9987-4f35-baa6-9550fa5b0964
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/reporting/using/sms-report
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 cq-template: /apps/help/templates/article-3
-discoiquuid: e3a71def-0135-4232-a657-89d8c82bf067
+discoiquuid: 453b3045-8172-4276-b63a-09a92345cc2b
 firstPublishExternalDate: 2018-07-23T06:00:21.636-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: SMS report
 publishexternaldate: 2018-07-23T06 00 21.636-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/sms-report.html
-sha1: dc0027a0d6ad0ca3f73ab796be7e35459aa46ef3
+sha1: 24c02a150c9a8dced53b90166d813ddf05111ca1
 topicBrowsingSortDate: 2018-07-23T06:00:21.636-0400
 index: y
 internal: n

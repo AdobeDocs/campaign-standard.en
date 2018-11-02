@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="2018-07-25T09:29:11.223-0400" name="cq:lastModified" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="16fed1e0-4841-4363-9ce2-de9c22312ac4" name="jcr:predecessors" />
-  <meta content="About access management" name="jcr:description" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="2018-07-23T05:53:20.888-0400" name="firstPublishExternalDate" />
-  <meta content="Manage your Adobe Campaign operators using roles, groups and geographical and organizational units." name="seoDescription" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="About access management" name="jcr:title" />
-  <meta content="2018-07-23T05:53:20.927-0400" name="cq:lastReplicated" />
-  <meta content="2018-02-16T08:01:37.649-0500" name="jcr:created" />
-  <meta content="2018-07-23T05:53:20.888-0400" name="publishExternalDate" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="98f2d852-000e-45b5-b238-c2f15b779bc7" name="jcr:uuid" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="audience:administration" name="primaryAudienceTag" />
-  <meta content="2018-07-23T05:53:20.888-0400" name="topicBrowsingSortDate" />
-  <meta content="light" name="heroGradient" />
-  <meta content="2018-07-23T05:53:20.888-0400" name="lastPublishExternalDate" />
   <meta content="en_us" name="jcr:language" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="" name="jcr:primaryType" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2018-07-23T05:53:20.888-0400" name="firstPublishExternalDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-07-23T05:53:20.927-0400" name="cq:lastReplicated" />
   <meta content="products:SG_CAMPAIGN/STANDARD;audience:administration;content_type:reference;topic_tags:users-e-security" name="cq:tags" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="" name="jcr:versionHistory" />
+  <meta content="About access management" name="jcr:title" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
   <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
   <meta content="admin" name="jcr:createdBy" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="16fed1e0-4841-4363-9ce2-de9c22312ac4" name="jcr:predecessors" />
+  <meta content="2018-07-23T05:53:20.888-0400" name="lastPublishExternalDate" />
   <meta content="About access management" name="navTitle" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="https://helpx.adobe.com/campaign/standard/administration/using/about-access-management.html" name="publishExternalURL" />
+  <meta content="2018-02-16T08:01:37.649-0500" name="jcr:created" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-07-23T05:53:20.888-0400" name="topicBrowsingSortDate" />
+  <meta content="2018-07-25T09:29:11.223-0400" name="cq:lastModified" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="Manage your Adobe Campaign operators using roles, groups and geographical and organizational units." name="seoDescription" />
+  <meta content="2018-07-23T05:53:20.888-0400" name="publishExternalDate" />
+  <meta content="false" name="isReadyForLocalization" />
   <meta content="2018-07-25T09:29:11.223-0400" name="locHandOffDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="https://helpx.adobe.com/campaign/standard/administration/using/about-access-management.html" name="publishExternalURL" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="About access management" name="jcr:description" />
+  <meta content="98f2d852-000e-45b5-b238-c2f15b779bc7" name="jcr:uuid" />
+  <meta content="audience:administration" name="primaryAudienceTag" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
  </head>
  <body>
   <p>Adobe Campaign allows you to define and manage the permissions assigned to different users. Permissions are a set of rights and restrictions that authorize or deny access to certain functionalities or objects in the interface. These permissions are based on two concepts:</p> 

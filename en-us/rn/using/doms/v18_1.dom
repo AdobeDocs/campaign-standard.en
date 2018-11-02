@@ -1,38 +1,38 @@
 <html>
  <head>
-  <meta content="" name="jcr:versionHistory" />
   <meta content="vignes" name="cq:lastModifiedBy" />
   <meta content="v18.1" name="jcr:title" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:rn;content_type:reference;topic_tags:adobe-campaign-standard-release-notes" name="cq:tags" />
-  <meta content="https://helpx.adobe.com/campaign/standard/rn/using/v18_1.html" name="publishExternalURL" />
-  <meta content="vignes@adobe.com" name="lr_lastReplicatedBy" />
   <meta content="light" name="heroGradient" />
-  <meta content="audience:rn" name="primaryAudienceTag" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="" name="jcr:primaryType" />
   <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="v18.1" name="navTitle" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-01-30T08:22:34.742-0500" name="lastPublishExternalDate" />
+  <meta content="2018-01-31T08:02:46.515-0500" name="jcr:created" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="https://helpx.adobe.com/campaign/standard/rn/using/v18_1.html" name="publishExternalURL" />
   <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="aa2acebb-e58e-42fc-aad9-d56e8b9611e5" name="jcr:uuid" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:rn;content_type:reference;topic_tags:adobe-campaign-standard-release-notes" name="cq:tags" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="/content/help/en/campaign/standard/rn/morehelp/adobe-campaign-standard-release-notes;/content/help/en/campaign/standard/rn/morehelp/adobe-campaign-standard-release-notes" name="moreHelpPaths" />
+  <meta content="2018-01-10T15:33:38.636-0500" name="firstPublishExternalDate" />
+  <meta content="admin" name="jcr:createdBy" />
   <meta content="2018-01-30T08:22:34.750-0500" name="cq:lastModified" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="vignes@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-01-30T08:22:34.742-0500" name="topicBrowsingSortDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="https://helpx-internal.corp.adobe.com/content/help/en/campaign/standard/rn/using/v18_1.html" name="publishInternalURL" />
   <meta content="7aeb5d12-a115-4aa7-af09-1b4c904eff39" name="jcr:predecessors" />
   <meta content="01/09/2018" name="jcr:description" />
-  <meta content="aa2acebb-e58e-42fc-aad9-d56e8b9611e5" name="jcr:uuid" />
-  <meta content="2018-01-31T08:02:46.515-0500" name="jcr:created" />
-  <meta content="2018-01-30T08:22:34.742-0500" name="topicBrowsingSortDate" />
-  <meta content="/content/help/en/campaign/standard/rn/morehelp/adobe-campaign-standard-release-notes;/content/help/en/campaign/standard/rn/morehelp/adobe-campaign-standard-release-notes" name="moreHelpPaths" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="https://helpx-internal.corp.adobe.com/content/help/en/campaign/standard/rn/using/v18_1.html" name="publishInternalURL" />
-  <meta content="2018-01-30T08:22:34.742-0500" name="publishInternalDate" />
-  <meta content="2018-01-30T08:22:34.742-0500" name="lastPublishInternalDate" />
+  <meta content="v18.1" name="navTitle" />
   <meta content="2018-01-11T04:37:13.443-0500" name="firstPublishInternalDate" />
-  <meta content="2018-01-30T08:22:34.742-0500" name="lastPublishExternalDate" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="2018-01-10T15:33:38.636-0500" name="firstPublishExternalDate" />
+  <meta content="2018-01-30T08:22:34.742-0500" name="lastPublishInternalDate" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-01-30T08:22:34.742-0500" name="publishInternalDate" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="audience:rn" name="primaryAudienceTag" />
   <meta content="2018-01-30T08:22:34.742-0500" name="publishExternalDate" />
-  <meta content="true" name="jcr:isCheckedOut" />
  </head>
  <body>
   <h2>Improvements</h2>

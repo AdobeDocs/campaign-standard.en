@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="2018-07-23T06:03:19.504-0400" name="firstPublishExternalDate" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="audience:channels" name="primaryAudienceTag" />
-  <meta content="2018-07-30T04:54:13.990-0400" name="locHandOffDate" />
-  <meta content="Setting up a double opt-in process" name="navTitle" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:channels;content_type:reference;topic_tags:landing-pages" name="cq:tags" />
-  <meta content="Setting up a double opt-in process" name="jcr:title" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="2018-07-23T06:03:19.543-0400" name="cq:lastReplicated" />
-  <meta content="https://helpx.adobe.com/campaign/standard/channels/using/setting-up-a-double-opt-in-process.html" name="publishExternalURL" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="2018-07-23T06:03:19.504-0400" name="lastPublishExternalDate" />
-  <meta content="226bdd69-672c-4bad-8e41-39fc8cf37959" name="jcr:uuid" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="b57ab2b9-8992-4fff-9f70-e5b91e404d72" name="jcr:predecessors" />
-  <meta content="2018-07-23T06:03:19.504-0400" name="publishExternalDate" />
-  <meta content="2018-07-23T06:03:19.504-0400" name="topicBrowsingSortDate" />
   <meta content="light" name="heroGradient" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="Follow these steps to set up a double opt-in process using landing pages in Adobe Campaign." name="seoDescription" />
+  <meta content="b57ab2b9-8992-4fff-9f70-e5b91e404d72" name="jcr:predecessors" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="Setting up a double opt-in process" name="navTitle" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2018-07-23T06:03:19.504-0400" name="publishExternalDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-07-23T06:03:19.543-0400" name="cq:lastReplicated" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="2018-07-23T06:03:19.504-0400" name="firstPublishExternalDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-07-23T06:03:19.504-0400" name="topicBrowsingSortDate" />
   <meta content="2018-07-30T04:54:13.990-0400" name="cq:lastModified" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="https://helpx.adobe.com/campaign/standard/channels/using/setting-up-a-double-opt-in-process.html" name="publishExternalURL" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Setting up a double opt-in process" name="jcr:title" />
+  <meta content="Setting up a double opt-in process" name="jcr:description" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="audience:channels" name="primaryAudienceTag" />
+  <meta content="226bdd69-672c-4bad-8e41-39fc8cf37959" name="jcr:uuid" />
   <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-03-15T09:02:15.055-0400" name="jcr:created" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-07-30T04:54:13.990-0400" name="locHandOffDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:channels;content_type:reference;topic_tags:landing-pages" name="cq:tags" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-07-23T06:03:19.504-0400" name="lastPublishExternalDate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
   <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
   <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="Setting up a double opt-in process" name="jcr:description" />
-  <meta content="Follow these steps to set up a double opt-in process using landing pages in Adobe Campaign." name="seoDescription" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="2018-03-15T09:02:15.055-0400" name="jcr:created" />
  </head>
  <body>
   <h2>About double opt-in</h2>

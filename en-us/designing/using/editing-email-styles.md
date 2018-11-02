@@ -3,7 +3,7 @@ title: Editing email styles
 seo-title: Editing email styles
 description: Editing email styles
 seo-description: Quickly edit the style of your email through the UI with easily accessible settings.
-uuid: 0e6860c7-ba86-48d0-a160-e1f03a1e394f
+uuid: 8fe8cd09-9932-4f39-a7f8-51d2d23896d0
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/editing-email-styles
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: a3a3ad7b-8afc-4872-8a5e-7bbd50aa7884
+discoiquuid: dfe47318-37e0-44d1-a1db-dbc68ba1054f
 firstPublishExternalDate: 2018-07-23T05:57:42.362-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Editing email styles
 publishexternaldate: 2018-07-23T08 13 24.983-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/editing-email-styles.html
-sha1: 0b6e00a0fc842608d388476465e09218f5ecf281
+sha1: d62b13b69ddc647323e0f1d1ea3035df2bada958
 topicBrowsingSortDate: 2018-07-23T08:13:24.983-0400
 index: y
 internal: n

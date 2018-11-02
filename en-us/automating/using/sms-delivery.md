@@ -3,7 +3,7 @@ title: SMS delivery
 seo-title: SMS delivery
 description: SMS delivery
 seo-description: The SMS delivery activity allows you to configure sending a single send SMS or a recurring SMS in a workflow.
-uuid: 33abb2a2-59da-4a4c-ba80-aa20b0c57749
+uuid: ec17346b-e3db-4e8e-a5f9-4bab2312c43b
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/sms-delivery
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: channel-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: 74a88a5b-fd83-46d4-b2f1-9774b3173e90
+discoiquuid: f1cc6b15-def0-432e-9b8a-a11b9c0f57b8
 firstPublishExternalDate: 2018-07-23T05:57:20.832-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: SMS delivery
 publishexternaldate: 2018-07-23T05 57 20.832-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/sms-delivery.html
-sha1: 3c02afe4df80e7cee71e1f66a529acf5ee9f91f3
+sha1: 537d24b42ce824f4015b40245023aab8112d5fd0
 topicBrowsingSortDate: 2018-07-23T05:57:20.832-0400
 index: y
 internal: n

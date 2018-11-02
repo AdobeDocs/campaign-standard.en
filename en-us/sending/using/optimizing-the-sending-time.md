@@ -3,7 +3,7 @@ title: Optimizing the sending time
 seo-title: Optimizing the sending time
 description: Optimizing the sending time
 seo-description: Learn how to set up sending time and improve the open rate of your messages.
-uuid: 799269f7-da92-4a35-b77a-44bb4a1641fc
+uuid: 63f86c77-de1a-4ecb-b8a5-5b505b6eb6ee
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/sending/using/optimizing-the-sending-time
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 cq-template: /apps/help/templates/article-3
-discoiquuid: b9161e29-bf4f-4092-a982-631610e61f0f
+discoiquuid: 628571b6-0e67-421b-bcf0-3b82515c0fda
 firstPublishExternalDate: 2018-07-23T06:02:21.097-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Optimizing the sending time
 publishexternaldate: 2018-07-23T06 02 21.097-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/sending/using/optimizing-the-sending-time.html
-sha1: e2a8ea56869bceac750957c77e060e9f000f362c
+sha1: a042d42ad8d4d7ec8eb2be82aebdb81b21cd0795
 topicBrowsingSortDate: 2018-07-23T06:02:21.097-0400
 index: y
 internal: n

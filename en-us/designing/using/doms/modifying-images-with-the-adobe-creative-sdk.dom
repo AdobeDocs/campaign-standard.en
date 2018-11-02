@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="Modifying images with the Adobe Creative SDK" name="jcr:description" />
-  <meta content="" name="seoDescription" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="2018-07-23T07:30:16.249-0400" name="jcr:created" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="b525e938-de82-4e75-a0d4-6e8c6e131dfa" name="jcr:predecessors" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:using-images" name="cq:tags" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="audience:designing" name="primaryAudienceTag" />
-  <meta content="2018-07-23T08:13:45.584-0400" name="topicBrowsingSortDate" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="2018-07-23T05:58:33.921-0400" name="firstPublishExternalDate" />
-  <meta content="2018-07-26T02:53:47.291-0400" name="cq:lastModified" />
-  <meta content="2018-07-23T08:13:45.584-0400" name="lastPublishExternalDate" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="2018-07-23T08:13:45.651-0400" name="cq:lastReplicated" />
-  <meta content="2018-07-23T08:13:45.584-0400" name="publishExternalDate" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="Modifying images with the Adobe Creative SDK" name="navTitle" />
-  <meta content="https://helpx.adobe.com/campaign/standard/designing/using/modifying-images-with-the-adobe-creative-sdk.html" name="publishExternalURL" />
-  <meta content="light" name="heroGradient" />
-  <meta content="3291fb32-0fa2-41ac-9cf1-0ccea33e9c38" name="jcr:uuid" />
   <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="2018-07-26T02:53:47.290-0400" name="locHandOffDate" />
-  <meta content="Modifying images with the Adobe Creative SDK" name="jcr:title" />
+  <meta content="" name="seoDescription" />
   <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-07-26T02:53:47.290-0400" name="locHandOffDate" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="2018-07-23T08:13:45.584-0400" name="lastPublishExternalDate" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-07-23T08:13:45.651-0400" name="cq:lastReplicated" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="light" name="heroGradient" />
+  <meta content="Modifying images with the Adobe Creative SDK" name="jcr:title" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="3291fb32-0fa2-41ac-9cf1-0ccea33e9c38" name="jcr:uuid" />
+  <meta content="2018-07-23T07:30:16.249-0400" name="jcr:created" />
+  <meta content="Modifying images with the Adobe Creative SDK" name="jcr:description" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="audience:designing" name="primaryAudienceTag" />
+  <meta content="Modifying images with the Adobe Creative SDK" name="navTitle" />
+  <meta content="2018-07-23T08:13:45.584-0400" name="topicBrowsingSortDate" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:using-images" name="cq:tags" />
+  <meta content="2018-07-23T08:13:45.584-0400" name="publishExternalDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-07-26T02:53:47.291-0400" name="cq:lastModified" />
+  <meta content="2018-07-23T05:58:33.921-0400" name="firstPublishExternalDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="https://helpx.adobe.com/campaign/standard/designing/using/modifying-images-with-the-adobe-creative-sdk.html" name="publishExternalURL" />
+  <meta content="b525e938-de82-4e75-a0d4-6e8c6e131dfa" name="jcr:predecessors" />
+  <meta content="" name="jcr:primaryType" />
  </head>
  <body>
   <p>You can edit images and use a complete set of features powered by the Adobe Creative SDK to enhance your images directly in the content editor when editing emails or landing pages.</p> 

@@ -3,7 +3,7 @@ title: Enrichment
 seo-title: Enrichment
 description: Enrichment
 seo-description: The Enrichment activity is an advanced activity that allows you to define additional data to process in your workflow.
-uuid: 4039b02b-da41-4693-aef5-dd677e9a51fa
+uuid: 8f9d64d9-8b94-4eb3-8874-e53894be8010
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/enrichment
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: bda04e5e-55bb-4cb4-a5a4-e9c818c028cb
+discoiquuid: 02213186-ddf0-43aa-8551-7e6938d5b5bf
 firstPublishExternalDate: 2018-07-23T05:57:09.679-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Enrichment
 publishexternaldate: 2018-07-23T05 57 09.679-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/enrichment.html
-sha1: 6825204042e85b1e65d9c85bc17be398957bd8fb
+sha1: d7e911fbb0c05c3a3d884986cd88e5d2b4193f4b
 topicBrowsingSortDate: 2018-07-23T05:57:09.679-0400
 index: y
 internal: n

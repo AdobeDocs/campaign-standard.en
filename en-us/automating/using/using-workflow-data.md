@@ -3,7 +3,7 @@ title: Using workflow data
 seo-title: Using workflow data
 description: Using workflow data
 seo-description: Learn the different possibilities to consume the data you imported or targeted.
-uuid: bebbf88e-f9ba-47a1-8594-829143543ca7
+uuid: 756e0695-a0cd-4619-a312-a1ae67cdfc80
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/using-workflow-data
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 cq-template: /apps/help/templates/article-3
-discoiquuid: e558eec9-9917-4110-8b9e-584507384d3d
+discoiquuid: 09bbe7aa-471e-4c2d-af47-9499ce0503b8
 firstPublishExternalDate: 2018-07-23T05:56:53.155-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Using workflow data
 publishexternaldate: 2018-07-23T05 56 53.155-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/using-workflow-data.html
-sha1: adf63c550901ea50c8b24f6f39079211452f5b5c
+sha1: 42eb31aa7b04624e929276ffca08607a514e9ba6
 topicBrowsingSortDate: 2018-07-23T05:56:53.155-0400
 index: y
 internal: n

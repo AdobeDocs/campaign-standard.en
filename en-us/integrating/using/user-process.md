@@ -4,7 +4,7 @@ seo-title: User process
 description: User process
 seo-description: Learn the main steps of the user process before using the Adobe Marketing Cloud Triggers integration.
 page-status-flag: never-activated
-uuid: c1a1a213-d7e1-4c8a-9965-1096e66ed6ee
+uuid: 8fa12653-d9cd-4210-b622-c487b8cb577d
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/integrating/using/user-process
 contentOwner: sauviat
@@ -15,7 +15,7 @@ audience: integrating
 content-type: reference
 topic-tags: marketing-cloud-triggers
 cq-template: /apps/help/templates/article-3
-discoiquuid: 57b9180a-3973-4df3-be5b-92a9859e8627
+discoiquuid: ce68b507-2cc8-4de1-aeec-bf4393ca6348
 firstPublishExternalDate: 2018-01-10T15:24:17.335-0500
 herogradient: light
 jcr-created: 2018-01-11T19 01 21.218-0500
@@ -28,7 +28,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: User process
 publishexternaldate: 2018-01-10T15 24 17.335-0500
 publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/user-process.html
-sha1: e0c2a575e9e409f2c1ec819426f40209ac79b4da
+sha1: 3595ee006f9c1ceb2fa30e96c378471446f01058
 topicBrowsingSortDate: 2018-01-10T15:24:17.335-0500
 index: y
 internal: n

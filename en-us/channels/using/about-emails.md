@@ -3,7 +3,7 @@ title: About emails
 seo-title: About emails
 description: About emails
 seo-description: Discover the different types of emails that you can send with Adobe Campaign.
-uuid: aa523c57-0694-4320-a53e-db99dbd5335f
+uuid: acc3a170-f590-493e-baf0-08ac4bbfd9ce
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/about-emails
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: channels
 content-type: reference
 topic-tags: email-messages
 cq-template: /apps/help/templates/article-3
-discoiquuid: b0fcb6e1-a334-40b6-9841-c626def18cd5
+discoiquuid: f111b653-a289-4a85-bfb9-71aa7f1fe949
 firstPublishExternalDate: 2018-07-23T06:02:40.360-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About emails
 publishexternaldate: 2018-07-23T06 02 40.360-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/about-emails.html
-sha1: bd9149a13b0c7b7f74e89f8958006de13445c6c3
+sha1: 47249509c352106eeedc02afd04167f57478ca0e
 topicBrowsingSortDate: 2018-07-23T06:02:40.360-0400
 index: y
 internal: n

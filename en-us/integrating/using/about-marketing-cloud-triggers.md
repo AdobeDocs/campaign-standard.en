@@ -4,7 +4,7 @@ seo-title: About Marketing Cloud Triggers
 description: About Marketing Cloud Triggers
 seo-description: By tracking specific behaviors from customers with Adobe Analytics, you can now send personalized emails to your customers in Adobe Campaign.
 page-status-flag: never-activated
-uuid: 96b344c2-2c7a-4eda-b3de-9d94a602caba
+uuid: 73c93d8f-9b45-446e-a39a-9fe465b787e2
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/integrating/using/about-marketing-cloud-triggers
 contentOwner: sauviat
@@ -15,7 +15,7 @@ audience: integrating
 content-type: reference
 topic-tags: marketing-cloud-triggers
 cq-template: /apps/help/templates/article-3
-discoiquuid: 7aacbb41-78ad-4f03-b5e0-d6db8eeab9f9
+discoiquuid: c0755b79-236b-4723-b431-13e1e15d34b3
 firstPublishExternalDate: 2018-01-10T15:24:16.911-0500
 herogradient: light
 jcr-created: 2018-01-11T19 01 45.733-0500
@@ -28,7 +28,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About Marketing Cloud Triggers
 publishexternaldate: 2018-01-10T15 24 16.911-0500
 publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/about-marketing-cloud-triggers.html
-sha1: 35d10546164ba9eb648653d202961d0665310d47
+sha1: 0e73cbaf23b05afef826208ad38cadbce5170ede
 topicBrowsingSortDate: 2018-01-10T15:24:16.911-0500
 index: y
 internal: n

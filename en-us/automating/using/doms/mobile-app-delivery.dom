@@ -1,40 +1,40 @@
 <html> 
  <head> 
-  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
-  <meta content="Mobile app delivery" name="jcr:description" /> 
-  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
-  <meta content="2018-07-23T05:57:21.825-0400" name="topicBrowsingSortDate" /> 
-  <meta content="sauviat" name="cq:lastReplicatedBy" /> 
-  <meta content="sauviat" name="contentOwner" /> 
-  <meta content="en_us" name="jcr:language" /> 
-  <meta content="Activate" name="cq:lastReplicationAction" /> 
-  <meta content="admin" name="jcr:createdBy" /> 
-  <meta content="2018-03-15T09:03:01.154-0400" name="jcr:created" /> 
-  <meta content="false" name="isReadyForLocalization" /> 
-  <meta content="37ae1cdd-2314-4322-870d-94efe7437bc1" name="jcr:uuid" /> 
-  <meta content="The Mobile app delivery activity allows you to configure sending a single send push notification or a recurring push notification in a workflow." name="seoDescription" /> 
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
-  <meta content="2018-07-23T05:57:21.825-0400" name="lastPublishExternalDate" /> 
-  <meta content="" name="jcr:primaryType" /> 
-  <meta content="/etc/designs/help" name="cq:designPath" /> 
-  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/mobile-app-delivery.html" name="publishExternalURL" /> 
-  <meta content="2018-07-23T05:57:21.825-0400" name="publishExternalDate" /> 
-  <meta content="Mobile app delivery" name="jcr:title" /> 
-  <meta content="2018-07-23T05:57:21.887-0400" name="cq:lastReplicated" /> 
-  <meta content="5ea75076-a4f3-4b6b-884b-37fcc52e7c1e" name="jcr:predecessors" /> 
-  <meta content="2018-07-23T05:57:21.825-0400" name="firstPublishExternalDate" /> 
-  <meta content="2018-07-25T09:29:45.866-0400" name="locHandOffDate" /> 
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
-  <meta content="Mobile app delivery" name="navTitle" /> 
-  <meta content="light" name="heroGradient" /> 
-  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
   <meta content="2018-07-25T09:29:45.867-0400" name="cq:lastModified" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="The Mobile app delivery activity allows you to configure sending a single send push notification or a recurring push notification in a workflow." name="seoDescription" /> 
+  <meta content="2018-03-15T09:03:01.154-0400" name="jcr:created" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/mobile-app-delivery.html" name="publishExternalURL" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="37ae1cdd-2314-4322-870d-94efe7437bc1" name="jcr:uuid" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="Mobile app delivery" name="jcr:description" /> 
+  <meta content="2018-07-25T09:29:45.866-0400" name="locHandOffDate" /> 
+  <meta content="Mobile app delivery" name="jcr:title" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="Mobile app delivery" name="navTitle" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-07-23T05:57:21.825-0400" name="topicBrowsingSortDate" /> 
+  <meta content="5ea75076-a4f3-4b6b-884b-37fcc52e7c1e" name="jcr:predecessors" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-07-23T05:57:21.825-0400" name="lastPublishExternalDate" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2018-07-23T05:57:21.887-0400" name="cq:lastReplicated" /> 
+  <meta content="sauviat" name="cq:lastReplicatedBy" /> 
   <meta content="audience:automating" name="primaryAudienceTag" /> 
   <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:channel-activities" name="cq:tags" /> 
-  <meta content="true" name="jcr:isCheckedOut" /> 
-  <meta content="" name="jcr:baseVersion" /> 
-  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="2018-07-23T05:57:21.825-0400" name="firstPublishExternalDate" /> 
+  <meta content="2018-07-23T05:57:21.825-0400" name="publishExternalDate" /> 
  </head> 
  <body> 
   <h2>Description</h2> 

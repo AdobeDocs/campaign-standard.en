@@ -3,7 +3,7 @@ title: Editing profiles
 seo-title: Editing profiles
 description: Editing profiles
 seo-description: Learn how to edit existing profiles and access contact information, prefered channels, tracking logs, subscriptions, etc.
-uuid: 8940c0f6-50ff-4ce8-8f2a-189aeae2b67b
+uuid: 772a1385-c927-463e-af1a-4da653391ce7
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/audiences/using/editing-profiles
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 cq-template: /apps/help/templates/article-3
-discoiquuid: b2d79c07-fcee-4ae4-819d-e57fb8204be3
+discoiquuid: ba082e2f-3f27-4fe9-882a-4ef43e144be6
 firstPublishExternalDate: 2018-07-23T05:55:21.319-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Editing profiles
 publishexternaldate: 2018-07-23T05 55 21.319-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/audiences/using/editing-profiles.html
-sha1: 7b66218ca3858f8ca853dd12a2cb121e093510a5
+sha1: 4fdf98eade69ac7b1717d16c6a7362a3560112d6
 topicBrowsingSortDate: 2018-07-23T05:55:21.319-0400
 index: y
 internal: n

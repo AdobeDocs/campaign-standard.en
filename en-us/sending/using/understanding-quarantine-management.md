@@ -3,7 +3,7 @@ title: Understanding quarantine management
 seo-title: Understanding quarantine management
 description: Understanding quarantine management
 seo-description: Learn how to optimize your deliverability with quarantine management.
-uuid: f27b97df-c6d0-407f-81b6-f708b13c6380
+uuid: 590e0ef5-a321-4b9c-beb5-cba27b30444d
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/sending/using/understanding-quarantine-management
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 cq-template: /apps/help/templates/article-3
-discoiquuid: c6719cc0-c707-4afc-8892-735ef0891a83
+discoiquuid: 0ec22290-ab76-45c2-b79e-a161a551f6cf
 firstPublishExternalDate: 2018-07-23T06:02:30.437-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Understanding quarantine management
 publishexternaldate: 2018-07-23T06 02 30.437-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/sending/using/understanding-quarantine-management.html
-sha1: 29347c475cfd3494e80c25af62d76170ad3bf8ae
+sha1: 6d628d60fd8bb9072123548aaf39d5a746e16bba
 topicBrowsingSortDate: 2018-07-23T06:02:30.437-0400
 index: y
 internal: n

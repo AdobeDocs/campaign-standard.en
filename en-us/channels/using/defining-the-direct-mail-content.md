@@ -3,7 +3,7 @@ title: Defining the direct mail content
 seo-title: Defining the direct mail content
 description: Defining the direct mail content
 seo-description: Learn how to define the content for your direct mail delivery.
-uuid: d26d5145-6808-4c7d-bd79-bdfa5b6a84ae
+uuid: bce3b814-c4d5-48f2-86f8-7413d7b10e04
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/defining-the-direct-mail-content
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: channels
 content-type: reference
 topic-tags: direct-mail
 cq-template: /apps/help/templates/article-3
-discoiquuid: c9e80a3b-08aa-45ce-b2ad-072ab0edfd13
+discoiquuid: 34514053-1682-48a7-aa36-022e32978adf
 firstPublishExternalDate: 2018-07-23T06:02:57.566-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Defining the direct mail content
 publishexternaldate: 2018-07-23T06 02 57.566-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/defining-the-direct-mail-content.html
-sha1: e9f57416448aa147fe597557291ceb1fbaa93298
+sha1: 6ae1b166e8d75274f39ece2354f86fc5ef99d62f
 topicBrowsingSortDate: 2018-07-23T06:02:57.566-0400
 index: y
 internal: n

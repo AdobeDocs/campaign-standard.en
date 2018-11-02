@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="2018-07-25T09:29:47.803-0400" name="locHandOffDate" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="2018-07-23T05:57:24.294-0400" name="publishExternalDate" />
-  <meta content="2387ceaf-86a0-4e94-824a-5ba5139b16bc" name="jcr:predecessors" />
-  <meta content="audience:automating" name="primaryAudienceTag" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/about-data-management-activities.html" name="publishExternalURL" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="2018-07-23T05:57:24.294-0400" name="lastPublishExternalDate" />
   <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:data-management-activities" name="cq:tags" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="Datamangement activities are available from the left-hand side of the screen." name="seoDescription" />
-  <meta content="light" name="heroGradient" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="2018-07-23T05:57:24.294-0400" name="firstPublishExternalDate" />
-  <meta content="2018-03-15T09:01:57.943-0400" name="jcr:created" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="About data management activities" name="navTitle" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-07-23T05:57:24.294-0400" name="publishExternalDate" />
   <meta content="2018-07-23T05:57:24.294-0400" name="topicBrowsingSortDate" />
+  <meta content="Datamangement activities are available from the left-hand side of the screen." name="seoDescription" />
+  <meta content="2018-07-25T09:29:47.803-0400" name="locHandOffDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="audience:automating" name="primaryAudienceTag" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
   <meta content="c2d7430e-7b77-4435-b71e-b6442f810f04" name="jcr:uuid" />
   <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="About data management activities" name="jcr:title" />
   <meta content="About data management activities" name="jcr:description" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="" name="jcr:versionHistory" />
   <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="2018-07-25T09:29:47.804-0400" name="cq:lastModified" />
+  <meta content="light" name="heroGradient" />
+  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/about-data-management-activities.html" name="publishExternalURL" />
+  <meta content="2018-07-23T05:57:24.294-0400" name="firstPublishExternalDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
   <meta content="2018-07-23T05:57:24.345-0400" name="cq:lastReplicated" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="About data management activities" name="jcr:title" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2018-03-15T09:01:57.943-0400" name="jcr:created" />
+  <meta content="2018-07-25T09:29:47.804-0400" name="cq:lastModified" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="About data management activities" name="navTitle" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2387ceaf-86a0-4e94-824a-5ba5139b16bc" name="jcr:predecessors" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-07-23T05:57:24.294-0400" name="lastPublishExternalDate" />
  </head>
  <body>
   <p>From the palette, on the left-hand side of the screen, unfold the <strong>Data management (ETL)</strong> section.</p> 

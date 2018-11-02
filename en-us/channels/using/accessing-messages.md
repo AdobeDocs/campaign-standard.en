@@ -3,7 +3,7 @@ title: Accessing messages
 seo-title: Accessing messages
 description: Accessing messages
 seo-description: Learn how to access messages and their advanced functionalities: creation, targeting, personalization, execution and reporting.
-uuid: 5e3ef11d-e3c0-462a-a483-e38fd76bfb03
+uuid: be4eddfe-ba4b-4b36-8173-6f37f501f4c2
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/accessing-messages
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 cq-template: /apps/help/templates/article-3
-discoiquuid: 6713fa9b-b112-44d1-bb45-ed5f96a8695f
+discoiquuid: 404c2c78-a06f-4ecc-88dd-6c951e6e3c4e
 firstPublishExternalDate: 2018-07-23T06:02:37.388-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Accessing messages
 publishexternaldate: 2018-07-23T06 02 37.388-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/accessing-messages.html
-sha1: 6b2866d30a2f110dcb46460f46a9d89f72b218b6
+sha1: b5cab094bd9f99d47c0bc0af9c86b2226f30aa94
 topicBrowsingSortDate: 2018-07-23T06:02:37.388-0400
 index: y
 internal: n

@@ -3,7 +3,7 @@ title: Changing the text style
 seo-title: Changing the text style
 description: Changing the text style
 seo-description: Easily modify the text parameters for your message content.
-uuid: 35f96aeb-fd68-47e9-8894-dc28e155c245
+uuid: c4fa0a22-909d-4d1b-b9a9-e581f5f3bd27
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/changing-the-text-style
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-message-and-landing-page-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: 8adb915f-fd52-4d1a-93e0-a4a9aa5b65b2
+discoiquuid: 22c7c291-a16c-4277-8653-0f84ec10322f
 firstPublishExternalDate: 2018-03-26T11:10:56.443-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,7 +32,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Changing the text style
 publishexternaldate: 2018-03-26T11 10 56.443-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/changing-the-text-style.html
-sha1: afb957d4cbe4901e476dc1fb309d07e80f5acad9
+sha1: 293a202ccb7f532331cee826254f870e574be665
 topicBrowsingSortDate: 2018-03-26T11:10:56.443-0400
 index: y
 internal: n

@@ -3,7 +3,7 @@ title: Personalizing an email
 seo-title: Personalizing an email
 description: Personalizing an email
 seo-description: Learn how to insert a personalization field and how to define dynamic content.
-uuid: 81f1140c-cdac-4ead-8f2f-e05dbc3a0e4b
+uuid: 129660c5-be8e-4243-94d6-bd76b2106c34
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/personalizing-an-email
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: designing-email-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: 6054a47c-a4df-4dc0-bb66-5d0447859440
+discoiquuid: c7c0fb2e-33e1-40d6-a378-6b575aac929f
 firstPublishExternalDate: 2018-06-14T08:43:52.860-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Personalizing an email
 publishexternaldate: 2018-06-14T08 43 52.860-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/personalizing-an-email.html
-sha1: 4fdd8cdb5cc10c5258af1ceebd0ff2a66e67110e
+sha1: af153f6ab0da2f953248eb2a21f820cd4f534504
 topicBrowsingSortDate: 2018-06-14T08:43:52.860-0400
 index: y
 internal: n

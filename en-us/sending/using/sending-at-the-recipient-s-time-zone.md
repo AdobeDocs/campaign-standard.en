@@ -4,7 +4,7 @@ seo-title: Sending at the recipient's time zone
 description: Sending at the recipient's time zone
 seo-description: Learn how to send the message at the recipient's time zone.
 page-status-flag: never-activated
-uuid: 0de56422-4836-4cda-9e64-a7542bc3fcc1
+uuid: 67f48b55-08c5-40a9-aba6-91456c7cdcc0
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/sending/using/sending-at-the-recipient-s-time-zone
 contentOwner: sauviat
@@ -15,7 +15,7 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 cq-template: /apps/help/templates/article-3
-discoiquuid: bdfea982-0a6a-4f22-beb9-c8328563e573
+discoiquuid: 9a7dab3a-d1fd-4e93-bc94-96191da03d39
 firstPublishExternalDate: 2018-01-10T15:31:17.252-0500
 herogradient: light
 jcr-created: 2018-01-11T19 02 04.811-0500
@@ -28,7 +28,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Sending at the recipient's time zone
 publishexternaldate: 2018-01-10T15 31 17.252-0500
 publishExternalURL: https://helpx.adobe.com/campaign/standard/sending/using/sending-at-the-recipient-s-time-zone.html
-sha1: 65781c14e6b04d1cd7272154574dd6fb8c823e60
+sha1: 1fda61b4fda50e99471609e959e5f1f3cf08b866
 topicBrowsingSortDate: 2018-01-10T15:31:17.252-0500
 index: y
 internal: n

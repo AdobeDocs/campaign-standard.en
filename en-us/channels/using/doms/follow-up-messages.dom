@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="en_us" name="jcr:language" />
-  <meta content="Follow-up messages" name="navTitle" />
-  <meta content="2018-07-23T06:03:13.845-0400" name="lastPublishExternalDate" />
-  <meta content="2018-07-23T06:03:13.878-0400" name="cq:lastReplicated" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:channels;content_type:reference;topic_tags:transactional-messaging" name="cq:tags" />
-  <meta content="2018-07-30T04:54:08.339-0400" name="locHandOffDate" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
   <meta content="2018-03-15T09:01:28.109-0400" name="jcr:created" />
-  <meta content="2018-07-23T06:03:13.845-0400" name="publishExternalDate" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="Follow-up messages" name="jcr:description" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="2018-07-30T04:54:08.339-0400" name="cq:lastModified" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="Learn how to create and publish a follow-up message." name="seoDescription" />
-  <meta content="Follow-up messages" name="jcr:title" />
-  <meta content="6c02a640-efe5-4123-bdf7-bdc793edee2d" name="jcr:uuid" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="2018-07-23T06:03:13.845-0400" name="firstPublishExternalDate" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="light" name="heroGradient" />
   <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="b590045e-7561-44b8-8a41-366ec54a88f9" name="jcr:predecessors" />
-  <meta content="audience:channels" name="primaryAudienceTag" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-07-23T06:03:13.845-0400" name="firstPublishExternalDate" />
+  <meta content="2018-07-23T06:03:13.878-0400" name="cq:lastReplicated" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
   <meta content="https://helpx.adobe.com/campaign/standard/channels/using/follow-up-messages.html" name="publishExternalURL" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="light" name="heroGradient" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:channels;content_type:reference;topic_tags:transactional-messaging" name="cq:tags" />
+  <meta content="Follow-up messages" name="jcr:title" />
+  <meta content="Follow-up messages" name="jcr:description" />
+  <meta content="2018-07-30T04:54:08.339-0400" name="locHandOffDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="b590045e-7561-44b8-8a41-366ec54a88f9" name="jcr:predecessors" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Learn how to create and publish a follow-up message." name="seoDescription" />
+  <meta content="6c02a640-efe5-4123-bdf7-bdc793edee2d" name="jcr:uuid" />
+  <meta content="audience:channels" name="primaryAudienceTag" />
+  <meta content="2018-07-30T04:54:08.339-0400" name="cq:lastModified" />
+  <meta content="2018-07-23T06:03:13.845-0400" name="publishExternalDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
   <meta content="2018-07-23T06:03:13.845-0400" name="topicBrowsingSortDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-07-23T06:03:13.845-0400" name="lastPublishExternalDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="Follow-up messages" name="navTitle" />
  </head>
  <body>
   <p>You can send a follow-up message to the customers who received a specific transactional message. To do this, you need to set up a workflow targeting the corresponding event.</p> 

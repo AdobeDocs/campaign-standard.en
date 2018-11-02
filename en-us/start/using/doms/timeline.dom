@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="2018-03-15T09:02:38.032-0400" name="jcr:created" />
-  <meta content="2018-07-23T06:00:45.933-0400" name="publishExternalDate" />
-  <meta content="Timeline" name="navTitle" />
-  <meta content="5dbac225-d968-4c8e-a7fe-9d336e698bbf" name="jcr:uuid" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="2018-07-27T03:27:08.053-0400" name="cq:lastModified" />
-  <meta content="2018-07-23T06:00:45.933-0400" name="topicBrowsingSortDate" />
-  <meta content="b57d44dc-f401-482a-9c0b-7269d684a479" name="jcr:predecessors" />
-  <meta content="2018-07-23T06:00:45.933-0400" name="firstPublishExternalDate" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
   <meta content="false" name="isReadyForLocalization" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="Timeline" name="jcr:description" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="2018-07-23T06:00:45.933-0400" name="lastPublishExternalDate" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-07-27T03:27:08.053-0400" name="cq:lastModified" />
   <meta content="light" name="heroGradient" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="2018-07-23T06:00:45.965-0400" name="cq:lastReplicated" />
   <meta content="en_us" name="jcr:language" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="https://helpx.adobe.com/campaign/standard/start/using/timeline.html" name="publishExternalURL" />
-  <meta content="Learn how to visualize programs that are in progress and their content using the Adobe Campaign Standard interface." name="seoDescription" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="Timeline" name="jcr:title" />
-  <meta content="" name="jcr:baseVersion" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2018-03-15T09:02:38.032-0400" name="jcr:created" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
   <meta content="sauviat" name="contentOwner" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:start;content_type:reference;topic_tags:marketing-plans" name="cq:tags" />
+  <meta content="Learn how to visualize programs that are in progress and their content using the Adobe Campaign Standard interface." name="seoDescription" />
+  <meta content="2018-07-23T06:00:45.933-0400" name="publishExternalDate" />
+  <meta content="Timeline" name="jcr:title" />
+  <meta content="Timeline" name="jcr:description" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-07-23T06:00:45.933-0400" name="topicBrowsingSortDate" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-07-23T06:00:45.965-0400" name="cq:lastReplicated" />
+  <meta content="2018-07-23T06:00:45.933-0400" name="lastPublishExternalDate" />
   <meta content="audience:start" name="primaryAudienceTag" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="b57d44dc-f401-482a-9c0b-7269d684a479" name="jcr:predecessors" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="5dbac225-d968-4c8e-a7fe-9d336e698bbf" name="jcr:uuid" />
+  <meta content="2018-07-23T06:00:45.933-0400" name="firstPublishExternalDate" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Timeline" name="navTitle" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:start;content_type:reference;topic_tags:marketing-plans" name="cq:tags" />
+  <meta content="https://helpx.adobe.com/campaign/standard/start/using/timeline.html" name="publishExternalURL" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:versionHistory" />
   <meta content="2018-07-27T03:27:08.051-0400" name="locHandOffDate" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="admin" name="jcr:createdBy" />
  </head>
  <body>
   <p>The <strong>Timeline</strong> allows you to visualize programs that are in progress and their content.</p> 

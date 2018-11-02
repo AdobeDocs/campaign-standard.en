@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="Managing test profiles and sending proofs" name="jcr:description" />
-  <meta content="light" name="heroGradient" />
-  <meta content="2018-07-23T06:02:17.439-0400" name="publishExternalDate" />
-  <meta content="2ceefbd1-d647-4682-96fe-30ce29edf406" name="jcr:predecessors" />
-  <meta content="2018-07-30T04:53:47.852-0400" name="cq:lastModified" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="2018-07-23T06:02:17.439-0400" name="firstPublishExternalDate" />
-  <meta content="2018-07-30T04:53:47.852-0400" name="locHandOffDate" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="Learn how to manage test profiles and proofs." name="seoDescription" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
   <meta content="2018-07-23T06:02:17.544-0400" name="cq:lastReplicated" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="audience:sending" name="primaryAudienceTag" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="2ceefbd1-d647-4682-96fe-30ce29edf406" name="jcr:predecessors" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
   <meta content="en_us" name="jcr:language" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2018-03-15T09:02:29.708-0400" name="jcr:created" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="2018-07-23T06:02:17.439-0400" name="lastPublishExternalDate" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="audience:sending" name="primaryAudienceTag" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="2018-07-30T04:53:47.852-0400" name="locHandOffDate" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="Learn how to manage test profiles and proofs." name="seoDescription" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="2018-07-23T06:02:17.439-0400" name="firstPublishExternalDate" />
   <meta content="" name="jcr:baseVersion" />
-  <meta content="64322ac0-2238-45d6-90ba-8ae14e9c5190" name="jcr:uuid" />
-  <meta content="Managing test profiles and sending proofs" name="jcr:title" />
+  <meta content="light" name="heroGradient" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
   <meta content="2018-07-23T06:02:17.439-0400" name="topicBrowsingSortDate" />
   <meta content="Managing test profiles and sending proofs" name="navTitle" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
   <meta content="admin" name="jcr:createdBy" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:sending;content_type:reference;topic_tags:preparing-and-testing-messages" name="cq:tags" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
   <meta content="false" name="isReadyForLocalization" />
-  <meta content="2018-03-15T09:02:29.708-0400" name="jcr:created" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:sending;content_type:reference;topic_tags:preparing-and-testing-messages" name="cq:tags" />
+  <meta content="Managing test profiles and sending proofs" name="jcr:title" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-07-23T06:02:17.439-0400" name="publishExternalDate" />
+  <meta content="64322ac0-2238-45d6-90ba-8ae14e9c5190" name="jcr:uuid" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
   <meta content="https://helpx.adobe.com/campaign/standard/sending/using/managing-test-profiles-and-sending-proofs.html" name="publishExternalURL" />
-  <meta content="2018-07-23T06:02:17.439-0400" name="lastPublishExternalDate" />
+  <meta content="Managing test profiles and sending proofs" name="jcr:description" />
+  <meta content="2018-07-30T04:53:47.852-0400" name="cq:lastModified" />
  </head>
  <body>
   <h2>About test profiles</h2>

@@ -1,40 +1,40 @@
 <html> 
  <head> 
-  <meta content="" name="jcr:versionHistory" /> 
-  <meta content="sauviat" name="cq:lastReplicatedBy" /> 
-  <meta content="Email delivery" name="jcr:description" /> 
-  <meta content="/etc/designs/help" name="cq:designPath" /> 
   <meta content="audience:automating" name="primaryAudienceTag" /> 
-  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/email-delivery.html" name="publishExternalURL" /> 
-  <meta content="Email delivery" name="navTitle" /> 
   <meta content="The Email delivery activity allows you to configure sending a single send email or a recurring email in a workflow." name="seoDescription" /> 
-  <meta content="true" name="jcr:isCheckedOut" /> 
-  <meta content="" name="jcr:baseVersion" /> 
-  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
-  <meta content="light" name="heroGradient" /> 
-  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
-  <meta content="Email delivery" name="jcr:title" /> 
-  <meta content="2018-07-25T09:29:43.659-0400" name="cq:lastModified" /> 
-  <meta content="en_us" name="jcr:language" /> 
-  <meta content="2018-07-23T05:57:19.523-0400" name="publishExternalDate" /> 
-  <meta content="" name="jcr:primaryType" /> 
-  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
-  <meta content="2018-07-23T05:57:19.523-0400" name="firstPublishExternalDate" /> 
-  <meta content="false" name="isReadyForLocalization" /> 
-  <meta content="2018-07-23T05:57:19.574-0400" name="cq:lastReplicated" /> 
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:channel-activities" name="cq:tags" /> 
-  <meta content="2018-07-23T05:57:19.523-0400" name="topicBrowsingSortDate" /> 
-  <meta content="2018-07-23T05:57:19.523-0400" name="lastPublishExternalDate" /> 
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
-  <meta content="sauviat" name="contentOwner" /> 
-  <meta content="7b26215a-ea46-4e5b-b386-916ceaf48859" name="jcr:predecessors" /> 
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
   <meta content="695ef135-729c-4723-b6f5-1ff1303451e0" name="jcr:uuid" /> 
-  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-07-23T05:57:19.574-0400" name="cq:lastReplicated" /> 
+  <meta content="Email delivery" name="jcr:title" /> 
+  <meta content="2018-07-23T05:57:19.523-0400" name="publishExternalDate" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="7b26215a-ea46-4e5b-b386-916ceaf48859" name="jcr:predecessors" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="2018-07-23T05:57:19.523-0400" name="topicBrowsingSortDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="Email delivery" name="navTitle" /> 
   <meta content="2018-07-25T09:29:43.659-0400" name="locHandOffDate" /> 
-  <meta content="Activate" name="cq:lastReplicationAction" /> 
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
   <meta content="2018-03-15T09:02:57.540-0400" name="jcr:created" /> 
+  <meta content="2018-07-25T09:29:43.659-0400" name="cq:lastModified" /> 
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:channel-activities" name="cq:tags" /> 
+  <meta content="2018-07-23T05:57:19.523-0400" name="lastPublishExternalDate" /> 
+  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/email-delivery.html" name="publishExternalURL" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="Email delivery" name="jcr:description" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
+  <meta content="sauviat" name="cq:lastReplicatedBy" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2018-07-23T05:57:19.523-0400" name="firstPublishExternalDate" /> 
+  <meta content="sauviat" name="contentOwner" /> 
  </head> 
  <body> 
   <h2>Description</h2> 

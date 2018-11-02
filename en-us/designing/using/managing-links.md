@@ -3,7 +3,7 @@ title: Managing links
 seo-title: Managing links
 description: Managing links
 seo-description: Discover the different links you can insert into any page element.
-uuid: 572ef17b-bc6f-4263-ae8f-8eadff48ea22
+uuid: 13afe23c-6536-4300-a352-0f49f2befa58
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/managing-links
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-message-and-landing-page-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: 80ac5129-8566-4ebf-a6cd-d091f9b385bf
+discoiquuid: 11bcdfcd-3d01-494c-969d-d89b6c9cbb53
 firstPublishExternalDate: 2018-06-14T08:43:42.955-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Managing links
 publishexternaldate: 2018-06-14T08 43 42.955-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/managing-links.html
-sha1: c8f05c0d855448e47023956b184c695383fcf72e
+sha1: 3267e7a2fb554b57818d3c95509f751694a05d2e
 topicBrowsingSortDate: 2018-06-14T08:43:42.955-0400
 index: y
 internal: n

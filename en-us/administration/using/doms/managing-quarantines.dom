@@ -1,34 +1,34 @@
 <html>
  <head>
-  <meta content="Learn how to optimize your deliverability with quarantine management." name="seoDescription" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:administration;content_type:reference;topic_tags:configuring-channels" name="cq:tags" />
-  <meta content="2018-01-10T15:17:26.986-0500" name="publishExternalDate" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="2018-01-11T19:02:19.142-0500" name="jcr:created" />
-  <meta content="2018-01-10T15:17:26.997-0500" name="cq:lastModified" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="Managing quarantines" name="navTitle" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
   <meta content="audience:administration" name="primaryAudienceTag" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="98c6ac12-98d0-43c4-ada0-858e0e9c31a4" name="jcr:predecessors" />
-  <meta content="https://helpx.adobe.com/campaign/standard/administration/using/managing-quarantines.html" name="publishExternalURL" />
-  <meta content="light" name="heroGradient" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="2018-01-10T15:17:26.986-0500" name="lastPublishExternalDate" />
-  <meta content="2018-01-10T15:17:26.986-0500" name="firstPublishExternalDate" />
   <meta content="2018-01-10T15:17:26.986-0500" name="topicBrowsingSortDate" />
-  <meta content="Managing quarantines" name="jcr:description" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="Managing quarantines" name="jcr:title" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2018-01-10T15:17:26.997-0500" name="cq:lastModified" />
+  <meta content="2018-01-11T19:02:19.142-0500" name="jcr:created" />
   <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-01-10T15:17:26.986-0500" name="publishExternalDate" />
+  <meta content="sauviat" name="contentOwner" />
   <meta content="db67dac9-4aa4-4fd5-991a-4efe79986fbe" name="jcr:uuid" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="2018-01-10T15:17:26.986-0500" name="firstPublishExternalDate" />
+  <meta content="98c6ac12-98d0-43c4-ada0-858e0e9c31a4" name="jcr:predecessors" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-01-10T15:17:26.986-0500" name="lastPublishExternalDate" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="Learn how to optimize your deliverability with quarantine management." name="seoDescription" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="Managing quarantines" name="navTitle" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Managing quarantines" name="jcr:description" />
+  <meta content="Managing quarantines" name="jcr:title" />
+  <meta content="https://helpx.adobe.com/campaign/standard/administration/using/managing-quarantines.html" name="publishExternalURL" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:administration;content_type:reference;topic_tags:configuring-channels" name="cq:tags" />
  </head>
  <body>
   <h2>About quarantines</h2>

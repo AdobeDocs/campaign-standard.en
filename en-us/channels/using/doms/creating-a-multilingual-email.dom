@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="Creating a multilingual email" name="navTitle" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:channels;content_type:reference;topic_tags:email-messages" name="cq:tags" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="light" name="heroGradient" />
-  <meta content="2018-07-23T06:02:44.215-0400" name="firstPublishExternalDate" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="2018-07-23T06:02:44.248-0400" name="cq:lastReplicated" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="audience:channels" name="primaryAudienceTag" />
-  <meta content="2018-03-15T09:01:20.103-0400" name="jcr:created" />
-  <meta content="8f44bb19-204d-485b-a5ff-97b505774f0a" name="jcr:uuid" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="29b8878a-641e-4b28-a0cb-3220292ddc51" name="jcr:predecessors" />
-  <meta content="Follow these steps to create a multilingual email targeting recipients with different preferred languages." name="seoDescription" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="2018-07-30T04:53:49.614-0400" name="locHandOffDate" />
-  <meta content="2018-07-23T06:02:44.215-0400" name="topicBrowsingSortDate" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="Creating a multilingual email" name="jcr:description" />
   <meta content="2018-07-30T04:53:49.614-0400" name="cq:lastModified" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="2018-07-23T06:02:44.215-0400" name="publishExternalDate" />
-  <meta content="2018-07-23T06:02:44.215-0400" name="lastPublishExternalDate" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="sauviat" name="contentOwner" />
+  <meta content="en_us" name="jcr:language" />
   <meta content="https://helpx.adobe.com/campaign/standard/channels/using/creating-a-multilingual-email.html" name="publishExternalURL" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:channels;content_type:reference;topic_tags:email-messages" name="cq:tags" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="2018-07-23T06:02:44.215-0400" name="topicBrowsingSortDate" />
+  <meta content="Creating a multilingual email" name="jcr:description" />
+  <meta content="2018-07-23T06:02:44.215-0400" name="firstPublishExternalDate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
   <meta content="Creating a multilingual email" name="jcr:title" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="Creating a multilingual email" name="navTitle" />
   <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="29b8878a-641e-4b28-a0cb-3220292ddc51" name="jcr:predecessors" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="light" name="heroGradient" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-07-30T04:53:49.614-0400" name="locHandOffDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-07-23T06:02:44.215-0400" name="publishExternalDate" />
+  <meta content="audience:channels" name="primaryAudienceTag" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-07-23T06:02:44.248-0400" name="cq:lastReplicated" />
+  <meta content="8f44bb19-204d-485b-a5ff-97b505774f0a" name="jcr:uuid" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-07-23T06:02:44.215-0400" name="lastPublishExternalDate" />
+  <meta content="2018-03-15T09:01:20.103-0400" name="jcr:created" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="Follow these steps to create a multilingual email targeting recipients with different preferred languages." name="seoDescription" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
  </head>
  <body>
   <p>You can send a multilingual email to profiles with different preferred languages: each profile will receive a variant of the email in his preferred language.</p> 

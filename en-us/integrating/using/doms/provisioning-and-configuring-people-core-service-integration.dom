@@ -1,35 +1,35 @@
 <html>
  <head>
-  <meta content="2018-01-11T19:02:43.950-0500" name="jcr:created" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="2018-01-10T15:24:10.078-0500" name="topicBrowsingSortDate" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:integrating;content_type:reference;topic_tags:people-core-service-integration" name="cq:tags" />
-  <meta content="2018-01-10T15:24:10.078-0500" name="lastPublishExternalDate" />
-  <meta content="bd493fd1-50bf-490f-baff-8daa74ad1066" name="jcr:uuid" />
-  <meta content="Provisioning and configuring People core service integration" name="navTitle" />
-  <meta content="372e49cb-8380-4d8b-bf8f-f52106454543" name="jcr:predecessors" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="Provisioning and configuring People core service integration" name="jcr:description" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="2018-01-10T15:24:10.085-0500" name="cq:lastModified" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="2018-01-10T15:24:10.078-0500" name="publishExternalDate" />
   <meta content="light" name="heroGradient" />
-  <meta content="/content/help/en/campaign/standard/integrating/morehelp/people-core-service-integration;/content/help/en/campaign/standard/integrating/morehelp/people-core-service-integration" name="moreHelpPaths" />
-  <meta content="Provisioning and configuring People core service integration" name="jcr:title" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="https://helpx.adobe.com/campaign/standard/integrating/using/provisioning-and-configuring-people-core-service-integration.html" name="publishExternalURL" />
-  <meta content="Learn how to configure the People core service integration to start sharing audiences or segments with the different Adobe Marketing Cloud solutions. " name="seoDescription" />
-  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Provisioning and configuring People core service integration" name="jcr:description" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="admin" name="jcr:createdBy" />
   <meta content="audience:integrating" name="primaryAudienceTag" />
-  <meta content="" name="jcr:baseVersion" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
   <meta content="2018-01-10T15:24:10.078-0500" name="firstPublishExternalDate" />
+  <meta content="2018-01-11T19:02:43.950-0500" name="jcr:created" />
+  <meta content="Provisioning and configuring People core service integration" name="jcr:title" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="/content/help/en/campaign/standard/integrating/morehelp/people-core-service-integration;/content/help/en/campaign/standard/integrating/morehelp/people-core-service-integration" name="moreHelpPaths" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="Learn how to configure the People core service integration to start sharing audiences or segments with the different Adobe Marketing Cloud solutions. " name="seoDescription" />
+  <meta content="bd493fd1-50bf-490f-baff-8daa74ad1066" name="jcr:uuid" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="372e49cb-8380-4d8b-bf8f-f52106454543" name="jcr:predecessors" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:integrating;content_type:reference;topic_tags:people-core-service-integration" name="cq:tags" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-01-10T15:24:10.078-0500" name="topicBrowsingSortDate" />
+  <meta content="2018-01-10T15:24:10.078-0500" name="publishExternalDate" />
+  <meta content="https://helpx.adobe.com/campaign/standard/integrating/using/provisioning-and-configuring-people-core-service-integration.html" name="publishExternalURL" />
+  <meta content="2018-01-10T15:24:10.085-0500" name="cq:lastModified" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-01-10T15:24:10.078-0500" name="lastPublishExternalDate" />
+  <meta content="Provisioning and configuring People core service integration" name="navTitle" />
  </head>
  <body>
   <p>People core service integration lets you import and export audiences or segments in Adobe Campaign.</p> 

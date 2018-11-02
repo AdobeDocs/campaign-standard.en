@@ -3,7 +3,7 @@ title: Configuring mobile app channel
 seo-title: Configuring mobile app channel
 description: Configuring mobile app channel
 seo-description: Discover how to configure Adobe Campaign to send push notifications.
-uuid: a66bed2a-eca1-45ad-bab1-e05d5723ea1a
+uuid: f67093ec-b958-4409-9276-2223e50df5a6
 content-encoding: UTF-8
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/configuring-mobile-app-channel
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 cq-template: /apps/help/templates/article-3
-discoiquuid: 1cda917b-489c-4a1e-ab16-832e78e3ad7b
+discoiquuid: 5c3aed7c-8e76-4f14-bbd4-e6a982bfeaea
 firstPublishExternalDate: 2018-07-23T05:53:39.315-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Configuring mobile app channel
 publishexternaldate: 2018-07-23T05 53 39.315-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/configuring-mobile-app-channel.html
-sha1: d5fb348e74d08939e720bcc6309bc1af490bd93c
+sha1: 94d95dc27f13d58b4d03bd3aaa542624362b14f3
 topicBrowsingSortDate: 2018-07-23T05:53:39.315-0400
 index: y
 internal: n

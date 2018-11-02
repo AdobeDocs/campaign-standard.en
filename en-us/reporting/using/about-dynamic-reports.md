@@ -3,7 +3,7 @@ title: About dynamic reports
 seo-title: About dynamic reports
 description: About dynamic reports
 seo-description: With dynamic reports, drag and drop variables and dimensions into your freeform environment and analyze the success of your campaigns.
-uuid: bdbb5fac-8656-4d9c-a83c-1d54148dd71a
+uuid: 0b6d134f-ad18-440c-a3ef-a2e366ad986a
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/reporting/using/about-dynamic-reports
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: reporting
 content-type: reference
 topic-tags: about-reporting
 cq-template: /apps/help/templates/article-3
-discoiquuid: 2d198e74-31fd-4172-8c7f-c2b32763a614
+discoiquuid: 500e8c9b-f056-4f47-bffb-becbbe076e45
 firstPublishExternalDate: 2018-07-23T06:00:05.538-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About dynamic reports
 publishexternaldate: 2018-07-23T06 00 05.538-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/about-dynamic-reports.html
-sha1: 0c3addbc286dfa9d60bc990d4aa33291fb12dc73
+sha1: a30ccb1552b54f36df6adf6a27f8ea72da96c6da
 topicBrowsingSortDate: 2018-07-23T06:00:05.538-0400
 index: y
 internal: n

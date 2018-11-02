@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="2018-07-23T05:59:40.372-0400" name="topicBrowsingSortDate" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="2018-07-23T05:59:40.372-0400" name="publishExternalDate" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="audience:integrating" name="primaryAudienceTag" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="96d87110-334e-4ab2-b2f4-794a67f75bd7" name="jcr:uuid" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="Provisioning and configuring integration with Audience Manager or People core service" name="navTitle" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:integrating;content_type:reference;topic_tags:working-with-campaign-and-audience-manager-or-people-core-service" name="cq:tags" />
-  <meta content="Learn how to configure the Audience Manager / People core service integration to start sharing audiences or segments with the different Adobe Experience Cloud solutions. " name="seoDescription" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="2018-07-23T05:59:40.372-0400" name="lastPublishExternalDate" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="ef063387-fc36-4ea5-8e33-6d65afb3ad7d" name="jcr:predecessors" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="2018-07-23T05:59:40.372-0400" name="firstPublishExternalDate" />
-  <meta content="light" name="heroGradient" />
-  <meta content="2018-07-27T03:26:49.168-0400" name="cq:lastModified" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
   <meta content="https://helpx.adobe.com/campaign/standard/integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.html" name="publishExternalURL" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="Provisioning and configuring integration with Audience Manager or People core service" name="jcr:title" />
+  <meta content="audience:integrating" name="primaryAudienceTag" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:integrating;content_type:reference;topic_tags:working-with-campaign-and-audience-manager-or-people-core-service" name="cq:tags" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Provisioning and configuring integration with Audience Manager or People core service" name="navTitle" />
   <meta content="2018-07-27T03:26:49.167-0400" name="locHandOffDate" />
   <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="2018-07-23T05:59:40.425-0400" name="cq:lastReplicated" />
+  <meta content="2018-07-23T05:59:40.372-0400" name="publishExternalDate" />
+  <meta content="Provisioning and configuring integration with Audience Manager or People core service" name="jcr:title" />
+  <meta content="2018-07-23T05:59:40.372-0400" name="firstPublishExternalDate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-07-23T05:59:40.372-0400" name="topicBrowsingSortDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="false" name="isReadyForLocalization" />
   <meta content="Provisioning and configuring integration with Audience Manager or People core service" name="jcr:description" />
+  <meta content="light" name="heroGradient" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-07-23T05:59:40.425-0400" name="cq:lastReplicated" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="96d87110-334e-4ab2-b2f4-794a67f75bd7" name="jcr:uuid" />
+  <meta content="Learn how to configure the Audience Manager / People core service integration to start sharing audiences or segments with the different Adobe Experience Cloud solutions. " name="seoDescription" />
+  <meta content="2018-07-23T05:59:40.372-0400" name="lastPublishExternalDate" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="2018-07-27T03:26:49.168-0400" name="cq:lastModified" />
+  <meta content="ef063387-fc36-4ea5-8e33-6d65afb3ad7d" name="jcr:predecessors" />
+  <meta content="" name="jcr:baseVersion" />
   <meta content="2018-03-15T09:02:56.412-0400" name="jcr:created" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
  </head>
  <body>
   <p>The provisioning and configuring of Audience Manager and People core in Adobe Campaign take two steps: <a href="../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#submitting-request-to-adobe">Submitting request to Adobe</a> then <a href="../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#configuring-the-integration-in-adobe-campaign">Configuring the integration in Adobe Campaign</a>.</p> 

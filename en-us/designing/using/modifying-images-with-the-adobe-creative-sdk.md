@@ -3,7 +3,7 @@ title: Modifying images with the Adobe Creative SDK
 seo-title: Modifying images with the Adobe Creative SDK
 description: Modifying images with the Adobe Creative SDK
 seo-description: 
-uuid: 53d1d6f4-9700-42b5-a391-577782fb2bd3
+uuid: 65ec9c50-9dfb-42eb-aabe-4e3fe51ccf29
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/modifying-images-with-the-adobe-creative-sdk
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: using-images
 cq-template: /apps/help/templates/article-3
-discoiquuid: 5631d201-05d5-4947-a477-7bd85c3a8fa7
+discoiquuid: 1620a091-0616-42ee-a11c-4f358edba79c
 firstPublishExternalDate: 2018-07-23T05:58:33.921-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Modifying images with the Adobe Creative SDK
 publishexternaldate: 2018-07-23T08 13 45.584-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/modifying-images-with-the-adobe-creative-sdk.html
-sha1: be8aa42ea37c675fb374af99f806c887f982eb23
+sha1: 374cf518fd37c5cc387887543f21fe075d7d403e
 topicBrowsingSortDate: 2018-07-23T08:13:45.584-0400
 index: y
 internal: n

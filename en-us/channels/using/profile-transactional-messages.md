@@ -3,7 +3,7 @@ title: Profile transactional messages
 seo-title: Profile transactional messages
 description: Profile transactional messages
 seo-description: Learn how to create and publish a profile transactional message.
-uuid: a87bb507-f0db-433a-8239-7852cab79c45
+uuid: 1da19aff-eb0e-4f5e-8443-5c962e33110e
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/profile-transactional-messages
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 cq-template: /apps/help/templates/article-3
-discoiquuid: 319bdcb0-e3e4-4cf1-b463-92d775620d06
+discoiquuid: 0a20a064-b590-4cb9-a4cb-728d5f2f3cd9
 firstPublishExternalDate: 2018-07-23T06:03:06.101-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Profile transactional messages
 publishexternaldate: 2018-07-23T06 03 06.101-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/profile-transactional-messages.html
-sha1: 9e07a4127bd3ed7589cda58468462b9701987d49
+sha1: 85241389a92428141fb3f5e2a59e73e98cdedc25
 topicBrowsingSortDate: 2018-07-23T06:03:06.101-0400
 index: y
 internal: n

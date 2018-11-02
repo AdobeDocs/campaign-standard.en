@@ -3,7 +3,7 @@ title: Designing a landing page
 seo-title: Designing a landing page
 description: Designing a landing page
 seo-description: Follow these steps to design the content of a landing page and link it to a service.
-uuid: 0b821455-99bb-428e-b5ce-348be19e94c7
+uuid: 4bf90f31-bd60-4c11-ab54-c92436d386a0
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/designing-a-landing-page
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 cq-template: /apps/help/templates/article-3
-discoiquuid: 2345861b-cfd6-4fc1-9240-4e52de039036
+discoiquuid: 97c1c31d-b346-4edf-a408-6aab35c88a8d
 firstPublishExternalDate: 2018-07-23T06:03:15.928-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Designing a landing page
 publishexternaldate: 2018-07-23T06 03 15.928-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/designing-a-landing-page.html
-sha1: c6b5f0a1a7a67900ba41b8fd57efe4a2e03aaf95
+sha1: 73324328282579b07fa87e839721db02316ed027
 topicBrowsingSortDate: 2018-07-23T06:03:15.928-0400
 index: y
 internal: n

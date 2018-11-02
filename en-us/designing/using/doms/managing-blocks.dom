@@ -1,38 +1,38 @@
 <html> 
  <head> 
-  <meta content="2018-03-26T11:12:47.706-0400" name="firstPublishExternalDate" /> 
-  <meta content="2018-04-04T11:44:33.464-0400" name="cq:lastModified" /> 
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
-  <meta content="" name="jcr:baseVersion" /> 
-  <meta content="Managing blocks" name="jcr:description" /> 
-  <meta content="sauviat" name="contentOwner" /> 
-  <meta content="true" name="jcr:isCheckedOut" /> 
-  <meta content="2018-03-26T11:12:48.954-0400" name="cq:lastReplicated" /> 
-  <meta content="en_us" name="jcr:language" /> 
+  <meta content="7ce4727b-c95b-47b9-ade9-45d42c1ee3db" name="jcr:uuid" /> 
   <meta content="Learn how to manage the different HTML content elements in a message." name="seoDescription" /> 
-  <meta content="72789f56-1d09-4f49-bfbe-133182706e8a" name="jcr:predecessors" /> 
-  <meta content="/etc/designs/help" name="cq:designPath" /> 
-  <meta content="Managing blocks" name="jcr:title" /> 
-  <meta content="https://helpx.adobe.com/campaign/standard/designing/using/managing-blocks.html" name="publishExternalURL" /> 
   <meta content="/apps/help/templates/article-3" name="cq:template" /> 
-  <meta content="2018-03-26T11:12:47.706-0400" name="lastPublishExternalDate" /> 
-  <meta content="admin" name="jcr:createdBy" /> 
-  <meta content="Activate" name="cq:lastReplicationAction" /> 
-  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
-  <meta content="light" name="heroGradient" /> 
-  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
   <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
   <meta content="2018-03-26T11:12:47.706-0400" name="publishExternalDate" /> 
-  <meta content="2018-03-15T09:02:17.552-0400" name="jcr:created" /> 
-  <meta content="sauviat" name="cq:lastReplicatedBy" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="https://helpx.adobe.com/campaign/standard/designing/using/managing-blocks.html" name="publishExternalURL" /> 
+  <meta content="2018-04-04T11:44:33.464-0400" name="cq:lastModified" /> 
+  <meta content="Managing blocks" name="jcr:title" /> 
   <meta content="false" name="isReadyForLocalization" /> 
-  <meta content="audience:designing" name="primaryAudienceTag" /> 
-  <meta content="Managing blocks" name="navTitle" /> 
-  <meta content="" name="jcr:primaryType" /> 
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:editing-message-and-landing-page-content" name="cq:tags" /> 
   <meta content="2018-03-26T11:12:47.706-0400" name="topicBrowsingSortDate" /> 
-  <meta content="7ce4727b-c95b-47b9-ade9-45d42c1ee3db" name="jcr:uuid" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:editing-message-and-landing-page-content" name="cq:tags" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="Managing blocks" name="navTitle" /> 
+  <meta content="sauviat" name="contentOwner" /> 
   <meta content="" name="jcr:versionHistory" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="72789f56-1d09-4f49-bfbe-133182706e8a" name="jcr:predecessors" /> 
+  <meta content="audience:designing" name="primaryAudienceTag" /> 
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="2018-03-26T11:12:48.954-0400" name="cq:lastReplicated" /> 
+  <meta content="Managing blocks" name="jcr:description" /> 
+  <meta content="2018-03-26T11:12:47.706-0400" name="firstPublishExternalDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-03-15T09:02:17.552-0400" name="jcr:created" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="sauviat" name="cq:lastReplicatedBy" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-03-26T11:12:47.706-0400" name="lastPublishExternalDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
   <meta content="2018-04-04T11:44:33.463-0400" name="locHandOffDate" /> 
  </head> 
  <body> 

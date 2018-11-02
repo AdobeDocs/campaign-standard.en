@@ -3,7 +3,7 @@ title: Personalizing URLs
 seo-title: Personalizing URLs
 description: Personalizing URLs
 seo-description: Learn how to personalize URLs in a delivery by adding personalization fields, content blocks, or dynamic content.
-uuid: a310da48-fc38-4810-801c-26e25943de52
+uuid: 342e2e97-f0e5-4ede-9cfe-62601e848640
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/personalizing-urls
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: managing-links
 cq-template: /apps/help/templates/article-3
-discoiquuid: b9b5cdee-fde6-469c-bee9-16bf26d1a2d4
+discoiquuid: 361b2439-0844-4864-86f0-e7ca5cdfb93d
 firstPublishExternalDate: 2018-07-23T05:58:49.087-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Personalizing URLs
 publishexternaldate: 2018-07-23T08 14 01.884-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/personalizing-urls.html
-sha1: 5854e73f14c29c02dbfada7a6d998d5d40cb7e86
+sha1: 8f7a9fef5e41b0f88c571c45579ce4ec633b6556
 topicBrowsingSortDate: 2018-07-23T08:14:01.884-0400
 index: y
 internal: n

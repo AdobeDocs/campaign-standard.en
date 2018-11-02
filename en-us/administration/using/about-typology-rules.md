@@ -3,7 +3,7 @@ title: About typology rules
 seo-title: About typology rules
 description: About typology rules
 seo-description: Discover how typology rules work in Adobe Campaign.
-uuid: 4bae120d-2a7b-4dc1-81da-932fc10104e8
+uuid: a78f9607-25e9-491d-a0a9-ea90522bd00f
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/about-typology-rules
 contentOwner: sauviat
@@ -18,7 +18,7 @@ audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
 cq-template: /apps/help/templates/article-3
-discoiquuid: b5839d85-6ec3-4a91-8d95-752f1424beeb
+discoiquuid: 3ef2dd54-960d-401c-bb14-9ec09975c940
 firstPublishExternalDate: 2018-07-23T05:53:45.197-0400
 herogradient: light
 isreadyforlocalization: false
@@ -35,7 +35,7 @@ moreHelpPaths: /content/help/en/campaign/standard/administration/morehelp/workin
 navTitle: About typology rules
 publishexternaldate: 2018-07-23T05 53 45.197-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/about-typology-rules.html
-sha1: 9b34099b4607afb885ffe33fd6051183b7188b61
+sha1: 95d930f2faec72fccee49048c0d0ae9cc4a55c27
 topicBrowsingSortDate: 2018-07-23T05:53:45.197-0400
 index: y
 internal: n

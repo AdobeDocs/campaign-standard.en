@@ -1,40 +1,40 @@
 <html> 
  <head> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2018-06-14T08:43:42.955-0400" name="lastPublishExternalDate" /> 
+  <meta content="sauviat" name="cq:lastReplicatedBy" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2510515e-bd3f-49fe-9c34-88ae8b0ceb79" name="jcr:predecessors" /> 
+  <meta content="Managing links" name="navTitle" /> 
+  <meta content="Managing links" name="jcr:description" /> 
+  <meta content="2018-06-14T08:43:42.955-0400" name="publishExternalDate" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="2fd7f8dd-4b74-4faa-af80-02c75215b4b4" name="jcr:uuid" /> 
+  <meta content="Discover the different links you can insert into any page element." name="seoDescription" /> 
+  <meta content="2018-06-25T08:45:08.718-0400" name="cq:lastModified" /> 
   <meta content="en_us" name="jcr:language" /> 
-  <meta content="2018-06-25T08:45:08.718-0400" name="locHandOffDate" /> 
+  <meta content="2018-06-14T08:43:42.980-0400" name="cq:lastReplicated" /> 
   <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
   <meta content="" name="jcr:baseVersion" /> 
-  <meta content="Discover the different links you can insert into any page element." name="seoDescription" /> 
-  <meta content="sauviat" name="contentOwner" /> 
-  <meta content="false" name="isReadyForLocalization" /> 
-  <meta content="2018-06-14T08:43:42.955-0400" name="firstPublishExternalDate" /> 
-  <meta content="light" name="heroGradient" /> 
   <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
-  <meta content="admin" name="jcr:createdBy" /> 
-  <meta content="2fd7f8dd-4b74-4faa-af80-02c75215b4b4" name="jcr:uuid" /> 
-  <meta content="audience:designing" name="primaryAudienceTag" /> 
-  <meta content="2018-06-25T08:45:08.718-0400" name="cq:lastModified" /> 
-  <meta content="Managing links" name="jcr:title" /> 
-  <meta content="2510515e-bd3f-49fe-9c34-88ae8b0ceb79" name="jcr:predecessors" /> 
-  <meta content="Activate" name="cq:lastReplicationAction" /> 
-  <meta content="true" name="jcr:isCheckedOut" /> 
-  <meta content="2018-06-14T08:43:42.980-0400" name="cq:lastReplicated" /> 
-  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
-  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
-  <meta content="sauviat" name="cq:lastReplicatedBy" /> 
-  <meta content="" name="jcr:primaryType" /> 
-  <meta content="2018-06-14T08:43:42.955-0400" name="publishExternalDate" /> 
-  <meta content="2018-06-14T08:43:42.955-0400" name="topicBrowsingSortDate" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="2018-06-14T08:43:42.955-0400" name="firstPublishExternalDate" /> 
   <meta content="https://helpx.adobe.com/campaign/standard/designing/using/managing-links.html" name="publishExternalURL" /> 
-  <meta content="Managing links" name="navTitle" /> 
-  <meta content="2018-06-14T08:43:42.955-0400" name="lastPublishExternalDate" /> 
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
-  <meta content="Managing links" name="jcr:description" /> 
-  <meta content="/etc/designs/help" name="cq:designPath" /> 
-  <meta content="" name="jcr:versionHistory" /> 
-  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:editing-message-and-landing-page-content" name="cq:tags" /> 
+  <meta content="audience:designing" name="primaryAudienceTag" /> 
   <meta content="2018-05-07T07:29:22.079-0400" name="jcr:created" /> 
+  <meta content="2018-06-14T08:43:42.955-0400" name="topicBrowsingSortDate" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:editing-message-and-landing-page-content" name="cq:tags" /> 
+  <meta content="Managing links" name="jcr:title" /> 
+  <meta content="2018-06-25T08:45:08.718-0400" name="locHandOffDate" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
  </head> 
  <body> 
   <p>You can insert a link into any page element: image, word, group of words, block of text, etc. </p> 

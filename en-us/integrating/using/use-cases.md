@@ -4,7 +4,7 @@ seo-title: Use cases
 description: Use cases
 seo-description: Learn how to use the Marketing Cloud Triggers integration with these different use cases.
 page-status-flag: never-activated
-uuid: 9a47cb85-7fca-4530-a3c8-11a6fec168f6
+uuid: 39329ccb-feba-4fa8-82cc-d319d2430a2d
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/integrating/using/use-cases
 contentOwner: sauviat
@@ -15,7 +15,7 @@ audience: integrating
 content-type: reference
 topic-tags: marketing-cloud-triggers
 cq-template: /apps/help/templates/article-3
-discoiquuid: aae5bc4c-dd4b-4c23-8784-a986ab7371ae
+discoiquuid: fcf96306-d04c-40c4-93b7-b18bfe4ee77a
 firstPublishExternalDate: 2018-01-10T15:24:20.514-0500
 herogradient: light
 jcr-created: 2018-01-11T19 02 37.084-0500
@@ -28,7 +28,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Use cases
 publishexternaldate: 2018-01-10T15 24 20.514-0500
 publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/use-cases.html
-sha1: 2ef150989afef02091d2615c288342fb4c322aba
+sha1: 6a13e7e986d029a40300aaf214a3c9f6031a81d7
 topicBrowsingSortDate: 2018-01-10T15:24:20.514-0500
 index: y
 internal: n

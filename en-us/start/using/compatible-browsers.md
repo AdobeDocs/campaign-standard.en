@@ -3,7 +3,7 @@ title: Compatible browsers
 seo-title: Compatible browsers
 description: Compatible browsers
 seo-description: Adobe Campaign Standard is compatible with most browsers and main operating systems. Discover the full list.
-uuid: 9382e26b-fc87-4499-9420-2c9f7fa54600
+uuid: 89be77f8-1867-4450-869c-5934720d3e1b
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/start/using/compatible-browsers
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 cq-template: /apps/help/templates/article-3
-discoiquuid: 84322a1d-f0d6-439d-a39a-821bdea45949
+discoiquuid: e5ae868a-92c9-4ebe-9aab-6a0cf70ec394
 firstPublishExternalDate: 2018-07-23T06:00:42.282-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Compatible browsers
 publishexternaldate: 2018-07-23T06 00 42.282-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/start/using/compatible-browsers.html
-sha1: 1a0325e4ab59c285ef5b74ecc86059a3e1fc0d0d
+sha1: d02bb4f38e808118c759b135c8f7c7cede398116
 topicBrowsingSortDate: 2018-07-23T06:00:42.282-0400
 index: y
 internal: n

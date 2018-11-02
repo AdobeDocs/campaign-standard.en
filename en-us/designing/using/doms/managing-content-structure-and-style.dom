@@ -1,40 +1,40 @@
 <html> 
  <head> 
-  <meta content="false" name="isReadyForLocalization" /> 
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
-  <meta content="2018-06-14T08:43:39.834-0400" name="firstPublishExternalDate" /> 
-  <meta content="2018-05-07T07:29:21.005-0400" name="jcr:created" /> 
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
-  <meta content="audience:designing" name="primaryAudienceTag" /> 
-  <meta content="" name="jcr:baseVersion" /> 
-  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
-  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
-  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
-  <meta content="328a9630-d7d3-490e-a799-2db54fbe15e7" name="jcr:predecessors" /> 
-  <meta content="/etc/designs/help" name="cq:designPath" /> 
-  <meta content="" name="jcr:primaryType" /> 
-  <meta content="Managing content structure and style" name="navTitle" /> 
-  <meta content="admin" name="jcr:createdBy" /> 
-  <meta content="2018-06-14T08:43:39.834-0400" name="topicBrowsingSortDate" /> 
-  <meta content="2018-06-25T08:45:02.703-0400" name="locHandOffDate" /> 
-  <meta content="2018-06-14T08:43:39.834-0400" name="publishExternalDate" /> 
-  <meta content="light" name="heroGradient" /> 
-  <meta content="Activate" name="cq:lastReplicationAction" /> 
-  <meta content="2018-06-14T08:43:39.834-0400" name="lastPublishExternalDate" /> 
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:editing-message-and-landing-page-content" name="cq:tags" /> 
-  <meta content="" name="jcr:versionHistory" /> 
-  <meta content="sauviat" name="cq:lastReplicatedBy" /> 
-  <meta content="2018-06-25T08:45:02.703-0400" name="cq:lastModified" /> 
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
-  <meta content="Managing content structure and style" name="jcr:description" /> 
-  <meta content="aecf2f67-6017-4987-acda-4bb8cbf3aa03" name="jcr:uuid" /> 
-  <meta content="https://helpx.adobe.com/campaign/standard/designing/using/managing-content-structure-and-style.html" name="publishExternalURL" /> 
-  <meta content="Managing content structure and style" name="jcr:title" /> 
-  <meta content="en_us" name="jcr:language" /> 
-  <meta content="true" name="jcr:isCheckedOut" /> 
   <meta content="2018-06-14T08:43:39.854-0400" name="cq:lastReplicated" /> 
-  <meta content="Learn how to manage the different HTML content elements and overall styling in a message." name="seoDescription" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="Managing content structure and style" name="jcr:description" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
+  <meta content="2018-05-07T07:29:21.005-0400" name="jcr:created" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="https://helpx.adobe.com/campaign/standard/designing/using/managing-content-structure-and-style.html" name="publishExternalURL" /> 
+  <meta content="2018-06-14T08:43:39.834-0400" name="firstPublishExternalDate" /> 
   <meta content="sauviat" name="contentOwner" /> 
+  <meta content="2018-06-25T08:45:02.703-0400" name="cq:lastModified" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="sauviat" name="cq:lastReplicatedBy" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="Managing content structure and style" name="jcr:title" /> 
+  <meta content="Managing content structure and style" name="navTitle" /> 
+  <meta content="2018-06-14T08:43:39.834-0400" name="publishExternalDate" /> 
+  <meta content="aecf2f67-6017-4987-acda-4bb8cbf3aa03" name="jcr:uuid" /> 
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="audience:designing" name="primaryAudienceTag" /> 
+  <meta content="2018-06-14T08:43:39.834-0400" name="lastPublishExternalDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="328a9630-d7d3-490e-a799-2db54fbe15e7" name="jcr:predecessors" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:editing-message-and-landing-page-content" name="cq:tags" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2018-06-14T08:43:39.834-0400" name="topicBrowsingSortDate" /> 
+  <meta content="Learn how to manage the different HTML content elements and overall styling in a message." name="seoDescription" /> 
+  <meta content="2018-06-25T08:45:02.703-0400" name="locHandOffDate" /> 
  </head> 
  <body> 
   <h2>Managing blocks</h2> 

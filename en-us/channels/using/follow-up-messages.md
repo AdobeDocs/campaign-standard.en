@@ -3,7 +3,7 @@ title: Follow-up messages
 seo-title: Follow-up messages
 description: Follow-up messages
 seo-description: Learn how to create and publish a follow-up message.
-uuid: 3e0bfd11-63ec-40e4-aae4-79fbd4a51947
+uuid: 39d87fe9-1152-4da8-a6fe-f0f54bbd8113
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/follow-up-messages
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 cq-template: /apps/help/templates/article-3
-discoiquuid: 8b6b355b-d758-4e94-8216-f9fe2e0aec7c
+discoiquuid: d9e9a04e-c091-4e27-baf8-5802819774a7
 firstPublishExternalDate: 2018-07-23T06:03:13.845-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Follow-up messages
 publishexternaldate: 2018-07-23T06 03 13.845-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/follow-up-messages.html
-sha1: 5a5d8a8b9f9c5b18f366fece2983d778b5d57d05
+sha1: eecccb64b254ce040b8eeee8624d444d70f005e3
 topicBrowsingSortDate: 2018-07-23T06:03:13.845-0400
 index: y
 internal: n

@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="https://helpx.adobe.com/campaign/standard/integrating/using/working-with-campaign-and-assets-core-service.html" name="publishExternalURL" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:integrating;content_type:reference;topic_tags:working-with-campaign-and-assets-core-service" name="cq:tags" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="2018-07-23T05:59:23.264-0400" name="publishExternalDate" />
-  <meta content="Use any resources shared within Adobe Experience Cloud in your Adobe Campaign messages and landing pages thanks to the Assets core service integration." name="seoDescription" />
-  <meta content="Working with Campaign and Assets core service" name="jcr:description" />
-  <meta content="2018-07-27T03:26:17.578-0400" name="cq:lastModified" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="Working with Campaign and Assets core service" name="jcr:title" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
   <meta content="2018-07-23T05:59:23.442-0400" name="cq:lastReplicated" />
-  <meta content="2018-07-23T05:59:23.264-0400" name="topicBrowsingSortDate" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="2018-03-15T09:01:47.707-0400" name="jcr:created" />
-  <meta content="2018-07-23T05:59:23.264-0400" name="firstPublishExternalDate" />
-  <meta content="Working with Campaign and Assets core service" name="navTitle" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-07-27T03:26:17.578-0400" name="cq:lastModified" />
+  <meta content="Use any resources shared within Adobe Experience Cloud in your Adobe Campaign messages and landing pages thanks to the Assets core service integration." name="seoDescription" />
   <meta content="2018-07-23T05:59:23.264-0400" name="lastPublishExternalDate" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="2018-07-27T03:26:17.576-0400" name="locHandOffDate" />
-  <meta content="253cd23c-33dd-4a4a-8f88-571f724eb8d6" name="jcr:predecessors" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="en_us" name="jcr:language" />
   <meta content="false" name="isReadyForLocalization" />
-  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2018-07-23T05:59:23.264-0400" name="publishExternalDate" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
   <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="audience:integrating" name="primaryAudienceTag" />
+  <meta content="2018-07-23T05:59:23.264-0400" name="firstPublishExternalDate" />
+  <meta content="https://helpx.adobe.com/campaign/standard/integrating/using/working-with-campaign-and-assets-core-service.html" name="publishExternalURL" />
   <meta content="light" name="heroGradient" />
+  <meta content="2018-03-15T09:01:47.707-0400" name="jcr:created" />
+  <meta content="2018-07-23T05:59:23.264-0400" name="topicBrowsingSortDate" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="Working with Campaign and Assets core service" name="jcr:description" />
+  <meta content="2018-07-27T03:26:17.576-0400" name="locHandOffDate" />
+  <meta content="Working with Campaign and Assets core service" name="jcr:title" />
+  <meta content="253cd23c-33dd-4a4a-8f88-571f724eb8d6" name="jcr:predecessors" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
   <meta content="4b0494a1-43f1-4a4a-806d-a357b95980b9" name="jcr:uuid" />
+  <meta content="audience:integrating" name="primaryAudienceTag" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:integrating;content_type:reference;topic_tags:working-with-campaign-and-assets-core-service" name="cq:tags" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Working with Campaign and Assets core service" name="navTitle" />
  </head>
  <body>
   <p>Integrating Assets core service or Assets on Demand (depending on the configuration of your Adobe Experience Cloud environment) with Adobe Campaign allows you to use any assets that are shared within Adobe Experience Cloud in your Adobe Campaign emails and landing pages.</p> 

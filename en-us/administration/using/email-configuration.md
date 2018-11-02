@@ -4,7 +4,7 @@ seo-title: Email configuration
 description: Email configuration
 seo-description: Learn how to configure the email channel.
 page-status-flag: never-activated
-uuid: ff9d56c2-ff14-4767-9033-4f064f1a8e6f
+uuid: 4afdad26-22e8-4dc4-8c4e-6c7653cded63
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/email-configuration
 contentOwner: sauviat
@@ -15,7 +15,7 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 cq-template: /apps/help/templates/article-3
-discoiquuid: c2b88abb-ee08-40da-90ef-4325c7da62ce
+discoiquuid: c253f3a4-0036-429d-b8b9-4f2b694998e5
 firstPublishExternalDate: 2017-11-16T11:07:57.554-0500
 herogradient: light
 isreadyforlocalization: false
@@ -30,7 +30,7 @@ lr-lastreplicatedby: wmyersta@adobe.com
 navTitle: Email configuration
 publishexternaldate: 2017-11-16T11 07 57.554-0500
 publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/email-configuration.html
-sha1: 104492dc6ba1dfee8a1f64c5c3c6bd9e7f5b0830
+sha1: f060ac96d2af02505eb028b3044721e355cb3c33
 topicBrowsingSortDate: 2017-11-16T11:07:57.554-0500
 index: y
 internal: n

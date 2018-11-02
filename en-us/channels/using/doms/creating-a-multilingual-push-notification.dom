@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="" name="jcr:primaryType" />
-  <meta content="3980f7a7-2228-42c3-8ac6-0871f9e53139" name="jcr:uuid" />
-  <meta content="audience:channels" name="primaryAudienceTag" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="2018-07-23T06:02:53.343-0400" name="lastPublishExternalDate" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:channels;content_type:reference;topic_tags:push-notifications" name="cq:tags" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="2018-07-23T06:02:53.343-0400" name="publishExternalDate" />
-  <meta content="2018-07-23T06:02:53.343-0400" name="firstPublishExternalDate" />
-  <meta content="Creating a multilingual push notification" name="navTitle" />
-  <meta content="2018-07-30T04:53:58.054-0400" name="locHandOffDate" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="https://helpx.adobe.com/campaign/standard/channels/using/creating-a-multilingual-push-notification.html" name="publishExternalURL" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="2018-07-23T06:02:53.343-0400" name="topicBrowsingSortDate" />
-  <meta content="2018-07-30T04:53:58.054-0400" name="cq:lastModified" />
-  <meta content="Creating a multilingual push notification" name="jcr:title" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="2018-04-06T07:29:18.943-0400" name="jcr:created" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
   <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="9b931916-8589-4f73-b8bf-0cc4fd85bba0" name="jcr:predecessors" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
   <meta content="admin" name="jcr:createdBy" />
-  <meta content="2018-07-23T06:02:53.376-0400" name="cq:lastReplicated" />
-  <meta content="light" name="heroGradient" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-07-23T06:02:53.343-0400" name="firstPublishExternalDate" />
+  <meta content="" name="jcr:baseVersion" />
   <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-07-23T06:02:53.343-0400" name="publishExternalDate" />
   <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="Creating a multilingual push notification" name="jcr:description" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2018-07-23T06:02:53.376-0400" name="cq:lastReplicated" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:channels;content_type:reference;topic_tags:push-notifications" name="cq:tags" />
+  <meta content="2018-07-23T06:02:53.343-0400" name="topicBrowsingSortDate" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="3980f7a7-2228-42c3-8ac6-0871f9e53139" name="jcr:uuid" />
   <meta content="Create multilingual push notifications to target your users in their preferred languages and regions." name="seoDescription" />
+  <meta content="9b931916-8589-4f73-b8bf-0cc4fd85bba0" name="jcr:predecessors" />
+  <meta content="2018-04-06T07:29:18.943-0400" name="jcr:created" />
+  <meta content="2018-07-30T04:53:58.054-0400" name="cq:lastModified" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-07-30T04:53:58.054-0400" name="locHandOffDate" />
+  <meta content="Creating a multilingual push notification" name="navTitle" />
+  <meta content="2018-07-23T06:02:53.343-0400" name="lastPublishExternalDate" />
+  <meta content="light" name="heroGradient" />
+  <meta content="Creating a multilingual push notification" name="jcr:description" />
+  <meta content="https://helpx.adobe.com/campaign/standard/channels/using/creating-a-multilingual-push-notification.html" name="publishExternalURL" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="Creating a multilingual push notification" name="jcr:title" />
+  <meta content="audience:channels" name="primaryAudienceTag" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="false" name="isReadyForLocalization" />
  </head>
  <body>
   <h2>About multilingual push notification</h2>

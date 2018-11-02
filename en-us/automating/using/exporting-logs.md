@@ -3,7 +3,7 @@ title: Exporting logs
 seo-title: Exporting logs
 description: Exporting logs
 seo-description: Log data, whether they are related to deliveries or to subscriptions, can be exported through a simple workflow.
-uuid: 6eb647c7-cfaa-429f-8de5-50f56a051426
+uuid: 994d5bb0-572a-4955-a63b-358aceb24a33
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/exporting-logs
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
 cq-template: /apps/help/templates/article-3
-discoiquuid: 3d679c85-511f-4008-8e80-4e12045ca1c3
+discoiquuid: 38684da9-c561-49dd-84ee-f36af1837565
 firstPublishExternalDate: 2018-07-23T05:57:55.259-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Exporting logs
 publishexternaldate: 2018-07-23T05 57 55.259-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/exporting-logs.html
-sha1: 4f9bcee6d774caf86a28208e6021f35aedeba54f
+sha1: 5193dcb376aa8bb7dc54ea7f7f261ce22d12efa1
 topicBrowsingSortDate: 2018-07-23T05:57:55.259-0400
 index: y
 internal: n

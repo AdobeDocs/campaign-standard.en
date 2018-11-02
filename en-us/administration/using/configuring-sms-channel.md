@@ -3,7 +3,7 @@ title: Configuring SMS channel
 seo-title: Configuring SMS channel
 description: Configuring SMS channel
 seo-description: Find out the SMS configuration steps: routing, encoding, formats and advanced properties. 
-uuid: 3361d5c7-a125-4e6f-98ce-61e87f45c16c
+uuid: dd998ed6-256c-4812-a48f-ea61371b3a33
 content-encoding: UTF-8
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/configuring-sms-channel
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 cq-template: /apps/help/templates/article-3
-discoiquuid: e26879a4-fce1-4a0e-a374-a2cab919c0f0
+discoiquuid: 676eb088-2a68-42ee-b73c-c6215c304c72
 firstPublishExternalDate: 2018-07-23T05:53:37.044-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Configuring SMS channel
 publishexternaldate: 2018-07-23T05 53 37.044-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/configuring-sms-channel.html
-sha1: f14e9d5f3e404dfbafb5c6cab78ff26f5dc1fd6f
+sha1: 17fc484536d210ecfaa5244934d4103c4818d33c
 topicBrowsingSortDate: 2018-07-23T05:53:37.044-0400
 index: y
 internal: n

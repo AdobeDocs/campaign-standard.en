@@ -4,7 +4,7 @@ seo-title: Blacklisting process
 description: Blacklisting process
 seo-description: Understand how blacklisting is managed in Adobe Campaign.
 page-status-flag: never-activated
-uuid: 7ea66167-1dc8-4c2d-b7a4-abd0e69f4f43
+uuid: f263323f-80a2-4b70-94fb-36fc01948f3e
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/audiences/using/blacklisting-process
 contentOwner: sauviat
@@ -15,7 +15,7 @@ audience: audiences
 content-type: reference
 topic-tags: understanding-blacklisting-process
 cq-template: /apps/help/templates/article-3
-discoiquuid: 9f7de20a-d2be-4826-a0df-27bbe04be289
+discoiquuid: 681e8f48-a956-4bcf-95ca-9f86ce13707c
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 17.793-0400
@@ -26,7 +26,7 @@ jcr-language: en_us
 lochandoffdate: 2018-04-11T07 13 45.899-0400
 navTitle: Blacklisting process
 publishexternaldate: 2018-03-26
-sha1: 724710ed0cf69894d75e98692ceac8cc185bf284
+sha1: 42f6dd6640d7fe9d70cea443a23c466095d996b1
 index: y
 internal: n
 snippet: y

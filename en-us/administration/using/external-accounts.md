@@ -3,7 +3,7 @@ title: External accounts
 seo-title: External accounts
 description: External accounts
 seo-description: Configure external accounts to set up connections with external systems such as SFTP servers.
-uuid: 284a0c72-69e5-4005-92d3-575c63d82577
+uuid: e0ab4ecb-79ec-474e-9f6d-3387c48f10ac
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/external-accounts
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 cq-template: /apps/help/templates/article-3
-discoiquuid: beba4b59-a1b0-4353-92f4-ecd805f9d35f
+discoiquuid: ac43d628-6106-4f20-b2bb-601f927e4dda
 firstPublishExternalDate: 2018-07-23T05:53:55.511-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: External accounts
 publishexternaldate: 2018-07-23T05 53 55.511-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/external-accounts.html
-sha1: e0d61855836c3a8942957dc90496baf2fc61850e
+sha1: 745af6ecfbbb24d40fff169e6d74acc7fc65cdce
 topicBrowsingSortDate: 2018-07-23T05:53:55.511-0400
 index: y
 internal: n

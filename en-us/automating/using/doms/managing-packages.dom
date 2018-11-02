@@ -1,40 +1,40 @@
 <html> 
  <head> 
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
-  <meta content="56359908-2420-42a5-8774-ea515040cc2a" name="jcr:predecessors" /> 
-  <meta content="light" name="heroGradient" /> 
-  <meta content="sauviat" name="cq:lastReplicatedBy" /> 
-  <meta content="2018-07-25T09:30:00.209-0400" name="cq:lastModified" /> 
-  <meta content="2018-07-23T05:57:56.673-0400" name="publishExternalDate" /> 
-  <meta content="en_us" name="jcr:language" /> 
-  <meta content="admin" name="jcr:createdBy" /> 
-  <meta content="Administrators can define packages to exchange resources between different Adobe Campaign instances through structured XML files." name="seoDescription" /> 
-  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
-  <meta content="sauviat" name="contentOwner" /> 
-  <meta content="true" name="jcr:isCheckedOut" /> 
-  <meta content="2018-07-23T05:57:56.673-0400" name="lastPublishExternalDate" /> 
-  <meta content="" name="jcr:primaryType" /> 
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
-  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
-  <meta content="Managing packages" name="jcr:title" /> 
-  <meta content="" name="jcr:baseVersion" /> 
-  <meta content="Managing packages" name="jcr:description" /> 
-  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/managing-packages.html" name="publishExternalURL" /> 
-  <meta content="" name="jcr:versionHistory" /> 
-  <meta content="Activate" name="cq:lastReplicationAction" /> 
-  <meta content="2018-07-23T05:57:56.673-0400" name="topicBrowsingSortDate" /> 
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:importing-and-exporting-data" name="cq:tags" /> 
-  <meta content="2018-07-23T05:57:56.747-0400" name="cq:lastReplicated" /> 
-  <meta content="2018-03-15T09:02:27.347-0400" name="jcr:created" /> 
-  <meta content="audience:automating" name="primaryAudienceTag" /> 
-  <meta content="Managing packages" name="navTitle" /> 
-  <meta content="4b4b7617-84b7-409e-82fc-ffbdbb7fe01b" name="jcr:uuid" /> 
   <meta content="2018-07-23T05:57:56.673-0400" name="firstPublishExternalDate" /> 
-  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2018-03-15T09:02:27.347-0400" name="jcr:created" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2018-07-23T05:57:56.673-0400" name="lastPublishExternalDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
   <meta content="2018-07-25T09:30:00.209-0400" name="locHandOffDate" /> 
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:importing-and-exporting-data" name="cq:tags" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2018-07-23T05:57:56.673-0400" name="topicBrowsingSortDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
   <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
+  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/managing-packages.html" name="publishExternalURL" /> 
+  <meta content="4b4b7617-84b7-409e-82fc-ffbdbb7fe01b" name="jcr:uuid" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="2018-07-23T05:57:56.673-0400" name="publishExternalDate" /> 
   <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="Managing packages" name="navTitle" /> 
+  <meta content="2018-07-23T05:57:56.747-0400" name="cq:lastReplicated" /> 
+  <meta content="Administrators can define packages to exchange resources between different Adobe Campaign instances through structured XML files." name="seoDescription" /> 
+  <meta content="2018-07-25T09:30:00.209-0400" name="cq:lastModified" /> 
+  <meta content="audience:automating" name="primaryAudienceTag" /> 
+  <meta content="sauviat" name="cq:lastReplicatedBy" /> 
+  <meta content="Managing packages" name="jcr:title" /> 
+  <meta content="56359908-2420-42a5-8774-ea515040cc2a" name="jcr:predecessors" /> 
+  <meta content="Managing packages" name="jcr:description" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="" name="jcr:versionHistory" /> 
  </head> 
  <body> 
   <p>Administrators can define packages to exchange resources between different Adobe Campaign instances through structured XML files. These can be configuration parameters or data.</p> 

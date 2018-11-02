@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="2018-07-23T05:57:14.118-0400" name="publishExternalDate" />
-  <meta content="2018-03-15T09:02:21.420-0400" name="jcr:created" />
-  <meta content="2018-07-25T09:29:36.900-0400" name="locHandOffDate" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="AND-join" name="navTitle" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/and-join.html" name="publishExternalURL" />
   <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="2018-07-23T05:57:14.118-0400" name="firstPublishExternalDate" />
-  <meta content="2018-07-25T09:29:36.901-0400" name="cq:lastModified" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="AND-join" name="jcr:description" />
   <meta content="2018-07-23T05:57:14.118-0400" name="lastPublishExternalDate" />
+  <meta content="light" name="heroGradient" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2018-07-23T05:57:14.118-0400" name="topicBrowsingSortDate" />
+  <meta content="2018-07-25T09:29:36.901-0400" name="cq:lastModified" />
+  <meta content="2018-07-23T05:57:14.118-0400" name="firstPublishExternalDate" />
+  <meta content="2018-03-15T09:02:21.420-0400" name="jcr:created" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/and-join.html" name="publishExternalURL" />
   <meta content="" name="jcr:primaryType" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-07-23T05:57:14.118-0400" name="publishExternalDate" />
+  <meta content="" name="jcr:baseVersion" />
   <meta content="audience:automating" name="primaryAudienceTag" />
-  <meta content="AND-join" name="jcr:title" />
   <meta content="sauviat" name="cq:lastReplicatedBy" />
   <meta content="8f987f89-b627-4614-b870-271fedfce88a" name="jcr:predecessors" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="AND-join" name="navTitle" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-07-25T09:29:36.900-0400" name="locHandOffDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
   <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:execution-activities" name="cq:tags" />
-  <meta content="light" name="heroGradient" />
-  <meta content="2018-07-23T05:57:14.173-0400" name="cq:lastReplicated" />
-  <meta content="2018-07-23T05:57:14.118-0400" name="topicBrowsingSortDate" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="The AND-join activity allows you to synchronize multiple execution branches of a workflow." name="seoDescription" />
-  <meta content="00bfabb3-6e33-46ad-b4e4-dfc026df66b4" name="jcr:uuid" />
-  <meta content="" name="jcr:versionHistory" />
   <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-07-23T05:57:14.173-0400" name="cq:lastReplicated" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="00bfabb3-6e33-46ad-b4e4-dfc026df66b4" name="jcr:uuid" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="AND-join" name="jcr:title" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:execution-activities" name="cq:tags" />
+  <meta content="AND-join" name="jcr:description" />
+  <meta content="The AND-join activity allows you to synchronize multiple execution branches of a workflow." name="seoDescription" />
  </head>
  <body>
   <h2>Description</h2>

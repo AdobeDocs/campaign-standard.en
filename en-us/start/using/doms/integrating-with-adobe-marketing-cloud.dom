@@ -1,34 +1,34 @@
 <html>
  <head>
-  <meta content="2018-01-10T15:27:47.418-0500" name="lastPublishExternalDate" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
   <meta content="7cb1d8e2-156d-4a84-8823-504255506b29" name="jcr:uuid" />
-  <meta content="light" name="heroGradient" />
-  <meta content="2018-01-11T19:01:13.890-0500" name="jcr:created" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="https://helpx.adobe.com/campaign/standard/start/using/integrating-with-adobe-marketing-cloud.html" name="publishExternalURL" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:start;content_type:reference;topic_tags:about-adobe-campaign" name="cq:tags" />
-  <meta content="2018-01-10T15:27:47.418-0500" name="firstPublishExternalDate" />
-  <meta content="2018-01-10T15:27:47.418-0500" name="publishExternalDate" />
-  <meta content="2018-01-10T15:27:47.418-0500" name="topicBrowsingSortDate" />
-  <meta content="Learn how integrations with Adobe Marketing Cloud core services and solutions such as Adobe Analytics and Experience Manager can improve your Adobe Campaign strategy with deep insights and convenient content management." name="seoDescription" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="audience:start" name="primaryAudienceTag" />
-  <meta content="Integrating with Adobe Marketing Cloud" name="jcr:title" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="Integrating with Adobe Marketing Cloud" name="jcr:description" />
-  <meta content="2018-01-10T15:27:47.424-0500" name="cq:lastModified" />
   <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
   <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="c05b5632-244b-49b3-a89e-5efe95787c96" name="jcr:predecessors" />
+  <meta content="light" name="heroGradient" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-01-10T15:27:47.418-0500" name="topicBrowsingSortDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="Integrating with Adobe Marketing Cloud" name="jcr:title" />
+  <meta content="audience:start" name="primaryAudienceTag" />
+  <meta content="Integrating with Adobe Marketing Cloud" name="jcr:description" />
+  <meta content="admin" name="jcr:createdBy" />
   <meta content="Integrating with Adobe Marketing Cloud" name="navTitle" />
+  <meta content="2018-01-10T15:27:47.418-0500" name="publishExternalDate" />
+  <meta content="2018-01-10T15:27:47.424-0500" name="cq:lastModified" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:start;content_type:reference;topic_tags:about-adobe-campaign" name="cq:tags" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="https://helpx.adobe.com/campaign/standard/start/using/integrating-with-adobe-marketing-cloud.html" name="publishExternalURL" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="Learn how integrations with Adobe Marketing Cloud core services and solutions such as Adobe Analytics and Experience Manager can improve your Adobe Campaign strategy with deep insights and convenient content management." name="seoDescription" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="c05b5632-244b-49b3-a89e-5efe95787c96" name="jcr:predecessors" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2018-01-10T15:27:47.418-0500" name="firstPublishExternalDate" />
+  <meta content="2018-01-10T15:27:47.418-0500" name="lastPublishExternalDate" />
+  <meta content="2018-01-11T19:01:13.890-0500" name="jcr:created" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
  </head>
  <body>
   <p>Integration with other Adobe Marketing Cloud solutions may require you to adapt your initial configuration. Contact your Adobe technical administrator for more information.</p> 

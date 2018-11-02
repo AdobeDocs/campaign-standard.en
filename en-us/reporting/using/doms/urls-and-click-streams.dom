@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="2018-07-27T03:26:55.248-0400" name="cq:lastModified" />
   <meta content="3cc24b9a-0ac3-4c70-aa11-bd335401c8e9" name="jcr:predecessors" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="light" name="heroGradient" />
-  <meta content="2018-07-23T06:00:19.272-0400" name="firstPublishExternalDate" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="https://helpx.adobe.com/campaign/standard/reporting/using/urls-and-click-streams.html" name="publishExternalURL" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="2018-07-23T06:00:19.272-0400" name="lastPublishExternalDate" />
-  <meta content="2018-07-27T03:26:55.247-0400" name="locHandOffDate" />
+  <meta content="URLs and click streams" name="navTitle" />
   <meta content="URLs and click streams" name="jcr:title" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="2018-07-23T06:00:19.272-0400" name="publishExternalDate" />
-  <meta content="2018-07-23T06:00:19.272-0400" name="topicBrowsingSortDate" />
-  <meta content="URLs and click streams" name="jcr:description" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:reporting;content_type:reference;topic_tags:list-of-reports" name="cq:tags" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="2018-03-15T09:01:55.406-0400" name="jcr:created" />
+  <meta content="" name="jcr:primaryType" />
   <meta content="2018-07-23T06:00:19.319-0400" name="cq:lastReplicated" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-07-27T03:26:55.247-0400" name="locHandOffDate" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
   <meta content="help/components/pages/article-3" name="sling:resourceType" />
   <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="d2bc1307-e651-4119-91bf-700817aca6ab" name="jcr:uuid" />
-  <meta content="URLs and click streams" name="navTitle" />
-  <meta content="With the URLs and click streams out-of-the-box report, learn about the success of the URLs in your deliveries." name="seoDescription" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:reporting;content_type:reference;topic_tags:list-of-reports" name="cq:tags" />
+  <meta content="2018-07-23T06:00:19.272-0400" name="topicBrowsingSortDate" />
   <meta content="audience:reporting" name="primaryAudienceTag" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="" name="jcr:baseVersion" />
   <meta content="admin" name="jcr:createdBy" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:versionHistory" />
   <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="With the URLs and click streams out-of-the-box report, learn about the success of the URLs in your deliveries." name="seoDescription" />
+  <meta content="light" name="heroGradient" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2018-07-23T06:00:19.272-0400" name="publishExternalDate" />
+  <meta content="URLs and click streams" name="jcr:description" />
+  <meta content="2018-03-15T09:01:55.406-0400" name="jcr:created" />
+  <meta content="https://helpx.adobe.com/campaign/standard/reporting/using/urls-and-click-streams.html" name="publishExternalURL" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-07-23T06:00:19.272-0400" name="firstPublishExternalDate" />
+  <meta content="d2bc1307-e651-4119-91bf-700817aca6ab" name="jcr:uuid" />
+  <meta content="2018-07-27T03:26:55.248-0400" name="cq:lastModified" />
+  <meta content="2018-07-23T06:00:19.272-0400" name="lastPublishExternalDate" />
  </head>
  <body>
   <p>The <strong>URLs and click streams</strong> shows the URLs that were clicked the most during a delivery, or several deliveries if they are linked to a campaign or program.</p> 

@@ -3,7 +3,7 @@ title: Deduplication
 seo-title: Deduplication
 description: Deduplication
 seo-description: The Deduplication activity allows you to delete duplicates in the result(s) of the inbound activities.
-uuid: 48b63db4-afdf-44f9-8dbd-9f6aa39c1396
+uuid: ce260b79-99ed-40bf-9498-48427d3daac4
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/deduplication
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: 4f5c96d5-a4d5-449b-9405-7054516e6697
+discoiquuid: a8cf8172-c116-4a74-8ed6-8815bc0da03b
 firstPublishExternalDate: 2018-07-23T05:57:08.294-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Deduplication
 publishexternaldate: 2018-07-23T05 57 08.294-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/deduplication.html
-sha1: b9d00ec832f864f64c568aac110b4c8f8301c956
+sha1: eb76e45816321970e7def9a3e20adeb1ba20445f
 topicBrowsingSortDate: 2018-07-23T05:57:08.294-0400
 index: y
 internal: n

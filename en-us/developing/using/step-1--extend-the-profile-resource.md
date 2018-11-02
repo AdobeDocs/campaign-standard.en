@@ -3,7 +3,7 @@ title: Step 1: Extend the profile resource
 seo-title: Step 1: Extend the profile resource
 description: Step 1: Extend the profile resource
 seo-description: Learn how to extend the profile resource.
-uuid: 53d5b20c-c591-4e12-a937-3a6d8f1ab658
+uuid: 20888f39-1b63-4f04-9336-f9c9e9b271f5
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/developing/using/step-1--extend-the-profile-resource
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: developing
 content-type: reference
 topic-tags: use-case--extending-profiles
 cq-template: /apps/help/templates/article-3
-discoiquuid: 7ed112e8-23c8-4ded-a5af-0acd4ac5c494
+discoiquuid: 19229875-0bcc-404e-bab8-8294d60c952b
 firstPublishExternalDate: 2018-07-23T05:59:19.273-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Step 1: Extend the profile resource
 publishexternaldate: 2018-07-23T05 59 19.273-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/step-1--extend-the-profile-resource.html
-sha1: 7e217f9818b49f9740db02845faa32f84dd8d855
+sha1: 7fa86fc77641f96e85303004a9d94eae214cd985
 topicBrowsingSortDate: 2018-07-23T05:59:19.273-0400
 index: y
 internal: n

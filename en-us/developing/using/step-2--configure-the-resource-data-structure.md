@@ -3,7 +3,7 @@ title: Step 2: Configure the resource data structure
 seo-title: Step 2: Configure the resource data structure
 description: Step 2: Configure the resource data structure
 seo-description: Learn how to configure the data structure.
-uuid: 4203a984-8333-4da5-a21a-0e0fe0197b42
+uuid: c8a5cdaf-6ab8-4d7d-8b0c-345c413831cf
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/developing/using/step-2--configure-the-resource-data-structure
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 cq-template: /apps/help/templates/article-3
-discoiquuid: 63350ad9-1514-4c60-90b2-23d23cf5e773
+discoiquuid: f1673b39-332d-4ac8-b8e8-cf8cce4d1804
 firstPublishExternalDate: 2018-07-23T05:59:08.749-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Step 2: Configure the resource data structure
 publishexternaldate: 2018-07-23T05 59 08.749-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/step-2--configure-the-resource-data-structure.html
-sha1: b84cf65fb9478df426d4a36381432cd4d24a1092
+sha1: 3f57f46f733e98e9da39e00782a0924dd1873342
 topicBrowsingSortDate: 2018-07-23T05:59:08.749-0400
 index: y
 internal: n

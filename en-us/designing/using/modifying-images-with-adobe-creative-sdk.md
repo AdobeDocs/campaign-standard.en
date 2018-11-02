@@ -3,7 +3,7 @@ title: Modifying images with Adobe Creative SDK
 seo-title: Modifying images with Adobe Creative SDK
 description: Modifying images with Adobe Creative SDK
 seo-description: Learn how to use the Adobe Creative SDK to enhance images in the Adobe Campaign content editor.
-uuid: 2a2bb9cb-7645-4c4c-af34-c7cc28833575
+uuid: 6b58c80b-efe8-44ed-8703-09ce93b41382
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/modifying-images-with-adobe-creative-sdk
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-message-and-landing-page-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: f5fec9f1-cc97-47e6-a50b-4db38109a93a
+discoiquuid: a7cf443a-69f0-4892-a8a5-4de9959b37e8
 firstPublishExternalDate: 2018-03-26T11:13:01.713-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,7 +32,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Modifying images with Adobe Creative SDK
 publishexternaldate: 2018-03-26T11 13 01.713-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/modifying-images-with-adobe-creative-sdk.html
-sha1: d43c524a6dd3c4e9eeee67fbdfa2b04aade4d92e
+sha1: 698f4f255a1e2995c91a9cceebe71d07ee61bf89
 topicBrowsingSortDate: 2018-03-26T11:13:01.713-0400
 index: y
 internal: n

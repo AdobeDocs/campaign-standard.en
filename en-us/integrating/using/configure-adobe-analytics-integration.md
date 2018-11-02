@@ -4,7 +4,7 @@ seo-title: Configure Adobe Analytics integration
 description: Configure Adobe Analytics integration
 seo-description: Learn how to configure the Adobe Analytics integration to start measuring the success of your email deliveries.
 page-status-flag: never-activated
-uuid: 8f686002-e1d4-46ef-ad92-bcd97c863f57
+uuid: 5c2c29a8-9fcc-42fe-903c-e5f29cf0bde8
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/integrating/using/configure-adobe-analytics-integration
 contentOwner: sauviat
@@ -15,7 +15,7 @@ audience: integrating
 content-type: reference
 topic-tags: adobe-analytics-integration
 cq-template: /apps/help/templates/article-3
-discoiquuid: 1b78d859-6ad1-45e7-9ffb-4d1f9cb08e8d
+discoiquuid: 4fdc342f-5d7d-4ad0-8250-87d683a86a6d
 firstPublishExternalDate: 2018-01-10T15:24:07.987-0500
 herogradient: light
 jcr-created: 2018-01-11T19 01 49.038-0500
@@ -28,7 +28,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Configure Adobe Analytics integration
 publishexternaldate: 2018-01-10T15 24 07.987-0500
 publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/configure-adobe-analytics-integration.html
-sha1: d7676499b550c7555d9ed4211641cc6ce8e994d7
+sha1: 85aee9de712d24b73b8d08bbfa9de23ffab37d58
 topicBrowsingSortDate: 2018-01-10T15:24:07.987-0500
 index: y
 internal: n

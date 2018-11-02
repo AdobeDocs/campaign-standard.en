@@ -3,7 +3,7 @@ title: Design content in Adobe Campaign
 seo-title: Design content in Adobe Campaign
 description: Design content in Adobe Campaign
 seo-description: Discover the various edition modes enabling you to modify and personalize the content of your messages.
-uuid: f0a27a9c-070a-4813-a695-672964a7e302
+uuid: d2e85c78-42fe-48e7-85d2-2732e13eefe3
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/design-content-in-adobe-campaign
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: about-content-design
 cq-template: /apps/help/templates/article-3
-discoiquuid: 5e2b5300-51fb-4fa7-9376-e98f9a3a59f1
+discoiquuid: f119349a-3f8c-44eb-9cea-689cd3ba8b2d
 firstPublishExternalDate: 2018-06-14T08:43:37.301-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Design content in Adobe Campaign
 publishexternaldate: 2018-06-14T08 43 37.301-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/design-content-in-adobe-campaign.html
-sha1: aac893e1a97102e954dd0f9af59d24ad5270de5f
+sha1: b61104d2afd122c8519441d470cbd2b6b993db3b
 topicBrowsingSortDate: 2018-06-14T08:43:37.301-0400
 index: y
 internal: n

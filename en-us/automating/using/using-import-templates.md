@@ -4,7 +4,7 @@ seo-title: Using import templates
 description: Using import templates
 seo-description: Import templates allow to reduce the settings needed and to import data faster.
 page-status-flag: de-activated
-uuid: e0766f73-eff2-46a1-9a58-a3bff2efd02f
+uuid: 2193fcb0-022a-44b7-8467-c55328986719
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/using-import-templates
 contentOwner: sauviat
@@ -18,7 +18,7 @@ audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
 cq-template: /apps/help/templates/article-3
-discoiquuid: 0b4e9ca3-b5a3-4145-979e-1f489fc4781f
+discoiquuid: 457cd378-2589-4098-934f-de468fb98e73
 firstPublishExternalDate: 2018-02-15T06:14:48.508-0500
 herogradient: light
 isreadyforlocalization: false
@@ -31,7 +31,7 @@ lastPublishExternalDate: 2018-02-15T06:14:48.508-0500
 lochandoffdate: 2018-03-14T17 34 30.034-0400
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Using import templates
-sha1: 7f42659a0336f4fe177aa265c29ad368a9f81422
+sha1: 5e4c1ebd450bae84372f7f1c1dd17ab1f8c8b64e
 unpublishexternaldate: 2018-03-26T06 13 55.094-0400
 index: y
 internal: n

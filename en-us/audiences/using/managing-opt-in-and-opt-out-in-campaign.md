@@ -3,7 +3,7 @@ title: Managing opt-in and opt-out in Campaign
 seo-title: Managing opt-in and opt-out in Campaign
 description: Managing opt-in and opt-out in Campaign
 seo-description: Understand how opt-in and opt-out are managed in Adobe Campaign.
-uuid: ed06d5e7-310d-4ff2-bcb8-473dcb6117bd
+uuid: f8e2e2d2-1586-4424-8bb4-126c28085dbb
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/audiences/using/managing-opt-in-and-opt-out-in-campaign
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
 cq-template: /apps/help/templates/article-3
-discoiquuid: a62cafcc-2c12-489d-943d-46e02f070ed5
+discoiquuid: 90823f06-7c35-48c1-9bd0-76cf343b40f9
 firstPublishExternalDate: 2018-07-23T05:55:35.613-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Managing opt-in and opt-out in Campaign
 publishexternaldate: 2018-07-23T05 55 35.613-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/audiences/using/managing-opt-in-and-opt-out-in-campaign.html
-sha1: c0191e60566c5714f136956258b7eba98c14af28
+sha1: 378b0f2c04365bbfcc963148f0c26c48279b2793
 topicBrowsingSortDate: 2018-07-23T05:55:35.613-0400
 index: y
 internal: n

@@ -4,7 +4,7 @@ seo-title: Use case: Importing profiles
 description: Use case: Importing profiles
 seo-description: 
 page-status-flag: never-activated
-uuid: 7ec42210-3167-4c23-9a10-cd4f6a3b5045
+uuid: dc90fce0-f140-4063-aa01-b4d1e62a667c
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/use-case--importing-profiles
 contentOwner: sauviat
@@ -15,7 +15,7 @@ audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
 cq-template: /apps/help/templates/article-3
-discoiquuid: a06b8351-1020-4753-97c2-2ee339342543
+discoiquuid: e05f9930-e029-4a84-ad25-b693e4248322
 firstPublishExternalDate: 2018-01-10T15:19:36.178-0500
 herogradient: light
 jcr-created: 2018-01-11T19 01 28.220-0500
@@ -28,7 +28,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Use case: Importing profiles
 publishexternaldate: 2018-01-10T15 19 36.178-0500
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/use-case--importing-profiles.html
-sha1: cd50e671f9c2d000e9f949a50ae10082d7b1a40a
+sha1: 03e0d4d503f0dd7d47ef1b57a904623bfeade5cc
 topicBrowsingSortDate: 2018-01-10T15:19:36.178-0500
 index: y
 internal: n

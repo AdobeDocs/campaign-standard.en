@@ -3,7 +3,7 @@ title: Managing incoming SMS
 seo-title: Managing incoming SMS
 description: Managing incoming SMS
 seo-description: Learn how to manage STOP SMS and store incoming SMS in Adobe Campaign.
-uuid: 2f4e544e-bfa8-441e-af77-5b009602ccc2
+uuid: e708806f-887a-4720-bbc1-a8fd45302be8
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/managing-incoming-sms
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: channels
 content-type: reference
 topic-tags: sms-messages
 cq-template: /apps/help/templates/article-3
-discoiquuid: 01f83aba-7af3-44a5-9e81-1ea941ce4253
+discoiquuid: 9bcca2aa-0b03-4219-8673-0b0270dc2b3a
 firstPublishExternalDate: 2018-07-23T06:02:47.995-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Managing incoming SMS
 publishexternaldate: 2018-07-23T06 02 47.995-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/managing-incoming-sms.html
-sha1: 4dae22a839f58ddafd0975ed688feb3b8d1a145d
+sha1: 5d098355068fdf00f8eaf19c12f2624f5eec7f57
 topicBrowsingSortDate: 2018-07-23T06:02:47.995-0400
 index: y
 internal: n

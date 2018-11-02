@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="2018-06-14T08:43:54.286-0400" name="cq:lastReplicated" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="2018-06-14T08:43:54.255-0400" name="lastPublishExternalDate" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="2018-06-25T08:45:22.410-0400" name="cq:lastModified" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="2018-06-14T08:43:54.255-0400" name="firstPublishExternalDate" />
-  <meta content="2018-06-14T08:43:54.255-0400" name="topicBrowsingSortDate" />
-  <meta content="2018-06-25T08:45:22.409-0400" name="locHandOffDate" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="Previewing and checking anti-spam analysis" name="jcr:title" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="dd242262-1696-4053-a6fc-65075dc8cea4" name="jcr:uuid" />
-  <meta content="https://helpx.adobe.com/campaign/standard/designing/using/previewing-and-checking-anti-spam-analysis.html" name="publishExternalURL" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:designing-email-content" name="cq:tags" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="Previewing and checking anti-spam analysis" name="jcr:description" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="2018-06-15T07:29:54.107-0400" name="jcr:created" />
-  <meta content="light" name="heroGradient" />
-  <meta content="" name="seoDescription" />
-  <meta content="" name="jcr:versionHistory" />
   <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="2018-06-14T08:43:54.255-0400" name="publishExternalDate" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="Previewing and checking anti-spam analysis" name="navTitle" />
-  <meta content="audience:designing" name="primaryAudienceTag" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:designing-email-content" name="cq:tags" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2018-06-14T08:43:54.255-0400" name="lastPublishExternalDate" />
   <meta content="cfc12563-b71d-4f0c-a9c2-88289a8b9441" name="jcr:predecessors" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="2018-06-14T08:43:54.255-0400" name="publishExternalDate" />
+  <meta content="Previewing and checking anti-spam analysis" name="jcr:description" />
+  <meta content="2018-06-15T07:29:54.107-0400" name="jcr:created" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="audience:designing" name="primaryAudienceTag" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Previewing and checking anti-spam analysis" name="jcr:title" />
+  <meta content="dd242262-1696-4053-a6fc-65075dc8cea4" name="jcr:uuid" />
+  <meta content="2018-06-14T08:43:54.255-0400" name="topicBrowsingSortDate" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="Previewing and checking anti-spam analysis" name="navTitle" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-06-14T08:43:54.255-0400" name="firstPublishExternalDate" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="seoDescription" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-06-25T08:45:22.410-0400" name="cq:lastModified" />
+  <meta content="2018-06-25T08:45:22.409-0400" name="locHandOffDate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2018-06-14T08:43:54.286-0400" name="cq:lastReplicated" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="https://helpx.adobe.com/campaign/standard/designing/using/previewing-and-checking-anti-spam-analysis.html" name="publishExternalURL" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="sauviat" name="contentOwner" />
  </head>
  <body>
   <p>Once the content of your email is ready, you can preview it. The preview mode offers different views of the email: web and mobile versions.</p> 

@@ -3,7 +3,7 @@ title: Using Triggers in Campaign
 seo-title: Using Triggers in Campaign
 description: Using Triggers in Campaign
 seo-description: 
-uuid: b09077fb-047c-4a29-904a-667401cf2ad4
+uuid: 7a91488e-c289-4586-9815-dd6b44e7680b
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/integrating/using/using-triggers-in-campaign
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 cq-template: /apps/help/templates/article-3
-discoiquuid: 3eded044-8c6c-43c7-9e51-d131c857b43b
+discoiquuid: bf586410-ad93-46e5-966b-48ad39744947
 firstPublishExternalDate: 2018-07-23T05:59:49.550-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Using Triggers in Campaign
 publishexternaldate: 2018-07-23T05 59 49.550-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/using-triggers-in-campaign.html
-sha1: 3c3c32a90cbbefe1cb344b6f7134455f24dba9a5
+sha1: 922a4bde50c63f6652ab918bc6663c9163e0a9eb
 topicBrowsingSortDate: 2018-07-23T05:59:49.550-0400
 index: y
 internal: n

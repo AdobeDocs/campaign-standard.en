@@ -1,34 +1,34 @@
 <html>
  <head>
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="85058e05-26c4-4161-b3e3-4f1a037e6b97" name="jcr:uuid" />
-  <meta content="About People core service Integration" name="jcr:description" />
-  <meta content="light" name="heroGradient" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="98ad156e-6e7d-4b79-b098-f2701ae66f2f" name="jcr:predecessors" />
-  <meta content="About People core service Integration" name="navTitle" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="2018-01-10T15:24:08.750-0500" name="cq:lastModified" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:integrating;content_type:reference;topic_tags:people-core-service-integration" name="cq:tags" />
-  <meta content="audience:integrating" name="primaryAudienceTag" />
-  <meta content="With the People core service integration, you can share audiences or segments within the different Adobe Marketing Cloud solutions." name="seoDescription" />
-  <meta content="https://helpx.adobe.com/campaign/standard/integrating/using/about-people-core-service-integration.html" name="publishExternalURL" />
-  <meta content="About People core service Integration" name="jcr:title" />
-  <meta content="2018-01-10T15:24:08.743-0500" name="lastPublishExternalDate" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="admin" name="jcr:createdBy" />
   <meta content="2018-01-10T15:24:08.743-0500" name="publishExternalDate" />
   <meta content="2018-01-11T19:02:24.702-0500" name="jcr:created" />
-  <meta content="2018-01-10T15:24:08.743-0500" name="firstPublishExternalDate" />
-  <meta content="admin" name="jcr:createdBy" />
+  <meta content="About People core service Integration" name="jcr:description" />
   <meta content="" name="jcr:baseVersion" />
+  <meta content="https://helpx.adobe.com/campaign/standard/integrating/using/about-people-core-service-integration.html" name="publishExternalURL" />
   <meta content="2018-01-10T15:24:08.743-0500" name="topicBrowsingSortDate" />
+  <meta content="light" name="heroGradient" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="audience:integrating" name="primaryAudienceTag" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="98ad156e-6e7d-4b79-b098-f2701ae66f2f" name="jcr:predecessors" />
+  <meta content="85058e05-26c4-4161-b3e3-4f1a037e6b97" name="jcr:uuid" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-01-10T15:24:08.750-0500" name="cq:lastModified" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="About People core service Integration" name="navTitle" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:integrating;content_type:reference;topic_tags:people-core-service-integration" name="cq:tags" />
+  <meta content="2018-01-10T15:24:08.743-0500" name="firstPublishExternalDate" />
+  <meta content="With the People core service integration, you can share audiences or segments within the different Adobe Marketing Cloud solutions." name="seoDescription" />
+  <meta content="2018-01-10T15:24:08.743-0500" name="lastPublishExternalDate" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="About People core service Integration" name="jcr:title" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
  </head>
  <body>
   <p>Adobe Campaign allows you to exchange and share audiences/segments with the different Adobe Marketing Cloud applications. Integrating <strong>Adobe Campaign</strong> with <strong>People core service</strong> (also known as <strong>Profiles &amp; Audiences core service</strong>) or Adobe Audience Manager allows you to:</p> 

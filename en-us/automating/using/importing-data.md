@@ -3,7 +3,7 @@ title: Importing data
 seo-title: Importing data
 description: Importing data
 seo-description: Learn how to import data with a workflow.
-uuid: 84f6d8f5-b181-4050-bebb-49717f7d7dfe
+uuid: adaf8645-fc45-4d70-93e6-4adbeb002d34
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/importing-data
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 cq-template: /apps/help/templates/article-3
-discoiquuid: d7c0836e-756b-4a93-8de1-063ae680125c
+discoiquuid: 0a48d268-821c-496d-bc1c-02de88a0a88e
 firstPublishExternalDate: 2018-07-23T05:56:51.517-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Importing data
 publishexternaldate: 2018-07-23T05 56 51.517-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/importing-data.html
-sha1: 5cf90c8c4a1eb71927b380b71cc3cf3578434bd6
+sha1: 52783c87f6ea260250e7089378c6215b80674e35
 topicBrowsingSortDate: 2018-07-23T05:56:51.517-0400
 index: y
 internal: n

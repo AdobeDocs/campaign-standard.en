@@ -1,36 +1,36 @@
 <html>
  <head>
-  <meta content="2017-11-16T10:43:54.736-0500" name="firstPublishExternalDate" />
-  <meta content="2017-11-16T10:43:54.736-0500" name="topicBrowsingSortDate" />
-  <meta content="2017-11-16T10:43:54.736-0500" name="lastPublishExternalDate" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="admin" name="jcr:createdBy" />
+  <meta content="light" name="heroGradient" />
   <meta content="sauviat" name="contentOwner" />
   <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="2017-11-28T11:31:12.756-0500" name="cq:lastModified" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
   <meta content="Push notification advanced options" name="jcr:title" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="a5053fdb-d752-416d-904e-9ddc2330b578" name="jcr:predecessors" />
-  <meta content="https://helpx.adobe.com/campaign/standard/channels/using/push-notification-advanced-options.html" name="publishExternalURL" />
-  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="2017-11-29T19:03:21.743-0500" name="jcr:created" />
-  <meta content="2017-11-16T10:43:54.736-0500" name="publishExternalDate" />
-  <meta content="audience:channels" name="primaryAudienceTag" />
-  <meta content="2017-11-28T11:31:12.755-0500" name="locHandOffDate" />
-  <meta content="Push notification advanced options" name="navTitle" />
-  <meta content="light" name="heroGradient" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="Learn how to personalize your push notifications with various advanced options." name="seoDescription" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:channels;content_type:reference;topic_tags:push-notifications" name="cq:tags" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="Push notification advanced options" name="jcr:description" />
   <meta content="262dc4af-82e8-4007-9280-72c27b1d6974" name="jcr:uuid" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2017-11-16T10:43:54.736-0500" name="lastPublishExternalDate" />
+  <meta content="Learn how to personalize your push notifications with various advanced options." name="seoDescription" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="a5053fdb-d752-416d-904e-9ddc2330b578" name="jcr:predecessors" />
+  <meta content="audience:channels" name="primaryAudienceTag" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2017-11-16T10:43:54.736-0500" name="publishExternalDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2017-11-28T11:31:12.756-0500" name="cq:lastModified" />
+  <meta content="2017-11-16T10:43:54.736-0500" name="firstPublishExternalDate" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2017-11-16T10:43:54.736-0500" name="topicBrowsingSortDate" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="Push notification advanced options" name="navTitle" />
+  <meta content="2017-11-28T11:31:12.755-0500" name="locHandOffDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="https://helpx.adobe.com/campaign/standard/channels/using/push-notification-advanced-options.html" name="publishExternalURL" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:channels;content_type:reference;topic_tags:push-notifications" name="cq:tags" />
+  <meta content="2017-11-29T19:03:21.743-0500" name="jcr:created" />
+  <meta content="Push notification advanced options" name="jcr:description" />
  </head>
  <body>
   <p>To personalize your push notification, Adobe Campaign allows you to access a set of advanced options while creating a push notification.</p> 

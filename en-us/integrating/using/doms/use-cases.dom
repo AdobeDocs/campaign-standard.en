@@ -1,34 +1,34 @@
 <html>
  <head>
-  <meta content="Use cases" name="jcr:title" />
+  <meta content="Use cases" name="jcr:description" />
   <meta content="" name="jcr:primaryType" />
   <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="2018-01-10T15:24:20.521-0500" name="cq:lastModified" />
-  <meta content="Learn how to use the Marketing Cloud Triggers integration with these different use cases." name="seoDescription" />
-  <meta content="https://helpx.adobe.com/campaign/standard/integrating/using/use-cases.html" name="publishExternalURL" />
   <meta content="2018-01-10T15:24:20.514-0500" name="firstPublishExternalDate" />
-  <meta content="2018-01-10T15:24:20.514-0500" name="lastPublishExternalDate" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="2018-01-10T15:24:20.514-0500" name="topicBrowsingSortDate" />
-  <meta content="audience:integrating" name="primaryAudienceTag" />
-  <meta content="Use cases" name="navTitle" />
-  <meta content="a642c33e-0b4a-4cbd-a3ea-08024a2fee06" name="jcr:uuid" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="eb521416-72e9-4382-a2bd-258b82a2403a" name="jcr:predecessors" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="light" name="heroGradient" />
-  <meta content="2018-01-11T19:02:37.084-0500" name="jcr:created" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="Use cases" name="jcr:description" />
   <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
   <meta content="products:SG_CAMPAIGN/STANDARD;audience:integrating;content_type:reference;topic_tags:marketing-cloud-triggers" name="cq:tags" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="eb521416-72e9-4382-a2bd-258b82a2403a" name="jcr:predecessors" />
+  <meta content="https://helpx.adobe.com/campaign/standard/integrating/using/use-cases.html" name="publishExternalURL" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Use cases" name="navTitle" />
+  <meta content="Use cases" name="jcr:title" />
+  <meta content="light" name="heroGradient" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
   <meta content="2018-01-10T15:24:20.514-0500" name="publishExternalDate" />
   <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-01-10T15:24:20.514-0500" name="topicBrowsingSortDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-01-10T15:24:20.514-0500" name="lastPublishExternalDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="audience:integrating" name="primaryAudienceTag" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2018-01-11T19:02:37.084-0500" name="jcr:created" />
+  <meta content="a642c33e-0b4a-4cbd-a3ea-08024a2fee06" name="jcr:uuid" />
+  <meta content="2018-01-10T15:24:20.521-0500" name="cq:lastModified" />
+  <meta content="Learn how to use the Marketing Cloud Triggers integration with these different use cases." name="seoDescription" />
  </head>
  <body>
   <p>This section presents different use cases that can be implemented using the integration between Adobe Campaign and Marketing Cloud Triggers. You will find two examples of use cases:</p> 

@@ -3,7 +3,7 @@ title: About direct mail
 seo-title: About direct mail
 description: About direct mail
 seo-description: Discover the main specificities of the direct mail channel in Adobe Campaign.
-uuid: 2faaf0e0-d75d-499c-afd2-4659364cbeeb
+uuid: bfbdaf8d-1451-4656-b1be-5cec40dbb053
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/about-direct-mail
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: channels
 content-type: reference
 topic-tags: direct-mail
 cq-template: /apps/help/templates/article-3
-discoiquuid: 1a2bf63f-2178-4965-99b8-b8256a9d728d
+discoiquuid: 28eca1ca-bafc-4ef3-934d-98139a953195
 firstPublishExternalDate: 2018-07-23T06:02:54.411-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About direct mail
 publishexternaldate: 2018-07-23T06 02 54.411-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/about-direct-mail.html
-sha1: 8c447c473fe98514b6fa01d3554e2e6f9476f0c5
+sha1: dcef54d065cd942bafd9437f8cf60dcb1085671a
 topicBrowsingSortDate: 2018-07-23T06:02:54.411-0400
 index: y
 internal: n

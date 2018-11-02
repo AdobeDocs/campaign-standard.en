@@ -3,7 +3,7 @@ title: About landing pages
 seo-title: About landing pages
 description: About landing pages
 seo-description: Discover the landing page templates and life cycle.
-uuid: 17b43021-7d67-4bc2-be50-cb93ba9f4fa0
+uuid: d3fbd353-00db-405d-8711-774e46485f69
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/about-landing-pages
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 cq-template: /apps/help/templates/article-3
-discoiquuid: 0ef1c344-bf44-40a3-ac97-1f245732b5b1
+discoiquuid: 9388bf3d-73bb-44cd-b381-99fba169d6b0
 firstPublishExternalDate: 2018-07-23T06:03:14.984-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About landing pages
 publishexternaldate: 2018-07-23T06 03 14.984-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/about-landing-pages.html
-sha1: d94c755d6675b6aa075b6dfaff59415c857b69b9
+sha1: 772ed1887753d86532806f89d5048f7884092e4f
 topicBrowsingSortDate: 2018-07-23T06:03:14.984-0400
 index: y
 internal: n

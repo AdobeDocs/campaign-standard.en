@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="Adding panels" name="jcr:description" />
-  <meta content="Dynamic report allows you to add panel to better filter your data depending on the chosen time period." name="seoDescription" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="2018-07-23T06:00:24.789-0400" name="publishExternalDate" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-07-23T06:00:24.822-0400" name="cq:lastReplicated" />
+  <meta content="https://helpx.adobe.com/campaign/standard/reporting/using/adding-panels.html" name="publishExternalURL" />
+  <meta content="2018-07-23T06:00:24.789-0400" name="lastPublishExternalDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
   <meta content="" name="jcr:primaryType" />
+  <meta content="audience:reporting" name="primaryAudienceTag" />
+  <meta content="Adding panels" name="jcr:title" />
+  <meta content="Adding panels" name="navTitle" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2018-03-15T09:03:03.051-0400" name="jcr:created" />
+  <meta content="Dynamic report allows you to add panel to better filter your data depending on the chosen time period." name="seoDescription" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="en_us" name="jcr:language" />
   <meta content="sauviat" name="cq:lastReplicatedBy" />
   <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="2018-07-27T03:27:17.134-0400" name="cq:lastModified" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:reporting;content_type:reference;topic_tags:customizing-reports" name="cq:tags" />
-  <meta content="audience:reporting" name="primaryAudienceTag" />
-  <meta content="2018-07-23T06:00:24.789-0400" name="lastPublishExternalDate" />
-  <meta content="2018-07-23T06:00:24.822-0400" name="cq:lastReplicated" />
-  <meta content="1f6ed030-743f-46db-9486-95f0cc7c12b1" name="jcr:uuid" />
-  <meta content="2018-07-23T06:00:24.789-0400" name="topicBrowsingSortDate" />
-  <meta content="Adding panels" name="jcr:title" />
-  <meta content="2018-07-27T03:27:17.132-0400" name="locHandOffDate" />
-  <meta content="2018-03-15T09:03:03.051-0400" name="jcr:created" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="2018-07-23T06:00:24.789-0400" name="firstPublishExternalDate" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="https://helpx.adobe.com/campaign/standard/reporting/using/adding-panels.html" name="publishExternalURL" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
   <meta content="af527472-ef3e-4531-aee1-0168725aba53" name="jcr:predecessors" />
-  <meta content="Adding panels" name="navTitle" />
   <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="light" name="heroGradient" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-07-27T03:27:17.134-0400" name="cq:lastModified" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:reporting;content_type:reference;topic_tags:customizing-reports" name="cq:tags" />
+  <meta content="1f6ed030-743f-46db-9486-95f0cc7c12b1" name="jcr:uuid" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2018-07-23T06:00:24.789-0400" name="publishExternalDate" />
+  <meta content="2018-07-23T06:00:24.789-0400" name="topicBrowsingSortDate" />
+  <meta content="Adding panels" name="jcr:description" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-07-23T06:00:24.789-0400" name="firstPublishExternalDate" />
+  <meta content="2018-07-27T03:27:17.132-0400" name="locHandOffDate" />
  </head>
  <body>
   <h2>Adding a blank panel</h2>

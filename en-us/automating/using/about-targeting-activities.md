@@ -3,7 +3,7 @@ title: About targeting activities
 seo-title: About targeting activities
 description: About targeting activities
 seo-description: Targeting activities can be accessed from the left-hand side of the screen.
-uuid: e0f7b67e-77af-4186-b197-6868e66f2607
+uuid: 6bf5383e-c946-414b-a380-e757854b9d7f
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/about-targeting-activities
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: 09e42b9e-3f20-42ff-8716-d2bb034a6fe1
+discoiquuid: 4f4cd47e-bd80-4b5b-8d18-19209029fd4e
 firstPublishExternalDate: 2018-07-23T05:56:55.798-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About targeting activities
 publishexternaldate: 2018-07-23T05 56 55.798-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/about-targeting-activities.html
-sha1: bb05681a84b0c3e88bc21fa1292fe6e3f8d84732
+sha1: da6a62905d5f4a6619c0309fea9191f9331c02ca
 topicBrowsingSortDate: 2018-07-23T05:56:55.798-0400
 index: y
 internal: n

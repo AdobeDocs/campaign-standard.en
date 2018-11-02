@@ -4,7 +4,7 @@ seo-title: Adding Adobe Target content
 description: Adding Adobe Target content
 seo-description: Learn how to add Adobe Target dynamic content in one of your Adobe Campaign delivery.
 page-status-flag: never-activated
-uuid: 118b004f-ed9e-4f46-8b97-11a1418b7f5d
+uuid: 2cc877d4-b3fe-44f5-8f3c-23748d2a4aeb
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/integrating/using/adding-adobe-target-content
 contentOwner: sauviat
@@ -15,7 +15,7 @@ audience: integrating
 content-type: reference
 topic-tags: adobe-target-integration
 cq-template: /apps/help/templates/article-3
-discoiquuid: 25e630a1-b26f-43a5-a0f6-a1ef61885664
+discoiquuid: ab636b92-e12f-4136-b7f8-3938121c929e
 firstPublishExternalDate: 2018-01-10T15:24:03.758-0500
 herogradient: light
 jcr-created: 2018-01-11T19 02 13.424-0500
@@ -28,7 +28,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Adding Adobe Target content
 publishexternaldate: 2018-01-10T15 24 03.758-0500
 publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/adding-adobe-target-content.html
-sha1: f96eebcbe818979ba6c758acb1fae9d6d0aac101
+sha1: 7dc47ed1888ff4a62c3370a340986f59dc9b6852
 topicBrowsingSortDate: 2018-01-10T15:24:03.758-0500
 index: y
 internal: n

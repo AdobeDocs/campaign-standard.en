@@ -4,7 +4,7 @@ seo-title: Configuration
 description: Configuration
 seo-description: Learn how to configure the Adobe Marketing Cloud Triggers integration to start sending personalized deliveries to your customers based on their previous behaviors. 
 page-status-flag: never-activated
-uuid: 2ba6236e-9b7c-4114-91ad-8f621a81aa16
+uuid: 8f3c9558-af4d-4cb1-83c7-3b3aafd80f51
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/integrating/using/configuration
 contentOwner: sauviat
@@ -15,7 +15,7 @@ audience: integrating
 content-type: reference
 topic-tags: marketing-cloud-triggers
 cq-template: /apps/help/templates/article-3
-discoiquuid: 2e14e525-bc42-4f19-bea6-de6a6e87a882
+discoiquuid: b77b31ec-8d8c-415f-a39b-ddbfe254674a
 firstPublishExternalDate: 2018-01-10T15:24:19.298-0500
 herogradient: light
 jcr-created: 2018-01-11T19 02 17.342-0500
@@ -28,7 +28,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Configuration
 publishexternaldate: 2018-01-10T15 24 19.298-0500
 publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/configuration.html
-sha1: 702229967238945c251f32d2bdec73571fe26cbe
+sha1: efcb4074332a1b9250336f301704e3946a3159d2
 topicBrowsingSortDate: 2018-01-10T15:24:19.298-0500
 index: y
 internal: n

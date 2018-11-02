@@ -3,7 +3,7 @@ title: Loading an existing content
 seo-title: Loading an existing content
 description: Loading an existing content
 seo-description: Learn how to select or import content for your messages with Adobe Campaign.
-uuid: f200140d-2656-46a8-925e-1d34cbc4a131
+uuid: cfe0ae2d-36d7-43f7-bea0-d8ff10b7cc0b
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/loading-an-existing-content
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: designing-email-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: f564aa5b-9bd3-40ea-9107-fbbb91d11637
+discoiquuid: 19bc520a-2d5b-446d-b810-6f2be859cacc
 firstPublishExternalDate: 2018-06-14T08:43:48.542-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Loading an existing content
 publishexternaldate: 2018-06-14T08 43 48.542-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/loading-an-existing-content.html
-sha1: f60c3b28e029accf51b66611eb17073f86a34c09
+sha1: 6b2652f65906a13e8c2417a906893c8716f2ff99
 topicBrowsingSortDate: 2018-06-14T08:43:48.542-0400
 index: y
 internal: n

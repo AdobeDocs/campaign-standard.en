@@ -3,7 +3,7 @@ title: Defining a visibility condition
 seo-title: Defining a visibility condition
 description: Defining a visibility condition
 seo-description: Make a web page element visible only if a certain condition is respected.
-uuid: 6d058a32-094e-4943-a5a4-53bdaa509ba1
+uuid: 777f6d3c-5bdb-49e3-880c-cebb70822bcc
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/defining-a-visibility-condition
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: defining-conditional-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: 4795b338-0be4-4fb1-86fb-35bca4f93453
+discoiquuid: 2d69a12a-4ef5-4660-91cb-9d05e25e6b76
 firstPublishExternalDate: 2018-07-23T05:58:43.265-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Defining a visibility condition
 publishexternaldate: 2018-07-23T08 13 55.610-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/defining-a-visibility-condition.html
-sha1: c174b39248b3242acb7b9c45422d4d9de3867343
+sha1: 6612438356d261204e982b555d8eb926315496f9
 topicBrowsingSortDate: 2018-07-23T08:13:55.610-0400
 index: y
 internal: n

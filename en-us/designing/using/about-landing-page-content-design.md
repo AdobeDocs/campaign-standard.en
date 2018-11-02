@@ -3,7 +3,7 @@ title: About landing page content design
 seo-title: About landing page content design
 description: About landing page content design
 seo-description: 
-uuid: b87f3d77-a4e9-4ddc-97db-3d8e16cfbb54
+uuid: bd58ebfc-d221-4b4d-bcef-5252bb26eff4
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/about-landing-page-content-design
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-landing-page-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: 6283b843-be92-4122-b7b1-c7963d786543
+discoiquuid: f40f5079-0dd8-4ba3-97bf-2f255baa73d5
 firstPublishExternalDate: 2018-07-23T05:57:57.554-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About landing page content design
 publishexternaldate: 2018-07-23T08 13 27.959-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/about-landing-page-content-design.html
-sha1: 64a97ce21a414e8562beb69441eaedef15bcd2e3
+sha1: d935ef36e80d63b8f26dd58fa0b3643e389a3cf4
 topicBrowsingSortDate: 2018-07-23T08:13:27.959-0400
 index: y
 internal: n

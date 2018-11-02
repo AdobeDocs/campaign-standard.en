@@ -4,7 +4,7 @@ seo-title: About send time optimization
 description: About send time optimization
 seo-description: Learn how to improve the success rate of your messages.
 page-status-flag: never-activated
-uuid: 6e0364cd-e9f6-4085-aa23-722053370d04
+uuid: 0c316e22-9217-4a33-b1f1-f523e274f371
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/sending/using/about-send-time-optimization
 contentOwner: sauviat
@@ -15,7 +15,7 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 cq-template: /apps/help/templates/article-3
-discoiquuid: 9156880d-eaba-4985-9a07-d9210953a46f
+discoiquuid: fc56eead-b9a1-4bfc-b747-3804e4a28a04
 firstPublishExternalDate: 2018-01-10T15:31:16.993-0500
 herogradient: light
 jcr-created: 2018-01-11T19 01 30.325-0500
@@ -28,7 +28,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About send time optimization
 publishexternaldate: 2018-01-10T15 31 16.993-0500
 publishExternalURL: https://helpx.adobe.com/campaign/standard/sending/using/about-send-time-optimization.html
-sha1: 7768ad5d698a6c27323ad5a1ccea810f1ac22ec6
+sha1: 4fc7dc94627c86ec46f61b3d3352bac18a6729ed
 topicBrowsingSortDate: 2018-01-10T15:31:16.993-0500
 index: y
 internal: n

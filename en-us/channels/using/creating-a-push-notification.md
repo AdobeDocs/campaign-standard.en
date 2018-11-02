@@ -4,7 +4,7 @@ seo-title: Creating a push notification
 description: Creating a push notification
 seo-description: Follow these steps to create a single-send push notification in Adobe Campaign.
 page-status-flag: never-activated
-uuid: bdbd031a-2103-4972-8f07-0e585f5907d3
+uuid: bfca19a5-274e-4c88-851a-545ac5303d42
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/creating-a-push-notification
 contentOwner: sauviat
@@ -15,7 +15,7 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 cq-template: /apps/help/templates/article-3
-discoiquuid: 63a48e17-b8a5-460a-9f5f-c8d5ae32f4a2
+discoiquuid: b0eace85-ee1c-4f6c-86d9-499923a94ec5
 firstPublishExternalDate: 2017-11-16T11:00:16.898-0500
 herogradient: light
 isreadyforlocalization: false
@@ -30,7 +30,7 @@ lr-lastreplicatedby: wmyersta@adobe.com
 navTitle: Creating a push notification
 publishexternaldate: 2017-11-16T11 00 16.898-0500
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/creating-a-push-notification.html
-sha1: 61ecd09b38119ec072da6ddb0db8ad740c7d8908
+sha1: 60554e4a09e7a7c27e6a5a990145a45f412606cb
 topicBrowsingSortDate: 2017-11-16T11:00:16.898-0500
 index: y
 internal: n

@@ -3,7 +3,7 @@ title: Customizing the display and style of an element
 seo-title: Customizing the display and style of an element
 description: Customizing the display and style of an element
 seo-description: Customize quickly the style of your email through the UI with quick access settings.
-uuid: e770ad21-ed9a-48eb-90a0-0eb54c879ba2
+uuid: f3b3be3c-27e8-408e-93ac-a7b21c29a446
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/customizing-the-display-and-style-of-an-element
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: designing-email-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: 2900b5af-4f91-405f-8f04-c4d47b7073d7
+discoiquuid: 4e99cbb7-ddf5-44e9-964a-fc7452d41376
 firstPublishExternalDate: 2018-06-14T08:43:51.298-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Customizing the display and style of an element
 publishexternaldate: 2018-06-14T08 43 51.298-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/customizing-the-display-and-style-of-an-element.html
-sha1: a4898049e61d87edbcfb87e1098c6a4ae01a2c66
+sha1: ec73a7e7f27df6ecb8c23c5faab3361ab314f8cd
 topicBrowsingSortDate: 2018-06-14T08:43:51.298-0400
 index: y
 internal: n

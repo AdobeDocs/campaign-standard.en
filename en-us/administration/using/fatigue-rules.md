@@ -3,7 +3,7 @@ title: Fatigue rules
 seo-title: Fatigue rules
 description: Fatigue rules
 seo-description: Create fatigue rules to manage over-communication with profiles.
-uuid: 9dd5b295-3e2c-4ae6-806a-842f68f28173
+uuid: 0fa8f8b0-3200-4817-b3cf-6125125f5f65
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/fatigue-rules
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
 cq-template: /apps/help/templates/article-3
-discoiquuid: 5fe2c40e-acd4-4acf-811e-5f2db73fa3ff
+discoiquuid: a9d2a6a5-6233-497c-80eb-bb3578554aee
 firstPublishExternalDate: 2018-07-23T05:53:50.713-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Fatigue rules
 publishexternaldate: 2018-07-23T05 53 50.713-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/fatigue-rules.html
-sha1: 04fa46ec90d710fb4fafb0365eb1a5c967f6235c
+sha1: f96a55461fa2973551d274fec676468d0fa03ee9
 topicBrowsingSortDate: 2018-07-23T05:53:50.713-0400
 index: y
 internal: n

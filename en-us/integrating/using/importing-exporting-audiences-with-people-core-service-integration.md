@@ -4,7 +4,7 @@ seo-title: Importing/Exporting audiences with People core service integration
 description: Importing/Exporting audiences with People core service integration
 seo-description: Learn how to import or export your audience within the different Adobe Marketing Cloud solutions.
 page-status-flag: never-activated
-uuid: c10b645e-3cd9-4422-a4b5-5914975f2502
+uuid: 7c48d14d-8427-46c9-ac89-076af49d588e
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/integrating/using/importing-exporting-audiences-with-people-core-service-integration
 contentOwner: sauviat
@@ -15,7 +15,7 @@ audience: integrating
 content-type: reference
 topic-tags: people-core-service-integration
 cq-template: /apps/help/templates/article-3
-discoiquuid: 8da325ce-52a4-4171-b7f3-884e425eb617
+discoiquuid: aa759768-e41f-4a39-b05d-d0d858e46e1e
 firstPublishExternalDate: 2018-01-10T15:24:11.233-0500
 herogradient: light
 jcr-created: 2018-01-11T19 02 13.270-0500
@@ -28,7 +28,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Importing/Exporting audiences with People core service integration
 publishexternaldate: 2018-01-10T15 24 11.233-0500
 publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/importing-exporting-audiences-with-people-core-service-integration.html
-sha1: f05e5967c1679c6107ec96219cda4e4e459afdbd
+sha1: 1242cad9b96f603a561afbb7f2d320ddcece34e0
 topicBrowsingSortDate: 2018-01-10T15:24:11.233-0500
 index: y
 internal: n

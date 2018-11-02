@@ -3,7 +3,7 @@ title: Managing groups and users
 seo-title: Managing groups and users
 description: Managing groups and users
 seo-description: Learn how to create security groups and manage users.
-uuid: 41005bd7-2aed-4fa9-9547-4797c34ae63d
+uuid: eeda140c-c875-416c-a3c6-4fa864e46d15
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/managing-groups-and-users
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: administration
 content-type: reference
 topic-tags: users-e-security
 cq-template: /apps/help/templates/article-3
-discoiquuid: 762e5b39-5c88-4d1f-8e68-ca9dc5014269
+discoiquuid: 4d08af75-3c37-422a-bb08-b0801f510173
 firstPublishExternalDate: 2018-07-23T05:53:26.728-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Managing groups and users
 publishexternaldate: 2018-07-23T05 53 26.728-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/managing-groups-and-users.html
-sha1: 80295740fcc8ec8b0e3436bd9a4cd54d6e655aac
+sha1: 25e0cd1af43118f41434dcbc25c05e8d88fef77b
 topicBrowsingSortDate: 2018-07-23T05:53:26.728-0400
 index: y
 internal: n

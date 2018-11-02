@@ -1,40 +1,40 @@
 <html> 
  <head> 
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
-  <meta content="" name="jcr:primaryType" /> 
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
-  <meta content="" name="jcr:versionHistory" /> 
-  <meta content="Activate" name="cq:lastReplicationAction" /> 
-  <meta content="2018-07-23T05:57:09.679-0400" name="firstPublishExternalDate" /> 
-  <meta content="false" name="isReadyForLocalization" /> 
-  <meta content="en_us" name="jcr:language" /> 
-  <meta content="2018-07-23T05:57:09.679-0400" name="lastPublishExternalDate" /> 
-  <meta content="Enrichment" name="navTitle" /> 
-  <meta content="" name="jcr:baseVersion" /> 
-  <meta content="2018-03-15T09:02:26.932-0400" name="jcr:created" /> 
-  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
-  <meta content="2018-07-23T05:57:09.679-0400" name="publishExternalDate" /> 
-  <meta content="2018-07-23T05:57:09.679-0400" name="topicBrowsingSortDate" /> 
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
-  <meta content="sauviat" name="cq:lastReplicatedBy" /> 
-  <meta content="2018-07-23T05:57:09.716-0400" name="cq:lastReplicated" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
   <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:targeting-activities" name="cq:tags" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-07-23T05:57:09.679-0400" name="topicBrowsingSortDate" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="Enrichment" name="jcr:description" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
   <meta content="audience:automating" name="primaryAudienceTag" /> 
   <meta content="mix:versionable" name="jcr:mixinTypes" /> 
-  <meta content="2018-07-25T09:29:34.130-0400" name="locHandOffDate" /> 
   <meta content="light" name="heroGradient" /> 
-  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
-  <meta content="true" name="jcr:isCheckedOut" /> 
-  <meta content="Enrichment" name="jcr:description" /> 
-  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="sauviat" name="cq:lastReplicatedBy" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
   <meta content="909d16de-cb8f-468f-9c9c-50cd95d8ceca" name="jcr:predecessors" /> 
-  <meta content="Enrichment" name="jcr:title" /> 
-  <meta content="2018-07-25T09:29:34.130-0400" name="cq:lastModified" /> 
-  <meta content="sauviat" name="contentOwner" /> 
-  <meta content="The Enrichment activity is an advanced activity that allows you to define additional data to process in your workflow." name="seoDescription" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-07-23T05:57:09.679-0400" name="lastPublishExternalDate" /> 
+  <meta content="2018-07-23T05:57:09.679-0400" name="firstPublishExternalDate" /> 
   <meta content="https://helpx.adobe.com/campaign/standard/automating/using/enrichment.html" name="publishExternalURL" /> 
-  <meta content="e409090b-2b26-4ef0-ace8-553032433f34" name="jcr:uuid" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-03-15T09:02:26.932-0400" name="jcr:created" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
   <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="The Enrichment activity is an advanced activity that allows you to define additional data to process in your workflow." name="seoDescription" /> 
+  <meta content="e409090b-2b26-4ef0-ace8-553032433f34" name="jcr:uuid" /> 
+  <meta content="2018-07-23T05:57:09.716-0400" name="cq:lastReplicated" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2018-07-25T09:29:34.130-0400" name="locHandOffDate" /> 
+  <meta content="Enrichment" name="jcr:title" /> 
+  <meta content="2018-07-23T05:57:09.679-0400" name="publishExternalDate" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="2018-07-25T09:29:34.130-0400" name="cq:lastModified" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="Enrichment" name="navTitle" /> 
  </head> 
  <body> 
   <h2>Description</h2> 

@@ -3,7 +3,7 @@ title: Example: Designing an email content from scratch
 seo-title: Example: Designing an email content from scratch
 description: Example: Designing an email content from scratch
 seo-description: 
-uuid: cffcb89b-77ea-4a6f-8870-8c7f373088c6
+uuid: 71d8a498-4306-4449-8215-d439540ba46f
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/example--designing-an-email-content-from-scratch
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: designing-email-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: cca72617-2668-4d9d-b9da-5d572678a00e
+discoiquuid: 981a9bd8-dbbc-4352-a50b-5a9bc51a6922
 firstPublishExternalDate: 2018-06-14T08:43:56.083-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Example: Designing an email content from scratch
 publishexternaldate: 2018-06-14T08 43 56.083-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/example--designing-an-email-content-from-scratch.html
-sha1: 9625603a206d46ab970125bc2c76e4124d0f44f6
+sha1: 7b110be07e919fb8451dd0edb20df0d7b166b694
 topicBrowsingSortDate: 2018-06-14T08:43:56.083-0400
 index: y
 internal: n

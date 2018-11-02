@@ -3,7 +3,7 @@ title: About Campaign-Audience Manager or People core service integration
 seo-title: About Campaign-Audience Manager or People core service integration
 description: About Campaign-Audience Manager or People core service integration
 seo-description: With the Audience Manager / People core service integration, you can share audiences or segments within the different Adobe Experience Cloud solutions.
-uuid: 34230aa9-d9cc-41f8-a0e9-b83b84b4ee6d
+uuid: b8441cb9-2586-4926-bfbb-6215a6d1e154
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/integrating/using/about-campaign-audience-manager-or-people-core-service-integration
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 cq-template: /apps/help/templates/article-3
-discoiquuid: 1d4651b1-53b2-48ac-b428-020d079ea02b
+discoiquuid: 1991f76e-385a-4ea3-ab04-bb94a69847a4
 firstPublishExternalDate: 2018-07-23T05:59:39.464-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About Campaign-Audience Manager or People core service integration
 publishexternaldate: 2018-07-23T05 59 39.464-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/about-campaign-audience-manager-or-people-core-service-integration.html
-sha1: fb59111dcda9eb485e32042af903268630b5b668
+sha1: d509b30dd03a61f971d23b1136ad868e5f433bc7
 topicBrowsingSortDate: 2018-07-23T05:59:39.464-0400
 index: y
 internal: n

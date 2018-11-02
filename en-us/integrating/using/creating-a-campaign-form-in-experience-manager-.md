@@ -3,7 +3,7 @@ title: Creating a Campaign form in Experience Manager
 seo-title: Creating a Campaign form in Experience Manager 
 description: Creating a Campaign form in Experience Manager 
 seo-description: With the Adobe Experience Manager integration, you can create forms directly in AEM to create and update profiles or manage subscriptions.
-uuid: 54277920-d397-4fd2-a8d4-51a3fbea7ce6
+uuid: b382584f-a2b7-42e8-a23b-bc928c3643fd
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/integrating/using/creating-a-campaign-form-in-experience-manager-
 contentOwner: sauviat
@@ -18,7 +18,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
 cq-template: /apps/help/templates/article-3
-discoiquuid: 68178f40-7a91-4aea-a2f4-32b0fd0c6003
+discoiquuid: 6dfba0e9-a13c-4428-8330-5c06f3c9dc21
 firstPublishExternalDate: 2018-07-23T05:59:29.699-0400
 herogradient: light
 isreadyforlocalization: false
@@ -35,7 +35,7 @@ moreHelpPaths: /content/help/en/campaign/standard/integrating/morehelp/working-w
 navTitle: Creating a Campaign form in Experience Manager 
 publishexternaldate: 2018-07-23T05 59 29.699-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/creating-a-campaign-form-in-experience-manager-.html
-sha1: feb4066c2109ef8561b4e3163d31b4fcdfa6c67c
+sha1: 7f75346f50810b440ebec2f80b336cf2a37e409b
 topicBrowsingSortDate: 2018-07-23T05:59:29.699-0400
 index: y
 internal: n

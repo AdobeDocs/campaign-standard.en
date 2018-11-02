@@ -1,36 +1,36 @@
 <html>
  <head>
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="https://helpx.adobe.com/campaign/standard/rn/using/v16_3.html" name="publishExternalURL" />
-  <meta content="2018-01-10T15:33:43.862-0500" name="lastPublishExternalDate" />
-  <meta content="true" name="jcr:isCheckedOut" />
   <meta content="en_us" name="jcr:language" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:rn;content_type:reference;topic_tags:adobe-campaign-standard-release-notes" name="cq:tags" />
+  <meta content="audience:rn" name="primaryAudienceTag" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="sauviat" name="cq:lastModifiedBy" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-01-10T15:33:43.862-0500" name="publishExternalDate" />
+  <meta content="2018-01-11T19:02:01.015-0500" name="jcr:created" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="light" name="heroGradient" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="5562babd-82a3-477a-97be-4a4164f5f0f9" name="jcr:uuid" />
   <meta content="04/19/2016" name="jcr:description" />
   <meta content="2018-01-10T15:33:43.862-0500" name="topicBrowsingSortDate" />
-  <meta content="2017-11-16T10:46:51.923-0500" name="firstPublishExternalDate" />
-  <meta content="false" name="isReadyForLocalization" />
   <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="2017-11-28T11:31:17.233-0500" name="locHandOffDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:rn;content_type:reference;topic_tags:adobe-campaign-standard-release-notes" name="cq:tags" />
+  <meta content="cc6a33b6-e9a7-413d-ab5f-ed81ba4bb1f4" name="jcr:predecessors" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2017-11-16T10:46:51.923-0500" name="firstPublishExternalDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="https://helpx.adobe.com/campaign/standard/rn/using/v16_3.html" name="publishExternalURL" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
   <meta content="2018-01-10T15:33:43.871-0500" name="cq:lastModified" />
-  <meta content="2018-01-10T15:33:43.862-0500" name="publishExternalDate" />
-  <meta content="audience:rn" name="primaryAudienceTag" />
+  <meta content="2018-01-10T15:33:43.862-0500" name="lastPublishExternalDate" />
   <meta content="/apps/help/templates/article-3" name="cq:template" />
   <meta content="v16.3" name="navTitle" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="2018-01-11T19:02:01.015-0500" name="jcr:created" />
-  <meta content="cc6a33b6-e9a7-413d-ab5f-ed81ba4bb1f4" name="jcr:predecessors" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="5562babd-82a3-477a-97be-4a4164f5f0f9" name="jcr:uuid" />
-  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2017-11-28T11:31:17.233-0500" name="locHandOffDate" />
   <meta content="v16.3" name="jcr:title" />
-  <meta content="light" name="heroGradient" />
-  <meta content="sauviat" name="cq:lastModifiedBy" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
  </head>
  <body>
   <h2>Improvements</h2>

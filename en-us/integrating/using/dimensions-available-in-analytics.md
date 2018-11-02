@@ -4,7 +4,7 @@ seo-title: Dimensions available in Analytics
 description: Dimensions available in Analytics
 seo-description: Learn the different dimensions that you can find in Adobe Analytics to start tracking your email deliveries from Adobe Campaign.
 page-status-flag: never-activated
-uuid: d2637d15-ff90-4f61-8da3-6b3ec71db446
+uuid: ef26fa1e-c1bb-47d7-97b4-1fd7df27d48c
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/integrating/using/dimensions-available-in-analytics
 contentOwner: sauviat
@@ -15,7 +15,7 @@ audience: integrating
 content-type: reference
 topic-tags: adobe-analytics-integration
 cq-template: /apps/help/templates/article-3
-discoiquuid: 4c1cf184-9c99-49bc-85fd-4e692166478c
+discoiquuid: 6fdec2e0-bd2c-46b9-9d44-1db650fb9a0a
 firstPublishExternalDate: 2018-01-10T15:24:08.371-0500
 herogradient: light
 jcr-created: 2018-01-11T19 02 08.340-0500
@@ -28,7 +28,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Dimensions available in Analytics
 publishexternaldate: 2018-01-10T15 24 08.371-0500
 publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/dimensions-available-in-analytics.html
-sha1: 8af1c179d289860f5300955005f2186bd9332184
+sha1: 81e097f736eecac18160bb7ce62c59446829037a
 topicBrowsingSortDate: 2018-01-10T15:24:08.371-0500
 index: y
 internal: n

@@ -3,7 +3,7 @@ title: Adding fragments and content components
 seo-title: Adding fragments and content components
 description: Adding fragments and content components
 seo-description: Populate your email with customizable and reusable sets of content.
-uuid: 6e20cfa1-77d9-439e-8837-01f99e03b72e
+uuid: dcbba5fe-a187-4a66-99bb-00eb50b4ac9f
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/adding-fragments-and-content-components
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: designing-email-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: 3f468aab-5535-4e42-899d-4d1c5f15b4db
+discoiquuid: c20d204c-94fd-4403-a2b3-284ad97ed508
 firstPublishExternalDate: 2018-06-14T08:43:50.129-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Adding fragments and content components
 publishexternaldate: 2018-06-14T08 43 50.129-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/adding-fragments-and-content-components.html
-sha1: 81d0aaf46ed328edbde9b1451764f9955caed06e
+sha1: d45e2277e89800e922310b0b3b1ca3d461b4accf
 topicBrowsingSortDate: 2018-06-14T08:43:50.129-0400
 index: y
 internal: n

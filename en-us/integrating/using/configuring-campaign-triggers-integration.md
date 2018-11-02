@@ -3,7 +3,7 @@ title: Configuring Campaign-Triggers integration
 seo-title: Configuring Campaign-Triggers integration
 description: Configuring Campaign-Triggers integration
 seo-description: Learn how to configure the Adobe Experience Cloud Triggers integration to start sending personalized deliveries to your customers based on their previous behaviors. 
-uuid: 085c7d6c-cc7a-4f85-981e-4a77ad8c1470
+uuid: 9d74e6ac-2000-4476-a7ed-e3ae610df1ca
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/integrating/using/configuring-campaign-triggers-integration
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 cq-template: /apps/help/templates/article-3
-discoiquuid: 28cadefc-c2bd-422c-9cc4-c90cddb24a24
+discoiquuid: d2a4b1c9-ed89-44ab-947a-a68218c9473a
 firstPublishExternalDate: 2018-05-07T05:10:39.053-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,7 +32,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Configuring Campaign-Triggers integration
 publishexternaldate: 2018-05-07T05 10 39.053-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/configuring-campaign-triggers-integration.html
-sha1: 0209a2ec91349bb3d7be6bb3fd43e1b8e2530963
+sha1: 86d06b28777be9c07f28bf2a86bfe0287f7b77f4
 topicBrowsingSortDate: 2018-05-07T05:10:39.053-0400
 index: y
 internal: n

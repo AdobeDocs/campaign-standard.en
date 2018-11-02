@@ -3,7 +3,7 @@ title: Managing landing page structure and style
 seo-title: Managing landing page structure and style
 description: Managing landing page structure and style
 seo-description: Learn how to manage the different HTML content elements and overall styling in a landing page.
-uuid: 50f73c4e-f5f7-4829-9959-ce857e1d7e4f
+uuid: 989626a9-60c2-44c3-bc49-34abec5da3d1
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/managing-landing-page-structure-and-style
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-landing-page-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: 9d50d1e8-448a-48ca-a733-4f1edd183f89
+discoiquuid: cf615f32-3dc4-4eb3-9dda-e261a2d28c25
 firstPublishExternalDate: 2018-07-23T05:58:03.895-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Managing landing page structure and style
 publishexternaldate: 2018-07-23T08 13 32.196-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/managing-landing-page-structure-and-style.html
-sha1: 0498f921363c7c142aa97baa830f1bc0d16c2da6
+sha1: 98510f42a1860c020d99491d320fa46aaa31c8f8
 topicBrowsingSortDate: 2018-07-23T08:13:32.196-0400
 index: y
 internal: n

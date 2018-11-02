@@ -1,40 +1,40 @@
 <html>
  <head>
+  <meta content="light" name="heroGradient" />
   <meta content="07e7c8b0-75cf-478a-bdf4-914b37ae0364" name="jcr:uuid" />
-  <meta content="fa52952b-cb30-4795-be2d-39e6d952b724" name="jcr:predecessors" />
-  <meta content="Campaign orchestration" name="jcr:description" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
   <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="https://helpx.adobe.com/campaign/standard/start/using/campaign-orchestration.html" name="publishExternalURL" />
   <meta content="products:SG_CAMPAIGN/STANDARD;audience:start;content_type:reference;topic_tags:about-adobe-campaign" name="cq:tags" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="Campaign orchestration" name="navTitle" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-07-23T06:00:30.910-0400" name="firstPublishExternalDate" />
   <meta content="2018-03-15T09:01:45.387-0400" name="jcr:created" />
-  <meta content="2018-07-23T06:00:31.082-0400" name="cq:lastReplicated" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="With Adobe Campaign, you can control the entire process of creating, executing and tracking cross channel campaigns, and send personalized messages." name="seoDescription" />
+  <meta content="audience:start" name="primaryAudienceTag" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="fa52952b-cb30-4795-be2d-39e6d952b724" name="jcr:predecessors" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
   <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-07-23T06:00:30.910-0400" name="publishExternalDate" />
+  <meta content="2018-07-27T03:26:13.715-0400" name="cq:lastModified" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Campaign orchestration" name="jcr:description" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
   <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
   <meta content="2018-07-27T03:26:13.714-0400" name="locHandOffDate" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="With Adobe Campaign, you can control the entire process of creating, executing and tracking cross channel campaigns, and send personalized messages." name="seoDescription" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="https://helpx.adobe.com/campaign/standard/start/using/campaign-orchestration.html" name="publishExternalURL" />
-  <meta content="2018-07-27T03:26:13.715-0400" name="cq:lastModified" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="2018-07-23T06:00:30.910-0400" name="firstPublishExternalDate" />
-  <meta content="2018-07-23T06:00:30.910-0400" name="lastPublishExternalDate" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="audience:start" name="primaryAudienceTag" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Campaign orchestration" name="navTitle" />
   <meta content="2018-07-23T06:00:30.910-0400" name="topicBrowsingSortDate" />
-  <meta content="light" name="heroGradient" />
-  <meta content="2018-07-23T06:00:30.910-0400" name="publishExternalDate" />
-  <meta content="" name="jcr:baseVersion" />
   <meta content="Campaign orchestration" name="jcr:title" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="2018-07-23T06:00:30.910-0400" name="lastPublishExternalDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-07-23T06:00:31.082-0400" name="cq:lastReplicated" />
+  <meta content="admin" name="jcr:createdBy" />
  </head>
  <body>
   <p>Adobe Campaign offers a platform for managing campaigns which allows you to control the entire process of creating, executing, and tracking cross channel campaigns, as well as send messages that are personalized according to the profile, behavior, preferences, and needs of the clients. You can easily orchestrate, modelize and automate the entire marketing process, and integrate with other Adobe solutions. Adobe Campaign key capabilities are:</p> 

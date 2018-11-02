@@ -3,7 +3,7 @@ title: Identifying opt-out profiles for a delivery
 seo-title: Identifying opt-out profiles for a delivery
 description: Identifying opt-out profiles for a delivery
 seo-description: Discover how to identify opt-out profiles for a delivery.
-uuid: 9681617e-4bca-428a-9e64-bfb1ccbac6cb
+uuid: 0bc5e8e9-f293-4a55-ac1f-f7ba3ff275fd
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/audiences/using/identifying-opt-out-profiles-for-a-delivery
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
 cq-template: /apps/help/templates/article-3
-discoiquuid: 6750db6f-c52c-4a59-b10b-448fde3b362a
+discoiquuid: 7595ae9b-1fba-41f9-a216-fd3e8b6331f9
 firstPublishExternalDate: 2018-07-23T05:55:37.210-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Identifying opt-out profiles for a delivery
 publishexternaldate: 2018-07-23T05 55 37.210-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/audiences/using/identifying-opt-out-profiles-for-a-delivery.html
-sha1: 13067d6d74e508b810353af999a6ba4c2b26e16b
+sha1: 4c8b7f555e57fabf4a48826b0ed7749a11c3206d
 topicBrowsingSortDate: 2018-07-23T05:55:37.210-0400
 index: y
 internal: n

@@ -1,42 +1,42 @@
 <html>
  <head>
-  <meta content="2018-07-23T05:53:45.197-0400" name="topicBrowsingSortDate" />
-  <meta content="Discover how typology rules work in Adobe Campaign." name="seoDescription" />
-  <meta content="mancini" name="cq:lastModifiedBy" />
-  <meta content="About typology rules" name="jcr:description" />
-  <meta content="3e648785-e87f-4c00-b2b7-7cd281281a56" name="jcr:predecessors" />
-  <meta content="https://helpx.adobe.com/campaign/standard/administration/using/about-typology-rules.html" name="publishExternalURL" />
-  <meta content="light" name="heroGradient" />
-  <meta content="2018-07-23T05:53:45.197-0400" name="publishExternalDate" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="About typology rules" name="jcr:title" />
-  <meta content="2018-02-16T08:02:15.464-0500" name="jcr:created" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="/content/help/en/campaign/standard/administration/morehelp/working-with-typology-rules;/content/help/en/campaign/standard/administration/morehelp/working-with-typology-rules" name="moreHelpPaths" />
-  <meta content="2018-07-23T05:53:45.197-0400" name="firstPublishExternalDate" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="2018-07-25T09:29:27.506-0400" name="cq:lastModified" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:administration;content_type:reference;topic_tags:working-with-typology-rules" name="cq:tags" />
   <meta content="cd025ae8-fd1a-4cf6-baef-fb4529e76efe" name="jcr:uuid" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="2018-07-23T05:53:45.237-0400" name="cq:lastReplicated" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="2018-07-23T05:53:45.197-0400" name="lastPublishExternalDate" />
-  <meta content="2018-07-25T09:29:27.506-0400" name="locHandOffDate" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="sauviat" name="contentOwner" />
   <meta content="admin" name="jcr:createdBy" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="audience:administration" name="primaryAudienceTag" />
-  <meta content="About typology rules" name="navTitle" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="/content/help/en/campaign/standard/administration/morehelp/working-with-typology-rules;/content/help/en/campaign/standard/administration/morehelp/working-with-typology-rules" name="moreHelpPaths" />
   <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="audience:administration" name="primaryAudienceTag" />
+  <meta content="About typology rules" name="jcr:title" />
+  <meta content="2018-07-23T05:53:45.197-0400" name="firstPublishExternalDate" />
+  <meta content="mancini" name="cq:lastModifiedBy" />
+  <meta content="https://helpx.adobe.com/campaign/standard/administration/using/about-typology-rules.html" name="publishExternalURL" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="light" name="heroGradient" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-07-25T09:29:27.506-0400" name="cq:lastModified" />
+  <meta content="About typology rules" name="navTitle" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:administration;content_type:reference;topic_tags:working-with-typology-rules" name="cq:tags" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-07-23T05:53:45.197-0400" name="topicBrowsingSortDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-07-23T05:53:45.197-0400" name="lastPublishExternalDate" />
+  <meta content="Discover how typology rules work in Adobe Campaign." name="seoDescription" />
+  <meta content="2018-07-25T09:29:27.506-0400" name="locHandOffDate" />
+  <meta content="2018-07-23T05:53:45.197-0400" name="publishExternalDate" />
+  <meta content="2018-02-16T08:02:15.464-0500" name="jcr:created" />
+  <meta content="3e648785-e87f-4c00-b2b7-7cd281281a56" name="jcr:predecessors" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="About typology rules" name="jcr:description" />
+  <meta content="2018-07-23T05:53:45.237-0400" name="cq:lastReplicated" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
  </head>
  <body>
   <p>A typology is a set of rules, executed during the message analysis phase, which allow the target, the content, and the configuration of the following elements to be validated: the subject, URL, images, unsubscription link, proof size, etc. </p> 

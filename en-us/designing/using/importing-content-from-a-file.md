@@ -3,7 +3,7 @@ title: Importing content from a file
 seo-title: Importing content from a file
 description: Importing content from a file
 seo-description: 
-uuid: 5e77b6a7-2714-44e5-92b1-07b1f9d0591f
+uuid: 9580655d-2c65-4099-b7cb-515aa182ad6e
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/importing-content-from-a-file
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: loading-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: dda58ad1-6ddf-41a9-818c-756fbbea2000
+discoiquuid: 783b2ecf-bfbe-4d4d-8bf1-a28491e96ff0
 firstPublishExternalDate: 2018-07-23T05:58:18.365-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Importing content from a file
 publishexternaldate: 2018-07-23T08 13 38.572-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/importing-content-from-a-file.html
-sha1: 782a6f5d079d636ef38ec0c8c487ccf1c5f130c8
+sha1: b71aa9b768f34eabf256141fe3256a647f302cd3
 topicBrowsingSortDate: 2018-07-23T08:13:38.572-0400
 index: y
 internal: n

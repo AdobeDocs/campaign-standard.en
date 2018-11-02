@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="Generating a unique ID for profiles and custom resources" name="jcr:description" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="2018-03-15T09:02:36.518-0400" name="jcr:created" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="audience:developing" name="primaryAudienceTag" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
   <meta content="false" name="isReadyForLocalization" />
-  <meta content="https://helpx.adobe.com/campaign/standard/developing/using/generating-a-unique-id-for-profiles-and-custom-resources.html" name="publishExternalURL" />
-  <meta content="2018-07-23T05:59:14.387-0400" name="publishExternalDate" />
-  <meta content="0edd825c-2f3d-4282-ba8e-13a05716c052" name="jcr:predecessors" />
   <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
   <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="Generating a unique ID for profiles and custom resources" name="jcr:title" />
-  <meta content="f40837d6-b74d-472d-bc64-7486ba5570c2" name="jcr:uuid" />
-  <meta content="2018-07-26T02:53:35.448-0400" name="locHandOffDate" />
-  <meta content="2018-07-26T02:53:35.449-0400" name="cq:lastModified" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
   <meta content="2018-07-23T05:59:14.387-0400" name="firstPublishExternalDate" />
-  <meta content="2018-07-23T05:59:14.444-0400" name="cq:lastReplicated" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="2018-07-23T05:59:14.387-0400" name="topicBrowsingSortDate" />
-  <meta content="" name="seoDescription" />
-  <meta content="2018-07-23T05:59:14.387-0400" name="lastPublishExternalDate" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-07-26T02:53:35.448-0400" name="locHandOffDate" />
+  <meta content="" name="jcr:primaryType" />
   <meta content="products:SG_CAMPAIGN/STANDARD;audience:developing;content_type:reference;topic_tags:adding-or-extending-a-resource" name="cq:tags" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="light" name="heroGradient" />
-  <meta content="" name="jcr:baseVersion" />
   <meta content="sauviat" name="contentOwner" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-07-26T02:53:35.449-0400" name="cq:lastModified" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="" name="seoDescription" />
+  <meta content="light" name="heroGradient" />
+  <meta content="Generating a unique ID for profiles and custom resources" name="jcr:title" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="audience:developing" name="primaryAudienceTag" />
+  <meta content="2018-03-15T09:02:36.518-0400" name="jcr:created" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Generating a unique ID for profiles and custom resources" name="jcr:description" />
+  <meta content="f40837d6-b74d-472d-bc64-7486ba5570c2" name="jcr:uuid" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="2018-07-23T05:59:14.387-0400" name="lastPublishExternalDate" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="0edd825c-2f3d-4282-ba8e-13a05716c052" name="jcr:predecessors" />
+  <meta content="2018-07-23T05:59:14.444-0400" name="cq:lastReplicated" />
+  <meta content="https://helpx.adobe.com/campaign/standard/developing/using/generating-a-unique-id-for-profiles-and-custom-resources.html" name="publishExternalURL" />
   <meta content="Generating a unique ID for profiles and custom resources" name="navTitle" />
+  <meta content="2018-07-23T05:59:14.387-0400" name="topicBrowsingSortDate" />
+  <meta content="2018-07-23T05:59:14.387-0400" name="publishExternalDate" />
  </head>
  <body>
   <p>By default, profiles and custom resources have no business ID when they are created. You can enable an option that generates automatically a unique ID when elements are created. This ID can be used to:</p> 

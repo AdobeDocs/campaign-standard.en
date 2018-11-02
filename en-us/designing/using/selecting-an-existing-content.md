@@ -3,7 +3,7 @@ title: Selecting an existing content
 seo-title: Selecting an existing content
 description: Selecting an existing content
 seo-description: Learn how to load an existing content from another source when creating an email or a landing page.
-uuid: a1ef1ae8-d974-4b2e-8321-a596c48d2e61
+uuid: f9024271-159e-40fc-b20d-886d9e0d6a24
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/selecting-an-existing-content
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: loading-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: 14b65031-7bf3-42cb-bf0a-a94ad8cc7022
+discoiquuid: 3c2d1617-87b5-472e-89b3-c9e0883cad5f
 firstPublishExternalDate: 2018-07-23T05:58:16.709-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Selecting an existing content
 publishexternaldate: 2018-07-23T08 13 37.419-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/selecting-an-existing-content.html
-sha1: bf7451644350051523566f78bc88fb1c7ccc3d5b
+sha1: 00e3a2464b8bc8101903f0cc1cdeda2b195dfe38
 topicBrowsingSortDate: 2018-07-23T08:13:37.419-0400
 index: y
 internal: n

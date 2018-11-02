@@ -3,7 +3,7 @@ title: Target mappings in Campaign
 seo-title: Target mappings in Campaign
 description: Target mappings in Campaign
 seo-description: Target mappings are technical objects used by Campaign in order to deliver messages. They contain all the technical settings required to send deliveries.
-uuid: df807bfa-1427-4039-a963-69623d60e866
+uuid: cb5a7b15-4524-419a-90ce-0f515a0df4a9
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/target-mappings-in-campaign
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 cq-template: /apps/help/templates/article-3
-discoiquuid: 422ed77c-ac07-47bd-9a6a-ae7ace07cf33
+discoiquuid: 26a30e17-5517-4419-8e2d-70c896274c98
 firstPublishExternalDate: 2018-07-23T05:53:57.401-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Target mappings in Campaign
 publishexternaldate: 2018-07-23T05 53 57.401-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/target-mappings-in-campaign.html
-sha1: dbdbb855a4e135a84e8cff8b4a7e7837dab340b8
+sha1: 2694cf8ce7b78e3f4a721de9e1be91566106f82a
 topicBrowsingSortDate: 2018-07-23T05:53:57.401-0400
 index: y
 internal: n

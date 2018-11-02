@@ -4,7 +4,7 @@ seo-title: SMS configuration
 description: SMS configuration
 seo-description: Find out the SMS configuration steps. 
 page-status-flag: never-activated
-uuid: e764594e-2c3d-4c02-884d-b87d06700424
+uuid: 3a2d404b-5f7b-4bbb-b5be-050a5de11ef0
 content-encoding: UTF-8
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/sms-configuration
 contentOwner: sauviat
@@ -15,7 +15,7 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 cq-template: /apps/help/templates/article-3
-discoiquuid: 696b0276-818c-4f6e-ab5a-3dd70019311e
+discoiquuid: f84d6651-9936-4c04-a6e9-0311cd36b4c9
 firstPublishExternalDate: 2017-11-16T11:11:49.713-0500
 herogradient: light
 isreadyforlocalization: false
@@ -30,7 +30,7 @@ lr-lastreplicatedby: wmyersta@adobe.com
 navTitle: SMS configuration
 publishexternaldate: 2017-11-16T11 11 49.713-0500
 publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/sms-configuration.html
-sha1: 37d0224c5a44c57d1a3352ce9eb43e660a414697
+sha1: 784d38f911f7dd02a49ddf1c526e0d77ff1ff050
 topicBrowsingSortDate: 2017-11-16T11:11:49.713-0500
 index: y
 internal: n

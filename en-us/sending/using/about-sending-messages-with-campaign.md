@@ -3,7 +3,7 @@ title: About sending messages with Campaign
 seo-title: About sending messages with Campaign
 description: About sending messages with Campaign
 seo-description: Discover the different steps to test and send a message.
-uuid: 28636381-0d74-4a81-81c4-cdda11a469c6
+uuid: fb89a137-f23f-48e7-b4d0-bed33b3b8cab
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/sending/using/about-sending-messages-with-campaign
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: sending
 content-type: reference
 topic-tags: about-sending-messages-with-campaign
 cq-template: /apps/help/templates/article-3
-discoiquuid: 24080ee1-8563-4775-8d65-3aeff88c00f5
+discoiquuid: b2254148-c21c-45fa-a7a7-aab9c5a4f547
 firstPublishExternalDate: 2018-07-23T06:02:03.123-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About sending messages with Campaign
 publishexternaldate: 2018-07-23T06 02 03.123-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/sending/using/about-sending-messages-with-campaign.html
-sha1: e416d3da1c87199b3e75561aa915279d50bafd14
+sha1: 704bfff5733328b82e7dc59566d5bc8da5199d12
 topicBrowsingSortDate: 2018-07-23T06:02:03.123-0400
 index: y
 internal: n

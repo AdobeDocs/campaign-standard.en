@@ -3,7 +3,7 @@ title: Load file
 seo-title: Load file
 description: Load file
 seo-description: The Load file activity allows you to import data in one structured form to use this data in Adobe Campaign.
-uuid: ae3d2d19-dcac-4b4f-9ab3-b10e13afccc6
+uuid: c2ddd4f7-028e-4ac4-87c8-8baa584e4f7f
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/load-file
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: 71d3454a-ae72-41d3-85e3-dcbdd4b61ff9
+discoiquuid: b1a7816d-7098-44f8-b312-f1b5524f9784
 firstPublishExternalDate: 2018-07-23T05:57:27.814-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Load file
 publishexternaldate: 2018-07-23T05 57 27.814-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/load-file.html
-sha1: e56ff21850805631733bbef1be9846a8a390243b
+sha1: 39d151270813f0e061822996e50028e8d80c4088
 topicBrowsingSortDate: 2018-07-23T05:57:27.814-0400
 index: y
 internal: n

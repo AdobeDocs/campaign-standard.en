@@ -3,7 +3,7 @@ title: Managing blocks
 seo-title: Managing blocks
 description: Managing blocks
 seo-description: Learn how to manage the different HTML content elements in a message.
-uuid: 976a1a81-f3b8-4065-abff-3fd3edfc40a6
+uuid: a32c4dfa-eef6-481e-b97a-c46b37a2150a
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/managing-blocks
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-message-and-landing-page-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: e432ade5-40b7-4233-a783-322b911928ff
+discoiquuid: 5db044b1-a9b4-4e7f-9015-68c169be5572
 firstPublishExternalDate: 2018-03-26T11:12:47.706-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,7 +32,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Managing blocks
 publishexternaldate: 2018-03-26T11 12 47.706-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/managing-blocks.html
-sha1: 38396062c0953de796c17e787acabcbc1f2601bb
+sha1: fc100f1cb57fc24280aec31088051d59c22ac69e
 topicBrowsingSortDate: 2018-03-26T11:12:47.706-0400
 index: y
 internal: n

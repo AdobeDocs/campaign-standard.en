@@ -3,7 +3,7 @@ title: Auditing export logs
 seo-title: Auditing export logs
 description: Auditing export logs
 seo-description: Administrators can track the exports that were made from Adobe Campaign.
-uuid: 7cda4d3e-c5e0-400a-9db9-71fd0b5c2fdd
+uuid: 3cf6f9e9-4960-4bf7-bafb-3bad639fff8f
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/auditing-export-logs
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: administration
 content-type: reference
 topic-tags: users-e-security
 cq-template: /apps/help/templates/article-3
-discoiquuid: 3950efe1-826d-4b49-8dba-ff4033cebb62
+discoiquuid: cf47f744-db8a-4946-ab03-07673ffc1454
 firstPublishExternalDate: 2018-07-23T05:53:28.172-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Auditing export logs
 publishexternaldate: 2018-07-23T05 53 28.172-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/auditing-export-logs.html
-sha1: c1456e3e781654c01fa7b154c25a732bf61d556c
+sha1: 93fcd2ac18a9d4bfb86a083f3dd32ee1e5047005
 topicBrowsingSortDate: 2018-07-23T05:53:28.172-0400
 index: y
 internal: n

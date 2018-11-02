@@ -3,7 +3,7 @@ title: How-to videos
 seo-title: How-to videos
 description: How-to videos
 seo-description: Discover Adobe Campaign's main features by watching our how-to videos.
-uuid: 6e79c110-448d-47ca-b432-d84fa6cbc9f6
+uuid: e699f477-73a1-4e1c-94bd-2d2424f3d7fd
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/start/using/how-to-videos
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: start
 content-type: reference
 topic-tags: tutorials
 cq-template: /apps/help/templates/article-3
-discoiquuid: fd1c6c5e-c61c-463f-9b9e-72b68289d2a2
+discoiquuid: c5192f72-5711-44ce-8c22-5d755f44b868
 firstPublishExternalDate: 2018-07-23T06:00:51.556-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: How-to videos
 publishexternaldate: 2018-07-23T06 00 51.556-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/start/using/how-to-videos.html
-sha1: 21ecd2838a654c98ded25c637c6d1f61df82ac01
+sha1: 78dc74038bd26452f9a8899e0692c65cf966472a
 topicBrowsingSortDate: 2018-07-23T06:00:51.556-0400
 index: y
 internal: n

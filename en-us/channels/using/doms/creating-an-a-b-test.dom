@@ -1,36 +1,36 @@
 <html>
  <head>
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="" name="jcr:baseVersion" />
   <meta content="sauviat" name="contentOwner" />
-  <meta content="audience:channels" name="primaryAudienceTag" />
+  <meta content="2017-11-16T10:51:05.033-0500" name="firstPublishExternalDate" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2017-11-16T10:51:05.033-0500" name="lastPublishExternalDate" />
   <meta content="Creating an A/B test" name="jcr:description" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:channels;content_type:reference;topic_tags:email-messages" name="cq:tags" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="2017-11-28T11:29:53.507-0500" name="cq:lastModified" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2017-11-28T11:29:53.505-0500" name="locHandOffDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
   <meta content="Creating an A/B test" name="navTitle" />
-  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="audience:channels" name="primaryAudienceTag" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="light" name="heroGradient" />
+  <meta content="3d0af5db-4058-4415-9d67-deafd3c8938f" name="jcr:predecessors" />
+  <meta content="2017-11-16T10:51:05.033-0500" name="publishExternalDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2017-11-29T19:02:25.584-0500" name="jcr:created" />
   <meta content="2017-11-16T10:51:05.033-0500" name="topicBrowsingSortDate" />
   <meta content="en_us" name="jcr:language" />
-  <meta content="2017-11-29T19:02:25.584-0500" name="jcr:created" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="Creating an A/B test" name="jcr:title" />
-  <meta content="2017-11-16T10:51:05.033-0500" name="publishExternalDate" />
-  <meta content="18955de3-e61d-4a07-b4d6-9a53936b52c5" name="jcr:uuid" />
-  <meta content="2017-11-28T11:29:53.505-0500" name="locHandOffDate" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="2017-11-16T10:51:05.033-0500" name="lastPublishExternalDate" />
   <meta content="" name="jcr:versionHistory" />
-  <meta content="Discover the A/B test functionality and follow these steps to create an email from an A/B test template in Adobe Campaign." name="seoDescription" />
-  <meta content="light" name="heroGradient" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Creating an A/B test" name="jcr:title" />
   <meta content="https://helpx.adobe.com/campaign/standard/channels/using/creating-an-a-b-test.html" name="publishExternalURL" />
-  <meta content="2017-11-16T10:51:05.033-0500" name="firstPublishExternalDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:channels;content_type:reference;topic_tags:email-messages" name="cq:tags" />
   <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="3d0af5db-4058-4415-9d67-deafd3c8938f" name="jcr:predecessors" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="18955de3-e61d-4a07-b4d6-9a53936b52c5" name="jcr:uuid" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2017-11-28T11:29:53.507-0500" name="cq:lastModified" />
+  <meta content="Discover the A/B test functionality and follow these steps to create an email from an A/B test template in Adobe Campaign." name="seoDescription" />
  </head>
  <body>
   <p>The A/B test functionality in Adobe Campaign allows you to define two to three email variants. Each variant is sent to population samples in order to determine which has the best result. Once determined, the winning variant is then sent to the remaining population.</p> 

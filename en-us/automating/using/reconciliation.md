@@ -3,7 +3,7 @@ title: Reconciliation
 seo-title: Reconciliation
 description: Reconciliation
 seo-description: The Reconciliation activity allows you to link unidentified data to existing resources.
-uuid: 2cdae34d-676f-4253-86ca-c67551a3a517
+uuid: dc5cb265-222b-4457-b515-fac75a9c0ee6
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/reconciliation
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: 61e6b1e2-25b4-4453-b61e-fc10c69622b6
+discoiquuid: 840515c5-57a0-44fc-b047-e11a08f9e3d4
 firstPublishExternalDate: 2018-07-23T05:57:35.095-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Reconciliation
 publishexternaldate: 2018-07-23T05 57 35.095-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/reconciliation.html
-sha1: ebf2f7eeddb1ef6e5bfd8e07b7152ab46577d82e
+sha1: db901754a6062f1afa30b358a5886cc8ea8d4918
 topicBrowsingSortDate: 2018-07-23T05:57:35.095-0400
 index: y
 internal: n

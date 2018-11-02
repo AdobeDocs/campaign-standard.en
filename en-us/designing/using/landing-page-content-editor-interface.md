@@ -3,7 +3,7 @@ title: Landing page content editor interface
 seo-title: Landing page content editor interface
 description: Landing page content editor interface
 seo-description: Learn how to use the different sections of the editor, such as the action bar, to modify your landing page content.
-uuid: 3ffe9a24-d39d-49c7-8d9e-750110c558c8
+uuid: e97e13aa-31d4-4db7-9031-852b2d209b99
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/landing-page-content-editor-interface
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-landing-page-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: 2cccfa03-d4ca-4e98-b987-d831d9a1485e
+discoiquuid: 99becfa2-e55d-4a84-825a-a4f0b459c900
 firstPublishExternalDate: 2018-07-23T05:57:59.064-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Landing page content editor interface
 publishexternaldate: 2018-07-23T08 13 30.216-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/landing-page-content-editor-interface.html
-sha1: 3653ce878ca8c71f2f133a7bbe78c9c7673f4fa4
+sha1: 301ae65979d353e06bc8ea71db6b43e1a2852270
 topicBrowsingSortDate: 2018-07-23T08:13:30.216-0400
 index: y
 internal: n

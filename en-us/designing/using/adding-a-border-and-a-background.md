@@ -3,7 +3,7 @@ title: Adding a border and a background
 seo-title: Adding a border and a background
 description: Adding a border and a background
 seo-description: Learn how to apply a background color and a border to a selected block.
-uuid: 2f0e9cce-f794-453e-999b-44f609651f5e
+uuid: c0ed87e6-2e55-4a3f-966a-e4c9311b7196
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/adding-a-border-and-a-background
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-message-and-landing-page-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: f36e8039-8112-42ac-823d-309efc924866
+discoiquuid: b5ce7d64-043b-4c92-b8a5-b3f7d38e1b17
 firstPublishExternalDate: 2018-03-26T11:10:26.754-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,7 +32,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Adding a border and a background
 publishexternaldate: 2018-03-26T11 10 26.754-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/adding-a-border-and-a-background.html
-sha1: de607fb5c39b9c94f3c2db44fe7054243ef84f9d
+sha1: 3accd82b33cfeb1f025687301bcec18aa4095fdf
 topicBrowsingSortDate: 2018-03-26T11:10:26.754-0400
 index: y
 internal: n

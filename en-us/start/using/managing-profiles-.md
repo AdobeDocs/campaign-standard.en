@@ -3,7 +3,7 @@ title: Managing profiles
 seo-title: Managing profiles 
 description: Managing profiles 
 seo-description: Learn about profiles, targeting and audience creation in Campaign: send personalized messages, and access all your data to discover customer insights from both online and offline channels.
-uuid: 355df067-fdac-4372-853d-ae23797a2706
+uuid: b6b79ea6-a4bb-43a8-962a-ed212fd44da7
 content-encoding: UTF-8
 aemsrcnodepath: /content/help/en/campaign/standard/start/using/managing-profiles-
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: start
 content-type: reference
 topic-tags: about-adobe-campaign
 cq-template: /apps/help/templates/article-3
-discoiquuid: 77e7dbfa-7c7a-43a6-8afe-5412eeb7be67
+discoiquuid: bfcce3fc-70b6-4637-bd87-86dba743d69a
 firstPublishExternalDate: 2018-07-23T06:00:32.918-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Managing profiles 
 publishexternaldate: 2018-07-23T06 00 32.918-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/start/using/managing-profiles-.html
-sha1: 450a91600cce801f91c732091af7e905eb401ff8
+sha1: c6fd6ca47abb4cb8f9c34628e1c81af971c26be6
 topicBrowsingSortDate: 2018-07-23T06:00:32.918-0400
 index: y
 internal: n

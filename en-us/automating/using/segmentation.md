@@ -3,7 +3,7 @@ title: Segmentation
 seo-title: Segmentation
 description: Segmentation
 seo-description: The Segmentation activity lets you create one or several segments from a population calculated by activities placed earlier in the workflow.
-uuid: 8df7ab02-9227-4fcd-9421-9f0af0208384
+uuid: 6a70ea22-d008-4bfd-b98e-c5bfa0065662
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/segmentation
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: e31f137e-919e-4938-830d-65c801c8ebd5
+discoiquuid: b7692164-e563-4ee2-af33-e5a20b37ae58
 firstPublishExternalDate: 2018-07-23T05:57:04.258-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Segmentation
 publishexternaldate: 2018-07-23T05 57 04.258-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/segmentation.html
-sha1: 157ef1c9c10f2e231956c7b1d4b8c2e9fa2a19ba
+sha1: e0511e48e04068400a55d7e07563da60500f8d1f
 topicBrowsingSortDate: 2018-07-23T05:57:04.258-0400
 index: y
 internal: n

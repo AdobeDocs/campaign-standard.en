@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:designing-email-content" name="cq:tags" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="2018-06-14T08:43:47.942-0400" name="firstPublishExternalDate" />
-  <meta content="About the Creative Designer" name="navTitle" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="About the Creative Designer" name="jcr:description" />
-  <meta content="00a38685-011a-4bb8-8fb7-ab50b95fd3a9" name="jcr:uuid" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="light" name="heroGradient" />
   <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="2018-06-14T08:43:47.942-0400" name="publishExternalDate" />
-  <meta content="audience:designing" name="primaryAudienceTag" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="2018-06-14T08:43:47.942-0400" name="topicBrowsingSortDate" />
-  <meta content="2018-06-25T08:45:16.031-0400" name="locHandOffDate" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="Learn about the main principles of the Creative Designer." name="seoDescription" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="About the Creative Designer" name="navTitle" />
   <meta content="About the Creative Designer" name="jcr:title" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:designing-email-content" name="cq:tags" />
   <meta content="2018-06-14T08:43:47.973-0400" name="cq:lastReplicated" />
-  <meta content="2018-06-14T08:43:47.942-0400" name="lastPublishExternalDate" />
-  <meta content="1d466d59-57c5-4311-9a19-902fd4beff5a" name="jcr:predecessors" />
-  <meta content="2018-06-25T08:45:16.031-0400" name="cq:lastModified" />
-  <meta content="2018-03-27T07:29:04.617-0400" name="jcr:created" />
-  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-06-25T08:45:16.031-0400" name="locHandOffDate" />
   <meta content="https://helpx.adobe.com/campaign/standard/designing/using/about-the-creative-designer.html" name="publishExternalURL" />
+  <meta content="Learn about the main principles of the Creative Designer." name="seoDescription" />
+  <meta content="1d466d59-57c5-4311-9a19-902fd4beff5a" name="jcr:predecessors" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="audience:designing" name="primaryAudienceTag" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="2018-03-27T07:29:04.617-0400" name="jcr:created" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2018-06-14T08:43:47.942-0400" name="firstPublishExternalDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2018-06-14T08:43:47.942-0400" name="publishExternalDate" />
+  <meta content="2018-06-14T08:43:47.942-0400" name="topicBrowsingSortDate" />
+  <meta content="About the Creative Designer" name="jcr:description" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-06-25T08:45:16.031-0400" name="cq:lastModified" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-06-14T08:43:47.942-0400" name="lastPublishExternalDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="00a38685-011a-4bb8-8fb7-ab50b95fd3a9" name="jcr:uuid" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
  </head>
  <body>
   <note>

@@ -3,7 +3,7 @@ title: Non-deliverables and bounces
 seo-title: Non-deliverables and bounces
 description: Non-deliverables and bounces
 seo-description: With the Non-deliverables and bounces out-of-the-box report, learn about the errors that may occurred to your delivery. 
-uuid: 7667cb62-afce-40f9-b9fd-53782e2dc1c9
+uuid: 866349da-f0c1-432f-aa3c-64cfe94620a8
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/reporting/using/non-deliverables-and-bounces
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 cq-template: /apps/help/templates/article-3
-discoiquuid: ec09278d-7407-4492-9eaf-4aa4a9d7137e
+discoiquuid: 167a43cf-fac5-42fb-93da-9ba677c5709d
 firstPublishExternalDate: 2018-07-23T06:00:18.168-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Non-deliverables and bounces
 publishexternaldate: 2018-07-23T06 00 18.168-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/non-deliverables-and-bounces.html
-sha1: a90c9968505c26759e0260315277c45ae16c20dc
+sha1: 7b0844f177f70eebcd3736590e73bbaeb23a3d15
 topicBrowsingSortDate: 2018-07-23T06:00:18.168-0400
 index: y
 internal: n

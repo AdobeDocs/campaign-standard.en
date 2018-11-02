@@ -3,7 +3,7 @@ title: Design best practices
 seo-title: Design best practices
 description: Design best practices
 seo-description: Read about these guidelines to ensure the editor's optimal operation.
-uuid: 9490c194-91ea-4d13-a02e-b6e07f184351
+uuid: 26326c2d-85a3-4665-b885-d0f322af4d3c
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/design-best-practices
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: about-content-design
 cq-template: /apps/help/templates/article-3
-discoiquuid: 630fc91b-9d5e-430a-9864-3ffa68565941
+discoiquuid: e38d77c3-3c47-48f6-84f0-8ca388191fe7
 firstPublishExternalDate: 2018-06-14T08:43:37.917-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Design best practices
 publishexternaldate: 2018-06-14T08 43 37.917-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/design-best-practices.html
-sha1: 80180e928ce4550de946c6df10f0596af2326098
+sha1: 5051ccd65a03852b81ca95c238634e907c944fe7
 topicBrowsingSortDate: 2018-06-14T08:43:37.917-0400
 index: y
 internal: n

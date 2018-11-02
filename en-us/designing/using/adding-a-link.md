@@ -3,7 +3,7 @@ title: Adding a link
 seo-title: Adding a link
 description: Adding a link
 seo-description: Discover the different links you can insert into any page element.
-uuid: 4bf0b667-2bfb-4ec7-b395-c2e617fa7657
+uuid: 8f470464-08b6-4ddc-bd9c-4f3ee2809cf6
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/adding-a-link
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-message-and-landing-page-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: 50700b33-09fd-49f8-b552-194be5258038
+discoiquuid: 9ebe7be5-502d-42ca-af7d-92d8640f3eda
 firstPublishExternalDate: 2018-03-26T11:10:32.215-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,7 +32,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Adding a link
 publishexternaldate: 2018-03-26T11 10 32.215-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/adding-a-link.html
-sha1: 859462ef9bc98e68e08c3163308dfef357444f1d
+sha1: 8fc954d1620cee1e0066767bf63e73a225827879
 topicBrowsingSortDate: 2018-03-26T11:10:32.215-0400
 index: y
 internal: n

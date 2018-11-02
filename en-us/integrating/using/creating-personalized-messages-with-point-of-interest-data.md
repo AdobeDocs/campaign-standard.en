@@ -4,7 +4,7 @@ seo-title: Creating personalized messages with Point of Interest data
 description: Creating personalized messages with Point of Interest data
 seo-description: Learn how to create a personalized message based on your subscribers' location with the Point of Interest data integration.
 page-status-flag: never-activated
-uuid: 7a7d47e1-7be3-4c88-ae6b-eb46f5cf5de3
+uuid: a82983d5-2647-4272-950e-0c393936320b
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/integrating/using/creating-personalized-messages-with-point-of-interest-data
 contentOwner: sauviat
@@ -15,7 +15,7 @@ audience: integrating
 content-type: reference
 topic-tags: points-of-interest-data-integration
 cq-template: /apps/help/templates/article-3
-discoiquuid: 7d6e7112-d6f3-4263-ac98-c95ef82c4d48
+discoiquuid: 75d3f2c5-d311-437c-8481-272051c81335
 firstPublishExternalDate: 2018-01-10T15:24:16.598-0500
 herogradient: light
 jcr-created: 2018-01-11T19 01 26.371-0500
@@ -28,7 +28,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Creating personalized messages with Point of Interest data
 publishexternaldate: 2018-01-10T15 24 16.598-0500
 publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/creating-personalized-messages-with-point-of-interest-data.html
-sha1: 32fc6bb51533639fbbd1bc481fe4463c0f26c681
+sha1: 1f65f521f96795795c33b0d26a7c946c7601768f
 topicBrowsingSortDate: 2018-01-10T15:24:16.598-0500
 index: y
 internal: n

@@ -3,7 +3,7 @@ title: Editing the email structure
 seo-title: Editing the email structure
 description: Editing the email structure
 seo-description: Define the shape of your email by defining its structure.
-uuid: 1d549c87-37d0-48ef-8b2f-19add57bab3d
+uuid: 573e2322-44b2-4301-8e0b-39be28e2758f
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/editing-the-email-structure
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: designing-email-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: feb7acdd-f043-4bb2-81f1-566d8d9f9573
+discoiquuid: 33078579-184e-4758-88ac-797c2d942a51
 firstPublishExternalDate: 2018-06-14T08:43:49.691-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Editing the email structure
 publishexternaldate: 2018-06-14T08 43 49.691-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/editing-the-email-structure.html
-sha1: cd39f41c3539e20b7337faf66961a0e301b1a6ad
+sha1: 978010dd92ae92eea7eaf47cad630065bac4deb9
 topicBrowsingSortDate: 2018-06-14T08:43:49.691-0400
 index: y
 internal: n

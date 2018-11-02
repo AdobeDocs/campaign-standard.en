@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="2018-07-23T08:14:01.884-0400" name="publishExternalDate" />
-  <meta content="audience:designing" name="primaryAudienceTag" />
+  <meta content="2018-07-23T08:14:01.884-0400" name="topicBrowsingSortDate" />
   <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="Learn how to personalize URLs in a delivery by adding personalization fields, content blocks, or dynamic content." name="seoDescription" />
+  <meta content="audience:designing" name="primaryAudienceTag" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-07-23T08:14:01.884-0400" name="publishExternalDate" />
+  <meta content="light" name="heroGradient" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="https://helpx.adobe.com/campaign/standard/designing/using/personalizing-urls.html" name="publishExternalURL" />
+  <meta content="Personalizing URLs" name="jcr:title" />
+  <meta content="2018-07-23T08:14:01.884-0400" name="lastPublishExternalDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:managing-links" name="cq:tags" />
+  <meta content="2018-07-23T05:58:49.087-0400" name="firstPublishExternalDate" />
   <meta content="en_us" name="jcr:language" />
   <meta content="83255be6-cb0b-4591-9136-707e41fe6671" name="jcr:uuid" />
+  <meta content="2018-07-26T02:54:05.712-0400" name="cq:lastModified" />
+  <meta content="ebbc3195-9878-4dfc-b83e-96d868fa3818" name="jcr:predecessors" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="Personalizing URLs" name="navTitle" />
   <meta content="Personalizing URLs" name="jcr:description" />
+  <meta content="2018-07-23T08:14:01.930-0400" name="cq:lastReplicated" />
+  <meta content="2018-03-15T09:02:17.185-0400" name="jcr:created" />
   <meta content="/etc/designs/help" name="cq:designPath" />
   <meta content="2018-07-26T02:54:05.711-0400" name="locHandOffDate" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="https://helpx.adobe.com/campaign/standard/designing/using/personalizing-urls.html" name="publishExternalURL" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="Learn how to personalize URLs in a delivery by adding personalization fields, content blocks, or dynamic content." name="seoDescription" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="2018-07-23T05:58:49.087-0400" name="firstPublishExternalDate" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="2018-03-15T09:02:17.185-0400" name="jcr:created" />
-  <meta content="light" name="heroGradient" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:managing-links" name="cq:tags" />
-  <meta content="2018-07-23T08:14:01.930-0400" name="cq:lastReplicated" />
-  <meta content="2018-07-23T08:14:01.884-0400" name="lastPublishExternalDate" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="Personalizing URLs" name="navTitle" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="2018-07-23T08:14:01.884-0400" name="topicBrowsingSortDate" />
-  <meta content="ebbc3195-9878-4dfc-b83e-96d868fa3818" name="jcr:predecessors" />
-  <meta content="2018-07-26T02:54:05.712-0400" name="cq:lastModified" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="Personalizing URLs" name="jcr:title" />
  </head>
  <body>
   <p>Adobe Campaign allows you to personalize one or several URLs in your delivery by adding personalization fields, content blocks, or dynamic content to them. To do this:</p> 

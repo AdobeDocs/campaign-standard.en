@@ -3,7 +3,7 @@ title: About the Creative Designer
 seo-title: About the Creative Designer
 description: About the Creative Designer
 seo-description: Learn about the main principles of the Creative Designer.
-uuid: 56547bea-eb53-444f-9ee6-74e711432729
+uuid: 0092d448-fd89-4521-83c0-c8462d69be1f
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/about-the-creative-designer
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: designing-email-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: 5ef81b0d-ee34-4dc9-8708-9ab7ed3afa12
+discoiquuid: 420c19c8-2cf7-4053-adc5-e0da8ca149f0
 firstPublishExternalDate: 2018-06-14T08:43:47.942-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About the Creative Designer
 publishexternaldate: 2018-06-14T08 43 47.942-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/about-the-creative-designer.html
-sha1: b4a68b3ef025eeadd8a85d40f27f840f9f65788e
+sha1: 088f5979aec7082875bb11015f4270ef4e6986fe
 topicBrowsingSortDate: 2018-06-14T08:43:47.942-0400
 index: y
 internal: n

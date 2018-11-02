@@ -3,7 +3,7 @@ title: Message dashboard
 seo-title: Message dashboard
 description: Message dashboard
 seo-description: Discover what the message dashboard is made up of, including the action bar and the various functional blocks.
-uuid: b807129b-b45a-46fa-8318-238aeb7dda3a
+uuid: d3a4ba6a-38fd-4ca2-8609-e077de523cba
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/message-dashboard
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 cq-template: /apps/help/templates/article-3
-discoiquuid: 27ab7ccf-1bff-4966-a8df-fdd59f2aa8cc
+discoiquuid: 759f2230-dc43-497a-ac23-09540871bc61
 firstPublishExternalDate: 2018-07-23T06:02:38.973-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Message dashboard
 publishexternaldate: 2018-07-23T06 02 38.973-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/message-dashboard.html
-sha1: f3879025ea380aba28e12781d3a1214bfc293352
+sha1: 7b7e293bb5c3d10aef35471b1f72bef09fe88d65
 topicBrowsingSortDate: 2018-07-23T06:02:38.973-0400
 index: y
 internal: n

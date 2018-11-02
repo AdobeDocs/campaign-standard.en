@@ -3,7 +3,7 @@ title: Generating text version of the email
 seo-title: Generating text version of the email
 description: Generating text version of the email
 seo-description: 
-uuid: 660c8fee-9dd2-4bb2-b637-d9e163617e5b
+uuid: 8e24098c-7e77-44c3-a1ea-c30c9bb411b1
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/generating-text-version-of-the-email
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: designing-email-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: f1205f67-e74b-4467-b0ba-6c65b3820aaf
+discoiquuid: b8e73293-0576-492d-916a-e0e8389015eb
 firstPublishExternalDate: 2018-06-14T08:43:55.091-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Generating text version of the email
 publishexternaldate: 2018-06-14T08 43 55.091-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/generating-text-version-of-the-email.html
-sha1: 10ccb5ee5543686226bf9a2eb362bc67ea40e2fe
+sha1: 6751d6c0a078c3454e289c51e5d7e9c022fd94d5
 topicBrowsingSortDate: 2018-06-14T08:43:55.091-0400
 index: y
 internal: n

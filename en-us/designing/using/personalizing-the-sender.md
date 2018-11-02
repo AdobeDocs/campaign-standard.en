@@ -3,7 +3,7 @@ title: Personalizing the sender
 seo-title: Personalizing the sender
 description: Personalizing the sender
 seo-description: Learn how to personalize the name or the address of the sender for your messages.
-uuid: 20854d76-1a17-4841-bbe6-3968829866a3
+uuid: 7b451a4e-0ce9-4be3-a0d4-81b2870d7612
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/personalizing-the-sender
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: personalizing-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: 99fd7324-ce04-4a3c-a6d0-e70536a2b572
+discoiquuid: d27756e6-0382-4169-b788-7ba25537ff1c
 firstPublishExternalDate: 2018-07-23T05:58:40.385-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Personalizing the sender
 publishexternaldate: 2018-07-23T08 13 51.434-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/personalizing-the-sender.html
-sha1: 3b9c8abfbc1b563334355747399e75311d2858a1
+sha1: 0967fb76807977eea05ea8a32cb0b73e02401d05
 topicBrowsingSortDate: 2018-07-23T08:13:51.434-0400
 index: y
 internal: n

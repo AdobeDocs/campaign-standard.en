@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="2018-07-23T06:02:35.955-0400" name="cq:lastReplicated" />
-  <meta content="Key steps to send a message" name="navTitle" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="2018-03-15T09:01:01.269-0400" name="jcr:created" />
-  <meta content="2018-07-30T04:53:46.571-0400" name="locHandOffDate" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="https://helpx.adobe.com/campaign/standard/channels/using/key-steps-to-send-a-message.html" name="publishExternalURL" />
-  <meta content="2018-07-23T06:02:35.818-0400" name="lastPublishExternalDate" />
-  <meta content="Follow these steps to create and send messages with Adobe Campaign." name="seoDescription" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="2f451504-9a5e-4b37-8aaa-ebeca5f189f2" name="jcr:predecessors" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:channels;content_type:reference;topic_tags:about-communication-channels" name="cq:tags" />
-  <meta content="2018-07-23T06:02:35.818-0400" name="publishExternalDate" />
   <meta content="55ee5b1f-fcf9-488a-8003-df1fb13f7781" name="jcr:uuid" />
-  <meta content="2018-07-23T06:02:35.818-0400" name="firstPublishExternalDate" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="Key steps to send a message" name="jcr:title" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="2018-07-30T04:53:46.572-0400" name="cq:lastModified" />
-  <meta content="Key steps to send a message" name="jcr:description" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="audience:channels" name="primaryAudienceTag" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="2018-07-23T06:02:35.818-0400" name="topicBrowsingSortDate" />
-  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-07-23T06:02:35.955-0400" name="cq:lastReplicated" />
   <meta content="light" name="heroGradient" />
-  <meta content="" name="jcr:baseVersion" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-03-15T09:01:01.269-0400" name="jcr:created" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Key steps to send a message" name="jcr:description" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="audience:channels" name="primaryAudienceTag" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="Follow these steps to create and send messages with Adobe Campaign." name="seoDescription" />
+  <meta content="2018-07-23T06:02:35.818-0400" name="topicBrowsingSortDate" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:channels;content_type:reference;topic_tags:about-communication-channels" name="cq:tags" />
+  <meta content="https://helpx.adobe.com/campaign/standard/channels/using/key-steps-to-send-a-message.html" name="publishExternalURL" />
   <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-07-23T06:02:35.818-0400" name="publishExternalDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="Key steps to send a message" name="jcr:title" />
+  <meta content="Key steps to send a message" name="navTitle" />
+  <meta content="2018-07-30T04:53:46.572-0400" name="cq:lastModified" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-07-30T04:53:46.571-0400" name="locHandOffDate" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="2018-07-23T06:02:35.818-0400" name="firstPublishExternalDate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2018-07-23T06:02:35.818-0400" name="lastPublishExternalDate" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2f451504-9a5e-4b37-8aaa-ebeca5f189f2" name="jcr:predecessors" />
  </head>
  <body>
   <p>To learn the delivery best practices, consult the <a href="http://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html">Delivery best practices</a> getting started.</p> 

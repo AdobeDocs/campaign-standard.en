@@ -3,7 +3,7 @@ title: Adding a content block
 seo-title: Adding a content block
 description: Adding a content block
 seo-description: Discover the various out-of-the-box dynamic content blocks you can use to personalize your messages and learn how to create custom content blocks.
-uuid: 81b20d49-fc0e-41a5-9b35-556cef8bc212
+uuid: f56d5f7b-da8b-45c2-b990-c820688f0698
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/adding-a-content-block
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: personalizing-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: 0ffdc9d6-6911-43cf-9e60-f47ba1e4902f
+discoiquuid: 9d3e6093-0fec-4787-bd18-99f95c8dffc0
 firstPublishExternalDate: 2018-07-23T05:58:39.470-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Adding a content block
 publishexternaldate: 2018-07-23T08 13 50.140-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/adding-a-content-block.html
-sha1: 6d450a1727412b5205c9a51b76af39c73b544800
+sha1: 41485cc2521b0f7c2ed89d60872ad9c1cb950712
 topicBrowsingSortDate: 2018-07-23T08:13:50.140-0400
 index: y
 internal: n

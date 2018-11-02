@@ -3,7 +3,7 @@ title: Personalizing Campaign messages with Point of Interest data
 seo-title: Personalizing Campaign messages with Point of Interest data
 description: Personalizing Campaign messages with Point of Interest data
 seo-description: Learn how to create a personalized message based on your subscribers' location with the Point of Interest data integration.
-uuid: f3ffa4e7-64c7-493a-8ad9-1915575a79d8
+uuid: c9b8fd90-4b07-4fb4-a7ee-17a560ee1292
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/integrating/using/personalizing-campaign-messages-with-point-of-interest-data
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
 cq-template: /apps/help/templates/article-3
-discoiquuid: 17cfc261-82cd-4d7e-9952-06aef382aace
+discoiquuid: aeda1937-ec25-4366-b352-425893e531ed
 firstPublishExternalDate: 2018-07-23T05:59:46.181-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Personalizing Campaign messages with Point of Interest data
 publishexternaldate: 2018-07-23T05 59 46.181-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/personalizing-campaign-messages-with-point-of-interest-data.html
-sha1: b200cd97a85e960696f9eb284621d4a955279e4e
+sha1: f6627c56f9eda957e9e5583104dbefc2163991be
 topicBrowsingSortDate: 2018-07-23T05:59:46.181-0400
 index: y
 internal: n

@@ -3,7 +3,7 @@ title: Use case: users & security
 seo-title: Use case: users & security
 description: Use case: users & security
 seo-description: Discover access and security management through a step-by-step use case.
-uuid: 153d099f-d11a-4022-9bf7-832326cf4bce
+uuid: 0f5f5329-f194-4d2a-88e2-f8fbb56b7678
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/use-case--users-e-security
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: administration
 content-type: reference
 topic-tags: users-e-security
 cq-template: /apps/help/templates/article-3
-discoiquuid: 6684d9c2-98f1-421a-9954-19265ee30304
+discoiquuid: 1db1e946-1815-413c-acd6-d5dd8449ded5
 firstPublishExternalDate: 2018-07-23T05:53:29.218-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Use case: users & security
 publishexternaldate: 2018-07-23T05 53 29.218-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/use-case--users-e-security.html
-sha1: b049bc6297a4681a4600cedcf1617eab9b6150c9
+sha1: 3a42dd5a3e1ebec4c08c48ed804364cd112e4962
 topicBrowsingSortDate: 2018-07-23T05:53:29.218-0400
 index: y
 internal: n

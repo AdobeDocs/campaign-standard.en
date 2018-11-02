@@ -3,7 +3,7 @@ title: Wait
 seo-title: Wait
 description: Wait
 seo-description: The Wait activity momentarily suspends executing a part of a workflow.
-uuid: e9176d08-0aef-4649-951e-bb3fb805c317
+uuid: e15b3aa6-e284-4b9d-8ea9-a801d4a61e44
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/wait
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: 172b963d-2179-4974-a402-f054505165eb
+discoiquuid: e667d986-68b3-494c-874d-09b466ef1bd1
 firstPublishExternalDate: 2018-07-23T05:57:16.449-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Wait
 publishexternaldate: 2018-07-23T05 57 16.449-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/wait.html
-sha1: 4f4e5519a09c1e448da9972db3e71cba7e0371e2
+sha1: d064723a9dad805bde34e4a7aeb697d5e27403d9
 topicBrowsingSortDate: 2018-07-23T05:57:16.449-0400
 index: y
 internal: n

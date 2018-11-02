@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="audience:channels" name="primaryAudienceTag" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="Creating the direct mail" name="jcr:title" />
-  <meta content="Follow these steps to create a direct mail delivery in Adobe Campaign." name="seoDescription" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="Creating the direct mail" name="navTitle" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:channels;content_type:reference;topic_tags:direct-mail" name="cq:tags" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
   <meta content="8b25c5e1-c9c1-404e-817d-7b6eb5e0ac78" name="jcr:uuid" />
   <meta content="2018-07-23T06:02:55.813-0400" name="publishExternalDate" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="2018-07-23T06:02:55.813-0400" name="lastPublishExternalDate" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
   <meta content="false" name="isReadyForLocalization" />
-  <meta content="2018-07-30T04:54:02.612-0400" name="locHandOffDate" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="https://helpx.adobe.com/campaign/standard/channels/using/creating-the-direct-mail.html" name="publishExternalURL" />
+  <meta content="2018-07-23T06:02:55.813-0400" name="lastPublishExternalDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-07-30T04:54:02.612-0400" name="cq:lastModified" />
   <meta content="light" name="heroGradient" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="2018-03-15T09:01:07.203-0400" name="jcr:created" />
+  <meta content="2018-07-23T06:02:55.859-0400" name="cq:lastReplicated" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="275c0474-b111-4ee6-bf3e-a3cf1d75e3bf" name="jcr:predecessors" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Follow these steps to create a direct mail delivery in Adobe Campaign." name="seoDescription" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="audience:channels" name="primaryAudienceTag" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="" name="jcr:baseVersion" />
   <meta content="2018-07-23T06:02:55.813-0400" name="topicBrowsingSortDate" />
   <meta content="Creating the direct mail" name="jcr:description" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="2018-07-23T06:02:55.859-0400" name="cq:lastReplicated" />
-  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-03-15T09:01:07.203-0400" name="jcr:created" />
   <meta content="admin" name="jcr:createdBy" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="Creating the direct mail" name="jcr:title" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2018-07-30T04:54:02.612-0400" name="locHandOffDate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
   <meta content="2018-07-23T06:02:55.813-0400" name="firstPublishExternalDate" />
-  <meta content="275c0474-b111-4ee6-bf3e-a3cf1d75e3bf" name="jcr:predecessors" />
-  <meta content="2018-07-30T04:54:02.612-0400" name="cq:lastModified" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="https://helpx.adobe.com/campaign/standard/channels/using/creating-the-direct-mail.html" name="publishExternalURL" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:channels;content_type:reference;topic_tags:direct-mail" name="cq:tags" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Creating the direct mail" name="navTitle" />
  </head>
  <body>
   <p>Creating a direct mail delivery is very similar to creating a regular email. The following steps describe the configuration that is specific to this channel. Refer to <a href="../../channels/using/creating-an-email.md">Creating an email</a> for more information on other options.</p> 

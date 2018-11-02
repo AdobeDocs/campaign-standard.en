@@ -1,34 +1,34 @@
 <html>
  <head>
-  <meta content="2018-01-10T15:31:16.669-0500" name="topicBrowsingSortDate" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="2018-01-10T15:31:16.669-0500" name="firstPublishExternalDate" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="2018-01-10T15:31:16.669-0500" name="publishExternalDate" />
   <meta content="products:SG_CAMPAIGN/STANDARD;audience:sending;content_type:reference;topic_tags:about-testing-and-sending" name="cq:tags" />
   <meta content="light" name="heroGradient" />
-  <meta content="8055fefa-24a6-4545-a82d-3213074156ba" name="jcr:uuid" />
-  <meta content="About testing and sending" name="jcr:description" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
   <meta content="2018-01-11T19:01:16.844-0500" name="jcr:created" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="e6498c2c-6806-425f-9df6-f6377f308343" name="jcr:predecessors" />
-  <meta content="audience:sending" name="primaryAudienceTag" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="2018-01-10T15:31:16.669-0500" name="lastPublishExternalDate" />
-  <meta content="About testing and sending" name="navTitle" />
-  <meta content="2018-01-10T15:31:16.679-0500" name="cq:lastModified" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="https://helpx.adobe.com/campaign/standard/sending/using/about-testing-and-sending.html" name="publishExternalURL" />
-  <meta content="About testing and sending" name="jcr:title" />
+  <meta content="Discover the different steps to test and send a message." name="seoDescription" />
+  <meta content="2018-01-10T15:31:16.669-0500" name="publishExternalDate" />
   <meta content="" name="jcr:primaryType" />
   <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="Discover the different steps to test and send a message." name="seoDescription" />
   <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="8055fefa-24a6-4545-a82d-3213074156ba" name="jcr:uuid" />
+  <meta content="2018-01-10T15:31:16.679-0500" name="cq:lastModified" />
+  <meta content="https://helpx.adobe.com/campaign/standard/sending/using/about-testing-and-sending.html" name="publishExternalURL" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="2018-01-10T15:31:16.669-0500" name="lastPublishExternalDate" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="About testing and sending" name="jcr:title" />
+  <meta content="About testing and sending" name="jcr:description" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="e6498c2c-6806-425f-9df6-f6377f308343" name="jcr:predecessors" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-01-10T15:31:16.669-0500" name="topicBrowsingSortDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="About testing and sending" name="navTitle" />
+  <meta content="audience:sending" name="primaryAudienceTag" />
+  <meta content="2018-01-10T15:31:16.669-0500" name="firstPublishExternalDate" />
  </head>
  <body>
   <p>Once you have defined the target and created the content of a message, you need to test it and to approve it before sending it to the main target. To do this: </p> 

@@ -3,7 +3,7 @@ title: Creating a custom profile dimension
 seo-title: Creating a custom profile dimension
 description: Creating a custom profile dimension
 seo-description: 
-uuid: b5749370-b35e-4811-80e8-5d9ea648ff19
+uuid: 86e3d6f5-3bf6-4976-a665-29f20bd345bc
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/reporting/using/creating-a-custom-profile-dimension
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: reporting
 content-type: reference
 topic-tags: customizing-reports
 cq-template: /apps/help/templates/article-3
-discoiquuid: 8823e0c6-6052-4c56-87b3-ef3cff5b9834
+discoiquuid: d10d2479-b1ac-4b5b-b9d0-2b27a304feb9
 firstPublishExternalDate: 2018-07-23T06:00:27.850-0400
 herogradient: light
 isreadyforlocalization: false
@@ -34,7 +34,7 @@ moreHelpPaths: /content/help/en/campaign/standard/reporting/morehelp/customizing
 navTitle: Creating a custom profile dimension
 publishexternaldate: 2018-07-23T06 00 27.850-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/creating-a-custom-profile-dimension.html
-sha1: 9837af654ee833c621a1e684f7b0e3cf7b102d67
+sha1: c0b1059f079f417234f57e43a6902990e5aac22f
 topicBrowsingSortDate: 2018-07-23T06:00:27.850-0400
 index: y
 internal: n

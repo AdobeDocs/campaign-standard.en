@@ -3,7 +3,7 @@ title: Transfer file
 seo-title: Transfer file
 description: Transfer file
 seo-description: The Transfer file activity allows you to receive or send files, test whether there are files present, or list files in Adobe Campaign.
-uuid: 9b5d0f63-8c6a-455e-b039-e1638e8a24ed
+uuid: 60262a85-6163-496d-8386-448aba836458
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/transfer-file
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: b7abee3a-081f-4725-a347-bba13361484f
+discoiquuid: 05a2e29b-54ce-4aac-89e4-8eb04cd92dec
 firstPublishExternalDate: 2018-07-23T05:57:31.551-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Transfer file
 publishexternaldate: 2018-07-23T05 57 31.551-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/transfer-file.html
-sha1: 7845a3fd91a53625c9d79f81f95737795dafd492
+sha1: aa93f0da56262b9c761943277c9d431756f1afdd
 topicBrowsingSortDate: 2018-07-23T05:57:31.551-0400
 index: y
 internal: n

@@ -3,7 +3,7 @@ title: Tracking indicators
 seo-title: Tracking indicators
 description: Tracking indicators
 seo-description: With the Tracking indicators out-of-the-box report, learn about the behavior of your customers when they receive email messages.
-uuid: 44826612-1d29-40e5-a325-3de922667797
+uuid: c512c98d-09aa-4e72-8d9d-6537f9ea55f7
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/reporting/using/tracking-indicators
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 cq-template: /apps/help/templates/article-3
-discoiquuid: 86f6cee0-448b-4a51-9b7f-959939787d99
+discoiquuid: c6ea685c-ba6b-4de4-8df3-df0881c544ff
 firstPublishExternalDate: 2018-07-23T06:00:16.324-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Tracking indicators
 publishexternaldate: 2018-07-23T06 00 16.324-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/tracking-indicators.html
-sha1: eba7c5e61ea4f95330034ff08c04ac2601cb801d
+sha1: 885e594dfd7cd538b26419629936401a8d3208ab
 topicBrowsingSortDate: 2018-07-23T06:00:16.324-0400
 index: y
 internal: n

@@ -4,7 +4,7 @@ seo-title: Push notification advanced options
 description: Push notification advanced options
 seo-description: Learn how to personalize your push notifications with various advanced options.
 page-status-flag: never-activated
-uuid: d23e7f0a-7036-4674-a749-983e72dc9599
+uuid: ed139ba2-e08d-43d6-beb7-db5379b448bf
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/push-notification-advanced-options
 contentOwner: sauviat
@@ -15,7 +15,7 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 cq-template: /apps/help/templates/article-3
-discoiquuid: a61c9232-58ae-4eb0-83d0-8ddaaf7efffa
+discoiquuid: 15715934-c9c0-4d08-a46d-077ac6ecceb4
 firstPublishExternalDate: 2017-11-16T10:43:54.736-0500
 herogradient: light
 isreadyforlocalization: false
@@ -30,7 +30,7 @@ lr-lastreplicatedby: wmyersta@adobe.com
 navTitle: Push notification advanced options
 publishexternaldate: 2017-11-16T10 43 54.736-0500
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/push-notification-advanced-options.html
-sha1: 33c3744a051684d0a2ea66914fe67d89ed0701e3
+sha1: 52cd56e4af37e8410db5e011a29f324f702cf17e
 topicBrowsingSortDate: 2017-11-16T10:43:54.736-0500
 index: y
 internal: n

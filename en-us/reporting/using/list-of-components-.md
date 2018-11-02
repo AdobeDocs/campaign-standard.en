@@ -3,7 +3,7 @@ title: List of components
 seo-title: List of components 
 description: List of components 
 seo-description: Find here the list of every components available in Dynamic reports as well as their definitions.
-uuid: 1635c868-cede-42e4-a841-ae5110c2dd36
+uuid: fce0ec70-0ad3-4dbc-b033-08e758ccafe6
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/reporting/using/list-of-components-
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: reporting
 content-type: reference
 topic-tags: about-reporting
 cq-template: /apps/help/templates/article-3
-discoiquuid: 431eeed4-4377-492f-8e6a-d127a62065e5
+discoiquuid: ceccf4d6-51c2-4594-a97a-39df11a864a2
 firstPublishExternalDate: 2018-07-23T06:00:10.696-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: List of components 
 publishexternaldate: 2018-07-23T06 00 10.696-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/list-of-components-.html
-sha1: fb79d43b92fc09467ced9a55432c7dee836cb552
+sha1: da71fda0db284fac90052ffc75e88b173ebfca24
 topicBrowsingSortDate: 2018-07-23T06:00:10.696-0400
 index: y
 internal: n

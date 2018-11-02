@@ -4,7 +4,7 @@ seo-title: About the scheduling
 description: About the scheduling
 seo-description: Discover the scheduling feature.
 page-status-flag: never-activated
-uuid: 2e6b463f-6250-44f5-8a2f-0fe597214ba4
+uuid: 82072927-c06e-4b80-9ccd-64ebdab95e77
 content-encoding: UTF-8
 aemsrcnodepath: /content/help/en/campaign/standard/sending/using/about-the-scheduling
 contentOwner: sauviat
@@ -16,7 +16,7 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 cq-template: /apps/help/templates/article-3
-discoiquuid: b672b640-3fcc-4610-895b-d2ee59901a49
+discoiquuid: 27e41592-4aff-4ed4-b307-1b3384c22a1e
 firstPublishExternalDate: 2018-01-10T15:31:16.749-0500
 herogradient: light
 jcr-created: 2018-01-24T19 01 37.640-0500
@@ -30,7 +30,7 @@ moreHelpPaths: /content/help/en/campaign/standard/sending/morehelp/sheduling-mes
 navTitle: About the scheduling
 publishexternaldate: 2018-01-23T08 51 07.951-0500
 publishExternalURL: https://helpx.adobe.com/campaign/standard/sending/using/about-the-scheduling.html
-sha1: db084099bd2683eee6aeed612d949c3a13f2649e
+sha1: f4beb4c5bc9a509ee5e2721290ebd8090dfffbf9
 topicBrowsingSortDate: 2018-01-23T08:51:07.951-0500
 index: y
 internal: n

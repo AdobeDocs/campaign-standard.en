@@ -3,7 +3,7 @@ title: Marketing activities
 seo-title: Marketing activities
 description: Marketing activities
 seo-description: Learn how to create and manage your marketing activities: campaigns, email, SMS and push notification deliveries, landing pages, workflows. You can easily design a new activity, edit an existing one, and consult their status and validity.
-uuid: 24f5c4a4-7b64-4842-922c-de5df08b50a8
+uuid: 8c9b5e1b-0718-4665-be2e-369edb83c014
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/start/using/marketing-activities
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: start
 content-type: reference
 topic-tags: marketing-plans
 cq-template: /apps/help/templates/article-3
-discoiquuid: 84e02f7f-a6e4-4567-bcc7-534a90896672
+discoiquuid: e802236d-1e9a-42da-95e8-c289fd0da4bb
 firstPublishExternalDate: 2018-07-23T06:00:44.893-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Marketing activities
 publishexternaldate: 2018-07-23T06 00 44.893-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/start/using/marketing-activities.html
-sha1: 8ea9018259def074d00feb1e785ddf84fe57a197
+sha1: b35a2bd6ee318b98c8d4d1205af5e99ace02232a
 topicBrowsingSortDate: 2018-07-23T06:00:44.893-0400
 index: y
 internal: n

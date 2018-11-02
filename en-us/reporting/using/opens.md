@@ -3,7 +3,7 @@ title: Opens
 seo-title: Opens
 description: Opens
 seo-description: With the Opens report, learn which delivery was the most viewed according to various criteria.
-uuid: ef05eb14-4a22-4cec-919a-2215b8127fc1
+uuid: 2cc47f24-eb4a-40c7-96b0-2538f2d39afb
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/reporting/using/opens
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 cq-template: /apps/help/templates/article-3
-discoiquuid: f9ef9b0e-b6d7-42c5-84f6-c67f962c2352
+discoiquuid: 57fe9a87-8568-4bcc-b1c9-2f5dbeb8e8a8
 firstPublishExternalDate: 2018-07-23T06:00:20.925-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Opens
 publishexternaldate: 2018-07-23T06 00 20.925-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/opens.html
-sha1: 376d2d29121d0c2b90a935f2683d403af1f05769
+sha1: 3628d1fb142dd1bc8081df3cf9c7144b1755ad34
 topicBrowsingSortDate: 2018-07-23T06:00:20.925-0400
 index: y
 internal: n

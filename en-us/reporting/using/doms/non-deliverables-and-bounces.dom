@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="Non-deliverables and bounces" name="jcr:description" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="sauviat" name="contentOwner" />
   <meta content="With the Non-deliverables and bounces out-of-the-box report, learn about the errors that may occurred to your delivery. " name="seoDescription" />
+  <meta content="light" name="heroGradient" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="Non-deliverables and bounces" name="jcr:title" />
+  <meta content="Non-deliverables and bounces" name="navTitle" />
+  <meta content="https://helpx.adobe.com/campaign/standard/reporting/using/non-deliverables-and-bounces.html" name="publishExternalURL" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="5d24ee88-889d-4514-ab33-b72a421f3257" name="jcr:predecessors" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2018-07-27T03:26:52.727-0400" name="locHandOffDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-03-15T09:02:14.651-0400" name="jcr:created" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:reporting;content_type:reference;topic_tags:list-of-reports" name="cq:tags" />
+  <meta content="2018-07-23T06:00:18.168-0400" name="lastPublishExternalDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
   <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-07-23T06:00:18.168-0400" name="publishExternalDate" />
+  <meta content="2018-07-23T06:00:18.168-0400" name="topicBrowsingSortDate" />
+  <meta content="2018-07-27T03:26:52.728-0400" name="cq:lastModified" />
   <meta content="/apps/help/templates/article-3" name="cq:template" />
   <meta content="6e9bda3b-56c3-4d76-ba05-3c6b66e511bc" name="jcr:uuid" />
-  <meta content="Non-deliverables and bounces" name="jcr:title" />
-  <meta content="2018-07-27T03:26:52.727-0400" name="locHandOffDate" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="2018-07-27T03:26:52.728-0400" name="cq:lastModified" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="2018-07-23T06:00:18.168-0400" name="firstPublishExternalDate" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="5d24ee88-889d-4514-ab33-b72a421f3257" name="jcr:predecessors" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="audience:reporting" name="primaryAudienceTag" />
-  <meta content="2018-07-23T06:00:18.219-0400" name="cq:lastReplicated" />
-  <meta content="Non-deliverables and bounces" name="navTitle" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="2018-07-23T06:00:18.168-0400" name="lastPublishExternalDate" />
-  <meta content="2018-07-23T06:00:18.168-0400" name="topicBrowsingSortDate" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:reporting;content_type:reference;topic_tags:list-of-reports" name="cq:tags" />
-  <meta content="https://helpx.adobe.com/campaign/standard/reporting/using/non-deliverables-and-bounces.html" name="publishExternalURL" />
-  <meta content="2018-07-23T06:00:18.168-0400" name="publishExternalDate" />
   <meta content="en_us" name="jcr:language" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="2018-03-15T09:02:14.651-0400" name="jcr:created" />
-  <meta content="light" name="heroGradient" />
+  <meta content="Non-deliverables and bounces" name="jcr:description" />
+  <meta content="2018-07-23T06:00:18.168-0400" name="firstPublishExternalDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="audience:reporting" name="primaryAudienceTag" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-07-23T06:00:18.219-0400" name="cq:lastReplicated" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
  </head>
  <body>
   <p>The <strong>Non-deliverables and bounces</strong> report provides details on all the errors encountered during a delivery.</p> 

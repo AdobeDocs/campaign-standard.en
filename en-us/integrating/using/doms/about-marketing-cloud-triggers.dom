@@ -1,34 +1,34 @@
 <html>
  <head>
-  <meta content="2018-01-10T15:24:16.911-0500" name="firstPublishExternalDate" />
-  <meta content="" name="jcr:primaryType" />
+  <meta content="" name="jcr:baseVersion" />
   <meta content="2018-01-11T19:01:45.733-0500" name="jcr:created" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="" name="jcr:primaryType" />
   <meta content="a6ea2a88-7264-46f7-821e-4bd2def213c6" name="jcr:predecessors" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="2018-01-10T15:24:16.911-0500" name="topicBrowsingSortDate" />
-  <meta content="About Marketing Cloud Triggers" name="jcr:title" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:integrating;content_type:reference;topic_tags:marketing-cloud-triggers" name="cq:tags" />
-  <meta content="About Marketing Cloud Triggers" name="jcr:description" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="2018-01-10T15:24:16.911-0500" name="publishExternalDate" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="2018-01-10T15:24:16.911-0500" name="lastPublishExternalDate" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
   <meta content="About Marketing Cloud Triggers" name="navTitle" />
   <meta content="https://helpx.adobe.com/campaign/standard/integrating/using/about-marketing-cloud-triggers.html" name="publishExternalURL" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="By tracking specific behaviors from customers with Adobe Analytics, you can now send personalized emails to your customers in Adobe Campaign." name="seoDescription" />
   <meta content="audience:integrating" name="primaryAudienceTag" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="2018-01-10T15:24:16.911-0500" name="lastPublishExternalDate" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-01-10T15:24:16.911-0500" name="publishExternalDate" />
   <meta content="4fa5cd14-1570-4405-8057-787636f99c56" name="jcr:uuid" />
-  <meta content="2018-01-10T15:24:16.921-0500" name="cq:lastModified" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-01-10T15:24:16.911-0500" name="topicBrowsingSortDate" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="By tracking specific behaviors from customers with Adobe Analytics, you can now send personalized emails to your customers in Adobe Campaign." name="seoDescription" />
+  <meta content="About Marketing Cloud Triggers" name="jcr:description" />
+  <meta content="About Marketing Cloud Triggers" name="jcr:title" />
+  <meta content="2018-01-10T15:24:16.911-0500" name="firstPublishExternalDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
   <meta content="light" name="heroGradient" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:integrating;content_type:reference;topic_tags:marketing-cloud-triggers" name="cq:tags" />
+  <meta content="2018-01-10T15:24:16.921-0500" name="cq:lastModified" />
  </head>
  <body>
   <p>Integration between the Marketing Cloud Activation core service <strong>Triggers</strong> and Adobe Campaign allows you to send personalized emails to your customers as a reaction to specific behaviors that are tracked on your website by Adobe Analytics (within 15 minutes).</p> 

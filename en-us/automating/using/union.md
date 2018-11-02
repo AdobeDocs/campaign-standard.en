@@ -3,7 +3,7 @@ title: Union
 seo-title: Union
 description: Union
 seo-description: The Union activity allows you to regroup the result of multiple activities into a single target.
-uuid: 317ad66a-3cc1-46df-8879-4f4fd1d0b3db
+uuid: 27cf0db3-1812-4a7e-9592-6c39e54e1d07
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/union
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: c369ec42-a5bd-4718-ab75-ddbd4f04ba0a
+discoiquuid: 27ba2fac-5ecc-4d17-9dc5-2ddb9929d728
 firstPublishExternalDate: 2018-07-23T05:57:00.502-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Union
 publishexternaldate: 2018-07-23T05 57 00.502-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/union.html
-sha1: e5aaf0565495a0cf52229b51a18afd58f793a677
+sha1: 9871adccd1212c170d0599fd6865f47a9922154c
 topicBrowsingSortDate: 2018-07-23T05:57:00.502-0400
 index: y
 internal: n

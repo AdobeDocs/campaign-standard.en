@@ -3,7 +3,7 @@ title: Defining the direct mail audience
 seo-title: Defining the direct mail audience
 description: Defining the direct mail audience
 seo-description: Learn how to define the target for your direct mail delivery.
-uuid: 031cf065-3b13-469c-9335-d41e02933a04
+uuid: 905eb78e-42f4-4071-8399-ba3231a9c7ed
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/defining-the-direct-mail-audience
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: channels
 content-type: reference
 topic-tags: direct-mail
 cq-template: /apps/help/templates/article-3
-discoiquuid: 233195f0-c357-4143-9919-753c655a0ace
+discoiquuid: 59475736-5cc0-4c58-8d8e-f508e8ef29ec
 firstPublishExternalDate: 2018-07-23T06:02:56.722-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Defining the direct mail audience
 publishexternaldate: 2018-07-23T06 02 56.722-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/defining-the-direct-mail-audience.html
-sha1: c3d81af8442f698319354ea4f40fabe6cca582ff
+sha1: 14213fd8036d6274654a7e1a19bbe2539f09f555
 topicBrowsingSortDate: 2018-07-23T06:02:56.722-0400
 index: y
 internal: n

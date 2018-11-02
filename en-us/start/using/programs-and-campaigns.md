@@ -3,7 +3,7 @@ title: Programs and campaigns
 seo-title: Programs and campaigns
 description: Programs and campaigns
 seo-description: In Adobe Campaign, programs and campaigns allow you to group and orchestrate the different marketing activities that are linked to them. Reports on programs and campaigns allow you to analyze their impact.
-uuid: 398eefac-569d-416d-85c7-0eac3e410f71
+uuid: 54d69c64-4547-466b-ae2e-5d37f8993962
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/start/using/programs-and-campaigns
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: start
 content-type: reference
 topic-tags: marketing-plans
 cq-template: /apps/help/templates/article-3
-discoiquuid: 18f2b88d-dae7-4c76-83d5-f8809c4a8eb0
+discoiquuid: 02d14574-94af-435c-b186-39f2e4349614
 firstPublishExternalDate: 2018-07-23T06:00:43.896-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Programs and campaigns
 publishexternaldate: 2018-07-23T06 00 43.896-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/start/using/programs-and-campaigns.html
-sha1: b58c6722be1948858f6849cb23bb935a56ed0244
+sha1: bac3621e767b010eeff3ce44adf437606576e70c
 topicBrowsingSortDate: 2018-07-23T06:00:43.896-0400
 index: y
 internal: n

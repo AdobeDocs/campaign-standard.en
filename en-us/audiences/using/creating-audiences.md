@@ -3,7 +3,7 @@ title: Creating audiences
 seo-title: Creating audiences
 description: Creating audiences
 seo-description: Learn how to create audiences in Adobe Campaign.
-uuid: 757b2d64-2354-4f2f-baf9-10619b2a30a1
+uuid: 6498d8c9-9c31-492f-8774-775cbd683182
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/audiences/using/creating-audiences
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 cq-template: /apps/help/templates/article-3
-discoiquuid: 28714c9f-4ce8-42e8-a448-b78d5d27883b
+discoiquuid: f7e11002-97d2-49c4-a39a-dcaced39f7e2
 firstPublishExternalDate: 2018-07-23T05:55:25.491-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Creating audiences
 publishexternaldate: 2018-07-23T05 55 25.491-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/audiences/using/creating-audiences.html
-sha1: dde6675e77a163c7bde3c1b49e57f11043513a40
+sha1: a646b6bdb4e5ef01d35536ba59d45202aea1097e
 topicBrowsingSortDate: 2018-07-23T05:55:25.491-0400
 index: y
 internal: n

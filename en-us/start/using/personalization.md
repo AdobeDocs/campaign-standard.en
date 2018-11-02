@@ -3,7 +3,7 @@ title: Personalization
 seo-title: Personalization
 description: Personalization
 seo-description: With Adobe Campaign, you can use your customer preferences and data to create personalized campaigns via email, SMS, push notification, or direct mail.
-uuid: d5981b8f-7c34-47c6-906f-28d441a90ba2
+uuid: 4fa3bd23-9dfd-4688-af02-cd4979f70ece
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/start/using/personalization
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: start
 content-type: reference
 topic-tags: about-adobe-campaign
 cq-template: /apps/help/templates/article-3
-discoiquuid: fa2fc7be-3288-4bcf-8662-e92f49f849c6
+discoiquuid: 7c49d4b5-1c60-46eb-8302-d0cfb7c5ccb1
 firstPublishExternalDate: 2018-07-23T06:00:36.281-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Personalization
 publishexternaldate: 2018-07-23T06 00 36.281-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/start/using/personalization.html
-sha1: 42fe466801a7d09a51be466f2cc3ff6bd41c4e34
+sha1: 9877f4a4350614dec6179a80f212a94a2b280f53
 topicBrowsingSortDate: 2018-07-23T06:00:36.281-0400
 index: y
 internal: n

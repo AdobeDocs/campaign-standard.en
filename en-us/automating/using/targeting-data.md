@@ -3,7 +3,7 @@ title: Targeting data
 seo-title: Targeting data
 description: Targeting data
 seo-description: Learn the different ways to target and select the data you need.
-uuid: 8d0c90dc-12e6-4693-b8a4-0c3cb5b2a0e4
+uuid: 2dfb2a94-bdf1-41bf-941c-5dcd7f30f1fa
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/targeting-data
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 cq-template: /apps/help/templates/article-3
-discoiquuid: da45bac0-5dd0-400f-97d0-8a4e5e4b2306
+discoiquuid: 3000dc0a-4bfc-45d6-9644-69023b75967f
 firstPublishExternalDate: 2018-07-23T05:56:50.538-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Targeting data
 publishexternaldate: 2018-07-23T05 56 50.538-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/targeting-data.html
-sha1: aeb7cf223249af9f1005fda8d4f0f31bd060f376
+sha1: d65b352f87d3c63a925c67d6a72bad0c63d09477
 topicBrowsingSortDate: 2018-07-23T05:56:50.538-0400
 index: y
 internal: n

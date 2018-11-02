@@ -1,36 +1,36 @@
 <html>
  <head>
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="en_us" name="jcr:language" />
   <meta content="Learn how to optimize your deliverability with quarantine management." name="seoDescription" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="2017-11-16T11:10:04.800-0500" name="lastPublishExternalDate" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="5a72cdb0-0da3-4133-930d-1f7f7523a65f" name="jcr:uuid" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="2017-11-16T11:10:04.800-0500" name="publishExternalDate" />
-  <meta content="https://helpx.adobe.com/campaign/standard/administration/using/quarantines-management.html" name="publishExternalURL" />
-  <meta content="Quarantines management" name="jcr:description" />
   <meta content="255fcb2a-5d32-4f04-9b9c-dc7b3b4b1207" name="jcr:predecessors" />
-  <meta content="Quarantines management" name="jcr:title" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="light" name="heroGradient" />
-  <meta content="2017-11-28T11:04:03.869-0500" name="cq:lastModified" />
-  <meta content="audience:administration" name="primaryAudienceTag" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="2017-11-16T11:10:04.800-0500" name="topicBrowsingSortDate" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="2017-11-16T11:10:04.800-0500" name="firstPublishExternalDate" />
+  <meta content="2017-11-16T11:10:04.800-0500" name="publishExternalDate" />
   <meta content="2017-11-28T11:04:03.867-0500" name="locHandOffDate" />
-  <meta content="Quarantines management" name="navTitle" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:administration;content_type:reference;topic_tags:configuring-channels" name="cq:tags" />
-  <meta content="2017-11-29T19:03:08.490-0500" name="jcr:created" />
-  <meta content="admin" name="jcr:createdBy" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="sauviat" name="contentOwner" />
   <meta content="/apps/help/templates/article-3" name="cq:template" />
   <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="Quarantines management" name="jcr:title" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="5a72cdb0-0da3-4133-930d-1f7f7523a65f" name="jcr:uuid" />
+  <meta content="2017-11-16T11:10:04.800-0500" name="lastPublishExternalDate" />
+  <meta content="light" name="heroGradient" />
+  <meta content="Quarantines management" name="jcr:description" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="audience:administration" name="primaryAudienceTag" />
+  <meta content="Quarantines management" name="navTitle" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2017-11-28T11:04:03.869-0500" name="cq:lastModified" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="https://helpx.adobe.com/campaign/standard/administration/using/quarantines-management.html" name="publishExternalURL" />
+  <meta content="2017-11-16T11:10:04.800-0500" name="topicBrowsingSortDate" />
+  <meta content="2017-11-29T19:03:08.490-0500" name="jcr:created" />
+  <meta content="2017-11-16T11:10:04.800-0500" name="firstPublishExternalDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:administration;content_type:reference;topic_tags:configuring-channels" name="cq:tags" />
+  <meta content="en_us" name="jcr:language" />
  </head>
  <body>
   <h2>About quarantines</h2>

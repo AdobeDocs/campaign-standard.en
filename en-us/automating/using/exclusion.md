@@ -3,7 +3,7 @@ title: Exclusion
 seo-title: Exclusion
 description: Exclusion
 seo-description: The Exclusion  activity allows you to exclude elements from one population according to certain criteria.
-uuid: ea69933a-8917-421b-9bd2-26d4d250119b
+uuid: 4ecabd67-bae3-4859-8724-86726c69a6c5
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/exclusion
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: ad83f465-e308-40a5-a03d-98f2a6ef5582
+discoiquuid: e87b689c-0e24-4a23-803d-4008895a6d9d
 firstPublishExternalDate: 2018-07-23T05:57:03.300-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Exclusion
 publishexternaldate: 2018-07-23T05 57 03.300-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/exclusion.html
-sha1: 79832c9a2c6a064083c5d2ec7b63987d82453cb3
+sha1: bbc5a19c25b0706e266dc5225c7d0935e30ea051
 topicBrowsingSortDate: 2018-07-23T05:57:03.300-0400
 index: y
 internal: n

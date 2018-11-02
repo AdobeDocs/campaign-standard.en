@@ -1,34 +1,34 @@
 <html>
  <head>
   <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2018-01-10T15:24:12.993-0500" name="topicBrowsingSortDate" />
+  <meta content="https://helpx.adobe.com/campaign/standard/integrating/using/about-points-of-interest-data.html" name="publishExternalURL" />
   <meta content="" name="jcr:baseVersion" />
-  <meta content="2018-01-10T15:24:13.000-0500" name="cq:lastModified" />
-  <meta content="light" name="heroGradient" />
   <meta content="2018-01-10T15:24:12.993-0500" name="lastPublishExternalDate" />
+  <meta content="About Points of Interest data" name="navTitle" />
+  <meta content="light" name="heroGradient" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="sauviat" name="contentOwner" />
   <meta content="2018-01-11T19:01:44.047-0500" name="jcr:created" />
+  <meta content="audience:integrating" name="primaryAudienceTag" />
+  <meta content="About Points of Interest data" name="jcr:description" />
+  <meta content="2018-01-10T15:24:13.000-0500" name="cq:lastModified" />
+  <meta content="2018-01-10T15:24:12.993-0500" name="publishExternalDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="b9613f73-a594-43f0-a595-147f20217d2a" name="jcr:predecessors" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:integrating;content_type:reference;topic_tags:points-of-interest-data-integration" name="cq:tags" />
   <meta content="By collecting the Points of Interest data from your mobile application's subscribers, send location-based marketing messages to your subscribers through the integration in Adobe Campaign." name="seoDescription" />
   <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="About Points of Interest data" name="jcr:title" />
-  <meta content="About Points of Interest data" name="navTitle" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:integrating;content_type:reference;topic_tags:points-of-interest-data-integration" name="cq:tags" />
-  <meta content="2018-01-10T15:24:12.993-0500" name="publishExternalDate" />
-  <meta content="audience:integrating" name="primaryAudienceTag" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="https://helpx.adobe.com/campaign/standard/integrating/using/about-points-of-interest-data.html" name="publishExternalURL" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="b9613f73-a594-43f0-a595-147f20217d2a" name="jcr:predecessors" />
-  <meta content="61abf567-0704-4c80-a568-13b2ad231cf8" name="jcr:uuid" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="2018-01-10T15:24:12.993-0500" name="topicBrowsingSortDate" />
   <meta content="en_us" name="jcr:language" />
-  <meta content="About Points of Interest data" name="jcr:description" />
-  <meta content="" name="jcr:versionHistory" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="About Points of Interest data" name="jcr:title" />
+  <meta content="61abf567-0704-4c80-a568-13b2ad231cf8" name="jcr:uuid" />
   <meta content="2018-01-10T15:24:12.993-0500" name="firstPublishExternalDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="" name="jcr:versionHistory" />
  </head>
  <body>
   <p>In addition to tracking customers' online presence, you may also take advantage of their physical locations. Through integration with Adobe Analytics for Mobile, you can use Adobe Campaign to send location-based marketing messages to your mobile application's subscribers.</p> 

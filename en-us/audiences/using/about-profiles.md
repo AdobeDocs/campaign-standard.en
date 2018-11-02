@@ -3,7 +3,7 @@ title: About profiles
 seo-title: About profiles
 description: About profiles
 seo-description: Contacts are stored as profiles in Campaign database, and updated through their entire life cycle.
-uuid: 0c86d2ab-06b8-41d0-abc8-041e4d19909e
+uuid: 02023114-dd26-44f4-9d37-e2f29ac52553
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/audiences/using/about-profiles
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 cq-template: /apps/help/templates/article-3
-discoiquuid: 80de2e20-c45c-44b6-bc01-375a80ff26d9
+discoiquuid: 3b822683-e42f-4ce9-93e8-06f90bbcb5ca
 firstPublishExternalDate: 2018-07-23T05:55:18.850-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: xmtech@adobe.com
 navTitle: About profiles
 publishexternaldate: 2018-08-01T13 46 29.232-0400
 publishExternalURL: https://helpx.dev.adobe.com/campaign/standard/audiences/using/about-profiles.html
-sha1: 3fffb9c9af2803d6e9a087469225fec6127400e9
+sha1: 34de8e27afe53a6057878097b33ae4d2601fccf2
 topicBrowsingSortDate: 2018-08-01T13:46:29.232-0400
 index: y
 internal: n

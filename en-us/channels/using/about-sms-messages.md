@@ -3,7 +3,7 @@ title: About SMS messages
 seo-title: About SMS messages
 description: About SMS messages
 seo-description: Discover the main specificities of the SMS channel in Adobe Campaign.
-uuid: 90fdea8c-5e1e-4b67-b88a-378bcee1ba46
+uuid: e6f5a673-6446-4290-8d34-062f0db04d23
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/about-sms-messages
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: channels
 content-type: reference
 topic-tags: sms-messages
 cq-template: /apps/help/templates/article-3
-discoiquuid: 3e136e7e-fa38-447b-a35e-724e1be93d83
+discoiquuid: 70d9b31f-3220-4851-a938-5f6428dea063
 firstPublishExternalDate: 2018-07-23T06:02:45.116-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About SMS messages
 publishexternaldate: 2018-07-23T06 02 45.116-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/about-sms-messages.html
-sha1: f0bcfdcec3a04fbd8559a1afc730c5b73edefcf9
+sha1: 04023dea41df17640350a1543de53af75bce25bc
 topicBrowsingSortDate: 2018-07-23T06:02:45.116-0400
 index: y
 internal: n

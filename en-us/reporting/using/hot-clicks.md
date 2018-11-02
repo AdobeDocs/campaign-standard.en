@@ -3,7 +3,7 @@ title: Hot clicks
 seo-title: Hot clicks
 description: Hot clicks
 seo-description: With the Hot clicks out-of-the-box report, learn where your customer clicked on your delivery.
-uuid: ec297d0e-ae98-4fd9-bd10-85b3b3d187c0
+uuid: 51a10485-63fb-4a1b-afde-71250b2179f6
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/reporting/using/hot-clicks
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 cq-template: /apps/help/templates/article-3
-discoiquuid: ebeae0f7-f339-4c0f-9b19-e64fec76d62e
+discoiquuid: 0fea1c66-5a05-47ca-90c5-4f5e4ad153c3
 firstPublishExternalDate: 2018-07-23T06:00:24.030-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Hot clicks
 publishexternaldate: 2018-07-23T06 00 24.030-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/hot-clicks.html
-sha1: 8c8db9df29105f88f57cc29fafa14b58a45645d0
+sha1: 4451a6652bb49f0f883ac0ad974565abd13c6fa1
 topicBrowsingSortDate: 2018-07-23T06:00:24.030-0400
 index: y
 internal: n

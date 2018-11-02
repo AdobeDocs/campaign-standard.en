@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="2018-07-25T09:29:58.264-0400" name="locHandOffDate" />
-  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="About data import and export" name="jcr:description" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="About data import and export" name="jcr:title" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
   <meta content="2018-07-23T05:57:50.716-0400" name="lastPublishExternalDate" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-07-23T05:57:50.716-0400" name="firstPublishExternalDate" />
+  <meta content="d6ddf720-86a5-4a65-bdae-6a61be0aa002" name="jcr:uuid" />
+  <meta content="true" name="jcr:isCheckedOut" />
   <meta content="audience:automating" name="primaryAudienceTag" />
   <meta content="2018-07-23T05:57:50.716-0400" name="publishExternalDate" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:importing-and-exporting-data" name="cq:tags" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="light" name="heroGradient" />
-  <meta content="2018-03-15T09:01:18.132-0400" name="jcr:created" />
-  <meta content="2018-07-23T05:57:50.716-0400" name="topicBrowsingSortDate" />
-  <meta content="About data import and export" name="jcr:title" />
-  <meta content="2018-07-23T05:57:50.829-0400" name="cq:lastReplicated" />
-  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/about-data-import-and-export.html" name="publishExternalURL" />
-  <meta content="2018-07-25T09:29:58.264-0400" name="cq:lastModified" />
-  <meta content="Learn about the different ways to import and export data with Adobe Campaign." name="seoDescription" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="d6ddf720-86a5-4a65-bdae-6a61be0aa002" name="jcr:uuid" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="2018-07-23T05:57:50.716-0400" name="firstPublishExternalDate" />
-  <meta content="About data import and export" name="navTitle" />
   <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="About data import and export" name="jcr:description" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="2018-07-23T05:57:50.716-0400" name="topicBrowsingSortDate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2018-07-25T09:29:58.264-0400" name="cq:lastModified" />
   <meta content="b0ca7e74-36e9-4047-8f8c-0ccaee663cd9" name="jcr:predecessors" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Learn about the different ways to import and export data with Adobe Campaign." name="seoDescription" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:importing-and-exporting-data" name="cq:tags" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="light" name="heroGradient" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-03-15T09:01:18.132-0400" name="jcr:created" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/about-data-import-and-export.html" name="publishExternalURL" />
+  <meta content="2018-07-25T09:29:58.264-0400" name="locHandOffDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="About data import and export" name="navTitle" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-07-23T05:57:50.829-0400" name="cq:lastReplicated" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
  </head>
  <body>
   <p>Depending on your business needs, you have several ways to import and export data with Adobe Campaign:</p> 

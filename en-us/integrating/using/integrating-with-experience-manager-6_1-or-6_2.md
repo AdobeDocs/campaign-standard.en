@@ -4,7 +4,7 @@ seo-title: Integrating with Experience Manager 6.1 or 6.2
 description: Integrating with Experience Manager 6.1 or 6.2
 seo-description: With the Adobe Experience Manager 6.1 or 6.2 integration, you can create content directly in AEM and use it later on in Adobe Campaign.
 page-status-flag: never-activated
-uuid: c6ab1684-3632-4f69-9457-d672685b4459
+uuid: 387d8b21-d3c4-4ab3-8dbc-d54b1dc46ba7
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/integrating/using/integrating-with-experience-manager-6_1-or-6_2
 contentOwner: sauviat
@@ -15,7 +15,7 @@ audience: integrating
 content-type: reference
 topic-tags: adobe-experience-manager
 cq-template: /apps/help/templates/article-3
-discoiquuid: 048c44ae-e633-4f2b-9fef-3c50a317d266
+discoiquuid: fc9adcfc-e441-4d23-a042-24a77a77dd18
 firstPublishExternalDate: 2018-01-10T15:24:00.214-0500
 herogradient: light
 jcr-created: 2018-01-11T19 02 27.046-0500
@@ -28,7 +28,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Integrating with Experience Manager 6.1 or 6.2
 publishexternaldate: 2018-01-10T15 24 00.214-0500
 publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/integrating-with-experience-manager-6_1-or-6_2.html
-sha1: 4113f7f4c214d6eb985f8c58199012239010495c
+sha1: 8ccfc3cba6be36f9297fe7911e0a039e5c8d1bbc
 topicBrowsingSortDate: 2018-01-10T15:24:00.214-0500
 index: y
 internal: n

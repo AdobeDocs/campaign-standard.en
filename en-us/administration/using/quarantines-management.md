@@ -4,7 +4,7 @@ seo-title: Quarantines management
 description: Quarantines management
 seo-description: Learn how to optimize your deliverability with quarantine management.
 page-status-flag: never-activated
-uuid: 67e14663-499f-44e3-b46a-030d303a5652
+uuid: 3f505e38-449c-4fd4-9f61-ceaf68e2fc05
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/quarantines-management
 contentOwner: sauviat
@@ -15,7 +15,7 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 cq-template: /apps/help/templates/article-3
-discoiquuid: 1e66d4f2-7677-4e98-a78d-842f97073315
+discoiquuid: b7126d5f-825f-4a8a-b1bf-2563fff0c236
 firstPublishExternalDate: 2017-11-16T11:10:04.800-0500
 herogradient: light
 isreadyforlocalization: false
@@ -30,7 +30,7 @@ lr-lastreplicatedby: wmyersta@adobe.com
 navTitle: Quarantines management
 publishexternaldate: 2017-11-16T11 10 04.800-0500
 publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/quarantines-management.html
-sha1: 858328be11ae29025cd855aefb0b1b28173e28c0
+sha1: f85406927cdf41608a4b94df97a2b079f8a379ee
 topicBrowsingSortDate: 2017-11-16T11:10:04.800-0500
 index: y
 internal: n

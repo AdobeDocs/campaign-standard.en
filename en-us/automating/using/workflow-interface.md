@@ -3,7 +3,7 @@ title: Workflow interface
 seo-title: Workflow interface
 description: Workflow interface
 seo-description: Learn the interface and options to create, edit and execute a workflow.
-uuid: 6285c00b-5ee4-49c1-91ae-1fbf10dd3fd9
+uuid: 36ac9314-3216-4f95-bcb1-aa2a509b08a6
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/workflow-interface
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 cq-template: /apps/help/templates/article-3
-discoiquuid: cac7fc0d-8bea-4f8a-910e-950be933b25f
+discoiquuid: f7cdc4e1-348e-4bab-8003-ee54e07fdd5d
 firstPublishExternalDate: 2018-07-23T05:56:47.778-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Workflow interface
 publishexternaldate: 2018-07-23T05 56 47.778-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/workflow-interface.html
-sha1: d71dc8c99cd0a6790d1385622f483b869574a53f
+sha1: f9bb532d35e6d14c48b75bfbbf401e8a7df59170
 topicBrowsingSortDate: 2018-07-23T05:56:47.778-0400
 index: y
 internal: n

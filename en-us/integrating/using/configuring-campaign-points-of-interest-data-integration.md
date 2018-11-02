@@ -3,7 +3,7 @@ title: Configuring Campaign-Points of Interest data integration
 seo-title: Configuring Campaign-Points of Interest data integration
 description: Configuring Campaign-Points of Interest data integration
 seo-description: Learn how to configure the Points of Interest data feature in Adobe Campaign to send personalized messages based on your subscribers' location.
-uuid: 893fb4a2-c778-4608-ae52-e2f94b052e58
+uuid: 5baba130-8873-4a5f-bbbf-6eb9e1da41d3
 content-encoding: UTF-8
 aemsrcnodepath: /content/help/en/campaign/standard/integrating/using/configuring-campaign-points-of-interest-data-integration
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
 cq-template: /apps/help/templates/article-3
-discoiquuid: 2222079c-69f6-44df-a8ea-ad59ecb7ed7e
+discoiquuid: 43576a3f-4c84-461d-ad9f-ec45f9320477
 firstPublishExternalDate: 2018-07-23T05:59:44.564-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Configuring Campaign-Points of Interest data integration
 publishexternaldate: 2018-07-23T05 59 44.564-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/configuring-campaign-points-of-interest-data-integration.html
-sha1: 99cbd5748761a46c2877db513b33f96e36d191e6
+sha1: ceecf7d4709c662c23208ae3be982b143bed2c1c
 topicBrowsingSortDate: 2018-07-23T05:59:44.564-0400
 index: y
 internal: n

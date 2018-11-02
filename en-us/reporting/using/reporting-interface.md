@@ -3,7 +3,7 @@ title: Reporting interface
 seo-title: Reporting interface
 description: Reporting interface
 seo-description: Learn more about Dynamic report interface basis and how to navigate through the different tabs and menus.
-uuid: 98f8b2a1-205b-4a71-9e4c-3a4de8a2ecc6
+uuid: c19cbe46-9dc0-4d86-82ff-b5e5534bc379
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/reporting/using/reporting-interface
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: reporting
 content-type: reference
 topic-tags: about-reporting
 cq-template: /apps/help/templates/article-3
-discoiquuid: 5e06e90f-3b75-4b76-9191-c88b3498b144
+discoiquuid: e75813a8-83e7-4f7d-abe7-6968b85e3013
 firstPublishExternalDate: 2018-07-23T06:00:08.455-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Reporting interface
 publishexternaldate: 2018-07-23T06 00 08.455-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/reporting-interface.html
-sha1: d2b32c73f15136186a79d76b3b3a68e95a52aa59
+sha1: bb057db90a6f9cee8b213b6e059aa4c5edc29d4b
 topicBrowsingSortDate: 2018-07-23T06:00:08.455-0400
 index: y
 internal: n

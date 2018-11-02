@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="audience:designing" name="primaryAudienceTag" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="2018-07-23T08:13:18.033-0400" name="lastPublishExternalDate" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:editing-email-content" name="cq:tags" />
-  <meta content="bea48db4-372d-4995-a33d-f11db6559119" name="jcr:uuid" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="2018-07-23T07:30:11.938-0400" name="jcr:created" />
-  <meta content="light" name="heroGradient" />
-  <meta content="https://helpx.adobe.com/campaign/standard/designing/using/about-email-content-design.html" name="publishExternalURL" />
-  <meta content="About email content design" name="navTitle" />
-  <meta content="2018-07-26T02:53:21.606-0400" name="locHandOffDate" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="2018-07-23T08:13:18.033-0400" name="publishExternalDate" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="About email content design" name="jcr:description" />
-  <meta content="2018-07-26T02:53:21.607-0400" name="cq:lastModified" />
-  <meta content="2018-07-23T08:13:18.201-0400" name="cq:lastReplicated" />
-  <meta content="2018-07-23T08:13:18.033-0400" name="topicBrowsingSortDate" />
-  <meta content="About email content design" name="jcr:title" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="Discover the two editors that enable you to design content for your emails." name="seoDescription" />
   <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="87a194f1-d911-4ffe-8470-351f4c9673df" name="jcr:predecessors" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="2018-07-23T05:57:31.327-0400" name="firstPublishExternalDate" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="https://helpx.adobe.com/campaign/standard/designing/using/about-email-content-design.html" name="publishExternalURL" />
   <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Discover the two editors that enable you to design content for your emails." name="seoDescription" />
+  <meta content="2018-07-23T08:13:18.033-0400" name="topicBrowsingSortDate" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="2018-07-23T08:13:18.033-0400" name="publishExternalDate" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="light" name="heroGradient" />
+  <meta content="About email content design" name="jcr:title" />
+  <meta content="About email content design" name="jcr:description" />
+  <meta content="2018-07-26T02:53:21.606-0400" name="locHandOffDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="audience:designing" name="primaryAudienceTag" />
+  <meta content="2018-07-23T05:57:31.327-0400" name="firstPublishExternalDate" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="2018-07-23T07:30:11.938-0400" name="jcr:created" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:editing-email-content" name="cq:tags" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="bea48db4-372d-4995-a33d-f11db6559119" name="jcr:uuid" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="About email content design" name="navTitle" />
+  <meta content="87a194f1-d911-4ffe-8470-351f4c9673df" name="jcr:predecessors" />
+  <meta content="2018-07-23T08:13:18.201-0400" name="cq:lastReplicated" />
+  <meta content="2018-07-23T08:13:18.033-0400" name="lastPublishExternalDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-07-26T02:53:21.607-0400" name="cq:lastModified" />
+  <meta content="sauviat" name="contentOwner" />
  </head>
  <body>
   <p>Adobe Campaign provides you with two editors that allow you to design content for your emails.</p> 

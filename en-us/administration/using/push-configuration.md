@@ -4,7 +4,7 @@ seo-title: Push configuration
 description: Push configuration
 seo-description: Discover how to configure Adobe Campaign to send push notifications.
 page-status-flag: never-activated
-uuid: 80a1d5c1-eab3-496c-9541-49dc95768fbf
+uuid: e600a395-8575-4d6f-b8a1-ea574f4735f1
 content-encoding: UTF-8
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/push-configuration
 contentOwner: sauviat
@@ -15,7 +15,7 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 cq-template: /apps/help/templates/article-3
-discoiquuid: 6b630bc0-26c1-4db9-b937-48e13682b6d1
+discoiquuid: 6d9d3a76-e62e-411d-8351-9b2995f93448
 firstPublishExternalDate: 2017-11-16T10:49:17.792-0500
 herogradient: light
 isreadyforlocalization: false
@@ -30,7 +30,7 @@ lr-lastreplicatedby: wmyersta@adobe.com
 navTitle: Push configuration
 publishexternaldate: 2017-11-16T10 49 17.792-0500
 publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/push-configuration.html
-sha1: af2ef06a91e2a60e21e7c737c226ded9f657f614
+sha1: 3d93be7d3454a25288914cc6f725bf1f2237ab33
 topicBrowsingSortDate: 2017-11-16T10:49:17.792-0500
 index: y
 internal: n

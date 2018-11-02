@@ -3,7 +3,7 @@ title: Step 5: Update the database structure
 seo-title: Step 5: Update the database structure
 description: Step 5: Update the database structure
 seo-description: Discover how to update the Adobe Campaign database.
-uuid: c976d3c0-a28a-42f2-8dfa-9efbcdd4f199
+uuid: 0753a267-1841-4ce1-bc4e-8c0ed5d3f2df
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/developing/using/step-5--update-the-database-structure
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 cq-template: /apps/help/templates/article-3
-discoiquuid: 0ca0855c-6f02-4f86-b6a6-304928becfeb
+discoiquuid: 09f8ba6d-e828-46a2-b3aa-aa4bd08ac0cc
 firstPublishExternalDate: 2018-07-23T05:59:11.768-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Step 5: Update the database structure
 publishexternaldate: 2018-07-23T05 59 11.768-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/step-5--update-the-database-structure.html
-sha1: 4f661094137ebc225013b86559ec999fefafec15
+sha1: e7604cff12976ec26f7a030c618546b81441260b
 topicBrowsingSortDate: 2018-07-23T05:59:11.768-0400
 index: y
 internal: n

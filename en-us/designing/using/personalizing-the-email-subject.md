@@ -3,7 +3,7 @@ title: Personalizing the email subject
 seo-title: Personalizing the email subject
 description: Personalizing the email subject
 seo-description: You can personalize the subject of an email, but also try out different subject lines and get an estimation of its open rate.
-uuid: 4dbf5b9a-ad17-4e88-9f3b-2f47e6ced29e
+uuid: 015f7626-0bf3-40a4-8b7b-b535dee6d57f
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/personalizing-the-email-subject
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-message-and-landing-page-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: a709baf4-e619-499c-864b-becaa8cceea0
+discoiquuid: 9b2200d4-d8ec-4477-93a3-39a1f2f6454e
 firstPublishExternalDate: 2018-06-14T08:43:41.727-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Personalizing the email subject
 publishexternaldate: 2018-06-14T08 43 41.727-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/personalizing-the-email-subject.html
-sha1: 12c7d4f9c31a75fa671b5fcec387ea25180d86aa
+sha1: b73e8a5920210c85051ca836e326850d291e9f96
 topicBrowsingSortDate: 2018-06-14T08:43:41.727-0400
 index: y
 internal: n

@@ -1,34 +1,34 @@
 <html>
  <head>
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="2018-01-10T15:31:16.993-0500" name="topicBrowsingSortDate" />
-  <meta content="https://helpx.adobe.com/campaign/standard/sending/using/about-send-time-optimization.html" name="publishExternalURL" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="About send time optimization" name="jcr:title" />
-  <meta content="2018-01-10T15:31:16.993-0500" name="publishExternalDate" />
-  <meta content="About send time optimization" name="navTitle" />
-  <meta content="2018-01-11T19:01:30.325-0500" name="jcr:created" />
-  <meta content="About send time optimization" name="jcr:description" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:sending;content_type:reference;topic_tags:sheduling-messages" name="cq:tags" />
-  <meta content="2018-01-10T15:31:16.993-0500" name="firstPublishExternalDate" />
-  <meta content="f7b1aa5e-a228-41c9-8a6a-5ddb7d0bca4f" name="jcr:uuid" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
   <meta content="" name="jcr:versionHistory" />
-  <meta content="light" name="heroGradient" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="audience:sending" name="primaryAudienceTag" />
+  <meta content="About send time optimization" name="navTitle" />
   <meta content="Learn how to improve the success rate of your messages." name="seoDescription" />
-  <meta content="7cc709a3-687c-47f5-ad2b-a2ea8eb02a08" name="jcr:predecessors" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-01-11T19:01:30.325-0500" name="jcr:created" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:sending;content_type:reference;topic_tags:sheduling-messages" name="cq:tags" />
+  <meta content="About send time optimization" name="jcr:title" />
   <meta content="2018-01-10T15:31:16.993-0500" name="lastPublishExternalDate" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="f7b1aa5e-a228-41c9-8a6a-5ddb7d0bca4f" name="jcr:uuid" />
   <meta content="2018-01-10T15:31:16.999-0500" name="cq:lastModified" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="audience:sending" name="primaryAudienceTag" />
+  <meta content="2018-01-10T15:31:16.993-0500" name="firstPublishExternalDate" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="https://helpx.adobe.com/campaign/standard/sending/using/about-send-time-optimization.html" name="publishExternalURL" />
+  <meta content="light" name="heroGradient" />
+  <meta content="7cc709a3-687c-47f5-ad2b-a2ea8eb02a08" name="jcr:predecessors" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
   <meta content="" name="jcr:primaryType" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-01-10T15:31:16.993-0500" name="publishExternalDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="About send time optimization" name="jcr:description" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-01-10T15:31:16.993-0500" name="topicBrowsingSortDate" />
  </head>
  <body>
   <p>To improve the success rate of your messages, you can manually define a sending time per recipient. Each profile will receive the message at the specified date and time, whenever possible.</p> 

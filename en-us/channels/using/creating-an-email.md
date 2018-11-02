@@ -3,7 +3,7 @@ title: Creating an email
 seo-title: Creating an email
 description: Creating an email
 seo-description: Follow these steps to create a single-send email in Adobe Campaign.
-uuid: 5879c525-ccc9-41e7-a697-6d6014e7159f
+uuid: e617fd16-769e-4e6d-a434-b92c25fea717
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/creating-an-email
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: channels
 content-type: reference
 topic-tags: email-messages
 cq-template: /apps/help/templates/article-3
-discoiquuid: 1572ccbc-d12d-4439-8bab-51a3cb17eb5e
+discoiquuid: 90004231-b2b4-419f-9f55-edeb88f8e859
 firstPublishExternalDate: 2018-07-23T06:02:41.522-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Creating an email
 publishexternaldate: 2018-07-23T06 02 41.522-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/creating-an-email.html
-sha1: cca1c0e84bedadd32216c800101e06fd113a85a2
+sha1: b315c5549c21602eb9e481e4709cb49b98a37fc2
 topicBrowsingSortDate: 2018-07-23T06:02:41.522-0400
 index: y
 internal: n

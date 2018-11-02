@@ -3,7 +3,7 @@ title: Mobile app delivery
 seo-title: Mobile app delivery
 description: Mobile app delivery
 seo-description: The Mobile app delivery activity allows you to configure sending a single send push notification or a recurring push notification in a workflow.
-uuid: abea8248-e024-4116-85f0-ce2d582d4b65
+uuid: 4dc6045a-d962-4e34-b07a-872174aab1e0
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/mobile-app-delivery
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: channel-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: 43c65d94-3d2f-4c06-af50-6be3f0fe1451
+discoiquuid: 926ec374-9f90-4e08-995e-b710c7411187
 firstPublishExternalDate: 2018-07-23T05:57:21.825-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Mobile app delivery
 publishexternaldate: 2018-07-23T05 57 21.825-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/mobile-app-delivery.html
-sha1: 5f26be20ac6db015d26a5e758d43c3d780217e18
+sha1: 00c957498d925cb7357ec61103133cd03fb5f447
 topicBrowsingSortDate: 2018-07-23T05:57:21.825-0400
 index: y
 internal: n

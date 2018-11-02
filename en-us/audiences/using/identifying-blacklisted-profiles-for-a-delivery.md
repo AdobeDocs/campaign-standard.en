@@ -4,7 +4,7 @@ seo-title: Identifying blacklisted profiles for a delivery
 description: Identifying blacklisted profiles for a delivery
 seo-description: Discover how to identify blacklisted (opt-out) profiles for a delivery.
 page-status-flag: never-activated
-uuid: b8aef42c-ba8f-4df6-9aa7-4e1630e37e08
+uuid: ffffa12e-220a-44a4-9326-89be420eff18
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/audiences/using/identifying-blacklisted-profiles-for-a-delivery
 contentOwner: sauviat
@@ -15,7 +15,7 @@ audience: audiences
 content-type: reference
 topic-tags: understanding-blacklisting-process
 cq-template: /apps/help/templates/article-3
-discoiquuid: 02b6a59a-ed86-43cd-8055-1aea42e50705
+discoiquuid: 4c156158-a6fd-452c-95d6-2c607b19b40a
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 14.674-0400
@@ -26,7 +26,7 @@ jcr-language: en_us
 lochandoffdate: 2018-04-11T07 14 00.607-0400
 navTitle: Identifying blacklisted profiles for a delivery
 publishexternaldate: 2018-03-26
-sha1: be4b74a5ac05cd889184427c1ea9577e3a7addb5
+sha1: 90e47a926cf1508aca145546911fbd40c950d6bd
 index: y
 internal: n
 snippet: y

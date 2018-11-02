@@ -3,7 +3,7 @@ title: Discovering workflows
 seo-title: Discovering workflows
 description: Discovering workflows
 seo-description: Adobe Campaign offers a comprehensive graphical environment that allows you to design complete processes including segmentation, campaign execution, file processing, approvals, and so on.
-uuid: 0a047e39-686d-4a02-8895-e9c880518a1c
+uuid: c4bc45e7-ea1b-42d3-aa56-5771fd30ab0f
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/discovering-workflows
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 cq-template: /apps/help/templates/article-3
-discoiquuid: 4f8f731f-432f-4ecd-b59e-976b61696d46
+discoiquuid: 427ec5e4-f05c-4bdb-942c-d87d0b253bc7
 firstPublishExternalDate: 2018-07-23T05:56:45.726-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Discovering workflows
 publishexternaldate: 2018-07-23T05 56 45.726-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/discovering-workflows.html
-sha1: 15ff04478d0f10ca317df375e8daf40360991ddf
+sha1: 0b22edc8e5f9c0ac719503e3d21dd5449aa6a917
 topicBrowsingSortDate: 2018-07-23T05:56:45.726-0400
 index: y
 internal: n

@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
   <meta content="" name="jcr:primaryType" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:channels;content_type:reference;topic_tags:transactional-messaging" name="cq:tags" />
-  <meta content="Profile transactional messages" name="jcr:title" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="2018-07-23T06:03:06.101-0400" name="firstPublishExternalDate" />
-  <meta content="2018-07-23T06:03:06.101-0400" name="lastPublishExternalDate" />
-  <meta content="7df065c9-9e88-4ede-92b4-826ec53272c7" name="jcr:predecessors" />
-  <meta content="https://helpx.adobe.com/campaign/standard/channels/using/profile-transactional-messages.html" name="publishExternalURL" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="2018-03-15T09:01:17.623-0400" name="jcr:created" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="Profile transactional messages" name="jcr:description" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="light" name="heroGradient" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="2018-07-30T04:54:06.912-0400" name="locHandOffDate" />
-  <meta content="2018-07-23T06:03:06.101-0400" name="publishExternalDate" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="93bb62cc-bf23-4108-820d-076a056cb4e9" name="jcr:uuid" />
-  <meta content="2018-07-30T04:54:06.913-0400" name="cq:lastModified" />
-  <meta content="Learn how to create and publish a profile transactional message." name="seoDescription" />
-  <meta content="Profile transactional messages" name="navTitle" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="2018-07-23T06:03:06.101-0400" name="topicBrowsingSortDate" />
-  <meta content="audience:channels" name="primaryAudienceTag" />
-  <meta content="admin" name="jcr:createdBy" />
   <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="2018-07-23T06:03:06.101-0400" name="firstPublishExternalDate" />
+  <meta content="Profile transactional messages" name="jcr:description" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="7df065c9-9e88-4ede-92b4-826ec53272c7" name="jcr:predecessors" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="https://helpx.adobe.com/campaign/standard/channels/using/profile-transactional-messages.html" name="publishExternalURL" />
+  <meta content="2018-07-30T04:54:06.912-0400" name="locHandOffDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-07-23T06:03:06.101-0400" name="topicBrowsingSortDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="93bb62cc-bf23-4108-820d-076a056cb4e9" name="jcr:uuid" />
   <meta content="2018-07-23T06:03:06.212-0400" name="cq:lastReplicated" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2018-07-30T04:54:06.913-0400" name="cq:lastModified" />
+  <meta content="2018-03-15T09:01:17.623-0400" name="jcr:created" />
+  <meta content="Learn how to create and publish a profile transactional message." name="seoDescription" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="Profile transactional messages" name="jcr:title" />
+  <meta content="2018-07-23T06:03:06.101-0400" name="lastPublishExternalDate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="audience:channels" name="primaryAudienceTag" />
+  <meta content="Profile transactional messages" name="navTitle" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:channels;content_type:reference;topic_tags:transactional-messaging" name="cq:tags" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-07-23T06:03:06.101-0400" name="publishExternalDate" />
  </head>
  <body>
   <p>You can send transactional messages based on customer marketing profiles, which allows you to:</p> 

@@ -1,34 +1,34 @@
 <html> 
  <head> 
   <meta content="2018-01-10T15:19:36.178-0500" name="lastPublishExternalDate" /> 
-  <meta content="9e601121-a053-4154-8f22-879cef12f5ab" name="jcr:predecessors" /> 
-  <meta content="/etc/designs/help" name="cq:designPath" /> 
-  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
-  <meta content="71375a41-e14b-406f-9993-098b2d0fcef0" name="jcr:uuid" /> 
-  <meta content="sauviat" name="contentOwner" /> 
-  <meta content="audience:automating" name="primaryAudienceTag" /> 
-  <meta content="Use case: Importing profiles" name="navTitle" /> 
-  <meta content="2018-01-10T15:19:36.178-0500" name="publishExternalDate" /> 
-  <meta content="admin" name="jcr:createdBy" /> 
-  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
   <meta content="" name="jcr:versionHistory" /> 
-  <meta content="en_us" name="jcr:language" /> 
-  <meta content="light" name="heroGradient" /> 
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
-  <meta content="" name="seoDescription" /> 
-  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
-  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="audience:automating" name="primaryAudienceTag" /> 
   <meta content="2018-01-10T15:19:36.178-0500" name="firstPublishExternalDate" /> 
-  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/use-case--importing-profiles.html" name="publishExternalURL" /> 
-  <meta content="2018-01-10T15:19:36.184-0500" name="cq:lastModified" /> 
+  <meta content="2018-01-10T15:19:36.178-0500" name="publishExternalDate" /> 
   <meta content="2018-01-10T15:19:36.178-0500" name="topicBrowsingSortDate" /> 
   <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
-  <meta content="Use case: Importing profiles" name="jcr:title" /> 
-  <meta content="Use case: Importing profiles" name="jcr:description" /> 
-  <meta content="" name="jcr:baseVersion" /> 
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:importing-and-exporting-data" name="cq:tags" /> 
+  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/use-case--importing-profiles.html" name="publishExternalURL" /> 
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
   <meta content="2018-01-11T19:01:28.220-0500" name="jcr:created" /> 
+  <meta content="Use case: Importing profiles" name="navTitle" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="Use case: Importing profiles" name="jcr:title" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="71375a41-e14b-406f-9993-098b2d0fcef0" name="jcr:uuid" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-01-10T15:19:36.184-0500" name="cq:lastModified" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:importing-and-exporting-data" name="cq:tags" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="9e601121-a053-4154-8f22-879cef12f5ab" name="jcr:predecessors" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="Use case: Importing profiles" name="jcr:description" /> 
   <meta content="" name="jcr:primaryType" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
  </head> 
  <body> 
   <p>Learn how to import profiles with this example. </p> 

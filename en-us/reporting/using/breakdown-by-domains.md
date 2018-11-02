@@ -3,7 +3,7 @@ title: Breakdown by domains
 seo-title: Breakdown by domains
 description: Breakdown by domains
 seo-description: With the Breakdown by domains out-of-the-box report, learn about the performance data of your deliveries depending on each of your customer's domain.
-uuid: 9cd02a97-d401-4dab-9e94-c5997c0160b3
+uuid: 8c93b34a-7fea-4015-acc1-a08c91ee45f9
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/reporting/using/breakdown-by-domains
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 cq-template: /apps/help/templates/article-3
-discoiquuid: b43fef39-6c9c-4bfd-be9b-45359f4e060e
+discoiquuid: 6a3e1f91-8a06-4f61-af1b-4e7d463cb8df
 firstPublishExternalDate: 2018-07-23T06:00:17.068-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Breakdown by domains
 publishexternaldate: 2018-07-23T06 00 17.068-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/breakdown-by-domains.html
-sha1: 49e8c43a8a5c87eab6effdbc2a240e9620d47229
+sha1: 207d292d846c42b1842b05e18226f00c13b3e823
 topicBrowsingSortDate: 2018-07-23T06:00:17.068-0400
 index: y
 internal: n

@@ -3,7 +3,7 @@ title: Receiving alerts when failures happen
 seo-title: Receiving alerts when failures happen
 description: Receiving alerts when failures happen
 seo-description: Learn how to use the alert management system.
-uuid: 8d87b704-168b-4006-81d4-fb705b9c7329
+uuid: f8d7921a-d8da-42df-b42d-0223acc2327e
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/sending/using/receiving-alerts-when-failures-happen
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 cq-template: /apps/help/templates/article-3
-discoiquuid: 7cb10ec4-4197-4f07-92b4-24ec8ef7ab9a
+discoiquuid: fd5384b2-a1f9-4024-aba6-d02b646b6e02
 firstPublishExternalDate: 2018-07-23T06:02:27.354-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Receiving alerts when failures happen
 publishexternaldate: 2018-07-23T06 02 27.354-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/sending/using/receiving-alerts-when-failures-happen.html
-sha1: bb14df8eded426693f10d23a128344cb124fbec4
+sha1: 9894c29406be88ccc57a32dadede38fa5a454428
 topicBrowsingSortDate: 2018-07-23T06:02:27.354-0400
 index: y
 internal: n

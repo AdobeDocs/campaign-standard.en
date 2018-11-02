@@ -4,7 +4,7 @@ seo-title: Integrating with Adobe Marketing Cloud
 description: Integrating with Adobe Marketing Cloud
 seo-description: Learn how integrations with Adobe Marketing Cloud core services and solutions such as Adobe Analytics and Experience Manager can improve your Adobe Campaign strategy with deep insights and convenient content management.
 page-status-flag: never-activated
-uuid: ee6f464c-caba-43df-b1eb-af490cd8b4eb
+uuid: bff07d7e-adab-49d3-85e1-0941bbd5b201
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/start/using/integrating-with-adobe-marketing-cloud
 contentOwner: sauviat
@@ -15,7 +15,7 @@ audience: start
 content-type: reference
 topic-tags: about-adobe-campaign
 cq-template: /apps/help/templates/article-3
-discoiquuid: a4b5362f-50bc-4d9f-b950-bb23e4bc072f
+discoiquuid: 712b51ef-17d2-4128-8026-4a70a4b79486
 firstPublishExternalDate: 2018-01-10T15:27:47.418-0500
 herogradient: light
 jcr-created: 2018-01-11T19 01 13.890-0500
@@ -28,7 +28,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Integrating with Adobe Marketing Cloud
 publishexternaldate: 2018-01-10T15 27 47.418-0500
 publishExternalURL: https://helpx.adobe.com/campaign/standard/start/using/integrating-with-adobe-marketing-cloud.html
-sha1: 11e5e447c5dd5dbb84af7a58c608c55a158cd2df
+sha1: d447fc55256c0318b26e22ef30f405ef7dbdceff
 topicBrowsingSortDate: 2018-01-10T15:27:47.418-0500
 index: y
 internal: n

@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="light" name="heroGradient" />
-  <meta content="2018-06-25T08:45:19.863-0400" name="cq:lastModified" />
-  <meta content="2018-06-14T08:43:50.129-0400" name="publishExternalDate" />
-  <meta content="Adding fragments and content components" name="navTitle" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="2018-06-14T08:43:50.129-0400" name="topicBrowsingSortDate" />
-  <meta content="2018-06-14T08:43:50.129-0400" name="lastPublishExternalDate" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:designing-email-content" name="cq:tags" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="https://helpx.adobe.com/campaign/standard/designing/using/adding-fragments-and-content-components.html" name="publishExternalURL" />
-  <meta content="e764aa4b-759e-4426-90cf-4a9dba28072a" name="jcr:predecessors" />
-  <meta content="Adding fragments and content components" name="jcr:title" />
-  <meta content="" name="jcr:baseVersion" />
   <meta content="sauviat" name="contentOwner" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="Adding fragments and content components" name="jcr:description" />
-  <meta content="2018-06-14T08:43:50.129-0400" name="firstPublishExternalDate" />
-  <meta content="audience:designing" name="primaryAudienceTag" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="light" name="heroGradient" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:designing-email-content" name="cq:tags" />
+  <meta content="https://helpx.adobe.com/campaign/standard/designing/using/adding-fragments-and-content-components.html" name="publishExternalURL" />
+  <meta content="en_us" name="jcr:language" />
   <meta content="2018-06-25T08:45:19.863-0400" name="locHandOffDate" />
   <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="Populate your email with customizable and reusable sets of content." name="seoDescription" />
+  <meta content="Adding fragments and content components" name="jcr:title" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-06-14T08:43:50.129-0400" name="topicBrowsingSortDate" />
+  <meta content="Adding fragments and content components" name="jcr:description" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-06-25T08:45:19.863-0400" name="cq:lastModified" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
   <meta content="2018-03-27T07:29:04.860-0400" name="jcr:created" />
+  <meta content="Adding fragments and content components" name="navTitle" />
   <meta content="2018-06-14T08:43:50.151-0400" name="cq:lastReplicated" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="audience:designing" name="primaryAudienceTag" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2018-06-14T08:43:50.129-0400" name="lastPublishExternalDate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="Populate your email with customizable and reusable sets of content." name="seoDescription" />
   <meta content="13c50c8e-992f-4cd3-a92b-969d9f8b8092" name="jcr:uuid" />
+  <meta content="e764aa4b-759e-4426-90cf-4a9dba28072a" name="jcr:predecessors" />
+  <meta content="2018-06-14T08:43:50.129-0400" name="publishExternalDate" />
   <meta content="false" name="isReadyForLocalization" />
   <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-06-14T08:43:50.129-0400" name="firstPublishExternalDate" />
   <meta content="admin" name="jcr:createdBy" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
  </head>
  <body>
   <p>After adding structure components to your email, you can define their content. To do that, you need to add content components or fragments inside each structure component.</p> 

@@ -1,39 +1,39 @@
 <html>
  <head>
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="Adding a link" name="navTitle" />
   <meta content="" name="jcr:primaryType" />
-  <meta content="2018-03-26T11:10:32.215-0400" name="firstPublishExternalDate" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:editing-message-and-landing-page-content" name="cq:tags" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="2018-03-26T11:10:32.215-0400" name="lastPublishExternalDate" />
-  <meta content="https://helpx.adobe.com/campaign/standard/designing/using/adding-a-link.html" name="publishExternalURL" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="Adding a link" name="jcr:title" />
-  <meta content="2018-03-26T11:10:32.215-0400" name="publishExternalDate" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="light" name="heroGradient" />
-  <meta content="Adding a link" name="jcr:description" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="2018-03-26T11:10:32.215-0400" name="topicBrowsingSortDate" />
-  <meta content="audience:designing" name="primaryAudienceTag" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="Discover the different links you can insert into any page element." name="seoDescription" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="2018-03-26T11:10:33.240-0400" name="cq:lastReplicated" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="45bb43c8-0264-47ca-8b5f-9049d26c0926" name="jcr:predecessors" />
-  <meta content="2018-04-04T11:45:48.366-0400" name="cq:lastModified" />
-  <meta content="2018-04-04T11:45:48.364-0400" name="locHandOffDate" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="595e17bb-053f-4804-a63f-c6fbb16536b5" name="jcr:uuid" />
   <meta content="2018-03-15T09:01:46.691-0400" name="jcr:created" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-03-26T11:10:32.215-0400" name="firstPublishExternalDate" />
+  <meta content="595e17bb-053f-4804-a63f-c6fbb16536b5" name="jcr:uuid" />
+  <meta content="audience:designing" name="primaryAudienceTag" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-03-26T11:10:32.215-0400" name="topicBrowsingSortDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="Adding a link" name="jcr:description" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="2018-04-04T11:45:48.366-0400" name="cq:lastModified" />
+  <meta content="2018-03-26T11:10:32.215-0400" name="publishExternalDate" />
+  <meta content="2018-03-26T11:10:33.240-0400" name="cq:lastReplicated" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:editing-message-and-landing-page-content" name="cq:tags" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="45bb43c8-0264-47ca-8b5f-9049d26c0926" name="jcr:predecessors" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="Adding a link" name="navTitle" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="https://helpx.adobe.com/campaign/standard/designing/using/adding-a-link.html" name="publishExternalURL" />
+  <meta content="Adding a link" name="jcr:title" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-03-26T11:10:32.215-0400" name="lastPublishExternalDate" />
+  <meta content="2018-04-04T11:45:48.364-0400" name="locHandOffDate" />
+  <meta content="Discover the different links you can insert into any page element." name="seoDescription" />
+  <meta content="light" name="heroGradient" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
  </head>
  <body>
   <p>You can insert a link into any page element: image, word, group of words, block of text, etc. </p> 

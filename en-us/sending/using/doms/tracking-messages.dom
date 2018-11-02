@@ -1,40 +1,40 @@
 <html>
  <head>
   <meta content="2018-07-23T06:02:25.531-0400" name="firstPublishExternalDate" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="2018-07-30T04:53:56.138-0400" name="locHandOffDate" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="2018-07-23T06:02:25.570-0400" name="cq:lastReplicated" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="2018-07-30T04:53:56.139-0400" name="cq:lastModified" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="2018-07-23T06:02:25.531-0400" name="lastPublishExternalDate" />
-  <meta content="2018-07-23T06:02:25.531-0400" name="topicBrowsingSortDate" />
-  <meta content="Tracking messages" name="jcr:title" />
-  <meta content="5345474d-a44e-4a41-a793-000e3bcc5f50" name="jcr:uuid" />
-  <meta content="light" name="heroGradient" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="2018-03-15T09:01:51.016-0400" name="jcr:created" />
-  <meta content="audience:sending" name="primaryAudienceTag" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:sending;content_type:reference;topic_tags:sending-and-tracking-messages" name="cq:tags" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="Tracking messages" name="jcr:description" />
-  <meta content="3f0742b5-2c2e-4db2-8129-da1aee31238e" name="jcr:predecessors" />
   <meta content="false" name="isReadyForLocalization" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="Tracking messages" name="navTitle" />
+  <meta content="2018-07-23T06:02:25.531-0400" name="topicBrowsingSortDate" />
+  <meta content="5345474d-a44e-4a41-a793-000e3bcc5f50" name="jcr:uuid" />
+  <meta content="2018-07-23T06:02:25.570-0400" name="cq:lastReplicated" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
   <meta content="2018-07-23T06:02:25.531-0400" name="publishExternalDate" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="Learn how to track the behavior of your delivery recipients." name="seoDescription" />
-  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-07-30T04:53:56.139-0400" name="cq:lastModified" />
   <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="3f0742b5-2c2e-4db2-8129-da1aee31238e" name="jcr:predecessors" />
+  <meta content="2018-07-23T06:02:25.531-0400" name="lastPublishExternalDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="Tracking messages" name="jcr:title" />
   <meta content="https://helpx.adobe.com/campaign/standard/sending/using/tracking-messages.html" name="publishExternalURL" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="Learn how to track the behavior of your delivery recipients." name="seoDescription" />
+  <meta content="2018-07-30T04:53:56.138-0400" name="locHandOffDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-03-15T09:01:51.016-0400" name="jcr:created" />
+  <meta content="light" name="heroGradient" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="Tracking messages" name="navTitle" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:sending;content_type:reference;topic_tags:sending-and-tracking-messages" name="cq:tags" />
+  <meta content="Tracking messages" name="jcr:description" />
+  <meta content="audience:sending" name="primaryAudienceTag" />
+  <meta content="sauviat" name="contentOwner" />
   <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="admin" name="jcr:createdBy" />
  </head>
  <body>
   <h2>About tracking</h2>

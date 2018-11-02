@@ -3,7 +3,7 @@ title: Designing content in Adobe Campaign
 seo-title: Designing content in Adobe Campaign
 description: Designing content in Adobe Campaign
 seo-description: Learn about all the elements that you can define in your contents with Adobe Campaign.
-uuid: c91f091f-416b-4d70-ba67-bb30f709ad96
+uuid: f9b58d30-4ef7-4247-b0b4-2bbfdcbd36ef
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/designing-content-in-adobe-campaign
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: about-content-design
 cq-template: /apps/help/templates/article-3
-discoiquuid: 8e7baf95-d0fc-47a5-9f9e-960969527776
+discoiquuid: fcc27bb4-6210-4803-90c4-2f5eadf0bbc4
 firstPublishExternalDate: 2018-07-23T05:57:25.362-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Designing content in Adobe Campaign
 publishexternaldate: 2018-07-23T08 13 13.079-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/designing-content-in-adobe-campaign.html
-sha1: 439e8f1f4a643545d190507b6a12acdde727fde6
+sha1: 457d306f1fc366136fb3319fe774e2fc44b714eb
 topicBrowsingSortDate: 2018-07-23T08:13:13.079-0400
 index: y
 internal: n

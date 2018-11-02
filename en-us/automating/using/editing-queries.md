@@ -3,7 +3,7 @@ title: Editing queries
 seo-title: Editing queries
 description: Editing queries
 seo-description: Build a population thanks to the predefined filters and rules.
-uuid: 8663d6c3-f941-4cdd-8ce6-9d76e545a611
+uuid: 3c173931-9fd4-4284-96de-6cf5a21dc645
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/editing-queries
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: filtering-data
 cq-template: /apps/help/templates/article-3
-discoiquuid: dba55566-b1b5-417c-a00b-688dd7e1f2b1
+discoiquuid: a0af92df-25e8-4518-9dec-439d854f4039
 firstPublishExternalDate: 2018-07-23T05:57:43.161-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Editing queries
 publishexternaldate: 2018-07-23T05 57 43.161-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/editing-queries.html
-sha1: 610bb605f69b9aaac0c9279aefd8416615ddadc3
+sha1: 0679c9d1106787e27aac48608217ec37acb078bb
 topicBrowsingSortDate: 2018-07-23T05:57:43.161-0400
 index: y
 internal: n

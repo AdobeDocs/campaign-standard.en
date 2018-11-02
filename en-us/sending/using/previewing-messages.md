@@ -3,7 +3,7 @@ title: Previewing messages
 seo-title: Previewing messages
 description: Previewing messages
 seo-description: Learn how to preview a message in the content editor or in the Creative Designer.
-uuid: 83e6cabe-bba3-40ba-b44a-8a4468767cfb
+uuid: 44ec0cf9-9d06-40e0-a376-26d6c08830a6
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/sending/using/previewing-messages
 contentOwner: sauviat
@@ -18,7 +18,7 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 cq-template: /apps/help/templates/article-3
-discoiquuid: 45bbdfc1-e1d3-4d88-aaeb-55a0e9164b19
+discoiquuid: 95137dee-f991-4215-aa8c-4b0c509901e9
 firstPublishExternalDate: 2018-07-23T06:02:08.787-0400
 herogradient: light
 isreadyforlocalization: false
@@ -35,7 +35,7 @@ moreHelpPaths: /content/help/en/campaign/standard/sending/morehelp/preparing-and
 navTitle: Previewing messages
 publishexternaldate: 2018-07-23T06 02 08.787-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/sending/using/previewing-messages.html
-sha1: b6a8a03822772fe09822c114181b0cee4ec6c827
+sha1: 730607cda1c5961b495f3cdd2284a089277ee582
 topicBrowsingSortDate: 2018-07-23T06:02:08.787-0400
 index: y
 internal: n

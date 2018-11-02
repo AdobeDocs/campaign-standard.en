@@ -3,7 +3,7 @@ title: Building a workflow
 seo-title: Building a workflow
 description: Building a workflow
 seo-description: This section details the main principles and best practices for creating a new workflow.
-uuid: 615c3bf7-cdd6-431c-8df9-f214c52b6c74
+uuid: c100514c-bbb3-4eab-ae0e-81e83ee1e926
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/building-a-workflow
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 cq-template: /apps/help/templates/article-3
-discoiquuid: ae3f7d4d-2df4-4071-b925-cd692ecb93ef
+discoiquuid: 51f8ab39-324a-4ee9-9f7d-d31e7a289c0e
 firstPublishExternalDate: 2018-07-23T05:56:49.166-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Building a workflow
 publishexternaldate: 2018-07-23T05 56 49.166-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/building-a-workflow.html
-sha1: 8e02675b4fe9d9b77836193595559a74304f6f08
+sha1: e21ad4f2c046be32746c7462c881f01bb7df547e
 topicBrowsingSortDate: 2018-07-23T05:56:49.166-0400
 index: y
 internal: n

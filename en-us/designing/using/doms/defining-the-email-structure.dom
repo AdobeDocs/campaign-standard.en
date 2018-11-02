@@ -1,40 +1,40 @@
 <html>
  <head>
   <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="2018-07-23T08:13:21.876-0400" name="publishExternalDate" />
-  <meta content="2018-07-23T07:30:13.078-0400" name="jcr:created" />
-  <meta content="2018-07-23T08:13:21.876-0400" name="lastPublishExternalDate" />
-  <meta content="2018-07-26T02:53:25.104-0400" name="cq:lastModified" />
-  <meta content="8e7260fe-6c23-4613-9760-b1e138a999fa" name="jcr:predecessors" />
-  <meta content="Defining the email structure" name="jcr:description" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:editing-email-content" name="cq:tags" />
-  <meta content="2018-07-23T05:57:35.080-0400" name="firstPublishExternalDate" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="2018-07-23T08:13:21.876-0400" name="topicBrowsingSortDate" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="light" name="heroGradient" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="2018-07-23T08:13:21.971-0400" name="cq:lastReplicated" />
-  <meta content="audience:designing" name="primaryAudienceTag" />
-  <meta content="2018-07-26T02:53:25.104-0400" name="locHandOffDate" />
-  <meta content="https://helpx.adobe.com/campaign/standard/designing/using/defining-the-email-structure.html" name="publishExternalURL" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="Defining the email structure" name="navTitle" />
-  <meta content="Discover how to use the Creative Designer in Campaign to shape your emails and populate them with content components." name="seoDescription" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="Defining the email structure" name="jcr:title" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="2fe2acc3-c5ad-48f3-93fd-2b9dc2980917" name="jcr:uuid" />
   <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-07-23T08:13:21.876-0400" name="topicBrowsingSortDate" />
+  <meta content="Defining the email structure" name="navTitle" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="light" name="heroGradient" />
+  <meta content="https://helpx.adobe.com/campaign/standard/designing/using/defining-the-email-structure.html" name="publishExternalURL" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="audience:designing" name="primaryAudienceTag" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-07-23T08:13:21.876-0400" name="publishExternalDate" />
+  <meta content="Defining the email structure" name="jcr:title" />
+  <meta content="2018-07-23T08:13:21.971-0400" name="cq:lastReplicated" />
+  <meta content="2fe2acc3-c5ad-48f3-93fd-2b9dc2980917" name="jcr:uuid" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="" name="jcr:primaryType" />
   <meta content="admin" name="jcr:createdBy" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="8e7260fe-6c23-4613-9760-b1e138a999fa" name="jcr:predecessors" />
+  <meta content="2018-07-26T02:53:25.104-0400" name="locHandOffDate" />
+  <meta content="2018-07-26T02:53:25.104-0400" name="cq:lastModified" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-07-23T08:13:21.876-0400" name="lastPublishExternalDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-07-23T05:57:35.080-0400" name="firstPublishExternalDate" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="Discover how to use the Creative Designer in Campaign to shape your emails and populate them with content components." name="seoDescription" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:editing-email-content" name="cq:tags" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="Defining the email structure" name="jcr:description" />
+  <meta content="2018-07-23T07:30:13.078-0400" name="jcr:created" />
  </head>
  <body>
   <h2>Editing the email structure with the Creative Designer</h2>

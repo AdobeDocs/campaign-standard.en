@@ -1,38 +1,38 @@
 <html> 
  <head> 
-  <meta content="audience:automating" name="primaryAudienceTag" /> 
-  <meta content="386f8513-ed7c-4107-9ab9-77f659178454" name="jcr:uuid" /> 
-  <meta content="sauviat" name="cq:lastReplicatedBy" /> 
-  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="light" name="heroGradient" /> 
   <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:importing-and-exporting-data" name="cq:tags" /> 
-  <meta content="sauviat" name="contentOwner" /> 
-  <meta content="en_us" name="jcr:language" /> 
-  <meta content="2018-02-15T06:14:48.508-0500" name="firstPublishExternalDate" /> 
+  <meta content="Using import templates" name="jcr:title" /> 
   <meta content="2018-03-26T06:13:55.132-0400" name="cq:lastReplicated" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
   <meta content="Deactivate" name="cq:lastReplicationAction" /> 
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-02-15T06:14:48.508-0500" name="firstPublishExternalDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-03-15T09:02:33.818-0400" name="jcr:created" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="Import templates allow to reduce the settings needed and to import data faster." name="seoDescription" /> 
+  <meta content="sauviat" name="cq:lastReplicatedBy" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="386f8513-ed7c-4107-9ab9-77f659178454" name="jcr:uuid" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="" name="publishExternalURL" /> 
+  <meta content="Using import templates" name="navTitle" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
+  <meta content="2018-03-26T06:13:55.094-0400" name="unpublishExternalDate" /> 
+  <meta content="audience:automating" name="primaryAudienceTag" /> 
+  <meta content="2018-03-14T17:34:30.034-0400" name="locHandOffDate" /> 
   <meta content="Using import templates" name="jcr:description" /> 
   <meta content="2018-03-26T06:13:55.101-0400" name="cq:lastModified" /> 
-  <meta content="" name="jcr:versionHistory" /> 
-  <meta content="" name="jcr:baseVersion" /> 
-  <meta content="admin" name="jcr:createdBy" /> 
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
-  <meta content="" name="publishExternalURL" /> 
-  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
-  <meta content="true" name="jcr:isCheckedOut" /> 
-  <meta content="2018-03-26T06:13:55.094-0400" name="unpublishExternalDate" /> 
-  <meta content="2018-03-15T09:02:33.818-0400" name="jcr:created" /> 
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
   <meta content="297755be-f053-44e1-88ca-7c3c8f8b6932" name="jcr:predecessors" /> 
-  <meta content="" name="jcr:primaryType" /> 
-  <meta content="light" name="heroGradient" /> 
-  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
-  <meta content="Import templates allow to reduce the settings needed and to import data faster." name="seoDescription" /> 
+  <meta content="en_us" name="jcr:language" /> 
   <meta content="2018-02-15T06:14:48.508-0500" name="lastPublishExternalDate" /> 
-  <meta content="2018-03-14T17:34:30.034-0400" name="locHandOffDate" /> 
-  <meta content="Using import templates" name="jcr:title" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
   <meta content="false" name="isReadyForLocalization" /> 
-  <meta content="/etc/designs/help" name="cq:designPath" /> 
-  <meta content="Using import templates" name="navTitle" /> 
  </head> 
  <body> 
   <h2>About import templates</h2> 

@@ -3,7 +3,7 @@ title: Query
 seo-title: Query
 description: Query
 seo-description: The Query activity allows you to filter and extract a population of elements from the Adobe Campaign database.
-uuid: aa1c5e85-6100-4245-832e-3aed2861250c
+uuid: a0aead90-2ffc-4c6e-88e8-5f2f27ae15e4
 content-encoding: UTF-8
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/query
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: 2647ca82-5ff8-4c04-aae5-f18fa809ede1
+discoiquuid: e371e41d-001f-48a4-a2fa-e271cd204e22
 firstPublishExternalDate: 2018-07-23T05:56:56.646-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Query
 publishexternaldate: 2018-07-23T05 56 56.646-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/query.html
-sha1: bf2409012498bc2937ca890a05633fc829564878
+sha1: b954e0042a7d1ed7ad03158d683adf65c2518f51
 topicBrowsingSortDate: 2018-07-23T05:56:56.646-0400
 index: y
 internal: n

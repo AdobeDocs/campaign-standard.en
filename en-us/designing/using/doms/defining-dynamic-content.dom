@@ -1,40 +1,40 @@
 <html>
  <head>
   <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="2018-06-14T08:43:46.260-0400" name="cq:lastReplicated" />
-  <meta content="Defining dynamic content" name="navTitle" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="Follow these steps to display different contents dynamically to the user according to the conditions defined through the Adobe Campaign expression editor." name="seoDescription" />
-  <meta content="19a17ec6-7cc7-4cbb-9116-4a491d23821e" name="jcr:predecessors" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:versionHistory" />
   <meta content="false" name="isReadyForLocalization" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="Defining dynamic content" name="jcr:description" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="fc89d889-ba99-457f-8235-684f414bc813" name="jcr:uuid" />
+  <meta content="2018-06-25T08:45:12.478-0400" name="cq:lastModified" />
+  <meta content="audience:designing" name="primaryAudienceTag" />
   <meta content="2018-06-14T08:43:46.226-0400" name="topicBrowsingSortDate" />
+  <meta content="2018-06-25T08:45:12.478-0400" name="locHandOffDate" />
+  <meta content="light" name="heroGradient" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Defining dynamic content" name="jcr:title" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-06-14T08:43:46.226-0400" name="lastPublishExternalDate" />
+  <meta content="Defining dynamic content" name="navTitle" />
+  <meta content="Defining dynamic content" name="jcr:description" />
+  <meta content="Follow these steps to display different contents dynamically to the user according to the conditions defined through the Adobe Campaign expression editor." name="seoDescription" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
   <meta content="https://helpx.adobe.com/campaign/standard/designing/using/defining-dynamic-content.html" name="publishExternalURL" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:editing-message-and-landing-page-content" name="cq:tags" />
   <meta content="2018-06-14T08:43:46.226-0400" name="publishExternalDate" />
   <meta content="2018-06-14T08:43:46.226-0400" name="firstPublishExternalDate" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="light" name="heroGradient" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:editing-message-and-landing-page-content" name="cq:tags" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="2018-06-14T08:43:46.226-0400" name="lastPublishExternalDate" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="2018-06-25T08:45:12.478-0400" name="locHandOffDate" />
-  <meta content="2018-06-25T08:45:12.478-0400" name="cq:lastModified" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="2018-03-15T09:02:13.738-0400" name="jcr:created" />
-  <meta content="Defining dynamic content" name="jcr:title" />
-  <meta content="audience:designing" name="primaryAudienceTag" />
-  <meta content="fc89d889-ba99-457f-8235-684f414bc813" name="jcr:uuid" />
-  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-06-14T08:43:46.260-0400" name="cq:lastReplicated" />
+  <meta content="" name="jcr:primaryType" />
   <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-03-15T09:02:13.738-0400" name="jcr:created" />
+  <meta content="19a17ec6-7cc7-4cbb-9116-4a491d23821e" name="jcr:predecessors" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="" name="jcr:baseVersion" />
  </head>
  <body>
   <p>You can define different contents which will be displayed dynamically to the user according to the conditions defined via the expression editor. For example, from the same email, you can ensure that the recipients receive a different message according to their age range.</p> 

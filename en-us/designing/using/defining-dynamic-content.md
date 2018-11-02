@@ -3,7 +3,7 @@ title: Defining dynamic content
 seo-title: Defining dynamic content
 description: Defining dynamic content
 seo-description: Follow these steps to display different contents dynamically to the user according to the conditions defined through the Adobe Campaign expression editor.
-uuid: ad45d8fd-b904-41b8-bdbe-982dc6059b51
+uuid: 3f01fe9e-8b10-407b-99b2-535151e2b31f
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/defining-dynamic-content
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-message-and-landing-page-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: ddcc2a12-5b6f-46d6-8304-8bc683fde141
+discoiquuid: d1c0e367-9681-438a-a93f-4f3238932857
 firstPublishExternalDate: 2018-06-14T08:43:46.226-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Defining dynamic content
 publishexternaldate: 2018-06-14T08 43 46.226-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/defining-dynamic-content.html
-sha1: f62d012bc4151a1de34796e779dc4b0622ff2380
+sha1: b4d5a77b3f28cca021251af14ab9af735db32d9e
 topicBrowsingSortDate: 2018-06-14T08:43:46.226-0400
 index: y
 internal: n

@@ -3,7 +3,7 @@ title: External signal
 seo-title: External signal
 description: External signal
 seo-description: The External signal activity triggers a workflow when some conditions are successfully met in another workflow.
-uuid: 03804e38-4c1a-4dfd-a053-4306125442ce
+uuid: fe5a559f-857e-40bf-8b37-89e2d292ed06
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/external-signal
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: 49507093-e647-4efb-9e71-24a378684904
+discoiquuid: 396d1fa5-ee12-4e2e-a484-ec9a7e90c728
 firstPublishExternalDate: 2018-07-23T05:57:17.399-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: External signal
 publishexternaldate: 2018-07-23T05 57 17.399-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/external-signal.html
-sha1: b3f43b5d14f945f903e0240da8303f32ad240df8
+sha1: 4778ad5914aa2707b32d8c30b9222a8d99308ed9
 topicBrowsingSortDate: 2018-07-23T05:57:17.399-0400
 index: y
 internal: n

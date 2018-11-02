@@ -3,7 +3,7 @@ title: Indicator calculation
 seo-title: Indicator calculation
 description: Indicator calculation
 seo-description: Understand the results of your reports with a list of every metric's formula.
-uuid: 17dbbb9a-637f-4071-8603-4405762bb1d6
+uuid: 6ce55182-1094-4458-be53-5e69ab2bd5b9
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/reporting/using/indicator-calculation
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: reporting
 content-type: reference
 topic-tags: about-reporting
 cq-template: /apps/help/templates/article-3
-discoiquuid: 13da0791-a2ee-4ea2-b795-fe728f468b9e
+discoiquuid: edc492c2-afd3-4750-afee-0c9179766fd4
 firstPublishExternalDate: 2018-07-23T06:00:11.871-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Indicator calculation
 publishexternaldate: 2018-07-23T06 00 11.871-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/indicator-calculation.html
-sha1: 94fbe6bddae3106eb9fc1d64ca214770475ab92d
+sha1: 547152df9099b3faf7fdbc7bec421e9e3a686331
 topicBrowsingSortDate: 2018-07-23T06:00:11.871-0400
 index: y
 internal: n

@@ -3,7 +3,7 @@ title: Adding a personalization field
 seo-title: Adding a personalization field
 description: Adding a personalization field
 seo-description: Learn how to insert a field from the database into your message such as the recipient's first name.
-uuid: 182c9868-9616-4fd9-b624-b71a4ae44c92
+uuid: 3666eddf-9ecf-4e40-bd0a-4d2ac9efb89b
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/adding-a-personalization-field
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-message-and-landing-page-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: cf1c74b0-8231-41e6-8cf6-f7accd47a2b1
+discoiquuid: 8529d7c6-c7a5-49cd-aaee-355d96d5fe30
 firstPublishExternalDate: 2018-06-14T08:43:43.752-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Adding a personalization field
 publishexternaldate: 2018-06-14T08 43 43.752-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/adding-a-personalization-field.html
-sha1: 019c4aa792b7f3d43145ae6c35a66bed0f697cd7
+sha1: 30ec269e23d8bbc5e77193e8baf6120bfe2f0e70
 topicBrowsingSortDate: 2018-06-14T08:43:43.752-0400
 index: y
 internal: n

@@ -3,7 +3,7 @@ title: Computing the sending date
 seo-title: Computing the sending date
 description: Computing the sending date
 seo-description: Discover how to send a message at a specific date and time.
-uuid: 88d65c66-7b68-4776-a854-efba2aacdaa6
+uuid: a9fd998e-62ab-467f-8b83-684e2e56c303
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/sending/using/computing-the-sending-date
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 cq-template: /apps/help/templates/article-3
-discoiquuid: c9f5489a-5fdb-4694-9809-602e79aa5d8b
+discoiquuid: 21ebddec-32ad-4355-adf3-dfd8f059c401
 firstPublishExternalDate: 2018-07-23T06:02:22.803-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Computing the sending date
 publishexternaldate: 2018-07-23T06 02 22.803-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/sending/using/computing-the-sending-date.html
-sha1: 8d498ae63d994281ceed021d98a3b50bc75c10fc
+sha1: 90f91aceb860bd781d9a6cc39a25ac3048049ff0
 topicBrowsingSortDate: 2018-07-23T06:02:22.803-0400
 index: y
 internal: n

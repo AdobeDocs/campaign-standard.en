@@ -3,7 +3,7 @@ title: Subscription Services
 seo-title: Subscription Services
 description: Subscription Services
 seo-description: The Subscription Services activity allows you to take profiles in mass and subscribe them to a service or unsubscribe them from a service.
-uuid: 62646745-1409-47ab-8141-2583c1dad937
+uuid: 9c649c55-c15d-4134-9e67-2740bdb6861a
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/subscription-services
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: c9f03edb-49eb-49d3-b9e3-6b46e9bf8343
+discoiquuid: f0d243f7-3fd6-4d63-9c32-ad6461dee54f
 firstPublishExternalDate: 2018-07-23T05:57:40.308-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Subscription Services
 publishexternaldate: 2018-07-23T05 57 40.308-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/subscription-services.html
-sha1: 94a4a0e218df0d1a0d5a5d712a6d7710c4c6f3e4
+sha1: e7370ce857bfd053693d6dfab1343821ad1bfda2
 topicBrowsingSortDate: 2018-07-23T05:57:40.308-0400
 index: y
 internal: n

@@ -3,7 +3,7 @@ title: Previewing and inbox rendering
 seo-title: Previewing and inbox rendering
 description: Previewing and inbox rendering
 seo-description: 
-uuid: e0ebc7af-0a7a-478a-be25-77e47a6c752b
+uuid: 2c1a57fc-4a4c-458f-93ad-af177d79c577
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/previewing-and-inbox-rendering
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: designing-email-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: d2612008-5c5b-4135-bce7-9fc038a92284
+discoiquuid: 618aaabe-d523-4bc8-b2cb-ccc407f6e8c1
 firstPublishExternalDate: 2018-05-07T05:07:11.402-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,7 +32,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Previewing and inbox rendering
 publishexternaldate: 2018-05-07T05 07 11.402-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/previewing-and-inbox-rendering.html
-sha1: c0e6da8e1e0236eafb9bb162f2d4048df322a624
+sha1: 2aa7faec581a3fbc8dcac87c64a922f420e62ef7
 topicBrowsingSortDate: 2018-05-07T05:07:11.402-0400
 index: y
 internal: n

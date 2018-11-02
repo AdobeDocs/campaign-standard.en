@@ -3,7 +3,7 @@ title: Creating a new template
 seo-title: Creating a new template
 description: Creating a new template
 seo-description: Learn how to create a new template, from existing out-of-box activity templates for email, SMS, push notification deliveries, etc.
-uuid: eea016f6-6565-438f-859e-75a3e85668de
+uuid: 74b8234e-e2fd-4a4f-89e9-53715d9612bd
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/start/using/creating-a-new-template
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: start
 content-type: reference
 topic-tags: managing-templates
 cq-template: /apps/help/templates/article-3
-discoiquuid: c962ae30-64e3-4bb2-8a8f-1c6b08858536
+discoiquuid: 1cda6eb3-e439-4032-8957-331d5e668c0e
 firstPublishExternalDate: 2018-07-23T06:00:48.009-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Creating a new template
 publishexternaldate: 2018-07-23T06 00 48.009-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/start/using/creating-a-new-template.html
-sha1: 2ec04a5a1de297be522fb967dad8f6db09c88b3c
+sha1: 6bf54ad77accbdc4c5f8ff48c91f52bf0f04acab
 topicBrowsingSortDate: 2018-07-23T06:00:48.009-0400
 index: y
 internal: n

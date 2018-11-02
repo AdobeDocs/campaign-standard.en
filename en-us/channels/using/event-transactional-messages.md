@@ -3,7 +3,7 @@ title: Event transactional messages
 seo-title: Event transactional messages
 description: Event transactional messages
 seo-description: Learn how to create and publish an event transactional message.
-uuid: e04351c4-68e7-4708-a8e6-c846a2d55c0f
+uuid: b78f047b-ae1c-42d5-bb36-4408e65913fc
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/event-transactional-messages
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 cq-template: /apps/help/templates/article-3
-discoiquuid: 6e116eb1-d4db-4975-bf33-b28b2dd82718
+discoiquuid: f28ee10d-070b-4a2c-85ac-f9f03042fc94
 firstPublishExternalDate: 2018-07-23T06:02:59.976-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Event transactional messages
 publishexternaldate: 2018-07-23T06 02 59.976-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/event-transactional-messages.html
-sha1: 65e8bfb20da75953ab515f2aa09040d024d977d6
+sha1: 61249259613b48669887c7b3f7b61df5e103400a
 topicBrowsingSortDate: 2018-07-23T06:02:59.976-0400
 index: y
 internal: n

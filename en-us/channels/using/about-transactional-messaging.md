@@ -3,7 +3,7 @@ title: About transactional messaging
 seo-title: About transactional messaging
 description: About transactional messaging
 seo-description: Discover the different types of transactional messages you can send and how they are used in Adobe Campaign.
-uuid: bcbd5f50-76f7-45b6-925c-e573d7525d32
+uuid: 005b4714-e0c9-4d75-bfbb-a58be5a5981d
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/about-transactional-messaging
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 cq-template: /apps/help/templates/article-3
-discoiquuid: 896f5fbe-db73-4464-bcdf-cb4e563c1fb4
+discoiquuid: f9c6f6bc-3910-4cfd-b96b-bac0aa925ea8
 firstPublishExternalDate: 2018-07-23T06:02:59.083-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About transactional messaging
 publishexternaldate: 2018-07-23T06 02 59.083-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/about-transactional-messaging.html
-sha1: 2209f2649f0546f1f5d079e2d47896bb1402a613
+sha1: f75e5bf615f212a726fec12a0cad24647fc36c41
 topicBrowsingSortDate: 2018-07-23T06:02:59.083-0400
 index: y
 internal: n

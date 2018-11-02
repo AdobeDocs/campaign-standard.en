@@ -3,7 +3,7 @@ title: Intersection
 seo-title: Intersection
 description: Intersection
 seo-description: The Intersection activity allows you to keep only the elements common to the different inbound populations in the activity.
-uuid: 19b5f692-812f-43d0-af65-c854543d248c
+uuid: e479642b-61cf-45be-89ef-a9231cd7c75a
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/intersection
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: 66748f02-83a3-4d7c-85c7-d389b9cc1cbe
+discoiquuid: 93020aca-3b17-4083-80a4-a6f74f8d2f72
 firstPublishExternalDate: 2018-07-23T05:57:02.136-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Intersection
 publishexternaldate: 2018-07-23T05 57 02.136-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/intersection.html
-sha1: bf540b794818b08ff5991e7aabce0b361176a22c
+sha1: f15392b8a0706e358ff99493722cf5a3b49982b1
 topicBrowsingSortDate: 2018-07-23T05:57:02.136-0400
 index: y
 internal: n

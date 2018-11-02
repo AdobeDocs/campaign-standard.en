@@ -3,7 +3,7 @@ title: Organizational and geographical units
 seo-title: Organizational and geographical units
 description: Organizational and geographical units
 seo-description: Define your users' access levels using organizational and geographical units.
-uuid: 62709249-9135-4c87-8d6f-6ad597ea8da6
+uuid: 75926468-22c7-4c66-9932-e220a6258267
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/organizational-and-geographical-units
 contentOwner: sauviat
@@ -18,7 +18,7 @@ audience: administration
 content-type: reference
 topic-tags: users-e-security
 cq-template: /apps/help/templates/article-3
-discoiquuid: 5079fc2d-d58a-440f-ae7e-5966f0e2e7b2
+discoiquuid: 0de76192-b90d-4a59-84ac-8743b7f059c9
 firstPublishExternalDate: 2018-07-23T05:53:23.116-0400
 firstpublishinternaldate: 2018-07-27T13 19 45.456-0400
 herogradient: light
@@ -39,7 +39,7 @@ publishexternaldate: 2018-07-27T13 19 45.456-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/organizational-and-geographical-units.html
 publishinternaldate: 2018-07-27T13 19 45.456-0400
 publishinternalurl: https //helpx-internal.corp.adobe.com/content/help/en/campaign/standard/administration/using/organizational-and-geographical-units.html
-sha1: e019f2a76a5062948e4d62c4a4c862b7432ebaf3
+sha1: df91d583678f2461faa7f6975abf8da18e3d7fc3
 topicBrowsingSortDate: 2018-07-27T13:19:45.456-0400
 index: y
 internal: n

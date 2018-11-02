@@ -4,7 +4,7 @@ seo-title: rn
 description: null
 seo-description: null
 page-status-flag: never-activated
-uuid: d74f148e-bdda-4486-8415-73f804e81941
+uuid: 19505047-1c59-4eea-be62-da03731fd364
 content-encoding: ISO-8859-1
 acrolinxstatus: not_checked
 aemsrcnodepath: /content/help/en/campaign/standard/rn/rn
@@ -13,7 +13,7 @@ cq-designpath: /etc/designs/help
 cq-lastmodified: 2018-02-15T11 23 02.033-0500
 cq-lastmodifiedby: sauviat
 cq-template: /apps/help/templates/article-3
-discoiquuid: 132ceec5-a7ed-4e66-b27a-aa8e4d52f539
+discoiquuid: 8a9d04a4-86bb-4c1d-a026-6ed4a6731f6e
 donotlocalize: false
 firstPublishExternalDate: 2018-02-15T11:23:02.023-0500
 herogradient: light
@@ -28,7 +28,7 @@ pagelayout: video
 publishexternaldate: 2018-02-15T11 23 02.023-0500
 publishExternalURL: https://helpx.adobe.com/campaign/standard/rn/rn.html
 redirecttarget: /content/help/en/campaign/standard/rn/using/release-notes
-sha1: 50bcee34e61e28803dfe1b024bf10856ca0e5954
+sha1: 6bb321198c89411ee647cf2741ba210959639502
 sidecolumn: left
 topicBrowsingSortDate: 2018-02-15T11:23:02.023-0500
 index: y

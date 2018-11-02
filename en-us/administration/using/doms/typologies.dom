@@ -1,37 +1,37 @@
 <html> 
  <head> 
-  <meta content="Improve your deliveries using typology rules." name="seoDescription" /> 
-  <meta content="sauviat" name="contentOwner" /> 
-  <meta content="" name="jcr:baseVersion" /> 
-  <meta content="2017-11-29T19:03:43.623-0500" name="jcr:created" /> 
-  <meta content="13dd150e-5a68-4ab0-b617-280b7c07db6e" name="jcr:uuid" /> 
-  <meta content="https://helpx.adobe.com/campaign/standard/administration/using/typologies.html" name="publishExternalURL" /> 
-  <meta content="2017-11-16T10:52:26.229-0500" name="topicBrowsingSortDate" /> 
-  <meta content="2017-11-16T10:52:26.229-0500" name="firstPublishExternalDate" /> 
-  <meta content="2017-11-16T10:52:26.229-0500" name="lastPublishExternalDate" /> 
-  <meta content="audience:administration" name="primaryAudienceTag" /> 
   <meta content="products:SG_CAMPAIGN/STANDARD;audience:administration;content_type:reference;topic_tags:configuring-channels" name="cq:tags" /> 
   <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
-  <meta content="false" name="isReadyForLocalization" /> 
-  <meta content="/etc/designs/help" name="cq:designPath" /> 
-  <meta content="light" name="heroGradient" /> 
-  <meta content="2017-11-16T10:52:26.229-0500" name="publishExternalDate" /> 
-  <meta content="2017-11-28T11:04:14.217-0500" name="cq:lastModified" /> 
-  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2017-11-16T10:52:26.229-0500" name="firstPublishExternalDate" /> 
   <meta content="/content/help/en/campaign/standard/administration/morehelp/configuring-channels;/content/help/en/campaign/standard/administration/morehelp/configuring-channels" name="moreHelpPaths" /> 
-  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
-  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
-  <meta content="Typologies" name="jcr:description" /> 
-  <meta content="admin" name="jcr:createdBy" /> 
-  <meta content="" name="jcr:primaryType" /> 
-  <meta content="en_us" name="jcr:language" /> 
-  <meta content="Typologies" name="jcr:title" /> 
-  <meta content="true" name="jcr:isCheckedOut" /> 
-  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
-  <meta content="3da198f4-0f93-4f04-bc0c-97440d5d964c" name="jcr:predecessors" /> 
-  <meta content="" name="jcr:versionHistory" /> 
-  <meta content="Typologies" name="navTitle" /> 
   <meta content="2017-11-28T11:04:14.215-0500" name="locHandOffDate" /> 
+  <meta content="2017-11-16T10:52:26.229-0500" name="publishExternalDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2017-11-16T10:52:26.229-0500" name="lastPublishExternalDate" /> 
+  <meta content="Improve your deliveries using typology rules." name="seoDescription" /> 
+  <meta content="Typologies" name="jcr:description" /> 
+  <meta content="2017-11-28T11:04:14.217-0500" name="cq:lastModified" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="Typologies" name="jcr:title" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="3da198f4-0f93-4f04-bc0c-97440d5d964c" name="jcr:predecessors" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2017-11-29T19:03:43.623-0500" name="jcr:created" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="Typologies" name="navTitle" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2017-11-16T10:52:26.229-0500" name="topicBrowsingSortDate" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="https://helpx.adobe.com/campaign/standard/administration/using/typologies.html" name="publishExternalURL" /> 
+  <meta content="13dd150e-5a68-4ab0-b617-280b7c07db6e" name="jcr:uuid" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="audience:administration" name="primaryAudienceTag" /> 
+  <meta content="en_us" name="jcr:language" /> 
  </head> 
  <body> 
   <h2>About typologies</h2> 

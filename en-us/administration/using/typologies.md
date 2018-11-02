@@ -4,7 +4,7 @@ seo-title: Typologies
 description: Typologies
 seo-description: Improve your deliveries using typology rules.
 page-status-flag: never-activated
-uuid: b8599d11-9417-4073-9936-cb23f138359e
+uuid: a029663b-b6a6-489f-a76e-69a16b768849
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/typologies
 contentOwner: sauviat
@@ -15,7 +15,7 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 cq-template: /apps/help/templates/article-3
-discoiquuid: 6d4855ec-3033-4d30-a67f-872356c54a2e
+discoiquuid: 09ec7505-904a-4b9b-a258-422e106b5f45
 firstPublishExternalDate: 2017-11-16T10:52:26.229-0500
 herogradient: light
 isreadyforlocalization: false
@@ -31,7 +31,7 @@ moreHelpPaths: /content/help/en/campaign/standard/administration/morehelp/config
 navTitle: Typologies
 publishexternaldate: 2017-11-16T10 52 26.229-0500
 publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/typologies.html
-sha1: 775e6f9c30668620e1ae997dc28517d92ed28709
+sha1: c3280667034267151a5ff247e5ecccdab7ed39e0
 topicBrowsingSortDate: 2017-11-16T10:52:26.229-0500
 index: y
 internal: n

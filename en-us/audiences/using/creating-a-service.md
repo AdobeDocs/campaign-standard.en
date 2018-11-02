@@ -3,7 +3,7 @@ title: Creating a service
 seo-title: Creating a service
 description: Creating a service
 seo-description: Learn how to create your first service and configure it to send email confirmations to your subscribers.
-uuid: 162d6262-b960-49d0-a310-e8b441f687c4
+uuid: 27bd5e54-8a96-47de-a3e4-f315e529b51f
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/audiences/using/creating-a-service
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
 cq-template: /apps/help/templates/article-3
-discoiquuid: 7892cf22-9a8e-438d-b50b-0e3dbd3233ea
+discoiquuid: 9bb952eb-13be-4f90-8807-ea1604038cd8
 firstPublishExternalDate: 2018-07-23T05:55:28.895-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Creating a service
 publishexternaldate: 2018-07-23T05 55 28.895-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/audiences/using/creating-a-service.html
-sha1: 7ad43333315e1c4140aa73e9e5563fa130c7c462
+sha1: 3dd54bf6adfdf1862160b98335b7c6e3642b0828
 topicBrowsingSortDate: 2018-07-23T05:55:28.895-0400
 index: y
 internal: n

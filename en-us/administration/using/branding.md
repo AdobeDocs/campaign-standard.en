@@ -3,7 +3,7 @@ title: Branding
 seo-title: Branding
 description: Branding
 seo-description: Discover all the tools available to manage your branding identities.
-uuid: 5427f48d-1e01-40a2-9786-7502cb858215
+uuid: baf79ec2-1eb0-4a31-90d9-03e7f3e49e67
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/branding
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 cq-template: /apps/help/templates/article-3
-discoiquuid: 7282510c-f2f8-494e-9417-a340dccc8b4c
+discoiquuid: 00b7c5b9-9cb2-4037-bba8-83bb109846ec
 firstPublishExternalDate: 2018-07-23T05:53:59.720-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Branding
 publishexternaldate: 2018-07-23T05 53 59.720-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/branding.html
-sha1: 0f795e967c6dd0ce90807a8c05a5ad9a3be15d29
+sha1: a7f1c83b3fc5a1dd6ce21525b5abf0ef0c5f61b1
 topicBrowsingSortDate: 2018-07-23T05:53:59.720-0400
 index: y
 internal: n

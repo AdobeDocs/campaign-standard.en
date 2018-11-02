@@ -4,7 +4,7 @@ seo-title: Branding extended capabilities in Adobe Campaign Standard
 description: Branding extended capabilities in Adobe Campaign Standard
 seo-description: Discover all the tools available to manage your branding identities.
 page-status-flag: never-activated
-uuid: 5e2c6921-249a-4919-9069-91c500c54241
+uuid: ff0e5128-f79d-455d-94f7-df798801f762
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/branding-test
 cq-designpath: /etc/designs/help
@@ -15,7 +15,7 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 cq-template: /apps/help/templates/article-3
-discoiquuid: e504e708-3bb1-4be0-b04b-badd88e7b1f0
+discoiquuid: 0c67a52c-c515-4e96-a93a-33576f61cf59
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-05-16T07 28 52.572-0400
@@ -28,7 +28,7 @@ lochandoffdate: 2018-05-25T03 15 00.708-0400
 moreHelpPaths: /content/help/en/campaign/standard/administration/morehelp/application-settings;/content/help/en/campaign/standard/administration/morehelp/application-settings
 navTitle: Branding extended capabilities in Adobe Campaign Standard
 noindex: true
-sha1: c38cbeb04f96a640d69faaa9fda9c78502c909a7
+sha1: 15d5b633c99f62199aa39d2de0468513dd4caaf8
 index: y
 internal: n
 snippet: y

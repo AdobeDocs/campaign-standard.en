@@ -3,7 +3,7 @@ title: Documentation Updates
 seo-title: Documentation Updates
 description: Documentation Updates
 seo-description: Learn about all the latest updates for Adobe Campaign Standard documentation.
-uuid: be6d0e93-3b4a-40be-a01c-0821fc0bfa14
+uuid: 90505268-40a6-44b7-9563-e89733853bbf
 content-encoding: UTF-8
 aemsrcnodepath: /content/help/en/campaign/standard/rn/using/documentation-updates
 contentOwner: sauviat
@@ -18,7 +18,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 cq-template: /apps/help/templates/article-3
-discoiquuid: 0f1ae022-0ba5-4599-a8db-a01ad58d4942
+discoiquuid: 2d598d14-6cb1-4d1e-8b03-eb7ac3fefcbf
 firstPublishExternalDate: 2018-07-23T06:03:15.900-0400
 firstpublishinternaldate: 2018-07-25T03 01 00.396-0400
 herogradient: light
@@ -39,7 +39,7 @@ publishexternaldate: 2018-07-25T03 01 00.396-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/rn/using/documentation-updates.html
 publishinternaldate: 2018-07-25T03 01 00.396-0400
 publishinternalurl: https //helpx-internal.corp.adobe.com/content/help/en/campaign/standard/rn/using/documentation-updates.html
-sha1: 90869b4c2f7b5b6cca87442d125d4a9a00e80692
+sha1: 32acd51ec9fbe7fb2da63f9fbbb29b93a435f493
 topicBrowsingSortDate: 2018-07-25T03:01:00.396-0400
 index: y
 internal: n

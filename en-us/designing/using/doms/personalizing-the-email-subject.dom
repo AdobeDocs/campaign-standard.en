@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="en_us" name="jcr:language" />
-  <meta content="2018-06-14T08:43:41.727-0400" name="publishExternalDate" />
-  <meta content="2018-06-14T08:43:41.727-0400" name="topicBrowsingSortDate" />
-  <meta content="Personalizing the email subject" name="jcr:description" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="53d5f6b5-526b-4f13-b8c9-ae0c23aef667" name="jcr:uuid" />
-  <meta content="light" name="heroGradient" />
-  <meta content="2018-06-14T08:43:41.748-0400" name="cq:lastReplicated" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="Personalizing the email subject" name="navTitle" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="421b53aa-8205-4d03-8e01-dd0a3199d238" name="jcr:predecessors" />
-  <meta content="Personalizing the email subject" name="jcr:title" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="2018-06-14T08:43:41.727-0400" name="firstPublishExternalDate" />
-  <meta content="2018-06-25T08:45:05.382-0400" name="locHandOffDate" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="2018-06-14T08:43:41.727-0400" name="lastPublishExternalDate" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="audience:designing" name="primaryAudienceTag" />
   <meta content="You can personalize the subject of an email, but also try out different subject lines and get an estimation of its open rate." name="seoDescription" />
   <meta content="2018-03-15T09:02:13.371-0400" name="jcr:created" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:editing-message-and-landing-page-content" name="cq:tags" />
-  <meta content="https://helpx.adobe.com/campaign/standard/designing/using/personalizing-the-email-subject.html" name="publishExternalURL" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="admin" name="jcr:createdBy" />
   <meta content="" name="jcr:primaryType" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
   <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="2018-06-25T08:45:05.382-0400" name="cq:lastModified" />
+  <meta content="2018-06-25T08:45:05.382-0400" name="locHandOffDate" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2018-06-14T08:43:41.727-0400" name="topicBrowsingSortDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="https://helpx.adobe.com/campaign/standard/designing/using/personalizing-the-email-subject.html" name="publishExternalURL" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:editing-message-and-landing-page-content" name="cq:tags" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-06-14T08:43:41.748-0400" name="cq:lastReplicated" />
+  <meta content="2018-06-14T08:43:41.727-0400" name="publishExternalDate" />
+  <meta content="audience:designing" name="primaryAudienceTag" />
+  <meta content="" name="jcr:baseVersion" />
   <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="421b53aa-8205-4d03-8e01-dd0a3199d238" name="jcr:predecessors" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="Personalizing the email subject" name="jcr:description" />
+  <meta content="Personalizing the email subject" name="jcr:title" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2018-06-25T08:45:05.382-0400" name="cq:lastModified" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="53d5f6b5-526b-4f13-b8c9-ae0c23aef667" name="jcr:uuid" />
+  <meta content="2018-06-14T08:43:41.727-0400" name="lastPublishExternalDate" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-06-14T08:43:41.727-0400" name="firstPublishExternalDate" />
+  <meta content="Personalizing the email subject" name="navTitle" />
  </head>
  <body>
   <h2>Personalizing an email subject</h2>

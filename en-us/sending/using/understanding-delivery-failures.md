@@ -3,7 +3,7 @@ title: Understanding delivery failures
 seo-title: Understanding delivery failures
 description: Understanding delivery failures
 seo-description: Learn how to manage delivery failures with Campaign.
-uuid: 0735935a-d0a4-49a9-a8ad-6b9b312ef08e
+uuid: 9a4be537-e83b-4997-bf60-3053f925e663
 content-encoding: UTF-8
 aemsrcnodepath: /content/help/en/campaign/standard/sending/using/understanding-delivery-failures
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 cq-template: /apps/help/templates/article-3
-discoiquuid: 4004daba-6ade-430f-9823-6b0031ecef85
+discoiquuid: fd641b9a-82f7-42cd-a99a-bdddd7b974a4
 firstPublishExternalDate: 2018-07-23T06:02:29.363-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Understanding delivery failures
 publishexternaldate: 2018-07-23T06 02 29.363-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/sending/using/understanding-delivery-failures.html
-sha1: e28e92bb831d59f2043c5862c245154c7d27aafb
+sha1: 9e62c3f78917fb6c37f6a1eb341ae565f5ac05c3
 topicBrowsingSortDate: 2018-07-23T06:02:29.363-0400
 index: y
 internal: n

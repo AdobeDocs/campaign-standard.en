@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="2018-07-23T05:57:06.975-0400" name="lastPublishExternalDate" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="2018-07-23T05:57:06.975-0400" name="firstPublishExternalDate" />
-  <meta content="audience:automating" name="primaryAudienceTag" />
-  <meta content="2018-07-23T05:57:07.044-0400" name="cq:lastReplicated" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:targeting-activities" name="cq:tags" />
-  <meta content="Save audience" name="jcr:description" />
-  <meta content="05faa92c-9f76-431d-8b34-7a5056da9431" name="jcr:predecessors" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="The Save audience activity allows you to update an existing audience or create a new audience from the population computed upstream in a workflow." name="seoDescription" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="Save audience" name="jcr:title" />
-  <meta content="2018-07-25T09:29:29.572-0400" name="cq:lastModified" />
-  <meta content="Save audience" name="navTitle" />
-  <meta content="2018-07-23T05:57:06.975-0400" name="publishExternalDate" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="2018-07-23T05:57:06.975-0400" name="topicBrowsingSortDate" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="2018-07-25T09:29:29.572-0400" name="locHandOffDate" />
-  <meta content="ac2e0b54-2735-4b1d-9b23-e4167909e43f" name="jcr:uuid" />
-  <meta content="" name="jcr:primaryType" />
   <meta content="admin" name="jcr:createdBy" />
-  <meta content="2018-03-15T09:02:41.058-0400" name="jcr:created" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
   <meta content="https://helpx.adobe.com/campaign/standard/automating/using/save-audience.html" name="publishExternalURL" />
+  <meta content="Save audience" name="navTitle" />
+  <meta content="2018-07-25T09:29:29.572-0400" name="cq:lastModified" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="audience:automating" name="primaryAudienceTag" />
   <meta content="light" name="heroGradient" />
+  <meta content="Save audience" name="jcr:description" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="The Save audience activity allows you to update an existing audience or create a new audience from the population computed upstream in a workflow." name="seoDescription" />
+  <meta content="2018-07-23T05:57:06.975-0400" name="topicBrowsingSortDate" />
+  <meta content="ac2e0b54-2735-4b1d-9b23-e4167909e43f" name="jcr:uuid" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:targeting-activities" name="cq:tags" />
+  <meta content="05faa92c-9f76-431d-8b34-7a5056da9431" name="jcr:predecessors" />
+  <meta content="2018-07-23T05:57:06.975-0400" name="lastPublishExternalDate" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-07-25T09:29:29.572-0400" name="locHandOffDate" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="2018-07-23T05:57:06.975-0400" name="firstPublishExternalDate" />
+  <meta content="2018-07-23T05:57:06.975-0400" name="publishExternalDate" />
+  <meta content="2018-07-23T05:57:07.044-0400" name="cq:lastReplicated" />
+  <meta content="2018-03-15T09:02:41.058-0400" name="jcr:created" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Save audience" name="jcr:title" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
  </head>
  <body>
   <h2>Description</h2>

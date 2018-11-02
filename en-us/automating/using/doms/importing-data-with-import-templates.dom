@@ -1,40 +1,40 @@
 <html> 
  <head> 
-  <meta content="Importing data with import templates" name="navTitle" /> 
-  <meta content="2018-04-05T07:29:31.766-0400" name="jcr:created" /> 
-  <meta content="2018-07-23T05:57:52.301-0400" name="topicBrowsingSortDate" /> 
-  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
-  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="sauviat" name="contentOwner" /> 
   <meta content="/apps/help/templates/article-3" name="cq:template" /> 
-  <meta content="bdba36f7-4c8a-414c-ae7e-c4be276d08bb" name="jcr:uuid" /> 
-  <meta content="2018-07-23T05:57:52.393-0400" name="cq:lastReplicated" /> 
-  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/importing-data-with-import-templates.html" name="publishExternalURL" /> 
+  <meta content="Importing data with import templates" name="navTitle" /> 
+  <meta content="Importing data with import templates" name="jcr:description" /> 
+  <meta content="light" name="heroGradient" /> 
   <meta content="Importing data with import templates" name="jcr:title" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="en_us" name="jcr:language" /> 
   <meta content="" name="jcr:baseVersion" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
+  <meta content="2018-04-05T07:29:31.766-0400" name="jcr:created" /> 
+  <meta content="audience:automating" name="primaryAudienceTag" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="sauviat" name="cq:lastReplicatedBy" /> 
+  <meta content="2018-07-25T09:29:58.480-0400" name="locHandOffDate" /> 
   <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:importing-and-exporting-data" name="cq:tags" /> 
   <meta content="mix:versionable" name="jcr:mixinTypes" /> 
-  <meta content="" name="seoDescription" /> 
-  <meta content="" name="jcr:primaryType" /> 
-  <meta content="" name="jcr:versionHistory" /> 
-  <meta content="audience:automating" name="primaryAudienceTag" /> 
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="bdba36f7-4c8a-414c-ae7e-c4be276d08bb" name="jcr:uuid" /> 
   <meta content="2018-07-25T09:29:58.480-0400" name="cq:lastModified" /> 
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
-  <meta content="sauviat" name="contentOwner" /> 
-  <meta content="admin" name="jcr:createdBy" /> 
-  <meta content="Importing data with import templates" name="jcr:description" /> 
-  <meta content="/etc/designs/help" name="cq:designPath" /> 
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
-  <meta content="2018-07-23T05:57:52.301-0400" name="firstPublishExternalDate" /> 
   <meta content="2018-07-23T05:57:52.301-0400" name="publishExternalDate" /> 
-  <meta content="en_us" name="jcr:language" /> 
-  <meta content="d6135e3e-14c1-47d1-8da1-893f1dc65374" name="jcr:predecessors" /> 
+  <meta content="2018-07-23T05:57:52.393-0400" name="cq:lastReplicated" /> 
   <meta content="2018-07-23T05:57:52.301-0400" name="lastPublishExternalDate" /> 
-  <meta content="2018-07-25T09:29:58.480-0400" name="locHandOffDate" /> 
-  <meta content="false" name="isReadyForLocalization" /> 
-  <meta content="sauviat" name="cq:lastReplicatedBy" /> 
-  <meta content="light" name="heroGradient" /> 
+  <meta content="2018-07-23T05:57:52.301-0400" name="topicBrowsingSortDate" /> 
+  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/importing-data-with-import-templates.html" name="publishExternalURL" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-07-23T05:57:52.301-0400" name="firstPublishExternalDate" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="d6135e3e-14c1-47d1-8da1-893f1dc65374" name="jcr:predecessors" /> 
   <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="" name="jcr:versionHistory" /> 
  </head> 
  <body> 
   <p>Importing data allows you to collect data to feed your Campaign's database.</p> 

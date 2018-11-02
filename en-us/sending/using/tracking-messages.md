@@ -3,7 +3,7 @@ title: Tracking messages
 seo-title: Tracking messages
 description: Tracking messages
 seo-description: Learn how to track the behavior of your delivery recipients.
-uuid: 2874ea29-1de6-43b4-b9ed-4378730cffd3
+uuid: c230a43b-f05a-4218-b241-bf50d49e9e84
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/sending/using/tracking-messages
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
 cq-template: /apps/help/templates/article-3
-discoiquuid: 35bbc3fd-d01a-4040-9df2-11c2b29e145d
+discoiquuid: d8973611-1240-464a-a82d-8a7a6369fa8e
 firstPublishExternalDate: 2018-07-23T06:02:25.531-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Tracking messages
 publishexternaldate: 2018-07-23T06 02 25.531-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/sending/using/tracking-messages.html
-sha1: 4064f71eb9316cef7f06c9c4adf0c2558223efea
+sha1: 9f7a4ee053ec1b8a7faab6151e5c0921a60c47d1
 topicBrowsingSortDate: 2018-07-23T06:02:25.531-0400
 index: y
 internal: n

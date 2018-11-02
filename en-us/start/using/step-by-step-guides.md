@@ -3,7 +3,7 @@ title: Step-by-step guides
 seo-title: Step-by-step guides
 description: Step-by-step guides
 seo-description: Learn Adobe Campaign basics through simple step-by-step procedures, and experience the power of the solution.
-uuid: 038a22d3-37ea-4653-add1-d2b009deac88
+uuid: dd72c2bd-0932-49b0-9586-a0929052e88c
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/start/using/step-by-step-guides
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: start
 content-type: reference
 topic-tags: tutorials
 cq-template: /apps/help/templates/article-3
-discoiquuid: a5c9f817-9ce9-4be8-96b9-916674cdb53e
+discoiquuid: bcd3ce56-dbe8-4336-b9d6-707c11b7f394
 firstPublishExternalDate: 2018-07-23T06:00:50.634-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Step-by-step guides
 publishexternaldate: 2018-07-23T06 00 50.634-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/start/using/step-by-step-guides.html
-sha1: 1c6baa8ec883bc4ef6378bc6af43c0876b8f5982
+sha1: 65aa01641b6631d35ed5956157211a87d67e1793
 topicBrowsingSortDate: 2018-07-23T06:00:50.634-0400
 index: y
 internal: n

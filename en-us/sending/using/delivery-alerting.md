@@ -4,7 +4,7 @@ seo-title: Delivery alerting
 description: Delivery alerting
 seo-description: Learn how to use the alert management system.
 page-status-flag: never-activated
-uuid: c715f509-49e8-480c-b807-0ffc295f4d98
+uuid: e3f76f06-e1ce-49d3-b146-deec212a73ea
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/sending/using/delivery-alerting
 contentOwner: sauviat
@@ -15,7 +15,7 @@ audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
 cq-template: /apps/help/templates/article-3
-discoiquuid: 3606df76-63f9-4648-9855-efec8629458d
+discoiquuid: 93f5d8bd-6322-43bc-90b1-542221287d93
 firstPublishExternalDate: 2018-01-10T15:31:23.303-0500
 herogradient: light
 jcr-created: 2018-01-11T19 01 46.793-0500
@@ -28,7 +28,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Delivery alerting
 publishexternaldate: 2018-01-10T15 31 23.303-0500
 publishExternalURL: https://helpx.adobe.com/campaign/standard/sending/using/delivery-alerting.html
-sha1: 70c51b26a50425c5428091075a845489334437e7
+sha1: 27c54a7b6f6fa7adba23ff44fcd72765908d9d68
 topicBrowsingSortDate: 2018-01-10T15:31:23.303-0500
 index: y
 internal: n

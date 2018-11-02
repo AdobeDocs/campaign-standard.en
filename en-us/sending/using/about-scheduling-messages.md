@@ -3,7 +3,7 @@ title: About scheduling messages
 seo-title: About scheduling messages
 description: About scheduling messages
 seo-description: Learn how to schedule your messages.
-uuid: dc65f85f-5616-47ca-8015-a494f0d45e00
+uuid: 51537cf4-c99c-4188-ab8f-5e3a07f5fa43
 content-encoding: UTF-8
 aemsrcnodepath: /content/help/en/campaign/standard/sending/using/about-scheduling-messages
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 cq-template: /apps/help/templates/article-3
-discoiquuid: 1c2b576a-f1b2-477f-93ed-9e8245fb69ad
+discoiquuid: 165fd73c-e9c7-4b3e-9175-3d550592fad1
 firstPublishExternalDate: 2018-07-23T06:02:20.146-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About scheduling messages
 publishexternaldate: 2018-07-23T06 02 20.146-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/sending/using/about-scheduling-messages.html
-sha1: 2f053d355584f147ee627a0ee43ed618668d4fdb
+sha1: 7403ed2da5968c9cfb971ac519e7868036951e3a
 topicBrowsingSortDate: 2018-07-23T06:02:20.146-0400
 index: y
 internal: n

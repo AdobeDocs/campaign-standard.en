@@ -3,7 +3,7 @@ title: AND-join
 seo-title: AND-join
 description: AND-join
 seo-description: The AND-join activity allows you to synchronize multiple execution branches of a workflow.
-uuid: a998cef3-0e06-41c5-b7cc-7a169638459e
+uuid: 9709433a-7a4b-4aaf-b1b8-8dc39b70922a
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/and-join
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: 9e77c3c6-bc33-4db6-a61e-24b17feea93a
+discoiquuid: 3a6a4098-96a3-49e8-8828-68379ca3a2a2
 firstPublishExternalDate: 2018-07-23T05:57:14.118-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: AND-join
 publishexternaldate: 2018-07-23T05 57 14.118-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/and-join.html
-sha1: 5ff435ff133bc89974b6f1795c72c3a8968c0703
+sha1: 4312e6a2a548ebce782b394bc07dcff572bb3e1b
 topicBrowsingSortDate: 2018-07-23T05:57:14.118-0400
 index: y
 internal: n

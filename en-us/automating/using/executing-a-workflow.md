@@ -3,7 +3,7 @@ title: Executing a workflow
 seo-title: Executing a workflow
 description: Executing a workflow
 seo-description: Learn how to execute and monitor a workflow.
-uuid: 1600dfb9-aa59-47f6-a0ed-71729ab749a7
+uuid: 7c44e7cc-7047-4726-ab13-f2e7fba4ccef
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/executing-a-workflow
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 cq-template: /apps/help/templates/article-3
-discoiquuid: 018da2c3-af7c-4dc8-a08e-163ae318a2e2
+discoiquuid: ede5efb6-5df5-4629-a48d-816588c41676
 firstPublishExternalDate: 2018-07-23T05:56:54.110-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Executing a workflow
 publishexternaldate: 2018-07-23T05 56 54.110-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/executing-a-workflow.html
-sha1: a473e051c0987992ea516c151a94988f3aa8fb9e
+sha1: 447f835c415e8dcbdbe26d9ef28eccddc0788d72
 topicBrowsingSortDate: 2018-07-23T05:56:54.110-0400
 index: y
 internal: n

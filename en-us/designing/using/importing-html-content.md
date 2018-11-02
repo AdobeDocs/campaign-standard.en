@@ -3,7 +3,7 @@ title: Importing HTML content
 seo-title: Importing HTML content
 description: Importing HTML content
 seo-description: Learn how to select or import content for your messages with Adobe Campaign.
-uuid: e43c7ffb-02f9-4239-a5d2-f63773878f7e
+uuid: 05f76765-e556-4805-b902-4eb36a83f928
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/importing-html-content
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-message-and-landing-page-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: 546e8fcc-3e59-4be6-9585-5f9ecac74e7b
+discoiquuid: baf9f6f5-c7c9-4152-8dc7-e3b6cb91a72a
 firstPublishExternalDate: 2018-06-14T08:43:39.127-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Importing HTML content
 publishexternaldate: 2018-06-14T08 43 39.127-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/importing-html-content.html
-sha1: dd5004b9692f263added796e26a4f5ad0c14061a
+sha1: 8c5fa31749638d250f0d0ffd6eb1f7a051390195
 topicBrowsingSortDate: 2018-06-14T08:43:39.127-0400
 index: y
 internal: n

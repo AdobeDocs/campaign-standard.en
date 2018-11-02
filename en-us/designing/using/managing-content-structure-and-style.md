@@ -3,7 +3,7 @@ title: Managing content structure and style
 seo-title: Managing content structure and style
 description: Managing content structure and style
 seo-description: Learn how to manage the different HTML content elements and overall styling in a message.
-uuid: 9df2f412-0acd-416d-a09d-2f4c7df2ddcb
+uuid: 6940b7cb-dc92-4c10-a4b5-6eb689887d8f
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/managing-content-structure-and-style
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-message-and-landing-page-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: 1e59291a-cda8-4648-88f5-7762df1fa151
+discoiquuid: 2b34edc3-a790-4178-a208-491ccd192a43
 firstPublishExternalDate: 2018-06-14T08:43:39.834-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Managing content structure and style
 publishexternaldate: 2018-06-14T08 43 39.834-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/managing-content-structure-and-style.html
-sha1: 29da88d7bae4dec1251b4b2b2724d9b516266553
+sha1: 6ad3169e5b4b03f108e999370c932c0ff356493e
 topicBrowsingSortDate: 2018-06-14T08:43:39.834-0400
 index: y
 internal: n

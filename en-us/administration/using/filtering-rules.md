@@ -3,7 +3,7 @@ title: Filtering rules
 seo-title: Filtering rules
 description: Filtering rules
 seo-description: Use filtering rules to refine the audience of your messages.
-uuid: 47625ace-adfb-4713-b56b-0384255a3c1f
+uuid: 4d4e3e57-0a78-4015-ae1e-f1a4799571c4
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/filtering-rules
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
 cq-template: /apps/help/templates/article-3
-discoiquuid: f333b2ba-7913-4c13-83b0-017ff744bcc1
+discoiquuid: 612b67ab-686f-4ee9-983c-6058192fc820
 firstPublishExternalDate: 2018-07-23T05:53:49.460-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Filtering rules
 publishexternaldate: 2018-07-23T05 53 49.460-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/filtering-rules.html
-sha1: d05cf705b8b66bee29a8d62c1a5126608b39b953
+sha1: fa6643dced63bad31b9cfec8dad1d3644e6f56f9
 topicBrowsingSortDate: 2018-07-23T05:53:49.460-0400
 index: y
 internal: n

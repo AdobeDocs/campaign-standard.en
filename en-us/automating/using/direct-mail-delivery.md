@@ -3,7 +3,7 @@ title: Direct mail delivery
 seo-title: Direct mail delivery
 description: Direct mail delivery
 seo-description: The Direct mail delivery activity allows you to configure sending a single send direct mail or a recurring direct mail in a workflow.
-uuid: 7390ea2b-d003-41be-827b-f3979f6f785d
+uuid: 293633fa-f386-4cb2-8e84-37b72f62cae0
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/direct-mail-delivery
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: channel-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: e68b9172-c5a5-4873-997b-062e94f7d3ac
+discoiquuid: 679fc888-9abc-4b44-9377-4bd833f90c93
 firstPublishExternalDate: 2018-07-23T05:57:23.276-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Direct mail delivery
 publishexternaldate: 2018-07-23T05 57 23.276-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/direct-mail-delivery.html
-sha1: e3b4267b0dd2e27dcc0eb88091e7f2241d8bdf01
+sha1: 77cab578a5f1852f152a8083f8d2ad20f74a63b2
 topicBrowsingSortDate: 2018-07-23T05:57:23.276-0400
 index: y
 internal: n

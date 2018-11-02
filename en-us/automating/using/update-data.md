@@ -3,7 +3,7 @@ title: Update data
 seo-title: Update data
 description: Update data
 seo-description: The Update data activity allows you to perform a mass update on fields in the database.
-uuid: cc749d14-a37b-4085-a29c-9edd69aef9c7
+uuid: 0c63c6ac-cf6f-4cc4-ac41-ef5f82693563
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/update-data
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: d161a383-b744-49ea-b024-9906092cb984
+discoiquuid: 2bf257c3-dd1a-438c-9e27-af5c0a450ff3
 firstPublishExternalDate: 2018-07-23T05:57:25.282-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Update data
 publishexternaldate: 2018-07-23T05 57 25.282-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/update-data.html
-sha1: 0eb38e08e14a7f6bb7a09e0f46f16b2d2e0008b6
+sha1: ca9b281087d7764549ff1227962d38ca1c64a1fb
 topicBrowsingSortDate: 2018-07-23T05:57:25.282-0400
 index: y
 internal: n

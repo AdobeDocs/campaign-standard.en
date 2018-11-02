@@ -1,34 +1,34 @@
 <html>
  <head>
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="audience:integrating" name="primaryAudienceTag" />
-  <meta content="2018-01-10T15:24:02.579-0500" name="firstPublishExternalDate" />
-  <meta content="Configuring the Adobe Target integration" name="jcr:title" />
-  <meta content="2018-01-10T15:24:02.585-0500" name="cq:lastModified" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="https://helpx.adobe.com/campaign/standard/integrating/using/configuring-the-adobe-target-integration.html" name="publishExternalURL" />
-  <meta content="2b4b41ed-6660-4e33-a9e2-0f60e84e6ef1" name="jcr:uuid" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="2018-01-11T19:02:07.831-0500" name="jcr:created" />
-  <meta content="2018-01-10T15:24:02.579-0500" name="lastPublishExternalDate" />
-  <meta content="e213b266-ae32-41f4-b0d9-664ddc27e75e" name="jcr:predecessors" />
-  <meta content="Configuring the Adobe Target integration" name="navTitle" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-01-10T15:24:02.579-0500" name="topicBrowsingSortDate" />
   <meta content="" name="jcr:versionHistory" />
   <meta content="light" name="heroGradient" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
   <meta content="2018-01-10T15:24:02.579-0500" name="publishExternalDate" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="Learn how to configure the Adobe Target integration to start using dynamic content in Adobe Campaign." name="seoDescription" />
   <meta content="products:SG_CAMPAIGN/STANDARD;audience:integrating;content_type:reference;topic_tags:adobe-target-integration" name="cq:tags" />
+  <meta content="Configuring the Adobe Target integration" name="navTitle" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="Learn how to configure the Adobe Target integration to start using dynamic content in Adobe Campaign." name="seoDescription" />
+  <meta content="audience:integrating" name="primaryAudienceTag" />
   <meta content="en_us" name="jcr:language" />
+  <meta content="https://helpx.adobe.com/campaign/standard/integrating/using/configuring-the-adobe-target-integration.html" name="publishExternalURL" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2b4b41ed-6660-4e33-a9e2-0f60e84e6ef1" name="jcr:uuid" />
+  <meta content="2018-01-11T19:02:07.831-0500" name="jcr:created" />
   <meta content="Configuring the Adobe Target integration" name="jcr:description" />
-  <meta content="2018-01-10T15:24:02.579-0500" name="topicBrowsingSortDate" />
+  <meta content="2018-01-10T15:24:02.585-0500" name="cq:lastModified" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2018-01-10T15:24:02.579-0500" name="lastPublishExternalDate" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="Configuring the Adobe Target integration" name="jcr:title" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
   <meta content="" name="jcr:primaryType" />
+  <meta content="e213b266-ae32-41f4-b0d9-664ddc27e75e" name="jcr:predecessors" />
+  <meta content="2018-01-10T15:24:02.579-0500" name="firstPublishExternalDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
  </head>
  <body>
   <p>The integration between Adobe Campaign and Adobe Target lets you insert dynamic content in your delivery.</p> 

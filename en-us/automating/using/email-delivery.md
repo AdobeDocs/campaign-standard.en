@@ -3,7 +3,7 @@ title: Email delivery
 seo-title: Email delivery
 description: Email delivery
 seo-description: The Email delivery activity allows you to configure sending a single send email or a recurring email in a workflow.
-uuid: 441496e9-ec5e-42fe-8458-21a0e6988cb2
+uuid: 192a05fd-63f8-4c16-b5ca-7c8f7bb339e6
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/email-delivery
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: channel-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: 52779351-1398-46a3-9a5e-9f4f397a9a49
+discoiquuid: 528232c9-e4ae-427d-abfc-1533a4621a56
 firstPublishExternalDate: 2018-07-23T05:57:19.523-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Email delivery
 publishexternaldate: 2018-07-23T05 57 19.523-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/email-delivery.html
-sha1: b1a624188066ba981a4cb023350c37599352b8e1
+sha1: 2355aa804d583853464f9da6308082b56cc85ab9
 topicBrowsingSortDate: 2018-07-23T05:57:19.523-0400
 index: y
 internal: n

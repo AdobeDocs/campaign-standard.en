@@ -3,7 +3,7 @@ title: Inserting tracking links
 seo-title: Inserting tracking links
 description: Inserting tracking links
 seo-description: Learn how to add links to the HTML content elements of an email.
-uuid: 6df3e8c0-169d-4bb5-b9c1-27baed63b5ee
+uuid: 8b4d15fa-65c9-42f4-b0eb-f5c7d153705a
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/inserting-tracking-links
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-message-and-landing-page-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: ffb4f638-487f-45b6-b2f4-28fae3853ae4
+discoiquuid: 70edb95a-b004-440b-8d54-54c08b4a2e3f
 firstPublishExternalDate: 2018-03-26T11:12:39.032-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,7 +32,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Inserting tracking links
 publishexternaldate: 2018-03-26T11 12 39.032-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/inserting-tracking-links.html
-sha1: c553f589f5f0caa820bc831f02ed49c60684edf5
+sha1: 55b8b37a90fd23f73735c2f62b349b745f851644
 topicBrowsingSortDate: 2018-03-26T11:12:39.032-0400
 index: y
 internal: n

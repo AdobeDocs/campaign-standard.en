@@ -3,7 +3,7 @@ title: Using a template
 seo-title: Using a template
 description: Using a template
 seo-description: Discover a simple step-by-step procedure to use an existing template.
-uuid: 4921ae42-7b29-4d54-90ff-9cefa510da74
+uuid: 5879b6fd-a85a-4da0-ad5f-9273ad80d7c7
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/start/using/using-a-template
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: start
 content-type: reference
 topic-tags: managing-templates
 cq-template: /apps/help/templates/article-3
-discoiquuid: 7f64059f-0a09-4031-ab25-8cc5dc4dca4a
+discoiquuid: 5ca1fb6e-b7ec-4a14-8c02-029c99214357
 firstPublishExternalDate: 2018-07-23T06:00:49.623-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Using a template
 publishexternaldate: 2018-07-23T06 00 49.623-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/start/using/using-a-template.html
-sha1: 6fadec9f31aae396b0e1511ce46fb7715974e732
+sha1: 7a1dde0e4192fa75bdd8415a1874b07824e1952f
 topicBrowsingSortDate: 2018-07-23T06:00:49.623-0400
 index: y
 internal: n

@@ -3,7 +3,7 @@ title: Configuring transactional messaging
 seo-title: Configuring transactional messaging
 description: Configuring transactional messaging
 seo-description: Learn how to configure transactional messaging.
-uuid: 15f2d296-9558-40c6-9990-603b65d71ff8
+uuid: 90125abb-7486-46dd-b03d-3ff7e3068855
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/configuring-transactional-messaging
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 cq-template: /apps/help/templates/article-3
-discoiquuid: 08075782-b06a-4210-9c7c-4c1b02f0e80d
+discoiquuid: 6349ea25-387c-4e48-a4b4-55dddce70aed
 firstPublishExternalDate: 2018-07-23T05:53:42.639-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Configuring transactional messaging
 publishexternaldate: 2018-07-23T05 53 42.639-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html
-sha1: 37fe84be7df0ada164af92d05813e2ad5fa45d5f
+sha1: bfe1da646015cd625f11622404ee596f4a38fffc
 topicBrowsingSortDate: 2018-07-23T05:53:42.639-0400
 index: y
 internal: n

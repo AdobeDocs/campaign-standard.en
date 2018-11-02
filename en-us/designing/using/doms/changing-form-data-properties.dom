@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="en_us" name="jcr:language" />
-  <meta content="2018-06-14T08:43:45.158-0400" name="firstPublishExternalDate" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="Changing form data properties" name="jcr:title" />
-  <meta content="2018-06-14T08:43:45.176-0400" name="cq:lastReplicated" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="2018-06-14T08:43:45.158-0400" name="publishExternalDate" />
-  <meta content="light" name="heroGradient" />
+  <meta content="2018-06-14T08:43:45.158-0400" name="topicBrowsingSortDate" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="admin" name="jcr:createdBy" />
   <meta content="" name="jcr:versionHistory" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-06-25T08:45:11.637-0400" name="cq:lastModified" />
   <meta content="c7c731b1-860c-4e34-aefb-4f30f21419f3" name="jcr:predecessors" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-06-14T08:43:45.158-0400" name="firstPublishExternalDate" />
+  <meta content="2018-06-14T08:43:45.176-0400" name="cq:lastReplicated" />
+  <meta content="2018-06-25T08:45:11.636-0400" name="locHandOffDate" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="light" name="heroGradient" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="https://helpx.adobe.com/campaign/standard/designing/using/changing-form-data-properties.html" name="publishExternalURL" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2018-06-14T08:43:45.158-0400" name="publishExternalDate" />
+  <meta content="2018-06-14T08:43:45.158-0400" name="lastPublishExternalDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:editing-message-and-landing-page-content" name="cq:tags" />
+  <meta content="2018-03-15T09:01:53.833-0400" name="jcr:created" />
+  <meta content="Changing form data properties" name="jcr:title" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="audience:designing" name="primaryAudienceTag" />
   <meta content="Changing form data properties" name="jcr:description" />
   <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="2018-06-25T08:45:11.636-0400" name="locHandOffDate" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="Changing form data properties" name="navTitle" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:editing-message-and-landing-page-content" name="cq:tags" />
-  <meta content="2018-06-25T08:45:11.637-0400" name="cq:lastModified" />
-  <meta content="2018-06-14T08:43:45.158-0400" name="lastPublishExternalDate" />
-  <meta content="Learn how to link database fields to input zone, radio button or checkbox type blocks." name="seoDescription" />
-  <meta content="2018-06-14T08:43:45.158-0400" name="topicBrowsingSortDate" />
   <meta content="" name="jcr:baseVersion" />
   <meta content="fab75fe4-cb2b-40ad-98fa-514f69726883" name="jcr:uuid" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="2018-03-15T09:01:53.833-0400" name="jcr:created" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="https://helpx.adobe.com/campaign/standard/designing/using/changing-form-data-properties.html" name="publishExternalURL" />
-  <meta content="audience:designing" name="primaryAudienceTag" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Changing form data properties" name="navTitle" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Learn how to link database fields to input zone, radio button or checkbox type blocks." name="seoDescription" />
  </head>
  <body>
   <p>You can link database fields to input zone, radio button or checkbox type blocks. To do this, select the block and enter the <strong>Form data</strong> in the palette.</p> 

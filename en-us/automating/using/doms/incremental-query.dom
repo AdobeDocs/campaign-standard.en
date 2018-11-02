@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="audience:automating" name="primaryAudienceTag" />
-  <meta content="Incremental query" name="jcr:title" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="2018-07-25T09:29:25.237-0400" name="locHandOffDate" />
   <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:targeting-activities" name="cq:tags" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Incremental query" name="navTitle" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/incremental-query.html" name="publishExternalURL" />
+  <meta content="light" name="heroGradient" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2018-03-15T09:02:03.037-0400" name="jcr:created" />
+  <meta content="false" name="isReadyForLocalization" />
   <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="5d7e5bab-61ee-4bf4-87c8-d43f1d8f3259" name="jcr:uuid" />
+  <meta content="2018-07-25T09:29:25.237-0400" name="locHandOffDate" />
+  <meta content="2018-07-25T09:29:25.238-0400" name="cq:lastModified" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
   <meta content="2018-07-23T05:56:59.156-0400" name="firstPublishExternalDate" />
   <meta content="en_us" name="jcr:language" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="2018-07-23T05:56:59.197-0400" name="cq:lastReplicated" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/incremental-query.html" name="publishExternalURL" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="2018-07-23T05:56:59.156-0400" name="lastPublishExternalDate" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="2018-07-23T05:56:59.156-0400" name="publishExternalDate" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="2018-07-23T05:56:59.156-0400" name="topicBrowsingSortDate" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="c07fe2a7-1a85-44a0-b1f5-da62ed713e32" name="jcr:predecessors" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="Incremental query" name="navTitle" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="2018-03-15T09:02:03.037-0400" name="jcr:created" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
   <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="The Incremental query activity allows you to filter and extract a population of elements from the Adobe Campaign database." name="seoDescription" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="audience:automating" name="primaryAudienceTag" />
   <meta content="Incremental query" name="jcr:description" />
-  <meta content="light" name="heroGradient" />
-  <meta content="2018-07-25T09:29:25.238-0400" name="cq:lastModified" />
+  <meta content="2018-07-23T05:56:59.197-0400" name="cq:lastReplicated" />
+  <meta content="Incremental query" name="jcr:title" />
+  <meta content="The Incremental query activity allows you to filter and extract a population of elements from the Adobe Campaign database." name="seoDescription" />
+  <meta content="5d7e5bab-61ee-4bf4-87c8-d43f1d8f3259" name="jcr:uuid" />
+  <meta content="c07fe2a7-1a85-44a0-b1f5-da62ed713e32" name="jcr:predecessors" />
+  <meta content="2018-07-23T05:56:59.156-0400" name="lastPublishExternalDate" />
+  <meta content="2018-07-23T05:56:59.156-0400" name="publishExternalDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="2018-07-23T05:56:59.156-0400" name="topicBrowsingSortDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
  </head>
  <body>
   <h2>Description</h2>

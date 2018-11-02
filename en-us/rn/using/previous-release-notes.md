@@ -3,7 +3,7 @@ title: Previous Release Notes
 seo-title: Previous Release Notes
 description: Previous Release Notes
 seo-description: This page lists all 2015 and 2016 releases of Adobe Campaign Standard.
-uuid: d00f0633-8b87-4577-8074-2b3a1d2c88ab
+uuid: 29b089da-c072-46c1-8c8d-3193fa58401c
 content-encoding: UTF-8
 aemsrcnodepath: /content/help/en/campaign/standard/rn/using/previous-release-notes
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 cq-template: /apps/help/templates/article-3
-discoiquuid: aa99e69d-0516-47e0-a6d2-a1499fac8cb5
+discoiquuid: 99a40c98-39f6-4168-a9ca-38c6eab74764
 firstPublishExternalDate: 2018-07-23T06:03:08.848-0400
 herogradient: light
 isreadyforlocalization: false
@@ -34,7 +34,7 @@ moreHelpPaths: /content/help/en/campaign/standard/rn/morehelp/campaign-standard-
 navTitle: Previous Release Notes
 publishexternaldate: 2018-07-23T06 03 08.848-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/rn/using/previous-release-notes.html
-sha1: 71014702451d14758c2f07d6cb2c715012e84ee2
+sha1: 1c8315b0958f854c438062c8d593313eefe7fd5d
 topicBrowsingSortDate: 2018-07-23T06:03:08.848-0400
 index: y
 internal: n

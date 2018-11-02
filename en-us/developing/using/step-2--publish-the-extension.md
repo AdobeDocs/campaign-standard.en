@@ -3,7 +3,7 @@ title: Step 2: Publish the extension
 seo-title: Step 2: Publish the extension
 description: Step 2: Publish the extension
 seo-description: 
-uuid: f0a9cefa-79c0-4333-b6d0-08c33b667acd
+uuid: 0d173805-b9f7-423a-92a8-403533436707
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/developing/using/step-2--publish-the-extension
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
 cq-template: /apps/help/templates/article-3
-discoiquuid: 1b8c1458-a2cf-4de0-8e0c-836156a32e28
+discoiquuid: 9e439196-5aee-48f3-b66b-d74196db2027
 firstPublishExternalDate: 2018-07-23T05:59:16.711-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Step 2: Publish the extension
 publishexternaldate: 2018-07-23T05 59 16.711-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/step-2--publish-the-extension.html
-sha1: 4e810634d22b5976efedf9934db087f85295c18e
+sha1: 931ad8df80455c7d75a03991bae8adc77fe72403
 topicBrowsingSortDate: 2018-07-23T05:59:16.711-0400
 index: y
 internal: n

@@ -4,7 +4,7 @@ seo-title: Targeting dimension
 description: Targeting dimension
 seo-description: Learn about target mapping selection, creation and management in Adobe Campaign.
 page-status-flag: never-activated
-uuid: d9644190-1db3-415c-9655-8595a160e040
+uuid: e4857283-881c-4d8d-939a-5e7f3a512459
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/audiences/using/targeting-dimension
 contentOwner: sauviat
@@ -15,7 +15,7 @@ audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 cq-template: /apps/help/templates/article-3
-discoiquuid: 56db1883-eeab-41ee-b1e1-4fcbb3b46c21
+discoiquuid: d8f5ff7e-c789-43af-8712-19f8fb541562
 firstPublishExternalDate: 2018-01-10T15:16:25.862-0500
 herogradient: light
 jcr-created: 2018-01-11T19 01 25.593-0500
@@ -28,7 +28,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Targeting dimension
 publishexternaldate: 2018-01-10T15 16 25.862-0500
 publishExternalURL: https://helpx.adobe.com/campaign/standard/audiences/using/targeting-dimension.html
-sha1: 9d9e8be6b27dc2bc584239a9239bfd440ee08e1b
+sha1: b2509b3a04edec2af9183f9da94b2fc38ad33890
 topicBrowsingSortDate: 2018-01-10T15:16:25.862-0500
 index: y
 internal: n

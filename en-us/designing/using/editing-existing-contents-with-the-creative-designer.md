@@ -3,7 +3,7 @@ title: Editing existing contents with the Creative Designer
 seo-title: Editing existing contents with the Creative Designer
 description: Editing existing contents with the Creative Designer
 seo-description: Learn how to make existing contents fully compliant with the Creative Designer interface.
-uuid: bbc7fdb9-49d4-4a34-b63a-a128d67cc937
+uuid: c7cd0455-43b0-4d79-9948-78308ffafe6e
 content-encoding: UTF-8
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/editing-existing-contents-with-the-creative-designer
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: loading-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: b085fa59-22e4-4706-98a1-8e7073615fd2
+discoiquuid: 8a971a01-fbc5-4abf-a483-e0add33dba66
 firstPublishExternalDate: 2018-07-23T05:58:23.177-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Editing existing contents with the Creative Designer
 publishexternaldate: 2018-07-23T08 13 40.911-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/editing-existing-contents-with-the-creative-designer.html
-sha1: 3b987540ab0f819bbacc6cad7c66a3ab8b8f1387
+sha1: db9d89c2d09c45d1bf17a5df054debde95500038
 topicBrowsingSortDate: 2018-07-23T08:13:40.911-0400
 index: y
 internal: n

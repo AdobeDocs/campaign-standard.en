@@ -4,7 +4,7 @@ seo-title: Assets core service integration
 description: Assets core service integration
 seo-description: Use any resources shared within Adobe Marketing Cloud in your Adobe Campaign messages and landing pages thanks to the Assets core service integration.
 page-status-flag: never-activated
-uuid: ec7724d0-2d0e-4691-a057-0f844dcdbedb
+uuid: 958035c7-9639-474c-adc9-28bfaedbaac4
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/integrating/using/assets-core-service-integration
 contentOwner: sauviat
@@ -15,7 +15,7 @@ audience: integrating
 content-type: reference
 topic-tags: assets-core-service-integration
 cq-template: /apps/help/templates/article-3
-discoiquuid: e9dcb7cb-e8e7-4839-82e0-f858f6661042
+discoiquuid: 79185215-4c39-4683-a66d-145aae2310d4
 firstPublishExternalDate: 2018-01-10T15:23:59.631-0500
 herogradient: light
 jcr-created: 2018-01-11T19 01 46.058-0500
@@ -28,7 +28,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Assets core service integration
 publishexternaldate: 2018-01-10T15 23 59.631-0500
 publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/assets-core-service-integration.html
-sha1: abc1701b3cd60c92dd2ccf95fdfb69cc752cc9fc
+sha1: 16a0e2418177fc54f6001925b603831899ba3b6a
 topicBrowsingSortDate: 2018-01-10T15:23:59.631-0500
 index: y
 internal: n

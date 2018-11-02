@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="en_us" name="jcr:language" />
-  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/exporting-logs.html" name="publishExternalURL" />
-  <meta content="a2cadfe5-05b6-49c2-a913-533fcaa579e3" name="jcr:predecessors" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="audience:automating" name="primaryAudienceTag" />
-  <meta content="6617cba6-95bc-4853-ad72-354773705152" name="jcr:uuid" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
   <meta content="2018-07-23T05:57:55.338-0400" name="cq:lastReplicated" />
-  <meta content="2018-07-23T05:57:55.259-0400" name="topicBrowsingSortDate" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="2018-07-23T05:57:55.259-0400" name="lastPublishExternalDate" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:importing-and-exporting-data" name="cq:tags" />
   <meta content="2018-07-23T05:57:55.259-0400" name="publishExternalDate" />
-  <meta content="Exporting logs" name="jcr:description" />
-  <meta content="2018-07-23T05:57:55.259-0400" name="firstPublishExternalDate" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="Exporting logs" name="navTitle" />
-  <meta content="light" name="heroGradient" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="Exporting logs" name="jcr:title" />
-  <meta content="2018-07-25T09:29:59.434-0400" name="cq:lastModified" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="2018-03-15T09:02:00.687-0400" name="jcr:created" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
   <meta content="Log data, whether they are related to deliveries or to subscriptions, can be exported through a simple workflow." name="seoDescription" />
   <meta content="2018-07-25T09:29:59.434-0400" name="locHandOffDate" />
+  <meta content="2018-03-15T09:02:00.687-0400" name="jcr:created" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="a2cadfe5-05b6-49c2-a913-533fcaa579e3" name="jcr:predecessors" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="2018-07-23T05:57:55.259-0400" name="firstPublishExternalDate" />
+  <meta content="audience:automating" name="primaryAudienceTag" />
+  <meta content="2018-07-23T05:57:55.259-0400" name="topicBrowsingSortDate" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:importing-and-exporting-data" name="cq:tags" />
+  <meta content="2018-07-23T05:57:55.259-0400" name="lastPublishExternalDate" />
+  <meta content="Exporting logs" name="jcr:description" />
+  <meta content="Exporting logs" name="navTitle" />
+  <meta content="Exporting logs" name="jcr:title" />
+  <meta content="2018-07-25T09:29:59.434-0400" name="cq:lastModified" />
+  <meta content="light" name="heroGradient" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/exporting-logs.html" name="publishExternalURL" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="6617cba6-95bc-4853-ad72-354773705152" name="jcr:uuid" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
  </head>
  <body>
   <p>Log data, whether they are related to deliveries or to subscriptions, can be exported through a simple workflow. It enables you to analyze the results of your campaigns in your own reporting or BI tool.</p> 

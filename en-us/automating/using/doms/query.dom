@@ -1,40 +1,40 @@
 <html> 
  <head> 
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:targeting-activities" name="cq:tags" /> 
-  <meta content="2018-07-23T05:56:56.693-0400" name="cq:lastReplicated" /> 
-  <meta content="2018-07-23T05:56:56.646-0400" name="lastPublishExternalDate" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
+  <meta content="2018-07-23T05:56:56.646-0400" name="publishExternalDate" /> 
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
   <meta content="" name="jcr:versionHistory" /> 
-  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
-  <meta content="19d1b58f-e87d-412a-948b-4b33711008d6" name="jcr:uuid" /> 
-  <meta content="sauviat" name="contentOwner" /> 
-  <meta content="The Query activity allows you to filter and extract a population of elements from the Adobe Campaign database." name="seoDescription" /> 
-  <meta content="" name="jcr:baseVersion" /> 
-  <meta content="2018-07-25T09:29:20.897-0400" name="cq:lastModified" /> 
-  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
-  <meta content="true" name="jcr:isCheckedOut" /> 
-  <meta content="2018-07-25T09:29:20.897-0400" name="locHandOffDate" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
   <meta content="audience:automating" name="primaryAudienceTag" /> 
   <meta content="en_us" name="jcr:language" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="Query" name="jcr:title" /> 
   <meta content="" name="jcr:primaryType" /> 
   <meta content="Query" name="jcr:description" /> 
-  <meta content="2018-07-23T05:56:56.646-0400" name="topicBrowsingSortDate" /> 
-  <meta content="Activate" name="cq:lastReplicationAction" /> 
-  <meta content="2018-03-15T09:02:35.222-0400" name="jcr:created" /> 
-  <meta content="Query" name="jcr:title" /> 
-  <meta content="Query" name="navTitle" /> 
-  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/query.html" name="publishExternalURL" /> 
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
-  <meta content="/etc/designs/help" name="cq:designPath" /> 
   <meta content="sauviat" name="cq:lastReplicatedBy" /> 
-  <meta content="light" name="heroGradient" /> 
-  <meta content="2018-07-23T05:56:56.646-0400" name="publishExternalDate" /> 
-  <meta content="false" name="isReadyForLocalization" /> 
-  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
+  <meta content="2018-07-23T05:56:56.646-0400" name="lastPublishExternalDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/query.html" name="publishExternalURL" /> 
+  <meta content="19d1b58f-e87d-412a-948b-4b33711008d6" name="jcr:uuid" /> 
   <meta content="2018-07-23T05:56:56.646-0400" name="firstPublishExternalDate" /> 
-  <meta content="370ef5ef-76e5-4296-b533-ed042fd5a135" name="jcr:predecessors" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-07-23T05:56:56.693-0400" name="cq:lastReplicated" /> 
   <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-07-25T09:29:20.897-0400" name="locHandOffDate" /> 
+  <meta content="2018-03-15T09:02:35.222-0400" name="jcr:created" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2018-07-25T09:29:20.897-0400" name="cq:lastModified" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="370ef5ef-76e5-4296-b533-ed042fd5a135" name="jcr:predecessors" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-07-23T05:56:56.646-0400" name="topicBrowsingSortDate" /> 
+  <meta content="The Query activity allows you to filter and extract a population of elements from the Adobe Campaign database." name="seoDescription" /> 
   <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="Query" name="navTitle" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:targeting-activities" name="cq:tags" /> 
  </head> 
  <body> 
   <h2>Description</h2> 

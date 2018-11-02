@@ -4,7 +4,7 @@ seo-title: Execution process
 description: Execution process
 seo-description: Learn the main steps of the execution process before using the Adobe Marketing Cloud Triggers integration.
 page-status-flag: never-activated
-uuid: 93bb326a-ea9f-430d-82fe-98b4638c030a
+uuid: 5c21426a-d78e-471b-9e01-e7197cc48c3b
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/integrating/using/execution-process
 contentOwner: sauviat
@@ -15,7 +15,7 @@ audience: integrating
 content-type: reference
 topic-tags: marketing-cloud-triggers
 cq-template: /apps/help/templates/article-3
-discoiquuid: 43e162fb-ef9e-4ee2-8bdd-f9ea85b04eb0
+discoiquuid: 6180c9e4-d67b-4108-bb12-bec877841633
 firstPublishExternalDate: 2018-01-10T15:24:18.399-0500
 herogradient: light
 jcr-created: 2018-01-11T19 01 50.142-0500
@@ -28,7 +28,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Execution process
 publishexternaldate: 2018-01-10T15 24 18.399-0500
 publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/execution-process.html
-sha1: 0c171a7cf00ba0ce68da7c23c9f381e212ba0a8c
+sha1: 5dacae308316beb68a420ef8f5fb5844e2b7d16f
 topicBrowsingSortDate: 2018-01-10T15:24:18.399-0500
 index: y
 internal: n

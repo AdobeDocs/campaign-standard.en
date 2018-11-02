@@ -4,7 +4,7 @@ seo-title: Adobe Campaign Standard - Release Notes
 description: Looking for a specific release of Adobe Campaign Standard?
 seo-description: Looking for a specific release of Adobe Campaign Standard?
 page-status-flag: never-activated
-uuid: 26204f5b-53a8-4880-bcc1-363529a15e66
+uuid: f0ebc72e-3bab-4655-a076-5a4a5e4e34fd
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/rn/acs_rn11
 contentOwner: vignes
@@ -13,7 +13,7 @@ cq-lastmodified: 2017-11-07T07 38 46.006-0500
 cq-lastmodifiedby: vignes
 products: SG_CAMPAIGN
 cq-template: /apps/help/templates/article-3
-discoiquuid: dc179d1f-b328-4d7d-84e5-605071b1f255
+discoiquuid: 46df353e-112e-4b73-b0d0-2d47df5b1e9f
 herogradient: light
 jcr-created: 2017-11-08T19 01 05.004-0500
 jcr-createdby: admin
@@ -22,7 +22,7 @@ jcr-language: en_us
 pagecreatedat: en
 pagelayout: video
 preview: true
-sha1: 82e05c1cbc8b3e4900e1940c848e78b933bbe6d2
+sha1: ac8e99934405eda6308a86508c5b919ec70a32bd
 sidecolumn: none
 index: y
 internal: n

@@ -4,7 +4,7 @@ seo-title: About blacklisting in Campaign
 description: About blacklisting in Campaign
 seo-description: Blacklisting results in a profile no longer being targeted by any delivery or by deliveries from a specific channel.
 page-status-flag: never-activated
-uuid: b570139b-c60c-492c-ac92-a2835dc5bc08
+uuid: 49a52e0c-e275-4a2f-88b7-93c6834664db
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/audiences/using/about-blacklisting-in-campaign
 contentOwner: sauviat
@@ -15,7 +15,7 @@ audience: audiences
 content-type: reference
 topic-tags: understanding-blacklisting-process
 cq-template: /apps/help/templates/article-3
-discoiquuid: 43d723c2-7493-46c3-9d31-fa864c5091ba
+discoiquuid: 3c96b11f-c3f0-4694-b3a5-5e7b7bc1aa32
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 55.199-0400
@@ -26,7 +26,7 @@ jcr-language: en_us
 lochandoffdate: 2018-04-11T07 13 36.597-0400
 navTitle: About blacklisting in Campaign
 publishexternaldate: 2018-03-26
-sha1: c9913eccaedc1901aeb8817b4dcaa2c6430a54c3
+sha1: 3712b6b6402c8d6c92f1a2409dab839822602ec9
 index: y
 internal: n
 snippet: y

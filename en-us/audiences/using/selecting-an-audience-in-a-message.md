@@ -3,7 +3,7 @@ title: Selecting an audience in a message
 seo-title: Selecting an audience in a message
 description: Selecting an audience in a message
 seo-description: Step-be-step procedure to choose audiences of an email: main target population and test profiles.
-uuid: 84fbb498-fbc1-42df-a30e-7e0cd33c283a
+uuid: cb31c809-3ec6-44d3-83b9-cf77ce0fb6fb
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/audiences/using/selecting-an-audience-in-a-message
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 cq-template: /apps/help/templates/article-3
-discoiquuid: a742a64d-70b7-42ff-b74a-e84969fdc73a
+discoiquuid: 510651cf-2831-43f8-a996-cd34bf608c7e
 firstPublishExternalDate: 2018-07-23T05:55:26.706-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Selecting an audience in a message
 publishexternaldate: 2018-07-23T05 55 26.706-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/audiences/using/selecting-an-audience-in-a-message.html
-sha1: 5bc2fd144b30faf40bdac034a867e046e8aa9084
+sha1: d793bfa818546ac2b63b184efaaf81cb8098a0fc
 topicBrowsingSortDate: 2018-07-23T05:55:26.706-0400
 index: y
 internal: n

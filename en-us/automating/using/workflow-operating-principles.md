@@ -3,7 +3,7 @@ title: Workflow operating principles
 seo-title: Workflow operating principles
 description: Workflow operating principles
 seo-description: Learn the main aspects of workflows.
-uuid: 2d3165ba-ca0d-4a91-98dd-18ed74a86405
+uuid: 91672292-dade-4661-8dd3-cc4a72d1af9a
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/workflow-operating-principles
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 cq-template: /apps/help/templates/article-3
-discoiquuid: 71e0becf-40d7-4c32-bc14-6af311f6609a
+discoiquuid: 318ebe23-7233-405a-9ae4-50741efa27c4
 firstPublishExternalDate: 2018-07-23T05:56:46.752-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Workflow operating principles
 publishexternaldate: 2018-07-23T05 56 46.752-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/workflow-operating-principles.html
-sha1: 7f5c894b6543b3446d38262da6979931357312dd
+sha1: 6b7c0263e8b22f4c4525713e13f70a7f495c1be4
 topicBrowsingSortDate: 2018-07-23T05:56:46.752-0400
 index: y
 internal: n

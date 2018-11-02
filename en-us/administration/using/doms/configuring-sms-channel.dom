@@ -1,40 +1,40 @@
 <html> 
  <head> 
-  <meta content="audience:administration" name="primaryAudienceTag" /> 
-  <meta content="2018-07-23T05:53:37.096-0400" name="cq:lastReplicated" /> 
-  <meta content="sauviat" name="contentOwner" /> 
   <meta content="2018-07-25T09:29:22.749-0400" name="cq:lastModified" /> 
-  <meta content="false" name="isReadyForLocalization" /> 
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
-  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
-  <meta content="2018-07-23T05:53:37.044-0400" name="publishExternalDate" /> 
-  <meta content="2018-07-23T05:53:37.044-0400" name="firstPublishExternalDate" /> 
-  <meta content="2018-07-23T05:53:37.044-0400" name="topicBrowsingSortDate" /> 
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:administration;content_type:reference;topic_tags:configuring-channels" name="cq:tags" /> 
-  <meta content="Configuring SMS channel" name="jcr:title" /> 
-  <meta content="" name="jcr:primaryType" /> 
-  <meta content="2018-07-25T09:29:22.749-0400" name="locHandOffDate" /> 
-  <meta content="Activate" name="cq:lastReplicationAction" /> 
-  <meta content="" name="jcr:baseVersion" /> 
-  <meta content="en_us" name="jcr:language" /> 
-  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
-  <meta content="2018-07-23T05:53:37.044-0400" name="lastPublishExternalDate" /> 
-  <meta content="https://helpx.adobe.com/campaign/standard/administration/using/configuring-sms-channel.html" name="publishExternalURL" /> 
-  <meta content="" name="jcr:versionHistory" /> 
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
-  <meta content="admin" name="jcr:createdBy" /> 
-  <meta content="ebc538de-1f90-412c-ac9b-ea768694d188" name="jcr:predecessors" /> 
-  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
-  <meta content="sauviat" name="cq:lastReplicatedBy" /> 
-  <meta content="Configuring SMS channel" name="navTitle" /> 
-  <meta content="light" name="heroGradient" /> 
-  <meta content="d89cd9be-bdb9-4da7-b6f2-450dc445c625" name="jcr:uuid" /> 
-  <meta content="2018-02-16T08:03:05.464-0500" name="jcr:created" /> 
-  <meta content="Configuring SMS channel" name="jcr:description" /> 
-  <meta content="Find out the SMS configuration steps: routing, encoding, formats and advanced properties. " name="seoDescription" /> 
-  <meta content="/etc/designs/help" name="cq:designPath" /> 
   <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:administration;content_type:reference;topic_tags:configuring-channels" name="cq:tags" /> 
+  <meta content="d89cd9be-bdb9-4da7-b6f2-450dc445c625" name="jcr:uuid" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="Configuring SMS channel" name="jcr:description" /> 
+  <meta content="https://helpx.adobe.com/campaign/standard/administration/using/configuring-sms-channel.html" name="publishExternalURL" /> 
+  <meta content="2018-07-25T09:29:22.749-0400" name="locHandOffDate" /> 
+  <meta content="2018-07-23T05:53:37.044-0400" name="lastPublishExternalDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="ebc538de-1f90-412c-ac9b-ea768694d188" name="jcr:predecessors" /> 
+  <meta content="2018-07-23T05:53:37.044-0400" name="firstPublishExternalDate" /> 
+  <meta content="2018-07-23T05:53:37.044-0400" name="publishExternalDate" /> 
+  <meta content="2018-02-16T08:03:05.464-0500" name="jcr:created" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
+  <meta content="Configuring SMS channel" name="navTitle" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="sauviat" name="cq:lastReplicatedBy" /> 
+  <meta content="2018-07-23T05:53:37.044-0400" name="topicBrowsingSortDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-07-23T05:53:37.096-0400" name="cq:lastReplicated" /> 
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="audience:administration" name="primaryAudienceTag" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="Configuring SMS channel" name="jcr:title" /> 
+  <meta content="Find out the SMS configuration steps: routing, encoding, formats and advanced properties. " name="seoDescription" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="light" name="heroGradient" /> 
  </head> 
  <body> 
   <p>To send SMS messages, one or several external accounts must be configured by an administrator under the <strong>Administration</strong> &gt; <strong>Channels</strong> &gt; <strong>SMS</strong> &gt; <strong>SMS accounts</strong> menu.</p> 

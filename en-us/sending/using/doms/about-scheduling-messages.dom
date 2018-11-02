@@ -1,40 +1,40 @@
 <html>
  <head>
+  <meta content="" name="jcr:baseVersion" />
   <meta content="" name="jcr:primaryType" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="About scheduling messages" name="jcr:description" />
-  <meta content="https://helpx.adobe.com/campaign/standard/sending/using/about-scheduling-messages.html" name="publishExternalURL" />
-  <meta content="2018-07-23T06:02:20.146-0400" name="topicBrowsingSortDate" />
-  <meta content="00d75755-2ca4-4fcb-9b33-658d7438b174" name="jcr:uuid" />
-  <meta content="2018-07-23T06:02:20.182-0400" name="cq:lastReplicated" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="2018-07-23T06:02:20.146-0400" name="publishExternalDate" />
-  <meta content="light" name="heroGradient" />
-  <meta content="2018-03-15T09:01:52.411-0400" name="jcr:created" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
   <meta content="f72595f4-ba79-4454-80a3-b18efd3c22e0" name="jcr:predecessors" />
+  <meta content="2018-03-15T09:01:52.411-0400" name="jcr:created" />
+  <meta content="00d75755-2ca4-4fcb-9b33-658d7438b174" name="jcr:uuid" />
+  <meta content="false" name="isReadyForLocalization" />
   <meta content="admin" name="jcr:createdBy" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="About scheduling messages" name="navTitle" />
+  <meta content="2018-07-30T04:53:50.164-0400" name="locHandOffDate" />
+  <meta content="audience:sending" name="primaryAudienceTag" />
   <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="2018-07-30T04:53:50.164-0400" name="cq:lastModified" />
   <meta content="sauviat" name="cq:lastReplicatedBy" />
   <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="About scheduling messages" name="navTitle" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:sending;content_type:reference;topic_tags:sheduling-messages" name="cq:tags" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="About scheduling messages" name="jcr:title" />
   <meta content="2018-07-23T06:02:20.146-0400" name="lastPublishExternalDate" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="audience:sending" name="primaryAudienceTag" />
   <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="2018-07-30T04:53:50.164-0400" name="locHandOffDate" />
+  <meta content="About scheduling messages" name="jcr:title" />
+  <meta content="2018-07-30T04:53:50.164-0400" name="cq:lastModified" />
   <meta content="sauviat" name="contentOwner" />
-  <meta content="Learn how to schedule your messages." name="seoDescription" />
-  <meta content="" name="jcr:baseVersion" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
   <meta content="2018-07-23T06:02:20.146-0400" name="firstPublishExternalDate" />
+  <meta content="https://helpx.adobe.com/campaign/standard/sending/using/about-scheduling-messages.html" name="publishExternalURL" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-07-23T06:02:20.146-0400" name="topicBrowsingSortDate" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-07-23T06:02:20.182-0400" name="cq:lastReplicated" />
+  <meta content="2018-07-23T06:02:20.146-0400" name="publishExternalDate" />
+  <meta content="light" name="heroGradient" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="Learn how to schedule your messages." name="seoDescription" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:sending;content_type:reference;topic_tags:sheduling-messages" name="cq:tags" />
+  <meta content="About scheduling messages" name="jcr:description" />
  </head>
  <body>
   <note>

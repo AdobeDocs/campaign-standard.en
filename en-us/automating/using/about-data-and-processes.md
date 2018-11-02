@@ -3,7 +3,7 @@ title: About data and processes
 seo-title: About data and processes
 description: About data and processes
 seo-description: Learn about processes that you can set up and automate with Adobe Campaign.
-uuid: 623710fe-efb5-485c-ad2f-50b13b7cdc5f
+uuid: a999f162-d998-4ff2-9245-1546a8a44a6f
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/about-data-and-processes
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 cq-template: /apps/help/templates/article-3
-discoiquuid: 6716e56b-4a53-4d5d-82f6-bdd2fb9c3a09
+discoiquuid: 6793f1c1-75da-45cb-813c-9b318a49fb65
 firstPublishExternalDate: 2018-07-23T05:56:44.692-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About data and processes
 publishexternaldate: 2018-07-23T05 56 44.692-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/about-data-and-processes.html
-sha1: 96fdbf70dc4b3287dea71b1b7ba5786c342c4e14
+sha1: 0d40c6e7e58efba95cea3c94c139f0eff635aa90
 topicBrowsingSortDate: 2018-07-23T05:56:44.692-0400
 index: y
 internal: n

@@ -3,7 +3,7 @@ title: Managing test profiles and sending proofs
 seo-title: Managing test profiles and sending proofs
 description: Managing test profiles and sending proofs
 seo-description: Learn how to manage test profiles and proofs.
-uuid: 62d6cf96-ca21-4c92-92e1-ac8c4226daa2
+uuid: 3eb8959a-3c6a-4864-9ef8-ca60c3a85a4d
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/sending/using/managing-test-profiles-and-sending-proofs
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 cq-template: /apps/help/templates/article-3
-discoiquuid: 71563f07-7732-4cf1-9615-053d620dcdfc
+discoiquuid: 5ea39833-1999-40cd-a46c-a399df46a9f4
 firstPublishExternalDate: 2018-07-23T06:02:17.439-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Managing test profiles and sending proofs
 publishexternaldate: 2018-07-23T06 02 17.439-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/sending/using/managing-test-profiles-and-sending-proofs.html
-sha1: 7b3d43283a6dd0b6ecb40cb4717cc83021e5d296
+sha1: 698670668ac497c83acadb4c5d108725d1f848b5
 topicBrowsingSortDate: 2018-07-23T06:02:17.439-0400
 index: y
 internal: n

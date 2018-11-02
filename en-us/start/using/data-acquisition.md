@@ -3,7 +3,7 @@ title: Data acquisition
 seo-title: Data acquisition
 description: Data acquisition
 seo-description: Discover various mechanisms for profile acquisition: online data collection, imports, manual or bulk creation through Campaign APIs.
-uuid: 6f51e34c-f90c-4edb-aa3f-d65bbdbf9e11
+uuid: b63972ab-e28b-4121-8d3e-de2d38153009
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/start/using/data-acquisition
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: start
 content-type: reference
 topic-tags: about-adobe-campaign
 cq-template: /apps/help/templates/article-3
-discoiquuid: da189b45-49fb-4fc2-b580-f7768d09f31f
+discoiquuid: e4d633c1-465d-4d25-98ae-b4cb88fd452f
 firstPublishExternalDate: 2018-07-23T06:00:34.934-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Data acquisition
 publishexternaldate: 2018-07-23T06 00 34.934-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/start/using/data-acquisition.html
-sha1: 1766903e214546c2f21f19a57b17a81fb01323d1
+sha1: b76df810821fd24cebb3224b424a804b1085e273
 topicBrowsingSortDate: 2018-07-23T06:00:34.934-0400
 index: y
 internal: n

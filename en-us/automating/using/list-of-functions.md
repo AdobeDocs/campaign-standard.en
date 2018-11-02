@@ -3,7 +3,7 @@ title: List of functions
 seo-title: List of functions
 description: List of functions
 seo-description: The query editing tool allows you to use advanced functions to carry out complex filtering.
-uuid: 4dc28ee4-6b41-4c6b-9c85-a675ec08eac1
+uuid: ffedbef8-7392-496b-be52-5ee9d79707a9
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/list-of-functions
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: filtering-data
 cq-template: /apps/help/templates/article-3
-discoiquuid: 1510144e-f986-4c27-8d24-8d15d92991b4
+discoiquuid: f39d6e6f-2757-4696-9dc4-f00809324188
 firstPublishExternalDate: 2018-07-23T05:57:48.648-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: List of functions
 publishexternaldate: 2018-07-23T05 57 48.648-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/list-of-functions.html
-sha1: 0744dbaa57298dfd4f2471a57ccc5836168bfc08
+sha1: d86a50b8405f02c43f61eed644c495749444430d
 topicBrowsingSortDate: 2018-07-23T05:57:48.648-0400
 index: y
 internal: n

@@ -3,7 +3,7 @@ title: Editing the content source in HTML
 seo-title: Editing the content source in HTML
 description: Editing the content source in HTML
 seo-description: 
-uuid: 0ce4b25a-4112-4638-8157-a5a2d5164ccb
+uuid: 78c92e41-480c-4c4d-9a22-59825066f076
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/editing-the-content-source-in-html
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: designing-email-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: e7c6242c-d148-4e56-b719-0bea237e36a6
+discoiquuid: 94a6e916-7aa6-44a7-a786-9acaf2801cd2
 firstPublishExternalDate: 2018-06-14T08:43:55.493-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Editing the content source in HTML
 publishexternaldate: 2018-06-14T08 43 55.493-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/editing-the-content-source-in-html.html
-sha1: 7363133fb514685c16479013ab11a0d309024fca
+sha1: 2b4759b8322f69a2e2c2e1ee295a411aedb16d4c
 topicBrowsingSortDate: 2018-06-14T08:43:55.493-0400
 index: y
 internal: n

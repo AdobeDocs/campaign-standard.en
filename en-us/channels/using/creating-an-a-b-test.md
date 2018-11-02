@@ -4,7 +4,7 @@ seo-title: Creating an A/B test
 description: Creating an A/B test
 seo-description: Discover the A/B test functionality and follow these steps to create an email from an A/B test template in Adobe Campaign.
 page-status-flag: never-activated
-uuid: afaf9e2e-3031-40d7-9e58-a1d71f817d9d
+uuid: 19d51b37-9f38-4de1-9748-e68c6d447b52
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/creating-an-a-b-test
 contentOwner: sauviat
@@ -15,7 +15,7 @@ audience: channels
 content-type: reference
 topic-tags: email-messages
 cq-template: /apps/help/templates/article-3
-discoiquuid: 88b7f044-32a8-4878-aca6-f1d20659f9f8
+discoiquuid: 59824c00-0d2a-4a9a-9dcf-a3f6f61304c6
 firstPublishExternalDate: 2017-11-16T10:51:05.033-0500
 herogradient: light
 isreadyforlocalization: false
@@ -30,7 +30,7 @@ lr-lastreplicatedby: wmyersta@adobe.com
 navTitle: Creating an A/B test
 publishexternaldate: 2017-11-16T10 51 05.033-0500
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/creating-an-a-b-test.html
-sha1: 92bb769621b0328534e4b3540ec69151bf8c5109
+sha1: b298fd04b069953cb4fd0695f06b4d6f493f217c
 topicBrowsingSortDate: 2017-11-16T10:51:05.033-0500
 index: y
 internal: n

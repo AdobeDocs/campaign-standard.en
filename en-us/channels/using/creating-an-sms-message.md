@@ -3,7 +3,7 @@ title: Creating an SMS message
 seo-title: Creating an SMS message
 description: Creating an SMS message
 seo-description: Follow these steps to create a single-send SMS message in Adobe Campaign.
-uuid: b9fb940b-8886-47ec-bf59-4c55b7d2b001
+uuid: 42f685eb-1560-4b67-81d0-d74ff76aa4dd
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/creating-an-sms-message
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: channels
 content-type: reference
 topic-tags: sms-messages
 cq-template: /apps/help/templates/article-3
-discoiquuid: 35a4ab87-028b-4786-9ccb-e18235355488
+discoiquuid: 598a1de8-57a9-4782-bca4-d30ce58190e1
 firstPublishExternalDate: 2018-07-23T06:02:46.072-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Creating an SMS message
 publishexternaldate: 2018-07-23T06 02 46.072-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/creating-an-sms-message.html
-sha1: 89401d07939204ef2caf2f4cb2c55e622fcc25d9
+sha1: 4db50c2883f47c90f4abaeb6db62267428d790b9
 topicBrowsingSortDate: 2018-07-23T06:02:46.072-0400
 index: y
 internal: n

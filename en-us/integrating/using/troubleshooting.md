@@ -3,7 +3,7 @@ title: Troubleshooting
 seo-title: Troubleshooting
 description: Troubleshooting
 seo-description: 
-uuid: 15ae5adf-7bc3-47a3-9d50-d924a7647861
+uuid: d509e1cb-2dfe-4fea-b485-9e02c432aee9
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/integrating/using/troubleshooting
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 cq-template: /apps/help/templates/article-3
-discoiquuid: ea06d194-543e-4b0f-85cf-1a8d55052b8d
+discoiquuid: 906d0f84-2cb9-4f9f-bbc3-37828789b9c7
 firstPublishExternalDate: 2018-07-23T05:59:41.559-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Troubleshooting
 publishexternaldate: 2018-07-23T05 59 41.559-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/troubleshooting.html
-sha1: 138e61e598f494bae56ceaee97f576bdf76cc017
+sha1: f4b40b953455d38c608cfd6ff7b94a301b153d68
 topicBrowsingSortDate: 2018-07-23T05:59:41.559-0400
 index: y
 internal: n

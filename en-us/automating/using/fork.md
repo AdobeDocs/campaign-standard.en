@@ -3,7 +3,7 @@ title: Fork
 seo-title: Fork
 description: Fork
 seo-description: The Fork activity allows you to create outbound transitions to start several activities at the same time.
-uuid: e4a4c03c-18ae-462f-84bb-af4ae2f84de3
+uuid: 62944ec3-663f-4cbd-a243-dc01f95482eb
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/fork
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: 82cc659a-ebf2-40ee-a638-4e8afd13f14a
+discoiquuid: 9ed9d42c-d0c3-423e-a532-14362363f7df
 firstPublishExternalDate: 2018-07-23T05:57:12.826-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Fork
 publishexternaldate: 2018-07-23T05 57 12.826-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/fork.html
-sha1: 83dbf147488f7166c3da38241135822525343fa0
+sha1: 2f64430c1a2b7165c00810f736dbf3d6cbc9f7f0
 topicBrowsingSortDate: 2018-07-23T05:57:12.826-0400
 index: y
 internal: n

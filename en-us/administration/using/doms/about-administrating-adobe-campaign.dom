@@ -1,41 +1,41 @@
 <html>
  <head>
-  <meta content="sauviat" name="contentOwner" />
+  <meta content="a9104ac5-0bc4-4806-a694-85204bd49aa5" name="jcr:predecessors" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2018-07-23T05:53:19.581-0400" name="lastPublishExternalDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-03-15T09:01:07.428-0400" name="jcr:created" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-07-23T05:53:19.581-0400" name="firstPublishExternalDate" />
   <meta content="About Administrating Adobe Campaign" name="jcr:title" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-07-25T09:29:10.507-0400" name="locHandOffDate" />
+  <meta content="https://helpx.adobe.com/campaign/standard/administration/using/about-administrating-adobe-campaign.html" name="publishExternalURL" />
+  <meta content="2018-07-25T09:29:10.507-0400" name="cq:lastModified" />
   <meta content="Adobe Campaign provides you with a complete set of administration tools. Learn how to manage your users and configure your channels." name="seoDescription" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:administration;content_type:reference;topic_tags:about-administrating-adobe-campaign" name="cq:tags" />
+  <meta content="About Administrating Adobe Campaign" name="jcr:description" />
+  <meta content="audience:administration" name="primaryAudienceTag" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="2018-07-23T05:53:19.622-0400" name="cq:lastReplicated" />
+  <meta content="About Administrating Adobe Campaign" name="navTitle" />
+  <meta content="f4ec1429-963b-402f-ac32-1950c9569be2" name="jcr:uuid" />
   <meta content="2018-07-23T05:53:19.581-0400" name="publishExternalDate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-07-23T05:53:19.581-0400" name="topicBrowsingSortDate" />
+  <meta content="/content/help/en/campaign/standard/administration/morehelp/about-administrating-adobe-campaign;/content/help/en/campaign/standard/administration/morehelp/about-administrating-adobe-campaign" name="moreHelpPaths" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
   <meta content="admin" name="jcr:createdBy" />
   <meta content="" name="jcr:primaryType" />
-  <meta content="2018-07-23T05:53:19.581-0400" name="firstPublishExternalDate" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="About Administrating Adobe Campaign" name="navTitle" />
-  <meta content="/content/help/en/campaign/standard/administration/morehelp/about-administrating-adobe-campaign;/content/help/en/campaign/standard/administration/morehelp/about-administrating-adobe-campaign" name="moreHelpPaths" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:administration;content_type:reference;topic_tags:about-administrating-adobe-campaign" name="cq:tags" />
-  <meta content="https://helpx.adobe.com/campaign/standard/administration/using/about-administrating-adobe-campaign.html" name="publishExternalURL" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="2018-07-23T05:53:19.622-0400" name="cq:lastReplicated" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="f4ec1429-963b-402f-ac32-1950c9569be2" name="jcr:uuid" />
-  <meta content="light" name="heroGradient" />
-  <meta content="2018-07-23T05:53:19.581-0400" name="topicBrowsingSortDate" />
-  <meta content="a9104ac5-0bc4-4806-a694-85204bd49aa5" name="jcr:predecessors" />
-  <meta content="2018-07-25T09:29:10.507-0400" name="locHandOffDate" />
-  <meta content="About Administrating Adobe Campaign" name="jcr:description" />
-  <meta content="2018-07-25T09:29:10.507-0400" name="cq:lastModified" />
-  <meta content="2018-07-23T05:53:19.581-0400" name="lastPublishExternalDate" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="audience:administration" name="primaryAudienceTag" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="2018-03-15T09:01:07.428-0400" name="jcr:created" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
  </head>
  <body>
   <p>As a cloud-based solution, Adobe Campaign offers administrators different ways to configure the application. Though the infrastructure configuration is performed by Adobe, functional administrators can:</p> 

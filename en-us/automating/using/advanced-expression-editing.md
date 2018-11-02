@@ -3,7 +3,7 @@ title: Advanced expression editing
 seo-title: Advanced expression editing
 description: Advanced expression editing
 seo-description: The query edition wizard allows you to define advanced expressions.
-uuid: ec20a09f-7bc6-4948-80bd-b99d68ab6e85
+uuid: 5fe10282-bf13-463a-bd46-a592ee65408e
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/advanced-expression-editing
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: filtering-data
 cq-template: /apps/help/templates/article-3
-discoiquuid: 463c8bb0-e62c-4a51-8ecc-e418407ecabd
+discoiquuid: ceffd5bc-ba36-4086-82a7-b0b0b954b666
 firstPublishExternalDate: 2018-07-23T05:57:46.292-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Advanced expression editing
 publishexternaldate: 2018-07-23T05 57 46.292-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/advanced-expression-editing.html
-sha1: 402242af386dd16b0071a96b244c515e97909d2a
+sha1: 64fa365c417520ce48ce772820c494865296e097
 topicBrowsingSortDate: 2018-07-23T05:57:46.292-0400
 index: y
 internal: n

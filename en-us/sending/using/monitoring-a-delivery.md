@@ -3,7 +3,7 @@ title: Monitoring a delivery
 seo-title: Monitoring a delivery
 description: Monitoring a delivery
 seo-description: Discover how to monitor a delivery.
-uuid: 8b629be9-da18-43ec-93cc-fe4a99f27f39
+uuid: 5f07ab09-ff42-4ee7-b1bf-80368e531e3e
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/sending/using/monitoring-a-delivery
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 cq-template: /apps/help/templates/article-3
-discoiquuid: a153922d-5f0c-4317-8aff-c05038793622
+discoiquuid: c8881c7a-7fe7-4061-8a4a-830a8e2bf830
 firstPublishExternalDate: 2018-07-23T06:02:26.502-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Monitoring a delivery
 publishexternaldate: 2018-07-23T06 02 26.502-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/sending/using/monitoring-a-delivery.html
-sha1: 025007e5ebc43c09ee66d704b25062fde0dca269
+sha1: 6c8db0756e8fd0f2e814652c49d43e06900976a4
 topicBrowsingSortDate: 2018-07-23T06:02:26.502-0400
 index: y
 internal: n

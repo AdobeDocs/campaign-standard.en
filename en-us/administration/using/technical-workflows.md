@@ -3,7 +3,7 @@ title: Technical workflows
 seo-title: Technical workflows
 description: Technical workflows
 seo-description: Technical workflows are out-of-the-box workflows designed to handle background technical processes in Adobe Campaign, ensuring correct behaviour of the platform.
-uuid: 68c29594-0f32-4bad-bf1f-4e34f14c8636
+uuid: 1659eb50-8d07-4022-8e7d-000c7148ad0d
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/technical-workflows
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 cq-template: /apps/help/templates/article-3
-discoiquuid: 39471d3b-8d67-4e18-8f97-86482ea30673
+discoiquuid: 533dafe0-be1d-4719-b691-58f04af6dc40
 firstPublishExternalDate: 2018-07-23T05:53:58.852-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Technical workflows
 publishexternaldate: 2018-07-23T05 53 58.852-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/technical-workflows.html
-sha1: 2c3fc7c6ec137b2b3c82106a88e5315ca5299fe1
+sha1: 66a69926c8189832a3e1e5a1fd9d1c8dfaab28b3
 topicBrowsingSortDate: 2018-07-23T05:53:58.852-0400
 index: y
 internal: n

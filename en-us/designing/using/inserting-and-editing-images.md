@@ -3,7 +3,7 @@ title: Inserting and editing images
 seo-title: Inserting and editing images
 description: Inserting and editing images
 seo-description: Learn how to add images to your emails.
-uuid: 253a2cb5-a7ca-4653-93c8-60c7e89678da
+uuid: add81ede-9bef-4c85-90a8-151cddf0774d
 content-encoding: UTF-8
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/inserting-and-editing-images
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: designing-email-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: 0e41d771-af55-4be4-ab79-e0caf1506423
+discoiquuid: cd679774-d499-4afd-b171-ac7e4072f553
 firstPublishExternalDate: 2018-06-14T08:43:52.143-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Inserting and editing images
 publishexternaldate: 2018-06-14T08 43 52.143-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/inserting-and-editing-images.html
-sha1: 5356a2059e1e9b5f2f8a3d567204806269c5c223
+sha1: ce3373eab5482bf53d784d1dcb0c91b105f31a0d
 topicBrowsingSortDate: 2018-06-14T08:43:52.143-0400
 index: y
 internal: n

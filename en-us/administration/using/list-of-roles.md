@@ -3,7 +3,7 @@ title: List of roles
 seo-title: List of roles
 description: List of roles
 seo-description: Find out the list of roles that you can assign to your users.
-uuid: f592648e-9973-406e-9ebd-d7c4418f5ce7
+uuid: 68458128-f636-4e88-a0c8-9cb1cf0f1154
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/list-of-roles
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: administration
 content-type: reference
 topic-tags: users-e-security
 cq-template: /apps/help/templates/article-3
-discoiquuid: 1d1c285e-3634-4609-b113-e38b70094c92
+discoiquuid: f2c37b3d-039f-4a9b-ac3e-6072ac43eaf1
 firstPublishExternalDate: 2018-07-23T05:53:25.294-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: List of roles
 publishexternaldate: 2018-07-23T05 53 25.294-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/list-of-roles.html
-sha1: 90d808b233b3f6613914c68b57bb02ed2559cea6
+sha1: 2ada17f1a169ef6619afde6cd83a924f18c8d3ea
 topicBrowsingSortDate: 2018-07-23T05:53:25.294-0400
 index: y
 internal: n

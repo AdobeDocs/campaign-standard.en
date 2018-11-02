@@ -3,7 +3,7 @@ title: Bounce summary
 seo-title: Bounce summary
 description: Bounce summary
 seo-description: With the Bounce summary out-of-the-box report, learn about the status of your sent campaigns and errors they may have encountered.
-uuid: 60f0efed-1dcc-4d20-8863-03a32d757a84
+uuid: 2a2ff277-f8cf-426c-bd06-f6471df106a4
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/reporting/using/bounce-summary
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 cq-template: /apps/help/templates/article-3
-discoiquuid: 478241f6-c6be-49cb-bf48-a9afb41514c7
+discoiquuid: febf659b-3786-48e7-8d63-cbc2dd8e60e8
 firstPublishExternalDate: 2018-07-23T06:00:14.715-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Bounce summary
 publishexternaldate: 2018-07-23T06 00 14.715-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/bounce-summary.html
-sha1: 2c7d513e7997af4239475d23fea2759ce76e3051
+sha1: 9590eaef16f0f83d21ab233c7c18e538377a3c99
 topicBrowsingSortDate: 2018-07-23T06:00:14.715-0400
 index: y
 internal: n

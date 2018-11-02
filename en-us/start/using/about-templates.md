@@ -3,7 +3,7 @@ title: About templates
 seo-title: About templates
 description: About templates
 seo-description: Adobe Campaign templates allow you to pre-configure parameters depending on your needs: templates may contain a full or partial configuration of the marketing activity, to simplify Adobe Campaign usage for non-technical end users.
-uuid: 9325787f-df77-4b3f-8d0d-cacf0ce601d5
+uuid: 6ac320a7-c170-4c77-b9d7-28e3a4f593b4
 content-encoding: UTF-8
 aemsrcnodepath: /content/help/en/campaign/standard/start/using/about-templates
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: start
 content-type: reference
 topic-tags: managing-templates
 cq-template: /apps/help/templates/article-3
-discoiquuid: 14501da0-7935-4014-84a7-381fc7c21801
+discoiquuid: a278b0a0-b01e-46ce-be9a-e2998658162c
 firstPublishExternalDate: 2018-07-23T06:00:46.942-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About templates
 publishexternaldate: 2018-07-23T06 00 46.942-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/start/using/about-templates.html
-sha1: c3b2464e627fb9cbc62bb8973c3d2fe6cee48f0a
+sha1: d28e85244056ce1604acdf47ad22927072d28072
 topicBrowsingSortDate: 2018-07-23T06:00:46.942-0400
 index: y
 internal: n

@@ -3,7 +3,7 @@ title: Delivery throughput
 seo-title: Delivery throughput
 description: Delivery throughput
 seo-description: With the Delivery throughput out-of-the-box report, learn about the success of your delivery.
-uuid: 23a2434a-8a2f-4baa-a9ac-aba3386d1798
+uuid: e78cced7-ca20-4efa-a50b-07372a62ca65
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/reporting/using/delivery-throughput
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 cq-template: /apps/help/templates/article-3
-discoiquuid: 1ba75f8f-9dd3-48a4-ae35-b3e81a7598b3
+discoiquuid: 98b3e417-f62b-401e-a9a5-2ffab9ca8227
 firstPublishExternalDate: 2018-07-23T06:00:15.511-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Delivery throughput
 publishexternaldate: 2018-07-23T06 00 15.511-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/delivery-throughput.html
-sha1: 77935e55a3fdcf1e4f75e13afcd13d4c2881238b
+sha1: 62ddbcfb0d9ce5a46a65bd829ce6a4c567fb1a1c
 topicBrowsingSortDate: 2018-07-23T06:00:15.511-0400
 index: y
 internal: n

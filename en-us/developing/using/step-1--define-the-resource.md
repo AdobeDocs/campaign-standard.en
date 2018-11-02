@@ -3,7 +3,7 @@ title: Step 1: Define the resource
 seo-title: Step 1: Define the resource
 description: Step 1: Define the resource
 seo-description: Discover how to define a resource from scratch.
-uuid: c87463fd-0c2a-4b21-a90c-2c73ca9cfe9e
+uuid: 0d5641b1-7b61-4b29-997e-a531f80d661d
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/developing/using/step-1--define-the-resource
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 cq-template: /apps/help/templates/article-3
-discoiquuid: 8747520a-d223-417f-a9a2-2652db4d1787
+discoiquuid: 9b391075-bc52-427f-ac47-f22fdfbfe35e
 firstPublishExternalDate: 2018-07-23T05:59:07.707-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Step 1: Define the resource
 publishexternaldate: 2018-07-23T05 59 07.707-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/step-1--define-the-resource.html
-sha1: f88dc44644ff68cd9411bbfd09921686ba6efc3b
+sha1: 6c8632a7f1eb151249e896b7e6b81b77df1d9843
 topicBrowsingSortDate: 2018-07-23T05:59:07.707-0400
 index: y
 internal: n

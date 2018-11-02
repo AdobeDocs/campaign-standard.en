@@ -3,7 +3,7 @@ title: Configuring email channel
 seo-title: Configuring email channel
 description: Configuring email channel
 seo-description: Learn how to configure the email channel.
-uuid: 8cdec653-3436-4f93-8dd6-4118b0621a59
+uuid: fa8e095b-6693-497b-a38c-0990eb565543
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/configuring-email-channel
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 cq-template: /apps/help/templates/article-3
-discoiquuid: 18f3c034-ac81-42d7-a9cb-dbb82954d445
+discoiquuid: 532568a8-f7d5-4131-a5fc-e49083d0acce
 firstPublishExternalDate: 2018-07-23T05:53:33.788-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Configuring email channel
 publishexternaldate: 2018-07-23T05 53 33.788-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/configuring-email-channel.html
-sha1: 13feee24e1241d50f04383d0e1a548ed29725c11
+sha1: 2eae8909dd4b5ed49803ff52d132ff6925189c99
 topicBrowsingSortDate: 2018-07-23T05:53:33.788-0400
 index: y
 internal: n

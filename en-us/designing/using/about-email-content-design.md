@@ -3,7 +3,7 @@ title: About email content design
 seo-title: About email content design
 description: About email content design
 seo-description: Discover the two editors that enable you to design content for your emails.
-uuid: 12b82906-9fcb-400e-ae93-4150e1823991
+uuid: 37527e6b-ce4b-41c9-9c74-df4b7f0eefa5
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/about-email-content-design
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: 12ae8cbf-609a-41d3-9bfc-4c40fa7caec7
+discoiquuid: d11d5ca8-d07e-4cc2-878a-9853d6e3dfbb
 firstPublishExternalDate: 2018-07-23T05:57:31.327-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About email content design
 publishexternaldate: 2018-07-23T08 13 18.033-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/about-email-content-design.html
-sha1: b84ceee46207683070e988c236b6f115cd122fa7
+sha1: bc444840da755e6f28155c52072900fba23ee835
 topicBrowsingSortDate: 2018-07-23T08:13:18.033-0400
 index: y
 internal: n

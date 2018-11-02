@@ -3,7 +3,7 @@ title: Inserting images
 seo-title: Inserting images
 description: Inserting images
 seo-description: Learn how to add images to your content.
-uuid: 6a2a33d5-eb5c-406c-94b7-3053ff5168e0
+uuid: 591df892-cec6-42ec-9dcc-a31de861884c
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/inserting-images
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: using-images
 cq-template: /apps/help/templates/article-3
-discoiquuid: 499e95da-de6f-40d1-8989-e32635fc167a
+discoiquuid: 11adf3a3-a459-4658-b335-b976bea25917
 firstPublishExternalDate: 2018-07-23T05:58:30.044-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Inserting images
 publishexternaldate: 2018-07-23T08 13 42.654-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/inserting-images.html
-sha1: 1c21cf8730dd80109a4a75ae754ea4034e8e239b
+sha1: a0b1e8dc636cac8ac8a9277be5ece1eb029dd491
 topicBrowsingSortDate: 2018-07-23T08:13:42.654-0400
 index: y
 internal: n

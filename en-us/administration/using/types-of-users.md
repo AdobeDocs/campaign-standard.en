@@ -3,7 +3,7 @@ title: Types of users
 seo-title: Types of users
 description: Types of users
 seo-description: Adobe Campaign users hold specific roles. Discover the main user types. 
-uuid: bc395776-37a6-4383-a3a8-b201d5fe8b1c
+uuid: fbe5ad21-bb4c-401f-9139-60ece740152a
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/types-of-users
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: administration
 content-type: reference
 topic-tags: users-e-security
 cq-template: /apps/help/templates/article-3
-discoiquuid: b9113062-6bbc-407a-87cf-32e3cca0e121
+discoiquuid: 09563aec-c343-44ae-88e9-6adf23bb5c85
 firstPublishExternalDate: 2018-07-23T05:53:21.847-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Types of users
 publishexternaldate: 2018-07-23T05 53 21.847-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/types-of-users.html
-sha1: 69b12e43362d279f964d2780fbd412062b7eb2ee
+sha1: cdaecace453db639582029f62d1460e70ca6b3c4
 topicBrowsingSortDate: 2018-07-23T05:53:21.847-0400
 index: y
 internal: n

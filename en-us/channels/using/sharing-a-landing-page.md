@@ -3,7 +3,7 @@ title: Sharing a landing page
 seo-title: Sharing a landing page
 description: Sharing a landing page
 seo-description: Learn how to test and publish a landing page in Adobe Campaign.
-uuid: f60cdcf5-17d4-4c6a-9ce7-0fda17891d6d
+uuid: 1468636f-62d0-44ce-9010-d8efb697cb8e
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/sharing-a-landing-page
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 cq-template: /apps/help/templates/article-3
-discoiquuid: c40184b8-f6e4-490e-b453-9aa74723980f
+discoiquuid: f70b508e-0fc7-4f27-846f-fa6dff6b5ad1
 firstPublishExternalDate: 2018-07-23T06:03:17.746-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Sharing a landing page
 publishexternaldate: 2018-07-23T06 03 17.746-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/sharing-a-landing-page.html
-sha1: a30a6dcc29f9df47a56b20f366e0b1b57332fd7a
+sha1: 78b072db5a1e71575ee08b6cbdadbb07aec71854
 topicBrowsingSortDate: 2018-07-23T06:03:17.746-0400
 index: y
 internal: n

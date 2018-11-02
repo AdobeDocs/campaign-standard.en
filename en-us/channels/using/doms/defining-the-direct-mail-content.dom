@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="2018-07-23T06:02:57.566-0400" name="lastPublishExternalDate" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="Learn how to define the content for your direct mail delivery." name="seoDescription" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="2018-03-15T09:02:07.731-0400" name="jcr:created" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="a075d937-e7de-4ce4-8a45-140fb0961831" name="jcr:uuid" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="Defining the direct mail content" name="jcr:title" />
-  <meta content="2018-07-23T06:02:57.598-0400" name="cq:lastReplicated" />
+  <meta content="en_us" name="jcr:language" />
   <meta content="sauviat" name="contentOwner" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="Defining the direct mail content" name="jcr:description" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:channels;content_type:reference;topic_tags:direct-mail" name="cq:tags" />
-  <meta content="2018-07-23T06:02:57.566-0400" name="firstPublishExternalDate" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="f18c09f6-e8bd-44da-b37b-6de3b6949db5" name="jcr:predecessors" />
-  <meta content="" name="jcr:primaryType" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="light" name="heroGradient" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
   <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="https://helpx.adobe.com/campaign/standard/channels/using/defining-the-direct-mail-content.html" name="publishExternalURL" />
-  <meta content="2018-07-30T04:54:04.086-0400" name="cq:lastModified" />
+  <meta content="Defining the direct mail content" name="jcr:description" />
+  <meta content="2018-07-23T06:02:57.566-0400" name="publishExternalDate" />
   <meta content="/etc/designs/help" name="cq:designPath" />
   <meta content="2018-07-23T06:02:57.566-0400" name="topicBrowsingSortDate" />
+  <meta content="" name="jcr:primaryType" />
   <meta content="Defining the direct mail content" name="navTitle" />
   <meta content="audience:channels" name="primaryAudienceTag" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="2018-07-30T04:54:04.086-0400" name="locHandOffDate" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="light" name="heroGradient" />
-  <meta content="2018-07-23T06:02:57.566-0400" name="publishExternalDate" />
+  <meta content="2018-07-23T06:02:57.598-0400" name="cq:lastReplicated" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-03-15T09:02:07.731-0400" name="jcr:created" />
   <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="Learn how to define the content for your direct mail delivery." name="seoDescription" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:channels;content_type:reference;topic_tags:direct-mail" name="cq:tags" />
+  <meta content="2018-07-23T06:02:57.566-0400" name="firstPublishExternalDate" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-07-30T04:54:04.086-0400" name="cq:lastModified" />
+  <meta content="2018-07-23T06:02:57.566-0400" name="lastPublishExternalDate" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="f18c09f6-e8bd-44da-b37b-6de3b6949db5" name="jcr:predecessors" />
+  <meta content="a075d937-e7de-4ce4-8a45-140fb0961831" name="jcr:uuid" />
+  <meta content="https://helpx.adobe.com/campaign/standard/channels/using/defining-the-direct-mail-content.html" name="publishExternalURL" />
+  <meta content="Defining the direct mail content" name="jcr:title" />
+  <meta content="2018-07-30T04:54:04.086-0400" name="locHandOffDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
  </head>
  <body>
   <p>You can either define the content in the last screen of the creation wizard or by clicking on the <strong>Content</strong> section of the delivery dashboard.</p> 

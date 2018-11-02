@@ -3,7 +3,7 @@ title: Release Notes
 seo-title: Release Notes
 description: Release Notes
 seo-description: This page lists all 2017 and 2018 releases of Adobe Campaign Standard.
-uuid: 9d0b21b0-70d1-48d4-a40c-ef719a7a97a7
+uuid: 0e40df77-d328-4d7c-b955-53bca3201537
 content-encoding: UTF-8
 aemsrcnodepath: /content/help/en/campaign/standard/rn/using/release-notes
 contentOwner: sauviat
@@ -18,7 +18,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 cq-template: /apps/help/templates/article-3
-discoiquuid: b46e575d-d311-47fa-909f-b849b5bf0be9
+discoiquuid: f305d4b3-2e38-4b72-b80e-43cf081795e8
 firstPublishExternalDate: 2018-07-23T06:03:01.202-0400
 firstpublishinternaldate: 2018-07-27T13 20 42.288-0400
 herogradient: light
@@ -39,7 +39,7 @@ publishexternaldate: 2018-08-01T05 09 54.204-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/rn/using/release-notes.html
 publishinternaldate: 2018-08-01T05 09 54.204-0400
 publishinternalurl: https //helpx-internal.corp.adobe.com/content/help/en/campaign/standard/rn/using/release-notes.html
-sha1: 4073af6a48b021bfa9d61b9709809887a5dd9827
+sha1: 459877e26d4e19207b52bcd98038d1872bb2f440
 topicBrowsingSortDate: 2018-08-01T05:09:54.204-0400
 index: y
 internal: n

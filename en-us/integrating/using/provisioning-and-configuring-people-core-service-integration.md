@@ -4,7 +4,7 @@ seo-title: Provisioning and configuring People core service integration
 description: Provisioning and configuring People core service integration
 seo-description: Learn how to configure the People core service integration to start sharing audiences or segments with the different Adobe Marketing Cloud solutions. 
 page-status-flag: never-activated
-uuid: 1cec882a-9bc3-4390-82b8-fa7bb85c547f
+uuid: 8150bd7b-13e9-4a44-b290-66243afb5685
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/integrating/using/provisioning-and-configuring-people-core-service-integration
 contentOwner: sauviat
@@ -15,7 +15,7 @@ audience: integrating
 content-type: reference
 topic-tags: people-core-service-integration
 cq-template: /apps/help/templates/article-3
-discoiquuid: 4fd5f62e-ede3-42e3-bd87-3b9e11be29a7
+discoiquuid: 00833d90-2e3d-458c-8c9f-47056ee2e9a6
 firstPublishExternalDate: 2018-01-10T15:24:10.078-0500
 herogradient: light
 jcr-created: 2018-01-11T19 02 43.950-0500
@@ -29,7 +29,7 @@ moreHelpPaths: /content/help/en/campaign/standard/integrating/morehelp/people-co
 navTitle: Provisioning and configuring People core service integration
 publishexternaldate: 2018-01-10T15 24 10.078-0500
 publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/provisioning-and-configuring-people-core-service-integration.html
-sha1: bd386c35b2d55a45979fce80e8d731f609cdfb84
+sha1: 906ccd57a3e85c0362e6ad3b1c2cfaeeaa9f74ab
 topicBrowsingSortDate: 2018-01-10T15:24:10.078-0500
 index: y
 internal: n

@@ -3,7 +3,7 @@ title: Adding panels
 seo-title: Adding panels
 description: Adding panels
 seo-description: Dynamic report allows you to add panel to better filter your data depending on the chosen time period.
-uuid: 537b921a-57f1-423c-b239-c9acc0b7aaa0
+uuid: 6ca5b698-5c2e-45da-9321-c09f3d780603
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/reporting/using/adding-panels
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: reporting
 content-type: reference
 topic-tags: customizing-reports
 cq-template: /apps/help/templates/article-3
-discoiquuid: 55972943-13a1-4a92-8070-5594234d769a
+discoiquuid: a65ddde9-c685-4eec-be1e-fe56038fa622
 firstPublishExternalDate: 2018-07-23T06:00:24.789-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Adding panels
 publishexternaldate: 2018-07-23T06 00 24.789-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/adding-panels.html
-sha1: 8be7d8f6d960a096d3143f17daf8f618e4acee09
+sha1: 0c568efd4d3c529b21276ada855ea8bc540b0ded
 topicBrowsingSortDate: 2018-07-23T06:00:24.789-0400
 index: y
 internal: n

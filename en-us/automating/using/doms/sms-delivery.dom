@@ -1,40 +1,40 @@
 <html> 
  <head> 
-  <meta content="/etc/designs/help" name="cq:designPath" /> 
-  <meta content="2018-03-15T09:02:56.153-0400" name="jcr:created" /> 
-  <meta content="light" name="heroGradient" /> 
-  <meta content="2018-07-25T09:29:44.786-0400" name="cq:lastModified" /> 
-  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/sms-delivery.html" name="publishExternalURL" /> 
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:channel-activities" name="cq:tags" /> 
-  <meta content="SMS delivery" name="jcr:title" /> 
-  <meta content="86f525c1-f701-42b8-96e8-9cae6bee9d7b" name="jcr:predecessors" /> 
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
-  <meta content="2018-07-23T05:57:20.870-0400" name="cq:lastReplicated" /> 
-  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
-  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
-  <meta content="Activate" name="cq:lastReplicationAction" /> 
-  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
   <meta content="1ba6e99b-7475-4799-a591-446fa28a9dec" name="jcr:uuid" /> 
-  <meta content="The SMS delivery activity allows you to configure sending a single send SMS or a recurring SMS in a workflow." name="seoDescription" /> 
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
-  <meta content="2018-07-23T05:57:20.832-0400" name="publishExternalDate" /> 
-  <meta content="2018-07-23T05:57:20.832-0400" name="firstPublishExternalDate" /> 
-  <meta content="SMS delivery" name="jcr:description" /> 
-  <meta content="SMS delivery" name="navTitle" /> 
-  <meta content="true" name="jcr:isCheckedOut" /> 
-  <meta content="2018-07-23T05:57:20.832-0400" name="topicBrowsingSortDate" /> 
-  <meta content="en_us" name="jcr:language" /> 
-  <meta content="" name="jcr:primaryType" /> 
-  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/sms-delivery.html" name="publishExternalURL" /> 
   <meta content="audience:automating" name="primaryAudienceTag" /> 
-  <meta content="2018-07-23T05:57:20.832-0400" name="lastPublishExternalDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2018-07-23T05:57:20.832-0400" name="publishExternalDate" /> 
+  <meta content="2018-07-23T05:57:20.870-0400" name="cq:lastReplicated" /> 
   <meta content="2018-07-25T09:29:44.786-0400" name="locHandOffDate" /> 
-  <meta content="sauviat" name="cq:lastReplicatedBy" /> 
-  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="SMS delivery" name="jcr:title" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="SMS delivery" name="jcr:description" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="2018-07-23T05:57:20.832-0400" name="firstPublishExternalDate" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
   <meta content="" name="jcr:versionHistory" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
   <meta content="sauviat" name="contentOwner" /> 
-  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-07-23T05:57:20.832-0400" name="topicBrowsingSortDate" /> 
+  <meta content="86f525c1-f701-42b8-96e8-9cae6bee9d7b" name="jcr:predecessors" /> 
+  <meta content="The SMS delivery activity allows you to configure sending a single send SMS or a recurring SMS in a workflow." name="seoDescription" /> 
+  <meta content="sauviat" name="cq:lastReplicatedBy" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2018-07-23T05:57:20.832-0400" name="lastPublishExternalDate" /> 
+  <meta content="2018-03-15T09:02:56.153-0400" name="jcr:created" /> 
   <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:channel-activities" name="cq:tags" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="SMS delivery" name="navTitle" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2018-07-25T09:29:44.786-0400" name="cq:lastModified" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
  </head> 
  <body> 
   <h2>Description</h2> 

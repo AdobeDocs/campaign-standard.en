@@ -1,46 +1,46 @@
 <html> 
  <head> 
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:rn;content_type:reference;topic_tags:campaign-standard-releases" name="cq:tags" /> 
-  <meta content="2018-08-01T05:09:54.204-0400" name="publishExternalDate" /> 
-  <meta content="false" name="isReadyForLocalization" /> 
-  <meta content="" name="jcr:baseVersion" /> 
-  <meta content="2018-02-28T08:01:06.081-0500" name="jcr:created" /> 
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
-  <meta content="true" name="jcr:isCheckedOut" /> 
-  <meta content="Release Notes" name="jcr:description" /> 
-  <meta content="2018-08-01T05:09:54.209-0400" name="cq:lastModified" /> 
-  <meta content="2018-07-27T13:20:42.288-0400" name="firstPublishInternalDate" /> 
-  <meta content="" name="jcr:primaryType" /> 
-  <meta content="2018-07-30T04:51:22.154-0400" name="locHandOffDate" /> 
+  <meta content="cd0eb099-65c8-462b-a6f8-668cf9c256dc" name="jcr:predecessors" /> 
   <meta content="2018-08-01T05:09:54.204-0400" name="lastPublishInternalDate" /> 
-  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
-  <meta content="2018-08-01T05:09:54.204-0400" name="topicBrowsingSortDate" /> 
-  <meta content="This page lists all 2017 and 2018 releases of Adobe Campaign Standard." name="seoDescription" /> 
-  <meta content="Activate" name="cq:lastReplicationAction" /> 
-  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
-  <meta content="admin" name="jcr:createdBy" /> 
-  <meta content="2018-08-01T05:09:54.204-0400" name="lastPublishExternalDate" /> 
   <meta content="mix:versionable" name="jcr:mixinTypes" /> 
-  <meta content="beneat" name="cq:lastModifiedBy" /> 
-  <meta content="beneat@adobe.com" name="lr_lastReplicatedBy" /> 
   <meta content="2018-07-23T06:03:01.202-0400" name="firstPublishExternalDate" /> 
   <meta content="audience:rn" name="primaryAudienceTag" /> 
-  <meta content="2018-08-01T05:09:54.204-0400" name="publishInternalDate" /> 
-  <meta content="https://helpx.adobe.com/campaign/standard/rn/using/release-notes.html" name="publishExternalURL" /> 
-  <meta content="Release Notes" name="jcr:title" /> 
-  <meta content="" name="jcr:versionHistory" /> 
-  <meta content="cd0eb099-65c8-462b-a6f8-668cf9c256dc" name="jcr:predecessors" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="" name="jcr:primaryType" /> 
   <meta content="/etc/designs/help" name="cq:designPath" /> 
-  <meta content="2018-08-01T05:09:54.243-0400" name="cq:lastReplicated" /> 
-  <meta content="/content/help/en/campaign/standard/rn/morehelp/campaign-standard-releases;/content/help/en/campaign/standard/rn/morehelp/campaign-standard-releases" name="moreHelpPaths" /> 
-  <meta content="sauviat" name="contentOwner" /> 
-  <meta content="en_us" name="jcr:language" /> 
-  <meta content="fb3e6564-baeb-4e56-808a-9262edec797f" name="jcr:uuid" /> 
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
-  <meta content="https://helpx-internal.corp.adobe.com/content/help/en/campaign/standard/rn/using/release-notes.html" name="publishInternalURL" /> 
-  <meta content="Release Notes" name="navTitle" /> 
+  <meta content="2018-08-01T05:09:54.204-0400" name="publishInternalDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:rn;content_type:reference;topic_tags:campaign-standard-releases" name="cq:tags" /> 
   <meta content="light" name="heroGradient" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
+  <meta content="Release Notes" name="jcr:description" /> 
+  <meta content="en_us" name="jcr:language" /> 
   <meta content="beneat" name="cq:lastReplicatedBy" /> 
+  <meta content="2018-08-01T05:09:54.204-0400" name="lastPublishExternalDate" /> 
+  <meta content="Release Notes" name="navTitle" /> 
+  <meta content="beneat@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="fb3e6564-baeb-4e56-808a-9262edec797f" name="jcr:uuid" /> 
+  <meta content="2018-07-27T13:20:42.288-0400" name="firstPublishInternalDate" /> 
+  <meta content="2018-08-01T05:09:54.204-0400" name="publishExternalDate" /> 
+  <meta content="beneat" name="cq:lastModifiedBy" /> 
+  <meta content="2018-08-01T05:09:54.209-0400" name="cq:lastModified" /> 
+  <meta content="/content/help/en/campaign/standard/rn/morehelp/campaign-standard-releases;/content/help/en/campaign/standard/rn/morehelp/campaign-standard-releases" name="moreHelpPaths" /> 
+  <meta content="This page lists all 2017 and 2018 releases of Adobe Campaign Standard." name="seoDescription" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2018-02-28T08:01:06.081-0500" name="jcr:created" /> 
+  <meta content="2018-07-30T04:51:22.154-0400" name="locHandOffDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="2018-08-01T05:09:54.243-0400" name="cq:lastReplicated" /> 
+  <meta content="2018-08-01T05:09:54.204-0400" name="topicBrowsingSortDate" /> 
+  <meta content="Release Notes" name="jcr:title" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="https://helpx-internal.corp.adobe.com/content/help/en/campaign/standard/rn/using/release-notes.html" name="publishInternalURL" /> 
+  <meta content="https://helpx.adobe.com/campaign/standard/rn/using/release-notes.html" name="publishExternalURL" /> 
  </head> 
  <body> 
   <p>Looking for a specific 2017-2018 release of Adobe Campaign Standard?</p> 

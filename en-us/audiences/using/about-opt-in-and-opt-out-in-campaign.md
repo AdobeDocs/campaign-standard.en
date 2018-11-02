@@ -3,7 +3,7 @@ title: About opt-in and opt-out in Campaign
 seo-title: About opt-in and opt-out in Campaign
 description: About opt-in and opt-out in Campaign
 seo-description: Opt-out (or blacklist) results in a profile no longer being targeted by any delivery or by deliveries from a specific channel.
-uuid: 8c3a63fc-d3ec-44cb-b2e3-2958928e1515
+uuid: d671f1da-f66d-4eb8-8b8a-f658c27f2c01
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/audiences/using/about-opt-in-and-opt-out-in-campaign
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
 cq-template: /apps/help/templates/article-3
-discoiquuid: 162b40f1-5cbd-4efc-833a-35516c4fd60b
+discoiquuid: a8856a79-ff1c-4f0d-a35d-45d0f3a78c6b
 firstPublishExternalDate: 2018-07-23T05:55:34.189-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About opt-in and opt-out in Campaign
 publishexternaldate: 2018-07-23T05 55 34.189-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/audiences/using/about-opt-in-and-opt-out-in-campaign.html
-sha1: fd8fe26f440814e16cd7f1f5c7fd38285c2960d3
+sha1: 2d85be0110d3ef79fdb93351d11a214530617491
 topicBrowsingSortDate: 2018-07-23T05:55:34.189-0400
 index: y
 internal: n

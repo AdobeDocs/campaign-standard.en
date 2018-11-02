@@ -3,7 +3,7 @@ title: Adding links and URL tracking
 seo-title: Adding links and URL tracking
 description: Adding links and URL tracking
 seo-description: Learn how to add links to the HTML content elements of an email.
-uuid: 47105577-2b8c-413c-9b0d-43da578b81ba
+uuid: 6ab847e7-217b-4776-a569-449cba8323f6
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/adding-links-and-url-tracking
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: designing-email-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: 505b5b82-80ab-4023-aa45-79bf500ed650
+discoiquuid: 0b05ae2b-04b8-4c19-9c5f-5c0392abb01d
 firstPublishExternalDate: 2018-06-14T08:43:53.561-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Adding links and URL tracking
 publishexternaldate: 2018-06-14T08 43 53.561-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/adding-links-and-url-tracking.html
-sha1: 1066ad39b0cc5e8392686949f54f0e8949d43646
+sha1: f6454d718b2acdf10fbe485c5aa62730e5cb5bb1
 topicBrowsingSortDate: 2018-06-14T08:43:53.561-0400
 index: y
 internal: n

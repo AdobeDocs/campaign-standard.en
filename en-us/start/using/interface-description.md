@@ -3,7 +3,7 @@ title: Interface description
 seo-title: Interface description
 description: Interface description
 seo-description: Learn how to navigate and use the Adobe Campaign workspace: home page, top bar, advanced menus and action bars.
-uuid: c784ce4a-a002-49fb-bb46-9e18ca74ea64
+uuid: d626c371-51b0-4f1c-8fe3-cdf7a1d44d13
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/start/using/interface-description
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 cq-template: /apps/help/templates/article-3
-discoiquuid: 70a15d62-1de0-4dd2-93fc-04b06969d9db
+discoiquuid: 8c355000-a9ca-44de-8681-b81a548b3a85
 firstPublishExternalDate: 2018-07-23T06:00:41.006-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Interface description
 publishexternaldate: 2018-07-23T06 00 41.006-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/start/using/interface-description.html
-sha1: 5170911a8a85a51cdd7a143f95869efd473e315f
+sha1: 079ac3688f1280776aabd0431deb4f4566cf9993
 topicBrowsingSortDate: 2018-07-23T06:00:41.006-0400
 index: y
 internal: n

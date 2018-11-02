@@ -1,34 +1,34 @@
 <html> 
  <head> 
-  <meta content="audience:integrating" name="primaryAudienceTag" /> 
-  <meta content="2018-01-10T15:24:14.564-0500" name="lastPublishExternalDate" /> 
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
-  <meta content="eaf1947d-eb56-4f48-b867-dbe4f6fa2748" name="jcr:predecessors" /> 
-  <meta content="https://helpx.adobe.com/campaign/standard/integrating/using/configuring-the-points-of-interest-data-integration.html" name="publishExternalURL" /> 
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:integrating;content_type:reference;topic_tags:points-of-interest-data-integration" name="cq:tags" /> 
-  <meta content="en_us" name="jcr:language" /> 
-  <meta content="c8b29749-0b2b-4eb8-863c-2031e9b9b1a5" name="jcr:uuid" /> 
-  <meta content="2018-01-11T19:01:46.585-0500" name="jcr:created" /> 
-  <meta content="Configuring the Points of Interest data integration" name="navTitle" /> 
-  <meta content="sauviat" name="contentOwner" /> 
-  <meta content="/etc/designs/help" name="cq:designPath" /> 
-  <meta content="" name="jcr:baseVersion" /> 
-  <meta content="Learn how to configure the Points of Interest data feature in Adobe Campaign to send personalized messages based on your subscribers' location." name="seoDescription" /> 
-  <meta content="2018-01-10T15:24:14.564-0500" name="topicBrowsingSortDate" /> 
-  <meta content="" name="jcr:versionHistory" /> 
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
-  <meta content="Configuring the Points of Interest data integration" name="jcr:title" /> 
-  <meta content="admin" name="jcr:createdBy" /> 
-  <meta content="true" name="jcr:isCheckedOut" /> 
-  <meta content="" name="jcr:primaryType" /> 
-  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
-  <meta content="Configuring the Points of Interest data integration" name="jcr:description" /> 
   <meta content="2018-01-10T15:24:14.573-0500" name="cq:lastModified" /> 
-  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="Learn how to configure the Points of Interest data feature in Adobe Campaign to send personalized messages based on your subscribers' location." name="seoDescription" /> 
   <meta content="light" name="heroGradient" /> 
+  <meta content="c8b29749-0b2b-4eb8-863c-2031e9b9b1a5" name="jcr:uuid" /> 
+  <meta content="Configuring the Points of Interest data integration" name="jcr:description" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
   <meta content="mix:versionable" name="jcr:mixinTypes" /> 
-  <meta content="2018-01-10T15:24:14.564-0500" name="firstPublishExternalDate" /> 
+  <meta content="https://helpx.adobe.com/campaign/standard/integrating/using/configuring-the-points-of-interest-data-integration.html" name="publishExternalURL" /> 
+  <meta content="Configuring the Points of Interest data integration" name="jcr:title" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:integrating;content_type:reference;topic_tags:points-of-interest-data-integration" name="cq:tags" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="Configuring the Points of Interest data integration" name="navTitle" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="audience:integrating" name="primaryAudienceTag" /> 
   <meta content="2018-01-10T15:24:14.564-0500" name="publishExternalDate" /> 
+  <meta content="2018-01-10T15:24:14.564-0500" name="topicBrowsingSortDate" /> 
+  <meta content="2018-01-10T15:24:14.564-0500" name="firstPublishExternalDate" /> 
+  <meta content="2018-01-11T19:01:46.585-0500" name="jcr:created" /> 
+  <meta content="eaf1947d-eb56-4f48-b867-dbe4f6fa2748" name="jcr:predecessors" /> 
+  <meta content="2018-01-10T15:24:14.564-0500" name="lastPublishExternalDate" /> 
  </head> 
  <body> 
   <p>The mobile applications used to collect location data must be configured by an <strong>administrator</strong> in the Adobe Campaign interface.</p> 

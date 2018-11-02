@@ -1,34 +1,34 @@
 <html>
  <head>
-  <meta content="2018-01-10T15:31:17.252-0500" name="topicBrowsingSortDate" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="audience:sending" name="primaryAudienceTag" />
+  <meta content="b01fa4c1-f6a6-49e9-ae5c-5e66d5634085" name="jcr:predecessors" />
+  <meta content="2018-01-10T15:31:17.252-0500" name="firstPublishExternalDate" />
+  <meta content="Learn how to send the message at the recipient's time zone." name="seoDescription" />
+  <meta content="Sending at the recipient's time zone" name="jcr:description" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:sending;content_type:reference;topic_tags:sheduling-messages" name="cq:tags" />
+  <meta content="2018-01-10T15:31:17.261-0500" name="cq:lastModified" />
+  <meta content="Sending at the recipient's time zone" name="jcr:title" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="https://helpx.adobe.com/campaign/standard/sending/using/sending-at-the-recipient-s-time-zone.html" name="publishExternalURL" />
   <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="2018-01-11T19:02:04.811-0500" name="jcr:created" />
-  <meta content="sauviat" name="contentOwner" />
+  <meta content="" name="jcr:primaryType" />
   <meta content="2018-01-10T15:31:17.252-0500" name="lastPublishExternalDate" />
   <meta content="Sending at the recipient's time zone" name="navTitle" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="b01fa4c1-f6a6-49e9-ae5c-5e66d5634085" name="jcr:predecessors" />
-  <meta content="2018-01-10T15:31:17.252-0500" name="publishExternalDate" />
-  <meta content="23820ccf-5bc8-4811-abdc-650a094bccff" name="jcr:uuid" />
+  <meta content="2018-01-11T19:02:04.811-0500" name="jcr:created" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
   <meta content="en_us" name="jcr:language" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:sending;content_type:reference;topic_tags:sheduling-messages" name="cq:tags" />
   <meta content="admin" name="jcr:createdBy" />
-  <meta content="light" name="heroGradient" />
+  <meta content="23820ccf-5bc8-4811-abdc-650a094bccff" name="jcr:uuid" />
+  <meta content="2018-01-10T15:31:17.252-0500" name="publishExternalDate" />
+  <meta content="2018-01-10T15:31:17.252-0500" name="topicBrowsingSortDate" />
   <meta content="" name="jcr:baseVersion" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="Learn how to send the message at the recipient's time zone." name="seoDescription" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="audience:sending" name="primaryAudienceTag" />
   <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="Sending at the recipient's time zone" name="jcr:description" />
-  <meta content="2018-01-10T15:31:17.261-0500" name="cq:lastModified" />
   <meta content="" name="jcr:versionHistory" />
-  <meta content="2018-01-10T15:31:17.252-0500" name="firstPublishExternalDate" />
-  <meta content="Sending at the recipient's time zone" name="jcr:title" />
-  <meta content="https://helpx.adobe.com/campaign/standard/sending/using/sending-at-the-recipient-s-time-zone.html" name="publishExternalURL" />
+  <meta content="light" name="heroGradient" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
  </head>
  <body>
   <p>When managing a campaign in which the date and time are important, you can schedule a delivery that takes each recipient's local time into account.</p> 

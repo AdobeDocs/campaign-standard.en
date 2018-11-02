@@ -3,7 +3,7 @@ title: Customizing a push notification
 seo-title: Customizing a push notification
 description: Customizing a push notification
 seo-description: Learn how to customize your push notifications with various advanced options.
-uuid: 86b6baa0-8ddf-48d9-b39a-ebc759224534
+uuid: 871d44cc-8a78-4192-acf0-8631ece9f1d0
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/customizing-a-push-notification
 contentOwner: sauviat
@@ -18,7 +18,7 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 cq-template: /apps/help/templates/article-3
-discoiquuid: 24ca9f4e-2c83-49b5-b1ac-fdea994416ac
+discoiquuid: b90f24a3-d08d-4f4c-a1dd-739206847db7
 firstPublishExternalDate: 2018-07-23T06:02:51.469-0400
 herogradient: light
 isreadyforlocalization: false
@@ -35,7 +35,7 @@ moreHelpPaths: /content/help/en/campaign/standard/channels/morehelp/push-notific
 navTitle: Customizing a push notification
 publishexternaldate: 2018-07-23T06 02 51.469-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/customizing-a-push-notification.html
-sha1: bc3314d6f39c4dad4ac75f0207bd801ed62755f0
+sha1: f19ef986bcc0f6af97ef83df0ee90463a628e84c
 topicBrowsingSortDate: 2018-07-23T06:02:51.469-0400
 index: y
 internal: n

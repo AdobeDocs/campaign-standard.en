@@ -3,7 +3,7 @@ title: Designing an A/B test email
 seo-title: Designing an A/B test email
 description: Designing an A/B test email
 seo-description: Discover the A/B test functionality and follow these steps to create an email from an A/B test template in Adobe Campaign.
-uuid: 76e2568c-7055-498c-ab36-5994221ce71b
+uuid: 3c6f16c8-7911-4ebd-ab85-829f3ebd8fc9
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/designing-an-a-b-test-email
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: channels
 content-type: reference
 topic-tags: email-messages
 cq-template: /apps/help/templates/article-3
-discoiquuid: 6a129b9e-3f48-4074-9506-2c4bc60555f2
+discoiquuid: bccfd95e-5c13-41be-9ab1-388d113be8d6
 firstPublishExternalDate: 2018-07-23T06:02:42.866-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Designing an A/B test email
 publishexternaldate: 2018-07-23T06 02 42.866-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/designing-an-a-b-test-email.html
-sha1: ebe5431296ad0a8b811c61e153498214efd2e64b
+sha1: 63010c41c2412da037a3277a08a035a367d78d9d
 topicBrowsingSortDate: 2018-07-23T06:02:42.866-0400
 index: y
 internal: n

@@ -3,7 +3,7 @@ title: Inserting a link
 seo-title: Inserting a link
 description: Inserting a link
 seo-description: Learn how to personalize your email or landing page by inserting links into the HTML content elements.
-uuid: 1cb9dd78-3fd7-4cc5-9da4-b6fef762b3e3
+uuid: 59a472f6-b1f4-423f-aea8-6c708acb87ae
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/inserting-a-link
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: managing-links
 cq-template: /apps/help/templates/article-3
-discoiquuid: c96ff04b-f80b-4c8f-983b-55de9722b0c0
+discoiquuid: 754d7c14-15bf-4a5d-8fbe-e6b8eb37fb7b
 firstPublishExternalDate: 2018-07-23T05:58:47.041-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Inserting a link
 publishexternaldate: 2018-07-23T08 14 00.221-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/inserting-a-link.html
-sha1: 17a2ea9558d920a723c900de0e40ab76533fb676
+sha1: 121535644d23bf5a7535a8c7794ec8581d219638
 topicBrowsingSortDate: 2018-07-23T08:14:00.221-0400
 index: y
 internal: n

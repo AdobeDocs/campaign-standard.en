@@ -1,40 +1,40 @@
 <html> 
  <head> 
-  <meta content="2018-07-23T05:57:40.308-0400" name="firstPublishExternalDate" /> 
-  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
-  <meta content="en_us" name="jcr:language" /> 
-  <meta content="" name="jcr:baseVersion" /> 
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
-  <meta content="Subscription Services" name="jcr:description" /> 
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:data-management-activities" name="cq:tags" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/subscription-services.html" name="publishExternalURL" /> 
+  <meta content="2018-07-23T05:57:40.308-0400" name="publishExternalDate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="" name="jcr:primaryType" /> 
   <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
-  <meta content="Subscription Services" name="navTitle" /> 
-  <meta content="2018-07-23T05:57:40.308-0400" name="topicBrowsingSortDate" /> 
-  <meta content="2018-07-23T05:57:40.308-0400" name="lastPublishExternalDate" /> 
+  <meta content="2018-03-15T09:02:58.525-0400" name="jcr:created" /> 
+  <meta content="a649c436-ccf5-4991-b18e-baf494ebe4ca" name="jcr:uuid" /> 
+  <meta content="sauviat" name="contentOwner" /> 
   <meta content="The Subscription Services activity allows you to take profiles in mass and subscribe them to a service or unsubscribe them from a service." name="seoDescription" /> 
-  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="c74b9153-3394-422f-a5d1-71276791e347" name="jcr:predecessors" /> 
+  <meta content="Subscription Services" name="jcr:title" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2018-07-25T09:29:55.234-0400" name="locHandOffDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2018-07-23T05:57:40.308-0400" name="firstPublishExternalDate" /> 
+  <meta content="Subscription Services" name="jcr:description" /> 
   <meta content="admin" name="jcr:createdBy" /> 
   <meta content="2018-07-23T05:57:40.403-0400" name="cq:lastReplicated" /> 
-  <meta content="Activate" name="cq:lastReplicationAction" /> 
-  <meta content="a649c436-ccf5-4991-b18e-baf494ebe4ca" name="jcr:uuid" /> 
-  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
-  <meta content="/etc/designs/help" name="cq:designPath" /> 
-  <meta content="" name="jcr:primaryType" /> 
-  <meta content="2018-07-23T05:57:40.308-0400" name="publishExternalDate" /> 
-  <meta content="c74b9153-3394-422f-a5d1-71276791e347" name="jcr:predecessors" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:data-management-activities" name="cq:tags" /> 
   <meta content="sauviat" name="cq:lastReplicatedBy" /> 
-  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/subscription-services.html" name="publishExternalURL" /> 
-  <meta content="light" name="heroGradient" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-07-23T05:57:40.308-0400" name="lastPublishExternalDate" /> 
+  <meta content="Subscription Services" name="navTitle" /> 
   <meta content="2018-07-25T09:29:55.234-0400" name="cq:lastModified" /> 
-  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2018-07-23T05:57:40.308-0400" name="topicBrowsingSortDate" /> 
   <meta content="audience:automating" name="primaryAudienceTag" /> 
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
-  <meta content="Subscription Services" name="jcr:title" /> 
-  <meta content="2018-07-25T09:29:55.234-0400" name="locHandOffDate" /> 
-  <meta content="sauviat" name="contentOwner" /> 
-  <meta content="2018-03-15T09:02:58.525-0400" name="jcr:created" /> 
-  <meta content="false" name="isReadyForLocalization" /> 
-  <meta content="" name="jcr:versionHistory" /> 
  </head> 
  <body> 
   <h2>Description</h2> 

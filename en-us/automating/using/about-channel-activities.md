@@ -3,7 +3,7 @@ title: About channel activities
 seo-title: About channel activities
 description: About channel activities
 seo-description: Channel activities are available from the left-hand side of the screen.
-uuid: f1df5aea-0610-4318-bf57-1e05f5b6f7bc
+uuid: f6226759-2bd0-4f66-ac93-65fdd60ded6c
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/about-channel-activities
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: channel-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: 51a394e7-3999-4586-a052-6bad8d36065e
+discoiquuid: 8812c0f9-b85a-498f-abe8-5f0afcd82f87
 firstPublishExternalDate: 2018-07-23T05:57:18.630-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About channel activities
 publishexternaldate: 2018-07-23T05 57 18.630-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/about-channel-activities.html
-sha1: 8d56250ab8768c170073c68ab204b976f12abbe0
+sha1: 7bcb5b3b3e781f46d82d14d064ebc8d44486578c
 topicBrowsingSortDate: 2018-07-23T05:57:18.630-0400
 index: y
 internal: n

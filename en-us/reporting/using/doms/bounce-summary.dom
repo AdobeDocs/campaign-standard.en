@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="With the Bounce summary out-of-the-box report, learn about the status of your sent campaigns and errors they may have encountered." name="seoDescription" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
   <meta content="2018-07-27T03:26:40.765-0400" name="cq:lastModified" />
-  <meta content="Bounce summary" name="navTitle" />
   <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="2018-07-23T06:00:14.715-0400" name="publishExternalDate" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="https://helpx.adobe.com/campaign/standard/reporting/using/bounce-summary.html" name="publishExternalURL" />
-  <meta content="2018-07-23T06:00:14.715-0400" name="topicBrowsingSortDate" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="2018-03-15T09:02:37.395-0400" name="jcr:created" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="light" name="heroGradient" />
   <meta content="Bounce summary" name="jcr:description" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="1fd0205b-9161-431f-bfc5-a5072e655831" name="jcr:predecessors" />
   <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="74257991-2793-4d2b-8a3f-258d6a30ee51" name="jcr:uuid" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
   <meta content="2018-07-23T06:00:14.754-0400" name="cq:lastReplicated" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="2018-07-23T06:00:14.715-0400" name="firstPublishExternalDate" />
-  <meta content="audience:reporting" name="primaryAudienceTag" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="false" name="isReadyForLocalization" />
   <meta content="products:SG_CAMPAIGN/STANDARD;audience:reporting;content_type:reference;topic_tags:list-of-reports" name="cq:tags" />
-  <meta content="Bounce summary" name="jcr:title" />
+  <meta content="2018-03-15T09:02:37.395-0400" name="jcr:created" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
   <meta content="2018-07-23T06:00:14.715-0400" name="lastPublishExternalDate" />
   <meta content="2018-07-27T03:26:40.764-0400" name="locHandOffDate" />
+  <meta content="2018-07-23T06:00:14.715-0400" name="publishExternalDate" />
+  <meta content="audience:reporting" name="primaryAudienceTag" />
+  <meta content="1fd0205b-9161-431f-bfc5-a5072e655831" name="jcr:predecessors" />
+  <meta content="With the Bounce summary out-of-the-box report, learn about the status of your sent campaigns and errors they may have encountered." name="seoDescription" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="Bounce summary" name="jcr:title" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="light" name="heroGradient" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="Bounce summary" name="navTitle" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-07-23T06:00:14.715-0400" name="topicBrowsingSortDate" />
+  <meta content="https://helpx.adobe.com/campaign/standard/reporting/using/bounce-summary.html" name="publishExternalURL" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-07-23T06:00:14.715-0400" name="firstPublishExternalDate" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="74257991-2793-4d2b-8a3f-258d6a30ee51" name="jcr:uuid" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
  </head>
  <body>
   <p>This report details the overall hard and soft errors encountered during deliveries as well as the automatic processing of bounces.</p> 

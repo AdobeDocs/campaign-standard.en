@@ -1,40 +1,40 @@
 <html> 
  <head> 
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
-  <meta content="admin" name="jcr:createdBy" /> 
-  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/defining-import-templates.html" name="publishExternalURL" /> 
-  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
-  <meta content="sauviat" name="cq:lastReplicatedBy" /> 
-  <meta content="Import templates allow to reduce the settings needed and to import data faster." name="seoDescription" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-07-23T05:57:53.874-0400" name="publishExternalDate" /> 
   <meta content="b5e08c97-265a-427e-8806-ae5a0e5e9ecd" name="jcr:predecessors" /> 
   <meta content="true" name="jcr:isCheckedOut" /> 
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:importing-and-exporting-data" name="cq:tags" /> 
-  <meta content="2018-04-05T07:29:31.523-0400" name="jcr:created" /> 
-  <meta content="false" name="isReadyForLocalization" /> 
-  <meta content="2018-07-23T05:57:53.874-0400" name="topicBrowsingSortDate" /> 
-  <meta content="light" name="heroGradient" /> 
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
-  <meta content="Defining import templates" name="jcr:title" /> 
-  <meta content="/etc/designs/help" name="cq:designPath" /> 
-  <meta content="2018-07-23T05:57:53.874-0400" name="publishExternalDate" /> 
-  <meta content="audience:automating" name="primaryAudienceTag" /> 
-  <meta content="Defining import templates" name="navTitle" /> 
-  <meta content="2018-07-25T09:29:58.750-0400" name="cq:lastModified" /> 
-  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
-  <meta content="2018-07-23T05:57:53.874-0400" name="lastPublishExternalDate" /> 
-  <meta content="Defining import templates" name="jcr:description" /> 
-  <meta content="en_us" name="jcr:language" /> 
-  <meta content="sauviat" name="contentOwner" /> 
-  <meta content="2018-07-23T05:57:53.954-0400" name="cq:lastReplicated" /> 
-  <meta content="" name="jcr:versionHistory" /> 
-  <meta content="" name="jcr:baseVersion" /> 
-  <meta content="Activate" name="cq:lastReplicationAction" /> 
-  <meta content="2018-07-23T05:57:53.874-0400" name="firstPublishExternalDate" /> 
   <meta content="/apps/help/templates/article-3" name="cq:template" /> 
-  <meta content="2018-07-25T09:29:58.750-0400" name="locHandOffDate" /> 
-  <meta content="" name="jcr:primaryType" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:importing-and-exporting-data" name="cq:tags" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="sauviat" name="cq:lastReplicatedBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2018-07-23T05:57:53.874-0400" name="firstPublishExternalDate" /> 
+  <meta content="2018-07-23T05:57:53.954-0400" name="cq:lastReplicated" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="" name="jcr:baseVersion" /> 
   <meta content="934c7062-20c4-44dd-8734-7895e48fa2a3" name="jcr:uuid" /> 
+  <meta content="2018-07-25T09:29:58.750-0400" name="cq:lastModified" /> 
+  <meta content="Defining import templates" name="jcr:title" /> 
+  <meta content="2018-07-23T05:57:53.874-0400" name="topicBrowsingSortDate" /> 
+  <meta content="2018-07-23T05:57:53.874-0400" name="lastPublishExternalDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/defining-import-templates.html" name="publishExternalURL" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="2018-04-05T07:29:31.523-0400" name="jcr:created" /> 
+  <meta content="Defining import templates" name="jcr:description" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-07-25T09:29:58.750-0400" name="locHandOffDate" /> 
+  <meta content="Import templates allow to reduce the settings needed and to import data faster." name="seoDescription" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
+  <meta content="Defining import templates" name="navTitle" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="audience:automating" name="primaryAudienceTag" /> 
+  <meta content="light" name="heroGradient" /> 
  </head> 
  <body> 
   <p>Import templates allow the administrator to pre-define a certain number of technical import configurations. These templates can then be made available to standard users to carry out and upload files.</p> 

@@ -3,7 +3,7 @@ title: Changing form data properties
 seo-title: Changing form data properties
 description: Changing form data properties
 seo-description: Learn how to link database fields to input zone, radio button or checkbox type blocks.
-uuid: 49dec84a-eb90-4f1c-a5b7-dab43d7c7700
+uuid: c7734e6e-186d-4f93-ad10-183a657d23bc
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/changing-form-data-properties
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-message-and-landing-page-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: 93dcb39d-8add-4139-b780-1c5ae0e60f2c
+discoiquuid: 61071430-7f09-4a55-8242-f213415c9183
 firstPublishExternalDate: 2018-06-14T08:43:45.158-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Changing form data properties
 publishexternaldate: 2018-06-14T08 43 45.158-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/changing-form-data-properties.html
-sha1: 558700cd39e633659aebe85f0185ddc465dc04e0
+sha1: faa32aa947eb1dfddf29b6ad2500d460b4c3faab
 topicBrowsingSortDate: 2018-06-14T08:43:45.158-0400
 index: y
 internal: n

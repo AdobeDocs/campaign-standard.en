@@ -3,7 +3,7 @@ title: About personalization
 seo-title: About personalization
 description: About personalization
 seo-description: Discover the different ways you can personalize your contents in Adobe Campaign.
-uuid: 4e761528-3cf7-40d2-a104-d42ca82918a9
+uuid: 429ccf63-2cb9-4e6b-b0e0-8885c30ef587
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/about-personalization
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: personalizing-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: a6772ce6-4807-426b-ae8e-f1dc7e38f2a9
+discoiquuid: e395c4f5-c526-4e20-941e-489caf67d009
 firstPublishExternalDate: 2018-07-23T05:58:37.698-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About personalization
 publishexternaldate: 2018-07-23T08 13 47.858-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/about-personalization.html
-sha1: 47b93c3a7be03973283ecd2992e9e0d5f45d1f63
+sha1: cfbe76972db3f244483af5aea1bea80df33b8cbd
 topicBrowsingSortDate: 2018-07-23T08:13:47.858-0400
 index: y
 internal: n

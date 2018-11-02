@@ -4,7 +4,7 @@ seo-title: Working with typology rules
 description: Working with typology rules
 seo-description: Validate and filter your messages with dedicated typology rules.
 page-status-flag: never-activated
-uuid: 0753ed8a-2ff9-45a2-b293-0d3e6d056ee2
+uuid: 1a1b87c6-d3c5-4aed-b1b0-d0fd0fd36c91
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/working-with-typology-rules
 contentOwner: sauviat
@@ -15,7 +15,7 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 cq-template: /apps/help/templates/article-3
-discoiquuid: 97a2bbc7-b9d5-4dfc-a5d5-ae359b4d9f69
+discoiquuid: 28f83ed8-9691-4dbe-9172-d606460a11c9
 firstPublishExternalDate: 2018-01-10T15:17:27.271-0500
 herogradient: light
 jcr-created: 2018-01-11T19 02 34.284-0500
@@ -29,7 +29,7 @@ moreHelpPaths: /content/help/en/campaign/standard/administration/morehelp/config
 navTitle: Working with typology rules
 publishexternaldate: 2018-01-10T15 17 27.271-0500
 publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/working-with-typology-rules.html
-sha1: 8b68db483a225c3ca04998f5c07b9ee1c53e8e3a
+sha1: 7d9649d6e2cc15167888c84e9e8e3ecb532b31f7
 topicBrowsingSortDate: 2018-01-10T15:17:27.271-0500
 index: y
 internal: n

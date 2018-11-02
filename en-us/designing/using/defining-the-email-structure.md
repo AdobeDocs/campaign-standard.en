@@ -3,7 +3,7 @@ title: Defining the email structure
 seo-title: Defining the email structure
 description: Defining the email structure
 seo-description: Discover how to use the Creative Designer in Campaign to shape your emails and populate them with content components.
-uuid: 73464454-d1c6-4f34-94b2-3fe68979c26a
+uuid: 1f432c2f-ddbf-4c8b-b14c-29b58cefaf7c
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/defining-the-email-structure
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: ef6ebab3-9774-4437-ba8c-22264bd46843
+discoiquuid: 10d961f1-1c4e-4db6-9999-98d9d735a7e1
 firstPublishExternalDate: 2018-07-23T05:57:35.080-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Defining the email structure
 publishexternaldate: 2018-07-23T08 13 21.876-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/defining-the-email-structure.html
-sha1: bfcc73c1de99a505d0b21b461e179316b23335bb
+sha1: d8b0d5b4f71c41d012f60ee096b4ba33b1ac4e4a
 topicBrowsingSortDate: 2018-07-23T08:13:21.876-0400
 index: y
 internal: n

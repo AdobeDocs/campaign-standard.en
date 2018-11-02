@@ -3,7 +3,7 @@ title: Extract file
 seo-title: Extract file
 description: Extract file
 seo-description: The Extract file activity allows you to export data from Adobe Campaign in the form of an external file.
-uuid: ff3b19bd-27c1-44ac-99a3-11a9a9440abe
+uuid: a9b8f5ee-c176-41ca-a0a9-923de2040b5b
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/extract-file
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: f9780d71-465c-4197-a97d-5ee17016b634
+discoiquuid: 38ce680e-d05a-4e12-bd4e-f3ac15a9ea90
 firstPublishExternalDate: 2018-07-23T05:57:37.820-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Extract file
 publishexternaldate: 2018-07-23T05 57 37.820-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/extract-file.html
-sha1: b5e27435a5976e10d3c98802f802047c2f8942ee
+sha1: 8e1227d0d63cd55691e716f318b9c74cf81b3c82
 topicBrowsingSortDate: 2018-07-23T05:57:37.820-0400
 index: y
 internal: n

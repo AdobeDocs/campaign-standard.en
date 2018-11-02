@@ -3,7 +3,7 @@ title: Personalizing SMS messages
 seo-title: Personalizing SMS messages
 description: Personalizing SMS messages
 seo-description: Discover the specificity of the transliteration options when personalizing SMS messages.
-uuid: 9e45ea7a-b2a9-474a-b7cb-4c1422d2b981
+uuid: 97d67c8d-e4f7-4a1d-86af-d8a645593f25
 content-encoding: UTF-8
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/personalizing-sms-messages
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-message-and-landing-page-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: 975e135b-0f05-40aa-826c-3b0a5ac5c306
+discoiquuid: 44ef9758-3594-45b9-88e8-df52d9d1718a
 firstPublishExternalDate: 2018-06-14T08:43:42.401-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Personalizing SMS messages
 publishexternaldate: 2018-06-14T08 43 42.401-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/personalizing-sms-messages.html
-sha1: 6da57dca21823cb493b55be4da420926ed438235
+sha1: bba93264596beaa3d533e17270fc426d648bc67e
 topicBrowsingSortDate: 2018-06-14T08:43:42.401-0400
 index: y
 internal: n

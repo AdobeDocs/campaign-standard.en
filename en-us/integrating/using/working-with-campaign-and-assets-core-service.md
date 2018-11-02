@@ -3,7 +3,7 @@ title: Working with Campaign and Assets core service
 seo-title: Working with Campaign and Assets core service
 description: Working with Campaign and Assets core service
 seo-description: Use any resources shared within Adobe Experience Cloud in your Adobe Campaign messages and landing pages thanks to the Assets core service integration.
-uuid: 3342d4e0-c3b8-49a7-bce3-057fe3d569db
+uuid: 94a6eaad-8d2a-453e-8c0c-56a39ab74f63
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/integrating/using/working-with-campaign-and-assets-core-service
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-assets-core-service
 cq-template: /apps/help/templates/article-3
-discoiquuid: d4ee67ec-816a-4be5-abde-d92470d5c0bc
+discoiquuid: 4fc90016-8642-4840-9b80-ef9f11b20e9b
 firstPublishExternalDate: 2018-07-23T05:59:23.264-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Working with Campaign and Assets core service
 publishexternaldate: 2018-07-23T05 59 23.264-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/working-with-campaign-and-assets-core-service.html
-sha1: ef18abdbdafe002d7c2ff6d09b71b03df4a28011
+sha1: e34cb2afbacbfd6ee17cf8636aded6ad829dc7ab
 topicBrowsingSortDate: 2018-07-23T05:59:23.264-0400
 index: y
 internal: n

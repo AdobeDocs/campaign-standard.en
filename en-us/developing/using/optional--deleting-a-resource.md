@@ -3,7 +3,7 @@ title: Optional: Deleting a resource
 seo-title: Optional: Deleting a resource
 description: Optional: Deleting a resource
 seo-description: 
-uuid: 37b7023d-6bc3-48de-9a1a-652c7f29f0a5
+uuid: 43c3d05d-6579-494d-8e8c-8aa59478a34c
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/developing/using/optional--deleting-a-resource
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 cq-template: /apps/help/templates/article-3
-discoiquuid: 8e7f37e9-7c12-4dcc-b764-e0da87110b42
+discoiquuid: 88f7620d-39ee-4f52-b3de-d40cfb9b46bb
 firstPublishExternalDate: 2018-07-23T05:59:13.617-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Optional: Deleting a resource
 publishexternaldate: 2018-07-23T05 59 13.617-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/optional--deleting-a-resource.html
-sha1: 316caa61e5e4bc303639c5fb1de2a7cc8ad97007
+sha1: db558431aaecf3278c49258df836e00aa4db81ae
 topicBrowsingSortDate: 2018-07-23T05:59:13.617-0400
 index: y
 internal: n

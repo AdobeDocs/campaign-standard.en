@@ -4,7 +4,7 @@ seo-title: About testing and sending
 description: About testing and sending
 seo-description: Discover the different steps to test and send a message.
 page-status-flag: never-activated
-uuid: 2b805c05-e4ee-4bb2-9f19-9682490f7282
+uuid: e5d9aead-36f3-4dc2-a68d-8f052739156e
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/sending/using/about-testing-and-sending
 contentOwner: sauviat
@@ -15,7 +15,7 @@ audience: sending
 content-type: reference
 topic-tags: about-testing-and-sending
 cq-template: /apps/help/templates/article-3
-discoiquuid: 4e5c1ef6-9dd3-4dc8-995a-38e405346517
+discoiquuid: c784eb35-0717-4374-8bff-f66c4fc7c129
 firstPublishExternalDate: 2018-01-10T15:31:16.669-0500
 herogradient: light
 jcr-created: 2018-01-11T19 01 16.844-0500
@@ -28,7 +28,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About testing and sending
 publishexternaldate: 2018-01-10T15 31 16.669-0500
 publishExternalURL: https://helpx.adobe.com/campaign/standard/sending/using/about-testing-and-sending.html
-sha1: e078a56b7d03868a0d809cdec92e0915ff71155f
+sha1: 7493d97ae3b76d41b4b6ab9673297fd995894c3c
 topicBrowsingSortDate: 2018-01-10T15:31:16.669-0500
 index: y
 internal: n

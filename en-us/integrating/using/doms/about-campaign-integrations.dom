@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="71b97c6b-a5f4-4e9b-b7dc-a61708ff2701" name="jcr:uuid" />
-  <meta content="2018-03-15T09:01:28.269-0400" name="jcr:created" />
-  <meta content="audience:integrating" name="primaryAudienceTag" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="2018-07-23T05:59:21.530-0400" name="firstPublishExternalDate" />
   <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="2018-07-23T05:59:21.530-0400" name="lastPublishExternalDate" />
+  <meta content="About Campaign integrations" name="jcr:title" />
+  <meta content="71b97c6b-a5f4-4e9b-b7dc-a61708ff2701" name="jcr:uuid" />
+  <meta content="audience:integrating" name="primaryAudienceTag" />
+  <meta content="2018-07-27T03:26:15.410-0400" name="cq:lastModified" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="https://helpx.adobe.com/campaign/standard/integrating/using/about-campaign-integrations.html" name="publishExternalURL" />
   <meta content="2018-07-27T03:26:15.408-0400" name="locHandOffDate" />
   <meta content="en_us" name="jcr:language" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
   <meta content="products:SG_CAMPAIGN/STANDARD;audience:integrating;content_type:reference;topic_tags:about-campaign-integrations" name="cq:tags" />
-  <meta content="light" name="heroGradient" />
-  <meta content="https://helpx.adobe.com/campaign/standard/integrating/using/about-campaign-integrations.html" name="publishExternalURL" />
-  <meta content="About Campaign integrations" name="jcr:description" />
-  <meta content="2018-07-23T05:59:21.646-0400" name="cq:lastReplicated" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="Adobe Campaign allows you to use other Adobe solutions and combine their different capabilities." name="seoDescription" />
-  <meta content="2018-07-27T03:26:15.410-0400" name="cq:lastModified" />
-  <meta content="About Campaign integrations" name="jcr:title" />
+  <meta content="2018-07-23T05:59:21.530-0400" name="publishExternalDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-07-23T05:59:21.530-0400" name="topicBrowsingSortDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
   <meta content="/apps/help/templates/article-3" name="cq:template" />
   <meta content="About Campaign integrations" name="navTitle" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="Adobe Campaign allows you to use other Adobe solutions and combine their different capabilities." name="seoDescription" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-03-15T09:01:28.269-0400" name="jcr:created" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-07-23T05:59:21.530-0400" name="lastPublishExternalDate" />
   <meta content="57f4c8de-8de0-4833-bc46-b15f28ad9867" name="jcr:predecessors" />
-  <meta content="2018-07-23T05:59:21.530-0400" name="topicBrowsingSortDate" />
-  <meta content="2018-07-23T05:59:21.530-0400" name="publishExternalDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="About Campaign integrations" name="jcr:description" />
+  <meta content="2018-07-23T05:59:21.646-0400" name="cq:lastReplicated" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2018-07-23T05:59:21.530-0400" name="firstPublishExternalDate" />
+  <meta content="light" name="heroGradient" />
  </head>
  <body>
   <p>This section details the functional integrations available between the current version of Adobe Campaign and Adobe clouds as well as its solutions.</p> 

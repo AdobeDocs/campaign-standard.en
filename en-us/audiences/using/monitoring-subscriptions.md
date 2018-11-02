@@ -3,7 +3,7 @@ title: Monitoring subscriptions
 seo-title: Monitoring subscriptions
 description: Monitoring subscriptions
 seo-description: Learn how to track your subscribers and measure the success of your services using dashboards and reports.
-uuid: b3286afa-dfe8-414c-b168-d102e299b522
+uuid: 50756bf3-784c-4f5d-bc56-d2926455d370
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/audiences/using/monitoring-subscriptions
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
 cq-template: /apps/help/templates/article-3
-discoiquuid: 3a2a2da7-b57d-4519-87be-eee7eec551d3
+discoiquuid: 33a0e915-6774-44a9-bc80-ea74bbdb3ab7
 firstPublishExternalDate: 2018-07-23T05:55:32.001-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Monitoring subscriptions
 publishexternaldate: 2018-07-23T05 55 32.001-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/audiences/using/monitoring-subscriptions.html
-sha1: 664c7ace28a7639192c6c8d632e804d39dd5499f
+sha1: be97c205e76042f6bc35332d7a7d6f20d74f8b7a
 topicBrowsingSortDate: 2018-07-23T05:55:32.001-0400
 index: y
 internal: n
