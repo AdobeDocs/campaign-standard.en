@@ -77,8 +77,8 @@ Different external account types require different information to be specified.
 
 For an SFTP external account, provide the following details:
 
-* Server address. For example, **ftp.domain.com**.
-* Port number. For example, **22**.
+* Server address. For example, `ftp.domain.com`.
+* Port number. For example, `22`.
 * SFTP server credentials: account name and password used to connect to the server.
 
 ### Best practices for Adobe hosted SFTP servers
@@ -132,6 +132,5 @@ The list of compatible versions of AEM and more details about this integration a
 
 Provide the following details:
 
-* Server: AEM server URL. For example, **http://aem.domain.com:4502**.
+* Server: AEM server URL. For example, `http://aem.domain.com:4502`.
 * AEM account credentials: use the account that will access the AEM instance. It should be an account part of the campaign-remote group in AEM.
-
