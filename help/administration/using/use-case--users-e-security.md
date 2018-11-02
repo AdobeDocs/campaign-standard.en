@@ -1,7 +1,7 @@
 ---
-title: Use case: users & security
-seo-title: Use case: users & security
-description: Use case: users & security
+title: "Use case: users & security"
+seo-title: "Use case: users & security"
+description: "Use case: users & security"
 seo-description: Discover access and security management through a step-by-step use case.
 uuid: 0f5f5329-f194-4d2a-88e2-f8fbb56b7678
 content-encoding: ISO-8859-1
@@ -30,7 +30,7 @@ lastPublishExternalDate: 2018-07-23T05:53:29.218-0400
 lochandoffdate: 2018-07-25T09 29 16.777-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
-navTitle: Use case: users & security
+navTitle: "Use case: users & security"
 publishexternaldate: 2018-07-23T05 53 29.218-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/use-case--users-e-security.html
 sha1: 3a42dd5a3e1ebec4c08c48ed804364cd112e4962

@@ -1,7 +1,7 @@
 ---
-title: Step 1: Add extension fields to the profile resource
-seo-title: Step 1: Add extension fields to the profile resource
-description: Step 1: Add extension fields to the profile resource
+title: "Step 1: Add extension fields to the profile resource"
+seo-title: "Step 1: Add extension fields to the profile resource"
+description: "Step 1: Add extension fields to the profile resource"
 seo-description: Discover how to extend the profile resource.
 uuid: d54cbd19-10a6-427a-be07-6777511edec7
 content-encoding: ISO-8859-1
@@ -30,7 +30,7 @@ lastPublishExternalDate: 2018-07-23T05:59:15.940-0400
 lochandoffdate: 2018-07-26T02 53 36.517-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
-navTitle: Step 1: Add extension fields to the profile resource
+navTitle: "Step 1: Add extension fields to the profile resource"
 publishexternaldate: 2018-07-23T05 59 15.940-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/step-1--add-extension-fields-to-the-profile-resource.html
 sha1: af7c6731202dc58a8f8ecf0e81322e814b312e21

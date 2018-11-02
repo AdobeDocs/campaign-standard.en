@@ -1,7 +1,7 @@
 ---
-title: Optional: Deleting a resource
-seo-title: Optional: Deleting a resource
-description: Optional: Deleting a resource
+title: "Optional: Deleting a resource"
+seo-title: "Optional: Deleting a resource"
+description: "Optional: Deleting a resource"
 seo-description: 
 uuid: 43c3d05d-6579-494d-8e8c-8aa59478a34c
 content-encoding: ISO-8859-1
@@ -30,7 +30,7 @@ lastPublishExternalDate: 2018-07-23T05:59:13.617-0400
 lochandoffdate: 2018-07-26T02 53 34.827-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
-navTitle: Optional: Deleting a resource
+navTitle: "Optional: Deleting a resource"
 publishexternaldate: 2018-07-23T05 59 13.617-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/optional--deleting-a-resource.html
 sha1: db558431aaecf3278c49258df836e00aa4db81ae
@@ -52,18 +52,18 @@ To delete a resource, the resource in question must be a **Draft**. The resource
 To re-draft a published resource:
 
 1. Select the resource.
-1. Click the **Re-draft** button in the action bar.
-1. Click **Ok**.
+2. Click the **Re-draft** button in the action bar.
+3. Click **Ok**.
 
    >[!CAUTION]
    >
    >This action is definitive: the resource's data will be deleted when the modification is published.
 
-1. Publish the resource.
+4. Publish the resource.
 
    The resource then goes into **Draft** mode and its activation status is **Inactive**.
 
-1. In **List** mode, check the resource to delete then click the  ![](assets/delete_darkgrey-24px.png)
+5. In **List** mode, check the resource to delete then click the  ![](assets/delete_darkgrey-24px.png)
 
    icon.
 

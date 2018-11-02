@@ -2,7 +2,7 @@
 title: Data acquisition
 seo-title: Data acquisition
 description: Data acquisition
-seo-description: Discover various mechanisms for profile acquisition: online data collection, imports, manual or bulk creation through Campaign APIs.
+seo-description: "Discover various mechanisms for profile acquisition: online data collection, imports, manual or bulk creation through Campaign APIs."
 uuid: b63972ab-e28b-4121-8d3e-de2d38153009
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/start/using/data-acquisition
