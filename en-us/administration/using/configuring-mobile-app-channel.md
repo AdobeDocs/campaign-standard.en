@@ -128,7 +128,7 @@ You must have access to Adobe Analytics to do the following configuration. If yo
 1. Log into [mobilemarketing.adobe.com](http://mobilemarketing.adobe.com/).
 1. Create the application or select an existing one.
 1. Go to the **Manage App Settings** page.
-1. In the **Visitor ID Service ** section, check **Enable** and select your organization from the drop-down list. Click **Save**.
+1. In the **Visitor ID Service** section, check **Enable** and select your organization from the drop-down list. Click **Save**.
 
    >[!NOTE]
    >
@@ -159,15 +159,15 @@ You must have access to Adobe Analytics to do the following configuration. If yo
       }
       ```
 
-    * Set **Content Type** as **application/json**.
-    * In the **Which Data Tags Trigger the Postback?**, select any event, typically **Launched** and **does not exist**.
-    * Click **Save & Activate**.
+   * Set **Content Type** as **application/json**.
+   * In the **Which Data Tags Trigger the Postback?**, select any event, typically **Launched** and **does not exist**.
+   * Click **Save & Activate**.
 
 1. Create a second postback.
 
-    * Select **Postback** as the **Postback Type**.
-    * In the **URL** field, copy the **Collect PII Endpoint** URL from the mobile application that you configured in the Adobe Campaign interface, preceded by the server name. See [Setting up a mobile application in Adobe Campaign](../../administration/using/configuring-mobile-app-channel.md#setting-up-a-mobile-application-in-adobe-campaign).
-    * Fill in the **Post Body** field as follows:
+   * Select **Postback** as the **Postback Type**.
+   * In the **URL** field, copy the **Collect PII Endpoint** URL from the mobile application that you configured in the Adobe Campaign interface, preceded by the server name. See [Setting up a mobile application in Adobe Campaign](../../administration/using/configuring-mobile-app-channel.md#setting-up-a-mobile-application-in-adobe-campaign).
+   * Fill in the **Post Body** field as follows:
 
       For iOS:
 
@@ -187,15 +187,15 @@ You must have access to Adobe Analytics to do the following configuration. If yo
       }
       ```
 
-    * Set **Content Type** as **application/json**.
-    * In the **Which Data Tags Trigger the Postback?**, select any event, typically **Launched** and **does not exist**.
-    * Click **Save & Activate**.
+   * Set **Content Type** as **application/json**.
+   * In the **Which Data Tags Trigger the Postback?**, select any event, typically **Launched** and **does not exist**.
+   * Click **Save & Activate**.
 
 1. Create a third postback.
 
-    * Select **PII** as the **Postback Type**.
-    * In the **URL** field, copy the **Collect PII Endpoint** URL from the mobile application that you configured in the Adobe Campaign interface, preceded by the server name. See [Setting up a mobile application in Adobe Campaign](../../administration/using/configuring-mobile-app-channel.md#setting-up-a-mobile-application-in-adobe-campaign).
-    * Fill in the **Post Body** field as follows:
+   * Select **PII** as the **Postback Type**.
+   * In the **URL** field, copy the **Collect PII Endpoint** URL from the mobile application that you configured in the Adobe Campaign interface, preceded by the server name. See [Setting up a mobile application in Adobe Campaign](../../administration/using/configuring-mobile-app-channel.md#setting-up-a-mobile-application-in-adobe-campaign).
+   * Fill in the **Post Body** field as follows:
 
       For iOS:
 
@@ -225,9 +225,9 @@ You must have access to Adobe Analytics to do the following configuration. If yo
       
       ```
 
-    * Set **Content Type** as **application/json**.
-    * In the **Which Data Tags Trigger the Postback?**, select any event, typically **Launched** and **does not exist**.
-    * Click **Save & Activate**.
+   * Set **Content Type** as **application/json**.
+   * In the **Which Data Tags Trigger the Postback?**, select any event, typically **Launched** and **does not exist**.
+   * Click **Save & Activate**.
 
 ## Integrating the SDK into a mobile application
 

@@ -122,7 +122,7 @@ You must have access to Adobe Analytics to do the following configuration. If yo
 1. Log into [mobilemarketing.adobe.com](http://mobilemarketing.adobe.com/).
 1. Create the application or select an existing one.
 1. Go to the **Manage App Settings** page.
-1. In the **Visitor ID Service ** section, check **Enable** and select your organization from the drop-down list. Click **Save**.
+1. In the **Visitor ID Service** section, check **Enable** and select your organization from the drop-down list. Click **Save**.
 
    >[!NOTE]
    >
