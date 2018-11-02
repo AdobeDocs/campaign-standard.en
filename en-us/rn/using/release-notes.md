@@ -56,7 +56,7 @@ Each release comes with new features and patches. Click on a release to view its
 
 View the latest [documentation updates](../../rn/using/documentation-updates.md) for Adobe Campaign Standard. If you're looking for a previous release, consult this [page](../../rn/using/previous-release-notes.md).
 
-## 18.7 - July 2018 release
+## v18.7 - July 2018 release
 
 ### What's new?
 
@@ -119,7 +119,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed an issue in the Creative Designer which resulted in unwanted color font and formatting when changing some text with inbuilt styling to a link or when editing that link. (CAMP-26001)
 * Fixed an issue that prevented the hot click report to display the percentages for each condition in deliveries containing dynamic content. Previously, only the clicks on the default variant were displayed.
 
-## 18.6 - June 2018 release
+## v18.6 - June 2018 release
 
 ### Improvements
 
@@ -157,7 +157,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed an issue with the display of international data for Account levels in Dynamic reports.
 * It is now possible to create a service without a subscription or unsubscription confirmation message.
 
-## 18.5 - May 2018 release
+## v18.5 - May 2018 release
 
 ### What's new?
 
@@ -225,7 +225,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed an issue which could prevent the Creative Designer from loading. (CAMP-24573) 
 * Fixed an issue which removed characters added after personalization fields in the email subject. (CAMP-24113)
 
-## 18.4 - April 2018 release
+## v18.4 - April 2018 release
 
 ### Patches
 
@@ -251,7 +251,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 
 * Fixed an error which caused custom resource preparation to fail.
 
-## 18.3 - March 2018 release
+## v18.3 - March 2018 release
 
 ### New capabilities
 
@@ -327,7 +327,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed an error with transactional message template when the delivery resource was extended.
 * It is now possible to delete transactional messages.
 
-## 18.2 - February 2018 release
+## v18.2 - February 2018 release
 
 ### New capabilities
 
@@ -470,7 +470,7 @@ Some issues might occur when using contextual help links from Campaign interface
 * Fixed an issue that could prevent a user from selecting an audience or closing the audience picker window.
 * The list of available functions in the expression editor has been updated. The **FormatCurrency** and **ConvertCurrency** functions have been removed.
 
-## 17.10 - October 2017 release
+## v17.10 - October 2017 release
 
 ### New capabilities
 
@@ -549,7 +549,7 @@ Some issues might occur when using contextual help links from Campaign interface
 * Fixed an issue that occurred in list screens where custom resource rows could be displayed without any data. 
 * Fixed an issue that prevented boolean type fields with 'False' value from being displayed in custom resources.
 
-## 17.9 - September 2017 release
+## v17.9 - September 2017 release
 
 ### New capabilities
 
@@ -621,7 +621,7 @@ Some issues might occur when using contextual help links from Campaign interface
 * Adobe Campaign now provides a report that displays the number of active profiles. This report is only informative, it doesn't have a direct impact on billing. For more information, refer to the [detailed documentation](../../audiences/using/active-profiles.md).
 * Fixed an issue that prevented profiles from being subscribed to a service when using the Profiles and Services API.
 
-## 17.7 - July 2017 release
+## v17.7 - July 2017 release
 
 ### New capabilities
 
@@ -697,7 +697,7 @@ Some issues might occur when using contextual help links from Campaign interface
 * Fixed an issue which prevented you from setting an outbound transition in the creation wizard of recurring delivery.
 * Fixed an issue that occurred when using a workflow query activity based on a custom resource field with an enumeration that had a lot of values
 
-## 17.5 - May 2017 release
+## v17.5 - May 2017 release
 
 ### New capabilities
 
@@ -744,7 +744,7 @@ Some issues might occur when using contextual help links from Campaign interface
 * Fixed an issue which prevented you from clicking on a push event in a profile's marketing history.
 * The use of push notifications in workflows has been improved.
 
-## 17.4 - April 2017 release
+## v17.4 - April 2017 release
 
 ### New capabilities
 
@@ -829,7 +829,7 @@ Some issues might occur when using contextual help links from Campaign interface
 * Fixed an issue where an error message was not displayed when creating an Android application linked to a mobile app that had failed being created on MCPNS.
 * Fixed an issue that allowed a user to add sounds to a silent notification.
 
-## 17.2 - March 2017 release
+## v17.2 - March 2017 release
 
 ### New capabilities
 
@@ -897,7 +897,7 @@ Some issues might occur when using contextual help links from Campaign interface
 * Fixed an issue that could prevent from reading the content of the reject transition of a **Load file** activity.
 * Fixed an issue that prevented swapped columns to be properly taken into account when configuring a **Load file** activity.
 
-## 17.1 - January 2017 release
+## v17.1 - January 2017 release
 
 ### New capabilities
 
@@ -957,4 +957,3 @@ Some issues might occur when using contextual help links from Campaign interface
 * Fixed an issue that may have caused an error when deploying an event trigger in Adobe Campaign. This error occurred when the "Likelihood to Return in 30 Days" metadata had been added to the Abandonment trigger in Adobe Marketing Cloud.
 * Fixed an issue that may have caused the technical workflow to clear the Target Dimension field when importing audiences from People core service. Subsequent queries could not retrieve the imported audiences.
 * Fixed an issue that may have caused the **Save audience** activity of a workflow to fail when the option **Share in Adobe Marketing Cloud** was checked.
-
