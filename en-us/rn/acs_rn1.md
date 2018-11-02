@@ -34,9 +34,8 @@ Looking for a specific release of Adobe Campaign Standard?
 
 Each release comes with new features and patches. Click on a release to view its content.
 
-## 2017
+## Releases in 2017
 
-## 2016
+## Releases in 2016
 
-## 2015
-
+## Releases in 2015
