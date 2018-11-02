@@ -45,7 +45,6 @@ user-guide: null
  + [Documentation Updates](rn/using/documentation-updates.md)
  + [Previous Release Notes](rn/using/previous-release-notes.md)
  + [test](rn/testtttt.md)
-
 + Getting Started{getting-started}
   + [Integrating with Adobe Marketing Cloud](start/using/integrating-with-adobe-marketing-cloud.md)
   + [Step-by-step guides](start/using/step-by-step-guides.md)
@@ -67,7 +66,6 @@ user-guide: null
   + [Interface description](start/using/interface-description.md)
   + [Programs and campaigns](start/using/programs-and-campaigns.md)
   + [Marketing activities](start/using/marketing-activities.md)
-
 + Administration{#administration}
   + [List of authorizations](administration/using/list-of-authorizations.md)
   + [SMS configuration](administration/using/sms-configuration.md)
@@ -105,7 +103,6 @@ user-guide: null
   + [Technical workflows](administration/using/technical-workflows.md)
   + [Configuring transactional messaging](administration/using/configuring-transactional-messaging.md)
   + [Organizational and geographical units](administration/using/organizational-and-geographical-units.md)
-
 + Audiences{#audiences}
   + [Targeting dimension](audiences/using/targeting-dimension.md)
   + [About blacklisting in Campaign](audiences/using/about-blacklisting-in-campaign.md)
@@ -127,7 +124,6 @@ user-guide: null
   + [Creating audiences](audiences/using/creating-audiences.md)
   + [Integrated customer profile](audiences/using/integrated-customer-profile.md)
   + [About profiles](audiences/using/about-profiles.md)
-  
 + Automating{#automating}
   + [Use case: Importing profiles](automating/using/use-case--importing-profiles.md)
   + [Using import templates](automating/using/using-import-templates.md)
@@ -179,7 +175,6 @@ user-guide: null
   + [Reconciliation](automating/using/reconciliation.md)
   + [Exporting lists](automating/using/exporting-lists.md)
   + [Update data](automating/using/update-data.md)
-
 + Designing{#designing}
   + [Inserting tracking links](designing/using/inserting-tracking-links.md)
   + [Adding a link](designing/using/adding-a-link.md)
@@ -245,7 +240,6 @@ user-guide: null
   + [Modifying images with the Adobe Creative SDK](designing/using/modifying-images-with-the-adobe-creative-sdk.md)
   + [Managing landing page structure and style](designing/using/managing-landing-page-structure-and-style.md)
   + [Content design best practices](designing/using/content-design-best-practices.md)
-
 + Channels{#channels}
   + [Creating a multilingual email](channels/using/creating-a-multilingual-email.md)
   + [Accessing messages](channels/using/accessing-messages.md)
@@ -278,7 +272,6 @@ user-guide: null
   + [Sharing a landing page](channels/using/sharing-a-landing-page.md)
   + [About emails](channels/using/about-emails.md)
   + [Creating the direct mail](channels/using/creating-the-direct-mail.md)
-
 + Developing{#developing}
   + [Key steps](developing/using/key-steps.md)
     + [Step 1: Define the resource](developing/using/step-1--define-the-resource.md)
@@ -300,7 +293,6 @@ user-guide: null
   + [Optional: Editing a resource properties](developing/using/optional--editing-a-resource-properties.md)
   + [Generating a unique ID for profiles and custom resources](developing/using/generating-a-unique-id-for-profiles-and-custom-resources.md)
   + [About extending the API](developing/using/about-extending-the-api.md)
-
 + Integrating{#integrating}
   + [About Adobe Analytics integration](integrating/using/about-adobe-analytics-integration.md)
   + [Configure Adobe Analytics integration](integrating/using/configure-adobe-analytics-integration.md)
@@ -348,7 +340,6 @@ user-guide: null
   + [About Campaign-Target integration](integrating/using/about-campaign-target-integration.md)
   + [About Campaign-Analytics integration](integrating/using/about-campaign-analytics-integration.md)
   + [Provisioning and configuring integration with Audience Manager or People core service](integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
-
 + Reporting{#reporting}
   + [Defining the report period](reporting/using/defining-the-report-period.md)
   + [Adding components](reporting/using/adding-components.md)
@@ -372,7 +363,6 @@ user-guide: null
   + [Breakdown by domains](reporting/using/breakdown-by-domains.md)
   + [Bounce summary](reporting/using/bounce-summary.md)
   + [Push notification report](reporting/using/push-notification-report.md)
-
 + Sending{#sending}
   + [Delivery alerting](sending/using/delivery-alerting.md)
   + [Sending at the recipient's time zone](sending/using/sending-at-the-recipient-s-time-zone.md)
@@ -395,4 +385,3 @@ user-guide: null
   + [Managing test profiles and sending proofs](sending/using/managing-test-profiles-and-sending-proofs.md)
   + [Tracking messages](sending/using/tracking-messages.md) 
   + [Creating and sending a push notification](channels/using/creating-and-sending-a-push-notification.md)
-  
