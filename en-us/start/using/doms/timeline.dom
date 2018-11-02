@@ -1,0 +1,72 @@
+<html>
+ <head>
+  <meta content="2018-03-15T09:02:38.032-0400" name="jcr:created" />
+  <meta content="2018-07-23T06:00:45.933-0400" name="publishExternalDate" />
+  <meta content="Timeline" name="navTitle" />
+  <meta content="5dbac225-d968-4c8e-a7fe-9d336e698bbf" name="jcr:uuid" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2018-07-27T03:27:08.053-0400" name="cq:lastModified" />
+  <meta content="2018-07-23T06:00:45.933-0400" name="topicBrowsingSortDate" />
+  <meta content="b57d44dc-f401-482a-9c0b-7269d684a479" name="jcr:predecessors" />
+  <meta content="2018-07-23T06:00:45.933-0400" name="firstPublishExternalDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="Timeline" name="jcr:description" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2018-07-23T06:00:45.933-0400" name="lastPublishExternalDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="light" name="heroGradient" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="2018-07-23T06:00:45.965-0400" name="cq:lastReplicated" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="https://helpx.adobe.com/campaign/standard/start/using/timeline.html" name="publishExternalURL" />
+  <meta content="Learn how to visualize programs that are in progress and their content using the Adobe Campaign Standard interface." name="seoDescription" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Timeline" name="jcr:title" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:start;content_type:reference;topic_tags:marketing-plans" name="cq:tags" />
+  <meta content="audience:start" name="primaryAudienceTag" />
+  <meta content="2018-07-27T03:27:08.051-0400" name="locHandOffDate" />
+ </head>
+ <body>
+  <p>The <strong>Timeline</strong> allows you to visualize programs that are in progress and their content.</p> 
+  <p>To access the timeline, click the corresponding card from the home page.</p> 
+  <p>By default, the timeline only details programs, which are chronologically displayed between the start dates and end dates defined.</p> 
+  <p>Each program is represented by a box containing the corresponding thumbnail and label. Depending on the screen size and the number of elements to display, the label may be replaced by the program ID.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/timeline_1.png" title="" />
+  <p>The blue vertical line is a chronological marker to highlight the current date. By default it is found in the middle of the screen. You can scroll right or left within the screen to modify the period displayed.</p> 
+  <p>The <img height="21px" src="assets/timeline_zoom_in.png" /> and <img height="21px" src="assets/timeline_zoom_out.png" /> buttons allow you to increase or reduce the perimeter. The <img height="21px" src="assets/timeline_zoom_in.png" /> button also increases the level of detail for a more limited period, until days are displayed, and the <img height="21px" src="assets/timeline_zoom_out.png" /> button allows you to display a larger period.</p> 
+  <p>Click the arrow on the right of each program name to display the corresponding content. A program can contain sub-programs, campaigns, and landing pages. A campaign is deployed in the same way as a program and can contain emails, SMS and landing pages.</p> 
+  <note>
+   <p> As workflows do not have a particular notion of a date, they do not show up in the timeline. </p> 
+  </note>
+  <p>When the content of a program or a campaign is being displayed, the corresponding box turns blue and the arrow on the right-hand side turns upside down. Re-click the arrow to hide the content.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/timeline_2.png" title="" />
+  <p>Each element has an icon that corresponds to its type:</p> 
+  <ul>
+   <li><p> <img height="21px" src="assets/timeline_program_icon.png" /> : Program</p> </li>
+   <li><p> <img height="21px" src="assets/timeline_campaign_icon.png" /> : Campaign</p> </li>
+   <li><p> <img height="21px" src="assets/timeline_LP_icon.png" /> : Landing page</p> </li>
+   <li><p> <img height="21px" src="assets/timeline_email_icon.png" /> : Email</p> </li>
+   <li><p> <img height="21px" src="assets/timeline_sms_icon.png" /> : SMS</p> </li>
+   <li><p> <img height="21px" src="assets/timeline_push_icon.png" /> : Push notification</p> </li>
+  </ul>
+  <p>The colored line on the left border of each box indicates the status of the element concerned.</p> 
+  <ul>
+   <li><p>When an element has not yet started, the line is gray.</p> </li>
+   <li><p>If an element is in progress, the line is blue.</p> </li>
+   <li><p>As soon as an element has finished, the line turns green.</p> </li>
+  </ul>
+  <p>Click a program or any other element displayed to make the corresponding card appear. Then click on the card to go directly to the content of the element selected and modify it.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/timeline_3.png" title="" />
+  <p>Click anywhere else in the screen to make the card disappear.</p> 
+ </body>
+</html>

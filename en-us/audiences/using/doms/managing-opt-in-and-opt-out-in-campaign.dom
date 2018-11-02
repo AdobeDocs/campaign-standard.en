@@ -1,0 +1,62 @@
+<html>
+ <head>
+  <meta content="2018-07-23T05:55:35.613-0400" name="publishExternalDate" />
+  <meta content="2018-07-25T09:29:19.717-0400" name="cq:lastModified" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-07-23T05:55:35.713-0400" name="cq:lastReplicated" />
+  <meta content="2018-07-25T09:29:19.716-0400" name="locHandOffDate" />
+  <meta content="audience:audiences" name="primaryAudienceTag" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="Managing opt-in and opt-out in Campaign" name="navTitle" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-07-23T05:55:35.613-0400" name="firstPublishExternalDate" />
+  <meta content="2018-07-23T05:55:35.613-0400" name="lastPublishExternalDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="Understand how opt-in and opt-out are managed in Adobe Campaign." name="seoDescription" />
+  <meta content="2018-07-23T05:55:35.613-0400" name="topicBrowsingSortDate" />
+  <meta content="Managing opt-in and opt-out in Campaign" name="jcr:description" />
+  <meta content="https://helpx.adobe.com/campaign/standard/audiences/using/managing-opt-in-and-opt-out-in-campaign.html" name="publishExternalURL" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:audiences;content_type:reference;topic_tags:understanding-opt-in-and-opt-out-processes" name="cq:tags" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="7978a7ef-d66c-4985-90cf-9360069d9f70" name="jcr:uuid" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Managing opt-in and opt-out in Campaign" name="jcr:title" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2018-05-07T07:29:07.776-0400" name="jcr:created" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="light" name="heroGradient" />
+  <meta content="1210ca1f-d2b1-46cd-9e23-53141c832310" name="jcr:predecessors" />
+ </head>
+ <body>
+  <h2>Managing opt-in and opt-out from a profile</h2>
+  <p>Users can be opted in or out by an operator directly from the profile <strong>General</strong> tab.</p> 
+  <p>In the <strong>No longer contact (blacklist)</strong> section, the selected checkboxes correspond to the channels from which the user chose to opt out. Select the channels according to the user's needs.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/optIn_landingPage_3.png" title="" />
+  <h2>Setting up opt-in and opt-out landing pages</h2>
+  <p>To give users the ability to opt in or opt out, you have to create and publish a <strong>Profile acquisition</strong> landing page. They will then be able to select the channels according to their needs. To do this, follow the steps below.</p> 
+  <p>You can also set up a <strong>BlackList</strong> landing page that will enable users to opt out from all deliveries. For more on this, refer to <a href="../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#setting-up-a-landing-page-to-opt-out-from-all-deliveries" target="_blank">Setting up a landing page to opt out from all deliveries</a>.</p> 
+  <note>
+   <p> Landing pages can also be used to enable services subscription. For more on this, refer to <a href="../../channels/using/designing-a-landing-page.md#linking-a-form-to-a-service">this page</a>. </p> 
+  </note>
+  <ol>
+   <li><p>Create a <strong>Profile acquisition</strong> landing page (see <a href="../../channels/using/about-landing-pages.md">this section</a>).</p> </li>
+   <li><p>Add a checkbox in the landing page content for each desired channel, then link it to the corresponding field from the Campaign database.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/optIn_landingPage_1.png" title="" /></li>
+   <li><p>Save the landing page and publish it.</p> </li>
+   <li><p>In the landing page, the checkboxes are already selected according to the profile <strong>General</strong> tab. The user can select or unselect the channels according to his needs and submit the form.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/optIn_landingPage_2.png" title="" /></li>
+   <li><p>Once the form submitted, the profile <strong>General</strong> tab is updated according to the user's selection.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/optIn_landingPage_3.png" title="" /></li>
+  </ol>
+  <h3>Setting up a landing page to opt out from all deliveries</h3>
+  <p>To give users the ability to opt out from all deliveries, you have to create and publish a <strong>BlackList</strong> landing page. For more on landing pages creation, refer to <a href="../../channels/using/about-landing-pages.md">this page</a>.</p> 
+  <p>Once a user clicks on the landing page link, the <strong>No longer contact (by any channel)</strong> option in the profile is automatically selected.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/blacklisting_allChannels.png" title="" />
+ </body>
+</html>

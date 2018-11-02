@@ -1,0 +1,54 @@
+<html>
+ <head>
+  <meta content="2018-01-23T08:51:07.951-0500" name="publishExternalDate" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-01-10T15:31:16.749-0500" name="firstPublishExternalDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="simonetn@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="/content/help/en/campaign/standard/sending/morehelp/sheduling-messages;/content/help/en/campaign/standard/sending/morehelp/sheduling-messages" name="moreHelpPaths" />
+  <meta content="Discover the scheduling feature." name="seoDescription" />
+  <meta content="About the scheduling" name="jcr:description" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="audience:sending" name="primaryAudienceTag" />
+  <meta content="light" name="heroGradient" />
+  <meta content="a584a6c3-4e59-468b-b8a8-6c162b24311d" name="jcr:predecessors" />
+  <meta content="2018-01-24T19:01:37.640-0500" name="jcr:created" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-01-23T08:51:07.951-0500" name="topicBrowsingSortDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:sending;content_type:reference;topic_tags:sheduling-messages" name="cq:tags" />
+  <meta content="About the scheduling" name="navTitle" />
+  <meta content="About the scheduling" name="jcr:title" />
+  <meta content="https://helpx.adobe.com/campaign/standard/sending/using/about-the-scheduling.html" name="publishExternalURL" />
+  <meta content="2018-01-23T08:51:07.951-0500" name="lastPublishExternalDate" />
+  <meta content="34c8916f-a476-4113-9625-d23780d98cf7" name="jcr:uuid" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="simonetn" name="cq:lastModifiedBy" />
+  <meta content="2018-01-23T08:51:07.958-0500" name="cq:lastModified" />
+ </head>
+ <body>
+  <p>In the delivery dashboard, the <strong>Schedule</strong> block allows you to choose when you want to send the message.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/delivery_dashboard.png" title="" />
+  <p>The <strong>Schedule</strong> screen has two options:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/delivery_planning.png" title="" />
+  <ul>
+   <li><p><strong>Messages to be sent once confirmed</strong>: The message is sent as soon as the send is confirmed. See <a href="../../sending/using/confirming-send.md" target="_blank">Confirming send</a>.</p> </li>
+   <li><p><strong>Messages to be sent automatically on the date specified below</strong>: The message will be sent at a later date and time. Specify the <strong>contact date</strong> in the <strong>Start sending from</strong> field.</p> <p>You can prepare and confirm the send, but the messages will only be sent on the selected date and time.</p> 
+    <note>
+     <p>Whenever making changes to a delivery’s schedule, be sure to re-prepare the delivery by clicking on the <strong>Prepare</strong> button before clicking <strong>Confirm</strong>.</p> 
+    </note><p>Preparing and confirming the send are presented in the <a href="../../sending/using/preparing-the-send.md" target="_blank">Preparing the send</a> and <a href="../../sending/using/confirming-send.md" target="_blank">Confirming send</a> sections.</p> <p>The <strong>Time zone of the contact date</strong> drop-down list allows you to modify the time zone that will be taken into account for the sending time.</p> <p>For example, if you enter 9:00 AM in the <strong>Start sending from</strong> field and if you select Brussels, Copenhagen, Madrid, Paris (GMT+1) in the <strong>Time zone of the contact date</strong> drop-down list, all recipients will receive the message at 9:00 AM Paris time. Therefore, a recipient located in Moscow (GMT+3) will receive the message at 11:00 AM Moscow time.</p> 
+    <note>
+     <p> The default time zone is the time zone the user is currently in. </p> 
+    </note><p>If you would like to manually confirm the send, check the <strong>Request confirmation before sending messages</strong> box. This option is enabled by default.</p> 
+    <note>
+     <p> When duplicating a delivery, all scheduling settings are deleted. Unless you schedule a new contact date, the duplicated delivery will be sent as soon as the send is confirmed. </p> 
+    </note></li>
+  </ul>
+ </body>
+</html>

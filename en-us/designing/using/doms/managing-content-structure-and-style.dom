@@ -1,0 +1,68 @@
+<html> 
+ <head> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-06-14T08:43:39.834-0400" name="firstPublishExternalDate" /> 
+  <meta content="2018-05-07T07:29:21.005-0400" name="jcr:created" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
+  <meta content="audience:designing" name="primaryAudienceTag" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="328a9630-d7d3-490e-a799-2db54fbe15e7" name="jcr:predecessors" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="Managing content structure and style" name="navTitle" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-06-14T08:43:39.834-0400" name="topicBrowsingSortDate" /> 
+  <meta content="2018-06-25T08:45:02.703-0400" name="locHandOffDate" /> 
+  <meta content="2018-06-14T08:43:39.834-0400" name="publishExternalDate" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-06-14T08:43:39.834-0400" name="lastPublishExternalDate" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:editing-message-and-landing-page-content" name="cq:tags" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="sauviat" name="cq:lastReplicatedBy" /> 
+  <meta content="2018-06-25T08:45:02.703-0400" name="cq:lastModified" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="Managing content structure and style" name="jcr:description" /> 
+  <meta content="aecf2f67-6017-4987-acda-4bb8cbf3aa03" name="jcr:uuid" /> 
+  <meta content="https://helpx.adobe.com/campaign/standard/designing/using/managing-content-structure-and-style.html" name="publishExternalURL" /> 
+  <meta content="Managing content structure and style" name="jcr:title" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2018-06-14T08:43:39.854-0400" name="cq:lastReplicated" /> 
+  <meta content="Learn how to manage the different HTML content elements and overall styling in a message." name="seoDescription" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+ </head> 
+ <body> 
+  <h2>Managing blocks</h2> 
+  <p>The different HTML content elements are displayed in the page as blocks, corresponding to the <strong>&amp;lt;div&gt;</strong> <strong>&amp;lt;/div&gt;</strong> tag.</p> 
+  <p>Select a block to interact with it. It will then be surrounded by a blue box.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/delivery_content_15.png" title="" /> 
+  <p>If a block is selected, the parent objects of the corresponding HTML element will show in a breadcrumb located at the bottom of the editing zone.</p> 
+  <p>When the mouse hovers over one of the breadcrumb elements, the element concerned is highlighted. You can therefore navigate easily between the different blocks and select exactly the HTML element you would like to modify.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/delivery_content_4.png" title="" /> 
+  <p>Use the options from the palette and the contextual toolbar to modify, delete, or duplicate the block.</p> 
+  <p>For the blocks containing text, click again in the block to enable text editing mode. The frame around the block turns green. You can then select or enter text. Use the options from the palette and the contextual toolbar to add a link or modify the text formatting.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/delivery_content_16.png" title="" /> 
+  <p>The parameters defined for an element in a block (links, personalization fields, content blocks, etc.) can be modified at any time from the palette.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/delivery_content_19.png" title="" /> 
+  <h2>Adding a border and a background</h2> 
+  <p>You can also define a <strong>background color</strong> by selecting a color from the chart. This color is applied to the selected block.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/delivery_content_6.png" title="" /> 
+  <p>You can add a <strong>border</strong> to the selected block.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/delivery_content_7.png" title="" /> 
+  <h2>Changing the text style</h2> 
+  <p>To change the style of the text, you have to click inside a text block.</p> 
+  <p>To change the text alignment, select one of the following three icons in the palette on the left:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/delivery_content_12.png" title="" /> 
+  <ul> 
+   <li><p><strong>Align left</strong>: aligns the text to the left of the selected block (adds style="text-align: left;"). </p> </li> 
+   <li><p><strong>Center</strong>: centers the text in the block selected (adds style="text-align: center;"). </p> </li> 
+   <li><p><strong>Align right</strong>: aligns the text to the right of the selected block (adds style="text-align: right;"). </p> </li> 
+  </ul> 
+  <p>You can also use the toolbar to change the font attributes: adapt the font size, make the text bold or italic, underline or change the color of the text. Refer to <a href="../../designing/using/content-editor-interface.md#toolbar">Toolbar</a>.</p> 
+ </body> 
+</html>

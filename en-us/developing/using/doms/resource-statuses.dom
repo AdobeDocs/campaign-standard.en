@@ -1,0 +1,55 @@
+<html>
+ <head>
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="Discover the different resource statuses." name="seoDescription" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="Resource statuses" name="jcr:description" />
+  <meta content="2018-07-23T05:59:03.541-0400" name="firstPublishExternalDate" />
+  <meta content="2018-07-23T05:59:03.541-0400" name="publishExternalDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Resource statuses" name="jcr:title" />
+  <meta content="https://helpx.adobe.com/campaign/standard/developing/using/resource-statuses.html" name="publishExternalURL" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="2ca9eb9b-eece-472a-8f00-b9b04a9e008e" name="jcr:uuid" />
+  <meta content="light" name="heroGradient" />
+  <meta content="audience:developing" name="primaryAudienceTag" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="2018-07-23T05:59:03.665-0400" name="cq:lastReplicated" />
+  <meta content="2018-07-23T05:59:03.541-0400" name="lastPublishExternalDate" />
+  <meta content="d8759b01-1d3d-4ec0-b4c3-cc97bf3fb772" name="jcr:predecessors" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="2018-07-26T02:53:19.100-0400" name="cq:lastModified" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Resource statuses" name="navTitle" />
+  <meta content="2018-03-15T09:02:16.807-0400" name="jcr:created" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:developing;content_type:reference;topic_tags:about-custom-resources" name="cq:tags" />
+  <meta content="2018-07-23T05:59:03.541-0400" name="topicBrowsingSortDate" />
+  <meta content="2018-07-26T02:53:19.099-0400" name="locHandOffDate" />
+ </head>
+ <body>
+  <p>Resources can have different statuses according to their publication or activation status.</p> 
+  <p>There are two columns dedicated to displaying these statuses in the <strong>Custom resources</strong> screen.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/schema_colonne_1.png" title="" />
+  <p><strong>Publication statuses</strong></p> 
+  <ul>
+   <li><p><strong>Draft</strong>: the resource has just been created or re-drafted. To create the database tables as well as the corresponding APIs the resource must be republished. If a resource is being re-drafted, it is automatically rendered inactive following the publication step.</p> </li>
+   <li><p><strong>Pending re-draft</strong>: the resource was re-drafted. The re-draft process will occur during the next publication. Re-drafting is irreversible. Several warning messages warn the user of this fact both when re-drafting, then when preparing to publish.</p> 
+    <note>
+     <p> The <strong>Cancel re-draft</strong> option is available when the resource that you want to re-draft still contains links through other resources with the "Published" status. This option allows you to revert the "re-draft" process. The custom resources will then go back to their original statuses. </p> 
+    </note></li>
+   <li><p><strong>Published</strong>: the resource has been published. If the resource is modified after the last modified date, then a message appears asking the user to republish in order to take into account the latest modifications.</p> </li>
+  </ul>
+  <p>The <strong>Do not publish latest modifications</strong> field prevents modifications from being taken into account during future publications.</p> 
+  <p>This field can be configured in the custom resource definition.</p> 
+ </body>
+</html>

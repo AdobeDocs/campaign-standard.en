@@ -1,0 +1,84 @@
+<html> 
+ <head> 
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="2018-07-23T05:57:05.900-0400" name="lastPublishExternalDate" /> 
+  <meta content="Read audience" name="navTitle" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="2018-07-23T05:57:05.900-0400" name="publishExternalDate" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="2018-07-23T05:57:05.960-0400" name="cq:lastReplicated" /> 
+  <meta content="Read audience" name="jcr:description" /> 
+  <meta content="6aeb4e5c-a149-454a-bdaa-029eb127b044" name="jcr:uuid" /> 
+  <meta content="audience:automating" name="primaryAudienceTag" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:targeting-activities" name="cq:tags" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-07-23T05:57:05.900-0400" name="topicBrowsingSortDate" /> 
+  <meta content="sauviat" name="cq:lastReplicatedBy" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2018-07-25T09:29:28.811-0400" name="locHandOffDate" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/read-audience.html" name="publishExternalURL" /> 
+  <meta content="Read audience" name="jcr:title" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="e31b5f5c-1095-46f8-9644-496e054563a2" name="jcr:predecessors" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-07-23T05:57:05.900-0400" name="firstPublishExternalDate" /> 
+  <meta content="2018-07-25T09:29:28.812-0400" name="cq:lastModified" /> 
+  <meta content="2018-03-15T09:01:29.492-0400" name="jcr:created" /> 
+  <meta content="The Read audience activity allows you to retrieve an existing audience and to refine it by applying additional filtering conditions." name="seoDescription" /> 
+ </head> 
+ <body> 
+  <h2>Description</h2> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/prefill.png" title="" /> 
+  <p>The <strong>Read audience</strong> activity allows you to retrieve an existing audience and to refine it by applying additional filtering conditions.</p> 
+  <h2>Context of use</h2> 
+  <p>The <strong>Read audience</strong> activity is a simpler version of the <strong>Query</strong> activity designed for cases where you only need to select an existing audience.</p> 
+  <h2>Configuration</h2> 
+  <ol> 
+   <li><p>Drop a <strong>Read audience</strong> activity into your workflow.</p> </li> 
+   <li><p>Select the activity, then open it using the <img height="21px" src="assets/edit_darkgrey-24px.png" /> button from the quick actions that appear.</p> </li> 
+   <li><p>Select the audience you want to retrieve from the <strong>Properties</strong> tab.</p> <p>You can retrieve audiences of the following types: <strong>List</strong>, <strong>Query</strong>, <strong>File</strong> and <strong>Experience Cloud</strong>. For more information on audience types, refer to the <a href="../../audiences/using/about-audiences.md">Audiences</a> documentation.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/readaudience_activity1.png" title="" /></li> 
+   <li><p>If you want to apply additional filtering to the selected audience, add conditions via the <strong>Source filtering</strong> tab of the activity.</p> <p>For more information about creating filtering conditions, refer to the <a href="../../automating/using/editing-queries.md#creating-queries">Creating queries</a> documentation.</p> </li> 
+   <li><p>Confirm the configuration of your activity and save your workflow.</p> </li> 
+  </ol> 
+  <h2>Example: Reconcile a File audience with the database</h2> 
+  <p>This example shows how to use the <strong>Read audience</strong> activity to reconcile an audience directly created from a file import.</p> 
+  <p>When performing a file import, you can directly save its content in an audience. This audience is a File audience and its data is not linked to any database resources.</p> 
+  <p>The import workflow is designed as follows:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/readaudience_activity_example3.png" title="" /> 
+  <ul> 
+   <li><p>A <a href="../../automating/using/load-file.md">Load file</a> activity uploads a file containing profiles data that were extracted from an external tool.</p> <p>For example:</p> 
+    <codeblock gutter="true" class="syntax html">
+      lastname;firstname;birthdate;email;crmID!!discoiqbr!!Smith;Hayden;23/05/1989;hayden.smith@example.com;124365!!discoiqbr!!Mars;Daniel;17/11/1987;dannymars@example.com;123545!!discoiqbr!!Smith;Clara;08/02/1989;hayden.smith@example.com;124567!!discoiqbr!!Durance;Allison;15/12/1978;allison.durance@example.com;120987!!discoiqbr!!Lucassen;Jody;28/03/1988;jody.lucassen@example.com;127634!!discoiqbr!!Binder;Tom;19/01/1982;tombinder@example.com;128653!!discoiqbr!!Binder;Tommy;19/01/1915;tombinder@example.com;134576!!discoiqbr!!Connor;Jade;10/10/1979;connor.jade@example.com;132452!!discoiqbr!!Mack;Clarke;02/03/1985;clarke.mack@example.com;149876!!discoiqbr!!Ross;Timothy;04/07/1986;timross@example.com;157643 
+    </codeblock></li> 
+   <li><p>A <a href="../../automating/using/save-audience.md">Save audience</a> activity saves the incoming data as an audience. As the data has not been reconciled yet, the audience is a File audience and its data is not recognized as profile data yet.</p> </li> 
+  </ul> 
+  <p>The reconciliation workflow is designed as follows:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/readaudience_activity_example2.png" title="" /> 
+  <ul> 
+   <li><p>A <strong>Read audience</strong> activity uploads the File audience created in the import workflow. The audience data is not yet reconciled with the Adobe Campaign database.</p> </li> 
+   <li><p>A <a href="../../automating/using/reconciliation.md">Reconciliation</a> activity identifies the incoming data as profiles through its <strong>Identification</strong> tab. For example by using the <strong>email</strong> field as reconciliation criteria.</p> </li> 
+   <li><p>An <a href="../../automating/using/update-data.md">Update data</a> activity inserts and updates the profiles resource of the database with the incoming data. As the data is already identified as profiles, you can select the <strong>Directly using the targeting dimension</strong> option and select <strong>Profiles</strong> in the <strong>Identification</strong> tab of the activity. Then, you simply have to add the list of fields that need to be updated in the according tab.</p> </li> 
+  </ul> 
+  <h2>Example: Union on two refined audiences</h2> 
+  <p>The workflow defined in this example shows the union of two <strong>Read audience</strong> activities. The goal of this workflow is to send an email to Gold or Silver members that are between 18 and 30 years old.</p> 
+  <p>Specific audiences are already created in the system to keep track of Gold and Silver members.</p> 
+  <p>The workflow is designed as follows:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/readaudience_activity_example1.png" title="" /> 
+  <ul> 
+   <li><p>A first <strong>Read audience</strong> activity that retrieves the Gold members audience and refines it by selecting only profiles that are between 18 and 30 years old.</p> </li> 
+   <li><p>A second <strong>Read audience</strong> activity that retrieves the Silver members audience and refines it by selecting only profiles that are between 18 and 30 years old.</p> </li> 
+   <li><p>A <strong>Union</strong> activity that unites populations from both <strong>Read audiences</strong> activities into one final population.</p> </li> 
+   <li><p>An <strong>Email delivery</strong> activity that sends the email to the population coming from the <strong>Union</strong> activity.</p> </li> 
+  </ul> 
+ </body> 
+</html>

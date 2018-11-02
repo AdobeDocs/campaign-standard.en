@@ -1,0 +1,87 @@
+<html> 
+ <head> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="Inserting and editing images" name="navTitle" /> 
+  <meta content="d9861d4a-c768-47fc-825d-2c4b6af00645" name="jcr:predecessors" /> 
+  <meta content="2018-06-14T08:43:52.143-0400" name="topicBrowsingSortDate" /> 
+  <meta content="2018-06-14T08:43:52.143-0400" name="publishExternalDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="Inserting and editing images" name="jcr:description" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
+  <meta content="audience:designing" name="primaryAudienceTag" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="Inserting and editing images" name="jcr:title" /> 
+  <meta content="fd279990-3f40-480a-b371-a4e9a3a8b06e" name="jcr:uuid" /> 
+  <meta content="2018-06-14T08:43:52.143-0400" name="lastPublishExternalDate" /> 
+  <meta content="2018-06-25T08:45:21.047-0400" name="locHandOffDate" /> 
+  <meta content="2018-03-27T07:29:06.164-0400" name="jcr:created" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-06-14T08:43:52.143-0400" name="firstPublishExternalDate" /> 
+  <meta content="sauviat" name="cq:lastReplicatedBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="https://helpx.adobe.com/campaign/standard/designing/using/inserting-and-editing-images.html" name="publishExternalURL" /> 
+  <meta content="Learn how to add images to your emails." name="seoDescription" /> 
+  <meta content="2018-06-25T08:45:21.047-0400" name="cq:lastModified" /> 
+  <meta content="2018-06-14T08:43:52.169-0400" name="cq:lastReplicated" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:designing-email-content" name="cq:tags" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+ </head> 
+ <body> 
+  <ol> 
+   <li><p>Add a structure component and an <strong>Image</strong> content fragment.</p> </li> 
+   <li><p>Select the content fragment you just added. Several upload options are available, depending on your configuration:</p> 
+    <ul> 
+     <li><p>local images,</p> </li> 
+     <li><p>assets shared from Adobe Experience Cloud - refer to <a href="../../integrating/using/working-with-campaign-and-assets-core-service.md">Working with Campaign and Assets Core Service</a> / Assets On Demand,</p> </li> 
+    </ul></li> 
+   <li><p>Check the image properties and adjust them if needed.</p> </li> 
+   <li><p>If enabled, you can modify images with the Adobe Creative SDK.</p> </li> 
+  </ol> 
+  <note> 
+   <p> If you choose to add an image directly by editing the HTML version of the email, you must not call up <strong>external files in a &amp;lt;script&amp;gt; tag</strong> of the HTML page. These files will not be imported onto the Adobe Campaign server. </p> 
+  </note> 
+  <h2>Setting up image properties</h2> 
+  <p>When you select a block that contains an image, the following properties are offered in the palette: </p> 
+  <ul> 
+   <li><p><strong>Enable personalization</strong> allows you to customize the image source. For more information, refer to the <a href="../../designing/using/inserting-images.md#personalizing-an-image-source">Personalizing an image source</a> section.</p> </li> 
+   <li><p><strong>Image Title</strong> lets you define a title for the image.</p> </li> 
+   <li><p><strong>Alt text</strong> lets you define the caption linked to the image (corresponds to the <strong>alt</strong> HTML attribute).</p> </li> 
+   <li><p><strong>Style</strong> lets you specify the image size, background, and border.</p> </li> 
+  </ul> 
+  <h2>Modifying images with Adobe Creative SDK</h2> 
+  <p>You can edit images and use a complete set of features powered by the Adobe Creative SDK to enhance your images directly in the content editor when editing emails or landing pages.</p> 
+  <p>The image editor offers a powerful, full-featured image editing UI component that allows you to edit images and apply effects and frames, original high-quality stickers, beautiful overlays, fun features like tilt shift and color splash, pro-level adjustments and more.</p> 
+  <p>To modify an image with Adobe Creative SDK:</p> 
+  <ol> 
+   <li><p>Select the image.</p> </li> 
+   <li><p>In the toolbar, click the Creative Cloud icon.</p> </li> 
+   <li><p>Select the tool you want to use through the icons on the top of the window to modify the image.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/email_designer_ccSdkToolbar.png" title="" /></li> 
+   <li><p>Click <strong>Save</strong> when modifications are done. The updated image is saved on Adobe Campaign server and ready to be used.</p> </li> 
+  </ol> 
+  <note> 
+   <p> Tools offered in the image editor cannot be customized. </p> 
+  </note> 
+  <h2>Personalizing an image source</h2> 
+  <p>Adobe Campaign allows you to personalize one or several images in your delivery according to a particular criterion or to use tracking. This is done by inserting personalization fields, content blocks, or dynamic content into the image source. To do this:</p> 
+  <ol> 
+   <li><p>Insert an image into the content of your delivery, or select an image that is already present.</p> </li> 
+   <li><p>In the image properties palette, check the <strong>Enable personalization</strong> option.</p> <p>The <strong>Source</strong> field is displayed on the screen and the image selected is shown as <strong>personalized</strong> in the editor.</p> </li> 
+   <li><p>Click the <strong>Source</strong> field button to access the personalization options.</p> </li> 
+   <li><p>After having added the image source, add the personalization fields, content blocks, and dynamic contents that you like.</p> 
+    <note> 
+     <p> The domain name (http://mydomain.com) cannot be personalized, it has to be entered manually. The rest of the URL can be personalized. For example: http://mydomain.com/[Gender].jpg </p> 
+    </note></li> 
+   <li><p>Confirm your changes.</p> </li> 
+  </ol> 
+ </body> 
+</html>

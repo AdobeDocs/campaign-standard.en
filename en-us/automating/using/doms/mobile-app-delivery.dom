@@ -1,0 +1,109 @@
+<html> 
+ <head> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="Mobile app delivery" name="jcr:description" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2018-07-23T05:57:21.825-0400" name="topicBrowsingSortDate" /> 
+  <meta content="sauviat" name="cq:lastReplicatedBy" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-03-15T09:03:01.154-0400" name="jcr:created" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="37ae1cdd-2314-4322-870d-94efe7437bc1" name="jcr:uuid" /> 
+  <meta content="The Mobile app delivery activity allows you to configure sending a single send push notification or a recurring push notification in a workflow." name="seoDescription" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
+  <meta content="2018-07-23T05:57:21.825-0400" name="lastPublishExternalDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/mobile-app-delivery.html" name="publishExternalURL" /> 
+  <meta content="2018-07-23T05:57:21.825-0400" name="publishExternalDate" /> 
+  <meta content="Mobile app delivery" name="jcr:title" /> 
+  <meta content="2018-07-23T05:57:21.887-0400" name="cq:lastReplicated" /> 
+  <meta content="5ea75076-a4f3-4b6b-884b-37fcc52e7c1e" name="jcr:predecessors" /> 
+  <meta content="2018-07-23T05:57:21.825-0400" name="firstPublishExternalDate" /> 
+  <meta content="2018-07-25T09:29:45.866-0400" name="locHandOffDate" /> 
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="Mobile app delivery" name="navTitle" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-07-25T09:29:45.867-0400" name="cq:lastModified" /> 
+  <meta content="audience:automating" name="primaryAudienceTag" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:channel-activities" name="cq:tags" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+ </head> 
+ <body> 
+  <h2>Description</h2> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/push.png" title="" /> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/recurrentPush.png" title="" /> 
+  <p>The <strong>Mobile app delivery</strong> activity allows you to configure sending a push notification in a workflow. This can be a <strong>single send</strong> notification and sent just once, or it can be a <strong>recurring</strong> notification.</p> 
+  <p>Single send notifications are standard mobile app push notification deliveries, sent once.</p> 
+  <p>Recurring notifications allow you to send the same mobile app push notification delivery multiple times to different targets over a defined period. You can aggregate the deliveries per period in order to get reports that correspond to your needs.</p> 
+  <h2>Context of use</h2> 
+  <p>The <strong>Mobile app delivery</strong> activity is generally used to automate sending a notification to a target calculated in the same workflow.</p> 
+  <p>When linked to a scheduler, you can define recurring push notifications.</p> 
+  <p>The recipients are defined upstream of the activity in the same workflow, via targeting activities such as queries, intersections, etc.</p> 
+  <p>The message preparation is triggered according to the workflow execution parameters. From the message dashboard, you can select whether to request or not a manual confirmation to send the message (required by default). You can start the workflow manually or place a scheduler activity in the workflow to automate execution.</p> 
+  <h2>Configuration</h2> 
+  <ol> 
+   <li><p>Drag and drop a <strong>Mobile app delivery</strong> activity into your workflow.</p> </li> 
+   <li><p>Select the activity, then open it using the <img height="21px" src="assets/edit_darkgrey-24px.png" /> button from the quick actions that appear.</p> 
+    <note> 
+     <p> You can access the general properties and advanced options of the activity (and not of the delivery itself) via the <img height="21px" src="assets/dlv_activity_params-24px.png" /> button from the activity's quick actions. This button is specific to the <strong>Mobile app delivery</strong> activity. The push notification's properties can be accessed via the action bar in the push dashboard. </p> 
+    </note></li> 
+   <li><p>Select the push notification send mode:</p> 
+    <ul> 
+     <li><p><strong>Single notification</strong>: the push notification is sent a single time. You can specify here whether or not you would like to add an outbound transition to the activity. The different transition types are detailed in step 7 of this procedure.</p> </li> 
+     <li><p><strong>Recurring notification</strong>: the push notification is sent several times, according to the frequency defined in a <strong>Scheduler</strong> activity. Select the aggregation period of the sends. This allows you to regroup all the sends that occur during the defined period in one single push notification that is also called <strong>recurring execution</strong> and can be accessed from the application's marketing activity list.</p> <p>For example, for a recurring birthday notification, that is sent daily, you can choose to aggregate the sends per month. This allows you to receive reports on your delivery on a monthly basis although the notification is sent every day.</p> </li> 
+    </ul></li> 
+   <li><p>Select a notification type. These types come from push notifications templates defined in the <strong>Resources</strong> &amp;gt; <strong>Templates</strong> &amp;gt; <strong>Delivery templates</strong> menu.</p> </li> 
+   <li><p>Enter the general properties for the push notification. You can also attach it to an existing campaign. The label of the workflow's delivery activity is updated with the push notification label.</p> </li> 
+   <li><p>Define the push notification content. See <a href="../../channels/using/creating-and-sending-a-push-notification.md">Creating a push notification</a></p> </li> 
+   <li><p>By default, the <strong>Mobile app delivery</strong> activity does not include any outbound transitions. If you would like to add an outbound transition to your <strong>Mobile app delivery</strong> activity, go to the <strong>General</strong> tab of the advanced activity options ( <img height="21px" src="assets/dlv_activity_params-24px.png" /> button in the activity's quick actions) then check one of the following options:</p> 
+    <ul> 
+     <li><p><strong>Add outbound transition without the population</strong>: this lets you generate an outbound transition that contains the exact same population as the inbound transition.</p> </li> 
+     <li><p><strong>Add outbound transition with the population</strong>: this lets you generate an outbound transition containing the population to whom the notification was sent. The members of the target excluded during the delivery preparation are excluded from this transition.</p> </li> 
+    </ul></li> 
+   <li><p>Confirm the configuration of your activity and save your workflow.</p> </li> 
+  </ol> 
+  <p>When you reopen the activity, you are taken directly to the push notification dashboard. Only its content can be edited.</p> 
+  <p>By default, starting a delivery workflow only triggers the message preparation. The sending of messages created from a workflow still needs to be confirmed after the workflow has been started. But from the message dashboard, and only if the message was created from a workflow, you can disable the <strong>Request confirmation before sending messages</strong> option. By unchecking this option, messages are sent without further notice once the preparation is done.</p> 
+  <h2>Remarks</h2> 
+  <p>The deliveries created within a workflow can be accessed in the application's marketing activity list. You can view the workflow's execution status using the dashboard. Links in the push notification summary pane allow you to directly access linked elements (workflow, campaign, etc.).</p> 
+  <p>In the parent deliveries, which can be accessed from the marketing activity list, you can view the total number of sends that have been processed (according to the aggregation period specified when the <strong>Mobile app delivery</strong> activity was configured). To do this, open the detail view of the parent delivery's <strong>Deployment</strong> block by selecting <img height="21px" src="assets/wkf_dlv_detail_button.png" /> .</p> 
+  <h2>Sending a recurring push notification with a workflow</h2> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/wkf_push_example_1.png" title="" /> 
+  <p>In this example, a personalized push notification is sent every first day of the month at 8 pm to the subscribers of your mobile application depending on their time zones. To do this:</p> 
+  <ol> 
+   <li><p>The <strong>Scheduler</strong> activity allows you to start the workflow days before the start of the delivery to be able to send the notification to every subscriber at 8 pm in any given time zone:</p> 
+    <ul> 
+     <li><p>In the <strong>Execution frequency</strong> field, select Monthly.</p> </li> 
+     <li><p>Select 8 pm in the <strong>Time</strong> field.</p> </li> 
+     <li><p>Choose at which day the delivery will be sent every month.</p> </li> 
+     <li><p>Select a start date for your workflow, at least one day prior to the start of your delivery. Otherwise, some recipients might receive the message a day later if the selected time has already passed in their time zones.</p> </li> 
+     <li><p>In the <strong>Execution options</strong> tab, select at which time zone your workflow will start in the <strong>Time zone</strong> field. Here, for example, the workflow will start at 8 pm Pacific time, one week before the first day of the month to allow some time for the deliveries to be created for all applicable time zones.</p> </li> 
+    </ul><img alt="" captionBottom="" imageRotate="0" src="assets/wkf_push_example_5.png" title="" /></li> 
+   <li><p>The <strong>Query</strong> activity allows you to target your VIP customers aged between 20-30, who have subscribed to your mobile application and who did not open the email you sent:</p> 
+    <ul> 
+     <li><p>Select an audience (your VIP customers) and filter on their age.</p> </li> 
+     <li><p>Drag and drop the <strong>Subscriptions to an application</strong> element into the workspace. Select <strong>Exists</strong> and select the mobile application that you want to use.</p> </li> 
+     <li><p>Select the email that you sent to your customers.</p> </li> 
+     <li><p>Drag and drop the <strong>Delivery logs (logs)</strong> element into the workspace and select <strong>Exists</strong> to target all of the customers who received the email.</p> </li> 
+     <li><p>Drag and drop the <strong>Tracking logs (tracking)</strong> element into the workspace and select <strong>Does not exist</strong> to target all of the customers who did not open the email.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/wkf_push_example_2.png" title="" /></li> 
+    </ul></li> 
+   <li><p>The <strong>Mobile app delivery</strong> activity allows you to enter the content of your message and to select the personalization fields that you want to use:</p> 
+    <ul> 
+     <li><p>Select the <strong>Recurring notification</strong> option.</p> </li> 
+     <li><p>Define the push notification content. For more information on push notification content, refer to this <a href="../../channels/using/creating-and-sending-a-push-notification.md">section</a>.</p> </li> 
+     <li><p>In the <strong>Schedule</strong> block, select <strong>Messages to be sent automatically on the time zone specified below</strong>. Here, we chose the <strong>Time zone of the contact date</strong> Pacific as in the workflow <strong>Scheduler</strong>.</p> </li> 
+     <li><p>In the <strong>Optimize the sending time per recipient</strong> field, select <strong>Send at the recipient's time zone</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/wkf_push_example_4.png" title="" /></li> 
+    </ul></li> 
+   <li><p>Click the <strong>Start</strong> button to start your recurring workflow.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/wkf_push_example_3.png" title="" /></li> 
+  </ol> 
+  <p>Your workflow is now running. It will start at the chosen start date of the <strong>Scheduler</strong> at 8 pm Pacific time, the recurring push will then be sent every first day of the month at 8 pm depending on the customers time zone.</p> 
+ </body> 
+</html>

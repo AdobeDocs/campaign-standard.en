@@ -1,0 +1,50 @@
+<html>
+ <head>
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2018-07-26T02:53:34.264-0400" name="cq:lastModified" />
+  <meta content="1e952f51-9dc0-4f0f-bd25-4c2acda01fbd" name="jcr:uuid" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-07-26T02:53:34.264-0400" name="locHandOffDate" />
+  <meta content="audience:developing" name="primaryAudienceTag" />
+  <meta content="" name="seoDescription" />
+  <meta content="2018-07-23T05:59:12.717-0400" name="firstPublishExternalDate" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="Optional: Editing a resource properties" name="jcr:title" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:developing;content_type:reference;topic_tags:adding-or-extending-a-resource" name="cq:tags" />
+  <meta content="https://helpx.adobe.com/campaign/standard/developing/using/optional--editing-a-resource-properties.html" name="publishExternalURL" />
+  <meta content="2018-03-15T09:01:54.206-0400" name="jcr:created" />
+  <meta content="2018-07-23T05:59:12.759-0400" name="cq:lastReplicated" />
+  <meta content="light" name="heroGradient" />
+  <meta content="Optional: Editing a resource properties" name="navTitle" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-07-23T05:59:12.717-0400" name="topicBrowsingSortDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-07-23T05:59:12.717-0400" name="lastPublishExternalDate" />
+  <meta content="Optional: Editing a resource properties" name="jcr:description" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-07-23T05:59:12.717-0400" name="publishExternalDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="d612c3f9-56a9-4dde-91a2-6bf1a3d88937" name="jcr:predecessors" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+ </head>
+ <body>
+  <p>In the custom resource screen, the <strong>Summary</strong> pane indicates the status of the newly created resource. You can manage its access and its general properties.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/schema_extension_3.png" title="" />
+  <ol>
+   <li><p>Click the <strong>Edit properties</strong> button to add a description.</p> </li>
+   <li><p>If needed, modify the label and ID of the resource.</p> </li>
+   <li><p>If you need to restrict the access to this resource to certain organizational or geographical units, specify them here. Only users from authorized units will be able to work with this resource in the application.</p> </li>
+   <li><p>Save the modifications.</p> </li>
+  </ol>
+  <p>Your modifications are saved. You need to publish the resource again to apply them.</p> 
+ </body>
+</html>

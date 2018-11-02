@@ -1,0 +1,261 @@
+<html> 
+ <head> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="https://helpx.adobe.com/campaign/standard/designing/using/content-editor-interface.html" name="publishExternalURL" /> 
+  <meta content="Content editor interface" name="jcr:title" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="2018-06-25T08:45:01.138-0400" name="cq:lastModified" /> 
+  <meta content="2018-06-14T08:43:38.498-0400" name="cq:lastReplicated" /> 
+  <meta content="2018-06-14T08:43:38.476-0400" name="firstPublishExternalDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2018-03-15T09:01:24.576-0400" name="jcr:created" /> 
+  <meta content="audience:designing" name="primaryAudienceTag" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="Content editor interface" name="navTitle" /> 
+  <meta content="2018-06-14T08:43:38.476-0400" name="lastPublishExternalDate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="12a5730f-ba48-4519-bd24-04bb13331852" name="jcr:uuid" /> 
+  <meta content="sauviat" name="cq:lastReplicatedBy" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="2018-06-14T08:43:38.476-0400" name="topicBrowsingSortDate" /> 
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="2018-06-25T08:45:01.138-0400" name="locHandOffDate" /> 
+  <meta content="2018-06-14T08:43:38.476-0400" name="publishExternalDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="Learn how to use the different sections of the editor, such as the action bar, to modify your message content." name="seoDescription" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:editing-message-and-landing-page-content" name="cq:tags" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="Content editor interface" name="jcr:description" /> 
+  <meta content="ccd9525d-a72e-4977-bef5-3a65fe1645c6" name="jcr:predecessors" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+ </head> 
+ <body> 
+  <p>The content editor is organized into three different sections. These sections allow you to view and edit the content.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/delivery_content_1.png" title="" /> 
+  <ol> 
+   <li><p>The <strong>palette</strong> on the left-hand side of the screen allows you to modify the general options linked to a selected block. The options that can be modified are: background color, border, text alignment, visibility condition, etc. Refer to <a href="../../designing/using/adding-a-personalization-field.md">HTML functionalities</a>.</p> </li> 
+   <li><p>The <strong>action bar</strong> contains the general options for the page. You can select a template, change the display mode or preview the email from here. Refer to <a href="../../designing/using/content-editor-interface.md#action-bar" target="_blank">Action bar</a>.</p> </li> 
+   <li><p>The <strong>editing zone</strong> on the right-hand side of the screen allows you to directly interact with the content using the contextual toolbar: insert a link into an image, change the font, delete a field, etc. Refer to <a href="../../designing/using/content-editor-interface.md#toolbar" target="_blank">Toolbar</a>. </p> 
+    <note> 
+     <p> Depending on the type of marketing activity being edited, some buttons or options may not be available. For example, the <strong>From</strong> and <strong>Subject</strong> fields, as well as the <strong>Text</strong> tab are only available for <strong>Email</strong> type marketing activities. </p> 
+    </note></li> 
+  </ol> 
+  <h2>Action bar</h2> 
+  <p>The action bar contains different buttons that allow you to interact with the content that is being created. Depending on the type of marketing activity, some buttons may not be available. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/delivery_content_2.png" title="" /> 
+  <table> 
+   <thead> 
+    <tr> 
+     <th> Icon<br /> </th> 
+     <th> Button name<br /> </th> 
+     <th> Email<br /> </th> 
+     <th> Landing page<br /> </th> 
+     <th> Description<br /> </th> 
+    </tr> 
+   </thead> 
+   <tbody> 
+    <tr> 
+     <td> </td> 
+     <td> <strong>Change content</strong><br /> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> Allows you to select out-of-the-box content or import your own HTML content. Refer to <a href="../../designing/using/importing-html-content.md">Importing HTML content</a>.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td> <strong>Tracked URLs</strong><br /> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> Displays the list of each URL. You can enable or disable the tracking separately for each URL in the message. <br /> </td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td> <strong>Preview</strong><br /> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> Allows you to view how the email is rendered for a recipient. Refer to <a href="../../sending/using/previewing-messages.md">Previewing messages</a>.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td> <strong>Expand content editor</strong><br /> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> Hides the palette and expands the content editor.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td> <strong>Cancel</strong><br /> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> Cancels the last action carried out.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td> <strong>Redo</strong><br /> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> Redoes the last action that you canceled.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td> <strong>Show blocks</strong><br /> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> Allows you to show the boxes around the content blocks (corresponds to the <strong>&lt;div&gt;</strong> HTML tag).<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td> <strong>Show source</strong><br /> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> Allows you to show the HTML source code of the page.<br /> </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h2>Toolbar</h2> 
+  <p>The toolbar is a <strong>contextual element</strong> of the editor interface that offers various functionalities depending on the zone selected. It contains action buttons and buttons that allow you to change the style of the text. The modifications carried out always apply to the zone selected. Once you select a block, you can delete or duplicate it for example. After selecting the text inside a block, you can turn it into a link or make it bold. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/delivery_content_17.png" title="" /> 
+  <note> 
+   <p> Certain toolbar functions let you format the HTML content. However, if the page contains a CSS style sheet, the <strong>instructions</strong> from the style sheet may prove to take <strong>priority</strong> over the instructions specified via the toolbar. </p> 
+  </note> 
+  <table> 
+   <thead> 
+    <tr> 
+     <th> Icon<br /> </th> 
+     <th> Button name<br /> </th> 
+     <th> Context<br /> </th> 
+     <th> Description<br /> </th> 
+    </tr> 
+   </thead> 
+   <tbody> 
+    <tr> 
+     <td> </td> 
+     <td> <strong>Link to an external URL</strong><br /> </td> 
+     <td> Any element<br /> </td> 
+     <td> Allows you to add a link to a URL. Details of how to configure a link are presented in the <a href="../../designing/using/managing-links.md">Adding a link</a> section.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td> <strong>Link that defines an action</strong><br /> </td> 
+     <td> Any element (only for landing pages)<br /> </td> 
+     <td> Allows you to define an action when an element in the landing page is clicked. Details of how to configure a link are presented in the <a href="../../designing/using/managing-links.md">Adding a link</a> section.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td> <strong>Link to a landing page</strong><br /> </td> 
+     <td> Any element<br /> </td> 
+     <td> Allows access to an Adobe Campaign landing page. Details of how to configure a link are presented in the <a href="../../designing/using/managing-links.md">Adding a link</a> section.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td> <strong>Subscription link</strong><br /> </td> 
+     <td> Any element<br /> </td> 
+     <td> Allows you to insert a service subscription link. Details of how to configure a link are presented in the <a href="../../designing/using/managing-links.md">Adding a link</a> section.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td> <strong>Unsubscription link</strong><br /> </td> 
+     <td> Any element<br /> </td> 
+     <td> Allows you to insert a service unsubscription link. Details of how to configure a link are presented in the <a href="../../designing/using/managing-links.md">Adding a link</a> section.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td> <strong>Remove link</strong><br /> </td> 
+     <td> Link<br /> </td> 
+     <td> Allows you to delete the link, as well as all the configurations linked to it, after confirming. <br /> </td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td> <strong>Insert a personalization field</strong><br /> </td> 
+     <td> Text element<br /> </td> 
+     <td> Allows you to add a field from the database to the content. Refer to <a href="../../designing/using/adding-a-personalization-field.md">Adding a personalization field</a>.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td> <strong>Insert a content block</strong><br /> </td> 
+     <td> Text element<br /> </td> 
+     <td> Allows you to add a personalization block to the content. Refer to <a href="../../designing/using/adding-a-content-block.md">Adding a content block</a>. <br /> </td> 
+    </tr> 
+    <tr> 
+     <td> <br /> </td> 
+     <td> <strong>Enable dynamic content</strong><br /> </td> 
+     <td> Text element<br /> </td> 
+     <td> Allows you to insert dynamic content in the content. Refer to <a href="../../designing/using/defining-dynamic-content.md">Defining dynamic content</a>.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> <br /> </td> 
+     <td> <strong>Disable dynamic content</strong><br /> </td> 
+     <td> Text element<br /> </td> 
+     <td> Allows you to delete dynamic content.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td> <strong>Enlarge font</strong><br /> </td> 
+     <td> Text element<br /> </td> 
+     <td> Increases the size of the selected text (adds &lt;span style="font-size:"&gt;).<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td> <strong>Reduce font</strong><br /> </td> 
+     <td> Text element<br /> </td> 
+     <td> Reduces the size of the selected text (adds &lt;span style="font-size:"&gt;). <br /> </td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td> <strong>Bold</strong><br /> </td> 
+     <td> Text element<br /> </td> 
+     <td> Adds the bold style to the selected text (wraps the text with the &lt;strong&gt;&lt;/strong&gt; tags). <br /> </td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td> <strong>Italic</strong><br /> </td> 
+     <td> Text element<br /> </td> 
+     <td> Adds the italic style to the selected text (wraps the text with the &lt;em&gt;&lt;/em&gt; tags). <br /> </td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td> <strong>Underline</strong><br /> </td> 
+     <td> Text element<br /> </td> 
+     <td> Underlines the selected text (wraps the selected text with the &lt;span style="text-decoration: underline;"&gt; tag). <br /> </td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td> <strong>Change background color</strong><br /> </td> 
+     <td> Text element<br /> </td> 
+     <td> Allows you to change the background color of the block selected (adds style="background-color: rgba(170, 86, 255, 0.87)). <br /> </td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td> <strong>Change font color</strong><br /> </td> 
+     <td> Text element<br /> </td> 
+     <td> Allows you to change the color of all the text in the block or just the text selected in the block (&lt;span style="color: #56ff56;"&gt;). <br /> </td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td> <strong>Image</strong><br /> </td> 
+     <td> Block containing an image<br /> </td> 
+     <td> Allows you to insert an image from a file saved locally. <br /> </td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td> <strong>Delete</strong><br /> </td> 
+     <td> Any block<br /> </td> 
+     <td> Deletes the block and its content. <br /> </td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td> <strong>Duplicate</strong><br /> </td> 
+     <td> Any block<br /> </td> 
+     <td> Duplicates the block including any styles linked to it. <br /> </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+ </body> 
+</html>
