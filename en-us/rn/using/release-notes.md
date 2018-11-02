@@ -48,8 +48,6 @@ snippet: y
 
 # Release Notes
 
-Release Notes
-
 Looking for a specific 2017-2018 release of Adobe Campaign Standard?
 
 Each release comes with new features and patches. Click on a release to view its content.
