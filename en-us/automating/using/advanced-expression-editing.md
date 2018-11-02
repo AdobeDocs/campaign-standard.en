@@ -150,87 +150,16 @@ For some rules, the query editor lets you chose a value to define your condition
 
 Conditions must be linked to values by using one of the following operators.
 
-<table> 
- <thead> 
-  <tr> 
-   <th> Operator<br /> </th> 
-   <th> Standard syntax<br /> </th> 
-   <th> JavaScript syntax<br /> </th> 
-   <th> Description<br /> </th> 
-   <th> Example<br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <strong>Equal to</strong><br /> </td> 
-   <td> =<br /> </td> 
-   <td> ==<br /> </td> 
-   <td> The first value must be completely identical to the second value.<br /> </td> 
-   <td> <strong>@lastName = Martin</strong> retrieves profiles whose last name is 'Martin', with only these identical characters.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Greater than</strong><br /> </td> 
-   <td> &gt;<br /> </td> 
-   <td> &gt;<br /> </td> 
-   <td> The first value must categorically be more than the second value.<br /> </td> 
-   <td> <strong>@age &gt; 50</strong> retrieves profiles who are older than '50', so '51', '52', etc.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Less than</strong><br /> </td> 
-   <td> &lt;<br /> </td> 
-   <td> &lt;<br /> </td> 
-   <td> The first value must categorically be less than the second value.<br /> </td> 
-   <td> <strong>@created &lt; DaysAgo(100)</strong> retrieves all profiles created in the database less than 100 days ago.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Greater than or equal to</strong><br /> </td> 
-   <td> &gt;=<br /> </td> 
-   <td> &gt;=<br /> </td> 
-   <td> The first value must be more than or equal to the second value.<br /> </td> 
-   <td> <strong>@age &gt;= 30</strong> retrieves profiles aged 30 years and older.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Less than or equal to</strong><br /> </td> 
-   <td> &lt;=<br /> </td> 
-   <td> &lt;=<br /> </td> 
-   <td> The first value must be less than or equal to the second value.<br /> </td> 
-   <td> <strong>@age &lt;= 60</strong> retrieves profiles aged 60 or less.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Different </strong><br /> </td> 
-   <td> !=<br /> </td> 
-   <td> !=<br /> </td> 
-   <td> The first value must be different from the second value.<br /> </td> 
-   <td> <strong>@language != English</strong> retrieves profiles that have not been defined as English speaking.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Contains</strong><br /> </td> 
-   <td> IN<br /> </td> 
-   <td> N/A<br /> </td> 
-   <td> The first value must contain the second value.<br /> </td> 
-   <td> <strong>@domain IN mail</strong>. Here, all the domain names with the 'mail' value are returned in the result. Consequently, the 'gmail.com' domain name will make up part of the returned results.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Like</strong><br /> </td> 
-   <td> LIKE<br /> </td> 
-   <td> N/A<br /> </td> 
-   <td> <strong>Like</strong> is very similar to the <strong>Contains</strong> operator. It lets you insert a <strong>%</strong> wild card character in the value that is being searched.<br /> </td> 
-   <td> <strong>@lastName LIKE Mart%n</strong>. Here, the substitution character <strong>%</strong> serves as a "joker" to find the name "Martin" in the hypothetical case that the spelling is not correct.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Not like</strong><br /> </td> 
-   <td> NOT<br /> </td> 
-   <td> N/A<br /> </td> 
-   <td> Is similar to <strong>Like</strong>. It lets you not recover the entered value. Here too, the entered value must contain the <strong>%</strong> wild card character.<br /> </td> 
-   <td> <strong>@lastName NOT Smi%h</strong>. Here, the recipients correspond to the name 'Smi%h' (so Smith, etc.) are not returned as a result.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Is empty</strong><br /> </td> 
-   <td> IS NULL<br /> </td> 
-   <td> N/A<br /> </td> 
-   <td> The first value must correspond to an empty value.<br /> </td> 
-   <td> <strong>@mobilePhone IS NULL</strong> retrieves all the profiles whose mobile phone number has not been provided.<br /> </td> 
-  </tr> 
- </tbody> 
-</table>
+|Operator|Standard syntax|JavaScript syntax|Description|Example|
+|--- |--- |--- |--- |--- |
+|Equal to|=|==|The first value must be completely identical to the second value.|@lastName = Martin retrieves profiles whose last name is 'Martin', with only these identical characters.|
+|Greater than|>|>|The first value must categorically be more than the second value.|@age > 50 retrieves profiles who are older than '50', so '51', '52', etc.|
+|Less than|<|<|The first value must categorically be less than the second value.|@created < DaysAgo(100) retrieves all profiles created in the database less than 100 days ago.|
+|Greater than or equal to|>=|>=|The first value must be more than or equal to the second value.|@age >= 30 retrieves profiles aged 30 years and older.|
+|Less than or equal to|<=|<=|The first value must be less than or equal to the second value.|@age <= 60 retrieves profiles aged 60 or less.|
+|Different|!=|!=|The first value must be different from the second value.|@language != English retrieves profiles that have not been defined as English speaking.|
+|Contains|IN|N/A|The first value must contain the second value.|@domain IN mail. Here, all the domain names with the 'mail' value are returned in the result. Consequently, the 'gmail.com' domain name will make up part of the returned results.|
+|Like|LIKE|N/A|Like is very similar to the Contains operator. It lets you insert a % wild card character in the value that is being searched.|@lastName LIKE Mart%n. Here, the substitution character % serves as a "joker" to find the name "Martin" in the hypothetical case that the spelling is not correct.|
+|Not like|NOT|N/A|Is similar to Like. It lets you not recover the entered value. Here too, the entered value must contain the % wild card character.|@lastName NOT Smi%h. Here, the recipients correspond to the name 'Smi%h' (so Smith, etc.) are not returned as a result.|
+|Is empty|IS NULL|N/A|The first value must correspond to an empty value.|@mobilePhone IS NULL retrieves all the profiles whose mobile phone number has not been provided.|
 
