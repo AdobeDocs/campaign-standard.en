@@ -116,43 +116,37 @@ This section presents the characters taken into account by the GSM standard. All
 
 **Basic characters**
 
+**TABLE**
+```
 |  @  |  ![](assets/delta.png)
 
 | SP  | 0  | ¡  | P  | ¿  | P  |
 |---|---|---|---|---|---|---|---|
 |  £  | _  | !  | 1  | A  | Q  | a  | q  |
 |  $  |  ![](assets/phi.png)
-
 | "  | 2  | B  | R  | b  | r  |
 |  ¥  |  ![](assets/gamma.png)
-
 | #  | 3  | C  | S  | c  | s  |
 |  è  |  ![](assets/delta.png)
-
 | ¤  | 4  | D  | T  | d  | t  |
 |  é  |  ![](assets/omega.png)
-
 | %  | 5  | E  | U  | e  | u  |
 |  ù  |  ![](assets/pi.png)
-
 | &  | 6  | F  | V  | f  | v  |
 |  ì  |  ![](assets/psi.png)
-
 | '  | 7  | G  | W  | g  | w  |
 |  ò  |  ![](assets/sigma.png)
-
 | (  | 8  | H  | X  | h  | x  |
 |  Ç  |  ![](assets/theta.png)
-
 | )  | 9  | I  | Y  | i  | y  |
 |  LF  |  ![](assets/xi.png)
-
 | &#42;  | :  | J  | Z  | j  | z  |
 |  Ø  | ESC  | +  | ;  | K  | Ä  | k  | ä  |
 |  ø  | Æ  | ,  | <  | L  | Ö  | l  | ö  |
 |  CR  | æ  | -  | =  | M  | Ñ  | m  | ñ  |
 |  Å  | ß  | .  | >  | N  | Ü  | n  | ü  |
 |  å  | É  | /  | ?  | O  | §  | o  | à  |
+```
 
 SP: Space
 

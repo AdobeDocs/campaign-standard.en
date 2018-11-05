@@ -316,7 +316,7 @@ index: no
   + [Integrating with Experience Manager 6.1 or 6.2](integrating/using/integrating-with-experience-manager-6_1-or-6_2.md)
   + [About People core service Integration](integrating/using/about-people-core-service-integration.md)
   + [Configuration](integrating/using/configuration.md)
- [Dimensions available in Analytics](integrating/using/dimensions-available-in-analytics.md)
+  + [Dimensions available in Analytics](integrating/using/dimensions-available-in-analytics.md)
   + [Configuring the Adobe Target integration](integrating/using/configuring-the-adobe-target-integration.md)
   + [About Adobe Target integration](integrating/using/about-adobe-target-integration.md)
   + [Creating a Campaign form in Experience Manager 6.1 or 6.2](integrating/using/creating-a-campaign-form-in-experience-manager-6_1-or-6_2.md)
