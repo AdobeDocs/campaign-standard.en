@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="2018-07-27T03:27:20.801-0400" name="cq:lastModified" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="light" name="heroGradient" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="2018-07-27T03:27:20.800-0400" name="locHandOffDate" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="2018-07-23T05:59:48.311-0400" name="firstPublishExternalDate" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="https://helpx.adobe.com/campaign/standard/integrating/using/configuring-triggers-in-experience-cloud.html" name="publishExternalURL" />
-  <meta content="2018-07-23T05:59:48.311-0400" name="publishExternalDate" />
-  <meta content="Configuring Triggers in Experience Cloud" name="jcr:description" />
   <meta content="da7e5a97-92dc-4480-a621-f891c6f0204a" name="jcr:uuid" />
-  <meta content="8519e5c0-20ce-4a94-921d-8979010e8192" name="jcr:predecessors" />
-  <meta content="2018-07-23T05:59:48.311-0400" name="topicBrowsingSortDate" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="2018-07-23T05:59:48.352-0400" name="cq:lastReplicated" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-09-10T02:19:17.255-0400" name="cq:lastModified" />
   <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="Learn how to configure the Adobe Experience Cloud Triggers integration to start sending personalized deliveries to your customers based on their previous behaviors. " name="seoDescription" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="admin" name="jcr:createdBy" />
   <meta content="products:SG_CAMPAIGN/STANDARD;audience:integrating;content_type:reference;topic_tags:working-with-campaign-and-triggers" name="cq:tags" />
-  <meta content="2018-07-23T05:59:48.311-0400" name="lastPublishExternalDate" />
-  <meta content="audience:integrating" name="primaryAudienceTag" />
+  <meta content="Learn how to configure the Adobe Experience Cloud Triggers integration to start sending personalized deliveries to your customers based on their previous behaviors. " name="seoDescription" />
+  <meta content="2018-09-07T15:08:18.897-0400" name="lastPublishExternalDate" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="8519e5c0-20ce-4a94-921d-8979010e8192" name="jcr:predecessors" />
+  <meta content="https://helpx.adobe.com/campaign/standard/integrating/using/configuring-triggers-in-experience-cloud.html" name="publishExternalURL" />
+  <meta content="2018-09-10T02:19:17.254-0400" name="locHandOffDate" />
   <meta content="Configuring Triggers in Experience Cloud" name="navTitle" />
-  <meta content="Configuring Triggers in Experience Cloud" name="jcr:title" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="light" name="heroGradient" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="Configuring Triggers in Experience Cloud" name="jcr:description" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="sauviat" name="contentOwner" />
   <meta content="2018-06-15T07:29:56.227-0400" name="jcr:created" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-09-07T15:08:18.897-0400" name="publishExternalDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-09-07T15:08:18.897-0400" name="firstPublishExternalDate" />
+  <meta content="2018-09-07T15:08:18.897-0400" name="topicBrowsingSortDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="audience:integrating" name="primaryAudienceTag" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-09-07T15:08:19.999-0400" name="cq:lastReplicated" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Configuring Triggers in Experience Cloud" name="jcr:title" />
  </head>
  <body>
   <h2>Activating the functionality</h2>

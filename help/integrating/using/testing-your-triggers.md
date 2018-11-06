@@ -3,13 +3,13 @@ title: Testing your triggers
 seo-title: Testing your triggers
 description: Testing your triggers
 seo-description: 
-uuid: 941cbaf1-c380-4486-8480-11b09c872530
+uuid: 498582dc-5ddb-4141-ad1f-f6b90f952e8e
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/integrating/using/testing-your-triggers
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-27T03 27 37.572-0400
-cq-lastreplicated: 2018-07-23T05 59 50.574-0400
+cq-lastmodified: 2018-09-10T02 19 28.238-0400
+cq-lastreplicated: 2018-09-07T15 08 32.159-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 cq-template: /apps/help/templates/article-3
-discoiquuid: d479adb4-0b26-4705-8f71-f1f36ced2b32
-firstPublishExternalDate: 2018-07-23T05:59:50.531-0400
+discoiquuid: fc224415-ef02-488b-b062-55044825d41b
+firstPublishExternalDate: 2018-09-07T15:08:31.899-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-06-15T07 29 54.569-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Testing your triggers
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:59:50.531-0400
-lochandoffdate: 2018-07-27T03 27 37.571-0400
+lastPublishExternalDate: 2018-09-07T15:08:31.899-0400
+lochandoffdate: 2018-09-10T02 19 28.237-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Testing your triggers
-publishexternaldate: 2018-07-23T05 59 50.531-0400
+publishexternaldate: 2018-09-07T15 08 31.899-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/testing-your-triggers.html
-sha1: d3fec367567c8c3daac6c87e99214e30994d72ba
-topicBrowsingSortDate: 2018-07-23T05:59:50.531-0400
+sha1: 460a48e2edbefc288b9d0c71e5a6a3531aef4adb
+topicBrowsingSortDate: 2018-09-07T15:08:31.899-0400
 index: y
 internal: n
 snippet: y

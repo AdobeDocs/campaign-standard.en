@@ -3,13 +3,13 @@ title: About tracked URLs
 seo-title: About tracked URLs
 description: About tracked URLs
 seo-description: Learn how to manage all the URLs of your content that will be tracked.
-uuid: 216350a5-1940-4983-a21c-1cc27384834d
+uuid: df9adcd4-b173-4100-ac17-0e17ea7ee29e
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/about-tracked-urls
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-26T02 54 06.513-0400
-cq-lastreplicated: 2018-07-23T08 14 03.219-0400
+cq-lastmodified: 2018-09-10T07 26 17.651-0400
+cq-lastreplicated: 2018-09-07T15 07 51.579-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: designing
 content-type: reference
 topic-tags: managing-links
 cq-template: /apps/help/templates/article-3
-discoiquuid: e5695873-81aa-4bcc-bf0c-3b327c2d179a
-firstPublishExternalDate: 2018-07-23T05:58:50.473-0400
+discoiquuid: d6b78b36-22dc-4623-96a9-0cff625514ac
+firstPublishExternalDate: 2018-09-07T15:07:51.085-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-07-23T07 30 17.660-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: About tracked URLs
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T08:14:03.144-0400
-lochandoffdate: 2018-07-26T02 54 06.513-0400
+lastPublishExternalDate: 2018-09-07T15:07:51.085-0400
+lochandoffdate: 2018-09-10T07 26 17.649-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About tracked URLs
-publishexternaldate: 2018-07-23T08 14 03.144-0400
+publishexternaldate: 2018-09-07T15 07 51.085-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/about-tracked-urls.html
-sha1: 3073459e747d2e71e05e493ea9def6844a136929
-topicBrowsingSortDate: 2018-07-23T08:14:03.144-0400
+sha1: cb808b05e8db800599d3d62e391a56d94c0b06fb
+topicBrowsingSortDate: 2018-09-07T15:07:51.085-0400
 index: y
 internal: n
 snippet: y

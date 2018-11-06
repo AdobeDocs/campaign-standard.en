@@ -3,13 +3,13 @@ title: AND-join
 seo-title: AND-join
 description: AND-join
 seo-description: The AND-join activity allows you to synchronize multiple execution branches of a workflow.
-uuid: 9709433a-7a4b-4aaf-b1b8-8dc39b70922a
+uuid: 9880cbfe-4940-40bd-8ca4-08ca7123f916
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/and-join
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 36.901-0400
-cq-lastreplicated: 2018-07-23T05 57 14.173-0400
+cq-lastmodified: 2018-09-10T07 26 20.696-0400
+cq-lastreplicated: 2018-09-07T14 59 38.416-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: 3a6a4098-96a3-49e8-8828-68379ca3a2a2
-firstPublishExternalDate: 2018-07-23T05:57:14.118-0400
+discoiquuid: 89683efe-92ea-4e1e-9d26-bb84db0e3e13
+firstPublishExternalDate: 2018-09-07T14:59:34.681-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 21.420-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: AND-join
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:57:14.118-0400
-lochandoffdate: 2018-07-25T09 29 36.900-0400
+lastPublishExternalDate: 2018-09-07T14:59:34.681-0400
+lochandoffdate: 2018-09-10T07 26 20.695-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: AND-join
-publishexternaldate: 2018-07-23T05 57 14.118-0400
+publishexternaldate: 2018-09-07T14 59 34.681-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/and-join.html
-sha1: 4312e6a2a548ebce782b394bc07dcff572bb3e1b
-topicBrowsingSortDate: 2018-07-23T05:57:14.118-0400
+sha1: 28f36a7820a9f9d642f7b221a71d88927a8d829a
+topicBrowsingSortDate: 2018-09-07T14:59:34.681-0400
 index: y
 internal: n
 snippet: y

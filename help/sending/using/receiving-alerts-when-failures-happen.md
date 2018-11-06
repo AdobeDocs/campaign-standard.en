@@ -3,13 +3,13 @@ title: Receiving alerts when failures happen
 seo-title: Receiving alerts when failures happen
 description: Receiving alerts when failures happen
 seo-description: Learn how to use the alert management system.
-uuid: f8d7921a-d8da-42df-b42d-0223acc2327e
+uuid: 5fb38256-5254-48cc-a616-2781d2d9c81c
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/sending/using/receiving-alerts-when-failures-happen
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-30T04 53 57.255-0400
-cq-lastreplicated: 2018-07-23T06 02 27.408-0400
+cq-lastmodified: 2018-09-08T08 23 10.724-0400
+cq-lastreplicated: 2018-09-07T15 11 36.205-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 cq-template: /apps/help/templates/article-3
-discoiquuid: fd5384b2-a1f9-4024-aba6-d02b646b6e02
-firstPublishExternalDate: 2018-07-23T06:02:27.354-0400
+discoiquuid: 57d123b5-9520-4aa3-bebb-9e4a28d5c5c1
+firstPublishExternalDate: 2018-09-07T15:11:36.047-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 43.539-0400
@@ -26,15 +26,16 @@ jcr-createdby: admin
 jcr-description: Receiving alerts when failures happen
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:02:27.354-0400
-lochandoffdate: 2018-07-30T04 53 57.255-0400
+lastPublishExternalDate: 2018-09-07T15:11:36.047-0400
+lochandoffdate: 2018-09-08T08 23 10.724-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
+moreHelpPaths: /content/help/en/campaign/standard/sending/morehelp/monitoring-messages;/content/help/en/campaign/standard/sending/morehelp/monitoring-messages
 navTitle: Receiving alerts when failures happen
-publishexternaldate: 2018-07-23T06 02 27.354-0400
+publishexternaldate: 2018-09-07T15 11 36.047-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/sending/using/receiving-alerts-when-failures-happen.html
-sha1: 9894c29406be88ccc57a32dadede38fa5a454428
-topicBrowsingSortDate: 2018-07-23T06:02:27.354-0400
+sha1: bc89ff4f6a70cf359109331843f629b35766f46d
+topicBrowsingSortDate: 2018-09-07T15:11:36.047-0400
 index: y
 internal: n
 snippet: y

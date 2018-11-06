@@ -3,13 +3,13 @@ title: About SMS messages
 seo-title: About SMS messages
 description: About SMS messages
 seo-description: Discover the main specificities of the SMS channel in Adobe Campaign.
-uuid: e6f5a673-6446-4290-8d34-062f0db04d23
+uuid: 73c8d994-15ee-49b8-becf-a032ce648699
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/about-sms-messages
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-30T04 53 52.587-0400
-cq-lastreplicated: 2018-07-23T06 02 45.164-0400
+cq-lastmodified: 2018-09-08T08 23 07.427-0400
+cq-lastreplicated: 2018-09-07T15 11 46.781-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: channels
 content-type: reference
 topic-tags: sms-messages
 cq-template: /apps/help/templates/article-3
-discoiquuid: 70d9b31f-3220-4851-a938-5f6428dea063
-firstPublishExternalDate: 2018-07-23T06:02:45.116-0400
+discoiquuid: de8e7fbd-3648-4213-a577-d96a30a0c7a2
+firstPublishExternalDate: 2018-09-07T15:11:46.712-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 19.452-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: About SMS messages
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:02:45.116-0400
-lochandoffdate: 2018-07-30T04 53 52.587-0400
+lastPublishExternalDate: 2018-09-07T15:11:46.712-0400
+lochandoffdate: 2018-09-08T08 23 07.427-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About SMS messages
-publishexternaldate: 2018-07-23T06 02 45.116-0400
+publishexternaldate: 2018-09-07T15 11 46.712-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/about-sms-messages.html
-sha1: 04023dea41df17640350a1543de53af75bce25bc
-topicBrowsingSortDate: 2018-07-23T06:02:45.116-0400
+sha1: ad0c15561183d9953c66d9ee3ba7319e081560bd
+topicBrowsingSortDate: 2018-09-07T15:11:46.712-0400
 index: y
 internal: n
 snippet: y

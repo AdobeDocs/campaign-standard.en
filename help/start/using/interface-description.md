@@ -2,14 +2,14 @@
 title: Interface description
 seo-title: Interface description
 description: Interface description
-seo-description: "Learn how to navigate and use the Adobe Campaign workspace: home page, top bar, advanced menus and action bars."
-uuid: d626c371-51b0-4f1c-8fe3-cdf7a1d44d13
+seo-description: Learn how to navigate and use the Adobe Campaign workspace: home page, top bar, advanced menus and action bars.
+uuid: 8ae30b0d-e101-4a60-b694-acf944de6549
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/start/using/interface-description
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-27T03 26 30.396-0400
-cq-lastreplicated: 2018-07-23T06 00 41.081-0400
+cq-lastmodified: 2018-09-08T08 23 03.407-0400
+cq-lastreplicated: 2018-09-07T15 07 59.983-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 cq-template: /apps/help/templates/article-3
-discoiquuid: 8c355000-a9ca-44de-8681-b81a548b3a85
-firstPublishExternalDate: 2018-07-23T06:00:41.006-0400
+discoiquuid: 90adf844-3587-47cf-b7cb-1fc045f1f21d
+firstPublishExternalDate: 2018-09-07T15:07:59.559-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 09.357-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Interface description
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:00:41.006-0400
-lochandoffdate: 2018-07-27T03 26 30.394-0400
+lastPublishExternalDate: 2018-09-07T15:07:59.559-0400
+lochandoffdate: 2018-09-08T08 23 03.407-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Interface description
-publishexternaldate: 2018-07-23T06 00 41.006-0400
+publishexternaldate: 2018-09-07T15 07 59.559-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/start/using/interface-description.html
-sha1: 079ac3688f1280776aabd0431deb4f4566cf9993
-topicBrowsingSortDate: 2018-07-23T06:00:41.006-0400
+sha1: 0e0ee9091b1f4a4427065946a2f4800bfcc764e6
+topicBrowsingSortDate: 2018-09-07T15:07:59.559-0400
 index: y
 internal: n
 snippet: y

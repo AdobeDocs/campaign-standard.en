@@ -3,13 +3,13 @@ title: Creating an SMS message
 seo-title: Creating an SMS message
 description: Creating an SMS message
 seo-description: Follow these steps to create a single-send SMS message in Adobe Campaign.
-uuid: 42f685eb-1560-4b67-81d0-d74ff76aa4dd
+uuid: 514c4a9a-c7ca-46a9-8bdf-a7abbe3fc7f5
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/creating-an-sms-message
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-30T04 53 52.881-0400
-cq-lastreplicated: 2018-07-23T06 02 46.130-0400
+cq-lastmodified: 2018-09-08T08 23 07.660-0400
+cq-lastreplicated: 2018-09-07T15 11 48.016-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: channels
 content-type: reference
 topic-tags: sms-messages
 cq-template: /apps/help/templates/article-3
-discoiquuid: 598a1de8-57a9-4782-bca4-d30ce58190e1
-firstPublishExternalDate: 2018-07-23T06:02:46.072-0400
+discoiquuid: 2a574abf-a7bc-4cfb-b9c5-e19010fd3a4b
+firstPublishExternalDate: 2018-09-07T15:11:47.971-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 16.518-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Creating an SMS message
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:02:46.072-0400
-lochandoffdate: 2018-07-30T04 53 52.881-0400
+lastPublishExternalDate: 2018-09-07T15:11:47.971-0400
+lochandoffdate: 2018-09-08T08 23 07.660-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Creating an SMS message
-publishexternaldate: 2018-07-23T06 02 46.072-0400
+publishexternaldate: 2018-09-07T15 11 47.971-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/creating-an-sms-message.html
-sha1: 4db50c2883f47c90f4abaeb6db62267428d790b9
-topicBrowsingSortDate: 2018-07-23T06:02:46.072-0400
+sha1: 42b181758ab9b8fd2d6e8bc023f4e766abce80c1
+topicBrowsingSortDate: 2018-09-07T15:11:47.971-0400
 index: y
 internal: n
 snippet: y

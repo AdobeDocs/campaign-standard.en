@@ -3,13 +3,13 @@ title: About Campaign integrations
 seo-title: About Campaign integrations
 description: About Campaign integrations
 seo-description: Adobe Campaign allows you to use other Adobe solutions and combine their different capabilities.
-uuid: 7d46af33-3d0d-4965-927c-315b137da5f3
+uuid: eb3e040c-7bbc-4fac-b7b3-3ab77443548a
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/integrating/using/about-campaign-integrations
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-27T03 26 15.410-0400
-cq-lastreplicated: 2018-07-23T05 59 21.646-0400
+cq-lastmodified: 2018-09-10T02 18 32.130-0400
+cq-lastreplicated: 2018-09-07T14 57 05.166-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: integrating
 content-type: reference
 topic-tags: about-campaign-integrations
 cq-template: /apps/help/templates/article-3
-discoiquuid: c386efaa-bfdb-4142-b4af-daa6ca714b1c
-firstPublishExternalDate: 2018-07-23T05:59:21.530-0400
+discoiquuid: a42f7500-2673-471f-896c-aff2b8ff4a48
+firstPublishExternalDate: 2018-09-07T14:57:02.864-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 28.269-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: About Campaign integrations
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:59:21.530-0400
-lochandoffdate: 2018-07-27T03 26 15.408-0400
+lastPublishExternalDate: 2018-09-07T14:57:02.864-0400
+lochandoffdate: 2018-09-10T02 18 32.129-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About Campaign integrations
-publishexternaldate: 2018-07-23T05 59 21.530-0400
+publishexternaldate: 2018-09-07T14 57 02.864-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/about-campaign-integrations.html
-sha1: 9fef26e18e885b7bba5ce3eba2e51df3b1191fe5
-topicBrowsingSortDate: 2018-07-23T05:59:21.530-0400
+sha1: 4f9778f55422c1ebc5bd46c8bf5a96f21bc378da
+topicBrowsingSortDate: 2018-09-07T14:57:02.864-0400
 index: y
 internal: n
 snippet: y

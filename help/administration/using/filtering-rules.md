@@ -3,13 +3,13 @@ title: Filtering rules
 seo-title: Filtering rules
 description: Filtering rules
 seo-description: Use filtering rules to refine the audience of your messages.
-uuid: 4d4e3e57-0a78-4015-ae1e-f1a4799571c4
+uuid: fbcd6ed0-a0ae-4300-bfd3-e0fb6d5da3c7
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/filtering-rules
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 28.336-0400
-cq-lastreplicated: 2018-07-23T05 53 49.536-0400
+cq-lastmodified: 2018-09-10T07 25 36.878-0400
+cq-lastreplicated: 2018-09-07T14 59 30.155-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
 cq-template: /apps/help/templates/article-3
-discoiquuid: 612b67ab-686f-4ee9-983c-6058192fc820
-firstPublishExternalDate: 2018-07-23T05:53:49.460-0400
+discoiquuid: ef536ab5-46d9-4d08-b922-d9cadf1a7dee
+firstPublishExternalDate: 2018-09-07T14:59:27.632-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-02-16T08 04 25.146-0500
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Filtering rules
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:53:49.460-0400
-lochandoffdate: 2018-07-25T09 29 28.336-0400
+lastPublishExternalDate: 2018-09-07T14:59:27.632-0400
+lochandoffdate: 2018-09-10T07 25 36.876-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Filtering rules
-publishexternaldate: 2018-07-23T05 53 49.460-0400
+publishexternaldate: 2018-09-07T14 59 27.632-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/filtering-rules.html
-sha1: fa6643dced63bad31b9cfec8dad1d3644e6f56f9
-topicBrowsingSortDate: 2018-07-23T05:53:49.460-0400
+sha1: 4b43ad03a4408980f1363cc33c4c223d64bfece4
+topicBrowsingSortDate: 2018-09-07T14:59:27.632-0400
 index: y
 internal: n
 snippet: y

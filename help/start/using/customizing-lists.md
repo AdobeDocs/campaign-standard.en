@@ -2,14 +2,14 @@
 title: Customizing lists
 seo-title: Customizing lists
 description: Customizing lists
-seo-description: "Learn how to customize display and act on list screens in Adobe Campaign Standard: sorting, filtering, deleting or duplicating elements. Lists screens display elements of one or several given resources."
-uuid: 8009b708-5074-4097-a244-b652243e5bc1
+seo-description: Learn how to customize display and act on list screens in Adobe Campaign Standard:sorting, filtering, deleting or duplicating elements. Lists screens display elements of one or several given resources.
+uuid: dab38fff-21d8-4fdb-922d-5eebf9f849ad
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/start/using/customizing-lists
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-27T03 26 44.882-0400
-cq-lastreplicated: 2018-07-23T06 00 43.083-0400
+cq-lastmodified: 2018-09-08T08 23 06.840-0400
+cq-lastreplicated: 2018-09-07T15 08 14.433-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 cq-template: /apps/help/templates/article-3
-discoiquuid: 4fce829d-7e50-4800-b18a-7f049c8dc1d9
-firstPublishExternalDate: 2018-07-23T06:00:43.046-0400
+discoiquuid: 90c7aa96-393d-4a0d-8edf-ac1e21f31ce4
+firstPublishExternalDate: 2018-09-07T15:08:14.158-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 38.544-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Customizing lists
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:00:43.046-0400
-lochandoffdate: 2018-07-27T03 26 44.881-0400
+lastPublishExternalDate: 2018-09-07T15:08:14.158-0400
+lochandoffdate: 2018-09-08T08 23 06.840-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Customizing lists
-publishexternaldate: 2018-07-23T06 00 43.046-0400
+publishexternaldate: 2018-09-07T15 08 14.158-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/start/using/customizing-lists.html
-sha1: 798801eea29b18a74db462af878718c6172d96a4
-topicBrowsingSortDate: 2018-07-23T06:00:43.046-0400
+sha1: c916f3709ba5ec4b9d90e8fb7b4212ff06e823f2
+topicBrowsingSortDate: 2018-09-07T15:08:14.158-0400
 index: y
 internal: n
 snippet: y

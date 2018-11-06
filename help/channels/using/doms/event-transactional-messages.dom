@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="2018-07-23T06:02:59.976-0400" name="firstPublishExternalDate" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="2018-09-07T15:12:29.640-0400" name="lastPublishExternalDate" />
   <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="light" name="heroGradient" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="2018-07-30T04:54:05.408-0400" name="locHandOffDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:channels;content_type:reference;topic_tags:transactional-messaging" name="cq:tags" />
   <meta content="audience:channels" name="primaryAudienceTag" />
-  <meta content="https://helpx.adobe.com/campaign/standard/channels/using/event-transactional-messages.html" name="publishExternalURL" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-09-08T08:23:17.976-0400" name="cq:lastModified" />
   <meta content="true" name="jcr:isCheckedOut" />
   <meta content="Event transactional messages" name="jcr:title" />
-  <meta content="42441ff4-d8a8-4e33-8cd6-f5b89c571a99" name="jcr:uuid" />
-  <meta content="2018-07-23T06:02:59.976-0400" name="lastPublishExternalDate" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:channels;content_type:reference;topic_tags:transactional-messaging" name="cq:tags" />
-  <meta content="2018-07-23T06:02:59.976-0400" name="topicBrowsingSortDate" />
-  <meta content="2018-07-23T06:03:00.012-0400" name="cq:lastReplicated" />
-  <meta content="Event transactional messages" name="navTitle" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="2018-07-30T04:54:05.409-0400" name="cq:lastModified" />
   <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="light" name="heroGradient" />
   <meta content="Event transactional messages" name="jcr:description" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="2018-03-15T09:01:20.940-0400" name="jcr:created" />
+  <meta content="2018-09-08T08:23:17.976-0400" name="locHandOffDate" />
   <meta content="admin" name="jcr:createdBy" />
-  <meta content="2018-07-23T06:02:59.976-0400" name="publishExternalDate" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="28a8dc9c-e4cd-417a-b8fd-35b7df8c2d50" name="jcr:predecessors" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-03-15T09:01:20.940-0400" name="jcr:created" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2018-09-07T15:12:29.640-0400" name="firstPublishExternalDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="42441ff4-d8a8-4e33-8cd6-f5b89c571a99" name="jcr:uuid" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="https://helpx.adobe.com/campaign/standard/channels/using/event-transactional-messages.html" name="publishExternalURL" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
   <meta content="Learn how to create and publish an event transactional message." name="seoDescription" />
-  <meta content="en_us" name="jcr:language" />
+  <meta content="28a8dc9c-e4cd-417a-b8fd-35b7df8c2d50" name="jcr:predecessors" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-09-07T15:12:29.706-0400" name="cq:lastReplicated" />
+  <meta content="Event transactional messages" name="navTitle" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-09-07T15:12:29.640-0400" name="publishExternalDate" />
+  <meta content="2018-09-07T15:12:29.640-0400" name="topicBrowsingSortDate" />
  </head>
  <body>
   <p>Once you have created and published an event (the cart abandonment as explained in <a href="../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle">this section</a>), the corresponding transactional message is created automatically.</p> 

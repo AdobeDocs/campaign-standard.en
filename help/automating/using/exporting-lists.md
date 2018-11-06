@@ -3,13 +3,13 @@ title: Exporting lists
 seo-title: Exporting lists
 description: Exporting lists
 seo-description: Adobe Campaign allows you to export the data displayed as lists from an overview screen directly in a file for future use. 
-uuid: 1f3e64ea-eae1-4e45-a32f-7d1fe4a707d5
+uuid: 03cb4e7f-03d6-499c-b499-de2ca6bb5eab
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/exporting-lists
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 30 01.650-0400
-cq-lastreplicated: 2018-07-23T05 57 58.750-0400
+cq-lastmodified: 2018-09-10T07 29 35.009-0400
+cq-lastreplicated: 2018-09-07T15 09 12.148-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
 cq-template: /apps/help/templates/article-3
-discoiquuid: b04d301a-7e46-4d01-a04f-ccff7866b4dd
-firstPublishExternalDate: 2018-07-23T05:57:58.671-0400
+discoiquuid: eaf5cd6a-2e48-4d72-8945-97777103d7e0
+firstPublishExternalDate: 2018-09-07T15:09:12.066-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 58.914-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Exporting lists
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:57:58.671-0400
-lochandoffdate: 2018-07-25T09 30 01.649-0400
+lastPublishExternalDate: 2018-09-07T15:09:12.066-0400
+lochandoffdate: 2018-09-10T07 29 35.008-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Exporting lists
-publishexternaldate: 2018-07-23T05 57 58.671-0400
+publishexternaldate: 2018-09-07T15 09 12.066-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/exporting-lists.html
-sha1: 4c5e7c34e318a882ba8451b74767cdd8f9a57414
-topicBrowsingSortDate: 2018-07-23T05:57:58.671-0400
+sha1: fd87025ba5da055a1afee8619700f44f850e8367
+topicBrowsingSortDate: 2018-09-07T15:09:12.066-0400
 index: y
 internal: n
 snippet: y

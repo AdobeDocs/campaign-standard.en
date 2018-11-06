@@ -3,13 +3,13 @@ title: Configuring transactional messaging
 seo-title: Configuring transactional messaging
 description: Configuring transactional messaging
 seo-description: Learn how to configure transactional messaging.
-uuid: 90125abb-7486-46dd-b03d-3ff7e3068855
+uuid: ea73bfd0-faf4-4817-a6c7-5467de84514d
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/configuring-transactional-messaging
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 25.226-0400
-cq-lastreplicated: 2018-07-23T05 53 42.711-0400
+cq-lastmodified: 2018-09-10T07 25 06.257-0400
+cq-lastreplicated: 2018-09-07T14 57 36.242-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 cq-template: /apps/help/templates/article-3
-discoiquuid: 6349ea25-387c-4e48-a4b4-55dddce70aed
-firstPublishExternalDate: 2018-07-23T05:53:42.639-0400
+discoiquuid: fef8f648-7fd4-4cd2-a24b-661cb9aa2fb7
+firstPublishExternalDate: 2018-09-07T14:57:33.378-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-02-16T08 02 02.288-0500
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Configuring transactional messaging
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:53:42.639-0400
-lochandoffdate: 2018-07-25T09 29 25.226-0400
+lastPublishExternalDate: 2018-09-07T14:57:33.378-0400
+lochandoffdate: 2018-09-10T07 25 06.256-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Configuring transactional messaging
-publishexternaldate: 2018-07-23T05 53 42.639-0400
+publishexternaldate: 2018-09-07T14 57 33.378-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html
-sha1: bfe1da646015cd625f11622404ee596f4a38fffc
-topicBrowsingSortDate: 2018-07-23T05:53:42.639-0400
+sha1: 8ca703f6b38273c02282d705cd8951738bee2958
+topicBrowsingSortDate: 2018-09-07T14:57:33.378-0400
 index: y
 internal: n
 snippet: y
@@ -217,14 +217,14 @@ To send a profile-based transactional message, you first need to create and conf
 
 ### Event-based transactional push notifications
 
-To be able to send transactional push notifications, you need to configure Adobe Campaign accordingly. See [Push configuration](../../administration/using/configuring-mobile-app-channel.md).
+To be able to send transactional push notifications, you need to configure Adobe Campaign accordingly. See [Push configuration](../../administration/using/configuring-a-mobile-application-using-sdk-v4.md).
 
 To send an anonymous transactional push notification to all users who have opted in to receive notifications from your mobile application, you first need to create and configure an event targeting the data contained in the event itself. The corresponding steps are presented below.
 
 The event must contain the three following elements:
 
 * A **registration token**, which is the user ID for one mobile application and one device. It may not correspond to any profile from the Adobe Campaign database.
-* A **mobile application name** (one for all devices - Android and iOS). This is the ID of the mobile application configured in Adobe Campaign that will be used to receive push notifications on the users' devices. For more on this, see [Setting up a mobile application in Adobe Campaign](../../administration/using/configuring-mobile-app-channel.md#setting-up-a-mobile-application-in-adobe-campaign).
+* A **mobile application name** (one for all devices - Android and iOS). This is the ID of the mobile application configured in Adobe Campaign that will be used to receive push notifications on the users' devices. For more on this, see [Setting up a mobile application in Adobe Campaign](../../administration/using/configuring-a-mobile-application-using-sdk-v4.md#setting-up-a-mobile-application-in-adobe-campaign).
 * A **push platform** ("gcm" for Android or "apns" for iOS).
 
 1. When creating the event configuration, select the **Mobile application** channel and the **Real-time event** targeting dimension (see [Creating an event](../../administration/using/configuring-transactional-messaging.md#creating-an-event)).

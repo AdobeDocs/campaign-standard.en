@@ -3,13 +3,13 @@ title: Troubleshooting
 seo-title: Troubleshooting
 description: Troubleshooting
 seo-description: 
-uuid: d509e1cb-2dfe-4fea-b485-9e02c432aee9
+uuid: 15008c68-68ca-4961-9e12-910817454cc1
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/integrating/using/troubleshooting
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-27T03 26 54.400-0400
-cq-lastreplicated: 2018-07-23T05 59 41.606-0400
+cq-lastmodified: 2018-09-10T02 18 58.705-0400
+cq-lastreplicated: 2018-09-07T15 07 27.320-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 cq-template: /apps/help/templates/article-3
-discoiquuid: 906d0f84-2cb9-4f9f-bbc3-37828789b9c7
-firstPublishExternalDate: 2018-07-23T05:59:41.559-0400
+discoiquuid: 3dd84ab2-11ae-48bc-83b3-fab39029c2a4
+firstPublishExternalDate: 2018-09-07T15:07:26.740-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-06-15T07 29 58.798-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Troubleshooting
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:59:41.559-0400
-lochandoffdate: 2018-07-27T03 26 54.399-0400
+lastPublishExternalDate: 2018-09-07T15:07:26.740-0400
+lochandoffdate: 2018-09-10T02 18 58.704-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Troubleshooting
-publishexternaldate: 2018-07-23T05 59 41.559-0400
+publishexternaldate: 2018-09-07T15 07 26.740-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/troubleshooting.html
-sha1: f4b40b953455d38c608cfd6ff7b94a301b153d68
-topicBrowsingSortDate: 2018-07-23T05:59:41.559-0400
+sha1: 4140e440f3d5fc7f4b627cfbb45c76b4781141dc
+topicBrowsingSortDate: 2018-09-07T15:07:26.740-0400
 index: y
 internal: n
 snippet: y

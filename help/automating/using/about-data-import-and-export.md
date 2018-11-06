@@ -3,13 +3,13 @@ title: About data import and export
 seo-title: About data import and export
 description: About data import and export
 seo-description: Learn about the different ways to import and export data with Adobe Campaign.
-uuid: 057041f0-0024-4d6b-a394-0d04e2523bab
+uuid: 5300052d-d9a6-4659-b811-1ddef38aa7b5
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/about-data-import-and-export
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 58.264-0400
-cq-lastreplicated: 2018-07-23T05 57 50.829-0400
+cq-lastmodified: 2018-09-10T07 29 02.579-0400
+cq-lastreplicated: 2018-09-07T15 09 01.211-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
 cq-template: /apps/help/templates/article-3
-discoiquuid: f99ff81f-8a8b-4b31-b045-472b7d0b0313
-firstPublishExternalDate: 2018-07-23T05:57:50.716-0400
+discoiquuid: 50de78f6-99eb-4682-bdba-9ef0b12b61e2
+firstPublishExternalDate: 2018-09-07T15:09:01.132-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 18.132-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: About data import and export
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:57:50.716-0400
-lochandoffdate: 2018-07-25T09 29 58.264-0400
+lastPublishExternalDate: 2018-09-07T15:09:01.132-0400
+lochandoffdate: 2018-09-10T07 29 02.577-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About data import and export
-publishexternaldate: 2018-07-23T05 57 50.716-0400
+publishexternaldate: 2018-09-07T15 09 01.132-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/about-data-import-and-export.html
-sha1: f226c9fbda35427eee50933c1ac30ffb39618ff3
-topicBrowsingSortDate: 2018-07-23T05:57:50.716-0400
+sha1: aa754037dd16ab75f9e5d3cc913dadfeae76735a
+topicBrowsingSortDate: 2018-09-07T15:09:01.132-0400
 index: y
 internal: n
 snippet: y

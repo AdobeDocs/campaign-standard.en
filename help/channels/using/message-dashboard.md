@@ -3,13 +3,13 @@ title: Message dashboard
 seo-title: Message dashboard
 description: Message dashboard
 seo-description: Discover what the message dashboard is made up of, including the action bar and the various functional blocks.
-uuid: d3a4ba6a-38fd-4ca2-8609-e077de523cba
+uuid: 6f55a041-52ce-4822-9c02-dd3489c8304e
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/message-dashboard
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-30T04 53 47.223-0400
-cq-lastreplicated: 2018-07-23T06 02 39.048-0400
+cq-lastmodified: 2018-09-08T08 23 02.798-0400
+cq-lastreplicated: 2018-09-07T15 11 32.541-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 cq-template: /apps/help/templates/article-3
-discoiquuid: 759f2230-dc43-497a-ac23-09540871bc61
-firstPublishExternalDate: 2018-07-23T06:02:38.973-0400
+discoiquuid: 5dbb3517-738b-4c79-b560-93de4dc9867c
+firstPublishExternalDate: 2018-09-07T15:11:32.375-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 16.792-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Message dashboard
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:02:38.973-0400
-lochandoffdate: 2018-07-30T04 53 47.223-0400
+lastPublishExternalDate: 2018-09-07T15:11:32.375-0400
+lochandoffdate: 2018-09-08T08 23 02.798-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Message dashboard
-publishexternaldate: 2018-07-23T06 02 38.973-0400
+publishexternaldate: 2018-09-07T15 11 32.375-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/message-dashboard.html
-sha1: 7b7e293bb5c3d10aef35471b1f72bef09fe88d65
-topicBrowsingSortDate: 2018-07-23T06:02:38.973-0400
+sha1: 37c711a7ae76cb9c4831ea27e1bdbe1686b02e07
+topicBrowsingSortDate: 2018-09-07T15:11:32.375-0400
 index: y
 internal: n
 snippet: y
@@ -87,7 +87,7 @@ Depending on the parameters that have been set up and the progress made, certain
 
 * **Confirm send**: confirms sending the message. The sending statistics appear in the **Deployment** block. This button only appears after the send has been prepared. You can stop or pause the send at any time using the **Stop send** and **Pause** buttons.
 
-  For more on confirming sending, see [Sending messages](../../sending/using/confirming-send.md).
+  For more on confirming sending, see [Sending messages](../../sending/using/confirming-the-send.md).
 
 ## Blocks
 
@@ -95,7 +95,7 @@ The main screen is made up of different blocks. Click inside a block to access t
 
 ![](assets/delivery_dashboard_3.png)
 
-* **Deployment**: allows you to track the progress of the message preparation or send. Click the button found in the lower right section of this block to access the send and analysis logs. This block only appears once the send has been prepared. For more on this. See [Confirming send](../../sending/using/confirming-send.md).
+* **Deployment**: allows you to track the progress of the message preparation or send. Click the button found in the lower right section of this block to access the send and analysis logs. This block only appears once the send has been prepared. For more on this. See [Confirming send](../../sending/using/confirming-the-send.md).
 * **Audience**: allows you to establish the message's main target as well as the test profiles. See [Creating audiences](../../audiences/using/creating-audiences.md).
 * **Schedule**: allows you to specify the date on which your message will be sent. See [Scheduling](../../sending/using/about-scheduling-messages.md).
 * **Content**: allows you to define the message's content and preview it. See [Defining content](../../designing/using/designing-content-in-adobe-campaign.md).

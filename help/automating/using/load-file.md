@@ -3,13 +3,13 @@ title: Load file
 seo-title: Load file
 description: Load file
 seo-description: The Load file activity allows you to import data in one structured form to use this data in Adobe Campaign.
-uuid: c2ddd4f7-028e-4ac4-87c8-8baa584e4f7f
+uuid: c9b5754f-3aae-4f11-a49d-d293c18b094d
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/load-file
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 48.696-0400
-cq-lastreplicated: 2018-07-23T05 57 28.054-0400
+cq-lastmodified: 2018-09-10T07 27 50.114-0400
+cq-lastreplicated: 2018-09-07T15 08 18.510-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: b1a7816d-7098-44f8-b312-f1b5524f9784
-firstPublishExternalDate: 2018-07-23T05:57:27.814-0400
+discoiquuid: 850795f7-9606-468c-8c9b-acd0480d9b2d
+firstPublishExternalDate: 2018-09-07T15:08:18.318-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 03 00.399-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Load file
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:57:27.814-0400
-lochandoffdate: 2018-07-25T09 29 48.696-0400
+lastPublishExternalDate: 2018-09-07T15:08:18.318-0400
+lochandoffdate: 2018-09-10T07 27 50.112-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Load file
-publishexternaldate: 2018-07-23T05 57 27.814-0400
+publishexternaldate: 2018-09-07T15 08 18.318-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/load-file.html
-sha1: 39d151270813f0e061822996e50028e8d80c4088
-topicBrowsingSortDate: 2018-07-23T05:57:27.814-0400
+sha1: b3c4f9e04acc871e592d30e30773c5f9e4700460
+topicBrowsingSortDate: 2018-09-07T15:08:18.318-0400
 index: y
 internal: n
 snippet: y

@@ -3,13 +3,13 @@ title: Abandonment Triggers use cases
 seo-title: Abandonment Triggers use cases
 description: Abandonment Triggers use cases
 seo-description: Learn how to use the Experience Cloud Triggers integration with these different use cases.
-uuid: ea181cc3-3527-48db-bdce-484dad5d6a65
+uuid: 2dbe71e1-4ac2-4da4-b49c-b0f963223e3b
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/integrating/using/abandonment-triggers-use-cases
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-27T03 27 40.418-0400
-cq-lastreplicated: 2018-07-23T05 59 51.568-0400
+cq-lastmodified: 2018-09-10T02 19 30.068-0400
+cq-lastreplicated: 2018-09-07T15 08 37.358-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 cq-template: /apps/help/templates/article-3
-discoiquuid: 8c4d42d5-92e0-42f7-ad48-62639acd787c
-firstPublishExternalDate: 2018-07-23T05:59:51.506-0400
+discoiquuid: a6b593a2-b894-4816-9e91-fc060b481fdd
+firstPublishExternalDate: 2018-09-07T15:08:37.073-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 30.588-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Abandonment Triggers use cases
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:59:51.506-0400
-lochandoffdate: 2018-07-27T03 27 40.417-0400
+lastPublishExternalDate: 2018-09-07T15:08:37.073-0400
+lochandoffdate: 2018-09-10T02 19 30.068-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Abandonment Triggers use cases
-publishexternaldate: 2018-07-23T05 59 51.506-0400
+publishexternaldate: 2018-09-07T15 08 37.073-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/abandonment-triggers-use-cases.html
-sha1: 4bf7b18a129af6650bee80dad6a83c9c20ade25e
-topicBrowsingSortDate: 2018-07-23T05:59:51.506-0400
+sha1: 2c1e63bb81350261ba4d9f6967c837a800ad1c4c
+topicBrowsingSortDate: 2018-09-07T15:08:37.073-0400
 index: y
 internal: n
 snippet: y

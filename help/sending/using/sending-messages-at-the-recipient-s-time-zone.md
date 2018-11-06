@@ -3,13 +3,13 @@ title: Sending messages at the recipient's time zone
 seo-title: Sending messages at the recipient's time zone
 description: Sending messages at the recipient's time zone
 seo-description: Learn how to send messages at the recipient's time zone.
-uuid: a94285b2-4b09-4d0b-b99e-3cdcc61ad44b
+uuid: 90e61d78-2de3-451b-a94c-35449a93b4e7
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/sending/using/sending-messages-at-the-recipient-s-time-zone
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-30T04 53 50.776-0400
-cq-lastreplicated: 2018-07-23T06 02 21.958-0400
+cq-lastmodified: 2018-09-08T08 23 05.533-0400
+cq-lastreplicated: 2018-09-07T15 11 22.010-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 cq-template: /apps/help/templates/article-3
-discoiquuid: 2f9d211d-e618-4267-b9db-d48c5dc28c91
-firstPublishExternalDate: 2018-07-23T06:02:21.919-0400
+discoiquuid: c8538eeb-9884-4d7b-8807-b63a2ac93182
+firstPublishExternalDate: 2018-09-07T15:11:21.952-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 59.928-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Sending messages at the recipient's time zone
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:02:21.919-0400
-lochandoffdate: 2018-07-30T04 53 50.776-0400
+lastPublishExternalDate: 2018-09-07T15:11:21.952-0400
+lochandoffdate: 2018-09-08T08 23 05.533-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Sending messages at the recipient's time zone
-publishexternaldate: 2018-07-23T06 02 21.919-0400
+publishexternaldate: 2018-09-07T15 11 21.952-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/sending/using/sending-messages-at-the-recipient-s-time-zone.html
-sha1: 8479adb2339b5d048f2645e077617ec237ea6a85
-topicBrowsingSortDate: 2018-07-23T06:02:21.919-0400
+sha1: 169d74daf2939b121d89b84d4ffabd212b04fc21
+topicBrowsingSortDate: 2018-09-07T15:11:21.952-0400
 index: y
 internal: n
 snippet: y

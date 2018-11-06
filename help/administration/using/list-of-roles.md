@@ -3,22 +3,24 @@ title: List of roles
 seo-title: List of roles
 description: List of roles
 seo-description: Find out the list of roles that you can assign to your users.
-uuid: 68458128-f636-4e88-a0c8-9cb1cf0f1154
+uuid: 2c8501ae-7030-48d1-acab-56c53bfe06bd
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/list-of-roles
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 14.976-0400
-cq-lastreplicated: 2018-07-23T05 53 25.333-0400
-cq-lastreplicatedby: sauviat
+cq-lastmodified: 2018-10-04T05 14 28.853-0400
+cq-lastmodifiedby: beneat
+cq-lastreplicated: 2018-10-04T05 14 28.912-0400
+cq-lastreplicatedby: beneat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: users-e-security
 cq-template: /apps/help/templates/article-3
-discoiquuid: f2c37b3d-039f-4a9b-ac3e-6072ac43eaf1
-firstPublishExternalDate: 2018-07-23T05:53:25.294-0400
+discoiquuid: f88241cc-d0ae-48b2-a3d0-7d397cce1592
+firstPublishExternalDate: 2018-09-07T14:41:21.936-0400
+firstpublishinternaldate: 2018-10-04T05 14 28.839-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-02-16T08 01 35.478-0500
@@ -26,15 +28,19 @@ jcr-createdby: admin
 jcr-description: List of roles
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:53:25.294-0400
-lochandoffdate: 2018-07-25T09 29 14.976-0400
+lastPublishExternalDate: 2018-10-04T05:14:28.839-0400
+lastpublishinternaldate: 2018-10-04T05 14 28.839-0400
+lochandoffdate: 2018-09-10T07 23 04.045-0400
 loclangtag: locales fr;locales de;locales ja
-lr-lastreplicatedby: sauviat@adobe.com
+lr-lastreplicatedby: beneat@adobe.com
+moreHelpPaths: /content/help/en/campaign/standard/administration/morehelp/users-e-security;/content/help/en/campaign/standard/administration/morehelp/users-e-security
 navTitle: List of roles
-publishexternaldate: 2018-07-23T05 53 25.294-0400
+publishexternaldate: 2018-10-04T05 14 28.839-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/list-of-roles.html
-sha1: 2ada17f1a169ef6619afde6cd83a924f18c8d3ea
-topicBrowsingSortDate: 2018-07-23T05:53:25.294-0400
+publishinternaldate: 2018-10-04T05 14 28.839-0400
+publishinternalurl: https //helpx-internal.corp.adobe.com/content/help/en/campaign/standard/administration/using/list-of-roles.html
+sha1: 212a40997c5f2313467837fd786a492adaf8fcf7
+topicBrowsingSortDate: 2018-10-04T05:14:28.839-0400
 index: y
 internal: n
 snippet: y
@@ -47,10 +53,7 @@ List of roles
 By default, Adobe Campaign offers a set of roles which allows you to define unitary authorizations assigned to users and user groups. Combined with organizational and geographical units, roles give users a filtered view of the interface and define their access to the different features. For more on this, refer to this [page](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
 
 Roles can be managed from the **Administration > Users & Security > Roles** menu.
-
-![](assets/user_management_3.png)
-
-Default rights are:
+[ ![](assets/user_management_3.png)](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)Default rights are:
 
 * ADMINISTRATION: Generic administration right.
 * DATAMODEL: Right to run publications and create custom resources.

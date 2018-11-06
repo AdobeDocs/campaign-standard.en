@@ -1,51 +1,59 @@
 <html> 
  <head> 
-  <meta content="" name="jcr:baseVersion" /> 
-  <meta content="light" name="heroGradient" /> 
-  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
-  <meta content="audience:rn" name="primaryAudienceTag" /> 
-  <meta content="true" name="jcr:isCheckedOut" /> 
-  <meta content="2018-07-25T03:01:00.396-0400" name="publishExternalDate" /> 
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
-  <meta content="2018-07-25T03:01:00.396-0400" name="publishInternalDate" /> 
-  <meta content="Documentation Updates" name="jcr:description" /> 
-  <meta content="sauviat" name="contentOwner" /> 
-  <meta content="Documentation Updates" name="navTitle" /> 
-  <meta content="Activate" name="cq:lastReplicationAction" /> 
-  <meta content="2018-02-27T08:01:00.521-0500" name="jcr:created" /> 
-  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
-  <meta content="2018-07-25T03:01:00.396-0400" name="topicBrowsingSortDate" /> 
-  <meta content="2018-07-30T04:51:28.007-0400" name="locHandOffDate" /> 
-  <meta content="beneat" name="cq:lastModifiedBy" /> 
-  <meta content="2018-07-30T04:51:28.007-0400" name="cq:lastModified" /> 
-  <meta content="2018-07-25T03:01:00.396-0400" name="lastPublishExternalDate" /> 
-  <meta content="e9e9936a-f44e-494d-aa11-906e132151e7" name="jcr:uuid" /> 
+  <meta content="2018-09-08T12:39:25.280-0400" name="firstPublishExternalDate" /> 
   <meta content="" name="jcr:primaryType" /> 
-  <meta content="38c90735-b7c5-47d9-85e5-22fe3a65bf54" name="jcr:predecessors" /> 
-  <meta content="2018-07-25T03:01:00.396-0400" name="firstPublishInternalDate" /> 
-  <meta content="beneat" name="cq:lastReplicatedBy" /> 
-  <meta content="2018-07-25T03:01:00.396-0400" name="lastPublishInternalDate" /> 
-  <meta content="admin" name="jcr:createdBy" /> 
-  <meta content="/content/help/en/campaign/standard/rn/morehelp/campaign-standard-releases;/content/help/en/campaign/standard/rn/morehelp/campaign-standard-releases" name="moreHelpPaths" /> 
-  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
-  <meta content="2018-07-25T03:01:00.470-0400" name="cq:lastReplicated" /> 
-  <meta content="Documentation Updates" name="jcr:title" /> 
+  <meta content="e9e9936a-f44e-494d-aa11-906e132151e7" name="jcr:uuid" /> 
+  <meta content="2018-09-10T04:40:40.528-0400" name="lastPublishInternalDate" /> 
   <meta content="/etc/designs/help" name="cq:designPath" /> 
-  <meta content="2018-07-23T06:03:15.900-0400" name="firstPublishExternalDate" /> 
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:rn;content_type:reference;topic_tags:campaign-standard-releases" name="cq:tags" /> 
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
-  <meta content="https://helpx.adobe.com/campaign/standard/rn/using/documentation-updates.html" name="publishExternalURL" /> 
-  <meta content="en_us" name="jcr:language" /> 
-  <meta content="false" name="isReadyForLocalization" /> 
-  <meta content="Learn about all the latest updates for Adobe Campaign Standard documentation." name="seoDescription" /> 
-  <meta content="https://helpx-internal.corp.adobe.com/content/help/en/campaign/standard/rn/using/documentation-updates.html" name="publishInternalURL" /> 
-  <meta content="beneat@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="Documentation Updates" name="jcr:description" /> 
   <meta content="" name="jcr:versionHistory" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="vignes" name="cq:lastModifiedBy" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2018-09-10T04:40:40.528-0400" name="publishInternalDate" /> 
+  <meta content="38c90735-b7c5-47d9-85e5-22fe3a65bf54" name="jcr:predecessors" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="Documentation Updates" name="jcr:title" /> 
+  <meta content="2018-09-10T04:40:40.528-0400" name="lastPublishExternalDate" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="2018-09-11T09:11:26.273-0400" name="cq:lastModified" /> 
+  <meta content="audience:rn" name="primaryAudienceTag" /> 
+  <meta content="2018-09-11T09:11:26.273-0400" name="locHandOffDate" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2018-09-09T12:17:16.855-0400" name="firstPublishInternalDate" /> 
+  <meta content="2018-09-10T04:40:40.528-0400" name="publishExternalDate" /> 
+  <meta content="https://helpx-internal.corp.adobe.com/content/help/en/campaign/standard/rn/using/documentation-updates.html" name="publishInternalURL" /> 
+  <meta content="vignes" name="cq:lastReplicatedBy" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="Documentation Updates" name="navTitle" /> 
+  <meta content="vignes@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2018-09-10T04:40:40.528-0400" name="topicBrowsingSortDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="Learn about all the latest updates for Adobe Campaign Standard documentation." name="seoDescription" /> 
+  <meta content="2018-02-27T08:01:00.521-0500" name="jcr:created" /> 
+  <meta content="https://helpx.adobe.com/campaign/standard/rn/using/documentation-updates.html" name="publishExternalURL" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="/content/help/en/campaign/standard/rn/morehelp/campaign-standard-releases;/content/help/en/campaign/standard/rn/morehelp/campaign-standard-releases" name="moreHelpPaths" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:rn;content_type:reference;topic_tags:campaign-standard-releases" name="cq:tags" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2018-09-10T04:40:40.637-0400" name="cq:lastReplicated" /> 
  </head> 
  <body> 
   <p>Learn about all the latest updates for Adobe Campaign Standard documentation.</p> 
   <p>This page lists all the new features and documentation updates for each release of Adobe Campaign Standard.</p> 
   <p>You can also consult the Adobe Campaign <a href="../../rn/using/release-notes.md">Release Notes</a>.</p> 
+  <h2>18.9 - September 2018 release</h2> 
+  <h3>New capabilities included in the release</h3> 
+  <p>In-App messaging (beta) - <a href="../../channels/using/about-in-app-messaging.md">Read more</a></p> 
+  <p>Adobe Launch integration for mobile apps (beta) - <a href="../../administration/using/configuring-a-mobile-application-using-sdk-v5.md">Read more</a></p> 
+  <h3>Other documentation updates coming with the release</h3> 
+  <p>Updated Push notification guide with interface changes. <a href="../../channels/using/about-push-notifications.md">Read more</a></p> 
+  <p>Added information on how to delete an audience. <a href="../../audiences/using/creating-audiences.md#deleting-audiences">Read more</a></p> 
+  <p>Updated Push notification out-of-the-box report section. <a href="../../reporting/using/push-notification-report.md">Read more</a></p> 
   <h2>18.7 - July 2018 release</h2> 
   <h3>New capabilities included in the release</h3> 
   <p> <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android">High priority flag</a> and <a href="../../administration/using/about-typology-rules.md#typology-rules">typology filter</a> for mobile app subscribers.</p> 
@@ -56,7 +64,8 @@
   <p>The "Designing Content" guide has been fully reorganized, particularly to present the two editors that enable you to design content for emails. <a href="../../designing/using/about-email-content-design.md">Read more</a></p> 
   <p>Learn how to simply make external contents fully editable with the Creative SDK by creating fragments from your existing emails. <a href="../../designing/using/editing-existing-contents-with-the-creative-designer.md#using-fragments-and-components-to-create-contents-supported-by-the-creative-designer">Read more</a></p> 
   <p>The list of HTML attributes for full compliance with the Creative Designer is now available in this <a href="../../designing/using/editing-existing-contents-with-the-creative-designer.md#html-tagging-to-ensure-compatibility-with-the-creative-designer">section</a>.</p> 
-  <p>Added information on default language for multilingual template. <a href="../../start/using/creating-a-multilingual-template.md" target="_blank">Read more</a></p> 
+  <p>Added information on default language for multilingual template. <a href="../../start/using/creating-a-multilingual-template.md">Read more</a></p> 
+  <p>The Users &amp; security guide has been updated to reflect the depreciation of the geographical unit capability for new Campaign Standard instances, as well as existing instances with no geographical units created, starting 18.7 release. <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">Read more</a></p> 
   <h2>18.6 - June 2018 release</h2> 
   <h3>New capabilities included in the release</h3> 
   <p>The API documentation was updated with information on the <strong>History</strong> API. A use case was added on how to retrieve the mirror page for a delivery sent to a profile. <a class="anchorLink" href="https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#how-to-retrieve-the-mirror-page-for-a-delivery-sent-to-a-profile" target="_blank">Read more</a> </p> 
@@ -84,7 +93,7 @@
   <p>The section dedicated to blacklisting has been renamed “Understanding opt-in and opt-out processes”. It has been updated with information on how to manage opt-in to specific channels and how to set up landing pages to manage opt-in and opt-out. <a href="../../audiences/using/about-opt-in-and-opt-out-in-campaign.md">Read more</a></p> 
   <p>Learn the best practices for using Adobe hosted SFTP servers. <a href="../../administration/using/external-accounts.md#how-to-define-an-sftp-external-account">Read more</a></p> 
   <p>The list of supported Analytics SKUs for the integration with Triggers has been updated. <a href="../../integrating/using/configuring-triggers-in-experience-cloud.md#configuring-solutions-and-services">Read more</a></p> 
-  <p>Some pages of the content editor documentation have been merged to offer a more comprehensive view of the different actions available. <a href="../../designing/using/about-email-content-design.md#email-content-editor-interface">Read more</a> <a href="../../designing/using/landing-page-content-editor-interface.md">Read more</a> <a href="../../designing/using/sms-and-push-content-editor-interface.md">Read more</a></p> 
+  <p>Some pages of the content editor documentation have been merged to offer a more comprehensive view of the different actions available. <a href="../../designing/using/about-email-content-design.md#email-content-editor-interface">Read more</a></p> 
   <h2>18.3 - March 2018 release</h2> 
   <h3>New capabilities included in the release</h3> 
   <p>EU General Data Protection Regulation (GDPR) - <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">Read more</a></p> 
@@ -118,7 +127,7 @@
   <p>Added a step-by-step use case on how to prepare a delivery. <a href="../../sending/using/preparing-the-send.md">Read more</a></p> 
   <p>The section including the list of authorizations has been removed. <a href="https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf">Read more</a> (PDF).</p> 
   <p>Added a step-by-step use case on how to use SMS auto reply. <a href="../../channels/using/managing-incoming-sms.md#managing-stop-sms">Read more</a></p> 
-  <p>Added information on how to send a delivery depending on users' time zones in a recurring workflow. <a href="../../automating/using/mobile-app-delivery.md#sending-a-recurring-push-notification-with-a-workflow">Read more</a></p> 
+  <p>Added information on how to send a delivery depending on users' time zones in a recurring workflow. <a href="../../automating/using/push-notification-delivery.md#sending-a-recurring-push-notification-with-a-workflow">Read more</a></p> 
   <p>Reorganized the <strong>Customizing a push notification</strong> section with step-by-step use cases. <a href="../../channels/using/customizing-a-push-notification.md">Read more</a></p> 
   <p>New section dedicated to blacklisting management. <a href="../../audiences/using/about-opt-in-and-opt-out-in-campaign.md">Read more</a></p> 
   <p>Updated information about delivery failures and quarantines. <a href="../../sending/using/monitoring-a-delivery.md">Read more</a></p> 
@@ -150,9 +159,9 @@
   <p>Updated numerous screenshots to reflect the changes in the query editor categories.</p> 
   <p>The <a href="../../sending/using/receiving-alerts-when-failures-happen.md">Delivery alerting</a> section has been moved and reorganized.</p> 
   <p>The 'Custom resources' section has been clarified with a more detailed procedure on how to <a href="../../developing/using/step-4--define-filters.md">define filters</a>.</p> 
-  <p>Updated and clarified the <a href="https://docs.campaign.adobe.com/doc/AC/en/technicalResources/Technotes/AdobeCampaign-IntegratingtheAdobeMobileSDKwithyourmobileapp.pdf">technote</a> on how to integrate the Adobe Marketing Cloud Mobile SDK with a mobile app to receive Adobe Campaign Standard push notifications.</p> 
-  <p>Added a technote explaining the structure of the payload received in a mobile app. <a href="https://docs.campaign.adobe.com/doc/AC/en/technicalResources/Technotes/AdobeCampaign-UnderstandingACSPushNotificationsPayloadStructure.pdf">Read more.</a></p> 
-  <p>The Push channel configuration <a href="../../administration/using/configuring-mobile-app-channel.md#configuring-a-mobile-application-in-adobe-mobile-services">section</a> has been updated with new payload data on OS version to add when defining postbacks in the Adobe Mobile Services interface.</p> 
+  <p>Updated and clarified the <a href="https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html">technote</a> on how to integrate the Adobe Marketing Cloud Mobile SDK with a mobile app to receive Adobe Campaign Standard push notifications.</p> 
+  <p>Added a technote explaining the structure of the payload received in a mobile app. <a href="https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html">Read more.</a></p> 
+  <p>The Push channel configuration <a href="../../administration/using/configuring-a-mobile-application-using-sdk-v4.md#configuring-a-mobile-application-in-adobe-mobile-services">section</a> has been updated with new payload data on OS version to add when defining postbacks in the Adobe Mobile Services interface.</p> 
   <p>The SMS documentation has been updated with some clarification added to the <a href="../../channels/using/managing-incoming-sms.md#managing-stop-sms">SMS automatic replies</a> section.</p> 
   <p>New section dedicated to workflow management via the API. <a class="anchorLink" href="https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#workflows-and-api" target="_blank">Read more</a> </p> 
   <p>New section dedicated to primary keys and the use of a business ID as a key in the API. <a class="anchorLink" href="https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#primary-key" target="_blank">Read more</a> </p> 
@@ -200,7 +209,7 @@
   <h3>Other documentation updates coming with the release</h3> 
   <p>The "Deliveries" guide has been reorganized and renamed "Channels". <a href="../../channels/using/discovering-communication-channels.md">Read more</a></p> 
   <p>Numerous screenshots have been updated to reflect interface changes.</p> 
-  <p>A new technote is now available: "Integrating the Adobe Mobile SDK with your mobile app". <a href="https://docs.campaign.adobe.com/doc/AC/en/technicalResources/Technotes/AdobeCampaign-IntegratingtheAdobeMobileSDKwithyourmobileapp.pdf">Read more</a></p> 
+  <p>A new technote is now available: "Integrating the Adobe Mobile SDK with your mobile app". <a href="https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html">Read more</a></p> 
   <p>Instructions to configure People core service or Audience Manager integration with Adobe Campaign have been updated. <a href="../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md">Read more</a></p> 
   <p>Authorizations table revised to make certain roles’ function clearer. <a href="https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf">Read more</a></p> 
   <p>Update of the contextual help links available directly from Adobe Campaign.</p> 
@@ -208,15 +217,15 @@
   <h3>New capabilities included in the release</h3> 
   <p>Enhanced Image edition capabilities with the Creative SDK - <a href="../../designing/using/modifying-images-with-the-adobe-creative-sdk.md">Read more</a></p> 
   <p>Transactional push notifications - <a href="../../channels/using/transactional-push-notifications.md">Read more</a></p> 
-  <p>Recurring push notifications - <a href="../../automating/using/mobile-app-delivery.md">Read more</a></p> 
+  <p>Recurring push notifications - <a href="../../automating/using/push-notification-delivery.md">Read more</a></p> 
   <p>Amazon Simple Storage Service (S3) connector - <a href="../../administration/using/external-accounts.md">Read more</a></p> 
   <p>Dreamweaver integration live - <a href="https://docs.campaign.adobe.com/doc/standard/en/Videos/ACS_Dreamweaver.mp4">Read more</a></p> 
   <h3>Other documentation updates coming with the release</h3> 
   <p>Section added on the different types of Adobe Campaign users. <a href="../../administration/using/types-of-users.md">Read more</a></p> 
   <p>The Workflow guide has been reorganized and extended. Easily find how to <a href="../../automating/using/building-a-workflow.md">build</a> and <a href="../../automating/using/executing-a-workflow.md">execute</a> a workflow, how to <a href="../../automating/using/targeting-data.md">target</a> and <a href="../../automating/using/targeting-data.md#enriching-data">manage</a> your data, how to <a href="../../automating/using/importing-data.md">import</a> data, and <a href="../../automating/using/using-workflow-data.md">how to use workflow data</a> to update the database or to send deliveries.</p> 
   <p>Report indicator calculation now available for dynamic reports, including full description and calculation formula. <a href="../../reporting/using/indicator-calculation.md">Read more</a></p> 
-  <p>New dedicated section about Adobe Mobile Services configuration to use push notifications and Point of Interest data in Adobe Campaign. <a href="../../administration/using/configuring-mobile-app-channel.md#configuring-a-mobile-application-in-adobe-mobile-services">Read more</a></p> 
-  <p>Mobile app configuration and implementation sections updated, including more detailed steps to set up and send push notifications. <a href="../../administration/using/configuring-mobile-app-channel.md">Read more</a></p> 
+  <p>New dedicated section about Adobe Mobile Services configuration to use push notifications and Point of Interest data in Adobe Campaign. <a href="../../administration/using/configuring-a-mobile-application-using-sdk-v4.md#configuring-a-mobile-application-in-adobe-mobile-services">Read more</a></p> 
+  <p>Mobile app configuration and implementation sections updated, including more detailed steps to set up and send push notifications. <a href="../../administration/using/configuring-a-mobile-application-using-sdk-v4.md">Read more</a></p> 
   <p>Updated section about how to work with images in Campaign. <a href="../../designing/using/setting-up-image-properties.md">Read more</a></p> 
   <p>Integration with Adobe Analytics for Mobile (Point of Interest) updated, including configuration steps and use case. <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">Read more</a></p> 
   <h2>17.2 - March 2017 release</h2> 
@@ -253,7 +262,7 @@
   <p>Multi-branding use case - <a href="../../administration/using/branding.md">Read more</a></p> 
   <p>Information added on Email sending parameters and SMTP. <a href="../../administration/using/configuring-email-channel.md#list-of-email-channel-parameters">Read more</a></p> 
   <p>New subject line data import interface - <a href="../../designing/using/personalizing-the-subject-line-of-an-email.md#predictive-subject-line">Read more</a></p> 
-  <p>Creating push notification deliveries in a workflow - <a href="../../automating/using/mobile-app-delivery.md">Read more</a></p> 
+  <p>Creating push notification deliveries in a workflow - <a href="../../automating/using/push-notification-delivery.md">Read more</a></p> 
   <p>The compatibility matrix has been updated in the Integration guide. <a href="../../integrating/using/about-campaign-integrations.md">Read more</a></p> 
   <p>New roles have been added in the User &amp; Security section. <a href="../../administration/using/list-of-roles.md">Read more</a></p> 
   <p>Push notification templates - <a href="../../channels/using/creating-and-sending-a-push-notification.md">Read more</a></p> 

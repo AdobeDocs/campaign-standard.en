@@ -3,13 +3,13 @@ title: Union
 seo-title: Union
 description: Union
 seo-description: The Union activity allows you to regroup the result of multiple activities into a single target.
-uuid: 27cf0db3-1812-4a7e-9592-6c39e54e1d07
+uuid: 0fa14f06-5e4e-48c4-93c4-b7bd5566efec
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/union
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 26.154-0400
-cq-lastreplicated: 2018-07-23T05 57 00.544-0400
+cq-lastmodified: 2018-09-10T07 24 48.323-0400
+cq-lastreplicated: 2018-09-07T14 52 29.279-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: 27ba2fac-5ecc-4d17-9dc5-2ddb9929d728
-firstPublishExternalDate: 2018-07-23T05:57:00.502-0400
+discoiquuid: 9b065dc5-c061-45df-bfcf-1d15c663ec36
+firstPublishExternalDate: 2018-09-07T14:52:27.418-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 12.356-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Union
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:57:00.502-0400
-lochandoffdate: 2018-07-25T09 29 26.154-0400
+lastPublishExternalDate: 2018-09-07T14:52:27.418-0400
+lochandoffdate: 2018-09-10T07 24 48.321-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Union
-publishexternaldate: 2018-07-23T05 57 00.502-0400
+publishexternaldate: 2018-09-07T14 52 27.418-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/union.html
-sha1: 9871adccd1212c170d0599fd6865f47a9922154c
-topicBrowsingSortDate: 2018-07-23T05:57:00.502-0400
+sha1: 2521f2fee3df9b424f17dbb1858375b29f3022ba
+topicBrowsingSortDate: 2018-09-07T14:52:27.418-0400
 index: y
 internal: n
 snippet: y

@@ -3,13 +3,13 @@ title: Selecting an existing content
 seo-title: Selecting an existing content
 description: Selecting an existing content
 seo-description: Learn how to load an existing content from another source when creating an email or a landing page.
-uuid: f9024271-159e-40fc-b20d-886d9e0d6a24
+uuid: 6c51c220-85cb-40e0-afb7-789fa04391d7
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/selecting-an-existing-content
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-26T02 53 39.392-0400
-cq-lastreplicated: 2018-07-23T08 13 37.464-0400
+cq-lastmodified: 2018-09-10T07 24 22.680-0400
+cq-lastreplicated: 2018-09-07T14 53 58.028-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: designing
 content-type: reference
 topic-tags: loading-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: 3c2d1617-87b5-472e-89b3-c9e0883cad5f
-firstPublishExternalDate: 2018-07-23T05:58:16.709-0400
+discoiquuid: 38dc13ac-b1a9-4843-acf9-9effbf9f34b1
+firstPublishExternalDate: 2018-09-07T14:53:55.864-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-07-23T07 30 15.241-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Selecting an existing content
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T08:13:37.419-0400
-lochandoffdate: 2018-07-26T02 53 39.391-0400
+lastPublishExternalDate: 2018-09-07T14:53:55.864-0400
+lochandoffdate: 2018-09-10T07 24 22.679-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Selecting an existing content
-publishexternaldate: 2018-07-23T08 13 37.419-0400
+publishexternaldate: 2018-09-07T14 53 55.864-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/selecting-an-existing-content.html
-sha1: 00e3a2464b8bc8101903f0cc1cdeda2b195dfe38
-topicBrowsingSortDate: 2018-07-23T08:13:37.419-0400
+sha1: 1a87e170cf69e248eb46237093336b810685969c
+topicBrowsingSortDate: 2018-09-07T14:53:55.864-0400
 index: y
 internal: n
 snippet: y

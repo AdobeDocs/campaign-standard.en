@@ -3,13 +3,13 @@ title: Save audience
 seo-title: Save audience
 description: Save audience
 seo-description: The Save audience activity allows you to update an existing audience or create a new audience from the population computed upstream in a workflow.
-uuid: dd8d793d-9708-4cf0-a2b9-25a54157f383
+uuid: b10a165a-a5cb-46a0-9ade-fbbf13384d1c
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/save-audience
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 29.572-0400
-cq-lastreplicated: 2018-07-23T05 57 07.044-0400
+cq-lastmodified: 2018-09-10T07 25 25.682-0400
+cq-lastreplicated: 2018-09-07T14 55 40.029-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: e1f5f227-51b3-4f13-930f-81c8d853e43f
-firstPublishExternalDate: 2018-07-23T05:57:06.975-0400
+discoiquuid: 4fab1221-a4dd-40c1-9025-346d9f602557
+firstPublishExternalDate: 2018-09-07T14:55:37.743-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 41.058-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Save audience
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:57:06.975-0400
-lochandoffdate: 2018-07-25T09 29 29.572-0400
+lastPublishExternalDate: 2018-09-07T14:55:37.743-0400
+lochandoffdate: 2018-09-10T07 25 25.681-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Save audience
-publishexternaldate: 2018-07-23T05 57 06.975-0400
+publishexternaldate: 2018-09-07T14 55 37.743-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/save-audience.html
-sha1: 4e2e82d197c42a3923ec25b00be5a9db3fe0d3fe
-topicBrowsingSortDate: 2018-07-23T05:57:06.975-0400
+sha1: 25ea1e155420c8ab8689604dd6a947512d96a94f
+topicBrowsingSortDate: 2018-09-07T14:55:37.743-0400
 index: y
 internal: n
 snippet: y

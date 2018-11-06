@@ -1,15 +1,15 @@
 ---
-title: "Step 2: Configure the resource data structure"
-seo-title: "Step 2: Configure the resource data structure"
-description: "Step 2: Configure the resource data structure"
+title: Step 2: Configure the resource data structure
+seo-title: Step 2: Configure the resource data structure
+description: Step 2: Configure the resource data structure
 seo-description: Learn how to configure the data structure.
-uuid: c8a5cdaf-6ab8-4d7d-8b0c-345c413831cf
+uuid: dfc80631-f4fe-478e-8d47-d22e92fc833a
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/developing/using/step-2--configure-the-resource-data-structure
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-26T02 53 21.919-0400
-cq-lastreplicated: 2018-07-23T05 59 08.797-0400
+cq-lastmodified: 2018-09-10T02 18 39.282-0400
+cq-lastreplicated: 2018-09-07T14 51 57.451-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 cq-template: /apps/help/templates/article-3
-discoiquuid: f1673b39-332d-4ac8-b8e8-cf8cce4d1804
-firstPublishExternalDate: 2018-07-23T05:59:08.749-0400
+discoiquuid: 27e20bae-8275-4d46-a849-dc6bd8f4eb57
+firstPublishExternalDate: 2018-09-07T14:51:54.919-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 55.169-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Step 2  Configure the resource data structure
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:59:08.749-0400
-lochandoffdate: 2018-07-26T02 53 21.918-0400
+lastPublishExternalDate: 2018-09-07T14:51:54.919-0400
+lochandoffdate: 2018-09-10T02 18 39.282-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
-navTitle: "Step 2: Configure the resource data structure"
-publishexternaldate: 2018-07-23T05 59 08.749-0400
+navTitle: Step 2: Configure the resource data structure
+publishexternaldate: 2018-09-07T14 51 54.919-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/step-2--configure-the-resource-data-structure.html
-sha1: 3f57f46f733e98e9da39e00782a0924dd1873342
-topicBrowsingSortDate: 2018-07-23T05:59:08.749-0400
+sha1: 784dce5255ac98f7e6890887d979cf2d90c3436f
+topicBrowsingSortDate: 2018-09-07T14:51:54.919-0400
 index: y
 internal: n
 snippet: y

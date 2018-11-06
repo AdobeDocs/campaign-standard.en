@@ -2,15 +2,14 @@
 title: Importing content from a URL
 seo-title: Importing content from a URL
 description: Importing content from a URL
-seo-description: 
-uuid: 2f0c5249-9100-4f14-b54e-813755d9f1cf
+seo-description: Learn how to load content from an existing URL when creating an email.
+uuid: 8b5c7841-9f52-4e65-8441-e73f5833bd4d
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/importing-content-from-a-url
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-26T02 53 40.607-0400
-cq-lastmodifiedby: mancini
-cq-lastreplicated: 2018-07-23T08 13 39.613-0400
+cq-lastmodified: 2018-09-10T07 24 27.789-0400
+cq-lastreplicated: 2018-09-07T14 55 08.811-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -18,8 +17,8 @@ audience: designing
 content-type: reference
 topic-tags: loading-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: a1e1928b-eb8c-4bab-b743-29a8f3128601
-firstPublishExternalDate: 2018-07-23T05:58:19.358-0400
+discoiquuid: 4ea51bdb-11db-4100-a572-308358bfeae9
+firstPublishExternalDate: 2018-09-07T14:55:06.004-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-07-23T07 30 15.414-0400
@@ -27,16 +26,15 @@ jcr-createdby: admin
 jcr-description: Importing content from a URL
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T08:13:39.572-0400
-lochandoffdate: 2018-07-26T02 53 40.606-0400
+lastPublishExternalDate: 2018-09-07T14:55:06.004-0400
+lochandoffdate: 2018-09-10T07 24 27.787-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
-moreHelpPaths: /content/help/en/campaign/standard/designing/morehelp/loading-content;/content/help/en/campaign/standard/designing/morehelp/loading-content
 navTitle: Importing content from a URL
-publishexternaldate: 2018-07-23T08 13 39.572-0400
+publishexternaldate: 2018-09-07T14 55 06.004-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/importing-content-from-a-url.html
-sha1: f41d2a043a60b132a9a49e298913ecce92b46d7d
-topicBrowsingSortDate: 2018-07-23T08:13:39.572-0400
+sha1: 2a9bae67448cc10650f7dec759b8143ea89e91f9
+topicBrowsingSortDate: 2018-09-07T14:55:06.004-0400
 index: y
 internal: n
 snippet: y

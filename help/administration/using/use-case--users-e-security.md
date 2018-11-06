@@ -1,15 +1,15 @@
 ---
-title: "Use case: users & security"
-seo-title: "Use case: users & security"
-description: "Use case: users & security"
+title: Use case: users & security
+seo-title: Use case: users & security
+description: Use case: users & security
 seo-description: Discover access and security management through a step-by-step use case.
-uuid: 0f5f5329-f194-4d2a-88e2-f8fbb56b7678
+uuid: f22d765b-4fab-427e-88aa-d50ea944efad
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/use-case--users-e-security
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 16.777-0400
-cq-lastreplicated: 2018-07-23T05 53 29.278-0400
+cq-lastmodified: 2018-09-10T07 23 26.779-0400
+cq-lastreplicated: 2018-09-07T14 41 58.452-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: administration
 content-type: reference
 topic-tags: users-e-security
 cq-template: /apps/help/templates/article-3
-discoiquuid: 1db1e946-1815-413c-acd6-d5dd8449ded5
-firstPublishExternalDate: 2018-07-23T05:53:29.218-0400
+discoiquuid: 0ebf9c5b-7de1-403d-8c80-3619dff5d195
+firstPublishExternalDate: 2018-09-07T14:41:56.889-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-02-16T08 05 00.426-0500
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Use case  users & security
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:53:29.218-0400
-lochandoffdate: 2018-07-25T09 29 16.777-0400
+lastPublishExternalDate: 2018-09-07T14:41:56.889-0400
+lochandoffdate: 2018-09-10T07 23 26.777-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
-navTitle: "Use case: users & security"
-publishexternaldate: 2018-07-23T05 53 29.218-0400
+navTitle: Use case: users & security
+publishexternaldate: 2018-09-07T14 41 56.889-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/use-case--users-e-security.html
-sha1: 3a42dd5a3e1ebec4c08c48ed804364cd112e4962
-topicBrowsingSortDate: 2018-07-23T05:53:29.218-0400
+sha1: 0e2181c323d3d607865d86713d35ffe92cb02290
+topicBrowsingSortDate: 2018-09-07T14:41:56.889-0400
 index: y
 internal: n
 snippet: y
@@ -43,6 +43,10 @@ snippet: y
 # Use case: users & security
 
 Use case: users & security
+
+>[!NOTE]
+>
+>Only users with administration rights have access to the configuration of users and security groups in the Admin console and in Adobe Campaign. Note that new Campaign Standard instances, as well as existing instances with no geographical units created, cannot have the geographical unit capability implemented starting 18.7 release.
 
 Specialized in sportswear, Geometrixx wants to open new branches across the world: one for clothes in France called Geometrixx Clothes and another one for sports equipment in New York called Geometrixx Sport.
 
@@ -56,10 +60,6 @@ To do this, you must follow these 4 steps:
 * Create an organizational unit
 * Create a security group and a product profile
 * Create users
-
->[!NOTE]
->
->Only users with administration rights have access to the configuration of users and security groups in the Admin console and in Adobe Campaign.
 
 ## Step 1: Create a geographical unit
 

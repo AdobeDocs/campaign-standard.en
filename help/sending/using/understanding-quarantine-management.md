@@ -3,13 +3,13 @@ title: Understanding quarantine management
 seo-title: Understanding quarantine management
 description: Understanding quarantine management
 seo-description: Learn how to optimize your deliverability with quarantine management.
-uuid: 590e0ef5-a321-4b9c-beb5-cba27b30444d
+uuid: 33042986-c00a-43a7-aea6-a49e56d17eda
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/sending/using/understanding-quarantine-management
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-30T04 53 59.824-0400
-cq-lastreplicated: 2018-07-23T06 02 30.472-0400
+cq-lastmodified: 2018-09-08T08 23 12.118-0400
+cq-lastreplicated: 2018-09-07T15 11 43.536-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 cq-template: /apps/help/templates/article-3
-discoiquuid: 0ec22290-ab76-45c2-b79e-a161a551f6cf
-firstPublishExternalDate: 2018-07-23T06:02:30.437-0400
+discoiquuid: df741068-aee1-42dd-be49-0e25f7d8aa78
+firstPublishExternalDate: 2018-09-07T15:11:43.427-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 23.575-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Understanding quarantine management
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:02:30.437-0400
-lochandoffdate: 2018-07-30T04 53 59.824-0400
+lastPublishExternalDate: 2018-09-07T15:11:43.427-0400
+lochandoffdate: 2018-09-08T08 23 12.118-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Understanding quarantine management
-publishexternaldate: 2018-07-23T06 02 30.437-0400
+publishexternaldate: 2018-09-07T15 11 43.427-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/sending/using/understanding-quarantine-management.html
-sha1: 6d628d60fd8bb9072123548aaf39d5a746e16bba
-topicBrowsingSortDate: 2018-07-23T06:02:30.437-0400
+sha1: 2b594ca6ecc0b6c76154ee58868029bd5bebc13b
+topicBrowsingSortDate: 2018-09-07T15:11:43.427-0400
 index: y
 internal: n
 snippet: y

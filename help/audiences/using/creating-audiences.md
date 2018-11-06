@@ -3,13 +3,13 @@ title: Creating audiences
 seo-title: Creating audiences
 description: Creating audiences
 seo-description: Learn how to create audiences in Adobe Campaign.
-uuid: 6498d8c9-9c31-492f-8774-775cbd683182
+uuid: ac44a64c-e2c9-4e1a-b19a-a122ad7cefba
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/audiences/using/creating-audiences
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 13.574-0400
-cq-lastreplicated: 2018-07-23T05 55 25.569-0400
+cq-lastmodified: 2018-09-10T07 22 54.830-0400
+cq-lastreplicated: 2018-09-07T14 46 47.974-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 cq-template: /apps/help/templates/article-3
-discoiquuid: f7e11002-97d2-49c4-a39a-dcaced39f7e2
-firstPublishExternalDate: 2018-07-23T05:55:25.491-0400
+discoiquuid: c117d128-8120-4b51-bc1f-92a9f945bcfc
+firstPublishExternalDate: 2018-09-07T14:46:45.497-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 46.243-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Creating audiences
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:55:25.491-0400
-lochandoffdate: 2018-07-25T09 29 13.573-0400
+lastPublishExternalDate: 2018-09-07T14:46:45.497-0400
+lochandoffdate: 2018-09-10T07 22 54.828-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Creating audiences
-publishexternaldate: 2018-07-23T05 55 25.491-0400
+publishexternaldate: 2018-09-07T14 46 45.497-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/audiences/using/creating-audiences.html
-sha1: a646b6bdb4e5ef01d35536ba59d45202aea1097e
-topicBrowsingSortDate: 2018-07-23T05:55:25.491-0400
+sha1: 7ffc7eb6e8e3e39da745ab7787dcf18cf4927129
+topicBrowsingSortDate: 2018-09-07T14:46:45.497-0400
 index: y
 internal: n
 snippet: y
@@ -141,4 +141,29 @@ There are different ways to edit an audience depending on the audience type:
 
 * To edit a **List** or **File** audience, edit the workflow from which it was created and modify the **Save audience** activity. Start the workflow so that the audience is modified.
 * To edit an **Experience Cloud** audience, refer to the [Importing/Exporting audiences with People core service](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md) section.
+
+## Deleting audiences
+
+There are two ways to delete one or multiple audiences. First you can add an expiration date to your audience
+
+To do so:
+
+1. Access one of your audience.
+1. Click the  ![](assets/edit_darkgrey-24px.png)
+
+   button to access your audience's configuration.
+
+   ![](assets/audience_delete_2.png)
+
+1. In the **Expires on** field, add an expiration date to your audience.
+
+   ![](assets/audience_delete_3.png)
+
+1. Click **Confirm** then **Save**.
+
+Your expiration date is now configured. As soon as this date is reached, your audience will be automatically deleted.
+
+Or if you need to delete an audience, you can simply select one or several audiences then click the **Delete element** button.
+
+![](assets/audience_delete_1.png)
 

@@ -3,13 +3,13 @@ title: Query
 seo-title: Query
 description: Query
 seo-description: The Query activity allows you to filter and extract a population of elements from the Adobe Campaign database.
-uuid: a0aead90-2ffc-4c6e-88e8-5f2f27ae15e4
+uuid: 2bcd3d90-8040-47c7-9e07-98df52a47218
 content-encoding: UTF-8
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/query
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 20.897-0400
-cq-lastreplicated: 2018-07-23T05 56 56.693-0400
+cq-lastmodified: 2018-09-10T07 23 57.241-0400
+cq-lastreplicated: 2018-09-07T14 50 45.223-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: e371e41d-001f-48a4-a2fa-e271cd204e22
-firstPublishExternalDate: 2018-07-23T05:56:56.646-0400
+discoiquuid: e38cd35a-0b17-490f-a582-70e4ce63c462
+firstPublishExternalDate: 2018-09-07T14:50:42.905-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 35.222-0400
@@ -26,15 +26,16 @@ jcr-createdby: admin
 jcr-description: Query
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:56:56.646-0400
-lochandoffdate: 2018-07-25T09 29 20.897-0400
+lastPublishExternalDate: 2018-09-07T14:50:42.905-0400
+lochandoffdate: 2018-09-10T07 23 57.239-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
+moreHelpPaths: /content/help/en/campaign/standard/automating/morehelp/targeting-activities;/content/help/en/campaign/standard/automating/morehelp/targeting-activities
 navTitle: Query
-publishexternaldate: 2018-07-23T05 56 56.646-0400
+publishexternaldate: 2018-09-07T14 50 42.905-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/query.html
-sha1: b954e0042a7d1ed7ad03158d683adf65c2518f51
-topicBrowsingSortDate: 2018-07-23T05:56:56.646-0400
+sha1: b06d00984933753e58951210be0b81ba900166ea
+topicBrowsingSortDate: 2018-09-07T14:50:42.905-0400
 index: y
 internal: n
 snippet: y

@@ -3,13 +3,13 @@ title: Managing groups and users
 seo-title: Managing groups and users
 description: Managing groups and users
 seo-description: Learn how to create security groups and manage users.
-uuid: eeda140c-c875-416c-a3c6-4fa864e46d15
+uuid: 76a2971d-5b2a-4c0f-832d-4b7fb2985c53
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/managing-groups-and-users
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 15.334-0400
-cq-lastreplicated: 2018-07-23T05 53 26.789-0400
+cq-lastmodified: 2018-09-10T07 23 08.323-0400
+cq-lastreplicated: 2018-09-07T14 41 36.438-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: administration
 content-type: reference
 topic-tags: users-e-security
 cq-template: /apps/help/templates/article-3
-discoiquuid: 4d08af75-3c37-422a-bb08-b0801f510173
-firstPublishExternalDate: 2018-07-23T05:53:26.728-0400
+discoiquuid: cd6ffca7-6fd6-4817-b0be-12bcd97cac6b
+firstPublishExternalDate: 2018-09-07T14:41:35.914-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-02-16T08 04 43.386-0500
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Managing groups and users
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:53:26.728-0400
-lochandoffdate: 2018-07-25T09 29 15.333-0400
+lastPublishExternalDate: 2018-09-07T14:41:35.914-0400
+lochandoffdate: 2018-09-10T07 23 08.321-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Managing groups and users
-publishexternaldate: 2018-07-23T05 53 26.728-0400
+publishexternaldate: 2018-09-07T14 41 35.914-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/managing-groups-and-users.html
-sha1: 25e0cd1af43118f41434dcbc25c05e8d88fef77b
-topicBrowsingSortDate: 2018-07-23T05:53:26.728-0400
+sha1: cdee1a8a4da7ade2c3f58872914adacd6a434c8f
+topicBrowsingSortDate: 2018-09-07T14:41:35.914-0400
 index: y
 internal: n
 snippet: y

@@ -3,13 +3,13 @@ title: Scheduler
 seo-title: Scheduler
 description: Scheduler
 seo-description: The Scheduler activity allows you to schedule when a workflow or an activity is started.
-uuid: dd06493c-ab7d-4635-a398-076a7b5bcb67
+uuid: 8820a6b1-0977-4917-9f58-b2d280e5c38a
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/scheduler
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 37.380-0400
-cq-lastreplicated: 2018-07-23T05 57 15.400-0400
+cq-lastmodified: 2018-09-10T07 26 26.164-0400
+cq-lastreplicated: 2018-09-07T15 00 32.277-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: 07edfdda-f7f2-4050-b359-5b1ab2fca551
-firstPublishExternalDate: 2018-07-23T05:57:15.363-0400
+discoiquuid: 978f9040-62e8-4d69-ab99-4f250b177737
+firstPublishExternalDate: 2018-09-07T15:00:25.517-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 24.895-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Scheduler
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:57:15.363-0400
-lochandoffdate: 2018-07-25T09 29 37.380-0400
+lastPublishExternalDate: 2018-09-07T15:00:25.517-0400
+lochandoffdate: 2018-09-10T07 26 26.163-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Scheduler
-publishexternaldate: 2018-07-23T05 57 15.363-0400
+publishexternaldate: 2018-09-07T15 00 25.517-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/scheduler.html
-sha1: c8e39240662c984320ddb6e904c8325b12d8b86f
-topicBrowsingSortDate: 2018-07-23T05:57:15.363-0400
+sha1: 3af92aa56f867d4381f555123e5c24d6a9d2fb74
+topicBrowsingSortDate: 2018-09-07T15:00:25.517-0400
 index: y
 internal: n
 snippet: y
@@ -89,7 +89,7 @@ When building your workflow, only use one **Scheduler** activity per branch and 
 
 1. In the **Execution options** tab, set up the time zone for your scheduler in the **Time zone** field. This allows you to start your workflow at a specific time zone, otherwise the workflow will run in server time zone by default.
 
-   For more information on sending delivery depending on the recipient's time zone, refer to this [section](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md) or this [example](../../automating/using/mobile-app-delivery.md#sending-a-recurring-push-notification-with-a-workflow) of a recurring workflow.
+   For more information on sending delivery depending on the recipient's time zone, refer to this [section](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md) or this [example](../../automating/using/push-notification-delivery.md#sending-a-recurring-push-notification-with-a-workflow) of a recurring workflow.
 
 1. Confirm the configuration of your activity and save your workflow.
 

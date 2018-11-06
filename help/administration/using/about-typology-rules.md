@@ -3,14 +3,13 @@ title: About typology rules
 seo-title: About typology rules
 description: About typology rules
 seo-description: Discover how typology rules work in Adobe Campaign.
-uuid: a78f9607-25e9-491d-a0a9-ea90522bd00f
+uuid: fae59469-0f72-4009-8f8d-968d2542af67
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/about-typology-rules
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 27.506-0400
-cq-lastmodifiedby: mancini
-cq-lastreplicated: 2018-07-23T05 53 45.237-0400
+cq-lastmodified: 2018-09-10T07 25 29.009-0400
+cq-lastreplicated: 2018-09-07T14 58 35.801-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -18,8 +17,8 @@ audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
 cq-template: /apps/help/templates/article-3
-discoiquuid: 3ef2dd54-960d-401c-bb14-9ec09975c940
-firstPublishExternalDate: 2018-07-23T05:53:45.197-0400
+discoiquuid: 454b7983-5d25-489c-b3b9-f93a039acaf4
+firstPublishExternalDate: 2018-09-07T14:58:33.940-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-02-16T08 02 15.464-0500
@@ -27,16 +26,15 @@ jcr-createdby: admin
 jcr-description: About typology rules
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:53:45.197-0400
-lochandoffdate: 2018-07-25T09 29 27.506-0400
+lastPublishExternalDate: 2018-09-07T14:58:33.940-0400
+lochandoffdate: 2018-09-10T07 25 29.006-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
-moreHelpPaths: /content/help/en/campaign/standard/administration/morehelp/working-with-typology-rules;/content/help/en/campaign/standard/administration/morehelp/working-with-typology-rules
 navTitle: About typology rules
-publishexternaldate: 2018-07-23T05 53 45.197-0400
+publishexternaldate: 2018-09-07T14 58 33.940-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/about-typology-rules.html
-sha1: 95d930f2faec72fccee49048c0d0ae9cc4a55c27
-topicBrowsingSortDate: 2018-07-23T05:53:45.197-0400
+sha1: 41eccd1fe593a6800d035aaa0eaaacba16522d4d
+topicBrowsingSortDate: 2018-09-07T14:58:33.940-0400
 index: y
 internal: n
 snippet: y

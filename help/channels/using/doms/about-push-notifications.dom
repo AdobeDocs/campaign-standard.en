@@ -1,49 +1,49 @@
 <html>
  <head>
-  <meta content="" name="jcr:versionHistory" />
+  <meta content="476a0fdd-3dad-4ad7-824f-a59e3b76b5b8" name="jcr:predecessors" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="audience:channels" name="primaryAudienceTag" />
   <meta content="en_us" name="jcr:language" />
-  <meta content="https://helpx.adobe.com/campaign/standard/channels/using/about-push-notifications.html" name="publishExternalURL" />
-  <meta content="Discover the main specificities of the push notification channel in Adobe Campaign." name="seoDescription" />
   <meta content="admin" name="jcr:createdBy" />
   <meta content="About push notifications" name="jcr:description" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="2018-07-23T06:02:49.153-0400" name="lastPublishExternalDate" />
-  <meta content="2018-07-23T06:02:49.182-0400" name="cq:lastReplicated" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="476a0fdd-3dad-4ad7-824f-a59e3b76b5b8" name="jcr:predecessors" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="2018-07-30T04:53:54.893-0400" name="locHandOffDate" />
-  <meta content="About push notifications" name="jcr:title" />
-  <meta content="2018-07-23T06:02:49.153-0400" name="firstPublishExternalDate" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="2018-07-30T04:53:54.893-0400" name="cq:lastModified" />
-  <meta content="About push notifications" name="navTitle" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:channels;content_type:reference;topic_tags:push-notifications" name="cq:tags" />
-  <meta content="2018-07-23T06:02:49.153-0400" name="topicBrowsingSortDate" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="audience:channels" name="primaryAudienceTag" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="2018-07-23T06:02:49.153-0400" name="publishExternalDate" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="false" name="isReadyForLocalization" />
+  <meta content="" name="jcr:versionHistory" />
   <meta content="4563a02a-5915-4de1-9f45-b0000c1fbdf8" name="jcr:uuid" />
-  <meta content="sauviat" name="contentOwner" />
+  <meta content="2018-09-08T08:23:08.894-0400" name="cq:lastModified" />
+  <meta content="2018-09-07T15:11:51.976-0400" name="cq:lastReplicated" />
   <meta content="light" name="heroGradient" />
+  <meta content="About push notifications" name="jcr:title" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:channels;content_type:reference;topic_tags:push-notifications" name="cq:tags" />
+  <meta content="About push notifications" name="navTitle" />
+  <meta content="Discover the main specificities of the push notification channel in Adobe Campaign." name="seoDescription" />
+  <meta content="2018-09-08T08:23:08.894-0400" name="locHandOffDate" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="2018-09-07T15:11:51.930-0400" name="lastPublishExternalDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
   <meta content="2018-03-15T09:01:19.896-0400" name="jcr:created" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2018-09-07T15:11:51.930-0400" name="publishExternalDate" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="https://helpx.adobe.com/campaign/standard/channels/using/about-push-notifications.html" name="publishExternalURL" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-09-07T15:11:51.930-0400" name="topicBrowsingSortDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-09-07T15:11:51.930-0400" name="firstPublishExternalDate" />
+  <meta content="false" name="isReadyForLocalization" />
  </head>
  <body>
   <p>Adobe Campaign allows you to send personalized and segmented push notifications to iOS and Android mobile devices.</p> 
-  <p>These messages are received on mobile applications that you set up in Adobe Campaign by leveraging the Experience Cloud Mobile SDK. See <a href="../../administration/using/configuring-mobile-app-channel.md">Configuring mobile app channel</a>.</p> 
+  <p>These messages are received on mobile applications that you set up in Adobe Campaign by leveraging the Experience Cloud Mobile SDK. See <a href="../../administration/using/configuring-a-mobile-application-using-sdk-v4.md">Configuring mobile app channel</a>.</p> 
   <p>The user process in Adobe Campaign is as follows: </p> 
   <ol>
    <li><p> <a href="../../channels/using/creating-and-sending-a-push-notification.md" target="_blank">Creating and sending a push notification</a></p> </li>
    <li><p> <a href="../../channels/using/customizing-a-push-notification.md" target="_blank">Customizing a push notification</a></p> </li>
-   <li><p> <a href="../../sending/using/confirming-send.md">Sending the push notification</a></p> </li>
+   <li><p> <a href="../../sending/using/confirming-the-send.md">Sending the push notification</a></p> </li>
   </ol>
   <p>Two types of push notification are available in Adobe Campaign:</p> 
   <ul>

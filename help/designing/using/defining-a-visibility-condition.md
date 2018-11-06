@@ -3,13 +3,13 @@ title: Defining a visibility condition
 seo-title: Defining a visibility condition
 description: Defining a visibility condition
 seo-description: Make a web page element visible only if a certain condition is respected.
-uuid: 777f6d3c-5bdb-49e3-880c-cebb70822bcc
+uuid: cecf9189-7f75-44b6-9954-f087c096dbf6
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/defining-a-visibility-condition
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-26T02 53 58.463-0400
-cq-lastreplicated: 2018-07-23T08 13 55.646-0400
+cq-lastmodified: 2018-09-10T07 25 43.553-0400
+cq-lastreplicated: 2018-09-07T15 04 12.903-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: designing
 content-type: reference
 topic-tags: defining-conditional-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: 2d69a12a-4ef5-4660-91cb-9d05e25e6b76
-firstPublishExternalDate: 2018-07-23T05:58:43.265-0400
+discoiquuid: 542c1353-3a66-4ab8-bd67-fdbdaba13bb2
+firstPublishExternalDate: 2018-09-07T15:04:10.597-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 47.878-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Defining a visibility condition
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T08:13:55.610-0400
-lochandoffdate: 2018-07-26T02 53 58.463-0400
+lastPublishExternalDate: 2018-09-07T15:04:10.597-0400
+lochandoffdate: 2018-09-10T07 25 43.552-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Defining a visibility condition
-publishexternaldate: 2018-07-23T08 13 55.610-0400
+publishexternaldate: 2018-09-07T15 04 10.597-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/defining-a-visibility-condition.html
-sha1: 6612438356d261204e982b555d8eb926315496f9
-topicBrowsingSortDate: 2018-07-23T08:13:55.610-0400
+sha1: 106108d3cd5c3fa75446e03453d0cc03706bea9e
+topicBrowsingSortDate: 2018-09-07T15:04:10.597-0400
 index: y
 internal: n
 snippet: y

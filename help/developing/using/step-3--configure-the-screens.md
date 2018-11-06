@@ -1,15 +1,15 @@
 ---
-title: "Step 3: Configure the screens"
-seo-title: "Step 3: Configure the screens"
-description: "Step 3: Configure the screens"
+title: Step 3: Configure the screens
+seo-title: Step 3: Configure the screens
+description: Step 3: Configure the screens
 seo-description: Learn how to define new Adobe Campaign screens based on the resource data structure.
-uuid: 7453bf8c-a4d4-49b2-ac28-dadf385acb00
+uuid: c5922afb-6a22-4175-9e75-5675b78ce046
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/developing/using/step-3--configure-the-screens
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-26T02 53 25.394-0400
-cq-lastreplicated: 2018-07-23T05 59 10.019-0400
+cq-lastmodified: 2018-09-10T02 18 47.884-0400
+cq-lastreplicated: 2018-09-07T14 52 37.969-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 cq-template: /apps/help/templates/article-3
-discoiquuid: b5a5e7a1-e43f-4712-9d6f-a2913558680d
-firstPublishExternalDate: 2018-07-23T05:59:09.975-0400
+discoiquuid: 2951b754-9e3c-4e95-8457-8cf404abb106
+firstPublishExternalDate: 2018-09-07T14:52:35.929-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 03 04.102-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Step 3  Configure the screens
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:59:09.975-0400
-lochandoffdate: 2018-07-26T02 53 25.393-0400
+lastPublishExternalDate: 2018-09-07T14:52:35.929-0400
+lochandoffdate: 2018-09-10T02 18 47.883-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
-navTitle: "Step 3: Configure the screens"
-publishexternaldate: 2018-07-23T05 59 09.975-0400
+navTitle: Step 3: Configure the screens
+publishexternaldate: 2018-09-07T14 52 35.929-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/step-3--configure-the-screens.html
-sha1: 54e565e4707ef7c67226aefa8ce7818d2fb26c74
-topicBrowsingSortDate: 2018-07-23T05:59:09.975-0400
+sha1: 3f81f9e5e760e47e1b4cd0025a90365e6764cfad
+topicBrowsingSortDate: 2018-09-07T14:52:35.929-0400
 index: y
 internal: n
 snippet: y

@@ -1,40 +1,40 @@
 <html> 
  <head> 
+  <meta content="2018-09-10T07:27:27.189-0400" name="cq:lastModified" /> 
   <meta content="en_us" name="jcr:language" /> 
-  <meta content="2018-07-25T09:29:46.968-0400" name="locHandOffDate" /> 
-  <meta content="2ab95da2-a6d8-4f2f-96f1-30a70b56c40e" name="jcr:uuid" /> 
-  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
-  <meta content="sauviat" name="contentOwner" /> 
-  <meta content="2018-07-23T05:57:23.276-0400" name="firstPublishExternalDate" /> 
-  <meta content="Activate" name="cq:lastReplicationAction" /> 
-  <meta content="sauviat" name="cq:lastReplicatedBy" /> 
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
-  <meta content="true" name="jcr:isCheckedOut" /> 
-  <meta content="Direct mail delivery" name="navTitle" /> 
-  <meta content="/etc/designs/help" name="cq:designPath" /> 
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
-  <meta content="2018-07-23T05:57:23.276-0400" name="lastPublishExternalDate" /> 
-  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
-  <meta content="false" name="isReadyForLocalization" /> 
-  <meta content="2018-07-23T05:57:23.276-0400" name="topicBrowsingSortDate" /> 
-  <meta content="audience:automating" name="primaryAudienceTag" /> 
-  <meta content="Direct mail delivery" name="jcr:description" /> 
-  <meta content="2018-07-23T05:57:23.276-0400" name="publishExternalDate" /> 
   <meta content="admin" name="jcr:createdBy" /> 
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
-  <meta content="2018-07-25T09:29:46.968-0400" name="cq:lastModified" /> 
-  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/direct-mail-delivery.html" name="publishExternalURL" /> 
-  <meta content="2018-07-23T05:57:23.315-0400" name="cq:lastReplicated" /> 
-  <meta content="Direct mail delivery" name="jcr:title" /> 
-  <meta content="2018-03-15T09:02:38.997-0400" name="jcr:created" /> 
-  <meta content="" name="jcr:primaryType" /> 
-  <meta content="light" name="heroGradient" /> 
-  <meta content="The Direct mail delivery activity allows you to configure sending a single send direct mail or a recurring direct mail in a workflow." name="seoDescription" /> 
-  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2018-09-07T15:07:12.705-0400" name="publishExternalDate" /> 
+  <meta content="sauviat" name="contentOwner" /> 
   <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:channel-activities" name="cq:tags" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
+  <meta content="2018-09-07T15:07:12.705-0400" name="firstPublishExternalDate" /> 
+  <meta content="2018-09-10T07:27:27.187-0400" name="locHandOffDate" /> 
   <meta content="" name="jcr:baseVersion" /> 
-  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
   <meta content="d6c64f1c-48e9-4dc6-8b2b-c926573f0aa6" name="jcr:predecessors" /> 
+  <meta content="2018-09-07T15:07:12.705-0400" name="topicBrowsingSortDate" /> 
+  <meta content="2018-09-07T15:07:13.667-0400" name="cq:lastReplicated" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2018-03-15T09:02:38.997-0400" name="jcr:created" /> 
+  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/direct-mail-delivery.html" name="publishExternalURL" /> 
+  <meta content="sauviat" name="cq:lastReplicatedBy" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="Direct mail delivery" name="jcr:title" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="Direct mail delivery" name="jcr:description" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="Direct mail delivery" name="navTitle" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="The Direct mail delivery activity allows you to configure sending a single send direct mail or a recurring direct mail in a workflow." name="seoDescription" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-09-07T15:07:12.705-0400" name="lastPublishExternalDate" /> 
+  <meta content="2ab95da2-a6d8-4f2f-96f1-30a70b56c40e" name="jcr:uuid" /> 
+  <meta content="audience:automating" name="primaryAudienceTag" /> 
  </head> 
  <body> 
   <h2>Description</h2> 

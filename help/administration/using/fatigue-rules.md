@@ -3,13 +3,13 @@ title: Fatigue rules
 seo-title: Fatigue rules
 description: Fatigue rules
 seo-description: Create fatigue rules to manage over-communication with profiles.
-uuid: 0fa8f8b0-3200-4817-b3cf-6125125f5f65
+uuid: 186c18ad-453e-4de5-aed7-36ecf7260a04
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/fatigue-rules
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 29.282-0400
-cq-lastreplicated: 2018-07-23T05 53 50.777-0400
+cq-lastmodified: 2018-09-10T07 25 46.639-0400
+cq-lastreplicated: 2018-09-07T15 00 21.747-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
 cq-template: /apps/help/templates/article-3
-discoiquuid: a9d2a6a5-6233-497c-80eb-bb3578554aee
-firstPublishExternalDate: 2018-07-23T05:53:50.713-0400
+discoiquuid: 093dbd00-5275-452c-8026-01ba67e5739e
+firstPublishExternalDate: 2018-09-07T15:00:18.579-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-02-16T08 04 46.367-0500
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Fatigue rules
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:53:50.713-0400
-lochandoffdate: 2018-07-25T09 29 29.281-0400
+lastPublishExternalDate: 2018-09-07T15:00:18.579-0400
+lochandoffdate: 2018-09-10T07 25 46.637-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Fatigue rules
-publishexternaldate: 2018-07-23T05 53 50.713-0400
+publishexternaldate: 2018-09-07T15 00 18.579-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/fatigue-rules.html
-sha1: f96a55461fa2973551d274fec676468d0fa03ee9
-topicBrowsingSortDate: 2018-07-23T05:53:50.713-0400
+sha1: 9b3e1a16885c23c89303c26dbf32664e3d36a0a1
+topicBrowsingSortDate: 2018-09-07T15:00:18.579-0400
 index: y
 internal: n
 snippet: y
@@ -188,7 +188,7 @@ Fatigue rules are defined in n-day rolling periods. The period is configured in 
 
 When the rule executes, both past deliveries and scheduled deliveries are taken into account. This guarantees that, on a given sliding period, the threshold is never exceeded.
 
-For example, if you define a 48-hour period, the system will be looking 48 hours **before the contact date** and 48 hours **after the contact date**. So, the selected period is doubled to enable the integration of future deliveries as well as previous ones.
+For example, if you define a 48-hour period, the system will be looking 48 hours **before the contact date ** and 48 hours **after the contact date**. So, the selected period is doubled to enable the integration of future deliveries as well as previous ones.
 
 To restrict the deliveries taken into account to a 2-week period, enter **Day** and **7** or 1 week in the **Sliding period** section. Deliveries sent up to 7 days before the delivery date and scheduled up to 7 days after the delivery date on which the rule is applied will be taken into account in the calculation.
 

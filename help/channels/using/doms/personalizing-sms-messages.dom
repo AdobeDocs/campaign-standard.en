@@ -1,40 +1,40 @@
 <html> 
  <head> 
-  <meta content="en_us" name="jcr:language" /> 
   <meta content="admin" name="jcr:createdBy" /> 
-  <meta content="0fa8fb93-b610-40cd-b66b-9e91b3e5a63c" name="jcr:uuid" /> 
-  <meta content="2018-07-23T07:30:32.437-0400" name="jcr:created" /> 
-  <meta content="2018-07-30T04:53:53.565-0400" name="locHandOffDate" /> 
-  <meta content="2018-07-30T04:53:53.566-0400" name="cq:lastModified" /> 
-  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
-  <meta content="Discover the specificity of the transliteration options when personalizing SMS messages." name="seoDescription" /> 
-  <meta content="" name="jcr:baseVersion" /> 
-  <meta content="" name="jcr:primaryType" /> 
-  <meta content="2018-07-23T06:02:47.192-0400" name="firstPublishExternalDate" /> 
-  <meta content="sauviat" name="cq:lastReplicatedBy" /> 
-  <meta content="cd6575be-9127-4d6c-9ff2-2968de8c4656" name="jcr:predecessors" /> 
-  <meta content="" name="jcr:versionHistory" /> 
-  <meta content="Activate" name="cq:lastReplicationAction" /> 
-  <meta content="2018-07-23T06:02:47.241-0400" name="cq:lastReplicated" /> 
-  <meta content="audience:channels" name="primaryAudienceTag" /> 
-  <meta content="https://helpx.adobe.com/campaign/standard/channels/using/personalizing-sms-messages.html" name="publishExternalURL" /> 
-  <meta content="true" name="jcr:isCheckedOut" /> 
-  <meta content="2018-07-23T06:02:47.192-0400" name="lastPublishExternalDate" /> 
-  <meta content="false" name="isReadyForLocalization" /> 
-  <meta content="2018-07-23T06:02:47.192-0400" name="topicBrowsingSortDate" /> 
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
-  <meta content="Personalizing SMS messages" name="navTitle" /> 
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
-  <meta content="/etc/designs/help" name="cq:designPath" /> 
-  <meta content="sauviat" name="contentOwner" /> 
-  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
-  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2018-09-07T15:11:49.380-0400" name="topicBrowsingSortDate" /> 
   <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:channels;content_type:reference;topic_tags:sms-messages" name="cq:tags" /> 
-  <meta content="2018-07-23T06:02:47.192-0400" name="publishExternalDate" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2018-09-07T15:11:49.427-0400" name="cq:lastReplicated" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="https://helpx.adobe.com/campaign/standard/channels/using/personalizing-sms-messages.html" name="publishExternalURL" /> 
+  <meta content="2018-09-07T15:11:49.380-0400" name="lastPublishExternalDate" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="cd6575be-9127-4d6c-9ff2-2968de8c4656" name="jcr:predecessors" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
   <meta content="Personalizing SMS messages" name="jcr:description" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-09-08T08:23:08.058-0400" name="locHandOffDate" /> 
+  <meta content="Discover the specificity of the transliteration options when personalizing SMS messages." name="seoDescription" /> 
   <meta content="light" name="heroGradient" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2018-09-07T15:11:49.380-0400" name="publishExternalDate" /> 
+  <meta content="Personalizing SMS messages" name="navTitle" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
+  <meta content="2018-09-08T08:23:08.058-0400" name="cq:lastModified" /> 
   <meta content="Personalizing SMS messages" name="jcr:title" /> 
+  <meta content="0fa8fb93-b610-40cd-b66b-9e91b3e5a63c" name="jcr:uuid" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2018-09-07T15:11:49.380-0400" name="firstPublishExternalDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-07-23T07:30:32.437-0400" name="jcr:created" /> 
+  <meta content="audience:channels" name="primaryAudienceTag" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:channels;content_type:reference;topic_tags:sms-messages" name="cq:tags" /> 
+  <meta content="sauviat" name="cq:lastReplicatedBy" /> 
+  <meta content="sauviat" name="contentOwner" /> 
  </head> 
  <body> 
   <p>The principles for personalizing SMS messages are the same as those for <a href="../../designing/using/inserting-a-personalization-field.md">emails</a>. You must nevertheless be aware of the transliteration options as these can impact the encoding and therefore the number of SMS messages to send. For more on this, refer to the <a href="../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration">Transliteration and SMS length</a> section.</p> 

@@ -3,13 +3,13 @@ title: Managing landing page structure and style
 seo-title: Managing landing page structure and style
 description: Managing landing page structure and style
 seo-description: Learn how to manage the different HTML content elements and overall styling in a landing page.
-uuid: 989626a9-60c2-44c3-bc49-34abec5da3d1
+uuid: c5555465-20c2-44bd-88ee-c25481456a0e
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/managing-landing-page-structure-and-style
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-26T02 53 32.726-0400
-cq-lastreplicated: 2018-07-23T08 13 32.304-0400
+cq-lastmodified: 2018-09-10T07 23 54.299-0400
+cq-lastreplicated: 2018-09-07T14 51 20.413-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: designing
 content-type: reference
 topic-tags: editing-landing-page-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: cf615f32-3dc4-4eb3-9dda-e261a2d28c25
-firstPublishExternalDate: 2018-07-23T05:58:03.895-0400
+discoiquuid: f45a9257-9925-4e0d-96ce-880554e45098
+firstPublishExternalDate: 2018-09-07T14:51:18.148-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-07-23T07 30 16.047-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Managing landing page structure and style
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T08:13:32.196-0400
-lochandoffdate: 2018-07-26T02 53 32.725-0400
+lastPublishExternalDate: 2018-09-07T14:51:18.148-0400
+lochandoffdate: 2018-09-10T07 23 54.298-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Managing landing page structure and style
-publishexternaldate: 2018-07-23T08 13 32.196-0400
+publishexternaldate: 2018-09-07T14 51 18.148-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/managing-landing-page-structure-and-style.html
-sha1: 98510f42a1860c020d99491d320fa46aaa31c8f8
-topicBrowsingSortDate: 2018-07-23T08:13:32.196-0400
+sha1: 93a8003285b6a02bfed595f1e7c64d9132d31493
+topicBrowsingSortDate: 2018-09-07T14:51:18.148-0400
 index: y
 internal: n
 snippet: y

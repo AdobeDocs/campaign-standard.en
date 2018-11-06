@@ -3,13 +3,13 @@ title: Integrating with Adobe solutions
 seo-title: Integrating with Adobe solutions
 description: Integrating with Adobe solutions
 seo-description: Learn how integrations with Adobe Experience Cloud core services and solutions such as Adobe Analytics and Experience Manager can improve your Adobe Campaign strategy with deep insights and convenient content management.
-uuid: 28e27901-1eb1-4400-ba40-cd818aa62d2b
+uuid: 403310de-ab5e-47e0-92e8-f46a997f35e5
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/start/using/integrating-with-adobe-solutions
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-27T03 26 26.771-0400
-cq-lastreplicated: 2018-07-23T06 00 39.296-0400
+cq-lastmodified: 2018-09-08T08 23 03.100-0400
+cq-lastreplicated: 2018-09-07T15 07 40.739-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: start
 content-type: reference
 topic-tags: about-adobe-campaign
 cq-template: /apps/help/templates/article-3
-discoiquuid: 70728e03-bc71-4e0e-bf3c-2aa76f296f42
-firstPublishExternalDate: 2018-07-23T06:00:39.225-0400
+discoiquuid: 15cb03a6-516b-4849-b38d-fbffaf57819c
+firstPublishExternalDate: 2018-09-07T15:07:40.061-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 07.632-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Integrating with Adobe solutions
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:00:39.225-0400
-lochandoffdate: 2018-07-27T03 26 26.769-0400
+lastPublishExternalDate: 2018-09-07T15:07:40.061-0400
+lochandoffdate: 2018-09-08T08 23 03.100-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Integrating with Adobe solutions
-publishexternaldate: 2018-07-23T06 00 39.225-0400
+publishexternaldate: 2018-09-07T15 07 40.061-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/start/using/integrating-with-adobe-solutions.html
-sha1: 6d974d675ea50792b1be423b9cf062d31a37f5a6
-topicBrowsingSortDate: 2018-07-23T06:00:39.225-0400
+sha1: ccf1afb64016fc283d30bbc2ff4528e0c2830e6d
+topicBrowsingSortDate: 2018-09-07T15:07:40.061-0400
 index: y
 internal: n
 snippet: y

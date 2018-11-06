@@ -3,13 +3,13 @@ title: Campaign orchestration
 seo-title: Campaign orchestration
 description: Campaign orchestration
 seo-description: With Adobe Campaign, you can control the entire process of creating, executing and tracking cross channel campaigns, and send personalized messages.
-uuid: d8b8b694-ba0f-4796-9238-506d4356b95d
+uuid: 99349a75-fe8e-4ae2-8b4f-2ad672c48eca
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/start/using/campaign-orchestration
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-27T03 26 13.715-0400
-cq-lastreplicated: 2018-07-23T06 00 31.082-0400
+cq-lastmodified: 2018-09-08T08 23 01.881-0400
+cq-lastreplicated: 2018-09-07T15 04 26.612-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: start
 content-type: reference
 topic-tags: about-adobe-campaign
 cq-template: /apps/help/templates/article-3
-discoiquuid: 402d3ea6-d516-4ac8-8e76-e4b20797818d
-firstPublishExternalDate: 2018-07-23T06:00:30.910-0400
+discoiquuid: f455329e-d5d8-477e-9ee8-7eadc35af367
+firstPublishExternalDate: 2018-09-07T15:04:24.669-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 45.387-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Campaign orchestration
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:00:30.910-0400
-lochandoffdate: 2018-07-27T03 26 13.714-0400
+lastPublishExternalDate: 2018-09-07T15:04:24.669-0400
+lochandoffdate: 2018-09-08T08 23 01.881-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Campaign orchestration
-publishexternaldate: 2018-07-23T06 00 30.910-0400
+publishexternaldate: 2018-09-07T15 04 24.669-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/start/using/campaign-orchestration.html
-sha1: 5a295e6a97474ca74fd0015d86161cbc726afabe
-topicBrowsingSortDate: 2018-07-23T06:00:30.910-0400
+sha1: d0b59ca15e77f5a1ba192e1747745678ee1a60bd
+topicBrowsingSortDate: 2018-09-07T15:04:24.669-0400
 index: y
 internal: n
 snippet: y

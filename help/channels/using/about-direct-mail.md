@@ -3,13 +3,13 @@ title: About direct mail
 seo-title: About direct mail
 description: About direct mail
 seo-description: Discover the main specificities of the direct mail channel in Adobe Campaign.
-uuid: bfbdaf8d-1451-4656-b1be-5cec40dbb053
+uuid: 4b3b7c58-a900-49aa-bd0b-aa370c557dc3
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/about-direct-mail
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-30T04 53 59.383-0400
-cq-lastreplicated: 2018-07-23T06 02 54.440-0400
+cq-lastmodified: 2018-09-08T08 23 16.131-0400
+cq-lastreplicated: 2018-09-07T15 12 23.659-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: channels
 content-type: reference
 topic-tags: direct-mail
 cq-template: /apps/help/templates/article-3
-discoiquuid: 28eca1ca-bafc-4ef3-934d-98139a953195
-firstPublishExternalDate: 2018-07-23T06:02:54.411-0400
+discoiquuid: 9e4106aa-790f-40b0-9b87-f2fc8eec4f19
+firstPublishExternalDate: 2018-09-07T15:12:23.625-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 08.709-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: About direct mail
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:02:54.411-0400
-lochandoffdate: 2018-07-30T04 53 59.383-0400
+lastPublishExternalDate: 2018-09-07T15:12:23.625-0400
+lochandoffdate: 2018-09-08T08 23 16.131-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About direct mail
-publishexternaldate: 2018-07-23T06 02 54.411-0400
+publishexternaldate: 2018-09-07T15 12 23.625-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/about-direct-mail.html
-sha1: dcef54d065cd942bafd9437f8cf60dcb1085671a
-topicBrowsingSortDate: 2018-07-23T06:02:54.411-0400
+sha1: fbd1e535d65a7d217c13c2d38264bc6561645243
+topicBrowsingSortDate: 2018-09-07T15:12:23.625-0400
 index: y
 internal: n
 snippet: y

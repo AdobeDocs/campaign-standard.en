@@ -3,13 +3,13 @@ title: Workflow interface
 seo-title: Workflow interface
 description: Workflow interface
 seo-description: Learn the interface and options to create, edit and execute a workflow.
-uuid: 36ac9314-3216-4f95-bcb1-aa2a509b08a6
+uuid: bfe7e6f6-216a-44b9-b5c1-042debf88d65
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/workflow-interface
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 12.252-0400
-cq-lastreplicated: 2018-07-23T05 56 47.823-0400
+cq-lastmodified: 2018-09-10T07 22 33.778-0400
+cq-lastreplicated: 2018-09-07T14 44 41.605-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 cq-template: /apps/help/templates/article-3
-discoiquuid: f7cdc4e1-348e-4bab-8003-ee54e07fdd5d
-firstPublishExternalDate: 2018-07-23T05:56:47.778-0400
+discoiquuid: 1c13c15f-b494-4d86-9fbe-dc214eafdc03
+firstPublishExternalDate: 2018-09-07T14:44:39.260-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 21.688-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Workflow interface
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:56:47.778-0400
-lochandoffdate: 2018-07-25T09 29 12.252-0400
+lastPublishExternalDate: 2018-09-07T14:44:39.260-0400
+lochandoffdate: 2018-09-10T07 22 33.776-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Workflow interface
-publishexternaldate: 2018-07-23T05 56 47.778-0400
+publishexternaldate: 2018-09-07T14 44 39.260-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/workflow-interface.html
-sha1: f9bb532d35e6d14c48b75bfbbf401e8a7df59170
-topicBrowsingSortDate: 2018-07-23T05:56:47.778-0400
+sha1: 5efc283eb161d2b6c2945c9dac1de00a9588644f
+topicBrowsingSortDate: 2018-09-07T14:44:39.260-0400
 index: y
 internal: n
 snippet: y
@@ -95,33 +95,205 @@ Certain functions are only enabled in the workspace:
 
 Depending on the elements selected in the workspace or on the workflow's execution status, the buttons available in the action bar may vary.
 
-|Button|No selection|Single-selection|Multi-selection|Running|Description|
-|--- |--- |--- |--- |--- |--- |
-||||||Allows you to edit the workflow's properties.|
-||||||Starts the workflow.|
-||||||Pauses the workflow.|
-||||||Interrupts workflow execution. Cannot be resumed from where it was stopped.|
-||||||Restarts the workflow.|
-||||||Opens the workflow's execution log.|
-||||||Enables multi-selection mode. The workflow must be made up of at least two activities.|
-||||||Disables multi-selection mode.|
-||||||Opens the selected transition.|
-||||||Re-enables selection if it has previously been disabled or marked as paused.|
-||||||Pauses the workflow at the selected activity.|
-||||||Disables the activity.|
-||||||Deletes the activities that are selected.|
+<table> 
+ <thead> 
+  <tr> 
+   <th> Button<br /> </th> 
+   <th> No selection<br /> </th> 
+   <th> Single-selection<br /> </th> 
+   <th> Multi-selection<br /> </th> 
+   <th> Running<br /> </th> 
+   <th> Description<br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <img height="21px" src="assets/edit_darkgrey-24px.png" /> <br /> </td> 
+   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
+   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
+   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
+   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
+   <td> Allows you to edit the workflow's properties.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <img height="21px" src="assets/play_darkgrey-24px_table.png" /> <br /> </td> 
+   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
+   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
+   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
+   <td> </td> 
+   <td> Starts the workflow.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <img height="21px" src="assets/pause_darkgrey-24px_table.png" /> <br /> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
+   <td> Pauses the workflow.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <img height="21px" src="assets/stop_darkgrey-24px_table.png" /> <br /> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
+   <td> Interrupts workflow execution. Cannot be resumed from where it was stopped.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <img height="21px" src="assets/pauseplay_darkgrey-24px_table.png" /> <br /> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
+   <td> Restarts the workflow.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <img height="21px" src="assets/PrintPreview_darkgrey-24px_table.png" /> <br /> </td> 
+   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
+   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
+   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
+   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
+   <td> Opens the workflow's execution log.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <img height="21px" src="assets/checkcircle_darkgrey-24px_table.png" /> <br /> </td> 
+   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
+   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
+   <td> </td> 
+   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
+   <td> Enables multi-selection mode. The workflow must be made up of at least two activities.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <img height="21px" src="assets/closecircle_darkgrey-24px_table.png" /> <br /> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
+   <td> </td> 
+   <td> Disables multi-selection mode.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <img height="21px" src="assets/targeted.png" /> <br /> </td> 
+   <td> </td> 
+   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> Opens the selected transition.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <img height="21px" src="assets/check_darkgrey-24px_table.png" /> <br /> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
+   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
+   <td> Re-enables selection if it has previously been disabled or marked as paused.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <img height="21px" src="assets/check_pause_darkgrey-24px_table.png" /> <br /> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
+   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
+   <td> Pauses the workflow at the selected activity.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <img height="21px" src="assets/checkDisable.png" /> <br /> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
+   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
+   <td> Disables the activity.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <img height="21px" src="assets/delete_darkgrey-24px_table.png" /> <br /> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
+   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
+   <td> Deletes the activities that are selected.<br /> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 ## Quick actions
 
 When an activity is selected, quick action buttons appear around the activity, allowing you to interact with it.
 
-|Button|No selection|Single-selection|Multi-selection|Running|Description|
-|--- |--- |--- |--- |--- |--- |
-||||||Disables selecting the activity.|
-||||||Opens the selected activity.|
-||||||Opens the advanced options of the Email or SMS delivery activity selected.|
-||||||Re-enables selection if it has previously been disabled or marked as paused.|
-||||||Pauses the workflow at the selected activity.|
-||||||Disables the activity.|
-||||||Forces immediate processing of the selection. This button is only available for the Scheduler and Wait activities.|
-||||||Deletes the activities that are selected.|
+<table> 
+ <thead> 
+  <tr> 
+   <th> Button<br /> </th> 
+   <th> No selection<br /> </th> 
+   <th> Single-selection<br /> </th> 
+   <th> Multi-selection<br /> </th> 
+   <th> Running<br /> </th> 
+   <th> Description<br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <img height="21px" src="assets/close_darkgrey-24px_table.png" /> <br /> </td> 
+   <td> </td> 
+   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
+   <td> </td> 
+   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
+   <td> Disables selecting the activity.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <img height="21px" src="assets/edit_darkgrey-24px.png" /> <br /> </td> 
+   <td> </td> 
+   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
+   <td> </td> 
+   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
+   <td> Opens the selected activity.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <img height="21px" src="assets/wkf_dlv_act_params_icon.png" /> <br /> </td> 
+   <td> </td> 
+   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
+   <td> </td> 
+   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
+   <td> Opens the advanced options of the Email or SMS delivery activity selected.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <img height="21px" src="assets/check_darkgrey-24px_table.png" /> <br /> </td> 
+   <td> </td> 
+   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
+   <td> </td> 
+   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
+   <td> Re-enables selection if it has previously been disabled or marked as paused.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <img height="21px" src="assets/check_pause_darkgrey-24px_table.png" /> <br /> </td> 
+   <td> </td> 
+   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
+   <td> </td> 
+   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
+   <td> Pauses the workflow at the selected activity.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <img height="21px" src="assets/checkDisable.png" /> <br /> </td> 
+   <td> </td> 
+   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
+   <td> </td> 
+   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
+   <td> Disables the activity.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <img height="21px" src="assets/pending_darkgrey-24px_table.png" /> <br /> </td> 
+   <td> </td> 
+   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> Forces immediate processing of the selection. This button is only available for the <strong>Scheduler</strong> and <strong>Wait</strong> activities.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <img height="21px" src="assets/delete_darkgrey-24px_table.png" /> <br /> </td> 
+   <td> </td> 
+   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
+   <td> </td> 
+   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
+   <td> Deletes the activities that are selected.<br /> </td> 
+  </tr> 
+ </tbody> 
+</table>
+

@@ -2,14 +2,14 @@
 title: Integrated customer profile
 seo-title: Integrated customer profile
 description: Integrated customer profile
-seo-description: "Track every customer interaction in a single view: Adobe Campaign integrated customer profile is updated throughout the customer life cycle."
-uuid: 2354688a-a7d6-443b-a9aa-3678f4eb6fcb
+seo-description: Track every customer interaction in a single view: Adobe Campaign integrated customer profile is updated throughout the customer life cycle.
+uuid: 196b34ac-7bf1-4c65-960c-038151a396db
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/audiences/using/integrated-customer-profile
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 12.106-0400
-cq-lastreplicated: 2018-07-23T05 55 22.278-0400
+cq-lastmodified: 2018-09-10T07 22 39.283-0400
+cq-lastreplicated: 2018-09-07T14 44 24.738-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 cq-template: /apps/help/templates/article-3
-discoiquuid: 7d98db1e-cbdf-4f50-9213-80001ce9fb7b
-firstPublishExternalDate: 2018-07-23T05:55:22.213-0400
+discoiquuid: 9263c44b-09b4-44de-86fe-c721259b12ed
+firstPublishExternalDate: 2018-09-07T14:44:22.524-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 18.937-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Integrated customer profile
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:55:22.213-0400
-lochandoffdate: 2018-07-25T09 29 12.106-0400
+lastPublishExternalDate: 2018-09-07T14:44:22.524-0400
+lochandoffdate: 2018-09-10T07 22 39.281-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Integrated customer profile
-publishexternaldate: 2018-07-23T05 55 22.213-0400
+publishexternaldate: 2018-09-07T14 44 22.524-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/audiences/using/integrated-customer-profile.html
-sha1: d40ef426e7c77e3236d40db581a1cbedc80bffd7
-topicBrowsingSortDate: 2018-07-23T05:55:22.213-0400
+sha1: ee1a6956970f8474f25fc0c550af172b98547944
+topicBrowsingSortDate: 2018-09-07T14:44:22.524-0400
 index: y
 internal: n
 snippet: y

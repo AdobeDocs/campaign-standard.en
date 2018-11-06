@@ -3,13 +3,13 @@ title: Building a workflow
 seo-title: Building a workflow
 description: Building a workflow
 seo-description: This section details the main principles and best practices for creating a new workflow.
-uuid: c100514c-bbb3-4eab-ae0e-81e83ee1e926
+uuid: 6bcbe8c1-2aba-4c85-87d6-6ae64c07d86b
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/building-a-workflow
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 13.065-0400
-cq-lastreplicated: 2018-07-23T05 56 49.231-0400
+cq-lastmodified: 2018-09-10T07 22 59.339-0400
+cq-lastreplicated: 2018-09-07T14 46 03.984-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 cq-template: /apps/help/templates/article-3
-discoiquuid: 51f8ab39-324a-4ee9-9f7d-d31e7a289c0e
-firstPublishExternalDate: 2018-07-23T05:56:49.166-0400
+discoiquuid: 9f264e9e-278e-472a-930b-74dc86854fe4
+firstPublishExternalDate: 2018-09-07T14:46:01.768-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 07.496-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Building a workflow
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:56:49.166-0400
-lochandoffdate: 2018-07-25T09 29 13.065-0400
+lastPublishExternalDate: 2018-09-07T14:46:01.768-0400
+lochandoffdate: 2018-09-10T07 22 59.337-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Building a workflow
-publishexternaldate: 2018-07-23T05 56 49.166-0400
+publishexternaldate: 2018-09-07T14 46 01.768-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/building-a-workflow.html
-sha1: e21ad4f2c046be32746c7462c881f01bb7df547e
-topicBrowsingSortDate: 2018-07-23T05:56:49.166-0400
+sha1: e2c614e4d3684137bcd80988f044a3ff31d9d1a1
+topicBrowsingSortDate: 2018-09-07T14:46:01.768-0400
 index: y
 internal: n
 snippet: y

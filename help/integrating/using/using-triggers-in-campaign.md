@@ -3,13 +3,13 @@ title: Using Triggers in Campaign
 seo-title: Using Triggers in Campaign
 description: Using Triggers in Campaign
 seo-description: 
-uuid: 7a91488e-c289-4586-9815-dd6b44e7680b
+uuid: 55e49b28-05a4-4bbe-a471-fd276321e6e4
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/integrating/using/using-triggers-in-campaign
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-27T03 27 30.235-0400
-cq-lastreplicated: 2018-07-23T05 59 49.614-0400
+cq-lastmodified: 2018-09-10T02 19 23.030-0400
+cq-lastreplicated: 2018-09-07T15 08 27.308-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 cq-template: /apps/help/templates/article-3
-discoiquuid: bf586410-ad93-46e5-966b-48ad39744947
-firstPublishExternalDate: 2018-07-23T05:59:49.550-0400
+discoiquuid: f8263963-55a7-43d4-9fa7-c2457e84a0e8
+firstPublishExternalDate: 2018-09-07T15:08:26.526-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-06-15T07 29 56.712-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Using Triggers in Campaign
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:59:49.550-0400
-lochandoffdate: 2018-07-27T03 27 30.233-0400
+lastPublishExternalDate: 2018-09-07T15:08:26.526-0400
+lochandoffdate: 2018-09-10T02 19 23.030-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Using Triggers in Campaign
-publishexternaldate: 2018-07-23T05 59 49.550-0400
+publishexternaldate: 2018-09-07T15 08 26.526-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/using-triggers-in-campaign.html
-sha1: 922a4bde50c63f6652ab918bc6663c9163e0a9eb
-topicBrowsingSortDate: 2018-07-23T05:59:49.550-0400
+sha1: 52c4cfd80641ee0766c35f7d4cc96be7486d8001
+topicBrowsingSortDate: 2018-09-07T15:08:26.526-0400
 index: y
 internal: n
 snippet: y

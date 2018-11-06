@@ -1,40 +1,40 @@
 <html>
  <head>
+  <meta content="Step 2: Configure the resource data structure" name="jcr:title" />
+  <meta content="2018-09-10T02:18:39.282-0400" name="locHandOffDate" />
+  <meta content="2018-09-07T14:51:54.919-0400" name="topicBrowsingSortDate" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="https://helpx.adobe.com/campaign/standard/developing/using/step-2--configure-the-resource-data-structure.html" name="publishExternalURL" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Step 2: Configure the resource data structure" name="navTitle" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="audience:developing" name="primaryAudienceTag" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="08adc926-6233-4c18-ae93-03400c893738" name="jcr:uuid" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Step 2: Configure the resource data structure" name="jcr:description" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-09-10T02:18:39.282-0400" name="cq:lastModified" />
+  <meta content="2018-09-07T14:51:54.919-0400" name="firstPublishExternalDate" />
+  <meta content="2018-09-07T14:51:54.919-0400" name="lastPublishExternalDate" />
+  <meta content="2018-09-07T14:51:54.919-0400" name="publishExternalDate" />
+  <meta content="Learn how to configure the data structure." name="seoDescription" />
+  <meta content="2018-03-15T09:02:55.169-0400" name="jcr:created" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-09-07T14:51:57.451-0400" name="cq:lastReplicated" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
   <meta content="light" name="heroGradient" />
   <meta content="false" name="isReadyForLocalization" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:developing;content_type:reference;topic_tags:adding-or-extending-a-resource" name="cq:tags" />
-  <meta content="2018-07-23T05:59:08.749-0400" name="firstPublishExternalDate" />
-  <meta content="2018-07-26T02:53:21.918-0400" name="locHandOffDate" />
-  <meta content="2018-07-26T02:53:21.919-0400" name="cq:lastModified" />
-  <meta content="Step 2: Configure the resource data structure" name="navTitle" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="https://helpx.adobe.com/campaign/standard/developing/using/step-2--configure-the-resource-data-structure.html" name="publishExternalURL" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="audience:developing" name="primaryAudienceTag" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="2018-03-15T09:02:55.169-0400" name="jcr:created" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="6a692084-3707-4b4d-a227-ddc51723b679" name="jcr:predecessors" />
-  <meta content="Step 2: Configure the resource data structure" name="jcr:title" />
-  <meta content="Step 2: Configure the resource data structure" name="jcr:description" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="Learn how to configure the data structure." name="seoDescription" />
-  <meta content="2018-07-23T05:59:08.749-0400" name="topicBrowsingSortDate" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="2018-07-23T05:59:08.749-0400" name="lastPublishExternalDate" />
-  <meta content="08adc926-6233-4c18-ae93-03400c893738" name="jcr:uuid" />
-  <meta content="2018-07-23T05:59:08.749-0400" name="publishExternalDate" />
   <meta content="admin" name="jcr:createdBy" />
-  <meta content="2018-07-23T05:59:08.797-0400" name="cq:lastReplicated" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:developing;content_type:reference;topic_tags:adding-or-extending-a-resource" name="cq:tags" />
   <meta content="" name="jcr:baseVersion" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="6a692084-3707-4b4d-a227-ddc51723b679" name="jcr:predecessors" />
  </head>
  <body>
   <p>After creating a new custom resource, you must configure the data structure.</p> 

@@ -3,13 +3,13 @@ title: Creating a service
 seo-title: Creating a service
 description: Creating a service
 seo-description: Learn how to create your first service and configure it to send email confirmations to your subscribers.
-uuid: 27bd5e54-8a96-47de-a3e4-f315e529b51f
+uuid: dd8a82e2-19fe-447a-9638-047f6bbb23cb
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/audiences/using/creating-a-service
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 18.144-0400
-cq-lastreplicated: 2018-07-23T05 55 28.958-0400
+cq-lastmodified: 2018-09-10T07 23 23.466-0400
+cq-lastreplicated: 2018-09-07T14 50 36.573-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
 cq-template: /apps/help/templates/article-3
-discoiquuid: 9bb952eb-13be-4f90-8807-ea1604038cd8
-firstPublishExternalDate: 2018-07-23T05:55:28.895-0400
+discoiquuid: 3b675b63-48e6-47f0-a25d-7a5c6144cf4b
+firstPublishExternalDate: 2018-09-07T14:50:33.761-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 20.536-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Creating a service
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:55:28.895-0400
-lochandoffdate: 2018-07-25T09 29 18.144-0400
+lastPublishExternalDate: 2018-09-07T14:50:33.761-0400
+lochandoffdate: 2018-09-10T07 23 23.464-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Creating a service
-publishexternaldate: 2018-07-23T05 55 28.895-0400
+publishexternaldate: 2018-09-07T14 50 33.761-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/audiences/using/creating-a-service.html
-sha1: 3dd54bf6adfdf1862160b98335b7c6e3642b0828
-topicBrowsingSortDate: 2018-07-23T05:55:28.895-0400
+sha1: 445bc795922ceb211b43087ef567d1b95c9f0bea
+topicBrowsingSortDate: 2018-09-07T14:50:33.761-0400
 index: y
 internal: n
 snippet: y

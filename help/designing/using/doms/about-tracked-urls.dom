@@ -1,40 +1,40 @@
 <html> 
  <head> 
-  <meta content="2018-07-23T08:14:03.219-0400" name="cq:lastReplicated" /> 
-  <meta content="2018-07-23T08:14:03.144-0400" name="lastPublishExternalDate" /> 
-  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
-  <meta content="en_us" name="jcr:language" /> 
-  <meta content="" name="jcr:baseVersion" /> 
-  <meta content="sauviat" name="contentOwner" /> 
-  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
-  <meta content="About tracked URLs" name="navTitle" /> 
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
-  <meta content="2018-07-26T02:54:06.513-0400" name="locHandOffDate" /> 
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
-  <meta content="34476fa2-cd95-4d75-aa1e-39744b6848c5" name="jcr:predecessors" /> 
-  <meta content="https://helpx.adobe.com/campaign/standard/designing/using/about-tracked-urls.html" name="publishExternalURL" /> 
-  <meta content="ce23fe6b-1834-4dea-8b00-5c5473828e4b" name="jcr:uuid" /> 
-  <meta content="2018-07-23T07:30:17.660-0400" name="jcr:created" /> 
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="" name="jcr:primaryType" /> 
   <meta content="About tracked URLs" name="jcr:description" /> 
   <meta content="true" name="jcr:isCheckedOut" /> 
-  <meta content="2018-07-23T05:58:50.473-0400" name="firstPublishExternalDate" /> 
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:managing-links" name="cq:tags" /> 
-  <meta content="2018-07-23T08:14:03.144-0400" name="publishExternalDate" /> 
-  <meta content="light" name="heroGradient" /> 
+  <meta content="2018-07-23T07:30:17.660-0400" name="jcr:created" /> 
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-09-07T15:07:51.085-0400" name="lastPublishExternalDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="ce23fe6b-1834-4dea-8b00-5c5473828e4b" name="jcr:uuid" /> 
   <meta content="" name="jcr:versionHistory" /> 
+  <meta content="About tracked URLs" name="jcr:title" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2018-09-07T15:07:51.085-0400" name="firstPublishExternalDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="Learn how to manage all the URLs of your content that will be tracked." name="seoDescription" /> 
+  <meta content="2018-09-07T15:07:51.085-0400" name="publishExternalDate" /> 
+  <meta content="2018-09-10T07:26:17.651-0400" name="cq:lastModified" /> 
+  <meta content="2018-09-07T15:07:51.085-0400" name="topicBrowsingSortDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2018-09-07T15:07:51.579-0400" name="cq:lastReplicated" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:managing-links" name="cq:tags" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="34476fa2-cd95-4d75-aa1e-39744b6848c5" name="jcr:predecessors" /> 
+  <meta content="https://helpx.adobe.com/campaign/standard/designing/using/about-tracked-urls.html" name="publishExternalURL" /> 
+  <meta content="sauviat" name="cq:lastReplicatedBy" /> 
   <meta content="audience:designing" name="primaryAudienceTag" /> 
   <meta content="Activate" name="cq:lastReplicationAction" /> 
-  <meta content="Learn how to manage all the URLs of your content that will be tracked." name="seoDescription" /> 
-  <meta content="2018-07-23T08:14:03.144-0400" name="topicBrowsingSortDate" /> 
-  <meta content="admin" name="jcr:createdBy" /> 
-  <meta content="" name="jcr:primaryType" /> 
-  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
-  <meta content="sauviat" name="cq:lastReplicatedBy" /> 
-  <meta content="About tracked URLs" name="jcr:title" /> 
-  <meta content="2018-07-26T02:54:06.513-0400" name="cq:lastModified" /> 
-  <meta content="/etc/designs/help" name="cq:designPath" /> 
-  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="About tracked URLs" name="navTitle" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="2018-09-10T07:26:17.649-0400" name="locHandOffDate" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
  </head> 
  <body> 
   <p>In the email content, a menu summarizes all the URLs of your content that will be tracked.</p> 

@@ -3,13 +3,13 @@ title: Direct mail delivery
 seo-title: Direct mail delivery
 description: Direct mail delivery
 seo-description: The Direct mail delivery activity allows you to configure sending a single send direct mail or a recurring direct mail in a workflow.
-uuid: 293633fa-f386-4cb2-8e84-37b72f62cae0
+uuid: 94971e4b-fef2-46d7-a8e1-31201bc7cde5
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/direct-mail-delivery
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 46.968-0400
-cq-lastreplicated: 2018-07-23T05 57 23.315-0400
+cq-lastmodified: 2018-09-10T07 27 27.189-0400
+cq-lastreplicated: 2018-09-07T15 07 13.667-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: automating
 content-type: reference
 topic-tags: channel-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: 679fc888-9abc-4b44-9377-4bd833f90c93
-firstPublishExternalDate: 2018-07-23T05:57:23.276-0400
+discoiquuid: 7615f73c-57ef-447b-82c6-2a55cbf230f0
+firstPublishExternalDate: 2018-09-07T15:07:12.705-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 38.997-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Direct mail delivery
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:57:23.276-0400
-lochandoffdate: 2018-07-25T09 29 46.968-0400
+lastPublishExternalDate: 2018-09-07T15:07:12.705-0400
+lochandoffdate: 2018-09-10T07 27 27.187-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Direct mail delivery
-publishexternaldate: 2018-07-23T05 57 23.276-0400
+publishexternaldate: 2018-09-07T15 07 12.705-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/direct-mail-delivery.html
-sha1: 77cab578a5f1852f152a8083f8d2ad20f74a63b2
-topicBrowsingSortDate: 2018-07-23T05:57:23.276-0400
+sha1: 4b9c833d71b75e78ad6e8b389fe19d906ea4d38e
+topicBrowsingSortDate: 2018-09-07T15:07:12.705-0400
 index: y
 internal: n
 snippet: y

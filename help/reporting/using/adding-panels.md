@@ -3,13 +3,13 @@ title: Adding panels
 seo-title: Adding panels
 description: Adding panels
 seo-description: Dynamic report allows you to add panel to better filter your data depending on the chosen time period.
-uuid: 6ca5b698-5c2e-45da-9321-c09f3d780603
+uuid: 93dfb135-45a9-4e57-9b3a-9763c5ff4233
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/reporting/using/adding-panels
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-27T03 27 17.134-0400
-cq-lastreplicated: 2018-07-23T06 00 24.822-0400
+cq-lastmodified: 2018-09-10T02 19 16.818-0400
+cq-lastreplicated: 2018-09-07T15 08 43.680-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: reporting
 content-type: reference
 topic-tags: customizing-reports
 cq-template: /apps/help/templates/article-3
-discoiquuid: a65ddde9-c685-4eec-be1e-fe56038fa622
-firstPublishExternalDate: 2018-07-23T06:00:24.789-0400
+discoiquuid: cbd5fc04-043f-47f3-8e04-64e279f5586d
+firstPublishExternalDate: 2018-09-07T15:08:43.096-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 03 03.051-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Adding panels
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:00:24.789-0400
-lochandoffdate: 2018-07-27T03 27 17.132-0400
+lastPublishExternalDate: 2018-09-07T15:08:43.096-0400
+lochandoffdate: 2018-09-10T02 19 16.818-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Adding panels
-publishexternaldate: 2018-07-23T06 00 24.789-0400
+publishexternaldate: 2018-09-07T15 08 43.096-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/adding-panels.html
-sha1: 0c568efd4d3c529b21276ada855ea8bc540b0ded
-topicBrowsingSortDate: 2018-07-23T06:00:24.789-0400
+sha1: 9c064e8f41bf2158fe3a2cc2c89fe55635d951ff
+topicBrowsingSortDate: 2018-09-07T15:08:43.096-0400
 index: y
 internal: n
 snippet: y

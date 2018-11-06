@@ -3,13 +3,14 @@ title: Personalizing the sender
 seo-title: Personalizing the sender
 description: Personalizing the sender
 seo-description: Learn how to personalize the name or the address of the sender for your messages.
-uuid: 7b451a4e-0ce9-4be3-a0d4-81b2870d7612
+uuid: cfdafd76-dcbe-415f-8e33-b46e2d85ec0d
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/personalizing-the-sender
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-26T02 53 53.760-0400
-cq-lastreplicated: 2018-07-23T08 13 51.475-0400
+cq-lastmodified: 2018-09-10T07 25 19.746-0400
+cq-lastmodifiedby: mancini
+cq-lastreplicated: 2018-09-07T15 01 22.032-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +18,8 @@ audience: designing
 content-type: reference
 topic-tags: personalizing-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: d27756e6-0382-4169-b788-7ba25537ff1c
-firstPublishExternalDate: 2018-07-23T05:58:40.385-0400
+discoiquuid: 389ca116-5175-403b-a42d-2bb556c2029f
+firstPublishExternalDate: 2018-09-07T15:01:15.134-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-07-23T07 30 14.080-0400
@@ -26,15 +27,16 @@ jcr-createdby: admin
 jcr-description: Personalizing the sender
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T08:13:51.434-0400
-lochandoffdate: 2018-07-26T02 53 53.760-0400
+lastPublishExternalDate: 2018-09-07T15:01:15.134-0400
+lochandoffdate: 2018-09-10T07 25 19.745-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
+moreHelpPaths: /content/help/en/campaign/standard/designing/morehelp/personalizing-content;/content/help/en/campaign/standard/designing/morehelp/personalizing-content
 navTitle: Personalizing the sender
-publishexternaldate: 2018-07-23T08 13 51.434-0400
+publishexternaldate: 2018-09-07T15 01 15.134-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/personalizing-the-sender.html
-sha1: 0967fb76807977eea05ea8a32cb0b73e02401d05
-topicBrowsingSortDate: 2018-07-23T08:13:51.434-0400
+sha1: b358b26f54a6c9b1221ffdd3018f76767bc1892c
+topicBrowsingSortDate: 2018-09-07T15:01:15.134-0400
 index: y
 internal: n
 snippet: y
@@ -46,9 +48,15 @@ Personalizing the sender
 
 ## Email sender
 
-To define the name of the sender which will appear in the header of messages sent, click the **Content** block.
+To define the name of the sender which will appear in the header of messages sent:
 
-![](assets/delivery_content_edition16.png)
+* In the [Creative Designer](../../designing/using/about-email-content-design.md#using-the-creative-designer), click the **Email properties** icon next to the email's label.
+
+  ![](assets/delivery_content_edition16.png)
+
+* In the [content editor](../../designing/using/about-email-content-design.md#using-the-email-content-editor), go to the upper part of the screen.
+
+  ![](assets/delivery_content_edition16_default.png)
 
 The **From (name)** field allows you to enter the sender name. By default, the **Default sender name** is automatically entered in the field. Adobe Campaign refers to the email channel configuration (from the advanced menu **Administration > Channels > Email > Email accounts** via the Adobe Campaign logo) to designate this sender.
 

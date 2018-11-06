@@ -3,13 +3,13 @@ title: Creating profiles
 seo-title: Creating profiles
 description: Creating profiles
 seo-description: Learn how to create profiles and collect data on your contacts, using APIs, import capabilities, online acquisition, automatic or manual updates.
-uuid: 5d9ce0ec-8549-4a5f-9f79-2fce370d10d9
+uuid: a195b5ac-4cd6-443a-9273-7541181f0112
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/audiences/using/creating-profiles
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 10.676-0400
-cq-lastreplicated: 2018-07-23T05 55 19.872-0400
+cq-lastmodified: 2018-09-10T07 22 21.245-0400
+cq-lastreplicated: 2018-09-07T14 42 54.966-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 cq-template: /apps/help/templates/article-3
-discoiquuid: 8f0e3ab4-47db-4737-bb40-bc1d3f9c6183
-firstPublishExternalDate: 2018-07-23T05:55:19.830-0400
+discoiquuid: f44aad1c-afcf-4283-b925-aee728f2d26a
+firstPublishExternalDate: 2018-09-07T14:42:52.588-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 37.426-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Creating profiles
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:55:19.830-0400
-lochandoffdate: 2018-07-25T09 29 10.676-0400
+lastPublishExternalDate: 2018-09-07T14:42:52.588-0400
+lochandoffdate: 2018-09-10T07 22 21.243-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Creating profiles
-publishexternaldate: 2018-07-23T05 55 19.830-0400
+publishexternaldate: 2018-09-07T14 42 52.588-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/audiences/using/creating-profiles.html
-sha1: 52491469d8822b415e0a73ddb8fd99919c7733d0
-topicBrowsingSortDate: 2018-07-23T05:55:19.830-0400
+sha1: 517677354c6a8f9f8b47973f21f72b6ed4de0d98
+topicBrowsingSortDate: 2018-09-07T14:42:52.588-0400
 index: y
 internal: n
 snippet: y

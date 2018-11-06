@@ -3,13 +3,13 @@ title: Generating a unique ID for profiles and custom resources
 seo-title: Generating a unique ID for profiles and custom resources
 description: Generating a unique ID for profiles and custom resources
 seo-description: 
-uuid: 2132998b-acd5-47e4-9f75-00027d64c0c0
+uuid: c3ae0efd-8326-46bb-8758-91ce67637b60
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/developing/using/generating-a-unique-id-for-profiles-and-custom-resources
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-26T02 53 35.449-0400
-cq-lastreplicated: 2018-07-23T05 59 14.444-0400
+cq-lastmodified: 2018-09-10T02 19 08.203-0400
+cq-lastreplicated: 2018-09-07T14 55 39.698-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 cq-template: /apps/help/templates/article-3
-discoiquuid: 63f70526-df51-498a-b785-46b02a34219e
-firstPublishExternalDate: 2018-07-23T05:59:14.387-0400
+discoiquuid: 6bc36322-f61a-4733-8730-f57b7f730b06
+firstPublishExternalDate: 2018-09-07T14:55:37.589-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 36.518-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Generating a unique ID for profiles and custom resources
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:59:14.387-0400
-lochandoffdate: 2018-07-26T02 53 35.448-0400
+lastPublishExternalDate: 2018-09-07T14:55:37.589-0400
+lochandoffdate: 2018-09-10T02 19 08.202-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Generating a unique ID for profiles and custom resources
-publishexternaldate: 2018-07-23T05 59 14.387-0400
+publishexternaldate: 2018-09-07T14 55 37.589-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/generating-a-unique-id-for-profiles-and-custom-resources.html
-sha1: cd74c20568200cd27e549f9b9b7e03fdd2a72df5
-topicBrowsingSortDate: 2018-07-23T05:59:14.387-0400
+sha1: 30599b31e2e409a0890ab71fb47185e1b76d187f
+topicBrowsingSortDate: 2018-09-07T14:55:37.589-0400
 index: y
 internal: n
 snippet: y

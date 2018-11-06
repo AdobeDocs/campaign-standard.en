@@ -3,13 +3,13 @@ title: Creating an email
 seo-title: Creating an email
 description: Creating an email
 seo-description: Follow these steps to create a single-send email in Adobe Campaign.
-uuid: e617fd16-769e-4e6d-a434-b92c25fea717
+uuid: a6f65fa8-f595-4311-a9c2-1d9b0b5edc76
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/creating-an-email
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-30T04 53 47.954-0400
-cq-lastreplicated: 2018-07-23T06 02 41.563-0400
+cq-lastmodified: 2018-09-08T08 23 03.413-0400
+cq-lastreplicated: 2018-09-07T15 11 38.705-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: channels
 content-type: reference
 topic-tags: email-messages
 cq-template: /apps/help/templates/article-3
-discoiquuid: 90004231-b2b4-419f-9f55-edeb88f8e859
-firstPublishExternalDate: 2018-07-23T06:02:41.522-0400
+discoiquuid: 73ebcee5-0dc0-4628-afce-3a55dce9ce58
+firstPublishExternalDate: 2018-09-07T15:11:38.457-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 08.365-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Creating an email
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:02:41.522-0400
-lochandoffdate: 2018-07-30T04 53 47.954-0400
+lastPublishExternalDate: 2018-09-07T15:11:38.457-0400
+lochandoffdate: 2018-09-08T08 23 03.413-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Creating an email
-publishexternaldate: 2018-07-23T06 02 41.522-0400
+publishexternaldate: 2018-09-07T15 11 38.457-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/creating-an-email.html
-sha1: b315c5549c21602eb9e481e4709cb49b98a37fc2
-topicBrowsingSortDate: 2018-07-23T06:02:41.522-0400
+sha1: 771a298af80ff5321a7c5116e4989e024f07da3b
+topicBrowsingSortDate: 2018-09-07T15:11:38.457-0400
 index: y
 internal: n
 snippet: y
@@ -86,7 +86,7 @@ You can create an email from a [campaign](../../start/using/marketing-activities
 
    ![](assets/delivery_planning.png)
 
-1. Prepare your message to analyze its target, see the [Preparing the send](../../sending/using/confirming-send.md) section.
+1. Prepare your message to analyze its target, see the [Preparing the send](../../sending/using/confirming-the-send.md) section.
 
    ![](assets/preparing_delivery_2.png)
 
@@ -98,7 +98,7 @@ You can create an email from a [campaign](../../start/using/marketing-activities
 
    ![](assets/bat_select.png)
 
-1. Send the message and check its delivery through the message dashboard and logs, see the [Sending messages](../../sending/using/confirming-send.md) section.
+1. Send the message and check its delivery through the message dashboard and logs, see the [Sending messages](../../sending/using/confirming-the-send.md) section.
 
    ![](assets/confirm_delivery.png)
 

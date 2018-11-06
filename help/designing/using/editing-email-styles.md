@@ -3,13 +3,13 @@ title: Editing email styles
 seo-title: Editing email styles
 description: Editing email styles
 seo-description: Quickly edit the style of your email through the UI with easily accessible settings.
-uuid: 8fe8cd09-9932-4f39-a7f8-51d2d23896d0
+uuid: ab497ca8-46c3-4f24-9b74-84b034981451
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/editing-email-styles
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-26T02 53 28.024-0400
-cq-lastreplicated: 2018-07-23T08 13 25.100-0400
+cq-lastmodified: 2018-09-10T07 23 27.313-0400
+cq-lastreplicated: 2018-09-07T14 48 45.013-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: dfe47318-37e0-44d1-a1db-dbc68ba1054f
-firstPublishExternalDate: 2018-07-23T05:57:42.362-0400
+discoiquuid: b76b1ddb-a52a-4538-befc-3536bea1a508
+firstPublishExternalDate: 2018-09-07T14:48:43.279-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-07-23T07 30 12.807-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Editing email styles
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T08:13:24.983-0400
-lochandoffdate: 2018-07-26T02 53 28.023-0400
+lastPublishExternalDate: 2018-09-07T14:48:43.279-0400
+lochandoffdate: 2018-09-10T07 23 27.312-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Editing email styles
-publishexternaldate: 2018-07-23T08 13 24.983-0400
+publishexternaldate: 2018-09-07T14 48 43.279-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/editing-email-styles.html
-sha1: d62b13b69ddc647323e0f1d1ea3035df2bada958
-topicBrowsingSortDate: 2018-07-23T08:13:24.983-0400
+sha1: 2ad2096e68fa190d2194e14627cf1f116e25dae6
+topicBrowsingSortDate: 2018-09-07T14:48:43.279-0400
 index: y
 internal: n
 snippet: y

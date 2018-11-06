@@ -3,13 +3,13 @@ title: Editing queries
 seo-title: Editing queries
 description: Editing queries
 seo-description: Build a population thanks to the predefined filters and rules.
-uuid: 3c173931-9fd4-4284-96de-6cf5a21dc645
+uuid: 6dded3ca-c01c-4c73-a08e-5fb6e748ae33
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/editing-queries
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 56.390-0400
-cq-lastreplicated: 2018-07-23T05 57 43.397-0400
+cq-lastmodified: 2018-09-10T07 28 45.257-0400
+cq-lastreplicated: 2018-09-07T15 08 47.570-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: automating
 content-type: reference
 topic-tags: filtering-data
 cq-template: /apps/help/templates/article-3
-discoiquuid: a0af92df-25e8-4518-9dec-439d854f4039
-firstPublishExternalDate: 2018-07-23T05:57:43.161-0400
+discoiquuid: 9dad7038-88a3-45cb-8b0b-5c17ab3d10df
+firstPublishExternalDate: 2018-09-07T15:08:47.178-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 14.442-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Editing queries
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:57:43.161-0400
-lochandoffdate: 2018-07-25T09 29 56.390-0400
+lastPublishExternalDate: 2018-09-07T15:08:47.178-0400
+lochandoffdate: 2018-09-10T07 28 45.256-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Editing queries
-publishexternaldate: 2018-07-23T05 57 43.161-0400
+publishexternaldate: 2018-09-07T15 08 47.178-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/editing-queries.html
-sha1: 0679c9d1106787e27aac48608217ec37acb078bb
-topicBrowsingSortDate: 2018-07-23T05:57:43.161-0400
+sha1: 2353266f13d7af986a2ab14c5cbb813a2165d80a
+topicBrowsingSortDate: 2018-09-07T15:08:47.178-0400
 index: y
 internal: n
 snippet: y

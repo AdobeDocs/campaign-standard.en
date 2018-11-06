@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:administration;content_type:reference;topic_tags:application-settings" name="cq:tags" />
-  <meta content="2018-07-23T05:54:01.543-0400" name="publishExternalDate" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="2018-07-25T09:29:37.677-0400" name="locHandOffDate" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="2018-07-23T05:54:01.543-0400" name="firstPublishExternalDate" />
-  <meta content="Adobe Campaign notifications" name="jcr:title" />
-  <meta content="Adobe Campaign notifications" name="jcr:description" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="79e7d36d-bc69-44e6-9004-b46c835b7889" name="jcr:predecessors" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="https://helpx.adobe.com/campaign/standard/administration/using/adobe-campaign-notifications.html" name="publishExternalURL" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="light" name="heroGradient" />
-  <meta content="2018-02-16T08:01:36.554-0500" name="jcr:created" />
-  <meta content="7dfa4328-9c70-4af3-a401-1db11162960e" name="jcr:uuid" />
-  <meta content="audience:administration" name="primaryAudienceTag" />
   <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="Adobe Campaign notifications" name="navTitle" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="2018-07-25T09:29:37.677-0400" name="cq:lastModified" />
-  <meta content="2018-07-23T05:54:01.605-0400" name="cq:lastReplicated" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="Adobe Campaign notifications" name="jcr:description" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
   <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="2018-07-23T05:54:01.543-0400" name="topicBrowsingSortDate" />
+  <meta content="2018-09-07T15:06:35.642-0400" name="cq:lastReplicated" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Adobe Campaign notifications" name="jcr:title" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="audience:administration" name="primaryAudienceTag" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-09-07T15:06:34.360-0400" name="firstPublishExternalDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="79e7d36d-bc69-44e6-9004-b46c835b7889" name="jcr:predecessors" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="https://helpx.adobe.com/campaign/standard/administration/using/adobe-campaign-notifications.html" name="publishExternalURL" />
+  <meta content="2018-09-10T07:26:53.762-0400" name="locHandOffDate" />
+  <meta content="2018-02-16T08:01:36.554-0500" name="jcr:created" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
   <meta content="Learn how to send real-time system notifications to your Adobe Campaign users." name="seoDescription" />
-  <meta content="2018-07-23T05:54:01.543-0400" name="lastPublishExternalDate" />
+  <meta content="light" name="heroGradient" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:administration;content_type:reference;topic_tags:application-settings" name="cq:tags" />
+  <meta content="2018-09-07T15:06:34.360-0400" name="topicBrowsingSortDate" />
+  <meta content="2018-09-07T15:06:34.360-0400" name="lastPublishExternalDate" />
+  <meta content="Adobe Campaign notifications" name="navTitle" />
+  <meta content="7dfa4328-9c70-4af3-a401-1db11162960e" name="jcr:uuid" />
+  <meta content="2018-09-10T07:26:53.763-0400" name="cq:lastModified" />
+  <meta content="2018-09-07T15:06:34.360-0400" name="publishExternalDate" />
+  <meta content="false" name="isReadyForLocalization" />
  </head>
  <body>
   <p>Adobe Campaign gives you the possibility to receive notifications regarding important system activities directly within the application. Real-time notifications keep relevant stakeholders informed and provide users with the ability to immediately and directly act on activity notifications from within the application. The result for teams is advanced agility, efficiency and smoother execution of campaigns.</p> 

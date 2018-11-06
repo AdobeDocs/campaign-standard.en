@@ -3,13 +3,13 @@ title: Configure Campaign-Analytics integration
 seo-title: Configure Campaign-Analytics integration
 description: Configure Campaign-Analytics integration
 seo-description: Learn how to configure the Adobe Analytics integration to start measuring the success of your email deliveries.
-uuid: 71409521-3283-43b8-9274-f85501d1bfdd
+uuid: cf855bfa-4503-4103-beff-3ca17a9e20e4
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/integrating/using/configure-campaign-analytics-integration
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-27T03 26 41.719-0400
-cq-lastreplicated: 2018-07-23T05 59 37.602-0400
+cq-lastmodified: 2018-09-10T02 18 50.167-0400
+cq-lastreplicated: 2018-09-07T15 04 11.865-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
 cq-template: /apps/help/templates/article-3
-discoiquuid: 34970a7a-0e1b-4a5d-a1ec-24039e8d9036
-firstPublishExternalDate: 2018-07-23T05:59:37.563-0400
+discoiquuid: 5760f629-9204-48ab-a979-ef48b1a1d912
+firstPublishExternalDate: 2018-09-07T15:04:09.550-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 52.209-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Configure Campaign-Analytics integration
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:59:37.563-0400
-lochandoffdate: 2018-07-27T03 26 41.718-0400
+lastPublishExternalDate: 2018-09-07T15:04:09.550-0400
+lochandoffdate: 2018-09-10T02 18 50.166-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Configure Campaign-Analytics integration
-publishexternaldate: 2018-07-23T05 59 37.563-0400
+publishexternaldate: 2018-09-07T15 04 09.550-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/configure-campaign-analytics-integration.html
-sha1: 1b9df6b8890395f0680fa02761a36b00a6efaceb
-topicBrowsingSortDate: 2018-07-23T05:59:37.563-0400
+sha1: 8c93a7939fe050c85fe8b8b24b3c2c0419ef8ad6
+topicBrowsingSortDate: 2018-09-07T15:04:09.550-0400
 index: y
 internal: n
 snippet: y

@@ -3,13 +3,13 @@ title: Creating the direct mail
 seo-title: Creating the direct mail
 description: Creating the direct mail
 seo-description: Follow these steps to create a direct mail delivery in Adobe Campaign.
-uuid: 121b7d5c-07e4-452d-9a2e-7783a5d34af8
+uuid: 928a967a-d986-4c37-8d39-5bf73edc3903
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/creating-the-direct-mail
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-30T04 54 02.612-0400
-cq-lastreplicated: 2018-07-23T06 02 55.859-0400
+cq-lastmodified: 2018-09-08T08 23 16.491-0400
+cq-lastreplicated: 2018-09-07T15 12 25.328-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: channels
 content-type: reference
 topic-tags: direct-mail
 cq-template: /apps/help/templates/article-3
-discoiquuid: 5dc1ac12-901b-47e8-b7ae-bf57e361be76
-firstPublishExternalDate: 2018-07-23T06:02:55.813-0400
+discoiquuid: d5961a3f-4519-4133-ac1e-217edddd804e
+firstPublishExternalDate: 2018-09-07T15:12:25.292-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 07.203-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Creating the direct mail
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:02:55.813-0400
-lochandoffdate: 2018-07-30T04 54 02.612-0400
+lastPublishExternalDate: 2018-09-07T15:12:25.292-0400
+lochandoffdate: 2018-09-08T08 23 16.491-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Creating the direct mail
-publishexternaldate: 2018-07-23T06 02 55.813-0400
+publishexternaldate: 2018-09-07T15 12 25.292-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/creating-the-direct-mail.html
-sha1: 53b020ea099a0cc7d1a9510af1a315fa76b39800
-topicBrowsingSortDate: 2018-07-23T06:02:55.813-0400
+sha1: d719ff6956e89a6892a64a51de3fa85095d2c7fb
+topicBrowsingSortDate: 2018-09-07T15:12:25.292-0400
 index: y
 internal: n
 snippet: y

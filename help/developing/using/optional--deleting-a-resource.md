@@ -1,15 +1,15 @@
 ---
-title: "Optional: Deleting a resource"
-seo-title: "Optional: Deleting a resource"
-description: "Optional: Deleting a resource"
+title: Optional: Deleting a resource
+seo-title: Optional: Deleting a resource
+description: Optional: Deleting a resource
 seo-description: 
-uuid: 43c3d05d-6579-494d-8e8c-8aa59478a34c
+uuid: e2806561-e13c-4912-af5b-37bfd6634267
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/developing/using/optional--deleting-a-resource
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-26T02 53 34.828-0400
-cq-lastreplicated: 2018-07-23T05 59 13.663-0400
+cq-lastmodified: 2018-09-10T02 19 06.621-0400
+cq-lastreplicated: 2018-09-07T14 55 08.307-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 cq-template: /apps/help/templates/article-3
-discoiquuid: 88f7620d-39ee-4f52-b3de-d40cfb9b46bb
-firstPublishExternalDate: 2018-07-23T05:59:13.617-0400
+discoiquuid: b35dd7ad-4f30-43c8-824b-ff4f54664cca
+firstPublishExternalDate: 2018-09-07T14:55:05.543-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 54.573-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Optional  Deleting a resource
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:59:13.617-0400
-lochandoffdate: 2018-07-26T02 53 34.827-0400
+lastPublishExternalDate: 2018-09-07T14:55:05.543-0400
+lochandoffdate: 2018-09-10T02 19 06.620-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
-navTitle: "Optional: Deleting a resource"
-publishexternaldate: 2018-07-23T05 59 13.617-0400
+navTitle: Optional: Deleting a resource
+publishexternaldate: 2018-09-07T14 55 05.543-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/optional--deleting-a-resource.html
-sha1: db558431aaecf3278c49258df836e00aa4db81ae
-topicBrowsingSortDate: 2018-07-23T05:59:13.617-0400
+sha1: d597abba5e9184ea06ddd620b75d1754915c0af9
+topicBrowsingSortDate: 2018-09-07T14:55:05.543-0400
 index: y
 internal: n
 snippet: y
@@ -52,18 +52,18 @@ To delete a resource, the resource in question must be a **Draft**. The resource
 To re-draft a published resource:
 
 1. Select the resource.
-2. Click the **Re-draft** button in the action bar.
-3. Click **Ok**.
+1. Click the **Re-draft** button in the action bar.
+1. Click **Ok**.
 
    >[!CAUTION]
    >
    >This action is definitive: the resource's data will be deleted when the modification is published.
 
-4. Publish the resource.
+1. Publish the resource.
 
    The resource then goes into **Draft** mode and its activation status is **Inactive**.
 
-5. In **List** mode, check the resource to delete then click the  ![](assets/delete_darkgrey-24px.png)
+1. In **List** mode, check the resource to delete then click the  ![](assets/delete_darkgrey-24px.png)
 
    icon.
 

@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="07af5bb9-b980-4bb9-94ea-94eed6454445" name="jcr:uuid" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:sending;content_type:reference;topic_tags:monitoring-messages" name="cq:tags" />
-  <meta content="Monitoring a delivery" name="jcr:description" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="2018-09-08T08:23:10.284-0400" name="cq:lastModified" />
   <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-09-08T08:23:10.284-0400" name="locHandOffDate" />
+  <meta content="07af5bb9-b980-4bb9-94ea-94eed6454445" name="jcr:uuid" />
+  <meta content="2018-09-07T15:11:33.175-0400" name="publishExternalDate" />
+  <meta content="2018-09-07T15:11:33.175-0400" name="lastPublishExternalDate" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="Monitoring a delivery" name="jcr:title" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="2018-03-15T09:01:45.621-0400" name="jcr:created" />
+  <meta content="2018-09-07T15:11:33.175-0400" name="firstPublishExternalDate" />
+  <meta content="Monitoring a delivery" name="jcr:description" />
+  <meta content="2018-09-07T15:11:33.438-0400" name="cq:lastReplicated" />
   <meta content="Monitoring a delivery" name="navTitle" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="b6362dc0-6943-4e78-8bce-675e9012cee7" name="jcr:predecessors" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:sending;content_type:reference;topic_tags:monitoring-messages" name="cq:tags" />
   <meta content="light" name="heroGradient" />
+  <meta content="Discover how to monitor a delivery." name="seoDescription" />
+  <meta content="false" name="isReadyForLocalization" />
   <meta content="sauviat" name="cq:lastReplicatedBy" />
   <meta content="" name="jcr:baseVersion" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
   <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="b6362dc0-6943-4e78-8bce-675e9012cee7" name="jcr:predecessors" />
-  <meta content="2018-07-23T06:02:26.549-0400" name="cq:lastReplicated" />
-  <meta content="2018-07-23T06:02:26.502-0400" name="topicBrowsingSortDate" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="sauviat" name="contentOwner" />
   <meta content="audience:sending" name="primaryAudienceTag" />
-  <meta content="https://helpx.adobe.com/campaign/standard/sending/using/monitoring-a-delivery.html" name="publishExternalURL" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="2018-03-15T09:01:45.621-0400" name="jcr:created" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="Discover how to monitor a delivery." name="seoDescription" />
-  <meta content="2018-07-30T04:53:56.559-0400" name="locHandOffDate" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="2018-07-23T06:02:26.502-0400" name="lastPublishExternalDate" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="2018-07-30T04:53:56.560-0400" name="cq:lastModified" />
-  <meta content="2018-07-23T06:02:26.502-0400" name="firstPublishExternalDate" />
-  <meta content="Monitoring a delivery" name="jcr:title" />
   <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="2018-07-23T06:02:26.502-0400" name="publishExternalDate" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-09-07T15:11:33.175-0400" name="topicBrowsingSortDate" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="https://helpx.adobe.com/campaign/standard/sending/using/monitoring-a-delivery.html" name="publishExternalURL" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
  </head>
  <body>
   <p>There are several ways to monitor a delivery and to measure its impact:</p> 

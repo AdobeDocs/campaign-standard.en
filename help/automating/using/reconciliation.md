@@ -3,13 +3,13 @@ title: Reconciliation
 seo-title: Reconciliation
 description: Reconciliation
 seo-description: The Reconciliation activity allows you to link unidentified data to existing resources.
-uuid: dc5cb265-222b-4457-b515-fac75a9c0ee6
+uuid: 23b9bfd9-1626-4dfd-be18-42517efc19d0
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/reconciliation
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 50.625-0400
-cq-lastreplicated: 2018-07-23T05 57 35.237-0400
+cq-lastmodified: 2018-09-10T07 28 07.405-0400
+cq-lastreplicated: 2018-09-07T15 08 31.653-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: 840515c5-57a0-44fc-b047-e11a08f9e3d4
-firstPublishExternalDate: 2018-07-23T05:57:35.095-0400
+discoiquuid: 2124396e-4ea6-44c5-a06d-643e67a8ce6c
+firstPublishExternalDate: 2018-09-07T15:08:31.393-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 03 00.785-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Reconciliation
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:57:35.095-0400
-lochandoffdate: 2018-07-25T09 29 50.625-0400
+lastPublishExternalDate: 2018-09-07T15:08:31.393-0400
+lochandoffdate: 2018-09-10T07 28 07.403-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Reconciliation
-publishexternaldate: 2018-07-23T05 57 35.095-0400
+publishexternaldate: 2018-09-07T15 08 31.393-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/reconciliation.html
-sha1: db901754a6062f1afa30b358a5886cc8ea8d4918
-topicBrowsingSortDate: 2018-07-23T05:57:35.095-0400
+sha1: 2ccd893952a845f76bd273045b0fa39588ea56ec
+topicBrowsingSortDate: 2018-09-07T15:08:31.393-0400
 index: y
 internal: n
 snippet: y

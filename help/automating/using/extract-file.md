@@ -3,13 +3,13 @@ title: Extract file
 seo-title: Extract file
 description: Extract file
 seo-description: The Extract file activity allows you to export data from Adobe Campaign in the form of an external file.
-uuid: a9b8f5ee-c176-41ca-a0a9-923de2040b5b
+uuid: a8365187-e7e2-4c2e-a0ad-48339da54be0
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/extract-file
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 51.628-0400
-cq-lastreplicated: 2018-07-23T05 57 37.929-0400
+cq-lastmodified: 2018-09-10T07 28 20.512-0400
+cq-lastreplicated: 2018-09-07T15 08 37.155-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: 38ce680e-d05a-4e12-bd4e-f3ac15a9ea90
-firstPublishExternalDate: 2018-07-23T05:57:37.820-0400
+discoiquuid: 0282a6e5-9cab-43ed-999e-89218c13a133
+firstPublishExternalDate: 2018-09-07T15:08:36.885-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 41.622-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Extract file
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:57:37.820-0400
-lochandoffdate: 2018-07-25T09 29 51.628-0400
+lastPublishExternalDate: 2018-09-07T15:08:36.885-0400
+lochandoffdate: 2018-09-10T07 28 20.510-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Extract file
-publishexternaldate: 2018-07-23T05 57 37.820-0400
+publishexternaldate: 2018-09-07T15 08 36.885-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/extract-file.html
-sha1: 8e1227d0d63cd55691e716f318b9c74cf81b3c82
-topicBrowsingSortDate: 2018-07-23T05:57:37.820-0400
+sha1: 28139f7f216d1e57341bdfd2418663a8ac54fefc
+topicBrowsingSortDate: 2018-09-07T15:08:36.885-0400
 index: y
 internal: n
 snippet: y

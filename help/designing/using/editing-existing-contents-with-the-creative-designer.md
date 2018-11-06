@@ -2,14 +2,14 @@
 title: Editing existing contents with the Creative Designer
 seo-title: Editing existing contents with the Creative Designer
 description: Editing existing contents with the Creative Designer
-seo-description: Learn how to make existing contents fully compliant with the Creative Designer interface.
-uuid: c7cd0455-43b0-4d79-9948-78308ffafe6e
+seo-description: Discover how to make existing contents fully compliant with the Creative Designer interface.
+uuid: 1b5d8b3e-2201-4b79-a869-c634881c93b6
 content-encoding: UTF-8
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/editing-existing-contents-with-the-creative-designer
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-26T02 53 41.976-0400
-cq-lastreplicated: 2018-07-23T08 13 40.964-0400
+cq-lastmodified: 2018-09-10T07 24 34.774-0400
+cq-lastreplicated: 2018-09-07T14 55 41.401-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: designing
 content-type: reference
 topic-tags: loading-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: 8a971a01-fbc5-4abf-a483-e0add33dba66
-firstPublishExternalDate: 2018-07-23T05:58:23.177-0400
+discoiquuid: 443bd58f-f9cf-445e-840a-96ad57f8d4f0
+firstPublishExternalDate: 2018-09-07T14:55:39.402-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-07-23T07 30 13.445-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Editing existing contents with the Creative Designer
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T08:13:40.911-0400
-lochandoffdate: 2018-07-26T02 53 41.975-0400
+lastPublishExternalDate: 2018-09-07T14:55:39.402-0400
+lochandoffdate: 2018-09-10T07 24 34.773-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Editing existing contents with the Creative Designer
-publishexternaldate: 2018-07-23T08 13 40.911-0400
+publishexternaldate: 2018-09-07T14 55 39.402-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/editing-existing-contents-with-the-creative-designer.html
-sha1: db9d89c2d09c45d1bf17a5df054debde95500038
-topicBrowsingSortDate: 2018-07-23T08:13:40.911-0400
+sha1: acbe53da84cfb6fd0b942cb10e5afc875af18964
+topicBrowsingSortDate: 2018-09-07T14:55:39.402-0400
 index: y
 internal: n
 snippet: y
@@ -196,46 +196,40 @@ Use the following DOM hierarchy:
 
 Use the following CSS class names within the DOM hierarchy described above:
 
-* **container** - on the main ****
-
-  node [1]: defines the first container element of the content.
-
-* **structure** - on a ****
-
-  node [2]: defines a node as a **structure** container.
-
-* **structure__table** - on a **table** node [3]: defines a node as a **table structure** wrapper.
-* **colspan1** / **colspan2** / **colspan3** / **colspan4** - on a **th** node [4]: defines the number of columns that will compose a **structure**.
-* **fragment** - on a **div** node [5]: defines a node as a **fragment**.
-* **component** - on a **div** node [5]: defines a node as a **component**.
-* **button-container** - on a **div** node [6]: button component wrapper class name.
-* **text-container** - on a **div** node [6]: text component wrapper class name.
-* **image-container** - on a **div** node [6]: image component wrapper class name.
-* **divider-container** - on a **div** node [6]: divider component wrapper class name.
+* **container** - on the main **&lt;div&gt;** node [1]: defines the first container element of the content.
+* **structure** - on a **&lt;div&gt;** node [2]: defines a node as a **structure** container.
+* **structure__table** - on a **&lt;table&gt;** node [3]: defines a node as a **table structure** wrapper.
+* **colspan1** / **colspan2** / **colspan3** / **colspan4** - on a **&lt;th&gt;** node [4]: defines the number of columns that will compose a **structure**.
+* **fragment** - on a **&lt;div&gt;** node [5]: defines a node as a **fragment**.
+* **component** - on a **&lt;div&gt;** node [5]: defines a node as a **component**.
+* **button-container** - on a **&lt;div&gt;** node [6]: button component wrapper class name.
+* **text-container** - on a **&lt;div&gt;** node [6]: text component wrapper class name.
+* **image-container** - on a **&lt;div&gt;** node [6]: image component wrapper class name.
+* **divider-container** - on a **&lt;div&gt;** node [6]: divider component wrapper class name.
 
 ### Data attributes
 
 Use the following data attributes within the DOM hierarchy described above:
 
-* **data-structure-id** - on a **structure div** node [2]: defines the ID of the **structure** corresponding to its column arrangement.
+* **data-structure-id** - on a **structure &lt;div&gt;** node [2]: defines the ID of the **structure** corresponding to its column arrangement.
 
   Possible values: **1-1-column** | **1-2-column** | **1-3-column** | **2-1-column** | **2-2-column** | **3-1-column** | **3-3-column** | **4-4-column**
 
-* **data-structure-name** - on a **structure div** node [2]: defines the name of the structure. It is namespaced with **richtext**.
+* **data-structure-name** - on a **structure &lt;div&gt;** node [2]: defines the name of the structure. It is namespaced with **richtext**.
 
   Example: **richtext.structure_1_1_column**
 
-* **data-component-id** - on a **component div** node [5]: defines the ID of a **component**.
+* **data-component-id** - on a **component &lt;div&gt;** node [5]: defines the ID of a **component**.
 
   Possible values: **button** | **image** | **text** | **divider** | **social** | **carousel**
 
-* **data-component-name** - on a **component div** node [5]: defines the name of the component. It is namespaced with **richtext**.
+* **data-component-name** - on a **component &lt;div&gt;** node [5]: defines the name of the component. It is namespaced with **richtext**.
 
   Example: **richtext.component_button**
 
 ### Other attributes
 
-* **contenteditable** - on a **component wrapper div** node [6]: allows to make the component editable (for text type components).
+* **contenteditable** - on a **component wrapper &lt;div&gt;** node [6]: allows to make the component editable (for text type components).
 
   Possible values: **true** | **false**
 

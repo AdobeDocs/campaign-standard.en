@@ -3,13 +3,13 @@ title: Segmentation
 seo-title: Segmentation
 description: Segmentation
 seo-description: The Segmentation activity lets you create one or several segments from a population calculated by activities placed earlier in the workflow.
-uuid: 6a70ea22-d008-4bfd-b98e-c5bfa0065662
+uuid: ad786b4e-e60d-4bb4-9a7e-8120448ec7a9
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/segmentation
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 27.624-0400
-cq-lastreplicated: 2018-07-23T05 57 04.296-0400
+cq-lastmodified: 2018-09-10T07 25 04.345-0400
+cq-lastreplicated: 2018-09-07T14 54 28.640-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: b7692164-e563-4ee2-af33-e5a20b37ae58
-firstPublishExternalDate: 2018-07-23T05:57:04.258-0400
+discoiquuid: 969f57f4-ff57-41f4-847b-5f229d1bb89b
+firstPublishExternalDate: 2018-09-07T14:54:26.287-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 32.963-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Segmentation
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:57:04.258-0400
-lochandoffdate: 2018-07-25T09 29 27.624-0400
+lastPublishExternalDate: 2018-09-07T14:54:26.287-0400
+lochandoffdate: 2018-09-10T07 25 04.343-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Segmentation
-publishexternaldate: 2018-07-23T05 57 04.258-0400
+publishexternaldate: 2018-09-07T14 54 26.287-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/segmentation.html
-sha1: e0511e48e04068400a55d7e07563da60500f8d1f
-topicBrowsingSortDate: 2018-07-23T05:57:04.258-0400
+sha1: 5082d97cbfe6c67db5bbdab28f3dc295ffd17602
+topicBrowsingSortDate: 2018-09-07T14:54:26.287-0400
 index: y
 internal: n
 snippet: y

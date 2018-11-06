@@ -1,42 +1,45 @@
 <html>
  <head>
-  <meta content="light" name="heroGradient" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="2018-07-25T09:29:16.777-0400" name="locHandOffDate" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="true" name="jcr:isCheckedOut" />
   <meta content="false" name="isReadyForLocalization" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="2018-07-23T05:53:29.278-0400" name="cq:lastReplicated" />
-  <meta content="https://helpx.adobe.com/campaign/standard/administration/using/use-case--users-e-security.html" name="publishExternalURL" />
-  <meta content="" name="jcr:baseVersion" />
   <meta content="admin" name="jcr:createdBy" />
   <meta content="Use case: users &amp; security" name="jcr:description" />
-  <meta content="2018-02-16T08:05:00.426-0500" name="jcr:created" />
-  <meta content="2018-07-23T05:53:29.218-0400" name="lastPublishExternalDate" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="2018-07-23T05:53:29.218-0400" name="firstPublishExternalDate" />
-  <meta content="fa6c2cdf-3030-4f6f-8f14-aa6064aa9107" name="jcr:predecessors" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="Discover access and security management through a step-by-step use case." name="seoDescription" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
   <meta content="b643cc1c-0c90-449f-b326-1cc9de0a26c9" name="jcr:uuid" />
-  <meta content="Use case: users &amp; security" name="jcr:title" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="audience:administration" name="primaryAudienceTag" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="2018-07-23T05:53:29.218-0400" name="publishExternalDate" />
-  <meta content="Use case: users &amp; security" name="navTitle" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:administration;content_type:reference;topic_tags:users-e-security" name="cq:tags" />
   <meta content="" name="jcr:versionHistory" />
-  <meta content="2018-07-25T09:29:16.777-0400" name="cq:lastModified" />
-  <meta content="2018-07-23T05:53:29.218-0400" name="topicBrowsingSortDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-09-10T07:23:26.777-0400" name="locHandOffDate" />
+  <meta content="fa6c2cdf-3030-4f6f-8f14-aa6064aa9107" name="jcr:predecessors" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="Use case: users &amp; security" name="jcr:title" />
+  <meta content="https://helpx.adobe.com/campaign/standard/administration/using/use-case--users-e-security.html" name="publishExternalURL" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:administration;content_type:reference;topic_tags:users-e-security" name="cq:tags" />
+  <meta content="2018-09-07T14:41:56.889-0400" name="topicBrowsingSortDate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
   <meta content="" name="jcr:primaryType" />
+  <meta content="audience:administration" name="primaryAudienceTag" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-09-07T14:41:58.452-0400" name="cq:lastReplicated" />
+  <meta content="2018-09-07T14:41:56.889-0400" name="firstPublishExternalDate" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2018-02-16T08:05:00.426-0500" name="jcr:created" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Discover access and security management through a step-by-step use case." name="seoDescription" />
+  <meta content="Use case: users &amp; security" name="navTitle" />
+  <meta content="2018-09-10T07:23:26.779-0400" name="cq:lastModified" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-09-07T14:41:56.889-0400" name="lastPublishExternalDate" />
+  <meta content="2018-09-07T14:41:56.889-0400" name="publishExternalDate" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="sauviat" name="contentOwner" />
  </head>
  <body>
+  <note>
+   <p> Only users with administration rights have access to the configuration of users and security groups in the Admin console and in Adobe Campaign. Note that new Campaign Standard instances, as well as existing instances with no geographical units created, cannot have the geographical unit capability implemented starting 18.7 release. </p> 
+  </note>
   <p>Specialized in sportswear, Geometrixx wants to open new branches across the world: one for clothes in France called Geometrixx Clothes and another one for sports equipment in New York called Geometrixx Sport. </p> 
   <p>Each branch will assign a security group composed of a geographical and organizational unit. The French team will be in charge of running the publications whereas the New York team will work on workflows only.</p> 
   <p>The goal here is to start by creating geographical and organizational units in Adobe Campaign then create a security group with the different roles along with users in the Admin console. </p> 
@@ -47,9 +50,6 @@
    <li><p>Create a security group and a product profile</p> </li>
    <li><p>Create users</p> </li>
   </ul>
-  <note>
-   <p> Only users with administration rights have access to the configuration of users and security groups in the Admin console and in Adobe Campaign. </p> 
-  </note>
   <h2>Step 1: Create a geographical unit</h2>
   <p>In order to define a hierarchical structure to give users a filtered view, Geometrixx will have to assign each brand to its respective country. </p> 
   <p>The user will then have read and write access to all objects within their units.</p> 

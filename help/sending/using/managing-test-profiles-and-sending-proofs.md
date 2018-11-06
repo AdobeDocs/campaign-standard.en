@@ -3,13 +3,13 @@ title: Managing test profiles and sending proofs
 seo-title: Managing test profiles and sending proofs
 description: Managing test profiles and sending proofs
 seo-description: Learn how to manage test profiles and proofs.
-uuid: 3eb8959a-3c6a-4864-9ef8-ca60c3a85a4d
+uuid: da332ac1-aa6d-4b63-8d96-c4c93e5c7570
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/sending/using/managing-test-profiles-and-sending-proofs
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-30T04 53 47.852-0400
-cq-lastreplicated: 2018-07-23T06 02 17.544-0400
+cq-lastmodified: 2018-09-08T08 23 03.535-0400
+cq-lastreplicated: 2018-09-07T15 11 14.847-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 cq-template: /apps/help/templates/article-3
-discoiquuid: 5ea39833-1999-40cd-a46c-a399df46a9f4
-firstPublishExternalDate: 2018-07-23T06:02:17.439-0400
+discoiquuid: 83c592fc-2db7-4288-967d-163259266cd8
+firstPublishExternalDate: 2018-09-07T15:11:14.767-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 29.708-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Managing test profiles and sending proofs
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:02:17.439-0400
-lochandoffdate: 2018-07-30T04 53 47.852-0400
+lastPublishExternalDate: 2018-09-07T15:11:14.767-0400
+lochandoffdate: 2018-09-08T08 23 03.535-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Managing test profiles and sending proofs
-publishexternaldate: 2018-07-23T06 02 17.439-0400
+publishexternaldate: 2018-09-07T15 11 14.767-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/sending/using/managing-test-profiles-and-sending-proofs.html
-sha1: 698670668ac497c83acadb4c5d108725d1f848b5
-topicBrowsingSortDate: 2018-07-23T06:02:17.439-0400
+sha1: 2b1daa8ea3a151888982ba667b79ec3e8f528f13
+topicBrowsingSortDate: 2018-09-07T15:11:14.767-0400
 index: y
 internal: n
 snippet: y

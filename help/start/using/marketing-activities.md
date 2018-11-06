@@ -2,14 +2,14 @@
 title: Marketing activities
 seo-title: Marketing activities
 description: Marketing activities
-seo-description: "Learn how to create and manage your marketing activities: campaigns, email, SMS and push notification deliveries, landing pages, workflows. You can easily design a new activity, edit an existing one, and consult their status and validity."
-uuid: 8c9b5e1b-0718-4665-be2e-369edb83c014
+seo-description: Learn how to create and manage your marketing activities: campaigns, email, SMS and push notification deliveries, landing pages, workflows. You can easily design a new activity, edit an existing one, and consult their status and validity.
+uuid: aef754d2-7354-485d-90f6-565a4dc2bb07
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/start/using/marketing-activities
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-27T03 26 58.353-0400
-cq-lastreplicated: 2018-07-23T06 00 44.925-0400
+cq-lastmodified: 2018-09-08T08 23 07.706-0400
+cq-lastreplicated: 2018-09-07T15 08 27.528-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: start
 content-type: reference
 topic-tags: marketing-plans
 cq-template: /apps/help/templates/article-3
-discoiquuid: e802236d-1e9a-42da-95e8-c289fd0da4bb
-firstPublishExternalDate: 2018-07-23T06:00:44.893-0400
+discoiquuid: 76052ece-638a-42cc-9f1e-def6ba7252df
+firstPublishExternalDate: 2018-09-07T15:08:27.075-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 19.018-0400
@@ -26,15 +26,16 @@ jcr-createdby: admin
 jcr-description: Marketing activities
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:00:44.893-0400
-lochandoffdate: 2018-07-27T03 26 58.352-0400
+lastPublishExternalDate: 2018-09-07T15:08:27.075-0400
+lochandoffdate: 2018-09-08T08 23 07.706-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
+moreHelpPaths: /content/help/en/campaign/standard/start/morehelp/marketing-plans;/content/help/en/campaign/standard/start/morehelp/marketing-plans
 navTitle: Marketing activities
-publishexternaldate: 2018-07-23T06 00 44.893-0400
+publishexternaldate: 2018-09-07T15 08 27.075-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/start/using/marketing-activities.html
-sha1: b35a2bd6ee318b98c8d4d1205af5e99ace02232a
-topicBrowsingSortDate: 2018-07-23T06:00:44.893-0400
+sha1: 83234e3f67e51d86bbe1926bd5e6a832b2fae822
+topicBrowsingSortDate: 2018-09-07T15:08:27.075-0400
 index: y
 internal: n
 snippet: y

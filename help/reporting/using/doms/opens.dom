@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="Opens" name="jcr:title" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="https://helpx.adobe.com/campaign/standard/reporting/using/opens.html" name="publishExternalURL" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="audience:reporting" name="primaryAudienceTag" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="2018-07-27T03:27:00.073-0400" name="locHandOffDate" />
-  <meta content="2018-07-23T06:00:20.925-0400" name="topicBrowsingSortDate" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="a6e3a470-997f-4fc3-a1fd-5a06c1239fdf" name="jcr:uuid" />
-  <meta content="2018-07-23T06:00:20.925-0400" name="firstPublishExternalDate" />
-  <meta content="With the Opens report, learn which delivery was the most viewed according to various criteria." name="seoDescription" />
-  <meta content="2018-07-23T06:00:20.968-0400" name="cq:lastReplicated" />
-  <meta content="2018-07-23T06:00:20.925-0400" name="publishExternalDate" />
-  <meta content="2018-07-23T06:00:20.925-0400" name="lastPublishExternalDate" />
-  <meta content="2018-03-15T09:01:54.390-0400" name="jcr:created" />
   <meta content="" name="jcr:primaryType" />
-  <meta content="light" name="heroGradient" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="2cc35b10-abab-40e3-87fb-4a16772faa82" name="jcr:predecessors" />
-  <meta content="Opens" name="navTitle" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-03-15T09:01:54.390-0400" name="jcr:created" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-09-07T15:08:13.356-0400" name="topicBrowsingSortDate" />
+  <meta content="2018-09-10T02:19:02.545-0400" name="cq:lastModified" />
+  <meta content="a6e3a470-997f-4fc3-a1fd-5a06c1239fdf" name="jcr:uuid" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
   <meta content="Opens" name="jcr:description" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="2018-07-27T03:27:00.075-0400" name="cq:lastModified" />
+  <meta content="2018-09-07T15:08:13.356-0400" name="lastPublishExternalDate" />
   <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="light" name="heroGradient" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2cc35b10-abab-40e3-87fb-4a16772faa82" name="jcr:predecessors" />
+  <meta content="2018-09-07T15:08:13.356-0400" name="publishExternalDate" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
   <meta content="" name="jcr:baseVersion" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Opens" name="navTitle" />
   <meta content="products:SG_CAMPAIGN/STANDARD;audience:reporting;content_type:reference;topic_tags:list-of-reports" name="cq:tags" />
+  <meta content="Opens" name="jcr:title" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-09-07T15:08:13.587-0400" name="cq:lastReplicated" />
+  <meta content="2018-09-10T02:19:02.544-0400" name="locHandOffDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-09-07T15:08:13.356-0400" name="firstPublishExternalDate" />
+  <meta content="https://helpx.adobe.com/campaign/standard/reporting/using/opens.html" name="publishExternalURL" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="With the Opens report, learn which delivery was the most viewed according to various criteria." name="seoDescription" />
+  <meta content="audience:reporting" name="primaryAudienceTag" />
+  <meta content="sauviat" name="contentOwner" />
  </head>
  <body>
   <p>The <strong>Opens</strong> report identifies the deliveries that have been most viewed by recipients.</p> 

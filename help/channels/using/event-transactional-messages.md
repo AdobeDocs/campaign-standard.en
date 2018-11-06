@@ -3,13 +3,13 @@ title: Event transactional messages
 seo-title: Event transactional messages
 description: Event transactional messages
 seo-description: Learn how to create and publish an event transactional message.
-uuid: b78f047b-ae1c-42d5-bb36-4408e65913fc
+uuid: 797d9fff-a168-445c-bfe0-568bfac4244d
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/event-transactional-messages
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-30T04 54 05.409-0400
-cq-lastreplicated: 2018-07-23T06 03 00.012-0400
+cq-lastmodified: 2018-09-08T08 23 17.976-0400
+cq-lastreplicated: 2018-09-07T15 12 29.706-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 cq-template: /apps/help/templates/article-3
-discoiquuid: f28ee10d-070b-4a2c-85ac-f9f03042fc94
-firstPublishExternalDate: 2018-07-23T06:02:59.976-0400
+discoiquuid: 02e5611a-07cb-4ee8-bc54-8fe5c432ac68
+firstPublishExternalDate: 2018-09-07T15:12:29.640-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 20.940-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Event transactional messages
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:02:59.976-0400
-lochandoffdate: 2018-07-30T04 54 05.408-0400
+lastPublishExternalDate: 2018-09-07T15:12:29.640-0400
+lochandoffdate: 2018-09-08T08 23 17.976-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Event transactional messages
-publishexternaldate: 2018-07-23T06 02 59.976-0400
+publishexternaldate: 2018-09-07T15 12 29.640-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/event-transactional-messages.html
-sha1: 61249259613b48669887c7b3f7b61df5e103400a
-topicBrowsingSortDate: 2018-07-23T06:02:59.976-0400
+sha1: ac579d08bd3dfd4870343779aaeef89c96e50197
+topicBrowsingSortDate: 2018-09-07T15:12:29.640-0400
 index: y
 internal: n
 snippet: y

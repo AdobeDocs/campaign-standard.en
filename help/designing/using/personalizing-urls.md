@@ -3,13 +3,13 @@ title: Personalizing URLs
 seo-title: Personalizing URLs
 description: Personalizing URLs
 seo-description: Learn how to personalize URLs in a delivery by adding personalization fields, content blocks, or dynamic content.
-uuid: 342e2e97-f0e5-4ede-9cfe-62601e848640
+uuid: 686a44d2-9602-44e3-a902-82daaff2de01
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/personalizing-urls
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-26T02 54 05.712-0400
-cq-lastreplicated: 2018-07-23T08 14 01.930-0400
+cq-lastmodified: 2018-09-10T07 26 12.903-0400
+cq-lastreplicated: 2018-09-07T15 07 41.182-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: designing
 content-type: reference
 topic-tags: managing-links
 cq-template: /apps/help/templates/article-3
-discoiquuid: 361b2439-0844-4864-86f0-e7ca5cdfb93d
-firstPublishExternalDate: 2018-07-23T05:58:49.087-0400
+discoiquuid: 79779d58-f558-461f-aa3a-9be28be13aea
+firstPublishExternalDate: 2018-09-07T15:07:40.611-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 17.185-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Personalizing URLs
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T08:14:01.884-0400
-lochandoffdate: 2018-07-26T02 54 05.711-0400
+lastPublishExternalDate: 2018-09-07T15:07:40.611-0400
+lochandoffdate: 2018-09-10T07 26 12.902-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Personalizing URLs
-publishexternaldate: 2018-07-23T08 14 01.884-0400
+publishexternaldate: 2018-09-07T15 07 40.611-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/personalizing-urls.html
-sha1: 8f7a9fef5e41b0f88c571c45579ce4ec633b6556
-topicBrowsingSortDate: 2018-07-23T08:14:01.884-0400
+sha1: ef1d4400b06adedc4810b09a62b278f6fda1a5c3
+topicBrowsingSortDate: 2018-09-07T15:07:40.611-0400
 index: y
 internal: n
 snippet: y

@@ -3,14 +3,13 @@ title: Customizing a push notification
 seo-title: Customizing a push notification
 description: Customizing a push notification
 seo-description: Learn how to customize your push notifications with various advanced options.
-uuid: 871d44cc-8a78-4192-acf0-8631ece9f1d0
+uuid: a1a67c3e-539c-4485-9bea-729e11a9bfff
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/customizing-a-push-notification
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-30T04 53 56.548-0400
-cq-lastmodifiedby: mancini
-cq-lastreplicated: 2018-07-23T06 02 51.505-0400
+cq-lastmodified: 2018-09-08T08 23 10.041-0400
+cq-lastreplicated: 2018-09-07T15 11 55.557-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -18,8 +17,8 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 cq-template: /apps/help/templates/article-3
-discoiquuid: b90f24a3-d08d-4f4c-a1dd-739206847db7
-firstPublishExternalDate: 2018-07-23T06:02:51.469-0400
+discoiquuid: 96c7a767-9110-4d2b-8ccb-1593253d4d41
+firstPublishExternalDate: 2018-09-07T15:11:55.506-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 03 20.825-0400
@@ -27,16 +26,15 @@ jcr-createdby: admin
 jcr-description: Customizing a push notification
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:02:51.469-0400
-lochandoffdate: 2018-07-30T04 53 56.548-0400
+lastPublishExternalDate: 2018-09-07T15:11:55.506-0400
+lochandoffdate: 2018-09-08T08 23 10.041-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
-moreHelpPaths: /content/help/en/campaign/standard/channels/morehelp/push-notifications;/content/help/en/campaign/standard/channels/morehelp/push-notifications
 navTitle: Customizing a push notification
-publishexternaldate: 2018-07-23T06 02 51.469-0400
+publishexternaldate: 2018-09-07T15 11 55.506-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/customizing-a-push-notification.html
-sha1: f19ef986bcc0f6af97ef83df0ee90463a628e84c
-topicBrowsingSortDate: 2018-07-23T06:02:51.469-0400
+sha1: 575402819f2f7419498ae774626c02198500b14a
+topicBrowsingSortDate: 2018-09-07T15:11:55.506-0400
 index: y
 internal: n
 snippet: y

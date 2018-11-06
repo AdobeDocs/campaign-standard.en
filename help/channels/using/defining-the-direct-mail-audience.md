@@ -3,13 +3,13 @@ title: Defining the direct mail audience
 seo-title: Defining the direct mail audience
 description: Defining the direct mail audience
 seo-description: Learn how to define the target for your direct mail delivery.
-uuid: 905eb78e-42f4-4071-8399-ba3231a9c7ed
+uuid: dedf217c-4aa2-4fb1-89f5-ece9aaaba0b8
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/defining-the-direct-mail-audience
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-30T04 54 03.803-0400
-cq-lastreplicated: 2018-07-23T06 02 56.752-0400
+cq-lastmodified: 2018-09-08T08 23 17.189-0400
+cq-lastreplicated: 2018-09-07T15 12 26.379-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: channels
 content-type: reference
 topic-tags: direct-mail
 cq-template: /apps/help/templates/article-3
-discoiquuid: 59475736-5cc0-4c58-8d8e-f508e8ef29ec
-firstPublishExternalDate: 2018-07-23T06:02:56.722-0400
+discoiquuid: 8d03e83b-1ab3-467f-be82-e00db67a86c2
+firstPublishExternalDate: 2018-09-07T15:12:26.338-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 40.462-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Defining the direct mail audience
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:02:56.722-0400
-lochandoffdate: 2018-07-30T04 54 03.803-0400
+lastPublishExternalDate: 2018-09-07T15:12:26.338-0400
+lochandoffdate: 2018-09-08T08 23 17.189-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Defining the direct mail audience
-publishexternaldate: 2018-07-23T06 02 56.722-0400
+publishexternaldate: 2018-09-07T15 12 26.338-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/defining-the-direct-mail-audience.html
-sha1: 14213fd8036d6274654a7e1a19bbe2539f09f555
-topicBrowsingSortDate: 2018-07-23T06:02:56.722-0400
+sha1: 8479015b00ca7d8989a2509a6e87d912477ef914
+topicBrowsingSortDate: 2018-09-07T15:12:26.338-0400
 index: y
 internal: n
 snippet: y

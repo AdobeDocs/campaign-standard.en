@@ -3,13 +3,13 @@ title: Resource statuses
 seo-title: Resource statuses
 description: Resource statuses
 seo-description: Discover the different resource statuses.
-uuid: 52efb382-ea63-4c29-bc66-84408ad4d2c4
+uuid: b1c2c1a8-e989-43b8-9a4a-2bc4e55fe3bb
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/developing/using/resource-statuses
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-26T02 53 19.100-0400
-cq-lastreplicated: 2018-07-23T05 59 03.665-0400
+cq-lastmodified: 2018-09-10T02 18 31.224-0400
+cq-lastreplicated: 2018-09-07T14 48 57.713-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: developing
 content-type: reference
 topic-tags: about-custom-resources
 cq-template: /apps/help/templates/article-3
-discoiquuid: 0c9f694c-2d77-4269-9ac7-ca71624615cb
-firstPublishExternalDate: 2018-07-23T05:59:03.541-0400
+discoiquuid: 8b1b23b3-7582-4727-ac7b-27fc22197cc7
+firstPublishExternalDate: 2018-09-07T14:48:55.263-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 16.807-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Resource statuses
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:59:03.541-0400
-lochandoffdate: 2018-07-26T02 53 19.099-0400
+lastPublishExternalDate: 2018-09-07T14:48:55.263-0400
+lochandoffdate: 2018-09-10T02 18 31.223-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Resource statuses
-publishexternaldate: 2018-07-23T05 59 03.541-0400
+publishexternaldate: 2018-09-07T14 48 55.263-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/resource-statuses.html
-sha1: 7a4255db17f5b6ce12090b72d56547c11ecd733a
-topicBrowsingSortDate: 2018-07-23T05:59:03.541-0400
+sha1: aa5fcbfac98e5126ce9ae90f097484d3a8388959
+topicBrowsingSortDate: 2018-09-07T14:48:55.263-0400
 index: y
 internal: n
 snippet: y

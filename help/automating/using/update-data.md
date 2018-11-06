@@ -3,13 +3,13 @@ title: Update data
 seo-title: Update data
 description: Update data
 seo-description: The Update data activity allows you to perform a mass update on fields in the database.
-uuid: 0c63c6ac-cf6f-4cc4-ac41-ef5f82693563
+uuid: 485af1f6-5e2e-44e4-b9d0-f1064f4bdbda
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/update-data
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 48.080-0400
-cq-lastreplicated: 2018-07-23T05 57 25.356-0400
+cq-lastmodified: 2018-09-10T07 27 43.993-0400
+cq-lastreplicated: 2018-09-07T15 08 13.207-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: 2bf257c3-dd1a-438c-9e27-af5c0a450ff3
-firstPublishExternalDate: 2018-07-23T05:57:25.282-0400
+discoiquuid: b0bd5ff6-83a9-49da-86ab-57c626ea12ad
+firstPublishExternalDate: 2018-09-07T15:08:12.976-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 24.117-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Update data
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:57:25.282-0400
-lochandoffdate: 2018-07-25T09 29 48.080-0400
+lastPublishExternalDate: 2018-09-07T15:08:12.976-0400
+lochandoffdate: 2018-09-10T07 27 43.991-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Update data
-publishexternaldate: 2018-07-23T05 57 25.282-0400
+publishexternaldate: 2018-09-07T15 08 12.976-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/update-data.html
-sha1: ca9b281087d7764549ff1227962d38ca1c64a1fb
-topicBrowsingSortDate: 2018-07-23T05:57:25.282-0400
+sha1: aebb1a6a0696e307cf05bd8363a399ed2edc8dd5
+topicBrowsingSortDate: 2018-09-07T15:08:12.976-0400
 index: y
 internal: n
 snippet: y

@@ -3,13 +3,13 @@ title: Promoting a service
 seo-title: Promoting a service
 description: Promoting a service
 seo-description: Use Adobe Campaign to promote a service and engage your customers through dedicated landing pages, emails or directly on your website.
-uuid: fcbf2094-1ab3-4ae3-a83f-2ca162362a92
+uuid: e33f9f4a-1e0d-49a4-8186-56b15d8d0ae7
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/audiences/using/promoting-a-service
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 18.606-0400
-cq-lastreplicated: 2018-07-23T05 55 30.524-0400
+cq-lastmodified: 2018-09-10T07 23 28.763-0400
+cq-lastreplicated: 2018-09-07T14 51 21.342-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
 cq-template: /apps/help/templates/article-3
-discoiquuid: cfaf1a16-da6d-4332-845d-f1485a7ba237
-firstPublishExternalDate: 2018-07-23T05:55:30.399-0400
+discoiquuid: 55deffa4-4c57-45a4-acab-fba0869de9b0
+firstPublishExternalDate: 2018-09-07T14:51:19.200-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 26.129-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Promoting a service
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:55:30.399-0400
-lochandoffdate: 2018-07-25T09 29 18.606-0400
+lastPublishExternalDate: 2018-09-07T14:51:19.200-0400
+lochandoffdate: 2018-09-10T07 23 28.762-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Promoting a service
-publishexternaldate: 2018-07-23T05 55 30.399-0400
+publishexternaldate: 2018-09-07T14 51 19.200-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/audiences/using/promoting-a-service.html
-sha1: 75b94dfb5c80b3c6c1d55aca3ba8145e36b8874a
-topicBrowsingSortDate: 2018-07-23T05:55:30.399-0400
+sha1: 9e69ba52427028274990e61c1a776f529c969183
+topicBrowsingSortDate: 2018-09-07T14:51:19.200-0400
 index: y
 internal: n
 snippet: y

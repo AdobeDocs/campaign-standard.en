@@ -3,13 +3,13 @@ title: Transfer file
 seo-title: Transfer file
 description: Transfer file
 seo-description: The Transfer file activity allows you to receive or send files, test whether there are files present, or list files in Adobe Campaign.
-uuid: 60262a85-6163-496d-8386-448aba836458
+uuid: 5cd4621e-16da-4638-9dc3-5c92db6207e6
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/transfer-file
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 49.664-0400
-cq-lastreplicated: 2018-07-23T05 57 31.690-0400
+cq-lastmodified: 2018-09-10T07 27 58.812-0400
+cq-lastreplicated: 2018-09-07T15 08 25.965-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: 05a2e29b-54ce-4aac-89e4-8eb04cd92dec
-firstPublishExternalDate: 2018-07-23T05:57:31.551-0400
+discoiquuid: 1e2acb11-0616-464a-96d7-97fbc357c383
+firstPublishExternalDate: 2018-09-07T15:08:25.595-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 57.229-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Transfer file
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:57:31.551-0400
-lochandoffdate: 2018-07-25T09 29 49.664-0400
+lastPublishExternalDate: 2018-09-07T15:08:25.595-0400
+lochandoffdate: 2018-09-10T07 27 58.810-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Transfer file
-publishexternaldate: 2018-07-23T05 57 31.551-0400
+publishexternaldate: 2018-09-07T15 08 25.595-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/transfer-file.html
-sha1: aa93f0da56262b9c761943277c9d431756f1afdd
-topicBrowsingSortDate: 2018-07-23T05:57:31.551-0400
+sha1: ecf6911ca3533b970ed4187e3016b956cc1de059
+topicBrowsingSortDate: 2018-09-07T15:08:25.595-0400
 index: y
 internal: n
 snippet: y

@@ -3,13 +3,13 @@ title: Control rules
 seo-title: Control rules
 description: Control rules
 seo-description: Learn how to reinforce the quality check of your messages with control rules.
-uuid: e1442317-cabb-445b-b0ac-07ba0e005602
+uuid: a1ac5004-5b14-4e8c-a7a9-bf8c8951a8ea
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/control-rules
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 32.020-0400
-cq-lastreplicated: 2018-07-23T05 53 53.223-0400
+cq-lastmodified: 2018-09-10T07 26 20.747-0400
+cq-lastreplicated: 2018-09-07T15 01 22.243-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
 cq-template: /apps/help/templates/article-3
-discoiquuid: 9f49bc48-ece4-4d75-aa9a-6b4f8dd6cdee
-firstPublishExternalDate: 2018-07-23T05:53:53.161-0400
+discoiquuid: 02feb02c-92fa-4cf9-a3f0-08edd8da90d3
+firstPublishExternalDate: 2018-09-07T15:01:15.354-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-02-16T08 03 06.782-0500
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Control rules
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:53:53.161-0400
-lochandoffdate: 2018-07-25T09 29 32.020-0400
+lastPublishExternalDate: 2018-09-07T15:01:15.354-0400
+lochandoffdate: 2018-09-10T07 26 20.745-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Control rules
-publishexternaldate: 2018-07-23T05 53 53.161-0400
+publishexternaldate: 2018-09-07T15 01 15.354-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/control-rules.html
-sha1: 16ea948ec22cab3b27d0d90650d5dddf6e613171
-topicBrowsingSortDate: 2018-07-23T05:53:53.161-0400
+sha1: a7a9d935f714ddb3f2958eb63e627aab758ca9c1
+topicBrowsingSortDate: 2018-09-07T15:01:15.354-0400
 index: y
 internal: n
 snippet: y

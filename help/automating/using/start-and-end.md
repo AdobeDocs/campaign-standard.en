@@ -3,13 +3,13 @@ title: Start and end
 seo-title: Start and end
 description: Start and end
 seo-description: The Start and End activities allow you to clearly mark where your workflow starts and ends.
-uuid: bd478a57-6030-4240-ae83-afa37057cc57
+uuid: 84d2f7fb-4947-4021-bf3d-1e6a21f7960c
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/start-and-end
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 35.809-0400
-cq-lastreplicated: 2018-07-23T05 57 11.741-0400
+cq-lastmodified: 2018-09-10T07 26 08.290-0400
+cq-lastreplicated: 2018-09-07T14 58 16.813-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: 66fccf06-1cc1-4907-aa47-2aa8b7b691b6
-firstPublishExternalDate: 2018-07-23T05:57:11.698-0400
+discoiquuid: a064d6ee-1d2e-4a0e-97e9-da250535af03
+firstPublishExternalDate: 2018-09-07T14:58:14.075-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 52.636-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Start and end
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:57:11.698-0400
-lochandoffdate: 2018-07-25T09 29 35.809-0400
+lastPublishExternalDate: 2018-09-07T14:58:14.075-0400
+lochandoffdate: 2018-09-10T07 26 08.288-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Start and end
-publishexternaldate: 2018-07-23T05 57 11.698-0400
+publishexternaldate: 2018-09-07T14 58 14.075-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/start-and-end.html
-sha1: 3914b47e492b8d373e43fdd43f07f05f62b0ec24
-topicBrowsingSortDate: 2018-07-23T05:57:11.698-0400
+sha1: f69836fdc84b99f5c24ae238c26aeaf1e51557e3
+topicBrowsingSortDate: 2018-09-07T14:58:14.075-0400
 index: y
 internal: n
 snippet: y

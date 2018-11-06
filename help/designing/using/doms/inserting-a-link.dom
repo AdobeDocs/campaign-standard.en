@@ -1,40 +1,40 @@
 <html>
  <head>
   <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="2018-09-07T15:07:26.945-0400" name="cq:lastReplicated" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-09-10T07:26:07.739-0400" name="cq:lastModified" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
   <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="Inserting a link" name="jcr:title" />
   <meta content="en_us" name="jcr:language" />
-  <meta content="Learn how to personalize your email or landing page by inserting links into the HTML content elements." name="seoDescription" />
-  <meta content="2018-07-23T05:58:47.041-0400" name="firstPublishExternalDate" />
-  <meta content="2018-07-23T08:14:00.277-0400" name="cq:lastReplicated" />
+  <meta content="light" name="heroGradient" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="Inserting a link" name="jcr:description" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="2018-07-23T07:30:17.504-0400" name="jcr:created" />
+  <meta content="2018-09-07T15:07:26.356-0400" name="lastPublishExternalDate" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-09-10T07:26:07.737-0400" name="locHandOffDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Inserting a link" name="jcr:title" />
+  <meta content="https://helpx.adobe.com/campaign/standard/designing/using/inserting-a-link.html" name="publishExternalURL" />
   <meta content="e5b97996-3ca3-46e9-988d-c4effa4ef737" name="jcr:uuid" />
   <meta content="f2b368c5-6dbc-438d-b260-3ac8a996d865" name="jcr:predecessors" />
-  <meta content="2018-07-23T08:14:00.221-0400" name="publishExternalDate" />
-  <meta content="sauviat" name="contentOwner" />
   <meta content="Inserting a link" name="navTitle" />
-  <meta content="2018-07-26T02:54:04.844-0400" name="locHandOffDate" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="2018-07-23T08:14:00.221-0400" name="lastPublishExternalDate" />
-  <meta content="Inserting a link" name="jcr:description" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:managing-links" name="cq:tags" />
-  <meta content="2018-07-23T08:14:00.221-0400" name="topicBrowsingSortDate" />
-  <meta content="https://helpx.adobe.com/campaign/standard/designing/using/inserting-a-link.html" name="publishExternalURL" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="light" name="heroGradient" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="2018-07-23T07:30:17.504-0400" name="jcr:created" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="2018-07-26T02:54:04.844-0400" name="cq:lastModified" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-09-07T15:07:26.356-0400" name="firstPublishExternalDate" />
+  <meta content="Learn how to personalize your email or landing page by inserting links into the HTML content elements." name="seoDescription" />
   <meta content="audience:designing" name="primaryAudienceTag" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:managing-links" name="cq:tags" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-09-07T15:07:26.356-0400" name="topicBrowsingSortDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2018-09-07T15:07:26.356-0400" name="publishExternalDate" />
  </head>
  <body>
   <p>The editor allows you to personalize an email or landing page by inserting links into the HTML content elements.</p> 

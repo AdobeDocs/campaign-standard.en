@@ -3,13 +3,13 @@ title: Hot clicks
 seo-title: Hot clicks
 description: Hot clicks
 seo-description: With the Hot clicks out-of-the-box report, learn where your customer clicked on your delivery.
-uuid: 51a10485-63fb-4a1b-afde-71250b2179f6
+uuid: 9c151990-8c49-4649-90cf-da7af3f064b9
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/reporting/using/hot-clicks
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-27T03 27 09.626-0400
-cq-lastreplicated: 2018-07-23T06 00 24.061-0400
+cq-lastmodified: 2018-09-10T02 19 10.052-0400
+cq-lastreplicated: 2018-09-07T15 08 39.446-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 cq-template: /apps/help/templates/article-3
-discoiquuid: 0fea1c66-5a05-47ca-90c5-4f5e4ad153c3
-firstPublishExternalDate: 2018-07-23T06:00:24.030-0400
+discoiquuid: 169c1941-811c-4ed8-ac51-7256047c9eb9
+firstPublishExternalDate: 2018-09-07T15:08:38.537-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 00.205-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Hot clicks
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:00:24.030-0400
-lochandoffdate: 2018-07-27T03 27 09.625-0400
+lastPublishExternalDate: 2018-09-07T15:08:38.537-0400
+lochandoffdate: 2018-09-10T02 19 10.051-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Hot clicks
-publishexternaldate: 2018-07-23T06 00 24.030-0400
+publishexternaldate: 2018-09-07T15 08 38.537-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/hot-clicks.html
-sha1: 4451a6652bb49f0f883ac0ad974565abd13c6fa1
-topicBrowsingSortDate: 2018-07-23T06:00:24.030-0400
+sha1: b3c52426c8f48d4f3d60c17da435bdfdd0210a76
+topicBrowsingSortDate: 2018-09-07T15:08:38.537-0400
 index: y
 internal: n
 snippet: y

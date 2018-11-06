@@ -3,13 +3,13 @@ title: Previous Release Notes
 seo-title: Previous Release Notes
 description: Previous Release Notes
 seo-description: This page lists all 2015 and 2016 releases of Adobe Campaign Standard.
-uuid: 29b089da-c072-46c1-8c8d-3193fa58401c
+uuid: 2deb3f71-695a-4b26-9f21-5ef2b72d5987
 content-encoding: UTF-8
 aemsrcnodepath: /content/help/en/campaign/standard/rn/using/previous-release-notes
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-30T04 51 25.104-0400
-cq-lastreplicated: 2018-07-23T06 03 08.900-0400
+cq-lastmodified: 2018-09-10T04 10 57.242-0400
+cq-lastreplicated: 2018-09-08T12 39 23.592-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 cq-template: /apps/help/templates/article-3
-discoiquuid: 99a40c98-39f6-4168-a9ca-38c6eab74764
-firstPublishExternalDate: 2018-07-23T06:03:08.848-0400
+discoiquuid: 7c10f7a6-66fb-4408-be61-c4800934bccb
+firstPublishExternalDate: 2018-09-08T12:39:23.578-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-02-27T08 01 03.310-0500
@@ -26,16 +26,16 @@ jcr-createdby: admin
 jcr-description: Previous Release Notes
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:03:08.848-0400
-lochandoffdate: 2018-07-30T04 51 25.104-0400
+lastPublishExternalDate: 2018-09-08T12:39:23.578-0400
+lochandoffdate: 2018-09-10T04 10 57.240-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 moreHelpPaths: /content/help/en/campaign/standard/rn/morehelp/campaign-standard-releases;/content/help/en/campaign/standard/rn/morehelp/campaign-standard-releases
 navTitle: Previous Release Notes
-publishexternaldate: 2018-07-23T06 03 08.848-0400
+publishexternaldate: 2018-09-08T12 39 23.578-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/rn/using/previous-release-notes.html
-sha1: 1c8315b0958f854c438062c8d593313eefe7fd5d
-topicBrowsingSortDate: 2018-07-23T06:03:08.848-0400
+sha1: 6040c19f8a6a7fdaae944319243135ef77fe7011
+topicBrowsingSortDate: 2018-09-08T12:39:23.578-0400
 index: y
 internal: n
 snippet: y
@@ -51,7 +51,7 @@ Each release comes with new features and patches. Click on a release to view its
 
 View the latest [documentation updates](../../rn/using/documentation-updates.md) for Adobe Campaign Standard. If you're looking for a newer release, consult this [page](../../rn/using/release-notes.md).
 
-## v16.11 - November 2016 release
+## 16.11 - November 2016 release
 
 ### New capabilities
 
@@ -113,7 +113,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed an issue that prevented profiles from being extended and identifier keys from being set with a dynamic field.
 * Fixed an issue that could occur when adding links in a custom resource.
 
-## v16.10 - October 2016 release
+## 16.10 - October 2016 release
 
 ### New capabilities
 
@@ -178,7 +178,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed an issue that prevented a shared asset (**Image shared from Adobe Marketing Cloud** option) from being used in a landing page.
 * Fixed issues that occurred when editing a shared audience imported from Adobe Audience Manager.
 
-## v16.9 - September 2016 release
+## 16.9 - September 2016 release
 
 ### New capabilities
 
@@ -240,7 +240,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed a display error that would occur when a high resolution image was inserted via the **Dynamic image from Adobe Target** option.
 * Fixed an error that allowed a shared audience to be saved even if the destination ID was not set in AMC Data Source.
 
-## v16.7 - July 2016 release
+## 16.7 - July 2016 release
 
 ### New capabilities
 
@@ -294,7 +294,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 
 * When integrating a website, you can now define an expiration date for any given event. Once this date has been passed, the message corresponding to the event can no longer be sent.
 
-## v16.6 - June 2016 release
+## 16.6 - June 2016 release
 
 ### New capabilities
 
@@ -351,7 +351,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed an error that could occur when a 0-1 type link was configured from a custom resource.
 * Fixed an error that, where relevant, could prevent the defined **Constant default value** from being edited when adding a **Date and time** type field in a custom resource.
 
-## v16.5 - May 2016 release
+## 16.5 - May 2016 release
 
 ### New capabilities
 
@@ -429,7 +429,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 
 * Fixed an error regarding the name of the "Standard users" security group, that prevented users from logging in.
 
-## v16.3 - March 2016 release
+## 16.3 - March 2016 release
 
 ### New capabilities
 
@@ -485,7 +485,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 
 * Fixed an error that prevented a search on a custom resource from being carried out if the **Add search fields** option of the resource screen definition was checked and if several fields were selected in the **Filter zone composition**.
 
-## v16.2 - February 2016 release
+## 16.2 - February 2016 release
 
 ### New capabilities
 
@@ -555,7 +555,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed an error that prevented a package containing a workflow from being exported.
 * Fixed an error that could prevent several elements of the same resource from being selected.
 
-## v16.1 - January 2016 release
+## 16.1 - January 2016 release
 
 ### New capabilities
 
@@ -644,7 +644,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * It is now possible to specify a trusted IP address in the security parameters of the Message Center Push agent operator.
 * Fixed an error that could prevent a new type of event from being created.
 
-## v15.11 - November 2015 release
+## 15.11 - November 2015 release
 
 ### New capabilities
 
@@ -726,7 +726,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed an error that would cause the former package import label to display if the label had been modified.
 * Fixed an error that could cause incompatible resources to be displayed in the list of exportable resources.
 
-## v15.10 - October 2015 release
+## 15.10 - October 2015 release
 
 ### New capabilities
 
@@ -806,7 +806,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 
 * Fixed an HTML tag management error that occurred when processing dynamic content blocks.
 
-## v15.8 - August 2015 release
+## 15.8 - August 2015 release
 
 ### New capabilities
 
@@ -873,7 +873,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 
 * Fixed an error that prevented thumbnails from being generated in a load balanced environment.
 
-## v15.7 - July 2015 release
+## 15.7 - July 2015 release
 
 ### New capabilities
 
@@ -932,7 +932,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 
 * When selecting a shared resource from an email or landing page that is being edited, the list of available resources is now filtered for Adobe Campaign.
 
-## v15.6 - June 2015 release
+## 15.6 - June 2015 release
 
 ### New capabilities
 
@@ -1019,7 +1019,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 
 * You can now use the tab key to properly navigate between fields on the same page.
 
-## v15.4 - April 2015 release
+## 15.4 - April 2015 release
 
 ### New capabilities
 
@@ -1062,7 +1062,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
  </tbody> 
 </table>
 
-## v15.3 - March 2015 release
+## 15.3 - March 2015 release
 
 ### New capabilities
 
@@ -1099,3 +1099,4 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed an error which occurred when previewing a delivery.
 * Fixed an error that prevented a marketing activity from being duplicated.
 * Fixed an error that occurred when deleting a campaign.
+

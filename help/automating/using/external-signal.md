@@ -3,13 +3,13 @@ title: External signal
 seo-title: External signal
 description: External signal
 seo-description: The External signal activity triggers a workflow when some conditions are successfully met in another workflow.
-uuid: fe5a559f-857e-40bf-8b37-89e2d292ed06
+uuid: 833b6224-489b-456f-9daa-8f558ff29b0d
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/external-signal
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 39.813-0400
-cq-lastreplicated: 2018-07-23T05 57 17.437-0400
+cq-lastmodified: 2018-09-10T07 26 39.182-0400
+cq-lastreplicated: 2018-09-07T15 02 19.886-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: 396d1fa5-ee12-4e2e-a484-ec9a7e90c728
-firstPublishExternalDate: 2018-07-23T05:57:17.399-0400
+discoiquuid: 916001cb-84b2-486a-9a7c-39a710571ca9
+firstPublishExternalDate: 2018-09-07T15:02:17.021-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 02.366-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: External signal
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:57:17.399-0400
-lochandoffdate: 2018-07-25T09 29 39.813-0400
+lastPublishExternalDate: 2018-09-07T15:02:17.021-0400
+lochandoffdate: 2018-09-10T07 26 39.181-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: External signal
-publishexternaldate: 2018-07-23T05 57 17.399-0400
+publishexternaldate: 2018-09-07T15 02 17.021-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/external-signal.html
-sha1: 4778ad5914aa2707b32d8c30b9222a8d99308ed9
-topicBrowsingSortDate: 2018-07-23T05:57:17.399-0400
+sha1: fe06001e3e86b2934dd84366aaf72a0a3f307cfd
+topicBrowsingSortDate: 2018-09-07T15:02:17.021-0400
 index: y
 internal: n
 snippet: y

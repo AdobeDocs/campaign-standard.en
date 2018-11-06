@@ -3,13 +3,13 @@ title: Configuring the Campaign-Target integration
 seo-title: Configuring the Campaign-Target integration
 description: Configuring the Campaign-Target integration
 seo-description: Learn how to configure the Adobe Target integration to start using dynamic content in Adobe Campaign.
-uuid: c9956ea5-b1b7-4490-b0ff-8c180a6519ac
+uuid: 81676f38-c01c-4399-8d5f-119b1c98d4c0
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/integrating/using/configuring-the-campaign-target-integration
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-27T03 26 30.347-0400
-cq-lastreplicated: 2018-07-23T05 59 34.538-0400
+cq-lastmodified: 2018-09-10T02 18 41.760-0400
+cq-lastreplicated: 2018-09-07T15 01 14.252-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
 cq-template: /apps/help/templates/article-3
-discoiquuid: 2884ff07-f31e-43e0-84d0-b9a77b516683
-firstPublishExternalDate: 2018-07-23T05:59:34.471-0400
+discoiquuid: 347844a2-703b-433c-8407-5594e4f74c6c
+firstPublishExternalDate: 2018-09-07T15:01:11.299-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 20.080-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Configuring the Campaign-Target integration
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:59:34.471-0400
-lochandoffdate: 2018-07-27T03 26 30.345-0400
+lastPublishExternalDate: 2018-09-07T15:01:11.299-0400
+lochandoffdate: 2018-09-10T02 18 41.760-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Configuring the Campaign-Target integration
-publishexternaldate: 2018-07-23T05 59 34.471-0400
+publishexternaldate: 2018-09-07T15 01 11.299-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/configuring-the-campaign-target-integration.html
-sha1: be3001a4fea6f17f42340924a2282c628dff9efd
-topicBrowsingSortDate: 2018-07-23T05:59:34.471-0400
+sha1: 8396b39313db12761fc54da997730c2b7248f454
+topicBrowsingSortDate: 2018-09-07T15:01:11.299-0400
 index: y
 internal: n
 snippet: y

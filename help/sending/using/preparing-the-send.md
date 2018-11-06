@@ -3,13 +3,13 @@ title: Preparing the send
 seo-title: Preparing the send
 description: Preparing the send
 seo-description: Learn how to define preparation before the send.
-uuid: 2e765bfe-b429-49bd-9aef-0aa9de5a8f07
+uuid: 31dcc50f-561e-480e-85fa-009d6b086244
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/sending/using/preparing-the-send
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-30T04 53 47.139-0400
-cq-lastreplicated: 2018-07-23T06 02 16.108-0400
+cq-lastmodified: 2018-09-08T08 23 02.947-0400
+cq-lastreplicated: 2018-09-07T15 11 12.736-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 cq-template: /apps/help/templates/article-3
-discoiquuid: 7cc2a0df-e72e-4a54-a552-d6fc7c4250aa
-firstPublishExternalDate: 2018-07-23T06:02:16.009-0400
+discoiquuid: 2db57a45-c57c-4e22-8f1e-70ac6447d319
+firstPublishExternalDate: 2018-09-07T15:11:12.629-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 21.209-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Preparing the send
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:02:16.009-0400
-lochandoffdate: 2018-07-30T04 53 47.138-0400
+lastPublishExternalDate: 2018-09-07T15:11:12.629-0400
+lochandoffdate: 2018-09-08T08 23 02.947-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Preparing the send
-publishexternaldate: 2018-07-23T06 02 16.009-0400
+publishexternaldate: 2018-09-07T15 11 12.629-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/sending/using/preparing-the-send.html
-sha1: e549d8a757e26175ac96139725a92f55dc05e56b
-topicBrowsingSortDate: 2018-07-23T06:02:16.009-0400
+sha1: 3f49b53aa904cd14326c33c0b182809e1462f9ed
+topicBrowsingSortDate: 2018-09-07T15:11:12.629-0400
 index: y
 internal: n
 snippet: y
@@ -78,7 +78,7 @@ Preparation corresponds to the step of calculating the target population and gen
 
 1. Check the preparation statistics before confirming sending the messages. If the number of messages to send does not correspond to your configuration, edit the targeted population (see [Selecting an audience in a message](../../audiences/using/selecting-an-audience-in-a-message.md)) and restart the preparation.
 
-Once the preparation has been completed, your message is ready to be sent. For more on this, see [Confirming send](../../sending/using/confirming-send.md).
+Once the preparation has been completed, your message is ready to be sent. For more on this, see [Confirming send](../../sending/using/confirming-the-send.md).
 
 **Typology rules**
 

@@ -3,13 +3,13 @@ title: Data model concepts
 seo-title: Data model concepts
 description: Data model concepts
 seo-description: 
-uuid: 5d50d30a-5579-4e66-9c42-27ab55877ab8
+uuid: 57445df2-d65a-4819-9156-84ccf7780581
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/developing/using/data-model-concepts
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-26T02 53 18.518-0400
-cq-lastreplicated: 2018-07-23T05 59 01.328-0400
+cq-lastmodified: 2018-09-10T02 18 29.762-0400
+cq-lastreplicated: 2018-09-07T14 48 15.019-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: developing
 content-type: reference
 topic-tags: about-custom-resources
 cq-template: /apps/help/templates/article-3
-discoiquuid: e0a1eee9-e638-455f-a412-ea451765641a
-firstPublishExternalDate: 2018-07-23T05:59:01.288-0400
+discoiquuid: dac98177-b1a5-44eb-b2e5-be6377c42025
+firstPublishExternalDate: 2018-09-07T14:48:12.669-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 20.817-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Data model concepts
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:59:01.288-0400
-lochandoffdate: 2018-07-26T02 53 18.518-0400
+lastPublishExternalDate: 2018-09-07T14:48:12.669-0400
+lochandoffdate: 2018-09-10T02 18 29.761-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Data model concepts
-publishexternaldate: 2018-07-23T05 59 01.288-0400
+publishexternaldate: 2018-09-07T14 48 12.669-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/data-model-concepts.html
-sha1: a4d540d98bee48d73fe8fd51d72dbd525a7071a1
-topicBrowsingSortDate: 2018-07-23T05:59:01.288-0400
+sha1: 8b6db07c565e08061ac72a2c00df58a28e4947f7
+topicBrowsingSortDate: 2018-09-07T14:48:12.669-0400
 index: y
 internal: n
 snippet: y

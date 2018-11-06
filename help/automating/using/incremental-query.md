@@ -3,13 +3,13 @@ title: Incremental query
 seo-title: Incremental query
 description: Incremental query
 seo-description: The Incremental query activity allows you to filter and extract a population of elements from the Adobe Campaign database.
-uuid: db59220c-0b43-4920-8ef8-35bdcb6379fd
+uuid: 80fe3640-3ab1-448a-8f91-711fdbe1c6b7
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/incremental-query
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 25.238-0400
-cq-lastreplicated: 2018-07-23T05 56 59.197-0400
+cq-lastmodified: 2018-09-10T07 24 40.033-0400
+cq-lastreplicated: 2018-09-07T14 51 40.189-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: 4cdba5cc-a21c-4a27-b36f-aeba5254b62c
-firstPublishExternalDate: 2018-07-23T05:56:59.156-0400
+discoiquuid: 5e8bbdea-a127-4e9d-a741-5eb35da98f7c
+firstPublishExternalDate: 2018-09-07T14:51:38.403-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 03.037-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Incremental query
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:56:59.156-0400
-lochandoffdate: 2018-07-25T09 29 25.237-0400
+lastPublishExternalDate: 2018-09-07T14:51:38.403-0400
+lochandoffdate: 2018-09-10T07 24 40.032-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Incremental query
-publishexternaldate: 2018-07-23T05 56 59.156-0400
+publishexternaldate: 2018-09-07T14 51 38.403-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/incremental-query.html
-sha1: 839b6574b4a04f93060503a6dfad1b4eb307a902
-topicBrowsingSortDate: 2018-07-23T05:56:59.156-0400
+sha1: 21d254f7ff441fd475a48f2f06785178c3958dcc
+topicBrowsingSortDate: 2018-09-07T14:51:38.403-0400
 index: y
 internal: n
 snippet: y

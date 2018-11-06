@@ -3,13 +3,13 @@ title: Exclusion
 seo-title: Exclusion
 description: Exclusion
 seo-description: The Exclusion  activity allows you to exclude elements from one population according to certain criteria.
-uuid: 4ecabd67-bae3-4859-8724-86726c69a6c5
+uuid: bcfd84a9-a3c9-45ff-843e-4c2c85221196
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/exclusion
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 27.169-0400
-cq-lastreplicated: 2018-07-23T05 57 03.367-0400
+cq-lastmodified: 2018-09-10T07 24 59.514-0400
+cq-lastreplicated: 2018-09-07T14 53 43.196-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: e87b689c-0e24-4a23-803d-4008895a6d9d
-firstPublishExternalDate: 2018-07-23T05:57:03.300-0400
+discoiquuid: 43abbcae-b713-4ca6-a13c-46870f4407e4
+firstPublishExternalDate: 2018-09-07T14:53:41.677-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 09.176-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Exclusion
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:57:03.300-0400
-lochandoffdate: 2018-07-25T09 29 27.169-0400
+lastPublishExternalDate: 2018-09-07T14:53:41.677-0400
+lochandoffdate: 2018-09-10T07 24 59.513-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Exclusion
-publishexternaldate: 2018-07-23T05 57 03.300-0400
+publishexternaldate: 2018-09-07T14 53 41.677-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/exclusion.html
-sha1: bbc5a19c25b0706e266dc5225c7d0935e30ea051
-topicBrowsingSortDate: 2018-07-23T05:57:03.300-0400
+sha1: 08f2c38c279d893aee9d395e805c1c702f409bb2
+topicBrowsingSortDate: 2018-09-07T14:53:41.677-0400
 index: y
 internal: n
 snippet: y

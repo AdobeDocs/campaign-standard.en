@@ -3,13 +3,13 @@ title: Key steps to send a message
 seo-title: Key steps to send a message
 description: Key steps to send a message
 seo-description: Follow these steps to create and send messages with Adobe Campaign.
-uuid: a3674d37-4afc-4e91-b661-fe976a5f311c
+uuid: b3db3e75-5cb8-4a99-bce1-af5221bccbe9
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/key-steps-to-send-a-message
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-30T04 53 46.572-0400
-cq-lastreplicated: 2018-07-23T06 02 35.955-0400
+cq-lastmodified: 2018-09-08T08 23 02.220-0400
+cq-lastreplicated: 2018-09-07T15 11 26.814-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 cq-template: /apps/help/templates/article-3
-discoiquuid: cc8d9b93-3dfa-4d32-b1db-80a78fa6861c
-firstPublishExternalDate: 2018-07-23T06:02:35.818-0400
+discoiquuid: f2c19da9-9e3e-4542-9615-e75255aeb556
+firstPublishExternalDate: 2018-09-07T15:11:26.640-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 01.269-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Key steps to send a message
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:02:35.818-0400
-lochandoffdate: 2018-07-30T04 53 46.571-0400
+lastPublishExternalDate: 2018-09-07T15:11:26.640-0400
+lochandoffdate: 2018-09-08T08 23 02.220-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Key steps to send a message
-publishexternaldate: 2018-07-23T06 02 35.818-0400
+publishexternaldate: 2018-09-07T15 11 26.640-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/key-steps-to-send-a-message.html
-sha1: 4227d7b76bb22feca57018ebf4ba309209cc6ba9
-topicBrowsingSortDate: 2018-07-23T06:02:35.818-0400
+sha1: 1cb0ce6f4b07662338fe898df212efab5a85c6e4
+topicBrowsingSortDate: 2018-09-07T15:11:26.640-0400
 index: y
 internal: n
 snippet: y
@@ -58,7 +58,7 @@ The steps to create and send messages are as follows:
    >You can set global cross-channel fatigue rules that will automatically exclude oversollicited profiles from campaigns. See [Fatigue rules](../../administration/using/fatigue-rules.md).
 
 1. Send proofs. Refer to [Sending proofs](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs).
-1. Send the message and check its delivery. Refer to [Sending messages](../../sending/using/confirming-send.md).
+1. Send the message and check its delivery. Refer to [Sending messages](../../sending/using/confirming-the-send.md).
 1. Check the dedicated delivery reports. Refer to [Accessing reports](../../reporting/using/about-dynamic-reports.md).
 
 Advanced message parameters are detailed in the [Configuring channels](../../administration/using/about-channel-configuration.md) sections.

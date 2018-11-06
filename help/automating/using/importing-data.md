@@ -3,13 +3,13 @@ title: Importing data
 seo-title: Importing data
 description: Importing data
 seo-description: Learn how to import data with a workflow.
-uuid: adaf8645-fc45-4d70-93e6-4adbeb002d34
+uuid: fe723646-5b91-4cdc-917f-5337e62824de
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/importing-data
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 14.025-0400
-cq-lastreplicated: 2018-07-23T05 56 51.552-0400
+cq-lastmodified: 2018-09-10T07 23 07.826-0400
+cq-lastreplicated: 2018-09-07T14 47 32.894-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 cq-template: /apps/help/templates/article-3
-discoiquuid: 0a48d268-821c-496d-bc1c-02de88a0a88e
-firstPublishExternalDate: 2018-07-23T05:56:51.517-0400
+discoiquuid: c2231b6c-1e1d-4076-b761-bf720f973084
+firstPublishExternalDate: 2018-09-07T14:47:30.532-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 54.807-0400
@@ -26,15 +26,16 @@ jcr-createdby: admin
 jcr-description: Importing data
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:56:51.517-0400
-lochandoffdate: 2018-07-25T09 29 14.025-0400
+lastPublishExternalDate: 2018-09-07T14:47:30.532-0400
+lochandoffdate: 2018-09-10T07 23 07.825-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
+moreHelpPaths: /content/help/en/campaign/standard/automating/morehelp/workflow-general-operation;/content/help/en/campaign/standard/automating/morehelp/workflow-general-operation
 navTitle: Importing data
-publishexternaldate: 2018-07-23T05 56 51.517-0400
+publishexternaldate: 2018-09-07T14 47 30.532-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/importing-data.html
-sha1: 52783c87f6ea260250e7089378c6215b80674e35
-topicBrowsingSortDate: 2018-07-23T05:56:51.517-0400
+sha1: b7d9eb0398420cc7423a0a891ae234b4989c8fca
+topicBrowsingSortDate: 2018-09-07T14:47:30.532-0400
 index: y
 internal: n
 snippet: y

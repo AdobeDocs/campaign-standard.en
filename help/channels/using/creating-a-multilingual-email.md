@@ -3,13 +3,13 @@ title: Creating a multilingual email
 seo-title: Creating a multilingual email
 description: Creating a multilingual email
 seo-description: Follow these steps to create a multilingual email targeting recipients with different preferred languages.
-uuid: 3bab8c0f-791a-4ab2-b170-a101ebcac737
+uuid: 887ce2f9-0248-4402-bead-733c0a610bf0
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/creating-a-multilingual-email
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-30T04 53 49.614-0400
-cq-lastreplicated: 2018-07-23T06 02 44.248-0400
+cq-lastmodified: 2018-09-08T08 23 04.517-0400
+cq-lastreplicated: 2018-09-07T15 11 44.292-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: channels
 content-type: reference
 topic-tags: email-messages
 cq-template: /apps/help/templates/article-3
-discoiquuid: 08b0372b-b3e4-47cf-9e43-ce8b6b8ec2c2
-firstPublishExternalDate: 2018-07-23T06:02:44.215-0400
+discoiquuid: 36a855bc-8418-41ee-ad82-abf57d89cd90
+firstPublishExternalDate: 2018-09-07T15:11:44.194-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 20.103-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Creating a multilingual email
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:02:44.215-0400
-lochandoffdate: 2018-07-30T04 53 49.614-0400
+lastPublishExternalDate: 2018-09-07T15:11:44.194-0400
+lochandoffdate: 2018-09-08T08 23 04.517-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Creating a multilingual email
-publishexternaldate: 2018-07-23T06 02 44.215-0400
+publishexternaldate: 2018-09-07T15 11 44.194-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/creating-a-multilingual-email.html
-sha1: 6eb5eee1ba991513a03adae8ae07278fdf31c0b0
-topicBrowsingSortDate: 2018-07-23T06:02:44.215-0400
+sha1: b62df4fd01a011a68bb7b8235deab106b17affee
+topicBrowsingSortDate: 2018-09-07T15:11:44.194-0400
 index: y
 internal: n
 snippet: y

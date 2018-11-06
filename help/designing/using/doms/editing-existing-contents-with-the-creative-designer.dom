@@ -1,40 +1,40 @@
 <html> 
  <head> 
   <meta content="admin" name="jcr:createdBy" /> 
-  <meta content="2018-07-23T08:13:40.911-0400" name="topicBrowsingSortDate" /> 
+  <meta content="2018-09-10T07:24:34.773-0400" name="locHandOffDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="https://helpx.adobe.com/campaign/standard/designing/using/editing-existing-contents-with-the-creative-designer.html" name="publishExternalURL" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="sauviat" name="cq:lastReplicatedBy" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2018-09-07T14:55:39.402-0400" name="topicBrowsingSortDate" /> 
+  <meta content="Editing existing contents with the Creative Designer" name="jcr:title" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:loading-content" name="cq:tags" /> 
+  <meta content="Editing existing contents with the Creative Designer" name="navTitle" /> 
+  <meta content="audience:designing" name="primaryAudienceTag" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="2018-09-07T14:55:41.401-0400" name="cq:lastReplicated" /> 
+  <meta content="Discover how to make existing contents fully compliant with the Creative Designer interface." name="seoDescription" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="6fa1b71d-c7b6-493a-8fd5-43f96e59556f" name="jcr:uuid" /> 
+  <meta content="2018-09-07T14:55:39.402-0400" name="publishExternalDate" /> 
+  <meta content="2018-09-10T07:24:34.774-0400" name="cq:lastModified" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="Editing existing contents with the Creative Designer" name="jcr:description" /> 
+  <meta content="d56b907a-5b2c-4150-8569-cd1c0d9f359f" name="jcr:predecessors" /> 
+  <meta content="2018-09-07T14:55:39.402-0400" name="lastPublishExternalDate" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
   <meta content="" name="jcr:versionHistory" /> 
-  <meta content="2018-07-23T05:58:23.177-0400" name="firstPublishExternalDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="light" name="heroGradient" /> 
   <meta content="2018-07-23T07:30:13.445-0400" name="jcr:created" /> 
   <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
-  <meta content="Editing existing contents with the Creative Designer" name="navTitle" /> 
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
-  <meta content="2018-07-23T08:13:40.911-0400" name="lastPublishExternalDate" /> 
-  <meta content="2018-07-26T02:53:41.975-0400" name="locHandOffDate" /> 
-  <meta content="2018-07-26T02:53:41.976-0400" name="cq:lastModified" /> 
-  <meta content="2018-07-23T08:13:40.964-0400" name="cq:lastReplicated" /> 
-  <meta content="/etc/designs/help" name="cq:designPath" /> 
-  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
-  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
-  <meta content="en_us" name="jcr:language" /> 
-  <meta content="Editing existing contents with the Creative Designer" name="jcr:description" /> 
-  <meta content="audience:designing" name="primaryAudienceTag" /> 
-  <meta content="true" name="jcr:isCheckedOut" /> 
-  <meta content="light" name="heroGradient" /> 
-  <meta content="https://helpx.adobe.com/campaign/standard/designing/using/editing-existing-contents-with-the-creative-designer.html" name="publishExternalURL" /> 
-  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
-  <meta content="" name="jcr:primaryType" /> 
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
-  <meta content="Learn how to make existing contents fully compliant with the Creative Designer interface." name="seoDescription" /> 
+  <meta content="2018-09-07T14:55:39.402-0400" name="firstPublishExternalDate" /> 
   <meta content="Activate" name="cq:lastReplicationAction" /> 
-  <meta content="sauviat" name="cq:lastReplicatedBy" /> 
-  <meta content="Editing existing contents with the Creative Designer" name="jcr:title" /> 
-  <meta content="6fa1b71d-c7b6-493a-8fd5-43f96e59556f" name="jcr:uuid" /> 
-  <meta content="" name="jcr:baseVersion" /> 
-  <meta content="sauviat" name="contentOwner" /> 
-  <meta content="d56b907a-5b2c-4150-8569-cd1c0d9f359f" name="jcr:predecessors" /> 
-  <meta content="2018-07-23T08:13:40.911-0400" name="publishExternalDate" /> 
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:loading-content" name="cq:tags" /> 
-  <meta content="false" name="isReadyForLocalization" /> 
  </head> 
  <body> 
   <p>To fully leverage the edition possibilities of the <a href="../../designing/using/about-email-content-design.md#using-the-creative-designer">Creative Designer</a>, your uploaded HTML must contain specific tagging that makes it compliant with the WYSIWYG editor.</p> 
@@ -108,37 +108,28 @@
   <h3>CSS class names</h3> 
   <p>Use the following CSS class names within the DOM hierarchy described above:</p> 
   <ul> 
-   <li><p><strong>container</strong> - on the main <strong></strong></p> 
-    <div>
-      node [1]: defines the first container element of the content. 
-     <p></p> 
-    </div></li> 
-   <li><p><strong>structure</strong> - on a <strong></strong></p> 
-    <div>
-      node [2]: defines a node as a 
-     <strong>structure</strong> container. 
-     <p></p> 
-    </div></li> 
-   <li><p><strong>structure__table</strong> - on a <strong>table</strong> node [3]: defines a node as a <strong>table structure</strong> wrapper.</p> </li> 
-   <li><p><strong>colspan1</strong> / <strong>colspan2</strong> / <strong>colspan3</strong> / <strong>colspan4</strong> - on a <strong>th</strong> node [4]: defines the number of columns that will compose a <strong>structure</strong>.</p> </li> 
-   <li><p><strong>fragment</strong> - on a <strong>div</strong> node [5]: defines a node as a <strong>fragment</strong>.</p> </li> 
-   <li><p><strong>component</strong> - on a <strong>div</strong> node [5]: defines a node as a <strong>component</strong>.</p> </li> 
-   <li><p><strong>button-container</strong> - on a <strong>div</strong> node [6]: button component wrapper class name.</p> </li> 
-   <li><p><strong>text-container</strong> - on a <strong>div</strong> node [6]: text component wrapper class name.</p> </li> 
-   <li><p><strong>image-container</strong> - on a <strong>div</strong> node [6]: image component wrapper class name.</p> </li> 
-   <li><p><strong>divider-container</strong> - on a <strong>div</strong> node [6]: divider component wrapper class name.</p> </li> 
+   <li><p><strong>container</strong> - on the main <strong>&amp;lt;div&amp;gt;</strong> node [1]: defines the first container element of the content.</p> </li> 
+   <li><p><strong>structure</strong> - on a <strong>&amp;lt;div&amp;gt;</strong> node [2]: defines a node as a <strong>structure</strong> container.</p> </li> 
+   <li><p><strong>structure__table</strong> - on a <strong>&amp;lt;table&amp;gt;</strong> node [3]: defines a node as a <strong>table structure</strong> wrapper.</p> </li> 
+   <li><p><strong>colspan1</strong> / <strong>colspan2</strong> / <strong>colspan3</strong> / <strong>colspan4</strong> - on a <strong>&amp;lt;th&amp;gt;</strong> node [4]: defines the number of columns that will compose a <strong>structure</strong>.</p> </li> 
+   <li><p><strong>fragment</strong> - on a <strong>&amp;lt;div&amp;gt;</strong> node [5]: defines a node as a <strong>fragment</strong>.</p> </li> 
+   <li><p><strong>component</strong> - on a <strong>&amp;lt;div&amp;gt;</strong> node [5]: defines a node as a <strong>component</strong>.</p> </li> 
+   <li><p><strong>button-container</strong> - on a <strong>&amp;lt;div&amp;gt;</strong> node [6]: button component wrapper class name.</p> </li> 
+   <li><p><strong>text-container</strong> - on a <strong>&amp;lt;div&amp;gt;</strong> node [6]: text component wrapper class name.</p> </li> 
+   <li><p><strong>image-container</strong> - on a <strong>&amp;lt;div&amp;gt;</strong> node [6]: image component wrapper class name.</p> </li> 
+   <li><p><strong>divider-container</strong> - on a <strong>&amp;lt;div&amp;gt;</strong> node [6]: divider component wrapper class name.</p> </li> 
   </ul> 
   <h3>Data attributes</h3> 
   <p>Use the following data attributes within the DOM hierarchy described above:</p> 
   <ul> 
-   <li><p><strong>data-structure-id</strong> - on a <strong>structure div</strong> node [2]: defines the ID of the <strong>structure</strong> corresponding to its column arrangement.</p> <p>Possible values: <strong>1-1-column</strong> | <strong>1-2-column</strong> | <strong>1-3-column</strong> | <strong>2-1-column</strong> | <strong>2-2-column</strong> | <strong>3-1-column</strong> | <strong>3-3-column</strong> | <strong>4-4-column</strong></p> </li> 
-   <li><p><strong>data-structure-name</strong> - on a <strong>structure div</strong> node [2]: defines the name of the structure. It is namespaced with <strong>richtext</strong>.</p> <p>Example: <strong>richtext.structure_1_1_column</strong></p> </li> 
-   <li><p><strong>data-component-id</strong> - on a <strong>component div</strong> node [5]: defines the ID of a <strong>component</strong>.</p> <p>Possible values: <strong>button</strong> | <strong>image</strong> | <strong>text</strong> | <strong>divider</strong> | <strong>social</strong> | <strong>carousel</strong></p> </li> 
-   <li><p><strong>data-component-name</strong> - on a <strong>component div</strong> node [5]: defines the name of the component. It is namespaced with <strong>richtext</strong>.</p> <p>Example: <strong>richtext.component_button</strong></p> </li> 
+   <li><p><strong>data-structure-id</strong> - on a <strong>structure &amp;lt;div&amp;gt;</strong> node [2]: defines the ID of the <strong>structure</strong> corresponding to its column arrangement.</p> <p>Possible values: <strong>1-1-column</strong> | <strong>1-2-column</strong> | <strong>1-3-column</strong> | <strong>2-1-column</strong> | <strong>2-2-column</strong> | <strong>3-1-column</strong> | <strong>3-3-column</strong> | <strong>4-4-column</strong></p> </li> 
+   <li><p><strong>data-structure-name</strong> - on a <strong>structure &amp;lt;div&amp;gt;</strong> node [2]: defines the name of the structure. It is namespaced with <strong>richtext</strong>.</p> <p>Example: <strong>richtext.structure_1_1_column</strong></p> </li> 
+   <li><p><strong>data-component-id</strong> - on a <strong>component &amp;lt;div&amp;gt;</strong> node [5]: defines the ID of a <strong>component</strong>.</p> <p>Possible values: <strong>button</strong> | <strong>image</strong> | <strong>text</strong> | <strong>divider</strong> | <strong>social</strong> | <strong>carousel</strong></p> </li> 
+   <li><p><strong>data-component-name</strong> - on a <strong>component &amp;lt;div&amp;gt;</strong> node [5]: defines the name of the component. It is namespaced with <strong>richtext</strong>.</p> <p>Example: <strong>richtext.component_button</strong></p> </li> 
   </ul> 
   <h3>Other attributes</h3> 
   <ul> 
-   <li><p><strong>contenteditable</strong> - on a <strong>component wrapper div</strong> node [6]: allows to make the component editable (for text type components).</p> <p>Possible values: <strong>true</strong> | <strong>false</strong></p> 
+   <li><p><strong>contenteditable</strong> - on a <strong>component wrapper &amp;lt;div&amp;gt;</strong> node [6]: allows to make the component editable (for text type components).</p> <p>Possible values: <strong>true</strong> | <strong>false</strong></p> 
     <note> 
      <p> The <strong>component</strong> container node ([5]) should have the <strong>contenteditable="false"</strong> attribute. </p> 
     </note></li> 

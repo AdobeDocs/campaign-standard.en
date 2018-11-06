@@ -3,13 +3,13 @@ title: Creating a multilingual push notification
 seo-title: Creating a multilingual push notification
 description: Creating a multilingual push notification
 seo-description: Create multilingual push notifications to target your users in their preferred languages and regions.
-uuid: 1d2c1e37-e2c4-4c9c-b958-446642c044b5
+uuid: 1cf141ca-9dd0-487a-b426-245d24caad67
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/creating-a-multilingual-push-notification
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-30T04 53 58.054-0400
-cq-lastreplicated: 2018-07-23T06 02 53.376-0400
+cq-lastmodified: 2018-09-08T08 23 10.997-0400
+cq-lastreplicated: 2018-09-07T15 11 57.436-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 cq-template: /apps/help/templates/article-3
-discoiquuid: 94b28fb9-6d66-40b3-8857-17ab5494c667
-firstPublishExternalDate: 2018-07-23T06:02:53.343-0400
+discoiquuid: 21132939-4dc5-4567-a3a3-3c4d3a851d55
+firstPublishExternalDate: 2018-09-07T15:11:57.384-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-04-06T07 29 18.943-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Creating a multilingual push notification
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:02:53.343-0400
-lochandoffdate: 2018-07-30T04 53 58.054-0400
+lastPublishExternalDate: 2018-09-07T15:11:57.384-0400
+lochandoffdate: 2018-09-08T08 23 10.997-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Creating a multilingual push notification
-publishexternaldate: 2018-07-23T06 02 53.343-0400
+publishexternaldate: 2018-09-07T15 11 57.384-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/creating-a-multilingual-push-notification.html
-sha1: d1b19149f76bb597e2148dcb3b28c2197098c783
-topicBrowsingSortDate: 2018-07-23T06:02:53.343-0400
+sha1: a4bed00f2c8586b143ef26ca2efd7d4f86dccccf
+topicBrowsingSortDate: 2018-09-07T15:11:57.384-0400
 index: y
 internal: n
 snippet: y
@@ -66,7 +66,7 @@ Before personalizing your multilingual push notification, we first need to uploa
 >
 >You can also skip this step if you want to create a variant manually for each language variant.
 
-1. In the **Marketing activities**, click the **Create** button then select **Mobile app notification**.
+1. In the **Marketing activities**, click the **Create** button then select **Push notification**.
 1. Select the template **Send multilingual push to Campaign profiles** if you want to target the Adobe Campaign profiles who have subscribed to your mobile application or the template** Send multilingual push to app subscriber** to send a push notification to all users who have opted in to receive notifications from your mobile application.
 
    ![](assets/multivariant_push_2.png)

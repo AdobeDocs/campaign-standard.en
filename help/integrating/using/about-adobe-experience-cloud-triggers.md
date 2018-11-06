@@ -3,13 +3,13 @@ title: About Adobe Experience Cloud Triggers
 seo-title: About Adobe Experience Cloud Triggers
 description: About Adobe Experience Cloud Triggers
 seo-description: By tracking specific behaviors from customers with Adobe Analytics, you can now send personalized emails to your customers in Adobe Campaign.
-uuid: 96b75aff-9e74-444b-b280-4eddc48fed38
+uuid: 74b45155-51ba-4f15-b415-43259f55cb85
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/integrating/using/about-adobe-experience-cloud-triggers
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-27T03 27 15.954-0400
-cq-lastreplicated: 2018-07-23T05 59 47.187-0400
+cq-lastmodified: 2018-09-10T02 19 13.101-0400
+cq-lastreplicated: 2018-09-07T15 08 14.360-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 cq-template: /apps/help/templates/article-3
-discoiquuid: 01119391-b882-4f1a-9371-658c9710c3c9
-firstPublishExternalDate: 2018-07-23T05:59:47.155-0400
+discoiquuid: 225e60ea-ac95-4128-b663-c32e05d5cd86
+firstPublishExternalDate: 2018-09-07T15:08:14.015-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 59.216-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: About Adobe Experience Cloud Triggers
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:59:47.155-0400
-lochandoffdate: 2018-07-27T03 27 15.953-0400
+lastPublishExternalDate: 2018-09-07T15:08:14.015-0400
+lochandoffdate: 2018-09-10T02 19 13.100-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About Adobe Experience Cloud Triggers
-publishexternaldate: 2018-07-23T05 59 47.155-0400
+publishexternaldate: 2018-09-07T15 08 14.015-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/about-adobe-experience-cloud-triggers.html
-sha1: f7b59d78568562ea8908f227e7b04b66e0ab89bb
-topicBrowsingSortDate: 2018-07-23T05:59:47.155-0400
+sha1: bb9d97e92a14d087d18daf871265f828a6da2104
+topicBrowsingSortDate: 2018-09-07T15:08:14.015-0400
 index: y
 internal: n
 snippet: y

@@ -3,13 +3,13 @@ title: Branding
 seo-title: Branding
 description: Branding
 seo-description: Discover all the tools available to manage your branding identities.
-uuid: baf79ec2-1eb0-4a31-90d9-03e7f3e49e67
+uuid: 7f49ac09-02b4-41f6-8b96-da34a1aa63d8
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/branding
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 36.018-0400
-cq-lastreplicated: 2018-07-23T05 53 59.785-0400
+cq-lastmodified: 2018-09-10T07 26 36.125-0400
+cq-lastreplicated: 2018-09-07T15 05 05.728-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 cq-template: /apps/help/templates/article-3
-discoiquuid: 00b7c5b9-9cb2-4037-bba8-83bb109846ec
-firstPublishExternalDate: 2018-07-23T05:53:59.720-0400
+discoiquuid: 9af4d9e5-33ea-46b5-b805-8079a9849f55
+firstPublishExternalDate: 2018-09-07T15:05:02.482-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-02-16T08 03 25.312-0500
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Branding
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:53:59.720-0400
-lochandoffdate: 2018-07-25T09 29 36.018-0400
+lastPublishExternalDate: 2018-09-07T15:05:02.482-0400
+lochandoffdate: 2018-09-10T07 26 36.124-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Branding
-publishexternaldate: 2018-07-23T05 53 59.720-0400
+publishexternaldate: 2018-09-07T15 05 02.482-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/branding.html
-sha1: a7f1c83b3fc5a1dd6ce21525b5abf0ef0c5f61b1
-topicBrowsingSortDate: 2018-07-23T05:53:59.720-0400
+sha1: 5cb2bdfbda5c945805cd7931aa5c0249925190d3
+topicBrowsingSortDate: 2018-09-07T15:05:02.482-0400
 index: y
 internal: n
 snippet: y

@@ -3,14 +3,13 @@ title: Creating and sending a push notification
 seo-title: Creating and sending a push notification
 description: Creating and sending a push notification
 seo-description: Follow these steps to create a single-send push notification in Adobe Campaign.
-uuid: 6b7ef2f9-b7af-46de-aed5-1bd975055b8e
+uuid: 9549e187-e87d-40ea-96c7-82f41110a4d0
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/creating-and-sending-a-push-notification
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-30T04 53 55.125-0400
-cq-lastmodifiedby: mancini
-cq-lastreplicated: 2018-07-23T06 02 49.921-0400
+cq-lastmodified: 2018-09-08T08 23 09.031-0400
+cq-lastreplicated: 2018-09-07T15 11 53.118-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -18,8 +17,8 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 cq-template: /apps/help/templates/article-3
-discoiquuid: 2448c3a5-ed54-4b08-85ba-a56085dc860c
-firstPublishExternalDate: 2018-07-23T06:02:49.883-0400
+discoiquuid: 05e69414-4b48-4f09-a8fd-6725ef1435bc
+firstPublishExternalDate: 2018-09-07T15:11:53.073-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 08.916-0400
@@ -27,16 +26,15 @@ jcr-createdby: admin
 jcr-description: Creating and sending a push notification
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:02:49.883-0400
-lochandoffdate: 2018-07-30T04 53 55.125-0400
+lastPublishExternalDate: 2018-09-07T15:11:53.073-0400
+lochandoffdate: 2018-09-08T08 23 09.031-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
-moreHelpPaths: /content/help/en/campaign/standard/channels/morehelp/push-notifications;/content/help/en/campaign/standard/channels/morehelp/push-notifications
 navTitle: Creating and sending a push notification
-publishexternaldate: 2018-07-23T06 02 49.883-0400
+publishexternaldate: 2018-09-07T15 11 53.073-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/creating-and-sending-a-push-notification.html
-sha1: 759ec65df97dc936aaadad215dbac167b09ab07f
-topicBrowsingSortDate: 2018-07-23T06:02:49.883-0400
+sha1: 0863db82f98ee3a84f788cd9ec9b970c911c2038
+topicBrowsingSortDate: 2018-09-07T15:11:53.073-0400
 index: y
 internal: n
 snippet: y
@@ -54,9 +52,9 @@ The steps for creating a push notification with Adobe Campaign are:
 
    Note that a single push notification can also be created from a [campaign](../../start/using/marketing-activities.md#creating-a-marketing-activity) or from the Adobe Campaign [home page](../../start/using/interface-description.md#home-page).
 
-   You can also use a mobile app delivery activity in a workflow. This activity is presented in the [Mobile app delivery](../../automating/using/mobile-app-delivery.md) section.
+   You can also use a mobile app delivery activity in a workflow. This activity is presented in the [Mobile app delivery](../../automating/using/push-notification-delivery.md) section.
 
-1. Select **Mobile app notification**.
+1. Select **Push notification**.
 1. Select a template. 
 
    ![](assets/push_notif_type.png)
@@ -72,7 +70,7 @@ The steps for creating a push notification with Adobe Campaign are:
    >
    >If you choose to send notifications to profiles, they will be compatible with multi-channel fatigue rules. If you're sending messages to app subscribers, the fatigue rule will be limited to the mobile application channel only. For more on this, refer to [Fatigue rules](../../administration/using/fatigue-rules.md#choosing-the-channel).
 
-1. Enter your push notification properties and select your mobile app in the **Associate a Mobile App to a delivery** field.
+1. Enter your push notification properties and select your mobile app in the **Associate a Mobile App to a delivery** field. Note that this is available for SDK V5 mobile application only.
 
    ![](assets/push_notif_properties.png)
 
@@ -81,6 +79,8 @@ The steps for creating a push notification with Adobe Campaign are:
 1. In the following screen, you can specify an audience, for example all of your VIP customers who subscribed to a specific mobile application. For more on this, see [Creating audiences](../../audiences/using/creating-audiences.md).
 
    Options for selecting an audience vary depending on the template used. In this example, you can target a mobile application because you selected the **Send push to Campaign profiles** template.
+
+   If you selected one of your SDK V5 mobile application in the previous window, your audience will be automatically filtered according to the chosen application.
 
    ![](assets/push_notif_audience.png)
 
@@ -148,7 +148,7 @@ Push notifications can be sent to a selected audience in Adobe Campaign by defin
    ![](assets/push_send_7.png)
 
 1. You can now click **Confirm** to start sending push notifications.
-1. Check the status of your delivery through the message dashboard and logs. For more on this, see [Sending messages](../../sending/using/confirming-send.md) and [Delivery logs](../../sending/using/monitoring-a-delivery.md#delivery-logs).
+1. Check the status of your delivery through the message dashboard and logs. For more on this, see [Sending messages](../../sending/using/confirming-the-send.md) and [Delivery logs](../../sending/using/monitoring-a-delivery.md#delivery-logs).
 
    In this example, the message dashboard displays that Adobe Campaign attempted to send two push notifications: one was delivered successfully to the device and another one failed. To know why the delivery has errors, click the  ![](assets/lp_link_properties.png) button at the bottom of the **Deployment** window.
 

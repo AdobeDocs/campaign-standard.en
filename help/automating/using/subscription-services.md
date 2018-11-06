@@ -3,13 +3,13 @@ title: Subscription Services
 seo-title: Subscription Services
 description: Subscription Services
 seo-description: The Subscription Services activity allows you to take profiles in mass and subscribe them to a service or unsubscribe them from a service.
-uuid: 9c649c55-c15d-4134-9e67-2740bdb6861a
+uuid: d86c46d5-bafa-4d5b-86f5-90218a21e500
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/subscription-services
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 55.234-0400
-cq-lastreplicated: 2018-07-23T05 57 40.403-0400
+cq-lastmodified: 2018-09-10T07 28 33.266-0400
+cq-lastreplicated: 2018-09-07T15 08 42.716-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: f0d243f7-3fd6-4d63-9c32-ad6461dee54f
-firstPublishExternalDate: 2018-07-23T05:57:40.308-0400
+discoiquuid: 3a7e25bc-70ea-4197-a1c8-d799bcfcc788
+firstPublishExternalDate: 2018-09-07T15:08:42.387-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 58.525-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Subscription Services
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:57:40.308-0400
-lochandoffdate: 2018-07-25T09 29 55.234-0400
+lastPublishExternalDate: 2018-09-07T15:08:42.387-0400
+lochandoffdate: 2018-09-10T07 28 33.264-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Subscription Services
-publishexternaldate: 2018-07-23T05 57 40.308-0400
+publishexternaldate: 2018-09-07T15 08 42.387-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/subscription-services.html
-sha1: e7370ce857bfd053693d6dfab1343821ad1bfda2
-topicBrowsingSortDate: 2018-07-23T05:57:40.308-0400
+sha1: 4503a1c65392683196313e9ec2e38fddbee82229
+topicBrowsingSortDate: 2018-09-07T15:08:42.387-0400
 index: y
 internal: n
 snippet: y
@@ -50,7 +50,9 @@ Subscription Services
 
 The **Subscription Services** activity allows you to take profiles in mass and subscribe them to a service or unsubscribe them from a service.
 
-The subscribed or unsubscribed profiles do not receive the different confirmation emails defined in the service properties.
+>[!CAUTION]
+>
+>When subscription managed in the context of a workflow, the subscribed or unsubscribed profiles do not receive the different confirmation emails defined in the service properties.
 
 ## Context of use
 

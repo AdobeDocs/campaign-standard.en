@@ -3,13 +3,13 @@ title: Email rendering
 seo-title: Email rendering
 description: Email rendering
 seo-description: Discover the email rendering feature.
-uuid: 21e47fe4-f8b7-49b7-b058-114b0587b3c2
+uuid: d6c543f1-5ba8-4bb7-a4a7-9caa99e7365a
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/sending/using/email-rendering
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-30T04 53 49.154-0400
-cq-lastreplicated: 2018-07-23T06 02 18.974-0400
+cq-lastmodified: 2018-09-08T08 23 04.383-0400
+cq-lastreplicated: 2018-09-07T15 11 17.371-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 cq-template: /apps/help/templates/article-3
-discoiquuid: 243ad86c-55bc-43ee-ae21-d97d3d5e5b8d
-firstPublishExternalDate: 2018-07-23T06:02:18.935-0400
+discoiquuid: 1ed3f1af-737c-40b8-81b9-244b8115c418
+firstPublishExternalDate: 2018-09-07T15:11:17.306-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 40.105-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Email rendering
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:02:18.935-0400
-lochandoffdate: 2018-07-30T04 53 49.154-0400
+lastPublishExternalDate: 2018-09-07T15:11:17.306-0400
+lochandoffdate: 2018-09-08T08 23 04.383-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Email rendering
-publishexternaldate: 2018-07-23T06 02 18.935-0400
+publishexternaldate: 2018-09-07T15 11 17.306-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/sending/using/email-rendering.html
-sha1: 6811e39c2fad548abac377ac7e5e54420fbb2f75
-topicBrowsingSortDate: 2018-07-23T06:02:18.935-0400
+sha1: d6d87ae464bcf601f13415cd8670a046ba840b3a
+topicBrowsingSortDate: 2018-09-07T15:11:17.306-0400
 index: y
 internal: n
 snippet: y

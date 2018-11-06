@@ -3,13 +3,13 @@ title: Personalizing SMS messages
 seo-title: Personalizing SMS messages
 description: Personalizing SMS messages
 seo-description: Discover the specificity of the transliteration options when personalizing SMS messages.
-uuid: 0b58fff6-0455-4634-b140-09dbcca31c72
+uuid: 179b4fb3-9048-4470-8847-c23b8b8d8718
 content-encoding: UTF-8
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/personalizing-sms-messages
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-30T04 53 53.566-0400
-cq-lastreplicated: 2018-07-23T06 02 47.241-0400
+cq-lastmodified: 2018-09-08T08 23 08.058-0400
+cq-lastreplicated: 2018-09-07T15 11 49.427-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: channels
 content-type: reference
 topic-tags: sms-messages
 cq-template: /apps/help/templates/article-3
-discoiquuid: 6a36ff5e-a3bf-4d72-b3cb-811cc661b2b0
-firstPublishExternalDate: 2018-07-23T06:02:47.192-0400
+discoiquuid: 461347df-244f-42e7-9c1b-14a06cded04a
+firstPublishExternalDate: 2018-09-07T15:11:49.380-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-07-23T07 30 32.437-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Personalizing SMS messages
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:02:47.192-0400
-lochandoffdate: 2018-07-30T04 53 53.565-0400
+lastPublishExternalDate: 2018-09-07T15:11:49.380-0400
+lochandoffdate: 2018-09-08T08 23 08.058-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Personalizing SMS messages
-publishexternaldate: 2018-07-23T06 02 47.192-0400
+publishexternaldate: 2018-09-07T15 11 49.380-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/personalizing-sms-messages.html
-sha1: d7d078ebe9930a5967a27296fd4c141eadeba225
-topicBrowsingSortDate: 2018-07-23T06:02:47.192-0400
+sha1: 9af7b3bf8d1951e6fdf885cc40328f6798a6d5f6
+topicBrowsingSortDate: 2018-09-07T15:11:49.380-0400
 index: y
 internal: n
 snippet: y

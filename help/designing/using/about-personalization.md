@@ -3,13 +3,13 @@ title: About personalization
 seo-title: About personalization
 description: About personalization
 seo-description: Discover the different ways you can personalize your contents in Adobe Campaign.
-uuid: 429ccf63-2cb9-4e6b-b0e0-8885c30ef587
+uuid: 7c46385b-4f4c-4954-90ec-7d4f3ae6905b
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/about-personalization
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-26T02 53 51.321-0400
-cq-lastreplicated: 2018-07-23T08 13 47.904-0400
+cq-lastmodified: 2018-09-10T07 25 07.749-0400
+cq-lastreplicated: 2018-09-07T14 58 57.020-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: designing
 content-type: reference
 topic-tags: personalizing-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: e395c4f5-c526-4e20-941e-489caf67d009
-firstPublishExternalDate: 2018-07-23T05:58:37.698-0400
+discoiquuid: a5b4a5ed-2899-4f1a-a4a2-e2d5b8ba3d7c
+firstPublishExternalDate: 2018-09-07T14:58:54.108-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-07-23T07 30 14.021-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: About personalization
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T08:13:47.858-0400
-lochandoffdate: 2018-07-26T02 53 51.321-0400
+lastPublishExternalDate: 2018-09-07T14:58:54.108-0400
+lochandoffdate: 2018-09-10T07 25 07.748-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About personalization
-publishexternaldate: 2018-07-23T08 13 47.858-0400
+publishexternaldate: 2018-09-07T14 58 54.108-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/about-personalization.html
-sha1: cfbe76972db3f244483af5aea1bea80df33b8cbd
-topicBrowsingSortDate: 2018-07-23T08:13:47.858-0400
+sha1: 4719d7aeddfa1dd24e942c5154fdb4c32801ef0b
+topicBrowsingSortDate: 2018-09-07T14:58:54.108-0400
 index: y
 internal: n
 snippet: y

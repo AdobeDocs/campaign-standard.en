@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="32d448fd-303a-42a9-b970-859b7a52e94f" name="jcr:predecessors" />
   <meta content="audience:channels" name="primaryAudienceTag" />
-  <meta content="2018-07-23T06:03:15.928-0400" name="lastPublishExternalDate" />
-  <meta content="2018-07-30T04:54:12.259-0400" name="locHandOffDate" />
-  <meta content="2018-07-23T06:03:15.928-0400" name="firstPublishExternalDate" />
-  <meta content="2018-03-15T09:02:28.480-0400" name="jcr:created" />
-  <meta content="2018-07-23T06:03:15.928-0400" name="topicBrowsingSortDate" />
-  <meta content="Designing a landing page" name="jcr:description" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="Designing a landing page" name="navTitle" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="https://helpx.adobe.com/campaign/standard/channels/using/designing-a-landing-page.html" name="publishExternalURL" />
-  <meta content="2018-07-30T04:54:12.259-0400" name="cq:lastModified" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="light" name="heroGradient" />
+  <meta content="2018-09-08T08:23:22.917-0400" name="locHandOffDate" />
+  <meta content="2018-09-08T08:23:22.917-0400" name="cq:lastModified" />
   <meta content="" name="jcr:primaryType" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="Designing a landing page" name="jcr:description" />
+  <meta content="2018-09-07T15:12:35.104-0400" name="cq:lastReplicated" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="32d448fd-303a-42a9-b970-859b7a52e94f" name="jcr:predecessors" />
+  <meta content="Designing a landing page" name="navTitle" />
+  <meta content="Follow these steps to design the content of a landing page and link it to a service." name="seoDescription" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:channels;content_type:reference;topic_tags:landing-pages" name="cq:tags" />
   <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="2018-07-23T06:03:15.928-0400" name="publishExternalDate" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
   <meta content="d30403a1-c0c4-4193-a263-e57c8915a7ad" name="jcr:uuid" />
-  <meta content="2018-07-23T06:03:15.970-0400" name="cq:lastReplicated" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="https://helpx.adobe.com/campaign/standard/channels/using/designing-a-landing-page.html" name="publishExternalURL" />
+  <meta content="2018-09-07T15:12:35.071-0400" name="firstPublishExternalDate" />
+  <meta content="" name="jcr:baseVersion" />
   <meta content="Designing a landing page" name="jcr:title" />
   <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="Follow these steps to design the content of a landing page and link it to a service." name="seoDescription" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:channels;content_type:reference;topic_tags:landing-pages" name="cq:tags" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-03-15T09:02:28.480-0400" name="jcr:created" />
+  <meta content="2018-09-07T15:12:35.071-0400" name="lastPublishExternalDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-09-07T15:12:35.071-0400" name="publishExternalDate" />
+  <meta content="light" name="heroGradient" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2018-09-07T15:12:35.071-0400" name="topicBrowsingSortDate" />
  </head>
  <body>
   <h2>About content design</h2>

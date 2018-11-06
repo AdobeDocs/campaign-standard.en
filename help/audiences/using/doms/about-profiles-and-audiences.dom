@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="2018-07-25T09:29:09.808-0400" name="locHandOffDate" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="light" name="heroGradient" />
-  <meta content="audience:audiences" name="primaryAudienceTag" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="56bdd870-8669-4e80-96cf-d4cdfb7c2333" name="jcr:uuid" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:audiences;content_type:reference;topic_tags:about-profiles-and-audiences" name="cq:tags" />
-  <meta content="Learn about profiles and audiences management within Adobe Campaign: define targeted populations, select audiences, filter recipients, collect data and update profiles." name="seoDescription" />
-  <meta content="2018-07-23T05:55:17.132-0400" name="topicBrowsingSortDate" />
   <meta content="About profiles and audiences" name="jcr:title" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
   <meta content="sauviat" name="cq:lastReplicatedBy" />
   <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="https://helpx.adobe.com/campaign/standard/audiences/using/about-profiles-and-audiences.html" name="publishExternalURL" />
+  <meta content="2018-09-07T14:41:54.344-0400" name="firstPublishExternalDate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="false" name="isReadyForLocalization" />
   <meta content="2018-03-15T09:01:20.315-0400" name="jcr:created" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-09-07T14:41:54.344-0400" name="publishExternalDate" />
+  <meta content="admin" name="jcr:createdBy" />
   <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="2018-07-23T05:55:17.132-0400" name="firstPublishExternalDate" />
+  <meta content="2018-09-10T07:22:11.393-0400" name="locHandOffDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="56bdd870-8669-4e80-96cf-d4cdfb7c2333" name="jcr:uuid" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
   <meta content="204464bf-5be5-43c7-8654-a96a4d6f4014" name="jcr:predecessors" />
+  <meta content="audience:audiences" name="primaryAudienceTag" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2018-09-10T07:22:11.394-0400" name="cq:lastModified" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:audiences;content_type:reference;topic_tags:about-profiles-and-audiences" name="cq:tags" />
+  <meta content="Learn about profiles and audiences management within Adobe Campaign: define targeted populations, select audiences, filter recipients, collect data and update profiles." name="seoDescription" />
   <meta content="About profiles and audiences" name="navTitle" />
   <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="2018-07-23T05:55:17.174-0400" name="cq:lastReplicated" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="https://helpx.adobe.com/campaign/standard/audiences/using/about-profiles-and-audiences.html" name="publishExternalURL" />
+  <meta content="2018-09-07T14:41:54.344-0400" name="topicBrowsingSortDate" />
   <meta content="About profiles and audiences" name="jcr:description" />
-  <meta content="2018-07-25T09:29:09.808-0400" name="cq:lastModified" />
-  <meta content="2018-07-23T05:55:17.132-0400" name="publishExternalDate" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="2018-07-23T05:55:17.132-0400" name="lastPublishExternalDate" />
-  <meta content="" name="jcr:versionHistory" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
   <meta content="en_us" name="jcr:language" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-09-07T14:41:54.344-0400" name="lastPublishExternalDate" />
+  <meta content="2018-09-07T14:41:55.077-0400" name="cq:lastReplicated" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="" name="jcr:versionHistory" />
  </head>
  <body>
   <p>When you create campaigns or messages, you can specify the target of the deliveries by selecting from contacts in Campaign database, using simple or advanced criteria, or selecting audiences. </p> 

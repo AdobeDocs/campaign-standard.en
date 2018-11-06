@@ -3,13 +3,13 @@ title: SMS delivery
 seo-title: SMS delivery
 description: SMS delivery
 seo-description: The SMS delivery activity allows you to configure sending a single send SMS or a recurring SMS in a workflow.
-uuid: ec17346b-e3db-4e8e-a5f9-4bab2312c43b
+uuid: 74a5e642-02d7-4ab8-8df8-1e1597f85879
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/sms-delivery
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 44.786-0400
-cq-lastreplicated: 2018-07-23T05 57 20.870-0400
+cq-lastmodified: 2018-09-10T07 27 06.946-0400
+cq-lastreplicated: 2018-09-07T15 05 07.845-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: automating
 content-type: reference
 topic-tags: channel-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: f1cc6b15-def0-432e-9b8a-a11b9c0f57b8
-firstPublishExternalDate: 2018-07-23T05:57:20.832-0400
+discoiquuid: 21d149e5-703b-4f2e-aca5-05deee28d39e
+firstPublishExternalDate: 2018-09-07T15:05:04.469-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 56.153-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: SMS delivery
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:57:20.832-0400
-lochandoffdate: 2018-07-25T09 29 44.786-0400
+lastPublishExternalDate: 2018-09-07T15:05:04.469-0400
+lochandoffdate: 2018-09-10T07 27 06.944-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: SMS delivery
-publishexternaldate: 2018-07-23T05 57 20.832-0400
+publishexternaldate: 2018-09-07T15 05 04.469-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/sms-delivery.html
-sha1: 537d24b42ce824f4015b40245023aab8112d5fd0
-topicBrowsingSortDate: 2018-07-23T05:57:20.832-0400
+sha1: 6252a4d39db6040deb2e9f80ad3723a76a2ac466
+topicBrowsingSortDate: 2018-09-07T15:05:04.469-0400
 index: y
 internal: n
 snippet: y

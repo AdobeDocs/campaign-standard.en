@@ -3,13 +3,13 @@ title: External accounts
 seo-title: External accounts
 description: External accounts
 seo-description: Configure external accounts to set up connections with external systems such as SFTP servers.
-uuid: e0ab4ecb-79ec-474e-9f6d-3387c48f10ac
+uuid: a2236d5e-ea88-4b23-9ebe-fc2bf1d7ba4a
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/external-accounts
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 34.823-0400
-cq-lastreplicated: 2018-07-23T05 53 55.606-0400
+cq-lastmodified: 2018-09-10T07 26 24.990-0400
+cq-lastreplicated: 2018-09-07T15 02 20.601-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 cq-template: /apps/help/templates/article-3
-discoiquuid: ac43d628-6106-4f20-b2bb-601f927e4dda
-firstPublishExternalDate: 2018-07-23T05:53:55.511-0400
+discoiquuid: ae50ccd7-72a1-45a3-ad95-c97deb234a09
+firstPublishExternalDate: 2018-09-07T15:02:17.551-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-02-16T08 04 23.760-0500
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: External accounts
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:53:55.511-0400
-lochandoffdate: 2018-07-25T09 29 34.823-0400
+lastPublishExternalDate: 2018-09-07T15:02:17.551-0400
+lochandoffdate: 2018-09-10T07 26 24.989-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: External accounts
-publishexternaldate: 2018-07-23T05 53 55.511-0400
+publishexternaldate: 2018-09-07T15 02 17.551-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/external-accounts.html
-sha1: 745af6ecfbbb24d40fff169e6d74acc7fc65cdce
-topicBrowsingSortDate: 2018-07-23T05:53:55.511-0400
+sha1: fa42129a86c3a92c14b8e7cde24ca57c51afa438
+topicBrowsingSortDate: 2018-09-07T15:02:17.551-0400
 index: y
 internal: n
 snippet: y
@@ -77,8 +77,8 @@ Different external account types require different information to be specified.
 
 For an SFTP external account, provide the following details:
 
-* Server address. For example, `ftp.domain.com`.
-* Port number. For example, `22`.
+* Server address. For example, **ftp.domain.com**.
+* Port number. For example, **22**.
 * SFTP server credentials: account name and password used to connect to the server.
 
 ### Best practices for Adobe hosted SFTP servers
@@ -132,5 +132,6 @@ The list of compatible versions of AEM and more details about this integration a
 
 Provide the following details:
 
-* Server: AEM server URL. For example, `http://aem.domain.com:4502`.
+* Server: AEM server URL. For example, **http://aem.domain.com:4502**.
 * AEM account credentials: use the account that will access the AEM instance. It should be an account part of the campaign-remote group in AEM.
+

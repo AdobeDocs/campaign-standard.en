@@ -3,13 +3,13 @@ title: Creating a custom profile dimension
 seo-title: Creating a custom profile dimension
 description: Creating a custom profile dimension
 seo-description: 
-uuid: 86e3d6f5-3bf6-4976-a665-29f20bd345bc
+uuid: 14c158f0-6e54-4938-a8ce-7f4ca587bade
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/reporting/using/creating-a-custom-profile-dimension
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-27T03 27 29.854-0400
-cq-lastreplicated: 2018-07-23T06 00 27.924-0400
+cq-lastmodified: 2018-09-10T02 19 25.954-0400
+cq-lastreplicated: 2018-09-07T15 08 56.164-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: reporting
 content-type: reference
 topic-tags: customizing-reports
 cq-template: /apps/help/templates/article-3
-discoiquuid: d10d2479-b1ac-4b5b-b9d0-2b27a304feb9
-firstPublishExternalDate: 2018-07-23T06:00:27.850-0400
+discoiquuid: ec12b7ff-dd15-4c17-9020-244dc1fa36f5
+firstPublishExternalDate: 2018-09-07T15:08:56.017-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-06-15T07 30 01.784-0400
@@ -26,16 +26,15 @@ jcr-createdby: admin
 jcr-description: Creating a custom profile dimension
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:00:27.850-0400
-lochandoffdate: 2018-07-27T03 27 29.853-0400
+lastPublishExternalDate: 2018-09-07T15:08:56.017-0400
+lochandoffdate: 2018-09-10T02 19 25.953-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
-moreHelpPaths: /content/help/en/campaign/standard/reporting/morehelp/customizing-reports;/content/help/en/campaign/standard/reporting/morehelp/customizing-reports
 navTitle: Creating a custom profile dimension
-publishexternaldate: 2018-07-23T06 00 27.850-0400
+publishexternaldate: 2018-09-07T15 08 56.017-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/creating-a-custom-profile-dimension.html
-sha1: c0b1059f079f417234f57e43a6902990e5aac22f
-topicBrowsingSortDate: 2018-07-23T06:00:27.850-0400
+sha1: 39c8b5f124b44fecf962102c6ed456649f8c0ac9
+topicBrowsingSortDate: 2018-09-07T15:08:56.017-0400
 index: y
 internal: n
 snippet: y

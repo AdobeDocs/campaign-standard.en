@@ -2,14 +2,14 @@
 title: Data acquisition
 seo-title: Data acquisition
 description: Data acquisition
-seo-description: "Discover various mechanisms for profile acquisition: online data collection, imports, manual or bulk creation through Campaign APIs."
-uuid: b63972ab-e28b-4121-8d3e-de2d38153009
+seo-description: Discover various mechanisms for profile acquisition: online data collection, imports, manual or bulk creation through Campaign APIs.
+uuid: 15f2dcc9-080f-4f5a-986e-a07692f69064
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/start/using/data-acquisition
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-27T03 26 20.382-0400
-cq-lastreplicated: 2018-07-23T06 00 35.010-0400
+cq-lastmodified: 2018-09-08T08 23 02.508-0400
+cq-lastreplicated: 2018-09-07T15 06 35.205-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: start
 content-type: reference
 topic-tags: about-adobe-campaign
 cq-template: /apps/help/templates/article-3
-discoiquuid: e4d633c1-465d-4d25-98ae-b4cb88fd452f
-firstPublishExternalDate: 2018-07-23T06:00:34.934-0400
+discoiquuid: a30e74b7-8b34-4747-b664-7a98d1d79216
+firstPublishExternalDate: 2018-09-07T15:06:33.506-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 02.757-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Data acquisition
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:00:34.934-0400
-lochandoffdate: 2018-07-27T03 26 20.381-0400
+lastPublishExternalDate: 2018-09-07T15:06:33.506-0400
+lochandoffdate: 2018-09-08T08 23 02.508-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Data acquisition
-publishexternaldate: 2018-07-23T06 00 34.934-0400
+publishexternaldate: 2018-09-07T15 06 33.506-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/start/using/data-acquisition.html
-sha1: b76df810821fd24cebb3224b424a804b1085e273
-topicBrowsingSortDate: 2018-07-23T06:00:34.934-0400
+sha1: 93f2ab2ca5edf6407703d3271a9ea91cebfe34fa
+topicBrowsingSortDate: 2018-09-07T15:06:33.506-0400
 index: y
 internal: n
 snippet: y

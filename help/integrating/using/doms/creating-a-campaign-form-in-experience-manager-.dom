@@ -1,49 +1,47 @@
 <html>
  <head>
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="mancini" name="cq:lastModifiedBy" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="2018-07-27T03:26:25.389-0400" name="cq:lastModified" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="light" name="heroGradient" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="2018-03-15T09:02:16.446-0400" name="jcr:created" />
-  <meta content="2018-07-23T05:59:29.699-0400" name="topicBrowsingSortDate" />
-  <meta content="With the Adobe Experience Manager integration, you can create forms directly in AEM to create and update profiles or manage subscriptions." name="seoDescription" />
-  <meta content="Creating a Campaign form in Experience Manager " name="navTitle" />
-  <meta content="2018-07-27T03:26:25.388-0400" name="locHandOffDate" />
-  <meta content="Creating a Campaign form in Experience Manager " name="jcr:title" />
   <meta content="en_us" name="jcr:language" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="2018-07-23T05:59:29.699-0400" name="publishExternalDate" />
-  <meta content="2018-07-23T05:59:29.699-0400" name="firstPublishExternalDate" />
   <meta content="https://helpx.adobe.com/campaign/standard/integrating/using/creating-a-campaign-form-in-experience-manager-.html" name="publishExternalURL" />
-  <meta content="/content/help/en/campaign/standard/integrating/morehelp/working-with-campaign-and-experience-manager;/content/help/en/campaign/standard/integrating/morehelp/working-with-campaign-and-experience-manager" name="moreHelpPaths" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="audience:integrating" name="primaryAudienceTag" />
   <meta content="1a7af89a-e6ff-440e-9d57-e3bdf93ffe34" name="jcr:uuid" />
+  <meta content="2018-09-07T14:59:26.173-0400" name="firstPublishExternalDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Creating a Campaign form in Experience Manager " name="navTitle" />
+  <meta content="2018-03-15T09:02:16.446-0400" name="jcr:created" />
+  <meta content="2018-09-07T14:59:28.306-0400" name="cq:lastReplicated" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="2018-09-10T02:18:38.461-0400" name="locHandOffDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="2018-09-10T02:18:38.462-0400" name="cq:lastModified" />
+  <meta content="2018-09-07T14:59:26.173-0400" name="publishExternalDate" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="Creating a Campaign form in Experience Manager " name="jcr:title" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="0a3be1e6-36cb-4dd1-9840-06dc7b4d7c9f" name="jcr:predecessors" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2018-09-07T14:59:26.173-0400" name="lastPublishExternalDate" />
   <meta content="products:SG_CAMPAIGN/STANDARD;audience:integrating;content_type:reference;topic_tags:working-with-campaign-and-experience-manager" name="cq:tags" />
   <meta content="Creating a Campaign form in Experience Manager " name="jcr:description" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="2018-07-23T05:59:29.754-0400" name="cq:lastReplicated" />
-  <meta content="audience:integrating" name="primaryAudienceTag" />
-  <meta content="2018-07-23T05:59:29.699-0400" name="lastPublishExternalDate" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="admin" name="jcr:createdBy" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2018-09-07T14:59:26.173-0400" name="topicBrowsingSortDate" />
+  <meta content="With the Adobe Experience Manager integration, you can create forms directly in AEM to create and update profiles or manage subscriptions." name="seoDescription" />
+  <meta content="false" name="isReadyForLocalization" />
   <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="0a3be1e6-36cb-4dd1-9840-06dc7b4d7c9f" name="jcr:predecessors" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
  </head>
  <body>
   <p>You can create "forms" on your AEM sites and map the fields in a form to the fields in the Adobe Campaign database. This allows you to create and update profiles or manage the subscriptions to a service.</p> 
   <p>To create an Adobe Campaign form on your AEM site:</p> 
   <ol>
-   <li><p>In your AEM site, create a new page based on the <strong>Adobe Campaign Profile </strong> template.</p> <img imageRotate="0" src="assets/aem_content_forms.png" /></li>
-   <li><p>In the page properties, select the <strong>Cloud Service</strong> corresponding to your Adobe Campaign instance.</p> <img imageRotate="0" src="assets/aem_content_forms_2.png" /></li>
+   <li><p>In your AEM site, create a new page based on the <strong>Adobe Campaign Profile </strong> template.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/aem_content_forms.png" title="" /></li>
+   <li><p>In the page properties, select the <strong>Cloud Service</strong> corresponding to your Adobe Campaign instance.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/aem_content_forms_2.png" title="" /></li>
    <li><p>Select the form type from the <strong>Form Start</strong> component:</p> 
     <ul>
      <li><p><strong>Adobe Campaign: Save profile</strong></p> </li>

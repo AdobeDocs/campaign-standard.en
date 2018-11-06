@@ -3,13 +3,13 @@ title: Types of users
 seo-title: Types of users
 description: Types of users
 seo-description: Adobe Campaign users hold specific roles. Discover the main user types. 
-uuid: fbe5ad21-bb4c-401f-9139-60ece740152a
+uuid: 85cf7296-a6f6-4579-a47d-78236567ad0d
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/types-of-users
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 11.863-0400
-cq-lastreplicated: 2018-07-23T05 53 21.887-0400
+cq-lastmodified: 2018-09-10T07 22 30.691-0400
+cq-lastreplicated: 2018-09-07T14 40 49.026-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: administration
 content-type: reference
 topic-tags: users-e-security
 cq-template: /apps/help/templates/article-3
-discoiquuid: 09563aec-c343-44ae-88e9-6adf23bb5c85
-firstPublishExternalDate: 2018-07-23T05:53:21.847-0400
+discoiquuid: 8240d119-2e50-47f4-ae72-abecb43a28ad
+firstPublishExternalDate: 2018-09-07T14:40:48.414-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-02-16T08 01 09.439-0500
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Types of users
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:53:21.847-0400
-lochandoffdate: 2018-07-25T09 29 11.862-0400
+lastPublishExternalDate: 2018-09-07T14:40:48.414-0400
+lochandoffdate: 2018-09-10T07 22 30.690-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Types of users
-publishexternaldate: 2018-07-23T05 53 21.847-0400
+publishexternaldate: 2018-09-07T14 40 48.414-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/types-of-users.html
-sha1: cdaecace453db639582029f62d1460e70ca6b3c4
-topicBrowsingSortDate: 2018-07-23T05:53:21.847-0400
+sha1: ce860d1c59ada43e2c04ca471f610b2c11298034
+topicBrowsingSortDate: 2018-09-07T14:40:48.414-0400
 index: y
 internal: n
 snippet: y
@@ -114,7 +114,7 @@ Here are the main tasks they can perform:
 
 * [Manage programs and campaigns](../../start/using/programs-and-campaigns.md): create marketing campaigns including different types of activities (emails, SMS messages, push notifications, workflows, landing pages).
 * Manage [profiles](../../audiences/using/about-profiles.md) and [test profiles](../../sending/using/managing-test-profiles-and-sending-proofs.md): manage the identified and test recipients that will be targeted by your deliveries. Add information such as first name, last name, contact information, subscriptions, emails, etc.
-* [Create and send messages](../../sending/using/confirming-send.md): create your message, select the audience, define the message content and its personalization elements, send proofs and send the final message to your audience.
+* [Create and send messages](../../sending/using/confirming-the-send.md): create your message, select the audience, define the message content and its personalization elements, send proofs and send the final message to your audience.
 * [Create and publish landing pages](../../channels/using/about-landing-pages.md): create and manage a set of services that you wish to offer your clients, for example subscription or unsubscription forms.
 * [Create and execute campaign workflows](../../automating/using/building-a-workflow.md): automate your campaign processes using workflows.
 * Monitor your marketing activities through the [available reports](../../reporting/using/defining-the-report-period.md).

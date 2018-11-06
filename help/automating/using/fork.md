@@ -3,13 +3,13 @@ title: Fork
 seo-title: Fork
 description: Fork
 seo-description: The Fork activity allows you to create outbound transitions to start several activities at the same time.
-uuid: 62944ec3-663f-4cbd-a243-dc01f95482eb
+uuid: dca75ff8-e4e9-455a-9228-2f9e29bb6031
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/fork
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 36.448-0400
-cq-lastreplicated: 2018-07-23T05 57 12.861-0400
+cq-lastmodified: 2018-09-10T07 26 15.954-0400
+cq-lastreplicated: 2018-09-07T14 58 57.592-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: 9ed9d42c-d0c3-423e-a532-14362363f7df
-firstPublishExternalDate: 2018-07-23T05:57:12.826-0400
+discoiquuid: e0484390-69c7-46fd-b498-bcb41e508e17
+firstPublishExternalDate: 2018-09-07T14:58:55.478-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 16.995-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Fork
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:57:12.826-0400
-lochandoffdate: 2018-07-25T09 29 36.448-0400
+lastPublishExternalDate: 2018-09-07T14:58:55.478-0400
+lochandoffdate: 2018-09-10T07 26 15.952-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Fork
-publishexternaldate: 2018-07-23T05 57 12.826-0400
+publishexternaldate: 2018-09-07T14 58 55.478-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/fork.html
-sha1: 2f64430c1a2b7165c00810f736dbf3d6cbc9f7f0
-topicBrowsingSortDate: 2018-07-23T05:57:12.826-0400
+sha1: 24d6d19744b4745a0c66fce3dc011ede917ca0b1
+topicBrowsingSortDate: 2018-09-07T14:58:55.478-0400
 index: y
 internal: n
 snippet: y

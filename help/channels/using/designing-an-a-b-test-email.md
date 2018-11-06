@@ -3,13 +3,13 @@ title: Designing an A/B test email
 seo-title: Designing an A/B test email
 description: Designing an A/B test email
 seo-description: Discover the A/B test functionality and follow these steps to create an email from an A/B test template in Adobe Campaign.
-uuid: 3c6f16c8-7911-4ebd-ab85-829f3ebd8fc9
+uuid: 01823598-c493-43f7-b089-d6a96b61a41d
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/designing-an-a-b-test-email
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-30T04 53 48.912-0400
-cq-lastreplicated: 2018-07-23T06 02 42.920-0400
+cq-lastmodified: 2018-09-08T08 23 04.123-0400
+cq-lastreplicated: 2018-09-07T15 11 41.787-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: channels
 content-type: reference
 topic-tags: email-messages
 cq-template: /apps/help/templates/article-3
-discoiquuid: bccfd95e-5c13-41be-9ab1-388d113be8d6
-firstPublishExternalDate: 2018-07-23T06:02:42.866-0400
+discoiquuid: 803fa14f-7306-49ce-b90d-fd98c900d64a
+firstPublishExternalDate: 2018-09-07T15:11:41.672-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 03.345-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Designing an A/B test email
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:02:42.866-0400
-lochandoffdate: 2018-07-30T04 53 48.912-0400
+lastPublishExternalDate: 2018-09-07T15:11:41.672-0400
+lochandoffdate: 2018-09-08T08 23 04.122-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Designing an A/B test email
-publishexternaldate: 2018-07-23T06 02 42.866-0400
+publishexternaldate: 2018-09-07T15 11 41.672-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/designing-an-a-b-test-email.html
-sha1: 63010c41c2412da037a3277a08a035a367d78d9d
-topicBrowsingSortDate: 2018-07-23T06:02:42.866-0400
+sha1: 39b92f787fa38faa1ac402cf03b61843ebba94ed
+topicBrowsingSortDate: 2018-09-07T15:11:41.672-0400
 index: y
 internal: n
 snippet: y

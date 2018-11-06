@@ -3,13 +3,13 @@ title: About landing pages
 seo-title: About landing pages
 description: About landing pages
 seo-description: Discover the landing page templates and life cycle.
-uuid: d3fbd353-00db-405d-8711-774e46485f69
+uuid: c3cdf0bc-8c36-49b0-895a-c38f2a444ab5
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/about-landing-pages
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-30T04 54 09.388-0400
-cq-lastreplicated: 2018-07-23T06 03 15.091-0400
+cq-lastmodified: 2018-09-08T08 23 22.710-0400
+cq-lastreplicated: 2018-09-07T15 12 34.044-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 cq-template: /apps/help/templates/article-3
-discoiquuid: 9388bf3d-73bb-44cd-b381-99fba169d6b0
-firstPublishExternalDate: 2018-07-23T06:03:14.984-0400
+discoiquuid: 72d04be7-08c9-4e34-8bd5-24a486ee8076
+firstPublishExternalDate: 2018-09-07T15:12:34.012-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 40.674-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: About landing pages
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:03:14.984-0400
-lochandoffdate: 2018-07-30T04 54 09.388-0400
+lastPublishExternalDate: 2018-09-07T15:12:34.012-0400
+lochandoffdate: 2018-09-08T08 23 22.710-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About landing pages
-publishexternaldate: 2018-07-23T06 03 14.984-0400
+publishexternaldate: 2018-09-07T15 12 34.012-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/about-landing-pages.html
-sha1: 772ed1887753d86532806f89d5048f7884092e4f
-topicBrowsingSortDate: 2018-07-23T06:03:14.984-0400
+sha1: 3c921e5bb0de8fee87b7b5821241d444e12dda27
+topicBrowsingSortDate: 2018-09-07T15:12:34.012-0400
 index: y
 internal: n
 snippet: y

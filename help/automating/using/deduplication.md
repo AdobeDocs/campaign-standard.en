@@ -3,13 +3,13 @@ title: Deduplication
 seo-title: Deduplication
 description: Deduplication
 seo-description: The Deduplication activity allows you to delete duplicates in the result(s) of the inbound activities.
-uuid: ce260b79-99ed-40bf-9498-48427d3daac4
+uuid: 05c64f32-ce6a-4da6-a349-c5c92e3cb234
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/deduplication
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 32.741-0400
-cq-lastreplicated: 2018-07-23T05 57 08.337-0400
+cq-lastmodified: 2018-09-10T07 25 34.803-0400
+cq-lastreplicated: 2018-09-07T14 56 14.726-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: a8cf8172-c116-4a74-8ed6-8815bc0da03b
-firstPublishExternalDate: 2018-07-23T05:57:08.294-0400
+discoiquuid: 513c79f7-9d36-4735-a405-c881679f958a
+firstPublishExternalDate: 2018-09-07T14:56:13.367-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 58.928-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Deduplication
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:57:08.294-0400
-lochandoffdate: 2018-07-25T09 29 32.740-0400
+lastPublishExternalDate: 2018-09-07T14:56:13.367-0400
+lochandoffdate: 2018-09-10T07 25 34.801-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Deduplication
-publishexternaldate: 2018-07-23T05 57 08.294-0400
+publishexternaldate: 2018-09-07T14 56 13.367-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/deduplication.html
-sha1: eb76e45816321970e7def9a3e20adeb1ba20445f
-topicBrowsingSortDate: 2018-07-23T05:57:08.294-0400
+sha1: d1464c50277ac5515192f3250a82453eed390a0d
+topicBrowsingSortDate: 2018-09-07T14:56:13.367-0400
 index: y
 internal: n
 snippet: y

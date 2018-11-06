@@ -2,14 +2,14 @@
 title: About channel configuration
 seo-title: About channel configuration
 description: About channel configuration
-seo-description: "Each channel needs to be configured: technical configuration, message properties and templates."
-uuid: 4c499f53-f453-466f-a772-9407e79e4230
+seo-description: Each channel needs to be configured: technical configuration, message properties and templates.
+uuid: 7c0039b7-b5bf-467c-83b8-c1fa6487a625
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/about-channel-configuration
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 21.305-0400
-cq-lastreplicated: 2018-07-23T05 53 32.020-0400
+cq-lastmodified: 2018-09-10T07 23 50.790-0400
+cq-lastreplicated: 2018-09-07T14 42 56.090-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 cq-template: /apps/help/templates/article-3
-discoiquuid: f9549e1a-00f4-41d6-9486-101c658ed32f
-firstPublishExternalDate: 2018-07-23T05:53:31.949-0400
+discoiquuid: de4101fe-5e4b-4cae-9ebd-cb525e63eb91
+firstPublishExternalDate: 2018-09-07T14:42:53.526-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-02-16T08 02 03.383-0500
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: About channel configuration
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:53:31.949-0400
-lochandoffdate: 2018-07-25T09 29 21.305-0400
+lastPublishExternalDate: 2018-09-07T14:42:53.526-0400
+lochandoffdate: 2018-09-10T07 23 50.788-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About channel configuration
-publishexternaldate: 2018-07-23T05 53 31.949-0400
+publishexternaldate: 2018-09-07T14 42 53.526-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/about-channel-configuration.html
-sha1: 9de34338b3c9968c9543b5e5cccab36b5e1741d8
-topicBrowsingSortDate: 2018-07-23T05:53:31.949-0400
+sha1: 1e24932725a2cc22671fed1e9c160d6a127cd2fa
+topicBrowsingSortDate: 2018-09-07T14:42:53.526-0400
 index: y
 internal: n
 snippet: y

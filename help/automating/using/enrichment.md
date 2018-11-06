@@ -3,13 +3,13 @@ title: Enrichment
 seo-title: Enrichment
 description: Enrichment
 seo-description: The Enrichment activity is an advanced activity that allows you to define additional data to process in your workflow.
-uuid: 8f9d64d9-8b94-4eb3-8874-e53894be8010
+uuid: 35b643a0-2b82-4bb7-9bcc-88bf1b1f41b0
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/enrichment
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 34.130-0400
-cq-lastreplicated: 2018-07-23T05 57 09.716-0400
+cq-lastmodified: 2018-09-10T07 25 51.315-0400
+cq-lastreplicated: 2018-09-07T14 56 46.296-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: 02213186-ddf0-43aa-8551-7e6938d5b5bf
-firstPublishExternalDate: 2018-07-23T05:57:09.679-0400
+discoiquuid: 4e68065c-335d-411c-86f8-7c81662ca461
+firstPublishExternalDate: 2018-09-07T14:56:44.379-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 26.932-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Enrichment
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:57:09.679-0400
-lochandoffdate: 2018-07-25T09 29 34.130-0400
+lastPublishExternalDate: 2018-09-07T14:56:44.379-0400
+lochandoffdate: 2018-09-10T07 25 51.314-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Enrichment
-publishexternaldate: 2018-07-23T05 57 09.679-0400
+publishexternaldate: 2018-09-07T14 56 44.379-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/enrichment.html
-sha1: d7e911fbb0c05c3a3d884986cd88e5d2b4193f4b
-topicBrowsingSortDate: 2018-07-23T05:57:09.679-0400
+sha1: 3e3ba6724b911bc5bb997aea898e96eff3c3c044
+topicBrowsingSortDate: 2018-09-07T14:56:44.379-0400
 index: y
 internal: n
 snippet: y

@@ -3,13 +3,13 @@ title: Exporting logs
 seo-title: Exporting logs
 description: Exporting logs
 seo-description: Log data, whether they are related to deliveries or to subscriptions, can be exported through a simple workflow.
-uuid: 994d5bb0-572a-4955-a63b-358aceb24a33
+uuid: 2a546a23-cf4a-4f97-889e-4d409f2a16ae
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/exporting-logs
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 59.434-0400
-cq-lastreplicated: 2018-07-23T05 57 55.338-0400
+cq-lastmodified: 2018-09-10T07 29 13.229-0400
+cq-lastreplicated: 2018-09-07T15 09 07.566-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
 cq-template: /apps/help/templates/article-3
-discoiquuid: 38684da9-c561-49dd-84ee-f36af1837565
-firstPublishExternalDate: 2018-07-23T05:57:55.259-0400
+discoiquuid: 3542133a-8302-4dcc-944b-7f0fd091062e
+firstPublishExternalDate: 2018-09-07T15:09:07.433-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 00.687-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Exporting logs
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:57:55.259-0400
-lochandoffdate: 2018-07-25T09 29 59.434-0400
+lastPublishExternalDate: 2018-09-07T15:09:07.433-0400
+lochandoffdate: 2018-09-10T07 29 13.228-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Exporting logs
-publishexternaldate: 2018-07-23T05 57 55.259-0400
+publishexternaldate: 2018-09-07T15 09 07.433-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/exporting-logs.html
-sha1: 5193dcb376aa8bb7dc54ea7f7f261ce22d12efa1
-topicBrowsingSortDate: 2018-07-23T05:57:55.259-0400
+sha1: 48c4ff69ae0047c9d04111cadcaf16cf575c30ec
+topicBrowsingSortDate: 2018-09-07T15:09:07.433-0400
 index: y
 internal: n
 snippet: y

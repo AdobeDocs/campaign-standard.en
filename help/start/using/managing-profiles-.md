@@ -2,14 +2,14 @@
 title: Managing profiles 
 seo-title: Managing profiles 
 description: Managing profiles 
-seo-description: "Learn about profiles, targeting and audience creation in Campaign: send personalized messages, and access all your data to discover customer insights from both online and offline channels."
-uuid: b6b79ea6-a4bb-43a8-962a-ed212fd44da7
+seo-description: Learn about profiles, targeting and audience creation in Campaign: send personalized messages, and access all your data to discover customer insights from both online and offline channels.
+uuid: 259f937b-b27f-4346-86a6-dff0be9f7156
 content-encoding: UTF-8
 aemsrcnodepath: /content/help/en/campaign/standard/start/using/managing-profiles-
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-27T03 26 17.383-0400
-cq-lastreplicated: 2018-07-23T06 00 33.141-0400
+cq-lastmodified: 2018-09-08T08 23 02.269-0400
+cq-lastreplicated: 2018-09-07T15 05 06.604-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: start
 content-type: reference
 topic-tags: about-adobe-campaign
 cq-template: /apps/help/templates/article-3
-discoiquuid: bfcce3fc-70b6-4637-bd87-86dba743d69a
-firstPublishExternalDate: 2018-07-23T06:00:32.918-0400
+discoiquuid: 306b2da3-1d7b-439b-8ae7-87e5e9516980
+firstPublishExternalDate: 2018-09-07T15:05:03.083-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 17.956-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Managing profiles 
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:00:32.918-0400
-lochandoffdate: 2018-07-27T03 26 17.382-0400
+lastPublishExternalDate: 2018-09-07T15:05:03.083-0400
+lochandoffdate: 2018-09-08T08 23 02.269-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Managing profiles 
-publishexternaldate: 2018-07-23T06 00 32.918-0400
+publishexternaldate: 2018-09-07T15 05 03.083-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/start/using/managing-profiles-.html
-sha1: c6fd6ca47abb4cb8f9c34628e1c81af971c26be6
-topicBrowsingSortDate: 2018-07-23T06:00:32.918-0400
+sha1: 3b6ab7c8694adfc257b97cfd778cf7b346fa84b2
+topicBrowsingSortDate: 2018-09-07T15:05:03.083-0400
 index: y
 internal: n
 snippet: y

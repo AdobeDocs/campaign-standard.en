@@ -3,13 +3,13 @@ title: Adding components
 seo-title: Adding components
 description: Adding components
 seo-description: Drag and drog components to your freeform table to start filtering your data and building your report.
-uuid: 686f468a-3120-48d2-b6b5-beee0c081567
+uuid: 6126f2fb-6e5b-4a7c-9906-d494c4c3e33c
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/reporting/using/adding-components
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-27T03 27 27.280-0400
-cq-lastreplicated: 2018-07-23T06 00 26.817-0400
+cq-lastmodified: 2018-09-10T02 19 24.085-0400
+cq-lastreplicated: 2018-09-07T15 08 52.179-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: reporting
 content-type: reference
 topic-tags: customizing-reports
 cq-template: /apps/help/templates/article-3
-discoiquuid: 814af019-441f-4c65-9f43-1b9442f77900
-firstPublishExternalDate: 2018-07-23T06:00:26.770-0400
+discoiquuid: a524c114-ae7f-43f0-9a64-12114bc40e00
+firstPublishExternalDate: 2018-09-07T15:08:52.056-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 51.777-0400
@@ -26,15 +26,16 @@ jcr-createdby: admin
 jcr-description: Adding components
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:00:26.770-0400
-lochandoffdate: 2018-07-27T03 27 27.278-0400
+lastPublishExternalDate: 2018-09-07T15:08:52.056-0400
+lochandoffdate: 2018-09-10T02 19 24.085-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
+moreHelpPaths: /content/help/en/campaign/standard/reporting/morehelp/customizing-reports;/content/help/en/campaign/standard/reporting/morehelp/customizing-reports
 navTitle: Adding components
-publishexternaldate: 2018-07-23T06 00 26.770-0400
+publishexternaldate: 2018-09-07T15 08 52.056-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/adding-components.html
-sha1: 302f2ae260ed6d3835ddc1ee5d4a3e520c7ffa41
-topicBrowsingSortDate: 2018-07-23T06:00:26.770-0400
+sha1: b18a36f17c75af94501d98d7830fe51e955058e1
+topicBrowsingSortDate: 2018-09-07T15:08:52.056-0400
 index: y
 internal: n
 snippet: y

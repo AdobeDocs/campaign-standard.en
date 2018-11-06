@@ -2,14 +2,14 @@
 title: About profiles and audiences
 seo-title: About profiles and audiences
 description: About profiles and audiences
-seo-description: "Learn about profiles and audiences management within Adobe Campaign: define targeted populations, select audiences, filter recipients, collect data and update profiles."
-uuid: d4ec69cc-0c6f-4f3b-af97-05e5729ce73b
+seo-description: Learn about profiles and audiences management within Adobe Campaign: define targeted populations, select audiences, filter recipients, collect data and update profiles.
+uuid: 46e7264b-8512-4f67-b1e6-5a93dedc9ada
 content-encoding: UTF-8
 aemsrcnodepath: /content/help/en/campaign/standard/audiences/using/about-profiles-and-audiences
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 09.808-0400
-cq-lastreplicated: 2018-07-23T05 55 17.174-0400
+cq-lastmodified: 2018-09-10T07 22 11.394-0400
+cq-lastreplicated: 2018-09-07T14 41 55.077-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
 cq-template: /apps/help/templates/article-3
-discoiquuid: 0f837b27-a588-44a5-9404-0ae248b3f1b7
-firstPublishExternalDate: 2018-07-23T05:55:17.132-0400
+discoiquuid: 473c2832-559e-42cd-8c05-1c72369bf39e
+firstPublishExternalDate: 2018-09-07T14:41:54.344-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 20.315-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: About profiles and audiences
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:55:17.132-0400
-lochandoffdate: 2018-07-25T09 29 09.808-0400
+lastPublishExternalDate: 2018-09-07T14:41:54.344-0400
+lochandoffdate: 2018-09-10T07 22 11.393-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About profiles and audiences
-publishexternaldate: 2018-07-23T05 55 17.132-0400
+publishexternaldate: 2018-09-07T14 41 54.344-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/audiences/using/about-profiles-and-audiences.html
-sha1: 8760958b3e05c678ec49bec4be61cfc3404ca2c5
-topicBrowsingSortDate: 2018-07-23T05:55:17.132-0400
+sha1: 941dcd69c6b8a8718ab33b94b0013369a54f0adb
+topicBrowsingSortDate: 2018-09-07T14:41:54.344-0400
 index: y
 internal: n
 snippet: y

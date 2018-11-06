@@ -3,13 +3,13 @@ title: Intersection
 seo-title: Intersection
 description: Intersection
 seo-description: The Intersection activity allows you to keep only the elements common to the different inbound populations in the activity.
-uuid: e479642b-61cf-45be-89ef-a9231cd7c75a
+uuid: f7d322bb-f533-4223-950e-a1d80e6b6ebb
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/intersection
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 26.642-0400
-cq-lastreplicated: 2018-07-23T05 57 02.178-0400
+cq-lastmodified: 2018-09-10T07 24 53.709-0400
+cq-lastreplicated: 2018-09-07T14 53 07.740-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: 93020aca-3b17-4083-80a4-a6f74f8d2f72
-firstPublishExternalDate: 2018-07-23T05:57:02.136-0400
+discoiquuid: 3d884497-af61-4e32-89f6-02c411a7e438
+firstPublishExternalDate: 2018-09-07T14:53:05.163-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 10.042-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Intersection
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:57:02.136-0400
-lochandoffdate: 2018-07-25T09 29 26.641-0400
+lastPublishExternalDate: 2018-09-07T14:53:05.163-0400
+lochandoffdate: 2018-09-10T07 24 53.707-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Intersection
-publishexternaldate: 2018-07-23T05 57 02.136-0400
+publishexternaldate: 2018-09-07T14 53 05.163-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/intersection.html
-sha1: f15392b8a0706e358ff99493722cf5a3b49982b1
-topicBrowsingSortDate: 2018-07-23T05:57:02.136-0400
+sha1: 0192dd4cb6870475d015f9535421b0c333084fb5
+topicBrowsingSortDate: 2018-09-07T14:53:05.163-0400
 index: y
 internal: n
 snippet: y

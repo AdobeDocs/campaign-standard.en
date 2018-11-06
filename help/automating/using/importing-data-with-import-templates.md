@@ -3,13 +3,13 @@ title: Importing data with import templates
 seo-title: Importing data with import templates
 description: Importing data with import templates
 seo-description: 
-uuid: ce882289-d9ff-462d-9f7a-c5f8718edb5a
+uuid: 22cc48a7-4b16-4abb-8b4d-518f84ee6cf0
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/importing-data-with-import-templates
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 58.480-0400
-cq-lastreplicated: 2018-07-23T05 57 52.393-0400
+cq-lastmodified: 2018-09-10T07 29 04.378-0400
+cq-lastreplicated: 2018-09-07T15 09 03.306-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
 cq-template: /apps/help/templates/article-3
-discoiquuid: 67a668dd-0912-47e8-b056-feac1efdf22b
-firstPublishExternalDate: 2018-07-23T05:57:52.301-0400
+discoiquuid: 2c67b38b-ba47-42a5-8f30-3892bfd7c1e0
+firstPublishExternalDate: 2018-09-07T15:09:03.228-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-04-05T07 29 31.766-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Importing data with import templates
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:57:52.301-0400
-lochandoffdate: 2018-07-25T09 29 58.480-0400
+lastPublishExternalDate: 2018-09-07T15:09:03.228-0400
+lochandoffdate: 2018-09-10T07 29 04.377-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Importing data with import templates
-publishexternaldate: 2018-07-23T05 57 52.301-0400
+publishexternaldate: 2018-09-07T15 09 03.228-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/importing-data-with-import-templates.html
-sha1: 32ff207626c550d487119654eb563031521e2c52
-topicBrowsingSortDate: 2018-07-23T05:57:52.301-0400
+sha1: 305f81a15738101a975d2ff6b9aa3f1ec0ed0ec2
+topicBrowsingSortDate: 2018-09-07T15:09:03.228-0400
 index: y
 internal: n
 snippet: y

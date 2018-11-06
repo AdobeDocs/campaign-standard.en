@@ -3,13 +3,13 @@ title: Personalizing Campaign messages with Point of Interest data
 seo-title: Personalizing Campaign messages with Point of Interest data
 description: Personalizing Campaign messages with Point of Interest data
 seo-description: Learn how to create a personalized message based on your subscribers' location with the Point of Interest data integration.
-uuid: c9b8fd90-4b07-4fb4-a7ee-17a560ee1292
+uuid: b19290b7-bd41-4263-b874-68213ce1d873
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/integrating/using/personalizing-campaign-messages-with-point-of-interest-data
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-27T03 27 10.565-0400
-cq-lastreplicated: 2018-07-23T05 59 46.222-0400
+cq-lastmodified: 2018-09-10T02 19 09.120-0400
+cq-lastreplicated: 2018-09-07T15 08 08.968-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
 cq-template: /apps/help/templates/article-3
-discoiquuid: aeda1937-ec25-4366-b352-425893e531ed
-firstPublishExternalDate: 2018-07-23T05:59:46.181-0400
+discoiquuid: 29554741-9b11-4016-b5a2-b90ce8d4267d
+firstPublishExternalDate: 2018-09-07T15:08:08.715-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 44.932-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Personalizing Campaign messages with Point of Interest data
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:59:46.181-0400
-lochandoffdate: 2018-07-27T03 27 10.563-0400
+lastPublishExternalDate: 2018-09-07T15:08:08.715-0400
+lochandoffdate: 2018-09-10T02 19 09.119-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Personalizing Campaign messages with Point of Interest data
-publishexternaldate: 2018-07-23T05 59 46.181-0400
+publishexternaldate: 2018-09-07T15 08 08.715-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/personalizing-campaign-messages-with-point-of-interest-data.html
-sha1: f6627c56f9eda957e9e5583104dbefc2163991be
-topicBrowsingSortDate: 2018-07-23T05:59:46.181-0400
+sha1: a6e812d632978448d054c0baa0a478d549cc04c5
+topicBrowsingSortDate: 2018-09-07T15:08:08.715-0400
 index: y
 internal: n
 snippet: y
@@ -90,5 +90,5 @@ The email with the 10% discount offer will be sent to subscribers who:
 
 * [Creating an email](../../channels/using/creating-an-email.md)
 * [Defining content](../../designing/using/example--email-personalization.md)
-* [Sending messages](../../sending/using/confirming-send.md)
+* [Sending messages](../../sending/using/confirming-the-send.md)
 

@@ -3,13 +3,13 @@ title: Non-deliverables and bounces
 seo-title: Non-deliverables and bounces
 description: Non-deliverables and bounces
 seo-description: With the Non-deliverables and bounces out-of-the-box report, learn about the errors that may occurred to your delivery. 
-uuid: 866349da-f0c1-432f-aa3c-64cfe94620a8
+uuid: 35484472-794f-43ca-b692-8fbba55cc5ac
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/reporting/using/non-deliverables-and-bounces
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-27T03 26 52.728-0400
-cq-lastreplicated: 2018-07-23T06 00 18.219-0400
+cq-lastmodified: 2018-09-10T02 18 57.619-0400
+cq-lastreplicated: 2018-09-07T15 07 51.520-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 cq-template: /apps/help/templates/article-3
-discoiquuid: 167a43cf-fac5-42fb-93da-9ba677c5709d
-firstPublishExternalDate: 2018-07-23T06:00:18.168-0400
+discoiquuid: 11ae101b-5e0e-4795-bd85-5c4e76b6ae55
+firstPublishExternalDate: 2018-09-07T15:07:50.977-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 14.651-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Non-deliverables and bounces
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:00:18.168-0400
-lochandoffdate: 2018-07-27T03 26 52.727-0400
+lastPublishExternalDate: 2018-09-07T15:07:50.977-0400
+lochandoffdate: 2018-09-10T02 18 57.618-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Non-deliverables and bounces
-publishexternaldate: 2018-07-23T06 00 18.168-0400
+publishexternaldate: 2018-09-07T15 07 50.977-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/non-deliverables-and-bounces.html
-sha1: 7b0844f177f70eebcd3736590e73bbaeb23a3d15
-topicBrowsingSortDate: 2018-07-23T06:00:18.168-0400
+sha1: 3a21d08ab0a0e58a394e767d6816c386deb16036
+topicBrowsingSortDate: 2018-09-07T15:07:50.977-0400
 index: y
 internal: n
 snippet: y

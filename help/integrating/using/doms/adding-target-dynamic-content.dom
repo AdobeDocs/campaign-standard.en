@@ -1,42 +1,40 @@
 <html>
  <head>
-  <meta content="Adding Target dynamic content" name="jcr:description" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="2018-07-23T05:59:35.395-0400" name="firstPublishExternalDate" />
-  <meta content="2018-07-23T05:59:35.395-0400" name="lastPublishExternalDate" />
-  <meta content="bcb08bdb-ce7a-43f7-8198-5719fb9d65cc" name="jcr:uuid" />
-  <meta content="Adding Target dynamic content" name="navTitle" />
-  <meta content="Learn how to add Adobe Target dynamic content in one of your Adobe Campaign delivery." name="seoDescription" />
-  <meta content="mancini" name="cq:lastModifiedBy" />
-  <meta content="audience:integrating" name="primaryAudienceTag" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="2018-07-23T05:59:35.463-0400" name="cq:lastReplicated" />
-  <meta content="2018-07-23T05:59:35.395-0400" name="topicBrowsingSortDate" />
+  <meta content="2018-09-07T15:02:19.372-0400" name="cq:lastReplicated" />
   <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="Adding Target dynamic content" name="jcr:title" />
-  <meta content="/content/help/en/campaign/standard/integrating/morehelp/working-with-campaign-and-target;/content/help/en/campaign/standard/integrating/morehelp/working-with-campaign-and-target" name="moreHelpPaths" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="8828a100-0dc1-42a7-bc1f-7ab550c29d51" name="jcr:predecessors" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="https://helpx.adobe.com/campaign/standard/integrating/using/adding-target-dynamic-content.html" name="publishExternalURL" />
-  <meta content="2018-03-15T09:02:23.314-0400" name="jcr:created" />
-  <meta content="2018-07-27T03:26:33.457-0400" name="cq:lastModified" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
   <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="2018-07-23T05:59:35.395-0400" name="publishExternalDate" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-09-07T15:02:16.375-0400" name="lastPublishExternalDate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
   <meta content="" name="jcr:versionHistory" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:integrating;content_type:reference;topic_tags:working-with-campaign-and-target" name="cq:tags" />
-  <meta content="2018-07-27T03:26:33.456-0400" name="locHandOffDate" />
-  <meta content="light" name="heroGradient" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Adding Target dynamic content" name="navTitle" />
+  <meta content="admin" name="jcr:createdBy" />
   <meta content="sauviat" name="contentOwner" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="light" name="heroGradient" />
+  <meta content="Learn how to add Adobe Target dynamic content in one of your Adobe Campaign delivery." name="seoDescription" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="https://helpx.adobe.com/campaign/standard/integrating/using/adding-target-dynamic-content.html" name="publishExternalURL" />
+  <meta content="2018-09-10T02:18:43.443-0400" name="cq:lastModified" />
+  <meta content="2018-03-15T09:02:23.314-0400" name="jcr:created" />
+  <meta content="bcb08bdb-ce7a-43f7-8198-5719fb9d65cc" name="jcr:uuid" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-09-07T15:02:16.375-0400" name="topicBrowsingSortDate" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="Adding Target dynamic content" name="jcr:description" />
+  <meta content="8828a100-0dc1-42a7-bc1f-7ab550c29d51" name="jcr:predecessors" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:integrating;content_type:reference;topic_tags:working-with-campaign-and-target" name="cq:tags" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-09-07T15:02:16.375-0400" name="firstPublishExternalDate" />
+  <meta content="audience:integrating" name="primaryAudienceTag" />
+  <meta content="2018-09-10T02:18:43.443-0400" name="locHandOffDate" />
+  <meta content="Adding Target dynamic content" name="jcr:title" />
+  <meta content="2018-09-07T15:02:16.375-0400" name="publishExternalDate" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
  </head>
  <body>
   <p>With Adobe Target integration, dynamic images can be added into a delivery to personalize your content depending of experiences.</p> 
@@ -54,7 +52,7 @@
    <li><p>Select the image that will appear by default in the email. You can directly specify the image URL or select an image shared via <a href="../../integrating/using/working-with-campaign-and-assets-core-service.md">Assets</a>.</p> <p>The integration only supports static images. The rest of the content is not customizable.</p> </li>
    <li><p>Enter the name of the rawbox specified in Adobe Target.</p> </li>
    <li><p>If you use Enterprise permissions in your settings in Adobe Target, add the corresponding property in this field. Learn more about Target Enterprise permissions in <a href="https://marketing.adobe.com/resources/help/en_US/target/target/properties-overview.html">this page</a>. This field is optional and not required if you don't use Enterprise permissions in Target.</p> </li>
-   <li><p>In <strong>Additional decision parameters</strong>, specify the mapping between the fields defined in the Adobe Target segments and the Adobe Campaign fields. </p> <p>The Adobe Campaign fields used must have been specified in the rawbox. Here, we will define different experiences depending of the recipient's gender.</p> <img imageRotate="0" src="assets/tar_additional_decisionning_parameters.png" /></li>
+   <li><p>In <strong>Additional decision parameters</strong>, specify the mapping between the fields defined in the Adobe Target segments and the Adobe Campaign fields. </p> <p>The Adobe Campaign fields used must have been specified in the rawbox. Here, we will define different experiences depending of the recipient's gender.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/tar_additional_decisionning_parameters.png" title="" /></li>
    <li><p>Preview your email to see if, when selecting different profiles, the image inserted changes depending on the parameters specified in the Adobe Target activity and in Adobe Campaign.</p> </li>
   </ol>
   <p>Your delivery containing the dynamic image can now be send. Its results can be found in Adobe Target.</p> 

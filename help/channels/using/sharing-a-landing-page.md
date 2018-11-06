@@ -3,13 +3,13 @@ title: Sharing a landing page
 seo-title: Sharing a landing page
 description: Sharing a landing page
 seo-description: Learn how to test and publish a landing page in Adobe Campaign.
-uuid: 1468636f-62d0-44ce-9010-d8efb697cb8e
+uuid: d792aaa6-3396-4811-9946-6c76a999d46a
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/sharing-a-landing-page
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-30T04 54 13.217-0400
-cq-lastreplicated: 2018-07-23T06 03 17.794-0400
+cq-lastmodified: 2018-09-08T08 23 23.433-0400
+cq-lastreplicated: 2018-09-07T15 12 36.297-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 cq-template: /apps/help/templates/article-3
-discoiquuid: f70b508e-0fc7-4f27-846f-fa6dff6b5ad1
-firstPublishExternalDate: 2018-07-23T06:03:17.746-0400
+discoiquuid: 1268306a-639e-46fe-83bb-1b53394f690f
+firstPublishExternalDate: 2018-09-07T15:12:36.257-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 35.668-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Sharing a landing page
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:03:17.746-0400
-lochandoffdate: 2018-07-30T04 54 13.217-0400
+lastPublishExternalDate: 2018-09-07T15:12:36.257-0400
+lochandoffdate: 2018-09-08T08 23 23.432-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Sharing a landing page
-publishexternaldate: 2018-07-23T06 03 17.746-0400
+publishexternaldate: 2018-09-07T15 12 36.257-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/sharing-a-landing-page.html
-sha1: 78b072db5a1e71575ee08b6cbdadbb07aec71854
-topicBrowsingSortDate: 2018-07-23T06:03:17.746-0400
+sha1: 233c64868035ba14494fb4d949a4ae7a1b158782
+topicBrowsingSortDate: 2018-09-07T15:12:36.257-0400
 index: y
 internal: n
 snippet: y

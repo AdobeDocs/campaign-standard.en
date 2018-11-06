@@ -1,40 +1,40 @@
 <html>
  <head>
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
   <meta content="admin" name="jcr:createdBy" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-03-15T09:01:08.598-0400" name="jcr:created" />
+  <meta content="Discovering communication channels" name="jcr:description" />
+  <meta content="2018-09-08T08:23:01.916-0400" name="locHandOffDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:channels;content_type:reference;topic_tags:about-communication-channels" name="cq:tags" />
+  <meta content="Discovering communication channels" name="jcr:title" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="5118bb6c-8988-4195-b5d4-b7dac7436d25" name="jcr:predecessors" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2018-09-07T15:11:23.350-0400" name="cq:lastReplicated" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2018-09-07T15:11:23.247-0400" name="firstPublishExternalDate" />
+  <meta content="2018-09-07T15:11:23.247-0400" name="topicBrowsingSortDate" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-09-08T08:23:01.916-0400" name="cq:lastModified" />
+  <meta content="2018-09-07T15:11:23.247-0400" name="publishExternalDate" />
+  <meta content="e5d2fe5a-b569-4254-a5eb-e2f60dfde61b" name="jcr:uuid" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="Learn how to send personalized messages on various channels and to create cross-channel campaigns to better target your recipients." name="seoDescription" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-09-07T15:11:23.247-0400" name="lastPublishExternalDate" />
+  <meta content="Discovering communication channels" name="navTitle" />
   <meta content="https://helpx.adobe.com/campaign/standard/channels/using/discovering-communication-channels.html" name="publishExternalURL" />
   <meta content="" name="jcr:versionHistory" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="e5d2fe5a-b569-4254-a5eb-e2f60dfde61b" name="jcr:uuid" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="2018-07-23T06:02:34.185-0400" name="firstPublishExternalDate" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="Discovering communication channels" name="jcr:title" />
-  <meta content="Discovering communication channels" name="navTitle" />
-  <meta content="2018-07-23T06:02:34.185-0400" name="lastPublishExternalDate" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="2018-07-30T04:53:46.304-0400" name="cq:lastModified" />
-  <meta content="light" name="heroGradient" />
-  <meta content="" name="jcr:baseVersion" />
   <meta content="audience:channels" name="primaryAudienceTag" />
-  <meta content="2018-07-23T06:02:34.185-0400" name="publishExternalDate" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="Discovering communication channels" name="jcr:description" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="2018-07-23T06:02:34.221-0400" name="cq:lastReplicated" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:channels;content_type:reference;topic_tags:about-communication-channels" name="cq:tags" />
-  <meta content="5118bb6c-8988-4195-b5d4-b7dac7436d25" name="jcr:predecessors" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="Learn how to send personalized messages on various channels and to create cross-channel campaigns to better target your recipients." name="seoDescription" />
-  <meta content="2018-03-15T09:01:08.598-0400" name="jcr:created" />
-  <meta content="2018-07-30T04:53:46.304-0400" name="locHandOffDate" />
-  <meta content="2018-07-23T06:02:34.185-0400" name="topicBrowsingSortDate" />
  </head>
  <body>
   <p>Adobe Campaign allows you to create and send personalized messages on various channels and measure their effectiveness through dedicated reports.</p> 

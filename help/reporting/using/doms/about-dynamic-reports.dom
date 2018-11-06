@@ -1,42 +1,51 @@
 <html>
  <head>
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="About dynamic reports" name="jcr:title" />
-  <meta content="2018-07-23T06:00:05.538-0400" name="firstPublishExternalDate" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="About dynamic reports" name="jcr:description" />
-  <meta content="With dynamic reports, drag and drop variables and dimensions into your freeform environment and analyze the success of your campaigns." name="seoDescription" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="https://helpx.adobe.com/campaign/standard/reporting/using/about-dynamic-reports.html" name="publishExternalURL" />
-  <meta content="light" name="heroGradient" />
-  <meta content="2018-07-27T03:26:13.386-0400" name="locHandOffDate" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="2018-07-23T06:00:05.538-0400" name="topicBrowsingSortDate" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="2018-07-27T03:26:13.388-0400" name="cq:lastModified" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="2018-07-23T06:00:05.582-0400" name="cq:lastReplicated" />
-  <meta content="2018-07-23T06:00:05.538-0400" name="publishExternalDate" />
-  <meta content="audience:reporting" name="primaryAudienceTag" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:reporting;content_type:reference;topic_tags:about-reporting" name="cq:tags" />
-  <meta content="2bf2c5c8-5f42-4de9-b4fb-3b209fef7ff1" name="jcr:uuid" />
-  <meta content="About dynamic reports" name="navTitle" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
   <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="89871d61-0108-482d-9564-786f81abfe28" name="jcr:predecessors" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="2018-07-23T06:00:05.538-0400" name="lastPublishExternalDate" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="2018-03-15T09:02:23.599-0400" name="jcr:created" />
-  <meta content="" name="jcr:primaryType" />
+  <meta content="About dynamic reports" name="jcr:description" />
   <meta content="sauviat" name="contentOwner" />
-  <meta content="" name="jcr:baseVersion" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="/content/help/en/campaign/standard/reporting/morehelp/about-reporting;/content/help/en/campaign/standard/reporting/morehelp/about-reporting" name="moreHelpPaths" />
+  <meta content="https://helpx-internal.corp.adobe.com/content/help/en/campaign/standard/reporting/using/about-dynamic-reports.html" name="publishInternalURL" />
+  <meta content="About dynamic reports" name="navTitle" />
+  <meta content="2018-09-07T14:59:50.868-0400" name="firstPublishExternalDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2bf2c5c8-5f42-4de9-b4fb-3b209fef7ff1" name="jcr:uuid" />
+  <meta content="With dynamic reports, drag and drop variables and dimensions into your freeform environment and analyze the success of your campaigns." name="seoDescription" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:reporting;content_type:reference;topic_tags:about-reporting" name="cq:tags" />
+  <meta content="audience:reporting" name="primaryAudienceTag" />
+  <meta content="2018-09-11T08:43:16.310-0400" name="lastPublishExternalDate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
   <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="2018-09-11T08:43:16.331-0400" name="cq:lastReplicated" />
+  <meta content="2018-09-11T08:43:16.310-0400" name="firstPublishInternalDate" />
+  <meta content="2018-09-17T07:15:21.368-0400" name="locHandOffDate" />
+  <meta content="2018-09-11T08:43:16.310-0400" name="lastPublishInternalDate" />
+  <meta content="locales:fr;locales:de" name="locLangTag" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="About dynamic reports" name="jcr:title" />
+  <meta content="2018-09-11T08:43:16.310-0400" name="topicBrowsingSortDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="beneat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-09-17T07:15:21.368-0400" name="cq:lastModified" />
+  <meta content="2018-09-11T08:43:16.310-0400" name="publishExternalDate" />
+  <meta content="mancini" name="cq:lastModifiedBy" />
+  <meta content="2018-03-15T09:02:23.599-0400" name="jcr:created" />
+  <meta content="https://helpx.adobe.com/campaign/standard/reporting/using/about-dynamic-reports.html" name="publishExternalURL" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="89871d61-0108-482d-9564-786f81abfe28" name="jcr:predecessors" />
+  <meta content="2018-09-11T08:43:16.310-0400" name="publishInternalDate" />
+  <meta content="beneat" name="cq:lastReplicatedBy" />
+  <meta content="light" name="heroGradient" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
  </head>
  <body>
+  <note>
+   <p>Only users with administration rights or with organizational and geographical units set to <strong>All</strong> can create or save a new report. For more on this, refer to this <a href="../../administration/using/about-access-management.md#main-pars_text_27">section</a>.</p> 
+  </note>
   <h2>Accessing dynamic reports</h2>
   <img alt="" captionBottom="" imageRotate="0" src="assets/dynamic_report_intro.png" title="" />
   <p>Thanks to its drag and drop menu and customizable visualizations, the dynamic reports feature allows you to combine dimensions, metrics and time range in any combination, with unlimited breakdowns and comparisons.</p> 

@@ -2,14 +2,14 @@
 title: Accessing messages
 seo-title: Accessing messages
 description: Accessing messages
-seo-description: "Learn how to access messages and their advanced functionalities: creation, targeting, personalization, execution and reporting."
-uuid: be4eddfe-ba4b-4b36-8173-6f37f501f4c2
+seo-description: Learn how to access messages and their advanced functionalities: creation, targeting, personalization, execution and reporting.
+uuid: 8fba349f-43ad-4001-90b1-8d7fabd12a0b
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/accessing-messages
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-30T04 53 46.786-0400
-cq-lastreplicated: 2018-07-23T06 02 37.495-0400
+cq-lastmodified: 2018-09-08T08 23 02.434-0400
+cq-lastreplicated: 2018-09-07T15 11 29.597-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 cq-template: /apps/help/templates/article-3
-discoiquuid: 404c2c78-a06f-4ecc-88dd-6c951e6e3c4e
-firstPublishExternalDate: 2018-07-23T06:02:37.388-0400
+discoiquuid: 465751ec-362f-4e53-a7d0-3d91c747cefb
+firstPublishExternalDate: 2018-09-07T15:11:29.517-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 51.533-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Accessing messages
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:02:37.388-0400
-lochandoffdate: 2018-07-30T04 53 46.786-0400
+lastPublishExternalDate: 2018-09-07T15:11:29.517-0400
+lochandoffdate: 2018-09-08T08 23 02.434-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Accessing messages
-publishexternaldate: 2018-07-23T06 02 37.388-0400
+publishexternaldate: 2018-09-07T15 11 29.517-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/accessing-messages.html
-sha1: b5cab094bd9f99d47c0bc0af9c86b2226f30aa94
-topicBrowsingSortDate: 2018-07-23T06:02:37.388-0400
+sha1: 4bb18b1a76bc5d4d493f1cd0a4bf5ec0603778fc
+topicBrowsingSortDate: 2018-09-07T15:11:29.517-0400
 index: y
 internal: n
 snippet: y

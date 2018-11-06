@@ -2,14 +2,14 @@
 title: Importing content from a file
 seo-title: Importing content from a file
 description: Importing content from a file
-seo-description: 
-uuid: 9580655d-2c65-4099-b7cb-515aa182ad6e
+seo-description: Discover how to upload a file from your computer when creating an email or a landing page.
+uuid: 54a42d3a-f5d7-4354-909f-ad32ec6ef921
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/importing-content-from-a-file
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-26T02 53 40.201-0400
-cq-lastreplicated: 2018-07-23T08 13 38.628-0400
+cq-lastmodified: 2018-09-10T07 24 26.100-0400
+cq-lastreplicated: 2018-09-07T14 54 39.396-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: designing
 content-type: reference
 topic-tags: loading-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: 783b2ecf-bfbe-4d4d-8bf1-a28491e96ff0
-firstPublishExternalDate: 2018-07-23T05:58:18.365-0400
+discoiquuid: b8e6ee22-e9da-44e4-b66d-8a5c3477c814
+firstPublishExternalDate: 2018-09-07T14:54:37.385-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-07-23T07 30 15.125-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Importing content from a file
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T08:13:38.572-0400
-lochandoffdate: 2018-07-26T02 53 40.200-0400
+lastPublishExternalDate: 2018-09-07T14:54:37.385-0400
+lochandoffdate: 2018-09-10T07 24 26.098-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Importing content from a file
-publishexternaldate: 2018-07-23T08 13 38.572-0400
+publishexternaldate: 2018-09-07T14 54 37.385-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/importing-content-from-a-file.html
-sha1: b71aa9b768f34eabf256141fe3256a647f302cd3
-topicBrowsingSortDate: 2018-07-23T08:13:38.572-0400
+sha1: 0c9c7124f2aea8ed8dcae7162dc9b47c53e3ece8
+topicBrowsingSortDate: 2018-09-07T14:54:37.385-0400
 index: y
 internal: n
 snippet: y

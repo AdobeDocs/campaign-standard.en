@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="e6320085-b674-4cbc-a5bc-e0cfbb00865e" name="jcr:predecessors" />
-  <meta content="Learn how to configure the Adobe Target integration to start using dynamic content in Adobe Campaign." name="seoDescription" />
-  <meta content="b4829408-b29b-4406-86a3-b0e846ca977d" name="jcr:uuid" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="Configuring the Campaign-Target integration" name="jcr:description" />
-  <meta content="2018-07-23T05:59:34.538-0400" name="cq:lastReplicated" />
-  <meta content="Configuring the Campaign-Target integration" name="jcr:title" />
-  <meta content="2018-07-23T05:59:34.471-0400" name="lastPublishExternalDate" />
-  <meta content="light" name="heroGradient" />
-  <meta content="2018-07-23T05:59:34.471-0400" name="topicBrowsingSortDate" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:integrating;content_type:reference;topic_tags:working-with-campaign-and-target" name="cq:tags" />
-  <meta content="2018-03-15T09:02:20.080-0400" name="jcr:created" />
   <meta content="false" name="isReadyForLocalization" />
-  <meta content="Configuring the Campaign-Target integration" name="navTitle" />
-  <meta content="2018-07-27T03:26:30.345-0400" name="locHandOffDate" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
   <meta content="audience:integrating" name="primaryAudienceTag" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="2018-07-27T03:26:30.347-0400" name="cq:lastModified" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="2018-07-23T05:59:34.471-0400" name="firstPublishExternalDate" />
-  <meta content="2018-07-23T05:59:34.471-0400" name="publishExternalDate" />
+  <meta content="2018-09-07T15:01:14.252-0400" name="cq:lastReplicated" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:integrating;content_type:reference;topic_tags:working-with-campaign-and-target" name="cq:tags" />
+  <meta content="2018-09-07T15:01:11.299-0400" name="lastPublishExternalDate" />
+  <meta content="2018-09-10T02:18:41.760-0400" name="locHandOffDate" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2018-03-15T09:02:20.080-0400" name="jcr:created" />
   <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-09-10T02:18:41.760-0400" name="cq:lastModified" />
+  <meta content="2018-09-07T15:01:11.299-0400" name="publishExternalDate" />
+  <meta content="Learn how to configure the Adobe Target integration to start using dynamic content in Adobe Campaign." name="seoDescription" />
+  <meta content="2018-09-07T15:01:11.299-0400" name="topicBrowsingSortDate" />
   <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="Configuring the Campaign-Target integration" name="jcr:description" />
+  <meta content="b4829408-b29b-4406-86a3-b0e846ca977d" name="jcr:uuid" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="Configuring the Campaign-Target integration" name="jcr:title" />
   <meta content="https://helpx.adobe.com/campaign/standard/integrating/using/configuring-the-campaign-target-integration.html" name="publishExternalURL" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="e6320085-b674-4cbc-a5bc-e0cfbb00865e" name="jcr:predecessors" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-09-07T15:01:11.299-0400" name="firstPublishExternalDate" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="Configuring the Campaign-Target integration" name="navTitle" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="true" name="jcr:isCheckedOut" />
  </head>
  <body>
   <p>The integration between Adobe Campaign and Adobe Target lets you insert dynamic content in your delivery.</p> 

@@ -3,13 +3,13 @@ title: Inserting images
 seo-title: Inserting images
 description: Inserting images
 seo-description: Learn how to add images to your content.
-uuid: 591df892-cec6-42ec-9dcc-a31de861884c
+uuid: b593eadc-7a66-4812-bed1-bf5149c74514
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/inserting-images
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-26T02 53 45.227-0400
-cq-lastreplicated: 2018-07-23T08 13 42.705-0400
+cq-lastmodified: 2018-09-10T07 24 48.256-0400
+cq-lastreplicated: 2018-09-07T14 56 16.167-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: designing
 content-type: reference
 topic-tags: using-images
 cq-template: /apps/help/templates/article-3
-discoiquuid: 11adf3a3-a459-4658-b335-b976bea25917
-firstPublishExternalDate: 2018-07-23T05:58:30.044-0400
+discoiquuid: 7d2f6ce8-55e1-4c12-bd6c-fbb49403933c
+firstPublishExternalDate: 2018-09-07T14:56:14.632-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 18.317-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Inserting images
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T08:13:42.654-0400
-lochandoffdate: 2018-07-26T02 53 45.226-0400
+lastPublishExternalDate: 2018-09-07T14:56:14.632-0400
+lochandoffdate: 2018-09-10T07 24 48.254-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Inserting images
-publishexternaldate: 2018-07-23T08 13 42.654-0400
+publishexternaldate: 2018-09-07T14 56 14.632-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/inserting-images.html
-sha1: a0b1e8dc636cac8ac8a9277be5ece1eb029dd491
-topicBrowsingSortDate: 2018-07-23T08:13:42.654-0400
+sha1: d4a582c79a73350591bdf9c63e9be85bab3fbd13
+topicBrowsingSortDate: 2018-09-07T14:56:14.632-0400
 index: y
 internal: n
 snippet: y

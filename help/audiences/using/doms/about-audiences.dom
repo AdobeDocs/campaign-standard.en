@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="2018-07-23T05:55:24.652-0400" name="firstPublishExternalDate" />
-  <meta content="Learn how to build audiences from a query, a list or a file, and how to import them from Adobe Experience Cloud." name="seoDescription" />
-  <meta content="About audiences" name="jcr:title" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:audiences;content_type:reference;topic_tags:managing-audiences" name="cq:tags" />
-  <meta content="About audiences" name="jcr:description" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="2018-09-10T07:22:50.157-0400" name="locHandOffDate" />
+  <meta content="light" name="heroGradient" />
+  <meta content="c0394816-bf57-44c8-bfde-127c5baf0f8e" name="jcr:uuid" />
+  <meta content="2018-09-07T14:45:53.631-0400" name="cq:lastReplicated" />
+  <meta content="About audiences" name="navTitle" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
   <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="2018-03-15T09:01:23.017-0400" name="jcr:created" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="sauviat" name="contentOwner" />
+  <meta content="2018-09-07T14:45:51.489-0400" name="publishExternalDate" />
+  <meta content="About audiences" name="jcr:title" />
+  <meta content="About audiences" name="jcr:description" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="2018-09-07T14:45:51.489-0400" name="topicBrowsingSortDate" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="2018-09-07T14:45:51.489-0400" name="firstPublishExternalDate" />
   <meta content="898f0f6f-f86f-4f6b-830d-c6f832d5a87a" name="jcr:predecessors" />
   <meta content="https://helpx.adobe.com/campaign/standard/audiences/using/about-audiences.html" name="publishExternalURL" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="About audiences" name="navTitle" />
-  <meta content="2018-07-23T05:55:24.652-0400" name="publishExternalDate" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="c0394816-bf57-44c8-bfde-127c5baf0f8e" name="jcr:uuid" />
-  <meta content="2018-07-25T09:29:13.102-0400" name="cq:lastModified" />
-  <meta content="2018-07-23T05:55:24.652-0400" name="lastPublishExternalDate" />
+  <meta content="2018-09-07T14:45:51.489-0400" name="lastPublishExternalDate" />
   <meta content="" name="jcr:primaryType" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="audience:audiences" name="primaryAudienceTag" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="sauviat" name="contentOwner" />
   <meta content="" name="jcr:versionHistory" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="2018-07-25T09:29:13.101-0400" name="locHandOffDate" />
-  <meta content="2018-07-23T05:55:24.690-0400" name="cq:lastReplicated" />
-  <meta content="2018-07-23T05:55:24.652-0400" name="topicBrowsingSortDate" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="audience:audiences" name="primaryAudienceTag" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-09-10T07:22:50.159-0400" name="cq:lastModified" />
   <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="light" name="heroGradient" />
+  <meta content="2018-03-15T09:01:23.017-0400" name="jcr:created" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:audiences;content_type:reference;topic_tags:managing-audiences" name="cq:tags" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="Learn how to build audiences from a query, a list or a file, and how to import them from Adobe Experience Cloud." name="seoDescription" />
+  <meta content="en_us" name="jcr:language" />
  </head>
  <body>
   <p>An audience is a list of profiles based on rules and attributes.</p> 

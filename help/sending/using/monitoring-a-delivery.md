@@ -3,13 +3,13 @@ title: Monitoring a delivery
 seo-title: Monitoring a delivery
 description: Monitoring a delivery
 seo-description: Discover how to monitor a delivery.
-uuid: 5f07ab09-ff42-4ee7-b1bf-80368e531e3e
+uuid: 40bbd1c4-e41d-46d6-9706-45ce69654c23
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/sending/using/monitoring-a-delivery
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-30T04 53 56.560-0400
-cq-lastreplicated: 2018-07-23T06 02 26.549-0400
+cq-lastmodified: 2018-09-08T08 23 10.284-0400
+cq-lastreplicated: 2018-09-07T15 11 33.438-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 cq-template: /apps/help/templates/article-3
-discoiquuid: c8881c7a-7fe7-4061-8a4a-830a8e2bf830
-firstPublishExternalDate: 2018-07-23T06:02:26.502-0400
+discoiquuid: 4116796a-2427-4dea-bc8a-12753bbc646a
+firstPublishExternalDate: 2018-09-07T15:11:33.175-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 45.621-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Monitoring a delivery
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:02:26.502-0400
-lochandoffdate: 2018-07-30T04 53 56.559-0400
+lastPublishExternalDate: 2018-09-07T15:11:33.175-0400
+lochandoffdate: 2018-09-08T08 23 10.284-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Monitoring a delivery
-publishexternaldate: 2018-07-23T06 02 26.502-0400
+publishexternaldate: 2018-09-07T15 11 33.175-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/sending/using/monitoring-a-delivery.html
-sha1: 6c8db0756e8fd0f2e814652c49d43e06900976a4
-topicBrowsingSortDate: 2018-07-23T06:02:26.502-0400
+sha1: 22d48e168468cb6d9448158b00d3aeda708927f8
+topicBrowsingSortDate: 2018-09-07T15:11:33.175-0400
 index: y
 internal: n
 snippet: y

@@ -3,13 +3,13 @@ title: Adding visualizations
 seo-title: Adding visualizations
 description: Adding visualizations
 seo-description: Dynamic reports offer a set of visualizations to add a graphical representation to your report.
-uuid: 952c1771-3f0b-4bab-a18c-d7135f680b3f
+uuid: 954ffd1d-2f70-44d1-98ed-3286a6023fae
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/reporting/using/adding-visualizations
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-27T03 27 23.485-0400
-cq-lastreplicated: 2018-07-23T06 00 25.967-0400
+cq-lastmodified: 2018-09-10T02 19 21.116-0400
+cq-lastreplicated: 2018-09-07T15 08 47.767-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: reporting
 content-type: reference
 topic-tags: customizing-reports
 cq-template: /apps/help/templates/article-3
-discoiquuid: d1a9080c-1e19-4d37-a22b-341659a3d38e
-firstPublishExternalDate: 2018-07-23T06:00:25.932-0400
+discoiquuid: b1c0a867-a597-4008-836a-57dc413672a2
+firstPublishExternalDate: 2018-09-07T15:08:47.554-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 37.790-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Adding visualizations
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:00:25.932-0400
-lochandoffdate: 2018-07-27T03 27 23.483-0400
+lastPublishExternalDate: 2018-09-07T15:08:47.554-0400
+lochandoffdate: 2018-09-10T02 19 21.116-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Adding visualizations
-publishexternaldate: 2018-07-23T06 00 25.932-0400
+publishexternaldate: 2018-09-07T15 08 47.554-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/adding-visualizations.html
-sha1: d72ac93bd9c309c73153d0c3b6719a498466d4ff
-topicBrowsingSortDate: 2018-07-23T06:00:25.932-0400
+sha1: 2f655cd47033a7c761a24775bf00348a6e14ffa3
+topicBrowsingSortDate: 2018-09-07T15:08:47.554-0400
 index: y
 internal: n
 snippet: y

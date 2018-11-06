@@ -3,13 +3,13 @@ title: Defining the report period
 seo-title: Defining the report period
 description: Defining the report period
 seo-description: The time period of your report allows you to filter your data depending on the chosen dates.
-uuid: b19322cd-8967-438a-9dd2-a84a3b289e59
+uuid: e7792530-34fd-4f70-b42b-8531a4e184a4
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/reporting/using/defining-the-report-period
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-27T03 26 36.048-0400
-cq-lastreplicated: 2018-07-23T06 00 12.927-0400
+cq-lastmodified: 2018-09-10T02 18 44.997-0400
+cq-lastreplicated: 2018-09-07T15 04 11.675-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 cq-template: /apps/help/templates/article-3
-discoiquuid: f9b8e599-d92d-4cbb-a8a8-ddb5f4a9e741
-firstPublishExternalDate: 2018-07-23T06:00:12.880-0400
+discoiquuid: e4fd4554-27eb-479d-8ecd-5c86fab60595
+firstPublishExternalDate: 2018-09-07T15:04:09.247-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 54.008-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Defining the report period
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:00:12.880-0400
-lochandoffdate: 2018-07-27T03 26 36.047-0400
+lastPublishExternalDate: 2018-09-07T15:04:09.247-0400
+lochandoffdate: 2018-09-10T02 18 44.997-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Defining the report period
-publishexternaldate: 2018-07-23T06 00 12.880-0400
+publishexternaldate: 2018-09-07T15 04 09.247-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/defining-the-report-period.html
-sha1: a1890db79d728b915b8577ad9d2fef0a673882a4
-topicBrowsingSortDate: 2018-07-23T06:00:12.880-0400
+sha1: 99c4d3cd052311a27928380f88dd62b74dd5bd81
+topicBrowsingSortDate: 2018-09-07T15:04:09.247-0400
 index: y
 internal: n
 snippet: y

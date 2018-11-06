@@ -3,13 +3,13 @@ title: Understanding delivery failures
 seo-title: Understanding delivery failures
 description: Understanding delivery failures
 seo-description: Learn how to manage delivery failures with Campaign.
-uuid: 9a4be537-e83b-4997-bf60-3053f925e663
+uuid: 8645ee20-0774-4a81-9bf8-d1ccd445dc8e
 content-encoding: UTF-8
 aemsrcnodepath: /content/help/en/campaign/standard/sending/using/understanding-delivery-failures
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-30T04 53 59.121-0400
-cq-lastreplicated: 2018-07-23T06 02 29.394-0400
+cq-lastmodified: 2018-09-08T08 23 11.728-0400
+cq-lastreplicated: 2018-09-07T15 11 40.777-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 cq-template: /apps/help/templates/article-3
-discoiquuid: fd641b9a-82f7-42cd-a99a-bdddd7b974a4
-firstPublishExternalDate: 2018-07-23T06:02:29.363-0400
+discoiquuid: 9f23311d-5791-4900-99ef-830a200551ef
+firstPublishExternalDate: 2018-09-07T15:11:40.685-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 27.751-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Understanding delivery failures
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:02:29.363-0400
-lochandoffdate: 2018-07-30T04 53 59.120-0400
+lastPublishExternalDate: 2018-09-07T15:11:40.685-0400
+lochandoffdate: 2018-09-08T08 23 11.728-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Understanding delivery failures
-publishexternaldate: 2018-07-23T06 02 29.363-0400
+publishexternaldate: 2018-09-07T15 11 40.685-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/sending/using/understanding-delivery-failures.html
-sha1: 9e62c3f78917fb6c37f6a1eb341ae565f5ac05c3
-topicBrowsingSortDate: 2018-07-23T06:02:29.363-0400
+sha1: f80c8be4639c699eb7c420404759a6895b3c9b80
+topicBrowsingSortDate: 2018-09-07T15:11:40.685-0400
 index: y
 internal: n
 snippet: y

@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="Sharing audiences with Audience Manager or People core service" name="jcr:title" />
   <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="2018-03-15T09:02:21.971-0400" name="jcr:created" />
-  <meta content="2018-07-23T05:59:42.797-0400" name="cq:lastReplicated" />
-  <meta content="Sharing audiences with Audience Manager or People core service" name="navTitle" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="https://helpx.adobe.com/campaign/standard/integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.html" name="publishExternalURL" />
-  <meta content="3edf69fe-c632-49d4-979f-59adfd1b524a" name="jcr:predecessors" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:integrating;content_type:reference;topic_tags:working-with-campaign-and-audience-manager-or-people-core-service" name="cq:tags" />
-  <meta content="light" name="heroGradient" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="2018-07-23T05:59:42.748-0400" name="publishExternalDate" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="Learn how to import or export your audience within the different Adobe Experience Cloud solutions." name="seoDescription" />
-  <meta content="Sharing audiences with Audience Manager or People core service" name="jcr:description" />
-  <meta content="2018-07-23T05:59:42.748-0400" name="lastPublishExternalDate" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="2018-07-23T05:59:42.748-0400" name="firstPublishExternalDate" />
-  <meta content="audience:integrating" name="primaryAudienceTag" />
-  <meta content="2018-07-23T05:59:42.748-0400" name="topicBrowsingSortDate" />
-  <meta content="071085f8-6885-4f4b-a1da-d28cd241ea17" name="jcr:uuid" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="2018-07-27T03:26:56.786-0400" name="locHandOffDate" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="2018-07-27T03:26:56.787-0400" name="cq:lastModified" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
   <meta content="" name="jcr:baseVersion" />
+  <meta content="light" name="heroGradient" />
+  <meta content="071085f8-6885-4f4b-a1da-d28cd241ea17" name="jcr:uuid" />
+  <meta content="3edf69fe-c632-49d4-979f-59adfd1b524a" name="jcr:predecessors" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="audience:integrating" name="primaryAudienceTag" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="Sharing audiences with Audience Manager or People core service" name="jcr:description" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2018-09-10T02:19:00.133-0400" name="locHandOffDate" />
+  <meta content="Learn how to import or export your audience within the different Adobe Experience Cloud solutions." name="seoDescription" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="2018-09-07T15:07:41.096-0400" name="cq:lastReplicated" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-09-07T15:07:40.518-0400" name="firstPublishExternalDate" />
+  <meta content="2018-09-07T15:07:40.518-0400" name="topicBrowsingSortDate" />
+  <meta content="https://helpx.adobe.com/campaign/standard/integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.html" name="publishExternalURL" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:integrating;content_type:reference;topic_tags:working-with-campaign-and-audience-manager-or-people-core-service" name="cq:tags" />
+  <meta content="2018-09-10T02:19:00.134-0400" name="cq:lastModified" />
+  <meta content="2018-09-07T15:07:40.518-0400" name="lastPublishExternalDate" />
+  <meta content="Sharing audiences with Audience Manager or People core service" name="navTitle" />
+  <meta content="2018-03-15T09:02:21.971-0400" name="jcr:created" />
+  <meta content="2018-09-07T15:07:40.518-0400" name="publishExternalDate" />
+  <meta content="Sharing audiences with Audience Manager or People core service" name="jcr:title" />
  </head>
  <body>
   <h2>Importing an audience</h2>

@@ -2,14 +2,14 @@
 title: Selecting an audience in a message
 seo-title: Selecting an audience in a message
 description: Selecting an audience in a message
-seo-description: "Step-be-step procedure to choose audiences of an email: main target population and test profiles."
-uuid: cb31c809-3ec6-44d3-83b9-cf77ce0fb6fb
+seo-description: Step-be-step procedure to choose audiences of an email: main target population and test profiles.
+uuid: 7a1a2627-cda4-40bf-9faa-f79054a07501
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/audiences/using/selecting-an-audience-in-a-message
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 17.465-0400
-cq-lastreplicated: 2018-07-23T05 55 26.794-0400
+cq-lastmodified: 2018-09-10T07 23 15.077-0400
+cq-lastreplicated: 2018-09-07T14 49 10.417-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 cq-template: /apps/help/templates/article-3
-discoiquuid: 510651cf-2831-43f8-a996-cd34bf608c7e
-firstPublishExternalDate: 2018-07-23T05:55:26.706-0400
+discoiquuid: e60bdc74-4a87-4e44-8606-5b6af7c49c12
+firstPublishExternalDate: 2018-09-07T14:49:08.000-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 50.814-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Selecting an audience in a message
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:55:26.706-0400
-lochandoffdate: 2018-07-25T09 29 17.465-0400
+lastPublishExternalDate: 2018-09-07T14:49:08.000-0400
+lochandoffdate: 2018-09-10T07 23 15.075-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Selecting an audience in a message
-publishexternaldate: 2018-07-23T05 55 26.706-0400
+publishexternaldate: 2018-09-07T14 49 08.000-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/audiences/using/selecting-an-audience-in-a-message.html
-sha1: d793bfa818546ac2b63b184efaaf81cb8098a0fc
-topicBrowsingSortDate: 2018-07-23T05:55:26.706-0400
+sha1: 8d9be4416fdd333355cf34b630633f3f73874f0b
+topicBrowsingSortDate: 2018-09-07T14:49:08.000-0400
 index: y
 internal: n
 snippet: y

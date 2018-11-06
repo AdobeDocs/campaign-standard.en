@@ -3,13 +3,13 @@ title: About transactional messaging
 seo-title: About transactional messaging
 description: About transactional messaging
 seo-description: Discover the different types of transactional messages you can send and how they are used in Adobe Campaign.
-uuid: 005b4714-e0c9-4d75-bfbb-a58be5a5981d
+uuid: 530f6f21-0d51-4b24-9b27-7fd0e691f422
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/about-transactional-messaging
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-30T04 54 05.172-0400
-cq-lastreplicated: 2018-07-23T06 02 59.113-0400
+cq-lastmodified: 2018-09-08T08 23 17.862-0400
+cq-lastreplicated: 2018-09-07T15 12 28.703-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 cq-template: /apps/help/templates/article-3
-discoiquuid: f9c6f6bc-3910-4cfd-b96b-bac0aa925ea8
-firstPublishExternalDate: 2018-07-23T06:02:59.083-0400
+discoiquuid: 9d39a8e1-d85b-41aa-8247-5c33e651005b
+firstPublishExternalDate: 2018-09-07T15:12:28.665-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 00.424-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: About transactional messaging
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:02:59.083-0400
-lochandoffdate: 2018-07-30T04 54 05.172-0400
+lastPublishExternalDate: 2018-09-07T15:12:28.665-0400
+lochandoffdate: 2018-09-08T08 23 17.862-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About transactional messaging
-publishexternaldate: 2018-07-23T06 02 59.083-0400
+publishexternaldate: 2018-09-07T15 12 28.665-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/about-transactional-messaging.html
-sha1: f75e5bf615f212a726fec12a0cad24647fc36c41
-topicBrowsingSortDate: 2018-07-23T06:02:59.083-0400
+sha1: 1f9e37df5acfc1097e54c657314a23d09c62040c
+topicBrowsingSortDate: 2018-09-07T15:12:28.665-0400
 index: y
 internal: n
 snippet: y

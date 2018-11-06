@@ -3,13 +3,13 @@ title: Designing a landing page
 seo-title: Designing a landing page
 description: Designing a landing page
 seo-description: Follow these steps to design the content of a landing page and link it to a service.
-uuid: 4bf90f31-bd60-4c11-ab54-c92436d386a0
+uuid: aa3b602f-5c60-48a2-a825-4ee05afa8849
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/designing-a-landing-page
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-30T04 54 12.259-0400
-cq-lastreplicated: 2018-07-23T06 03 15.970-0400
+cq-lastmodified: 2018-09-08T08 23 22.917-0400
+cq-lastreplicated: 2018-09-07T15 12 35.104-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 cq-template: /apps/help/templates/article-3
-discoiquuid: 97c1c31d-b346-4edf-a408-6aab35c88a8d
-firstPublishExternalDate: 2018-07-23T06:03:15.928-0400
+discoiquuid: dde4ae7f-2323-4381-97c0-0bcb358aa573
+firstPublishExternalDate: 2018-09-07T15:12:35.071-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 28.480-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Designing a landing page
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:03:15.928-0400
-lochandoffdate: 2018-07-30T04 54 12.259-0400
+lastPublishExternalDate: 2018-09-07T15:12:35.071-0400
+lochandoffdate: 2018-09-08T08 23 22.917-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Designing a landing page
-publishexternaldate: 2018-07-23T06 03 15.928-0400
+publishexternaldate: 2018-09-07T15 12 35.071-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/designing-a-landing-page.html
-sha1: 73324328282579b07fa87e839721db02316ed027
-topicBrowsingSortDate: 2018-07-23T06:03:15.928-0400
+sha1: 0bb7d39e2d95d51210dabfe0986dbf4d5f9c38d5
+topicBrowsingSortDate: 2018-09-07T15:12:35.071-0400
 index: y
 internal: n
 snippet: y

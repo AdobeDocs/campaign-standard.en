@@ -3,13 +3,13 @@ title: Using workflow data
 seo-title: Using workflow data
 description: Using workflow data
 seo-description: Learn the different possibilities to consume the data you imported or targeted.
-uuid: 756e0695-a0cd-4619-a312-a1ae67cdfc80
+uuid: 584bfdbc-393a-4aa5-89d2-b79bec2495de
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/using-workflow-data
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 15.533-0400
-cq-lastreplicated: 2018-07-23T05 56 53.191-0400
+cq-lastmodified: 2018-09-10T07 23 23.324-0400
+cq-lastreplicated: 2018-09-07T14 48 30.529-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 cq-template: /apps/help/templates/article-3
-discoiquuid: 09bbe7aa-471e-4c2d-af47-9499ce0503b8
-firstPublishExternalDate: 2018-07-23T05:56:53.155-0400
+discoiquuid: 2cbfd895-3b9b-487e-b774-7dff3ad86731
+firstPublishExternalDate: 2018-09-07T14:48:28.246-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 17.780-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Using workflow data
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:56:53.155-0400
-lochandoffdate: 2018-07-25T09 29 15.533-0400
+lastPublishExternalDate: 2018-09-07T14:48:28.246-0400
+lochandoffdate: 2018-09-10T07 23 23.322-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Using workflow data
-publishexternaldate: 2018-07-23T05 56 53.155-0400
+publishexternaldate: 2018-09-07T14 48 28.246-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/using-workflow-data.html
-sha1: 42eb31aa7b04624e929276ffca08607a514e9ba6
-topicBrowsingSortDate: 2018-07-23T05:56:53.155-0400
+sha1: 390b73ab0bc8550a8c841470171191aa93a9b05a
+topicBrowsingSortDate: 2018-09-07T14:48:28.246-0400
 index: y
 internal: n
 snippet: y

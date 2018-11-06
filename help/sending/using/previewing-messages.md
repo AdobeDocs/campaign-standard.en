@@ -3,14 +3,13 @@ title: Previewing messages
 seo-title: Previewing messages
 description: Previewing messages
 seo-description: Learn how to preview a message in the content editor or in the Creative Designer.
-uuid: 44ec0cf9-9d06-40e0-a376-26d6c08830a6
+uuid: 4f8d8faf-a85c-4bcb-b757-30c4acee53b3
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/sending/using/previewing-messages
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-30T04 53 46.349-0400
-cq-lastmodifiedby: mancini
-cq-lastreplicated: 2018-07-23T06 02 09.179-0400
+cq-lastmodified: 2018-09-08T08 23 02.216-0400
+cq-lastreplicated: 2018-09-07T15 11 10.705-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -18,8 +17,8 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 cq-template: /apps/help/templates/article-3
-discoiquuid: 95137dee-f991-4215-aa8c-4b0c509901e9
-firstPublishExternalDate: 2018-07-23T06:02:08.787-0400
+discoiquuid: 963dd156-f3b4-475c-86bc-24ab305ba394
+firstPublishExternalDate: 2018-09-07T15:11:10.541-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 20.656-0400
@@ -27,16 +26,15 @@ jcr-createdby: admin
 jcr-description: Previewing messages
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:02:08.787-0400
-lochandoffdate: 2018-07-30T04 53 46.349-0400
+lastPublishExternalDate: 2018-09-07T15:11:10.541-0400
+lochandoffdate: 2018-09-08T08 23 02.216-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
-moreHelpPaths: /content/help/en/campaign/standard/sending/morehelp/preparing-and-testing-messages;/content/help/en/campaign/standard/sending/morehelp/preparing-and-testing-messages
 navTitle: Previewing messages
-publishexternaldate: 2018-07-23T06 02 08.787-0400
+publishexternaldate: 2018-09-07T15 11 10.541-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/sending/using/previewing-messages.html
-sha1: 730607cda1c5961b495f3cdd2284a089277ee582
-topicBrowsingSortDate: 2018-07-23T06:02:08.787-0400
+sha1: f9cceab1da75d39e6df9d2ce205cbe41ae3870b3
+topicBrowsingSortDate: 2018-09-07T15:11:10.541-0400
 index: y
 internal: n
 snippet: y

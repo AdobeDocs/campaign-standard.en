@@ -3,13 +3,13 @@ title: Data storage and reconciliation
 seo-title: Data storage and reconciliation
 description: Data storage and reconciliation
 seo-description: Adobe Campaign allows you to define how the data entered in the landing page is managed once submitted by a user.
-uuid: 2304b350-3fa6-428c-9569-ef613c97e7cd
+uuid: cca9dc28-f079-4f32-9ec2-458a7774c41a
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/data-storage-and-reconciliation
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-30T04 54 13.701-0400
-cq-lastreplicated: 2018-07-23T06 03 18.697-0400
+cq-lastmodified: 2018-09-08T08 23 23.703-0400
+cq-lastreplicated: 2018-09-07T15 12 37.283-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 cq-template: /apps/help/templates/article-3
-discoiquuid: 317b637f-bb97-4708-868c-d60cceccf354
-firstPublishExternalDate: 2018-07-23T06:03:18.664-0400
+discoiquuid: fe20a611-ff34-4236-9b3e-08fd69e56f8b
+firstPublishExternalDate: 2018-09-07T15:12:37.249-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 17.382-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Data storage and reconciliation
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:03:18.664-0400
-lochandoffdate: 2018-07-30T04 54 13.701-0400
+lastPublishExternalDate: 2018-09-07T15:12:37.249-0400
+lochandoffdate: 2018-09-08T08 23 23.703-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Data storage and reconciliation
-publishexternaldate: 2018-07-23T06 03 18.664-0400
+publishexternaldate: 2018-09-07T15 12 37.249-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/data-storage-and-reconciliation.html
-sha1: 86966030747ffedad956a760c01f236bf6ace595
-topicBrowsingSortDate: 2018-07-23T06:03:18.664-0400
+sha1: 9895de445783208532eaeadd03ef58e584636384
+topicBrowsingSortDate: 2018-09-07T15:12:37.249-0400
 index: y
 internal: n
 snippet: y

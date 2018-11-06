@@ -1,15 +1,15 @@
 ---
-title: "Step 4: Define filters"
-seo-title: "Step 4: Define filters"
-description: "Step 4: Define filters"
+title: Step 4: Define filters
+seo-title: Step 4: Define filters
+description: Step 4: Define filters
 seo-description: Discover the filter feature to manage large data set.
-uuid: 8ff156ec-fd66-4eac-a79b-d4eee9219312
+uuid: 47aa521b-a979-4e6e-aec5-d5aaa806ab58
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/developing/using/step-4--define-filters
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-26T02 53 27.379-0400
-cq-lastreplicated: 2018-07-23T05 59 10.990-0400
+cq-lastmodified: 2018-09-10T02 18 52.051-0400
+cq-lastreplicated: 2018-09-07T14 53 22.890-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 cq-template: /apps/help/templates/article-3
-discoiquuid: 44405be5-f3f9-4a56-9fb4-0cfe84069c46
-firstPublishExternalDate: 2018-07-23T05:59:10.960-0400
+discoiquuid: cee5563b-cbe1-4e8a-a417-e2ffd3385498
+firstPublishExternalDate: 2018-09-07T14:53:20.708-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 59.704-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Step 4  Define filters
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:59:10.960-0400
-lochandoffdate: 2018-07-26T02 53 27.378-0400
+lastPublishExternalDate: 2018-09-07T14:53:20.708-0400
+lochandoffdate: 2018-09-10T02 18 52.051-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
-navTitle: "Step 4: Define filters"
-publishexternaldate: 2018-07-23T05 59 10.960-0400
+navTitle: Step 4: Define filters
+publishexternaldate: 2018-09-07T14 53 20.708-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/step-4--define-filters.html
-sha1: c1d9716aecc217789b5cb8ca7fdd6c4e138b8dca
-topicBrowsingSortDate: 2018-07-23T05:59:10.960-0400
+sha1: dfb4ac9beddab540737849799b4e5a2ccdcfa812
+topicBrowsingSortDate: 2018-09-07T14:53:20.708-0400
 index: y
 internal: n
 snippet: y

@@ -3,13 +3,13 @@ title: Programs and campaigns
 seo-title: Programs and campaigns
 description: Programs and campaigns
 seo-description: In Adobe Campaign, programs and campaigns allow you to group and orchestrate the different marketing activities that are linked to them. Reports on programs and campaigns allow you to analyze their impact.
-uuid: 54d69c64-4547-466b-ae2e-5d37f8993962
+uuid: 849d0d68-4a9f-48f4-b1b2-972c93d649eb
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/start/using/programs-and-campaigns
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-27T03 26 51.929-0400
-cq-lastreplicated: 2018-07-23T06 00 43.937-0400
+cq-lastmodified: 2018-09-08T08 23 07.233-0400
+cq-lastreplicated: 2018-09-07T15 08 20.356-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: start
 content-type: reference
 topic-tags: marketing-plans
 cq-template: /apps/help/templates/article-3
-discoiquuid: 02d14574-94af-435c-b186-39f2e4349614
-firstPublishExternalDate: 2018-07-23T06:00:43.896-0400
+discoiquuid: 5eb28737-fe49-432e-b903-017e28110817
+firstPublishExternalDate: 2018-09-07T15:08:19.981-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 08.267-0400
@@ -26,15 +26,16 @@ jcr-createdby: admin
 jcr-description: Programs and campaigns
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:00:43.896-0400
-lochandoffdate: 2018-07-27T03 26 51.928-0400
+lastPublishExternalDate: 2018-09-07T15:08:19.981-0400
+lochandoffdate: 2018-09-08T08 23 07.233-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
+moreHelpPaths: /content/help/en/campaign/standard/start/morehelp/marketing-plans;/content/help/en/campaign/standard/start/morehelp/marketing-plans
 navTitle: Programs and campaigns
-publishexternaldate: 2018-07-23T06 00 43.896-0400
+publishexternaldate: 2018-09-07T15 08 19.981-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/start/using/programs-and-campaigns.html
-sha1: bac3621e767b010eeff3ce44adf437606576e70c
-topicBrowsingSortDate: 2018-07-23T06:00:43.896-0400
+sha1: e9439f270f5d34fb2ab1e1f8acf181d0672eaf98
+topicBrowsingSortDate: 2018-09-07T15:08:19.981-0400
 index: y
 internal: n
 snippet: y

@@ -1,40 +1,41 @@
 <html> 
  <head> 
-  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
-  <meta content="" name="jcr:primaryType" /> 
-  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
-  <meta content="2018-07-25T09:29:14.025-0400" name="cq:lastModified" /> 
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
-  <meta content="false" name="isReadyForLocalization" /> 
-  <meta content="" name="jcr:versionHistory" /> 
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
-  <meta content="2018-07-25T09:29:14.025-0400" name="locHandOffDate" /> 
-  <meta content="Importing data" name="jcr:title" /> 
-  <meta content="audience:automating" name="primaryAudienceTag" /> 
-  <meta content="2018-03-15T09:02:54.807-0400" name="jcr:created" /> 
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:workflow-general-operation" name="cq:tags" /> 
-  <meta content="2018-07-23T05:56:51.552-0400" name="cq:lastReplicated" /> 
-  <meta content="sauviat" name="cq:lastReplicatedBy" /> 
-  <meta content="light" name="heroGradient" /> 
-  <meta content="en_us" name="jcr:language" /> 
-  <meta content="2018-07-23T05:56:51.517-0400" name="lastPublishExternalDate" /> 
-  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/importing-data.html" name="publishExternalURL" /> 
-  <meta content="2018-07-23T05:56:51.517-0400" name="topicBrowsingSortDate" /> 
-  <meta content="Importing data" name="navTitle" /> 
-  <meta content="/etc/designs/help" name="cq:designPath" /> 
-  <meta content="39e986ca-fd33-402e-a4b3-1b0471c746a6" name="jcr:predecessors" /> 
-  <meta content="sauviat" name="contentOwner" /> 
-  <meta content="" name="jcr:baseVersion" /> 
-  <meta content="2018-07-23T05:56:51.517-0400" name="firstPublishExternalDate" /> 
-  <meta content="true" name="jcr:isCheckedOut" /> 
-  <meta content="2018-07-23T05:56:51.517-0400" name="publishExternalDate" /> 
-  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
-  <meta content="Learn how to import data with a workflow." name="seoDescription" /> 
-  <meta content="admin" name="jcr:createdBy" /> 
-  <meta content="327b8b2b-d578-4c6d-bd3c-7cf83f00f373" name="jcr:uuid" /> 
-  <meta content="Activate" name="cq:lastReplicationAction" /> 
   <meta content="Importing data" name="jcr:description" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
+  <meta content="Importing data" name="navTitle" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="327b8b2b-d578-4c6d-bd3c-7cf83f00f373" name="jcr:uuid" /> 
+  <meta content="Importing data" name="jcr:title" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-09-07T14:47:30.532-0400" name="lastPublishExternalDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="2018-09-07T14:47:32.894-0400" name="cq:lastReplicated" /> 
+  <meta content="audience:automating" name="primaryAudienceTag" /> 
+  <meta content="/content/help/en/campaign/standard/automating/morehelp/workflow-general-operation;/content/help/en/campaign/standard/automating/morehelp/workflow-general-operation" name="moreHelpPaths" /> 
+  <meta content="2018-09-07T14:47:30.532-0400" name="publishExternalDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2018-09-07T14:47:30.532-0400" name="firstPublishExternalDate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="2018-09-07T14:47:30.532-0400" name="topicBrowsingSortDate" /> 
+  <meta content="sauviat" name="cq:lastReplicatedBy" /> 
+  <meta content="2018-03-15T09:02:54.807-0400" name="jcr:created" /> 
+  <meta content="Learn how to import data with a workflow." name="seoDescription" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:workflow-general-operation" name="cq:tags" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2018-09-10T07:23:07.825-0400" name="locHandOffDate" /> 
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/importing-data.html" name="publishExternalURL" /> 
+  <meta content="39e986ca-fd33-402e-a4b3-1b0471c746a6" name="jcr:predecessors" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-09-10T07:23:07.826-0400" name="cq:lastModified" /> 
  </head> 
  <body> 
   <h2>Collecting data</h2> 

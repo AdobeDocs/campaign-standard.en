@@ -3,13 +3,13 @@ title: Campaign dimensions and metrics in Analytics
 seo-title: Campaign dimensions and metrics in Analytics
 description: Campaign dimensions and metrics in Analytics
 seo-description: Learn the different dimensions that you can find in Adobe Analytics to start tracking your email deliveries from Adobe Campaign.
-uuid: 62d93db2-7456-4e02-9543-005d4cb43815
+uuid: 0ce94d0e-52bd-4234-aa27-c513f3765087
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/integrating/using/campaign-dimensions-and-metrics-in-analytics
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-27T03 26 46.032-0400
-cq-lastreplicated: 2018-07-23T05 59 38.756-0400
+cq-lastmodified: 2018-09-10T02 18 53.092-0400
+cq-lastreplicated: 2018-09-07T15 05 08.532-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
 cq-template: /apps/help/templates/article-3
-discoiquuid: c0aeecd2-d642-4646-b38e-8ba32974a60d
-firstPublishExternalDate: 2018-07-23T05:59:38.725-0400
+discoiquuid: 82bf97c3-855d-4f81-8e95-2434f932bbb9
+firstPublishExternalDate: 2018-09-07T15:05:05.108-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-05-07T07 29 25.627-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Campaign dimensions and metrics in Analytics
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:59:38.725-0400
-lochandoffdate: 2018-07-27T03 26 46.030-0400
+lastPublishExternalDate: 2018-09-07T15:05:05.108-0400
+lochandoffdate: 2018-09-10T02 18 53.092-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Campaign dimensions and metrics in Analytics
-publishexternaldate: 2018-07-23T05 59 38.725-0400
+publishexternaldate: 2018-09-07T15 05 05.108-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/campaign-dimensions-and-metrics-in-analytics.html
-sha1: 48bc593ea43279738195a384348cf37aa43f8b9b
-topicBrowsingSortDate: 2018-07-23T05:59:38.725-0400
+sha1: 081f007ce10423b0616cbd6ac9510cb38469feaf
+topicBrowsingSortDate: 2018-09-07T15:05:05.108-0400
 index: y
 internal: n
 snippet: y

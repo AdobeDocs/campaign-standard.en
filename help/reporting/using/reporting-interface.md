@@ -3,13 +3,13 @@ title: Reporting interface
 seo-title: Reporting interface
 description: Reporting interface
 seo-description: Learn more about Dynamic report interface basis and how to navigate through the different tabs and menus.
-uuid: c19cbe46-9dc0-4d86-82ff-b5e5534bc379
+uuid: c1e6904c-1231-4771-931c-b6224726a2c1
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/reporting/using/reporting-interface
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-27T03 26 21.451-0400
-cq-lastreplicated: 2018-07-23T06 00 08.546-0400
+cq-lastmodified: 2018-09-10T02 18 34.649-0400
+cq-lastreplicated: 2018-09-07T15 01 10.437-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: reporting
 content-type: reference
 topic-tags: about-reporting
 cq-template: /apps/help/templates/article-3
-discoiquuid: e75813a8-83e7-4f7d-abe7-6968b85e3013
-firstPublishExternalDate: 2018-07-23T06:00:08.455-0400
+discoiquuid: b81dbed4-6c03-4166-ad81-53a5e2847e3b
+firstPublishExternalDate: 2018-09-07T15:01:07.523-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 29.342-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Reporting interface
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:00:08.455-0400
-lochandoffdate: 2018-07-27T03 26 21.450-0400
+lastPublishExternalDate: 2018-09-07T15:01:07.523-0400
+lochandoffdate: 2018-09-10T02 18 34.648-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Reporting interface
-publishexternaldate: 2018-07-23T06 00 08.455-0400
+publishexternaldate: 2018-09-07T15 01 07.523-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/reporting-interface.html
-sha1: bb057db90a6f9cee8b213b6e059aa4c5edc29d4b
-topicBrowsingSortDate: 2018-07-23T06:00:08.455-0400
+sha1: 0bdbaa21c60e8130b34d8bd360a49a0117321b63
+topicBrowsingSortDate: 2018-09-07T15:01:07.523-0400
 index: y
 internal: n
 snippet: y

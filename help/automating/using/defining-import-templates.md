@@ -3,13 +3,13 @@ title: Defining import templates
 seo-title: Defining import templates
 description: Defining import templates
 seo-description: Import templates allow to reduce the settings needed and to import data faster.
-uuid: 1670bf00-f21b-4998-97f4-965ce8ec6bd6
+uuid: 81789bf0-2a7d-4553-bfb9-aa4a38f09790
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/defining-import-templates
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 58.750-0400
-cq-lastreplicated: 2018-07-23T05 57 53.954-0400
+cq-lastmodified: 2018-09-10T07 29 06.933-0400
+cq-lastreplicated: 2018-09-07T15 09 05.250-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
 cq-template: /apps/help/templates/article-3
-discoiquuid: ab631e83-88d3-4434-9137-fc6aaef5a40c
-firstPublishExternalDate: 2018-07-23T05:57:53.874-0400
+discoiquuid: 64b7ef46-dbf3-4ab8-bf0a-98928a7c1a16
+firstPublishExternalDate: 2018-09-07T15:09:05.049-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-04-05T07 29 31.523-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Defining import templates
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:57:53.874-0400
-lochandoffdate: 2018-07-25T09 29 58.750-0400
+lastPublishExternalDate: 2018-09-07T15:09:05.049-0400
+lochandoffdate: 2018-09-10T07 29 06.932-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Defining import templates
-publishexternaldate: 2018-07-23T05 57 53.874-0400
+publishexternaldate: 2018-09-07T15 09 05.049-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/defining-import-templates.html
-sha1: 3dd46b7e369b1321270f9313d8dd0ce658530007
-topicBrowsingSortDate: 2018-07-23T05:57:53.874-0400
+sha1: bc0fa564aabad04dd602e6228399e2878fc88e1a
+topicBrowsingSortDate: 2018-09-07T15:09:05.049-0400
 index: y
 internal: n
 snippet: y

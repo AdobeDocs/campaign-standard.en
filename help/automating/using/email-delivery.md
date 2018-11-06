@@ -3,13 +3,13 @@ title: Email delivery
 seo-title: Email delivery
 description: Email delivery
 seo-description: The Email delivery activity allows you to configure sending a single send email or a recurring email in a workflow.
-uuid: 192a05fd-63f8-4c16-b5ca-7c8f7bb339e6
+uuid: ff51e164-2f13-40e8-93b6-6d076d25957d
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/email-delivery
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 43.659-0400
-cq-lastreplicated: 2018-07-23T05 57 19.574-0400
+cq-lastmodified: 2018-09-10T07 26 54.289-0400
+cq-lastreplicated: 2018-09-07T15 04 12.446-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: automating
 content-type: reference
 topic-tags: channel-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: 528232c9-e4ae-427d-abfc-1533a4621a56
-firstPublishExternalDate: 2018-07-23T05:57:19.523-0400
+discoiquuid: 718e2184-36c9-43f9-a2db-bc6e2df1660b
+firstPublishExternalDate: 2018-09-07T15:04:10.009-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 57.540-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Email delivery
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:57:19.523-0400
-lochandoffdate: 2018-07-25T09 29 43.659-0400
+lastPublishExternalDate: 2018-09-07T15:04:10.009-0400
+lochandoffdate: 2018-09-10T07 26 54.288-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Email delivery
-publishexternaldate: 2018-07-23T05 57 19.523-0400
+publishexternaldate: 2018-09-07T15 04 10.009-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/email-delivery.html
-sha1: 2355aa804d583853464f9da6308082b56cc85ab9
-topicBrowsingSortDate: 2018-07-23T05:57:19.523-0400
+sha1: a277fcc7abda65cb8b23ee80f262f2e5fda3c799
+topicBrowsingSortDate: 2018-09-07T15:04:10.009-0400
 index: y
 internal: n
 snippet: y

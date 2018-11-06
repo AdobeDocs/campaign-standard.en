@@ -3,13 +3,13 @@ title: Managing packages
 seo-title: Managing packages
 description: Managing packages
 seo-description: Administrators can define packages to exchange resources between different Adobe Campaign instances through structured XML files.
-uuid: 213fbd2f-fbaf-422c-8926-2c17ab934555
+uuid: 711e8bd0-0f08-486a-a3dd-1a893143177d
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/managing-packages
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 30 00.209-0400
-cq-lastreplicated: 2018-07-23T05 57 56.747-0400
+cq-lastmodified: 2018-09-10T07 29 19.648-0400
+cq-lastreplicated: 2018-09-07T15 09 09.593-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
 cq-template: /apps/help/templates/article-3
-discoiquuid: 6952c9df-a3e5-4914-b7db-0709ca5707c5
-firstPublishExternalDate: 2018-07-23T05:57:56.673-0400
+discoiquuid: 1cb40579-eaaa-4f40-a0a5-e135e90363d0
+firstPublishExternalDate: 2018-09-07T15:09:09.512-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 27.347-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Managing packages
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:57:56.673-0400
-lochandoffdate: 2018-07-25T09 30 00.209-0400
+lastPublishExternalDate: 2018-09-07T15:09:09.512-0400
+lochandoffdate: 2018-09-10T07 29 19.646-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Managing packages
-publishexternaldate: 2018-07-23T05 57 56.673-0400
+publishexternaldate: 2018-09-07T15 09 09.512-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/managing-packages.html
-sha1: c41ec325efbd88b343680a0baded0b5c0d031f7a
-topicBrowsingSortDate: 2018-07-23T05:57:56.673-0400
+sha1: ff1ac24a9102d0300b77725e73725d5c06e4cc7e
+topicBrowsingSortDate: 2018-09-07T15:09:09.512-0400
 index: y
 internal: n
 snippet: y

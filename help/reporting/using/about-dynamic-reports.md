@@ -3,22 +3,24 @@ title: About dynamic reports
 seo-title: About dynamic reports
 description: About dynamic reports
 seo-description: With dynamic reports, drag and drop variables and dimensions into your freeform environment and analyze the success of your campaigns.
-uuid: 0b6d134f-ad18-440c-a3ef-a2e366ad986a
+uuid: 54cb9f97-1f18-42d1-b362-af4ba59bbfe1
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/reporting/using/about-dynamic-reports
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-27T03 26 13.388-0400
-cq-lastreplicated: 2018-07-23T06 00 05.582-0400
-cq-lastreplicatedby: sauviat
+cq-lastmodified: 2018-09-17T07 15 21.368-0400
+cq-lastmodifiedby: mancini
+cq-lastreplicated: 2018-09-11T08 43 16.331-0400
+cq-lastreplicatedby: beneat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
 cq-template: /apps/help/templates/article-3
-discoiquuid: 500e8c9b-f056-4f47-bffb-becbbe076e45
-firstPublishExternalDate: 2018-07-23T06:00:05.538-0400
+discoiquuid: bac8f4f8-3d6c-476d-be7c-1e8b8ee57f85
+firstPublishExternalDate: 2018-09-07T14:59:50.868-0400
+firstpublishinternaldate: 2018-09-11T08 43 16.310-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 23.599-0400
@@ -26,15 +28,19 @@ jcr-createdby: admin
 jcr-description: About dynamic reports
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:00:05.538-0400
-lochandoffdate: 2018-07-27T03 26 13.386-0400
-loclangtag: locales fr;locales de;locales ja
-lr-lastreplicatedby: sauviat@adobe.com
+lastPublishExternalDate: 2018-09-11T08:43:16.310-0400
+lastpublishinternaldate: 2018-09-11T08 43 16.310-0400
+lochandoffdate: 2018-09-17T07 15 21.368-0400
+loclangtag: locales fr;locales de
+lr-lastreplicatedby: beneat@adobe.com
+moreHelpPaths: /content/help/en/campaign/standard/reporting/morehelp/about-reporting;/content/help/en/campaign/standard/reporting/morehelp/about-reporting
 navTitle: About dynamic reports
-publishexternaldate: 2018-07-23T06 00 05.538-0400
+publishexternaldate: 2018-09-11T08 43 16.310-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/about-dynamic-reports.html
-sha1: a30ccb1552b54f36df6adf6a27f8ea72da96c6da
-topicBrowsingSortDate: 2018-07-23T06:00:05.538-0400
+publishinternaldate: 2018-09-11T08 43 16.310-0400
+publishinternalurl: https //helpx-internal.corp.adobe.com/content/help/en/campaign/standard/reporting/using/about-dynamic-reports.html
+sha1: 5ee9af4b149d5207944db669d18ed40872b04d7f
+topicBrowsingSortDate: 2018-09-11T08:43:16.310-0400
 index: y
 internal: n
 snippet: y
@@ -43,6 +49,10 @@ snippet: y
 # About dynamic reports
 
 About dynamic reports
+
+>[!NOTE]
+>
+>Only users with administration rights or with organizational and geographical units set to **All** can create or save a new report. For more on this, refer to this [section](../../administration/using/about-access-management.md#main-pars_text_27).
 
 ## Accessing dynamic reports
 

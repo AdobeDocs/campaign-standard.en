@@ -3,13 +3,13 @@ title: Timeline
 seo-title: Timeline
 description: Timeline
 seo-description: Learn how to visualize programs that are in progress and their content using the Adobe Campaign Standard interface.
-uuid: 76aebf1c-5f42-4bf4-a161-2960af70bdd5
+uuid: 94f164e2-2ced-4c02-b80e-c77c37f2328a
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/start/using/timeline
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-27T03 27 08.053-0400
-cq-lastreplicated: 2018-07-23T06 00 45.965-0400
+cq-lastmodified: 2018-09-08T08 23 08.322-0400
+cq-lastreplicated: 2018-09-07T15 08 32.647-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: start
 content-type: reference
 topic-tags: marketing-plans
 cq-template: /apps/help/templates/article-3
-discoiquuid: 72a4ba3d-6bd9-4488-b30c-006798a43b98
-firstPublishExternalDate: 2018-07-23T06:00:45.933-0400
+discoiquuid: 584257ac-ce52-435c-905e-fe415a630dd1
+firstPublishExternalDate: 2018-09-07T15:08:32.100-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 38.032-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Timeline
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:00:45.933-0400
-lochandoffdate: 2018-07-27T03 27 08.051-0400
+lastPublishExternalDate: 2018-09-07T15:08:32.100-0400
+lochandoffdate: 2018-09-08T08 23 08.322-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Timeline
-publishexternaldate: 2018-07-23T06 00 45.933-0400
+publishexternaldate: 2018-09-07T15 08 32.100-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/start/using/timeline.html
-sha1: 1925781311dc4e507d5024e852595135c36514de
-topicBrowsingSortDate: 2018-07-23T06:00:45.933-0400
+sha1: 82b6ae1d59b8b0cd25b305e2088a1882ef2666b4
+topicBrowsingSortDate: 2018-09-07T15:08:32.100-0400
 index: y
 internal: n
 snippet: y

@@ -3,13 +3,13 @@ title: About the interface
 seo-title: About the interface
 description: About the interface
 seo-description: Campaign workspace is based on concepts which are common to all the Adobe Experience Cloud solutions..
-uuid: 7cb76e68-0932-4677-981e-698597cf307c
+uuid: fc4bfe12-f4ab-411b-8813-9f1cb942aaf1
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/start/using/about-the-interface
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-27T03 26 28.831-0400
-cq-lastreplicated: 2018-07-23T06 00 40.248-0400
+cq-lastmodified: 2018-09-08T08 23 03.272-0400
+cq-lastreplicated: 2018-09-07T15 07 51.263-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 cq-template: /apps/help/templates/article-3
-discoiquuid: 0246ca69-624e-41d5-a8cb-d20a6e9f7373
-firstPublishExternalDate: 2018-07-23T06:00:40.214-0400
+discoiquuid: 8206b6f2-9dc0-40ca-95da-c8190c65d5ac
+firstPublishExternalDate: 2018-09-07T15:07:50.757-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 55.596-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: About the interface
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:00:40.214-0400
-lochandoffdate: 2018-07-27T03 26 28.830-0400
+lastPublishExternalDate: 2018-09-07T15:07:50.757-0400
+lochandoffdate: 2018-09-08T08 23 03.272-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About the interface
-publishexternaldate: 2018-07-23T06 00 40.214-0400
+publishexternaldate: 2018-09-07T15 07 50.757-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/start/using/about-the-interface.html
-sha1: 968dab6ee8c0a618bb0479663e5729b08c43fcd4
-topicBrowsingSortDate: 2018-07-23T06:00:40.214-0400
+sha1: ff33c125e02ee124fa3419ba9e844a5c2c5714c1
+topicBrowsingSortDate: 2018-09-07T15:07:50.757-0400
 index: y
 internal: n
 snippet: y

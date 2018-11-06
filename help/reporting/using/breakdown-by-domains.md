@@ -3,13 +3,13 @@ title: Breakdown by domains
 seo-title: Breakdown by domains
 description: Breakdown by domains
 seo-description: With the Breakdown by domains out-of-the-box report, learn about the performance data of your deliveries depending on each of your customer's domain.
-uuid: 8c93b34a-7fea-4015-acc1-a08c91ee45f9
+uuid: 4f896679-5127-4837-a528-0fcaa1e04ff7
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/reporting/using/breakdown-by-domains
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-27T03 26 50.020-0400
-cq-lastreplicated: 2018-07-23T06 00 17.125-0400
+cq-lastmodified: 2018-09-10T02 18 55.686-0400
+cq-lastreplicated: 2018-09-07T15 07 40.646-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 cq-template: /apps/help/templates/article-3
-discoiquuid: 6a3e1f91-8a06-4f61-af1b-4e7d463cb8df
-firstPublishExternalDate: 2018-07-23T06:00:17.068-0400
+discoiquuid: 6ff9c0f5-0057-4f40-a05a-a056b6e22fd2
+firstPublishExternalDate: 2018-09-07T15:07:39.986-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 10.892-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Breakdown by domains
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:00:17.068-0400
-lochandoffdate: 2018-07-27T03 26 50.019-0400
+lastPublishExternalDate: 2018-09-07T15:07:39.986-0400
+lochandoffdate: 2018-09-10T02 18 55.686-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Breakdown by domains
-publishexternaldate: 2018-07-23T06 00 17.068-0400
+publishexternaldate: 2018-09-07T15 07 39.986-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/breakdown-by-domains.html
-sha1: 207d292d846c42b1842b05e18226f00c13b3e823
-topicBrowsingSortDate: 2018-07-23T06:00:17.068-0400
+sha1: ed355ef0dcda03b8abcfe69f6d1515bea1b9c738
+topicBrowsingSortDate: 2018-09-07T15:07:39.986-0400
 index: y
 internal: n
 snippet: y

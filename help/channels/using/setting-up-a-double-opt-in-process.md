@@ -3,13 +3,13 @@ title: Setting up a double opt-in process
 seo-title: Setting up a double opt-in process
 description: Setting up a double opt-in process
 seo-description: Follow these steps to set up a double opt-in process using landing pages in Adobe Campaign.
-uuid: d7dce1ee-5202-4a09-a26e-9d51c618199f
+uuid: 23ab5944-4453-424a-a98c-0e6efc0de178
 content-encoding: UTF-8
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/setting-up-a-double-opt-in-process
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-30T04 54 13.990-0400
-cq-lastreplicated: 2018-07-23T06 03 19.543-0400
+cq-lastmodified: 2018-09-08T08 23 23.865-0400
+cq-lastreplicated: 2018-09-07T15 12 38.023-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 cq-template: /apps/help/templates/article-3
-discoiquuid: 43d437d5-b446-406f-a4f8-324207c45434
-firstPublishExternalDate: 2018-07-23T06:03:19.504-0400
+discoiquuid: b853ee0a-1ed3-4abc-bbfb-1b12c683aaca
+firstPublishExternalDate: 2018-09-07T15:12:37.979-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 15.055-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Setting up a double opt-in process
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:03:19.504-0400
-lochandoffdate: 2018-07-30T04 54 13.990-0400
+lastPublishExternalDate: 2018-09-07T15:12:37.979-0400
+lochandoffdate: 2018-09-08T08 23 23.865-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Setting up a double opt-in process
-publishexternaldate: 2018-07-23T06 03 19.504-0400
+publishexternaldate: 2018-09-07T15 12 37.979-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/setting-up-a-double-opt-in-process.html
-sha1: 94d9ad99d7f06d2a77863be88d5bccbc1e031559
-topicBrowsingSortDate: 2018-07-23T06:03:19.504-0400
+sha1: 51772fa419acc08d618f9eb6ea30aff5fe93bd2d
+topicBrowsingSortDate: 2018-09-07T15:12:37.979-0400
 index: y
 internal: n
 snippet: y

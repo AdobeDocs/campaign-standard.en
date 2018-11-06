@@ -3,22 +3,22 @@ title: About profiles
 seo-title: About profiles
 description: About profiles
 seo-description: Contacts are stored as profiles in Campaign database, and updated through their entire life cycle.
-uuid: 02023114-dd26-44f4-9d37-e2f29ac52553
+uuid: fccc5498-4bf8-49cb-92a2-22a3792f37ee
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/audiences/using/about-profiles
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-08-01T13 46 29.237-0400
-cq-lastreplicated: 2018-08-01T13 46 29.250-0400
-cq-lastreplicatedby: qatest3
+cq-lastmodified: 2018-09-10T07 22 15.731-0400
+cq-lastreplicated: 2018-09-07T14 42 25.828-0400
+cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 cq-template: /apps/help/templates/article-3
-discoiquuid: 3b822683-e42f-4ce9-93e8-06f90bbcb5ca
-firstPublishExternalDate: 2018-07-23T05:55:18.850-0400
+discoiquuid: f344cf71-ab7a-403e-bf18-5d4b8533a520
+firstPublishExternalDate: 2018-09-07T14:42:24.157-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 48.915-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: About profiles
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-08-01T13:46:29.232-0400
-lochandoffdate: 2018-07-25T09 29 10.242-0400
+lastPublishExternalDate: 2018-09-07T14:42:24.157-0400
+lochandoffdate: 2018-09-10T07 22 15.729-0400
 loclangtag: locales fr;locales de;locales ja
-lr-lastreplicatedby: xmtech@adobe.com
+lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About profiles
-publishexternaldate: 2018-08-01T13 46 29.232-0400
-publishExternalURL: https://helpx.dev.adobe.com/campaign/standard/audiences/using/about-profiles.html
-sha1: 34de8e27afe53a6057878097b33ae4d2601fccf2
-topicBrowsingSortDate: 2018-08-01T13:46:29.232-0400
+publishexternaldate: 2018-09-07T14 42 24.157-0400
+publishExternalURL: https://helpx.adobe.com/campaign/standard/audiences/using/about-profiles.html
+sha1: cdeb584ef8b1027885a2d93aad266ea3075ca6b4
+topicBrowsingSortDate: 2018-09-07T14:42:24.157-0400
 index: y
 internal: n
 snippet: y

@@ -1,40 +1,40 @@
 <html>
  <head>
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="light" name="heroGradient" />
+  <meta content="Understanding quarantine management" name="jcr:title" />
+  <meta content="2018-09-08T08:23:12.118-0400" name="locHandOffDate" />
+  <meta content="Learn how to optimize your deliverability with quarantine management." name="seoDescription" />
   <meta content="admin" name="jcr:createdBy" />
   <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="Understanding quarantine management" name="jcr:description" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="audience:sending" name="primaryAudienceTag" />
-  <meta content="Learn how to optimize your deliverability with quarantine management." name="seoDescription" />
+  <meta content="2018-09-07T15:11:43.427-0400" name="lastPublishExternalDate" />
   <meta content="Understanding quarantine management" name="navTitle" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-09-07T15:11:43.427-0400" name="publishExternalDate" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2018-09-08T08:23:12.118-0400" name="cq:lastModified" />
   <meta content="eb36db09-2971-4e4c-a0ac-b5e7cd7fe5d0" name="jcr:predecessors" />
-  <meta content="2018-07-23T06:02:30.437-0400" name="topicBrowsingSortDate" />
-  <meta content="2018-07-23T06:02:30.437-0400" name="publishExternalDate" />
-  <meta content="2018-03-15T09:01:23.575-0400" name="jcr:created" />
-  <meta content="2018-07-23T06:02:30.437-0400" name="lastPublishExternalDate" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="2018-07-30T04:53:59.824-0400" name="locHandOffDate" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:sending;content_type:reference;topic_tags:monitoring-messages" name="cq:tags" />
-  <meta content="2018-07-30T04:53:59.824-0400" name="cq:lastModified" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="Understanding quarantine management" name="jcr:title" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
   <meta content="" name="jcr:primaryType" />
-  <meta content="2018-07-23T06:02:30.472-0400" name="cq:lastReplicated" />
+  <meta content="audience:sending" name="primaryAudienceTag" />
+  <meta content="Understanding quarantine management" name="jcr:description" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:sending;content_type:reference;topic_tags:monitoring-messages" name="cq:tags" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
   <meta content="en_us" name="jcr:language" />
-  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-03-15T09:01:23.575-0400" name="jcr:created" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
   <meta content="https://helpx.adobe.com/campaign/standard/sending/using/understanding-quarantine-management.html" name="publishExternalURL" />
-  <meta content="light" name="heroGradient" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-09-07T15:11:43.427-0400" name="topicBrowsingSortDate" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="2018-09-07T15:11:43.536-0400" name="cq:lastReplicated" />
   <meta content="mix:versionable" name="jcr:mixinTypes" />
   <meta content="1cf784b6-591c-4c7f-b7c7-80871f53b349" name="jcr:uuid" />
-  <meta content="2018-07-23T06:02:30.437-0400" name="firstPublishExternalDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-09-07T15:11:43.427-0400" name="firstPublishExternalDate" />
  </head>
  <body>
   <h2>About quarantines</h2>

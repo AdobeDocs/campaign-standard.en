@@ -3,13 +3,13 @@ title: About email content design
 seo-title: About email content design
 description: About email content design
 seo-description: Discover the two editors that enable you to design content for your emails.
-uuid: 37527e6b-ce4b-41c9-9c74-df4b7f0eefa5
+uuid: 36dd73c9-1e84-421f-81fc-f7935c0df347
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/about-email-content-design
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-26T02 53 21.607-0400
-cq-lastreplicated: 2018-07-23T08 13 18.201-0400
+cq-lastmodified: 2018-09-10T07 22 27.921-0400
+cq-lastreplicated: 2018-09-07T14 46 15.724-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: d11d5ca8-d07e-4cc2-878a-9853d6e3dfbb
-firstPublishExternalDate: 2018-07-23T05:57:31.327-0400
+discoiquuid: 2221b7e4-dc4d-4ef4-804e-1f816a6780d9
+firstPublishExternalDate: 2018-09-07T14:46:12.475-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-07-23T07 30 11.938-0400
@@ -26,15 +26,16 @@ jcr-createdby: admin
 jcr-description: About email content design
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T08:13:18.033-0400
-lochandoffdate: 2018-07-26T02 53 21.606-0400
+lastPublishExternalDate: 2018-09-07T14:46:12.475-0400
+lochandoffdate: 2018-09-10T07 22 27.919-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
+moreHelpPaths: /content/help/en/campaign/standard/designing/morehelp/editing-email-content;/content/help/en/campaign/standard/designing/morehelp/editing-email-content
 navTitle: About email content design
-publishexternaldate: 2018-07-23T08 13 18.033-0400
+publishexternaldate: 2018-09-07T14 46 12.475-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/about-email-content-design.html
-sha1: bc444840da755e6f28155c52072900fba23ee835
-topicBrowsingSortDate: 2018-07-23T08:13:18.033-0400
+sha1: 54845ec08f231e625e0ae25a2408b73d35f3d70e
+topicBrowsingSortDate: 2018-09-07T14:46:12.475-0400
 index: y
 internal: n
 snippet: y
@@ -95,7 +96,7 @@ The **Contextual toolbar** of the editor interface offers various functionalitie
 
 To make proper use of the Creative Designer and create the best emails as simply as possible, we recommend applying the following principles:
 
-* Use inline styling rather than a separate CSS and CSS in the section of the HTML. By using inline styling, you can optimize content fragment save and reuse.
+* Use inline styling rather than a separate CSS and CSS in the &lt;head&gt; section of the HTML. By using inline styling, you can optimize content fragment save and reuse.
 
   See [Adding inline styling attributes in the Creative Designer](../../designing/using/editing-email-styles.md#adding-inline-styling-attributes-in-the-creative-designer).
 
@@ -203,7 +204,7 @@ The content editor is organized into three different sections. These sections al
 
 The action bar contains different buttons that allow you to interact with the content that is being created.
 
-![](assets/delivery_content_2.png)
+![](assets/delivery_content_2.png) 
 
 <table> 
  <thead> 
@@ -216,62 +217,58 @@ The action bar contains different buttons that allow you to interact with the co
  </thead> 
  <tbody> 
   <tr> 
-   <td> </td> 
+   <td> <img height="21px" src="assets/download_darkgrey-24px.png" /> <br /> </td> 
    <td> <strong>Change content</strong><br /> </td> 
    <td> Landing page and email<br /> </td> 
    <td> Allows you to select out-of-the-box content or import your own HTML content. Refer to <a href="../../designing/using/selecting-an-existing-content.md">Loading an existing content</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> </td> 
+   <td> <img height="21px" src="assets/url_tracking_darkgrey-24px.png" /> <br /> </td> 
    <td> <strong>Tracked URLs</strong><br /> </td> 
    <td> Email<br /> </td> 
-   <td> Displays the list of each URL. You can enable or disable the tracking separately for each URL in the message. <br /> </td> 
+   <td> Displays the list of each URL. You can enable or disable the tracking separately for each URL in the message.<br /> </td> 
   </tr> 
   <tr> 
-   <td> </td> 
+   <td> <img height="21px" src="assets/viewon_darkgrey-24px.png" /> <br /> </td> 
    <td> <strong>Preview</strong><br /> </td> 
    <td> Email and SMS<br /> </td> 
    <td> Allows you to view how the email is rendered for a recipient. Refer to <a href="../../sending/using/previewing-messages.md">Previewing messages</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> </td> 
+   <td> <img height="21px" src="assets/fullscreen.png" /> <br /> </td> 
    <td> <strong>Expand content editor</strong><br /> </td> 
    <td> Email<br /> </td> 
    <td> Hides the palette and expands the content editor.<br /> </td> 
   </tr> 
   <tr> 
-   <td> </td> 
+   <td> <img height="21px" src="assets/undo_darkgrey-24px.png" /> <br /> </td> 
    <td> <strong>Undo</strong><br /> </td> 
    <td> All<br /> </td> 
    <td> Cancels the last action carried out.<br /> </td> 
   </tr> 
   <tr> 
-   <td> </td> 
+   <td> <img height="21px" src="assets/redo_darkgrey-24px.png" /> <br /> </td> 
    <td> <strong>Redo</strong><br /> </td> 
    <td> All<br /> </td> 
    <td> Redoes the last action that you canceled.<br /> </td> 
   </tr> 
   <tr> 
-   <td> </td> 
+   <td> <img height="21px" src="assets/display_block_darkgrey-24px.png" /> <br /> </td> 
    <td> <strong>Show blocks</strong><br /> </td> 
    <td> Landing page and email<br /> </td> 
-   <td> Allows you to show the boxes around the content blocks (corresponds to the <strong></strong>
-    <div>
-     <strong></strong> HTML tag).
-     <br /> 
-    </div></td> 
+   <td> Allows you to show the boxes around the content blocks (corresponds to the <strong>&amp;lt;div&amp;gt;</strong> HTML tag).<br /> </td> 
   </tr> 
   <tr> 
-   <td> </td> 
+   <td> <img height="21px" src="assets/code_darkgrey-24px.png" /> <br /> </td> 
    <td> <strong>Show source</strong><br /> </td> 
    <td> Landing page and email<br /> </td> 
    <td> Allows you to show the HTML source code of the page.<br /> </td> 
   </tr> 
   <tr> 
-   <td> </td> 
+   <td> <img height="21px" src="assets/dreamweaver-24px.png" /> <br /> </td> 
    <td> <strong>Dreamweaver</strong><br /> </td> 
    <td> Email<br /> </td> 
-   <td> Allows you to edit email content in the Dreamweaver interface. </td> 
+   <td> Allows you to edit email content in the Dreamweaver interface.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -297,118 +294,118 @@ The toolbar is a **contextual element** of the editor interface that offers vari
  </thead> 
  <tbody> 
   <tr> 
-   <td> </td> 
+   <td> <img height="21px" src="assets/link_darkgrey-24px.png" /> <br /> </td> 
    <td> <strong>Link to an external URL</strong><br /> </td> 
    <td> Any element<br /> </td> 
    <td> Allows you to add a link to a URL. Details of how to configure a link are presented in the <a href="../../designing/using/inserting-a-link.md">Inserting a link</a> section.<br /> </td> 
   </tr> 
   <tr> 
-   <td> </td> 
+   <td> <img height="21px" src="assets/linkpage_darkgrey-24px.png" /> <br /> </td> 
    <td> <strong>Link to a landing page</strong><br /> </td> 
    <td> Any element<br /> </td> 
    <td> Allows access to an Adobe Campaign landing page. Details of how to configure a link are presented in the <a href="../../designing/using/inserting-a-link.md">Inserting a link</a> section.<br /> </td> 
   </tr> 
   <tr> 
-   <td> </td> 
+   <td> <img height="21px" src="assets/link_Subscribe_darkgrey-24px.png" /> <br /> </td> 
    <td> <strong>Subscription link</strong><br /> </td> 
    <td> Any element<br /> </td> 
    <td> Allows you to insert a service subscription link. Details of how to configure a link are presented in the <a href="../../designing/using/inserting-a-link.md">Inserting a link</a> section.<br /> </td> 
   </tr> 
   <tr> 
-   <td> </td> 
+   <td> <img height="21px" src="assets/link_unSubscribe_darkgrey-24px.png" /> <br /> </td> 
    <td> <strong>Unsubscription link</strong><br /> </td> 
    <td> Any element<br /> </td> 
    <td> Allows you to insert a service unsubscription link. Details of how to configure a link are presented in the <a href="../../designing/using/inserting-a-link.md">Inserting a link</a> section.<br /> </td> 
   </tr> 
   <tr> 
-   <td> </td> 
+   <td> <img height="21px" src="assets/linkoff_darkgrey-24px.png" /> <br /> </td> 
    <td> <strong>Remove link</strong><br /> </td> 
    <td> Link<br /> </td> 
    <td> Allows you to delete the link, as well as all the configurations linked to it, after confirming.<br /> </td> 
   </tr> 
   <tr> 
-   <td> </td> 
+   <td> <img height="21px" src="assets/personalization_field_darkgrey-24px.png" /> <br /> </td> 
    <td> <strong>Insert a personalization field</strong><br /> </td> 
    <td> Text element<br /> </td> 
    <td> Allows you to add a field from the database to the content. Refer to <a href="../../designing/using/inserting-a-personalization-field.md">Inserting a personalization field</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> </td> 
+   <td> <img height="21px" src="assets/personalization_block_darkgrey-24px.png" /> <br /> </td> 
    <td> <strong>Insert a content block</strong><br /> </td> 
    <td> Text element<br /> </td> 
    <td> Allows you to add a personalization block to the content. Refer to <a href="../../designing/using/adding-a-content-block.md">Adding a content block</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <br /> </td> 
+   <td> <img height="21px" src="assets/DynamicContent_24px.png" /> <br /> </td> 
    <td> <strong>Enable dynamic content</strong><br /> </td> 
    <td> Text element<br /> </td> 
    <td> Allows you to insert dynamic content in the content. Refer to <a href="../../designing/using/defining-dynamic-content-in-a-landing-page.md">Defining dynamic content</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <br /> </td> 
+   <td> <img height="21px" src="assets/DynamicContentDisable_24px.png" /> <br /> </td> 
    <td> <strong>Disable dynamic content</strong><br /> </td> 
    <td> Text element<br /> </td> 
    <td> Allows you to delete dynamic content.<br /> </td> 
   </tr> 
   <tr> 
-   <td> </td> 
+   <td> <img height="21px" src="assets/increase_fontsize_darkgrey-24px.png" /> <br /> </td> 
    <td> <strong>Enlarge font</strong><br /> </td> 
    <td> Text element<br /> </td> 
-   <td> Increases the size of the selected text (adds ).<br /> </td> 
+   <td> Increases the size of the selected text (adds &amp;lt;span style="font-size:"&amp;gt;).<br /> </td> 
   </tr> 
   <tr> 
-   <td> </td> 
+   <td> <img height="21px" src="assets/decrease_fontsize_darkgrey-24px.png" /> <br /> </td> 
    <td> <strong>Reduce font</strong><br /> </td> 
    <td> Text element<br /> </td> 
-   <td> Reduces the size of the selected text (adds ). <br /> </td> 
+   <td> Reduces the size of the selected text (adds &amp;lt;span style="font-size:"&amp;gt;).<br /> </td> 
   </tr> 
   <tr> 
-   <td> </td> 
+   <td> <img height="21px" src="assets/textbold_darkgrey-24px.png" /> <br /> </td> 
    <td> <strong>Bold</strong><br /> </td> 
    <td> Text element<br /> </td> 
-   <td> Adds the bold style to the selected text (wraps the text with the <strong></strong> tags). <br /> </td> 
+   <td> Adds the bold style to the selected text (wraps the text with the &amp;lt;strong&amp;gt;&amp;lt;/strong&amp;gt; tags).<br /> </td> 
   </tr> 
   <tr> 
-   <td> </td> 
+   <td> <img height="21px" src="assets/textitalic_darkgrey-24px.png" /> <br /> </td> 
    <td> <strong>Italic</strong><br /> </td> 
    <td> Text element<br /> </td> 
-   <td> Adds the italic style to the selected text (wraps the text with the <em></em> tags). <br /> </td> 
+   <td> Adds the italic style to the selected text (wraps the text with the &amp;lt;em&amp;gt;&amp;lt;/em&amp;gt; tags).<br /> </td> 
   </tr> 
   <tr> 
-   <td> </td> 
+   <td> <img height="21px" src="assets/textunderline_darkgrey-24px.png" /> <br /> </td> 
    <td> <strong>Underline</strong><br /> </td> 
    <td> Text element<br /> </td> 
-   <td> Underlines the selected text (wraps the selected text with the  tag). <br /> </td> 
+   <td> Underlines the selected text (wraps the selected text with the &amp;lt;span style="text-decoration: underline;"&amp;gt; tag).<br /> </td> 
   </tr> 
   <tr> 
-   <td> </td> 
+   <td> <img height="21px" src="assets/colorselector_darkgrey-24px.png" /> <br /> </td> 
    <td> <strong>Change background color</strong><br /> </td> 
    <td> Text element<br /> </td> 
-   <td> Allows you to change the background color of the block selected (adds style="background-color: rgba(170, 86, 255, 0.87)). <br /> </td> 
+   <td> Allows you to change the background color of the block selected (adds style="background-color: rgba(170, 86, 255, 0.87)).<br /> </td> 
   </tr> 
   <tr> 
-   <td> </td> 
+   <td> <img height="21px" src="assets/textcolor_darkgrey-24px.png" /> <br /> </td> 
    <td> <strong>Change font color</strong><br /> </td> 
    <td> Text element<br /> </td> 
-   <td> Allows you to change the color of all the text in the block or just the text selected in the block (). <br /> </td> 
+   <td> Allows you to change the color of all the text in the block or just the text selected in the block (&amp;lt;span style="color: #56ff56;"&amp;gt;).<br /> </td> 
   </tr> 
   <tr> 
-   <td> </td> 
+   <td> <img height="21px" src="assets/image_darkgrey-24px.png" /> <br /> </td> 
    <td> <strong>Image</strong><br /> </td> 
    <td> Block containing an image<br /> </td> 
-   <td> Allows you to insert an image from a file saved locally. <br /> </td> 
+   <td> Allows you to insert an image from a file saved locally.<br /> </td> 
   </tr> 
   <tr> 
-   <td> </td> 
+   <td> <img height="21px" src="assets/delete_darkgrey-24px.png" /> <br /> </td> 
    <td> <strong>Delete</strong><br /> </td> 
    <td> Any block<br /> </td> 
-   <td> Deletes the block and its content. <br /> </td> 
+   <td> Deletes the block and its content.<br /> </td> 
   </tr> 
   <tr> 
-   <td> </td> 
+   <td> <img height="21px" src="assets/duplicate_fontsize_darkgrey-24px.png" /> <br /> </td> 
    <td> <strong>Duplicate</strong><br /> </td> 
    <td> Any block<br /> </td> 
-   <td> Duplicates the block including any styles linked to it. <br /> </td> 
+   <td> Duplicates the block including any styles linked to it.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -433,7 +430,7 @@ The HTML functionalities allow you to:
 * Add content blocks
 * Edit the text style
 
-![](assets/delivery_content_edition3.png)
+![](assets/delivery_content_edition3.png) 
 
 #### Text mode
 

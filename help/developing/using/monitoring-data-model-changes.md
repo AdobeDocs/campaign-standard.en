@@ -3,13 +3,13 @@ title: Monitoring data model changes
 seo-title: Monitoring data model changes
 description: Monitoring data model changes
 seo-description: Learn how to diagnose the Adobe Campaign data model.
-uuid: 8ff39177-2e3a-47d2-8e42-d64dfd19226d
+uuid: 3be9ced2-41bb-4d01-b2a9-f4e079362d00
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/developing/using/monitoring-data-model-changes
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-26T02 53 19.741-0400
-cq-lastreplicated: 2018-07-23T05 59 05.305-0400
+cq-lastmodified: 2018-09-10T02 18 33.213-0400
+cq-lastreplicated: 2018-09-07T14 49 40.591-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: developing
 content-type: reference
 topic-tags: about-custom-resources
 cq-template: /apps/help/templates/article-3
-discoiquuid: 486f1d4a-d8ca-48c4-9bd4-be4eae4f29a2
-firstPublishExternalDate: 2018-07-23T05:59:05.222-0400
+discoiquuid: 5961602e-5566-4773-8da7-de4a3fb322ce
+firstPublishExternalDate: 2018-09-07T14:49:38.416-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 56.689-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Monitoring data model changes
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:59:05.222-0400
-lochandoffdate: 2018-07-26T02 53 19.741-0400
+lastPublishExternalDate: 2018-09-07T14:49:38.416-0400
+lochandoffdate: 2018-09-10T02 18 33.212-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Monitoring data model changes
-publishexternaldate: 2018-07-23T05 59 05.222-0400
+publishexternaldate: 2018-09-07T14 49 38.416-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/monitoring-data-model-changes.html
-sha1: 03f5c79affbf42a6f08f75452c404e6b3c52e49f
-topicBrowsingSortDate: 2018-07-23T05:59:05.222-0400
+sha1: 845cb1d5ef7b3b34bbe9a18ca63e341832a0a062
+topicBrowsingSortDate: 2018-09-07T14:49:38.416-0400
 index: y
 internal: n
 snippet: y

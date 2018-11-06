@@ -3,13 +3,13 @@ title: Defining the email structure
 seo-title: Defining the email structure
 description: Defining the email structure
 seo-description: Discover how to use the Creative Designer in Campaign to shape your emails and populate them with content components.
-uuid: 1f432c2f-ddbf-4c8b-b14c-29b58cefaf7c
+uuid: a811bf24-1246-4d06-b865-678d86801d93
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/defining-the-email-structure
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-26T02 53 25.104-0400
-cq-lastreplicated: 2018-07-23T08 13 21.971-0400
+cq-lastmodified: 2018-09-10T07 23 13.915-0400
+cq-lastreplicated: 2018-09-07T14 47 55.168-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: 10d961f1-1c4e-4db6-9999-98d9d735a7e1
-firstPublishExternalDate: 2018-07-23T05:57:35.080-0400
+discoiquuid: 39b3e38f-955e-4cf6-af8f-777ece3088ea
+firstPublishExternalDate: 2018-09-07T14:47:52.732-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-07-23T07 30 13.078-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Defining the email structure
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T08:13:21.876-0400
-lochandoffdate: 2018-07-26T02 53 25.104-0400
+lastPublishExternalDate: 2018-09-07T14:47:52.732-0400
+lochandoffdate: 2018-09-10T07 23 13.913-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Defining the email structure
-publishexternaldate: 2018-07-23T08 13 21.876-0400
+publishexternaldate: 2018-09-07T14 47 52.732-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/defining-the-email-structure.html
-sha1: d8b0d5b4f71c41d012f60ee096b4ba33b1ac4e4a
-topicBrowsingSortDate: 2018-07-23T08:13:21.876-0400
+sha1: 528ee0ee50ad847862ffb20a6beb230eaebe7260
+topicBrowsingSortDate: 2018-09-07T14:47:52.732-0400
 index: y
 internal: n
 snippet: y
@@ -95,25 +95,7 @@ Here is the list of the available components in the Creative Designer:
 * **Button**
 * **Carousel**
 
-  To use this component, follow the steps below.
-
-    1. Drag and drop the **Carousel** component inside a structure component.
-    1. Browse to select images from your computer.
-    
-       ![](assets/des_carousel_browse.png)
-
-    1. From the **Settings** pane, set the number of thumbnails that you want in the carousel.
-    1. Select a fallback image from your computer.
-    
-       ![](assets/des_carousel_fallback.png)    
-    
-       The carousel component is not compatible with all email programs. Upload a fallback to display an image instead when the carousel is not supported in the email.
-
-       >[!NOTE]
-       >
-       >The carousel component is compatible with the following email platforms: Apple Mail 7, Apple Mail 8, Outlook 2011 for Mac, Outlook 2016 for Mac, Mozilla Thunderbird, iPad and iPad mini iOS, iPhone iOS, Android, AOL (Chrome, Firefox and Safari).
-
-    1. Select **Fallback view** to display the fallback image in the Creative Designer.
+  For more on this, see [Using the carousel component](../../designing/using/defining-the-email-structure.md#using-the-carousel-component).
 
 * **Divider**
 * **Html**
@@ -122,11 +104,31 @@ Here is the list of the available components in the Creative Designer:
 
   >[!NOTE]
   >
-  >A free HTML component is editable with limited options. If all styles are not inlined, make sure to add the proper CSS in the section of the HTML code, otherwise the email will not be responsive. Use the **Preview** button to test the responsiveness of your content. See [Previewing messages with the Creative Designer](../../sending/using/previewing-messages.md#previewing-messages-with-the-creative-designer).
+  >A free HTML component is editable with limited options. If all styles are not inlined, make sure to add the proper CSS in the **head** section of the HTML code, otherwise the email will not be responsive. Use the **Preview** button to test the responsiveness of your content (see [Previewing messages with the Creative Designer](../../sending/using/previewing-messages.md#previewing-messages-with-the-creative-designer)).
 
 * **Image**
 * **Social**
 * **Text**
+
+#### Using the carousel component
+
+1. Drag and drop the **Carousel** component inside a structure component.
+1. Browse to select images from your computer.
+
+   ![](assets/des_carousel_browse.png)
+
+1. From the **Settings** pane, set the number of thumbnails that you want in the carousel.
+1. Select a fallback image from your computer.
+
+   ![](assets/des_carousel_fallback.png)
+
+   The carousel component is not compatible with all email programs. Upload a fallback to display an image instead when the carousel is not supported in the email.
+
+   >[!NOTE]
+   >
+   >The carousel component is compatible with the following email platforms: Apple Mail 7, Apple Mail 8, Outlook 2011 for Mac, Outlook 2016 for Mac, Mozilla Thunderbird, iPad and iPad mini iOS, iPhone iOS, Android, AOL (Chrome, Firefox and Safari).
+
+1. Select **Fallback view** to display the fallback image in the Creative Designer.
 
 ### Inserting elements into an email
 

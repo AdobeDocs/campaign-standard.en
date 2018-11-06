@@ -3,13 +3,13 @@ title: About Campaign-Analytics integration
 seo-title: About Campaign-Analytics integration
 description: About Campaign-Analytics integration
 seo-description: By collecting the KPI data from Adobe Campaign Standard, you can now share campaign data with Adobe Analytics to measure email marketing metrics from Adobe Campaign.
-uuid: fd0d3be3-c951-4823-86d3-c077119babf1
+uuid: 454ce7b3-84a9-4bb2-ac75-b1cfc88b42b3
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/integrating/using/about-campaign-analytics-integration
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-27T03 26 37.357-0400
-cq-lastreplicated: 2018-07-23T05 59 36.822-0400
+cq-lastmodified: 2018-09-10T02 18 46.118-0400
+cq-lastreplicated: 2018-09-07T15 03 21.796-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
 cq-template: /apps/help/templates/article-3
-discoiquuid: a090a230-e35c-48a7-9d46-8ea43fb13462
-firstPublishExternalDate: 2018-07-23T05:59:36.784-0400
+discoiquuid: 322be2c4-51ac-40a8-bd7f-88a5091d79e0
+firstPublishExternalDate: 2018-09-07T15:03:18.670-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 25.653-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: About Campaign-Analytics integration
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:59:36.784-0400
-lochandoffdate: 2018-07-27T03 26 37.355-0400
+lastPublishExternalDate: 2018-09-07T15:03:18.670-0400
+lochandoffdate: 2018-09-10T02 18 46.117-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About Campaign-Analytics integration
-publishexternaldate: 2018-07-23T05 59 36.784-0400
+publishexternaldate: 2018-09-07T15 03 18.670-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/about-campaign-analytics-integration.html
-sha1: 7704fc98c2d5d008953265dc43c2aa4b08f1ce9c
-topicBrowsingSortDate: 2018-07-23T05:59:36.784-0400
+sha1: 6d08561e58c00c3eeea9f7d60ed8b89a695500c2
+topicBrowsingSortDate: 2018-09-07T15:03:18.670-0400
 index: y
 internal: n
 snippet: y

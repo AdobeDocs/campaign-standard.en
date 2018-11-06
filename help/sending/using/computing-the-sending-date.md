@@ -3,13 +3,13 @@ title: Computing the sending date
 seo-title: Computing the sending date
 description: Computing the sending date
 seo-description: Discover how to send a message at a specific date and time.
-uuid: a9fd998e-62ab-467f-8b83-684e2e56c303
+uuid: 074924c5-7eec-4538-95da-ffd83bd1b190
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/sending/using/computing-the-sending-date
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-30T04 53 53.899-0400
-cq-lastreplicated: 2018-07-23T06 02 22.848-0400
+cq-lastmodified: 2018-09-08T08 23 08.331-0400
+cq-lastreplicated: 2018-09-07T15 11 23.392-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 cq-template: /apps/help/templates/article-3
-discoiquuid: 21ebddec-32ad-4355-adf3-dfd8f059c401
-firstPublishExternalDate: 2018-07-23T06:02:22.803-0400
+discoiquuid: b1251a19-8292-40f3-9419-7efe12cb3ebf
+firstPublishExternalDate: 2018-09-07T15:11:23.284-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 33.444-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Computing the sending date
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:02:22.803-0400
-lochandoffdate: 2018-07-30T04 53 53.899-0400
+lastPublishExternalDate: 2018-09-07T15:11:23.284-0400
+lochandoffdate: 2018-09-08T08 23 08.331-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Computing the sending date
-publishexternaldate: 2018-07-23T06 02 22.803-0400
+publishexternaldate: 2018-09-07T15 11 23.284-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/sending/using/computing-the-sending-date.html
-sha1: 90f91aceb860bd781d9a6cc39a25ac3048049ff0
-topicBrowsingSortDate: 2018-07-23T06:02:22.803-0400
+sha1: 9bee6f59bb00e249f79f7c303ed5666fd16cb748
+topicBrowsingSortDate: 2018-09-07T15:11:23.284-0400
 index: y
 internal: n
 snippet: y

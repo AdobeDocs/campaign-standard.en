@@ -1,42 +1,40 @@
 <html>
  <head>
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="With the Adobe Experience Manager integration, you can create content directly in AEM and use it later on in Adobe Campaign." name="seoDescription" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="2018-07-23T05:59:25.488-0400" name="topicBrowsingSortDate" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="mancini" name="cq:lastModifiedBy" />
-  <meta content="7de6125c-7e27-453e-b51d-93120458fb4b" name="jcr:uuid" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
   <meta content="https://helpx.adobe.com/campaign/standard/integrating/using/integrating-with-experience-manager.html" name="publishExternalURL" />
-  <meta content="2018-07-23T05:59:25.488-0400" name="publishExternalDate" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="Integrating with Experience Manager" name="jcr:title" />
-  <meta content="/content/help/en/campaign/standard/integrating/morehelp/working-with-campaign-and-experience-manager;/content/help/en/campaign/standard/integrating/morehelp/working-with-campaign-and-experience-manager" name="moreHelpPaths" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
   <meta content="Integrating with Experience Manager" name="navTitle" />
-  <meta content="2018-07-23T05:59:25.597-0400" name="cq:lastReplicated" />
-  <meta content="light" name="heroGradient" />
-  <meta content="2018-07-27T03:26:21.292-0400" name="cq:lastModified" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="sauviat" name="contentOwner" />
   <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="audience:integrating" name="primaryAudienceTag" />
+  <meta content="2018-09-10T02:18:35.936-0400" name="cq:lastModified" />
+  <meta content="light" name="heroGradient" />
   <meta content="Integrating with Experience Manager" name="jcr:description" />
+  <meta content="2018-09-07T14:58:33.418-0400" name="topicBrowsingSortDate" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-09-07T14:58:35.221-0400" name="cq:lastReplicated" />
+  <meta content="2018-09-07T14:58:33.418-0400" name="lastPublishExternalDate" />
+  <meta content="2018-09-07T14:58:33.418-0400" name="firstPublishExternalDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="Integrating with Experience Manager" name="jcr:title" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="With the Adobe Experience Manager integration, you can create content directly in AEM and use it later on in Adobe Campaign." name="seoDescription" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:integrating;content_type:reference;topic_tags:working-with-campaign-and-experience-manager" name="cq:tags" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="7de6125c-7e27-453e-b51d-93120458fb4b" name="jcr:uuid" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-09-07T14:58:33.418-0400" name="publishExternalDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
   <meta content="9a6b2757-fae8-425b-a2d3-498be25a5a63" name="jcr:predecessors" />
   <meta content="en_us" name="jcr:language" />
-  <meta content="audience:integrating" name="primaryAudienceTag" />
   <meta content="2018-03-15T09:02:38.293-0400" name="jcr:created" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:integrating;content_type:reference;topic_tags:working-with-campaign-and-experience-manager" name="cq:tags" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="2018-07-23T05:59:25.488-0400" name="lastPublishExternalDate" />
-  <meta content="2018-07-23T05:59:25.488-0400" name="firstPublishExternalDate" />
-  <meta content="2018-07-27T03:26:21.290-0400" name="locHandOffDate" />
+  <meta content="2018-09-10T02:18:35.935-0400" name="locHandOffDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
  </head>
  <body>
   <p>This integration between Adobe Campaign Standard and Adobe Experience Manager allows you to use content created in Adobe Experience Manager in your Adobe Campaign emails.</p> 
@@ -62,14 +60,14 @@
    <li><p>Validate the content.</p> </li>
   </ol>
   <p>For more information, refer to the <a href="https://docs.adobe.com/docs/en/aem/6-2/author/personalization/adobe-campaign/campaign.html">detailed documentation</a>.</p> 
-  <img imageRotate="0" src="assets/aem_content.png" />
+  <img alt="" captionBottom="" imageRotate="0" src="assets/aem_content.png" title="" />
   <p> </p> 
   <p>To retrieve the content in Adobe Campaign:</p> 
   <ol>
    <li><p>Create an email based on an Adobe Experience Manager type content template.</p> </li>
    <li><p>Link a content created with Adobe Experience Manager using the Adobe Campaign email content definition screen.</p> </li>
   </ol>
-  <img imageRotate="0" src="assets/aem_linked_content.png" />
+  <img alt="" captionBottom="" imageRotate="0" src="assets/aem_linked_content.png" title="" />
   <h2>Configuration</h2>
   <p>To use these two solutions together, you must configure them to connect to one another.</p> 
   <ol>

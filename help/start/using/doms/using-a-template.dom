@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="2018-07-27T03:27:27.172-0400" name="locHandOffDate" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="bcdb78b0-c67d-45ac-96f0-a9c1bec8436a" name="jcr:uuid" />
-  <meta content="2018-07-23T06:00:49.623-0400" name="lastPublishExternalDate" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="2018-07-23T06:00:49.623-0400" name="topicBrowsingSortDate" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="2018-07-27T03:27:27.173-0400" name="cq:lastModified" />
-  <meta content="Discover a simple step-by-step procedure to use an existing template." name="seoDescription" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:start;content_type:reference;topic_tags:managing-templates" name="cq:tags" />
-  <meta content="2018-07-23T06:00:49.623-0400" name="firstPublishExternalDate" />
-  <meta content="en_us" name="jcr:language" />
   <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="2018-03-15T09:02:15.425-0400" name="jcr:created" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="https://helpx.adobe.com/campaign/standard/start/using/using-a-template.html" name="publishExternalURL" />
+  <meta content="admin" name="jcr:createdBy" />
   <meta content="audience:start" name="primaryAudienceTag" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="2018-07-23T06:00:49.655-0400" name="cq:lastReplicated" />
-  <meta content="Using a template" name="jcr:title" />
-  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
   <meta content="319f020f-e23a-4796-9604-37fbdb0ce924" name="jcr:predecessors" />
-  <meta content="Using a template" name="navTitle" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="2018-09-08T08:23:10.079-0400" name="locHandOffDate" />
   <meta content="light" name="heroGradient" />
+  <meta content="bcdb78b0-c67d-45ac-96f0-a9c1bec8436a" name="jcr:uuid" />
+  <meta content="2018-09-07T15:08:51.327-0400" name="topicBrowsingSortDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
   <meta content="Using a template" name="jcr:description" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="false" name="isReadyForLocalization" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:start;content_type:reference;topic_tags:managing-templates" name="cq:tags" />
+  <meta content="Using a template" name="navTitle" />
+  <meta content="2018-09-07T15:08:51.327-0400" name="publishExternalDate" />
+  <meta content="2018-09-07T15:08:51.327-0400" name="firstPublishExternalDate" />
   <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="2018-07-23T06:00:49.623-0400" name="publishExternalDate" />
+  <meta content="2018-09-08T08:23:10.079-0400" name="cq:lastModified" />
   <meta content="" name="jcr:primaryType" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="Discover a simple step-by-step procedure to use an existing template." name="seoDescription" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-09-07T15:08:51.327-0400" name="lastPublishExternalDate" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="Using a template" name="jcr:title" />
+  <meta content="https://helpx.adobe.com/campaign/standard/start/using/using-a-template.html" name="publishExternalURL" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-03-15T09:02:15.425-0400" name="jcr:created" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2018-09-07T15:08:51.481-0400" name="cq:lastReplicated" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
  </head>
  <body>
   <p>We are now going to look into how to use the email template created in the earlier section.</p> 

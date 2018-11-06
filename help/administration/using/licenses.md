@@ -3,13 +3,13 @@ title: Licenses
 seo-title: Licenses
 description: Licenses
 seo-description: 
-uuid: f5e8c827-d6bd-49c1-a23b-4cd706cad084
+uuid: 04b83b98-430a-4f69-b161-90146accffd0
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/licenses
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 20.612-0400
-cq-lastreplicated: 2018-07-23T05 53 30.911-0400
+cq-lastmodified: 2018-09-10T07 23 44.316-0400
+cq-lastreplicated: 2018-09-07T14 42 26.982-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: administration
 content-type: reference
 topic-tags: users-e-security
 cq-template: /apps/help/templates/article-3
-discoiquuid: 92d38ff6-c9e5-4946-b8ac-8a82ab54a3d8
-firstPublishExternalDate: 2018-07-23T05:53:30.833-0400
+discoiquuid: 8f9fb54e-1756-4c5a-9e09-e06b01cab2b3
+firstPublishExternalDate: 2018-09-07T14:42:25.586-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-05-07T07 29 00.223-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Licenses
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:53:30.833-0400
-lochandoffdate: 2018-07-25T09 29 20.611-0400
+lastPublishExternalDate: 2018-09-07T14:42:25.586-0400
+lochandoffdate: 2018-09-10T07 23 44.314-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Licenses
-publishexternaldate: 2018-07-23T05 53 30.833-0400
+publishexternaldate: 2018-09-07T14 42 25.586-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/licenses.html
-sha1: ab481cbfdbca386c3384c52da0a2b8ed35534b02
-topicBrowsingSortDate: 2018-07-23T05:53:30.833-0400
+sha1: d5080481df14f08414d432d2006da0569feb53c8
+topicBrowsingSortDate: 2018-09-07T14:42:25.586-0400
 index: y
 internal: n
 snippet: y

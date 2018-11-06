@@ -3,13 +3,13 @@ title: About Administrating Adobe Campaign
 seo-title: About Administrating Adobe Campaign
 description: About Administrating Adobe Campaign
 seo-description: Adobe Campaign provides you with a complete set of administration tools. Learn how to manage your users and configure your channels.
-uuid: df1bc5af-d46f-43b8-9cd9-924ab6dd7ddc
+uuid: e4c959d4-317a-4ca0-8db0-b3a09654d9ee
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/about-administrating-adobe-campaign
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 10.507-0400
-cq-lastreplicated: 2018-07-23T05 53 19.622-0400
+cq-lastmodified: 2018-09-10T07 22 15.361-0400
+cq-lastreplicated: 2018-09-07T14 40 01.451-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
 cq-template: /apps/help/templates/article-3
-discoiquuid: 0e8a804e-ba23-462d-8536-899a8b20ac2b
-firstPublishExternalDate: 2018-07-23T05:53:19.581-0400
+discoiquuid: 0cd33f20-0450-4a5a-affa-420921e1db33
+firstPublishExternalDate: 2018-09-07T14:40:01.005-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 07.428-0400
@@ -26,16 +26,15 @@ jcr-createdby: admin
 jcr-description: About Administrating Adobe Campaign
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:53:19.581-0400
-lochandoffdate: 2018-07-25T09 29 10.507-0400
+lastPublishExternalDate: 2018-09-07T14:40:01.005-0400
+lochandoffdate: 2018-09-10T07 22 15.360-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
-moreHelpPaths: /content/help/en/campaign/standard/administration/morehelp/about-administrating-adobe-campaign;/content/help/en/campaign/standard/administration/morehelp/about-administrating-adobe-campaign
 navTitle: About Administrating Adobe Campaign
-publishexternaldate: 2018-07-23T05 53 19.581-0400
+publishexternaldate: 2018-09-07T14 40 01.005-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/about-administrating-adobe-campaign.html
-sha1: 2a1230829e5b9bc891fbb43a102a94646ea4b3b6
-topicBrowsingSortDate: 2018-07-23T05:53:19.581-0400
+sha1: 3da4b12691951168a8dc3920819c65019cae8d32
+topicBrowsingSortDate: 2018-09-07T14:40:01.005-0400
 index: y
 internal: n
 snippet: y

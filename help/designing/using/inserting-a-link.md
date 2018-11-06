@@ -3,13 +3,13 @@ title: Inserting a link
 seo-title: Inserting a link
 description: Inserting a link
 seo-description: Learn how to personalize your email or landing page by inserting links into the HTML content elements.
-uuid: 59a472f6-b1f4-423f-aea8-6c708acb87ae
+uuid: e404a904-b0ee-47d8-8381-bb73f564c3d9
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/inserting-a-link
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-26T02 54 04.844-0400
-cq-lastreplicated: 2018-07-23T08 14 00.277-0400
+cq-lastmodified: 2018-09-10T07 26 07.739-0400
+cq-lastreplicated: 2018-09-07T15 07 26.945-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: designing
 content-type: reference
 topic-tags: managing-links
 cq-template: /apps/help/templates/article-3
-discoiquuid: 754d7c14-15bf-4a5d-8fbe-e6b8eb37fb7b
-firstPublishExternalDate: 2018-07-23T05:58:47.041-0400
+discoiquuid: f29db7f2-671c-48eb-b299-85657e60762e
+firstPublishExternalDate: 2018-09-07T15:07:26.356-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-07-23T07 30 17.504-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Inserting a link
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T08:14:00.221-0400
-lochandoffdate: 2018-07-26T02 54 04.844-0400
+lastPublishExternalDate: 2018-09-07T15:07:26.356-0400
+lochandoffdate: 2018-09-10T07 26 07.737-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Inserting a link
-publishexternaldate: 2018-07-23T08 14 00.221-0400
+publishexternaldate: 2018-09-07T15 07 26.356-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/inserting-a-link.html
-sha1: 121535644d23bf5a7535a8c7794ec8581d219638
-topicBrowsingSortDate: 2018-07-23T08:14:00.221-0400
+sha1: 3bc3983ec54470049a325a0a7cb84ef9d21c2b61
+topicBrowsingSortDate: 2018-09-07T15:07:26.356-0400
 index: y
 internal: n
 snippet: y

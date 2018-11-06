@@ -3,13 +3,13 @@ title: Sharing audiences with Audience Manager or People core service
 seo-title: Sharing audiences with Audience Manager or People core service
 description: Sharing audiences with Audience Manager or People core service
 seo-description: Learn how to import or export your audience within the different Adobe Experience Cloud solutions.
-uuid: ae6fe99a-27c6-4ddb-9a48-30b498c7abe0
+uuid: ee3ea0b6-91ab-47fe-be31-3200f6e2d034
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/integrating/using/sharing-audiences-with-audience-manager-or-people-core-service
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-27T03 26 56.787-0400
-cq-lastreplicated: 2018-07-23T05 59 42.797-0400
+cq-lastmodified: 2018-09-10T02 19 00.134-0400
+cq-lastreplicated: 2018-09-07T15 07 41.096-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 cq-template: /apps/help/templates/article-3
-discoiquuid: 18617e97-9068-40cf-a11b-c861382ab940
-firstPublishExternalDate: 2018-07-23T05:59:42.748-0400
+discoiquuid: 4a4d227d-d338-45c0-b703-1b3b9ac47f3f
+firstPublishExternalDate: 2018-09-07T15:07:40.518-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 21.971-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Sharing audiences with Audience Manager or People core service
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:59:42.748-0400
-lochandoffdate: 2018-07-27T03 26 56.786-0400
+lastPublishExternalDate: 2018-09-07T15:07:40.518-0400
+lochandoffdate: 2018-09-10T02 19 00.133-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Sharing audiences with Audience Manager or People core service
-publishexternaldate: 2018-07-23T05 59 42.748-0400
+publishexternaldate: 2018-09-07T15 07 40.518-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.html
-sha1: 3e9e1a5c769ab4c4e43758f5148879c566f28823
-topicBrowsingSortDate: 2018-07-23T05:59:42.748-0400
+sha1: 565664b56cea2defe6c838e5db2dc5029a6a00b6
+topicBrowsingSortDate: 2018-09-07T15:07:40.518-0400
 index: y
 internal: n
 snippet: y

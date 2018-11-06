@@ -3,13 +3,13 @@ title: Content design best practices
 seo-title: Content design best practices
 description: Content design best practices
 seo-description: Read about these guidelines to ensure the editor's optimal operation.
-uuid: f465f90c-e09b-46a5-9984-0f59754deed2
+uuid: 1321b284-26b0-4266-bbe8-47d2d0b4c962
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/content-design-best-practices
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-26T02 53 20.971-0400
-cq-lastreplicated: 2018-07-23T08 13 16.032-0400
+cq-lastmodified: 2018-09-10T07 22 23.679-0400
+cq-lastreplicated: 2018-09-07T14 45 27.816-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: designing
 content-type: reference
 topic-tags: about-content-design
 cq-template: /apps/help/templates/article-3
-discoiquuid: c873b892-3a3d-41bf-80f6-98020f70f503
-firstPublishExternalDate: 2018-07-23T05:57:28.019-0400
+discoiquuid: fdf5adf4-dc07-42a5-8246-faf9040025ec
+firstPublishExternalDate: 2018-09-07T14:45:25.442-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-07-23T07 30 12.604-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Content design best practices
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T08:13:15.962-0400
-lochandoffdate: 2018-07-26T02 53 20.971-0400
+lastPublishExternalDate: 2018-09-07T14:45:25.442-0400
+lochandoffdate: 2018-09-10T07 22 23.677-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Content design best practices
-publishexternaldate: 2018-07-23T08 13 15.962-0400
+publishexternaldate: 2018-09-07T14 45 25.442-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/content-design-best-practices.html
-sha1: cff2cbf556033c667c0e1bdc3ac1d7a2b217d3a2
-topicBrowsingSortDate: 2018-07-23T08:13:15.962-0400
+sha1: 3a17e290af2ae71b9e0bac6fdcc12c5cd5734063
+topicBrowsingSortDate: 2018-09-07T14:45:25.442-0400
 index: y
 internal: n
 snippet: y

@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="Exclusion" name="navTitle" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="2018-07-25T09:29:27.169-0400" name="cq:lastModified" />
-  <meta content="2018-07-23T05:57:03.300-0400" name="firstPublishExternalDate" />
-  <meta content="0a8c720e-b364-42ac-ace1-def22af7ed29" name="jcr:predecessors" />
-  <meta content="Exclusion" name="jcr:description" />
-  <meta content="2018-07-25T09:29:27.169-0400" name="locHandOffDate" />
-  <meta content="2018-07-23T05:57:03.367-0400" name="cq:lastReplicated" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="" name="jcr:baseVersion" />
   <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:targeting-activities" name="cq:tags" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Exclusion" name="navTitle" />
+  <meta content="2018-09-07T14:53:41.677-0400" name="topicBrowsingSortDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="" name="jcr:primaryType" />
   <meta content="https://helpx.adobe.com/campaign/standard/automating/using/exclusion.html" name="publishExternalURL" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
   <meta content="/apps/help/templates/article-3" name="cq:template" />
   <meta content="en_us" name="jcr:language" />
-  <meta content="light" name="heroGradient" />
-  <meta content="2018-07-23T05:57:03.300-0400" name="lastPublishExternalDate" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="" name="jcr:primaryType" />
+  <meta content="Exclusion" name="jcr:description" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="2018-09-07T14:53:41.677-0400" name="publishExternalDate" />
   <meta content="3afc5ce3-b792-4b5d-83a0-b31278c998b4" name="jcr:uuid" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="false" name="isReadyForLocalization" />
   <meta content="2018-03-15T09:02:09.176-0400" name="jcr:created" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
   <meta content="The Exclusion  activity allows you to exclude elements from one population according to certain criteria." name="seoDescription" />
-  <meta content="2018-07-23T05:57:03.300-0400" name="topicBrowsingSortDate" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="audience:automating" name="primaryAudienceTag" />
+  <meta content="2018-09-10T07:24:59.513-0400" name="locHandOffDate" />
   <meta content="Exclusion" name="jcr:title" />
-  <meta content="2018-07-23T05:57:03.300-0400" name="publishExternalDate" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="0a8c720e-b364-42ac-ace1-def22af7ed29" name="jcr:predecessors" />
+  <meta content="2018-09-07T14:53:43.196-0400" name="cq:lastReplicated" />
+  <meta content="2018-09-10T07:24:59.514-0400" name="cq:lastModified" />
+  <meta content="2018-09-07T14:53:41.677-0400" name="firstPublishExternalDate" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-09-07T14:53:41.677-0400" name="lastPublishExternalDate" />
+  <meta content="audience:automating" name="primaryAudienceTag" />
+  <meta content="light" name="heroGradient" />
   <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="admin" name="jcr:createdBy" />
  </head>
  <body>
   <h2>Description</h2>

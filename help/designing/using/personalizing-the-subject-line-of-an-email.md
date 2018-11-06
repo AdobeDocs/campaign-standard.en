@@ -3,13 +3,13 @@ title: Personalizing the subject line of an email
 seo-title: Personalizing the subject line of an email
 description: Personalizing the subject line of an email
 seo-description: You can personalize the subject of an email, but also try out different subject lines and get an estimation of its open rate.
-uuid: ea45e6b5-c6f0-4bd0-af14-691185e4798b
+uuid: 1ae7878a-ca78-4bb2-855e-0d1cb1124841
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/personalizing-the-subject-line-of-an-email
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-26T02 53 54.333-0400
-cq-lastreplicated: 2018-07-23T08 13 52.459-0400
+cq-lastmodified: 2018-09-10T07 25 23.844-0400
+cq-lastreplicated: 2018-09-07T15 02 19.558-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: designing
 content-type: reference
 topic-tags: personalizing-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: 0a0f8cbc-68d2-43ca-aa33-fab3e0cd3a70
-firstPublishExternalDate: 2018-07-23T05:58:41.123-0400
+discoiquuid: be41bf64-3bee-4378-ba0f-93f32adecaec
+firstPublishExternalDate: 2018-09-07T15:02:16.550-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-07-23T07 30 13.819-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Personalizing the subject line of an email
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T08:13:52.411-0400
-lochandoffdate: 2018-07-26T02 53 54.332-0400
+lastPublishExternalDate: 2018-09-07T15:02:16.550-0400
+lochandoffdate: 2018-09-10T07 25 23.842-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Personalizing the subject line of an email
-publishexternaldate: 2018-07-23T08 13 52.411-0400
+publishexternaldate: 2018-09-07T15 02 16.550-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/personalizing-the-subject-line-of-an-email.html
-sha1: 1ff5528abf2211b74cdc2bef2b2d99bfae8e7037
-topicBrowsingSortDate: 2018-07-23T08:13:52.411-0400
+sha1: bc793e8d1616da3f95774c39f74dda7f3396fed6
+topicBrowsingSortDate: 2018-09-07T15:02:16.550-0400
 index: y
 internal: n
 snippet: y

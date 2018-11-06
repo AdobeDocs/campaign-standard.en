@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="2018-07-25T09:29:11.863-0400" name="cq:lastModified" />
-  <meta content="2018-07-23T05:53:21.847-0400" name="publishExternalDate" />
+  <meta content="2018-09-10T07:22:30.691-0400" name="cq:lastModified" />
+  <meta content="2018-09-07T14:40:48.414-0400" name="lastPublishExternalDate" />
+  <meta content="Types of users" name="jcr:title" />
+  <meta content="2018-09-07T14:40:49.026-0400" name="cq:lastReplicated" />
   <meta content="en_us" name="jcr:language" />
   <meta content="37e274b3-cc6e-4c87-9ca1-5a4112f62bca" name="jcr:uuid" />
-  <meta content="" name="jcr:versionHistory" />
   <meta content="" name="jcr:baseVersion" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="2018-07-23T05:53:21.847-0400" name="firstPublishExternalDate" />
-  <meta content="2b64c8d2-abb7-4709-b51b-5fad79c7b71e" name="jcr:predecessors" />
-  <meta content="light" name="heroGradient" />
-  <meta content="audience:administration" name="primaryAudienceTag" />
-  <meta content="Types of users" name="navTitle" />
-  <meta content="2018-07-25T09:29:11.862-0400" name="locHandOffDate" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="Types of users" name="jcr:title" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="2018-07-23T05:53:21.887-0400" name="cq:lastReplicated" />
+  <meta content="2018-09-07T14:40:48.414-0400" name="publishExternalDate" />
   <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="2018-07-23T05:53:21.847-0400" name="lastPublishExternalDate" />
-  <meta content="2018-07-23T05:53:21.847-0400" name="topicBrowsingSortDate" />
-  <meta content="sauviat" name="contentOwner" />
   <meta content="products:SG_CAMPAIGN/STANDARD;audience:administration;content_type:reference;topic_tags:users-e-security" name="cq:tags" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
   <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="admin" name="jcr:createdBy" />
   <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="" name="jcr:primaryType" />
+  <meta content="2018-09-07T14:40:48.414-0400" name="topicBrowsingSortDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
   <meta content="Adobe Campaign users hold specific roles. Discover the main user types. " name="seoDescription" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
   <meta content="2018-02-16T08:01:09.439-0500" name="jcr:created" />
-  <meta content="false" name="isReadyForLocalization" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="audience:administration" name="primaryAudienceTag" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="Types of users" name="navTitle" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="2018-09-07T14:40:48.414-0400" name="firstPublishExternalDate" />
   <meta content="Types of users" name="jcr:description" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2b64c8d2-abb7-4709-b51b-5fad79c7b71e" name="jcr:predecessors" />
   <meta content="https://helpx.adobe.com/campaign/standard/administration/using/types-of-users.html" name="publishExternalURL" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2018-09-10T07:22:30.690-0400" name="locHandOffDate" />
+  <meta content="false" name="isReadyForLocalization" />
  </head>
  <body>
   <p>Administrators can manage users from the Admin console. Users are then automatically synchronized with Adobe Campaign. </p> 
@@ -90,7 +90,7 @@
   <ul>
    <li><p> <a href="../../start/using/programs-and-campaigns.md">Manage programs and campaigns</a>: create marketing campaigns including different types of activities (emails, SMS messages, push notifications, workflows, landing pages).</p> </li>
    <li><p>Manage <a href="../../audiences/using/about-profiles.md">profiles</a> and <a href="../../sending/using/managing-test-profiles-and-sending-proofs.md">test profiles</a>: manage the identified and test recipients that will be targeted by your deliveries. Add information such as first name, last name, contact information, subscriptions, emails, etc.</p> </li>
-   <li><p> <a href="../../sending/using/confirming-send.md">Create and send messages</a>: create your message, select the audience, define the message content and its personalization elements, send proofs and send the final message to your audience.</p> </li>
+   <li><p> <a href="../../sending/using/confirming-the-send.md">Create and send messages</a>: create your message, select the audience, define the message content and its personalization elements, send proofs and send the final message to your audience.</p> </li>
    <li><p> <a href="../../channels/using/about-landing-pages.md">Create and publish landing pages</a>: create and manage a set of services that you wish to offer your clients, for example subscription or unsubscription forms.</p> </li>
    <li><p> <a href="../../automating/using/building-a-workflow.md">Create and execute campaign workflows</a>: automate your campaign processes using workflows.</p> </li>
    <li><p>Monitor your marketing activities through the <a href="../../reporting/using/defining-the-report-period.md">available reports</a>.</p> </li>

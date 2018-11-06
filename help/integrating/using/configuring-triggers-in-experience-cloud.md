@@ -3,13 +3,13 @@ title: Configuring Triggers in Experience Cloud
 seo-title: Configuring Triggers in Experience Cloud
 description: Configuring Triggers in Experience Cloud
 seo-description: Learn how to configure the Adobe Experience Cloud Triggers integration to start sending personalized deliveries to your customers based on their previous behaviors. 
-uuid: a2a8da1d-6e5d-450e-b3e9-94a20efc4e91
+uuid: 334de4e9-b5b9-4526-8216-f3aa169555af
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/integrating/using/configuring-triggers-in-experience-cloud
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-27T03 27 20.801-0400
-cq-lastreplicated: 2018-07-23T05 59 48.352-0400
+cq-lastmodified: 2018-09-10T02 19 17.255-0400
+cq-lastreplicated: 2018-09-07T15 08 19.999-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 cq-template: /apps/help/templates/article-3
-discoiquuid: f94500ac-0d3a-4106-8db6-5bdc8622a238
-firstPublishExternalDate: 2018-07-23T05:59:48.311-0400
+discoiquuid: 7bd9de29-db0a-4302-a685-3787e1ec73dd
+firstPublishExternalDate: 2018-09-07T15:08:18.897-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-06-15T07 29 56.227-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Configuring Triggers in Experience Cloud
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:59:48.311-0400
-lochandoffdate: 2018-07-27T03 27 20.800-0400
+lastPublishExternalDate: 2018-09-07T15:08:18.897-0400
+lochandoffdate: 2018-09-10T02 19 17.254-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Configuring Triggers in Experience Cloud
-publishexternaldate: 2018-07-23T05 59 48.311-0400
+publishexternaldate: 2018-09-07T15 08 18.897-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/configuring-triggers-in-experience-cloud.html
-sha1: b93cc13d96716c6f89fd44600d873843ecdb8c98
-topicBrowsingSortDate: 2018-07-23T05:59:48.311-0400
+sha1: 7e2bfcf588af975ddd0f2f4c45fec5db4bfa5e4f
+topicBrowsingSortDate: 2018-09-07T15:08:18.897-0400
 index: y
 internal: n
 snippet: y

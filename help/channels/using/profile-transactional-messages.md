@@ -3,13 +3,13 @@ title: Profile transactional messages
 seo-title: Profile transactional messages
 description: Profile transactional messages
 seo-description: Learn how to create and publish a profile transactional message.
-uuid: 1da19aff-eb0e-4f5e-8443-5c962e33110e
+uuid: b8c9a5c6-8364-4d3e-91d8-d3ab80b20e80
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/profile-transactional-messages
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-30T04 54 06.913-0400
-cq-lastreplicated: 2018-07-23T06 03 06.212-0400
+cq-lastmodified: 2018-09-08T08 23 21.341-0400
+cq-lastreplicated: 2018-09-07T15 12 30.954-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 cq-template: /apps/help/templates/article-3
-discoiquuid: 0a20a064-b590-4cb9-a4cb-728d5f2f3cd9
-firstPublishExternalDate: 2018-07-23T06:03:06.101-0400
+discoiquuid: 3ebf1c1d-ebc6-4ec9-a78d-006b00fe4d98
+firstPublishExternalDate: 2018-09-07T15:12:30.917-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 17.623-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Profile transactional messages
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:03:06.101-0400
-lochandoffdate: 2018-07-30T04 54 06.912-0400
+lastPublishExternalDate: 2018-09-07T15:12:30.917-0400
+lochandoffdate: 2018-09-08T08 23 21.341-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Profile transactional messages
-publishexternaldate: 2018-07-23T06 03 06.101-0400
+publishexternaldate: 2018-09-07T15 12 30.917-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/profile-transactional-messages.html
-sha1: 85241389a92428141fb3f5e2a59e73e98cdedc25
-topicBrowsingSortDate: 2018-07-23T06:03:06.101-0400
+sha1: 6660f6b6089b4cd89ed28de5d6903bd9c7abc379
+topicBrowsingSortDate: 2018-09-07T15:12:30.917-0400
 index: y
 internal: n
 snippet: y

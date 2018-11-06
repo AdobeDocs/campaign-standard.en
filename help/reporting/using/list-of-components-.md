@@ -3,13 +3,13 @@ title: List of components
 seo-title: List of components 
 description: List of components 
 seo-description: Find here the list of every components available in Dynamic reports as well as their definitions.
-uuid: fce0ec70-0ad3-4dbc-b033-08e758ccafe6
+uuid: a082c12d-b063-4ac4-9ab2-eb75b2379760
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/reporting/using/list-of-components-
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-27T03 26 33.071-0400
-cq-lastreplicated: 2018-07-23T06 00 10.739-0400
+cq-lastmodified: 2018-09-10T02 18 42.501-0400
+cq-lastreplicated: 2018-09-07T15 02 20.257-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: reporting
 content-type: reference
 topic-tags: about-reporting
 cq-template: /apps/help/templates/article-3
-discoiquuid: ceccf4d6-51c2-4594-a97a-39df11a864a2
-firstPublishExternalDate: 2018-07-23T06:00:10.696-0400
+discoiquuid: 3c2316bb-feb2-4086-99a5-d93f386af290
+firstPublishExternalDate: 2018-09-07T15:02:17.342-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 03 02.772-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: List of components 
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:00:10.696-0400
-lochandoffdate: 2018-07-27T03 26 33.069-0400
+lastPublishExternalDate: 2018-09-07T15:02:17.342-0400
+lochandoffdate: 2018-09-10T02 18 42.500-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: List of components 
-publishexternaldate: 2018-07-23T06 00 10.696-0400
+publishexternaldate: 2018-09-07T15 02 17.342-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/list-of-components-.html
-sha1: da71fda0db284fac90052ffc75e88b173ebfca24
-topicBrowsingSortDate: 2018-07-23T06:00:10.696-0400
+sha1: 79f217b8185d2d33deb31546d2818217d12829e7
+topicBrowsingSortDate: 2018-09-07T15:02:17.342-0400
 index: y
 internal: n
 snippet: y

@@ -3,13 +3,13 @@ title: Targeting data
 seo-title: Targeting data
 description: Targeting data
 seo-description: Learn the different ways to target and select the data you need.
-uuid: 2dfb2a94-bdf1-41bf-941c-5dcd7f30f1fa
+uuid: ef320a4f-f7f1-417f-8c3e-a74a6c32fb65
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/targeting-data
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 13.651-0400
-cq-lastreplicated: 2018-07-23T05 56 50.589-0400
+cq-lastmodified: 2018-09-10T07 23 04.717-0400
+cq-lastreplicated: 2018-09-07T14 46 49.585-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 cq-template: /apps/help/templates/article-3
-discoiquuid: 3000dc0a-4bfc-45d6-9644-69023b75967f
-firstPublishExternalDate: 2018-07-23T05:56:50.538-0400
+discoiquuid: 69730489-f644-413f-b6f4-3d1d1f3d3a71
+firstPublishExternalDate: 2018-09-07T14:46:47.744-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 36.995-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Targeting data
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:56:50.538-0400
-lochandoffdate: 2018-07-25T09 29 13.651-0400
+lastPublishExternalDate: 2018-09-07T14:46:47.744-0400
+lochandoffdate: 2018-09-10T07 23 04.715-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Targeting data
-publishexternaldate: 2018-07-23T05 56 50.538-0400
+publishexternaldate: 2018-09-07T14 46 47.744-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/targeting-data.html
-sha1: d65b352f87d3c63a925c67d6a72bad0c63d09477
-topicBrowsingSortDate: 2018-07-23T05:56:50.538-0400
+sha1: 2e711cfa2b0816802daf729170eeca34c123cdda
+topicBrowsingSortDate: 2018-09-07T14:46:47.744-0400
 index: y
 internal: n
 snippet: y

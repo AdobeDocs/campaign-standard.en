@@ -3,13 +3,13 @@ title: Configuring email channel
 seo-title: Configuring email channel
 description: Configuring email channel
 seo-description: Learn how to configure the email channel.
-uuid: fa8e095b-6693-497b-a38c-0990eb565543
+uuid: ea2e3612-8a94-43f5-82a8-8b3c8f4dc99d
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/configuring-email-channel
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 21.625-0400
-cq-lastreplicated: 2018-07-23T05 53 33.903-0400
+cq-lastmodified: 2018-09-10T07 23 53.723-0400
+cq-lastreplicated: 2018-09-07T14 43 30.779-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 cq-template: /apps/help/templates/article-3
-discoiquuid: 532568a8-f7d5-4131-a5fc-e49083d0acce
-firstPublishExternalDate: 2018-07-23T05:53:33.788-0400
+discoiquuid: 3f8b7c7e-7b65-42ca-ab70-c4ab6b273421
+firstPublishExternalDate: 2018-09-07T14:43:28.687-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-02-16T08 03 38.506-0500
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Configuring email channel
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:53:33.788-0400
-lochandoffdate: 2018-07-25T09 29 21.624-0400
+lastPublishExternalDate: 2018-09-07T14:43:28.687-0400
+lochandoffdate: 2018-09-10T07 23 53.722-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Configuring email channel
-publishexternaldate: 2018-07-23T05 53 33.788-0400
+publishexternaldate: 2018-09-07T14 43 28.687-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/configuring-email-channel.html
-sha1: 2eae8909dd4b5ed49803ff52d132ff6925189c99
-topicBrowsingSortDate: 2018-07-23T05:53:33.788-0400
+sha1: 57d61fcf39b38b901d02d6c0ededa3ee783715ae
+topicBrowsingSortDate: 2018-09-07T14:43:28.687-0400
 index: y
 internal: n
 snippet: y
@@ -148,8 +148,8 @@ The following parameters are available for each rule:
 
 * **Range of IDs**: this option lets you indicate the ranges of identifiers (publicId) for which the rule applies. You can specify:
 
-  * A number: the rule will only apply to this publicId.
-  * A range of numbers (number1-number2): the rule will apply to all publicIds between these two numbers.
+    * A number: the rule will only apply to this publicId.
+    * A range of numbers (number1-number2): the rule will apply to all publicIds between these two numbers.
 
   If the field is empty, the rule applies to all IDs.
 
@@ -232,10 +232,10 @@ The **Validity** section contains the following parameters:
   >
   >An HTML content must have been defined for the email for the mirror page to be created.
 
-  * **Generate the mirror page if a mirror link appears in the email content** (default mode): the mirror page is generated if the link is inserted in the mail content. 
-  * **Force the generation of the mirror page**: even if no link to the mirror page is inserted into the messages, the mirror page will be created. 
-  * **Do not generate the mirror page**: no mirror page is generated, even if the link is in the messages. 
-  * **Generate a mirror page accessible using only the message ID**: this option lets you access the content of the mirror page, with personalization information, in the delivery log window.
+    * **Generate the mirror page if a mirror link appears in the email content** (default mode): the mirror page is generated if the link is inserted in the mail content. 
+    * **Force the generation of the mirror page**: even if no link to the mirror page is inserted into the messages, the mirror page will be created. 
+    * **Do not generate the mirror page**: no mirror page is generated, even if the link is in the messages. 
+    * **Generate a mirror page accessible using only the message ID**: this option lets you access the content of the mirror page, with personalization information, in the delivery log window.
 
 ### List of email tracking parameters
 

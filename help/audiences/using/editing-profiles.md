@@ -3,13 +3,13 @@ title: Editing profiles
 seo-title: Editing profiles
 description: Editing profiles
 seo-description: Learn how to edit existing profiles and access contact information, prefered channels, tracking logs, subscriptions, etc.
-uuid: 772a1385-c927-463e-af1a-4da653391ce7
+uuid: c8316709-b467-4b80-99b4-162049c09e8c
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/audiences/using/editing-profiles
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 11.507-0400
-cq-lastreplicated: 2018-07-23T05 55 21.357-0400
+cq-lastmodified: 2018-09-10T07 22 30.973-0400
+cq-lastreplicated: 2018-09-07T14 43 32.010-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 cq-template: /apps/help/templates/article-3
-discoiquuid: ba082e2f-3f27-4fe9-882a-4ef43e144be6
-firstPublishExternalDate: 2018-07-23T05:55:21.319-0400
+discoiquuid: 48e5613b-2eb4-4439-9dd2-f0cb2142964e
+firstPublishExternalDate: 2018-09-07T14:43:29.446-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 08.089-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Editing profiles
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:55:21.319-0400
-lochandoffdate: 2018-07-25T09 29 11.507-0400
+lastPublishExternalDate: 2018-09-07T14:43:29.446-0400
+lochandoffdate: 2018-09-10T07 22 30.971-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Editing profiles
-publishexternaldate: 2018-07-23T05 55 21.319-0400
+publishexternaldate: 2018-09-07T14 43 29.446-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/audiences/using/editing-profiles.html
-sha1: 4fdf98eade69ac7b1717d16c6a7362a3560112d6
-topicBrowsingSortDate: 2018-07-23T05:55:21.319-0400
+sha1: e5d7c8328fbe97dab5662d2ec9e970a4cdd92d0b
+topicBrowsingSortDate: 2018-09-07T14:43:29.446-0400
 index: y
 internal: n
 snippet: y

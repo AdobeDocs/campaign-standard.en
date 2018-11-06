@@ -3,13 +3,13 @@ title: Adding a content block
 seo-title: Adding a content block
 description: Adding a content block
 seo-description: Discover the various out-of-the-box dynamic content blocks you can use to personalize your messages and learn how to create custom content blocks.
-uuid: f56d5f7b-da8b-45c2-b990-c820688f0698
+uuid: 6f207376-e8da-4b67-903c-abf5b9ba2f30
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/adding-a-content-block
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-26T02 53 52.163-0400
-cq-lastreplicated: 2018-07-23T08 13 50.191-0400
+cq-lastmodified: 2018-09-10T07 25 12.302-0400
+cq-lastreplicated: 2018-09-07T15 00 25.826-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: designing
 content-type: reference
 topic-tags: personalizing-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: 9d3e6093-0fec-4787-bd18-99f95c8dffc0
-firstPublishExternalDate: 2018-07-23T05:58:39.470-0400
+discoiquuid: daa35d10-430c-4fd3-9fee-8ce9fdace7b4
+firstPublishExternalDate: 2018-09-07T15:00:22.317-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 42.371-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Adding a content block
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T08:13:50.140-0400
-lochandoffdate: 2018-07-26T02 53 52.163-0400
+lastPublishExternalDate: 2018-09-07T15:00:22.317-0400
+lochandoffdate: 2018-09-10T07 25 12.300-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Adding a content block
-publishexternaldate: 2018-07-23T08 13 50.140-0400
+publishexternaldate: 2018-09-07T15 00 22.317-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/adding-a-content-block.html
-sha1: 41485cc2521b0f7c2ed89d60872ad9c1cb950712
-topicBrowsingSortDate: 2018-07-23T08:13:50.140-0400
+sha1: 9f242e649b1a07b3effdd36bc19732a992ff8b2f
+topicBrowsingSortDate: 2018-09-07T15:00:22.317-0400
 index: y
 internal: n
 snippet: y

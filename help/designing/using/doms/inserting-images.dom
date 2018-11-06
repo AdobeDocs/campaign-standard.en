@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="Inserting images" name="jcr:title" />
-  <meta content="2018-07-26T02:53:45.227-0400" name="cq:lastModified" />
-  <meta content="d15d9cce-d9ec-4ba1-a925-defb245fd701" name="jcr:uuid" />
-  <meta content="ceaabeff-998e-4df4-b18d-86dbbea71c97" name="jcr:predecessors" />
-  <meta content="2018-07-23T08:13:42.654-0400" name="lastPublishExternalDate" />
-  <meta content="2018-07-23T05:58:30.044-0400" name="firstPublishExternalDate" />
-  <meta content="Inserting images" name="jcr:description" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:using-images" name="cq:tags" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="2018-07-26T02:53:45.226-0400" name="locHandOffDate" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="audience:designing" name="primaryAudienceTag" />
-  <meta content="2018-07-23T08:13:42.705-0400" name="cq:lastReplicated" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="2018-07-23T08:13:42.654-0400" name="topicBrowsingSortDate" />
-  <meta content="https://helpx.adobe.com/campaign/standard/designing/using/inserting-images.html" name="publishExternalURL" />
-  <meta content="2018-07-23T08:13:42.654-0400" name="publishExternalDate" />
-  <meta content="light" name="heroGradient" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="2018-03-15T09:01:18.317-0400" name="jcr:created" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="Learn how to add images to your content." name="seoDescription" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="Inserting images" name="navTitle" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
   <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="d15d9cce-d9ec-4ba1-a925-defb245fd701" name="jcr:uuid" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Inserting images" name="jcr:title" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-09-10T07:24:48.254-0400" name="locHandOffDate" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="2018-09-07T14:56:14.632-0400" name="lastPublishExternalDate" />
+  <meta content="false" name="isReadyForLocalization" />
   <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-09-07T14:56:14.632-0400" name="firstPublishExternalDate" />
+  <meta content="2018-09-10T07:24:48.256-0400" name="cq:lastModified" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-03-15T09:01:18.317-0400" name="jcr:created" />
+  <meta content="Inserting images" name="jcr:description" />
+  <meta content="2018-09-07T14:56:14.632-0400" name="topicBrowsingSortDate" />
+  <meta content="Inserting images" name="navTitle" />
+  <meta content="https://helpx.adobe.com/campaign/standard/designing/using/inserting-images.html" name="publishExternalURL" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="light" name="heroGradient" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
   <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="Learn how to add images to your content." name="seoDescription" />
+  <meta content="2018-09-07T14:56:14.632-0400" name="publishExternalDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:using-images" name="cq:tags" />
+  <meta content="audience:designing" name="primaryAudienceTag" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-09-07T14:56:16.167-0400" name="cq:lastReplicated" />
+  <meta content="ceaabeff-998e-4df4-b18d-86dbbea71c97" name="jcr:predecessors" />
  </head>
  <body>
   <p>You can insert images in your emails and landing pages.</p> 

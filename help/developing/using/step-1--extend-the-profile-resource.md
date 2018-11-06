@@ -1,15 +1,15 @@
 ---
-title: "Step 1: Extend the profile resource"
-seo-title: "Step 1: Extend the profile resource"
-description: "Step 1: Extend the profile resource"
+title: Step 1: Extend the profile resource
+seo-title: Step 1: Extend the profile resource
+description: Step 1: Extend the profile resource
 seo-description: Learn how to extend the profile resource.
-uuid: 20888f39-1b63-4f04-9336-f9c9e9b271f5
+uuid: be540d43-7b45-4138-b0aa-ce070b5567f4
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/developing/using/step-1--extend-the-profile-resource
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-26T02 53 39.292-0400
-cq-lastreplicated: 2018-07-23T05 59 19.304-0400
+cq-lastmodified: 2018-09-10T02 19 17.076-0400
+cq-lastreplicated: 2018-09-07T14 59 31.867-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: developing
 content-type: reference
 topic-tags: use-case--extending-profiles
 cq-template: /apps/help/templates/article-3
-discoiquuid: 19229875-0bcc-404e-bab8-8294d60c952b
-firstPublishExternalDate: 2018-07-23T05:59:19.273-0400
+discoiquuid: 4a23bf19-d986-4bb7-8455-ea5e25552f03
+firstPublishExternalDate: 2018-09-07T14:59:29.900-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 57.313-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Step 1  Extend the profile resource
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:59:19.273-0400
-lochandoffdate: 2018-07-26T02 53 39.292-0400
+lastPublishExternalDate: 2018-09-07T14:59:29.900-0400
+lochandoffdate: 2018-09-10T02 19 17.075-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
-navTitle: "Step 1: Extend the profile resource"
-publishexternaldate: 2018-07-23T05 59 19.273-0400
+navTitle: Step 1: Extend the profile resource
+publishexternaldate: 2018-09-07T14 59 29.900-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/step-1--extend-the-profile-resource.html
-sha1: 7fa86fc77641f96e85303004a9d94eae214cd985
-topicBrowsingSortDate: 2018-07-23T05:59:19.273-0400
+sha1: 3235bb264c9b4653766864ea00a8320a2fa61062
+topicBrowsingSortDate: 2018-09-07T14:59:29.900-0400
 index: y
 internal: n
 snippet: y

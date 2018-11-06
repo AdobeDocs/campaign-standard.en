@@ -3,13 +3,13 @@ title: About Campaign-Audience Manager or People core service integration
 seo-title: About Campaign-Audience Manager or People core service integration
 description: About Campaign-Audience Manager or People core service integration
 seo-description: With the Audience Manager / People core service integration, you can share audiences or segments within the different Adobe Experience Cloud solutions.
-uuid: b8441cb9-2586-4926-bfbb-6215a6d1e154
+uuid: 392fd8e2-f197-4554-8864-f8f4d6b81463
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/integrating/using/about-campaign-audience-manager-or-people-core-service-integration
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-27T03 26 47.315-0400
-cq-lastreplicated: 2018-07-23T05 59 39.515-0400
+cq-lastmodified: 2018-09-10T02 18 53.980-0400
+cq-lastreplicated: 2018-09-07T15 06 35.759-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 cq-template: /apps/help/templates/article-3
-discoiquuid: 1991f76e-385a-4ea3-ab04-bb94a69847a4
-firstPublishExternalDate: 2018-07-23T05:59:39.464-0400
+discoiquuid: 1a772cd6-13ef-46ce-8213-d5e08d38c358
+firstPublishExternalDate: 2018-09-07T15:06:34.603-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 36.146-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: About Campaign-Audience Manager or People core service integration
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:59:39.464-0400
-lochandoffdate: 2018-07-27T03 26 47.314-0400
+lastPublishExternalDate: 2018-09-07T15:06:34.603-0400
+lochandoffdate: 2018-09-10T02 18 53.980-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About Campaign-Audience Manager or People core service integration
-publishexternaldate: 2018-07-23T05 59 39.464-0400
+publishexternaldate: 2018-09-07T15 06 34.603-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/about-campaign-audience-manager-or-people-core-service-integration.html
-sha1: d509b30dd03a61f971d23b1136ad868e5f433bc7
-topicBrowsingSortDate: 2018-07-23T05:59:39.464-0400
+sha1: 24a3ea07040b77c9e52b169136f8410ec0d3cbb6
+topicBrowsingSortDate: 2018-09-07T15:06:34.603-0400
 index: y
 internal: n
 snippet: y

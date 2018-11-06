@@ -2,14 +2,14 @@
 title: About templates
 seo-title: About templates
 description: About templates
-seo-description: "Adobe Campaign templates allow you to pre-configure parameters depending on your needs: templates may contain a full or partial configuration of the marketing activity, to simplify Adobe Campaign usage for non-technical end users."
-uuid: 6ac320a7-c170-4c77-b9d7-28e3a4f593b4
+seo-description: Adobe Campaign templates allow you to pre-configure parameters depending on your needs: templates may contain a full or partial configuration of the marketing activity, to simplify Adobe Campaign usage for non-technical end users.
+uuid: 078e35e5-337b-4919-88e2-58ce8d86ca85
 content-encoding: UTF-8
 aemsrcnodepath: /content/help/en/campaign/standard/start/using/about-templates
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-27T03 27 16.461-0400
-cq-lastreplicated: 2018-07-23T06 00 46.978-0400
+cq-lastmodified: 2018-09-08T08 23 09.014-0400
+cq-lastreplicated: 2018-09-07T15 08 37.230-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: start
 content-type: reference
 topic-tags: managing-templates
 cq-template: /apps/help/templates/article-3
-discoiquuid: a278b0a0-b01e-46ce-be9a-e2998658162c
-firstPublishExternalDate: 2018-07-23T06:00:46.942-0400
+discoiquuid: 6211bddf-c41c-49c3-b911-2410db99b755
+firstPublishExternalDate: 2018-09-07T15:08:36.959-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 51.280-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: About templates
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:00:46.942-0400
-lochandoffdate: 2018-07-27T03 27 16.460-0400
+lastPublishExternalDate: 2018-09-07T15:08:36.959-0400
+lochandoffdate: 2018-09-08T08 23 09.014-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About templates
-publishexternaldate: 2018-07-23T06 00 46.942-0400
+publishexternaldate: 2018-09-07T15 08 36.959-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/start/using/about-templates.html
-sha1: d28e85244056ce1604acdf47ad22927072d28072
-topicBrowsingSortDate: 2018-07-23T06:00:46.942-0400
+sha1: 0377213921d3c4fe148692249ebe0b841404e243
+topicBrowsingSortDate: 2018-09-07T15:08:36.959-0400
 index: y
 internal: n
 snippet: y

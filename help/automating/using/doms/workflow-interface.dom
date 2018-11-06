@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="2018-07-23T05:56:47.778-0400" name="lastPublishExternalDate" />
-  <meta content="2018-03-15T09:01:21.688-0400" name="jcr:created" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="Workflow interface" name="jcr:description" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="Workflow interface" name="jcr:title" />
-  <meta content="2018-07-23T05:56:47.778-0400" name="topicBrowsingSortDate" />
-  <meta content="2018-07-23T05:56:47.778-0400" name="firstPublishExternalDate" />
-  <meta content="4e4519e9-c15a-48fd-acb7-41b2b34a5184" name="jcr:predecessors" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="bf8f91e4-d904-4162-b453-06f5fa9c15cc" name="jcr:uuid" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="2018-07-25T09:29:12.252-0400" name="cq:lastModified" />
-  <meta content="audience:automating" name="primaryAudienceTag" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/workflow-interface.html" name="publishExternalURL" />
-  <meta content="Learn the interface and options to create, edit and execute a workflow." name="seoDescription" />
-  <meta content="Workflow interface" name="navTitle" />
-  <meta content="2018-07-25T09:29:12.252-0400" name="locHandOffDate" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="2018-07-23T05:56:47.823-0400" name="cq:lastReplicated" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:about-workflows-and-data-management" name="cq:tags" />
-  <meta content="light" name="heroGradient" />
   <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
   <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="2018-07-23T05:56:47.778-0400" name="publishExternalDate" />
+  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/workflow-interface.html" name="publishExternalURL" />
+  <meta content="Workflow interface" name="jcr:title" />
+  <meta content="Workflow interface" name="navTitle" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2018-09-10T07:22:33.778-0400" name="cq:lastModified" />
+  <meta content="2018-03-15T09:01:21.688-0400" name="jcr:created" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="bf8f91e4-d904-4162-b453-06f5fa9c15cc" name="jcr:uuid" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:about-workflows-and-data-management" name="cq:tags" />
+  <meta content="audience:automating" name="primaryAudienceTag" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="4e4519e9-c15a-48fd-acb7-41b2b34a5184" name="jcr:predecessors" />
+  <meta content="Workflow interface" name="jcr:description" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2018-09-07T14:44:39.260-0400" name="lastPublishExternalDate" />
   <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-09-07T14:44:41.605-0400" name="cq:lastReplicated" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-09-07T14:44:39.260-0400" name="publishExternalDate" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="Learn the interface and options to create, edit and execute a workflow." name="seoDescription" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-09-07T14:44:39.260-0400" name="topicBrowsingSortDate" />
+  <meta content="light" name="heroGradient" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-09-07T14:44:39.260-0400" name="firstPublishExternalDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-09-10T07:22:33.776-0400" name="locHandOffDate" />
  </head>
  <body>
   <p>You can create workflows to manage entire processes in your campaigns and programs.</p> 
@@ -85,107 +85,107 @@
    </thead> 
    <tbody> 
     <tr> 
-     <td> </td> 
-     <td> </td> 
-     <td> </td> 
-     <td> </td> 
-     <td> </td> 
+     <td> <img height="21px" src="assets/edit_darkgrey-24px.png" /> <br /> </td> 
+     <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
+     <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
+     <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
+     <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
      <td> Allows you to edit the workflow's properties.<br /> </td> 
     </tr> 
     <tr> 
-     <td> </td> 
-     <td> </td> 
-     <td> </td> 
-     <td> </td> 
+     <td> <img height="21px" src="assets/play_darkgrey-24px_table.png" /> <br /> </td> 
+     <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
+     <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
+     <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
      <td> </td> 
      <td> Starts the workflow.<br /> </td> 
     </tr> 
     <tr> 
+     <td> <img height="21px" src="assets/pause_darkgrey-24px_table.png" /> <br /> </td> 
      <td> </td> 
      <td> </td> 
      <td> </td> 
-     <td> </td> 
-     <td> </td> 
+     <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
      <td> Pauses the workflow.<br /> </td> 
     </tr> 
     <tr> 
+     <td> <img height="21px" src="assets/stop_darkgrey-24px_table.png" /> <br /> </td> 
      <td> </td> 
      <td> </td> 
      <td> </td> 
-     <td> </td> 
-     <td> </td> 
+     <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
      <td> Interrupts workflow execution. Cannot be resumed from where it was stopped.<br /> </td> 
     </tr> 
     <tr> 
+     <td> <img height="21px" src="assets/pauseplay_darkgrey-24px_table.png" /> <br /> </td> 
      <td> </td> 
      <td> </td> 
      <td> </td> 
-     <td> </td> 
-     <td> </td> 
+     <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
      <td> Restarts the workflow.<br /> </td> 
     </tr> 
     <tr> 
-     <td> </td> 
-     <td> </td> 
-     <td> </td> 
-     <td> </td> 
-     <td> </td> 
+     <td> <img height="21px" src="assets/PrintPreview_darkgrey-24px_table.png" /> <br /> </td> 
+     <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
+     <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
+     <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
+     <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
      <td> Opens the workflow's execution log.<br /> </td> 
     </tr> 
     <tr> 
+     <td> <img height="21px" src="assets/checkcircle_darkgrey-24px_table.png" /> <br /> </td> 
+     <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
+     <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
      <td> </td> 
-     <td> </td> 
-     <td> </td> 
-     <td> </td> 
-     <td> </td> 
+     <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
      <td> Enables multi-selection mode. The workflow must be made up of at least two activities.<br /> </td> 
     </tr> 
     <tr> 
+     <td> <img height="21px" src="assets/closecircle_darkgrey-24px_table.png" /> <br /> </td> 
      <td> </td> 
      <td> </td> 
-     <td> </td> 
-     <td> </td> 
+     <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
      <td> </td> 
      <td> Disables multi-selection mode.<br /> </td> 
     </tr> 
     <tr> 
+     <td> <img height="21px" src="assets/targeted.png" /> <br /> </td> 
      <td> </td> 
-     <td> </td> 
-     <td> </td> 
+     <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
      <td> </td> 
      <td> </td> 
      <td> Opens the selected transition.<br /> </td> 
     </tr> 
     <tr> 
+     <td> <img height="21px" src="assets/check_darkgrey-24px_table.png" /> <br /> </td> 
      <td> </td> 
      <td> </td> 
-     <td> </td> 
-     <td> </td> 
-     <td> </td> 
+     <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
+     <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
      <td> Re-enables selection if it has previously been disabled or marked as paused.<br /> </td> 
     </tr> 
     <tr> 
+     <td> <img height="21px" src="assets/check_pause_darkgrey-24px_table.png" /> <br /> </td> 
      <td> </td> 
      <td> </td> 
-     <td> </td> 
-     <td> </td> 
-     <td> </td> 
+     <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
+     <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
      <td> Pauses the workflow at the selected activity.<br /> </td> 
     </tr> 
     <tr> 
+     <td> <img height="21px" src="assets/checkDisable.png" /> <br /> </td> 
      <td> </td> 
      <td> </td> 
-     <td> </td> 
-     <td> </td> 
-     <td> </td> 
+     <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
+     <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
      <td> Disables the activity.<br /> </td> 
     </tr> 
     <tr> 
+     <td> <img height="21px" src="assets/delete_darkgrey-24px_table.png" /> <br /> </td> 
      <td> </td> 
      <td> </td> 
-     <td> </td> 
-     <td> </td> 
-     <td> </td> 
+     <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
+     <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
      <td> Deletes the activities that are selected.<br /> </td> 
     </tr> 
    </tbody> 
@@ -205,67 +205,67 @@
    </thead> 
    <tbody> 
     <tr> 
+     <td> <img height="21px" src="assets/close_darkgrey-24px_table.png" /> <br /> </td> 
      <td> </td> 
+     <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
      <td> </td> 
-     <td> </td> 
-     <td> </td> 
-     <td> </td> 
+     <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
      <td> Disables selecting the activity.<br /> </td> 
     </tr> 
     <tr> 
+     <td> <img height="21px" src="assets/edit_darkgrey-24px.png" /> <br /> </td> 
      <td> </td> 
+     <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
      <td> </td> 
-     <td> </td> 
-     <td> </td> 
-     <td> </td> 
+     <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
      <td> Opens the selected activity.<br /> </td> 
     </tr> 
     <tr> 
+     <td> <img height="21px" src="assets/wkf_dlv_act_params_icon.png" /> <br /> </td> 
      <td> </td> 
+     <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
      <td> </td> 
-     <td> </td> 
-     <td> </td> 
-     <td> </td> 
+     <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
      <td> Opens the advanced options of the Email or SMS delivery activity selected.<br /> </td> 
     </tr> 
     <tr> 
+     <td> <img height="21px" src="assets/check_darkgrey-24px_table.png" /> <br /> </td> 
      <td> </td> 
+     <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
      <td> </td> 
-     <td> </td> 
-     <td> </td> 
-     <td> </td> 
+     <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
      <td> Re-enables selection if it has previously been disabled or marked as paused.<br /> </td> 
     </tr> 
     <tr> 
+     <td> <img height="21px" src="assets/check_pause_darkgrey-24px_table.png" /> <br /> </td> 
      <td> </td> 
+     <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
      <td> </td> 
-     <td> </td> 
-     <td> </td> 
-     <td> </td> 
+     <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
      <td> Pauses the workflow at the selected activity.<br /> </td> 
     </tr> 
     <tr> 
+     <td> <img height="21px" src="assets/checkDisable.png" /> <br /> </td> 
      <td> </td> 
+     <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
      <td> </td> 
-     <td> </td> 
-     <td> </td> 
-     <td> </td> 
+     <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
      <td> Disables the activity.<br /> </td> 
     </tr> 
     <tr> 
+     <td> <img height="21px" src="assets/pending_darkgrey-24px_table.png" /> <br /> </td> 
      <td> </td> 
-     <td> </td> 
-     <td> </td> 
+     <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
      <td> </td> 
      <td> </td> 
      <td> Forces immediate processing of the selection. This button is only available for the <strong>Scheduler</strong> and <strong>Wait</strong> activities.<br /> </td> 
     </tr> 
     <tr> 
+     <td> <img height="21px" src="assets/delete_darkgrey-24px_table.png" /> <br /> </td> 
      <td> </td> 
+     <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
      <td> </td> 
-     <td> </td> 
-     <td> </td> 
-     <td> </td> 
+     <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
      <td> Deletes the activities that are selected.<br /> </td> 
     </tr> 
    </tbody> 

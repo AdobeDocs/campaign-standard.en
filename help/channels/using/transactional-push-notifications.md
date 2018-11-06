@@ -3,13 +3,13 @@ title: Transactional push notifications
 seo-title: Transactional push notifications
 description: Transactional push notifications
 seo-description: Learn how to create and publish a transactional push notification.
-uuid: c24dd33f-924f-4960-bb20-4ad92646ccb5
+uuid: eab4013c-ea86-422d-b509-00a399d379ae
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/transactional-push-notifications
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-30T04 54 07.527-0400
-cq-lastreplicated: 2018-07-23T06 03 08.079-0400
+cq-lastmodified: 2018-09-08T08 23 21.673-0400
+cq-lastreplicated: 2018-09-07T15 12 31.960-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 cq-template: /apps/help/templates/article-3
-discoiquuid: 9448f88c-baea-4a87-ab0a-adb73539fc3f
-firstPublishExternalDate: 2018-07-23T06:03:07.976-0400
+discoiquuid: 709d68dc-fe09-4ad0-9569-17531595679a
+firstPublishExternalDate: 2018-09-07T15:12:31.926-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 24.861-0400
@@ -26,16 +26,15 @@ jcr-createdby: admin
 jcr-description: Transactional push notifications
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:03:07.976-0400
-lochandoffdate: 2018-07-30T04 54 07.527-0400
+lastPublishExternalDate: 2018-09-07T15:12:31.926-0400
+lochandoffdate: 2018-09-08T08 23 21.672-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
-moreHelpPaths: /content/help/en/campaign/standard/channels/morehelp/transactional-messaging;/content/help/en/campaign/standard/channels/morehelp/transactional-messaging
 navTitle: Transactional push notifications
-publishexternaldate: 2018-07-23T06 03 07.976-0400
+publishexternaldate: 2018-09-07T15 12 31.926-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/transactional-push-notifications.html
-sha1: 4ff8afa812d60b335f1f0f5e8b8635c156a6ed8a
-topicBrowsingSortDate: 2018-07-23T06:03:07.976-0400
+sha1: 35b3a6e3cd20c34e062ac6a07d62660748a3654e
+topicBrowsingSortDate: 2018-09-07T15:12:31.926-0400
 index: y
 internal: n
 snippet: y

@@ -3,13 +3,13 @@ title: Setting up image properties
 seo-title: Setting up image properties
 description: Setting up image properties
 seo-description: See how to manage the properties of the images included in your content.
-uuid: 5a1d4a11-22ae-46c2-99ca-72e8bd3babb9
+uuid: 35eee1c3-d896-4554-b04d-364939de6d39
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/setting-up-image-properties
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-26T02 53 46.742-0400
-cq-lastreplicated: 2018-07-23T08 13 44.275-0400
+cq-lastmodified: 2018-09-10T07 24 53.872-0400
+cq-lastreplicated: 2018-09-07T14 56 45.233-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: designing
 content-type: reference
 topic-tags: using-images
 cq-template: /apps/help/templates/article-3
-discoiquuid: fa69013d-7b25-41ed-8251-37fdba81f30f
-firstPublishExternalDate: 2018-07-23T05:58:32.748-0400
+discoiquuid: c6357bb1-857f-4a67-877d-07a19831c57c
+firstPublishExternalDate: 2018-09-07T14:56:43.567-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 46.445-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Setting up image properties
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T08:13:44.229-0400
-lochandoffdate: 2018-07-26T02 53 46.741-0400
+lastPublishExternalDate: 2018-09-07T14:56:43.567-0400
+lochandoffdate: 2018-09-10T07 24 53.870-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Setting up image properties
-publishexternaldate: 2018-07-23T08 13 44.229-0400
+publishexternaldate: 2018-09-07T14 56 43.567-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/setting-up-image-properties.html
-sha1: 520849f7e0ddd2dce201d60af55c13c09e6290a3
-topicBrowsingSortDate: 2018-07-23T08:13:44.229-0400
+sha1: e6aa750b96291397e9885a9aa4f3c2c161704a41
+topicBrowsingSortDate: 2018-09-07T14:56:43.567-0400
 index: y
 internal: n
 snippet: y

@@ -3,13 +3,13 @@ title: About audiences
 seo-title: About audiences
 description: About audiences
 seo-description: Learn how to build audiences from a query, a list or a file, and how to import them from Adobe Experience Cloud.
-uuid: 94683707-172b-4b97-b267-d3e792222d32
+uuid: 1579bba7-b408-41ca-bd52-779b829f183f
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/audiences/using/about-audiences
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 13.102-0400
-cq-lastreplicated: 2018-07-23T05 55 24.690-0400
+cq-lastmodified: 2018-09-10T07 22 50.159-0400
+cq-lastreplicated: 2018-09-07T14 45 53.631-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 cq-template: /apps/help/templates/article-3
-discoiquuid: 6527f836-de75-401c-8da9-7c1cdee0f99b
-firstPublishExternalDate: 2018-07-23T05:55:24.652-0400
+discoiquuid: 92078bf7-0ad8-4c2f-b8b1-a0e44421ee5b
+firstPublishExternalDate: 2018-09-07T14:45:51.489-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 23.017-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: About audiences
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:55:24.652-0400
-lochandoffdate: 2018-07-25T09 29 13.101-0400
+lastPublishExternalDate: 2018-09-07T14:45:51.489-0400
+lochandoffdate: 2018-09-10T07 22 50.157-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About audiences
-publishexternaldate: 2018-07-23T05 55 24.652-0400
+publishexternaldate: 2018-09-07T14 45 51.489-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/audiences/using/about-audiences.html
-sha1: 0fd5e821a667742e8e3a6189fed6f951479497e9
-topicBrowsingSortDate: 2018-07-23T05:55:24.652-0400
+sha1: 44d13c6e0f8101e4e1db9155df9f55c7a2ae2d12
+topicBrowsingSortDate: 2018-09-07T14:45:51.489-0400
 index: y
 internal: n
 snippet: y

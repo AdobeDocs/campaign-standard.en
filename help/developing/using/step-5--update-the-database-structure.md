@@ -1,15 +1,15 @@
 ---
-title: "Step 5: Update the database structure"
-seo-title: "Step 5: Update the database structure"
-description: "Step 5: Update the database structure"
+title: Step 5: Update the database structure
+seo-title: Step 5: Update the database structure
+description: Step 5: Update the database structure
 seo-description: Discover how to update the Adobe Campaign database.
-uuid: 0753a267-1841-4ce1-bc4e-8c0ed5d3f2df
+uuid: 168d4d6e-329b-47ba-b72c-18978037d954
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/developing/using/step-5--update-the-database-structure
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-26T02 53 32.667-0400
-cq-lastreplicated: 2018-07-23T05 59 11.815-0400
+cq-lastmodified: 2018-09-10T02 19 00.675-0400
+cq-lastreplicated: 2018-09-07T14 53 58.784-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 cq-template: /apps/help/templates/article-3
-discoiquuid: 09f8ba6d-e828-46a2-b3aa-aa4bd08ac0cc
-firstPublishExternalDate: 2018-07-23T05:59:11.768-0400
+discoiquuid: 85f60f69-4d50-4e0c-8edf-20f4b52fdbac
+firstPublishExternalDate: 2018-09-07T14:53:56.680-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 03 02.614-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Step 5  Update the database structure
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:59:11.768-0400
-lochandoffdate: 2018-07-26T02 53 32.666-0400
+lastPublishExternalDate: 2018-09-07T14:53:56.680-0400
+lochandoffdate: 2018-09-10T02 19 00.674-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
-navTitle: "Step 5: Update the database structure"
-publishexternaldate: 2018-07-23T05 59 11.768-0400
+navTitle: Step 5: Update the database structure
+publishexternaldate: 2018-09-07T14 53 56.680-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/step-5--update-the-database-structure.html
-sha1: e7604cff12976ec26f7a030c618546b81441260b
-topicBrowsingSortDate: 2018-07-23T05:59:11.768-0400
+sha1: cc92342c734ad5d24835c97beeb783cbf5da1eaf
+topicBrowsingSortDate: 2018-09-07T14:53:56.680-0400
 index: y
 internal: n
 snippet: y
@@ -62,18 +62,18 @@ To apply the changes carried out on the resources, you must perform a database u
 
    ![](assets/schema_extension_12.png)
 
-2. By default, the option **Determine modifications since the last publication** is checked, which means that only the changes carried out since the last update will be applied.
+1. By default, the option **Determine modifications since the last publication** is checked, which means that only the changes carried out since the last update will be applied.
 
    >[!NOTE]
    >
    >The **Repair database structure** reestablishes a correct configuration if the publication failed before completing. Any modification that was carried out directly in the database and not using custom resources will be deleted.
 
-3. Click the **Prepare publication** button to start the analysis.
+1. Click the **Prepare publication** button to start the analysis.
 
    ![](assets/schema_extension_13.png)
 
-4. Once the publication has been carried out, click the **Publish** button to apply your new configurations.
-5. Once published, the **Summary** pane of each resource indicates that the status is now **Published** and specifies the date of the last publication.
+1. Once the publication has been carried out, click the **Publish** button to apply your new configurations.
+1. Once published, the **Summary** pane of each resource indicates that the status is now **Published** and specifies the date of the last publication.
 
    >[!NOTE]
    >

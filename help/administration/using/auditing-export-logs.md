@@ -3,13 +3,13 @@ title: Auditing export logs
 seo-title: Auditing export logs
 description: Auditing export logs
 seo-description: Administrators can track the exports that were made from Adobe Campaign.
-uuid: 3cf6f9e9-4960-4bf7-bafb-3bad639fff8f
+uuid: d26ee5b5-8652-4a43-a3b4-b48854141d72
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/auditing-export-logs
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 16.593-0400
-cq-lastreplicated: 2018-07-23T05 53 28.208-0400
+cq-lastmodified: 2018-09-10T07 23 23.481-0400
+cq-lastreplicated: 2018-09-07T14 41 47.520-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: administration
 content-type: reference
 topic-tags: users-e-security
 cq-template: /apps/help/templates/article-3
-discoiquuid: cf47f744-db8a-4946-ab03-07673ffc1454
-firstPublishExternalDate: 2018-07-23T05:53:28.172-0400
+discoiquuid: 81845813-ac43-474e-8396-0b8f637d3bc2
+firstPublishExternalDate: 2018-09-07T14:41:47.098-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-02-16T08 01 42.112-0500
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Auditing export logs
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:53:28.172-0400
-lochandoffdate: 2018-07-25T09 29 16.593-0400
+lastPublishExternalDate: 2018-09-07T14:41:47.098-0400
+lochandoffdate: 2018-09-10T07 23 23.479-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Auditing export logs
-publishexternaldate: 2018-07-23T05 53 28.172-0400
+publishexternaldate: 2018-09-07T14 41 47.098-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/auditing-export-logs.html
-sha1: 93fcd2ac18a9d4bfb86a083f3dd32ee1e5047005
-topicBrowsingSortDate: 2018-07-23T05:53:28.172-0400
+sha1: 004665a334e90b1374f9edbb2622f7a4d4e1531c
+topicBrowsingSortDate: 2018-09-07T14:41:47.098-0400
 index: y
 internal: n
 snippet: y

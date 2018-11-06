@@ -3,13 +3,13 @@ title: Indicator calculation
 seo-title: Indicator calculation
 description: Indicator calculation
 seo-description: Understand the results of your reports with a list of every metric's formula.
-uuid: 6ce55182-1094-4458-be53-5e69ab2bd5b9
+uuid: 8da68d13-c722-41d4-9034-71d865c4684a
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/reporting/using/indicator-calculation
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-27T03 26 34.583-0400
-cq-lastreplicated: 2018-07-23T06 00 11.940-0400
+cq-lastmodified: 2018-09-10T02 18 43.667-0400
+cq-lastreplicated: 2018-09-07T15 03 21.992-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: reporting
 content-type: reference
 topic-tags: about-reporting
 cq-template: /apps/help/templates/article-3
-discoiquuid: edc492c2-afd3-4750-afee-0c9179766fd4
-firstPublishExternalDate: 2018-07-23T06:00:11.871-0400
+discoiquuid: 45d6bcc8-6ca5-4bdf-a5b7-c37cace9e74c
+firstPublishExternalDate: 2018-09-07T15:03:19.185-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 03 01.935-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Indicator calculation
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:00:11.871-0400
-lochandoffdate: 2018-07-27T03 26 34.582-0400
+lastPublishExternalDate: 2018-09-07T15:03:19.185-0400
+lochandoffdate: 2018-09-10T02 18 43.667-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Indicator calculation
-publishexternaldate: 2018-07-23T06 00 11.871-0400
+publishexternaldate: 2018-09-07T15 03 19.185-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/indicator-calculation.html
-sha1: 547152df9099b3faf7fdbc7bec421e9e3a686331
-topicBrowsingSortDate: 2018-07-23T06:00:11.871-0400
+sha1: 2ad61f3ca9cb86d54fb414d7191e4731e0e7bf8d
+topicBrowsingSortDate: 2018-09-07T15:03:19.185-0400
 index: y
 internal: n
 snippet: y

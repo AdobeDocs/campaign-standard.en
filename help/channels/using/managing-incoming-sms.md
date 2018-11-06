@@ -3,13 +3,13 @@ title: Managing incoming SMS
 seo-title: Managing incoming SMS
 description: Managing incoming SMS
 seo-description: Learn how to manage STOP SMS and store incoming SMS in Adobe Campaign.
-uuid: e708806f-887a-4720-bbc1-a8fd45302be8
+uuid: c4bf2ed8-c496-4dee-a07d-22af8060ebd3
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/managing-incoming-sms
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-30T04 53 53.745-0400
-cq-lastreplicated: 2018-07-23T06 02 48.090-0400
+cq-lastmodified: 2018-09-08T08 23 08.153-0400
+cq-lastreplicated: 2018-09-07T15 11 50.501-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: channels
 content-type: reference
 topic-tags: sms-messages
 cq-template: /apps/help/templates/article-3
-discoiquuid: 9bcca2aa-0b03-4219-8673-0b0270dc2b3a
-firstPublishExternalDate: 2018-07-23T06:02:47.995-0400
+discoiquuid: 09746903-2b6b-454b-b9a0-c421beb092c5
+firstPublishExternalDate: 2018-09-07T15:11:50.458-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 14.075-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Managing incoming SMS
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:02:47.995-0400
-lochandoffdate: 2018-07-30T04 53 53.745-0400
+lastPublishExternalDate: 2018-09-07T15:11:50.458-0400
+lochandoffdate: 2018-09-08T08 23 08.153-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Managing incoming SMS
-publishexternaldate: 2018-07-23T06 02 47.995-0400
+publishexternaldate: 2018-09-07T15 11 50.458-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/managing-incoming-sms.html
-sha1: 5d098355068fdf00f8eaf19c12f2624f5eec7f57
-topicBrowsingSortDate: 2018-07-23T06:02:47.995-0400
+sha1: ee1bd251d19a46bf4c6bf05512fb89b7fc2047a8
+topicBrowsingSortDate: 2018-09-07T15:11:50.458-0400
 index: y
 internal: n
 snippet: y

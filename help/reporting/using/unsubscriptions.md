@@ -3,13 +3,13 @@ title: Unsubscriptions
 seo-title: Unsubscriptions
 description: Unsubscriptions
 seo-description: With the Unsubscriptions out-of-the-box report, learn how many times customers unsubscribed to your deliveries.
-uuid: be3856c1-4f15-4697-9b42-57ffebae95e6
+uuid: 49d034c9-1d76-44cd-91c1-a275450b0310
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/reporting/using/unsubscriptions
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-27T03 27 07.351-0400
-cq-lastreplicated: 2018-07-23T06 00 23.289-0400
+cq-lastmodified: 2018-09-10T02 19 08.165-0400
+cq-lastreplicated: 2018-09-07T15 08 34.133-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 cq-template: /apps/help/templates/article-3
-discoiquuid: e77faf31-78be-41d4-804a-ca146f8f87b7
-firstPublishExternalDate: 2018-07-23T06:00:23.232-0400
+discoiquuid: 24def2ad-23db-4494-a6e9-e7f64fcf6274
+firstPublishExternalDate: 2018-09-07T15:08:34.032-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 30.220-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Unsubscriptions
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:00:23.232-0400
-lochandoffdate: 2018-07-27T03 27 07.349-0400
+lastPublishExternalDate: 2018-09-07T15:08:34.032-0400
+lochandoffdate: 2018-09-10T02 19 08.164-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Unsubscriptions
-publishexternaldate: 2018-07-23T06 00 23.232-0400
+publishexternaldate: 2018-09-07T15 08 34.032-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/unsubscriptions.html
-sha1: e77426a675eda56add3a2e74aefb071339f3fb5a
-topicBrowsingSortDate: 2018-07-23T06:00:23.232-0400
+sha1: 5f4959f5f32337f47b86234a90e5f55588a31882
+topicBrowsingSortDate: 2018-09-07T15:08:34.032-0400
 index: y
 internal: n
 snippet: y

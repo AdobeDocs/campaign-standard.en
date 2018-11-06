@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="2018-07-30T04:53:53.745-0400" name="cq:lastModified" />
-  <meta content="sauviat" name="contentOwner" />
+  <meta content="2018-09-07T15:11:50.458-0400" name="publishExternalDate" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-09-07T15:11:50.501-0400" name="cq:lastReplicated" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2018-09-08T08:23:08.153-0400" name="cq:lastModified" />
   <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="196861fa-403a-4af0-bc5c-bb241872a267" name="jcr:predecessors" />
-  <meta content="2018-07-23T06:02:48.090-0400" name="cq:lastReplicated" />
+  <meta content="audience:channels" name="primaryAudienceTag" />
+  <meta content="light" name="heroGradient" />
   <meta content="Managing incoming SMS" name="jcr:title" />
   <meta content="products:SG_CAMPAIGN/STANDARD;audience:channels;content_type:reference;topic_tags:sms-messages" name="cq:tags" />
-  <meta content="light" name="heroGradient" />
-  <meta content="https://helpx.adobe.com/campaign/standard/channels/using/managing-incoming-sms.html" name="publishExternalURL" />
-  <meta content="2018-03-15T09:02:14.075-0400" name="jcr:created" />
-  <meta content="2018-07-23T06:02:47.995-0400" name="topicBrowsingSortDate" />
-  <meta content="Managing incoming SMS" name="jcr:description" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="2018-07-23T06:02:47.995-0400" name="publishExternalDate" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="2018-07-23T06:02:47.995-0400" name="lastPublishExternalDate" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="audience:channels" name="primaryAudienceTag" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="Learn how to manage STOP SMS and store incoming SMS in Adobe Campaign." name="seoDescription" />
   <meta content="" name="jcr:primaryType" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="2018-07-30T04:53:53.745-0400" name="locHandOffDate" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="2018-07-23T06:02:47.995-0400" name="firstPublishExternalDate" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="https://helpx.adobe.com/campaign/standard/channels/using/managing-incoming-sms.html" name="publishExternalURL" />
   <meta content="Managing incoming SMS" name="navTitle" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="" name="jcr:baseVersion" />
   <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Managing incoming SMS" name="jcr:description" />
+  <meta content="2018-09-07T15:11:50.458-0400" name="topicBrowsingSortDate" />
+  <meta content="2018-09-07T15:11:50.458-0400" name="lastPublishExternalDate" />
+  <meta content="Learn how to manage STOP SMS and store incoming SMS in Adobe Campaign." name="seoDescription" />
+  <meta content="admin" name="jcr:createdBy" />
   <meta content="2e45ce81-67f9-4b57-b3f6-4f476859b77b" name="jcr:uuid" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-09-07T15:11:50.458-0400" name="firstPublishExternalDate" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2018-03-15T09:02:14.075-0400" name="jcr:created" />
+  <meta content="196861fa-403a-4af0-bc5c-bb241872a267" name="jcr:predecessors" />
+  <meta content="2018-09-08T08:23:08.153-0400" name="locHandOffDate" />
  </head>
  <body>
   <h2>Managing STOP SMS</h2>

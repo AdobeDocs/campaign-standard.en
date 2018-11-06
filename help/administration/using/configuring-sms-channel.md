@@ -2,14 +2,14 @@
 title: Configuring SMS channel
 seo-title: Configuring SMS channel
 description: Configuring SMS channel
-seo-description: "Find out the SMS configuration steps: routing, encoding, formats and advanced properties. "
-uuid: dd998ed6-256c-4812-a48f-ea61371b3a33
+seo-description: Find out the SMS configuration steps: routing, encoding, formats and advanced properties. 
+uuid: 6b48bf1f-0a19-49b0-9fde-800388e51bfe
 content-encoding: UTF-8
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/configuring-sms-channel
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 22.749-0400
-cq-lastreplicated: 2018-07-23T05 53 37.096-0400
+cq-lastmodified: 2018-09-10T07 24 06.381-0400
+cq-lastreplicated: 2018-09-07T14 44 25.595-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 cq-template: /apps/help/templates/article-3
-discoiquuid: 676eb088-2a68-42ee-b73c-c6215c304c72
-firstPublishExternalDate: 2018-07-23T05:53:37.044-0400
+discoiquuid: 70ddb152-976a-4301-83cb-7beb4757ab94
+firstPublishExternalDate: 2018-09-07T14:44:23.302-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-02-16T08 03 05.464-0500
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Configuring SMS channel
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:53:37.044-0400
-lochandoffdate: 2018-07-25T09 29 22.749-0400
+lastPublishExternalDate: 2018-09-07T14:44:23.302-0400
+lochandoffdate: 2018-09-10T07 24 06.379-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Configuring SMS channel
-publishexternaldate: 2018-07-23T05 53 37.044-0400
+publishexternaldate: 2018-09-07T14 44 23.302-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/configuring-sms-channel.html
-sha1: 17fc484536d210ecfaa5244934d4103c4818d33c
-topicBrowsingSortDate: 2018-07-23T05:53:37.044-0400
+sha1: a85cf8fecbb5d0a471705ad1f0954e76ec191c3b
+topicBrowsingSortDate: 2018-09-07T14:44:23.302-0400
 index: y
 internal: n
 snippet: y
@@ -132,24 +132,170 @@ This section presents the characters taken into account by the GSM standard. All
 
 **Basic characters**
 
-|||||||||
-|--- |--- |--- |--- |--- |--- |--- |--- |
-|@||SP|0|¡|P|¿|P|
-|£|_|!|1|A|Q|a|q|
-|$||"|2|B|R|b|r|
-|¥||#|3|C|S|c|s|
-|è||¤|4|D|T|d|t|
-|é||%|5|E|U|e|u|
-|ù||&|6|F|V|f|v|
-|ì||'|7|G|W|g|w|
-|ò||(|8|H|X|h|x|
-|Ç||)|9|I|Y|i|y|
-|LF||*|:|J|Z|j|z|
-|Ø|ESC|+|;|K|Ä|k|ä|
-|ø|Æ|,|<|L|Ö|l|ö|
-|CR|æ|-|=|M|Ñ|m|ñ|
-|Å|ß|.|>|N|Ü|n|ü|
-|å|É|/|?|O|§|o|à|
+<table> 
+ <tbody> 
+  <tr> 
+   <td> @<br /> </td> 
+   <td> <img height="21px" src="assets/delta.png" /> <br /> </td> 
+   <td> SP<br /> </td> 
+   <td> 0<br /> </td> 
+   <td> ¡<br /> </td> 
+   <td> P<br /> </td> 
+   <td> ¿<br /> </td> 
+   <td> P<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> £<br /> </td> 
+   <td> _<br /> </td> 
+   <td> !<br /> </td> 
+   <td> 1<br /> </td> 
+   <td> A<br /> </td> 
+   <td> Q<br /> </td> 
+   <td> a<br /> </td> 
+   <td> q<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> $<br /> </td> 
+   <td> <img height="21px" src="assets/phi.png" /> <br /> </td> 
+   <td> "<br /> </td> 
+   <td> 2<br /> </td> 
+   <td> B<br /> </td> 
+   <td> R<br /> </td> 
+   <td> b<br /> </td> 
+   <td> r<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> ¥<br /> </td> 
+   <td> <img height="21px" src="assets/gamma.png" /> <br /> </td> 
+   <td> #<br /> </td> 
+   <td> 3<br /> </td> 
+   <td> C<br /> </td> 
+   <td> S<br /> </td> 
+   <td> c<br /> </td> 
+   <td> s<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> è<br /> </td> 
+   <td> <img height="21px" src="assets/delta.png" /> <br /> </td> 
+   <td> ¤<br /> </td> 
+   <td> 4<br /> </td> 
+   <td> D<br /> </td> 
+   <td> T<br /> </td> 
+   <td> d<br /> </td> 
+   <td> t<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> é<br /> </td> 
+   <td> <img height="21px" src="assets/omega.png" /> <br /> </td> 
+   <td> %<br /> </td> 
+   <td> 5<br /> </td> 
+   <td> E<br /> </td> 
+   <td> U<br /> </td> 
+   <td> e<br /> </td> 
+   <td> u<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> ù<br /> </td> 
+   <td> <img height="21px" src="assets/pi.png" /> <br /> </td> 
+   <td> &amp;<br /> </td> 
+   <td> 6<br /> </td> 
+   <td> F<br /> </td> 
+   <td> V<br /> </td> 
+   <td> f<br /> </td> 
+   <td> v<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> ì<br /> </td> 
+   <td> <img height="21px" src="assets/psi.png" /> <br /> </td> 
+   <td> '<br /> </td> 
+   <td> 7<br /> </td> 
+   <td> G<br /> </td> 
+   <td> W<br /> </td> 
+   <td> g<br /> </td> 
+   <td> w<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> ò<br /> </td> 
+   <td> <img height="21px" src="assets/sigma.png" /> <br /> </td> 
+   <td> (<br /> </td> 
+   <td> 8<br /> </td> 
+   <td> H<br /> </td> 
+   <td> X<br /> </td> 
+   <td> h<br /> </td> 
+   <td> x<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Ç<br /> </td> 
+   <td> <img height="21px" src="assets/theta.png" /> <br /> </td> 
+   <td> )<br /> </td> 
+   <td> 9 </td> 
+   <td> I<br /> </td> 
+   <td> Y<br /> </td> 
+   <td> i<br /> </td> 
+   <td> y<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> LF<br /> </td> 
+   <td> <img height="21px" src="assets/xi.png" /> <br /> </td> 
+   <td> *<br /> </td> 
+   <td> :<br /> </td> 
+   <td> J<br /> </td> 
+   <td> Z<br /> </td> 
+   <td> j<br /> </td> 
+   <td> z<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Ø<br /> </td> 
+   <td> ESC<br /> </td> 
+   <td> +<br /> </td> 
+   <td> ;<br /> </td> 
+   <td> K<br /> </td> 
+   <td> Ä<br /> </td> 
+   <td> k<br /> </td> 
+   <td> ä<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> ø<br /> </td> 
+   <td> Æ<br /> </td> 
+   <td> ,<br /> </td> 
+   <td> &lt;<br /> </td> 
+   <td> L<br /> </td> 
+   <td> Ö<br /> </td> 
+   <td> l<br /> </td> 
+   <td> ö<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> CR<br /> </td> 
+   <td> æ<br /> </td> 
+   <td> -<br /> </td> 
+   <td> = </td> 
+   <td> M<br /> </td> 
+   <td> Ñ<br /> </td> 
+   <td> m<br /> </td> 
+   <td> ñ<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Å<br /> </td> 
+   <td> ß<br /> </td> 
+   <td> .<br /> </td> 
+   <td> &gt;<br /> </td> 
+   <td> N<br /> </td> 
+   <td> Ü<br /> </td> 
+   <td> n<br /> </td> 
+   <td> ü<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> å<br /> </td> 
+   <td> É<br /> </td> 
+   <td> /<br /> </td> 
+   <td> ?<br /> </td> 
+   <td> O<br /> </td> 
+   <td> §<br /> </td> 
+   <td> o<br /> </td> 
+   <td> à<br /> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 SP: Space
 
@@ -228,6 +374,7 @@ The specific parameters for sending SMS messages are regrouped in the **Send** a
 
 * The **Transmission mode** field allows you to determine the delivery method for SMS messages:
 
-  * **Saved on SIM card**: the message is stored on the recipient's telephone SIM card.
-  * **Saved on mobile**: the message is stored on the telephone's internal memory.
-  * **Flash**: the message is displayed on the recipient's mobile telephone as a notification, then it disappears without being saved.
+    * **Saved on SIM card**: the message is stored on the recipient's telephone SIM card.
+    * **Saved on mobile**: the message is stored on the telephone's internal memory.
+    * **Flash**: the message is displayed on the recipient's mobile telephone as a notification, then it disappears without being saved.
+

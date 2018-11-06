@@ -3,13 +3,13 @@ title: Monitoring subscriptions
 seo-title: Monitoring subscriptions
 description: Monitoring subscriptions
 seo-description: Learn how to track your subscribers and measure the success of your services using dashboards and reports.
-uuid: 50756bf3-784c-4f5d-bc56-d2926455d370
+uuid: c12ba844-b8a9-4c9b-b862-7114e19a78e0
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/audiences/using/monitoring-subscriptions
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 18.820-0400
-cq-lastreplicated: 2018-07-23T05 55 32.136-0400
+cq-lastmodified: 2018-09-10T07 23 31.349-0400
+cq-lastreplicated: 2018-09-07T14 51 59.136-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
 cq-template: /apps/help/templates/article-3
-discoiquuid: 33a0e915-6774-44a9-bc80-ea74bbdb3ab7
-firstPublishExternalDate: 2018-07-23T05:55:32.001-0400
+discoiquuid: 57abb2ab-2367-4cbb-b04f-974c7d36a51e
+firstPublishExternalDate: 2018-09-07T14:51:56.668-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 45.898-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Monitoring subscriptions
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:55:32.001-0400
-lochandoffdate: 2018-07-25T09 29 18.820-0400
+lastPublishExternalDate: 2018-09-07T14:51:56.668-0400
+lochandoffdate: 2018-09-10T07 23 31.347-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Monitoring subscriptions
-publishexternaldate: 2018-07-23T05 55 32.001-0400
+publishexternaldate: 2018-09-07T14 51 56.668-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/audiences/using/monitoring-subscriptions.html
-sha1: be97c205e76042f6bc35332d7a7d6f20d74f8b7a
-topicBrowsingSortDate: 2018-07-23T05:55:32.001-0400
+sha1: 7d1451112dc75993285f4ff4a1b217f1411d5896
+topicBrowsingSortDate: 2018-09-07T14:51:56.668-0400
 index: y
 internal: n
 snippet: y

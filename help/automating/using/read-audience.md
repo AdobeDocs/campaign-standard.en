@@ -3,13 +3,13 @@ title: Read audience
 seo-title: Read audience
 description: Read audience
 seo-description: The Read audience activity allows you to retrieve an existing audience and to refine it by applying additional filtering conditions.
-uuid: 8b69d59d-aa30-49fb-a677-57e5a83cbb2c
+uuid: f550c7d3-7289-4ced-9151-efedefd79a70
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/read-audience
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 28.812-0400
-cq-lastreplicated: 2018-07-23T05 57 05.960-0400
+cq-lastmodified: 2018-09-10T07 25 17.168-0400
+cq-lastreplicated: 2018-09-07T14 55 03.078-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: 46fee538-8684-49ae-933d-a8e29b39a6b4
-firstPublishExternalDate: 2018-07-23T05:57:05.900-0400
+discoiquuid: 947a02bc-622b-4f05-907e-bbeef8b19633
+firstPublishExternalDate: 2018-09-07T14:55:01.062-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 29.492-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Read audience
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:57:05.900-0400
-lochandoffdate: 2018-07-25T09 29 28.811-0400
+lastPublishExternalDate: 2018-09-07T14:55:01.062-0400
+lochandoffdate: 2018-09-10T07 25 17.166-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Read audience
-publishexternaldate: 2018-07-23T05 57 05.900-0400
+publishexternaldate: 2018-09-07T14 55 01.062-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/read-audience.html
-sha1: 5532500ad7ee57d9435369e860bcd3e9e77c089d
-topicBrowsingSortDate: 2018-07-23T05:57:05.900-0400
+sha1: b77ab5c036e7bee15b2c7f3791e14357e0a34dde
+topicBrowsingSortDate: 2018-09-07T14:55:01.062-0400
 index: y
 internal: n
 snippet: y

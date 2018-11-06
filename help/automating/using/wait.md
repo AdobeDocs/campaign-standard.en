@@ -3,13 +3,13 @@ title: Wait
 seo-title: Wait
 description: Wait
 seo-description: The Wait activity momentarily suspends executing a part of a workflow.
-uuid: e15b3aa6-e284-4b9d-8ea9-a801d4a61e44
+uuid: 66f7c82c-fc94-4ec4-8729-fb5bcd021f62
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/wait
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 37.962-0400
-cq-lastreplicated: 2018-07-23T05 57 16.490-0400
+cq-lastmodified: 2018-09-10T07 26 32.226-0400
+cq-lastreplicated: 2018-09-07T15 01 24.197-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: e667d986-68b3-494c-874d-09b466ef1bd1
-firstPublishExternalDate: 2018-07-23T05:57:16.449-0400
+discoiquuid: d2fd7356-20f9-496f-9f26-b4069217fbd3
+firstPublishExternalDate: 2018-09-07T15:01:20.396-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 35.929-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Wait
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:57:16.449-0400
-lochandoffdate: 2018-07-25T09 29 37.961-0400
+lastPublishExternalDate: 2018-09-07T15:01:20.396-0400
+lochandoffdate: 2018-09-10T07 26 32.224-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Wait
-publishexternaldate: 2018-07-23T05 57 16.449-0400
+publishexternaldate: 2018-09-07T15 01 20.396-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/wait.html
-sha1: d064723a9dad805bde34e4a7aeb697d5e27403d9
-topicBrowsingSortDate: 2018-07-23T05:57:16.449-0400
+sha1: e50a51aa6fc61eb2b0b03cbc61eb0acc3093139f
+topicBrowsingSortDate: 2018-09-07T15:01:20.396-0400
 index: y
 internal: n
 snippet: y

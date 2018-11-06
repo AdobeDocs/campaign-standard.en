@@ -1,40 +1,41 @@
 <html>
  <head>
+  <meta content="https://helpx.adobe.com/campaign/standard/designing/using/sms-and-push-content-editor-interface.html" name="publishExternalURL" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="SMS and push content editor interface" name="jcr:title" />
+  <meta content="light" name="heroGradient" />
+  <meta content="bce50c57-ab97-45ef-8b6c-deadbc8c19f2" name="jcr:predecessors" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="SMS and push content editor interface" name="jcr:description" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="2018-09-07T14:53:19.499-0400" name="publishExternalDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="audience:designing" name="primaryAudienceTag" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
   <meta content="2018-07-23T07:30:15.965-0400" name="jcr:created" />
-  <meta content="2018-07-26T02:53:38.748-0400" name="cq:lastModified" />
   <meta content="SMS and push content editor interface" name="navTitle" />
   <meta content="sauviat" name="contentOwner" />
-  <meta content="2018-07-26T02:53:38.747-0400" name="locHandOffDate" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="Learn how to use the different sections of the editor to modify your SMS and push content." name="seoDescription" />
-  <meta content="2018-07-23T08:13:36.433-0400" name="topicBrowsingSortDate" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:editing-sms-and-push-content" name="cq:tags" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="light" name="heroGradient" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="2018-07-23T08:13:36.485-0400" name="cq:lastReplicated" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="https://helpx.adobe.com/campaign/standard/designing/using/sms-and-push-content-editor-interface.html" name="publishExternalURL" />
-  <meta content="2018-07-23T08:13:36.433-0400" name="publishExternalDate" />
-  <meta content="SMS and push content editor interface" name="jcr:title" />
-  <meta content="SMS and push content editor interface" name="jcr:description" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
   <meta content="be434207-aea5-4a53-a2ec-5ab14d24a32f" name="jcr:uuid" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="bce50c57-ab97-45ef-8b6c-deadbc8c19f2" name="jcr:predecessors" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-09-07T14:53:19.499-0400" name="topicBrowsingSortDate" />
   <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-09-10T07:24:14.894-0400" name="cq:lastModified" />
+  <meta content="2018-09-10T07:24:14.892-0400" name="locHandOffDate" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-09-07T14:53:21.434-0400" name="cq:lastReplicated" />
+  <meta content="2018-09-07T14:53:19.499-0400" name="lastPublishExternalDate" />
+  <meta content="" name="jcr:versionHistory" />
   <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="2018-07-23T05:58:15.930-0400" name="firstPublishExternalDate" />
-  <meta content="audience:designing" name="primaryAudienceTag" />
-  <meta content="2018-07-23T08:13:36.433-0400" name="lastPublishExternalDate" />
+  <meta content="2018-09-07T14:53:19.499-0400" name="firstPublishExternalDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:editing-sms-and-push-content" name="cq:tags" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="Learn how to use the different sections of the editor to modify your SMS and push content." name="seoDescription" />
+  <meta content="/content/help/en/campaign/standard/designing/morehelp/editing-sms-and-push-content;/content/help/en/campaign/standard/designing/morehelp/editing-sms-and-push-content" name="moreHelpPaths" />
  </head>
  <body>
   <p>The SMS and push content editor is organized into two different sections that allow you to view and edit the message.</p> 
@@ -55,46 +56,46 @@
    </thead> 
    <tbody> 
     <tr> 
-     <td> </td> 
+     <td> <img height="21px" src="assets/viewon_darkgrey-24px.png" /> <br /> </td> 
      <td> <strong>Preview</strong><br /> </td> 
      <td> Only SMS<br /> </td> 
      <td> Allows you to view how the email is rendered for a recipient. See <a href="../../sending/using/previewing-messages.md">Previewing messages</a>.<br /> </td> 
     </tr> 
     <tr> 
-     <td> </td> 
+     <td> <img height="21px" src="assets/undo_darkgrey-24px.png" /> <br /> </td> 
      <td> <strong>Undo</strong><br /> </td> 
      <td> SMS and push<br /> </td> 
      <td> Cancels the last action carried out.<br /> </td> 
     </tr> 
     <tr> 
-     <td> </td> 
+     <td> <img height="21px" src="assets/redo_darkgrey-24px.png" /> <br /> </td> 
      <td> <strong>Redo</strong><br /> </td> 
      <td> SMS and push<br /> </td> 
      <td> Redoes the last action that you canceled.<br /> </td> 
     </tr> 
     <tr> 
-     <td> </td> 
+     <td> <img height="21px" src="assets/personalization_field_darkgrey-24px.png" /> <br /> </td> 
      <td> <strong>Insert personalization field</strong><br /> </td> 
      <td> SMS and push<br /> </td> 
-     <td> Allows you to add a field from the database to the content. See <a href="../../designing/using/inserting-a-personalization-field.md" target="_blank">Inserting a personalization field</a>. </td> 
+     <td> Allows you to add a field from the database to the content. See <a href="../../designing/using/inserting-a-personalization-field.md" target="_blank">Inserting a personalization field</a>.<br /> </td> 
     </tr> 
     <tr> 
-     <td> </td> 
+     <td> <img height="21px" src="assets/personalization_block_darkgrey-24px.png" /> <br /> </td> 
      <td> <strong>Insert content block</strong><br /> </td> 
      <td> SMS and push<br /> </td> 
-     <td> Allows you to add a personalization block to the content. See <a href="../../designing/using/adding-a-content-block.md" target="_blank">Adding a content block</a>. </td> 
+     <td> Allows you to add a personalization block to the content. See <a href="../../designing/using/adding-a-content-block.md" target="_blank">Adding a content block</a>.<br /> </td> 
     </tr> 
     <tr> 
-     <td> </td> 
+     <td> <img height="21px" src="assets/DynamicContent_24px.png" /> <br /> </td> 
      <td> <strong>Enable dynamic text</strong><br /> </td> 
      <td> SMS and push<br /> </td> 
-     <td> Allows you to insert dynamic text in the content. See <a href="../../designing/using/defining-dynamic-text.md" target="_blank">Defining dynamic text</a>. </td> 
+     <td> Allows you to insert dynamic text in the content. See <a href="../../designing/using/defining-dynamic-text.md" target="_blank">Defining dynamic text</a>.<br /> </td> 
     </tr> 
     <tr> 
-     <td> <br /> </td> 
+     <td> <img height="21px" src="assets/DynamicContentDisable_24px.png" /> <br /> </td> 
      <td> <strong>Disable dynamic text</strong><br /> </td> 
-     <td> SMS and push </td> 
-     <td> Allows you to delete dynamic text. </td> 
+     <td> SMS and push<br /> </td> 
+     <td> Allows you to delete dynamic text.<br /> </td> 
     </tr> 
    </tbody> 
   </table>

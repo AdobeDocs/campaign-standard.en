@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="2018-07-23T06:00:17.125-0400" name="cq:lastReplicated" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2018-09-10T02:18:55.686-0400" name="cq:lastModified" />
+  <meta content="2018-09-07T15:07:39.986-0400" name="lastPublishExternalDate" />
+  <meta content="light" name="heroGradient" />
   <meta content="72d1546d-2ea4-4629-84ca-ac8a0f9fa2ce" name="jcr:predecessors" />
+  <meta content="" name="jcr:baseVersion" />
   <meta content="en_us" name="jcr:language" />
-  <meta content="2018-07-23T06:00:17.068-0400" name="lastPublishExternalDate" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="45f41edf-c3a5-4494-ae0c-86cee6747211" name="jcr:uuid" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
   <meta content="Breakdown by domains" name="jcr:description" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="audience:reporting" name="primaryAudienceTag" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="With the Breakdown by domains out-of-the-box report, learn about the performance data of your deliveries depending on each of your customer's domain." name="seoDescription" />
+  <meta content="2018-09-07T15:07:40.646-0400" name="cq:lastReplicated" />
+  <meta content="Breakdown by domains" name="navTitle" />
+  <meta content="2018-09-07T15:07:39.986-0400" name="publishExternalDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="https://helpx.adobe.com/campaign/standard/reporting/using/breakdown-by-domains.html" name="publishExternalURL" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:versionHistory" />
   <meta content="Breakdown by domains" name="jcr:title" />
   <meta content="" name="jcr:primaryType" />
   <meta content="products:SG_CAMPAIGN/STANDARD;audience:reporting;content_type:reference;topic_tags:list-of-reports" name="cq:tags" />
   <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="https://helpx.adobe.com/campaign/standard/reporting/using/breakdown-by-domains.html" name="publishExternalURL" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="2018-07-27T03:26:50.020-0400" name="cq:lastModified" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="With the Breakdown by domains out-of-the-box report, learn about the performance data of your deliveries depending on each of your customer's domain." name="seoDescription" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-09-10T02:18:55.686-0400" name="locHandOffDate" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2018-09-07T15:07:39.986-0400" name="firstPublishExternalDate" />
+  <meta content="2018-09-07T15:07:39.986-0400" name="topicBrowsingSortDate" />
   <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="2018-07-23T06:00:17.068-0400" name="firstPublishExternalDate" />
-  <meta content="2018-07-23T06:00:17.068-0400" name="publishExternalDate" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="2018-07-27T03:26:50.019-0400" name="locHandOffDate" />
-  <meta content="2018-07-23T06:00:17.068-0400" name="topicBrowsingSortDate" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="Breakdown by domains" name="navTitle" />
-  <meta content="light" name="heroGradient" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="" name="jcr:baseVersion" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="45f41edf-c3a5-4494-ae0c-86cee6747211" name="jcr:uuid" />
   <meta content="2018-03-15T09:02:10.892-0400" name="jcr:created" />
-  <meta content="audience:reporting" name="primaryAudienceTag" />
  </head>
  <body>
   <p>This report contains the performance data for each domain represented in the audience for an email delivery. If it is a campaign or program report, the performance data is available for multiple audiences. This data allows you to analyze the behavior of each domain in reaction to specific events. For example, link display, URL blacklisting, etc.</p> 

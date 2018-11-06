@@ -3,14 +3,13 @@ title: Integrating with Experience Manager
 seo-title: Integrating with Experience Manager
 description: Integrating with Experience Manager
 seo-description: With the Adobe Experience Manager integration, you can create content directly in AEM and use it later on in Adobe Campaign.
-uuid: 5ffed55d-b25f-467f-8c96-2c0f71f93c0f
+uuid: 90fd8844-f205-4810-a2b4-63f1a991f751
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/integrating/using/integrating-with-experience-manager
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-27T03 26 21.292-0400
-cq-lastmodifiedby: mancini
-cq-lastreplicated: 2018-07-23T05 59 25.597-0400
+cq-lastmodified: 2018-09-10T02 18 35.936-0400
+cq-lastreplicated: 2018-09-07T14 58 35.221-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -18,8 +17,8 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
 cq-template: /apps/help/templates/article-3
-discoiquuid: 90025eeb-6573-4682-9d8d-b563a12ab85a
-firstPublishExternalDate: 2018-07-23T05:59:25.488-0400
+discoiquuid: f80ca6c0-0646-4e7f-988f-5122c453b5aa
+firstPublishExternalDate: 2018-09-07T14:58:33.418-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 38.293-0400
@@ -27,16 +26,15 @@ jcr-createdby: admin
 jcr-description: Integrating with Experience Manager
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:59:25.488-0400
-lochandoffdate: 2018-07-27T03 26 21.290-0400
+lastPublishExternalDate: 2018-09-07T14:58:33.418-0400
+lochandoffdate: 2018-09-10T02 18 35.935-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
-moreHelpPaths: /content/help/en/campaign/standard/integrating/morehelp/working-with-campaign-and-experience-manager;/content/help/en/campaign/standard/integrating/morehelp/working-with-campaign-and-experience-manager
 navTitle: Integrating with Experience Manager
-publishexternaldate: 2018-07-23T05 59 25.488-0400
+publishexternaldate: 2018-09-07T14 58 33.418-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/integrating-with-experience-manager.html
-sha1: 79aea449c908726ea3bdfc0234e28013a9e99754
-topicBrowsingSortDate: 2018-07-23T05:59:25.488-0400
+sha1: 295c9e715837205be236c3fe18c5a0b089e208b6
+topicBrowsingSortDate: 2018-09-07T14:58:33.418-0400
 index: y
 internal: n
 snippet: y

@@ -3,13 +3,13 @@ title: Bounce summary
 seo-title: Bounce summary
 description: Bounce summary
 seo-description: With the Bounce summary out-of-the-box report, learn about the status of your sent campaigns and errors they may have encountered.
-uuid: 2a2ff277-f8cf-426c-bd06-f6471df106a4
+uuid: 15bd8b54-0c96-43e0-8449-1b5ef1b6a094
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/reporting/using/bounce-summary
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-27T03 26 40.765-0400
-cq-lastreplicated: 2018-07-23T06 00 14.754-0400
+cq-lastmodified: 2018-09-10T02 18 48.187-0400
+cq-lastreplicated: 2018-09-07T15 06 36.119-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 cq-template: /apps/help/templates/article-3
-discoiquuid: febf659b-3786-48e7-8d63-cbc2dd8e60e8
-firstPublishExternalDate: 2018-07-23T06:00:14.715-0400
+discoiquuid: 6e6c0a48-edcb-4fd1-910f-ed24ba21ff70
+firstPublishExternalDate: 2018-09-07T15:06:34.759-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 37.395-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Bounce summary
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:00:14.715-0400
-lochandoffdate: 2018-07-27T03 26 40.764-0400
+lastPublishExternalDate: 2018-09-07T15:06:34.759-0400
+lochandoffdate: 2018-09-10T02 18 48.187-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Bounce summary
-publishexternaldate: 2018-07-23T06 00 14.715-0400
+publishexternaldate: 2018-09-07T15 06 34.759-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/bounce-summary.html
-sha1: 9590eaef16f0f83d21ab233c7c18e538377a3c99
-topicBrowsingSortDate: 2018-07-23T06:00:14.715-0400
+sha1: 7cd991c939ad6f7db112a52466649c440f95ff06
+topicBrowsingSortDate: 2018-09-07T15:06:34.759-0400
 index: y
 internal: n
 snippet: y

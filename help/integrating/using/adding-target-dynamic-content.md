@@ -3,14 +3,13 @@ title: Adding Target dynamic content
 seo-title: Adding Target dynamic content
 description: Adding Target dynamic content
 seo-description: Learn how to add Adobe Target dynamic content in one of your Adobe Campaign delivery.
-uuid: 88de6665-d409-4384-8a2f-1d348e9ea43f
+uuid: 85046dff-19b3-4779-837a-54a496eff076
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/integrating/using/adding-target-dynamic-content
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-27T03 26 33.457-0400
-cq-lastmodifiedby: mancini
-cq-lastreplicated: 2018-07-23T05 59 35.463-0400
+cq-lastmodified: 2018-09-10T02 18 43.443-0400
+cq-lastreplicated: 2018-09-07T15 02 19.372-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -18,8 +17,8 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
 cq-template: /apps/help/templates/article-3
-discoiquuid: 893ea99b-9838-490c-8c92-ab9c828bcff2
-firstPublishExternalDate: 2018-07-23T05:59:35.395-0400
+discoiquuid: 29b2b227-2255-4a4b-bb55-29fbd6d36ab1
+firstPublishExternalDate: 2018-09-07T15:02:16.375-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 23.314-0400
@@ -27,16 +26,15 @@ jcr-createdby: admin
 jcr-description: Adding Target dynamic content
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:59:35.395-0400
-lochandoffdate: 2018-07-27T03 26 33.456-0400
+lastPublishExternalDate: 2018-09-07T15:02:16.375-0400
+lochandoffdate: 2018-09-10T02 18 43.443-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
-moreHelpPaths: /content/help/en/campaign/standard/integrating/morehelp/working-with-campaign-and-target;/content/help/en/campaign/standard/integrating/morehelp/working-with-campaign-and-target
 navTitle: Adding Target dynamic content
-publishexternaldate: 2018-07-23T05 59 35.395-0400
+publishexternaldate: 2018-09-07T15 02 16.375-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/adding-target-dynamic-content.html
-sha1: f92cb9b280b110781f62b3101429fd4e823c6257
-topicBrowsingSortDate: 2018-07-23T05:59:35.395-0400
+sha1: a6df85547300f98c28890906279f58174d0e35a4
+topicBrowsingSortDate: 2018-09-07T15:02:16.375-0400
 index: y
 internal: n
 snippet: y

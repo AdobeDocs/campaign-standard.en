@@ -3,13 +3,13 @@ title: Advanced expression editing
 seo-title: Advanced expression editing
 description: Advanced expression editing
 seo-description: The query edition wizard allows you to define advanced expressions.
-uuid: 5fe10282-bf13-463a-bd46-a592ee65408e
+uuid: c70cb4db-d098-4f1b-b92a-c501f468b0e1
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/advanced-expression-editing
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 57.424-0400
-cq-lastreplicated: 2018-07-23T05 57 46.386-0400
+cq-lastmodified: 2018-09-10T07 28 55.068-0400
+cq-lastreplicated: 2018-09-07T15 08 52.687-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: automating
 content-type: reference
 topic-tags: filtering-data
 cq-template: /apps/help/templates/article-3
-discoiquuid: ceffd5bc-ba36-4086-82a7-b0b0b954b666
-firstPublishExternalDate: 2018-07-23T05:57:46.292-0400
+discoiquuid: ff8b8fb3-bff2-4ddc-b50e-a64291f40483
+firstPublishExternalDate: 2018-09-07T15:08:52.363-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 26.316-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Advanced expression editing
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:57:46.292-0400
-lochandoffdate: 2018-07-25T09 29 57.424-0400
+lastPublishExternalDate: 2018-09-07T15:08:52.363-0400
+lochandoffdate: 2018-09-10T07 28 55.067-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Advanced expression editing
-publishexternaldate: 2018-07-23T05 57 46.292-0400
+publishexternaldate: 2018-09-07T15 08 52.363-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/advanced-expression-editing.html
-sha1: 64fa365c417520ce48ce772820c494865296e097
-topicBrowsingSortDate: 2018-07-23T05:57:46.292-0400
+sha1: d65555be686eff8c6e433bb89ae3f2ebe965d426
+topicBrowsingSortDate: 2018-09-07T15:08:52.363-0400
 index: y
 internal: n
 snippet: y
@@ -150,16 +150,87 @@ For some rules, the query editor lets you chose a value to define your condition
 
 Conditions must be linked to values by using one of the following operators.
 
-|Operator|Standard syntax|JavaScript syntax|Description|Example|
-|--- |--- |--- |--- |--- |
-|Equal to|=|==|The first value must be completely identical to the second value.|@lastName = Martin retrieves profiles whose last name is 'Martin', with only these identical characters.|
-|Greater than|>|>|The first value must categorically be more than the second value.|@age > 50 retrieves profiles who are older than '50', so '51', '52', etc.|
-|Less than|<|<|The first value must categorically be less than the second value.|@created < DaysAgo(100) retrieves all profiles created in the database less than 100 days ago.|
-|Greater than or equal to|>=|>=|The first value must be more than or equal to the second value.|@age >= 30 retrieves profiles aged 30 years and older.|
-|Less than or equal to|<=|<=|The first value must be less than or equal to the second value.|@age <= 60 retrieves profiles aged 60 or less.|
-|Different|!=|!=|The first value must be different from the second value.|@language != English retrieves profiles that have not been defined as English speaking.|
-|Contains|IN|N/A|The first value must contain the second value.|@domain IN mail. Here, all the domain names with the 'mail' value are returned in the result. Consequently, the 'gmail.com' domain name will make up part of the returned results.|
-|Like|LIKE|N/A|Like is very similar to the Contains operator. It lets you insert a % wild card character in the value that is being searched.|@lastName LIKE Mart%n. Here, the substitution character % serves as a "joker" to find the name "Martin" in the hypothetical case that the spelling is not correct.|
-|Not like|NOT|N/A|Is similar to Like. It lets you not recover the entered value. Here too, the entered value must contain the % wild card character.|@lastName NOT Smi%h. Here, the recipients correspond to the name 'Smi%h' (so Smith, etc.) are not returned as a result.|
-|Is empty|IS NULL|N/A|The first value must correspond to an empty value.|@mobilePhone IS NULL retrieves all the profiles whose mobile phone number has not been provided.|
+<table> 
+ <thead> 
+  <tr> 
+   <th> Operator<br /> </th> 
+   <th> Standard syntax<br /> </th> 
+   <th> JavaScript syntax<br /> </th> 
+   <th> Description<br /> </th> 
+   <th> Example<br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <strong>Equal to</strong><br /> </td> 
+   <td> =<br /> </td> 
+   <td> ==<br /> </td> 
+   <td> The first value must be completely identical to the second value.<br /> </td> 
+   <td> <strong>@lastName = Martin</strong> retrieves profiles whose last name is 'Martin', with only these identical characters.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Greater than</strong><br /> </td> 
+   <td> &gt;<br /> </td> 
+   <td> &gt;<br /> </td> 
+   <td> The first value must categorically be more than the second value.<br /> </td> 
+   <td> <strong>@age &gt; 50</strong> retrieves profiles who are older than '50', so '51', '52', etc.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Less than</strong><br /> </td> 
+   <td> &lt;<br /> </td> 
+   <td> &lt;<br /> </td> 
+   <td> The first value must categorically be less than the second value.<br /> </td> 
+   <td> <strong>@created &lt; DaysAgo(100)</strong> retrieves all profiles created in the database less than 100 days ago.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Greater than or equal to</strong><br /> </td> 
+   <td> &gt;=<br /> </td> 
+   <td> &gt;=<br /> </td> 
+   <td> The first value must be more than or equal to the second value.<br /> </td> 
+   <td> <strong>@age &gt;= 30</strong> retrieves profiles aged 30 years and older.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Less than or equal to</strong><br /> </td> 
+   <td> &lt;=<br /> </td> 
+   <td> &lt;=<br /> </td> 
+   <td> The first value must be less than or equal to the second value.<br /> </td> 
+   <td> <strong>@age &lt;= 60</strong> retrieves profiles aged 60 or less.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Different </strong><br /> </td> 
+   <td> !=<br /> </td> 
+   <td> !=<br /> </td> 
+   <td> The first value must be different from the second value.<br /> </td> 
+   <td> <strong>@language != English</strong> retrieves profiles that have not been defined as English speaking.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Contains</strong><br /> </td> 
+   <td> IN<br /> </td> 
+   <td> N/A<br /> </td> 
+   <td> The first value must contain the second value.<br /> </td> 
+   <td> <strong>@domain IN mail</strong>. Here, all the domain names with the 'mail' value are returned in the result. Consequently, the 'gmail.com' domain name will make up part of the returned results.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Like</strong><br /> </td> 
+   <td> LIKE<br /> </td> 
+   <td> N/A<br /> </td> 
+   <td> <strong>Like</strong> is very similar to the <strong>Contains</strong> operator. It lets you insert a <strong>%</strong> wild card character in the value that is being searched.<br /> </td> 
+   <td> <strong>@lastName LIKE Mart%n</strong>. Here, the substitution character <strong>%</strong> serves as a "joker" to find the name "Martin" in the hypothetical case that the spelling is not correct.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Not like</strong><br /> </td> 
+   <td> NOT<br /> </td> 
+   <td> N/A<br /> </td> 
+   <td> Is similar to <strong>Like</strong>. It lets you not recover the entered value. Here too, the entered value must contain the <strong>%</strong> wild card character.<br /> </td> 
+   <td> <strong>@lastName NOT Smi%h</strong>. Here, the recipients correspond to the name 'Smi%h' (so Smith, etc.) are not returned as a result.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Is empty</strong><br /> </td> 
+   <td> IS NULL<br /> </td> 
+   <td> N/A<br /> </td> 
+   <td> The first value must correspond to an empty value.<br /> </td> 
+   <td> <strong>@mobilePhone IS NULL</strong> retrieves all the profiles whose mobile phone number has not been provided.<br /> </td> 
+  </tr> 
+ </tbody> 
+</table>
 

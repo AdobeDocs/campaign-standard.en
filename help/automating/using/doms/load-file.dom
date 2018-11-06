@@ -1,39 +1,39 @@
 <html>
  <head>
-  <meta content="Load file" name="jcr:title" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="2018-07-23T05:57:28.054-0400" name="cq:lastReplicated" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:data-management-activities" name="cq:tags" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="2018-07-25T09:29:48.696-0400" name="locHandOffDate" />
-  <meta content="Load file" name="navTitle" />
+  <meta content="en_us" name="jcr:language" />
   <meta content="admin" name="jcr:createdBy" />
+  <meta content="Load file" name="navTitle" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="2018-09-07T15:08:18.318-0400" name="publishExternalDate" />
+  <meta content="2018-09-10T07:27:50.112-0400" name="locHandOffDate" />
+  <meta content="" name="jcr:primaryType" />
   <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="2018-07-23T05:57:27.814-0400" name="lastPublishExternalDate" />
+  <meta content="2018-09-07T15:08:18.510-0400" name="cq:lastReplicated" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
   <meta content="light" name="heroGradient" />
-  <meta content="2018-07-23T05:57:27.814-0400" name="publishExternalDate" />
   <meta content="true" name="jcr:isCheckedOut" />
   <meta content="The Load file activity allows you to import data in one structured form to use this data in Adobe Campaign." name="seoDescription" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="Load file" name="jcr:description" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="f1848f62-b0ba-4610-9e5a-75a962f053f0" name="jcr:uuid" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="" name="jcr:versionHistory" />
   <meta content="https://helpx.adobe.com/campaign/standard/automating/using/load-file.html" name="publishExternalURL" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="2018-07-23T05:57:27.814-0400" name="firstPublishExternalDate" />
-  <meta content="2018-07-25T09:29:48.696-0400" name="cq:lastModified" />
-  <meta content="daf173f5-dd43-4d41-bcb5-66bf7d08b3d3" name="jcr:predecessors" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="2018-07-23T05:57:27.814-0400" name="topicBrowsingSortDate" />
+  <meta content="2018-09-07T15:08:18.318-0400" name="topicBrowsingSortDate" />
+  <meta content="Load file" name="jcr:description" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
   <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="sauviat" name="contentOwner" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:data-management-activities" name="cq:tags" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-09-07T15:08:18.318-0400" name="lastPublishExternalDate" />
   <meta content="2018-03-15T09:03:00.399-0400" name="jcr:created" />
-  <meta content="" name="jcr:primaryType" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="Load file" name="jcr:title" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-09-07T15:08:18.318-0400" name="firstPublishExternalDate" />
+  <meta content="f1848f62-b0ba-4610-9e5a-75a962f053f0" name="jcr:uuid" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-09-10T07:27:50.114-0400" name="cq:lastModified" />
+  <meta content="daf173f5-dd43-4d41-bcb5-66bf7d08b3d3" name="jcr:predecessors" />
   <meta content="audience:automating" name="primaryAudienceTag" />
  </head>
  <body>

@@ -3,13 +3,13 @@ title: Technical workflows
 seo-title: Technical workflows
 description: Technical workflows
 seo-description: Technical workflows are out-of-the-box workflows designed to handle background technical processes in Adobe Campaign, ensuring correct behaviour of the platform.
-uuid: 1659eb50-8d07-4022-8e7d-000c7148ad0d
+uuid: 431d3c5d-7b2f-4689-a75c-49e6f2bd3842
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/technical-workflows
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 35.602-0400
-cq-lastreplicated: 2018-07-23T05 53 58.909-0400
+cq-lastmodified: 2018-09-10T07 26 32.489-0400
+cq-lastreplicated: 2018-09-07T15 04 10.785-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 cq-template: /apps/help/templates/article-3
-discoiquuid: 533dafe0-be1d-4719-b691-58f04af6dc40
-firstPublishExternalDate: 2018-07-23T05:53:58.852-0400
+discoiquuid: 9028613a-9851-42c4-b86c-4bd14d6aac19
+firstPublishExternalDate: 2018-09-07T15:04:08.323-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-02-16T08 03 03.599-0500
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Technical workflows
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:53:58.852-0400
-lochandoffdate: 2018-07-25T09 29 35.602-0400
+lastPublishExternalDate: 2018-09-07T15:04:08.323-0400
+lochandoffdate: 2018-09-10T07 26 32.487-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Technical workflows
-publishexternaldate: 2018-07-23T05 53 58.852-0400
+publishexternaldate: 2018-09-07T15 04 08.323-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/technical-workflows.html
-sha1: 66a69926c8189832a3e1e5a1fd9d1c8dfaab28b3
-topicBrowsingSortDate: 2018-07-23T05:53:58.852-0400
+sha1: aa406ba79a4852be6b904c63e7729d6bf2baa2dc
+topicBrowsingSortDate: 2018-09-07T15:04:08.323-0400
 index: y
 internal: n
 snippet: y
@@ -144,3 +144,4 @@ Technical workflows are used to handle self-triggered background and technical p
   </tr> 
  </tbody> 
 </table>
+

@@ -3,13 +3,13 @@ title: Defining the direct mail content
 seo-title: Defining the direct mail content
 description: Defining the direct mail content
 seo-description: Learn how to define the content for your direct mail delivery.
-uuid: bce3b814-c4d5-48f2-86f8-7413d7b10e04
+uuid: 20cf19f3-c84c-42d5-a822-efc67c9e5a28
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/defining-the-direct-mail-content
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-30T04 54 04.086-0400
-cq-lastreplicated: 2018-07-23T06 02 57.598-0400
+cq-lastmodified: 2018-09-08T08 23 17.320-0400
+cq-lastreplicated: 2018-09-07T15 12 27.085-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: channels
 content-type: reference
 topic-tags: direct-mail
 cq-template: /apps/help/templates/article-3
-discoiquuid: 34514053-1682-48a7-aa36-022e32978adf
-firstPublishExternalDate: 2018-07-23T06:02:57.566-0400
+discoiquuid: e2f27d55-61e2-407a-9cdf-268d92a06d57
+firstPublishExternalDate: 2018-09-07T15:12:27.047-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 07.731-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Defining the direct mail content
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:02:57.566-0400
-lochandoffdate: 2018-07-30T04 54 04.086-0400
+lastPublishExternalDate: 2018-09-07T15:12:27.047-0400
+lochandoffdate: 2018-09-08T08 23 17.319-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Defining the direct mail content
-publishexternaldate: 2018-07-23T06 02 57.566-0400
+publishexternaldate: 2018-09-07T15 12 27.047-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/defining-the-direct-mail-content.html
-sha1: 6ae1b166e8d75274f39ece2354f86fc5ef99d62f
-topicBrowsingSortDate: 2018-07-23T06:02:57.566-0400
+sha1: fb0d1d42586136b5413f17108103c8488d8af87d
+topicBrowsingSortDate: 2018-09-07T15:12:27.047-0400
 index: y
 internal: n
 snippet: y

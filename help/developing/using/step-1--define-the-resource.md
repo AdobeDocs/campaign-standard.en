@@ -1,15 +1,15 @@
 ---
-title: "Step 1: Define the resource"
-seo-title: "Step 1: Define the resource"
-description: "Step 1: Define the resource"
+title: Step 1: Define the resource
+seo-title: Step 1: Define the resource
+description: Step 1: Define the resource
 seo-description: Discover how to define a resource from scratch.
-uuid: 0d5641b1-7b61-4b29-997e-a531f80d661d
+uuid: b31cac89-386a-4d37-867a-7c259a4be750
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/developing/using/step-1--define-the-resource
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-26T02 53 21.044-0400
-cq-lastreplicated: 2018-07-23T05 59 07.766-0400
+cq-lastmodified: 2018-09-10T02 18 37.095-0400
+cq-lastreplicated: 2018-09-07T14 51 20.717-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 cq-template: /apps/help/templates/article-3
-discoiquuid: 9b391075-bc52-427f-ac47-f22fdfbfe35e
-firstPublishExternalDate: 2018-07-23T05:59:07.707-0400
+discoiquuid: bcc38e07-ff8d-42fe-a7c1-f2fa29e80cff
+firstPublishExternalDate: 2018-09-07T14:51:18.598-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 18.424-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Step 1  Define the resource
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:59:07.707-0400
-lochandoffdate: 2018-07-26T02 53 21.043-0400
+lastPublishExternalDate: 2018-09-07T14:51:18.598-0400
+lochandoffdate: 2018-09-10T02 18 37.095-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
-navTitle: "Step 1: Define the resource"
-publishexternaldate: 2018-07-23T05 59 07.707-0400
+navTitle: Step 1: Define the resource
+publishexternaldate: 2018-09-07T14 51 18.598-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/step-1--define-the-resource.html
-sha1: 6c8632a7f1eb151249e896b7e6b81b77df1d9843
-topicBrowsingSortDate: 2018-07-23T05:59:07.707-0400
+sha1: a7c72418a4598042cc61b90074e6d7a7ff2e33a6
+topicBrowsingSortDate: 2018-09-07T14:51:18.598-0400
 index: y
 internal: n
 snippet: y

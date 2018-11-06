@@ -3,13 +3,13 @@ title: Managing opt-in and opt-out in Campaign
 seo-title: Managing opt-in and opt-out in Campaign
 description: Managing opt-in and opt-out in Campaign
 seo-description: Understand how opt-in and opt-out are managed in Adobe Campaign.
-uuid: f8e2e2d2-1586-4424-8bb4-126c28085dbb
+uuid: ec36421e-9511-4471-b7ae-ee8762251982
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/audiences/using/managing-opt-in-and-opt-out-in-campaign
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 19.717-0400
-cq-lastreplicated: 2018-07-23T05 55 35.713-0400
+cq-lastmodified: 2018-09-10T07 23 41.402-0400
+cq-lastreplicated: 2018-09-07T14 53 21.084-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
 cq-template: /apps/help/templates/article-3
-discoiquuid: 90823f06-7c35-48c1-9bd0-76cf343b40f9
-firstPublishExternalDate: 2018-07-23T05:55:35.613-0400
+discoiquuid: fab13179-4498-40f5-a65e-30483167856a
+firstPublishExternalDate: 2018-09-07T14:53:18.908-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-05-07T07 29 07.776-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Managing opt-in and opt-out in Campaign
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:55:35.613-0400
-lochandoffdate: 2018-07-25T09 29 19.716-0400
+lastPublishExternalDate: 2018-09-07T14:53:18.908-0400
+lochandoffdate: 2018-09-10T07 23 41.400-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Managing opt-in and opt-out in Campaign
-publishexternaldate: 2018-07-23T05 55 35.613-0400
+publishexternaldate: 2018-09-07T14 53 18.908-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/audiences/using/managing-opt-in-and-opt-out-in-campaign.html
-sha1: 378b0f2c04365bbfcc963148f0c26c48279b2793
-topicBrowsingSortDate: 2018-07-23T05:55:35.613-0400
+sha1: 6ba5bebbe911a8b6f090ccf6d2e9d20b5aea7326
+topicBrowsingSortDate: 2018-09-07T14:53:18.908-0400
 index: y
 internal: n
 snippet: y

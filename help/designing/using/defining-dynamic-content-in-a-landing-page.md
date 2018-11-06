@@ -3,13 +3,13 @@ title: Defining dynamic content in a landing page
 seo-title: Defining dynamic content in a landing page
 description: Defining dynamic content in a landing page
 seo-description: Follow these steps to display different contents dynamically in a landing page according to the conditions defined through the Adobe Campaign expression editor.
-uuid: 2247c871-7cc0-4e47-9bb2-b9e941c2cd46
+uuid: 2a3662a1-1c9e-452f-bb8b-67314f94896b
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/defining-dynamic-content-in-a-landing-page
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-26T02 53 59.999-0400
-cq-lastreplicated: 2018-07-23T08 13 58.003-0400
+cq-lastmodified: 2018-09-10T07 25 52.162-0400
+cq-lastreplicated: 2018-09-07T15 06 36.352-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: designing
 content-type: reference
 topic-tags: defining-conditional-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: e8af9858-8b00-46ab-9cd3-a353babee30a
-firstPublishExternalDate: 2018-07-23T05:58:45.152-0400
+discoiquuid: dfa4aff4-bb0c-4501-9131-388435fcf8db
+firstPublishExternalDate: 2018-09-07T15:06:35.031-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-07-23T07 30 16.487-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Defining dynamic content in a landing page
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T08:13:57.944-0400
-lochandoffdate: 2018-07-26T02 53 59.998-0400
+lastPublishExternalDate: 2018-09-07T15:06:35.031-0400
+lochandoffdate: 2018-09-10T07 25 52.160-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Defining dynamic content in a landing page
-publishexternaldate: 2018-07-23T08 13 57.944-0400
+publishexternaldate: 2018-09-07T15 06 35.031-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/defining-dynamic-content-in-a-landing-page.html
-sha1: e967f866e1a2cc039257a1eb332e4d8f5fdf67e9
-topicBrowsingSortDate: 2018-07-23T08:13:57.944-0400
+sha1: 0b87c8b8c6a6291e6913dff96f7aac06424f1319
+topicBrowsingSortDate: 2018-09-07T15:06:35.031-0400
 index: y
 internal: n
 snippet: y

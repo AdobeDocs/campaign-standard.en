@@ -3,13 +3,13 @@ title: Follow-up messages
 seo-title: Follow-up messages
 description: Follow-up messages
 seo-description: Learn how to create and publish a follow-up message.
-uuid: 39d87fe9-1152-4da8-a6fe-f0f54bbd8113
+uuid: bef95803-c79b-4532-bb34-8b862b0fafc1
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/follow-up-messages
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-30T04 54 08.339-0400
-cq-lastreplicated: 2018-07-23T06 03 13.878-0400
+cq-lastmodified: 2018-09-08T08 23 22.037-0400
+cq-lastreplicated: 2018-09-07T15 12 32.980-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 cq-template: /apps/help/templates/article-3
-discoiquuid: d9e9a04e-c091-4e27-baf8-5802819774a7
-firstPublishExternalDate: 2018-07-23T06:03:13.845-0400
+discoiquuid: 8e36849d-3504-42f3-a1db-8318c0ce49e8
+firstPublishExternalDate: 2018-09-07T15:12:32.944-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 28.109-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Follow-up messages
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:03:13.845-0400
-lochandoffdate: 2018-07-30T04 54 08.339-0400
+lastPublishExternalDate: 2018-09-07T15:12:32.944-0400
+lochandoffdate: 2018-09-08T08 23 22.037-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Follow-up messages
-publishexternaldate: 2018-07-23T06 03 13.845-0400
+publishexternaldate: 2018-09-07T15 12 32.944-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/follow-up-messages.html
-sha1: eecccb64b254ce040b8eeee8624d444d70f005e3
-topicBrowsingSortDate: 2018-07-23T06:03:13.845-0400
+sha1: e519926221e3b4f685c11c1aa6a42ddb72591197
+topicBrowsingSortDate: 2018-09-07T15:12:32.944-0400
 index: y
 internal: n
 snippet: y
@@ -128,7 +128,7 @@ Once you created the follow-up delivery template, you can use it in a workflow t
 
    ![](assets/message-center_follow-up-workflow.png)
 
-   You can also use an [SMS delivery](../../automating/using/sms-delivery.md) or a [Mobile app delivery](../../automating/using/mobile-app-delivery.md) activity. In this case, make sure you select the **Mobile (SMS)** or **Mobile application** channel when creating your event configuration. See [Creating an event](../../administration/using/configuring-transactional-messaging.md#creating-an-event).
+   You can also use an [SMS delivery](../../automating/using/sms-delivery.md) or a [Mobile app delivery](../../automating/using/push-notification-delivery.md) activity. In this case, make sure you select the **Mobile (SMS)** or **Mobile application** channel when creating your event configuration. See [Creating an event](../../administration/using/configuring-transactional-messaging.md#creating-an-event).
 
 1. Open the **Email delivery** activity. In the creation wizard, check the **Follow-up messages** box and select the follow-up delivery template that was created after publishing the event.
 

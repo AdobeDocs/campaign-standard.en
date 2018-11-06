@@ -3,13 +3,13 @@ title: Creating a multilingual template
 seo-title: Creating a multilingual template
 description: Creating a multilingual template
 seo-description: Learn how to define and execute multilingual Email/SMS deliveries through a single delivery based on your automatically segmented customers' preferred language. Report on the performance of every delivery down to the language and individual levels.
-uuid: 20be2fec-9289-4b9b-a8d8-c65e1cd32352
+uuid: 27566ac7-9786-4d92-af99-5962f704480e
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/start/using/creating-a-multilingual-template
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-27T03 27 23.245-0400
-cq-lastreplicated: 2018-07-23T06 00 48.849-0400
+cq-lastmodified: 2018-09-08T08 23 09.701-0400
+cq-lastreplicated: 2018-09-07T15 08 46.586-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: start
 content-type: reference
 topic-tags: managing-templates
 cq-template: /apps/help/templates/article-3
-discoiquuid: 55366353-24d8-4a89-90ff-f1b1c9adc941
-firstPublishExternalDate: 2018-07-23T06:00:48.808-0400
+discoiquuid: 7fdeef21-2008-4fbb-afc1-2fd9e3775155
+firstPublishExternalDate: 2018-09-07T15:08:46.399-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 50.380-0400
@@ -26,16 +26,15 @@ jcr-createdby: admin
 jcr-description: Creating a multilingual template
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:00:48.808-0400
-lochandoffdate: 2018-07-27T03 27 23.244-0400
+lastPublishExternalDate: 2018-09-07T15:08:46.399-0400
+lochandoffdate: 2018-09-08T08 23 09.701-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
-moreHelpPaths: /content/help/en/campaign/standard/start/morehelp/managing-templates;/content/help/en/campaign/standard/start/morehelp/managing-templates
 navTitle: Creating a multilingual template
-publishexternaldate: 2018-07-23T06 00 48.808-0400
+publishexternaldate: 2018-09-07T15 08 46.399-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/start/using/creating-a-multilingual-template.html
-sha1: 741fd567f79e9bf18210059bd43978b64dc352e6
-topicBrowsingSortDate: 2018-07-23T06:00:48.808-0400
+sha1: 052b68550b7f9fadd71a6d62c1edd3c483f58fca
+topicBrowsingSortDate: 2018-09-07T15:08:46.399-0400
 index: y
 internal: n
 snippet: y

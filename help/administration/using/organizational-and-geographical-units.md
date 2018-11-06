@@ -3,24 +3,22 @@ title: Organizational and geographical units
 seo-title: Organizational and geographical units
 description: Organizational and geographical units
 seo-description: Define your users' access levels using organizational and geographical units.
-uuid: 75926468-22c7-4c66-9932-e220a6258267
+uuid: 5e35e086-a853-4b4e-bb7a-fa191011974d
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/organizational-and-geographical-units
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-27T13 19 45.508-0400
-cq-lastmodifiedby: beneat
-cq-lastreplicated: 2018-07-27T13 19 45.716-0400
-cq-lastreplicatedby: beneat
+cq-lastmodified: 2018-09-10T07 22 38.433-0400
+cq-lastreplicated: 2018-09-07T14 41 06.601-0400
+cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: users-e-security
 cq-template: /apps/help/templates/article-3
-discoiquuid: 0de76192-b90d-4a59-84ac-8743b7f059c9
-firstPublishExternalDate: 2018-07-23T05:53:23.116-0400
-firstpublishinternaldate: 2018-07-27T13 19 45.456-0400
+discoiquuid: f4966bdd-e361-474b-82e1-d778ade00c43
+firstPublishExternalDate: 2018-09-07T14:41:05.919-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-13T09 01 56.986-0400
@@ -28,19 +26,15 @@ jcr-createdby: admin
 jcr-description: Organizational and geographical units
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-27T13:19:45.456-0400
-lastpublishinternaldate: 2018-07-27T13 19 45.456-0400
-lochandoffdate: 2018-07-25T09 29 12.557-0400
+lastPublishExternalDate: 2018-09-07T14:41:05.919-0400
+lochandoffdate: 2018-09-10T07 22 38.430-0400
 loclangtag: locales fr;locales de;locales ja
-lr-lastreplicatedby: beneat@adobe.com
-moreHelpPaths: /content/help/en/campaign/standard/administration/morehelp/users-e-security;/content/help/en/campaign/standard/administration/morehelp/users-e-security
+lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Organizational and geographical units
-publishexternaldate: 2018-07-27T13 19 45.456-0400
+publishexternaldate: 2018-09-07T14 41 05.919-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/organizational-and-geographical-units.html
-publishinternaldate: 2018-07-27T13 19 45.456-0400
-publishinternalurl: https //helpx-internal.corp.adobe.com/content/help/en/campaign/standard/administration/using/organizational-and-geographical-units.html
-sha1: df91d583678f2461faa7f6975abf8da18e3d7fc3
-topicBrowsingSortDate: 2018-07-27T13:19:45.456-0400
+sha1: 315c5f0c0d6eb09874eefe703d5d06e5e402a5d0
+topicBrowsingSortDate: 2018-09-07T14:41:05.919-0400
 index: y
 internal: n
 snippet: y
@@ -169,7 +163,7 @@ To do so, we will import in a **Load file** activity, a file containing new or e
 
 >[!NOTE]
 >
->This example assumes that all needed geographical units are already configured in Adobe Campaign.
+>This example assumes that all needed geographical units are already configured in Adobe Campaign. Note that new Campaign Standard instances, as well as existing instances with no geographical units created, cannot have the geographical unit capability implemented starting 18.7 release.
 
 Here, in the imported file, four profiles are detailed: two new profiles and two existing ones which will be updated with their respective geographical units.
 

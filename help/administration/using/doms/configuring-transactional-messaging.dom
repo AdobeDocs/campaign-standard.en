@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="" name="jcr:primaryType" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="2018-02-16T08:02:02.288-0500" name="jcr:created" />
+  <meta content="2018-09-07T14:57:36.242-0400" name="cq:lastReplicated" />
   <meta content="8c407f93-e476-487f-9ff9-74d408ceb0fd" name="jcr:uuid" />
-  <meta content="Configuring transactional messaging" name="jcr:description" />
-  <meta content="2018-07-23T05:53:42.639-0400" name="topicBrowsingSortDate" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="8da2c6ba-9af2-4c87-8658-ab2d2349a91d" name="jcr:predecessors" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html" name="publishExternalURL" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="2018-07-23T05:53:42.639-0400" name="firstPublishExternalDate" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="2018-07-23T05:53:42.711-0400" name="cq:lastReplicated" />
-  <meta content="Configuring transactional messaging" name="navTitle" />
-  <meta content="2018-07-23T05:53:42.639-0400" name="lastPublishExternalDate" />
-  <meta content="Configuring transactional messaging" name="jcr:title" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="2018-07-23T05:53:42.639-0400" name="publishExternalDate" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="2018-07-25T09:29:25.226-0400" name="cq:lastModified" />
   <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="2018-09-10T07:25:06.256-0400" name="locHandOffDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="2018-09-07T14:57:33.378-0400" name="topicBrowsingSortDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
   <meta content="audience:administration" name="primaryAudienceTag" />
-  <meta content="2018-07-25T09:29:25.226-0400" name="locHandOffDate" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2018-09-07T14:57:33.378-0400" name="publishExternalDate" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="8da2c6ba-9af2-4c87-8658-ab2d2349a91d" name="jcr:predecessors" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-09-10T07:25:06.257-0400" name="cq:lastModified" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="Configuring transactional messaging" name="navTitle" />
+  <meta content="2018-09-07T14:57:33.378-0400" name="lastPublishExternalDate" />
+  <meta content="Configuring transactional messaging" name="jcr:title" />
+  <meta content="2018-09-07T14:57:33.378-0400" name="firstPublishExternalDate" />
+  <meta content="" name="jcr:versionHistory" />
   <meta content="en_us" name="jcr:language" />
   <meta content="products:SG_CAMPAIGN/STANDARD;audience:administration;content_type:reference;topic_tags:configuring-channels" name="cq:tags" />
+  <meta content="Configuring transactional messaging" name="jcr:description" />
   <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-02-16T08:02:02.288-0500" name="jcr:created" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
   <meta content="Learn how to configure transactional messaging." name="seoDescription" />
-  <meta content="light" name="heroGradient" />
+  <meta content="https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html" name="publishExternalURL" />
  </head>
  <body>
   <p>To send a transactional message with Adobe Campaign, your first need to describe the structure of the event data.</p> 
@@ -128,12 +128,12 @@
    <li><p>Integrate the event into your website (see <a href="../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website" target="_blank">Integrating the triggering of the event in a website</a>).</p> </li>
   </ol>
   <h3>Event-based transactional push notifications</h3>
-  <p>To be able to send transactional push notifications, you need to configure Adobe Campaign accordingly. See <a href="../../administration/using/configuring-mobile-app-channel.md">Push configuration</a>.</p> 
+  <p>To be able to send transactional push notifications, you need to configure Adobe Campaign accordingly. See <a href="../../administration/using/configuring-a-mobile-application-using-sdk-v4.md">Push configuration</a>.</p> 
   <p>To send an anonymous transactional push notification to all users who have opted in to receive notifications from your mobile application, you first need to create and configure an event targeting the data contained in the event itself. The corresponding steps are presented below.</p> 
   <p>The event must contain the three following elements:</p> 
   <ul>
    <li><p>A <strong>registration token</strong>, which is the user ID for one mobile application and one device. It may not correspond to any profile from the Adobe Campaign database.</p> </li>
-   <li><p>A <strong>mobile application name</strong> (one for all devices - Android and iOS). This is the ID of the mobile application configured in Adobe Campaign that will be used to receive push notifications on the users' devices. For more on this, see <a href="../../administration/using/configuring-mobile-app-channel.md#setting-up-a-mobile-application-in-adobe-campaign" target="_blank">Setting up a mobile application in Adobe Campaign</a>.</p> </li>
+   <li><p>A <strong>mobile application name</strong> (one for all devices - Android and iOS). This is the ID of the mobile application configured in Adobe Campaign that will be used to receive push notifications on the users' devices. For more on this, see <a href="../../administration/using/configuring-a-mobile-application-using-sdk-v4.md#setting-up-a-mobile-application-in-adobe-campaign" target="_blank">Setting up a mobile application in Adobe Campaign</a>.</p> </li>
    <li><p>A <strong>push platform</strong> ("gcm" for Android or "apns" for iOS).</p> </li>
   </ul>
   <ol>

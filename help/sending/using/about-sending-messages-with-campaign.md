@@ -3,13 +3,13 @@ title: About sending messages with Campaign
 seo-title: About sending messages with Campaign
 description: About sending messages with Campaign
 seo-description: Discover the different steps to test and send a message.
-uuid: fb89a137-f23f-48e7-b4d0-bed33b3b8cab
+uuid: 0765bb85-6596-425b-96a4-b1d5a198822a
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/sending/using/about-sending-messages-with-campaign
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-30T04 53 46.082-0400
-cq-lastreplicated: 2018-07-23T06 02 03.190-0400
+cq-lastmodified: 2018-09-08T08 23 01.889-0400
+cq-lastreplicated: 2018-09-07T15 11 07.590-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: sending
 content-type: reference
 topic-tags: about-sending-messages-with-campaign
 cq-template: /apps/help/templates/article-3
-discoiquuid: b2254148-c21c-45fa-a7a7-aab9c5a4f547
-firstPublishExternalDate: 2018-07-23T06:02:03.123-0400
+discoiquuid: 0a194b5c-84f6-4524-9b66-6d14d2a85016
+firstPublishExternalDate: 2018-09-07T15:11:07.518-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 13.981-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: About sending messages with Campaign
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:02:03.123-0400
-lochandoffdate: 2018-07-30T04 53 46.082-0400
+lastPublishExternalDate: 2018-09-07T15:11:07.518-0400
+lochandoffdate: 2018-09-08T08 23 01.889-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About sending messages with Campaign
-publishexternaldate: 2018-07-23T06 02 03.123-0400
+publishexternaldate: 2018-09-07T15 11 07.518-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/sending/using/about-sending-messages-with-campaign.html
-sha1: 704bfff5733328b82e7dc59566d5bc8da5199d12
-topicBrowsingSortDate: 2018-07-23T06:02:03.123-0400
+sha1: 98ac5e2a1bbe2596dfa47ac654b67baf0f9559fe
+topicBrowsingSortDate: 2018-09-07T15:11:07.518-0400
 index: y
 internal: n
 snippet: y

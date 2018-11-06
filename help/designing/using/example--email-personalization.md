@@ -1,15 +1,15 @@
 ---
-title: "Example: Email personalization"
-seo-title: "Example: Email personalization"
-description: "Example: Email personalization"
+title: Example: Email personalization
+seo-title: Example: Email personalization
+description: Example: Email personalization
 seo-description: See a full example of personalizing an email with dynamic content and text according to the recipients' ages.
-uuid: 30d1adbd-8ec9-4051-a1fa-16f84783bee4
+uuid: c4cef99e-5c77-4e2a-8094-7b628c836b3a
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/example--email-personalization
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-26T02 53 55.392-0400
-cq-lastreplicated: 2018-07-23T08 13 54.011-0400
+cq-lastmodified: 2018-09-10T07 25 28.819-0400
+cq-lastreplicated: 2018-09-07T15 03 22.627-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: designing
 content-type: reference
 topic-tags: personalizing-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: 131c03c7-282e-420f-83ca-62a93d4a787c
-firstPublishExternalDate: 2018-07-23T05:58:42.025-0400
+discoiquuid: bcffcb1e-b6b6-4664-8590-66b43db2aa80
+firstPublishExternalDate: 2018-09-07T15:03:19.887-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 02.752-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Example  Email personalization
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T08:13:53.959-0400
-lochandoffdate: 2018-07-26T02 53 55.392-0400
+lastPublishExternalDate: 2018-09-07T15:03:19.887-0400
+lochandoffdate: 2018-09-10T07 25 28.817-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
-navTitle: "Example: Email personalization"
-publishexternaldate: 2018-07-23T08 13 53.959-0400
+navTitle: Example: Email personalization
+publishexternaldate: 2018-09-07T15 03 19.887-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/example--email-personalization.html
-sha1: 3127a913f6d8d2a4651e00f5f969ecb7c35199ef
-topicBrowsingSortDate: 2018-07-23T08:13:53.959-0400
+sha1: 13afa411b0358c3ba433846b90575773ce6d254f
+topicBrowsingSortDate: 2018-09-07T15:03:19.887-0400
 index: y
 internal: n
 snippet: y

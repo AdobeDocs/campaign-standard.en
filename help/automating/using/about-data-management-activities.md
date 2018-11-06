@@ -3,13 +3,13 @@ title: About data management activities
 seo-title: About data management activities
 description: About data management activities
 seo-description: Datamangement activities are available from the left-hand side of the screen.
-uuid: eb3750c9-7a90-4356-97b6-c96b6f606a05
+uuid: 0fe59806-aec5-4364-99e9-38b7e9edd4cf
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/about-data-management-activities
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 47.804-0400
-cq-lastreplicated: 2018-07-23T05 57 24.345-0400
+cq-lastmodified: 2018-09-10T07 27 41.997-0400
+cq-lastreplicated: 2018-09-07T15 08 08.563-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: 35582ebf-b502-4a4b-83d4-b187ba26d817
-firstPublishExternalDate: 2018-07-23T05:57:24.294-0400
+discoiquuid: e58f34c4-a26f-4448-9f2b-7a5a40158072
+firstPublishExternalDate: 2018-09-07T15:08:08.381-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 57.943-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: About data management activities
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:57:24.294-0400
-lochandoffdate: 2018-07-25T09 29 47.803-0400
+lastPublishExternalDate: 2018-09-07T15:08:08.381-0400
+lochandoffdate: 2018-09-10T07 27 41.996-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About data management activities
-publishexternaldate: 2018-07-23T05 57 24.294-0400
+publishexternaldate: 2018-09-07T15 08 08.381-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/about-data-management-activities.html
-sha1: 2ab1a0fa89e26f7033642f175df83faaca9f3d43
-topicBrowsingSortDate: 2018-07-23T05:57:24.294-0400
+sha1: 5d933d436647236478a6b239d644dda17a85abf4
+topicBrowsingSortDate: 2018-09-07T15:08:08.381-0400
 index: y
 internal: n
 snippet: y

@@ -3,13 +3,13 @@ title: Adobe Campaign notifications
 seo-title: Adobe Campaign notifications
 description: Adobe Campaign notifications
 seo-description: Learn how to send real-time system notifications to your Adobe Campaign users.
-uuid: 4df941d5-4e1d-4426-b1c0-9f2997122d50
+uuid: 519227f3-fd34-49f8-bf86-893c6b85cf59
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/adobe-campaign-notifications
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 37.677-0400
-cq-lastreplicated: 2018-07-23T05 54 01.605-0400
+cq-lastmodified: 2018-09-10T07 26 53.763-0400
+cq-lastreplicated: 2018-09-07T15 06 35.642-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 cq-template: /apps/help/templates/article-3
-discoiquuid: 40aac614-7c16-420b-995f-b53e43b0d9ed
-firstPublishExternalDate: 2018-07-23T05:54:01.543-0400
+discoiquuid: 68d17b72-5fbc-4522-a9eb-9d520613116a
+firstPublishExternalDate: 2018-09-07T15:06:34.360-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-02-16T08 01 36.554-0500
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Adobe Campaign notifications
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:54:01.543-0400
-lochandoffdate: 2018-07-25T09 29 37.677-0400
+lastPublishExternalDate: 2018-09-07T15:06:34.360-0400
+lochandoffdate: 2018-09-10T07 26 53.762-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Adobe Campaign notifications
-publishexternaldate: 2018-07-23T05 54 01.543-0400
+publishexternaldate: 2018-09-07T15 06 34.360-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/adobe-campaign-notifications.html
-sha1: d0be07674fbb08f8efbfca1c064c5183d39bad1d
-topicBrowsingSortDate: 2018-07-23T05:54:01.543-0400
+sha1: 7df49beba94fb3849ef02dc4f4660d8aa49a477b
+topicBrowsingSortDate: 2018-09-07T15:06:34.360-0400
 index: y
 internal: n
 snippet: y

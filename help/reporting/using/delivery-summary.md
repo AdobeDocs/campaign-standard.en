@@ -3,13 +3,13 @@ title: Delivery summary
 seo-title: Delivery summary
 description: Delivery summary
 seo-description: With the Delivery summary out-of-the-box report, learn about your deliveries statistics, such as number of sends, bounces and opens.
-uuid: bc8e4dfc-4e20-451f-b28a-51f2371933f3
+uuid: 19e034a1-ba0f-4ab1-96e0-97a3baacb977
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/reporting/using/delivery-summary
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-27T03 26 38.372-0400
-cq-lastreplicated: 2018-07-23T06 00 13.869-0400
+cq-lastmodified: 2018-09-10T02 18 46.554-0400
+cq-lastreplicated: 2018-09-07T15 05 08.338-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 cq-template: /apps/help/templates/article-3
-discoiquuid: 60c8ea85-079c-4d72-b0f4-635bf31f0e3b
-firstPublishExternalDate: 2018-07-23T06:00:13.811-0400
+discoiquuid: 4e4a069c-73da-43a5-8792-2e9109bee68d
+firstPublishExternalDate: 2018-09-07T15:05:04.966-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 19.131-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Delivery summary
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:00:13.811-0400
-lochandoffdate: 2018-07-27T03 26 38.371-0400
+lastPublishExternalDate: 2018-09-07T15:05:04.966-0400
+lochandoffdate: 2018-09-10T02 18 46.554-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Delivery summary
-publishexternaldate: 2018-07-23T06 00 13.811-0400
+publishexternaldate: 2018-09-07T15 05 04.966-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/delivery-summary.html
-sha1: 6f97354fd1ec82043a6ee6795e4ee449437185d4
-topicBrowsingSortDate: 2018-07-23T06:00:13.811-0400
+sha1: 36994755d07de1362a3540cf4a240cd47f9710d3
+topicBrowsingSortDate: 2018-09-07T15:05:04.966-0400
 index: y
 internal: n
 snippet: y

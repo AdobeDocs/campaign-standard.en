@@ -1,40 +1,41 @@
 <html>
  <head>
-  <meta content="audience:start" name="primaryAudienceTag" />
-  <meta content="2018-07-23T06:00:44.893-0400" name="firstPublishExternalDate" />
-  <meta content="2018-07-23T06:00:44.925-0400" name="cq:lastReplicated" />
-  <meta content="782a5c9c-1caa-47e6-a3ab-b89c3df978e6" name="jcr:uuid" />
-  <meta content="2018-07-23T06:00:44.893-0400" name="publishExternalDate" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="2018-07-23T06:00:44.893-0400" name="topicBrowsingSortDate" />
-  <meta content="Marketing activities" name="navTitle" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:start;content_type:reference;topic_tags:marketing-plans" name="cq:tags" />
-  <meta content="Marketing activities" name="jcr:description" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="2018-07-27T03:26:58.353-0400" name="cq:lastModified" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="Marketing activities" name="jcr:title" />
-  <meta content="false" name="isReadyForLocalization" />
   <meta content="light" name="heroGradient" />
-  <meta content="Learn how to create and manage your marketing activities: campaigns, email, SMS and push notification deliveries, landing pages, workflows. You can easily design a new activity, edit an existing one, and consult their status and validity." name="seoDescription" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="32f3bf28-c21a-4c14-88ad-75821930c159" name="jcr:predecessors" />
-  <meta content="2018-03-15T09:01:19.018-0400" name="jcr:created" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-09-07T15:08:27.075-0400" name="publishExternalDate" />
+  <meta content="false" name="isReadyForLocalization" />
   <meta content="https://helpx.adobe.com/campaign/standard/start/using/marketing-activities.html" name="publishExternalURL" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="2018-07-23T06:00:44.893-0400" name="lastPublishExternalDate" />
-  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="en_us" name="jcr:language" />
   <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="2018-07-27T03:26:58.352-0400" name="locHandOffDate" />
+  <meta content="2018-09-07T15:08:27.075-0400" name="lastPublishExternalDate" />
+  <meta content="2018-09-07T15:08:27.075-0400" name="topicBrowsingSortDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="Learn how to create and manage your marketing activities: campaigns, email, SMS and push notification deliveries, landing pages, workflows. You can easily design a new activity, edit an existing one, and consult their status and validity." name="seoDescription" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-09-08T08:23:07.706-0400" name="locHandOffDate" />
+  <meta content="32f3bf28-c21a-4c14-88ad-75821930c159" name="jcr:predecessors" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="audience:start" name="primaryAudienceTag" />
+  <meta content="2018-09-07T15:08:27.528-0400" name="cq:lastReplicated" />
+  <meta content="2018-09-08T08:23:07.706-0400" name="cq:lastModified" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="/content/help/en/campaign/standard/start/morehelp/marketing-plans;/content/help/en/campaign/standard/start/morehelp/marketing-plans" name="moreHelpPaths" />
+  <meta content="Marketing activities" name="navTitle" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-03-15T09:01:19.018-0400" name="jcr:created" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="782a5c9c-1caa-47e6-a3ab-b89c3df978e6" name="jcr:uuid" />
+  <meta content="2018-09-07T15:08:27.075-0400" name="firstPublishExternalDate" />
+  <meta content="Marketing activities" name="jcr:title" />
+  <meta content="Marketing activities" name="jcr:description" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:start;content_type:reference;topic_tags:marketing-plans" name="cq:tags" />
+  <meta content="" name="jcr:primaryType" />
  </head>
  <body>
   <h2>About marketing activities</h2>

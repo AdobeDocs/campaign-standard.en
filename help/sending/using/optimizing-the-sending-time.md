@@ -3,13 +3,13 @@ title: Optimizing the sending time
 seo-title: Optimizing the sending time
 description: Optimizing the sending time
 seo-description: Learn how to set up sending time and improve the open rate of your messages.
-uuid: 63f86c77-de1a-4ecb-b8a5-5b505b6eb6ee
+uuid: e4ce6574-f43a-467e-8d1a-3de4bfe81ea3
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/sending/using/optimizing-the-sending-time
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-30T04 53 50.570-0400
-cq-lastreplicated: 2018-07-23T06 02 21.137-0400
+cq-lastmodified: 2018-09-08T08 23 05.424-0400
+cq-lastreplicated: 2018-09-07T15 11 20.781-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 cq-template: /apps/help/templates/article-3
-discoiquuid: 628571b6-0e67-421b-bcf0-3b82515c0fda
-firstPublishExternalDate: 2018-07-23T06:02:21.097-0400
+discoiquuid: bdd2e58c-c54f-4bb6-aaae-95045ae267fc
+firstPublishExternalDate: 2018-09-07T15:11:20.704-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 22.648-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Optimizing the sending time
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:02:21.097-0400
-lochandoffdate: 2018-07-30T04 53 50.570-0400
+lastPublishExternalDate: 2018-09-07T15:11:20.704-0400
+lochandoffdate: 2018-09-08T08 23 05.424-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Optimizing the sending time
-publishexternaldate: 2018-07-23T06 02 21.097-0400
+publishexternaldate: 2018-09-07T15 11 20.704-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/sending/using/optimizing-the-sending-time.html
-sha1: a042d42ad8d4d7ec8eb2be82aebdb81b21cd0795
-topicBrowsingSortDate: 2018-07-23T06:02:21.097-0400
+sha1: fe5482e3f7637f435878e8d966ba048fb3f4fb7d
+topicBrowsingSortDate: 2018-09-07T15:11:20.704-0400
 index: y
 internal: n
 snippet: y

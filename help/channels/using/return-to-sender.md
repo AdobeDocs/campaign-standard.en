@@ -3,13 +3,13 @@ title: Return to sender
 seo-title: Return to sender
 description: Return to sender
 seo-description: Learn how to be notified of an incorrect address and exclude it from future communications.
-uuid: c75e1208-523d-4c7f-aba3-3efeed4d1b05
+uuid: 67e8aafd-7c16-4c30-aa6d-04d604be7b7f
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/return-to-sender
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-30T04 53 59.722-0400
-cq-lastreplicated: 2018-07-23T06 02 55.160-0400
+cq-lastmodified: 2018-09-08T08 23 16.319-0400
+cq-lastreplicated: 2018-09-07T15 12 24.607-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: channels
 content-type: reference
 topic-tags: direct-mail
 cq-template: /apps/help/templates/article-3
-discoiquuid: 933d0095-534e-46c4-b811-f5827bf444d9
-firstPublishExternalDate: 2018-07-23T06:02:55.130-0400
+discoiquuid: e69d0f25-a0ee-415c-abc6-0e5b4df4d998
+firstPublishExternalDate: 2018-09-07T15:12:24.548-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 09.919-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Return to sender
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:02:55.130-0400
-lochandoffdate: 2018-07-30T04 53 59.722-0400
+lastPublishExternalDate: 2018-09-07T15:12:24.548-0400
+lochandoffdate: 2018-09-08T08 23 16.319-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Return to sender
-publishexternaldate: 2018-07-23T06 02 55.130-0400
+publishexternaldate: 2018-09-07T15 12 24.548-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/return-to-sender.html
-sha1: 48b310eebfaa2d242a3959bfc78774bad4d6354a
-topicBrowsingSortDate: 2018-07-23T06:02:55.130-0400
+sha1: 7cd8a4f2c79ba741d8a849b4773a82984b3a27dd
+topicBrowsingSortDate: 2018-09-07T15:12:24.548-0400
 index: y
 internal: n
 snippet: y

@@ -3,13 +3,13 @@ title: Tracking messages
 seo-title: Tracking messages
 description: Tracking messages
 seo-description: Learn how to track the behavior of your delivery recipients.
-uuid: c230a43b-f05a-4218-b241-bf50d49e9e84
+uuid: 2aaef5a2-b2f5-4689-8db2-3f9a91d28998
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/sending/using/tracking-messages
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-30T04 53 56.139-0400
-cq-lastreplicated: 2018-07-23T06 02 25.570-0400
+cq-lastmodified: 2018-09-08T08 23 09.984-0400
+cq-lastreplicated: 2018-09-07T15 11 30.462-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
 cq-template: /apps/help/templates/article-3
-discoiquuid: d8973611-1240-464a-a82d-8a7a6369fa8e
-firstPublishExternalDate: 2018-07-23T06:02:25.531-0400
+discoiquuid: e623d218-b8e0-4007-bb5d-0b532fc45a67
+firstPublishExternalDate: 2018-09-07T15:11:30.302-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 51.016-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Tracking messages
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:02:25.531-0400
-lochandoffdate: 2018-07-30T04 53 56.138-0400
+lastPublishExternalDate: 2018-09-07T15:11:30.302-0400
+lochandoffdate: 2018-09-08T08 23 09.983-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Tracking messages
-publishexternaldate: 2018-07-23T06 02 25.531-0400
+publishexternaldate: 2018-09-07T15 11 30.302-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/sending/using/tracking-messages.html
-sha1: 9f7a4ee053ec1b8a7faab6151e5c0921a60c47d1
-topicBrowsingSortDate: 2018-07-23T06:02:25.531-0400
+sha1: 3f7fede200b312ef1eeedc219bc4b4c87ce775bd
+topicBrowsingSortDate: 2018-09-07T15:11:30.302-0400
 index: y
 internal: n
 snippet: y

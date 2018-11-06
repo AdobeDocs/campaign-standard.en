@@ -3,13 +3,13 @@ title: About push notifications
 seo-title: About push notifications
 description: About push notifications
 seo-description: Discover the main specificities of the push notification channel in Adobe Campaign.
-uuid: eb05c862-e661-40ee-a7d8-e2919c85bbb2
+uuid: e6dc3dea-1c3d-4755-997f-0cd788380077
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/about-push-notifications
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-30T04 53 54.893-0400
-cq-lastreplicated: 2018-07-23T06 02 49.182-0400
+cq-lastmodified: 2018-09-08T08 23 08.894-0400
+cq-lastreplicated: 2018-09-07T15 11 51.976-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 cq-template: /apps/help/templates/article-3
-discoiquuid: 68d061fd-beb8-4afc-8377-6ac4c6b7681b
-firstPublishExternalDate: 2018-07-23T06:02:49.153-0400
+discoiquuid: da306655-b4da-46d4-80ba-125e577fc897
+firstPublishExternalDate: 2018-09-07T15:11:51.930-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 19.896-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: About push notifications
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T06:02:49.153-0400
-lochandoffdate: 2018-07-30T04 53 54.893-0400
+lastPublishExternalDate: 2018-09-07T15:11:51.930-0400
+lochandoffdate: 2018-09-08T08 23 08.894-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About push notifications
-publishexternaldate: 2018-07-23T06 02 49.153-0400
+publishexternaldate: 2018-09-07T15 11 51.930-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/about-push-notifications.html
-sha1: 24ee9a989b293ab9135037c63919bb4f4205978d
-topicBrowsingSortDate: 2018-07-23T06:02:49.153-0400
+sha1: 5e8b657fd594b71d85e60de0861366bf8fa972f1
+topicBrowsingSortDate: 2018-09-07T15:11:51.930-0400
 index: y
 internal: n
 snippet: y
@@ -46,13 +46,13 @@ About push notifications
 
 Adobe Campaign allows you to send personalized and segmented push notifications to iOS and Android mobile devices.
 
-These messages are received on mobile applications that you set up in Adobe Campaign by leveraging the Experience Cloud Mobile SDK. See [Configuring mobile app channel](../../administration/using/configuring-mobile-app-channel.md).
+These messages are received on mobile applications that you set up in Adobe Campaign by leveraging the Experience Cloud Mobile SDK. See [Configuring mobile app channel](../../administration/using/configuring-a-mobile-application-using-sdk-v4.md).
 
 The user process in Adobe Campaign is as follows:
 
 1. [Creating and sending a push notification](../../channels/using/creating-and-sending-a-push-notification.md)
 1. [Customizing a push notification](../../channels/using/customizing-a-push-notification.md)
-1. [Sending the push notification](../../sending/using/confirming-send.md)
+1. [Sending the push notification](../../sending/using/confirming-the-send.md)
 
 Two types of push notification are available in Adobe Campaign:
 

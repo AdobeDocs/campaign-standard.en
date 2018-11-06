@@ -3,13 +3,13 @@ title: About extending profiles
 seo-title: About extending profiles
 description: About extending profiles
 seo-description: 
-uuid: 0bddce1c-173c-45e7-8f77-942ffd7ef6ee
+uuid: bb709222-3910-471f-849a-2390a2fa149d
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/developing/using/about-extending-profiles
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-26T02 53 38.606-0400
-cq-lastreplicated: 2018-07-23T05 59 18.571-0400
+cq-lastmodified: 2018-09-10T02 19 16.121-0400
+cq-lastreplicated: 2018-09-07T14 58 49.229-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: developing
 content-type: reference
 topic-tags: use-case--extending-profiles
 cq-template: /apps/help/templates/article-3
-discoiquuid: 327cccaf-7bc3-4027-835b-7611424f6c5b
-firstPublishExternalDate: 2018-07-23T05:59:18.532-0400
+discoiquuid: 0d8d38a1-e583-48d0-8e3e-218d8d61c387
+firstPublishExternalDate: 2018-09-07T14:58:46.870-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 01 06.875-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: About extending profiles
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:59:18.532-0400
-lochandoffdate: 2018-07-26T02 53 38.605-0400
+lastPublishExternalDate: 2018-09-07T14:58:46.870-0400
+lochandoffdate: 2018-09-10T02 19 16.120-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About extending profiles
-publishexternaldate: 2018-07-23T05 59 18.532-0400
+publishexternaldate: 2018-09-07T14 58 46.870-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/about-extending-profiles.html
-sha1: d9d251ea6a3e05f0fc21dd91d2da25126dfc62e4
-topicBrowsingSortDate: 2018-07-23T05:59:18.532-0400
+sha1: 7b3ba1028ed1f3f75b0ad50cf012bfc8d1b0f681
+topicBrowsingSortDate: 2018-09-07T14:58:46.870-0400
 index: y
 internal: n
 snippet: y

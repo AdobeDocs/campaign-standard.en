@@ -3,13 +3,13 @@ title: Executing a workflow
 seo-title: Executing a workflow
 description: Executing a workflow
 seo-description: Learn how to execute and monitor a workflow.
-uuid: 7c44e7cc-7047-4726-ab13-f2e7fba4ccef
+uuid: 97acb055-b1e4-4dd9-b252-2d890be45876
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/executing-a-workflow
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
-cq-lastmodified: 2018-07-25T09 29 18.262-0400
-cq-lastreplicated: 2018-07-23T05 56 54.148-0400
+cq-lastmodified: 2018-09-10T07 23 29.218-0400
+cq-lastreplicated: 2018-09-07T14 49 18.390-0400
 cq-lastreplicatedby: sauviat
 cq-lastreplicationaction: Activate
 products: SG_CAMPAIGN/STANDARD
@@ -17,8 +17,8 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 cq-template: /apps/help/templates/article-3
-discoiquuid: ede5efb6-5df5-4629-a48d-816588c41676
-firstPublishExternalDate: 2018-07-23T05:56:54.110-0400
+discoiquuid: 29c355cf-a855-4d84-9b69-ca34d6e2181c
+firstPublishExternalDate: 2018-09-07T14:49:16.581-0400
 herogradient: light
 isreadyforlocalization: false
 jcr-created: 2018-03-15T09 02 52.754-0400
@@ -26,15 +26,15 @@ jcr-createdby: admin
 jcr-description: Executing a workflow
 jcr-ischeckedout: true
 jcr-language: en_us
-lastPublishExternalDate: 2018-07-23T05:56:54.110-0400
-lochandoffdate: 2018-07-25T09 29 18.262-0400
+lastPublishExternalDate: 2018-09-07T14:49:16.581-0400
+lochandoffdate: 2018-09-10T07 23 29.217-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Executing a workflow
-publishexternaldate: 2018-07-23T05 56 54.110-0400
+publishexternaldate: 2018-09-07T14 49 16.581-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/executing-a-workflow.html
-sha1: 447f835c415e8dcbdbe26d9ef28eccddc0788d72
-topicBrowsingSortDate: 2018-07-23T05:56:54.110-0400
+sha1: f258bbd38090b34dbeafd5a35623180b9072e84f
+topicBrowsingSortDate: 2018-09-07T14:49:16.581-0400
 index: y
 internal: n
 snippet: y
