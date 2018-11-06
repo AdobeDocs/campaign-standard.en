@@ -1,0 +1,63 @@
+<html>
+ <head>
+  <meta content="en_us" name="jcr:language" />
+  <meta content="d196efd6-b9ab-4b0d-996a-40cad5a3521c" name="jcr:uuid" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-01-10T15:24:16.598-0500" name="publishExternalDate" />
+  <meta content="2018-01-10T15:24:16.606-0500" name="cq:lastModified" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="Creating personalized messages with Point of Interest data" name="jcr:title" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="https://helpx.adobe.com/campaign/standard/integrating/using/creating-personalized-messages-with-point-of-interest-data.html" name="publishExternalURL" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="audience:integrating" name="primaryAudienceTag" />
+  <meta content="Learn how to create a personalized message based on your subscribers' location with the Point of Interest data integration." name="seoDescription" />
+  <meta content="e8434f89-753a-4b56-bf9a-57de1afea0d5" name="jcr:predecessors" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="Creating personalized messages with Point of Interest data" name="jcr:description" />
+  <meta content="2018-01-10T15:24:16.598-0500" name="lastPublishExternalDate" />
+  <meta content="2018-01-10T15:24:16.598-0500" name="firstPublishExternalDate" />
+  <meta content="Creating personalized messages with Point of Interest data" name="navTitle" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:integrating;content_type:reference;topic_tags:points-of-interest-data-integration" name="cq:tags" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-01-10T15:24:16.598-0500" name="topicBrowsingSortDate" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2018-01-11T19:01:26.371-0500" name="jcr:created" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+ </head>
+ <body>
+  <p>In Adobe Campaign, you can use the Points of Interest data collected from your mobile application's subscribers to send them personalized marketing messages, such as an email.</p> 
+  <p>You can only react on Point of Interest data with standard deliveries. <a href="../../channels/using/about-transactional-messaging.md">Transactional messages</a> cannot use location data.</p> 
+  <p>The earliest you can react is about 10 minutes.</p> 
+  <p>In this case, you decide to send an email to all subscribers who have visited your Boston store within the last two weeks.</p> 
+  <ol>
+   <li><p>Create an email marketing activity.</p> </li>
+   <li><p>When defining the delivery's audience, drag and drop the <strong>Subscriptions to an application</strong> element into the workspace.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/POI_subscriptions_app.png" title="" /><p>Managing audiences is detailed in the <a href="../../audiences/using/creating-audiences.md">Defining audiences</a> section.</p> </li>
+   <li><p>In the <strong>Add a rule - Profile/Subscriptions to an application</strong> window, drag and drop the <strong>POI Location Subscription</strong> element into the workspace.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/POI_add_rule_profile_subscription.png" title="" /></li>
+   <li><p>In the <strong>Add a rule - POI Location Subscription</strong> window, enter the label of the Point of Interest that you want to use.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/POI_location_subscription.png" title="" /></li>
+   <li><p>In the <strong>Filter type</strong> field, select <strong>Relative</strong>.</p> </li>
+   <li><p>Check the <strong>Preceding days</strong> option and enter <strong>15</strong> in the corresponding field.</p> </li>
+   <li><p>Define the number of times the user must have visited the Point of Interest.</p> </li>
+   <li><p>Click <strong>Confirm</strong> to save your audience.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/POI_subscriptions_app_audience_defined.png" title="" /></li>
+   <li><p>Add content to your email.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/POI_email_content.png" title="" /></li>
+   <li><p>Confirm creating the activity to view the email's dashboard.</p> </li>
+   <li><p>Send your message. </p> </li>
+  </ol>
+  <p>The email with the 10% discount offer will be sent to subscribers who:</p> 
+  <ul>
+   <li><p>Visited your Boston store at least once within the last two weeks.</p> </li>
+   <li><p>Had your mobile application in the foreground at least once during the visit.</p> </li>
+  </ul>
+  <p><strong>Related topics:</strong></p> 
+  <ul>
+   <li><p> <a href="../../channels/using/creating-an-email.md">Creating an email</a></p> </li>
+   <li><p> <a href="../../designing/using/example--email-personalization.md">Defining content</a></p> </li>
+   <li><p> <a href="../../sending/using/confirming-send.md">Sending messages</a></p> </li>
+  </ul>
+ </body>
+</html>

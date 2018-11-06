@@ -1,0 +1,74 @@
+<html>
+ <head>
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-07-23T05:59:47.155-0400" name="publishExternalDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="About Adobe Experience Cloud Triggers" name="jcr:title" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-07-27T03:27:15.953-0400" name="locHandOffDate" />
+  <meta content="By tracking specific behaviors from customers with Adobe Analytics, you can now send personalized emails to your customers in Adobe Campaign." name="seoDescription" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-07-27T03:27:15.954-0400" name="cq:lastModified" />
+  <meta content="audience:integrating" name="primaryAudienceTag" />
+  <meta content="2018-03-15T09:01:59.216-0400" name="jcr:created" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2018-07-23T05:59:47.187-0400" name="cq:lastReplicated" />
+  <meta content="2018-07-23T05:59:47.155-0400" name="lastPublishExternalDate" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:integrating;content_type:reference;topic_tags:working-with-campaign-and-triggers" name="cq:tags" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="About Adobe Experience Cloud Triggers" name="jcr:description" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-07-23T05:59:47.155-0400" name="firstPublishExternalDate" />
+  <meta content="About Adobe Experience Cloud Triggers" name="navTitle" />
+  <meta content="https://helpx.adobe.com/campaign/standard/integrating/using/about-adobe-experience-cloud-triggers.html" name="publishExternalURL" />
+  <meta content="2018-07-23T05:59:47.155-0400" name="topicBrowsingSortDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="9b284f26-b8d5-415e-a626-a93596227287" name="jcr:predecessors" />
+  <meta content="431110a7-0808-4a76-ba0a-85f8a8b4fd88" name="jcr:uuid" />
+  <meta content="light" name="heroGradient" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+ </head>
+ <body>
+  <p>Integration between the Experience Cloud Activation core service <strong>Triggers</strong> and Adobe Campaign allows you to send personalized emails to your customers as a reaction to specific behaviors that are tracked on your website by Adobe Analytics (within 15 minutes).</p> 
+  <p>In Adobe Experience Cloud, you define the different triggers, that is to say, the customer behaviors that you would like to monitor, such as all of the clients who abandoned their visit on your website, made a search on your website, but didn't make a purchase, or even the clients whose session expired. When creating a trigger, you define the trigger's condition and the data that will be sent in the event (pload) to Adobe Campaign. </p> 
+  <p>In Adobe Campaign, you select the trigger that was previously created, you enrich the event data with datamart data and you define a transactional message template linked to that trigger. For example, when a client abandons his visit on your website, an event is sent to Adobe Campaign which can then leverage this event via a remarketing email that is sent to the client within 15 minutes.</p> 
+  <p>Related topics:</p> 
+  <ul>
+   <li><p>Learn about the different types of triggers: <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/triggers.html">Adobe Experience Cloud documentation</a>.</p> </li>
+   <li><p>Watch the <a class="anchorLink" href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two" target="_blank">Trigger Remarketing Messages based on Site Activity</a> video.</p> </li>
+   <li><p>Discover our two <a href="../../integrating/using/abandonment-triggers-use-cases.md" target="_blank">Abandonment Triggers use cases</a>.</p> </li>
+  </ul>
+  <h2>Triggers user process</h2>
+  <note>
+   <p> Before executing the main user steps, the functionality needs to be configured. For more on this refer to <a href="../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality" target="_blank">Activating the functionality</a>, <a href="../../integrating/using/configuring-triggers-in-experience-cloud.md#configuring-solutions-and-services" target="_blank">Configuring solutions and services</a> and <a href="../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign" target="_blank">Creating a mapped trigger in Campaign</a>. </p> 
+  </note>
+  <p>The main steps of the user process, in Adobe Campaign, are:</p> 
+  <ol>
+   <li><p>Create a trigger event linked to an existing Adobe Experience Cloud trigger.</p> </li>
+   <li><p>Publish the trigger event.</p> </li>
+   <li><p>Define the content of the transactional message template.</p> </li>
+   <li><p>Test the template (create a test profile and send a proof).</p> </li>
+   <li><p>Publish the transactional message template.</p> </li>
+  </ol>
+  <p>Complete use cases are described in <a href="../../integrating/using/abandonment-triggers-use-cases.md">this section</a>.</p> 
+  <h2>Important notes</h2>
+  <p>Here are some important notes to take into account before using the Triggers - Campaign integration:</p> 
+  <ul>
+   <li><p>Push notifications are not supported for triggers. Only Email and SMS are supported.</p> </li>
+   <li><p>You can enrich the trigger with meta data captured through Analytics such as email ID, page name, etc.</p> </li>
+   <li><p>You can reconcile the trigger to a profile stored in Campaign Standard and use the profile's fields to personalize the message.</p> </li>
+   <li><p>As soon a trigger is received, it is processed and reconciled and sent out. It takes about 5 to 15 minutes depending on the volume of triggers received, the number of personalization fields used in template.</p> </li>
+  </ul>
+  <note>
+   <p> For more on best practices and technical limitations, refer to <a href="../../integrating/using/configuring-triggers-in-experience-cloud.md#triggers-best-practices-and-limitations" target="_blank">Triggers best practices and limitations</a>. </p> 
+  </note>
+ </body>
+</html>

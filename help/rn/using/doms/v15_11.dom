@@ -1,0 +1,114 @@
+<html>
+ <head>
+  <meta content="2018-01-10T15:33:47.837-0500" name="topicBrowsingSortDate" />
+  <meta content="audience:rn" name="primaryAudienceTag" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-01-10T15:33:47.837-0500" name="lastPublishExternalDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-01-10T15:33:47.843-0500" name="cq:lastModified" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2017-11-16T10:46:35.419-0500" name="firstPublishExternalDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="v15.11" name="navTitle" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="dd047c74-16ad-4195-bdef-debb7f6e3b0d" name="jcr:predecessors" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2018-01-10T15:33:47.837-0500" name="publishExternalDate" />
+  <meta content="v15.11" name="jcr:title" />
+  <meta content="2018-01-11T19:01:57.129-0500" name="jcr:created" />
+  <meta content="sauviat" name="cq:lastModifiedBy" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="https://helpx.adobe.com/campaign/standard/rn/using/v15_11.html" name="publishExternalURL" />
+  <meta content="12/14/2015" name="jcr:description" />
+  <meta content="light" name="heroGradient" />
+  <meta content="72d96dc2-4f1b-4860-8e5a-65c3f4db7b94" name="jcr:uuid" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:rn;content_type:reference;topic_tags:adobe-campaign-standard-release-notes" name="cq:tags" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2017-11-28T11:30:52.193-0500" name="locHandOffDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+ </head>
+ <body>
+  <h2>Improvements</h2>
+  <table> 
+   <thead> 
+    <tr> 
+     <th> Functionality </th> 
+     <th> Description </th> 
+    </tr> 
+   </thead> 
+   <tbody> 
+    <tr> 
+     <td> SMS Channel </td> 
+     <td> You can now send SMS messages with Adobe Campaign. Just as for emails, you can create new SMS deliveries from your campaigns and from the list of marketing activities. You can also create single send and recurring SMS messages from a workflow. These SMS deliveries are based on templates that you can configure from the list of delivery templates. A default template is available. These SMS deliveries use the SMPP 3.4 protocol, used by most SMS routers. For more information, refer to the <a href="../../channels/using/about-sms-messages.md">detailed documentation</a>. </td> 
+    </tr> 
+    <tr> 
+     <td> Exploring transitions </td> 
+     <td> You can now explore the data and its structure in the last transition of a workflow. This allows you to check that the processes applied by each activity correspond to your needs. </td> 
+    </tr> 
+    <tr> 
+     <td> File pre- and post-processing in workflows </td> 
+     <td> You can now carry out additional processing on a data file when importing or exporting it via the <strong>Load file</strong> and <strong>Extract file</strong> activities. By default, you can unzip and zip a GZIP format file in these activities. For more information, refer to the documentation about the <a href="../../automating/using/load-file.md">Load file</a> and <a href="../../automating/using/extract-file.md">Extract file</a> activities. </td> 
+    </tr> 
+    <tr> 
+     <td> Deliverability reports </td> 
+     <td> An email rendering report is now available. This report allows you to view the different renderings of a message according to the support and message service used to read it. The report summary also presents the number of received messages, spam messages, unreceived messages, and messages awaiting reception. For more information, refer to the <a href="../../sending/using/email-rendering.md#email-rendering-report-description">detailed documentation</a>. </td> 
+    </tr> 
+    <tr> 
+     <td> Package Management </td> 
+     <td> It is now possible to import and export images in packages. </td> 
+    </tr> 
+    <tr> 
+     <td> Quick actions </td> 
+     <td> Certain actions appear when hovering over or after selecting an element in a list or a workflow. Some of these actions are now displayed as icons around the elements concerned in order to facilitate access. These quick actions can be used to duplicate an element, delete it, show the detail, etc. </td> 
+    </tr> 
+   </tbody> 
+  </table>
+  <h2>Patches</h2>
+  <h3>General</h3>
+  <ul>
+   <li><p>Fixed an error that could prevent access to an instance's general parameters from an administrator account.</p> </li>
+   <li><p><strong>Floating</strong> data is now correctly taken into account in the custom resources.</p> </li>
+   <li><p>Fixed a display error in the list of executed simplified imports which was caused when the status of the corresponding template had been modified.</p> </li>
+  </ul>
+  <h3>Landing pages</h3>
+  <ul>
+   <li><p>Fixed certain elements of landing page templates that could be incorrectly displayed in French on English instances.</p> </li>
+  </ul>
+  <h3>Audiences</h3>
+  <ul>
+   <li><p>Fixed an error that could prevent audiences imported from Adobe Marketing Cloud from appearing in the list of audiences.</p> </li>
+   <li><p>Fixed an error that could force case-sensitivity when defining a query.</p> </li>
+   <li><p>Fixed an error that could prevent audiences from being filtered when defining a query.</p> </li>
+   <li><p>Fixed an error that could prevent an action from being canceled in an audience.</p> </li>
+  </ul>
+  <h3>Workflows</h3>
+  <ul>
+   <li><p>Fixed an error that could prevent the fields that were to be updated in an <strong>Update data</strong> activity from manually being configured.</p> </li>
+   <li><p>Fixed an error that could cause the <strong>Query</strong> activity to load infinitely when opened if the workflow had not been saved after having placed the activity in the diagram.</p> </li>
+   <li><p>Fixed an error that could cause the server to stop while counting or previewing an audience selected from a <strong>Query</strong> in a workflow.</p> </li>
+   <li><p>Fixed a non-critical error that could appear when an activity in a workflow was opened.</p> </li>
+   <li><p>Fixed an error that prevented a <strong>Scheduler</strong> activity from being configured to execute a workflow several times a day.</p> </li>
+   <li><p>Fixed an error that could cause fields on which you cannot carry out a query to appear in certain workflow activities.</p> </li>
+   <li><p>Fixed an error that could prevent the user from locating the KPIs added from a <strong>Query</strong> on deliveries in the outbound transition.</p> </li>
+   <li><p>Fixed an error that could prevent a file audience from being created after importing a file into a workflow.</p> </li>
+   <li><p>Fixed an error that could prevent data from being updated on profiles if the <strong>location/address3</strong> field of the resource was used.</p> </li>
+   <li><p>Fixed an error that prevented heterogeneous collections of activities from being duplicated in a workflow.</p> </li>
+   <li><p>Fixed an error that prevented the SQL from being displayed, thus allowing errors to be diagnosed for a recurring delivery in a workflow.</p> </li>
+  </ul>
+  <h3>Content editor</h3>
+  <ul>
+   <li><p>Fixed an error that would make searching in the source code of a landing page or email impossible.</p> </li>
+  </ul>
+  <h3>Packages</h3>
+  <ul>
+   <li><p>Fixed various errors that could prevent certain types of elements from being exported in packages (particularly landing pages, workflows).</p> </li>
+   <li><p>Fixed an error that would cause the former package import label to display if the label had been modified.</p> </li>
+   <li><p>Fixed an error that could cause incompatible resources to be displayed in the list of exportable resources.</p> </li>
+  </ul>
+ </body>
+</html>

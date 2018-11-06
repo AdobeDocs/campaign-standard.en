@@ -1,0 +1,60 @@
+<html> 
+ <head> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="0fa8fb93-b610-40cd-b66b-9e91b3e5a63c" name="jcr:uuid" /> 
+  <meta content="2018-07-23T07:30:32.437-0400" name="jcr:created" /> 
+  <meta content="2018-07-30T04:53:53.565-0400" name="locHandOffDate" /> 
+  <meta content="2018-07-30T04:53:53.566-0400" name="cq:lastModified" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="Discover the specificity of the transliteration options when personalizing SMS messages." name="seoDescription" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2018-07-23T06:02:47.192-0400" name="firstPublishExternalDate" /> 
+  <meta content="sauviat" name="cq:lastReplicatedBy" /> 
+  <meta content="cd6575be-9127-4d6c-9ff2-2968de8c4656" name="jcr:predecessors" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-07-23T06:02:47.241-0400" name="cq:lastReplicated" /> 
+  <meta content="audience:channels" name="primaryAudienceTag" /> 
+  <meta content="https://helpx.adobe.com/campaign/standard/channels/using/personalizing-sms-messages.html" name="publishExternalURL" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2018-07-23T06:02:47.192-0400" name="lastPublishExternalDate" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2018-07-23T06:02:47.192-0400" name="topicBrowsingSortDate" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
+  <meta content="Personalizing SMS messages" name="navTitle" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:channels;content_type:reference;topic_tags:sms-messages" name="cq:tags" /> 
+  <meta content="2018-07-23T06:02:47.192-0400" name="publishExternalDate" /> 
+  <meta content="Personalizing SMS messages" name="jcr:description" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="Personalizing SMS messages" name="jcr:title" /> 
+ </head> 
+ <body> 
+  <p>The principles for personalizing SMS messages are the same as those for <a href="../../designing/using/inserting-a-personalization-field.md">emails</a>. You must nevertheless be aware of the transliteration options as these can impact the encoding and therefore the number of SMS messages to send. For more on this, refer to the <a href="../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration">Transliteration and SMS length</a> section.</p> 
+  <p>Here we take a sample SMS message containing personalization fields which, depending on whether or not transliteration has been selected, will not generate the same number of sends:</p> 
+  <p><strong>'Hey 
+    <firstname> 
+     <lastname>
+       , new products now available. Come and check them out in store!' 
+     </lastname> 
+    </firstname></strong></p> 
+  <ul> 
+   <li><p>For a recipient named 'John Smith', as it contains no special characters, Adobe Campaign will choose GSM encoding which will authorize up to 160 characters per SMS message. The message will therefore be sent in a single part.</p> </li> 
+   <li><p>For a recipient named 'Raphaël Forêt', the characters 'ë' and 'ê' cannot be encoded in GSM. Depending on whether transliteration has been enabled or not, Adobe Campaign can select between two behaviors:</p> 
+    <ul> 
+     <li><p>If transliteration is authorized 'ë' and 'ê' will be replaced by 'e', which means GSM encoding can be used and so up to 160 characters can be used in the SMS. This message will be sent as a single SMS message, but it will be slightly altered.</p> </li> 
+     <li><p>If transliteration is not authorized, Adobe Campaign will choose to send the message in binary format (Unicode): all of the characters will therefore be sent as such. As the SMS messages in Unicode are limited to 70 characters Adobe Campaign will have to send the message in two parts.</p> </li> 
+    </ul></li> 
+  </ul> 
+  <note> 
+   <p> The algorithm which automatically chooses the best encoding is executed independently for each message, case by case. This way, only the personalized messages that require Unicode encoding will be sent in Unicode; all the others will use GSM encoding. </p> 
+  </note> 
+ </body> 
+</html>

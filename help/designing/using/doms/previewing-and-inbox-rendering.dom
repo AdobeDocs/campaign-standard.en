@@ -1,0 +1,48 @@
+<html>
+ <head>
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-05-07T05:07:11.402-0400" name="topicBrowsingSortDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="a22ac297-d6c3-4d09-8dbe-69a6add969e8" name="jcr:uuid" />
+  <meta content="2018-05-07T05:07:11.402-0400" name="lastPublishExternalDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-05-07T05:07:11.402-0400" name="firstPublishExternalDate" />
+  <meta content="Previewing and inbox rendering" name="navTitle" />
+  <meta content="Previewing and inbox rendering" name="jcr:title" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="audience:designing" name="primaryAudienceTag" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:designing-email-content" name="cq:tags" />
+  <meta content="2018-05-28T03:32:26.548-0400" name="cq:lastModified" />
+  <meta content="light" name="heroGradient" />
+  <meta content="cbc99299-6ff6-4543-8cb4-afd4e92d6a7f" name="jcr:predecessors" />
+  <meta content="2018-05-07T05:07:11.402-0400" name="publishExternalDate" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-03-27T07:29:06.572-0400" name="jcr:created" />
+  <meta content="Previewing and inbox rendering" name="jcr:description" />
+  <meta content="https://helpx.adobe.com/campaign/standard/designing/using/previewing-and-inbox-rendering.html" name="publishExternalURL" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="" name="seoDescription" />
+  <meta content="2018-05-28T03:32:26.547-0400" name="locHandOffDate" />
+  <meta content="2018-05-07T05:07:11.490-0400" name="cq:lastReplicated" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+ </head>
+ <body>
+  <p>Once the content of your email is ready, you can preview it. The preview mode offers different views of the email: web and mobile versions.</p> 
+  <p>To perform and inbox rendering using Litmus, refer to <a href="../../sending/using/email-rendering.md">this document</a>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/email_designer_preview.png" title="" />
+  <ol>
+   <li><p>Select <strong>Preview</strong> to access the preview mode of the content.</p> </li>
+   <li><p>Select a test profile if you want to test the personalization and dynamic content display.</p> <p>Dynamic content fragments are highlighted in orange.</p> </li>
+   <li><p>To exit the <strong>Preview</strong> mode, select <strong>Edit</strong> in the top bar of the editor.</p> </li>
+  </ol>
+ </body>
+</html>

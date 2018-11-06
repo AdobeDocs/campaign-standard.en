@@ -1,0 +1,46 @@
+<html>
+ <head>
+  <meta content="" name="jcr:primaryType" />
+  <meta content="4d970d9e-f844-48d1-8ef6-e07fd6c1fd37" name="jcr:predecessors" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="About profiles" name="jcr:description" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="https://helpx.dev.adobe.com/campaign/standard/audiences/using/about-profiles.html" name="publishExternalURL" />
+  <meta content="2018-03-15T09:01:48.915-0400" name="jcr:created" />
+  <meta content="Contacts are stored as profiles in Campaign database, and updated through their entire life cycle." name="seoDescription" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2018-07-25T09:29:10.242-0400" name="locHandOffDate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="xmtech@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="qatest3" name="cq:lastReplicatedBy" />
+  <meta content="About profiles" name="navTitle" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="audience:audiences" name="primaryAudienceTag" />
+  <meta content="370cd6ed-3475-4437-98d9-cc8a253aee02" name="jcr:uuid" />
+  <meta content="About profiles" name="jcr:title" />
+  <meta content="light" name="heroGradient" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-07-23T05:55:18.850-0400" name="firstPublishExternalDate" />
+  <meta content="2018-08-01T13:46:29.232-0400" name="lastPublishExternalDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:audiences;content_type:reference;topic_tags:managing-profiles" name="cq:tags" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-08-01T13:46:29.232-0400" name="topicBrowsingSortDate" />
+  <meta content="2018-08-01T13:46:29.232-0400" name="publishExternalDate" />
+  <meta content="2018-08-01T13:46:29.237-0400" name="cq:lastModified" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-08-01T13:46:29.250-0400" name="cq:lastReplicated" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+ </head>
+ <body>
+  <p>Adobe Campaign lets you manage contacts throughout their entire life cycle: creation, import, targeting, action tracking, updates, etc. Contacts are stored in the database as profiles containing the information linked to them: last name, first name, address, subscriptions, deliveries, etc.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/marketing_history.png" title="" />
+  <p>When you create campaigns, you can define the target of the deliveries by selecting profiles according to simple or advanced criteria. Technically, a profile is an entry in the database that contains all the information required for targeting, qualifying and tracking behaviours. </p> 
+  <p>A profile can be: a client, a prospect, an individual subscribed to a newsletter, a recipient, a user, or any other denomination depending on your organization. To define various types of profiles, use <a href="../../automating/using/query.md#targeting-dimensions-and-resources">targeting dimensions</a>.</p> 
+  <p> </p> 
+ </body>
+</html>

@@ -1,0 +1,72 @@
+<html> 
+ <head> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="Inserting tracking links" name="jcr:title" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="Learn how to add links to the HTML content elements of an email." name="seoDescription" /> 
+  <meta content="2018-04-04T11:46:12.986-0400" name="cq:lastModified" /> 
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="7bbf0c55-a6b4-4994-918a-c179a9462f55" name="jcr:uuid" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2018-03-26T11:12:39.032-0400" name="lastPublishExternalDate" /> 
+  <meta content="2018-03-26T11:12:40.348-0400" name="cq:lastReplicated" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="audience:designing" name="primaryAudienceTag" /> 
+  <meta content="2018-03-26T11:12:39.032-0400" name="firstPublishExternalDate" /> 
+  <meta content="2018-04-04T11:46:12.984-0400" name="locHandOffDate" /> 
+  <meta content="Inserting tracking links" name="jcr:description" /> 
+  <meta content="2018-03-26T11:12:39.032-0400" name="publishExternalDate" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:editing-message-and-landing-page-content" name="cq:tags" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-03-26T11:12:39.032-0400" name="topicBrowsingSortDate" /> 
+  <meta content="Inserting tracking links" name="navTitle" /> 
+  <meta content="2018-03-15T09:02:10.688-0400" name="jcr:created" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="sauviat" name="cq:lastReplicatedBy" /> 
+  <meta content="https://helpx.adobe.com/campaign/standard/designing/using/inserting-tracking-links.html" name="publishExternalURL" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
+  <meta content="7d00f2fc-15a4-48ff-99ec-d2e8d5b9a88d" name="jcr:predecessors" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+ </head> 
+ <body> 
+  <p>The content editor allows you to personalize your email by inserting links into the HTML content elements.</p> 
+  <p>The following types of links are available: </p> 
+  <ul> 
+   <li><p>Link to an external URL</p> </li> 
+   <li><p>Link to a landing page</p> </li> 
+   <li><p>Subscription link</p> </li> 
+   <li><p>Unsubscription link</p> </li> 
+  </ul> 
+  <note> 
+   <p> The creation and configuration of these links are detailed in the <a href="../../designing/using/adding-a-link.md" target="_blank">Adding a link</a> section. </p> 
+  </note> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/delivery_content_edition4.png" title="" /> 
+  <p>The <strong>Tracked URLs</strong> icon in the action bar automatically displays the list of all the URLs included in the content.</p> 
+  <p>Tracking is activated by default.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/delivery_content_edition13.png" title="" /> 
+  <note> 
+   <p> This functionality is only available if tracking has been activated in Adobe Campaign. </p> 
+  </note> 
+  <p>The list of tracked URLs is divided into two zones:</p> 
+  <ul> 
+   <li><p>HTML, for the tracked URLs in the HTML content.</p> </li> 
+   <li><p>Text, for the tracked URLs in the text content.</p> </li> 
+  </ul> 
+  <p>The label and the category of each URL can be modified directly from the list.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/delivery_content_edition14.png" title="" /> 
+  <p>For each tracked URL you can activate or deactivate tracking.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/delivery_content_edition15.png" title="" /> 
+  <note> 
+   <p> The URLs are detected by Adobe Campaign if they start with: "&amp;lt;%@" "&amp;lt;!--" "[protocol]://" </p> 
+  </note> 
+  <p>You can regroup your URLs by editing the <strong>Category</strong> field, depending on the URLs used in the delivery. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/delivery_content_edition18.png" title="" /> 
+ </body> 
+</html>

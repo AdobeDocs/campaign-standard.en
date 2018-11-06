@@ -1,0 +1,44 @@
+<html>
+ <head>
+  <meta content="User process" name="jcr:title" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:integrating;content_type:reference;topic_tags:marketing-cloud-triggers" name="cq:tags" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-01-10T15:24:17.335-0500" name="topicBrowsingSortDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="4e267f32-4b8e-4dc2-9f30-6d66564fe7c5" name="jcr:predecessors" />
+  <meta content="https://helpx.adobe.com/campaign/standard/integrating/using/user-process.html" name="publishExternalURL" />
+  <meta content="User process" name="jcr:description" />
+  <meta content="Learn the main steps of the user process before using the Adobe Marketing Cloud Triggers integration." name="seoDescription" />
+  <meta content="2018-01-10T15:24:17.335-0500" name="firstPublishExternalDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="cb63dc6e-d677-4136-a235-ec442c7e150d" name="jcr:uuid" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="User process" name="navTitle" />
+  <meta content="2018-01-11T19:01:21.218-0500" name="jcr:created" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-01-10T15:24:17.335-0500" name="publishExternalDate" />
+  <meta content="audience:integrating" name="primaryAudienceTag" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2018-01-10T15:24:17.335-0500" name="lastPublishExternalDate" />
+  <meta content="2018-01-10T15:24:17.345-0500" name="cq:lastModified" />
+  <meta content="sauviat" name="contentOwner" />
+ </head>
+ <body>
+  <p>Prerequisites: the feature must be activated in Campaign and you need to have defined triggers in Adobe Marketing Cloud (<strong>Triggers</strong> core service). For more on this refer to <a href="../../integrating/using/configuration.md#activating-the-functionality" target="_blank">Activating the functionality</a> and <a href="../../integrating/using/configuration.md#amc-prerequisites" target="_blank">AMC Prerequisites</a>.</p> 
+  <p>The main steps of the user process, in Adobe Campaign, are:</p> 
+  <ol>
+   <li><p>Create a trigger event linked to an existing Adobe Marketing Cloud trigger.</p> </li>
+   <li><p>Publish the trigger event.</p> </li>
+   <li><p>Define the content of the transactional message template.</p> </li>
+   <li><p>Test the template (create a test profile and send a proof).</p> </li>
+   <li><p>Publish the transactional message template.</p> </li>
+  </ol>
+ </body>
+</html>

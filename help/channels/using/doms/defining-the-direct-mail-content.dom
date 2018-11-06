@@ -1,0 +1,69 @@
+<html>
+ <head>
+  <meta content="en_us" name="jcr:language" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="light" name="heroGradient" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="Defining the direct mail content" name="jcr:description" />
+  <meta content="2018-07-23T06:02:57.566-0400" name="publishExternalDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-07-23T06:02:57.566-0400" name="topicBrowsingSortDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Defining the direct mail content" name="navTitle" />
+  <meta content="audience:channels" name="primaryAudienceTag" />
+  <meta content="2018-07-23T06:02:57.598-0400" name="cq:lastReplicated" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-03-15T09:02:07.731-0400" name="jcr:created" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="Learn how to define the content for your direct mail delivery." name="seoDescription" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:channels;content_type:reference;topic_tags:direct-mail" name="cq:tags" />
+  <meta content="2018-07-23T06:02:57.566-0400" name="firstPublishExternalDate" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-07-30T04:54:04.086-0400" name="cq:lastModified" />
+  <meta content="2018-07-23T06:02:57.566-0400" name="lastPublishExternalDate" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="f18c09f6-e8bd-44da-b37b-6de3b6949db5" name="jcr:predecessors" />
+  <meta content="a075d937-e7de-4ce4-8a45-140fb0961831" name="jcr:uuid" />
+  <meta content="https://helpx.adobe.com/campaign/standard/channels/using/defining-the-direct-mail-content.html" name="publishExternalURL" />
+  <meta content="Defining the direct mail content" name="jcr:title" />
+  <meta content="2018-07-30T04:54:04.086-0400" name="locHandOffDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+ </head>
+ <body>
+  <p>You can either define the content in the last screen of the creation wizard or by clicking on the <strong>Content</strong> section of the delivery dashboard.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/direct_mail_6.png" title="" />
+  <p>The <strong>Content</strong> definition screen is specific to the direct mail channel. It is divided into four tabs: <strong>Extraction</strong>, <strong>File structure</strong>, <strong>Header</strong> and <strong>Footer</strong>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/direct_mail_11.png" title="" />
+  <h2>Defining the extraction</h2>
+  <ol>
+   <li><p>Start by defining the name of the extraction file. Click on the button to the right of the <strong>Output file</strong> field and enter the desired label. You can use personalization fields, content blocks and dynamic text (see <a href="../../designing/using/example--email-personalization.md">Defining content</a>). For example, you can complete the label with the delivery ID or the extraction date. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/direct_mail_12.png" title="" /></li>
+   <li><p>Click the <strong>+</strong> or <strong>Add an element</strong> button to add an output column. The <strong>Output columns</strong> let you define the profile information (columns) to be exported into the output file. </p> 
+    <note>
+     <p> Make sure that your profiles include a postal address as this information is essential to the direct mail provider. Also make sure you have checked the <strong>Address specified</strong> box in your profiles' information. See <a href="../../channels/using/about-direct-mail.md#recommendations" target="_blank">Recommendations</a>. </p> 
+    </note><img alt="" captionBottom="" imageRotate="0" src="assets/direct_mail_13.png" title="" /></li>
+   <li><p>Create as many columns as you need. You can edit columns by clicking their expressions and labels.</p> </li>
+  </ol>
+  <note>
+   <p> For more information on output column definition, refer to the <a href="../../automating/using/extract-file.md">Extract file</a> workflow activity section. </p> 
+  </note>
+  <h2>Defining the file structure</h2>
+  <p>The <strong>File structure</strong> tab allows you to configure the output, date, and number formats for the file that will be exported.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/direct_mail_14.png" title="" />
+  <note>
+   <p> The available options are detailed in the <a href="../../automating/using/extract-file.md">Extract file</a> workflow activity sections. </p> 
+  </note>
+  <h2>Defining the header and footer</h2>
+  <p>Sometimes you may need to add information at the beginning or at the end of the extraction file. For this, use the <strong>Header</strong> and <strong>Footer</strong> tabs of the <strong>Content</strong> configuration screen. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/direct_mail_7.png" title="" />
+  <p>For example, you might want to include, for the direct mail provider, the sender information in the header of the file. It is possible to personalize the footer and header with information available in the context of the delivery. See <a href="../../designing/using/example--email-personalization.md">Defining content</a>.</p> 
+  <p>The sender address is defined in the <strong>Send</strong> section of the direct mail properties or at the template level.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/direct_mail_24.png" title="" />
+ </body>
+</html>

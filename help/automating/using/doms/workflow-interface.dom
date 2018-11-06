@@ -1,0 +1,274 @@
+<html>
+ <head>
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2018-07-23T05:56:47.778-0400" name="lastPublishExternalDate" />
+  <meta content="2018-03-15T09:01:21.688-0400" name="jcr:created" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="Workflow interface" name="jcr:description" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="Workflow interface" name="jcr:title" />
+  <meta content="2018-07-23T05:56:47.778-0400" name="topicBrowsingSortDate" />
+  <meta content="2018-07-23T05:56:47.778-0400" name="firstPublishExternalDate" />
+  <meta content="4e4519e9-c15a-48fd-acb7-41b2b34a5184" name="jcr:predecessors" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="bf8f91e4-d904-4162-b453-06f5fa9c15cc" name="jcr:uuid" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2018-07-25T09:29:12.252-0400" name="cq:lastModified" />
+  <meta content="audience:automating" name="primaryAudienceTag" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/workflow-interface.html" name="publishExternalURL" />
+  <meta content="Learn the interface and options to create, edit and execute a workflow." name="seoDescription" />
+  <meta content="Workflow interface" name="navTitle" />
+  <meta content="2018-07-25T09:29:12.252-0400" name="locHandOffDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="2018-07-23T05:56:47.823-0400" name="cq:lastReplicated" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:about-workflows-and-data-management" name="cq:tags" />
+  <meta content="light" name="heroGradient" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-07-23T05:56:47.778-0400" name="publishExternalDate" />
+  <meta content="" name="jcr:versionHistory" />
+ </head>
+ <body>
+  <p>You can create workflows to manage entire processes in your campaigns and programs.</p> 
+  <p>The workflow editing screen is made up of the following elements:</p> 
+  <ul>
+   <li><p>The <a href="../../automating/using/workflow-interface.md#palette" target="_blank">Palette</a>, which references the available activities</p> </li>
+   <li><p>The <a href="../../automating/using/workflow-interface.md#workspace" target="_blank">Workspace</a>, in which the activities are configured and organized</p> </li>
+   <li><p>The <a href="../../automating/using/workflow-interface.md#action-bar" target="_blank">Action bar</a>, which is made up of buttons that allow you to interact with the workflow and/or its components.</p> </li>
+   <li><p>The <a href="../../automating/using/workflow-interface.md#quick-actions" target="_blank">Quick actions</a>, which appear around a selected activity, allow you to interact with it.</p> </li>
+  </ul>
+  <img alt="" captionBottom="" imageRotate="0" src="assets/wkf_overview.png" title="" />
+  <h2>Palette</h2>
+  <p>The palette is on the left-hand side of the screen. All available activities are sorted into several categories:</p> 
+  <ul>
+   <li><p> <a href="../../automating/using/about-targeting-activities.md">Targeting</a>: activities specific to targeting, manipulating population data, and filtering activities</p> </li>
+   <li><p> <a href="../../automating/using/about-execution-activities.md">Execution</a>: activities specific to organizing and executing workflows</p> </li>
+   <li><p> <a href="../../automating/using/about-channel-activities.md">Channels</a>: activities representing the different available communication channels</p> </li>
+   <li><p> <a href="../../automating/using/about-data-management-activities.md">Data Management (ETL)</a>: activities specific to manipulating data</p> </li>
+  </ul>
+  <p>To use an activity from the palette in your workflow, drag and drop it into your workspace.</p> 
+  <p>You have to configure each activity added from the palette before starting the workflow.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/workflow_palette.png" title="" />
+  <h2>Workspace</h2>
+  <p>The workspace is the central zone in the workflow editor. It is in this zone that you can drop your activities, link them together using transitions, and configure them.</p> 
+  <p>To link two activities, move the end of the arrow from the first activity up to the following activity until they connect. You can also move the activity towards the point of the arrow behind it in order to link it to the preceding activity. If you move any of the activities, they will stay linked. </p> 
+  <p>Transitions following activities that process data contain the intermediary populations. You can access them if you check the <strong>Keep interim results</strong> option in the <strong>Execution</strong> section of the workflow properties.</p> 
+  <p>When an activity is selected, quick actions appear around the activity, allowing you to interact with it. For example, to configure an activity, select it then open it using the <img height="21px" src="assets/edit_darkgrey-24px_table.png" /> button in the quick actions.</p> 
+  <p>Certain functions are only enabled in the workspace:</p> 
+  <ul>
+   <li><p>Select several activities and transitions by drawing a zone around them.</p> </li>
+   <li><p>Press <strong>Ctrl</strong> + left click to select several activities and/or transitions.</p> </li>
+   <li><p>Press <strong>Enter</strong> to view the detail of the currently selected activity or transition.</p> </li>
+   <li><p>Press <strong>Delete</strong> to delete the currently selected activity.</p> </li>
+  </ul>
+  <img alt="" captionBottom="" imageRotate="0" src="assets/workflow_workspace.png" title="" />
+  <h2>Action bar</h2>
+  <p>Depending on the elements selected in the workspace or on the workflow's execution status, the buttons available in the action bar may vary.</p> 
+  <table> 
+   <thead> 
+    <tr> 
+     <th> Button<br /> </th> 
+     <th> No selection<br /> </th> 
+     <th> Single-selection<br /> </th> 
+     <th> Multi-selection<br /> </th> 
+     <th> Running<br /> </th> 
+     <th> Description<br /> </th> 
+    </tr> 
+   </thead> 
+   <tbody> 
+    <tr> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> Allows you to edit the workflow's properties.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> Starts the workflow.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> Pauses the workflow.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> Interrupts workflow execution. Cannot be resumed from where it was stopped.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> Restarts the workflow.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> Opens the workflow's execution log.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> Enables multi-selection mode. The workflow must be made up of at least two activities.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> Disables multi-selection mode.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> Opens the selected transition.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> Re-enables selection if it has previously been disabled or marked as paused.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> Pauses the workflow at the selected activity.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> Disables the activity.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> Deletes the activities that are selected.<br /> </td> 
+    </tr> 
+   </tbody> 
+  </table>
+  <h2>Quick actions</h2>
+  <p>When an activity is selected, quick action buttons appear around the activity, allowing you to interact with it.</p> 
+  <table> 
+   <thead> 
+    <tr> 
+     <th> Button<br /> </th> 
+     <th> No selection<br /> </th> 
+     <th> Single-selection<br /> </th> 
+     <th> Multi-selection<br /> </th> 
+     <th> Running<br /> </th> 
+     <th> Description<br /> </th> 
+    </tr> 
+   </thead> 
+   <tbody> 
+    <tr> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> Disables selecting the activity.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> Opens the selected activity.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> Opens the advanced options of the Email or SMS delivery activity selected.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> Re-enables selection if it has previously been disabled or marked as paused.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> Pauses the workflow at the selected activity.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> Disables the activity.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> Forces immediate processing of the selection. This button is only available for the <strong>Scheduler</strong> and <strong>Wait</strong> activities.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> Deletes the activities that are selected.<br /> </td> 
+    </tr> 
+   </tbody> 
+  </table>
+ </body>
+</html>

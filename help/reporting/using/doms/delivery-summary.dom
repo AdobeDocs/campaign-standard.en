@@ -1,0 +1,58 @@
+<html>
+ <head>
+  <meta content="2018-03-15T09:02:19.131-0400" name="jcr:created" />
+  <meta content="Delivery summary" name="jcr:description" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="With the Delivery summary out-of-the-box report, learn about your deliveries statistics, such as number of sends, bounces and opens." name="seoDescription" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="0109086e-d076-4282-bc0d-4af68bd5f9ea" name="jcr:uuid" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2018-07-23T06:00:13.811-0400" name="firstPublishExternalDate" />
+  <meta content="2018-07-23T06:00:13.811-0400" name="lastPublishExternalDate" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="7e597b99-1c36-4eeb-af8b-ee94c8bf1ebb" name="jcr:predecessors" />
+  <meta content="Delivery summary" name="jcr:title" />
+  <meta content="2018-07-23T06:00:13.811-0400" name="publishExternalDate" />
+  <meta content="2018-07-27T03:26:38.372-0400" name="cq:lastModified" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:reporting;content_type:reference;topic_tags:list-of-reports" name="cq:tags" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-07-27T03:26:38.371-0400" name="locHandOffDate" />
+  <meta content="https://helpx.adobe.com/campaign/standard/reporting/using/delivery-summary.html" name="publishExternalURL" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-07-23T06:00:13.869-0400" name="cq:lastReplicated" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="light" name="heroGradient" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="Delivery summary" name="navTitle" />
+  <meta content="2018-07-23T06:00:13.811-0400" name="topicBrowsingSortDate" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="audience:reporting" name="primaryAudienceTag" />
+ </head>
+ <body>
+  <p>The <strong>Delivery summary</strong> report details the main information relative to an email, or several emails.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/campaign_reports_1.png" title="" />
+  <p>Each table is represented by summary numbers and charts. You can change how the details are shown in their respective visualization settings.</p> 
+  <p>The <strong>Delivery statistics</strong> table contains the data available for sent emails, such as:</p> 
+  <ul>
+   <li><p><strong>Sent</strong>: The total number of sends for the delivery.</p> </li>
+   <li><p><strong>Delivered</strong>: The number of messages successfully sent, in relation to the total number of sent messages. Errors raised (bounces) are taken into account. However, complaints (spam declarations) and away messages such as "out of office" are not taken into account.</p> </li>
+   <li><p><strong>Bounces + Errors</strong>: The number of total errors cumulated during delivery and automatic return processing in relation to the total number of sent messages. </p> </li>
+  </ul>
+  <p>The <strong>Open and clicks</strong> table, contains the available data for recipient activity for each delivery, such as:</p> 
+  <ul>
+   <li><p><strong>Click</strong>: The number of times a content was clicked in a delivery.</p> </li>
+   <li><p><strong>Open</strong>: The number of times a message was opened in a delivery.</p> </li>
+   <li><p><strong>Unique opens</strong>: The number of recipients who opened the delivery.</p> </li>
+   <li><p><strong>Unique clicks</strong>: The number of recipients who clicked on a content in a delivery.</p> </li>
+  </ul>
+  <p>The <strong>Domain repartition</strong> table displays the status of deliveries according to the recipient's domain.</p> 
+ </body>
+</html>

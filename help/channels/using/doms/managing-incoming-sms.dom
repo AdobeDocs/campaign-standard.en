@@ -1,0 +1,79 @@
+<html>
+ <head>
+  <meta content="2018-07-30T04:53:53.745-0400" name="cq:lastModified" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="196861fa-403a-4af0-bc5c-bb241872a267" name="jcr:predecessors" />
+  <meta content="2018-07-23T06:02:48.090-0400" name="cq:lastReplicated" />
+  <meta content="Managing incoming SMS" name="jcr:title" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:channels;content_type:reference;topic_tags:sms-messages" name="cq:tags" />
+  <meta content="light" name="heroGradient" />
+  <meta content="https://helpx.adobe.com/campaign/standard/channels/using/managing-incoming-sms.html" name="publishExternalURL" />
+  <meta content="2018-03-15T09:02:14.075-0400" name="jcr:created" />
+  <meta content="2018-07-23T06:02:47.995-0400" name="topicBrowsingSortDate" />
+  <meta content="Managing incoming SMS" name="jcr:description" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-07-23T06:02:47.995-0400" name="publishExternalDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="2018-07-23T06:02:47.995-0400" name="lastPublishExternalDate" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="audience:channels" name="primaryAudienceTag" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="Learn how to manage STOP SMS and store incoming SMS in Adobe Campaign." name="seoDescription" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-07-30T04:53:53.745-0400" name="locHandOffDate" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-07-23T06:02:47.995-0400" name="firstPublishExternalDate" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="Managing incoming SMS" name="navTitle" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2e45ce81-67f9-4b57-b3f6-4f476859b77b" name="jcr:uuid" />
+ </head>
+ <body>
+  <h2>Managing STOP SMS</h2>
+  <p>When a profile replies to an SMS message which was sent via Campaign, you can configure messages which are automatically sent back to him as well as the action to perform.</p> 
+  <p> This configuration is defined in the <strong>Automatic reply sent to the MO</strong> section of the <a href="../../administration/using/configuring-sms-channel.md#defining-an-sms-routing">SMS Routing external account</a>. MO stands for 'Mobile Originated', which means that you can configure an auto-reply to the mobile who sent the SMS.</p> 
+  <p>To do so:</p> 
+  <ol>
+   <li><p>From the advanced menu, via the Adobe Campaign logo, select <strong>Administration &gt; Application settings &gt; External accounts</strong> then the <strong>SMS routing via SMPP</strong> external account.</p> </li>
+   <li><p>Under the <strong>Automatic reply sent to the MO</strong> category, click <strong>Create element</strong> to start configuring your automatic reply.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/sms_mo_1.png" title="" /></li>
+   <li><p>Choose the keyword that will trigger this automatic reply. The keywords are not case-sensitive. For example, here, if recipients send the keyword "STOP", they will receive the automatic reply.</p> <p>Leave this column empty if you want to send the same reply no matter what the keyword is.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/sms_mo_2.png" title="" /></li>
+   <li><p>In the <strong>Short code</strong> field, specify a number that is usually used to send deliveries and will serve as a sender name. You can also decide to leave the <strong>Short code</strong> column empty, to send the same reply no matter what the short code.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/sms_mo_4.png" title="" /></li>
+   <li><p>Type in the answer you want to send to your recipients in the field <strong>Answer</strong>.</p> <p>To carry out an action without sending a reply, leave the <strong>Answer</strong> column empty. For example, this allows you to remove from quarantine the phone number of a user who replies with a message other than "STOP".</p> <img alt="" captionBottom="" imageRotate="0" src="assets/sms_mo_3.png" title="" /></li>
+   <li><p>In the <strong>Additional action</strong> field, link an action to your automatic reply:</p> 
+    <ul>
+     <li><p>The <strong>Blacklist</strong> action automatically quarantines the profile phone number.</p> </li>
+     <li><p>The <strong>Unblacklist</strong> action removes the profile phone number from quarantine.</p> </li>
+     <li><p>The <strong>None</strong> action allows you to only send the message to your recipients without carrying an action.</p> </li>
+    </ul><p>For example, in the configuration below, if recipients send the keyword "STOP", they will automatically receive an unsubscription confirmation and their phone number will be sent to quarantine with the <strong>Blacklisted</strong> status. This status refers to the phone number only, the profile is not blacklisted so that the user continues receiving email messages.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/sms_mo.png" title="" /></li>
+  </ol>
+  <p>Your recipients can now be automatically unsubscribed to your messages and sent to quarantine with this automatic reply. The quarantined recipients are listed in the <strong>Addresses</strong> table available through the <strong>Administration</strong> &gt; <strong>Channels</strong> &gt; <strong>Quarantines</strong> menu. For more information on quarantines, refer to this <a href="../../sending/using/understanding-quarantine-management.md">section</a>.</p> 
+  <p>These incoming SMS can be stored if needed. For more information on this, refer to this <a href="../../channels/using/managing-incoming-sms.md#storing-incoming-sms">section</a>.</p> 
+  <h2>Storing incoming SMS</h2>
+  <p>In the <strong>SMS routing via SMPP</strong> external account, you can choose to store incoming messages for example when a subscriber replies "STOP" to an SMS message in order to be removed from your recipient lists.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/sms_config_mo_1.png" title="" />
+  <p>By checking <strong>Store incoming MO in the database</strong> in the <strong>SMPP channel settings</strong> category, all SMS will be stored in the inSMS table and can be retrieved via a query activity in a workflow.</p> 
+  <p>To do so:</p> 
+  <ol>
+   <li><p>In the <strong>SMPP channel settings</strong> field, check <strong>Store incoming MO in the database</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/sms_config_mo_2.png" title="" /></li>
+   <li><p>In the <strong>Marketing activities</strong> tab, click <strong>Create</strong> then select <strong>Workflow</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/sms_config_mo_3.png" title="" /></li>
+   <li><p>Select your workflow type.</p> </li>
+   <li><p>Edit the properties of your workflow, then click <strong>Create</strong>. For more on workflows creation, refer to this <a href="../../automating/using/building-a-workflow.md">section</a>.</p> </li>
+   <li><p>Drag and drop a <strong>Query</strong> activity and double-click the activity.</p> </li>
+   <li><p>In the <strong>Properties</strong> tab of the query, choose <strong>Incoming SMS (inSMS)</strong> in the <strong>Resource</strong> field.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/sms_config_mo_4.png" title="" /></li>
+   <li><p>Then, in the <strong>Target</strong> tab, drag and drop the <strong>Incoming SMS attributes</strong> rule.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/sms_config_mo_5.png" title="" /></li>
+   <li><p>Here, we want to target every incoming message from the day before. In the <strong>Field</strong> category, select <strong>Creation date (created)</strong>.</p> </li>
+   <li><p>In <strong>Filter type</strong>, select <strong>Relative</strong> then in <strong>Level of precision</strong>, choose <strong>Day</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/sms_config_mo_6.png" title="" /></li>
+   <li><p>You can then choose to retrieve data from today, the day before or the last few days. Click <strong>Confirm</strong> when your query is configured.</p> </li>
+  </ol>
+  <p>This query will retrieve every STOP message received depending on the chosen time range. </p> 
+  <p>The activity allows you for example to build a population and better personalize your deliveries.</p> 
+ </body>
+</html>

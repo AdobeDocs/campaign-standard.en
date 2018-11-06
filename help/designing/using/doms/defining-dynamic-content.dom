@@ -1,0 +1,103 @@
+<html>
+ <head>
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="fc89d889-ba99-457f-8235-684f414bc813" name="jcr:uuid" />
+  <meta content="2018-06-25T08:45:12.478-0400" name="cq:lastModified" />
+  <meta content="audience:designing" name="primaryAudienceTag" />
+  <meta content="2018-06-14T08:43:46.226-0400" name="topicBrowsingSortDate" />
+  <meta content="2018-06-25T08:45:12.478-0400" name="locHandOffDate" />
+  <meta content="light" name="heroGradient" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Defining dynamic content" name="jcr:title" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-06-14T08:43:46.226-0400" name="lastPublishExternalDate" />
+  <meta content="Defining dynamic content" name="navTitle" />
+  <meta content="Defining dynamic content" name="jcr:description" />
+  <meta content="Follow these steps to display different contents dynamically to the user according to the conditions defined through the Adobe Campaign expression editor." name="seoDescription" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="https://helpx.adobe.com/campaign/standard/designing/using/defining-dynamic-content.html" name="publishExternalURL" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:editing-message-and-landing-page-content" name="cq:tags" />
+  <meta content="2018-06-14T08:43:46.226-0400" name="publishExternalDate" />
+  <meta content="2018-06-14T08:43:46.226-0400" name="firstPublishExternalDate" />
+  <meta content="2018-06-14T08:43:46.260-0400" name="cq:lastReplicated" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-03-15T09:02:13.738-0400" name="jcr:created" />
+  <meta content="19a17ec6-7cc7-4cbb-9116-4a491d23821e" name="jcr:predecessors" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="" name="jcr:baseVersion" />
+ </head>
+ <body>
+  <p>You can define different contents which will be displayed dynamically to the user according to the conditions defined via the expression editor. For example, from the same email, you can ensure that the recipients receive a different message according to their age range.</p> 
+  <ol>
+   <li><p>Select a block using the breadcrumb or by directly clicking an element.</p> 
+    <note>
+     <p> Certain blocks, such as images, cannot be directly selected. In this case, select the parent block using the breadcrumb. You can then modify all of the elements included in this parent element, including images. The condition will be applied to all child elements within the parent block. The breadcrumb is presented in the <a href="../../designing/using/managing-content-structure-and-style.md">Managing blocks</a> section. </p> 
+    </note><img alt="" captionBottom="" imageRotate="0" src="assets/delivery_content_32.png" title="" /></li>
+   <li><p>Select the <strong>Dynamic content</strong> icon.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/delivery_content_25.png" title="" /></li>
+   <li><p>The <strong>Dynamic content</strong> section then appears in the palette.</p> <p>By default, this section contains two elements: the default content and a new content.</p> <p>You cannot delete the default content. The content editor must always have a default variant.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/delivery_content_26.png" title="" />
+    <note>
+     <p> If an element is outlined in red, this means that an expression has not yet been defined. </p> 
+    </note></li>
+   <li><p>Click the <strong>Create</strong> button to add a new content and its linked rule.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/delivery_content_34.png" title="" /></li>
+   <li><p>To define a content's display conditions, click it. A contextual menu is displayed.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/delivery_content_27.png" title="" /></li>
+   <li><p>Use the <strong>Edit</strong> button to open the expression editor and define a condition.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/delivery_content_28.png" title="" /><p>For each content, you can specify a label and define the order of priority in which the condition will be applied. The contents will be displayed in the palette in order of priority, from left to right. For more on order of priority, refer to <a href="../../designing/using/defining-dynamic-content.md#order-of-priority">this section</a>. </p> </li>
+   <li><p>Once you have entered and confirmed an expression, you can make any changes you would like to the corresponding block in the editing zone.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/delivery_content_33.png" title="" /></li>
+  </ol>
+  <note>
+   <p> In this case, once you have prepared your message and before sending it, don't forget to test it using a proof. If you do not do this, any errors may not be detected and the email may not be sent. </p> 
+  </note>
+  <p><strong>Related topics:</strong></p> 
+  <ul>
+   <li><p> <a href="../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs">Sending proofs</a></p> </li>
+   <li><p> <a href="../../automating/using/editing-queries.md#about-query-editor">Advanced expression editing</a></p> </li>
+  </ul>
+  <h2>Previewing dynamic contents</h2>
+  <p>You can navigate between the different dynamic contents of an image block or a block of text. To do this:</p> 
+  <ul>
+   <li><p>Select the content block.</p> <p>Arrows appear on the right- and left-hand sides of the image.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/delivery_content_35.png" title="" /></li>
+   <li><p>Click the right arrow to browse through the available dynamic contents.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/delivery_content_36.png" title="" /><p>The arrows on each side dim according to whether you have reached the last or first available dynamic contents.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/delivery_content_37.png" title="" /></li>
+  </ul>
+  <p>In the palette:</p> 
+  <ul>
+   <li><p>The contents which have an expression entered are no longer outlined in red, they are shown in gray.</p> </li>
+   <li><p>If a label was defined for a content, that label then replaces the word "Label" and the new label name also appears whenever the content is hovered over.</p> </li>
+   <li><p>The content that is currently selected appears in blue.</p> </li>
+  </ul>
+  <img alt="" captionBottom="" imageRotate="0" src="assets/delivery_content_31.png" title="" />
+  <p>To delete all the conditions applied to a block, select the block in question and click the <strong>Dynamic content</strong> icon.</p> 
+  <p>A new window appears. From this window you can select the dynamic content that you would like to keep.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/delivery_content_38.png" title="" />
+  <h2>Order of priority</h2>
+  <p>In the expression editor, when you define a dynamic content, the order of priority works as follows: </p> 
+  <ol>
+   <li><p>You define two different dynamic contents with <strong>two different conditions</strong>, for example:</p> <p><strong>Condition 1:</strong> the gender of the profile is masculine,</p> <p><strong>Condition 2:</strong> the profile is between 20 and 30 years old.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/delivery_content_61.png" title="" /><p>Some profiles in your database correspond to the two conditions but only one email with one dynamic content can be sent.</p> </li>
+   <li><p>You therefore have to define the priority for the dynamic contents. A condition with an order of priority of <strong>1</strong> (and therefore the corresponding dynamic content) will be sent to a profile even if another condition whose priority order is <strong>2</strong> or <strong>3</strong> is also met by this profile.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/delivery_content_62.png" title="" /></li>
+  </ol>
+  <note>
+   <p> You can only define one order of priority per dynamic content. </p> 
+  </note>
+  <h2>Defining dynamic text</h2>
+  <p>Dynamic text functions in the same way as <strong>dynamic content</strong>. Refer to the section.</p> 
+  <p>You can define dynamic text</p> 
+  <ul>
+   <li><p>in an email subject,</p> </li>
+   <li><p>in HTML mode,</p> </li>
+   <li><p>in text mode.</p> </li>
+  </ul>
+  <p>To define dynamic text:</p> 
+  <ol>
+   <li><p>Select text in the body of your email.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/delivery_content_39.png" title="" /></li>
+   <li><p>Click <strong>Enable dynamic text</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/delivery_content_40.png" title="" /><p>The <strong>Dynamic text</strong> option then appears in the palette.</p> <p>It is configured in the same way as dynamic content.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/delivery_content_41.png" title="" /><p>A purple frame appears around dynamic text in the body of the email.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/delivery_content_42.png" title="" /></li>
+  </ol>
+ </body>
+</html>

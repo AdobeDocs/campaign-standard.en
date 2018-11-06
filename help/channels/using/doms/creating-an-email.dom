@@ -1,0 +1,70 @@
+<html>
+ <head>
+  <meta content="2018-07-23T06:02:41.522-0400" name="topicBrowsingSortDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="https://helpx.adobe.com/campaign/standard/channels/using/creating-an-email.html" name="publishExternalURL" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="0111cbb4-2380-42fa-8886-c1cf3c750f59" name="jcr:uuid" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:channels;content_type:reference;topic_tags:email-messages" name="cq:tags" />
+  <meta content="Creating an email" name="jcr:description" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-07-23T06:02:41.522-0400" name="lastPublishExternalDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-07-30T04:53:47.954-0400" name="cq:lastModified" />
+  <meta content="2018-07-30T04:53:47.954-0400" name="locHandOffDate" />
+  <meta content="Creating an email" name="navTitle" />
+  <meta content="Follow these steps to create a single-send email in Adobe Campaign." name="seoDescription" />
+  <meta content="light" name="heroGradient" />
+  <meta content="5827ce81-64be-48a4-81f8-01dac726ac3f" name="jcr:predecessors" />
+  <meta content="Creating an email" name="jcr:title" />
+  <meta content="2018-07-23T06:02:41.563-0400" name="cq:lastReplicated" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-07-23T06:02:41.522-0400" name="publishExternalDate" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-07-23T06:02:41.522-0400" name="firstPublishExternalDate" />
+  <meta content="audience:channels" name="primaryAudienceTag" />
+  <meta content="2018-03-15T09:01:08.365-0400" name="jcr:created" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+ </head>
+ <body>
+  <p>You can create an email from a <a href="../../start/using/marketing-activities.md#creating-a-marketing-activity">campaign</a>, from the Adobe Campaign <a href="../../start/using/interface-description.md#home-page">home page</a>, or in the <a href="../../start/using/programs-and-campaigns.md#creating-a-campaign">marketing activity list</a>. You can also create single-send and recurring emails from a workflow.</p> 
+  <ol>
+   <li><p>Once you have started creating an email marketing activity, select the template you would like to use.</p> <p>By default, you can choose from several templates for each marketing activity. This allows you to pre-configure certain parameters according to your needs and also assign a brand to your delivery, see the <a href="../../start/using/about-templates.md">Managing templates</a> section. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/email_creation_1.png" title="" />
+    <note>
+     <p> Follow-up and A/B test templates are hidden by default. Check the boxes on the left side (<strong>Filter</strong> lateral panel) if you want to display them. </p> 
+    </note></li>
+   <li><p>Enter the email's general properties. You can enter a name in the <strong>Label</strong> field and edit the ID. Both the activity name and its ID appear in the interface, but they are not visible to the message recipients.</p> <p>You can add a description that the user can see in the campaign content.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/email_creation_2.png" title="" />
+    <note>
+     <p> You can create your email within a parent campaign from the home page or the list of marketing activities. Select it from the campaigns that have already been created. </p> 
+    </note></li>
+   <li><p>Define the target of your message based on your business criteria, see the <a href="../../audiences/using/about-profiles.md">Managing profiles</a> section. You also define the test profiles who will validate the message, see the <a href="../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles">Managing test profiles</a> section.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/email_creation_3.png" title="" /></li>
+   <li><p>Define and personalize the message content, sender name and subject. Then preview your message.</p> <p>At this stage in the creation wizard, you can choose to use the default editor or to try the Creative Designer for email ("Beta"). To be able to try the <a href="../../designing/using/about-email-content-design.md#using-the-creative-designer">Creative Designer</a>, you need to read and accept the terms and conditions displayed when choosing this option.</p> <p>You can design your message directly using a pre-defined content template or by using DreamWeaver or Adobe Experience Manager. If you don't feel like a designer, you can also upload a content that has been prepared for you, or import an existing content from a URL. See the <a href="../../designing/using/selecting-an-existing-content.md">Loading an existing content</a> section.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/email_creation_4.png" title="" /></li>
+   <li><p>Confirm creating the email. The email dashboard is then displayed, see <a href="../../sending/using/preparing-the-send.md">Approving messages</a> section.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/delivery_dashboard_2.png" title="" /></li>
+   <li><p>Schedule the sending, see the <a href="../../sending/using/about-scheduling-messages.md">Scheduling messages</a> guide.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/delivery_planning.png" title="" /></li>
+   <li><p>Prepare your message to analyze its target, see the <a href="../../sending/using/confirming-send.md">Preparing the send</a> section.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/preparing_delivery_2.png" title="" />
+    <note>
+     <p> You can set global cross-channel fatigue rules that will automatically exclude oversollicited profiles from campaigns. See <a href="../../administration/using/fatigue-rules.md">Fatigue rules</a>. </p> 
+    </note></li>
+   <li><p>Send proofs to check and validate your message and monitor its inbox rendering, see the <a href="../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs">Sending proof</a> section.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/bat_select.png" title="" /></li>
+   <li><p>Send the message and check its delivery through the message dashboard and logs, see the <a href="../../sending/using/confirming-send.md">Sending messages</a> section.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/confirm_delivery.png" title="" /></li>
+   <li><p>Measure the impact of your message with delivery reports. For more on reporting, refer to <a href="../../reporting/using/about-dynamic-reports.md">this section</a>.</p> </li>
+  </ol>
+  <p><strong>Related topics</strong>:</p> 
+  <ul>
+   <li><p> <a href="https://docs.campaign.adobe.com/doc/standard/en/Videos/email_creation.mp4">Creating an email</a> video</p> </li>
+   <li><p> <a href="https://docs.campaign.adobe.com/doc/standard/en/Videos/ACS_Dreamweaver.mp4">Adobe Campaign and Dreamweaver integration</a> video</p> </li>
+   <li><p> <a href="../../integrating/using/integrating-with-experience-manager.md">Using Adobe Experience Manager</a></p> </li>
+   <li><p> <a href="../../integrating/using/configuring-the-campaign-target-integration.md">Integrating Adobe Target</a></p> </li>
+  </ul>
+ </body>
+</html>

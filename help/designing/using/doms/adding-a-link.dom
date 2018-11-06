@@ -1,0 +1,60 @@
+<html>
+ <head>
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2018-03-15T09:01:46.691-0400" name="jcr:created" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-03-26T11:10:32.215-0400" name="firstPublishExternalDate" />
+  <meta content="595e17bb-053f-4804-a63f-c6fbb16536b5" name="jcr:uuid" />
+  <meta content="audience:designing" name="primaryAudienceTag" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-03-26T11:10:32.215-0400" name="topicBrowsingSortDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="Adding a link" name="jcr:description" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="2018-04-04T11:45:48.366-0400" name="cq:lastModified" />
+  <meta content="2018-03-26T11:10:32.215-0400" name="publishExternalDate" />
+  <meta content="2018-03-26T11:10:33.240-0400" name="cq:lastReplicated" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:editing-message-and-landing-page-content" name="cq:tags" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="45bb43c8-0264-47ca-8b5f-9049d26c0926" name="jcr:predecessors" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="Adding a link" name="navTitle" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="https://helpx.adobe.com/campaign/standard/designing/using/adding-a-link.html" name="publishExternalURL" />
+  <meta content="Adding a link" name="jcr:title" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-03-26T11:10:32.215-0400" name="lastPublishExternalDate" />
+  <meta content="2018-04-04T11:45:48.364-0400" name="locHandOffDate" />
+  <meta content="Discover the different links you can insert into any page element." name="seoDescription" />
+  <meta content="light" name="heroGradient" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+ </head>
+ <body>
+  <p>You can insert a link into any page element: image, word, group of words, block of text, etc. </p> 
+  <p>To do this, select the element then use the corresponding button in the toolbar. Refer to <a href="../../designing/using/content-editor-interface.md#toolbar">Toolbar</a>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/delivery_content_13.png" title="" />
+  <p>There are several types of links:</p> 
+  <ul>
+   <li><p>Link to an external URL: allows you to add a link to a URL.</p> </li>
+   <li><p>Link that defines an action: allows you to define an action when an element in the landing page is clicked.</p> 
+    <note>
+     <p> This type of link is only available for landing pages. </p> 
+    </note></li>
+   <li><p>Link to a landing page: allows you to access an Adobe Campaign landing page.</p> </li>
+   <li><p>Subscription link: allows you to insert a link to subscribe to an Adobe Campaign service.</p> </li>
+   <li><p>Unsubscription link: allows you to insert a link to unsubscribe from an Adobe Campaign service.</p> </li>
+  </ul>
+  <p>Then enter the link parameters:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/delivery_content_14.png" title="" />
+  <ul>
+   <li><p>Label</p> </li>
+   <li><p>Link target: URL, action, landing page, or service </p> </li>
+  </ul>
+ </body>
+</html>

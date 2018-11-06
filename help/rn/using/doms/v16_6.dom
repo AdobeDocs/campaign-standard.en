@@ -1,0 +1,89 @@
+<html>
+ <head>
+  <meta content="2018-01-10T15:33:45.210-0500" name="topicBrowsingSortDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="https://helpx.adobe.com/campaign/standard/rn/using/v16_6.html" name="publishExternalURL" />
+  <meta content="sauviat" name="cq:lastModifiedBy" />
+  <meta content="audience:rn" name="primaryAudienceTag" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="06/27/2016" name="jcr:description" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2017-11-28T11:31:07.801-0500" name="locHandOffDate" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2017-11-16T10:46:43.772-0500" name="firstPublishExternalDate" />
+  <meta content="v16.6" name="jcr:title" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2018-01-10T15:33:45.218-0500" name="cq:lastModified" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:rn;content_type:reference;topic_tags:adobe-campaign-standard-release-notes" name="cq:tags" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-01-10T15:33:45.210-0500" name="lastPublishExternalDate" />
+  <meta content="2018-01-11T19:02:44.719-0500" name="jcr:created" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="f9abb5b2-7b11-4674-bf0f-fbef4d489a40" name="jcr:predecessors" />
+  <meta content="31caf926-e784-4607-9cdb-e70be983738c" name="jcr:uuid" />
+  <meta content="v16.6" name="navTitle" />
+  <meta content="2018-01-10T15:33:45.210-0500" name="publishExternalDate" />
+ </head>
+ <body>
+  <h2>Improvements</h2>
+  <table> 
+   <thead> 
+    <tr> 
+     <th> Functionality </th> 
+     <th> Description </th> 
+    </tr> 
+   </thead> 
+   <tbody> 
+    <tr> 
+     <td> Profiles and Services API </td> 
+     <td> The Adobe Campaign <strong>Profiles and Services</strong> API is available in the <a href="https://www.adobe.io/products/campaign">adobe.io</a> portal. This allows Adobe Campaign profiles to be updated, added, and deleted, and for them to be subscribed to or unsubscribed from services via REST calls. For more information, refer to the <a href="https://docs.campaign.adobe.com/doc/standard/en/adobeio.html">detailed description of the API</a>. </td> 
+    </tr> 
+   </tbody> 
+  </table>
+  <h2>Patches</h2>
+  <h3>General</h3>
+  <ul>
+   <li><p>Tooltips are now disabled on mobile devices to ensure that the information displayed on the screen is easy to read.</p> </li>
+   <li><p>Fixed an error that prevented the user from scrolling the content of certain zones on the iPad screen.</p> </li>
+   <li><p>Fixed several compatibility errors encountered while editing content in Internet Explorer 11.</p> </li>
+   <li><p>Fixed an error that could prevent detailed logs from being accessed when the data import failed for the first time.</p> </li>
+   <li><p>Fixed an error that could prevent a range filter from being saved.</p> </li>
+   <li><p>Fixed an error that prevented elements of a resource from being displayed when configuring the way a list is displayed.</p> </li>
+   <li><p>Fixed an error in the query editor explorer. The results returned by the search field were kept in the search history and continued to be displayed upon every new search.</p> </li>
+  </ul>
+  <h3>Emails and SMS messages</h3>
+  <ul>
+   <li><p>Fixed an error that prevented information linked to bounces from being recovered in delivery logs.</p> </li>
+   <li><p>Fixed an error that prevented the context in a dynamic content block of a transactional message from being accessed.</p> </li>
+   <li><p>Fixed an error that prevented a URL link from being defined on dynamic text in an email's content.</p> </li>
+   <li><p>Fixed the display of the top bar of the delivery creation wizard.</p> </li>
+   <li><p>The primary key of a delivery can no longer be used as a personalization field.</p> </li>
+  </ul>
+  <h3>Workflows</h3>
+  <ul>
+   <li><p>The transitions between two activities of a workflow now display the count of elements computed and transferred from one activity to another.</p> </li>
+   <li><p>Incompatible fields are now hidden when additional data is added in a <strong>Query</strong> activity.</p> </li>
+   <li><p>The aggregate definition window, displayed when adding additional data, was improved to only offer options that are compatible with the data in use (for example: calculating an average is only possible for numerical data).</p> </li>
+   <li><p>Starting or restarting an out-of-the-box technical workflow can now only be carried out by a user with administration rights.</p> </li>
+  </ul>
+  <h3>Landing pages</h3>
+  <ul>
+   <li><p>Fixed an error that could truncate 32 bit AES coding keys in the properties of a landing page.</p> </li>
+   <li><p>Fixed an error that prevented the query editor from displaying correctly when defining a visibility condition or when adding dynamic content to a landing page.</p> </li>
+  </ul>
+  <h3>Custom resources</h3>
+  <ul>
+   <li><p>The <strong>Switch to parameters</strong> option is now hidden when defining a filter related to a profile's subscriptions to a service.</p> </li>
+   <li><p>Fixed an error that could occur when a 0-1 type link was configured from a custom resource.</p> </li>
+   <li><p>Fixed an error that, where relevant, could prevent the defined <strong>Constant default value</strong> from being edited when adding a <strong>Date and time</strong> type field in a custom resource.</p> </li>
+  </ul>
+ </body>
+</html>

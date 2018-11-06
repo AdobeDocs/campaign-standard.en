@@ -1,0 +1,47 @@
+<html>
+ <head>
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-06-14T08:43:55.493-0400" name="lastPublishExternalDate" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-06-14T08:43:55.493-0400" name="topicBrowsingSortDate" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-06-14T08:43:55.516-0400" name="cq:lastReplicated" />
+  <meta content="2018-06-25T08:45:23.084-0400" name="locHandOffDate" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2018-06-14T08:43:55.493-0400" name="firstPublishExternalDate" />
+  <meta content="2018-06-25T08:45:23.084-0400" name="cq:lastModified" />
+  <meta content="" name="seoDescription" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:designing-email-content" name="cq:tags" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="c44d3e4d-8ade-4243-b12d-862af5ee0439" name="jcr:predecessors" />
+  <meta content="2018-06-14T08:43:55.493-0400" name="publishExternalDate" />
+  <meta content="2018-03-27T07:29:05.737-0400" name="jcr:created" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="Editing the content source in HTML" name="navTitle" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="Editing the content source in HTML" name="jcr:title" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="https://helpx.adobe.com/campaign/standard/designing/using/editing-the-content-source-in-html.html" name="publishExternalURL" />
+  <meta content="72485324-4927-46ad-9dcf-044b4c2131e4" name="jcr:uuid" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Editing the content source in HTML" name="jcr:description" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="audience:designing" name="primaryAudienceTag" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+ </head>
+ <body>
+  <p>For the most advanced users and debugging, you can view and edit the email content directly in HTML.</p> 
+  <p>You have two ways to edit the HTML version of the email:</p> 
+  <ul>
+   <li><p>Select <strong>Edit</strong> &gt; <strong>HTML</strong> to open the HTML version of the entire email.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/email_designer_html1.png" title="" /></li>
+   <li><p>From the WYSIWYG interface, select an element and click the <strong>Source code</strong> icon.</p> <p>Only the source of the selected element is displayed. You can edit the source code if the selected element is a <strong>HTML</strong> content component. Other components are in read-only mode, but can still be edited in the full HTML version of the email.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/email_designer_html2.png" title="" /></li>
+  </ul>
+ </body>
+</html>

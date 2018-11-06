@@ -1,0 +1,129 @@
+<html> 
+ <head> 
+  <meta content="2018-01-10T15:19:36.178-0500" name="lastPublishExternalDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="audience:automating" name="primaryAudienceTag" /> 
+  <meta content="2018-01-10T15:19:36.178-0500" name="firstPublishExternalDate" /> 
+  <meta content="2018-01-10T15:19:36.178-0500" name="publishExternalDate" /> 
+  <meta content="2018-01-10T15:19:36.178-0500" name="topicBrowsingSortDate" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
+  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/use-case--importing-profiles.html" name="publishExternalURL" /> 
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2018-01-11T19:01:28.220-0500" name="jcr:created" /> 
+  <meta content="Use case: Importing profiles" name="navTitle" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="Use case: Importing profiles" name="jcr:title" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="71375a41-e14b-406f-9993-098b2d0fcef0" name="jcr:uuid" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-01-10T15:19:36.184-0500" name="cq:lastModified" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:importing-and-exporting-data" name="cq:tags" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="9e601121-a053-4154-8f22-879cef12f5ab" name="jcr:predecessors" /> 
+  <meta content="" name="seoDescription" /> 
+  <meta content="Use case: Importing profiles" name="jcr:description" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+ </head> 
+ <body> 
+  <p>Learn how to import profiles with this example. </p> 
+  <h2>About this use case</h2> 
+  <p>You would like to add new client profiles to your Adobe Campaign instance. You have a flat structure file (.txt for example) that contains the list of these profiles and their data (first name, last name, email, etc.).</p> 
+  <p>To enrich your instance with this data, you can use an <strong>Extract Transform Load</strong> type workflow which allows you to import this data.</p> 
+  <p>The different stages of this use case are:</p> 
+  <ul> 
+   <li><p> <a href="../../automating/using/use-case--importing-profiles.md#step-1--create-the-workflow" target="_blank">Step 1: Create the workflow</a></p> </li> 
+   <li><p> <a href="../../automating/using/use-case--importing-profiles.md#step-2--add-a-transfer-file-activity" target="_blank">Step 2: Add a Transfer file activity</a></p> </li> 
+   <li><p> <a href="../../automating/using/use-case--importing-profiles.md#step-3--add-a-load-file-activity" target="_blank">Step 3: Add a Load file activity</a></p> </li> 
+   <li><p> <a href="../../automating/using/use-case--importing-profiles.md#step-4--add-an-update-data-activity" target="_blank">Step 4: Add an Update data activity</a></p> </li> 
+   <li><p> <a href="../../automating/using/use-case--importing-profiles.md#step-5--execute-the-workflow" target="_blank">Step 5: Execute the workflow</a></p> </li> 
+  </ul> 
+  <p><strong>Pre-requisites</strong>:</p> 
+  <ul> 
+   <li><p>You need to have the right to execute workflows. See <a href="../../administration/using/list-of-roles.md">Roles</a> and <a href="../../administration/using/list-of-authorizations.md">List of authorizations</a>.</p> </li> 
+   <li><p>You need a configured external account to transfer the source file containing the profile data via FTP. See <a href="../../administration/using/external-accounts.md">External accounts</a>. </p> </li> 
+  </ul> 
+  <p><strong>Related topics</strong>:</p> 
+  <ul> 
+   <li><p> <a href="../../automating/using/building-a-workflow.md" target="_blank">Building a workflow</a></p> </li> 
+   <li><p> <a href="../../automating/using/executing-a-workflow.md" target="_blank">Executing a workflow</a></p> </li> 
+   <li><p> <a href="../../automating/using/about-data-management-activities.md" target="_blank">About data management activities</a></p> </li> 
+   <li><p> <a href="https://docs.campaign.adobe.com/doc/standard/en/Videos/importing_profiles.mp4">Importing profiles with a workflow</a> video</p> </li> 
+  </ul> 
+  <h2>Step 1: Create the workflow</h2> 
+  <p>You can create a workflow from a program, a campaign, or the marketing activity list. For more on this, refer to the <a href="../../automating/using/building-a-workflow.md#creating-a-workflow" target="_blank">Creating a workflow</a> section.</p> 
+  <h2>Step 2: Add a Transfer file activity</h2> 
+  <p>Once you have created your workflow, add a <strong>Transfer file</strong> file activity to upload the source file containing the profile data.</p> 
+  <ol> 
+   <li><p>In the workflow created previously, go to the <strong>Activities &amp;gt; Data management </strong> menu, select the <strong>Transfer file</strong> activity, then drag and drop it into your workflow.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/wkf_etl_03.png" title="" /></li> 
+   <li><p>Open the activity by double-clicking its icon.</p> </li> 
+   <li><p>Select <strong>File download</strong> as the action and <strong>FTP</strong> for the protocol.</p> </li> 
+   <li><p>Select the <strong>Use connection parameters defined in an external account</strong> option so that you can specify the external account configurations.</p> 
+    <note> 
+     <p> The external account configuration must be carried out by the administrator of your Adobe Campaign instance. </p> 
+    </note><p>Select the account from the drop-down list.</p> </li> 
+   <li><p>In the <strong>File path on the remote server</strong> field, enter the path of the file to be retrieved.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/wkf_etl_09.png" title="" /></li> 
+   <li><p><strong>If no files are found</strong>, select the <strong>Generate an error</strong> option. The workflow will be stopped if Adobe Campaign does not detect a source file.</p> </li> 
+   <li><p>Confirm your activity and save your workflow.</p> </li> 
+  </ol> 
+  <p>The <strong>Transfer file</strong> activity is configured to recover your source file via the FTP protocol.</p> 
+  <p><strong>Related topic</strong>:</p> 
+  <p> <a href="../../automating/using/transfer-file.md" target="_blank">Transfer file</a></p> 
+  <h2>Step 3: Add a Load file activity</h2> 
+  <p>Right after the <strong>Transfer file</strong> activity, place a <strong>Load file</strong> activity to structure the uploaded file's data.</p> 
+  <ol> 
+   <li><p>Go to the <strong>Activities &amp;gt; Data management</strong> menu and add a <strong>Load file</strong> activity after the <strong>Transfer file</strong> activity in your workflow.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/wkf_etl_05.png" title="" /></li> 
+   <li><p>Open the activity by double-clicking its icon.</p> </li> 
+   <li><p>In the <strong>Execution &amp;gt; File to load</strong> tab, select the <strong>Use the file specified in the inbound transition</strong> option.</p> <p>By selecting this option, you are letting Adobe Campaign know that you would like to use the data in the file that will have been downloaded once the <strong>Transfer file</strong> activity is executed. </p> </li> 
+   <li><p>Drag and drop a file in the space provided to define the structure of the file that will be downloaded by the workflow. This can be the same file that was used in the <strong>Transfer file</strong> activity.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/wkf_etl_10.png" title="" /></li> 
+   <li><p>The <strong>File structure</strong> is automatically detected by Adobe Campaign. You can check it by clicking the corresponding tab and selecting the <strong>File format</strong> category.</p> </li> 
+   <li><p>In the <strong>Column definition</strong> tab, check whether the column processing has been carried out correctly by Adobe Campaign. If necessary, click the data to edit it.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/wkf_etl_12.png" title="" /></li> 
+   <li><p>Confirm your activity and save your workflow.</p> </li> 
+  </ol> 
+  <p>The <strong>Load file</strong> activity is now configured to make the data in the file downloaded by the <strong>Transfer file</strong> activity available in a structured way.</p> 
+  <p><strong>Related topic</strong>:</p> 
+  <p> <a href="../../automating/using/load-file.md" target="_blank">Load file</a></p> 
+  <h2>Step 4: Add an Update data activity</h2> 
+  <p>Right after the <strong>Load file</strong> activity, place a <strong>Update data</strong> activity to insert the profile data into the Adobe Campaign database.</p> 
+  <ol> 
+   <li><p>Go to the <strong>Activities &amp;gt; Data management</strong> menu and add an <strong>Update data</strong> activity after the <strong>Load file</strong> activity in your workflow.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/wkf_etl_07.png" title="" /></li> 
+   <li><p>Open the activity by double-clicking its icon and select the <strong>Insert or update</strong> operation type.</p> </li> 
+   <li><p>Leave the <strong>Dimension to update</strong> as <strong>Profiles</strong> and click the <img height="21px" src="assets/add_darkgrey-24px.png" /> or <strong>Add an element</strong> button to add a new reconciliation key.</p> 
+    <note> 
+     <p> This key will be used by Adobe Campaign when importing the file, to identify any profiles that are already in the instance. </p> 
+    </note></li> 
+   <li><p>In the <strong>Source expression</strong> category of the window that appears, click the <strong>Select an expression</strong> button.</p> </li> 
+   <li><p>Choose the name of the <strong>email</strong> column in the data to import and confirm.</p> </li> 
+   <li><p>For the <strong>Destination</strong> category, select the name of the column that corresponds to the column chosen during step 7, then confirm the reconciliation key.</p> <p>Adobe Campaign will use the email of any identified profiles to verify whether they are already present in the instance, and if this is the case, it will update them if necessary.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/wkf_etl_14.png" title="" /></li> 
+   <li><p>In the <strong>Fields to update</strong> tab, click the <img height="21px" src="assets/add_darkgrey-24px.png" /> button <strong>Add an element</strong> to add fields that will be updated when the workflow is started. </p> <p>Select the source expression, namely the label of a source file column.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/wkf_etl_18.png" title="" /><p>Select a destination, namely the label of the field to update in the dimension selected in Adobe Campaign.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/wkf_etl_19.png" title="" /><p>Click <strong>Add</strong>.</p> </li> 
+   <li><p>You will need to repeat this operation for every field in your source file that you would like to recover.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/wkf_etl_20.png" title="" /></li> 
+   <li><p>Confirm your activity and save your workflow.</p> </li> 
+  </ol> 
+  <p>Your workflow is now completely configured.</p> 
+  <p><strong>Related topic</strong>:</p> 
+  <p> <a href="../../automating/using/update-data.md" target="_blank">Update data</a></p> 
+  <h2>Step 5: Execute the workflow</h2> 
+  <h3>Starting the workflow</h3> 
+  <p>Now that your workflow is configured, you have to start it to recover the data in your source file and enrich your Adobe Campaign instance. </p> 
+  <ol> 
+   <li><p>Start your workflow by clicking the <strong>Start</strong> button in the action bar.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/wkf_etl_22.png" title="" /><p>Adobe Campaign executes your workflow.</p> </li> 
+   <li><p>If an error is encountered while it is executing, click the activity that has encountered the error then click the <strong>Workflow log and tasks</strong> button to view the log entries and find out exactly which error occurred on this activity.</p> </li> 
+  </ol> 
+  <p><strong>Related topic</strong>:</p> 
+  <p> <a href="../../automating/using/executing-a-workflow.md" target="_blank">Executing a workflow</a></p> 
+  <h3>Verifying the data</h3> 
+  <p>Once the workflow has finished executing, you can check whether the data has been correctly imported.</p> 
+  <ol> 
+   <li><p>Navigate within Adobe Campaign to view the list of <strong>Profiles</strong>.</p> </li> 
+   <li><p>Use the <strong>Search</strong> function to find any profiles present in your source file.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/wkf_etl_26.png" title="" /></li> 
+  </ol> 
+  <p>The profiles were imported correctly by the workflow. You can now integrate them into an audience, or send them emails.</p> 
+  <p><strong>Related topic</strong>:</p> 
+  <p> <a href="../../audiences/using/about-audiences.md">Managing audiences</a></p> 
+ </body> 
+</html>

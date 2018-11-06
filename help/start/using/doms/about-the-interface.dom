@@ -1,0 +1,46 @@
+<html>
+ <head>
+  <meta content="" name="jcr:primaryType" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-07-23T06:00:40.214-0400" name="publishExternalDate" />
+  <meta content="2018-07-27T03:26:28.831-0400" name="cq:lastModified" />
+  <meta content="2018-07-27T03:26:28.830-0400" name="locHandOffDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="About the interface" name="navTitle" />
+  <meta content="Campaign workspace is based on concepts which are common to all the Adobe Experience Cloud solutions.." name="seoDescription" />
+  <meta content="audience:start" name="primaryAudienceTag" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-07-23T06:00:40.214-0400" name="firstPublishExternalDate" />
+  <meta content="966da024-b4d5-4b01-916f-0bdf32448451" name="jcr:predecessors" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="4d98c45e-5f22-4e73-a95e-b226318e4548" name="jcr:uuid" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="About the interface" name="jcr:title" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="2018-07-23T06:00:40.214-0400" name="lastPublishExternalDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:start;content_type:reference;topic_tags:discovering-the-interface" name="cq:tags" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-07-23T06:00:40.214-0400" name="topicBrowsingSortDate" />
+  <meta content="https://helpx.adobe.com/campaign/standard/start/using/about-the-interface.html" name="publishExternalURL" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-03-15T09:01:55.596-0400" name="jcr:created" />
+  <meta content="light" name="heroGradient" />
+  <meta content="About the interface" name="jcr:description" />
+  <meta content="2018-07-23T06:00:40.248-0400" name="cq:lastReplicated" />
+  <meta content="true" name="jcr:isCheckedOut" />
+ </head>
+ <body>
+  <p>Adobe Campaign's user interface is based on concepts which are common to all the Adobe Experience Cloud solutions.</p> 
+  <p>This interface is intended for web browsers. It is completely resizable and therefore automatically adapts to the media on which it is used: desktop computer or tablet. Every element is compatible with the use of a mouse or touchscreen.</p> 
+  <p>Campaign interface, capabilities and options you can access to may vary depending your contract and user permissions.</p> 
+  <p>In order to adapt to the different uses and new functionalities offered, the Adobe Campaign user interface and all of its elements are updated regularly. You may notice some differences between the version that you are using and the screens shown in this document.</p> 
+  <p>The navigation principles are common to all of these solutions.</p> 
+ </body>
+</html>

@@ -1,0 +1,59 @@
+<html>
+ <head>
+  <meta content="Adding Adobe Target content" name="jcr:description" />
+  <meta content="https://helpx.adobe.com/campaign/standard/integrating/using/adding-adobe-target-content.html" name="publishExternalURL" />
+  <meta content="2018-01-10T15:24:03.758-0500" name="firstPublishExternalDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2018-01-10T15:24:03.758-0500" name="lastPublishExternalDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="8eed77d9-5c57-437a-862f-72db37a62bfe" name="jcr:predecessors" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Learn how to add Adobe Target dynamic content in one of your Adobe Campaign delivery." name="seoDescription" />
+  <meta content="light" name="heroGradient" />
+  <meta content="Adding Adobe Target content" name="navTitle" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:integrating;content_type:reference;topic_tags:adobe-target-integration" name="cq:tags" />
+  <meta content="Adding Adobe Target content" name="jcr:title" />
+  <meta content="2018-01-10T15:24:03.758-0500" name="topicBrowsingSortDate" />
+  <meta content="2018-01-10T15:24:03.766-0500" name="cq:lastModified" />
+  <meta content="2018-01-10T15:24:03.758-0500" name="publishExternalDate" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="b4d803a6-ca04-45b1-9c93-a32988deabab" name="jcr:uuid" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-01-11T19:02:13.424-0500" name="jcr:created" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="audience:integrating" name="primaryAudienceTag" />
+ </head>
+ <body>
+  <p>With Adobe Target integration, dynamic images can be added into a delivery to personalize your content depending of experiences.</p> 
+  <p>While editing an email, you can insert a dynamic image from Adobe Target which will change depending of the recipients.</p> 
+  <p>Before accessing the image in Adobe Campaign, the following tasks must first be performed in Adobe Target:</p> 
+  <ul>
+   <li><p>Create one or several <a href="https://marketing.adobe.com/resources/help/en_US/tnt/help/t_Creating_a_Redirect_Offer.html">redirect offers</a>, in which you must specify the URL of the image you will be using.</p> </li>
+   <li><p>Create one or several <a href="https://marketing.adobe.com/resources/help/en_US/target/ov/c_about_segments.html">audiences</a>, to define the target of your activity.</p> </li>
+   <li><p>Create a <a href="https://marketing.adobe.com/resources/help/en_US/target/target/t_form_experience_composer.html">Form-based experience composer</a> activity, in which you have to select a rawbox and specify several experiences, depending on the number of redirect offers created. For each experience, you must select one of the redirect offers created.</p> </li>
+   <li><p>Create segments using information from Adobe Campaign to specify experiences. To use data from Adobe Campaign in the offer's selection rules, you must specify the data in the rawbox in Adobe Target.</p> </li>
+  </ul>
+  <ol>
+   <li><p>Create an email delivery.</p> </li>
+   <li><p>When editing the content of an email or a landing page, go to an image block, then select <strong>Dynamic image from Adobe Target</strong> via the contextual menu.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/tar_insert_dynamic_image.png" title="" /></li>
+   <li><p>Select the image that will appear by default in the email. You can directly specify the image URL or select an image shared via <a href="../../integrating/using/assets-core-service-integration.md">Assets</a>.</p> <p>The integration only supports static images. The rest of the content is not customizable.</p> </li>
+   <li><p>Enter the name of the rawbox specified in Adobe Target.</p> </li>
+   <li><p>In <strong>Additional decision parameters</strong>, specify the mapping between the fields defined in the Adobe Target segments and the Adobe Campaign fields. </p> <p>The Adobe Campaign fields used must have been specified in the rawbox. Here, we will define different experiences depending of the recipient's gender.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/tar_additional_decisionning_parameters.png" title="" /></li>
+   <li><p>Preview your email to see if, when selecting different profiles, the image inserted changes depending on the parameters specified in the Adobe Target activity and in Adobe Campaign.</p> </li>
+  </ol>
+  <p>Your delivery containing the dynamic image can now be send. Its results can be found in Adobe Target.</p> 
+  <p><strong>Related topics:</strong></p> 
+  <ul>
+   <li><p> <a href="https://marketing.adobe.com/resources/help/en_US/target/a4t/c_campaign_and_target.html">Adobe Target Portal</a></p> </li>
+   <li><p> <a href="../../designing/using/example--email-personalization.md"> Define email content</a></p> </li>
+   <li><p> <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">Personalize Email Images in Real-Time</a> video</p> </li>
+  </ul>
+ </body>
+</html>

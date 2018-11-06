@@ -1,0 +1,98 @@
+<html> 
+ <head> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:importing-and-exporting-data" name="cq:tags" /> 
+  <meta content="Using import templates" name="jcr:title" /> 
+  <meta content="2018-03-26T06:13:55.132-0400" name="cq:lastReplicated" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="Deactivate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-02-15T06:14:48.508-0500" name="firstPublishExternalDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-03-15T09:02:33.818-0400" name="jcr:created" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="Import templates allow to reduce the settings needed and to import data faster." name="seoDescription" /> 
+  <meta content="sauviat" name="cq:lastReplicatedBy" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="386f8513-ed7c-4107-9ab9-77f659178454" name="jcr:uuid" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="" name="publishExternalURL" /> 
+  <meta content="Using import templates" name="navTitle" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
+  <meta content="2018-03-26T06:13:55.094-0400" name="unpublishExternalDate" /> 
+  <meta content="audience:automating" name="primaryAudienceTag" /> 
+  <meta content="2018-03-14T17:34:30.034-0400" name="locHandOffDate" /> 
+  <meta content="Using import templates" name="jcr:description" /> 
+  <meta content="2018-03-26T06:13:55.101-0400" name="cq:lastModified" /> 
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="297755be-f053-44e1-88ca-7c3c8f8b6932" name="jcr:predecessors" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-02-15T06:14:48.508-0500" name="lastPublishExternalDate" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+ </head> 
+ <body> 
+  <h2>About import templates</h2> 
+  <p>Alternatively to <a href="../../automating/using/discovering-workflows.md">Workflows</a>, Adobe Campaign offers a simplified import function that allows the user to manage certain types of import that were defined by an administrator.</p> 
+  <p>The operating principle is as follows: an <strong>administrator</strong> defines and manages import templates. These import templates are then made available to users with simplified views. These users therefore just have to select the type of import they want to carry out and upload the file with the data to import. The workflow defined by the administrator is executed transparently for the user, who can access the details of the result of the import once it has finished.</p> 
+  <p>Two default templates are available as read-only:</p> 
+  <ul> 
+   <li><p><strong>Import data</strong>: this template can serve as a basis for new imports to insert data from a file into the database. This template's workflow contains the following activities:</p> 
+    <ul> 
+     <li><p><strong>Load file</strong>: this activity allows you to upload a file on the Adobe Campaign server.</p> </li> 
+     <li><p><strong>Update data</strong>: this activity allows you to insert data from the file in the database.</p> </li> 
+    </ul></li> 
+   <li><p><strong>Import list</strong>: this template can serve as a basis for new imports to create a <strong>List</strong> type audience from data in a file. This template's workflow contains the following activities:</p> 
+    <ul> 
+     <li><p><strong>Load file</strong>: this activity allows you to upload a file on the Adobe Campaign server.</p> </li> 
+     <li><p><strong>Reconciliation</strong>: this activity allows you to link a targeting dimension to imported data. This then allows you to create a <strong>List</strong> type audience. If the targeting dimension of the imported data is not known, the audience is <strong>File</strong> type. See <a href="../../automating/using/query.md#targeting-dimensions-and-resources" target="_blank">Targeting dimensions and resources</a>.</p> </li> 
+     <li><p><strong>Save audience</strong>: this activity allows you to save data imported in the form of a <strong>List</strong> type audience. The name of the saved audience corresponds to the name of the file imported by the user, and a suffix specifying the date and time of the import will be added. For example: 'profiles_20150406_151448'.</p> </li> 
+    </ul></li> 
+  </ul> 
+  <h2>Defining import templates</h2> 
+  <p>Import templates allow the administrator to pre-define a certain number of technical import configurations. These templates can then be made available to standard users to carry out and upload files.</p> 
+  <p>An import template is defined by the functional administrator and can be managed under the <strong>Resources</strong> &amp;gt; <strong>Templates</strong> &amp;gt; <strong>Import templates</strong> menu.</p> 
+  <ol> 
+   <li><p>Duplicate a default template. The duplicated template contains three tabs:</p> 
+    <ul> 
+     <li><p><strong>Properties</strong>: the import template's general parameters. This tab allows you to enable the template and to upload a sample file.</p> </li> 
+     <li><p><strong>Workflow</strong>: import workflow. This tab allows you to define the workflow activities. These activities are not visible during simplified imports carried out by users.</p> </li> 
+     <li><p><strong>Executed imports</strong>: list of imports carried out using this template. You can view the status, details and results of each import that has been carried out using this template. You can directly access the workflow (carried out in a transparent manner for the user) from this list.</p> </li> 
+    </ul><img alt="" captionBottom="" imageRotate="0" src="assets/simplified_import_model1.png" title="" /></li> 
+   <li><p>From the <strong>Properties</strong> tab, rename the template and add a description. Users will be able to view the description when the template is available.</p> </li> 
+   <li><p>Go to the <strong>Workflow</strong> tab. From here you can enrich the workflow offered by default by adding new activities according to your needs.</p> <p>The workflow must have a <strong>Load file</strong> activity. Do not upload a file directly in this activity.</p> <p>If you want users to be able to download a file containing errors that occurred during an import, check the <strong>Keep the rejects in a file</strong> option in the <strong>Load file</strong> activity and specify the <strong>File name</strong>.</p> <p>You can only import data from a single file. If the workflow has multiple <strong>Load file</strong> activities, the same file will be used each time.</p> </li> 
+   <li><p>Save your template so that the workflow's configuration is correctly taken into account.</p> </li> 
+   <li><p>Upload a sample file from the <strong>Properties</strong> tab. The file uploaded can only have columns necessary for future imports or sample data. Data in the sample file allows you to test the simplified import once the workflow has been defined.</p> <p>This sample file will then be available for users using the template to carry out an import. They will be able to download it to their computer, for example to fill it with data to import. Make sure to take this into account when adding a sample file.</p> </li> 
+   <li><p>Save your template. The sample file is now taken into account. At any moment you can download it to your computer to check the content, or modify it by checking the <strong>Drop a new sample file</strong> option.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/simplified_import_model2.png" title="" /></li> 
+   <li><p>Go back to the <strong>Workflow</strong> tab and open the <strong>Load file</strong> activity to check and adjust the column configuration of the sample file that was uploaded at the previous step.</p> </li> 
+   <li><p>Test the import by starting the workflow. The sample file uploaded at step <strong>5</strong> has to contain data.</p> <p>The data from the sample file is then genuinely imported. Please make sure the data used is small and fictitious to ensure that your database is not compromised.</p> </li> 
+   <li><p>Go to the workflow execution log, available in the action bar. If you encounter an error, check that the activities are configured correctly.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/simplified_import_model3.png" title="" /></li> 
+   <li><p>In the <strong>Properties</strong> tab, set the <strong>Import template status</strong> to <strong>Available</strong>, then save the template. To stop using this template, you can set the <strong>Import template status</strong> to <strong>Archived</strong>.</p> </li> 
+  </ol> 
+  <p>The template workflow can be modified by re-uploading the sample file and checking the <strong>Load file</strong> configuration.</p> 
+  <p>The import template is now available for the users and can be used to upload files. </p> 
+  <p><strong>Related topics:</strong></p> 
+  <ul> 
+   <li><p> <a href="../../automating/using/discovering-workflows.md">Workflows</a></p> </li> 
+   <li><p> <a href="../../automating/using/importing-data.md">Importing data</a></p> </li> 
+  </ul> 
+  <h2>Importing data</h2> 
+  <p>Importing data allows you to collect data to feed your Campaign's database.</p> 
+  <p>Import data function can be managed by users with <strong>GENERIC IMPORT (import)</strong> and <strong>WORKFLOW (workflow)</strong> roles under the <strong>Profiles &amp; audiences</strong> &amp;gt; <strong>Imports</strong> menu. This menu offers a simple way to import data, using import templates defined by an administrator.</p> 
+  <p>Imports can be filtered according to the template from which they were executed, their execution date, and their execution status.</p> 
+  <ol> 
+   <li><p>From the imports overview, click the <strong>Create</strong> button. The wizard opens.</p> </li> 
+   <li><p>Select the type of import that you would like to carry out. The import types correspond to the available import templates.</p> </li> 
+   <li><p>If necessary, download the sample file linked to the template to your computer to view the data types expected in the file to be imported.</p> </li> 
+   <li><p>Download the file containing the data to import in the wizard.</p> </li> 
+   <li><p>Start the import. The wizard closes and takes you back to the list of imports carried out with the template used.</p> </li> 
+   <li><p>Refresh your page and select the import that you have just carried out to view the execution detail.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/simplified_import1.png" title="" /></li> 
+  </ol> 
+  <p>The details of the import execution are now available. Both the file that was imported, as well as the file containing the rejected data (data that was not imported), can be downloaded to your computer.</p> 
+  <p><strong>Related topic:</strong></p> 
+  <p> <a href="../../administration/using/list-of-roles.md">Roles</a></p> 
+ </body> 
+</html>

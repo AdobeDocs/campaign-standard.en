@@ -1,0 +1,64 @@
+<html>
+ <head>
+  <meta content="2018-07-23T06:00:50.634-0400" name="lastPublishExternalDate" />
+  <meta content="audience:start" name="primaryAudienceTag" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-07-23T06:00:50.668-0400" name="cq:lastReplicated" />
+  <meta content="2018-07-27T03:27:30.926-0400" name="cq:lastModified" />
+  <meta content="light" name="heroGradient" />
+  <meta content="https://helpx.adobe.com/campaign/standard/start/using/step-by-step-guides.html" name="publishExternalURL" />
+  <meta content="2018-07-23T06:00:50.634-0400" name="firstPublishExternalDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="Step-by-step guides" name="jcr:title" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-07-27T03:27:30.924-0400" name="locHandOffDate" />
+  <meta content="Step-by-step guides" name="navTitle" />
+  <meta content="2018-03-15T09:01:21.433-0400" name="jcr:created" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:start;content_type:reference;topic_tags:tutorials" name="cq:tags" />
+  <meta content="2018-07-23T06:00:50.634-0400" name="topicBrowsingSortDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="c50c2e42-5ee6-4bd6-82fc-1128b8dfdab5" name="jcr:uuid" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="06241e94-9a4d-40fa-bfb3-1f4180b3b7ab" name="jcr:predecessors" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="2018-07-23T06:00:50.634-0400" name="publishExternalDate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="Learn Adobe Campaign basics through simple step-by-step procedures, and experience the power of the solution." name="seoDescription" />
+  <meta content="Step-by-step guides" name="jcr:description" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+ </head>
+ <body>
+  <p>Get started with Adobe Campaign by consulting our intuitive step-by-step guides.</p> 
+  <ul>
+   <li><p> <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GettingStartedEmail.html">Creating a personalized email</a>: create and send personalized emails to a targeted audience.</p> </li>
+   <li><p> <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GettingStartedLandingPages.html">Offering a subscription to a service</a>: create a subscription to a newsletter using a landing page.</p> </li>
+   <li><p> <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_CreateLandingPage.html">Creating a landing page</a>: manage your landing page templates and create new landing pages that are ready for use.</p> </li>
+   <li><p> <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_ImportExport.html">Exporting and importing a package of custom resources</a>: export and import a package of custom resources from a development environment to a production environment.</p> </li>
+   <li><p> <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_WorkflowSegmentation.html">Creating a cross-channel message workflow</a>: create a workflow by segmenting a population to send an email delivery and an SMS delivery.</p> </li>
+   <li><p> <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_AEM.html">Creating an email with Experience Manager and Campaign</a>: create an email content in Adobe Experience Manager and use it in an email in Adobe Campaign Standard.</p> </li>
+   <li><p> <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html">Delivering with Adobe Campaign</a>: discover some of the best practices that can be used to deliver with Adobe Campaign, from creating and targeting to sending and monitoring.</p> </li>
+   <li><p> <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_Deliverability.html">Optimizing your deliverability</a>: learn the key concepts and best practices related to deliverability as well as the tools offered by Adobe Campaign to optimize your deliveries.</p> </li>
+   <li><p> <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">General Data Protection Regulation</a>: discover the tools and functionalities that Adobe Campaign provides, as well as best practices, to help you become GDPR compliant.</p> </li>
+  </ul>
+  <p>Learn more about Adobe Campaign by checking the following use cases and examples:</p> 
+  <ul>
+   <li><p> <a href="../../automating/using/importing-data.md#example--import-workflow-template">Importing profiles</a>: import new client profiles with a workflow to your Adobe Campaign instance to update your database and to send emails.</p> </li>
+   <li><p> <a href="../../channels/using/key-steps-to-send-a-message.md">Key steps to send a message</a>: learn how to create and send messages step by step.</p> </li>
+   <li><p> <a href="../../integrating/using/abandonment-triggers-use-cases.md">Using Experience Cloud Triggers with Adobe Campaign</a>: send personalized emails to your customers following specific behaviors that were tracked by Adobe Analytics on your website.</p> </li>
+   <li><p> <a href="../../administration/using/use-case--users-e-security.md">Managing users and groups</a>: manage your users and groups to define their access to the interface.</p> </li>
+   <li><p> <a href="../../developing/using/key-steps.md">Adding or extending a resource</a>: learn how to create new resources or extend existing ones.</p> </li>
+   <li><p> <a href="../../automating/using/importing-data.md#example--import-workflow-template">Importing workflow template</a>: use import template to regularly import files with the same structure.</p> </li>
+   <li><p> <a href="../../channels/using/setting-up-a-double-opt-in-process.md">Setting up a double opt-in process</a>: learn how to send an email linked to a landing page to confirm a customer's subscription.</p> </li>
+   <li><p> <a href="../../designing/using/example--email-personalization.md">Personalize an email</a>: personalize an email according to the customer's age.</p> </li>
+  </ul>
+ </body>
+</html>

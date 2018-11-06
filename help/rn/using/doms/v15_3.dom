@@ -1,0 +1,71 @@
+<html>
+ <head>
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2017-11-16T10:47:23.663-0500" name="firstPublishExternalDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="b268187c-9b05-40da-9f38-5a5d524ee233" name="jcr:uuid" />
+  <meta content="c975031d-a540-4144-8399-4f9811fc1857" name="jcr:predecessors" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-01-11T19:01:39.769-0500" name="jcr:created" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="/content/help/en/campaign/standard/rn/morehelp/adobe-campaign-standard-release-notes;/content/help/en/campaign/standard/rn/morehelp/adobe-campaign-standard-release-notes" name="moreHelpPaths" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-01-10T15:33:38.752-0500" name="topicBrowsingSortDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2018-01-10T15:33:38.752-0500" name="lastPublishExternalDate" />
+  <meta content="sauviat" name="cq:lastModifiedBy" />
+  <meta content="v15.3" name="jcr:title" />
+  <meta content="2018-01-10T15:33:38.763-0500" name="cq:lastModified" />
+  <meta content="https://helpx.adobe.com/campaign/standard/rn/using/v15_3.html" name="publishExternalURL" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:rn;content_type:reference;topic_tags:adobe-campaign-standard-release-notes" name="cq:tags" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="audience:rn" name="primaryAudienceTag" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2017-11-28T11:31:52.818-0500" name="locHandOffDate" />
+  <meta content="v15.3 - 25/03/2015" name="navTitle" />
+  <meta content="03/25/2015" name="jcr:description" />
+  <meta content="2018-01-10T15:33:38.752-0500" name="publishExternalDate" />
+ </head>
+ <body>
+  <h2>Improvements</h2>
+  <table> 
+   <thead> 
+    <tr> 
+     <th> Functionality </th> 
+     <th> Description </th> 
+    </tr> 
+   </thead> 
+   <tbody> 
+    <tr> 
+     <td> Reports </td> 
+     <td> The reports can now be accessed directly from a program or a campaign. The <strong>Delivery summary</strong> report has been added at a program level. Refer to the <a href="../../reporting/using/delivery-summary.md">detailed documentation</a>. </td> 
+    </tr> 
+    <tr> 
+     <td> Update data </td> 
+     <td> In the workflows, the available <strong>Update data</strong> activity has a new option, which allows you to automatically link inbound data fields with the fields of an application schema. This helps facilitate the selection process for updating fields. Refer to the <a href="../../automating/using/update-data.md">detailed documentation</a>. </td> 
+    </tr> 
+    <tr> 
+     <td> Email delivery </td> 
+     <td> In workflows, the advanced options of the <strong>Email delivery</strong> activity can now be accessed via a specific button in the action bar. This button is only available if an <strong>Email delivery</strong> activity is selected. The main benefit is that it allows you to add an outbound transition to the activity and to edit the name of the activity as it is displayed in the workflow. Refer to the <a href="../../automating/using/email-delivery.md">detailed documentation</a>. </td> 
+    </tr> 
+   </tbody> 
+  </table>
+  <h2>Patches</h2>
+  <h3>General</h3>
+  <ul>
+   <li><p>Fixed an error that prevented the recipient from being displayed when creating a delivery.</p> </li>
+   <li><p>Fixed an error that prevented an audience that was based on a 'Recipients who have opened' condition from being used.</p> </li>
+   <li><p>Fixed an error that prohibited an empty profile from being deleted.</p> </li>
+   <li><p>Fixed an error which occurred when previewing a delivery.</p> </li>
+   <li><p>Fixed an error that prevented a marketing activity from being duplicated.</p> </li>
+   <li><p>Fixed an error that occurred when deleting a campaign.</p> </li>
+  </ul>
+ </body>
+</html>

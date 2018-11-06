@@ -1,0 +1,97 @@
+<html>
+ <head>
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="v17.1" name="navTitle" />
+  <meta content="sauviat" name="cq:lastModifiedBy" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="https://helpx.adobe.com/campaign/standard/rn/using/v17_1.html" name="publishExternalURL" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="v17.1" name="jcr:title" />
+  <meta content="light" name="heroGradient" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2017-11-16T10:46:16.685-0500" name="firstPublishExternalDate" />
+  <meta content="2018-01-11T19:01:56.596-0500" name="jcr:created" />
+  <meta content="01/30/2017" name="jcr:description" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2017-11-28T11:30:27.558-0500" name="locHandOffDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="audience:rn" name="primaryAudienceTag" />
+  <meta content="2018-01-10T15:33:51.296-0500" name="topicBrowsingSortDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:rn;content_type:reference;topic_tags:adobe-campaign-standard-release-notes" name="cq:tags" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2018-01-10T15:33:51.302-0500" name="cq:lastModified" />
+  <meta content="2018-01-10T15:33:51.296-0500" name="publishExternalDate" />
+  <meta content="2dc01be5-5729-4a9b-8a5f-d08c47f2e6ec" name="jcr:uuid" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="ab9c13e3-f499-4277-95f5-69e994db4105" name="jcr:predecessors" />
+  <meta content="2018-01-10T15:33:51.296-0500" name="lastPublishExternalDate" />
+  <meta content="admin" name="jcr:createdBy" />
+ </head>
+ <body>
+  <h2>Improvements</h2>
+  <table> 
+   <thead> 
+    <tr> 
+     <th> Functionality </th> 
+     <th> Description </th> 
+    </tr> 
+   </thead> 
+   <tbody> 
+    <tr> 
+     <td> Log export for external reporting </td> 
+     <td> Export logs such as delivery and tracking logs to process them in your preferred reporting or BI tools. You can use simple workflows with incremental queries to automate regular exports of new logs. In addition to the log resources availability from the resource picker, enhancements were made to the <a href="../../automating/using/incremental-query.md">Incremental query</a> and <a href="../../automating/using/extract-file.md">Extract file</a> activities: These activities are available to administrators with access to all geo and org units. For more information on exporting logs, refer to the <a href="../../automating/using/exporting-logs.md">detailed documentation</a>. </td> 
+    </tr> 
+    <tr> 
+     <td> Marketing capabilities for transactional messages </td> 
+     <td> Marketers can now send transactional messages based on customer marketing profiles. This allows them to: For more information, refer to the <a href="../../channels/using/profile-transactional-messages.md">detailed documentation</a>. </td> 
+    </tr> 
+    <tr> 
+     <td> Transactional Messaging API </td> 
+     <td> The Transactional Messaging API is now available through <a href="https://docs.campaign.adobe.com/doc/standard/en/adobeio.html">adobe.io</a>, making it easier to use and to monitor: </td> 
+    </tr> 
+   </tbody> 
+  </table>
+  <h2>Patches</h2>
+  <h3>General</h3>
+  <ul>
+   <li><p>The <strong>Access authorization</strong> options have returned to the landing page properties.</p> </li>
+   <li><p>Fixed an issue that may have caused an old image to be rendered instead of the correct image. This occurred if the source image had been updated in the content definition of a delivery or landing page.</p> </li>
+   <li><p>Fixed an issue that prevented users from editing certain fields in an existing SFTP external account.</p> </li>
+   <li><p>Fixed several UI issues. For example, users can now edit profile attributes and save modifications without experiencing problems with the UI.</p> </li>
+  </ul>
+  <h3>Emails and SMS messages</h3>
+  <ul>
+   <li><p>Fixed an issue pertaining to delivery templates with HTML content that contains a </p>
+    <form>
+      tag. Some users may have had problems uploading and using these templates.
+     <p></p> 
+    </form></li>
+  </ul>
+  <h3>Push notifications</h3>
+  <ul>
+   <li><p>Fixed an issue that may have prevented postback from an application to the Adobe Campaign server.</p> </li>
+   <li><p>Fixed an issue that may have prevented <strong>Play a sound</strong> and <strong>Custom fields</strong> to be taken into account for Android.</p> </li>
+   <li><p>Fixed an issue that may have caused an extra escaping character to be added to Unicode characters used for Emojis.</p> </li>
+   <li><p>When a subscriber's registration token becomes blacklisted, the corresponding status is now immediately updated in the application's list of subscribers in Adobe Campaign.</p> </li>
+  </ul>
+  <h3>Workflows</h3>
+  <ul>
+   <li><p>Fixed an issue that may have prevented previews of queries on event resources (e.g. rtEvent).</p> </li>
+   <li><p>The reject file generated by a <strong>Load file</strong> activity can now be retrieved in its outbound transition and processed in the next activity. For example, upload the reject file via an SFTP server using <strong>Transfer file</strong>.</p> </li>
+   <li><p>Fixed an issue that may have prevented a user from limiting the population of a segment if <strong>Temporary resource</strong> was selected in the <strong>General</strong> tab of <strong>Segmentation</strong>.</p> </li>
+   <li><p><strong>Scheduler</strong> activities can no longer be set to trigger a workflow more than once every 10 minutes.</p> </li>
+   <li><p>Fixed an issue that may have prevented <strong>Use common columns</strong> from working properly in an <strong>Union</strong> activity.</p> </li>
+  </ul>
+  <h3>Integrations</h3>
+  <ul>
+   <li><p>Fixed an issue that may have caused an error when deploying an event trigger in Adobe Campaign. This error occurred when the "Likelihood to Return in 30 Days" metadata had been added to the Abandonment trigger in Adobe Marketing Cloud.</p> </li>
+   <li><p>Fixed an issue that may have caused the technical workflow to clear the Target Dimension field when importing audiences from People core service. Subsequent queries could not retrieve the imported audiences.</p> </li>
+   <li><p>Fixed an issue that may have caused the <strong>Save audience</strong> activity of a workflow to fail when the option <strong>Share in Adobe Marketing Cloud</strong> was checked.</p> </li>
+  </ul>
+ </body>
+</html>

@@ -1,0 +1,28 @@
+<html>
+ <head>
+  <meta content="vignes" name="cq:lastModifiedBy" />
+  <meta content="light" name="heroGradient" />
+  <meta content="products:SG_CAMPAIGN" name="cq:tags" />
+  <meta content="Adobe Campaign Standard - Release Notes" name="jcr:title" />
+  <meta content="products:SG_CAMPAIGN" name="primaryProductTag" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2017-11-07T19:01:01.310-0500" name="jcr:created" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="true" name="preview" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Looking for a specific release of Adobe Campaign Standard?" name="jcr:description" />
+  <meta content="2017-11-06T11:31:04.776-0500" name="cq:lastModified" />
+  <meta content="vignes" name="contentOwner" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="en" name="pageCreatedAt" />
+  <meta content="video" name="pageLayout" />
+ </head>
+ <body>
+  <p>Each release comes with new features and patches. Click on a release to view its content.<br /> </p> 
+  <h2>2017</h2>
+  <h2>2016</h2>
+  <h2>2015</h2>
+ </body>
+</html>

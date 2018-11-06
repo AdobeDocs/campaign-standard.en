@@ -1,0 +1,67 @@
+<html>
+ <head>
+  <meta content="light" name="heroGradient" />
+  <meta content="2018-07-23T05:59:10.960-0400" name="lastPublishExternalDate" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-07-23T05:59:10.960-0400" name="topicBrowsingSortDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:developing;content_type:reference;topic_tags:adding-or-extending-a-resource" name="cq:tags" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="audience:developing" name="primaryAudienceTag" />
+  <meta content="Step 4: Define filters" name="jcr:description" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-03-15T09:01:59.704-0400" name="jcr:created" />
+  <meta content="Discover the filter feature to manage large data set." name="seoDescription" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2018-07-23T05:59:10.960-0400" name="firstPublishExternalDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="https://helpx.adobe.com/campaign/standard/developing/using/step-4--define-filters.html" name="publishExternalURL" />
+  <meta content="22f51866-7733-4ca2-82d3-bbd056e3846a" name="jcr:uuid" />
+  <meta content="2018-07-23T05:59:10.990-0400" name="cq:lastReplicated" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-07-26T02:53:27.378-0400" name="locHandOffDate" />
+  <meta content="Step 4: Define filters" name="navTitle" />
+  <meta content="Step 4: Define filters" name="jcr:title" />
+  <meta content="2018-07-23T05:59:10.960-0400" name="publishExternalDate" />
+  <meta content="2018-07-26T02:53:27.379-0400" name="cq:lastModified" />
+  <meta content="37fe6837-fc3e-49ae-a709-6309013e15d4" name="jcr:predecessors" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:versionHistory" />
+ </head>
+ <body>
+  <p>In the <strong>Filter definition</strong> tab, you can create advanced filters that users can directly access when creating complex queries, such as when defining an audience.</p> 
+  <p>This step is not mandatory as you will still be able to populate your resource and access its data through workflows, audiences and REST API.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/custom_resource_filter-definition.png" title="" />
+  <p>These filters are used in the query editor in the form of pre-configured rules. They allow you to limit the number of steps necessary to get the desired configuration, which can be particularly beneficial for repetitive segmentations.</p> 
+  <p>For example, you can create a filter enabling to select all transactions greater than a certain amount within the last three months.</p> 
+  <p>To do this, you need to extend the <strong>Profiles</strong> resource and define a filter linking to a transaction table (that you have previously created) with a rule indicating that the transaction price must be greater than or equal to a given parameter and that the transaction date must fall within a range corresponding to the last three months.</p> 
+  <ol>
+   <li><p>Make sure you create and publish a transaction table. See <a href="../../developing/using/step-1--define-the-resource.md" target="_blank">Step 1: Define the resource</a>.</p> 
+    <note>
+     <p> This procedure uses the example of a custom transaction table. For your case, adjust it to your business needs. </p> 
+    </note></li>
+   <li><p>Before defining a filter related to the transaction table in the <strong>Profiles</strong> resource, make sure you define the link to this table and publish your changes. See <a href="../../developing/using/step-2--configure-the-resource-data-structure.md#defining-links-with-other-resources" target="_blank">Defining links with other resources</a> and <a href="../../developing/using/step-5--update-the-database-structure.md" target="_blank">Step 5: Update the database structure</a>.</p> </li>
+   <li><p>In the <strong>Definition</strong> tab of your new filter's definition screen, select the transaction table.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/custom_resource_filter-definition_example-empty.png" title="" /></li>
+   <li><p>In the <strong>Add a rule - Profiles/Transactions</strong> window, drag and drop the transaction table into the workspace. In the next window that is displayed, select the field that you want to use.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/custom_resource_filter-definition_example-field.png" title="" /></li>
+   <li><p>In the <strong>Optional parameter settings</strong> of the <strong>Add a rule - Transactions</strong> window, check the <strong>Switch to parameters</strong> box.</p> <p>In the <strong>Filter conditions</strong>, select the <strong>Greater than or equal to</strong> operator. In the <strong>Parameters</strong> field, enter a name and click the plus sign to create the new parameter.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/custom_resource_filter-definition_example-parameter.png" title="" /></li>
+   <li><p>Confirm your changes. This definition corresponds to a configurable field that the user must fill in later to execute the query.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/custom_resource_filter-definition_ex_edit-rule.png" title="" /></li>
+   <li><p>Combine this rule with another rule specifying that the transaction date must fall within a range corresponding to the last three months.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/custom_resource_filter-definition_example.png" title="" /></li>
+   <li><p>Choose the category in which your filter will be displayed.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/custom_resource_filter-definition_category.png" title="" /></li>
+   <li><p>In the <strong>Parameters</strong> tab of the filter definition screen, modify the description and the label to clearly indicate the subject of your filter to the users. This information will appear in the query editor.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/custom_resource_filter-definition_parameters.png" title="" /><p>If you define multiple configurable fields, you can modify the order in which they appear in the interface.</p> </li>
+   <li><p>Save your changes and publish the resources. For more on this, refer to the <a href="../../developing/using/step-5--update-the-database-structure.md" target="_blank">Step 5: Update the database structure</a> section.</p> </li>
+  </ol>
+  <p>Once the <strong>Profiles</strong> resource extension is published, the users will see this filter under the shortcuts tab in the <a href="../../automating/using/editing-queries.md">query editor</a> interface.</p> 
+  <p>This will allow the user to easily define their audience when creating an email to send to all of the clients that spent more than a certain amount over the last three months.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/custom_resource_filter-definition_email-audience.png" title="" />
+  <p>Rather than configuring it themselves, they simply have to enter the desired amount in the dialog box that appears.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/custom_resource_filter-definition_email-audience_filter.png" title="" />
+ </body>
+</html>

@@ -1,0 +1,100 @@
+<html>
+ <head>
+  <meta content="light" name="heroGradient" />
+  <meta content="Provisioning and configuring People core service integration" name="jcr:description" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="audience:integrating" name="primaryAudienceTag" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-01-10T15:24:10.078-0500" name="firstPublishExternalDate" />
+  <meta content="2018-01-11T19:02:43.950-0500" name="jcr:created" />
+  <meta content="Provisioning and configuring People core service integration" name="jcr:title" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="/content/help/en/campaign/standard/integrating/morehelp/people-core-service-integration;/content/help/en/campaign/standard/integrating/morehelp/people-core-service-integration" name="moreHelpPaths" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="Learn how to configure the People core service integration to start sharing audiences or segments with the different Adobe Marketing Cloud solutions. " name="seoDescription" />
+  <meta content="bd493fd1-50bf-490f-baff-8daa74ad1066" name="jcr:uuid" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="372e49cb-8380-4d8b-bf8f-f52106454543" name="jcr:predecessors" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:integrating;content_type:reference;topic_tags:people-core-service-integration" name="cq:tags" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-01-10T15:24:10.078-0500" name="topicBrowsingSortDate" />
+  <meta content="2018-01-10T15:24:10.078-0500" name="publishExternalDate" />
+  <meta content="https://helpx.adobe.com/campaign/standard/integrating/using/provisioning-and-configuring-people-core-service-integration.html" name="publishExternalURL" />
+  <meta content="2018-01-10T15:24:10.085-0500" name="cq:lastModified" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-01-10T15:24:10.078-0500" name="lastPublishExternalDate" />
+  <meta content="Provisioning and configuring People core service integration" name="navTitle" />
+ </head>
+ <body>
+  <p>People core service integration lets you import and export audiences or segments in Adobe Campaign.</p> 
+  <p>This integration must first be configured. To request provisioning of this integration, write an email to <a href="mailto:Digital-Request@adobe.com">Digital-Request@adobe.com</a> with the following information:</p> 
+  <table> 
+   <tbody> 
+    <tr> 
+     <td> <strong>Request Type:</strong> </td> 
+     <td> Configure AAM/People core service-Campaign Integration </td> 
+    </tr> 
+    <tr> 
+     <td> <strong>Organization Name:</strong> </td> 
+     <td> Your organization name </td> 
+    </tr> 
+    <tr> 
+     <td> <strong>IMS Org ID</strong> </td> 
+     <td> Your IMS Org ID* </td> 
+    </tr> 
+    <tr> 
+     <td> <strong>Environment:</strong> </td> 
+     <td> Example: Production </td> 
+    </tr> 
+    <tr> 
+     <td> <strong>AAM or People Service</strong> </td> 
+     <td> Example: Adobe Audience Manager </td> 
+    </tr> 
+    <tr> 
+     <td> <strong>Declared ID or Visitor ID</strong> </td> 
+     <td> Example: Declared ID </td> 
+    </tr> 
+    <tr> 
+     <td> <strong>Additional Information</strong> </td> 
+     <td> Any useful information or comment that you may have </td> 
+    </tr> 
+   </tbody> 
+  </table>
+  <p>* You can find your IMS Org ID on the Marketing Cloud, in the <strong>Administration</strong> menu. It is also provided when you first connect to the Adobe Marketing Cloud.</p> 
+  <p>After submitting this request, Adobe will proceed to the provisioning of the integration for you and contact you to provide details and information that you have to finalize the configuration:</p> 
+  <ol>
+   <li><p>Configure or check the external accounts in Adobe Campaign as follows:</p> <p>Go to <strong>Administration</strong> &gt; <strong>Application settings</strong> &gt; <strong>External accounts</strong>. The mentioned SFTP accounts should have been configured by Adobe and the necessary information should have been communicated to you.</p> 
+    <ul>
+     <li><p><strong>importSharedAudience</strong>: SFTP account dedicated to importing audiences.</p> </li>
+     <li><p><strong>exportSharedAudience</strong>: SFTP account dedicated to exporting audiences.</p> </li>
+    </ul><p>Use the <strong>ftp-out.demdex.com</strong> domain for the import external account and the <strong>ftp-in.demdex.com</strong> domain for the export external account. Remember that an export from Campaign is an import for Audience Manager or People core service.</p> <p>Specify the user name and password provided by Adobe.</p> </li>
+   <li><p>In <strong>Administration</strong> &gt; <strong>Application settings</strong> &gt; <strong>AMC Data sources</strong>, configure the AMC Data sources or check that they are set properly.</p> <p>Configure the <strong>Recipient - Visitor ID</strong> data source by entering the Data Source ID and AAM Destination ID provided by Adobe.</p> </li>
+   <li><p>Make sure the Campaign Tracking Server is registered on the domain (CNAME). You can find more information about domain name delegation in <a href="https://docs.campaign.adobe.com/doc/AC6.1/en/Technotes/AdobeCampaign_Deliverability_Sub_Domain_Delegation.pdf">this article</a>.</p> </li>
+   <li><p>Configure the Visitor ID Service on your web properties/sites by following <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-aam-analytics.html">this document</a>.</p> </li>
+  </ol>
+  <p>Your configuration and provisioning are finalized, the integration can now be used to import and export audiences or segments.</p> 
+  <h2>Troubleshooting</h2>
+  <p>Errors may be encountered while using the People core service integration.</p> 
+  <p>In this case, make sure that the following elements are correctly configured:</p> 
+  <ul>
+   <li><p><strong>External accounts</strong></p> <p>In <strong>Administration</strong> &gt; <strong>Application settings</strong> &gt; <strong>External accounts</strong>, make sure that the following external SFTP accounts are correctly configured. The mentioned SFTP servers should have been configured during provisioning.</p> 
+    <ul>
+     <li><p><strong>importSharedAudience</strong>: SFTP account dedicated to importing audiences.</p> </li>
+     <li><p><strong>exportSharedAudience</strong>: SFTP account dedicated to exporting audiences.</p> </li>
+    </ul></li>
+   <li><p><strong>AMC Data source</strong></p> <p>In <strong>Administration</strong> &gt; <strong>Application settings</strong> &gt; <strong>AMC Data sources</strong>, check that the AMC Data source is set properly.</p> <p>Check that the reconciliation key is correct. It is the hashed/encrypted value of this field that is used to export and import audiences.</p> <p>In case of hashing or encryption of the declared ID, check that the same parameters/encryption algorithms are used on your Website.</p> <p>Only one encryption algorithm is supported: AES in CBC mode with a key size of 128, 192 or 256 bits, with PKCS padding.</p> <p>If the AES encryption algorithm is selected, the following additional fields must be correctly set: </p> 
+    <ul>
+     <li><p><strong>Encryption Key</strong> for AES</p> </li>
+     <li><p><strong>Encryption IV</strong> (Initialization Vector) for AES</p> </li>
+     <li><p><strong>Channel</strong> (Email/SMS/Other): This field allows to directly decrypt email addresses and SMS numbers. Make sure that the reconciliation key matches the setting of the <strong>Channel</strong> field. If you select "Other", this specific decryption will not happen and the reconciliation key will be used to reconcile the data.</p> </li>
+    </ul></li>
+  </ul>
+  <p>It can occur that some data are missing when sharing an audience via People core service or when importing an audience. Only records of which the ID ('Visitor ID' or 'Declared ID') was able to be reconciled with the profile dimension are transferred. IDs from the People core service segments that are not recognized by Adobe Campaign are not imported.</p> 
+ </body>
+</html>

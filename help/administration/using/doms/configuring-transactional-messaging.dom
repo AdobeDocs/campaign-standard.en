@@ -1,0 +1,182 @@
+<html>
+ <head>
+  <meta content="" name="jcr:primaryType" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="2018-02-16T08:02:02.288-0500" name="jcr:created" />
+  <meta content="8c407f93-e476-487f-9ff9-74d408ceb0fd" name="jcr:uuid" />
+  <meta content="Configuring transactional messaging" name="jcr:description" />
+  <meta content="2018-07-23T05:53:42.639-0400" name="topicBrowsingSortDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="8da2c6ba-9af2-4c87-8658-ab2d2349a91d" name="jcr:predecessors" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html" name="publishExternalURL" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-07-23T05:53:42.639-0400" name="firstPublishExternalDate" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2018-07-23T05:53:42.711-0400" name="cq:lastReplicated" />
+  <meta content="Configuring transactional messaging" name="navTitle" />
+  <meta content="2018-07-23T05:53:42.639-0400" name="lastPublishExternalDate" />
+  <meta content="Configuring transactional messaging" name="jcr:title" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-07-23T05:53:42.639-0400" name="publishExternalDate" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-07-25T09:29:25.226-0400" name="cq:lastModified" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="audience:administration" name="primaryAudienceTag" />
+  <meta content="2018-07-25T09:29:25.226-0400" name="locHandOffDate" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:administration;content_type:reference;topic_tags:configuring-channels" name="cq:tags" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="Learn how to configure transactional messaging." name="seoDescription" />
+  <meta content="light" name="heroGradient" />
+ </head>
+ <body>
+  <p>To send a transactional message with Adobe Campaign, your first need to describe the structure of the event data.</p> 
+  <p>Event configuration must be performed by an <strong>administrator</strong> by following the steps below: </p> 
+  <p>The configuration can vary depending on the type of transactional message you want to send. For more on this, refer to <a href="../../administration/using/configuring-transactional-messaging.md#transactional-event-specific-configurations" target="_blank">Transactional event specific configurations</a></p> 
+  <p>Once the event is published, the corresponding transactional message is automatically created. For more on transactional messaging, refer to <a href="../../channels/using/about-transactional-messaging.md">this page</a>.</p> 
+  <h2>Creating an event</h2>
+  <p>Start by creating the event corresponding to your needs. </p> 
+  <ol>
+   <li><p>Click the <strong>Adobe Campaign</strong> logo, in the top left corner, then select <strong>Marketing plans</strong> &gt; <strong>Transactional messages</strong> &gt; <strong>Event configuration</strong>.</p> </li>
+   <li><p>Click the <strong>Create</strong> button.</p> </li>
+   <li><p>Give a <strong>Label</strong> and an <strong>ID</strong> to the event. The <strong>ID</strong> field is mandatory and should begin with the prefix "EVT". If you do not use this prefix, it is automatically added once you click <strong>Create</strong>. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/message-center_1.png" title="" /></li>
+   <li><p>Select the channel that will be used to send your transactional messages <strong>Email</strong>, <strong>Mobile (SMS)</strong> or <strong>Mobile application</strong> (push notification).</p> 
+    <note>
+     <p> Only one channel can be used for each event configuration. Once the event is created, you cannot change the channel. </p> 
+    </note></li>
+   <li><p>Select the targeting dimension corresponding to the desired event configuration and click <strong>Create</strong>.</p> <p>Event-based transactional messages target data contained in the event itself, whereas profile-based transactional messages target data contained in the Adobe Campaign database. For more on this, refer to <a href="../../administration/using/configuring-transactional-messaging.md#transactional-event-specific-configurations" target="_blank">Transactional event specific configurations</a>.</p> </li>
+  </ol>
+  <h2>Defining the event attributes</h2>
+  <p>In the <strong>Fields</strong> section, define the attributes that will be integrated into the event content and will then be able to be used to personalize the transactional message.</p> 
+  <p>The steps for adding and modifying fields are the same as for <a href="../../developing/using/step-2--configure-the-resource-data-structure.md#adding-fields-to-a-resource">custom resources</a>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/message-center_2.png" title="" />
+  <note>
+   <p> If you want to create a multilingual transactional message, define an additional event attribute with the <strong>AC_language</strong> ID. This only applies to event transactional messages. After the event is published, the steps for editing the content of a multilingual transactional message are the same as for a multilingual standard email. See <a href="../../channels/using/creating-a-multilingual-email.md">Creating a multilingual email</a>. </p> 
+  </note>
+  <h2>Enriching the transactional message content</h2>
+  <p>Enriching the transactional message content with information from the Adobe Campaign database enables you to personalize your messages. From the last name or CRM ID of each of your recipients, for example, you can recover data such as their address or date of birth or any other custom field added in the Profile table, in order to personalize the information that is sent to them.</p> 
+  <p>It is possible to enrich the transactional message content with information from extended <strong>Profile</strong> or <strong>Service</strong> resources.</p> 
+  <p>This information can also be stored in new resources. In that case, the resource must be linked to the <strong>Profile</strong> or <strong>Service</strong> resources either directly, or via another table. For example, in the configuration below, it is possible to enrich the transactional message content with information from the <strong>Product</strong> resource like the product category or ID, if the <strong>Product</strong> resource is linked to the <strong>Profile</strong> resource.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/message-center_useCaseSchema.png" title="" />
+  <p>For more on resource creation and publishing, refer to <a href="../../developing/using/key-steps.md">this page</a>.</p> 
+  <ol>
+   <li><p>In the <strong>Enrichment</strong> section, click the <strong>Create element</strong> button.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/message-center_addEnrichment.png" title="" /></li>
+   <li><p>Select the resource with which you want to link your message. In our case, the <strong>Profile</strong> resource.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/message-center_new-enrichment.png" title="" /></li>
+   <li><p>Use the <strong>Create element</strong> button to link a field from the selected resource to one of the fields you previously added to the event (see <a href="../../administration/using/configuring-transactional-messaging.md#defining-the-event-attributes" target="_blank">Defining the event attributes</a>).</p> <img alt="" captionBottom="" imageRotate="0" src="assets/message-center_enrichment-join.png" title="" /></li>
+   <li><p>In this example, we reconcile the <strong>Last name</strong> and the <strong>First name</strong> fields with the corresponding fields in the <strong>Profile</strong> resource.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/message-center_enrichment-join-fields.png" title="" /></li>
+   <li><p>If the event targets the <strong>Profile</strong> resource, select in the <strong>Targeting enrichment</strong> section, the enrichment that will be used as the message target during the delivery execution. In this example, select <strong>Profile</strong>. Selecting a targeting enrichment is mandatory for profile-based events. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/message-center_marketing_targeting_enrichment.png" title="" /></li>
+  </ol>
+  <p>Once the event and the message are published, the link with the <strong>Profile</strong> resource will allow you to enrich the content of the transactional message.</p> 
+  <p><strong>Related topics:</strong> </p> 
+  <h2>Previewing and publishing the event</h2>
+  <p>Before being able to use the event, you must preview and publish it.</p> 
+  <ol>
+   <li><p>Click the <strong>API preview</strong> button to see a simulation of the REST API that will be used by your website developer before it is published. Once the event is published, this button also allows you to see a preview of the API in production. See <a href="../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website" target="_blank">Integrating the triggering of the event in a website</a>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/message-center_api_preview.png" title="" />
+    <note>
+     <p> The REST API varies according to the selected channel and the selected targeting dimension. For more details on the various configurations, refer to <a href="../../administration/using/configuring-transactional-messaging.md#transactional-event-specific-configurations" target="_blank">Transactional event specific configurations</a>. </p> 
+    </note></li>
+   <li><p>Click <strong>Publish</strong> to start publication.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/message-center_pub.png" title="" /></li>
+   <li><p>You can view the publication logs by selecting the corresponding tab.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/message-center_logs.png" title="" /><p>You can also consult the previous publications by selecting the tab.</p> </li>
+  </ol>
+  <note>
+   <p> Each time you modify the event, you must click <strong>Publish</strong> again to generate the updated REST API that will be used by your website developer. </p> 
+  </note>
+  <p>Once the event has been published, a transactional message linked to the new event is automatically created. In order for this event to trigger sending a transactional message, you must modify and publish the message that was just created. See <a href="../../channels/using/event-transactional-messages.md">Event transactional messages</a>.</p> 
+  <p> You can access the transactional message that was created directly from the link in the left-hand side area.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/message-center_messageGeneration.png" title="" />
+  <p>You also have to integrate this trigger event into your website. See <a href="../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website" target="_blank">Integrating the triggering of the event in a website</a>.</p> 
+  <h3>Unpublishing an event</h3>
+  <p>The <strong>Unpublish</strong> button lets you cancel the publication of the event, which deletes from the REST API the resource corresponding to the event that you previously created. Now, even if the event is triggered through your website, the corresponding messages are not sent anymore and they are not stored in the database.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/message-center_unpublish.png" title="" />
+  <note>
+   <p> If you have already published the corresponding transactional message, the transactional message publication is also canceled. See <a href="../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message">Unpublishing a transactional message</a>. </p> 
+  </note>
+  <p>Click the <strong>Publish</strong> button to generate a new REST API.</p> 
+  <h2>Integrating the triggering of the event in a website</h2>
+  <p>Once you have created an event, you will have to integrate the triggering of this event into your website.</p> 
+  <p>In the example described in the <a href="../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle">Transactional messaging operating principle</a> section, you want a "Cart abandonment" event to be triggered whenever one of your clients leaves your website before purchasing the products in their cart. To do this, your website web developer must use the Adobe Campaign Standard REST API.</p> 
+  <p>See the <a href="https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html">REST API Documentation</a> (<strong>Transactional Messages API</strong> section).</p> 
+  <h2>Transactional event specific configurations</h2>
+  <p>Transactional event configuration may vary depending on the type of transactional message you want to send (event or profile), and the channel that will be used.</p> 
+  <p>The following sections detail what specific configuration should be set according to the desired transactional message. For more on the general steps to configure an event, refer to </p> 
+  <h3>Event-based transactional messages</h3>
+  <p>To send an event-based transactional message, you first need to create and configure an event targeting the data contained in the event itself.</p> 
+  <ol>
+   <li><p>When creating the event configuration, select the <strong>Real-time event</strong> targeting dimension (see <a href="../../administration/using/configuring-transactional-messaging.md#creating-an-event" target="_blank">Creating an event</a>).</p> </li>
+   <li><p>Add fields to the event, in order to be able to personalize the transactional message (see <a href="../../administration/using/configuring-transactional-messaging.md#defining-the-event-attributes" target="_blank">Defining the event attributes</a>).</p> </li>
+   <li><p>Enrich the transactional message content if you want to use additional information from the Adobe Campaign database (see <a href="../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content" target="_blank">Enriching the transactional message content</a>).</p> 
+    <note>
+     <p> Event-based transactional messaging is supposed to use only the data that are in the sent event to define the recipient and the message content personalization. However, you can enrich the content of your transactional message using information from the Adobe Campaign database. </p> 
+    </note></li>
+   <li><p>Preview and publish the event (see <a href="../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event" target="_blank">Previewing and publishing the event</a>).</p> <p>When previewing the event, the REST API contains an attribute specifying the email address or mobile phone according to the selected channel.</p> <p>Once the event has been published, a transactional message linked to the new event is automatically created. In order for the event to trigger sending a transactional message, you must modify and publish the message that was just created, see <a href="../../channels/using/event-transactional-messages.md">Event transactional messages</a>.</p> </li>
+   <li><p>Integrate the event into your website (see <a href="../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website" target="_blank">Integrating the triggering of the event in a website</a>).</p> </li>
+  </ol>
+  <h3>Profile-based transactional messages</h3>
+  <p>To send a profile-based transactional message, you first need to create and configure an event targeting data contained in the Adobe Campaign database.</p> 
+  <ol>
+   <li><p>When creating the event configuration, select the <strong>Profile event</strong> targeting dimension (see <a href="../../administration/using/configuring-transactional-messaging.md#creating-an-event" target="_blank">Creating an event</a>).</p> </li>
+   <li><p>Add fields to the event, in order to be able to personalize the transactional message (see <a href="../../administration/using/configuring-transactional-messaging.md#defining-the-event-attributes" target="_blank">Defining the event attributes</a>). You must add at least one field to create an enrichment. You do not need to create other fields such as <strong>First name</strong> and <strong>Last name</strong> as you will be able to use personalization fields from the Adobe Campaign database. </p> </li>
+   <li><p>Create an enrichment in order to link the event to the <strong>Profile</strong> resource (see <a href="../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content" target="_blank">Enriching the transactional message content</a>). Creating an enrichment is mandatory when using a <strong>Profile</strong> targeting dimension.</p> </li>
+   <li><p>Preview and publish the event (see <a href="../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event" target="_blank">Previewing and publishing the event</a>).</p> <p>When previewing the event, the REST API does not contain an attribute specifying the email address or the mobile phone as it will be retrieved from the <strong>Profile</strong> resource.</p> <p>Once the event has been published, a transactional message linked to the new event is automatically created. In order for the event to trigger sending a transactional message, you must modify and publish the message that was just created, see <a href="../../channels/using/profile-transactional-messages.md#sending-a-profile-transactional-message">Sending a profile transactional message</a>.</p> </li>
+   <li><p>Integrate the event into your website (see <a href="../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website" target="_blank">Integrating the triggering of the event in a website</a>).</p> </li>
+  </ol>
+  <h3>Event-based transactional push notifications</h3>
+  <p>To be able to send transactional push notifications, you need to configure Adobe Campaign accordingly. See <a href="../../administration/using/configuring-mobile-app-channel.md">Push configuration</a>.</p> 
+  <p>To send an anonymous transactional push notification to all users who have opted in to receive notifications from your mobile application, you first need to create and configure an event targeting the data contained in the event itself. The corresponding steps are presented below.</p> 
+  <p>The event must contain the three following elements:</p> 
+  <ul>
+   <li><p>A <strong>registration token</strong>, which is the user ID for one mobile application and one device. It may not correspond to any profile from the Adobe Campaign database.</p> </li>
+   <li><p>A <strong>mobile application name</strong> (one for all devices - Android and iOS). This is the ID of the mobile application configured in Adobe Campaign that will be used to receive push notifications on the users' devices. For more on this, see <a href="../../administration/using/configuring-mobile-app-channel.md#setting-up-a-mobile-application-in-adobe-campaign" target="_blank">Setting up a mobile application in Adobe Campaign</a>.</p> </li>
+   <li><p>A <strong>push platform</strong> ("gcm" for Android or "apns" for iOS).</p> </li>
+  </ul>
+  <ol>
+   <li><p>When creating the event configuration, select the <strong>Mobile application</strong> channel and the <strong>Real-time event</strong> targeting dimension (see <a href="../../administration/using/configuring-transactional-messaging.md#creating-an-event" target="_blank">Creating an event</a>).</p> </li>
+   <li><p>Add fields to the event, in order to be able to personalize the transactional message (see <a href="../../administration/using/configuring-transactional-messaging.md#defining-the-event-attributes" target="_blank">Defining the event attributes</a>).</p> </li>
+   <li><p>Enrich the transactional message content if you want to use additional information from Adobe Campaign database (see <a href="../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content" target="_blank">Enriching the transactional message content</a>).</p> 
+    <note>
+     <p> Event-based transactional messaging is supposed to use only the data that are in the sent event to define the recipient and the message content personalization. However, you can enrich the content of your transactional message using information from the Adobe Campaign database. </p> 
+    </note></li>
+   <li><p>Preview and publish the event (see <a href="../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event" target="_blank">Previewing and publishing the event</a>).</p> <p>When previewing the event, the REST API contains the "registrationToken", "application" and "pushPlatform" attributes that will be used to target the delivery.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/message-center_push_API.png" title="" /><p>Once the event has been published, a transactional push notification linked to the new event is automatically created. To modify and publish the message that was just created, see <a href="../../channels/using/transactional-push-notifications.md#sending-a-transactional-push-notification-targeting-an-event">Sending a transactional push notification targeting an event</a>.</p> </li>
+   <li><p>Integrate the event into your website (see <a href="../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website" target="_blank">Integrating the triggering of the event in a website</a>).</p> </li>
+  </ol>
+  <h3>Profile-based transactional push notifications</h3>
+  <p>To send a transactional push notification to the Adobe Campaign profiles who have subscribed to your mobile application, you first need to create and configure an event targeting the Adobe Campaign database.</p> 
+  <ol>
+   <li><p>When creating the event configuration, select the <strong>Mobile application</strong> channel and the <strong>Profile</strong> targeting dimension (see <a href="../../administration/using/configuring-transactional-messaging.md#creating-an-event" target="_blank">Creating an event</a>).</p> <p>By default, the transactional push notification will be sent to all mobile applications to which the recipients subscribed. To send the push notification to a specific mobile application, select it in the list. The other mobile applications will be targeted by the message but will be excluded from the sending.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/message-center_push_appFilter.png" title="" /></li>
+   <li><p>Add fields to the event, if you want to personalize the transactional message (see <a href="../../administration/using/configuring-transactional-messaging.md#defining-the-event-attributes" target="_blank">Defining the event attributes</a>).</p> 
+    <note>
+     <p> You must add at least one field to create an enrichment. You do not need to create other fields such as <strong>First name</strong> and <strong>Last name</strong> as you will be able to use personalization fields from the Adobe Campaign database. </p> 
+    </note></li>
+   <li><p>Create an enrichment in order to link the event to the <strong>Profile</strong> resource (see <a href="../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content" target="_blank">Enriching the transactional message content</a>). Creating an enrichment is mandatory when using a <strong>Profile</strong> targeting dimension.</p> </li>
+   <li><p>Preview and publish the event (see <a href="../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event" target="_blank">Previewing and publishing the event</a>).</p> <p>When previewing the event, the REST API does not contain an attribute specifying the registration token, the application name and the push platform as they will be retrieved from the <strong>Profile</strong> resource.</p> <p>Once the event has been published, a transactional push notification linked to the new event is automatically created. To modify and publish the message that was just created, see <a href="../../channels/using/transactional-push-notifications.md#sending-a-transactional-push-notification-targeting-a-profile">Sending a transactional push notification targeting a profile</a>.</p> </li>
+   <li><p>Integrate the event into your website (see <a href="../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website" target="_blank">Integrating the triggering of the event in a website</a>).</p> </li>
+  </ol>
+  <h3>Configuring an event to send a follow-up message</h3>
+  <p>A follow-up message is a predefined marketing delivery template that can be used in a workflow to send messages to the recipients of a specific transactional message. For more on this, see <a href="../../channels/using/follow-up-messages.md">Follow-up messages</a>.</p> 
+  <ol>
+   <li><p>Use the same event configuration that you created to send an event transactional message. See <a href="../../administration/using/configuring-transactional-messaging.md#event-based-transactional-messages" target="_blank">Event-based transactional messages</a>.</p> </li>
+   <li><p>When configuring your event, check the <strong>Create follow-up delivery template for this event</strong> box before publishing the event.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/message-center_follow-up-checkbox.png" title="" /></li>
+   <li><p>Preview and publish the event (see <a href="../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event" target="_blank">Previewing and publishing the event</a>).</p> <p>Once the event has been published, a transactional message and a follow-up delivery template linked to the new event are automatically created. For more on using follow-up messages, see <a href="../../channels/using/follow-up-messages.md#sending-a-follow-up-message">Sending a follow-up message</a>.</p> </li>
+  </ol>
+  <h2>Use case: configuring an event to send a transactional message</h2>
+  <p>In this example, we want to configure an event in order to send confirmation messages after each purchase on our website with the following prerequisites: </p> 
+  <p>As we want to identify our client via his CRM ID, first make sure that the <strong>Profile</strong> resource has been extended with this new field.</p> 
+  <p>In the same way, a custom resource corresponding to purchases must have been created and published, and must be linked to the <strong>Profile</strong> resource. This way, you will be able to retrieve information from this resource to enrich the message content.</p> 
+  <p>For more on resource creation and publishing, refer to <a href="../../developing/using/key-steps.md">this page</a>.</p> 
+  <ol>
+   <li><p>Create a new event using the <strong>Email</strong> channel and the <strong>Profile</strong> targeting dimension (see <a href="../../administration/using/configuring-transactional-messaging.md#creating-an-event" target="_blank">Creating an event</a>).</p> </li>
+   <li><p>Define the attributes that will be available to personalize the transactional message. In our case, add the "CRM ID" and the "Product identifier" fields (see <a href="../../administration/using/configuring-transactional-messaging.md#defining-the-event-attributes" target="_blank">Defining the event attributes</a>).</p> <img alt="" captionBottom="" imageRotate="0" src="assets/message-center_useCase1.png" title="" /></li>
+   <li><p>To enrich the message content with information regarding the client's previous purchases, create an enrichment targeting the <strong>Purchase</strong> resource (see <a href="../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content" target="_blank">Enriching the transactional message content</a>).</p> <img alt="" captionBottom="" imageRotate="0" src="assets/message-center_useCase2.png" title="" /></li>
+   <li><p>Create a join condition between the "Product identifier" field that was previously added to the message, and the corresponding field from the <strong>Purchase</strong> resource</p> <img alt="" captionBottom="" imageRotate="0" src="assets/message-center_useCase3.png" title="" /></li>
+   <li><p>Preview and publish the event (see <a href="../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event" target="_blank">Previewing and publishing the event</a>).</p> </li>
+   <li><p>Integrate the event in your website (see <a href="../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website" target="_blank">Integrating the triggering of the event in a website</a>).</p> </li>
+  </ol>
+ </body>
+</html>

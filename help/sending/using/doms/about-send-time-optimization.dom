@@ -1,0 +1,49 @@
+<html>
+ <head>
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="About send time optimization" name="navTitle" />
+  <meta content="Learn how to improve the success rate of your messages." name="seoDescription" />
+  <meta content="2018-01-11T19:01:30.325-0500" name="jcr:created" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:sending;content_type:reference;topic_tags:sheduling-messages" name="cq:tags" />
+  <meta content="About send time optimization" name="jcr:title" />
+  <meta content="2018-01-10T15:31:16.993-0500" name="lastPublishExternalDate" />
+  <meta content="f7b1aa5e-a228-41c9-8a6a-5ddb7d0bca4f" name="jcr:uuid" />
+  <meta content="2018-01-10T15:31:16.999-0500" name="cq:lastModified" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="audience:sending" name="primaryAudienceTag" />
+  <meta content="2018-01-10T15:31:16.993-0500" name="firstPublishExternalDate" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="https://helpx.adobe.com/campaign/standard/sending/using/about-send-time-optimization.html" name="publishExternalURL" />
+  <meta content="light" name="heroGradient" />
+  <meta content="7cc709a3-687c-47f5-ad2b-a2ea8eb02a08" name="jcr:predecessors" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-01-10T15:31:16.993-0500" name="publishExternalDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="About send time optimization" name="jcr:description" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-01-10T15:31:16.993-0500" name="topicBrowsingSortDate" />
+ </head>
+ <body>
+  <p>To improve the success rate of your messages, you can manually define a sending time per recipient. Each profile will receive the message at the specified date and time, whenever possible.</p> 
+  <p>Defining a sending time can be done at the delivery level or using a workflow.</p> 
+  <p>For emails, depending on the server load and the amount of retries, best effort will be made to send the message on the date and time scheduled for each recipient.</p> 
+  <ul>
+   <li><p>Retries depend on the Internet provider and your reputation. The message may not be accepted on the first attempt and several retries may be performed. See <a href="../../administration/using/configuring-email-channel.md#list-of-email-channel-parameters">List of email channel parameters</a>.</p> </li>
+   <li><p>Delays in receiving the email may occur due to insufficient bandwidth.</p> </li>
+  </ul>
+  <p>You can view when the message was sent to each recipient in the <a href="../../sending/using/monitoring-a-delivery.md#sending-logs">sending logs</a>.</p> 
+  <p>Several options are available:</p> 
+  <ul>
+   <li><p><strong>No optimization</strong>: Messages are sent at the user's time.</p> <p>For example, if your time zone is GMT+1 and if you enter 9:00 AM in the <strong>Start sending from</strong> field, a recipient located in the GMT+3 time zone will receive the message at 11:00 AM local time for that recipient.</p> </li>
+   <li><p><strong>Send at the recipient's time zone</strong>: All recipients will receive the message with their time zone taken into account.</p> <p>For example, if you enter 9:00 AM in the <strong>Start sending from</strong> field, a recipient located in the GMT+3 time zone will receive the message at 9:00 AM local time for that recipient.</p> <p>See <a href="../../sending/using/sending-at-the-recipient-s-time-zone.md" target="_blank">Sending at the recipient's time zone</a>.</p> </li>
+   <li><p><strong>Send at a custom date defined by a formula</strong>: Each recipient will receive the message at the date and time configured by the specified formula.</p> <p>See <a href="../../sending/using/computing-the-sending-date.md" target="_blank">Computing the sending date</a>.</p> </li>
+  </ul>
+ </body>
+</html>

@@ -1,0 +1,58 @@
+<html>
+ <head>
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-07-23T05:57:14.118-0400" name="lastPublishExternalDate" />
+  <meta content="light" name="heroGradient" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2018-07-23T05:57:14.118-0400" name="topicBrowsingSortDate" />
+  <meta content="2018-07-25T09:29:36.901-0400" name="cq:lastModified" />
+  <meta content="2018-07-23T05:57:14.118-0400" name="firstPublishExternalDate" />
+  <meta content="2018-03-15T09:02:21.420-0400" name="jcr:created" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/and-join.html" name="publishExternalURL" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-07-23T05:57:14.118-0400" name="publishExternalDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="audience:automating" name="primaryAudienceTag" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="8f987f89-b627-4614-b870-271fedfce88a" name="jcr:predecessors" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="AND-join" name="navTitle" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-07-25T09:29:36.900-0400" name="locHandOffDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-07-23T05:57:14.173-0400" name="cq:lastReplicated" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="00bfabb3-6e33-46ad-b4e4-dfc026df66b4" name="jcr:uuid" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="AND-join" name="jcr:title" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:execution-activities" name="cq:tags" />
+  <meta content="AND-join" name="jcr:description" />
+  <meta content="The AND-join activity allows you to synchronize multiple execution branches of a workflow." name="seoDescription" />
+ </head>
+ <body>
+  <h2>Description</h2>
+  <img alt="" captionBottom="" imageRotate="0" src="assets/and_join.png" title="" />
+  <p>The <strong>AND-join</strong> activity allows you to synchronize multiple execution branches of a workflow.</p> 
+  <h2>Context of use</h2>
+  <p>The <strong>AND-join</strong> activity only triggers its outbound transition once all the inbound transitions are activated, in other words, once all of the preceding activities have finished.</p> 
+  <h2>Configuration</h2>
+  <ol>
+   <li><p>Drop multiple activities such as queries into your workflow to form at least two different execution branches.</p> </li>
+   <li><p>Drag and drop an <strong>AND-join</strong> activity into your workflow.</p> </li>
+   <li><p>Connect it after the two different branches that you would like to synchronize.</p> </li>
+   <li><p>Select the activity, then open it using the <img height="21px" src="assets/edit_darkgrey-24px.png" /> button from the quick actions that appear.</p> </li>
+   <li><p>Select the main set to be kept in the outbound transition. If you do not select any set, a random population will be sent from the activity.</p> </li>
+   <li><p>Confirm the configuration of your activity and save your workflow.</p> </li>
+  </ol>
+  <h2>Example</h2>
+  <p>The following example shows two workflow branches before they are joined with the <strong>AND-join</strong> activity. File extraction can only take place when the three inbound transitions of the <strong>AND-join</strong> activity are enabled.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/wkf_and-join_example.png" title="" />
+ </body>
+</html>

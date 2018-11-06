@@ -1,0 +1,110 @@
+<html>
+ <head>
+  <meta content="sauviat" name="cq:lastModifiedBy" />
+  <meta content="light" name="heroGradient" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="v16.5" name="navTitle" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-01-10T15:33:45.039-0500" name="cq:lastModified" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="05/26/2016" name="jcr:description" />
+  <meta content="2018-01-10T15:33:45.030-0500" name="lastPublishExternalDate" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="https://helpx.adobe.com/campaign/standard/rn/using/v16_5.html" name="publishExternalURL" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="audience:rn" name="primaryAudienceTag" />
+  <meta content="fa86747a-f9db-4198-ba62-777d0c9382f1" name="jcr:uuid" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="v16.5" name="jcr:title" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:rn;content_type:reference;topic_tags:adobe-campaign-standard-release-notes" name="cq:tags" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-01-10T15:33:45.030-0500" name="publishExternalDate" />
+  <meta content="2017-11-16T10:46:49.714-0500" name="firstPublishExternalDate" />
+  <meta content="db664e2b-e678-4ee4-a0b2-64fd6c52b732" name="jcr:predecessors" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2017-11-28T11:31:12.565-0500" name="locHandOffDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-01-10T15:33:45.030-0500" name="topicBrowsingSortDate" />
+  <meta content="2018-01-11T19:01:41.804-0500" name="jcr:created" />
+ </head>
+ <body>
+  <h2>Improvements</h2>
+  <table> 
+   <thead> 
+    <tr> 
+     <th> Functionality </th> 
+     <th> Description </th> 
+    </tr> 
+   </thead> 
+   <tbody> 
+    <tr> 
+     <td> Predefined filters </td> 
+     <td> Administrators can now create advanced filters that appear in the query editor in the form of pre-configured rules. Selecting those filters allows users to develop complex configurations more easily in a simplified interface when defining an audience, for example. For more information, refer to the <a href="../../developing/using/step-4--define-filters.md">detailed documentation</a>. </td> 
+    </tr> 
+    <tr> 
+     <td> Workflows: Subscription Services </td> 
+     <td> A new <strong>Subscription Services</strong> activity offers the possibility of subscribing several profiles to a service or unsubscribing them from a service with in a single action. This activity can be used after having carried out a targeting or imported a file with identified data. For more information, refer to the <a href="../../automating/using/subscription-services.md">detailed documentation</a>. </td> 
+    </tr> 
+    <tr> 
+     <td> Workflows: data enrichment </td> 
+     <td> The <strong>Additional data</strong> tab is now available in <strong>Query</strong> type activities. This functionality lets you enrich the data targeted by the query and transfer this data to the following workflow activities where it can be exploited. After having added additional data, you can apply an additional filter level to the initially targeted data by creating conditions based on the defined additional data. For more information, refer to the <a href="../../automating/using/query.md#enriching-data">detailed documentation</a>. </td> 
+    </tr> 
+    <tr> 
+     <td> Contextual help </td> 
+     <td> A contextual help function is now available across the different Adobe Campaign screens. This means that, in a single click, you can directly access the documentation on the functionality that you are currently using. To display contextual help, click the '?' icon in the upper-right corner of the screen, as shown in the example below. <img height="21px" src="assets/contextual_help.png" /> </td> 
+    </tr> 
+   </tbody> 
+  </table>
+  <h2>Patches</h2>
+  <h3>General</h3>
+  <ul>
+   <li><p>Various interface improvements complying with Marketing Cloud standards.</p> </li>
+   <li><p>Standardization of the different drop-down list types.</p> </li>
+  </ul>
+  <h3>Emails and SMS messages</h3>
+  <ul>
+   <li><p>Fixed an error that prevented emails from being sent if the error address mask was specified.</p> </li>
+   <li><p>The TLS protocol is now supported for email delivery. A new column in MX management lets you define the desired TLS behavior for each domain.</p> </li>
+   <li><p>The SMS interface has been improved.</p> </li>
+  </ul>
+  <h3>Workflows</h3>
+  <ul>
+   <li><p>Various workflow interface improvements.</p> </li>
+   <li><p>Fixed an error that occurred when displaying Quick actions.</p> </li>
+   <li><p>Fixed an error that could cause a workflow to fail when using a <strong>Segmentation</strong> type activity containing a 1-N link.</p> </li>
+   <li><p>Fixed an error that prevented the transitions of a workflow from being opened on a hybrid device. </p> </li>
+   <li><p>Fixed an error that prevented the pause button from being displayed when starting a workflow for the first time.</p> </li>
+  </ul>
+  <h3>Content editor</h3>
+  <ul>
+   <li><p>The content editor now allows you to personalize any URL contained in an email or a landing page. Refer to the .</p> </li>
+   <li><p>Fixed an error that could cause images to be lost when they were added in the delivery's creation wizard and their content was modified afterwards.</p> </li>
+  </ul>
+  <h3>Custom resources</h3>
+  <ul>
+   <li><p>Fixed an error that occurred when adding a personalized 1-N type link in the configuration screen of a custom resource.</p> </li>
+   <li><p>Improved the display of the progress bar when preparing and publishing custom resources.</p> </li>
+   <li><p>Fixed an error that occurred when displaying a custom resource's list of links.</p> </li>
+  </ul>
+  <h3>Transactional messages</h3>
+  <ul>
+   <li><p>The user-friendliness of the interface as well as the performance and robustness of the transactional message engine have been optimized.</p> </li>
+   <li><p>It is now possible to temporarily suspend the publication of a transactional message template. For more on this, refer to the <a href="../../channels/using/event-transactional-messages.md#suspending-a-transactional-message-publication">detailed documentation</a>.</p> </li>
+   <li><p>Fixed an error that could cause a content block with an incompatible targeting dimension to be added into a transactional message template.</p> </li>
+   <li><p>Fixed an error that prevented the API preview from being displayed in an event configuration screen.</p> </li>
+  </ul>
+  <h3>Audiences and queries</h3>
+  <ul>
+   <li><p>Various patches regarding the use of dates in the query editor. Refer to the <a href="../../automating/using/editing-queries.md#creating-queries">detailed documentation</a>.</p> </li>
+  </ul>
+  <h3>Administration</h3>
+  <ul>
+   <li><p>Fixed an error regarding the name of the "Standard users" security group, that prevented users from logging in.</p> </li>
+  </ul>
+ </body>
+</html>

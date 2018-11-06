@@ -1,0 +1,45 @@
+<html>
+ <head>
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="Creating a Campaign form in Experience Manager 6.1 or 6.2" name="navTitle" />
+  <meta content="2018-01-11T19:02:10.850-0500" name="jcr:created" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="With the Adobe Experience Manager 6.1 or 6.2 integration, you can create forms directly in AEM to create and update profiles or manage subscriptions." name="seoDescription" />
+  <meta content="light" name="heroGradient" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2018-01-10T15:24:01.421-0500" name="publishExternalDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="c2a2728b-fc6e-4922-a4de-73034e74d18c" name="jcr:predecessors" />
+  <meta content="audience:integrating" name="primaryAudienceTag" />
+  <meta content="2018-01-10T15:24:01.421-0500" name="lastPublishExternalDate" />
+  <meta content="2018-01-10T15:24:01.421-0500" name="firstPublishExternalDate" />
+  <meta content="5f9bff36-1e94-4186-afc6-bfb2474d1788" name="jcr:uuid" />
+  <meta content="Creating a Campaign form in Experience Manager 6.1 or 6.2" name="jcr:title" />
+  <meta content="2018-01-10T15:24:01.429-0500" name="cq:lastModified" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-01-10T15:24:01.421-0500" name="topicBrowsingSortDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Creating a Campaign form in Experience Manager 6.1 or 6.2" name="jcr:description" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:integrating;content_type:reference;topic_tags:adobe-experience-manager" name="cq:tags" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="https://helpx.adobe.com/campaign/standard/integrating/using/creating-a-campaign-form-in-experience-manager-6_1-or-6_2.html" name="publishExternalURL" />
+ </head>
+ <body>
+  <p>You can create "forms" on your AEM sites and map the fields in a form to the fields in the Adobe Campaign database. This allows you to create and update profiles or manage the subscriptions to a service.</p> 
+  <p>To create an Adobe Campaign form on your AEM site:</p> 
+  <ol>
+   <li><p>In your AEM site, create a new page based on the <strong>User Profile Page, powered by Adobe Campaign</strong> template.</p> </li>
+   <li><p>In the page properties, select the <strong>Cloud Service</strong> corresponding to your Adobe Campaign instance.</p> </li>
+   <li><p>Select the form type from the <strong>Form Start</strong> component: save profile, subscription to a service or unsubscription from a service.</p> </li>
+   <li><p>Edit the content of the form by adding different fields and components that you can map to the Adobe Campaign database fields.</p> </li>
+   <li><p>Test and publish the form to make it accessible on your AEM site.</p> </li>
+  </ol>
+  <p>For more information, refer to the <a href="https://docs.adobe.com/docs/en/aem/6-2/author/personalization/adobe-campaign/adobe-campaign-forms.html">detailed documentation</a>.</p> 
+ </body>
+</html>

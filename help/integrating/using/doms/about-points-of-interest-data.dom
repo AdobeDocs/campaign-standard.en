@@ -1,0 +1,40 @@
+<html>
+ <head>
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2018-01-10T15:24:12.993-0500" name="topicBrowsingSortDate" />
+  <meta content="https://helpx.adobe.com/campaign/standard/integrating/using/about-points-of-interest-data.html" name="publishExternalURL" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-01-10T15:24:12.993-0500" name="lastPublishExternalDate" />
+  <meta content="About Points of Interest data" name="navTitle" />
+  <meta content="light" name="heroGradient" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2018-01-11T19:01:44.047-0500" name="jcr:created" />
+  <meta content="audience:integrating" name="primaryAudienceTag" />
+  <meta content="About Points of Interest data" name="jcr:description" />
+  <meta content="2018-01-10T15:24:13.000-0500" name="cq:lastModified" />
+  <meta content="2018-01-10T15:24:12.993-0500" name="publishExternalDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="b9613f73-a594-43f0-a595-147f20217d2a" name="jcr:predecessors" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:integrating;content_type:reference;topic_tags:points-of-interest-data-integration" name="cq:tags" />
+  <meta content="By collecting the Points of Interest data from your mobile application's subscribers, send location-based marketing messages to your subscribers through the integration in Adobe Campaign." name="seoDescription" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="About Points of Interest data" name="jcr:title" />
+  <meta content="61abf567-0704-4c80-a568-13b2ad231cf8" name="jcr:uuid" />
+  <meta content="2018-01-10T15:24:12.993-0500" name="firstPublishExternalDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="" name="jcr:versionHistory" />
+ </head>
+ <body>
+  <p>In addition to tracking customers' online presence, you may also take advantage of their physical locations. Through integration with Adobe Analytics for Mobile, you can use Adobe Campaign to send location-based marketing messages to your mobile application's subscribers.</p> 
+  <p>Points of Interest consist of a latitude, a longitude and a radius associated with a label. They are defined in the <a href="https://marketing.adobe.com/resources/help/en_US/mobile">Adobe Mobile Services</a> interface.</p> 
+  <p>When a subscriber opens your mobile application, if the location matches a Point of Interest, Adobe Campaign captures the data via the Marketing Cloud Mobile SDK. You can use this information to send personalized messages based on the user's location (such as emails, push notifications, SMS messages).</p> 
+  <p>For example, you can send a 10% discount offer to customers who use your application and visited one of your stores in Boston within the last two weeks.</p> 
+  <p>A use case is presented in the <a href="../../integrating/using/creating-personalized-messages-with-point-of-interest-data.md" target="_blank">Creating personalized messages with Point of Interest data</a> section.</p> 
+ </body>
+</html>

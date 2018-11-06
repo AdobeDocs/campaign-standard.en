@@ -1,0 +1,56 @@
+<html> 
+ <head> 
+  <meta content="sauviat" name="cq:lastReplicatedBy" /> 
+  <meta content="Content design best practices" name="jcr:description" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2018-07-23T08:13:15.962-0400" name="lastPublishExternalDate" /> 
+  <meta content="2018-07-26T02:53:20.971-0400" name="locHandOffDate" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:about-content-design" name="cq:tags" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
+  <meta content="audience:designing" name="primaryAudienceTag" /> 
+  <meta content="Read about these guidelines to ensure the editor's optimal operation." name="seoDescription" /> 
+  <meta content="89edd311-3b04-489b-9e1d-04c1c09e5623" name="jcr:uuid" /> 
+  <meta content="Content design best practices" name="navTitle" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="Content design best practices" name="jcr:title" /> 
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2018-07-23T08:13:15.962-0400" name="topicBrowsingSortDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2018-07-23T08:13:15.962-0400" name="publishExternalDate" /> 
+  <meta content="2018-07-26T02:53:20.971-0400" name="cq:lastModified" /> 
+  <meta content="2018-07-23T07:30:12.604-0400" name="jcr:created" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2018-07-23T05:57:28.019-0400" name="firstPublishExternalDate" /> 
+  <meta content="https://helpx.adobe.com/campaign/standard/designing/using/content-design-best-practices.html" name="publishExternalURL" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="f1697858-fe3d-488f-a008-f7c5f128d682" name="jcr:predecessors" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="2018-07-23T08:13:16.032-0400" name="cq:lastReplicated" /> 
+ </head> 
+ <body> 
+  <p>To ensure the editor's optimal operation, we recommend observing the following guidelines: </p> 
+  <ul> 
+   <li><p>SCSS style sheets are not supported. Use regular CSS if you import ZIP files containing your HTML content.</p> </li> 
+   <li><p>When editing <strong>email content</strong>:</p> <p>Preview your messages before sending them. Adobe Campaign offers a way to test email rendering using Litmus. For more on this, see <a href="../../sending/using/email-rendering.md">Email rendering</a>.</p> </li> 
+   <li><p>When editing <strong>landing page content</strong>:</p> 
+    <ul> 
+     <li><p>Before importing an HTML page template in Adobe Campaign, please make sure the template opens and displays correctly in the various browsers.</p> </li> 
+     <li><p>If the HTML page contains JavaScript scripts, they need to execute without errors outside of the editor. In general, avoid using scripts in message content to make sure it is correctly processed by email clients.</p> </li> 
+     <li><p>When building a template, we recommend adding a <strong>'type'</strong> attribute to <input /> tags. This information will be processed by the editor and help the user to link a database field to the form field when configuring the web application.</p> <p>Example of HTML code in the template: </p> 
+      <codeblock gutter="true" class="syntax html">
+        !!discoiqbr!!&lt;input&amp;nbsp;id="email"&amp;nbsp;type="email"&amp;nbsp;name="email"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+      </codeblock><p>The official list of 'type' attributes is available at the following address: <a href="http://www.w3schools.com/tags/att_input_type.asp">http://www.w3schools.com/tags/att_input_type.asp</a></p> </li> 
+    </ul></li> 
+  </ul> 
+  <p>More design and general best practices regarding messages are presented in the following Adobe Campaign step-by-step guide: <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html ">Delivery best practices with Adobe Campaign</a>.</p> 
+ </body> 
+</html>

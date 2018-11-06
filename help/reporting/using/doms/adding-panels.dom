@@ -1,0 +1,68 @@
+<html>
+ <head>
+  <meta content="2018-07-23T06:00:24.822-0400" name="cq:lastReplicated" />
+  <meta content="https://helpx.adobe.com/campaign/standard/reporting/using/adding-panels.html" name="publishExternalURL" />
+  <meta content="2018-07-23T06:00:24.789-0400" name="lastPublishExternalDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="audience:reporting" name="primaryAudienceTag" />
+  <meta content="Adding panels" name="jcr:title" />
+  <meta content="Adding panels" name="navTitle" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2018-03-15T09:03:03.051-0400" name="jcr:created" />
+  <meta content="Dynamic report allows you to add panel to better filter your data depending on the chosen time period." name="seoDescription" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="af527472-ef3e-4531-aee1-0168725aba53" name="jcr:predecessors" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-07-27T03:27:17.134-0400" name="cq:lastModified" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:reporting;content_type:reference;topic_tags:customizing-reports" name="cq:tags" />
+  <meta content="1f6ed030-743f-46db-9486-95f0cc7c12b1" name="jcr:uuid" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2018-07-23T06:00:24.789-0400" name="publishExternalDate" />
+  <meta content="2018-07-23T06:00:24.789-0400" name="topicBrowsingSortDate" />
+  <meta content="Adding panels" name="jcr:description" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-07-23T06:00:24.789-0400" name="firstPublishExternalDate" />
+  <meta content="2018-07-27T03:27:17.132-0400" name="locHandOffDate" />
+ </head>
+ <body>
+  <h2>Adding a blank panel</h2>
+  <p>To start your report, you can add a set of panels to an out of the box or custom report. Each panel contains different data sets and is composed of freeform tables and visualizations.</p> 
+  <p>This panel allows you to build your reports as needed. You can add as many panels as you want in your reports in order to filter your data with different time periods.</p> 
+  <ol>
+   <li><p>Click the <strong>Panels</strong> icon. You can also add a panel by clicking the <strong>Insert tab</strong> and selecting <strong>New Blank Panel</strong>. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/dynamic_report_panel_1.png" title="" /></li>
+   <li><p>Drag and drop the <strong>Blank Panel</strong> into your dashboard. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/dynamic_report_panel.png" title="" /></li>
+  </ol>
+  <p>You can now add a freeform table to your panel to start targeting data.</p> 
+  <h2>Adding a freeform table</h2>
+  <p>Freeform tables allow you to create a table to analyze your data using the different metrics and dimensions available in the <strong>Component</strong> table.</p> 
+  <p>Each table and visualization is resizable and can be moved to better customize your report.</p> 
+  <ol>
+   <li><p>Click the <strong>Panels</strong> icon.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/dynamic_report_panel_1.png" title="" /></li>
+   <li><p>Drag and drop the <strong>Freeform</strong> item into your dashboard. </p> <p>You can also add a table by clicking the <strong>Insert</strong> tab and selecting <strong>New Freeform</strong> or by clicking <strong>Add a freeform table</strong> in an empty panel. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/dynamic_report_panel_2.png" title="" /></li>
+   <li><p>If needed, drag and drop <strong>Segments</strong> from the <strong>Components</strong> tab into the top bar to filter your report depending on your recipient's age range.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/dynamic_report_panel_3.png" title="" /></li>
+   <li><p>Drag and drop items from the <strong>Components</strong> tab into the columns and rows to build your table.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/dynamic_report_freeform_3.png" title="" /></li>
+   <li><p>Click the <strong>Settings</strong> icon to change how the data is displayed in your columns.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/dynamic_report_freeform_4.png" title="" /><p>The <strong>Column settings</strong> is composed of:</p> 
+    <ul>
+     <li><p><strong>Number</strong>: lets you show or hide summary numbers in the column.</p> </li>
+     <li><p><strong>Percent</strong>: lets you show or hide percent in the column.</p> </li>
+     <li><p><strong>Interpret zero as no value</strong>: lets you show or hide when value equals zero.</p> </li>
+     <li><p><strong>Background</strong>: lets you show or hide the horizontal progress bar in cells.</p> </li>
+     <li><p><strong>Include retries</strong>: lets you include retries in the result. This is only available for <strong>Sent</strong> and <strong>Bounces + Errors</strong>.</p> </li>
+    </ul></li>
+   <li><p>Select one or multiple rows and click the <strong>Visualize</strong> icon. A visualization is added to reflect the rows you have selected.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/dynamic_report_freeform_5.png" title="" /></li>
+  </ol>
+  <p>You can now add as many components as you need and also add visualizations to give graphical representations of your data.</p> 
+ </body>
+</html>

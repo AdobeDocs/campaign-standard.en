@@ -1,0 +1,70 @@
+<html>
+ <head>
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="Inserting images" name="jcr:title" />
+  <meta content="2018-07-26T02:53:45.227-0400" name="cq:lastModified" />
+  <meta content="d15d9cce-d9ec-4ba1-a925-defb245fd701" name="jcr:uuid" />
+  <meta content="ceaabeff-998e-4df4-b18d-86dbbea71c97" name="jcr:predecessors" />
+  <meta content="2018-07-23T08:13:42.654-0400" name="lastPublishExternalDate" />
+  <meta content="2018-07-23T05:58:30.044-0400" name="firstPublishExternalDate" />
+  <meta content="Inserting images" name="jcr:description" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:using-images" name="cq:tags" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-07-26T02:53:45.226-0400" name="locHandOffDate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="audience:designing" name="primaryAudienceTag" />
+  <meta content="2018-07-23T08:13:42.705-0400" name="cq:lastReplicated" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-07-23T08:13:42.654-0400" name="topicBrowsingSortDate" />
+  <meta content="https://helpx.adobe.com/campaign/standard/designing/using/inserting-images.html" name="publishExternalURL" />
+  <meta content="2018-07-23T08:13:42.654-0400" name="publishExternalDate" />
+  <meta content="light" name="heroGradient" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-03-15T09:01:18.317-0400" name="jcr:created" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Learn how to add images to your content." name="seoDescription" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Inserting images" name="navTitle" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+ </head>
+ <body>
+  <p>You can insert images in your emails and landing pages.</p> 
+  <p>The following types of images are available, depending on your configuration:</p> 
+  <ul>
+   <li><p>local images</p> </li>
+   <li><p>images shared from Adobe Experience Cloud - refer to <a href="../../integrating/using/working-with-campaign-and-assets-core-service.md">Working with Campaign and Assets Core Service</a> / Assets On Demand</p> </li>
+   <li><p>dynamic images from Adobe Target (only available when using the <a href="../../designing/using/about-email-content-design.md#using-the-email-content-editor">content editor</a>) - refer to <a href="../../integrating/using/about-campaign-target-integration.md">Working with Campaign and Target</a></p> </li>
+  </ul>
+  <p>If enabled, you can modify images with the Adobe Creative SDK. See <a href="../../designing/using/modifying-images-with-the-adobe-creative-sdk.md" target="_blank">Modifying images with the Adobe Creative SDK</a>.</p> 
+  <note>
+   <p> If you choose to add an image directly by editing the HTML version of the email, you must not call up <strong>external files in a <script> tag&lt;/strong&gt; of the HTML page. These files will not be imported onto the Adobe Campaign server. &lt;/p&gt; </script></strong></p>
+  </note>
+  <h2>Inserting images in an email</h2>
+  <p>This section describes how to add images to an email using the <a href="../../designing/using/about-email-content-design.md#using-the-creative-designer">Creative Designer</a>. If you are using the <a href="../../designing/using/about-email-content-design.md#using-the-email-content-editor">content editor</a>, see <a href="../../designing/using/inserting-images.md#inserting-images-in-a-landing-page" target="_blank">Inserting images in a landing page</a> as the process is the same.</p> 
+  <ol>
+   <li><p>Add a structure component. For more on this, see <a href="../../designing/using/defining-the-email-structure.md#editing-the-email-structure-with-the-creative-designer">Editing the email structure with the Creative Designer</a>.</p> </li>
+   <li><p>Inside this structure component, add an <strong>Image</strong> content component.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/des_insert_images_1.png" title="" /></li>
+   <li><p>Click <strong>Browse</strong>. Drag and drop an image or click to select a file from your computer.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/des_insert_images_2.png" title="" /></li>
+   <li><p>Select the content component that you just added.</p> </li>
+   <li><p>Check the image properties and adjust them if needed.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/des_insert_images_3.png" title="" /></li>
+  </ol>
+  <p><strong>Related topic</strong>:</p> 
+  <p> <a href="../../designing/using/defining-the-email-structure.md#editing-the-email-structure-with-the-creative-designer">Editing the email structure with the Creative Designer</a></p> 
+  <h2>Inserting images in a landing page</h2>
+  <ol>
+   <li><p>Select a block containing an image.</p> </li>
+   <li><p>Use the <strong>Insert</strong> button.</p> </li>
+   <li><p>Choose <strong>Local image</strong> in the toolbar.</p> </li>
+   <li><p>Adjust the image properties as needed.</p> </li>
+  </ol>
+ </body>
+</html>

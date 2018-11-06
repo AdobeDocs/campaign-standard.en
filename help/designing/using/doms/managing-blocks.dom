@@ -1,0 +1,51 @@
+<html> 
+ <head> 
+  <meta content="7ce4727b-c95b-47b9-ade9-45d42c1ee3db" name="jcr:uuid" /> 
+  <meta content="Learn how to manage the different HTML content elements in a message." name="seoDescription" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
+  <meta content="2018-03-26T11:12:47.706-0400" name="publishExternalDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="https://helpx.adobe.com/campaign/standard/designing/using/managing-blocks.html" name="publishExternalURL" /> 
+  <meta content="2018-04-04T11:44:33.464-0400" name="cq:lastModified" /> 
+  <meta content="Managing blocks" name="jcr:title" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2018-03-26T11:12:47.706-0400" name="topicBrowsingSortDate" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:editing-message-and-landing-page-content" name="cq:tags" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="Managing blocks" name="navTitle" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="72789f56-1d09-4f49-bfbe-133182706e8a" name="jcr:predecessors" /> 
+  <meta content="audience:designing" name="primaryAudienceTag" /> 
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="2018-03-26T11:12:48.954-0400" name="cq:lastReplicated" /> 
+  <meta content="Managing blocks" name="jcr:description" /> 
+  <meta content="2018-03-26T11:12:47.706-0400" name="firstPublishExternalDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-03-15T09:02:17.552-0400" name="jcr:created" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="sauviat" name="cq:lastReplicatedBy" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-03-26T11:12:47.706-0400" name="lastPublishExternalDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2018-04-04T11:44:33.463-0400" name="locHandOffDate" /> 
+ </head> 
+ <body> 
+  <p>The different HTML content elements are displayed in the page as blocks, corresponding to the <strong>&amp;lt;div&gt;</strong> <strong>&amp;lt;/div&gt;</strong> tag.</p> 
+  <p>Select a block to interact with it. It will then be surrounded by a blue box.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/delivery_content_15.png" title="" /> 
+  <p>If a block is selected, the parent objects of the corresponding HTML element will show in a breadcrumb located at the bottom of the editing zone.</p> 
+  <p>When the mouse hovers over one of the breadcrumb elements, the element concerned is highlighted. You can therefore navigate easily between the different blocks and select exactly the HTML element you would like to modify.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/delivery_content_4.png" title="" /> 
+  <p>Use the options from the palette and the contextual toolbar to modify, delete, or duplicate the block.</p> 
+  <p>For the blocks containing text, click again in the block to enable text editing mode. The frame around the block turns green. You can then select or enter text. Use the options from the palette and the contextual toolbar to add a link or modify the text formatting.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/delivery_content_16.png" title="" /> 
+  <p>The parameters defined for an element in a block (links, personalization fields, content blocks, etc.) can be modified at any time from the palette.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/delivery_content_19.png" title="" /> 
+ </body> 
+</html>

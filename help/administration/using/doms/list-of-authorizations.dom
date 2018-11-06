@@ -1,0 +1,36 @@
+<html>
+ <head>
+  <meta content="2018-01-11T19:01:37.753-0500" name="jcr:created" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2018-01-10T15:17:14.328-0500" name="topicBrowsingSortDate" />
+  <meta content="2018-01-10T15:17:14.334-0500" name="cq:lastModified" />
+  <meta content="2018-01-10T15:17:14.328-0500" name="publishExternalDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:administration;content_type:reference;topic_tags:users-e-security" name="cq:tags" />
+  <meta content="List of authorizations" name="jcr:description" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-01-10T15:17:14.328-0500" name="firstPublishExternalDate" />
+  <meta content="Your users are allowed to perform certain operations. Discover the complete list of authorizations." name="seoDescription" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="https://helpx.adobe.com/campaign/standard/administration/using/list-of-authorizations.html" name="publishExternalURL" />
+  <meta content="List of authorizations" name="jcr:title" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="light" name="heroGradient" />
+  <meta content="c93ac805-8b6a-4b4b-b43f-fc30ccdf3535" name="jcr:uuid" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-01-10T15:17:14.328-0500" name="lastPublishExternalDate" />
+  <meta content="audience:administration" name="primaryAudienceTag" />
+  <meta content="List of authorizations" name="navTitle" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="57625116-d2f4-47f2-b43e-a0c18eb604f1" name="jcr:predecessors" />
+  <meta content="" name="jcr:versionHistory" />
+ </head>
+ <body>
+  <p>The tables in the following page present the different operations available according to a user's role(s), see <a href="https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf">Adobe Campaign Standard authorizations</a> page.</p> 
+ </body>
+</html>

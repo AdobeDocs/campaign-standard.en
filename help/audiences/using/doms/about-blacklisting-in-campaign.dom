@@ -1,0 +1,39 @@
+<html>
+ <head>
+  <meta content="5966a391-cbb4-4c09-99c9-ec5c350b7f3b" name="jcr:predecessors" />
+  <meta content="2018-04-11T07:13:36.599-0400" name="cq:lastModified" />
+  <meta content="2018-04-11T07:13:36.597-0400" name="locHandOffDate" />
+  <meta content="Blacklisting results in a profile no longer being targeted by any delivery or by deliveries from a specific channel." name="seoDescription" />
+  <meta content="About blacklisting in Campaign" name="jcr:description" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:audiences;content_type:reference;topic_tags:understanding-blacklisting-process" name="cq:tags" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="audience:audiences" name="primaryAudienceTag" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="aa81b575-fdfc-412a-8504-8d917d5cf2cf" name="jcr:uuid" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="About blacklisting in Campaign" name="navTitle" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="About blacklisting in Campaign" name="jcr:title" />
+  <meta content="2018-03-15T09:01:55.199-0400" name="jcr:created" />
+  <meta content="2018-03-26" name="publishExternalDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="light" name="heroGradient" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+ </head>
+ <body>
+  <p>Blacklisting results in a profile no longer being targeted by any delivery or by deliveries from a specific channel. </p> 
+  <p>To give your recipients the ability to be blacklisted (opt-out), you have to create a dedicated landing page. For more on this, refer to <a href="../../audiences/using/blacklisting-process.md#blacklisting-from-a-landing-page" target="_blank">Blacklisting from a landing page</a>.</p> 
+  <p>Recipients can also be blacklisted manually by an operator. For more on this, refer to <a href="../../audiences/using/blacklisting-process.md#blacklisting-from-a-recipient-s-profile" target="_blank">Blacklisting from a recipient's profile</a>.</p> 
+  <p>The profiles whose addresses are blacklisted are automatically excluded during the delivery analysis in order to speed up deliveries (the error rate has a significant effect on delivery speed).</p> 
+  <note>
+   <p> Blacklisting applies to <strong>Profiles</strong>, as opposed to quarantine which is linked to an <strong>email address</strong> or <strong>phone number</strong>. Blacklisting a profile will therefore exclude from deliveries all the addresses linked to it. If a recipient has two profiles in the database, he will still be targeted by deliveries as only one of his profiles is blacklisted. To make sure all his adresses are excluded, add them to the quarantines addresses. For more on this, refer to <a href="../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-the-entire-platform">this page</a>. </p> 
+  </note>
+ </body>
+</html>

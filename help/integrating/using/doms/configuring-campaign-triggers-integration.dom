@@ -1,0 +1,77 @@
+<html>
+ <head>
+  <meta content="2018-05-07T05:10:39.053-0400" name="topicBrowsingSortDate" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-05-07T05:10:39.053-0400" name="publishExternalDate" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="https://helpx.adobe.com/campaign/standard/integrating/using/configuring-campaign-triggers-integration.html" name="publishExternalURL" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-03-15T09:02:13.019-0400" name="jcr:created" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="2018-05-07T05:10:39.053-0400" name="firstPublishExternalDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Configuring Campaign-Triggers integration" name="navTitle" />
+  <meta content="2018-05-07T05:10:39.053-0400" name="lastPublishExternalDate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="Configuring Campaign-Triggers integration" name="jcr:title" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Configuring Campaign-Triggers integration" name="jcr:description" />
+  <meta content="ca4700c3-e96b-46e9-b87f-9172fe8c5684" name="jcr:uuid" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="light" name="heroGradient" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="Learn how to configure the Adobe Experience Cloud Triggers integration to start sending personalized deliveries to your customers based on their previous behaviors. " name="seoDescription" />
+  <meta content="2018-05-07T05:10:39.133-0400" name="cq:lastReplicated" />
+  <meta content="2018-05-28T07:48:24.563-0400" name="locHandOffDate" />
+  <meta content="audience:integrating" name="primaryAudienceTag" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-05-28T07:48:24.565-0400" name="cq:lastModified" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:integrating;content_type:reference;topic_tags:working-with-campaign-and-triggers" name="cq:tags" />
+  <meta content="3caf1229-02d8-454e-b803-2b772c5916f1" name="jcr:predecessors" />
+ </head>
+ <body>
+  <h2>Activating the functionality</h2>
+  <p>The functionality must be activated in Adobe Campaign by Adobe. Please contact your Adobe account executive or professional services partner.</p> 
+  <h2>Defining aliases</h2>
+  <p>Aliases enable a contact in Analytics to be reconciled with a profile in Campaign. These aliases have to be defined in the Experience Cloud ID service and a matching Shared Data Source has to be defined in Campaign.</p> 
+  <p>To define the Adobe Experience Cloud data sources, select the <strong>Administration</strong> &gt; <strong>Application settings</strong> &gt; <strong>Shared Data Sources</strong> advanced menu.</p> 
+  <h2>AMC Prerequisites</h2>
+  <p>You should make sure to define the behaviors that you want to monitor beforehand in Adobe Experience Cloud (<strong>Triggers</strong> core service). For more on this, refer to the <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/t_create-trigger.html">Adobe Experience Cloud documentation</a>. Note that when you define the trigger, you need to enable the aliases.</p> 
+  <p>For each behavior (cart abandonment, adding/deleting products, session expired, etc.), a new trigger must be added in Adobe Experience Cloud.</p> 
+  <h2>Defining the trigger event</h2>
+  <p>You now have to create a trigger event in Adobe Campaign based on an existing Adobe Experience Cloud trigger.</p> 
+  <p>The steps for putting this into place are:</p> 
+  <ol>
+   <li><p>Click the <strong>Adobe Campaign</strong> logo, in the top left corner, then select <strong>Marketing plans</strong> &gt; <strong>Transactional messages</strong> &gt; <strong>Experience Cloud Triggers</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/remarketing_1.png" title="" /></li>
+   <li><p>Click the <strong>Create</strong> button. The creation wizard that opens displays the list of all of the triggers defined in Adobe Experience Cloud. The <strong>Fired by Analytics</strong> column displays the number of events sent by the Adobe Experience Cloud trigger to Campaign.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/remarketing_2.png" title="" /></li>
+   <li><p>Select the Adobe Experience Cloud trigger that you want to use and click <strong>Next</strong>.</p> </li>
+   <li><p>Configure the general properties of the trigger. At this step of the wizard, also specify the channel and the targeting dimension to use for the trigger (see <a href="../../automating/using/query.md#targeting-dimensions-and-resources">targeting dimensions and resources</a>). Then confirm the trigger creation.</p> </li>
+   <li><p>Click the button to the right of the <strong>Event content and enrichment</strong> field to view the content of the payload. This screen also allows you to enrich the event data with profile data stored in the Adobe Campaign database. The enrichment is performed in the same way as for a standard transactional message. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/remarketing_3.png" title="" /></li>
+   <li><p>In the <strong>Transactional message validity duration</strong> field, define the duration for which the message will stay valid after the event is sent by Analytics. If a duration of 2 days is defined, the message will no longer be sent after that duration has passed. If you put several messages on hold, this ensures that those messages will not be sent if you resume them after a certain period of time.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/remarketing_4.png" title="" /></li>
+   <li><p>If a propensity scoring is defined in Analytics (see the <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/propensity-scoring.html">Experience Cloud documentation</a>), you can choose not to send the message if the customer has a high probability of coming back to the website in the near future. The content of the score and the threshold is available in the content of the payload so that you can use those values to personalize the message. To use this option, check the box at the bottom of the screen. The clients with a strong probability of coming back to the site in the near future will not receive a message.</p> </li>
+   <li><p>Click the <strong>Publish</strong> button to start publishing the trigger event.</p> </li>
+   <li><p>If you need to make a change in your trigger schema even after publishing your trigger event, click the <strong>Update schema</strong> button to retrieve the latest changes. </p> <p>Please note that this action will unpublish your trigger and transactional message, you will be required to republish them afterwards.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/remarketing_11.png" title="" /></li>
+  </ol>
+  <p>The <strong>Show Trigger in Experience Cloud</strong> button allows you to view the trigger definition in Adobe Experience Cloud. </p> 
+  <p>Once the event has been published, a transactional template linked to the new event is then automatically created. You then have to modify and publish the template that was just created. For more on this, refer to the <a href="../../start/using/about-templates.md">Editing the template</a> section.</p> 
+  <h2>Editing the template</h2>
+  <p>Once you have created and published the trigger event, the corresponding transactional template is created automatically. For more on this, refer to the <a href="../../integrating/using/configuring-campaign-triggers-integration.md#defining-the-trigger-event" target="_blank">Defining the trigger event</a> section.</p> 
+  <p>In order for the event to trigger sending a transactional message, you have to personalize the template, then test it and publish it. These steps are the same as for a standard transactional message. For more on this, refer to the <a href="../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message">Transactional template</a> section.</p> 
+  <note>
+   <p> If you unpublish the template, it will automatically unpublish the trigger event. </p> 
+  </note>
+  <p>When editing content, you can add a personalization field based on the information sent by the Analytics trigger. If you enrich the event data with Adobe Campaign profile data, you can personalize the message based on this information. To personalize your message, select <strong>Transactional event</strong> &gt; <strong>Event context</strong> and select a field.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/remarketing_8.png" title="" />
+  <h2>Accessing the reports</h2>
+  <p>To view the dedicated trigger report in Adobe Campaign, open the trigger event that you previously created, and click <strong>Show trigger report</strong>. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/remarketing_9.png" title="" />
+  <p>The report shows the number of processed events compared to the number of events sent by Analytics. It also displays a list of all the recent triggers. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/remarketing_10.png" title="" />
+ </body>
+</html>

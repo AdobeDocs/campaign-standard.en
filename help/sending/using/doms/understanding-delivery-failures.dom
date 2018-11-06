@@ -1,0 +1,110 @@
+<html>
+ <head>
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="Understanding delivery failures" name="navTitle" />
+  <meta content="2018-07-23T06:02:29.363-0400" name="lastPublishExternalDate" />
+  <meta content="dfa5d376-2012-4579-8ec4-6ec84120a3b7" name="jcr:predecessors" />
+  <meta content="2018-07-30T04:53:59.120-0400" name="locHandOffDate" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-07-30T04:53:59.121-0400" name="cq:lastModified" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-07-23T06:02:29.363-0400" name="publishExternalDate" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="light" name="heroGradient" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:sending;content_type:reference;topic_tags:monitoring-messages" name="cq:tags" />
+  <meta content="2018-07-23T06:02:29.363-0400" name="firstPublishExternalDate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-07-23T06:02:29.363-0400" name="topicBrowsingSortDate" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="2018-03-15T09:01:27.751-0400" name="jcr:created" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="Learn how to manage delivery failures with Campaign." name="seoDescription" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-07-23T06:02:29.394-0400" name="cq:lastReplicated" />
+  <meta content="Understanding delivery failures" name="jcr:description" />
+  <meta content="https://helpx.adobe.com/campaign/standard/sending/using/understanding-delivery-failures.html" name="publishExternalURL" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="Understanding delivery failures" name="jcr:title" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="3848cb73-f695-43a4-9576-72f60b4f48ea" name="jcr:uuid" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="audience:sending" name="primaryAudienceTag" />
+ </head>
+ <body>
+  <h2>About delivery failures</h2>
+  <p>When a delivery cannot be sent to a profile, the remote server automatically sends an error message, which is picked up by the Adobe Campaign platform and qualified to determine whether or not the email address or phone number should be quarantined. See <a href="../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification" target="_blank">Bounce mail qualification</a>.</p> 
+  <note>
+   <p> <strong>Email</strong> error messages (or "bounces") are qualified by the inMail process. <strong>SMS</strong> error messages (or "SR" for "Status Report") are qualified by the MTA process. </p> 
+  </note>
+  <p>Messages can also be excluded during the delivery preparation if an address is quarantined or if a profile is blacklisted. Excluded messages are listed in the <strong>Exclusion logs</strong> tab of the delivery dashboard (see <a href="../../sending/using/monitoring-a-delivery.md#exclusion-logs">this section</a>).</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/exclusion_logs.png" title="" />
+  <p><strong>Related topics:</strong> </p> 
+  <ul>
+   <li><p> <a href="../../sending/using/understanding-quarantine-management.md" target="_blank">Understanding quarantine management</a></p> </li>
+   <li><p> <a href="../../audiences/using/about-opt-in-and-opt-out-in-campaign.md">Managing blacklisting in Campaign</a></p> </li>
+  </ul>
+  <h2>Identifying delivery failures for a message</h2>
+  <p>Once a delivery is sent, the <strong>Sending logs</strong> tab (see <a href="../../sending/using/monitoring-a-delivery.md#sending-logs">this section</a>) allows you to view the delivery status for each profile and the associated failure type and reason (see <a href="../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons" target="_blank">Delivery failure types and reasons</a>).</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/sending_logs.png" title="" />
+  <p>A dedicated out-of-the-box report is also available. This report details the overall hard and soft errors encountered during deliveries as well as the automatic processing of bounces. For more on this, refer to <a href="../../reporting/using/bounce-summary.md">this section</a>.</p> 
+  <h2>Delivery failure types and reasons</h2>
+  <p>There are three types of errors when a delivery fails:</p> 
+  <ul>
+   <li><p><strong>Hard</strong>: A "hard" error indicates an invalid address. This involves an error message that explicitly states that the address is invalid, such as: "Unknown user".</p> </li>
+   <li><p><strong>Soft</strong>: This might be a temporary error, or one that could not be categorized, such as: "Invalid domain" or "Mailbox full".</p> </li>
+   <li><p><strong>Ignored</strong>: This is an error that is known to be temporary, such as "Out of office", or a technical error, for example if the sender type is "postmaster".</p> </li>
+  </ul>
+  <p>The possible reasons for a delivery failure are: </p> 
+  <ul>
+   <li><p><strong>User unknown</strong> (Hard type): the address does not exist. No further deliveries will be attempted for this profile.</p> </li>
+   <li><p><strong>Quarantined address</strong> (Hard type): the address was placed in quarantine.</p> </li>
+   <li><p><strong>Unreachable</strong> (Soft/Hard type): an error has occurred in the message delivery chain (incident on SMTP relay, domain temporarily unreachable, etc.). According to the error returned by the provider, the address will be sent to quarantine directly or the delivery will be tried again until Campaign receives an error which justifies the Quarantine status or until the number of errors reaches 5.</p> </li>
+   <li><p><strong>Address empty</strong> (Hard type): the address is not defined.</p> </li>
+   <li><p><strong>Mailbox full</strong> (Soft type): the mailbox of this user is full and cannot accept more messages. This address can be removed from the quarantine list to make another attempt. It is removed automatically after 30 days. </p> <p>In order for the address to be automatically removed from the list of quarantined addresses, the <strong>Database cleanup</strong> technical workflow must be started.</p> </li>
+   <li><p><strong>Refused</strong> (Soft/Hard type): the address has been placed in quarantine due to a security feedback as a spam report. According to the error returned by the provider, the address will be sent to quarantine directly or the delivery will be tried again until Campaign receives an error which justifies the Quarantine status or until the number of errors reaches 5.</p> </li>
+   <li><p><strong>Duplicate</strong>: the address has already been detected in the segmentation.</p> </li>
+   <li><p><strong>Not defined</strong> (Soft type): the address is in qualification because errors have not been incremented yet.</p> <p> This type of error occurs when a new error message is sent by the server: it can be an isolated error, but if it occurs again, the error counter increases, which will alert the technical teams. </p> </li>
+   <li><p><strong>Error ignored</strong>: the address is in the whitelist and an email will be sent to it in any case.</p> </li>
+   <li><p><strong>Blacklisted address</strong>: the address was blacklisted at the time of sending.</p> </li>
+   <li><p><strong>Account disabled</strong> (Soft/Hard type): when the Internet Access Provider (IAP) detects a lengthy period of inactivity, it can close the user's account: deliveries to the user's address will then be impossible. The Soft or Hard type depends upon the type of error received: if the account is temporarily disabled due to six months of inactivity and can still be activated, the status <strong>Erroneous</strong> will be assigned and the delivery will be tried again. If the error received signals that the account is permanently deactivated then it will directly be sent to Quarantine.</p> </li>
+   <li><p><strong>Not connected</strong>: the profile's mobile phone is switched off or not connected to the network when the message is sent.</p> </li>
+   <li><p><strong>Invalid domain</strong> (Soft type): the domain of the email address is incorrect or no longer exists. This profile will be targeted again until the error count reaches 5. After this, the record will be set to Quarantine status and no retry will follow.</p> </li>
+   <li><p><strong>Text too long</strong>: the number of characters in the SMS message exceeds the limit. For more on this, see <a href="../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration">SMS encoding, length and transliteration</a>.</p> </li>
+   <li><p><strong>Character not supported by encoding</strong>: the SMS message contains one or more characters that are not supported by the encoding. &amp;For more on this, see <a href="../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard">Table of characters - GSM Standard</a>.</p> </li>
+  </ul>
+  <h2>Retries after a delivery failure</h2>
+  <p> If a delivery fails, retries will be performed during the delivery duration, only for <strong>Soft</strong> or <strong>Ignored</strong> errors (see <a href="../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons" target="_blank">Delivery failure types and reasons</a>).</p> 
+  <p>To modify the duration of a delivery, go to the advanced parameters of the delivery or delivery template and specify the desired duration in the corresponding field, as in the example below. The advanced delivery properties are presented in <a href="../../administration/using/about-channel-configuration.md">this section</a>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/quarantines3.png" title="" />
+  <p>The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see <a href="../../administration/using/configuring-email-channel.md#list-of-email-channel-parameters">this section</a>).</p> 
+  <h2>Synchronous and asynchronous errors</h2>
+  <p>A delivery can fail immediately (synchronous error), or later on, after it has been sent (asynchronous error).</p> 
+  <ul>
+   <li><p><strong>Synchronous error</strong>: the remote server contacted by the Adobe Campaign delivery server immediately returned an error message, the delivery is not allowed to be sent to the profile's server.</p> </li>
+   <li><p><strong>Asynchronous error</strong>: a bounce mail or a SR was resent later by the receiving server. Asynchronous errors can occur up until one week after a delivery has been sent. </p> </li>
+  </ul>
+  <h2>Bounce mail qualification</h2>
+  <p>Delivery failure error messages (or "bounces") are picked up by the Adobe Campaign platform and qualified by the inMail process to enrich the list of email management rules.</p> 
+  <p>This list is available to administrators only and contains all the rules used by Adobe Campaign to qualify delivery failures. </p> 
+  <p>To access it, click the <strong>Adobe Campaign</strong> logo, at the top left, then select <strong>Administration &gt; Channels &gt; Email &gt; Email processing rules</strong>.</p> 
+  <p>For more on this, refer to this <a href="../../administration/using/configuring-email-channel.md#email-processing-rules">section</a>.</p> 
+  <p>Bounces can have the following qualification statuses: </p> 
+  <ul>
+   <li><p><strong>To qualify</strong>: the bounce mail needs to be qualified. Qualification must be done by the Deliverability team to ensure that the platform deliverability functions correctly. As long as it is not qualified, the bounce mail is not used to enrich the list of email processing rules.</p> </li>
+   <li><p><strong>Keep</strong>: the bounce mail was qualified and will be used by the <strong>Update for deliverability</strong> workflow to be compared to existing email processing rules and enrich the list.</p> </li>
+   <li><p><strong>Ignore</strong>: the bounce mail was qualified but will not be used by the <strong>Update for deliverability</strong> workflow. So it will not be sent to the client instances.</p> </li>
+  </ul>
+  <p>To list the various bounces and their associated error types et reasons, click the <strong>Adobe Campaign</strong> logo, in the top left, then select <strong>Administration &gt; Channels &gt; Quarantines &gt; Message qualification</strong>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/qualification.png" title="" />
+  <h2>Optimizing mail deliverability with double opt-in mechanism</h2>
+  <p>Double opt-in mechanism is a best practice when sending emails. It protects the platform from wrong or invalid email addresses, spambots, and prevents possible spam complaints.</p> 
+  <p>The principle is to send an email to confirm the visitor's agreement before storing them as ‘profiles' into your Campaign database: the visitor fills out an online landing page, then receives an email and has to click in the confirmation link to finalize its subscription.</p> 
+  <p>For more on this, refer to <a href="../../channels/using/setting-up-a-double-opt-in-process.md">this section</a>.</p> 
+ </body>
+</html>

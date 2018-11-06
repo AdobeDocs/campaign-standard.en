@@ -1,0 +1,100 @@
+<html> 
+ <head> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2018-01-10T15:33:50.184-0500" name="lastPublishExternalDate" /> 
+  <meta content="v17.2" name="jcr:title" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2018-01-10T15:33:50.190-0500" name="cq:lastModified" /> 
+  <meta content="f63ea22d-6078-4203-847b-7c6e48e655f1" name="jcr:uuid" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2017-11-28T11:30:33.762-0500" name="locHandOffDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:rn;content_type:reference;topic_tags:adobe-campaign-standard-release-notes" name="cq:tags" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="audience:rn" name="primaryAudienceTag" /> 
+  <meta content="2018-01-10T15:33:50.184-0500" name="topicBrowsingSortDate" /> 
+  <meta content="03/30/2017" name="jcr:description" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="2017-11-16T10:46:24.242-0500" name="firstPublishExternalDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="d992d805-1038-4823-8f14-159da34bf78a" name="jcr:predecessors" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="sauviat" name="cq:lastModifiedBy" /> 
+  <meta content="2018-01-10T15:33:50.184-0500" name="publishExternalDate" /> 
+  <meta content="v17.2" name="navTitle" /> 
+  <meta content="https://helpx.adobe.com/campaign/standard/rn/using/v17_2.html" name="publishExternalURL" /> 
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-01-11T19:01:33.596-0500" name="jcr:created" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="en_us" name="jcr:language" /> 
+ </head> 
+ <body> 
+  <h2>Improvements</h2> 
+  <table> 
+   <thead> 
+    <tr> 
+     <th> Functionality </th> 
+     <th> Description </th> 
+    </tr> 
+   </thead> 
+   <tbody> 
+    <tr> 
+     <td> Dynamic reporting </td> 
+     <td> Dynamic Reporting provides a new generation of fully customizable and real-time business reports. Based on visual dynamic pivot tables and graphics, this feature lets you drag and drop variables and dimensions to analyze the efficiency and effectiveness of your marketing campaigns. Dynamic reporting also enables you to create your own business reports from scratch and save them for later use. For more information, refer to the <a href="../../reporting/using/about-dynamic-reports.md">detailed documentation</a>. </td> 
+    </tr> 
+    <tr> 
+     <td> Dreamweaver integration (Labs) </td> 
+     <td> With the Adobe Campaign and Dreamweaver integration, you now have an integrated process for creating email campaigns with Adobe solutions. You can edit Adobe Campaign emails in Dreamweaver and have the content seamlessly synchronized between both solutions. For the initial release, the integration is available as a "Labs" feature and works only with Dreamweaver Pre Release Beta. If you want to activate it, please contact AC-DW-integration@adobe.com. For more information, refer to this <a href="http://docs.campaign.adobe.com/doc/standard/en/Videos/ACS_Dreamweaver.mp4">video</a>. </td> 
+    </tr> 
+    <tr> 
+     <td> Manual send time optimization </td> 
+     <td> You can now manually define a custom sending time per recipient - at the delivery level or using a workflow. Two new options are available: For more information, refer to the <a href="../../sending/using/about-send-time-optimization.md">detailed documentation</a>. </td> 
+    </tr> 
+    <tr> 
+     <td> Push notifications improvements </td> 
+     <td> The push notification channel has been enhanced with several improvements: For more information, refer to the <a href="../../channels/using/about-push-notifications.md">detailed documentation</a>. </td> 
+    </tr> 
+    <tr> 
+     <td> Workflows: new Signal activity </td> 
+     <td> Trigger a workflow from another workflow using the new <strong>Signal</strong> activity. With the ability to start one workflow from another, you can now support more complex customer journeys. You can better monitor the customer journeys and react in case there are issues. Several workflow activities have been updated: For more information, refer to the <a href="../../automating/using/external-signal.md">detailed documentation</a>. </td> 
+    </tr> 
+    <tr> 
+     <td> Workflows: new Read audience activity </td> 
+     <td> Start your targeting process with an existing audience that you can easily select and refine in one activity. For more information, refer to the <a href="../../automating/using/read-audience.md">detailed documentation</a>. </td> 
+    </tr> 
+    <tr> 
+     <td> Points of Interest data </td> 
+     <td> Points of Interest data integrates Adobe Campaign with Adobe Analytics for Mobile. A brand can collect data from users' mobile locations - called <strong>Points of Interest</strong> - when users open the brand's app. This enables the brand to leverage Adobe Campaign workflows in order to send personalized messages based on the users’ locations. This channel leverages the Mobile core service’s SDK. Please note that using this feature requires Analytics for Mobile, which is a paid solution. For more information, refer to the <a href="../../integrating/using/about-points-of-interest-data.md">detailed documentation</a>. </td> 
+    </tr> 
+    <tr> 
+     <td> REST APIs </td> 
+     <td> Resources linked at any level to the profiles or services resources are now available in the API. For more information, refer to the <a href="../../developing/using/step-5--update-the-database-structure.md#publishing-a-resource-with-api-extension">detailed documentation</a>. </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h2>Patches</h2> 
+  <h3>General</h3> 
+  <ul> 
+   <li><p>It is now possible to add profile data when exporting delivery logs.</p> </li> 
+  </ul> 
+  <h3>Emails and SMS messages</h3> 
+  <ul> 
+   <li><p>Fixed an issue causing the <strong>Request confirmation before sending messages</strong> option to remain selected even after unchecking it and saving the delivery.</p> </li> 
+   <li><p>Fixed an issue that could prevent unpublishing transactional emails.</p> </li> 
+   <li><p>Fixed an issue where content could not be properly synchronized with the latest changes before previewing a delivery.</p> </li> 
+  </ul> 
+  <h3>Landing pages</h3> 
+  <ul> 
+   <li><p>Fixed an error that prevented a user from editing when clicking in the content of a landing page.</p> </li> 
+  </ul> 
+  <h3>Workflows</h3> 
+  <ul> 
+   <li><p>Fixed an issue that could prevent from reading the content of the reject transition of a <strong>Load file</strong> activity.</p> </li> 
+   <li><p>Fixed an issue that prevented swapped columns to be properly taken into account when configuring a <strong>Load file</strong> activity.</p> </li> 
+  </ul> 
+ </body> 
+</html>

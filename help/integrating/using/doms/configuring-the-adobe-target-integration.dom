@@ -1,0 +1,52 @@
+<html>
+ <head>
+  <meta content="2018-01-10T15:24:02.579-0500" name="topicBrowsingSortDate" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="light" name="heroGradient" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-01-10T15:24:02.579-0500" name="publishExternalDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:integrating;content_type:reference;topic_tags:adobe-target-integration" name="cq:tags" />
+  <meta content="Configuring the Adobe Target integration" name="navTitle" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="Learn how to configure the Adobe Target integration to start using dynamic content in Adobe Campaign." name="seoDescription" />
+  <meta content="audience:integrating" name="primaryAudienceTag" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="https://helpx.adobe.com/campaign/standard/integrating/using/configuring-the-adobe-target-integration.html" name="publishExternalURL" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2b4b41ed-6660-4e33-a9e2-0f60e84e6ef1" name="jcr:uuid" />
+  <meta content="2018-01-11T19:02:07.831-0500" name="jcr:created" />
+  <meta content="Configuring the Adobe Target integration" name="jcr:description" />
+  <meta content="2018-01-10T15:24:02.585-0500" name="cq:lastModified" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2018-01-10T15:24:02.579-0500" name="lastPublishExternalDate" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="Configuring the Adobe Target integration" name="jcr:title" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="e213b266-ae32-41f4-b0d9-664ddc27e75e" name="jcr:predecessors" />
+  <meta content="2018-01-10T15:24:02.579-0500" name="firstPublishExternalDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+ </head>
+ <body>
+  <p>The integration between Adobe Campaign and Adobe Target lets you insert dynamic content in your delivery.</p> 
+  <p>A configuration is first needed in Adobe Campaign to use the integration functionalities with Adobe Target and must be managed by the functional administrator.</p> 
+  <p>The following elements are needed for this procedure:</p> 
+  <ul>
+   <li><p>An Adobe Marketing Cloud tenant</p> </li>
+   <li><p>An Adobe Target tenant</p> </li>
+   <li><p>An Adobe Target rawbox specified to establish the connection with Adobe Campaign</p> </li>
+  </ul>
+  <ol>
+   <li><p>From the advanced menu, via the Adobe Campaign logo in the top left corner, select <strong>Administration</strong> &gt; <strong>Application settings</strong> &gt; <strong>Options</strong>.</p> </li>
+   <li><p>To configure the server and tenant options for Adobe Target, fill in the following fields accordingly:</p> 
+    <ul>
+     <li><p><strong>TNT_TenantName</strong>: name of the Adobe Target tenant. This value corresponds to the name of the Adobe Target <strong>Client</strong>.</p> </li>
+     <li><p><strong>TNT_EdgeServer</strong>: Adobe Target server used for integration. This option is already provided by default. This value corresponds to the Adobe Target <strong>Server Domain</strong>, followed by the <strong>/m2</strong> value. For example: <strong>tt.omtrdc.net/m2</strong>.</p> </li>
+    </ul><img alt="" captionBottom="" imageRotate="0" src="assets/tar_options.png" title="" /></li>
+  </ol>
+  <p>Your users can now add dynamic images in a delivery with Adobe Target.</p> 
+ </body>
+</html>

@@ -1,0 +1,49 @@
+<html>
+ <head>
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="audience:developing" name="primaryAudienceTag" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-07-23T05:59:15.940-0400" name="publishExternalDate" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="70678081-4e1a-4e10-98bf-41a00db60790" name="jcr:predecessors" />
+  <meta content="064196aa-67cf-484e-b35d-25c56841b362" name="jcr:uuid" />
+  <meta content="https://helpx.adobe.com/campaign/standard/developing/using/step-1--add-extension-fields-to-the-profile-resource.html" name="publishExternalURL" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="Discover how to extend the profile resource." name="seoDescription" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="Step 1: Add extension fields to the profile resource" name="jcr:description" />
+  <meta content="2018-07-23T05:59:15.940-0400" name="lastPublishExternalDate" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Step 1: Add extension fields to the profile resource" name="jcr:title" />
+  <meta content="2018-07-26T02:53:36.518-0400" name="cq:lastModified" />
+  <meta content="2018-07-23T05:59:15.940-0400" name="firstPublishExternalDate" />
+  <meta content="Step 1: Add extension fields to the profile resource" name="navTitle" />
+  <meta content="2018-07-23T05:59:15.940-0400" name="topicBrowsingSortDate" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-07-23T05:59:15.993-0400" name="cq:lastReplicated" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:developing;content_type:reference;topic_tags:use-case--extending-the-api" name="cq:tags" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2018-07-26T02:53:36.517-0400" name="locHandOffDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2018-03-15T09:01:56.299-0400" name="jcr:created" />
+ </head>
+ <body>
+  <ol>
+   <li><p>From the advanced menu, via the Adobe Campaign logo, select <strong>Administration</strong> &gt; <strong>Development</strong>, then <strong>Custom resources</strong>.</p> </li>
+   <li><p>Click the <strong>Create</strong> icon to create a new custom resource.</p> </li>
+   <li><p>Choose the <strong>Extend an existing resource</strong> option.</p> </li>
+   <li><p>Select the <strong>Profile</strong> resource.</p> </li>
+   <li><p>Click <strong>Create</strong>.</p> </li>
+   <li><p>Add the <strong>Text</strong> type <strong>Promo code</strong> field with the <strong>Brand</strong> ID in the resource fields.</p> </li>
+  </ol>
+ </body>
+</html>
