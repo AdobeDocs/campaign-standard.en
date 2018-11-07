@@ -51,28 +51,14 @@ Each release comes with new features and patches. Click on a release to view its
 
 View the latest [documentation updates](../../rn/using/documentation-updates.md) for Adobe Campaign Standard. If you're looking for a newer release, consult this [page](../../rn/using/release-notes.md).
 
-## 16.11 - November 2016 release
+## Release 16.11 - November 2016
 
 ### New capabilities
 
-<table> 
- <thead> 
-  <tr> 
-   <th> Functionality<br /> </th> 
-   <th> Description<br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> Deliverability exclusion rules<br /> </td> 
-   <td> An encrypted global suppression list is now managed in the deliverability instance to avoid being blacklisted due to malicious activity, especially the use of a Spamtrap.<br /> For each email delivery, two default typology rules compare the recipient email addresses with the forbidden addresses or domain names contained in this list. If there is a match, that recipient is excluded from the target population.<br /> For more information, refer to the <a href="../../administration/using/filtering-rules.md#default-deliverability-exclusion-rules">detailed documentation</a>.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> General optimization<br /> </td> 
-   <td> This update includes numerous changes and patches that fix issues encountered by our clients. The global platform performances have also been optimized. <br /> </td> 
-  </tr> 
- </tbody> 
-</table>
+|Functionality|Description|
+|--- |--- |
+|Deliverability exclusion rules|An encrypted global suppression list is now managed in the deliverability instance to avoid being blacklisted due to malicious activity, especially the use of a Spamtrap. For each email delivery, two default typology rules compare the recipient email addresses with the forbidden addresses or domain names contained in this list. If there is a match, that recipient is excluded from the target population. For more information, refer to the detailed documentation.|
+|General optimization|This update includes numerous changes and patches that fix issues encountered by our clients. The global platform performances have also been optimized.|
 
 ### Patches
 
@@ -113,7 +99,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed an issue that prevented profiles from being extended and identifier keys from being set with a dynamic field.
 * Fixed an issue that could occur when adding links in a custom resource.
 
-## 16.10 - October 2016 release
+## Release 16.10 - October 2016
 
 ### New capabilities
 
@@ -178,7 +164,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed an issue that prevented a shared asset (**Image shared from Adobe Marketing Cloud** option) from being used in a landing page.
 * Fixed issues that occurred when editing a shared audience imported from Adobe Audience Manager.
 
-## 16.9 - September 2016 release
+## Release 16.9 - September 2016
 
 ### New capabilities
 
@@ -240,7 +226,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed a display error that would occur when a high resolution image was inserted via the **Dynamic image from Adobe Target** option.
 * Fixed an error that allowed a shared audience to be saved even if the destination ID was not set in AMC Data Source.
 
-## 16.7 - July 2016 release
+## Release 16.7 - July 2016
 
 ### New capabilities
 
@@ -294,7 +280,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 
 * When integrating a website, you can now define an expiration date for any given event. Once this date has been passed, the message corresponding to the event can no longer be sent.
 
-## 16.6 - June 2016 release
+## Release 16.6 - June 2016
 
 ### New capabilities
 
@@ -351,7 +337,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed an error that could occur when a 0-1 type link was configured from a custom resource.
 * Fixed an error that, where relevant, could prevent the defined **Constant default value** from being edited when adding a **Date and time** type field in a custom resource.
 
-## 16.5 - May 2016 release
+## Release 16.5 - May 2016
 
 ### New capabilities
 
@@ -429,7 +415,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 
 * Fixed an error regarding the name of the "Standard users" security group, that prevented users from logging in.
 
-## 16.3 - March 2016 release
+## Release 16.3 - March 2016
 
 ### New capabilities
 
@@ -485,7 +471,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 
 * Fixed an error that prevented a search on a custom resource from being carried out if the **Add search fields** option of the resource screen definition was checked and if several fields were selected in the **Filter zone composition**.
 
-## 16.2 - February 2016 release
+## Release 16.2 - February 2016
 
 ### New capabilities
 
@@ -555,7 +541,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed an error that prevented a package containing a workflow from being exported.
 * Fixed an error that could prevent several elements of the same resource from being selected.
 
-## 16.1 - January 2016 release
+## Release 16.1 - January 2016
 
 ### New capabilities
 
@@ -644,7 +630,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * It is now possible to specify a trusted IP address in the security parameters of the Message Center Push agent operator.
 * Fixed an error that could prevent a new type of event from being created.
 
-## 15.11 - November 2015 release
+## Release 15.11 - November 2015
 
 ### New capabilities
 
@@ -726,7 +712,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed an error that would cause the former package import label to display if the label had been modified.
 * Fixed an error that could cause incompatible resources to be displayed in the list of exportable resources.
 
-## 15.10 - October 2015 release
+## Release 15.10 - October 2015
 
 ### New capabilities
 
@@ -806,7 +792,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 
 * Fixed an HTML tag management error that occurred when processing dynamic content blocks.
 
-## 15.8 - August 2015 release
+## Release 15.8 - August 2015
 
 ### New capabilities
 
@@ -873,7 +859,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 
 * Fixed an error that prevented thumbnails from being generated in a load balanced environment.
 
-## 15.7 - July 2015 release
+## Release 15.7 - July 2015
 
 ### New capabilities
 
@@ -932,7 +918,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 
 * When selecting a shared resource from an email or landing page that is being edited, the list of available resources is now filtered for Adobe Campaign.
 
-## 15.6 - June 2015 release
+## Release 15.6 - June 2015
 
 ### New capabilities
 
@@ -1019,7 +1005,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 
 * You can now use the tab key to properly navigate between fields on the same page.
 
-## 15.4 - April 2015 release
+## Release 15.4 - April 2015
 
 ### New capabilities
 
@@ -1062,7 +1048,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
  </tbody> 
 </table>
 
-## 15.3 - March 2015 release
+## Release 15.3 - March 2015
 
 ### New capabilities
 
@@ -1099,4 +1085,3 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed an error which occurred when previewing a delivery.
 * Fixed an error that prevented a marketing activity from being duplicated.
 * Fixed an error that occurred when deleting a campaign.
-
