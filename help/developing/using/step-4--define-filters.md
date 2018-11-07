@@ -1,7 +1,7 @@
 ---
 title: Step 4 Define filters
 seo-title: Step 4 Define filters
-description: Step 4: Define filters
+description: Step 4 Define filters
 seo-description: Discover the filter feature to manage large data set.
 uuid: 47aa521b-a979-4e6e-aec5-d5aaa806ab58
 content-encoding: ISO-8859-1
