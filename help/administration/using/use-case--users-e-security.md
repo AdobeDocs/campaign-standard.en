@@ -1,7 +1,7 @@
 ---
-title: Use case: users & security
-seo-title: Use case: users & security
-description: Use case: users & security
+title: Use case users & security
+seo-title: Use case users & security
+description: Use case users & security
 seo-description: Discover access and security management through a step-by-step use case.
 uuid: f22d765b-4fab-427e-88aa-d50ea944efad
 content-encoding: ISO-8859-1
