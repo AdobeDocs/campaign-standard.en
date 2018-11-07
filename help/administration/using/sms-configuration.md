@@ -116,11 +116,8 @@ This section presents the characters taken into account by the GSM standard. All
 
 **Basic characters**
 
-**TABLE**
-```
-|  @  |  ![](assets/delta.png)
 
-| SP  | 0  | ¡  | P  | ¿  | P  |
+| SP  | 0  | ¡  | P  | ¿  | P  | | |
 |---|---|---|---|---|---|---|---|
 |  £  | _  | !  | 1  | A  | Q  | a  | q  |
 |  $  |  ![](assets/phi.png)
@@ -146,7 +143,6 @@ This section presents the characters taken into account by the GSM standard. All
 |  CR  | æ  | -  | =  | M  | Ñ  | m  | ñ  |
 |  Å  | ß  | .  | >  | N  | Ü  | n  | ü  |
 |  å  | É  | /  | ?  | O  | §  | o  | à  |
-```
 
 SP: Space
 
