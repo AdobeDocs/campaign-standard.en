@@ -30,7 +30,7 @@ lastPublishExternalDate: 2018-09-07T14:41:56.889-0400
 lochandoffdate: 2018-09-10T07 23 26.777-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
-navTitle: Use case: users & security
+navTitle: Use case users & security
 publishexternaldate: 2018-09-07T14 41 56.889-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/use-case--users-e-security.html
 sha1: 0e2181c323d3d607865d86713d35ffe92cb02290
