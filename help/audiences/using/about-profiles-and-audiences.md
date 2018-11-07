@@ -2,7 +2,7 @@
 title: About profiles and audiences
 seo-title: About profiles and audiences
 description: About profiles and audiences
-seo-description: Learn about profiles and audiences management within Adobe Campaign: define targeted populations, select audiences, filter recipients, collect data and update profiles.
+seo-description: Learn about profiles and audiences management within Adobe Campaign define targeted populations, select audiences, filter recipients, collect data and update profiles.
 uuid: 46e7264b-8512-4f67-b1e6-5a93dedc9ada
 content-encoding: UTF-8
 aemsrcnodepath: /content/help/en/campaign/standard/audiences/using/about-profiles-and-audiences

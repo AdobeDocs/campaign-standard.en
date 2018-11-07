@@ -2,7 +2,7 @@
 title: Configuring SMS channel
 seo-title: Configuring SMS channel
 description: Configuring SMS channel
-seo-description: Find out the SMS configuration steps: routing, encoding, formats and advanced properties. 
+seo-description: Find out the SMS configuration steps routing, encoding, formats and advanced properties. 
 uuid: 6b48bf1f-0a19-49b0-9fde-800388e51bfe
 content-encoding: UTF-8
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/configuring-sms-channel

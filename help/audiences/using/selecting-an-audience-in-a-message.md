@@ -2,7 +2,7 @@
 title: Selecting an audience in a message
 seo-title: Selecting an audience in a message
 description: Selecting an audience in a message
-seo-description: Step-be-step procedure to choose audiences of an email: main target population and test profiles.
+seo-description: Step-be-step procedure to choose audiences of an email main target population and test profiles.
 uuid: 7a1a2627-cda4-40bf-9faa-f79054a07501
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/audiences/using/selecting-an-audience-in-a-message

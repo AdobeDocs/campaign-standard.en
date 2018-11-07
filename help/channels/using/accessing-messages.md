@@ -2,7 +2,7 @@
 title: Accessing messages
 seo-title: Accessing messages
 description: Accessing messages
-seo-description: Learn how to access messages and their advanced functionalities: creation, targeting, personalization, execution and reporting.
+seo-description: Learn how to access messages and their advanced functionalities creation, targeting, personalization, execution and reporting.
 uuid: 8fba349f-43ad-4001-90b1-8d7fabd12a0b
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/accessing-messages

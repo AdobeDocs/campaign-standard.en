@@ -2,7 +2,7 @@
 title: Customizing lists
 seo-title: Customizing lists
 description: Customizing lists
-seo-description: Learn how to customize display and act on list screens in Adobe Campaign Standard:sorting, filtering, deleting or duplicating elements. Lists screens display elements of one or several given resources.
+seo-description: Learn how to customize display and act on list screens in Adobe Campaign Standard sorting, filtering, deleting or duplicating elements. Lists screens display elements of one or several given resources.
 uuid: dab38fff-21d8-4fdb-922d-5eebf9f849ad
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/start/using/customizing-lists
