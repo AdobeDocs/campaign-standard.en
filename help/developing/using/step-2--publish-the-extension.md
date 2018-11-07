@@ -1,7 +1,7 @@
 ---
-title: Step 2: Publish the extension
-seo-title: Step 2: Publish the extension
-description: Step 2: Publish the extension
+title: Step 2 Publish the extension
+seo-title: Step 2 Publish the extension
+description: Step 2 Publish the extension
 seo-description: 
 uuid: a750d708-3291-4b4d-968a-73e4ee298fa3
 content-encoding: ISO-8859-1
@@ -30,7 +30,7 @@ lastPublishExternalDate: 2018-09-07T14:57:19.016-0400
 lochandoffdate: 2018-09-10T02 19 12.661-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
-navTitle: Step 2: Publish the extension
+navTitle: Step 2 Publish the extension
 publishexternaldate: 2018-09-07T14 57 19.016-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/step-2--publish-the-extension.html
 sha1: dd93b5c89d44e36f5216cf9282e7c1fac1398d6f

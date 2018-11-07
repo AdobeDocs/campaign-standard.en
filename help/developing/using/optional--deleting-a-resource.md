@@ -1,7 +1,7 @@
 ---
-title: Optional: Deleting a resource
-seo-title: Optional: Deleting a resource
-description: Optional: Deleting a resource
+title: Optional Deleting a resource
+seo-title: Optional Deleting a resource
+description: Optional Deleting a resource
 seo-description: 
 uuid: e2806561-e13c-4912-af5b-37bfd6634267
 content-encoding: ISO-8859-1
@@ -30,7 +30,7 @@ lastPublishExternalDate: 2018-09-07T14:55:05.543-0400
 lochandoffdate: 2018-09-10T02 19 06.620-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
-navTitle: Optional: Deleting a resource
+navTitle: Optional Deleting a resource
 publishexternaldate: 2018-09-07T14 55 05.543-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/optional--deleting-a-resource.html
 sha1: d597abba5e9184ea06ddd620b75d1754915c0af9

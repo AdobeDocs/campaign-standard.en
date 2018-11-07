@@ -1,7 +1,7 @@
 ---
-title: Step 5: Update the database structure
-seo-title: Step 5: Update the database structure
-description: Step 5: Update the database structure
+title: Step 5 Update the database structure
+seo-title: Step 5 Update the database structure
+description: Step 5 Update the database structure
 seo-description: Discover how to update the Adobe Campaign database.
 uuid: 168d4d6e-329b-47ba-b72c-18978037d954
 content-encoding: ISO-8859-1
@@ -30,7 +30,7 @@ lastPublishExternalDate: 2018-09-07T14:53:56.680-0400
 lochandoffdate: 2018-09-10T02 19 00.674-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
-navTitle: Step 5: Update the database structure
+navTitle: Step 5 Update the database structure
 publishexternaldate: 2018-09-07T14 53 56.680-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/step-5--update-the-database-structure.html
 sha1: cc92342c734ad5d24835c97beeb783cbf5da1eaf

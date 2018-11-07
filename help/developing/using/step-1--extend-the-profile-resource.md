@@ -1,7 +1,7 @@
 ---
-title: Step 1: Extend the profile resource
-seo-title: Step 1: Extend the profile resource
-description: Step 1: Extend the profile resource
+title: Step 1 Extend the profile resource
+seo-title: Step 1 Extend the profile resource
+description: Step 1 Extend the profile resource
 seo-description: Learn how to extend the profile resource.
 uuid: be540d43-7b45-4138-b0aa-ce070b5567f4
 content-encoding: ISO-8859-1
@@ -30,7 +30,7 @@ lastPublishExternalDate: 2018-09-07T14:59:29.900-0400
 lochandoffdate: 2018-09-10T02 19 17.075-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
-navTitle: Step 1: Extend the profile resource
+navTitle: Step 1 Extend the profile resource
 publishexternaldate: 2018-09-07T14 59 29.900-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/step-1--extend-the-profile-resource.html
 sha1: 3235bb264c9b4653766864ea00a8320a2fa61062

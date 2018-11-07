@@ -1,7 +1,7 @@
 ---
-title: "Use case: Importing profiles"
-seo-title: "Use case: Importing profiles"
-description: "Use case: Importing profiles"
+title: "Use case Importing profiles"
+seo-title: "Use case Importing profiles"
+description: "Use case Importing profiles"
 seo-description: 
 page-status-flag: never-activated
 uuid: dc90fce0-f140-4063-aa01-b4d1e62a667c
@@ -25,7 +25,7 @@ jcr-ischeckedout: true
 jcr-language: en_us
 lastPublishExternalDate: 2018-01-10T15:19:36.178-0500
 lr-lastreplicatedby: sauviat@adobe.com
-navTitle: "Use case: Importing profiles"
+navTitle: "Use case Importing profiles"
 publishexternaldate: 2018-01-10T15 19 36.178-0500
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/use-case--importing-profiles.html
 sha1: 03e0d4d503f0dd7d47ef1b57a904623bfeade5cc

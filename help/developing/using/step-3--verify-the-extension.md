@@ -1,7 +1,7 @@
 ---
-title: Step 3: Verify the extension
-seo-title: Step 3: Verify the extension
-description: Step 3: Verify the extension
+title: Step 3 Verify the extension
+seo-title: Step 3 Verify the extension
+description: Step 3 Verify the extension
 seo-description: Learn how to access to the extended field with the Rest API.
 uuid: 19e9fc39-2379-45d4-97a5-780fe5b19147
 content-encoding: ISO-8859-1
@@ -30,7 +30,7 @@ lastPublishExternalDate: 2018-09-07T14:58:05.816-0400
 lochandoffdate: 2018-09-10T02 19 14.917-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
-navTitle: Step 3: Verify the extension
+navTitle: Step 3 Verify the extension
 publishexternaldate: 2018-09-07T14 58 05.816-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/step-3--verify-the-extension.html
 sha1: 8d79340fe5c0b69446e116ecd39349b3ccaee8bd
