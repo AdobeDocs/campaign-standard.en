@@ -2,7 +2,7 @@
 title: Managing profiles 
 seo-title: Managing profiles 
 description: Managing profiles 
-seo-description: Learn about profiles, targeting and audience creation in Campaign: send personalized messages, and access all your data to discover customer insights from both online and offline channels.
+seo-description: Learn about profiles, targeting and audience creation in Campaign send personalized messages, and access all your data to discover customer insights from both online and offline channels.
 uuid: 259f937b-b27f-4346-86a6-dff0be9f7156
 content-encoding: UTF-8
 aemsrcnodepath: /content/help/en/campaign/standard/start/using/managing-profiles-
