@@ -102,7 +102,7 @@ Once the sending is finished, you can start measuring the impact of your message
 
 **Related topics:**
 
-* [About SMS and push content edition](JMA_sect1_ndh_dg4_h2b)
+* [About SMS and push content edition](JMA_sect1_ndh_dg4_h2b.md)
 * [Managing templates](../../start/using/about-templates.md)
 * [Create an SMS delivery](https://docs.campaign.adobe.com/doc/standard/en/Videos/creating_sms.mp4) video
 

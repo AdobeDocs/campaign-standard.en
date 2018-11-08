@@ -45,7 +45,7 @@ If you have other Adobe Marketing Cloud solutions, you can integrate them with A
 
 * Use contents created from Adobe Experience Manager in Adobe Campaign messages.
 
-  For more on this, refer to the [Adobe Experience Manager](../../integrating/using/creating-campaigns-and-emails-in-experience-manager-6_3.md) section in the Integrations guide.
+  For more on this, refer to the [Adobe Experience Manager](../../integrating/using/creating-campaigns-and-emails-in-experience-manager-6-3.md) section in the Integrations guide.
 
 * Import shared audiences from different Marketing Cloud solutions in order to use them in Adobe Campaign, and export Adobe Campaign audiences into Adobe Marketing Cloud, so that they can be used in different solutions.
 

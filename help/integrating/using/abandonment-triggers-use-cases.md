@@ -85,7 +85,7 @@ In this use case, we are going to create a simple trigger that will fire every t
 
    ![](assets/trigger_uc_browse_3.png)
 
-### Using the trigger in Adobe Campaign {#using-the-trigger-in-adobe-campaign}
+### Using the trigger in Adobe Campaign {#using-the-trigger-in-adobe-campaign-three}
 
 Now that we've created an Experience Cloud Trigger, let's use it in Adobe Campaign.
 
@@ -120,7 +120,7 @@ In Adobe Campaign, you need to create a Trigger linked to the one you created in
 
    ![](assets/trigger_uc_browse_0.png)
 
-### Running the scenario {#running-the-scenario}
+### Running the scenario {#running-the-scenario-two}
 
 1. This use case starts with an initial email sent to your audience with Adobe Campaign. 
 
@@ -150,7 +150,7 @@ In Adobe Campaign, you need to create a Trigger linked to the one you created in
 
 In this use case, we are going to create a trigger to reengage with visitors who went on our trip booking website, searched for a destination, found no successful results, and didn't book anything after that. The general process is the same as in the previous use case (see [Browse abandonment Trigger](../../integrating/using/abandonment-triggers-use-cases.md#browse-abandonment-trigger)). We will focus here on how to personalize the remarketing email message.
 
-### Creating an Experience Cloud Trigger {#creating-an-experience-cloud-trigger}
+### Creating an Experience Cloud Trigger {#creating-an-experience-cloud-trigger-two}
 
 Follow the steps described in the previous use case to create the Experience Cloud Trigger. See [Creating an Experience Cloud Trigger](../../integrating/using/abandonment-triggers-use-cases.md#creating-an-experience-cloud-trigger). The main difference is the trigger definition.
 
@@ -158,7 +158,7 @@ Follow the steps described in the previous use case to create the Experience Clo
 
 The **Include Meta Data** section allows you to pass any data collected from Analytics to the Trigger payload. In this example, we create a custom eVar (for example, eVar 3) to collect the search term the visitor enters. This term will then be used in the transactional email message sent to the same visitor.
 
-### Using the trigger in Adobe Campaign {#using-the-trigger-in-adobe-campaign}
+### Using the trigger in Adobe Campaign {#using-the-trigger-in-adobe-campaign-two}
 
 1. Follow the steps described in the previous use case to create the trigger in Adobe Campaign. See [Using the trigger in Adobe Campaign](../../integrating/using/abandonment-triggers-use-cases.md#using-the-trigger-in-adobe-campaign). The main difference is how we access and use, in Adobe Campaign, the meta data pushed in the Trigger payload. 
 1. In the Search Abandonment trigger you created in Adobe Campaign, click on the **Event content and enrichment** icon to view the payload pushed to Adobe Campaign.

@@ -208,7 +208,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
   </tr> 
   <tr> 
    <td> Push notifications<br /> </td> 
-   <td> A new channel has been added to allow marketers to send personalized and segmented push notifications on iOS and Android mobile devices. Messages can be sent through a single delivery or using a workflow activity. Compatibility with Transactional messaging will be available in future versions. This channel leverages the Mobile core service’s SDK (available <a href="https://marketing.adobe.com/developer/gallery/marketing-cloud-mobile-libraries ">here</a>).<br /> For more information, refer to the <a href="../../channels/using/about-push-notifications.md">detailed documentation</a>.<br /> </td> 
+   <td> A new channel has been added to allow marketers to send personalized and segmented push notifications on iOS and Android mobile devices. Messages can be sent through a single delivery or using a workflow activity. Compatibility with Transactional messaging will be available in future versions. This channel leverages the Mobile core service’s SDK (available <a href="https://marketing.adobe.com/developer/gallery/marketing-cloud-mobile-libraries">here</a>).<br /> For more information, refer to the <a href="../../channels/using/about-push-notifications.md">detailed documentation</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
