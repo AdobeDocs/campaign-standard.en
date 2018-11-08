@@ -15,7 +15,7 @@ git-repo: https://git.corp.adobe.com/AdobeDocs/campaign-standard.en
 index: yes
 ---
 
-# Campaign-Standard-TOC {campaign-standard}
+# Campaign-Standard-TOC {#campaign-standard}
 
 + [Introduction](start/using/introduction.md)
 + Release Notes{#release-notes}
@@ -50,7 +50,7 @@ index: yes
     + [v15.6](rn/using/v15-6.md)
     + [v15.4](rn/using/v15-4.md)
     + [v15.3](rn/using/v15-3.md)
-+ Getting Started{getting-started}
++ Getting Started{#getting-started}
   + About Campaign Standard{#about-acs}
     + [Integrating with Adobe Marketing Cloud](start/using/integrating-with-adobe-marketing-cloud.md)
   + [Step-by-step guides](start/using/step-by-step-guides.md)
@@ -244,20 +244,20 @@ index: yes
   + [Provisioning and configuring People core service integration](integrating/using/provisioning-and-configuring-people-core-service-integration.md)
   + [Importing/Exporting audiences with People core service integration](integrating/using/importing-exporting-audiences-with-people-core-service-integration.md)
   + [Adding Adobe Target content](integrating/using/adding-adobe-target-content.md)
-  + [Integrating with Experience Manager 6.1 or 6.2](integrating/using/integrating-with-experience-manager-6_1-or-6_2.md)
+  + [Integrating with Experience Manager 6.1 or 6.2](integrating/using/integrating-with-experience-manager-6-1-or-6-2.md)
   + [About People core service Integration](integrating/using/about-people-core-service-integration.md)
   + [Configuration](integrating/using/configuration.md)
   + [Dimensions available in Analytics](integrating/using/dimensions-available-in-analytics.md)
   + [Configuring the Adobe Target integration](integrating/using/configuring-the-adobe-target-integration.md)
   + [About Adobe Target integration](integrating/using/about-adobe-target-integration.md)
-  + [Creating a Campaign form in Experience Manager 6.1 or 6.2](integrating/using/creating-a-campaign-form-in-experience-manager-6_1-or-6_2.md)
+  + [Creating a Campaign form in Experience Manager 6.1 or 6.2](integrating/using/creating-a-campaign-form-in-experience-manager-6-1-or-6-2.md)
   + [User process](integrating/using/user-process.md)
   + [About Points of Interest data](integrating/using/about-points-of-interest-data.md)
   + [About Marketing Cloud Triggers](integrating/using/about-marketing-cloud-triggers.md)
   + [Assets core service integration](integrating/using/assets-core-service-integration.md)
   + [Creating personalized messages with Point of Interest data](integrating/using/creating-personalized-messages-with-point-of-interest-data.md)
   + [About integrations](integrating/using/about-integrations.md)
-  + [creating-campaigns-and-emails-in-experience-manager-6_3](integrating/using/creating-campaigns-and-emails-in-experience-manager-6_3.md)
+  + [creating-campaigns-and-emails-in-experience-manager-6-3](integrating/using/creating-campaigns-and-emails-in-experience-manager-6-3.md)
   + [Configuring Campaign-Triggers integration](integrating/using/configuring-campaign-triggers-integration.md)
   + [Campaign dimensions in Analytics](integrating/using/campaign-dimensions-in-analytics.md)
   + [Testing your triggers](integrating/using/testing-your-triggers.md)
