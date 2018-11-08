@@ -46,7 +46,9 @@ Email delivery
 
 ## Description
 
-![](assets/email.png)  ![](assets/recurrentEmail.png)
+![](assets/email.png) 
+
+![](assets/recurrentEmail.png)
 
 The **Email delivery** activity allows you to configure sending an email in a workflow. This can be a **single send** email and sent just once, or it can be a **recurring** email.
 
