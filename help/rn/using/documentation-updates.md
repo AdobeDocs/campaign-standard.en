@@ -56,7 +56,7 @@ This page lists all the new features and documentation updates for each release 
 
 You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-notes.md).
 
-## 18.9 - September 2018 release {#september-release}
+## Release 18.9 - September 2018 {#september-release}
 
 ### New capabilities included in the release {#new-capabilities-included-in-the-release}
 
@@ -72,7 +72,7 @@ Added information on how to delete an audience. [Read more](../../audiences/usin
 
 Updated Push notification out-of-the-box report section. [Read more](../../reporting/using/push-notification-report.md)
 
-## 18.7 - July 2018 release {#july-release}
+## Release 18.7 - July 2018 release {#july-release}
 
 ### New capabilities included in the release {#new-capabilities-included-in-the-release}
 
@@ -96,7 +96,7 @@ Added information on default language for multilingual template. [Read more](../
 
 The Users & security guide has been updated to reflect the depreciation of the geographical unit capability for new Campaign Standard instances, as well as existing instances with no geographical units created, starting 18.7 release. [Read more](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
-## 18.6 - June 2018 release {#june-release}
+## Release 18.6 - June 2018 {#june-release}
 
 ### New capabilities included in the release {#new-capabilities-included-in-the-release}
 
@@ -116,7 +116,7 @@ Added a sample in the query activity section on how to target profiles who click
 
 Added a section in the API documentation related to **custom filters**. [Read more](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering)
 
-## 18.5 - May 2018 release {#may-release}
+## Release 18.5 - May 2018 release {#may-release}
 
 ### New capabilities included in the release {#new-capabilities-included-in-the-release}
 
@@ -152,7 +152,7 @@ The list of supported Analytics SKUs for the integration with Triggers has been 
 
 Some pages of the content editor documentation have been merged to offer a more comprehensive view of the different actions available. [Read more](../../designing/using/about-email-content-design.md#email-content-editor-interface)
 
-## 18.3 - March 2018 release {#march-release}
+## Release 18.3 - March 2018 release {#march-release}
 
 ### New capabilities included in the release {#new-capabilities-included-in-the-release}
 
@@ -184,7 +184,7 @@ Updated the list of help materials about Campaign and Adobe solutions integratio
 
 Updated Campaign Standard in-product contextual help.
 
-## 18.2 - February 2018 release {#february-release}
+## Release 18.2 - February 2018 release {#february-release}
 
 ### New capabilities included in the release {#new-capabilities-included-in-the-release}
 
@@ -228,7 +228,7 @@ Updated information about delivery failures and quarantines. [Read more](../../s
 
 New sections dedicated to [target mappings](../../administration/using/target-mappings-in-campaign.md) and [targeting dimensions and resources](../../automating/using/query.md#targeting-dimensions-and-resources).
 
-## 18.1 - January 2018 release {#january-release}
+## Release 18.1 - January 2018 release {#january-release}
 
 ### New capabilities included in the release {#new-capabilities-included-in-the-release}
 
@@ -256,7 +256,7 @@ Added information about Historization settings of the Transfer file activity. [R
 
 Instructions to configure the integration with Audience Manager or People core service have been updated. [Read more](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
-## 17.10 - October 2017 release {#october-release}
+## Release 17.10 - October 2017 release {#october-release}
 
 ### New capabilities included in the release {#new-capabilities-included-in-the-release}
 
@@ -296,7 +296,7 @@ New section dedicated to primary keys and the use of a business ID as a key in t
 
 Information added on simple and multiple filtering in the API. [Read more](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering)
 
-## 17.9 - September 2017 release {#september-release}
+## Release 17.9 - September 2017 release {#september-release}
 
 ### New capabilities included in the release {#new-capabilities-included-in-the-release}
 
@@ -336,7 +336,7 @@ Updated section on Transfer file workflow activity. [Read more](../../automating
 
 Information added on "Request confirmation before sending messages" option in Email Delivery workflow activity. [Read more](../../automating/using/email-delivery.md)
 
-## 17.7 - July 2017 release {#july-release}
+## Release 17.7 - July 2017 release {#july-release}
 
 ### New capabilities included in the release {#new-capabilities-included-in-the-release}
 
@@ -368,7 +368,7 @@ Double opt-in mechanism is now documented through a step by step procedure. [Rea
 
 The List of roles section has been updated. [Read more](../../administration/using/list-of-roles.md)
 
-## 17.5 - May 2017 release {#may-release}
+## Release 17.5 - May 2017 release {#may-release}
 
 ### New capabilities included in the release {#new-capabilities-included-in-the-release}
 
@@ -390,7 +390,7 @@ Authorizations table revised to make certain roles’ function clearer. [Read mo
 
 Update of the contextual help links available directly from Adobe Campaign.
 
-## 17.4 - April 2017 release {#april-release}
+## Release 17.4 - April 2017 release {#april-release}
 
 ### New capabilities included in the release {#new-capabilities-included-in-the-release}
 
@@ -420,7 +420,7 @@ Updated section about how to work with images in Campaign. [Read more](../../des
 
 Integration with Adobe Analytics for Mobile (Point of Interest) updated, including configuration steps and use case. [Read more](../../integrating/using/about-campaign-points-of-interest-data-integration.md)
 
-## 17.2 - March 2017 release {#march-release}
+## Release 17.2 - March 2017 release {#march-release}
 
 ### New capabilities included in the release {#new-capabilities-included-in-the-release}
 
@@ -448,7 +448,7 @@ We have redesigned the developer API documentation with new information and code
 
 Discover examples of the new [Read audience](../../automating/using/read-audience.md) and [External signal](../../automating/using/external-signal.md) workflow activities.
 
-## 17.1 - January 2017 release {#january-release}
+## Release 17.1 - January 2017 release {#january-release}
 
 ### New capabilities included in the release {#new-capabilities-included-in-the-release}
 
@@ -470,7 +470,7 @@ URL change: People core service - [Read more](../../integrating/using/about-camp
 
 Profiles and audiences guide has been reorganized. [Read more](../../audiences/using/about-profiles-and-audiences.md)
 
-## 16.11 - November 2016 release {#november-release}
+## Release 16.11 - November 2016 release {#november-release}
 
 ### Documentation updates {#documentation-updates}
 
@@ -500,7 +500,7 @@ The SMS deliveries section has been upated to reflect interface changes. [Read m
 
 Push notification deliveries have been added to the timeline. [Read more](../../start/using/timeline.md)
 
-## 16.10 - October 2016 release {#october-release}
+## Release 16.10 - October 2016 release {#october-release}
 
 ### New capabilities included in the release {#new-capabilities-included-in-the-release}
 
@@ -512,7 +512,7 @@ Follow-up message for transactional messaging - [Read more](../../channels/using
 
 Extended Profile & Services API - [Read more](../../developing/using/step-5--update-the-database-structure.md#publishing-a-resource-with-api-extension)
 
-## 16.9 - September 2016 release {#september-release}
+## Release 16.9 - September 2016 release {#september-release}
 
 ### New capabilities included in the release {#new-capabilities-included-in-the-release}
 

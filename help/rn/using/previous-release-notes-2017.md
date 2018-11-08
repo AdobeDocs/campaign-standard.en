@@ -51,7 +51,7 @@ Each release comes with new features and patches. Click on a release to view its
 
 View the latest [documentation updates](../../rn/using/documentation-updates.md) for Adobe Campaign Standard. If you're looking for a newer release, consult this [page](../../rn/using/release-notes.md).
 
-## 17.10 - October 2017 release {#october-release}
+## v17.10 - October 2017 release {#october-release}
 
 ### New capabilities {#new-capabilities}
 
@@ -130,7 +130,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed an issue that occurred in list screens where custom resource rows could be displayed without any data. 
 * Fixed an issue that prevented boolean type fields with 'False' value from being displayed in custom resources.
 
-## 17.9 - September 2017 release {#september-release}
+## v17.9 - September 2017 release {#september-release}
 
 ### New capabilities {#new-capabilities}
 
@@ -202,7 +202,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Adobe Campaign now provides a report that displays the number of active profiles. This report is only informative, it doesn't have a direct impact on billing. For more information, refer to the [detailed documentation](../../audiences/using/active-profiles.md).
 * Fixed an issue that prevented profiles from being subscribed to a service when using the Profiles and Services API.
 
-## 17.7 - July 2017 release {#july-release}
+## v17.7 - July 2017 release {#july-release}
 
 ### New capabilities {#new-capabilities}
 
@@ -278,7 +278,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed an issue which prevented you from setting an outbound transition in the creation wizard of recurring delivery.
 * Fixed an issue that occurred when using a workflow query activity based on a custom resource field with an enumeration that had a lot of values
 
-## 17.5 - May 2017 release {#may-release}
+## v17.5 - May 2017 release {#may-release}
 
 ### New capabilities {#new-capabilities}
 
@@ -325,7 +325,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed an issue which prevented you from clicking on a push event in a profile's marketing history.
 * The use of push notifications in workflows has been improved.
 
-## 17.4 - April 2017 release {#april-release}
+## v17.4 - April 2017 release {#april-release}
 
 ### New capabilities {#new-capabilities}
 
@@ -410,7 +410,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed an issue where an error message was not displayed when creating an Android application linked to a mobile app that had failed being created on MCPNS.
 * Fixed an issue that allowed a user to add sounds to a silent notification.
 
-## 17.2 - March 2017 release {#march-release}
+## v17.2 - March 2017 release {#march-release}
 
 ### New capabilities {#new-capabilities}
 
@@ -478,7 +478,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed an issue that could prevent from reading the content of the reject transition of a **Load file** activity.
 * Fixed an issue that prevented swapped columns to be properly taken into account when configuring a **Load file** activity.
 
-## 17.1 - January 2017 release {#january-release}
+## v17.1 - January 2017 release {#january-release}
 
 ### New capabilities {#new-capabilities}
 
@@ -538,4 +538,3 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed an issue that may have caused an error when deploying an event trigger in Adobe Campaign. This error occurred when the "Likelihood to Return in 30 Days" metadata had been added to the Abandonment trigger in Adobe Marketing Cloud.
 * Fixed an issue that may have caused the technical workflow to clear the Target Dimension field when importing audiences from People core service. Subsequent queries could not retrieve the imported audiences.
 * Fixed an issue that may have caused the **Save audience** activity of a workflow to fail when the option **Share in Adobe Marketing Cloud** was checked.
-
