@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="audience:administration" name="primaryAudienceTag" />
-  <meta content="2018-09-07T14:59:27.632-0400" name="firstPublishExternalDate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-09-07T14:59:30.155-0400" name="cq:lastReplicated" />
+  <meta content="2018-09-07T14:59:27.632-0400" name="topicBrowsingSortDate" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
   <meta content="" name="jcr:baseVersion" />
-  <meta content="2018-09-07T14:59:27.632-0400" name="lastPublishExternalDate" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="Filtering rules" name="navTitle" />
-  <meta content="2018-09-10T07:25:36.878-0400" name="cq:lastModified" />
-  <meta content="https://helpx.adobe.com/campaign/standard/administration/using/filtering-rules.html" name="publishExternalURL" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Filtering rules" name="jcr:title" />
+  <meta content="2018-09-07T14:59:27.632-0400" name="publishExternalDate" />
   <meta content="sauviat" name="contentOwner" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="light" name="heroGradient" />
   <meta content="Use filtering rules to refine the audience of your messages." name="seoDescription" />
   <meta content="products:SG_CAMPAIGN/STANDARD;audience:administration;content_type:reference;topic_tags:working-with-typology-rules" name="cq:tags" />
-  <meta content="Filtering rules" name="jcr:description" />
-  <meta content="2018-09-07T14:59:27.632-0400" name="publishExternalDate" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="1fd44c31-26fe-4456-b23e-e8390b19c8a8" name="jcr:uuid" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="2018-09-10T07:25:36.876-0400" name="locHandOffDate" />
   <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="2018-02-16T08:04:25.146-0500" name="jcr:created" />
-  <meta content="2018-09-07T14:59:30.155-0400" name="cq:lastReplicated" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
   <meta content="4c1a1d32-9513-4652-9f8e-db1afd992a1c" name="jcr:predecessors" />
-  <meta content="2018-09-07T14:59:27.632-0400" name="topicBrowsingSortDate" />
-  <meta content="light" name="heroGradient" />
-  <meta content="Filtering rules" name="jcr:title" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="https://helpx.adobe.com/campaign/standard/administration/using/filtering-rules.html" name="publishExternalURL" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Filtering rules" name="jcr:description" />
   <meta content="" name="jcr:versionHistory" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-09-07T14:59:27.632-0400" name="lastPublishExternalDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="audience:administration" name="primaryAudienceTag" />
+  <meta content="1fd44c31-26fe-4456-b23e-e8390b19c8a8" name="jcr:uuid" />
+  <meta content="2018-09-10T07:25:36.876-0400" name="locHandOffDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
   <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-02-16T08:04:25.146-0500" name="jcr:created" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-09-10T07:25:36.878-0400" name="cq:lastModified" />
+  <meta content="Filtering rules" name="navTitle" />
+  <meta content="2018-09-07T14:59:27.632-0400" name="firstPublishExternalDate" />
  </head>
  <body>
   <p>Filtering rules allow you to exclude one part of the message target according to criteria defined in a query, such as quarantined profiles or profiles that have already been sent a certain number of emails.</p> 

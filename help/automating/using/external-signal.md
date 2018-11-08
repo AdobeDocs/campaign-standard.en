@@ -3,7 +3,7 @@ title: External signal
 seo-title: External signal
 description: External signal
 seo-description: The External signal activity triggers a workflow when some conditions are successfully met in another workflow.
-uuid: 833b6224-489b-456f-9daa-8f558ff29b0d
+uuid: ef962ed9-c0bf-4c2b-867b-5608d11454dd
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/external-signal
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: 916001cb-84b2-486a-9a7c-39a710571ca9
+discoiquuid: 86544392-10b8-4d19-a3dc-e8910f3fdd67
 firstPublishExternalDate: 2018-09-07T15:02:17.021-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,25 +32,25 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: External signal
 publishexternaldate: 2018-09-07T15 02 17.021-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/external-signal.html
-sha1: fe06001e3e86b2934dd84366aaf72a0a3f307cfd
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/external-signal.html"
+sha1: 831d81c59b6971e82d194016ed39a78a4854bb09
 topicBrowsingSortDate: 2018-09-07T15:02:17.021-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# External signal
+# External signal{#external-signal}
 
 External signal
 
-## Description
+## Description {#description}
 
 ![](assets/signal.png)
 
 The **External signal** activity triggers a workflow when some conditions are successfully met in another workflow or from a REST API call.
 
-## Context of use
+## Context of use {#context-of-use}
 
 The **External signal** activity is used to organize and orchestrate different processes that are part of the same customer journey into different workflows. It allows to start one workflow from another, enabling to support more complex customer journeys, while being able to better monitor and react in case of issue.
 
@@ -62,7 +62,7 @@ The **External signal** activity is designed to be placed as the first activity 
 
 Note that an **External signal** activity can be triggered from several different events. In that case, the **External signal** is triggered as soon as one of the source workflows or API call is executed. It does not require that all source workflows are finished.
 
-## Configuration
+## Configuration {#configuration}
 
 When configuring an external signal, it is important to first configure the **External signal** activity in the destination workflow. Once this configuration is done, the **External signal** activity of this workflow becomes available to configure the **End** activity of the source workflow.
 
@@ -102,7 +102,7 @@ Once the **End** activity of the source workflow or the REST API call is execute
 >
 >The destination workflow must be started manually before it can be triggered. When started, the **External activity** is activated and waits for the signal from the source workflow.
 
-## Example
+## Example {#example}
 
 The following example illustrates the **External signal** activity in a typical use case. A data import is performed in a source workflow. Once the import is done and the database updated, a second workflow is triggered. This second workflow is used to update an aggregate on the imported data.
 

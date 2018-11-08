@@ -3,7 +3,7 @@ title: Key steps
 seo-title: Key steps
 description: Key steps
 seo-description: 
-uuid: 9cb56bff-2d10-4e31-840b-0c783191e4d8
+uuid: 4e9b7952-d41a-4576-b739-44ff9e7b4953
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/developing/using/key-steps
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 cq-template: /apps/help/templates/article-3
-discoiquuid: b79ef1d7-0361-4edf-9225-4af8975cd670
+discoiquuid: 174e5518-298a-4bdb-b7de-f22039570e6c
 firstPublishExternalDate: 2018-09-07T14:50:27.574-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,15 +32,15 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Key steps
 publishexternaldate: 2018-09-07T14 50 27.574-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/key-steps.html
-sha1: 346c456d826b95c432b1bedb514797510ba70b29
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/developing/using/key-steps.html"
+sha1: a332ab366db7b8f10732d30445d2ffef6a2df080
 topicBrowsingSortDate: 2018-09-07T14:50:27.574-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Key steps
+# Key steps{#key-steps}
 
 Key steps
 

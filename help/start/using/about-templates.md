@@ -2,8 +2,8 @@
 title: About templates
 seo-title: About templates
 description: About templates
-seo-description: Adobe Campaign templates allow you to pre-configure parameters depending on your needs templates may contain a full or partial configuration of the marketing activity, to simplify Adobe Campaign usage for non-technical end users.
-uuid: 078e35e5-337b-4919-88e2-58ce8d86ca85
+seo-description: "Adobe Campaign templates allow you to pre-configure parameters depending on your needs: templates may contain a full or partial configuration of the marketing activity, to simplify Adobe Campaign usage for non-technical end users."
+uuid: 883de27c-c1a9-4467-9971-56530bb4f899
 content-encoding: UTF-8
 aemsrcnodepath: /content/help/en/campaign/standard/start/using/about-templates
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: start
 content-type: reference
 topic-tags: managing-templates
 cq-template: /apps/help/templates/article-3
-discoiquuid: 6211bddf-c41c-49c3-b911-2410db99b755
+discoiquuid: d868665e-cc84-4471-9443-746cef5a136e
 firstPublishExternalDate: 2018-09-07T15:08:36.959-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,19 +32,19 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About templates
 publishexternaldate: 2018-09-07T15 08 36.959-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/start/using/about-templates.html
-sha1: 0377213921d3c4fe148692249ebe0b841404e243
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/start/using/about-templates.html"
+sha1: e016c291bb44b5116b2813b8b29d939b2f7dc775
 topicBrowsingSortDate: 2018-09-07T15:08:36.959-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# About templates
+# About templates{#about-templates}
 
 About templates
 
-## Marketing activity templates
+## Marketing activity templates {#marketing-activity-templates}
 
 When you create a new marketing activity, the first screen in the wizard asks you to select a type, or template. Using this template allows you to pre-configure certain parameters according to your needs. The template may contain a full or partial configuration of the marketing activity. The template management is performed by the functional administrator.
 
@@ -75,7 +75,7 @@ These templates are managed from the **Resources** > **Templates** screen.
 >
 >Brand configuration can be pre-configured in an email or landing page template. For more information, refer to the [Branding](../../administration/using/branding.md) section.
 
-## Content templates
+## Content templates {#content-templates}
 
 You can also manage HTML contents that will be offered in the email content editing screen.
 

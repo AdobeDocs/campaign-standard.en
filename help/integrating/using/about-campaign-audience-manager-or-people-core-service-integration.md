@@ -3,7 +3,7 @@ title: About Campaign-Audience Manager or People core service integration
 seo-title: About Campaign-Audience Manager or People core service integration
 description: About Campaign-Audience Manager or People core service integration
 seo-description: With the Audience Manager / People core service integration, you can share audiences or segments within the different Adobe Experience Cloud solutions.
-uuid: 392fd8e2-f197-4554-8864-f8f4d6b81463
+uuid: 2aa83a0d-9c59-4b3e-81e4-ddb909c34f2a
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/integrating/using/about-campaign-audience-manager-or-people-core-service-integration
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 cq-template: /apps/help/templates/article-3
-discoiquuid: 1a772cd6-13ef-46ce-8213-d5e08d38c358
+discoiquuid: 3774c48e-94cd-410e-8c0c-c5d55b25acef
 firstPublishExternalDate: 2018-09-07T15:06:34.603-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,15 +32,15 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About Campaign-Audience Manager or People core service integration
 publishexternaldate: 2018-09-07T15 06 34.603-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/about-campaign-audience-manager-or-people-core-service-integration.html
-sha1: 24a3ea07040b77c9e52b169136f8410ec0d3cbb6
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/integrating/using/about-campaign-audience-manager-or-people-core-service-integration.html"
+sha1: 3903a9b3f2a7c3dff3906b873816981c84a9a14e
 topicBrowsingSortDate: 2018-09-07T15:06:34.603-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# About Campaign-Audience Manager or People core service integration
+# About Campaign-Audience Manager or People core service integration{#about-campaign-audience-manager-or-people-core-service-integration}
 
 About Campaign-Audience Manager or People core service integration
 

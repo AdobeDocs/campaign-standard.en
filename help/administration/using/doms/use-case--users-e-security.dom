@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="Use case: users &amp; security" name="jcr:description" />
-  <meta content="b643cc1c-0c90-449f-b326-1cc9de0a26c9" name="jcr:uuid" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="2018-09-10T07:23:26.777-0400" name="locHandOffDate" />
-  <meta content="fa6c2cdf-3030-4f6f-8f14-aa6064aa9107" name="jcr:predecessors" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="Use case: users &amp; security" name="jcr:title" />
-  <meta content="https://helpx.adobe.com/campaign/standard/administration/using/use-case--users-e-security.html" name="publishExternalURL" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:administration;content_type:reference;topic_tags:users-e-security" name="cq:tags" />
+  <meta content="sauviat" name="contentOwner" />
   <meta content="2018-09-07T14:41:56.889-0400" name="topicBrowsingSortDate" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="" name="jcr:primaryType" />
   <meta content="audience:administration" name="primaryAudienceTag" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="2018-09-07T14:41:58.452-0400" name="cq:lastReplicated" />
-  <meta content="2018-09-07T14:41:56.889-0400" name="firstPublishExternalDate" />
-  <meta content="light" name="heroGradient" />
-  <meta content="2018-02-16T08:05:00.426-0500" name="jcr:created" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Use case: users &amp; security" name="jcr:description" />
   <meta content="Discover access and security management through a step-by-step use case." name="seoDescription" />
   <meta content="Use case: users &amp; security" name="navTitle" />
-  <meta content="2018-09-10T07:23:26.779-0400" name="cq:lastModified" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="2018-09-07T14:41:56.889-0400" name="lastPublishExternalDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="fa6c2cdf-3030-4f6f-8f14-aa6064aa9107" name="jcr:predecessors" />
   <meta content="2018-09-07T14:41:56.889-0400" name="publishExternalDate" />
+  <meta content="2018-09-10T07:23:26.779-0400" name="cq:lastModified" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-09-10T07:23:26.777-0400" name="locHandOffDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="b643cc1c-0c90-449f-b326-1cc9de0a26c9" name="jcr:uuid" />
+  <meta content="light" name="heroGradient" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="false" name="isReadyForLocalization" />
   <meta content="en_us" name="jcr:language" />
-  <meta content="sauviat" name="contentOwner" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:administration;content_type:reference;topic_tags:users-e-security" name="cq:tags" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-09-07T14:41:58.452-0400" name="cq:lastReplicated" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="https://helpx.adobe.com/campaign/standard/administration/using/use-case--users-e-security.html" name="publishExternalURL" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-02-16T08:05:00.426-0500" name="jcr:created" />
+  <meta content="Use case: users &amp; security" name="jcr:title" />
+  <meta content="2018-09-07T14:41:56.889-0400" name="lastPublishExternalDate" />
+  <meta content="2018-09-07T14:41:56.889-0400" name="firstPublishExternalDate" />
  </head>
  <body>
   <note>

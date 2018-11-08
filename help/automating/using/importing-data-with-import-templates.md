@@ -3,7 +3,7 @@ title: Importing data with import templates
 seo-title: Importing data with import templates
 description: Importing data with import templates
 seo-description: 
-uuid: 22cc48a7-4b16-4abb-8b4d-518f84ee6cf0
+uuid: f84a4558-d97a-4c54-acc2-61b5f173fc80
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/importing-data-with-import-templates
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
 cq-template: /apps/help/templates/article-3
-discoiquuid: 2c67b38b-ba47-42a5-8f30-3892bfd7c1e0
+discoiquuid: f88ba213-e9da-4a7f-a62e-1baa1ca44830
 firstPublishExternalDate: 2018-09-07T15:09:03.228-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,15 +32,15 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Importing data with import templates
 publishexternaldate: 2018-09-07T15 09 03.228-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/importing-data-with-import-templates.html
-sha1: 305f81a15738101a975d2ff6b9aa3f1ec0ed0ec2
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/importing-data-with-import-templates.html"
+sha1: f4c7f45999b7633ce548af72b8586215ece1489a
 topicBrowsingSortDate: 2018-09-07T15:09:03.228-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Importing data with import templates
+# Importing data with import templates{#importing-data-with-import-templates}
 
 Importing data with import templates
 

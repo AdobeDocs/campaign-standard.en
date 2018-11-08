@@ -3,7 +3,7 @@ title: About Campaign integrations
 seo-title: About Campaign integrations
 description: About Campaign integrations
 seo-description: Adobe Campaign allows you to use other Adobe solutions and combine their different capabilities.
-uuid: eb3e040c-7bbc-4fac-b7b3-3ab77443548a
+uuid: 923c77be-26c5-47bf-816a-4ebb301e13f8
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/integrating/using/about-campaign-integrations
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: integrating
 content-type: reference
 topic-tags: about-campaign-integrations
 cq-template: /apps/help/templates/article-3
-discoiquuid: a42f7500-2673-471f-896c-aff2b8ff4a48
+discoiquuid: 0d6cfb78-2cc9-4fd2-b152-e54362ea5d87
 firstPublishExternalDate: 2018-09-07T14:57:02.864-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,15 +32,15 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About Campaign integrations
 publishexternaldate: 2018-09-07T14 57 02.864-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/about-campaign-integrations.html
-sha1: 4f9778f55422c1ebc5bd46c8bf5a96f21bc378da
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/integrating/using/about-campaign-integrations.html"
+sha1: 8bd1f598863288727256712a39715484aa674a12
 topicBrowsingSortDate: 2018-09-07T14:57:02.864-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# About Campaign integrations
+# About Campaign integrations{#about-campaign-integrations}
 
 About Campaign integrations
 

@@ -3,7 +3,7 @@ title: Abandonment Triggers use cases
 seo-title: Abandonment Triggers use cases
 description: Abandonment Triggers use cases
 seo-description: Learn how to use the Experience Cloud Triggers integration with these different use cases.
-uuid: 2dbe71e1-4ac2-4da4-b49c-b0f963223e3b
+uuid: dc6a0ba6-ee23-4a52-a922-2a08a55e8ade
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/integrating/using/abandonment-triggers-use-cases
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 cq-template: /apps/help/templates/article-3
-discoiquuid: a6b593a2-b894-4816-9e91-fc060b481fdd
+discoiquuid: ece0219c-ada6-4f62-8e9b-53cca6d10613
 firstPublishExternalDate: 2018-09-07T15:08:37.073-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,15 +32,15 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Abandonment Triggers use cases
 publishexternaldate: 2018-09-07T15 08 37.073-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/abandonment-triggers-use-cases.html
-sha1: 2c1e63bb81350261ba4d9f6967c837a800ad1c4c
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/integrating/using/abandonment-triggers-use-cases.html"
+sha1: 763f354460e85f26b70638f59adda569b9518fb5
 topicBrowsingSortDate: 2018-09-07T15:08:37.073-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Abandonment Triggers use cases
+# Abandonment Triggers use cases{#abandonment-triggers-use-cases}
 
 Abandonment Triggers use cases
 
@@ -53,7 +53,7 @@ This section presents different use cases that can be implemented using the inte
 >
 >The use cases described in this section rely on Experience Cloud Visitor ID. It is also possible to implement them with Experience Cloud Declared ID. Hashed and encrypted declared IDs are also supported. You can send emails/SMS to a profile which does not exist in Campaign by directly decrypting the encrypted email address/mobile number. But in this case, personalization using profile data cannot be used.
 
-## Pre-requisites
+## Pre-requisites {#pre-requisites}
 
 In order for these use cases to be implemented, you need to have access to the following solutions/core services:
 
@@ -67,11 +67,11 @@ You also need to have a working website.
 
 For more information, refer to [Configuring solutions and services](../../integrating/using/configuring-triggers-in-experience-cloud.md#configuring-solutions-and-services).
 
-## Browse abandonment Trigger
+## Browse abandonment Trigger {#browse-abandonment-trigger}
 
 In this use case, we are going to create a simple trigger that will fire every time a client abandons a visit on the website. This example assumes you already have DTM collecting and pushing data to Adobe Analytics and have all your events created.
 
-### Creating an Experience Cloud Trigger
+### Creating an Experience Cloud Trigger {#creating-an-experience-cloud-trigger}
 
 1. Select **Triggers** from the Experience Cloud Activation Core Service menu. 
 
@@ -85,7 +85,7 @@ In this use case, we are going to create a simple trigger that will fire every t
 
    ![](assets/trigger_uc_browse_3.png)
 
-### Using the trigger in Adobe Campaign
+### Using the trigger in Adobe Campaign {#using-the-trigger-in-adobe-campaign}
 
 Now that we've created an Experience Cloud Trigger, let's use it in Adobe Campaign.
 
@@ -120,7 +120,7 @@ In Adobe Campaign, you need to create a Trigger linked to the one you created in
 
    ![](assets/trigger_uc_browse_0.png)
 
-### Running the scenario
+### Running the scenario {#running-the-scenario}
 
 1. This use case starts with an initial email sent to your audience with Adobe Campaign. 
 
@@ -146,11 +146,11 @@ In Adobe Campaign, you need to create a Trigger linked to the one you created in
 
    ![](assets/trigger_uc_browse_14.png)
 
-## Search abandonment Trigger
+## Search abandonment Trigger {#search-abandonment-trigger}
 
 In this use case, we are going to create a trigger to reengage with visitors who went on our trip booking website, searched for a destination, found no successful results, and didn't book anything after that. The general process is the same as in the previous use case (see [Browse abandonment Trigger](../../integrating/using/abandonment-triggers-use-cases.md#browse-abandonment-trigger)). We will focus here on how to personalize the remarketing email message.
 
-### Creating an Experience Cloud Trigger
+### Creating an Experience Cloud Trigger {#creating-an-experience-cloud-trigger}
 
 Follow the steps described in the previous use case to create the Experience Cloud Trigger. See [Creating an Experience Cloud Trigger](../../integrating/using/abandonment-triggers-use-cases.md#creating-an-experience-cloud-trigger). The main difference is the trigger definition.
 
@@ -158,7 +158,7 @@ Follow the steps described in the previous use case to create the Experience Clo
 
 The **Include Meta Data** section allows you to pass any data collected from Analytics to the Trigger payload. In this example, we create a custom eVar (for example, eVar 3) to collect the search term the visitor enters. This term will then be used in the transactional email message sent to the same visitor.
 
-### Using the trigger in Adobe Campaign
+### Using the trigger in Adobe Campaign {#using-the-trigger-in-adobe-campaign}
 
 1. Follow the steps described in the previous use case to create the trigger in Adobe Campaign. See [Using the trigger in Adobe Campaign](../../integrating/using/abandonment-triggers-use-cases.md#using-the-trigger-in-adobe-campaign). The main difference is how we access and use, in Adobe Campaign, the meta data pushed in the Trigger payload. 
 1. In the Search Abandonment trigger you created in Adobe Campaign, click on the **Event content and enrichment** icon to view the payload pushed to Adobe Campaign.
@@ -177,7 +177,7 @@ The **Include Meta Data** section allows you to pass any data collected from Ana
 
    ![](assets/trigger_uc_search_5.png)
 
-### Running the scenario
+### Running the scenario {#running-the-scenario}
 
 1. The visitor goes on the trip booking website and searches for a destination. In this example, the visitor is looking for a trip to Japan but finds no result. This is an opportunity for us to reach back to this visitor and recommend an alternative travel plan.
 

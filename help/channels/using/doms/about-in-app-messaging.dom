@@ -1,45 +1,45 @@
 <html>
  <head>
-  <meta content="About In-App messaging" name="jcr:title" />
-  <meta content="2018-09-08T08:23:11.753-0400" name="locHandOffDate" />
-  <meta content="https://helpx-internal.corp.adobe.com/content/help/en/campaign/standard/channels/using/about-in-app-messaging.html" name="publishInternalURL" />
-  <meta content="af2f40bf-0df5-436f-b76b-b5e8904fe852" name="jcr:uuid" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="2018-10-23T18:35:28.993-0400" name="publishExternalDate" />
-  <meta content="https://helpx.adobe.com/campaign/standard/channels/using/about-in-app-messaging.html" name="publishExternalURL" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="light" name="heroGradient" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="2018-10-23T18:35:29.053-0400" name="cq:lastModified" />
-  <meta content="2018-10-23T18:35:28.993-0400" name="topicBrowsingSortDate" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="beneat" name="cq:lastModifiedBy" />
-  <meta content="beneat" name="cq:lastReplicatedBy" />
-  <meta content="2018-10-23T18:35:28.993-0400" name="publishInternalDate" />
-  <meta content="2018-09-07T15:11:59.003-0400" name="firstPublishExternalDate" />
-  <meta content="Display message or alert within the application with In-App messaging." name="seoDescription" />
-  <meta content="About In-App messaging" name="navTitle" />
-  <meta content="2018-10-23T18:35:28.993-0400" name="firstPublishInternalDate" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="2018-11-06T09:43:16.483-0500" name="jcr:created" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:channels;content_type:reference;topic_tags:in-app-messaging" name="cq:tags" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="2018-10-23T18:35:29.096-0400" name="cq:lastReplicated" />
-  <meta content="false" name="isReadyForLocalization" />
   <meta content="beneat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="About In-App messaging" name="jcr:description" />
-  <meta content="2018-10-23T18:35:28.993-0400" name="lastPublishInternalDate" />
-  <meta content="2018-10-23T18:35:28.993-0400" name="lastPublishExternalDate" />
-  <meta content="79f299fe-ef3d-4b17-acfb-d5904e4e04c1" name="jcr:predecessors" />
-  <meta content="audience:channels" name="primaryAudienceTag" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-10-23T18:35:28.993-0400" name="topicBrowsingSortDate" />
+  <meta content="https://helpx.adobe.com/campaign/standard/channels/using/about-in-app-messaging.html" name="publishExternalURL" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-10-23T18:35:28.993-0400" name="publishInternalDate" />
   <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="2018-10-23T18:35:29.096-0400" name="cq:lastReplicated" />
+  <meta content="2018-10-23T18:35:28.993-0400" name="lastPublishExternalDate" />
+  <meta content="2018-10-23T18:35:29.053-0400" name="cq:lastModified" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="79f299fe-ef3d-4b17-acfb-d5904e4e04c1" name="jcr:predecessors" />
+  <meta content="2018-09-08T08:23:11.753-0400" name="locHandOffDate" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="2018-10-23T18:35:28.993-0400" name="publishExternalDate" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="light" name="heroGradient" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-09-07T15:11:59.003-0400" name="firstPublishExternalDate" />
   <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="https://helpx-internal.corp.adobe.com/content/help/en/campaign/standard/channels/using/about-in-app-messaging.html" name="publishInternalURL" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="beneat" name="cq:lastReplicatedBy" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="af2f40bf-0df5-436f-b76b-b5e8904fe852" name="jcr:uuid" />
+  <meta content="2018-10-23T18:35:28.993-0400" name="lastPublishInternalDate" />
+  <meta content="2018-11-06T09:43:16.483-0500" name="jcr:created" />
+  <meta content="audience:channels" name="primaryAudienceTag" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-10-23T18:35:28.993-0400" name="firstPublishInternalDate" />
+  <meta content="About In-App messaging" name="jcr:description" />
+  <meta content="About In-App messaging" name="navTitle" />
+  <meta content="beneat" name="cq:lastModifiedBy" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:channels;content_type:reference;topic_tags:in-app-messaging" name="cq:tags" />
+  <meta content="About In-App messaging" name="jcr:title" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="Display message or alert within the application with In-App messaging." name="seoDescription" />
  </head>
  <body>
   <note>

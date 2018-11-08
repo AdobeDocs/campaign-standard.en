@@ -3,7 +3,7 @@ title: Push notification delivery
 seo-title: Push notification delivery
 description: Push notification delivery
 seo-description: The Push notification delivery activity allows you to configure sending a single send push notification or a recurring push notification in a workflow.
-uuid: 8de77066-44fd-4c9b-84ae-a810c4757225
+uuid: 14481297-b7c1-44e8-bc97-5c05248e7931
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/push-notification-delivery
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: channel-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: 82e52879-6f91-4d4e-88ac-212f97aa1ec3
+discoiquuid: bb73b49f-2b08-4890-b2a0-730701b9d17c
 firstPublishExternalDate: 2018-09-07T15:06:34.676-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,19 +32,19 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Push notification delivery
 publishexternaldate: 2018-09-07T15 06 34.676-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/push-notification-delivery.html
-sha1: 9e28cc10537c1bd23d8e2ca7f7ccfa928291fc2d
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/push-notification-delivery.html"
+sha1: c15f6b904465560237517f7d08c2bdadb38e04d0
 topicBrowsingSortDate: 2018-09-07T15:06:34.676-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Push notification delivery
+# Push notification delivery{#push-notification-delivery}
 
 Push notification delivery
 
-## Description
+## Description {#description}
 
 ![](assets/push.png)  ![](assets/recurrentPush.png)
 
@@ -54,7 +54,7 @@ Single send notifications are standard mobile app push notification deliveries, 
 
 Recurring notifications allow you to send the same mobile app push notification delivery multiple times to different targets over a defined period. You can aggregate the deliveries per period in order to get reports that correspond to your needs.
 
-## Context of use
+## Context of use {#context-of-use}
 
 The **Push notification** activity is generally used to automate sending a notification to a target calculated in the same workflow.
 
@@ -64,7 +64,7 @@ The recipients are defined upstream of the activity in the same workflow, via ta
 
 The message preparation is triggered according to the workflow execution parameters. From the message dashboard, you can select whether to request or not a manual confirmation to send the message (required by default). You can start the workflow manually or place a scheduler activity in the workflow to automate execution.
 
-## Configuration
+## Configuration {#configuration}
 
 1. Drag and drop a **Push notification** activity into your workflow.
 1. Select the activity, then open it using the  ![](assets/edit_darkgrey-24px.png)
@@ -98,7 +98,7 @@ When you reopen the activity, you are taken directly to the push notification da
 
 By default, starting a delivery workflow only triggers the message preparation. The sending of messages created from a workflow still needs to be confirmed after the workflow has been started. But from the message dashboard, and only if the message was created from a workflow, you can disable the **Request confirmation before sending messages** option. By unchecking this option, messages are sent without further notice once the preparation is done.
 
-## Remarks
+## Remarks {#remarks}
 
 The deliveries created within a workflow can be accessed in the application's marketing activity list. You can view the workflow's execution status using the dashboard. Links in the push notification summary pane allow you to directly access linked elements (workflow, campaign, etc.).
 
@@ -106,7 +106,7 @@ In the parent deliveries, which can be accessed from the marketing activity list
 
 .
 
-## Sending a recurring push notification with a workflow
+## Sending a recurring push notification with a workflow {#sending-a-recurring-push-notification-with-a-workflow}
 
 ![](assets/wkf_push_example_1.png)
 

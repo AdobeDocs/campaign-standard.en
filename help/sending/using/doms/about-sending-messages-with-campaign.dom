@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="light" name="heroGradient" />
-  <meta content="audience:sending" name="primaryAudienceTag" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="https://helpx.adobe.com/campaign/standard/sending/using/about-sending-messages-with-campaign.html" name="publishExternalURL" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="2018-09-07T15:11:07.518-0400" name="topicBrowsingSortDate" />
-  <meta content="en_us" name="jcr:language" />
   <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="2018-09-07T15:11:07.518-0400" name="publishExternalDate" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="About sending messages with Campaign" name="navTitle" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="2018-09-07T15:11:07.518-0400" name="firstPublishExternalDate" />
-  <meta content="2018-09-08T08:23:01.889-0400" name="cq:lastModified" />
-  <meta content="About sending messages with Campaign" name="jcr:title" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="2018-09-07T15:11:07.518-0400" name="lastPublishExternalDate" />
-  <meta content="01e793c3-f673-4f07-8b88-b62805552b78" name="jcr:predecessors" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="About sending messages with Campaign" name="jcr:description" />
-  <meta content="b78bb800-d59e-4755-847a-a35366c455a9" name="jcr:uuid" />
-  <meta content="Discover the different steps to test and send a message." name="seoDescription" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="2018-09-07T15:11:07.590-0400" name="cq:lastReplicated" />
   <meta content="2018-09-08T08:23:01.889-0400" name="locHandOffDate" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:sending;content_type:reference;topic_tags:about-sending-messages-with-campaign" name="cq:tags" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="admin" name="jcr:createdBy" />
   <meta content="2018-03-15T09:01:13.981-0400" name="jcr:created" />
+  <meta content="Discover the different steps to test and send a message." name="seoDescription" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:sending;content_type:reference;topic_tags:about-sending-messages-with-campaign" name="cq:tags" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="01e793c3-f673-4f07-8b88-b62805552b78" name="jcr:predecessors" />
+  <meta content="https://helpx.adobe.com/campaign/standard/sending/using/about-sending-messages-with-campaign.html" name="publishExternalURL" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-09-07T15:11:07.518-0400" name="publishExternalDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-09-07T15:11:07.590-0400" name="cq:lastReplicated" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="About sending messages with Campaign" name="jcr:title" />
+  <meta content="2018-09-07T15:11:07.518-0400" name="lastPublishExternalDate" />
+  <meta content="audience:sending" name="primaryAudienceTag" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="light" name="heroGradient" />
+  <meta content="About sending messages with Campaign" name="jcr:description" />
+  <meta content="2018-09-07T15:11:07.518-0400" name="topicBrowsingSortDate" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="About sending messages with Campaign" name="navTitle" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="2018-09-08T08:23:01.889-0400" name="cq:lastModified" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="b78bb800-d59e-4755-847a-a35366c455a9" name="jcr:uuid" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-09-07T15:11:07.518-0400" name="firstPublishExternalDate" />
  </head>
  <body>
   <p>Once you have defined the target and created the content of a message, you need to test it and to approve it before sending it to the main target. To do this: </p> 

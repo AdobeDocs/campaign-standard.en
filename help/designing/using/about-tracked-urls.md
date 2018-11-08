@@ -3,7 +3,7 @@ title: About tracked URLs
 seo-title: About tracked URLs
 description: About tracked URLs
 seo-description: Learn how to manage all the URLs of your content that will be tracked.
-uuid: df9adcd4-b173-4100-ac17-0e17ea7ee29e
+uuid: 698856a8-5d76-457f-b172-cabc8a9c942b
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/about-tracked-urls
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: managing-links
 cq-template: /apps/help/templates/article-3
-discoiquuid: d6b78b36-22dc-4623-96a9-0cff625514ac
+discoiquuid: c9a51a5d-dc3e-4456-b378-df1e7e403b9b
 firstPublishExternalDate: 2018-09-07T15:07:51.085-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,15 +32,15 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About tracked URLs
 publishexternaldate: 2018-09-07T15 07 51.085-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/about-tracked-urls.html
-sha1: cb808b05e8db800599d3d62e391a56d94c0b06fb
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/designing/using/about-tracked-urls.html"
+sha1: c5ecfba17358b999c496aa3f0edf95c302976ae2
 topicBrowsingSortDate: 2018-09-07T15:07:51.085-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# About tracked URLs
+# About tracked URLs{#about-tracked-urls}
 
 About tracked URLs
 

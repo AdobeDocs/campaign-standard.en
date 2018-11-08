@@ -3,7 +3,7 @@ title: Configuring Campaign-Points of Interest data integration
 seo-title: Configuring Campaign-Points of Interest data integration
 description: Configuring Campaign-Points of Interest data integration
 seo-description: Learn how to configure the Points of Interest data feature in Adobe Campaign to send personalized messages based on your subscribers' location.
-uuid: eb8a3471-c416-4d4e-a0a5-0075617ac67c
+uuid: d8ff8d70-f7cc-4f0f-acc1-2f62fa8e5e40
 content-encoding: UTF-8
 aemsrcnodepath: /content/help/en/campaign/standard/integrating/using/configuring-campaign-points-of-interest-data-integration
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
 cq-template: /apps/help/templates/article-3
-discoiquuid: 4e718788-7f07-4c63-bae9-a81e1be6bdda
+discoiquuid: c2de3d6d-fe2e-437f-9ea8-d536381bca3e
 firstPublishExternalDate: 2018-09-07T15:08:00.347-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,15 +32,15 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Configuring Campaign-Points of Interest data integration
 publishexternaldate: 2018-09-07T15 08 00.347-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/configuring-campaign-points-of-interest-data-integration.html
-sha1: 3fd403e8210b5ddf4c3224f9762c0fd2e2d2b25a
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/integrating/using/configuring-campaign-points-of-interest-data-integration.html"
+sha1: 8a8edebfbd041e8d5738705d1ba4bd93cc3651da
 topicBrowsingSortDate: 2018-09-07T15:08:00.347-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Configuring Campaign-Points of Interest data integration
+# Configuring Campaign-Points of Interest data integration{#configuring-campaign-points-of-interest-data-integration}
 
 Configuring Campaign-Points of Interest data integration
 
@@ -60,7 +60,7 @@ To use the Point of Interest data feature, you need to:
 1. Define the data that you want to collect from your mobile application's subscribers. See [Collecting subscribers' Points of interest data](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#collecting-subscribers--points-of-interest-data).
 1. Make sure you access the mobile application and the collected location data in Adobe Campaign. See [Accessing mobile apps used to collect location data](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#accessing-mobile-apps-used-to-collect-location-data) and [Accessing collected location data](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#accessing-collected-location-data).
 
-## Setting up a mobile app in Campaign
+## Setting up a mobile app in Campaign {#setting-up-a-mobile-app-in-campaign}
 
 To be able to collect Points of interest data with Adobe Campaign, you must configure the mobile application which Adobe Campaign will be receiving data from.
 
@@ -79,7 +79,7 @@ You can now use these values in Adobe Mobile Services to finish the configuratio
 
 ![](assets/POI_mobile_app_properties.png) 
 
-## Configuring a mobile app in Adobe Mobile Services
+## Configuring a mobile app in Adobe Mobile Services {#configuring-a-mobile-app-in-adobe-mobile-services}
 
 To send the data collected by Adobe Mobile Services to Adobe Campaign, you must configure postbacks in the Mobile Services interface.
 
@@ -172,13 +172,13 @@ You must have access to Adobe Analytics to do the following configuration. If yo
 >
 >For detailed information on configuring postbacks, refer to the [Adobe Mobile Services documentation](https://marketing.adobe.com/resources/help/en_US/mobile/signals_.html).
 
-## Integrating the SDK into a mobile application
+## Integrating the SDK into a mobile application {#integrating-the-sdk-into-a-mobile-application}
 
 The Mobile core service’s software development kit (SDK) facilitates the integration of a mobile application into Adobe Campaign.
 
 This step is described in the [Administrating guide](../../administration/using/configuring-a-mobile-application-using-sdk-v4.md#integrating-the-sdk-into-a-mobile-application).
 
-## Defining Points of Interest in Adobe Mobile Services
+## Defining Points of Interest in Adobe Mobile Services {#defining-points-of-interest-in-adobe-mobile-services}
 
 To define the Points of Interest that are used to collect location data:
 
@@ -191,13 +191,13 @@ To define the Points of Interest that are used to collect location data:
 
    For more information on managing Points of Interest, refer to the [Adobe Mobile Services documentation](https://marketing.adobe.com/resources/help/en_US/mobile/t_manage_points.html).
 
-## Collecting subscribers' Points of interest data
+## Collecting subscribers' Points of interest data {#collecting-subscribers-points-of-interest-data}
 
 A specific custom resource enables you to define the data that you want to collect from your applications' subscribers.
 
 This step is described in the [Administrating guide](../../administration/using/configuring-a-mobile-application-using-sdk-v4.md#collecting-subscribers--data-from-a-mobile-application).
 
-## Accessing mobile apps used to collect location data
+## Accessing mobile apps used to collect location data {#accessing-mobile-apps-used-to-collect-location-data}
 
 To access the successfully created applications in Adobe Campaign:
 
@@ -209,7 +209,7 @@ To access the successfully created applications in Adobe Campaign:
 
 A list of the application's subscribers is also displayed. The subscribers are all of the users who have installed the application on their mobile device. The Adobe Campaign database profiles are identified with a registration token.
 
-## Accessing collected location data
+## Accessing collected location data {#accessing-collected-location-data}
 
 Once the setup is done, the collected Points of Interest data is listed in the **Places** tab of each profile. To access the list:
 

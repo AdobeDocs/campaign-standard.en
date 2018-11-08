@@ -3,7 +3,7 @@ title: Follow-up messages
 seo-title: Follow-up messages
 description: Follow-up messages
 seo-description: Learn how to create and publish a follow-up message.
-uuid: bef95803-c79b-4532-bb34-8b862b0fafc1
+uuid: 8baebb40-5f63-4f6d-a0ef-aa88f2adb625
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/follow-up-messages
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 cq-template: /apps/help/templates/article-3
-discoiquuid: 8e36849d-3504-42f3-a1db-8318c0ce49e8
+discoiquuid: d0fc5dae-4e8b-43a6-9abb-5b600442cd01
 firstPublishExternalDate: 2018-09-07T15:12:32.944-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,15 +32,15 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Follow-up messages
 publishexternaldate: 2018-09-07T15 12 32.944-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/follow-up-messages.html
-sha1: e519926221e3b4f685c11c1aa6a42ddb72591197
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/channels/using/follow-up-messages.html"
+sha1: b3279c2d2e1e782e4347d07ed0e7aef168e90d51
 topicBrowsingSortDate: 2018-09-07T15:12:32.944-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Follow-up messages
+# Follow-up messages{#follow-up-messages}
 
 Follow-up messages
 
@@ -52,7 +52,7 @@ You want to send a friendly reminder to all of the customers who received the ca
 
 Each concerned customer will then receive a follow-up message based on the same data that was used in the first email that was sent.
 
-## Accessing the follow-up messages
+## Accessing the follow-up messages {#accessing-the-follow-up-messages}
 
 Once you have created and published an event (the cart abandonment as per the [example](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) above), the corresponding transactional message and follow-up message are created automatically.
 
@@ -74,7 +74,7 @@ Only the follow-up messages are displayed.
 >
 >To access the transactional messages, you must have administration rights or appear in the **Message Center agents** (mcExec) security group.
 
-## Sending a follow-up message
+## Sending a follow-up message {#sending-a-follow-up-message}
 
 Once you created the follow-up delivery template, you can use it in a workflow to send a follow-up message.
 

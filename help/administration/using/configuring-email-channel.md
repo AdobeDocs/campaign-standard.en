@@ -3,7 +3,7 @@ title: Configuring email channel
 seo-title: Configuring email channel
 description: Configuring email channel
 seo-description: Learn how to configure the email channel.
-uuid: ea2e3612-8a94-43f5-82a8-8b3c8f4dc99d
+uuid: d2437ec6-49f8-4133-84b6-1b84dcc2c39b
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/configuring-email-channel
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 cq-template: /apps/help/templates/article-3
-discoiquuid: 3f8b7c7e-7b65-42ca-ab70-c4ab6b273421
+discoiquuid: 59f5d7d5-f6af-4bd3-a535-9dc71316fe00
 firstPublishExternalDate: 2018-09-07T14:43:28.687-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,21 +32,21 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Configuring email channel
 publishexternaldate: 2018-09-07T14 43 28.687-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/configuring-email-channel.html
-sha1: 57d61fcf39b38b901d02d6c0ededa3ee783715ae
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/administration/using/configuring-email-channel.html"
+sha1: 5b7db4660f4f9ae70c976dc5397c75fbf9c6193b
 topicBrowsingSortDate: 2018-09-07T14:43:28.687-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Configuring email channel
+# Configuring email channel{#configuring-email-channel}
 
 Configuring email channel
 
-## Configuring the email channel
+## Configuring the email channel {#configuring-the-email-channel}
 
-### List of email channel parameters
+### List of email channel parameters {#list-of-email-channel-parameters}
 
 The email configuration screen allows you to define the parameters for the email messaging channel.
 
@@ -84,7 +84,7 @@ Configuration options for quarantines are as follows:
 
 [Understanding quarantine management](../../sending/using/understanding-quarantine-management.md)
 
-### Email routing accounts
+### Email routing accounts {#email-routing-accounts}
 
 The **Integrated email routing** external account is provided by default. It contains the technical parameters that allow the application to send emails.
 
@@ -98,7 +98,7 @@ The account type must always be set to **Routing**, the channel to **Email** and
 
 [External accounts](../../administration/using/external-accounts.md)
 
-### Email processing rules
+### Email processing rules {#email-processing-rules}
 
 These rules contain the list of character strings which can be returned by remote servers and which let you qualify the error (**Hard**, **Soft** or **Ignored**).
 
@@ -164,7 +164,7 @@ The following parameters are available for each rule:
 >* The modification or creation of management rules is for expert users only. 
 >
 
-## List of email properties
+## List of email properties {#list-of-email-properties}
 
 This section details the list of parameters available in the properties screen of an email or email template. Managing templates is detailed in the [Managing templates](../../start/using/about-templates.md) section.
 
@@ -176,7 +176,7 @@ To edit the properties of an email or an email template, use the **Edit properti
 
 ![](assets/delivery_options_1.png)
 
-### List of email general parameters
+### List of email general parameters {#list-of-email-general-parameters}
 
 The general parameters are:
 
@@ -194,11 +194,11 @@ The **Campaign** field allows you to enter the campaign linked to the email.
 
 You can also add a **Description** in the corresponding field and edit the image displayed on the email thumbnail in the lists.
 
-### List of email sending parameters
+### List of email sending parameters {#list-of-email-sending-parameters}
 
 The **Send** section contains the following parameters:
 
-#### Retries parameters
+#### Retries parameters {#retries-parameters}
 
 Temporarily undelivered messages are subject to an automatic retry. See [Retries after a delivery failure](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-failure). This section indicates how many retries should be performed the day after the send is started (**Max. number of retries**) and the minimum delay between retries (**Retry period**).
 
@@ -206,7 +206,7 @@ By default, five retries are scheduled for the first day with a minimum interval
 
 The **Test SMTP delivery** option allows you to test sending messages via SMTP. The messages are processed up until connection with the SMTP server is achieved, but they are not sent. For more information on configuring SMTP, refer to the [List of email SMTP parameters](../../administration/using/configuring-email-channel.md#list-of-email-smtp-parameters) section.
 
-#### Email format parameters
+#### Email format parameters {#email-format-parameters}
 
 You can configure the format of emails to be sent. There are three options available:
 
@@ -219,7 +219,7 @@ You can configure the format of emails to be sent. There are three options avail
 
 * **Send all messages in text format**: the message is sent in text format. HTML format will not be sent, but used for the mirror page only when the recipient clicks the link in the message.
 
-### List of email validity period parameters
+### List of email validity period parameters {#list-of-email-validity-period-parameters}
 
 The **Validity** section contains the following parameters:
 
@@ -237,7 +237,7 @@ The **Validity** section contains the following parameters:
     * **Do not generate the mirror page**: no mirror page is generated, even if the link is in the messages. 
     * **Generate a mirror page accessible using only the message ID**: this option lets you access the content of the mirror page, with personalization information, in the delivery log window.
 
-### List of email tracking parameters
+### List of email tracking parameters {#list-of-email-tracking-parameters}
 
 The **Tracking** section contains the following parameters:
 
@@ -245,17 +245,17 @@ The **Tracking** section contains the following parameters:
 * **Tracking validity limit**: allows you to define the duration for which the tracking will be activated on the URLs.
 * **Substitution URL for expired URLs**: you can enter a URL to a web page that will be displayed once the tracking has expired.
 
-### List of email advanced parameters
+### List of email advanced parameters {#list-of-email-advanced-parameters}
 
 The **Advanced parameters** section contains multiple parameters.
 
 The first two fields allow you to enter information necessary to elaborate email message headers (reply address and reply address text). This information can be personalized. To do this, click the button to the right of the field that is going to be changed, then add the personalization fields. Inserting and using the personalization fields is detailed in the [Inserting a personalization field](../../designing/using/inserting-a-personalization-field.md) section.
 
-#### Target context
+#### Target context {#target-context}
 
 The targeting context allows you to define a set of tables that will be used for email targeting (in the audience definition screen) and personalization (defining personalization fields in the HTML content editor).
 
-#### Routing
+#### Routing {#routing}
 
 This field indicates the routing mode used. It references an external account. For example, this can be used if you would like to use an external account containing specific branding configurations.
 
@@ -263,7 +263,7 @@ This field indicates the routing mode used. It references an external account. F
 >
 >External accounts are accessible via the **Administration** > **Application settings** > **External accounts** menu.
 
-#### Preparation
+#### Preparation {#preparation}
 
 Preparing messages is detailed in the [Approving messages](../../sending/using/preparing-the-send.md) section.
 
@@ -276,7 +276,7 @@ Preparing messages is detailed in the [Approving messages](../../sending/using/p
 * **Compute the label during delivery analysis**: allows you to calculate the label value of the email during the message preparation phase. 
 * **Save SQL queries in the log**: this option allows you to add SQL query logs in the journal during the preparation phase.
 
-### List of email SMTP parameters
+### List of email SMTP parameters {#list-of-email-smtp-parameters}
 
 The **SMTP** section contains the following parameters:
 
@@ -288,7 +288,7 @@ The **SMTP** section contains the following parameters:
   >
   >Adding a script for inserting additional SMTP headers is reserved for advanced users. The syntax of this script must comply with the requirements of this content type: no unused space, no empty line, etc.
 
-### List of access authorization parameters
+### List of access authorization parameters {#list-of-access-authorization-parameters}
 
 The **Access authorization** section contains the following parameters:
 
@@ -300,7 +300,7 @@ The **Access authorization** section contains the following parameters:
 
 * The **Created by**, **Created**, **Modified by** and **Last modified** fields are automatically completed.
 
-## Email BCC
+## Email BCC {#email-bcc}
 
 Emails sent by Adobe Campaign can be stored on an external system through BCC. When activated in the delivery template, this feature allows you to send an exact copy of the corresponding sent messages to a BCC email address.
 

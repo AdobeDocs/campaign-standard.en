@@ -3,7 +3,7 @@ title: Integrating with Experience Manager
 seo-title: Integrating with Experience Manager
 description: Integrating with Experience Manager
 seo-description: With the Adobe Experience Manager integration, you can create content directly in AEM and use it later on in Adobe Campaign.
-uuid: 90fd8844-f205-4810-a2b4-63f1a991f751
+uuid: 4eaa5dde-ee4a-4609-bae7-21b4a29ba79e
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/integrating/using/integrating-with-experience-manager
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
 cq-template: /apps/help/templates/article-3
-discoiquuid: f80ca6c0-0646-4e7f-988f-5122c453b5aa
+discoiquuid: a3a521a9-3c10-4ba3-b1a2-47b23323b171
 firstPublishExternalDate: 2018-09-07T14:58:33.418-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,15 +32,15 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Integrating with Experience Manager
 publishexternaldate: 2018-09-07T14 58 33.418-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/integrating-with-experience-manager.html
-sha1: 295c9e715837205be236c3fe18c5a0b089e208b6
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/integrating/using/integrating-with-experience-manager.html"
+sha1: afead9842842f7385576628c0e0f0ad4fe4d9937
 topicBrowsingSortDate: 2018-09-07T14:58:33.418-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Integrating with Experience Manager
+# Integrating with Experience Manager{#integrating-with-experience-manager}
 
 Integrating with Experience Manager
 
@@ -54,7 +54,7 @@ You can therefore make the most of the Adobe Experience Manager content editing 
 
 Adobe Campaign Standard is compatible with Adobe Experience Manager 6.1, 6.2, 6.3 and 6.4. The following sections present an overview of the actions you can execute. For more information, refer to the sections dedicated to [configuration](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignstandard.html) and the [use](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/campaign.html) of the integration.
 
-## Prerequisites
+## Prerequisites {#prerequisites}
 
 You should make sure you have the following elements beforehand:
 
@@ -62,7 +62,7 @@ You should make sure you have the following elements beforehand:
 * An Adobe Experience Manager **publishing** instance
 * An Adobe Campaign instance
 
-## Use case
+## Use case {#use-case}
 
 To create an email content in Adobe Experience Manager:
 
@@ -82,7 +82,7 @@ To retrieve the content in Adobe Campaign:
 
 ![](assets/aem_linked_content.png)
 
-## Configuration
+## Configuration {#configuration}
 
 To use these two solutions together, you must configure them to connect to one another.
 

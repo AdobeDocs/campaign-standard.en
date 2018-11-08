@@ -3,7 +3,7 @@ title: Previewing messages
 seo-title: Previewing messages
 description: Previewing messages
 seo-description: Learn how to preview a message in the content editor or in the Creative Designer.
-uuid: 4f8d8faf-a85c-4bcb-b757-30c4acee53b3
+uuid: 15b67f78-874f-4ace-be10-ece403193109
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/sending/using/previewing-messages
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 cq-template: /apps/help/templates/article-3
-discoiquuid: 963dd156-f3b4-475c-86bc-24ab305ba394
+discoiquuid: d55970b9-cb2c-483b-b0d5-b38afefdf2c4
 firstPublishExternalDate: 2018-09-07T15:11:10.541-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,21 +32,21 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Previewing messages
 publishexternaldate: 2018-09-07T15 11 10.541-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/sending/using/previewing-messages.html
-sha1: f9cceab1da75d39e6df9d2ce205cbe41ae3870b3
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/sending/using/previewing-messages.html"
+sha1: a574e75e0602f4688c697b649b4ba92b17493194
 topicBrowsingSortDate: 2018-09-07T15:11:10.541-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Previewing messages
+# Previewing messages{#previewing-messages}
 
 Previewing messages
 
 After adding test profiles in the **Audience** window, you can preview your message to check its personalization and how your recipients will see your delivery.
 
-## Previewing messages with the content editor
+## Previewing messages with the content editor {#previewing-messages-with-the-content-editor}
 
 In the [content editor](../../designing/using/about-email-content-design.md#using-the-email-content-editor), preview is available in HTML and text format.
 
@@ -69,7 +69,7 @@ For emails, an automatic anti-spam checking is performed during each preview. Cl
 
 Once the personalization is finished, your delivery is ready to be sent to your recipients.
 
-## Previewing messages with the Creative Designer
+## Previewing messages with the Creative Designer {#previewing-messages-with-the-creative-designer}
 
 1. In the [Creative Designer](../../designing/using/about-email-content-design.md#using-the-creative-designer), click the **Preview** button.
 

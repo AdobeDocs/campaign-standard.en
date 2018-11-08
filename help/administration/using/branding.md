@@ -3,7 +3,7 @@ title: Branding
 seo-title: Branding
 description: Branding
 seo-description: Discover all the tools available to manage your branding identities.
-uuid: 7f49ac09-02b4-41f6-8b96-da34a1aa63d8
+uuid: bb5472cc-04bd-45da-b369-3c4a80046a27
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/branding
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 cq-template: /apps/help/templates/article-3
-discoiquuid: 9af4d9e5-33ea-46b5-b805-8079a9849f55
+discoiquuid: 127ada48-aa8f-42c8-9740-aef8cd0483b4
 firstPublishExternalDate: 2018-09-07T15:05:02.482-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,15 +32,15 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Branding
 publishexternaldate: 2018-09-07T15 05 02.482-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/branding.html
-sha1: 5cb2bdfbda5c945805cd7931aa5c0249925190d3
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/administration/using/branding.html"
+sha1: 1a4061c5d5dcd50b0677128970c82578cec5157f
 topicBrowsingSortDate: 2018-09-07T15:05:02.482-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Branding
+# Branding{#branding}
 
 Branding
 
@@ -95,11 +95,11 @@ A **Brand** is defined by the following characteristics:
 
   ![](assets/branding_05.png)
 
-## Assigning a brand to an email
+## Assigning a brand to an email {#assigning-a-brand-to-an-email}
 
 Brands are created and configured by the Adobe Campaign technical administrator.
 
-### Linking a brand to a template
+### Linking a brand to a template {#linking-a-brand-to-a-template}
 
 To use the parameters defined for a brand, it must be linked to a delivery or landing page template. To do this, you have to create or edit a template.
 
@@ -129,7 +129,7 @@ Once your template has been created, you can link it to a brand. To do this:
 
 Your template is linked to the brand. In the content editor, the elements such as the **Email address of default sender**, the **Default sender name**, or the **Logo** will use the configured brand data.
 
-### Example of a brand linked to an email template
+### Example of a brand linked to an email template {#example-of-a-brand-linked-to-an-email-template}
 
 In this example, we are going to create a new travel-related brand, and use it in an email.
 

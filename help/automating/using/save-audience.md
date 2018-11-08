@@ -3,7 +3,7 @@ title: Save audience
 seo-title: Save audience
 description: Save audience
 seo-description: The Save audience activity allows you to update an existing audience or create a new audience from the population computed upstream in a workflow.
-uuid: b10a165a-a5cb-46a0-9ade-fbbf13384d1c
+uuid: 4169f404-61a2-483a-918c-dca1508d272d
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/save-audience
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: 4fab1221-a4dd-40c1-9025-346d9f602557
+discoiquuid: 6ce76186-ebec-4f25-9fe1-80449812d4f2
 firstPublishExternalDate: 2018-09-07T14:55:37.743-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,19 +32,19 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Save audience
 publishexternaldate: 2018-09-07T14 55 37.743-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/save-audience.html
-sha1: 25ea1e155420c8ab8689604dd6a947512d96a94f
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/save-audience.html"
+sha1: 4e88c5dda5b71fe69ae2d3d3a1a7e05e07ba9929
 topicBrowsingSortDate: 2018-09-07T14:55:37.743-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Save audience
+# Save audience{#save-audience}
 
 Save audience
 
-## Description
+## Description {#description}
 
 ![](assets/save_audience.png)
 
@@ -52,11 +52,11 @@ The **Save audience** activity allows you to update an existing audience or crea
 
 This activity also allows you to export profiles as Adobe Experience Cloud audiences/segments. This then allows you to exploit these audiences in other Adobe Experience Cloud solutions. For more information about shared audiences, refer to [Working with Campaign and People Core Service](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md).
 
-## Context of use
+## Context of use {#context-of-use}
 
 The **Save audience** activity is essentially used to keep population groups computed in the same workflow, by converting them into reusable audiences.
 
-## Configuration
+## Configuration {#configuration}
 
 1. Drop a **Save audience** activity into your workflow.
 1. Connect it after the other targeting activities such as a query, an intersection, a union, or an exclusion.
@@ -101,7 +101,7 @@ The **Save audience** activity is essentially used to keep population groups com
 
 1. Confirm the configuration of your activity and save your workflow.
 
-## Example
+## Example {#example}
 
 The workflow defined in this example shows a regular audience update from targeting:
 

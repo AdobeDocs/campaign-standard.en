@@ -3,7 +3,7 @@ title: Control rules
 seo-title: Control rules
 description: Control rules
 seo-description: Learn how to reinforce the quality check of your messages with control rules.
-uuid: a1ac5004-5b14-4e8c-a7a9-bf8c8951a8ea
+uuid: 23592e58-2d44-43e7-a04a-c21e0f969904
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/control-rules
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
 cq-template: /apps/help/templates/article-3
-discoiquuid: 02feb02c-92fa-4cf9-a3f0-08edd8da90d3
+discoiquuid: c096c7b1-5fa4-4fb8-a35a-a184de2a232c
 firstPublishExternalDate: 2018-09-07T15:01:15.354-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,15 +32,15 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Control rules
 publishexternaldate: 2018-09-07T15 01 15.354-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/control-rules.html
-sha1: a7a9d935f714ddb3f2958eb63e627aab758ca9c1
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/administration/using/control-rules.html"
+sha1: ffeb400307a6fe7991d5fb13e02193d0aa3a2b64
 topicBrowsingSortDate: 2018-09-07T15:01:15.354-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Control rules
+# Control rules{#control-rules}
 
 Control rules
 

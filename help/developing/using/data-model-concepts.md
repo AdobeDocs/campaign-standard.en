@@ -3,7 +3,7 @@ title: Data model concepts
 seo-title: Data model concepts
 description: Data model concepts
 seo-description: 
-uuid: 57445df2-d65a-4819-9156-84ccf7780581
+uuid: d323cd52-7b0e-4d23-8e38-01ce58760827
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/developing/using/data-model-concepts
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: developing
 content-type: reference
 topic-tags: about-custom-resources
 cq-template: /apps/help/templates/article-3
-discoiquuid: dac98177-b1a5-44eb-b2e5-be6377c42025
+discoiquuid: 2b9c2d60-16f8-49cb-868e-0de6c624c547
 firstPublishExternalDate: 2018-09-07T14:48:12.669-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,15 +32,15 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Data model concepts
 publishexternaldate: 2018-09-07T14 48 12.669-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/data-model-concepts.html
-sha1: 8b6db07c565e08061ac72a2c00df58a28e4947f7
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/developing/using/data-model-concepts.html"
+sha1: 7b1932b71f4cf06efe20de793083053296fe7a51
 topicBrowsingSortDate: 2018-09-07T14:48:12.669-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Data model concepts
+# Data model concepts{#data-model-concepts}
 
 Data model concepts
 

@@ -3,7 +3,7 @@ title: Managing landing page structure and style
 seo-title: Managing landing page structure and style
 description: Managing landing page structure and style
 seo-description: Learn how to manage the different HTML content elements and overall styling in a landing page.
-uuid: c5555465-20c2-44bd-88ee-c25481456a0e
+uuid: 53261daa-da58-4c89-8103-247740e06861
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/managing-landing-page-structure-and-style
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-landing-page-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: f45a9257-9925-4e0d-96ce-880554e45098
+discoiquuid: 87de8e88-832e-469b-af0d-ab32f033d64a
 firstPublishExternalDate: 2018-09-07T14:51:18.148-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,19 +32,19 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Managing landing page structure and style
 publishexternaldate: 2018-09-07T14 51 18.148-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/managing-landing-page-structure-and-style.html
-sha1: 93a8003285b6a02bfed595f1e7c64d9132d31493
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/designing/using/managing-landing-page-structure-and-style.html"
+sha1: ab28d0a744b151141675f3eb228d475eaa528410
 topicBrowsingSortDate: 2018-09-07T14:51:18.148-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Managing landing page structure and style
+# Managing landing page structure and style{#managing-landing-page-structure-and-style}
 
 Managing landing page structure and style
 
-## Managing blocks in the content editor
+## Managing blocks in the content editor {#managing-blocks-in-the-content-editor}
 
 The different HTML content elements are displayed in the landing page as blocks, corresponding to the ****
 
@@ -70,7 +70,7 @@ The parameters defined for an element in a block (links, personalization fields,
 
 ![](assets/des_lp_content_4.png) 
 
-## Adding a border and a background in the content editor
+## Adding a border and a background in the content editor {#adding-a-border-and-a-background-in-the-content-editor}
 
 You can also define a **background color** by selecting a color from the chart. This color is applied to the selected block.
 
@@ -80,7 +80,7 @@ You can add a **border** to the selected block.
 
 ![](assets/des_lp_content_6.png) 
 
-## Changing the text style in the content editor
+## Changing the text style in the content editor {#changing-the-text-style-in-the-content-editor}
 
 To change the style of the text, you have to click inside a text block.
 

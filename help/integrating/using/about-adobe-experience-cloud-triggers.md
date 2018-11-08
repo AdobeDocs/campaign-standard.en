@@ -3,7 +3,7 @@ title: About Adobe Experience Cloud Triggers
 seo-title: About Adobe Experience Cloud Triggers
 description: About Adobe Experience Cloud Triggers
 seo-description: By tracking specific behaviors from customers with Adobe Analytics, you can now send personalized emails to your customers in Adobe Campaign.
-uuid: 74b45155-51ba-4f15-b415-43259f55cb85
+uuid: 3d71a4f0-ed86-449c-aba4-10cd367bb3be
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/integrating/using/about-adobe-experience-cloud-triggers
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 cq-template: /apps/help/templates/article-3
-discoiquuid: 225e60ea-ac95-4128-b663-c32e05d5cd86
+discoiquuid: 3d29cca8-2508-45d8-bb38-36a523c8da42
 firstPublishExternalDate: 2018-09-07T15:08:14.015-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,15 +32,15 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About Adobe Experience Cloud Triggers
 publishexternaldate: 2018-09-07T15 08 14.015-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/about-adobe-experience-cloud-triggers.html
-sha1: bb9d97e92a14d087d18daf871265f828a6da2104
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/integrating/using/about-adobe-experience-cloud-triggers.html"
+sha1: 8fb02a4d9a234d12cbbc39862dbdb9a404ac6a08
 topicBrowsingSortDate: 2018-09-07T15:08:14.015-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# About Adobe Experience Cloud Triggers
+# About Adobe Experience Cloud Triggers{#about-adobe-experience-cloud-triggers}
 
 About Adobe Experience Cloud Triggers
 
@@ -56,7 +56,7 @@ Related topics:
 * Watch the [Trigger Remarketing Messages based on Site Activity](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two) video.
 * Discover our two [Abandonment Triggers use cases](../../integrating/using/abandonment-triggers-use-cases.md).
 
-## Triggers user process
+## Triggers user process {#triggers-user-process}
 
 >[!CAUTION]
 >
@@ -72,7 +72,7 @@ The main steps of the user process, in Adobe Campaign, are:
 
 Complete use cases are described in [this section](../../integrating/using/abandonment-triggers-use-cases.md).
 
-## Important notes
+## Important notes {#important-notes}
 
 Here are some important notes to take into account before using the Triggers - Campaign integration:
 

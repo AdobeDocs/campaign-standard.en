@@ -3,7 +3,7 @@ title: Executing a workflow
 seo-title: Executing a workflow
 description: Executing a workflow
 seo-description: Learn how to execute and monitor a workflow.
-uuid: 97acb055-b1e4-4dd9-b252-2d890be45876
+uuid: cdd9ff0d-a7e9-481e-994c-d80e29263c5a
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/executing-a-workflow
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 cq-template: /apps/help/templates/article-3
-discoiquuid: 29c355cf-a855-4d84-9b69-ca34d6e2181c
+discoiquuid: 3651f3f9-ca23-49da-8973-02655ef826f0
 firstPublishExternalDate: 2018-09-07T14:49:16.581-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,19 +32,19 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Executing a workflow
 publishexternaldate: 2018-09-07T14 49 16.581-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/executing-a-workflow.html
-sha1: f258bbd38090b34dbeafd5a35623180b9072e84f
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/executing-a-workflow.html"
+sha1: bd85ab2b6b17628bc27f19e046cb9103d0c66764
 topicBrowsingSortDate: 2018-09-07T14:49:16.581-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Executing a workflow
+# Executing a workflow{#executing-a-workflow}
 
 Executing a workflow
 
-## About workflow execution
+## About workflow execution {#about-workflow-execution}
 
 A workflow is always started manually. However, once started, it can remain inactive, depending on the information specified in a [Scheduler](../../automating/using/scheduler.md) activity.
 
@@ -78,13 +78,13 @@ By default, only the details of the last transition of the workflow can be acces
 
 When a transition is open, you can edit its **Label** or link a **Segment code** to it. To do this, edit the corresponding fields and confirm your modifications.
 
-## Controlling a workflow from the REST API
+## Controlling a workflow from the REST API {#controlling-a-workflow-from-the-rest-api}
 
 Using the REST API, you can **start**, **pause**, **resume** and **stop** a workflow.
 
 You can find more details and examples of REST calls in the [API documentation.](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#controlling-a-workflow)
 
-## Life cycle
+## Life cycle {#life-cycle}
 
 A workflow's life cycle includes three main steps and each step is linked to a status and a color:
 
@@ -116,7 +116,7 @@ The list of marketing activities allows you to display all the workflows as well
 
 ![](assets/wkf_execution_3.png)
 
-## Execution commands
+## Execution commands {#execution-commands}
 
 The icons in the action bar allow you to start, track, and modify a workflow's execution. See [Action bar](../../automating/using/workflow-interface.md#action-bar).
 
@@ -176,7 +176,7 @@ button deactivates any selected activities.
 >
 >Quick actions let you access different actions concerning one particular activity and appear when an activity is selected.
 
-## Monitoring
+## Monitoring {#monitoring}
 
 The  ![](assets/PrintPreview_darkgrey-24px.png)
 
@@ -200,7 +200,7 @@ In these two lists:
 * The **Configure list** button allows you to choose the information displayed, define the column order, and sort the list.
 * You can use filters to find the information you need quicker. Use the search field to look for a specific text in workflow activity names (for example: "query") and logs.
 
-## Error management
+## Error management {#error-management}
 
 When an error occurs, the workflow is paused and the activity that was being executed when the error was encountered flashes red.
 
@@ -218,7 +218,7 @@ The **Execution** section of the workflow properties also allows you to define a
 
 The supervisors can also be defined in the execution properties of the workflow.
 
-## Workflow properties
+## Workflow properties {#workflow-properties}
 
 To modify a workflow's execution options, use the  ![](assets/edit_darkgrey-24px.png) button to access the workflow properties and select the **Execution** section.
 
@@ -246,13 +246,13 @@ The **In case of error** field allows you to specify the action to be carried ou
 
 ![](assets/wkf_execution_6.png)
 
-## Activity properties
+## Activity properties {#activity-properties}
 
-### General properties of an activity
+### General properties of an activity {#general-properties-of-an-activity}
 
 Each activity has a **Properties** tab. This tab allows you to modify the activity's general parameters, particularly the label and the ID. Configuring this tab is optional.
 
-### Managing an activity's outbound transitions
+### Managing an activity's outbound transitions {#managing-an-activity-s-outbound-transitions}
 
 By default, certain activities do not have an outbound transition. You can add one from the **Transitions** tab or from the activity's **Properties** tab to apply other processes to your population in the same workflow.
 
@@ -265,7 +265,7 @@ Depending on the activities, you can add several types of outbound transitions:
 
 If applicable, specify a **Segment code** for the activity's outbound transition. This segment code will allow you to identify where subsets from the target population come from, and may, later on, serve for message personalization purposes.
 
-### Activity execution options
+### Activity execution options {#activity-execution-options}
 
 In the activity's properties screen, there is an **Advanced options** tab that lets you define the activity's execution mode and behavior in case of errors.
 

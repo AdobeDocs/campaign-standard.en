@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="audience:reporting" name="primaryAudienceTag" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="2018-03-15T09:01:30.220-0400" name="jcr:created" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:reporting;content_type:reference;topic_tags:list-of-reports" name="cq:tags" />
-  <meta content="8e6e0757-8cee-4c4d-90a3-f50495931542" name="jcr:predecessors" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="2018-09-07T15:08:34.032-0400" name="topicBrowsingSortDate" />
-  <meta content="https://helpx.adobe.com/campaign/standard/reporting/using/unsubscriptions.html" name="publishExternalURL" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="2018-09-07T15:08:34.032-0400" name="publishExternalDate" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="2018-09-07T15:08:34.032-0400" name="lastPublishExternalDate" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="Unsubscriptions" name="navTitle" />
-  <meta content="light" name="heroGradient" />
-  <meta content="3f533c0a-5104-4dc7-8fba-cf19a0314463" name="jcr:uuid" />
-  <meta content="With the Unsubscriptions out-of-the-box report, learn how many times customers unsubscribed to your deliveries." name="seoDescription" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="Unsubscriptions" name="jcr:description" />
-  <meta content="2018-09-10T02:19:08.165-0400" name="cq:lastModified" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="" name="jcr:versionHistory" />
   <meta content="2018-09-10T02:19:08.164-0400" name="locHandOffDate" />
-  <meta content="2018-09-07T15:08:34.133-0400" name="cq:lastReplicated" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="3f533c0a-5104-4dc7-8fba-cf19a0314463" name="jcr:uuid" />
+  <meta content="light" name="heroGradient" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="8e6e0757-8cee-4c4d-90a3-f50495931542" name="jcr:predecessors" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:reporting;content_type:reference;topic_tags:list-of-reports" name="cq:tags" />
   <meta content="Unsubscriptions" name="jcr:title" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="2018-09-07T15:08:34.032-0400" name="firstPublishExternalDate" />
-  <meta content="true" name="jcr:isCheckedOut" />
   <meta content="admin" name="jcr:createdBy" />
+  <meta content="audience:reporting" name="primaryAudienceTag" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="Unsubscriptions" name="navTitle" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-09-07T15:08:34.032-0400" name="topicBrowsingSortDate" />
+  <meta content="2018-09-10T02:19:08.165-0400" name="cq:lastModified" />
+  <meta content="Unsubscriptions" name="jcr:description" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="With the Unsubscriptions out-of-the-box report, learn how many times customers unsubscribed to your deliveries." name="seoDescription" />
+  <meta content="2018-09-07T15:08:34.032-0400" name="lastPublishExternalDate" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-03-15T09:01:30.220-0400" name="jcr:created" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="https://helpx.adobe.com/campaign/standard/reporting/using/unsubscriptions.html" name="publishExternalURL" />
+  <meta content="2018-09-07T15:08:34.032-0400" name="firstPublishExternalDate" />
+  <meta content="2018-09-07T15:08:34.133-0400" name="cq:lastReplicated" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-09-07T15:08:34.032-0400" name="publishExternalDate" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
  </head>
  <body>
   <p>The <strong>Unsubscriptions</strong> report identifies the deliveries with the most unsubscriptions.</p> 

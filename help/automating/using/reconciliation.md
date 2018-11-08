@@ -3,7 +3,7 @@ title: Reconciliation
 seo-title: Reconciliation
 description: Reconciliation
 seo-description: The Reconciliation activity allows you to link unidentified data to existing resources.
-uuid: 23b9bfd9-1626-4dfd-be18-42517efc19d0
+uuid: b159d000-b8a8-4a23-9145-7f09e39e44f4
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/reconciliation
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: 2124396e-4ea6-44c5-a06d-643e67a8ce6c
+discoiquuid: a4ae854d-e7f8-40d9-9020-8bd69a95bf28
 firstPublishExternalDate: 2018-09-07T15:08:31.393-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,25 +32,25 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Reconciliation
 publishexternaldate: 2018-09-07T15 08 31.393-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/reconciliation.html
-sha1: 2ccd893952a845f76bd273045b0fa39588ea56ec
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/reconciliation.html"
+sha1: b40c847fd99d7fee9b52d72842e871bc9a1a2302
 topicBrowsingSortDate: 2018-09-07T15:08:31.393-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Reconciliation
+# Reconciliation{#reconciliation}
 
 Reconciliation
 
-## Description
+## Description {#description}
 
 ![](assets/reconciliation.png)
 
 The **Reconciliation** activity allows you to link unidentified data to existing resources.
 
-## Context of use
+## Context of use {#context-of-use}
 
 The **Reconciliation** activity is essentially used for Data Management purposes and implies two different use cases:
 
@@ -70,7 +70,7 @@ The **Reconciliation** activity is essentially used for Data Management purposes
 
 For example, the **Reconciliation** activity can be placed after a load data activity with the aim of importing non-standard data into the database.
 
-## Configuration
+## Configuration {#configuration}
 
 1. Drag and drop a **Reconciliation** activity into your workflow, following a transition containing a population whose targeting dimension does not directly come from Adobe Campaign. For more on this, referr to [Targeting dimensions and resources](../../automating/using/query.md#targeting-dimensions-and-resources).
 1. Select the activity, then open it using the  ![](assets/edit_darkgrey-24px.png)
@@ -93,7 +93,7 @@ For example, the **Reconciliation** activity can be placed after a load data act
 
 1. Confirm the configuration of your activity and save your workflow.
 
-## Example 1: Relation definition
+## Example 1: Relation definition {#example-relation-definition}
 
 The following example demonstrates a workflow that updates the database using the purchasing data in a file. The purchasing data contains data referencing elements from other dimensions, such as the client emails and product codes.
 
@@ -139,7 +139,7 @@ The workflow is made up of the following activities:
 
   ![](assets/reconciliation_example5.png) ![](assets/reconciliation_example4.png)
 
-## Example 2: Identification
+## Example 2: Identification {#example-identification}
 
 The following example demonstrates a workflow that creates an audience of profiles directly from an imported file containing new clients. It is made up of the following activities:
 

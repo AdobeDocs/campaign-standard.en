@@ -3,7 +3,7 @@ title: Resource statuses
 seo-title: Resource statuses
 description: Resource statuses
 seo-description: Discover the different resource statuses.
-uuid: b1c2c1a8-e989-43b8-9a4a-2bc4e55fe3bb
+uuid: 677fa96d-ce7d-4cbe-ab64-00d12d434777
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/developing/using/resource-statuses
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: developing
 content-type: reference
 topic-tags: about-custom-resources
 cq-template: /apps/help/templates/article-3
-discoiquuid: 8b1b23b3-7582-4727-ac7b-27fc22197cc7
+discoiquuid: be262819-cfe7-4329-ac75-fd2a42cc85d5
 firstPublishExternalDate: 2018-09-07T14:48:55.263-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,15 +32,15 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Resource statuses
 publishexternaldate: 2018-09-07T14 48 55.263-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/resource-statuses.html
-sha1: aa5fcbfac98e5126ce9ae90f097484d3a8388959
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/developing/using/resource-statuses.html"
+sha1: 3f7e64f27cf2e628ba32b2c9264fb637834902a0
 topicBrowsingSortDate: 2018-09-07T14:48:55.263-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Resource statuses
+# Resource statuses{#resource-statuses}
 
 Resource statuses
 

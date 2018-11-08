@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="2018-03-15T09:01:14.354-0400" name="jcr:created" />
-  <meta content="2018-09-07T14:42:34.143-0400" name="lastPublishExternalDate" />
-  <meta content="2018-09-10T07:22:19.032-0400" name="cq:lastModified" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="audience:automating" name="primaryAudienceTag" />
-  <meta content="2018-09-07T14:42:35.405-0400" name="cq:lastReplicated" />
-  <meta content="About data and processes" name="jcr:title" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/about-data-and-processes.html" name="publishExternalURL" />
+  <meta content="About data and processes" name="jcr:description" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-09-10T07:22:19.030-0400" name="locHandOffDate" />
   <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
   <meta content="sauviat" name="contentOwner" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="en_us" name="jcr:language" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:versionHistory" />
   <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="About data and processes" name="navTitle" />
+  <meta content="2018-09-07T14:42:34.143-0400" name="publishExternalDate" />
+  <meta content="2018-09-07T14:42:34.143-0400" name="lastPublishExternalDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
   <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
   <meta content="light" name="heroGradient" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="2018-09-07T14:42:34.143-0400" name="topicBrowsingSortDate" />
-  <meta content="2018-09-07T14:42:34.143-0400" name="firstPublishExternalDate" />
-  <meta content="2018-09-07T14:42:34.143-0400" name="publishExternalDate" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="Learn about processes that you can set up and automate with Adobe Campaign." name="seoDescription" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="dff4fc90-9502-4aba-ace7-7a8c7f8f9b31" name="jcr:uuid" />
-  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/about-data-and-processes.html" name="publishExternalURL" />
-  <meta content="About data and processes" name="navTitle" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:about-workflows-and-data-management" name="cq:tags" />
-  <meta content="About data and processes" name="jcr:description" />
   <meta content="a23cf6f6-d804-4bea-b660-8d3d7d2a214d" name="jcr:predecessors" />
-  <meta content="2018-09-10T07:22:19.030-0400" name="locHandOffDate" />
+  <meta content="Learn about processes that you can set up and automate with Adobe Campaign." name="seoDescription" />
+  <meta content="dff4fc90-9502-4aba-ace7-7a8c7f8f9b31" name="jcr:uuid" />
+  <meta content="About data and processes" name="jcr:title" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2018-09-10T07:22:19.032-0400" name="cq:lastModified" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-09-07T14:42:35.405-0400" name="cq:lastReplicated" />
+  <meta content="2018-09-07T14:42:34.143-0400" name="firstPublishExternalDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:about-workflows-and-data-management" name="cq:tags" />
+  <meta content="2018-09-07T14:42:34.143-0400" name="topicBrowsingSortDate" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="2018-03-15T09:01:14.354-0400" name="jcr:created" />
+  <meta content="audience:automating" name="primaryAudienceTag" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
  </head>
  <body>
   <p>Adobe Campaign allows you to import, transform, filter, use, and export data. These operations can be carried out to design and automate your business processes.</p> 

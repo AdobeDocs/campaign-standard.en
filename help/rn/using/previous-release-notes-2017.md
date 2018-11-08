@@ -3,7 +3,7 @@ title: Previous Release Notes 2017
 seo-title: Previous Release Notes 2017
 description: Previous Release Notes 2017
 seo-description: This page lists all 2017 releases of Adobe Campaign Standard.
-uuid: cf1b83e3-2c53-4f4c-af9f-de412bd06ac8
+uuid: ef1590ff-cc75-4850-856a-93ef3d929581
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/rn/using/previous-release-notes-2017
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 cq-template: /apps/help/templates/article-3
-discoiquuid: 534439b0-67a8-4794-81ec-781b441e75fd
+discoiquuid: 80e2066f-4a28-4d0d-bb68-a3723bb33d18
 firstPublishExternalDate: 2018-09-08T12:39:21.559-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,15 +33,15 @@ lr-lastreplicatedby: sauviat@adobe.com
 moreHelpPaths: /content/help/en/campaign/standard/rn/morehelp/campaign-standard-releases;/content/help/en/campaign/standard/rn/morehelp/campaign-standard-releases
 navTitle: Previous Release Notes
 publishexternaldate: 2018-09-08T12 39 21.559-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/rn/using/previous-release-notes-2017.html
-sha1: 22babc7992517cf81e6e5ded0c6cceb0db5dfa17
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/rn/using/previous-release-notes-2017.html"
+sha1: fd4206a7c73767e0d1f12743246e81409fffb8f2
 topicBrowsingSortDate: 2018-09-08T12:39:21.559-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Previous Release Notes 2017
+# Previous Release Notes 2017{#previous-release-notes}
 
 Previous Release Notes 2017
 
@@ -51,9 +51,9 @@ Each release comes with new features and patches. Click on a release to view its
 
 View the latest [documentation updates](../../rn/using/documentation-updates.md) for Adobe Campaign Standard. If you're looking for a newer release, consult this [page](../../rn/using/release-notes.md).
 
-## Release 17.10 - October 2017
+## 17.10 - October 2017 release {#october-release}
 
-### New capabilities
+### New capabilities {#new-capabilities}
 
 <table> 
  <thead> 
@@ -74,9 +74,9 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
  </tbody> 
 </table>
 
-### Patches
+### Patches {#patches}
 
-#### Platform
+#### Platform {#platform}
 
 * Fixed an issue that could prevent large zipped files from being correctly unzipped.
 * Security in brand management has been improved. Modifying a brand's name and sender address is now reserved for Adobe technical administrators.
@@ -84,14 +84,14 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed an interface issue when displaying and filtering marketing activities.
 * Fixed an issue which prevented subscription date fields from being updated with a POST Rest API call.
 
-#### Emails, SMS messages and direct mail
+#### Emails, SMS messages and direct mail {#emails-sms-messages-and-direct-mail}
 
 * Fixed an issue that could prevent from targeting a list type audience in a message, causing the preparation to fail.
 * Missing languages added in the multilingual email delivery capabilities.
 * The content thumbnail, displayed on the delivery dashboard, is now automatically updated when the user modifies content and saves.
 * Fixed a timezone related issue that prevented a delivery from being opened.
 
-#### Push notifications
+#### Push notifications {#push-notifications}
 
 * When configuring the push notification channel, the push provider platform for iOS should be **apns** and for Android **gcm**.
 * Fixed an error that prevented iOS mobile app from being added in the Adobe Campaign interface.
@@ -100,7 +100,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * It is now possible to create or update a profile from the Adobe Campaign database by reconciling mobile application users' data.
 * Adobe Campaign now prioritizes processing the transactional push notifications over standard push notifications.
 
-#### Reports
+#### Reports {#reports}
 
 * Fixed an issue that prevented the hot click percentages from being displayed in the email content.
 * Fixed an issue with the blacklist metric which was counted as a hard bounce instead of a bounce.
@@ -108,7 +108,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed an issue that counted profiles in the wrong age segment.
 * The soft and hard bounce calculation formulas have changed.
 
-#### Workflows
+#### Workflows {#workflows}
 
 * Fixed an issue in the **Load file** activity that could lead to errors after manually adding and removing columns in the activity.
 * The **deliverabilityUpdate** technical workflow is now scheduled to run at 2am, server time.
@@ -116,23 +116,23 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed an issue with the **Reconciliation** activity. 
 * Fixed an issue with the use of wildcard characters in the **File Transfer** activity.
 
-#### Profiles and audiences
+#### Profiles and audiences {#profiles-and-audiences}
 
 * Fixed an issue that could prevent a condition of a query from being correctly taken into account in some specific cases, leading to erroneous results.
 * Fixed an issue that could prevent profiles from being accessed if they were targeted in a message that was prepared but never sent and expired.
 
-#### Integrations
+#### Integrations {#integrations}
 
 * Fixed an issue that could prevent some Data Sources created for Triggers from correctly showing up and being selected.
 
-#### Custom resources
+#### Custom resources {#custom-resources}
 
 * Fixed an issue that occurred in list screens where custom resource rows could be displayed without any data. 
 * Fixed an issue that prevented boolean type fields with 'False' value from being displayed in custom resources.
 
-## Release 17.9 - September 2017
+## 17.9 - September 2017 release {#september-release}
 
-### New capabilities
+### New capabilities {#new-capabilities}
 
 <table> 
  <thead> 
@@ -157,21 +157,21 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
  </tbody> 
 </table>
 
-### Patches
+### Patches {#patches}
 
-#### Platform
+#### Platform {#platform}
 
 * Some customers need to be able to leverage an ID coming from Adobe Campaign Standard as they don't manage a unique key to identify their own records. This ID (**ACS ID**) can be exported as well as used as a reconciliation key while updating the data. For more information, refer to the [detailed documentation](../../developing/using/generating-a-unique-id-for-profiles-and-custom-resources.md).
 * The FTP protocol is being deprecated. You should now use SFTP instead. In order to not block existing implementations, existing configurations on FTP will still work as before but the option will not be showing for new activities.
 
-#### Emails, SMS messages and direct mail
+#### Emails, SMS messages and direct mail {#emails-sms-messages-and-direct-mail}
 
 * It is now possible to create new alerting criteria to use them in delivery alerting notifications. For more information, refer to the [detailed documentation](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion).
 * The delivery alerting notifications have a new design and the delivery alerting dashboard user experience has been improved.
 * Now when a routing external account is disabled, a warning is displayed in the impacted deliveries (email, SMS and push) and the **Preview** button is hidden in these deliveries.
 * Fixed an issue that caused an error in the preview of an A/B test on the email content when dynamic text was enabled in the subject line.
 
-#### Transactional messages
+#### Transactional messages {#transactional-messages}
 
 * It is now possible to define when you want to send a follow-up message, for example 3 days after a transactional message was sent. For more information, refer to the [detailed documentation](../../channels/using/follow-up-messages.md#sending-a-follow-up-message).
 * It is now possible to define the date from when the transactional messages linked to an event should be sent.
@@ -180,7 +180,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed an issue that could prevent the redirection of tracked links from working.
 * Fixed an issue which prevented you from disable tracking for certain links in an email or SMS message.
 
-#### Reports
+#### Reports {#reports}
 
 * The **Hot clicks** report has been improved. Also, it is now possible to display hot clicks according to each conditional content that was defined in a delivery and to display hot clicks for each execution of recurring deliveries or transactional messages. For more information, refer to the [detailed documentation](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion).
 * Fixed an issue which prevented the quarantine metric from retrieving correct data.
@@ -188,23 +188,23 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * The [dynamic report metrics](../../reporting/using/indicator-calculation.md) and the [campaigns' KPIs](../../sending/using/confirming-the-send.md) (displayed on the dashboard of sent messages) have been aligned for more coherence.
 * Fixed an issue that could cause pipelined to crash on debian 7.
 
-#### Workflows
+#### Workflows {#workflows}
 
 * Fixed an issue that could prevent the imported file retention from working.
 
-#### Integrations
+#### Integrations {#integrations}
 
 * eVars and events are now supported for the Analytics & Campaign integration.
 * When sending an email with the content of the abandoned cart, the payload parameter for elements removed from cart is now optional.
 
-#### Profiles and audiences
+#### Profiles and audiences {#profiles-and-audiences}
 
 * Adobe Campaign now provides a report that displays the number of active profiles. This report is only informative, it doesn't have a direct impact on billing. For more information, refer to the [detailed documentation](../../audiences/using/active-profiles.md).
 * Fixed an issue that prevented profiles from being subscribed to a service when using the Profiles and Services API.
 
-## Release 17.7 - July 2017
+## 17.7 - July 2017 release {#july-release}
 
-### New capabilities
+### New capabilities {#new-capabilities}
 
 <table> 
  <thead> 
@@ -241,13 +241,13 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
  </tbody> 
 </table>
 
-### Patches
+### Patches {#patches}
 
-#### General
+#### General {#general}
 
 * Fixed an issue which let any user export lists. Now only users with the **Export** role are allowed to.
 
-#### Emails, SMS messages and direct mail
+#### Emails, SMS messages and direct mail {#emails-sms-messages-and-direct-mail}
 
 * Fixed an issue with the **updateDeliveryExecInfo** workflow that set the **To deliver** indicator to 0 for SMS deliveries.
 * In the **Advanced parameters** of the delivery template’s properties, the **Routing** drop-down list now only displays external accounts corresponding to the template message type. For example, an email delivery template only displays email external accounts.
@@ -257,30 +257,30 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * In the template selection screen of the delivery creation wizard, follow-up and A/B test templates are now hidden by default. For more information, refer to the [detailed documention](../../channels/using/creating-an-email.md).
 * Fixed an issue which let any user send deliveries. Now only users with the **Start deliveries** role are allowed to. For more information, refer to the [detailed documention](../../sending/using/confirming-the-send.md).
 
-#### Push notifications
+#### Push notifications {#push-notifications}
 
 * Fixed an issue with the **Campaign Tracking Endpoint** URL that prevented reporting.
 * Fixed an issue that prevented the push notification title to be displayed on Android devices.
 * Fixed an issue that prevented the push notification to be displayed on iOS devices when the push notification contained only a title (and nothing in the body of the message).
 * Fixed an issue that forced media attachment URLs in a delivery to be tracked, which prevented videos and pictures from being embedded in the delivery. The tracking of URLs of the type mediaAttachmentURL is now deactivated by default for push notifications.
 
-#### Reports
+#### Reports {#reports}
 
 * Corrected an issue where values appeared different between charts and table.
 * Corrected an issue that displayed push notification values as email values. 
 * Fixed an issue that showed values as unknown when a delivery was created outside of a campaign. 
 * Corrected an issue that showed SMS report data as mobile application data.
 
-#### Workflows
+#### Workflows {#workflows}
 
 * You can now filter workflow logs (period of time and text search). For more information, refer to the [detailed documention](../../automating/using/executing-a-workflow.md#monitoring).
 * An option is now available in worflow deliveries to deactivate the confirmation before the send.
 * Fixed an issue which prevented you from setting an outbound transition in the creation wizard of recurring delivery.
 * Fixed an issue that occurred when using a workflow query activity based on a custom resource field with an enumeration that had a lot of values
 
-## Release 17.5 - May 2017
+## 17.5 - May 2017 release {#may-release}
 
-### New capabilities
+### New capabilities {#new-capabilities}
 
 <table> 
  <thead> 
@@ -301,33 +301,33 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
  </tbody> 
 </table>
 
-### Patches
+### Patches {#patches}
 
-#### Interface updates
+#### Interface updates {#interface-updates}
 
 * In the top bar, the **Timeline** link has been removed and replaced with a link to **Programs & Campaigns**.
 
-#### Emails and SMS messages
+#### Emails and SMS messages {#emails-and-sms-messages}
 
 * Fixed an issue which displayed the wrong color for the **Retry in progress** delivery status. The color was gray instead of blue.
 
-#### Workflows
+#### Workflows {#workflows}
 
 * Fixed an issue that occurred when changing the action to perform in a **Transfer file** activity.
 
-#### Reports
+#### Reports {#reports}
 
 * The **Spam** and **Spam rate** indicator calculations have been changed.
 * The **Bounce** metrics have been improved for a more accurate result.
 
-#### Push notifications
+#### Push notifications {#push-notifications}
 
 * Fixed an issue which prevented you from clicking on a push event in a profile's marketing history.
 * The use of push notifications in workflows has been improved.
 
-## Release 17.4 - April 2017
+## 17.4 - April 2017 release {#april-release}
 
-### New capabilities
+### New capabilities {#new-capabilities}
 
 <table> 
  <thead> 
@@ -360,13 +360,13 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
  </tbody> 
 </table>
 
-### Patches
+### Patches {#patches}
 
-#### Platform
+#### Platform {#platform}
 
 * Fixed a memory consumption issue.
 
-#### Emails and SMS messages
+#### Emails and SMS messages {#emails-and-sms-messages}
 
 * Fixed an issue where content could not be properly synchronized with the latest changes when previewing a message.
 * Fixed an issue which prevented an MX or Domain email processing rule from being created or deleted.
@@ -375,44 +375,44 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed an issue that led to an error when displaying the tracked URLs of a delivery with no URL in its content.
 * Fixed an issue that prevented an image's size attributes from being correctly applied in the sent message.
 
-#### Transactional messages
+#### Transactional messages {#transactional-messages}
 
 * The rtEventHistoId field is no longer exposed as a personalization field in a transactional message template.
 
-#### Landing pages
+#### Landing pages {#landing-pages}
 
 * We have optimized the **by email** filter used in landing pages to reconcile new subscribers with database profiles.
 * Fixed an issue which displayed free text inputs instead of check boxes when using boolean fields in a form configuration.
 * Fixed an issue that prevented landing page thumbnails from being generated.
 
-#### Workflows
+#### Workflows {#workflows}
 
 * Fixed a display error when editing an **End** or **External Signal** activity (on Safari only).
 * Improved the error message displayed when editing a **Read Audience** activity containing an erroneous audience.
 * Fixed an issue that could lead to an SQL error when executing a subscription activity.
 
-#### Integrations
+#### Integrations {#integrations}
 
 * Points of Interest data: fixed an error that occurred when counting location subscribers.
 
-#### Audiences and queries
+#### Audiences and queries {#audiences-and-queries}
 
 * Fixed an issue that prevented sum and average aggregates from being used on a collection in the query editor.
 * Fixed an issue that could prevent the query editor from being reloaded after changing the filter’s resource.
 
-#### Reports
+#### Reports {#reports}
 
 * Fixed an issue that prevented Open rate metrics to be correctly calculated when selecting multiple rows in a table.
 * Fixed an error that only showed metrics as integer values. Metrics can now be displayed with decimals.
 
-#### Push notifications
+#### Push notifications {#push-notifications}
 
 * Fixed an issue where an error message was not displayed when creating an Android application linked to a mobile app that had failed being created on MCPNS.
 * Fixed an issue that allowed a user to add sounds to a silent notification.
 
-## Release 17.2 - March 2017
+## 17.2 - March 2017 release {#march-release}
 
-### New capabilities
+### New capabilities {#new-capabilities}
 
 <table> 
  <thead> 
@@ -457,30 +457,30 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
  </tbody> 
 </table>
 
-### Patches
+### Patches {#patches}
 
-#### General
+#### General {#general}
 
 * It is now possible to add profile data when exporting delivery logs.
 
-#### Emails and SMS messages
+#### Emails and SMS messages {#emails-and-sms-messages}
 
 * Fixed an issue causing the **Request confirmation before sending messages** option to remain selected even after unchecking it and saving the delivery.
 * Fixed an issue that could prevent unpublishing transactional emails.
 * Fixed an issue where content could not be properly synchronized with the latest changes before previewing a delivery.
 
-#### Landing pages
+#### Landing pages {#landing-pages}
 
 * Fixed an error that prevented a user from editing when clicking in the content of a landing page.
 
-#### Workflows
+#### Workflows {#workflows}
 
 * Fixed an issue that could prevent from reading the content of the reject transition of a **Load file** activity.
 * Fixed an issue that prevented swapped columns to be properly taken into account when configuring a **Load file** activity.
 
-## Release 17.1 - January 2017
+## 17.1 - January 2017 release {#january-release}
 
-### New capabilities
+### New capabilities {#new-capabilities}
 
 <table> 
  <thead> 
@@ -505,27 +505,27 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
  </tbody> 
 </table>
 
-### Patches
+### Patches {#patches}
 
-#### General
+#### General {#general}
 
 * The **Access authorization** options have returned to the landing page properties.
 * Fixed an issue that may have caused an old image to be rendered instead of the correct image. This occurred if the source image had been updated in the content definition of a delivery or landing page.
 * Fixed an issue that prevented users from editing certain fields in an existing SFTP external account.
 * Fixed several UI issues. For example, users can now edit profile attributes and save modifications without experiencing problems with the UI.
 
-#### Emails and SMS messages
+#### Emails and SMS messages {#emails-and-sms-messages}
 
 * Fixed an issue pertaining to delivery templates with HTML content that contains a
 
-#### Push notifications
+#### Push notifications {#push-notifications}
 
 * Fixed an issue that may have prevented postback from an application to the Adobe Campaign server.
 * Fixed an issue that may have prevented **Play a sound** and **Custom fields** to be taken into account for Android.
 * Fixed an issue that may have caused an extra escaping character to be added to Unicode characters used for Emojis.
 * When a subscriber's registration token becomes blacklisted, the corresponding status is now immediately updated in the application's list of subscribers in Adobe Campaign.
 
-#### Workflows
+#### Workflows {#workflows}
 
 * Fixed an issue that may have prevented previews of queries on event resources (e.g. rtEvent).
 * The reject file generated by a **Load file** activity can now be retrieved in its outbound transition and processed in the next activity. For example, upload the reject file via an SFTP server using **Transfer file**.
@@ -533,8 +533,9 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * **Scheduler** activities can no longer be set to trigger a workflow more than once every 10 minutes.
 * Fixed an issue that may have prevented **Use common columns** from working properly in an **Union** activity.
 
-#### Integrations
+#### Integrations {#integrations}
 
 * Fixed an issue that may have caused an error when deploying an event trigger in Adobe Campaign. This error occurred when the "Likelihood to Return in 30 Days" metadata had been added to the Abandonment trigger in Adobe Marketing Cloud.
 * Fixed an issue that may have caused the technical workflow to clear the Target Dimension field when importing audiences from People core service. Subsequent queries could not retrieve the imported audiences.
 * Fixed an issue that may have caused the **Save audience** activity of a workflow to fail when the option **Share in Adobe Marketing Cloud** was checked.
+

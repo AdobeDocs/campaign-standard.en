@@ -3,7 +3,7 @@ title: Creating a multilingual email
 seo-title: Creating a multilingual email
 description: Creating a multilingual email
 seo-description: Follow these steps to create a multilingual email targeting recipients with different preferred languages.
-uuid: 887ce2f9-0248-4402-bead-733c0a610bf0
+uuid: ee766001-298c-4dcc-a65e-f6ac9ed6b44a
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/creating-a-multilingual-email
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: channels
 content-type: reference
 topic-tags: email-messages
 cq-template: /apps/help/templates/article-3
-discoiquuid: 36a855bc-8418-41ee-ad82-abf57d89cd90
+discoiquuid: 8bf42d56-592b-4f89-8ab2-ce1e29580f56
 firstPublishExternalDate: 2018-09-07T15:11:44.194-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,15 +32,15 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Creating a multilingual email
 publishexternaldate: 2018-09-07T15 11 44.194-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/creating-a-multilingual-email.html
-sha1: b62df4fd01a011a68bb7b8235deab106b17affee
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/channels/using/creating-a-multilingual-email.html"
+sha1: 60f1fb2f48b8ba74f82328f4c510d9abc68c232e
 topicBrowsingSortDate: 2018-09-07T15:11:44.194-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Creating a multilingual email
+# Creating a multilingual email{#creating-a-multilingual-email}
 
 Creating a multilingual email
 

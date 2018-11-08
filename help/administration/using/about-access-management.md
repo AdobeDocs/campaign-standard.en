@@ -3,7 +3,7 @@ title: About access management
 seo-title: About access management
 description: About access management
 seo-description: Manage your Adobe Campaign operators using roles, groups and geographical and organizational units.
-uuid: 5261b02d-ac8e-4801-a27a-33336ae936c3
+uuid: 1d4280f7-986d-4f2b-8872-b3386b3c0dc6
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/about-access-management
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: administration
 content-type: reference
 topic-tags: users-e-security
 cq-template: /apps/help/templates/article-3
-discoiquuid: 742cdbaa-159f-4664-86dc-99842ba79393
+discoiquuid: b519c737-cdd1-4d27-80de-23944e969b5d
 firstPublishExternalDate: 2018-09-07T14:40:30.534-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,15 +33,15 @@ lr-lastreplicatedby: sauviat@adobe.com
 moreHelpPaths: /content/help/en/campaign/standard/administration/morehelp/users-e-security;/content/help/en/campaign/standard/administration/morehelp/users-e-security
 navTitle: About access management
 publishexternaldate: 2018-09-07T14 40 30.534-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/about-access-management.html
-sha1: 0b64067dcbc2004d1f841d439416d6466437c639
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/administration/using/about-access-management.html"
+sha1: 51633293a30de77f941b8ce99bb6a6f91c2454c7
 topicBrowsingSortDate: 2018-09-07T14:40:30.534-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# About access management
+# About access management{#about-access-management}
 
 About access management
 

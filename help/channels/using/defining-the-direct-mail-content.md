@@ -3,7 +3,7 @@ title: Defining the direct mail content
 seo-title: Defining the direct mail content
 description: Defining the direct mail content
 seo-description: Learn how to define the content for your direct mail delivery.
-uuid: 20cf19f3-c84c-42d5-a822-efc67c9e5a28
+uuid: 93a0dc28-9222-4dd5-987a-73ffb21a1da6
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/defining-the-direct-mail-content
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: channels
 content-type: reference
 topic-tags: direct-mail
 cq-template: /apps/help/templates/article-3
-discoiquuid: e2f27d55-61e2-407a-9cdf-268d92a06d57
+discoiquuid: cbe0fc51-fe69-4d46-981f-742818c2c5ee
 firstPublishExternalDate: 2018-09-07T15:12:27.047-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,15 +32,15 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Defining the direct mail content
 publishexternaldate: 2018-09-07T15 12 27.047-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/defining-the-direct-mail-content.html
-sha1: fb0d1d42586136b5413f17108103c8488d8af87d
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/channels/using/defining-the-direct-mail-content.html"
+sha1: 41bfc14c3b88a6b0646fd28fd597749844105653
 topicBrowsingSortDate: 2018-09-07T15:12:27.047-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Defining the direct mail content
+# Defining the direct mail content{#defining-the-direct-mail-content}
 
 Defining the direct mail content
 
@@ -52,7 +52,7 @@ The **Content** definition screen is specific to the direct mail channel. It is 
 
 ![](assets/direct_mail_11.png)
 
-## Defining the extraction
+## Defining the extraction {#defining-the-extraction}
 
 1. Start by defining the name of the extraction file. Click on the button to the right of the **Output file** field and enter the desired label. You can use personalization fields, content blocks and dynamic text (see [Defining content](../../designing/using/example--email-personalization.md)). For example, you can complete the label with the delivery ID or the extraction date. 
 
@@ -72,7 +72,7 @@ The **Content** definition screen is specific to the direct mail channel. It is 
 >
 >For more information on output column definition, refer to the [Extract file](../../automating/using/extract-file.md) workflow activity section.
 
-## Defining the file structure
+## Defining the file structure {#defining-the-file-structure}
 
 The **File structure** tab allows you to configure the output, date, and number formats for the file that will be exported.
 
@@ -82,7 +82,7 @@ The **File structure** tab allows you to configure the output, date, and number 
 >
 >The available options are detailed in the [Extract file](../../automating/using/extract-file.md) workflow activity sections.
 
-## Defining the header and footer
+## Defining the header and footer {#defining-the-header-and-footer}
 
 Sometimes you may need to add information at the beginning or at the end of the extraction file. For this, use the **Header** and **Footer** tabs of the **Content** configuration screen. 
 

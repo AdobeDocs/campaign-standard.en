@@ -3,7 +3,7 @@ title: Deduplication
 seo-title: Deduplication
 description: Deduplication
 seo-description: The Deduplication activity allows you to delete duplicates in the result(s) of the inbound activities.
-uuid: 05c64f32-ce6a-4da6-a349-c5c92e3cb234
+uuid: 7070a8e1-15ab-4d48-9e0c-c381950e0bab
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/deduplication
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: 513c79f7-9d36-4735-a405-c881679f958a
+discoiquuid: 6d23331b-0099-4ea7-92ab-2cc12e34edb5
 firstPublishExternalDate: 2018-09-07T14:56:13.367-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,25 +32,25 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Deduplication
 publishexternaldate: 2018-09-07T14 56 13.367-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/deduplication.html
-sha1: d1464c50277ac5515192f3250a82453eed390a0d
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/deduplication.html"
+sha1: 6f0828859643bb7b8ca86c23067684f503cdf3c7
 topicBrowsingSortDate: 2018-09-07T14:56:13.367-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Deduplication
+# Deduplication{#deduplication}
 
 Deduplication
 
-## Description
+## Description {#description}
 
 ![](assets/deduplication.png)
 
 The **Deduplication** activity allows you to delete duplicates in the result(s) of the inbound activities.
 
-## Context of use
+## Context of use {#context-of-use}
 
 The **Deduplication** activity is generally used following targeting activities or after importing a file and before activities that allow the use of targeted data.
 
@@ -60,7 +60,7 @@ It is therefore advised that a deduplication only has one inbound transition. To
 
 ![](assets/dedup_bonnePratique.png) 
 
-## Configuration
+## Configuration {#configuration}
 
 To configure a deduplication activity, you must enter a label, the method and the deduplication criteria, as well as the options relating to the result.
 
@@ -103,7 +103,7 @@ To configure a deduplication activity, you must enter a label, the method and th
 1. If needed, manage the activity's [Transitions](../../automating/using/executing-a-workflow.md#managing-an-activity-s-outbound-transitions) to access the advanced options for the outbound population.
 1. Confirm the configuration of your activity and save your workflow.
 
-## Example 1: Identifying duplicates before a delivery
+## Example 1: Identifying duplicates before a delivery {#example-identifying-duplicates-before-a-delivery}
 
 The following example illustrates a deduplication that lets you exclude the duplicates of a target before sending an email. This means you avoid sending a communication several times to the same profile.
 
@@ -126,7 +126,7 @@ The workflow is made up of:
 * An **Email delivery** placed after the main outbound transition of the deduplication. The configuration for email deliveries is detailed in the [Email delivery](../../automating/using/email-delivery.md) section.
 * A **Save audience** activity placed after the additional transition of the deduplication to save the duplicates in a **Duplicates** audience. This audience can be reused to directly exclude its members from every email delivery.
 
-## Example 2: Deduplicating the data from an imported file
+## Example 2: Deduplicating the data from an imported file {#example-deduplicating-the-data-from-an-imported-file}
 
 This example shows how to deduplicate data from a file imported before loading the data into the database. This procedure improves the quality of the data loaded in the database.
 

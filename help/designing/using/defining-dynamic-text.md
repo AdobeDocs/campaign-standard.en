@@ -3,7 +3,7 @@ title: Defining dynamic text
 seo-title: Defining dynamic text
 description: Defining dynamic text
 seo-description: Learn how to display different texts dynamically to the user according to the conditions defined in Adobe Campaign.
-uuid: bd2fafa7-d090-4bde-b29d-d5538f1229a8
+uuid: f490c242-58b0-4b7d-905b-e254abf68e5e
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/defining-dynamic-text
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: defining-conditional-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: 67c96512-e493-44d4-a206-1a4cc8a1a430
+discoiquuid: c3ae6f7e-83fa-4a7c-a010-6f8b19876170
 firstPublishExternalDate: 2018-09-07T15:07:12.444-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,15 +32,15 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Defining dynamic text
 publishexternaldate: 2018-09-07T15 07 12.444-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/defining-dynamic-text.html
-sha1: 14b5debdb8562d8b1b5bb426c9df772e79eca55e
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/designing/using/defining-dynamic-text.html"
+sha1: 123663031468ca397e6d36cb052ef865b2883fdb
 topicBrowsingSortDate: 2018-09-07T15:07:12.444-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Defining dynamic text
+# Defining dynamic text{#defining-dynamic-text}
 
 Defining dynamic text
 

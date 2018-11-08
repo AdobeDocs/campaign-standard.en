@@ -3,7 +3,7 @@ title: Scheduler
 seo-title: Scheduler
 description: Scheduler
 seo-description: The Scheduler activity allows you to schedule when a workflow or an activity is started.
-uuid: 8820a6b1-0977-4917-9f58-b2d280e5c38a
+uuid: af1df3dc-215d-440a-96df-eb3501f6a589
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/scheduler
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: 978f9040-62e8-4d69-ab99-4f250b177737
+discoiquuid: 994e40e7-7ef1-4341-9214-7d5510eec09d
 firstPublishExternalDate: 2018-09-07T15:00:25.517-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,25 +32,25 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Scheduler
 publishexternaldate: 2018-09-07T15 00 25.517-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/scheduler.html
-sha1: 3af92aa56f867d4381f555123e5c24d6a9d2fb74
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/scheduler.html"
+sha1: 5a49b5be7ec8ed3ed723552490982bf8e4790cae
 topicBrowsingSortDate: 2018-09-07T15:00:25.517-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Scheduler
+# Scheduler{#scheduler}
 
 Scheduler
 
-## Description
+## Description {#description}
 
 ![](assets/scheduler.png)
 
 The **Scheduler** activity allows you to schedule when a workflow or an activity is started.
 
-## Context of use
+## Context of use {#context-of-use}
 
 The **Scheduler** activity should be considered as a scheduled start. The activity positioning rules within the chart are the same as for the **Start** activity. This activity must not have an inbound transition.
 
@@ -60,7 +60,7 @@ When building your workflow, only use one **Scheduler** activity per branch and 
 >
 >The **Repetition frequency** of the activity cannot be less than 10 minutes. It means that a workflow cannot be automatically executed more than once every 10 minutes.
 
-## Configuration
+## Configuration {#configuration}
 
 1. Drag and drop a **Scheduler** activity into your workflow.
 1. Select the activity, then open it using the  ![](assets/edit_darkgrey-24px.png)
@@ -93,7 +93,7 @@ When building your workflow, only use one **Scheduler** activity per branch and 
 
 1. Confirm the configuration of your activity and save your workflow.
 
-## Example
+## Example {#example}
 
 In the following example, the activity is configured so that it will start the workflow on a weekly basis, every other Monday at 7am, for an undetermined duration.
 

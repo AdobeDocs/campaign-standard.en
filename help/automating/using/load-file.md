@@ -3,7 +3,7 @@ title: Load file
 seo-title: Load file
 description: Load file
 seo-description: The Load file activity allows you to import data in one structured form to use this data in Adobe Campaign.
-uuid: c9b5754f-3aae-4f11-a49d-d293c18b094d
+uuid: c1baf1ef-e310-439c-a3dc-5996553e4696
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/load-file
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: 850795f7-9606-468c-8c9b-acd0480d9b2d
+discoiquuid: 15bbcd5d-0163-4977-9315-6f5f114f4f30
 firstPublishExternalDate: 2018-09-07T15:08:18.318-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,25 +32,25 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Load file
 publishexternaldate: 2018-09-07T15 08 18.318-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/load-file.html
-sha1: b3c4f9e04acc871e592d30e30773c5f9e4700460
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/load-file.html"
+sha1: f2e33a721765ab8f332b8d7360b695570bb79e1a
 topicBrowsingSortDate: 2018-09-07T15:08:18.318-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Load file
+# Load file{#load-file}
 
 Load file
 
-## Description
+## Description {#description}
 
 ![](assets/data_loading.png)
 
 The **Load file** activity allows you to import data in one structured form to use this data in Adobe Campaign. The data is temporarily imported and another activity is necessary to definitively integrate it in the Adobe Campaign database.
 
-## Context of use
+## Context of use {#context-of-use}
 
 The way in which the data will be extracted is defined when the activity is configured. The file to load may be a list of contacts, for example.
 
@@ -63,7 +63,7 @@ You can:
 * Use the file structure to apply it to another file's data (recovered using the **Transfer file** activity) or,
 * Use the structure and data from the file to import it into Adobe Campaign.
 
-## Configuration
+## Configuration {#configuration}
 
 The activity configuration involves two steps. First, you need to define the expected file structure by uploading a sample file. Once this is done, you can specify the origin of the file whose data will be imported.
 
@@ -117,7 +117,7 @@ The activity configuration involves two steps. First, you need to define the exp
 1. If the file that you want to load the data from is compressed into a GZIP file (.gz), select the **Decompression** option in the **Add a pre-processing step** field. This allows you to unzip the file before loading the data. This option is only available if the file comes from the activity's inbound transition.
 1. Confirm the configuration of your activity and save your workflow.
 
-## Column format
+## Column format {#column-format}
 
 When you load a sample file, the column format is automatically detected with the default parameters for each data type. You can modify these default parameters in order to specify the particular processes to apply to your data, particularly when there is an error or an empty value.
 
@@ -160,7 +160,7 @@ The column formatting allows you to define the value processing of each column:
     * **Insert NULL in the corresponding field**: authorizes empty values. The value NULL is therefore inserted.
     * **Generate an error**: generates an error if a value is empty.
 
-## Example
+## Example {#example}
 
 The load file activity mainly structures the data from a transfer file activity in order to integrate it into the existing data.
 

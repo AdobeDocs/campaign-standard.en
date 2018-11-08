@@ -3,7 +3,7 @@ title: Programs and campaigns
 seo-title: Programs and campaigns
 description: Programs and campaigns
 seo-description: In Adobe Campaign, programs and campaigns allow you to group and orchestrate the different marketing activities that are linked to them. Reports on programs and campaigns allow you to analyze their impact.
-uuid: 849d0d68-4a9f-48f4-b1b2-972c93d649eb
+uuid: 5aa64b88-18de-4f3f-a68a-70851cc22de3
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/start/using/programs-and-campaigns
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: start
 content-type: reference
 topic-tags: marketing-plans
 cq-template: /apps/help/templates/article-3
-discoiquuid: 5eb28737-fe49-432e-b903-017e28110817
+discoiquuid: c1fb1401-6b08-4697-a11d-b0a81705e09f
 firstPublishExternalDate: 2018-09-07T15:08:19.981-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,19 +33,19 @@ lr-lastreplicatedby: sauviat@adobe.com
 moreHelpPaths: /content/help/en/campaign/standard/start/morehelp/marketing-plans;/content/help/en/campaign/standard/start/morehelp/marketing-plans
 navTitle: Programs and campaigns
 publishexternaldate: 2018-09-07T15 08 19.981-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/start/using/programs-and-campaigns.html
-sha1: e9439f270f5d34fb2ab1e1f8acf181d0672eaf98
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/start/using/programs-and-campaigns.html"
+sha1: 83a5d66d7c5c6f801c19cbfa00def9569fb6c0b6
 topicBrowsingSortDate: 2018-09-07T15:08:19.981-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Programs and campaigns
+# Programs and campaigns{#programs-and-campaigns}
 
 Programs and campaigns
 
-## About plans, programs and campaigns
+## About plans, programs and campaigns {#about-plans-programs-and-campaigns}
 
 Adobe Campaign allows you to plan marketing campaigns in which you can create and manage different types of activities: emails, SMS messages, push notifications, workflows, landing pages. These campaigns and their contents can be gathered into programs.
 
@@ -63,7 +63,7 @@ Reports on programs and campaigns allow you to analyze their impact. For example
 * [Timeline](../../start/using/timeline.md)
 * [About dynamic reports](../../reporting/using/about-dynamic-reports.md)
 
-## Creating a program
+## Creating a program {#creating-a-program}
 
 The program is the first level of organization. It can contain sub-programs, campaigns, workflows or landing pages.
 
@@ -91,7 +91,7 @@ The program is created and displayed. Use the **Create** button to add sub-progr
 >
 >You can also create a program from the list of marketing activities.
 
-## Creating a campaign
+## Creating a campaign {#creating-a-campaign}
 
 In programs and sub-programs, you can add campaigns. Campaigns can contain marketing activities such as emails, SMS, push notifications, workflows, and landing pages.
 
@@ -118,7 +118,7 @@ The campaign is created and displayed. Use the **Create** button to add marketin
 
 You can also create a campaign from the marketing activity list. You can choose to link the marketing activity to a parent program or sub-program via the properties window of the campaign.
 
-## Programs and campaigns icons and statuses
+## Programs and campaigns icons and statuses {#programs-and-campaigns-icons-and-statuses}
 
 Each program and each campaign in the list has a visual symbol and an icon whose color indicates the execution status. This status depends on the validity period of the program or the campaign.
 

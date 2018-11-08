@@ -3,7 +3,7 @@ title: AND-join
 seo-title: AND-join
 description: AND-join
 seo-description: The AND-join activity allows you to synchronize multiple execution branches of a workflow.
-uuid: 9880cbfe-4940-40bd-8ca4-08ca7123f916
+uuid: df1c2c70-043b-42db-8c03-93d9887d12ce
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/and-join
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: 89683efe-92ea-4e1e-9d26-bb84db0e3e13
+discoiquuid: 0704d636-dbe1-4ad7-aea5-00a9fa861c70
 firstPublishExternalDate: 2018-09-07T14:59:34.681-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,29 +32,29 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: AND-join
 publishexternaldate: 2018-09-07T14 59 34.681-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/and-join.html
-sha1: 28f36a7820a9f9d642f7b221a71d88927a8d829a
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/and-join.html"
+sha1: 81c99f6ca91b5c5bb1161aa514351c933e1941fc
 topicBrowsingSortDate: 2018-09-07T14:59:34.681-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# AND-join
+# AND-join{#and-join}
 
 AND-join
 
-## Description
+## Description {#description}
 
 ![](assets/and_join.png)
 
 The **AND-join** activity allows you to synchronize multiple execution branches of a workflow.
 
-## Context of use
+## Context of use {#context-of-use}
 
 The **AND-join** activity only triggers its outbound transition once all the inbound transitions are activated, in other words, once all of the preceding activities have finished.
 
-## Configuration
+## Configuration {#configuration}
 
 1. Drop multiple activities such as queries into your workflow to form at least two different execution branches.
 1. Drag and drop an **AND-join** activity into your workflow.
@@ -65,7 +65,7 @@ The **AND-join** activity only triggers its outbound transition once all the inb
 1. Select the main set to be kept in the outbound transition. If you do not select any set, a random population will be sent from the activity.
 1. Confirm the configuration of your activity and save your workflow.
 
-## Example
+## Example {#example}
 
 The following example shows two workflow branches before they are joined with the **AND-join** activity. File extraction can only take place when the three inbound transitions of the **AND-join** activity are enabled.
 

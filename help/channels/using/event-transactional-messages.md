@@ -3,7 +3,7 @@ title: Event transactional messages
 seo-title: Event transactional messages
 description: Event transactional messages
 seo-description: Learn how to create and publish an event transactional message.
-uuid: 797d9fff-a168-445c-bfe0-568bfac4244d
+uuid: ef6a272b-7310-4bd3-af5e-342b074fa477
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/event-transactional-messages
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 cq-template: /apps/help/templates/article-3
-discoiquuid: 02e5611a-07cb-4ee8-bc54-8fe5c432ac68
+discoiquuid: 27be4bea-57a1-4ae3-ba24-1525736bc587
 firstPublishExternalDate: 2018-09-07T15:12:29.640-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,15 +32,15 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Event transactional messages
 publishexternaldate: 2018-09-07T15 12 29.640-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/event-transactional-messages.html
-sha1: ac579d08bd3dfd4870343779aaeef89c96e50197
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/channels/using/event-transactional-messages.html"
+sha1: cdec877fce9166c34bf6c43df3325a3f84d833d8
 topicBrowsingSortDate: 2018-09-07T15:12:29.640-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Event transactional messages
+# Event transactional messages{#event-transactional-messages}
 
 Event transactional messages
 
@@ -54,11 +54,11 @@ In order for the event to trigger sending a transactional message, you have to p
 >
 >To access the transactional messages, you must have administration rights or appear in the **Message Center agents** (mcExec) security group. Event transactional messages do not contain profile information, therefore they are not compatible with fatigue rules (even in the case of an enrichment with profiles). See [Fatigue rules](../../administration/using/fatigue-rules.md#choosing-the-channel).
 
-## Defining a test profile in a transactional message
+## Defining a test profile in a transactional message {#defining-a-test-profile-in-a-transactional-message}
 
 Define an adapted test profile, which will allow you to preview your message and send a proof to check it.
 
-### Creating a test profile within the transactional message
+### Creating a test profile within the transactional message {#creating-a-test-profile-within-the-transactional-message}
 
 1. To access the message that you created, click the **Adobe Campaign** logo, in the top left corner, then select **Marketing plans** > **Transactional messages** > **Transactional messages**.
 
@@ -80,7 +80,7 @@ Define an adapted test profile, which will allow you to preview your message and
 
    ![](assets/message-center_5.png)
 
-### Creating a test profile outside the transactional message
+### Creating a test profile outside the transactional message {#creating-a-test-profile-outside-the-transactional-message}
 
 You can also create a new test profile or use one that already exists in the **Test profiles** menu.
 
@@ -99,7 +99,7 @@ You can now access the message that you created and select the updated test prof
 * [Managing test profiles](../../sending/using/managing-test-profiles-and-sending-proofs.md)
 * [Defining audiences](../../audiences/using/creating-audiences.md)
 
-## Personalizing a transactional message
+## Personalizing a transactional message {#personalizing-a-transactional-message}
 
 To set up personalization in a transactional message, follow the steps below:
 
@@ -129,7 +129,7 @@ To set up personalization in a transactional message, follow the steps below:
 
    You can check that the personalization fields match the information entered in the test profile. For more on this, see [Defining a test profile in a transactional message](../../channels/using/event-transactional-messages.md#defining-a-test-profile-in-a-transactional-message).
 
-## Testing a transactional message
+## Testing a transactional message {#testing-a-transactional-message}
 
 Once you have saved your transactional message, you can now send a proof to test it.
 
@@ -137,7 +137,7 @@ Once you have saved your transactional message, you can now send a proof to test
 
 The steps for sending a proof are detailed in the [Sending a proof](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs) section.
 
-## Publishing a transactional message
+## Publishing a transactional message {#publishing-a-transactional-message}
 
 Once you have checked your transactional message, you can publish it.
 
@@ -149,7 +149,7 @@ To access reports concerning your transactional message, use the **Reports** but
 
 ![](assets/message-center_13.png)
 
-## Suspending a transactional message publication
+## Suspending a transactional message publication {#suspending-a-transactional-message-publication}
 
 You can suspend publishing your transactional message by using the **Pause** button, for example, to modify the data contained in the message. The events are therefore no longer processed, but instead kept in a queue in the Adobe Campaign database.
 
@@ -159,7 +159,7 @@ The queued events are kept during a period of time that is defined in the REST A
 
 When clicking **Resume**, all of the queued events (provided that they are not expired) are processed. They now contain all of the modifications carried out while the template publication was suspended.
 
-## Unpublishing a transactional message
+## Unpublishing a transactional message {#unpublishing-a-transactional-message}
 
 Clicking **Unpublish** allows you to cancel the transactional message publication, but also the publication of the corresponding event, which deletes from the REST API the resource corresponding to the event that you previously created. Now, even if the event is triggered through your website, the corresponding messages are not sent anymore and they are not stored in the database.
 
@@ -173,7 +173,7 @@ If you unpublish a paused transactional message, you may have to wait up to 24 h
 
 The **Database cleanup** workflow, which runs every day at 4am, is accessible through **Administration** > **Application settings** > **Workflows**.
 
-## Deleting a transactional message
+## Deleting a transactional message {#deleting-a-transactional-message}
 
 ![](assets/message-center_delete-template.png)
 

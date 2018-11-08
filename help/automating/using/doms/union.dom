@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="light" name="heroGradient" />
-  <meta content="2018-09-07T14:52:27.418-0400" name="firstPublishExternalDate" />
-  <meta content="Union" name="navTitle" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="Union" name="jcr:description" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="The Union activity allows you to regroup the result of multiple activities into a single target." name="seoDescription" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/union.html" name="publishExternalURL" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="audience:automating" name="primaryAudienceTag" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
   <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="c24399b8-0e76-4ee4-ab5b-659fb1b05642" name="jcr:uuid" />
-  <meta content="2018-09-10T07:24:48.321-0400" name="locHandOffDate" />
-  <meta content="2018-09-07T14:52:27.418-0400" name="publishExternalDate" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="light" name="heroGradient" />
   <meta content="f4f0bf33-f2b1-471b-bc1d-c1fa3435c39e" name="jcr:predecessors" />
   <meta content="2018-09-07T14:52:29.279-0400" name="cq:lastReplicated" />
-  <meta content="audience:automating" name="primaryAudienceTag" />
-  <meta content="2018-09-07T14:52:27.418-0400" name="lastPublishExternalDate" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="2018-03-15T09:02:12.356-0400" name="jcr:created" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="Union" name="jcr:title" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="The Union activity allows you to regroup the result of multiple activities into a single target." name="seoDescription" />
   <meta content="2018-09-07T14:52:27.418-0400" name="topicBrowsingSortDate" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Union" name="jcr:title" />
+  <meta content="" name="jcr:baseVersion" />
   <meta content="2018-09-10T07:24:48.323-0400" name="cq:lastModified" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-09-07T14:52:27.418-0400" name="publishExternalDate" />
   <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:targeting-activities" name="cq:tags" />
+  <meta content="2018-09-07T14:52:27.418-0400" name="lastPublishExternalDate" />
+  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/union.html" name="publishExternalURL" />
+  <meta content="2018-09-07T14:52:27.418-0400" name="firstPublishExternalDate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="c24399b8-0e76-4ee4-ab5b-659fb1b05642" name="jcr:uuid" />
   <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-03-15T09:02:12.356-0400" name="jcr:created" />
+  <meta content="Union" name="navTitle" />
+  <meta content="2018-09-10T07:24:48.321-0400" name="locHandOffDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="Union" name="jcr:description" />
  </head>
  <body>
   <h2>Description</h2>

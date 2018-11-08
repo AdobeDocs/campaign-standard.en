@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="2018-09-07T15:08:46.586-0400" name="cq:lastReplicated" />
-  <meta content="2018-09-07T15:08:46.399-0400" name="publishExternalDate" />
-  <meta content="audience:start" name="primaryAudienceTag" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="2018-09-07T15:08:46.399-0400" name="firstPublishExternalDate" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="f362a478-a74a-4145-a478-a9e246506b4f" name="jcr:uuid" />
-  <meta content="Creating a multilingual template" name="jcr:title" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:start;content_type:reference;topic_tags:managing-templates" name="cq:tags" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="Creating a multilingual template" name="jcr:description" />
-  <meta content="light" name="heroGradient" />
-  <meta content="2018-09-07T15:08:46.399-0400" name="lastPublishExternalDate" />
-  <meta content="2018-09-08T08:23:09.701-0400" name="locHandOffDate" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="2018-09-08T08:23:09.701-0400" name="cq:lastModified" />
   <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="2018-03-15T09:01:50.380-0400" name="jcr:created" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="Creating a multilingual template" name="navTitle" />
-  <meta content="6bb93aee-8d7a-4549-bf1a-8c1f1d62d004" name="jcr:predecessors" />
-  <meta content="Learn how to define and execute multilingual Email/SMS deliveries through a single delivery based on your automatically segmented customers' preferred language. Report on the performance of every delivery down to the language and individual levels." name="seoDescription" />
   <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="en_us" name="jcr:language" />
+  <meta content="f362a478-a74a-4145-a478-a9e246506b4f" name="jcr:uuid" />
+  <meta content="Learn how to define and execute multilingual Email/SMS deliveries through a single delivery based on your automatically segmented customers' preferred language. Report on the performance of every delivery down to the language and individual levels." name="seoDescription" />
   <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Creating a multilingual template" name="jcr:title" />
+  <meta content="2018-09-08T08:23:09.701-0400" name="cq:lastModified" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="Creating a multilingual template" name="navTitle" />
+  <meta content="2018-09-08T08:23:09.701-0400" name="locHandOffDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:start;content_type:reference;topic_tags:managing-templates" name="cq:tags" />
+  <meta content="2018-09-07T15:08:46.399-0400" name="firstPublishExternalDate" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="Creating a multilingual template" name="jcr:description" />
+  <meta content="2018-09-07T15:08:46.586-0400" name="cq:lastReplicated" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
   <meta content="https://helpx.adobe.com/campaign/standard/start/using/creating-a-multilingual-template.html" name="publishExternalURL" />
   <meta content="2018-09-07T15:08:46.399-0400" name="topicBrowsingSortDate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="audience:start" name="primaryAudienceTag" />
+  <meta content="light" name="heroGradient" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="6bb93aee-8d7a-4549-bf1a-8c1f1d62d004" name="jcr:predecessors" />
+  <meta content="2018-09-07T15:08:46.399-0400" name="publishExternalDate" />
+  <meta content="2018-09-07T15:08:46.399-0400" name="lastPublishExternalDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-03-15T09:01:50.380-0400" name="jcr:created" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
  </head>
  <body>
   <p>A multilingual template is a specific template to manage multilingual messages.</p> 

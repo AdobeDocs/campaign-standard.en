@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="2018-09-07T15:11:38.457-0400" name="lastPublishExternalDate" />
-  <meta content="Creating an email" name="jcr:title" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="2018-09-07T15:11:38.457-0400" name="firstPublishExternalDate" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="2018-09-07T15:11:38.457-0400" name="publishExternalDate" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
   <meta content="2018-09-08T08:23:03.413-0400" name="cq:lastModified" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
   <meta content="2018-09-07T15:11:38.705-0400" name="cq:lastReplicated" />
-  <meta content="" name="jcr:baseVersion" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="admin" name="jcr:createdBy" />
   <meta content="2018-03-15T09:01:08.365-0400" name="jcr:created" />
+  <meta content="2018-09-07T15:11:38.457-0400" name="lastPublishExternalDate" />
+  <meta content="2018-09-08T08:23:03.413-0400" name="locHandOffDate" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="0111cbb4-2380-42fa-8886-c1cf3c750f59" name="jcr:uuid" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="Follow these steps to create a single-send email in Adobe Campaign." name="seoDescription" />
+  <meta content="2018-09-07T15:11:38.457-0400" name="firstPublishExternalDate" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2018-09-07T15:11:38.457-0400" name="topicBrowsingSortDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="https://helpx.adobe.com/campaign/standard/channels/using/creating-an-email.html" name="publishExternalURL" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="audience:channels" name="primaryAudienceTag" />
+  <meta content="Creating an email" name="jcr:title" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
   <meta content="5827ce81-64be-48a4-81f8-01dac726ac3f" name="jcr:predecessors" />
   <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="sauviat" name="contentOwner" />
   <meta content="en_us" name="jcr:language" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="audience:channels" name="primaryAudienceTag" />
-  <meta content="2018-09-07T15:11:38.457-0400" name="topicBrowsingSortDate" />
-  <meta content="0111cbb4-2380-42fa-8886-c1cf3c750f59" name="jcr:uuid" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:channels;content_type:reference;topic_tags:email-messages" name="cq:tags" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="light" name="heroGradient" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="2018-09-08T08:23:03.413-0400" name="locHandOffDate" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="Creating an email" name="jcr:description" />
-  <meta content="Follow these steps to create a single-send email in Adobe Campaign." name="seoDescription" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="https://helpx.adobe.com/campaign/standard/channels/using/creating-an-email.html" name="publishExternalURL" />
-  <meta content="false" name="isReadyForLocalization" />
   <meta content="Creating an email" name="navTitle" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:channels;content_type:reference;topic_tags:email-messages" name="cq:tags" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-09-07T15:11:38.457-0400" name="publishExternalDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="Creating an email" name="jcr:description" />
  </head>
  <body>
   <p>You can create an email from a <a href="../../start/using/marketing-activities.md#creating-a-marketing-activity">campaign</a>, from the Adobe Campaign <a href="../../start/using/interface-description.md#home-page">home page</a>, or in the <a href="../../start/using/programs-and-campaigns.md#creating-a-campaign">marketing activity list</a>. You can also create single-send and recurring emails from a workflow.</p> 

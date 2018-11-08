@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="Building a workflow" name="navTitle" />
-  <meta content="Building a workflow" name="jcr:title" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:workflow-general-operation" name="cq:tags" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="d212638c-a620-4f37-9b23-3e003d66a0cd" name="jcr:uuid" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="Building a workflow" name="jcr:description" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="2018-09-10T07:22:59.339-0400" name="cq:lastModified" />
-  <meta content="light" name="heroGradient" />
-  <meta content="2018-03-15T09:02:07.496-0400" name="jcr:created" />
-  <meta content="This section details the main principles and best practices for creating a new workflow." name="seoDescription" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="audience:automating" name="primaryAudienceTag" />
-  <meta content="2018-09-07T14:46:03.984-0400" name="cq:lastReplicated" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="142b3d0d-4a21-487a-a9f8-8e411740e514" name="jcr:predecessors" />
-  <meta content="2018-09-07T14:46:01.768-0400" name="publishExternalDate" />
-  <meta content="2018-09-10T07:22:59.337-0400" name="locHandOffDate" />
-  <meta content="2018-09-07T14:46:01.768-0400" name="topicBrowsingSortDate" />
-  <meta content="2018-09-07T14:46:01.768-0400" name="lastPublishExternalDate" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/building-a-workflow.html" name="publishExternalURL" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="2018-09-07T14:46:01.768-0400" name="firstPublishExternalDate" />
   <meta content="" name="jcr:versionHistory" />
-  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-09-10T07:22:59.337-0400" name="locHandOffDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:workflow-general-operation" name="cq:tags" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
   <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/building-a-workflow.html" name="publishExternalURL" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="light" name="heroGradient" />
+  <meta content="Building a workflow" name="jcr:description" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2018-09-07T14:46:03.984-0400" name="cq:lastReplicated" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="audience:automating" name="primaryAudienceTag" />
+  <meta content="2018-03-15T09:02:07.496-0400" name="jcr:created" />
+  <meta content="2018-09-07T14:46:01.768-0400" name="firstPublishExternalDate" />
+  <meta content="Building a workflow" name="navTitle" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-09-10T07:22:59.339-0400" name="cq:lastModified" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-09-07T14:46:01.768-0400" name="topicBrowsingSortDate" />
+  <meta content="d212638c-a620-4f37-9b23-3e003d66a0cd" name="jcr:uuid" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="This section details the main principles and best practices for creating a new workflow." name="seoDescription" />
+  <meta content="2018-09-07T14:46:01.768-0400" name="publishExternalDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Building a workflow" name="jcr:title" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-09-07T14:46:01.768-0400" name="lastPublishExternalDate" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="142b3d0d-4a21-487a-a9f8-8e411740e514" name="jcr:predecessors" />
  </head>
  <body>
   <p>This section details the main principles and best practices for creating a new workflow:</p> 

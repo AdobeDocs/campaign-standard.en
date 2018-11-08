@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="audience:start" name="primaryAudienceTag" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="2018-09-08T08:23:08.322-0400" name="cq:lastModified" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:start;content_type:reference;topic_tags:marketing-plans" name="cq:tags" />
-  <meta content="2018-03-15T09:02:38.032-0400" name="jcr:created" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="Timeline" name="jcr:title" />
-  <meta content="b57d44dc-f401-482a-9c0b-7269d684a479" name="jcr:predecessors" />
   <meta content="en_us" name="jcr:language" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="2018-09-07T15:08:32.100-0400" name="topicBrowsingSortDate" />
-  <meta content="light" name="heroGradient" />
-  <meta content="Timeline" name="jcr:description" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="5dbac225-d968-4c8e-a7fe-9d336e698bbf" name="jcr:uuid" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="2018-09-07T15:08:32.100-0400" name="firstPublishExternalDate" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="Learn how to visualize programs that are in progress and their content using the Adobe Campaign Standard interface." name="seoDescription" />
+  <meta content="2018-03-15T09:02:38.032-0400" name="jcr:created" />
   <meta content="admin" name="jcr:createdBy" />
-  <meta content="https://helpx.adobe.com/campaign/standard/start/using/timeline.html" name="publishExternalURL" />
+  <meta content="Timeline" name="jcr:title" />
+  <meta content="2018-09-07T15:08:32.100-0400" name="topicBrowsingSortDate" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="sauviat" name="contentOwner" />
   <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="2018-09-07T15:08:32.647-0400" name="cq:lastReplicated" />
-  <meta content="Timeline" name="navTitle" />
+  <meta content="2018-09-07T15:08:32.100-0400" name="firstPublishExternalDate" />
+  <meta content="b57d44dc-f401-482a-9c0b-7269d684a479" name="jcr:predecessors" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="true" name="jcr:isCheckedOut" />
   <meta content="/etc/designs/help" name="cq:designPath" />
   <meta content="2018-09-07T15:08:32.100-0400" name="lastPublishExternalDate" />
-  <meta content="2018-09-08T08:23:08.322-0400" name="locHandOffDate" />
   <meta content="2018-09-07T15:08:32.100-0400" name="publishExternalDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:start;content_type:reference;topic_tags:marketing-plans" name="cq:tags" />
+  <meta content="light" name="heroGradient" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="Timeline" name="navTitle" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="Timeline" name="jcr:description" />
+  <meta content="5dbac225-d968-4c8e-a7fe-9d336e698bbf" name="jcr:uuid" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-09-08T08:23:08.322-0400" name="locHandOffDate" />
   <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-09-08T08:23:08.322-0400" name="cq:lastModified" />
+  <meta content="2018-09-07T15:08:32.647-0400" name="cq:lastReplicated" />
+  <meta content="https://helpx.adobe.com/campaign/standard/start/using/timeline.html" name="publishExternalURL" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="audience:start" name="primaryAudienceTag" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="Learn how to visualize programs that are in progress and their content using the Adobe Campaign Standard interface." name="seoDescription" />
  </head>
  <body>
   <p>The <strong>Timeline</strong> allows you to visualize programs that are in progress and their content.</p> 

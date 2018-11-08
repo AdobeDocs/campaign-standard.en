@@ -3,7 +3,7 @@ title: Profile transactional messages
 seo-title: Profile transactional messages
 description: Profile transactional messages
 seo-description: Learn how to create and publish a profile transactional message.
-uuid: b8c9a5c6-8364-4d3e-91d8-d3ab80b20e80
+uuid: 1d0907ea-0cff-4e24-96d6-bb53aaf37b17
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/profile-transactional-messages
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 cq-template: /apps/help/templates/article-3
-discoiquuid: 3ebf1c1d-ebc6-4ec9-a78d-006b00fe4d98
+discoiquuid: 1534c835-eb02-412a-bfd5-f896a6e689e6
 firstPublishExternalDate: 2018-09-07T15:12:30.917-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,15 +32,15 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Profile transactional messages
 publishexternaldate: 2018-09-07T15 12 30.917-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/profile-transactional-messages.html
-sha1: 6660f6b6089b4cd89ed28de5d6903bd9c7abc379
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/channels/using/profile-transactional-messages.html"
+sha1: bfc32eb4f8d59f3a2fb3f5e7a991b976573b4c27
 topicBrowsingSortDate: 2018-09-07T15:12:30.917-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Profile transactional messages
+# Profile transactional messages{#profile-transactional-messages}
 
 Profile transactional messages
 
@@ -61,7 +61,7 @@ In order for the event to trigger sending a transactional message, you have to p
 >
 >To access the transactional messages, you must have administration rights or appear in the **Message Center agents** (mcExec) security group. Fatigue rules are compatible with profile transactional messages. See [Fatigue rules](../../administration/using/fatigue-rules.md).
 
-## Sending a profile transactional message
+## Sending a profile transactional message {#sending-a-profile-transactional-message}
 
 1. Go the transactional message that was created to edit it. See [Event transactional messages](../../channels/using/event-transactional-messages.md).
 1. In the transactional message, click the **Content** section. In addition to the transactional template, you can also choose the default email template, which targets **Profile**.
@@ -78,7 +78,7 @@ In order for the event to trigger sending a transactional message, you have to p
 
 1. Save your changes and publish the message. See [Publishing a transactional message](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message).
 
-## Monitoring a profile transactional message delivery
+## Monitoring a profile transactional message delivery {#monitoring-a-profile-transactional-message-delivery}
 
 Once the message is published and your site integration is done, you can monitor the delivery.
 

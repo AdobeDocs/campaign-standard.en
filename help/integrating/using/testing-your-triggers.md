@@ -3,7 +3,7 @@ title: Testing your triggers
 seo-title: Testing your triggers
 description: Testing your triggers
 seo-description: 
-uuid: 498582dc-5ddb-4141-ad1f-f6b90f952e8e
+uuid: 0a21a00c-54de-464c-b8c6-78c8dbbc82cd
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/integrating/using/testing-your-triggers
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 cq-template: /apps/help/templates/article-3
-discoiquuid: fc224415-ef02-488b-b062-55044825d41b
+discoiquuid: 81000597-77e8-4121-93b9-62317c4bf9bd
 firstPublishExternalDate: 2018-09-07T15:08:31.899-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,15 +32,15 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Testing your triggers
 publishexternaldate: 2018-09-07T15 08 31.899-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/testing-your-triggers.html
-sha1: 460a48e2edbefc288b9d0c71e5a6a3531aef4adb
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/integrating/using/testing-your-triggers.html"
+sha1: d16c63329338da021b54c060ad230809522501eb
 topicBrowsingSortDate: 2018-09-07T15:08:31.899-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Testing your triggers
+# Testing your triggers{#testing-your-triggers}
 
 Testing your triggers
 

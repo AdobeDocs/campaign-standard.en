@@ -3,7 +3,7 @@ title: Adding Target dynamic content
 seo-title: Adding Target dynamic content
 description: Adding Target dynamic content
 seo-description: Learn how to add Adobe Target dynamic content in one of your Adobe Campaign delivery.
-uuid: 85046dff-19b3-4779-837a-54a496eff076
+uuid: 9b6e2d6e-e11a-4ada-83b6-1d4aeb98fa81
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/integrating/using/adding-target-dynamic-content
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
 cq-template: /apps/help/templates/article-3
-discoiquuid: 29b2b227-2255-4a4b-bb55-29fbd6d36ab1
+discoiquuid: 663976b5-7dd6-4b46-a3e7-17bfd5a2612a
 firstPublishExternalDate: 2018-09-07T15:02:16.375-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,15 +32,15 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Adding Target dynamic content
 publishexternaldate: 2018-09-07T15 02 16.375-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/adding-target-dynamic-content.html
-sha1: a6df85547300f98c28890906279f58174d0e35a4
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/integrating/using/adding-target-dynamic-content.html"
+sha1: dc3e5653509a95606aa5abdebc04311593067a6f
 topicBrowsingSortDate: 2018-09-07T15:02:16.375-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Adding Target dynamic content
+# Adding Target dynamic content{#adding-target-dynamic-content}
 
 Adding Target dynamic content
 

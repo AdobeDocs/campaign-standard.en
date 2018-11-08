@@ -3,7 +3,7 @@ title: Editing profiles
 seo-title: Editing profiles
 description: Editing profiles
 seo-description: Learn how to edit existing profiles and access contact information, prefered channels, tracking logs, subscriptions, etc.
-uuid: c8316709-b467-4b80-99b4-162049c09e8c
+uuid: f11bf8b5-f362-4205-8719-b1129327b4ec
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/audiences/using/editing-profiles
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 cq-template: /apps/help/templates/article-3
-discoiquuid: 48e5613b-2eb4-4439-9dd2-f0cb2142964e
+discoiquuid: 4c4aa25c-af33-4cb1-9c32-f08bf1801037
 firstPublishExternalDate: 2018-09-07T14:43:29.446-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,19 +32,19 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Editing profiles
 publishexternaldate: 2018-09-07T14 43 29.446-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/audiences/using/editing-profiles.html
-sha1: e5d7c8328fbe97dab5662d2ec9e970a4cdd92d0b
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/audiences/using/editing-profiles.html"
+sha1: 84a9433a6685edef2118949571ac3777551a154c
 topicBrowsingSortDate: 2018-09-07T14:43:29.446-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Editing profiles
+# Editing profiles{#editing-profiles}
 
 Editing profiles
 
-## Accessing profile properties
+## Accessing profile properties {#accessing-profile-properties}
 
 To edit an existing profile and consult the data associated to it, or modify it, the steps are as follows:
 
@@ -68,7 +68,7 @@ Related topic:
 
 [Sending at the recipient's time zone](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)
 
-## General profile data
+## General profile data {#general-profile-data}
 
 The **General** tab groups the following information about the profile:
 
@@ -79,13 +79,13 @@ The **General** tab groups the following information about the profile:
 
 ![](assets/profile_creation4.png)
 
-## Sending and tracking logs
+## Sending and tracking logs {#sending-and-tracking-logs}
 
 The **Sending logs** and **Tracking logs** tabs group the list of deliveries that were sent to the profile, and all related tracking data.
 
 For more on sending and tracking logs, refer to the [delivery logs](../../sending/using/monitoring-a-delivery.md#delivery-logs) and the [tracking messages](../../sending/using/tracking-messages.md) sections.
 
-## Subscriptions
+## Subscriptions {#subscriptions}
 
 The contact's subscriptions are listed in the corresponding tab. For more on subscribing to a service, refer to [this section](../../audiences/using/about-subscriptions.md).
 

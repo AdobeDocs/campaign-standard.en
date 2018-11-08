@@ -3,7 +3,7 @@ title: Creating and sending a push notification
 seo-title: Creating and sending a push notification
 description: Creating and sending a push notification
 seo-description: Follow these steps to create a single-send push notification in Adobe Campaign.
-uuid: 9549e187-e87d-40ea-96c7-82f41110a4d0
+uuid: 19a4e8bc-0636-4b22-b4a9-0a452f6cc1f4
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/creating-and-sending-a-push-notification
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 cq-template: /apps/help/templates/article-3
-discoiquuid: 05e69414-4b48-4f09-a8fd-6725ef1435bc
+discoiquuid: c6861a8e-a792-4f1a-b8c4-702e120d2d14
 firstPublishExternalDate: 2018-09-07T15:11:53.073-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,19 +32,19 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Creating and sending a push notification
 publishexternaldate: 2018-09-07T15 11 53.073-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/creating-and-sending-a-push-notification.html
-sha1: 0863db82f98ee3a84f788cd9ec9b970c911c2038
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/channels/using/creating-and-sending-a-push-notification.html"
+sha1: e17a2a30ef28ad9be2bf4c091fec1382823ddeb7
 topicBrowsingSortDate: 2018-09-07T15:11:53.073-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Creating and sending a push notification
+# Creating and sending a push notification{#creating-and-sending-a-push-notification}
 
 Creating and sending a push notification
 
-## Designing the notification
+## Designing the notification {#designing-the-notification}
 
 The steps for creating a push notification with Adobe Campaign are:
 
@@ -102,11 +102,11 @@ The steps for creating a push notification with Adobe Campaign are:
 
 [About SMS and push content edition](JMA_sect1_ndh_dg4_h2b)
 
-## Sending the notification
+## Sending the notification {#sending-the-notification}
 
 Once the push notification has been created and configured, you can perform tests and then send it to the selected audience.
 
-### Previewing the notification
+### Previewing the notification {#previewing-the-notification}
 
 Before sending the notification, you can test it with test profiles and then see exactly what your recipients will see before sending the delivery.
 
@@ -125,7 +125,7 @@ Before sending the notification, you can test it with test profiles and then see
    >
    >If the payload size exceeds 4KB limit, the message will not be delivered. Personalization data impacts the size of message.
 
-### Sending and tracking notifications
+### Sending and tracking notifications {#sending-and-tracking-notifications}
 
 Push notifications can be sent to a selected audience in Adobe Campaign by defining the audience criteria. For the example below, our selected audience consists of 4 targeted mobile app subscribers.
 

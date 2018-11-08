@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="2018-09-07T14:56:40.245-0400" name="firstPublishExternalDate" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="2018-09-07T14:56:40.245-0400" name="publishExternalDate" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="light" name="heroGradient" />
-  <meta content="2018-03-15T09:01:56.299-0400" name="jcr:created" />
-  <meta content="Step 1: Add extension fields to the profile resource" name="jcr:description" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="audience:developing" name="primaryAudienceTag" />
   <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="Step 1: Add extension fields to the profile resource" name="jcr:title" />
-  <meta content="https://helpx.adobe.com/campaign/standard/developing/using/step-1--add-extension-fields-to-the-profile-resource.html" name="publishExternalURL" />
-  <meta content="2018-09-07T14:56:41.781-0400" name="cq:lastReplicated" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:developing;content_type:reference;topic_tags:use-case--extending-the-api" name="cq:tags" />
-  <meta content="064196aa-67cf-484e-b35d-25c56841b362" name="jcr:uuid" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="Discover how to extend the profile resource." name="seoDescription" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="2018-09-10T02:19:11.568-0400" name="locHandOffDate" />
   <meta content="2018-09-10T02:19:11.569-0400" name="cq:lastModified" />
-  <meta content="2018-09-07T14:56:40.245-0400" name="lastPublishExternalDate" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="Step 1: Add extension fields to the profile resource" name="navTitle" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
   <meta content="2018-09-07T14:56:40.245-0400" name="topicBrowsingSortDate" />
+  <meta content="Step 1: Add extension fields to the profile resource" name="navTitle" />
+  <meta content="2018-09-10T02:19:11.568-0400" name="locHandOffDate" />
+  <meta content="Step 1: Add extension fields to the profile resource" name="jcr:description" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-09-07T14:56:40.245-0400" name="lastPublishExternalDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="light" name="heroGradient" />
+  <meta content="064196aa-67cf-484e-b35d-25c56841b362" name="jcr:uuid" />
+  <meta content="Discover how to extend the profile resource." name="seoDescription" />
+  <meta content="2018-03-15T09:01:56.299-0400" name="jcr:created" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="https://helpx.adobe.com/campaign/standard/developing/using/step-1--add-extension-fields-to-the-profile-resource.html" name="publishExternalURL" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-09-07T14:56:40.245-0400" name="firstPublishExternalDate" />
+  <meta content="2018-09-07T14:56:41.781-0400" name="cq:lastReplicated" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:developing;content_type:reference;topic_tags:use-case--extending-the-api" name="cq:tags" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
   <meta content="70678081-4e1a-4e10-98bf-41a00db60790" name="jcr:predecessors" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Step 1: Add extension fields to the profile resource" name="jcr:title" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="audience:developing" name="primaryAudienceTag" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="" name="jcr:primaryType" />
   <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-09-07T14:56:40.245-0400" name="publishExternalDate" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
  </head>
  <body>
   <ol>

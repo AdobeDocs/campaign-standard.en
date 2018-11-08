@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/workflow-interface.html" name="publishExternalURL" />
-  <meta content="Workflow interface" name="jcr:title" />
-  <meta content="Workflow interface" name="navTitle" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="2018-09-10T07:22:33.778-0400" name="cq:lastModified" />
-  <meta content="2018-03-15T09:01:21.688-0400" name="jcr:created" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="bf8f91e4-d904-4162-b453-06f5fa9c15cc" name="jcr:uuid" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:about-workflows-and-data-management" name="cq:tags" />
-  <meta content="audience:automating" name="primaryAudienceTag" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="4e4519e9-c15a-48fd-acb7-41b2b34a5184" name="jcr:predecessors" />
-  <meta content="Workflow interface" name="jcr:description" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="2018-09-07T14:44:39.260-0400" name="lastPublishExternalDate" />
   <meta content="" name="jcr:versionHistory" />
-  <meta content="2018-09-07T14:44:41.605-0400" name="cq:lastReplicated" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="2018-09-07T14:44:39.260-0400" name="publishExternalDate" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="Learn the interface and options to create, edit and execute a workflow." name="seoDescription" />
   <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="2018-09-07T14:44:39.260-0400" name="topicBrowsingSortDate" />
-  <meta content="light" name="heroGradient" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="Workflow interface" name="navTitle" />
+  <meta content="admin" name="jcr:createdBy" />
   <meta content="2018-09-07T14:44:39.260-0400" name="firstPublishExternalDate" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Workflow interface" name="jcr:description" />
+  <meta content="bf8f91e4-d904-4162-b453-06f5fa9c15cc" name="jcr:uuid" />
+  <meta content="2018-09-07T14:44:39.260-0400" name="lastPublishExternalDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-09-07T14:44:39.260-0400" name="topicBrowsingSortDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2018-03-15T09:01:21.688-0400" name="jcr:created" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="Workflow interface" name="jcr:title" />
+  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/workflow-interface.html" name="publishExternalURL" />
   <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-09-10T07:22:33.778-0400" name="cq:lastModified" />
   <meta content="2018-09-10T07:22:33.776-0400" name="locHandOffDate" />
+  <meta content="Learn the interface and options to create, edit and execute a workflow." name="seoDescription" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-09-07T14:44:39.260-0400" name="publishExternalDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="audience:automating" name="primaryAudienceTag" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="4e4519e9-c15a-48fd-acb7-41b2b34a5184" name="jcr:predecessors" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="2018-09-07T14:44:41.605-0400" name="cq:lastReplicated" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:about-workflows-and-data-management" name="cq:tags" />
  </head>
  <body>
   <p>You can create workflows to manage entire processes in your campaigns and programs.</p> 

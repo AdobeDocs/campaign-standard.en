@@ -3,7 +3,7 @@ title: Content design best practices
 seo-title: Content design best practices
 description: Content design best practices
 seo-description: Read about these guidelines to ensure the editor's optimal operation.
-uuid: 1321b284-26b0-4266-bbe8-47d2d0b4c962
+uuid: 4d3c5e85-658b-4649-8703-28cad6b30018
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/content-design-best-practices
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: about-content-design
 cq-template: /apps/help/templates/article-3
-discoiquuid: fdf5adf4-dc07-42a5-8246-faf9040025ec
+discoiquuid: 0415d7c5-8307-490c-8745-da7956ff9407
 firstPublishExternalDate: 2018-09-07T14:45:25.442-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,15 +32,15 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Content design best practices
 publishexternaldate: 2018-09-07T14 45 25.442-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/content-design-best-practices.html
-sha1: 3a17e290af2ae71b9e0bac6fdcc12c5cd5734063
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/designing/using/content-design-best-practices.html"
+sha1: cc803d8164acf0f19f5477c702857ffda5f40601
 topicBrowsingSortDate: 2018-09-07T14:45:25.442-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Content design best practices
+# Content design best practices{#content-design-best-practices}
 
 Content design best practices
 

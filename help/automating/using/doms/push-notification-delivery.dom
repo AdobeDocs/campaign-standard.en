@@ -1,40 +1,40 @@
 <html> 
  <head> 
-  <meta content="2018-09-07T15:06:34.676-0400" name="lastPublishExternalDate" /> 
-  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
-  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
   <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
   <meta content="audience:automating" name="primaryAudienceTag" /> 
   <meta content="true" name="jcr:isCheckedOut" /> 
-  <meta content="sauviat" name="contentOwner" /> 
-  <meta content="2018-09-10T07:27:17.060-0400" name="cq:lastModified" /> 
-  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
-  <meta content="Push notification delivery" name="navTitle" /> 
-  <meta content="" name="jcr:baseVersion" /> 
-  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/push-notification-delivery.html" name="publishExternalURL" /> 
-  <meta content="/etc/designs/help" name="cq:designPath" /> 
-  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
-  <meta content="light" name="heroGradient" /> 
-  <meta content="" name="jcr:versionHistory" /> 
-  <meta content="2018-09-07T15:06:34.676-0400" name="firstPublishExternalDate" /> 
-  <meta content="90d4df7f-7354-4f0c-afa1-82579f695da5" name="jcr:uuid" /> 
-  <meta content="en_us" name="jcr:language" /> 
-  <meta content="41d5055e-bad4-44c2-8aa1-0f70b0407331" name="jcr:predecessors" /> 
-  <meta content="2018-11-06T09:43:15.112-0500" name="jcr:created" /> 
-  <meta content="2018-09-10T07:27:17.059-0400" name="locHandOffDate" /> 
-  <meta content="2018-09-07T15:06:35.942-0400" name="cq:lastReplicated" /> 
-  <meta content="2018-09-07T15:06:34.676-0400" name="topicBrowsingSortDate" /> 
-  <meta content="false" name="isReadyForLocalization" /> 
   <meta content="sauviat" name="cq:lastReplicatedBy" /> 
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
-  <meta content="" name="jcr:primaryType" /> 
-  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="41d5055e-bad4-44c2-8aa1-0f70b0407331" name="jcr:predecessors" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-09-07T15:06:34.676-0400" name="lastPublishExternalDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
   <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:channel-activities" name="cq:tags" /> 
-  <meta content="Push notification delivery" name="jcr:title" /> 
-  <meta content="The Push notification delivery activity allows you to configure sending a single send push notification or a recurring push notification in a workflow." name="seoDescription" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="Push notification delivery" name="navTitle" /> 
   <meta content="2018-09-07T15:06:34.676-0400" name="publishExternalDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-09-07T15:06:35.942-0400" name="cq:lastReplicated" /> 
+  <meta content="2018-11-06T09:43:15.112-0500" name="jcr:created" /> 
+  <meta content="The Push notification delivery activity allows you to configure sending a single send push notification or a recurring push notification in a workflow." name="seoDescription" /> 
+  <meta content="2018-09-07T15:06:34.676-0400" name="topicBrowsingSortDate" /> 
   <meta content="Push notification delivery" name="jcr:description" /> 
+  <meta content="2018-09-07T15:06:34.676-0400" name="firstPublishExternalDate" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="90d4df7f-7354-4f0c-afa1-82579f695da5" name="jcr:uuid" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="2018-09-10T07:27:17.059-0400" name="locHandOffDate" /> 
+  <meta content="2018-09-10T07:27:17.060-0400" name="cq:lastModified" /> 
+  <meta content="Push notification delivery" name="jcr:title" /> 
+  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/push-notification-delivery.html" name="publishExternalURL" /> 
  </head> 
  <body> 
   <h2>Description</h2> 

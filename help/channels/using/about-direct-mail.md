@@ -3,7 +3,7 @@ title: About direct mail
 seo-title: About direct mail
 description: About direct mail
 seo-description: Discover the main specificities of the direct mail channel in Adobe Campaign.
-uuid: 4b3b7c58-a900-49aa-bd0b-aa370c557dc3
+uuid: e7790b90-7ae1-470d-970e-670b51f579aa
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/about-direct-mail
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: channels
 content-type: reference
 topic-tags: direct-mail
 cq-template: /apps/help/templates/article-3
-discoiquuid: 9e4106aa-790f-40b0-9b87-f2fc8eec4f19
+discoiquuid: 7a151358-1eab-4789-8ffe-839e702632c5
 firstPublishExternalDate: 2018-09-07T15:12:23.625-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,15 +32,15 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About direct mail
 publishexternaldate: 2018-09-07T15 12 23.625-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/about-direct-mail.html
-sha1: fbd1e535d65a7d217c13c2d38264bc6561645243
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/channels/using/about-direct-mail.html"
+sha1: 8d10168a9b9b27291137519a074692688653d8fa
 topicBrowsingSortDate: 2018-09-07T15:12:23.625-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# About direct mail
+# About direct mail{#about-direct-mail}
 
 About direct mail
 
@@ -62,9 +62,9 @@ The user process in Adobe Campaign is as follows:
 1. Setting the contact date
 1. Generating the file
 
-## Recommendations
+## Recommendations {#recommendations}
 
-### Direct mail providers
+### Direct mail providers {#direct-mail-providers}
 
 First of all, you need to reach out to your direct mail provider and collect their recommendations. Identify what profile information needs to be included in the extraction file so that they can personalize the communication and send it to the audience. For example, the first and last name, the postal address, a promotion code, etc. These fields are the ones that you will add in the [Defining the extraction](../../channels/using/defining-the-direct-mail-content.md#defining-the-extraction) tab of the direct mail's content.
 
@@ -72,7 +72,7 @@ Make sure you have checked the **Address specified** box in your profiles' infor
 
 ![](assets/direct_mail_22.png)
 
-### Postal addresses
+### Postal addresses {#postal-addresses}
 
 When you add the fields to include in the extraction file, the postal address fields are available in the **Location** node.
 

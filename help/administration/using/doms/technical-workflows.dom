@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="Technical workflows" name="navTitle" />
-  <meta content="audience:administration" name="primaryAudienceTag" />
-  <meta content="Technical workflows" name="jcr:description" />
-  <meta content="c483fabc-516a-46d8-9a87-a922549930cf" name="jcr:predecessors" />
-  <meta content="2018-09-07T15:04:10.785-0400" name="cq:lastReplicated" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="2018-09-07T15:04:08.323-0400" name="lastPublishExternalDate" />
-  <meta content="https://helpx.adobe.com/campaign/standard/administration/using/technical-workflows.html" name="publishExternalURL" />
-  <meta content="Technical workflows" name="jcr:title" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="2018-02-16T08:03:03.599-0500" name="jcr:created" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
   <meta content="admin" name="jcr:createdBy" />
-  <meta content="light" name="heroGradient" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="2018-09-07T15:04:08.323-0400" name="topicBrowsingSortDate" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="Technical workflows are out-of-the-box workflows designed to handle background technical processes in Adobe Campaign, ensuring correct behaviour of the platform." name="seoDescription" />
-  <meta content="2018-09-10T07:26:32.487-0400" name="locHandOffDate" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="2018-09-07T15:04:08.323-0400" name="publishExternalDate" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="2018-09-10T07:26:32.489-0400" name="cq:lastModified" />
   <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="2018-09-07T15:04:08.323-0400" name="firstPublishExternalDate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-09-07T15:04:08.323-0400" name="topicBrowsingSortDate" />
+  <meta content="c483fabc-516a-46d8-9a87-a922549930cf" name="jcr:predecessors" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
   <meta content="products:SG_CAMPAIGN/STANDARD;audience:administration;content_type:reference;topic_tags:application-settings" name="cq:tags" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2018-09-07T15:04:08.323-0400" name="firstPublishExternalDate" />
+  <meta content="2018-09-07T15:04:08.323-0400" name="publishExternalDate" />
+  <meta content="Technical workflows" name="navTitle" />
+  <meta content="en_us" name="jcr:language" />
   <meta content="0e63e14c-e281-4446-b607-dc6b5330b80f" name="jcr:uuid" />
+  <meta content="Technical workflows" name="jcr:title" />
+  <meta content="2018-09-10T07:26:32.489-0400" name="cq:lastModified" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="audience:administration" name="primaryAudienceTag" />
+  <meta content="2018-09-10T07:26:32.487-0400" name="locHandOffDate" />
+  <meta content="2018-09-07T15:04:08.323-0400" name="lastPublishExternalDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
   <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="Technical workflows" name="jcr:description" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="2018-02-16T08:03:03.599-0500" name="jcr:created" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-09-07T15:04:10.785-0400" name="cq:lastReplicated" />
+  <meta content="Technical workflows are out-of-the-box workflows designed to handle background technical processes in Adobe Campaign, ensuring correct behaviour of the platform." name="seoDescription" />
+  <meta content="https://helpx.adobe.com/campaign/standard/administration/using/technical-workflows.html" name="publishExternalURL" />
+  <meta content="false" name="isReadyForLocalization" />
  </head>
  <body>
   <p>Technical workflows are delivered out-of-the-box with Adobe Campaign. Technical workflows are operations or jobs scheduled to be executed on a regular basis on the server.</p> 

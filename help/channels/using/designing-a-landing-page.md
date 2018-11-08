@@ -3,7 +3,7 @@ title: Designing a landing page
 seo-title: Designing a landing page
 description: Designing a landing page
 seo-description: Follow these steps to design the content of a landing page and link it to a service.
-uuid: aa3b602f-5c60-48a2-a825-4ee05afa8849
+uuid: 2954368a-d8b8-494e-9e14-715f0d0bd690
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/designing-a-landing-page
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 cq-template: /apps/help/templates/article-3
-discoiquuid: dde4ae7f-2323-4381-97c0-0bcb358aa573
+discoiquuid: e425ddea-4213-4f68-bdd3-e762e257f381
 firstPublishExternalDate: 2018-09-07T15:12:35.071-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,19 +32,19 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Designing a landing page
 publishexternaldate: 2018-09-07T15 12 35.071-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/designing-a-landing-page.html
-sha1: 0bb7d39e2d95d51210dabfe0986dbf4d5f9c38d5
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/channels/using/designing-a-landing-page.html"
+sha1: 2d96dcc081e4e3ac7b9c5180dd7dbe5c9b502d2d
 topicBrowsingSortDate: 2018-09-07T15:12:35.071-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Designing a landing page
+# Designing a landing page{#designing-a-landing-page}
 
 Designing a landing page
 
-## About content design
+## About content design {#about-content-design}
 
 Landing pages are created as any other [marketing activity](../../start/using/marketing-activities.md#about-marketing-activities).
 
@@ -58,7 +58,7 @@ Use the switcher under the action bar to display and configure each of these pag
 
 The content of these pages is designed through Campaign content editor. Refer to [Design content](../../designing/using/about-landing-page-content-design.md).
 
-## Mapping form fields
+## Mapping form fields {#mapping-form-fields}
 
 Input fields are used to store or update data in Campaign database. For this, you need to link database fields with input zone, radio button, or checkbox type blocks. To do this:
 
@@ -79,7 +79,7 @@ Input fields are used to store or update data in Campaign database. For this, yo
 >
 >The default fields of the out-of-box landing pages are preconfigured. You can modify them as needed.
 
-## Submitting the form
+## Submitting the form {#submitting-the-form}
 
 You can select the action to perform when the visitor clicks the submit button. To do this:
 
@@ -98,7 +98,7 @@ In addition, you can change the label of the button or configure a specific link
 
    ![](assets/lp_link_custom.png)
 
-## Linking a form to a service
+## Linking a form to a service {#linking-a-form-to-a-service}
 
 You can link a form to a service so that profiles can subscribe to a specific service when validating the landing pages.
 
@@ -118,7 +118,7 @@ In order to select the service to link, you need to:
 
    Use the **Specified service in the URL** option to allow the landing page to be used for several services. You therefore must reference the landing page when configuring the service.
 
-### Confirm a landing page submission
+### Confirm a landing page submission {#confirm-a-landing-page-submission}
 
 When a landing page is submitted by a visitor, you can configure the actions triggered. To do this:
 
@@ -134,7 +134,7 @@ When a landing page is submitted by a visitor, you can configure the actions tri
 
    ![](assets/lp_parameters_6.png)
 
-## Setting permissions and pre-loading data
+## Setting permissions and pre-loading data {#setting-permissions-and-pre-loading-data}
 
 Access to a landing page can be restricted to identified visitors, who come from a link in a message sent by Campaign for example. In this case, you can preload their data in the landing page. To do this:
 

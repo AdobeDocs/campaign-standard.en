@@ -3,7 +3,7 @@ title: Transfer file
 seo-title: Transfer file
 description: Transfer file
 seo-description: The Transfer file activity allows you to receive or send files, test whether there are files present, or list files in Adobe Campaign.
-uuid: 5cd4621e-16da-4638-9dc3-5c92db6207e6
+uuid: 58545e35-bd15-4031-b9dc-d33303f32dc4
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/transfer-file
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: 1e2acb11-0616-464a-96d7-97fbc357c383
+discoiquuid: c7d4e807-0f6d-4a33-9edf-d2dc94cba8bd
 firstPublishExternalDate: 2018-09-07T15:08:25.595-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,31 +32,31 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Transfer file
 publishexternaldate: 2018-09-07T15 08 25.595-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/transfer-file.html
-sha1: ecf6911ca3533b970ed4187e3016b956cc1de059
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/transfer-file.html"
+sha1: af8c687ad2174d5d53dc278aef82a3fe5c8a5683
 topicBrowsingSortDate: 2018-09-07T15:08:25.595-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Transfer file
+# Transfer file{#transfer-file}
 
 Transfer file
 
-## Description
+## Description {#description}
 
 ![](assets/file_transfer.png)
 
 The **Transfer file** activity allows you to receive or send files, test whether there are files present, or list files in Adobe Campaign.
 
-## Context of use
+## Context of use {#context-of-use}
 
 The way in which the data will be extracted is defined when the activity is configured. The file to load may be a list of contacts, for example.
 
 You can use this activity to recover data that will then be structured with the **Load file** activity.
 
-## Configuration
+## Configuration {#configuration}
 
 1. Drop a **Transfer file** activity into your workflow.
 1. Select the activity, then open it using the  ![](assets/edit_darkgrey-24px.png)
@@ -129,7 +129,7 @@ You can use this activity to recover data that will then be structured with the 
 
 1. Confirm the configuration of your activity and save your workflow.
 
-## Historization settings
+## Historization settings {#historization-settings}
 
 Every time a **Transfer file** activity is executed, it stores the uploaded or downloaded files in a dedicated folder. One folder is created for each **Transfer file** activity of a workflow. Therefore, it is important to be able to limit the size of this folder in order to preserve physical space on the server.
 
@@ -147,7 +147,7 @@ Every time the activity is executed, the folder is checked as follows:
 >
 >If the activity is not executed again, its folder will not be checked nor purged. With this in mind, be cautious when transferring large files.
 
-## Example
+## Example {#example}
 
 The following example shows the configuration of a **File transfer** activity which will then be followed by a **Load file** activity then an **Update data** activity. The goal of this workflow is to add or update the Adobe Campaign database profiles with the data recovered by the workflow.
 

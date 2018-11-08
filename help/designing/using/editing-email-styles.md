@@ -3,7 +3,7 @@ title: Editing email styles
 seo-title: Editing email styles
 description: Editing email styles
 seo-description: Quickly edit the style of your email through the UI with easily accessible settings.
-uuid: ab497ca8-46c3-4f24-9b74-84b034981451
+uuid: 08119d23-8c6a-4ec8-a44d-ef0661e7eeaa
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/editing-email-styles
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: b76b1ddb-a52a-4538-befc-3536bea1a508
+discoiquuid: 075afdc5-13d0-4667-bc3b-412c6a0cc9d2
 firstPublishExternalDate: 2018-09-07T14:48:43.279-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,23 +32,23 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Editing email styles
 publishexternaldate: 2018-09-07T14 48 43.279-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/editing-email-styles.html
-sha1: 2ad2096e68fa190d2194e14627cf1f116e25dae6
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/designing/using/editing-email-styles.html"
+sha1: 88c1a2e19ae1ce1d1b5dc704af3ccf1aa5561498
 topicBrowsingSortDate: 2018-09-07T14:48:43.279-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Editing email styles
+# Editing email styles{#editing-email-styles}
 
 Editing email styles
 
-## Editing an element with the Creative Designer
+## Editing an element with the Creative Designer {#editing-an-element-with-the-creative-designer}
 
 In the Creative Designer, when selecting an element, several options specific to the type of content selected are displayed in the **Settings** pane. You can use these options to easily change the style of your email.
 
-### Selecting an element
+### Selecting an element {#selecting-an-element}
 
 To select an element in the Creative Designer interface, you can either:
 
@@ -72,7 +72,7 @@ To select a column, you can also do the following:
 
 See an example in [this section](../../designing/using/editing-email-styles.md#example--adjusting-vertical-alignment-and-padding).
 
-### Adjusting style settings
+### Adjusting style settings {#adjusting-style-settings}
 
 1. Select an element in your email. For more on this, see [this section](../../designing/using/editing-email-styles.md#selecting-an-element).
 1. Adjust the settings according to your needs. Each selected element offers a different set of settings.
@@ -85,7 +85,7 @@ See an example in [this section](../../designing/using/editing-email-styles.md#e
 
 1. Save your content.
 
-### About padding and margin
+### About padding and margin {#about-padding-and-margin}
 
 The Creative Designer interface allows you to quickly adjust padding and margin settings.
 
@@ -105,7 +105,7 @@ For both **Padding** and **Margin**, click the lock icon to break synchronizatio
 
 ![](assets/des_padding_lock_icon.png)
 
-### Example: adjusting vertical alignment and padding
+### Example: adjusting vertical alignment and padding {#example-adjusting-vertical-alignment-and-padding}
 
 You want to adjust padding and vertical alignment inside a structure component composed of three columns. To do this, follow the steps below:
 
@@ -134,7 +134,7 @@ You want to adjust padding and vertical alignment inside a structure component c
 
 1. Save your changes.
 
-## Adding inline styling attributes in the Creative Designer
+## Adding inline styling attributes in the Creative Designer {#adding-inline-styling-attributes-in-the-creative-designer}
 
 In the Creative Designer interface, when you select an element and display its settings on the side panel, you can customize the inline attributes and their value for that specific element.
 
@@ -147,6 +147,6 @@ In the Creative Designer interface, when you select an element and display its s
 
 The styling is then applied to the selected element. If the child elements do not have specific styling attributes defined, the styling of the parent element is inherited.
 
-## Managing email style with the content editor
+## Managing email style with the content editor {#managing-email-style-with-the-content-editor}
 
 Customizing the style of an email within the content editor is similar to editing this element in a landing page. See [Managing landing page structure and style](../../designing/using/managing-landing-page-structure-and-style.md).

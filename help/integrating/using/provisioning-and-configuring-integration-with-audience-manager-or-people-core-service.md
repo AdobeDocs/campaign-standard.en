@@ -3,7 +3,7 @@ title: Provisioning and configuring integration with Audience Manager or People 
 seo-title: Provisioning and configuring integration with Audience Manager or People core service
 description: Provisioning and configuring integration with Audience Manager or People core service
 seo-description: Learn how to configure the Audience Manager / People core service integration to start sharing audiences or segments with the different Adobe Experience Cloud solutions. 
-uuid: be796c48-da02-4da0-b4eb-f96dd2493f84
+uuid: 2ce1f0c3-88d9-4bdb-a00f-80c0d9fd028c
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 cq-template: /apps/help/templates/article-3
-discoiquuid: 34aa1740-9cc0-4d59-a676-d17adfa1e211
+discoiquuid: 1093bc3b-11ed-437c-b398-1400eeca7bd9
 firstPublishExternalDate: 2018-09-07T15:07:11.823-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,21 +32,21 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Provisioning and configuring integration with Audience Manager or People core service
 publishexternaldate: 2018-09-07T15 07 11.823-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.html
-sha1: 6588d658daae4ffa35d35e380279255568048959
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.html"
+sha1: 212a8227a98776246efebcbe10660b53577939d6
 topicBrowsingSortDate: 2018-09-07T15:07:11.823-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Provisioning and configuring integration with Audience Manager or People core service
+# Provisioning and configuring integration with Audience Manager or People core service{#provisioning-and-configuring-integration-with-audience-manager-or-people-core-service}
 
 Provisioning and configuring integration with Audience Manager or People core service
 
 The provisioning and configuring of Audience Manager and People core in Adobe Campaign take two steps: [Submitting request to Adobe](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#submitting-request-to-adobe) then [Configuring the integration in Adobe Campaign](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#configuring-the-integration-in-adobe-campaign).
 
-## Submitting request to Adobe
+## Submitting request to Adobe {#submitting-request-to-adobe}
 
 Audience Manager (AAM) or People core service integration lets you import and export audiences or segments in Adobe Campaign.
 
@@ -87,7 +87,7 @@ This integration must first be configured. To request provisioning of this integ
 
 &#42; You can find your IMS Org ID on the Experience Cloud, in the **Administration** menu. It is also provided when you first connect to the Adobe Experience Cloud.
 
-## Configuring the integration in Adobe Campaign
+## Configuring the integration in Adobe Campaign {#configuring-the-integration-in-adobe-campaign}
 
 After submitting this request, Adobe will proceed to the provisioning of the integration for you and contact you to provide details and information that you have to finalize the configuration:
 
@@ -96,7 +96,7 @@ After submitting this request, Adobe will proceed to the provisioning of the int
 * [Step 3: Configure Campaign Tracking server](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-3--configure-campaign-tracking-server)
 * [Step 4: Configure the Visitor ID Service](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-4--configure-the-visitor-id-service)
 
-### Step 1: Configure or check the external accounts in Adobe Campaign
+### Step 1: Configure or check the external accounts in Adobe Campaign {#step-configure-or-check-the-external-accounts-in-adobe-campaign}
 
 We first need to configure or check the external accounts in Adobe Campaign. These accounts should have been configured by Adobe and the necessary information should have been communicated to you.
 
@@ -113,7 +113,7 @@ To do so:
 
 Your external accounts are now configured for this integration.
 
-### Step 2: Configure the Data Sources
+### Step 2: Configure the Data Sources {#step-configure-the-data-sources}
 
 The two following data sources are created inside Audience manager: Adobe Campaign (MID) and Adobe Campaign (DeclaredId). At the same time, these two data sources are available in Adobe Campaign:
 
@@ -147,13 +147,13 @@ To create the **Declared ID** data source:
 >
 >The **AAM Destination ID** field is not required if you are configuring the shared data source for the [Campaign-Triggers integration](../../integrating/using/configuring-triggers-in-experience-cloud.md). **Priority** is only needed when configuring the Triggers - Campaign integration. Priority decides which Data Source will be configured first. Priority can be any number such as 1 or 100. The higher the priority, the higher the preference during reconciliation.
 
-### Step 3: Configure Campaign Tracking server
+### Step 3: Configure Campaign Tracking server {#step-configure-campaign-tracking-server}
 
 For the configuration of the integration with People Core service or Audience manager, we also need to configure Campaign Tracking server.
 
 Here, you need to make sure the Campaign Tracking Server is registered on the domain (CNAME). You can find more information about domain name delegation in [this article](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/Technotes/AdobeCampaign_Deliverability_Sub_Domain_Delegation.pdf).
 
-### Step 4: Configure the Visitor ID Service
+### Step 4: Configure the Visitor ID Service {#step-configure-the-visitor-id-service}
 
 In the case that your Visitor ID service has never been configured on your web properties or websites, refer to the following [document](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-aam-analytics.html) to learn how to configure your service or the following [video](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two) .
 

@@ -3,7 +3,7 @@ title: About transactional messaging
 seo-title: About transactional messaging
 description: About transactional messaging
 seo-description: Discover the different types of transactional messages you can send and how they are used in Adobe Campaign.
-uuid: 530f6f21-0d51-4b24-9b27-7fd0e691f422
+uuid: 0181d7c3-76f0-4913-a926-738712ba8930
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/about-transactional-messaging
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 cq-template: /apps/help/templates/article-3
-discoiquuid: 9d39a8e1-d85b-41aa-8247-5c33e651005b
+discoiquuid: 6e03c72d-f1ac-49ab-8f32-1a0a48100632
 firstPublishExternalDate: 2018-09-07T15:12:28.665-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,15 +32,15 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About transactional messaging
 publishexternaldate: 2018-09-07T15 12 28.665-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/about-transactional-messaging.html
-sha1: 1f9e37df5acfc1097e54c657314a23d09c62040c
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/channels/using/about-transactional-messaging.html"
+sha1: 72d02d5215529077a17677eaea3e744a5c3f7a3d
 topicBrowsingSortDate: 2018-09-07T15:12:28.665-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# About transactional messaging
+# About transactional messaging{#about-transactional-messaging}
 
 About transactional messaging
 
@@ -69,7 +69,7 @@ The message type is defined when configuring the event that will be transformed 
 >
 >Adobe Campaign prioritizes processing the transactional messages over any other delivery.
 
-## Transactional messaging operating principle
+## Transactional messaging operating principle {#transactional-messaging-operating-principle}
 
 Let's take the example of a company that has a website and on this website its users can buy products.
 

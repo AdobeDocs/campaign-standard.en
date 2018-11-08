@@ -3,7 +3,7 @@ title: About In-App messaging
 seo-title: About In-App messaging
 description: About In-App messaging
 seo-description: Display message or alert within the application with In-App messaging.
-uuid: 0cb45c89-2b65-449c-a2fe-ef259c3a141d
+uuid: 99a0f899-96a6-4458-9b91-a55b30bfc5d9
 content-encoding: UTF-8
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/about-in-app-messaging
 contentOwner: sauviat
@@ -18,7 +18,7 @@ audience: channels
 content-type: reference
 topic-tags: in-app-messaging
 cq-template: /apps/help/templates/article-3
-discoiquuid: 5f9e6605-91b8-4226-9c4d-6009f97aef7f
+discoiquuid: 4c62d141-dab3-4d92-8112-2b3d0f6565d8
 firstPublishExternalDate: 2018-09-07T15:11:59.003-0400
 firstpublishinternaldate: 2018-10-23T18 35 28.993-0400
 herogradient: light
@@ -35,17 +35,17 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: beneat@adobe.com
 navTitle: About In-App messaging
 publishexternaldate: 2018-10-23T18 35 28.993-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/about-in-app-messaging.html
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/channels/using/about-in-app-messaging.html"
 publishinternaldate: 2018-10-23T18 35 28.993-0400
 publishinternalurl: https //helpx-internal.corp.adobe.com/content/help/en/campaign/standard/channels/using/about-in-app-messaging.html
-sha1: fcf9afce6ed582bfe94631daf9d87dab22ee807d
+sha1: 13f786d9351dfff96cc0b6880f0b068442ecbfc1
 topicBrowsingSortDate: 2018-10-23T18:35:28.993-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# About In-App messaging
+# About In-App messaging{#about-in-app-messaging}
 
 About In-App messaging
 

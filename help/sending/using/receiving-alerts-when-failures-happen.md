@@ -3,7 +3,7 @@ title: Receiving alerts when failures happen
 seo-title: Receiving alerts when failures happen
 description: Receiving alerts when failures happen
 seo-description: Learn how to use the alert management system.
-uuid: 5fb38256-5254-48cc-a616-2781d2d9c81c
+uuid: abe1a4c6-cba5-46a3-b1cb-d5b7282dfe5f
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/sending/using/receiving-alerts-when-failures-happen
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 cq-template: /apps/help/templates/article-3
-discoiquuid: 57d123b5-9520-4aa3-bebb-9e4a28d5c5c1
+discoiquuid: 1082fff5-39c2-42f5-82f2-4b9e26e58561
 firstPublishExternalDate: 2018-09-07T15:11:36.047-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,19 +33,19 @@ lr-lastreplicatedby: sauviat@adobe.com
 moreHelpPaths: /content/help/en/campaign/standard/sending/morehelp/monitoring-messages;/content/help/en/campaign/standard/sending/morehelp/monitoring-messages
 navTitle: Receiving alerts when failures happen
 publishexternaldate: 2018-09-07T15 11 36.047-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/sending/using/receiving-alerts-when-failures-happen.html
-sha1: bc89ff4f6a70cf359109331843f629b35766f46d
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/sending/using/receiving-alerts-when-failures-happen.html"
+sha1: 59c5461816c1a0ab122bda1833578b11ffdc8683
 topicBrowsingSortDate: 2018-09-07T15:11:36.047-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Receiving alerts when failures happen
+# Receiving alerts when failures happen{#receiving-alerts-when-failures-happen}
 
 Receiving alerts when failures happen
 
-## About delivery alerting
+## About delivery alerting {#about-delivery-alerting}
 
 The **Delivery alerting** feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries.
 
@@ -74,9 +74,9 @@ The notifications sent contain:
 
 ![](assets/delivery-alerting_notification.png)
 
-## Delivery alerting dashboards
+## Delivery alerting dashboards {#delivery-alerting-dashboards}
 
-### About delivery alerting dashboards
+### About delivery alerting dashboards {#about-delivery-alerting-dashboards}
 
 To manage the notifications' recipients, define the alerting criteria and access the history of the alerts, you need to use dashboards.
 
@@ -99,7 +99,7 @@ From the Adobe Campaign interface, you can:
 
 ![](assets/delivery-alerting_dashboard.png)
 
-### Creating a delivery alerting dashboard
+### Creating a delivery alerting dashboard {#creating-a-delivery-alerting-dashboard}
 
 If you want to send notifications based on specific criteria to different groups of users, you need to use several dashboards. To create a new dashboard:
 
@@ -118,9 +118,9 @@ If you want to send notifications based on specific criteria to different groups
 
 Now each time a delivery meets the criteria that you defined in this dashboard, an alerting notification will be sent to the specified group of users.
 
-## Delivery alerting criteria
+## Delivery alerting criteria {#delivery-alerting-criteria}
 
-### About alerting criteria
+### About alerting criteria {#about-alerting-criteria}
 
 To access the delivery alerting criteria, go to **Administration** > **Channels** > **Delivery alerting** and select **Delivery alerting criteria**.
 
@@ -164,7 +164,7 @@ For each criterion, you can define the following settings:
 * [Alerting frequency](../../sending/using/receiving-alerts-when-failures-happen.md#alerting-frequency)
 * [Marketing activity icons and statuses](../../start/using/marketing-activities.md#marketing-activity-icons-and-statuses)
 
-### Creating a delivery alerting criterion
+### Creating a delivery alerting criterion {#creating-a-delivery-alerting-criterion}
 
 You can create new delivery alerting criteria to better suit your needs.
 
@@ -208,9 +208,9 @@ Once created, these criteria can be added to a delivery alerting dashboard as we
 
 [Adding or extending a resource](../../developing/using/key-steps.md)
 
-## Delivery alerting parameters
+## Delivery alerting parameters {#delivery-alerting-parameters}
 
-### Criteria parameters
+### Criteria parameters {#criteria-parameters}
 
 In the **Criteria parameters** tab of a [delivery alerting dashboard](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-dashboard), you can define the settings that apply to the criteria selected in this dashboard.
 
@@ -235,7 +235,7 @@ In the **Criteria parameters** tab of a [delivery alerting dashboard](../../send
 * **Minimum expected throughput (in sent messages per hour)**: Only deliveries with a throughput lower than the specified value are taken into account for the **Deliveries with low throughput** criterion.
 * **Minimum processed ratio required for 'Deliveries in progress' criterion**: Only deliveries with a percentage of processed messages higher than the specified percentage are taken into account.
 
-### Alerting frequency
+### Alerting frequency {#alerting-frequency}
 
 The **Frequency of delivery alerting** option allows to define the delay between two alert sendings. By default, it is set to 10 minutes.
 
@@ -245,7 +245,7 @@ You can change this setting through the **Administration** > **Application setti
 >
 >This option applies to all dashboards defined in Adobe Campaign. You cannot set a specific frequency for each dashboard.
 
-## Delivery alerting reasons
+## Delivery alerting reasons {#delivery-alerting-reasons}
 
 The **Delivery alerting** feature keeps all of your involved Adobe Campaign users automatically informed about the delivery execution status, via email and dashboard.
 

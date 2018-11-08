@@ -3,7 +3,7 @@ title: Targeting data
 seo-title: Targeting data
 description: Targeting data
 seo-description: Learn the different ways to target and select the data you need.
-uuid: ef320a4f-f7f1-417f-8c3e-a74a6c32fb65
+uuid: 4049f11b-384e-4f0a-a03d-e36f7e4edf7f
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/targeting-data
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 cq-template: /apps/help/templates/article-3
-discoiquuid: 69730489-f644-413f-b6f4-3d1d1f3d3a71
+discoiquuid: a0a9f58d-7cb9-4896-ba11-93c1ab9adf39
 firstPublishExternalDate: 2018-09-07T14:46:47.744-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,19 +32,19 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Targeting data
 publishexternaldate: 2018-09-07T14 46 47.744-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/targeting-data.html
-sha1: 2e711cfa2b0816802daf729170eeca34c123cdda
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/targeting-data.html"
+sha1: 69be234d6422a4cbaea791058bd3a1f72d832782
 topicBrowsingSortDate: 2018-09-07T14:46:47.744-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Targeting data
+# Targeting data{#targeting-data}
 
 Targeting data
 
-## Selecting data
+## Selecting data {#selecting-data}
 
 You can select data using the following activities:
 
@@ -52,7 +52,7 @@ You can select data using the following activities:
 * The **Incremental query** activity allows you to filter and extract a population of elements from the Adobe Campaign database. Each time this activity is executed, the results from the previous executions are excluded. This allows you to target only new elements.
 * The **Read audience** activity allows you to retrieve an existing audience and to refine it by applying additional filtering conditions.
 
-## Segmenting data
+## Segmenting data {#segmenting-data}
 
 Adobe Campaign lets you process sets on inbound data. You can thus combine several populations, exclude part of it or only keep data common to several targets.
 
@@ -61,7 +61,7 @@ Adobe Campaign lets you process sets on inbound data. You can thus combine sever
 * The **Exclusion ** activity allows you to exclude elements from one population according to certain criteria.
 * The **Segmentation** activity lets you create one or several segments from a population calculated by activities placed earlier in the workflow. At the end of the activity, they can be processed in one single transition or different transitions.
 
-## Enriching data
+## Enriching data {#enriching-data}
 
 The identified and collected data can be enriched, aggregated and manipulated to optimize target construction. You can simplify and optimize targeting processes, by including data that is not modeled in the data mart.
 

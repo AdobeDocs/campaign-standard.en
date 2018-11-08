@@ -1,40 +1,40 @@
 <html> 
  <head> 
-  <meta content="Fatigue rules" name="jcr:description" /> 
-  <meta content="" name="jcr:baseVersion" /> 
-  <meta content="2018-02-16T08:04:46.367-0500" name="jcr:created" /> 
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
-  <meta content="2ab4b890-361e-4343-a817-3e5768287d90" name="jcr:predecessors" /> 
-  <meta content="audience:administration" name="primaryAudienceTag" /> 
+  <meta content="2018-09-07T15:00:18.579-0400" name="lastPublishExternalDate" /> 
   <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2018-09-10T07:25:46.637-0400" name="locHandOffDate" /> 
+  <meta content="2018-09-07T15:00:18.579-0400" name="topicBrowsingSortDate" /> 
   <meta content="Create fatigue rules to manage over-communication with profiles." name="seoDescription" /> 
+  <meta content="2ab4b890-361e-4343-a817-3e5768287d90" name="jcr:predecessors" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:administration;content_type:reference;topic_tags:working-with-typology-rules" name="cq:tags" /> 
+  <meta content="Fatigue rules" name="jcr:title" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="https://helpx.adobe.com/campaign/standard/administration/using/fatigue-rules.html" name="publishExternalURL" /> 
+  <meta content="Fatigue rules" name="navTitle" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
   <meta content="05773ad7-31a2-453e-86a4-ded90d16225a" name="jcr:uuid" /> 
   <meta content="" name="jcr:versionHistory" /> 
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
-  <meta content="admin" name="jcr:createdBy" /> 
-  <meta content="sauviat" name="contentOwner" /> 
-  <meta content="Activate" name="cq:lastReplicationAction" /> 
-  <meta content="sauviat" name="cq:lastReplicatedBy" /> 
-  <meta content="en_us" name="jcr:language" /> 
-  <meta content="Fatigue rules" name="jcr:title" /> 
   <meta content="" name="jcr:primaryType" /> 
+  <meta content="Fatigue rules" name="jcr:description" /> 
   <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
-  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
-  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
-  <meta content="Fatigue rules" name="navTitle" /> 
-  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
-  <meta content="2018-09-07T15:00:18.579-0400" name="topicBrowsingSortDate" /> 
-  <meta content="2018-09-10T07:25:46.637-0400" name="locHandOffDate" /> 
-  <meta content="2018-09-07T15:00:18.579-0400" name="firstPublishExternalDate" /> 
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:administration;content_type:reference;topic_tags:working-with-typology-rules" name="cq:tags" /> 
-  <meta content="2018-09-07T15:00:18.579-0400" name="publishExternalDate" /> 
-  <meta content="2018-09-07T15:00:21.747-0400" name="cq:lastReplicated" /> 
-  <meta content="/etc/designs/help" name="cq:designPath" /> 
-  <meta content="light" name="heroGradient" /> 
-  <meta content="2018-09-07T15:00:18.579-0400" name="lastPublishExternalDate" /> 
-  <meta content="https://helpx.adobe.com/campaign/standard/administration/using/fatigue-rules.html" name="publishExternalURL" /> 
+  <meta content="audience:administration" name="primaryAudienceTag" /> 
   <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-09-07T15:00:18.579-0400" name="firstPublishExternalDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2018-02-16T08:04:46.367-0500" name="jcr:created" /> 
+  <meta content="2018-09-07T15:00:18.579-0400" name="publishExternalDate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="sauviat" name="cq:lastReplicatedBy" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
   <meta content="2018-09-10T07:25:46.639-0400" name="cq:lastModified" /> 
+  <meta content="2018-09-07T15:00:21.747-0400" name="cq:lastReplicated" /> 
  </head> 
  <body> 
   <h2>About fatigue rules</h2> 

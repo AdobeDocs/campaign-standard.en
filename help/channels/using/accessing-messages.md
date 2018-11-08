@@ -2,8 +2,8 @@
 title: Accessing messages
 seo-title: Accessing messages
 description: Accessing messages
-seo-description: Learn how to access messages and their advanced functionalities creation, targeting, personalization, execution and reporting.
-uuid: 8fba349f-43ad-4001-90b1-8d7fabd12a0b
+seo-description: "Learn how to access messages and their advanced functionalities: creation, targeting, personalization, execution and reporting."
+uuid: 1e65ddd3-0ead-486d-9ed4-364d51732488
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/accessing-messages
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 cq-template: /apps/help/templates/article-3
-discoiquuid: 465751ec-362f-4e53-a7d0-3d91c747cefb
+discoiquuid: 17e81172-2f3b-4748-ac7d-53ab9c5379e9
 firstPublishExternalDate: 2018-09-07T15:11:29.517-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,15 +32,15 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Accessing messages
 publishexternaldate: 2018-09-07T15 11 29.517-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/accessing-messages.html
-sha1: 4bb18b1a76bc5d4d493f1cd0a4bf5ec0603778fc
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/channels/using/accessing-messages.html"
+sha1: 1be9092dd438ef094ab4c06d8f0eb5ce5b519c25
 topicBrowsingSortDate: 2018-09-07T15:11:29.517-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Accessing messages
+# Accessing messages{#accessing-messages}
 
 Accessing messages
 
@@ -52,7 +52,7 @@ Messages can be accessed:
 * from the Adobe Campaign home page
 * from the list of marketing activities
 
-## Accessing messages in campaigns
+## Accessing messages in campaigns {#accessing-messages-in-campaigns}
 
 To access the list of a campaign's marketing activities:
 
@@ -70,7 +70,7 @@ To access the list of a campaign's marketing activities:
 
    To filter recurring messages, you can check the corresponding box.
 
-## Accessing the message list
+## Accessing the message list {#accessing-the-message-list}
 
 To access the full list of marketing activities from all the campaigns combined:
 
@@ -82,7 +82,7 @@ To access the full list of marketing activities from all the campaigns combined:
 
 ![](assets/delivery_list_2.png)
 
-## Message life cycle
+## Message life cycle {#message-life-cycle}
 
 A message's status is represented by a specific color in the lists. The possible statuses are:
 

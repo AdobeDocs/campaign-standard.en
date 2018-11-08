@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="2018-09-07T14:53:55.864-0400" name="publishExternalDate" />
-  <meta content="Learn how to load an existing content from another source when creating an email or a landing page." name="seoDescription" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="2018-07-23T07:30:15.241-0400" name="jcr:created" />
-  <meta content="2018-09-07T14:53:55.864-0400" name="topicBrowsingSortDate" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="2018-09-10T07:24:22.679-0400" name="locHandOffDate" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:loading-content" name="cq:tags" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="2018-09-07T14:53:55.864-0400" name="lastPublishExternalDate" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="audience:designing" name="primaryAudienceTag" />
-  <meta content="https://helpx.adobe.com/campaign/standard/designing/using/selecting-an-existing-content.html" name="publishExternalURL" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
   <meta content="2018-09-07T14:53:58.028-0400" name="cq:lastReplicated" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="83ddb2b1-c11c-4178-b2ad-d85e16252aba" name="jcr:uuid" />
-  <meta content="Selecting an existing content" name="jcr:title" />
-  <meta content="Selecting an existing content" name="jcr:description" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="2018-09-10T07:24:22.680-0400" name="cq:lastModified" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
   <meta content="sauviat" name="contentOwner" />
-  <meta content="light" name="heroGradient" />
-  <meta content="2018-09-07T14:53:55.864-0400" name="firstPublishExternalDate" />
+  <meta content="https://helpx.adobe.com/campaign/standard/designing/using/selecting-an-existing-content.html" name="publishExternalURL" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-09-10T07:24:22.680-0400" name="cq:lastModified" />
+  <meta content="2018-09-10T07:24:22.679-0400" name="locHandOffDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="2018-09-07T14:53:55.864-0400" name="lastPublishExternalDate" />
+  <meta content="Selecting an existing content" name="jcr:title" />
+  <meta content="83ddb2b1-c11c-4178-b2ad-d85e16252aba" name="jcr:uuid" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
   <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
   <meta content="Selecting an existing content" name="navTitle" />
-  <meta content="f8be13a9-3a52-43a7-9d98-3a1339049bff" name="jcr:predecessors" />
+  <meta content="2018-07-23T07:30:15.241-0400" name="jcr:created" />
+  <meta content="2018-09-07T14:53:55.864-0400" name="firstPublishExternalDate" />
+  <meta content="light" name="heroGradient" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="Learn how to load an existing content from another source when creating an email or a landing page." name="seoDescription" />
+  <meta content="2018-09-07T14:53:55.864-0400" name="topicBrowsingSortDate" />
   <meta content="" name="jcr:baseVersion" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="audience:designing" name="primaryAudienceTag" />
+  <meta content="f8be13a9-3a52-43a7-9d98-3a1339049bff" name="jcr:predecessors" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-09-07T14:53:55.864-0400" name="publishExternalDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:loading-content" name="cq:tags" />
+  <meta content="Selecting an existing content" name="jcr:description" />
  </head>
  <body>
   <p>Adobe Campaign comes with a set of predefined contents to help you get started. You can use one of these or, if the content of the message you need to send is being prepared outside of Adobe Campaign, you can import it from your computer or a URL.</p> 

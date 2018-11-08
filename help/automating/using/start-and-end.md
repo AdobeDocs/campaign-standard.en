@@ -3,7 +3,7 @@ title: Start and end
 seo-title: Start and end
 description: Start and end
 seo-description: The Start and End activities allow you to clearly mark where your workflow starts and ends.
-uuid: 84d2f7fb-4947-4021-bf3d-1e6a21f7960c
+uuid: 28769861-d3e1-4629-8867-44543ccc0735
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/start-and-end
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: a064d6ee-1d2e-4a0e-97e9-da250535af03
+discoiquuid: 4b9470da-905f-4321-b034-b81003287793
 firstPublishExternalDate: 2018-09-07T14:58:14.075-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,31 +32,31 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Start and end
 publishexternaldate: 2018-09-07T14 58 14.075-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/start-and-end.html
-sha1: f69836fdc84b99f5c24ae238c26aeaf1e51557e3
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/start-and-end.html"
+sha1: cc6de12124d9ecc7fc205057aaa42337e5b48cd0
 topicBrowsingSortDate: 2018-09-07T14:58:14.075-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Start and end
+# Start and end{#start-and-end}
 
 Start and end
 
-## Description
+## Description {#description}
 
 ![](assets/start.png) ![](assets/end.png)
 
 The **Start** and **End** activities allow you to clearly mark where your workflow starts and ends.
 
-## Context of use
+## Context of use {#context-of-use}
 
 Executing a workflow starts with activities without an inbound transition, and stops when there are no longer any tasks in progress. Nevertheless, you can add **Start** and **End** activities to clearly mark the starting and ending points of a workflow. This is especially helpful for relatively complex workflows.
 
 It is a best practice to use an **End** activity instead of leaving the last transition of a workflow on its own to ensure that the workflow properly ends.
 
-## Configuration
+## Configuration {#configuration}
 
 1. Drag and drop a **Start** or **End** activity into your workflow.
 1. Put the **Start ** activity in front of other activities such as queries, and the **End** activity after a series of activities.
@@ -66,11 +66,11 @@ It is a best practice to use an **End** activity instead of leaving the last tra
 1. You can configure the **End** object so that it interrupts all of the workflow's ongoing tasks, including those that have not finished. To do this, select the corresponding option.
 1. Confirm the configuration of your activity and save your workflow.
 
-## Triggering another workflow
+## Triggering another workflow {#triggering-another-workflow}
 
 Using the **External signal** tab of an **End** activity, you can trigger another workflow. Refer to the [External signal](../../automating/using/external-signal.md) section.
 
-## Example
+## Example {#example}
 
 The following example shows how a complex workflow is executed with a **Start** activity and several **End** activities. The **Stop all tasks in progress** box has been checked for the first **End** activity. Once the corresponding task is finished, the entire workflow will be stopped: it will have the same effect as if the  ![](assets/stop_darkgrey-24px.png) button had been selected (refer to the [Action bar](../../automating/using/workflow-interface.md#action-bar) section)
 

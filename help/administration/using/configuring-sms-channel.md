@@ -2,8 +2,8 @@
 title: Configuring SMS channel
 seo-title: Configuring SMS channel
 description: Configuring SMS channel
-seo-description: Find out the SMS configuration steps routing, encoding, formats and advanced properties. 
-uuid: 6b48bf1f-0a19-49b0-9fde-800388e51bfe
+seo-description: "Find out the SMS configuration steps: routing, encoding, formats and advanced properties. "
+uuid: 7b7df901-eb65-453e-a559-236142f300a3
 content-encoding: UTF-8
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/configuring-sms-channel
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 cq-template: /apps/help/templates/article-3
-discoiquuid: 70ddb152-976a-4301-83cb-7beb4757ab94
+discoiquuid: 22116986-f31b-4ad9-a6a2-d848f25fc734
 firstPublishExternalDate: 2018-09-07T14:44:23.302-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,15 +32,15 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Configuring SMS channel
 publishexternaldate: 2018-09-07T14 44 23.302-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/configuring-sms-channel.html
-sha1: a85cf8fecbb5d0a471705ad1f0954e76ec191c3b
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/administration/using/configuring-sms-channel.html"
+sha1: 3dbc32753befb4c89801266e4e12f3eae4044765
 topicBrowsingSortDate: 2018-09-07T14:44:23.302-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Configuring SMS channel
+# Configuring SMS channel{#configuring-sms-channel}
 
 Configuring SMS channel
 
@@ -48,7 +48,7 @@ To send SMS messages, one or several external accounts must be configured by an 
 
 The steps for creating and modifying an external account are detailed in the [External accounts](../../administration/using/external-accounts.md) section. You will find below the parameters specific to external accounts for sending SMS messages.
 
-## Defining an SMS Routing
+## Defining an SMS Routing {#defining-an-sms-routing}
 
 The external account **SMS routing via SMPP** is provided by default, but it can be useful to add other accounts.
 
@@ -97,9 +97,9 @@ If you want to use the SMPP protocol, you can also create a new external account
 
 You can now use your new routing to send SMS messages with Adobe Campaign.
 
-## SMS encoding and formats
+## SMS encoding and formats {#sms-encoding-and-formats}
 
-### SMS encoding, length and transliteration
+### SMS encoding, length and transliteration {#sms-encoding-length-and-transliteration}
 
 By default, the number of characters in an SMS meets the GSM (Global System for Mobile Communications) standards.
 
@@ -126,7 +126,7 @@ By default, character transliteration is disabled. If you would like all of the 
 
 However, if your SMS messages contain a lot of characters that generate Unicode messages, you can choose to enable this option to limit the costs of sending your messages.
 
-### Table of characters - GSM Standard
+### Table of characters - GSM Standard {#table-of-characters-gsm-standard}
 
 This section presents the characters taken into account by the GSM standard. All of the characters inserted into the message body, other than those mentioned below, convert the entire message into binary format (Unicode) and therefore limit it to 70 characters. For more on this, refer to the [SMS encoding, length and transliteration](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration) section.
 
@@ -309,7 +309,7 @@ CR: Carriage Return
 
 ^ { } [ ~ ] | €
 
-### SMSC specifics
+### SMSC specifics {#smsc-specifics}
 
 >[!NOTE]
 >
@@ -342,13 +342,13 @@ The **Define a specific mapping of encodings** functionality allows you to decla
 
   ![](assets/sms_data_coding1.png)
 
-### Automatic reply sent to the MO
+### Automatic reply sent to the MO {#automatic-reply-sent-to-the-mo}
 
 When a profile replies to an SMS message which was sent via Campaign, you can configure messages which are automatically sent back to him as well as the action to perform.
 
 For more information, refer to [this section](../../channels/using/managing-incoming-sms.md).
 
-## Configuring SMS properties
+## Configuring SMS properties {#configuring-sms-properties}
 
 This section details the list of parameters unique to SMS in the properties screen of an SMS delivery or an SMS template.
 

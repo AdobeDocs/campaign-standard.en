@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="Indicator calculation" name="jcr:description" />
-  <meta content="audience:reporting" name="primaryAudienceTag" />
-  <meta content="2018-09-07T15:03:19.185-0400" name="firstPublishExternalDate" />
   <meta content="" name="jcr:versionHistory" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="https://helpx.adobe.com/campaign/standard/reporting/using/indicator-calculation.html" name="publishExternalURL" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="2018-09-07T15:03:19.185-0400" name="publishExternalDate" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="4bffef0a-5bed-484d-bde7-0523cd5f114f" name="jcr:uuid" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="Indicator calculation" name="navTitle" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="2018-03-15T09:03:01.935-0400" name="jcr:created" />
-  <meta content="2018-09-10T02:18:43.667-0400" name="cq:lastModified" />
-  <meta content="2018-09-07T15:03:21.992-0400" name="cq:lastReplicated" />
-  <meta content="2018-09-10T02:18:43.667-0400" name="locHandOffDate" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="Indicator calculation" name="jcr:title" />
-  <meta content="" name="jcr:primaryType" />
   <meta content="5fc566eb-091d-4b7e-8e39-845d19a710d9" name="jcr:predecessors" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2018-09-07T15:03:21.992-0400" name="cq:lastReplicated" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
   <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="light" name="heroGradient" />
+  <meta content="4bffef0a-5bed-484d-bde7-0523cd5f114f" name="jcr:uuid" />
+  <meta content="Indicator calculation" name="jcr:description" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
   <meta content="Understand the results of your reports with a list of every metric's formula." name="seoDescription" />
+  <meta content="https://helpx.adobe.com/campaign/standard/reporting/using/indicator-calculation.html" name="publishExternalURL" />
+  <meta content="2018-03-15T09:03:01.935-0400" name="jcr:created" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-09-07T15:03:19.185-0400" name="publishExternalDate" />
+  <meta content="Indicator calculation" name="jcr:title" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
   <meta content="products:SG_CAMPAIGN/STANDARD;audience:reporting;content_type:reference;topic_tags:about-reporting" name="cq:tags" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-09-10T02:18:43.667-0400" name="locHandOffDate" />
+  <meta content="2018-09-10T02:18:43.667-0400" name="cq:lastModified" />
   <meta content="2018-09-07T15:03:19.185-0400" name="topicBrowsingSortDate" />
   <meta content="2018-09-07T15:03:19.185-0400" name="lastPublishExternalDate" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="Indicator calculation" name="navTitle" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-09-07T15:03:19.185-0400" name="firstPublishExternalDate" />
   <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="light" name="heroGradient" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="audience:reporting" name="primaryAudienceTag" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="" name="jcr:primaryType" />
  </head>
  <body>
   <p>The table below gives you the list of indicators used in the different reports and their calculation formula.</p> 

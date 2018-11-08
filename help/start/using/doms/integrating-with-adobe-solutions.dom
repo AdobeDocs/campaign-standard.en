@@ -1,39 +1,39 @@
 <html>
  <head>
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="2018-09-08T08:23:03.100-0400" name="cq:lastModified" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="2018-09-07T15:07:40.061-0400" name="firstPublishExternalDate" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="Integrating with Adobe solutions" name="jcr:title" />
-  <meta content="https://helpx.adobe.com/campaign/standard/start/using/integrating-with-adobe-solutions.html" name="publishExternalURL" />
-  <meta content="en_us" name="jcr:language" />
   <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="light" name="heroGradient" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="Learn how integrations with Adobe Experience Cloud core services and solutions such as Adobe Analytics and Experience Manager can improve your Adobe Campaign strategy with deep insights and convenient content management." name="seoDescription" />
   <meta content="" name="jcr:versionHistory" />
-  <meta content="2018-09-07T15:07:40.061-0400" name="topicBrowsingSortDate" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:start;content_type:reference;topic_tags:about-adobe-campaign" name="cq:tags" />
-  <meta content="2018-09-07T15:07:40.061-0400" name="lastPublishExternalDate" />
-  <meta content="Integrating with Adobe solutions" name="navTitle" />
-  <meta content="2018-09-08T08:23:03.100-0400" name="locHandOffDate" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="2018-09-07T15:07:40.739-0400" name="cq:lastReplicated" />
-  <meta content="" name="jcr:primaryType" />
   <meta content="Integrating with Adobe solutions" name="jcr:description" />
-  <meta content="b4405f32-723e-4514-b3c5-11116c14a621" name="jcr:uuid" />
-  <meta content="2018-09-07T15:07:40.061-0400" name="publishExternalDate" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="94a6a12d-0990-4b97-92e4-b14c64e5fde8" name="jcr:predecessors" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:start;content_type:reference;topic_tags:about-adobe-campaign" name="cq:tags" />
+  <meta content="light" name="heroGradient" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-09-07T15:07:40.061-0400" name="firstPublishExternalDate" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
   <meta content="audience:start" name="primaryAudienceTag" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-09-07T15:07:40.739-0400" name="cq:lastReplicated" />
   <meta content="2018-03-15T09:01:07.632-0400" name="jcr:created" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-09-07T15:07:40.061-0400" name="topicBrowsingSortDate" />
+  <meta content="2018-09-07T15:07:40.061-0400" name="publishExternalDate" />
+  <meta content="https://helpx.adobe.com/campaign/standard/start/using/integrating-with-adobe-solutions.html" name="publishExternalURL" />
+  <meta content="b4405f32-723e-4514-b3c5-11116c14a621" name="jcr:uuid" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="2018-09-08T08:23:03.100-0400" name="locHandOffDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-09-07T15:07:40.061-0400" name="lastPublishExternalDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-09-08T08:23:03.100-0400" name="cq:lastModified" />
+  <meta content="Learn how integrations with Adobe Experience Cloud core services and solutions such as Adobe Analytics and Experience Manager can improve your Adobe Campaign strategy with deep insights and convenient content management." name="seoDescription" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="94a6a12d-0990-4b97-92e4-b14c64e5fde8" name="jcr:predecessors" />
+  <meta content="Integrating with Adobe solutions" name="navTitle" />
+  <meta content="Integrating with Adobe solutions" name="jcr:title" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
   <meta content="sauviat" name="contentOwner" />
  </head>
  <body>

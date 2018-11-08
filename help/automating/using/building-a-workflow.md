@@ -3,7 +3,7 @@ title: Building a workflow
 seo-title: Building a workflow
 description: Building a workflow
 seo-description: This section details the main principles and best practices for creating a new workflow.
-uuid: 6bcbe8c1-2aba-4c85-87d6-6ae64c07d86b
+uuid: d420fee7-0861-4572-856c-a31890a1a9c4
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/building-a-workflow
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 cq-template: /apps/help/templates/article-3
-discoiquuid: 9f264e9e-278e-472a-930b-74dc86854fe4
+discoiquuid: cb014acf-a810-4c8d-addd-3c76ef844557
 firstPublishExternalDate: 2018-09-07T14:46:01.768-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,15 +32,15 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Building a workflow
 publishexternaldate: 2018-09-07T14 46 01.768-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/building-a-workflow.html
-sha1: e2c614e4d3684137bcd80988f044a3ff31d9d1a1
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/building-a-workflow.html"
+sha1: 9e227d5ff7a667366bde262a7ed0f8b2b58f2f49
 topicBrowsingSortDate: 2018-09-07T14:46:01.768-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Building a workflow
+# Building a workflow{#building-a-workflow}
 
 Building a workflow
 
@@ -50,7 +50,7 @@ This section details the main principles and best practices for creating a new w
 * Adding and linking activities.
 * Configuring activities.
 
-## Creating a workflow
+## Creating a workflow {#creating-a-workflow}
 
 You can create a workflow from a program, a campaign, or the marketing activity list.
 
@@ -84,7 +84,7 @@ Creating a marketing activity is detailed in the [Creating marketing activities]
 
 [Creating a workflow](https://docs.campaign.adobe.com/doc/standard/en/Videos/workflow_creation.mp4) video
 
-## Adding and linking activities
+## Adding and linking activities {#adding-and-linking-activities}
 
 You must now define the various activities and link them together in the diagram.
 
@@ -113,7 +113,7 @@ To create the diagram:
 
 1. Add the activities you need and link them together to complete your workflow.
 
-## Configuring activities
+## Configuring activities {#configuring-activities}
 
 By default, activities are not set and won't process the data correctly if they are not configured. Each activity contains several tabs to manage specific configurations and activity generic options such as outbound transitions, labels, etc.
 

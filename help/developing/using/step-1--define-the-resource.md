@@ -1,9 +1,9 @@
 ---
-title: Step 1 Define the resource
-seo-title: Step 1 Define the resource
-description: Step 1 Define the resource
+title: "Step 1: Define the resource"
+seo-title: "Step 1: Define the resource"
+description: "Step 1: Define the resource"
 seo-description: Discover how to define a resource from scratch.
-uuid: b31cac89-386a-4d37-867a-7c259a4be750
+uuid: 80c553a9-b8ab-4430-8d72-d2fbf93d00ef
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/developing/using/step-1--define-the-resource
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 cq-template: /apps/help/templates/article-3
-discoiquuid: bcc38e07-ff8d-42fe-a7c1-f2fa29e80cff
+discoiquuid: 01576cee-139b-4206-ba64-89f238862a91
 firstPublishExternalDate: 2018-09-07T14:51:18.598-0400
 herogradient: light
 isreadyforlocalization: false
@@ -30,17 +30,17 @@ lastPublishExternalDate: 2018-09-07T14:51:18.598-0400
 lochandoffdate: 2018-09-10T02 18 37.095-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
-navTitle: Step 1 Define the resource
+navTitle: "Step 1: Define the resource"
 publishexternaldate: 2018-09-07T14 51 18.598-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/step-1--define-the-resource.html
-sha1: a7c72418a4598042cc61b90074e6d7a7ff2e33a6
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/developing/using/step-1--define-the-resource.html"
+sha1: 257e6176daa0c27bbf437ce390c0c370fad43d1f
 topicBrowsingSortDate: 2018-09-07T14:51:18.598-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Step 1: Define the resource
+# Step 1: Define the resource{#step-define-the-resource}
 
 Step 1: Define the resource
 

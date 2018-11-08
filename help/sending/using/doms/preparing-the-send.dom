@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="2018-09-08T08:23:02.947-0400" name="locHandOffDate" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="Learn how to define preparation before the send." name="seoDescription" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="2018-09-07T15:11:12.629-0400" name="lastPublishExternalDate" />
-  <meta content="2018-09-08T08:23:02.947-0400" name="cq:lastModified" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="2018-09-07T15:11:12.736-0400" name="cq:lastReplicated" />
-  <meta content="audience:sending" name="primaryAudienceTag" />
-  <meta content="https://helpx.adobe.com/campaign/standard/sending/using/preparing-the-send.html" name="publishExternalURL" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="bce787be-a15e-41cb-9083-fc57dcad8ab0" name="jcr:predecessors" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="Preparing the send" name="navTitle" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="light" name="heroGradient" />
-  <meta content="sauviat" name="contentOwner" />
   <meta content="2018-09-07T15:11:12.629-0400" name="topicBrowsingSortDate" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="2018-09-07T15:11:12.629-0400" name="firstPublishExternalDate" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="Preparing the send" name="jcr:description" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:sending;content_type:reference;topic_tags:preparing-and-testing-messages" name="cq:tags" />
-  <meta content="2018-03-15T09:01:21.209-0400" name="jcr:created" />
-  <meta content="2018-09-07T15:11:12.629-0400" name="publishExternalDate" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="4954aec1-f4b5-47c9-b2b6-6a296dfdf684" name="jcr:uuid" />
+  <meta content="bce787be-a15e-41cb-9083-fc57dcad8ab0" name="jcr:predecessors" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
   <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-09-08T08:23:02.947-0400" name="locHandOffDate" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="4954aec1-f4b5-47c9-b2b6-6a296dfdf684" name="jcr:uuid" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="light" name="heroGradient" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-09-07T15:11:12.629-0400" name="publishExternalDate" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="Learn how to define preparation before the send." name="seoDescription" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-03-15T09:01:21.209-0400" name="jcr:created" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:sending;content_type:reference;topic_tags:preparing-and-testing-messages" name="cq:tags" />
   <meta content="Preparing the send" name="jcr:title" />
+  <meta content="2018-09-07T15:11:12.629-0400" name="lastPublishExternalDate" />
+  <meta content="2018-09-07T15:11:12.629-0400" name="firstPublishExternalDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="audience:sending" name="primaryAudienceTag" />
+  <meta content="2018-09-08T08:23:02.947-0400" name="cq:lastModified" />
+  <meta content="Preparing the send" name="navTitle" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-09-07T15:11:12.736-0400" name="cq:lastReplicated" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Preparing the send" name="jcr:description" />
+  <meta content="https://helpx.adobe.com/campaign/standard/sending/using/preparing-the-send.html" name="publishExternalURL" />
  </head>
  <body>
   <p>Preparation corresponds to the step of calculating the target population and generating the message contents for each profile included in the target. Once preparation is finished, the messages are ready to be sent, either immediately or at <a href="../../sending/using/about-scheduling-messages.md">the scheduled date and time</a>.</p> 

@@ -3,7 +3,7 @@ title: Advanced expression editing
 seo-title: Advanced expression editing
 description: Advanced expression editing
 seo-description: The query edition wizard allows you to define advanced expressions.
-uuid: c70cb4db-d098-4f1b-b92a-c501f468b0e1
+uuid: c5567cd1-f371-45a6-aef0-af43c1379c22
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/advanced-expression-editing
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: filtering-data
 cq-template: /apps/help/templates/article-3
-discoiquuid: ff8b8fb3-bff2-4ddc-b50e-a64291f40483
+discoiquuid: 2098da71-819d-4ae0-96f0-fa636dec1a03
 firstPublishExternalDate: 2018-09-07T15:08:52.363-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,19 +32,19 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Advanced expression editing
 publishexternaldate: 2018-09-07T15 08 52.363-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/advanced-expression-editing.html
-sha1: d65555be686eff8c6e433bb89ae3f2ebe965d426
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/advanced-expression-editing.html"
+sha1: 6bdd709715da8663b9f1915c88061fda9ba3f1c9
 topicBrowsingSortDate: 2018-09-07T15:08:52.363-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Advanced expression editing
+# Advanced expression editing{#advanced-expression-editing}
 
 Advanced expression editing
 
-## About advanced expression editing
+## About advanced expression editing {#about-advanced-expression-editing}
 
 Editing an expression involves manually entering conditions to form a rule.
 
@@ -59,7 +59,7 @@ You can edit expressions in order to:
 * Edit an expression in a workflow. For example, to add additional data to an activity.
 * Edit a visibility condition to define how a block in the HTML content editor is displayed. In this case, the expression is edited in JavaScript format and does not offer the use of advanced functions as standard.
 
-## Edit an expression
+## Edit an expression {#edit-an-expression}
 
 Advanced expression edition lets you manually define an expression that corresponds specifically to your needs.
 
@@ -86,9 +86,9 @@ Editing an expression lets you personalize the Audiences expression to target yo
 * [Expression Syntax](../../automating/using/advanced-expression-editing.md#expression-syntax)
 * [List of functions](../../automating/using/list-of-functions.md)
 
-## Expression Syntax
+## Expression Syntax {#expression-syntax}
 
-### Standard syntax
+### Standard syntax {#standard-syntax}
 
 The standard expressions are made up of one or several conditions that respect the following syntax elements:
 
@@ -115,7 +115,7 @@ Year(@created) = Year(GetDate()) AND Month(@created) = Month(GetDate())
 
 In this example, the profiles whose creation date is in the current month and year are targeted.
 
-### JavaScript syntax
+### JavaScript syntax {#javascript-syntax}
 
 When defining the visibility conditions of a text type block of the HTML content editor, you must use an expression with JavaScript type syntax.
 
@@ -144,7 +144,7 @@ context.profile.age > 21 && context.profile.firstName.length() > 0
 
 In this example, profiles older than 21 years of age and whose first name has been provided (symbolized by the fact that the **firstName** field contains at least one character).
 
-## Comparison operators
+## Comparison operators {#comparison-operators}
 
 For some rules, the query editor lets you chose a value to define your condition.
 

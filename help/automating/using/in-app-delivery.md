@@ -3,7 +3,7 @@ title: In-App delivery
 seo-title: In-App delivery
 description: In-App delivery
 seo-description: 
-uuid: 977b5b02-7d08-489c-8d7b-0211bfba4741
+uuid: 5b5da5f4-573c-4f0f-b077-4f4f6eb02b86
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/in-app-delivery
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: channel-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: 37c8b4b5-c97c-4ff0-b38c-3e5a9cf0ac76
+discoiquuid: f11a5da8-7054-4247-b15c-c815d7ecacb9
 firstPublishExternalDate: 2018-09-07T15:07:26.572-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,19 +32,19 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: In-App delivery
 publishexternaldate: 2018-09-07T15 07 26.572-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/in-app-delivery.html
-sha1: 9f8f345686b71ce0fd20e83995b8078696022a30
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/in-app-delivery.html"
+sha1: f439b573df331c8fa607274912c938d0b341ccc8
 topicBrowsingSortDate: 2018-09-07T15:07:26.572-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# In-App delivery
+# In-App delivery{#in-app-delivery}
 
 In-App delivery
 
-## Description
+## Description {#description}
 
 >[!NOTE]
 >
@@ -54,7 +54,7 @@ In-App delivery
 
 The **In-App delivery** activity allows you to configure sending an In-App message within a workflow. In-App messaging allows you to display a message when the user is active within the application. For more information concerning the In-App delivery, refer to this [section](../../channels/using/about-in-app-messaging.md).
 
-## Context of use
+## Context of use {#context-of-use}
 
 The **In-App delivery** activity is generally used to automate sending an In-App message to a target audience calculated in the same workflow.
 
@@ -62,7 +62,7 @@ The recipients are defined upstream of the activity in the same workflow, via ta
 
 The message preparation is triggered according to the workflow execution parameters. From the message dashboard, you can select whether to request or not a manual confirmation to send the message (required by default). You can start the workflow manually or place a scheduler activity in the workflow to automate execution.
 
-## Configuration
+## Configuration {#configuration}
 
 1. Drag and drop a **In-App delivery** activity into your workflow.
 1. Select the activity, then open it using the  ![](assets/edit_darkgrey-24px.png)
@@ -103,7 +103,7 @@ When you reopen the activity, you are taken directly to the In-App dashboard. On
 
 By default, starting a delivery workflow only triggers the message preparation. The sending of messages created from a workflow still needs to be confirmed after the workflow has been started. But from the message dashboard, and only if the message was created from a workflow, you can disable the **Request confirmation before sending messages** option. By unchecking this option, messages are sent without further notice once the preparation is done.
 
-## Remarks
+## Remarks {#remarks}
 
 The deliveries created within a workflow can be accessed in the application's marketing activity list. You can view the workflow's execution status using the dashboard. Links in the push notification summary pane allow you to directly access linked elements (workflow, campaign, etc.).
 

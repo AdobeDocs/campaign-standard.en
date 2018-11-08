@@ -1,41 +1,41 @@
 <html>
  <head>
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="light" name="heroGradient" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="https://helpx.adobe.com/campaign/standard/reporting/using/adding-components.html" name="publishExternalURL" />
-  <meta content="Adding components" name="navTitle" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="Adding components" name="jcr:description" />
   <meta content="products:SG_CAMPAIGN/STANDARD;audience:reporting;content_type:reference;topic_tags:customizing-reports" name="cq:tags" />
-  <meta content="audience:reporting" name="primaryAudienceTag" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="2018-09-07T15:08:52.056-0400" name="firstPublishExternalDate" />
-  <meta content="f0c52b5c-4eed-4ce0-8f2f-642a5c4dddbc" name="jcr:predecessors" />
-  <meta content="2018-09-10T02:19:24.085-0400" name="cq:lastModified" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="0dbaa820-2098-4bf1-b4e9-86dc4e491b46" name="jcr:uuid" />
-  <meta content="2018-09-10T02:19:24.085-0400" name="locHandOffDate" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="/content/help/en/campaign/standard/reporting/morehelp/customizing-reports;/content/help/en/campaign/standard/reporting/morehelp/customizing-reports" name="moreHelpPaths" />
-  <meta content="Drag and drog components to your freeform table to start filtering your data and building your report." name="seoDescription" />
-  <meta content="2018-09-07T15:08:52.179-0400" name="cq:lastReplicated" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="2018-03-15T09:01:51.777-0400" name="jcr:created" />
   <meta content="" name="jcr:primaryType" />
   <meta content="2018-09-07T15:08:52.056-0400" name="publishExternalDate" />
-  <meta content="2018-09-07T15:08:52.056-0400" name="lastPublishExternalDate" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="/content/help/en/campaign/standard/reporting/morehelp/customizing-reports;/content/help/en/campaign/standard/reporting/morehelp/customizing-reports" name="moreHelpPaths" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="0dbaa820-2098-4bf1-b4e9-86dc4e491b46" name="jcr:uuid" />
+  <meta content="2018-03-15T09:01:51.777-0400" name="jcr:created" />
   <meta content="2018-09-07T15:08:52.056-0400" name="topicBrowsingSortDate" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="Adding components" name="jcr:title" />
+  <meta content="2018-09-07T15:08:52.056-0400" name="firstPublishExternalDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Adding components" name="jcr:description" />
+  <meta content="2018-09-07T15:08:52.056-0400" name="lastPublishExternalDate" />
+  <meta content="https://helpx.adobe.com/campaign/standard/reporting/using/adding-components.html" name="publishExternalURL" />
+  <meta content="2018-09-07T15:08:52.179-0400" name="cq:lastReplicated" />
+  <meta content="2018-09-10T02:19:24.085-0400" name="cq:lastModified" />
   <meta content="sauviat" name="contentOwner" />
+  <meta content="2018-09-10T02:19:24.085-0400" name="locHandOffDate" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="audience:reporting" name="primaryAudienceTag" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="f0c52b5c-4eed-4ce0-8f2f-642a5c4dddbc" name="jcr:predecessors" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="Adding components" name="jcr:title" />
+  <meta content="Adding components" name="navTitle" />
+  <meta content="light" name="heroGradient" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Drag and drog components to your freeform table to start filtering your data and building your report." name="seoDescription" />
  </head>
  <body>
   <p>Components help you customize your reports with different dimensions, metrics, and time periods.</p> 

@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="Hot clicks" name="jcr:title" />
-  <meta content="Hot clicks" name="jcr:description" />
-  <meta content="2018-09-10T02:19:10.052-0400" name="cq:lastModified" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="" name="jcr:versionHistory" />
   <meta content="https://helpx.adobe.com/campaign/standard/reporting/using/hot-clicks.html" name="publishExternalURL" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="03c346db-926b-4f7a-b1d7-35a03eeeb884" name="jcr:uuid" />
-  <meta content="With the Hot clicks out-of-the-box report, learn where your customer clicked on your delivery." name="seoDescription" />
-  <meta content="2018-09-10T02:19:10.051-0400" name="locHandOffDate" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="2018-03-15T09:02:00.205-0400" name="jcr:created" />
-  <meta content="2018-09-07T15:08:39.446-0400" name="cq:lastReplicated" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="Hot clicks" name="navTitle" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="audience:reporting" name="primaryAudienceTag" />
-  <meta content="2018-09-07T15:08:38.537-0400" name="publishExternalDate" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:reporting;content_type:reference;topic_tags:list-of-reports" name="cq:tags" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="2018-09-07T15:08:38.537-0400" name="firstPublishExternalDate" />
-  <meta content="" name="jcr:primaryType" />
   <meta content="2018-09-07T15:08:38.537-0400" name="lastPublishExternalDate" />
-  <meta content="909c1678-ff0b-4c1c-940e-1a911d4d8095" name="jcr:predecessors" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="light" name="heroGradient" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="2018-09-07T15:08:38.537-0400" name="topicBrowsingSortDate" />
-  <meta content="en_us" name="jcr:language" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
   <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="Hot clicks" name="navTitle" />
+  <meta content="2018-09-07T15:08:38.537-0400" name="topicBrowsingSortDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:reporting;content_type:reference;topic_tags:list-of-reports" name="cq:tags" />
+  <meta content="audience:reporting" name="primaryAudienceTag" />
+  <meta content="2018-09-10T02:19:10.052-0400" name="cq:lastModified" />
+  <meta content="With the Hot clicks out-of-the-box report, learn where your customer clicked on your delivery." name="seoDescription" />
+  <meta content="Hot clicks" name="jcr:description" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="light" name="heroGradient" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="2018-09-07T15:08:38.537-0400" name="firstPublishExternalDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-09-07T15:08:39.446-0400" name="cq:lastReplicated" />
+  <meta content="2018-09-07T15:08:38.537-0400" name="publishExternalDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="03c346db-926b-4f7a-b1d7-35a03eeeb884" name="jcr:uuid" />
+  <meta content="2018-03-15T09:02:00.205-0400" name="jcr:created" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="Hot clicks" name="jcr:title" />
+  <meta content="909c1678-ff0b-4c1c-940e-1a911d4d8095" name="jcr:predecessors" />
+  <meta content="2018-09-10T02:19:10.051-0400" name="locHandOffDate" />
  </head>
  <body>
   <p>This report can be accessed from the <strong>Reports</strong> button in each delivery or transactional message.</p> 

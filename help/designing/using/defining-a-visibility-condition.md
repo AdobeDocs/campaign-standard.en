@@ -3,7 +3,7 @@ title: Defining a visibility condition
 seo-title: Defining a visibility condition
 description: Defining a visibility condition
 seo-description: Make a web page element visible only if a certain condition is respected.
-uuid: cecf9189-7f75-44b6-9954-f087c096dbf6
+uuid: 072bf18c-0b0a-452e-a271-f153bbd56b1e
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/defining-a-visibility-condition
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: defining-conditional-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: 542c1353-3a66-4ab8-bd67-fdbdaba13bb2
+discoiquuid: bdccb1e2-6d0b-40b3-920d-b15a81025147
 firstPublishExternalDate: 2018-09-07T15:04:10.597-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,15 +32,15 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Defining a visibility condition
 publishexternaldate: 2018-09-07T15 04 10.597-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/defining-a-visibility-condition.html
-sha1: 106108d3cd5c3fa75446e03453d0cc03706bea9e
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/designing/using/defining-a-visibility-condition.html"
+sha1: 1dfa69401a272a1b3a779c82cb5af5b549595367
 topicBrowsingSortDate: 2018-09-07T15:04:10.597-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Defining a visibility condition
+# Defining a visibility condition{#defining-a-visibility-condition}
 
 Defining a visibility condition
 

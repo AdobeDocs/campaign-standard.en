@@ -1,40 +1,40 @@
 <html> 
  <head> 
-  <meta content="2018-03-15T09:02:02.366-0400" name="jcr:created" /> 
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
-  <meta content="sauviat" name="cq:lastReplicatedBy" /> 
-  <meta content="light" name="heroGradient" /> 
-  <meta content="false" name="isReadyForLocalization" /> 
-  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
-  <meta content="" name="jcr:versionHistory" /> 
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:execution-activities" name="cq:tags" /> 
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
-  <meta content="84d36ac3-1cf6-4443-b853-3f76abedd017" name="jcr:predecessors" /> 
-  <meta content="2018-09-10T07:26:39.181-0400" name="locHandOffDate" /> 
-  <meta content="External signal" name="jcr:description" /> 
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
-  <meta content="2018-09-07T15:02:17.021-0400" name="lastPublishExternalDate" /> 
-  <meta content="/etc/designs/help" name="cq:designPath" /> 
-  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/external-signal.html" name="publishExternalURL" /> 
-  <meta content="true" name="jcr:isCheckedOut" /> 
-  <meta content="External signal" name="navTitle" /> 
-  <meta content="en_us" name="jcr:language" /> 
-  <meta content="2018-09-07T15:02:17.021-0400" name="publishExternalDate" /> 
-  <meta content="audience:automating" name="primaryAudienceTag" /> 
-  <meta content="" name="jcr:primaryType" /> 
-  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
-  <meta content="External signal" name="jcr:title" /> 
-  <meta content="Activate" name="cq:lastReplicationAction" /> 
-  <meta content="b5242fb4-d468-4d47-b1ee-43c578d1804e" name="jcr:uuid" /> 
-  <meta content="2018-09-07T15:02:17.021-0400" name="topicBrowsingSortDate" /> 
   <meta content="" name="jcr:baseVersion" /> 
-  <meta content="2018-09-07T15:02:17.021-0400" name="firstPublishExternalDate" /> 
+  <meta content="2018-09-07T15:02:17.021-0400" name="publishExternalDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
   <meta content="sauviat" name="contentOwner" /> 
+  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/external-signal.html" name="publishExternalURL" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
+  <meta content="b5242fb4-d468-4d47-b1ee-43c578d1804e" name="jcr:uuid" /> 
   <meta content="2018-09-10T07:26:39.182-0400" name="cq:lastModified" /> 
   <meta content="mix:versionable" name="jcr:mixinTypes" /> 
-  <meta content="admin" name="jcr:createdBy" /> 
   <meta content="2018-09-07T15:02:19.886-0400" name="cq:lastReplicated" /> 
+  <meta content="audience:automating" name="primaryAudienceTag" /> 
+  <meta content="2018-09-07T15:02:17.021-0400" name="firstPublishExternalDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="External signal" name="navTitle" /> 
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-09-07T15:02:17.021-0400" name="lastPublishExternalDate" /> 
   <meta content="The External signal activity triggers a workflow when some conditions are successfully met in another workflow." name="seoDescription" /> 
+  <meta content="External signal" name="jcr:title" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2018-03-15T09:02:02.366-0400" name="jcr:created" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="sauviat" name="cq:lastReplicatedBy" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2018-09-10T07:26:39.181-0400" name="locHandOffDate" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:execution-activities" name="cq:tags" /> 
+  <meta content="84d36ac3-1cf6-4443-b853-3f76abedd017" name="jcr:predecessors" /> 
+  <meta content="External signal" name="jcr:description" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2018-09-07T15:02:17.021-0400" name="topicBrowsingSortDate" /> 
  </head> 
  <body> 
   <h2>Description</h2> 

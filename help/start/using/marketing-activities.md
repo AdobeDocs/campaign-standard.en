@@ -2,8 +2,8 @@
 title: Marketing activities
 seo-title: Marketing activities
 description: Marketing activities
-seo-description: Learn how to create and manage your marketing activities campaigns, email, SMS and push notification deliveries, landing pages, workflows. You can easily design a new activity, edit an existing one, and consult their status and validity.
-uuid: aef754d2-7354-485d-90f6-565a4dc2bb07
+seo-description: "Learn how to create and manage your marketing activities: campaigns, email, SMS and push notification deliveries, landing pages, workflows. You can easily design a new activity, edit an existing one, and consult their status and validity."
+uuid: 6a299f6d-cda9-415c-97be-d81bcfc24c60
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/start/using/marketing-activities
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: start
 content-type: reference
 topic-tags: marketing-plans
 cq-template: /apps/help/templates/article-3
-discoiquuid: 76052ece-638a-42cc-9f1e-def6ba7252df
+discoiquuid: f0591bb9-83ff-4570-8a18-23470da0abd5
 firstPublishExternalDate: 2018-09-07T15:08:27.075-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,19 +33,19 @@ lr-lastreplicatedby: sauviat@adobe.com
 moreHelpPaths: /content/help/en/campaign/standard/start/morehelp/marketing-plans;/content/help/en/campaign/standard/start/morehelp/marketing-plans
 navTitle: Marketing activities
 publishexternaldate: 2018-09-07T15 08 27.075-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/start/using/marketing-activities.html
-sha1: 83234e3f67e51d86bbe1926bd5e6a832b2fae822
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/start/using/marketing-activities.html"
+sha1: 122abcfe3983f608f1ec9ca618983628dc3fea6c
 topicBrowsingSortDate: 2018-09-07T15:08:27.075-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Marketing activities
+# Marketing activities{#marketing-activities}
 
 Marketing activities
 
-## About marketing activities
+## About marketing activities {#about-marketing-activities}
 
 You can create and manage your marketing activities from the programs and campaigns to which they belong, or via the list of marketing activities.
 
@@ -65,7 +65,7 @@ To directly access the content of each activity, choose one of the elements from
 
 The **Create** button can be used to create a new activity. For more on this, refer to the [Creating a marketing activity](../../start/using/marketing-activities.md#creating-a-marketing-activity) section.
 
-## Marketing activity icons and statuses
+## Marketing activity icons and statuses {#marketing-activity-icons-and-statuses}
 
 In the main zone, each type of activity in the list has an icon:
 
@@ -99,7 +99,7 @@ Depending on its validity period and status, the color associated with this icon
 * Yellow: the activity has received a warning - **Warning** status.
 * Red: an error has occurred - **Erroneous** status.
 
-## Creating a marketing activity
+## Creating a marketing activity {#creating-a-marketing-activity}
 
 From an existing campaign, you can create different types of messages (**email**, **SMS**, **push notification**, etc.), workflows, and landing pages.
 

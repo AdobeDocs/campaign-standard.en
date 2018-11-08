@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="2018-09-07T15:12:36.257-0400" name="firstPublishExternalDate" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:channels;content_type:reference;topic_tags:landing-pages" name="cq:tags" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="https://helpx.adobe.com/campaign/standard/channels/using/sharing-a-landing-page.html" name="publishExternalURL" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="Sharing a landing page" name="jcr:title" />
-  <meta content="2018-03-15T09:02:35.668-0400" name="jcr:created" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="cb6ab865-c64c-4855-a7ee-921e360d4cde" name="jcr:predecessors" />
-  <meta content="light" name="heroGradient" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="3eec8f44-60a0-4948-823d-426e6beefbad" name="jcr:uuid" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="2018-09-08T08:23:23.432-0400" name="locHandOffDate" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="2018-09-07T15:12:36.297-0400" name="cq:lastReplicated" />
-  <meta content="Sharing a landing page" name="navTitle" />
-  <meta content="Sharing a landing page" name="jcr:description" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="2018-09-07T15:12:36.257-0400" name="publishExternalDate" />
-  <meta content="audience:channels" name="primaryAudienceTag" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="2018-09-07T15:12:36.257-0400" name="lastPublishExternalDate" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="2018-09-07T15:12:36.257-0400" name="topicBrowsingSortDate" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
   <meta content="Learn how to test and publish a landing page in Adobe Campaign." name="seoDescription" />
-  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Sharing a landing page" name="jcr:description" />
+  <meta content="2018-09-07T15:12:36.257-0400" name="topicBrowsingSortDate" />
+  <meta content="2018-03-15T09:02:35.668-0400" name="jcr:created" />
+  <meta content="2018-09-07T15:12:36.257-0400" name="firstPublishExternalDate" />
+  <meta content="2018-09-08T08:23:23.432-0400" name="locHandOffDate" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="audience:channels" name="primaryAudienceTag" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="https://helpx.adobe.com/campaign/standard/channels/using/sharing-a-landing-page.html" name="publishExternalURL" />
   <meta content="2018-09-08T08:23:23.433-0400" name="cq:lastModified" />
+  <meta content="cb6ab865-c64c-4855-a7ee-921e360d4cde" name="jcr:predecessors" />
+  <meta content="2018-09-07T15:12:36.297-0400" name="cq:lastReplicated" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2018-09-07T15:12:36.257-0400" name="publishExternalDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:channels;content_type:reference;topic_tags:landing-pages" name="cq:tags" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="3eec8f44-60a0-4948-823d-426e6beefbad" name="jcr:uuid" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="light" name="heroGradient" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="Sharing a landing page" name="navTitle" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="Sharing a landing page" name="jcr:title" />
+  <meta content="2018-09-07T15:12:36.257-0400" name="lastPublishExternalDate" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="" name="jcr:baseVersion" />
  </head>
  <body>
   <h2>About landing page publication</h2>

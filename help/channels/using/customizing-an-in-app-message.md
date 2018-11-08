@@ -3,7 +3,7 @@ title: Customizing an In-App message
 seo-title: Customizing an In-App message
 description: Customizing an In-App message
 seo-description: Learn how to customize your In-App messages with various options.
-uuid: d788c26d-33e6-4f48-867e-dacdf8eafbde
+uuid: 7aec1ddd-7f96-465f-86e6-e7f8e8d4455a
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/customizing-an-in-app-message
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: channels
 content-type: reference
 topic-tags: in-app-messaging
 cq-template: /apps/help/templates/article-3
-discoiquuid: 701a0125-c54a-4c06-8928-7076872d74a2
+discoiquuid: e0c70630-bb58-4105-b15d-08e21218e071
 firstPublishExternalDate: 2018-09-07T15:12:06.791-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,15 +32,15 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Customizing an In-App message
 publishexternaldate: 2018-09-07T15 12 06.791-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/customizing-an-in-app-message.html
-sha1: e3cc9cb429597c74bba5dfeb9de0153db527f4ae
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/channels/using/customizing-an-in-app-message.html"
+sha1: 6f36dedaa56e4e54e07d23ea49ea54ba3c2b7e5c
 topicBrowsingSortDate: 2018-09-07T15:12:06.791-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Customizing an In-App message
+# Customizing an In-App message{#customizing-an-in-app-message}
 
 Customizing an In-App message
 
@@ -53,9 +53,9 @@ The In-App content editor lets you choose between two In-app message modes:
 
 ![](assets/inapp_customize_1.png)
 
-## Customizing with a message template
+## Customizing with a message template {#customizing-with-a-message-template}
 
-### Layout
+### Layout {#layout}
 
 The **Layout** drop-down provides you with four different options to choose from depending on your messaging needs:
 
@@ -79,7 +79,7 @@ Each type of layouts can be previewed on different devices such as phone, tablet
 
 ![](assets/inapp_customize_4.png)
 
-### Display
+### Display {#display}
 
 The Display drop-down allows you to add media to your In-App message which will draw your audience attention.
 
@@ -103,7 +103,7 @@ The Display drop-down allows you to add media to your In-App message which will 
 
    ![](assets/inapp_customize_7.png)
 
-### Text
+### Text {#text}
 
 If needed, you can also add a message title and content to your In-App message. To better personalize your In-App message, you can add different personalization fields, content blocks and dynamic text to your content.
 
@@ -128,7 +128,7 @@ If needed, you can also add a message title and content to your In-App message. 
 
    ![](assets/inapp_customize_11.png)
 
-### Buttons
+### Buttons {#buttons}
 
 In-App message buttons prompt your audience to choose between one or two buttons associated with an action.
 
@@ -153,7 +153,7 @@ In-App message buttons prompt your audience to choose between one or two buttons
 
    ![](assets/inapp_customize_15.png)
 
-## Customizing with a custom message
+## Customizing with a custom message {#customizing-with-a-custom-message}
 
 >[!NOTE]
 >

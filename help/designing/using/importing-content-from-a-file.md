@@ -3,7 +3,7 @@ title: Importing content from a file
 seo-title: Importing content from a file
 description: Importing content from a file
 seo-description: Discover how to upload a file from your computer when creating an email or a landing page.
-uuid: 54a42d3a-f5d7-4354-909f-ad32ec6ef921
+uuid: 0790d7d6-9d48-4877-ae76-9d03905370f2
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/importing-content-from-a-file
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: loading-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: b8e6ee22-e9da-44e4-b66d-8a5c3477c814
+discoiquuid: 295dca42-a2a4-4e90-a018-8175216445fb
 firstPublishExternalDate: 2018-09-07T14:54:37.385-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,15 +32,15 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Importing content from a file
 publishexternaldate: 2018-09-07T14 54 37.385-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/importing-content-from-a-file.html
-sha1: 0c9c7124f2aea8ed8dcae7162dc9b47c53e3ece8
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/designing/using/importing-content-from-a-file.html"
+sha1: 715862e2d1d487309ed335aec142cf9de4b5e9b0
 topicBrowsingSortDate: 2018-09-07T14:54:37.385-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Importing content from a file
+# Importing content from a file{#importing-content-from-a-file}
 
 Importing content from a file
 

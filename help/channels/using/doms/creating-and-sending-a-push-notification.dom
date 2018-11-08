@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="audience:channels" name="primaryAudienceTag" />
-  <meta content="https://helpx.adobe.com/campaign/standard/channels/using/creating-and-sending-a-push-notification.html" name="publishExternalURL" />
-  <meta content="2018-09-07T15:11:53.073-0400" name="lastPublishExternalDate" />
-  <meta content="Follow these steps to create a single-send push notification in Adobe Campaign." name="seoDescription" />
-  <meta content="2018-09-07T15:11:53.118-0400" name="cq:lastReplicated" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-03-15T09:01:08.916-0400" name="jcr:created" />
+  <meta content="2018-09-08T08:23:09.031-0400" name="locHandOffDate" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
   <meta content="" name="jcr:versionHistory" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="Creating and sending a push notification" name="navTitle" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="2018-09-07T15:11:53.073-0400" name="firstPublishExternalDate" />
   <meta content="products:SG_CAMPAIGN/STANDARD;audience:channels;content_type:reference;topic_tags:push-notifications" name="cq:tags" />
   <meta content="Creating and sending a push notification" name="jcr:title" />
-  <meta content="2018-09-08T08:23:09.031-0400" name="locHandOffDate" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="" name="jcr:primaryType" />
+  <meta content="2018-09-07T15:11:53.073-0400" name="topicBrowsingSortDate" />
+  <meta content="Follow these steps to create a single-send push notification in Adobe Campaign." name="seoDescription" />
   <meta content="light" name="heroGradient" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="en_us" name="jcr:language" />
   <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
   <meta content="Creating and sending a push notification" name="jcr:description" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="audience:channels" name="primaryAudienceTag" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-09-07T15:11:53.073-0400" name="firstPublishExternalDate" />
+  <meta content="2018-09-07T15:11:53.073-0400" name="lastPublishExternalDate" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="" name="jcr:primaryType" />
   <meta content="2018-09-08T08:23:09.031-0400" name="cq:lastModified" />
-  <meta content="2018-03-15T09:01:08.916-0400" name="jcr:created" />
-  <meta content="2018-09-07T15:11:53.073-0400" name="topicBrowsingSortDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="b8eadfff-c71d-4faf-90d8-43458a0d9e6b" name="jcr:predecessors" />
+  <meta content="2018-09-07T15:11:53.118-0400" name="cq:lastReplicated" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
   <meta content="3e258342-1035-497f-9e2c-39143d08aa02" name="jcr:uuid" />
   <meta content="false" name="isReadyForLocalization" />
-  <meta content="b8eadfff-c71d-4faf-90d8-43458a0d9e6b" name="jcr:predecessors" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Creating and sending a push notification" name="navTitle" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="https://helpx.adobe.com/campaign/standard/channels/using/creating-and-sending-a-push-notification.html" name="publishExternalURL" />
   <meta content="2018-09-07T15:11:53.073-0400" name="publishExternalDate" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
  </head>
  <body>
   <h2>Designing the notification</h2>

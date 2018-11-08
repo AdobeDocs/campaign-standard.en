@@ -3,7 +3,7 @@ title: Licenses
 seo-title: Licenses
 description: Licenses
 seo-description: 
-uuid: 04b83b98-430a-4f69-b161-90146accffd0
+uuid: c44ce53e-1172-41ad-8556-ffc798ea3d8d
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/licenses
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: administration
 content-type: reference
 topic-tags: users-e-security
 cq-template: /apps/help/templates/article-3
-discoiquuid: 8f9fb54e-1756-4c5a-9e09-e06b01cab2b3
+discoiquuid: 1666f8e9-4833-4f47-b7e8-e47847af2bff
 firstPublishExternalDate: 2018-09-07T14:42:25.586-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,15 +32,15 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Licenses
 publishexternaldate: 2018-09-07T14 42 25.586-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/licenses.html
-sha1: d5080481df14f08414d432d2006da0569feb53c8
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/administration/using/licenses.html"
+sha1: 387daa491a7d051ffa539d3b449b5f0b542a3b40
 topicBrowsingSortDate: 2018-09-07T14:42:25.586-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Licenses
+# Licenses{#licenses}
 
 Licenses
 

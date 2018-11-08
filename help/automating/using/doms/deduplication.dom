@@ -1,40 +1,40 @@
 <html> 
  <head> 
-  <meta content="2018-09-10T07:25:34.801-0400" name="locHandOffDate" /> 
-  <meta content="Activate" name="cq:lastReplicationAction" /> 
-  <meta content="Deduplication" name="navTitle" /> 
-  <meta content="Deduplication" name="jcr:title" /> 
-  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
-  <meta content="audience:automating" name="primaryAudienceTag" /> 
-  <meta content="" name="jcr:primaryType" /> 
-  <meta content="2018-09-07T14:56:13.367-0400" name="publishExternalDate" /> 
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
   <meta content="sauviat" name="cq:lastReplicatedBy" /> 
-  <meta content="Deduplication" name="jcr:description" /> 
-  <meta content="" name="jcr:baseVersion" /> 
-  <meta content="2018-09-07T14:56:13.367-0400" name="topicBrowsingSortDate" /> 
-  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
-  <meta content="2018-09-07T14:56:13.367-0400" name="firstPublishExternalDate" /> 
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
-  <meta content="light" name="heroGradient" /> 
-  <meta content="sauviat" name="contentOwner" /> 
-  <meta content="2018-09-10T07:25:34.803-0400" name="cq:lastModified" /> 
-  <meta content="The Deduplication activity allows you to delete duplicates in the result(s) of the inbound activities." name="seoDescription" /> 
-  <meta content="2018-09-07T14:56:13.367-0400" name="lastPublishExternalDate" /> 
-  <meta content="" name="jcr:versionHistory" /> 
-  <meta content="true" name="jcr:isCheckedOut" /> 
-  <meta content="en_us" name="jcr:language" /> 
-  <meta content="2018-09-07T14:56:14.726-0400" name="cq:lastReplicated" /> 
   <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
-  <meta content="admin" name="jcr:createdBy" /> 
-  <meta content="b85975e3-17e3-4f40-82f9-681cb831c4ea" name="jcr:uuid" /> 
-  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
   <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:targeting-activities" name="cq:tags" /> 
-  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/deduplication.html" name="publishExternalURL" /> 
-  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="light" name="heroGradient" /> 
   <meta content="2018-03-15T09:02:58.928-0400" name="jcr:created" /> 
+  <meta content="b85975e3-17e3-4f40-82f9-681cb831c4ea" name="jcr:uuid" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="Deduplication" name="jcr:description" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-09-07T14:56:13.367-0400" name="lastPublishExternalDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="Deduplication" name="navTitle" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:targeting-activities" name="cq:tags" /> 
+  <meta content="2018-09-10T07:25:34.803-0400" name="cq:lastModified" /> 
+  <meta content="2018-09-10T07:25:34.801-0400" name="locHandOffDate" /> 
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
   <meta content="7d71a903-a0fb-4c6f-b657-ea7d985d0bed" name="jcr:predecessors" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="Deduplication" name="jcr:title" /> 
+  <meta content="The Deduplication activity allows you to delete duplicates in the result(s) of the inbound activities." name="seoDescription" /> 
+  <meta content="2018-09-07T14:56:13.367-0400" name="topicBrowsingSortDate" /> 
+  <meta content="2018-09-07T14:56:13.367-0400" name="firstPublishExternalDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2018-09-07T14:56:13.367-0400" name="publishExternalDate" /> 
+  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/deduplication.html" name="publishExternalURL" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-09-07T14:56:14.726-0400" name="cq:lastReplicated" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
+  <meta content="audience:automating" name="primaryAudienceTag" /> 
  </head> 
  <body> 
   <h2>Description</h2> 

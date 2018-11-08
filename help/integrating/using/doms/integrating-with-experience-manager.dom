@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="https://helpx.adobe.com/campaign/standard/integrating/using/integrating-with-experience-manager.html" name="publishExternalURL" />
-  <meta content="Integrating with Experience Manager" name="navTitle" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="audience:integrating" name="primaryAudienceTag" />
-  <meta content="2018-09-10T02:18:35.936-0400" name="cq:lastModified" />
   <meta content="light" name="heroGradient" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-09-10T02:18:35.935-0400" name="locHandOffDate" />
+  <meta content="7de6125c-7e27-453e-b51d-93120458fb4b" name="jcr:uuid" />
+  <meta content="With the Adobe Experience Manager integration, you can create content directly in AEM and use it later on in Adobe Campaign." name="seoDescription" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2018-09-07T14:58:35.221-0400" name="cq:lastReplicated" />
+  <meta content="2018-03-15T09:02:38.293-0400" name="jcr:created" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="https://helpx.adobe.com/campaign/standard/integrating/using/integrating-with-experience-manager.html" name="publishExternalURL" />
   <meta content="Integrating with Experience Manager" name="jcr:description" />
   <meta content="2018-09-07T14:58:33.418-0400" name="topicBrowsingSortDate" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="2018-09-07T14:58:35.221-0400" name="cq:lastReplicated" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-09-10T02:18:35.936-0400" name="cq:lastModified" />
+  <meta content="Integrating with Experience Manager" name="navTitle" />
+  <meta content="2018-09-07T14:58:33.418-0400" name="publishExternalDate" />
+  <meta content="Integrating with Experience Manager" name="jcr:title" />
   <meta content="2018-09-07T14:58:33.418-0400" name="lastPublishExternalDate" />
-  <meta content="2018-09-07T14:58:33.418-0400" name="firstPublishExternalDate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="9a6b2757-fae8-425b-a2d3-498be25a5a63" name="jcr:predecessors" />
   <meta content="/etc/designs/help" name="cq:designPath" />
   <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="Integrating with Experience Manager" name="jcr:title" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="With the Adobe Experience Manager integration, you can create content directly in AEM and use it later on in Adobe Campaign." name="seoDescription" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:integrating;content_type:reference;topic_tags:working-with-campaign-and-experience-manager" name="cq:tags" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="7de6125c-7e27-453e-b51d-93120458fb4b" name="jcr:uuid" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="2018-09-07T14:58:33.418-0400" name="publishExternalDate" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="9a6b2757-fae8-425b-a2d3-498be25a5a63" name="jcr:predecessors" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="2018-03-15T09:02:38.293-0400" name="jcr:created" />
-  <meta content="2018-09-10T02:18:35.935-0400" name="locHandOffDate" />
+  <meta content="2018-09-07T14:58:33.418-0400" name="firstPublishExternalDate" />
   <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="audience:integrating" name="primaryAudienceTag" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:integrating;content_type:reference;topic_tags:working-with-campaign-and-experience-manager" name="cq:tags" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
  </head>
  <body>
   <p>This integration between Adobe Campaign Standard and Adobe Experience Manager allows you to use content created in Adobe Experience Manager in your Adobe Campaign emails.</p> 

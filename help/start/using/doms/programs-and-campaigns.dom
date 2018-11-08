@@ -1,41 +1,41 @@
 <html>
  <head>
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="ba30c422-73d9-41d6-9a10-06c1de2bdd56" name="jcr:uuid" />
-  <meta content="Programs and campaigns" name="navTitle" />
-  <meta content="Programs and campaigns" name="jcr:description" />
-  <meta content="2018-03-15T09:02:08.267-0400" name="jcr:created" />
-  <meta content="https://helpx.adobe.com/campaign/standard/start/using/programs-and-campaigns.html" name="publishExternalURL" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="Programs and campaigns" name="jcr:title" />
-  <meta content="In Adobe Campaign, programs and campaigns allow you to group and orchestrate the different marketing activities that are linked to them. Reports on programs and campaigns allow you to analyze their impact." name="seoDescription" />
-  <meta content="/content/help/en/campaign/standard/start/morehelp/marketing-plans;/content/help/en/campaign/standard/start/morehelp/marketing-plans" name="moreHelpPaths" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="2018-09-08T08:23:07.233-0400" name="locHandOffDate" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="2018-09-07T15:08:19.981-0400" name="topicBrowsingSortDate" />
-  <meta content="2018-09-08T08:23:07.233-0400" name="cq:lastModified" />
   <meta content="" name="jcr:versionHistory" />
-  <meta content="2018-09-07T15:08:19.981-0400" name="publishExternalDate" />
-  <meta content="2018-09-07T15:08:20.356-0400" name="cq:lastReplicated" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:start;content_type:reference;topic_tags:marketing-plans" name="cq:tags" />
-  <meta content="light" name="heroGradient" />
-  <meta content="2018-09-07T15:08:19.981-0400" name="firstPublishExternalDate" />
-  <meta content="audience:start" name="primaryAudienceTag" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
   <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="2018-09-08T08:23:07.233-0400" name="locHandOffDate" />
   <meta content="a12e5e81-7b34-45ed-9e4a-45f303c7c3dd" name="jcr:predecessors" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-09-07T15:08:19.981-0400" name="publishExternalDate" />
+  <meta content="light" name="heroGradient" />
   <meta content="2018-09-07T15:08:19.981-0400" name="lastPublishExternalDate" />
+  <meta content="2018-09-07T15:08:20.356-0400" name="cq:lastReplicated" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="In Adobe Campaign, programs and campaigns allow you to group and orchestrate the different marketing activities that are linked to them. Reports on programs and campaigns allow you to analyze their impact." name="seoDescription" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:start;content_type:reference;topic_tags:marketing-plans" name="cq:tags" />
+  <meta content="Programs and campaigns" name="jcr:description" />
+  <meta content="https://helpx.adobe.com/campaign/standard/start/using/programs-and-campaigns.html" name="publishExternalURL" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-09-07T15:08:19.981-0400" name="firstPublishExternalDate" />
+  <meta content="ba30c422-73d9-41d6-9a10-06c1de2bdd56" name="jcr:uuid" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
   <meta content="en_us" name="jcr:language" />
+  <meta content="audience:start" name="primaryAudienceTag" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-03-15T09:02:08.267-0400" name="jcr:created" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="Programs and campaigns" name="jcr:title" />
   <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="/content/help/en/campaign/standard/start/morehelp/marketing-plans;/content/help/en/campaign/standard/start/morehelp/marketing-plans" name="moreHelpPaths" />
+  <meta content="2018-09-08T08:23:07.233-0400" name="cq:lastModified" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-09-07T15:08:19.981-0400" name="topicBrowsingSortDate" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Programs and campaigns" name="navTitle" />
  </head>
  <body>
   <h2>About plans, programs and campaigns</h2>

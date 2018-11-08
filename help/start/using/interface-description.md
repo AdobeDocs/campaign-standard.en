@@ -2,8 +2,8 @@
 title: Interface description
 seo-title: Interface description
 description: Interface description
-seo-description: Learn how to navigate and use the Adobe Campaign workspace home page, top bar, advanced menus and action bars.
-uuid: 8ae30b0d-e101-4a60-b694-acf944de6549
+seo-description: "Learn how to navigate and use the Adobe Campaign workspace: home page, top bar, advanced menus and action bars."
+uuid: ba5cce3b-af59-457b-af75-6c86b1eb0a30
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/start/using/interface-description
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 cq-template: /apps/help/templates/article-3
-discoiquuid: 90adf844-3587-47cf-b7cb-1fc045f1f21d
+discoiquuid: e526f17c-5b07-402e-bb14-5be96a678260
 firstPublishExternalDate: 2018-09-07T15:07:59.559-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,15 +32,15 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Interface description
 publishexternaldate: 2018-09-07T15 07 59.559-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/start/using/interface-description.html
-sha1: 0e0ee9091b1f4a4427065946a2f4800bfcc764e6
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/start/using/interface-description.html"
+sha1: 75a03014f07113924ad8d5846d3f6e2e407ffc7d
 topicBrowsingSortDate: 2018-09-07T15:07:59.559-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Interface description
+# Interface description{#interface-description}
 
 Interface description
 
@@ -55,7 +55,7 @@ All Adobe Campaign screens are made up of the following elements:
 
 ![](assets/UX_interface_01.png) 
 
-## Home page
+## Home page {#home-page}
 
 The home page is made up of multiple cards that give you quick access to the main Adobe Campaign functionalities.
 
@@ -71,7 +71,7 @@ The home page is made up of multiple cards that give you quick access to the mai
 * The **Customer profiles** card takes you directly to the list of profiles. From here you can consult the events concerning each of the profiles in your list. Refer to [Managing profiles](../../audiences/using/about-profiles.md).
 * The **Audiences** card takes you directly to the list of audiences. From here you can create new sets of individuals. Refer to [Managing audiences](../../audiences/using/about-audiences.md).
 
-## Top bar
+## Top bar {#top-bar}
 
 The top bar is visible on every screen and allows you to navigate through Adobe Campaign functionalities as well as access the Adobe profile connected, notifications, other Adobe Experience Cloud solutions and configurations, and the documentation.
 
@@ -91,13 +91,13 @@ The navigation principles are:
 * The **Notifications** icon displays the latest alerts or information for the user connected.
 * The **User** icon allows you to display information linked to the current user. It gives access to the **Sign out** button.
 
-## Advanced menu
+## Advanced menu {#advanced-menu}
 
 The advanced menu is displayed by clicking the **Adobe Campaign** icon, in the top left corner of each screen. The advanced menu may vary depending your contract and user permissions.
 
 This menu allows you to navigate to specific functionalities and settings.
 
-### Marketing plans
+### Marketing plans {#marketing-plans}
 
 The **Marketing plans** icon gives you access the following functionalities:
 
@@ -106,7 +106,7 @@ The **Marketing plans** icon gives you access the following functionalities:
 * **Timeline** - for more on this, refer to the [Timeline](../../start/using/timeline.md) section.
 * **Transactional messages**, which contains the sub-menus **Deliveries** and **Event configuration** - for more on this, refer to the [Transactional messaging](../../channels/using/about-transactional-messaging.md) section.
 
-### Profiles &amp; audiences
+### Profiles &amp; audiences {#profiles-amp-audiences}
 
 The **Profiles & audiences** icon gives you access to the following functionalities:
 
@@ -115,7 +115,7 @@ The **Profiles & audiences** icon gives you access to the following functionalit
 * **Audiences** - for more on this, refer to the [Managing audiences](../../audiences/using/about-audiences.md) section.
 * **Services** - for more on this, refer to the [Creating a service](../../audiences/using/creating-a-service.md) section.
 
-### Resources
+### Resources {#resources}
 
 The **Resources** icon gives you access to the following functionalities:
 
@@ -123,11 +123,11 @@ The **Resources** icon gives you access to the following functionalities:
 * **Content blocks** - for more on this, refer to the [Adding a content block](../../designing/using/adding-a-content-block.md) section.
 * **Content templates** - for more on this, refer to the [Loading an existing content](../../designing/using/selecting-an-existing-content.md) section.
 
-### Administration
+### Administration {#administration}
 
 The **Administration** icon gives you access to the advanced functionalities that can only be carried out by functional administrator. For more on this, refer to the [Administration](../../administration/using/about-administrating-adobe-campaign.md) chapter.
 
-## Main zone
+## Main zone {#main-zone}
 
 The main zone is a dynamic zone that contains a list of elements or a set of cards for example. It allows you to edit existing elements and create resources.
 
@@ -155,7 +155,7 @@ The content and display format of the main zone can vary:
 
   ![](assets/UX_workspace.png)
 
-## Action bar
+## Action bar {#action-bar}
 
 According to the screen type displayed, a bar containing actions linked to the screen appears at the top.
 

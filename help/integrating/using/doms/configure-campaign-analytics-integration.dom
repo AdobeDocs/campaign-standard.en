@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="c182cae7-1074-46f3-88e0-e799f2ec4d90" name="jcr:uuid" />
   <meta content="2018-09-07T15:04:09.550-0400" name="publishExternalDate" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="2018-09-07T15:04:09.550-0400" name="lastPublishExternalDate" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:integrating;content_type:reference;topic_tags:working-with-campaign-and-analytics" name="cq:tags" />
-  <meta content="light" name="heroGradient" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="Configure Campaign-Analytics integration" name="jcr:title" />
-  <meta content="2018-03-15T09:01:52.209-0400" name="jcr:created" />
-  <meta content="2018-09-07T15:04:09.550-0400" name="firstPublishExternalDate" />
-  <meta content="2018-09-07T15:04:09.550-0400" name="topicBrowsingSortDate" />
-  <meta content="Configure Campaign-Analytics integration" name="jcr:description" />
-  <meta content="2018-09-10T02:18:50.167-0400" name="cq:lastModified" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="https://helpx.adobe.com/campaign/standard/integrating/using/configure-campaign-analytics-integration.html" name="publishExternalURL" />
-  <meta content="" name="jcr:primaryType" />
   <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="2018-09-07T15:04:11.865-0400" name="cq:lastReplicated" />
-  <meta content="Configure Campaign-Analytics integration" name="navTitle" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="" name="jcr:versionHistory" />
   <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="audience:integrating" name="primaryAudienceTag" />
-  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-09-10T02:18:50.167-0400" name="cq:lastModified" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
   <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="2018-09-10T02:18:50.166-0400" name="locHandOffDate" />
   <meta content="Learn how to configure the Adobe Analytics integration to start measuring the success of your email deliveries." name="seoDescription" />
+  <meta content="2018-09-07T15:04:09.550-0400" name="topicBrowsingSortDate" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="c182cae7-1074-46f3-88e0-e799f2ec4d90" name="jcr:uuid" />
+  <meta content="2018-09-07T15:04:09.550-0400" name="lastPublishExternalDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2018-09-07T15:04:09.550-0400" name="firstPublishExternalDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:integrating;content_type:reference;topic_tags:working-with-campaign-and-analytics" name="cq:tags" />
+  <meta content="2018-09-10T02:18:50.166-0400" name="locHandOffDate" />
+  <meta content="Configure Campaign-Analytics integration" name="jcr:title" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="light" name="heroGradient" />
   <meta content="486ab9ee-d3d2-49db-b790-dae2575da343" name="jcr:predecessors" />
+  <meta content="Configure Campaign-Analytics integration" name="jcr:description" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-09-07T15:04:11.865-0400" name="cq:lastReplicated" />
+  <meta content="https://helpx.adobe.com/campaign/standard/integrating/using/configure-campaign-analytics-integration.html" name="publishExternalURL" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="Configure Campaign-Analytics integration" name="navTitle" />
+  <meta content="audience:integrating" name="primaryAudienceTag" />
+  <meta content="2018-03-15T09:01:52.209-0400" name="jcr:created" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
  </head>
  <body>
   <p>This integration allows you to share your Key Performance Indicator data directly from Adobe Campaign to Adobe Analytics Standard or Premium.</p> 

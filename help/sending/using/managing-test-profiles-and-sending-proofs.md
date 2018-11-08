@@ -3,7 +3,7 @@ title: Managing test profiles and sending proofs
 seo-title: Managing test profiles and sending proofs
 description: Managing test profiles and sending proofs
 seo-description: Learn how to manage test profiles and proofs.
-uuid: da332ac1-aa6d-4b63-8d96-c4c93e5c7570
+uuid: f57cfb9b-6ce0-4f50-86cb-cb283676e494
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/sending/using/managing-test-profiles-and-sending-proofs
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 cq-template: /apps/help/templates/article-3
-discoiquuid: 83c592fc-2db7-4288-967d-163259266cd8
+discoiquuid: e791c3eb-8d58-438c-8a60-f1fc0d87e686
 firstPublishExternalDate: 2018-09-07T15:11:14.767-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,19 +32,19 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Managing test profiles and sending proofs
 publishexternaldate: 2018-09-07T15 11 14.767-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/sending/using/managing-test-profiles-and-sending-proofs.html
-sha1: 2b1daa8ea3a151888982ba667b79ec3e8f528f13
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/sending/using/managing-test-profiles-and-sending-proofs.html"
+sha1: 74a4a539d205602ccba838ae9810a4adacf4e26b
 topicBrowsingSortDate: 2018-09-07T15:11:14.767-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Managing test profiles and sending proofs
+# Managing test profiles and sending proofs{#managing-test-profiles-and-sending-proofs}
 
 Managing test profiles and sending proofs
 
-## About test profiles
+## About test profiles {#about-test-profiles}
 
 The test profiles allow you to target additional recipients who do not match the defined targeting criteria. They are added to a message's audience to detect any fraudulent use of your recipient database or to ensure the emails arrive in the inboxes.
 
@@ -62,9 +62,9 @@ A test profile contains fictitious contact information, or contact information c
 
 ![](assets/test_profile.png)
 
-## Managing test profiles
+## Managing test profiles {#managing-test-profiles}
 
-### Creating test profiles
+### Creating test profiles {#creating-test-profiles}
 
 1. From the advanced menu, via the Adobe Campaign logo, select **Profiles & audiences > Test profiles** to access the list of test profiles. 
 
@@ -97,7 +97,7 @@ The test profile will then be added to the list of profiles.
 
 [Creating a test profile](https://docs.campaign.adobe.com/doc/standard/en/Videos/test_profile_creation.mp4) video
 
-### Editing test profiles
+### Editing test profiles {#editing-test-profiles}
 
 To edit a test profile and consult the data that is linked to it, or to modify it:
 
@@ -108,7 +108,7 @@ To edit a test profile and consult the data that is linked to it, or to modify i
 
 1. Click **Save** if you have entered your changes, or select the name of the test profile then **Test profiles** in the section at the top of the screen to go back to the test profiles dashboard.
 
-## Sending proofs
+## Sending proofs {#sending-proofs}
 
 A proof is a specific message that allows you to test a message before sending it to the main target.
 

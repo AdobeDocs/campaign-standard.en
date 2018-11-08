@@ -1,40 +1,40 @@
 <html> 
  <head> 
-  <meta content="200a3f08-a74c-461a-9d69-32500fce7920" name="jcr:uuid" /> 
-  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
-  <meta content="true" name="jcr:isCheckedOut" /> 
-  <meta content="2018-09-07T15:11:23.392-0400" name="cq:lastReplicated" /> 
-  <meta content="sauviat" name="cq:lastReplicatedBy" /> 
+  <meta content="Discover how to send a message at a specific date and time." name="seoDescription" /> 
+  <meta content="2018-09-07T15:11:23.284-0400" name="publishExternalDate" /> 
   <meta content="2018-09-07T15:11:23.284-0400" name="firstPublishExternalDate" /> 
+  <meta content="audience:sending" name="primaryAudienceTag" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="2018-09-07T15:11:23.284-0400" name="topicBrowsingSortDate" /> 
+  <meta content="Computing the sending date" name="jcr:description" /> 
+  <meta content="2018-03-15T09:02:33.444-0400" name="jcr:created" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:sending;content_type:reference;topic_tags:sheduling-messages" name="cq:tags" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="6b4cf276-c8c0-4b91-99a8-557fad95a620" name="jcr:predecessors" /> 
+  <meta content="2018-09-08T08:23:08.331-0400" name="locHandOffDate" /> 
   <meta content="Computing the sending date" name="jcr:title" /> 
   <meta content="2018-09-08T08:23:08.331-0400" name="cq:lastModified" /> 
-  <meta content="Computing the sending date" name="navTitle" /> 
-  <meta content="2018-09-07T15:11:23.284-0400" name="publishExternalDate" /> 
-  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
-  <meta content="audience:sending" name="primaryAudienceTag" /> 
   <meta content="/etc/designs/help" name="cq:designPath" /> 
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
-  <meta content="" name="jcr:baseVersion" /> 
-  <meta content="Computing the sending date" name="jcr:description" /> 
-  <meta content="Discover how to send a message at a specific date and time." name="seoDescription" /> 
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
-  <meta content="light" name="heroGradient" /> 
+  <meta content="200a3f08-a74c-461a-9d69-32500fce7920" name="jcr:uuid" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
   <meta content="sauviat" name="contentOwner" /> 
-  <meta content="" name="jcr:versionHistory" /> 
-  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
-  <meta content="2018-09-08T08:23:08.331-0400" name="locHandOffDate" /> 
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:sending;content_type:reference;topic_tags:sheduling-messages" name="cq:tags" /> 
-  <meta content="2018-09-07T15:11:23.284-0400" name="topicBrowsingSortDate" /> 
-  <meta content="2018-09-07T15:11:23.284-0400" name="lastPublishExternalDate" /> 
-  <meta content="6b4cf276-c8c0-4b91-99a8-557fad95a620" name="jcr:predecessors" /> 
   <meta content="" name="jcr:primaryType" /> 
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
-  <meta content="admin" name="jcr:createdBy" /> 
-  <meta content="2018-03-15T09:02:33.444-0400" name="jcr:created" /> 
-  <meta content="Activate" name="cq:lastReplicationAction" /> 
-  <meta content="en_us" name="jcr:language" /> 
+  <meta content="" name="jcr:baseVersion" /> 
   <meta content="https://helpx.adobe.com/campaign/standard/sending/using/computing-the-sending-date.html" name="publishExternalURL" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="Computing the sending date" name="navTitle" /> 
   <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2018-09-07T15:11:23.392-0400" name="cq:lastReplicated" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2018-09-07T15:11:23.284-0400" name="lastPublishExternalDate" /> 
+  <meta content="sauviat" name="cq:lastReplicatedBy" /> 
  </head> 
  <body> 
   <p>You can define a formula to send the message to each recipient at a specific date and time.</p> 

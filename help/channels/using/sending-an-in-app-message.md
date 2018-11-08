@@ -3,7 +3,7 @@ title: Sending an In-App message
 seo-title: Sending an In-App message
 description: Sending an In-App message
 seo-description: 
-uuid: 0ff69870-620d-4765-b302-ba53089076d6
+uuid: c29fb4ef-a435-4d57-8906-f3f20346ce50
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/sending-an-in-app-message
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: channels
 content-type: reference
 topic-tags: in-app-messaging
 cq-template: /apps/help/templates/article-3
-discoiquuid: 6ddef3a9-906d-4b4a-8989-1a0a95e26f90
+discoiquuid: 5400ddcb-20b6-437c-b24d-620ff69da3cd
 firstPublishExternalDate: 2018-09-07T15:12:18.087-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,21 +32,21 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Sending an In-App message
 publishexternaldate: 2018-09-07T15 12 18.087-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/sending-an-in-app-message.html
-sha1: c1705aaac82ae336b21ec993df54d34790cfd475
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/channels/using/sending-an-in-app-message.html"
+sha1: d2b81f3f5d49eb54268933c094142ae6f4a4423d
 topicBrowsingSortDate: 2018-09-07T15:12:18.087-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Sending an In-App message
+# Sending an In-App message{#sending-an-in-app-message}
 
 Sending an In-App message
 
 Once your In-App message has been created and personalized, you can perform tests and send it to your targeted audience.
 
-## Previewing the In-App message
+## Previewing the In-App message {#previewing-the-in-app-message}
 
 Before sending your In-App message, you can test with your test profiles to check what your targeted audience will see when they receive your delivery.
 
@@ -63,7 +63,7 @@ Before sending your In-App message, you can test with your test profiles to chec
 
    ![](assets/inapp_sending_3.png)
 
-## Sending your In-App message
+## Sending your In-App message {#sending-your-in-app-message}
 
 Once you have finished preparing your delivery and the approval steps have been carried out, you can send your message.
 

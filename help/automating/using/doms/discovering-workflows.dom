@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="Discovering workflows" name="jcr:title" />
-  <meta content="Discovering workflows" name="navTitle" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="2018-09-10T07:22:23.793-0400" name="cq:lastModified" />
-  <meta content="light" name="heroGradient" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="2018-09-07T14:43:09.687-0400" name="lastPublishExternalDate" />
-  <meta content="8aab51a3-8d13-49a2-81d4-24dd277e9ceb" name="jcr:predecessors" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="2018-09-07T14:43:09.687-0400" name="publishExternalDate" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="2018-09-07T14:43:09.687-0400" name="topicBrowsingSortDate" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:about-workflows-and-data-management" name="cq:tags" />
-  <meta content="47c9fc4a-4dcb-42ba-9551-c621a98bc098" name="jcr:uuid" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="Adobe Campaign offers a comprehensive graphical environment that allows you to design complete processes including segmentation, campaign execution, file processing, approvals, and so on." name="seoDescription" />
-  <meta content="2018-09-10T07:22:23.792-0400" name="locHandOffDate" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
   <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="audience:automating" name="primaryAudienceTag" />
-  <meta content="2018-09-07T14:43:09.687-0400" name="firstPublishExternalDate" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/discovering-workflows.html" name="publishExternalURL" />
-  <meta content="2018-09-07T14:43:11.273-0400" name="cq:lastReplicated" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:about-workflows-and-data-management" name="cq:tags" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
   <meta content="Discovering workflows" name="jcr:description" />
-  <meta content="" name="jcr:versionHistory" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-09-10T07:22:23.792-0400" name="locHandOffDate" />
+  <meta content="2018-09-07T14:43:09.687-0400" name="publishExternalDate" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-09-07T14:43:11.273-0400" name="cq:lastReplicated" />
+  <meta content="light" name="heroGradient" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="47c9fc4a-4dcb-42ba-9551-c621a98bc098" name="jcr:uuid" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="Discovering workflows" name="jcr:title" />
+  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/discovering-workflows.html" name="publishExternalURL" />
+  <meta content="2018-09-07T14:43:09.687-0400" name="firstPublishExternalDate" />
+  <meta content="Adobe Campaign offers a comprehensive graphical environment that allows you to design complete processes including segmentation, campaign execution, file processing, approvals, and so on." name="seoDescription" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="" name="jcr:baseVersion" />
   <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="en_us" name="jcr:language" />
   <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-09-07T14:43:09.687-0400" name="topicBrowsingSortDate" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-09-10T07:22:23.793-0400" name="cq:lastModified" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Discovering workflows" name="navTitle" />
+  <meta content="" name="jcr:versionHistory" />
   <meta content="2018-03-15T09:02:21.011-0400" name="jcr:created" />
+  <meta content="8aab51a3-8d13-49a2-81d4-24dd277e9ceb" name="jcr:predecessors" />
+  <meta content="2018-09-07T14:43:09.687-0400" name="lastPublishExternalDate" />
+  <meta content="audience:automating" name="primaryAudienceTag" />
  </head>
  <body>
   <p>Adobe Campaign offers a comprehensive <strong>graphical environment</strong> that allows you to design <strong>complete processes</strong> including segmentation, campaign execution, file processing, approvals, etc.</p> 

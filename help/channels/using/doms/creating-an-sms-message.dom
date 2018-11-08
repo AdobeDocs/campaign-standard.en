@@ -1,39 +1,39 @@
 <html>
  <head>
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="2018-09-07T15:11:47.971-0400" name="lastPublishExternalDate" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:channels;content_type:reference;topic_tags:sms-messages" name="cq:tags" />
-  <meta content="Creating an SMS message" name="jcr:description" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Creating an SMS message" name="jcr:title" />
   <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="2018-09-07T15:11:47.971-0400" name="publishExternalDate" />
+  <meta content="light" name="heroGradient" />
   <meta content="https://helpx.adobe.com/campaign/standard/channels/using/creating-an-sms-message.html" name="publishExternalURL" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="2018-09-07T15:11:47.971-0400" name="topicBrowsingSortDate" />
-  <meta content="a8621e48-276c-44ae-a319-e7d74cef1e9d" name="jcr:predecessors" />
-  <meta content="audience:channels" name="primaryAudienceTag" />
-  <meta content="2018-03-15T09:01:16.518-0400" name="jcr:created" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
   <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="2018-09-07T15:11:48.016-0400" name="cq:lastReplicated" />
+  <meta content="Follow these steps to create a single-send SMS message in Adobe Campaign." name="seoDescription" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="f64382c9-9f54-4468-b5a0-3f439449d881" name="jcr:uuid" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-09-07T15:11:47.971-0400" name="lastPublishExternalDate" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-03-15T09:01:16.518-0400" name="jcr:created" />
+  <meta content="Creating an SMS message" name="navTitle" />
+  <meta content="2018-09-08T08:23:07.660-0400" name="locHandOffDate" />
+  <meta content="audience:channels" name="primaryAudienceTag" />
+  <meta content="2018-09-08T08:23:07.660-0400" name="cq:lastModified" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="a8621e48-276c-44ae-a319-e7d74cef1e9d" name="jcr:predecessors" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:channels;content_type:reference;topic_tags:sms-messages" name="cq:tags" />
   <meta content="2018-09-07T15:11:47.971-0400" name="firstPublishExternalDate" />
   <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="2018-09-07T15:11:48.016-0400" name="cq:lastReplicated" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="light" name="heroGradient" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="Creating an SMS message" name="jcr:title" />
-  <meta content="f64382c9-9f54-4468-b5a0-3f439449d881" name="jcr:uuid" />
-  <meta content="2018-09-08T08:23:07.660-0400" name="locHandOffDate" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="Follow these steps to create a single-send SMS message in Adobe Campaign." name="seoDescription" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="2018-09-08T08:23:07.660-0400" name="cq:lastModified" />
-  <meta content="2018-09-07T15:11:47.971-0400" name="publishExternalDate" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
   <meta content="sauviat" name="contentOwner" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="Creating an SMS message" name="navTitle" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="Creating an SMS message" name="jcr:description" />
+  <meta content="2018-09-07T15:11:47.971-0400" name="topicBrowsingSortDate" />
   <meta content="" name="jcr:versionHistory" />
  </head>
  <body>

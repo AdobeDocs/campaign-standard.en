@@ -3,7 +3,7 @@ title: Promoting a service
 seo-title: Promoting a service
 description: Promoting a service
 seo-description: Use Adobe Campaign to promote a service and engage your customers through dedicated landing pages, emails or directly on your website.
-uuid: e33f9f4a-1e0d-49a4-8186-56b15d8d0ae7
+uuid: 45a53150-1fb0-4f4a-ac35-1857a54acb2a
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/audiences/using/promoting-a-service
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
 cq-template: /apps/help/templates/article-3
-discoiquuid: 55deffa4-4c57-45a4-acab-fba0869de9b0
+discoiquuid: 9b3b2cc0-5ffa-44e3-8ba0-6016cbdd3f40
 firstPublishExternalDate: 2018-09-07T14:51:19.200-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,15 +32,15 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Promoting a service
 publishexternaldate: 2018-09-07T14 51 19.200-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/audiences/using/promoting-a-service.html
-sha1: 9e69ba52427028274990e61c1a776f529c969183
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/audiences/using/promoting-a-service.html"
+sha1: ad92a171ef12245dc8e5cbb7cb4068cfa915b89f
 topicBrowsingSortDate: 2018-09-07T14:51:19.200-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Promoting a service
+# Promoting a service{#promoting-a-service}
 
 Promoting a service
 

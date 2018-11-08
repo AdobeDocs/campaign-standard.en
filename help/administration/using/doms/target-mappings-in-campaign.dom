@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="audience:administration" name="primaryAudienceTag" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="Target mappings in Campaign" name="navTitle" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="Target mappings in Campaign" name="jcr:description" />
   <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="2018-09-07T15:03:18.477-0400" name="firstPublishExternalDate" />
-  <meta content="2018-09-07T15:03:21.471-0400" name="cq:lastReplicated" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="2018-09-07T15:03:18.477-0400" name="lastPublishExternalDate" />
-  <meta content="2018-09-10T07:26:30.001-0400" name="locHandOffDate" />
-  <meta content="Target mappings in Campaign" name="jcr:title" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:administration;content_type:reference;topic_tags:application-settings" name="cq:tags" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Target mappings in Campaign" name="jcr:description" />
   <meta content="mix:versionable" name="jcr:mixinTypes" />
   <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="2018-03-05T08:01:03.679-0500" name="jcr:created" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="2018-09-07T15:03:18.477-0400" name="topicBrowsingSortDate" />
-  <meta content="2018-09-07T15:03:18.477-0400" name="publishExternalDate" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="2018-09-10T07:26:30.003-0400" name="cq:lastModified" />
   <meta content="sauviat" name="contentOwner" />
-  <meta content="1abe7d8b-1482-4139-9700-fa7b832f7eb3" name="jcr:uuid" />
+  <meta content="2018-09-07T15:03:18.477-0400" name="lastPublishExternalDate" />
   <meta content="admin" name="jcr:createdBy" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="d851df60-5074-42a8-9ba8-ed0311b483c9" name="jcr:predecessors" />
-  <meta content="light" name="heroGradient" />
-  <meta content="https://helpx.adobe.com/campaign/standard/administration/using/target-mappings-in-campaign.html" name="publishExternalURL" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:administration;content_type:reference;topic_tags:application-settings" name="cq:tags" />
+  <meta content="Target mappings in Campaign" name="jcr:title" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Target mappings in Campaign" name="navTitle" />
+  <meta content="2018-09-10T07:26:30.003-0400" name="cq:lastModified" />
   <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="1abe7d8b-1482-4139-9700-fa7b832f7eb3" name="jcr:uuid" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2018-09-07T15:03:18.477-0400" name="publishExternalDate" />
   <meta content="Target mappings are technical objects used by Campaign in order to deliver messages. They contain all the technical settings required to send deliveries." name="seoDescription" />
+  <meta content="2018-09-07T15:03:21.471-0400" name="cq:lastReplicated" />
+  <meta content="https://helpx.adobe.com/campaign/standard/administration/using/target-mappings-in-campaign.html" name="publishExternalURL" />
+  <meta content="2018-03-05T08:01:03.679-0500" name="jcr:created" />
+  <meta content="2018-09-07T15:03:18.477-0400" name="topicBrowsingSortDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-09-07T15:03:18.477-0400" name="firstPublishExternalDate" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-09-10T07:26:30.001-0400" name="locHandOffDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="d851df60-5074-42a8-9ba8-ed0311b483c9" name="jcr:predecessors" />
+  <meta content="audience:administration" name="primaryAudienceTag" />
  </head>
  <body>
   <p>Target mappings are technical objects used by Campaign in order to deliver messages. They contain all the technical settings required to send deliveries (addresses, phone numbers, blacklist indicators, additional identifiers...).</p> 

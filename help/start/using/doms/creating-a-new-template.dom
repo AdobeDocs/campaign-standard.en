@@ -1,40 +1,40 @@
 <html>
  <head>
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2018-09-07T15:08:42.344-0400" name="cq:lastReplicated" />
+  <meta content="Creating a new template" name="jcr:title" />
+  <meta content="2018-09-07T15:08:42.146-0400" name="topicBrowsingSortDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="4c6e9cc5-7f37-4248-8629-cc9015467307" name="jcr:uuid" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="https://helpx.adobe.com/campaign/standard/start/using/creating-a-new-template.html" name="publishExternalURL" />
+  <meta content="2018-09-07T15:08:42.146-0400" name="lastPublishExternalDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-09-07T15:08:42.146-0400" name="publishExternalDate" />
+  <meta content="2018-09-07T15:08:42.146-0400" name="firstPublishExternalDate" />
+  <meta content="light" name="heroGradient" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="Creating a new template" name="jcr:description" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="9c3480c9-f122-4de0-838d-8987271603fc" name="jcr:predecessors" />
+  <meta content="2018-09-08T08:23:09.369-0400" name="cq:lastModified" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="Learn how to create a new template, from existing out-of-box activity templates for email, SMS, push notification deliveries, etc." name="seoDescription" />
   <meta content="/etc/designs/help" name="cq:designPath" />
   <meta content="audience:start" name="primaryAudienceTag" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="Creating a new template" name="jcr:title" />
-  <meta content="9c3480c9-f122-4de0-838d-8987271603fc" name="jcr:predecessors" />
-  <meta content="4c6e9cc5-7f37-4248-8629-cc9015467307" name="jcr:uuid" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="2018-09-07T15:08:42.146-0400" name="publishExternalDate" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="Creating a new template" name="jcr:description" />
-  <meta content="2018-09-08T08:23:09.369-0400" name="cq:lastModified" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="Learn how to create a new template, from existing out-of-box activity templates for email, SMS, push notification deliveries, etc." name="seoDescription" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="2018-09-07T15:08:42.146-0400" name="firstPublishExternalDate" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="2018-09-07T15:08:42.146-0400" name="lastPublishExternalDate" />
-  <meta content="Creating a new template" name="navTitle" />
-  <meta content="light" name="heroGradient" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
   <meta content="" name="jcr:versionHistory" />
-  <meta content="https://helpx.adobe.com/campaign/standard/start/using/creating-a-new-template.html" name="publishExternalURL" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="2018-03-15T09:01:18.541-0400" name="jcr:created" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:start;content_type:reference;topic_tags:managing-templates" name="cq:tags" />
-  <meta content="2018-09-07T15:08:42.344-0400" name="cq:lastReplicated" />
   <meta content="2018-09-08T08:23:09.369-0400" name="locHandOffDate" />
-  <meta content="2018-09-07T15:08:42.146-0400" name="topicBrowsingSortDate" />
+  <meta content="Creating a new template" name="navTitle" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:start;content_type:reference;topic_tags:managing-templates" name="cq:tags" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-03-15T09:01:18.541-0400" name="jcr:created" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
  </head>
  <body>
   <p>Message templates can be managed by the functional administrator of the platform, under the <strong>Resources &gt; Templates</strong> menu. Out-of-the-box templates cannot be modified or deleted. To create a new template, you must duplicate an existing one. </p> 

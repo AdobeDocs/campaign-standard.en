@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="audience:integrating" name="primaryAudienceTag" />
-  <meta content="2018-09-10T02:19:03.497-0400" name="locHandOffDate" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="false" name="isReadyForLocalization" />
   <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="b02e08b7-020f-4de4-a919-3693fd0b19b3" name="jcr:predecessors" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="2018-09-07T15:07:51.335-0400" name="topicBrowsingSortDate" />
-  <meta content="About Campaign-Points of Interest data integration" name="jcr:description" />
-  <meta content="About Campaign-Points of Interest data integration" name="jcr:title" />
-  <meta content="https://helpx.adobe.com/campaign/standard/integrating/using/about-campaign-points-of-interest-data-integration.html" name="publishExternalURL" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="2018-09-07T15:07:51.335-0400" name="lastPublishExternalDate" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="About Campaign-Points of Interest data integration" name="navTitle" />
+  <meta content="2018-09-07T15:07:51.792-0400" name="cq:lastReplicated" />
   <meta content="products:SG_CAMPAIGN/STANDARD;audience:integrating;content_type:reference;topic_tags:working-with-campaign-and-analytics-for-mobile" name="cq:tags" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
   <meta content="2018-09-07T15:07:51.335-0400" name="publishExternalDate" />
   <meta content="2018-03-15T09:01:48.596-0400" name="jcr:created" />
-  <meta content="admin" name="jcr:createdBy" />
+  <meta content="audience:integrating" name="primaryAudienceTag" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="About Campaign-Points of Interest data integration" name="jcr:title" />
   <meta content="light" name="heroGradient" />
-  <meta content="About Campaign-Points of Interest data integration" name="navTitle" />
-  <meta content="2018-09-07T15:07:51.335-0400" name="firstPublishExternalDate" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="2018-09-07T15:07:51.792-0400" name="cq:lastReplicated" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="2018-09-10T02:19:03.498-0400" name="cq:lastModified" />
-  <meta content="b6d44cee-78dd-46f9-918d-ea7c64717ef9" name="jcr:uuid" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
   <meta content="By collecting the Points of Interest data from your mobile application's subscribers, send location-based marketing messages to your subscribers through the integration in Adobe Campaign." name="seoDescription" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="About Campaign-Points of Interest data integration" name="jcr:description" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2018-09-07T15:07:51.335-0400" name="lastPublishExternalDate" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-09-10T02:19:03.497-0400" name="locHandOffDate" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-09-07T15:07:51.335-0400" name="topicBrowsingSortDate" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2018-09-07T15:07:51.335-0400" name="firstPublishExternalDate" />
+  <meta content="b6d44cee-78dd-46f9-918d-ea7c64717ef9" name="jcr:uuid" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-09-10T02:19:03.498-0400" name="cq:lastModified" />
+  <meta content="b02e08b7-020f-4de4-a919-3693fd0b19b3" name="jcr:predecessors" />
+  <meta content="https://helpx.adobe.com/campaign/standard/integrating/using/about-campaign-points-of-interest-data-integration.html" name="publishExternalURL" />
  </head>
  <body>
   <p>In addition to tracking customers' online presence, you may also take advantage of their physical locations. Through integration with Adobe Analytics for Mobile, you can use Adobe Campaign to send location-based marketing messages to your mobile application's subscribers.</p> 

@@ -3,7 +3,7 @@ title: Configuring Triggers in Experience Cloud
 seo-title: Configuring Triggers in Experience Cloud
 description: Configuring Triggers in Experience Cloud
 seo-description: Learn how to configure the Adobe Experience Cloud Triggers integration to start sending personalized deliveries to your customers based on their previous behaviors. 
-uuid: 334de4e9-b5b9-4526-8216-f3aa169555af
+uuid: d899c9fb-a4a2-4caa-9f44-dca2ed9f3e11
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/integrating/using/configuring-triggers-in-experience-cloud
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 cq-template: /apps/help/templates/article-3
-discoiquuid: 7bd9de29-db0a-4302-a685-3787e1ec73dd
+discoiquuid: 8066aeee-ef9a-4178-801d-7a2989ce8378
 firstPublishExternalDate: 2018-09-07T15:08:18.897-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,19 +32,19 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Configuring Triggers in Experience Cloud
 publishexternaldate: 2018-09-07T15 08 18.897-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/configuring-triggers-in-experience-cloud.html
-sha1: 7e2bfcf588af975ddd0f2f4c45fec5db4bfa5e4f
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/integrating/using/configuring-triggers-in-experience-cloud.html"
+sha1: 8fb482ef650c70718fae1bb8d657567103fce3fd
 topicBrowsingSortDate: 2018-09-07T15:08:18.897-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Configuring Triggers in Experience Cloud
+# Configuring Triggers in Experience Cloud{#configuring-triggers-in-experience-cloud}
 
 Configuring Triggers in Experience Cloud
 
-## Activating the functionality
+## Activating the functionality {#activating-the-functionality}
 
 The functionality must be activated in Adobe Campaign by Adobe. Please contact your Adobe account executive or professional services partner.
 
@@ -54,7 +54,7 @@ The Adobe team will need the following information to activate triggers:
 * IMS ORG ID
 * Analytics Login Company (can be the same as the Marketing Cloud Company Name)
 
-## Configuring solutions and services
+## Configuring solutions and services {#configuring-solutions-and-services}
 
 In order to use this feature, you need to have access to the following solutions/core services:
 
@@ -82,7 +82,7 @@ You also need to have a working website.
 
 You need to configure [Experience Cloud DTM Core Service](../../integrating/using/configuring-triggers-in-experience-cloud.md#configuring-experience-cloud-dtm-core-service), [Experience Cloud People Core Service](../../integrating/using/configuring-triggers-in-experience-cloud.md#configuring-experience-cloud-people-core-service) and [Campaign](../../integrating/using/configuring-triggers-in-experience-cloud.md#configuring-triggers-and-aliases-in-campaign) to run these use cases.
 
-### Configuring Experience Cloud DTM Core Service
+### Configuring Experience Cloud DTM Core Service {#configuring-experience-cloud-dtm-core-service}
 
 1. In Experience Cloud DTM Core Service (Dynamic Tag Management), activate Experience Cloud ID and Adobe Analytics for your website pages.
 
@@ -92,7 +92,7 @@ You need to configure [Experience Cloud DTM Core Service](../../integrating/usin
 
    ![](assets/trigger_uc_conf_2.png)
 
-### Configuring Experience Cloud People Core Service
+### Configuring Experience Cloud People Core Service {#configuring-experience-cloud-people-core-service}
 
 The alias previously referenced in DTM needs to be created in the Experience Cloud People Core Service through a Customer Attribute. Make sure you create a new one and reference the same DTM alias in the integration code (for example "visitorid").
 
@@ -102,7 +102,7 @@ The alias previously referenced in DTM needs to be created in the Experience Clo
 >
 >We are going to use this Customer Attribute in the Data source in Adobe Campaign (next step).
 
-### Configuring triggers and aliases in Campaign
+### Configuring triggers and aliases in Campaign {#configuring-triggers-and-aliases-in-campaign}
 
 1. Make sure you have **Experience Cloud triggers** visible on your Adobe Campaign Standard instance. If you don't, contact the Adobe Campaign administrators.
 
@@ -116,7 +116,7 @@ The alias previously referenced in DTM needs to be created in the Experience Clo
    >
    >You can reconcile your triggers for both anonymous and logged in users. For anonymous users, the profile should exist in Adobe Campaign and an email has been sent to the user before. For this, Visitor ID configuration is sufficient. However, if you want to reconcile triggers for logged in users, you need to setup Declared ID Data Source. For more on this, refer to [Data Source configuration](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources).
 
-## Creating a trigger in the Experience Cloud interface
+## Creating a trigger in the Experience Cloud interface {#creating-a-trigger-in-the-experience-cloud-interface}
 
 An Adobe Experience Cloud trigger needs to be created so that you can use it in Campaign.
 
@@ -124,7 +124,7 @@ Create a new trigger in Experience Cloud and make sure you select the report sui
 
 Refer to the [Adobe Experience Cloud documentation](https://marketing.adobe.com/resources/help/en_US/mcloud/triggers.html) and watch this [video](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two) .
 
-## Triggers best practices and limitations
+## Triggers best practices and limitations {#triggers-best-practices-and-limitations}
 
 Here is a list of best practices and limitations for the use of the Campaign - Triggers integration:
 

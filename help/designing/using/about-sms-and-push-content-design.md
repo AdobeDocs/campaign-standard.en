@@ -3,7 +3,7 @@ title: About SMS and push content design
 seo-title: About SMS and push content design
 description: About SMS and push content design
 seo-description: Learn about the editor used to modify the content of your SMS messages and push notifications in Adobe Campaign.
-uuid: 961d7f17-7f93-428a-af5d-3ee64ccd92ad
+uuid: cee29dbb-8981-4b95-83e2-0cc2c2f287f8
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/about-sms-and-push-content-design
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-sms-and-push-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: 0921adeb-1454-4ba9-a19d-ef3a40a2ded4
+discoiquuid: 06bb98c6-c1f8-46da-940c-40d13262936d
 firstPublishExternalDate: 2018-09-07T14:52:36.608-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,15 +32,15 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About SMS and push content design
 publishexternaldate: 2018-09-07T14 52 36.608-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/about-sms-and-push-content-design.html
-sha1: eafa70045dbdc11cb463dd7a0029c03176508f8e
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/designing/using/about-sms-and-push-content-design.html"
+sha1: 676695211c88a1389ebda1c8eb53b30d17631165
 topicBrowsingSortDate: 2018-09-07T14:52:36.608-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# About SMS and push content design
+# About SMS and push content design{#about-sms-and-push-content-design}
 
 About SMS and push content design
 

@@ -3,7 +3,7 @@ title: Editing queries
 seo-title: Editing queries
 description: Editing queries
 seo-description: Build a population thanks to the predefined filters and rules.
-uuid: 6dded3ca-c01c-4c73-a08e-5fb6e748ae33
+uuid: e4145657-21e8-443e-b926-eb030d39910d
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/editing-queries
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: filtering-data
 cq-template: /apps/help/templates/article-3
-discoiquuid: 9dad7038-88a3-45cb-8b0b-5c17ab3d10df
+discoiquuid: a766ad1f-654f-46cf-b1dd-19b13230ac86
 firstPublishExternalDate: 2018-09-07T15:08:47.178-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,19 +32,19 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Editing queries
 publishexternaldate: 2018-09-07T15 08 47.178-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/editing-queries.html
-sha1: 2353266f13d7af986a2ab14c5cbb813a2165d80a
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/editing-queries.html"
+sha1: 33c880ee1cb4828d065c3444847a4421d88c8672
 topicBrowsingSortDate: 2018-09-07T15:08:47.178-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Editing queries
+# Editing queries{#editing-queries}
 
 Editing queries
 
-## About query editor
+## About query editor {#about-query-editor}
 
 The query editor is a wizard that allows you to filter data contained in the Adobe Campaign database.
 
@@ -56,13 +56,13 @@ Several application functionalities use it in order to:
 * Define **email** targets
 * Define populations in **workflow** activities
 
-## Query editor interface
+## Query editor interface {#query-editor-interface}
 
 The query editor is made up of a **Palette** and a **Workspace**.
 
 ![](assets/query_editor_overview.png)
 
-### Palette
+### Palette {#palette}
 
 The palette, located on the left-hand side of the editor, is divided into two tabs, which contain elements divided into thematic blocks. These tabs are:
 
@@ -76,13 +76,13 @@ The elements contained in the tabs must be moved into the workspace in order to 
 * Define simple rules for fields of your choice
 * Define advanced rules that allow you to apply functions to certain fields
 
-### Workspace
+### Workspace {#workspace}
 
 The workspace is the central zone in which you can configure and combine rules, audiences, and predefined filters added from the palette.
 
 When you move an element from the palette into the workspace, a new window opens and you can start [Creating queries](../../automating/using/editing-queries.md#creating-queries).
 
-## Creating queries
+## Creating queries {#creating-queries}
 
 The query editor can be used to define an audience or test profile in a message, a population in a workflow and to create a query type audience.
 

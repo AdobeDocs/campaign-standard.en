@@ -3,7 +3,7 @@ title: Transactional push notifications
 seo-title: Transactional push notifications
 description: Transactional push notifications
 seo-description: Learn how to create and publish a transactional push notification.
-uuid: eab4013c-ea86-422d-b509-00a399d379ae
+uuid: 74ae6e9f-880b-473d-a511-45e04286c711
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/transactional-push-notifications
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 cq-template: /apps/help/templates/article-3
-discoiquuid: 709d68dc-fe09-4ad0-9569-17531595679a
+discoiquuid: ab57554a-b3d3-4c73-8c9a-b177d14a8516
 firstPublishExternalDate: 2018-09-07T15:12:31.926-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,15 +32,15 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Transactional push notifications
 publishexternaldate: 2018-09-07T15 12 31.926-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/transactional-push-notifications.html
-sha1: 35b3a6e3cd20c34e062ac6a07d62660748a3654e
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/channels/using/transactional-push-notifications.html"
+sha1: 1745eb4630bb1959d145d28bb235d9802cffdb66
 topicBrowsingSortDate: 2018-09-07T15:12:31.926-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Transactional push notifications
+# Transactional push notifications{#transactional-push-notifications}
 
 Transactional push notifications
 
@@ -65,13 +65,13 @@ In order for the event to trigger sending a transactional message, you have to p
 >
 >To access the transactional messages, you must have administration rights or appear in the **Message Center agents** (mcExec) security group.
 
-## Transactional push notifications targeting an event
+## Transactional push notifications targeting an event {#transactional-push-notifications-targeting-an-event}
 
 You can send an anonymous transactional push notification to all users who have opted in to receive notifications from your mobile application.
 
 In this case, only the data contained in the event itself is used to define the delivery target. No data from the Adobe Campaign database is leveraged.
 
-### Sending a transactional push notification targeting an event
+### Sending a transactional push notification targeting an event {#sending-a-transactional-push-notification-targeting-an-event}
 
 For example, an airline company wants to invite its mobile application users to proceed to the relevant gate for boarding.
 
@@ -118,7 +118,7 @@ If the registration token exists, the corresponding user receives a transactiona
 
 "Hello Jane Green, boarding has just started! Please proceed to Gate B18."
 
-## Transactional push notifications targeting a profile
+## Transactional push notifications targeting a profile {#transactional-push-notifications-targeting-a-profile}
 
 You can send a transactional push notification to the Adobe Campaign profiles who have subscribed to your mobile application. This delivery can contain [personalization](../../designing/using/inserting-a-personalization-field.md) fields, such as the recipient's first name.
 
@@ -132,7 +132,7 @@ The mobile applications a profile has subscribed to are listed in the **Mobile A
 
 For more information on accessing and editing profiles, see [Profiles](../../audiences/using/creating-profiles.md).
 
-### Sending a transactional push notification targeting a profile
+### Sending a transactional push notification targeting a profile {#sending-a-transactional-push-notification-targeting-a-profile}
 
 For example, an airline company wants to send a last call for boarding to all Adobe Campaign users who have subscribed to its mobile application.
 

@@ -1,40 +1,40 @@
 <html>
  <head>
   <meta content="false" name="isReadyForLocalization" />
-  <meta content="2018-03-15T09:01:37.426-0400" name="jcr:created" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
   <meta content="2018-09-07T14:42:54.966-0400" name="cq:lastReplicated" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:audiences;content_type:reference;topic_tags:managing-profiles" name="cq:tags" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="light" name="heroGradient" />
-  <meta content="f3262277-6875-4c02-a2ca-875a384fafd0" name="jcr:predecessors" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="Creating profiles" name="jcr:description" />
-  <meta content="8e7f824f-612c-45cd-ab5b-943b6dc4b466" name="jcr:uuid" />
-  <meta content="2018-09-07T14:42:52.588-0400" name="lastPublishExternalDate" />
-  <meta content="2018-09-07T14:42:52.588-0400" name="firstPublishExternalDate" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="Learn how to create profiles and collect data on your contacts, using APIs, import capabilities, online acquisition, automatic or manual updates." name="seoDescription" />
-  <meta content="https://helpx.adobe.com/campaign/standard/audiences/using/creating-profiles.html" name="publishExternalURL" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
   <meta content="audience:audiences" name="primaryAudienceTag" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Creating profiles" name="jcr:description" />
+  <meta content="2018-03-15T09:01:37.426-0400" name="jcr:created" />
+  <meta content="light" name="heroGradient" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="8e7f824f-612c-45cd-ab5b-943b6dc4b466" name="jcr:uuid" />
+  <meta content="Creating profiles" name="navTitle" />
+  <meta content="2018-09-10T07:22:21.245-0400" name="cq:lastModified" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:audiences;content_type:reference;topic_tags:managing-profiles" name="cq:tags" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="2018-09-07T14:42:52.588-0400" name="topicBrowsingSortDate" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-09-07T14:42:52.588-0400" name="lastPublishExternalDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Learn how to create profiles and collect data on your contacts, using APIs, import capabilities, online acquisition, automatic or manual updates." name="seoDescription" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="https://helpx.adobe.com/campaign/standard/audiences/using/creating-profiles.html" name="publishExternalURL" />
+  <meta content="sauviat" name="contentOwner" />
   <meta content="/apps/help/templates/article-3" name="cq:template" />
   <meta content="2018-09-10T07:22:21.243-0400" name="locHandOffDate" />
-  <meta content="2018-09-10T07:22:21.245-0400" name="cq:lastModified" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
   <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="Creating profiles" name="jcr:title" />
-  <meta content="Creating profiles" name="navTitle" />
   <meta content="2018-09-07T14:42:52.588-0400" name="publishExternalDate" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="2018-09-07T14:42:52.588-0400" name="topicBrowsingSortDate" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Creating profiles" name="jcr:title" />
+  <meta content="2018-09-07T14:42:52.588-0400" name="firstPublishExternalDate" />
+  <meta content="f3262277-6875-4c02-a2ca-875a384fafd0" name="jcr:predecessors" />
  </head>
  <body>
   <p>In Adobe Campaign, profiles are used by default to define the main target of messages. </p> 

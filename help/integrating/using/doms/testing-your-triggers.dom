@@ -1,39 +1,39 @@
 <html>
  <head>
-  <meta content="audience:integrating" name="primaryAudienceTag" />
+  <meta content="2018-06-15T07:29:54.569-0400" name="jcr:created" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="2018-09-07T15:08:31.899-0400" name="lastPublishExternalDate" />
   <meta content="2018-09-07T15:08:32.159-0400" name="cq:lastReplicated" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:integrating;content_type:reference;topic_tags:working-with-campaign-and-triggers" name="cq:tags" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="2018-09-07T15:08:31.899-0400" name="publishExternalDate" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="2018-09-07T15:08:31.899-0400" name="firstPublishExternalDate" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="https://helpx.adobe.com/campaign/standard/integrating/using/testing-your-triggers.html" name="publishExternalURL" />
+  <meta content="false" name="isReadyForLocalization" />
   <meta content="light" name="heroGradient" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:integrating;content_type:reference;topic_tags:working-with-campaign-and-triggers" name="cq:tags" />
+  <meta content="63e1faf6-a43c-4cc7-a65b-4849e695097b" name="jcr:predecessors" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-09-07T15:08:31.899-0400" name="firstPublishExternalDate" />
+  <meta content="audience:integrating" name="primaryAudienceTag" />
+  <meta content="" name="jcr:primaryType" />
   <meta content="en_us" name="jcr:language" />
-  <meta content="Testing your triggers" name="jcr:title" />
-  <meta content="2018-09-10T02:19:28.238-0400" name="cq:lastModified" />
-  <meta content="Testing your triggers" name="jcr:description" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
   <meta content="" name="seoDescription" />
   <meta content="Testing your triggers" name="navTitle" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="2018-09-07T15:08:31.899-0400" name="topicBrowsingSortDate" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="2018-09-10T02:19:28.237-0400" name="locHandOffDate" />
-  <meta content="2018-06-15T07:29:54.569-0400" name="jcr:created" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="ea5c1e68-834b-47da-8ce7-c0c42d679461" name="jcr:uuid" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="2018-09-07T15:08:31.899-0400" name="lastPublishExternalDate" />
-  <meta content="63e1faf6-a43c-4cc7-a65b-4849e695097b" name="jcr:predecessors" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="Testing your triggers" name="jcr:description" />
   <meta content="" name="jcr:versionHistory" />
-  <meta content="https://helpx.adobe.com/campaign/standard/integrating/using/testing-your-triggers.html" name="publishExternalURL" />
+  <meta content="2018-09-10T02:19:28.238-0400" name="cq:lastModified" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-09-07T15:08:31.899-0400" name="publishExternalDate" />
+  <meta content="2018-09-07T15:08:31.899-0400" name="topicBrowsingSortDate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="ea5c1e68-834b-47da-8ce7-c0c42d679461" name="jcr:uuid" />
+  <meta content="2018-09-10T02:19:28.237-0400" name="locHandOffDate" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Testing your triggers" name="jcr:title" />
   <meta content="/etc/designs/help" name="cq:designPath" />
  </head>
  <body>

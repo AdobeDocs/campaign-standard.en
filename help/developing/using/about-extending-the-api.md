@@ -3,7 +3,7 @@ title: About extending the API
 seo-title: About extending the API
 description: About extending the API
 seo-description: 
-uuid: 38fab767-1294-4da0-8a79-5b07fb8ded62
+uuid: 8a1b086a-ac74-44a7-80e4-c55192b8af61
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/developing/using/about-extending-the-api
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
 cq-template: /apps/help/templates/article-3
-discoiquuid: 5a8302bd-4ac6-4f7a-b977-30847b6fc857
+discoiquuid: aa693328-e0ae-46dd-9e81-09fe03a02303
 firstPublishExternalDate: 2018-09-07T14:56:12.864-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,15 +32,15 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About extending the API
 publishexternaldate: 2018-09-07T14 56 12.864-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/about-extending-the-api.html
-sha1: f147b70ed7cd7553aa3b8d29b43047558373323b
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/developing/using/about-extending-the-api.html"
+sha1: dac492b1dc0ca83a7886572b1a8b9916fa4f8d67
 topicBrowsingSortDate: 2018-09-07T14:56:12.864-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# About extending the API
+# About extending the API{#about-extending-the-api}
 
 About extending the API
 

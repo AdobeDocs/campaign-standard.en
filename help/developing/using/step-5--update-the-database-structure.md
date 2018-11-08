@@ -1,9 +1,9 @@
 ---
-title: Step 5 Update the database structure
-seo-title: Step 5 Update the database structure
-description: Step 5 Update the database structure
+title: "Step 5: Update the database structure"
+seo-title: "Step 5: Update the database structure"
+description: "Step 5: Update the database structure"
 seo-description: Discover how to update the Adobe Campaign database.
-uuid: 168d4d6e-329b-47ba-b72c-18978037d954
+uuid: 57686637-42d6-4859-af1f-4007ac676fba
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/developing/using/step-5--update-the-database-structure
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 cq-template: /apps/help/templates/article-3
-discoiquuid: 85f60f69-4d50-4e0c-8edf-20f4b52fdbac
+discoiquuid: ed860878-e499-4f18-8e5b-7c6c357d31ed
 firstPublishExternalDate: 2018-09-07T14:53:56.680-0400
 herogradient: light
 isreadyforlocalization: false
@@ -30,17 +30,17 @@ lastPublishExternalDate: 2018-09-07T14:53:56.680-0400
 lochandoffdate: 2018-09-10T02 19 00.674-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
-navTitle: Step 5 Update the database structure
+navTitle: "Step 5: Update the database structure"
 publishexternaldate: 2018-09-07T14 53 56.680-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/step-5--update-the-database-structure.html
-sha1: cc92342c734ad5d24835c97beeb783cbf5da1eaf
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/developing/using/step-5--update-the-database-structure.html"
+sha1: f29b5f45e29b35dba7a96f0473d93dc3f7b2105c
 topicBrowsingSortDate: 2018-09-07T14:53:56.680-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Step 5: Update the database structure
+# Step 5: Update the database structure{#step-update-the-database-structure}
 
 Step 5: Update the database structure
 
@@ -50,7 +50,7 @@ To make your modifications to the data model effective and to be able to use the
 >
 >Custom resources are automatically refreshed during automatic updates performed by Adobe.
 
-## Publishing a custom resource
+## Publishing a custom resource {#publishing-a-custom-resource}
 
 To apply the changes carried out on the resources, you must perform a database update.
 
@@ -87,7 +87,7 @@ To apply the changes carried out on the resources, you must perform a database u
    >
    >You can stop the Re-draft process by clicking the **Cancel re-draft** button. This action will revert the resource's status back to its original one.
 
-## Publishing a resource with API extension
+## Publishing a resource with API extension {#publishing-a-resource-with-api-extension}
 
 When you extend the custom resources **Profiles** or **Services**, you can perform an update of the Profiles and Services API to integrate the fields declared in the custom resources extension.
 

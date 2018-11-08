@@ -3,7 +3,7 @@ title: Setting up a double opt-in process
 seo-title: Setting up a double opt-in process
 description: Setting up a double opt-in process
 seo-description: Follow these steps to set up a double opt-in process using landing pages in Adobe Campaign.
-uuid: 23ab5944-4453-424a-a98c-0e6efc0de178
+uuid: 4227bfc0-592a-402f-ad0d-901fe1ed2233
 content-encoding: UTF-8
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/setting-up-a-double-opt-in-process
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 cq-template: /apps/help/templates/article-3
-discoiquuid: b853ee0a-1ed3-4abc-bbfb-1b12c683aaca
+discoiquuid: 03207411-8259-47dc-8a43-10c36bd7631f
 firstPublishExternalDate: 2018-09-07T15:12:37.979-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,19 +32,19 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Setting up a double opt-in process
 publishexternaldate: 2018-09-07T15 12 37.979-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/setting-up-a-double-opt-in-process.html
-sha1: 51772fa419acc08d618f9eb6ea30aff5fe93bd2d
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/channels/using/setting-up-a-double-opt-in-process.html"
+sha1: 46c833992b5bbc28304fbc542e3b404d76226bd9
 topicBrowsingSortDate: 2018-09-07T15:12:37.979-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Setting up a double opt-in process
+# Setting up a double opt-in process{#setting-up-a-double-opt-in-process}
 
 Setting up a double opt-in process
 
-## About double opt-in
+## About double opt-in {#about-double-opt-in}
 
 Double opt-in mechanism is a best practice when sending emails. It protects the platform from wrong or invalid email addresses, spambots, and prevents possible spam complaints.
 
@@ -60,7 +60,7 @@ To set this up, you need to:
 
 These steps have to be set up in Adobe Campaign in a specific order to have all parameters enabled properly.
 
-## Step 1: Create the confirmation landing page
+## Step 1: Create the confirmation landing page {#step-create-the-confirmation-landing-page}
 
 The process to setup double opt-in mechanism starts with the creation of the confirmation landing page: this page will be displayed when the visitors clicked on the confirmation email in order to register.
 
@@ -94,13 +94,13 @@ To create and configure this landing page, you need to:
 
 1. [Test and publish](../../channels/using/sharing-a-landing-page.md) the landing page.
 
-## Step 2: Create the confirmation email
+## Step 2: Create the confirmation email {#step-create-the-confirmation-email}
 
 Once the confirmation landing page is created, you can design the confirmation email: this email will be automatically sent to every visitor who validates the acquisition landing page. This validation is considered as an event and the email is a transactional message, linked to a specific typology rule which allows to target opt-out populations.
 
 Steps to create these elements are described below. You need to follow them before creating the acquisition landing page itself as this email template will be referenced in it.
 
-### Create the event
+### Create the event {#create-the-event}
 
 The confirmation email is a [transactional message](../../channels/using/about-transactional-messaging.md) as it reacts to an event: the validation of the form. You must first create the event and then create the template of the transactional message.
 
@@ -121,7 +121,7 @@ The confirmation email is a [transactional message](../../channels/using/about-t
 
 The event is ready. You can now design the email template. This template must include a link to the **CONFIRMATION** landing page created before.
 
-### Create the typology rule
+### Create the typology rule {#create-the-typology-rule}
 
 You need to create a specific [typology rule](../../administration/using/about-typology-rules.md), by duplicating an out-of-box one. This rule will allow to send messages to profiles who did not confirm their agreement yet and are still blacklisted. By default, typology rules exclude opt-out (i.e. blacklisted) profiles. To create this typology rule, follow these steps:
 
@@ -132,7 +132,7 @@ You need to create a specific [typology rule](../../administration/using/about-t
 
 This typology can now be associated to the confirmation email.
 
-### Design the confirmation message
+### Design the confirmation message {#design-the-confirmation-message}
 
 The confirmation email is a transactional message based on the event created before. Follow the steps below to create this message:
 
@@ -145,7 +145,7 @@ The confirmation email is a transactional message based on the event created bef
 1. Edit the email template properties. In the **Advanced parameters** > **Preparation** section, select the **TYPOLOGY_PROFILE** typology created before.
 1. Save and publish the transactional message.
 
-## Step 3: Create the acquisition landing page
+## Step 3: Create the acquisition landing page {#step-create-the-acquisition-landing-page}
 
 You have to create the initial acquisition landing page: this op-in form will be published on your website.
 

@@ -3,7 +3,7 @@ title: Update data
 seo-title: Update data
 description: Update data
 seo-description: The Update data activity allows you to perform a mass update on fields in the database.
-uuid: 485af1f6-5e2e-44e4-b9d0-f1064f4bdbda
+uuid: 31f1dee0-0a1f-4434-994c-2a77e9ba0c35
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/update-data
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: b0bd5ff6-83a9-49da-86ab-57c626ea12ad
+discoiquuid: bc366c8d-54d3-4952-adee-400c68f8c04d
 firstPublishExternalDate: 2018-09-07T15:08:12.976-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,29 +32,29 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Update data
 publishexternaldate: 2018-09-07T15 08 12.976-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/update-data.html
-sha1: aebb1a6a0696e307cf05bd8363a399ed2edc8dd5
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/update-data.html"
+sha1: d1345b41779f797b54c1becb6d9137f76f018ba7
 topicBrowsingSortDate: 2018-09-07T15:08:12.976-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Update data
+# Update data{#update-data}
 
 Update data
 
-## Description
+## Description {#description}
 
 ![](assets/data_update.png)
 
 The **Update data** activity allows you to perform a mass update on fields in the database.
 
-## Context of use
+## Context of use {#context-of-use}
 
 The **Update data** activity can be used after importing a file in order to insert the data recovered into the Adobe Campaign database. Several options allow you to personalize updating the data.
 
-## Configuration
+## Configuration {#configuration}
 
 1. Drag and drop an **Update data** activity into your workflow.
 1. Select the activity, then open it using the  ![](assets/edit_darkgrey-24px.png)
@@ -95,7 +95,7 @@ The **Update data** activity can be used after importing a file in order to inse
 
 1. Confirm the configuration of your activity and save your workflow.
 
-## Example
+## Example {#example}
 
 The following activity shows the configuration of an **Update data** activity following a **Load file** activity. The aim of this workflow is to add or update profiles to the Adobe Campaign database with the data recovered from the file. The reconciliation key used is the email address.
 

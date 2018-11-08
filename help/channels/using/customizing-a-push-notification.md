@@ -3,7 +3,7 @@ title: Customizing a push notification
 seo-title: Customizing a push notification
 description: Customizing a push notification
 seo-description: Learn how to customize your push notifications with various advanced options.
-uuid: a1a67c3e-539c-4485-9bea-729e11a9bfff
+uuid: 370aad62-cc5f-499d-8362-d6c3b9bd0c25
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/customizing-a-push-notification
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 cq-template: /apps/help/templates/article-3
-discoiquuid: 96c7a767-9110-4d2b-8ccb-1593253d4d41
+discoiquuid: d0dbdc4b-5a1a-4830-9779-f91cd3fb48d1
 firstPublishExternalDate: 2018-09-07T15:11:55.506-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,15 +32,15 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Customizing a push notification
 publishexternaldate: 2018-09-07T15 11 55.506-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/customizing-a-push-notification.html
-sha1: 575402819f2f7419498ae774626c02198500b14a
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/channels/using/customizing-a-push-notification.html"
+sha1: 4a27dbd331564063ed48e241960351f2c7f85613
 topicBrowsingSortDate: 2018-09-07T15:11:55.506-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Customizing a push notification
+# Customizing a push notification{#customizing-a-push-notification}
 
 Customizing a push notification
 
@@ -48,7 +48,7 @@ To fine-tune your push notification, Adobe Campaign allows you to access a set o
 
 ![](assets/push_notif_advanced.png)
 
-## Play a sound
+## Play a sound {#play-a-sound}
 
 The function **Play a sound** gives the application the ability to play sounds on your device with the delivery of a push notification, when the app isn't running.
 
@@ -65,7 +65,7 @@ A sound will alert users of a push notification, giving it more visibility. To i
 
 The user will then receive the push notification and the sound only if his phone is not muted.
 
-## Refresh the badge value
+## Refresh the badge value {#refresh-the-badge-value}
 
 A badge is used to display directly on the application icon the number of new unread information. The badge value will disappear as soon as the user opens or reads the new content from the application.
 
@@ -86,7 +86,7 @@ When a notification is received on a device, it can refresh or add a badge value
 
    ![](assets/push_notif_advanced_1.png)
 
-## Add a deeplink
+## Add a deeplink {#add-a-deeplink}
 
 A deeplink enables you to bring the users directly to content located inside the application (instead of opening a web browser page).
 
@@ -103,7 +103,7 @@ To add a deeplink in a push notification:
 
    ![](assets/push_notif_advanced_4.png)
 
-## Define an action
+## Define an action {#define-an-action}
 
 You can add a category ID if available in the mobile application, and then display action buttons. These notifications give the user a faster way to perform different tasks in response to a notification without opening or navigating in the application.
 
@@ -124,7 +124,7 @@ To add a category in a push notification:
 
 Depending on the user's action, the application will be notified so that it can perform any associated tasks.
 
-## Add custom fields
+## Add custom fields {#add-custom-fields}
 
 Custom fields allow you to pass custom data in the payload in the form of a key value pair. This option can be used to pass additional data to the application beyond the pre-defined keys.
 
@@ -140,7 +140,7 @@ To do so:
 
    ![](assets/push_notif_actionable_buttons.png)
 
-## Add rich media content
+## Add rich media content {#add-rich-media-content}
 
 Rich media content allows you to have a better user engagement meaning that your user will be more inclined to open your push notification.
 
@@ -161,7 +161,7 @@ To include rich media in the push notification:
 
    ![](assets/push_notif_advanced_2.png)
 
-## Change the notification behavior for iOS
+## Change the notification behavior for iOS {#change-the-notification-behavior-for-ios}
 
 ![](assets/push_notif_advanced_5.png)
 
@@ -178,7 +178,7 @@ You can then leverage your mobile app extensions to further modify the content o
 
 When **Content available** is checked, the content available flag will be sent in the push payload to ensure that the app is woken up as soon as it receives the push notification, meaning that the app will be able to access the payload data. This works even if the app is running in the background and without needing any user interaction (e.g. tapping on Push notification), however, this does not apply if the app is not running. For more on this, refer to the [Apple developer documentation](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html).
 
-## Change the notification behavior for Android
+## Change the notification behavior for Android {#change-the-notification-behavior-for-android}
 
 For Android, you can enter the URL of your file in the **Rich media content URL** field. Whereas with iOS version, for Android, you can only include images and not gif, audio or video files.
 

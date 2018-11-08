@@ -3,7 +3,7 @@ title: Configuring transactional messaging
 seo-title: Configuring transactional messaging
 description: Configuring transactional messaging
 seo-description: Learn how to configure transactional messaging.
-uuid: ea73bfd0-faf4-4817-a6c7-5467de84514d
+uuid: 83502661-50a2-4a5b-85db-1ec016891970
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/configuring-transactional-messaging
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 cq-template: /apps/help/templates/article-3
-discoiquuid: fef8f648-7fd4-4cd2-a24b-661cb9aa2fb7
+discoiquuid: 7c735b2f-d79f-48cf-b56e-3f5db26242c0
 firstPublishExternalDate: 2018-09-07T14:57:33.378-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,15 +32,15 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Configuring transactional messaging
 publishexternaldate: 2018-09-07T14 57 33.378-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html
-sha1: 8ca703f6b38273c02282d705cd8951738bee2958
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html"
+sha1: 43cfb692cbc9e643b9e2ccc320c84e1c4ee1b3bd
 topicBrowsingSortDate: 2018-09-07T14:57:33.378-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Configuring transactional messaging
+# Configuring transactional messaging{#configuring-transactional-messaging}
 
 Configuring transactional messaging
 
@@ -52,7 +52,7 @@ The configuration can vary depending on the type of transactional message you wa
 
 Once the event is published, the corresponding transactional message is automatically created. For more on transactional messaging, refer to [this page](../../channels/using/about-transactional-messaging.md).
 
-## Creating an event
+## Creating an event {#creating-an-event}
 
 Start by creating the event corresponding to your needs.
 
@@ -72,7 +72,7 @@ Start by creating the event corresponding to your needs.
 
    Event-based transactional messages target data contained in the event itself, whereas profile-based transactional messages target data contained in the Adobe Campaign database. For more on this, refer to [Transactional event specific configurations](../../administration/using/configuring-transactional-messaging.md#transactional-event-specific-configurations).
 
-## Defining the event attributes
+## Defining the event attributes {#defining-the-event-attributes}
 
 In the **Fields** section, define the attributes that will be integrated into the event content and will then be able to be used to personalize the transactional message.
 
@@ -84,7 +84,7 @@ The steps for adding and modifying fields are the same as for [custom resources]
 >
 >If you want to create a multilingual transactional message, define an additional event attribute with the **AC_language** ID. This only applies to event transactional messages. After the event is published, the steps for editing the content of a multilingual transactional message are the same as for a multilingual standard email. See [Creating a multilingual email](../../channels/using/creating-a-multilingual-email.md).
 
-## Enriching the transactional message content
+## Enriching the transactional message content {#enriching-the-transactional-message-content}
 
 Enriching the transactional message content with information from the Adobe Campaign database enables you to personalize your messages. From the last name or CRM ID of each of your recipients, for example, you can recover data such as their address or date of birth or any other custom field added in the Profile table, in order to personalize the information that is sent to them.
 
@@ -120,7 +120,7 @@ Once the event and the message are published, the link with the **Profile** reso
 
 **Related topics:**
 
-## Previewing and publishing the event
+## Previewing and publishing the event {#previewing-and-publishing-the-event}
 
 Before being able to use the event, you must preview and publish it.
 
@@ -154,7 +154,7 @@ You can access the transactional message that was created directly from the link
 
 You also have to integrate this trigger event into your website. See [Integrating the triggering of the event in a website](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website).
 
-### Unpublishing an event
+### Unpublishing an event {#unpublishing-an-event}
 
 The **Unpublish** button lets you cancel the publication of the event, which deletes from the REST API the resource corresponding to the event that you previously created. Now, even if the event is triggered through your website, the corresponding messages are not sent anymore and they are not stored in the database.
 
@@ -166,7 +166,7 @@ The **Unpublish** button lets you cancel the publication of the event, which del
 
 Click the **Publish** button to generate a new REST API.
 
-## Integrating the triggering of the event in a website
+## Integrating the triggering of the event in a website {#integrating-the-triggering-of-the-event-in-a-website}
 
 Once you have created an event, you will have to integrate the triggering of this event into your website.
 
@@ -174,13 +174,13 @@ In the example described in the [Transactional messaging operating principle](..
 
 See the [REST API Documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html) (**Transactional Messages API** section).
 
-## Transactional event specific configurations
+## Transactional event specific configurations {#transactional-event-specific-configurations}
 
 Transactional event configuration may vary depending on the type of transactional message you want to send (event or profile), and the channel that will be used.
 
 The following sections detail what specific configuration should be set according to the desired transactional message. For more on the general steps to configure an event, refer to
 
-### Event-based transactional messages
+### Event-based transactional messages {#event-based-transactional-messages}
 
 To send an event-based transactional message, you first need to create and configure an event targeting the data contained in the event itself.
 
@@ -200,7 +200,7 @@ To send an event-based transactional message, you first need to create and confi
 
 1. Integrate the event into your website (see [Integrating the triggering of the event in a website](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)).
 
-### Profile-based transactional messages
+### Profile-based transactional messages {#profile-based-transactional-messages}
 
 To send a profile-based transactional message, you first need to create and configure an event targeting data contained in the Adobe Campaign database.
 
@@ -215,7 +215,7 @@ To send a profile-based transactional message, you first need to create and conf
 
 1. Integrate the event into your website (see [Integrating the triggering of the event in a website](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)).
 
-### Event-based transactional push notifications
+### Event-based transactional push notifications {#event-based-transactional-push-notifications}
 
 To be able to send transactional push notifications, you need to configure Adobe Campaign accordingly. See [Push configuration](../../administration/using/configuring-a-mobile-application-using-sdk-v4.md).
 
@@ -245,7 +245,7 @@ The event must contain the three following elements:
 
 1. Integrate the event into your website (see [Integrating the triggering of the event in a website](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)).
 
-### Profile-based transactional push notifications
+### Profile-based transactional push notifications {#profile-based-transactional-push-notifications}
 
 To send a transactional push notification to the Adobe Campaign profiles who have subscribed to your mobile application, you first need to create and configure an event targeting the Adobe Campaign database.
 
@@ -270,7 +270,7 @@ To send a transactional push notification to the Adobe Campaign profiles who hav
 
 1. Integrate the event into your website (see [Integrating the triggering of the event in a website](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)).
 
-### Configuring an event to send a follow-up message
+### Configuring an event to send a follow-up message {#configuring-an-event-to-send-a-follow-up-message}
 
 A follow-up message is a predefined marketing delivery template that can be used in a workflow to send messages to the recipients of a specific transactional message. For more on this, see [Follow-up messages](../../channels/using/follow-up-messages.md).
 
@@ -283,7 +283,7 @@ A follow-up message is a predefined marketing delivery template that can be used
 
    Once the event has been published, a transactional message and a follow-up delivery template linked to the new event are automatically created. For more on using follow-up messages, see [Sending a follow-up message](../../channels/using/follow-up-messages.md#sending-a-follow-up-message).
 
-## Use case: configuring an event to send a transactional message
+## Use case: configuring an event to send a transactional message {#use-case-configuring-an-event-to-send-a-transactional-message}
 
 In this example, we want to configure an event in order to send confirmation messages after each purchase on our website with the following prerequisites:
 

@@ -1,9 +1,9 @@
 ---
-title: Step 3 Configure the screens
-seo-title: Step 3 Configure the screens
-description: Step 3 Configure the screens
+title: "Step 3: Configure the screens"
+seo-title: "Step 3: Configure the screens"
+description: "Step 3: Configure the screens"
 seo-description: Learn how to define new Adobe Campaign screens based on the resource data structure.
-uuid: c5922afb-6a22-4175-9e75-5675b78ce046
+uuid: 30852920-fe05-4995-bc0e-cf4c447e1a0b
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/developing/using/step-3--configure-the-screens
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 cq-template: /apps/help/templates/article-3
-discoiquuid: 2951b754-9e3c-4e95-8457-8cf404abb106
+discoiquuid: 0e49d0c4-aca8-4e78-b82a-8ad0c3c651d1
 firstPublishExternalDate: 2018-09-07T14:52:35.929-0400
 herogradient: light
 isreadyforlocalization: false
@@ -30,17 +30,17 @@ lastPublishExternalDate: 2018-09-07T14:52:35.929-0400
 lochandoffdate: 2018-09-10T02 18 47.883-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
-navTitle: Step 3 Configure the screens
+navTitle: "Step 3: Configure the screens"
 publishexternaldate: 2018-09-07T14 52 35.929-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/step-3--configure-the-screens.html
-sha1: 3f81f9e5e760e47e1b4cd0025a90365e6764cfad
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/developing/using/step-3--configure-the-screens.html"
+sha1: 6530c8c297f1ccbe16ccdc2037ebf04880b59983
 topicBrowsingSortDate: 2018-09-07T14:52:35.929-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Step 3: Configure the screens
+# Step 3: Configure the screens{#step-configure-the-screens}
 
 Step 3: Configure the screens
 
@@ -54,7 +54,7 @@ In the **Screen definition** tab, you can:
 * Personalize the way in which the list of elements that make up the resource is presented
 * Define the way the detail view of each element of the resource is displayed
 
-## Enabling access from the navigation menu
+## Enabling access from the navigation menu {#enabling-access-from-the-navigation-menu}
 
 If you want your resource to have a dedicated screen, you can make it available from the navigation menu.
 
@@ -65,7 +65,7 @@ If you want your resource to have a dedicated screen, you can make it available 
 
 The resource will appear as a sub-entry within the **Client data** section.
 
-## Defining the default list configuration
+## Defining the default list configuration {#defining-the-default-list-configuration}
 
 The **List configuration** section of the screen definition lets you define the columns and information that will be displayed by default in the overview of a resource.
 
@@ -87,7 +87,7 @@ The **List configuration** section of the screen definition lets you define the 
 
 The overview screen of the resource is now defined.
 
-## Defining the detail screen configuration
+## Defining the detail screen configuration {#defining-the-detail-screen-configuration}
 
 The **Detail screen configuration** section of the screen definition lets you define the columns and information that will be displayed detail screen of each element of the resource.
 
@@ -114,7 +114,7 @@ The **Detail screen configuration** section of the screen definition lets you de
 
 The detail screen of the resource is now configured.
 
-## Actions on data section
+## Actions on data section {#actions-on-data-section}
 
 These settings allow you to display a control bar in the custom resource screen. There are three options available:
 

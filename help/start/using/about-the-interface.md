@@ -3,7 +3,7 @@ title: About the interface
 seo-title: About the interface
 description: About the interface
 seo-description: Campaign workspace is based on concepts which are common to all the Adobe Experience Cloud solutions..
-uuid: fc4bfe12-f4ab-411b-8813-9f1cb942aaf1
+uuid: 665f1acf-35e1-4de3-b724-bad1a517db7d
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/start/using/about-the-interface
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 cq-template: /apps/help/templates/article-3
-discoiquuid: 8206b6f2-9dc0-40ca-95da-c8190c65d5ac
+discoiquuid: 7c7e1a36-bdec-4e54-b569-5c366adf2e88
 firstPublishExternalDate: 2018-09-07T15:07:50.757-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,15 +32,15 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About the interface
 publishexternaldate: 2018-09-07T15 07 50.757-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/start/using/about-the-interface.html
-sha1: ff33c125e02ee124fa3419ba9e844a5c2c5714c1
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/start/using/about-the-interface.html"
+sha1: 36ea87170d2f8a3944b9b1ac76c7df3ee97a7d4a
 topicBrowsingSortDate: 2018-09-07T15:07:50.757-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# About the interface
+# About the interface{#about-the-interface}
 
 About the interface
 

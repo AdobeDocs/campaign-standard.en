@@ -3,7 +3,7 @@ title: External accounts
 seo-title: External accounts
 description: External accounts
 seo-description: Configure external accounts to set up connections with external systems such as SFTP servers.
-uuid: a2236d5e-ea88-4b23-9ebe-fc2bf1d7ba4a
+uuid: 412f0d02-265f-453d-8d03-afc2bde52cc9
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/external-accounts
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 cq-template: /apps/help/templates/article-3
-discoiquuid: ae50ccd7-72a1-45a3-ad95-c97deb234a09
+discoiquuid: 4c55d97d-a4cb-4daa-adb4-473eac345758
 firstPublishExternalDate: 2018-09-07T15:02:17.551-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,15 +32,15 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: External accounts
 publishexternaldate: 2018-09-07T15 02 17.551-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/external-accounts.html
-sha1: fa42129a86c3a92c14b8e7cde24ca57c51afa438
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/administration/using/external-accounts.html"
+sha1: 8b3b1458c03ac8b8e04a339b23642bf2c2f17fa8
 topicBrowsingSortDate: 2018-09-07T15:02:17.551-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# External accounts
+# External accounts{#external-accounts}
 
 External accounts
 
@@ -54,7 +54,7 @@ The following external account types are available: SFTP, HTTP and Amazon Storag
 
 External accounts can be configured by administrators under the **Administration > Application settings > External accounts** menu.
 
-## Creating an external account
+## Creating an external account {#creating-an-external-account}
 
 Adobe Campaign comes with a set of pre-defined external accounts. In order to set up connections with external systems such as FTP servers used for file transfers, you can create your own external accounts.
 
@@ -71,7 +71,7 @@ External accounts are used by technical processes such as technical workflows or
 
 The external account is created and added to the account list. It is now available for your data/file transfers or routing configurations in workflow activities and delivery properties.
 
-## How to define an SFTP external account
+## How to define an SFTP external account {#how-to-define-an-sftp-external-account}
 
 Different external account types require different information to be specified.
 
@@ -81,7 +81,7 @@ For an SFTP external account, provide the following details:
 * Port number. For example, **22**.
 * SFTP server credentials: account name and password used to connect to the server.
 
-### Best practices for Adobe hosted SFTP servers
+### Best practices for Adobe hosted SFTP servers {#best-practices-for-adobe-hosted-sftp-servers}
 
 When managing files and data for ETL purposes, these files are stored on a hosted SFTP server provided by Adobe. This SFTP is designed to be a temporary storage space on which you can control retention and deletion of files.
 
@@ -100,7 +100,7 @@ To avoid such problems, Adobe recommends to follow the best practices below:
 
 Also, note that the public IPs from which you are trying to initiate the SFTP connection must be whitelisted on the Campaign instance. Whitelisting of IP addresses can be requested via a [support ticket](https://support.neolane.net), along with providing the public key to use for authentication.
 
-## How to define an Amazon S3 external account
+## How to define an Amazon S3 external account {#how-to-define-an-amazon-s-external-account}
 
 The S3 server field should be filled as follows:
 
@@ -116,7 +116,7 @@ The necessary information is usually provided by the provider of the server you 
 
 Specify the **AWS Region** associated to your endpoint. You can check the supported regions and signature versions in the official [Amazon S3 documentation](https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region) .
 
-### S3 account recommendations
+### S3 account recommendations {#s-account-recommendations}
 
 To help you set up your S3 account, we advise you to follow these recommendations:
 
@@ -124,7 +124,7 @@ To help you set up your S3 account, we advise you to follow these recommendation
 * While creating an external account, enable the encryption to store sensitive data in the S3 bucket by checking the **Keep files in S3 encrypted** box.
 * Grant bucket permissions to specify who can access the object in a bucket. For more information on bucket permission, refer to the [Amazon S3 documentation](http://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html)
 
-## How to define an Adobe Experience Manager external account
+## How to define an Adobe Experience Manager external account {#how-to-define-an-adobe-experience-manager-external-account}
 
 AEM external accounts are used when integrating Campaign with AEM.
 

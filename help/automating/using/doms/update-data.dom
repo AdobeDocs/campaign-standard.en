@@ -1,40 +1,40 @@
 <html> 
  <head> 
-  <meta content="audience:automating" name="primaryAudienceTag" /> 
-  <meta content="en_us" name="jcr:language" /> 
   <meta content="The Update data activity allows you to perform a mass update on fields in the database." name="seoDescription" /> 
-  <meta content="Update data" name="jcr:title" /> 
-  <meta content="2018-09-07T15:08:12.976-0400" name="firstPublishExternalDate" /> 
-  <meta content="/etc/designs/help" name="cq:designPath" /> 
-  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
-  <meta content="true" name="jcr:isCheckedOut" /> 
-  <meta content="light" name="heroGradient" /> 
-  <meta content="Update data" name="jcr:description" /> 
-  <meta content="2018-09-07T15:08:12.976-0400" name="lastPublishExternalDate" /> 
-  <meta content="sauviat" name="cq:lastReplicatedBy" /> 
-  <meta content="" name="jcr:baseVersion" /> 
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
-  <meta content="" name="jcr:versionHistory" /> 
-  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
-  <meta content="2018-03-15T09:02:24.117-0400" name="jcr:created" /> 
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:data-management-activities" name="cq:tags" /> 
   <meta content="https://helpx.adobe.com/campaign/standard/automating/using/update-data.html" name="publishExternalURL" /> 
-  <meta content="2018-09-07T15:08:12.976-0400" name="publishExternalDate" /> 
-  <meta content="sauviat" name="contentOwner" /> 
-  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
-  <meta content="2018-09-10T07:27:43.993-0400" name="cq:lastModified" /> 
-  <meta content="false" name="isReadyForLocalization" /> 
-  <meta content="Activate" name="cq:lastReplicationAction" /> 
-  <meta content="2018-09-07T15:08:12.976-0400" name="topicBrowsingSortDate" /> 
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
-  <meta content="Update data" name="navTitle" /> 
-  <meta content="2018-09-07T15:08:13.207-0400" name="cq:lastReplicated" /> 
-  <meta content="cabd3bbd-28ad-4726-89c0-94f00fb0dab0" name="jcr:uuid" /> 
   <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="audience:automating" name="primaryAudienceTag" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="sauviat" name="cq:lastReplicatedBy" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:data-management-activities" name="cq:tags" /> 
+  <meta content="Update data" name="jcr:title" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="Update data" name="jcr:description" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-09-10T07:27:43.993-0400" name="cq:lastModified" /> 
+  <meta content="2018-09-07T15:08:12.976-0400" name="publishExternalDate" /> 
+  <meta content="2018-09-10T07:27:43.991-0400" name="locHandOffDate" /> 
+  <meta content="Update data" name="navTitle" /> 
+  <meta content="2018-09-07T15:08:12.976-0400" name="firstPublishExternalDate" /> 
+  <meta content="cabd3bbd-28ad-4726-89c0-94f00fb0dab0" name="jcr:uuid" /> 
   <meta content="" name="jcr:primaryType" /> 
   <meta content="f484f3f3-5390-4fcb-b657-f36a7ba706ef" name="jcr:predecessors" /> 
-  <meta content="2018-09-10T07:27:43.991-0400" name="locHandOffDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2018-09-07T15:08:12.976-0400" name="lastPublishExternalDate" /> 
+  <meta content="2018-09-07T15:08:12.976-0400" name="topicBrowsingSortDate" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="light" name="heroGradient" /> 
   <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2018-03-15T09:02:24.117-0400" name="jcr:created" /> 
+  <meta content="2018-09-07T15:08:13.207-0400" name="cq:lastReplicated" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="" name="jcr:baseVersion" /> 
  </head> 
  <body> 
   <h2>Description</h2> 

@@ -3,7 +3,7 @@ title: Email delivery
 seo-title: Email delivery
 description: Email delivery
 seo-description: The Email delivery activity allows you to configure sending a single send email or a recurring email in a workflow.
-uuid: ff51e164-2f13-40e8-93b6-6d076d25957d
+uuid: 29930b4f-b5ed-4754-ad72-cb988d726bba
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/email-delivery
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: channel-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: 718e2184-36c9-43f9-a2db-bc6e2df1660b
+discoiquuid: 4ef7188d-ac0f-4af6-bd76-ed84cb4e4dc1
 firstPublishExternalDate: 2018-09-07T15:04:10.009-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,23 +32,21 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Email delivery
 publishexternaldate: 2018-09-07T15 04 10.009-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/email-delivery.html
-sha1: a277fcc7abda65cb8b23ee80f262f2e5fda3c799
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/email-delivery.html"
+sha1: a8b77b5847b8c5e7166f0a8fb3a002abcb54b9c6
 topicBrowsingSortDate: 2018-09-07T15:04:10.009-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Email delivery
+# Email delivery{#email-delivery}
 
 Email delivery
 
-## Description
+## Description {#description}
 
-![](assets/email.png) 
-
-![](assets/recurrentEmail.png)
+![](assets/email.png)  ![](assets/recurrentEmail.png)
 
 The **Email delivery** activity allows you to configure sending an email in a workflow. This can be a **single send** email and sent just once, or it can be a **recurring** email.
 
@@ -56,7 +54,7 @@ Single send emails are standard emails, sent once.
 
 Recurring emails allow you to send the same email multiple times to different targets over a defined period. You can aggregate the deliveries per period in order to get reports that correspond to your needs.
 
-## Context of use
+## Context of use {#context-of-use}
 
 The **Email delivery** activity is generally used to automate sending an email to a target calculated in the same workflow.
 
@@ -66,7 +64,7 @@ Email recipients are defined upstream of the activity in the same workflow, via 
 
 The message preparation is triggered according to the workflow execution parameters. From the message dashboard, you can select whether to request or not a manual confirmation to send the message (required by default). You can start the workflow manually or place a scheduler activity in the workflow to automate execution.
 
-## Configuration
+## Configuration {#configuration}
 
 1. Drag and drop an **Email delivery** activity into your workflow.
 1. Select the activity, then open it using the  ![](assets/edit_darkgrey-24px.png)
@@ -100,7 +98,7 @@ When you reopen the activity, you are taken directly to the email dashboard. Onl
 
 By default, starting a delivery workflow only triggers the message preparation. The sending of messages created from a workflow still needs to be confirmed after the workflow has been started. But from the message dashboard, and only if the message was created from a workflow, you can disable the **Request confirmation before sending messages** option. By unchecking this option, messages are sent without further notice once the preparation is done.
 
-## Remarks
+## Remarks {#remarks}
 
 The deliveries created within a workflow can be accessed in the application's marketing activity list. You can view the workflow's execution status using the dashboard. Links in the email summary pane allow you to directly access linked elements (workflow, campaign, parent delivery in case of a recurring email).
 
@@ -116,7 +114,7 @@ In the parent deliveries, which can be accessed from the marketing activity list
 
 ![](assets/wkf_display_recurrent_executions_3.png) 
 
-## Example
+## Example {#example}
 
 ![](assets/wkf_delivery_example_1.png)
 

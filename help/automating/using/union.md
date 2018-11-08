@@ -3,7 +3,7 @@ title: Union
 seo-title: Union
 description: Union
 seo-description: The Union activity allows you to regroup the result of multiple activities into a single target.
-uuid: 0fa14f06-5e4e-48c4-93c4-b7bd5566efec
+uuid: 843d6a5c-5328-40fa-9ede-4cd11d89aea9
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/union
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: 9b065dc5-c061-45df-bfcf-1d15c663ec36
+discoiquuid: 7259f612-0e72-44f3-81c0-e14ac26bfe81
 firstPublishExternalDate: 2018-09-07T14:52:27.418-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,19 +32,19 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Union
 publishexternaldate: 2018-09-07T14 52 27.418-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/union.html
-sha1: 2521f2fee3df9b424f17dbb1858375b29f3022ba
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/union.html"
+sha1: 0f7546d3418a3c20a976f059cac3ffb9cfc3b85d
 topicBrowsingSortDate: 2018-09-07T14:52:27.418-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Union
+# Union{#union}
 
 Union
 
-## Description
+## Description {#description}
 
 ![](assets/union.png)
 
@@ -54,11 +54,11 @@ The **Union** activity allows you to regroup the result of multiple activities i
 >
 >The sets do not necessarily need to be homogeneous.
 
-## Context of use
+## Context of use {#context-of-use}
 
 The **Union** activity is used to combine the populations from inbound transitions when performing a segmentation, defining an audience, or when preparing the message target for example.
 
-## Configuration
+## Configuration {#configuration}
 
 1. Drag and drop a **Union** activity into your workflow.
 1. Connect it to the other activities that come before it, such as queries.
@@ -76,7 +76,7 @@ The **Union** activity is used to combine the populations from inbound transitio
 1. If needed, manage the activity's [Transitions](../../automating/using/executing-a-workflow.md#managing-an-activity-s-outbound-transitions) to access the advanced options for the calculated population.
 1. Confirm the configuration of your activity and save your workflow.
 
-## Example
+## Example {#example}
 
 The following example shows the result of two query activities that aim to regroup profiles from the Adobe Campaign database who are between 18 and 27 years old and those who are between 34 and 40 years old. The result contains all the profiles of the two queries or the maximum number of records, if applicable, as specified during the configuration.
 

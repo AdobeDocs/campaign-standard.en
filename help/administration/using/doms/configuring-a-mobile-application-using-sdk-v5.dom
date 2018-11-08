@@ -1,46 +1,46 @@
 <html> 
  <head> 
-  <meta content="admin" name="jcr:createdBy" /> 
-  <meta content="audience:administration" name="primaryAudienceTag" /> 
-  <meta content="2018-10-23T18:40:33.891-0400" name="lastPublishInternalDate" /> 
-  <meta content="Activate" name="cq:lastReplicationAction" /> 
-  <meta content="beneat@adobe.com" name="lr_lastReplicatedBy" /> 
-  <meta content="beneat" name="cq:lastReplicatedBy" /> 
-  <meta content="Configuring a mobile application using SDK V5" name="jcr:description" /> 
-  <meta content="sauviat" name="contentOwner" /> 
-  <meta content="2018-10-23T18:40:33.902-0400" name="cq:lastModified" /> 
-  <meta content="2018-10-23T18:40:33.891-0400" name="publishInternalDate" /> 
-  <meta content="beneat" name="cq:lastModifiedBy" /> 
-  <meta content="/content/help/en/campaign/standard/administration/morehelp/configuring-channels;/content/help/en/campaign/standard/administration/morehelp/configuring-channels" name="moreHelpPaths" /> 
-  <meta content="2018-09-07T14:45:56.899-0400" name="firstPublishExternalDate" /> 
-  <meta content="b3cbd7d7-7fc1-44a7-b570-9db8493787e9" name="jcr:predecessors" /> 
-  <meta content="2018-10-23T18:40:33.891-0400" name="topicBrowsingSortDate" /> 
-  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
-  <meta content="2018-10-23T18:40:33.891-0400" name="publishExternalDate" /> 
-  <meta content="en_us" name="jcr:language" /> 
-  <meta content="Configuring a mobile application using SDK V5" name="navTitle" /> 
-  <meta content="/etc/designs/help" name="cq:designPath" /> 
-  <meta content="Discover how to configure Adobe Campaign to send push notifications and In-app messages using SDK V5." name="seoDescription" /> 
-  <meta content="light" name="heroGradient" /> 
-  <meta content="" name="jcr:primaryType" /> 
-  <meta content="locales:fr;locales:de" name="locLangTag" /> 
-  <meta content="true" name="jcr:isCheckedOut" /> 
-  <meta content="2018-10-23T18:40:33.891-0400" name="lastPublishExternalDate" /> 
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
-  <meta content="" name="jcr:versionHistory" /> 
-  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
-  <meta content="https://helpx-internal.corp.adobe.com/content/help/en/campaign/standard/administration/using/configuring-a-mobile-application-using-sdk-v5.html" name="publishInternalURL" /> 
-  <meta content="2018-10-23T18:40:33.949-0400" name="cq:lastReplicated" /> 
-  <meta content="2018-09-10T04:09:43.150-0400" name="firstPublishInternalDate" /> 
-  <meta content="false" name="isReadyForLocalization" /> 
-  <meta content="https://helpx.adobe.com/campaign/standard/administration/using/configuring-a-mobile-application-using-sdk-v5.html" name="publishExternalURL" /> 
-  <meta content="2018-11-06T09:43:05.855-0500" name="jcr:created" /> 
   <meta content="products:SG_CAMPAIGN/STANDARD;audience:administration;content_type:reference;topic_tags:configuring-channels" name="cq:tags" /> 
-  <meta content="e4edc3bb-29e6-408f-b7dd-73a6f9843edd" name="jcr:uuid" /> 
-  <meta content="2018-09-17T07:15:20.567-0400" name="locHandOffDate" /> 
-  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="beneat" name="cq:lastModifiedBy" /> 
+  <meta content="locales:fr;locales:de" name="locLangTag" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="audience:administration" name="primaryAudienceTag" /> 
+  <meta content="2018-09-07T14:45:56.899-0400" name="firstPublishExternalDate" /> 
+  <meta content="https://helpx.adobe.com/campaign/standard/administration/using/configuring-a-mobile-application-using-sdk-v5.html" name="publishExternalURL" /> 
   <meta content="Configuring a mobile application using SDK V5" name="jcr:title" /> 
+  <meta content="2018-10-23T18:40:33.902-0400" name="cq:lastModified" /> 
+  <meta content="https://helpx-internal.corp.adobe.com/content/help/en/campaign/standard/administration/using/configuring-a-mobile-application-using-sdk-v5.html" name="publishInternalURL" /> 
+  <meta content="2018-10-23T18:40:33.891-0400" name="lastPublishExternalDate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="b3cbd7d7-7fc1-44a7-b570-9db8493787e9" name="jcr:predecessors" /> 
+  <meta content="2018-10-23T18:40:33.949-0400" name="cq:lastReplicated" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-10-23T18:40:33.891-0400" name="lastPublishInternalDate" /> 
+  <meta content="beneat" name="cq:lastReplicatedBy" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2018-09-17T07:15:20.567-0400" name="locHandOffDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="Configuring a mobile application using SDK V5" name="navTitle" /> 
+  <meta content="2018-11-06T09:43:05.855-0500" name="jcr:created" /> 
   <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="Discover how to configure Adobe Campaign to send push notifications and In-app messages using SDK V5." name="seoDescription" /> 
+  <meta content="beneat@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-10-23T18:40:33.891-0400" name="topicBrowsingSortDate" /> 
+  <meta content="2018-10-23T18:40:33.891-0400" name="publishExternalDate" /> 
+  <meta content="e4edc3bb-29e6-408f-b7dd-73a6f9843edd" name="jcr:uuid" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="Configuring a mobile application using SDK V5" name="jcr:description" /> 
+  <meta content="2018-09-10T04:09:43.150-0400" name="firstPublishInternalDate" /> 
+  <meta content="/content/help/en/campaign/standard/administration/morehelp/configuring-channels;/content/help/en/campaign/standard/administration/morehelp/configuring-channels" name="moreHelpPaths" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2018-10-23T18:40:33.891-0400" name="publishInternalDate" /> 
  </head> 
  <body> 
   <p>Customers leveraging SDK V4 in their Mobile Apps will require some additional configuration to enable their user base to incrementally upgrade to SDK V5 version of the App. This configuration will be provided with In-App GA release.</p> 

@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="audience:administration" name="primaryAudienceTag" />
-  <meta content="Managing groups and users" name="jcr:description" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="2018-09-07T14:41:35.914-0400" name="topicBrowsingSortDate" />
   <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="ded2703a-6cad-4a4b-b919-411dc300c31a" name="jcr:predecessors" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="Learn how to create security groups and manage users." name="seoDescription" />
   <meta content="false" name="isReadyForLocalization" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:administration;content_type:reference;topic_tags:users-e-security" name="cq:tags" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="2018-09-10T07:23:08.321-0400" name="locHandOffDate" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="Managing groups and users" name="jcr:title" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="2018-02-16T08:04:43.386-0500" name="jcr:created" />
-  <meta content="https://helpx.adobe.com/campaign/standard/administration/using/managing-groups-and-users.html" name="publishExternalURL" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="2018-09-07T14:41:35.914-0400" name="firstPublishExternalDate" />
-  <meta content="2018-09-07T14:41:36.438-0400" name="cq:lastReplicated" />
-  <meta content="2018-09-07T14:41:35.914-0400" name="publishExternalDate" />
-  <meta content="Managing groups and users" name="navTitle" />
-  <meta content="light" name="heroGradient" />
-  <meta content="2018-09-07T14:41:35.914-0400" name="lastPublishExternalDate" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="8493e530-78e8-43f1-9cc2-126aeaf709b8" name="jcr:uuid" />
+  <meta content="sauviat" name="contentOwner" />
   <meta content="2018-09-10T07:23:08.323-0400" name="cq:lastModified" />
   <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-09-07T14:41:35.914-0400" name="lastPublishExternalDate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-09-10T07:23:08.321-0400" name="locHandOffDate" />
+  <meta content="light" name="heroGradient" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Learn how to create security groups and manage users." name="seoDescription" />
+  <meta content="ded2703a-6cad-4a4b-b919-411dc300c31a" name="jcr:predecessors" />
+  <meta content="2018-09-07T14:41:35.914-0400" name="topicBrowsingSortDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:administration;content_type:reference;topic_tags:users-e-security" name="cq:tags" />
+  <meta content="Managing groups and users" name="jcr:description" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="audience:administration" name="primaryAudienceTag" />
+  <meta content="https://helpx.adobe.com/campaign/standard/administration/using/managing-groups-and-users.html" name="publishExternalURL" />
+  <meta content="2018-02-16T08:04:43.386-0500" name="jcr:created" />
+  <meta content="2018-09-07T14:41:35.914-0400" name="firstPublishExternalDate" />
+  <meta content="Managing groups and users" name="navTitle" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="8493e530-78e8-43f1-9cc2-126aeaf709b8" name="jcr:uuid" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-09-07T14:41:35.914-0400" name="publishExternalDate" />
+  <meta content="2018-09-07T14:41:36.438-0400" name="cq:lastReplicated" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Managing groups and users" name="jcr:title" />
  </head>
  <body>
   <h2>About security groups</h2>

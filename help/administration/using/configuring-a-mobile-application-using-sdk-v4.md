@@ -3,7 +3,7 @@ title: Configuring a mobile application using SDK V4
 seo-title: Configuring a mobile application using SDK V4
 description: Configuring a mobile application using SDK V4
 seo-description: Discover how to configure Adobe Campaign to send push notifications using SDK V4.
-uuid: 156dccb6-05df-4dad-bd25-96cfcc2571ef
+uuid: 188bb893-17d6-4f3d-9c09-09a1a93fed77
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/configuring-a-mobile-application-using-sdk-v4
 contentOwner: sauviat
@@ -18,7 +18,7 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 cq-template: /apps/help/templates/article-3
-discoiquuid: b8754028-a2dc-49d8-9c47-15f7adf253ac
+discoiquuid: 7ca6522f-9f9c-4a1d-81f9-b80bbd1faaee
 firstPublishExternalDate: 2018-09-07T14:45:08.314-0400
 firstpublishinternaldate: 2018-09-20T09 47 20.094-0400
 herogradient: light
@@ -36,17 +36,17 @@ lr-lastreplicatedby: beneat@adobe.com
 moreHelpPaths: /content/help/en/campaign/standard/administration/morehelp/configuring-channels;/content/help/en/campaign/standard/administration/morehelp/configuring-channels
 navTitle: Configuring a mobile application using SDK V4
 publishexternaldate: 2018-09-20T09 47 20.094-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/configuring-a-mobile-application-using-sdk-v4.html
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/administration/using/configuring-a-mobile-application-using-sdk-v4.html"
 publishinternaldate: 2018-09-20T09 47 20.094-0400
 publishinternalurl: https //helpx-internal.corp.adobe.com/content/help/en/campaign/standard/administration/using/configuring-a-mobile-application-using-sdk-v4.html
-sha1: ffad48a42709ae1ad913641232b89102553c6c33
+sha1: f89e35b98739b9bc4b0f5045c03d78efffcb2a57
 topicBrowsingSortDate: 2018-09-20T09:47:20.094-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Configuring a mobile application using SDK V4
+# Configuring a mobile application using SDK V4{#configuring-a-mobile-application-using-sdk-v}
 
 Configuring a mobile application using SDK V4
 
@@ -95,7 +95,7 @@ To be able to send push notifications, you need to:
 
 You can now send push notifications to your recipients.
 
-## Setting up a mobile application in Adobe Campaign
+## Setting up a mobile application in Adobe Campaign {#setting-up-a-mobile-application-in-adobe-campaign}
 
 To be able to send push notifications with Adobe Campaign, you must configure the mobile application that will receive them.
 
@@ -123,7 +123,7 @@ In the **Mobile application properties** section, two URLs are listed: **Collect
 
 You can now use these values in Adobe Mobile Services to finish the configuration, as explained in the [Configuring a mobile application in Adobe Mobile Services](../../administration/using/configuring-a-mobile-application-using-sdk-v4.md#configuring-a-mobile-application-in-adobe-mobile-services) section.
 
-## Configuring a mobile application in Adobe Mobile Services
+## Configuring a mobile application in Adobe Mobile Services {#configuring-a-mobile-application-in-adobe-mobile-services}
 
 To send the data collected by Adobe Mobile Services to Adobe Campaign, you must configure postbacks in the Mobile Services interface.
 
@@ -239,7 +239,7 @@ You must have access to Adobe Analytics to do the following configuration. If yo
     * In the **Which Data Tags Trigger the Postback?**, select any event, typically **Launched** and **does not exist**.
     * Click **Save & Activate**.
 
-## Integrating the SDK into a mobile application
+## Integrating the SDK into a mobile application {#integrating-the-sdk-into-a-mobile-application}
 
 The Mobile core service’s software development kit (SDK) facilitates the integration of a mobile application into Adobe Campaign.
 
@@ -260,7 +260,7 @@ To integrate a mobile application with the SDK:
 
 The detailed steps are described in the [Integrating the Adobe Mobile SDK with your mobile app](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html) technote.
 
-## Collecting subscribers' data from a mobile application
+## Collecting subscribers' data from a mobile application {#collecting-subscribers-data-from-a-mobile-application}
 
 A specific custom resource allows you to define the data that you want to collect from your applications' subscribers.
 

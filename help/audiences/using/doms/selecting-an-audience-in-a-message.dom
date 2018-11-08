@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="2018-09-07T14:49:08.000-0400" name="lastPublishExternalDate" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="light" name="heroGradient" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-09-07T14:49:10.417-0400" name="cq:lastReplicated" />
+  <meta content="https://helpx.adobe.com/campaign/standard/audiences/using/selecting-an-audience-in-a-message.html" name="publishExternalURL" />
+  <meta content="Selecting an audience in a message" name="jcr:title" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="Selecting an audience in a message" name="navTitle" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="audience:audiences" name="primaryAudienceTag" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="c64e4b8a-2068-43e8-87ef-03af849baab9" name="jcr:uuid" />
   <meta content="2018-09-10T07:23:15.075-0400" name="locHandOffDate" />
-  <meta content="2018-09-07T14:49:08.000-0400" name="firstPublishExternalDate" />
-  <meta content="Step-be-step procedure to choose audiences of an email: main target population and test profiles." name="seoDescription" />
+  <meta content="sauviat" name="contentOwner" />
   <meta content="e5286610-8fa3-433c-b01b-9f5d819d551f" name="jcr:predecessors" />
+  <meta content="2018-09-07T14:49:08.000-0400" name="lastPublishExternalDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="2018-09-10T07:23:15.077-0400" name="cq:lastModified" />
   <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="Step-be-step procedure to choose audiences of an email: main target population and test profiles." name="seoDescription" />
+  <meta content="" name="jcr:baseVersion" />
   <meta content="/etc/designs/help" name="cq:designPath" />
   <meta content="Selecting an audience in a message" name="jcr:description" />
-  <meta content="2018-03-15T09:01:50.814-0400" name="jcr:created" />
-  <meta content="Selecting an audience in a message" name="jcr:title" />
-  <meta content="Selecting an audience in a message" name="navTitle" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="https://helpx.adobe.com/campaign/standard/audiences/using/selecting-an-audience-in-a-message.html" name="publishExternalURL" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="c64e4b8a-2068-43e8-87ef-03af849baab9" name="jcr:uuid" />
-  <meta content="2018-09-10T07:23:15.077-0400" name="cq:lastModified" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="2018-09-07T14:49:08.000-0400" name="publishExternalDate" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:audiences;content_type:reference;topic_tags:managing-audiences" name="cq:tags" />
   <meta content="" name="jcr:primaryType" />
-  <meta content="audience:audiences" name="primaryAudienceTag" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-03-15T09:01:50.814-0400" name="jcr:created" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="light" name="heroGradient" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-09-07T14:49:08.000-0400" name="firstPublishExternalDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:audiences;content_type:reference;topic_tags:managing-audiences" name="cq:tags" />
   <meta content="2018-09-07T14:49:08.000-0400" name="topicBrowsingSortDate" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="2018-09-07T14:49:10.417-0400" name="cq:lastReplicated" />
+  <meta content="2018-09-07T14:49:08.000-0400" name="publishExternalDate" />
  </head>
  <body>
   <p>Adobe Campaign lets you configure several profile types within a message's audience.</p> 

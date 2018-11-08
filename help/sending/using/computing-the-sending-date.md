@@ -3,7 +3,7 @@ title: Computing the sending date
 seo-title: Computing the sending date
 description: Computing the sending date
 seo-description: Discover how to send a message at a specific date and time.
-uuid: 074924c5-7eec-4538-95da-ffd83bd1b190
+uuid: bcf72397-1290-4094-96b1-d2b41f05718b
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/sending/using/computing-the-sending-date
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 cq-template: /apps/help/templates/article-3
-discoiquuid: b1251a19-8292-40f3-9419-7efe12cb3ebf
+discoiquuid: 1df25a6c-e592-4d3e-8ee5-7e2cf013f91f
 firstPublishExternalDate: 2018-09-07T15:11:23.284-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,21 +32,21 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Computing the sending date
 publishexternaldate: 2018-09-07T15 11 23.284-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/sending/using/computing-the-sending-date.html
-sha1: 9bee6f59bb00e249f79f7c303ed5666fd16cb748
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/sending/using/computing-the-sending-date.html"
+sha1: 99a0b2449acd288eeca9240bd8a302cddbb09f78
 topicBrowsingSortDate: 2018-09-07T15:11:23.284-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Computing the sending date
+# Computing the sending date{#computing-the-sending-date}
 
 Computing the sending date
 
 You can define a formula to send the message to each recipient at a specific date and time.
 
-## Customizing date formula
+## Customizing date formula {#customizing-date-formula}
 
 For example, you may use send time optimization during the ramp-up process.
 
@@ -126,7 +126,7 @@ The delivery will be progressively sent to all targeted recipients over five day
 >
 >Make sure that all dates are in the future when confirming the send. Otherwise the message will be sent as soon as the send is confirmed.
 
-## Using an expression
+## Using an expression {#using-an-expression}
 
 Send time optimization is also useful for campaigns involving a call center. You can ensure that all messages are not received at the same time. This enables your organization to process the number of calls according to its capacity.
 

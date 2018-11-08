@@ -3,7 +3,7 @@ title: Delivery throughput
 seo-title: Delivery throughput
 description: Delivery throughput
 seo-description: With the Delivery throughput out-of-the-box report, learn about the success of your delivery.
-uuid: d29ef2e3-8647-4dc3-afbc-f9ca7e8aa0e6
+uuid: f8a2cde7-cb74-48c3-a469-645f16c6f7fe
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/reporting/using/delivery-throughput
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 cq-template: /apps/help/templates/article-3
-discoiquuid: 0125496d-7940-49b6-acdd-ca72e84f552b
+discoiquuid: 1c9f8e8c-f1ad-4c09-8190-63e47dec306d
 firstPublishExternalDate: 2018-09-07T15:07:11.887-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,15 +32,15 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Delivery throughput
 publishexternaldate: 2018-09-07T15 07 11.887-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/delivery-throughput.html
-sha1: 32aed0863fb47689b7bde248b8f01fce258901c2
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/reporting/using/delivery-throughput.html"
+sha1: 6855cf6bce21aadbbef59efc6d55dd1ffc24ca47
 topicBrowsingSortDate: 2018-09-07T15:07:11.887-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Delivery throughput
+# Delivery throughput{#delivery-throughput}
 
 Delivery throughput
 

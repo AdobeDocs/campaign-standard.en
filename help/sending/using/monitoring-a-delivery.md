@@ -3,7 +3,7 @@ title: Monitoring a delivery
 seo-title: Monitoring a delivery
 description: Monitoring a delivery
 seo-description: Discover how to monitor a delivery.
-uuid: 40bbd1c4-e41d-46d6-9706-45ce69654c23
+uuid: 70b41bdb-6fc7-449c-b84c-879eec46a391
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/sending/using/monitoring-a-delivery
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 cq-template: /apps/help/templates/article-3
-discoiquuid: 4116796a-2427-4dea-bc8a-12753bbc646a
+discoiquuid: 607e4058-5081-430c-af1d-ad75640d4091
 firstPublishExternalDate: 2018-09-07T15:11:33.175-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,15 +32,15 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Monitoring a delivery
 publishexternaldate: 2018-09-07T15 11 33.175-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/sending/using/monitoring-a-delivery.html
-sha1: 22d48e168468cb6d9448158b00d3aeda708927f8
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/sending/using/monitoring-a-delivery.html"
+sha1: 25b91922fb11aac7fd6c107ead5d51161f411b6c
 topicBrowsingSortDate: 2018-09-07T15:11:33.175-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Monitoring a delivery
+# Monitoring a delivery{#monitoring-a-delivery}
 
 Monitoring a delivery
 
@@ -69,9 +69,9 @@ There are several ways to monitor a delivery and to measure its impact:
 * [Receiving alerts when failures happen](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Reports](../../reporting/using/about-dynamic-reports.md)
 
-## Delivery logs
+## Delivery logs {#delivery-logs}
 
-### Sending logs
+### Sending logs {#sending-logs}
 
 The **Sending logs** tab offers a history of every occurrence of this delivery. The list of sent messages and their statuses is stored here. It allows you to view the delivery status for each recipient.
 
@@ -79,13 +79,13 @@ For each profile with a **Sent** status, the **Date** column shows when the mess
 
 ![](assets/sending_delivery3.png)
 
-### Exclusion logs
+### Exclusion logs {#exclusion-logs}
 
 The **Exclusion logs** tab lists all the messages that have been excluded from the target sent and specifies the reason for the send failure.
 
 ![](assets/sending_delivery4.png)
 
-### Exclusion causes
+### Exclusion causes {#exclusion-causes}
 
 The **Exclusion causes** tab displays the volume (in number of messages) of messages that were excluded from the target send.
 

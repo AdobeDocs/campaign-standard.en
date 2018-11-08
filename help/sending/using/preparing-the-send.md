@@ -3,7 +3,7 @@ title: Preparing the send
 seo-title: Preparing the send
 description: Preparing the send
 seo-description: Learn how to define preparation before the send.
-uuid: 31dcc50f-561e-480e-85fa-009d6b086244
+uuid: ea3a6cdc-88fc-499c-b05e-4c72777c757d
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/sending/using/preparing-the-send
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 cq-template: /apps/help/templates/article-3
-discoiquuid: 2db57a45-c57c-4e22-8f1e-70ac6447d319
+discoiquuid: e65beabb-a892-477c-b069-4df52e925bad
 firstPublishExternalDate: 2018-09-07T15:11:12.629-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,15 +32,15 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Preparing the send
 publishexternaldate: 2018-09-07T15 11 12.629-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/sending/using/preparing-the-send.html
-sha1: 3f49b53aa904cd14326c33c0b182809e1462f9ed
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/sending/using/preparing-the-send.html"
+sha1: 13d43cde7214929b890e4e6f00e69676fd1a3c08
 topicBrowsingSortDate: 2018-09-07T15:11:12.629-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Preparing the send
+# Preparing the send{#preparing-the-send}
 
 Preparing the send
 

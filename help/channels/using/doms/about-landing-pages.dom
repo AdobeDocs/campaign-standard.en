@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="2018-09-08T08:23:22.710-0400" name="locHandOffDate" />
-  <meta content="https://helpx.adobe.com/campaign/standard/channels/using/about-landing-pages.html" name="publishExternalURL" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="2018-09-07T15:12:34.012-0400" name="lastPublishExternalDate" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:channels;content_type:reference;topic_tags:landing-pages" name="cq:tags" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="" name="jcr:baseVersion" />
+  <meta content="dcc4d592-f05c-4701-9c40-d78300fd2795" name="jcr:uuid" />
   <meta content="" name="jcr:primaryType" />
-  <meta content="light" name="heroGradient" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="Discover the landing page templates and life cycle." name="seoDescription" />
-  <meta content="1cf3e249-596a-42d3-8bdc-7e13614632db" name="jcr:predecessors" />
-  <meta content="2018-03-15T09:01:40.674-0400" name="jcr:created" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="2018-09-07T15:12:34.012-0400" name="firstPublishExternalDate" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="2018-09-07T15:12:34.012-0400" name="publishExternalDate" />
   <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="2018-09-08T08:23:22.710-0400" name="cq:lastModified" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="2018-09-07T15:12:34.044-0400" name="cq:lastReplicated" />
+  <meta content="Discover the landing page templates and life cycle." name="seoDescription" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
   <meta content="About landing pages" name="jcr:title" />
+  <meta content="light" name="heroGradient" />
   <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2018-03-15T09:01:40.674-0400" name="jcr:created" />
+  <meta content="2018-09-07T15:12:34.012-0400" name="firstPublishExternalDate" />
+  <meta content="2018-09-07T15:12:34.012-0400" name="publishExternalDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-09-08T08:23:22.710-0400" name="locHandOffDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:channels;content_type:reference;topic_tags:landing-pages" name="cq:tags" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
   <meta content="About landing pages" name="jcr:description" />
   <meta content="audience:channels" name="primaryAudienceTag" />
-  <meta content="dcc4d592-f05c-4701-9c40-d78300fd2795" name="jcr:uuid" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="2018-09-07T15:12:34.012-0400" name="topicBrowsingSortDate" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="2018-09-08T08:23:22.710-0400" name="cq:lastModified" />
+  <meta content="1cf3e249-596a-42d3-8bdc-7e13614632db" name="jcr:predecessors" />
+  <meta content="2018-09-07T15:12:34.044-0400" name="cq:lastReplicated" />
   <meta content="About landing pages" name="navTitle" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="2018-09-07T15:12:34.012-0400" name="lastPublishExternalDate" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-09-07T15:12:34.012-0400" name="topicBrowsingSortDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="https://helpx.adobe.com/campaign/standard/channels/using/about-landing-pages.html" name="publishExternalURL" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="sauviat" name="contentOwner" />
  </head>
  <body>
   <p>Campaign comes with landing pages which are online forms that can be used to capture information on your audiences, offer subscriptions to a service, display data and grow your database. Landing pages can also be used for acquiring or updating existing profiles.</p> 

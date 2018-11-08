@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="2018-09-07T14:57:36.242-0400" name="cq:lastReplicated" />
-  <meta content="8c407f93-e476-487f-9ff9-74d408ceb0fd" name="jcr:uuid" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="2018-09-10T07:25:06.256-0400" name="locHandOffDate" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="2018-09-07T14:57:33.378-0400" name="topicBrowsingSortDate" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="audience:administration" name="primaryAudienceTag" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="sauviat" name="contentOwner" />
-  <meta content="light" name="heroGradient" />
-  <meta content="2018-09-07T14:57:33.378-0400" name="publishExternalDate" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="8da2c6ba-9af2-4c87-8658-ab2d2349a91d" name="jcr:predecessors" />
-  <meta content="false" name="isReadyForLocalization" />
   <meta content="2018-09-10T07:25:06.257-0400" name="cq:lastModified" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
-  <meta content="true" name="jcr:isCheckedOut" />
   <meta content="" name="jcr:primaryType" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="Configuring transactional messaging" name="navTitle" />
-  <meta content="2018-09-07T14:57:33.378-0400" name="lastPublishExternalDate" />
-  <meta content="Configuring transactional messaging" name="jcr:title" />
-  <meta content="2018-09-07T14:57:33.378-0400" name="firstPublishExternalDate" />
-  <meta content="" name="jcr:versionHistory" />
   <meta content="en_us" name="jcr:language" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:administration;content_type:reference;topic_tags:configuring-channels" name="cq:tags" />
-  <meta content="Configuring transactional messaging" name="jcr:description" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="2018-02-16T08:02:02.288-0500" name="jcr:created" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
   <meta content="Learn how to configure transactional messaging." name="seoDescription" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
   <meta content="https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html" name="publishExternalURL" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="8da2c6ba-9af2-4c87-8658-ab2d2349a91d" name="jcr:predecessors" />
+  <meta content="8c407f93-e476-487f-9ff9-74d408ceb0fd" name="jcr:uuid" />
+  <meta content="Configuring transactional messaging" name="navTitle" />
+  <meta content="2018-09-10T07:25:06.256-0400" name="locHandOffDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="Configuring transactional messaging" name="jcr:title" />
+  <meta content="Configuring transactional messaging" name="jcr:description" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:administration;content_type:reference;topic_tags:configuring-channels" name="cq:tags" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2018-02-16T08:02:02.288-0500" name="jcr:created" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2018-09-07T14:57:36.242-0400" name="cq:lastReplicated" />
+  <meta content="audience:administration" name="primaryAudienceTag" />
+  <meta content="2018-09-07T14:57:33.378-0400" name="firstPublishExternalDate" />
+  <meta content="2018-09-07T14:57:33.378-0400" name="lastPublishExternalDate" />
+  <meta content="2018-09-07T14:57:33.378-0400" name="publishExternalDate" />
+  <meta content="2018-09-07T14:57:33.378-0400" name="topicBrowsingSortDate" />
+  <meta content="light" name="heroGradient" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
  </head>
  <body>
   <p>To send a transactional message with Adobe Campaign, your first need to describe the structure of the event data.</p> 

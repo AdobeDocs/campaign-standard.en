@@ -1,39 +1,39 @@
 <html> 
  <head> 
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
-  <meta content="audience:developing" name="primaryAudienceTag" /> 
-  <meta content="Activate" name="cq:lastReplicationAction" /> 
-  <meta content="18719221-8a8a-40a6-9e21-00a6838b9757" name="jcr:predecessors" /> 
-  <meta content="false" name="isReadyForLocalization" /> 
-  <meta content="admin" name="jcr:createdBy" /> 
-  <meta content="true" name="jcr:isCheckedOut" /> 
-  <meta content="/etc/designs/help" name="cq:designPath" /> 
-  <meta content="Step 3: Verify the extension" name="jcr:description" /> 
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:developing;content_type:reference;topic_tags:use-case--extending-the-api" name="cq:tags" /> 
-  <meta content="2018-09-07T14:58:05.816-0400" name="firstPublishExternalDate" /> 
-  <meta content="sauviat" name="cq:lastReplicatedBy" /> 
-  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
-  <meta content="" name="jcr:versionHistory" /> 
-  <meta content="2018-09-10T02:19:14.918-0400" name="cq:lastModified" /> 
-  <meta content="Learn how to access to the extended field with the Rest API." name="seoDescription" /> 
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
-  <meta content="en_us" name="jcr:language" /> 
-  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
-  <meta content="light" name="heroGradient" /> 
-  <meta content="2018-03-15T09:01:58.684-0400" name="jcr:created" /> 
-  <meta content="2018-09-10T02:19:14.917-0400" name="locHandOffDate" /> 
-  <meta content="Step 3: Verify the extension" name="navTitle" /> 
-  <meta content="Step 3: Verify the extension" name="jcr:title" /> 
-  <meta content="" name="jcr:baseVersion" /> 
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
-  <meta content="acd6dc7f-39a0-4c03-8264-3d7bb3d841ac" name="jcr:uuid" /> 
-  <meta content="2018-09-07T14:58:05.816-0400" name="topicBrowsingSortDate" /> 
-  <meta content="sauviat" name="contentOwner" /> 
   <meta content="" name="jcr:primaryType" /> 
-  <meta content="2018-09-07T14:58:05.816-0400" name="publishExternalDate" /> 
-  <meta content="2018-09-07T14:58:08.726-0400" name="cq:lastReplicated" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:developing;content_type:reference;topic_tags:use-case--extending-the-api" name="cq:tags" /> 
+  <meta content="Step 3: Verify the extension" name="navTitle" /> 
+  <meta content="en_us" name="jcr:language" /> 
   <meta content="https://helpx.adobe.com/campaign/standard/developing/using/step-3--verify-the-extension.html" name="publishExternalURL" /> 
+  <meta content="2018-03-15T09:01:58.684-0400" name="jcr:created" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="Step 3: Verify the extension" name="jcr:title" /> 
+  <meta content="2018-09-07T14:58:05.816-0400" name="firstPublishExternalDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="18719221-8a8a-40a6-9e21-00a6838b9757" name="jcr:predecessors" /> 
+  <meta content="2018-09-10T02:19:14.918-0400" name="cq:lastModified" /> 
+  <meta content="2018-09-07T14:58:05.816-0400" name="publishExternalDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="Learn how to access to the extended field with the Rest API." name="seoDescription" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2018-09-07T14:58:08.726-0400" name="cq:lastReplicated" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-09-10T02:19:14.917-0400" name="locHandOffDate" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
   <meta content="2018-09-07T14:58:05.816-0400" name="lastPublishExternalDate" /> 
+  <meta content="2018-09-07T14:58:05.816-0400" name="topicBrowsingSortDate" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
+  <meta content="Step 3: Verify the extension" name="jcr:description" /> 
+  <meta content="acd6dc7f-39a0-4c03-8264-3d7bb3d841ac" name="jcr:uuid" /> 
+  <meta content="sauviat" name="cq:lastReplicatedBy" /> 
   <meta content="mix:versionable" name="jcr:mixinTypes" /> 
  </head> 
  <body> 

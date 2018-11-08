@@ -3,7 +3,7 @@ title: About email content design
 seo-title: About email content design
 description: About email content design
 seo-description: Discover the two editors that enable you to design content for your emails.
-uuid: 36dd73c9-1e84-421f-81fc-f7935c0df347
+uuid: c473e64f-b6b0-491e-b41c-3eb292871f64
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/about-email-content-design
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: 2221b7e4-dc4d-4ef4-804e-1f816a6780d9
+discoiquuid: 4902e797-cc21-4500-ae65-7ed7845567c2
 firstPublishExternalDate: 2018-09-07T14:46:12.475-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,15 +33,15 @@ lr-lastreplicatedby: sauviat@adobe.com
 moreHelpPaths: /content/help/en/campaign/standard/designing/morehelp/editing-email-content;/content/help/en/campaign/standard/designing/morehelp/editing-email-content
 navTitle: About email content design
 publishexternaldate: 2018-09-07T14 46 12.475-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/about-email-content-design.html
-sha1: 54845ec08f231e625e0ae25a2408b73d35f3d70e
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/designing/using/about-email-content-design.html"
+sha1: de452a35ba9ccf719448a11025d003525f9bae6d
 topicBrowsingSortDate: 2018-09-07T14:46:12.475-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# About email content design
+# About email content design{#about-email-content-design}
 
 About email content design
 
@@ -60,7 +60,7 @@ The Creative Designer offers extended functionalities compared to the default co
 * The ability to retrieve content from a URL automatically at preparation time. See [this section](../../designing/using/importing-content-from-a-url.md#retrieving-content-from-a-url-automatically-at-preparation-time).
 * Fully compliant out-of-the box content templates. To create compatible templates, see [this section](../../designing/using/editing-existing-contents-with-the-creative-designer.md).
 
-## Using the Creative Designer
+## Using the Creative Designer {#using-the-creative-designer}
 
 The Creative Designer allows you to create email content and email content templates. It is compatible with simple emails, transactional emails, A/B test emails, multilingual emails, and recurring emails.
 
@@ -74,7 +74,7 @@ If you wish to use the simple content editor, click **Use the default editor**. 
 
 Check out this [introduction video](https://www.youtube.com/watch?time_continue=1&v=5S_6A4fsfms).
 
-### About the Creative Designer interface
+### About the Creative Designer interface {#about-the-creative-designer-interface}
 
 The Creative Designer provides many options that allow you to create, edit and customize every aspect of your content.
 
@@ -92,7 +92,7 @@ Access more general options and settings from the main **Toolbar** (4).
 
 The **Contextual toolbar** of the editor interface offers various functionalities depending on the zone selected. It contains action buttons and buttons that allow you to change the style of the text. The modifications carried out always apply to the zone selected.
 
-### General recommendations for using the Creative Designer
+### General recommendations for using the Creative Designer {#general-recommendations-for-using-the-creative-designer}
 
 To make proper use of the Creative Designer and create the best emails as simply as possible, we recommend applying the following principles:
 
@@ -106,7 +106,7 @@ To make proper use of the Creative Designer and create the best emails as simply
 
 Also check the [general best practices for content design](../../designing/using/content-design-best-practices.md).
 
-### Example: Designing an email content from scratch
+### Example: Designing an email content from scratch {#example-designing-an-email-content-from-scratch}
 
 To design an email from scratch, follow the instructions of [this video](https://www.youtube.com/watch?time_continue=1&v=5S_6A4fsfms).
 
@@ -129,7 +129,7 @@ To summarize, here are the main steps to create an email content from scratch us
 * [Selecting an audience in a message](../../audiences/using/selecting-an-audience-in-a-message.md)
 * [Scheduling messages](../../sending/using/about-scheduling-messages.md)
 
-### About the Creative Designer compatibility mode
+### About the Creative Designer compatibility mode {#about-the-creative-designer-compatibility-mode}
 
 When you upload a content, it must contain specific tagging to be fully compliant and editable with the WYSIWYG editor of the Creative Designer. If all or part of the uploaded HTML is not compliant with the expected tagging, the content is then loaded in 'compatibility mode', which limits the edition possibilities through the UI.
 
@@ -150,7 +150,7 @@ Other modifications such as adding new sections to your email or advanced stylin
 
 If you want to reuse an Adobe Campaign template or an existing external content and make it fully compliant with the Creative Designer, refer to [this section](../../designing/using/editing-existing-contents-with-the-creative-designer.md).
 
-### Generating a text version of the email
+### Generating a text version of the email {#generating-a-text-version-of-the-email}
 
 By default, the **Plain text** version of your email is automatically generated and synchronized with the HTML version.
 
@@ -160,7 +160,7 @@ You can disable this synchronization by clicking the **Sync with HTML** switch f
 
 Personalization fields added to the HTML version are also synchronized with the plain text version.
 
-### Editing an email content source in HTML
+### Editing an email content source in HTML {#editing-an-email-content-source-in-html}
 
 For the most advanced users and debugging, you can view and edit the email content directly in HTML.
 
@@ -178,7 +178,7 @@ You have two ways to edit the HTML version of the email:
 
 If you modify the HTML the code, the responsiveness of the email could be broken. Make sure to test it using the **Preview** button. See [Previewing messages with the Creative Designer](../../sending/using/previewing-messages.md#previewing-messages-with-the-creative-designer).
 
-## Using the email content editor
+## Using the email content editor {#using-the-email-content-editor}
 
 The content editor allows you to easily define, modify, and personalize content in Adobe Campaign. You can access it by clicking the **Content** block in an email dashboard.
 
@@ -190,7 +190,7 @@ The content editor allows you to easily define, modify, and personalize content 
 
 * [Creating an email](../../channels/using/creating-an-email.md)
 
-### Email content editor interface
+### Email content editor interface {#email-content-editor-interface}
 
 The content editor is organized into three different sections. These sections allow you to view and edit the content.
 
@@ -200,7 +200,7 @@ The content editor is organized into three different sections. These sections al
 1. The **action bar** contains the general options for the page. You can select a template, change the display mode or preview the email from here. See [Email content editor action bar](../../designing/using/about-email-content-design.md#email-content-editor-action-bar).
 1. The **editing zone** on the right-hand side of the screen allows you to directly interact with the content using the contextual toolbar: insert a link into an image, change the font, delete a field, etc. See [Email content editor toolbar](../../designing/using/about-email-content-design.md#email-content-editor-toolbar).
 
-#### Email content editor action bar
+#### Email content editor action bar {#email-content-editor-action-bar}
 
 The action bar contains different buttons that allow you to interact with the content that is being created.
 
@@ -273,7 +273,7 @@ The action bar contains different buttons that allow you to interact with the co
  </tbody> 
 </table>
 
-#### Email content editor toolbar
+#### Email content editor toolbar {#email-content-editor-toolbar}
 
 The toolbar is a **contextual element** of the editor interface that offers various functionalities depending on the zone selected. It contains action buttons and buttons that allow you to change the style of the text. The modifications carried out always apply to the zone selected. Once you select a block, you can delete or duplicate it for example. After selecting the text inside a block, you can turn it into a link or make it bold.
 
@@ -410,11 +410,11 @@ The toolbar is a **contextual element** of the editor interface that offers vari
  </tbody> 
 </table>
 
-### Default edition modes
+### Default edition modes {#default-edition-modes}
 
 The content editor lets you edit your email's content in two different formats: HTML and text format.
 
-#### HTML Mode
+#### HTML Mode {#html-mode}
 
 The HTML mode is a WYSIWYG editor where you can easily see and modify the general display of your message, as well as interact with the content, including images.
 
@@ -432,7 +432,7 @@ The HTML functionalities allow you to:
 
 ![](assets/delivery_content_edition3.png) 
 
-#### Text mode
+#### Text mode {#text-mode}
 
 Text mode in the editor offers the following functionalities:
 
@@ -449,14 +449,14 @@ The editor operates in text mode in the same way as it does in HTML mode.
 >
 >This editing mode is used for the **Subject** and **From** fields, and for the **Text** tab in the email content.
 
-## Designing through Adobe Campaign integrations
+## Designing through Adobe Campaign integrations {#designing-through-adobe-campaign-integrations}
 
-### Editing content in Dreamweaver
+### Editing content in Dreamweaver {#editing-content-in-dreamweaver}
 
 The Adobe Campaign Standard integration with Dreamweaver lets you edit an email's content in the Dreamweaver interface. You have access to the powerful interface of Dreamweaver to design and develop responsive email content.
 
 This feature is detailed in the Dreamweaver Documentation accessible [here](https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html). A demonstration [video](https://docs.campaign.adobe.com/doc/standard/en/Videos/ACS_Dreamweaver.mp4) is also available.
 
-### Editing content in Experience Manager
+### Editing content in Experience Manager {#editing-content-in-experience-manager}
 
 Email content can be edited in Experience Manager and then used for one or several email deliveries in Adobe Campaign. Refer to [this document](../../integrating/using/integrating-with-experience-manager.md).

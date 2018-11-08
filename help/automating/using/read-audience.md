@@ -3,7 +3,7 @@ title: Read audience
 seo-title: Read audience
 description: Read audience
 seo-description: The Read audience activity allows you to retrieve an existing audience and to refine it by applying additional filtering conditions.
-uuid: f550c7d3-7289-4ced-9151-efedefd79a70
+uuid: 5a886f2a-29bd-4811-be4d-c2273a0bc1b0
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/read-audience
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: 947a02bc-622b-4f05-907e-bbeef8b19633
+discoiquuid: 2c349f5b-9532-4f3c-8259-3b15b4947484
 firstPublishExternalDate: 2018-09-07T14:55:01.062-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,29 +32,29 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Read audience
 publishexternaldate: 2018-09-07T14 55 01.062-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/read-audience.html
-sha1: b77ab5c036e7bee15b2c7f3791e14357e0a34dde
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/read-audience.html"
+sha1: 4c80a9c2417c006e96db00e62d0244f970affbee
 topicBrowsingSortDate: 2018-09-07T14:55:01.062-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Read audience
+# Read audience{#read-audience}
 
 Read audience
 
-## Description
+## Description {#description}
 
 ![](assets/prefill.png)
 
 The **Read audience** activity allows you to retrieve an existing audience and to refine it by applying additional filtering conditions.
 
-## Context of use
+## Context of use {#context-of-use}
 
 The **Read audience** activity is a simpler version of the **Query** activity designed for cases where you only need to select an existing audience.
 
-## Configuration
+## Configuration {#configuration}
 
 1. Drop a **Read audience** activity into your workflow.
 1. Select the activity, then open it using the  ![](assets/edit_darkgrey-24px.png)
@@ -72,7 +72,7 @@ The **Read audience** activity is a simpler version of the **Query** activity de
 
 1. Confirm the configuration of your activity and save your workflow.
 
-## Example: Reconcile a File audience with the database
+## Example: Reconcile a File audience with the database {#example-reconcile-a-file-audience-with-the-database}
 
 This example shows how to use the **Read audience** activity to reconcile an audience directly created from a file import.
 
@@ -110,7 +110,7 @@ The reconciliation workflow is designed as follows:
 * A [Reconciliation](../../automating/using/reconciliation.md) activity identifies the incoming data as profiles through its **Identification** tab. For example by using the **email** field as reconciliation criteria.
 * An [Update data](../../automating/using/update-data.md) activity inserts and updates the profiles resource of the database with the incoming data. As the data is already identified as profiles, you can select the **Directly using the targeting dimension** option and select **Profiles** in the **Identification** tab of the activity. Then, you simply have to add the list of fields that need to be updated in the according tab.
 
-## Example: Union on two refined audiences
+## Example: Union on two refined audiences {#example-union-on-two-refined-audiences}
 
 The workflow defined in this example shows the union of two **Read audience** activities. The goal of this workflow is to send an email to Gold or Silver members that are between 18 and 30 years old.
 

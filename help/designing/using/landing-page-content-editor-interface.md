@@ -3,7 +3,7 @@ title: Landing page content editor interface
 seo-title: Landing page content editor interface
 description: Landing page content editor interface
 seo-description: Learn how to use the different sections of the editor, such as the action bar, to modify your landing page content.
-uuid: 5f88f9d2-7cad-4f73-b679-b7da9adba357
+uuid: 517ff24c-93b5-4acd-b013-1bc4f6647d6a
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/landing-page-content-editor-interface
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-landing-page-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: 7d5beb9f-1189-4619-950e-0a4c4a719a5e
+discoiquuid: 0f685351-4d0a-4b14-9990-a963473dc304
 firstPublishExternalDate: 2018-09-07T14:50:29.115-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,15 +32,15 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Landing page content editor interface
 publishexternaldate: 2018-09-07T14 50 29.115-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/landing-page-content-editor-interface.html
-sha1: d1e50b4061ee7f21ec9663399d02e9c17415b807
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/designing/using/landing-page-content-editor-interface.html"
+sha1: 1c028fe7fe825c1a660e9ff557b394bfbb12cf27
 topicBrowsingSortDate: 2018-09-07T14:50:29.115-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Landing page content editor interface
+# Landing page content editor interface{#landing-page-content-editor-interface}
 
 Landing page content editor interface
 
@@ -52,7 +52,7 @@ The content editor is organized into three different sections. These sections al
 1. The **action bar** contains the general options for the page. You can select a template and change the display mode. See [Landing page editor action bar](../../designing/using/landing-page-content-editor-interface.md#landing-page-editor-action-bar).
 1. The main **editing zone** allows you to directly interact with the content using the contextual toolbar: insert a link into an image, change the font, delete a field, etc. See [Landing page editor toolbar](../../designing/using/landing-page-content-editor-interface.md#landing-page-editor-toolbar).
 
-## Landing page editor action bar
+## Landing page editor action bar {#landing-page-editor-action-bar}
 
 The action bar contains different buttons that allow you to interact with the content that is being created.
 
@@ -101,6 +101,6 @@ The action bar contains different buttons that allow you to interact with the co
  </tbody> 
 </table>
 
-## Landing page editor toolbar
+## Landing page editor toolbar {#landing-page-editor-toolbar}
 
 The contextual landing page editor toolbar is the same that is used in the email content editor. It is described in [this section](../../designing/using/about-email-content-design.md#email-content-editor-toolbar).

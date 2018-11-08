@@ -3,7 +3,7 @@ title: Adding panels
 seo-title: Adding panels
 description: Adding panels
 seo-description: Dynamic report allows you to add panel to better filter your data depending on the chosen time period.
-uuid: 93dfb135-45a9-4e57-9b3a-9763c5ff4233
+uuid: e170a15f-89cb-478c-92b3-dc68da8ae6d6
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/reporting/using/adding-panels
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: reporting
 content-type: reference
 topic-tags: customizing-reports
 cq-template: /apps/help/templates/article-3
-discoiquuid: cbd5fc04-043f-47f3-8e04-64e279f5586d
+discoiquuid: d7b0ba19-dd75-4b44-b2c4-68185b51ec52
 firstPublishExternalDate: 2018-09-07T15:08:43.096-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,19 +32,19 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Adding panels
 publishexternaldate: 2018-09-07T15 08 43.096-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/adding-panels.html
-sha1: 9c064e8f41bf2158fe3a2cc2c89fe55635d951ff
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/reporting/using/adding-panels.html"
+sha1: dff6e59f8c3e7106721ecd4333a182859501cdfc
 topicBrowsingSortDate: 2018-09-07T15:08:43.096-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Adding panels
+# Adding panels{#adding-panels}
 
 Adding panels
 
-## Adding a blank panel
+## Adding a blank panel {#adding-a-blank-panel}
 
 To start your report, you can add a set of panels to an out of the box or custom report. Each panel contains different data sets and is composed of freeform tables and visualizations.
 
@@ -60,7 +60,7 @@ This panel allows you to build your reports as needed. You can add as many panel
 
 You can now add a freeform table to your panel to start targeting data.
 
-## Adding a freeform table
+## Adding a freeform table {#adding-a-freeform-table}
 
 Freeform tables allow you to create a table to analyze your data using the different metrics and dimensions available in the **Component** table.
 

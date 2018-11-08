@@ -3,7 +3,7 @@ title: URLs and click streams
 seo-title: URLs and click streams
 description: URLs and click streams
 seo-description: With the URLs and click streams out-of-the-box report, learn about the success of the URLs in your deliveries.
-uuid: 2f1ecb6a-18af-40bc-bb48-0e7ba065ec32
+uuid: ad756595-67dc-40d8-9eae-549ec9b0d44d
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/reporting/using/urls-and-click-streams
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 cq-template: /apps/help/templates/article-3
-discoiquuid: b91586d3-e91c-4795-8793-f444631c7c38
+discoiquuid: fc5fe98f-b601-478a-8251-a58dfb99aa99
 firstPublishExternalDate: 2018-09-07T15:07:59.918-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,15 +32,15 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: URLs and click streams
 publishexternaldate: 2018-09-07T15 07 59.918-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/urls-and-click-streams.html
-sha1: b99c5c3c175b5d0588e2e6053c3c4341c12c29e5
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/reporting/using/urls-and-click-streams.html"
+sha1: 7969325fcafd2ab58705343eaefa376364742b34
 topicBrowsingSortDate: 2018-09-07T15:07:59.918-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# URLs and click streams
+# URLs and click streams{#urls-and-click-streams}
 
 URLs and click streams
 

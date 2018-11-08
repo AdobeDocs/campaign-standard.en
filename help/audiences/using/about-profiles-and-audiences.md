@@ -2,8 +2,8 @@
 title: About profiles and audiences
 seo-title: About profiles and audiences
 description: About profiles and audiences
-seo-description: Learn about profiles and audiences management within Adobe Campaign define targeted populations, select audiences, filter recipients, collect data and update profiles.
-uuid: 46e7264b-8512-4f67-b1e6-5a93dedc9ada
+seo-description: "Learn about profiles and audiences management within Adobe Campaign: define targeted populations, select audiences, filter recipients, collect data and update profiles."
+uuid: 57fb4563-6d27-420a-a211-67b2ec44c322
 content-encoding: UTF-8
 aemsrcnodepath: /content/help/en/campaign/standard/audiences/using/about-profiles-and-audiences
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
 cq-template: /apps/help/templates/article-3
-discoiquuid: 473c2832-559e-42cd-8c05-1c72369bf39e
+discoiquuid: 6f27ab5a-5d7c-42e2-b170-4899712f8490
 firstPublishExternalDate: 2018-09-07T14:41:54.344-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,15 +32,15 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About profiles and audiences
 publishexternaldate: 2018-09-07T14 41 54.344-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/audiences/using/about-profiles-and-audiences.html
-sha1: 941dcd69c6b8a8718ab33b94b0013369a54f0adb
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/audiences/using/about-profiles-and-audiences.html"
+sha1: e575e0e1dba7f2df0fb93beb484868174e6361c9
 topicBrowsingSortDate: 2018-09-07T14:41:54.344-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# About profiles and audiences
+# About profiles and audiences{#about-profiles-and-audiences}
 
 About profiles and audiences
 

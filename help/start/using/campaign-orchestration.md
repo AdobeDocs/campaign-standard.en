@@ -3,7 +3,7 @@ title: Campaign orchestration
 seo-title: Campaign orchestration
 description: Campaign orchestration
 seo-description: With Adobe Campaign, you can control the entire process of creating, executing and tracking cross channel campaigns, and send personalized messages.
-uuid: 99349a75-fe8e-4ae2-8b4f-2ad672c48eca
+uuid: 0a6f0d17-d330-4289-94f3-690703d7893e
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/start/using/campaign-orchestration
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: start
 content-type: reference
 topic-tags: about-adobe-campaign
 cq-template: /apps/help/templates/article-3
-discoiquuid: f455329e-d5d8-477e-9ee8-7eadc35af367
+discoiquuid: a8efb8d4-12a9-4bfa-9f14-7ba21275d79b
 firstPublishExternalDate: 2018-09-07T15:04:24.669-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,15 +32,15 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Campaign orchestration
 publishexternaldate: 2018-09-07T15 04 24.669-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/start/using/campaign-orchestration.html
-sha1: d0b59ca15e77f5a1ba192e1747745678ee1a60bd
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/start/using/campaign-orchestration.html"
+sha1: 0f38273c51aba8088cebbab39efdb317e1a3b230
 topicBrowsingSortDate: 2018-09-07T15:04:24.669-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Campaign orchestration
+# Campaign orchestration{#campaign-orchestration}
 
 Campaign orchestration
 

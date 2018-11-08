@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="2018-09-07T14:51:38.403-0400" name="publishExternalDate" />
-  <meta content="2018-09-07T14:51:38.403-0400" name="lastPublishExternalDate" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="2018-09-07T14:51:38.403-0400" name="topicBrowsingSortDate" />
-  <meta content="2018-09-07T14:51:38.403-0400" name="firstPublishExternalDate" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="Incremental query" name="jcr:title" />
-  <meta content="2018-09-10T07:24:40.032-0400" name="locHandOffDate" />
   <meta content="2018-09-10T07:24:40.033-0400" name="cq:lastModified" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="c07fe2a7-1a85-44a0-b1f5-da62ed713e32" name="jcr:predecessors" />
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="5d7e5bab-61ee-4bf4-87c8-d43f1d8f3259" name="jcr:uuid" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="" name="jcr:versionHistory" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="2018-09-07T14:51:40.189-0400" name="cq:lastReplicated" />
-  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/incremental-query.html" name="publishExternalURL" />
-  <meta content="2018-03-15T09:02:03.037-0400" name="jcr:created" />
   <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="light" name="heroGradient" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-09-07T14:51:38.403-0400" name="firstPublishExternalDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/incremental-query.html" name="publishExternalURL" />
+  <meta content="admin" name="jcr:createdBy" />
   <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:targeting-activities" name="cq:tags" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
   <meta content="The Incremental query activity allows you to filter and extract a population of elements from the Adobe Campaign database." name="seoDescription" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2018-09-07T14:51:38.403-0400" name="topicBrowsingSortDate" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="Incremental query" name="jcr:title" />
   <meta content="audience:automating" name="primaryAudienceTag" />
   <meta content="Incremental query" name="navTitle" />
+  <meta content="2018-09-10T07:24:40.032-0400" name="locHandOffDate" />
+  <meta content="2018-09-07T14:51:38.403-0400" name="publishExternalDate" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-03-15T09:02:03.037-0400" name="jcr:created" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="c07fe2a7-1a85-44a0-b1f5-da62ed713e32" name="jcr:predecessors" />
   <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
   <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="5d7e5bab-61ee-4bf4-87c8-d43f1d8f3259" name="jcr:uuid" />
   <meta content="Incremental query" name="jcr:description" />
-  <meta content="sauviat" name="contentOwner" />
+  <meta content="2018-09-07T14:51:40.189-0400" name="cq:lastReplicated" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-09-07T14:51:38.403-0400" name="lastPublishExternalDate" />
  </head>
  <body>
   <h2>Description</h2>

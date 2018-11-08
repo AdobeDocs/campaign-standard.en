@@ -3,7 +3,7 @@ title: Exclusion
 seo-title: Exclusion
 description: Exclusion
 seo-description: The Exclusion  activity allows you to exclude elements from one population according to certain criteria.
-uuid: bcfd84a9-a3c9-45ff-843e-4c2c85221196
+uuid: 41089886-3af2-4366-8e59-77b357e2bcec
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/exclusion
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: 43abbcae-b713-4ca6-a13c-46870f4407e4
+discoiquuid: f14abdca-7358-4790-b2e9-83afc6b4c137
 firstPublishExternalDate: 2018-09-07T14:53:41.677-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,31 +32,31 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Exclusion
 publishexternaldate: 2018-09-07T14 53 41.677-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/exclusion.html
-sha1: 08f2c38c279d893aee9d395e805c1c702f409bb2
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/exclusion.html"
+sha1: bbe2187ae2a2e02925db90559fb2cc5ee728a1e5
 topicBrowsingSortDate: 2018-09-07T14:53:41.677-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Exclusion
+# Exclusion{#exclusion}
 
 Exclusion
 
-## Description
+## Description {#description}
 
 ![](assets/exclusion.png)
 
 The **Exclusion ** activity allows you to exclude elements from one population according to certain criteria.
 
-## Context of use
+## Context of use {#context-of-use}
 
 The **Exclusion** activity is used essentially to carry out additional filtering on inbound transition populations.
 
 A primary set is defined amongst inbound transitions. Members of other inbound transitions are excluded from the primary set. The outbound transition of the exclusion activity only contains the members of the primary set that were not encountered in the other inbound transitions.
 
-## Configuration
+## Configuration {#configuration}
 
 1. Drag and drop an **Exclusion** activity into your workflow.
 1. Select the activity, then open it using the  ![](assets/edit_darkgrey-24px.png)
@@ -71,7 +71,7 @@ A primary set is defined amongst inbound transitions. Members of other inbound t
 1. If needed, manage the activity's [Transitions](../../automating/using/executing-a-workflow.md#managing-an-activity-s-outbound-transitions) to access the advanced options for the outbound population.
 1. Confirm the configuration of your activity and save your workflow.
 
-## Example
+## Example {#example}
 
 The following example shows two query activities configured to filter profiles from the Adobe Campaign database who are between 18 and 27 years old and have an invalid email address. The profiles with invalid email addresses are then excluded from the first set. This allows you to then send an email for example.
 

@@ -3,7 +3,7 @@ title: Key steps to send a message
 seo-title: Key steps to send a message
 description: Key steps to send a message
 seo-description: Follow these steps to create and send messages with Adobe Campaign.
-uuid: b3db3e75-5cb8-4a99-bce1-af5221bccbe9
+uuid: 29a0a468-fe6d-487f-b293-8501b2aa758e
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/key-steps-to-send-a-message
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 cq-template: /apps/help/templates/article-3
-discoiquuid: f2c19da9-9e3e-4542-9615-e75255aeb556
+discoiquuid: e6b35402-7046-417f-b3ad-6dde324b778f
 firstPublishExternalDate: 2018-09-07T15:11:26.640-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,15 +32,15 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Key steps to send a message
 publishexternaldate: 2018-09-07T15 11 26.640-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/key-steps-to-send-a-message.html
-sha1: 1cb0ce6f4b07662338fe898df212efab5a85c6e4
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/channels/using/key-steps-to-send-a-message.html"
+sha1: b8e407eb4ec468c259577c12d90f6cd1a4daf1f8
 topicBrowsingSortDate: 2018-09-07T15:11:26.640-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Key steps to send a message
+# Key steps to send a message{#key-steps-to-send-a-message}
 
 Key steps to send a message
 

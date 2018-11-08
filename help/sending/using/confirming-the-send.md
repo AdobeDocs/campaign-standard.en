@@ -3,7 +3,7 @@ title: Confirming the send
 seo-title: Confirming the send
 description: Confirming the send
 seo-description: Learn how to finalize the message preparation.
-uuid: b877e701-5af9-48c0-a758-79e73106b222
+uuid: 84e86483-bfab-4a60-bde3-b31d0cb3ec71
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/sending/using/confirming-the-send
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
 cq-template: /apps/help/templates/article-3
-discoiquuid: 3ad862d1-9b9b-4015-9b1f-c7533fe5784d
+discoiquuid: db8844c1-9763-490a-9659-51274607cc82
 firstPublishExternalDate: 2018-09-07T15:11:27.467-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,15 +32,15 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Confirming the send
 publishexternaldate: 2018-09-07T15 11 27.467-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/sending/using/confirming-the-send.html
-sha1: c2eca1e9da4284150c249d728df5bd6519d56580
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/sending/using/confirming-the-send.html"
+sha1: 50bf03d8871209e0e2924b1d8b33f78fe89c5957
 topicBrowsingSortDate: 2018-09-07T15:11:27.467-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Confirming the send
+# Confirming the send{#confirming-the-send}
 
 Confirming the send
 

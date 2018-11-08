@@ -1,9 +1,9 @@
 ---
-title: Step 1 Add extension fields to the profile resource
-seo-title: Step 1 Add extension fields to the profile resource
-description: Step 1 Add extension fields to the profile resource
+title: "Step 1: Add extension fields to the profile resource"
+seo-title: "Step 1: Add extension fields to the profile resource"
+description: "Step 1: Add extension fields to the profile resource"
 seo-description: Discover how to extend the profile resource.
-uuid: 9877aaf3-7932-4fd4-af16-face0bc5f15a
+uuid: a80aaf77-628c-4749-ad8c-3147e408653f
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/developing/using/step-1--add-extension-fields-to-the-profile-resource
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
 cq-template: /apps/help/templates/article-3
-discoiquuid: ae2b2657-e704-4f2d-9df0-9220190e929f
+discoiquuid: ef6b395a-4cce-4ab1-849c-20369b2e3063
 firstPublishExternalDate: 2018-09-07T14:56:40.245-0400
 herogradient: light
 isreadyforlocalization: false
@@ -30,17 +30,17 @@ lastPublishExternalDate: 2018-09-07T14:56:40.245-0400
 lochandoffdate: 2018-09-10T02 19 11.568-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
-navTitle: Step 1 Add extension fields to the profile resource
+navTitle: "Step 1: Add extension fields to the profile resource"
 publishexternaldate: 2018-09-07T14 56 40.245-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/step-1--add-extension-fields-to-the-profile-resource.html
-sha1: 03d6ddd568d23aa101e3966465bf524a0a586e76
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/developing/using/step-1--add-extension-fields-to-the-profile-resource.html"
+sha1: 6f4fcee36da3befa444569a111732bd2a531e663
 topicBrowsingSortDate: 2018-09-07T14:56:40.245-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Step 1: Add extension fields to the profile resource
+# Step 1: Add extension fields to the profile resource{#step-add-extension-fields-to-the-profile-resource}
 
 Step 1: Add extension fields to the profile resource
 

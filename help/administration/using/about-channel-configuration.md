@@ -2,8 +2,8 @@
 title: About channel configuration
 seo-title: About channel configuration
 description: About channel configuration
-seo-description: Each channel needs to be configured technical configuration, message properties and templates.
-uuid: 7c0039b7-b5bf-467c-83b8-c1fa6487a625
+seo-description: "Each channel needs to be configured: technical configuration, message properties and templates."
+uuid: 70e79233-c45d-4c23-89f7-4773c9b7a590
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/about-channel-configuration
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 cq-template: /apps/help/templates/article-3
-discoiquuid: de4101fe-5e4b-4cae-9ebd-cb525e63eb91
+discoiquuid: 0091d8ce-bb3c-43b5-8eb1-e1e8622d8228
 firstPublishExternalDate: 2018-09-07T14:42:53.526-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,15 +32,15 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About channel configuration
 publishexternaldate: 2018-09-07T14 42 53.526-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/about-channel-configuration.html
-sha1: 1e24932725a2cc22671fed1e9c160d6a127cd2fa
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/administration/using/about-channel-configuration.html"
+sha1: 470973ad4e81eeaef9f5a20dd6d750d905910d95
 topicBrowsingSortDate: 2018-09-07T14:42:53.526-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# About channel configuration
+# About channel configuration{#about-channel-configuration}
 
 About channel configuration
 

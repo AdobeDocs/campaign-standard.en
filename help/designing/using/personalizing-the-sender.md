@@ -3,7 +3,7 @@ title: Personalizing the sender
 seo-title: Personalizing the sender
 description: Personalizing the sender
 seo-description: Learn how to personalize the name or the address of the sender for your messages.
-uuid: cfdafd76-dcbe-415f-8e33-b46e2d85ec0d
+uuid: cd306696-4d1f-4c87-9b06-676dd14f7ed6
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/personalizing-the-sender
 contentOwner: sauviat
@@ -18,7 +18,7 @@ audience: designing
 content-type: reference
 topic-tags: personalizing-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: 389ca116-5175-403b-a42d-2bb556c2029f
+discoiquuid: 332c3808-6408-4b38-bca0-5e52ea8c0a5c
 firstPublishExternalDate: 2018-09-07T15:01:15.134-0400
 herogradient: light
 isreadyforlocalization: false
@@ -34,19 +34,19 @@ lr-lastreplicatedby: sauviat@adobe.com
 moreHelpPaths: /content/help/en/campaign/standard/designing/morehelp/personalizing-content;/content/help/en/campaign/standard/designing/morehelp/personalizing-content
 navTitle: Personalizing the sender
 publishexternaldate: 2018-09-07T15 01 15.134-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/personalizing-the-sender.html
-sha1: b358b26f54a6c9b1221ffdd3018f76767bc1892c
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/designing/using/personalizing-the-sender.html"
+sha1: 5ff78a8d8f72ef0e1e1196ed76dcf434638809df
 topicBrowsingSortDate: 2018-09-07T15:01:15.134-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Personalizing the sender
+# Personalizing the sender{#personalizing-the-sender}
 
 Personalizing the sender
 
-## Email sender
+## Email sender {#email-sender}
 
 To define the name of the sender which will appear in the header of messages sent:
 
@@ -70,6 +70,6 @@ The **From (email address)** field cannot be edited from the **Content** block. 
 >
 >The header parameters must not be empty. The sender's address is mandatory to allow an email to be sent (RFC standard). Adobe Campaign checks the syntax of email addresses entered.
 
-## SMS sender
+## SMS sender {#sms-sender}
 
 You can personalize the name of the SMS sender. For more on this, refer to the [SMS configuration](../../administration/using/configuring-sms-channel.md#configuring-sms-properties) section.

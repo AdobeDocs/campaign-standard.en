@@ -1,9 +1,9 @@
 ---
-title: Use case users & security
-seo-title: Use case users & security
-description: Use case users & security
+title: "Use case: users & security"
+seo-title: "Use case: users & security"
+description: "Use case: users & security"
 seo-description: Discover access and security management through a step-by-step use case.
-uuid: f22d765b-4fab-427e-88aa-d50ea944efad
+uuid: 1deb25c6-814d-44cf-abf7-1e15e4342113
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/use-case--users-e-security
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: administration
 content-type: reference
 topic-tags: users-e-security
 cq-template: /apps/help/templates/article-3
-discoiquuid: 0ebf9c5b-7de1-403d-8c80-3619dff5d195
+discoiquuid: faa4c418-b114-492b-974c-6ed445bec0a1
 firstPublishExternalDate: 2018-09-07T14:41:56.889-0400
 herogradient: light
 isreadyforlocalization: false
@@ -30,17 +30,17 @@ lastPublishExternalDate: 2018-09-07T14:41:56.889-0400
 lochandoffdate: 2018-09-10T07 23 26.777-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
-navTitle: Use case users & security
+navTitle: "Use case: users & security"
 publishexternaldate: 2018-09-07T14 41 56.889-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/use-case--users-e-security.html
-sha1: 0e2181c323d3d607865d86713d35ffe92cb02290
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/administration/using/use-case--users-e-security.html"
+sha1: 6a7a201a26dd79d786f3ec9e8bfef0476c371fba
 topicBrowsingSortDate: 2018-09-07T14:41:56.889-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Use case: users & security
+# Use case: users & security{#use-case-users-security}
 
 Use case: users & security
 
@@ -61,7 +61,7 @@ To do this, you must follow these 4 steps:
 * Create a security group and a product profile
 * Create users
 
-## Step 1: Create a geographical unit
+## Step 1: Create a geographical unit {#step-create-a-geographical-unit}
 
 In order to define a hierarchical structure to give users a filtered view, Geometrixx will have to assign each brand to its respective country.
 
@@ -78,7 +78,7 @@ The user will then have read and write access to all objects within their units.
 
 The geographical unit is created and can now be selected in the **Access management** properties of all entities.
 
-## Step 2: Create an organizational unit
+## Step 2: Create an organizational unit {#step-create-an-organizational-unit}
 
 Organization units can represent different brands or departments within your organization.
 
@@ -95,7 +95,7 @@ In this example, we use organization units to create two brands.
 
 The organizational units are created and can now be selected in the **Access management** properties of all entities.
 
-## Step 3: Create and manage a security group
+## Step 3: Create and manage a security group {#step-create-and-manage-a-security-group}
 
 The security group must first be created in the Admin console then in Adobe Campaign using the exact same configuration name in order for them to be correctly synchronized.
 
@@ -128,7 +128,7 @@ The security group must first be created in the Admin console then in Adobe Camp
 
 Your group is now created in Adobe Campaign and in the Admin console. You can now add users to it.
 
-## Step 4: Create users
+## Step 4: Create users {#step-create-users}
 
 Users can only be managed from the Admin console. They are in read-only mode in Adobe Campaign.
 

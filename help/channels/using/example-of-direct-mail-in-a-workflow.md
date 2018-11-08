@@ -3,7 +3,7 @@ title: Example of direct mail in a workflow
 seo-title: Example of direct mail in a workflow
 description: Example of direct mail in a workflow
 seo-description: Discover an example of a direct mail delivery in a workflow.
-uuid: bd706a24-d2e4-4074-a658-7cd211e1ab98
+uuid: b738a6b2-1179-45bb-96e9-2a8078291dc7
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/example-of-direct-mail-in-a-workflow
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: channels
 content-type: reference
 topic-tags: direct-mail
 cq-template: /apps/help/templates/article-3
-discoiquuid: 0d2071ff-de38-4918-8db0-eea21c86b33c
+discoiquuid: 932e9380-a78a-4380-beda-3e2642ded970
 firstPublishExternalDate: 2018-09-07T15:12:27.979-0400
 herogradient: light
 isreadyforlocalization: false
@@ -32,15 +32,15 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Example of direct mail in a workflow
 publishexternaldate: 2018-09-07T15 12 27.979-0400
-publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/example-of-direct-mail-in-a-workflow.html
-sha1: 9ad0b71552240fd7bd31ba01debfe3beb0241451
+publishExternalURL: "https://helpx.adobe.com/campaign/standard/channels/using/example-of-direct-mail-in-a-workflow.html"
+sha1: 0419b0dd0ed0592d439f6806c18cffa8ba4563c3
 topicBrowsingSortDate: 2018-09-07T15:12:27.979-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Example of direct mail in a workflow
+# Example of direct mail in a workflow{#example-of-direct-mail-in-a-workflow}
 
 Example of direct mail in a workflow
 

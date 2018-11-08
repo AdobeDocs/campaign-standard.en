@@ -1,40 +1,40 @@
 <html>
  <head>
-  <meta content="admin" name="jcr:createdBy" />
-  <meta content="mix:versionable" name="jcr:mixinTypes" />
-  <meta content="2018-09-07T14:48:28.246-0400" name="publishExternalDate" />
-  <meta content="audience:automating" name="primaryAudienceTag" />
-  <meta content="" name="jcr:baseVersion" />
-  <meta content="/apps/help/templates/article-3" name="cq:template" />
-  <meta content="false" name="isReadyForLocalization" />
-  <meta content="2018-09-07T14:48:28.246-0400" name="firstPublishExternalDate" />
-  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/using-workflow-data.html" name="publishExternalURL" />
-  <meta content="2018-09-07T14:48:30.529-0400" name="cq:lastReplicated" />
-  <meta content="2018-09-10T07:23:23.322-0400" name="locHandOffDate" />
-  <meta content="Learn the different possibilities to consume the data you imported or targeted." name="seoDescription" />
-  <meta content="/etc/designs/help" name="cq:designPath" />
-  <meta content="0ecf4838-6ffa-4ca0-ba4d-04aac228a7af" name="jcr:predecessors" />
-  <meta content="Using workflow data" name="navTitle" />
-  <meta content="en_us" name="jcr:language" />
-  <meta content="light" name="heroGradient" />
-  <meta content="ce97e21c-53e4-4546-93cf-6c7320ae76bd" name="jcr:uuid" />
-  <meta content="true" name="jcr:isCheckedOut" />
-  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
-  <meta content="help/components/pages/article-3" name="sling:resourceType" />
-  <meta content="2018-03-15T09:02:17.780-0400" name="jcr:created" />
-  <meta content="sauviat" name="contentOwner" />
   <meta content="" name="jcr:versionHistory" />
-  <meta content="2018-09-10T07:23:23.324-0400" name="cq:lastModified" />
-  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
-  <meta content="Activate" name="cq:lastReplicationAction" />
-  <meta content="Using workflow data" name="jcr:description" />
-  <meta content="" name="jcr:primaryType" />
-  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:workflow-general-operation" name="cq:tags" />
-  <meta content="sauviat" name="cq:lastReplicatedBy" />
-  <meta content="2018-09-07T14:48:28.246-0400" name="lastPublishExternalDate" />
-  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-03-15T09:02:17.780-0400" name="jcr:created" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="0ecf4838-6ffa-4ca0-ba4d-04aac228a7af" name="jcr:predecessors" />
   <meta content="2018-09-07T14:48:28.246-0400" name="topicBrowsingSortDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:workflow-general-operation" name="cq:tags" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/using-workflow-data.html" name="publishExternalURL" />
+  <meta content="Using workflow data" name="navTitle" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-09-10T07:23:23.322-0400" name="locHandOffDate" />
+  <meta content="2018-09-07T14:48:28.246-0400" name="firstPublishExternalDate" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2018-09-10T07:23:23.324-0400" name="cq:lastModified" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="ce97e21c-53e4-4546-93cf-6c7320ae76bd" name="jcr:uuid" />
+  <meta content="Learn the different possibilities to consume the data you imported or targeted." name="seoDescription" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-09-07T14:48:28.246-0400" name="lastPublishExternalDate" />
+  <meta content="2018-09-07T14:48:28.246-0400" name="publishExternalDate" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
   <meta content="Using workflow data" name="jcr:title" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2018-09-07T14:48:30.529-0400" name="cq:lastReplicated" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="audience:automating" name="primaryAudienceTag" />
+  <meta content="Using workflow data" name="jcr:description" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
  </head>
  <body>
   <p>Once the data has been identified and prepared, it can be used in the following contexts:</p> 
