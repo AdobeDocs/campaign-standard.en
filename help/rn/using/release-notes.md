@@ -56,7 +56,7 @@ Each release comes with new features and patches. Click on a release to view its
 
 View the latest [documentation updates](../../rn/using/documentation-updates.md) for Adobe Campaign Standard. If you're looking for a previous release, consult these pages: [2017](../../rn/using/previous-release-notes-2017.md), [2016 and before](../../rn/using/previous-release-notes.md). Also consult the list of [Deprecated and Removed Features](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html).
 
-## 18.9 - September 2018 release {#september-release}
+## v18.9 - September 2018 release {#september-release}
 
 ### What's new? {#what-s-new}
 
@@ -120,7 +120,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed an issue that prevented displaying the errors that caused the **Database Cleanup** workflow to fail. (CAMP-26876)
 * Fixed an issue which could prevent the deletion of custom fields in a push notification definition. (CAMP-25588)
 
-## 18.7 - July 2018 release {#july-release}
+## v18.7 - July 2018 release {#july-release}
 
 ### What's new? {#what-s-new}
 
@@ -183,7 +183,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed an issue in the Creative Designer which resulted in unwanted color font and formatting when changing some text with inbuilt styling to a link or when editing that link. (CAMP-26001)
 * Fixed an issue that prevented the hot click report to display the percentages for each condition in deliveries containing dynamic content. Previously, only the clicks on the default variant were displayed.
 
-## 18.6 - June 2018 release {#june-release}
+## v18.6 - June 2018 release {#june-release}
 
 ### Improvements {#improvements}
 
@@ -221,7 +221,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed an issue with the display of international data for Account levels in Dynamic reports.
 * It is now possible to create a service without a subscription or unsubscription confirmation message.
 
-## 18.5 - May 2018 release {#may-release}
+## v18.5 - May 2018 release {#may-release}
 
 ### What's new? {#what-s-new}
 
@@ -289,7 +289,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed an issue which could prevent the Creative Designer from loading. (CAMP-24573) 
 * Fixed an issue which removed characters added after personalization fields in the email subject. (CAMP-24113)
 
-## 18.4 - April 2018 release {#april-release}
+## v18.4 - April 2018 release {#april-release}
 
 ### Patches {#patches}
 
@@ -315,7 +315,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 
 * Fixed an error which caused custom resource preparation to fail.
 
-## 18.3 - March 2018 release {#march-release}
+## v18.3 - March 2018 release {#march-release}
 
 ### New capabilities {#new-capabilities}
 
@@ -391,7 +391,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed an error with transactional message template when the delivery resource was extended.
 * It is now possible to delete transactional messages.
 
-## 18.2 - February 2018 release {#february-release}
+## v18.2 - February 2018 release {#february-release}
 
 ### New capabilities {#new-capabilities}
 
@@ -455,7 +455,7 @@ We recommend that you do not use Internet Explorer version 11 because of possibl
 
 Some issues might occur when using contextual help links from Campaign interface. They will be fixed in 18.3.
 
-## 18.1 - January 2018 release {#january-release}
+## v18.1 - January 2018 release {#january-release}
 
 ### New capabilities {#new-capabilities}
 
@@ -533,4 +533,3 @@ Some issues might occur when using contextual help links from Campaign interface
 * Added a tooltip displaying the exact result number after counting the population of a query.
 * Fixed an issue that could prevent a user from selecting an audience or closing the audience picker window.
 * The list of available functions in the expression editor has been updated. The **FormatCurrency** and **ConvertCurrency** functions have been removed.
-
