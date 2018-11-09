@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Creating a multilingual email
 publishexternaldate: 2018-09-07T15 11 44.194-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/channels/using/creating-a-multilingual-email.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/creating-a-multilingual-email.html
 sha1: 60f1fb2f48b8ba74f82328f4c510d9abc68c232e
 topicBrowsingSortDate: 2018-09-07T15:11:44.194-0400
 index: y

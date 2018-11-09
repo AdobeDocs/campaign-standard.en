@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Provisioning and configuring integration with Audience Manager or People core service
 publishexternaldate: 2018-09-07T15 07 11.823-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.html
 sha1: 212a8227a98776246efebcbe10660b53577939d6
 topicBrowsingSortDate: 2018-09-07T15:07:11.823-0400
 index: y

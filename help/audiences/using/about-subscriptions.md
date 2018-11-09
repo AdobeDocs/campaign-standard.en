@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About subscriptions
 publishexternaldate: 2018-09-07T14 49 49.939-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/audiences/using/about-subscriptions.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/audiences/using/about-subscriptions.html
 sha1: c7253de0719d093fa07e330e6d55ce1af702527c
 topicBrowsingSortDate: 2018-09-07T14:49:49.939-0400
 index: y

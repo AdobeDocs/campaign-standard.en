@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Designing content in Adobe Campaign
 publishexternaldate: 2018-09-07T14 44 33.059-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/designing/using/designing-content-in-adobe-campaign.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/designing-content-in-adobe-campaign.html
 sha1: 51e5002aa2fc96f27128fcfe60afc1266c570f81
 topicBrowsingSortDate: 2018-09-07T14:44:33.059-0400
 index: y

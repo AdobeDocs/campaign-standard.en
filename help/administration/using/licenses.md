@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Licenses
 publishexternaldate: 2018-09-07T14 42 25.586-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/administration/using/licenses.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/licenses.html
 sha1: 387daa491a7d051ffa539d3b449b5f0b542a3b40
 topicBrowsingSortDate: 2018-09-07T14:42:25.586-0400
 index: y

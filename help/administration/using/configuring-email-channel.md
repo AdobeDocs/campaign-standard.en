@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Configuring email channel
 publishexternaldate: 2018-09-07T14 43 28.687-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/administration/using/configuring-email-channel.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/configuring-email-channel.html
 sha1: 5b7db4660f4f9ae70c976dc5397c75fbf9c6193b
 topicBrowsingSortDate: 2018-09-07T14:43:28.687-0400
 index: y

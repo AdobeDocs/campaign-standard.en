@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About templates
 publishexternaldate: 2018-09-07T15 08 36.959-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/start/using/about-templates.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/start/using/about-templates.html
 sha1: e016c291bb44b5116b2813b8b29d939b2f7dc775
 topicBrowsingSortDate: 2018-09-07T15:08:36.959-0400
 index: y

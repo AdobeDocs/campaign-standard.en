@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Technical workflows
 publishexternaldate: 2018-09-07T15 04 08.323-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/administration/using/technical-workflows.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/technical-workflows.html
 sha1: 13f53d48d51304d860757f8b09e552091547035e
 topicBrowsingSortDate: 2018-09-07T15:04:08.323-0400
 index: y

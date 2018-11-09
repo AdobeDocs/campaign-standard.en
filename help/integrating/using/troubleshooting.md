@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Troubleshooting
 publishexternaldate: 2018-09-07T15 07 26.740-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/integrating/using/troubleshooting.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/troubleshooting.html
 sha1: 60e1597f6c08b89d82200862d0a5d682aa3bcaa5
 topicBrowsingSortDate: 2018-09-07T15:07:26.740-0400
 index: y

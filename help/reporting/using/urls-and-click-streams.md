@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: URLs and click streams
 publishexternaldate: 2018-09-07T15 07 59.918-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/reporting/using/urls-and-click-streams.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/urls-and-click-streams.html
 sha1: 7969325fcafd2ab58705343eaefa376364742b34
 topicBrowsingSortDate: 2018-09-07T15:07:59.918-0400
 index: y

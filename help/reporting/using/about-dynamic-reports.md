@@ -36,7 +36,7 @@ lr-lastreplicatedby: beneat@adobe.com
 moreHelpPaths: /content/help/en/campaign/standard/reporting/morehelp/about-reporting;/content/help/en/campaign/standard/reporting/morehelp/about-reporting
 navTitle: About dynamic reports
 publishexternaldate: 2018-09-11T08 43 16.310-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/reporting/using/about-dynamic-reports.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/about-dynamic-reports.html
 publishinternaldate: 2018-09-11T08 43 16.310-0400
 publishinternalurl: https //helpx-internal.corp.adobe.com/content/help/en/campaign/standard/reporting/using/about-dynamic-reports.html
 sha1: 78e9210a541f04241d5ae9b371b92b3c02f4b91e

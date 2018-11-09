@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Organizational and geographical units
 publishexternaldate: 2018-09-07T14 41 05.919-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/administration/using/organizational-and-geographical-units.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/organizational-and-geographical-units.html
 sha1: 32adeb48175c3eb646c78a3a0349a555a0259728
 topicBrowsingSortDate: 2018-09-07T14:41:05.919-0400
 index: y

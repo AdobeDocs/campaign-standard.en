@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Managing profiles 
 publishexternaldate: 2018-09-07T15 05 03.083-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/start/using/managing-profiles-.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/start/using/managing-profiles-.html
 sha1: 623053521978ec936032b7a1f6962eded2fbf02d
 topicBrowsingSortDate: 2018-09-07T15:05:03.083-0400
 index: y

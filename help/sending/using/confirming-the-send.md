@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Confirming the send
 publishexternaldate: 2018-09-07T15 11 27.467-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/sending/using/confirming-the-send.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/sending/using/confirming-the-send.html
 sha1: 50bf03d8871209e0e2924b1d8b33f78fe89c5957
 topicBrowsingSortDate: 2018-09-07T15:11:27.467-0400
 index: y

@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Intersection
 publishexternaldate: 2018-09-07T14 53 05.163-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/intersection.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/intersection.html
 sha1: df024bb6bb171fce927e0f86405ba8b83aea7c9f
 topicBrowsingSortDate: 2018-09-07T14:53:05.163-0400
 index: y

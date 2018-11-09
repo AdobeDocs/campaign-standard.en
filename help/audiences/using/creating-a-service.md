@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Creating a service
 publishexternaldate: 2018-09-07T14 50 33.761-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/audiences/using/creating-a-service.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/audiences/using/creating-a-service.html
 sha1: f5cd24ae8f06558f83086c3b3cd99b4505dadcc2
 topicBrowsingSortDate: 2018-09-07T14:50:33.761-0400
 index: y

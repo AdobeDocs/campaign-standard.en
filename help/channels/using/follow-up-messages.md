@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Follow-up messages
 publishexternaldate: 2018-09-07T15 12 32.944-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/channels/using/follow-up-messages.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/follow-up-messages.html
 sha1: b3279c2d2e1e782e4347d07ed0e7aef168e90d51
 topicBrowsingSortDate: 2018-09-07T15:12:32.944-0400
 index: y

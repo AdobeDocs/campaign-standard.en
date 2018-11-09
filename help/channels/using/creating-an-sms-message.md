@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Creating an SMS message
 publishexternaldate: 2018-09-07T15 11 47.971-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/channels/using/creating-an-sms-message.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/creating-an-sms-message.html
 sha1: 5b42dd0e84049c0ebc0fbf47ab0e595dcebafc39
 topicBrowsingSortDate: 2018-09-07T15:11:47.971-0400
 index: y

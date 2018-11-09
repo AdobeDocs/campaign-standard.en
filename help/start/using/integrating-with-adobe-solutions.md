@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Integrating with Adobe solutions
 publishexternaldate: 2018-09-07T15 07 40.061-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/start/using/integrating-with-adobe-solutions.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/start/using/integrating-with-adobe-solutions.html
 sha1: e12160703310865795842d71660a4e600f6a971e
 topicBrowsingSortDate: 2018-09-07T15:07:40.061-0400
 index: y

@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 moreHelpPaths: /content/help/en/campaign/standard/administration/morehelp/users-e-security;/content/help/en/campaign/standard/administration/morehelp/users-e-security
 navTitle: About access management
 publishexternaldate: 2018-09-07T14 40 30.534-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/administration/using/about-access-management.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/about-access-management.html
 sha1: 51633293a30de77f941b8ce99bb6a6f91c2454c7
 topicBrowsingSortDate: 2018-09-07T14:40:30.534-0400
 index: y

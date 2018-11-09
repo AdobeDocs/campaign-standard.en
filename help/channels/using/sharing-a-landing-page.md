@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Sharing a landing page
 publishexternaldate: 2018-09-07T15 12 36.257-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/channels/using/sharing-a-landing-page.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/sharing-a-landing-page.html
 sha1: e2e1efc2bbc1c289e25dc85712dd16939b731394
 topicBrowsingSortDate: 2018-09-07T15:12:36.257-0400
 index: y

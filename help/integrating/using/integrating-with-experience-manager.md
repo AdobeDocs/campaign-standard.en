@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Integrating with Experience Manager
 publishexternaldate: 2018-09-07T14 58 33.418-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/integrating/using/integrating-with-experience-manager.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/integrating-with-experience-manager.html
 sha1: afead9842842f7385576628c0e0f0ad4fe4d9937
 topicBrowsingSortDate: 2018-09-07T14:58:33.418-0400
 index: y

@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Content design best practices
 publishexternaldate: 2018-09-07T14 45 25.442-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/designing/using/content-design-best-practices.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/content-design-best-practices.html
 sha1: cc803d8164acf0f19f5477c702857ffda5f40601
 topicBrowsingSortDate: 2018-09-07T14:45:25.442-0400
 index: y

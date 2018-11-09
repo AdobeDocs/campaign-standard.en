@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Segmentation
 publishexternaldate: 2018-09-07T14 54 26.287-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/segmentation.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/segmentation.html
 sha1: 7b242ff65e32a4472c41fb16f90a36367bc842b8
 topicBrowsingSortDate: 2018-09-07T14:54:26.287-0400
 index: y

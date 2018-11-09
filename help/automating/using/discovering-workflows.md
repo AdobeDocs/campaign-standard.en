@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Discovering workflows
 publishexternaldate: 2018-09-07T14 43 09.687-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/discovering-workflows.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/discovering-workflows.html
 sha1: b8119508296512c0f1ca8b99d9570c4acacce8ad
 topicBrowsingSortDate: 2018-09-07T14:43:09.687-0400
 index: y

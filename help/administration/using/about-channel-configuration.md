@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About channel configuration
 publishexternaldate: 2018-09-07T14 42 53.526-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/administration/using/about-channel-configuration.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/about-channel-configuration.html
 sha1: 470973ad4e81eeaef9f5a20dd6d750d905910d95
 topicBrowsingSortDate: 2018-09-07T14:42:53.526-0400
 index: y

@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: SMS delivery
 publishexternaldate: 2018-09-07T15 05 04.469-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/sms-delivery.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/sms-delivery.html
 sha1: 86604b2f4ea9a5a80d20ab77c0e412937e161f73
 topicBrowsingSortDate: 2018-09-07T15:05:04.469-0400
 index: y

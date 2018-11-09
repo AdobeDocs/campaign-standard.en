@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Breakdown by domains
 publishexternaldate: 2018-09-07T15 07 39.986-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/reporting/using/breakdown-by-domains.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/breakdown-by-domains.html
 sha1: 0eabad11def513dfc6bb2229496016da6f42de6a
 topicBrowsingSortDate: 2018-09-07T15:07:39.986-0400
 index: y

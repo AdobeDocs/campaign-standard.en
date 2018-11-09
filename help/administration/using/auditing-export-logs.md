@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Auditing export logs
 publishexternaldate: 2018-09-07T14 41 47.098-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/administration/using/auditing-export-logs.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/auditing-export-logs.html
 sha1: e7671eb027e6f89d70227dd613260b3ee135e571
 topicBrowsingSortDate: 2018-09-07T14:41:47.098-0400
 index: y

@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Data storage and reconciliation
 publishexternaldate: 2018-09-07T15 12 37.249-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/channels/using/data-storage-and-reconciliation.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/data-storage-and-reconciliation.html
 sha1: cfb67778751cc497fe187d2aaaba48d21d43d4a3
 topicBrowsingSortDate: 2018-09-07T15:12:37.249-0400
 index: y

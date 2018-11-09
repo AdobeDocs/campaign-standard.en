@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: "Example: Email personalization"
 publishexternaldate: 2018-09-07T15 03 19.887-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/designing/using/example--email-personalization.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/example--email-personalization.html
 sha1: 25ee2deff484385dd6e9953b5f80678be4ba5791
 topicBrowsingSortDate: 2018-09-07T15:03:19.887-0400
 index: y

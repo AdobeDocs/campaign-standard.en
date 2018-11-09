@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About landing pages
 publishexternaldate: 2018-09-07T15 12 34.012-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/channels/using/about-landing-pages.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/about-landing-pages.html
 sha1: 7cfefe22549cf01811bccc664ba7b628c3503134
 topicBrowsingSortDate: 2018-09-07T15:12:34.012-0400
 index: y

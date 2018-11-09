@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Changing a landing page form data properties
 publishexternaldate: 2018-09-07T14 51 56.066-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/designing/using/changing-a-landing-page-form-data-properties.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/changing-a-landing-page-form-data-properties.html
 sha1: 4bf8066202a656fa395082cf319ace451009ac67
 topicBrowsingSortDate: 2018-09-07T14:51:56.066-0400
 index: y

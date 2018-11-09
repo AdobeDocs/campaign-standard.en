@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Adding a content block
 publishexternaldate: 2018-09-07T15 00 22.317-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/designing/using/adding-a-content-block.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/adding-a-content-block.html
 sha1: b137e4d0411f7e67a92037b79d6f18af0e525400
 topicBrowsingSortDate: 2018-09-07T15:00:22.317-0400
 index: y

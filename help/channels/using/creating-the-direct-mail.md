@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Creating the direct mail
 publishexternaldate: 2018-09-07T15 12 25.292-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/channels/using/creating-the-direct-mail.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/creating-the-direct-mail.html
 sha1: b56fbd76e8177062bbcbf323cb876a673ec1bfe8
 topicBrowsingSortDate: 2018-09-07T15:12:25.292-0400
 index: y

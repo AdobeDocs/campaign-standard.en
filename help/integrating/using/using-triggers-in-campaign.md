@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Using Triggers in Campaign
 publishexternaldate: 2018-09-07T15 08 26.526-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/integrating/using/using-triggers-in-campaign.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/using-triggers-in-campaign.html
 sha1: 4e73d94694f729997503e47a9f66a3515a6251e8
 topicBrowsingSortDate: 2018-09-07T15:08:26.526-0400
 index: y

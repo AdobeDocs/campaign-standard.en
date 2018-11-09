@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Data model concepts
 publishexternaldate: 2018-09-07T14 48 12.669-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/developing/using/data-model-concepts.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/data-model-concepts.html
 sha1: 7b1932b71f4cf06efe20de793083053296fe7a51
 topicBrowsingSortDate: 2018-09-07T14:48:12.669-0400
 index: y

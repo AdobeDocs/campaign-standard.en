@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Designing an A/B test email
 publishexternaldate: 2018-09-07T15 11 41.672-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/channels/using/designing-an-a-b-test-email.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/designing-an-a-b-test-email.html
 sha1: eb0b4a79ea0f32d3cdf7e2a80a032780bb6bc2e2
 topicBrowsingSortDate: 2018-09-07T15:11:41.672-0400
 index: y

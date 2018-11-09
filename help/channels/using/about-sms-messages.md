@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About SMS messages
 publishexternaldate: 2018-09-07T15 11 46.712-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/channels/using/about-sms-messages.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/about-sms-messages.html
 sha1: 4dd7436cbca884bd14c267b4b318d6ae9278a092
 topicBrowsingSortDate: 2018-09-07T15:11:46.712-0400
 index: y

@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 moreHelpPaths: /content/help/en/campaign/standard/reporting/morehelp/customizing-reports;/content/help/en/campaign/standard/reporting/morehelp/customizing-reports
 navTitle: Adding components
 publishexternaldate: 2018-09-07T15 08 52.056-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/reporting/using/adding-components.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/adding-components.html
 sha1: 78cefaabf0f1fa04e1a7c3f8a7b9254446cd6aea
 topicBrowsingSortDate: 2018-09-07T15:08:52.056-0400
 index: y

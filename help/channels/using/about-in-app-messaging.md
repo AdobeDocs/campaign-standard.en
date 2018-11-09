@@ -35,7 +35,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: beneat@adobe.com
 navTitle: About In-App messaging
 publishexternaldate: 2018-10-23T18 35 28.993-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/channels/using/about-in-app-messaging.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/about-in-app-messaging.html
 publishinternaldate: 2018-10-23T18 35 28.993-0400
 publishinternalurl: https //helpx-internal.corp.adobe.com/content/help/en/campaign/standard/channels/using/about-in-app-messaging.html
 sha1: 13f786d9351dfff96cc0b6880f0b068442ecbfc1

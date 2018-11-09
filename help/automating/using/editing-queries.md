@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Editing queries
 publishexternaldate: 2018-09-07T15 08 47.178-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/editing-queries.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/editing-queries.html
 sha1: 33c880ee1cb4828d065c3444847a4421d88c8672
 topicBrowsingSortDate: 2018-09-07T15:08:47.178-0400
 index: y

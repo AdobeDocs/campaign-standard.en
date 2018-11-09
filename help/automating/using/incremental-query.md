@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Incremental query
 publishexternaldate: 2018-09-07T14 51 38.403-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/incremental-query.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/incremental-query.html
 sha1: 984624f46d317b397baea8335c2c8fd786052524
 topicBrowsingSortDate: 2018-09-07T14:51:38.403-0400
 index: y

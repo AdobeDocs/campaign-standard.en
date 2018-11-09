@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About Campaign-Analytics integration
 publishexternaldate: 2018-09-07T15 03 18.670-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/integrating/using/about-campaign-analytics-integration.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/about-campaign-analytics-integration.html
 sha1: d083c586669e5a9bfe8e614c9c8966407ffecde1
 topicBrowsingSortDate: 2018-09-07T15:03:18.670-0400
 index: y

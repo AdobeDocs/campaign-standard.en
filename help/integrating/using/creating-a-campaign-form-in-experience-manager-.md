@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Creating a Campaign form in Experience Manager 
 publishexternaldate: 2018-09-07T14 59 26.173-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/integrating/using/creating-a-campaign-form-in-experience-manager-.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/creating-a-campaign-form-in-experience-manager-.html
 sha1: 11e7720dc579db78ff7417cbfae7a78d8cb093ee
 topicBrowsingSortDate: 2018-09-07T14:59:26.173-0400
 index: y

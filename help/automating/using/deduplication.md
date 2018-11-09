@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Deduplication
 publishexternaldate: 2018-09-07T14 56 13.367-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/deduplication.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/deduplication.html
 sha1: 6f0828859643bb7b8ca86c23067684f503cdf3c7
 topicBrowsingSortDate: 2018-09-07T14:56:13.367-0400
 index: y

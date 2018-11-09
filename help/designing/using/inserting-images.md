@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Inserting images
 publishexternaldate: 2018-09-07T14 56 14.632-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/designing/using/inserting-images.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/inserting-images.html
 sha1: 7113dc4eda8e81ff8743031648f036498a81dfaa
 topicBrowsingSortDate: 2018-09-07T14:56:14.632-0400
 index: y

@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Sending messages at the recipient's time zone
 publishexternaldate: 2018-09-07T15 11 21.952-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/sending/using/sending-messages-at-the-recipient-s-time-zone.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/sending/using/sending-messages-at-the-recipient-s-time-zone.html
 sha1: 46511a619a480ab0cb949abfd17ecfcfdb16ba4e
 topicBrowsingSortDate: 2018-09-07T15:11:21.952-0400
 index: y

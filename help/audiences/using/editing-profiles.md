@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Editing profiles
 publishexternaldate: 2018-09-07T14 43 29.446-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/audiences/using/editing-profiles.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/audiences/using/editing-profiles.html
 sha1: 84a9433a6685edef2118949571ac3777551a154c
 topicBrowsingSortDate: 2018-09-07T14:43:29.446-0400
 index: y

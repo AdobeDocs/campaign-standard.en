@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Enrichment
 publishexternaldate: 2018-09-07T14 56 44.379-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/enrichment.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/enrichment.html
 sha1: ba0bf4608c6b7cd8d46b4413d1eafe2859b60ffd
 topicBrowsingSortDate: 2018-09-07T14:56:44.379-0400
 index: y

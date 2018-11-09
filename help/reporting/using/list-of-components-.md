@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: List of components 
 publishexternaldate: 2018-09-07T15 02 17.342-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/reporting/using/list-of-components-.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/list-of-components-.html
 sha1: d58a0c4e3bf189945cb53157dcb7210ae2a19bd1
 topicBrowsingSortDate: 2018-09-07T15:02:17.342-0400
 index: y

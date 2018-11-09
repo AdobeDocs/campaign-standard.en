@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Abandonment Triggers use cases
 publishexternaldate: 2018-09-07T15 08 37.073-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/integrating/using/abandonment-triggers-use-cases.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/abandonment-triggers-use-cases.html
 sha1: 763f354460e85f26b70638f59adda569b9518fb5
 topicBrowsingSortDate: 2018-09-07T15:08:37.073-0400
 index: y

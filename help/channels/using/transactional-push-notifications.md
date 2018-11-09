@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Transactional push notifications
 publishexternaldate: 2018-09-07T15 12 31.926-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/channels/using/transactional-push-notifications.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/transactional-push-notifications.html
 sha1: 1745eb4630bb1959d145d28bb235d9802cffdb66
 topicBrowsingSortDate: 2018-09-07T15:12:31.926-0400
 index: y

@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Creating an email
 publishexternaldate: 2018-09-07T15 11 38.457-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/channels/using/creating-an-email.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/creating-an-email.html
 sha1: 2af7841f7b53e8cb78930b42bb8c61aacb722b01
 topicBrowsingSortDate: 2018-09-07T15:11:38.457-0400
 index: y

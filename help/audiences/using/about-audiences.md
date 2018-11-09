@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About audiences
 publishexternaldate: 2018-09-07T14 45 51.489-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/audiences/using/about-audiences.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/audiences/using/about-audiences.html
 sha1: 053f5c157166fa5ad2b187d9202253ec3e57e806
 topicBrowsingSortDate: 2018-09-07T14:45:51.489-0400
 index: y

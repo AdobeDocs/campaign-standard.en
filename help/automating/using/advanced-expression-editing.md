@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Advanced expression editing
 publishexternaldate: 2018-09-07T15 08 52.363-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/advanced-expression-editing.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/advanced-expression-editing.html
 sha1: 6bdd709715da8663b9f1915c88061fda9ba3f1c9
 topicBrowsingSortDate: 2018-09-07T15:08:52.363-0400
 index: y

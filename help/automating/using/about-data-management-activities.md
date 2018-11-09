@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About data management activities
 publishexternaldate: 2018-09-07T15 08 08.381-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/about-data-management-activities.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/about-data-management-activities.html
 sha1: ba8a8dde51bd1a47e72e5d64110f1da672e7288f
 topicBrowsingSortDate: 2018-09-07T15:08:08.381-0400
 index: y

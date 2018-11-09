@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 moreHelpPaths: /content/help/en/campaign/standard/start/morehelp/marketing-plans;/content/help/en/campaign/standard/start/morehelp/marketing-plans
 navTitle: Marketing activities
 publishexternaldate: 2018-09-07T15 08 27.075-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/start/using/marketing-activities.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/start/using/marketing-activities.html
 sha1: 122abcfe3983f608f1ec9ca618983628dc3fea6c
 topicBrowsingSortDate: 2018-09-07T15:08:27.075-0400
 index: y

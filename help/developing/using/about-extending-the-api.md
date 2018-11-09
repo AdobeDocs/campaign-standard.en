@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About extending the API
 publishexternaldate: 2018-09-07T14 56 12.864-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/developing/using/about-extending-the-api.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/about-extending-the-api.html
 sha1: dac492b1dc0ca83a7886572b1a8b9916fa4f8d67
 topicBrowsingSortDate: 2018-09-07T14:56:12.864-0400
 index: y

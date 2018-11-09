@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Managing incoming SMS
 publishexternaldate: 2018-09-07T15 11 50.458-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/channels/using/managing-incoming-sms.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/managing-incoming-sms.html
 sha1: 4f5790a80817c15afb7110f2455ebb14cbf0898f
 topicBrowsingSortDate: 2018-09-07T15:11:50.458-0400
 index: y

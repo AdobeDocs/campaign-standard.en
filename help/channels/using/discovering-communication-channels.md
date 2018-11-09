@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Discovering communication channels
 publishexternaldate: 2018-09-07T15 11 23.247-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/channels/using/discovering-communication-channels.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/discovering-communication-channels.html
 sha1: adf8bf7b155cf75b737b81e49e12146b2e8357f0
 topicBrowsingSortDate: 2018-09-07T15:11:23.247-0400
 index: y

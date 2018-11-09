@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About targeting activities
 publishexternaldate: 2018-09-07T14 50 03.014-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/about-targeting-activities.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/about-targeting-activities.html
 sha1: 6754a87abef9999a32ac6f92a370a62cf2dd4d90
 topicBrowsingSortDate: 2018-09-07T14:50:03.014-0400
 index: y

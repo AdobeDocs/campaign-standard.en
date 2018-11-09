@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Designing a landing page
 publishexternaldate: 2018-09-07T15 12 35.071-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/channels/using/designing-a-landing-page.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/designing-a-landing-page.html
 sha1: 2d96dcc081e4e3ac7b9c5180dd7dbe5c9b502d2d
 topicBrowsingSortDate: 2018-09-07T15:12:35.071-0400
 index: y

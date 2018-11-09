@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About direct mail
 publishexternaldate: 2018-09-07T15 12 23.625-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/channels/using/about-direct-mail.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/about-direct-mail.html
 sha1: 8d10168a9b9b27291137519a074692688653d8fa
 topicBrowsingSortDate: 2018-09-07T15:12:23.625-0400
 index: y

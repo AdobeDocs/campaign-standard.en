@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Hot clicks
 publishexternaldate: 2018-09-07T15 08 38.537-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/reporting/using/hot-clicks.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/hot-clicks.html
 sha1: e0179556de5124f6a6f901fdf46b82226924fc4a
 topicBrowsingSortDate: 2018-09-07T15:08:38.537-0400
 index: y

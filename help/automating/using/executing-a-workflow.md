@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Executing a workflow
 publishexternaldate: 2018-09-07T14 49 16.581-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/executing-a-workflow.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/executing-a-workflow.html
 sha1: bd85ab2b6b17628bc27f19e046cb9103d0c66764
 topicBrowsingSortDate: 2018-09-07T14:49:16.581-0400
 index: y

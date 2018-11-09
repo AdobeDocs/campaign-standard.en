@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About Administrating Adobe Campaign
 publishexternaldate: 2018-09-07T14 40 01.005-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/administration/using/about-administrating-adobe-campaign.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/about-administrating-adobe-campaign.html
 sha1: 49133fba8576ae741745f3e4f83c6635309a3e3f
 topicBrowsingSortDate: 2018-09-07T14:40:01.005-0400
 index: y

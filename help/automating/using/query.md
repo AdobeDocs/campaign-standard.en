@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 moreHelpPaths: /content/help/en/campaign/standard/automating/morehelp/targeting-activities;/content/help/en/campaign/standard/automating/morehelp/targeting-activities
 navTitle: Query
 publishexternaldate: 2018-09-07T14 50 42.905-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/query.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/query.html
 sha1: d2de459f48254a02587c32ac62f253a38d5b63eb
 topicBrowsingSortDate: 2018-09-07T14:50:42.905-0400
 index: y

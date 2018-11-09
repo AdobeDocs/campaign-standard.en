@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Creating a custom profile dimension
 publishexternaldate: 2018-09-07T15 08 56.017-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/reporting/using/creating-a-custom-profile-dimension.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/creating-a-custom-profile-dimension.html
 sha1: a2429656382eb0763c19bbd912a493291f8ed561
 topicBrowsingSortDate: 2018-09-07T15:08:56.017-0400
 index: y

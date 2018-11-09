@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About emails
 publishexternaldate: 2018-09-07T15 11 35.309-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/channels/using/about-emails.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/about-emails.html
 sha1: 06b3febbd41d7417a53e08d1dfce4a1ff43b29f9
 topicBrowsingSortDate: 2018-09-07T15:11:35.309-0400
 index: y

@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Compatible browsers
 publishexternaldate: 2018-09-07T15 08 08.966-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/start/using/compatible-browsers.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/start/using/compatible-browsers.html
 sha1: 93875daabd2b150a4b516d9bd598c811020a6d91
 topicBrowsingSortDate: 2018-09-07T15:08:08.966-0400
 index: y

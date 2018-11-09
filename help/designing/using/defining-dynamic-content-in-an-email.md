@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Defining dynamic content in an email
 publishexternaldate: 2018-09-07T15 05 04.786-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/designing/using/defining-dynamic-content-in-an-email.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/defining-dynamic-content-in-an-email.html
 sha1: 6bd8434652f20ea75d057a76d1231d3ea7cfc222
 topicBrowsingSortDate: 2018-09-07T15:05:04.786-0400
 index: y

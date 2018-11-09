@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About Campaign integrations
 publishexternaldate: 2018-09-07T14 57 02.864-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/integrating/using/about-campaign-integrations.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/about-campaign-integrations.html
 sha1: 8bd1f598863288727256712a39715484aa674a12
 topicBrowsingSortDate: 2018-09-07T14:57:02.864-0400
 index: y

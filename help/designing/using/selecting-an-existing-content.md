@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Selecting an existing content
 publishexternaldate: 2018-09-07T14 53 55.864-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/designing/using/selecting-an-existing-content.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/selecting-an-existing-content.html
 sha1: e2aaa4ef5a20271edd1735bc82cecdd98340b1b6
 topicBrowsingSortDate: 2018-09-07T14:53:55.864-0400
 index: y

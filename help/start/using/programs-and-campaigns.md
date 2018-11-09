@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 moreHelpPaths: /content/help/en/campaign/standard/start/morehelp/marketing-plans;/content/help/en/campaign/standard/start/morehelp/marketing-plans
 navTitle: Programs and campaigns
 publishexternaldate: 2018-09-07T15 08 19.981-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/start/using/programs-and-campaigns.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/start/using/programs-and-campaigns.html
 sha1: 83a5d66d7c5c6f801c19cbfa00def9569fb6c0b6
 topicBrowsingSortDate: 2018-09-07T15:08:19.981-0400
 index: y

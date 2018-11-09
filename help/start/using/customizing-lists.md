@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Customizing lists
 publishexternaldate: 2018-09-07T15 08 14.158-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/start/using/customizing-lists.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/start/using/customizing-lists.html
 sha1: a9fbf193450b5405ba63450fb694ee3c3695b5ff
 topicBrowsingSortDate: 2018-09-07T15:08:14.158-0400
 index: y

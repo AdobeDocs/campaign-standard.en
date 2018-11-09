@@ -34,7 +34,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 moreHelpPaths: /content/help/en/campaign/standard/designing/morehelp/personalizing-content;/content/help/en/campaign/standard/designing/morehelp/personalizing-content
 navTitle: Personalizing the sender
 publishexternaldate: 2018-09-07T15 01 15.134-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/designing/using/personalizing-the-sender.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/personalizing-the-sender.html
 sha1: 5ff78a8d8f72ef0e1e1196ed76dcf434638809df
 topicBrowsingSortDate: 2018-09-07T15:01:15.134-0400
 index: y

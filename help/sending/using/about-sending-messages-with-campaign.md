@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About sending messages with Campaign
 publishexternaldate: 2018-09-07T15 11 07.518-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/sending/using/about-sending-messages-with-campaign.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/sending/using/about-sending-messages-with-campaign.html
 sha1: 6de84a44855d67179761487721d7e9edd7589f15
 topicBrowsingSortDate: 2018-09-07T15:11:07.518-0400
 index: y

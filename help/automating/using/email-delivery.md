@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Email delivery
 publishexternaldate: 2018-09-07T15 04 10.009-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/email-delivery.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/email-delivery.html
 sha1: a8b77b5847b8c5e7166f0a8fb3a002abcb54b9c6
 topicBrowsingSortDate: 2018-09-07T15:04:10.009-0400
 index: y

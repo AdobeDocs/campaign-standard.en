@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Monitoring and tracking
 publishexternaldate: 2018-09-07T15 07 26.249-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/start/using/monitoring-and-tracking.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/start/using/monitoring-and-tracking.html
 sha1: 582654737658fb3c0bb0bee59bb262ece0373845
 topicBrowsingSortDate: 2018-09-07T15:07:26.249-0400
 index: y

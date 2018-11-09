@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Creating a multilingual template
 publishexternaldate: 2018-09-07T15 08 46.399-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/start/using/creating-a-multilingual-template.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/start/using/creating-a-multilingual-template.html
 sha1: 2f2a0e2012d8ff0b76a5a338ecfdb9785e89a324
 topicBrowsingSortDate: 2018-09-07T15:08:46.399-0400
 index: y

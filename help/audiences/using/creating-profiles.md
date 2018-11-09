@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Creating profiles
 publishexternaldate: 2018-09-07T14 42 52.588-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/audiences/using/creating-profiles.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/audiences/using/creating-profiles.html
 sha1: c81cb50c21a69c8ea3d3f6e842b81bfc4da7b2bf
 topicBrowsingSortDate: 2018-09-07T14:42:52.588-0400
 index: y

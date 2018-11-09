@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 moreHelpPaths: /content/help/en/campaign/standard/automating/morehelp/workflow-general-operation;/content/help/en/campaign/standard/automating/morehelp/workflow-general-operation
 navTitle: Importing data
 publishexternaldate: 2018-09-07T14 47 30.532-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/importing-data.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/importing-data.html
 sha1: 8c740e4c8f63a06fb4cca14d71dea8feb5e3e12d
 topicBrowsingSortDate: 2018-09-07T14:47:30.532-0400
 index: y

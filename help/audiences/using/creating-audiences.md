@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Creating audiences
 publishexternaldate: 2018-09-07T14 46 45.497-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/audiences/using/creating-audiences.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/audiences/using/creating-audiences.html
 sha1: 19e50609209847fc4e18e7ea67252ba94fb17f7b
 topicBrowsingSortDate: 2018-09-07T14:46:45.497-0400
 index: y

@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Exclusion
 publishexternaldate: 2018-09-07T14 53 41.677-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/exclusion.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/exclusion.html
 sha1: bbe2187ae2a2e02925db90559fb2cc5ee728a1e5
 topicBrowsingSortDate: 2018-09-07T14:53:41.677-0400
 index: y

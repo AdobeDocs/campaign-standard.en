@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About typology rules
 publishexternaldate: 2018-09-07T14 58 33.940-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/administration/using/about-typology-rules.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/about-typology-rules.html
 sha1: 631b65b8c47d05d5fcb5e54df5a4e3a4d3df6325
 topicBrowsingSortDate: 2018-09-07T14:58:33.940-0400
 index: y

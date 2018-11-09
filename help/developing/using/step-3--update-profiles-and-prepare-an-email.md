@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: "Step 3: Update profiles and prepare an email"
 publishexternaldate: 2018-09-07T15 01 07.667-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/developing/using/step-3--update-profiles-and-prepare-an-email.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/step-3--update-profiles-and-prepare-an-email.html
 sha1: 3b4b798840bca43b377bbb2e841651b73ee36a60
 topicBrowsingSortDate: 2018-09-07T15:01:07.667-0400
 index: y

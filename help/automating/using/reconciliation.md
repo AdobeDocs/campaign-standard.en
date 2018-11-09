@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Reconciliation
 publishexternaldate: 2018-09-07T15 08 31.393-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/reconciliation.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/reconciliation.html
 sha1: b40c847fd99d7fee9b52d72842e871bc9a1a2302
 topicBrowsingSortDate: 2018-09-07T15:08:31.393-0400
 index: y

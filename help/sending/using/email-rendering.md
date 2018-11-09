@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Email rendering
 publishexternaldate: 2018-09-07T15 11 17.306-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/sending/using/email-rendering.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/sending/using/email-rendering.html
 sha1: b3219077d98447e1fac54d1da199c12740b8c353
 topicBrowsingSortDate: 2018-09-07T15:11:17.306-0400
 index: y

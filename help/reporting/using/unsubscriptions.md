@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Unsubscriptions
 publishexternaldate: 2018-09-07T15 08 34.032-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/reporting/using/unsubscriptions.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/unsubscriptions.html
 sha1: a0b2bcb8d09c72f50a587496bf5c5db42c0dd6dc
 topicBrowsingSortDate: 2018-09-07T15:08:34.032-0400
 index: y

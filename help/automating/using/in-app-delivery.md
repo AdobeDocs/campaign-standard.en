@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: In-App delivery
 publishexternaldate: 2018-09-07T15 07 26.572-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/in-app-delivery.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/in-app-delivery.html
 sha1: f439b573df331c8fa607274912c938d0b341ccc8
 topicBrowsingSortDate: 2018-09-07T15:07:26.572-0400
 index: y

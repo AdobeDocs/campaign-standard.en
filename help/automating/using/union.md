@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Union
 publishexternaldate: 2018-09-07T14 52 27.418-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/union.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/union.html
 sha1: 0f7546d3418a3c20a976f059cac3ffb9cfc3b85d
 topicBrowsingSortDate: 2018-09-07T14:52:27.418-0400
 index: y

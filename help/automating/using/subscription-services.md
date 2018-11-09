@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Subscription Services
 publishexternaldate: 2018-09-07T15 08 42.387-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/subscription-services.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/subscription-services.html
 sha1: 511460bb711e27aea6616a89a6bd3fcfcf72ec0a
 topicBrowsingSortDate: 2018-09-07T15:08:42.387-0400
 index: y

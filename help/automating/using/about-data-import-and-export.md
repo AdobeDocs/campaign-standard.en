@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About data import and export
 publishexternaldate: 2018-09-07T15 09 01.132-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/about-data-import-and-export.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/about-data-import-and-export.html
 sha1: 52ecd551936e0ea496656e846ec7d3e222142eda
 topicBrowsingSortDate: 2018-09-07T15:09:01.132-0400
 index: y

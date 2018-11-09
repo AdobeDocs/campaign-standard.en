@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: "Step 2: Extend the test profile"
 publishexternaldate: 2018-09-07T15 00 19.622-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/developing/using/step-2--extend-the-test-profile.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/step-2--extend-the-test-profile.html
 sha1: c3b4522fd73bb06bdff71410380bc73488bb151a
 topicBrowsingSortDate: 2018-09-07T15:00:19.622-0400
 index: y

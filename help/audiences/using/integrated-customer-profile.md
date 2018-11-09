@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Integrated customer profile
 publishexternaldate: 2018-09-07T14 44 22.524-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/audiences/using/integrated-customer-profile.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/audiences/using/integrated-customer-profile.html
 sha1: 985dabb0740fc2d0734f5f18c7e9bbfece092aa7
 topicBrowsingSortDate: 2018-09-07T14:44:22.524-0400
 index: y
