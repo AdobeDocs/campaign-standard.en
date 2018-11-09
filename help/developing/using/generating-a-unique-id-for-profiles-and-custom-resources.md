@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Generating a unique ID for profiles and custom resources
 publishexternaldate: 2018-09-07T14 55 37.589-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/developing/using/generating-a-unique-id-for-profiles-and-custom-resources.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/generating-a-unique-id-for-profiles-and-custom-resources.html
 sha1: 0695d42dec1f10fed7bee7f4ac09ca352cd04b6d
 topicBrowsingSortDate: 2018-09-07T14:55:37.589-0400
 index: y

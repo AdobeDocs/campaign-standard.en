@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Monitoring data model changes
 publishexternaldate: 2018-09-07T14 49 38.416-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/developing/using/monitoring-data-model-changes.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/monitoring-data-model-changes.html
 sha1: 25ceb310c2d4c6dfff627b9a8e85717a82407aa6
 topicBrowsingSortDate: 2018-09-07T14:49:38.416-0400
 index: y

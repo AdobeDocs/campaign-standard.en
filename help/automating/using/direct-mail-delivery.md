@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Direct mail delivery
 publishexternaldate: 2018-09-07T15 07 12.705-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/direct-mail-delivery.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/direct-mail-delivery.html
 sha1: 0090ee020241d0a42dd32c9ad13adbff835acc6e
 topicBrowsingSortDate: 2018-09-07T15:07:12.705-0400
 index: y

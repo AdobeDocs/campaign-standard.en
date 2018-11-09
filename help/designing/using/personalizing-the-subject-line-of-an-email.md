@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Personalizing the subject line of an email
 publishexternaldate: 2018-09-07T15 02 16.550-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/designing/using/personalizing-the-subject-line-of-an-email.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/personalizing-the-subject-line-of-an-email.html
 sha1: 026d7e797749aab50e8eaa4098f482eb8c7f9ca5
 topicBrowsingSortDate: 2018-09-07T15:02:16.550-0400
 index: y

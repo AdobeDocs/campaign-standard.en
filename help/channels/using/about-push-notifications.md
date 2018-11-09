@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About push notifications
 publishexternaldate: 2018-09-07T15 11 51.930-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/channels/using/about-push-notifications.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/about-push-notifications.html
 sha1: 1d79377a8c86fc828d23f6f5a9f3e0eb5021399d
 topicBrowsingSortDate: 2018-09-07T15:11:51.930-0400
 index: y

@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Creating an SMS message
 publishexternaldate: 2018-09-07T15 11 47.971-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/channels/using/creating-an-sms-message.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/creating-an-sms-message.html
 sha1: 5b42dd0e84049c0ebc0fbf47ab0e595dcebafc39
 topicBrowsingSortDate: 2018-09-07T15:11:47.971-0400
 index: y
@@ -102,7 +102,7 @@ Once the sending is finished, you can start measuring the impact of your message
 
 **Related topics:**
 
-* [About SMS and push content edition](JMA_sect1_ndh_dg4_h2b)
+* [About SMS and push content edition](JMA_sect1_ndh_dg4_h2b.md)
 * [Managing templates](../../start/using/about-templates.md)
 * [Create an SMS delivery](https://docs.campaign.adobe.com/doc/standard/en/Videos/creating_sms.mp4) video
 

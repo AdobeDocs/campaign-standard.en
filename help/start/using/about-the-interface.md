@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About the interface
 publishexternaldate: 2018-09-07T15 07 50.757-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/start/using/about-the-interface.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/start/using/about-the-interface.html
 sha1: 36ea87170d2f8a3944b9b1ac76c7df3ee97a7d4a
 topicBrowsingSortDate: 2018-09-07T15:07:50.757-0400
 index: y

@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Managing landing page structure and style
 publishexternaldate: 2018-09-07T14 51 18.148-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/designing/using/managing-landing-page-structure-and-style.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/managing-landing-page-structure-and-style.html
 sha1: ab28d0a744b151141675f3eb228d475eaa528410
 topicBrowsingSortDate: 2018-09-07T14:51:18.148-0400
 index: y

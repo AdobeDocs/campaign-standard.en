@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Load file
 publishexternaldate: 2018-09-07T15 08 18.318-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/load-file.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/load-file.html
 sha1: f2e33a721765ab8f332b8d7360b695570bb79e1a
 topicBrowsingSortDate: 2018-09-07T15:08:18.318-0400
 index: y

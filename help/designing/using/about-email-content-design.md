@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 moreHelpPaths: /content/help/en/campaign/standard/designing/morehelp/editing-email-content;/content/help/en/campaign/standard/designing/morehelp/editing-email-content
 navTitle: About email content design
 publishexternaldate: 2018-09-07T14 46 12.475-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/designing/using/about-email-content-design.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/about-email-content-design.html
 sha1: de452a35ba9ccf719448a11025d003525f9bae6d
 topicBrowsingSortDate: 2018-09-07T14:46:12.475-0400
 index: y

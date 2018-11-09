@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Fork
 publishexternaldate: 2018-09-07T14 58 55.478-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/fork.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/fork.html
 sha1: 18b63afffc35bae5bf1483dba0e1edded381f84a
 topicBrowsingSortDate: 2018-09-07T14:58:55.478-0400
 index: y

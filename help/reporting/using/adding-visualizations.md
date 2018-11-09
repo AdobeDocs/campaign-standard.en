@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Adding visualizations
 publishexternaldate: 2018-09-07T15 08 47.554-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/reporting/using/adding-visualizations.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/adding-visualizations.html
 sha1: 53cf5f3edce30171c31b4a5f12920f7a14d4d28d
 topicBrowsingSortDate: 2018-09-07T15:08:47.554-0400
 index: y

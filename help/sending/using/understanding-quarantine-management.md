@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Understanding quarantine management
 publishexternaldate: 2018-09-07T15 11 43.427-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/sending/using/understanding-quarantine-management.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/sending/using/understanding-quarantine-management.html
 sha1: fe1192433015d6d75cd42c9fd0353fbca39de364
 topicBrowsingSortDate: 2018-09-07T15:11:43.427-0400
 index: y

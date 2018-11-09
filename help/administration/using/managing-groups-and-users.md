@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Managing groups and users
 publishexternaldate: 2018-09-07T14 41 35.914-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/administration/using/managing-groups-and-users.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/managing-groups-and-users.html
 sha1: 42aca05a64359b971a2527aa0cd53a2fc82969c6
 topicBrowsingSortDate: 2018-09-07T14:41:35.914-0400
 index: y

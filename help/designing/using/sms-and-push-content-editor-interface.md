@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 moreHelpPaths: /content/help/en/campaign/standard/designing/morehelp/editing-sms-and-push-content;/content/help/en/campaign/standard/designing/morehelp/editing-sms-and-push-content
 navTitle: SMS and push content editor interface
 publishexternaldate: 2018-09-07T14 53 19.499-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/designing/using/sms-and-push-content-editor-interface.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/sms-and-push-content-editor-interface.html
 sha1: 1b4487508c313f49d089171000155a70c98956c4
 topicBrowsingSortDate: 2018-09-07T14:53:19.499-0400
 index: y

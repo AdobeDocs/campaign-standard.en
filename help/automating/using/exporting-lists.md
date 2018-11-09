@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Exporting lists
 publishexternaldate: 2018-09-07T15 09 12.066-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/exporting-lists.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/exporting-lists.html
 sha1: cd9a3ad44b6479b5110353005d364ded2916a086
 topicBrowsingSortDate: 2018-09-07T15:09:12.066-0400
 index: y

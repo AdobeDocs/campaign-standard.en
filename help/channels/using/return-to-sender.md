@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Return to sender
 publishexternaldate: 2018-09-07T15 12 24.548-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/channels/using/return-to-sender.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/return-to-sender.html
 sha1: fe25f1f339394d920ea4addd3d9541256281bfa8
 topicBrowsingSortDate: 2018-09-07T15:12:24.548-0400
 index: y

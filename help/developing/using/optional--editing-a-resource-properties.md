@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: "Optional: Editing a resource properties"
 publishexternaldate: 2018-09-07T14 54 36.509-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/developing/using/optional--editing-a-resource-properties.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/optional--editing-a-resource-properties.html
 sha1: 108c4235cb9789d08dcd5ecb272a5892b08f4329
 topicBrowsingSortDate: 2018-09-07T14:54:36.509-0400
 index: y

@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Push notification delivery
 publishexternaldate: 2018-09-07T15 06 34.676-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/push-notification-delivery.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/push-notification-delivery.html
 sha1: c15f6b904465560237517f7d08c2bdadb38e04d0
 topicBrowsingSortDate: 2018-09-07T15:06:34.676-0400
 index: y

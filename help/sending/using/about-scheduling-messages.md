@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About scheduling messages
 publishexternaldate: 2018-09-07T15 11 19.254-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/sending/using/about-scheduling-messages.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/sending/using/about-scheduling-messages.html
 sha1: c16a96e799fdeb7eea8690824125eac01d8d53a1
 topicBrowsingSortDate: 2018-09-07T15:11:19.254-0400
 index: y

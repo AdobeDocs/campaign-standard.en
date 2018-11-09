@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Promoting a service
 publishexternaldate: 2018-09-07T14 51 19.200-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/audiences/using/promoting-a-service.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/audiences/using/promoting-a-service.html
 sha1: ad92a171ef12245dc8e5cbb7cb4068cfa915b89f
 topicBrowsingSortDate: 2018-09-07T14:51:19.200-0400
 index: y

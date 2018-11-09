@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Complaints
 publishexternaldate: 2018-09-07T15 08 08.482-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/reporting/using/complaints.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/complaints.html
 sha1: 114ca00e0d2cf3d4f05c33a3288db1d7cc2a4241
 topicBrowsingSortDate: 2018-09-07T15:08:08.482-0400
 index: y

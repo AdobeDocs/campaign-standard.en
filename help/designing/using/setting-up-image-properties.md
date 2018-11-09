@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Setting up image properties
 publishexternaldate: 2018-09-07T14 56 43.567-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/designing/using/setting-up-image-properties.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/setting-up-image-properties.html
 sha1: 98ebee5b51ca9e2867360050417b3cdb151a25bd
 topicBrowsingSortDate: 2018-09-07T14:56:43.567-0400
 index: y

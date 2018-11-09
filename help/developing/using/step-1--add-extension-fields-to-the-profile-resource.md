@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: "Step 1: Add extension fields to the profile resource"
 publishexternaldate: 2018-09-07T14 56 40.245-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/developing/using/step-1--add-extension-fields-to-the-profile-resource.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/step-1--add-extension-fields-to-the-profile-resource.html
 sha1: 6f4fcee36da3befa444569a111732bd2a531e663
 topicBrowsingSortDate: 2018-09-07T14:56:40.245-0400
 index: y

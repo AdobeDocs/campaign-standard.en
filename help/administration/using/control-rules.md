@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Control rules
 publishexternaldate: 2018-09-07T15 01 15.354-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/administration/using/control-rules.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/control-rules.html
 sha1: ffeb400307a6fe7991d5fb13e02193d0aa3a2b64
 topicBrowsingSortDate: 2018-09-07T15:01:15.354-0400
 index: y

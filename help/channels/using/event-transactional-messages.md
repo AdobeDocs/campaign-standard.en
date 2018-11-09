@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Event transactional messages
 publishexternaldate: 2018-09-07T15 12 29.640-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/channels/using/event-transactional-messages.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/event-transactional-messages.html
 sha1: cdec877fce9166c34bf6c43df3325a3f84d833d8
 topicBrowsingSortDate: 2018-09-07T15:12:29.640-0400
 index: y

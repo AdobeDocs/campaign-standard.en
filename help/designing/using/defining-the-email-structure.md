@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Defining the email structure
 publishexternaldate: 2018-09-07T14 47 52.732-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/designing/using/defining-the-email-structure.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/defining-the-email-structure.html
 sha1: c215f9a72809e4c5b1a3ec2b7c523d3b99de2e08
 topicBrowsingSortDate: 2018-09-07T14:47:52.732-0400
 index: y

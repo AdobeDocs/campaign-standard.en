@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Sending an In-App message
 publishexternaldate: 2018-09-07T15 12 18.087-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/channels/using/sending-an-in-app-message.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/sending-an-in-app-message.html
 sha1: d2b81f3f5d49eb54268933c094142ae6f4a4423d
 topicBrowsingSortDate: 2018-09-07T15:12:18.087-0400
 index: y

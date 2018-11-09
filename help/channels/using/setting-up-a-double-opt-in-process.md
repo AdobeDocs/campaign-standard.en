@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Setting up a double opt-in process
 publishexternaldate: 2018-09-07T15 12 37.979-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/channels/using/setting-up-a-double-opt-in-process.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/setting-up-a-double-opt-in-process.html
 sha1: 46c833992b5bbc28304fbc542e3b404d76226bd9
 topicBrowsingSortDate: 2018-09-07T15:12:37.979-0400
 index: y

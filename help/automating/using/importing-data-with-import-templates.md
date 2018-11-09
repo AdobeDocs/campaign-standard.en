@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Importing data with import templates
 publishexternaldate: 2018-09-07T15 09 03.228-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/importing-data-with-import-templates.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/importing-data-with-import-templates.html
 sha1: f4c7f45999b7633ce548af72b8586215ece1489a
 topicBrowsingSortDate: 2018-09-07T15:09:03.228-0400
 index: y

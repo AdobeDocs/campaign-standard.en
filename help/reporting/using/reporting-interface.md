@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Reporting interface
 publishexternaldate: 2018-09-07T15 01 07.523-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/reporting/using/reporting-interface.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/reporting-interface.html
 sha1: 8ccdf139a9be5ba1099f3f72d337d84028f6446b
 topicBrowsingSortDate: 2018-09-07T15:01:07.523-0400
 index: y

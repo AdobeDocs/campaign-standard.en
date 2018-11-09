@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About data and processes
 publishexternaldate: 2018-09-07T14 42 34.143-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/about-data-and-processes.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/about-data-and-processes.html
 sha1: 10508a5c73ffc6e6fb52d57ac562a14bf1f9c5d7
 topicBrowsingSortDate: 2018-09-07T14:42:34.143-0400
 index: y

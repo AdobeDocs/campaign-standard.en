@@ -1,12 +1,12 @@
 ---
-title: creating-campaigns-and-emails-in-experience-manager-6_3
-seo-title: creating-campaigns-and-emails-in-experience-manager-6_3
+title: creating-campaigns-and-emails-in-experience-manager-6-3
+seo-title: creating-campaigns-and-emails-in-experience-manager-6-3
 description: null
 seo-description: null
 page-status-flag: de-activated
 uuid: 8499c639-fd3f-4079-8fe4-47ccb07988cf
 content-encoding: ISO-8859-1
-aemsrcnodepath: /content/help/en/campaign/standard/integrating/using/creating-campaigns-and-emails-in-experience-manager-6_3
+aemsrcnodepath: /content/help/en/campaign/standard/integrating/using/creating-campaigns-and-emails-in-experience-manager-6-3
 contentOwner: sauviat
 cq-designpath: /etc/designs/help
 cq-lastmodified: 2018-03-26T06 44 27.145-0400
@@ -29,5 +29,5 @@ internal: n
 snippet: y
 ---
 
-# creating-campaigns-and-emails-in-experience-manager-6_3
+# creating-campaigns-and-emails-in-experience-manager-6-3
 

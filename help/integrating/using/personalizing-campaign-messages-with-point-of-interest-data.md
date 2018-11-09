@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Personalizing Campaign messages with Point of Interest data
 publishexternaldate: 2018-09-07T15 08 08.715-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/integrating/using/personalizing-campaign-messages-with-point-of-interest-data.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/personalizing-campaign-messages-with-point-of-interest-data.html
 sha1: eedd3468d073e2243db33533edfbf63b953bab5a
 topicBrowsingSortDate: 2018-09-07T15:08:08.715-0400
 index: y

@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Example of direct mail in a workflow
 publishexternaldate: 2018-09-07T15 12 27.979-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/channels/using/example-of-direct-mail-in-a-workflow.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/example-of-direct-mail-in-a-workflow.html
 sha1: 0419b0dd0ed0592d439f6806c18cffa8ba4563c3
 topicBrowsingSortDate: 2018-09-07T15:12:27.979-0400
 index: y

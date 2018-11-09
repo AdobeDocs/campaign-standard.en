@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Building a workflow
 publishexternaldate: 2018-09-07T14 46 01.768-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/building-a-workflow.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/building-a-workflow.html
 sha1: 9e227d5ff7a667366bde262a7ed0f8b2b58f2f49
 topicBrowsingSortDate: 2018-09-07T14:46:01.768-0400
 index: y

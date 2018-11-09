@@ -36,7 +36,7 @@ lr-lastreplicatedby: vignes@adobe.com
 moreHelpPaths: /content/help/en/campaign/standard/rn/morehelp/campaign-standard-releases;/content/help/en/campaign/standard/rn/morehelp/campaign-standard-releases
 navTitle: Documentation Updates
 publishexternaldate: 2018-09-10T04 40 40.528-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/rn/using/documentation-updates.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/rn/using/documentation-updates.html
 publishinternaldate: 2018-09-10T04 40 40.528-0400
 publishinternalurl: https //helpx-internal.corp.adobe.com/content/help/en/campaign/standard/rn/using/documentation-updates.html
 sha1: 787bc223d242422a696d0ede1f78b611b2a2689c

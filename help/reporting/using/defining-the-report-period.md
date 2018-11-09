@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Defining the report period
 publishexternaldate: 2018-09-07T15 04 09.247-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/reporting/using/defining-the-report-period.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/defining-the-report-period.html
 sha1: 6051f446bc76d61ca767594ee567ca43e9ef4aab
 topicBrowsingSortDate: 2018-09-07T15:04:09.247-0400
 index: y

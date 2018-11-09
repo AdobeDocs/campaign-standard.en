@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Monitoring a delivery
 publishexternaldate: 2018-09-07T15 11 33.175-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/sending/using/monitoring-a-delivery.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/sending/using/monitoring-a-delivery.html
 sha1: 25b91922fb11aac7fd6c107ead5d51161f411b6c
 topicBrowsingSortDate: 2018-09-07T15:11:33.175-0400
 index: y

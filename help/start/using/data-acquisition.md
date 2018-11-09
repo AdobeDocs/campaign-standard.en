@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Data acquisition
 publishexternaldate: 2018-09-07T15 06 33.506-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/start/using/data-acquisition.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/start/using/data-acquisition.html
 sha1: 77988293b11791c43479b4a0812a50324c9d66c2
 topicBrowsingSortDate: 2018-09-07T15:06:33.506-0400
 index: y

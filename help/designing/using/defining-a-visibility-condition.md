@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Defining a visibility condition
 publishexternaldate: 2018-09-07T15 04 10.597-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/designing/using/defining-a-visibility-condition.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/defining-a-visibility-condition.html
 sha1: 1dfa69401a272a1b3a779c82cb5af5b549595367
 topicBrowsingSortDate: 2018-09-07T15:04:10.597-0400
 index: y

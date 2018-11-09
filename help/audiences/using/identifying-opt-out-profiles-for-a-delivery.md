@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Identifying opt-out profiles for a delivery
 publishexternaldate: 2018-09-07T14 53 54.673-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/audiences/using/identifying-opt-out-profiles-for-a-delivery.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/audiences/using/identifying-opt-out-profiles-for-a-delivery.html
 sha1: 1990454c4dcf60d648331753c9750fb917ca1a55
 topicBrowsingSortDate: 2018-09-07T14:53:54.673-0400
 index: y

@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About SMS and push content design
 publishexternaldate: 2018-09-07T14 52 36.608-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/designing/using/about-sms-and-push-content-design.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/about-sms-and-push-content-design.html
 sha1: 676695211c88a1389ebda1c8eb53b30d17631165
 topicBrowsingSortDate: 2018-09-07T14:52:36.608-0400
 index: y

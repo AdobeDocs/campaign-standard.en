@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: External accounts
 publishexternaldate: 2018-09-07T15 02 17.551-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/administration/using/external-accounts.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/external-accounts.html
 sha1: 8b3b1458c03ac8b8e04a339b23642bf2c2f17fa8
 topicBrowsingSortDate: 2018-09-07T15:02:17.551-0400
 index: y

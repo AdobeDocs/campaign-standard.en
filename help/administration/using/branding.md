@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Branding
 publishexternaldate: 2018-09-07T15 05 02.482-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/administration/using/branding.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/branding.html
 sha1: 1a4061c5d5dcd50b0677128970c82578cec5157f
 topicBrowsingSortDate: 2018-09-07T15:05:02.482-0400
 index: y

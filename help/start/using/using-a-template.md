@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Using a template
 publishexternaldate: 2018-09-07T15 08 51.327-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/start/using/using-a-template.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/start/using/using-a-template.html
 sha1: 8c8314b7c794d2246306c00a12e085a79325c44f
 topicBrowsingSortDate: 2018-09-07T15:08:51.327-0400
 index: y

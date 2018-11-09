@@ -36,7 +36,7 @@ lr-lastreplicatedby: beneat@adobe.com
 moreHelpPaths: /content/help/en/campaign/standard/administration/morehelp/configuring-channels;/content/help/en/campaign/standard/administration/morehelp/configuring-channels
 navTitle: Configuring a mobile application using SDK V4
 publishexternaldate: 2018-09-20T09 47 20.094-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/administration/using/configuring-a-mobile-application-using-sdk-v4.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/configuring-a-mobile-application-using-sdk-v4.html
 publishinternaldate: 2018-09-20T09 47 20.094-0400
 publishinternalurl: https //helpx-internal.corp.adobe.com/content/help/en/campaign/standard/administration/using/configuring-a-mobile-application-using-sdk-v4.html
 sha1: f89e35b98739b9bc4b0f5045c03d78efffcb2a57

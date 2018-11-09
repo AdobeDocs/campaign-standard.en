@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: How-to videos
 publishexternaldate: 2018-09-07T15 08 59.034-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/start/using/how-to-videos.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/start/using/how-to-videos.html
 sha1: 761c85882b0d56845c2d2d76b76e747d3a317ccb
 topicBrowsingSortDate: 2018-09-07T15:08:59.034-0400
 index: y

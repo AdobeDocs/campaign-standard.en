@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About channel activities
 publishexternaldate: 2018-09-07T15 03 20.483-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/about-channel-activities.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/about-channel-activities.html
 sha1: 12cd432834ae27cda3566014102eb6f2d65e24b2
 topicBrowsingSortDate: 2018-09-07T15:03:20.483-0400
 index: y

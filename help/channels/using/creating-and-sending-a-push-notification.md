@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Creating and sending a push notification
 publishexternaldate: 2018-09-07T15 11 53.073-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/channels/using/creating-and-sending-a-push-notification.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/creating-and-sending-a-push-notification.html
 sha1: e17a2a30ef28ad9be2bf4c091fec1382823ddeb7
 topicBrowsingSortDate: 2018-09-07T15:11:53.073-0400
 index: y
@@ -100,7 +100,7 @@ The steps for creating a push notification with Adobe Campaign are:
 
 **Related topic:**
 
-[About SMS and push content edition](JMA_sect1_ndh_dg4_h2b)
+[About SMS and push content edition](JMA_sect1_ndh_dg4_h2b.md)
 
 ## Sending the notification {#sending-the-notification}
 

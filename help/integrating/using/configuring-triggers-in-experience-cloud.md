@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Configuring Triggers in Experience Cloud
 publishexternaldate: 2018-09-07T15 08 18.897-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/integrating/using/configuring-triggers-in-experience-cloud.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/configuring-triggers-in-experience-cloud.html
 sha1: 8fb482ef650c70718fae1bb8d657567103fce3fd
 topicBrowsingSortDate: 2018-09-07T15:08:18.897-0400
 index: y

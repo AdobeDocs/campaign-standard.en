@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Using workflow data
 publishexternaldate: 2018-09-07T14 48 28.246-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/using-workflow-data.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/using-workflow-data.html
 sha1: 675d601939a08a648eed685348b400596466bb4c
 topicBrowsingSortDate: 2018-09-07T14:48:28.246-0400
 index: y

@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Creating an In-App message
 publishexternaldate: 2018-09-07T15 12 00.267-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/channels/using/creating-an-in-app-message.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/creating-an-in-app-message.html
 sha1: a0993f607ff42864929b748f50bb20ef8c679c6e
 topicBrowsingSortDate: 2018-09-07T15:12:00.267-0400
 index: y

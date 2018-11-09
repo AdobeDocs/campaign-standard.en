@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Landing page content editor interface
 publishexternaldate: 2018-09-07T14 50 29.115-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/designing/using/landing-page-content-editor-interface.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/landing-page-content-editor-interface.html
 sha1: 1c028fe7fe825c1a660e9ff557b394bfbb12cf27
 topicBrowsingSortDate: 2018-09-07T14:50:29.115-0400
 index: y

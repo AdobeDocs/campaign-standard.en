@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Selecting an audience in a message
 publishexternaldate: 2018-09-07T14 49 08.000-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/audiences/using/selecting-an-audience-in-a-message.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/audiences/using/selecting-an-audience-in-a-message.html
 sha1: ff702939cffbef8976a36c79e7b8eab82a5b3e30
 topicBrowsingSortDate: 2018-09-07T14:49:08.000-0400
 index: y

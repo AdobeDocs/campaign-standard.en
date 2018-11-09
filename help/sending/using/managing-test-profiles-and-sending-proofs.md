@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Managing test profiles and sending proofs
 publishexternaldate: 2018-09-07T15 11 14.767-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/sending/using/managing-test-profiles-and-sending-proofs.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/sending/using/managing-test-profiles-and-sending-proofs.html
 sha1: 74a4a539d205602ccba838ae9810a4adacf4e26b
 topicBrowsingSortDate: 2018-09-07T15:11:14.767-0400
 index: y

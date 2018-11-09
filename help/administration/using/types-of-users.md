@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Types of users
 publishexternaldate: 2018-09-07T14 40 48.414-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/administration/using/types-of-users.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/types-of-users.html
 sha1: bf0aded5763a0c04a83981770baa290d9e4afa05
 topicBrowsingSortDate: 2018-09-07T14:40:48.414-0400
 index: y

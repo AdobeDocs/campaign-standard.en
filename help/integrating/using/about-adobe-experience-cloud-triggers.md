@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About Adobe Experience Cloud Triggers
 publishexternaldate: 2018-09-07T15 08 14.015-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/integrating/using/about-adobe-experience-cloud-triggers.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/about-adobe-experience-cloud-triggers.html
 sha1: 8fb02a4d9a234d12cbbc39862dbdb9a404ac6a08
 topicBrowsingSortDate: 2018-09-07T15:08:14.015-0400
 index: y

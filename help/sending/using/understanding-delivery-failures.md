@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Understanding delivery failures
 publishexternaldate: 2018-09-07T15 11 40.685-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/sending/using/understanding-delivery-failures.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/sending/using/understanding-delivery-failures.html
 sha1: 41543e47b158e8c0bb6d27d1311968dfd783a1bb
 topicBrowsingSortDate: 2018-09-07T15:11:40.685-0400
 index: y

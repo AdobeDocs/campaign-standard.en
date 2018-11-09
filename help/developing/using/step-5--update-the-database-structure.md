@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: "Step 5: Update the database structure"
 publishexternaldate: 2018-09-07T14 53 56.680-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/developing/using/step-5--update-the-database-structure.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/step-5--update-the-database-structure.html
 sha1: f29b5f45e29b35dba7a96f0473d93dc3f7b2105c
 topicBrowsingSortDate: 2018-09-07T14:53:56.680-0400
 index: y

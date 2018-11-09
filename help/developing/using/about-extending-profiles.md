@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About extending profiles
 publishexternaldate: 2018-09-07T14 58 46.870-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/developing/using/about-extending-profiles.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/about-extending-profiles.html
 sha1: dfff574fcf214e5ec1d694cfaf28c1e90723a849
 topicBrowsingSortDate: 2018-09-07T14:58:46.870-0400
 index: y

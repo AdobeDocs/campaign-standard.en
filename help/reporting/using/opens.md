@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Opens
 publishexternaldate: 2018-09-07T15 08 13.356-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/reporting/using/opens.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/opens.html
 sha1: 32e397b1fa59a75c491357d7fd25408f988512d0
 topicBrowsingSortDate: 2018-09-07T15:08:13.356-0400
 index: y

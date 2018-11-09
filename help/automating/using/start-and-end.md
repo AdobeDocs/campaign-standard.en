@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Start and end
 publishexternaldate: 2018-09-07T14 58 14.075-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/start-and-end.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/start-and-end.html
 sha1: cc6de12124d9ecc7fc205057aaa42337e5b48cd0
 topicBrowsingSortDate: 2018-09-07T14:58:14.075-0400
 index: y

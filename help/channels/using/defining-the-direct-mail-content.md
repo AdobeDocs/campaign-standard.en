@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Defining the direct mail content
 publishexternaldate: 2018-09-07T15 12 27.047-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/channels/using/defining-the-direct-mail-content.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/defining-the-direct-mail-content.html
 sha1: 41bfc14c3b88a6b0646fd28fd597749844105653
 topicBrowsingSortDate: 2018-09-07T15:12:27.047-0400
 index: y

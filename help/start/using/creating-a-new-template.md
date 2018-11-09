@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Creating a new template
 publishexternaldate: 2018-09-07T15 08 42.146-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/start/using/creating-a-new-template.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/start/using/creating-a-new-template.html
 sha1: eb5f1843d64446620d88de633bab2b4bcc95b115
 topicBrowsingSortDate: 2018-09-07T15:08:42.146-0400
 index: y

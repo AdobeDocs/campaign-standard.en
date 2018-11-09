@@ -36,7 +36,7 @@ lr-lastreplicatedby: vignes@adobe.com
 moreHelpPaths: /content/help/en/campaign/standard/rn/morehelp/campaign-standard-releases;/content/help/en/campaign/standard/rn/morehelp/campaign-standard-releases
 navTitle: Release Notes
 publishexternaldate: 2018-10-16T08 34 54.637-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/rn/using/release-notes.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/rn/using/release-notes.html
 publishinternaldate: 2018-10-16T08 34 54.637-0400
 publishinternalurl: https //helpx-internal.corp.adobe.com/content/help/en/campaign/standard/rn/using/release-notes.html
 sha1: a09574aefb9a939c1d59ff6e584c96ef70efd809

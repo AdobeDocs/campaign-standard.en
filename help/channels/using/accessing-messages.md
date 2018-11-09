@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Accessing messages
 publishexternaldate: 2018-09-07T15 11 29.517-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/channels/using/accessing-messages.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/accessing-messages.html
 sha1: 1be9092dd438ef094ab4c06d8f0eb5ce5b519c25
 topicBrowsingSortDate: 2018-09-07T15:11:29.517-0400
 index: y

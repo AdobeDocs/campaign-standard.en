@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Preparing the send
 publishexternaldate: 2018-09-07T15 11 12.629-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/sending/using/preparing-the-send.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/sending/using/preparing-the-send.html
 sha1: 13d43cde7214929b890e4e6f00e69676fd1a3c08
 topicBrowsingSortDate: 2018-09-07T15:11:12.629-0400
 index: y

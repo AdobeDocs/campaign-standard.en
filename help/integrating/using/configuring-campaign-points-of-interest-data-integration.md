@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Configuring Campaign-Points of Interest data integration
 publishexternaldate: 2018-09-07T15 08 00.347-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/integrating/using/configuring-campaign-points-of-interest-data-integration.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/configuring-campaign-points-of-interest-data-integration.html
 sha1: 8a8edebfbd041e8d5738705d1ba4bd93cc3651da
 topicBrowsingSortDate: 2018-09-07T15:08:00.347-0400
 index: y

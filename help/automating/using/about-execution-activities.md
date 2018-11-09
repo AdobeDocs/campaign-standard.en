@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About execution activities
 publishexternaldate: 2018-09-07T14 57 22.720-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/about-execution-activities.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/about-execution-activities.html
 sha1: b8f29b93ea3c9cf2eedfc0dd92b8596a76455802
 topicBrowsingSortDate: 2018-09-07T14:57:22.720-0400
 index: y

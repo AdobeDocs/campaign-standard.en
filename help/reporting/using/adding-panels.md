@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Adding panels
 publishexternaldate: 2018-09-07T15 08 43.096-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/reporting/using/adding-panels.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/adding-panels.html
 sha1: dff6e59f8c3e7106721ecd4333a182859501cdfc
 topicBrowsingSortDate: 2018-09-07T15:08:43.096-0400
 index: y

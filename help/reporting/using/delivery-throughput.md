@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Delivery throughput
 publishexternaldate: 2018-09-07T15 07 11.887-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/reporting/using/delivery-throughput.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/delivery-throughput.html
 sha1: 6855cf6bce21aadbbef59efc6d55dd1ffc24ca47
 topicBrowsingSortDate: 2018-09-07T15:07:11.887-0400
 index: y

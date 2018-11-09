@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Timeline
 publishexternaldate: 2018-09-07T15 08 32.100-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/start/using/timeline.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/start/using/timeline.html
 sha1: a3cf2595fd97bea1399a70afa974773b29e6ecf3
 topicBrowsingSortDate: 2018-09-07T15:08:32.100-0400
 index: y

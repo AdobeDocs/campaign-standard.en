@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Working with Campaign and Assets core service
 publishexternaldate: 2018-09-07T14 57 45.364-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/integrating/using/working-with-campaign-and-assets-core-service.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/working-with-campaign-and-assets-core-service.html
 sha1: 321360072e9c1fe5bc303835c54c0304f65d9e77
 topicBrowsingSortDate: 2018-09-07T14:57:45.364-0400
 index: y

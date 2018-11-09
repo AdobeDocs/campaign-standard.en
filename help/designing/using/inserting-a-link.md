@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Inserting a link
 publishexternaldate: 2018-09-07T15 07 26.356-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/designing/using/inserting-a-link.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/inserting-a-link.html
 sha1: f6147fb2c29cf37a7a996a5a65cb7b039b5b13c8
 topicBrowsingSortDate: 2018-09-07T15:07:26.356-0400
 index: y

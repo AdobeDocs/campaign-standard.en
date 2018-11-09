@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Defining dynamic text
 publishexternaldate: 2018-09-07T15 07 12.444-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/designing/using/defining-dynamic-text.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/defining-dynamic-text.html
 sha1: 123663031468ca397e6d36cb052ef865b2883fdb
 topicBrowsingSortDate: 2018-09-07T15:07:12.444-0400
 index: y

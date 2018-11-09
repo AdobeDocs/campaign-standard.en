@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Step-by-step guides
 publishexternaldate: 2018-09-07T15 08 55.264-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/start/using/step-by-step-guides.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/start/using/step-by-step-guides.html
 sha1: 3b357b8f6a0d88b1365dbe65a96a2e900f5a483a
 topicBrowsingSortDate: 2018-09-07T15:08:55.264-0400
 index: y

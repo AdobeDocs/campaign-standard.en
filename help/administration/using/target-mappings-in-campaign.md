@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Target mappings in Campaign
 publishexternaldate: 2018-09-07T15 03 18.477-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/administration/using/target-mappings-in-campaign.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/target-mappings-in-campaign.html
 sha1: 07c0607bb605480f08496c31f532391cbdbeeb73
 topicBrowsingSortDate: 2018-09-07T15:03:18.477-0400
 index: y

@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About Campaign-Target integration
 publishexternaldate: 2018-09-07T15 00 13.432-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/integrating/using/about-campaign-target-integration.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/about-campaign-target-integration.html
 sha1: bb8ee928c341d36fae0dcc2a13f7c25b7c3e4079
 topicBrowsingSortDate: 2018-09-07T15:00:13.432-0400
 index: y

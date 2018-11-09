@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: SMS report
 publishexternaldate: 2018-09-07T15 08 18.193-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/reporting/using/sms-report.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/sms-report.html
 sha1: ebf18532cc6ab89d90b174c7b8e6ca98a0ce40e1
 topicBrowsingSortDate: 2018-09-07T15:08:18.193-0400
 index: y

@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Creating a multilingual push notification
 publishexternaldate: 2018-09-07T15 11 57.384-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/channels/using/creating-a-multilingual-push-notification.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/creating-a-multilingual-push-notification.html
 sha1: e745c87882d1e03e51772081ecc7639a0983ec52
 topicBrowsingSortDate: 2018-09-07T15:11:57.384-0400
 index: y

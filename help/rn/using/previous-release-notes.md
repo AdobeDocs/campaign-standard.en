@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 moreHelpPaths: /content/help/en/campaign/standard/rn/morehelp/campaign-standard-releases;/content/help/en/campaign/standard/rn/morehelp/campaign-standard-releases
 navTitle: Previous Release Notes
 publishexternaldate: 2018-09-08T12 39 23.578-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/rn/using/previous-release-notes.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/rn/using/previous-release-notes.html
 sha1: 6152a7a7a4a6fa46ae22f31cde684a5b29427af7
 topicBrowsingSortDate: 2018-09-08T12:39:23.578-0400
 index: y
@@ -208,7 +208,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
   </tr> 
   <tr> 
    <td> Push notifications<br /> </td> 
-   <td> A new channel has been added to allow marketers to send personalized and segmented push notifications on iOS and Android mobile devices. Messages can be sent through a single delivery or using a workflow activity. Compatibility with Transactional messaging will be available in future versions. This channel leverages the Mobile core service’s SDK (available <a href="https://marketing.adobe.com/developer/gallery/marketing-cloud-mobile-libraries ">here</a>).<br /> For more information, refer to the <a href="../../channels/using/about-push-notifications.md">detailed documentation</a>.<br /> </td> 
+   <td> A new channel has been added to allow marketers to send personalized and segmented push notifications on iOS and Android mobile devices. Messages can be sent through a single delivery or using a workflow activity. Compatibility with Transactional messaging will be available in future versions. This channel leverages the Mobile core service’s SDK (available <a href="https://marketing.adobe.com/developer/gallery/marketing-cloud-mobile-libraries">here</a>).<br /> For more information, refer to the <a href="../../channels/using/about-push-notifications.md">detailed documentation</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

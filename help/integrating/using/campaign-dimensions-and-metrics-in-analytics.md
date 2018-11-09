@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Campaign dimensions and metrics in Analytics
 publishexternaldate: 2018-09-07T15 05 05.108-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/integrating/using/campaign-dimensions-and-metrics-in-analytics.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/campaign-dimensions-and-metrics-in-analytics.html
 sha1: 49db2206efc86e09c14b525ebb74a5fc0d81f8fe
 topicBrowsingSortDate: 2018-09-07T15:05:05.108-0400
 index: y

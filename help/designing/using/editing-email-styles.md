@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Editing email styles
 publishexternaldate: 2018-09-07T14 48 43.279-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/designing/using/editing-email-styles.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/editing-email-styles.html
 sha1: 88c1a2e19ae1ce1d1b5dc704af3ccf1aa5561498
 topicBrowsingSortDate: 2018-09-07T14:48:43.279-0400
 index: y

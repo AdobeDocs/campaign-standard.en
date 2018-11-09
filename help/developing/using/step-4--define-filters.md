@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: "Step 4: Define filters"
 publishexternaldate: 2018-09-07T14 53 20.708-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/developing/using/step-4--define-filters.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/step-4--define-filters.html
 sha1: 86ee5e2d7297f494821e819ea94b8a485a3a9985
 topicBrowsingSortDate: 2018-09-07T14:53:20.708-0400
 index: y

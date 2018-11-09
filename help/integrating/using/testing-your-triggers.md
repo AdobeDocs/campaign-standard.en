@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Testing your triggers
 publishexternaldate: 2018-09-07T15 08 31.899-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/integrating/using/testing-your-triggers.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/testing-your-triggers.html
 sha1: d16c63329338da021b54c060ad230809522501eb
 topicBrowsingSortDate: 2018-09-07T15:08:31.899-0400
 index: y
