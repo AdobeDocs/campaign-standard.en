@@ -100,7 +100,7 @@ The steps for creating a push notification with Adobe Campaign are:
 
 **Related topic:**
 
-[About SMS and push content edition](JMA-sect1-ndh-dg4-h2b.md)
+[About SMS and push content edition](jma-sect1-ndh-dg4-h2b.md)
 
 ## Sending the notification {#sending-the-notification}
 
