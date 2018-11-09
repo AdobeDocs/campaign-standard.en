@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Fatigue rules
 publishexternaldate: 2018-09-07T15 00 18.579-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/administration/using/fatigue-rules.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/fatigue-rules.html
 sha1: afb566e8235e0ccce2c27873aa378f89960a6fb7
 topicBrowsingSortDate: 2018-09-07T15:00:18.579-0400
 index: y

@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Modifying images with the Adobe Creative SDK
 publishexternaldate: 2018-09-07T14 57 21.577-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/designing/using/modifying-images-with-the-adobe-creative-sdk.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/modifying-images-with-the-adobe-creative-sdk.html
 sha1: a7edfc71094239bfa99eeff8e98e58a5f4e96985
 topicBrowsingSortDate: 2018-09-07T14:57:21.577-0400
 index: y

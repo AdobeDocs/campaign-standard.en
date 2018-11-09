@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Update data
 publishexternaldate: 2018-09-07T15 08 12.976-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/update-data.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/update-data.html
 sha1: d1345b41779f797b54c1becb6d9137f76f018ba7
 topicBrowsingSortDate: 2018-09-07T15:08:12.976-0400
 index: y

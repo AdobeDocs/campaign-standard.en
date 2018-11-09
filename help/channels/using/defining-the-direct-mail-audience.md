@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Defining the direct mail audience
 publishexternaldate: 2018-09-07T15 12 26.338-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/channels/using/defining-the-direct-mail-audience.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/defining-the-direct-mail-audience.html
 sha1: 28f4f618185508df0aaa8b88f3561293026fff15
 topicBrowsingSortDate: 2018-09-07T15:12:26.338-0400
 index: y

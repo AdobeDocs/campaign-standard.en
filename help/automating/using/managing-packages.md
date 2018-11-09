@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Managing packages
 publishexternaldate: 2018-09-07T15 09 09.512-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/managing-packages.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/managing-packages.html
 sha1: 1c2e5beae87f54d977e6238cae24d2bdc1c83d13
 topicBrowsingSortDate: 2018-09-07T15:09:09.512-0400
 index: y

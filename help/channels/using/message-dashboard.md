@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Message dashboard
 publishexternaldate: 2018-09-07T15 11 32.375-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/channels/using/message-dashboard.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/message-dashboard.html
 sha1: cd0b25a59af3b6fae94a74175207d2c2dfb619a8
 topicBrowsingSortDate: 2018-09-07T15:11:32.375-0400
 index: y

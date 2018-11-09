@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Non-deliverables and bounces
 publishexternaldate: 2018-09-07T15 07 50.977-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/reporting/using/non-deliverables-and-bounces.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/non-deliverables-and-bounces.html
 sha1: b9ff43488255ea7eaec3539cf70f906da3044c07
 topicBrowsingSortDate: 2018-09-07T15:07:50.977-0400
 index: y

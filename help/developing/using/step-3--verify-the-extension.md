@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: "Step 3: Verify the extension"
 publishexternaldate: 2018-09-07T14 58 05.816-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/developing/using/step-3--verify-the-extension.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/step-3--verify-the-extension.html
 sha1: 79ba052d50b06d5dd389e6d52c9fd32d2f98aab6
 topicBrowsingSortDate: 2018-09-07T14:58:05.816-0400
 index: y

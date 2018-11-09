@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Workflow interface
 publishexternaldate: 2018-09-07T14 44 39.260-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/workflow-interface.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/workflow-interface.html
 sha1: b864320521f3ff1447999c086b3e3ea994f9bd10
 topicBrowsingSortDate: 2018-09-07T14:44:39.260-0400
 index: y

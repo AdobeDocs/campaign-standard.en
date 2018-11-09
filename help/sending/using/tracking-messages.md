@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Tracking messages
 publishexternaldate: 2018-09-07T15 11 30.302-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/sending/using/tracking-messages.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/sending/using/tracking-messages.html
 sha1: d9493366b28173b4c019df5700ce5c1ed1fea204
 topicBrowsingSortDate: 2018-09-07T15:11:30.302-0400
 index: y

@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 moreHelpPaths: /content/help/en/campaign/standard/sending/morehelp/monitoring-messages;/content/help/en/campaign/standard/sending/morehelp/monitoring-messages
 navTitle: Receiving alerts when failures happen
 publishexternaldate: 2018-09-07T15 11 36.047-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/sending/using/receiving-alerts-when-failures-happen.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/sending/using/receiving-alerts-when-failures-happen.html
 sha1: 59c5461816c1a0ab122bda1833578b11ffdc8683
 topicBrowsingSortDate: 2018-09-07T15:11:36.047-0400
 index: y

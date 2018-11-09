@@ -49,7 +49,7 @@ Depending on your environment, other solutions can also be linked to Adobe Marke
 
 |  Solution  | Compatible versions  | Tenant (Organization)  | Description  |
 |---|---|---|---|
-|  [Experience Manager](../../integrating/using/creating-campaigns-and-emails-in-experience-manager-6_3.md)  | AEM 5.6.1, 6.0, 6.1, 6.2  | N/A  | Allows you to create email contents or forms mapped to the Adobe Campaign database directly in Adobe Experience Manager.  |
+|  [Experience Manager](../../integrating/using/creating-campaigns-and-emails-in-experience-manager-6-3.md)  | AEM 5.6.1, 6.0, 6.1, 6.2  | N/A  | Allows you to create email contents or forms mapped to the Adobe Campaign database directly in Adobe Experience Manager.  |
 |  [Target](../../integrating/using/about-adobe-target-integration.md)  | Classic,Standard  | Adobe Target Tenant  | Allows you to insert images that are dynamically computed by Adobe Target when an email created and sent by Adobe Campaign is opened.  |
 |  [Analytics](../../integrating/using/about-adobe-analytics-integration.md)  | Standard, Premium  | Adobe Analytics Tenant  | Allows you to to track the success of your email deliveries directly in Adobe Analytics.  |
 |  [People Core Service (Profiles & Audiences)](../../integrating/using/about-people-core-service-integration.md)  | N/A  | Adobe Marketing Cloud Tenant  | Allows you to exchange audiences with the different Adobe Marketing Cloud applications that you use.  |

@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: "Optional: Deleting a resource"
 publishexternaldate: 2018-09-07T14 55 05.543-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/developing/using/optional--deleting-a-resource.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/optional--deleting-a-resource.html
 sha1: 79c27d6e01425fdf6320a4c0a4b570decba15362
 topicBrowsingSortDate: 2018-09-07T14:55:05.543-0400
 index: y

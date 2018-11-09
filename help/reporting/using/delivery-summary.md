@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Delivery summary
 publishexternaldate: 2018-09-07T15 05 04.966-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/reporting/using/delivery-summary.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/delivery-summary.html
 sha1: 6acbfeb5786ebed1929a3073754871164f8a074b
 topicBrowsingSortDate: 2018-09-07T15:05:04.966-0400
 index: y

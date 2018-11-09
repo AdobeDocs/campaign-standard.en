@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Configuring SMS channel
 publishexternaldate: 2018-09-07T14 44 23.302-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/administration/using/configuring-sms-channel.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/configuring-sms-channel.html
 sha1: 3dbc32753befb4c89801266e4e12f3eae4044765
 topicBrowsingSortDate: 2018-09-07T14:44:23.302-0400
 index: y

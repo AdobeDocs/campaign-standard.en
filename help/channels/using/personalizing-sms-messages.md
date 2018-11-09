@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Personalizing SMS messages
 publishexternaldate: 2018-09-07T15 11 49.380-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/channels/using/personalizing-sms-messages.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/personalizing-sms-messages.html
 sha1: 39cfd8bd2a26b354a3067ba6c3595bd45aef474e
 topicBrowsingSortDate: 2018-09-07T15:11:49.380-0400
 index: y

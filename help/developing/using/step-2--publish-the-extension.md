@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: "Step 2: Publish the extension"
 publishexternaldate: 2018-09-07T14 57 19.016-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/developing/using/step-2--publish-the-extension.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/step-2--publish-the-extension.html
 sha1: be10d6341f43899a02bf0f99ab1b3124377b5aa0
 topicBrowsingSortDate: 2018-09-07T14:57:19.016-0400
 index: y

@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Key steps to send a message
 publishexternaldate: 2018-09-07T15 11 26.640-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/channels/using/key-steps-to-send-a-message.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/key-steps-to-send-a-message.html
 sha1: b8e407eb4ec468c259577c12d90f6cd1a4daf1f8
 topicBrowsingSortDate: 2018-09-07T15:11:26.640-0400
 index: y

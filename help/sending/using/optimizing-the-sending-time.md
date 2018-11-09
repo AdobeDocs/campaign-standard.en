@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Optimizing the sending time
 publishexternaldate: 2018-09-07T15 11 20.704-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/sending/using/optimizing-the-sending-time.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/sending/using/optimizing-the-sending-time.html
 sha1: 9aef7fa5bd883ce76bc0a9ae719a7cb69d38b416
 topicBrowsingSortDate: 2018-09-07T15:11:20.704-0400
 index: y

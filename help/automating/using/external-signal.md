@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: External signal
 publishexternaldate: 2018-09-07T15 02 17.021-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/external-signal.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/external-signal.html
 sha1: 831d81c59b6971e82d194016ed39a78a4854bb09
 topicBrowsingSortDate: 2018-09-07T15:02:17.021-0400
 index: y

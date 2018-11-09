@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Campaign orchestration
 publishexternaldate: 2018-09-07T15 04 24.669-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/start/using/campaign-orchestration.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/start/using/campaign-orchestration.html
 sha1: 0f38273c51aba8088cebbab39efdb317e1a3b230
 topicBrowsingSortDate: 2018-09-07T15:04:24.669-0400
 index: y

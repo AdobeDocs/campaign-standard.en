@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About Campaign-Audience Manager or People core service integration
 publishexternaldate: 2018-09-07T15 06 34.603-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/integrating/using/about-campaign-audience-manager-or-people-core-service-integration.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/about-campaign-audience-manager-or-people-core-service-integration.html
 sha1: 3903a9b3f2a7c3dff3906b873816981c84a9a14e
 topicBrowsingSortDate: 2018-09-07T15:06:34.603-0400
 index: y

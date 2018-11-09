@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About opt-in and opt-out in Campaign
 publishexternaldate: 2018-09-07T14 52 35.700-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/audiences/using/about-opt-in-and-opt-out-in-campaign.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/audiences/using/about-opt-in-and-opt-out-in-campaign.html
 sha1: 438280bea9ce7f321cabf5c85db286635c07a375
 topicBrowsingSortDate: 2018-09-07T14:52:35.700-0400
 index: y

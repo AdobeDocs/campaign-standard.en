@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Save audience
 publishexternaldate: 2018-09-07T14 55 37.743-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/save-audience.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/save-audience.html
 sha1: 4e88c5dda5b71fe69ae2d3d3a1a7e05e07ba9929
 topicBrowsingSortDate: 2018-09-07T14:55:37.743-0400
 index: y

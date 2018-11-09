@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Transfer file
 publishexternaldate: 2018-09-07T15 08 25.595-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/transfer-file.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/transfer-file.html
 sha1: af8c687ad2174d5d53dc278aef82a3fe5c8a5683
 topicBrowsingSortDate: 2018-09-07T15:08:25.595-0400
 index: y

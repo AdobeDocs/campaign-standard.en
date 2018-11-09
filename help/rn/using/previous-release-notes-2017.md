@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 moreHelpPaths: /content/help/en/campaign/standard/rn/morehelp/campaign-standard-releases;/content/help/en/campaign/standard/rn/morehelp/campaign-standard-releases
 navTitle: Previous Release Notes
 publishexternaldate: 2018-09-08T12 39 21.559-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/rn/using/previous-release-notes-2017.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/rn/using/previous-release-notes-2017.html
 sha1: fd4206a7c73767e0d1f12743246e81409fffb8f2
 topicBrowsingSortDate: 2018-09-08T12:39:21.559-0400
 index: y

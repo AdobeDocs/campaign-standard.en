@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Resource statuses
 publishexternaldate: 2018-09-07T14 48 55.263-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/developing/using/resource-statuses.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/resource-statuses.html
 sha1: 3f7e64f27cf2e628ba32b2c9264fb637834902a0
 topicBrowsingSortDate: 2018-09-07T14:48:55.263-0400
 index: y

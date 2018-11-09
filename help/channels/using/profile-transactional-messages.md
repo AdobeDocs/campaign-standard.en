@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Profile transactional messages
 publishexternaldate: 2018-09-07T15 12 30.917-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/channels/using/profile-transactional-messages.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/profile-transactional-messages.html
 sha1: bfc32eb4f8d59f3a2fb3f5e7a991b976573b4c27
 topicBrowsingSortDate: 2018-09-07T15:12:30.917-0400
 index: y

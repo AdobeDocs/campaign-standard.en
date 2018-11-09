@@ -33,7 +33,7 @@ lr-lastreplicatedby: sauviat@adobe.com
 moreHelpPaths: /content/help/en/campaign/standard/designing/morehelp/editing-landing-page-content;/content/help/en/campaign/standard/designing/morehelp/editing-landing-page-content
 navTitle: About landing page content design
 publishexternaldate: 2018-09-07T14 49 39.352-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/designing/using/about-landing-page-content-design.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/about-landing-page-content-design.html
 sha1: 6eebe99634d3d972f557ef9f15ff9f2e2ed6bf43
 topicBrowsingSortDate: 2018-09-07T14:49:39.352-0400
 index: y

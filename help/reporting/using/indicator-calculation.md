@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Indicator calculation
 publishexternaldate: 2018-09-07T15 03 19.185-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/reporting/using/indicator-calculation.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/indicator-calculation.html
 sha1: 20c4764d7572568084b75545ed842c504eeb04e2
 topicBrowsingSortDate: 2018-09-07T15:03:19.185-0400
 index: y

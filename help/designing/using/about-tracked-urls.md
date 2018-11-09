@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About tracked URLs
 publishexternaldate: 2018-09-07T15 07 51.085-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/designing/using/about-tracked-urls.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/about-tracked-urls.html
 sha1: c5ecfba17358b999c496aa3f0edf95c302976ae2
 topicBrowsingSortDate: 2018-09-07T15:07:51.085-0400
 index: y

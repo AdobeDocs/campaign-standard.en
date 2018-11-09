@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Filtering rules
 publishexternaldate: 2018-09-07T14 59 27.632-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/administration/using/filtering-rules.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/filtering-rules.html
 sha1: dd19914ecbab63b06676423b3349f5594d0b87f7
 topicBrowsingSortDate: 2018-09-07T14:59:27.632-0400
 index: y

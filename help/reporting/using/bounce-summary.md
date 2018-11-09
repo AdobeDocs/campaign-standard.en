@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Bounce summary
 publishexternaldate: 2018-09-07T15 06 34.759-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/reporting/using/bounce-summary.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/bounce-summary.html
 sha1: 566dafc310d2c8d9c9c4c405f3d2b8a59c89f5cb
 topicBrowsingSortDate: 2018-09-07T15:06:34.759-0400
 index: y

@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Read audience
 publishexternaldate: 2018-09-07T14 55 01.062-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/read-audience.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/read-audience.html
 sha1: 4c80a9c2417c006e96db00e62d0244f970affbee
 topicBrowsingSortDate: 2018-09-07T14:55:01.062-0400
 index: y

@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Push notification report
 publishexternaldate: 2018-09-07T15 08 24.746-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/reporting/using/push-notification-report.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/push-notification-report.html
 sha1: 05c645ae4568dadea15a37dc64bd3e91c2bf01a6
 topicBrowsingSortDate: 2018-09-07T15:08:24.746-0400
 index: y

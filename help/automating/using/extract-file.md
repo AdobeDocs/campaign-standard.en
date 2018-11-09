@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Extract file
 publishexternaldate: 2018-09-07T15 08 36.885-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/extract-file.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/extract-file.html
 sha1: 3138dc48c6c4a5ca0a6d35c14322bfc65b06e7bb
 topicBrowsingSortDate: 2018-09-07T15:08:36.885-0400
 index: y

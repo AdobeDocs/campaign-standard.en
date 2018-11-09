@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Customizing a push notification
 publishexternaldate: 2018-09-07T15 11 55.506-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/channels/using/customizing-a-push-notification.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/customizing-a-push-notification.html
 sha1: 4a27dbd331564063ed48e241960351f2c7f85613
 topicBrowsingSortDate: 2018-09-07T15:11:55.506-0400
 index: y

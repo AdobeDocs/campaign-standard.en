@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Personalizing an image source
 publishexternaldate: 2018-09-07T14 58 13.916-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/designing/using/personalizing-an-image-source.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/personalizing-an-image-source.html
 sha1: 5582cacdcb5f05cf8f9f69ef6cd1ca3c9cabb198
 topicBrowsingSortDate: 2018-09-07T14:58:13.916-0400
 index: y

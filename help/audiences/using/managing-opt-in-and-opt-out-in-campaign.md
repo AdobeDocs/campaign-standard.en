@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Managing opt-in and opt-out in Campaign
 publishexternaldate: 2018-09-07T14 53 18.908-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/audiences/using/managing-opt-in-and-opt-out-in-campaign.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/audiences/using/managing-opt-in-and-opt-out-in-campaign.html
 sha1: e45c3fb6af832111f05d96776fa280a4439c6fb8
 topicBrowsingSortDate: 2018-09-07T14:53:18.908-0400
 index: y

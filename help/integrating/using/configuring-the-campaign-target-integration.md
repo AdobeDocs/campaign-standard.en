@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Configuring the Campaign-Target integration
 publishexternaldate: 2018-09-07T15 01 11.299-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/integrating/using/configuring-the-campaign-target-integration.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/configuring-the-campaign-target-integration.html
 sha1: a8779f56fc49464b110b73346930e9ae9a611cf5
 topicBrowsingSortDate: 2018-09-07T15:01:11.299-0400
 index: y

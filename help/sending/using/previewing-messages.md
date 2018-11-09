@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Previewing messages
 publishexternaldate: 2018-09-07T15 11 10.541-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/sending/using/previewing-messages.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/sending/using/previewing-messages.html
 sha1: a574e75e0602f4688c697b649b4ba92b17493194
 topicBrowsingSortDate: 2018-09-07T15:11:10.541-0400
 index: y

@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Scheduler
 publishexternaldate: 2018-09-07T15 00 25.517-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/scheduler.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/scheduler.html
 sha1: 5a49b5be7ec8ed3ed723552490982bf8e4790cae
 topicBrowsingSortDate: 2018-09-07T15:00:25.517-0400
 index: y

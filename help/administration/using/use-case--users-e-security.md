@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: "Use case: users & security"
 publishexternaldate: 2018-09-07T14 41 56.889-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/administration/using/use-case--users-e-security.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/use-case--users-e-security.html
 sha1: 6a7a201a26dd79d786f3ec9e8bfef0476c371fba
 topicBrowsingSortDate: 2018-09-07T14:41:56.889-0400
 index: y

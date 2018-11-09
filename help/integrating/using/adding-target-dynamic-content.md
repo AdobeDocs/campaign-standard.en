@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Adding Target dynamic content
 publishexternaldate: 2018-09-07T15 02 16.375-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/integrating/using/adding-target-dynamic-content.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/adding-target-dynamic-content.html
 sha1: dc3e5653509a95606aa5abdebc04311593067a6f
 topicBrowsingSortDate: 2018-09-07T15:02:16.375-0400
 index: y

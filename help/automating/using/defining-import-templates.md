@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Defining import templates
 publishexternaldate: 2018-09-07T15 09 05.049-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/defining-import-templates.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/defining-import-templates.html
 sha1: 120fbcfdef0364f6c8dc44abe9e10947a54d069e
 topicBrowsingSortDate: 2018-09-07T15:09:05.049-0400
 index: y

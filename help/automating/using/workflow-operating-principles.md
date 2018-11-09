@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Workflow operating principles
 publishexternaldate: 2018-09-07T14 43 51.031-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/workflow-operating-principles.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/workflow-operating-principles.html
 sha1: 7fd14d9b84015576e65de5f2cd0dc6f3a7d53e20
 topicBrowsingSortDate: 2018-09-07T14:43:51.031-0400
 index: y

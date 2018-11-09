@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Adobe Campaign notifications
 publishexternaldate: 2018-09-07T15 06 34.360-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/administration/using/adobe-campaign-notifications.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/adobe-campaign-notifications.html
 sha1: ecdb17a5a7efc8e81a18d14f64f6311bf3cd3a30
 topicBrowsingSortDate: 2018-09-07T15:06:34.360-0400
 index: y

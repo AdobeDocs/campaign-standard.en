@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Monitoring subscriptions
 publishexternaldate: 2018-09-07T14 51 56.668-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/audiences/using/monitoring-subscriptions.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/audiences/using/monitoring-subscriptions.html
 sha1: 78fc9511b902605f7fe0d4286d5b648a3ba6c464
 topicBrowsingSortDate: 2018-09-07T14:51:56.668-0400
 index: y

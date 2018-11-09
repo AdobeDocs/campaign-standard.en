@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About personalization
 publishexternaldate: 2018-09-07T14 58 54.108-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/designing/using/about-personalization.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/about-personalization.html
 sha1: d298d2b7f1be1690250f8d7a342fc8e67c3c82bf
 topicBrowsingSortDate: 2018-09-07T14:58:54.108-0400
 index: y

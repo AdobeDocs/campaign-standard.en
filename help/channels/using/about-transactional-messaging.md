@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About transactional messaging
 publishexternaldate: 2018-09-07T15 12 28.665-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/channels/using/about-transactional-messaging.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/about-transactional-messaging.html
 sha1: 72d02d5215529077a17677eaea3e744a5c3f7a3d
 topicBrowsingSortDate: 2018-09-07T15:12:28.665-0400
 index: y

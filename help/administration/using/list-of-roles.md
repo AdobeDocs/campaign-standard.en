@@ -36,7 +36,7 @@ lr-lastreplicatedby: beneat@adobe.com
 moreHelpPaths: /content/help/en/campaign/standard/administration/morehelp/users-e-security;/content/help/en/campaign/standard/administration/morehelp/users-e-security
 navTitle: List of roles
 publishexternaldate: 2018-10-04T05 14 28.839-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/administration/using/list-of-roles.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/list-of-roles.html
 publishinternaldate: 2018-10-04T05 14 28.839-0400
 publishinternalurl: https //helpx-internal.corp.adobe.com/content/help/en/campaign/standard/administration/using/list-of-roles.html
 sha1: 1de963ad8662775a284cb08b2a4ee8aa413fc343

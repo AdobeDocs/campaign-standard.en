@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Sharing audiences with Audience Manager or People core service
 publishexternaldate: 2018-09-07T15 07 40.518-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.html
 sha1: 4659555cc782880fadd6d5f0d4bbfe1205bb6d79
 topicBrowsingSortDate: 2018-09-07T15:07:40.518-0400
 index: y

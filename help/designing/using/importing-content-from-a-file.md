@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Importing content from a file
 publishexternaldate: 2018-09-07T14 54 37.385-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/designing/using/importing-content-from-a-file.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/importing-content-from-a-file.html
 sha1: 715862e2d1d487309ed335aec142cf9de4b5e9b0
 topicBrowsingSortDate: 2018-09-07T14:54:37.385-0400
 index: y

@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Wait
 publishexternaldate: 2018-09-07T15 01 20.396-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/wait.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/wait.html
 sha1: 0a404bebe1023009f6fd5aa298544750aa6fa805
 topicBrowsingSortDate: 2018-09-07T15:01:20.396-0400
 index: y

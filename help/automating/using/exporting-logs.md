@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Exporting logs
 publishexternaldate: 2018-09-07T15 09 07.433-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/exporting-logs.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/exporting-logs.html
 sha1: 8b9b5dca689f43e74afad3128d176235047b8945
 topicBrowsingSortDate: 2018-09-07T15:09:07.433-0400
 index: y

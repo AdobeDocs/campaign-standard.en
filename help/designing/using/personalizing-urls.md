@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Personalizing URLs
 publishexternaldate: 2018-09-07T15 07 40.611-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/designing/using/personalizing-urls.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/personalizing-urls.html
 sha1: 3811810437bcbc40c74d2df5db35c25326c3970b
 topicBrowsingSortDate: 2018-09-07T15:07:40.611-0400
 index: y

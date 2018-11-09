@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: "Step 1: Define the resource"
 publishexternaldate: 2018-09-07T14 51 18.598-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/developing/using/step-1--define-the-resource.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/step-1--define-the-resource.html
 sha1: 257e6176daa0c27bbf437ce390c0c370fad43d1f
 topicBrowsingSortDate: 2018-09-07T14:51:18.598-0400
 index: y

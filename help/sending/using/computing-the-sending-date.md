@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Computing the sending date
 publishexternaldate: 2018-09-07T15 11 23.284-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/sending/using/computing-the-sending-date.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/sending/using/computing-the-sending-date.html
 sha1: 99a0b2449acd288eeca9240bd8a302cddbb09f78
 topicBrowsingSortDate: 2018-09-07T15:11:23.284-0400
 index: y

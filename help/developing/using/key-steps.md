@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Key steps
 publishexternaldate: 2018-09-07T14 50 27.574-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/developing/using/key-steps.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/key-steps.html
 sha1: a332ab366db7b8f10732d30445d2ffef6a2df080
 topicBrowsingSortDate: 2018-09-07T14:50:27.574-0400
 index: y

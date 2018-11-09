@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: "Step 1: Extend the profile resource"
 publishexternaldate: 2018-09-07T14 59 29.900-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/developing/using/step-1--extend-the-profile-resource.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/step-1--extend-the-profile-resource.html
 sha1: a8da9e0487b760816db3224a6377a09588942765
 topicBrowsingSortDate: 2018-09-07T14:59:29.900-0400
 index: y

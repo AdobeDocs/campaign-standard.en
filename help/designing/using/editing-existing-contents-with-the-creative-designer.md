@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Editing existing contents with the Creative Designer
 publishexternaldate: 2018-09-07T14 55 39.402-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/designing/using/editing-existing-contents-with-the-creative-designer.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/editing-existing-contents-with-the-creative-designer.html
 sha1: 24a30c00abe32950692e94cb4984ce851393a37d
 topicBrowsingSortDate: 2018-09-07T14:55:39.402-0400
 index: y

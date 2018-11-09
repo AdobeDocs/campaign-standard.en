@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Targeting data
 publishexternaldate: 2018-09-07T14 46 47.744-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/automating/using/targeting-data.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/targeting-data.html
 sha1: 69be234d6422a4cbaea791058bd3a1f72d832782
 topicBrowsingSortDate: 2018-09-07T14:46:47.744-0400
 index: y

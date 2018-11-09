@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Active profiles
 publishexternaldate: 2018-09-07T14 45 04.775-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/audiences/using/active-profiles.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/audiences/using/active-profiles.html
 sha1: 23ae8b56897669f760ac4ceb209447e528f94246
 topicBrowsingSortDate: 2018-09-07T14:45:04.775-0400
 index: y

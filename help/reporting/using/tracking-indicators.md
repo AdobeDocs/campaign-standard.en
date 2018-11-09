@@ -32,7 +32,7 @@ loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Tracking indicators
 publishexternaldate: 2018-09-07T15 07 26.138-0400
-publishExternalURL: "https://helpx.adobe.com/campaign/standard/reporting/using/tracking-indicators.html"
+publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/tracking-indicators.html
 sha1: e118e2ec3054d668c195c038b28b39d41d6c2510
 topicBrowsingSortDate: 2018-09-07T15:07:26.138-0400
 index: y
