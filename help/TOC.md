@@ -22,6 +22,7 @@ index: yes
 + Administration{#administration}
   + [Fatigue rules](administration/using/fatigue-rules.md)
   + [About typology rules](administration/using/about-typology-rules.md)
+  + [About typology rules - List](administration/using/about-typology-rules.md#typology-rules)
   + [Configuring email channel](administration/using/configuring-email-channel.md)
   + [Filtering rules](administration/using/filtering-rules.md)
 + Starting{#starting}
