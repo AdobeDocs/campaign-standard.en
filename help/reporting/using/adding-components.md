@@ -3,7 +3,7 @@ title: Adding components
 seo-title: Adding components
 description: Adding components
 seo-description: Drag and drog components to your freeform table to start filtering your data and building your report.
-uuid: 6126f2fb-6e5b-4a7c-9906-d494c4c3e33c
+uuid: 9cdda1dc-bdaf-4c00-a056-169248d1d7df
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/reporting/using/adding-components
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: reporting
 content-type: reference
 topic-tags: customizing-reports
 cq-template: /apps/help/templates/article-3
-discoiquuid: a524c114-ae7f-43f0-9a64-12114bc40e00
+discoiquuid: 48822bf7-1732-4d52-ab93-ea0fd2fed377
 firstPublishExternalDate: 2018-09-07T15:08:52.056-0400
 herogradient: light
 isreadyforlocalization: false
@@ -34,14 +34,14 @@ moreHelpPaths: /content/help/en/campaign/standard/reporting/morehelp/customizing
 navTitle: Adding components
 publishexternaldate: 2018-09-07T15 08 52.056-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/adding-components.html
-sha1: b18a36f17c75af94501d98d7830fe51e955058e1
+sha1: 78cefaabf0f1fa04e1a7c3f8a7b9254446cd6aea
 topicBrowsingSortDate: 2018-09-07T15:08:52.056-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Adding components
+# Adding components{#adding-components}
 
 Adding components
 

@@ -3,7 +3,7 @@ title: Configuring the Campaign-Target integration
 seo-title: Configuring the Campaign-Target integration
 description: Configuring the Campaign-Target integration
 seo-description: Learn how to configure the Adobe Target integration to start using dynamic content in Adobe Campaign.
-uuid: 81676f38-c01c-4399-8d5f-119b1c98d4c0
+uuid: c932d094-e745-4f52-930c-600e9e0d27ef
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/integrating/using/configuring-the-campaign-target-integration
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
 cq-template: /apps/help/templates/article-3
-discoiquuid: 347844a2-703b-433c-8407-5594e4f74c6c
+discoiquuid: e760679b-ac2d-48a0-a7bd-7340a7038a5c
 firstPublishExternalDate: 2018-09-07T15:01:11.299-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,14 +33,14 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Configuring the Campaign-Target integration
 publishexternaldate: 2018-09-07T15 01 11.299-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/configuring-the-campaign-target-integration.html
-sha1: 8396b39313db12761fc54da997730c2b7248f454
+sha1: a8779f56fc49464b110b73346930e9ae9a611cf5
 topicBrowsingSortDate: 2018-09-07T15:01:11.299-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Configuring the Campaign-Target integration
+# Configuring the Campaign-Target integration{#configuring-the-campaign-target-integration}
 
 Configuring the Campaign-Target integration
 

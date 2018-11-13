@@ -3,7 +3,7 @@ title: Personalizing the subject line of an email
 seo-title: Personalizing the subject line of an email
 description: Personalizing the subject line of an email
 seo-description: You can personalize the subject of an email, but also try out different subject lines and get an estimation of its open rate.
-uuid: 1ae7878a-ca78-4bb2-855e-0d1cb1124841
+uuid: b9f4ba67-5d1e-47f5-836a-f4b6b691a67e
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/personalizing-the-subject-line-of-an-email
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: personalizing-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: be41bf64-3bee-4378-ba0f-93f32adecaec
+discoiquuid: d366cb2e-cc51-4579-ad6e-9989087e018c
 firstPublishExternalDate: 2018-09-07T15:02:16.550-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,18 +33,18 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Personalizing the subject line of an email
 publishexternaldate: 2018-09-07T15 02 16.550-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/personalizing-the-subject-line-of-an-email.html
-sha1: bc793e8d1616da3f95774c39f74dda7f3396fed6
+sha1: 026d7e797749aab50e8eaa4098f482eb8c7f9ca5
 topicBrowsingSortDate: 2018-09-07T15:02:16.550-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Personalizing the subject line of an email
+# Personalizing the subject line of an email{#personalizing-the-subject-line-of-an-email}
 
 Personalizing the subject line of an email
 
-## Personalizing an email subject
+## Personalizing an email subject {#personalizing-an-email-subject}
 
 The message subject is mandatory to prepare and send the message. It can be configured by clicking on the email label.
 
@@ -52,7 +52,7 @@ The message subject is mandatory to prepare and send the message. It can be conf
 
 By clicking the **Edit** button, you can also add personalization fields and dynamic content to the subject line.
 
-## Predictive subject line
+## Predictive subject line {#predictive-subject-line}
 
 When editing an email, you can try out different subject lines and get an estimation of its open rate before you send it.
 
@@ -62,7 +62,7 @@ This feature is disabled by default. It is enabled when the first model is impor
 >
 >This feature is available for email messages and for databases that contain English contents only. The trained model will be inconsistent and will lead to erroneous results if your instance contains emails in other languages. The option that allows you to test a subject is only visible if a model is already available on your instance.
 
-### Testing a subject
+### Testing a subject {#testing-a-subject}
 
 To test your subject line:
 
@@ -91,7 +91,7 @@ Several indicators are calculated and a set of tools are displayed to help you:
 
 ![](assets/predictive_subject_line_example.png)
 
-### Importing models
+### Importing models {#importing-models}
 
 By default, there is no model running on your Adobe Campaign server. There are two ways to get a model and activate the feature:
 

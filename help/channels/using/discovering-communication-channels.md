@@ -3,7 +3,7 @@ title: Discovering communication channels
 seo-title: Discovering communication channels
 description: Discovering communication channels
 seo-description: Learn how to send personalized messages on various channels and to create cross-channel campaigns to better target your recipients.
-uuid: eb0fe83e-12c9-4eb8-b6f4-7f4cf60f6382
+uuid: fd5e7ac3-d32d-41aa-be27-b2d58298107c
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/discovering-communication-channels
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 cq-template: /apps/help/templates/article-3
-discoiquuid: 36f00f0a-155a-40f3-b770-3c5d5d130bde
+discoiquuid: d8511975-8aad-4ff5-829a-94b5de14297f
 firstPublishExternalDate: 2018-09-07T15:11:23.247-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,14 +33,14 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Discovering communication channels
 publishexternaldate: 2018-09-07T15 11 23.247-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/discovering-communication-channels.html
-sha1: cc7bd8cde68f4b630707c0501698fbdcbad9796f
+sha1: adf8bf7b155cf75b737b81e49e12146b2e8357f0
 topicBrowsingSortDate: 2018-09-07T15:11:23.247-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Discovering communication channels
+# Discovering communication channels{#discovering-communication-channels}
 
 Discovering communication channels
 

@@ -3,7 +3,7 @@ title: Defining import templates
 seo-title: Defining import templates
 description: Defining import templates
 seo-description: Import templates allow to reduce the settings needed and to import data faster.
-uuid: 81789bf0-2a7d-4553-bfb9-aa4a38f09790
+uuid: b039564d-2bdf-451e-ab65-f370001084dc
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/defining-import-templates
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
 cq-template: /apps/help/templates/article-3
-discoiquuid: 64b7ef46-dbf3-4ab8-bf0a-98928a7c1a16
+discoiquuid: 58592ea5-5648-4a36-ad57-e5d18e48015b
 firstPublishExternalDate: 2018-09-07T15:09:05.049-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,14 +33,14 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Defining import templates
 publishexternaldate: 2018-09-07T15 09 05.049-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/defining-import-templates.html
-sha1: bc0fa564aabad04dd602e6228399e2878fc88e1a
+sha1: 120fbcfdef0364f6c8dc44abe9e10947a54d069e
 topicBrowsingSortDate: 2018-09-07T15:09:05.049-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Defining import templates
+# Defining import templates{#defining-import-templates}
 
 Defining import templates
 

@@ -3,7 +3,7 @@ title: About execution activities
 seo-title: About execution activities
 description: About execution activities
 seo-description: Execution activities are available from the left-hand side of the screen.
-uuid: 3a65f28c-5c29-42f1-9d04-1e248c7c9f9f
+uuid: c5b93046-aba2-43ae-a39e-0bb6b57d019b
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/about-execution-activities
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: 60ef4a20-4294-4fc3-a3e3-7724309b281a
+discoiquuid: 70b69f82-f7e7-4fbb-9921-ed82ab8c42cf
 firstPublishExternalDate: 2018-09-07T14:57:22.720-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,14 +33,14 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About execution activities
 publishexternaldate: 2018-09-07T14 57 22.720-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/about-execution-activities.html
-sha1: 2c0a3d78ab5276a4b1fe9e531e2a22163bfa3c79
+sha1: b8f29b93ea3c9cf2eedfc0dd92b8596a76455802
 topicBrowsingSortDate: 2018-09-07T14:57:22.720-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# About execution activities
+# About execution activities{#about-execution-activities}
 
 About execution activities
 

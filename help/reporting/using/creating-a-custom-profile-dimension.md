@@ -3,7 +3,7 @@ title: Creating a custom profile dimension
 seo-title: Creating a custom profile dimension
 description: Creating a custom profile dimension
 seo-description: 
-uuid: 14c158f0-6e54-4938-a8ce-7f4ca587bade
+uuid: f00d5330-61f1-41a7-bfc3-15aad6df0bfd
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/reporting/using/creating-a-custom-profile-dimension
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: reporting
 content-type: reference
 topic-tags: customizing-reports
 cq-template: /apps/help/templates/article-3
-discoiquuid: ec12b7ff-dd15-4c17-9020-244dc1fa36f5
+discoiquuid: 69430b07-4f68-4c0c-bb1e-ea7774d606ce
 firstPublishExternalDate: 2018-09-07T15:08:56.017-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,14 +33,14 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Creating a custom profile dimension
 publishexternaldate: 2018-09-07T15 08 56.017-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/creating-a-custom-profile-dimension.html
-sha1: 39c8b5f124b44fecf962102c6ed456649f8c0ac9
+sha1: a2429656382eb0763c19bbd912a493291f8ed561
 topicBrowsingSortDate: 2018-09-07T15:08:56.017-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Creating a custom profile dimension
+# Creating a custom profile dimension{#creating-a-custom-profile-dimension}
 
 Creating a custom profile dimension
 
@@ -53,7 +53,7 @@ In this example, we want to create the custom profile field **Loyalty programs**
 * [Step 3: Create a delivery targeting recipients enrolled in the loyalty program](../../reporting/using/creating-a-custom-profile-dimension.md#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program)
 * [Step 4: Create a dynamic report to filter recipients with the custom profile dimension](../../reporting/using/creating-a-custom-profile-dimension.md#step-4--create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension)
 
-## Step 1: Create a new profile field
+## Step 1: Create a new profile field {#step-create-a-new-profile-field}
 
 We first need to create the new profile field **Loyalty program** that will assign loyalty level to our recipients: gold, silver or bronze.
 
@@ -112,7 +112,7 @@ Your new profile field is now ready to be used and selected by your recipients.
 
 ![](assets/custom_profile_8.png)
 
-## Step 2: Extend the sending logs with the profile field
+## Step 2: Extend the sending logs with the profile field {#step-extend-the-sending-logs-with-the-profile-field}
 
 Now that your profile field is created, we need to extend the sending logs with our profile field to create the associated custom profile dimension in dynamic reports.
 
@@ -151,7 +151,7 @@ Your custom profile is now available as a custom profile dimension in your repor
 
 Now that your field has been created and that sending logs have been extended with this profile field, you can start targeting recipients in deliveries.
 
-## Step 3: Create a delivery targeting recipients enrolled in the loyalty program
+## Step 3: Create a delivery targeting recipients enrolled in the loyalty program {#step-create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program}
 
 Once your profile field is published, you can start your delivery. In this example, we want to target every recipient enrolled in the loyalty program.
 
@@ -178,7 +178,7 @@ Once your profile field is published, you can start your delivery. In this examp
 
 Once your email is correctly sent to your selected recipients, you can start filtering your data and track the success of your delivery with reports.
 
-## Step 4: Create a dynamic report to filter recipients with the custom profile dimension
+## Step 4: Create a dynamic report to filter recipients with the custom profile dimension {#step-create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension}
 
 After sending your delivery, you can breakdown reports using your custom profile dimension from the **Profile** table.
 

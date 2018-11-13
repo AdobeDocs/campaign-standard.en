@@ -3,7 +3,7 @@ title: About dynamic reports
 seo-title: About dynamic reports
 description: About dynamic reports
 seo-description: With dynamic reports, drag and drop variables and dimensions into your freeform environment and analyze the success of your campaigns.
-uuid: 54cb9f97-1f18-42d1-b362-af4ba59bbfe1
+uuid: a068ff0a-0571-438a-b588-4f266bdb68d1
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/reporting/using/about-dynamic-reports
 contentOwner: sauviat
@@ -18,7 +18,7 @@ audience: reporting
 content-type: reference
 topic-tags: about-reporting
 cq-template: /apps/help/templates/article-3
-discoiquuid: bac8f4f8-3d6c-476d-be7c-1e8b8ee57f85
+discoiquuid: f742dc8a-1c61-4b23-93f5-c52c54b16993
 firstPublishExternalDate: 2018-09-07T14:59:50.868-0400
 firstpublishinternaldate: 2018-09-11T08 43 16.310-0400
 herogradient: light
@@ -39,14 +39,14 @@ publishexternaldate: 2018-09-11T08 43 16.310-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/about-dynamic-reports.html
 publishinternaldate: 2018-09-11T08 43 16.310-0400
 publishinternalurl: https //helpx-internal.corp.adobe.com/content/help/en/campaign/standard/reporting/using/about-dynamic-reports.html
-sha1: 5ee9af4b149d5207944db669d18ed40872b04d7f
+sha1: 78e9210a541f04241d5ae9b371b92b3c02f4b91e
 topicBrowsingSortDate: 2018-09-11T08:43:16.310-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# About dynamic reports
+# About dynamic reports{#about-dynamic-reports}
 
 About dynamic reports
 
@@ -54,7 +54,7 @@ About dynamic reports
 >
 >Only users with administration rights or with organizational and geographical units set to **All** can create or save a new report. For more on this, refer to this [section](../../administration/using/about-access-management.md#main-pars_text_27).
 
-## Accessing dynamic reports
+## Accessing dynamic reports {#accessing-dynamic-reports}
 
 ![](assets/dynamic_report_intro.png)
 
@@ -91,7 +91,7 @@ Dynamic reports are divided into two categories:
 * [Organizational and geographical units](../../administration/using/organizational-and-geographical-units.md)
 * [Dynamic reports](http://docs.campaign.adobe.com/doc/standard/en/GST_Tutorials_How-to_videos.html) video
 
-## Dynamic reporting usage agreement
+## Dynamic reporting usage agreement {#dynamic-reporting-usage-agreement}
 
 Dynamic reports allow you to filter your report based on profile data with the profile dimensions.
 

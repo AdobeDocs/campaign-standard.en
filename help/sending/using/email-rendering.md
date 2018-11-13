@@ -3,7 +3,7 @@ title: Email rendering
 seo-title: Email rendering
 description: Email rendering
 seo-description: Discover the email rendering feature.
-uuid: d6c543f1-5ba8-4bb7-a4a7-9caa99e7365a
+uuid: 02cd53b7-e8e2-478a-a06f-927bb6b678f3
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/sending/using/email-rendering
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 cq-template: /apps/help/templates/article-3
-discoiquuid: 1ed3f1af-737c-40b8-81b9-244b8115c418
+discoiquuid: a5074612-52e2-47a0-9a9f-0036e9c7ab40
 firstPublishExternalDate: 2018-09-07T15:11:17.306-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,14 +33,14 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Email rendering
 publishexternaldate: 2018-09-07T15 11 17.306-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/sending/using/email-rendering.html
-sha1: d6d87ae464bcf601f13415cd8670a046ba840b3a
+sha1: b3219077d98447e1fac54d1da199c12740b8c353
 topicBrowsingSortDate: 2018-09-07T15:11:17.306-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Email rendering
+# Email rendering{#email-rendering}
 
 Email rendering
 
@@ -50,7 +50,7 @@ To allow this, Adobe Campaign captures the rendering and makes it available in a
 
 The mobile, messaging and webmail clients available for **Email rendering** in Adobe Campaign are listed on the Litmus [website](https://litmus.com/email-testing) (click **View all email clients**).
 
-## Checking the Email rendering report
+## Checking the Email rendering report {#checking-the-email-rendering-report}
 
 Once you have created your email delivery and defined its content as well as the targeted population, follow the steps below.
 
@@ -93,7 +93,7 @@ The dedicated email rendering report is displayed. See [Email rendering report d
 * [Managing test profiles and sending proofs](../../sending/using/managing-test-profiles-and-sending-proofs.md)
 * [Query editor](../../automating/using/editing-queries.md#about-query-editor)
 
-## Email rendering report description
+## Email rendering report description {#email-rendering-report-description}
 
 This report presents the email renderings as they appear to the recipient. Email renderings can differ based upon how the recipient opens the email delivery: in a browser, on a mobile device, or via an email application.
 

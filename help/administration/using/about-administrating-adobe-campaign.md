@@ -3,7 +3,7 @@ title: About Administrating Adobe Campaign
 seo-title: About Administrating Adobe Campaign
 description: About Administrating Adobe Campaign
 seo-description: Adobe Campaign provides you with a complete set of administration tools. Learn how to manage your users and configure your channels.
-uuid: e4c959d4-317a-4ca0-8db0-b3a09654d9ee
+uuid: 93437af4-5b13-4cf4-b42c-d171b283feb3
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/about-administrating-adobe-campaign
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
 cq-template: /apps/help/templates/article-3
-discoiquuid: 0cd33f20-0450-4a5a-affa-420921e1db33
+discoiquuid: e38dfb77-47b0-4efa-aae9-f73ee1dc1f6f
 firstPublishExternalDate: 2018-09-07T14:40:01.005-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,14 +33,14 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About Administrating Adobe Campaign
 publishexternaldate: 2018-09-07T14 40 01.005-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/about-administrating-adobe-campaign.html
-sha1: 3da4b12691951168a8dc3920819c65019cae8d32
+sha1: 49133fba8576ae741745f3e4f83c6635309a3e3f
 topicBrowsingSortDate: 2018-09-07T14:40:01.005-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# About Administrating Adobe Campaign
+# About Administrating Adobe Campaign{#about-administrating-adobe-campaign}
 
 About Administrating Adobe Campaign
 

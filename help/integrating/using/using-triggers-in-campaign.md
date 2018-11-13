@@ -3,7 +3,7 @@ title: Using Triggers in Campaign
 seo-title: Using Triggers in Campaign
 description: Using Triggers in Campaign
 seo-description: 
-uuid: 55e49b28-05a4-4bbe-a471-fd276321e6e4
+uuid: f1c2c6ad-9d36-40e9-b1a1-786720924404
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/integrating/using/using-triggers-in-campaign
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 cq-template: /apps/help/templates/article-3
-discoiquuid: f8263963-55a7-43d4-9fa7-c2457e84a0e8
+discoiquuid: 918c2d86-84cf-4503-9ed3-02ee4d3a7d3f
 firstPublishExternalDate: 2018-09-07T15:08:26.526-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,18 +33,18 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Using Triggers in Campaign
 publishexternaldate: 2018-09-07T15 08 26.526-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/using-triggers-in-campaign.html
-sha1: 52c4cfd80641ee0766c35f7d4cc96be7486d8001
+sha1: 4e73d94694f729997503e47a9f66a3515a6251e8
 topicBrowsingSortDate: 2018-09-07T15:08:26.526-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Using Triggers in Campaign
+# Using Triggers in Campaign{#using-triggers-in-campaign}
 
 Using Triggers in Campaign
 
-## Creating a mapped trigger in Campaign
+## Creating a mapped trigger in Campaign {#creating-a-mapped-trigger-in-campaign}
 
 You should make sure to define the behaviors that you want to monitor beforehand in Adobe Experience Cloud (**Triggers** core service). For more on this, refer to the [Adobe Experience Cloud documentation](https://marketing.adobe.com/resources/help/en_US/mcloud/triggers.html). Note that when you define the trigger, you need to enable the aliases. For each behavior (browsing/form abandonment, adding/deleting products, session expired, etc.), a new trigger must be added in Adobe Experience Cloud.
 
@@ -84,7 +84,7 @@ The **Show Trigger in Experience Cloud** button allows you to view the trigger d
 
 Once the event has been published, a transactional template linked to the new event is then automatically created. You then have to modify and publish the template that was just created. For more on this, refer to the [Editing the template](../../start/using/about-templates.md) section.
 
-## Editing the transactional message template
+## Editing the transactional message template {#editing-the-transactional-message-template}
 
 Once you have created and published the trigger event, the corresponding transactional template is created automatically. For more on this, refer to the [Creating a mapped trigger in Campaign](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) section.
 
@@ -98,7 +98,7 @@ When editing content, you can add a personalization field based on the informati
 
 ![](assets/remarketing_8.png)
 
-## Accessing the reports
+## Accessing the reports {#accessing-the-reports}
 
 To view the dedicated trigger report in Adobe Campaign, open the trigger event that you previously created, and click **Show trigger report**. 
 

@@ -3,7 +3,7 @@ title: Creating the direct mail
 seo-title: Creating the direct mail
 description: Creating the direct mail
 seo-description: Follow these steps to create a direct mail delivery in Adobe Campaign.
-uuid: 928a967a-d986-4c37-8d39-5bf73edc3903
+uuid: 1551d88c-e118-4987-aaac-fcba3a148196
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/creating-the-direct-mail
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: channels
 content-type: reference
 topic-tags: direct-mail
 cq-template: /apps/help/templates/article-3
-discoiquuid: d5961a3f-4519-4133-ac1e-217edddd804e
+discoiquuid: d24c224d-dd73-4c75-9f29-ad8ee21c3d27
 firstPublishExternalDate: 2018-09-07T15:12:25.292-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,14 +33,14 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Creating the direct mail
 publishexternaldate: 2018-09-07T15 12 25.292-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/creating-the-direct-mail.html
-sha1: d719ff6956e89a6892a64a51de3fa85095d2c7fb
+sha1: b56fbd76e8177062bbcbf323cb876a673ec1bfe8
 topicBrowsingSortDate: 2018-09-07T15:12:25.292-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Creating the direct mail
+# Creating the direct mail{#creating-the-direct-mail}
 
 Creating the direct mail
 

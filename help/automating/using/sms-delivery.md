@@ -3,7 +3,7 @@ title: SMS delivery
 seo-title: SMS delivery
 description: SMS delivery
 seo-description: The SMS delivery activity allows you to configure sending a single send SMS or a recurring SMS in a workflow.
-uuid: 74a5e642-02d7-4ab8-8df8-1e1597f85879
+uuid: e9172e06-2c90-4b20-bc12-15b9673ca65f
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/sms-delivery
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: channel-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: 21d149e5-703b-4f2e-aca5-05deee28d39e
+discoiquuid: ec57ad00-1f73-44d4-8b46-f29c3cb6d7fd
 firstPublishExternalDate: 2018-09-07T15:05:04.469-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,18 +33,18 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: SMS delivery
 publishexternaldate: 2018-09-07T15 05 04.469-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/sms-delivery.html
-sha1: 6252a4d39db6040deb2e9f80ad3723a76a2ac466
+sha1: 86604b2f4ea9a5a80d20ab77c0e412937e161f73
 topicBrowsingSortDate: 2018-09-07T15:05:04.469-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# SMS delivery
+# SMS delivery{#sms-delivery}
 
 SMS delivery
 
-## Description
+## Description {#description}
 
 ![](assets/sms.png)  ![](assets/recurrentSMS.png)
 
@@ -54,7 +54,7 @@ Single send SMS messages are standard SMS, sent once.
 
 Recurring SMS messages allow you to send the same SMS multiple times to different targets over a defined period. You can aggregate the deliveries per period in order to get reports that correspond to your needs.
 
-## Context of use
+## Context of use {#context-of-use}
 
 The **SMS delivery** activity is generally used to automate sending an SMS to a target calculated in the same workflow.
 
@@ -64,7 +64,7 @@ SMS recipients are defined upstream of the activity in the same workflow, via ta
 
 The message preparation is triggered according to the workflow execution parameters. From the message dashboard, you can select whether to request or not a manual confirmation to send the message (required by default). You can start the workflow manually or place a scheduler activity in the workflow to automate execution.
 
-## Configuration
+## Configuration {#configuration}
 
 1. Drag and drop an **SMS delivery** activity into your workflow.
 1. Select the activity, then open it using the  ![](assets/edit_darkgrey-24px.png)
@@ -98,7 +98,7 @@ When you reopen the activity, you are taken directly to the SMS dashboard. Only 
 
 By default, starting a delivery workflow only triggers the message preparation. The sending of messages created from a workflow still needs to be confirmed after the workflow has been started. But from the message dashboard, and only if the message was created from a workflow, you can disable the **Request confirmation before sending messages** option. By unchecking this option, messages are sent without further notice once the preparation is done.
 
-## Remarks
+## Remarks {#remarks}
 
 The deliveries created within a workflow can be accessed in the application's marketing activity list. You can view the workflow's execution status using the dashboard. Links in the SMS summary pane allow you to directly access linked elements (workflow, campaign, parent delivery in case of a recurring SMS).
 
@@ -108,7 +108,7 @@ In the parent deliveries, which can be accessed from the marketing activity list
 
 .
 
-## Example
+## Example {#example}
 
 ![](assets/wkf_SMS_example_1.png)
 

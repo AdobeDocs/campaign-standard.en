@@ -1,9 +1,9 @@
 ---
-title: Optional Editing a resource properties
-seo-title: Optional Editing a resource properties
-description: Optional Editing a resource properties
+title: "Optional: Editing a resource properties"
+seo-title: "Optional: Editing a resource properties"
+description: "Optional: Editing a resource properties"
 seo-description: 
-uuid: f012f94e-c57f-445e-b5d8-c5d1ed9e34c0
+uuid: 6acd1359-46cf-4912-b31e-04b8f1f7ed3b
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/developing/using/optional--editing-a-resource-properties
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 cq-template: /apps/help/templates/article-3
-discoiquuid: 0fac456d-f100-4f14-bbce-3e08526da15a
+discoiquuid: 13c960f5-6822-4bdf-ab2f-4d644aa8577f
 firstPublishExternalDate: 2018-09-07T14:54:36.509-0400
 herogradient: light
 isreadyforlocalization: false
@@ -30,17 +30,17 @@ lastPublishExternalDate: 2018-09-07T14:54:36.509-0400
 lochandoffdate: 2018-09-10T02 19 04.714-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
-navTitle: Optional Editing a resource properties
+navTitle: "Optional: Editing a resource properties"
 publishexternaldate: 2018-09-07T14 54 36.509-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/optional--editing-a-resource-properties.html
-sha1: ea5ee91efd5110ff4873bb926e5ec5e3292c144c
+sha1: 108c4235cb9789d08dcd5ecb272a5892b08f4329
 topicBrowsingSortDate: 2018-09-07T14:54:36.509-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Optional: Editing a resource properties
+# Optional: Editing a resource properties{#optional-editing-a-resource-properties}
 
 Optional: Editing a resource properties
 

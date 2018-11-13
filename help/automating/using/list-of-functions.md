@@ -3,7 +3,7 @@ title: List of functions
 seo-title: List of functions
 description: List of functions
 seo-description: The query editing tool allows you to use advanced functions to carry out complex filtering.
-uuid: e8b05270-66a4-4ba9-9866-05dcbbad4425
+uuid: e15e0250-5b4d-4ccc-b3a5-f221fd1289a4
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/list-of-functions
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: filtering-data
 cq-template: /apps/help/templates/article-3
-discoiquuid: 6d76a322-ce21-4f8d-93a8-176490b5691d
+discoiquuid: 8d2241e7-a6de-4696-b7c5-d32cf90430b7
 firstPublishExternalDate: 2018-09-07T15:08:57.616-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,18 +33,18 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: List of functions
 publishexternaldate: 2018-09-07T15 08 57.616-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/list-of-functions.html
-sha1: e6a80b5fc8ebb674d7a862f7d83f34c66084432a
+sha1: bbdffeb0f5f3a9f40ca6abc2eafba1baa81b0e42
 topicBrowsingSortDate: 2018-09-07T15:08:57.616-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# List of functions
+# List of functions{#list-of-functions}
 
 List of functions
 
-## About functions
+## About functions {#about-functions}
 
 The query editing tool allows you to use advanced functions to carry out complex filtering. To do this, the tool palette contains the **Expression** element that you can use in the workspace. Further information on this element is detailed in a [specific section](../../automating/using/advanced-expression-editing.md).
 
@@ -60,7 +60,7 @@ Several function types are available, depending on the desired results and the t
 * String manipulation
 * Sorting
 
-## Dates
+## Dates {#dates}
 
 The date functions are used to manipulate date or time values. 
 
@@ -299,7 +299,7 @@ The date functions are used to manipulate date or time values.
  </tbody> 
 </table>
 
-## Geomarketing
+## Geomarketing {#geomarketing}
 
 The geomarketing functions are used to manipulate geographical values. 
 
@@ -318,7 +318,7 @@ The geomarketing functions are used to manipulate geographical values.
  </tbody> 
 </table>
 
-## Numerical
+## Numerical {#numerical}
 
 The numerical value functions are used to convert text to numbers. 
 
@@ -402,7 +402,7 @@ The numerical value functions are used to convert text to numbers.
  </tbody> 
 </table>
 
-## Others
+## Others {#others}
 
 This table contains the remaining functions avalaible. 
 
@@ -501,7 +501,7 @@ This table contains the remaining functions avalaible.
  </tbody> 
 </table>
 
-## String
+## String {#string}
 
 The string functions are used to manipulate a set of strings.
 
@@ -685,7 +685,7 @@ The string functions are used to manipulate a set of strings.
  </tbody> 
 </table>
 
-## Aggregates
+## Aggregates {#aggregates}
 
 The aggregation functions are only available when [adding additional data](../../automating/using/query.md#enriching-data) from a workflow's **Query** activity.
 
@@ -736,7 +736,7 @@ The aggregate functions are used to perform calculations on a set of values.
  </tbody> 
 </table>
 
-## Representation
+## Representation {#representation}
 
 The representation functions are used to order values. 
 

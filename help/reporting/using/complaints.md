@@ -3,7 +3,7 @@ title: Complaints
 seo-title: Complaints
 description: Complaints
 seo-description: With the Complaints out-of-the-box report, learn how many time delivery was declared as spam.
-uuid: d640dd76-7a41-46bf-80c6-b249bd150555
+uuid: 2fed7887-9a87-47b5-a91f-e00aac8b34e1
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/reporting/using/complaints
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 cq-template: /apps/help/templates/article-3
-discoiquuid: b2452d50-6470-46d7-9190-35c602bf2644
+discoiquuid: c579d138-a12f-4e30-af75-5d59960456d1
 firstPublishExternalDate: 2018-09-07T15:08:08.482-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,14 +33,14 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Complaints
 publishexternaldate: 2018-09-07T15 08 08.482-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/complaints.html
-sha1: d8a7faf36d559050c9706b84cc674d5141062fd9
+sha1: 114ca00e0d2cf3d4f05c33a3288db1d7cc2a4241
 topicBrowsingSortDate: 2018-09-07T15:08:08.482-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Complaints
+# Complaints{#complaints}
 
 Complaints
 

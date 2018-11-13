@@ -3,7 +3,7 @@ title: About SMS messages
 seo-title: About SMS messages
 description: About SMS messages
 seo-description: Discover the main specificities of the SMS channel in Adobe Campaign.
-uuid: 73c8d994-15ee-49b8-becf-a032ce648699
+uuid: ccc6bdf6-c641-40df-aec5-180025a80a7c
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/about-sms-messages
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: channels
 content-type: reference
 topic-tags: sms-messages
 cq-template: /apps/help/templates/article-3
-discoiquuid: de8e7fbd-3648-4213-a577-d96a30a0c7a2
+discoiquuid: f682039f-bbab-4e4b-a732-b1f9d62b975e
 firstPublishExternalDate: 2018-09-07T15:11:46.712-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,14 +33,14 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About SMS messages
 publishexternaldate: 2018-09-07T15 11 46.712-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/about-sms-messages.html
-sha1: ad0c15561183d9953c66d9ee3ba7319e081560bd
+sha1: 4dd7436cbca884bd14c267b4b318d6ae9278a092
 topicBrowsingSortDate: 2018-09-07T15:11:46.712-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# About SMS messages
+# About SMS messages{#about-sms-messages}
 
 About SMS messages
 
@@ -66,7 +66,7 @@ To deliver SMS messages to a mobile telephone you need:
 * [Managing templates](../../start/using/about-templates.md)
 * [SMS configuration](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)
 
-## SMS delivery template
+## SMS delivery template {#sms-delivery-template}
 
 Adobe Campaign offers a delivery template for mobile devices. This template must be correctly linked to the external account used for the **Mobile (SMS)** channel. To access and modify it:
 

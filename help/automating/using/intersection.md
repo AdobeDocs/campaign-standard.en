@@ -3,7 +3,7 @@ title: Intersection
 seo-title: Intersection
 description: Intersection
 seo-description: The Intersection activity allows you to keep only the elements common to the different inbound populations in the activity.
-uuid: f7d322bb-f533-4223-950e-a1d80e6b6ebb
+uuid: 7f90dd29-55bb-4f94-af9f-b9d6c9f77781
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/intersection
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: 3d884497-af61-4e32-89f6-02c411a7e438
+discoiquuid: 8102d55a-d8a3-4c09-a7dc-f3e7f50a5759
 firstPublishExternalDate: 2018-09-07T14:53:05.163-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,28 +33,28 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Intersection
 publishexternaldate: 2018-09-07T14 53 05.163-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/intersection.html
-sha1: 0192dd4cb6870475d015f9535421b0c333084fb5
+sha1: df024bb6bb171fce927e0f86405ba8b83aea7c9f
 topicBrowsingSortDate: 2018-09-07T14:53:05.163-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Intersection
+# Intersection{#intersection}
 
 Intersection
 
-## Description
+## Description {#description}
 
 ![](assets/intersection.png)
 
 The **Intersection** activity allows you to keep only the elements common to the different inbound populations in the activity.
 
-## Context of use
+## Context of use {#context-of-use}
 
 The **Intersection** activity is generally used to carry out additional filtering on populations from inbound transitions.
 
-## Configuration
+## Configuration {#configuration}
 
 1. Drag and drop an **Intersection** activity into your workflow.
 1. Connect it to the other activities that come before it, such as queries.
@@ -71,7 +71,7 @@ The **Intersection** activity is generally used to carry out additional filterin
 1. If needed, manage the activity's [Transitions](../../automating/using/executing-a-workflow.md#managing-an-activity-s-outbound-transitions) to access the advanced options for the outbound population.
 1. Confirm the configuration of your activity and save your workflow.
 
-## Example
+## Example {#example}
 
 The following example shows the intersection between two query activities. It is being used here to look into the Adobe Campaign database and retrieve profiles who are between 18 to 27 years old and profiles whose email address has been provided respectively.
 

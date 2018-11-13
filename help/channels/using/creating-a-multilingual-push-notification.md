@@ -3,7 +3,7 @@ title: Creating a multilingual push notification
 seo-title: Creating a multilingual push notification
 description: Creating a multilingual push notification
 seo-description: Create multilingual push notifications to target your users in their preferred languages and regions.
-uuid: 1cf141ca-9dd0-487a-b426-245d24caad67
+uuid: 49bcc685-5074-4ff9-a215-057805029b96
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/creating-a-multilingual-push-notification
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 cq-template: /apps/help/templates/article-3
-discoiquuid: 21132939-4dc5-4567-a3a3-3c4d3a851d55
+discoiquuid: d6ae85c3-b687-4f60-a2cc-0f3ef39b9fda
 firstPublishExternalDate: 2018-09-07T15:11:57.384-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,18 +33,18 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Creating a multilingual push notification
 publishexternaldate: 2018-09-07T15 11 57.384-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/creating-a-multilingual-push-notification.html
-sha1: a4bed00f2c8586b143ef26ca2efd7d4f86dccccf
+sha1: e745c87882d1e03e51772081ecc7639a0983ec52
 topicBrowsingSortDate: 2018-09-07T15:11:57.384-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Creating a multilingual push notification
+# Creating a multilingual push notification{#creating-a-multilingual-push-notification}
 
 Creating a multilingual push notification
 
-## About multilingual push notification
+## About multilingual push notification {#about-multilingual-push-notification}
 
 Personalize your push notification content by sending messages based on your users' preferred languages and regions. You can directly import multilingual push notification content variants in the content editor and send a multilingual push notification in a single delivery.
 
@@ -58,7 +58,7 @@ To use multilingual content variants for your push notification delivery, follow
 1. [Step 2: Preview and finalize a push notification using multilingual content variants](../../channels/using/creating-a-multilingual-push-notification.md#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants)
 1. [Step 3: Send and analyze multilingual push notification delivery](../../channels/using/creating-a-multilingual-push-notification.md#step-3--send-and-analyze-multilingual-push-notification-delivery)
 
-## Step 1: Upload multilingual content variant
+## Step 1: Upload multilingual content variant {#step-upload-multilingual-content-variant}
 
 Before personalizing your multilingual push notification, we first need to upload the content variants in a multilingual delivery template and create the delivery.
 
@@ -101,7 +101,7 @@ Before personalizing your multilingual push notification, we first need to uploa
 
 You can now start personalizing your multilingual push notification.
 
-## Step 2: Preview and finalize a push notification using multilingual content variants
+## Step 2: Preview and finalize a push notification using multilingual content variants {#step-preview-and-finalize-a-push-notification-using-multilingual-content-variants}
 
 After uploading the file containing content variants, you can now preview the different variants from your push notification delivery.
 
@@ -129,7 +129,7 @@ It is also possible to create and edit more variants in addition to the ones upl
 
 Your multilingual push notification delivery is now ready to be sent.
 
-## Step 3: Send and analyze multilingual push notification delivery
+## Step 3: Send and analyze multilingual push notification delivery {#step-send-and-analyze-multilingual-push-notification-delivery}
 
 Your multilingual content variant push notifications are now ready to be sent to your users.
 

@@ -3,7 +3,7 @@ title: About extending profiles
 seo-title: About extending profiles
 description: About extending profiles
 seo-description: 
-uuid: bb709222-3910-471f-849a-2390a2fa149d
+uuid: d305b4f5-3f56-4aba-896d-ee955adce7ba
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/developing/using/about-extending-profiles
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: developing
 content-type: reference
 topic-tags: use-case--extending-profiles
 cq-template: /apps/help/templates/article-3
-discoiquuid: 0d8d38a1-e583-48d0-8e3e-218d8d61c387
+discoiquuid: ac1a0911-2d71-492a-b493-f33d3492f0e8
 firstPublishExternalDate: 2018-09-07T14:58:46.870-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,14 +33,14 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About extending profiles
 publishexternaldate: 2018-09-07T14 58 46.870-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/about-extending-profiles.html
-sha1: 7b3ba1028ed1f3f75b0ad50cf012bfc8d1b0f681
+sha1: dfff574fcf214e5ec1d694cfaf28c1e90723a849
 topicBrowsingSortDate: 2018-09-07T14:58:46.870-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# About extending profiles
+# About extending profiles{#about-extending-profiles}
 
 About extending profiles
 

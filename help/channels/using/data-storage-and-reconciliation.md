@@ -3,7 +3,7 @@ title: Data storage and reconciliation
 seo-title: Data storage and reconciliation
 description: Data storage and reconciliation
 seo-description: Adobe Campaign allows you to define how the data entered in the landing page is managed once submitted by a user.
-uuid: cca9dc28-f079-4f32-9ec2-458a7774c41a
+uuid: 6fb4cf25-ed2b-481a-b4a8-4ee05c589940
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/data-storage-and-reconciliation
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 cq-template: /apps/help/templates/article-3
-discoiquuid: fe20a611-ff34-4236-9b3e-08fd69e56f8b
+discoiquuid: 5ec1d23c-843a-4a6e-a10e-87b0c23b4b87
 firstPublishExternalDate: 2018-09-07T15:12:37.249-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,14 +33,14 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Data storage and reconciliation
 publishexternaldate: 2018-09-07T15 12 37.249-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/data-storage-and-reconciliation.html
-sha1: 9895de445783208532eaeadd03ef58e584636384
+sha1: cfb67778751cc497fe187d2aaaba48d21d43d4a3
 topicBrowsingSortDate: 2018-09-07T15:12:37.249-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Data storage and reconciliation
+# Data storage and reconciliation{#data-storage-and-reconciliation}
 
 Data storage and reconciliation
 

@@ -3,7 +3,7 @@ title: Enrichment
 seo-title: Enrichment
 description: Enrichment
 seo-description: The Enrichment activity is an advanced activity that allows you to define additional data to process in your workflow.
-uuid: 35b643a0-2b82-4bb7-9bcc-88bf1b1f41b0
+uuid: e9621ab4-4d6e-4ff0-b363-52383caf7b7e
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/enrichment
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: 4e68065c-335d-411c-86f8-7c81662ca461
+discoiquuid: 4e00db45-fa92-4320-ac8c-1d3869fd507a
 firstPublishExternalDate: 2018-09-07T14:56:44.379-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,24 +33,24 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Enrichment
 publishexternaldate: 2018-09-07T14 56 44.379-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/enrichment.html
-sha1: 3e3ba6724b911bc5bb997aea898e96eff3c3c044
+sha1: ba0bf4608c6b7cd8d46b4413d1eafe2859b60ffd
 topicBrowsingSortDate: 2018-09-07T14:56:44.379-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Enrichment
+# Enrichment{#enrichment}
 
 Enrichment
 
-## Description
+## Description {#description}
 
 ![](assets/enrichment.png)
 
 The **Enrichment** activity is an advanced activity that allows you to define additional data to process in your workflow.
 
-## Context of use
+## Context of use {#context-of-use}
 
 The **Enrichment** activity is generally used following targeting activities or after importing a file and before activities that allow the use of targeted data.
 
@@ -58,7 +58,7 @@ This activity contains more advanced enrichment functions than the **Query** act
 
 With the **Enrichment** activity, you can leverage the inbound transition and configure the activity to complete the output transition with additional data. It allows to combine data coming from multiple sets, or to create links to a temporary resource.
 
-## Configuration
+## Configuration {#configuration}
 
 To configure an **Enrichment** activity:
 
@@ -94,7 +94,7 @@ To configure an **Enrichment** activity:
 
 The data is now available to use in the activities connected after the **Enrichment**. For example, you can find it under the **Additional data (targetData)** link of the personalization fields explorer in an email content.
 
-## Example: Enriching profile data with data contained in a file
+## Example: Enriching profile data with data contained in a file {#example-enriching-profile-data-with-data-contained-in-a-file}
 
 This example shows how to enrich profile data with purchase data contained in a file. We consider here that the purchase data are stored in a third-party system. Each profile can have several purchases stored in the file. The final goal of the workflow is to send an email to the target profiles who have purchased at least two items to thank them for their loyalty.
 

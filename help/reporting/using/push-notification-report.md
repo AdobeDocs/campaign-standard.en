@@ -3,7 +3,7 @@ title: Push notification report
 seo-title: Push notification report
 description: Push notification report
 seo-description: With the Push notification out-of-the-box report, learn about the success of your push notifications.
-uuid: 2b8d6edf-6482-462d-bda4-0ff9ce8af9d2
+uuid: 03a1e282-2cd1-41a2-a94b-a46f6ac4643d
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/reporting/using/push-notification-report
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 cq-template: /apps/help/templates/article-3
-discoiquuid: 401b3e55-7e8f-45d2-8eb0-dd42d1753d09
+discoiquuid: 3ca706b8-3b81-4283-87a7-25b59b76912e
 firstPublishExternalDate: 2018-09-07T15:08:24.746-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,14 +33,14 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Push notification report
 publishexternaldate: 2018-09-07T15 08 24.746-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/push-notification-report.html
-sha1: eb1137d77776de06e526e106b5c06bda7534ab8d
+sha1: 05c645ae4568dadea15a37dc64bd3e91c2bf01a6
 topicBrowsingSortDate: 2018-09-07T15:08:24.746-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Push notification report
+# Push notification report{#push-notification-report}
 
 Push notification report
 

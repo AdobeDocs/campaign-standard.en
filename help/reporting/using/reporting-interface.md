@@ -3,7 +3,7 @@ title: Reporting interface
 seo-title: Reporting interface
 description: Reporting interface
 seo-description: Learn more about Dynamic report interface basis and how to navigate through the different tabs and menus.
-uuid: c1e6904c-1231-4771-931c-b6224726a2c1
+uuid: b0744f3e-4434-457d-8fbc-111376da73ab
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/reporting/using/reporting-interface
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: reporting
 content-type: reference
 topic-tags: about-reporting
 cq-template: /apps/help/templates/article-3
-discoiquuid: b81dbed4-6c03-4166-ad81-53a5e2847e3b
+discoiquuid: 6cdbfb88-4ee8-40f2-8a5e-f94185759e40
 firstPublishExternalDate: 2018-09-07T15:01:07.523-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,14 +33,14 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Reporting interface
 publishexternaldate: 2018-09-07T15 01 07.523-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/reporting-interface.html
-sha1: 0bdbaa21c60e8130b34d8bd360a49a0117321b63
+sha1: 8ccdf139a9be5ba1099f3f72d337d84028f6446b
 topicBrowsingSortDate: 2018-09-07T15:01:07.523-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Reporting interface
+# Reporting interface{#reporting-interface}
 
 Reporting interface
 
@@ -73,7 +73,7 @@ The **Insert** table lets you customize your reports by adding graphs and tables
 * [Adding visualizations](../../reporting/using/adding-visualizations.md)
 * [Adding components](../../reporting/using/adding-components.md)
 
-## Tabs
+## Tabs {#tabs}
 
 The left tabs let you build your report and filter your data as needed.
 
@@ -85,7 +85,7 @@ These tabs give you access to the following items:
 * **Visualizations**: drag and drop a selection of visualization items to give your report a graphical dimension. For more on this, refer to the Adding visualizations section.
 * **Components**: customize your reports with different dimensions, metrics, segments and time periods.
 
-## Toolbar
+## Toolbar {#toolbar}
 
 The toolbar can be found above your workspace. Composed of different tabs, it allows you, for example, to modify, save, share or print your report.
 
@@ -97,7 +97,7 @@ The toolbar can be found above your workspace. Composed of different tabs, it al
 * [Adding visualizations](../../reporting/using/adding-visualizations.md)
 * [Adding components](../../reporting/using/adding-components.md)
 
-### Project tab
+### Project tab {#project-tab}
 
 ![](assets/tab_project.png)
 
@@ -109,7 +109,7 @@ Use the** Project** tab to:
 * **Download CSV**: Exports your reports to a CSV file.
 * **Print**: Print your report.
 
-### Edit tab
+### Edit tab {#edit-tab}
 
 ![](assets/tab_edit.png)
 
@@ -118,7 +118,7 @@ The **Edit** tab allows you to:
 * **Undo**: Cancels your last action on your dashboard.
 * **Clear all**: Deletes every panel on your dashboard.
 
-### Insert tab
+### Insert tab {#insert-tab}
 
 ![](assets/tab_insert.png)
 
@@ -129,7 +129,7 @@ The **Insert** tab lets you customize your reports by adding graphs and tables t
 * **New Line**: Adds a new line graph to your dashboard.
 * **New Bar**: Adds a new bar graph to your dashboard.
 
-### Share tab
+### Share tab {#share-tab}
 
 ![](assets/tab_share_1.png)
 

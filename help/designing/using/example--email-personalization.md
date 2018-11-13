@@ -1,9 +1,9 @@
 ---
-title: Example Email personalization
-seo-title: Example Email personalization
-description: Example Email personalization
+title: "Example: Email personalization"
+seo-title: "Example: Email personalization"
+description: "Example: Email personalization"
 seo-description: See a full example of personalizing an email with dynamic content and text according to the recipients' ages.
-uuid: c4cef99e-5c77-4e2a-8094-7b628c836b3a
+uuid: 226e2458-15d5-47e2-8d72-35fff8c3cc06
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/example--email-personalization
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: personalizing-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: bcffcb1e-b6b6-4664-8590-66b43db2aa80
+discoiquuid: 320405ff-cbcd-4fa9-89c5-393af5ceddd7
 firstPublishExternalDate: 2018-09-07T15:03:19.887-0400
 herogradient: light
 isreadyforlocalization: false
@@ -30,17 +30,17 @@ lastPublishExternalDate: 2018-09-07T15:03:19.887-0400
 lochandoffdate: 2018-09-10T07 25 28.817-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
-navTitle: Example Email personalization
+navTitle: "Example: Email personalization"
 publishexternaldate: 2018-09-07T15 03 19.887-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/example--email-personalization.html
-sha1: 13afa411b0358c3ba433846b90575773ce6d254f
+sha1: 25ee2deff484385dd6e9953b5f80678be4ba5791
 topicBrowsingSortDate: 2018-09-07T15:03:19.887-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Example: Email personalization
+# Example: Email personalization{#example-email-personalization}
 
 Example: Email personalization
 
@@ -64,7 +64,7 @@ The email is created as follows:
 
   ![](assets/delivery_content_44.png)
 
-## Configuring images
+## Configuring images {#configuring-images}
 
 In this example, the dynamic contents applied to the images are configured as follows:
 
@@ -102,7 +102,7 @@ In this example, the dynamic contents applied to the images are configured as fo
 
 Your dynamic contents are correctly configured.
 
-## Configuring text
+## Configuring text {#configuring-text}
 
 In this example, the dynamic contents applied to the texts are configured as follows:
 
@@ -133,7 +133,7 @@ In this example, the dynamic contents applied to the texts are configured as fol
 
 Your personalization fields should now be perfectly inserted into the chosen dynamic content.
 
-## Previewing emails
+## Previewing emails {#previewing-emails}
 
 Previewing allows you to check that the personalization fields and the dynamic contents are configured correctly before sending the **Proofs**. During the preview, you can select different test profiles corresponding to the email targets.
 

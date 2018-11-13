@@ -2,8 +2,8 @@
 title: Integrated customer profile
 seo-title: Integrated customer profile
 description: Integrated customer profile
-seo-description: Track every customer interaction in a single view Adobe Campaign integrated customer profile is updated throughout the customer life cycle.
-uuid: 196b34ac-7bf1-4c65-960c-038151a396db
+seo-description: "Track every customer interaction in a single view: Adobe Campaign integrated customer profile is updated throughout the customer life cycle."
+uuid: 2aed0a94-a3a0-4be9-9838-50aa718aff60
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/audiences/using/integrated-customer-profile
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 cq-template: /apps/help/templates/article-3
-discoiquuid: 9263c44b-09b4-44de-86fe-c721259b12ed
+discoiquuid: e4567987-6082-48fb-8241-a7e73ffaddae
 firstPublishExternalDate: 2018-09-07T14:44:22.524-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,14 +33,14 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Integrated customer profile
 publishexternaldate: 2018-09-07T14 44 22.524-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/audiences/using/integrated-customer-profile.html
-sha1: ee1a6956970f8474f25fc0c550af172b98547944
+sha1: 985dabb0740fc2d0734f5f18c7e9bbfece092aa7
 topicBrowsingSortDate: 2018-09-07T14:44:22.524-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Integrated customer profile
+# Integrated customer profile{#integrated-customer-profile}
 
 Integrated customer profile
 

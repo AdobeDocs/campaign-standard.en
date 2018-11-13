@@ -3,7 +3,7 @@ title: About typology rules
 seo-title: About typology rules
 description: About typology rules
 seo-description: Discover how typology rules work in Adobe Campaign.
-uuid: fae59469-0f72-4009-8f8d-968d2542af67
+uuid: d026bb86-4ab2-46d1-9b8d-cd862c3cd42f
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/about-typology-rules
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
 cq-template: /apps/help/templates/article-3
-discoiquuid: 454b7983-5d25-489c-b3b9-f93a039acaf4
+discoiquuid: 5698a355-2ffb-44a7-86fd-5635510619aa
 firstPublishExternalDate: 2018-09-07T14:58:33.940-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,14 +33,14 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About typology rules
 publishexternaldate: 2018-09-07T14 58 33.940-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/about-typology-rules.html
-sha1: 41eccd1fe593a6800d035aaa0eaaacba16522d4d
+sha1: 631b65b8c47d05d5fcb5e54df5a4e3a4d3df6325
 topicBrowsingSortDate: 2018-09-07T14:58:33.940-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# About typology rules
+# About typology rules{#about-typology-rules}
 
 About typology rules
 
@@ -56,7 +56,7 @@ For each typology, the **Typology rules** section lists the set of rules for thi
 
 ![](assets/typology_typo-rule-list.png)
 
-## Managing typologies
+## Managing typologies {#managing-typologies}
 
 Several typologies are present by default in the application. Based on your needs, you can create your own typologies or modify existing ones.
 
@@ -78,7 +78,7 @@ Your typology is ready to be used. You can select it in message properties or in
 >
 >The **IP affinity** field allows you to manage the affinities according to your configuration. These are defined in the instance's configuration file. If you want to use the affinities, contact your administrator.
 
-## Typology rules
+## Typology rules {#typology-rules}
 
 Typology rules are business rules that are applied during the message preparation. They are used to check whether a message is valid and meets your quality criteria. They also check if each member of the target audience is eligible to receive the message.
 
@@ -112,7 +112,7 @@ By default, filtering is carried out on the **Profiles**. For example, if the ru
 >
 >As the content of the control rules cannot be modified, they are essentially filtering rules that are used.
 
-## Typology rules execution order
+## Typology rules execution order {#typology-rules-execution-order}
 
 The typology rules are executed in an order specified during the targeting, analysis, and message personalization phases.
 

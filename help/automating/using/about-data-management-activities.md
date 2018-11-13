@@ -3,7 +3,7 @@ title: About data management activities
 seo-title: About data management activities
 description: About data management activities
 seo-description: Datamangement activities are available from the left-hand side of the screen.
-uuid: 0fe59806-aec5-4364-99e9-38b7e9edd4cf
+uuid: 28d5d9c4-05bb-4b84-9394-b8a50cac99bc
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/about-data-management-activities
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: e58f34c4-a26f-4448-9f2b-7a5a40158072
+discoiquuid: e9947744-633c-4e1d-9ea4-27a9df903935
 firstPublishExternalDate: 2018-09-07T15:08:08.381-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,14 +33,14 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About data management activities
 publishexternaldate: 2018-09-07T15 08 08.381-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/about-data-management-activities.html
-sha1: 5d933d436647236478a6b239d644dda17a85abf4
+sha1: ba8a8dde51bd1a47e72e5d64110f1da672e7288f
 topicBrowsingSortDate: 2018-09-07T15:08:08.381-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# About data management activities
+# About data management activities{#about-data-management-activities}
 
 About data management activities
 

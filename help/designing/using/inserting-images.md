@@ -3,7 +3,7 @@ title: Inserting images
 seo-title: Inserting images
 description: Inserting images
 seo-description: Learn how to add images to your content.
-uuid: b593eadc-7a66-4812-bed1-bf5149c74514
+uuid: 13520a5f-8407-4fe2-8fb0-ab4d65a3cdbe
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/inserting-images
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: using-images
 cq-template: /apps/help/templates/article-3
-discoiquuid: 7d2f6ce8-55e1-4c12-bd6c-fbb49403933c
+discoiquuid: d7695f6f-239a-49f5-b7cf-31c510af19dd
 firstPublishExternalDate: 2018-09-07T14:56:14.632-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,14 +33,14 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Inserting images
 publishexternaldate: 2018-09-07T14 56 14.632-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/inserting-images.html
-sha1: d4a582c79a73350591bdf9c63e9be85bab3fbd13
+sha1: 7113dc4eda8e81ff8743031648f036498a81dfaa
 topicBrowsingSortDate: 2018-09-07T14:56:14.632-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Inserting images
+# Inserting images{#inserting-images}
 
 Inserting images
 
@@ -58,7 +58,7 @@ If enabled, you can modify images with the Adobe Creative SDK. See [Modifying im
 >
 >If you choose to add an image directly by editing the HTML version of the email, you must not call up **external files in a **
 
-## Inserting images in an email
+## Inserting images in an email {#inserting-images-in-an-email}
 
 This section describes how to add images to an email using the [Creative Designer](../../designing/using/about-email-content-design.md#using-the-creative-designer). If you are using the [content editor](../../designing/using/about-email-content-design.md#using-the-email-content-editor), see [Inserting images in a landing page](../../designing/using/inserting-images.md#inserting-images-in-a-landing-page) as the process is the same.
 
@@ -80,7 +80,7 @@ This section describes how to add images to an email using the [Creative Designe
 
 [Editing the email structure with the Creative Designer](../../designing/using/defining-the-email-structure.md#editing-the-email-structure-with-the-creative-designer)
 
-## Inserting images in a landing page
+## Inserting images in a landing page {#inserting-images-in-a-landing-page}
 
 1. Select a block containing an image.
 1. Use the **Insert** button.

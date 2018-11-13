@@ -3,7 +3,7 @@ title: Adding visualizations
 seo-title: Adding visualizations
 description: Adding visualizations
 seo-description: Dynamic reports offer a set of visualizations to add a graphical representation to your report.
-uuid: 954ffd1d-2f70-44d1-98ed-3286a6023fae
+uuid: 5a1d621b-ffc7-4270-a47f-706157fe8d57
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/reporting/using/adding-visualizations
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: reporting
 content-type: reference
 topic-tags: customizing-reports
 cq-template: /apps/help/templates/article-3
-discoiquuid: b1c0a867-a597-4008-836a-57dc413672a2
+discoiquuid: 050425d0-ff0d-4905-9afe-36daefe0f134
 firstPublishExternalDate: 2018-09-07T15:08:47.554-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,14 +33,14 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Adding visualizations
 publishexternaldate: 2018-09-07T15 08 47.554-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/adding-visualizations.html
-sha1: 2f655cd47033a7c761a24775bf00348a6e14ffa3
+sha1: 53cf5f3edce30171c31b4a5f12920f7a14d4d28d
 topicBrowsingSortDate: 2018-09-07T15:08:47.554-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Adding visualizations
+# Adding visualizations{#adding-visualizations}
 
 Adding visualizations
 

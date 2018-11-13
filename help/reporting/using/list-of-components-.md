@@ -3,7 +3,7 @@ title: List of components
 seo-title: List of components 
 description: List of components 
 seo-description: Find here the list of every components available in Dynamic reports as well as their definitions.
-uuid: a082c12d-b063-4ac4-9ab2-eb75b2379760
+uuid: 2982b8a0-325d-44dc-a252-173a99e6503b
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/reporting/using/list-of-components-
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: reporting
 content-type: reference
 topic-tags: about-reporting
 cq-template: /apps/help/templates/article-3
-discoiquuid: 3c2316bb-feb2-4086-99a5-d93f386af290
+discoiquuid: 4297ebec-c0f1-4373-b768-75305b8ea5ab
 firstPublishExternalDate: 2018-09-07T15:02:17.342-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,18 +33,18 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: List of components 
 publishexternaldate: 2018-09-07T15 02 17.342-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/list-of-components-.html
-sha1: 79f217b8185d2d33deb31546d2818217d12829e7
+sha1: d58a0c4e3bf189945cb53157dcb7210ae2a19bd1
 topicBrowsingSortDate: 2018-09-07T15:02:17.342-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# List of components 
+# List of components {#list-of-components}
 
 List of components
 
-## Dimensions
+## Dimensions {#dimensions}
 
 The table below gives you the list of dimensions used in reports and their definitions.
 
@@ -151,7 +151,7 @@ The table below gives you the list of dimensions used in reports and their defin
  </tbody> 
 </table>
 
-## Metrics
+## Metrics {#metrics}
 
 The table below gives you the list of metrics used in reports and their definitions.
 
@@ -266,7 +266,7 @@ The table below gives you the list of metrics used in reports and their definiti
  </tbody> 
 </table>
 
-## Segments
+## Segments {#segments}
 
 The table below gives you the list of segments used in reports and their definitions.
 

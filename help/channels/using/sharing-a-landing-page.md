@@ -3,7 +3,7 @@ title: Sharing a landing page
 seo-title: Sharing a landing page
 description: Sharing a landing page
 seo-description: Learn how to test and publish a landing page in Adobe Campaign.
-uuid: d792aaa6-3396-4811-9946-6c76a999d46a
+uuid: 0452f90c-c8c1-46b5-886a-2d2e3af52793
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/sharing-a-landing-page
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 cq-template: /apps/help/templates/article-3
-discoiquuid: 1268306a-639e-46fe-83bb-1b53394f690f
+discoiquuid: 5ea9d4fc-2a09-4534-a35e-7da383aef422
 firstPublishExternalDate: 2018-09-07T15:12:36.257-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,22 +33,22 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Sharing a landing page
 publishexternaldate: 2018-09-07T15 12 36.257-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/sharing-a-landing-page.html
-sha1: 233c64868035ba14494fb4d949a4ae7a1b158782
+sha1: e2e1efc2bbc1c289e25dc85712dd16939b731394
 topicBrowsingSortDate: 2018-09-07T15:12:36.257-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Sharing a landing page
+# Sharing a landing page{#sharing-a-landing-page}
 
 Sharing a landing page
 
-## About landing page publication
+## About landing page publication {#about-landing-page-publication}
 
 Before publishing a landing page, you need to perform tests: validate the execution, configure access and set up your landing page end-of-life. These steps are prerequisites and need to be executed with caution.
 
-## Testing the landing page
+## Testing the landing page {#testing-the-landing-page}
 
 As the landing page will impact your platform and data, you need to test carefully its execution. To do this:
 
@@ -68,7 +68,7 @@ As the landing page will impact your platform and data, you need to test careful
 
    You can also generate the landing page thumbnail from this screen.
 
-## Setting up validity parameters
+## Setting up validity parameters {#setting-up-validity-parameters}
 
 Before publishing, for security reasons and platform performances, we highly recommend you to set an expiration date in the landing page properties. On the selected date, the landing page is automatically unpublished. To do this:
 
@@ -90,7 +90,7 @@ Before publishing, for security reasons and platform performances, we highly rec
 >
 >You can also define a deployment date and time: the landing page will then be automatically published on the specified date.
 
-## Publishing a landing page
+## Publishing a landing page {#publishing-a-landing-page}
 
 When you publish a landing page, it goes live and can be accessed by your visitors.
 

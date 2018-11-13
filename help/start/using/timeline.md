@@ -3,7 +3,7 @@ title: Timeline
 seo-title: Timeline
 description: Timeline
 seo-description: Learn how to visualize programs that are in progress and their content using the Adobe Campaign Standard interface.
-uuid: 94f164e2-2ced-4c02-b80e-c77c37f2328a
+uuid: 8f327573-99ad-4fb5-8c99-1ceb72dd0e6a
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/start/using/timeline
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: start
 content-type: reference
 topic-tags: marketing-plans
 cq-template: /apps/help/templates/article-3
-discoiquuid: 584257ac-ce52-435c-905e-fe415a630dd1
+discoiquuid: 4563b2fd-1e45-449b-9d11-62dda5e983a4
 firstPublishExternalDate: 2018-09-07T15:08:32.100-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,14 +33,14 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Timeline
 publishexternaldate: 2018-09-07T15 08 32.100-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/start/using/timeline.html
-sha1: 82b6ae1d59b8b0cd25b305e2088a1882ef2666b4
+sha1: a3cf2595fd97bea1399a70afa974773b29e6ecf3
 topicBrowsingSortDate: 2018-09-07T15:08:32.100-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Timeline
+# Timeline{#timeline}
 
 Timeline
 

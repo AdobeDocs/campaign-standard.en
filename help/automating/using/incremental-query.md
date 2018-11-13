@@ -3,7 +3,7 @@ title: Incremental query
 seo-title: Incremental query
 description: Incremental query
 seo-description: The Incremental query activity allows you to filter and extract a population of elements from the Adobe Campaign database.
-uuid: 80fe3640-3ab1-448a-8f91-711fdbe1c6b7
+uuid: b382cb39-3382-4a73-96ab-a76bc71dbde6
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/incremental-query
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: 5e8bbdea-a127-4e9d-a741-5eb35da98f7c
+discoiquuid: 6e4034fe-7bc4-497e-a3f4-1da8793c896e
 firstPublishExternalDate: 2018-09-07T14:51:38.403-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,18 +33,18 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Incremental query
 publishexternaldate: 2018-09-07T14 51 38.403-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/incremental-query.html
-sha1: 21d254f7ff441fd475a48f2f06785178c3958dcc
+sha1: 984624f46d317b397baea8335c2c8fd786052524
 topicBrowsingSortDate: 2018-09-07T14:51:38.403-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Incremental query
+# Incremental query{#incremental-query}
 
 Incremental query
 
-## Description
+## Description {#description}
 
 ![](assets/incremental.png)
 
@@ -54,7 +54,7 @@ You can define **Additional data** for the targeted population via a dedicated t
 
 The activity uses the query editor tool. This tool is detailed in a [dedicated section](../../automating/using/editing-queries.md#about-query-editor).
 
-## Context of use
+## Context of use {#context-of-use}
 
 An **Incremental query** has to be linked to a **Scheduler** in order to define the execution frequency of the workflow, and therefore the query.
 
@@ -65,7 +65,7 @@ The **Incremental query** activity can be used for various types of uses:
 * Segmenting individuals to define the target of a message, audience, etc.
 * Exporting data.
 
-## Configuration
+## Configuration {#configuration}
 
 1. Drag and drop an **Incremental query** activity into your workflow.
 1. Select the activity, then open it using the  ![](assets/edit_darkgrey-24px.png)
@@ -92,11 +92,11 @@ The **Incremental query** activity can be used for various types of uses:
 1. You can define **Additional data** for the targeted population via a dedicated tab. This data is stored in additional columns and can only be used for the workflow in progress. In particular, you can add data from the Adobe Campaign database tables linked to the query's targeting dimension. Consult the [Enriching data](../../automating/using/query.md#enriching-data) section.
 1. Confirm the configuration of your activity and save your workflow.
 
-## Enriching data
+## Enriching data {#enriching-data}
 
 Just as for a query, you can enrich the data from an **Incremental query**. Consult the [Enriching data](../../automating/using/query.md#enriching-data) section.
 
-## Example: incremental query on subscribers to a service
+## Example: incremental query on subscribers to a service {#example-incremental-query-on-subscribers-to-a-service}
 
 The following example shows the configuration of an **Incremental query** activity which filters the profiles in the Adobe Campaign database that are subscribed to the **Running Newsletter** service, to send them a welcome email containing a promo code.
 
@@ -122,7 +122,7 @@ The workflow is up made up of the following elements:
 
 Then start the workflow execution. Each week the new subscribers will receive the welcome email with the promo code.
 
-## Example: incremental query on delivery logs
+## Example: incremental query on delivery logs {#example-incremental-query-on-delivery-logs}
 
 You can use an **Incremental query** activity to regularly export new logs in files. It can be useful for example if you want to use your log data in external reporting or BI tools.
 

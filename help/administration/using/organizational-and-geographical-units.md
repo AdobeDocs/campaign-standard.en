@@ -3,7 +3,7 @@ title: Organizational and geographical units
 seo-title: Organizational and geographical units
 description: Organizational and geographical units
 seo-description: Define your users' access levels using organizational and geographical units.
-uuid: 5e35e086-a853-4b4e-bb7a-fa191011974d
+uuid: c8457396-6e4a-42a0-9442-e69378569869
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/organizational-and-geographical-units
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: administration
 content-type: reference
 topic-tags: users-e-security
 cq-template: /apps/help/templates/article-3
-discoiquuid: f4966bdd-e361-474b-82e1-d778ade00c43
+discoiquuid: 6212e6df-bc7a-4743-8834-163c3afa6ca5
 firstPublishExternalDate: 2018-09-07T14:41:05.919-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,18 +33,18 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Organizational and geographical units
 publishexternaldate: 2018-09-07T14 41 05.919-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/organizational-and-geographical-units.html
-sha1: 315c5f0c0d6eb09874eefe703d5d06e5e402a5d0
+sha1: 32adeb48175c3eb646c78a3a0349a555a0259728
 topicBrowsingSortDate: 2018-09-07T14:41:05.919-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Organizational and geographical units
+# Organizational and geographical units{#organizational-and-geographical-units}
 
 Organizational and geographical units
 
-## About units
+## About units {#about-units}
 
 Each object and user of the platform is linked to a geographical and organizational unit. These units allow a hierarchical structure to be defined in order to give users a filtered view. A user's unit defines their access level for different platform objects.
 
@@ -68,7 +68,7 @@ If we take a user linked to the NAM geographical unit (North America). This user
 >
 >When a user is in several groups linked to different units, certain rules are applied. For more information, refer to the [Managing groups and users](../../administration/using/managing-groups-and-users.md) section.
 
-## Creating and managing units
+## Creating and managing units {#creating-and-managing-units}
 
 >[!CAUTION]
 >
@@ -125,7 +125,7 @@ Whereas the profiles with the Europe geographical unit will be read only, the fo
 
 ![](assets/manage_units_10.png)
 
-## Partitioning profiles
+## Partitioning profiles {#partitioning-profiles}
 
 If your organization needs to isolate the profiles contacted by each of your different brands, you can partition your profiles by their organizational or geographical units.
 
@@ -155,7 +155,7 @@ The organizational and geographical unit fields are added to your profiles in th
 * [About units](../../administration/using/organizational-and-geographical-units.md#about-units)
 * [About access management](../../administration/using/about-access-management.md)
 
-## Example: Add or update a profile's geographical unit with an import workflow
+## Example: Add or update a profile's geographical unit with an import workflow {#example-add-or-update-a-profile-s-geographical-unit-with-an-import-workflow}
 
 In this example, we want to add new profiles but also update existing ones and reconcile their countries with the corresponding geographical units in Adobe Campaign.
 

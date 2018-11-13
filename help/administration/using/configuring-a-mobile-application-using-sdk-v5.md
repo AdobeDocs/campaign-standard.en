@@ -3,7 +3,7 @@ title: Configuring a mobile application using SDK V5
 seo-title: Configuring a mobile application using SDK V5
 description: Configuring a mobile application using SDK V5
 seo-description: Discover how to configure Adobe Campaign to send push notifications and In-app messages using SDK V5.
-uuid: 4e966aa3-2477-4b0e-8954-bf1399c50049
+uuid: 47195409-a0ae-49d4-aef3-4699b58c952e
 content-encoding: UTF-8
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/configuring-a-mobile-application-using-sdk-v5
 contentOwner: sauviat
@@ -18,7 +18,7 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 cq-template: /apps/help/templates/article-3
-discoiquuid: 70a1b732-9121-430e-9486-50c7d02b8255
+discoiquuid: 5ba4e827-fca5-4a58-b518-dded1cd98468
 firstPublishExternalDate: 2018-09-07T14:45:56.899-0400
 firstpublishinternaldate: 2018-09-10T04 09 43.150-0400
 herogradient: light
@@ -39,14 +39,14 @@ publishexternaldate: 2018-10-23T18 40 33.891-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/configuring-a-mobile-application-using-sdk-v5.html
 publishinternaldate: 2018-10-23T18 40 33.891-0400
 publishinternalurl: https //helpx-internal.corp.adobe.com/content/help/en/campaign/standard/administration/using/configuring-a-mobile-application-using-sdk-v5.html
-sha1: cbe34857174fb2f50f115f90337f2d1a68bbcfd5
+sha1: e2fc343eee5274916d4cca6e0756b6c9a26e824d
 topicBrowsingSortDate: 2018-10-23T18:40:33.891-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Configuring a mobile application using SDK V5
+# Configuring a mobile application using SDK V5{#configuring-a-mobile-application-using-sdk-v}
 
 Configuring a mobile application using SDK V5
 
@@ -75,7 +75,7 @@ In order to send push notifications and In-App messages with SDK V5 application,
 1. Add channel specific configuration to your Mobile Application set-up. For more on this refer to [Channel specific application configuration in Adobe Campaign](../../administration/using/configuring-a-mobile-application-using-sdk-v5.md#channel-specific-application-configuration-in-adobe-campaign).
 1. Implement SDK V5 in your Mobile application. For more on this refer to [Adobe Launch](https://launch.gitbook.io/marketing-mobile-sdk-v5-by-adobe-documentation/) documentation.
 
-## Configuring your application in Adobe Launch
+## Configuring your application in Adobe Launch {#configuring-your-application-in-adobe-launch}
 
 In Adobe Launch, we need to create data elements and rules to send PII, users' interaction with Push and In-App messages and other data to Campaign.
 
@@ -90,7 +90,7 @@ To configure your application in Adobe Launch, follow these steps:
 * [Step 3: Create rules for In-App tracking postback](../../administration/using/configuring-a-mobile-application-using-sdk-v5.md#step-3--create-rules-for-in-app-tracking-postback)
 * [Step 4: Create rules for push notifications tracking postback](../../administration/using/configuring-a-mobile-application-using-sdk-v5.md#step-4--create-rules-for-push-notifications-tracking-postback)
 
-### Step 1: Create data elements
+### Step 1: Create data elements {#step-create-data-elements}
 
 Here are the data elements we recommend creating in Adobe Launch:
 
@@ -157,7 +157,7 @@ To create these data elements:
 
 1. Click **Save**.
 
-### Step 2: Create rules for PII postback
+### Step 2: Create rules for PII postback {#step-create-rules-for-pii-postback}
 
 To send PII to Campaign to enrich a user's profile with additional data, you need to create a rule in Adobe Launch.
 
@@ -216,7 +216,7 @@ To send PII to Campaign to enrich a user's profile with additional data, you nee
 
 Your user data is now configured to be sent to Campaign.
 
-### Step 3: Create rules for In-App tracking postback
+### Step 3: Create rules for In-App tracking postback {#step-create-rules-for-in-app-tracking-postback}
 
 To send tracking data to Campaign to help track your In-App deliveries and your users’ interaction with your mobile application, your need to create a rule in Adobe Launch.
 
@@ -262,7 +262,7 @@ To send tracking data to Campaign to help track your In-App deliveries and your 
 
 The tracking data will now be sent to Adobe Campaign.
 
-### Step 4: Create rules for push notifications tracking postback
+### Step 4: Create rules for push notifications tracking postback {#step-create-rules-for-push-notifications-tracking-postback}
 
 To send tracking data to Campaign to help track your Push notification deliveries and your users’ interaction with your mobile application, your need to create a rule in Adobe Launch.
 
@@ -312,7 +312,7 @@ To send tracking data to Campaign to help track your Push notification deliverie
 
 1. Click the **Keep changes **button then **Save**.
 
-## Setting up your Adobe Launch application in Adobe Campaign
+## Setting up your Adobe Launch application in Adobe Campaign {#setting-up-your-adobe-launch-application-in-adobe-campaign}
 
 In order to use a Adobe Launch Mobile property in Campaign, you need to further configure it in Adobe Campaign. Mobile application properties should be set up with the same IMS org used in your Adobe Campaign instance for them to be visible in Adobe Campaign.
 
@@ -331,7 +331,7 @@ In order to use a Adobe Launch Mobile property in Campaign, you need to further 
 
 1. For this configuration to take effect, the changes need to be published in Adobe Launch. For more on this, refer to the [Adobe Launch](https://docs.adobelaunch.com/publishing) documentation.
 
-## Channel specific application configuration in Adobe Campaign
+## Channel specific application configuration in Adobe Campaign {#channel-specific-application-configuration-in-adobe-campaign}
 
 Your mobile application is now ready to be used in Campaign for push notification or In-app deliveries. You can now further configure it if needed to create events that will trigger your in-app messages and/or upload Push certificates.
 
@@ -353,7 +353,7 @@ Your mobile application is now ready to be used in Campaign for push notificatio
 
 1. Click the **Mobile application subscribers** tab to see the subscribers and other information on them for example if they opted out of your notifications.
 
-## Deleting your Adobe Launch application
+## Deleting your Adobe Launch application {#deleting-your-adobe-launch-application}
 
 To delete your Adobe Launch application, you first need to follow the steps detailed [here](https://docs.adobelaunch.com/administration/companies-and-properties#delete-a-property) . Please note that this cannot be reversed.
 

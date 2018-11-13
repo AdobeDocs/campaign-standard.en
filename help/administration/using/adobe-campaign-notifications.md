@@ -3,7 +3,7 @@ title: Adobe Campaign notifications
 seo-title: Adobe Campaign notifications
 description: Adobe Campaign notifications
 seo-description: Learn how to send real-time system notifications to your Adobe Campaign users.
-uuid: 519227f3-fd34-49f8-bf86-893c6b85cf59
+uuid: 39ac38cd-54a3-49dc-8380-fe383f4baced
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/adobe-campaign-notifications
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 cq-template: /apps/help/templates/article-3
-discoiquuid: 68d17b72-5fbc-4522-a9eb-9d520613116a
+discoiquuid: 6ec658d7-37c9-4809-a176-c04817310ce1
 firstPublishExternalDate: 2018-09-07T15:06:34.360-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,14 +33,14 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Adobe Campaign notifications
 publishexternaldate: 2018-09-07T15 06 34.360-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/adobe-campaign-notifications.html
-sha1: 7df49beba94fb3849ef02dc4f4660d8aa49a477b
+sha1: ecdb17a5a7efc8e81a18d14f64f6311bf3cd3a30
 topicBrowsingSortDate: 2018-09-07T15:06:34.360-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Adobe Campaign notifications
+# Adobe Campaign notifications{#adobe-campaign-notifications}
 
 Adobe Campaign notifications
 

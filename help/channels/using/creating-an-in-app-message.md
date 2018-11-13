@@ -3,7 +3,7 @@ title: Creating an In-App message
 seo-title: Creating an In-App message
 description: Creating an In-App message
 seo-description: Create In-app message to target your application subscribers with specific content.
-uuid: 7ce903ce-05c0-48d4-be3b-6bc9fdcd9538
+uuid: b4ea3d35-e241-4823-8292-5f55ad9e408e
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/creating-an-in-app-message
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: channels
 content-type: reference
 topic-tags: in-app-messaging
 cq-template: /apps/help/templates/article-3
-discoiquuid: 8ca857ab-7a32-42ad-9b2e-d9dfd8a2a4d8
+discoiquuid: 8d5f331e-175a-4d2b-82ae-1ed20d3f2646
 firstPublishExternalDate: 2018-09-07T15:12:00.267-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,14 +33,14 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Creating an In-App message
 publishexternaldate: 2018-09-07T15 12 00.267-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/creating-an-in-app-message.html
-sha1: 3ac7894e0f13833076a6d8a34edaa15153b5fc49
+sha1: a0993f607ff42864929b748f50bb20ef8c679c6e
 topicBrowsingSortDate: 2018-09-07T15:12:00.267-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Creating an In-App message
+# Creating an In-App message{#creating-an-in-app-message}
 
 Creating an In-App message
 

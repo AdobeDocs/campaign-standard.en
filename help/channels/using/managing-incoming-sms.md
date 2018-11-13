@@ -3,7 +3,7 @@ title: Managing incoming SMS
 seo-title: Managing incoming SMS
 description: Managing incoming SMS
 seo-description: Learn how to manage STOP SMS and store incoming SMS in Adobe Campaign.
-uuid: c4bf2ed8-c496-4dee-a07d-22af8060ebd3
+uuid: 88b7166b-0819-4204-bbb3-d9036b99ce72
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/managing-incoming-sms
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: channels
 content-type: reference
 topic-tags: sms-messages
 cq-template: /apps/help/templates/article-3
-discoiquuid: 09746903-2b6b-454b-b9a0-c421beb092c5
+discoiquuid: fdabb935-3250-4312-8bfd-15e6d6692855
 firstPublishExternalDate: 2018-09-07T15:11:50.458-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,18 +33,18 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Managing incoming SMS
 publishexternaldate: 2018-09-07T15 11 50.458-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/managing-incoming-sms.html
-sha1: ee1bd251d19a46bf4c6bf05512fb89b7fc2047a8
+sha1: 4f5790a80817c15afb7110f2455ebb14cbf0898f
 topicBrowsingSortDate: 2018-09-07T15:11:50.458-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Managing incoming SMS
+# Managing incoming SMS{#managing-incoming-sms}
 
 Managing incoming SMS
 
-## Managing STOP SMS
+## Managing STOP SMS {#managing-stop-sms}
 
 When a profile replies to an SMS message which was sent via Campaign, you can configure messages which are automatically sent back to him as well as the action to perform.
 
@@ -87,7 +87,7 @@ Your recipients can now be automatically unsubscribed to your messages and sent 
 
 These incoming SMS can be stored if needed. For more information on this, refer to this [section](../../channels/using/managing-incoming-sms.md#storing-incoming-sms).
 
-## Storing incoming SMS
+## Storing incoming SMS {#storing-incoming-sms}
 
 In the **SMS routing via SMPP** external account, you can choose to store incoming messages for example when a subscriber replies "STOP" to an SMS message in order to be removed from your recipient lists.
 

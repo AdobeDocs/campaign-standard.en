@@ -3,7 +3,7 @@ title: Sharing audiences with Audience Manager or People core service
 seo-title: Sharing audiences with Audience Manager or People core service
 description: Sharing audiences with Audience Manager or People core service
 seo-description: Learn how to import or export your audience within the different Adobe Experience Cloud solutions.
-uuid: ee3ea0b6-91ab-47fe-be31-3200f6e2d034
+uuid: fc44f65d-b21b-41d8-84d4-b13be4325bfa
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/integrating/using/sharing-audiences-with-audience-manager-or-people-core-service
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 cq-template: /apps/help/templates/article-3
-discoiquuid: 4a4d227d-d338-45c0-b703-1b3b9ac47f3f
+discoiquuid: 9f1e8bf4-66bd-4a82-a654-7d6535a308fd
 firstPublishExternalDate: 2018-09-07T15:07:40.518-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,18 +33,18 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Sharing audiences with Audience Manager or People core service
 publishexternaldate: 2018-09-07T15 07 40.518-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.html
-sha1: 565664b56cea2defe6c838e5db2dc5029a6a00b6
+sha1: 4659555cc782880fadd6d5f0d4bbfe1205bb6d79
 topicBrowsingSortDate: 2018-09-07T15:07:40.518-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Sharing audiences with Audience Manager or People core service
+# Sharing audiences with Audience Manager or People core service{#sharing-audiences-with-audience-manager-or-people-core-service}
 
 Sharing audiences with Audience Manager or People core service
 
-## Importing an audience
+## Importing an audience {#importing-an-audience}
 
 People core service integration allows to directly import an audience into Adobe Campaign via a technical workflow to enrich your database. For more information on audience sharing in People core service, refer to this [documentation](https://marketing.adobe.com/resources/help/en_US/mcloud/t_publish_audience_segment.html).
 
@@ -74,7 +74,7 @@ Your audience is now imported in your Adobe Campaign database. The import proces
 >
 >If you are importing audiences from Adobe Analytics to Adobe Campaign, these audiences need to first be shared in People Core Service or Audience Manager. This process takes 12-24 hours, which must be added to the 24-36 hours synchronization with Campaign. In that specific case, audience sharing timeframe can be up to 60 hours. For more information on Adobe Analytics audience sharing in People Core service and Audience manager, refer to this [documentation](https://marketing.adobe.com/resources/help/en_US/mcloud/t_publish_audience_segment.html).
 
-## Exporting an audience
+## Exporting an audience {#exporting-an-audience}
 
 An audience can be exported from Adobe Campaign to Audience Manager or People core service using a workflow and the **Save audience** activity.
 

@@ -3,7 +3,7 @@ title: Creating audiences
 seo-title: Creating audiences
 description: Creating audiences
 seo-description: Learn how to create audiences in Adobe Campaign.
-uuid: ac44a64c-e2c9-4e1a-b19a-a122ad7cefba
+uuid: 3d427cba-cc18-43ad-8037-bee3cea6126b
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/audiences/using/creating-audiences
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 cq-template: /apps/help/templates/article-3
-discoiquuid: c117d128-8120-4b51-bc1f-92a9f945bcfc
+discoiquuid: b50fa6d0-c25f-4278-ba31-03c4db7164b0
 firstPublishExternalDate: 2018-09-07T14:46:45.497-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,18 +33,18 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Creating audiences
 publishexternaldate: 2018-09-07T14 46 45.497-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/audiences/using/creating-audiences.html
-sha1: 7ffc7eb6e8e3e39da745ab7787dcf18cf4927129
+sha1: 19e50609209847fc4e18e7ea67252ba94fb17f7b
 topicBrowsingSortDate: 2018-09-07T14:46:45.497-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Creating audiences
+# Creating audiences{#creating-audiences}
 
 Creating audiences
 
-## Creating query audiences
+## Creating query audiences {#creating-query-audiences}
 
 This section describes how to create a **Query** audience. You can also create audiences from importing a file or targeting in a [workflow](../../automating/using/discovering-workflows.md).
 
@@ -71,7 +71,7 @@ From the audience list, you can create audiences by performing queries or import
 >
 >You can add a description to this audience and define the access authorizations via the **Edit properties** icon.
 
-## Creating list audiences
+## Creating list audiences {#creating-list-audiences}
 
 This section describes how to create a **List** audience after targeting in a workflow. You can also create audiences by importing a file into a [workflow](../../automating/using/discovering-workflows.md) or via a query from the **Audiences** menu.
 
@@ -101,7 +101,7 @@ To create a **List** audience, the steps are as follows:
 
    ![](assets/audiences_list_4.png)
 
-## Creating file audiences
+## Creating file audiences {#creating-file-audiences}
 
 This section details how to create a **File** audience by importing a file into a workflow. You can also create audiences from a targeting activity in a [workflow](../../automating/using/discovering-workflows.md) or via a query from the **Audiences** menu.
 
@@ -123,11 +123,11 @@ To create a **File** audience, the steps are as follows:
 
    ![](assets/audience_files_3.png)
 
-## Creating Experience Cloud audiences
+## Creating Experience Cloud audiences {#creating-experience-cloud-audiences}
 
 Adobe Campaign allows you to share and exchange audiences with Adobe Experience Cloud. Creating and managing audiences is detailed in the [Importing/Exporting audiences with People core service](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md) section.
 
-## Editing audiences
+## Editing audiences {#editing-audiences}
 
 There are different ways to edit an audience depending on the audience type:
 
@@ -142,7 +142,7 @@ There are different ways to edit an audience depending on the audience type:
 * To edit a **List** or **File** audience, edit the workflow from which it was created and modify the **Save audience** activity. Start the workflow so that the audience is modified.
 * To edit an **Experience Cloud** audience, refer to the [Importing/Exporting audiences with People core service](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md) section.
 
-## Deleting audiences
+## Deleting audiences {#deleting-audiences}
 
 There are two ways to delete one or multiple audiences. First you can add an expiration date to your audience
 

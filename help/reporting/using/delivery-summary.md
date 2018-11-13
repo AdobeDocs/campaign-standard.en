@@ -3,7 +3,7 @@ title: Delivery summary
 seo-title: Delivery summary
 description: Delivery summary
 seo-description: With the Delivery summary out-of-the-box report, learn about your deliveries statistics, such as number of sends, bounces and opens.
-uuid: 19e034a1-ba0f-4ab1-96e0-97a3baacb977
+uuid: cdb56487-4115-4189-95a1-8e7f44a79456
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/reporting/using/delivery-summary
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 cq-template: /apps/help/templates/article-3
-discoiquuid: 4e4a069c-73da-43a5-8792-2e9109bee68d
+discoiquuid: e713995d-8766-40f4-a2f0-e28fbba649a1
 firstPublishExternalDate: 2018-09-07T15:05:04.966-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,14 +33,14 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Delivery summary
 publishexternaldate: 2018-09-07T15 05 04.966-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/delivery-summary.html
-sha1: 36994755d07de1362a3540cf4a240cd47f9710d3
+sha1: 6acbfeb5786ebed1929a3073754871164f8a074b
 topicBrowsingSortDate: 2018-09-07T15:05:04.966-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Delivery summary
+# Delivery summary{#delivery-summary}
 
 Delivery summary
 

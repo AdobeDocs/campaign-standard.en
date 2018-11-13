@@ -3,7 +3,7 @@ title: Fatigue rules
 seo-title: Fatigue rules
 description: Fatigue rules
 seo-description: Create fatigue rules to manage over-communication with profiles.
-uuid: 186c18ad-453e-4de5-aed7-36ecf7260a04
+uuid: 4453e19a-5618-4cc8-90c8-b0899e629905
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/fatigue-rules
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
 cq-template: /apps/help/templates/article-3
-discoiquuid: 093dbd00-5275-452c-8026-01ba67e5739e
+discoiquuid: 9aa367b4-2a6a-47c7-96a6-b08283a70591
 firstPublishExternalDate: 2018-09-07T15:00:18.579-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,18 +33,18 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Fatigue rules
 publishexternaldate: 2018-09-07T15 00 18.579-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/fatigue-rules.html
-sha1: 9b3e1a16885c23c89303c26dbf32664e3d36a0a1
+sha1: afb566e8235e0ccce2c27873aa378f89960a6fb7
 topicBrowsingSortDate: 2018-09-07T15:00:18.579-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Fatigue rules
+# Fatigue rules{#fatigue-rules}
 
 Fatigue rules
 
-## About fatigue rules
+## About fatigue rules {#about-fatigue-rules}
 
 Fatigue rules allow marketers to set global cross-channel business rules that will automatically exclude over-solicited profiles from campaigns.
 
@@ -60,7 +60,7 @@ Related topics:
 * [Managing typologies](../../administration/using/about-typology-rules.md#managing-typologies)
 * [Typology rules](../../administration/using/about-typology-rules.md#typology-rules)
 
-## Creating a fatigue rule
+## Creating a fatigue rule {#creating-a-fatigue-rule}
 
 To create and configure a **Fatigue** typology rule, apply the following steps:
 
@@ -110,7 +110,7 @@ During delivery preparation, profiles are excluded from the delivery if applicab
 >
 >For fatigue rules to work, you need to define a contact date for your delivery. If you choose to send messages immediately, the fatigue rule will not be applied.
 
-## Choosing the channel
+## Choosing the channel {#choosing-the-channel}
 
 Fatigue rules are available for various channels. The channel is defined in the **Channel** field of the typology rule settings. You can either select a single channel or select **All channels**.
 
@@ -137,7 +137,7 @@ Fatigue rules are compatible with all delivery types: one-shot deliveries, recur
 
 **Transactional messaging** can be used to send service messages targeting an event (rtEvent) as well as marketing messages (targeting profiles), for example a remarketing message. Fatigue rules are compatible with marketing messages only (targeting profiles). Event transactional messages do not contain profile information, therefore they are not compatible with fatigue rules (even in the case of an enrichment with profiles). With the support of marketing messages in transactional messaging, you can **apply a fatigue rule to all channels including marketing transactional messages**.
 
-## Defining the threshold
+## Defining the threshold {#defining-the-threshold}
 
 Each fatigue rule defines a threshold, that is to say the maximum number of messages that can be sent to one profile over a given period. Once this threshold has been reached, no more deliveries can take place until the end of the period considered. This process lets you automatically exclude a profile from a delivery if a message exceeds the set threshold, thus avoiding over-solicitation.
 
@@ -180,7 +180,7 @@ Refining the threshold on deliveries is different than restricting the applicabi
 * **Application criteria**: you choose to execute the rule or not according to specific criteria. For example, if your application condition is 'Label starts with Newsletter', the rule will only apply to deliveries which respect this condition. If the delivery's label starts with 'Promotion', the rule will not execute at all.
 * **Refine threshold on profiles and deliveries > Deliveries to count**: all deliveries using this typology rule will execute the rule, but you decide, among the past and scheduled deliveries, which ones you want to count. For example, if your restriction is 'Label starts with Newsletter', the rule will be executed even if the delivery label starts with 'Promo'. It will count, over the selected sliding period, the number of deliveries whose label starts with 'Newsletter'.
 
-## Setting the sliding period
+## Setting the sliding period {#setting-the-sliding-period}
 
 Fatigue rules are defined in n-day rolling periods. The period is configured in the **Sliding period** section, for example 2 weeks, 7 days or 5 hours. 
 
@@ -192,7 +192,7 @@ For example, if you define a 48-hour period, the system will be looking 48 hours
 
 To restrict the deliveries taken into account to a 2-week period, enter **Day** and **7** or 1 week in the **Sliding period** section. Deliveries sent up to 7 days before the delivery date and scheduled up to 7 days after the delivery date on which the rule is applied will be taken into account in the calculation.
 
-## Viewing the fatigue results
+## Viewing the fatigue results {#viewing-the-fatigue-results}
 
 During delivery preparation, profiles are excluded from the delivery if applicable, depending on the number of deliveries already sent to them. To view fatigue rule execution results, click the button in the bottom right corner of the **Deployment** block. 
 
@@ -212,7 +212,7 @@ Three tabs are available, showing you the details of the fatigue execution resul
 
   ![](assets/fatigue19.png)
 
-## Viewing the fatigue rule summary report
+## Viewing the fatigue rule summary report {#viewing-the-fatigue-rule-summary-report}
 
 Adobe Campaign features a dedicated report on fatigue rules to help you understand how they are applied to your campaigns. This allows you to learn how your campaigns impact one another and make the right adjustments.
 
@@ -241,7 +241,7 @@ The bottom table displays all deliveries within the selected period. For each de
 >
 >The displayed data is not contextual to the program, message or campaign you access the report from. This report displays all fatigue rules and deliveries for all organizational and geographical units. This allows you to get a global view of all deliveries in order to understand how your campaigns are influenced by others.
 
-## Examples
+## Examples {#examples}
 
 There are many possibilities in terms of fatigue management implementation. Here are some examples of what you can do:
 

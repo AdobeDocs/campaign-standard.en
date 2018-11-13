@@ -1,9 +1,9 @@
 ---
-title: Step 3 Update profiles and prepare an email
-seo-title: Step 3 Update profiles and prepare an email
-description: Step 3 Update profiles and prepare an email
+title: "Step 3: Update profiles and prepare an email"
+seo-title: "Step 3: Update profiles and prepare an email"
+description: "Step 3: Update profiles and prepare an email"
 seo-description: Learn how to update the data model and work with the extende field in a message.
-uuid: 2a4c07f1-d4fe-4158-b9e9-93dab801fe5d
+uuid: 9f3c51cb-62c4-47c4-bf8d-842e27597f30
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/developing/using/step-3--update-profiles-and-prepare-an-email
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: developing
 content-type: reference
 topic-tags: use-case--extending-profiles
 cq-template: /apps/help/templates/article-3
-discoiquuid: b92bbcce-07e7-403e-863d-a8adac6bca3b
+discoiquuid: f4ba666e-fe41-4bfd-95ff-6779b9c6e53c
 firstPublishExternalDate: 2018-09-07T15:01:07.667-0400
 herogradient: light
 isreadyforlocalization: false
@@ -30,17 +30,17 @@ lastPublishExternalDate: 2018-09-07T15:01:07.667-0400
 lochandoffdate: 2018-09-10T02 19 22.645-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
-navTitle: Step 3 Update profiles and prepare an email
+navTitle: "Step 3: Update profiles and prepare an email"
 publishexternaldate: 2018-09-07T15 01 07.667-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/step-3--update-profiles-and-prepare-an-email.html
-sha1: f6785b3ac3c9117e1b50b368a3e0122b6934a970
+sha1: 3b4b798840bca43b377bbb2e841651b73ee36a60
 topicBrowsingSortDate: 2018-09-07T15:01:07.667-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Step 3: Update profiles and prepare an email
+# Step 3: Update profiles and prepare an email{#step-update-profiles-and-prepare-an-email}
 
 Step 3: Update profiles and prepare an email
 

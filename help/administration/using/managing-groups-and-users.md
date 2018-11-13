@@ -3,7 +3,7 @@ title: Managing groups and users
 seo-title: Managing groups and users
 description: Managing groups and users
 seo-description: Learn how to create security groups and manage users.
-uuid: 76a2971d-5b2a-4c0f-832d-4b7fb2985c53
+uuid: 168a9505-36fd-46b4-88ea-82321c0274c4
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/managing-groups-and-users
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: administration
 content-type: reference
 topic-tags: users-e-security
 cq-template: /apps/help/templates/article-3
-discoiquuid: cd6ffca7-6fd6-4817-b0be-12bcd97cac6b
+discoiquuid: a973268b-55c9-46ea-8f39-2e00ccea888e
 firstPublishExternalDate: 2018-09-07T14:41:35.914-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,18 +33,18 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Managing groups and users
 publishexternaldate: 2018-09-07T14 41 35.914-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/managing-groups-and-users.html
-sha1: cdee1a8a4da7ade2c3f58872914adacd6a434c8f
+sha1: 42aca05a64359b971a2527aa0cd53a2fc82969c6
 topicBrowsingSortDate: 2018-09-07T14:41:35.914-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Managing groups and users
+# Managing groups and users{#managing-groups-and-users}
 
 Managing groups and users
 
-## About security groups
+## About security groups {#about-security-groups}
 
 Security groups are sets of users that share the same roles and rights within your organization.
 
@@ -56,7 +56,7 @@ If a user is not linked to any security group, he will not be able to access Ado
 
 To restrict a user's access, do not add the user to the Campaign Standard users group as this is linked to **All** geographical and organizational units.
 
-## Creating a security group and assigning users
+## Creating a security group and assigning users {#creating-a-security-group-and-assigning-users}
 
 >[!NOTE]
 >

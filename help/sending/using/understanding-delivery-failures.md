@@ -3,7 +3,7 @@ title: Understanding delivery failures
 seo-title: Understanding delivery failures
 description: Understanding delivery failures
 seo-description: Learn how to manage delivery failures with Campaign.
-uuid: 8645ee20-0774-4a81-9bf8-d1ccd445dc8e
+uuid: e4ed9907-cd47-4110-8f60-f715f9fa6977
 content-encoding: UTF-8
 aemsrcnodepath: /content/help/en/campaign/standard/sending/using/understanding-delivery-failures
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 cq-template: /apps/help/templates/article-3
-discoiquuid: 9f23311d-5791-4900-99ef-830a200551ef
+discoiquuid: 7ecf381b-0e4f-42b9-a566-06d761046031
 firstPublishExternalDate: 2018-09-07T15:11:40.685-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,18 +33,18 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Understanding delivery failures
 publishexternaldate: 2018-09-07T15 11 40.685-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/sending/using/understanding-delivery-failures.html
-sha1: f80c8be4639c699eb7c420404759a6895b3c9b80
+sha1: 41543e47b158e8c0bb6d27d1311968dfd783a1bb
 topicBrowsingSortDate: 2018-09-07T15:11:40.685-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Understanding delivery failures
+# Understanding delivery failures{#understanding-delivery-failures}
 
 Understanding delivery failures
 
-## About delivery failures
+## About delivery failures {#about-delivery-failures}
 
 When a delivery cannot be sent to a profile, the remote server automatically sends an error message, which is picked up by the Adobe Campaign platform and qualified to determine whether or not the email address or phone number should be quarantined. See [Bounce mail qualification](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification).
 
@@ -61,7 +61,7 @@ Messages can also be excluded during the delivery preparation if an address is q
 * [Understanding quarantine management](../../sending/using/understanding-quarantine-management.md)
 * [Managing blacklisting in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
-## Identifying delivery failures for a message
+## Identifying delivery failures for a message {#identifying-delivery-failures-for-a-message}
 
 Once a delivery is sent, the **Sending logs** tab (see [this section](../../sending/using/monitoring-a-delivery.md#sending-logs)) allows you to view the delivery status for each profile and the associated failure type and reason (see [Delivery failure types and reasons](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)).
 
@@ -69,7 +69,7 @@ Once a delivery is sent, the **Sending logs** tab (see [this section](../../send
 
 A dedicated out-of-the-box report is also available. This report details the overall hard and soft errors encountered during deliveries as well as the automatic processing of bounces. For more on this, refer to [this section](../../reporting/using/bounce-summary.md).
 
-## Delivery failure types and reasons
+## Delivery failure types and reasons {#delivery-failure-types-and-reasons}
 
 There are three types of errors when a delivery fails:
 
@@ -101,7 +101,7 @@ The possible reasons for a delivery failure are:
 * **Text too long**: the number of characters in the SMS message exceeds the limit. For more on this, see [SMS encoding, length and transliteration](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).
 * **Character not supported by encoding**: the SMS message contains one or more characters that are not supported by the encoding. &For more on this, see [Table of characters - GSM Standard](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard).
 
-## Retries after a delivery failure
+## Retries after a delivery failure {#retries-after-a-delivery-failure}
 
 If a delivery fails, retries will be performed during the delivery duration, only for **Soft** or **Ignored** errors (see [Delivery failure types and reasons](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)).
 
@@ -111,14 +111,14 @@ To modify the duration of a delivery, go to the advanced parameters of the deliv
 
 The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#list-of-email-channel-parameters)).
 
-## Synchronous and asynchronous errors
+## Synchronous and asynchronous errors {#synchronous-and-asynchronous-errors}
 
 A delivery can fail immediately (synchronous error), or later on, after it has been sent (asynchronous error).
 
 * **Synchronous error**: the remote server contacted by the Adobe Campaign delivery server immediately returned an error message, the delivery is not allowed to be sent to the profile's server.
 * **Asynchronous error**: a bounce mail or a SR was resent later by the receiving server. Asynchronous errors can occur up until one week after a delivery has been sent.
 
-## Bounce mail qualification
+## Bounce mail qualification {#bounce-mail-qualification}
 
 Delivery failure error messages (or "bounces") are picked up by the Adobe Campaign platform and qualified by the inMail process to enrich the list of email management rules.
 
@@ -138,7 +138,7 @@ To list the various bounces and their associated error types et reasons, click t
 
 ![](assets/qualification.png)
 
-## Optimizing mail deliverability with double opt-in mechanism
+## Optimizing mail deliverability with double opt-in mechanism {#optimizing-mail-deliverability-with-double-opt-in-mechanism}
 
 Double opt-in mechanism is a best practice when sending emails. It protects the platform from wrong or invalid email addresses, spambots, and prevents possible spam complaints.
 

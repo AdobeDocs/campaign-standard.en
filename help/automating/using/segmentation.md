@@ -3,7 +3,7 @@ title: Segmentation
 seo-title: Segmentation
 description: Segmentation
 seo-description: The Segmentation activity lets you create one or several segments from a population calculated by activities placed earlier in the workflow.
-uuid: ad786b4e-e60d-4bb4-9a7e-8120448ec7a9
+uuid: 6a5e0330-acc9-4918-a93c-e49bbcedafcd
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/segmentation
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: 969f57f4-ff57-41f4-847b-5f229d1bb89b
+discoiquuid: a9cae92e-6048-430e-8e8b-362e90f4ae14
 firstPublishExternalDate: 2018-09-07T14:54:26.287-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,18 +33,18 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Segmentation
 publishexternaldate: 2018-09-07T14 54 26.287-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/segmentation.html
-sha1: 5082d97cbfe6c67db5bbdab28f3dc295ffd17602
+sha1: 7b242ff65e32a4472c41fb16f90a36367bc842b8
 topicBrowsingSortDate: 2018-09-07T14:54:26.287-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Segmentation
+# Segmentation{#segmentation}
 
 Segmentation
 
-## Description
+## Description {#description}
 
 ![](assets/segmentation.png)
 
@@ -54,11 +54,11 @@ The **Segmentation** activity lets you create one or several segments from a pop
 >
 >By default, a member of the inbound population can only belong to one single segment. The filters are applied according to the order of the segments in the activity.
 
-## Context of use
+## Context of use {#context-of-use}
 
 The **Segmentation** activity is generally placed after targeting activities (query, intersection, union, exclusion, etc.) in order to define the standard population based on which the segments are formed.
 
-## Configuration
+## Configuration {#configuration}
 
 1. Drag and drop a **Segmentation** activity into your workflow.
 1. Select the activity, then open it using the  ![](assets/edit_darkgrey-24px.png)
@@ -122,7 +122,7 @@ The **Segmentation** activity is generally placed after targeting activities (qu
 
 1. Confirm the configuration of your activity and save your workflow.
 
-## Example
+## Example {#example}
 
 The following example shows a segmentation of database profiles according to their age group. The aim of the workflow is to send a specific email for each age group. Considering the fact that this workflow is part of a test campaign, each segment can only contain a maximum of 100 profiles that are selected randomly in order to use audiences that are limited and representative at the same time.
 

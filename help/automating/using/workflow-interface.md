@@ -3,7 +3,7 @@ title: Workflow interface
 seo-title: Workflow interface
 description: Workflow interface
 seo-description: Learn the interface and options to create, edit and execute a workflow.
-uuid: bfe7e6f6-216a-44b9-b5c1-042debf88d65
+uuid: 45ab21e1-892e-413e-9101-4d4d266cc9b3
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/workflow-interface
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 cq-template: /apps/help/templates/article-3
-discoiquuid: 1c13c15f-b494-4d86-9fbe-dc214eafdc03
+discoiquuid: 0880642f-09e1-42ef-ac3f-5305a65600fb
 firstPublishExternalDate: 2018-09-07T14:44:39.260-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,14 +33,14 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Workflow interface
 publishexternaldate: 2018-09-07T14 44 39.260-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/workflow-interface.html
-sha1: 5efc283eb161d2b6c2945c9dac1de00a9588644f
+sha1: b864320521f3ff1447999c086b3e3ea994f9bd10
 topicBrowsingSortDate: 2018-09-07T14:44:39.260-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Workflow interface
+# Workflow interface{#workflow-interface}
 
 Workflow interface
 
@@ -55,7 +55,7 @@ The workflow editing screen is made up of the following elements:
 
 ![](assets/wkf_overview.png)
 
-## Palette
+## Palette {#palette}
 
 The palette is on the left-hand side of the screen. All available activities are sorted into several categories:
 
@@ -70,7 +70,7 @@ You have to configure each activity added from the palette before starting the w
 
 ![](assets/workflow_palette.png)
 
-## Workspace
+## Workspace {#workspace}
 
 The workspace is the central zone in the workflow editor. It is in this zone that you can drop your activities, link them together using transitions, and configure them.
 
@@ -91,7 +91,7 @@ Certain functions are only enabled in the workspace:
 
 ![](assets/workflow_workspace.png)
 
-## Action bar
+## Action bar {#action-bar}
 
 Depending on the elements selected in the workspace or on the workflow's execution status, the buttons available in the action bar may vary.
 
@@ -214,7 +214,7 @@ Depending on the elements selected in the workspace or on the workflow's executi
  </tbody> 
 </table>
 
-## Quick actions
+## Quick actions {#quick-actions}
 
 When an activity is selected, quick action buttons appear around the activity, allowing you to interact with it.
 

@@ -3,7 +3,7 @@ title: Importing content from a URL
 seo-title: Importing content from a URL
 description: Importing content from a URL
 seo-description: Learn how to load content from an existing URL when creating an email.
-uuid: 8b5c7841-9f52-4e65-8441-e73f5833bd4d
+uuid: 2326cc4f-3afc-48af-85e6-d8691bce77ac
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/importing-content-from-a-url
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: loading-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: 4ea51bdb-11db-4100-a572-308358bfeae9
+discoiquuid: 89686179-45ed-4d82-9bc2-94845783e5c1
 firstPublishExternalDate: 2018-09-07T14:55:06.004-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,14 +33,14 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Importing content from a URL
 publishexternaldate: 2018-09-07T14 55 06.004-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/importing-content-from-a-url.html
-sha1: 2a9bae67448cc10650f7dec759b8143ea89e91f9
+sha1: 0127d1360012e626d5df46fb1a8538724a3c42b3
 topicBrowsingSortDate: 2018-09-07T14:55:06.004-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Importing content from a URL
+# Importing content from a URL{#importing-content-from-a-url}
 
 Importing content from a URL
 
@@ -61,7 +61,7 @@ To retrieve existing content form a URL, follow the steps below:
 
    ![](assets/email_designer_importfromurl.png)
 
-## Retrieving content from a URL automatically at preparation time
+## Retrieving content from a URL automatically at preparation time {#retrieving-content-from-a-url-automatically-at-preparation-time}
 
 Importing content from a URL at the delivery preparation phase enables you to retrieve the latest HTML content each time the delivery is prepared. This way, the content of recurring emails is always up-to-date at the time of their sending. This feature also enables you to create a delivery scheduled at a specific date, even if the content is not ready yet.
 

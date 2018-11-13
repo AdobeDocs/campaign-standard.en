@@ -3,7 +3,7 @@ title: Personalizing an image source
 seo-title: Personalizing an image source
 description: Personalizing an image source
 seo-description: Learn how to personalize an image in your delivery according to a particular criterion or to use tracking.
-uuid: 4924f9a2-01c5-4b7c-8ae9-4cfccab83036
+uuid: 3a85f168-39d2-4a93-ada0-b338493ce5f9
 content-encoding: UTF-8
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/personalizing-an-image-source
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: using-images
 cq-template: /apps/help/templates/article-3
-discoiquuid: a2b3e7ec-3731-4f11-a6b4-64d01fc11a14
+discoiquuid: eb702c0f-1c5d-441f-a350-0a06718b2e4b
 firstPublishExternalDate: 2018-09-07T14:58:13.916-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,14 +33,14 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Personalizing an image source
 publishexternaldate: 2018-09-07T14 58 13.916-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/personalizing-an-image-source.html
-sha1: 4ed24407e8145a8715ff51c02185aa7aade322cc
+sha1: 5582cacdcb5f05cf8f9f69ef6cd1ca3c9cabb198
 topicBrowsingSortDate: 2018-09-07T14:58:13.916-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Personalizing an image source
+# Personalizing an image source{#personalizing-an-image-source}
 
 Personalizing an image source
 

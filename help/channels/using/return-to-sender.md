@@ -3,7 +3,7 @@ title: Return to sender
 seo-title: Return to sender
 description: Return to sender
 seo-description: Learn how to be notified of an incorrect address and exclude it from future communications.
-uuid: 67e8aafd-7c16-4c30-aa6d-04d604be7b7f
+uuid: 1f6b059c-d47d-4634-a880-cc1fe7a6b200
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/return-to-sender
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: channels
 content-type: reference
 topic-tags: direct-mail
 cq-template: /apps/help/templates/article-3
-discoiquuid: e69d0f25-a0ee-415c-abc6-0e5b4df4d998
+discoiquuid: cbf4ed26-2934-48a0-a309-6c3dfd3669fc
 firstPublishExternalDate: 2018-09-07T15:12:24.548-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,14 +33,14 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Return to sender
 publishexternaldate: 2018-09-07T15 12 24.548-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/return-to-sender.html
-sha1: 7cd8a4f2c79ba741d8a849b4773a82984b3a27dd
+sha1: fe25f1f339394d920ea4addd3d9541256281bfa8
 topicBrowsingSortDate: 2018-09-07T15:12:24.548-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Return to sender
+# Return to sender{#return-to-sender}
 
 Return to sender
 

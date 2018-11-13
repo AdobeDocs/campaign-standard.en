@@ -3,7 +3,7 @@ title: Managing packages
 seo-title: Managing packages
 description: Managing packages
 seo-description: Administrators can define packages to exchange resources between different Adobe Campaign instances through structured XML files.
-uuid: 711e8bd0-0f08-486a-a3dd-1a893143177d
+uuid: 82987c33-c3b4-41f4-83cf-b3faef7e4b67
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/managing-packages
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
 cq-template: /apps/help/templates/article-3
-discoiquuid: 1cb40579-eaaa-4f40-a0a5-e135e90363d0
+discoiquuid: 4c410829-9bb5-452a-bdba-8e0572f3a1d0
 firstPublishExternalDate: 2018-09-07T15:09:09.512-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,14 +33,14 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Managing packages
 publishexternaldate: 2018-09-07T15 09 09.512-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/managing-packages.html
-sha1: ff1ac24a9102d0300b77725e73725d5c06e4cc7e
+sha1: 1c2e5beae87f54d977e6238cae24d2bdc1c83d13
 topicBrowsingSortDate: 2018-09-07T15:09:09.512-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Managing packages
+# Managing packages{#managing-packages}
 
 Managing packages
 
@@ -56,9 +56,9 @@ The elements of each list are displayed by default according to their modificati
 
 To display and modify the content of an element, click its label. Refer to the [Exporting a package](../../automating/using/managing-packages.md#exporting-a-package) and [Importing a package](../../automating/using/managing-packages.md#importing-a-package) sections.
 
-## Package exports
+## Package exports {#package-exports}
 
-### Standard packages
+### Standard packages {#standard-packages}
 
 **Platform** and **Administration** are two built-in packages, each containing a predefined list of resources to be exported. They can be opened in read-only mode and they are only suitable for exporting.
 
@@ -79,7 +79,7 @@ The package export steps are described in the [Exporting a package](../../automa
 >
 >The contents of these two packages cannot me modified. In contrast, these packages always contain the most up-to-date data available. You can [create your own packages](../../automating/using/managing-packages.md#creating-a-package) to export specific elements.
 
-### Creating a package
+### Creating a package {#creating-a-package}
 
 You need to create a package if you need to export specific sets of data.
 
@@ -118,7 +118,7 @@ To create a package, you need the administration rights.
 
 Your package is now created and is ready to be exported.
 
-### Exporting a package
+### Exporting a package {#exporting-a-package}
 
 Exporting a package allows you to save a specific state of a resource that you will be able to reimport on another instance or later on the same instance.
 
@@ -146,9 +146,9 @@ When the operation has finished, several sections appear:
 >
 >When selecting an element from the package content list that has already been exported, the **Log** and **Last export** tabs are still available.
 
-## Package imports
+## Package imports {#package-imports}
 
-### System updates
+### System updates {#system-updates}
 
 The package import list above anything contains the automatic imports linked to updates performed by Adobe.
 
@@ -162,7 +162,7 @@ The **Execution logs** tab stores all of the import steps. A side panel displays
 >
 >These elements are accessible in read-only mode.
 
-### Importing a package
+### Importing a package {#importing-a-package}
 
 An administrator can manually import a package originating from an export executed earlier from an Adobe Campaign instance. For more on this, refer to the [Package exports](../../automating/using/managing-packages.md#package-exports) section.
 

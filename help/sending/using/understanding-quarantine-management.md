@@ -3,7 +3,7 @@ title: Understanding quarantine management
 seo-title: Understanding quarantine management
 description: Understanding quarantine management
 seo-description: Learn how to optimize your deliverability with quarantine management.
-uuid: 33042986-c00a-43a7-aea6-a49e56d17eda
+uuid: ad316f61-366e-4a49-a2d3-e0bfcc0a5da9
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/sending/using/understanding-quarantine-management
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 cq-template: /apps/help/templates/article-3
-discoiquuid: df741068-aee1-42dd-be49-0e25f7d8aa78
+discoiquuid: 0fbe8d58-3b15-4f53-9c75-fda3155b8040
 firstPublishExternalDate: 2018-09-07T15:11:43.427-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,24 +33,24 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Understanding quarantine management
 publishexternaldate: 2018-09-07T15 11 43.427-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/sending/using/understanding-quarantine-management.html
-sha1: 2b594ca6ecc0b6c76154ee58868029bd5bebc13b
+sha1: fe1192433015d6d75cd42c9fd0353fbca39de364
 topicBrowsingSortDate: 2018-09-07T15:11:43.427-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Understanding quarantine management
+# Understanding quarantine management{#understanding-quarantine-management}
 
 Understanding quarantine management
 
-## About quarantines
+## About quarantines {#about-quarantines}
 
 An email address or a phone number can be quarantined, for example, when the mailbox is full or if the address does not exist.
 
 In any case, the quarantine procedure complies with specific rules described in this [section](../../sending/using/understanding-quarantine-management.md#conditions-for-sending-an-address-to-quarantine).
 
-### Optimizing your delivery through quarantines
+### Optimizing your delivery through quarantines {#optimizing-your-delivery-through-quarantines}
 
 The profiles whose email addresses or phone number are in quarantine are automatically excluded during message preparation (see [Identifying quarantined addresses for a delivery](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-a-delivery)). This will speed up deliveries, as the error rate has a significant effect on delivery speed.
 
@@ -60,7 +60,7 @@ Moreover, quarantines help reducing SMS sending costs by excluding erroneous pho
 
 For more on best practices to secure and optimize your deliveries, refer to [this page](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html).
 
-### Quarantine vs blacklisting
+### Quarantine vs blacklisting {#quarantine-vs-blacklisting}
 
 **Quarantine** applies only to an address, not the profile itself. It means that, if two profiles have the same email address, they will both be affected if the address is quarantined.
 
@@ -72,7 +72,7 @@ Likewise, a profile whose email address is quarantined could update his profile 
 >
 >When a user replies to an SMS message with a keyword such as "STOP" in order to opt-out from SMS deliveries, his profile is not blacklisted like in the email opt-out process. The profile phone number is sent to quarantine with the **Blacklisted** status. This status refers to the phone number only, the profile is not blacklisted so that the user continues receiving email messages. For more on this, refer to [this section](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
 
-## Identifying quarantined addresses
+## Identifying quarantined addresses {#identifying-quarantined-addresses}
 
 Quarantined addresses can be listed for a specific delivery or for the entire platform.
 
@@ -80,13 +80,13 @@ Quarantined addresses can be listed for a specific delivery or for the entire pl
 >
 >If you need to remove an address from quarantine, contact your technical administrator.
 
-### Identifying quarantined addresses for a delivery
+### Identifying quarantined addresses for a delivery {#identifying-quarantined-addresses-for-a-delivery}
 
 Quarantined addresses for a specific delivery are listed during the delivery preparation phase, in the **Exclusion logs** tab of the delivery dashboard (see [this section](../../sending/using/monitoring-a-delivery.md#exclusion-logs)). For more on delivery preparation, refer to [this section](../../sending/using/preparing-the-send.md).
 
 ![](assets/exclusion_logs.png)
 
-### Identifying quarantined addresses for the entire platform
+### Identifying quarantined addresses for the entire platform {#identifying-quarantined-addresses-for-the-entire-platform}
 
 Administrators can list the addresses in quarantine for the entire platform from the **Administration > Channels > Quarantines > Addresses** menu.
 
@@ -100,7 +100,7 @@ Administrators can list the addresses in quarantine for the entire platform from
 >
 >The increase in number of quarantines is a normal effect, related to the "wear and tear" of the database. For example, if the lifetime of an email address is considered to be three years and the recipient table increases by 50% each year, the increase in quarantines can be calculated as follows: End of Year 1: (1&#42;0.33)/(1+0.5)=22%. End of Year 2: ((1.22&#42;0.33)+0.33)/(1.5+0.75)=32.5%.
 
-## Conditions for sending an address to quarantine
+## Conditions for sending an address to quarantine {#conditions-for-sending-an-address-to-quarantine}
 
 Adobe Campaign manages quarantine according to the delivery failure type and the reason assigned during error messages qualification (see [Delivery failure types and reasons](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) and [Bounce mail qualification](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)).
 

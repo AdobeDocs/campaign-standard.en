@@ -3,7 +3,7 @@ title: About subscriptions
 seo-title: About subscriptions
 description: About subscriptions
 seo-description: 
-uuid: 8a949a4c-0ab2-4061-801a-2addc5550efa
+uuid: a11d49ed-9ecc-4fee-9ec8-67c21d9046f8
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/audiences/using/about-subscriptions
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
 cq-template: /apps/help/templates/article-3
-discoiquuid: c0fae3cb-7586-442b-b3df-72b3ad2d70b6
+discoiquuid: 11470bc3-df3b-4e81-9a36-9dd9afd568db
 firstPublishExternalDate: 2018-09-07T14:49:49.939-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,14 +33,14 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About subscriptions
 publishexternaldate: 2018-09-07T14 49 49.939-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/audiences/using/about-subscriptions.html
-sha1: ba8aa1926188be11719e1e52f5ee0e0d5da137e9
+sha1: c7253de0719d093fa07e330e6d55ce1af702527c
 topicBrowsingSortDate: 2018-09-07T14:49:49.939-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# About subscriptions
+# About subscriptions{#about-subscriptions}
 
 About subscriptions
 

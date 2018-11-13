@@ -3,7 +3,7 @@ title: Filtering rules
 seo-title: Filtering rules
 description: Filtering rules
 seo-description: Use filtering rules to refine the audience of your messages.
-uuid: fbcd6ed0-a0ae-4300-bfd3-e0fb6d5da3c7
+uuid: 630945af-7c35-41fb-9390-ae585814cb24
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/filtering-rules
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
 cq-template: /apps/help/templates/article-3
-discoiquuid: ef536ab5-46d9-4d08-b922-d9cadf1a7dee
+discoiquuid: 30673927-2cc7-4a14-97fc-2b6ebd26b3e2
 firstPublishExternalDate: 2018-09-07T14:59:27.632-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,14 +33,14 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Filtering rules
 publishexternaldate: 2018-09-07T14 59 27.632-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/filtering-rules.html
-sha1: 4b43ad03a4408980f1363cc33c4c223d64bfece4
+sha1: dd19914ecbab63b06676423b3349f5594d0b87f7
 topicBrowsingSortDate: 2018-09-07T14:59:27.632-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Filtering rules
+# Filtering rules{#filtering-rules}
 
 Filtering rules
 
@@ -48,7 +48,7 @@ Filtering rules allow you to exclude one part of the message target according to
 
 For example, you can filter the newsletter subscribers so that the subscribers that are younger than 18 years old never receive communications.
 
-## Creating a filtering rule
+## Creating a filtering rule {#creating-a-filtering-rule}
 
 1. Create a **Filtering** typology rule, one that can be applied on all communication channels.
 
@@ -80,7 +80,7 @@ For example, you can filter the newsletter subscribers so that the subscribers t
 
 Whenever this rule is used in a message, the subscribers who are considered minors will be automatically excluded.
 
-## Restricting the applicability of a filtering rule
+## Restricting the applicability of a filtering rule {#restricting-the-applicability-of-a-filtering-rule}
 
 You can restrict the applicability of a filtering rule according to the message to send.
 
@@ -94,7 +94,7 @@ You can restrict the applicability of a filtering rule according to the message 
 
 In this case, the rule is only applied to the messages that correspond to the defined criteria.
 
-## Default deliverability exclusion rules
+## Default deliverability exclusion rules {#default-deliverability-exclusion-rules}
 
 Two filtering rules are available by default: **Exclusion of addresses** (**addressExclusions**) and **Exclusion of domains** (**domainExclusions**). During the email analysis, these rules compare the recipient email addresses with the forbidden addresses or domain names contained in an encrypted global suppression list managed in the deliverability instance. If there is a match, the message is not sent to that recipient.
 

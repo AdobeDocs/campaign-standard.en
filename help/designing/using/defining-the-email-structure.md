@@ -3,7 +3,7 @@ title: Defining the email structure
 seo-title: Defining the email structure
 description: Defining the email structure
 seo-description: Discover how to use the Creative Designer in Campaign to shape your emails and populate them with content components.
-uuid: a811bf24-1246-4d06-b865-678d86801d93
+uuid: f47f00fa-7e74-4782-8d59-825e206f4040
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/defining-the-email-structure
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: 39b3e38f-955e-4cf6-af8f-777ece3088ea
+discoiquuid: 3ac1f7f9-c13a-405c-8804-12e7504fa13f
 firstPublishExternalDate: 2018-09-07T14:47:52.732-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,18 +33,18 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Defining the email structure
 publishexternaldate: 2018-09-07T14 47 52.732-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/defining-the-email-structure.html
-sha1: 528ee0ee50ad847862ffb20a6beb230eaebe7260
+sha1: c215f9a72809e4c5b1a3ec2b7c523d3b99de2e08
 topicBrowsingSortDate: 2018-09-07T14:47:52.732-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Defining the email structure
+# Defining the email structure{#defining-the-email-structure}
 
 Defining the email structure
 
-## Editing the email structure with the Creative Designer
+## Editing the email structure with the Creative Designer {#editing-the-email-structure-with-the-creative-designer}
 
 The Creative Designer allows you to easily define the structure of your email. By adding and moving structural elements with simple drag & drop actions, you can design the shape of your email within seconds.
 
@@ -60,13 +60,13 @@ The Creative Designer allows you to easily define the structure of your email. B
 
 Once the structure is defined, you are able to add content fragments and components to your email.
 
-## Adding fragments and content components with the Creative Designer
+## Adding fragments and content components with the Creative Designer {#adding-fragments-and-content-components-with-the-creative-designer}
 
 With the Creative Designer, after adding structure components to your email, you can define their content. To do that, you need to add elements inside each structure component.
 
 There are two categories of content elements that you can use: **fragments** and **content components**.
 
-### About fragments
+### About fragments {#about-fragments}
 
 A fragment is a reusable component that can be referenced in one or more emails.
 
@@ -84,7 +84,7 @@ To unlock a fragment inside an email, select it and click the lock icon from the
 
 That fragment becomes a standalone component that is not linked anymore to the original fragment. It can then be edited as any other content component. See [About content components](../../designing/using/defining-the-email-structure.md#about-content-components).
 
-### About content components
+### About content components {#about-content-components}
 
 Content components are raw, empty components that you can edit once placed in an email.
 
@@ -110,7 +110,7 @@ Here is the list of the available components in the Creative Designer:
 * **Social**
 * **Text**
 
-#### Using the carousel component
+#### Using the carousel component {#using-the-carousel-component}
 
 1. Drag and drop the **Carousel** component inside a structure component.
 1. Browse to select images from your computer.
@@ -130,7 +130,7 @@ Here is the list of the available components in the Creative Designer:
 
 1. Select **Fallback view** to display the fallback image in the Creative Designer.
 
-### Inserting elements into an email
+### Inserting elements into an email {#inserting-elements-into-an-email}
 
 To define the content of your email, you can add content elements in the structure components you have placed beforehand. See [Editing the email structure with the Creative Designer](../../designing/using/defining-the-email-structure.md#editing-the-email-structure-with-the-creative-designer).
 
@@ -162,7 +162,7 @@ Now that your email structure is populated, you can edit the style of each conte
 >
 >If a fragment is modified, the changes are automatically propagated in the emails where it is used. For more on this, see [About fragments](../../designing/using/defining-the-email-structure.md#about-fragments).
 
-### Creating a content fragment
+### Creating a content fragment {#creating-a-content-fragment}
 
 You can create your own content fragments to reuse later in other emails.
 
@@ -192,6 +192,6 @@ The fragment can now be used in emails. It appears under the **Fragments** secti
 >
 >You cannot insert personalization fields inside a fragment unless it is used in an email. To do this, you need to unlock this fragment. See [About fragments](../../designing/using/defining-the-email-structure.md#about-fragments).
 
-## Managing email structure with the content editor
+## Managing email structure with the content editor {#managing-email-structure-with-the-content-editor}
 
 Managing the structure of an email within the content editor is similar to what can be done in a landing page. See [About fragments](../../designing/using/defining-the-email-structure.md#about-fragments).

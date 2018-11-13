@@ -3,7 +3,7 @@ title: About data import and export
 seo-title: About data import and export
 description: About data import and export
 seo-description: Learn about the different ways to import and export data with Adobe Campaign.
-uuid: 5300052d-d9a6-4659-b811-1ddef38aa7b5
+uuid: 22de35b0-2d44-43d7-96e8-ce0efd4e3da3
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/about-data-import-and-export
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
 cq-template: /apps/help/templates/article-3
-discoiquuid: 50de78f6-99eb-4682-bdba-9ef0b12b61e2
+discoiquuid: dd1cb10c-3173-4b45-aa53-741d0a5ffdd6
 firstPublishExternalDate: 2018-09-07T15:09:01.132-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,14 +33,14 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About data import and export
 publishexternaldate: 2018-09-07T15 09 01.132-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/about-data-import-and-export.html
-sha1: aa754037dd16ab75f9e5d3cc913dadfeae76735a
+sha1: 52ecd551936e0ea496656e846ec7d3e222142eda
 topicBrowsingSortDate: 2018-09-07T15:09:01.132-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# About data import and export
+# About data import and export{#about-data-import-and-export}
 
 About data import and export
 

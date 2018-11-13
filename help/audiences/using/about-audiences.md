@@ -3,7 +3,7 @@ title: About audiences
 seo-title: About audiences
 description: About audiences
 seo-description: Learn how to build audiences from a query, a list or a file, and how to import them from Adobe Experience Cloud.
-uuid: 1579bba7-b408-41ca-bd52-779b829f183f
+uuid: 6bb3a030-afe8-4c6b-8746-aab92324bb20
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/audiences/using/about-audiences
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 cq-template: /apps/help/templates/article-3
-discoiquuid: 92078bf7-0ad8-4c2f-b8b1-a0e44421ee5b
+discoiquuid: 22dfc20d-4001-47ec-88a3-418ca4df7461
 firstPublishExternalDate: 2018-09-07T14:45:51.489-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,14 +33,14 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About audiences
 publishexternaldate: 2018-09-07T14 45 51.489-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/audiences/using/about-audiences.html
-sha1: 44d13c6e0f8101e4e1db9155df9f55c7a2ae2d12
+sha1: 053f5c157166fa5ad2b187d9202253ec3e57e806
 topicBrowsingSortDate: 2018-09-07T14:45:51.489-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# About audiences
+# About audiences{#about-audiences}
 
 About audiences
 

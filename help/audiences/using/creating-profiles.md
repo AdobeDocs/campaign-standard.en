@@ -3,7 +3,7 @@ title: Creating profiles
 seo-title: Creating profiles
 description: Creating profiles
 seo-description: Learn how to create profiles and collect data on your contacts, using APIs, import capabilities, online acquisition, automatic or manual updates.
-uuid: a195b5ac-4cd6-443a-9273-7541181f0112
+uuid: 37b4e739-a16d-46d5-8eb8-f9f17caabf3a
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/audiences/using/creating-profiles
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 cq-template: /apps/help/templates/article-3
-discoiquuid: f44aad1c-afcf-4283-b925-aee728f2d26a
+discoiquuid: 5904e102-b8f6-4829-8172-2a7afb222a22
 firstPublishExternalDate: 2018-09-07T14:42:52.588-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,14 +33,14 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Creating profiles
 publishexternaldate: 2018-09-07T14 42 52.588-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/audiences/using/creating-profiles.html
-sha1: 517677354c6a8f9f8b47973f21f72b6ed4de0d98
+sha1: c81cb50c21a69c8ea3d3f6e842b81bfc4da7b2bf
 topicBrowsingSortDate: 2018-09-07T14:42:52.588-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Creating profiles
+# Creating profiles{#creating-profiles}
 
 Creating profiles
 

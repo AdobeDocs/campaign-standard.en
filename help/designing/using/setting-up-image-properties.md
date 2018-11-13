@@ -3,7 +3,7 @@ title: Setting up image properties
 seo-title: Setting up image properties
 description: Setting up image properties
 seo-description: See how to manage the properties of the images included in your content.
-uuid: 35eee1c3-d896-4554-b04d-364939de6d39
+uuid: d7c592f8-4f97-4b74-8f46-8adf28f8555c
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/setting-up-image-properties
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: using-images
 cq-template: /apps/help/templates/article-3
-discoiquuid: c6357bb1-857f-4a67-877d-07a19831c57c
+discoiquuid: 5e0fcfbc-5ca5-4601-bdaa-8f5dd630b09b
 firstPublishExternalDate: 2018-09-07T14:56:43.567-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,14 +33,14 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Setting up image properties
 publishexternaldate: 2018-09-07T14 56 43.567-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/setting-up-image-properties.html
-sha1: e6aa750b96291397e9885a9aa4f3c2c161704a41
+sha1: 98ebee5b51ca9e2867360050417b3cdb151a25bd
 topicBrowsingSortDate: 2018-09-07T14:56:43.567-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Setting up image properties
+# Setting up image properties{#setting-up-image-properties}
 
 Setting up image properties
 

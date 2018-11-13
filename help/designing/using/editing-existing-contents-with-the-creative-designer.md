@@ -3,7 +3,7 @@ title: Editing existing contents with the Creative Designer
 seo-title: Editing existing contents with the Creative Designer
 description: Editing existing contents with the Creative Designer
 seo-description: Discover how to make existing contents fully compliant with the Creative Designer interface.
-uuid: 1b5d8b3e-2201-4b79-a869-c634881c93b6
+uuid: 8d7ca2fe-9eeb-43ac-b628-34ae525dac61
 content-encoding: UTF-8
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/editing-existing-contents-with-the-creative-designer
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: loading-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: 443bd58f-f9cf-445e-840a-96ad57f8d4f0
+discoiquuid: 0a3e7e20-aa79-4e5e-9da6-1c647f7d6090
 firstPublishExternalDate: 2018-09-07T14:55:39.402-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,14 +33,14 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Editing existing contents with the Creative Designer
 publishexternaldate: 2018-09-07T14 55 39.402-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/editing-existing-contents-with-the-creative-designer.html
-sha1: acbe53da84cfb6fd0b942cb10e5afc875af18964
+sha1: 24a30c00abe32950692e94cb4984ce851393a37d
 topicBrowsingSortDate: 2018-09-07T14:55:39.402-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Editing existing contents with the Creative Designer
+# Editing existing contents with the Creative Designer{#editing-existing-contents-with-the-creative-designer}
 
 Editing existing contents with the Creative Designer
 
@@ -65,7 +65,7 @@ You can also create a delivery with the Creative Designer, copy-paste the HTML c
 
 However, like the compatibility mode, a HTML component is editable with limited options. If you create an email using **Html** content components, you will not be able to use all the editing functionalities of the Creative Designer.
 
-## Using fragments and components to create contents supported by the Creative Designer
+## Using fragments and components to create contents supported by the Creative Designer {#using-fragments-and-components-to-create-contents-supported-by-the-creative-designer}
 
 To simply make an external content compliant with the Creative Designer, Adobe recommends creating a delivery from scratch and copy the content from your existing email into fragments and components.
 
@@ -81,13 +81,13 @@ Let's say that you want to use an existing newsletter that was created outside o
 
 You want to have the same header and footer in all the emails that you will send with Adobe Campaign. The body of the email will change according to the content that you intend to display in each newsletter.
 
-### Prerequisites
+### Prerequisites {#prerequisites}
 
 1. In your original email, identify the reusable sections from the sections that will be unique to each email that you will send.
 1. Save all the images and assets that you want to use.
 1. If you are familiar with HTML, split your original HTML content into different parts.
 
-### Creating fragments for your reusable content
+### Creating fragments for your reusable content {#creating-fragments-for-your-reusable-content}
 
 Using the Creative Designer, create a fragment for each reusable section. In this example, you will create two fragments: one for the header and one for the footer. You can then copy the relevant parts from your existing content into these fragments.
 
@@ -119,7 +119,7 @@ To do this, follow the steps below:
 
 Your fragments are now ready to be used in a template.
 
-### Inserting fragments and components into your template
+### Inserting fragments and components into your template {#inserting-fragments-and-components-into-your-template}
 
 You can now create an email template with the Creative Designer. Use content components to reflect the different sections of your email and adjust the settings to make them as close as possible to your original newsletter. Finally, insert the fragments that you just created.
 
@@ -157,13 +157,13 @@ To use it, create an email and select the content template that you just created
 
 [Creating an email](../../channels/using/creating-an-email.md)
 
-## HTML tagging to ensure compatibility with the Creative Designer
+## HTML tagging to ensure compatibility with the Creative Designer {#html-tagging-to-ensure-compatibility-with-the-creative-designer}
 
 The [Creative Designer](../../designing/using/about-email-content-design.md#using-the-creative-designer) uses specific tagging. Standard HTML contents uploaded to Adobe Campaign must match the expected tagging to be fully compatible and editable.
 
 This section lists the specific hierarchy and attributes needed to make a template or another content compliant with the Creative Designer.
 
-### DOM hierarchy
+### DOM hierarchy {#dom-hierarchy}
 
 Use the following DOM hierarchy:
 
@@ -192,7 +192,7 @@ Use the following DOM hierarchy:
                   └─ <DIV> Fragment/component content [7]
 ```
 
-### CSS class names
+### CSS class names {#css-class-names}
 
 Use the following CSS class names within the DOM hierarchy described above:
 
@@ -207,7 +207,7 @@ Use the following CSS class names within the DOM hierarchy described above:
 * **image-container** - on a **&lt;div&gt;** node [6]: image component wrapper class name.
 * **divider-container** - on a **&lt;div&gt;** node [6]: divider component wrapper class name.
 
-### Data attributes
+### Data attributes {#data-attributes}
 
 Use the following data attributes within the DOM hierarchy described above:
 
@@ -227,7 +227,7 @@ Use the following data attributes within the DOM hierarchy described above:
 
   Example: **richtext.component_button**
 
-### Other attributes
+### Other attributes {#other-attributes}
 
 * **contenteditable** - on a **component wrapper &lt;div&gt;** node [6]: allows to make the component editable (for text type components).
 
@@ -237,7 +237,7 @@ Use the following data attributes within the DOM hierarchy described above:
   >
   >The **component** container node ([5]) should have the **contenteditable="false"** attribute.
 
-### DOM example
+### DOM example {#dom-example}
 
 ```
 

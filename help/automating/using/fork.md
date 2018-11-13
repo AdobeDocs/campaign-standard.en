@@ -3,7 +3,7 @@ title: Fork
 seo-title: Fork
 description: Fork
 seo-description: The Fork activity allows you to create outbound transitions to start several activities at the same time.
-uuid: dca75ff8-e4e9-455a-9228-2f9e29bb6031
+uuid: 7cc1d4d0-5bef-48f4-9106-38ac89b71eaf
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/fork
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: e0484390-69c7-46fd-b498-bcb41e508e17
+discoiquuid: e08149a9-7bbb-43de-bd0f-73bc05a31e7d
 firstPublishExternalDate: 2018-09-07T14:58:55.478-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,28 +33,28 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Fork
 publishexternaldate: 2018-09-07T14 58 55.478-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/fork.html
-sha1: 24d6d19744b4745a0c66fce3dc011ede917ca0b1
+sha1: 18b63afffc35bae5bf1483dba0e1edded381f84a
 topicBrowsingSortDate: 2018-09-07T14:58:55.478-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Fork
+# Fork{#fork}
 
 Fork
 
-## Description
+## Description {#description}
 
 ![](assets/fork.png)
 
 The **Fork** activity allows you to create outbound transitions to start several activities at the same time.
 
-## Context of use
+## Context of use {#context-of-use}
 
 The **Fork** activity allows you to carry out several different activities independently within the same workflow.
 
-## Configuration
+## Configuration {#configuration}
 
 1. Drag and drop a **Fork** activity into your workflow.
 1. Connect it to the other activities that come before it, such as queries.
@@ -64,7 +64,7 @@ The **Fork** activity allows you to carry out several different activities indep
 1. Specify the number of outbound transitions by creating, deleting or duplicating them. You can also attribute a name and a label to them.
 1. Confirm the configuration of your activity and save your workflow.
 
-## Example
+## Example {#example}
 
 The following example shows an intersection of two query activities that target profiles from the Adobe Campaign database, in this case, women living in Paris. The fork activity therefore allows you to use several activities at the same time: one that saves the audience to remember the calculated population, and another that segments the population to send two different emails with a targeted content for each segment. The first email is sent to Parisian women aged between 18 and 40 and another targeting Parisian women aged over 40.
 

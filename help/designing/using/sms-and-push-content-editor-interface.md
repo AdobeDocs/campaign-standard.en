@@ -3,7 +3,7 @@ title: SMS and push content editor interface
 seo-title: SMS and push content editor interface
 description: SMS and push content editor interface
 seo-description: Learn how to use the different sections of the editor to modify your SMS and push content.
-uuid: f1788437-efde-4ca0-b7ec-ca592a9c9997
+uuid: 128ed724-d69c-42c0-981d-2a74f6c40733
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/sms-and-push-content-editor-interface
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-sms-and-push-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: bb8ebd70-cac3-4a82-b140-072fb232dc88
+discoiquuid: d23d07f9-9183-480a-9d48-7170ecaf3223
 firstPublishExternalDate: 2018-09-07T14:53:19.499-0400
 herogradient: light
 isreadyforlocalization: false
@@ -34,14 +34,14 @@ moreHelpPaths: /content/help/en/campaign/standard/designing/morehelp/editing-sms
 navTitle: SMS and push content editor interface
 publishexternaldate: 2018-09-07T14 53 19.499-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/sms-and-push-content-editor-interface.html
-sha1: 44739c1bde08b5cc9244114fcbe3455b2498e3f0
+sha1: 1b4487508c313f49d089171000155a70c98956c4
 topicBrowsingSortDate: 2018-09-07T14:53:19.499-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# SMS and push content editor interface
+# SMS and push content editor interface{#sms-and-push-content-editor-interface}
 
 SMS and push content editor interface
 
@@ -50,7 +50,7 @@ The SMS and push content editor is organized into two different sections that al
 1. The **action bar** contains the general options for the page. You can insert personalization fields or content blocks, add conditional text and preview your SMS content from here. See [SMS and push content editor action bar](../../designing/using/sms-and-push-content-editor-interface.md#sms-and-push-content-editor-action-bar).
 1. The **editing zone** of the screen allows you to directly enter your text message and select where you want to insert personalization. See [SMS and push content edition modes](../../designing/using/sms-and-push-content-editor-interface.md#sms-and-push-content-edition-modes).
 
-## SMS and push content editor action bar
+## SMS and push content editor action bar {#sms-and-push-content-editor-action-bar}
 
 The action bar contains different buttons that allow you to interact with the content that is being created.
 
@@ -109,7 +109,7 @@ The action bar contains different buttons that allow you to interact with the co
  </tbody> 
 </table>
 
-## SMS and push content edition modes
+## SMS and push content edition modes {#sms-and-push-content-edition-modes}
 
 The SMS and push content editor offers the following functionalities:
 

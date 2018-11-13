@@ -3,7 +3,7 @@ title: Subscription Services
 seo-title: Subscription Services
 description: Subscription Services
 seo-description: The Subscription Services activity allows you to take profiles in mass and subscribe them to a service or unsubscribe them from a service.
-uuid: d86c46d5-bafa-4d5b-86f5-90218a21e500
+uuid: 1c03d1a4-f659-4e65-a162-922bf264c46c
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/subscription-services
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: 3a7e25bc-70ea-4197-a1c8-d799bcfcc788
+discoiquuid: ec3c5182-65cb-42a6-8dcb-8288810abf01
 firstPublishExternalDate: 2018-09-07T15:08:42.387-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,18 +33,18 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Subscription Services
 publishexternaldate: 2018-09-07T15 08 42.387-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/subscription-services.html
-sha1: 4503a1c65392683196313e9ec2e38fddbee82229
+sha1: 511460bb711e27aea6616a89a6bd3fcfcf72ec0a
 topicBrowsingSortDate: 2018-09-07T15:08:42.387-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Subscription Services
+# Subscription Services{#subscription-services}
 
 Subscription Services
 
-## Description
+## Description {#description}
 
 ![](assets/wf_subscription.png)
 
@@ -54,7 +54,7 @@ The **Subscription Services** activity allows you to take profiles in mass and s
 >
 >When subscription managed in the context of a workflow, the subscribed or unsubscribed profiles do not receive the different confirmation emails defined in the service properties.
 
-## Context of use
+## Context of use {#context-of-use}
 
 The **Subscription Services** activity is the only Adobe Campaign functionality which allows multiple profiles to be subscribed to or to be unsubscribed from a service in a single action.
 
@@ -62,7 +62,7 @@ You can use this activity after having carried out targeting or having imported 
 
 If specified in a file through dedicated columns, this activity also lets you choose the action (subscribe or unsubscribe) and the service on which to perform the action.
 
-## Configuration
+## Configuration {#configuration}
 
 1. Drag and drop a **Subscription Services** activity into your workflow.
 1. Connect it after other targeting activities such as a query or a reconciliation following an import.
@@ -92,7 +92,7 @@ If specified in a file through dedicated columns, this activity also lets you ch
 
    It is now ready to be executed. Once executed, you can view the profiles that have subscribed to or unsubscribed from the service in the detail of the service.
 
-## Example: Subscribing profiles to a specific service after importing a file
+## Example: Subscribing profiles to a specific service after importing a file {#example-subscribing-profiles-to-a-specific-service-after-importing-a-file}
 
 This example illustrates how to import a file containing profiles and subscribe them to an existing service. After importing the file, a reconciliation needs to be carried out so that the data imported can be identified as being profiles. To ensure that the file does not contain any duplicates, a deduplication activity will be executed on the data.
 
@@ -131,7 +131,7 @@ The workflow is presented as follows:
 
   ![](assets/subscription_activity_example4.png)
 
-## Example: Updating multiple subscription statuses from a file
+## Example: Updating multiple subscription statuses from a file {#example-updating-multiple-subscription-statuses-from-a-file}
 
 This example illustrates how to import a file containing profiles and update their subscription to several services specified in the file. After importing the file, a reconciliation needs to be carried out so that the data imported can be identified as being profiles with a link to services. To ensure that the file does not contain any duplicates, a deduplication activity will be executed on the data.
 

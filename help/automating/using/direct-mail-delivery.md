@@ -3,7 +3,7 @@ title: Direct mail delivery
 seo-title: Direct mail delivery
 description: Direct mail delivery
 seo-description: The Direct mail delivery activity allows you to configure sending a single send direct mail or a recurring direct mail in a workflow.
-uuid: 94971e4b-fef2-46d7-a8e1-31201bc7cde5
+uuid: 217adcc5-86c6-48fd-aafd-1117f637eb7c
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/direct-mail-delivery
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: channel-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: 7615f73c-57ef-447b-82c6-2a55cbf230f0
+discoiquuid: 942dfd9c-5660-444c-a864-f1ed51b10bf1
 firstPublishExternalDate: 2018-09-07T15:07:12.705-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,18 +33,18 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Direct mail delivery
 publishexternaldate: 2018-09-07T15 07 12.705-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/direct-mail-delivery.html
-sha1: 4b9c833d71b75e78ad6e8b389fe19d906ea4d38e
+sha1: 0090ee020241d0a42dd32c9ad13adbff835acc6e
 topicBrowsingSortDate: 2018-09-07T15:07:12.705-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Direct mail delivery
+# Direct mail delivery{#direct-mail-delivery}
 
 Direct mail delivery
 
-## Description
+## Description {#description}
 
 ![](assets/paper.png)  ![](assets/recurrentPaper.png)
 
@@ -54,7 +54,7 @@ Standard direct mails are sent once.
 
 Recurring mails allow you to send the same direct mail multiple times to different targets over a defined period. You can aggregate the deliveries per period in order to get reports that correspond to your needs.
 
-## Context of use
+## Context of use {#context-of-use}
 
 The **Direct mail delivery** activity is generally used to automate preparing a file that contains profile data. This file can then be sent to a partner/provider in charge of the mailing.
 
@@ -64,7 +64,7 @@ Direct mail recipients are defined upstream of the activity in the same workflow
 
 The message preparation is triggered according to the workflow execution parameters. From the message dashboard, you can select whether to request or not a manual confirmation to send the message (required by default). You can start the workflow manually or place a scheduler activity in the workflow to automate execution.
 
-## Configuration
+## Configuration {#configuration}
 
 1. Drag and drop a **Direct mail delivery** activity into your workflow.
 1. Select the activity, then open it using the  ![](assets/edit_darkgrey-24px.png)
@@ -104,7 +104,7 @@ When you reopen the activity, you are taken directly to the direct mail dashboar
 
 By default, starting a delivery workflow only triggers the message preparation. The sending of messages created from a workflow still needs to be confirmed after the workflow has been started. But from the message dashboard, and only if the message was created from a workflow, you can disable the **Request confirmation before sending messages** option. By unchecking this option, messages are sent without further notice once the preparation is done.
 
-## Remarks
+## Remarks {#remarks}
 
 The deliveries created within a workflow can be accessed in the application's marketing activity list. You can view the workflow's execution status using the dashboard. Links in the direct mail summary pane allow you to directly access linked elements (workflow, campaign, parent delivery in case of a recurring direct mail).
 
@@ -120,6 +120,6 @@ In the parent deliveries, which can be accessed from the marketing activity list
 
 ![](assets/wkf_display_recurrent_executions_3_direct_mail.png) 
 
-## Example
+## Example {#example}
 
 An example of **Direct mail delivery** is available in the [Direct Mail](../../channels/using/example-of-direct-mail-in-a-workflow.md) chapter.

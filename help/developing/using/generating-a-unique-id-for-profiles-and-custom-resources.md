@@ -3,7 +3,7 @@ title: Generating a unique ID for profiles and custom resources
 seo-title: Generating a unique ID for profiles and custom resources
 description: Generating a unique ID for profiles and custom resources
 seo-description: 
-uuid: c3ae0efd-8326-46bb-8758-91ce67637b60
+uuid: 73039a92-eed5-4bc3-b417-403f95076eb5
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/developing/using/generating-a-unique-id-for-profiles-and-custom-resources
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 cq-template: /apps/help/templates/article-3
-discoiquuid: 6bc36322-f61a-4733-8730-f57b7f730b06
+discoiquuid: 09ee5cf6-60c4-4b7e-9c2d-9f3fabb9ef64
 firstPublishExternalDate: 2018-09-07T14:55:37.589-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,14 +33,14 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Generating a unique ID for profiles and custom resources
 publishexternaldate: 2018-09-07T14 55 37.589-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/generating-a-unique-id-for-profiles-and-custom-resources.html
-sha1: 30599b31e2e409a0890ab71fb47185e1b76d187f
+sha1: 0695d42dec1f10fed7bee7f4ac09ca352cd04b6d
 topicBrowsingSortDate: 2018-09-07T14:55:37.589-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Generating a unique ID for profiles and custom resources
+# Generating a unique ID for profiles and custom resources{#generating-a-unique-id-for-profiles-and-custom-resources}
 
 Generating a unique ID for profiles and custom resources
 

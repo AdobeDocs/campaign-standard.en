@@ -3,7 +3,7 @@ title: Defining dynamic content in an email
 seo-title: Defining dynamic content in an email
 description: Defining dynamic content in an email
 seo-description: Follow these steps to display different contents dynamically in an email according to the conditions defined through the Adobe Campaign expression editor.
-uuid: 36fc5f6c-4c4b-46e4-9648-e9ca1b5dfffd
+uuid: 08800ee4-2e1f-4ea6-8a59-f271835b5489
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/defining-dynamic-content-in-an-email
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: defining-conditional-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: c11cda07-71df-4994-805b-bc3af2ce1f71
+discoiquuid: 4ff77d25-bb5c-4349-9874-631ca0d06e1b
 firstPublishExternalDate: 2018-09-07T15:05:04.786-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,14 +33,14 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Defining dynamic content in an email
 publishexternaldate: 2018-09-07T15 05 04.786-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/defining-dynamic-content-in-an-email.html
-sha1: 4651a95bc0dc0316370c089a700dc234c05e5e4d
+sha1: 6bd8434652f20ea75d057a76d1231d3ea7cfc222
 topicBrowsingSortDate: 2018-09-07T15:05:04.786-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Defining dynamic content in an email
+# Defining dynamic content in an email{#defining-dynamic-content-in-an-email}
 
 Defining dynamic content in an email
 
@@ -75,7 +75,7 @@ Defining dynamic content is different from [defining visibility conditions](../.
 * [Sending proofs](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs)
 * [Advanced expression editing](../../automating/using/editing-queries.md#about-query-editor)
 
-## Order of priority
+## Order of priority {#order-of-priority}
 
 In the expression editor, when you define a dynamic content, the order of priority is as follows.
 

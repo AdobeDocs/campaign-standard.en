@@ -3,7 +3,7 @@ title: Tracking messages
 seo-title: Tracking messages
 description: Tracking messages
 seo-description: Learn how to track the behavior of your delivery recipients.
-uuid: 2aaef5a2-b2f5-4689-8db2-3f9a91d28998
+uuid: 4a80e5b6-3c61-4040-8da5-dbe8b0fdaa13
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/sending/using/tracking-messages
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
 cq-template: /apps/help/templates/article-3
-discoiquuid: e623d218-b8e0-4007-bb5d-0b532fc45a67
+discoiquuid: c614fce1-aa5b-438d-b152-507f806d8991
 firstPublishExternalDate: 2018-09-07T15:11:30.302-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,18 +33,18 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Tracking messages
 publishexternaldate: 2018-09-07T15 11 30.302-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/sending/using/tracking-messages.html
-sha1: 3f7fede200b312ef1eeedc219bc4b4c87ce775bd
+sha1: d9493366b28173b4c019df5700ce5c1ed1fea204
 topicBrowsingSortDate: 2018-09-07T15:11:30.302-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Tracking messages
+# Tracking messages{#tracking-messages}
 
 Tracking messages
 
-## About tracking
+## About tracking {#about-tracking}
 
 Thanks to its tracking functionalities, Adobe Campaign enables you to track the behavior of your delivery recipients. To do this, Adobe Campaign uses session cookies and permanent cookies.
 
@@ -57,7 +57,7 @@ Adobe Campaign uses two types of cookies:
 
 Tracking information are available for each contact of your database into **integrated customer profiles**. For more on this, refer to [this section](../../audiences/using/integrated-customer-profile.md).
 
-## Tracking logs
+## Tracking logs {#tracking-logs}
 
 The **Tracking logs** tab lists the tracking history for this delivery. This tab displays the tracking information for the sent messages, such as all the URLs which have been tracked by Adobe Campaign. Tracking information in this tab is updated every 10 minutes.
 
@@ -86,7 +86,7 @@ In the **Type** column, the possible values are:
 
 For more on how to insert tracking links, refer to [this page](../../designing/using/inserting-a-link.md).
 
-## Tracked URLs
+## Tracked URLs {#tracked-urls}
 
 The **Tracked URLs** tab regroups the URLs contained in the sent message, including their URL type and their source URL.
 

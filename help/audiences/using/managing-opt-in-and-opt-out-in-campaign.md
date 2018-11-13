@@ -3,7 +3,7 @@ title: Managing opt-in and opt-out in Campaign
 seo-title: Managing opt-in and opt-out in Campaign
 description: Managing opt-in and opt-out in Campaign
 seo-description: Understand how opt-in and opt-out are managed in Adobe Campaign.
-uuid: ec36421e-9511-4471-b7ae-ee8762251982
+uuid: 307a6eb0-dcfd-479c-aa87-e23b1a01ecac
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/audiences/using/managing-opt-in-and-opt-out-in-campaign
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
 cq-template: /apps/help/templates/article-3
-discoiquuid: fab13179-4498-40f5-a65e-30483167856a
+discoiquuid: 4b9c816b-91d6-404e-8d6e-95d59ba3809a
 firstPublishExternalDate: 2018-09-07T14:53:18.908-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,18 +33,18 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Managing opt-in and opt-out in Campaign
 publishexternaldate: 2018-09-07T14 53 18.908-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/audiences/using/managing-opt-in-and-opt-out-in-campaign.html
-sha1: 6ba5bebbe911a8b6f090ccf6d2e9d20b5aea7326
+sha1: e45c3fb6af832111f05d96776fa280a4439c6fb8
 topicBrowsingSortDate: 2018-09-07T14:53:18.908-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Managing opt-in and opt-out in Campaign
+# Managing opt-in and opt-out in Campaign{#managing-opt-in-and-opt-out-in-campaign}
 
 Managing opt-in and opt-out in Campaign
 
-## Managing opt-in and opt-out from a profile
+## Managing opt-in and opt-out from a profile {#managing-opt-in-and-opt-out-from-a-profile}
 
 Users can be opted in or out by an operator directly from the profile **General** tab.
 
@@ -52,7 +52,7 @@ In the **No longer contact (blacklist)** section, the selected checkboxes corres
 
 ![](assets/optIn_landingPage_3.png)
 
-## Setting up opt-in and opt-out landing pages
+## Setting up opt-in and opt-out landing pages {#setting-up-opt-in-and-opt-out-landing-pages}
 
 To give users the ability to opt in or opt out, you have to create and publish a **Profile acquisition** landing page. They will then be able to select the channels according to their needs. To do this, follow the steps below.
 
@@ -76,7 +76,7 @@ You can also set up a **BlackList** landing page that will enable users to opt o
 
    ![](assets/optIn_landingPage_3.png)
 
-### Setting up a landing page to opt out from all deliveries
+### Setting up a landing page to opt out from all deliveries {#setting-up-a-landing-page-to-opt-out-from-all-deliveries}
 
 To give users the ability to opt out from all deliveries, you have to create and publish a **BlackList** landing page. For more on landing pages creation, refer to [this page](../../channels/using/about-landing-pages.md).
 

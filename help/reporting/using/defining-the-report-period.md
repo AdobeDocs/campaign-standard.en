@@ -3,7 +3,7 @@ title: Defining the report period
 seo-title: Defining the report period
 description: Defining the report period
 seo-description: The time period of your report allows you to filter your data depending on the chosen dates.
-uuid: e7792530-34fd-4f70-b42b-8531a4e184a4
+uuid: ecb9f1cb-72c6-4d72-a014-d1246a5b9281
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/reporting/using/defining-the-report-period
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 cq-template: /apps/help/templates/article-3
-discoiquuid: e4fd4554-27eb-479d-8ecd-5c86fab60595
+discoiquuid: 7165270c-b5ec-4da9-9a56-f43e5380c4aa
 firstPublishExternalDate: 2018-09-07T15:04:09.247-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,14 +33,14 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Defining the report period
 publishexternaldate: 2018-09-07T15 04 09.247-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/defining-the-report-period.html
-sha1: 99c4d3cd052311a27928380f88dd62b74dd5bd81
+sha1: 6051f446bc76d61ca767594ee567ca43e9ef4aab
 topicBrowsingSortDate: 2018-09-07T15:04:09.247-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Defining the report period
+# Defining the report period{#defining-the-report-period}
 
 Defining the report period
 

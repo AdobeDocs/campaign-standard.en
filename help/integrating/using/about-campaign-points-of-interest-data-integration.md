@@ -3,7 +3,7 @@ title: About Campaign-Points of Interest data integration
 seo-title: About Campaign-Points of Interest data integration
 description: About Campaign-Points of Interest data integration
 seo-description: By collecting the Points of Interest data from your mobile application's subscribers, send location-based marketing messages to your subscribers through the integration in Adobe Campaign.
-uuid: 55d4d304-3a43-4c42-ac7e-368554c1b868
+uuid: ca07e5ce-d106-47be-9788-3ce6a6579814
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/integrating/using/about-campaign-points-of-interest-data-integration
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
 cq-template: /apps/help/templates/article-3
-discoiquuid: bf6bf0e0-0425-40b2-b832-85d5e794ca08
+discoiquuid: b5a15b99-d7d3-4ca0-9cc7-1716948e7b73
 firstPublishExternalDate: 2018-09-07T15:07:51.335-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,14 +33,14 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: About Campaign-Points of Interest data integration
 publishexternaldate: 2018-09-07T15 07 51.335-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/integrating/using/about-campaign-points-of-interest-data-integration.html
-sha1: b60f1f6710ddabda2f58b0388c052536a3684a0a
+sha1: 3f5fbd0d605f06bce86f0cc12f63d71957a47a9d
 topicBrowsingSortDate: 2018-09-07T15:07:51.335-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# About Campaign-Points of Interest data integration
+# About Campaign-Points of Interest data integration{#about-campaign-points-of-interest-data-integration}
 
 About Campaign-Points of Interest data integration
 

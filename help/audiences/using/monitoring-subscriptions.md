@@ -3,7 +3,7 @@ title: Monitoring subscriptions
 seo-title: Monitoring subscriptions
 description: Monitoring subscriptions
 seo-description: Learn how to track your subscribers and measure the success of your services using dashboards and reports.
-uuid: c12ba844-b8a9-4c9b-b862-7114e19a78e0
+uuid: a88aac1b-7cdf-4c82-9012-50084a5b29a6
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/audiences/using/monitoring-subscriptions
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
 cq-template: /apps/help/templates/article-3
-discoiquuid: 57abb2ab-2367-4cbb-b04f-974c7d36a51e
+discoiquuid: b37d56dc-61c5-423d-9190-3d2fa417fc29
 firstPublishExternalDate: 2018-09-07T14:51:56.668-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,14 +33,14 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Monitoring subscriptions
 publishexternaldate: 2018-09-07T14 51 56.668-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/audiences/using/monitoring-subscriptions.html
-sha1: 7d1451112dc75993285f4ff4a1b217f1411d5896
+sha1: 78fc9511b902605f7fe0d4286d5b648a3ba6c464
 topicBrowsingSortDate: 2018-09-07T14:51:56.668-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Monitoring subscriptions
+# Monitoring subscriptions{#monitoring-subscriptions}
 
 Monitoring subscriptions
 
@@ -53,7 +53,7 @@ You have several options for monitoring subscriptions to and unsubscriptions:
 * display a report detailing the evolution of subscriptions and unsubscriptions in the service **Reports**. See [Service reports](../../audiences/using/monitoring-subscriptions.md#service-reports).
 * find the list of services a person has subscribed from its **Profile**. See [History of events linked to a profile](../../audiences/using/monitoring-subscriptions.md#history-of-events-linked-to-a-profile).
 
-## Service dashboard
+## Service dashboard {#service-dashboard}
 
 To view the list of people subscribed to a service:
 
@@ -63,7 +63,7 @@ To view the list of people subscribed to a service:
 
 ![](assets/lp_monitoring_subscriptions_1.png)
 
-## Subscription history
+## Subscription history {#subscription-history}
 
 To consult the subscription and unsubscription history:
 
@@ -73,7 +73,7 @@ To consult the subscription and unsubscription history:
 
 ![](assets/lp_monitoring_subscriptions_2.png)
 
-## Service reports
+## Service reports {#service-reports}
 
 To display a report detailing the evolution of subscriptions and unsubscriptions:
 
@@ -87,7 +87,7 @@ To display a report detailing the evolution of subscriptions and unsubscriptions
 
 ![](assets/lp_monitoring_subscriptions_4.png)
 
-## History of events linked to a profile
+## History of events linked to a profile {#history-of-events-linked-to-a-profile}
 
 To consult the list of services to which a contact has subscribed, you can consult its marketing history. For more on this, refer to the [Integrated customer profile](../../audiences/using/integrated-customer-profile.md) section.
 

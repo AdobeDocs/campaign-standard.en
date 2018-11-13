@@ -3,7 +3,7 @@ title: Importing data
 seo-title: Importing data
 description: Importing data
 seo-description: Learn how to import data with a workflow.
-uuid: fe723646-5b91-4cdc-917f-5337e62824de
+uuid: 91092199-6b33-4d50-9217-c9b672a907c3
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/importing-data
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 cq-template: /apps/help/templates/article-3
-discoiquuid: c2231b6c-1e1d-4076-b761-bf720f973084
+discoiquuid: 69bef9db-0d39-444b-af7d-182fc34fefca
 firstPublishExternalDate: 2018-09-07T14:47:30.532-0400
 herogradient: light
 isreadyforlocalization: false
@@ -34,18 +34,18 @@ moreHelpPaths: /content/help/en/campaign/standard/automating/morehelp/workflow-g
 navTitle: Importing data
 publishexternaldate: 2018-09-07T14 47 30.532-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/importing-data.html
-sha1: b7d9eb0398420cc7423a0a891ae234b4989c8fca
+sha1: 8c740e4c8f63a06fb4cca14d71dea8feb5e3e12d
 topicBrowsingSortDate: 2018-09-07T14:47:30.532-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Importing data
+# Importing data{#importing-data}
 
 Importing data
 
-## Collecting data
+## Collecting data {#collecting-data}
 
 You can collect data from a file to process it and/or to import it in the Adobe Campaign database.
 
@@ -54,11 +54,11 @@ You can collect data from a file to process it and/or to import it in the Adobe 
 
   You can use this activity before a **Load file** in case you need to retrieve the file from an external source.
 
-## Import best practices
+## Import best practices {#import-best-practices}
 
 Being cautious and following the few simple rules detailed below will help a lot in ensuring data consistency within the database and in avoiding common errors during database update or data exports.
 
-### Using import templates
+### Using import templates {#using-import-templates}
 
 Most import workflows should contain the following activities: **Load file**, **Reconciliation**, **Segmentation**, **Deduplication**, **Update data**.
 
@@ -74,7 +74,7 @@ An example of a generic workflow template designed for importing data is availab
 >
 >You can also use [import templates](../../automating/using/importing-data-with-import-templates.md). They are workflow templates defined by an administrator that, once activated, only offer the possibility to specify the file containing the data to import.
 
-### Using flat file formats
+### Using flat file formats {#using-flat-file-formats}
 
 The most efficient format for imports is flat files. Flat files can be imported in bulk mode at the database level.
 
@@ -95,17 +95,17 @@ Smith;Clara;08/02/1989;hayden.smith@example.com;124567
 Durance;Allison;15/12/1978;allison.durance@example.com;120987
 ```
 
-### Using compression
+### Using compression {#using-compression}
 
 Use zipped files for imports and exports when possible. GZIP is supported by default. You can add pre-processing when importing files or post-processing when extracting data, respectively in the **Load file** and **Extract file** workflow activities.
 
-### Importing in Delta mode
+### Importing in Delta mode {#importing-in-delta-mode}
 
 Regular imports must be done in delta mode. It means that only modified or new data is sent to Adobe Campaign, instead of the whole table every time.
 
 Full imports should be used for initial load only.
 
-### Maintaining consistency
+### Maintaining consistency {#maintaining-consistency}
 
 To maintain data consistency in the Adobe Campaign database, follow the principles below:
 
@@ -115,7 +115,7 @@ To maintain data consistency in the Adobe Campaign database, follow the principl
 * **Import related files in order**. If the import is composed of multiple files that depend on each other, the workflow should make sure that the files are imported in the correct order. When a file fails, the other files are not imported.
 * **Deduplicate**, reconcile, and maintain consistency when you import data.
 
-## Example: Import workflow template
+## Example: Import workflow template {#example-import-workflow-template}
 
 Using an import template is a best practice if you need to regularly import files with the same structure.
 

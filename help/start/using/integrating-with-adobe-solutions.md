@@ -3,7 +3,7 @@ title: Integrating with Adobe solutions
 seo-title: Integrating with Adobe solutions
 description: Integrating with Adobe solutions
 seo-description: Learn how integrations with Adobe Experience Cloud core services and solutions such as Adobe Analytics and Experience Manager can improve your Adobe Campaign strategy with deep insights and convenient content management.
-uuid: 403310de-ab5e-47e0-92e8-f46a997f35e5
+uuid: 8801486f-1380-4389-b085-cf7a6821232a
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/start/using/integrating-with-adobe-solutions
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: start
 content-type: reference
 topic-tags: about-adobe-campaign
 cq-template: /apps/help/templates/article-3
-discoiquuid: 15cb03a6-516b-4849-b38d-fbffaf57819c
+discoiquuid: dad3e2f8-154b-4ce1-8590-34448e79b116
 firstPublishExternalDate: 2018-09-07T15:07:40.061-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,14 +33,14 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Integrating with Adobe solutions
 publishexternaldate: 2018-09-07T15 07 40.061-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/start/using/integrating-with-adobe-solutions.html
-sha1: ccf1afb64016fc283d30bbc2ff4528e0c2830e6d
+sha1: e12160703310865795842d71660a4e600f6a971e
 topicBrowsingSortDate: 2018-09-07T15:07:40.061-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Integrating with Adobe solutions
+# Integrating with Adobe solutions{#integrating-with-adobe-solutions}
 
 Integrating with Adobe solutions
 

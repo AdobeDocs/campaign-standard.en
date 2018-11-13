@@ -3,7 +3,7 @@ title: Unsubscriptions
 seo-title: Unsubscriptions
 description: Unsubscriptions
 seo-description: With the Unsubscriptions out-of-the-box report, learn how many times customers unsubscribed to your deliveries.
-uuid: 49d034c9-1d76-44cd-91c1-a275450b0310
+uuid: 375f096f-384c-4775-8ce3-f36c0fc35f75
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/reporting/using/unsubscriptions
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 cq-template: /apps/help/templates/article-3
-discoiquuid: 24def2ad-23db-4494-a6e9-e7f64fcf6274
+discoiquuid: 3073f037-509f-49d5-b5f2-ba1bbc06fc75
 firstPublishExternalDate: 2018-09-07T15:08:34.032-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,14 +33,14 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Unsubscriptions
 publishexternaldate: 2018-09-07T15 08 34.032-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/reporting/using/unsubscriptions.html
-sha1: 5f4959f5f32337f47b86234a90e5f55588a31882
+sha1: a0b2bcb8d09c72f50a587496bf5c5db42c0dd6dc
 topicBrowsingSortDate: 2018-09-07T15:08:34.032-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Unsubscriptions
+# Unsubscriptions{#unsubscriptions}
 
 Unsubscriptions
 

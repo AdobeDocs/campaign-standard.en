@@ -3,7 +3,7 @@ title: Message dashboard
 seo-title: Message dashboard
 description: Message dashboard
 seo-description: Discover what the message dashboard is made up of, including the action bar and the various functional blocks.
-uuid: 6f55a041-52ce-4822-9c02-dd3489c8304e
+uuid: 648b9089-9608-4af5-9714-7d61181e8243
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/message-dashboard
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 cq-template: /apps/help/templates/article-3
-discoiquuid: 5dbb3517-738b-4c79-b560-93de4dc9867c
+discoiquuid: d49d24ea-9818-491f-9490-7d71bd0aeed1
 firstPublishExternalDate: 2018-09-07T15:11:32.375-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,14 +33,14 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Message dashboard
 publishexternaldate: 2018-09-07T15 11 32.375-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/message-dashboard.html
-sha1: 37c711a7ae76cb9c4831ea27e1bdbe1686b02e07
+sha1: cd0b25a59af3b6fae94a74175207d2c2dfb619a8
 topicBrowsingSortDate: 2018-09-07T15:11:32.375-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Message dashboard
+# Message dashboard{#message-dashboard}
 
 Message dashboard
 
@@ -48,7 +48,7 @@ The message dashboard is a workspace made up of different icons - regrouped into
 
 ![](assets/delivery_dashboard_2.png)
 
-## Gray bar
+## Gray bar {#gray-bar}
 
 The gray bar regroups various icons linked to your message.
 
@@ -61,7 +61,7 @@ The gray bar regroups various icons linked to your message.
 * [Configuring channels](../../administration/using/about-channel-configuration.md)
 * [Accessing reports](../../reporting/using/about-dynamic-reports.md)
 
-## Action bar
+## Action bar {#action-bar}
 
 The action bar has different icons that allow you to interact with your message.
 
@@ -89,7 +89,7 @@ Depending on the parameters that have been set up and the progress made, certain
 
   For more on confirming sending, see [Sending messages](../../sending/using/confirming-the-send.md).
 
-## Blocks
+## Blocks {#blocks}
 
 The main screen is made up of different blocks. Click inside a block to access the corresponding parameter screen:
 

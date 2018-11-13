@@ -3,7 +3,7 @@ title: Query
 seo-title: Query
 description: Query
 seo-description: The Query activity allows you to filter and extract a population of elements from the Adobe Campaign database.
-uuid: 2bcd3d90-8040-47c7-9e07-98df52a47218
+uuid: 29919e13-7976-4935-85f4-81139fce95dd
 content-encoding: UTF-8
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/query
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: e38cd35a-0b17-490f-a582-70e4ce63c462
+discoiquuid: e4e2daef-d1f8-47e5-a239-404add71b4bf
 firstPublishExternalDate: 2018-09-07T14:50:42.905-0400
 herogradient: light
 isreadyforlocalization: false
@@ -34,18 +34,18 @@ moreHelpPaths: /content/help/en/campaign/standard/automating/morehelp/targeting-
 navTitle: Query
 publishexternaldate: 2018-09-07T14 50 42.905-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/query.html
-sha1: b06d00984933753e58951210be0b81ba900166ea
+sha1: d2de459f48254a02587c32ac62f253a38d5b63eb
 topicBrowsingSortDate: 2018-09-07T14:50:42.905-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Query
+# Query{#query}
 
 Query
 
-## Description
+## Description {#description}
 
 ![](assets/query.png)
 
@@ -53,7 +53,7 @@ The **Query** activity allows you to filter and extract a population of elements
 
 The activity uses the query editor tool. This tool is detailed in a [dedicated section](../../automating/using/editing-queries.md#about-query-editor).
 
-## Context of use
+## Context of use {#context-of-use}
 
 The **Query** activity can be used for various types of uses:
 
@@ -61,7 +61,7 @@ The **Query** activity can be used for various types of uses:
 * Enriching data of the entire Adobe Campaign database table.
 * Exporting data.
 
-## Configuration
+## Configuration {#configuration}
 
 1. Drag and drop a **Query** activity into your workflow.
 1. Select the activity, then open it using the  ![](assets/edit_darkgrey-24px.png)
@@ -82,13 +82,13 @@ The **Query** activity can be used for various types of uses:
 
 1. Confirm the configuration of your activity and save your workflow.
 
-## Targeting dimensions and resources
+## Targeting dimensions and resources {#targeting-dimensions-and-resources}
 
 Targeting dimensions and resources let you define on which elements a query will be based to determine the target of a delivery.
 
 Targeting dimensions are defined in target mappings. For more on this, refer to [this section](../../administration/using/target-mappings-in-campaign.md).
 
-### Defining the targeting dimension and resource of a query
+### Defining the targeting dimension and resource of a query {#defining-the-targeting-dimension-and-resource-of-a-query}
 
 Targeting dimension and resources are defined when creating a workflow, in the **Properties** tab of a Query activity.
 
@@ -118,7 +118,7 @@ Example of available filters for the **Deliveries (delivery)** resource:
 
 ![](assets/targeting_dimension5.png) 
 
-### Using resources different from targeting dimensions
+### Using resources different from targeting dimensions {#using-resources-different-from-targeting-dimensions}
 
 By default, the targeting dimension and resource are set in order to target profiles.
 
@@ -142,7 +142,7 @@ If we want to find a record that **is not present** in the distant table (for ex
 
 ![](assets/targeting_dimension8.png)  ![](assets/targeting_dimension9.png) 
 
-## Enriching data
+## Enriching data {#enriching-data}
 
 The **Additional data** tab of the **Query**, **Incremental query** and **Enrichment** activities allows you to enrich the data targeted and transfer this data to the following workflow activities, where it can be utilized. In particular, you can add:
 
@@ -162,7 +162,7 @@ After adding any additional data, you can apply an additional filter level to th
 >
 >By default, the **Remove duplicate rows (DISTINCT)** option is checked in the **Advanced options** of the **Additional data** tab of the query. If the **Query** activity contains many (from 100) additional data defined, it is recommended to uncheck this option, for performance reasons. Beware that unchecking this option can result in getting duplicates, depending on the data queried.
 
-### Adding a simple field
+### Adding a simple field {#adding-a-simple-field}
 
 By adding a simple field as additional data, that field becomes directly visible in the outbound transition of the activity. This allows the user to check, for example, that the data from the query is the desired data.
 
@@ -175,7 +175,7 @@ By adding a simple field as additional data, that field becomes directly visible
 
 ![](assets/enrichment_add_simple_field.png) 
 
-### Adding an aggregate
+### Adding an aggregate {#adding-an-aggregate}
 
 Aggregates allow values to be calculated from fields of the targeting dimension or from fields of dimensions linked to the targeting dimension. For example: the average amount purchased by a profile.
 
@@ -206,7 +206,7 @@ Aggregates allow values to be calculated from fields of the targeting dimension 
 >
 >You cannot create an expression containing an aggregate directly from the **Expression** field of the **New additional data** window.
 
-### Adding a collection
+### Adding a collection {#adding-a-collection}
 
 1. From the **Additional data** tab, add a new element.
 1. In the window that opens, select the collection that you want to add in the **Expression** field. An **Alias** is created automatically. If you like, you can modify it by going back to the query's **Additional data** tab.
@@ -232,7 +232,7 @@ Aggregates allow values to be calculated from fields of the targeting dimension 
 1. Refer to the [Sorting additional data](../../automating/using/query.md#sorting-additional-data) section.
 1. Select **Confirm** to add the collection.
 
-### Filtering added data
+### Filtering added data {#filtering-added-data}
 
 When you add an aggregate or a collection, you can specify an additional filter to limit the data that you want to display.
 
@@ -240,7 +240,7 @@ For example, if you want to only process the collection lines of transactions wi
 
 ![](assets/enrichment_filter_data.png) 
 
-### Sorting additional data
+### Sorting additional data {#sorting-additional-data}
 
 When you add an aggregate or a collection to the data of a query, you can specify whether you want to apply a sort - whether it be ascending or descending - based on the value of the field or the expression defined.
 
@@ -248,7 +248,7 @@ For example, if you want to save only the transaction that was carried out most 
 
 ![](assets/enrichment_sort_data.png) 
 
-### Filtering the targeted data according to additional data
+### Filtering the targeted data according to additional data {#filtering-the-targeted-data-according-to-additional-data}
 
 Once you have added additional data, a new **Output filtering** tab appears in the **Query**. This tab allows you to apply an additional filter on the data initially targeted in the **Target** tab, by taking into account the added data.
 
@@ -258,7 +258,7 @@ To do this, in the **Output filtering** tab, simply add a condition on this addi
 
 ![](assets/enrichment_output_filtering2.png)  ![](assets/enrichment_output_filtering.png) 
 
-### Example: personalizing an email with additional data
+### Example: personalizing an email with additional data {#example-personalizing-an-email-with-additional-data}
 
 The following example illustrates adding different types of additional data to a query and its use as a personalization field in an email.
 
@@ -302,15 +302,15 @@ The workflow is presented as follows:
 
 Your workflow is now ready to be executed. The profiles targeted in the query will receive a personalized email containing the data calculated from their transactions.
 
-## Query samples
+## Query samples {#query-samples}
 
-### Targeting on simple profile attributes
+### Targeting on simple profile attributes {#targeting-on-simple-profile-attributes}
 
 The following example shows a query activity configured to target men between 18 and 30 years old, living in London.
 
 ![](assets/query_sample_1.png) 
 
-### Targeting on email attributes
+### Targeting on email attributes {#targeting-on-email-attributes}
 
 The following example shows a query activity configured to target profiles with the email address domain "orange.co.uk".
 
@@ -320,7 +320,7 @@ The following example shows a query activity configured to target profiles whose
 
 ![](assets/query_sample_emailNotEmpty.png) 
 
-### Targeting profiles whose birthday is today
+### Targeting profiles whose birthday is today {#targeting-profiles-whose-birthday-is-today}
 
 The following example shows a query activity configured to target profiles whose birthday is today.
 
@@ -332,7 +332,7 @@ The following example shows a query activity configured to target profiles whose
 
    ![](assets/query_sample_birthday2.png)
 
-### Targeting profiles who opened a specific delivery
+### Targeting profiles who opened a specific delivery {#targeting-profiles-who-opened-a-specific-delivery}
 
 The following example shows a query activity configured to filter profiles who opened the delivery with the label "Summer Time".
 
@@ -344,7 +344,7 @@ The following example shows a query activity configured to filter profiles who o
 
    ![](assets/query_sample_opened2.png)
 
-### Targeting profiles for whom deliveries failed for a specific reason
+### Targeting profiles for whom deliveries failed for a specific reason {#targeting-profiles-for-whom-deliveries-failed-for-a-specific-reason}
 
 The following example shows a query activity configured to filter profiles for whom deliveries failed because their mailbox was full. This query is only available for users with administration rights and belonging to the **All (all)** organizational and geographical units (see [this section](../../administration/using/organizational-and-geographical-units.md)).
 
@@ -360,7 +360,7 @@ The following example shows a query activity configured to filter profiles for w
 
    ![](assets/query_sample_failure3.png)
 
-### Targeting profiles not contacted during the last 7 days
+### Targeting profiles not contacted during the last 7 days {#targeting-profiles-not-contacted-during-the-last-days}
 
 The following example shows a query activity configured to filter profiles who where not contacted during the last 7 days.
 
@@ -376,7 +376,7 @@ The following example shows a query activity configured to filter profiles who w
 
    ![](assets/query_sample_7days2.png)
 
-### Targeting profiles who clicked a specific link
+### Targeting profiles who clicked a specific link {#targeting-profiles-who-clicked-a-specific-link}
 
 1. Drag the **Tracking logs (tracking)** filter in your query.
 

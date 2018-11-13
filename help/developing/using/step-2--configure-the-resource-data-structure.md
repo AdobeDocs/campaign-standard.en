@@ -1,9 +1,9 @@
 ---
-title: Step 2 Configure the resource data structure
-seo-title: Step 2 Configure the resource data structure
-description: Step 2 Configure the resource data structure
+title: "Step 2: Configure the resource data structure"
+seo-title: "Step 2: Configure the resource data structure"
+description: "Step 2: Configure the resource data structure"
 seo-description: Learn how to configure the data structure.
-uuid: dfc80631-f4fe-478e-8d47-d22e92fc833a
+uuid: 916caa13-f31e-474a-8ea4-9939c7fdb595
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/developing/using/step-2--configure-the-resource-data-structure
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 cq-template: /apps/help/templates/article-3
-discoiquuid: 27e20bae-8275-4d46-a849-dc6bd8f4eb57
+discoiquuid: f8eac4fe-f312-466b-9e06-7e29b9e7f165
 firstPublishExternalDate: 2018-09-07T14:51:54.919-0400
 herogradient: light
 isreadyforlocalization: false
@@ -30,17 +30,17 @@ lastPublishExternalDate: 2018-09-07T14:51:54.919-0400
 lochandoffdate: 2018-09-10T02 18 39.282-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
-navTitle: Step 2 Configure the resource data structure
+navTitle: "Step 2: Configure the resource data structure"
 publishexternaldate: 2018-09-07T14 51 54.919-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/step-2--configure-the-resource-data-structure.html
-sha1: 784dce5255ac98f7e6890887d979cf2d90c3436f
+sha1: e2c04a0c3fba9f8c075149eaf6020dc1d19ed5c0
 topicBrowsingSortDate: 2018-09-07T14:51:54.919-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Step 2: Configure the resource data structure
+# Step 2: Configure the resource data structure{#step-configure-the-resource-data-structure}
 
 Step 2: Configure the resource data structure
 
@@ -53,7 +53,7 @@ When editing the resource, in the **Data structure** tab, you can add:
 * Indexes
 * Links
 
-## Adding Fields to a Resource
+## Adding Fields to a Resource {#adding-fields-to-a-resource}
 
 You can add new fields to a resource to store data that are not part of the out of the box data model.
 
@@ -89,7 +89,7 @@ You can add new fields to a resource to store data that are not part of the out 
 
 The fields of your resource are now defined.
 
-## Defining identification keys
+## Defining identification keys {#defining-identification-keys}
 
 Each resource must have at least one unique key. For example, you can specify a key so that two products cannot have the same ID in a purchase table.
 
@@ -109,7 +109,7 @@ Each resource must have at least one unique key. For example, you can specify a 
 
 Your identification keys for the resource are now created.
 
-## Defining indexes
+## Defining indexes {#defining-indexes}
 
 An index can reference one or several resource fields. Indexes allow the database to sort records in order to recover them more easily. They optimize the performances of SQL queries.
 
@@ -123,7 +123,7 @@ Defining indexes is recommended but not mandatory.
 
 The indexes that were created appear in the list in the **Index** section.
 
-## Defining links with other resources
+## Defining links with other resources {#defining-links-with-other-resources}
 
 A link details the association that one table has with other tables.
 
@@ -161,7 +161,7 @@ For example, in a new **Products (Products)** custom resource, a link to the pro
 
 By adding this link, a **Products** tab, named after the **Label** of the new resource, is added to the profiles detail screen. The result is immediately visible after publishing the custom resource from the **Profiles & audiences** > **Profiles** menu. By clicking on a profile, the information from the **Products** custom resource appears in a new tab.
 
-## Defining sending logs extension
+## Defining sending logs extension {#defining-sending-logs-extension}
 
 The sending log extension allows you:
 

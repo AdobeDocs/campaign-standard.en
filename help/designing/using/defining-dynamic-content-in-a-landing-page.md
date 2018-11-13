@@ -3,7 +3,7 @@ title: Defining dynamic content in a landing page
 seo-title: Defining dynamic content in a landing page
 description: Defining dynamic content in a landing page
 seo-description: Follow these steps to display different contents dynamically in a landing page according to the conditions defined through the Adobe Campaign expression editor.
-uuid: 2a3662a1-1c9e-452f-bb8b-67314f94896b
+uuid: 58d81212-921b-4e92-aea3-edc22410726a
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/defining-dynamic-content-in-a-landing-page
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: defining-conditional-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: dfa4aff4-bb0c-4501-9131-388435fcf8db
+discoiquuid: a7a0fe35-5f4a-4ec2-94d4-c972933de5e4
 firstPublishExternalDate: 2018-09-07T15:06:35.031-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,14 +33,14 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Defining dynamic content in a landing page
 publishexternaldate: 2018-09-07T15 06 35.031-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/defining-dynamic-content-in-a-landing-page.html
-sha1: 0b87c8b8c6a6291e6913dff96f7aac06424f1319
+sha1: 7cb8d7ff5a231c9cdfa1728e9693b76e2778b710
 topicBrowsingSortDate: 2018-09-07T15:06:35.031-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Defining dynamic content in a landing page
+# Defining dynamic content in a landing page{#defining-dynamic-content-in-a-landing-page}
 
 Defining dynamic content in a landing page
 
@@ -60,7 +60,7 @@ The next steps for defining dynamic content in a landing page are similar to the
 >
 >If a variant element is outlined in red, this means that an expression has not yet been defined.
 
-## Previewing dynamic contents in a landing page
+## Previewing dynamic contents in a landing page {#previewing-dynamic-contents-in-a-landing-page}
 
 You can navigate between the different dynamic contents of an image block or a block of text. To do this:
 

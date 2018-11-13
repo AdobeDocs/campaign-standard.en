@@ -3,7 +3,7 @@ title: Monitoring and tracking
 seo-title: Monitoring and tracking
 description: Monitoring and tracking
 seo-description: Learn how to track and understand your customers' behavior by enriching their profile data. With Adobe Campaign, use reporting and analysis tools to capitalize on each new campaign.
-uuid: 6a173ca6-aa1f-454c-bb42-f14d487f6006
+uuid: 729de305-d8ad-47f8-b276-9319c3786203
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/start/using/monitoring-and-tracking
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: start
 content-type: reference
 topic-tags: about-adobe-campaign
 cq-template: /apps/help/templates/article-3
-discoiquuid: 40bff664-b8a2-44a2-bc22-99a43eae30c7
+discoiquuid: 2bd7f705-a6d6-4e83-be66-7accda799f1e
 firstPublishExternalDate: 2018-09-07T15:07:26.249-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,14 +33,14 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Monitoring and tracking
 publishexternaldate: 2018-09-07T15 07 26.249-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/start/using/monitoring-and-tracking.html
-sha1: 339a4d920f6b0c42f41a4bffecf7ff71ae6cb7b5
+sha1: 582654737658fb3c0bb0bee59bb262ece0373845
 topicBrowsingSortDate: 2018-09-07T15:07:26.249-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Monitoring and tracking
+# Monitoring and tracking{#monitoring-and-tracking}
 
 Monitoring and tracking
 

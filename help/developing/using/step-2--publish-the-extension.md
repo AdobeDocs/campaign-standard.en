@@ -1,9 +1,9 @@
 ---
-title: Step 2 Publish the extension
-seo-title: Step 2 Publish the extension
-description: Step 2 Publish the extension
+title: "Step 2: Publish the extension"
+seo-title: "Step 2: Publish the extension"
+description: "Step 2: Publish the extension"
 seo-description: 
-uuid: a750d708-3291-4b4d-968a-73e4ee298fa3
+uuid: 212513b2-75fd-445a-9a82-389937123eb9
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/developing/using/step-2--publish-the-extension
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
 cq-template: /apps/help/templates/article-3
-discoiquuid: fd795d07-247a-4c9e-b540-dd29f8128cc9
+discoiquuid: 2dc88474-921d-463e-a678-9a8a6fca0cc7
 firstPublishExternalDate: 2018-09-07T14:57:19.016-0400
 herogradient: light
 isreadyforlocalization: false
@@ -30,17 +30,17 @@ lastPublishExternalDate: 2018-09-07T14:57:19.016-0400
 lochandoffdate: 2018-09-10T02 19 12.661-0400
 loclangtag: locales fr;locales de;locales ja
 lr-lastreplicatedby: sauviat@adobe.com
-navTitle: Step 2 Publish the extension
+navTitle: "Step 2: Publish the extension"
 publishexternaldate: 2018-09-07T14 57 19.016-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/step-2--publish-the-extension.html
-sha1: dd93b5c89d44e36f5216cf9282e7c1fac1398d6f
+sha1: be10d6341f43899a02bf0f99ab1b3124377b5aa0
 topicBrowsingSortDate: 2018-09-07T14:57:19.016-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Step 2: Publish the extension
+# Step 2: Publish the extension{#step-publish-the-extension}
 
 Step 2: Publish the extension
 

@@ -3,7 +3,7 @@ title: Active profiles
 seo-title: Active profiles
 description: Active profiles
 seo-description: You can access a dedicated report on customer metrics and visualize active profiles in your Campaign database.
-uuid: ac37290a-57e0-4215-90a7-b8aa979685e1
+uuid: 2f1c5654-3335-49fa-9c2b-73b15dade171
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/audiences/using/active-profiles
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 cq-template: /apps/help/templates/article-3
-discoiquuid: aa83ce1b-f8c7-4ea4-abbd-a2b0be7fb5c8
+discoiquuid: 44774993-835b-49a3-934f-df05465cfc90
 firstPublishExternalDate: 2018-09-07T14:45:04.775-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,14 +33,14 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Active profiles
 publishexternaldate: 2018-09-07T14 45 04.775-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/audiences/using/active-profiles.html
-sha1: 6439fc01f63692e03d7bb9a08ff635f07ab5be8b
+sha1: 23ae8b56897669f760ac4ceb209447e528f94246
 topicBrowsingSortDate: 2018-09-07T14:45:04.775-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Active profiles
+# Active profiles{#active-profiles}
 
 Active profiles
 

@@ -3,7 +3,7 @@ title: Types of users
 seo-title: Types of users
 description: Types of users
 seo-description: Adobe Campaign users hold specific roles. Discover the main user types. 
-uuid: 85cf7296-a6f6-4579-a47d-78236567ad0d
+uuid: 1bb2d52e-7344-4f60-b598-c884e70d7792
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/administration/using/types-of-users
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: administration
 content-type: reference
 topic-tags: users-e-security
 cq-template: /apps/help/templates/article-3
-discoiquuid: 8240d119-2e50-47f4-ae72-abecb43a28ad
+discoiquuid: 4fe36a68-cefc-4d0d-b5b7-6acd3aad9300
 firstPublishExternalDate: 2018-09-07T14:40:48.414-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,14 +33,14 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Types of users
 publishexternaldate: 2018-09-07T14 40 48.414-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/administration/using/types-of-users.html
-sha1: ce860d1c59ada43e2c04ca471f610b2c11298034
+sha1: bf0aded5763a0c04a83981770baa290d9e4afa05
 topicBrowsingSortDate: 2018-09-07T14:40:48.414-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Types of users
+# Types of users{#types-of-users}
 
 Types of users
 
@@ -78,7 +78,7 @@ We will rather focus on how the different tasks in Adobe Campaign are split betw
 * [List of roles](../../administration/using/list-of-roles.md)
 * [List of authorizations](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
 
-## Functional administrators
+## Functional administrators {#functional-administrators}
 
 Functional administrators are users who can access the most technical parts of the interface. They hold the **Administration** role and make sure that the platform is all set up so that marketers only have to focus on delivering their campaigns.
 
@@ -94,7 +94,7 @@ Here are the main tasks they can perform:
 * [Export and import data packages](../../automating/using/managing-packages.md): exchange resources between different Adobe Campaign instances through structured XML files.
 * [Export logs](../../automating/using/exporting-logs.md) and [define import templates](../../automating/using/defining-import-templates.md).
 
-## Advanced users
+## Advanced users {#advanced-users}
 
 Advanced users are marketing users who perform the most technical use cases in Adobe Campaign. They preconfigure all the elements that marketers use to send and monitor their deliveries.
 
@@ -106,7 +106,7 @@ Here are the main tasks they can perform:
 * [Perform advanced expression editing](../../automating/using/editing-queries.md#about-query-editor): use advanced functions to manipulate the values used to carry out specific queries such as dates, strings, numerical fields, sorting, etc.
 * [Export lists](../../automating/using/exporting-lists.md) and [import data using existing import templates](../../automating/using/importing-data-with-import-templates.md).
 
-## Basic users
+## Basic users {#basic-users}
 
 Thanks to the functional administrator and advanced users, marketers can personalize, deliver and monitor their campaigns without having to worry about the technical configuration.
 

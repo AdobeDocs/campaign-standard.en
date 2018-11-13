@@ -3,7 +3,7 @@ title: Designing an A/B test email
 seo-title: Designing an A/B test email
 description: Designing an A/B test email
 seo-description: Discover the A/B test functionality and follow these steps to create an email from an A/B test template in Adobe Campaign.
-uuid: 01823598-c493-43f7-b089-d6a96b61a41d
+uuid: b5698cc1-bb75-4b21-a250-2b826c605d71
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/channels/using/designing-an-a-b-test-email
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: channels
 content-type: reference
 topic-tags: email-messages
 cq-template: /apps/help/templates/article-3
-discoiquuid: 803fa14f-7306-49ce-b90d-fd98c900d64a
+discoiquuid: 90f0049b-da47-4d83-8aab-036798dc3502
 firstPublishExternalDate: 2018-09-07T15:11:41.672-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,14 +33,14 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Designing an A/B test email
 publishexternaldate: 2018-09-07T15 11 41.672-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/channels/using/designing-an-a-b-test-email.html
-sha1: 39b92f787fa38faa1ac402cf03b61843ebba94ed
+sha1: eb0b4a79ea0f32d3cdf7e2a80a032780bb6bc2e2
 topicBrowsingSortDate: 2018-09-07T15:11:41.672-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Designing an A/B test email
+# Designing an A/B test email{#designing-an-a-b-test-email}
 
 Designing an A/B test email
 
@@ -52,7 +52,7 @@ You can choose to vary the email's content, subject, or sender.
 >
 >A/B tests on emails created in Adobe Experience Manager not possible.
 
-## Creating an A/B test email
+## Creating an A/B test email {#creating-an-a-b-test-email}
 
 An A/B test can be created using the standard email creation wizard, to which an A/B test configuration step is added. Creating a standard email is detailed in the [Creating an email](../../channels/using/creating-an-email.md) section.
 
@@ -115,7 +115,7 @@ Your email is now defined and sent. You can access its logs and reports to measu
 
 [Creating an email](https://docs.campaign.adobe.com/doc/standard/en/Videos/email_creation.mp4) video
 
-## About A/B test indicators
+## About A/B test indicators {#about-a-b-test-indicators}
 
 In the email dashboard, several indicators are available to help you measure your A/B test: number of clicks, opens, bounces, and so on.
 

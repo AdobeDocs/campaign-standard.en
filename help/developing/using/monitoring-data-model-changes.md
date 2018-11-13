@@ -3,7 +3,7 @@ title: Monitoring data model changes
 seo-title: Monitoring data model changes
 description: Monitoring data model changes
 seo-description: Learn how to diagnose the Adobe Campaign data model.
-uuid: 3be9ced2-41bb-4d01-b2a9-f4e079362d00
+uuid: 6598173b-975c-40e5-9914-d4f30bcdce1b
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/developing/using/monitoring-data-model-changes
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: developing
 content-type: reference
 topic-tags: about-custom-resources
 cq-template: /apps/help/templates/article-3
-discoiquuid: 5961602e-5566-4773-8da7-de4a3fb322ce
+discoiquuid: 9c95d934-3418-43eb-aabf-b55f863a3c3d
 firstPublishExternalDate: 2018-09-07T14:49:38.416-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,14 +33,14 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Monitoring data model changes
 publishexternaldate: 2018-09-07T14 49 38.416-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/developing/using/monitoring-data-model-changes.html
-sha1: 845cb1d5ef7b3b34bbe9a18ca63e341832a0a062
+sha1: 25ceb310c2d4c6dfff627b9a8e85717a82407aa6
 topicBrowsingSortDate: 2018-09-07T14:49:38.416-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Monitoring data model changes
+# Monitoring data model changes{#monitoring-data-model-changes}
 
 Monitoring data model changes
 

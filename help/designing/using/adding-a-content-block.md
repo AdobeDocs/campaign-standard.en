@@ -3,7 +3,7 @@ title: Adding a content block
 seo-title: Adding a content block
 description: Adding a content block
 seo-description: Discover the various out-of-the-box dynamic content blocks you can use to personalize your messages and learn how to create custom content blocks.
-uuid: 6f207376-e8da-4b67-903c-abf5b9ba2f30
+uuid: 9db80292-1380-422a-bdda-5214257a3f70
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/designing/using/adding-a-content-block
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: designing
 content-type: reference
 topic-tags: personalizing-content
 cq-template: /apps/help/templates/article-3
-discoiquuid: daa35d10-430c-4fd3-9fee-8ce9fdace7b4
+discoiquuid: 0a012935-6b4a-41b0-8f4c-11d86a323bcc
 firstPublishExternalDate: 2018-09-07T15:00:22.317-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,14 +33,14 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Adding a content block
 publishexternaldate: 2018-09-07T15 00 22.317-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/designing/using/adding-a-content-block.html
-sha1: 9f242e649b1a07b3effdd36bc19732a992ff8b2f
+sha1: b137e4d0411f7e67a92037b79d6f18af0e525400
 topicBrowsingSortDate: 2018-09-07T15:00:22.317-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Adding a content block
+# Adding a content block{#adding-a-content-block}
 
 Adding a content block
 
@@ -78,7 +78,7 @@ The out-of-the-box content blocks are:
 * Brand logo (BrandingLogo)
 * Notification style (notificationStyle)
 
-## Creating custom content blocks
+## Creating custom content blocks {#creating-custom-content-blocks}
 
 You can define new content blocks that will be inserted into a delivery or landing page.
 

@@ -3,7 +3,7 @@ title: Extract file
 seo-title: Extract file
 description: Extract file
 seo-description: The Extract file activity allows you to export data from Adobe Campaign in the form of an external file.
-uuid: a8365187-e7e2-4c2e-a0ad-48339da54be0
+uuid: 41c5744e-c3f8-4f3e-b890-4b7bad54757f
 content-encoding: ISO-8859-1
 aemsrcnodepath: /content/help/en/campaign/standard/automating/using/extract-file
 contentOwner: sauviat
@@ -17,7 +17,7 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 cq-template: /apps/help/templates/article-3
-discoiquuid: 0282a6e5-9cab-43ed-999e-89218c13a133
+discoiquuid: 94b6171c-e560-4334-acf5-60699e78c11d
 firstPublishExternalDate: 2018-09-07T15:08:36.885-0400
 herogradient: light
 isreadyforlocalization: false
@@ -33,24 +33,24 @@ lr-lastreplicatedby: sauviat@adobe.com
 navTitle: Extract file
 publishexternaldate: 2018-09-07T15 08 36.885-0400
 publishExternalURL: https://helpx.adobe.com/campaign/standard/automating/using/extract-file.html
-sha1: 28139f7f216d1e57341bdfd2418663a8ac54fefc
+sha1: 3138dc48c6c4a5ca0a6d35c14322bfc65b06e7bb
 topicBrowsingSortDate: 2018-09-07T15:08:36.885-0400
 index: y
 internal: n
 snippet: y
 ---
 
-# Extract file
+# Extract file{#extract-file}
 
 Extract file
 
-## Description
+## Description {#description}
 
 ![](assets/export.png)
 
 The **Extract file** activity allows you to export data from Adobe Campaign in the form of an external file.
 
-## Context of use
+## Context of use {#context-of-use}
 
 The way in which the data will be extracted is defined when configuring the activity.
 
@@ -58,7 +58,7 @@ The way in which the data will be extracted is defined when configuring the acti
 >
 >The **Extract file** activity must be placed after a **Query** activity in order to be used.
 
-## Configuration
+## Configuration {#configuration}
 
 1. Drag and drop an **Extract file** activity into your workflow.
 
@@ -92,7 +92,7 @@ The way in which the data will be extracted is defined when configuring the acti
 
 1. Confirm the configuration of your activity and save your workflow.
 
-## Example
+## Example {#example}
 
 The following example illustrates how to configure an **Extract file** activity after a **Query** activity.
 
