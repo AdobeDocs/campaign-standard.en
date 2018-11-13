@@ -22,3 +22,5 @@ index: yes
   + [About typology rules](administration/using/about-typology-rules.md)
   + [Configuring email channel](administration/using/configuring-email-channel.md)
   + [Filtering rules](administration/using/filtering-rules.md)
++ Starting{#starting}
+  + [About the interface](start/using/about-the-interface.md)
