@@ -1,0 +1,44 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="light" name="heroGradient" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Importing content from a file" name="jcr:description" />
+  <meta content="Importing content from a file" name="navTitle" />
+  <meta content="2018-11-20T11:56:11.108-0500" name="cq:lastModified" />
+  <meta content="Discover how to upload a file from your computer when creating an email or a landing page." name="seoDescription" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-11-20" name="publishExternalDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-11-20T11:56:11.108-0500" name="locHandOffDate" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="audience:designing" name="primaryAudienceTag" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="13918f40-f109-40ee-bd7a-e0c9826ca4cf" name="jcr:uuid" />
+  <meta content="Importing content from a file" name="jcr:title" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:loading-content" name="cq:tags" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2018-07-23T07:30:15.125-0400" name="jcr:created" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="3c433b1a-f589-4f88-8eb8-df428a44c9e8" name="jcr:predecessors" />
+  <meta content="" name="jcr:primaryType" />
+ </head>
+ <body>
+  <p>Click the <strong>From a file</strong> element to upload a file from your computer, then confirm.</p> 
+  <p>There are no constraints on the zip file structure. However, referencing HTML files has to be relative and respect the tree structure of the zip folder.</p> 
+  <p>The following formats are supported for import:</p> 
+  <ul>
+   <li><p>An HTML file with an incorporated style sheet</p> </li>
+   <li><p>A .zip folder containing the HTML file, the style sheet (.CSS) and the images</p> </li>
+  </ul>
+  <note>
+   <p> For email content, we recommend that you import single HTML files with an incorporated style sheet. </p> 
+  </note>
+ </body>
+</html>

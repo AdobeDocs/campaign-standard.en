@@ -1,0 +1,233 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="rekrishn" name="cq:lastModifiedBy" /> 
+  <meta content="Configuring a mobile application using Experience Platform SDKs" name="jcr:description" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2018-11-20T11:56:10.713-0500" name="locHandOffDate" /> 
+  <meta content="Configuring a mobile application using Adobe Experience Platform SDKs" name="jcr:title" /> 
+  <meta content="/content/help/en/campaign/standard/administration/morehelp/configuring-channels;/content/help/en/campaign/standard/administration/morehelp/configuring-channels" name="moreHelpPaths" /> 
+  <meta content="audience:administration" name="primaryAudienceTag" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-11-06T09:43:05.855-0500" name="jcr:created" /> 
+  <meta content="b3cbd7d7-7fc1-44a7-b570-9db8493787e9" name="jcr:predecessors" /> 
+  <meta content="e4edc3bb-29e6-408f-b7dd-73a6f9843edd" name="jcr:uuid" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="Configuring a mobile application using Experience Platform SDKs" name="navTitle" /> 
+  <meta content="2018-11-20T19:45:37.163-0500" name="firstPublishExternalDate" /> 
+  <meta content="rekrishn" name="cq:lastReplicatedBy" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="Discover how to configure Adobe Campaign to send push notifications and In-app messages using Experience Platform SDKs" name="seoDescription" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2018-11-20T19:53:53.967-0500" name="cq:lastReplicated" /> 
+  <meta content="2018-11-20T19:53:53.858-0500" name="cq:lastModified" /> 
+  <meta content="https://helpx.adobe.com/campaign/standard/administration/using/configuring-a-mobile-application-using-sdk-v5.html" name="publishExternalURL" /> 
+  <meta content="2018-11-20T19:53:53.832-0500" name="lastPublishExternalDate" /> 
+  <meta content="2018-11-20T19:53:53.832-0500" name="publishExternalDate" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:administration;content_type:reference;topic_tags:configuring-channels" name="cq:tags" /> 
+  <meta content="rekrishn@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-11-20T19:53:53.832-0500" name="topicBrowsingSortDate" /> 
+ </head> 
+ <body> 
+  <p>Customers leveraging SDK V4 in their Mobile Apps may require some additional configuration to enable their user base to incrementally upgrade to Experience Platform SDK-version of the App. This configuration will be provided with In-App GA release.</p> 
+  <note> 
+   <p>Both push notifications and In-app messages are supported by Experience Platform SDKs. This feature is optional and currently a Beta feature which can be subject to future changes.</p> 
+  </note> 
+  <p>To send push notifications and In-App messages with an Experience Cloud SDK application, a mobile app has to be set up in Adobe Experience Platform Launch and be configured in Adobe Campaign. </p> 
+  <p>To start the configuration, complete the following steps:<br /> </p> 
+  <ol> 
+   <li><p>In Adobe Campaign, ensure that you can access the following mobile<strong> </strong>channels: </p> 
+    <ul> 
+     <li>Push notification</li> 
+     <li>In-App message <br /> </li> 
+    </ul> <p>If you cannot access these channels, contact your account team.</p> </li> 
+   <li><p>In Launch, create the mobile application by creating a mobile property. </p> <p>For more information, see <a href="https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property">Set up a mobile property</a>.</p> </li> 
+   <li><p>In Launch, click the Extensions tab, search for, and install the <span class="uicontrol">Adobe Campaign (Beta)</span> extension.</p> <p>For more information, see <a href="https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard-beta">Adobe Campaign Stadard (Beta)</a>.</p> </li> 
+   <li><p>In Launch, configure rules for your application. </p> <p>For more information, see <a href="../../administration/using/configuring-a-mobile-application-using-sdk-v5.md#configuring-your-application-in-adobe-launch" target="_blank">Configuring your application in Adobe Launch</a>.</p> </li> 
+   <li><p>In Adobe Campaign Standard, configure your Launch application. </p> <p>For more information, see <a href="../../administration/using/configuring-a-mobile-application-using-sdk-v5.md#setting-up-your-adobe-launch-application-in-adobe-campaign" target="_blank">Setting up your Adobe Launch application in Adobe Campaign</a>.</p> </li> 
+   <li><p>Add channel-specific configuration to your Mobile Application set up. </p> <p>For more on this refer to <a href="../../administration/using/configuring-a-mobile-application-using-sdk-v5.md#channel-specific-application-configuration-in-adobe-campaign" target="_blank">Channel specific application configuration in Adobe Campaign</a>.</p> </li> 
+   <li><p>If needed, you can later on delete your Adobe Launch property. For more on this, refer to <a href="../../administration/using/configuring-a-mobile-application-using-sdk-v5.md#deleting-your-adobe-launch-application" target="_blank">Deleting your Adobe Launch application</a>.</p> </li> 
+  </ol> 
+  <h2>Configuring your application in Launch</h2> 
+  <p>In Launch, you need to create data elements and rules to send PII and other data from mobile apps to Campaign.</p> 
+  <note> 
+   <p>To ensure that all configuration changes in Launch take effect, you must publish these changes. For more information, see <a href="https://docs.adobelaunch.com/publishing">Publishing</a>.</p> 
+  </note> 
+  <p>To configure your application in Adobe Launch, follow these steps:</p> 
+  <ul> 
+   <li><p> <a href="../../administration/using/configuring-a-mobile-application-using-sdk-v5.md#step-1--create-data-elements" target="_blank">Step 1: Create data elements</a></p> </li> 
+   <li><p> <a href="../../administration/using/configuring-a-mobile-application-using-sdk-v5.md#step-2--create-rules-for-pii-postback" target="_blank">Step 2: Create rules for PII postback</a></p> </li> 
+   <li><p> <a href="../../administration/using/configuring-a-mobile-application-using-sdk-v5.md#step-3--create-rules-for-in-app-tracking-postback" target="_blank">Step 3: Create rules for In-App tracking postback</a></p> </li> 
+   <li><p> <a href="../../administration/using/configuring-a-mobile-application-using-sdk-v5.md#step-4--create-rules-for-push-notifications-tracking-postback" target="_blank">Step 4: Create rules for push notifications tracking postback</a></p> </li> 
+  </ul> 
+  <h3>Step 1: Create data elements</h3> 
+  <p>Here are the data elements we recommend creating in Adobe Launch:</p> 
+  <ul> 
+   <li><strong>Experience Cloud ID</strong>, which will be mapped to Identity.Experience Cloud Id.</li> 
+   <li><strong>Pkey</strong>, a unique key for refencing mobile application in Adobe Campaign, which will be mapped to <span class="code">Mobile Core.State:com.adobe.module.configuration/campaign.pkey</span>.</li> 
+   <li><strong>Campaign server</strong>, which will be mapped to <span class="code">Mobile Core.State:com.adobe.module.configuration/campaign.server</span>.</li> 
+  </ul> 
+  <p>To create these data elements:</p> 
+  <ol> 
+   <li><p>In Launch, from your mobile application dashboard, click the <strong>Data Elements </strong>tab.</p> </li> 
+   <li><p>To create the <strong>Experience Cloud ID</strong> data element, click the <strong>Create new data element</strong>.</p> </li> 
+   <li><p>Complete the following steps:</p> 
+    <ol> 
+     <li>In the <strong>Name</strong> field, for example, type in <strong>mcid</strong>.</li> 
+     <li>From the <strong>Extension</strong> drop-down, select <strong>Mobile Core</strong>.</li> 
+     <li>From the <strong>Data element type</strong> drop-down, select <strong>Experience Cloud ID</strong>.</li> 
+    </ol> <img imageRotate="0" src="assets/acs_create_data_element_mark-id.png" /></li> 
+   <li><p>Click <strong>Save</strong>.</p> </li> 
+   <li><p>To create the <strong>Pkey</strong> data element, click <strong>Add Data Element</strong>.</p> </li> 
+   <li><p>Complete the following steps:</p> 
+    <ol> 
+     <li>In the <strong>Name</strong> field, for example, type in <strong>pkey</strong>.</li> 
+     <li>From the <strong>Extension</strong> drop-down, select <strong>Mobile Core</strong>.</li> 
+     <li>From the <strong>Data element type</strong> drop-down, select <span class="uicontrol">Free Form</span>.</li> 
+     <li>In <span class="uicontrol">Path</span>, type <span class="kbd">~state.com.adobe.module.configuration/campaign.pkey</span>.<br /> </li> 
+    </ol> </li> 
+   <li><p>Click <strong>Save</strong>.</p> </li> 
+   <li><p>To create the <strong>Campaign server</strong> data element, click <span class="uicontrol">Add Data Element</span>. <br /> </p> </li> 
+   <li><p>Complete the following steps:</p> 
+    <ol> 
+     <li>Type a name, for example, <span class="kbd">camp-server</span>.</li> 
+     <li>From the <span class="uicontrol">Extension</span> drop-down, select <span class="uicontrol">Mobile Core</span>.</li> 
+     <li>From the <span class="uicontrol">Data element type</span> drop-down, select <span class="uicontrol">Free Form</span>.</li> 
+     <li>In <span class="uicontrol">Path</span>, type <span class="kbd">~state.com.adobe.module.configuration/campaign.server</span>.</li> 
+    </ol> </li> 
+   <li><p>Click <strong>Save</strong>.</p> </li> 
+   <li><p>Click <strong>Save</strong>.</p> </li> 
+  </ol> 
+  <h3>Step 2: Create rules for a PII postback</h3> 
+  <p>To send PII to Campaign, create a rule in Launch.</p> 
+  <ol> 
+   <li><p>In Launch, from your mobile application dashboard, click the <strong>Rules</strong> tab.</p> </li> 
+   <li><p>Click <strong>Create New Rule</strong>.</p> </li> 
+   <li><p>Type a name, for example, <strong>Mobile Core - Collect PII</strong>.</p> </li> 
+   <li><p>In the <strong>Events</strong> section, click <strong>Add</strong>.</p> </li> 
+   <li><p>Complete the following steps:</p> 
+    <ol> 
+     <li>From the <strong>Extension</strong> drop-down, select <strong>Mobile Core</strong>.</li> 
+     <li>From the <strong>Event type</strong> drop-down, select <strong>Collect PII</strong>.</li> 
+    </ol> </li> 
+   <li><p>Click the <strong>Keep changes</strong> button.</p> </li> 
+   <li><p>In the <strong>Actions</strong> section, click <strong>Add</strong>.</p> </li> 
+   <li><p>Complete the following steps:</p> 
+    <ol> 
+     <li>From the <strong>Extension</strong> drop-down, select <strong>Mobile Core</strong>.</li> 
+     <li>From the <strong>Action type</strong> drop-down, select <strong>Send PII</strong>.</li> 
+    </ol> </li> 
+   <li><p>In <span class="uicontrol">URL</span>, enter the following URL:</p> 
+    <codeblock gutter="true" class="syntax plain">
+      https://{%%camp-server%%}/rest/head/mobileAppV5/{%%pkey%%}/subscriptions/{%%mcid%%} 
+    </codeblock></li> 
+   <li><p>Select the <strong>Add Post Body</strong> check box.</p> </li> 
+   <li><p><span class="uicontrol">In Post Body</span>, type the following:</p> 
+    <codeblock gutter="true" class="syntax plain">
+      {!!discoiqbr!!"userKey":!!discoiqbr!!"{%%contextdata.userKey%%}",!!discoiqbr!!"pushPlatform":!!discoiqbr!!"{%%contextdata.pushPlatform%%}",!!discoiqbr!!"marketingCloudId":!!discoiqbr!!"{%%mcid%%}",!!discoiqbr!!"cusEmail":!!discoiqbr!!"{%%contextdata.email%%}",!!discoiqbr!!"cusFirstName":!!discoiqbr!!"{%%contextdata.firstName%%}",!!discoiqbr!!"cusLastName":!!discoiqbr!!"{%%contextdata.lastName%%}"&amp;nbsp;} 
+    </codeblock></li> 
+   <li><p>In <span class="uicontrol">Content Type</span>, type <span class="kbd">application/json</span>.</p> </li> 
+   <li><p>In <strong>Timeout</strong>, select <span class="uicontrol">0</span>.</p> <img imageRotate="0" src="assets/acs_create-rule-add-action1.png" /></li> 
+   <li><p>Click <strong>Keep changes</strong> and then <strong>Save</strong>.</p> </li> 
+  </ol> 
+  <p>Your user data is now configured to be sent to Campaign.</p> 
+  <h3>Step 3: Create rules for In-App tracking postback</h3> 
+  <p>To send tracking data to Campaign and track your In-App deliveries and your users interact with your mobile application, create a rule in Launch.</p> 
+  <ol> 
+   <li><p>In Launch, from your mobile application dashboard, select the <strong>Rules</strong> tab.</p> </li> 
+   <li><p>Click <strong>Add Rule</strong>.</p> </li> 
+   <li><p>Type a name, for example, <strong>Adobe Campaign - In-App click tracking</strong>.</p> </li> 
+   <li><p>In the <strong>Events</strong> section, click <strong>Add</strong>.</p> </li> 
+   <li><p>Complete the following steps:</p> 
+    <ol> 
+     <li>From the <strong>Extension</strong> drop-down, select <span class="uicontrol">Adobe Campaign Standard</span>.</li> 
+     <li>From the <strong>Event type</strong> drop-down, select <strong>In-App click tracking</strong>.</li> 
+    </ol> </li> 
+   <li><p>Click <strong>Keep changes</strong>.</p> </li> 
+   <li><p>In the <strong>Actions</strong> section, click <strong>Add</strong>.</p> </li> 
+   <li><p>Complete the following steps:</p> 
+    <ol> 
+     <li>From the <strong>Extension</strong> drop-down, select <strong>Mobile Core</strong>.</li> 
+     <li>From the <strong>Action type</strong> drop-down, select <strong>Send postback</strong>.</li> 
+    </ol> </li> 
+   <li><p>Add your environment URL in the URL sandbox in the following format:</p> 
+    <codeblock gutter="true" class="syntax plain">
+      https://{%%camp-server%%}/r/?id={%%id%%}mcid={%%mcid%%} 
+    </codeblock></li> 
+   <li><p>Select the <strong>Add post body</strong> check box.</p> </li> 
+   <li><p>In <span class="uicontrol">Post Body</span>, type <span class="kbd">{ }</span>.</p> </li> 
+   <li><p>In <strong>Content Type</strong>, type <strong><span class="kbd">application/json</span></strong>.</p> </li> 
+   <li><p>In <span class="uicontrol">Timeout</span>, select <span class="kbd">0</span>.</p> <img imageRotate="0" src="assets/acs_create_rule-inapp_track-postback1.png" /></li> 
+   <li><p>Click <strong>Keep changes </strong>and then <strong>Save</strong>.</p> </li> 
+  </ol> 
+  <p>The tracking data will now be sent to Adobe Campaign.</p> 
+  <h3>Step 4: Create rules for push notifications tracking postback</h3> 
+  <p>To send tracking data to Campaign and track your Push notification deliveries and how your users interact with your mobile application, create a rule in Launch.</p> 
+  <ol> 
+   <li><p>In Launch, from your mobile application dashboard, click the <strong>Rules</strong> tab.</p> </li> 
+   <li><p>Click <strong>Add Rule</strong>.</p> </li> 
+   <li><p>Type a name, for example, <strong>Adobe Campaign - push click tracking</strong>.</p> </li> 
+   <li><p>In the <strong>Events</strong> section, click <strong>Add</strong>.</p> </li> 
+   <li><p>Complete the following steps:</p> 
+    <ol> 
+     <li>From the <strong>Extension</strong> drop-down, select <strong>Mobile Core</strong>.</li> 
+     <li>From the <strong>Event type</strong> drop-down, select <strong>Track Action</strong>.</li> 
+    </ol> </li> 
+   <li><p>From the <strong>Action</strong> drop-down, select <strong>Action</strong>, select <span class="uicontrol">equals</span>, and type <span class="kbd">tracking</span>.</p> </li> 
+   <li><p>Click <strong>Keep changes</strong>.</p> </li> 
+   <li><p>In the <strong>Actions</strong> section, click <strong>Add</strong>.</p> </li> 
+   <li><p>Complete the following steps:</p> 
+    <ol> 
+     <li>From the <strong>Extension</strong> drop-down, select <strong>Mobile Core</strong>.</li> 
+     <li>From the <strong>Action type</strong> drop-down, select <strong>Send postback</strong>.</li> 
+    </ol> </li> 
+   <li><p>Add your environment URL in the URL sandbox in the following format:</p> 
+    <codeblock gutter="true" class="syntax plain">
+      https://{%%camp-server%%}/r/?id={%%broadlogId%%},{%%deliveryId%%},{%%action%%} 
+    </codeblock></li> 
+   <li><p>Select the <strong>Add Post Body</strong> check box, and in <span class="uicontrol">URL</span>, type <span class="kbd">{ }</span>.<br /> </p> </li> 
+   <li><p>In <span class="uicontrol">Content Type</span>, type <span class="kbd">application/json</span>. </p> </li> 
+   <li><p>In <strong>Timeout</strong>, select <span class="kbd">0</span>.</p> </li> 
+   <li><p>Click <strong>Keep changes </strong>and then <strong>Save</strong>.</p> </li> 
+  </ol> 
+  <h2>Setting up your Adobe Launch application in Adobe Campaign</h2> 
+  <p>To use an Launch mobile property in Campaign, you also need to configure this property in Adobe Campaign. To ensure that these properties are visible in Adobe Campaign, set them up with the same IMS org that you used in your Adobe Campaign instance.</p> 
+  <ol> 
+   <li><p>From the advanced menu, select <strong>Administration</strong> &gt; <strong>Channels </strong>&gt; <strong>BETA:Mobile app (SDK V5)</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/launch_1.png" title="" /></li> 
+   <li><p>Select the mobile application you created in Adobe Launch. </p> <p>Its <strong>Property Status</strong> should be <strong>Ready to configure</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/launch_2.png" title="" /></li> 
+   <li><p>To make the connection between Campaign and Adobe Launch, click <strong>Save</strong>.</p> </li> 
+   <li><p>From the previous window, you can now see that its <strong>Property Status</strong> has been changed to <strong>Configured</strong>.</p> <p>When the Adobe Launch Campaign extension shows that the pkey has been set up successfully, you can also verify that the property has been set up successfully in Campaign.</p> 
+    <note> 
+     <p>The pkey is a unique key that is used to reference a mobile application in Adobe Campaign.</p> 
+    </note><img alt="" captionBottom="" imageRotate="0" src="assets/launch_3.png" title="" /></li> 
+   <li><p>For this configuration to take effect, the changes need to be published in Launch. For more information, see <a href="https://docs.adobelaunch.com/publishing">Publishing</a>.</p> </li> 
+  </ol> 
+  <h2>Channel-specific application configuration in Adobe Campaign</h2> 
+  <p>Your mobile application is now ready to be used in Campaign for push notification or In-app deliveries. You can now further configure it if needed to create events that will trigger your in-app messages and/or upload Push certificates.</p> 
+  <ol> 
+   <li><p>From the advanced menu, select <strong>Administration</strong> &gt; <strong>Channels </strong>&gt; <strong>BETA:Mobile app (SDK V5)</strong>.</p> </li> 
+   <li><p>Select the mobile application you created and configured in Adobe Launch.</p> </li> 
+   <li><p>In the <strong>Mobile application properties</strong> tab, you can start adding event available in your mobile application for you In-app messages.</p> </li> 
+   <li><p>To start configuring your events, click <strong>Create Element</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/launch_25.png" title="" /></li> 
+   <li><p>Type a name and a description.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/launch_26.png" title="" /></li> 
+   <li><p>Click <strong>Add</strong>.</p> <p>Your event is now available in the <span class="uicontrol">Triggers</span> tab when creating an In-App message. For more on this, refer to this <a href="../../channels/using/preparing-and-sending-an-in-app-message.md">section</a>.</p> </li> 
+   <li><p>In the <strong>Device-specific settings</strong> section of a mobile application dashboard, for each device, provide the application details, including the certificate for iOS and the server key for Android.</p> <p>Once your certificate is uploaded, a message will let you know if the upload was successful and will display the expiration date of your certificate.</p> </li> 
+   <li><p>Click the <strong>Mobile application subscribers</strong> tab to see the subscribers and other information on them for example if they opted out of your notifications.</p> </li> 
+  </ol> 
+  <h2>Deleting your Adobe Launch application</h2> 
+  <p>To delete your Adobe Launch application, you first need to follow the steps detailed . Please note that this cannot be reversed.</p> 
+  <p>Once your application is deleted, you can check in Adobe Campaign if your application's <strong>Property status</strong> has been correctly updated to <strong>Deleted in Launch</strong>.</p> 
+  <p>By clicking on your application in Adobe Campaign, you can choose to completely remove this application from Adobe Campaign by clicking the <strong>Delete from Campaign</strong> button.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/launch_27.png" title="" /> 
+ </body> 
+</html>

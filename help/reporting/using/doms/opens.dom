@@ -1,0 +1,44 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2018-11-20T11:56:00.483-0500" name="locHandOffDate" />
+  <meta content="light" name="heroGradient" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2018-11-20T11:56:00.483-0500" name="cq:lastModified" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="Opens" name="jcr:description" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-03-15T09:01:54.390-0400" name="jcr:created" />
+  <meta content="audience:reporting" name="primaryAudienceTag" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="a6e3a470-997f-4fc3-a1fd-5a06c1239fdf" name="jcr:uuid" />
+  <meta content="With the Opens report, learn which delivery was the most viewed according to various criteria." name="seoDescription" />
+  <meta content="2cc35b10-abab-40e3-87fb-4a16772faa82" name="jcr:predecessors" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="Opens" name="jcr:title" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Opens" name="navTitle" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:reporting;content_type:reference;topic_tags:list-of-reports" name="cq:tags" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-11-20" name="publishExternalDate" />
+ </head>
+ <body>
+  <p>The <strong>Opens</strong> report identifies the deliveries that have been most viewed by recipients.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/delivery_reports_opens.png" title="" />
+  <p>Four tables and charts break down the total number of recipients who opened an email based upon:</p> 
+  <ul>
+   <li><p>Browser</p> </li>
+   <li><p>Device</p> </li>
+   <li><p>Platform</p> </li>
+   <li><p>Domain</p> </li>
+  </ul>
+  <p>The <strong>TOP 5</strong> table and graph display the deliveries with the highest number of delivered messages.</p> 
+ </body>
+</html>

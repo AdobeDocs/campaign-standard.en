@@ -1,0 +1,48 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="en_us" name="jcr:language" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="28923608-6cf0-43a8-810a-8b96d0ecbe76" name="jcr:predecessors" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2018-03-15T09:01:57.124-0400" name="jcr:created" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="aeafffa7-b7fe-4616-9d92-ffd09d2be200" name="jcr:uuid" />
+  <meta content="With the Push notification out-of-the-box report, learn about the success of your push notifications." name="seoDescription" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="2018-11-20T11:56:03.012-0500" name="locHandOffDate" />
+  <meta content="Push notification report" name="navTitle" />
+  <meta content="2018-11-20T11:56:03.012-0500" name="cq:lastModified" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Push notification report" name="jcr:description" />
+  <meta content="audience:reporting" name="primaryAudienceTag" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-11-20" name="publishExternalDate" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Push notification report" name="jcr:title" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:reporting;content_type:reference;topic_tags:list-of-reports" name="cq:tags" />
+ </head>
+ <body>
+  <p>The <strong>Push notification</strong> report provides details related to push notifications. For example, delivered and open rates.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/dynamic_report_push.png" title="" />
+  <p>Each table is represented by summary numbers and charts. You can change how the details are shown in their respective visualization settings.</p> 
+  <p>The first table, <strong>Push summary</strong>, contains the data available for sent push notification: </p> 
+  <ul>
+   <li><p><strong>Processed/Sent</strong>: Total number of sends for the delivery.</p> </li>
+   <li><p><strong>Delivered</strong>: Number of push notifications successfully sent, in relation to the total number of sent messages.</p> </li>
+   <li><p><strong>Open</strong>: Number of time a user's interaction with Push notification causes the App to be launched.</p> </li>
+  </ul>
+  <p>The following two tables, <strong>Mobile app repartition</strong> and <strong>Platform repartition</strong>, contain the available data for push notifications. This data depends upon:</p> 
+  <ul>
+   <li><p>The mobile applications used to send the push notifications.</p> </li>
+   <li><p>The recipients' mobile operating systems.</p> </li>
+  </ul>
+ </body>
+</html>

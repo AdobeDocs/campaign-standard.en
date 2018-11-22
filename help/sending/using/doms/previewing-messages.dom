@@ -1,0 +1,53 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="audience:sending" name="primaryAudienceTag" />
+  <meta content="light" name="heroGradient" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Previewing messages" name="navTitle" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-11-20" name="publishExternalDate" />
+  <meta content="053916e7-cb21-4269-9393-e42b3ffed9b7" name="jcr:predecessors" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Previewing messages" name="jcr:title" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-11-20T11:56:21.177-0500" name="locHandOffDate" />
+  <meta content="483e2b04-a8af-48a2-8872-1780d63026bc" name="jcr:uuid" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:sending;content_type:reference;topic_tags:preparing-and-testing-messages" name="cq:tags" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="Previewing messages" name="jcr:description" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="Learn how to preview a message in the content editor or in the Creative Designer." name="seoDescription" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-03-15T09:02:20.656-0400" name="jcr:created" />
+  <meta content="2018-11-20T11:56:21.178-0500" name="cq:lastModified" />
+  <meta content="sauviat" name="contentOwner" />
+ </head>
+ <body>
+  <p>After adding test profiles in the <strong>Audience</strong> window, you can preview your message to check its personalization and how your recipients will see your delivery.</p> 
+  <h2>Previewing messages with the content editor</h2>
+  <p>In the <a href="../../designing/using/about-personalization.md">content editor</a>, preview is available in HTML and text format.</p> 
+  <p>The preview screen comes with a device mode that allows you to simulate a wide range of devices. You can select the device that you want to emulate in the dropdown list. The <img height="21px" src="assets/toggleOrientation24px.png" /> button lets you control the orientation between portrait and landscape.</p> 
+  <p>For emails, an automatic anti-spam checking is performed during each preview. Click the <strong>Show anti-spam analysis</strong> button to find out more about the warning.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/delivery_content_edition12.png" title="" />
+  <ol>
+   <li><p>In the <strong>Content</strong> window, after personnalizing your message, use the <strong>Preview</strong> button located in the action bar.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/review_1.png" title="" /></li>
+   <li><p>Select the <strong>Change profile</strong> button to choose the test profile you want to test the personalization elements on.</p> </li>
+   <li><p>To check your delivery layout on different devices, select a type of device in the top action bar.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/review_2.png" title="" /></li>
+  </ol>
+  <p>Once the personalization is finished, your delivery is ready to be sent to your recipients.</p> 
+  <h2>Previewing messages with the Creative Designer</h2>
+  <ol>
+   <li><p>In the <a href="../../designing/using/about-email-content-design.md#using-the-email-designer">Creative Designer</a>, click the <strong>Preview</strong> button.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/sending_preview.png" title="" /><p>A desktop view and a responsive mobile view of your email are displayed side by side.</p> </li>
+   <li><p>An automatic anti-spam checking is performed during each preview. Click the <strong>Anti-spam analysis</strong> button to find out more about the warning.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/sending_anti-spam_analysis.png" title="" /></li>
+   <li><p>Select the <strong>Change profile</strong> button to choose the test profile you want to test the personalization elements on.</p> </li>
+   <li><p>To exit the <strong>Preview</strong> mode, click the <strong>Edit</strong> button on top left of the screen.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/sending_preview_edit.png" title="" /></li>
+  </ol>
+ </body>
+</html>

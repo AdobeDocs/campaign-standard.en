@@ -1,0 +1,81 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2018-11-20T11:57:02.096-0500" name="cq:lastModified" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="2018-03-15T09:02:38.997-0400" name="jcr:created" /> 
+  <meta content="The Direct mail delivery activity allows you to configure sending a single send direct mail or a recurring direct mail in a workflow." name="seoDescription" /> 
+  <meta content="d6c64f1c-48e9-4dc6-8b2b-c926573f0aa6" name="jcr:predecessors" /> 
+  <meta content="2018-11-20T11:57:02.096-0500" name="locHandOffDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="audience:automating" name="primaryAudienceTag" /> 
+  <meta content="Direct mail delivery" name="jcr:description" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:channel-activities" name="cq:tags" /> 
+  <meta content="Direct mail delivery" name="jcr:title" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2018-11-20" name="publishExternalDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="Direct mail delivery" name="navTitle" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2ab95da2-a6d8-4f2f-96f1-30a70b56c40e" name="jcr:uuid" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
+ </head> 
+ <body> 
+  <h2>Description</h2> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/paper.png" title="" /> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/recurrentPaper.png" title="" /> 
+  <p>The <strong>Direct mail delivery</strong> activity allows you to configure and prepare a file containing profile data that you want to use for a direct mail campaign. This can be a direct mail that is used just once, or it can be a <strong>recurring</strong> direct mail.</p> 
+  <p>Standard direct mails are sent once.</p> 
+  <p>Recurring mails allow you to send the same direct mail multiple times to different targets over a defined period. You can aggregate the deliveries per period in order to get reports that correspond to your needs.</p> 
+  <h2>Context of use</h2> 
+  <p>The <strong>Direct mail delivery</strong> activity is generally used to automate preparing a file that contains profile data. This file can then be sent to a partner/provider in charge of the mailing.</p> 
+  <p>When linked to a scheduler, you can define recurring direct mails.</p> 
+  <p>Direct mail recipients are defined upstream of the activity in the same workflow, via targeting activities such as queries, intersections, etc. Profiles whose mailing address is not specified are automatically excluded when the direct mail is prepared.</p> 
+  <p>The message preparation is triggered according to the workflow execution parameters. From the message dashboard, you can select whether to request or not a manual confirmation to send the message (required by default). You can start the workflow manually or place a scheduler activity in the workflow to automate execution.</p> 
+  <h2>Configuration</h2> 
+  <ol> 
+   <li><p>Drag and drop a <strong>Direct mail delivery</strong> activity into your workflow.</p> </li> 
+   <li><p>Select the activity, then open it using the <img height="21px" src="assets/edit_darkgrey-24px.png" /> button from the quick actions that appear.</p> 
+    <note> 
+     <p> You can access the general properties and advanced options of the activity (and not of the delivery itself) via the <img height="21px" src="assets/dlv_activity_params-24px.png" /> button from the activity's quick actions. This button is specific to the channel activities. The direct mail's properties can be accessed via the action bar in the direct mail dashboard. </p> 
+    </note></li> 
+   <li><p>Select the direct mail send mode:</p> 
+    <ul> 
+     <li><p><strong>Direct mail</strong>: the direct mail is sent a single time. You can specify here whether or not you would like to add an outbound transition to the activity. The different transition types are detailed in step 7 of this procedure.</p> </li> 
+     <li><p><strong>Recurring direct mail</strong>: the direct mail is sent several times, according to the frequency defined in a <strong>Scheduler</strong> activity. Select the aggregation period of the sends. This allows you to regroup all the sends that occur during the defined period in one single direct mail that is also called <strong>Recurring execution</strong> and can be accessed from the application's marketing activity list.</p> <p>For example, for a recurring birthday mail, that is processed daily, you can choose to aggregate the sends per month. This allows you to receive reports on your delivery on a monthly basis although the mail is processed every day.</p> 
+      <note> 
+       <p> For recurring direct mails, a new file is generated at each execution of the workflow. The selected aggregation period has no impact on this behavior. </p> 
+      </note></li> 
+    </ul></li> 
+   <li><p>Select a direct mail type. The direct mail types come from templates defined in the <strong>Resources</strong> &amp;gt; <strong>Templates</strong> &amp;gt; <strong>Delivery templates</strong> menu.</p> </li> 
+   <li><p>Enter the general properties for the direct mail. You can also attach it to an existing campaign. The label of the workflow's delivery activity is updated with the direct mail label.</p> </li> 
+   <li><p>Define the direct mail content. Refer to the section concerning <a href="../../designing/using/about-personalization.md">content editing</a>.</p> </li> 
+   <li><p>By default, the <strong>Direct mail delivery</strong> activity does not include any outbound transitions. If you would like to add an outbound transition to your <strong>Direct mail delivery</strong> activity, go to the <strong>General</strong> tab of the advanced activity options ( <img height="21px" src="assets/dlv_activity_params-24px.png" /> button in the activity's quick actions) then check one of the following options:</p> 
+    <ul> 
+     <li><p><strong>Add outbound transition without the population</strong>: this lets you generate an outbound transition that contains the exact same population as the inbound transition. This transition contains the file generated by the direct mail activity and the raw population that was received by the direct mail activity.</p> </li> 
+     <li><p><strong>Add outbound transition with the population</strong>: this lets you generate an outbound transition containing the population to whom the direct mail will be sent. The members of the target excluded during the direct mail preparation (quarantine, invalid address, etc.) are excluded from this transition. The transition also contains the file generated by the direct mail.</p> </li> 
+    </ul></li> 
+   <li><p>Confirm the configuration of your activity and save your workflow.</p> </li> 
+  </ol> 
+  <p>When you reopen the activity, you are taken directly to the direct mail dashboard. Only its content can be edited.</p> 
+  <p>By default, starting a delivery workflow only triggers the message preparation. The sending of messages created from a workflow still needs to be confirmed after the workflow has been started. But from the message dashboard, and only if the message was created from a workflow, you can disable the <strong>Request confirmation before sending messages</strong> option. By unchecking this option, messages are sent without further notice once the preparation is done.</p> 
+  <h2>Remarks</h2> 
+  <p>The deliveries created within a workflow can be accessed in the application's marketing activity list. You can view the workflow's execution status using the dashboard. Links in the direct mail summary pane allow you to directly access linked elements (workflow, campaign, parent delivery in case of a recurring direct mail).</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/wkf_display_parent_elements_direct_mail.png" title="" /> 
+  <p>The executions of recurring deliveries are masked by default. To view them, check the <strong>Show recurring executions</strong> option in the marketing activities' search panel.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/wkf_display_recurrent_executions_direct_mail.png" title="" /> 
+  <p>In the parent deliveries, which can be accessed from the marketing activity list or directly via the associated recurring executions, you can view the total number of mails that have been processed (according to the aggregation period specified when the <strong>Direct mail delivery</strong> activity was configured). To do this, open the detail view of the parent delivery's <strong>Deployment</strong> block by selecting <img height="21px" src="assets/wkf_dlv_detail_button.png" /> .</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/wkf_display_recurrent_executions_3_direct_mail.png" title="" /> 
+  <h2>Example</h2> 
+  <p>An example of <strong>Direct mail delivery</strong> is available in the <a href="../../channels/using/example-of-direct-mail-in-a-workflow.md">Direct Mail</a> chapter.</p> 
+ </body> 
+</html>

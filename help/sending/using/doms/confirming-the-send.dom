@@ -1,0 +1,68 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="audience:sending" name="primaryAudienceTag" />
+  <meta content="light" name="heroGradient" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Confirming the send" name="jcr:description" />
+  <meta content="2018-11-06T09:43:32.032-0500" name="jcr:created" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="dc980720-4936-4df1-bd25-430c6eabe177" name="jcr:predecessors" />
+  <meta content="2018-11-20T11:56:45.772-0500" name="locHandOffDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="35b6ac14-fa7d-46a2-b89a-4c0ed6f053c2" name="jcr:uuid" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="Confirming the send" name="navTitle" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2018-11-20" name="publishExternalDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-11-20T11:56:45.772-0500" name="cq:lastModified" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:sending;content_type:reference;topic_tags:sending-and-tracking-messages" name="cq:tags" />
+  <meta content="Learn how to finalize the message preparation." name="seoDescription" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="Confirming the send" name="jcr:title" />
+ </head>
+ <body>
+  <p>Once you have finished preparing your messages and the approval steps have been carried out, you can send them. For more on messages preparation, refer to <a href="../../sending/using/preparing-the-send.md" target="_blank">Preparing the send</a>.</p> 
+  <p>Only users with the <strong>Start deliveries</strong> role can confirm send. For more on this, refer to the <a href="../../administration/using/list-of-roles.md">List of roles</a> section. </p> 
+  <p>Users without this role will see the following message: </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/confirm_delivery_2.png" title="" />
+  <p>To send your delivery, click the <strong>Confirm send</strong> button found in the message's action bar.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/confirm_delivery.png" title="" />
+  <p>You will be asked to finalize the send definitively by clicking the <strong>OK</strong> button.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/confirm_delivery1.png" title="" />
+  <p>The message is being sent.</p> 
+  <note>
+   <p> If the message is scheduled, it will be sent when sending time is reached. For more on scheduling messages, refer to <a href="../../sending/using/about-scheduling-messages.md">this section</a>. </p> 
+  </note>
+  <p>The <strong>Deployment</strong> block shows the progress of the send. </p> 
+  <p>Once the message is sent to the contacts, the <strong>Deployment</strong> zone shows your KPIs (Key Performance Indicator) data , including:</p> 
+  <ul>
+   <li><p>The number of messages to deliver</p> </li>
+   <li><p>The number of messages sent</p> </li>
+   <li><p>The percentage of messages delivered</p> </li>
+   <li><p>The percentage of bounces and errors</p> </li>
+   <li><p>The percentage of open messages</p> </li>
+   <li><p>The percentage of clicks in the messages (for emails)</p> 
+    <note>
+     <p> The <strong>Open rate</strong> and <strong>Click-through rate</strong> are updated every hour. </p> 
+    </note></li>
+  </ul>
+  <img alt="" captionBottom="" imageRotate="0" src="assets/sending_delivery.png" title="" />
+  <p>If the KPIs take too long to update or don't take into account the results from the sending logs, click the <strong>Compute stats</strong> button in the <strong>Deployment</strong> window.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/sending_delivery7.png" title="" />
+  <p>The message can be viewed in the history of one of the client profiles that makes up part of the audience. See <a href="../../audiences/using/integrated-customer-profile.md">Integrated customer profile</a>.</p> 
+  <p>Once a message is sent, you can track the behavior of its recipients, and monitor it in order to measure its impact. For more on this, refer to these sections:</p> 
+  <ul>
+   <li><p> <a href="../../sending/using/tracking-messages.md" target="_blank">Tracking messages</a></p> </li>
+   <li><p> <a href="../../sending/using/monitoring-a-delivery.md" target="_blank">Monitoring a delivery</a></p> </li>
+  </ul>
+ </body>
+</html>

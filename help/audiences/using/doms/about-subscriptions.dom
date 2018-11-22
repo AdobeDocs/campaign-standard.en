@@ -1,0 +1,42 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:audiences;content_type:reference;topic_tags:managing-subscriptions" name="cq:tags" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-03-15T09:01:55.044-0400" name="jcr:created" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="2018-11-20" name="publishExternalDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="audience:audiences" name="primaryAudienceTag" />
+  <meta content="About subscriptions" name="jcr:title" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="" name="seoDescription" />
+  <meta content="About subscriptions" name="navTitle" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="41d2df3f-c15d-4acb-bca6-db19ea1563a1" name="jcr:uuid" />
+  <meta content="About subscriptions" name="jcr:description" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-11-20T11:55:55.865-0500" name="cq:lastModified" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-11-20T11:55:55.865-0500" name="locHandOffDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="light" name="heroGradient" />
+  <meta content="c5a487a3-88ce-4a02-a2b1-82e7b2bd9942" name="jcr:predecessors" />
+ </head>
+ <body>
+  <p>Adobe Campaign allows you to create and manage newsletters and cross-channel communications, through a set of <strong>services</strong>: messages can only be sent to profiles who subscribed to the service (opt-in). These profiles are identified using a dedicated filter when creating a message.</p> 
+  <p>Subscription mechanisms can be set up to offer your customers a chance to subscribe to these services, notably though <strong>emails</strong> and <strong>landing pages</strong>.</p> 
+  <p>Each service comes with:</p> 
+  <ul>
+   <li><p><strong>Subscription</strong> (opt-in) and <strong>Unsubscription</strong> (opt-out) mechanisms.</p> </li>
+   <li><p>Subscription and/or unsubscription <strong>confirmation mechanisms</strong>.</p> </li>
+   <li><p>A subscription <strong>history</strong>.</p> </li>
+  </ul>
+ </body>
+</html>

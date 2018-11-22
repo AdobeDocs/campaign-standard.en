@@ -1,0 +1,76 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-11-20T11:57:12.552-0500" name="cq:lastModified" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:data-management-activities" name="cq:tags" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="audience:automating" name="primaryAudienceTag" />
+  <meta content="light" name="heroGradient" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-03-15T09:02:41.622-0400" name="jcr:created" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="The Extract file activity allows you to export data from Adobe Campaign in the form of an external file." name="seoDescription" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-11-20" name="publishExternalDate" />
+  <meta content="Extract file" name="jcr:title" />
+  <meta content="65de6031-2e3c-46a9-a965-85148cc0c646" name="jcr:uuid" />
+  <meta content="1cf72c80-f371-482a-ba75-a00f20bea74d" name="jcr:predecessors" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2018-11-20T11:57:12.551-0500" name="locHandOffDate" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="Extract file" name="jcr:description" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Extract file" name="navTitle" />
+ </head>
+ <body>
+  <h2>Description</h2>
+  <img alt="" captionBottom="" imageRotate="0" src="assets/export.png" title="" />
+  <p>The <strong>Extract file</strong> activity allows you to export data from Adobe Campaign in the form of an external file.</p> 
+  <h2>Context of use</h2>
+  <p>The way in which the data will be extracted is defined when configuring the activity.</p> 
+  <note>
+   <p> The <strong>Extract file</strong> activity must be placed after a <strong>Query</strong> activity in order to be used. </p> 
+  </note>
+  <h2>Configuration</h2>
+  <ol>
+   <li><p>Drag and drop an <strong>Extract file</strong> activity into your workflow.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/wkf_data_export1.png" title="" /></li>
+   <li><p>Select the activity, then open it using the <img height="21px" src="assets/edit_darkgrey-24px.png" /> button from the quick actions that appear.</p> </li>
+   <li><p>Enter the label of the <strong>Output file</strong>. The label of the file will automatically be completed with the date and time it was created so that it is unique. For example: recipients_20150815_081532.txt for a file generated the 15th of August 2015 at 08:15:32.</p> </li>
+   <li><p>If you like, you can zip the output file by selecting <strong>Compression</strong> in the <strong>Add a pre-processing step</strong> field. The output file will be compressed into a GZIP file (.gz).</p> </li>
+   <li><p>Click the <img height="21px" src="assets/add_darkgrey-24px.png" /> or <strong>Add an element</strong> button to add an output column.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/wkf_data_export2.png" title="" /><p>A new window will open.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/wkf_data_export3.png" title="" /></li>
+   <li><p>Enter an expression. To do this, you can select an existing expression or create a new one using the <strong>expression editor</strong>.</p> </li>
+   <li><p>Confirm your expression.</p> <p>The expression is added to the output columns.</p> </li>
+   <li><p>Create as many columns as you need. You can edit columns by clicking their expressions and labels.</p> <p>If you are exporting profiles and want to use them in an external tool, make sure you export a unique identifier. By default, not all profiles have a unique identifier, depending on the way they are added to the database. For more information, refer to the <a href="../../developing/using/generating-a-unique-id-for-profiles-and-custom-resources.md">Generating a unique ID for profiles</a> section.</p> </li>
+   <li><p>Click the <strong>File structure</strong> tab to configure the output, date, and number formats for the file that will be exported.</p> <p>Check the <strong>Export labels instead of internal values of enumerations</strong> option in case you export enumeration values. This option allows to retrieve shorter labels that are easy to understand instead of IDs.</p> </li>
+   <li><p>In the <strong>Properties</strong> tab, select the <strong>Do not generate a file if the inbound transition is empty</strong> option to avoid creating and uploading empty files on SFTP servers if the inbound transition is empty.</p> </li>
+   <li><p>Confirm the configuration of your activity and save your workflow.</p> </li>
+  </ol>
+  <h2>Example</h2>
+  <p>The following example illustrates how to configure an <strong>Extract file</strong> activity after a <strong>Query</strong> activity.</p> 
+  <p>The aim of this workflow is to export a list of profiles in the form of an external file so that the data can be used outside of Adobe Campaign.</p> 
+  <ol>
+   <li><p>Drag and drop an <strong>Extract file</strong> activity into your workflow and place it after the <strong>Query</strong> activity.</p> <p>In this example, the query is carried out on all profiles aged 18 to 30.</p> </li>
+   <li><p>Open the Extract file activity to edit it.</p> </li>
+   <li><p>Name the output file.</p> </li>
+   <li><p>Add output columns.</p> <p>In this example, the email, age, date of birth, first name and last name of the profiles are added as output columns.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/wkf_data_export6.png" title="" /></li>
+   <li><p>Click the <strong>File structure</strong> tab to define:</p> 
+    <ul>
+     <li><p>CSV output format</p> <img alt="" captionBottom="" imageRotate="0" src="assets/wkf_data_export7.png" title="" /></li>
+     <li><p>Date format</p> <img alt="" captionBottom="" imageRotate="0" src="assets/wkf_data_export9.png" title="" /></li>
+    </ul></li>
+   <li><p>Confirm your activity.</p> </li>
+   <li><p>Drag and drop a <strong>Transfer file</strong> activity after the <strong>Extract file</strong> activity to recover the extract file on an external account.</p> </li>
+   <li><p>Open the activity and choose the <strong>File upload</strong> action.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/wkf_data_export11.png" title="" /></li>
+   <li><p>Select the external account and enter the path of the folder on the server.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/wkf_data_export12.png" title="" /></li>
+   <li><p>Confirm your activity and save your workflow.</p> </li>
+   <li><p>Start the workflow.</p> <p>When the workflow has been executed correctly, the extracted file is available on the external account.</p> </li>
+  </ol>
+ </body>
+</html>

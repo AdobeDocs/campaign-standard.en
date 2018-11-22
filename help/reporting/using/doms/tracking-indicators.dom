@@ -1,0 +1,48 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="With the Tracking indicators out-of-the-box report, learn about the behavior of your customers when they receive email messages." name="seoDescription" />
+  <meta content="2018-11-20" name="publishExternalDate" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="48f06856-3688-4e74-bdda-58c4c2dcca89" name="jcr:predecessors" />
+  <meta content="Tracking indicators" name="navTitle" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-03-15T09:02:18.216-0400" name="jcr:created" />
+  <meta content="Tracking indicators" name="jcr:description" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-11-20T11:55:54.268-0500" name="cq:lastModified" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="audience:reporting" name="primaryAudienceTag" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="8d0567f8-c33a-4234-ad52-a4171a510c3a" name="jcr:uuid" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:reporting;content_type:reference;topic_tags:list-of-reports" name="cq:tags" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2018-11-20T11:55:54.268-0500" name="locHandOffDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Tracking indicators" name="jcr:title" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="light" name="heroGradient" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+ </head>
+ <body>
+  <p>The <strong>Tracking indicators</strong> report contains the key indicators for tracking behavior after email messages are received.</p> 
+  <note>
+   <p> To access this data, tracking has to be enabled when preparing a delivery. </p> 
+  </note>
+  <img alt="" captionBottom="" imageRotate="0" src="assets/delivery_reports_2.png" title="" />
+  <p>The <strong>Tracking indicators</strong> table and <strong>Top 5 deliveries </strong>graph contain the available data for email tracking, such as: </p> 
+  <ul>
+   <li><p><strong>Delivered</strong>: The number of messages successfully sent. Errors raised (bounces) are taken into account. however, complaints (spam declarations) and away messages such as "out of office" are not taken into account.</p> </li>
+   <li><p><strong>Open</strong>: The number of times a message was opened in a delivery.</p> </li>
+   <li><p><strong>Click</strong>: The number of times content was clicked in a delivery.</p> </li>
+   <li><p><strong>Unsubscribed</strong>: The number of clicks on the subscription link.</p> </li>
+   <li><p><strong>Spam:</strong> The number of recipients who have declared an email as spam.</p> </li>
+   <li><p><strong>Mirror Page</strong>: The number of clicks on the mirror page link.</p> </li>
+  </ul>
+ </body>
+</html>

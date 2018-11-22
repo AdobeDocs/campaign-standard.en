@@ -1,0 +1,39 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="Defining the report period" name="navTitle" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-11-20T11:55:46.860-0500" name="cq:lastModified" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="17f31f48-ac75-42ee-8b38-01105d1fe89a" name="jcr:predecessors" />
+  <meta content="Defining the report period" name="jcr:description" />
+  <meta content="2018-11-20" name="publishExternalDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="The time period of your report allows you to filter your data depending on the chosen dates." name="seoDescription" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="light" name="heroGradient" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:reporting;content_type:reference;topic_tags:list-of-reports" name="cq:tags" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="audience:reporting" name="primaryAudienceTag" />
+  <meta content="Defining the report period" name="jcr:title" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="4996d7cb-a4df-4812-b6e0-9904f03eabd4" name="jcr:uuid" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-03-15T09:01:54.008-0400" name="jcr:created" />
+  <meta content="2018-11-20T11:55:46.860-0500" name="locHandOffDate" />
+ </head>
+ <body>
+  <p>Before starting or accessing a report, you must apply a time period. The given period can be accessed on the top right of the report. </p> 
+  <p>By default, for a campaign or program, the filter period is set to the start and end date of the program or campaign. For a delivery, the start date corresponds to the sent date and the end date to the sent date plus 7 days. </p> 
+  <p>To modify the filter, select a start date and a period or use the pre-set time period such as last week, two months ago, etc.</p> 
+  <p>The report is automatically updated when a filter is applied or modified.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/campaign_reports_5.png" title="" />
+ </body>
+</html>

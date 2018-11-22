@@ -1,0 +1,46 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2018-11-20" name="publishExternalDate" />
+  <meta content="Discover the complete set of features powered by the Adobe Creative SDK to enhance your images directly in the content editor." name="seoDescription" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="audience:designing" name="primaryAudienceTag" />
+  <meta content="Modifying images with the Adobe Creative SDK" name="navTitle" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-11-20T11:56:22.933-0500" name="cq:lastModified" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2018-11-20T11:56:22.933-0500" name="locHandOffDate" />
+  <meta content="Modifying images with the Adobe Creative SDK" name="jcr:description" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="light" name="heroGradient" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="Modifying images with the Adobe Creative SDK" name="jcr:title" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="b525e938-de82-4e75-a0d4-6e8c6e131dfa" name="jcr:predecessors" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="3291fb32-0fa2-41ac-9cf1-0ccea33e9c38" name="jcr:uuid" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="2018-07-23T07:30:16.249-0400" name="jcr:created" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:using-images" name="cq:tags" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+ </head>
+ <body>
+  <p>You can edit images and use a complete set of features powered by the Adobe Creative SDK to enhance your images directly in the content editor when editing emails or landing pages.</p> 
+  <p>The image editor offers a powerful, full-featured image editing UI component that allows you to edit images and apply effects and frames, original high-quality stickers, beautiful overlays, fun features like tilt shift and color splash, pro-level adjustments and more.</p> 
+  <p>To modify an image with the Adobe Creative SDK:</p> 
+  <ol>
+   <li><p>Select the image.</p> </li>
+   <li><p>In the toolbar, click the Creative Cloud icon.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/des_creative_sdk_icon.png" title="" /></li>
+   <li><p>Select the tool you want to use through the icons on the top of the window to modify the image.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/email_designer_ccSdkToolbar.png" title="" /></li>
+   <li><p>Click <strong>Save</strong> when modifications are done. The updated image is saved on Adobe Campaign server and ready to be used.</p> </li>
+  </ol>
+  <note>
+   <p> Tools offered in the image editor cannot be customized. </p> 
+  </note>
+ </body>
+</html>

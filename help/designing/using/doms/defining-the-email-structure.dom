@@ -1,0 +1,124 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2018-07-23T07:30:13.078-0400" name="jcr:created" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="Defining the email structure" name="jcr:description" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="Discover how to use the Email Designer in Campaign to shape your emails and populate them with content components." name="seoDescription" />
+  <meta content="2018-11-20" name="publishExternalDate" />
+  <meta content="8e7260fe-6c23-4613-9760-b1e138a999fa" name="jcr:predecessors" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2018-11-20T11:55:42.306-0500" name="cq:lastModified" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:editing-email-content" name="cq:tags" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="2fe2acc3-c5ad-48f3-93fd-2b9dc2980917" name="jcr:uuid" />
+  <meta content="audience:designing" name="primaryAudienceTag" />
+  <meta content="Defining the email structure" name="jcr:title" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Defining the email structure" name="navTitle" />
+  <meta content="2018-11-20T11:55:42.305-0500" name="locHandOffDate" />
+  <meta content="" name="jcr:baseVersion" />
+ </head>
+ <body>
+  <h2>Editing the email structure</h2>
+  <p>The Email Designer allows you to easily define the structure of your email. By adding and moving structural elements with simple drag &amp; drop actions, you can design the shape of your email within seconds.</p> 
+  <ol>
+   <li><p>Open an existing content or create a new email content.</p> </li>
+   <li><p>Access the <strong>Structure components</strong> by selecting the <strong>+</strong> icon on the left.</p> </li>
+   <li><p>Drag and drop the structure components you need to shape your email.</p> <p>A blue line materializes the exact location of the structure components before you drop it. You can drop it above, between or below any other component, but not inside.</p> 
+    <note>
+     <p> Once placed in the email, you cannot move nor remove your components unless there is already a content/fragment placed inside. </p> 
+    </note></li>
+  </ol>
+  <p>Once the structure is defined, you are able to add content fragments and components to your email.</p> 
+  <h2>Adding fragments and content components</h2>
+  <p>With the Email Designer, after adding structure components to your email, you can define their content. To do that, you need to add elements inside each structure component.</p> 
+  <p>There are two categories of content elements that you can use: <strong>fragments</strong> and <strong>content components</strong>.</p> 
+  <h3>About fragments</h3>
+  <p>A fragment is a reusable component that can be referenced in one or more emails.</p> 
+  <p>To make the best use of fragments in the Email Designer:</p> 
+  <ul>
+   <li><p>Create your own fragments. See <a href="../../designing/using/defining-the-email-structure.md#creating-a-content-fragment" target="_blank">Creating a content fragment</a>.</p> </li>
+   <li><p>Use them as many times as needed in your emails. See <a href="../../designing/using/defining-the-email-structure.md#inserting-elements-into-an-email" target="_blank">Inserting elements into an email</a>.</p> </li>
+   <li><p>When you edit a fragment, the changes are synchronized: they are automatically propagated to all emails (provided they have not been prepared or sent yet) containing that fragment.</p> </li>
+  </ul>
+  <p>When added to an email, fragments are locked by default. If you want to modify a fragment for a specific email, you can break the synchronization with the original fragment by unlocking it in the email where it is used. The changes will not be synchronized anymore.</p> 
+  <p>To unlock a fragment inside an email, select it and click the lock icon from the contextual toolbar.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/des_unlocking_fragment.png" title="" />
+  <p>That fragment becomes a standalone component that is not linked anymore to the original fragment. It can then be edited as any other content component. See <a href="../../designing/using/defining-the-email-structure.md#about-content-components" target="_blank">About content components</a>.</p> 
+  <h3>About content components</h3>
+  <p>Content components are raw, empty components that you can edit once placed in an email.</p> 
+  <p>You can add as many content components as you want in a structure component. You can also move them inside the structure component or to another structure component.</p> 
+  <p>Here is the list of the available components in the Email Designer:</p> 
+  <ul>
+   <li><p><strong>Button</strong></p> </li>
+   <li><p><strong>Carousel</strong></p> <p>For more on this, see <a href="../../designing/using/defining-the-email-structure.md#using-the-carousel-component" target="_blank">Using the carousel component</a>.</p> </li>
+   <li><p><strong>Divider</strong></p> </li>
+   <li><p><strong>Html</strong></p> <p>Use this component to copy-past the different parts of your existing HTML. This enables you to create free modular HTML components.</p> 
+    <note>
+     <p> A free HTML component is editable with limited options. If all styles are not inlined, make sure to add the proper CSS in the <strong>head</strong> section of the HTML code, otherwise the email will not be responsive. Use the <strong>Preview</strong> button to test the responsiveness of your content (see <a href="../../sending/using/previewing-messages.md#previewing-messages-with-the-creative-designer">Previewing messages with the Email Designer</a>). </p> 
+    </note></li>
+   <li><p><strong>Image</strong></p> </li>
+   <li><p><strong>Social</strong></p> </li>
+   <li><p><strong>Text</strong></p> </li>
+  </ul>
+  <h4>Using the carousel component</h4>
+  <ol>
+   <li><p>Drag and drop the <strong>Carousel</strong> component inside a structure component.</p> </li>
+   <li><p>Browse to select images from your computer.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/des_carousel_browse.png" title="" /></li>
+   <li><p>From the <strong>Settings</strong> pane, set the number of thumbnails that you want in the carousel.</p> </li>
+   <li><p>Select a fallback image from your computer.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/des_carousel_fallback.png" title="" /><p>The carousel component is not compatible with all email programs. Upload a fallback to display an image instead when the carousel is not supported in the email.</p> 
+    <note>
+     <p> The carousel component is compatible with the following email platforms: Apple Mail 7, Apple Mail 8, Outlook 2011 for Mac, Outlook 2016 for Mac, Mozilla Thunderbird, iPad and iPad mini iOS, iPhone iOS, Android, AOL (Chrome, Firefox and Safari). </p> 
+    </note></li>
+   <li><p>Select <strong>Fallback view</strong> to display the fallback image in the Email Designer.</p> </li>
+  </ol>
+  <h3>Inserting elements into an email</h3>
+  <p>To define the content of your email, you can add content elements in the structure components you have placed beforehand. See <a href="../../designing/using/defining-the-email-structure.md#editing-the-email-structure" target="_blank">Editing the email structure</a>.</p> 
+  <ol>
+   <li><p>Access the content elements by selecting the <strong>+</strong> icon on the left. Select <a href="../../designing/using/defining-the-email-structure.md#about-fragments">Fragments</a> or <a href="../../designing/using/defining-the-email-structure.md#about-content-components">Content components</a>.</p> </li>
+   <li><p>If you already know the label or part of the label of the fragment you want to add, you can search for it.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/email_designer_fragmentsearch.png" title="" /></li>
+   <li><p>Drag and drop a fragment or content component from the palette to a structure component of the email.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/email_designer_addfragment.png" title="" /><p>Once an element is added to the email, it can be moved inside the structure component or to another structure component in the email.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/email_designer_movefragment.png" title="" /></li>
+   <li><p>Edit the element to match the exact needs of this email. You can add text, links, images, and so on.</p> 
+    <note>
+     <p> Fragments are locked by default when added to an email. You can break the synchronization with the original fragment if you want to modify the fragment for a specific email, or make your change directly in the fragment. See <a href="../../designing/using/defining-the-email-structure.md#about-fragments" target="_blank">About fragments</a>. </p> 
+    </note></li>
+   <li><p>Repeat this procedure for all elements you need to add to your email.</p> </li>
+   <li><p>Save your email.</p> </li>
+  </ol>
+  <p>Now that your email structure is populated, you can edit the style of each content element. See <a href="../../designing/using/editing-email-styles.md#editing-an-element" target="_blank">Editing an element</a>.</p> 
+  <note>
+   <p> If a fragment is modified, the changes are automatically propagated in the emails where it is used. For more on this, see <a href="../../designing/using/defining-the-email-structure.md#about-fragments">About fragments</a>. </p> 
+  </note>
+  <h3>Creating a content fragment</h3>
+  <p>You can create your own content fragments to reuse later in other emails.</p> 
+  <ol>
+   <li><p>Go to <strong>Resources</strong> &gt; <strong>Content templates &amp; fragments</strong> and click <strong>Create</strong>.</p> </li>
+   <li><p>If you are offered a choice, choose to use the new email editor.</p> </li>
+   <li><p>Click the fragment title to access its properties.</p> </li>
+   <li><p>Specify a recognizable label and select the following parameters to be able to find the fragment later in new emails:</p> 
+    <ul>
+     <li><p><strong>Content type</strong>: 'Delivery'. Content fragments are only compatible with emails.</p> </li>
+     <li><p><strong>HTML type</strong>: 'Fragment'. Selecting 'Fragment' here indicates that the content created in this template is a fragment and will be utilized as such in future email contents.</p> </li>
+    </ul><img alt="" captionBottom="" imageRotate="0" src="assets/email_designer_createfragment.png" title="" /></li>
+   <li><p>If needed, define a thumbnail for the fragment. This thumbnail will be displayed next to the fragment's name when editing an email.</p> <p>Select the <strong>Thumbnail</strong> tab of the template properties. From this tab, you can select an image that will be used as thumbnail for the fragment.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/email_designer_createfragment_thumbnail.png" title="" /></li>
+   <li><p>Save the properties to return to the main editing area.</p> </li>
+   <li><p>Define one fragment by adding a structural component and a default fragment that you can customize.</p> </li>
+   <li><p>Once edited, save your fragment.</p> </li>
+  </ol>
+  <p>The fragment can now be used in emails. It appears under the <strong>Fragments</strong> section of the editor's palette.</p> 
+  <note>
+   <p> You cannot insert personalization fields inside a fragment unless it is used in an email. To do this, you need to unlock this fragment. See <a href="../../designing/using/defining-the-email-structure.md#about-fragments" target="_blank">About fragments</a>. </p> 
+  </note>
+ </body>
+</html>

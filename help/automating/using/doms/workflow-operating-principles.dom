@@ -1,0 +1,39 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="light" name="heroGradient" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Learn the main aspects of workflows." name="seoDescription" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-11-20T11:55:38.935-0500" name="cq:lastModified" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:about-workflows-and-data-management" name="cq:tags" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="Workflow operating principles" name="jcr:description" />
+  <meta content="2018-11-20T11:55:38.935-0500" name="locHandOffDate" />
+  <meta content="8c472b8a-25d5-4719-ac2a-6652b7d4524e" name="jcr:uuid" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-11-20" name="publishExternalDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="4461202b-6185-4047-81e8-e7e9b2171ac2" name="jcr:predecessors" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Workflow operating principles" name="navTitle" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-03-15T09:02:18.766-0400" name="jcr:created" />
+  <meta content="audience:automating" name="primaryAudienceTag" />
+  <meta content="Workflow operating principles" name="jcr:title" />
+ </head>
+ <body>
+  <p>A workflow is a <strong>sequence of configurable activities</strong>. Each activity has a specific role in the process. The result of each activity is forwarded to the following activity by a <strong>transition</strong>, represented by an arrow.</p> 
+  <p>The type of data exchanged between one activity and another can affect the way the following activities are configured. For example, if a population is established before email delivery activity, it can serve as the target for the email in question.</p> 
+  <p>You can open activities to check or edit parameters before or after executing the workflow.</p> 
+  <p>You can open transitions to check that the data sent is correct during or after executing the workflow. To access the detail view of the transitions, you have to check the <strong>Keep interim results</strong> option in the <strong>Execution</strong> section of the workflow properties.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/workflow_overview.png" title="" />
+ </body>
+</html>

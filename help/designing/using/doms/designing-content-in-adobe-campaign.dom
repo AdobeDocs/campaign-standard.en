@@ -1,0 +1,51 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="audience:designing" name="primaryAudienceTag" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="2018-07-23T07:30:12.717-0400" name="jcr:created" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-11-20T11:55:36.030-0500" name="locHandOffDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:about-content-design" name="cq:tags" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-11-20" name="publishExternalDate" />
+  <meta content="1f003130-c62d-4c2b-aa5b-86876b47cf20" name="jcr:predecessors" />
+  <meta content="e15a00df-ebda-4436-9c74-1dde38e7a8c7" name="jcr:uuid" />
+  <meta content="Designing content in Adobe Campaign" name="jcr:title" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-11-20T11:55:36.030-0500" name="cq:lastModified" />
+  <meta content="light" name="heroGradient" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Designing content in Adobe Campaign" name="jcr:description" />
+  <meta content="Learn about all the elements that you can define in your contents with Adobe Campaign." name="seoDescription" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Designing content in Adobe Campaign" name="navTitle" />
+ </head>
+ <body>
+  <p>Once you have created a message or a landing page in Adobe Campaign, you need to define its content.</p> 
+  <ul>
+   <li><p>For more on editing email content and using the Email Designer provided by Adobe Campaign, see <a href="../../designing/using/about-email-content-design.md" target="_blank">About email content design</a>.</p> </li>
+   <li><p>For more on editing landing page content, see <a href="../../designing/using/about-landing-page-content-design.md" target="_blank">About landing page content design</a>.</p> </li>
+   <li><p>For more on editing SMS or push notification content, see <a href="../../designing/using/about-sms-and-push-content-design.md" target="_blank">About SMS and push content design</a>.</p> </li>
+  </ul>
+  <p>When creating an email or a landing page, you can choose to use a predefined template or to load an existing content from another source. See <a href="../../designing/using/selecting-an-existing-content.md" target="_blank">Selecting an existing content</a>.</p> 
+  <p>To increase the efficiency of your marketing campaigns, personalize your content. See <a href="../../designing/using/inserting-a-personalization-field.md" target="_blank">Inserting a personalization field</a> and <a href="../../designing/using/adding-a-content-block.md" target="_blank">Adding a content block</a>.</p> 
+  <p>You can also define dynamic content that varies depending on each profile. See <a href="../../designing/using/defining-dynamic-content-in-an-email.md" target="_blank">Defining dynamic content in an email</a> and <a href="../../designing/using/defining-dynamic-content-in-a-landing-page.md" target="_blank">Defining dynamic content in a landing page</a>.</p> 
+  <p>Enhance your messages and landing pages with links and images. See <a href="../../designing/using/inserting-a-link.md" target="_blank">Inserting a link</a> and <a href="../../designing/using/inserting-images.md" target="_blank">Inserting images</a>.</p> 
+  <p><strong>Related topics</strong>:</p> 
+  <ul>
+   <li><p> <a href="../../channels/using/creating-an-email.md">Creating an email</a></p> </li>
+   <li><p> <a href="../../channels/using/designing-a-landing-page.md">Designing a landing page</a></p> </li>
+   <li><p> <a href="../../channels/using/creating-an-sms-message.md">Creating an SMS message</a></p> </li>
+   <li><p> <a href="../../channels/using/preparing-and-sending-a-push-notification.md">Creating and sending a push notification</a></p> </li>
+  </ul>
+ </body>
+</html>

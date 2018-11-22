@@ -1,0 +1,94 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Organizational units" name="jcr:description" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Define your users' access levels using organizational units." name="seoDescription" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="audience:administration" name="primaryAudienceTag" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="4c2aeb1b-0f4b-4bfe-aaa6-0742dda480fe" name="jcr:uuid" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="36cb4085-74a5-4ed3-9e8d-57980382cac1" name="jcr:predecessors" />
+  <meta content="2018-11-20" name="publishExternalDate" />
+  <meta content="Organizational units" name="jcr:title" />
+  <meta content="Organizational units" name="navTitle" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-11-21T13:13:55.425-0500" name="jcr:created" />
+  <meta content="2018-11-20T11:55:41.555-0500" name="cq:lastModified" />
+  <meta content="2018-11-20T11:55:41.554-0500" name="locHandOffDate" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="light" name="heroGradient" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:administration;content_type:reference;topic_tags:users-e-security" name="cq:tags" />
+ </head>
+ <body>
+  <h2>About units</h2>
+  <p>Each object and user of the platform is linked to an organizational unit. This unit allows a hierarchical structure to be defined in order to give users a filtered view. A user's unit defines their access level for different platform objects. </p> 
+  <note>
+   <p> If a user is not linked to any unit, that user will not be able to connect to Adobe Campaign. If you would like to restrict access for a particular user or group of users, do not link it to the <strong>All</strong> unit. </p> 
+  </note>
+  <p>A user has read-only access to all of the objects in the parent units. He has read and write access to all objects of his unit and child units. A user does not have access to objects in parallel branches. </p> 
+  <p>By default, only the <strong>All</strong> units are available.</p> 
+  <p>When the user is assigned an organizational unit, this unit will always be applied to the objects the user created.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/user_management_2.png" title="" />
+  <note>
+   <p> When a user is in several groups linked to different units, certain rules are applied. For more information, refer to the <a href="../../administration/using/managing-groups-and-users.md" target="_blank">Managing groups and users</a> section. </p> 
+  </note>
+  <h2>Creating and managing units</h2>
+  <p>Organizational units allow you to filter your tenant depending on the organization your users are linked to. This unit can represent a region, country or even a brand in your instance.</p> 
+  <p>Here, we previously created security groups with different roles to two users: one user is assigned the security groups Administrators and Geometrixx, the other user belongs to the security groups Standard user and Geometrixx Clothes See <a href="../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users" target="_blank">Creating a security group and assigning users</a> for the full example.</p> 
+  <p>We now need to create the organizational units for the Geometrixx Clothes and Geometrixx security groups:</p> 
+  <ol>
+   <li><p>From Adobe campaign advanced menu, select <strong>Administration</strong> &gt; <strong>Users &amp; security</strong> &gt; <strong>Organizational units</strong>.</p> </li>
+   <li><p>Click <strong>Create </strong>to start configuring your organizational unit.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/manage_units_1.png" title="" /></li>
+   <li><p>Change the default <strong>Label</strong> and <strong>ID</strong> to Geometrixx.</p> </li>
+   <li><p>Then, link this unit to a parent unit. Here, we chose <strong>All</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/manage_units_2.png" title="" /></li>
+   <li><p>Finally, click <strong>Create</strong> to start assigning your new organizational unit to security group.</p> </li>
+   <li><p>Follow the same procedure for the Geometrixx Clothes unit, except that its parent unit has to be the previously created unit, Geometrixx.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/manage_units_3.png" title="" /></li>
+  </ol>
+  <p>To see the impact of assigning different units to different security group, the user assigned to the Administrator and Europe groups will create two email templates to see what the other user assigned to Standard User and France can or cannot access.</p> 
+  <ol>
+   <li><p>From the advanced menu, select <strong>Resources</strong> &gt; <strong>Templates</strong> &gt; <strong>Delivery Templates</strong>.</p> </li>
+   <li><p>Duplicate an existing template and personalize it as needed. For more on this, refer to the <a href="../../start/using/about-templates.md">About templates</a> section.</p> </li>
+   <li><p>When the template is created, select the <strong>Edit properties</strong> icon to assign units to your template.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/manage_units_6.png" title="" /></li>
+   <li><p>In the <strong>Access authorization</strong> drop down menu, select the organizational unit. </p> <p>Here we are going to create one template with the previously created organizational unit Geometrixx.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/manage_units_5.png" title="" /></li>
+   <li><p>Follow the same procedures to create the second template assigned to the previously created Geometrixx Clothes organizational unit.</p> </li>
+  </ol>
+  <p>The user assigned to the Standard User and Geometrixx Clothes groups will be able to see both templates. Because of the hierarchical structure of the organizational units, he will have read and write access to the template linked to the Geometrixx Clothes unit and only read-only access to the template linked to the Geometrixx unit.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/manage_units_7.png" title="" />
+  <p>Since the Geometrixx Clothes unit is a child unit of Geometrixx, the following message appears when the user tries to modify the Geometrixx template: </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/manage_units_8.png" title="" />
+  <p>Organizational units can restrict the access to different products such as profiles. For example, if our Geometrixx Clothes user access the <strong>Profiles</strong> tab, he will be able to fully access and modify the profiles with the Geometrixx Clothes organizational unit. </p> 
+  <p>Whereas the profiles with the Geometrixx organizational unit will be read only, the following error will appear if our user tries to modify one profile: <strong>You do not have the rights needed to modify the 'profile' resource of ID</strong>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/manage_units_10.png" title="" />
+  <h2>Partitioning profiles</h2>
+  <p>If your organization needs to isolate the profiles contacted by each of your different brands, you can partition your profiles by their organizational units.</p> 
+  <p>By default, the organizational unit fields are not available on your profiles and need to be added.</p> 
+  <p>Profiles with no organizational units cannot be accessed by users.</p> 
+  <note>
+   <p> We recommend adding this option before importing any profiles. If you have already imported your customer database, an update is necessary in order to set the organizational unit values on the already imported Profiles. </p> 
+  </note>
+  <ol>
+   <li><p>From the advanced menu, via the Adobe Campaign logo, select <strong>Administration &gt; Development &gt; Custom resources</strong>.</p> </li>
+   <li><p>Select <strong>Profile</strong> or create a new custom resource to extend the profiles.</p> </li>
+   <li><p>Check the <strong>Add access authorization management fields</strong> box to add the organizational units in the <strong>Profile</strong> extension.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/user_management_9.png" title="" /></li>
+   <li><p>Click <strong>Save</strong>.</p> </li>
+   <li><p>Update the structure by re-publishing the custom resources. For more information about the publication process, refer to <a href="../../developing/using/data-model-concepts.md">Updating the structure</a> section.</p> </li>
+  </ol>
+  <p>The organizational unit field is added to your profiles in the <strong>Access authorization</strong> section. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/user_management_10.png" title="" />
+  <p><strong>Related topics</strong>:</p> 
+  <ul>
+   <li><p> <a href="../../administration/using/organizational-units.md#about-units" target="_blank">About units</a></p> </li>
+   <li><p> <a href="../../administration/using/about-access-management.md" target="_blank">About access management</a></p> </li>
+  </ul>
+ </body>
+</html>

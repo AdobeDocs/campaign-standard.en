@@ -1,0 +1,198 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="8f028648-6770-4443-8b56-b2fcad4a4778" name="jcr:uuid" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Receiving alerts when failures happen" name="jcr:description" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Receiving alerts when failures happen" name="navTitle" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="audience:sending" name="primaryAudienceTag" />
+  <meta content="2018-11-20T11:56:50.504-0500" name="cq:lastModified" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:sending;content_type:reference;topic_tags:monitoring-messages" name="cq:tags" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-03-15T09:01:43.539-0400" name="jcr:created" />
+  <meta content="light" name="heroGradient" />
+  <meta content="Learn how to use the alert management system." name="seoDescription" />
+  <meta content="2018-11-20" name="publishExternalDate" />
+  <meta content="Receiving alerts when failures happen" name="jcr:title" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="6f101d5b-8aa0-44d8-83f7-21591fe75e20" name="jcr:predecessors" />
+  <meta content="2018-11-20T11:56:50.504-0500" name="locHandOffDate" />
+ </head>
+ <body>
+  <h2>About delivery alerting</h2>
+  <p>The <strong>Delivery alerting</strong> feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries.</p> 
+  <p>The notifications sent contain a report based by default on the following criteria:</p> 
+  <ul>
+   <li><p>Failed deliveries</p> </li>
+   <li><p>Deliveries with failed preparation</p> </li>
+   <li><p>Deliveries with a bad soft bounce error ratio</p> </li>
+   <li><p>Deliveries with a bad hard bounce error ratio</p> </li>
+   <li><p>Deliveries with a pending status longer than usual</p> </li>
+   <li><p>Deliveries with a low throughput</p> </li>
+   <li><p>Deliveries in progress</p> </li>
+  </ul>
+  <p>The recipients of the alerts can monitor the deliveries that are being processed by Adobe Campaign and take appropriate actions when there are issues in their execution.</p> 
+  <p>These alerting notifications can be customized depending on specific alerting criteria that are defined through a dashboard in the Adobe Campaign interface.</p> 
+  <note>
+   <p> The alerting notifications are delivered by email only. </p> 
+  </note>
+  <p>The notifications sent contain:</p> 
+  <ul>
+   <li><p>A <strong>Summary</strong> displaying the number of deliveries meeting the criteria that you defined and the label/color that you chose for each criterion.</p> </li>
+   <li><p>A <strong>Details</strong> section listing all of the delivery criteria defined for the corresponding dashboard and all of the deliveries for each criterion.</p> </li>
+  </ul>
+  <img alt="" captionBottom="" imageRotate="0" src="assets/delivery-alerting_notification.png" title="" />
+  <h2>Delivery alerting dashboards</h2>
+  <h3>About delivery alerting dashboards</h3>
+  <p>To manage the notifications' recipients, define the alerting criteria and access the history of the alerts, you need to use dashboards.</p> 
+  <note>
+   <p> To access and configure the dashboards and the alerting criteria, you must have administration rights or appear in the <strong>Delivery supervisors</strong> security group. Standard users cannot access the dashboards in the Adobe Campaign interface. They can only receive the alerting notifications. For more on users and security in Adobe Campaign, see <a href="../../administration/using/types-of-users.md">Types of users</a> and <a href="../../administration/using/managing-groups-and-users.md#about-security-groups">About security groups</a>. </p> 
+  </note>
+  <p>From the Adobe Campaign interface, you can:</p> 
+  <ul>
+   <li><p>Create and manage delivery alerting dashboards. See <a href="../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-dashboard" target="_blank">Creating a delivery alerting dashboard</a>.</p> </li>
+   <li><p>Define and manage delivery alerting criteria for each dashboard. For example, you can build alerts based on deliveries with failed preparation or deliveries with a low throughput only. See <a href="../../sending/using/receiving-alerts-when-failures-happen.md#about-alerting-criteria" target="_blank">About alerting criteria</a>.</p> </li>
+   <li><p>Modify the criteria parameters for each dashboard. See <a href="../../sending/using/receiving-alerts-when-failures-happen.md#criteria-parameters" target="_blank">Criteria parameters</a>.</p> </li>
+   <li><p>Define a group of recipients for each dashboard.</p> <p>For example, you want to inform the users with administration rights of the failed deliveries only. However, you want the marketing users to receive information on the deliveries with a soft bounce bad error ratio. Therefore, you need to create two different dashboards and define the criteria that you want for each group of recipients.</p> </li>
+   <li><p>Access the history of all sent alerts for each dashboard.</p> <p>When selecting a dashboard, the last sent alert for this dashboard is displayed by default. All sent alerts are listed on the left of the screen. Click an item in the <strong>History</strong> list to access the corresponding alerts.</p> </li>
+  </ul>
+  <img alt="" captionBottom="" imageRotate="0" src="assets/delivery-alerting_dashboard.png" title="" />
+  <h3>Creating a delivery alerting dashboard</h3>
+  <p>If you want to send notifications based on specific criteria to different groups of users, you need to use several dashboards. To create a new dashboard:</p> 
+  <ol>
+   <li><p>Go to <strong>Administration</strong> &gt; <strong>Channels</strong> &gt; <strong>Delivery alerting</strong>.</p> </li>
+   <li><p>Select <strong>Delivery alerting dashboards</strong> and click <strong>Create</strong>.</p> </li>
+   <li><p>Check the <strong>Enabled</strong> box to activate the current dashboard.</p> <p>If this option is disabled, notifications linked to this dashboard are no longer sent. This option is disabled by default.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/delivery-alerting_dashboard_general.png" title="" /></li>
+   <li><p>Select the group of recipients that you want to notify from the <strong>Alert group</strong> drop-down list. To modify or create a group, see <a href="../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users">Creating a security group and assigning users</a>.</p> </li>
+   <li><p>From the <strong>Delivery alerting criteria</strong> section, click <strong>Create element</strong> to add criteria. See <a href="../../sending/using/receiving-alerts-when-failures-happen.md#about-alerting-criteria" target="_blank">About alerting criteria</a>.</p> </li>
+   <li><p>Select the <strong>Edit properties</strong> button. In the <strong>Criteria parameters</strong> tab, define how the criteria will be applied. See <a href="../../sending/using/receiving-alerts-when-failures-happen.md#criteria-parameters" target="_blank">Criteria parameters</a>.</p> </li>
+   <li><p>Click <strong>Create</strong> to save the dashboard.</p> </li>
+  </ol>
+  <p>Now each time a delivery meets the criteria that you defined in this dashboard, an alerting notification will be sent to the specified group of users.</p> 
+  <h2>Delivery alerting criteria</h2>
+  <h3>About alerting criteria</h3>
+  <p>To access the delivery alerting criteria, go to <strong>Administration</strong> &gt; <strong>Channels</strong> &gt; <strong>Delivery alerting</strong> and select <strong>Delivery alerting criteria</strong>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/delivery-alerting_criteria.png" title="" />
+  <p>The following criteria can be used in the delivery alerting dashboards:</p> 
+  <ul>
+   <li><p><strong>Deliveries failed</strong>: Any delivery scheduled within a defined range, with an erroneous status.</p> </li>
+   <li><p><strong>Deliveries with preparation failed</strong>: Any delivery modified within a defined range, for which the preparation step (target calculation and content generation) has failed. For more on this, see <a href="../../sending/using/preparing-the-send.md">Preparing the send</a>.</p> </li>
+   <li><p><strong>Delivery with bad error ratio for soft bounces</strong>: Any delivery scheduled within a defined range, with a status at least <strong>In progress</strong>, with a soft bounce error ratio greater than a defined percentage.</p> </li>
+   <li><p><strong>Delivery with bad error ratio for hard bounces</strong>: Any delivery scheduled within a defined range, with a status at least <strong>In progress</strong>, with a hard bounce error ratio greater than a defined percentage.</p> </li>
+   <li><p><strong>Deliveries with long start pending</strong>: Any delivery scheduled within a defined range, with a <strong>Start pending</strong> status for longer than a defined duration, <strong>Start pending</strong> status meaning that the messages have not been taken into account by the system yet.</p> </li>
+   <li><p><strong>Deliveries with low throughput</strong>: Any delivery started for longer than a defined duration, with less than a defined percentage of processed messages, with a throughput lower than a defined value.</p> </li>
+   <li><p><strong>Deliveries in progress</strong>: Any delivery scheduled within a defined range, with the <strong>In progress</strong> status.</p> </li>
+  </ul>
+  <note>
+   <p> All the parameters applying to the above criteria have defaults values. These values can be changed in the <strong>Criteria parameters</strong> tab of the delivery alerting dashboards. See <a href="../../sending/using/receiving-alerts-when-failures-happen.md#criteria-parameters" target="_blank">Criteria parameters</a>. </p> 
+  </note>
+  <p>You can select any item from the <strong>Delivery alerting criteria</strong> list to access its details.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/delivery-alerting_criteria_definition.png" title="" />
+  <p>For each criterion, you can define the following settings:</p> 
+  <ul>
+   <li><p><strong>Indicators to add in alerts</strong>, meaning the columns that will appear in the notification's <strong>Details</strong> section for the deliveries corresponding to the selected criterion.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/delivery-alerting_notification_colums.png" title="" /></li>
+   <li><p><strong>Alert type</strong>, meaning the label and the color that will appear next to the delivery criterion in the notification's summary.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/delivery-alerting_notification_labels.png" title="" /></li>
+   <li><p><strong>Criteria frequency</strong>: If a criterion is met for one delivery, it is repeated in each notification sent within the monitoring period. Otherwise, only one alert will be sent a day (on the first occurrence) by alert criterion for one delivery.</p> <p>By default, this option is set to once a day for all criteria.</p> </li>
+  </ul>
+  <p><strong>Related topics:</strong></p> 
+  <ul>
+   <li><p> <a href="../../sending/using/monitoring-a-delivery.md#sending-logs">Sending logs</a></p> </li>
+   <li><p> <a href="../../sending/using/receiving-alerts-when-failures-happen.md#alerting-frequency" target="_blank">Alerting frequency</a></p> </li>
+   <li><p> <a href="../../start/using/marketing-activities.md#marketing-activity-icons-and-statuses">Marketing activity icons and statuses</a></p> </li>
+  </ul>
+  <h3>Creating a delivery alerting criterion</h3>
+  <p>You can create new delivery alerting criteria to better suit your needs.</p> 
+  <p>For example, you can create a new criterion enabling to send a notification listing all deliveries with a <strong>Finished</strong> status.</p> 
+  <p>To do this, you first need to extend the <strong>Delivery</strong> resource and add a new filter allowing you to select only the deliveries with a <strong>Finished</strong> status.</p> 
+  <ol>
+   <li><p>Go to <strong>Adobe Campaign</strong> &gt; <strong>Administration</strong> &gt; <strong>Development</strong> &gt; <strong>Custom resources</strong> and click <strong>Create</strong>.</p> </li>
+   <li><p>Select <strong>Extend an existing resource</strong>, select the <strong>Delivery</strong> resource from the drop-down list and click <strong>Create</strong> to edit it.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/delivery-alerting_extend-delivery-cus.png" title="" /><p>For more on extending an existing resource, see <a href="../../developing/using/step-1--define-the-resource.md">Define the resource</a>.</p> </li>
+   <li><p>In the <strong>Delivery</strong> resource, go to the <strong>Filter definition</strong> tab and click <strong>Add an element</strong> to create a filter.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/delivery-alerting_new-filter.png" title="" /></li>
+   <li><p>Edit the new filter definition: in the <strong>Filter definition</strong> window, drag and drop the <strong>Status</strong> item into the workspace and select <strong>Finished</strong> as the filter condition.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/delivery-alerting_filter-status.png" title="" /><p>For more on creating and editing custom filters, see <a href="../../developing/using/step-4--define-filters.md">Define filters</a>.</p> </li>
+   <li><p>Save your changes and publish your resources. For more on this, see <a href="../../developing/using/step-5--update-the-database-structure.md#publishing-a-custom-resource">Publishing a custom resource</a>.</p> <p>The filter is created and can now be selected in a new delivery alerting criterion.</p> </li>
+   <li><p>Go to <strong>Administration</strong> &gt; <strong>Channels</strong> &gt; <strong>Delivery alerting</strong>, select <strong>Delivery alerting criteria</strong> and click <strong>Create</strong>.</p> </li>
+   <li><p>In the <strong>Delivery filter applied by this criterion</strong> drop-down list, select the filter that you just created.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/delivery-alerting_cus-filter.png" title="" /><p>You can define your criterion's settings the same way as for the default criteria. See <a href="../../sending/using/receiving-alerts-when-failures-happen.md#about-alerting-criteria" target="_blank">About alerting criteria</a>.</p> </li>
+  </ol>
+  <p>Once created, these criteria can be added to a delivery alerting dashboard as well as other criteria. See <a href="../../sending/using/receiving-alerts-when-failures-happen.md#about-delivery-alerting-dashboards" target="_blank">About delivery alerting dashboards</a>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/delivery-alerting_new-criterion.png" title="" />
+  <p><strong>Related topic:</strong></p> 
+  <p> <a href="../../developing/using/key-steps.md">Adding or extending a resource</a></p> 
+  <h2>Delivery alerting parameters</h2>
+  <h3>Criteria parameters</h3>
+  <p>In the <strong>Criteria parameters</strong> tab of a <a href="../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-dashboard">delivery alerting dashboard</a>, you can define the settings that apply to the criteria selected in this dashboard.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/delivery-alerting_dashboard_criteria-parameters.png" title="" />
+  <ul>
+   <li><p><strong>Delivery target minimum size</strong>: For example, if you enter 100 in this field, a notification is sent only for deliveries with a target equal to or greater than 100 recipients. This parameter applies to all criteria.</p> </li>
+   <li><p><strong>Monitoring period before and after the contact date (in hours)</strong>: Number of hours before and after the current time. Only the deliveries having a contact date in this time range are taken into account. This parameter applies to all criteria. By default, the value of this field is set to 24 hours.</p> <p>For more information on the contact date, see <a href="../../sending/using/about-scheduling-messages.md">About the scheduling</a>.</p> </li>
+   <li><p><strong>Maximum ratio of soft bounce errors</strong>: A notification is sent for all deliveries with a soft bounce error ratio greater than the specified value. By default, the value of this field is set to 0.05 (5%).</p> <p>For more on soft bounce errors, see <a href="../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification" target="_blank">Bounce mail qualification</a> and <a href="../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons">List of delivery failure types</a>.</p> </li>
+   <li><p><strong>Maximum ratio of hard bounce errors</strong>: A notification is sent for all deliveries with a hard bounce error ratio greater than the specified value. By default, the value of this field is set to 0.05 (5%).</p> <p>For more on hard bounce errors, see <a href="../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification" target="_blank">Bounce mail qualification</a> and <a href="../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons">List of delivery failure types</a>.</p> </li>
+   <li><p><strong>Minimum time threshold for delivery in 'Start pending' status (in minutes)</strong>: A notification is sent for all deliveries with a <strong>Start pending</strong> status for longer than the duration specified in this field, <strong>Start pending</strong> status meaning that the messages have not been taken into account by the system yet.</p> </li>
+   <li><p><strong>Minimum time required for the computation of the throughput (in minutes)</strong>: Only deliveries started (with <strong>In progress</strong> status) for more than the specified duration are taken into account for the <strong>Deliveries with low throughput</strong> criterion.</p> </li>
+   <li><p><strong>Maximum percentage of processed messages for the computation of the throughput</strong>: Only deliveries with a percentage of processed messages lower than the specified percentage are taken into account for the <strong>Deliveries with low throughput</strong> criterion.</p> </li>
+   <li><p><strong>Minimum expected throughput (in sent messages per hour)</strong>: Only deliveries with a throughput lower than the specified value are taken into account for the <strong>Deliveries with low throughput</strong> criterion.</p> </li>
+   <li><p><strong>Minimum processed ratio required for 'Deliveries in progress' criterion</strong>: Only deliveries with a percentage of processed messages higher than the specified percentage are taken into account.</p> </li>
+  </ul>
+  <h3>Alerting frequency</h3>
+  <p>The <strong>Frequency of delivery alerting</strong> option allows to define the delay between two alert sendings. By default, it is set to 10 minutes.</p> 
+  <p>You can change this setting through the <strong>Administration</strong> &gt; <strong>Application settings</strong> &gt; <strong>Options</strong> menu.</p> 
+  <note>
+   <p> This option applies to all dashboards defined in Adobe Campaign. You cannot set a specific frequency for each dashboard. </p> 
+  </note>
+  <h2>Delivery alerting reasons</h2>
+  <p>The <strong>Delivery alerting</strong> feature keeps all of your involved Adobe Campaign users automatically informed about the delivery execution status, via email and dashboard.</p> 
+  <p>Now when you receive a delivery alerting notification, here are a few tips on what you can do.</p> 
+  <p>First of all, check the delivery's <strong>Log</strong> tab to view all information relating to the delivery and proofs. The red and yellow icons allow you to identify errors or warnings. The red icon indicates a critical error that prevents the delivery from being started.</p> 
+  <p>To view the history of every occurrence of a delivery, select the <strong>Sending logs</strong> tab. It contains the list of sent messages and their statuses. There you can check the delivery status for each recipient (<strong>Sent</strong>, <strong>Pending</strong>, <strong>Failed</strong>, etc.). For more on this, see <a href="../../sending/using/monitoring-a-delivery.md#sending-logs" target="_blank">Sending logs</a>.</p> 
+  <p>Here are a few possible reasons for receiving alerting notifications according to the criteria that are met for a delivery.</p> 
+  <ul>
+   <li><p><strong>Deliveries failed</strong>: This criterion informs you of all deliveries with an erroneous status. It can be due to:</p> 
+    <ul>
+     <li><p>A problem with the delivery server (MTA, Message Transfer Agent)</p> </li>
+     <li><p>A connection time-out between the Adobe Campaign delivery server and the receiving server</p> </li>
+     <li><p>A deliverability issue</p> </li>
+     <li><p>An erroneous workflow</p> </li>
+    </ul><p>If the delivery is triggered with a workflow, check if that workflow was correctly started. For more on this, see <a href="../../automating/using/executing-a-workflow.md">Executing a workflow</a>. Otherwise, get in touch with your Adobe Campaign administrator to solve the issue.</p> </li>
+   <li><p><strong>Deliveries with preparation failed</strong>: An error can occur during delivery preparation in the following cases:</p> 
+    <ul>
+     <li><p>The delivery is missing a subject.</p> </li>
+     <li><p>There is a wrong syntax in the personalization fields.</p> </li>
+     <li><p>The target is missing.</p> </li>
+     <li><p>The delivery exceeds the size limit.</p> </li>
+    </ul><p>For more on this, see <a href="../../sending/using/preparing-the-send.md">Preparing the send</a>. However, these errors are generally spotted during the message analysis. See <a href="../../administration/using/control-rules.md">Control rules</a>.</p> </li>
+   <li><p>The possible causes for a <strong>Delivery with bad error ratio for soft bounces</strong> alert can be: </p> 
+    <ul>
+     <li><p>The recipient's server is down.</p> </li>
+     <li><p>The recipient's mailbox is full.</p> </li>
+    </ul><p>For more information, check the <strong>Exclusion logs</strong> and <strong>Exclusion causes</strong> tabs of the delivery logs. See <a href="../../sending/using/monitoring-a-delivery.md#exclusion-logs" target="_blank">Exclusion logs</a>.</p> <p>The possible causes for a <strong>Delivery with bad error ratio for hard bounces</strong> alert can be:</p> 
+    <ul>
+     <li><p>The recipient is blacklisted, meaning that they no longer want to be contacted.</p> </li>
+     <li><p>The recipient's email address does not exist.</p> </li>
+     <li><p>The recipient's domain does not exist.</p> </li>
+     <li><p>The recipient's server is blocking the delivery.</p> </li>
+    </ul><p>To avoid soft and hard bounce errors, follow the best practices below:</p> 
+    <ul>
+     <li><p>Build filtering typology rules to exclude one part of the message target during the delivery analysis, such as quarantined recipients. See <a href="../../administration/using/filtering-rules.md">Creating a filtering rule</a>.</p> </li>
+     <li><p>Regularly update your customer database to maintain good quarantine management processes. See <a href="../../sending/using/understanding-quarantine-management.md#about-quarantines" target="_blank">About quarantines</a>.</p> </li>
+     <li><p>Generally speaking, improve deliverability the best as you can. See the Adobe Campaign v7 <a href="http://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html">Managing deliverability</a> detailed guide and contact your Adobe Campaign administrator for assistance.</p> </li>
+    </ul></li>
+   <li><p><strong>Deliveries with long start pending</strong>: Usually this means that there is a problem at the MTA's (Message Transfer Agent) level. The execution process is waiting on the availability of some resources. The MTA may have not been started.</p> <p><strong>Deliveries with low throughput</strong>: Again, this is a deliverability issue meaning that the MTA is too slow.</p> <p>For more on these issues, get in touch with your Adobe Campaign administrator.</p> </li>
+  </ul>
+  <p><strong>Related topics:</strong></p> 
+  <ul>
+   <li><p> <a href="../../sending/using/understanding-delivery-failures.md" target="_blank">Understanding delivery failures</a></p> </li>
+   <li><p> <a href="../../sending/using/understanding-quarantine-management.md" target="_blank">Understanding quarantine management</a></p> </li>
+   <li><p> <a href="../../audiences/using/about-opt-in-and-opt-out-in-campaign.md">Managing blacklisting in Campaign</a></p> </li>
+  </ul>
+ </body>
+</html>

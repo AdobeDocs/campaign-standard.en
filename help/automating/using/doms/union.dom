@@ -1,0 +1,61 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="2018-11-20T11:56:21.274-0500" name="locHandOffDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:targeting-activities" name="cq:tags" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2018-11-20T11:56:21.274-0500" name="cq:lastModified" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="audience:automating" name="primaryAudienceTag" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="Union" name="jcr:description" />
+  <meta content="c24399b8-0e76-4ee4-ab5b-659fb1b05642" name="jcr:uuid" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-11-20" name="publishExternalDate" />
+  <meta content="Union" name="jcr:title" />
+  <meta content="The Union activity allows you to regroup the result of multiple activities into a single target." name="seoDescription" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-03-15T09:02:12.356-0400" name="jcr:created" />
+  <meta content="f4f0bf33-f2b1-471b-bc1d-c1fa3435c39e" name="jcr:predecessors" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Union" name="navTitle" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+ </head>
+ <body>
+  <h2>Description</h2>
+  <img alt="" captionBottom="" imageRotate="0" src="assets/union.png" title="" />
+  <p>The <strong>Union</strong> activity allows you to regroup the result of multiple activities into a single target.</p> 
+  <note>
+   <p> The sets do not necessarily need to be homogeneous. </p> 
+  </note>
+  <h2>Context of use</h2>
+  <p>The <strong>Union</strong> activity is used to combine the populations from inbound transitions when performing a segmentation, defining an audience, or when preparing the message target for example.</p> 
+  <h2>Configuration</h2>
+  <ol>
+   <li><p>Drag and drop a <strong>Union</strong> activity into your workflow.</p> </li>
+   <li><p>Connect it to the other activities that come before it, such as queries.</p> </li>
+   <li><p>Select the activity, then open it using the <img height="21px" src="assets/edit_darkgrey-24px.png" /> button from the quick actions that appear.</p> </li>
+   <li><p>Select the <strong>Reconciliation type</strong> to define how duplicates are from the confrontation between inbound populations are handled:</p> 
+    <ul>
+     <li><p><strong>Keys only</strong>: this is the default mode. The activity only keeps one element when elements from the different inbound transitions have the same key. This option can only be used if the inbound populations are homogeneous.</p> </li>
+     <li><p><strong>All shared columns</strong>: The data is reconciled on the basis of all the columns in common with the inbound transitions. Therefore, you have to select the primary set that will be kept in case of a duplicate. This option can be used if the inbound population targeting dimensions are different.</p> </li>
+     <li><p><strong>A selection of columns</strong>: select this option to define the list of columns on which the data reconciliation will be applied. You must first select the primary set (that which contains the source data), then the columns to use for the join.</p> </li>
+    </ul></li>
+   <li><p>Check the <strong>Use common additional data only</strong> box if you would like to keep only the additional data that is in all inbound transitions.</p> </li>
+   <li><p>If you would like to limit the size of the final population, check the <strong>Limit size of generated population</strong> box. The size can be specified in the <strong>Maximum number of records</strong> field.</p> </li>
+   <li><p>If needed, manage the activity's <a href="../../automating/using/executing-a-workflow.md#managing-an-activity-s-outbound-transitions">Transitions</a> to access the advanced options for the calculated population.</p> </li>
+   <li><p>Confirm the configuration of your activity and save your workflow.</p> </li>
+  </ol>
+  <h2>Example</h2>
+  <p>The following example shows the result of two query activities that aim to regroup profiles from the Adobe Campaign database who are between 18 and 27 years old and those who are between 34 and 40 years old. The result contains all the profiles of the two queries or the maximum number of records, if applicable, as specified during the configuration.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/wkf_union_example.png" title="" />
+ </body>
+</html>

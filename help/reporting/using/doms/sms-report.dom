@@ -1,0 +1,42 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-03-15T09:01:53.095-0400" name="jcr:created" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-11-20T11:56:01.725-0500" name="locHandOffDate" />
+  <meta content="SMS report" name="jcr:title" />
+  <meta content="a7442e9c-8c5d-4e9d-b0b3-b43087c11522" name="jcr:predecessors" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="f8bc6ea7-a31f-41e7-874b-b73ca2a195b3" name="jcr:uuid" />
+  <meta content="audience:reporting" name="primaryAudienceTag" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-11-20T11:56:01.725-0500" name="cq:lastModified" />
+  <meta content="With the SMS out-of-the-box report, learn about the success of your SMS deliveries. " name="seoDescription" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="light" name="heroGradient" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="SMS report" name="jcr:description" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:reporting;content_type:reference;topic_tags:list-of-reports" name="cq:tags" />
+  <meta content="SMS report" name="navTitle" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-11-20" name="publishExternalDate" />
+ </head>
+ <body>
+  <p>The <strong>SMS </strong>report provides details about SMS deliveries, such as delivered and bounce rates.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/dynamic_report_sms.png" title="" />
+  <p>The <strong>SMS summary</strong> table, graphs and summary numbers contain available data for SMS deliveries that have been sent.</p> 
+  <ul>
+   <li><p><strong>Sent</strong>: The number of SMS sent.</p> </li>
+   <li><p><strong>Delivered</strong>: The number of SMS delivered.</p> </li>
+   <li><p><strong>Bounces + Errors</strong>: The number of messages that could not be delivered.</p> </li>
+  </ul>
+ </body>
+</html>

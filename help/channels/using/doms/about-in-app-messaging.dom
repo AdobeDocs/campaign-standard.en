@@ -1,0 +1,44 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="af2f40bf-0df5-436f-b76b-b5e8904fe852" name="jcr:uuid" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="About In-App messaging" name="navTitle" />
+  <meta content="2018-11-06T09:43:16.483-0500" name="jcr:created" />
+  <meta content="light" name="heroGradient" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="About In-App messaging" name="jcr:title" />
+  <meta content="2018-11-20" name="publishExternalDate" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-11-20T11:56:57.792-0500" name="cq:lastModified" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="About In-App messaging" name="jcr:description" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Display message or alert within the mobile application with In-App messaging." name="seoDescription" />
+  <meta content="audience:channels" name="primaryAudienceTag" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-11-20T11:56:57.791-0500" name="locHandOffDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:channels;content_type:reference;topic_tags:in-app-messaging" name="cq:tags" />
+  <meta content="79f299fe-ef3d-4b17-acfb-d5904e4e04c1" name="jcr:predecessors" />
+ </head>
+ <body>
+  <note>
+   <p> This feature is optional and currently a Beta feature which can be subject to future changes. Please check your license agreement and contact your account executive to activate it. In-App Messaging enables Campaign Customers to serve personalized messages to enhance a user’s In-App experience. Adobe’s Mobile SDK utilizes Marketing Cloud IDs to retrieve data for from Adobe Servers for personalization which may include personal information as directed by Customer. Customer is responsible for securing the mobile application where In-App messaging will be used and to prevent any unauthorized access of user’s data by a third party. </p> 
+  </note>
+  <p>In-App messaging allows you to display a message when the user is active within the mobile application. This message type is complimentary to push notifications which are delivered to the notification center of users' phone. For more information on the push notification channel, refer to this <a href="../../channels/using/about-push-notifications.md">section</a>.</p> 
+  <p>Three types of In-App message are available in Adobe Campaign:</p> 
+  <ul>
+   <li><p><strong>Target users based on their Campaign profile (inAppProfile)</strong>: This message type enables you to target Adobe Campaign profiles(CRM profiles) who have subscribed to your mobile application and to personalize In-App messages with all available profile attributes in Campaign.</p> </li>
+   <li><p><strong>Target all users of a Mobile app (inAppBroadcast)</strong>: This message type enables you to send messages to all users of your mobile application even if they don't have an existing profile in Campaign.</p> </li>
+   <li><p><strong>Target users based on their Mobile profile (inApp)</strong>: This message type enables you to target all known or anonymous users of a mobile app that have a mobile profile in Campaign and to personalize In-App messages with any profile attributes that have been obtained from mobile device.</p> </li>
+  </ul>
+ </body>
+</html>

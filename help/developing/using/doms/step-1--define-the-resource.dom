@@ -1,0 +1,45 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="en_us" name="jcr:language" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-11-20T11:55:41.367-0500" name="cq:lastModified" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="2018-03-15T09:02:18.424-0400" name="jcr:created" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:developing;content_type:reference;topic_tags:adding-or-extending-a-resource" name="cq:tags" />
+  <meta content="2018-11-20T11:55:41.366-0500" name="locHandOffDate" />
+  <meta content="2018-11-20" name="publishExternalDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Step 1: Define the resource" name="navTitle" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Step 1: Define the resource" name="jcr:title" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="0c14b115-a74e-4285-b2b2-bf824f8806e6" name="jcr:predecessors" />
+  <meta content="Discover how to define a resource from scratch." name="seoDescription" />
+  <meta content="light" name="heroGradient" />
+  <meta content="audience:developing" name="primaryAudienceTag" />
+  <meta content="Step 1: Define the resource" name="jcr:description" />
+  <meta content="8f52dc0a-0f09-48b6-a55c-5f99626ccb37" name="jcr:uuid" />
+ </head>
+ <body>
+  <p>Administrators can create a new resource from scratch or create an extension of an existing resource if you need work on data that are not part of the out-of-the-box data model.</p> 
+  <ol>
+   <li><p>From <strong>Administration</strong> &gt; <strong>Development</strong> &gt; <strong>Custom Resources</strong>, click the <strong>Create</strong> button.</p> </li>
+   <li><p>Choose the action you want to perform:</p> 
+    <ul>
+     <li><p><strong>Create a new resource</strong>: Enter the <strong>Label</strong> and <strong>ID</strong> fields. The <strong>ID</strong> field is mandatory. If you leave the Label field empty, it will automatically be completed from the ID.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/schema_extension_2.png" title="" /></li>
+     <li><p><strong>Extend an existing resource</strong>: Select the resource you want to extend.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/schema_extension_10.png" title="" /></li>
+    </ul></li>
+   <li><p>Click <strong>Create</strong> to create the resource, which will then take on the <strong>Draft</strong> status in case of new resource or the <strong>Editing</strong> status in case of extension.</p> </li>
+  </ol>
+  <p>The new resource is created and can now be configured.</p> 
+ </body>
+</html>

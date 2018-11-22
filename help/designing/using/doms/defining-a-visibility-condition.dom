@@ -1,0 +1,43 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="jcr:primaryType" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="607dd793-1db5-4c3a-b23a-bfbbaecbc699" name="jcr:predecessors" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="2018-11-20T11:56:41.154-0500" name="locHandOffDate" />
+  <meta content="light" name="heroGradient" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="Defining a visibility condition" name="jcr:description" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-03-15T09:01:47.878-0400" name="jcr:created" />
+  <meta content="Make a web page element visible only if a certain condition is respected." name="seoDescription" />
+  <meta content="Defining a visibility condition" name="navTitle" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="audience:designing" name="primaryAudienceTag" />
+  <meta content="755af516-045e-4fa9-9856-bc6e1262ce91" name="jcr:uuid" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:defining-conditional-content" name="cq:tags" />
+  <meta content="2018-11-20T11:56:41.154-0500" name="cq:lastModified" />
+  <meta content="2018-11-20" name="publishExternalDate" />
+  <meta content="Defining a visibility condition" name="jcr:title" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+ </head>
+ <body>
+  <p>You can specify a visibility condition on any element. It will only be visible if the condition is respected.</p> 
+  <p>To add a visibility condition, select a block and enter the condition to be respected in the <strong>Visibility condition</strong> field of its settings.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/delivery_content_5.png" title="" />
+  <p>This option is only available for the following elements: ADDRESS, BLOCKQUOTE, CENTER, DIR, DIV, DL, FIELDSET, FORM, H1, H2, H3, H4, H5, H6, NOSCRIPT, OL, P, PRE, UL, TR, TD.</p> 
+  <p>The expression editor is presented in the <a href="../../automating/using/editing-queries.md#about-query-editor">Advanced expression editing</a> section.</p> 
+  <p>These conditions adopt the XTK expression syntax (e.g. <strong>context.profile.email !=''</strong> or <strong>context.profile.status='0'</strong>). By default, all fields are visible.</p> 
+  <note>
+   <p> A condition cannot be defined for a block that already contains a sub-element with a dynamic content or a block that already makes up a dynamic content. Non-visible dynamic blocks like drop-down lists cannot be edited. </p> 
+  </note>
+ </body>
+</html>

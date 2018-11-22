@@ -1,0 +1,44 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="47c9fc4a-4dcb-42ba-9551-c621a98bc098" name="jcr:uuid" />
+  <meta content="Discovering workflows" name="jcr:description" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-11-20T11:55:37.686-0500" name="cq:lastModified" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:about-workflows-and-data-management" name="cq:tags" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Adobe Campaign offers a comprehensive graphical environment that allows you to design and automate processes." name="seoDescription" />
+  <meta content="2018-11-20T11:55:37.686-0500" name="locHandOffDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Discovering workflows" name="jcr:title" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="2018-03-15T09:02:21.011-0400" name="jcr:created" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Discovering workflows" name="navTitle" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-11-20" name="publishExternalDate" />
+  <meta content="8aab51a3-8d13-49a2-81d4-24dd277e9ceb" name="jcr:predecessors" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="audience:automating" name="primaryAudienceTag" />
+  <meta content="light" name="heroGradient" />
+ </head>
+ <body>
+  <p>Adobe Campaign offers a comprehensive <a href="../../automating/using/workflow-interface.md">graphical environment</a> that allows you to design <a href="../../automating/using/workflow-operating-principles.md">complex processes</a> including segmentation, campaign execution, file processing, approvals, etc. Principles and best practices are described in <a href="../../automating/using/building-a-workflow.md">this section</a>.</p> 
+  <p>For example, you can use a workflow to download a file from a server, decompress it, and then import its records into the Adobe Campaign database.</p> 
+  <p>A workflow can also involve users by assigning them tasks or having them approve performed tasks. This means you can assign a task to one or several users to work on content or specify targets, and approve proofs before sending the message.</p> 
+  <p>Workflows can be used in <strong>different contexts</strong>, as for example:</p> 
+  <ul>
+   <li><p>Targeting to manage audiences or send messages. For more on this, refer to <a href="../../automating/using/about-channel-activities.md">Channel activities</a> and <a href="../../automating/using/about-targeting-activities.md">Targeting activities</a>.</p> </li>
+   <li><p>Importing data into the database. For more on this, refer to <a href="../../automating/using/about-data-import-and-export.md">Importing and exporting data</a>.</p> </li>
+   <li><p>Technical processes: database cleanup, recovering tracking information, etc. Learn more about technical workflows in <a href="../../administration/using/technical-workflows.md">this section</a>.</p> </li>
+   <li><p>Data management (ETL): data manipulation. For more on this, refer to <a href="../../automating/using/about-data-management-activities.md">Data management activities</a>.</p> </li>
+  </ul>
+ </body>
+</html>

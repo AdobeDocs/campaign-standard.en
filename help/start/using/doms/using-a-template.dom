@@ -1,0 +1,42 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="Discover a simple step-by-step procedure to use an existing template." name="seoDescription" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2018-11-20T11:56:12.414-0500" name="locHandOffDate" />
+  <meta content="light" name="heroGradient" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="319f020f-e23a-4796-9604-37fbdb0ce924" name="jcr:predecessors" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Using a template" name="jcr:description" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="audience:start" name="primaryAudienceTag" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="Using a template" name="navTitle" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="2018-11-20T11:56:12.415-0500" name="cq:lastModified" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:start;content_type:reference;topic_tags:managing-templates" name="cq:tags" />
+  <meta content="2018-03-15T09:02:15.425-0400" name="jcr:created" />
+  <meta content="bcdb78b0-c67d-45ac-96f0-a9c1bec8436a" name="jcr:uuid" />
+  <meta content="2018-11-20" name="publishExternalDate" />
+  <meta content="Using a template" name="jcr:title" />
+ </head>
+ <body>
+  <p>We are now going to look into how to use the email template created in the earlier section.</p> 
+  <note>
+   <p> Creating a marketing activity based on a template is generally carried out by a standard user type profile. </p> 
+  </note>
+  <ol>
+   <li><p>Create a new marketing activity.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/template_5.png" title="" /></li>
+   <li><p>In the first screen in the wizard, select the template that you would like to use.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/template_6.png" title="" /><p>The marketing activity is pre-configured with the parameters defined in the template.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/template_7.png" title="" /></li>
+  </ol>
+ </body>
+</html>

@@ -1,0 +1,104 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="Customizing an In-App message" name="jcr:title" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Learn how to customize your In-App messages with various options." name="seoDescription" />
+  <meta content="2018-11-20" name="publishExternalDate" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-11-20T11:57:02.672-0500" name="cq:lastModified" />
+  <meta content="a3d9d695-9e1a-4878-bf1f-0e417893540b" name="jcr:uuid" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:channels;content_type:reference;topic_tags:in-app-messaging" name="cq:tags" />
+  <meta content="Customizing an In-App message" name="navTitle" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-11-06T09:43:16.975-0500" name="jcr:created" />
+  <meta content="e1a47eac-7b0f-4b14-a385-e00bc62a1a23" name="jcr:predecessors" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="audience:channels" name="primaryAudienceTag" />
+  <meta content="2018-11-20T11:57:02.672-0500" name="locHandOffDate" />
+  <meta content="Customizing an In-App message" name="jcr:description" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="light" name="heroGradient" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+ </head>
+ <body>
+  <p>To fine-tune your In-App message, Adobe Campaign allows you to access a set of advanced options while designing an In-App.</p> 
+  <p>The In-App content editor lets you choose between two In-app message modes:</p> 
+  <ul>
+   <li><p> <a href="../../channels/using/customizing-an-in-app-message.md#customizing-with-a-message-template">Message Template</a>: this template allows you to fully customize your In-App with images or videos and action buttons.</p> </li>
+   <li><p> <a href="../../channels/using/customizing-an-in-app-message.md#customizing-with-a-custom-html-message">Custom Message</a>: this template lets you import custom HTML.</p> </li>
+  </ul>
+  <img alt="" captionBottom="" imageRotate="0" src="assets/inapp_customize_1.png" title="" />
+  <h2>Customizing with a message template</h2>
+  <h3>Layout</h3>
+  <p>The <strong>Layout</strong> drop-down provides you with four different options to choose from depending on your messaging needs:</p> 
+  <ul>
+   <li><p><strong>Full page</strong>: This type of layout covers the entire screen of your audience devices. </p> <p>It supports media (image, video), text and button components.</p> </li>
+   <li><p><strong>Large modal</strong>: This layout appears in a large alert-style window, your application is still visible in the background. </p> <p>It supports media (image, video), text and button components.</p> </li>
+   <li><p><strong>Small modal</strong>: This layout appears as a small alert type window, your application is still visible in the background. </p> <p>It supports media (image, video), text and button components.</p> </li>
+   <li><p><strong>Alert</strong>: This type of layout appears as a native OS alert message.</p> <p>It can only support text and button components.</p> </li>
+  </ul>
+  <p>Each type of layouts can be previewed on different devices such as phone, tablet, platform e.g. Android or iOS and orientation e.g. landscape or portrait in the right-window of the content editor.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/inapp_customize_4.png" title="" />
+  <h3>Media</h3>
+  <p>The <strong>Media</strong> drop-down allows you to add media to your In-App message to create a compelling experience for end user.</p> 
+  <ol>
+   <li><p>Select your <strong>Media Type</strong> between image and video.</p> </li>
+   <li><p>For the <strong>Image</strong> media type, enter your URL in the <strong>Media URL</strong> field based on the supported formats. </p> <p>If needed, you can also enter the path to a <strong>Bundled image</strong> which can be used if the device is offline.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/inapp_customize_5.png" title="" /></li>
+   <li><p>For the <strong>Video</strong> media type, enter your URL in the <strong>Media URL</strong> field. </p> <p>Then, enter your <strong>Video poster</strong> to be used while the video is downloading on the audience devices or until users tap the play button.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/inapp_customize_6.png" title="" /></li>
+  </ol>
+  <h3>Text</h3>
+  <p>If needed, you can also add a message title and content to your In-App message. To better personalize your In-App message, you can add different personalization fields, content blocks and dynamic text to your content.</p> 
+  <ol>
+   <li><p>In the <strong>Text</strong> drop-down, add a title in the <strong>Message title</strong> field.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/inapp_customize_9.png" title="" /></li>
+   <li><p>Add your content in the <strong>Message content</strong> field.</p> </li>
+   <li><p>To further personalize your text, click the <img height="21px" src="assets/edit_darkgrey-24px.png" /> icon to add personalization fields.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/inapp_customize_8.png" title="" /></li>
+   <li><p>Type in your message content and add your personalization fields if needed. </p> <p>For more information on personalization field, refer to this <a href="../../designing/using/inserting-a-personalization-field.md">section</a>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/inapp_customize_10.png" title="" /></li>
+   <li><p>Check your message content in the preview window.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/inapp_customize_11.png" title="" /></li>
+  </ol>
+  <h3>Buttons</h3>
+  <p>Your can add up to two buttons to your In-App message.</p> 
+  <ol>
+   <li><p>In the <strong>Buttons</strong> drop-down, enter the text of your first button in the <strong>Primary</strong> category.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/inapp_customize_12.png" title="" /></li>
+   <li><p>Choose which of the two actions <strong>Dismiss</strong> and<strong> Redirect</strong> will be assigned to your primary button.</p> </li>
+   <li><p>If you chose the <strong>Redirect</strong> action, enter your web URL or deeplink in the <strong>Destination URL</strong> field.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/inapp_customize_13.png" title="" /></li>
+   <li><p>In the <strong>Secondary</strong> category, add a second button to your In-App if needed by entering your text.</p> </li>
+   <li><p>Select the action associated to your second button.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/inapp_customize_14.png" title="" /></li>
+   <li><p>Enter your web URL or deeplink in the <strong>Destination URL</strong> field, if you chose the <strong>Redirect</strong> action, </p> </li>
+   <li><p>Check your message content in the preview window or by clicking the Preview button.</p> <p>Refer to the <a href="../../channels/using/customizing-an-in-app-message.md#previewing-the-in-app-message" target="_blank">Previewing the In-App message</a> page.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/inapp_customize_15.png" title="" /></li>
+  </ol>
+  <h3>Settings</h3>
+  <ol>
+   <li><p>In the <strong>Settings</strong> category, select your background color between light and dark.</p> </li>
+   <li><p>Choose to display or not a close button with the <strong>Show close button</strong> option to provide users a way to dismiss the In-App message.</p> </li>
+   <li><p>Select if your button alignment will be horizontal or vertical with the <strong>Button alignment</strong> option.</p> </li>
+   <li><p>Choose if your In-App message can be auto-dismissed or not after a few seconds.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/inapp_customize_7.png" title="" /></li>
+  </ol>
+  <h2>Customizing with a custom HTML message</h2>
+  <note>
+   <p> Custom HTML message does not support content personalization. </p> 
+  </note>
+  <p>The <strong>Custom message</strong> mode allows you to directly import one of your pre-configured HTML message.</p> 
+  <p>To do so, you just have to drag and drop or select your file from computer.</p> 
+  <p>Your file must have a specific layout which can be found by clicking the <strong>Download the sample file</strong> option.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/inapp_customize_2.png" title="" />
+  <p>You can also find a list of custom HTML requirements for a successful import in Adobe Campaign.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/inapp_customize_3.png" title="" />
+  <p>Once your HTML has been imported, you can find a preview of your file on different devices in the preview window.</p> 
+  <h2>Previewing the In-App message</h2>
+  <p>Before sending your In-App message, you can test with your test profiles to check what your targeted audience will see when they receive your delivery.</p> 
+  <ol>
+   <li><p>Click the <strong>Preview</strong> button.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/inapp_sending_2.png" title="" /></li>
+   <li><p>Click the <strong>Select a test profile</strong> button and select one of your test profiles to start previewing your delivery. For more information on test profiles, refer to this <a href="../../sending/using/managing-test-profiles-and-sending-proofs.md">section</a>.</p> </li>
+   <li><p>Check your message on different devices such as Android, iPhone phones or even tablets. You can also check if your personalization fields are retrieving the right data.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/inapp_sending_3.png" title="" /></li>
+  </ol>
+ </body>
+</html>

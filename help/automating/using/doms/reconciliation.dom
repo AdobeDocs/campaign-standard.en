@@ -1,0 +1,94 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2018-11-20T11:57:08.586-0500" name="cq:lastModified" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2018-11-20" name="publishExternalDate" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:data-management-activities" name="cq:tags" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="Reconciliation" name="jcr:description" /> 
+  <meta content="161ecb37-cc9c-45ca-afcb-59d218a06491" name="jcr:uuid" /> 
+  <meta content="f33e4e93-7c20-48b0-99cb-38ca4de7c347" name="jcr:predecessors" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="2018-11-20T11:57:08.585-0500" name="locHandOffDate" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="The Reconciliation activity allows you to link unidentified data to existing resources." name="seoDescription" /> 
+  <meta content="2018-03-15T09:03:00.785-0400" name="jcr:created" /> 
+  <meta content="audience:automating" name="primaryAudienceTag" /> 
+  <meta content="Reconciliation" name="jcr:title" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="Reconciliation" name="navTitle" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
+ </head> 
+ <body> 
+  <h2>Description</h2> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/reconciliation.png" title="" /> 
+  <p>The <strong>Reconciliation</strong> activity allows you to link unidentified data to existing resources.</p> 
+  <h2>Context of use</h2> 
+  <p>The <strong>Reconciliation</strong> activity is essentially used for Data Management purposes and implies two different use cases:</p> 
+  <ul> 
+   <li><p>Adding relations: a <strong>Links</strong> tab allows you to add links between the inbound data and several other Adobe Campaign database dimensions.</p> <p>For example, a file containing purchasing data may also contain information to identify the products purchased as well as the buyer. Two additional dimensions (besides that of <strong>Purchases</strong>) are therefore concerned by the file data: the <strong>Products</strong> and <strong>Profiles</strong> dimensions. Relations then need to be created between these and the <strong>Purchases</strong> dimension (refer to the following example).</p> <p>When defining a relation, a column is added to the inbound data in order to reference the foreign key of the linked dimension.</p> 
+    <note> 
+     <p> This operation implies that the data of the linked dimensions are already in the database. For example, if you import a file of purchases showing which product was purchased, at what time, by which client, etc., the product as well as the client must already exist in the database. </p> 
+    </note></li> 
+   <li><p>Data identification: an <strong>Identification</strong> tab allows you to simply link inbound data to columns of an existing dimension in the Adobe Campaign database. After the activity, the data is identified as belonging to the defined dimension.</p> <p>For example, you can then perform a save audience, database update, etc.</p> </li> 
+  </ul> 
+  <p>For example, the <strong>Reconciliation</strong> activity can be placed after a load data activity with the aim of importing non-standard data into the database.</p> 
+  <h2>Configuration</h2> 
+  <ol> 
+   <li><p>Drag and drop a <strong>Reconciliation</strong> activity into your workflow, following a transition containing a population whose targeting dimension does not directly come from Adobe Campaign. For more on this, referr to <a href="../../automating/using/query.md#targeting-dimensions-and-resources" target="_blank">Targeting dimensions and resources</a>.</p> </li> 
+   <li><p>Select the activity, then open it using the <img height="21px" src="assets/edit_darkgrey-24px.png" /> button from the quick actions that appear.</p> </li> 
+   <li><p>If you would like to define links between the inbound data and other database dimensions, go to the <strong>Links</strong> tab.</p> <p>Add as many relations as necessary. For each relation, first select the linked dimension, then in the link detail, specify the corresponding fields.</p> </li> 
+   <li><p>If you would like to simply identify the inbound data, go to the <strong>Identification</strong> tab and check the <strong>Identify the document from the working data</strong> box.</p> <p>Select the targeting dimension to which you want to reconcile the inbound data.</p> <p>Add reconciliation criteria to link an inbound transition record to a selected targeting dimension record. If several criteria are specified, they must all be verified in order for the link between all their data to work.</p> <p>Choose the <strong>Processing unidentified source lines</strong> mode:</p> 
+    <ul> 
+     <li><p><strong>Ignore them</strong>: only the identifiable data is kept in the activity's outbound transition.</p> </li> 
+     <li><p><strong>Keep in the outbound population</strong>: all the data from the inbound transition is kept in the activity's outbound transition.</p> </li> 
+    </ul></li> 
+   <li><p>Confirm the configuration of your activity and save your workflow.</p> </li> 
+  </ol> 
+  <h2>Example 1: Relation definition</h2> 
+  <p>The following example demonstrates a workflow that updates the database using the purchasing data in a file. The purchasing data contains data referencing elements from other dimensions, such as the client emails and product codes.</p> 
+  <note> 
+   <p> The <strong>Transactions</strong> and <strong>Products</strong> resources used in this example do not exist in the Adobe Campaign database by default. They were therefore created beforehand using the <a href="../../developing/using/data-model-concepts.md">Custom resources</a> function. The profiles that correspond to the email addresses in the imported file, as well as the products, were loaded into the database beforehand. </p> 
+  </note> 
+  <p>The workflow is made up of the following activities:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/reconciliation_example1.png" title="" /> 
+  <ul> 
+   <li><p>A <strong>Load file</strong> activity, which loads and detects the data of the file to import. The imported file contains the following data:</p> 
+    <ul> 
+     <li><p>Transaction date</p> </li> 
+     <li><p>Client email address</p> </li> 
+     <li><p>Code of product purchased</p> </li> 
+    </ul> 
+    <codeblock gutter="true" class="syntax html">
+      date;client;product!!discoiqbr!!2015-05-19&amp;nbsp;09:00:00;mail1@email.com;ZZ1!!discoiqbr!!2015-05-19&amp;nbsp;09:01:00;mail2@email.com;ZZ2!!discoiqbr!!2015-05-19&amp;nbsp;09:01:01;mail3@email.com;ZZ2!!discoiqbr!!2015-05-19&amp;nbsp;09:01:02;mail4@email.com;ZZ2!!discoiqbr!!2015-05-19&amp;nbsp;09:02:00;mail5@email.com;ZZ3!!discoiqbr!!2015-05-19&amp;nbsp;09:03:00;mail6@email.com;ZZ4!!discoiqbr!!2015-05-19&amp;nbsp;09:04:00;mail7@email.com;ZZ5!!discoiqbr!!2015-05-19&amp;nbsp;09:05:00;mail8@email.com;ZZ7!!discoiqbr!!2015-05-19&amp;nbsp;09:06:00;mail9@email.com;ZZ6 
+    </codeblock></li> 
+   <li><p>A <strong>Reconciliation</strong> activity to bind purchasing data to database profiles as well as products. It is therefore necessary to define a relation between the file data and the profile table as well as the product table. This configuration is carried out in the activity's <strong>Relations</strong> tab:</p> 
+    <ul> 
+     <li><p>Relation with the <strong>Profiles</strong>: the file's <strong>client</strong> column is linked to the <strong>email</strong> field of the <strong>Profiles</strong> dimension.</p> </li> 
+     <li><p>Relation with the <strong>Products</strong>: the file's <strong>product</strong> column is linked to the <strong>productCode</strong> field of the <strong>Profiles</strong> dimension.</p> </li> 
+    </ul><p>Columns are added to the inbound data in order to reference the foreign keys of the linked dimensions.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/reconciliation_example3.png" title="" /></li> 
+   <li><p>An <strong>Update data</strong> activity allows you to define the database fields to update using the imported data. As the data was already identified as belonging to the <strong>Transactions</strong> dimension in the previous activity, here you can use the <strong>Directly using the targeting dimension</strong> identification option.</p> <p>By using the option that automatically detects fields to update, the links configured in the previous activity (to profiles and products) are added to the list of <strong>Fields to update</strong>. You must also make sure that the field that corresponds to the transaction date is correctly added to this list.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/reconciliation_example5.png" title="" /><img alt="" captionBottom="" imageRotate="0" src="assets/reconciliation_example4.png" title="" /></li> 
+  </ul> 
+  <h2>Example 2: Identification</h2> 
+  <p>The following example demonstrates a workflow that creates an audience of profiles directly from an imported file containing new clients. It is made up of the following activities:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/identification_example2.png" title="" /> 
+  <ul> 
+   <li><p>A <strong>Load file</strong> activity, which loads and detects the data of the file to import. The imported file contains the following data:</p> 
+    <codeblock gutter="true" class="syntax html">
+      lastname;firstname;email;dateofbirth!!discoiqbr!!jackman;megan;megan.jackman@testmail.com;07/08/1975!!discoiqbr!!phillips;edward;phillips@testmail.com;09/03/1986!!discoiqbr!!weaver;justin;justin_w@testmail.com;11/15/1990!!discoiqbr!!martin;babeth;babeth_martin@testmail.net;11/25/1964!!discoiqbr!!reese;richard;rreese@testmail.com;02/08/1987!!discoiqbr!!cage;nathalie;cage.nathalie227@testmail.com;07/03/1989!!discoiqbr!!xiuxiu;andrea;andrea.xiuxiu@testmail.com;09/12/1992!!discoiqbr!!grimes;daryl;daryl_890@testmail.com;12/06/1979!!discoiqbr!!tycoon;tyreese;tyreese_t@testmail.net;10/08/1971 
+    </codeblock></li> 
+   <li><p>A <strong>Reconciliation</strong> activity, which links each column of the loaded file to a profile dimension column. The file records that cannot be identified (missing data, incompatible data type, etc.) are ignored to preserve the integrity of the final audience data.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/identification_example1.png" title="" /></li> 
+   <li><p>A <strong>Save audience</strong> activity, which saves the audience of profiles.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/identification_example3.png" title="" /></li> 
+  </ul> 
+ </body> 
+</html>

@@ -1,0 +1,139 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="bea48db4-372d-4995-a33d-f11db6559119" name="jcr:uuid" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="audience:designing" name="primaryAudienceTag" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="About email content design" name="jcr:title" /> 
+  <meta content="Discover the Email Designer that enables you to design content for your emails." name="seoDescription" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="About email content design" name="navTitle" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="About email content design" name="jcr:description" /> 
+  <meta content="2018-11-20T11:55:38.629-0500" name="cq:lastModified" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:editing-email-content" name="cq:tags" /> 
+  <meta content="2018-11-20" name="publishExternalDate" /> 
+  <meta content="2018-11-20T11:55:38.628-0500" name="locHandOffDate" /> 
+  <meta content="2018-07-23T07:30:11.938-0400" name="jcr:created" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="87a194f1-d911-4ffe-8470-351f4c9673df" name="jcr:predecessors" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+ </head> 
+ <body> 
+  <p>Use the Email Designer drag and drop interface to quickly create and modify the content of your emails in Adobe Campaign.</p> 
+  <p>This section describes the specificities of the Email Designer:</p> 
+  <ul> 
+   <li><p> <a href="../../designing/using/about-email-content-design.md#using-the-email-designer" target="_blank">Using the Email Designer</a></p> </li> 
+   <li><p> <a href="../../designing/using/defining-the-email-structure.md" target="_blank">Defining the email structure</a></p> </li> 
+   <li><p> <a href="../../designing/using/editing-email-styles.md" target="_blank">Editing email styles</a></p> </li> 
+  </ul> 
+  <p>To know more about actions that are common to one or more marketing activities, refer to the following sections:</p> 
+  <ul> 
+   <li><p>For more on personalizing an email content, see <a href="../../designing/using/inserting-a-personalization-field.md" target="_blank">Inserting a personalization field</a> and <a href="../../designing/using/adding-a-content-block.md" target="_blank">Adding a content block</a>.</p> </li> 
+   <li><p>For more on importing another email content, see <a href="../../designing/using/selecting-an-existing-content.md" target="_blank">Selecting an existing content</a>.</p> </li> 
+   <li><p>For more on defining dynamic content in an email, see <a href="../../designing/using/defining-dynamic-content-in-an-email.md" target="_blank">Defining dynamic content in an email</a>.</p> </li> 
+   <li><p>For more on inserting links in an email, see <a href="../../designing/using/inserting-a-link.md" target="_blank">Inserting a link</a>.</p> </li> 
+   <li><p>For more on inserting images in an email, see <a href="../../designing/using/inserting-images.md" target="_blank">Inserting images</a>.</p> </li> 
+  </ul> 
+  <p>Also check the <a href="../../designing/using/content-design-best-practices.md">general best practices for content design</a>.</p> 
+  <h2>Using the Email Designer</h2> 
+  <p>The Email Designer allows you to create email content and email content templates. It is compatible with simple emails, transactional emails, A/B test emails, multilingual emails, and recurring emails.</p> 
+  <h3>About the Email Designer interface</h3> 
+  <p>The Email Designer provides many options that allow you to create, edit and customize every aspect of your content.</p> 
+  <p>The interface is composed of several areas offering different functionalities:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/email_designer_overview.png" title="" /> 
+  <p>From the elements available in the <strong>Palette</strong> (3), drag and drop structure components and content fragments in the main <strong>Workspace</strong> (1). Select a component or element in the <strong>Workspace</strong> (1) and customize its main styling and display characteristics from the <strong>Settings</strong> pane (2). </p> 
+  <p>Access more general options and settings from the main <strong>Toolbar</strong> (4).</p> 
+  <note> 
+   <p> The <strong>Settings</strong> pane can move to the left according to your screen resolution and display. </p> 
+  </note> 
+  <p>The <strong>Contextual toolbar</strong> of the editor interface offers various functionalities depending on the zone selected. It contains action buttons and buttons that allow you to change the style of the text. The modifications carried out always apply to the zone selected.</p> 
+  <h3>General recommendations for using the Email Designer</h3> 
+  <p>To make proper use of the Email Designer and create the best emails as simply as possible, we recommend applying the following principles:</p> 
+  <ul> 
+   <li><p>Use inline styling rather than a separate CSS and CSS in the &amp;lt;head&amp;gt; section of the HTML. By using inline styling, you can optimize content fragment save and reuse.</p> <p>See <a href="../../designing/using/editing-email-styles.md#adding-inline-styling-attributes" target="_blank">Adding inline styling attributes</a>.</p> </li> 
+   <li><p>Settle your branding easily by creating and reusing content fragments to keep consistency across your marketing campaigns.</p> <p>See <a href="../../designing/using/defining-the-email-structure.md#creating-a-content-fragment" target="_blank">Creating a content fragment</a>.</p> </li> 
+  </ul> 
+  <p>Also check the <a href="../../designing/using/content-design-best-practices.md">general best practices for content design</a>.</p> 
+  <h3>Designing an email content from scratch</h3> 
+  <p>Here are the main steps to create and design an email content from scratch using the Email Designer:</p> 
+  <ol> 
+   <li><p>Create an email and open its content.</p> </li> 
+   <li><p>Add structure components to shape the email. See <a href="../../designing/using/defining-the-email-structure.md#editing-the-email-structure" target="_blank">Editing the email structure</a>.</p> </li> 
+   <li><p>Insert content components and fragments in the structure components. See <a href="../../designing/using/defining-the-email-structure.md#adding-fragments-and-content-components" target="_blank">Adding fragments and content components</a>.</p> </li> 
+   <li><p>Add images and edit the text of the email. See <a href="../../designing/using/inserting-images.md" target="_blank">Inserting images</a>.</p> </li> 
+   <li><p>Personalize your email by adding personalization fields, links, and so on. See <a href="../../designing/using/inserting-a-personalization-field.md" target="_blank">Inserting a personalization field</a>, <a href="../../designing/using/inserting-a-link.md" target="_blank">Inserting a link</a> and <a href="../../designing/using/defining-dynamic-content-in-an-email.md" target="_blank">Defining dynamic content in an email</a>.</p> </li> 
+   <li><p>Define the subject line of your email. See <a href="../../designing/using/personalizing-the-subject-line-of-an-email.md" target="_blank">Personalizing the subject line of an email</a>.</p> </li> 
+   <li><p>Preview your email.</p> </li> 
+   <li><p>Save your content, and proceed with your message after making sure that you have defined an audience and properly scheduled the sending.</p> </li> 
+  </ol> 
+  <note> 
+   <p> To avoid designing email content from scratch, you can use out-of-the-box content templates. For more on this, see <a href="../../start/using/about-templates.md#content-templates">Content templates</a>. </p> 
+  </note> 
+  <p><strong>Related topics</strong>:</p> 
+  <ul> 
+   <li><p> <a href="../../channels/using/creating-an-email.md">Creating an email</a></p> </li> 
+   <li><p> <a href="../../sending/using/previewing-messages.md">Previewing messages</a></p> </li> 
+   <li><p> <a href="../../sending/using/email-rendering.md">Email rendering</a></p> </li> 
+   <li><p> <a href="../../audiences/using/selecting-an-audience-in-a-message.md">Selecting an audience in a message</a></p> </li> 
+   <li><p> <a href="../../sending/using/about-scheduling-messages.md">Scheduling messages</a></p> </li> 
+  </ul> 
+  <h3>About the Email Designer compatibility mode</h3> 
+  <p>When you upload a content, it must contain specific tagging to be fully compliant and editable with the WYSIWYG editor of the Email Designer. If all or part of the uploaded HTML is not compliant with the expected tagging, the content is then loaded in 'compatibility mode', which limits the edition possibilities through the UI.</p> 
+  <p>When a content is loaded in compatibility mode, you can still perform the following modifications through the interface (unavailable actions are hidden):</p> 
+  <ul> 
+   <li><p>Changing the text or changing an image</p> </li> 
+   <li><p>Inserting links and personalization fields</p> </li> 
+   <li><p>Edit some styling options on the selected HTML block</p> </li> 
+   <li><p>Defining conditional content</p> </li> 
+  </ul> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/email_designer_compatibility.png" title="" /> 
+  <p>Other modifications such as adding new sections to your email or advanced styling must be done directly in the source code of the email via the HTML mode.</p> 
+  <h3>Switching to mobile view</h3> 
+  <p>You can fine-tune the responsive design of an email by separately editing all style options for mobile display. For example, you can adapt margins and padding, use smaller or bigger font sizes or apply different background colors that will be specific to the mobile version of your email.</p> 
+  <p>All style options are available in mobile view. The Email Designer style settings are presented in the <a href="../../designing/using/editing-email-styles.md">Editing email styles</a> section.</p> 
+  <ol> 
+   <li><p>Create an email and start editing the content. For more on this, see <a href="../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch" target="_blank">Designing an email content from scratch</a>.</p> </li> 
+   <li><p>To access the dedicated mobile view, select the <strong>Switch to mobile view</strong> button.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/email_designer_mobile_view_switch.png" title="" /><p>The mobile version of the email is displayed. It contains all the components and styles that were defined in desktop view.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/email_designer_mobile_view.png" title="" /></li> 
+   <li><p>You can edit independently all style settings such as background color, alignment, padding, margin, font family, text color, and so on.</p> </li> 
+   <li><p>When editing any style setting in mobile view, the modifications are only applied to the mobile display.</p> <p>For example, reduce the size of an image, add a green background and change the padding in mobile view.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/email_designer_mobile_view_change.png" title="" /></li> 
+   <li><p>Click again the <strong>Switch to mobile view</strong> button to go back to the standard desktop view. The style changes you just made are not reflected.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/email_designer_mobile_view_desktop_no-change.png" title="" /> 
+    <note> 
+     <p> The only exception is the <strong>Style inline</strong> settings. Any style inline setting change is also applied to the standard desktop view. </p> 
+    </note></li> 
+   <li><p>However, any other change to the structure or the content of the email such as text edits, uploading a new image, adding a new component, etc. is also applied to the standard view.</p> <p>For example, switch back to mobile view, edit some text and replace an image.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/email_designer_mobile_view_change_content.png" title="" /><p>Click again the <strong>Switch to mobile view</strong> button to go back to the standard desktop view. The changes are reflected.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/email_designer_mobile_view_desktop_content-change.png" title="" /></li> 
+   <li><p>Removing a style in mobile view takes you back to the style that was applied in desktop mode.</p> <p>For example, in desktop view, apply a grey background color to a button.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/email_designer_mobile_view_background_desktop.png" title="" /></li> 
+   <li><p>Switch to mobile view and apply a green background to the same button.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/email_designer_mobile_view_background_mobile.png" title="" /></li> 
+   <li><p>While still in mobile view, now disable the <strong>Background color</strong> setting.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/email_designer_mobile_view_background_mobile_disabled.png" title="" /><p>The background color defined in desktop view is still applied: it turns grey (not blank).</p> <p> The only exception is the <strong>Border color</strong> setting. When disabled in mobile view, no border is applied anymore, even if a border color is defined in desktop view. </p> </li> 
+  </ol> 
+  <h3>Generating a text version of the email</h3> 
+  <p>By default, the <strong>Plain text</strong> version of your email is automatically generated and synchronized with the HTML version.</p> 
+  <p>You can disable this synchronization by clicking the <strong>Sync with HTML</strong> switch from the Plain text view of your email.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/email_designer_textversion.png" title="" /> 
+  <p>Personalization fields added to the HTML version are also synchronized with the plain text version.</p> 
+  <h3>Editing an email content source in HTML</h3> 
+  <p>For the most advanced users and debugging, you can view and edit the email content directly in HTML.</p> 
+  <p>You have two ways to edit the HTML version of the email:</p> 
+  <ul> 
+   <li><p>Select <strong>Edit</strong> &gt; <strong>HTML</strong> to open the HTML version of the entire email.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/email_designer_html1.png" title="" /></li> 
+   <li><p>From the WYSIWYG interface, select an element and click the <strong>Source code</strong> icon.</p> <p>Only the source of the selected element is displayed. You can edit the source code if the selected element is a <strong>HTML</strong> content component. Other components are in read-only mode, but can still be edited in the full HTML version of the email.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/email_designer_html2.png" title="" /></li> 
+  </ul> 
+  <p>If you modify the HTML the code, the responsiveness of the email could be broken. Make sure to test it using the <strong>Preview</strong> button. See <a href="../../sending/using/previewing-messages.md#previewing-messages-with-the-creative-designer">Previewing messages with the Email Designer</a>.</p> 
+  <h2>Designing through Adobe Campaign integrations</h2> 
+  <h3>Editing content in Dreamweaver</h3> 
+  <p>The Adobe Campaign Standard integration with Dreamweaver lets you edit an email's content in the Dreamweaver interface. You have access to the powerful interface of Dreamweaver to design and develop responsive email content.</p> 
+  <p>This feature is detailed in the Dreamweaver Documentation accessible <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">here</a>. A demonstration <a href="https://docs.campaign.adobe.com/doc/standard/en/Videos/ACS_Dreamweaver.mp4">video</a> is also available.</p> 
+  <h3>Editing content in Experience Manager</h3> 
+  <p>Email content can be edited in Experience Manager and then used for one or several email messages in Adobe Campaign. Refer to <a href="../../integrating/using/integrating-with-experience-manager.md">this document</a>.</p> 
+ </body> 
+</html>

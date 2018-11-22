@@ -1,0 +1,45 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Non-deliverables and bounces" name="navTitle" />
+  <meta content="6e9bda3b-56c3-4d76-ba05-3c6b66e511bc" name="jcr:uuid" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Non-deliverables and bounces" name="jcr:description" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:reporting;content_type:reference;topic_tags:list-of-reports" name="cq:tags" />
+  <meta content="Non-deliverables and bounces" name="jcr:title" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-11-20T11:55:55.906-0500" name="locHandOffDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-03-15T09:02:14.651-0400" name="jcr:created" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="audience:reporting" name="primaryAudienceTag" />
+  <meta content="With the Non-deliverables and bounces out-of-the-box report, learn about the errors that may occurred to your delivery. " name="seoDescription" />
+  <meta content="2018-11-20T11:55:55.907-0500" name="cq:lastModified" />
+  <meta content="5d24ee88-889d-4514-ab33-b72a421f3257" name="jcr:predecessors" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2018-11-20" name="publishExternalDate" />
+ </head>
+ <body>
+  <p>The <strong>Non-deliverables and bounces</strong> report provides details on all the errors encountered during a delivery.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/delivery_reports_7.png" title="" />
+  <p>The <strong>Overview</strong> table contains the data available regarding the possible errors that may be encountered for each delivery, such as: </p> 
+  <ul>
+   <li><p><strong>Sent</strong>: The number of emails sent.</p> </li>
+   <li><p><strong>Delivered</strong>: The number of emails delivered.</p> </li>
+   <li><p><strong>Soft bounce</strong>: The total number of temporary errors, such as a a full inbox.</p> </li>
+   <li><p><strong>Hard bounce</strong>: The total number of permanent errors, such as a wrong email address.</p> </li>
+   <li><p><strong>Bounces + Errors</strong>: The number of messages that could not be delivered.</p> </li>
+  </ul>
+  <p>The <strong>Breakdown by domain</strong> table lists the bounces per recipients' domains.</p> 
+ </body>
+</html>

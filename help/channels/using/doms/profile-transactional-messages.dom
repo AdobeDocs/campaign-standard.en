@@ -1,0 +1,69 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="93bb62cc-bf23-4108-820d-076a056cb4e9" name="jcr:uuid" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Profile transactional messages" name="jcr:description" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="7df065c9-9e88-4ede-92b4-826ec53272c7" name="jcr:predecessors" />
+  <meta content="Profile transactional messages" name="jcr:title" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2018-03-15T09:01:17.623-0400" name="jcr:created" />
+  <meta content="2018-11-20T11:57:13.054-0500" name="cq:lastModified" />
+  <meta content="Profile transactional messages" name="navTitle" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-11-20" name="publishExternalDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="Learn how to create and publish a profile transactional message." name="seoDescription" />
+  <meta content="audience:channels" name="primaryAudienceTag" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-11-20T11:57:13.054-0500" name="locHandOffDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:channels;content_type:reference;topic_tags:transactional-messaging" name="cq:tags" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:primaryType" />
+ </head>
+ <body>
+  <p>You can send transactional messages based on customer marketing profiles, which allows you to:</p> 
+  <ul>
+   <li><p>Apply marketing typology rules such as <strong>Blacklisted address</strong> or fatigue rules (see <a href="../../administration/using/fatigue-rules.md">Fatigue rules</a>).</p> </li>
+   <li><p>Include the unsubscription link within the messages.</p> </li>
+   <li><p>Add the transactional messages to the global delivery reporting.</p> </li>
+   <li><p>Leverage the transactional messages in the customer journey.</p> </li>
+  </ul>
+  <p>Once you have created and published an event (the cart abandonment as per the <a href="../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle">example</a> above), the corresponding transactional message is created automatically.</p> 
+  <p>The configuration steps are presented in the <a href="../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message">Configuring an event to send a profile transactional message</a> section.</p> 
+  <p>In order for the event to trigger sending a transactional message, you have to personalize the message, then test it and publish it.</p> 
+  <note>
+   <p> To access the transactional messages, you must have administration rights or appear in the <strong>Message Center agents</strong> (mcExec) security group. Fatigue rules are compatible with profile transactional messages. See <a href="../../administration/using/fatigue-rules.md">Fatigue rules</a>. </p> 
+  </note>
+  <h2>Sending a profile transactional message</h2>
+  <ol>
+   <li><p>Go the transactional message that was created to edit it. See <a href="../../channels/using/event-transactional-messages.md" target="_blank">Event transactional messages</a>.</p> </li>
+   <li><p>In the transactional message, click the <strong>Content</strong> section. In addition to the transactional template, you can also choose the default email template, which targets <strong>Profile</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/message-center_marketing_templates.png" title="" /></li>
+   <li><p>Select the default email template.</p> <p>Similar to all marketing emails, it includes an unsubscription link.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/message-center_marketing_perso_unsubscription.png" title="" /><p>Also, as opposed to configurations based on real-time events, you have direct access to all profile information to personalize your message. See <a href="../../designing/using/inserting-a-personalization-field.md">Inserting a personalization field</a>.</p> </li>
+   <li><p>Save your changes and publish the message. See <a href="../../channels/using/event-transactional-messages.md#publishing-a-transactional-message" target="_blank">Publishing a transactional message</a>.</p> </li>
+  </ol>
+  <h2>Monitoring a profile transactional message delivery</h2>
+  <p>Once the message is published and your site integration is done, you can monitor the delivery.</p> 
+  <ol>
+   <li><p>To view the message delivery log, click the icon at the bottom right of the <strong>Deployment</strong> block.</p> <p>For more information on accessing the logs, see <a href="../../sending/using/monitoring-a-delivery.md">Monitoring the delivery</a>.</p> </li>
+   <li><p>Select the <strong>Sending logs</strong> tab. In the <strong>Status</strong> column, <strong>Sent</strong> indicates that a profile has opted in.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/message-center_marketing_sending_logs.png" title="" /></li>
+   <li><p>Select the <strong>Exclusions logs</strong> tab to view recipients who have been excluded from the message target, such as blacklisted addresses.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/message-center_marketing_exclusion_logs.png" title="" /></li>
+  </ol>
+  <p>For any profile that has opted out, the <strong>Blacklisted address</strong> typology rule excluded the corresponding recipient.</p> 
+  <p>This rule is part of a specific typology that applies to all transactional messages based on the <strong>Profile</strong> table.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/message-center_marketing_typology.png" title="" />
+  <p><strong>Related topics</strong>:</p> 
+  <ul>
+   <li><p> <a href="../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website">Site integration</a></p> </li>
+   <li><p> <a href="../../administration/using/about-typology-rules.md">Typologies</a></p> </li>
+  </ul>
+ </body>
+</html>

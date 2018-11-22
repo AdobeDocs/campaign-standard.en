@@ -1,0 +1,44 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:audiences;content_type:reference;topic_tags:managing-profiles" name="cq:tags" />
+  <meta content="19dedbc7-6d7c-493b-a625-42cf2ae1aa76" name="jcr:predecessors" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="light" name="heroGradient" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="Track every customer interaction in a single view: Adobe Campaign integrated customer profile is updated throughout the customer life cycle." name="seoDescription" />
+  <meta content="audience:audiences" name="primaryAudienceTag" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2018-03-15T09:02:18.937-0400" name="jcr:created" />
+  <meta content="2018-11-20T11:55:42.285-0500" name="locHandOffDate" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Integrated customer profile" name="jcr:description" />
+  <meta content="b7603fc7-804a-4b39-a4a7-3c9153952c76" name="jcr:uuid" />
+  <meta content="2018-11-20" name="publishExternalDate" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="Integrated customer profile" name="jcr:title" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2018-11-20T11:55:42.285-0500" name="cq:lastModified" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Integrated customer profile" name="navTitle" />
+ </head>
+ <body>
+  <p>An integrated customer profile is available for each contact of your database. This marketing history combines all relevant marketing information concerning contact with a client into one single view. You can then access all digital behaviors, online and offline transactions in a central location: contact information, emails received, tracking logs, subscriptions and unsubscriptions, etc. </p> 
+  <p>To access the integrated customer profile, steps are as follows:</p> 
+  <ol>
+   <li><p>From the Adobe Campaign home page, click the <strong>Customer profiles</strong> card or the <strong>Profiles</strong> tab.</p> </li>
+   <li><p> Select a contact.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/mkt_hist_access.png" title="" /></li>
+  </ol>
+  <p>You can then access the <strong>Marketing history</strong> of this contact.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/mkt_hist_view.png" title="" />
+  <p>Key information about the profile is gathered in this page, as well as the list of events.</p> 
+  <p>Click an event in the list to open it: you can access the message which has been sent or the service which the profile has subscribed to.</p> 
+ </body>
+</html>

@@ -1,0 +1,67 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="Preparing and sending an In-App message" name="jcr:description" />
+  <meta content="2018-11-21T13:14:04.096-0500" name="jcr:created" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-11-20T11:56:58.236-0500" name="locHandOffDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="Preparing and sending an In-App message" name="jcr:title" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="a68f7592-9776-45df-ac73-d98903aea17e" name="jcr:uuid" />
+  <meta content="Preparing and sending an In-App message" name="navTitle" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:channels;content_type:reference;topic_tags:in-app-messaging" name="cq:tags" />
+  <meta content="light" name="heroGradient" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Create In-app message to target your application subscribers with specific content." name="seoDescription" />
+  <meta content="a118e4be-0ae8-48a7-b8f1-8ea7dc05c688" name="jcr:predecessors" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="audience:channels" name="primaryAudienceTag" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-11-20" name="publishExternalDate" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2018-11-20T11:56:58.237-0500" name="cq:lastModified" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+ </head>
+ <body>
+  <h2>Preparing your In-App message</h2>
+  <p>The steps for creating a standalone In-App message with Adobe Campaign are:</p> 
+  <ol>
+   <li><p>From Adobe Campaign home page, click the <strong>In-App messaging</strong> card.</p> <p>You can also create an In-app from the <strong>Marketing activities</strong> tab, by clicking the<strong> Create</strong> button.</p> <p>Note that an In-App message can also be created from a campaign or from the Adobe Campaign home page or in a workflow.</p> </li>
+   <li><p>Select <strong>In-App message</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/inapp_creating.png" title="" /></li>
+   <li><p>Select an appropriate template based on your audience targeting needs.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/inapp_creating_2.png" title="" /><p>By default, you can select one of the following three out-of-the-box templates:</p> 
+    <ul>
+     <li><p><strong>Target users based on their Campaign CRM profile (inAppProfile)</strong></p> </li>
+     <li><p><strong>Target all users of a Mobile app (inAppBroadcast)</strong></p> </li>
+     <li><p><strong>Target users based on their Mobile profile (inApp)</strong></p> </li>
+    </ul><p>For more information on templates, refer to <a href="../../channels/using/about-in-app-messaging.md" target="_blank">About In-App messaging</a>.</p> </li>
+   <li><p>Enter the In-App message properties and select your mobile app in the <strong>Associate a Mobile App to a delivery</strong> field.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/inapp_creating_3.png" title="" /></li>
+   <li><p>Select the audience you want to target for you In-App message. Your audience is prefiltered depending on the mobile application associated to this delivery.</p> <p>Note that this step is not needed with the <strong>Broadcast an In-App message (inAppBroadcast)</strong> since it targets all users of a mobile application.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/standard" title="" /></li>
+   <li><p>In the <strong>Triggers</strong> tab, drag and drop the event that will trigger your message. By choosing a trigger, you choose an action done by users which will cause the In-App message to be displayed.</p> <p>Please note that these events are only available if you have an Adobe Analytics license.</p> <p>Three categories of events are available:</p> 
+    <ul>
+     <li><p><strong>Mobile Application events</strong>: Custom events implemented in your mobile application. </p> <p>For more on events creations, refer to this <a href="../../administration/using/configuring-a-mobile-application-using-sdk-v4.md">page</a>.</p> </li>
+     <li><p><strong>Life Cycle events</strong>: Out-of-the-box life cycle events supported by Adobe Mobile SDK.</p> <p>For more on life cycle events, refer to this <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/metrics.html">page</a>.</p> </li>
+     <li><p><strong>Analytics Events</strong>: The following three categories are supported on what instrumented in your mobile app: Adobe Analytics, Context data or View state are instrumented in the mobile application.</p> </li>
+    </ul><img alt="" captionBottom="" imageRotate="0" src="assets/inapp_creating_4.png" title="" /></li>
+   <li><p>If you use an <strong>Analytics Events</strong>, Adobe Analytics and View state events will be automatically populated based on the report suites configured in the Analytics extension in Adobe Launch whereas Context data events have to be manually added.</p> <p>Please note that these events are only available if you have an Adobe Analytics licence.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/inapp_creating_7.png" title="" /></li>
+   <li><p>In the <strong>Frequency &amp; duration</strong> tab, choose the frequency for your trigger, the start and end date, day of the week and time of the day when your In-App message will be active.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/inapp_creating_5.png" title="" /></li>
+   <li><p>Edit the content of your message and define the advanced options. See <a href="https://helpx.adobe.com/campaign/standard/channels/using/customizing-a-push-notification.html">Customizing an In-App message</a>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/inapp_creating_6.png" title="" /></li>
+   <li><p>Click <strong>Create</strong>.</p> </li>
+  </ol>
+  <p>Your In-App message is now ready to be sent to your targeted audience.</p> 
+  <h2>Sending your In-App message</h2>
+  <p>Once you have finished preparing your delivery and the approval steps have been carried out, you can send your message.</p> 
+  <ol>
+   <li><p>Click <strong>Prepare</strong> to compute the target and generate the messages.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/inapp_sending_4.png" title="" /></li>
+   <li><p>Once the preparation has finished successfully, the <strong>Deployment</strong> window presents the following KPIs: <strong>Target</strong> and <strong>To deliver</strong>. </p> <p>You can check the Deployment window by clicking the <img height="21px" src="assets/lp_link_properties.png" /> button for potential exclusions or errors in your delivery.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/inapp_sending_5.png" title="" /></li>
+   <li><p>Click <strong>Confirm</strong> to start sending your In-App message.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/inapp_sending_6.png" title="" /></li>
+   <li><p>Check the status of your delivery through the message dashboard and logs. For more on this, refer to this <a href="../../sending/using/monitoring-a-delivery.md">section</a>.</p> <p><strong>Delivered</strong> and <strong>Sent</strong> KPIs counts are based on what is successfully sent out from Campaign to Message delivery service. Please note that these KPIs are not an indication of the count of mobile devices that received or downloaded the message successfully from Message delivery service.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/inapp_sending_7.png" title="" /></li>
+  </ol>
+ </body>
+</html>

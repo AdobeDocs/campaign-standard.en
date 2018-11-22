@@ -1,0 +1,43 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Learn how to link database fields to input zone, radio button or checkbox type blocks." name="seoDescription" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-07-23T07:30:15.677-0400" name="jcr:created" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="audience:designing" name="primaryAudienceTag" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Changing a landing page form data properties" name="jcr:title" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="light" name="heroGradient" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-11-20T11:56:04.512-0500" name="cq:lastModified" />
+  <meta content="2018-11-20T11:56:04.511-0500" name="locHandOffDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:editing-landing-page-content" name="cq:tags" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Changing a landing page form data properties" name="jcr:description" />
+  <meta content="Changing a landing page form data properties" name="navTitle" />
+  <meta content="e448e733-4701-49e7-8452-9cbfe59238e0" name="jcr:predecessors" />
+  <meta content="da08f234-3c9a-4574-adb9-b7adee60787f" name="jcr:uuid" />
+  <meta content="2018-11-20" name="publishExternalDate" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+ </head>
+ <body>
+  <p>You can link database fields to input zone, radio button or checkbox type blocks. To do this, select the block and enter the <strong>Form data</strong> in the palette.</p> 
+  <note>
+   <p> This option is only available for landing pages. </p> 
+  </note>
+  <img alt="" captionBottom="" imageRotate="0" src="assets/delivery_content_9.png" title="" />
+  <ul>
+   <li><p>The <strong>Field</strong> input zone lets you select a database field to link with the form field.</p> </li>
+   <li><p>The <strong>Mandatory</strong> option lets you only authorize the page's submission if the user has filled in the field. If a mandatory field is not filled in, an error message will appear.</p> </li>
+  </ul>
+ </body>
+</html>

@@ -1,0 +1,127 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2018-11-20" name="publishExternalDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Provisioning and configuring integration with Audience Manager or People core service" name="jcr:description" />
+  <meta content="96d87110-334e-4ab2-b2f4-794a67f75bd7" name="jcr:uuid" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="2018-11-20T11:55:54.590-0500" name="cq:lastModified" />
+  <meta content="Provisioning and configuring integration with Audience Manager or People core service" name="navTitle" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-03-15T09:02:56.412-0400" name="jcr:created" />
+  <meta content="Provisioning and configuring integration with Audience Manager or People core service" name="jcr:title" />
+  <meta content="ef063387-fc36-4ea5-8e33-6d65afb3ad7d" name="jcr:predecessors" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="audience:integrating" name="primaryAudienceTag" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:integrating;content_type:reference;topic_tags:working-with-campaign-and-audience-manager-or-people-core-service" name="cq:tags" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="Learn how to configure the Audience Manager / People core service integration to start sharing audiences or segments with the different Adobe Experience Cloud solutions. " name="seoDescription" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-11-20T11:55:54.590-0500" name="locHandOffDate" />
+  <meta content="light" name="heroGradient" />
+ </head>
+ <body>
+  <p>The provisioning and configuring of Audience Manager and People core in Adobe Campaign take two steps: <a href="../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#submitting-request-to-adobe">Submitting request to Adobe</a> then <a href="../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#configuring-the-integration-in-adobe-campaign">Configuring the integration in Adobe Campaign</a>.</p> 
+  <h2>Submitting request to Adobe</h2>
+  <p>Audience Manager (AAM) or People core service integration lets you import and export audiences or segments in Adobe Campaign.</p> 
+  <p>This integration must first be configured. To request provisioning of this integration, write an email to <a href="mailto:Digital-Request@adobe.com">Digital-Request@adobe.com</a> with the following information:</p> 
+  <table> 
+   <tbody> 
+    <tr> 
+     <td> <strong>Request Type:</strong><br /> </td> 
+     <td> Configure AAM/People core service-Campaign Integration </td> 
+    </tr> 
+    <tr> 
+     <td> <strong>Organization Name:</strong><br /> </td> 
+     <td> Your organization name </td> 
+    </tr> 
+    <tr> 
+     <td> <strong>IMS Org ID</strong><br /> </td> 
+     <td> Your IMS Org ID* </td> 
+    </tr> 
+    <tr> 
+     <td> <strong>Environment:</strong><br /> </td> 
+     <td> Example: Production </td> 
+    </tr> 
+    <tr> 
+     <td> <strong>AAM or People Service</strong><br /> </td> 
+     <td> Example: Adobe Audience Manager </td> 
+    </tr> 
+    <tr> 
+     <td> <strong>Declared ID or Visitor ID</strong><br /> </td> 
+     <td> Example: Declared ID </td> 
+    </tr> 
+    <tr> 
+     <td> <strong>Additional Information</strong><br /> </td> 
+     <td> Any useful information or comment that you may have </td> 
+    </tr> 
+   </tbody> 
+  </table>
+  <p>* You can find your IMS Org ID on the Experience Cloud, in the <strong>Administration</strong> menu. It is also provided when you first connect to the Adobe Experience Cloud.</p> 
+  <h2>Configuring the integration in Adobe Campaign</h2>
+  <p>After submitting this request, Adobe will proceed to the provisioning of the integration for you and contact you to provide details and information that you have to finalize the configuration:</p> 
+  <ul>
+   <li><p> <a href="../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-1--configure-or-check-the-external-accounts-in-adobe-campaign" target="_blank">Step 1: Configure or check the external accounts in Adobe Campaign</a></p> </li>
+   <li><p> <a href="../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources" target="_blank">Step 2: Configure the Data Sources</a></p> </li>
+   <li><p> <a href="../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-3--configure-campaign-tracking-server" target="_blank">Step 3: Configure Campaign Tracking server</a></p> </li>
+   <li><p> <a href="../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-4--configure-the-visitor-id-service" target="_blank">Step 4: Configure the Visitor ID Service</a></p> </li>
+  </ul>
+  <h3>Step 1: Configure or check the external accounts in Adobe Campaign</h3>
+  <p>We first need to configure or check the external accounts in Adobe Campaign. These accounts should have been configured by Adobe and the necessary information should have been communicated to you.</p> 
+  <p>To do so:</p> 
+  <ol>
+   <li><p>From the advanced menu, select <strong>Administration &gt; Application settings &gt; External accounts</strong>.</p> <p>Select one of the following external accounts available for this integration: </p> <img alt="" captionBottom="" imageRotate="0" src="assets/integration_aam_1.png" title="" /></li>
+   <li><p>Enter <strong>Receiver server</strong> in following format 
+     <s3 bucket="" name="">
+      .s3.amazonaws.com/
+      <s3 object="" path="">
+       .
+      </s3>
+     </s3></p> </li>
+   <li><p>Enter the <strong>AWS Access Key ID</strong>, <strong>Secret Access Key</strong> and <strong>AWS Region</strong>.</p> </li>
+  </ol>
+  <p>Your external accounts are now configured for this integration.</p> 
+  <h3>Step 2: Configure the Data Sources</h3>
+  <p>The two following data sources are created inside Audience manager: Adobe Campaign (MID) and Adobe Campaign (DeclaredId). At the same time, these two data sources are available in Adobe Campaign:</p> 
+  <ul>
+   <li><p><strong>Recipient - Visitor ID (Defaultdatasources)</strong>: This is an out-of-the-box data source configured by default for Visitor ID. Segments created from Campaign will be part of this data source.</p> </li>
+   <li><p><strong>Declared ID</strong> data source: This data source needs to be created and mapped with the <strong>DeclaredId</strong> data source definition from Audience Manager. </p> </li>
+  </ul>
+  <p>Please note that in the case of multiple websites with different domains, Adobe Campaign does not support reconciliation based on ECID.</p> 
+  <p>To configure the <strong>Recipient - Visitor ID (Defaultdatasources)</strong> data source:</p> 
+  <ol>
+   <li><p>In <strong>Administration</strong> &gt; <strong>Application settings</strong> &gt; <strong>Shared Data Sources</strong>, select <strong>Recipient - Visitor ID (Defaultdatasources)</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/integration_aam_2.png" title="" /></li>
+   <li><p>Choose <strong>Adobe Campaign</strong> in the <strong>Data Source/ Alias</strong> drop-down.</p> </li>
+   <li><p>Enter the <strong>AAM Destination ID</strong> provided by Adobe.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/integration_aam_3.png" title="" /></li>
+   <li><p>In the <strong>Reconciliation process</strong> category, we advise you not to change the reconciliation criteria and always use the <strong>Visitor ID</strong>.</p> </li>
+   <li><p>Click <strong>Save</strong>.</p> </li>
+  </ol>
+  <p>To create the <strong>Declared ID</strong> data source:</p> 
+  <ol>
+   <li><p>In <strong>Administration</strong> &gt; <strong>Application settings</strong> &gt; <strong>Shared Data Sources</strong>, click the <strong>Create</strong> button.</p> </li>
+   <li><p>Edit the <strong>Label</strong> of your data source.</p> </li>
+   <li><p>In the <strong>Data Source/ Alias</strong> drop-down, choose the Data Source corresponding to the <strong>DeclaredID</strong> data source from Audience Manager. </p> </li>
+   <li><p>Configure your data source by entering the <strong>Data Source / Alias</strong> and <strong>AAM Destination ID</strong> provided by Adobe.</p> </li>
+   <li><p>Set the <strong>Reconciliation process</strong> as needed.</p> </li>
+   <li><p>Click <strong>Save</strong>.</p> </li>
+  </ol>
+  <note>
+   <p> The <strong>AAM Destination ID</strong> field is not required if you are configuring the shared data source for the <a href="../../integrating/using/configuring-triggers-in-experience-cloud.md">Campaign-Triggers integration</a>. <strong>Priority</strong> is only needed when configuring the Triggers - Campaign integration. Priority decides which Data Source will be configured first. Priority can be any number such as 1 or 100. The higher the priority, the higher the preference during reconciliation. </p> 
+  </note>
+  <h3>Step 3: Configure Campaign Tracking server</h3>
+  <p>For the configuration of the integration with People Core service or Audience manager, we also need to configure Campaign Tracking server.</p> 
+  <p>Here, you need to make sure the Campaign Tracking Server is registered on the domain (CNAME). You can find more information about domain name delegation in <a href="https://docs.campaign.adobe.com/doc/AC/en/technicalResources/Technotes/AdobeCampaign_Deliverability_Sub_Domain_Delegation.pdf">this article</a>.</p> 
+  <h3>Step 4: Configure the Visitor ID Service</h3>
+  <p>In the case that your Visitor ID service has never been configured on your web properties or websites, refer to the following <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-aam-analytics.html">document</a> to learn how to configure your service or the following <a class="anchorLink" href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two" target="_blank">video</a> .</p> 
+  <p>Your configuration and provisioning are finalized, the integration can now be used to import and export audiences or segments.</p> 
+ </body>
+</html>

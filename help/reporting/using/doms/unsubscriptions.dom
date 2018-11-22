@@ -1,0 +1,37 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-11-20" name="publishExternalDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="light" name="heroGradient" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="Unsubscriptions" name="jcr:description" />
+  <meta content="With the Unsubscriptions out-of-the-box report, learn how many times customers unsubscribed to your deliveries." name="seoDescription" />
+  <meta content="8e6e0757-8cee-4c4d-90a3-f50495931542" name="jcr:predecessors" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="3f533c0a-5104-4dc7-8fba-cf19a0314463" name="jcr:uuid" />
+  <meta content="audience:reporting" name="primaryAudienceTag" />
+  <meta content="2018-11-20T11:56:04.282-0500" name="cq:lastModified" />
+  <meta content="Unsubscriptions" name="navTitle" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-11-20T11:56:04.281-0500" name="locHandOffDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:reporting;content_type:reference;topic_tags:list-of-reports" name="cq:tags" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="Unsubscriptions" name="jcr:title" />
+  <meta content="2018-03-15T09:01:30.220-0400" name="jcr:created" />
+ </head>
+ <body>
+  <p>The <strong>Unsubscriptions</strong> report identifies the deliveries with the most unsubscriptions.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/delivery_reports_unsub.png" title="" />
+  <p>The <strong>TOP 5 deliveries </strong>table and graph displays the top five deliveries with the highest number of delivered messages and the number of recipients that have unsubscribed. Data listed here is based upon the number of clicks on the message's unsubscription link.</p> 
+ </body>
+</html>
