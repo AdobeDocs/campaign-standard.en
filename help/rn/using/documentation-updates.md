@@ -427,7 +427,7 @@ Profiles and audiences guide has been reorganized. [Read more](../../audiences/u
 
 ## November 2016 release {#november-release}
 
-### Documentation updates {#documentation-updates}
+### Documentation updates {#documentation-updates2}
 
 New documentation home page and new look and feel.
 
