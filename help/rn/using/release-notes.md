@@ -576,7 +576,7 @@ Some issues might occur when using contextual help links from Campaign interface
 * Fixed an issue that occurred in list screens where custom resource rows could be displayed without any data. 
 * Fixed an issue that prevented boolean type fields with 'False' value from being displayed in custom resources.
 
-## 17.9 - September 2017 release {#september-release-1}
+## September 2017 release {#september-release-1}
 
 ### New capabilities {#new-capabilities-4}
 
@@ -724,7 +724,7 @@ Some issues might occur when using contextual help links from Campaign interface
 * Fixed an issue which prevented you from setting an outbound transition in the creation wizard of recurring delivery.
 * Fixed an issue that occurred when using a workflow query activity based on a custom resource field with an enumeration that had a lot of values
 
-## 17.5 - May 2017 release {#may-release-1}
+## May 2017 release {#may-release-1}
 
 ### New capabilities {#new-capabilities-6}
 
