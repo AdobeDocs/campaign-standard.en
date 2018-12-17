@@ -75,10 +75,6 @@ The steps for creating a push notification with Adobe Campaign are:
 
 1. Click **Create**.
 
-**Related topic:**
-
-[About SMS and push content edition](JMA_sect1_ndh_dg4_h2b)
-
 ## Sending the notification {#sending-the-notification}
 
 Once the push notification has been created and configured, you can perform tests and then send it to the selected audience.
