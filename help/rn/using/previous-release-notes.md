@@ -800,7 +800,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
   </tr> 
   <tr> 
    <td> Creating programs and campaigns<br /> </td> 
-   <td> Now, campaigns and programs are configured so that the day they are created is automatically used as the start date.<br /> The end date is configured according to the start date, such as:<br /> <li> D+186 for programs </li> <li> D+61 for campaigns </li> For more information, refer to the <a href="../../start/using/programs-and-campaigns.md">detailed documentation</a>.<br /> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> Email<br /> </td> 
