@@ -104,8 +104,8 @@ To help you set up your S3 account, we advise you to follow these recommendation
 ## How to define an Adobe Experience Manager external account {#how-to-define-an-adobe-experience-manager-external-account}
 
 AEM external accounts are used when integrating Campaign with AEM.
-
-The list of compatible versions of AEM and more details about this integration are available in [this document](../../integrating/using/about-campaign-integrations.md).
+<!--
+The list of compatible versions of AEM and more details about this integration are available in [this document](../../integrating/using/about-campaign-integrations.md).-->
 
 Provide the following details:
 
