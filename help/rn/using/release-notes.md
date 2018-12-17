@@ -27,7 +27,7 @@ Each release comes with new features and patches. Click on a release to view its
 
 View the latest [documentation updates](../../rn/using/documentation-updates.md) for Adobe Campaign Standard. If you're looking for a previous release, consult this [page](../../rn/using/previous-release-notes.md).
 
-## 18.9 - September 2018 release {#september-release}
+## September 2018 release {#september-release}
 
 ### What's new? {#what-s-new}
 
@@ -83,7 +83,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed an issue that prevented displaying the errors that caused the **Database Cleanup** workflow to fail. (CAMP-26876)
 * Fixed an issue which could prevent the deletion of custom fields in a push notification definition. (CAMP-25588)
 
-## 18.7 - July 2018 release {#july-release}
+## July 2018 release {#july-release}
 
 ### What's new? {#what-s-new-1}
 
@@ -146,7 +146,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed an issue in the Creative Designer which resulted in unwanted color font and formatting when changing some text with inbuilt styling to a link or when editing that link. (CAMP-26001)
 * Fixed an issue that prevented the hot click report to display the percentages for each condition in deliveries containing dynamic content. Previously, only the clicks on the default variant were displayed.
 
-## 18.6 - June 2018 release {#june-release}
+## June 2018 release {#june-release}
 
 ### Improvements {#improvements-2}
 
@@ -184,7 +184,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed an issue with the display of international data for Account levels in Dynamic reports.
 * It is now possible to create a service without a subscription or unsubscription confirmation message.
 
-## 18.5 - May 2018 release {#may-release}
+## May 2018 release {#may-release}
 
 ### What's new? {#what-s-new-2}
 
@@ -252,7 +252,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed an issue which could prevent the Creative Designer from loading. (CAMP-24573) 
 * Fixed an issue which removed characters added after personalization fields in the email subject. (CAMP-24113)
 
-## 18.4 - April 2018 release {#april-release}
+## April 2018 release {#april-release}
 
 ### Patches {#patches-4}
 
@@ -278,7 +278,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 
 * Fixed an error which caused custom resource preparation to fail.
 
-## 18.3 - March 2018 release {#march-release}
+## March 2018 release {#march-release}
 
 ### New capabilities {#new-capabilities}
 
@@ -354,7 +354,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed an error with transactional message template when the delivery resource was extended.
 * It is now possible to delete transactional messages.
 
-## 18.2 - February 2018 release {#february-release}
+## February 2018 release {#february-release}
 
 ### New capabilities {#new-capabilities-1}
 
@@ -418,7 +418,7 @@ We recommend that you do not use Internet Explorer version 11 because of possibl
 
 Some issues might occur when using contextual help links from Campaign interface. They will be fixed in 18.3.
 
-## 18.1 - January 2018 release {#january-release}
+## January 2018 release {#january-release}
 
 ### New capabilities {#new-capabilities-2}
 
@@ -497,7 +497,7 @@ Some issues might occur when using contextual help links from Campaign interface
 * Fixed an issue that could prevent a user from selecting an audience or closing the audience picker window.
 * The list of available functions in the expression editor has been updated. The **FormatCurrency** and **ConvertCurrency** functions have been removed.
 
-## 17.10 - October 2017 release {#october-release}
+## October 2017 release {#october-release}
 
 ### New capabilities {#new-capabilities-3}
 
@@ -648,7 +648,7 @@ Some issues might occur when using contextual help links from Campaign interface
 * Adobe Campaign now provides a report that displays the number of active profiles. This report is only informative, it doesn't have a direct impact on billing. For more information, refer to the [detailed documentation](../../audiences/using/active-profiles.md).
 * Fixed an issue that prevented profiles from being subscribed to a service when using the Profiles and Services API.
 
-## 17.7 - July 2017 release {#july-release-1}
+## July 2017 release {#july-release-1}
 
 ### New capabilities {#new-capabilities-5}
 
@@ -771,7 +771,7 @@ Some issues might occur when using contextual help links from Campaign interface
 * Fixed an issue which prevented you from clicking on a push event in a profile's marketing history.
 * The use of push notifications in workflows has been improved.
 
-## 17.4 - April 2017 release {#april-release-1}
+## April 2017 release {#april-release-1}
 
 ### New capabilities {#new-capabilities-7}
 
@@ -856,7 +856,7 @@ Some issues might occur when using contextual help links from Campaign interface
 * Fixed an issue where an error message was not displayed when creating an Android application linked to a mobile app that had failed being created on MCPNS.
 * Fixed an issue that allowed a user to add sounds to a silent notification.
 
-## 17.2 - March 2017 release {#march-release-1}
+## March 2017 release {#march-release-1}
 
 ### New capabilities {#new-capabilities-8}
 
@@ -924,7 +924,7 @@ Some issues might occur when using contextual help links from Campaign interface
 * Fixed an issue that could prevent from reading the content of the reject transition of a **Load file** activity.
 * Fixed an issue that prevented swapped columns to be properly taken into account when configuring a **Load file** activity.
 
-## 17.1 - January 2017 release {#january-release-1}
+## January 2017 release {#january-release-1}
 
 ### New capabilities {#new-capabilities-9}
 
