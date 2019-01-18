@@ -82,9 +82,6 @@ The steps for creating a push notification with Adobe Campaign are:
    >
    >If the payload size exceeds 4KB limit, the message will not be delivered. Personalization data impacts the size of message.
 
-**Related topic:**
-
-[About SMS and push content edition](JMA_sect1_ndh_dg4_h2b)
 
 ## Sending the notification {#sending-the-notification}
 
