@@ -5,7 +5,7 @@ user-guide-title: Adobe Campaign Standard Help
 index: n
 ---
 
-# Adobe Campaign Standard Help {#using}	
+# Adobe Campaign Standard Help {#using}
 
 + Release Notes {#RLN}
   + Campaign Standard Releases {#campaign-standard-releases}
