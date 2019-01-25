@@ -7,7 +7,6 @@ index: n
 
 # Adobe Campaign Standard Help {#using}	
 
-
 + Release Notes {#RLN}
   + Campaign Standard Releases {#campaign-standard-releases}
          + [Release Notes] (rn/using/release-notes.md)
