@@ -305,7 +305,7 @@ index: n
        + [Step 3: Update profiles and prepare an email](developing/using/step-3--update-profiles-and-prepare-an-email.md)
 + Administrating {#ADM}
   + About Administrating Adobe Campaign {#about-administrating-adobe-campaign}
-  + Users & security {#users-e-security}
+  + Users and security {#users-e-security}
        + [About access management](administration/using/about-access-management.md)
        + [Types of users](administration/using/types-of-users.md)
        + [Organizational units](administration/using/organizational-units.md)
