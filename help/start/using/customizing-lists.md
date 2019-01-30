@@ -3,13 +3,13 @@ title: Customizing lists
 seo-title: Customizing lists
 description: Customizing lists
 seo-description: "Learn how to customize display and act on list screens in Adobe Campaign Standard:sorting, filtering, deleting or duplicating elements. Lists screens display elements of one or several given resources."
-uuid: fd849869-fad2-40bb-a698-94a08e60ebd8
+uuid: 6b7856fb-e212-4fe2-837e-ab398d546bc9
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-discoiquuid: 0c0983b2-468a-4b8b-8df1-2d00180d3bd4
+discoiquuid: c334a636-18cc-403c-ad5b-be3e1f95127c
 isreadyforlocalization: false
 index: y
 internal: n
@@ -41,15 +41,11 @@ You can also configure whether columns in a list are to be displayed or not. To 
 
    ![](assets/export_list_mode_switch.png)
 
-1. Go to the list configuration window by selecting the  ![](assets/ColumnSettings.png)
-
-   button in the action bar.
+1. Go to the list configuration window by selecting the ![](assets/ColumnSettings.png) button in the action bar.
 
    ![](assets/list_configuration1.png)
 
-1. Add the columns that you want to include in your list. To do this, select a column from the left-hand side of the window, then use the  ![](assets/arrowRight.png)
-
-   button from the action bar to add a column.
+1. Add the columns that you want to include in your list. To do this, select a column from the left-hand side of the window, then use the ![](assets/arrowRight.png) button from the action bar to add a column.
 
    The selectable columns correspond to the list resource.
 
@@ -59,12 +55,8 @@ You can also configure whether columns in a list are to be displayed or not. To 
     * **[!UICONTROL ASC]** : Applies an ascending (rising) sort on the column
     * **[!UICONTROL DESC]** : Applies a descending (declining) sort on the column.
 
-1. Delete the columns that you do not want to be displayed by checking the boxes corresponding to the columns to delete. Then, use the  ![](assets/delete.png)
-
-   button from the action bar to confirm deleting them.
-1. Once your list contains the correct columns, you can change the order in which they are displayed in the list by checking the columns that you want to move. Then, use the  ![](assets/arrowDown.png) and  ![](assets/arrowUp.png)
-
-   arrows.
+1. Delete the columns that you do not want to be displayed by checking the boxes corresponding to the columns to delete. Then, use the ![](assets/delete.png) button from the action bar to confirm deleting them.
+1. Once your list contains the correct columns, you can change the order in which they are displayed in the list by checking the columns that you want to move. Then, use the ![](assets/arrowDown.png) and ![](assets/arrowUp.png) arrows.
 1. Confirm your list configuration by selecting **[!UICONTROL OK]** .
 
 Your list is now displayed as you have configured it.
