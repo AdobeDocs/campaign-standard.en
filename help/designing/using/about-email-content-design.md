@@ -309,14 +309,14 @@ Adobe Campaign offers several email authoring options. The table below shows the
   </tr> 
   <tr> 
    <td> <strong>Benefits</strong><br /> </td> 
-   <td> <li> Easy email building through drag-and-drop experience </li> <li> Functionalities similar to legacy content editor </li> <li> Reusable content with fragments </li> </td> 
-   <td> <li> Reusing assets from website in emails </li> <li> Leveraging the power of Experience Manager in email contents </li> </td> 
-   <td> <li> Capability for a developer to directly code an email </li> <li> Bi-directional synchronization </li> <li> Editing offline in Dreamweaver and synchronizing later </li> <li> Uploading images to Adobe Campaign through Dreamweaver </li> </td> 
+   <td> <ul><li> Easy email building through drag-and-drop experience </li> <li> Functionalities similar to legacy content editor </li> <li> Reusable content with fragments </li></ul> </td> 
+   <td> <ul><li> Reusing assets from website in emails </li> <li> Leveraging the power of Experience Manager in email contents </li></ul> </td> 
+   <td> <ul><li> Capability for a developer to directly code an email </li> <li> Bi-directional synchronization </li> <li> Editing offline in Dreamweaver and synchronizing later </li> <li> Uploading images to Adobe Campaign through Dreamweaver </li></ul> </td> 
   </tr> 
   <tr> 
    <td> <strong>Limitations</strong><br /> </td> 
-   <td> <li> No conditional content within fragments </li> <li> Using Experience Manager fragments not possible </li> </td> 
-   <td> <li> Advanced personalization difficult to implement </li> <li> Need to send tests in Adobe Campaign </li> </td> 
+   <td> <ul><li> No conditional content within fragments </li> <li> Using Experience Manager fragments not possible </li></ul> </td> 
+   <td> <ul><li> Advanced personalization difficult to implement </li> <li> Need to send tests in Adobe Campaign </li></ul> </td> 
    <td> Dynamic content not supported<br /> </td> 
   </tr> 
   <tr> 
