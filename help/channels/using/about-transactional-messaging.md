@@ -68,12 +68,12 @@ The following schema illustrates the different steps of the transactional messag
 
   1a. Event publication
 
-2. Creation of the associated transactional message
+1. Creation of the associated transactional message
 
   2b. Transactional message publication
 
-3. Trigger message request
-4. Associated message delivery
+1. Trigger message request
+1. Associated message delivery
 
 ## Transactional messaging limitations {#transactional-messaging-limitations}
 
