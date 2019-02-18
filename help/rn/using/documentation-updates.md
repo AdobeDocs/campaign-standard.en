@@ -67,7 +67,7 @@ The Triggers - Campaign integration documentation has been updated. [Read more](
 
 Update of the contextual help links available directly from Adobe Campaign.
 
-Added a note on the addition of a timestamp in the name of the file containing the rejects. [Read more](automating1FLB_sect2_n2z_qbx_35)
+Added a note on the addition of a timestamp in the name of the file containing the rejects. [Read more](../../automating/using/load-file.md#configuration)
 
 Added information when importing fields made up of columns with fixed length. [Read more](../../automating/using/load-file.md#configuration)
 
