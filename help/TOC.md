@@ -11,6 +11,7 @@ index: n
 + Release Notes {#release-notes}
   + Campaign Standard Releases {#campaign-standard-releases}
        + [Release Notes](rn/using/release-notes.md)
+       + [Release Notes 2018](rn/using/release-notes-2018.md)
        + [Release Notes 2017](rn/using/release-notes-2017.md)
        + [Release Notes 2015-2016](rn/using/release-notes-2015-2016.md)
        + [Documentation Updates](rn/using/documentation-updates.md)
@@ -174,18 +175,19 @@ index: n
        + [Indicator calculation](reporting/using/indicator-calculation.md)
   + List of reports {#list-of-reports}
        + [Defining the report period](reporting/using/defining-the-report-period.md)
-       + [Delivery summary](reporting/using/delivery-summary.md)
        + [Bounce summary](reporting/using/bounce-summary.md)
-       + [Delivery throughput](reporting/using/delivery-throughput.md)
-       + [Tracking indicators](reporting/using/tracking-indicators.md)
        + [Breakdown by domains](reporting/using/breakdown-by-domains.md)
-       + [Non-deliverables and bounces](reporting/using/non-deliverables-and-bounces.md)
-       + [URLs and click streams](reporting/using/urls-and-click-streams.md)
        + [Complaints](reporting/using/complaints.md)
+       + [Delivery summary](reporting/using/delivery-summary.md)
+       + [Delivery throughput](reporting/using/delivery-throughput.md)
+       + [In-App report](reporting/using/in-app-report.md)
+       + [Non-deliverables and bounces](reporting/using/non-deliverables-and-bounces.md)
        + [Opens](reporting/using/opens.md)
-       + [SMS report](reporting/using/sms-report.md)
        + [Push notification report](reporting/using/push-notification-report.md)
+       + [SMS report](reporting/using/sms-report.md)
+       + [Tracking indicators](reporting/using/tracking-indicators.md)
        + [Unsubscriptions](reporting/using/unsubscriptions.md)
+       + [URLs and click streams](reporting/using/urls-and-click-streams.md)
        + [Hot clicks](reporting/using/hot-clicks.md)
   + Customizing reports {#customizing-reports}
        + [Adding panels](reporting/using/adding-panels.md)
@@ -285,25 +287,21 @@ index: n
        + [Resource statuses](developing/using/resource-statuses.md)
        + [Monitoring data model changes](developing/using/monitoring-data-model-changes.md)
   + Adding or extending a resource {#adding-or-extending-a-resource}
-       + [Key steps](developing/using/key-steps.md)
-       + [Step 1: Define the resource](developing/using/step-1--define-the-resource.md)
-       + [Step 2: Configure the resource data structure](developing/using/step-2--configure-the-resource-data-structure.md)
-       + [Step 3: Configure the screens](developing/using/step-3--configure-the-screens.md)
-       + [Step 4: Define filters](developing/using/step-4--define-filters.md)
-       + [Step 5: Update the database structure](developing/using/step-5--update-the-database-structure.md)
-       + [Optional: Editing a resource properties](developing/using/optional--editing-a-resource-properties.md)
-       + [Optional: Deleting a resource](developing/using/optional--deleting-a-resource.md)
-       + [Generating a unique ID for profiles and custom resources](developing/using/generating-a-unique-id-for-profiles-and-custom-resources.md)
+       + [Key steps of adding a resource](developing/using/key-steps-of-adding-a-resource.md)
+       + [Creating or extending the resource](developing/using/creating-or-extending-the-resource.md)
+       + [Configuring the resource's data structure](developing/using/configuring-the-resource-s-data-structure.md)
+       + [Configuring the screen definition](developing/using/configuring-the-screen-definition.md)
+       + [Configuring filter definition](developing/using/configuring-filter-definition.md)
+       + [Updating the database structure](developing/using/updating-the-database-structure.md)
+       + [Deleting a resource](developing/using/deleting-a-resource.md)
   + Use case: Extending the API {#use-case--extending-the-api}
        + [About extending the API](developing/using/about-extending-the-api.md)
        + [Step 1: Add extension fields to the profile resource](developing/using/step-1--add-extension-fields-to-the-profile-resource.md)
        + [Step 2: Publish the extension](developing/using/step-2--publish-the-extension.md)
        + [Step 3: Verify the extension](developing/using/step-3--verify-the-extension.md)
-  + Use case: Extending profiles {#use-case--extending-profiles}
-       + [About extending profiles](developing/using/about-extending-profiles.md)
-       + [Step 1: Extend the profile resource](developing/using/step-1--extend-the-profile-resource.md)
-       + [Step 2: Extend the test profile](developing/using/step-2--extend-the-test-profile.md)
-       + [Step 3: Update profiles and prepare an email](developing/using/step-3--update-profiles-and-prepare-an-email.md)
+  + Use cases: Extending resources {#use-cases--extending-resources}
+       + [Extending the profile resource with a new field](developing/using/extending-the-profile-resource-with-a-new-field.md)
+       + [Extending the subscriptions to an application resource](developing/using/extending-the-subscriptions-to-an-application-resource.md)
 + Administrating {#administrating}
   + [About Administrating Adobe Campaign](administration/using/about-administrating-adobe-campaign.md)
   + Users and security {#users-and-security}
@@ -318,6 +316,7 @@ index: n
        + [About channel configuration](administration/using/about-channel-configuration.md)
        + [Configuring email channel](administration/using/configuring-email-channel.md)
        + [Configuring SMS channel](administration/using/configuring-sms-channel.md)
+       + [Configuring a mobile application](administration/using/configuring-a-mobile-application.md)
        + [Configuring transactional messaging](administration/using/configuring-transactional-messaging.md)
   + Working with typology rules {#working-with-typology-rules}
        + [About typology rules](administration/using/about-typology-rules.md)
@@ -329,4 +328,4 @@ index: n
        + [Target mappings in Campaign](administration/using/target-mappings-in-campaign.md)
        + [Technical workflows](administration/using/technical-workflows.md)
        + [Branding](administration/using/branding.md)
-       + [Adobe Campaign notifications](administration/using/adobe-campaign-notifications.md)
+       + [Sending internal notifications](administration/using/sending-internal-notifications.md)
