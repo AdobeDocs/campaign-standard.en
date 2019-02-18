@@ -64,16 +64,16 @@ The following schema illustrates the different steps of the transactional messag
 
 ![](assets/message-center_principle.png)
 
-* 1. Creation of the transactional event
+1. Creation of the transactional event
 
   1a. Event publication
 
-* 2. Creation of the associated transactional message
+2. Creation of the associated transactional message
 
   2b. Transactional message publication
 
-* 3. Trigger message request
-* 4. Associated message delivery
+3. Trigger message request
+4. Associated message delivery
 
 ## Transactional messaging limitations {#transactional-messaging-limitations}
 
