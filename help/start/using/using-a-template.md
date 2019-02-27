@@ -3,13 +3,13 @@ title: Using a template
 seo-title: Using a template
 description: Using a template
 seo-description: Discover a simple step-by-step procedure to use an existing template.
-uuid: 17b33020-5f8b-493a-8bc1-92d73650862a
+uuid: 2375ee2d-0db7-430c-a316-b256603ee6a5
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
 topic-tags: managing-templates
-discoiquuid: a8b3c2f8-784b-432a-ae0e-278af3ed1778
+discoiquuid: b1dd5884-95ab-43a3-8da2-e965b5c4441a
 index: y
 internal: n
 snippet: y

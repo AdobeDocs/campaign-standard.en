@@ -3,13 +3,13 @@ title: Discovering communication channels
 seo-title: Discovering communication channels
 description: Discovering communication channels
 seo-description: Learn how to send personalized messages on various channels and to create cross-channel campaigns to better target your recipients.
-uuid: e67dd421-7414-4eb3-83eb-c023b0113bcc
+uuid: 80452cd3-1b0b-4590-96ef-578c07b61fba
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
-discoiquuid: 9be0f1f2-8c1e-462f-81ee-35f5f170d80b
+discoiquuid: 1f79002b-cf07-4e1f-85c9-159fa7e6f926
 index: y
 internal: n
 snippet: y
@@ -40,5 +40,5 @@ The functional administrator in charge of configuring the templates, can define,
 
 **Related topics**:
 
-*
+* [Optimizing your deliverability](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_Deliverability.html)
 

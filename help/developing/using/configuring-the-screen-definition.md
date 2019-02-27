@@ -3,13 +3,13 @@ title: Configuring the screen definition
 seo-title: Configuring the screen definition
 description: Configuring the screen definition
 seo-description: Learn how to define new Adobe Campaign screens based on the resource data structure.
-uuid: 71c0e377-c3da-430e-8a59-ab640b6ba58a
+uuid: d7478441-18e3-4fdf-8800-cecb3967ee54
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
-discoiquuid: 2b4dc6f3-6dcd-452f-afd6-b17fd14e80d0
+discoiquuid: 13d9865d-c963-468d-b7c8-0cc10e271997
 index: y
 internal: n
 snippet: y

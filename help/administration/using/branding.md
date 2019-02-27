@@ -3,13 +3,13 @@ title: Branding
 seo-title: Branding
 description: Branding
 seo-description: Discover all the tools available to manage your branding identities.
-uuid: 36c2f1f2-bfc7-4134-bf44-14700e56b96c
+uuid: 40e772ab-3d0e-460c-be5b-aba435e3d3d3
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: application-settings
-discoiquuid: 642c09c1-b04c-4ea0-b109-6ea91d037754
+discoiquuid: 49d641c9-0c1e-4fdb-8961-ad2370a748fd
 index: y
 internal: n
 snippet: y
@@ -48,9 +48,9 @@ A **Brand** is defined by the following characteristics:
   ![](assets/branding_01.png)
 
     * **Label** visible in the interface
-    * 
+    * **Brand name**
     * **Website URL** and **Website label** of the brand
-    *
+    * **Brand logo**
 
 * **[!UICONTROL Header parameters of sent emails]** which personalizes what the recipients of your campaigns will see. This section contains the following fields:
 

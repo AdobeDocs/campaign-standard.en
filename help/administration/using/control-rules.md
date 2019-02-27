@@ -3,13 +3,13 @@ title: Control rules
 seo-title: Control rules
 description: Control rules
 seo-description: Learn how to reinforce the quality check of your messages with control rules.
-uuid: 7c49e21a-4c19-464b-a2b7-12c75f037f82
+uuid: e8ec3f1d-7496-4a2a-92de-75cf9b382096
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
-discoiquuid: dc4b7e59-fe16-4bb1-bba0-bd26911e3d69
+discoiquuid: 08bc00c2-dfb3-49aa-bb43-e249ff1a37e3
 index: y
 internal: n
 snippet: y
@@ -38,11 +38,21 @@ You can choose the moment at which the rule will be applied from one of the phas
 
 Possible values are:
 
-* The control rule can be applied at this phase so that the personalization step is not executed in the event of an error.
-* If you need to know the volume of the target in order to apply the control rule, select this phase.
+* **At the start of targeting**
+
+  The control rule can be applied at this phase so that the personalization step is not executed in the event of an error.
+
+* **After targeting**
+
+  If you need to know the volume of the target in order to apply the control rule, select this phase.
 
   For example, the **Check proof size** control rule applies after the targeting stage: this rule prevents the preparation of message personalization if there are too many proof recipients.
 
-* This phase must be selected if the check concerns approving message personalization. Message personalization is carried out during the analysis phase.
-* When a check requires message personalization to be complete, select this phase.
+* **At the start of personalization**
+
+  This phase must be selected if the check concerns approving message personalization. Message personalization is carried out during the analysis phase.
+
+* **At the end of the analysis**
+
+  When a check requires message personalization to be complete, select this phase.
 

@@ -3,13 +3,13 @@ title: Personalizing an image source
 seo-title: Personalizing an image source
 description: Personalizing an image source
 seo-description: Learn how to personalize an image in your message according to a particular criterion or to use tracking.
-uuid: f567ee06-17c6-43b1-933d-ce4aa7dd7e28
+uuid: c213d979-b157-48ca-8eab-f9dddb8eb96c
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: using-images
-discoiquuid: 74dba60a-a220-4eb8-924b-d82de92e2dc3
+discoiquuid: 1d406858-b7bf-4224-b957-0e5747dee91c
 index: y
 internal: n
 snippet: y

@@ -3,13 +3,13 @@ title: Defining import templates
 seo-title: Defining import templates
 description: Defining import templates
 seo-description: Import templates allow to reduce the settings needed and to import data faster.
-uuid: 22a54f44-a494-467e-a394-575a841733ed
+uuid: f7a52b85-38fe-4b57-a9e2-0fff2687cbe4
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
-discoiquuid: 838b1172-1999-4070-bd94-01044195408c
+discoiquuid: f618d0f7-f092-477b-a73a-d5836d7aa4fa
 index: y
 internal: n
 snippet: y
@@ -83,7 +83,7 @@ The import template is now available for the users and can be used to upload fil
 
 **Related topics:**
 
-* 
-* 
-*
+* [Workflows](../../automating/using/discovering-workflows.md)
+* [Importing data](../../automating/using/importing-data.md)
+* [Example: Import workflow template](../../automating/using/importing-data.md#example--import-workflow-template)
 

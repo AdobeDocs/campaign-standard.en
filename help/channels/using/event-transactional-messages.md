@@ -3,13 +3,13 @@ title: Event transactional messages
 seo-title: Event transactional messages
 description: Event transactional messages
 seo-description: Learn how to create and publish an event transactional message.
-uuid: d4ce8173-cfe8-46bf-a2df-5ad37bd44174
+uuid: 5e55148d-63b8-413f-9d94-ad2921613c6a
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
-discoiquuid: fc920dda-d472-488e-ba77-b2dee4469681
+discoiquuid: 7417e922-be66-4390-b51f-3139a9908108
 index: y
 internal: n
 snippet: y
@@ -73,8 +73,8 @@ You can now access the message that you created and select the updated test prof
 
 **Related topics:**
 
-* 
-*
+* [Managing test profiles](../../sending/using/managing-test-profiles-and-sending-proofs.md)
+* [Defining audiences](../../audiences/using/creating-audiences.md)
 
 ## Personalizing a transactional message {#personalizing-a-transactional-message}
 

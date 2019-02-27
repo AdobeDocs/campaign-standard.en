@@ -3,13 +3,13 @@ title: Adding Target dynamic content
 seo-title: Adding Target dynamic content
 description: Adding Target dynamic content
 seo-description: Learn how to add Adobe Target dynamic content in one of your Adobe Campaign delivery.
-uuid: 9b3196a5-e96d-46c2-8049-cd0035955fb5
+uuid: e970f079-8beb-4c3c-8e15-044cebc43643
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
-discoiquuid: 85fd514a-2499-4398-a1d5-c2249ff4431b
+discoiquuid: 5e29d3cd-c3ad-43b9-8313-24732ff83dda
 index: y
 internal: n
 snippet: y
@@ -53,7 +53,7 @@ Your delivery containing the dynamic image can now be send. Its results can be f
 
 **Related topics:**
 
-* 
-* 
+* [Adobe Target Portal](https://marketing.adobe.com/resources/help/en_US/target/a4t/c_campaign_and_target.html)
+* [About email content design](../../designing/using/about-email-content-design.md)
 * [Personalize Email Images in Real-Time](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html) video
 

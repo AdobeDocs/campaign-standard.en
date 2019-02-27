@@ -3,13 +3,13 @@ title: Computing the sending date
 seo-title: Computing the sending date
 description: Computing the sending date
 seo-description: Discover how to send a message at a specific date and time.
-uuid: 533af4c2-69ef-4024-ad20-3d36a0e82c93
+uuid: b7455d54-6387-4c02-8414-060059bb9e01
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-discoiquuid: c4cf978c-8dbd-4163-99da-d473e8b6d50f
+discoiquuid: 7db00723-7c87-4a84-9134-d49ba9354ec8
 index: y
 internal: n
 snippet: y
@@ -51,9 +51,9 @@ You can schedule this using a workflow.
 
       For the remaining segments, define the next batches as follows:
 
-        * 
-        * 
-        *
+        * **2017-06-03 10:00:00+01**
+        * **2017-06-04 10:00:00+01**
+        * **2017-06-05 10:00:00+01**
 
     * Make sure you select the **[!UICONTROL Limit the population of this segment]** option.
 

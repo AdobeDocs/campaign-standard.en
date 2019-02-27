@@ -3,13 +3,13 @@ title: Testing your triggers
 seo-title: Testing your triggers
 description: Testing your triggers
 seo-description: 
-uuid: 59e17ea6-6ad1-41a2-b233-f41f667eda70
+uuid: 4b927b23-ba08-4471-8444-d035202af20c
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-discoiquuid: 9cfab0d8-1dbe-45e6-bf98-10bcd8d29905
+discoiquuid: c97f8652-dcf3-4b1a-b78e-1d40cee013b8
 index: y
 internal: n
 snippet: y

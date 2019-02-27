@@ -3,13 +3,13 @@ title: Editing profiles
 seo-title: Editing profiles
 description: Editing profiles
 seo-description: Learn how to edit existing profiles and access contact information, prefered channels, tracking logs, subscriptions, etc.
-uuid: a73c727e-720b-41a4-b9f6-1a7702e7a071
+uuid: 6432ca4a-235d-416b-8447-5467261a4c53
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
-discoiquuid: b7089fe3-6287-4798-a43c-f8f24c50c2b5
+discoiquuid: 70513152-7b8a-4923-bff3-d0fab92000e7
 index: y
 internal: n
 snippet: y

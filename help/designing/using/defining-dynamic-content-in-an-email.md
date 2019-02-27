@@ -3,13 +3,13 @@ title: Defining dynamic content in an email
 seo-title: Defining dynamic content in an email
 description: Defining dynamic content in an email
 seo-description: Follow these steps to display different contents dynamically in an email according to the conditions defined through the Adobe Campaign expression editor.
-uuid: 0ad22a87-ae4a-4ad8-8264-4859dc1b0884
+uuid: 1fa39743-0b8e-4f5d-a632-a415e09961ec
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: defining-conditional-content
-discoiquuid: ca4f4668-af33-4fcd-b2a7-8dc6ab5cfaf1
+discoiquuid: fb894e71-e1a2-4aed-b89e-072c75bc8288
 index: y
 internal: n
 snippet: y
@@ -78,8 +78,8 @@ Defining dynamic content is different from [defining visibility conditions](../.
 
 **Related topics:**
 
-* 
-*
+* [Sending proofs](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs)
+* [Advanced expression editing](../../automating/using/editing-queries.md#about-query-editor)
 
 ## Order of priority {#order-of-priority}
 

@@ -3,13 +3,13 @@ title: Landing page content editor interface
 seo-title: Landing page content editor interface
 description: Landing page content editor interface
 seo-description: Learn how to use the different sections of the editor, such as the action bar, to modify your landing page content.
-uuid: 49b9f419-0c9e-4ba7-b487-9c15710de579
+uuid: 0762dafd-ed87-4d8c-90f4-362ff984e15a
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: editing-landing-page-content
-discoiquuid: 4c691946-36a2-46ba-a5a6-9a82e722f406
+discoiquuid: fdded76d-70f0-4659-87d4-c80f9c1d88ca
 index: y
 internal: n
 snippet: y

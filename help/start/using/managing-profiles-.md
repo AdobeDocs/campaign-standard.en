@@ -3,13 +3,13 @@ title: Managing profiles
 seo-title: Managing profiles 
 description: Managing profiles 
 seo-description: "Learn about profiles, targeting and audience creation in Campaign: send personalized messages, and access all your data to discover customer insights from both online and offline channels."
-uuid: 9b67f168-a90a-4a27-aa5d-ec9765aee78a
+uuid: 98f44d68-c723-4810-bfda-7bad332c7cd7
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
 topic-tags: about-adobe-campaign
-discoiquuid: fd5b98fd-181d-4c42-87e8-cdc2257b813e
+discoiquuid: b1439a4f-401f-4fa1-b92f-26afb2ab3e56
 index: y
 internal: n
 snippet: y

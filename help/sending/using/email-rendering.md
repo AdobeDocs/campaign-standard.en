@@ -3,13 +3,13 @@ title: Email rendering
 seo-title: Email rendering
 description: Email rendering
 seo-description: Discover the email rendering feature.
-uuid: c964a719-e71f-4837-93b4-a80355d5a5c1
+uuid: d4a40853-fb71-430b-b6a4-3c953e09f1e4
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
-discoiquuid: 608cfa52-8223-4090-8605-ef2d406f9477
+discoiquuid: 4ebea2b4-0698-4071-b56b-aa25439c8da8
 index: y
 internal: n
 snippet: y
@@ -64,9 +64,9 @@ The dedicated email rendering report is displayed. See [Email rendering report d
 
 **Related topics**:
 
-* 
-* 
-*
+* [Creating an email](../../channels/using/creating-an-email.md)
+* [Managing test profiles and sending proofs](../../sending/using/managing-test-profiles-and-sending-proofs.md)
+* [Query editor](../../automating/using/editing-queries.md#about-query-editor)
 
 ## Email rendering report description {#email-rendering-report-description}
 

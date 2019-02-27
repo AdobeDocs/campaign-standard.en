@@ -3,13 +3,13 @@ title: Example of direct mail in a workflow
 seo-title: Example of direct mail in a workflow
 description: Example of direct mail in a workflow
 seo-description: Discover an example of a direct mail delivery in a workflow.
-uuid: 1aec81db-dc34-4fc9-b653-39c1840ab48b
+uuid: 5a03d2c9-d309-40de-aa7f-d329bdbef073
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: direct-mail
-discoiquuid: 14d1c9ae-bd83-4959-84d9-e6032d15ba41
+discoiquuid: e6c9253f-e48a-4593-a677-45dc13449ae1
 index: y
 internal: n
 snippet: y

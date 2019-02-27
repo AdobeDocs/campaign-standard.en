@@ -3,13 +3,13 @@ title: Fatigue rules
 seo-title: Fatigue rules
 description: Fatigue rules
 seo-description: Create fatigue rules to manage over-communication with profiles.
-uuid: 9551e666-b9bd-4f1e-a4f5-26d96cac07f0
+uuid: a7349918-4656-45a3-9e03-b775ef897eca
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
-discoiquuid: b22307dd-2f5e-40e9-bb43-ae7024c302d0
+discoiquuid: 1f9e6c07-4dff-48dc-88dd-74f9ad5da055
 index: y
 internal: n
 snippet: y
@@ -31,9 +31,9 @@ To implement fatigue rules, you define a maximum number of messages per profile 
 
 Related topics:
 
-* 
-* 
-*
+* [Preparation](../../administration/using/configuring-email-channel.md#preparation)
+* [Managing typologies](../../administration/using/about-typology-rules.md#managing-typologies)
+* [Typology rules](../../administration/using/about-typology-rules.md#typology-rules)
 
 ## Creating a fatigue rule {#creating-a-fatigue-rule}
 

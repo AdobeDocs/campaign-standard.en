@@ -3,13 +3,13 @@ title: About SMS messages
 seo-title: About SMS messages
 description: About SMS messages
 seo-description: Discover the main specificities of the SMS channel in Adobe Campaign.
-uuid: 6c8907a5-047f-4560-a7c6-d1e60a292fe8
+uuid: bb7a4b25-fef4-452b-9bf9-e6ba21cd46f6
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: sms-messages
-discoiquuid: 316d51e4-69c6-4cd8-9ca5-d71409c521a2
+discoiquuid: 0b7d1724-817b-4b40-b5e9-3d8d180b391d
 index: y
 internal: n
 snippet: y
@@ -38,8 +38,8 @@ To deliver SMS messages to a mobile telephone you need:
 
 **Related topics:**
 
-* 
-*
+* [Managing templates](../../start/using/about-templates.md)
+* [SMS configuration](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)
 
 ## SMS delivery template {#sms-delivery-template}
 
@@ -55,5 +55,5 @@ Adobe Campaign offers a delivery template for mobile devices. This template must
 
 **Related topics:**
 
-*
+* [Managing templates](../../start/using/about-templates.md)
 

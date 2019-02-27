@@ -3,13 +3,13 @@ title: About direct mail
 seo-title: About direct mail
 description: About direct mail
 seo-description: Discover the main specificities of the direct mail channel in Adobe Campaign.
-uuid: f0554247-1007-4791-a6c5-1cbaef2db591
+uuid: 33620437-ca38-4f4d-a5d4-2406d60a4f7e
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: direct-mail
-discoiquuid: f58e98a1-b82d-4d38-868a-fa9141801629
+discoiquuid: 56d65015-5871-4302-98ad-ee415fc755f9
 index: y
 internal: n
 snippet: y

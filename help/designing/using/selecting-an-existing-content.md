@@ -3,13 +3,13 @@ title: Selecting an existing content
 seo-title: Selecting an existing content
 description: Selecting an existing content
 seo-description: Learn how to load an existing content from another source when creating an email or a landing page.
-uuid: de874beb-eb0d-4edf-aa4b-ce26dbac5d3c
+uuid: 2eaf220c-72ec-4eb0-85f6-6e13136ba66c
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: loading-content
-discoiquuid: 4e5136f3-5dac-42e6-94ca-9c91f75702fa
+discoiquuid: f08c1259-ea8f-4e06-ae7f-c2fd9be06ddc
 index: y
 internal: n
 snippet: y
@@ -49,6 +49,6 @@ When creating an email or a landing page, you can choose to load an existing con
 
 **Related topics:**
 
-* 
-*
+* [Creating an email](../../channels/using/creating-an-email.md)
+* [Managing landing pages](../../channels/using/about-landing-pages.md)
 

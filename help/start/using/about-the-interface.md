@@ -3,13 +3,13 @@ title: About the interface
 seo-title: About the interface
 description: About the interface
 seo-description: Campaign workspace is based on concepts which are common to all the Adobe Experience Cloud solutions..
-uuid: eb3c53a4-edf0-4cb0-8356-90cecae5cc4b
+uuid: dc19911a-d6fa-43f4-9c2a-032e91a3b80e
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-discoiquuid: ab8044c2-ba46-4ffd-953f-4fe6518ec946
+discoiquuid: 9873c6b5-44d4-4c34-b3f2-0c81cfa5402c
 index: y
 internal: n
 snippet: y

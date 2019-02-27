@@ -3,13 +3,13 @@ title: About landing page content design
 seo-title: About landing page content design
 description: About landing page content design
 seo-description: Learn about the specificities of the landing page content editor.
-uuid: f5e44e03-35a4-4f80-88f3-1f099bbae638
+uuid: 2ec47b07-cb00-469e-91ca-b437f3d53ce6
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: editing-landing-page-content
-discoiquuid: 51464e35-b532-4822-b4b1-e64086c1d0dd
+discoiquuid: 10bd3a0c-e6d1-4881-9eeb-77c0d50a8e70
 index: y
 internal: n
 snippet: y
@@ -23,9 +23,9 @@ Use the standard content editor to create and modify the content of your landing
 
 This section describes the specificities of the landing page content editor:
 
-* 
-* 
-*
+* [Landing page content editor interface](../../designing/using/landing-page-content-editor-interface.md)
+* [Managing landing page structure and style](../../designing/using/managing-landing-page-structure-and-style.md)
+* [Changing a landing page form data properties](../../designing/using/changing-a-landing-page-form-data-properties.md)
 
 To know more about actions that are common to one or more marketing activities, refer to the following sections:
 

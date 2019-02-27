@@ -3,13 +3,13 @@ title: Configuring a mobile application
 seo-title: Configuring a mobile application
 description: Configuring a mobile application
 seo-description: 
-uuid: 7abb54c2-d8cd-4d2f-acfc-2ccf940d80ab
+uuid: cdc5b466-58d9-4f76-8efc-2d4bb2c50058
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-discoiquuid: 27941d94-373a-49e6-9255-25d1f2b296ea
+discoiquuid: 7015d6de-32ce-430a-9d2f-f93df5126858
 index: y
 internal: n
 snippet: y

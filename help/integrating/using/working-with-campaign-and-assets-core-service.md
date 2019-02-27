@@ -3,13 +3,13 @@ title: Working with Campaign and Assets core service
 seo-title: Working with Campaign and Assets core service
 description: Working with Campaign and Assets core service
 seo-description: Use any resources shared within Adobe Experience Cloud in your Adobe Campaign messages and landing pages thanks to the Assets core service integration.
-uuid: 48ad1441-852e-499c-acff-a1d398e42430
+uuid: 34833158-04a6-4704-bf64-e337705400a6
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-assets-core-service
-discoiquuid: cfb989df-ae47-43e7-b12c-b6dc93bf9c0a
+discoiquuid: 20f66913-33b9-4754-a2c6-77f21d959366
 index: y
 internal: n
 snippet: y
@@ -35,6 +35,6 @@ The image is then inserted. The delivery can now be personalized as needed and s
 
 **Related topics:**
 
-* 
-*
+* [Assets and Sharing](https://marketing.adobe.com/resources/help/en_US/mcloud/experience-cloud-assets.html) 
+* [Content editor](../../designing/using/example--email-personalization.md)
 

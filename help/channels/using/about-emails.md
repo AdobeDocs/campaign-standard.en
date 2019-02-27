@@ -3,13 +3,13 @@ title: About emails
 seo-title: About emails
 description: About emails
 seo-description: Discover the different types of emails that you can send with Adobe Campaign.
-uuid: ca6e5fc1-1599-4bbf-9306-1a7709119603
+uuid: a4453a68-055b-49f9-bd98-21ff89e24f0e
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: email-messages
-discoiquuid: 374a4f15-fd82-475f-82be-c10f93215b59
+discoiquuid: 2b88603a-8fa5-4481-b857-d3cbf6956898
 index: y
 internal: n
 snippet: y

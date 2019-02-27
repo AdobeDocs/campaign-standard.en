@@ -3,13 +3,13 @@ title: About In-App messaging
 seo-title: About In-App messaging
 description: About In-App messaging
 seo-description: Display message or alert within the mobile application with In-App messaging.
-uuid: d97fd6dc-753c-4806-944a-9d84d06ce4be
+uuid: 749c0646-bef2-4c0e-a574-72b09deaa057
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: in-app-messaging
-discoiquuid: e1e412a6-0d90-4b9e-b4ee-f6acff7be06d
+discoiquuid: 51696317-a9a1-43e1-8c21-b82e81960fc2
 index: y
 internal: n
 snippet: y
@@ -40,7 +40,7 @@ To learn how to configure Experience Platform SDKs, refer to this [page](https:/
 
 **Related content:**
 
-* 
-* 
-*
+* [Preparing and sending an In-App message](../../channels/using/preparing-and-sending-an-in-app-message.md)
+* [Customizing an In-App message](../../channels/using/customizing-an-in-app-message.md)
+* [Sending an In-App message within a workflow](../../automating/using/in-app-delivery.md)
 

@@ -3,13 +3,13 @@ title: List of roles
 seo-title: List of roles
 description: List of roles
 seo-description: Find out the list of roles that you can assign to your users.
-uuid: 7d180f1b-0c65-4947-85d6-18b56f409602
+uuid: 01c5ea1f-8d12-4137-9fda-6cb6da065912
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-discoiquuid: f6b27f95-cda7-40b3-9337-f71835bef88b
+discoiquuid: b3dbbff5-292b-47a5-b62e-b8667bc619ec
 index: y
 internal: n
 snippet: y
@@ -41,6 +41,6 @@ Default rights are:
 
 **Related topics:**
 
-* 
-*
+* [About access management](../../administration/using/about-access-management.md)
+* [Managing groups and users](../../administration/using/managing-groups-and-users.md)
 

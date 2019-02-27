@@ -3,13 +3,13 @@ title: External accounts
 seo-title: External accounts
 description: External accounts
 seo-description: Configure external accounts to set up connections with external systems such as SFTP servers.
-uuid: b007ea97-5d40-4ae0-9e52-8eddd2ac5019
+uuid: ddbdda1c-49a4-47e4-a089-200a8a3f9e2a
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: application-settings
-discoiquuid: ae508e62-4a66-4433-bd21-87e7a12b5564
+discoiquuid: 7416bec4-c203-4b1a-a3f7-2191f46769a9
 index: y
 internal: n
 snippet: y

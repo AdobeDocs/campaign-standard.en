@@ -3,13 +3,13 @@ title: About Adobe Experience Cloud Triggers
 seo-title: About Adobe Experience Cloud Triggers
 description: About Adobe Experience Cloud Triggers
 seo-description: By tracking specific behaviors from customers with Adobe Analytics, you can now send personalized emails to your customers in Adobe Campaign.
-uuid: 76e1308d-9868-42b7-b65d-285b0fc18bb2
+uuid: 4a761ef9-dd8a-4898-9d7f-8e8258a7eee0
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-discoiquuid: f2a9336d-9fbb-425a-8cd0-f65f143fc17d
+discoiquuid: aa3b4ae7-7a03-4d8a-8814-b0aa762c9822
 index: y
 internal: n
 snippet: y

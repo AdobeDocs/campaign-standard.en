@@ -3,13 +3,13 @@ title: Creating or extending the resource
 seo-title: Creating or extending the resource
 description: Creating or extending the resource
 seo-description: Discover how to define a resource from scratch.
-uuid: f41187f9-8e4c-4bd9-a176-84011e9e17f6
+uuid: fbf9e1fe-f046-4a50-86db-204928f69ffb
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
-discoiquuid: 7fc724bc-fcb1-4126-be48-8f6efc66ad6a
+discoiquuid: fe7e2360-f839-4eba-8e94-c63d22d5f780
 index: y
 internal: n
 snippet: y
@@ -23,15 +23,15 @@ Administrators can create a new resource from scratch or create an extension of 
 
 Only the following out-of-the-box resources can be extended:
 
-* 
-* 
-* 
-* 
-* 
-* 
-* 
-* 
-*
+* **[!UICONTROL Campaign (campaign)]** 
+* **[!UICONTROL Deliveries (delivery)]** 
+* **[!UICONTROL Landing page (Landingpage)]** 
+* **[!UICONTROL Profiles (profile)]** 
+* **[!UICONTROL Program (program)]** 
+* **[!UICONTROL Service (service)]** 
+* **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** 
+* **[!UICONTROL Test profiles (seedMember)]** 
+* **[!UICONTROL Workflow (workflow)]**
 
 To create or extend a resource:
 

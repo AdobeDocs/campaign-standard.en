@@ -3,13 +3,13 @@ title: Optimizing the sending time
 seo-title: Optimizing the sending time
 description: Optimizing the sending time
 seo-description: Learn how to set up sending time and improve the open rate of your messages.
-uuid: 45f2962c-ca54-465c-a742-75d8b35bdbc4
+uuid: e76e3e39-f51e-4318-8367-46f22c70f027
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-discoiquuid: 5d15ed22-9825-451a-b7eb-6aa4686e5ed4
+discoiquuid: ad1a0ad2-1457-468c-adc6-f40d83287151
 index: y
 internal: n
 snippet: y

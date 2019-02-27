@@ -3,13 +3,13 @@ title: Creating profiles
 seo-title: Creating profiles
 description: Creating profiles
 seo-description: Learn how to create profiles and collect data on your contacts, using APIs, import capabilities, online acquisition, automatic or manual updates.
-uuid: 8b28d2ec-019f-4235-bb93-b84ee637b28f
+uuid: a38568a7-f9ee-4977-bd9b-c3fa30b31a90
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
-discoiquuid: 50d7c31d-2a89-4d71-8b41-521237e20af7
+discoiquuid: 432b2fdd-ca7d-48a5-9e5a-c0899ce8e78e
 index: y
 internal: n
 snippet: y
@@ -67,5 +67,5 @@ Profiles can also be partitioned depending on their organizational units. To add
 **Related topics:**
 
 * [Creating a landing page](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_CreateLandingPage.html) step-by-step guide
-*
+* [Importing profiles](https://helpx.adobe.com/campaign/kt/acs/using/acs-importing-profiles-feature-video-using.html)
 

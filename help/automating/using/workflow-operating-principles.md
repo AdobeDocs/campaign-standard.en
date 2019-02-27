@@ -3,13 +3,13 @@ title: Workflow operating principles
 seo-title: Workflow operating principles
 description: Workflow operating principles
 seo-description: Learn the main aspects of workflows.
-uuid: ff1ffa8e-f883-4f57-9caf-2cd1ae1c333c
+uuid: 3c432646-3490-439d-b620-5f224da71e41
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
-discoiquuid: 690dd3da-a31b-433f-b6da-36916a8c0899
+discoiquuid: 10f1eefe-516d-494a-8e9f-416f01aaf59c
 index: y
 internal: n
 snippet: y

@@ -3,13 +3,13 @@ title: Active profiles
 seo-title: Active profiles
 description: Active profiles
 seo-description: You can access a dedicated report on customer metrics and visualize active profiles in your Campaign database.
-uuid: 02b6efe6-e713-4e6e-a09a-469f9617c103
+uuid: a6e8582b-36b5-44c3-a745-52d858914eb0
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
-discoiquuid: 5efa49a2-1b95-4925-8e0a-52b6a7951cdc
+discoiquuid: 2ed178cc-9e87-4004-892b-7927d0ef5b9c
 index: y
 internal: n
 snippet: y

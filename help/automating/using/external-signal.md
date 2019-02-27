@@ -3,13 +3,13 @@ title: External signal
 seo-title: External signal
 description: External signal
 seo-description: The External signal activity triggers a workflow when some conditions are successfully met in another workflow.
-uuid: adb6a0ce-67f8-4d16-a6fb-2e795fea5a6e
+uuid: 87659bee-a0e9-4f5c-8cb6-350aba642bf3
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: execution-activities
-discoiquuid: 4e81d530-cdc5-43b8-b7ce-0cfe54cbf4cc
+discoiquuid: b8c48826-23e5-4806-a7bc-a26f84a5a1e6
 index: y
 internal: n
 snippet: y

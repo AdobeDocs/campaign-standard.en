@@ -3,13 +3,13 @@ title: Configuring SMS channel
 seo-title: Configuring SMS channel
 description: Configuring SMS channel
 seo-description: "Find out the SMS configuration steps: routing, encoding, formats and advanced properties. "
-uuid: bd303814-0d3d-47c6-b4e7-d4af9e950f12
+uuid: 99e658b9-c7fe-4f9d-a871-675f0004df8e
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-discoiquuid: 95892168-d505-481c-b025-07d44716f632
+discoiquuid: c744cc13-1917-447a-a298-b7368f38aaad
 index: y
 internal: n
 snippet: y

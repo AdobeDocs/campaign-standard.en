@@ -3,13 +3,13 @@ title: Licenses
 seo-title: Licenses
 description: Licenses
 seo-description: Learn more on licenses installed on your instance.
-uuid: c44cebf4-8922-4604-a79b-cec221c8ca5c
+uuid: ddd411e3-640e-4f54-a009-cfde5243c37a
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-discoiquuid: 802bc952-d3f1-4a11-be4b-bea01db0351d
+discoiquuid: aff7764a-41a4-4539-a0bd-dde21b92b977
 index: y
 internal: n
 snippet: y

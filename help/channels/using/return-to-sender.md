@@ -3,13 +3,13 @@ title: Return to sender
 seo-title: Return to sender
 description: Return to sender
 seo-description: Learn how to be notified of an incorrect address and exclude it from future communications.
-uuid: e26575ee-9907-4274-8d1f-a146e680fbb1
+uuid: c3cf0f78-9d3c-4a1b-9697-ae6730194ed7
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: direct-mail
-discoiquuid: a9138be9-af0b-4587-bebf-749355f8b25c
+discoiquuid: 0f320b31-9196-43b9-8eda-1ee30feefbcc
 index: y
 internal: n
 snippet: y

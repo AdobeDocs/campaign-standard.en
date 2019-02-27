@@ -3,13 +3,13 @@ title: Building a workflow
 seo-title: Building a workflow
 description: Building a workflow
 seo-description: This section details the main principles and best practices for creating a new workflow.
-uuid: 9b2315a8-73ba-43cb-832a-c45616b5fa38
+uuid: a48e4396-9d7a-46a4-a9fa-c76d6bb199e3
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
-discoiquuid: 8cab9c0c-0a66-400d-90c7-b739066c871b
+discoiquuid: 4a98bb5c-7264-4fee-a33f-c9f8154e0b02
 index: y
 internal: n
 snippet: y

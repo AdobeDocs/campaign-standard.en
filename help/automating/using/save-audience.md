@@ -3,13 +3,13 @@ title: Save audience
 seo-title: Save audience
 description: Save audience
 seo-description: The Save audience activity allows you to update an existing audience or create a new audience from the population computed upstream in a workflow.
-uuid: bc56b270-ec9f-4d32-913b-358aef33fdd2
+uuid: 22c2c3b3-f2d7-4dad-aa8b-74829b9780b8
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: ceaca194-0bf0-4fe6-82ba-8796070c304c
+discoiquuid: 21050ef5-1017-424c-931d-4d87c8ec88c8
 index: y
 internal: n
 snippet: y

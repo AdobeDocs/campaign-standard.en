@@ -3,13 +3,13 @@ title: Hot clicks
 seo-title: Hot clicks
 description: Hot clicks
 seo-description: With the Hot clicks out-of-the-box report, learn where your customer clicked on your delivery.
-uuid: 8a037046-261a-4e17-9836-ac6def098d58
+uuid: a3d297db-4397-415b-af7c-5a272a724722
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
-discoiquuid: 11f20f80-6f87-46c6-9846-137f85a3e4e6
+discoiquuid: 2f5db817-53f3-4e2f-ad61-a9f94d5c25fa
 index: y
 internal: n
 snippet: y

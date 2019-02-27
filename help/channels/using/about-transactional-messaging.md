@@ -3,13 +3,13 @@ title: About transactional messaging
 seo-title: About transactional messaging
 description: About transactional messaging
 seo-description: Discover the different types of transactional messages you can send and how they are used in Adobe Campaign.
-uuid: 9f7ccc64-b639-4932-9bc5-6600fdef7841
+uuid: aafd2f29-8b48-4682-9670-8acd0b02996d
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
-discoiquuid: bfae7303-4bb5-4995-a098-e17f9ae45048
+discoiquuid: 05dc6d4d-0593-4c4e-9456-29e598e5bfcf
 index: y
 internal: n
 snippet: y
@@ -64,16 +64,16 @@ The following schema illustrates the different steps of the transactional messag
 
 ![](assets/message-center_principle.png)
 
-1. Creation of the transactional event
+* 1. Creation of the transactional event
 
   1a. Event publication
 
-1. Creation of the associated transactional message
+* 2. Creation of the associated transactional message
 
   2b. Transactional message publication
 
-1. Trigger message request
-1. Associated message delivery
+* 3. Trigger message request
+* 4. Associated message delivery
 
 ## Transactional messaging limitations {#transactional-messaging-limitations}
 

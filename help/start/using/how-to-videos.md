@@ -3,13 +3,13 @@ title: How-to videos
 seo-title: How-to videos
 description: How-to videos
 seo-description: Discover Adobe Campaign's main features by watching our how-to videos.
-uuid: 8d897d0a-369f-4a4d-8d34-5585b6ae6653
+uuid: 92a6390b-ceeb-49aa-904a-ad0ebfdffd4e
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
 topic-tags: tutorials
-discoiquuid: 1487cf23-d7ed-4f03-ad9a-4e3c34482018
+discoiquuid: 6c73b743-6572-4552-b194-2dd252546091
 index: y
 internal: n
 snippet: y

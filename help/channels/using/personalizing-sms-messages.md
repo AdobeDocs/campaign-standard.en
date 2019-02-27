@@ -3,13 +3,13 @@ title: Personalizing SMS messages
 seo-title: Personalizing SMS messages
 description: Personalizing SMS messages
 seo-description: Discover the specificity of the transliteration options when personalizing SMS messages.
-uuid: 95c4a913-ed48-46ee-919f-2b82c8d6239a
+uuid: f6851b13-ef9d-431e-a283-cdc9fffe6d0b
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: sms-messages
-discoiquuid: 56258921-3710-4b41-a162-1e5174b46ffc
+discoiquuid: 9be76451-90a9-4ed7-8ceb-5976df5ba17d
 index: y
 internal: n
 snippet: y

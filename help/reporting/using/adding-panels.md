@@ -3,13 +3,13 @@ title: Adding panels
 seo-title: Adding panels
 description: Adding panels
 seo-description: Dynamic report allows you to add panel to better filter your data depending on the chosen time period.
-uuid: 2b66eb80-6600-467d-8b84-455deb6378aa
+uuid: 1c15d1b9-02e3-4fc4-9778-08b148e94b75
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
-discoiquuid: 49cbd658-1f62-45d5-bdb1-b1e127b561f0
+discoiquuid: 3a76c098-4319-44ec-9944-715f210680c9
 index: y
 internal: n
 snippet: y

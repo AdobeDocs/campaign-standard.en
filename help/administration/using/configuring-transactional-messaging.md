@@ -3,13 +3,13 @@ title: Configuring transactional messaging
 seo-title: Configuring transactional messaging
 description: Configuring transactional messaging
 seo-description: Learn how to configure transactional messaging.
-uuid: 60e91157-1e24-475d-94f9-1af36f5b12a5
+uuid: 19992731-2bd7-4bb3-a5d9-94bb93cbea5b
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-discoiquuid: f92f8576-2638-4d89-ab62-b383bc453436
+discoiquuid: f2b0a133-cc67-43f3-91fe-3c39d14b990a
 index: y
 internal: n
 snippet: y
@@ -84,8 +84,8 @@ Here is the API preview for this example:
 
 **Related topics:**
 
-* 
-*
+* [Previewing and publishing the event](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
+* [Using product listings in a transactional message](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)
 
 ## Enriching the transactional message content {#enriching-the-transactional-message-content}
 

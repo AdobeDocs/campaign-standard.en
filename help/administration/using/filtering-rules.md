@@ -3,13 +3,13 @@ title: Filtering rules
 seo-title: Filtering rules
 description: Filtering rules
 seo-description: Use filtering rules to refine the audience of your messages.
-uuid: e46aaed3-2df5-4e48-be6e-7babfd676b6b
+uuid: da1f07c5-fd3c-4d9b-ab4f-ac221be69a80
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
-discoiquuid: a526da50-a62d-41bc-ac88-fb2d0b4b4637
+discoiquuid: 35a7172c-1003-45be-8e6b-5e4a7e8c3ebb
 index: y
 internal: n
 snippet: y

@@ -3,13 +3,13 @@ title: Adding visualizations
 seo-title: Adding visualizations
 description: Adding visualizations
 seo-description: Dynamic reports offer a set of visualizations to add a graphical representation to your report.
-uuid: 916aaa4b-b415-43d8-857e-8a286d83be38
+uuid: 2bd1a5a3-1851-4975-9efd-d98b295c458a
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
-discoiquuid: c5ef8293-758e-46de-96e4-c3b78631317a
+discoiquuid: 3b89a88e-ad83-4214-87d7-a175df213181
 index: y
 internal: n
 snippet: y

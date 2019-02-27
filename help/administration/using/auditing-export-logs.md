@@ -3,13 +3,13 @@ title: Auditing export logs
 seo-title: Auditing export logs
 description: Auditing export logs
 seo-description: Administrators can track the exports that were made from Adobe Campaign.
-uuid: 2f480019-7d90-49d1-8ee9-253ca2f1a807
+uuid: 4ed89d42-7b67-47ed-befd-b104f610bc7a
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-discoiquuid: 1c4de9c1-6f47-46a3-a6bb-2e74308525ad
+discoiquuid: 0c580c1e-76f3-482f-bee7-6e93a5c7d58a
 index: y
 internal: n
 snippet: y

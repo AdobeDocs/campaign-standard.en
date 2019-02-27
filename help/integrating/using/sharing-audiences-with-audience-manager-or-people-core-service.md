@@ -3,13 +3,13 @@ title: Sharing audiences with Audience Manager or People core service
 seo-title: Sharing audiences with Audience Manager or People core service
 description: Sharing audiences with Audience Manager or People core service
 seo-description: Learn how to import or export your audience within the different Adobe Experience Cloud solutions.
-uuid: 62f3e2fe-a66c-4b7b-9d25-b1f21d2f99dc
+uuid: 4f4730d9-1ed8-43df-b16e-cb9add4c472d
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
-discoiquuid: 99f8f00b-2144-4ed4-9acd-87663287a7ab
+discoiquuid: 23b3a9e3-77d2-416f-8739-30c3d856eb3b
 index: y
 internal: n
 snippet: y
@@ -81,6 +81,6 @@ Synchronization between Adobe Campaign and People core service takes 24-36 hours
 
 **Related topics:**
 
-* 
-*
+* [Workflows](../../automating/using/workflow-data-and-processes.md)
+* [Audiences](../../audiences/using/about-audiences.md)
 

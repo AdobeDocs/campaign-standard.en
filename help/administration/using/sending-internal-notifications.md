@@ -3,13 +3,13 @@ title: Sending internal notifications
 seo-title: Sending internal notifications
 description: Sending internal notifications
 seo-description: Learn how to send real-time system notifications to your Adobe Campaign users.
-uuid: de247e52-9732-44d0-b81b-642d31a0ba5c
+uuid: cf680b17-1dec-4e19-9154-fa27a50f59ca
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: application-settings
-discoiquuid: a73106fc-bd30-4a1c-b5d2-509d304af439
+discoiquuid: 2838285d-6cff-4a64-b348-4f708801e16e
 index: y
 internal: n
 snippet: y

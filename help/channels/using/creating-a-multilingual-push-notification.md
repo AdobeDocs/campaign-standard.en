@@ -3,13 +3,13 @@ title: Creating a multilingual push notification
 seo-title: Creating a multilingual push notification
 description: Creating a multilingual push notification
 seo-description: Create multilingual push notifications to target your users in their preferred languages and regions.
-uuid: 8ae8459f-41c3-4e83-9860-edb47b8a1be4
+uuid: 1d3a2226-72b4-42b6-b10b-fcc41d6ca9af
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: push-notifications
-discoiquuid: e871c676-0f38-4919-b552-f2c9feb39c90
+discoiquuid: 234c4b1c-c961-49d6-acb7-f64bf1fdde39
 index: y
 internal: n
 snippet: y
@@ -29,9 +29,9 @@ This feature leverages either preferred languages specified in recipients' profi
 
 To use multilingual content variants for your push notification delivery, follow these steps:
 
-1. 
-1. 
-1.
+1. [Step 1: Upload multilingual content variant](../../channels/using/creating-a-multilingual-push-notification.md#step-1--upload-multilingual-content-variant)
+1. [Step 2: Preview and finalize a push notification using multilingual content variants](../../channels/using/creating-a-multilingual-push-notification.md#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants)
+1. [Step 3: Send and analyze multilingual push notification delivery](../../channels/using/creating-a-multilingual-push-notification.md#step-3--send-and-analyze-multilingual-push-notification-delivery)
 
 ## Step 1: Upload multilingual content variant {#step-1--upload-multilingual-content-variant}
 
@@ -129,6 +129,6 @@ You can now measure the impact of your multilingual push notification delivery o
 
 **Related content:**
 
-* 
-*
+* [Push notification report](../../reporting/using/push-notification-report.md)
+* [Sending a push notification within a workflow](../../automating/using/push-notification-delivery.md)
 

@@ -3,13 +3,13 @@ title: Sending messages at the recipient's time zone
 seo-title: Sending messages at the recipient's time zone
 description: Sending messages at the recipient's time zone
 seo-description: Learn how to send messages at the recipient's time zone.
-uuid: fe855555-c1e7-4ef7-bd72-0dc0f2d8f376
+uuid: 6390a3ac-4f62-4b1c-8cb2-eee13504f591
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-discoiquuid: aaa43d56-3ede-4d28-a495-4c468651c929
+discoiquuid: b850a26c-b019-463a-b82c-be5bd2bfcacb
 index: y
 internal: n
 snippet: y

@@ -3,13 +3,13 @@ title: About access management
 seo-title: About access management
 description: About access management
 seo-description: Manage your Adobe Campaign operators using roles, groups and organizational units.
-uuid: 8972f6e3-b843-48f3-b5d1-2a175e2ba920
+uuid: 5d28e2fd-d0da-4351-baea-3a43971fcade
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-discoiquuid: ca2087cf-eb9e-4ff9-8bac-670c6ce583ad
+discoiquuid: d8639bb9-1cd5-4547-9bbc-971cde65b9d5
 index: y
 internal: n
 snippet: y
@@ -44,7 +44,7 @@ Users are managed in the Admin console (refer to the [Managing groups and users]
 
 **Related topics**
 
-* 
-* 
-*
+* [Organizational units](../../administration/using/organizational-units.md)
+* [List of roles](../../administration/using/list-of-roles.md)
+* [Managing groups and users](../../administration/using/managing-groups-and-users.md)
 

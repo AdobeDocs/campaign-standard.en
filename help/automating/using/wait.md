@@ -3,13 +3,13 @@ title: Wait
 seo-title: Wait
 description: Wait
 seo-description: The Wait activity momentarily suspends executing a part of a workflow.
-uuid: 04d2a1e6-be3e-4a8a-9d29-8d218e4955ad
+uuid: 187f2e66-6265-4cfd-9810-72bcc60277bf
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: execution-activities
-discoiquuid: ff4e90c9-2791-4a83-a85b-70c1688d3ef0
+discoiquuid: a29f88d2-c099-41bb-9304-b8b24bf1481a
 index: y
 internal: n
 snippet: y

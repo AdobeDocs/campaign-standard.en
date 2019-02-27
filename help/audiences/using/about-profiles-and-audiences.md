@@ -3,13 +3,13 @@ title: About profiles and audiences
 seo-title: About profiles and audiences
 description: About profiles and audiences
 seo-description: "Learn about profiles and audiences management within Adobe Campaign: define targeted populations, select audiences, filter recipients, collect data and update profiles."
-uuid: 67cf3790-812d-4f07-9c64-383c908e0ea4
+uuid: 13692530-3041-45ae-8d2a-e933686d5301
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
-discoiquuid: 516fd1a7-7cef-47fa-b1f8-21c01035924b
+discoiquuid: 333512a2-ff29-4166-bb52-1343dbd1e14b
 index: y
 internal: n
 snippet: y
@@ -47,8 +47,8 @@ Refer to this [guide](https://docs.campaign.adobe.com/doc/standard/getting_start
 
 **Related topics:**
 
-* 
-* 
-* 
-*
+* [Creating audiences](../../audiences/using/creating-audiences.md)
+* [Creating profiles](../../audiences/using/creating-profiles.md)
+* [Integrated customer profile](../../audiences/using/integrated-customer-profile.md)
+* [About opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 

@@ -3,13 +3,13 @@ title: Marketing activities
 seo-title: Marketing activities
 description: Marketing activities
 seo-description: "Learn how to create and manage your marketing activities: campaigns, email, SMS and push notification deliveries, landing pages, workflows. You can easily design a new activity, edit an existing one, and consult their status and validity."
-uuid: e8d06601-eefa-416d-9761-c71a2d5b029b
+uuid: 1f64409c-3ac0-4c6b-bff3-fe4e4b57abf6
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
 topic-tags: marketing-plans
-discoiquuid: 54d9bb78-1e4a-47ff-8d05-7c003638cf74
+discoiquuid: e58e3fb9-f9e9-4e43-9243-adbaebcfd7b6
 index: y
 internal: n
 snippet: y
@@ -81,13 +81,13 @@ Programs and campaigns are presented in the [Programs and campaigns](../../start
 
 According to the context, you can:
 
-* 
-* 
-* 
-* 
-* 
-* 
-*
+* [Create an email](../../channels/using/creating-an-email.md)
+* [Create an SMS](../../channels/using/creating-an-sms-message.md)
+* [Create a push notification](../../channels/using/preparing-and-sending-a-push-notification.md)
+* [Create a workflow](../../automating/using/building-a-workflow.md#creating-a-workflow)
+* [Create a landing page](../../channels/using/about-landing-pages.md)
+* [Create a campaign](../../start/using/programs-and-campaigns.md#creating-a-campaign)
+* [Create a program](../../start/using/programs-and-campaigns.md#creating-a-program)
 
 >[!NOTE]
 >

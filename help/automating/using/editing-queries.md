@@ -3,13 +3,13 @@ title: Editing queries
 seo-title: Editing queries
 description: Editing queries
 seo-description: Build a population thanks to the predefined filters and rules.
-uuid: dedcec5a-c4b1-4542-a4ba-b7b67b42a5ba
+uuid: 2a6a0aa3-96c5-476d-baf7-0c9485caaabf
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: filtering-data
-discoiquuid: d7a83b36-93cc-4391-aef7-59eeb67d31fa
+discoiquuid: b30be47d-7e6d-4537-8316-2710827e97e3
 index: y
 internal: n
 snippet: y
@@ -113,6 +113,6 @@ Your queries are now created and defined, this allows you to build a population 
 
 **Related Topics:**
 
-* 
-*
+* [Advanced functions](../../automating/using/advanced-expression-editing.md)
+* [Defining filters](../../developing/using/configuring-filter-definition.md)
 

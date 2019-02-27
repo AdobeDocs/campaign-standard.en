@@ -3,13 +3,13 @@ title: Managing groups and users
 seo-title: Managing groups and users
 description: Managing groups and users
 seo-description: Learn how to create security groups and manage users.
-uuid: 714e12f2-a31e-4e3a-b59e-7285770c510e
+uuid: eae6a6b2-828f-448e-a05c-a1881e8179a0
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-discoiquuid: 06039bda-f4f9-42d6-ae04-043c40b00010
+discoiquuid: 3c1b43a0-90ad-4421-bdcb-4b4e8c63a275
 index: y
 internal: n
 snippet: y

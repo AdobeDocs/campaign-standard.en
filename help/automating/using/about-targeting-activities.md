@@ -3,13 +3,13 @@ title: About targeting activities
 seo-title: About targeting activities
 description: About targeting activities
 seo-description: Targeting activities can be accessed from the left-hand side of the screen.
-uuid: 313fcd70-d83c-4a79-a523-d78f8d2c35c6
+uuid: 0c9ed79b-ee55-41f2-9fac-55c46e172a1d
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 7dc20dc9-803b-4486-ba05-d9fdfd11a417
+discoiquuid: 3d451da8-d0f2-4023-920f-759347c7e7f6
 index: y
 internal: n
 snippet: y

@@ -3,13 +3,13 @@ title: Step-by-step guides
 seo-title: Step-by-step guides
 description: Step-by-step guides
 seo-description: Learn Adobe Campaign basics through simple step-by-step procedures, and experience the power of the solution.
-uuid: 80df994b-1b76-46d9-b04f-3510f585a167
+uuid: 0c832dab-a555-4ff9-a5b8-883a2c52a3a3
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
 topic-tags: tutorials
-discoiquuid: 62971138-0f4a-41eb-ab6e-0e3c5cc79ad8
+discoiquuid: 4d643f1a-5075-423d-ad13-69e141d1f8d8
 index: y
 internal: n
 snippet: y

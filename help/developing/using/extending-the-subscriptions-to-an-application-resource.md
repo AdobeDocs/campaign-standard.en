@@ -3,13 +3,13 @@ title: Extending the subscriptions to an application resource
 seo-title: Extending the subscriptions to an application resource
 description: Extending the subscriptions to an application resource
 seo-description: 
-uuid: 1dcf1095-4a0e-4637-a1c8-1395aca2b2d0
+uuid: dfc1a7b7-df8f-4612-9c46-769cbb2ec44e
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: use-cases--extending-resources
-discoiquuid: 98afffde-09c7-432b-a6c4-c209676b4d25
+discoiquuid: 3fe932c3-b3fd-4cc4-ba47-e22769d3db6e
 index: y
 internal: n
 snippet: y

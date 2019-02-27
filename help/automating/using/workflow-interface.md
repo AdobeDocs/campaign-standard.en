@@ -3,13 +3,13 @@ title: Workflow interface
 seo-title: Workflow interface
 description: Workflow interface
 seo-description: Learn the interface and options to create, edit and execute a workflow.
-uuid: bffa5a47-e47d-47e4-82c6-b5cb91521274
+uuid: 1c5ce07a-51bc-4181-b553-370496b67a79
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
-discoiquuid: 36fbc765-157b-495b-a1ee-ea67a91777ca
+discoiquuid: eb4051b4-375d-48b5-8ad3-2be15efa5276
 index: y
 internal: n
 snippet: y

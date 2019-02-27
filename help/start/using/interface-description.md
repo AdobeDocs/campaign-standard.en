@@ -3,13 +3,13 @@ title: Interface description
 seo-title: Interface description
 description: Interface description
 seo-description: "Learn how to navigate and use the Adobe Campaign workspace: home page, top bar, advanced menus and action bars."
-uuid: 8b8f70e5-bfbb-4074-9af7-d92e99cc40bf
+uuid: 1fae7a5f-5a26-482b-a52e-fb50b11eee52
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-discoiquuid: 3d4616ee-56c3-4245-957f-c689cb32cf7f
+discoiquuid: 1ec27702-f060-4334-a277-71c3ade7d339
 index: y
 internal: n
 snippet: y

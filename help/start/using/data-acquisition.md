@@ -3,13 +3,13 @@ title: Data acquisition
 seo-title: Data acquisition
 description: Data acquisition
 seo-description: "Discover various mechanisms for profile acquisition: online data collection, imports, manual or bulk creation through Campaign APIs."
-uuid: 75065da8-4aa7-4395-8a04-95bfc2fc174a
+uuid: a0a7f202-0258-408c-a2c6-dbfd6e0f1192
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
 topic-tags: about-adobe-campaign
-discoiquuid: f62604c1-e207-434f-ac23-7aeca9fba12f
+discoiquuid: 2d2f58cd-5438-4325-824b-44419e8c88c6
 index: y
 internal: n
 snippet: y

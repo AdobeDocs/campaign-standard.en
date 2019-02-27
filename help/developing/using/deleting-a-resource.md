@@ -3,13 +3,13 @@ title: Deleting a resource
 seo-title: Deleting a resource
 description: Deleting a resource
 seo-description: Learn how to delete a resource 
-uuid: c8f27747-9871-4111-b192-d9b19524623b
+uuid: 8b884da4-34ee-4dca-91b2-9799657560bb
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
-discoiquuid: 7f87377e-f24a-4bef-8e00-931909a3bb22
+discoiquuid: 34b70ca3-67f8-4662-bf46-6d9730d19401
 index: y
 internal: n
 snippet: y

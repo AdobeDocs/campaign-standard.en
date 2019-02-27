@@ -3,13 +3,13 @@ title: Confirming the send
 seo-title: Confirming the send
 description: Confirming the send
 seo-description: Learn how to finalize the message preparation.
-uuid: fd0768c4-2a7a-4f90-822c-0b4aad8fdd45
+uuid: b3063aca-c9aa-46e5-abee-dc555f9be7a9
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
-discoiquuid: edfea687-b85a-477f-8be1-6896c50ec4be
+discoiquuid: d0912ecc-d861-4d1a-9845-f89d37d0ffd3
 index: y
 internal: n
 snippet: y
@@ -66,6 +66,6 @@ The message can be viewed in the history of one of the client profiles that make
 
 Once a message is sent, you can track the behavior of its recipients, and monitor it in order to measure its impact. For more on this, refer to these sections:
 
-* 
-*
+* [Tracking messages](../../sending/using/tracking-messages.md)
+* [Monitoring a delivery](../../sending/using/monitoring-a-delivery.md)
 

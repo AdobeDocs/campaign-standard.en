@@ -3,13 +3,13 @@ title: Setting up image properties
 seo-title: Setting up image properties
 description: Setting up image properties
 seo-description: See how to manage the properties of the images included in your content.
-uuid: 14fc7d42-90a0-4f18-8461-4a97b2ad0fe8
+uuid: d0e605d4-bdc5-4e39-b43a-41c9abbf8d25
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: using-images
-discoiquuid: cd6ad7e4-60f4-4610-be6d-1819d9cbb296
+discoiquuid: 3d8db2c7-4f94-4229-851d-f13010845d47
 index: y
 internal: n
 snippet: y

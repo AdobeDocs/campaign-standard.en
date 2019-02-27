@@ -3,13 +3,13 @@ title: Creating the direct mail
 seo-title: Creating the direct mail
 description: Creating the direct mail
 seo-description: Follow these steps to create a direct mail delivery in Adobe Campaign.
-uuid: eae80962-2721-43f2-8056-a2faa603872c
+uuid: 4956c968-a6da-4022-8e97-8f615350b89c
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: direct-mail
-discoiquuid: c9b93ed8-1e70-44aa-a41a-f6089ae11afe
+discoiquuid: 1252c8ac-1281-4dd0-88f5-5bf19f64fb6f
 index: y
 internal: n
 snippet: y

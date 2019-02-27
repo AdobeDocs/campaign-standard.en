@@ -3,13 +3,13 @@ title: Profile transactional messages
 seo-title: Profile transactional messages
 description: Profile transactional messages
 seo-description: Learn how to create and publish a profile transactional message.
-uuid: f0dda136-5b23-48da-80eb-4b84973bc659
+uuid: 44c41b73-2d32-4934-9674-3f8a5bf029bf
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
-discoiquuid: 807fa651-2730-423a-aa28-583d1cd75679
+discoiquuid: 97066ad8-921a-4407-8ea8-de0281b89249
 index: y
 internal: n
 snippet: y
@@ -81,6 +81,6 @@ This rule is part of a specific typology that applies to all transactional messa
 
 **Related topics**:
 
-* 
-*
+* [Site integration](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)
+* [Typologies](../../administration/using/about-typology-rules.md)
 

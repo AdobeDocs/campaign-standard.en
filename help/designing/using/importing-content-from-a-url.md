@@ -3,13 +3,13 @@ title: Importing content from a URL
 seo-title: Importing content from a URL
 description: Importing content from a URL
 seo-description: Learn how to load content from an existing URL when creating an email.
-uuid: 6b731c19-d750-4f62-a3f5-c60dd9b0ddae
+uuid: fa2c057f-ef22-4edc-989d-b839e5e6d422
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: loading-content
-discoiquuid: bcabbb17-dfd1-42a8-a2f4-8eb150eb49f4
+discoiquuid: 4ae0020d-d89b-4a65-9955-a40f5602838c
 index: y
 internal: n
 snippet: y

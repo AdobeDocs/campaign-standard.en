@@ -3,13 +3,13 @@ title: Defining the email structure
 seo-title: Defining the email structure
 description: Defining the email structure
 seo-description: Discover how to use the Email Designer in Campaign to shape your emails and populate them with content components.
-uuid: 845ddc18-57da-4805-b5bb-ce0d12c81b2e
+uuid: ce30415e-a680-4e3f-b76e-29d253beea9e
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-discoiquuid: 27d9d4b0-8560-4503-aaa4-3213d1e24062
+discoiquuid: 45d519a4-027d-419e-aad1-f55abdec70a1
 index: y
 internal: n
 snippet: y
@@ -84,18 +84,23 @@ You can add as many content components as you want in a structure component. You
 
 Here is the list of the available components in the Email Designer:
 
-* 
-* For more on this, see [Using the carousel component](../../designing/using/defining-the-email-structure.md#using-the-carousel-component).
-* 
-* Use this component to copy-past the different parts of your existing HTML. This enables you to create free modular HTML components.
+* **[!UICONTROL Button]** 
+* **[!UICONTROL Carousel]**
+
+  For more on this, see [Using the carousel component](../../designing/using/defining-the-email-structure.md#using-the-carousel-component).
+
+* **[!UICONTROL Divider]** 
+* **[!UICONTROL Html]**
+
+  Use this component to copy-past the different parts of your existing HTML. This enables you to create free modular HTML components.
 
   >[!NOTE]
   >
   >A free HTML component is editable with limited options. If all styles are not inlined, make sure to add the proper CSS in the **head** section of the HTML code, otherwise the email will not be responsive. Use the **[!UICONTROL Preview]** button to test the responsiveness of your content (see [Previewing messages with the Email Designer](../../sending/using/previewing-messages.md#previewing-messages-with-the-email-designer)).
 
-* 
-* 
-*
+* **[!UICONTROL Image]** 
+* **[!UICONTROL Social]** 
+* **[!UICONTROL Text]**
 
 #### Using the carousel component {#using-the-carousel-component}
 

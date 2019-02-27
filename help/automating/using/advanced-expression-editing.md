@@ -3,13 +3,13 @@ title: Advanced expression editing
 seo-title: Advanced expression editing
 description: Advanced expression editing
 seo-description: The query edition wizard allows you to define advanced expressions.
-uuid: ec64ddcd-ba60-4b30-a7ce-2179049cc5e6
+uuid: 4d4e467d-65a7-4f5d-a6bc-888940cc06b4
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: filtering-data
-discoiquuid: 1f44c3dd-6c1e-488a-91cb-4912676da27f
+discoiquuid: 0a5574e3-1576-4e83-89da-af53b7bd7a47
 index: y
 internal: n
 snippet: y
@@ -58,8 +58,8 @@ Editing an expression lets you personalize the Audiences expression to target yo
 
 **Related Topics:**
 
-* 
-*
+* [Expression Syntax](../../automating/using/advanced-expression-editing.md#expression-syntax)
+* [List of functions](../../automating/using/list-of-functions.md)
 
 ## Expression Syntax {#expression-syntax}
 

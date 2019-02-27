@@ -3,13 +3,13 @@ title: Preparing and sending an In-App message
 seo-title: Preparing and sending an In-App message
 description: Preparing and sending an In-App message
 seo-description: Create In-App message to target your application subscribers with specific content.
-uuid: 29e889a9-1160-4942-a8a6-b51c511ac7e6
+uuid: 78e62a91-d9a4-4515-91b0-def4858839f8
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: in-app-messaging
-discoiquuid: cd346cdc-8937-486e-bf27-da58d7b69dc3
+discoiquuid: 601ffa2d-a2f4-407b-8c7b-5aee16abb98a
 index: y
 internal: n
 snippet: y
@@ -72,9 +72,9 @@ The steps for creating a standalone In-App message with Adobe Campaign are:
 
    By default, you can select one of the following three out-of-the-box templates:
 
-    * 
-    * 
-    *
+    * **[!UICONTROL Target users based on their Campaign CRM profile (inAppProfile)]** 
+    * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]** 
+    * **[!UICONTROL Target users based on their Mobile profile (inApp)]**
 
 1. Enter the In-App message properties and select your mobile app in the **[!UICONTROL Associate a Mobile App to a delivery]** field.
 
@@ -124,9 +124,9 @@ Your In-App message is now ready to be sent to your targeted audience.
 
 **Related content:**
 
-* 
-* 
-*
+* [Customizing an In-App message](../../channels/using/customizing-an-in-app-message.md)
+* [In-App report](../../reporting/using/in-app-report.md)
+* [Sending an In-App message within a workflow](../../automating/using/in-app-delivery.md)
 
 ## Sending your In-App message {#sending-your-in-app-message}
 
@@ -156,6 +156,6 @@ Once you have finished preparing your delivery and the approval steps have been 
 
 **Related content:**
 
-* 
-*
+* [In-App report](../../reporting/using/in-app-report.md)
+* [Sending an In-App message within a workflow](../../automating/using/in-app-delivery.md)
 

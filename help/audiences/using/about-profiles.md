@@ -3,13 +3,13 @@ title: About profiles
 seo-title: About profiles
 description: About profiles
 seo-description: Contacts are stored as profiles in Campaign database, and updated through their entire life cycle.
-uuid: 98817c89-d609-4eff-8ace-b7a6c81b40fe
+uuid: f0b9e86b-d6d0-4d7c-8087-67f65e41c14c
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
-discoiquuid: b77c01bd-d679-482e-9eaa-dfae1f360445
+discoiquuid: 97ab2415-2421-473d-a4fd-67bf3a20e70c
 index: y
 internal: n
 snippet: y

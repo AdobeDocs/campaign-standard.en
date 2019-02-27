@@ -3,13 +3,13 @@ title: Creating a custom profile dimension
 seo-title: Creating a custom profile dimension
 description: Creating a custom profile dimension
 seo-description: Learn how to create a custom profile dimension based on custom profile data.
-uuid: f08091ca-5395-4f40-9bc9-1c81ce509ffb
+uuid: df4224a1-e777-4c86-b7a4-f0ddad87ec88
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
-discoiquuid: 2aad3c8a-2365-42d9-a38b-2300ddce7c77
+discoiquuid: 129f9399-6baa-4c60-9dad-3d311ac92105
 index: y
 internal: n
 snippet: y
@@ -23,10 +23,10 @@ Reports can also be created and managed based on custom profile data created dur
 
 In this example, we want to create the custom profile field **Loyalty programs** which will be divided into three levels: gold, silver and bronze. This custom profile will then be extended to be able to use it as a custom profile dimension in dynamic reports.
 
-* 
-* 
-* 
-*
+* [Step 1: Create a new profile field](../../reporting/using/creating-a-custom-profile-dimension.md#step-1--create-a-new-profile-field)
+* [Step 2: Extend the sending logs with the profile field](../../reporting/using/creating-a-custom-profile-dimension.md#step-2--extend-the-sending-logs-with-the-profile-field)
+* [Step 3: Create a delivery targeting recipients enrolled in the loyalty program](../../reporting/using/creating-a-custom-profile-dimension.md#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program)
+* [Step 4: Create a dynamic report to filter recipients with the custom profile dimension](../../reporting/using/creating-a-custom-profile-dimension.md#step-4--create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension)
 
 ## Step 1: Create a new profile field {#step-1--create-a-new-profile-field}
 

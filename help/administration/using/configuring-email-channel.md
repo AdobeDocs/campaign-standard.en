@@ -3,13 +3,13 @@ title: Configuring email channel
 seo-title: Configuring email channel
 description: Configuring email channel
 seo-description: Learn how to configure the email channel.
-uuid: 9dd41ca3-bcac-4fec-b51f-024652f2fca5
+uuid: 9306559e-e3c5-43f8-b169-b989d328d0d1
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-discoiquuid: 591bfb65-f88d-4cb9-b3d4-f544fc89f032
+discoiquuid: ec3d0491-f5f2-4579-bc2a-d9513d302dea
 index: y
 internal: n
 snippet: y

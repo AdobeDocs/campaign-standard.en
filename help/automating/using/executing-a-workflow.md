@@ -3,13 +3,13 @@ title: Executing a workflow
 seo-title: Executing a workflow
 description: Executing a workflow
 seo-description: Learn how to execute and monitor a workflow.
-uuid: 3aed11d5-a6e7-444c-a4e7-282d25394c66
+uuid: 5a672633-485f-497a-912c-e8968ee03d76
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
-discoiquuid: ee89fa16-24d2-4039-91e7-bb61d4c1fca4
+discoiquuid: fe303d43-8b17-4239-9410-3691cbae1373
 index: y
 internal: n
 snippet: y

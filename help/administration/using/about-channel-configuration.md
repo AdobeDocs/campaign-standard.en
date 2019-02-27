@@ -3,13 +3,13 @@ title: About channel configuration
 seo-title: About channel configuration
 description: About channel configuration
 seo-description: "Each channel needs to be configured: technical configuration, message properties and templates."
-uuid: 882c91bf-4824-4d07-92b6-277f4a6de3d3
+uuid: c3e61591-b612-406b-bda9-cef74e586985
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-discoiquuid: 841af359-2229-40af-9b6f-5debf4fdc73b
+discoiquuid: 2739d4b1-b21a-41cd-82f0-258085798f46
 index: y
 internal: n
 snippet: y

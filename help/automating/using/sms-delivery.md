@@ -3,13 +3,13 @@ title: SMS delivery
 seo-title: SMS delivery
 description: SMS delivery
 seo-description: The SMS delivery activity allows you to configure sending a single send SMS or a recurring SMS in a workflow.
-uuid: 18b9042f-4e8b-4442-8c2e-b1d6cc089ef5
+uuid: da6702eb-431d-470a-96fe-500c9cd0eb98
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: channel-activities
-discoiquuid: 15fc014c-c66b-4c29-923b-e11286fc02fa
+discoiquuid: 1f54cf6a-407a-4f96-8065-50b24d16e83f
 index: y
 internal: n
 snippet: y

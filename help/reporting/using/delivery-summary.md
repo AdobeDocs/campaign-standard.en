@@ -3,13 +3,13 @@ title: Delivery summary
 seo-title: Delivery summary
 description: Delivery summary
 seo-description: With the Delivery summary out-of-the-box report, learn about your deliveries statistics, such as number of sends, bounces and opens.
-uuid: 9d258f55-27d0-41e5-a55c-4f017a55fd6a
+uuid: b7e88f71-2a17-4cf4-84a0-fcc4aa9a91bb
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
-discoiquuid: 087d4a2e-3601-48c7-b644-9150527d92a8
+discoiquuid: e0392704-fae7-46d8-82cf-ca3d50f44657
 index: y
 internal: n
 snippet: y

@@ -3,13 +3,13 @@ title: Transactional push notifications
 seo-title: Transactional push notifications
 description: Transactional push notifications
 seo-description: Learn how to create and publish a transactional push notification.
-uuid: 3171e8a1-1f50-42e0-a468-a453e2d9a189
+uuid: 6fed54c9-b5fa-472e-97be-fe53d686fd9f
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
-discoiquuid: 1aba3a6c-ddd9-4090-83d2-7c5eee8ea334
+discoiquuid: e8a3640b-a5e8-402d-9d35-d1373bc4dbb3
 index: y
 internal: n
 snippet: y

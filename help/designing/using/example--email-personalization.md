@@ -3,13 +3,13 @@ title: "Example: Email personalization"
 seo-title: "Example: Email personalization"
 description: "Example: Email personalization"
 seo-description: See a full example of personalizing an email with dynamic content and text according to the profiles' ages.
-uuid: b7992599-bf73-4f99-b891-9bc7d3796581
+uuid: a51a44da-c2db-4596-86de-57a4b7084358
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: personalizing-content
-discoiquuid: 829dc514-7a42-45cf-b9e0-56f1028446fd
+discoiquuid: a7f76948-6fff-482c-8c83-8abf6c84a1e4
 index: y
 internal: n
 snippet: y
@@ -127,6 +127,6 @@ The image has changed thanks to the dynamic content, and the slogan that appears
 
 **Related topics:**
 
-* 
-*
+* [Creating audiences](../../audiences/using/creating-audiences.md)
+* [Preparing the send](../../sending/using/preparing-the-send.md)
 

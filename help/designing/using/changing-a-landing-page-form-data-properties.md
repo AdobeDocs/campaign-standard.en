@@ -3,13 +3,13 @@ title: Changing a landing page form data properties
 seo-title: Changing a landing page form data properties
 description: Changing a landing page form data properties
 seo-description: Learn how to link database fields to input zone, radio button or checkbox type blocks.
-uuid: effd0592-5b19-4afd-9d99-b3b30b76eeeb
+uuid: d5006d0e-a452-42b9-9b9b-a6178c24f59e
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: editing-landing-page-content
-discoiquuid: 33ae25e0-e9c3-402e-8879-f574645fcc34
+discoiquuid: 9cf40e52-6664-4a8b-b670-9ed8091743e7
 index: y
 internal: n
 snippet: y

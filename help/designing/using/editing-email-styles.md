@@ -3,13 +3,13 @@ title: Editing email styles
 seo-title: Editing email styles
 description: Editing email styles
 seo-description: Quickly edit the style of your content through the Email Designer with easily accessible settings.
-uuid: 06559647-1699-4d6e-bd2d-9259667ce71a
+uuid: d56d9e8a-881f-4eab-851b-a009e49f228a
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-discoiquuid: 4a422afb-72a2-4c6d-812d-1d872b46e012
+discoiquuid: d1c063f2-2046-4aed-91b9-c8e4baab01bf
 index: y
 internal: n
 snippet: y

@@ -3,13 +3,13 @@ title: Creating a multilingual email
 seo-title: Creating a multilingual email
 description: Creating a multilingual email
 seo-description: Follow these steps to create a multilingual email targeting recipients with different preferred languages.
-uuid: 7f8f1a62-9ffa-43b6-bb52-e770d8f5158a
+uuid: 10de2b84-de8c-4132-acb3-66ae446abfdc
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: email-messages
-discoiquuid: 3985773e-02ac-49f1-8d93-23e159bca6b6
+discoiquuid: 35b9897a-0c33-42f4-a771-137b1f92bd4d
 index: y
 internal: n
 snippet: y

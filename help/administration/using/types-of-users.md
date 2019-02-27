@@ -3,13 +3,13 @@ title: Types of users
 seo-title: Types of users
 description: Types of users
 seo-description: Adobe Campaign users hold specific roles. Discover the main user types. 
-uuid: a7513cf6-6831-4141-8d90-3649999bab04
+uuid: 32f04f7e-d811-4f64-b25d-1b6ffb0bc387
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-discoiquuid: 943f6f69-5e0c-4db2-83da-5e6441059999
+discoiquuid: e7cda581-e3aa-4401-a4e9-ec033540043f
 index: y
 internal: n
 snippet: y
@@ -50,8 +50,8 @@ We will rather focus on how the different tasks in Adobe Campaign are split betw
 **Related topics:**
 
 * [Managing user permissions](https://helpx.adobe.com/campaign/kt/acs/using/acs-user-access-rights-feature-video-use.html) video
-* 
-*
+* [List of roles](../../administration/using/list-of-roles.md)
+* [List of authorizations](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
 
 ## Functional administrators {#functional-administrators}
 

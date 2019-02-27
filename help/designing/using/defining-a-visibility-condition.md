@@ -3,13 +3,13 @@ title: Defining a visibility condition
 seo-title: Defining a visibility condition
 description: Defining a visibility condition
 seo-description: Make a web page element visible only if a certain condition is respected.
-uuid: 6d878a56-d3ef-4caa-9444-37237b509614
+uuid: eb4dbc9e-69a8-4ada-aef2-c5b5cb83d0d2
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: defining-conditional-content
-discoiquuid: df09f9fb-a1c8-45eb-8905-788c86328d1a
+discoiquuid: 693c5285-ac05-49c0-b2ea-a186db0f9477
 index: y
 internal: n
 snippet: y

@@ -3,13 +3,13 @@ title: About subscriptions
 seo-title: About subscriptions
 description: About subscriptions
 seo-description: 
-uuid: 78579935-bb4a-4752-a082-2acea02c7b4d
+uuid: e678fe26-1463-4df3-970a-2ba47da02dd4
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
-discoiquuid: d45e06b7-c014-4b04-be32-c7c521530f7b
+discoiquuid: cc576258-aab5-4991-a6a4-a0fb453d4293
 index: y
 internal: n
 snippet: y

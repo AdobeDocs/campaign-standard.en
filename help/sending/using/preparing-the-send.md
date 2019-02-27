@@ -3,13 +3,13 @@ title: Preparing the send
 seo-title: Preparing the send
 description: Preparing the send
 seo-description: Learn how to define preparation before the send.
-uuid: 9c3dc376-ac8d-47f2-bb9e-959712c411fc
+uuid: a73cd47b-aa8b-48d7-9774-2774e8c95955
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
-discoiquuid: 95dd0d31-8668-4d24-825a-e5673bc6bb5c
+discoiquuid: 1951d30b-a93b-4193-bad6-9f6bc2ba0f6b
 index: y
 internal: n
 snippet: y

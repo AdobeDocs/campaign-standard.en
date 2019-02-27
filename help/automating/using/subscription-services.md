@@ -3,13 +3,13 @@ title: Subscription Services
 seo-title: Subscription Services
 description: Subscription Services
 seo-description: The Subscription Services activity allows you to take profiles in mass and subscribe them to a service or unsubscribe them from a service.
-uuid: c96ba37f-821c-4098-ab59-a34961009c0f
+uuid: f4884078-53e6-4ff6-b998-ee11f95f30f0
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
-discoiquuid: d9b4e28e-c09a-4bc1-8b05-de9197f19090
+discoiquuid: a766566e-7a82-4f79-8509-df5655e2e974
 index: y
 internal: n
 snippet: y

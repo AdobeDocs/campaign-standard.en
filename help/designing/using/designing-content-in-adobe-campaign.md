@@ -3,13 +3,13 @@ title: Designing content in Adobe Campaign
 seo-title: Designing content in Adobe Campaign
 description: Designing content in Adobe Campaign
 seo-description: Learn about all the elements that you can define in your contents with Adobe Campaign.
-uuid: 8f4a35b0-1cea-4737-a926-b5990aa1ddea
+uuid: 3bf229a0-5bd1-43fa-ae04-ce1fcc709965
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: about-content-design
-discoiquuid: 76ff5b61-e66e-4353-afcd-c9e2b2ef4759
+discoiquuid: ce4ea373-7972-47ee-bb1b-6ed7159c5b6e
 index: y
 internal: n
 snippet: y
@@ -35,8 +35,8 @@ Enhance your messages and landing pages with links and images. See [Inserting a 
 
 **Related topics**:
 
-* 
-* 
-* 
-*
+* [Creating an email](../../channels/using/creating-an-email.md)
+* [Designing a landing page](../../channels/using/designing-a-landing-page.md)
+* [Creating an SMS message](../../channels/using/creating-an-sms-message.md)
+* [Creating and sending a push notification](../../channels/using/preparing-and-sending-a-push-notification.md)
 

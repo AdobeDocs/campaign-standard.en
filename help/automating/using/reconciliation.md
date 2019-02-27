@@ -3,13 +3,13 @@ title: Reconciliation
 seo-title: Reconciliation
 description: Reconciliation
 seo-description: The Reconciliation activity allows you to link unidentified data to existing resources.
-uuid: 1767d102-86fc-47a0-896e-07074cd09332
+uuid: f309171f-66f0-4a5b-8e55-8fcf9989ccb1
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
-discoiquuid: 3cc3e752-4796-4dde-8aac-551a41b81775
+discoiquuid: d4fa4731-993d-4f5b-8211-113ba042d0c0
 index: y
 internal: n
 snippet: y

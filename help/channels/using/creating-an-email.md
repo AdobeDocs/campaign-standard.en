@@ -3,13 +3,13 @@ title: Creating an email
 seo-title: Creating an email
 description: Creating an email
 seo-description: Follow these steps to create a single-send email in Adobe Campaign.
-uuid: 0e9e150b-86d1-4e0e-8834-9258b7bf2e95
+uuid: 86c6811c-9067-49ef-970c-508c45ec76a0
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: email-messages
-discoiquuid: 9c6d3f5d-7eeb-4db2-984c-a0b02b1ddc93
+discoiquuid: 339f779b-ff77-4329-8847-27896b2a7941
 index: y
 internal: n
 snippet: y
@@ -83,6 +83,6 @@ You can create an email from a [campaign](../../start/using/marketing-activities
 
 * [Creating an email](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-email-from-homepage-feature-video-use.html) video
 * [Adobe Campaign and Dreamweaver integration](https://docs.campaign.adobe.com/doc/standard/en/Videos/ACS_Dreamweaver.mp4) video
-* 
-*
+* [Using Adobe Experience Manager](../../integrating/using/integrating-with-experience-manager.md)
+* [Integrating Adobe Target](../../integrating/using/configuring-the-campaign-target-integration.md)
 

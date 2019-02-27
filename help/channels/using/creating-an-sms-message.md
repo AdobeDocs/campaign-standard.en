@@ -3,13 +3,13 @@ title: Creating an SMS message
 seo-title: Creating an SMS message
 description: Creating an SMS message
 seo-description: Follow these steps to create a single-send SMS message in Adobe Campaign.
-uuid: 047052e0-f8c3-44e4-89d6-8581ea74e488
+uuid: 6494978b-73ba-4d7a-81bd-b484ebf3dad9
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: sms-messages
-discoiquuid: dda168da-f100-4333-ab8f-c056ae56fa34
+discoiquuid: 8c88df12-c727-4d5e-818f-b3ba02c87ffc
 index: y
 internal: n
 snippet: y
@@ -77,7 +77,7 @@ Once the sending is finished, you can start measuring the impact of your message
 
 **Related topics:**
 
-* 
-* 
+* [About SMS and push content edition](../../designing/using/about-sms-and-push-content-design.md)
+* [Managing templates](../../start/using/about-templates.md)
 * [Create an SMS delivery](https://helpx.adobe.com/campaign/kt/acs/using/acs-creating-a-sms-delivery-feature-video-use.html) video
 

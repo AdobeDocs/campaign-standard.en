@@ -3,13 +3,13 @@ title: Previewing messages
 seo-title: Previewing messages
 description: Previewing messages
 seo-description: Learn how to preview a message in the content editor or in the Email Designer.
-uuid: e97daff8-4558-4d3e-b89a-9c90641eace9
+uuid: 7ee113d4-16db-4ebe-914e-9423d9c4ac4a
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
-discoiquuid: f6434629-6db6-44dd-afd0-166cdee5bdca
+discoiquuid: dc2e2aac-955d-4196-b6b5-12614b6a7fcc
 index: y
 internal: n
 snippet: y

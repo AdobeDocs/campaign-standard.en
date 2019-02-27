@@ -3,13 +3,13 @@ title: Targeting data
 seo-title: Targeting data
 description: Targeting data
 seo-description: Learn the different ways to target and select the data you need.
-uuid: 11abccfb-bb1d-41ab-9055-82273d2726af
+uuid: c2dcf1a7-137f-4244-8b6f-7e49f0aa0227
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
-discoiquuid: 14f35f49-f1fa-4cc4-bf24-63269258860a
+discoiquuid: 3c2fb56e-728c-46f4-a46e-370474333fac
 index: y
 internal: n
 snippet: y

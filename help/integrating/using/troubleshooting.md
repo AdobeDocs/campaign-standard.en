@@ -3,13 +3,13 @@ title: Troubleshooting
 seo-title: Troubleshooting
 description: Troubleshooting
 seo-description: Learn how to troubleshoot issues when sharing resources.
-uuid: 0e69316f-40a2-4829-9491-8afcb5e8505d
+uuid: e02a33c8-f836-4f32-82a9-4071631fa0ad
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
-discoiquuid: b49fcc79-c2a1-4fc4-8627-06d2b811377d
+discoiquuid: 6a0c6306-1efc-40e0-8dc1-ff011a857bca
 index: y
 internal: n
 snippet: y
@@ -23,12 +23,16 @@ Errors may be encountered while using the integration with Audience Manager or P
 
 In this case, make sure that the following elements are correctly configured:
 
-* In **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL External accounts]** , make sure that the following external S3 accounts are correctly configured. The mentioned S3 servers should have been configured during provisioning.
+* **External accounts**
+
+  In **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL External accounts]** , make sure that the following external S3 accounts are correctly configured. The mentioned S3 servers should have been configured during provisioning.
 
     * **[!UICONTROL importSharedAudience]** : S3 account dedicated to importing audiences.
     * **[!UICONTROL exportSharedAudience]** : S3 account dedicated to exporting audiences.
 
-* In **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Shared Data Sources]** , check that the shared data source is set properly.
+* **Shared Data Sources**
+
+  In **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Shared Data Sources]** , check that the shared data source is set properly.
 
   **[!UICONTROL Priority]** is used when you have multiple data sources defined. Priority decides which data source will be used to match with alias received in the order defined. **[!UICONTROL Priority]** is only needed for Triggers implementation.
 

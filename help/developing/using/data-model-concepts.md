@@ -3,13 +3,13 @@ title: Data model concepts
 seo-title: Data model concepts
 description: Data model concepts
 seo-description: Learn about the Adobe Campaign data model and how to modify it.
-uuid: e9975d94-e83f-415a-80b4-9bca954c0d30
+uuid: 1d7bcb46-3cab-4b10-84c9-63534a1525ae
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: about-custom-resources
-discoiquuid: 532aac4b-66cf-4d76-bb15-401408209d90
+discoiquuid: 090c3a06-0c86-4cdf-8269-f58db95e2ab6
 index: y
 internal: n
 snippet: y

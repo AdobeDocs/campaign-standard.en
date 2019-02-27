@@ -3,13 +3,13 @@ title: About data management activities
 seo-title: About data management activities
 description: About data management activities
 seo-description: Datamangement activities are available from the left-hand side of the screen.
-uuid: e66f54c5-de4c-49d7-98da-93d9fc2ab797
+uuid: 3d83d8bb-b3e5-4d4a-a0d3-43de341240da
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
-discoiquuid: bb6764d8-4ff9-46a7-85a1-abf41f39c419
+discoiquuid: 76634b95-6a3c-41af-be33-a6f3fc91f5c8
 index: y
 internal: n
 snippet: y

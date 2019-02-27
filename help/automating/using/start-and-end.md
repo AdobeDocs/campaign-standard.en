@@ -3,13 +3,13 @@ title: Start and end
 seo-title: Start and end
 description: Start and end
 seo-description: The Start and End activities allow you to clearly mark where your workflow starts and ends.
-uuid: 80aa2d8f-8e0d-4bb1-a975-f65ee512d6a2
+uuid: 87060f33-99ec-4c01-90f5-82c1c7e2dfda
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: execution-activities
-discoiquuid: ead63634-6133-4e0b-a516-40cb7c078a3f
+discoiquuid: c47d5d3d-22b0-4bd3-b34d-0a49e73358f8
 index: y
 internal: n
 snippet: y

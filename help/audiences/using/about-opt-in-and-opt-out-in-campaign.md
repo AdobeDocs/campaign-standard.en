@@ -3,13 +3,13 @@ title: About opt-in and opt-out in Campaign
 seo-title: About opt-in and opt-out in Campaign
 description: About opt-in and opt-out in Campaign
 seo-description: Opt-out (or blacklist) results in a profile no longer being targeted by any delivery or by deliveries from a specific channel.
-uuid: a33f6cd5-7d3c-4980-97a8-95a6e1f45254
+uuid: 556bb7bc-d1a1-4f71-ae59-c75ca30add80
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
-discoiquuid: 97090bb5-aa58-4c93-9994-4758787f9f90
+discoiquuid: 577c7e94-59ef-412a-96cc-6a434ca6b7f5
 index: y
 internal: n
 snippet: y

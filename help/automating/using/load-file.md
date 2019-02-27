@@ -3,13 +3,13 @@ title: Load file
 seo-title: Load file
 description: Load file
 seo-description: The Load file activity allows you to import data in one structured form to use this data in Adobe Campaign.
-uuid: 4d504042-3c8b-4fc9-b214-9f57f09b923d
+uuid: 62ff3eea-9307-4dc0-afbd-f6bdc0bbeeb0
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
-discoiquuid: c77a5c59-0c48-48c3-a974-0fcfc370ae4d
+discoiquuid: ad6e4494-f2f5-4660-9b07-c0f843ec38b0
 index: y
 internal: n
 snippet: y

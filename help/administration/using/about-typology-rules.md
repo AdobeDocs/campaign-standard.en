@@ -3,13 +3,13 @@ title: About typology rules
 seo-title: About typology rules
 description: About typology rules
 seo-description: Discover how typology rules work in Adobe Campaign.
-uuid: 3e86d253-0921-49c4-9552-63a3adb6888f
+uuid: 7719c9e5-1095-4c7d-81df-a555f6808ac7
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
-discoiquuid: e58b973f-7c28-40f3-8cb7-a0fb5310fb45
+discoiquuid: 8462e25f-b941-4d8a-a631-61bc5af5e213
 index: y
 internal: n
 snippet: y

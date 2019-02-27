@@ -3,13 +3,13 @@ title: Organizational units
 seo-title: Organizational units
 description: Organizational units
 seo-description: Define your users' access levels using organizational units.
-uuid: 3faab3e6-8a7a-4729-ada8-4efa62232d49
+uuid: 04c18808-6b78-45f4-81ec-6e67c44ad84e
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-discoiquuid: ecb0b4c4-b1c4-4b04-9136-97e32f89c773
+discoiquuid: aea8505c-e4de-432a-8049-5fad8d048480
 index: y
 internal: n
 snippet: y
@@ -119,6 +119,6 @@ The organizational unit field is added to your profiles in the **[!UICONTROL Acc
 
 **Related topics**:
 
-* 
-*
+* [About units](../../administration/using/organizational-units.md#about-units)
+* [About access management](../../administration/using/about-access-management.md)
 

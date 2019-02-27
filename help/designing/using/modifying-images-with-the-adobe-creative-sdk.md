@@ -3,13 +3,13 @@ title: Modifying images with the Adobe Creative SDK
 seo-title: Modifying images with the Adobe Creative SDK
 description: Modifying images with the Adobe Creative SDK
 seo-description: Discover the complete set of features powered by the Adobe Creative SDK to enhance your images directly in the content editor.
-uuid: 19b74208-21b4-4a03-85c3-d358cbf3a43c
+uuid: 1e173ac4-7f55-4495-a92c-3f7ddfea4e59
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: using-images
-discoiquuid: a5d48e26-a868-4835-9239-2c1bbb8f79cb
+discoiquuid: 73862174-c709-4028-a0ca-eb7a1ac86df9
 index: y
 internal: n
 snippet: y

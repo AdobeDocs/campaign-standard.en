@@ -3,13 +3,13 @@ title: About tracked URLs
 seo-title: About tracked URLs
 description: About tracked URLs
 seo-description: Learn how to manage all the URLs of your content that will be tracked.
-uuid: e1e86ea9-1088-4253-b7e3-c6211be5b79d
+uuid: 1ce31585-2e27-4fad-9e1e-cb89f924b4ba
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: managing-links
-discoiquuid: 4ae6cb07-1051-4651-b310-d2aff9839d34
+discoiquuid: 7af9fda3-89f5-4f7b-bf65-1bf4f387a4c8
 index: y
 internal: n
 snippet: y

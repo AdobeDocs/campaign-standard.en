@@ -3,13 +3,13 @@ title: Adding components
 seo-title: Adding components
 description: Adding components
 seo-description: Drag and drog components to your freeform table to start filtering your data and building your report.
-uuid: 21245579-33fc-43db-bacb-c8935dfd6770
+uuid: 960cb910-73f7-4846-b761-1520a3244aa6
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
-discoiquuid: 762d8ee7-df41-4851-bef8-65144c954039
+discoiquuid: 82e9c236-fa29-478d-8faa-4474e8b39ade
 index: y
 internal: n
 snippet: y
@@ -43,6 +43,6 @@ You can drag and drop as many components as needed and compare them to one anoth
 
 **Related topics:**
 
-* 
-*
+* [List of components](../../reporting/using/list-of-components-.md)
+* [List of reports](../../reporting/using/defining-the-report-period.md)
 

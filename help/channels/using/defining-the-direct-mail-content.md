@@ -3,13 +3,13 @@ title: Defining the direct mail content
 seo-title: Defining the direct mail content
 description: Defining the direct mail content
 seo-description: Learn how to define the content for your direct mail delivery.
-uuid: 3151aa63-c15a-4297-a08c-48f11aa3b506
+uuid: 09176466-0723-41cf-bfe2-b7d9f523c710
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: direct-mail
-discoiquuid: 1175507d-d960-4fc6-96bb-b3b58d8f11a9
+discoiquuid: af84200c-d704-47e5-87cc-48af54c7ad9a
 index: y
 internal: n
 snippet: y

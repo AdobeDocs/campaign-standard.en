@@ -3,13 +3,13 @@ title: Using Triggers in Campaign
 seo-title: Using Triggers in Campaign
 description: Using Triggers in Campaign
 seo-description: 
-uuid: 425ad4a4-c83a-431b-8b05-8aa417656f32
+uuid: 2cbd1a66-14ec-41f8-a5dd-a6df7dffb7f6
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-discoiquuid: 53ac41ab-40b5-4d95-852b-ae45dc9aab17
+discoiquuid: a4800364-af6a-4094-8896-21b6207ef7dc
 index: y
 internal: n
 snippet: y

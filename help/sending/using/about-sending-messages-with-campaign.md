@@ -3,13 +3,13 @@ title: About sending messages with Campaign
 seo-title: About sending messages with Campaign
 description: About sending messages with Campaign
 seo-description: Discover the different steps to test and send a message.
-uuid: efe38367-6711-46a0-9027-83cbdbca1a43
+uuid: 5d380fae-cfe4-4a4d-b0ae-a8ff9a081370
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: about-sending-messages-with-campaign
-discoiquuid: 3fd93bfb-8f26-4ab5-85a0-ffca3e8adb4a
+discoiquuid: 926a6924-7ecf-4c26-a349-feafe625e9bd
 index: y
 internal: n
 snippet: y
@@ -35,10 +35,10 @@ Once you have defined the target and created the content of a message, you need 
 
 **Related topics**:
 
-* 
-* 
-* 
-* 
-* 
-*
+* [About scheduling messages](../../sending/using/about-scheduling-messages.md)
+* [Preparing the send](../../sending/using/preparing-the-send.md)
+* [Managing test profiles and sending proofs](../../sending/using/managing-test-profiles-and-sending-proofs.md)
+* [Email rendering](../../sending/using/email-rendering.md)
+* [Receiving alerts when failures happen](../../sending/using/receiving-alerts-when-failures-happen.md)
+* [Optimizing your deliverability](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_Deliverability.html)
 

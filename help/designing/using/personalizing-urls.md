@@ -3,13 +3,13 @@ title: Personalizing URLs
 seo-title: Personalizing URLs
 description: Personalizing URLs
 seo-description: Learn how to personalize URLs in a message by adding personalization fields, content blocks, or dynamic content.
-uuid: c9d8acf4-fd7a-4b13-97ee-ae7706a86234
+uuid: d687f8bf-40bf-4388-b428-598bf1175985
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: managing-links
-discoiquuid: 29391d59-7d9c-42b7-9317-07db6e81f20c
+discoiquuid: b3c8a763-1cc1-4ea8-b1ef-d14a98e73cef
 index: y
 internal: n
 snippet: y
@@ -41,7 +41,7 @@ In the [content editor](../../designing/using/about-personalization.md), the **[
 
 **Related topics**:
 
-* 
-* 
-*
+* [Inserting a personalization field](../../designing/using/inserting-a-personalization-field.md)
+* [Adding content blocks](../../designing/using/adding-a-content-block.md)
+* [Defining dynamic content](../../designing/using/defining-dynamic-content-in-an-email.md)
 

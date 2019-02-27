@@ -3,13 +3,13 @@ title: In-App delivery
 seo-title: In-App delivery
 description: In-App delivery
 seo-description: The In-App delivery activity allows you to configure sending an In-App message within a workflow.
-uuid: 3e9d815a-b2cf-43b3-a4d1-0c4403ac9e1e
+uuid: a2a15b23-7520-44b2-a801-59f574e0ec69
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: channel-activities
-discoiquuid: cffb724f-1358-41b5-bf60-d8915b8103e4
+discoiquuid: ef957646-f1af-43e7-a09f-2b1da3cc46a3
 index: y
 internal: n
 snippet: y

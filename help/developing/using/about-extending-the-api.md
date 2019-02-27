@@ -3,13 +3,13 @@ title: About extending the API
 seo-title: About extending the API
 description: About extending the API
 seo-description: 
-uuid: bcd51ec0-001a-4afb-b0eb-8783ae2e65b7
+uuid: f45ada06-7013-4e8e-83db-d95e3dd4d44a
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
-discoiquuid: 09bf02d7-b360-4d01-a2e3-b653886f6068
+discoiquuid: 9f248a35-ce5f-40d4-8485-9406a4f964a7
 index: y
 internal: n
 snippet: y
@@ -29,6 +29,6 @@ In order to publish the API, you need to have the **[!UICONTROL Datamodel]** rol
 
 Related topics:
 
-* 
-*
+* [About custom resources](../../developing/using/data-model-concepts.md)
+* [API documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
 

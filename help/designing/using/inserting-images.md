@@ -3,13 +3,13 @@ title: Inserting images
 seo-title: Inserting images
 description: Inserting images
 seo-description: Learn how to add images to your content.
-uuid: 6248db3a-66a7-49dc-adb3-91ee7c265079
+uuid: 225bf6ec-d719-4414-941e-9644bc8d480b
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: using-images
-discoiquuid: 6a851df3-fc07-4232-868d-7ac93f8d844a
+discoiquuid: c1f3c245-c2c7-42e0-b8c9-d87702082e57
 index: y
 internal: n
 snippet: y

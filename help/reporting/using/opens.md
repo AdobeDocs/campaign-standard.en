@@ -3,13 +3,13 @@ title: Opens
 seo-title: Opens
 description: Opens
 seo-description: With the Opens report, learn which delivery was the most viewed according to various criteria.
-uuid: e2c5a16d-6c9b-4da1-9c43-2124201b2a5d
+uuid: 10bfd602-8e2c-4db5-867e-21509fe88979
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
-discoiquuid: e07fe9df-1dcd-4d87-a986-2eab60bae003
+discoiquuid: 519f2814-8d5a-4600-9b59-2b2096a60fd5
 index: y
 internal: n
 snippet: y

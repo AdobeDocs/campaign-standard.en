@@ -3,13 +3,13 @@ title: Reporting interface
 seo-title: Reporting interface
 description: Reporting interface
 seo-description: Learn more about Dynamic report interface basis and how to navigate through the different tabs and menus.
-uuid: d0b246cf-8001-45d6-b7e6-842ba3632649
+uuid: 3a09a404-567f-4d9d-86c0-58fe8aed2b6f
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-discoiquuid: 34235086-8cd8-4bba-b231-788724158119
+discoiquuid: 9f928cfa-41d8-4f88-a2e6-37e408c7850a
 index: y
 internal: n
 snippet: y
@@ -44,9 +44,9 @@ The **Insert** table lets you customize your reports by adding graphs and tables
 
 **Related topics:**
 
-* 
-* 
-*
+* [Adding panels](../../reporting/using/adding-panels.md)
+* [Adding visualizations](../../reporting/using/adding-visualizations.md)
+* [Adding components](../../reporting/using/adding-components.md)
 
 ## Tabs {#tabs}
 
@@ -68,9 +68,9 @@ The toolbar can be found above your workspace. Composed of different tabs, it al
 
 **Related topics:**
 
-* 
-* 
-*
+* [Adding panels](../../reporting/using/adding-panels.md)
+* [Adding visualizations](../../reporting/using/adding-visualizations.md)
+* [Adding components](../../reporting/using/adding-components.md)
 
 ### Project tab {#project-tab}
 

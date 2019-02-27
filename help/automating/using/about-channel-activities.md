@@ -3,13 +3,13 @@ title: About channel activities
 seo-title: About channel activities
 description: About channel activities
 seo-description: Channel activities are available from the left-hand side of the screen.
-uuid: 9c092d50-38ac-41dd-9125-1fccbecd1c89
+uuid: 7f0c7341-f141-4f8f-ad00-3edff97c219b
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: channel-activities
-discoiquuid: d2ee8742-f323-496f-87ff-0297f628e75f
+discoiquuid: fb3512a9-b412-4bcd-8089-7a17dd40964d
 index: y
 internal: n
 snippet: y

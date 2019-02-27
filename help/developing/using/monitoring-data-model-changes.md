@@ -3,13 +3,13 @@ title: Monitoring data model changes
 seo-title: Monitoring data model changes
 description: Monitoring data model changes
 seo-description: Learn how to diagnose the Adobe Campaign data model.
-uuid: d96eff60-6292-4f53-a63d-476fb6712519
+uuid: 75838ccb-367c-4d88-bf8b-332545aab714
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: about-custom-resources
-discoiquuid: 111491a8-dc0f-4bdf-816d-bed658ed00e3
+discoiquuid: 8ccacdb5-5212-415d-b45b-57daa25ef077
 index: y
 internal: n
 snippet: y

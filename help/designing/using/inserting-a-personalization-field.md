@@ -3,13 +3,13 @@ title: Inserting a personalization field
 seo-title: Inserting a personalization field
 description: Inserting a personalization field
 seo-description: Learn how to insert a field from the database into your message such as the profile's first name.
-uuid: 641ca776-96fa-4a96-907e-85186be8dfc2
+uuid: e5fdcd6e-5f9a-4a99-8da9-f8543a45d5d3
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: personalizing-content
-discoiquuid: b20db267-042c-40e5-9b9e-571f20f34317
+discoiquuid: 84efb8b2-c93e-4b84-8f4e-660cc5bb0f65
 index: y
 internal: n
 snippet: y

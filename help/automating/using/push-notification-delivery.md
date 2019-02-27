@@ -3,13 +3,13 @@ title: Push notification delivery
 seo-title: Push notification delivery
 description: Push notification delivery
 seo-description: The Push notification delivery activity allows you to configure sending a single send push notification or a recurring push notification in a workflow.
-uuid: 2e122b0e-5543-4771-8403-20944fb33612
+uuid: f141ba2c-bc7c-453d-846f-4847ded5a1bd
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: channel-activities
-discoiquuid: 82dc7f6c-3a1f-4f34-bb1b-8976a82aefe2
+discoiquuid: 981f3e44-f210-4a75-930d-2907bb52853d
 index: y
 internal: n
 snippet: y

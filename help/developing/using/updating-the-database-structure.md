@@ -3,13 +3,13 @@ title: Updating the database structure
 seo-title: Updating the database structure
 description: Updating the database structure
 seo-description: Discover how to update the Adobe Campaign database.
-uuid: dd973a12-a77c-4c59-938c-8003925ef8cf
+uuid: ea64eba7-f202-412b-a5ff-d8e3a6ff67dd
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
-discoiquuid: 53294c1f-629c-4076-8d96-6576ce12e64b
+discoiquuid: 80a6ced3-1e56-4611-a160-9779664ddde4
 index: y
 internal: n
 snippet: y

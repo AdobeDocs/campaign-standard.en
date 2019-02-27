@@ -3,13 +3,13 @@ title: Creating a Campaign form in Experience Manager
 seo-title: Creating a Campaign form in Experience Manager 
 description: Creating a Campaign form in Experience Manager 
 seo-description: With the Adobe Experience Manager integration, you can create forms directly in AEM to create and update profiles or manage subscriptions.
-uuid: b8207eba-6b85-4657-87c2-6ee575a82a07
+uuid: a7139610-ff57-47f1-bdc3-7bf7d2981ddc
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
-discoiquuid: f8e0841a-f56b-4fbd-8303-a34bad7c7a1c
+discoiquuid: 4497d985-6d4d-472f-a5c6-4363a534624f
 index: y
 internal: n
 snippet: y
@@ -33,9 +33,9 @@ To create an Adobe Campaign form on your AEM site:
 
 1. Select the form type from the **[!UICONTROL Form Start]** component:
 
-    * 
-    * 
-    *
+    * **Adobe Campaign: Save profile**
+    * **Adobe Campaign: Subscribe to Services**
+    * **Adobe Campaign: Unsubscribe from Services**
 
 1. Edit the content of the form by adding different fields and components that you can map to the Adobe Campaign database fields.
 1. Test and publish the form to make it accessible on your AEM site.

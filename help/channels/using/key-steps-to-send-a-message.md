@@ -3,13 +3,13 @@ title: Key steps to send a message
 seo-title: Key steps to send a message
 description: Key steps to send a message
 seo-description: Follow these steps to create and send messages with Adobe Campaign.
-uuid: 5fe0c77c-8dfd-4dca-8f76-d20c8412c892
+uuid: 8242ee65-b3d0-4c54-9e1e-718b7bc605db
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
-discoiquuid: 326abc81-b4fb-4783-93fd-dc7da4c559fc
+discoiquuid: 558cce18-cf87-4d74-93aa-7a7328cd7803
 index: y
 internal: n
 snippet: y

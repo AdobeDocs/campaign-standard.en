@@ -3,13 +3,13 @@ title: Read audience
 seo-title: Read audience
 description: Read audience
 seo-description: The Read audience activity allows you to retrieve an existing audience and to refine it by applying additional filtering conditions.
-uuid: b13bf186-433c-4d44-acbb-b6a2a893f794
+uuid: 48d6768a-0306-4ce4-9e17-84da457b8da6
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: b45f9434-a68f-43c8-b207-f5d013287b45
+discoiquuid: 1be5d2a1-0ee8-47ca-956e-c55288d3fbdd
 index: y
 internal: n
 snippet: y

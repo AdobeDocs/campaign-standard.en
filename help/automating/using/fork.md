@@ -3,13 +3,13 @@ title: Fork
 seo-title: Fork
 description: Fork
 seo-description: The Fork activity allows you to create outbound transitions to start several activities at the same time.
-uuid: e351dfa6-aef4-4cb5-873e-3af9e987f404
+uuid: dab86c1e-6106-417e-97ee-b08874b8420a
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: execution-activities
-discoiquuid: d073d2e5-cec3-4143-b5cb-ad2d1aac8ebd
+discoiquuid: 04d27c35-c897-4b32-9e4a-94d7eececf07
 index: y
 internal: n
 snippet: y

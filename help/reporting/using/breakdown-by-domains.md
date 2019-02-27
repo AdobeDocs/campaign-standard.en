@@ -3,13 +3,13 @@ title: Breakdown by domains
 seo-title: Breakdown by domains
 description: Breakdown by domains
 seo-description: With the Breakdown by domains out-of-the-box report, learn about the performance data of your deliveries depending on each of your customer's domain.
-uuid: 69680d36-8269-4832-92ee-2ae47d5bf9e2
+uuid: dec6f25a-0d90-40c8-b6eb-d56a16a68afd
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
-discoiquuid: 16fba687-1a56-4144-8600-e440c6ae0a39
+discoiquuid: 216a55e7-4475-4a5e-ba35-dd2430187228
 index: y
 internal: n
 snippet: y

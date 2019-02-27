@@ -3,13 +3,13 @@ title: Configuring filter definition
 seo-title: Configuring filter definition
 description: Configuring filter definition
 seo-description: Discover the filter feature to manage large data set.
-uuid: 56345f5a-c8c5-4c2a-a503-d17997fc66b4
+uuid: f50b12f6-b8bb-4053-baa4-4adac7a42c84
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
-discoiquuid: 18f07848-add4-4368-81df-9ce099f88053
+discoiquuid: 821d8833-0d91-41da-b3be-3101fb0a8839
 index: y
 internal: n
 snippet: y

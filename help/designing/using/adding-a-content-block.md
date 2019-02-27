@@ -3,13 +3,13 @@ title: Adding a content block
 seo-title: Adding a content block
 description: Adding a content block
 seo-description: Discover the various out-of-the-box dynamic content blocks you can use to personalize your messages and learn how to create custom content blocks.
-uuid: c09f33e2-4d7d-4770-931f-2144304b3beb
+uuid: c29c5384-6751-4c70-a925-fe3a544d76bf
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: personalizing-content
-discoiquuid: e109e8e0-4fa9-4b8e-a5cb-4ce68cc8b524
+discoiquuid: 92ff6ead-1822-45d1-a0cc-9e6b3060518d
 index: y
 internal: n
 snippet: y
@@ -46,7 +46,7 @@ The out-of-the-box content blocks are:
 * **[!UICONTROL Database URL in emails (EmailUrlBase)]** : This content block can only be used in a **delivery**.
 * **[!UICONTROL Mirror page URL (MirrorPageUrl)]** : This content block can only be used in a **delivery**.
 * **[!UICONTROL Link to mirror page (MirrorPage)]** : This content block can only be used in a **delivery**.
-* 
+* **[!UICONTROL Greetings (Greetings)]** 
 * **[!UICONTROL Unsubscription link (UnsubscriptionLink)]** : This content block can only be used in a **delivery**.
 * **[!UICONTROL Social network sharing links (LandingPageViralLinks)]** : This content block can only be used in a **landing page**.
 * **[!UICONTROL Default sender name (DefaultSenderName)]** : This content block can only be used in a **delivery**.
@@ -54,10 +54,10 @@ The out-of-the-box content blocks are:
 * **[!UICONTROL Email address of default sender (DefaultSenderAddress)]** : This content block can only be used in a **delivery**.
 * **[!UICONTROL Default error email address (DefaultErrorAddress)]** : This content block can only be used in a **delivery**.
 * **[!UICONTROL Default reply-to email address (DefaultReplyAddress)]** : This content block can only be used in a **delivery**.
-* 
-* 
-* 
-*
+* **[!UICONTROL Brand name (BrandingUsualName)]** 
+* **[!UICONTROL Link to the brand website (BrandingWebSiteLink)]** 
+* **[!UICONTROL Brand logo (BrandingLogo)]** 
+* **[!UICONTROL Notification style (notificationStyle)]**
 
 ## Creating custom content blocks {#creating-custom-content-blocks}
 

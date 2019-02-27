@@ -3,13 +3,13 @@ title: Provisioning and configuring integration with Audience Manager or People 
 seo-title: Provisioning and configuring integration with Audience Manager or People core service
 description: Provisioning and configuring integration with Audience Manager or People core service
 seo-description: Learn how to configure the Audience Manager / People core service integration to start sharing audiences or segments with the different Adobe Experience Cloud solutions. 
-uuid: 619f8c3d-7c9a-479c-bf8a-27d66648bd5f
+uuid: 04f64d31-dcc2-46f4-b74b-9439774943f3
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
-discoiquuid: 4e69921d-78c4-4002-9a04-144f500414fd
+discoiquuid: 957d8420-6f7a-4535-adf1-299d71bb43da
 index: y
 internal: n
 snippet: y
@@ -66,10 +66,10 @@ This integration must first be configured. To request provisioning of this integ
 
 After submitting this request, Adobe will proceed to the provisioning of the integration for you and contact you to provide details and information that you have to finalize the configuration:
 
-* 
-* 
-* 
-*
+* [Step 1: Configure or check the external accounts in Adobe Campaign](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-1--configure-or-check-the-external-accounts-in-adobe-campaign)
+* [Step 2: Configure the Data Sources](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources)
+* [Step 3: Configure Campaign Tracking server](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-3--configure-campaign-tracking-server)
+* [Step 4: Configure the Visitor ID Service](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-4--configure-the-visitor-id-service)
 
 ### Step 1: Configure or check the external accounts in Adobe Campaign {#step-1--configure-or-check-the-external-accounts-in-adobe-campaign}
 

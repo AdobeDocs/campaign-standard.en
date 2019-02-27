@@ -3,13 +3,13 @@ title: Creating a new template
 seo-title: Creating a new template
 description: Creating a new template
 seo-description: Learn how to create a new template, from existing out-of-box activity templates for email, SMS, push notification deliveries, etc.
-uuid: dd3efc5a-3968-46e1-bd24-18aca802afcc
+uuid: abecffc9-86da-4f2c-a5fd-b66121cc8bd4
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
 topic-tags: managing-templates
-discoiquuid: ec293a49-1b53-463f-b126-7f48db3eb898
+discoiquuid: f4a970d8-4f1f-41c0-8c1d-d39c78243b32
 index: y
 internal: n
 snippet: y
@@ -37,6 +37,6 @@ Created templates can then be selected by standard user in the first screen of t
 
 **Related topics:**
 
-* 
-*
+* [Branding](../../administration/using/branding.md)
+* [Design content](../../designing/using/about-email-content-design.md)
 

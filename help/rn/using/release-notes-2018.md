@@ -3,13 +3,13 @@ title: Release Notes 2018
 seo-title: Release Notes 2018
 description: Release Notes 2018
 seo-description: 
-uuid: 6b4f82be-a88e-4eb6-9d3c-efe3110a9b7e
+uuid: 7b61b4d7-ceb3-428c-af4c-346519d5fa98
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-discoiquuid: 7b6d6cb8-f81f-4fc1-af0f-56eacb1b4c19
+discoiquuid: fc785d40-37a9-4694-8c8e-351fe5937d7a
 index: y
 internal: n
 snippet: y
@@ -37,7 +37,7 @@ Release Notes 2018
   </tr> 
   <tr> 
    <td> Adobe Launch integration for mobile apps (beta)<br /> </td> 
-   <td> Adobe Launch integration with Adobe Campaign now simplifies and automates the process of Mobile App Property activation in Campaign using the Mobile SDK V5.<br /> For more information, refer to the <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">detailed documentation</a>.<br /> </td> 
+   <td> Adobe Launch integration with Adobe Campaign now simplifies and automates the process of Mobile App Property activation in Campaign using the Mobile SDK V5.<br /> For more information, refer to the <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html ">detailed documentation</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -50,6 +50,9 @@ Release Notes 2018
 
 * In the broadlogs, there is now a distinction between the maximum number of connections and the maximum number of messages per hour. When the limits are reached, it is then possible to know why the throughput is limited. Previously, the same message (‘quota met’) applied to both cases.
 * When configuring a mobile application in Campaign, the user can now know if the iOS certificate and Android server key have been successfully uploaded and their expiration date.
+
+  For more on this, refer to the detailed documentation on how to configure a mobile application using [SDK V4](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html ) and [SDK V5](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html). 
+
 * Target users on a specific Mobile App by selecting a Mobile App while defining the Campaign properties. This feature is for both Push and In-App Messaging channels.
 
   For more information, refer to the [detailed documentation](../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification).
@@ -204,7 +207,7 @@ Release Notes 2018
   </tr> 
   <tr> 
    <td> Delivery logs extension<br /> </td> 
-   <td> Delivery logs extension allows you to extend sending logs with profile data and segment code coming from workflows. This information can then be used in Dynamic Reports, and lets you keep a snapshot of some information at the sending time of a delivery.<br /> There are 2 more use cases :<br /><ul> <li> Export extended broadlogs with "frozen" data: As a marketer, I would like to export all the profiles where segment code equals "A" (coming from the workflow engine). </li> <li> Segmentation on "frozen" data: As a marketer, I would like to <strong>retarget</strong> all profiles who have won 1000 loyalty points since the last sending or where segment code was equal to "A". </li></ul> For more information, refer to the <a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">detailed documentation</a>.<br /> </td> 
+   <td> Delivery logs extension allows you to extend sending logs with profile data and segment code coming from workflows. This information can then be used in Dynamic Reports, and lets you keep a snapshot of some information at the sending time of a delivery.<br /> There are 2 more use cases :<br /> <li> Export extended broadlogs with "frozen" data: As a marketer, I would like to export all the profiles where segment code equals "A" (coming from the workflow engine). </li> <li> Segmentation on "frozen" data: As a marketer, I would like to <strong>retarget</strong> all profiles who have won 1000 loyalty points since the last sending or where segment code was equal to "A". </li> For more information, refer to the <a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">detailed documentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Dynamic reporting with Custom profile data<br /> </td> 
@@ -290,11 +293,11 @@ Release Notes 2018
  <tbody> 
   <tr> 
    <td> EU General Data Protection Regulation (GDPR)<br /> </td> 
-   <td> GDPR is the European Union’s (EU) new privacy law that harmonizes and modernizes data protection requirements going into effect on May 25, 2018. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.<br /> In addition to the privacy capabilities already available in Adobe Campaign (including consent management, data retention settings, and user roles), we are taking this opportunity in our role as Data Processor to include additional capabilities, to help facilitate your readiness as Data Controller for certain GDPR requests:<br /><ul> <li> Right to Access: allows the Data Subject to receive a copy of his/her personal data captured by Data Controllers, potentially including data stored in Adobe Campaign. </li> <li> Right to Delete: entitles the Data Subject to have his/her personal data captured by Data Controllers erased, potentially including data stored in Adobe Campaign. </li></ul> For more information, refer to the <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">detailed documentation</a>.<br /> </td> 
+   <td> GDPR is the European Union’s (EU) new privacy law that harmonizes and modernizes data protection requirements going into effect on May 25, 2018. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.<br /> In addition to the privacy capabilities already available in Adobe Campaign (including consent management, data retention settings, and user roles), we are taking this opportunity in our role as Data Processor to include additional capabilities, to help facilitate your readiness as Data Controller for certain GDPR requests:<br /> <li> Right to Access: allows the Data Subject to receive a copy of his/her personal data captured by Data Controllers, potentially including data stored in Adobe Campaign. </li> <li> Right to Delete: entitles the Data Subject to have his/her personal data captured by Data Controllers erased, potentially including data stored in Adobe Campaign. </li> For more information, refer to the <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">detailed documentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Creative Designer for Email (Beta)<br /> </td> 
-   <td> Adobe Campaign's new Creative Designer offers a fully integrated creation experience in Campaign, enabling the quick and effortless visual creation of captivating, individually personalized emails without the need to script a single line of code. Through its powerful drag and drop interface, the Creative Designer helps scale email creation whether users start from a blank slate, or leverage existing content Fragments or templates. <br /> Key capabilities include:<br /> <ul><li> Visually design and create fully personalized, responsive emails through a drag and drop interface, augmented by native Creative Cloud integrations </li> <li> Create and save an email content template &amp; leverage saved templates to help scale email creation </li> <li> Create and save content Fragments (such as a header, footer, article, etc.) to streamline content creation and ensure brand consistency </li> <li> Seamlessly switch between creating in the drag &amp; drop interface and directly editing HTML of an email at the click of a button </li> </ul>The Creative Designer for Email is only available in English.<br /> For more information, refer to the <a href="../../designing/using/about-email-content-design.md#about-the-email-designer">detailed documentation</a> and watch this <a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">video</a>.<br /> </td> 
+   <td> Adobe Campaign's new Creative Designer offers a fully integrated creation experience in Campaign, enabling the quick and effortless visual creation of captivating, individually personalized emails without the need to script a single line of code. Through its powerful drag and drop interface, the Creative Designer helps scale email creation whether users start from a blank slate, or leverage existing content Fragments or templates. <br /> Key capabilities include:<br /> <li> Visually design and create fully personalized, responsive emails through a drag and drop interface, augmented by native Creative Cloud integrations </li> <li> Create and save an email content template &amp; leverage saved templates to help scale email creation </li> <li> Create and save content Fragments (such as a header, footer, article, etc.) to streamline content creation and ensure brand consistency </li> <li> Seamlessly switch between creating in the drag &amp; drop interface and directly editing HTML of an email at the click of a button </li> The Creative Designer for Email is only available in English.<br /> For more information, refer to the <a href="../../designing/using/about-email-content-design.md#about-the-email-designer">detailed documentation</a> and watch this <a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">video</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Multilingual Push Deliveries<br /> </td> 
@@ -302,7 +305,7 @@ Release Notes 2018
   </tr> 
   <tr> 
    <td> Use of Custom Resources in Transactional Messaging<br /> </td> 
-   <td> In addition to out-of-the-box fields, transactional messaging now allows you to use custom resources to enrich the content of your messages.<br /> For example:<br /> <ul><li> Leverage custom fields as a reconciliation criteria to match a transactional message to a profile </li> <li> Leverage full profiles, services and linked data to further personalize transactional messages </li></ul> For more information, refer to the <a href="../../administration/using/configuring-transactional-messaging.md">detailed documentation</a>.<br /> </td> 
+   <td> In addition to out-of-the-box fields, transactional messaging now allows you to use custom resources to enrich the content of your messages.<br /> For example:<br /> <li> Leverage custom fields as a reconciliation criteria to match a transactional message to a profile </li> <li> Leverage full profiles, services and linked data to further personalize transactional messages </li> For more information, refer to the <a href="../../administration/using/configuring-transactional-messaging.md">detailed documentation</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -438,7 +441,7 @@ Some issues might occur when using contextual help links from Campaign interface
   </tr> 
   <tr> 
    <td> Push New capabilities<br /> </td> 
-   <td> Push Message Preview - Preview push notifications on iOS and Android devices from within the push notification content editor to see exactly what your recipients will see before testing or executing the delivery.<br /> For more information, refer to the <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">detailed documentation</a>.<br /> Content Available - When apps are not opened over longer periods of time, their data can become outdated. This results in the data having to be updated or replaced at the moment a user finally opens the app, which can cause delays in using the app. With the added support of Content Available, Adobe Campaign users can wake up their app to refresh its data in the background when delivering a push notification, enabling greater consistency and control over a user’s in-app experience.<br /> Mutable Content - With the added support of Mutable Content, Adobe Campaign users can now leverage their mobile app extensions to further modify the content or presentation of arriving push notifications sent from Adobe Campaign. For example, users can leverage Mutable Content to: <br /> <ul><li> decrypt data that was delivered in an encrypted format </li> <li> download images or other media files and add them as attachments to a notification </li> <li> change the body or title text of a notification </li> <li> add a thread identifier to a notification </li></ul> For more information on Content Available and Mutable Content, refer to the <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">detailed documentation</a>.<br /> <strong>Warning:</strong> these updates on push notifications require customers to upgrade their mobile applications. Refer to <a href="https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html">this technote</a> for more information.<br /> </td> 
+   <td> Push Message Preview - Preview push notifications on iOS and Android devices from within the push notification content editor to see exactly what your recipients will see before testing or executing the delivery.<br /> For more information, refer to the <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">detailed documentation</a>.<br /> Content Available - When apps are not opened over longer periods of time, their data can become outdated. This results in the data having to be updated or replaced at the moment a user finally opens the app, which can cause delays in using the app. With the added support of Content Available, Adobe Campaign users can wake up their app to refresh its data in the background when delivering a push notification, enabling greater consistency and control over a user’s in-app experience.<br /> Mutable Content - With the added support of Mutable Content, Adobe Campaign users can now leverage their mobile app extensions to further modify the content or presentation of arriving push notifications sent from Adobe Campaign. For example, users can leverage Mutable Content to: <br /> <li> decrypt data that was delivered in an encrypted format </li> <li> download images or other media files and add them as attachments to a notification </li> <li> change the body or title text of a notification </li> <li> add a thread identifier to a notification </li> For more information on Content Available and Mutable Content, refer to the <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">detailed documentation</a>.<br /> <strong>Warning:</strong> these updates on push notifications require customers to upgrade their mobile applications. Refer to <a href="https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html">this technote</a> for more information.<br /> </td> 
   </tr> 
   <tr> 
    <td> Time-zone optimized deliveries<br /> </td> 

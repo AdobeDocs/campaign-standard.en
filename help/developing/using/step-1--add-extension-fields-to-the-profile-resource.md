@@ -3,13 +3,13 @@ title: "Step 1: Add extension fields to the profile resource"
 seo-title: "Step 1: Add extension fields to the profile resource"
 description: "Step 1: Add extension fields to the profile resource"
 seo-description: Discover how to extend the profile resource.
-uuid: 09614185-57a4-456b-851a-16a2dfd06708
+uuid: 00cf5807-59a0-4afd-b28e-24be9bc4d5f0
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
-discoiquuid: 1e14bf62-5baa-45af-bdba-19fb8da5c203
+discoiquuid: dc883204-d4f5-4cc0-920c-eb0683b9e8b4
 index: y
 internal: n
 snippet: y

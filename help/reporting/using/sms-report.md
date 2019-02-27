@@ -3,13 +3,13 @@ title: SMS report
 seo-title: SMS report
 description: SMS report
 seo-description: With the SMS out-of-the-box report, learn about the success of your SMS deliveries. 
-uuid: 5314dd95-21a7-4a1d-80e0-56d58e6bd112
+uuid: a435f1b0-5504-4b97-90a8-b226f4e06ba9
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
-discoiquuid: b60ed522-b6d7-4df5-9b4d-bb4e0cf2103b
+discoiquuid: eb3f2682-fb63-4341-a270-45c166460573
 index: y
 internal: n
 snippet: y

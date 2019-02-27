@@ -3,13 +3,13 @@ title: "Step 3: Verify the extension"
 seo-title: "Step 3: Verify the extension"
 description: "Step 3: Verify the extension"
 seo-description: Learn how to access to the extended field with the Rest API.
-uuid: 08466bcc-ac1a-4181-b982-ea455bcd6b55
+uuid: 3edecf08-7e6f-426e-a79b-34889033ea8e
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
-discoiquuid: 976f41bb-62cd-46d4-a411-fe8913c02eb1
+discoiquuid: 69bea077-75a4-4708-82c8-064375b2bcbb
 index: y
 internal: n
 snippet: y

@@ -3,13 +3,13 @@ title: About email content design
 seo-title: About email content design
 description: About email content design
 seo-description: Discover the Email Designer that enables you to design content for your emails.
-uuid: 877d3c59-2fda-47ed-b30c-3dffc6a81e0a
+uuid: da4275a1-57c7-424c-af69-96532a881586
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-discoiquuid: c4fb3c1d-0e58-4bbc-b4b0-891f044117e0
+discoiquuid: b679a7d0-515e-4364-8a88-1b10a952cd20
 index: y
 internal: n
 snippet: y
@@ -23,9 +23,9 @@ Use the Email Designer drag-and-drop interface to create and modify the content 
 
 This section describes the specificities of the Email Designer:
 
-* 
-* 
-*
+* [About the Email Designer](../../designing/using/about-email-content-design.md#about-the-email-designer)
+* [Defining the email structure](../../designing/using/defining-the-email-structure.md)
+* [Editing email styles](../../designing/using/editing-email-styles.md)
 
 To know more about actions that are common to one or more marketing activities, refer to the following sections:
 
@@ -139,12 +139,12 @@ You can also check out this [introduction video](https://video.tv.adobe.com/v/22
 
 **Related topics**:
 
-* 
-* 
-* 
-* 
-* 
-*
+* [Creating an email](../../channels/using/creating-an-email.md)
+* [Selecting an existing content](../../designing/using/selecting-an-existing-content.md)
+* [Selecting an audience in a message](../../audiences/using/selecting-an-audience-in-a-message.md)
+* [Scheduling messages](../../sending/using/about-scheduling-messages.md)
+* [Previewing messages](../../sending/using/previewing-messages.md)
+* [Email rendering](../../sending/using/email-rendering.md)
 
 ## Switching to mobile view {#switching-to-mobile-view}
 
@@ -309,14 +309,14 @@ Adobe Campaign offers several email authoring options. The table below shows the
   </tr> 
   <tr> 
    <td> <strong>Benefits</strong><br /> </td> 
-   <td> <ul><li> Easy email building through drag-and-drop experience </li> <li> Functionalities similar to legacy content editor </li> <li> Reusable content with fragments </li></ul> </td> 
-   <td> <ul><li> Reusing assets from website in emails </li> <li> Leveraging the power of Experience Manager in email contents </li></ul> </td> 
-   <td> <ul><li> Capability for a developer to directly code an email </li> <li> Bi-directional synchronization </li> <li> Editing offline in Dreamweaver and synchronizing later </li> <li> Uploading images to Adobe Campaign through Dreamweaver </li></ul> </td> 
+   <td> <li> Easy email building through drag-and-drop experience </li> <li> Functionalities similar to legacy content editor </li> <li> Reusable content with fragments </li> </td> 
+   <td> <li> Reusing assets from website in emails </li> <li> Leveraging the power of Experience Manager in email contents </li> </td> 
+   <td> <li> Capability for a developer to directly code an email </li> <li> Bi-directional synchronization </li> <li> Editing offline in Dreamweaver and synchronizing later </li> <li> Uploading images to Adobe Campaign through Dreamweaver </li> </td> 
   </tr> 
   <tr> 
    <td> <strong>Limitations</strong><br /> </td> 
-   <td> <ul><li> No conditional content within fragments </li> <li> Using Experience Manager fragments not possible </li></ul> </td> 
-   <td> <ul><li> Advanced personalization difficult to implement </li> <li> Need to send tests in Adobe Campaign </li></ul> </td> 
+   <td> <li> No conditional content within fragments </li> <li> Using Experience Manager fragments not possible </li> </td> 
+   <td> <li> Advanced personalization difficult to implement </li> <li> Need to send tests in Adobe Campaign </li> </td> 
    <td> Dynamic content not supported<br /> </td> 
   </tr> 
   <tr> 

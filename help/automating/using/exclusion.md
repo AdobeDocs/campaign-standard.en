@@ -3,13 +3,13 @@ title: Exclusion
 seo-title: Exclusion
 description: Exclusion
 seo-description: The Exclusion  activity allows you to exclude elements from one population according to certain criteria.
-uuid: 17ecb8fe-9140-43e7-aa28-f8da49600d44
+uuid: 2d2372d1-05b8-4233-be19-049307b1ca01
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 7b6ef4a2-8b1d-4dd9-8226-b2be9f4e72fc
+discoiquuid: b2c5399f-389e-4f92-8274-a9e352c12cab
 index: y
 internal: n
 snippet: y

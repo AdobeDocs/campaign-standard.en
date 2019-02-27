@@ -3,13 +3,13 @@ title: Personalizing the subject line of an email
 seo-title: Personalizing the subject line of an email
 description: Personalizing the subject line of an email
 seo-description: You can personalize the subject of an email, but also try out different subject lines and get an estimation of its open rate.
-uuid: 091e43ce-bc18-4a7c-b289-2808b899972d
+uuid: 11934f91-1465-4957-b8a1-963165194ad9
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: personalizing-content
-discoiquuid: eb800227-e6f0-44dd-b715-f198797f2f48
+discoiquuid: 4b840bc2-c1cd-480c-9519-6d610b98a828
 index: y
 internal: n
 snippet: y
@@ -33,9 +33,9 @@ Inserting and using the personalization fields is detailed in the [Inserting a p
 
 **Related topics:**
 
-* 
-* 
-*
+* [Inserting a personalization field](../../designing/using/inserting-a-personalization-field.md)
+* [Adding a content block](../../designing/using/adding-a-content-block.md)
+* [Defining dynamic content in an email](../../designing/using/defining-dynamic-content-in-an-email.md)
 
 ## Predictive subject line {#predictive-subject-line}
 

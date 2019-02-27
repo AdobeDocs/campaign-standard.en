@@ -3,13 +3,13 @@ title: Workflow data and processes
 seo-title: Workflow data and processes
 description: Workflow data and processes
 seo-description: Learn about processes that you can set up and automate with Adobe Campaign.
-uuid: 1405a7be-1fe2-481d-bed5-0990cb6712ec
+uuid: 888b95e3-9f06-4853-b990-80930e83adb6
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
-discoiquuid: 0ed3f590-c2c2-4f20-9995-6edc79a17d0f
+discoiquuid: dec83fe9-56f2-438a-97ca-7e7e52a24cba
 index: y
 internal: n
 snippet: y
@@ -27,6 +27,6 @@ With Adobe Campaign, you can import, transform, filter, manage, and export data.
 
 **Related topics**:
 
-* 
-*
+* [Discovering workflows](../../automating/using/discovering-workflows.md)
+* [About data import and export](../../automating/using/about-data-import-and-export.md)
 

@@ -3,13 +3,13 @@ title: Resource statuses
 seo-title: Resource statuses
 description: Resource statuses
 seo-description: Discover the different resource statuses according to their publication state.
-uuid: dc74e923-3607-4c7a-8d29-a36592f6a241
+uuid: 3aed73cc-5c97-455b-84f5-13c05a527326
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: about-custom-resources
-discoiquuid: 2b1da026-04eb-4770-97dc-ee0c96d37490
+discoiquuid: c1ffda41-e88b-42b8-8a00-ce6f83a92fff
 index: y
 internal: n
 snippet: y

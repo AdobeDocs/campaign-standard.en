@@ -3,13 +3,13 @@ title: Update data
 seo-title: Update data
 description: Update data
 seo-description: The Update data activity allows you to perform a mass update on fields in the database.
-uuid: 920921bf-44b0-4716-97b5-4e98efb38f22
+uuid: bc9f4e77-f357-4422-8fa5-8c636308ae85
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
-discoiquuid: 51640033-92c0-4de3-a0cd-07186f5b2a96
+discoiquuid: f41ec1e9-da44-4bc2-b275-56ee7da8fb4b
 index: y
 internal: n
 snippet: y

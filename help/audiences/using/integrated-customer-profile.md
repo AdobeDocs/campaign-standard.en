@@ -3,13 +3,13 @@ title: Integrated customer profile
 seo-title: Integrated customer profile
 description: Integrated customer profile
 seo-description: "Track every customer interaction in a single view: Adobe Campaign integrated customer profile is updated throughout the customer life cycle."
-uuid: 00c59195-9634-497b-a48d-dce5068185a2
+uuid: 10d5d6b0-835d-45a5-bbc5-42645a4a5933
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
-discoiquuid: 87ece20a-dfce-41d7-a1ae-fd11632b7a75
+discoiquuid: 46c713c1-60d7-4c1a-ba43-79427cafb996
 index: y
 internal: n
 snippet: y

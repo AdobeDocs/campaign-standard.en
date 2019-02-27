@@ -3,13 +3,13 @@ title: Indicator calculation
 seo-title: Indicator calculation
 description: Indicator calculation
 seo-description: Understand the results of your reports with a list of every metric's formula.
-uuid: bbf1d8f3-8906-4188-bc06-cde36da2533d
+uuid: 563c5bf8-a2d4-4421-bcd8-e11bf403c07b
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-discoiquuid: f3798168-c462-4f1c-a6e8-e286214fec9a
+discoiquuid: 70e22922-53fa-4700-9276-c6b75c65236b
 index: y
 internal: n
 snippet: y

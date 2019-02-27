@@ -3,13 +3,13 @@ title: Defining the report period
 seo-title: Defining the report period
 description: Defining the report period
 seo-description: The time period of your report allows you to filter your data depending on the chosen dates.
-uuid: 6e474c00-c8fe-459e-ba8e-f191aa6f3075
+uuid: 3311e9bb-5d20-4e11-9499-5fc11c7f3421
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
-discoiquuid: 4359ac68-2bb6-4e53-b638-2a71678da4b2
+discoiquuid: 42472423-000e-43b8-83fa-8cd0d83f482a
 index: y
 internal: n
 snippet: y

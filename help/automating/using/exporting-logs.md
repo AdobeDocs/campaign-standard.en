@@ -3,13 +3,13 @@ title: Exporting logs
 seo-title: Exporting logs
 description: Exporting logs
 seo-description: Log data, whether they are related to deliveries or to subscriptions, can be exported through a simple workflow.
-uuid: 871ea274-2ade-49a3-b784-cf4646b2dd56
+uuid: cbffa635-2c3b-4538-93e5-f89c75e43256
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
-discoiquuid: 42f3d26e-d8ff-44cd-be7e-5fcaff74163c
+discoiquuid: 19cb7fca-da21-43a2-8df5-d9c11c31a51d
 index: y
 internal: n
 snippet: y

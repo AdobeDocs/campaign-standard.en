@@ -3,13 +3,13 @@ title: Message dashboard
 seo-title: Message dashboard
 description: Message dashboard
 seo-description: Discover what the message dashboard is made up of, including the action bar and the various functional blocks.
-uuid: f7ed7841-9548-437c-9e19-53b722a68537
+uuid: ffff5cff-d1c1-407e-bd38-df20e1aa388c
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
-discoiquuid: a945cebf-b5bd-4afc-88d6-0569ce8ea980
+discoiquuid: db3f9e92-1b5a-4da5-bada-50be6e957779
 index: y
 internal: n
 snippet: y
@@ -33,8 +33,8 @@ The gray bar regroups various icons linked to your message.
 
 **Related topics**
 
-* 
-*
+* [Configuring channels](../../administration/using/about-channel-configuration.md)
+* [Accessing reports](../../reporting/using/about-dynamic-reports.md)
 
 ## Action bar {#action-bar}
 

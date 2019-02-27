@@ -3,13 +3,13 @@ title: Compatible browsers
 seo-title: Compatible browsers
 description: Compatible browsers
 seo-description: Adobe Campaign Standard is compatible with most browsers and main operating systems. Discover the full list.
-uuid: 1648fb1f-6c91-408f-8c1d-f9c656522791
+uuid: 7938fdb8-4d26-4b5a-b426-69a4c0bd0edc
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-discoiquuid: ccbdb230-6f1c-4da1-96c2-e4778439db86
+discoiquuid: e08b5b74-2cda-4479-92d0-fb0988ff6c6d
 index: y
 internal: n
 snippet: y

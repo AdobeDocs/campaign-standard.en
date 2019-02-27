@@ -3,13 +3,13 @@ title: Deduplication
 seo-title: Deduplication
 description: Deduplication
 seo-description: The Deduplication activity allows you to delete duplicates in the result(s) of the inbound activities.
-uuid: 99b62af6-fa3f-439d-88c4-efcabf8c16e0
+uuid: ea5a5481-19e4-44b3-8273-ef41906f3c99
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 790a241a-1ff7-4868-84a9-d88e8460d454
+discoiquuid: 3b17697c-741f-4e9e-92f5-2127a7e2593b
 index: y
 internal: n
 snippet: y

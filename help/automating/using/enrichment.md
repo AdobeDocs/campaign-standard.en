@@ -3,13 +3,13 @@ title: Enrichment
 seo-title: Enrichment
 description: Enrichment
 seo-description: The Enrichment activity is an advanced activity that allows you to define additional data to process in your workflow.
-uuid: 662927f9-151a-44f0-af2e-f5ee2565269e
+uuid: f76a1a2d-bad6-4350-aa83-dccf9809e8a7
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 8d3b048c-2da5-48eb-97d4-cf1cc2564f56
+discoiquuid: e8a32351-1cb0-43a3-b421-679cc2964916
 index: y
 internal: n
 snippet: y

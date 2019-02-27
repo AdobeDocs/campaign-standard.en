@@ -3,13 +3,13 @@ title: About execution activities
 seo-title: About execution activities
 description: About execution activities
 seo-description: Execution activities are available from the left-hand side of the screen.
-uuid: 3fdb1863-bdc3-4db7-b90d-4b924f2ec5c9
+uuid: 3eea92b3-c2ea-474d-a105-8f7bfa3be0c2
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: execution-activities
-discoiquuid: 54f68c66-3a47-481f-bb2d-54c43fe0dd44
+discoiquuid: 0a51f366-9a45-4b64-badd-bb22ce2bd28a
 index: y
 internal: n
 snippet: y

@@ -3,13 +3,13 @@ title: Receiving alerts when failures happen
 seo-title: Receiving alerts when failures happen
 description: Receiving alerts when failures happen
 seo-description: Learn how to use the alert management system.
-uuid: 54bb06af-011b-4ca1-a411-28531ca83fa0
+uuid: ab6e21d1-7034-4879-bf4b-22c50bdead7d
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-discoiquuid: 11c6e57a-40b0-4910-8de0-0ee58a029649
+discoiquuid: 10904930-4415-486e-bee3-d750b0c69f0b
 index: y
 internal: n
 snippet: y
@@ -134,9 +134,9 @@ For each criterion, you can define the following settings:
 
 **Related topics:**
 
-* 
-* 
-*
+* [Sending logs](../../sending/using/monitoring-a-delivery.md#sending-logs)
+* [Alerting frequency](../../sending/using/receiving-alerts-when-failures-happen.md#alerting-frequency)
+* [Marketing activity icons and statuses](../../start/using/marketing-activities.md#marketing-activity-icons-and-statuses)
 
 ### Creating a delivery alerting criterion {#creating-a-delivery-alerting-criterion}
 
@@ -277,7 +277,7 @@ Here are a few possible reasons for receiving alerting notifications according t
 
 **Related topics:**
 
-* 
-* 
-*
+* [Understanding delivery failures](../../sending/using/understanding-delivery-failures.md)
+* [Understanding quarantine management](../../sending/using/understanding-quarantine-management.md)
+* [Managing blacklisting in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 

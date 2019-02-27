@@ -3,13 +3,13 @@ title: Selecting an audience in a message
 seo-title: Selecting an audience in a message
 description: Selecting an audience in a message
 seo-description: "Step-be-step procedure to choose audiences of an email: main target population and test profiles."
-uuid: 6b3a5308-c21c-495b-99a3-3d233df3bd66
+uuid: 1d238924-8608-4e6a-8d06-a933694b5bb1
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
 topic-tags: managing-audiences
-discoiquuid: 73720925-c003-468c-8677-132eb2132039
+discoiquuid: f8219c4c-f80a-45eb-88fb-7ad83c186a46
 index: y
 internal: n
 snippet: y

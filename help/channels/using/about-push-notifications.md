@@ -3,13 +3,13 @@ title: About push notifications
 seo-title: About push notifications
 description: About push notifications
 seo-description: Discover the main specificities of the push notification channel in Adobe Campaign.
-uuid: fcb9d110-9b5a-4d3e-ac80-1e971d6bb8ed
+uuid: ad497ed1-d770-48b3-81dc-c77d1a6236be
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: push-notifications
-discoiquuid: 4c7dd6bb-8dd1-487f-b2e1-c424d30c2c1f
+discoiquuid: d17f527e-57a2-408a-abd5-ddfae410020b
 index: y
 internal: n
 snippet: y
@@ -49,9 +49,9 @@ As an expert user, to define these specific configurations, refer to the mobile 
 
 **Related content:**
 
-* 
-* 
-*
+* [Preparing and sending a push notification](../../channels/using/preparing-and-sending-a-push-notification.md)
+* [Creating a multilingual push notification](../../channels/using/creating-a-multilingual-push-notification.md)
+* [Sending a push notification within a workflow](../../automating/using/push-notification-delivery.md)
 
 ## Prerequisites {#prerequisites}
 

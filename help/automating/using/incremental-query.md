@@ -3,13 +3,13 @@ title: Incremental query
 seo-title: Incremental query
 description: Incremental query
 seo-description: The Incremental query activity allows you to filter and extract a population of elements from the Adobe Campaign database.
-uuid: e05e9d8e-2543-4418-a67f-4ac4df520f3c
+uuid: 920d763f-675a-466b-86b4-52e208e6881b
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 677fcd7b-a26e-45c8-90e1-66b8bbd6c25a
+discoiquuid: ef4fd24c-f5a2-40f1-883e-b2fc98f54aa2
 index: y
 internal: n
 snippet: y

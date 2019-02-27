@@ -3,13 +3,13 @@ title: Monitoring subscriptions
 seo-title: Monitoring subscriptions
 description: Monitoring subscriptions
 seo-description: Learn how to track your subscribers and measure the success of your services using dashboards and reports.
-uuid: cb4436d8-d765-4bfe-b44c-ae776f805427
+uuid: 44bcd6dd-88ce-40eb-a2e3-ca952b90bc6d
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
-discoiquuid: b4c21f03-d86d-4e1f-aefe-d8f9e54ab456
+discoiquuid: 0f4c3b25-a98c-4e85-ab47-93d28d0da574
 index: y
 internal: n
 snippet: y

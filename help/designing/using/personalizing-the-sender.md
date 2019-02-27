@@ -3,13 +3,13 @@ title: Personalizing the sender
 seo-title: Personalizing the sender
 description: Personalizing the sender
 seo-description: Learn how to personalize the name or the address of the sender for your messages.
-uuid: d00136ff-c0e1-4cf0-9dc4-9e759bf0bd8d
+uuid: 2d064e32-1a10-4bde-9605-8ee58b26aa65
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: personalizing-content
-discoiquuid: f68c8300-a081-43bb-a2b9-cd716e1ecb64
+discoiquuid: 78723dfd-9580-4c28-9084-78118633c530
 index: y
 internal: n
 snippet: y
@@ -39,9 +39,9 @@ To define the name of the sender which will appear in the header of messages sen
 
 **Related topics:**
 
-* 
-* 
-*
+* [Inserting a personalization field](../../designing/using/inserting-a-personalization-field.md)
+* [Adding a content block](../../designing/using/adding-a-content-block.md)
+* [Defining dynamic content in an email](../../designing/using/defining-dynamic-content-in-an-email.md)
 
 ## SMS sender {#sms-sender}
 

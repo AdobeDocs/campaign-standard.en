@@ -3,13 +3,13 @@ title: Abandonment Triggers use cases
 seo-title: Abandonment Triggers use cases
 description: Abandonment Triggers use cases
 seo-description: Learn how to use the Experience Cloud Triggers integration with these different use cases.
-uuid: feb9f3bc-d72a-4915-af3b-c4765800214b
+uuid: 2e12b592-ea50-4898-a21e-d96dda526703
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-discoiquuid: aa933ca1-401a-481c-90b4-4cb98463c7c9
+discoiquuid: b4d1162f-b389-445f-a9b4-0d247465376b
 index: y
 internal: n
 snippet: y

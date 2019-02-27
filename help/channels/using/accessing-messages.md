@@ -3,13 +3,13 @@ title: Accessing messages
 seo-title: Accessing messages
 description: Accessing messages
 seo-description: "Learn how to access messages and their advanced functionalities: creation, targeting, personalization, execution and reporting."
-uuid: eb05604e-3428-4fa1-9528-4a36f0f82562
+uuid: a3bccb39-be7d-4371-b9de-3d11d3e4ac31
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
-discoiquuid: 4fdb8df4-ebbc-4520-9a22-0bb4a5334cf7
+discoiquuid: 97263d40-f56a-44bf-8baa-c2a506ae0dab
 index: y
 internal: n
 snippet: y

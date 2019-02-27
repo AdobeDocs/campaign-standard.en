@@ -3,13 +3,13 @@ title: Importing content from a file
 seo-title: Importing content from a file
 description: Importing content from a file
 seo-description: Discover how to upload a file from your computer when creating an email or a landing page.
-uuid: d77ef86a-3b1f-4180-af24-6150789c2d9e
+uuid: aefa13cb-667c-4b1b-b379-28375be7887b
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: loading-content
-discoiquuid: d3ad7c11-18ba-4d24-a4c9-4b6fc886b007
+discoiquuid: 72f8f6e9-74d9-474c-8ac1-a2eaa91c4c3d
 index: y
 internal: n
 snippet: y

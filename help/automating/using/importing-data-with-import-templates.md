@@ -3,13 +3,13 @@ title: Importing data with import templates
 seo-title: Importing data with import templates
 description: Importing data with import templates
 seo-description: Learn how to collect data to feed your Campaign database.
-uuid: 19a394d3-83eb-4881-aee2-c25c9cb3a221
+uuid: f1c5f134-df0f-4e41-98f4-35af710c572a
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
-discoiquuid: 0a1558ab-9fae-4ba4-a30e-e65845b41450
+discoiquuid: f280c326-741e-45e7-b6e8-6d48428bfa79
 index: y
 internal: n
 snippet: y

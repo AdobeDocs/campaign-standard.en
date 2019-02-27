@@ -3,13 +3,13 @@ title: Understanding delivery failures
 seo-title: Understanding delivery failures
 description: Understanding delivery failures
 seo-description: Learn how to manage delivery failures with Campaign.
-uuid: 6f94c615-7414-4d51-a6da-4ead85347684
+uuid: 1d4f1ad2-eb99-4dbb-9492-b8d87ddb95e8
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-discoiquuid: 600d0565-bec6-4899-8205-9708f4d96f06
+discoiquuid: 9dec1c7a-602e-43f0-bbbd-5a303ceeb8d5
 index: y
 internal: n
 snippet: y
@@ -33,8 +33,8 @@ Messages can also be excluded during the delivery preparation if an address is q
 
 **Related topics:**
 
-* 
-*
+* [Understanding quarantine management](../../sending/using/understanding-quarantine-management.md)
+* [Managing blacklisting in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 ## Identifying delivery failures for a message {#identifying-delivery-failures-for-a-message}
 

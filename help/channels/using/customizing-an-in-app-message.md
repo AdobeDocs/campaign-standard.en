@@ -3,13 +3,13 @@ title: Customizing an In-App message
 seo-title: Customizing an In-App message
 description: Customizing an In-App message
 seo-description: Learn how to customize your In-App messages with various options.
-uuid: 08cf1612-2e02-4b43-8c48-f1c847c87cbf
+uuid: b72de108-5ef0-43e1-9a9b-254fa33eb2ee
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: in-app-messaging
-discoiquuid: efb4768d-1a45-4f3f-adb8-940cb4d85452
+discoiquuid: 1ea44c76-7f18-47e6-9a9d-5da6524f3a00
 index: y
 internal: n
 snippet: y
@@ -30,8 +30,8 @@ The In-App content editor lets you choose between two In-App message modes:
 
 **Related content:**
 
-* 
-*
+* [Sending your In-App message](../../channels/using/preparing-and-sending-an-in-app-message.md#sending-your-in-app-message)
+* [In-App reporting](../../reporting/using/in-app-report.md)
 
 ## Customizing with a message template {#customizing-with-a-message-template}
 

@@ -3,13 +3,13 @@ title: Customizing a push notification
 seo-title: Customizing a push notification
 description: Customizing a push notification
 seo-description: Learn how to customize your push notifications with various advanced options.
-uuid: 0400fd93-30c7-4d0d-a1f0-9a22f5540dd0
+uuid: 4b57ec5c-e5ae-42f3-84a4-b3c476a8cedf
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: push-notifications
-discoiquuid: c4f6bb39-f1d5-4fd2-9cb8-5903b488d0d1
+discoiquuid: ba955cd0-9eff-47a7-8528-be31bf6662b9
 index: y
 internal: n
 snippet: y
@@ -27,9 +27,9 @@ As an expert user, to configure mobile applications in Adobe Campaign, refer to 
 
 **Related content:**
 
+* [Push notification report](../../reporting/using/push-notification-report.md)
 * 
-* 
-*
+* [Sending a push notification within a workflow](../../automating/using/push-notification-delivery.md)
 
 ## Play a sound {#play-a-sound}
 

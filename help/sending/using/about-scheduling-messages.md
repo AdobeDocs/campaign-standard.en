@@ -3,13 +3,13 @@ title: About scheduling messages
 seo-title: About scheduling messages
 description: About scheduling messages
 seo-description: Learn how to schedule your messages.
-uuid: d293a972-8a73-4192-8c93-940e10fc709c
+uuid: 1633d2e8-902e-41a8-83f3-7436dc9841da
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-discoiquuid: ddcd22ba-5a5a-44c1-9163-4f81ecfcd7c3
+discoiquuid: 45cc1f6d-fdc1-4025-86ba-3b3a76062b89
 index: y
 internal: n
 snippet: y
@@ -49,7 +49,7 @@ The **[!UICONTROL Schedule]** properties let you set sending options for your em
 
 **Related topics**:
 
-* 
-* 
-*
+* [Optimizing the sending time](../../sending/using/optimizing-the-sending-time.md)
+* [Sending messages at the recipient's time zone](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)
+* [Computing the sending date](../../sending/using/computing-the-sending-date.md)
 

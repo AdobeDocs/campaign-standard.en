@@ -3,13 +3,13 @@ title: About landing pages
 seo-title: About landing pages
 description: About landing pages
 seo-description: Discover the landing page templates and life cycle.
-uuid: fbee4c2b-5e7a-473d-977a-74a14d077e7b
+uuid: 96325836-a116-4302-a8c2-9df2e41c7ccf
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: landing-pages
-discoiquuid: f581501b-e8a9-4553-b42f-e47938d4231c
+discoiquuid: 096705bc-cc69-4cf5-abff-31f2cb739497
 index: y
 internal: n
 snippet: y
@@ -46,5 +46,5 @@ Once created and published, you can make the landing page accessible via a websi
 **Related topics:**
 
 * [Creating a landing page](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-edit-landing-page-feature-video-use.html) video
-*
+* [Use a landing page to subscribe a service](../../audiences/using/creating-a-service.md)
 

@@ -3,13 +3,13 @@ title: Direct mail delivery
 seo-title: Direct mail delivery
 description: Direct mail delivery
 seo-description: The Direct mail delivery activity allows you to configure sending a single send direct mail or a recurring direct mail in a workflow.
-uuid: 7539b223-14af-437f-8794-a3cacef7b6ac
+uuid: 00ab0b9a-5d75-46a3-a3dc-f364c541df08
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: channel-activities
-discoiquuid: 004dd50f-7f8e-46fe-bd2c-1c8e49737660
+discoiquuid: cc486a0a-3e39-495c-8b20-8f19c1e120c9
 index: y
 internal: n
 snippet: y

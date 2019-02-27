@@ -3,13 +3,13 @@ title: Follow-up messages
 seo-title: Follow-up messages
 description: Follow-up messages
 seo-description: Learn how to create and publish a follow-up message.
-uuid: d3702cfd-b961-4954-9aa7-cb2451be98ad
+uuid: 4e36f6cf-27ba-4e5a-9e31-637e9ee6477c
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
-discoiquuid: 382ff984-1aca-4d2f-8f57-c170f15d28cf
+discoiquuid: 3b2c45e0-3543-4e99-bb61-9c67bab6a2a1
 index: y
 internal: n
 snippet: y

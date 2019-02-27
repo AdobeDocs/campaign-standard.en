@@ -3,13 +3,13 @@ title: Non-deliverables and bounces
 seo-title: Non-deliverables and bounces
 description: Non-deliverables and bounces
 seo-description: With the Non-deliverables and bounces out-of-the-box report, learn about the errors that may occurred to your delivery. 
-uuid: 4a6be84a-02df-4dde-802e-55d68f602052
+uuid: 282675a8-a17f-4e78-a6f9-46e59fc9d4b1
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
-discoiquuid: 0ae0580c-3879-4786-883a-09a39042ee58
+discoiquuid: 73314b27-7aa8-45c9-a884-99ec4deec1bb
 index: y
 internal: n
 snippet: y

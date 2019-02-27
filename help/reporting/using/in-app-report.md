@@ -3,13 +3,13 @@ title: In-App report
 seo-title: In-App report
 description: In-App report
 seo-description: With the In-App out-of-the-box report, learn about the success of your In-app messages.
-uuid: 078da6f5-190e-46e4-9be9-7cd71206d79c
+uuid: 586c4355-18f2-4cb2-bc0b-0b563f808a51
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
-discoiquuid: b2c75d00-a00d-4db3-9f9d-9ce85670230b
+discoiquuid: 56cb2399-bfcd-4c66-abb5-254cc5eca24d
 index: y
 internal: n
 snippet: y

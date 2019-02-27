@@ -3,13 +3,13 @@ title: Identifying opt-out profiles for a delivery
 seo-title: Identifying opt-out profiles for a delivery
 description: Identifying opt-out profiles for a delivery
 seo-description: Discover how to identify opt-out profiles for a delivery.
-uuid: ab6b76c7-be94-42bd-bfb2-0b80d9b2fdce
+uuid: 08f3d742-472b-483b-be2b-aa9587c9d51a
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
-discoiquuid: 9921c3a9-229b-4c56-9b01-29ad41a99901
+discoiquuid: 934d6879-3ca4-46d7-8d30-8fb7d36c7b52
 index: y
 internal: n
 snippet: y

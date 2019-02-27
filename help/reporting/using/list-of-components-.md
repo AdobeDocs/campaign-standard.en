@@ -3,13 +3,13 @@ title: List of components
 seo-title: List of components 
 description: List of components 
 seo-description: Find here the list of every components available in Dynamic reports as well as their definitions.
-uuid: f895243b-56d4-4958-9851-9173a2a0322b
+uuid: e196eb73-ceff-4a1a-8cee-012c22d0f099
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-discoiquuid: 22e83e67-fb07-4e12-a070-d930da01763e
+discoiquuid: 67ea2899-4f26-4dfd-8649-05a9d25cf3f8
 index: y
 internal: n
 snippet: y

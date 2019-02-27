@@ -3,13 +3,13 @@ title: Transfer file
 seo-title: Transfer file
 description: Transfer file
 seo-description: The Transfer file activity allows you to receive or send files, test whether there are files present, or list files in Adobe Campaign.
-uuid: d691cbde-7cbc-4e87-a234-c3b64312efce
+uuid: 69dfdc77-3853-4007-bdb4-379042a991ce
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
-discoiquuid: e46d4196-59af-498e-b4ca-20d7c407dbf5
+discoiquuid: 3305927e-be76-43dd-b8fe-539fd8fe9a8a
 index: y
 internal: n
 snippet: y
@@ -92,8 +92,8 @@ You can use this activity to recover data that will then be structured with the 
 
 1. The **[!UICONTROL Additional options]** section, available depending on the protocol selected, allows you to add parameters to your protocol. You can:
 
-    * 
-    * 
+    * **[!UICONTROL Delete the source files after transfer]** 
+    * **[!UICONTROL Disable passive mode]** 
     * **[!UICONTROL List all files]** : this option is available when selecting the **[!UICONTROL File listing]** action. It allows you to index all the files present on the server in the **vars.filenames** event variable in which the file names are separated by the **'n'** characters.
 
 1. The **[!UICONTROL If no files are found]** section of the **[!UICONTROL Advanced options]** tab allows you to configure specific actions if any errors or inexistent files are detected when the activity is started.

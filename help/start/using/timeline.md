@@ -3,13 +3,13 @@ title: Timeline
 seo-title: Timeline
 description: Timeline
 seo-description: Learn how to visualize programs that are in progress and their content using the Adobe Campaign Standard interface.
-uuid: 232d5b78-fbc1-4712-bd65-cb9405049ed4
+uuid: 21030a9b-818a-4e11-b148-5239c07accde
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
 topic-tags: marketing-plans
-discoiquuid: 7faddb18-d558-4226-8336-29751e3a3670
+discoiquuid: 47e70038-2bad-4d07-a2f4-100cb19869c4
 index: y
 internal: n
 snippet: y

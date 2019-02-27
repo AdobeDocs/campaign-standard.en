@@ -3,13 +3,13 @@ title: "Step 2: Publish the extension"
 seo-title: "Step 2: Publish the extension"
 description: "Step 2: Publish the extension"
 seo-description: 
-uuid: 19aa9992-ee54-46da-ae35-2fc297f4ed18
+uuid: 733d79a7-ca1a-4b8e-9c98-32bef1799c47
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
-discoiquuid: 9ca4f06e-9f46-4407-b46e-b99a83f47946
+discoiquuid: f7bbc8cf-bfe8-4cbf-a08d-3b252d52e9ab
 index: y
 internal: n
 snippet: y

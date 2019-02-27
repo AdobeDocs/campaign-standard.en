@@ -3,13 +3,13 @@ title: Exporting lists
 seo-title: Exporting lists
 description: Exporting lists
 seo-description: Adobe Campaign allows you to export the data displayed as lists from an overview screen directly in a file for future use. 
-uuid: 5fde5fae-ddd3-49bd-acaf-52192aa0b1b7
+uuid: 8ec3a7f6-5144-49ce-bad2-8b1f299d9088
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
-discoiquuid: cb5aa4ac-bf72-4724-ae95-30e907bd1b79
+discoiquuid: cd6cca39-0cdc-4a87-b277-42a20ded127d
 index: y
 internal: n
 snippet: y
@@ -73,7 +73,7 @@ Adama;Henry;22/09/1992 02:00:00;henry.adama@mail.com;64120
 
 **Related topics:**
 
-* 
-* 
+* [Roles](../../administration/using/list-of-roles.md)
+* [Customizing lists](../../start/using/customizing-lists.md)
 * [Configuring list](https://helpx.adobe.com/campaign/kt/acs/using/acs-configuring-a-list-feature-video-setup.html) video
 

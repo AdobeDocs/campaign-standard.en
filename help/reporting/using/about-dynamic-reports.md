@@ -3,13 +3,13 @@ title: About dynamic reports
 seo-title: About dynamic reports
 description: About dynamic reports
 seo-description: With dynamic reports, drag and drop variables and dimensions into your freeform environment and analyze the success of your campaigns.
-uuid: 2e2dd682-e642-4f1a-8508-1b2c91620f28
+uuid: 7e5b35b6-e7e9-4cfc-bd79-542ad9a20f71
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-discoiquuid: e21a397c-6afc-4bd7-8633-4fe0b1829874
+discoiquuid: 156ec346-4043-4a41-b812-03358671f115
 index: y
 internal: n
 snippet: y
@@ -56,8 +56,8 @@ Dynamic reports are divided into two categories:
 
 **Related topics:**
 
-* 
-* 
+* [Report list](../../reporting/using/defining-the-report-period.md)
+* [Organizational units](../../administration/using/organizational-units.md)
 * [Dynamic reports](https://helpx.adobe.com/campaign/kt/acs/using/acs-creating-a-dynamic-report-feature-video-use.html) video
 
 ## Dynamic reporting usage agreement {#dynamic-reporting-usage-agreement}

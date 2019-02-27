@@ -3,13 +3,13 @@ title: Inserting a link
 seo-title: Inserting a link
 description: Inserting a link
 seo-description: Learn how to personalize your email or landing page by inserting links into the HTML content elements.
-uuid: f364723b-d0de-4e32-b2d8-afd9f2c99c12
+uuid: 4b9e34c7-8e6c-4e7d-aa97-3a53ee41d11e
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: managing-links
-discoiquuid: 61775e52-5b34-4d2a-8f60-f0d85dfed418
+discoiquuid: 6089dce7-ed6e-4e3a-9331-6c0b462cd5ea
 index: y
 internal: n
 snippet: y

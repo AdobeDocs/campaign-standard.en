@@ -3,13 +3,13 @@ title: Editing existing contents with the Email Designer
 seo-title: Editing existing contents with the Email Designer
 description: Editing existing contents with the Email Designer
 seo-description: Discover how to make existing contents fully compliant with the Email Designer interface.
-uuid: 00a09b40-9f0e-47ca-860f-7261e4b9b51a
+uuid: 5d3549ab-9b52-4c20-a119-f401daf82d37
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: loading-content
-discoiquuid: 2354e679-ae87-468f-953e-dbeb9782bd35
+discoiquuid: c565c50c-6655-4f32-a907-78411f62558b
 index: y
 internal: n
 snippet: y

@@ -3,13 +3,13 @@ title: Monitoring and tracking
 seo-title: Monitoring and tracking
 description: Monitoring and tracking
 seo-description: Learn how to track and understand your customers' behavior by enriching their profile data. With Adobe Campaign, use reporting and analysis tools to capitalize on each new campaign.
-uuid: 0f978864-9305-4b3b-aca5-56c3fa327d7d
+uuid: 5218cd34-7f0c-478f-b7f6-6adc5486b93c
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
 topic-tags: about-adobe-campaign
-discoiquuid: e35f3550-d85d-4a11-8047-190524669837
+discoiquuid: 3fa32db2-d1ad-44c2-9f09-93143c692199
 index: y
 internal: n
 snippet: y

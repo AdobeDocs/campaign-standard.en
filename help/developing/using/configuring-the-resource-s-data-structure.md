@@ -3,13 +3,13 @@ title: Configuring the resource's data structure
 seo-title: Configuring the resource's data structure
 description: Configuring the resource's data structure
 seo-description: Learn how to configure the data structure.
-uuid: 2fac025c-f1be-4222-9d13-eae18bbd9328
+uuid: 132f4c4b-a31d-4332-8ef8-9e90ae9044ef
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
-discoiquuid: 1ecd4cf9-e0b0-4aa2-9338-ec8323924ea3
+discoiquuid: a0bde9cc-5406-45d0-ae07-b29e1b760168
 index: y
 internal: n
 snippet: y
@@ -23,11 +23,11 @@ After creating a new custom resource, you must configure the data structure.
 
 When editing the resource, in the **[!UICONTROL Data structure]** tab, you can add:
 
-* 
-* 
-* 
-* 
-*
+* [Fields](../../developing/using/configuring-the-resource-s-data-structure.md#adding-fields-to-a-resource)
+* [Identification keys](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
+* [Indexes](../../developing/using/configuring-the-resource-s-data-structure.md#defining-indexes)
+* [Links](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources)
+* [Sending logs](../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension)
 
 ## Adding fields to a resource {#adding-fields-to-a-resource}
 

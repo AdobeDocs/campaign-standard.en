@@ -3,13 +3,13 @@ title: Extending the profile resource with a new field
 seo-title: Extending the profile resource with a new field
 description: Extending the profile resource with a new field
 seo-description: Learn how to extend the profile resource.
-uuid: d4ebc327-4247-4de2-8b9d-046f5a6ce387
+uuid: 3f350415-77a0-4d0a-9a27-797d332fdcec
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: use-cases--extending-resources
-discoiquuid: 2eaaf324-1075-40a0-9b31-33d48e7b5ebf
+discoiquuid: db61bc3d-6e26-47bd-824d-419312ca9e0f
 index: y
 internal: n
 snippet: y
@@ -27,10 +27,10 @@ Here, we want to update our profiles with the new field using a landing page the
 
 To do so, follow the steps below:
 
-* 
-* 
-* 
-*
+* [Step 1: Extend the profile resource](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-1--extend-the-profile-resource)
+* [Step 2: Extend the test profile](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-2--extend-the-test-profile)
+* [Step 3: Publish your custom resource](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-3--publish-your-custom-resource)
+* [Step 4: Update and target profiles with a workflow](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-4--update-and-target-profiles-with-a-workflow)
 
 The following field will then be added to our profiles and can be targeted in a delivery:
 
@@ -38,9 +38,9 @@ The following field will then be added to our profiles and can be targeted in a 
 
 Related topics:
 
-* 
-* 
-*
+* [About custom resources](../../developing/using/data-model-concepts.md)
+* [Managing profiles](../../audiences/using/about-profiles.md)
+* [Managing test profiles](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles)
 
 ## Step 1: Extend the profile resource {#step-1--extend-the-profile-resource}
 

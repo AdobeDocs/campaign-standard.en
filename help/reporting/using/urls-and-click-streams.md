@@ -3,13 +3,13 @@ title: URLs and click streams
 seo-title: URLs and click streams
 description: URLs and click streams
 seo-description: With the URLs and click streams out-of-the-box report, learn about the success of the URLs in your deliveries.
-uuid: 84c622eb-7693-41f3-85de-5159dd3ea1be
+uuid: 19ef9989-327d-4a6a-bf8c-5e5d3cbaac4e
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
-discoiquuid: 7dfbe718-e546-46a9-9905-9e98ccf514cf
+discoiquuid: d60db8b1-0593-42b2-b4a9-36713ce81e71
 index: y
 internal: n
 snippet: y

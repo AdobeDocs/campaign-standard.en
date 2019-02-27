@@ -3,13 +3,13 @@ title: Intersection
 seo-title: Intersection
 description: Intersection
 seo-description: The Intersection activity allows you to keep only the elements common to the different inbound populations in the activity.
-uuid: 3e789c8f-c00b-4789-bcf4-4d8219b27c2d
+uuid: 54a646dd-8f05-4f34-a988-311579e0b3e3
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 44bdf59f-2a2f-4902-81cf-2ec104a3ddfb
+discoiquuid: 9f2c1b3a-b1ee-47d5-9ac4-4ccdd88f9bc6
 index: y
 internal: n
 snippet: y

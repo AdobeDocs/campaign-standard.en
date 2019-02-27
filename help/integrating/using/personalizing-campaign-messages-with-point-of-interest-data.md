@@ -3,13 +3,13 @@ title: Personalizing Campaign messages with Point of Interest data
 seo-title: Personalizing Campaign messages with Point of Interest data
 description: Personalizing Campaign messages with Point of Interest data
 seo-description: Learn how to create a personalized message based on your subscribers' location with the Point of Interest data integration.
-uuid: 96028f86-8155-46c8-a4f3-16b6ef22467e
+uuid: 0121bbe8-2bf7-4d22-a9d5-e248df481a81
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
-discoiquuid: 032f7432-a56b-4a37-9f47-a0de42d826df
+discoiquuid: 46e7b600-aa4c-4bce-8d69-8f5dfbb091f1
 index: y
 internal: n
 snippet: y
@@ -63,7 +63,7 @@ The email with the 10% discount offer will be sent to subscribers who:
 
 **Related topics:**
 
-* 
-* 
-*
+* [Creating an email](../../channels/using/creating-an-email.md)
+* [Defining content](../../designing/using/example--email-personalization.md)
+* [Sending messages](../../sending/using/confirming-the-send.md)
 

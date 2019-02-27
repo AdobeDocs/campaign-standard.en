@@ -3,13 +3,13 @@ title: Designing a landing page
 seo-title: Designing a landing page
 description: Designing a landing page
 seo-description: Follow these steps to design the content of a landing page and link it to a service.
-uuid: 2c641617-dfd3-4117-abf6-3fe50508ec8b
+uuid: cb884b7d-c540-4f82-8b59-7bdd263c676f
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: landing-pages
-discoiquuid: e763f327-da61-4836-ac5e-f1dbc6ca2555
+discoiquuid: ddeef4a8-0340-4e63-b210-2ec74d3d8cbf
 index: y
 internal: n
 snippet: y

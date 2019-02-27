@@ -3,13 +3,13 @@ title: Creating a service
 seo-title: Creating a service
 description: Creating a service
 seo-description: Learn how to create your first service and configure it to send email confirmations to your subscribers.
-uuid: 76891dcc-dc41-47fe-aabb-f05279f235e1
+uuid: 0991db41-812f-4762-972f-0321ac109d08
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
-discoiquuid: f49f18c4-5165-40aa-a2c6-e3a14d10adc6
+discoiquuid: 92cff1ab-3234-4303-a8fd-2a867626f703
 index: y
 internal: n
 snippet: y
@@ -44,7 +44,7 @@ Once a service has been created, you can start promoting it.
 **Related topics:**
 
 * [Managing a service and subscriptions](https://helpx.adobe.com/campaign/kt/acs/using/acs-services-and-subscriptions-feature-video-use.html) video
-* 
-* 
-*
+* [Promoting a service](../../audiences/using/promoting-a-service.md)
+* [Creating an audience made of subscribers](../../audiences/using/creating-audiences.md#creating-list-audiences)
+* [Linking a form to a service in a landing page](../../channels/using/designing-a-landing-page.md#linking-a-form-to-a-service)
 

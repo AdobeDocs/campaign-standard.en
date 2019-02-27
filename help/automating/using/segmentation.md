@@ -3,13 +3,13 @@ title: Segmentation
 seo-title: Segmentation
 description: Segmentation
 seo-description: The Segmentation activity lets you create one or several segments from a population calculated by activities placed earlier in the workflow.
-uuid: b70e4a3b-0b2f-4447-92b4-88479278e33c
+uuid: 6375d8aa-c68c-407e-a9f3-95071d72fbf4
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: c4c2937c-4505-4bd7-a93d-f37166b7ff24
+discoiquuid: 5fbd97d6-8a79-4087-a782-e5e686673382
 index: y
 internal: n
 snippet: y
