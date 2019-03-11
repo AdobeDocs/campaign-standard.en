@@ -140,7 +140,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
  <tbody> 
   <tr> 
    <td> Email Designer General Availability<br /> </td> 
-   <td> The new intuitive Email Designer (formerly known as Creative Designer) has moved to GA. It now supports all the features from the legacy content editor, including:<br /> <li> The use of <a href="../../integrating/using/adding-target-dynamic-content.md">dynamic images from Adobe Target</a> </li> <li> The ability to <a href="../../designing/using/importing-content-from-a-url.md#retrieving-content-from-a-url-automatically-at-preparation-time">retrieve content from a URL automatically at preparation time</a> </li> <li> Fully compliant <a href="../../start/using/about-templates.md#content-templates">out-of-the box content templates</a>. </li> For more information, refer to the <a href="../../designing/using/about-email-content-design.md">detailed documentation</a>. Improvements and fixes are listed below.<br /> As a consequence, the legacy email content editor is now deprecated. For more information, refer to this <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">page</a>.<br /> </td> 
+   <td> The new intuitive Email Designer (formerly known as Creative Designer) has moved to GA. It now supports all the features from the legacy content editor, including:<br /> <ul><li> The use of <a href="../../integrating/using/adding-target-dynamic-content.md">dynamic images from Adobe Target</a> </li> <li> The ability to <a href="../../designing/using/importing-content-from-a-url.md#retrieving-content-from-a-url-automatically-at-preparation-time">retrieve content from a URL automatically at preparation time</a> </li> <li> Fully compliant <a href="../../start/using/about-templates.md#content-templates">out-of-the box content templates</a>. </li></ul> For more information, refer to the <a href="../../designing/using/about-email-content-design.md">detailed documentation</a>. Improvements and fixes are listed below.<br /> As a consequence, the legacy email content editor is now deprecated. For more information, refer to this <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">page</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Product Listings in Transactional Emails<br /> </td> 
@@ -152,7 +152,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
   </tr> 
   <tr> 
    <td> In-App Messaging Beta Improvements<br /> </td> 
-   <td> The In-App Messaging Beta feature has been enhanced with the following capabilities:<br /> <li> In-App Beta channel is GDPR compliant </li> <li> Integration with Analytics APIs to populate Triggers dropdowns </li> <li> Intuitive look and description of delivery templates </li> <li> Enhancements to authoring interface from usability standpoint </li> For more information, refer to the <a href="../../channels/using/about-in-app-messaging.md">detailed documentation</a>.<br /> </td> 
+   <td> The In-App Messaging Beta feature has been enhanced with the following capabilities:<br /> <ul><li> In-App Beta channel is GDPR compliant </li> <li> Integration with Analytics APIs to populate Triggers dropdowns </li> <li> Intuitive look and description of delivery templates </li> <li> Enhancements to authoring interface from usability standpoint </li></ul> For more information, refer to the <a href="../../channels/using/about-in-app-messaging.md">detailed documentation</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

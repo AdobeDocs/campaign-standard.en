@@ -474,7 +474,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
   </tr> 
   <tr> 
    <td> Transactional Messaging API<br /> </td> 
-   <td> The Transactional Messaging API is now available through <a href="https://docs.campaign.adobe.com/doc/standard/en/adobeio.html">adobe.io</a>, making it easier to use and to monitor:<br /> <li> You can benefit from the adobe.io platform reporting and monitoring capabilites. </li> <li> Authentication is now carried out using the adobe.io token based authentication instead of IP whitelisting, making the security process simpler. </li> <li> All APIs are now integrated on a single platform, making it simpler than ever to add transactional messaging capabilities to your integration if you already support the Profile and Services API. </li></ul> </td> 
+   <td> The Transactional Messaging API is now available through <a href="https://docs.campaign.adobe.com/doc/standard/en/adobeio.html">adobe.io</a>, making it easier to use and to monitor:<br /> <ul><li> You can benefit from the adobe.io platform reporting and monitoring capabilites. </li> <li> Authentication is now carried out using the adobe.io token based authentication instead of IP whitelisting, making the security process simpler. </li> <li> All APIs are now integrated on a single platform, making it simpler than ever to add transactional messaging capabilities to your integration if you already support the Profile and Services API. </li></ul> </td> 
   </tr> 
  </tbody> 
 </table>
