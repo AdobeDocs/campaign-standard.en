@@ -6,7 +6,7 @@ solution-image: assets/target-icon-24.png
 getting-started-title: Getting Started
 getting-started-url: https://helpx.adobe.com/campaign/get-started.html
 tutorials-title: Tutorials
-tutorials-url: https://helpx.adobe.com/campaign/kt/index/target-videos.html
+tutorials-url: https://helpx.adobe.com/campaign/kt/acs/index/acs-videos.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/campaign-standard.en
 index: no
 ---
