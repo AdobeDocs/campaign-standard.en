@@ -13,6 +13,7 @@ discoiquuid: 8462e25f-b941-4d8a-a631-61bc5af5e213
 index: y
 internal: n
 snippet: y
+contextualhelp: typology rules, overview
 ---
 
 # About typology rules{#about-typology-rules}

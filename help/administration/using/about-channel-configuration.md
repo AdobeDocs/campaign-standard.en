@@ -13,6 +13,7 @@ discoiquuid: 2739d4b1-b21a-41cd-82f0-258085798f46
 index: y
 internal: n
 snippet: y
+contextualhelp: channel configuration, overview
 ---
 
 # About channel configuration{#about-channel-configuration}

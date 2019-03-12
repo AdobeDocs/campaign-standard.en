@@ -13,6 +13,7 @@ discoiquuid: 126a3853-97ce-4c07-811c-0f0ac8a77e01
 index: y
 internal: n
 snippet: y
+contextualhelp: administrating, overview
 ---
 
 # About Administrating Adobe Campaign{#about-administrating-adobe-campaign}
