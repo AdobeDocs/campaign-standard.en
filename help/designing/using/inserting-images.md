@@ -3,21 +3,19 @@ title: Inserting images
 seo-title: Inserting images
 description: Inserting images
 seo-description: Learn how to add images to your content.
-uuid: 225bf6ec-d719-4414-941e-9644bc8d480b
+uuid: b2a37c17-28fa-4bd8-b537-3a8e80c66843
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: using-images
-discoiquuid: c1f3c245-c2c7-42e0-b8c9-d87702082e57
+discoiquuid: deb46290-c51d-44e8-8c88-6afbf33fa30d
 index: y
 internal: n
 snippet: y
 ---
 
 # Inserting images{#inserting-images}
-
-Inserting images
 
 You can insert images in your emails and landing pages.
 

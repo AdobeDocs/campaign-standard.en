@@ -1,0 +1,94 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="Creating a multilingual push notification" name="navTitle" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="light" name="heroGradient" />
+  <meta content="https://helpx.adobe.com/campaign/standard/channels/using/creating-a-multilingual-push-notification.html" name="publishExternalURL" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="9b931916-8589-4f73-b8bf-0cc4fd85bba0" name="jcr:predecessors" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="3980f7a7-2228-42c3-8ac6-0871f9e53139" name="jcr:uuid" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="2019-02-15T02:59:23.582-0500" name="cq:lastModified" />
+  <meta content="2019-02-13T06:31:28.508-0500" name="cq:lastReplicated" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2019-02-15T02:59:23.581-0500" name="locHandOffDate" />
+  <meta content="2018-04-06T07:29:18.943-0400" name="jcr:created" />
+  <meta content="Creating a multilingual push notification" name="jcr:title" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:channels;content_type:reference;topic_tags:push-notifications" name="cq:tags" />
+  <meta content="Creating a multilingual push notification" name="jcr:description" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="audience:channels" name="primaryAudienceTag" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="2019-02-13T06:31:28.481-0500" name="publishExternalDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2019-02-13T06:31:28.481-0500" name="topicBrowsingSortDate" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2019-02-13T06:31:28.481-0500" name="lastPublishExternalDate" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2019-02-13T06:31:28.481-0500" name="firstPublishExternalDate" />
+  <meta content="Create multilingual push notifications to target your users in their preferred languages and regions." name="seoDescription" />
+ </head>
+ <body>
+  <h2 id="about-multilingual-push-notification">About multilingual push notification</h2>
+  <p>Personalize your push notification content by sending messages based on your users' preferred languages and regions. You can directly import multilingual push notification content variants in the content editor and send a multilingual push notification in a single delivery.</p> 
+  <p>This feature leverages either preferred languages specified in recipients' profiles or system language preference for Mobile App Subscribers depending on the delivery template used for push notification. If language preference is not populated for a particular user, the system will use the default variant that is defined while creating a multilingual push notification. For more information on how to manage your profiles and subscribers, refer to this <a href="../../audiences/using/about-profiles-and-audiences.md">guide</a>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/multivariant_push_1.png" title="" />
+  <p>To use multilingual content variants for your push notification delivery, follow these steps:</p> 
+  <ol>
+   <li><p> <a href="../../channels/using/creating-a-multilingual-push-notification.md#step-1--upload-multilingual-content-variant" target="_blank">Step 1: Upload multilingual content variant</a></p> </li>
+   <li><p> <a href="../../channels/using/creating-a-multilingual-push-notification.md#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants" target="_blank">Step 2: Preview and finalize a push notification using multilingual content variants</a></p> </li>
+   <li><p> <a href="../../channels/using/creating-a-multilingual-push-notification.md#step-3--send-and-analyze-multilingual-push-notification-delivery" target="_blank">Step 3: Send and analyze multilingual push notification delivery</a></p> </li>
+  </ol>
+  <h2 id="step-1--upload-multilingual-content-variant">Step 1: Upload multilingual content variant</h2>
+  <p>Before personalizing your multilingual push notification, we first need to upload the content variants in a multilingual delivery template and create the delivery.</p> 
+  <note>
+   <p> You can also skip this step if you want to create a variant manually for each language variant. </p> 
+  </note>
+  <ol>
+   <li><p>In the <span class="uicontrol">Marketing activities</span> , click the <span class="uicontrol">Create</span> button then select <span class="uicontrol">Push notification</span> .</p> </li>
+   <li><p>Select the template <span class="uicontrol">Send multilingual push to Campaign profiles</span> if you want to target the Adobe Campaign profiles who have subscribed to your mobile application or the template <span class="uicontrol"> Send multilingual push to app subscriber</span> to send a push notification to all users who have opted in to receive notifications from your mobile application.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/multivariant_push_2.png" title="" /></li>
+   <li><p>Enter your push notification properties and select your mobile app in the <span class="uicontrol">Associate a Mobile App to a delivery</span> field.</p> <p>Please note that the dropdown will display both SDK V4 and Adobe Experience Platform SDKs applications.</p> </li>
+   <li><p>In the <span class="uicontrol">Audiences</span> windows, drag and drop queries to fine tune your audience. </p> <p>The queries added depend on the chosen template: if you chose the <span class="uicontrol">Send multilingual push to Campaign profiles</span> template you can query known recipients of your mobile application. Whereas if you chose the <span class="uicontrol">Send multilingual push to app subscriber</span> template, you can query all subscribers of a particular app who have opted in.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/push_notif_audience.png" title="" /></li>
+   <li><p>In the <span class="uicontrol">Manage Content Variants</span> window, drag and drop your file or select a file from your computer. </p> <p>The file has to be UTF8 encoded and must have a specific layout which can be found by clicking the <span class="uicontrol">Download the sample file</span> option. You should also use the proper syntax for locale values. For more information regarding the file format and the supported locales, refer to this <a href="http://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html">technote</a>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/multivariant_push_4.png" title="" /></li>
+   <li><p>After uploading your file, the language variants are automatically populated in the <span class="uicontrol">Variants</span> tab. Note that you can provide a <span class="uicontrol">Default variant</span> in the file which will be your default content variant if no preferred language is specified for the targeted user.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/multivariant_push_5.png" title="" /></li>
+   <li><p>The <span class="uicontrol">Variant selection</span> tab will provide a script to determine which language preference to take into account depending on the delivery template. This is an out-of-the-box script that does not require you to make any changes.</p> </li>
+   <li><p>If you want to add more variants not present in the imported file, you can do so by clicking the <span class="uicontrol">Add an element</span> button and add as many new language variants as needed. </p> <p>By adding variants other than the ones uploaded from the file, no content will be linked to this language. You will have to edit the content directly in the delivery dashboard.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/multivariant_push_6.png" title="" /></li>
+   <li><p>Click <span class="uicontrol">Create</span> when the configuration is done. You can always come back to the <span class="uicontrol">Content variant</span> window and make some changes from your delivery dashboard.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/multivariant_push_8.png" title="" /></li>
+  </ol>
+  <p>You can now start personalizing your multilingual push notification.</p> 
+  <h2 id="step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants">Step 2: Preview and finalize a push notification using multilingual content variants</h2>
+  <p>After uploading the file containing content variants, you can now preview the different variants from your push notification delivery.</p> 
+  <p>It is also possible to create and edit more variants in addition to the ones uploaded from the file.</p> 
+  <ol>
+   <li><p>In the <span class="uicontrol">Content</span> window from the delivery dashboard, the drop-down allows you to preview your push notification content depending on the chosen language.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/multivariant_push_7.png" title="" /></li>
+   <li><p>If a content variant is not specified for a particular language, click the bell icon underneath the preview to start adding content to this language variant.</p> <p>By clicking the <span class="uicontrol">Content</span> window, the push notification represents the content from the language selected in the drop down. Changes made in this window will only impact one language.</p> </li>
+   <li><p>You can also click on a content variant to further customize it for example with personalization fields.</p> <p>For more information on how to customize your push notification, refer to this <a href="../../channels/using/customizing-a-push-notification.md">section</a>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/multivariant_push_9.png" title="" /></li>
+   <li><p>Click the <span class="uicontrol">Content variant</span> window if you want to add or delete language variants. </p> <p>Please note that by adding a new language, you will have to manually add content to the push notification linked to the added language.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/multivariant_push_10.png" title="" /></li>
+  </ol>
+  <p>Your multilingual push notification delivery is now ready to be sent.</p> 
+  <h2 id="step-3--send-and-analyze-multilingual-push-notification-delivery">Step 3: Send and analyze multilingual push notification delivery</h2>
+  <p>Your multilingual content variant push notifications are now ready to be sent to your users.</p> 
+  <ol>
+   <li><p>To start preparing the send, click the <span class="uicontrol">Prepare</span> button.</p> </li>
+   <li><p>When the preparation is finished with no warnings, you can click the <span class="uicontrol">Confirm</span> button to start sending your multilingual push.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/multivariant_push_12.png" title="" /></li>
+   <li><p>After successfully sending your push notification, click the <span class="uicontrol">Reports</span> icon then <span class="uicontrol">Dynamic reports</span> to analyze the success of your delivery.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/multivariant_push_13.png" title="" /></li>
+   <li><p>Select <span class="uicontrol">Push notification report</span> .</p> </li>
+   <li><p>Drag and drop the <span class="uicontrol">Variant</span> dimension to your panel to start filtering your data.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/multivariant_push_11.png" title="" /></li>
+  </ol>
+  <p>You can now measure the impact of your multilingual push notification delivery on your recipients.</p> 
+  <p><strong>Related content:</strong></p> 
+  <ul>
+   <li><p> <a href="../../reporting/using/push-notification-report.md">Push notification report</a></p> </li>
+   <li><p> <a href="../../automating/using/push-notification-delivery.md">Sending a push notification within a workflow</a></p> </li>
+  </ul>
+ </body>
+</html>

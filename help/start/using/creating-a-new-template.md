@@ -3,21 +3,19 @@ title: Creating a new template
 seo-title: Creating a new template
 description: Creating a new template
 seo-description: Learn how to create a new template, from existing out-of-box activity templates for email, SMS, push notification deliveries, etc.
-uuid: abecffc9-86da-4f2c-a5fd-b66121cc8bd4
+uuid: 6f3cb204-edb1-466f-aa24-f8b8d9d378cf
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
 topic-tags: managing-templates
-discoiquuid: f4a970d8-4f1f-41c0-8c1d-d39c78243b32
+discoiquuid: 7906a588-1328-4aae-94f0-3b54ae56db04
 index: y
 internal: n
 snippet: y
 ---
 
 # Creating a new template{#creating-a-new-template}
-
-Creating a new template
 
 Message templates can be managed by the functional administrator of the platform, under the **[!UICONTROL Resources > Templates]** menu. Out-of-the-box templates cannot be modified or deleted. To create a new template, you must duplicate an existing one.
 

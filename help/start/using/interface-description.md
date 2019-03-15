@@ -3,21 +3,19 @@ title: Interface description
 seo-title: Interface description
 description: Interface description
 seo-description: "Learn how to navigate and use the Adobe Campaign workspace: home page, top bar, advanced menus and action bars."
-uuid: 1fae7a5f-5a26-482b-a52e-fb50b11eee52
+uuid: b54cd3fa-8c0c-48e9-8094-6778c8d6f7b8
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-discoiquuid: 1ec27702-f060-4334-a277-71c3ade7d339
+discoiquuid: 397834c5-2937-47d3-9612-171cbda3a40b
 index: y
 internal: n
 snippet: y
 ---
 
 # Interface description{#interface-description}
-
-Interface description
 
 Adobe Campaign, lets you navigate through different menus and screen to manage your campaigns.
 

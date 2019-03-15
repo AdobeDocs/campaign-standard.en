@@ -3,21 +3,19 @@ title: Return to sender
 seo-title: Return to sender
 description: Return to sender
 seo-description: Learn how to be notified of an incorrect address and exclude it from future communications.
-uuid: c3cf0f78-9d3c-4a1b-9697-ae6730194ed7
+uuid: ecfc228d-6d7f-4c9c-9479-8a262fb57d37
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: direct-mail
-discoiquuid: 0f320b31-9196-43b9-8eda-1ee30feefbcc
+discoiquuid: 2462e38e-b488-4333-ba49-bd724da797b4
 index: y
 internal: n
 snippet: y
 ---
 
 # Return to sender{#return-to-sender}
-
-Return to sender
 
 Flat file exchanges with Direct Mail providers incorporating Return to Sender information are supported. This allows corresponding postal addresses to be excluded from future communications. This also allows you to be notified of an incorrect address and engage with the customer through other channels or to encourage him to update his postal address.
 

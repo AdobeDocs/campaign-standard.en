@@ -3,21 +3,19 @@ title: Branding
 seo-title: Branding
 description: Branding
 seo-description: Discover all the tools available to manage your branding identities.
-uuid: 40e772ab-3d0e-460c-be5b-aba435e3d3d3
+uuid: 4be6a873-20a0-4143-b69c-39791f339e66
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: application-settings
-discoiquuid: 49d641c9-0c1e-4fdb-8961-ad2370a748fd
+discoiquuid: a2365031-5659-4d13-9cd1-12711dd7a068
 index: y
 internal: n
 snippet: y
 ---
 
 # Branding{#branding}
-
-Branding
 
 ## About brand identity {#about-brand-identity}
 

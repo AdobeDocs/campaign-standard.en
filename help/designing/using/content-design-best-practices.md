@@ -3,21 +3,19 @@ title: Content design best practices
 seo-title: Content design best practices
 description: Content design best practices
 seo-description: Read about these guidelines to ensure the editor's optimal operation.
-uuid: 978ff8fb-45c1-4ff4-9df2-d8d2a1aa280d
+uuid: 250e28e5-2037-473e-a261-1de17024a9e8
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: about-content-design
-discoiquuid: 4103694e-7416-4dc0-9262-3c375d412c44
+discoiquuid: ce3106f8-5893-4e0f-9e77-ca72bb0b11f1
 index: y
 internal: n
 snippet: y
 ---
 
 # Content design best practices{#content-design-best-practices}
-
-Content design best practices
 
 To ensure the editor's optimal operation, we recommend observing the following guidelines:
 

@@ -3,21 +3,19 @@ title: Deleting a resource
 seo-title: Deleting a resource
 description: Deleting a resource
 seo-description: Learn how to delete a resource 
-uuid: 8b884da4-34ee-4dca-91b2-9799657560bb
+uuid: 99bb60f6-8695-4988-a998-3b5659d4b6aa
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
-discoiquuid: 34b70ca3-67f8-4662-bf46-6d9730d19401
+discoiquuid: b4838904-10de-4932-a81e-cba14207e73e
 index: y
 internal: n
 snippet: y
 ---
 
 # Deleting a resource{#deleting-a-resource}
-
-Deleting a resource
 
 To delete a resource, the resource in question must be a **[!UICONTROL Draft]** . The resource is in **[!UICONTROL Draft]** status if:
 

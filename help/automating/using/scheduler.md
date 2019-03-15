@@ -3,21 +3,19 @@ title: Scheduler
 seo-title: Scheduler
 description: Scheduler
 seo-description: The Scheduler activity allows you to schedule when a workflow or an activity is started.
-uuid: 2f3982b1-3540-404a-9a94-e62474ae2e8e
+uuid: 2a1f96d5-937c-490a-9eb3-f2ac2601c415
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: execution-activities
-discoiquuid: 4a17812b-c0f5-4561-8ac8-2406b1615f69
+discoiquuid: 003b7dbf-9738-4604-b884-308d52b82d23
 index: y
 internal: n
 snippet: y
 ---
 
 # Scheduler{#scheduler}
-
-Scheduler
 
 ## Description {#description}
 

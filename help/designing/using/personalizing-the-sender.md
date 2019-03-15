@@ -3,21 +3,19 @@ title: Personalizing the sender
 seo-title: Personalizing the sender
 description: Personalizing the sender
 seo-description: Learn how to personalize the name or the address of the sender for your messages.
-uuid: 2d064e32-1a10-4bde-9605-8ee58b26aa65
+uuid: 2ed6988b-1104-4b92-8c48-fbec5fa7a6de
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: personalizing-content
-discoiquuid: 78723dfd-9580-4c28-9084-78118633c530
+discoiquuid: 6e81e3e8-0d37-4ede-af39-6ca25ef44451
 index: y
 internal: n
 snippet: y
 ---
 
 # Personalizing the sender{#personalizing-the-sender}
-
-Personalizing the sender
 
 ## Email sender {#email-sender}
 

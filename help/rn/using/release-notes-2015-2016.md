@@ -3,21 +3,19 @@ title: Release Notes 2015-2016
 seo-title: Release Notes 2015-2016
 description: Release Notes 2015-2016
 seo-description: This page lists all 2015 and 2016 releases of Adobe Campaign Standard.
-uuid: d6a6c732-0f1a-4c1d-ba08-2053b3973954
+uuid: 5068b24c-99cf-47fc-9239-815f7000db96
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-discoiquuid: 1a83dc34-960d-4e4b-bf91-4ec8f3361280
+discoiquuid: d5024ae0-7d6f-472e-8cae-ecc3d8de069f
 index: y
 internal: n
 snippet: y
 ---
 
 # Release Notes 2015-2016{#release-notes}
-
-Release Notes 2015-2016
 
 Looking for a specific 2015-2016 release of Adobe Campaign Standard?
 
@@ -798,7 +796,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
   </tr> 
   <tr> 
    <td> Creating programs and campaigns<br /> </td> 
-   <td> Now, campaigns and programs are configured so that the day they are created is automatically used as the start date.<br /> The end date is configured according to the start date, such as:<br /> <ul><li> D+186 for programs </li> <li> D+61 for campaigns </li></ul> For more information, refer to the <a href="../../start/using/programs-and-campaigns.md">detailed documentation</a>.<br /> </td> 
+   <td> Now, campaigns and programs are configured so that the day they are created is automatically used as the start date.<br /> The end date is configured according to the start date, such as:<br /> <li> D+186 for programs </li> <li> D+61 for campaigns </li> For more information, refer to the <a href="../../start/using/programs-and-campaigns.md">detailed documentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Email<br /> </td> 
@@ -865,7 +863,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
   </tr> 
   <tr> 
    <td> Integration with Adobe Profiles &amp; Audiences<br /> </td> 
-   <td> You can now share audiences between Adobe Campaign and your other Adobe Marketing Cloud solutions:<br /> <ul><li> Export: when you save an audience composed of profiles in a workflow, a new <span class="uicontrol">Share in Adobe Marketing Cloud</span> option allows you to add profiles to an existing audience or to create a new audience. </li> <li> Import: by creating a <strong>List</strong> type audience from the audience management screen, a new option allows you to identify it as an <span class="uicontrol">Adobe Marketing Cloud Audience</span> . You can then select an existing shared audience to import it into Adobe Campaign. </li></ul> For more information on configuring and using this functionality, refer to the <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">detailed documentation</a>.<br /> </td> 
+   <td> You can now share audiences between Adobe Campaign and your other Adobe Marketing Cloud solutions:<br /> <li> Export: when you save an audience composed of profiles in a workflow, a new <span class="uicontrol">Share in Adobe Marketing Cloud</span> option allows you to add profiles to an existing audience or to create a new audience. </li> <li> Import: by creating a <strong>List</strong> type audience from the audience management screen, a new option allows you to identify it as an <span class="uicontrol">Adobe Marketing Cloud Audience</span> . You can then select an existing shared audience to import it into Adobe Campaign. </li> For more information on configuring and using this functionality, refer to the <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">detailed documentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Digital Content Editor - Dynamic content<br /> </td> 
@@ -873,7 +871,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
   </tr> 
   <tr> 
    <td> Digital Content Editor - Dynamic text<br /> </td> 
-   <td> From the content editor of an email, you can now define dynamic text:<br /> <ul><li> in an email subject, </li> <li> in HTML mode, </li> <li> or in Text mode. </li></ul> For more information on using this functionality, refer to the <a href="../../designing/using/defining-dynamic-text.md">detailed documentation</a>.<br /> </td> 
+   <td> From the content editor of an email, you can now define dynamic text:<br /> <li> in an email subject, </li> <li> in HTML mode, </li> <li> or in Text mode. </li> For more information on using this functionality, refer to the <a href="../../designing/using/defining-dynamic-text.md">detailed documentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Programs and campaigns - Reports<br /> </td> 
@@ -920,7 +918,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
  <tbody> 
   <tr> 
    <td> Workflows: Reconciliation activity<br /> </td> 
-   <td> A new <strong>Reconciliation</strong> activity links unidentified data (for example, after importing a file) with existing resources within a workflow.<br /> This activity is essentially used for Data Management purposes. It responds to two different use cases:<br /> <ul><li> <strong>Adding relations</strong>: a <strong>Relations</strong> tab allows you to add links between inbound data and several other dimensions of the Adobe Campaign database. </li> <li> <strong>Data identification</strong>: an <strong>Identification</strong> tab allows you to simply associate inbound data to columns in an existing dimension in the Adobe Campaign database. When it leaves the activity, the data is identified as belonging to the specified dimension. </li></ul> Refer to the <a href="../../automating/using/reconciliation.md">detailed documentation</a>.<br /> </td> 
+   <td> A new <strong>Reconciliation</strong> activity links unidentified data (for example, after importing a file) with existing resources within a workflow.<br /> This activity is essentially used for Data Management purposes. It responds to two different use cases:<br /> <li> <strong>Adding relations</strong>: a <strong>Relations</strong> tab allows you to add links between inbound data and several other dimensions of the Adobe Campaign database. </li> <li> <strong>Data identification</strong>: an <strong>Identification</strong> tab allows you to simply associate inbound data to columns in an existing dimension in the Adobe Campaign database. When it leaves the activity, the data is identified as belonging to the specified dimension. </li> Refer to the <a href="../../automating/using/reconciliation.md">detailed documentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Workflows: Extract file activity<br /> </td> 
@@ -1011,7 +1009,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
   </tr> 
   <tr> 
    <td> Reports<br /> </td> 
-   <td> All reports (except the <strong>Hot clicks</strong> report) can now be accessed from a program. These reports are:<br /> <ul><li> Program delivery throughput </li> <li> Program tracking indicators </li> <li> Program breakdown by domain </li> <li> Program non-deliverables and bounces </li> <li> Program URLs and click streams </li></ul> These reports can be filtered over a given period (e.g. three months, six months, etc.). The campaign reports can also be filtered.<br /> Refer to the <a href="../../reporting/using/about-dynamic-reports.md">detailed documentation</a>.<br /> </td> 
+   <td> All reports (except the <strong>Hot clicks</strong> report) can now be accessed from a program. These reports are:<br /> <li> Program delivery throughput </li> <li> Program tracking indicators </li> <li> Program breakdown by domain </li> <li> Program non-deliverables and bounces </li> <li> Program URLs and click streams </li> These reports can be filtered over a given period (e.g. three months, six months, etc.). The campaign reports can also be filtered.<br /> Refer to the <a href="../../reporting/using/about-dynamic-reports.md">detailed documentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Workflows: <strong>Email delivery</strong> activity<br /> </td> 

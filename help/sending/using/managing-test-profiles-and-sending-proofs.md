@@ -3,21 +3,19 @@ title: Managing test profiles and sending proofs
 seo-title: Managing test profiles and sending proofs
 description: Managing test profiles and sending proofs
 seo-description: Learn how to manage test profiles and proofs.
-uuid: adaedf3a-ddb8-4478-bbb5-18f34c31ae59
+uuid: bf46f421-e3de-430c-9953-3b792d7164b1
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
-discoiquuid: 8133eabc-1a5d-4fb3-8c51-8fe746971ed6
+discoiquuid: bde1ad8b-5bd6-4962-8adf-c1d228248056
 index: y
 internal: n
 snippet: y
 ---
 
 # Managing test profiles and sending proofs{#managing-test-profiles-and-sending-proofs}
-
-Managing test profiles and sending proofs
 
 ## About test profiles {#about-test-profiles}
 

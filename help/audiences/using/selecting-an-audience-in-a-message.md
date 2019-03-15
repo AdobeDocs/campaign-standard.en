@@ -3,21 +3,19 @@ title: Selecting an audience in a message
 seo-title: Selecting an audience in a message
 description: Selecting an audience in a message
 seo-description: "Step-be-step procedure to choose audiences of an email: main target population and test profiles."
-uuid: 1d238924-8608-4e6a-8d06-a933694b5bb1
+uuid: eab23096-24ef-405f-8afe-eff3da4cff05
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
 topic-tags: managing-audiences
-discoiquuid: f8219c4c-f80a-45eb-88fb-7ad83c186a46
+discoiquuid: bb3b5e23-559c-4013-b571-9c6364771f13
 index: y
 internal: n
 snippet: y
 ---
 
 # Selecting an audience in a message{#selecting-an-audience-in-a-message}
-
-Selecting an audience in a message
 
 Adobe Campaign lets you configure several profile types within a message's audience.
 

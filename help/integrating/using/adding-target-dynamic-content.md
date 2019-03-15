@@ -3,21 +3,19 @@ title: Adding Target dynamic content
 seo-title: Adding Target dynamic content
 description: Adding Target dynamic content
 seo-description: Learn how to add Adobe Target dynamic content in one of your Adobe Campaign delivery.
-uuid: e970f079-8beb-4c3c-8e15-044cebc43643
+uuid: d8abbfb8-8c4b-4476-a6bf-3485173067f1
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
-discoiquuid: 5e29d3cd-c3ad-43b9-8313-24732ff83dda
+discoiquuid: 426805e8-b003-473a-b298-e55a8c5e6a07
 index: y
 internal: n
 snippet: y
 ---
 
 # Adding Target dynamic content{#adding-target-dynamic-content}
-
-Adding Target dynamic content
 
 With Adobe Target integration, dynamic images can be added into a delivery to personalize your content depending of experiences.
 

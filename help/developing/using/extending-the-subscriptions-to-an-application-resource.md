@@ -3,21 +3,19 @@ title: Extending the subscriptions to an application resource
 seo-title: Extending the subscriptions to an application resource
 description: Extending the subscriptions to an application resource
 seo-description: 
-uuid: dfc1a7b7-df8f-4612-9c46-769cbb2ec44e
+uuid: daf658bf-3ad2-4c72-8fbd-10de34551763
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: use-cases--extending-resources
-discoiquuid: 3fe932c3-b3fd-4cc4-ba47-e22769d3db6e
+discoiquuid: 99985b30-cb3e-4dae-a44b-5d78c5e146bb
 index: y
 internal: n
 snippet: y
 ---
 
 # Extending the subscriptions to an application resource{#extending-the-subscriptions-to-an-application-resource}
-
-Extending the subscriptions to an application resource
 
 In Adobe Campaign, mobile profile attributes data sent from mobile device are stored in **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** resource which allows you to define the data that you want to collect from your applications' subscribers. For more information on custom resources, refer to this [page](../../developing/using/key-steps-of-adding-a-resource.md).
 

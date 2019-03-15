@@ -3,21 +3,19 @@ title: Managing packages
 seo-title: Managing packages
 description: Managing packages
 seo-description: Administrators can define packages to exchange resources between different Adobe Campaign instances through structured XML files.
-uuid: 8291d995-a971-451c-ae5b-78f50c451a29
+uuid: 078d5949-fd6c-4837-861f-a8c8a461cbac
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
-discoiquuid: fa6fe73e-6f5d-44d9-bd31-dd21deeb3a79
+discoiquuid: f81163d2-889d-40eb-915c-c0d7b5a4b6ae
 index: y
 internal: n
 snippet: y
 ---
 
 # Managing packages{#managing-packages}
-
-Managing packages
 
 Administrators can define packages to exchange resources between different Adobe Campaign instances through structured XML files. These can be configuration parameters or data.
 

@@ -3,21 +3,19 @@ title: Personalizing an image source
 seo-title: Personalizing an image source
 description: Personalizing an image source
 seo-description: Learn how to personalize an image in your message according to a particular criterion or to use tracking.
-uuid: c213d979-b157-48ca-8eab-f9dddb8eb96c
+uuid: a8e5ce7d-95eb-4739-9bab-a7b1bc8f84db
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: using-images
-discoiquuid: 1d406858-b7bf-4224-b957-0e5747dee91c
+discoiquuid: e7695455-3158-4464-a914-9030e770e28c
 index: y
 internal: n
 snippet: y
 ---
 
 # Personalizing an image source{#personalizing-an-image-source}
-
-Personalizing an image source
 
 Adobe Campaign allows you to personalize one or several images in your message according to a particular criterion or to use tracking. This is done by inserting personalization fields, content blocks, or dynamic content into the image source. To do this:
 

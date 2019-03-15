@@ -3,21 +3,19 @@ title: Importing content from a file
 seo-title: Importing content from a file
 description: Importing content from a file
 seo-description: Discover how to upload a file from your computer when creating an email or a landing page.
-uuid: aefa13cb-667c-4b1b-b379-28375be7887b
+uuid: 23ac90f5-e097-43ae-bbae-52c75826562a
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: loading-content
-discoiquuid: 72f8f6e9-74d9-474c-8ac1-a2eaa91c4c3d
+discoiquuid: 85b07ec4-3e0b-4847-983d-af0d49d73f52
 index: y
 internal: n
 snippet: y
 ---
 
 # Importing content from a file{#importing-content-from-a-file}
-
-Importing content from a file
 
 From the Email Designer home page, click the **[!UICONTROL Upload]** button to upload a file from your computer, then confirm.
 

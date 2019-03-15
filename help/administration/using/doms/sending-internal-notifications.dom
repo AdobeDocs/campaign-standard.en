@@ -1,0 +1,49 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2019-02-13T06:19:12.670-0500" name="cq:lastReplicated" />
+  <meta content="Learn how to send real-time system notifications to your Adobe Campaign users." name="seoDescription" />
+  <meta content="light" name="heroGradient" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:administration;content_type:reference;topic_tags:application-settings" name="cq:tags" />
+  <meta content="2019-02-15T14:23:22.866-0500" name="jcr:created" />
+  <meta content="2019-02-13T06:19:12.650-0500" name="publishExternalDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="https://helpx.adobe.com/campaign/standard/administration/using/sending-internal-notifications.html" name="publishExternalURL" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2019-02-13T06:14:28.684-0500" name="firstPublishExternalDate" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="a32c96bd-91b0-44dd-b10e-94e3e46519af" name="jcr:predecessors" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Sending internal notifications" name="navTitle" />
+  <meta content="2019-02-13T06:19:12.650-0500" name="topicBrowsingSortDate" />
+  <meta content="2019-02-15T02:59:04.456-0500" name="locHandOffDate" />
+  <meta content="audience:administration" name="primaryAudienceTag" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Sending internal notifications" name="jcr:description" />
+  <meta content="2019-02-13T06:19:12.650-0500" name="lastPublishExternalDate" />
+  <meta content="2019-02-15T02:59:04.457-0500" name="cq:lastModified" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="2b25e8b4-3ce0-43f0-b26f-1cf082715d8c" name="jcr:uuid" />
+  <meta content="Sending internal notifications" name="jcr:title" />
+ </head>
+ <body>
+  <p>Adobe Campaign gives you the possibility to receive notifications regarding important system activities directly within the application. Real-time notifications keep relevant stakeholders informed and provide users with the ability to immediately and directly act on activity notifications from within the application. The result for teams is advanced agility, efficiency and smoother execution of campaigns.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/pulse_3.png" title="" />
+  <p>You can configure notifications for the following objects:</p> 
+  <ul>
+   <li><p> <span class="uicontrol">A/B Test emails</span> : the email creator and modifier(s) are notified that a variant has been chosen (automatic mode) or that a variant needs to be chosen (manual mode). Clicking on the notification displays the corresponding email. Notifications are activated by default in the out-of-the-box A/B Test template. If you want to deactivate them, edit the properties of the email or the email template and uncheck the box located under <strong>General &gt; Notifications</strong>. For more information on A/B Test emails, refer to <a href="../../channels/using/designing-an-a-b-test-email.md">Creating an AB Test</a>. For more on email properties, refer to <a href="../../administration/using/configuring-email-channel.md#list-of-email-properties">List of email properties</a>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/pulse_2.png" title="" /></li>
+   <li><p> <span class="uicontrol">Workflows</span> : each member of the selected security group are notified (email and in-app notification) whenever a workflow is in error. Clicking on the notification or on the email link displays the corresponding workflow. Notifications are deactivated by default in the out-of-the-box workflow template. If you want to activate them, edit the properties of the workflow or workflow template and add a security group under <strong>General &gt; Execution &gt; Error management &gt; Supervisors</strong>. For more information on security groups, refer to <a href="../../administration/using/managing-groups-and-users.md">Managing groups and users</a>. For more on workflow properties, refer to <a href="../../automating/using/executing-a-workflow.md#workflow-properties">Workflow properties</a>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/pulse_1.png" title="" /></li>
+  </ul>
+ </body>
+</html>

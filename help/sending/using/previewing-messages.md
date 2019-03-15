@@ -3,21 +3,19 @@ title: Previewing messages
 seo-title: Previewing messages
 description: Previewing messages
 seo-description: Learn how to preview a message in the content editor or in the Email Designer.
-uuid: 7ee113d4-16db-4ebe-914e-9423d9c4ac4a
+uuid: 66c51eea-2f9f-4471-a1de-35d47e34e6dc
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
-discoiquuid: dc2e2aac-955d-4196-b6b5-12614b6a7fcc
+discoiquuid: d447acee-5fdc-4cb9-baf3-00769bc3a1e8
 index: y
 internal: n
 snippet: y
 ---
 
 # Previewing messages{#previewing-messages}
-
-Previewing messages
 
 After adding test profiles in the **[!UICONTROL Audience]** window, you can preview your message to check its personalization and how your recipients will see your delivery.
 

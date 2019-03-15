@@ -3,21 +3,19 @@ title: Editing existing contents with the Email Designer
 seo-title: Editing existing contents with the Email Designer
 description: Editing existing contents with the Email Designer
 seo-description: Discover how to make existing contents fully compliant with the Email Designer interface.
-uuid: 5d3549ab-9b52-4c20-a119-f401daf82d37
+uuid: 1412f918-fe54-43a9-9a5e-77cd17d22f1d
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: loading-content
-discoiquuid: c565c50c-6655-4f32-a907-78411f62558b
+discoiquuid: d71ccd32-27c2-402f-bac5-6cb01c17dbf6
 index: y
 internal: n
 snippet: y
 ---
 
 # Editing existing contents with the Email Designer{#editing-existing-contents-with-the-email-designer}
-
-Editing existing contents with the Email Designer
 
 To fully leverage the edition possibilities of the [Email Designer](../../designing/using/about-email-content-design.md#about-the-email-designer), your uploaded HTML must contain specific tagging that makes it compliant with the WYSIWYG editor.
 

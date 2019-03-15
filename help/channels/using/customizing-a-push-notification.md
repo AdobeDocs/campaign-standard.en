@@ -3,21 +3,19 @@ title: Customizing a push notification
 seo-title: Customizing a push notification
 description: Customizing a push notification
 seo-description: Learn how to customize your push notifications with various advanced options.
-uuid: 4b57ec5c-e5ae-42f3-84a4-b3c476a8cedf
+uuid: 531a4f6b-27d8-42a2-92e6-152b3030e081
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: push-notifications
-discoiquuid: ba955cd0-9eff-47a7-8528-be31bf6662b9
+discoiquuid: 38d6cd95-636a-4498-bdfc-95e8f4d9e739
 index: y
 internal: n
 snippet: y
 ---
 
 # Customizing a push notification{#customizing-a-push-notification}
-
-Customizing a push notification
 
 To fine-tune your push notification, Adobe Campaign allows you to access a set of advanced options while designing a push notification.
 

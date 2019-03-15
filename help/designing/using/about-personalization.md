@@ -3,21 +3,19 @@ title: About personalization
 seo-title: About personalization
 description: About personalization
 seo-description: Discover the different ways you can personalize your contents in Adobe Campaign.
-uuid: fbefbdb9-60f4-48e2-bc7f-5d09090fa5b9
+uuid: 1e5c57b4-78b5-4afc-b24b-16e8ecfb51ac
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: personalizing-content
-discoiquuid: 1aa2ff1b-62d6-4bee-8e27-2c5438e9f4dc
+discoiquuid: aa25ffcd-7167-424e-ab00-e4df7d0de15a
 index: y
 internal: n
 snippet: y
 ---
 
 # About personalization{#about-personalization}
-
-About personalization
 
 The content and display of messages delivered by Adobe Campaign can be personalized in several different ways. These ways can be combined according to criteria depending on the profiles. In general, Adobe Campaign allows you to:
 

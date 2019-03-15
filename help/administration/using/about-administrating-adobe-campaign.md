@@ -3,22 +3,19 @@ title: About Administrating Adobe Campaign
 seo-title: About Administrating Adobe Campaign
 description: About Administrating Adobe Campaign
 seo-description: Adobe Campaign provides you with a complete set of administration tools. Learn how to manage your users and configure your channels.
-uuid: b1a4174c-49a8-4340-9785-f966f6debdf0
+uuid: 09e7ba39-ab95-4532-9fa8-031d8a4aaee8
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
-discoiquuid: 126a3853-97ce-4c07-811c-0f0ac8a77e01
+discoiquuid: 9d63f549-8316-434b-a124-086e624e9593
 index: y
 internal: n
 snippet: y
-contextualhelp: administrating, overview
 ---
 
 # About Administrating Adobe Campaign{#about-administrating-adobe-campaign}
-
-About Administrating Adobe Campaign
 
 As a cloud-based solution, Adobe Campaign offers administrators different ways to configure the application. Though the infrastructure configuration is performed by Adobe, functional administrators can:
 

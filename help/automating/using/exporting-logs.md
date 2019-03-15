@@ -3,21 +3,19 @@ title: Exporting logs
 seo-title: Exporting logs
 description: Exporting logs
 seo-description: Log data, whether they are related to deliveries or to subscriptions, can be exported through a simple workflow.
-uuid: cbffa635-2c3b-4538-93e5-f89c75e43256
+uuid: 3f401154-b70f-4221-8cfc-1169e2c3a257
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
-discoiquuid: 19cb7fca-da21-43a2-8df5-d9c11c31a51d
+discoiquuid: dd79fd8a-0400-4342-b8d1-0bfde663946e
 index: y
 internal: n
 snippet: y
 ---
 
 # Exporting logs{#exporting-logs}
-
-Exporting logs
 
 Log data, whether they are related to deliveries or to subscriptions, can be exported through a simple workflow. It enables you to analyze the results of your campaigns in your own reporting or BI tool.
 

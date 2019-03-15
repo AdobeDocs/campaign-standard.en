@@ -3,21 +3,19 @@ title: About email content design
 seo-title: About email content design
 description: About email content design
 seo-description: Discover the Email Designer that enables you to design content for your emails.
-uuid: da4275a1-57c7-424c-af69-96532a881586
+uuid: 21323882-f63a-476c-bf8c-83fdabe22fca
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-discoiquuid: b679a7d0-515e-4364-8a88-1b10a952cd20
+discoiquuid: 79252991-28aa-47b0-8e3e-98d98d95092e
 index: y
 internal: n
 snippet: y
 ---
 
 # About email content design{#about-email-content-design}
-
-About email content design
 
 Use the Email Designer drag-and-drop interface to create and modify the content of your emails in Adobe Campaign.
 
@@ -309,14 +307,14 @@ Adobe Campaign offers several email authoring options. The table below shows the
   </tr> 
   <tr> 
    <td> <strong>Benefits</strong><br /> </td> 
-   <td> <ul><li> Easy email building through drag-and-drop experience </li> <li> Functionalities similar to legacy content editor </li> <li> Reusable content with fragments </li></ul> </td> 
-   <td> <ul><li> Reusing assets from website in emails </li> <li> Leveraging the power of Experience Manager in email contents </li></ul> </td> 
-   <td> <ul><li> Capability for a developer to directly code an email </li> <li> Bi-directional synchronization </li> <li> Editing offline in Dreamweaver and synchronizing later </li> <li> Uploading images to Adobe Campaign through Dreamweaver </li></ul> </td> 
+   <td> <li> Easy email building through drag-and-drop experience </li> <li> Functionalities similar to legacy content editor </li> <li> Reusable content with fragments </li> </td> 
+   <td> <li> Reusing assets from website in emails </li> <li> Leveraging the power of Experience Manager in email contents </li> </td> 
+   <td> <li> Capability for a developer to directly code an email </li> <li> Bi-directional synchronization </li> <li> Editing offline in Dreamweaver and synchronizing later </li> <li> Uploading images to Adobe Campaign through Dreamweaver </li> </td> 
   </tr> 
   <tr> 
    <td> <strong>Limitations</strong><br /> </td> 
-   <td> <ul><li> No conditional content within fragments </li> <li> Using Experience Manager fragments not possible </li></ul> </td> 
-   <td> <ul><li> Advanced personalization difficult to implement </li> <li> Need to send tests in Adobe Campaign </li></ul> </td> 
+   <td> <li> No conditional content within fragments </li> <li> Using Experience Manager fragments not possible </li> </td> 
+   <td> <li> Advanced personalization difficult to implement </li> <li> Need to send tests in Adobe Campaign </li> </td> 
    <td> Dynamic content not supported<br /> </td> 
   </tr> 
   <tr> 

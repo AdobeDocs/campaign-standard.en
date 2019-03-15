@@ -3,21 +3,19 @@ title: Using Triggers in Campaign
 seo-title: Using Triggers in Campaign
 description: Using Triggers in Campaign
 seo-description: 
-uuid: 2cbd1a66-14ec-41f8-a5dd-a6df7dffb7f6
+uuid: 70866b9e-d8d5-48b0-a82e-a503eff87d5b
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-discoiquuid: a4800364-af6a-4094-8896-21b6207ef7dc
+discoiquuid: 5d10dc3d-411b-4d9d-8b3f-47f67f52aa70
 index: y
 internal: n
 snippet: y
 ---
 
 # Using Triggers in Campaign{#using-triggers-in-campaign}
-
-Using Triggers in Campaign
 
 ## Creating a mapped trigger in Campaign {#creating-a-mapped-trigger-in-campaign}
 

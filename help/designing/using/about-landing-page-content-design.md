@@ -3,21 +3,19 @@ title: About landing page content design
 seo-title: About landing page content design
 description: About landing page content design
 seo-description: Learn about the specificities of the landing page content editor.
-uuid: 2ec47b07-cb00-469e-91ca-b437f3d53ce6
+uuid: 00c1bb15-7da5-42dd-98f6-f982d659bff2
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: editing-landing-page-content
-discoiquuid: 10bd3a0c-e6d1-4881-9eeb-77c0d50a8e70
+discoiquuid: 48dd371e-da27-49cf-a508-5f8cee705ab7
 index: y
 internal: n
 snippet: y
 ---
 
 # About landing page content design{#about-landing-page-content-design}
-
-About landing page content design
 
 Use the standard content editor to create and modify the content of your landing pages in Adobe Campaign.
 

@@ -3,21 +3,19 @@ title: Transactional push notifications
 seo-title: Transactional push notifications
 description: Transactional push notifications
 seo-description: Learn how to create and publish a transactional push notification.
-uuid: 6fed54c9-b5fa-472e-97be-fe53d686fd9f
+uuid: af73b28c-7725-40cb-a82a-be43448bafd5
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
-discoiquuid: e8a3640b-a5e8-402d-9d35-d1373bc4dbb3
+discoiquuid: 179af106-5f86-4dd6-8338-b709466f5653
 index: y
 internal: n
 snippet: y
 ---
 
 # Transactional push notifications{#transactional-push-notifications}
-
-Transactional push notifications
 
 You can use Adobe Campaign to send transactional push notifications on iOS and Android mobile devices. These messages are received on mobile applications that you set up in Adobe Campaign by leveraging the Experience Cloud Mobile SDK.
 

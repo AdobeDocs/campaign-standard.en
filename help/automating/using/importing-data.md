@@ -3,21 +3,19 @@ title: Importing data
 seo-title: Importing data
 description: Importing data
 seo-description: Learn how to import data with a workflow.
-uuid: e149e8a4-6f9d-47ec-b242-6a5283c425e2
+uuid: 2802a0d6-dc81-4dc8-9a41-cf8359fd61a6
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
-discoiquuid: 460d70f4-6615-4bc7-8f79-34131f08fe76
+discoiquuid: 557e1f81-871e-4c2a-8dd5-bec7561f9d3b
 index: y
 internal: n
 snippet: y
 ---
 
 # Importing data{#importing-data}
-
-Importing data
 
 ## Collecting data {#collecting-data}
 

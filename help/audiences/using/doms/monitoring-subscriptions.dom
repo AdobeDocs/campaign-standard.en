@@ -1,0 +1,78 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Monitoring subscriptions" name="jcr:description" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="2019-02-15T02:57:52.766-0500" name="locHandOffDate" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2018-03-15T09:01:45.898-0400" name="jcr:created" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="audience:audiences" name="primaryAudienceTag" />
+  <meta content="https://helpx.adobe.com/campaign/standard/audiences/using/monitoring-subscriptions.html" name="publishExternalURL" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Monitoring subscriptions" name="jcr:title" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2019-02-13T06:23:24.709-0500" name="lastPublishExternalDate" />
+  <meta content="2019-02-13T06:23:24.767-0500" name="cq:lastReplicated" />
+  <meta content="2019-02-13T06:23:24.709-0500" name="publishExternalDate" />
+  <meta content="1654f4fa-e26d-48d3-8bd7-90e52046c3cf" name="jcr:predecessors" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="Learn how to track your subscribers and measure the success of your services using dashboards and reports." name="seoDescription" />
+  <meta content="Monitoring subscriptions" name="navTitle" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="7dde8d92-b963-4fb1-acb7-100f09e5ab48" name="jcr:uuid" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2019-02-15T02:57:52.766-0500" name="cq:lastModified" />
+  <meta content="2019-02-13T06:23:24.709-0500" name="firstPublishExternalDate" />
+  <meta content="2019-02-13T06:23:24.709-0500" name="topicBrowsingSortDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:audiences;content_type:reference;topic_tags:managing-subscriptions" name="cq:tags" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+ </head>
+ <body>
+  <p>Use the Adobe Campaign interface to track your subscribers and measure the success of your services.</p> 
+  <p>You have several options for monitoring subscriptions to and unsubscriptions:</p> 
+  <ul>
+   <li><p>View the list of people currently subscribed to your service from the service dashboard. See <a href="../../audiences/using/monitoring-subscriptions.md#service-dashboard" target="_blank">Service dashboard</a>.</p> </li>
+   <li><p>consult the history of subscriptions and unsubscriptions from the <strong>Subscription history</strong> tab in the service dashboard. See <a href="../../audiences/using/monitoring-subscriptions.md#subscription-history" target="_blank">Subscription history</a>.</p> </li>
+   <li><p>display a report detailing the evolution of subscriptions and unsubscriptions in the service <strong>Reports</strong>. See <a href="../../audiences/using/monitoring-subscriptions.md#service-reports" target="_blank">Service reports</a>.</p> </li>
+   <li><p>find the list of services a person has subscribed from its <strong>Profile</strong>. See <a href="../../audiences/using/monitoring-subscriptions.md#history-of-events-linked-to-a-profile" target="_blank">History of events linked to a profile</a>.</p> </li>
+  </ul>
+  <h2 id="service-dashboard">Service dashboard</h2>
+  <p>To view the list of people subscribed to a service: </p> 
+  <ol>
+   <li><p>Go to the list of services via the advanced menu <strong>Profiles &amp; audiences</strong> &gt; <strong>Services</strong>, which can be accessed from the Adobe Campaign logo.</p> </li>
+   <li><p>Select the service of your choice to display the corresponding dashboard.</p> </li>
+   <li><p>The list of people subscribed to the service can be found in the <strong>Subscriptions</strong> tab.</p> </li>
+  </ol>
+  <img alt="" captionBottom="" imageRotate="0" src="assets/lp_monitoring_subscriptions_1.png" title="" />
+  <h2 id="subscription-history">Subscription history</h2>
+  <p>To consult the subscription and unsubscription history: </p> 
+  <ol>
+   <li><p>Go to the list of services via the advanced menu <strong>Profiles &amp; audiences</strong> &gt; <strong>Services</strong>, which can be accessed from the Adobe Campaign logo.</p> </li>
+   <li><p>Select the service of your choice to display the corresponding dashboard.</p> </li>
+   <li><p>Select the <strong>Subscription history</strong> tab to display the dates on which each person subscribed and unsubscribed.</p> </li>
+  </ol>
+  <img alt="" captionBottom="" imageRotate="0" src="assets/lp_monitoring_subscriptions_2.png" title="" />
+  <h2 id="service-reports">Service reports</h2>
+  <p>To display a report detailing the evolution of subscriptions and unsubscriptions: </p> 
+  <ol>
+   <li><p>Go to the list of services via the advanced menu <strong>Profiles &amp; audiences</strong> &gt; <strong>Services</strong>, which can be accessed from the Adobe Campaign logo.</p> </li>
+   <li><p>Select the service of your choice to display the corresponding dashboard.</p> </li>
+   <li><p>Click the <strong>Reports</strong> button in the action bar, then <strong>Subscription monitoring</strong> in the selection screen.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/lp_monitoring_subscriptions_3.png" title="" /></li>
+   <li><p>The <strong>Service summary</strong> report presents the number of subscriptions, the overall evolution of subscriptions, and a curve showing the progress over time.</p> </li>
+  </ol>
+  <img alt="" captionBottom="" imageRotate="0" src="assets/lp_monitoring_subscriptions_4.png" title="" />
+  <h2 id="history-of-events-linked-to-a-profile">History of events linked to a profile</h2>
+  <p>To consult the list of services to which a contact has subscribed, you can consult its marketing history. For more on this, refer to the <a href="../../audiences/using/integrated-customer-profile.md">Integrated customer profile</a> section.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/lp_monitoring_subscriptions_5.png" title="" />
+ </body>
+</html>

@@ -3,21 +3,19 @@ title: Designing an A/B test email
 seo-title: Designing an A/B test email
 description: Designing an A/B test email
 seo-description: Discover the A/B test functionality and follow these steps to create an email from an A/B test template in Adobe Campaign.
-uuid: 58b07d77-f20e-44c4-abd7-a760939ac7c9
+uuid: f4e4496a-e002-40f1-bb42-3508100f871c
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: email-messages
-discoiquuid: dcfdc141-fe83-4be1-9562-2fb44fe63b6c
+discoiquuid: ee763560-e29d-40fe-b4ec-d2b6560def49
 index: y
 internal: n
 snippet: y
 ---
 
 # Designing an A/B test email{#designing-an-a-b-test-email}
-
-Designing an A/B test email
 
 The A/B test functionality in Adobe Campaign allows you to define two to three email variants. Each variant is sent to population samples in order to determine which has the best result. Once determined, the winning variant is then sent to the remaining population.
 

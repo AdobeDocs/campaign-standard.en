@@ -3,21 +3,19 @@ title: External accounts
 seo-title: External accounts
 description: External accounts
 seo-description: Configure external accounts to set up connections with external systems such as SFTP servers.
-uuid: ddbdda1c-49a4-47e4-a089-200a8a3f9e2a
+uuid: c90d9f5e-cabb-4b00-b442-a5e541f4764f
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: application-settings
-discoiquuid: 7416bec4-c203-4b1a-a3f7-2191f46769a9
+discoiquuid: 3f4e9158-c3b6-4741-86ef-3dd68c8fa727
 index: y
 internal: n
 snippet: y
 ---
 
 # External accounts{#external-accounts}
-
-External accounts
 
 An external account is a configuration that allows you to configure and test the access to a server that is external to Adobe Campaign.
 

@@ -3,21 +3,19 @@ title: Customizing an In-App message
 seo-title: Customizing an In-App message
 description: Customizing an In-App message
 seo-description: Learn how to customize your In-App messages with various options.
-uuid: b72de108-5ef0-43e1-9a9b-254fa33eb2ee
+uuid: 21cba873-b2f4-4170-a3a9-d2e4bbf0b87f
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: in-app-messaging
-discoiquuid: 1ea44c76-7f18-47e6-9a9d-5da6524f3a00
+discoiquuid: a2bc227e-64a0-4a58-82a5-d39e4a86b001
 index: y
 internal: n
 snippet: y
 ---
 
 # Customizing an In-App message{#customizing-an-in-app-message}
-
-Customizing an In-App message
 
 To fine-tune your In-App message, Adobe Campaign allows you to access a set of advanced options while designing an In-App.
 

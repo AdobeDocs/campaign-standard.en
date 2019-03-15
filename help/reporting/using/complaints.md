@@ -3,21 +3,19 @@ title: Complaints
 seo-title: Complaints
 description: Complaints
 seo-description: With the Complaints out-of-the-box report, learn how many time delivery was declared as spam.
-uuid: 7a04fa7e-43a5-4c2c-b0a3-d705f0de6f13
+uuid: 06830129-b130-420d-bcf2-963ef94baff1
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
-discoiquuid: 262e7771-cdc8-4480-806d-ae1b71cf6a29
+discoiquuid: 292578d3-3355-4394-b82f-12b28becfde7
 index: y
 internal: n
 snippet: y
 ---
 
 # Complaints{#complaints}
-
-Complaints
 
 The **[!UICONTROL Complaints]** report identifies the deliveries that have received the most declarations as spam.
 

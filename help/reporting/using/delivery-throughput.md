@@ -3,21 +3,19 @@ title: Delivery throughput
 seo-title: Delivery throughput
 description: Delivery throughput
 seo-description: With the Delivery throughput out-of-the-box report, learn about the success of your delivery.
-uuid: bc076028-b47a-4ad4-8519-f8b384eb4222
+uuid: b55783fc-502c-4bf7-bbc5-8d44d8daf544
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
-discoiquuid: 31ebb5d3-7f78-484c-9eeb-6135002c4740
+discoiquuid: 13d53879-0298-432d-838a-8a15a1a2427d
 index: y
 internal: n
 snippet: y
 ---
 
 # Delivery throughput{#delivery-throughput}
-
-Delivery throughput
 
 This report contains data relating to the delivery throughput of a send, or several sends. It provides:
 

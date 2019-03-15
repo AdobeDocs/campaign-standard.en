@@ -3,21 +3,19 @@ title: About Campaign-Points of Interest data integration
 seo-title: About Campaign-Points of Interest data integration
 description: About Campaign-Points of Interest data integration
 seo-description: By collecting the Points of Interest data from your mobile application's subscribers, send location-based marketing messages to your subscribers through the integration in Adobe Campaign.
-uuid: 6211f88c-f2b0-4241-add1-ad0beda6c0c4
+uuid: 5fe293a1-6d1d-41cc-baa3-adf8334bf235
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
-discoiquuid: d74a7d41-36ff-43af-aede-8eddb5926bff
+discoiquuid: 74bf4882-4b6c-4647-81c5-e365606abd5b
 index: y
 internal: n
 snippet: y
 ---
 
 # About Campaign-Points of Interest data integration{#about-campaign-points-of-interest-data-integration}
-
-About Campaign-Points of Interest data integration
 
 In addition to tracking customers' online presence, you may also take advantage of their physical locations. Through integration with Adobe Analytics for Mobile, you can use Adobe Campaign to send location-based marketing messages to your mobile application's subscribers.
 

@@ -3,21 +3,19 @@ title: Using a template
 seo-title: Using a template
 description: Using a template
 seo-description: Discover a simple step-by-step procedure to use an existing template.
-uuid: 2375ee2d-0db7-430c-a316-b256603ee6a5
+uuid: d83cdd08-2ca6-4392-a81f-4ee3e6fab550
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
 topic-tags: managing-templates
-discoiquuid: b1dd5884-95ab-43a3-8da2-e965b5c4441a
+discoiquuid: b0d540aa-6b12-4b0f-88e0-92f70a434e2f
 index: y
 internal: n
 snippet: y
 ---
 
 # Using a template{#using-a-template}
-
-Using a template
 
 We are now going to look into how to use the email template created in the earlier section.
 

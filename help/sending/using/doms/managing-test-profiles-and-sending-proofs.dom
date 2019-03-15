@@ -1,0 +1,98 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="Learn how to manage test profiles and proofs." name="seoDescription" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2019-02-13T06:30:27.149-0500" name="lastPublishExternalDate" />
+  <meta content="Managing test profiles and sending proofs" name="jcr:title" />
+  <meta content="2019-02-15T02:58:38.817-0500" name="locHandOffDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Managing test profiles and sending proofs" name="navTitle" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="64322ac0-2238-45d6-90ba-8ae14e9c5190" name="jcr:uuid" />
+  <meta content="https://helpx.adobe.com/campaign/standard/sending/using/managing-test-profiles-and-sending-proofs.html" name="publishExternalURL" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2019-02-13T06:30:27.149-0500" name="publishExternalDate" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="2019-02-15T02:58:38.818-0500" name="cq:lastModified" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Managing test profiles and sending proofs" name="jcr:description" />
+  <meta content="2019-02-13T06:30:27.149-0500" name="firstPublishExternalDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2ceefbd1-d647-4682-96fe-30ce29edf406" name="jcr:predecessors" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2019-02-13T06:30:27.303-0500" name="cq:lastReplicated" />
+  <meta content="2019-02-13T06:30:27.149-0500" name="topicBrowsingSortDate" />
+  <meta content="2018-03-15T09:02:29.708-0400" name="jcr:created" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:sending;content_type:reference;topic_tags:preparing-and-testing-messages" name="cq:tags" />
+  <meta content="light" name="heroGradient" />
+  <meta content="audience:sending" name="primaryAudienceTag" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="false" name="isReadyForLocalization" />
+ </head>
+ <body>
+  <h2 id="about-test-profiles">About test profiles</h2>
+  <p>The test profiles allow you to target additional recipients who do not match the defined targeting criteria. They are added to a message's audience to detect any fraudulent use of your recipient database or to ensure the emails arrive in the inboxes.</p> 
+  <p>You can manage your test profiles from the advanced menu <span class="uicontrol">Profiles &amp; audiences &gt; Test profiles</span> .</p> 
+  <p>A test profile contains fictitious contact information, or contact information controlled by the sender, that can then be used in a message in the following contexts: </p> 
+  <ul>
+   <li><p>For sending <strong>Proofs</strong>: the Proof is a specific message used to check the message before sending the finalized delivery to recipients. A Proof test profile is in charge of checking the delivery, with regard to its content and format. See <a href="../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs" target="_blank">Sending proofs</a>.</p> </li>
+   <li><p>For <strong>Email rendering</strong>: the Email rendering test profile is used to check the way in which a message is displayed according to the message inbox that receives it. For example, webmail, message service, mobile, etc. See <a href="../../sending/using/email-rendering.md" target="_blank">Email rendering</a>.</p> <p>The <strong>Email rendering</strong> use is read-only. Test profiles with this use are only available out-of-the-box in Adobe Campaign.</p> </li>
+   <li><p>As a <strong>Trap</strong>: the message is sent to the test profile just as it is sent to the main target, as a means to identify whether your client file is being used fraudulently.</p> </li>
+   <li><p>To <strong>Preview</strong> messages: a test profile can be selected when previewing a message to test the personalization elements.</p> </li>
+  </ul>
+  <img alt="" captionBottom="" imageRotate="0" src="assets/test_profile.png" title="" />
+  <h2 id="managing-test-profiles">Managing test profiles</h2>
+  <h3 id="creating-test-profiles">Creating test profiles</h3>
+  <ol>
+   <li><p>From the advanced menu, via the Adobe Campaign logo, select <strong>Profiles &amp; audiences &gt; Test profiles</strong> to access the list of test profiles. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/test_profile_creation_1.png" title="" /></li>
+   <li><p>From the <span class="uicontrol">Test profiles</span> dashboard, click <strong>Create</strong>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/test_profile_creation_2.png" title="" /></li>
+   <li><p>Enter the data for this profile.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/test_profile_creation_3.png" title="" /></li>
+   <li><p>Select the use you intend for your test profile.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/test_profile_creation_4.png" title="" /></li>
+   <li><p>Enter the contact channels <span class="uicontrol">Email, Telephone, Mobile, Mobile app</span> , as well as the test profile address if necessary.</p> 
+    <note>
+     <p> You can define a preferred email format: <span class="uicontrol">Text</span> or <span class="uicontrol">HTML</span> . </p> 
+    </note></li>
+   <li><p>Specify an event type and the data for this event if you want to use this test profile for testing the personalization of a transactional message.</p> </li>
+   <li><p>Click <span class="uicontrol">Create</span> to save the test profile.</p> </li>
+  </ol>
+  <p>The test profile will then be added to the list of profiles.</p> 
+  <p><strong>Related topic:</strong></p> 
+  <p> <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-test-profiles-feature-video-use.html">Creating a test profile</a> video</p> 
+  <h3 id="editing-test-profiles">Editing test profiles</h3>
+  <p>To edit a test profile and consult the data that is linked to it, or to modify it:</p> 
+  <ol>
+   <li><p>Select the test profile you would like to edit by clicking on its image.</p> </li>
+   <li><p>Consult or modify the fields.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/test_profile_edit.png" title="" /></li>
+   <li><p>Click <span class="uicontrol">Save</span> if you have entered your changes, or select the name of the test profile then <span class="uicontrol">Test profiles</span> in the section at the top of the screen to go back to the test profiles dashboard.</p> </li>
+  </ol>
+  <h2 id="sending-proofs">Sending proofs</h2>
+  <p>A proof is a specific message that allows you to test a message before sending it to the main target.</p> 
+  <p>Recipients of the proof are in charge of approving the message (its content and form). They are defined in the <strong>Test profiles</strong>. For more on this, see <a href="../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles" target="_blank">Managing test profiles</a>.</p> 
+  <p>In order to send a proof, the test profiles must be included in your message's audience.</p> 
+  <p>In a message:</p> 
+  <ol>
+   <li><p>Click the <span class="uicontrol">Send a test</span> button.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/bat_select.png" title="" /></li>
+   <li><p>Select the type of proof you would like to use:</p> 
+    <ul>
+     <li><p> <span class="uicontrol">Email rendering</span> : select this option to test the way your message is received according to the inboxes targeted. For more information, refer to <a href="../../sending/using/email-rendering.md" target="_blank">Email rendering</a>.</p> </li>
+     <li><p> <span class="uicontrol">Proof</span> : select this option to test the message before sending it to the main target. The proof recipients are in charge of approving the delivery, by checking both its content and its format.</p> </li>
+     <li><p> <span class="uicontrol">Proof + Email rendering</span> : this option combines the two previous options.</p> </li>
+    </ul><img alt="" captionBottom="" imageRotate="0" src="assets/bat_select1.png" title="" /></li>
+   <li><p>Confirm your choice.</p> <p>The proofs are sent to the test profiles.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/bat_select2.png" title="" /></li>
+   <li><p>You can view your proofs using the <span class="uicontrol">Proofs</span> drop-down list.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/bat_view.png" title="" /></li>
+   <li><p>Select a proof to access its summary. For an email, if you have selected the <strong>Email rendering</strong> option as the proof type, the <span class="uicontrol">Access email rendering</span> icon is displayed on the right of the proof label. See <a href="../../sending/using/email-rendering.md" target="_blank">Email rendering</a>.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/bat_view2.png" title="" /></li>
+  </ol>
+  <p>Depending on the comments from the people who receive the proof, you may be asked to modify the delivery's content. Once the modifications have been carried out, you have to restart email preparation then re-send a proof. Each new proof can be accessed using the <span class="uicontrol">Show proofs</span> button.</p> 
+  <p>You have to send as many proofs as necessary until you have finalized the content of your delivery. Once this is done, you can send the delivery to the main target and close the approval cycle.</p> 
+  <p><strong>Related topic:</strong></p> 
+  <p> <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-sending-test-preparing-sending-email-feature-video-use.html">Sending a test, preparing and sending an email</a> video</p> 
+ </body>
+</html>

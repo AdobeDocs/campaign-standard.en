@@ -3,21 +3,19 @@ title: Confirming the send
 seo-title: Confirming the send
 description: Confirming the send
 seo-description: Learn how to finalize the message preparation.
-uuid: b3063aca-c9aa-46e5-abee-dc555f9be7a9
+uuid: 3f42c2a0-96ba-4eb8-9355-74d91acc4744
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
-discoiquuid: d0912ecc-d861-4d1a-9845-f89d37d0ffd3
+discoiquuid: 68603fa7-cbb3-4393-ab26-18f5dfcc5700
 index: y
 internal: n
 snippet: y
 ---
 
 # Confirming the send{#confirming-the-send}
-
-Confirming the send
 
 Once you have finished preparing your messages and the approval steps have been carried out, you can send them. For more on messages preparation, refer to [Preparing the send](../../sending/using/preparing-the-send.md).
 

@@ -3,21 +3,19 @@ title: Personalizing Campaign messages with Point of Interest data
 seo-title: Personalizing Campaign messages with Point of Interest data
 description: Personalizing Campaign messages with Point of Interest data
 seo-description: Learn how to create a personalized message based on your subscribers' location with the Point of Interest data integration.
-uuid: 0121bbe8-2bf7-4d22-a9d5-e248df481a81
+uuid: 0035f7ca-6547-46f0-90e6-7b3cdf613b9a
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
-discoiquuid: 46e7b600-aa4c-4bce-8d69-8f5dfbb091f1
+discoiquuid: 3d8873e3-d4ed-4c83-8d71-43977987bdc5
 index: y
 internal: n
 snippet: y
 ---
 
 # Personalizing Campaign messages with Point of Interest data{#personalizing-campaign-messages-with-point-of-interest-data}
-
-Personalizing Campaign messages with Point of Interest data
 
 In Adobe Campaign, you can use the Points of Interest data collected from your mobile application's subscribers to send them personalized marketing messages, such as an email.
 

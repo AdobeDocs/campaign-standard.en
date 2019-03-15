@@ -3,21 +3,19 @@ title: Workflow interface
 seo-title: Workflow interface
 description: Workflow interface
 seo-description: Learn the interface and options to create, edit and execute a workflow.
-uuid: 1c5ce07a-51bc-4181-b553-370496b67a79
+uuid: f08906af-e464-470f-9c13-abe6acf8db4f
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
-discoiquuid: eb4051b4-375d-48b5-8ad3-2be15efa5276
+discoiquuid: 4775a2c9-f7fc-44ed-8ec0-3d0c7389a05e
 index: y
 internal: n
 snippet: y
 ---
 
 # Workflow interface{#workflow-interface}
-
-Workflow interface
 
 You can create workflows to manage entire processes in your campaigns and programs.
 

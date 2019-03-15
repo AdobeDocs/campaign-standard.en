@@ -3,21 +3,19 @@ title: Creating a custom profile dimension
 seo-title: Creating a custom profile dimension
 description: Creating a custom profile dimension
 seo-description: Learn how to create a custom profile dimension based on custom profile data.
-uuid: df4224a1-e777-4c86-b7a4-f0ddad87ec88
+uuid: b181b9e1-f854-4c7b-8864-ce8ffa9a50d9
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
-discoiquuid: 129f9399-6baa-4c60-9dad-3d311ac92105
+discoiquuid: 422d44ce-0dc8-4c66-8ca7-1db2b1f2702e
 index: y
 internal: n
 snippet: y
 ---
 
 # Creating a custom profile dimension{#creating-a-custom-profile-dimension}
-
-Creating a custom profile dimension
 
 Reports can also be created and managed based on custom profile data created during the profile custom resource extension.
 

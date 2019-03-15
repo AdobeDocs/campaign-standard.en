@@ -1,0 +1,76 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="/content/help/en/campaign/standard/administration/morehelp/configuring-channels;/content/help/en/campaign/standard/administration/morehelp/configuring-channels" name="moreHelpPaths" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="ff5424a3-fc33-453e-b420-f93e588c334c" name="jcr:uuid" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2019-02-15T02:58:06.392-0500" name="cq:lastModified" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:administration;content_type:reference;topic_tags:configuring-channels" name="cq:tags" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="8cb9ffb8-85ba-4ac7-8e95-bb64ce0654ed" name="jcr:predecessors" />
+  <meta content="2019-02-13T06:18:48.690-0500" name="topicBrowsingSortDate" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="Configuring a mobile application" name="jcr:title" />
+  <meta content="audience:administration" name="primaryAudienceTag" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2019-02-15T02:58:06.391-0500" name="locHandOffDate" />
+  <meta content="2019-02-13T06:18:48.690-0500" name="publishExternalDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2019-02-15T14:23:21.213-0500" name="jcr:created" />
+  <meta content="Configuring a mobile application" name="navTitle" />
+  <meta content="" name="seoDescription" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="https://helpx.adobe.com/campaign/standard/administration/using/configuring-a-mobile-application.html" name="publishExternalURL" />
+  <meta content="light" name="heroGradient" />
+  <meta content="Configuring a mobile application" name="jcr:description" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2019-02-13T06:18:48.712-0500" name="cq:lastReplicated" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="2019-02-13T06:14:37.885-0500" name="firstPublishExternalDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2019-02-13T06:18:48.690-0500" name="lastPublishExternalDate" />
+ </head>
+ <body>
+  <h2 id="using-sdk-v4">Using SDK V4</h2>
+  <p>Push notification is supported by SDK V4 and Adobe Experience Platform SDKs unlike In-App. For the detailed steps to use push notifications with your mobile app, refer to this <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html">page</a>.</p> 
+  <p>The mobile applications receiving push notifications must be configured by an administrator in the Adobe Campaign interface. By configuring both Adobe Campaign and Adobe Mobile Services, you will be able to use your mobile application's data for your campaigns.</p> 
+  <p>To be able to send push notifications, you need to:</p> 
+  <ol>
+   <li><p>Make sure you can access the <span class="uicontrol">Mobile app</span> channel in Adobe Campaign.</p> </li>
+   <li><p>Configure your mobile application in:</p> 
+    <ul>
+     <li><p> <a class="anchorLink" href="https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html#SettingupamobileapplicationinAdobeCampaign" target="_blank">Adobe Campaign</a> .</p> </li>
+     <li><p> <a class="anchorLink" href="https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html#ConfiguringamobileapplicationinAdobeMobileServices" target="_blank">Adobe Mobile Services</a> .</p> </li>
+    </ul></li>
+   <li><p>Perform the mobile application's specific setup:</p> 
+    <ul>
+     <li><p>Package the configuration file downloaded from the Adobe Mobile Services interface with the mobile application.</p> </li>
+     <li><p>Integrate the Experience Cloud Mobile SDK into your mobile application.</p> </li>
+    </ul></li>
+   <li><p>Define the data that you want to collect from your application's subscribers. The mobile application's subscribers who have a profile in the Adobe Campaign database are reconciled based on the criteria that you defined. </p> <p>For more on this, refer to this <a class="anchorLink" href="https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html#Collectingsubscribersdatafromamobileapplication" target="_blank">page</a> .</p> </li>
+   <li><p>Make sure that the setup has been completed successfully by launching your mobile application on your device and signing in. Make sure you opt in to receive notifications.</p> </li>
+   <li><p>Then, in Adobe Campaign's advanced menu, select <span class="uicontrol">Administration</span> &gt; <span class="uicontrol">Channels</span> &gt; <span class="uicontrol">Mobile app</span> .</p> </li>
+   <li><p>Select your mobile application from the list to display its properties. Your subscription information is displayed under the subscribers list.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/push_notif_mobile_app.png" title="" /></li>
+   <li><p>To check the mobile applications a profile has subscribed to, in the <span class="uicontrol">Profiles &amp; Audiences &gt; Profiles</span> menu, select a profile and click the <span class="uicontrol">Edit profile properties</span> button on the right. The mobile applications are listed in the <span class="uicontrol">Mobile App Subscriptions</span> tab.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/push_notif_subscriptions.png" title="" /></li>
+  </ol>
+  <h2 id="using-adobe-experience-platform-sdk">Using Adobe Experience Platform SDK</h2>
+  <p>To send push notifications and In-App messages with Experience Platform SDK application, a mobile application has to be set up in Adobe Experience Platform Launch and configured in Adobe Campaign. For the detailed steps to configure your mobile application using Experience Platform SDK, refer to this <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html">page</a>. </p> 
+  <p>Follow the steps below to start the configuration:</p> 
+  <ol>
+   <li><p>Make sure you can access the <span class="uicontrol">Mobile</span> channels: Push notification and In-App message in Adobe Campaign. If not, contact your account team.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/launch_1.png" title="" /></li>
+   <li><p>Create the mobile application in Adobe Launch by creating a property of Mobile type. For more info, refer to the <a class="anchorLink" href="https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#create-a-new-mobile-property" target="_blank">Adobe Launch</a> documentation.</p> </li>
+   <li><p>Install the <span class="uicontrol">Adobe Campaign (Beta)</span> extension for your mobile application in Adobe Launch:</p> <p>For more information on extensions, refer to the <a href="https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard-beta">Adobe Launch</a> documentation.</p> </li>
+   <li><p>Configure rules for your application in Adobe Launch, see <a class="anchorLink" href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ConfiguringyourapplicationinLaunch" target="_blank">Configuring your application in Launch</a> </p> </li>
+   <li><p>Configure your Adobe Launch application in Adobe Campaign Standard, see <a class="anchorLink" href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#SettingupyourAdobeLaunchapplicationinAdobeCampaign" target="_blank">Setting up your Adobe Launch application in Adobe Campaign</a> .</p> </li>
+   <li><p>Add channel specific configuration to your Mobile Application set-up, see <a class="anchorLink" href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign" target="_blank">Channel-specific application configuration in Adobe Campaign</a> .</p> <img alt="" captionBottom="" imageRotate="0" src="assets/launch_2.png" title="" /></li>
+  </ol>
+ </body>
+</html>

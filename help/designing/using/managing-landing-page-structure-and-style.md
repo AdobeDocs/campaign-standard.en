@@ -3,21 +3,19 @@ title: Managing landing page structure and style
 seo-title: Managing landing page structure and style
 description: Managing landing page structure and style
 seo-description: Learn how to manage the different HTML content elements and overall styling in a landing page.
-uuid: e2976d52-a1dd-47f1-ad75-8e64f86b35ef
+uuid: fb33c86b-a067-432e-93e9-851fc000a653
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: editing-landing-page-content
-discoiquuid: 2e8528a5-b70f-4b9c-8437-11659340342b
+discoiquuid: e0a67b5c-cdfc-4f81-a914-41091b79bdaf
 index: y
 internal: n
 snippet: y
 ---
 
 # Managing landing page structure and style{#managing-landing-page-structure-and-style}
-
-Managing landing page structure and style
 
 ## Managing blocks in the content editor {#managing-blocks-in-the-content-editor}
 

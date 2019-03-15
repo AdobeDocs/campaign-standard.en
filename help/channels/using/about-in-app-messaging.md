@@ -3,21 +3,19 @@ title: About In-App messaging
 seo-title: About In-App messaging
 description: About In-App messaging
 seo-description: Display message or alert within the mobile application with In-App messaging.
-uuid: 749c0646-bef2-4c0e-a574-72b09deaa057
+uuid: 3498a116-961d-446c-a8d9-ad21cd2dd606
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: in-app-messaging
-discoiquuid: 51696317-a9a1-43e1-8c21-b82e81960fc2
+discoiquuid: 7f5f7bb2-49bd-4dd3-8f28-b526e3326701
 index: y
 internal: n
 snippet: y
 ---
 
 # About In-App messaging{#about-in-app-messaging}
-
-About In-App messaging
 
 In-App messaging is a messaging channel that allows you to display a message when the user is active within the mobile application. This message type is complimentary to push notifications which are delivered to the notification center of users' phone. For more information on the push notification channel, refer to this [section](../../channels/using/about-push-notifications.md).
 

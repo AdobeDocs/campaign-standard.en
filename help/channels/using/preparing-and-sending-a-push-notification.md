@@ -3,21 +3,19 @@ title: Preparing and sending a push notification
 seo-title: Preparing and sending a push notification
 description: Preparing and sending a push notification
 seo-description: Follow these steps to create a single-send push notification in Adobe Campaign.
-uuid: ad5876e0-97c3-46f2-9f04-6053c3890518
+uuid: e6717c54-4dd2-4466-86da-66e41664f8e9
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: push-notifications
-discoiquuid: 3a120ae2-c399-4252-8fb7-f81c5b69e4bb
+discoiquuid: 84f65441-61f1-4dd2-869a-409bcbf70b06
 index: y
 internal: n
 snippet: y
 ---
 
 # Preparing and sending a push notification{#preparing-and-sending-a-push-notification}
-
-Preparing and sending a push notification
 
 ## Preparing the notification {#preparing-the-notification}
 

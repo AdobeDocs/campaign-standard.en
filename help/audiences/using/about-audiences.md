@@ -3,21 +3,19 @@ title: About audiences
 seo-title: About audiences
 description: About audiences
 seo-description: Learn how to build audiences from a query, a list or a file, and how to import them from Adobe Experience Cloud.
-uuid: b424d42c-8622-4715-8882-c8e855fd6d7d
+uuid: cf3fbab4-4751-4548-aa87-c998283b9e75
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
 topic-tags: managing-audiences
-discoiquuid: 4b658b69-4a53-4530-b855-20de8404b75b
+discoiquuid: 8d3d939f-95b6-4b4e-b8a2-34af49121b37
 index: y
 internal: n
 snippet: y
 ---
 
 # About audiences{#about-audiences}
-
-About audiences
 
 An audience is a list of profiles based on rules and attributes.
 

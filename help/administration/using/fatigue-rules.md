@@ -3,21 +3,19 @@ title: Fatigue rules
 seo-title: Fatigue rules
 description: Fatigue rules
 seo-description: Create fatigue rules to manage over-communication with profiles.
-uuid: a7349918-4656-45a3-9e03-b775ef897eca
+uuid: 13c08cc3-60cf-4f39-9cf7-18e84a348075
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
-discoiquuid: 1f9e6c07-4dff-48dc-88dd-74f9ad5da055
+discoiquuid: 9a4fcecb-10a0-47ab-96f6-ad26baaae1fd
 index: y
 internal: n
 snippet: y
 ---
 
 # Fatigue rules{#fatigue-rules}
-
-Fatigue rules
 
 ## About fatigue rules {#about-fatigue-rules}
 

@@ -1,0 +1,68 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="About Administrating Adobe Campaign" name="jcr:title" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="About Administrating Adobe Campaign" name="navTitle" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:administration;content_type:reference;topic_tags:about-administrating-adobe-campaign" name="cq:tags" />
+  <meta content="https://helpx.adobe.com/campaign/standard/administration/using/about-administrating-adobe-campaign.html" name="publishExternalURL" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2019-02-15T02:57:09.617-0500" name="cq:lastModified" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="2019-02-13T06:18:37.316-0500" name="cq:lastReplicated" />
+  <meta content="About Administrating Adobe Campaign" name="jcr:description" />
+  <meta content="2019-02-15T02:57:09.616-0500" name="locHandOffDate" />
+  <meta content="2019-02-13T06:14:40.950-0500" name="firstPublishExternalDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="f4ec1429-963b-402f-ac32-1950c9569be2" name="jcr:uuid" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-03-15T09:01:07.428-0400" name="jcr:created" />
+  <meta content="audience:administration" name="primaryAudienceTag" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2019-02-13T06:18:37.263-0500" name="topicBrowsingSortDate" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Adobe Campaign provides you with a complete set of administration tools. Learn how to manage your users and configure your channels." name="seoDescription" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2019-02-13T06:18:37.263-0500" name="lastPublishExternalDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="a9104ac5-0bc4-4806-a694-85204bd49aa5" name="jcr:predecessors" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2019-02-13T06:18:37.263-0500" name="publishExternalDate" />
+  <meta content="" name="jcr:primaryType" />
+ </head>
+ <body>
+  <p>As a cloud-based solution, Adobe Campaign offers administrators different ways to configure the application. Though the infrastructure configuration is performed by Adobe, functional administrators can:</p> 
+  <ul>
+   <li><p>Invite users to access the application and manage groups of users as well as their rights and roles.</p> </li>
+   <li><p>Configure external accounts, which are used to connect Adobe Campaign to external servers.</p> </li>
+   <li><p>Adjust and configure routing parameters for all communication channels.</p> </li>
+   <li><p>Monitor the platform by accessing technical workflows.</p> </li>
+   <li><p>Import and export packages as well as extend the data model to add new fields or resources.</p> </li>
+  </ul>
+  <note>
+   <p> If you have questions or requests about implementation and configuration matters, contact your Adobe account executive. </p> 
+  </note>
+  <p>The different Adobe Campaign admin operations are carried out via the <span class="uicontrol">Administration</span> menu. This part of the interface can only be accessed by functional administrators of the platform.</p> 
+  <p>To access this menu, click the <span class="uicontrol">Adobe Campaign</span> logo, in the top left-hand corner, then click <span class="uicontrol">Administration</span> .</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/admin_overview.png" title="" />
+  <p>The different menus available are:</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/admin_overview2.png" title="" />
+  <ul>
+   <li><p> <a href="../../administration/using/about-access-management.md">Users &amp; Security</a>: This menu allows you to manage access to the platform (users, roles, security groups, units). </p> </li>
+   <li><p> <a href="../../administration/using/about-channel-configuration.md">Channels</a>: This menu regroups the technical parameters linked to the different platform channels (Email, SMS) as well as typology and quarantine management. </p> </li>
+   <li><p> <a href="../../administration/using/external-accounts.md">Application settings</a>: This menu allows you to configure different application elements (external accounts, options, technical workflows).</p> </li>
+   <li><p> <a href="../../developing/using/data-model-concepts.md">Development</a>: This menu allows you to manage your custom resources and access diagnostic tools.</p> </li>
+   <li><p> <a href="../../administration/using/branding.md">Instance settings</a>: This menu is where you define your different brands and configure their settings (logo, manage tracking, URL domain to access the landing pages, etc.).</p> </li>
+   <li><p> <a href="../../automating/using/managing-packages.md">Deployment</a>: This menu regroups the package import and export options.</p> </li>
+   <li><p> <a href="../../audiences/using/active-profiles.md">Customer metrics</a>: Adobe Campaign provides a report that displays the number of active profiles. This report is only informative, it doesn't have a direct impact on billing. </p> </li>
+   <li><p> <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">Privacy Tools</a>: This menu allows you to create GDPR access and delete requests and track their evolution.</p> </li>
+  </ul>
+ </body>
+</html>

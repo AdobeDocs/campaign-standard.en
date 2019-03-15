@@ -3,21 +3,19 @@ title: Tracking messages
 seo-title: Tracking messages
 description: Tracking messages
 seo-description: Learn how to track the behavior of your delivery recipients.
-uuid: f2f5e43e-509c-4f96-9338-e8060039191d
+uuid: a1d55e7b-e16e-496e-9a13-d95b758a428a
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
-discoiquuid: 18d25106-de5a-465a-8015-421a4b7eec59
+discoiquuid: 12e7c5aa-4777-4192-9a7c-6206264c397a
 index: y
 internal: n
 snippet: y
 ---
 
 # Tracking messages{#tracking-messages}
-
-Tracking messages
 
 ## About tracking {#about-tracking}
 

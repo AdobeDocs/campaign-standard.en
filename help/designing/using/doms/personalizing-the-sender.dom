@@ -1,0 +1,60 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="audience:designing" name="primaryAudienceTag" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2019-02-13T06:29:42.371-0500" name="topicBrowsingSortDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2019-02-15T02:58:58.787-0500" name="cq:lastModified" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="865099c6-4ebd-40f2-8582-9db6e787fa11" name="jcr:predecessors" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="ef97d1d8-ae48-4449-a278-1d5fe4838bf9" name="jcr:uuid" />
+  <meta content="2019-02-13T06:29:42.475-0500" name="cq:lastReplicated" />
+  <meta content="Personalizing the sender" name="jcr:description" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2019-02-13T06:29:42.371-0500" name="firstPublishExternalDate" />
+  <meta content="2019-02-13T06:29:42.371-0500" name="publishExternalDate" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Personalizing the sender" name="jcr:title" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2019-02-15T02:58:58.787-0500" name="locHandOffDate" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="Personalizing the sender" name="navTitle" />
+  <meta content="Learn how to personalize the name or the address of the sender for your messages." name="seoDescription" />
+  <meta content="2018-07-23T07:30:14.080-0400" name="jcr:created" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:personalizing-content" name="cq:tags" />
+  <meta content="2019-02-13T06:29:42.371-0500" name="lastPublishExternalDate" />
+  <meta content="https://helpx.adobe.com/campaign/standard/designing/using/personalizing-the-sender.html" name="publishExternalURL" />
+  <meta content="light" name="heroGradient" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+ </head>
+ <body>
+  <h2 id="email-sender">Email sender</h2>
+  <p>To define the name of the sender which will appear in the header of messages sent, go the <span class="uicontrol">Properties</span> tab of the Email Designer home page (accessible through the home icon).</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/delivery_content_edition16.png" title="" />
+  <ul>
+   <li><p>The <span class="uicontrol">From: name</span> field allows you to enter the sender name. By default, the default <strong>Sender name</strong> block is automatically entered in the field. Adobe Campaign refers to the email channel configuration (from the advanced menu <span class="uicontrol">Administration &gt; Channels &gt; Email &gt; Email accounts</span> via the Adobe Campaign logo) to designate this sender.</p> <p>You can change the sender name by clicking the <strong>Sender name</strong> block. The field then becomes editable and you can enter the name you would like to use.</p> <p>This field can be personalized. To do this, you can add personalization fields, content blocks and dynamic content by clicking the icons below the sender name.</p> </li>
+   <li><p>The <span class="uicontrol">From: email address</span> field cannot be edited from this section. You can change it by editing the properties of the email from its dashboard. For more on this, see <a href="../../administration/using/configuring-email-channel.md#list-of-email-advanced-parameters">List of email advanced parameters</a>.</p> </li>
+  </ul>
+  <note>
+   <p> The header parameters must not be empty. The sender's address is mandatory to allow an email to be sent (RFC standard). Adobe Campaign checks the syntax of email addresses entered. </p> 
+  </note>
+  <p><strong>Related topics:</strong></p> 
+  <ul>
+   <li><p> <a href="../../designing/using/inserting-a-personalization-field.md" target="_blank">Inserting a personalization field</a></p> </li>
+   <li><p> <a href="../../designing/using/adding-a-content-block.md" target="_blank">Adding a content block</a></p> </li>
+   <li><p> <a href="../../designing/using/defining-dynamic-content-in-an-email.md">Defining dynamic content in an email</a></p> </li>
+  </ul>
+  <h2 id="sms-sender">SMS sender</h2>
+  <p>You can personalize the name of the SMS sender. For more on this, refer to the <a href="../../administration/using/configuring-sms-channel.md#configuring-sms-properties">SMS configuration</a> section.</p> 
+ </body>
+</html>

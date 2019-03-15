@@ -3,21 +3,19 @@ title: Bounce summary
 seo-title: Bounce summary
 description: Bounce summary
 seo-description: With the Bounce summary out-of-the-box report, learn about the status of your sent campaigns and errors they may have encountered.
-uuid: 255024d7-74b5-4aa3-9944-e61e2612dd17
+uuid: 403de1d2-651a-483f-bb67-91a8ab062791
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
-discoiquuid: e7090650-d1ff-44a2-99c2-2763da2e99d8
+discoiquuid: d25325db-27e6-4229-82b7-563dc25da7fe
 index: y
 internal: n
 snippet: y
 ---
 
 # Bounce summary{#bounce-summary}
-
-Bounce summary
 
 This report details the overall hard and soft errors encountered during deliveries as well as the automatic processing of bounces.
 

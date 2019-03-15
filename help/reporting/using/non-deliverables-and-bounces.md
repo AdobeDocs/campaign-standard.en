@@ -3,21 +3,19 @@ title: Non-deliverables and bounces
 seo-title: Non-deliverables and bounces
 description: Non-deliverables and bounces
 seo-description: With the Non-deliverables and bounces out-of-the-box report, learn about the errors that may occurred to your delivery. 
-uuid: 282675a8-a17f-4e78-a6f9-46e59fc9d4b1
+uuid: c1c6d429-ffec-4e84-b750-028e943f67c4
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
-discoiquuid: 73314b27-7aa8-45c9-a884-99ec4deec1bb
+discoiquuid: 47cc00fd-bec7-4baa-8ad9-dd2b6a34c477
 index: y
 internal: n
 snippet: y
 ---
 
 # Non-deliverables and bounces{#non-deliverables-and-bounces}
-
-Non-deliverables and bounces
 
 The **[!UICONTROL Non-deliverables and bounces]** report provides details on all the errors encountered during a delivery.
 

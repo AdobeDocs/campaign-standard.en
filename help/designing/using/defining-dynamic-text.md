@@ -3,21 +3,19 @@ title: Defining dynamic text
 seo-title: Defining dynamic text
 description: Defining dynamic text
 seo-description: Learn how to display different texts dynamically to the user according to the conditions defined in Adobe Campaign.
-uuid: 43970081-6d7a-4e53-a238-915c5d2b2724
+uuid: 9f886dac-c4b0-4c27-920a-b12bf374c5e2
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: defining-conditional-content
-discoiquuid: 5b28a338-9998-489f-8dd7-96a9dac370f8
+discoiquuid: 8e6ae1fa-bfe0-4661-b757-117c90d8aaae
 index: y
 internal: n
 snippet: y
 ---
 
 # Defining dynamic text{#defining-dynamic-text}
-
-Defining dynamic text
 
 Dynamic text is defined in the same way as dynamic content. Refer to the [Definig dynamic content](../../designing/using/defining-dynamic-content-in-an-email.md) section.
 

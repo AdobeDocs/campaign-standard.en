@@ -3,21 +3,19 @@ title: Auditing export logs
 seo-title: Auditing export logs
 description: Auditing export logs
 seo-description: Administrators can track the exports that were made from Adobe Campaign.
-uuid: 4ed89d42-7b67-47ed-befd-b104f610bc7a
+uuid: 6ef23d5b-db4f-42f5-a13f-5b7726dad6fd
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-discoiquuid: 0c580c1e-76f3-482f-bee7-6e93a5c7d58a
+discoiquuid: f41e9c30-78c7-45bc-922f-59d944265d00
 index: y
 internal: n
 snippet: y
 ---
 
 # Auditing export logs{#auditing-export-logs}
-
-Auditing export logs
 
 From **[!UICONTROL Administration]** > **[!UICONTROL Users & Security]** > **[!UICONTROL Export audits]** , administrators can view a list of all the following exports, including their date and the user who performed the export:
 

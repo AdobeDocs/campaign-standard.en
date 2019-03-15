@@ -3,21 +3,19 @@ title: Defining the direct mail content
 seo-title: Defining the direct mail content
 description: Defining the direct mail content
 seo-description: Learn how to define the content for your direct mail delivery.
-uuid: 09176466-0723-41cf-bfe2-b7d9f523c710
+uuid: ffeb8ae0-0344-4f87-a26b-f9f4f2118a3d
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: direct-mail
-discoiquuid: af84200c-d704-47e5-87cc-48af54c7ad9a
+discoiquuid: 16819baa-1ea9-4b6b-8c3d-2eab3953f53f
 index: y
 internal: n
 snippet: y
 ---
 
 # Defining the direct mail content{#defining-the-direct-mail-content}
-
-Defining the direct mail content
 
 You can either define the content in the last screen of the creation wizard or by clicking on the **Content** section of the delivery dashboard.
 

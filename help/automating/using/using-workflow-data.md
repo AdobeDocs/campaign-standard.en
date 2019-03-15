@@ -3,21 +3,19 @@ title: Using workflow data
 seo-title: Using workflow data
 description: Using workflow data
 seo-description: Learn the different possibilities to consume the data you imported or targeted.
-uuid: 5091b0ba-6fe8-4d05-9833-fc00dfc93c22
+uuid: ebcd2e1d-6cac-400f-b49d-1d767262e120
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
-discoiquuid: 19c08c47-7521-45d3-bc12-0c9a444e487a
+discoiquuid: 5722e5b7-aaae-492f-8be7-c3bda1baf11f
 index: y
 internal: n
 snippet: y
 ---
 
 # Using workflow data{#using-workflow-data}
-
-Using workflow data
 
 Once the data has been identified and prepared, it can be used in the following contexts:
 

@@ -3,21 +3,19 @@ title: Creating audiences
 seo-title: Creating audiences
 description: Creating audiences
 seo-description: Learn how to create audiences in Adobe Campaign.
-uuid: b624e4ce-1982-49c9-8bdc-3b8d65ad0970
+uuid: c3526c1f-b1b1-43bf-ac57-57fa6cbd28b5
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
 topic-tags: managing-audiences
-discoiquuid: 95f9d5bf-34b5-4799-ae9b-6d7979170160
+discoiquuid: 0b295fe2-1661-487e-b85b-08b98c110345
 index: y
 internal: n
 snippet: y
 ---
 
 # Creating audiences{#creating-audiences}
-
-Creating audiences
 
 ## Creating query audiences {#creating-query-audiences}
 

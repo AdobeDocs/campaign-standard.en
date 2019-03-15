@@ -3,21 +3,19 @@ title: Example of direct mail in a workflow
 seo-title: Example of direct mail in a workflow
 description: Example of direct mail in a workflow
 seo-description: Discover an example of a direct mail delivery in a workflow.
-uuid: 5a03d2c9-d309-40de-aa7f-d329bdbef073
+uuid: 2ed46223-da7c-4e1c-9a67-9747e8dedb8f
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: direct-mail
-discoiquuid: e6c9253f-e48a-4593-a677-45dc13449ae1
+discoiquuid: bf5183f7-e92d-4941-8777-7ecf37be3bb5
 index: y
 internal: n
 snippet: y
 ---
 
 # Example of direct mail in a workflow{#example-of-direct-mail-in-a-workflow}
-
-Example of direct mail in a workflow
 
 As a marketer, you may want to send out catalogs via direct mail. In the paper catalog, certain pages offer a 10% discount using a promotion code and link to buy the product on the website.
 

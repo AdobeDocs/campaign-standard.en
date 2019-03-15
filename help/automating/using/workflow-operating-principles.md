@@ -3,21 +3,19 @@ title: Workflow operating principles
 seo-title: Workflow operating principles
 description: Workflow operating principles
 seo-description: Learn the main aspects of workflows.
-uuid: 3c432646-3490-439d-b620-5f224da71e41
+uuid: cb4b3507-0be1-4050-87c5-cd13444af5e7
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
-discoiquuid: 10f1eefe-516d-494a-8e9f-416f01aaf59c
+discoiquuid: c310727c-485b-48e7-a613-f634f0d761ad
 index: y
 internal: n
 snippet: y
 ---
 
 # Workflow operating principles{#workflow-operating-principles}
-
-Workflow operating principles
 
 A workflow is a **sequence of configurable activities**. Each activity has a specific role in the process. The result of each activity is forwarded to the following activity by a **transition**, represented by an arrow.
 

@@ -3,21 +3,19 @@ title: Defining import templates
 seo-title: Defining import templates
 description: Defining import templates
 seo-description: Import templates allow to reduce the settings needed and to import data faster.
-uuid: f7a52b85-38fe-4b57-a9e2-0fff2687cbe4
+uuid: 116ddf86-cfb1-4715-8670-568938f598e1
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
-discoiquuid: f618d0f7-f092-477b-a73a-d5836d7aa4fa
+discoiquuid: 6fdbcc7a-1069-46c3-9ba8-e8e402543467
 index: y
 internal: n
 snippet: y
 ---
 
 # Defining import templates{#defining-import-templates}
-
-Defining import templates
 
 Import templates allow the administrator to pre-define a certain number of technical import configurations. These templates can then be made available to standard users to carry out and upload files.
 

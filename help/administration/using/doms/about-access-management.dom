@@ -1,0 +1,63 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="About access management" name="jcr:description" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-02-16T08:01:37.649-0500" name="jcr:created" />
+  <meta content="2019-02-13T06:14:41.418-0500" name="firstPublishExternalDate" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="98f2d852-000e-45b5-b238-c2f15b779bc7" name="jcr:uuid" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="Manage your Adobe Campaign operators using roles, groups and organizational units." name="seoDescription" />
+  <meta content="16fed1e0-4841-4363-9ce2-de9c22312ac4" name="jcr:predecessors" />
+  <meta content="2019-02-13T06:18:38.592-0500" name="publishExternalDate" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="audience:administration" name="primaryAudienceTag" />
+  <meta content="About access management" name="navTitle" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2019-02-13T06:18:38.592-0500" name="lastPublishExternalDate" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:administration;content_type:reference;topic_tags:users-and-security" name="cq:tags" />
+  <meta content="About access management" name="jcr:title" />
+  <meta content="2019-02-15T02:57:13.245-0500" name="cq:lastModified" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2019-02-13T06:18:38.656-0500" name="cq:lastReplicated" />
+  <meta content="2019-02-13T06:18:38.592-0500" name="topicBrowsingSortDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2019-02-15T02:57:13.244-0500" name="locHandOffDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="https://helpx.adobe.com/campaign/standard/administration/using/about-access-management.html" name="publishExternalURL" />
+ </head>
+ <body>
+  <note>
+   <p> Note that the geographical unit capability has been deprecated. For more on this, refer to this <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">page</a>. </p> 
+  </note>
+  <p>Adobe Campaign allows you to define and manage the permissions assigned to different users. Permissions are a set of rights and restrictions that authorize or deny access to certain functionalities or objects in the interface. These permissions are based on two concepts:</p> 
+  <ul>
+   <li><p><strong>Organizational units</strong>: These allow you to define a hierarchy of permissions on the different objects of the platform (emails, workflows, templates, users, profiles, etc.). Refer to the <a href="../../administration/using/organizational-units.md" target="_blank">Organizational units</a> section.</p> </li>
+   <li><p><strong>Roles</strong>: A set of unitary rights that allow you to define the authorizations assigned to users and user groups. Refer to the <a href="../../administration/using/list-of-roles.md" target="_blank">List of roles</a> section.</p> <p>Combined with organizational units, roles give users a filtered view of the interface and define their access to the different features. For more on this, refer to the <a href="https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf">Roles and permissions table</a>.</p> </li>
+  </ul>
+  <p>Roles, groups, and organizational units can be managed by the functional administrator of the platform, under the <span class="uicontrol">Administration &gt; Users &amp; Security</span> menu. </p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/user_management_1.png" title="" />
+  <p>Users are managed in the Admin console (refer to the <a href="../../administration/using/managing-groups-and-users.md" target="_blank">Managing groups and users</a> section or the <a href="https://helpx.adobe.com/enterprise/managing/user-guide.html">Admin console documentation</a>).</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/user_management_6.png" title="" />
+  <note>
+   <p> Only users with administration rights have access to user management. </p> 
+  </note>
+  <p><strong>Related topics</strong></p> 
+  <ul>
+   <li><p> <a href="../../administration/using/organizational-units.md" target="_blank">Organizational units</a></p> </li>
+   <li><p> <a href="../../administration/using/list-of-roles.md" target="_blank">List of roles</a></p> </li>
+   <li><p> <a href="../../administration/using/managing-groups-and-users.md" target="_blank">Managing groups and users</a></p> </li>
+  </ul>
+ </body>
+</html>

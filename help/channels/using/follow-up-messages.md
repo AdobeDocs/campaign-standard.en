@@ -3,21 +3,19 @@ title: Follow-up messages
 seo-title: Follow-up messages
 description: Follow-up messages
 seo-description: Learn how to create and publish a follow-up message.
-uuid: 4e36f6cf-27ba-4e5a-9e31-637e9ee6477c
+uuid: e709c017-009e-4e67-9467-9762128f480b
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
-discoiquuid: 3b2c45e0-3543-4e99-bb61-9c67bab6a2a1
+discoiquuid: 863bafd3-8889-4491-bd2b-5127404d7508
 index: y
 internal: n
 snippet: y
 ---
 
 # Follow-up messages{#follow-up-messages}
-
-Follow-up messages
 
 You can send a follow-up message to the customers who received a specific transactional message. To do this, you need to set up a workflow targeting the corresponding event.
 

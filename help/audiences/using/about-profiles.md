@@ -3,21 +3,19 @@ title: About profiles
 seo-title: About profiles
 description: About profiles
 seo-description: Contacts are stored as profiles in Campaign database, and updated through their entire life cycle.
-uuid: f0b9e86b-d6d0-4d7c-8087-67f65e41c14c
+uuid: 3a615950-2eb0-4d59-8da8-62382f1ff86b
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
-discoiquuid: 97ab2415-2421-473d-a4fd-67bf3a20e70c
+discoiquuid: 18a7d018-f2ca-4e4e-b9b4-fe5395ab1279
 index: y
 internal: n
 snippet: y
 ---
 
 # About profiles{#about-profiles}
-
-About profiles
 
 Adobe Campaign lets you manage contacts throughout their entire life cycle: creation, import, targeting, action tracking, updates, etc. Contacts are stored in the database as profiles containing the information linked to them: last name, first name, address, subscriptions, deliveries, etc.
 

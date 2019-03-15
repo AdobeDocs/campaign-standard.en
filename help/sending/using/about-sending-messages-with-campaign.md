@@ -3,21 +3,19 @@ title: About sending messages with Campaign
 seo-title: About sending messages with Campaign
 description: About sending messages with Campaign
 seo-description: Discover the different steps to test and send a message.
-uuid: 5d380fae-cfe4-4a4d-b0ae-a8ff9a081370
+uuid: d07ceb9c-e7f1-42f5-8ede-0bea00f60198
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: about-sending-messages-with-campaign
-discoiquuid: 926a6924-7ecf-4c26-a349-feafe625e9bd
+discoiquuid: ebcb7994-365b-4157-82da-5de984747511
 index: y
 internal: n
 snippet: y
 ---
 
 # About sending messages with Campaign{#about-sending-messages-with-campaign}
-
-About sending messages with Campaign
 
 Once you have defined the target and created the content of a message, you need to test it and to approve it before sending it to the main target. To do this:
 

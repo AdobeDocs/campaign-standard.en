@@ -3,21 +3,19 @@ title: Defining the direct mail audience
 seo-title: Defining the direct mail audience
 description: Defining the direct mail audience
 seo-description: Learn how to define the target for your direct mail delivery.
-uuid: 0a17225b-d9d2-4738-81db-5386f36e450b
+uuid: 769b8783-0939-44e8-9ce2-de365b2c9383
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: direct-mail
-discoiquuid: cfd93b7e-b8d7-4bff-b13a-91c6b434ec24
+discoiquuid: f864ddae-3451-44a2-8132-c756ae72cbf9
 index: y
 internal: n
 snippet: y
 ---
 
 # Defining the direct mail audience{#defining-the-direct-mail-audience}
-
-Defining the direct mail audience
 
 You can either define the audience in the creation wizard or by clicking on the **Audience** section of the delivery dashboard.
 

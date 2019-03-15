@@ -3,21 +3,19 @@ title: Monitoring subscriptions
 seo-title: Monitoring subscriptions
 description: Monitoring subscriptions
 seo-description: Learn how to track your subscribers and measure the success of your services using dashboards and reports.
-uuid: 44bcd6dd-88ce-40eb-a2e3-ca952b90bc6d
+uuid: 34a4dc5c-7a68-4b38-8a35-c197da967caf
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
-discoiquuid: 0f4c3b25-a98c-4e85-ab47-93d28d0da574
+discoiquuid: b4ac1d53-6d9d-479d-989a-ff9f2ef69a48
 index: y
 internal: n
 snippet: y
 ---
 
 # Monitoring subscriptions{#monitoring-subscriptions}
-
-Monitoring subscriptions
 
 Use the Adobe Campaign interface to track your subscribers and measure the success of your services.
 

@@ -3,21 +3,19 @@ title: Defining a visibility condition
 seo-title: Defining a visibility condition
 description: Defining a visibility condition
 seo-description: Make a web page element visible only if a certain condition is respected.
-uuid: eb4dbc9e-69a8-4ada-aef2-c5b5cb83d0d2
+uuid: 8b9f97d8-9579-4c25-8ec7-920f97cdf82e
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: defining-conditional-content
-discoiquuid: 693c5285-ac05-49c0-b2ea-a186db0f9477
+discoiquuid: 6321b500-cc4b-45b3-a9a8-213e37a9115d
 index: y
 internal: n
 snippet: y
 ---
 
 # Defining a visibility condition{#defining-a-visibility-condition}
-
-Defining a visibility condition
 
 You can specify a visibility condition on any element. It will only be visible if the condition is respected.
 

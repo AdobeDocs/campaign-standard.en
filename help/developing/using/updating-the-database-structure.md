@@ -3,21 +3,19 @@ title: Updating the database structure
 seo-title: Updating the database structure
 description: Updating the database structure
 seo-description: Discover how to update the Adobe Campaign database.
-uuid: ea64eba7-f202-412b-a5ff-d8e3a6ff67dd
+uuid: 263e5217-cfc4-434b-b907-a2672f44cd0b
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
-discoiquuid: 80a6ced3-1e56-4611-a160-9779664ddde4
+discoiquuid: d1c59fdf-d25f-45ec-804c-8b380218cce0
 index: y
 internal: n
 snippet: y
 ---
 
 # Updating the database structure{#updating-the-database-structure}
-
-Updating the database structure
 
 To make your modifications to the data model effective and to be able to use them, the database structure needs to be updated.
 

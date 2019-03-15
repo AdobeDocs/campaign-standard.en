@@ -3,21 +3,19 @@ title: Campaign orchestration
 seo-title: Campaign orchestration
 description: Campaign orchestration
 seo-description: With Adobe Campaign, you can control the entire process of creating, executing and tracking cross channel campaigns, and send personalized messages.
-uuid: 3215e66b-b1e6-42c0-8f25-6b0e24e2c631
+uuid: 3b2d2cf4-96a8-4ce5-8c09-311b454558e3
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
 topic-tags: about-adobe-campaign
-discoiquuid: 66c6bd05-66b2-40de-b603-9494c323c75c
+discoiquuid: e8fb7d07-82ad-4b3d-9c50-103c0c8a2f22
 index: y
 internal: n
 snippet: y
 ---
 
 # Campaign orchestration{#campaign-orchestration}
-
-Campaign orchestration
 
 Adobe Campaign offers a platform for managing campaigns which allows you to control the entire process of creating, executing, and tracking cross channel campaigns, as well as send messages that are personalized according to the profile, behavior, preferences, and needs of the clients. You can easily orchestrate, modelize and automate the entire marketing process, and integrate with other Adobe solutions. Adobe Campaign key capabilities are:
 

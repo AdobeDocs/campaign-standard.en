@@ -1,0 +1,50 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2019-02-13T06:30:49.377-0500" name="firstPublishExternalDate" />
+  <meta content="2019-02-13T06:30:49.377-0500" name="publishExternalDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:reporting;content_type:reference;topic_tags:list-of-reports" name="cq:tags" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="2019-02-15T02:58:04.983-0500" name="locHandOffDate" />
+  <meta content="audience:reporting" name="primaryAudienceTag" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-03-15T09:01:55.406-0400" name="jcr:created" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="https://helpx.adobe.com/campaign/standard/reporting/using/urls-and-click-streams.html" name="publishExternalURL" />
+  <meta content="URLs and click streams" name="navTitle" />
+  <meta content="2019-02-13T06:30:49.377-0500" name="topicBrowsingSortDate" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="3cc24b9a-0ac3-4c70-aa11-bd335401c8e9" name="jcr:predecessors" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2019-02-13T06:30:49.466-0500" name="cq:lastReplicated" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2019-02-15T02:58:04.984-0500" name="cq:lastModified" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="URLs and click streams" name="jcr:description" />
+  <meta content="URLs and click streams" name="jcr:title" />
+  <meta content="With the URLs and click streams out-of-the-box report, learn about the success of the URLs in your deliveries." name="seoDescription" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="d2bc1307-e651-4119-91bf-700817aca6ab" name="jcr:uuid" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2019-02-13T06:30:49.377-0500" name="lastPublishExternalDate" />
+ </head>
+ <body>
+  <p>The <strong>URLs and click streams</strong> shows the URLs that were clicked the most during a delivery, or several deliveries if they are linked to a campaign or program.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/delivery_reports_8.png" title="" />
+  <p>Each table is represented by summary numbers and charts. You can change how the details are shown in their respective visualization settings.</p> 
+  <p>The <strong>Most visited links</strong> table contains the available data for recipient behavior per delivery, such as: </p> 
+  <ul>
+   <li><p><strong>Click</strong>: The number of times content was clicked in a delivery.</p> </li>
+   <li><p><strong>Unique clicks</strong>: The number of recipients who clicked on content in a delivery.</p> </li>
+  </ul>
+ </body>
+</html>

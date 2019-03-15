@@ -3,21 +3,19 @@ title: About scheduling messages
 seo-title: About scheduling messages
 description: About scheduling messages
 seo-description: Learn how to schedule your messages.
-uuid: 1633d2e8-902e-41a8-83f3-7436dc9841da
+uuid: fe9bebeb-2ca1-467a-9f71-89f07cc6a993
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-discoiquuid: 45cc1f6d-fdc1-4025-86ba-3b3a76062b89
+discoiquuid: 83d96c90-3333-452b-b72b-a24e4ae494de
 index: y
 internal: n
 snippet: y
 ---
 
 # About scheduling messages{#about-scheduling-messages}
-
-About scheduling messages
 
 >[!CAUTION]
 >

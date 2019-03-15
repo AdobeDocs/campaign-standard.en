@@ -3,22 +3,19 @@ title: About channel configuration
 seo-title: About channel configuration
 description: About channel configuration
 seo-description: "Each channel needs to be configured: technical configuration, message properties and templates."
-uuid: c3e61591-b612-406b-bda9-cef74e586985
+uuid: 65741386-be35-457b-a829-70fa201bd786
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-discoiquuid: 2739d4b1-b21a-41cd-82f0-258085798f46
+discoiquuid: cfd0320e-bdd4-4809-a48e-559e1f0f360c
 index: y
 internal: n
 snippet: y
-contextualhelp: channel configuration, overview
 ---
 
 # About channel configuration{#about-channel-configuration}
-
-About channel configuration
 
 All communication channels in Adobe Campaign must be correctly configured to be able to effectively send messages.
 

@@ -3,21 +3,19 @@ title: Union
 seo-title: Union
 description: Union
 seo-description: The Union activity allows you to regroup the result of multiple activities into a single target.
-uuid: 410caf8e-94d7-44d3-9d08-5d9b52e07df4
+uuid: c808f112-78cc-474a-a1f4-763bdf43bd18
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: d71d7f6e-6010-4a10-a1dc-ccb42cb34de8
+discoiquuid: 5b64f282-db1b-4ed9-a942-519da36686b3
 index: y
 internal: n
 snippet: y
 ---
 
 # Union{#union}
-
-Union
 
 ## Description {#description}
 

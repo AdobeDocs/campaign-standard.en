@@ -3,21 +3,19 @@ title: Exporting lists
 seo-title: Exporting lists
 description: Exporting lists
 seo-description: Adobe Campaign allows you to export the data displayed as lists from an overview screen directly in a file for future use. 
-uuid: 8ec3a7f6-5144-49ce-bad2-8b1f299d9088
+uuid: f2a8417c-f504-49c0-9214-0a16f43269d9
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
-discoiquuid: cd6cca39-0cdc-4a87-b277-42a20ded127d
+discoiquuid: 25446108-5fc0-4d64-8fba-9384c2eb60e4
 index: y
 internal: n
 snippet: y
 ---
 
 # Exporting lists{#exporting-lists}
-
-Exporting lists
 
 Adobe Campaign allows you to export your lists directly in a file for future use. Exporting a list in a file generates a log entry in the **[!UICONTROL Export audits]** menu. For more information on export audits, refer to the [Auditing exports](../../administration/using/auditing-export-logs.md) section.
 

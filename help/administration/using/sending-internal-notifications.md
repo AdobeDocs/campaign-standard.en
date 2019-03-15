@@ -3,21 +3,19 @@ title: Sending internal notifications
 seo-title: Sending internal notifications
 description: Sending internal notifications
 seo-description: Learn how to send real-time system notifications to your Adobe Campaign users.
-uuid: cf680b17-1dec-4e19-9154-fa27a50f59ca
+uuid: 9b1a3e7e-6333-41ef-a401-9b125060bc58
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: application-settings
-discoiquuid: 2838285d-6cff-4a64-b348-4f708801e16e
+discoiquuid: c44d2875-3139-426b-b910-cd3923f1c71f
 index: y
 internal: n
 snippet: y
 ---
 
 # Sending internal notifications{#sending-internal-notifications}
-
-Sending internal notifications
 
 Adobe Campaign gives you the possibility to receive notifications regarding important system activities directly within the application. Real-time notifications keep relevant stakeholders informed and provide users with the ability to immediately and directly act on activity notifications from within the application. The result for teams is advanced agility, efficiency and smoother execution of campaigns.
 

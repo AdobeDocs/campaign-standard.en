@@ -3,21 +3,19 @@ title: List of functions
 seo-title: List of functions
 description: List of functions
 seo-description: The query editing tool allows you to use advanced functions to carry out complex filtering.
-uuid: d57c7da4-5a29-4607-b1d8-f59d4a4e45cf
+uuid: ca090fb7-3c6d-4948-9c0f-2e27b9bd3969
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: filtering-data
-discoiquuid: b7f6c3c3-cbe6-46b5-94d3-4682536c4b32
+discoiquuid: f4318d88-4be7-4297-9c07-13e001954fd4
 index: y
 internal: n
 snippet: y
 ---
 
 # List of functions{#list-of-functions}
-
-List of functions
 
 ## About functions {#about-functions}
 

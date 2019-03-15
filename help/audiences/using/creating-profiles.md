@@ -3,21 +3,19 @@ title: Creating profiles
 seo-title: Creating profiles
 description: Creating profiles
 seo-description: Learn how to create profiles and collect data on your contacts, using APIs, import capabilities, online acquisition, automatic or manual updates.
-uuid: a38568a7-f9ee-4977-bd9b-c3fa30b31a90
+uuid: 21a89010-375d-4ae4-8347-db79ad76a19c
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
-discoiquuid: 432b2fdd-ca7d-48a5-9e5a-c0899ce8e78e
+discoiquuid: cb9c30da-cab1-41d6-8155-a706d6308251
 index: y
 internal: n
 snippet: y
 ---
 
 # Creating profiles{#creating-profiles}
-
-Creating profiles
 
 In Adobe Campaign, profiles are used by default to define the main target of messages.
 

@@ -3,21 +3,19 @@ title: About SMS messages
 seo-title: About SMS messages
 description: About SMS messages
 seo-description: Discover the main specificities of the SMS channel in Adobe Campaign.
-uuid: bb7a4b25-fef4-452b-9bf9-e6ba21cd46f6
+uuid: 3497ba9d-dee5-4976-b375-ab42625846ff
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: sms-messages
-discoiquuid: 0b7d1724-817b-4b40-b5e9-3d8d180b391d
+discoiquuid: 7f2c5605-1dfc-42d4-8cd0-80048d545dff
 index: y
 internal: n
 snippet: y
 ---
 
 # About SMS messages{#about-sms-messages}
-
-About SMS messages
 
 Adobe Campaign allows you to deliver SMS (Short Message Service) messages.
 

@@ -3,21 +3,19 @@ title: Selecting an existing content
 seo-title: Selecting an existing content
 description: Selecting an existing content
 seo-description: Learn how to load an existing content from another source when creating an email or a landing page.
-uuid: 2eaf220c-72ec-4eb0-85f6-6e13136ba66c
+uuid: eb0656cf-af84-48ac-a2af-db838d85a8f0
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: loading-content
-discoiquuid: f08c1259-ea8f-4e06-ae7f-c2fd9be06ddc
+discoiquuid: 3988f497-66b2-4a80-be69-4f7c4a38489a
 index: y
 internal: n
 snippet: y
 ---
 
 # Selecting an existing content{#selecting-an-existing-content}
-
-Selecting an existing content
 
 Adobe Campaign comes with a set of predefined contents to help you get started. You can use one of these or, if the content of the message you need to send is being prepared outside of Adobe Campaign, you can import it from your computer or a URL.
 

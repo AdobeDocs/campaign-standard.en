@@ -3,21 +3,19 @@ title: Types of users
 seo-title: Types of users
 description: Types of users
 seo-description: Adobe Campaign users hold specific roles. Discover the main user types. 
-uuid: 32f04f7e-d811-4f64-b25d-1b6ffb0bc387
+uuid: 29d60f57-3e76-4a0c-b2df-bba064f60029
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-discoiquuid: e7cda581-e3aa-4401-a4e9-ec033540043f
+discoiquuid: f7b0dc81-7b85-4c18-83fd-944516801ac5
 index: y
 internal: n
 snippet: y
 ---
 
 # Types of users{#types-of-users}
-
-Types of users
 
 Administrators can manage users from the Admin console. Users are then automatically synchronized with Adobe Campaign.
 

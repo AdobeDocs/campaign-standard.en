@@ -3,21 +3,19 @@ title: Defining dynamic content in a landing page
 seo-title: Defining dynamic content in a landing page
 description: Defining dynamic content in a landing page
 seo-description: Follow these steps to display different contents dynamically in a landing page according to the conditions defined through the Adobe Campaign expression editor.
-uuid: 8e01312c-d559-498a-b275-ff850d9723fe
+uuid: 68e1d413-8fd8-4f05-bcc3-42668b351862
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: defining-conditional-content
-discoiquuid: 0c04d761-6de4-4532-a3d4-33683a2d365e
+discoiquuid: f81b527c-9946-4b8f-a93a-6bf3d3f2e533
 index: y
 internal: n
 snippet: y
 ---
 
 # Defining dynamic content in a landing page{#defining-dynamic-content-in-a-landing-page}
-
-Defining dynamic content in a landing page
 
 To define dynamic content in a landing page, select a block using the breadcrumb or by directly clicking an element.
 

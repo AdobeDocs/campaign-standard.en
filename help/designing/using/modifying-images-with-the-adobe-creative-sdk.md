@@ -3,21 +3,19 @@ title: Modifying images with the Adobe Creative SDK
 seo-title: Modifying images with the Adobe Creative SDK
 description: Modifying images with the Adobe Creative SDK
 seo-description: Discover the complete set of features powered by the Adobe Creative SDK to enhance your images directly in the content editor.
-uuid: 1e173ac4-7f55-4495-a92c-3f7ddfea4e59
+uuid: 7d5a7e6d-dc11-498b-a4d8-dab2f3c78eca
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: using-images
-discoiquuid: 73862174-c709-4028-a0ca-eb7a1ac86df9
+discoiquuid: 3e81328b-2f10-4912-b2e4-7debcd7aaa7b
 index: y
 internal: n
 snippet: y
 ---
 
 # Modifying images with the Adobe Creative SDK{#modifying-images-with-the-adobe-creative-sdk}
-
-Modifying images with the Adobe Creative SDK
 
 You can edit images and use a complete set of features powered by the Adobe Creative SDK to enhance your images directly in the content editor when editing emails or landing pages.
 

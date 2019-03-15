@@ -3,21 +3,19 @@ title: Provisioning and configuring integration with Audience Manager or People 
 seo-title: Provisioning and configuring integration with Audience Manager or People core service
 description: Provisioning and configuring integration with Audience Manager or People core service
 seo-description: Learn how to configure the Audience Manager / People core service integration to start sharing audiences or segments with the different Adobe Experience Cloud solutions. 
-uuid: 04f64d31-dcc2-46f4-b74b-9439774943f3
+uuid: 9780b8f4-d809-4dec-a834-3e62ca02a0ce
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
-discoiquuid: 957d8420-6f7a-4535-adf1-299d71bb43da
+discoiquuid: f57c7243-ddd7-4544-9c4d-cf384f41e9ed
 index: y
 internal: n
 snippet: y
 ---
 
 # Provisioning and configuring integration with Audience Manager or People core service{#provisioning-and-configuring-integration-with-audience-manager-or-people-core-service}
-
-Provisioning and configuring integration with Audience Manager or People core service
 
 The provisioning and configuring of Audience Manager and People core in Adobe Campaign take two steps: [Submitting request to Adobe](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#submitting-request-to-adobe) then [Configuring the integration in Adobe Campaign](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#configuring-the-integration-in-adobe-campaign).
 

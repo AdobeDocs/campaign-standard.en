@@ -1,0 +1,50 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2019-02-15T02:57:58.241-0500" name="cq:lastModified" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="a7442e9c-8c5d-4e9d-b0b3-b43087c11522" name="jcr:predecessors" />
+  <meta content="f8bc6ea7-a31f-41e7-874b-b73ca2a195b3" name="jcr:uuid" />
+  <meta content="2019-02-13T06:30:41.165-0500" name="cq:lastReplicated" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="https://helpx.adobe.com/campaign/standard/reporting/using/sms-report.html" name="publishExternalURL" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="With the SMS out-of-the-box report, learn about the success of your SMS deliveries. " name="seoDescription" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="SMS report" name="jcr:title" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-03-15T09:01:53.095-0400" name="jcr:created" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="SMS report" name="navTitle" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2019-02-13T06:30:41.029-0500" name="publishExternalDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2019-02-13T06:30:41.029-0500" name="firstPublishExternalDate" />
+  <meta content="SMS report" name="jcr:description" />
+  <meta content="2019-02-13T06:30:41.029-0500" name="lastPublishExternalDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2019-02-15T02:57:58.240-0500" name="locHandOffDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:reporting;content_type:reference;topic_tags:list-of-reports" name="cq:tags" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="audience:reporting" name="primaryAudienceTag" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2019-02-13T06:30:41.029-0500" name="topicBrowsingSortDate" />
+  <meta content="false" name="isReadyForLocalization" />
+ </head>
+ <body>
+  <p>The <strong>SMS </strong>report provides details about SMS deliveries, such as delivered and bounce rates.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/dynamic_report_sms.png" title="" />
+  <p>The <strong>SMS summary</strong> table, graphs and summary numbers contain available data for SMS deliveries that have been sent.</p> 
+  <ul>
+   <li><p><strong>Processed/sent</strong>: The number of SMS sent.</p> </li>
+   <li><p><strong>Delivered</strong>: The number of SMS delivered.</p> </li>
+   <li><p><strong>Bounces + Errors</strong>: The number of messages that could not be delivered.</p> </li>
+  </ul>
+ </body>
+</html>

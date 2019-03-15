@@ -3,21 +3,19 @@ title: Release Notes
 seo-title: Release Notes
 description: Release Notes
 seo-description: This page lists all recent releases of Adobe Campaign Standard.
-uuid: c967a05c-56eb-4fa1-8a4e-abbd683508ab
+uuid: b659bb5e-1d1b-43e0-88ff-16365dd3e6aa
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-discoiquuid: bd3d18ea-7ca8-465c-9313-2c382571d1ce
+discoiquuid: ebcfd7bb-5514-4c01-9211-badeeb411e7c
 index: y
 internal: n
 snippet: y
 ---
 
 # Release Notes{#release-notes}
-
-Release Notes
 
 Looking for a specific release of Adobe Campaign Standard?
 
@@ -51,7 +49,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
   </tr>
   <tr>
    <td>Workflow enhancements<br /> </td> 
-   <td>The following workflow capabilities have been added:<br /> <ul><li>You can now copy-paste activities within a workflow or another workflow from the same Campaign instance. This way, you can easily duplicate an entire workflow or specific activities, and keep the settings that were initially defined. For more information, refer to the <a href="../../automating/using/workflow-interface.md#duplicating-workflow-activities">detailed documentation</a>. (CAMP-20014)</li> <li>When using the <strong>Load file</strong> activity, you can now add a timestamp to the name of the file containing the rejected records. For more information, refer to the <a href="../../automating/using/load-file.md#configuration">detailed documentation</a>.</li> <li><strong>Query</strong> and <strong>Segmentation</strong> activities now let you enable an outbound transition if the activities retrieve no data.</li></ul> </td> 
+   <td>The following workflow capabilities have been added:<br /> <li>You can now copy-paste activities within a workflow or another workflow from the same Campaign instance. This way, you can easily duplicate an entire workflow or specific activities, and keep the settings that were initially defined. For more information, refer to the <a href="../../automating/using/workflow-interface.md#duplicating-workflow-activities">detailed documentation</a>. (CAMP-20014)</li> <li>When using the <strong>Load file</strong> activity, you can now add a timestamp to the name of the file containing the rejected records. For more information, refer to the <a href="../../automating/using/load-file.md#configuration">detailed documentation</a>.</li> <li><strong>Query</strong> and <strong>Segmentation</strong> activities now let you enable an outbound transition if the activities retrieve no data.</li> </td> 
   </tr>
  </tbody>
 </table>
@@ -140,7 +138,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
  <tbody> 
   <tr> 
    <td> Email Designer General Availability<br /> </td> 
-   <td> The new intuitive Email Designer (formerly known as Creative Designer) has moved to GA. It now supports all the features from the legacy content editor, including:<br /> <ul><li> The use of <a href="../../integrating/using/adding-target-dynamic-content.md">dynamic images from Adobe Target</a> </li> <li> The ability to <a href="../../designing/using/importing-content-from-a-url.md#retrieving-content-from-a-url-automatically-at-preparation-time">retrieve content from a URL automatically at preparation time</a> </li> <li> Fully compliant <a href="../../start/using/about-templates.md#content-templates">out-of-the box content templates</a>. </li></ul> For more information, refer to the <a href="../../designing/using/about-email-content-design.md">detailed documentation</a>. Improvements and fixes are listed below.<br /> As a consequence, the legacy email content editor is now deprecated. For more information, refer to this <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">page</a>.<br /> </td> 
+   <td> The new intuitive Email Designer (formerly known as Creative Designer) has moved to GA. It now supports all the features from the legacy content editor, including:<br /> <li> The use of <a href="../../integrating/using/adding-target-dynamic-content.md">dynamic images from Adobe Target</a> </li> <li> The ability to <a href="../../designing/using/importing-content-from-a-url.md#retrieving-content-from-a-url-automatically-at-preparation-time">retrieve content from a URL automatically at preparation time</a> </li> <li> Fully compliant <a href="../../start/using/about-templates.md#content-templates">out-of-the box content templates</a>. </li> For more information, refer to the <a href="../../designing/using/about-email-content-design.md">detailed documentation</a>. Improvements and fixes are listed below.<br /> As a consequence, the legacy email content editor is now deprecated. For more information, refer to this <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">page</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Product Listings in Transactional Emails<br /> </td> 
@@ -152,7 +150,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
   </tr> 
   <tr> 
    <td> In-App Messaging Beta Improvements<br /> </td> 
-   <td> The In-App Messaging Beta feature has been enhanced with the following capabilities:<br /> <ul><li> In-App Beta channel is GDPR compliant </li> <li> Integration with Analytics APIs to populate Triggers dropdowns </li> <li> Intuitive look and description of delivery templates </li> <li> Enhancements to authoring interface from usability standpoint </li></ul> For more information, refer to the <a href="../../channels/using/about-in-app-messaging.md">detailed documentation</a>.<br /> </td> 
+   <td> The In-App Messaging Beta feature has been enhanced with the following capabilities:<br /> <li> In-App Beta channel is GDPR compliant </li> <li> Integration with Analytics APIs to populate Triggers dropdowns </li> <li> Intuitive look and description of delivery templates </li> <li> Enhancements to authoring interface from usability standpoint </li> For more information, refer to the <a href="../../channels/using/about-in-app-messaging.md">detailed documentation</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -3,21 +3,19 @@ title: Tracking indicators
 seo-title: Tracking indicators
 description: Tracking indicators
 seo-description: With the Tracking indicators out-of-the-box report, learn about the behavior of your customers when they receive email messages.
-uuid: 8f2c97c6-7159-48c6-bcb8-b02b897717e7
+uuid: f26fca1c-4aa6-4487-9981-4c1ab55285c5
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
-discoiquuid: 1e33acc5-7c37-4878-bf64-b016680b4eb6
+discoiquuid: 9b2596f2-40ea-47f2-9faf-b9b77a614101
 index: y
 internal: n
 snippet: y
 ---
 
 # Tracking indicators{#tracking-indicators}
-
-Tracking indicators
 
 The **[!UICONTROL Tracking indicators]** report contains the key indicators for tracking behavior after email messages are received.
 

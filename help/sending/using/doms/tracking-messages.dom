@@ -1,0 +1,78 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2019-02-13T06:30:47.272-0500" name="firstPublishExternalDate" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="2018-03-15T09:01:51.016-0400" name="jcr:created" />
+  <meta content="Tracking messages" name="navTitle" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2019-02-13T06:30:47.272-0500" name="topicBrowsingSortDate" />
+  <meta content="5345474d-a44e-4a41-a793-000e3bcc5f50" name="jcr:uuid" />
+  <meta content="Learn how to track the behavior of your delivery recipients." name="seoDescription" />
+  <meta content="audience:sending" name="primaryAudienceTag" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Tracking messages" name="jcr:title" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="Tracking messages" name="jcr:description" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:sending;content_type:reference;topic_tags:sending-and-tracking-messages" name="cq:tags" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="3f0742b5-2c2e-4db2-8129-da1aee31238e" name="jcr:predecessors" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="2019-02-13T06:30:47.272-0500" name="lastPublishExternalDate" />
+  <meta content="2019-02-13T06:30:47.272-0500" name="publishExternalDate" />
+  <meta content="https://helpx.adobe.com/campaign/standard/sending/using/tracking-messages.html" name="publishExternalURL" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2019-02-15T02:59:07.820-0500" name="cq:lastModified" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2019-02-13T06:30:47.444-0500" name="cq:lastReplicated" />
+  <meta content="2019-02-15T02:59:07.819-0500" name="locHandOffDate" />
+ </head>
+ <body>
+  <h2 id="about-tracking">About tracking</h2>
+  <p>Thanks to its tracking functionalities, Adobe Campaign enables you to track the behavior of your delivery recipients. To do this, Adobe Campaign uses session cookies and permanent cookies.</p> 
+  <p>You can inform users that your sites are equipped with web tracking tools via an authorization request (that comes up over the page, for example) with a checkbox to authorize the use of cookies, or add a banner at the top of the first page they land on, etc. Pop-up windows should be avoided as they are often blocked by browsers.</p> 
+  <p>Adobe Campaign uses two types of cookies:</p> 
+  <ul>
+   <li><p>A session cookie (nlid). This contains the identifier of the email sent to the contact (broadlogId) and the identifier of the message template (deliveryId). It is added when the contact clicks a URL included in an email sent by Adobe Campaign and enables you to track their behavior on the web. This session cookie is erased automatically when the browser is closed. The contact can configure their browser to refuse cookies.</p> </li>
+   <li><p>A cookie shared between Adobe Experience Cloud solutions. This enables you to identify the users who interact with the Experience Cloud solutions when they visit a website. The description of this cookie is available here: <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_mc.html">https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_mc.html</a>.</p> </li>
+  </ul>
+  <p>Tracking information are available for each contact of your database into <span class="uicontrol">integrated customer profiles</span> . For more on this, refer to <a href="../../audiences/using/integrated-customer-profile.md">this section</a>.</p> 
+  <h2 id="tracking-logs">Tracking logs</h2>
+  <p>The <span class="uicontrol">Tracking logs</span> tab lists the tracking history for this delivery. This tab displays the tracking information for the sent messages, such as all the URLs which have been tracked by Adobe Campaign. Tracking information in this tab is updated every 10 minutes.</p> 
+  <note>
+   <p> If tracking is not enabled for a delivery, this tab is not displayed. Tracking logs are available for the <strong>email</strong> and <strong>push notification</strong> channels only. </p> 
+  </note>
+  <img alt="" captionBottom="" imageRotate="0" src="assets/tracking_logs.png" title="" />
+  <p>In the example above, the recipient:</p> 
+  <ul>
+   <li><p>Opened the message.</p> </li>
+   <li><p>Clicked on the "LEARN MORE" custom link.</p> </li>
+   <li><p>Clicked on the unsubscription and the mirror page link.</p> </li>
+  </ul>
+  <p>In the <span class="uicontrol">Type</span> column, the possible values are:</p> 
+  <ul>
+   <li><p> <span class="uicontrol">Email click</span> : the recipients clicked on a custom link. </p> </li>
+   <li><p> <span class="uicontrol">Mirror page</span> : the recipient clicked on a link to the mirror page. </p> </li>
+   <li><p> <span class="uicontrol">Open</span> : the recipient opened the email.</p> </li>
+   <li><p> <span class="uicontrol">Opt-out</span> : the recipient clicked on an unsubscription link. </p> </li>
+  </ul>
+  <note>
+   <p> For the <strong>push notification</strong> channel, only clicks on mobile notifications are tracked. In that case, the value will be <span class="uicontrol">Click on mobile notification</span> . </p> 
+  </note>
+  <p>For more on how to insert tracking links, refer to <a href="../../designing/using/inserting-a-link.md">this page</a>.</p> 
+  <h2 id="tracked-urls">Tracked URLs</h2>
+  <p>The <span class="uicontrol">Tracked URLs</span> tab regroups the URLs contained in the sent message, including their URL type and their source URL.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/sending_delivery6.png" title="" />
+  <p>For more on tracking links, refer to <a href="../../designing/using/about-tracked-urls.md">this section</a>.</p> 
+ </body>
+</html>

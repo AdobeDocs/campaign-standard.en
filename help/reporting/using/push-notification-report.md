@@ -3,21 +3,19 @@ title: Push notification report
 seo-title: Push notification report
 description: Push notification report
 seo-description: With the Push notification out-of-the-box report, learn about the success of your push notifications.
-uuid: fa6b4a10-5443-4388-9698-d071fc04368c
+uuid: 23e47a0f-415d-4504-acb5-a24f26b52efd
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
-discoiquuid: 2740ef81-0f53-429f-b65a-80b2ac5d938b
+discoiquuid: 62d9664f-574d-4ac7-8b91-edc3734ab1ad
 index: y
 internal: n
 snippet: y
 ---
 
 # Push notification report{#push-notification-report}
-
-Push notification report
 
 >[!CAUTION]
 >

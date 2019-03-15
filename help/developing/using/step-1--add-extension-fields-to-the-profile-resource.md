@@ -3,21 +3,19 @@ title: "Step 1: Add extension fields to the profile resource"
 seo-title: "Step 1: Add extension fields to the profile resource"
 description: "Step 1: Add extension fields to the profile resource"
 seo-description: Discover how to extend the profile resource.
-uuid: 00cf5807-59a0-4afd-b28e-24be9bc4d5f0
+uuid: dd459b49-e7ae-440b-86f3-02e3a790c0cd
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
-discoiquuid: dc883204-d4f5-4cc0-920c-eb0683b9e8b4
+discoiquuid: 4d6f43c1-b956-4020-b711-c0cd3cee4202
 index: y
 internal: n
 snippet: y
 ---
 
 # Step 1: Add extension fields to the profile resource{#step-add-extension-fields-to-the-profile-resource}
-
-Step 1: Add extension fields to the profile resource
 
 1. From the advanced menu, via the Adobe Campaign logo, select **[!UICONTROL Administration]** > **[!UICONTROL Development]** , then **[!UICONTROL Custom resources]** .
 1. Click the **[!UICONTROL Create]** icon to create a new custom resource.

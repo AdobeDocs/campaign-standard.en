@@ -3,21 +3,19 @@ title: Indicator calculation
 seo-title: Indicator calculation
 description: Indicator calculation
 seo-description: Understand the results of your reports with a list of every metric's formula.
-uuid: 563c5bf8-a2d4-4421-bcd8-e11bf403c07b
+uuid: 9fcd41b4-65b3-41b0-bbc9-fd52b88f0e6a
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-discoiquuid: 70e22922-53fa-4700-9276-c6b75c65236b
+discoiquuid: d800764c-af71-4116-8fe5-3419f5315d3a
 index: y
 internal: n
 snippet: y
 ---
 
 # Indicator calculation{#indicator-calculation}
-
-Indicator calculation
 
 The tables below give you the list of indicators used in the different reports and their calculation formula depending on the delivery type.
 

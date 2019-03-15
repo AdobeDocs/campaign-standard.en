@@ -3,21 +3,19 @@ title: SMS and push content editor interface
 seo-title: SMS and push content editor interface
 description: SMS and push content editor interface
 seo-description: Learn how to use the different sections of the editor to modify your SMS and push content.
-uuid: 1538c796-ce3b-4f51-8027-166d67d04961
+uuid: 1f20c18e-272e-499e-a6e4-b99ad39e4ccd
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: editing-sms-and-push-content
-discoiquuid: b14110c8-77a9-4de0-8a09-a560d155256d
+discoiquuid: e39190d9-6327-4112-8c0e-ccdd8fbc3184
 index: y
 internal: n
 snippet: y
 ---
 
 # SMS and push content editor interface{#sms-and-push-content-editor-interface}
-
-SMS and push content editor interface
 
 The SMS and push content editor is organized into two different sections that allow you to view and edit the message.
 

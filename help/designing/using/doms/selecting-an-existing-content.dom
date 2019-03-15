@@ -1,0 +1,67 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="Selecting an existing content" name="jcr:title" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="Selecting an existing content" name="navTitle" />
+  <meta content="2019-02-13T06:29:13.688-0500" name="publishExternalDate" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="83ddb2b1-c11c-4178-b2ad-d85e16252aba" name="jcr:uuid" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="https://helpx.adobe.com/campaign/standard/designing/using/selecting-an-existing-content.html" name="publishExternalURL" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2019-02-13T06:29:13.688-0500" name="topicBrowsingSortDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="f8be13a9-3a52-43a7-9d98-3a1339049bff" name="jcr:predecessors" />
+  <meta content="2018-07-23T07:30:15.241-0400" name="jcr:created" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2019-02-13T06:29:13.688-0500" name="firstPublishExternalDate" />
+  <meta content="2019-02-15T02:58:21.277-0500" name="locHandOffDate" />
+  <meta content="audience:designing" name="primaryAudienceTag" />
+  <meta content="2019-02-13T06:29:13.716-0500" name="cq:lastReplicated" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:loading-content" name="cq:tags" />
+  <meta content="2019-02-15T02:58:21.278-0500" name="cq:lastModified" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Learn how to load an existing content from another source when creating an email or a landing page." name="seoDescription" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="Selecting an existing content" name="jcr:description" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="2019-02-13T06:29:13.688-0500" name="lastPublishExternalDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+ </head>
+ <body>
+  <p>Adobe Campaign comes with a set of predefined contents to help you get started. You can use one of these or, if the content of the message you need to send is being prepared outside of Adobe Campaign, you can import it from your computer or a URL.</p> 
+  <p>When creating an email or a landing page, you can choose to load an existing content from another source.</p> 
+  <note>
+   <p> The images below show how to load an existing content using the <a href="../../designing/using/about-email-content-design.md#about-the-email-designer">Email Designer</a>. </p> 
+  </note>
+  <ol>
+   <li><p>After creating the email or landing page, open its content.</p> </li>
+   <li><p>Click the home icon to access the <span class="uicontrol">Email Designer</span> home page.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/des_loading_1.png" title="" /></li>
+   <li><p>Select the source of the content you want to load:</p> 
+    <ul>
+     <li><p> <a href="../../start/using/about-templates.md#content-templates">Content templates</a>: click the <span class="uicontrol">Templates</span> tab.</p> </li>
+     <li><p> <a href="../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch">Content from scratch</a>, to start fresh: click the <span class="uicontrol">Create</span> button.</p> </li>
+     <li><p> <a href="../../designing/using/importing-content-from-a-file.md">Content from your computer as a ZIP or HTML file</a>: click the <span class="uicontrol">Upload</span> button.</p> </li>
+     <li><p> <a href="../../designing/using/importing-content-from-a-url.md">Content from an existing URL</a> (only for emails): click the <span class="uicontrol">Import from URL</span> button.</p> </li>
+    </ul></li>
+   <li><p>Load the content. The selected content replaces the current content.</p> <p>Once imported, the content can be edited and personalized.</p> 
+    <note>
+     <p> The <a href="../../designing/using/about-email-content-design.md#about-the-email-designer">Email Designer</a> uses specific tagging. Standard HTML content uploaded to Campaign have to match the expected tagging to be fully compatible and editable from the Email Designer. If not matching, your content is uploaded in <a href="../../designing/using/about-email-content-design.md#email-designer-compatibility-mode">compatibility mode</a>. To make existing contents compatible, see <a href="../../designing/using/editing-existing-contents-with-the-email-designer.md">this section</a>. </p> 
+    </note></li>
+  </ol>
+  <p><strong>Related topics:</strong></p> 
+  <ul>
+   <li><p> <a href="../../channels/using/creating-an-email.md">Creating an email</a></p> </li>
+   <li><p> <a href="../../channels/using/about-landing-pages.md">Managing landing pages</a></p> </li>
+  </ul>
+ </body>
+</html>

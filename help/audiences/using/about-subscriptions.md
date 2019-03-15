@@ -3,21 +3,19 @@ title: About subscriptions
 seo-title: About subscriptions
 description: About subscriptions
 seo-description: 
-uuid: e678fe26-1463-4df3-970a-2ba47da02dd4
+uuid: f0772415-6f2e-4609-a7ad-bd6d68ac5846
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
-discoiquuid: cc576258-aab5-4991-a6a4-a0fb453d4293
+discoiquuid: 5aeac2c5-15bb-4456-aa69-7f6acde0368d
 index: y
 internal: n
 snippet: y
 ---
 
 # About subscriptions{#about-subscriptions}
-
-About subscriptions
 
 Adobe Campaign allows you to create and manage newsletters and cross-channel communications, through a set of **services**: messages can only be sent to profiles who subscribed to the service (opt-in). These profiles are identified using a dedicated filter when creating a message.
 

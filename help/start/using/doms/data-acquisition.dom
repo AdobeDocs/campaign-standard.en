@@ -1,0 +1,44 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2019-02-13T06:30:11.119-0500" name="publishExternalDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2019-02-13T06:30:11.239-0500" name="cq:lastReplicated" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="Data acquisition" name="navTitle" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Data acquisition" name="jcr:description" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="724733d6-fc89-41d3-9386-61c32a77b101" name="jcr:predecessors" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-03-15T09:01:02.757-0400" name="jcr:created" />
+  <meta content="2986aa8a-e815-4a1a-a8f8-c053f0c287c3" name="jcr:uuid" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="light" name="heroGradient" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="Discover various mechanisms for profile acquisition: online data collection, imports, manual or bulk creation through Campaign APIs." name="seoDescription" />
+  <meta content="audience:start" name="primaryAudienceTag" />
+  <meta content="https://helpx.adobe.com/campaign/standard/start/using/data-acquisition.html" name="publishExternalURL" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:start;content_type:reference;topic_tags:about-adobe-campaign" name="cq:tags" />
+  <meta content="2019-02-13T06:30:11.119-0500" name="firstPublishExternalDate" />
+  <meta content="2019-02-13T06:30:11.119-0500" name="topicBrowsingSortDate" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Data acquisition" name="jcr:title" />
+  <meta content="2019-02-13T06:30:11.119-0500" name="lastPublishExternalDate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2019-02-15T02:57:18.541-0500" name="locHandOffDate" />
+  <meta content="2019-02-15T02:57:18.542-0500" name="cq:lastModified" />
+ </head>
+ <body>
+  <p>Profiles are individual contacts are centralized in the Adobe Campaign database. Various mechanisms for profile acquisition and creating this database can be used: collecting data online via <a href="../../channels/using/about-landing-pages.md">landing pages</a>, manual or <a href="../../automating/using/about-data-import-and-export.md">automated import mechanisms</a>, <a href="../../audiences/using/creating-profiles.md">direct input</a> in the Adobe Campaign interface, bulk creation through <a href="https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html">Campaign APIs</a>.</p> 
+  <p>Profiles creation and management are detailed in the <a href="../../audiences/using/about-profiles.md">About profiles</a> section.</p> 
+ </body>
+</html>

@@ -3,21 +3,19 @@ title: Receiving alerts when failures happen
 seo-title: Receiving alerts when failures happen
 description: Receiving alerts when failures happen
 seo-description: Learn how to use the alert management system.
-uuid: ab6e21d1-7034-4879-bf4b-22c50bdead7d
+uuid: 9e0627f4-5f6c-43c9-99b7-3f0878774108
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-discoiquuid: 10904930-4415-486e-bee3-d750b0c69f0b
+discoiquuid: cc90dfef-3120-4f30-a967-3c680b2d23f1
 index: y
 internal: n
 snippet: y
 ---
 
 # Receiving alerts when failures happen{#receiving-alerts-when-failures-happen}
-
-Receiving alerts when failures happen
 
 ## About delivery alerting {#about-delivery-alerting}
 

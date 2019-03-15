@@ -3,21 +3,19 @@ title: Managing opt-in and opt-out in Campaign
 seo-title: Managing opt-in and opt-out in Campaign
 description: Managing opt-in and opt-out in Campaign
 seo-description: Understand how opt-in and opt-out are managed in Adobe Campaign.
-uuid: b64de86a-f617-4e7a-8081-e12e7ab57142
+uuid: 25a946b3-0b42-439e-a54f-8fe4295f8ca8
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
-discoiquuid: 28a23c65-65b8-49e9-a2bd-7f7e1ebee77c
+discoiquuid: 99f03227-d1da-4569-a2c6-e0970eabf59e
 index: y
 internal: n
 snippet: y
 ---
 
 # Managing opt-in and opt-out in Campaign{#managing-opt-in-and-opt-out-in-campaign}
-
-Managing opt-in and opt-out in Campaign
 
 ## Managing opt-in and opt-out from a profile {#managing-opt-in-and-opt-out-from-a-profile}
 

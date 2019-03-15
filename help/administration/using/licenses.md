@@ -3,21 +3,19 @@ title: Licenses
 seo-title: Licenses
 description: Licenses
 seo-description: Learn more on licenses installed on your instance.
-uuid: ddd411e3-640e-4f54-a009-cfde5243c37a
+uuid: fa6c354d-1206-4c05-85c1-7e763bd80247
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-discoiquuid: aff7764a-41a4-4539-a0bd-dde21b92b977
+discoiquuid: 4d5efb5d-e755-4a36-afc5-664e75036034
 index: y
 internal: n
 snippet: y
 ---
 
 # Licenses{#licenses}
-
-Licenses
 
 The **[!UICONTROL Licenses]** window allows you to view the installed licenses on your instance and different information about it such as the build number, release version or if the terms of agreement have been accepted and by whom.
 

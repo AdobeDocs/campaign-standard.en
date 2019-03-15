@@ -3,21 +3,19 @@ title: Breakdown by domains
 seo-title: Breakdown by domains
 description: Breakdown by domains
 seo-description: With the Breakdown by domains out-of-the-box report, learn about the performance data of your deliveries depending on each of your customer's domain.
-uuid: dec6f25a-0d90-40c8-b6eb-d56a16a68afd
+uuid: 722569cf-bcfc-4246-afcb-7f8a3d4a38e9
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
-discoiquuid: 216a55e7-4475-4a5e-ba35-dd2430187228
+discoiquuid: 4e6a1f43-8d45-48f8-8a5b-5792035c0784
 index: y
 internal: n
 snippet: y
 ---
 
 # Breakdown by domains{#breakdown-by-domains}
-
-Breakdown by domains
 
 This report contains the performance data for each domain represented in the audience for an email delivery. If it is a campaign or program report, the performance data is available for multiple audiences. This data allows you to analyze the behavior of each domain in reaction to specific events. For example, link display, URL blacklisting, etc.
 

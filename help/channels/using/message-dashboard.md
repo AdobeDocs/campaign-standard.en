@@ -3,21 +3,19 @@ title: Message dashboard
 seo-title: Message dashboard
 description: Message dashboard
 seo-description: Discover what the message dashboard is made up of, including the action bar and the various functional blocks.
-uuid: ffff5cff-d1c1-407e-bd38-df20e1aa388c
+uuid: c21ec34d-96cc-48b0-90ec-f0fca02a79ba
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
-discoiquuid: db3f9e92-1b5a-4da5-bada-50be6e957779
+discoiquuid: fc6006bc-a5db-4f24-9e9c-1b2b6a545663
 index: y
 internal: n
 snippet: y
 ---
 
 # Message dashboard{#message-dashboard}
-
-Message dashboard
 
 The message dashboard is a workspace made up of different icons - regrouped into an action bar - and various functional blocks that allow you to establish your message's parameters and send it. These elements are presented hereafter.
 

@@ -3,21 +3,19 @@ title: Reporting interface
 seo-title: Reporting interface
 description: Reporting interface
 seo-description: Learn more about Dynamic report interface basis and how to navigate through the different tabs and menus.
-uuid: 3a09a404-567f-4d9d-86c0-58fe8aed2b6f
+uuid: 4a008fae-27dc-4442-9179-79dc35bf01e1
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-discoiquuid: 9f928cfa-41d8-4f88-a2e6-37e408c7850a
+discoiquuid: b12287ca-8f3d-4e8e-8d7e-01dd2c902d6b
 index: y
 internal: n
 snippet: y
 ---
 
 # Reporting interface{#reporting-interface}
-
-Reporting interface
 
 The top toolbar allows you, for example, to modify, save or print your report.
 

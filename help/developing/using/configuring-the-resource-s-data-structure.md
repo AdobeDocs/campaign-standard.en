@@ -3,21 +3,19 @@ title: Configuring the resource's data structure
 seo-title: Configuring the resource's data structure
 description: Configuring the resource's data structure
 seo-description: Learn how to configure the data structure.
-uuid: 132f4c4b-a31d-4332-8ef8-9e90ae9044ef
+uuid: 48e9f6e9-f891-4592-856b-a8741bfee9a9
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
-discoiquuid: a0bde9cc-5406-45d0-ae07-b29e1b760168
+discoiquuid: 84ba661c-4df5-4988-8c0a-17226e016327
 index: y
 internal: n
 snippet: y
 ---
 
 # Configuring the resource's data structure{#configuring-the-resource-s-data-structure}
-
-Configuring the resource's data structure
 
 After creating a new custom resource, you must configure the data structure.
 

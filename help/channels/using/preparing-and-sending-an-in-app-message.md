@@ -3,21 +3,19 @@ title: Preparing and sending an In-App message
 seo-title: Preparing and sending an In-App message
 description: Preparing and sending an In-App message
 seo-description: Create In-App message to target your application subscribers with specific content.
-uuid: 78e62a91-d9a4-4515-91b0-def4858839f8
+uuid: fcd94693-88bf-44bb-bf71-726d6825b280
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: in-app-messaging
-discoiquuid: 601ffa2d-a2f4-407b-8c7b-5aee16abb98a
+discoiquuid: 0fc4fd02-a9bd-48f4-901e-d5107e9fce4a
 index: y
 internal: n
 snippet: y
 ---
 
 # Preparing and sending an In-App message{#preparing-and-sending-an-in-app-message}
-
-Preparing and sending an In-App message
 
 >[!NOTE]
 >

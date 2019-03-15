@@ -3,21 +3,19 @@ title: About direct mail
 seo-title: About direct mail
 description: About direct mail
 seo-description: Discover the main specificities of the direct mail channel in Adobe Campaign.
-uuid: 33620437-ca38-4f4d-a5d4-2406d60a4f7e
+uuid: 3796e502-f905-4f1f-a253-13087ddc13cd
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: direct-mail
-discoiquuid: 56d65015-5871-4302-98ad-ee415fc755f9
+discoiquuid: ed7b0d96-4826-4a49-914b-43520d993331
 index: y
 internal: n
 snippet: y
 ---
 
 # About direct mail{#about-direct-mail}
-
-About direct mail
 
 Direct mail is an offline channel that allows you to personalize and generate the file required by direct mail providers. It gives you the possibility to mix online and offline channels in your customer journeys.
 

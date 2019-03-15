@@ -1,0 +1,54 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2019-02-13T06:31:44.422-0500" name="topicBrowsingSortDate" />
+  <meta content="f6ef4431-3e34-4295-961a-cca19a787a2d" name="jcr:predecessors" />
+  <meta content="2019-02-15T02:59:38.490-0500" name="locHandOffDate" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="Return to sender" name="jcr:description" />
+  <meta content="Learn how to be notified of an incorrect address and exclude it from future communications." name="seoDescription" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2019-02-13T06:31:44.444-0500" name="cq:lastReplicated" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="https://helpx.adobe.com/campaign/standard/channels/using/return-to-sender.html" name="publishExternalURL" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="light" name="heroGradient" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:channels;content_type:reference;topic_tags:direct-mail" name="cq:tags" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Return to sender" name="jcr:title" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2019-02-13T06:31:44.422-0500" name="lastPublishExternalDate" />
+  <meta content="2018-03-15T09:02:09.919-0400" name="jcr:created" />
+  <meta content="2019-02-13T06:31:44.422-0500" name="publishExternalDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="98461e07-bc32-4464-987f-69d03e394ea1" name="jcr:uuid" />
+  <meta content="2019-02-13T06:31:44.422-0500" name="firstPublishExternalDate" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="audience:channels" name="primaryAudienceTag" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="Return to sender" name="navTitle" />
+  <meta content="2019-02-15T02:59:38.491-0500" name="cq:lastModified" />
+ </head>
+ <body>
+  <p>Flat file exchanges with Direct Mail providers incorporating Return to Sender information are supported. This allows corresponding postal addresses to be excluded from future communications. This also allows you to be notified of an incorrect address and engage with the customer through other channels or to encourage him to update his postal address. </p> 
+  <p>For example, a contact has moved to a new place and did not provide you with his new postal address. The provider retrieves the list of erroneous addresses and sends this information to Adobe Campaign which automatically blacklists the erroneous addresses.</p> 
+  <p>In order for this functionality to work, the direct mail default delivery template includes, in the content, the delivery log ID. Thus, Adobe Campaign will be able to synchronize the profile and delivery data with the information returned by the provider.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/direct_mail_return_sender_1.png" title="" />
+  <p>An import template is available under <span class="uicontrol">Adobe Campaign &gt; Resources &gt; Templates &gt; Import templates &gt; Update Direct Mail quarantines and delivery logs</span> . Duplicate this template to create your own. For more on using import templates, refer to <a href="../../automating/using/defining-import-templates.md">Using import templates</a>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/direct_mail_return_sender_2.png" title="" />
+  <p>When the import is done, Adobe Campaign automatically performs the following actions:</p> 
+  <ul>
+   <li><p>Incorrect addresses are blacklisted at the profile level</p> </li>
+   <li><p>The delivery main indicators (KPIs) are updated</p> </li>
+   <li><p>The delivery logs are updated</p> </li>
+  </ul>
+ </body>
+</html>

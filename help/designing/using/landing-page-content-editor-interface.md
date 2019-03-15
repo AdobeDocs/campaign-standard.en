@@ -3,21 +3,19 @@ title: Landing page content editor interface
 seo-title: Landing page content editor interface
 description: Landing page content editor interface
 seo-description: Learn how to use the different sections of the editor, such as the action bar, to modify your landing page content.
-uuid: 0762dafd-ed87-4d8c-90f4-362ff984e15a
+uuid: fca498cd-d1ac-433f-a809-54f1d7c637a1
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: editing-landing-page-content
-discoiquuid: fdded76d-70f0-4659-87d4-c80f9c1d88ca
+discoiquuid: 780b0170-174c-40f5-8cf6-2c2c8e4a5a76
 index: y
 internal: n
 snippet: y
 ---
 
 # Landing page content editor interface{#landing-page-content-editor-interface}
-
-Landing page content editor interface
 
 The landing page content editor allows you to easily define, modify, and personalize content in Adobe Campaign. To access it, click the **[!UICONTROL Content]** block in a landing page dashboard.
 

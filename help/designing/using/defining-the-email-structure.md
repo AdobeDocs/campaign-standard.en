@@ -3,21 +3,19 @@ title: Defining the email structure
 seo-title: Defining the email structure
 description: Defining the email structure
 seo-description: Discover how to use the Email Designer in Campaign to shape your emails and populate them with content components.
-uuid: ce30415e-a680-4e3f-b76e-29d253beea9e
+uuid: 95d07dcf-3e4e-4be6-bcf3-64e0a55d91b8
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-discoiquuid: 45d519a4-027d-419e-aad1-f55abdec70a1
+discoiquuid: 37cf4d74-fe8d-4fd2-9221-11b69eb4f0f7
 index: y
 internal: n
 snippet: y
 ---
 
 # Defining the email structure{#defining-the-email-structure}
-
-Defining the email structure
 
 ## Editing the email structure {#editing-the-email-structure}
 

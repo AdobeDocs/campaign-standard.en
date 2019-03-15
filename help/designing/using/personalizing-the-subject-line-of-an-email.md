@@ -3,21 +3,19 @@ title: Personalizing the subject line of an email
 seo-title: Personalizing the subject line of an email
 description: Personalizing the subject line of an email
 seo-description: You can personalize the subject of an email, but also try out different subject lines and get an estimation of its open rate.
-uuid: 11934f91-1465-4957-b8a1-963165194ad9
+uuid: 15bc9f8b-64a4-4035-a2f2-73b898ebcd97
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: personalizing-content
-discoiquuid: 4b840bc2-c1cd-480c-9519-6d610b98a828
+discoiquuid: eb8c3a4e-56af-47e5-8a40-f78737c95578
 index: y
 internal: n
 snippet: y
 ---
 
 # Personalizing the subject line of an email{#personalizing-the-subject-line-of-an-email}
-
-Personalizing the subject line of an email
 
 ## Personalizing an email subject {#personalizing-an-email-subject}
 

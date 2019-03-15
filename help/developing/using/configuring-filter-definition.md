@@ -3,21 +3,19 @@ title: Configuring filter definition
 seo-title: Configuring filter definition
 description: Configuring filter definition
 seo-description: Discover the filter feature to manage large data set.
-uuid: f50b12f6-b8bb-4053-baa4-4adac7a42c84
+uuid: 5ae144ce-76d3-48a0-bd9b-f46027a0a840
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
-discoiquuid: 821d8833-0d91-41da-b3be-3101fb0a8839
+discoiquuid: b216e1fa-a2b1-4913-b96b-d9d158f0ec4a
 index: y
 internal: n
 snippet: y
 ---
 
 # Configuring filter definition{#configuring-filter-definition}
-
-Configuring filter definition
 
 In the **[!UICONTROL Filter definition]** tab, you can create advanced filters that users can directly access when creating complex queries, such as when defining an audience.
 

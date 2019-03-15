@@ -3,21 +3,19 @@ title: Understanding quarantine management
 seo-title: Understanding quarantine management
 description: Understanding quarantine management
 seo-description: Learn how to optimize your deliverability with quarantine management.
-uuid: bc1353c5-f93b-4806-8f9d-430254b3ab52
+uuid: 320fcd91-61ef-45bb-b222-cebf677ac4a4
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-discoiquuid: cfa60b3f-462f-4fc0-ab58-9c4251bfa36a
+discoiquuid: 59edebf4-8858-40f9-af34-ced5e5c9f394
 index: y
 internal: n
 snippet: y
 ---
 
 # Understanding quarantine management{#understanding-quarantine-management}
-
-Understanding quarantine management
 
 ## About quarantines {#about-quarantines}
 

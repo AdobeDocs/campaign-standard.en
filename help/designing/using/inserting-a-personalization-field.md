@@ -3,21 +3,19 @@ title: Inserting a personalization field
 seo-title: Inserting a personalization field
 description: Inserting a personalization field
 seo-description: Learn how to insert a field from the database into your message such as the profile's first name.
-uuid: e5fdcd6e-5f9a-4a99-8da9-f8543a45d5d3
+uuid: 4808fdbd-32c7-417f-b8b5-96aeb666b8d9
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: personalizing-content
-discoiquuid: 84efb8b2-c93e-4b84-8f4e-660cc5bb0f65
+discoiquuid: 3450596f-8c0f-47d9-9124-7905df7ecb41
 index: y
 internal: n
 snippet: y
 ---
 
 # Inserting a personalization field{#inserting-a-personalization-field}
-
-Inserting a personalization field
 
 Adobe Campaign allows you to insert a field from the database into your page such as the profile's first name.
 

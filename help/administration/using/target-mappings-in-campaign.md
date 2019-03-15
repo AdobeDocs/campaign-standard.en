@@ -3,21 +3,19 @@ title: Target mappings in Campaign
 seo-title: Target mappings in Campaign
 description: Target mappings in Campaign
 seo-description: Target mappings are technical objects used by Campaign in order to deliver messages. They contain all the technical settings required to send deliveries.
-uuid: 787f1073-64c3-43f1-86e3-4cd7106a9a91
+uuid: 33ffcbda-2cac-4885-983c-114ffb4dcdbb
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: application-settings
-discoiquuid: 8b518ed7-51c8-45cb-9ccd-144ef49fa3b0
+discoiquuid: e8cf65c4-89db-4222-b7fd-82fbcefde16c
 index: y
 internal: n
 snippet: y
 ---
 
 # Target mappings in Campaign{#target-mappings-in-campaign}
-
-Target mappings in Campaign
 
 Target mappings are technical objects used by Campaign in order to deliver messages. They contain all the technical settings required to send deliveries (addresses, phone numbers, blacklist indicators, additional identifiers...).
 

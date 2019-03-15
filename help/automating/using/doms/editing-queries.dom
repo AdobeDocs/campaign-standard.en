@@ -1,0 +1,100 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2019-02-13T06:25:49.315-0500" name="topicBrowsingSortDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2019-02-13T06:25:49.315-0500" name="lastPublishExternalDate" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="light" name="heroGradient" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2019-02-15T02:59:56.128-0500" name="locHandOffDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2019-02-15T02:59:56.128-0500" name="cq:lastModified" />
+  <meta content="audience:automating" name="primaryAudienceTag" />
+  <meta content="9f6d199c-4dd5-4481-8b16-6e2c05f5aaf3" name="jcr:uuid" />
+  <meta content="Editing queries" name="jcr:title" />
+  <meta content="Build a population thanks to the predefined filters and rules." name="seoDescription" />
+  <meta content="Editing queries" name="navTitle" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2019-02-13T06:25:49.315-0500" name="firstPublishExternalDate" />
+  <meta content="Editing queries" name="jcr:description" />
+  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/editing-queries.html" name="publishExternalURL" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:filtering-data" name="cq:tags" />
+  <meta content="2018-03-15T09:02:14.442-0400" name="jcr:created" />
+  <meta content="ead0480f-4a2d-4be3-9de3-038ef5553431" name="jcr:predecessors" />
+  <meta content="2019-02-13T06:25:49.344-0500" name="cq:lastReplicated" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2019-02-13T06:25:49.315-0500" name="publishExternalDate" />
+ </head>
+ <body>
+  <h2 id="about-query-editor">About query editor</h2>
+  <p>The query editor is a wizard that allows you to filter data contained in the Adobe Campaign database. </p> 
+  <p>This feature lets you build a population to better target your recipients thanks to the predefined filters and rules.</p> 
+  <p>Several application functionalities use it in order to:</p> 
+  <ul>
+   <li><p>Create <strong>Query</strong> type <strong>audiences</strong></p> </li>
+   <li><p>Define <strong>email</strong> targets</p> </li>
+   <li><p>Define populations in <strong>workflow</strong> activities</p> </li>
+  </ul>
+  <h2 id="query-editor-interface">Query editor interface</h2>
+  <p>The query editor is made up of a <strong>Palette</strong> and a <strong>Workspace</strong>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/query_editor_overview.png" title="" />
+  <h3 id="palette">Palette</h3>
+  <p>The palette, located on the left-hand side of the editor, is divided into two tabs, which contain elements divided into thematic blocks. These tabs are:</p> 
+  <ul>
+   <li><p>The <strong>Shortcuts</strong>, available by default, or created by the instance administrator. Here you will find fields, nodes, groupings, 1-1 links, 1-N links and other predefined filters.</p> </li>
+   <li><p>The <strong>Explorer</strong> which allows you to access all available fields in the target resource: nodes, grouping elements, links (1-1 and 1-N).</p> </li>
+  </ul>
+  <p>The elements contained in the tabs must be moved into the workspace in order to be configured and taken into account for the query. Depending on the targeting dimension selected (see <a href="../../automating/using/query.md#targeting-dimensions-and-resources" target="_blank">Targeting dimensions and resources</a>), you can:</p> 
+  <ul>
+   <li><p>Select audiences or profiles one by one</p> </li>
+   <li><p>Use predefined filters</p> </li>
+   <li><p>Define simple rules for fields of your choice</p> </li>
+   <li><p>Define advanced rules that allow you to apply functions to certain fields</p> </li>
+  </ul>
+  <h3 id="workspace">Workspace</h3>
+  <p>The workspace is the central zone in which you can configure and combine rules, audiences, and predefined filters added from the palette.</p> 
+  <p>When you move an element from the palette into the workspace, a new window opens and you can start <a href="../../automating/using/editing-queries.md#creating-queries" target="_blank">Creating queries</a>.</p> 
+  <h2 id="creating-queries">Creating queries</h2>
+  <p>The query editor can be used to define an audience or test profile in a message, a population in a workflow and to create a query type audience.</p> 
+  <p>Queries can be defined in the <span class="uicontrol">Audience</span> window while creating a delivery or in a <strong>Query</strong> activity while creating a workflow.</p> 
+  <ol>
+   <li><p>Move an element from the palette into the workspace. The window for editing the rule opens.</p> 
+    <ul>
+     <li><p>For a string or numerical <strong>field</strong>, specify the comparison operator and the value. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/query_editor_audience_definition2.png" title="" /></li>
+     <li><p>For a date or date and time <strong>field</strong>, you can choose to define a specific date, a range between two dates, or a period relative to the query's execution date.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/query_editor_date_field.png" title="" /></li>
+     <li><p>For a Boolean <strong>field</strong>, check the boxes linked to the possible values for the field.</p> </li>
+     <li><p>For a <strong>grouping</strong> field, select the grouping field on which you want to create the rule, then define the condition in the same way as for the other fields.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/query_editor_audience_definition4.png" title="" /></li>
+     <li><p>For a <strong>1-1</strong> link with another database resource, select a value directly from the table targeted.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/query_editor_audience_definition5.png" title="" /></li>
+     <li><p>For a <strong>1-N</strong> link with another database resource, you can define a sub-query on the fields of this second resource.</p> <p>You do not need to specify a sub-condition.</p> <p>For example, you can only select the <span class="uicontrol">Exists</span> operator on the profile tracking logs and approve the rule. The rule will return all of the profiles for which tracking logs exist.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/query_editor_audience_definition6.png" title="" /></li>
+     <li><p>For a <strong>predefined filter</strong>, enter or select the elements you like according to the criteria offered.</p> <p>Administrators can create filters to facilitate complex and repetitive queries. These will appear in the query editor in the form of pre-configured rules and they limit the number of steps needed to be carried out by the user.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/query-editor_filter_email-audience_filter.png" title="" /></li>
+    </ul></li>
+   <li><p>You can specify a name for your rule. This is then displayed as the rule name in the workspace. If the rule is not given a name, an automatic description of the conditions is displayed.</p> </li>
+   <li><p>To combine the workspace elements, interlock them into one another to create different groups and/or group levels. You can then select a logical operator to combine elements on the same level:</p> 
+    <ul>
+     <li><p> <span class="uicontrol">AND</span> : an intersection of two criteria. Only the elements matching each criterion are taken into account.</p> </li>
+     <li><p> <span class="uicontrol">OR</span> : a union of two criteria. Elements matching at least one of the two criteria are taken into account.</p> </li>
+     <li><p> <span class="uicontrol">EXCEPT</span> : exclusion criteria. Elements matching the first criterion are taken into account unless they also match the second criterion.</p> </li>
+    </ul></li>
+   <li><p>You can now calculate and preview the number of elements targeted by your query using the <img height="21px" src="assets/count.png" /> and <img height="21px" src="assets/preview.png" /> buttons from the action bar.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/query_editor_combining_rules.png" title="" /></li>
+  </ol>
+  <p>If you would like to modify an element of the query, click on the edit icon. The rule is opened as it was previously configured and you can then carry out any necessary adjustments.</p> 
+  <p>Your queries are now created and defined, this allows you to build a population to better personalize your deliveries.</p> 
+  <p><strong>Related Topics:</strong></p> 
+  <ul>
+   <li><p> <a href="../../automating/using/advanced-expression-editing.md">Advanced functions</a></p> </li>
+   <li><p> <a href="../../developing/using/configuring-filter-definition.md">Defining filters</a></p> </li>
+  </ul>
+ </body>
+</html>

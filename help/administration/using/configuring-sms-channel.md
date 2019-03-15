@@ -3,21 +3,19 @@ title: Configuring SMS channel
 seo-title: Configuring SMS channel
 description: Configuring SMS channel
 seo-description: "Find out the SMS configuration steps: routing, encoding, formats and advanced properties. "
-uuid: 99e658b9-c7fe-4f9d-a871-675f0004df8e
+uuid: 18a6a7a7-863c-4a14-ba7a-31e84b163db3
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-discoiquuid: c744cc13-1917-447a-a298-b7368f38aaad
+discoiquuid: 2c08a9e8-cdd1-4983-860e-234ee1331d8a
 index: y
 internal: n
 snippet: y
 ---
 
 # Configuring SMS channel{#configuring-sms-channel}
-
-Configuring SMS channel
 
 To send SMS messages, one or several external accounts must be configured by an administrator under the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL SMS]** > **[!UICONTROL SMS accounts]** menu.
 

@@ -1,0 +1,152 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:workflow-general-operation" name="cq:tags" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2019-02-13T06:25:17.756-0500" name="cq:lastReplicated" /> 
+  <meta content="2019-02-15T02:57:40.402-0500" name="cq:lastModified" /> 
+  <meta content="audience:automating" name="primaryAudienceTag" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="39e986ca-fd33-402e-a4b3-1b0471c746a6" name="jcr:predecessors" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="2018-03-15T09:02:54.807-0400" name="jcr:created" /> 
+  <meta content="2019-02-13T06:25:17.721-0500" name="firstPublishExternalDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="Learn how to import data with a workflow." name="seoDescription" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="sauviat" name="cq:lastReplicatedBy" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2019-02-13T06:25:17.721-0500" name="topicBrowsingSortDate" /> 
+  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/importing-data.html" name="publishExternalURL" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="Importing data" name="navTitle" /> 
+  <meta content="2019-02-13T06:25:17.721-0500" name="publishExternalDate" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="Importing data" name="jcr:title" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2019-02-15T02:57:40.401-0500" name="locHandOffDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
+  <meta content="327b8b2b-d578-4c6d-bd3c-7cf83f00f373" name="jcr:uuid" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2019-02-13T06:25:17.721-0500" name="lastPublishExternalDate" /> 
+  <meta content="Importing data" name="jcr:description" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="light" name="heroGradient" /> 
+ </head> 
+ <body> 
+  <h2 id="collecting-data">Collecting data</h2> 
+  <p>You can collect data from a file to process it and/or to import it in the Adobe Campaign database.</p> 
+  <ul> 
+   <li><p>The <span class="uicontrol">Load file</span> activity allows you to import data in one structured form to use this data in Adobe Campaign. The data is temporarily imported and another activity is necessary to definitively integrate it in the Adobe Campaign database.</p> </li> 
+   <li><p>The <span class="uicontrol">Transfer file</span> activity allows you to receive or send files, test whether there are files present, or list files in Adobe Campaign.</p> <p>You can use this activity before a <span class="uicontrol">Load file</span> in case you need to retrieve the file from an external source.</p> </li> 
+  </ul> 
+  <h2 id="import-best-practices">Import best practices</h2> 
+  <p>Being cautious and following the few simple rules detailed below will help a lot in ensuring data consistency within the database and in avoiding common errors during database update or data exports.</p> 
+  <h3 id="using-import-templates">Using import templates</h3> 
+  <p>Most import workflows should contain the following activities: <span class="uicontrol">Load file</span> , <span class="uicontrol">Reconciliation</span> , <span class="uicontrol">Segmentation</span> , <span class="uicontrol">Deduplication</span> , <span class="uicontrol">Update data</span> .</p> 
+  <p>Using import templates makes it very convenient to prepare similar imports and ensure data consistency within the database.</p> 
+  <p>In many projects, imports are built without <span class="uicontrol">Deduplication</span> activity because the files used in the project do not have duplicates. Duplicates sometimes appear from importing different files. De-duplication is then difficult. Therefore a deduplication step is a good precaution in all import workflows.</p> 
+  <p>Do not rest on assumption that the incoming data is consistent and correct, or that the IT department or Adobe Campaign supervisor will take care of it. During the project, keep the data cleansing in mind. Deduplicate, reconcile, and maintain consistency when you import data.</p> 
+  <p>An example of a generic workflow template designed for importing data is available in the <a href="../../automating/using/importing-data.md#example--import-workflow-template" target="_blank">Example: Import workflow template</a> section.</p> 
+  <note> 
+   <p> You can also use <a href="../../automating/using/importing-data-with-import-templates.md">import templates</a>. They are workflow templates defined by an administrator that, once activated, only offer the possibility to specify the file containing the data to import. </p> 
+  </note> 
+  <h3 id="using-flat-file-formats">Using flat file formats</h3> 
+  <p>The most efficient format for imports is flat files. Flat files can be imported in bulk mode at the database level.</p> 
+  <p>For example:</p> 
+  <ul> 
+   <li><p>Separator: tab or semicolon</p> </li> 
+   <li><p>First line with headers</p> </li> 
+   <li><p>No string delimiter</p> </li> 
+   <li><p>Date format: YYYY/MM/DD HH:mm:SS</p> </li> 
+  </ul> 
+  <p>Example of file to import:</p> 
+  <codeblock gutter="true" class="syntax html">
+    lastname;firstname;birthdate;email;crmID!!discoiqbr!!Smith;Hayden;23/05/1989;hayden.smith@example.com;124365!!discoiqbr!!Mars;Daniel;17/11/1987;dannymars@example.com;123545!!discoiqbr!!Smith;Clara;08/02/1989;hayden.smith@example.com;124567!!discoiqbr!!Durance;Allison;15/12/1978;allison.durance@example.com;120987 
+  </codeblock> 
+  <h3 id="using-compression">Using compression</h3> 
+  <p>Use zipped files for imports and exports when possible. GZIP is supported by default. You can add pre-processing when importing files or post-processing when extracting data, respectively in the <span class="uicontrol">Load file</span> and <span class="uicontrol">Extract file</span> workflow activities.</p> 
+  <h3 id="importing-in-delta-mode">Importing in Delta mode</h3> 
+  <p>Regular imports must be done in delta mode. It means that only modified or new data is sent to Adobe Campaign, instead of the whole table every time.</p> 
+  <p>Full imports should be used for initial load only.</p> 
+  <h3 id="maintaining-consistency">Maintaining consistency</h3> 
+  <p>To maintain data consistency in the Adobe Campaign database, follow the principles below:</p> 
+  <ul> 
+   <li><p>If the imported data matches a reference table in Adobe Campaign, then it should be reconciled with that table in the workflow. Records that do not match should be rejected.</p> </li> 
+   <li><p>Ensure that the imported data is always <strong>"normalized"</strong> (email, phone number, direct mail address) and that this normalization is reliable and will not change over the years. If this is not the case, some duplicates are likely to appear in the database, and as Adobe Campaign does not provide tools to do "fuzzy" matching, it will be very difficult to manage and remove them.</p> </li> 
+   <li><p>Transactional data should have a reconciliation key and be reconciled with the existing data in order to avoid creating duplicates.</p> </li> 
+   <li><p><strong>Import related files in order</strong>. If the import is composed of multiple files that depend on each other, the workflow should make sure that the files are imported in the correct order. When a file fails, the other files are not imported.</p> </li> 
+   <li><p><strong>Deduplicate</strong>, reconcile, and maintain consistency when you import data.</p> </li> 
+  </ul> 
+  <h2 id="example--import-workflow-template">Example: Import workflow template</h2> 
+  <p>Using an import template is a best practice if you need to regularly import files with the same structure.</p> 
+  <p>This example shows how to pre-set a workflow that can be reused for importing profiles coming from a CRM in the Adobe Campaign database.</p> 
+  <ol> 
+   <li><p>Create a new workflow template from <span class="uicontrol">Resources &amp;gt; Templates &amp;gt; Workflow templates</span> .</p> </li> 
+   <li><p>Add the following activities:</p> 
+    <ul> 
+     <li><p> <span class="uicontrol">Load file</span> : Define the expected structure of the file containing the data to import.</p> 
+      <note> 
+       <p> You can only import data from a single file. If the workflow has multiple <span class="uicontrol">Load file</span> activities, the same file will be used each time. </p> 
+      </note></li> 
+     <li><p> <span class="uicontrol">Reconciliation</span> : Reconcile the imported data with database data.</p> </li> 
+     <li><p> <span class="uicontrol">Segmentation</span> : Create filters to process records differently depending on whether they could be reconciled or not.</p> </li> 
+     <li><p> <span class="uicontrol">Deduplication</span> : Deduplicate the data from the incoming file before it is inserted in the database.</p> </li> 
+     <li><p> <span class="uicontrol">Update data</span> : Update the database with the imported profiles.</p> </li> 
+    </ul><img alt="" captionBottom="" imageRotate="0" src="assets/import_template_example0.png" title="" /></li> 
+   <li><p>Configure the <span class="uicontrol">Load file</span> activity:</p> 
+    <ul> 
+     <li><p>Define the expected structure by uploading a sample file. The sample file should contain only a few lines but all the columns necessary for the import. Check and edit the file format to make sure that the type of each column is set correctly: text, date, integer, etc. For example:</p> 
+      <codeblock gutter="true" class="syntax html">
+        lastname;firstname;birthdate;email;crmID!!discoiqbr!!Smith;Hayden;23/05/1989;hayden.smith@mailtest.com;123456 
+      </codeblock></li> 
+     <li><p>In the <span class="uicontrol">File to load</span> section, select <span class="uicontrol">Upload a new file from the local machine</span> and leave the field blank. Each time a new workflow is created from this template, you can specify here the file you want, as long at it corresponds to the defined structure.</p> <p>You can use any of the options but you have to modify the template accordingly. For example, if you select <span class="uicontrol">Use the file specified in the inbound transition</span> , you can add a <span class="uicontrol">File Transfer</span> activity before to retrieve the file to import from a FTP/SFTP server.</p> <p>If you want users to be able to download a file containing errors that occurred during an import, check the <span class="uicontrol">Keep the rejects in a file</span> option and specify the <span class="uicontrol">File name</span> .</p> <img alt="" captionBottom="" imageRotate="0" src="assets/import_template_example1.png" title="" /></li> 
+    </ul></li> 
+   <li><p>Configure the <span class="uicontrol">Reconciliation</span> activity. The purpose of this activity in this context is to identify the incoming data.</p> 
+    <ul> 
+     <li><p>In the <span class="uicontrol">Relations</span> tab, select <span class="uicontrol">Create element</span> and define a link between the imported data and the recipients targeting dimension (see <a href="../../automating/using/query.md#targeting-dimensions-and-resources" target="_blank">Targeting dimensions and resources</a>). In this example, the <strong>CRM ID</strong> custom field is used to create the join condition. Use the field or combination of fields you need as long it allows to identify unique records.</p> </li> 
+     <li><p>In the <span class="uicontrol">Identification</span> tab, leave the <span class="uicontrol">Identify the document from the working data</span> option unchecked.</p> </li> 
+    </ul><img alt="" captionBottom="" imageRotate="0" src="assets/import_template_example2.png" title="" /></li> 
+   <li><p>Configure the <span class="uicontrol">Segmentation</span> activity to retrieve reconciled recipients in one transition and recipients that could not be reconciled but who have enough data in a second transition.</p> <p>The transition with reconciled recipients can then be used to update the database. The transition with unknown recipients can then be used to create new recipient entries in the database if a minimum set of information is available in the file.</p> <p>Recipients that cannot be reconciled and do not have enough data are selected in a complement outbound transition and can be exported in a separate file or simply ignored.</p> 
+    <ul> 
+     <li><p>In the <span class="uicontrol">General</span> tab of the activity, set the <span class="uicontrol">Resource type</span> to <span class="uicontrol">Temporary resource</span> and select <span class="uicontrol">Reconciliation</span> as the targeted set.</p> </li> 
+     <li><p>In the <span class="uicontrol">Advanced options</span> tab, check the <span class="uicontrol">Generate complement</span> option to be able to see if any record cannot be inserted in the database. If you need, you can then apply further processing to the complementary data: file export, list update, etc.</p> </li> 
+     <li><p>In the first segment of the <span class="uicontrol">Segments</span> tab, add a filtering condition on the inbound population to select only records for which the profile's CRM ID is not equal to 0. This way, data from the file that are reconciled with profiles from the database are selected in that subset.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/import_template_example3.png" title="" /></li> 
+     <li><p>Add a second segment that selects unreconciled records that have enough data to be inserted in the database. For example: email address, first name and last name. Records that are not reconciled have their profile's CRM ID value equal to 0.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/import_template_example3_2.png" title="" /></li> 
+     <li><p>All records that are not selected in the first two subsets are selected in the <span class="uicontrol">Complement</span> .</p> </li> 
+    </ul></li> 
+   <li><p>Configure the <span class="uicontrol">Update data</span> activity located after the first outbound transition of the <span class="uicontrol">Segmentation</span> activity configured previously.</p> 
+    <ul> 
+     <li><p>Select <span class="uicontrol">Update</span> as <span class="uicontrol">Operation type</span> since the inbound transition only contains recipients already present in the database.</p> </li> 
+     <li><p>In the <span class="uicontrol">Identification</span> tab, select <span class="uicontrol">Using reconciliation criteria</span> and define a key between the <span class="uicontrol">Dimension to update</span> - Profiles in this case - and the link created in the <span class="uicontrol">Reconciliation</span> activity. In this example, the <strong>CRM ID</strong> custom field is used.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/import_template_example6.png" title="" /></li> 
+     <li><p>In the <span class="uicontrol">Fields to update</span> tab, indicate the fields from the Profiles dimension to update with the value of the corresponding column from the file. If the names of the file columns are identical or almost identical to the names of the recipients dimension fields, you can use the magic wand button to automatically match the different fields.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/import_template_example6_2.png" title="" /> 
+      <note> 
+       <p> If you plan on sending direct mails to these profiles, make sure to include a postal address as this information is essential to the direct mail provider. Also make sure that the <span class="uicontrol">Address specified</span> box in your profiles' information is checked. To update this option from a workflow, simply add an element to the fields to update, and specify <strong>1</strong> as <span class="uicontrol">Source</span> and select the <strong>[postalAddress/@addrDefined]</strong> field as <span class="uicontrol">Destination</span> . For more on direct mail and the use of the <span class="uicontrol">Address specified</span> option, see <a href="../../channels/using/about-direct-mail.md#recommendations">this document</a>. </p> 
+      </note></li> 
+    </ul></li> 
+   <li><p>Configure the <span class="uicontrol">Deduplication</span> activity located after the transition containing unreconciled profiles:</p> 
+    <ul> 
+     <li><p>In the <span class="uicontrol">Properties</span> tab, set the <span class="uicontrol">Resource type</span> to the temporary resource generated from the <span class="uicontrol">Reconciliation</span> activity of the workflow.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/import_template_example4.png" title="" /></li> 
+     <li><p>In this is example, the email field is used to find unique profiles. You can use any field you are sure is filled and part of a unique combination.</p> </li> 
+     <li><p>Choose a <span class="uicontrol">Deduplication method</span> . In this case, the application decides automatically which records are kept in case of duplicates.</p> </li> 
+    </ul><img alt="" captionBottom="" imageRotate="0" src="assets/import_template_example7.png" title="" /></li> 
+   <li><p>Configure the <span class="uicontrol">Update data</span> activity located after the <span class="uicontrol">Deduplication</span> activity configured previously.</p> 
+    <ul> 
+     <li><p>Select <span class="uicontrol">Insert only</span> as <span class="uicontrol">Operation type</span> since the inbound transition only contains profiles not present in the database.</p> </li> 
+     <li><p>In the <span class="uicontrol">Identification</span> tab, select <span class="uicontrol">Using reconciliation criteria</span> and define a key between the <span class="uicontrol">Dimension to update</span> - Profiles in this case - and the link created in the <span class="uicontrol">Reconciliation</span> activity. In this example, the <strong>CRM ID</strong> custom field is used.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/import_template_example6.png" title="" /></li> 
+     <li><p>In the <span class="uicontrol">Fields to update</span> tab, indicate the fields from the Profiles dimension to update with the value of the corresponding column from the file. If the names of the file columns are identical or almost identical to the names of the recipients dimension fields, you can use the magic wand button to automatically match the different fields.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/import_template_example6_2.png" title="" /> 
+      <note> 
+       <p> If you plan on sending direct mails to these profiles, make sure to include a postal address as this information is essential to the direct mail provider. Also make sure that the <span class="uicontrol">Address specified</span> box in your profiles' information is checked. To update this option from a workflow, simply add an element to the fields to update, and specify <strong>1</strong> as <span class="uicontrol">Source</span> and select the <strong>[postalAddress/@addrDefined]</strong> field as <span class="uicontrol">Destination</span> . For more on direct mail and the use of the <span class="uicontrol">Address specified</span> option, see <a href="../../channels/using/about-direct-mail.md#recommendations">this document</a>. </p> 
+      </note></li> 
+    </ul></li> 
+   <li><p>After the third transition of the <span class="uicontrol">Segmentation</span> activity, add a <span class="uicontrol">Extract file</span> activity and a <span class="uicontrol">File transfer</span> activity if you want to keep track of data not inserted in the database. Configure those activities to export the column you need and to transfer the file on a FTP or SFTP server where you can retrieve it.</p> </li> 
+   <li><p>Add an <span class="uicontrol">End</span> activity and save the workflow template.</p> </li> 
+  </ol> 
+  <p>The template can now be used and is available for every new workflow. All is needed is then to specify the file containing the data to import in the <span class="uicontrol">Load file</span> activity.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/import_template_example9.png" title="" /> 
+ </body> 
+</html>

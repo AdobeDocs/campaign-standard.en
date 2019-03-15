@@ -3,21 +3,19 @@ title: Personalizing SMS messages
 seo-title: Personalizing SMS messages
 description: Personalizing SMS messages
 seo-description: Discover the specificity of the transliteration options when personalizing SMS messages.
-uuid: f6851b13-ef9d-431e-a283-cdc9fffe6d0b
+uuid: 85aeff1c-4e91-4a37-8f07-744ee76000dd
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: sms-messages
-discoiquuid: 9be76451-90a9-4ed7-8ceb-5976df5ba17d
+discoiquuid: ef37245f-99e4-4d09-b11b-57fdf1c7b95f
 index: y
 internal: n
 snippet: y
 ---
 
 # Personalizing SMS messages{#personalizing-sms-messages}
-
-Personalizing SMS messages
 
 The principles for personalizing SMS messages are the same as those for [emails](../../designing/using/inserting-a-personalization-field.md). You must nevertheless be aware of the transliteration options as these can impact the encoding and therefore the number of SMS messages to send. For more on this, refer to the [Transliteration and SMS length](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration) section.
 

@@ -3,21 +3,19 @@ title: Configuring transactional messaging
 seo-title: Configuring transactional messaging
 description: Configuring transactional messaging
 seo-description: Learn how to configure transactional messaging.
-uuid: 19992731-2bd7-4bb3-a5d9-94bb93cbea5b
+uuid: ea4ba60a-7b07-436b-902e-e0c830b96c1d
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-discoiquuid: f2b0a133-cc67-43f3-91fe-3c39d14b990a
+discoiquuid: bd07ba6e-556f-4769-b806-ccd75833f5f8
 index: y
 internal: n
 snippet: y
 ---
 
 # Configuring transactional messaging{#configuring-transactional-messaging}
-
-Configuring transactional messaging
 
 To send a transactional message with Adobe Campaign, your first need to describe the structure of the event data.
 

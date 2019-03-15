@@ -3,21 +3,19 @@ title: Adding a content block
 seo-title: Adding a content block
 description: Adding a content block
 seo-description: Discover the various out-of-the-box dynamic content blocks you can use to personalize your messages and learn how to create custom content blocks.
-uuid: c29c5384-6751-4c70-a925-fe3a544d76bf
+uuid: 3214a645-369d-4386-8289-4457583f5327
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: personalizing-content
-discoiquuid: 92ff6ead-1822-45d1-a0cc-9e6b3060518d
+discoiquuid: 4b83aab0-3c29-4309-a179-d0c1f60e9b87
 index: y
 internal: n
 snippet: y
 ---
 
 # Adding a content block{#adding-a-content-block}
-
-Adding a content block
 
 Adobe Campaign offers a list of pre-configured content blocks. These content blocks are dynamic, personalized and have a specific rendering. For example, you can add a greeting or a link to the mirror page.
 

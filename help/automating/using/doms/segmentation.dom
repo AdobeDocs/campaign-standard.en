@@ -1,0 +1,114 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2411112e-469a-41c5-82f3-00001a032f6d" name="jcr:predecessors" />
+  <meta content="2018-03-15T09:02:32.963-0400" name="jcr:created" />
+  <meta content="4e3324b5-9fb6-4c5e-ba9c-547d9538663c" name="jcr:uuid" />
+  <meta content="audience:automating" name="primaryAudienceTag" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="2019-02-13T06:25:27.095-0500" name="publishExternalDate" />
+  <meta content="2019-02-13T06:25:27.095-0500" name="firstPublishExternalDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="light" name="heroGradient" />
+  <meta content="Segmentation" name="jcr:title" />
+  <meta content="https://helpx.adobe.com/campaign/standard/automating/using/segmentation.html" name="publishExternalURL" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2019-02-13T06:25:27.095-0500" name="topicBrowsingSortDate" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Segmentation" name="navTitle" />
+  <meta content="2019-02-15T02:58:45.840-0500" name="cq:lastModified" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2019-02-13T06:25:27.095-0500" name="lastPublishExternalDate" />
+  <meta content="The Segmentation activity lets you create one or several segments from a population calculated by activities placed earlier in the workflow." name="seoDescription" />
+  <meta content="2019-02-15T02:58:45.840-0500" name="locHandOffDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:automating;content_type:reference;topic_tags:targeting-activities" name="cq:tags" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="2019-02-13T06:25:27.134-0500" name="cq:lastReplicated" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="Segmentation" name="jcr:description" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+ </head>
+ <body>
+  <h2 id="description">Description</h2>
+  <img alt="" captionBottom="" imageRotate="0" src="assets/segmentation.png" title="" />
+  <p>The <span class="uicontrol">Segmentation</span> activity lets you create one or several segments from a population calculated by activities placed earlier in the workflow. At the end of the activity, they can be processed in one single transition or different transitions.</p> 
+  <note>
+   <p> By default, a member of the inbound population can only belong to one single segment. The filters are applied according to the order of the segments in the activity. </p> 
+  </note>
+  <h2 id="context-of-use">Context of use</h2>
+  <p>The <span class="uicontrol">Segmentation</span> activity is generally placed after targeting activities (query, intersection, union, exclusion, etc.) in order to define the standard population based on which the segments are formed.</p> 
+  <h2 id="configuration">Configuration</h2>
+  <ol>
+   <li><p>Drag and drop a <span class="uicontrol">Segmentation</span> activity into your workflow.</p> </li>
+   <li><p>Select the activity, then open it using the <img height="21px" src="assets/edit_darkgrey-24px.png" /> button from the quick actions that appear.</p> </li>
+   <li><p>Select the <span class="uicontrol">Resource type</span> on which the segmentation has to be carried out:</p> 
+    <ul>
+     <li><p> <span class="uicontrol">Database resource</span> if the segmentation is carried out on data that already exists in the database. Select the <span class="uicontrol">Filtering dimension</span> depending on the data that you want to segment. By default, segmentation is carried out on the <strong>profiles</strong>.</p> </li>
+     <li><p> <span class="uicontrol">Temporary resource</span> if the segmentation is carried out on the workflow's temporary data: select the <span class="uicontrol">Targeted set</span> containing the data to segment. This use case can be encountered after importing a file or if the data in the database was enriched.</p> </li>
+    </ul></li>
+   <li><p>Select the outbound transition type that you would like to use:</p> 
+    <ul>
+     <li><p> <span class="uicontrol">Generate one transition per segment</span> : one outbound transition is added for each configured segment at the end of the activity.</p> </li>
+     <li><p> <span class="uicontrol">Generate all segments in one transition</span> : all configured segments are regrouped into one single outbound transition. Specify the transition label. The members of each segment keep the segment code that has been assigned to them.</p> </li>
+    </ul></li>
+   <li><p>Add a segment by using the <img height="21px" src="assets/add_darkgrey-24px.png" /> or <span class="uicontrol">Add an element</span> button and specify the standard properties:</p> 
+    <ul>
+     <li><p> <span class="uicontrol">Do not activate the transition if the population is empty</span> : the segment will only be enabled if data is retrieved.</p> </li>
+     <li><p> <span class="uicontrol">Filter initial population (query)</span> : lets you filter this segment's population.</p> </li>
+     <li><p> <span class="uicontrol">Limit segment population</span> : lets you limit the segment size.</p> </li>
+     <li><p> <span class="uicontrol">Filter and limit segment population</span> : lets you filter the segment population and limit its size.</p> </li>
+     <li><p> <span class="uicontrol">Label</span> : segment label.</p> </li>
+     <li><p> <span class="uicontrol">Segment code</span> : code assigned to the segment population.</p> </li>
+     <li><p> <span class="uicontrol">Exclude segment from population</span> : lets you exclude the specified segment from the outbound population of the activity. This option can only be used if the <span class="uicontrol">Generate all segments in the same transition</span> option is selected.</p> </li>
+    </ul><img alt="" captionBottom="" imageRotate="0" src="assets/wkf_segment_new_segment.png" title="" /></li>
+   <li><p>Open the detail view of the segment to access the latter's configuration options. To do this, check the relevant box in the activity's segment list, then select <img height="21px" src="assets/wkf_segment_parameters_24px.png" /> .</p> </li>
+   <li><p>If the option to filter the initial population is checked, open the <span class="uicontrol">Filter</span> tab and specify your segment's population. The filters are based on the filtering dimension selected in step 4. Consult the <a href="../../automating/using/editing-queries.md">Query editing</a> section for further information on population filtering.</p> <p>If the segmentation is carried out on a temporary resource, the count and preview of the population are not available in this tab.</p> </li>
+   <li><p>If the option to limit the segment size is checked, open the <span class="uicontrol">Limitation</span> tab.</p> <p>First, select the <span class="uicontrol">Type of limit</span> that you would like to use:</p> 
+    <ul>
+     <li><p> <span class="uicontrol">Random sampling</span> : the segment population is selected randomly taking into account the configuration of the <span class="uicontrol">Filter</span> tab, if necessary.</p> </li>
+     <li><p> <span class="uicontrol">Ordered sampling</span> : the segment population is selected in an ordered way. You must consequently specify the columns to be taken into account and the type of sorting to be applied. For example, if you select the <strong>Age</strong> field as the sort column while applying a <span class="uicontrol">Descending sort</span> and setting a limit of 100, only the profiles of the top 100 oldest people will be kept.</p> </li>
+    </ul><p>Now specify the size <span class="uicontrol">Limit</span> of the segment:</p> 
+    <ul>
+     <li><p> <span class="uicontrol">Size (as a % of the initial population)</span> : specify the segment size by using a percentage of the activity's initial population.</p> </li>
+     <li><p> <span class="uicontrol">Maximum size</span> : specify a maximum number of members for the segment population.</p> </li>
+     <li><p> <span class="uicontrol">By data grouping</span> : you can limit the segment population according to the values of a specific field of the inbound population. Select the field for grouping, then specify the values to be used.</p> </li>
+     <li><p> <span class="uicontrol">By data grouping (as a %)</span> : you can limit the segment population according to the values of a specific inbound population field by using a percentage. Select the field to apply the grouping, then specify the values to be used.</p> 
+      <note>
+       <p> Different limitations for each value can be used. For example, you can specify a grouping for the <span class="uicontrol">Gender</span> field and limit the population with <span class="uicontrol">Male</span> members to 10 and the population with <span class="uicontrol">Female</span> members to 30 people. If you use several data grouping fields, all the groupings have to have the same size. </p> 
+      </note></li>
+    </ul><img alt="" captionBottom="" imageRotate="0" src="assets/wkf_segment_limit_by_grouping.png" title="" /></li>
+   <li><p>Confirm the configuration of your segment.</p> </li>
+   <li><p>Add as many segments as necessary by repeating steps 6 to 10 of this procedure.</p> </li>
+   <li><p>If necessary, edit the parameters in the <span class="uicontrol">Advanced options</span> tab:</p> 
+    <ul>
+     <li><p>Check the <span class="uicontrol">Enable overlapping of outbound populations</span> option if you want a member of the inbound population to belong to several segments at the same time. The activity's outbound population may exceed the inbound population.</p> </li>
+     <li><p>Check the <span class="uicontrol">Concatenate the code of each segment</span> option if the inbound population has already been assigned a segment code that you want to keep. The segment code specified in the activity will be added to the initial segment code.</p> </li>
+     <li><p>Check the <span class="uicontrol">Generate complement</span> option if you would like to exploit the remaining population.</p> </li>
+    </ul></li>
+   <li><p>Confirm the configuration of your activity and save your workflow.</p> </li>
+  </ol>
+  <h2 id="example">Example</h2>
+  <p>The following example shows a segmentation of database profiles according to their age group. The aim of the workflow is to send a specific email for each age group. Considering the fact that this workflow is part of a test campaign, each segment can only contain a maximum of 100 profiles that are selected randomly in order to use audiences that are limited and representative at the same time.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/wkf_segment_example_4.png" title="" />
+  <p>The workflow is made up of the following elements:</p> 
+  <ul>
+   <li><p>A <span class="uicontrol">Scheduler</span> activity to specify the workflow's execution date. Refer to the <a href="../../automating/using/scheduler.md" target="_blank">Scheduler</a> section.</p> </li>
+   <li><p>A <span class="uicontrol">Query</span> activity to target profiles of people whose birthday and email address have been entered. Refer to the <a href="../../automating/using/query.md" target="_blank">Query</a> section.</p> </li>
+   <li><p>A <span class="uicontrol">Segmentation</span> activity to create 3 segments divided into different outbound transitions: 18-25-year old, 26-32-year old and profiles that are over 32 years old. The segments are defined according to the following parameters:</p> <img alt="" captionBottom="" imageRotate="0" src="assets/wkf_segment_example_3.png" title="" />
+    <ul>
+     <li><p>A filter on the age to define the segment's age group</p> <img alt="" captionBottom="" imageRotate="0" src="assets/wkf_segment_new_segment.png" title="" /></li>
+     <li><p>A <span class="uicontrol">Random sampling</span> type limit that is linked to a <span class="uicontrol">Maximum size</span> limit of 100</p> <img alt="" captionBottom="" imageRotate="0" src="assets/wkf_segment_example_1.png" title="" /></li>
+    </ul></li>
+   <li><p>An <span class="uicontrol">Email delivery</span> activity per segment. Refer to the <a href="../../automating/using/email-delivery.md" target="_blank">Email delivery</a> section.</p> </li>
+  </ul>
+ </body>
+</html>

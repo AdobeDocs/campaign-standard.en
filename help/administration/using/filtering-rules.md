@@ -3,21 +3,19 @@ title: Filtering rules
 seo-title: Filtering rules
 description: Filtering rules
 seo-description: Use filtering rules to refine the audience of your messages.
-uuid: da1f07c5-fd3c-4d9b-ab4f-ac221be69a80
+uuid: e4437886-eb65-4445-bb4a-43b65559e142
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
-discoiquuid: 35a7172c-1003-45be-8e6b-5e4a7e8c3ebb
+discoiquuid: ce2a2fdb-b1df-4b83-98f5-8bb6c9beeca3
 index: y
 internal: n
 snippet: y
 ---
 
 # Filtering rules{#filtering-rules}
-
-Filtering rules
 
 Filtering rules allow you to exclude one part of the message target according to criteria defined in a query, such as quarantined profiles or profiles that have already been sent a certain number of emails.
 

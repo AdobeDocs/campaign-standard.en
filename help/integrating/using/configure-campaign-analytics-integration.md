@@ -3,21 +3,19 @@ title: Configure Campaign-Analytics integration
 seo-title: Configure Campaign-Analytics integration
 description: Configure Campaign-Analytics integration
 seo-description: Learn how to configure the Adobe Analytics integration to start measuring the success of your email deliveries.
-uuid: 62f87026-de44-4222-877d-fe66d4716e6a
+uuid: 45fe8281-859d-44c7-bf1a-c9c56f0bab08
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
-discoiquuid: 97724f04-4b5d-4782-b7cd-a9c5512404a0
+discoiquuid: 9957a922-227f-4c2b-a1b6-fa8d22b85933
 index: y
 internal: n
 snippet: y
 ---
 
 # Configure Campaign-Analytics integration{#configure-campaign-analytics-integration}
-
-Configure Campaign-Analytics integration
 
 This integration allows you to share your Key Performance Indicator data directly from Adobe Campaign to Adobe Analytics Standard or Premium.
 

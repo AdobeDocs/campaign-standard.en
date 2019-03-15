@@ -3,21 +3,19 @@ title: Importing content from a URL
 seo-title: Importing content from a URL
 description: Importing content from a URL
 seo-description: Learn how to load content from an existing URL when creating an email.
-uuid: fa2c057f-ef22-4edc-989d-b839e5e6d422
+uuid: 8f1b977f-e497-489b-ba2b-851bbb7d897c
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: loading-content
-discoiquuid: 4ae0020d-d89b-4a65-9955-a40f5602838c
+discoiquuid: 0b457737-0e87-49a8-926a-0c81ab16b3b2
 index: y
 internal: n
 snippet: y
 ---
 
 # Importing content from a URL{#importing-content-from-a-url}
-
-Importing content from a URL
 
 Before importing content from a URL, make sure it follows the requirements below:
 

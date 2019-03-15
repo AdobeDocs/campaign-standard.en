@@ -3,21 +3,19 @@ title: Personalizing URLs
 seo-title: Personalizing URLs
 description: Personalizing URLs
 seo-description: Learn how to personalize URLs in a message by adding personalization fields, content blocks, or dynamic content.
-uuid: d687f8bf-40bf-4388-b428-598bf1175985
+uuid: a8412125-09af-43b1-ac3a-63a9ef07ce2c
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: managing-links
-discoiquuid: b3c8a763-1cc1-4ea8-b1ef-d14a98e73cef
+discoiquuid: 30879a34-3e68-4c2b-9214-94cc00e89323
 index: y
 internal: n
 snippet: y
 ---
 
 # Personalizing URLs{#personalizing-urls}
-
-Personalizing URLs
 
 Adobe Campaign allows you to personalize one or several URLs in your message by adding personalization fields, content blocks, or dynamic content to them. To do this:
 

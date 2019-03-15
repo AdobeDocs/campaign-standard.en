@@ -1,0 +1,52 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="light" name="heroGradient" />
+  <meta content="About channel configuration" name="jcr:description" />
+  <meta content="2019-02-15T02:57:48.700-0500" name="cq:lastModified" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:administration;content_type:reference;topic_tags:configuring-channels" name="cq:tags" />
+  <meta content="bfdbf52f-8bf8-45aa-99fe-6b26a8f012a4" name="jcr:predecessors" />
+  <meta content="https://helpx.adobe.com/campaign/standard/administration/using/about-channel-configuration.html" name="publishExternalURL" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="9fbe54e9-e0eb-4a7d-a6a1-d5485cb7a258" name="jcr:uuid" />
+  <meta content="2019-02-13T06:18:45.794-0500" name="cq:lastReplicated" />
+  <meta content="About channel configuration" name="navTitle" />
+  <meta content="2019-02-13T06:14:40.443-0500" name="firstPublishExternalDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2019-02-13T06:18:45.768-0500" name="publishExternalDate" />
+  <meta content="Each channel needs to be configured: technical configuration, message properties and templates." name="seoDescription" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="2019-02-13T06:18:45.768-0500" name="topicBrowsingSortDate" />
+  <meta content="About channel configuration" name="jcr:title" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2019-02-13T06:18:45.768-0500" name="lastPublishExternalDate" />
+  <meta content="2019-02-15T02:57:48.699-0500" name="locHandOffDate" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="audience:administration" name="primaryAudienceTag" />
+  <meta content="2018-02-16T08:02:03.383-0500" name="jcr:created" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="true" name="jcr:isCheckedOut" />
+ </head>
+ <body>
+  <p>All communication channels in Adobe Campaign must be correctly configured to be able to effectively send messages.</p> 
+  <p>The different configurations are as follows:</p> 
+  <ul>
+   <li><p>Technical configuration of the channel, including routing, processing rules, deliverability parameters, etc.</p> </li>
+   <li><p>Message templates and properties. All messages are based on a template. Adobe Campaign comes with a set of predefined templates for all activated channels. You can duplicate and customize these templates.</p> </li>
+   <li><p>Message properties. When creating a new message, you can finetune the properties depending on your needs.</p> </li>
+   <li><p>Some channels offer additional configurations that are optional, such as Email BCC.</p> </li>
+  </ul>
+  <p>The <span class="uicontrol">Channel</span> menu regroups the technical parameters linked to the different application channels (Email, SMS) as well as typology and quarantine management.</p> 
+  <p>Administrators can access these configurations in the <span class="uicontrol">Administration</span> &gt; <span class="uicontrol">Channels</span> menu.</p> 
+ </body>
+</html>

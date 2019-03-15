@@ -3,21 +3,19 @@ title: AND-join
 seo-title: AND-join
 description: AND-join
 seo-description: The AND-join activity allows you to synchronize multiple execution branches of a workflow.
-uuid: f7b4dd36-a6c9-4fe9-82cb-508806c5672d
+uuid: 73e665b6-c6f9-4e43-8b8b-ed4a5d5bebf7
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: execution-activities
-discoiquuid: f1fe42d0-c3a9-4fb8-9349-18ecc809122b
+discoiquuid: 79677831-c1f6-490e-913b-0a275521ad03
 index: y
 internal: n
 snippet: y
 ---
 
 # AND-join{#and-join}
-
-AND-join
 
 ## Description {#description}
 

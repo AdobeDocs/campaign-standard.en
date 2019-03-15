@@ -1,0 +1,83 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2019-02-14T03:36:30.233-0500" name="topicBrowsingSortDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:developing;content_type:reference;topic_tags:adding-or-extending-a-resource" name="cq:tags" />
+  <meta content="2019-02-15T02:57:57.696-0500" name="cq:lastModified" />
+  <meta content="audience:developing" name="primaryAudienceTag" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2019-02-15T02:57:57.695-0500" name="locHandOffDate" />
+  <meta content="2019-02-15T14:23:56.755-0500" name="jcr:created" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="light" name="heroGradient" />
+  <meta content="1da1a774-4d95-46a0-b861-a27c1fa277d2" name="jcr:predecessors" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="https://helpx.adobe.com/campaign/standard/developing/using/updating-the-database-structure.html" name="publishExternalURL" />
+  <meta content="2019-02-14T03:36:30.263-0500" name="cq:lastReplicated" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="2019-02-13T06:30:01.073-0500" name="firstPublishExternalDate" />
+  <meta content="2019-02-14T03:36:30.233-0500" name="publishExternalDate" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Discover how to update the Adobe Campaign database." name="seoDescription" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="Updating the database structure" name="navTitle" />
+  <meta content="Updating the database structure" name="jcr:description" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2019-02-14T03:36:30.233-0500" name="lastPublishExternalDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="af21ef08-1250-4e99-9033-f4694182449a" name="jcr:uuid" />
+  <meta content="Updating the database structure" name="jcr:title" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+ </head>
+ <body>
+  <p>To make your modifications to the data model effective and to be able to use them, the database structure needs to be updated.</p> 
+  <note>
+   <p> Custom resources are automatically refreshed during automatic updates performed by Adobe. </p> 
+  </note>
+  <h2 id="publishing-a-custom-resource">Publishing a custom resource</h2>
+  <p>To apply the changes carried out on the resources, you must perform a database update.</p> 
+  <note>
+   <p> If a field of a custom resource used on an event is modified or deleted, the corresponding event will automatically be unpublished. See <a href="../../administration/using/configuring-transactional-messaging.md">Configuring Transactional messaging</a>. </p> 
+  </note>
+  <ol>
+   <li><p>From the advanced menu, via the Adobe Campaign logo, select <span class="uicontrol">Administration</span> &gt; <span class="uicontrol">Development</span> , then <span class="uicontrol">Publishing</span> .</p> </li>
+   <li><p>By default, the option <span class="uicontrol">Determine modifications since the last publication</span> is checked, which means that only the changes carried out since the last update will be applied.</p> 
+    <note>
+     <p> The <span class="uicontrol">Repair database structure</span> reestablishes a correct configuration if the publication failed before completing. Any modification that was carried out directly in the database and not using custom resources will be deleted. </p> 
+    </note><img alt="" captionBottom="" imageRotate="0" src="assets/schema_extension_12.png" title="" /></li>
+   <li><p>Click the <span class="uicontrol">Prepare publication</span> button to start the analysis.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/schema_extension_13.png" title="" /></li>
+   <li><p>Once the publication has been carried out, click the <span class="uicontrol">Publish</span> button to apply your new configurations.</p> </li>
+   <li><p>Once published, the <span class="uicontrol">Summary</span> pane of each resource indicates that the status is now <span class="uicontrol">Published</span> and specifies the date of the last publication.</p> 
+    <note>
+     <p> If you make new changes to a resource, you must repeat this operation for the changes to be applied. </p> 
+    </note><p>If resources have the <span class="uicontrol">Pending re-draft</span> status before publishing, then an additional message will appear inviting you to check your actions because publishing will result in definitive changes (deleting columns, tables...). To help you carry out this last change, an <span class="uicontrol">SQL Script</span> tab is available. It provides the SQL command that will be executed during the publication. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/schema_extension_scriptsql.png" title="" />
+    <note>
+     <p> You can stop the Re-draft process by clicking the <span class="uicontrol">Cancel re-draft</span> button. This action will revert the resource's status back to its original one. </p> 
+    </note></li>
+  </ol>
+  <h2 id="publishing-a-resource-with-api-extension">Publishing a resource with API extension</h2>
+  <p>When you extend the custom resources <span class="uicontrol">Profiles</span> or <span class="uicontrol">Services</span> , you can perform an update of the Profiles and Services API to integrate the fields declared in the custom resources extension.</p> 
+  <p>Before publishing your resource with API extension, refer to this <a href="https://helpx.adobe.com/campaign/kb/profile-service-api-update.html">document</a> to understand the process of the Profiles &amp; Services API update.</p> 
+  <p>When you define a custom resource and you create a link between the resources Profiles or Services and the custom resource, you can perform an update to include the new resource in the API.</p> 
+  <p>This option is available in the publication screen.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/extendpandsapi.png" title="" />
+  <p>Note that by default, the custom resource is integrated, but, for a specific behavior, if you don't want to publish this resource, you can select the option <span class="uicontrol">Hide this resource from APIs</span> available in the <span class="uicontrol">Resource Properties</span> .</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/removefromextoption.png" title="" />
+  <p>After the <span class="uicontrol">Prepare Publication</span> step, Adobe Campaign displays the delta between the current version of the API and the future version after the publication in the tab <span class="uicontrol">Profiles &amp; Services API Preview</span> . If you extend the API for the first time, the delta compares the out-of-the-box custom resource definition with your extension.</p> 
+  <p>The information displayed in the tab is divided into three sections: added, deleted and modified elements.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/extendpandsapi_diff.png" title="" />
+  <p>The analysis of the delta is a mandatory step as the publication step will modify the API behavior and will most likely affect the surrounding development in a domino effect.</p> 
+  <note>
+   <p> This publication updates the <span class="uicontrol">profilesAndServicesExt</span> API. The <span class="uicontrol">profilesAndSedrvices</span> API is not updated. </p> 
+  </note>
+  <p>For more information on the Adobe Campaign API, consult the dedicated Adobe Campaign documentation on <a href="https://docs.campaign.adobe.com/doc/standard/en/adobeio.html">Adobe IO</a>.</p> 
+ </body>
+</html>

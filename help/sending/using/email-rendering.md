@@ -3,21 +3,19 @@ title: Email rendering
 seo-title: Email rendering
 description: Email rendering
 seo-description: Discover the email rendering feature.
-uuid: d4a40853-fb71-430b-b6a4-3c953e09f1e4
+uuid: 63b0f072-db92-435d-93f7-128c8d91d5f7
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
-discoiquuid: 4ebea2b4-0698-4071-b56b-aa25439c8da8
+discoiquuid: fd095bc3-d0c7-47d5-b9e6-0adef57cde8f
 index: y
 internal: n
 snippet: y
 ---
 
 # Email rendering{#email-rendering}
-
-Email rendering
 
 Before hitting the **[!UICONTROL Send]** button, make sure that your message will be displayed in an optimal way on a variety of web clients, web mails and devices.
 

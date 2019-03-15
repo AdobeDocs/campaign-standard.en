@@ -3,21 +3,19 @@ title: Sending messages at the recipient's time zone
 seo-title: Sending messages at the recipient's time zone
 description: Sending messages at the recipient's time zone
 seo-description: Learn how to send messages at the recipient's time zone.
-uuid: 6390a3ac-4f62-4b1c-8cb2-eee13504f591
+uuid: 56c18cf0-4025-4d5e-a193-61e6a1db489b
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-discoiquuid: b850a26c-b019-463a-b82c-be5bd2bfcacb
+discoiquuid: e04bf02d-0e88-4b79-979c-a05f146e4940
 index: y
 internal: n
 snippet: y
 ---
 
 # Sending messages at the recipient's time zone{#sending-messages-at-the-recipient-s-time-zone}
-
-Sending messages at the recipient's time zone
 
 When managing a campaign in which the date and time are important, you can schedule a delivery that takes each recipient's local time into account: they will receive email, SMS or push noftfications at the time you scheduled, in their own time zone.
 

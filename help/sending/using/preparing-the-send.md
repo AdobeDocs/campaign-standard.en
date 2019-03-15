@@ -3,21 +3,19 @@ title: Preparing the send
 seo-title: Preparing the send
 description: Preparing the send
 seo-description: Learn how to define preparation before the send.
-uuid: a73cd47b-aa8b-48d7-9774-2774e8c95955
+uuid: 8d0d533d-702a-438b-93d2-98c5e2a9025b
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
-discoiquuid: 1951d30b-a93b-4193-bad6-9f6bc2ba0f6b
+discoiquuid: 6ed8cb19-be94-4954-9759-c0ac7cf777be
 index: y
 internal: n
 snippet: y
 ---
 
 # Preparing the send{#preparing-the-send}
-
-Preparing the send
 
 Preparation corresponds to the step of calculating the target population and generating the message contents for each profile included in the target. Once preparation is finished, the messages are ready to be sent, either immediately or at [the scheduled date and time](../../sending/using/about-scheduling-messages.md).
 

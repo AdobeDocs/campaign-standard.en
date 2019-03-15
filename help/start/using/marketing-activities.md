@@ -3,21 +3,19 @@ title: Marketing activities
 seo-title: Marketing activities
 description: Marketing activities
 seo-description: "Learn how to create and manage your marketing activities: campaigns, email, SMS and push notification deliveries, landing pages, workflows. You can easily design a new activity, edit an existing one, and consult their status and validity."
-uuid: 1f64409c-3ac0-4c6b-bff3-fe4e4b57abf6
+uuid: 96803b99-15ac-4c42-8501-7ce22c0eeab6
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
 topic-tags: marketing-plans
-discoiquuid: e58e3fb9-f9e9-4e43-9243-adbaebcfd7b6
+discoiquuid: 83a6bc7d-850f-4687-a73d-8d7c3cb50f5c
 index: y
 internal: n
 snippet: y
 ---
 
 # Marketing activities{#marketing-activities}
-
-Marketing activities
 
 ## About marketing activities {#about-marketing-activities}
 

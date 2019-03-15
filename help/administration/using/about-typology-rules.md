@@ -3,22 +3,19 @@ title: About typology rules
 seo-title: About typology rules
 description: About typology rules
 seo-description: Discover how typology rules work in Adobe Campaign.
-uuid: 7719c9e5-1095-4c7d-81df-a555f6808ac7
+uuid: d3390df7-cb2f-42e7-ad7f-84c9c254a71a
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
-discoiquuid: 8462e25f-b941-4d8a-a631-61bc5af5e213
+discoiquuid: aa6509e7-23f9-440e-9942-a7f5c78ada34
 index: y
 internal: n
 snippet: y
-contextualhelp: typology rules, overview
 ---
 
 # About typology rules{#about-typology-rules}
-
-About typology rules
 
 A typology is a set of rules, executed during the message analysis phase, which allow the target, the content, and the configuration of the following elements to be validated: the subject, URL, images, unsubscription link, proof size, etc.
 

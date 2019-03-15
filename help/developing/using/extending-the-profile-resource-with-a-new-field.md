@@ -3,21 +3,19 @@ title: Extending the profile resource with a new field
 seo-title: Extending the profile resource with a new field
 description: Extending the profile resource with a new field
 seo-description: Learn how to extend the profile resource.
-uuid: 3f350415-77a0-4d0a-9a27-797d332fdcec
+uuid: a7c91298-ccd8-4fa0-bde7-484821485fab
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: use-cases--extending-resources
-discoiquuid: db61bc3d-6e26-47bd-824d-419312ca9e0f
+discoiquuid: c75ff1f9-32db-4959-ad5d-052247a5bc18
 index: y
 internal: n
 snippet: y
 ---
 
 # Extending the profile resource with a new field{#extending-the-profile-resource-with-a-new-field}
-
-Extending the profile resource with a new field
 
 ## About extending profiles {#about-extending-profiles}
 

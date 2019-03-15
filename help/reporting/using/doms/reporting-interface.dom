@@ -1,0 +1,141 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="https://helpx.adobe.com/campaign/standard/reporting/using/reporting-interface.html" name="publishExternalURL" />
+  <meta content="2019-02-13T06:29:50.013-0500" name="publishExternalDate" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="light" name="heroGradient" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:reporting;content_type:reference;topic_tags:about-reporting" name="cq:tags" />
+  <meta content="Reporting interface" name="jcr:title" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="d6135e61-a90d-40c7-99b0-cc4529cb6856" name="jcr:uuid" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="Reporting interface" name="navTitle" />
+  <meta content="2019-02-13T06:29:50.013-0500" name="lastPublishExternalDate" />
+  <meta content="2019-02-15T02:57:18.618-0500" name="cq:lastModified" />
+  <meta content="2019-02-13T06:29:50.013-0500" name="firstPublishExternalDate" />
+  <meta content="Learn more about Dynamic report interface basis and how to navigate through the different tabs and menus." name="seoDescription" />
+  <meta content="2019-02-15T02:57:18.617-0500" name="locHandOffDate" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="audience:reporting" name="primaryAudienceTag" />
+  <meta content="Reporting interface" name="jcr:description" />
+  <meta content="909b7001-71eb-4afb-94ba-8cf6899d809e" name="jcr:predecessors" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-03-15T09:02:29.342-0400" name="jcr:created" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="2019-02-13T06:29:50.013-0500" name="topicBrowsingSortDate" />
+  <meta content="2019-02-13T06:29:50.184-0500" name="cq:lastReplicated" />
+ </head>
+ <body>
+  <p>The top toolbar allows you, for example, to modify, save or print your report.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/dynamic_report_toolbar.png" title="" />
+  <p>Use the<strong> Project</strong> tab to:</p> 
+  <ul>
+   <li><p><strong>Open...</strong>: Opens a previously created report or a template.</p> </li>
+   <li><p><strong>Save As...</strong>: Duplicates templates to be able to modify them.</p> </li>
+   <li><p><strong>Refresh project</strong>: Updates your report based upon new data and changes to filters.</p> </li>
+   <li><p><strong>Download CSV</strong>: Exports your reports to a CSV file.</p> </li>
+  </ul>
+  <p>The <strong>Edit</strong> tab allows you to:</p> 
+  <ul>
+   <li><p><strong>Undo</strong>: Cancels your last action on your dashboard.</p> </li>
+   <li><p><strong>Clear all</strong>: Deletes every panel on your dashboard.</p> </li>
+  </ul>
+  <p>The <strong>Insert</strong> table lets you customize your reports by adding graphs and tables to your dashboard:</p> 
+  <ul>
+   <li><p><strong>New Blank Panel</strong>: Adds a new blank panel to your dashboard.</p> </li>
+   <li><p><strong>New Freeform</strong>: Adds a new freeform table to your dashboard.</p> </li>
+   <li><p><strong>New Line</strong>: Adds a new line graph to your dashboard.</p> </li>
+   <li><p><strong>New Bar</strong>: Adds a new bar graph to your dashboard.</p> </li>
+  </ul>
+  <p><strong>Related topics:</strong></p> 
+  <ul>
+   <li><p> <a href="../../reporting/using/adding-panels.md">Adding panels</a></p> </li>
+   <li><p> <a href="../../reporting/using/adding-visualizations.md">Adding visualizations</a></p> </li>
+   <li><p> <a href="../../reporting/using/adding-components.md">Adding components</a></p> </li>
+  </ul>
+  <h2 id="tabs">Tabs</h2>
+  <p>The left tabs let you build your report and filter your data as needed.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/dynamic_report_interface.png" title="" />
+  <p>These tabs give you access to the following items:</p> 
+  <ul>
+   <li><p> <span class="uicontrol">Panels</span> : add a blank panel or freeform to your report to start filtering your data. For more on this, refer to the Adding panels section</p> </li>
+   <li><p> <span class="uicontrol">Visualizations</span> : drag and drop a selection of visualization items to give your report a graphical dimension. For more on this, refer to the Adding visualizations section.</p> </li>
+   <li><p> <span class="uicontrol">Components</span> : customize your reports with different dimensions, metrics, segments and time periods.</p> </li>
+  </ul>
+  <h2 id="toolbar">Toolbar</h2>
+  <p>The toolbar can be found above your workspace. Composed of different tabs, it allows you, for example, to modify, save, share or print your report.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/dynamic_report_toolbar.png" title="" />
+  <p><strong>Related topics:</strong></p> 
+  <ul>
+   <li><p> <a href="../../reporting/using/adding-panels.md">Adding panels</a></p> </li>
+   <li><p> <a href="../../reporting/using/adding-visualizations.md">Adding visualizations</a></p> </li>
+   <li><p> <a href="../../reporting/using/adding-components.md">Adding components</a></p> </li>
+  </ul>
+  <h3 id="project-tab">Project tab</h3>
+  <img alt="" captionBottom="" imageRotate="0" src="assets/tab_project.png" title="" />
+  <p>Use the<strong> Project</strong> tab to:</p> 
+  <ul>
+   <li><p><strong>Open...</strong>: Opens a previously created report or a template.</p> </li>
+   <li><p><strong>Save As...</strong>: Duplicates templates to be able to modify them.</p> </li>
+   <li><p><strong>Refresh project</strong>: Updates your report based upon new data and changes to filters.</p> </li>
+   <li><p><strong>Download CSV</strong>: Exports your reports to a CSV file.</p> </li>
+   <li><p> <span class="uicontrol">Print</span> : Print your report.</p> </li>
+  </ul>
+  <h3 id="edit-tab">Edit tab</h3>
+  <img alt="" captionBottom="" imageRotate="0" src="assets/tab_edit.png" title="" />
+  <p>The <strong>Edit</strong> tab allows you to:</p> 
+  <ul>
+   <li><p><strong>Undo</strong>: Cancels your last action on your dashboard.</p> </li>
+   <li><p><strong>Clear all</strong>: Deletes every panel on your dashboard.</p> </li>
+  </ul>
+  <h3 id="insert-tab">Insert tab</h3>
+  <img alt="" captionBottom="" imageRotate="0" src="assets/tab_insert.png" title="" />
+  <p>The <strong>Insert</strong> tab lets you customize your reports by adding graphs and tables to your dashboard:</p> 
+  <ul>
+   <li><p><strong>New Blank Panel</strong>: Adds a new blank panel to your dashboard.</p> </li>
+   <li><p><strong>New Freeform</strong>: Adds a new freeform table to your dashboard.</p> </li>
+   <li><p><strong>New Line</strong>: Adds a new line graph to your dashboard.</p> </li>
+   <li><p><strong>New Bar</strong>: Adds a new bar graph to your dashboard.</p> </li>
+  </ul>
+  <h3 id="share-tab">Share tab</h3>
+  <img alt="" captionBottom="" imageRotate="0" src="assets/tab_share_1.png" title="" />
+  <p>The <span class="uicontrol">Share</span> tab allows you to send your reports with Adobe Campaign users through one-shot or recurrent emails. The targeted users will then receive an email with your report attached.</p> 
+  <ul>
+   <li><p> <span class="uicontrol">Send report now</span> : Send your report to a list of chosen recipients through a one-shot email.</p> 
+    <ol>
+     <li><p>In the <span class="uicontrol">Send report</span> window, add a description if needed.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/tab_share_4.png" title="" /></li>
+     <li><p>Select the recipients to your email by clicking the field and selecting them in the drop-down or by typing their email addresses.</p> </li>
+     <li><p>Check <span class="uicontrol">Show scheduling options</span> if you want to send recurring emails. This can also be done by selecting <span class="uicontrol">Send Report on schedule</span> in the <span class="uicontrol">Share</span> tab.</p> </li>
+     <li><p>Click <span class="uicontrol">Send now</span> . Your recipients will then receive an email with your report attached.</p> </li>
+    </ol></li>
+   <li><p> <span class="uicontrol">Send report on schedule</span> : Schedule your report and send recurring emails to your recipients.</p> 
+    <ol>
+     <li><p>In the <span class="uicontrol">Send report</span> window, add a description if needed.</p> </li>
+     <li><p>Select the recipients to your email by clicking the field and selecting them in the drop-down or by typing their email addresses.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/tab_share_5.png" title="" /></li>
+     <li><p>Select your starting and ending date to configure your email validity in the <span class="uicontrol">Starting on</span> and <span class="uicontrol">Ending on</span> fields.</p> </li>
+     <li><p>Choose at which frequency your email will be sent.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/tab_share_2.png" title="" /></li>
+     <li><p>Click <span class="uicontrol">Send on schedule</span> , your recipients will receive your recurring email depending on the chosen frequency.</p> </li>
+    </ol></li>
+   <li><p> <span class="uicontrol">Scheduled reports</span> : Find and configure all your scheduled report.</p> 
+    <ol>
+     <li><p>In the <span class="uicontrol">Scheduled reports</span> window, find all your recurring sent reports. </p> <img alt="" captionBottom="" imageRotate="0" src="assets/tab_share_3.png" title="" /></li>
+     <li><p>If you need to delete one of your scheduled report, select the scheduled report you want to delete then click <span class="uicontrol">Delete the section</span> . </p> </li>
+     <li><p>To configure or check your scheduled reports, click directly on the report you need to change.</p> </li>
+     <li><p>The <span class="uicontrol">Edit scheduled report</span> window appears, you can now change the recipients or frequency of your email if needed.</p> </li>
+    </ol></li>
+  </ul>
+  <p>The targeted users will then receive an email with your report attached directly in their inboxes. Users can always decide to stop receiving recurring emails using an unsubscription link available in each recurring email.</p> 
+ </body>
+</html>

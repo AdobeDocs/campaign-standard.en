@@ -1,0 +1,96 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2019-02-13T06:18:43.641-0500" name="lastPublishExternalDate" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2019-02-13T06:18:43.670-0500" name="cq:lastReplicated" />
+  <meta content="2019-02-13T06:18:43.641-0500" name="topicBrowsingSortDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:administration;content_type:reference;topic_tags:users-and-security" name="cq:tags" />
+  <meta content="https://helpx.adobe.com/campaign/standard/administration/using/managing-groups-and-users.html" name="publishExternalURL" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="Managing groups and users" name="navTitle" />
+  <meta content="2018-02-16T08:04:43.386-0500" name="jcr:created" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="Managing groups and users" name="jcr:title" />
+  <meta content="Learn how to create security groups and manage users." name="seoDescription" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="light" name="heroGradient" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2019-02-13T06:18:43.641-0500" name="publishExternalDate" />
+  <meta content="ded2703a-6cad-4a4b-b919-411dc300c31a" name="jcr:predecessors" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="2019-02-13T06:14:29.413-0500" name="firstPublishExternalDate" />
+  <meta content="audience:administration" name="primaryAudienceTag" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2019-02-15T02:57:32.795-0500" name="cq:lastModified" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="8493e530-78e8-43f1-9cc2-126aeaf709b8" name="jcr:uuid" />
+  <meta content="2019-02-15T02:57:32.795-0500" name="locHandOffDate" />
+  <meta content="Managing groups and users" name="jcr:description" />
+ </head>
+ <body>
+  <h2 id="about-security-groups">About security groups</h2>
+  <p>Security groups are sets of users that share the same roles and rights within your organization.</p> 
+  <p>Users must always be linked to a security group. This will allow you to assign them specific roles and organizational units.</p> 
+  <p>For more information on roles, the tables in the following page present the different operations available according to a user's role(s): <a href="https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf">Adobe Campaign Standard authorizations</a>.</p> 
+  <p>If a user is not linked to any security group, he will not be able to access Adobe Campaign.</p> 
+  <p>To restrict a user's access, do not add the user to the Campaign Standard users group as this is linked to <span class="uicontrol">All</span> organizational unit.</p> 
+  <h2 id="creating-a-security-group-and-assigning-users">Creating a security group and assigning users</h2>
+  <note>
+   <p> Please note that in the Admin console, security groups are referred as profiles. </p> 
+  </note>
+  <p>You can create your own security groups if the out-of-the-box groups are not enough to manage your users. They can be managed by Administrators that have access to both Adobe Campaign administration menus and the Admin console. For more information on the Admin console, refer to this <a href="https://helpx.adobe.com/enterprise/managing/user-guide.html">documentation</a>.</p> 
+  <p>Here, we first need to assign the two out-of-the-box groups Standard user and Administrator to our users. These security groups will restrict some functionalities of Adobe Campaign: the Standard User has basics access to Adobe Campaign whereas the Administrator can access the administration menus for example. </p> 
+  <p>Note that any changes made to security groups on the admin console will be synchronized as soon as users log into Adobe Campaign.</p> 
+  <p>Then, we want to create a set of security groups Geometrixx and Geometrixx Clothes that will restrict some access depending on the organizational units of our Standard user and Administrator.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/ootb_security_group_1.png" title="" />
+  <p>You first need to assign one of the out-of-the-box security group to your users:</p> 
+  <ol>
+   <li><p>In the Admin console, select your instance then the <strong>Users</strong> tab.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/manage_security_group_2.png" title="" /></li>
+   <li><p>Click the <span class="uicontrol">Add user</span> button and enter your user's email address.</p> </li>
+   <li><p>In the <span class="uicontrol">Assign Products</span> tab, select your instance then the <span class="uicontrol">Administrators</span> out-of-the-box security group from the drop-down list. This will allow the user to have access to the administration menus and to create the next security groups.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/ootb_security_group_2.png" title="" /></li>
+   <li><p>Click <span class="uicontrol">Save</span> and follow the same procedures to assign the <span class="uicontrol">Standard Users</span> out-of-the-box security group to your new user.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/ootb_security_group_3.png" title="" /></li>
+  </ol>
+  <p>Once your two users are attached to the <span class="uicontrol">Administrators</span> and <span class="uicontrol">Standard users </span> out-of-the-box security groups which assign roles to our users, the Administrator user can now create the two security groups <strong>Geometrixx</strong> and <strong>Geometrixx Clothes</strong> that will assign organizational units to our users in addition to the out-of-the-box security groups.</p> 
+  <ol>
+   <li><p>In the Admin console, select your instance then the <strong>Products</strong> tab.</p> </li>
+   <li><p>Click the <strong>New Profile</strong> button to create the <strong>Geometrixx</strong> security group.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/create_security_1.png" title="" /></li>
+   <li><p>Type the <span class="uicontrol">Profile name</span> by following this exact syntax: <span class="uicontrol">Campaign Standard- instance name - ID of the security group</span> and click <span class="uicontrol">Done</span> .</p> <p>The ID chosen will then be used while creating the security group in Adobe Campaign. </p> 
+    <note>
+     <p> If the above syntax doesn't seem to work with an older instance, it needs to be replaced by <span class="uicontrol">Campaign - instance name - ID of the security group</span> . </p> 
+    </note><img alt="" captionBottom="" imageRotate="0" src="assets/manage_security_group_1.png" title="" /></li>
+   <li><p>Then, follow the same procedures to create the <strong>Geometrixx Clothes</strong> security group.</p> </li>
+   <li><p>Assign your security group to your user by selecting the <span class="uicontrol">Users</span> tab.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/manage_security_group_2.png" title="" /></li>
+   <li><p>Click your previously created user then the <img height="21px" src="assets/managing_security_group_10.png" /> icon in the <span class="uicontrol">Products</span> category. </p> <p>Select <span class="uicontrol">Edit products assigned directly</span> to start assigning new security group to your user.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/manage_security_group_8.png" title="" /></li>
+   <li><p>In the <span class="uicontrol">Assign Products</span> tab, select your instance then your previously created security groups Geometrixx from the drop-down list to assign it to your Administrator user.</p> <p>Click <span class="uicontrol">Save</span> .</p> <img alt="" captionBottom="" imageRotate="0" src="assets/manage_security_group_3.png" title="" /><p>If a user is in several groups: </p> 
+    <ul>
+     <li><p>The roles of the different groups are cumulated. Here, users are in two different groups: one that will act on roles the other on units.</p> </li>
+     <li><p>It is the unit that is the highest in the hierarchy that will be used (see example in the <a href="../../administration/using/organizational-units.md" target="_blank">Organizational units</a> section).</p> </li>
+     <li><p>The user will no longer be able to connect if units have the same equivalent level and are in parallel branches in the hierarchy.</p> </li>
+    </ul></li>
+   <li><p>Follow the same procedures to assign the Geometrixx Clothes security group to your Standard user.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/manage_security_group_9.png" title="" /></li>
+  </ol>
+  <p>The newly created security groups are now created in the Admin console. For them to be completely synced, you also need to create them in Adobe Campaign.</p> 
+  <p>The Administrator user has to create the set of security groups that are used to assign organizational units: Geometrixx and Geometrixx Clothres. To learn how to create organizational units, see <a href="../../administration/using/organizational-units.md#creating-and-managing-units" target="_blank">Creating and managing units</a> .</p> 
+  <ol>
+   <li><p>Click the <span class="uicontrol">Adobe Campaign</span> logo, in the top left corner, then select <span class="uicontrol">Administration &gt; Users &amp; Security &gt; Security groups</span> .</p> </li>
+   <li><p>Create your new security group and specify its <span class="uicontrol">Label</span> and <span class="uicontrol">ID</span> . </p> <p>The ID needs to be the same as the one chosen in the Admin console.</p> </li>
+   <li><p>In the <span class="uicontrol">User access</span> field, assign organizational unit. Here, the Geometrixx security group is assigned the <span class="uicontrol">All</span> organizational unit.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/manage_security_group_6.png" title="" /></li>
+   <li><p>You can also assign roles to your security group. In our case, this step is not needed since the out-of-the-box security groups <span class="uicontrol">Administrators</span> and <span class="uicontrol">Standard users</span> are used to assign roles.</p> </li>
+   <li><p>Follow the same procedures to create the last security Geometrixx Clothes and assign the Geometrixx Clothes organizational unit.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/manage_security_group_7.png" title="" /></li>
+  </ol>
+  <p>Your users are now assigned to a security group and can connect to Adobe Campaign.</p> 
+  <note>
+   <p> If users are removed from a security group in the admin console, they will remain part of the Adobe Campaign security group and will no longer be able to log in Adobe Campaign. In this case, remove the users' email addresses in the admin console to prevent them from receiving sensitive information. </p> 
+  </note>
+ </body>
+</html>

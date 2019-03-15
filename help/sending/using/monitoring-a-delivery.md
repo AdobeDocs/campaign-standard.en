@@ -3,21 +3,19 @@ title: Monitoring a delivery
 seo-title: Monitoring a delivery
 description: Monitoring a delivery
 seo-description: Discover how to monitor a delivery.
-uuid: 41c8168d-2045-4150-a49c-e8771327d421
+uuid: d6b349f0-03ed-4022-a8c3-5622be024815
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-discoiquuid: 7365a765-c14d-4432-9669-778cdeb4714e
+discoiquuid: 95ca839e-39f2-4068-a9a4-377975b2b805
 index: y
 internal: n
 snippet: y
 ---
 
 # Monitoring a delivery{#monitoring-a-delivery}
-
-Monitoring a delivery
 
 There are several ways to monitor a delivery and to measure its impact:
 

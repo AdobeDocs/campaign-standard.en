@@ -3,21 +3,19 @@ title: Event transactional messages
 seo-title: Event transactional messages
 description: Event transactional messages
 seo-description: Learn how to create and publish an event transactional message.
-uuid: 5e55148d-63b8-413f-9d94-ad2921613c6a
+uuid: 2c25a3ad-10a1-4f9c-ae84-84cdc9436a64
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
-discoiquuid: 7417e922-be66-4390-b51f-3139a9908108
+discoiquuid: cc011824-b836-4def-9b52-c49b47887f04
 index: y
 internal: n
 snippet: y
 ---
 
 # Event transactional messages{#event-transactional-messages}
-
-Event transactional messages
 
 You can send event transactional messages targeting an event. This type of transactional messages does not contain profile information: the delivery target is defined by the data contained in the event itself.
 

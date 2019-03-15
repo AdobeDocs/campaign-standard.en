@@ -3,21 +3,19 @@ title: Computing the sending date
 seo-title: Computing the sending date
 description: Computing the sending date
 seo-description: Discover how to send a message at a specific date and time.
-uuid: b7455d54-6387-4c02-8414-060059bb9e01
+uuid: d0ee0c18-ebe8-45cb-82ad-8b56d5aa6356
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-discoiquuid: 7db00723-7c87-4a84-9134-d49ba9354ec8
+discoiquuid: 19a241a0-a2a8-430f-865f-3ddb427b8285
 index: y
 internal: n
 snippet: y
 ---
 
 # Computing the sending date{#computing-the-sending-date}
-
-Computing the sending date
 
 You can define a formula to send the message to each recipient at a specific date and time.
 

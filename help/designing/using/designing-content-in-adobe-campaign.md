@@ -3,21 +3,19 @@ title: Designing content in Adobe Campaign
 seo-title: Designing content in Adobe Campaign
 description: Designing content in Adobe Campaign
 seo-description: Learn about all the elements that you can define in your contents with Adobe Campaign.
-uuid: 3bf229a0-5bd1-43fa-ae04-ce1fcc709965
+uuid: 8896d383-92fc-4478-aed6-dfbf3045b644
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: about-content-design
-discoiquuid: ce4ea373-7972-47ee-bb1b-6ed7159c5b6e
+discoiquuid: 829e6cc4-9dd0-453b-a259-af035828f5ab
 index: y
 internal: n
 snippet: y
 ---
 
 # Designing content in Adobe Campaign{#designing-content-in-adobe-campaign}
-
-Designing content in Adobe Campaign
 
 Once you have created a message or a landing page in Adobe Campaign, you need to define its content.
 

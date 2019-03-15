@@ -3,21 +3,19 @@ title: Documentation Updates
 seo-title: Documentation Updates
 description: Documentation Updates
 seo-description: Learn about all the latest updates for Adobe Campaign Standard documentation.
-uuid: dce533fd-55cf-46c7-8b90-ad3339a1eb7f
+uuid: 971ef029-fb98-4478-bb63-c6aa38cdd0b4
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-discoiquuid: 894a7ffd-745d-418a-98b8-ce446cec44f0
+discoiquuid: 780f5fa2-5896-419f-ba2a-69ea78578e14
 index: y
 internal: n
 snippet: y
 ---
 
 # Documentation Updates{#documentation-updates}
-
-Documentation Updates
 
 Learn about all the latest updates for Adobe Campaign Standard documentation.
 
@@ -67,7 +65,7 @@ The Triggers - Campaign integration documentation has been updated. [Read more](
 
 Update of the contextual help links available directly from Adobe Campaign.
 
-Added a note on the addition of a timestamp in the name of the file containing the rejects. [Read more](../../automating/using/load-file.md#configuration)
+Added a note on the addition of a timestamp in the name of the file containing the rejects. [Read more](automating1FLB_sect2_n2z_qbx_35.md)
 
 Added information when importing fields made up of columns with fixed length. [Read more](../../automating/using/load-file.md#configuration)
 

@@ -1,0 +1,113 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="External accounts" name="jcr:description" /> 
+  <meta content="2019-02-13T06:19:02.099-0500" name="lastPublishExternalDate" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="b244bd6b-5f9d-4ec8-b65d-b8ef7557d79f" name="jcr:uuid" /> 
+  <meta content="sauviat" name="contentOwner" /> 
+  <meta content="2019-02-13T06:19:02.099-0500" name="topicBrowsingSortDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="b6e40b30-cf87-4e0a-9e6d-85d42ee6ffe4" name="jcr:predecessors" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2019-02-13T06:19:02.143-0500" name="cq:lastReplicated" /> 
+  <meta content="https://helpx.adobe.com/campaign/standard/administration/using/external-accounts.html" name="publishExternalURL" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="audience:administration" name="primaryAudienceTag" /> 
+  <meta content="2018-02-16T08:04:23.760-0500" name="jcr:created" /> 
+  <meta content="External accounts" name="navTitle" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2019-02-13T06:14:32.298-0500" name="firstPublishExternalDate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2019-02-15T02:58:52.716-0500" name="locHandOffDate" /> 
+  <meta content="External accounts" name="jcr:title" /> 
+  <meta content="sauviat" name="cq:lastReplicatedBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2019-02-15T02:58:52.716-0500" name="cq:lastModified" /> 
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:administration;content_type:reference;topic_tags:application-settings" name="cq:tags" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="Configure external accounts to set up connections with external systems such as SFTP servers." name="seoDescription" /> 
+  <meta content="2019-02-13T06:19:02.099-0500" name="publishExternalDate" /> 
+ </head> 
+ <body> 
+  <p>An external account is a configuration that allows you to configure and test the access to a server that is external to Adobe Campaign.</p> 
+  <p>These external accounts can be used in Campaign workflows to access and manage data.</p> 
+  <p>You can set up the following types of external accounts: </p> 
+  <ul> 
+   <li><p>SFTP. For more on this, refer to <a href="../../administration/using/external-accounts.md#sftp-external-account">this section</a>.</p> </li> 
+   <li><p>Amazon Storage Service (S3). For more on this, refer to <a href="../../administration/using/external-accounts.md#amazon-s3-external-account">this section</a>.</p> </li> 
+   <li><p>Adobe Experience Manager. For more on this, refer to <a href="../../administration/using/external-accounts.md#adobe-experience-manager-external-account">this section</a>.</p> </li> 
+   <li><p>Adobe Analytics. For more on this, refer to <a href="../../integrating/using/configure-campaign-analytics-integration.md">this section</a>.</p> </li> 
+  </ul> 
+  <note> 
+   <p> Other types of external accounts are used by Adobe during product provisioning process. From Campaign Standard 17.9 release, FTP external accounts can still be defined but are no longer usable in new workflow activities. If you already had a connection set up, it is still enabled. </p> 
+  </note> 
+  <p>External accounts can be configured by administrators under the <span class="uicontrol">Administration &gt; Application settings &gt; External accounts</span> menu.</p> 
+  <h2 id="creating-an-external-account">Creating an external account</h2> 
+  <p>Adobe Campaign comes with a set of pre-defined external accounts. In order to set up connections with external systems such as FTP servers used for file transfers, you can create your own external accounts.</p> 
+  <p>External accounts are used by technical processes such as technical workflows or campaign workflows. When setting up a file transfer in a workflow or a data exchange with any other application (Adobe Target, Experience Manager, etc.), you need to select an external account.</p> 
+  <ol> 
+   <li><p>Click the <span class="uicontrol">Create</span> button.</p> </li> 
+   <li><p>Enter a label. The label and the ID will be used when selecting external accounts in workflows.</p> </li> 
+   <li><p>Select the type of account you want to create.</p> </li> 
+   <li><p>Configure the access to the account by specifying credentials, server address, port number, and or keys when relevant.</p> <p>The necessary information is usually provided by the provider of the server you are connecting to.</p> </li> 
+   <li><p>Save your account.</p> </li> 
+  </ol> 
+  <p>The external account is created and added to the account list. It is now available for your data/file transfers or routing configurations in workflow activities and delivery properties.</p> 
+  <h2 id="sftp-external-account">SFTP external account</h2> 
+  <p>Different external account types require different information to be specified.</p> 
+  <p>For an SFTP external account, provide the following details:</p> 
+  <ul> 
+   <li><p>Server address. For example, <strong>ftp.domain.com</strong>.</p> </li> 
+   <li><p>Port number. For example, <strong>22</strong>.</p> </li> 
+   <li><p>SFTP server credentials: account name and password used to connect to the server.</p> </li> 
+  </ul> 
+  <h3 id="adobe-hosted-sftp-server-recommendations">Adobe hosted SFTP server recommendations</h3> 
+  <p>When managing files and data for ETL purposes, these files are stored on a hosted SFTP server provided by Adobe. This SFTP is designed to be a temporary storage space on which you can control retention and deletion of files.</p> 
+  <p>When not correctly used or monitored, this space can quickly fill the physical space available on the server and cause severe problems. It can result in data loss or corruption on your platform.</p> 
+  <p>To avoid such problems, Adobe recommends to follow the best practices below:</p> 
+  <ul> 
+   <li><p>Keep the minimum data possible.</p> </li> 
+   <li><p>Use key based authentication to avoid password expiry. Supported formats are <strong>OpenSSH</strong> and <strong>SSH2</strong> only. You will have to provide the public key to Adobe support team to have it uploaded on the Campaign server.</p> </li> 
+   <li><p>Keep data for only as long as required. 15 days is the maximum time limit.</p> </li> 
+   <li><p>Use workflows to properly delete the data (manage the retention from workflows consuming the data).</p> </li> 
+   <li><p>Use batching in SFTP uploads as well as in workflows.</p> </li> 
+   <li><p>Handle errors/exceptions.</p> </li> 
+   <li><p>Occasionally, log-in to SFTP to directly check what is lying there.</p> </li> 
+   <li><p>Remember that SFTP disk management is primarily your responsibility.</p> </li> 
+  </ul> 
+  <p>Also, note that the public IPs from which you are trying to initiate the SFTP connection must be whitelisted on the Campaign instance. Whitelisting of IP addresses can be requested via a <a href="https://support.neolane.net">support ticket</a>, along with providing the public key to use for authentication.</p> 
+  <h2 id="amazon-s3-external-account">Amazon S3 external account</h2> 
+  <p>The Amazon S3 server field should be filled as follows: </p> 
+  <codeblock gutter="true" class="syntax html">
+    &lt;S3&amp;nbsp;bucket&amp;nbsp;name&gt;.s3.amazonaws.com/&lt;s3&amp;nbsp;object&amp;nbsp;path&gt; 
+  </codeblock> 
+  <p>To store your file in S3 encrypted mode, check the <span class="uicontrol">Keep files in S3 encrypted</span> box.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/external_accounts_2.png" title="" /> 
+  <p>The necessary information is usually provided by the provider of the server you are connecting to.</p> 
+  <p>Specify the <span class="uicontrol">AWS Region</span> associated to your endpoint. You can check the supported regions and signature versions in the official <a class="anchorLink" href="https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region" target="_blank">Amazon S3 documentation</a> .</p> 
+  <h3 id="amazon-s3-account-recommendations">Amazon S3 account recommendations</h3> 
+  <p>To help you set up your Amazon S3 account, we advise you to follow these recommendations:</p> 
+  <ul> 
+   <li><p>Create strict bucket policy to restrict access to S3 buckets. Bucket policy can be configured while creating a bucket. For more information, refer to the <a href="http://docs.aws.amazon.com/AmazonS3/latest/dev//example-bucket-policies.html">Amazon S3 documentation</a>. </p> </li> 
+   <li><p>While creating an external account, enable the encryption to store sensitive data in the S3 bucket by checking the <span class="uicontrol">Keep files in S3 encrypted</span> box.</p> </li> 
+   <li><p>Grant bucket permissions to specify who can access the object in a bucket. For more information on bucket permission, refer to the <a href="http://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html">Amazon S3 documentation</a></p> </li> 
+  </ul> 
+  <h2 id="adobe-experience-manager-external-account">Adobe Experience Manager external account</h2> 
+  <p>Adobe Experience Manager external accounts are used when integrating Campaign with Experience Manager.</p> 
+  <p>Process and requirements related to this integration are available in <a href="../../integrating/using/about-campaign-integrations.md">this document</a>.</p> 
+  <p>As you are setting up this new external account, you need to provide the following details:</p> 
+  <ul> 
+   <li><p>Server: enter the URL of the Adobe Experience Manager server. For example, <strong>http://aem.domain.com:4502</strong>.</p> </li> 
+   <li><p>AEM account credentials: use the account that will access the Adobe Experience Manager instance. It should be an account part of the campaign-remote group in Experience Manager.</p> </li> 
+  </ul> 
+ </body> 
+</html>

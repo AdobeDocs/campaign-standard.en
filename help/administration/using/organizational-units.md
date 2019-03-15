@@ -3,21 +3,19 @@ title: Organizational units
 seo-title: Organizational units
 description: Organizational units
 seo-description: Define your users' access levels using organizational units.
-uuid: 04c18808-6b78-45f4-81ec-6e67c44ad84e
+uuid: a0e27a4f-3f07-4353-a0af-e1fd3f98e3c9
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-discoiquuid: aea8505c-e4de-432a-8049-5fad8d048480
+discoiquuid: 82b4ade5-7307-4346-9a14-18ad0acd4e5d
 index: y
 internal: n
 snippet: y
 ---
 
 # Organizational units{#organizational-units}
-
-Organizational units
 
 ## About units {#about-units}
 

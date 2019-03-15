@@ -3,21 +3,19 @@ title: Editing queries
 seo-title: Editing queries
 description: Editing queries
 seo-description: Build a population thanks to the predefined filters and rules.
-uuid: 2a6a0aa3-96c5-476d-baf7-0c9485caaabf
+uuid: 78407e1c-826d-4926-b052-2dd81623a359
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: filtering-data
-discoiquuid: b30be47d-7e6d-4537-8316-2710827e97e3
+discoiquuid: 92491c91-29e5-4634-ac76-4d62d85a2961
 index: y
 internal: n
 snippet: y
 ---
 
 # Editing queries{#editing-queries}
-
-Editing queries
 
 ## About query editor {#about-query-editor}
 

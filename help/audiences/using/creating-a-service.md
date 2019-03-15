@@ -3,21 +3,19 @@ title: Creating a service
 seo-title: Creating a service
 description: Creating a service
 seo-description: Learn how to create your first service and configure it to send email confirmations to your subscribers.
-uuid: 0991db41-812f-4762-972f-0321ac109d08
+uuid: dbaf8088-72c3-43a1-9a1e-6c5bcf25b468
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
-discoiquuid: 92cff1ab-3234-4303-a8fd-2a867626f703
+discoiquuid: fafe6892-bc63-4916-95ef-3fed78b4a565
 index: y
 internal: n
 snippet: y
 ---
 
 # Creating a service{#creating-a-service}
-
-Creating a service
 
 In order to be able to manage subscriptions, you first need to create a service and configure it. Configuring a new service allows you to specify the email confirmations that the profiles will receive when they subscribe to or unsubscribe from the service. You will also define the subscription and unsubscription landing pages linked to the service. For example, a service subscription link inserted into an email will automatically direct the profile to the subscription landing page that is specified in the service.
 

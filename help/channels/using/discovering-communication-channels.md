@@ -3,21 +3,19 @@ title: Discovering communication channels
 seo-title: Discovering communication channels
 description: Discovering communication channels
 seo-description: Learn how to send personalized messages on various channels and to create cross-channel campaigns to better target your recipients.
-uuid: 80452cd3-1b0b-4590-96ef-578c07b61fba
+uuid: 100d5bf3-02c1-4091-b793-d3633ea92e6a
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
-discoiquuid: 1f79002b-cf07-4e1f-85c9-159fa7e6f926
+discoiquuid: 79e4536b-0fad-4cc5-a599-a7000f1db4c8
 index: y
 internal: n
 snippet: y
 ---
 
 # Discovering communication channels{#discovering-communication-channels}
-
-Discovering communication channels
 
 Adobe Campaign allows you to create and send personalized messages on various channels and measure their effectiveness through dedicated reports.
 

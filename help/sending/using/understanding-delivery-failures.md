@@ -3,21 +3,19 @@ title: Understanding delivery failures
 seo-title: Understanding delivery failures
 description: Understanding delivery failures
 seo-description: Learn how to manage delivery failures with Campaign.
-uuid: 1d4f1ad2-eb99-4dbb-9492-b8d87ddb95e8
+uuid: 1d607853-738f-4bd2-b301-2ba1662d5eac
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-discoiquuid: 9dec1c7a-602e-43f0-bbbd-5a303ceeb8d5
+discoiquuid: 58c3ac85-5a32-434e-88d5-e607b46a25ac
 index: y
 internal: n
 snippet: y
 ---
 
 # Understanding delivery failures{#understanding-delivery-failures}
-
-Understanding delivery failures
 
 ## About delivery failures {#about-delivery-failures}
 

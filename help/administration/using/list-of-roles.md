@@ -3,21 +3,19 @@ title: List of roles
 seo-title: List of roles
 description: List of roles
 seo-description: Find out the list of roles that you can assign to your users.
-uuid: 01c5ea1f-8d12-4137-9fda-6cb6da065912
+uuid: bd88f055-ad51-46af-8be5-bae0843f407a
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-discoiquuid: b3dbbff5-292b-47a5-b62e-b8667bc619ec
+discoiquuid: 36508dae-148b-4268-9463-283023ae8763
 index: y
 internal: n
 snippet: y
 ---
 
 # List of roles{#list-of-roles}
-
-List of roles
 
 By default, Adobe Campaign offers a set of roles which allows you to define unitary authorizations assigned to users and user groups. Combined with organizational units, roles give users a filtered view of the interface and define their access to the different features. For more on this, refer to the [Roles and permissions table](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
 

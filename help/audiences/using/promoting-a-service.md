@@ -3,21 +3,19 @@ title: Promoting a service
 seo-title: Promoting a service
 description: Promoting a service
 seo-description: Use Adobe Campaign to promote a service and engage your customers through dedicated landing pages, emails or directly on your website.
-uuid: bfdebbb2-1ef1-4bfa-a51f-3315bc961f62
+uuid: 3f3d8549-ca22-48f9-b73c-855da0fb85e0
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
-discoiquuid: dbfa8996-3947-409b-8a68-eb77e65672bd
+discoiquuid: e23ed918-28d3-4a51-9061-55b744ab6020
 index: y
 internal: n
 snippet: y
 ---
 
 # Promoting a service{#promoting-a-service}
-
-Promoting a service
 
 You can offer subscriptions to a service in several ways, and give your visitors the ability to manage their subscription.
 

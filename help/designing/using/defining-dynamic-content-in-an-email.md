@@ -3,21 +3,19 @@ title: Defining dynamic content in an email
 seo-title: Defining dynamic content in an email
 description: Defining dynamic content in an email
 seo-description: Follow these steps to display different contents dynamically in an email according to the conditions defined through the Adobe Campaign expression editor.
-uuid: 1fa39743-0b8e-4f5d-a632-a415e09961ec
+uuid: 082fbb5c-1e3b-46e2-969b-29aaabadd7be
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: defining-conditional-content
-discoiquuid: fb894e71-e1a2-4aed-b89e-072c75bc8288
+discoiquuid: a7f807b7-26ec-410d-bca3-72caff8f1b22
 index: y
 internal: n
 snippet: y
 ---
 
 # Defining dynamic content in an email{#defining-dynamic-content-in-an-email}
-
-Defining dynamic content in an email
 
 In an email, you can define different contents which will be displayed dynamically to the recipients according to the conditions defined via the expression editor. For example, from the same email, you can ensure that each profile receives a different message according to their age range.
 

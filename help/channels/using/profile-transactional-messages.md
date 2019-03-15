@@ -3,21 +3,19 @@ title: Profile transactional messages
 seo-title: Profile transactional messages
 description: Profile transactional messages
 seo-description: Learn how to create and publish a profile transactional message.
-uuid: 44c41b73-2d32-4934-9674-3f8a5bf029bf
+uuid: 04621ecd-8e92-4fcc-9b1e-496e8f56f4e2
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
-discoiquuid: 97066ad8-921a-4407-8ea8-de0281b89249
+discoiquuid: b0f983d1-94a0-491c-941b-44ec3941e12e
 index: y
 internal: n
 snippet: y
 ---
 
 # Profile transactional messages{#profile-transactional-messages}
-
-Profile transactional messages
 
 You can send transactional messages based on customer marketing profiles, which allows you to:
 

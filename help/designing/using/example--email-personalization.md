@@ -3,21 +3,19 @@ title: "Example: Email personalization"
 seo-title: "Example: Email personalization"
 description: "Example: Email personalization"
 seo-description: See a full example of personalizing an email with dynamic content and text according to the profiles' ages.
-uuid: a51a44da-c2db-4596-86de-57a4b7084358
+uuid: f658cd7e-e356-4ed6-adf9-1418b1975474
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: personalizing-content
-discoiquuid: a7f76948-6fff-482c-8c83-8abf6c84a1e4
+discoiquuid: e3364902-f489-4884-a6cd-aa013257aec7
 index: y
 internal: n
 snippet: y
 ---
 
 # Example: Email personalization{#example-email-personalization}
-
-Example: Email personalization
 
 In this example, a member of the marketing service team has created an email to inform some of his clients that there is a special offer just for them. The team member decided to personalize the email according to the clients' respective ages. Clients aged between 18 and 27 years old will receive an email containing a different image and slogan to those that the clients older than 27 will receive.
 

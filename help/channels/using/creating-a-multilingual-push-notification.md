@@ -3,21 +3,19 @@ title: Creating a multilingual push notification
 seo-title: Creating a multilingual push notification
 description: Creating a multilingual push notification
 seo-description: Create multilingual push notifications to target your users in their preferred languages and regions.
-uuid: 1d3a2226-72b4-42b6-b10b-fcc41d6ca9af
+uuid: 7d18a5ff-ba67-4cb2-b6b7-84e4d00b18ff
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: push-notifications
-discoiquuid: 234c4b1c-c961-49d6-acb7-f64bf1fdde39
+discoiquuid: 02108f46-a38e-4097-8538-47ac75cc93ab
 index: y
 internal: n
 snippet: y
 ---
 
 # Creating a multilingual push notification{#creating-a-multilingual-push-notification}
-
-Creating a multilingual push notification
 
 ## About multilingual push notification {#about-multilingual-push-notification}
 

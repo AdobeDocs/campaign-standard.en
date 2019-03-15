@@ -3,21 +3,19 @@ title: About data import and export
 seo-title: About data import and export
 description: About data import and export
 seo-description: Learn about the different ways to import and export data with Adobe Campaign.
-uuid: 796b180c-2414-47f0-a697-b3fbf331f03c
+uuid: 7b7ee137-0e38-45f6-a094-48a3cb3544da
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
-discoiquuid: 8210565d-0704-4d65-9b65-8d0a07911337
+discoiquuid: d26e7b1f-6ff3-4bd8-8cb9-5d373c9d6de9
 index: y
 internal: n
 snippet: y
 ---
 
 # About data import and export{#about-data-import-and-export}
-
-About data import and export
 
 Depending on your business needs, you have several ways to import and export data with Adobe Campaign:
 

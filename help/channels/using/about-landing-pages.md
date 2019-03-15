@@ -3,21 +3,19 @@ title: About landing pages
 seo-title: About landing pages
 description: About landing pages
 seo-description: Discover the landing page templates and life cycle.
-uuid: 96325836-a116-4302-a8c2-9df2e41c7ccf
+uuid: 296340ef-4476-48bf-a8ca-8b041299adf8
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: landing-pages
-discoiquuid: 096705bc-cc69-4cf5-abff-31f2cb739497
+discoiquuid: ff21f5d4-be98-4888-adeb-8e3f260882f6
 index: y
 internal: n
 snippet: y
 ---
 
 # About landing pages{#about-landing-pages}
-
-About landing pages
 
 Campaign comes with landing pages which are online forms that can be used to capture information on your audiences, offer subscriptions to a service, display data and grow your database. Landing pages can also be used for acquiring or updating existing profiles.
 

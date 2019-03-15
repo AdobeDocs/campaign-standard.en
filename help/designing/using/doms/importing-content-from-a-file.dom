@@ -1,0 +1,52 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="jcr:primaryType" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2019-02-13T06:29:14.790-0500" name="firstPublishExternalDate" />
+  <meta content="2019-02-15T02:58:23.533-0500" name="locHandOffDate" />
+  <meta content="light" name="heroGradient" />
+  <meta content="Importing content from a file" name="jcr:description" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2018-07-23T07:30:15.125-0400" name="jcr:created" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="3c433b1a-f589-4f88-8eb8-df428a44c9e8" name="jcr:predecessors" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="Importing content from a file" name="jcr:title" />
+  <meta content="https://helpx.adobe.com/campaign/standard/designing/using/importing-content-from-a-file.html" name="publishExternalURL" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2019-02-15T02:58:23.534-0500" name="cq:lastModified" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2019-02-13T06:29:14.790-0500" name="lastPublishExternalDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:loading-content" name="cq:tags" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2019-02-13T06:29:14.813-0500" name="cq:lastReplicated" />
+  <meta content="Discover how to upload a file from your computer when creating an email or a landing page." name="seoDescription" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="13918f40-f109-40ee-bd7a-e0c9826ca4cf" name="jcr:uuid" />
+  <meta content="2019-02-13T06:29:14.790-0500" name="topicBrowsingSortDate" />
+  <meta content="2019-02-13T06:29:14.790-0500" name="publishExternalDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Importing content from a file" name="navTitle" />
+  <meta content="audience:designing" name="primaryAudienceTag" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+ </head>
+ <body>
+  <p>From the Email Designer home page, click the <span class="uicontrol">Upload</span> button to upload a file from your computer, then confirm.</p> 
+  <p>There are no constraints on the zip file structure. However, referencing HTML files has to be relative and respect the tree structure of the zip folder.</p> 
+  <p>The following formats are supported for import:</p> 
+  <ul>
+   <li><p>An HTML file with an incorporated style sheet</p> </li>
+   <li><p>A .zip folder containing the HTML file, the style sheet (.CSS) and the images</p> </li>
+  </ul>
+  <note>
+   <p> For email content, we recommend that you import single HTML files with an incorporated style sheet. </p> 
+  </note>
+ </body>
+</html>

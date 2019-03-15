@@ -1,0 +1,64 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="Defining dynamic content in a landing page" name="jcr:title" />
+  <meta content="2018-07-23T07:30:16.487-0400" name="jcr:created" />
+  <meta content="Defining dynamic content in a landing page" name="navTitle" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="2019-02-13T06:29:57.930-0500" name="firstPublishExternalDate" />
+  <meta content="light" name="heroGradient" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="dba2f53d-5c26-43ae-8bf8-07cece4a3dda" name="jcr:predecessors" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="https://helpx.adobe.com/campaign/standard/designing/using/defining-dynamic-content-in-a-landing-page.html" name="publishExternalURL" />
+  <meta content="2019-02-13T06:29:58.044-0500" name="cq:lastReplicated" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:designing;content_type:reference;topic_tags:defining-conditional-content" name="cq:tags" />
+  <meta content="70cc470f-c63d-49a5-9b79-ac20611ee658" name="jcr:uuid" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="2019-02-15T02:59:12.778-0500" name="locHandOffDate" />
+  <meta content="Defining dynamic content in a landing page" name="jcr:description" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="audience:designing" name="primaryAudienceTag" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2019-02-13T06:29:57.930-0500" name="topicBrowsingSortDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="2019-02-13T06:29:57.930-0500" name="lastPublishExternalDate" />
+  <meta content="Follow these steps to display different contents dynamically in a landing page according to the conditions defined through the Adobe Campaign expression editor." name="seoDescription" />
+  <meta content="2019-02-15T02:59:12.779-0500" name="cq:lastModified" />
+  <meta content="2019-02-13T06:29:57.930-0500" name="publishExternalDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="en_us" name="jcr:language" />
+ </head>
+ <body>
+  <p>To define dynamic content in a landing page, select a block using the breadcrumb or by directly clicking an element.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/dynamic_content_lp_1.png" title="" />
+  <p>Certain blocks, such as images, cannot be directly selected. In this case, select the parent block using the breadcrumb. You can then modify all of the elements included in this parent element, including images. The condition will be applied to all child elements within the parent block.</p> 
+  <p>The breadcrumb is presented in the <a href="../../designing/using/managing-landing-page-structure-and-style.md">Managing blocks</a> section.</p> 
+  <p>The next steps for defining dynamic content in a landing page are similar to the steps to follow for an email. See <a href="../../designing/using/defining-dynamic-content-in-an-email.md">this section</a>.</p> 
+  <note>
+   <p> If a variant element is outlined in red, this means that an expression has not yet been defined. </p> 
+  </note>
+  <h2 id="previewing-dynamic-content-in-a-landing-page">Previewing dynamic content in a landing page</h2>
+  <p>You can navigate between the different dynamic contents of a block. To do this:</p> 
+  <ol>
+   <li><p>Select the block.</p> <p>Arrows appear on the right- and left-hand sides of the image.</p> </li>
+   <li><p>Click the right arrow to browse through the available dynamic contents.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/dynamic_content_lp_2.png" title="" /><p>The arrows on each side dim according to whether you have reached the last or first available dynamic contents.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/dynamic_content_lp_3.png" title="" /></li>
+   <li><p>To delete all the conditions applied to a block, select that block and click the <span class="uicontrol">Disable dynamic content</span> icon.</p> </li>
+   <li><p>Select the dynamic content that you would like to keep.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/dynamic_content_lp_5.png" title="" /></li>
+  </ol>
+  <p>In the palette:</p> 
+  <ul>
+   <li><p>The contents which have an expression entered are no longer outlined in red, they are shown in gray.</p> </li>
+   <li><p>The content that is currently selected appears in blue.</p> </li>
+  </ul>
+  <img alt="" captionBottom="" imageRotate="0" src="assets/dynamic_content_lp_4.png" title="" />
+ </body>
+</html>

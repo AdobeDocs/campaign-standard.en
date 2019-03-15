@@ -3,21 +3,19 @@ title: Email delivery
 seo-title: Email delivery
 description: Email delivery
 seo-description: The Email delivery activity allows you to configure sending a single send email or a recurring email in a workflow.
-uuid: 60bdfce3-5c26-42ef-b2db-e3443e377d99
+uuid: 1d17fcf0-62be-4a70-9b5c-9f5cf31727a1
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: channel-activities
-discoiquuid: cd1c6f55-1c10-49a5-aeb4-fe0dc6e1421c
+discoiquuid: 394e6754-bc74-4812-93d9-f3a962e2088a
 index: y
 internal: n
 snippet: y
 ---
 
 # Email delivery{#email-delivery}
-
-Email delivery
 
 ## Description {#description}
 

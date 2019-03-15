@@ -3,21 +3,19 @@ title: Adding visualizations
 seo-title: Adding visualizations
 description: Adding visualizations
 seo-description: Dynamic reports offer a set of visualizations to add a graphical representation to your report.
-uuid: 2bd1a5a3-1851-4975-9efd-d98b295c458a
+uuid: 2686c028-fe6c-4d1f-9a80-475867b299f9
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
-discoiquuid: 3b89a88e-ad83-4214-87d7-a175df213181
+discoiquuid: 71e83b7c-d526-4213-835b-d74b4224b740
 index: y
 internal: n
 snippet: y
 ---
 
 # Adding visualizations{#adding-visualizations}
-
-Adding visualizations
 
 The **Visualizations** tab lets you drag and drop visualization items, such as area, donut and graph. Visualizations give you graphical representations of your data.
 

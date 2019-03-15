@@ -3,21 +3,19 @@ title: About emails
 seo-title: About emails
 description: About emails
 seo-description: Discover the different types of emails that you can send with Adobe Campaign.
-uuid: a4453a68-055b-49f9-bd98-21ff89e24f0e
+uuid: 09a5b4ab-f575-4263-a7da-e05a9f5f2972
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: email-messages
-discoiquuid: 2b88603a-8fa5-4481-b857-d3cbf6956898
+discoiquuid: f4a5c948-c5bf-4453-b756-067b87db5408
 index: y
 internal: n
 snippet: y
 ---
 
 # About emails{#about-emails}
-
-About emails
 
 The email channel is one of the core channels in Adobe Campaign, allowing you to schedule and send personalized emails to specific targets.
 

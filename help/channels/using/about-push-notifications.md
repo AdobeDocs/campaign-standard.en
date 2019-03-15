@@ -3,21 +3,19 @@ title: About push notifications
 seo-title: About push notifications
 description: About push notifications
 seo-description: Discover the main specificities of the push notification channel in Adobe Campaign.
-uuid: ad497ed1-d770-48b3-81dc-c77d1a6236be
+uuid: 771bb1df-927c-4140-9684-e2ab9a49d58a
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: push-notifications
-discoiquuid: d17f527e-57a2-408a-abd5-ddfae410020b
+discoiquuid: 17df3410-7bd4-42ab-951a-4ec22b6cc6e3
 index: y
 internal: n
 snippet: y
 ---
 
 # About push notifications{#about-push-notifications}
-
-About push notifications
 
 >[!CAUTION]
 >

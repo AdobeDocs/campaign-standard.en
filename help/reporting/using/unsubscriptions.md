@@ -3,21 +3,19 @@ title: Unsubscriptions
 seo-title: Unsubscriptions
 description: Unsubscriptions
 seo-description: With the Unsubscriptions out-of-the-box report, learn how many times customers unsubscribed to your deliveries.
-uuid: c1370d09-aafa-4834-8116-9eccd2c743a5
+uuid: 73e64e0f-f177-4a83-b822-816e2e09abbc
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
-discoiquuid: 82c13a5a-059d-41a6-9f2d-3bdc2d515728
+discoiquuid: 4342cc51-707e-46ba-849b-6eaa39b86169
 index: y
 internal: n
 snippet: y
 ---
 
 # Unsubscriptions{#unsubscriptions}
-
-Unsubscriptions
 
 The **[!UICONTROL Unsubscriptions]** report identifies the deliveries with the most unsubscriptions.
 

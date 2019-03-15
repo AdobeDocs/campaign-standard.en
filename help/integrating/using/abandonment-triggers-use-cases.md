@@ -3,21 +3,19 @@ title: Abandonment Triggers use cases
 seo-title: Abandonment Triggers use cases
 description: Abandonment Triggers use cases
 seo-description: Learn how to use the Experience Cloud Triggers integration with these different use cases.
-uuid: 2e12b592-ea50-4898-a21e-d96dda526703
+uuid: 7504082b-4ca1-4a5f-8460-f9a69e90066b
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-discoiquuid: b4d1162f-b389-445f-a9b4-0d247465376b
+discoiquuid: 10950b48-c44c-49ed-b48a-58ed5047fa40
 index: y
 internal: n
 snippet: y
 ---
 
 # Abandonment Triggers use cases{#abandonment-triggers-use-cases}
-
-Abandonment Triggers use cases
 
 This section presents different use cases that can be implemented using the integration between Adobe Campaign and Experience Cloud Triggers. You will find two examples of use cases:
 

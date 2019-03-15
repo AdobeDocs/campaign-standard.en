@@ -3,21 +3,19 @@ title: Creating or extending the resource
 seo-title: Creating or extending the resource
 description: Creating or extending the resource
 seo-description: Discover how to define a resource from scratch.
-uuid: fbf9e1fe-f046-4a50-86db-204928f69ffb
+uuid: 1a716b90-ad82-44cd-9e51-8b8604c0d296
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
-discoiquuid: fe7e2360-f839-4eba-8e94-c63d22d5f780
+discoiquuid: ecdbbb27-ee2c-4fba-a435-20bc3c79c73d
 index: y
 internal: n
 snippet: y
 ---
 
 # Creating or extending the resource{#creating-or-extending-the-resource}
-
-Creating or extending the resource
 
 Administrators can create a new resource from scratch or create an extension of an existing resource if you need work on data that are not part of the out-of-the-box data model.
 

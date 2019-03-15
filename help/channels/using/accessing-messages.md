@@ -3,21 +3,19 @@ title: Accessing messages
 seo-title: Accessing messages
 description: Accessing messages
 seo-description: "Learn how to access messages and their advanced functionalities: creation, targeting, personalization, execution and reporting."
-uuid: a3bccb39-be7d-4371-b9de-3d11d3e4ac31
+uuid: 8f83dcbf-02b7-4a70-9293-f2d9366bf1ad
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
-discoiquuid: 97263d40-f56a-44bf-8baa-c2a506ae0dab
+discoiquuid: 256704fa-48c9-48e1-a47e-3aa2f0edc88c
 index: y
 internal: n
 snippet: y
 ---
 
 # Accessing messages{#accessing-messages}
-
-Accessing messages
 
 You can access a set of advanced functionalities, from targeting, creating and personalizing messages, executing communications, to associated operational reports.
 

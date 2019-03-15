@@ -3,21 +3,19 @@ title: Control rules
 seo-title: Control rules
 description: Control rules
 seo-description: Learn how to reinforce the quality check of your messages with control rules.
-uuid: e8ec3f1d-7496-4a2a-92de-75cf9b382096
+uuid: 5baf76c7-f045-4cc4-98f7-7fdf8751d656
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
-discoiquuid: 08bc00c2-dfb3-49aa-bb43-e249ff1a37e3
+discoiquuid: f74ed45e-0b4f-41ab-a444-931e42277dc9
 index: y
 internal: n
 snippet: y
 ---
 
 # Control rules{#control-rules}
-
-Control rules
 
 Control rules allow the user to check the validity and quality of the messages before they are sent, such as character display, SMS message size, address format, etc.
 

@@ -3,21 +3,19 @@ title: Opens
 seo-title: Opens
 description: Opens
 seo-description: With the Opens report, learn which delivery was the most viewed according to various criteria.
-uuid: 10bfd602-8e2c-4db5-867e-21509fe88979
+uuid: 6199d470-7dbe-4a35-88f0-2d28bab2af1c
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
-discoiquuid: 519f2814-8d5a-4600-9b59-2b2096a60fd5
+discoiquuid: b455be6f-7706-4e58-bc32-d36ee31ca1bc
 index: y
 internal: n
 snippet: y
 ---
 
 # Opens{#opens}
-
-Opens
 
 The **[!UICONTROL Opens]** report identifies the deliveries that have been most viewed by recipients.
 

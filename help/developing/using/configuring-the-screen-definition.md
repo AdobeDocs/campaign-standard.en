@@ -3,21 +3,19 @@ title: Configuring the screen definition
 seo-title: Configuring the screen definition
 description: Configuring the screen definition
 seo-description: Learn how to define new Adobe Campaign screens based on the resource data structure.
-uuid: d7478441-18e3-4fdf-8800-cecb3967ee54
+uuid: 8521a898-e073-4985-8f59-233ecb8c2a3d
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
-discoiquuid: 13d9865d-c963-468d-b7c8-0cc10e271997
+discoiquuid: 93d89880-f313-4102-9c81-6ebafc67ac43
 index: y
 internal: n
 snippet: y
 ---
 
 # Configuring the screen definition{#configuring-the-screen-definition}
-
-Configuring the screen definition
 
 When creating a resource or when adding new fields to an existing resource, you can define how you want them to appear in the interface.
 

@@ -3,21 +3,19 @@ title: Testing your triggers
 seo-title: Testing your triggers
 description: Testing your triggers
 seo-description: 
-uuid: 4b927b23-ba08-4471-8444-d035202af20c
+uuid: e6c9b872-65e3-49d7-a46b-efed58303104
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-discoiquuid: c97f8652-dcf3-4b1a-b78e-1d40cee013b8
+discoiquuid: d4a31f59-07a3-4ece-b3a1-5938401cf573
 index: y
 internal: n
 snippet: y
 ---
 
 # Testing your triggers{#testing-your-triggers}
-
-Testing your triggers
 
 The following troubleshooting tips will help you solve the most common problems you may encounter when using Triggers with Adobe Campaign:
 

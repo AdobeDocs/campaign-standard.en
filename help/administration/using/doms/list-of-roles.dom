@@ -1,0 +1,63 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="en_us" name="jcr:language" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2019-02-15T02:57:29.364-0500" name="cq:lastModified" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2019-02-13T06:18:42.816-0500" name="publishExternalDate" />
+  <meta content="2019-02-13T06:18:42.816-0500" name="topicBrowsingSortDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Find out the list of roles that you can assign to your users." name="seoDescription" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:administration;content_type:reference;topic_tags:users-and-security" name="cq:tags" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="light" name="heroGradient" />
+  <meta content="audience:administration" name="primaryAudienceTag" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2019-02-15T02:57:29.364-0500" name="locHandOffDate" />
+  <meta content="2019-02-13T06:14:30.120-0500" name="firstPublishExternalDate" />
+  <meta content="List of roles" name="navTitle" />
+  <meta content="04d3e938-7589-473b-9f4e-b3b9a0e4db81" name="jcr:uuid" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2018-02-16T08:01:35.478-0500" name="jcr:created" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="List of roles" name="jcr:description" />
+  <meta content="List of roles" name="jcr:title" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="2019-02-13T06:18:42.816-0500" name="lastPublishExternalDate" />
+  <meta content="2019-02-13T06:18:42.861-0500" name="cq:lastReplicated" />
+  <meta content="de185346-f964-4f49-9850-d8bc02a2ccb5" name="jcr:predecessors" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="https://helpx.adobe.com/campaign/standard/administration/using/list-of-roles.html" name="publishExternalURL" />
+ </head>
+ <body>
+  <p>By default, Adobe Campaign offers a set of roles which allows you to define unitary authorizations assigned to users and user groups. Combined with organizational units, roles give users a filtered view of the interface and define their access to the different features. For more on this, refer to the <a href="https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf">Roles and permissions table</a>.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/user_management_3.png" title="" />
+  <p>Roles can be managed from the <span class="uicontrol">Administration &gt; Users &amp; Security &gt; Roles</span> menu.</p> 
+  <p>Default rights are:</p> 
+  <ul>
+   <li><p>ADMINISTRATION: Generic administration right.</p> </li>
+   <li><p>DATAMODEL: Right to run publications and create custom resources.</p> </li>
+   <li><p>EXPORT: Right to export data.</p> </li>
+   <li><p>GENERIC IMPORT: Right to run a generic import on data. For this to work, you need to link the <span class="uicontrol">Generic import</span> role to the <span class="uicontrol">Workflow</span> role.</p> </li>
+   <li><p>PREPARE DELIVERIES: Right to create, edit, start delivery preparation and send proofs.</p> </li>
+   <li><p>START DELIVERIES: Right to validate previously prepared deliveries.</p> </li>
+   <li><p>WORKFLOW: Right to use workflows.</p> </li>
+  </ul>
+  <note>
+   <p> The DELIVERABILITY role is for Adobe administrators internal use only. It must not be granted to a user. </p> 
+  </note>
+  <p><strong>Related topics:</strong></p> 
+  <ul>
+   <li><p> <a href="../../administration/using/about-access-management.md" target="_blank">About access management</a></p> </li>
+   <li><p> <a href="../../administration/using/managing-groups-and-users.md" target="_blank">Managing groups and users</a></p> </li>
+  </ul>
+ </body>
+</html>

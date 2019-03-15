@@ -3,21 +3,19 @@ title: Resource statuses
 seo-title: Resource statuses
 description: Resource statuses
 seo-description: Discover the different resource statuses according to their publication state.
-uuid: 3aed73cc-5c97-455b-84f5-13c05a527326
+uuid: 7e8659c9-ebd3-4539-93ba-c50b09e39b0c
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: about-custom-resources
-discoiquuid: c1ffda41-e88b-42b8-8a00-ce6f83a92fff
+discoiquuid: 9ec7602f-0dfe-4677-988b-149a629d2f69
 index: y
 internal: n
 snippet: y
 ---
 
 # Resource statuses{#resource-statuses}
-
-Resource statuses
 
 Resources can have different statuses according to their publication or activation status.
 

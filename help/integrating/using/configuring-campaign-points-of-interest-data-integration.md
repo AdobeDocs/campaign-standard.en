@@ -3,21 +3,19 @@ title: Configuring Campaign-Points of Interest data integration
 seo-title: Configuring Campaign-Points of Interest data integration
 description: Configuring Campaign-Points of Interest data integration
 seo-description: Learn how to configure the Points of Interest data feature in Adobe Campaign to send personalized messages based on your subscribers' location.
-uuid: 02c8e56f-d33f-4830-997b-b225bd4adf64
+uuid: 6788832c-b0d1-4b59-9028-90d0b9ee31d2
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
-discoiquuid: e99022f2-fa25-4735-9b75-826da41d97c9
+discoiquuid: 04993f01-f711-4ec2-9f10-166111a95cd6
 index: y
 internal: n
 snippet: y
 ---
 
 # Configuring Campaign-Points of Interest data integration{#configuring-campaign-points-of-interest-data-integration}
-
-Configuring Campaign-Points of Interest data integration
 
 The mobile applications used to collect location data must be configured by an **administrator** in the Adobe Campaign interface.
 

@@ -3,21 +3,19 @@ title: Optimizing the sending time
 seo-title: Optimizing the sending time
 description: Optimizing the sending time
 seo-description: Learn how to set up sending time and improve the open rate of your messages.
-uuid: e76e3e39-f51e-4318-8367-46f22c70f027
+uuid: cabb7a11-8825-4d31-95b7-67df56057b1d
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-discoiquuid: ad1a0ad2-1457-468c-adc6-f40d83287151
+discoiquuid: f767bda3-59d6-4783-91c2-5c7c174e79a7
 index: y
 internal: n
 snippet: y
 ---
 
 # Optimizing the sending time{#optimizing-the-sending-time}
-
-Optimizing the sending time
 
 To improve the open rate of your messages, you can manually define a sending time per recipient. Each profile will receive the message at the specified date and time, whenever possible.
 

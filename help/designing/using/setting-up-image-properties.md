@@ -3,21 +3,19 @@ title: Setting up image properties
 seo-title: Setting up image properties
 description: Setting up image properties
 seo-description: See how to manage the properties of the images included in your content.
-uuid: d0e605d4-bdc5-4e39-b43a-41c9abbf8d25
+uuid: c39226d6-d3c7-49a7-9a27-50e9e78ff448
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: using-images
-discoiquuid: 3d8db2c7-4f94-4229-851d-f13010845d47
+discoiquuid: 89dfa0e6-bfa8-4948-96ca-cafc73f70909
 index: y
 internal: n
 snippet: y
 ---
 
 # Setting up image properties{#setting-up-image-properties}
-
-Setting up image properties
 
 When you select a block that contains an image, the following properties are offered in the palette:
 

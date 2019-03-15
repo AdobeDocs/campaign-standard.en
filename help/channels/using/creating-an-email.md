@@ -3,21 +3,19 @@ title: Creating an email
 seo-title: Creating an email
 description: Creating an email
 seo-description: Follow these steps to create a single-send email in Adobe Campaign.
-uuid: 86c6811c-9067-49ef-970c-508c45ec76a0
+uuid: e46f7096-6d0a-4c73-9920-f1a3f59ce887
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: email-messages
-discoiquuid: 339f779b-ff77-4329-8847-27896b2a7941
+discoiquuid: 8de5dbab-a7c2-447a-8822-c0e5ee2faf8e
 index: y
 internal: n
 snippet: y
 ---
 
 # Creating an email{#creating-an-email}
-
-Creating an email
 
 You can create an email from a [campaign](../../start/using/marketing-activities.md#creating-a-marketing-activity), from the Adobe Campaign [home page](../../start/using/interface-description.md#home-page), or in the [marketing activity list](../../start/using/programs-and-campaigns.md#creating-a-campaign). You can also create single-send and recurring emails from a workflow.
 

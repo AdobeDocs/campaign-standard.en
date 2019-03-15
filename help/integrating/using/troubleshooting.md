@@ -3,21 +3,19 @@ title: Troubleshooting
 seo-title: Troubleshooting
 description: Troubleshooting
 seo-description: Learn how to troubleshoot issues when sharing resources.
-uuid: e02a33c8-f836-4f32-82a9-4071631fa0ad
+uuid: bca73f4d-c23f-48ac-aea3-d4a08d342cb5
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
-discoiquuid: 6a0c6306-1efc-40e0-8dc1-ff011a857bca
+discoiquuid: 19fdf7f3-11b7-40cb-a373-b6ccb9031ad3
 index: y
 internal: n
 snippet: y
 ---
 
 # Troubleshooting{#troubleshooting}
-
-Troubleshooting
 
 Errors may be encountered while using the integration with Audience Manager or People core service.
 

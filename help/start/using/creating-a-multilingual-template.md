@@ -3,21 +3,19 @@ title: Creating a multilingual template
 seo-title: Creating a multilingual template
 description: Creating a multilingual template
 seo-description: Learn how to define and execute multilingual Email/SMS deliveries through a single delivery based on your automatically segmented customers' preferred language. Report on the performance of every delivery down to the language and individual levels.
-uuid: d28d735e-4f51-4e8b-91e8-bde08413e79a
+uuid: 975dd981-1aeb-4c1f-9ca8-1d13aa1f83ae
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
 topic-tags: managing-templates
-discoiquuid: e5cfd37c-76a0-482f-8278-982d2607db4b
+discoiquuid: 6786667f-f907-4eea-a580-5c777b043dae
 index: y
 internal: n
 snippet: y
 ---
 
 # Creating a multilingual template{#creating-a-multilingual-template}
-
-Creating a multilingual template
 
 A multilingual template is a specific template to manage multilingual messages.
 

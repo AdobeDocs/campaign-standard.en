@@ -1,0 +1,49 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="light" name="heroGradient" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2019-02-15T02:58:02.372-0500" name="locHandOffDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:audiences;content_type:reference;topic_tags:understanding-opt-in-and-opt-out-processes" name="cq:tags" />
+  <meta content="Identifying opt-out profiles for a delivery" name="jcr:title" />
+  <meta content="b131c280-5140-4775-ac84-fdd296dce421" name="jcr:predecessors" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2019-02-13T06:23:28.495-0500" name="topicBrowsingSortDate" />
+  <meta content="Identifying opt-out profiles for a delivery" name="jcr:description" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="48430ce7-66ce-4c87-a583-a37c0f1b72c5" name="jcr:uuid" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="https://helpx.adobe.com/campaign/standard/audiences/using/identifying-opt-out-profiles-for-a-delivery.html" name="publishExternalURL" />
+  <meta content="audience:audiences" name="primaryAudienceTag" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2019-02-13T06:23:28.524-0500" name="cq:lastReplicated" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-05-07T07:29:07.917-0400" name="jcr:created" />
+  <meta content="2019-02-15T02:58:02.373-0500" name="cq:lastModified" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2019-02-13T06:23:28.495-0500" name="lastPublishExternalDate" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2019-02-13T06:23:28.495-0500" name="firstPublishExternalDate" />
+  <meta content="Discover how to identify opt-out profiles for a delivery." name="seoDescription" />
+  <meta content="Identifying opt-out profiles for a delivery" name="navTitle" />
+  <meta content="2019-02-13T06:23:28.495-0500" name="publishExternalDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+ </head>
+ <body>
+  <p>Opt-out profiles for a specific delivery are listed after the preparation phase, in the <span class="uicontrol">Exclusion logs</span> tab of the delivery dashboard.</p> 
+  <img alt="" captionBottom="" imageRotate="0" src="assets/exclusion_blacklisting.png" title="" />
+  <p><strong>Related topics:</strong></p> 
+  <ul>
+   <li><p> <a href="../../sending/using/monitoring-a-delivery.md#exclusion-logs">Monitoring a delivery</a>.</p> </li>
+   <li><p> <a href="../../sending/using/preparing-the-send.md">Preparing the send</a>.</p> </li>
+  </ul>
+ </body>
+</html>

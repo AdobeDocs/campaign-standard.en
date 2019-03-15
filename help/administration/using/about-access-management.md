@@ -3,22 +3,19 @@ title: About access management
 seo-title: About access management
 description: About access management
 seo-description: Manage your Adobe Campaign operators using roles, groups and organizational units.
-uuid: 5d28e2fd-d0da-4351-baea-3a43971fcade
+uuid: f9589c97-15d6-4c03-ae48-853b47a86926
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-discoiquuid: d8639bb9-1cd5-4547-9bbc-971cde65b9d5
+discoiquuid: e3937406-6691-4430-928c-8fa8ee6932b7
 index: y
 internal: n
 snippet: y
-contextualhelp: access management, overview
 ---
 
 # About access management{#about-access-management}
-
-About access management
 
 >[!CAUTION]
 >

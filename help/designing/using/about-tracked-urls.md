@@ -3,21 +3,19 @@ title: About tracked URLs
 seo-title: About tracked URLs
 description: About tracked URLs
 seo-description: Learn how to manage all the URLs of your content that will be tracked.
-uuid: 1ce31585-2e27-4fad-9e1e-cb89f924b4ba
+uuid: e85b07f3-1213-4dfb-9167-c324080eb330
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: managing-links
-discoiquuid: 7af9fda3-89f5-4f7b-bf65-1bf4f387a4c8
+discoiquuid: 8c693947-1296-4a23-9307-0c3b95bd062b
 index: y
 internal: n
 snippet: y
 ---
 
 # About tracked URLs{#about-tracked-urls}
-
-About tracked URLs
 
 In the email content, a menu summarizes all the URLs of your content that will be tracked.
 

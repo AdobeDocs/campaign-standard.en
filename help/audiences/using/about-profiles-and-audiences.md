@@ -3,21 +3,19 @@ title: About profiles and audiences
 seo-title: About profiles and audiences
 description: About profiles and audiences
 seo-description: "Learn about profiles and audiences management within Adobe Campaign: define targeted populations, select audiences, filter recipients, collect data and update profiles."
-uuid: 13692530-3041-45ae-8d2a-e933686d5301
+uuid: 65ad2eaa-25c5-45bf-9d0e-4a3f8f2785d2
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
-discoiquuid: 333512a2-ff29-4166-bb52-1343dbd1e14b
+discoiquuid: dd544c96-db20-4290-8496-99d7ef75b4f4
 index: y
 internal: n
 snippet: y
 ---
 
 # About profiles and audiences{#about-profiles-and-audiences}
-
-About profiles and audiences
 
 When you create campaigns or messages, you can specify the target of the deliveries by selecting from contacts in Campaign database, using simple or advanced criteria, or selecting audiences.
 

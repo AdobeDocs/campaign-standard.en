@@ -1,0 +1,70 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="jcr:primaryType" />
+  <meta content="sauviat" name="cq:lastReplicatedBy" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2019-02-13T06:18:54.707-0500" name="publishExternalDate" />
+  <meta content="light" name="heroGradient" />
+  <meta content="1fd44c31-26fe-4456-b23e-e8390b19c8a8" name="jcr:uuid" />
+  <meta content="https://helpx.adobe.com/campaign/standard/administration/using/filtering-rules.html" name="publishExternalURL" />
+  <meta content="sauviat@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="Filtering rules" name="jcr:description" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2019-02-13T06:18:54.707-0500" name="lastPublishExternalDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD;audience:administration;content_type:reference;topic_tags:working-with-typology-rules" name="cq:tags" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Use filtering rules to refine the audience of your messages." name="seoDescription" />
+  <meta content="Filtering rules" name="jcr:title" />
+  <meta content="2019-02-13T06:18:54.707-0500" name="topicBrowsingSortDate" />
+  <meta content="2019-02-13T06:18:54.737-0500" name="cq:lastReplicated" />
+  <meta content="2019-02-13T06:14:31.439-0500" name="firstPublishExternalDate" />
+  <meta content="sauviat" name="contentOwner" />
+  <meta content="2019-02-15T02:58:32.042-0500" name="locHandOffDate" />
+  <meta content="products:SG_CAMPAIGN/STANDARD" name="primaryProductTag" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="2019-02-15T02:58:32.043-0500" name="cq:lastModified" />
+  <meta content="Filtering rules" name="navTitle" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2018-02-16T08:04:25.146-0500" name="jcr:created" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="4c1a1d32-9513-4652-9f8e-db1afd992a1c" name="jcr:predecessors" />
+  <meta content="audience:administration" name="primaryAudienceTag" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="" name="jcr:baseVersion" />
+ </head>
+ <body>
+  <p>Filtering rules allow you to exclude one part of the message target according to criteria defined in a query, such as quarantined profiles or profiles that have already been sent a certain number of emails.</p> 
+  <p>For example, you can filter the newsletter subscribers so that the subscribers that are younger than 18 years old never receive communications.</p> 
+  <h2 id="creating-a-filtering-rule">Creating a filtering rule</h2>
+  <ol>
+   <li><p>Create a <strong>Filtering</strong> typology rule, one that can be applied on all communication channels.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/typology_create-rule.png" title="" /></li>
+   <li><p>In the <span class="uicontrol">Filtering criteria</span> tab, select the subscriptions in the <span class="uicontrol">Subscription</span> category.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/typology_create-rule-subscription.png" title="" /></li>
+   <li><p>In the <span class="uicontrol">Explorer</span> tab of the query editor, drag and drop the <span class="uicontrol">Subscriber</span> node into the main part of the screen.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/typology_create-rule-subscriber.png" title="" /></li>
+   <li><p>Select the <span class="uicontrol">Age</span> field and define the filtering conditions so that the age of the subscribers is 18 or above.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/typology_create-rule-age.png" title="" /></li>
+   <li><p>In the <span class="uicontrol">Typologies</span> tab, link this rule to a typology.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/typology_create-rule-typology.png" title="" /></li>
+   <li><p>Make sure that the typology in question is selected in the delivery template that you want to use.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/typology_template.png" title="" />
+    <note>
+     <p> To access the delivery templates, select <span class="uicontrol">Resources</span> &gt; <span class="uicontrol">Templates</span> in the navigation menu, which can be accessed via the Adobe Campaign logo. </p> 
+    </note></li>
+  </ol>
+  <p>Whenever this rule is used in a message, the subscribers who are considered minors will be automatically excluded.</p> 
+  <h2 id="restricting-the-applicability-of-a-filtering-rule">Restricting the applicability of a filtering rule</h2>
+  <p>You can restrict the applicability of a filtering rule according to the message to send.</p> 
+  <ol>
+   <li><p>In the typology rule's <span class="uicontrol">Application criteria</span> tab, uncheck the <span class="uicontrol">Apply the rule on all deliveries</span> option, which is enabled by default.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/typology_limit.png" title="" /></li>
+   <li><p>Use the query editor to define a filter. For example, you can apply the rule only on messages whose label starts with a given word or whose ID contains certain letters.</p> <img alt="" captionBottom="" imageRotate="0" src="assets/typology_limit-rule.png" title="" /></li>
+  </ol>
+  <p>In this case, the rule is only applied to the messages that correspond to the defined criteria.</p> 
+  <h2 id="default-deliverability-exclusion-rules">Default deliverability exclusion rules</h2>
+  <p>Two filtering rules are available by default: <span class="uicontrol">Exclusion of addresses</span> ( <span class="uicontrol">addressExclusions</span> ) and <span class="uicontrol">Exclusion of domains</span> ( <span class="uicontrol">domainExclusions</span> ). During the email analysis, these rules compare the recipient email addresses with the forbidden addresses or domain names contained in an encrypted global suppression list managed in the deliverability instance. If there is a match, the message is not sent to that recipient.</p> 
+  <p>This is to avoid being blacklisted due to malicious activity, especially the use of a Spamtrap. For example, if a Spamtrap is used to subscribe via one of your web forms, a confirmation email is automatically sent to that Spamtrap, and this results in your address being automatically blacklisted.</p> 
+  <note>
+   <p> The addresses and domain names contained in the global suppression list are hidden. Only the number of excluded recipients is indicated in the delivery analysis logs. </p> 
+  </note>
+ </body>
+</html>
