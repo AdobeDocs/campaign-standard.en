@@ -67,4 +67,3 @@ To implement fatigue rules, you define a maximum number of messages per profile 
 * Learn how to [design fatigue rules](../../administration/using/fatigue-rules.md#examples) through a set of samples
 * Learn how to create [typology rules](../../administration/using/about-typology-rules.md)
 * Use [filter rules](../../administration/using/filtering-rules.md) to refine the audience of your messages
-
