@@ -42,7 +42,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
   </tr> 
   <tr> 
    <td> Adobe Launch integration for mobile apps (beta)<br /> </td> 
-   <td> Adobe Launch integration with Adobe Campaign now simplifies and automates the process of Mobile App Property activation in Campaign using the Mobile SDK V5.<br /> For more information, refer to the <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html ">detailed documentation</a>.<br /> </td> 
+   <td> Adobe Launch integration with Adobe Campaign now simplifies and automates the process of Mobile App Property activation in Campaign using the Mobile SDK V5.<br /> For more information, refer to the <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">detailed documentation</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
