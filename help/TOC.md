@@ -222,10 +222,6 @@ index: n
        + [Using Triggers in Campaign](integrating/using/using-triggers-in-campaign.md)
        + [Testing your triggers](integrating/using/testing-your-triggers.md)
        + [Abandonment Triggers use cases](integrating/using/abandonment-triggers-use-cases.md)
-  + Working with Campaign and Microsoft Dynamics {#working-with-campaign-and-microsoft-dynamics}
-       + [About Campaign and Dynamics integration](integrating/using/about-campaign-and-dynamics-integration.md)
-       + [Profile data ingestion from Dynamics to Campaign](integrating/using/profile-data-ingestion-from-dynamics-to-campaign.md)
-       + [Send experience events from Campaign to Dynamics](integrating/using/send-experience-events-from-campaign-to-dynamics.md)
 + Managing processes and data {#managing-processes-and-data}
   + About workflows and data management {#about-workflows-and-data-management}
        + [Workflow data and processes](automating/using/workflow-data-and-processes.md)
