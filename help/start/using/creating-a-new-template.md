@@ -11,7 +11,7 @@ audience: start
 content-type: reference
 topic-tags: managing-templates
 discoiquuid: d3e37141-1170-4332-a46c-66a847ed3531
-index: y
+
 internal: n
 snippet: y
 ---

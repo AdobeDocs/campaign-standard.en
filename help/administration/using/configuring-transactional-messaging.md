@@ -11,7 +11,7 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
-index: y
+
 internal: n
 snippet: y
 ---

@@ -11,7 +11,7 @@ audience: channels
 content-type: reference
 topic-tags: in-app-messaging
 discoiquuid: a4168cfb-22bf-4ab3-b9d8-6e76e1bdc055
-index: y
+
 internal: n
 snippet: y
 ---

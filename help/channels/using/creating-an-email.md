@@ -11,7 +11,7 @@ audience: channels
 content-type: reference
 topic-tags: email-messages
 discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
-index: y
+
 internal: n
 snippet: y
 ---

@@ -11,7 +11,7 @@ audience: start
 content-type: reference
 topic-tags: tutorials
 discoiquuid: d7088c18-7daf-4c30-b633-2f19496b1143
-index: y
+
 internal: n
 snippet: y
 ---

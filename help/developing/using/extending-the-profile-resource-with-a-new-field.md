@@ -11,7 +11,7 @@ audience: developing
 content-type: reference
 topic-tags: use-cases--extending-resources
 discoiquuid: 1e0f8945-fc3c-46a9-a8e5-b181a1f5ffcb
-index: y
+
 internal: n
 snippet: y
 ---

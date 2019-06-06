@@ -11,7 +11,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 207fdf6d-165a-41af-ad53-ba97d3403b62
-index: y
+
 internal: n
 snippet: y
 ---

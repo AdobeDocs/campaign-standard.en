@@ -11,7 +11,7 @@ audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
 discoiquuid: 6fa50f0d-3dcf-4a9e-bccc-1ecda2bfb449
-index: y
+
 internal: n
 snippet: y
 ---

@@ -11,7 +11,7 @@ audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
 discoiquuid: 305cadde-6424-4c6f-b11b-1e8bdbad6ef1
-index: y
+
 internal: n
 snippet: y
 ---

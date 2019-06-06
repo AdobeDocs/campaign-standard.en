@@ -11,7 +11,7 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 discoiquuid: 2b5b13c8-2e51-4985-a161-c1d7f0fc32b4
-index: y
+
 internal: n
 snippet: y
 ---

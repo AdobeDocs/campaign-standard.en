@@ -11,7 +11,7 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 discoiquuid: f9bb2235-d388-4025-9ace-734beb0c1961
-index: y
+
 internal: n
 snippet: y
 ---

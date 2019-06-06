@@ -11,7 +11,7 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 discoiquuid: 4f22ee35-1d5f-4c75-95b4-3e38b85de26e
-index: y
+
 internal: n
 snippet: y
 ---

@@ -11,7 +11,7 @@ audience: reporting
 content-type: reference
 topic-tags: customizing-reports
 discoiquuid: a773b7a8-c290-4c81-bb52-48acc14fc89f
-index: y
+
 internal: n
 snippet: y
 ---

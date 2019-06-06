@@ -11,7 +11,7 @@ audience: reporting
 content-type: reference
 topic-tags: about-reporting
 discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
-index: y
+
 internal: n
 snippet: y
 ---

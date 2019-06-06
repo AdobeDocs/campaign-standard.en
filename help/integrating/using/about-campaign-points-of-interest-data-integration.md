@@ -11,7 +11,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
 discoiquuid: bc10c650-80cd-4146-ae82-c5981fc62bec
-index: y
+
 internal: n
 snippet: y
 ---

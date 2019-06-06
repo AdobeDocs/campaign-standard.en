@@ -11,7 +11,7 @@ audience: designing
 content-type: reference
 topic-tags: using-images
 discoiquuid: 2d6193cc-2e5c-4d7f-980d-7924beec59c9
-index: y
+
 internal: n
 snippet: y
 ---

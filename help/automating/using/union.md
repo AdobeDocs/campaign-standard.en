@@ -11,7 +11,7 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 99a8c3a5-7d90-4dbb-aa37-1d0a84719cf6
-index: y
+
 internal: n
 snippet: y
 ---

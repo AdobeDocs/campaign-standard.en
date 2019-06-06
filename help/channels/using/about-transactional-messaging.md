@@ -11,7 +11,7 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
-index: y
+
 internal: n
 snippet: y
 ---

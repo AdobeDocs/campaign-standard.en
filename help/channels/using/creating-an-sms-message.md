@@ -11,7 +11,7 @@ audience: channels
 content-type: reference
 topic-tags: sms-messages
 discoiquuid: b27381a9-19e5-4b65-b194-c72f475ba54d
-index: y
+
 internal: n
 snippet: y
 ---

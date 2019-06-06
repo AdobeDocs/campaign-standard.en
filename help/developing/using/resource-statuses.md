@@ -11,7 +11,7 @@ audience: developing
 content-type: reference
 topic-tags: about-custom-resources
 discoiquuid: 85516477-1b95-4273-a0a7-d2cbb9950afd
-index: y
+
 internal: n
 snippet: y
 ---

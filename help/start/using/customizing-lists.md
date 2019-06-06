@@ -11,7 +11,7 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 4ba4f766-fdee-4ff0-8fe4-0612ed2b69a4
-index: y
+
 internal: n
 snippet: y
 ---

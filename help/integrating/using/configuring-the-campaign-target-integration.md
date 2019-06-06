@@ -11,7 +11,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
 discoiquuid: f7fb2084-dd6f-4aa2-940f-e48713146635
-index: y
+
 internal: n
 snippet: y
 ---

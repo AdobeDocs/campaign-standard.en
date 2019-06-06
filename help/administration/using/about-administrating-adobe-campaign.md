@@ -11,7 +11,7 @@ audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
 discoiquuid: 5587530a-2308-4be1-9f56-19eeb7a924d5
-index: y
+
 internal: n
 snippet: y
 ---
