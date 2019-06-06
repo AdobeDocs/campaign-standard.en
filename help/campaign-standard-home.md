@@ -7,3 +7,5 @@ topic: Premium
 ---
 
 # Adobe Campaign Standard product documentation {#adobe-campaign-standard-product-documentation}
+
+Learn Adobe Campaign basics through simple step-by-step procedures, and experience the power of the solution.
