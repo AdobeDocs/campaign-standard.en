@@ -22,7 +22,7 @@ You can create "forms" on your AEM sites and map the fields in a form to the fie
 
 To create an Adobe Campaign form on your AEM site:
 
-1. In your AEM site, create a new page based on the **Adobe Campaign Profile ** template.
+1. In your AEM site, create a new page based on the **Adobe Campaign Profile** template.
 
    ![](assets/aem_content_forms.png)
 
