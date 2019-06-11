@@ -22,7 +22,7 @@ You can either define the content in the last screen of the creation wizard or b
 
 ![](assets/direct_mail_6.png)
 
-The **[!UICONTROL Content]** definition screen is specific to the direct mail channel. It is divided into four tabs: **[!UICONTROL Extraction]** , **[!UICONTROL File structure]** , **[!UICONTROL Header]** and **[!UICONTROL Footer]** .
+The **[!UICONTROL Content]** definition screen is specific to the direct mail channel. It is divided into four tabs: **[!UICONTROL Extraction]**, **[!UICONTROL File structure]**, **[!UICONTROL Header]** and **[!UICONTROL Footer]**.
 
 ![](assets/direct_mail_11.png)
 

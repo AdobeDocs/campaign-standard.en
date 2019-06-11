@@ -22,7 +22,7 @@ The principles for personalizing SMS messages are the same as those for [emails]
 
 Here we take a sample SMS message containing personalization fields which, depending on whether or not transliteration has been selected, will not generate the same number of sends:
 
-**'Hey **
+**Hey < FirstName > < LastName >, new products now available. Come and check them out in store!**
 
 * For a recipient named 'John Smith', as it contains no special characters, Adobe Campaign will choose GSM encoding which will authorize up to 160 characters per SMS message. The message will therefore be sent in a single part.
 * For a recipient named 'Raphaël Forêt', the characters 'ë' and 'ê' cannot be encoded in GSM. Depending on whether transliteration has been enabled or not, Adobe Campaign can select between two behaviors:
