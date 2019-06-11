@@ -71,13 +71,13 @@ In the specific context of an A/B test:
 1. Before sending the A/B test, check your email by sending proofs.
 1. Once preparation has finished, confirm sending the test. Once confirmed, the A/B test parameters cannot be modified.
 
-   The A/B test starts on the date defined in the **[!UICONTROL Schedule]** . You can track its progress using the **[!UICONTROL A/B test]** and **[!UICONTROL Deployment]** blocks.
+   The A/B test starts on the date defined in the **[!UICONTROL Schedule]**.You can track its progress using the **[!UICONTROL A/B test]** and **[!UICONTROL Deployment]** blocks.
 
    You can manually select the winning variant at any time if you would like to cut the test duration short.
 
    Once testing has finished, a summary table is displayed in the **[!UICONTROL A/B Test]** block and this allows you to view the various indicators for the different variants that were tested.
 
-1. If you have selected **[!UICONTROL Send after confirmation]** as the sending method, you have to manually select the winning variant to start sending it to the remaining population. If you have selected **[!UICONTROL Automatic]** , the winning variant is automatically sent to the remaining population as soon as it has been determined by the system.
+1. If you have selected **[!UICONTROL Send after confirmation]** as the sending method, you have to manually select the winning variant to start sending it to the remaining population. If you have selected **[!UICONTROL Automatic]**, the winning variant is automatically sent to the remaining population as soon as it has been determined by the system.
 
    >[!NOTE]
    >

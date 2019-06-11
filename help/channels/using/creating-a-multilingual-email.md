@@ -33,7 +33,7 @@ The audience is based on profiles with a completed preferred language informatio
 
    ![](assets/multi_create4.png)
 
-   If needed, add variants using the **[!UICONTROL Add an element]** button. **[!UICONTROL Default]** variant must not be deleted. When set to **[!UICONTROL default]** , [the profile's preferred language](../../audiences/using/creating-profiles.md) is used to choose the variant. You can also set the **[!UICONTROL Default]** variant to any other language.
+   If needed, add variants using the **[!UICONTROL Add an element]** button. **[!UICONTROL Default]** variant must not be deleted. When set to **[!UICONTROL default]**, [the profile's preferred language](../../audiences/using/creating-profiles.md) is used to choose the variant. You can also set the **[!UICONTROL Default]** variant to any other language.
 
 1. Confirm email creation: the email dashboard will then be displayed.
 1. Define the email content for each variant. Depending on the template that you have chosen, you can define several subjects, several sender names, or several different contents. Use the drop-down menu to navigate between the different variants of the element. For more information, consult the [content editor](../../designing/using/about-email-content-design.md) section.
@@ -41,6 +41,6 @@ The audience is based on profiles with a completed preferred language informatio
    ![](assets/multi_selectcontent.png)
 
 1. Test and validate your message. Refer to the [Sending proof](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs) section.
-1. Schedule the send with the **[!UICONTROL Send after confirmation option]** .
+1. Schedule the send with the **[!UICONTROL Send after confirmation option]**.
 1. Once your email is sent, you can access its logs and reports to measure the success of your campaign. For more on reporting, refer to [this section](../../reporting/using/about-dynamic-reports.md).
 

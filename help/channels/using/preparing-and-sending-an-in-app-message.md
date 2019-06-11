@@ -26,7 +26,7 @@ Three types of In-App message are available in Adobe Campaign:
 
 * **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]** : This message type enables you to target Adobe Campaign profiles (CRM profiles) who have subscribed to your mobile application. This message type can be personalized with all available profile attributes in Adobe Campaign but requires a secure handshake between Mobile SDK and Campaign's In-App messaging service to ensure that messages with personal and sensitive information are used by authorized users only.
 
-  To download this message type on users' devices, Mobile SDK has to send linkage fields used to connect a mobile profile to a CRM profile in Adobe Campaign. For more information on SDK APIs required to support In-App, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
+  To download this message type on users' devices, Mobile SDK has to send linkage fields used to connect a mobile profile to a CRM profile in Adobe Campaign. For more information on SDK APIs required to support In-App, refer to this [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference).
 
 * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]** : This message type enables you to send messages to all users (current or future) of your mobile application even if they don't have an existing profile in Adobe Campaign. Personalization is thus not possible when customizing the messages as the user profile may not even exist in Adobe Campaign.
 * **[!UICONTROL Target users based on their Mobile profile (inApp)]** : This message type enables you to target all known or anonymous users of a mobile app that have a mobile profile in Adobe Campaign. This messages type can be personalized using only non-personal and non-sensitive attributes and does not require secure handshake between Mobile SDK and Adobe Campaign's In-App messaging service.
@@ -39,7 +39,7 @@ In Adobe Campaign, mobile profile attributes data sent from mobile device are st
 
 This resource needs to be extended to collect data you intend to send from the mobile device to Adobe Campaign. To do so, refer to this [page](../../developing/using/extending-the-subscriptions-to-an-application-resource.md) for the detailed steps.
 
-To enable personalization of your In-App messages more securely, mobile profile fields from this resource need to be configured accordingly. In your **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** , when creating your new mobile profiles fields, check **[!UICONTROL Personal and Sensitive]** to make them unavailable during In-App messages personalization.
+To enable personalization of your In-App messages more securely, mobile profile fields from this resource need to be configured accordingly. In your **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]**, when creating your new mobile profiles fields, check **[!UICONTROL Personal and Sensitive]** to make them unavailable during In-App messages personalization.
 
 >[!NOTE]
 >
@@ -107,7 +107,7 @@ The steps for creating a standalone In-App message with Adobe Campaign are:
 
    ![](assets/inapp_creating_4.png)
 
-1. If you use an **[!UICONTROL Analytics Events]** , Adobe Analytics and View state events will be automatically populated based on the report suites configured in the Analytics extension in Adobe Launch whereas Context data events have to be manually added.
+1. If you use an **[!UICONTROL Analytics Events]**, Adobe Analytics and View state events will be automatically populated based on the report suites configured in the Analytics extension in Adobe Launch whereas Context data events have to be manually added.
 
    Please note that these events are only available if you have an Adobe Analytics license.
 
@@ -125,7 +125,7 @@ The steps for creating a standalone In-App message with Adobe Campaign are:
 
    ![](assets/inapp_creating_6.png)
 
-1. Click **[!UICONTROL Create]** .
+1. Click **[!UICONTROL Create]**.
 
 Your In-App message is now ready to be sent to your targeted audience.
 

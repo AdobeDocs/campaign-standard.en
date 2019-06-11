@@ -40,7 +40,7 @@ Before personalizing your multilingual push notification, we first need to uploa
 >
 >You can also skip this step if you want to create a variant manually for each language variant.
 
-1. In the **[!UICONTROL Marketing activities]** , click the **[!UICONTROL Create]** button then select **[!UICONTROL Push notification]** .
+1. In the **[!UICONTROL Marketing activities]**, click the **[!UICONTROL Create]** button then select **[!UICONTROL Push notification]**.
 1. Select the template **[!UICONTROL Send multilingual push to Campaign profiles]** if you want to target the Adobe Campaign profiles who have subscribed to your mobile application or the template **[!UICONTROL Send multilingual push to app subscriber]** to send a push notification to all users who have opted in to receive notifications from your mobile application.
 
    ![](assets/multivariant_push_2.png)
@@ -119,7 +119,7 @@ Your multilingual content variant push notifications are now ready to be sent to
 
    ![](assets/multivariant_push_13.png)
 
-1. Select **[!UICONTROL Push notification report]** .
+1. Select **[!UICONTROL Push notification report]**.
 1. Drag and drop the **[!UICONTROL Variant]** dimension to your panel to start filtering your data.
 
    ![](assets/multivariant_push_11.png)

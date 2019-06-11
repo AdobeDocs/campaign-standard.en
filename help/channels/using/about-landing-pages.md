@@ -39,7 +39,7 @@ Adobe recommends to create your own templates by duplicating a built-in template
 
 >[!NOTE]
 >
->To access landing page templates, click the Adobe Campaign logo on the upper left corner and select **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Landing page templates]** .
+>To access landing page templates, click the Adobe Campaign logo on the upper left corner and select **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Landing page templates]**.
 
 The full life cycle of a landing page is as follows:
 

@@ -28,7 +28,7 @@ The steps for creating a push notification with Adobe Campaign are:
 
    You can also use a push notification delivery activity in a workflow. This activity is presented in the [Push notification delivery](../../automating/using/push-notification-delivery.md) section.
 
-1. Select **[!UICONTROL Push notification]** .
+1. Select **[!UICONTROL Push notification]**.
 1. Select a template. 
 
    ![](assets/push_notif_type.png)
@@ -56,7 +56,7 @@ The steps for creating a push notification with Adobe Campaign are:
 
    ![](assets/push_notif_audience.png)
 
-1. You can now customize your push notification. First, choose the message style: **[!UICONTROL Alert/Message/Badge]** or **[!UICONTROL Silent push]** . The push notification types are described in the [About push notifications](../../channels/using/about-push-notifications.md) section.
+1. You can now customize your push notification. First, choose the message style: **[!UICONTROL Alert/Message/Badge]** or **[!UICONTROL Silent push]**. The push notification types are described in the [About push notifications](../../channels/using/about-push-notifications.md) section.
 
    Edit the content of your push notification and define the advanced options. See [Customizing a push notification](../../channels/using/customizing-a-push-notification.md).
 
@@ -64,7 +64,7 @@ The steps for creating a push notification with Adobe Campaign are:
 
    The push notification content and options configured here are passed to your mobile app in the form of a payload. The detailed structure of the payload is described in the [Understanding ACS push notifications payload structure](https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html) technote. 
 
-1. Click **[!UICONTROL Create]** . 
+1. Click **[!UICONTROL Create]**. 
 
    ![](assets/push_notif_content_2.png)
 
@@ -91,7 +91,7 @@ Push notifications can be sent to a selected audience in Adobe Campaign by defin
 
    ![](assets/push_send_1.png)
 
-1. Once the preparation has finished successfully, the **[!UICONTROL Deployment]** window presents the following KPIs: **[!UICONTROL Target]** and **[!UICONTROL To deliver]** . Note that the **[!UICONTROL To deliver]** count is lower than the **[!UICONTROL Targeted]** one due to exclusions which can be viewed by clicking ![](assets/lp_link_properties.png) button at the bottom of the **[!UICONTROL Deployment]** window. 
+1. Once the preparation has finished successfully, the **[!UICONTROL Deployment]** window presents the following KPIs: **[!UICONTROL Target]** and **[!UICONTROL To deliver]**. Note that the **[!UICONTROL To deliver]** count is lower than the **[!UICONTROL Targeted]** one due to exclusions which can be viewed by clicking ![](assets/lp_link_properties.png) button at the bottom of the **[!UICONTROL Deployment]** window. 
 
    ![](assets/push_send_2.png)
 

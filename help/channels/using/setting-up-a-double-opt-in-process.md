@@ -44,7 +44,7 @@ To create and configure this landing page, you need to:
 
    If you need to use [services](../../audiences/using/about-subscriptions.md), you can also use the **[!UICONTROL Subscription (sub)]** template.
 
-1. Edit the landing page properties and under the **[!UICONTROL Access and loading]** section, unselect the option **[!UICONTROL Authorize unidentified visitors]** , select **[!UICONTROL Preload visitor data]** (this one is not mandatory).
+1. Edit the landing page properties and under the **[!UICONTROL Access and loading]** section, unselect the option **[!UICONTROL Authorize unidentified visitors]**, select **[!UICONTROL Preload visitor data]** (this one is not mandatory).
 
    ![](assets/optin_confirmlp_param.png)
 
@@ -52,7 +52,7 @@ To create and configure this landing page, you need to:
 
    /context/profile/blackList
 
-   Set the value to **false** and click **[!UICONTROL Add]** .
+   Set the value to **false** and click **[!UICONTROL Add]**.
 
    ![](assets/optin_confirmlp_newelement.png)
 
@@ -79,16 +79,16 @@ Steps to create these elements are described below. You need to follow them befo
 The confirmation email is a [transactional message](../../channels/using/about-transactional-messaging.md) as it reacts to an event: the validation of the form. You must first create the event and then create the template of the transactional message.
 
 1. Create an event, from the **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]** menu, accessible from the Adobe Campaign logo, and enter the label '**CONFIRM**'.
-1. Select the **[!UICONTROL Profile]** targeting dimension and click **[!UICONTROL Create]** .
+1. Select the **[!UICONTROL Profile]** targeting dimension and click **[!UICONTROL Create]**.
 
    ![](assets/optin_eventcreate.png)
 
 1. In the **[!UICONTROL Fields]** section, click **[!UICONTROL Create element]** and add the **[!UICONTROL email]** in the data structure to enable reconciliation.
-1. In the **[!UICONTROL Enrichment]** section, click **[!UICONTROL Create element]** and select the target resource **[!UICONTROL Profile]** . You can then map on the **[!UICONTROL email]** in the **[!UICONTROL Join definition]** section, or any other composite reconciliation key, depending on your needs.
+1. In the **[!UICONTROL Enrichment]** section, click **[!UICONTROL Create element]** and select the target resource **[!UICONTROL Profile]**. You can then map on the **[!UICONTROL email]** in the **[!UICONTROL Join definition]** section, or any other composite reconciliation key, depending on your needs.
 
    ![](assets/optin_eventcreate_join.png)
 
-   If you need to use services, you can also add the **[!UICONTROL serviceName]** .
+   If you need to use services, you can also add the **[!UICONTROL serviceName]**.
 
 1. Select **[!UICONTROL Profile]** as the **[!UICONTROL Targeting enrichment]** in the dropdown list.
 1. Click **[!UICONTROL Publish]** to publish the event.
@@ -99,10 +99,10 @@ The event is ready. You can now design the email template. This template must in
 
 You need to create a specific [typology rule](../../administration/using/about-typology-rules.md), by duplicating an out-of-box one. This rule will allow to send messages to profiles who did not confirm their agreement yet and are still blacklisted. By default, typology rules exclude opt-out (i.e. blacklisted) profiles. To create this typology rule, follow these steps:
 
-1. From the Adobe Campaign logo, select **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** and click **[!UICONTROL Typologies]** .
-1. Duplicate the out-of-box typology **[!UICONTROL Transactional message on profile (mcTypologyProfile)]** .
+1. From the Adobe Campaign logo, select **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** and click **[!UICONTROL Typologies]**.
+1. Duplicate the out-of-box typology **[!UICONTROL Transactional message on profile (mcTypologyProfile)]**.
 1. Once duplication confirmed, edit the new typology and enter the label **TYPOLOGY_PROFILE**.
-1. Click **[!UICONTROL Save]** .
+1. Click **[!UICONTROL Save]**.
 
 This typology can now be associated to the confirmation email.
 
@@ -110,7 +110,7 @@ This typology can now be associated to the confirmation email.
 
 The confirmation email is a transactional message based on the event created before. Follow the steps below to create this message:
 
-1. From the Adobe Campaign logo, select **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** and click **[!UICONTROL Transactional messages]** .
+1. From the Adobe Campaign logo, select **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** and click **[!UICONTROL Transactional messages]**.
 1. Edit the **CONFIRM** email template and personalize it. You can upload an existing content or use an out-of-box template.
 1. Add a link to the **CONFIRMATION** landing page, and click **[!UICONTROL Confirm]** to save modifications.
 
@@ -134,7 +134,7 @@ To create and configure this landing page, you need to:
 
    This is mandatory to force blacklist and avoid sending messages to visitors who did not confirm their agreement. The validation of the CONFIRMATION landing page will set this field to **false** after confirmation. For more on this, see [Step 1: Create the confirmation landing page](../../channels/using/setting-up-a-double-opt-in-process.md#step-1--create-the-confirmation-landing-page).
 
-1. In the **[!UICONTROL Job]** > **[!UICONTROL Specific actions]** section, select the option **[!UICONTROL Start sending messages]** .
+1. In the **[!UICONTROL Job]** > **[!UICONTROL Specific actions]** section, select the option **[!UICONTROL Start sending messages]**.
 1. In the associated drop-down list, choose the **CONFIRM** transactional message template you created.
 
    ![](assets/optin_acquisition_startoption.png)
