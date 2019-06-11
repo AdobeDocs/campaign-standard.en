@@ -61,7 +61,7 @@ The company will send one transactional push notification per user (identified w
 
    ![](assets/message-center_push_content.png)
 
-   To find these fields, click the pencil next to an item, click **[!UICONTROL Insert personalization field]** and select **[!UICONTROL Transactional event]** > **[!UICONTROL Event context]** .
+   To find these fields, click the pencil next to an item, click **[!UICONTROL Insert personalization field]** and select **[!UICONTROL Transactional event]** > **[!UICONTROL Event context]**.
 
    ![](assets/message-center_push_personalization.png)
 

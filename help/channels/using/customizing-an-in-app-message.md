@@ -143,7 +143,7 @@ To customize a local notification:
 
    ![](assets/inapp_customize_17.png)
 
-1. Under the **[!UICONTROL Text]** category, type down your **[!UICONTROL Message title]** and **[!UICONTROL Message content]** .
+1. Under the **[!UICONTROL Text]** category, type down your **[!UICONTROL Message title]** and **[!UICONTROL Message content]**.
 
    ![](assets/inapp_customize_18.png)
 

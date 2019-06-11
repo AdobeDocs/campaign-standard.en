@@ -47,13 +47,13 @@ Depending on the parameters that have been set up and the progress made, certain
 
   For more on proofs, see [Managing test profiles and sending proofs](../../sending/using/managing-test-profiles-and-sending-proofs.md).
 
-* **[!UICONTROL Send a test]** : lets you select the approval mode to use: **[!UICONTROL Email rendering]** , **[!UICONTROL Proof]** or both for an email. For more on test profiles, see [Sending proofs](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs).
+* **[!UICONTROL Send a test]** : lets you select the approval mode to use: **[!UICONTROL Email rendering]**, **[!UICONTROL Proof]** or both for an email. For more on test profiles, see [Sending proofs](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs).
 
   This button is only enabled once you have established test profiles.
 
   >[!NOTE]
   >
-  >For an SMS message, there is no other choice: it is automatically a **[!UICONTROL Proof]** .
+  >For an SMS message, there is no other choice: it is automatically a **[!UICONTROL Proof]**.
 
 * **[!UICONTROL Prepare send]** : starts to prepare the send. The **[!UICONTROL Deployment]** block appears and displays the result of the preparation. This button only appears once the target has been entered. You can stop preparation at any time using the corresponding button.
 

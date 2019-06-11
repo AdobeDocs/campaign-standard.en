@@ -41,7 +41,7 @@ To do so:
 
    ![](assets/sms_mo_4.png)
 
-1. Type in the answer you want to send to your recipients in the field **[!UICONTROL Reply]** .
+1. Type in the answer you want to send to your recipients in the field **[!UICONTROL Reply]**.
 
    To carry out an action without sending a reply, leave the **[!UICONTROL Reply]** column empty. For example, this allows you to remove from quarantine the phone number of a user who replies with a message other than "STOP".
 
@@ -71,16 +71,16 @@ By checking **[!UICONTROL Store incoming MO in the database]** in the **[!UICONT
 
 To do so:
 
-1. In the **[!UICONTROL SMPP channel settings]** field, check **[!UICONTROL Store incoming MO in the database]** .
+1. In the **[!UICONTROL SMPP channel settings]** field, check **[!UICONTROL Store incoming MO in the database]**.
 
    ![](assets/sms_config_mo_2.png)
 
-1. In the **[!UICONTROL Marketing activities]** tab, click **[!UICONTROL Create]** then select **[!UICONTROL Workflow]** .
+1. In the **[!UICONTROL Marketing activities]** tab, click **[!UICONTROL Create]** then select **[!UICONTROL Workflow]**.
 
    ![](assets/sms_config_mo_3.png)
 
 1. Select your workflow type.
-1. Edit the properties of your workflow, then click **[!UICONTROL Create]** . For more on workflows creation, refer to this [section](../../automating/using/building-a-workflow.md).
+1. Edit the properties of your workflow, then click **[!UICONTROL Create]**. For more on workflows creation, refer to this [section](../../automating/using/building-a-workflow.md).
 1. Drag and drop a **[!UICONTROL Query]** activity and double-click the activity.
 1. In the **[!UICONTROL Properties]** tab of the query, choose **[!UICONTROL Incoming SMS (inSMS)]** in the **[!UICONTROL Resource]** field.
 
@@ -90,8 +90,8 @@ To do so:
 
    ![](assets/sms_config_mo_5.png)
 
-1. Here, we want to target every incoming message from the day before. In the **[!UICONTROL Field]** category, select **[!UICONTROL Creation date (created)]** .
-1. In **[!UICONTROL Filter type]** , select **[!UICONTROL Relative]** then in **[!UICONTROL Level of precision]** , choose **[!UICONTROL Day]** .
+1. Here, we want to target every incoming message from the day before. In the **[!UICONTROL Field]** category, select **[!UICONTROL Creation date (created)]**.
+1. In **[!UICONTROL Filter type]**, select **[!UICONTROL Relative]** then in **[!UICONTROL Level of precision]**, choose **[!UICONTROL Day]**.
 
    ![](assets/sms_config_mo_6.png)
 

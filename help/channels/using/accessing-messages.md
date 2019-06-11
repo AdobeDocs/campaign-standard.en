@@ -31,7 +31,7 @@ Messages can be accessed:
 To access the list of a campaign's marketing activities:
 
 1. Go to **[!UICONTROL Marketing activities]** from the top navigation bar.
-1. Select **[!UICONTROL Marketing activities > Marketing plans > Programs & Campaigns]** .
+1. Select **[!UICONTROL Marketing activities > Marketing plans > Programs & Campaigns]**.
 
    You can also directly click the **[!UICONTROL Programs & Campaigns]** card from the home page. For more information on campaigns, refer to the [Programs and campaigns](../../start/using/programs-and-campaigns.md) section.
 

@@ -54,7 +54,7 @@ Creating a direct mail delivery is very similar to creating a regular email. The
 
 1. If you added test profiles (refer to [Adding test and trap profiles](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles)), you can test your delivery before preparing the final file. It allows you to create a sample file containing only the test profiles selected.
 
-   Click on **[!UICONTROL Test]** to generate the sample file. Click on **[!UICONTROL Summary]** , in the top left corner, then select **[!UICONTROL Proofs]** . On the left part of the screen, select the proof and click on **[!UICONTROL Download file]** .
+   Click on **[!UICONTROL Test]** to generate the sample file. Click on **[!UICONTROL Summary]**, in the top left corner, then select **[!UICONTROL Proofs]**. On the left part of the screen, select the proof and click on **[!UICONTROL Download file]**.
 
    >[!NOTE]
    >

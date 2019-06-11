@@ -49,7 +49,7 @@ Input fields are used to store or update data in Campaign database. For this, yo
    >
    >Landing pages can only be mapped with **Profiles**.
 
-1. Define the field type by choosing, for example **[!UICONTROL Text]** , **[!UICONTROL Number]** , or **[!UICONTROL Date]** in the **[!UICONTROL HTML type of the field]** selection area.
+1. Define the field type by choosing, for example **[!UICONTROL Text]**, **[!UICONTROL Number]**,or **[!UICONTROL Date]** in the **[!UICONTROL HTML type of the field]** selection area.
 
 >[!NOTE]
 >
@@ -116,7 +116,7 @@ Access to a landing page can be restricted to identified visitors, who come from
 
    ![](assets/lp_edit_properties_button.png)
 
-1. Select **[!UICONTROL Preload visitor data]** .
+1. Select **[!UICONTROL Preload visitor data]**.
 
    If a visitor to the page corresponds to a profile in the database, their data is displayed in the form's fields that are mapped with the database data and the landing page's personalization elements are taken into account.
 
@@ -143,7 +143,7 @@ Once your Google reCAPTCHA V3 external account has been set up, you can add it t
 
    ![](assets/lp_parameters_google.png)
 
-1. Click **[!UICONTROL Confirm]** .
+1. Click **[!UICONTROL Confirm]**.
 
 Your landing page is now set up with Google reCAPTCHA which can be seen at the bottom of your page.
 

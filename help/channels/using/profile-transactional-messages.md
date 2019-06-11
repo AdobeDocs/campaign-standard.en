@@ -42,7 +42,7 @@ The steps for creating, personalizing and publishing a profile transactional mes
 The differences are listed below.
 
 1. Go the transactional message that was created to edit it.
-1. In the transactional message, click the **[!UICONTROL Content]** section. In addition to the transactional template, you can also choose the default email template, which targets **[!UICONTROL Profile]** .
+1. In the transactional message, click the **[!UICONTROL Content]** section. In addition to the transactional template, you can also choose the default email template, which targets **[!UICONTROL Profile]**.
 
    ![](assets/message-center_marketing_templates.png)
 
