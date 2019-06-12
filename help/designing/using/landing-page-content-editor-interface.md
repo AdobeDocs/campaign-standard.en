@@ -46,31 +46,31 @@ The action bar contains different buttons that allow you to interact with the co
  <tbody> 
   <tr> 
    <td> <img height="21px" src="assets/download_darkgrey-24px.png" /> <br /> </td> 
-   <td> <b>Change content</b> <br /> </td> 
+   <td> <span class="uicontrol">Change content</span> <br /> </td> 
    <td> Landing page and email<br /> </td> 
    <td> Allows you to select out-of-the-box content or import your own HTML content. Refer to <a href="../../designing/using/selecting-an-existing-content.md">Loading an existing content</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/undo_darkgrey-24px.png" /> <br /> </td> 
-   <td> <b>Undo</b> <br /> </td> 
+   <td> <span class="uicontrol">Undo</span> <br /> </td> 
    <td> All<br /> </td> 
    <td> Cancels the last action carried out.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/redo_darkgrey-24px.png" /> <br /> </td> 
-   <td> <b>Redo</b> <br /> </td> 
+   <td> <span class="uicontrol">Redo</span> <br /> </td> 
    <td> All<br /> </td> 
    <td> Redoes the last action that you canceled.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/display_block_darkgrey-24px.png" /> <br /> </td> 
-   <td> <b>Show blocks</b> <br /> </td> 
+   <td> <span class="uicontrol">Show blocks</span> <br /> </td> 
    <td> Landing page and email<br /> </td> 
    <td> Allows you to show the boxes around the content blocks (corresponds to the <strong>&lt;div&gt;</strong> HTML tag).<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/code_darkgrey-24px.png" /> <br /> </td> 
-   <td> <b>Show source</b> <br /> </td> 
+   <td> <span class="uicontrol">Show source</span> <br /> </td> 
    <td> Landing page and email<br /> </td> 
    <td> Allows you to show the HTML source code of the page.<br /> </td> 
   </tr> 
@@ -99,115 +99,115 @@ The toolbar is a **contextual element** of the editor interface that offers vari
  <tbody> 
   <tr> 
    <td> <img height="21px" src="assets/link_darkgrey-24px.png" /> <br /> </td> 
-   <td> <b>Link to an external URL</b> <br /> </td> 
+   <td> <span class="uicontrol">Link to an external URL</span> <br /> </td> 
    <td> Any element<br /> </td> 
    <td> Allows you to add a link to a URL. Details of how to configure a link are presented in the <a href="../../designing/using/inserting-a-link.md">Inserting a link</a> section.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/linkpage_darkgrey-24px.png" /> <br /> </td> 
-   <td> <b>Link to a landing page</b> <br /> </td> 
+   <td> <span class="uicontrol">Link to a landing page</span> <br /> </td> 
    <td> Any element<br /> </td> 
    <td> Allows access to an Adobe Campaign landing page. Details of how to configure a link are presented in the <a href="../../designing/using/inserting-a-link.md">Inserting a link</a> section.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/link_subscribe_darkgrey-24px.png" /> <br /> </td> 
-   <td> <b>Subscription link</b> <br /> </td> 
+   <td> <span class="uicontrol">Subscription link</span> <br /> </td> 
    <td> Any element<br /> </td> 
    <td> Allows you to insert a service subscription link. Details of how to configure a link are presented in the <a href="../../designing/using/inserting-a-link.md">Inserting a link</a> section.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/link_unsubscribe_darkgrey-24px.png" /> <br /> </td> 
-   <td> <b>Unsubscription link</b> <br /> </td> 
+   <td> <span class="uicontrol">Unsubscription link</span> <br /> </td> 
    <td> Any element<br /> </td> 
    <td> Allows you to insert a service unsubscription link. Details of how to configure a link are presented in the <a href="../../designing/using/inserting-a-link.md">Inserting a link</a> section.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/linkoff_darkgrey-24px.png" /> <br /> </td> 
-   <td> <b>Remove link</b> <br /> </td> 
+   <td> <span class="uicontrol">Remove link</span> <br /> </td> 
    <td> Link<br /> </td> 
    <td> Allows you to delete the link, as well as all the configurations linked to it, after confirming.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/personalization_field_darkgrey-24px.png" /> <br /> </td> 
-   <td> <b>Insert a personalization field</b> <br /> </td> 
+   <td> <span class="uicontrol">Insert a personalization field</span> <br /> </td> 
    <td> Text element<br /> </td> 
    <td> Allows you to add a field from the database to the content. Refer to <a href="../../designing/using/inserting-a-personalization-field.md">Inserting a personalization field</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/personalization_block_darkgrey-24px.png" /> <br /> </td> 
-   <td> <b>Insert a content block</b> <br /> </td> 
+   <td> <span class="uicontrol">Insert a content block</span> <br /> </td> 
    <td> Text element<br /> </td> 
    <td> Allows you to add a personalization block to the content. Refer to <a href="../../designing/using/adding-a-content-block.md">Adding a content block</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/dynamiccontent_24px.png" /> <br /> </td> 
-   <td> <b>Enable dynamic content</b> <br /> </td> 
+   <td> <span class="uicontrol">Enable dynamic content</span> <br /> </td> 
    <td> Text element<br /> </td> 
    <td> Allows you to insert dynamic content in the content. Refer to <a href="../../designing/using/defining-dynamic-content-in-a-landing-page.md">Defining dynamic content</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/dynamiccontentdisable_24px.png" /> <br /> </td> 
-   <td> <b>Disable dynamic content</b> <br /> </td> 
+   <td> <span class="uicontrol">Disable dynamic content</span> <br /> </td> 
    <td> Text element<br /> </td> 
    <td> Allows you to delete dynamic content.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/increase_fontsize_darkgrey-24px.png" /> <br /> </td> 
-   <td> <b>Enlarge font</b> <br /> </td> 
+   <td> <span class="uicontrol">Enlarge font</span> <br /> </td> 
    <td> Text element<br /> </td> 
    <td> Increases the size of the selected text (adds <strong>&lt;span style="font-size:"&gt;</strong>).<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/decrease_fontsize_darkgrey-24px.png" /> <br /> </td> 
-   <td> <b>Reduce font</b> <br /> </td> 
+   <td> <span class="uicontrol">Reduce font</span> <br /> </td> 
    <td> Text element<br /> </td> 
    <td> Reduces the size of the selected text (adds <strong>&lt;span style="font-size:"&gt;</strong>).<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/textbold_darkgrey-24px.png" /> <br /> </td> 
-   <td> <b>Bold</b> <br /> </td> 
+   <td> <span class="uicontrol">Bold</span> <br /> </td> 
    <td> Text element<br /> </td> 
    <td> Adds the bold style to the selected text (wraps the text with the <strong>&lt;strong&gt;</strong><strong>&lt;/strong&gt;</strong> tags).<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/textitalic_darkgrey-24px.png" /> <br /> </td> 
-   <td> <b>Italic</b> <br /> </td> 
+   <td> <span class="uicontrol">Italic</span> <br /> </td> 
    <td> Text element<br /> </td> 
    <td> Adds the italic style to the selected text (wraps the text with the <strong>&lt;em&gt;</strong><strong>&lt;/em&gt;</strong> tags).<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/textunderline_darkgrey-24px.png" /> <br /> </td> 
-   <td> <b>Underline</b> <br /> </td> 
+   <td> <span class="uicontrol">Underline</span> <br /> </td> 
    <td> Text element<br /> </td> 
    <td> Underlines the selected text (wraps the selected text with the <strong>&lt;span style="text-decoration: underline;"&gt;</strong> tag).<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/colorselector_darkgrey-24px.png" /> <br /> </td> 
-   <td> <b>Change background color</b> <br /> </td> 
+   <td> <span class="uicontrol">Change background color</span> <br /> </td> 
    <td> Text element<br /> </td> 
    <td> Allows you to change the background color of the block selected (adds style="background-color: rgba(170, 86, 255, 0.87)).<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/textcolor_darkgrey-24px.png" /> <br /> </td> 
-   <td> <b>Change font color</b> <br /> </td> 
+   <td> <span class="uicontrol">Change font color</span> <br /> </td> 
    <td> Text element<br /> </td> 
    <td> Allows you to change the color of all the text in the block or just the text selected in the block (<strong>&lt;span style="color: #56ff56;"&gt;</strong>).<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/image_darkgrey-24px.png" /> <br /> </td> 
-   <td> <b>Image</b> <br /> </td> 
+   <td> <span class="uicontrol">Image</span> <br /> </td> 
    <td> Block containing an image<br /> </td> 
    <td> Allows you to insert an image from a file saved locally.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/delete_darkgrey-24px.png" /> <br /> </td> 
-   <td> <b>Delete</b> <br /> </td> 
+   <td> <span class="uicontrol">Delete</span> <br /> </td> 
    <td> Any block<br /> </td> 
    <td> Deletes the block and its content.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/duplicate_fontsize_darkgrey-24px.png" /> <br /> </td> 
-   <td> <b>Duplicate</b> <br /> </td> 
+   <td> <span class="uicontrol">Duplicate</span> <br /> </td> 
    <td> Any block<br /> </td> 
    <td> Duplicates the block including any styles linked to it.<br /> </td> 
   </tr> 
