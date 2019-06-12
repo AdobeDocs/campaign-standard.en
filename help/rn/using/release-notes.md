@@ -26,13 +26,13 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 
 ## Release 19.2.4 - June 2019 {#release-19-2-4---june-2019}
 
-### Email Designer {#email-designer-1}
+### Email Designer {#email-designer-2}
 
 * Fixed an issue which prevented users from editing fragments when empty style tags were used in the HTML. This is a follow-up fix for CAMP-33778 in 19.2.3.
 
 ## Release 19.2.3 - June 2019 {#release-19-2-3---june-2019}
 
-### Email Designer {#email-designer}
+### Email Designer {#email-designer-1}
 
 Introduced a series of improvements and fixes to optimize fragments in the 19.2 release. Newly created fragments will work seamlessly. Fragments that were previously built have been grayed-out and need to be migrated to the new format. To do so, click on each fragment and validate its migration to the new format. We recommend that you test a few fragments before migrating them all.
 
