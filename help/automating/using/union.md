@@ -11,7 +11,7 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 99a8c3a5-7d90-4dbb-aa37-1d0a84719cf6
-
+context-tags: union,main
 internal: n
 snippet: y
 ---
@@ -53,4 +53,3 @@ The **[!UICONTROL Union]** activity is used to combine the populations from inbo
 The following example shows the result of two query activities that aim to regroup profiles from the Adobe Campaign database who are between 18 and 27 years old and those who are between 34 and 40 years old. The result contains all the profiles of the two queries or the maximum number of records, if applicable, as specified during the configuration.
 
 ![](assets/wkf_union_example.png)
-
