@@ -47,11 +47,11 @@ In the specific context of an A/B test:
 1. Define the general properties and the target audience of the email, just as for a standard email. Refer to the [Creating audiences](../../audiences/using/creating-audiences.md) section.
 1. At the fourth step in the creation wizard, define the A/B test parameters:
 
-    * **[!UICONTROL Number of variants]** : You can choose to use two or three variants. If you choose three variants, this choice cannot be modified after this step has been confirmed in the wizard.
-    * **[!UICONTROL Winning strategy]** : Select the criterion to be used to determine the winning variant.
-    * **[!UICONTROL Target breakdown]** : Choose which percentage of the target will receive each variant. The remaining percentage will receive the winning variant once it has been determined. The targeted profiles are selected randomly.
-    * **[!UICONTROL Winner sending method]** : Choose whether you would like the winning variant to be automatically sent once it has been determined or whether you would like to manually confirm sending to the remaining population.
-    * **[!UICONTROL Test duration]** : Specify the duration of the test. The winning variant is determined automatically after this duration. You can manually choose the winning variant before the end of the test from the email dashboard.
+    * **[!UICONTROL Number of variants]**: You can choose to use two or three variants. If you choose three variants, this choice cannot be modified after this step has been confirmed in the wizard.
+    * **[!UICONTROL Winning strategy]**: Select the criterion to be used to determine the winning variant.
+    * **[!UICONTROL Target breakdown]**: Choose which percentage of the target will receive each variant. The remaining percentage will receive the winning variant once it has been determined. The targeted profiles are selected randomly.
+    * **[!UICONTROL Winner sending method]**: Choose whether you would like the winning variant to be automatically sent once it has been determined or whether you would like to manually confirm sending to the remaining population.
+    * **[!UICONTROL Test duration]**: Specify the duration of the test. The winning variant is determined automatically after this duration. You can manually choose the winning variant before the end of the test from the email dashboard.
 
       The test must be at least one hour in order for all of the tracking data to be collected and correctly taken into account to select the winning variant.
 

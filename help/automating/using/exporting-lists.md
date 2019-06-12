@@ -35,7 +35,7 @@ Export list is available in all the screens that have a **List** mode view, for 
    If you carry out an export from a list containing different resources, you must apply your filters so that only one type of resource is displayed in the list.
 
 1. If you like, sort your chosen column(s).
-1. Select the export button ![](assets/exportlistbutton.png) .
+1. Select the export button ![](assets/exportlistbutton.png).
 
    A popup will appear to confirm the export. Once you have confirmed the export, the file is automatically downloaded to your computer.
 
@@ -74,5 +74,5 @@ Adama;Henry;22/09/1992 02:00:00;henry.adama@mail.com;64120
 
 * [Roles](../../administration/using/list-of-roles.md)
 * [Customizing lists](../../start/using/customizing-lists.md)
-* [Configuring list](https://helpx.adobe.com/campaign/kt/acs/using/acs-configuring-a-list-feature-video-setup.html) video
+* [Configuring list video](https://helpx.adobe.com/campaign/kt/acs/using/acs-configuring-a-list-feature-video-setup.html) 
 

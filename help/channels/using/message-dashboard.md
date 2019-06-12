@@ -26,9 +26,9 @@ The message dashboard is a workspace made up of different icons - regrouped into
 
 The gray bar regroups various icons linked to your message.
 
-* **[!UICONTROL Summary]** : shows/hides the main information regarding the message.
-* **[!UICONTROL Edit properties]** : lets you edit the message's advanced parameters.
-* **[!UICONTROL Reports]** : gives you access to the reports relating to the message.
+* **[!UICONTROL Summary]**: shows/hides the main information regarding the message.
+* **[!UICONTROL Edit properties]**: lets you edit the message's advanced parameters.
+* **[!UICONTROL Reports]**: gives you access to the reports relating to the message.
 
 **Related topics**
 
@@ -43,11 +43,11 @@ The action bar has different icons that allow you to interact with your message.
 
 Depending on the parameters that have been set up and the progress made, certain icons may not be available.
 
-* **[!UICONTROL Show proofs]** : shows/hides the list of proofs that have been sent, if they exist. This button is only enabled once you have sent proofs.
+* **[!UICONTROL Show proofs]**: shows/hides the list of proofs that have been sent, if they exist. This button is only enabled once you have sent proofs.
 
   For more on proofs, see [Managing test profiles and sending proofs](../../sending/using/managing-test-profiles-and-sending-proofs.md).
 
-* **[!UICONTROL Send a test]** : lets you select the approval mode to use: **[!UICONTROL Email rendering]**, **[!UICONTROL Proof]** or both for an email. For more on test profiles, see [Sending proofs](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs).
+* **[!UICONTROL Send a test]**: lets you select the approval mode to use: **[!UICONTROL Email rendering]**, **[!UICONTROL Proof]** or both for an email. For more on test profiles, see [Sending proofs](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs).
 
   This button is only enabled once you have established test profiles.
 
@@ -55,11 +55,11 @@ Depending on the parameters that have been set up and the progress made, certain
   >
   >For an SMS message, there is no other choice: it is automatically a **[!UICONTROL Proof]**.
 
-* **[!UICONTROL Prepare send]** : starts to prepare the send. The **[!UICONTROL Deployment]** block appears and displays the result of the preparation. This button only appears once the target has been entered. You can stop preparation at any time using the corresponding button.
+* **[!UICONTROL Prepare send]**: starts to prepare the send. The **[!UICONTROL Deployment]** block appears and displays the result of the preparation. This button only appears once the target has been entered. You can stop preparation at any time using the corresponding button.
 
   For more on message preparation, [Preparing the send](../../sending/using/preparing-the-send.md).
 
-* **[!UICONTROL Confirm send]** : confirms sending the message. The sending statistics appear in the **[!UICONTROL Deployment]** block. This button only appears after the send has been prepared. You can stop or pause the send at any time using the **Stop send** and **[!UICONTROL Pause]** buttons.
+* **[!UICONTROL Confirm send]**: confirms sending the message. The sending statistics appear in the **[!UICONTROL Deployment]** block. This button only appears after the send has been prepared. You can stop or pause the send at any time using the **Stop send** and **[!UICONTROL Pause]** buttons.
 
   For more on confirming sending, see [Sending messages](../../sending/using/confirming-the-send.md).
 
@@ -69,8 +69,8 @@ The main screen is made up of different blocks. Click inside a block to access t
 
 ![](assets/delivery_dashboard_3.png)
 
-* **[!UICONTROL Deployment]** : allows you to track the progress of the message preparation or send. Click the button found in the lower right section of this block to access the send and analysis logs. This block only appears once the send has been prepared. For more on this. See [Confirming send](../../sending/using/confirming-the-send.md).
-* **[!UICONTROL Audience]** : allows you to establish the message's main target as well as the test profiles. See [Creating audiences](../../audiences/using/creating-audiences.md).
-* **[!UICONTROL Schedule]** : allows you to specify the date on which your message will be sent. See [Scheduling](../../sending/using/about-scheduling-messages.md).
-* **[!UICONTROL Content]** : allows you to define the message's content and preview it. See [Defining content](../../designing/using/designing-content-in-adobe-campaign.md).
+* **[!UICONTROL Deployment]**: allows you to track the progress of the message preparation or send. Click the button found in the lower right section of this block to access the send and analysis logs. This block only appears once the send has been prepared. For more on this. See [Confirming send](../../sending/using/confirming-the-send.md).
+* **[!UICONTROL Audience]**: allows you to establish the message's main target as well as the test profiles. See [Creating audiences](../../audiences/using/creating-audiences.md).
+* **[!UICONTROL Schedule]**: allows you to specify the date on which your message will be sent. See [Scheduling](../../sending/using/about-scheduling-messages.md).
+* **[!UICONTROL Content]**: allows you to define the message's content and preview it. See [Defining content](../../designing/using/designing-content-in-adobe-campaign.md).
 

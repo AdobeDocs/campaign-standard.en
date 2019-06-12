@@ -61,8 +61,8 @@ To configure the **[!UICONTROL End]** activity, follow the steps below:
 1. Select the workflow and the external signal activity that you want to call.
 1. Click the **[!UICONTROL Create element]** button to add a parameter, then fill in its name and value.
 
-    * **[!UICONTROL Name]** : the name that has been declared in the **[!UICONTROL External signal]** activity (see [Declaring the parameters in the External signal activity](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity)).
-    * **[!UICONTROL Value]** : the value that you want to assign to the parameter. The value should follow the **Standard syntax**, described in [this section](../../automating/using/advanced-expression-editing.md#standard-syntax).
+    * **[!UICONTROL Name]**: the name that has been declared in the **[!UICONTROL External signal]** activity (see [Declaring the parameters in the External signal activity](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity)).
+    * **[!UICONTROL Value]**: the value that you want to assign to the parameter. The value should follow the **Standard syntax**, described in [this section](../../automating/using/advanced-expression-editing.md#standard-syntax).
 
    ![](assets/extsignal_definingparameters_2.png)
 
@@ -95,7 +95,7 @@ Activities that can be customized with events variables are detailed in [this se
 
 ### Using events variables {#using-events-variables}
 
-Events variables are used within an expression that must respect the ** [Standard syntax](../../automating/using/advanced-expression-editing.md#standard-syntax)**.
+Events variables are used within an expression that must respect the **[Standard syntax](../../automating/using/advanced-expression-editing.md#standard-syntax)**.
 
 The syntax to use events variables must follow the format below, and use the parameter's name that has been defined in the **[!UICONTROL External signal]** activity (see [Declaring the parameters in the External signal activity](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity)):
 
@@ -103,15 +103,22 @@ The syntax to use events variables must follow the format below, and use the par
 $(vars/@parameterName)
 ```
 
+In this syntax, the **$** function returns **string** data type. If you want to specify another type of data, use the following functions:
+
+* **$long**: integer number.
+* **$float**: decimal number.
+* **$boolean**: true/false.
+* **$datetime**: timestamp.
+
 When using a variable in an activity, the interface provides help to call it.
 
 ![](assets/extsignal_callparameter.png)
 
-* ![](assets/extsignal_picker.png) : select the events variable among all variables that are available in the workflow (see ).
+* ![](assets/extsignal_picker.png): select the events variable among all variables that are available in the workflow (see ).
 
   ![](assets/wkf_test_activity_variables.png)
 
-* ![](assets/extsignal_expression_editor.png) : edit expressions combining variables and functions. For more on the Expression editor, refer to [this section](../../automating/using/advanced-expression-editing.md).
+* ![](assets/extsignal_expression_editor.png): edit expressions combining variables and functions. For more on the Expression editor, refer to [this section](../../automating/using/advanced-expression-editing.md).
 
   ![](assets/wkf_test_activity_variables_expression.png)
 
@@ -192,9 +199,9 @@ The objective is to trigger a workflow from an API call with external parameters
 
 To perform this use case, you need to perform the actions below:
 
-1. **Make an API call** to trigger Workflow 1 with external parameters. See [Step 1: Configuring the API call](../../automating/using/calling-a-workflow-with-external-parameters.md#step-1--configuring-the-api-call)
-1. **Build Workflow 1**: the workflow will transfer a file and load it into the database. It will then test if the data is empty or not, and eventually save the profiles into an audience. Finally, it will trigger Workflow 2. See [Step 2: Configuring Workflow 1](../../automating/using/calling-a-workflow-with-external-parameters.md#step-2--configuring-workflow-1)
-1. **Build Workflow 2**: the workflow will read the audience that has been created in Workflow 1, then send a personalized message to the profiles, with a segment code customized with the parameters. See [Step 3: Configuring Workflow 2](../../automating/using/calling-a-workflow-with-external-parameters.md#step-3--configuring-workflow-2)
+1. **Make an API call** to trigger Workflow 1 with external parameters. See [Step 1: Configuring the API call](../../automating/using/calling-a-workflow-with-external-parameters.md#step-1--configuring-the-api-call).
+1. **Build Workflow 1**: the workflow will transfer a file and load it into the database. It will then test if the data is empty or not, and eventually save the profiles into an audience. Finally, it will trigger Workflow 2. See [Step 2: Configuring Workflow 1](../../automating/using/calling-a-workflow-with-external-parameters.md#step-2--configuring-workflow-1).
+1. **Build Workflow 2**: the workflow will read the audience that has been created in Workflow 1, then send a personalized message to the profiles, with a segment code customized with the parameters. See [Step 3: Configuring Workflow 2](../../automating/using/calling-a-workflow-with-external-parameters.md#step-3--configuring-workflow-2).
 
 ![](assets/extsignal_uc_process.png)
 
@@ -274,7 +281,7 @@ Follow the steps below to configure the workflow:
 1. Name and define the condition. In our case, we want to test if the outbound transition contains data with the syntax below:
 
    ```
-   $(vars/@recCount)>0
+   $long(vars/@recCount)>0
    ```
 
    ![](assets/extsignal_uc5.png)
@@ -342,7 +349,7 @@ Follow the steps below to configure the workflow:
 
    ![](assets/extsignal_uc10b.png)
 
-1. You can now configure the message. Open the activity, then select **[!UICONTROL Recurring email]** .
+1. You can now configure the message. Open the activity, then select **[!UICONTROL Recurring email]**.
 
    ![](assets/extsignal_uc11.png)
 

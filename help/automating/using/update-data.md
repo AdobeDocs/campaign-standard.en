@@ -34,13 +34,13 @@ The **Update data** activity can be used after importing a file in order to inse
 1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
 1. Specify the **[!UICONTROL Operation type]** to be carried out:
 
-    * **[!UICONTROL Insert or update]** : insert data or update it if it the records already exist in the database.
-    * **[!UICONTROL Insert only]** : insert data only. The records that already exist are not updated. If reconciliation criteria are defined, only the non-reconciled records will be added.
+    * **[!UICONTROL Insert or update]**: insert data or update it if it the records already exist in the database.
+    * **[!UICONTROL Insert only]**: insert data only. The records that already exist are not updated. If reconciliation criteria are defined, only the non-reconciled records will be added.
 
       Check the **[!UICONTROL Generate an outbound transition for rejects]** box if the data imported contains certain records that already exist in the database to avoid any possible errors.
     
-    * **[!UICONTROL Update]** : update data of the records that already exist in the database only.
-    * **[!UICONTROL Delete]** : delete data.
+    * **[!UICONTROL Update]**: update data of the records that already exist in the database only.
+    * **[!UICONTROL Delete]**: delete data.
 
    >[!NOTE]
    >
@@ -48,8 +48,8 @@ The **Update data** activity can be used after importing a file in order to inse
 
 1. In the **[!UICONTROL Identification]** tab, specify how to identify the records in the database:
 
-    * **[!UICONTROL Using the targeting dimension]** : select the **[!UICONTROL Dimension to update]** then specify the **[!UICONTROL Keys for finding records]** . For more this, refer to [Targeting dimensions and resources](../../automating/using/query.md#targeting-dimensions-and-resources).
-    * If the data entered matches an existing targeting dimension, select the **[!UICONTROL Using one or more links]** option. Then select the **[!UICONTROL Dimension to update]** .
+    * **[!UICONTROL Using the targeting dimension]**: select the **[!UICONTROL Dimension to update]** then specify the **[!UICONTROL Keys for finding records]**. For more this, refer to [Targeting dimensions and resources](../../automating/using/query.md#targeting-dimensions-and-resources).
+    * If the data entered matches an existing targeting dimension, select the **[!UICONTROL Using one or more links]** option. Then select the **[!UICONTROL Dimension to update]**.
 
    If the operation type selected requires an update, you must use reconciliation keys.
 
@@ -61,7 +61,7 @@ The **Update data** activity can be used after importing a file in order to inse
 
    >[!NOTE]
    >
-   >**Managing updates** The **[!UICONTROL lastModified]** , **[!UICONTROL modifiedBy]** , **[!UICONTROL created]** and **[!UICONTROL createdBy]** fields are automatically updated when an update data activity is run, unless their configuration is explicitly carried out on the field update table. The update is only carried out on the records where at least one difference has been detected. If the values are the same, no update is carried out.
+   >**Managing updates** The **[!UICONTROL lastModified]**, **[!UICONTROL modifiedBy]**, **[!UICONTROL created]** and **[!UICONTROL createdBy]** fields are automatically updated when an update data activity is run, unless their configuration is explicitly carried out on the field update table. The update is only carried out on the records where at least one difference has been detected. If the values are the same, no update is carried out.
 
 1. If needed, manage the activity's [Transitions](../../automating/using/executing-a-workflow.md#managing-an-activity-s-outbound-transitions) to access the advanced options for the outbound population.
 

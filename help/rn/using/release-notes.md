@@ -24,6 +24,31 @@ Each release comes with new features and patches. Click on a release to view its
 
 View the latest [documentation updates](../../rn/using/documentation-updates.md) for Adobe Campaign Standard. If you're looking for a previous release, consult these pages: [2018 Release Notes](../../rn/using/release-notes-2018.md), [2017 Release Notes](../../rn/using/release-notes-2017.md), [2015-2016 Release Notes](../../rn/using/release-notes-2015-2016.md). Also consult the list of [Deprecated and Removed Features](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html).
 
+## Release 19.2.4 - June 2019 {#release-19-2-4---june-2019}
+
+### Email Designer {#email-designer-2}
+
+* Fixed an issue which prevented users from editing fragments when empty style tags were used in the HTML. This is a follow-up fix for CAMP-33778 in 19.2.3.
+
+## Release 19.2.3 - June 2019 {#release-19-2-3---june-2019}
+
+### Email Designer {#email-designer-1}
+
+Introduced a series of improvements and fixes to optimize fragments in the 19.2 release. Newly created fragments will work seamlessly. Fragments that were previously built have been grayed-out and need to be migrated to the new format. To do so, click on each fragment and validate its migration to the new format. We recommend that you test a few fragments before migrating them all.
+
+* Fixed an issue which prevented users from editing a fragment after unlocking it. This was affecting existing fragments when updating to 19.2. (CAMP-33778)
+* Fixed an issue when using dynamic content. Extra spaces were added in the HTML.
+
+### Other improvements {#other-improvements-2}
+
+* Fixed an issue which could prevent SMS sending from resuming after a disconnection of the SMS connector.
+* FFixed an issue which could close SMPP connections when TLS was enabled.
+* Fixed an issue which could close SMPP connections when TLS was enabled.
+* The “Launch_URL_Campaign” option has been added in Campaign to manage properties of mobile applications created with Adobe Experience Platform Mobile SDK.
+* Fixed an error that led to the Sandbox environment option being unchecked after uploading the certificate of a newly created mobile property and exiting the mobile application property page.
+* Fixed an issue which prevented you from enriching a transactional message content with information from the Service resource. (CAMP-33707)
+* Fixed an issue in Blacklist landing pages that occurred when trying to unsubscribe profiles from a service.
+
 ## Release 19.2 - May 2019 {#release-19-2---may-2019}
 
 ### What's new? {#what-s-new-}
@@ -38,7 +63,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
  <tbody> 
   <tr> 
    <td> Control Panel<br /> </td> 
-   <td> To help increase efficiency in your work as an Admin user, you can easily monitor capacity and manage settings of your instances (starting with SFTP servers management).<br/> For more information, refer to the <a href="https://helpx.adobe.com/campaign/kb/control-panel.html">detailed documentation</a>. <br /> </td> 
+   <td> To help increase efficiency in your work as an Admin user, you can easily monitor capacity and manage settings of your instances (starting with SFTP servers management).<br/> For more information, refer to the <a href="https://helpx.adobe.com/campaign/kb/control-panel.html">detailed documentation</a> and the <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-control-panel-video-use.html">how-to video</a>. <br /> </td> 
   </tr> 
   <tr> 
    <td> Local notifications<br /> </td> 
@@ -46,7 +71,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
   </tr> 
   <tr> 
    <td> Workflow enhancement - Add a payload to external signal activity<br /> </td> 
-   <td> Start a workflow with a payload when defined conditions are successfully met from another workflow or a REST API call to integrate with your external systems. This also includes a new <strong>test</strong> activity where you can run tests on this functionality.<br /> For more information, refer to the <a href="../../automating/using/calling-a-workflow-with-external-parameters.md">detailed documentation</a>. <br /> </td> 
+   <td> Start a workflow with a payload when defined conditions are successfully met from another workflow or a REST API call to integrate with your external systems. This also includes a new <strong>test</strong> activity where you can run tests on this functionality.<br /> For more information, refer to the <a href="../../automating/using/calling-a-workflow-with-external-parameters.md">detailed documentation</a> and the <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-external-signal-activity-feature-video-use.html">how-to video</a>. <br /> </td> 
   </tr> 
   <tr> 
    <td> Landing Pages enhancement - Google reCAPTCHA<br /> </td> 
@@ -93,7 +118,6 @@ Several improvements have been added to the Transactional messaging channel in o
 
 ### Other changes {#other-changes}
 
-* The number of simultaneous workflow executions has been limited to 20 in order to improve performance.
 * A new option has been added to the SMS external account. It enables to limit the maximum number of MTA processes that send SMS in order to better control the number of parallel connections. For more information, refer to the [SMS connector protocol and settings](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html) technote.
 * When publishing a resource with API extension, if the API has already been published, it is now automatically updated each time it is published again. Previously this action was manual and failing to update the API could break the profile or service resource of this API. For more on this, refer to the [detailed documentation](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension).
 * Zip code dimension has been removed from Dynamic Reporting. We recommend using City, Country, State dimensions instead.
@@ -268,11 +292,11 @@ Several improvements have been added to the Transactional messaging channel in o
      <li> The use of <a href="../../integrating/using/adding-target-dynamic-content.md">dynamic images from Adobe Target</a> </li> 
      <li> The ability to <a href="../../designing/using/importing-content-from-a-url.md#retrieving-content-from-a-url-automatically-at-preparation-time">retrieve content from a URL automatically at preparation time</a> </li> 
      <li> Fully compliant <a href="../../start/using/about-templates.md#content-templates">out-of-the box content templates</a>. </li> 
-    </ul> For more information, refer to the <a href="../../designing/using/about-email-content-design.md">detailed documentation</a>. Improvements and fixes are listed below.<br /> As a consequence, the legacy email content editor is now deprecated. For more information, refer to this <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">page</a>.<br /> </td> 
+    </ul> For more information, refer to the <a href="../../designing/using/about-email-content-design.md">detailed documentation</a> and the <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html">how-to video</a>. Improvements and fixes are listed below.<br /> As a consequence, the legacy email content editor is now deprecated. For more information, refer to this <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">page</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Product Listings in Transactional Emails<br /> </td> 
-   <td> You can now reference one or more product collections in a transactional email message. For example, you can automatically send a cart abandonment email listing all the products that were in the user’s cart with an image, price, and link to each product.<br /> For more information, refer to the <a href="../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message">detailed documentation</a>.<br /> </td> 
+   <td> You can now reference one or more product collections in a transactional email message. For example, you can automatically send a cart abandonment email listing all the products that were in the user’s cart with an image, price, and link to each product.<br /> For more information, refer to the <a href="../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message">detailed documentation</a> and the <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-product-listings-in-transactional-emails-feature-video-setup.html">how-to video</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Mobile View in the Email Designer<br /> </td> 

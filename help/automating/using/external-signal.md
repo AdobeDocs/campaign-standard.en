@@ -44,7 +44,7 @@ When configuring an external signal, it is important to first configure the **[!
 
 1. Drag and drop an **[!UICONTROL External signal]** activity into your destination workflow.
 1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
-1. Edit the label of the activity. This label is needed when configuring the source workflow that triggers the **[!UICONTROL External signal]** .
+1. Edit the label of the activity. This label is needed when configuring the source workflow that triggers the **[!UICONTROL External signal]**.
 
    If you want to call the workflow with parameters, use the **[!UICONTROL Parameters]** area to declare them. For more on this, refer to [this section](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity).
 
