@@ -51,9 +51,9 @@ The message preparation is triggered according to the workflow execution paramet
 
 1. Select the In-App message type. This will depend on the data targeted in your **[!UICONTROL Query]** activity.
 
-    * **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]** : This message type enables you to target Adobe Campaign profiles who have subscribed to your mobile application and to personalize In-App messages with profile attributes available in Campaign.
-    * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]** : This message type enables you to send a message to all users of your mobile application even if they don't have an existing profile in Campaign.
-    * **[!UICONTROL Target users based on their Mobile profile (inApp)]** : This message type enables you to target all users of a mobile app that have a mobile profile in Campaign whether known or unknown and to personalize In-App messages with any profile attributes that have been obtained from mobile device.
+    * **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]**: This message type enables you to target Adobe Campaign profiles who have subscribed to your mobile application and to personalize In-App messages with profile attributes available in Campaign.
+    * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**: This message type enables you to send a message to all users of your mobile application even if they don't have an existing profile in Campaign.
+    * **[!UICONTROL Target users based on their Mobile profile (inApp)]**: This message type enables you to target all users of a mobile app that have a mobile profile in Campaign whether known or unknown and to personalize In-App messages with any profile attributes that have been obtained from mobile device.
 
    ![](assets/wkf_in_app_4.png)
 
@@ -62,8 +62,8 @@ The message preparation is triggered according to the workflow execution paramet
 1. Define your In-App content. Refer to the section concerning [In-App customization](../../channels/using/customizing-an-in-app-message.md).
 1. By default, the **[!UICONTROL In-App delivery]** activity does not include any outbound transitions. If you would like to add an outbound transition to your **[!UICONTROL In-App delivery]** activity, go to the **[!UICONTROL General]** tab of the advanced activity options ( ![](assets/dlv_activity_params-24px.png) button in the activity's quick actions) then check one of the following options:
 
-    * **[!UICONTROL Add outbound transition without the population]** : this lets you generate an outbound transition that contains the exact same population as the inbound transition.
-    * **[!UICONTROL Add outbound transition with the population]** : this lets you generate an outbound transition containing the population to whom the message was sent. The members of the target excluded during the delivery preparation are excluded from this transition.
+    * **[!UICONTROL Add outbound transition without the population]**: this lets you generate an outbound transition that contains the exact same population as the inbound transition.
+    * **[!UICONTROL Add outbound transition with the population]**: this lets you generate an outbound transition containing the population to whom the message was sent. The members of the target excluded during the delivery preparation are excluded from this transition.
 
    ![](assets/wkf_in_app_5.png)
 
@@ -77,4 +77,4 @@ By default, starting a delivery workflow only triggers the message preparation. 
 
 The deliveries created within a workflow can be accessed in the application's marketing activity list. You can view the workflow's execution status using the dashboard. Links in the push notification summary pane allow you to directly access linked elements (workflow, campaign, etc.).
 
-In the parent deliveries, which can be accessed from the marketing activity list, you can view the total number of sends that have been processed (according to the aggregation period specified when the **[!UICONTROL In-App delivery]** activity was configured). To do this, open the detail view of the parent delivery's **[!UICONTROL Deployment]** block by selecting ![](assets/wkf_dlv_detail_button.png) .
+In the parent deliveries, which can be accessed from the marketing activity list, you can view the total number of sends that have been processed (according to the aggregation period specified when the **[!UICONTROL In-App delivery]** activity was configured). To do this, open the detail view of the parent delivery's **[!UICONTROL Deployment]** block by selecting ![](assets/wkf_dlv_detail_button.png).

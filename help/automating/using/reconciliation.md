@@ -60,8 +60,8 @@ For example, the **[!UICONTROL Reconciliation]** activity can be placed after a 
 
    Choose the **[!UICONTROL Processing unidentified source lines]** mode:
 
-    * **[!UICONTROL Ignore them]** : only the identifiable data is kept in the activity's outbound transition.
-    * **[!UICONTROL Keep in the outbound population]** : all the data from the inbound transition is kept in the activity's outbound transition.
+    * **[!UICONTROL Ignore them]**: only the identifiable data is kept in the activity's outbound transition.
+    * **[!UICONTROL Keep in the outbound population]**: all the data from the inbound transition is kept in the activity's outbound transition.
 
 1. Confirm the configuration of your activity and save your workflow.
 
@@ -107,7 +107,7 @@ The workflow is made up of the following activities:
 
 * An **[!UICONTROL Update data]** activity allows you to define the database fields to update using the imported data. As the data was already identified as belonging to the **Transactions** dimension in the previous activity, here you can use the **[!UICONTROL Directly using the targeting dimension]** identification option.
 
-  By using the option that automatically detects fields to update, the links configured in the previous activity (to profiles and products) are added to the list of **[!UICONTROL Fields to update]** . You must also make sure that the field that corresponds to the transaction date is correctly added to this list.
+  By using the option that automatically detects fields to update, the links configured in the previous activity (to profiles and products) are added to the list of **[!UICONTROL Fields to update]**. You must also make sure that the field that corresponds to the transaction date is correctly added to this list.
 
   ![](assets/reconciliation_example5.png)
 
