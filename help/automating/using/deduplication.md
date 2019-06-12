@@ -45,10 +45,10 @@ To configure a deduplication activity, you must enter a label, the method and th
 
 1. Select the **[!UICONTROL Resource type]** on which the deduplication has to be carried out:
 
-    * **[!UICONTROL Database resource]** if the deduplication is carried out on data that already exists in the database. Select the **[!UICONTROL Filtering dimension]** and the **[!UICONTROL Targeting dimension]** , depending on the data that you want to deduplicate. By default, deduplication is carried out on the **profiles**.
+    * **[!UICONTROL Database resource]** if the deduplication is carried out on data that already exists in the database. Select the **[!UICONTROL Filtering dimension]** and the **[!UICONTROL Targeting dimension]**, depending on the data that you want to deduplicate. By default, deduplication is carried out on the **profiles**.
     * **[!UICONTROL Temporary resource]** if the deduplication is carried out on the workflow's temporary data: select the **[!UICONTROL Targeted set]** containing the data to deduplicate. This use case can be encountered after importing a file or if the data in the database was enriched (with a segment code, for example).
 
-1. Select the **[!UICONTROL Number of unique records to keep]** . The default value for this field is 1. The value 0 allows you to keep all the duplicates.
+1. Select the **[!UICONTROL Number of unique records to keep]**. The default value for this field is 1. The value 0 allows you to keep all the duplicates.
 
    For example, if records A and B are considered duplicates of record Y, and a record C is considered as a duplicate of record Z:
 
@@ -59,16 +59,16 @@ To configure a deduplication activity, you must enter a label, the method and th
 1. Define the **[!UICONTROL Duplicate identification]** criteria by adding conditions in the list provided. Specify the fields and/or expressions for which the identical values allow the duplicates to be identified: email address, first name, last name, etc. The order of the conditions allows you to specify those to process first.
 1. In the drop-down list, select the **[!UICONTROL Deduplication method]** to use:
 
-    * **[!UICONTROL Choose for me]** : randomly selects the record to be kept out of the duplicates.
-    * **[!UICONTROL Following a list of values]** : lets you define a value priority for one or more fields. To define the values, select a field or create an expression, then add the value(s) into the appropriate table. To define a new field, click the **[!UICONTROL Add]** button located above the list of values.
+    * **[!UICONTROL Choose for me]**: randomly selects the record to be kept out of the duplicates.
+    * **[!UICONTROL Following a list of values]**: lets you define a value priority for one or more fields. To define the values, select a field or create an expression, then add the value(s) into the appropriate table. To define a new field, click the **[!UICONTROL Add]** button located above the list of values.
     
       ![](assets/deduplication_2.png)
 
-    * **[!UICONTROL Non-empty value]** : this lets you keep records for which the value of the selected expression is not empty as a priority.
+    * **[!UICONTROL Non-empty value]**: this lets you keep records for which the value of the selected expression is not empty as a priority.
     
       ![](assets/deduplication_3.png)
 
-    * **[!UICONTROL Using an expression]** : this lets you keep the records in which the value of the expression entered is the smallest or the biggest. 
+    * **[!UICONTROL Using an expression]**: this lets you keep the records in which the value of the expression entered is the smallest or the biggest. 
     
       ![](assets/deduplication_4.png)
 
@@ -89,7 +89,7 @@ The workflow is made up of:
 
 * A **[!UICONTROL Deduplication]** activity, which allows you to identify the duplicates that come from the preceding query. In this example, only one record is saved for each duplicate. The duplicates are identified using the email address. This means that the email delivery can only be sent once for each email address to be present in the targeting.
 
-  The deduplication method selected is **[!UICONTROL Non-empty value]** . This allows you to ensure that amongst the records kept in case of duplicates, priority is given to those in which the **First name** has been provided. This will make it more coherent if the first name is used in the personalization fields of the email content.
+  The deduplication method selected is **[!UICONTROL Non-empty value]**. This allows you to ensure that amongst the records kept in case of duplicates, priority is given to those in which the **First name** has been provided. This will make it more coherent if the first name is used in the personalization fields of the email content.
 
   In addition, an extra transition is added to keep the duplicates and to be able to list them.
 

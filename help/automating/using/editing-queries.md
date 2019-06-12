@@ -98,9 +98,9 @@ Queries can be defined in the **[!UICONTROL Audience]** window while creating a 
 1. You can specify a name for your rule. This is then displayed as the rule name in the workspace. If the rule is not given a name, an automatic description of the conditions is displayed.
 1. To combine the workspace elements, interlock them into one another to create different groups and/or group levels. You can then select a logical operator to combine elements on the same level:
 
-    * **[!UICONTROL AND]** : an intersection of two criteria. Only the elements matching each criterion are taken into account.
-    * **[!UICONTROL OR]** : a union of two criteria. Elements matching at least one of the two criteria are taken into account.
-    * **[!UICONTROL EXCEPT]** : exclusion criteria. Elements matching the first criterion are taken into account unless they also match the second criterion.
+    * **[!UICONTROL AND]**: an intersection of two criteria. Only the elements matching each criterion are taken into account.
+    * **[!UICONTROL OR]**: a union of two criteria. Elements matching at least one of the two criteria are taken into account.
+    * **[!UICONTROL EXCEPT]**: exclusion criteria. Elements matching the first criterion are taken into account unless they also match the second criterion.
 
 1. You can now calculate and preview the number of elements targeted by your query using the ![](assets/count.png) and ![](assets/preview.png) buttons from the action bar.
 

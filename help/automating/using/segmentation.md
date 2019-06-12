@@ -43,22 +43,22 @@ The **[!UICONTROL Segmentation]** activity is generally placed after targeting a
 
 1. Select the outbound transition type that you would like to use:
 
-    * **[!UICONTROL Generate one transition per segment]** : one outbound transition is added for each configured segment at the end of the activity.
-    * **[!UICONTROL Generate all segments in one transition]** : all configured segments are regrouped into one single outbound transition. Specify the transition label. The members of each segment keep the segment code that has been assigned to them.
+    * **[!UICONTROL Generate one transition per segment]**: one outbound transition is added for each configured segment at the end of the activity.
+    * **[!UICONTROL Generate all segments in one transition]**: all configured segments are regrouped into one single outbound transition. Specify the transition label. The members of each segment keep the segment code that has been assigned to them.
 
 1. Add a segment by using the ![](assets/add_darkgrey-24px.png) or **[!UICONTROL Add an element]** button and specify the standard properties:
 
-    * **[!UICONTROL Do not activate the transition if the population is empty]** : the segment will only be enabled if data is retrieved.
-    * **[!UICONTROL Filter initial population (query)]** : lets you filter this segment's population.
-    * **[!UICONTROL Limit segment population]** : lets you limit the segment size.
-    * **[!UICONTROL Filter and limit segment population]** : lets you filter the segment population and limit its size.
-    * **[!UICONTROL Label]** : segment label.
-    * **[!UICONTROL Segment code]** : code assigned to the segment population.The segment code can be personalized using a standard expression and events variables (see [Customizing activities with events variables](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables)).
-    * **[!UICONTROL Exclude segment from population]** : lets you exclude the specified segment from the outbound population of the activity. This option can only be used if the **[!UICONTROL Generate all segments in the same transition]** option is selected.
+    * **[!UICONTROL Do not activate the transition if the population is empty]**: the segment will only be enabled if data is retrieved.
+    * **[!UICONTROL Filter initial population (query)]**: lets you filter this segment's population.
+    * **[!UICONTROL Limit segment population]**: lets you limit the segment size.
+    * **[!UICONTROL Filter and limit segment population]**: lets you filter the segment population and limit its size.
+    * **[!UICONTROL Label]**: segment label.
+    * **[!UICONTROL Segment code]**: code assigned to the segment population.The segment code can be personalized using a standard expression and events variables (see [Customizing activities with events variables](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables)).
+    * **[!UICONTROL Exclude segment from population]**: lets you exclude the specified segment from the outbound population of the activity. This option can only be used if the **[!UICONTROL Generate all segments in the same transition]** option is selected.
 
    ![](assets/wkf_segment_new_segment.png)
 
-1. Open the detail view of the segment to access the latter's configuration options. To do this, check the relevant box in the activity's segment list, then select ![](assets/wkf_segment_parameters_24px.png) .
+1. Open the detail view of the segment to access the latter's configuration options. To do this, check the relevant box in the activity's segment list, then select ![](assets/wkf_segment_parameters_24px.png).
 1. If the option to filter the initial population is checked, open the **[!UICONTROL Filter]** tab and specify your segment's population. The filters are based on the filtering dimension selected in step 4. Consult the [Query editing](../../automating/using/editing-queries.md) section for further information on population filtering.
 
    If the segmentation is carried out on a temporary resource, the count and preview of the population are not available in this tab.
@@ -67,15 +67,15 @@ The **[!UICONTROL Segmentation]** activity is generally placed after targeting a
 
    First, select the **[!UICONTROL Type of limit]** that you would like to use:
 
-    * **[!UICONTROL Random sampling]** : the segment population is selected randomly taking into account the configuration of the **[!UICONTROL Filter]** tab, if necessary.
-    * **[!UICONTROL Ordered sampling]** : the segment population is selected in an ordered way. You must consequently specify the columns to be taken into account and the type of sorting to be applied. For example, if you select the **Age** field as the sort column while applying a **[!UICONTROL Descending sort]** and setting a limit of 100, only the profiles of the top 100 oldest people will be kept.
+    * **[!UICONTROL Random sampling]**: the segment population is selected randomly taking into account the configuration of the **[!UICONTROL Filter]** tab, if necessary.
+    * **[!UICONTROL Ordered sampling]**: the segment population is selected in an ordered way. You must consequently specify the columns to be taken into account and the type of sorting to be applied. For example, if you select the **Age** field as the sort column while applying a **[!UICONTROL Descending sort]** and setting a limit of 100, only the profiles of the top 100 oldest people will be kept.
 
    Now specify the size **[!UICONTROL Limit]** of the segment:
 
-    * **[!UICONTROL Size (as a % of the initial population)]** : specify the segment size by using a percentage of the activity's initial population.
-    * **[!UICONTROL Maximum size]** : specify a maximum number of members for the segment population.
-    * **[!UICONTROL By data grouping]** : you can limit the segment population according to the values of a specific field of the inbound population. Select the field for grouping, then specify the values to be used.
-    * **[!UICONTROL By data grouping (as a %)]** : you can limit the segment population according to the values of a specific inbound population field by using a percentage. Select the field to apply the grouping, then specify the values to be used.
+    * **[!UICONTROL Size (as a % of the initial population)]**: specify the segment size by using a percentage of the activity's initial population.
+    * **[!UICONTROL Maximum size]**: specify a maximum number of members for the segment population.
+    * **[!UICONTROL By data grouping]**: you can limit the segment population according to the values of a specific field of the inbound population. Select the field for grouping, then specify the values to be used.
+    * **[!UICONTROL By data grouping (as a %)]**: you can limit the segment population according to the values of a specific inbound population field by using a percentage. Select the field to apply the grouping, then specify the values to be used.
 
       >[!NOTE]
       >

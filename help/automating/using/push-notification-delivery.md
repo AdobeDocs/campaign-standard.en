@@ -51,8 +51,8 @@ The message preparation is triggered according to the workflow execution paramet
 
 1. Select the push notification send mode:
 
-    * **[!UICONTROL Single notification]** : the push notification is sent a single time. You can specify here whether or not you would like to add an outbound transition to the activity. The different transition types are detailed in step 7 of this procedure.
-    * **[!UICONTROL Recurring notification]** : the push notification is sent several times, according to the frequency defined in a **[!UICONTROL Scheduler]** activity. Select the aggregation period of the sends. This allows you to regroup all the sends that occur during the defined period in one single push notification that is also called **recurring execution** and can be accessed from the application's marketing activity list.
+    * **[!UICONTROL Single notification]**: the push notification is sent a single time. You can specify here whether or not you would like to add an outbound transition to the activity. The different transition types are detailed in step 7 of this procedure.
+    * **[!UICONTROL Recurring notification]**: the push notification is sent several times, according to the frequency defined in a **[!UICONTROL Scheduler]** activity. Select the aggregation period of the sends. This allows you to regroup all the sends that occur during the defined period in one single push notification that is also called **recurring execution** and can be accessed from the application's marketing activity list.
 
       For example, for a recurring birthday notification, that is sent daily, you can choose to aggregate the sends per month. This allows you to receive reports on your delivery on a monthly basis although the notification is sent every day.
 
@@ -61,8 +61,8 @@ The message preparation is triggered according to the workflow execution paramet
 1. Define the push notification content. See [Creating a push notification](../../channels/using/preparing-and-sending-a-push-notification.md)
 1. By default, the **[!UICONTROL Push notification]** activity does not include any outbound transitions. If you would like to add an outbound transition to your **[!UICONTROL Push Notification]** activity, go to the **[!UICONTROL General]** tab of the advanced activity options ( ![](assets/dlv_activity_params-24px.png) button in the activity's quick actions) then check one of the following options:
 
-    * **[!UICONTROL Add outbound transition without the population]** : this lets you generate an outbound transition that contains the exact same population as the inbound transition.
-    * **[!UICONTROL Add outbound transition with the population]** : this lets you generate an outbound transition containing the population to whom the notification was sent. The members of the target excluded during the delivery preparation are excluded from this transition.
+    * **[!UICONTROL Add outbound transition without the population]**: this lets you generate an outbound transition that contains the exact same population as the inbound transition.
+    * **[!UICONTROL Add outbound transition with the population]**: this lets you generate an outbound transition containing the population to whom the notification was sent. The members of the target excluded during the delivery preparation are excluded from this transition.
 
 1. Confirm the configuration of your activity and save your workflow.
 
@@ -74,7 +74,7 @@ By default, starting a delivery workflow only triggers the message preparation. 
 
 The deliveries created within a workflow can be accessed in the application's marketing activity list. You can view the workflow's execution status using the dashboard. Links in the push notification summary pane allow you to directly access linked elements (workflow, campaign, etc.).
 
-In the parent deliveries, which can be accessed from the marketing activity list, you can view the total number of sends that have been processed (according to the aggregation period specified when the **[!UICONTROL Push notification]** activity was configured). To do this, open the detail view of the parent delivery's **[!UICONTROL Deployment]** block by selecting ![](assets/wkf_dlv_detail_button.png) .
+In the parent deliveries, which can be accessed from the marketing activity list, you can view the total number of sends that have been processed (according to the aggregation period specified when the **[!UICONTROL Push notification]** activity was configured). To do this, open the detail view of the parent delivery's **[!UICONTROL Deployment]** block by selecting ![](assets/wkf_dlv_detail_button.png).
 
 ## Sending a recurring push notification with a workflow {#sending-a-recurring-push-notification-with-a-workflow}
 
@@ -106,8 +106,8 @@ In this example, a personalized push notification is sent every first day of the
 
     * Select the **[!UICONTROL Recurring notification]** option.
     * Define the push notification content. For more information on push notification content, refer to this [section](../../channels/using/preparing-and-sending-a-push-notification.md).
-    * In the **[!UICONTROL Schedule]** block, select **[!UICONTROL Messages to be sent automatically on the time zone specified below]** . Here, we chose the **[!UICONTROL Time zone of the contact date]** Pacific as in the workflow **[!UICONTROL Scheduler]** .
-    * In the **[!UICONTROL Optimize the sending time per recipient]** field, select **[!UICONTROL Send at the recipient's time zone]** .
+    * In the **[!UICONTROL Schedule]** block, select **[!UICONTROL Messages to be sent automatically on the time zone specified below]**. Here, we chose the **[!UICONTROL Time zone of the contact date]** Pacific as in the workflow **[!UICONTROL Scheduler]**.
+    * In the **[!UICONTROL Optimize the sending time per recipient]** field, select **[!UICONTROL Send at the recipient's time zone]**.
     
       ![](assets/wkf_push_example_4.png)
 

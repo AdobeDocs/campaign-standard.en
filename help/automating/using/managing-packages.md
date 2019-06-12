@@ -59,7 +59,7 @@ You need to create a package if you need to export specific sets of data.
 
 To create a package, you need the administration rights.
 
-1. From **[!UICONTROL Administration]** > **[!UICONTROL Deployment]** > **[!UICONTROL Package exports]** , click the **[!UICONTROL Create]** button in the list of package contents.
+1. From **[!UICONTROL Administration]** > **[!UICONTROL Deployment]** > **[!UICONTROL Package exports]**, click the **[!UICONTROL Create]** button in the list of package contents.
 
    The element is created immediately. To cancel creating it, go back to the list and check the corresponding box to delete it.
 
@@ -100,7 +100,7 @@ Exporting a package allows you to save a specific state of a resource that you w
 >
 >Exporting packages is not authorized if the resources exported have out-of-the-box IDs. Therefore, the IDs of exportable resources must be changed by using a name that is different from the templates provided as standard by Adobe Campaign Standard. For example, to export test profiles, an ID containing the value "SDM" or "sdm" must not be used.
 
-1. From **[!UICONTROL Administration]** > **[!UICONTROL Deployment]** > **[!UICONTROL Package exports]** , select a package to access its detail.
+1. From **[!UICONTROL Administration]** > **[!UICONTROL Deployment]** > **[!UICONTROL Package exports]**, select a package to access its detail.
 1. Check that the package contains the data you need.
 1. Click the **[!UICONTROL Start export]** button.
 
@@ -108,7 +108,7 @@ The exported file is stored in the download folder of the browser in use. It is 
 
 When the operation has finished, several sections appear:
 
-* **[!UICONTROL Export status]** : this section shows whether the operation has been carried out correctly.
+* **[!UICONTROL Export status]**: this section shows whether the operation has been carried out correctly.
 
   ![](assets/packages_6.png)
 
@@ -142,7 +142,7 @@ An administrator can manually import a package originating from an export execut
 
 The manual package import consists of two steps: first, you have to upload a file, then you can import its content.
 
-1. From **[!UICONTROL Administration]** > **[!UICONTROL Deployment]** > **[!UICONTROL Package imports]** , click the **[!UICONTROL Create]** button in the package import list.
+1. From **[!UICONTROL Administration]** > **[!UICONTROL Deployment]** > **[!UICONTROL Package imports]**, click the **[!UICONTROL Create]** button in the package import list.
 
    The element is created immediately. To cancel creating it, go back to the list and check the corresponding box to delete it.
 
@@ -163,7 +163,7 @@ The manual package import consists of two steps: first, you have to upload a fil
 
 When the operation has finished, several sections appear:
 
-* **[!UICONTROL Import status]** : this section shows whether the operation has been carried out correctly.
+* **[!UICONTROL Import status]**: this section shows whether the operation has been carried out correctly.
 * You can consult the different steps of the import via the **[!UICONTROL Execution logs]** tab. This is particularly important to view errors.
 
   ![](assets/packages_20.png)

@@ -34,7 +34,7 @@ The **[!UICONTROL Read audience]** activity is a simpler version of the **[!UICO
 1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
 1. Select the audience you want to retrieve from the **[!UICONTROL Properties]** tab.
 
-   You can retrieve audiences of the following types: **[!UICONTROL List]** , **[!UICONTROL Query]** , **[!UICONTROL File]** and **[!UICONTROL Experience Cloud]** . For more information on audience types, refer to the [Audiences](../../audiences/using/about-audiences.md) documentation.
+   You can retrieve audiences of the following types: **[!UICONTROL List]**, **[!UICONTROL Query]**, **[!UICONTROL File]** and **[!UICONTROL Experience Cloud]**. For more information on audience types, refer to the [Audiences](../../audiences/using/about-audiences.md) documentation.
 
    The **[!UICONTROL Use a dynamic audience]** option lets you define the name of the audience to target based on the workflow's events variables. For more on this, refer to the [Customizing activities with events variables](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables) section.
 

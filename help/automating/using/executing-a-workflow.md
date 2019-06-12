@@ -170,7 +170,7 @@ In this case, the erroneous task is aborted. This mode is particularly suited to
 
 >[!NOTE]
 >
->You can apply this configuration individually for each activity. To do this, select an activity and open it using the quick action ![](assets/edit_darkgrey-24px.png) . Then select the error management mode in the **Execution options** tab. See [Activity execution options](../../automating/using/executing-a-workflow.md#activity-execution-options).
+>You can apply this configuration individually for each activity. To do this, select an activity and open it using the quick action ![](assets/edit_darkgrey-24px.png). Then select the error management mode in the **Execution options** tab. See [Activity execution options](../../automating/using/executing-a-workflow.md#activity-execution-options).
 
 The **[!UICONTROL Execution]** section of the workflow properties also allows you to define a number of **[!UICONTROL Consecutive errors]** that are authorized before the workflow execution is automatically suspended. As long as this number is not reached, the erroneous elements are ignored and the other workflow branches are executed normally. If this number is reached, the workflow is suspended and the workflow supervisors are automatically notified (email and in-app notification). See [Workflow properties](../../automating/using/executing-a-workflow.md#workflow-properties) and [Adobe Campaign notifications](../../administration/using/sending-internal-notifications.md).
 
@@ -199,8 +199,8 @@ The **[!UICONTROL In case of error]** field allows you to specify the action to 
 
   By selecting this option, you can also define a number of **[!UICONTROL Consecutive errors]** that are authorized:
 
-    * If the number specified is **[!UICONTROL 0]** , or as long as the number specified is not reached, activities that encounter errors are ignored. The other workflow branches are executed normally.
-    * If the number specified is reached, the whole of the workflow is suspended and becomes **[!UICONTROL Erroneous]** . If supervisors have been defined, they are automatically notified by an email.
+    * If the number specified is **[!UICONTROL 0]**, or as long as the number specified is not reached, activities that encounter errors are ignored. The other workflow branches are executed normally.
+    * If the number specified is reached, the whole of the workflow is suspended and becomes **[!UICONTROL Erroneous]**. If supervisors have been defined, they are automatically notified by an email.
 
 ![](assets/wkf_execution_6.png)
 
