@@ -69,5 +69,5 @@ To use these two solutions together, you must configure them to connect to one a
 1. Configure Adobe Experience Manager. To do this:
 
     * Configure the replication between the Adobe Experience Manager authoring and publishing instances.
-    * Connect Adobe Experience Manager to Adobe Campaign by configuring a dedicated **[!UICONTROL Cloud Service]** .
+    * Connect Adobe Experience Manager to Adobe Campaign by configuring a dedicated **[!UICONTROL Cloud Service]**.
 

@@ -24,12 +24,12 @@ snippet: y
 
 Three types of In-App message are available in Adobe Campaign:
 
-* **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]** : This message type enables you to target Adobe Campaign profiles (CRM profiles) who have subscribed to your mobile application. This message type can be personalized with all available profile attributes in Adobe Campaign but requires a secure handshake between Mobile SDK and Campaign's In-App messaging service to ensure that messages with personal and sensitive information are used by authorized users only.
+* **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]**: This message type enables you to target Adobe Campaign profiles (CRM profiles) who have subscribed to your mobile application. This message type can be personalized with all available profile attributes in Adobe Campaign but requires a secure handshake between Mobile SDK and Campaign's In-App messaging service to ensure that messages with personal and sensitive information are used by authorized users only.
 
   To download this message type on users' devices, Mobile SDK has to send linkage fields used to connect a mobile profile to a CRM profile in Adobe Campaign. For more information on SDK APIs required to support In-App, refer to this [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference).
 
-* **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]** : This message type enables you to send messages to all users (current or future) of your mobile application even if they don't have an existing profile in Adobe Campaign. Personalization is thus not possible when customizing the messages as the user profile may not even exist in Adobe Campaign.
-* **[!UICONTROL Target users based on their Mobile profile (inApp)]** : This message type enables you to target all known or anonymous users of a mobile app that have a mobile profile in Adobe Campaign. This messages type can be personalized using only non-personal and non-sensitive attributes and does not require secure handshake between Mobile SDK and Adobe Campaign's In-App messaging service.
+* **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**: This message type enables you to send messages to all users (current or future) of your mobile application even if they don't have an existing profile in Adobe Campaign. Personalization is thus not possible when customizing the messages as the user profile may not even exist in Adobe Campaign.
+* **[!UICONTROL Target users based on their Mobile profile (inApp)]**: This message type enables you to target all known or anonymous users of a mobile app that have a mobile profile in Adobe Campaign. This messages type can be personalized using only non-personal and non-sensitive attributes and does not require secure handshake between Mobile SDK and Adobe Campaign's In-App messaging service.
 
   For more information on how to handle personal and sensitive data, refer to [Handling mobile profile fields with personal and sensitive data](../../channels/using/preparing-and-sending-an-in-app-message.md#handling-mobile-profile-fields-with-personal-and-sensitive-data).
 
@@ -89,19 +89,19 @@ The steps for creating a standalone In-App message with Adobe Campaign are:
 
    Four categories of events are available:
 
-    * **[!UICONTROL Mobile Application events]** : Custom events implemented in your mobile application.
+    * **[!UICONTROL Mobile Application events]**: Custom events implemented in your mobile application.
 
       For more on events creations, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
     
-    * **[!UICONTROL Life Cycle events]** : Out-of-the-box life cycle events supported by Adobe Mobile SDK.
+    * **[!UICONTROL Life Cycle events]**: Out-of-the-box life cycle events supported by Adobe Mobile SDK.
 
       For more on life cycle events, refer to this [page](https://marketing.adobe.com/resources/help/en_US/mobile/android/metrics.html).
     
-    * **[!UICONTROL Analytics Events]** : The following three categories are supported depending on what is instrumented in your mobile app: Adobe Analytics, Context data or View state.
+    * **[!UICONTROL Analytics Events]**: The following three categories are supported depending on what is instrumented in your mobile app: Adobe Analytics, Context data or View state.
 
       Please note that these events are only available if you have an Adobe Analytics license.
     
-    * **[!UICONTROL Places]** : The following three categories leverage real-time location data to deliver contextually relevant mobile experiences: Places context data, Places custom metadata or Places event type.
+    * **[!UICONTROL Places]**: The following three categories leverage real-time location data to deliver contextually relevant mobile experiences: Places context data, Places custom metadata or Places event type.
 
       For more information on Adobe Places, refer to the [Places documentation](https://placesdocs.com/).
 
