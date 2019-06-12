@@ -11,7 +11,7 @@ audience: channels
 content-type: reference
 topic-tags: direct-mail
 discoiquuid: 5b02227f-9438-4001-bc2f-3d8661d173b3
-
+context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
 ---
