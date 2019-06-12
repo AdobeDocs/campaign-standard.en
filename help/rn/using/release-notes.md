@@ -42,7 +42,7 @@ Introduced a series of improvements and fixes to optimize fragments in the 19.2 
 ### Other improvements {#other-improvements-2}
 
 * Fixed an issue which could prevent SMS sending from resuming after a disconnection of the SMS connector.
-* FFixed an issue which could close SMPP connections when TLS was enabled.
+* Fixed an issue which could close SMPP connections when TLS was enabled.
 * Fixed an issue which could close SMPP connections when TLS was enabled.
 * The “Launch_URL_Campaign” option has been added in Campaign to manage properties of mobile applications created with Adobe Experience Platform Mobile SDK.
 * Fixed an error that led to the Sandbox environment option being unchecked after uploading the certificate of a newly created mobile property and exiting the mobile application property page.
