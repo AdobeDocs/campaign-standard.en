@@ -26,7 +26,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 
 ## Release 19.2.4 - June 2019 {#release-19-2-4---june-2019}
 
-### Email Designer {#email-designer}
+### Email Designer {#email-designer-1}
 
 * Fixed an issue which prevented users from editing fragments when empty style tags were used in the HTML. This is a follow-up fix for CAMP-33778 in 19.2.3.
 
@@ -39,7 +39,7 @@ Introduced a series of improvements and fixes to optimize fragments in the 19.2 
 * Fixed an issue which prevented users from editing a fragment after unlocking it. This was affecting existing fragments when updating to 19.2. (CAMP-33778)
 * Fixed an issue when using dynamic content. Extra spaces were added in the HTML.
 
-### Other improvements {#other-improvements}
+### Other improvements {#other-improvements-2}
 
 * Fixed an issue which could prevent SMS sending from resuming after a disconnection of the SMS connector.
 * FFixed an issue which could close SMPP connections when TLS was enabled.
