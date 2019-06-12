@@ -11,7 +11,7 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 discoiquuid: d44656e8-e652-45fc-a05c-0d5ffe456ecb
-
+context-tags: marketingHistory,main
 internal: n
 snippet: y
 ---
