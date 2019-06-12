@@ -32,9 +32,9 @@ Importing audiences/segments from People core service in Adobe Campaign can be c
 
    ![](assets/aam_import_audience.png)
 
-1. Select the corresponding **[!UICONTROL Shared Data Source]** .
+1. Select the corresponding **[!UICONTROL Shared Data Source]**.
 
-   If the selected data source is configured to use an encryption algorithm, an additional option offers you the possibility to **[!UICONTROL Force reconciliation with a profile]** . Check this option if the **[!UICONTROL Channel]** field of the data source is set to Email or Mobile (SMS) and if you want to leverage profile data.
+   If the selected data source is configured to use an encryption algorithm, an additional option offers you the possibility to **[!UICONTROL Force reconciliation with a profile]**. Check this option if the **[!UICONTROL Channel]** field of the data source is set to Email or Mobile (SMS) and if you want to leverage profile data.
 
    If you do not select the **[!UICONTROL Force reconciliation with a profile]** and if **[!UICONTROL Channel]** is set in AMC Data source to Email or Mobile (SMS) then all the encrypted declared IDs are decrypted. An audience of type **File** with a list of all the email addresses/mobile phone numbers is created/updated. This way, no email address/mobile phone number is lost while importing a shared audience through this integration, even if that profile does not exist in Campaign. Note that this type of audiences cannot be used directly as they need to be reconciled manually using workflows.
 
@@ -57,7 +57,7 @@ It can be carried out in a new workflow and only by users connected via IMS (aut
 1. Create a new workflow from a program, a campaign, or the list of marketing activities.
 1. Using the different activities available, target a set of profiles.
 1. After the targeting, drag and drop a **[!UICONTROL Save audience]** activity into the workflow, then open it.
-1. Select **[!UICONTROL Share in Adobe Experience Cloud]** .
+1. Select **[!UICONTROL Share in Adobe Experience Cloud]**.
 
    ![](assets/aam_save_audience_activity.png)
 
@@ -71,7 +71,7 @@ It can be carried out in a new workflow and only by users connected via IMS (aut
    In order to be reconciled and exchanged, the records must have an Adobe Experience Cloud ID ('Visitor ID' or 'Declared ID'). Non-reconciled records are ignored when importing and exporting audiences.
 
 1. To finish, click the check mark located at the top right of the screen.
-1. Select the corresponding **[!UICONTROL Shared Data Source]** .
+1. Select the corresponding **[!UICONTROL Shared Data Source]**.
 1. If you like, check the **[!UICONTROL Generate an outbound transition]** box to use the profiles that were exported. Only the profiles that can be reconciled are exported.
 1. Confirm the activity's configuration and save your workflow.
 1. Start your workflow to export your audience. Synchronization between Adobe Campaign and People core service can take several hours

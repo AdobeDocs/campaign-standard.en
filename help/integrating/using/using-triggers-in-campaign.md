@@ -28,7 +28,7 @@ You can watch this [video](https://helpx.adobe.com/marketing-cloud/how-to/email-
 
 The steps for putting this into place are:
 
-1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud Triggers]** . 
+1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud Triggers]**. 
 
    ![](assets/remarketing_1.png)
 
@@ -36,7 +36,7 @@ The steps for putting this into place are:
 
    ![](assets/remarketing_2.png)
 
-1. Select the Adobe Experience Cloud trigger that you want to use and click **[!UICONTROL Next]** .
+1. Select the Adobe Experience Cloud trigger that you want to use and click **[!UICONTROL Next]**.
 1. Configure the general properties of the trigger. At this step of the wizard, also specify the channel and the targeting dimension to use for the trigger (see [targeting dimensions and resources](../../automating/using/query.md#targeting-dimensions-and-resources)). Then confirm the trigger creation.
 1. Click the button to the right of the **[!UICONTROL Event content and enrichment]** field to view the content of the payload. This screen also allows you to enrich the event data with profile data stored in the Adobe Campaign database. The enrichment is performed in the same way as for a standard transactional message. 
 
@@ -74,7 +74,7 @@ When editing content, you can add a personalization field based on the informati
 
 ## Accessing the reports {#accessing-the-reports}
 
-To view the dedicated trigger report in Adobe Campaign, open the trigger event that you previously created, and click **[!UICONTROL Show trigger report]** . 
+To view the dedicated trigger report in Adobe Campaign, open the trigger event that you previously created, and click **[!UICONTROL Show trigger report]**. 
 
 ![](assets/remarketing_9.png)
 
