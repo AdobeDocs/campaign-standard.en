@@ -103,6 +103,13 @@ The syntax to use events variables must follow the format below, and use the par
 $(vars/@parameterName)
 ```
 
+In this syntax, the **$** function returns **string** data type. If you want to specify another type of data, use the following functions:
+
+* **$long**: integer number.
+* **$float**: decimal number.
+* **$boolean**: true/false.
+* **$datetime**: timestamp.
+
 When using a variable in an activity, the interface provides help to call it.
 
 ![](assets/extsignal_callparameter.png)
@@ -274,7 +281,7 @@ Follow the steps below to configure the workflow:
 1. Name and define the condition. In our case, we want to test if the outbound transition contains data with the syntax below:
 
    ```
-   $(vars/@recCount)>0
+   $long(vars/@recCount)>0
    ```
 
    ![](assets/extsignal_uc5.png)
