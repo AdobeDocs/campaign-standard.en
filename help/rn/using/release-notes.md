@@ -278,10 +278,7 @@ Several improvements have been added to the Transactional messaging channel in o
 ### What's new? {#what-s-new--2}
 
 <table> 
-  <colgroup>
-<col width="30%" />
-<col width="70%" />
-</colgroup>
+ <colgroup><col style="width: 30%"><col style="width: 70%"></colgroup>
  <thead> 
   <tr> 
    <th> Functionality<br /> </th> 
