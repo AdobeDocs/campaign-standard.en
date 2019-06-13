@@ -11,7 +11,7 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 discoiquuid: dc944c85-2059-46df-b396-676fe3617dd1
-
+context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
 ---
