@@ -54,6 +54,10 @@ As an expert user, to define these specific configurations, refer to the mobile 
 
 ## Prerequisites {#prerequisites}
 
+>[!NOTE]
+>To leverage the push notification feature from Campaign, you need  to provide a valid push certificate in .pem format with no passwords.
+If you have a valid p12 certificate, you can convert it easily into a .pem file using online resources.
+
 First, to be able to start sending push notifications, you need to configure your mobile application using SDK V4. You can also configure your mobile application using Experience Platform SDKs. For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
 
 Before sending your push notifications, you should:
