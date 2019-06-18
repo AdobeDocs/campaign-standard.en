@@ -12,6 +12,11 @@ Learn Adobe Campaign basics through simple step-by-step procedures, and experien
 
 <table>
 <thead>
+	 <tr>
+  <th colname="col1" class="entry"> Description </th>
+  <th colname="col2" class="entry"> Description </th>
+  <th colname="col3" class="entry"> Description </th>
+ </tr>s
 </thead>
 <tbody>
     <tr>
