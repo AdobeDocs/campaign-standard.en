@@ -46,4 +46,4 @@ To learn how to configure Experience Platform SDKs, refer to this [page](https:/
 * [Customizing an In-App message](../../channels/using/customizing-an-in-app-message.md)
 * [Customizing a local notification message type](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 * [Sending an In-App message within a workflow](../../automating/using/in-app-delivery.md)
-
+* [Push and In-App FAQ](https://helpx.adobe.com/campaign/kb/push_inapp_faq.html)
