@@ -12,27 +12,22 @@ Learn Adobe Campaign basics through simple step-by-step procedures, and experien
 
 <table>
 <thead>
-	<tr>
-  <th colname="col1" class="entry"> Description </th>
-  <th colname="col2" class="entry"> Description </th>
-  <th colname="col3" class="entry"> Description </th>
- </tr>
 </thead>
 <tbody>
-    <tr>
-        <td><img src="assets/start.png"></td>
-        <td><img src="assets/design.png"></td>
-        <td><img src="assets/access.png"></td>
-    </tr>
-    <tr>
-        <td><img src="assets/start.png"></td>
-        <td><img src="assets/design.png"></td>
-        <td><img src="assets/access.png"></td>
-    </tr>
-    <tr>
-        <td><img src="assets/start.png"></td>
-        <td><img src="assets/design.png"></td>
-        <td><img src="assets/access.png"></td>
-    </tr>
+<tr>
+<td><img src="assets/start.png"></td>
+<td><img src="assets/design.png"></td>
+<td><img src="assets/access.png"></td>
+</tr>
+<tr>
+<td><img src="assets/start.png"></td>
+<td><img src="assets/design.png"></td>
+<td><img src="assets/access.png"></td>
+</tr>
+<tr>
+<td><img src="assets/start.png"></td>
+<td><img src="assets/design.png"></td>
+<td><img src="assets/access.png"></td>
+</tr>
 </tbody>
 </table>
