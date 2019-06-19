@@ -10,24 +10,8 @@ topic: Premium
 
 Learn Adobe Campaign basics through simple step-by-step procedures, and experience the power of the solution.
 
-<table>
-<thead>
-</thead>
-<tbody>
-<tr>
-<td><img src="assets/start.png"></td>
-<td><img src="assets/design.png"></td>
-<td><img src="assets/access.png"></td>
-</tr>
-<tr>
-<td><img src="assets/start.png"></td>
-<td><img src="assets/design.png"></td>
-<td><img src="assets/access.png"></td>
-</tr>
-<tr>
-<td><img src="assets/start.png"></td>
-<td><img src="assets/design.png"></td>
-<td><img src="assets/access.png"></td>
-</tr>
-</tbody>
-</table>
+|  |  |  |
+|:---:|:---:|:---:|
+| [![image](/assets/start.png)](https://www.adobe.com) | [![image](/assets/design.png)](https://www.adobe.com) | [![image](/assets/access.png)](https://www.adobe.com) |
+| [![image](/assets/start.png)](https://www.adobe.com) | [![image](/assets/design.png)](https://www.adobe.com) | [![image](/assets/access.png)](https://www.adobe.com) |
+| [![image](/assets/start.png)](https://www.adobe.com) | [![image](/assets/design.png)](https://www.adobe.com) | [![image](/assets/access.png)](https://www.adobe.com) |
