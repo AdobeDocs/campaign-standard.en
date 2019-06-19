@@ -12,6 +12,6 @@ Learn Adobe Campaign basics through simple step-by-step procedures, and experien
 
 |  |  |  |
 |:---:|:---:|:---:|
-| [![image](/assets/start-400.png)](https://www.adobe.com) | [![image](/assets/design-400.png)](https://www.adobe.com) | [![image](/assets/access-400.png)](https://www.adobe.com) |
-| [![image](/assets/start-400.png)](https://www.adobe.com) | [![image](/assets/design-400.png)](https://www.adobe.com) | [![image](/assets/access-400.png)](https://www.adobe.com) |
-| [![image](/assets/start-400.png)](https://www.adobe.com) | [![image](/assets/design-400.png)](https://www.adobe.com) | [![image](/assets/access-400.png)](https://www.adobe.com) |
+| [![image](/help/assets/start-400.png)](https://www.adobe.com) | [![image](/help/assets/design-400.png)](https://www.adobe.com) | [![image](/help/assets/access-400.png)](https://www.adobe.com) |
+| [![image](/help/assets/start-400.png)](https://www.adobe.com) | [![image](/help/assets/design-400.png)](https://www.adobe.com) | [![image](/help/assets/access-400.png)](https://www.adobe.com) |
+| [![image](/help/assets/start-400.png)](https://www.adobe.com) | [![image](/help/assets/design-400.png)](https://www.adobe.com) | [![image](/help/assets/access-400.png)](https://www.adobe.com) |
