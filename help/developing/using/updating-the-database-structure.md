@@ -32,7 +32,7 @@ To apply the changes carried out on the resources, you must perform a database u
 >
 >If a field of a custom resource used on an event is modified or deleted, the corresponding event will automatically be unpublished. See [Configuring Transactional messaging](../../administration/using/configuring-transactional-messaging.md).
 
-1. From the advanced menu, via the Adobe Campaign logo, select **[!UICONTROL Administration]** > **[!UICONTROL Development]** , then **[!UICONTROL Publishing]**.
+1. From the advanced menu, via the Adobe Campaign logo, select **[!UICONTROL Administration]** > **[!UICONTROL Development]**, then **[!UICONTROL Publishing]**.
 1. By default, the option **[!UICONTROL Determine modifications since the last publication]** is checked, which means that only the changes carried out since the last update will be applied.
 
    >[!NOTE]
@@ -72,7 +72,7 @@ To apply the changes carried out on the resources, you must perform a database u
 
 You can create the Profile and Services API in the following cases:
 
-* When you extend the custom resources **[!UICONTROL Profiles]** or **[!UICONTROL Services]** , you can perform an update of the Profiles and Services API to integrate the fields declared in the custom resources extension.
+* When you extend the custom resources **[!UICONTROL Profiles]** or **[!UICONTROL Services]**, you can perform an update of the Profiles and Services API to integrate the fields declared in the custom resources extension.
 * When you define a custom resource and you create a link between the resources **[!UICONTROL Profiles]** or **[!UICONTROL Services]** and the custom resource, you can perform an update to include the new resource in the API.
 
 You can select this option in the publication screen.

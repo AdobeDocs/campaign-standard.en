@@ -24,7 +24,7 @@ There are several ways to monitor a delivery and to measure its impact:
 
   To view the message logs, click the icon at the bottom right of the **[!UICONTROL Deployment]** block.
 
-  Several tabs contain information (if it exists) regarding the **[!UICONTROL Sending logs]** , **[!UICONTROL Exclusion logs]** , **[!UICONTROL Exclusion causes]** , **[!UICONTROL Tracking logs]** and **[!UICONTROL Tracked URLs]**. See [Delivery logs](../../sending/using/monitoring-a-delivery.md#delivery-logs).
+  Several tabs contain information (if it exists) regarding the **[!UICONTROL Sending logs]**, **[!UICONTROL Exclusion logs]**, **[!UICONTROL Exclusion causes]**, **[!UICONTROL Tracking logs]** and **[!UICONTROL Tracked URLs]**. See [Delivery logs](../../sending/using/monitoring-a-delivery.md#delivery-logs).
 
   ![](assets/sending_delivery1.png)
 

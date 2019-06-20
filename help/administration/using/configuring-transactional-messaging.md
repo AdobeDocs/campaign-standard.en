@@ -36,7 +36,7 @@ Start by creating the event corresponding to your needs.
 
    ![](assets/message-center_1.png)
 
-1. Select the channel that will be used to send your transactional messages **[!UICONTROL Email]** , **[!UICONTROL Mobile (SMS)]** or **[!UICONTROL Mobile application]** (push notification).
+1. Select the channel that will be used to send your transactional messages **[!UICONTROL Email]**, **[!UICONTROL Mobile (SMS)]** or **[!UICONTROL Mobile application]** (push notification).
 
    >[!NOTE]
    >

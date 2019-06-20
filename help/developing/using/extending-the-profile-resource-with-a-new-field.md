@@ -45,7 +45,7 @@ Related topics:
 
 To create the new **Interest** field for our profiles, you first need to extend the out-of-the-box **[!UICONTROL Profiles (profile)]** resource.
 
-1. From the advanced menu, via the Adobe Campaign logo, select **[!UICONTROL Administration]** > **[!UICONTROL Development]** , then **[!UICONTROL Custom resources]**.
+1. From the advanced menu, via the Adobe Campaign logo, select **[!UICONTROL Administration]** > **[!UICONTROL Development]**, then **[!UICONTROL Custom resources]**.
 1. If you have not extended the **[!UICONTROL Profiles]** resource yet, click **[!UICONTROL Create]**.
 1. Choose the **[!UICONTROL Extend an existing resource]** option.
 1. Select the **[!UICONTROL Profile (profile)]** resource.
@@ -99,7 +99,7 @@ Your field is now configured. We now need to extend it to the test profile.
 
 To test if the new created field is correctly configured, you can test it by sending your delivery to your test profiles. First, the new field also needs to be carried out to the test profiles.
 
-1. From the advanced menu, via the Adobe Campaign logo, select **[!UICONTROL Administration]** > **[!UICONTROL Development]** , then **[!UICONTROL Custom resources]**.
+1. From the advanced menu, via the Adobe Campaign logo, select **[!UICONTROL Administration]** > **[!UICONTROL Development]**, then **[!UICONTROL Custom resources]**.
 1. If you have not extended the **[!UICONTROL Profiles]** resource yet, click **[!UICONTROL Create]**.
 1. Choose the **[!UICONTROL Extend an existing resource]** option.
 1. Select the **[!UICONTROL Test profile (seedMember)]** resource.
@@ -152,7 +152,7 @@ Here, we want to target in a workflow profiles that didn't fill this field. They
 
 First, we need to create a landing page that will update the **Interest** fields of the targeted profiles:
 
-1. From the **[!UICONTROL Marketing activities]** , click **[!UICONTROL Create]** then select **[!UICONTROL Landing page]**.
+1. From the **[!UICONTROL Marketing activities]**, click **[!UICONTROL Create]** then select **[!UICONTROL Landing page]**.
 1. Select a landing page type. Here, since we want to update our profiles, select **[!UICONTROL Profile acquisition]**.
 1. Click **[!UICONTROL Create]**.
 1. Click the **[!UICONTROL Content]** block to start editing the content of your landing page.

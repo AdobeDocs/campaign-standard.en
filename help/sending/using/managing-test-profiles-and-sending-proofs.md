@@ -56,7 +56,7 @@ A test profile contains fictitious contact information, or contact information c
 
    ![](assets/test_profile_creation_4.png)
 
-1. Enter the contact channels **[!UICONTROL Email, Telephone, Mobile, Mobile app]** , as well as the test profile address if necessary.
+1. Enter the contact channels **[!UICONTROL Email, Telephone, Mobile, Mobile app]**, as well as the test profile address if necessary.
 
    >[!NOTE]
    >

@@ -57,7 +57,7 @@ The navigation principles are:
   The advanced menu is presented in the [Advanced menu](../../start/using/interface-description.md#advanced-menu) section.
 
 * The **[!UICONTROL Home]** link allows you to display the Adobe Campaign home page.
-* The **[!UICONTROL Marketing activities]** , **[!UICONTROL Programs & Campaigns]** , **[!UICONTROL Profiles]** , **[!UICONTROL Audiences]** and **[!UICONTROL Reports]** links let you access the views linked to these functionalities. 
+* The **[!UICONTROL Marketing activities]**, **[!UICONTROL Programs & Campaigns]**, **[!UICONTROL Profiles]**, **[!UICONTROL Audiences]** and **[!UICONTROL Reports]** links let you access the views linked to these functionalities. 
 * The **[!UICONTROL Help]** button gives access to the product documentation and contextual help, release notes, version numbers, legal notices, as well as the links to the Adobe Experience Cloud community and customer care.
 
   ![](assets/ux_help.png)
@@ -79,7 +79,7 @@ The **[!UICONTROL Marketing plans]** icon gives you access the following functio
 * **[!UICONTROL Marketing activities]** - for more on this, refer to the [Marketing activity list](../../start/using/marketing-activities.md#about-marketing-activities) section.
 * **[!UICONTROL Programs & Campaigns]** - for more on this, refer to the [Program list](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns) section.
 * **[!UICONTROL Timeline]** - for more on this, refer to the [Timeline](../../start/using/timeline.md) section.
-* **[!UICONTROL Transactional messages]** , which contains the sub-menus **[!UICONTROL Deliveries]** and **[!UICONTROL Event configuration]** - for more on this, refer to the [Transactional messaging](../../channels/using/about-transactional-messaging.md) section.
+* **[!UICONTROL Transactional messages]**, which contains the sub-menus **[!UICONTROL Deliveries]** and **[!UICONTROL Event configuration]** - for more on this, refer to the [Transactional messaging](../../channels/using/about-transactional-messaging.md) section.
 
 ### Profiles &amp; audiences {#profiles-e-audiences}
 
@@ -94,7 +94,7 @@ The **[!UICONTROL Profiles & audiences]** icon gives you access to the following
 
 The **[!UICONTROL Resources]** icon gives you access to the following functionalities:
 
-* **[!UICONTROL Templates]** , which contains the sub-menus for each type of template - for more on this, refer to the [Managing templates](../../start/using/about-templates.md) section.
+* **[!UICONTROL Templates]**, which contains the sub-menus for each type of template - for more on this, refer to the [Managing templates](../../start/using/about-templates.md) section.
 * **[!UICONTROL Content blocks]** - for more on this, refer to the [Adding a content block](../../designing/using/adding-a-content-block.md) section.
 * **[!UICONTROL Content templates & fragments]** - for more on this, refer to the [Content template](../../start/using/about-templates.md#content-templates) section.
 

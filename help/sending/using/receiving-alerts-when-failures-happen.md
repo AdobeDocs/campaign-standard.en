@@ -103,8 +103,8 @@ The following criteria can be used in the delivery alerting dashboards:
 
 * **[!UICONTROL Deliveries failed]**: Any delivery scheduled within a defined range, with an erroneous status.
 * **[!UICONTROL Deliveries with preparation failed]**: Any delivery modified within a defined range, for which the preparation step (target calculation and content generation) has failed. For more on this, see [Preparing the send](../../sending/using/preparing-the-send.md).
-* **[!UICONTROL Delivery with bad error ratio for soft bounces]**: Any delivery scheduled within a defined range, with a status at least **[!UICONTROL In progress]** , with a soft bounce error ratio greater than a defined percentage.
-* **[!UICONTROL Delivery with bad error ratio for hard bounces]**: Any delivery scheduled within a defined range, with a status at least **[!UICONTROL In progress]** , with a hard bounce error ratio greater than a defined percentage.
+* **[!UICONTROL Delivery with bad error ratio for soft bounces]**: Any delivery scheduled within a defined range, with a status at least **[!UICONTROL In progress]**, with a soft bounce error ratio greater than a defined percentage.
+* **[!UICONTROL Delivery with bad error ratio for hard bounces]**: Any delivery scheduled within a defined range, with a status at least **[!UICONTROL In progress]**, with a hard bounce error ratio greater than a defined percentage.
 * **[!UICONTROL Deliveries with long start pending]**: Any delivery scheduled within a defined range, with a **[!UICONTROL Start pending]** status for longer than a defined duration, **[!UICONTROL Start pending]** status meaning that the messages have not been taken into account by the system yet.
 * **[!UICONTROL Deliveries with low throughput]**: Any delivery started for longer than a defined duration, with less than a defined percentage of processed messages, with a throughput lower than a defined value.
 * **[!UICONTROL Deliveries in progress]**: Any delivery scheduled within a defined range, with the **[!UICONTROL In progress]** status.
@@ -119,11 +119,11 @@ You can select any item from the **[!UICONTROL Delivery alerting criteria]** lis
 
 For each criterion, you can define the following settings:
 
-* **[!UICONTROL Indicators to add in alerts]** , meaning the columns that will appear in the notification's **[!UICONTROL Details]** section for the deliveries corresponding to the selected criterion.
+* **[!UICONTROL Indicators to add in alerts]**, meaning the columns that will appear in the notification's **[!UICONTROL Details]** section for the deliveries corresponding to the selected criterion.
 
   ![](assets/delivery-alerting_notification_colums.png)
 
-* **[!UICONTROL Alert type]** , meaning the label and the color that will appear next to the delivery criterion in the notification's summary.
+* **[!UICONTROL Alert type]**, meaning the label and the color that will appear next to the delivery criterion in the notification's summary.
 
   ![](assets/delivery-alerting_notification_labels.png)
 
@@ -146,7 +146,7 @@ For example, you can create a new criterion enabling to send a notification list
 To do this, you first need to extend the **Delivery** resource and add a new filter allowing you to select only the deliveries with a **[!UICONTROL Finished]** status.
 
 1. Go to **Adobe Campaign** > **Administration** > **Development** > **Custom resources** and click **[!UICONTROL Create]**.
-1. Select **[!UICONTROL Extend an existing resource]** , select the **[!UICONTROL Delivery]** resource from the drop-down list and click **[!UICONTROL Create]** to edit it.
+1. Select **[!UICONTROL Extend an existing resource]**, select the **[!UICONTROL Delivery]** resource from the drop-down list and click **[!UICONTROL Create]** to edit it.
 
    ![](assets/delivery-alerting_extend-delivery-cus.png)
 
@@ -166,7 +166,7 @@ To do this, you first need to extend the **Delivery** resource and add a new fil
 
    The filter is created and can now be selected in a new delivery alerting criterion.
 
-1. Go to **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Delivery alerting]** , select **[!UICONTROL Delivery alerting criteria]** and click **[!UICONTROL Create]**.
+1. Go to **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Delivery alerting]**, select **[!UICONTROL Delivery alerting criteria]** and click **[!UICONTROL Create]**.
 1. In the **[!UICONTROL Delivery filter applied by this criterion]** drop-down list, select the filter that you just created.
 
    ![](assets/delivery-alerting_cus-filter.png)
@@ -226,7 +226,7 @@ Now when you receive a delivery alerting notification, here are a few tips on wh
 
 First of all, check the delivery's **Log** tab to view all information relating to the delivery and proofs. The red and yellow icons allow you to identify errors or warnings. The red icon indicates a critical error that prevents the delivery from being started.
 
-To view the history of every occurrence of a delivery, select the **[!UICONTROL Sending logs]** tab. It contains the list of sent messages and their statuses. There you can check the delivery status for each recipient ( **[!UICONTROL Sent]** , **[!UICONTROL Pending]** , **[!UICONTROL Failed]** , etc.). For more on this, see [Sending logs](../../sending/using/monitoring-a-delivery.md#sending-logs).
+To view the history of every occurrence of a delivery, select the **[!UICONTROL Sending logs]** tab. It contains the list of sent messages and their statuses. There you can check the delivery status for each recipient ( **[!UICONTROL Sent]**, **[!UICONTROL Pending]**, **[!UICONTROL Failed]**, etc.). For more on this, see [Sending logs](../../sending/using/monitoring-a-delivery.md#sending-logs).
 
 Here are a few possible reasons for receiving alerting notifications according to the criteria that are met for a delivery.
 

@@ -81,7 +81,7 @@ For example:
 >
 >Depending on your selection (structure component, column or content component), the result will not be the same. Adobe recommends setting the **[!UICONTROL Padding]** and **[!UICONTROL Margin]** parameters at the column level.
 
-For both **[!UICONTROL Padding]** and **[!UICONTROL Margin]** , click the lock icon to break synchronization between top and bottom or right and left parameters. This enables you to adjust each parameter separately.
+For both **[!UICONTROL Padding]** and **[!UICONTROL Margin]**, click the lock icon to break synchronization between top and bottom or right and left parameters. This enables you to adjust each parameter separately.
 
 ![](assets/des_padding_lock_icon.png)
 
@@ -152,13 +152,13 @@ You want to adjust padding and vertical alignment inside a structure component c
 
    The editable parameters for that column are displayed in the **[!UICONTROL Settings]** pane on the right.
 
-1. Under **[!UICONTROL Vertical alignment]** , select **[!UICONTROL Up]**.
+1. Under **[!UICONTROL Vertical alignment]**, select **[!UICONTROL Up]**.
 
    ![](assets/des_vertical_alignment.png)
 
    The content component displays on top of the column.
 
-1. Under **[!UICONTROL Padding]** , define the top padding inside the column. Click the lock icon to break synchronization with the bottom padding.
+1. Under **[!UICONTROL Padding]**, define the top padding inside the column. Click the lock icon to break synchronization with the bottom padding.
 
    Define the left and right padding for that column.
 

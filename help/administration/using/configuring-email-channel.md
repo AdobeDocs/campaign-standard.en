@@ -60,7 +60,7 @@ The **[!UICONTROL Integrated email routing]** external account is provided by de
 
 ![](assets/channels_2.png)
 
-The account type must always be set to **[!UICONTROL Routing]** , the channel to **[!UICONTROL Email]** and the delivery mode set to **[!UICONTROL Bulk delivery]**.
+The account type must always be set to **[!UICONTROL Routing]**, the channel to **[!UICONTROL Email]** and the delivery mode set to **[!UICONTROL Bulk delivery]**.
 
 **Related topic**:
 
@@ -270,7 +270,7 @@ The **[!UICONTROL Access authorization]** section contains the following paramet
   >
   >You can configure organizational units via the **Administration** > **Users & Security** menu.
 
-* The **[!UICONTROL Created by]** , **[!UICONTROL Created]** , **[!UICONTROL Modified by]** and **[!UICONTROL Last modified]** fields are automatically completed.
+* The **[!UICONTROL Created by]**, **[!UICONTROL Created]**, **[!UICONTROL Modified by]** and **[!UICONTROL Last modified]** fields are automatically completed.
 
 ## Archiving emails {#archiving-emails}
 

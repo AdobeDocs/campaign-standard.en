@@ -18,7 +18,7 @@ snippet: y
 
 # Auditing export logs{#auditing-export-logs}
 
-From **[!UICONTROL Administration]** > **[!UICONTROL Users & Security]** > **[!UICONTROL Export audits]** , administrators can view a list of all the following exports, including their date and the user who performed the export:
+From **[!UICONTROL Administration]** > **[!UICONTROL Users & Security]** > **[!UICONTROL Export audits]**, administrators can view a list of all the following exports, including their date and the user who performed the export:
 
 * File upload from a **[!UICONTROL Transfer file]** activity in a workflow.
 * List export from a list or a sub-list.
