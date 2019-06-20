@@ -121,7 +121,7 @@ In this example, we are going to create a new travel-related brand, and use it i
 >
 >Brand configuration is managed by Adobe only as it requires specific permissions and technical settings.
 
-1. The Adobe Campaign administrator creates the brand in **[!UICONTROL Administration > Instance settings > Brand configuration]** . He adds the **Vacations in the Tropics** element from the advanced menu and configures the **[!UICONTROL ID]** and the **[!UICONTROL Header parameters of sent emails]** of the brand.
+1. The Adobe Campaign administrator creates the brand in **[!UICONTROL Administration > Instance settings > Brand configuration]**. He adds the **Vacations in the Tropics** element from the advanced menu and configures the **[!UICONTROL ID]** and the **[!UICONTROL Header parameters of sent emails]** of the brand.
 
    ![](assets/branding_07.png)
 
