@@ -73,7 +73,7 @@ A **Brand** is defined by the following characteristics:
     * **External URL of the tracking server** used as the tracked URL during the deliveries.
     * **External URL of the mirror page server** used as the default mirror page in your deliveries.
 
-* **[!UICONTROL Tracking URL configuration (Web Analytics)]** , which defines the configuration of the URLs tracking for your brand.
+* **[!UICONTROL Tracking URL configuration (Web Analytics)]**, which defines the configuration of the URLs tracking for your brand.
 
   The additional parameters that allow the links to be tracked on external systems such as Web Analytics tools like Adobe Analytics or Google Analytics are defined here.
 
@@ -137,7 +137,7 @@ The brand is correctly created and configured. It can now be used by the marketi
 
 As a delivery manager, you are in charge of creating the delivery templates to use the new brand. To achieve this, follow the steps below:
 
-1. In the advanced menu **[!UICONTROL Resources > Templates > Delivery templates]** , duplicate a built-in template to configure a new delivery template.
+1. In the advanced menu **[!UICONTROL Resources > Templates > Delivery templates]**, duplicate a built-in template to configure a new delivery template.
 
    ![](assets/branding_08.png)
 

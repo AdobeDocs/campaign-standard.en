@@ -61,7 +61,7 @@ To create a **List** audience, the steps are as follows:
 
    ![](assets/audiences_list_2.png)
 
-1. After your targeting, drag and drop a **[!UICONTROL Save audience]** activity into your workflow. For example, you can chose to **[!UICONTROL Create or update an audience]** , this allows you to create then automatically update your audience with new data. In this case, add a **[!UICONTROL Scheduler]** activity at the beginning of your workflow.
+1. After your targeting, drag and drop a **[!UICONTROL Save audience]** activity into your workflow. For example, you can chose to **[!UICONTROL Create or update an audience]**, this allows you to create then automatically update your audience with new data. In this case, add a **[!UICONTROL Scheduler]** activity at the beginning of your workflow.
 
    For more information on configuring this activity, refer to the [Save audience](../../automating/using/save-audience.md) section.
 

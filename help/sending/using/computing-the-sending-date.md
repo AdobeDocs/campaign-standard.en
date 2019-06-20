@@ -145,7 +145,7 @@ You can schedule this using a workflow.
 
    ![](assets/send-time_opt_formula_expression.png)
 
-1. In the **[!UICONTROL Expression editor]** , set the date and the segment codes to compute the data for each customer.
+1. In the **[!UICONTROL Expression editor]**, set the date and the segment codes to compute the data for each customer.
 
    In the list of functions, select **[!UICONTROL AddHours]**.
 

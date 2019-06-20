@@ -72,7 +72,7 @@ Here are the main tasks they can perform:
 
 Advanced users are marketing users who perform the most technical use cases in Adobe Campaign. They preconfigure all the elements that marketers use to send and monitor their deliveries.
 
-This type of user requires more general roles than functional administrators but should still be able to perform some technical operations. To do so, they should be assigned, for example, the **[!UICONTROL Export]** , **[!UICONTROL Generic import]** or **[!UICONTROL Workflow]** out-of-the-box roles. For more on this, refer to this [section](../../administration/using/list-of-roles.md).
+This type of user requires more general roles than functional administrators but should still be able to perform some technical operations. To do so, they should be assigned, for example, the **[!UICONTROL Export]**, **[!UICONTROL Generic import]** or **[!UICONTROL Workflow]** out-of-the-box roles. For more on this, refer to this [section](../../administration/using/list-of-roles.md).
 
 Here are the main tasks they can perform:
 
@@ -84,7 +84,7 @@ Here are the main tasks they can perform:
 
 ## Basic users {#basic-users}
 
-Thanks to the functional administrator and advanced users, marketers can personalize, deliver and monitor their campaigns without having to worry about the technical configuration. To do so, they should be assigned, for example, the **[!UICONTROL Prepare deliveries]** , **[!UICONTROL Workflow]** and **[!UICONTROL Start deliveries]** out-of-the-box roles. These roles are combined in the **[!UICONTROL Standard Users]** out-of-the-box security group. For more on this, refer to this [section](../../administration/using/list-of-roles.md).
+Thanks to the functional administrator and advanced users, marketers can personalize, deliver and monitor their campaigns without having to worry about the technical configuration. To do so, they should be assigned, for example, the **[!UICONTROL Prepare deliveries]**, **[!UICONTROL Workflow]** and **[!UICONTROL Start deliveries]** out-of-the-box roles. These roles are combined in the **[!UICONTROL Standard Users]** out-of-the-box security group. For more on this, refer to this [section](../../administration/using/list-of-roles.md).
 
 Here are the main tasks they can perform:
 
