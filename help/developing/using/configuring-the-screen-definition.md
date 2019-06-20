@@ -69,10 +69,10 @@ The **[!UICONTROL Detail screen configuration]** section of the screen definitio
 1. You can add all of the fields from your custom resource in one click. To do this, click the ![](assets/addallfieldsicon.png) icon or use the **[!UICONTROL Add an element]** button.
 1. Select an element from those created for this resource and specify a field type:
 
-    * **[!UICONTROL Input field]** : is an editable field.
-    * **[!UICONTROL Value]** : is a read-only field.
-    * **[!UICONTROL List]** : is a table.
-    * **[!UICONTROL Separator]** : splits your elements into categories.
+    * **[!UICONTROL Input field]**: is an editable field.
+    * **[!UICONTROL Value]**: is a read-only field.
+    * **[!UICONTROL List]**: is a table.
+    * **[!UICONTROL Separator]**: splits your elements into categories.
 
    ![](assets/schema_extension_23.png)
 
@@ -94,12 +94,12 @@ These settings allow you to display a control bar in the custom resource screen.
 
 ![](assets/schema_extension_actions.png)
 
-* **[!UICONTROL Authorize creating]** : this option allows you to activate creating elements of the resource. The user can therefore add additional records.
+* **[!UICONTROL Authorize creating]**: this option allows you to activate creating elements of the resource. The user can therefore add additional records.
 
   >[!NOTE]
   >
   >You must first activate the detail screen linked to the resource to make this option available.
 
-* **[!UICONTROL Authorize duplicating]** : this option allows you to activate duplicating records linked to the custom resource.
-* **[!UICONTROL Authorize deleting]** : this option allows you to activate deleting records linked to the custom resource.
+* **[!UICONTROL Authorize duplicating]**: this option allows you to activate duplicating records linked to the custom resource.
+* **[!UICONTROL Authorize deleting]**: this option allows you to activate deleting records linked to the custom resource.
 

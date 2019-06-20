@@ -76,13 +76,13 @@ Once your two users are attached to the **[!UICONTROL Administrators]** and **[!
 
    ![](assets/create_security_1.png)
 
-1. Type the **[!UICONTROL Profile name]** by following this exact syntax: **[!UICONTROL Campaign Standard- instance name - ID of the security group]** and click **[!UICONTROL Done]** .
+1. Type the **[!UICONTROL Profile name]** by following this exact syntax: **[!UICONTROL Campaign Standard- instance name - ID of the security group]** and click **[!UICONTROL Done]**.
 
    The ID chosen will then be used while creating the security group in Adobe Campaign.
 
    >[!NOTE]
    >
-   >If the above syntax doesn't seem to work with an older instance, it needs to be replaced by **[!UICONTROL Campaign - instance name - ID of the security group]** .
+   >If the above syntax doesn't seem to work with an older instance, it needs to be replaced by **[!UICONTROL Campaign - instance name - ID of the security group]**.
 
    ![](assets/manage_security_group_1.png)
 
@@ -99,7 +99,7 @@ Once your two users are attached to the **[!UICONTROL Administrators]** and **[!
 
 1. In the **[!UICONTROL Assign Products]** tab, select your instance then your previously created security groups Geometrixx from the drop-down list to assign it to your Administrator user.
 
-   Click **[!UICONTROL Save]** .
+   Click **[!UICONTROL Save]**.
 
    ![](assets/manage_security_group_3.png)
 
@@ -117,8 +117,8 @@ The newly created security groups are now created in the Admin console. For them
 
 The Administrator user has to create the set of security groups that are used to assign organizational units: Geometrixx and Geometrixx Clothes. To learn how to create organizational units, see [Creating and managing units](../../administration/using/organizational-units.md#creating-and-managing-units) .
 
-1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Administration > Users & Security > Security groups]** .
-1. Create your new security group and specify its **[!UICONTROL Label]** and **[!UICONTROL ID]** .
+1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Administration > Users & Security > Security groups]**.
+1. Create your new security group and specify its **[!UICONTROL Label]** and **[!UICONTROL ID]**.
 
    The ID needs to be the same as the one chosen in the Admin console.
 

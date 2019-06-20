@@ -78,7 +78,7 @@ A typology rule can be deactivated through its **[!UICONTROL Properties]** if yo
 
 In the **[!UICONTROL Targeting context]** category, you can select the **Targeting dimension** and **Filtering dimension** depending on the data that you want to target.
 
-By default, filtering is carried out on the **[!UICONTROL Profiles]** . For example, if the rule is aimed at a mobile application, the **[!UICONTROL Filtering dimension]** can be changed to **[!UICONTROL Subscriptions to an application]** .
+By default, filtering is carried out on the **[!UICONTROL Profiles]**. For example, if the rule is aimed at a mobile application, the **[!UICONTROL Filtering dimension]** can be changed to **[!UICONTROL Subscriptions to an application]**.
 
 ![](assets/typology_rule-order_2.png)
 

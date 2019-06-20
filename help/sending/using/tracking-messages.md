@@ -29,7 +29,7 @@ Adobe Campaign uses two types of cookies:
 * A session cookie (nlid). This contains the identifier of the email sent to the contact (broadlogId) and the identifier of the message template (deliveryId). It is added when the contact clicks a URL included in an email sent by Adobe Campaign and enables you to track their behavior on the web. This session cookie is erased automatically when the browser is closed. The contact can configure their browser to refuse cookies.
 * A cookie shared between Adobe Experience Cloud solutions. This enables you to identify the users who interact with the Experience Cloud solutions when they visit a website. The description of this cookie is available here: [https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_mc.html](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_mc.html).
 
-Tracking information are available for each contact of your database into **[!UICONTROL integrated customer profiles]** . For more on this, refer to [this section](../../audiences/using/integrated-customer-profile.md).
+Tracking information are available for each contact of your database into **[!UICONTROL integrated customer profiles]**. For more on this, refer to [this section](../../audiences/using/integrated-customer-profile.md).
 
 ## Tracking logs {#tracking-logs}
 
@@ -49,14 +49,14 @@ In the example above, the recipient:
 
 In the **[!UICONTROL Type]** column, the possible values are:
 
-* **[!UICONTROL Email click]** : the recipients clicked on a custom link. 
-* **[!UICONTROL Mirror page]** : the recipient clicked on a link to the mirror page. 
-* **[!UICONTROL Open]** : the recipient opened the email.
-* **[!UICONTROL Opt-out]** : the recipient clicked on an unsubscription link.
+* **[!UICONTROL Email click]**: the recipients clicked on a custom link. 
+* **[!UICONTROL Mirror page]**: the recipient clicked on a link to the mirror page. 
+* **[!UICONTROL Open]**: the recipient opened the email.
+* **[!UICONTROL Opt-out]**: the recipient clicked on an unsubscription link.
 
 >[!NOTE]
 >
->For the **push notification** channel, only clicks on mobile notifications are tracked. In that case, the value will be **[!UICONTROL Click on mobile notification]** .
+>For the **push notification** channel, only clicks on mobile notifications are tracked. In that case, the value will be **[!UICONTROL Click on mobile notification]**.
 
 For more on how to insert tracking links, refer to [this page](../../designing/using/inserting-a-link.md).
 

@@ -26,13 +26,13 @@ Roles can be managed from the **[!UICONTROL Administration > Users & Security > 
 
 Default rights are:
 
-* **[!UICONTROL Administration]** : Generic administration right.
-* **[!UICONTROL Datamodel]** : Right to run publications and create custom resources.
-* **[!UICONTROL Export]** : Right to export data.
-* **[!UICONTROL Generic import]** : Right to run a generic import on data. For this to work, you need to link the **[!UICONTROL Generic import]** role to the **[!UICONTROL Workflow]** role.
-* **[!UICONTROL Prepare deliveries]** : Right to create, edit, start delivery preparation and send proofs.
-* **[!UICONTROL Start deliveries]** : Right to validate previously prepared deliveries.
-* **[!UICONTROL Workflow]** : Right to use workflows.
+* **[!UICONTROL Administration]**: Generic administration right.
+* **[!UICONTROL Datamodel]**: Right to run publications and create custom resources.
+* **[!UICONTROL Export]**: Right to export data.
+* **[!UICONTROL Generic import]**: Right to run a generic import on data. For this to work, you need to link the **[!UICONTROL Generic import]** role to the **[!UICONTROL Workflow]** role.
+* **[!UICONTROL Prepare deliveries]**: Right to create, edit, start delivery preparation and send proofs.
+* **[!UICONTROL Start deliveries]**: Right to validate previously prepared deliveries.
+* **[!UICONTROL Workflow]**: Right to use workflows.
 
 >[!CAUTION]
 >

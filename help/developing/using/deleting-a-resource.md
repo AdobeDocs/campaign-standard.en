@@ -18,7 +18,7 @@ snippet: y
 
 # Deleting a resource{#deleting-a-resource}
 
-To delete a resource, the resource in question must be a **[!UICONTROL Draft]** . The resource is in **[!UICONTROL Draft]** status if:
+To delete a resource, the resource in question must be a **[!UICONTROL Draft]**. The resource is in **[!UICONTROL Draft]** status if:
 
 * It has just been created and has not yet been published.
 * If it has already been published, the resource has to be re-drafted.
@@ -34,7 +34,7 @@ To re-draft and delete a published resource:
 
    ![](assets/schema_extension_uc26.png)
 
-1. Click **[!UICONTROL Ok]** .
+1. Click **[!UICONTROL Ok]**.
 
    >[!CAUTION]
    >
@@ -48,7 +48,7 @@ To re-draft and delete a published resource:
 
 1. Publish the resource. For more detailed steps, refer to [Publishing a custom resource](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
 
-   The resource then goes into **Draft** mode and its activation status is **[!UICONTROL Inactive]** .
+   The resource then goes into **Draft** mode and its activation status is **[!UICONTROL Inactive]**.
 
 1. In **[!UICONTROL List]** mode, check the resource to delete then click the ![](assets/delete_darkgrey-24px.png) **[!UICONTROL Delete element]** icon.
 
