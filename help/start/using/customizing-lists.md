@@ -55,6 +55,6 @@ You can also configure whether columns in a list are to be displayed or not. To 
 
 1. Delete the columns that you do not want to be displayed by checking the boxes corresponding to the columns to delete. Then, use the ![](assets/delete.png) button from the action bar to confirm deleting them.
 1. Once your list contains the correct columns, you can change the order in which they are displayed in the list by checking the columns that you want to move. Then, use the ![](assets/arrowdown.png) and ![](assets/arrowup.png) arrows.
-1. Confirm your list configuration by selecting **[!UICONTROL OK]** .
+1. Confirm your list configuration by selecting **[!UICONTROL OK]**.
 
 Your list is now displayed as you have configured it.

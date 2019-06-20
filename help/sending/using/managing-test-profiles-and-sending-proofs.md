@@ -22,7 +22,7 @@ snippet: y
 
 The test profiles allow you to target additional recipients who do not match the defined targeting criteria. They are added to a message's audience to detect any fraudulent use of your recipient database or to ensure the emails arrive in the inboxes.
 
-You can manage your test profiles from the advanced menu **[!UICONTROL Profiles & audiences > Test profiles]** .
+You can manage your test profiles from the advanced menu **[!UICONTROL Profiles & audiences > Test profiles]**.
 
 A test profile contains fictitious contact information, or contact information controlled by the sender, that can then be used in a message in the following contexts:
 
@@ -60,7 +60,7 @@ A test profile contains fictitious contact information, or contact information c
 
    >[!NOTE]
    >
-   >You can define a preferred email format: **[!UICONTROL Text]** or **[!UICONTROL HTML]** .
+   >You can define a preferred email format: **[!UICONTROL Text]** or **[!UICONTROL HTML]**.
 
 1. Specify an event type and the data for this event if you want to use this test profile for testing the personalization of a transactional message.
 1. Click **[!UICONTROL Create]** to save the test profile.

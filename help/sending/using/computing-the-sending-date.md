@@ -60,14 +60,14 @@ You can schedule this using a workflow.
     
       ![](assets/send-time_opt_segment_limitation.png)
 
-1. Once all segments are defined, select **[!UICONTROL Generate all segments in the same transition]** and click **[!UICONTROL Confirm]** .
+1. Once all segments are defined, select **[!UICONTROL Generate all segments in the same transition]** and click **[!UICONTROL Confirm]**.
 
    ![](assets/send-time_opt_segment_dates.png)
 
 1. Drag and drop an **Email delivery** activity into your workflow and open it. See the [Email delivery](../../automating/using/email-delivery.md) section.
-1. Click the **[!UICONTROL Schedule]** section in the email dashboard and select **[!UICONTROL Messages to be sent automatically on the date specified below]** .
+1. Click the **[!UICONTROL Schedule]** section in the email dashboard and select **[!UICONTROL Messages to be sent automatically on the date specified below]**.
 1. In the **[!UICONTROL Start sending from]** field, define a contact date.
-1. From the send time optimization drop-down menu, choose **[!UICONTROL Send at a custom date defined by a formula]** .
+1. From the send time optimization drop-down menu, choose **[!UICONTROL Send at a custom date defined by a formula]**.
 1. Click the **[!UICONTROL Edit an expression]** button of the **[!UICONTROL Custom date formula]** field.
 
    ![](assets/send-time_opt_formula_define.png)
@@ -130,13 +130,13 @@ You can schedule this using a workflow.
     * Make sure you select the **[!UICONTROL Limit the population of this segment]** option.
     * In the **[!UICONTROL Limitation]** tab, select **[!UICONTROL Random sampling]** and enter the desired percentage for each segment: **25**.
 
-1. Once all segments are defined, select **[!UICONTROL Generate all segments in the same transition]** and click **[!UICONTROL Confirm]** .
+1. Once all segments are defined, select **[!UICONTROL Generate all segments in the same transition]** and click **[!UICONTROL Confirm]**.
 
    ![](assets/send-time_opt_segment.png)
 
 1. Drag and drop an **Email delivery** activity into your workflow and open it. See the [Email delivery](../../automating/using/email-delivery.md) section.
 1. Click the **[!UICONTROL Schedule]** section in the email dashboard.
-1. Select **[!UICONTROL Messages to be sent automatically on the date specified below]** .
+1. Select **[!UICONTROL Messages to be sent automatically on the date specified below]**.
 1. In the **[!UICONTROL Start sending from]** field, define a contact date.
 
    In this example, select May 25th at 8:00 AM.
@@ -147,17 +147,17 @@ You can schedule this using a workflow.
 
 1. In the **[!UICONTROL Expression editor]** , set the date and the segment codes to compute the data for each customer.
 
-   In the list of functions, select **[!UICONTROL AddHours]** .
+   In the list of functions, select **[!UICONTROL AddHours]**.
 
    ![](assets/send-time_opt_formula_expression_addhours.png)
 
-   In the available fields, select **[!UICONTROL Current delivery]** > **[!UICONTROL Delivery scheduling]** > **[!UICONTROL Contact date]** .
+   In the available fields, select **[!UICONTROL Current delivery]** > **[!UICONTROL Delivery scheduling]** > **[!UICONTROL Contact date]**.
 
    ![](assets/send-time_opt_formula_expression_contact_date.png)
 
    This enables you to retrieve the date and time specified in the **[!UICONTROL Start sending from]** field.
 
-   In the list of functions, select **[!UICONTROL ToInteger]** . In the available fields, select **[!UICONTROL Additional data]** > **[!UICONTROL Segment code]** .
+   In the list of functions, select **[!UICONTROL ToInteger]**. In the available fields, select **[!UICONTROL Additional data]** > **[!UICONTROL Segment code]**.
 
    ![](assets/send-time_opt_formula_expression_segment_code.png)
 

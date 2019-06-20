@@ -26,7 +26,7 @@ Adobe Campaign offers a list of pre-configured content blocks. These content blo
 
 To add a content block:
 
-1. Click inside a text block, click the **[!UICONTROL Personalize]** icon from the contextual toolbar and select **[!UICONTROL Insert content block]** . For more on the Email Designer interface, see [this section](../../designing/using/about-email-content-design.md#email-designer-interface).
+1. Click inside a text block, click the **[!UICONTROL Personalize]** icon from the contextual toolbar and select **[!UICONTROL Insert content block]**. For more on the Email Designer interface, see [this section](../../designing/using/about-email-content-design.md#email-designer-interface).
 
    ![](assets/email_content_block_1.png)
 
@@ -34,7 +34,7 @@ To add a content block:
 
    ![](assets/email_content_block_2.png)
 
-1. Click **[!UICONTROL Save]** .
+1. Click **[!UICONTROL Save]**.
 
 The name of the content block appears in the editor and it is highlighted in yellow. It will automatically adapt to the profile when the personalization is generated.
 
@@ -70,7 +70,7 @@ To create a content block, follow these steps:
    ![](assets/content_bloc_01.png)
 
 1. Enter a label.
-1. Select the block's **[!UICONTROL Content type]** . There are three options available:
+1. Select the block's **[!UICONTROL Content type]**. There are three options available:
 
     * **[!UICONTROL Shared]**: The content block can be used in a delivery or a landing page.
     * **[!UICONTROL Delivery]**: The content block can only be used in a delivery.
@@ -78,7 +78,7 @@ To create a content block, follow these steps:
 
    ![](assets/content_bloc_02.png)
 
-1. You can select a **[!UICONTROL Targeting dimension]** . For more on this, see [About targeting dimension](../../designing/using/adding-a-content-block.md#about-targeting-dimension).
+1. You can select a **[!UICONTROL Targeting dimension]**. For more on this, see [About targeting dimension](../../designing/using/adding-a-content-block.md#about-targeting-dimension).
 
    ![](assets/content_bloc_04.png)
 
@@ -96,7 +96,7 @@ The targeting dimension enables you to define in which type of message you can u
 
 Indeed, when editing a message, you can only select content blocks with a targeting dimension that is compatible with that message's targeting dimension.
 
-For example, the **[!UICONTROL Unsubscription link]** block's targeting dimension is **[!UICONTROL Profiles]** because it contains personalization fields specific to the **[!UICONTROL Profiles]** resource. Therefore, you cannot use an **[!UICONTROL Unsubscription link]** block in an [event transactional message](../../channels/using/event-transactional-messages.md), because the targeting dimension of that type of message is **[!UICONTROL Real-time events]** . However, you can use the **Unsubscription link** block in a [profile transactional message](../../channels/using/profile-transactional-messages.md), because the targeting dimension of that type of message is **Profiles**. Finally, the **[!UICONTROL Link to mirror page]** block does not have a targeting dimension, so you can use it in any message.
+For example, the **[!UICONTROL Unsubscription link]** block's targeting dimension is **[!UICONTROL Profiles]** because it contains personalization fields specific to the **[!UICONTROL Profiles]** resource. Therefore, you cannot use an **[!UICONTROL Unsubscription link]** block in an [event transactional message](../../channels/using/event-transactional-messages.md), because the targeting dimension of that type of message is **[!UICONTROL Real-time events]**. However, you can use the **Unsubscription link** block in a [profile transactional message](../../channels/using/profile-transactional-messages.md), because the targeting dimension of that type of message is **Profiles**. Finally, the **[!UICONTROL Link to mirror page]** block does not have a targeting dimension, so you can use it in any message.
 
 If you leave this field empty, the content block will be compatible with all messages, no matter what the targeting dimension is. If you set a targeting dimension, that block will only be compatible with messages that have the same targeting dimension.
 

@@ -76,8 +76,8 @@ From the Adobe Campaign interface, you can:
 
 If you want to send notifications based on specific criteria to different groups of users, you need to use several dashboards. To create a new dashboard:
 
-1. Go to **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Delivery alerting]** .
-1. Select **[!UICONTROL Delivery alerting dashboards]** and click **[!UICONTROL Create]** .
+1. Go to **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Delivery alerting]**.
+1. Select **[!UICONTROL Delivery alerting dashboards]** and click **[!UICONTROL Create]**.
 1. Check the **[!UICONTROL Enabled]** box to activate the current dashboard.
 
    If this option is disabled, notifications linked to this dashboard are no longer sent. This option is disabled by default.
@@ -95,7 +95,7 @@ Now each time a delivery meets the criteria that you defined in this dashboard, 
 
 ### About alerting criteria {#about-alerting-criteria}
 
-To access the delivery alerting criteria, go to **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Delivery alerting]** and select **[!UICONTROL Delivery alerting criteria]** .
+To access the delivery alerting criteria, go to **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Delivery alerting]** and select **[!UICONTROL Delivery alerting criteria]**.
 
 ![](assets/delivery-alerting_criteria.png)
 
@@ -145,7 +145,7 @@ For example, you can create a new criterion enabling to send a notification list
 
 To do this, you first need to extend the **Delivery** resource and add a new filter allowing you to select only the deliveries with a **[!UICONTROL Finished]** status.
 
-1. Go to **Adobe Campaign** > **Administration** > **Development** > **Custom resources** and click **[!UICONTROL Create]** .
+1. Go to **Adobe Campaign** > **Administration** > **Development** > **Custom resources** and click **[!UICONTROL Create]**.
 1. Select **[!UICONTROL Extend an existing resource]** , select the **[!UICONTROL Delivery]** resource from the drop-down list and click **[!UICONTROL Create]** to edit it.
 
    ![](assets/delivery-alerting_extend-delivery-cus.png)
@@ -166,7 +166,7 @@ To do this, you first need to extend the **Delivery** resource and add a new fil
 
    The filter is created and can now be selected in a new delivery alerting criterion.
 
-1. Go to **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Delivery alerting]** , select **[!UICONTROL Delivery alerting criteria]** and click **[!UICONTROL Create]** .
+1. Go to **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Delivery alerting]** , select **[!UICONTROL Delivery alerting criteria]** and click **[!UICONTROL Create]**.
 1. In the **[!UICONTROL Delivery filter applied by this criterion]** drop-down list, select the filter that you just created.
 
    ![](assets/delivery-alerting_cus-filter.png)

@@ -113,7 +113,7 @@ Below are the available background settings that you can use.
 
   ![](assets/des_background_body.png)
 
-* Set the same background color for all structure components by selecting **[!UICONTROL Viewport background color]** . This option enables you to select a different setting from the background color.
+* Set the same background color for all structure components by selecting **[!UICONTROL Viewport background color]**. This option enables you to select a different setting from the background color.
 
   ![](assets/des_background_viewport.png)
 
@@ -152,7 +152,7 @@ You want to adjust padding and vertical alignment inside a structure component c
 
    The editable parameters for that column are displayed in the **[!UICONTROL Settings]** pane on the right.
 
-1. Under **[!UICONTROL Vertical alignment]** , select **[!UICONTROL Up]** .
+1. Under **[!UICONTROL Vertical alignment]** , select **[!UICONTROL Up]**.
 
    ![](assets/des_vertical_alignment.png)
 

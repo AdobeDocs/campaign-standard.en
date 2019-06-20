@@ -22,9 +22,9 @@ Administrators can manage users from the Admin console. Users are then automatic
 
 For more on this, refer to the [Admin console](https://helpx.adobe.com/enterprise/using/users.html) documentation.
 
-To view the users in Adobe Campaign, click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Administration > Users & Security > Users]** .
+To view the users in Adobe Campaign, click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Administration > Users & Security > Users]**.
 
-To access the user management interface from Adobe Campaign, click **[!UICONTROL User administration]** . 
+To access the user management interface from Adobe Campaign, click **[!UICONTROL User administration]**. 
 
 ![](assets/user_management_5.png)
 

@@ -137,7 +137,7 @@ To do so:
 
    ![](assets/audience_delete_3.png)
 
-1. Click **[!UICONTROL Confirm]** then **[!UICONTROL Save]** .
+1. Click **[!UICONTROL Confirm]** then **[!UICONTROL Save]**.
 
 Your expiration date is now configured. As soon as this date is reached, your audience will be automatically deleted.
 

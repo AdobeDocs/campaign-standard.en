@@ -96,7 +96,7 @@ Delivery failure error messages (or "bounces") are picked up by the Adobe Campai
 
 This list is available to administrators only and contains all the rules used by Adobe Campaign to qualify delivery failures.
 
-To access it, click the **[!UICONTROL Adobe Campaign]** logo, at the top left, then select **[!UICONTROL Administration > Channels > Email > Email processing rules]** .
+To access it, click the **[!UICONTROL Adobe Campaign]** logo, at the top left, then select **[!UICONTROL Administration > Channels > Email > Email processing rules]**.
 
 For more on this, refer to this [section](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
@@ -106,7 +106,7 @@ Bounces can have the following qualification statuses:
 * **[!UICONTROL Keep]**: the bounce mail was qualified and will be used by the **Update for deliverability** workflow to be compared to existing email processing rules and enrich the list.
 * **[!UICONTROL Ignore]**: the bounce mail was qualified but will not be used by the **Update for deliverability** workflow. So it will not be sent to the client instances.
 
-To list the various bounces and their associated error types et reasons, click the **[!UICONTROL Adobe Campaign]** logo, in the top left, then select **[!UICONTROL Administration > Channels > Quarantines > Message qualification]** .
+To list the various bounces and their associated error types et reasons, click the **[!UICONTROL Adobe Campaign]** logo, in the top left, then select **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
 
 ![](assets/qualification.png)
 

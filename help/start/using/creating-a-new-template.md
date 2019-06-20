@@ -20,7 +20,7 @@ snippet: y
 
 Message templates can be managed by the functional administrator of the platform, under the **[!UICONTROL Resources > Templates]** menu. Out-of-the-box templates cannot be modified or deleted. To create a new template, you must duplicate an existing one.
 
-1. Select an existing template. In our example, we have chosen a **[!UICONTROL Delivery template]** .
+1. Select an existing template. In our example, we have chosen a **[!UICONTROL Delivery template]**.
 
    ![](assets/template_2.png)
 

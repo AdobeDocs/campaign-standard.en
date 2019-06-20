@@ -41,7 +41,7 @@ Once you have created your email delivery and defined its content as well as the
 
    ![](assets/email_rendering_07.png)
 
-1. Select the **[!UICONTROL Email rendering]** option then click **[!UICONTROL OK]** .
+1. Select the **[!UICONTROL Email rendering]** option then click **[!UICONTROL OK]**.
 
    ![](assets/email_rendering_08.png)
 
@@ -79,7 +79,7 @@ The report summary presents the number of messages received, unwanted (spam), no
 
 ![](assets/inbox_rendering_report.png)
 
-The report is divided into three parts: **[!UICONTROL Mobile]** , **[!UICONTROL Messaging clients]** , and **[!UICONTROL Webmails]** . Scroll down the report to display all the renderings grouped into these three categories.
+The report is divided into three parts: **[!UICONTROL Mobile]** , **[!UICONTROL Messaging clients]** , and **[!UICONTROL Webmails]**. Scroll down the report to display all the renderings grouped into these three categories.
 
 ![](assets/inbox_rendering_report_3.png)
 

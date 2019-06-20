@@ -38,19 +38,19 @@ Related topics:
 
 To create and configure a **[!UICONTROL Fatigue]** typology rule, apply the following steps:
 
-1. Click the Adobe Campaign logo, in the top left corner of the interface, then select **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** > **[!UICONTROL Typology rules]** .
+1. Click the Adobe Campaign logo, in the top left corner of the interface, then select **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** > **[!UICONTROL Typology rules]**.
 
    ![](assets/fatigue4.png)
 
-1. From the list of typology rules, click **[!UICONTROL Create]** .
+1. From the list of typology rules, click **[!UICONTROL Create]**.
 
    ![](assets/fatigue.png)
 
-1. In the **[!UICONTROL Rule type]** field, select **[!UICONTROL Fatigue]** .
+1. In the **[!UICONTROL Rule type]** field, select **[!UICONTROL Fatigue]**.
 
    ![](assets/fatigue3.png)
 
-1. In the **[!UICONTROL Channel]** field, select which channel your rule will apply to. You can either select a single channel (email, SMS, direct mail, mobile application) or select **[!UICONTROL All channels]** . See [Choosing the channel](../../administration/using/fatigue-rules.md#choosing-the-channel).
+1. In the **[!UICONTROL Channel]** field, select which channel your rule will apply to. You can either select a single channel (email, SMS, direct mail, mobile application) or select **[!UICONTROL All channels]**. See [Choosing the channel](../../administration/using/fatigue-rules.md#choosing-the-channel).
 
    ![](assets/fatigue5.png)
 
@@ -86,7 +86,7 @@ During delivery preparation, profiles are excluded from the delivery if applicab
 
 ## Choosing the channel {#choosing-the-channel}
 
-Fatigue rules are available for various channels. The channel is defined in the **[!UICONTROL Channel]** field of the typology rule settings. You can either select a single channel or select **[!UICONTROL All channels]** .
+Fatigue rules are available for various channels. The channel is defined in the **[!UICONTROL Channel]** field of the typology rule settings. You can either select a single channel or select **[!UICONTROL All channels]**.
 
 ![](assets/fatigue5.png)
 
@@ -235,7 +235,7 @@ There are many possibilities in terms of fatigue management implementation. Here
 
 * Create a fatigue rule using a **threshold computation formula**:
 
-  You want to change the threshold according to the age of your profiles. If a profile is under 40, you want to define a limit of 4 and for older profiles, a limit of 2. Instead of defining this threshold for each profile with an extended field, you can create a formula directly in your fatigue rule to calculate the threshold according to the profiles' age. In our example, the formula would be **[!UICONTROL Iif (@age<40, 4, 2)]** . 
+  You want to change the threshold according to the age of your profiles. If a profile is under 40, you want to define a limit of 4 and for older profiles, a limit of 2. Instead of defining this threshold for each profile with an extended field, you can create a formula directly in your fatigue rule to calculate the threshold according to the profiles' age. In our example, the formula would be **[!UICONTROL Iif (@age<40, 4, 2)]**. 
 
   ![](assets/fatigue25.png)
 

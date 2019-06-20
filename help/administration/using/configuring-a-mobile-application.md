@@ -42,7 +42,7 @@ To be able to send push notifications, you need to:
    For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html#Collectingsubscribersdatafromamobileapplication) .
 
 1. Make sure that the setup has been completed successfully by launching your mobile application on your device and signing in. Make sure you opt in to receive notifications.
-1. Then, in Adobe Campaign's advanced menu, select **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app]** .
+1. Then, in Adobe Campaign's advanced menu, select **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app]**.
 1. Select your mobile application from the list to display its properties. Your subscription information is displayed under the subscribers list.
 
    ![](assets/push_notif_mobile_app.png)
