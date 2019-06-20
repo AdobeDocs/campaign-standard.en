@@ -63,7 +63,7 @@ See an example in [this section](../../designing/using/editing-email-styles.md#e
 
 The Email Designer interface allows you to quickly adjust padding and margin settings.
 
-**[!UICONTROL Padding]** : this setting enables you to manage the space that is located inside an element's border.
+**[!UICONTROL Padding]**: this setting enables you to manage the space that is located inside an element's border.
 
 ![](assets/des_padding.png)
 
@@ -73,7 +73,7 @@ For example:
 * Use top and bottom padding to add more spacing to a **[!UICONTROL Text]** or a **[!UICONTROL Divider]** component.
 * To set borders between columns inside a structure element, define padding for each column.
 
-**[!UICONTROL Margin]** : this setting enables you to manage the space between the element's border and the next element.
+**[!UICONTROL Margin]**: this setting enables you to manage the space between the element's border and the next element.
 
 ![](assets/des_margin.png)
 
