@@ -49,10 +49,10 @@ In the example above, the recipient:
 
 In the **[!UICONTROL Type]** column, the possible values are:
 
-* **[!UICONTROL Email click]** : the recipients clicked on a custom link. 
-* **[!UICONTROL Mirror page]** : the recipient clicked on a link to the mirror page. 
-* **[!UICONTROL Open]** : the recipient opened the email.
-* **[!UICONTROL Opt-out]** : the recipient clicked on an unsubscription link.
+* **[!UICONTROL Email click]**: the recipients clicked on a custom link. 
+* **[!UICONTROL Mirror page]**: the recipient clicked on a link to the mirror page. 
+* **[!UICONTROL Open]**: the recipient opened the email.
+* **[!UICONTROL Opt-out]**: the recipient clicked on an unsubscription link.
 
 >[!NOTE]
 >

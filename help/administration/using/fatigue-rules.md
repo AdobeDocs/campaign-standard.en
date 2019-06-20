@@ -151,8 +151,8 @@ In the following example, only male profiles are counted and only deliveries wit
 
 Refining the threshold on deliveries is different than restricting the applicability of the entire rule ( **[!UICONTROL Application criteria]** tab):
 
-* **[!UICONTROL Application criteria]** : you choose to execute the rule or not according to specific criteria. For example, if your application condition is 'Label starts with Newsletter', the rule will only apply to deliveries which respect this condition. If the delivery's label starts with 'Promotion', the rule will not execute at all.
-* **[!UICONTROL Refine threshold on profiles and deliveries > Deliveries to count]** : all deliveries using this typology rule will execute the rule, but you decide, among the past and scheduled deliveries, which ones you want to count. For example, if your restriction is 'Label starts with Newsletter', the rule will be executed even if the delivery label starts with 'Promo'. It will count, over the selected sliding period, the number of deliveries whose label starts with 'Newsletter'.
+* **[!UICONTROL Application criteria]**: you choose to execute the rule or not according to specific criteria. For example, if your application condition is 'Label starts with Newsletter', the rule will only apply to deliveries which respect this condition. If the delivery's label starts with 'Promotion', the rule will not execute at all.
+* **[!UICONTROL Refine threshold on profiles and deliveries > Deliveries to count]**: all deliveries using this typology rule will execute the rule, but you decide, among the past and scheduled deliveries, which ones you want to count. For example, if your restriction is 'Label starts with Newsletter', the rule will be executed even if the delivery label starts with 'Promo'. It will count, over the selected sliding period, the number of deliveries whose label starts with 'Newsletter'.
 
 ## Setting the sliding period {#setting-the-sliding-period}
 
@@ -198,10 +198,10 @@ In the left part of the screen, you can filter the report data on the deliveries
 
 The pie chart displays the following information on the selected period:
 
-* **[!UICONTROL Total targeted]** : the total target before message preparation
-* **[!UICONTROL Excluded]** : the total number of exclusions due to fatigue rule application
-* **[!UICONTROL Other exclusions]** : the total number of exclusions due to other typology rules
-* **[!UICONTROL To deliver]** : the total number of the messages to be delivered after message preparation ( **[!UICONTROL To deliver]** = **[!UICONTROL Total targeted]** - **[!UICONTROL Excluded]** - **[!UICONTROL Other exclusions]** )
+* **[!UICONTROL Total targeted]**: the total target before message preparation
+* **[!UICONTROL Excluded]**: the total number of exclusions due to fatigue rule application
+* **[!UICONTROL Other exclusions]**: the total number of exclusions due to other typology rules
+* **[!UICONTROL To deliver]**: the total number of the messages to be delivered after message preparation ( **[!UICONTROL To deliver]** = **[!UICONTROL Total targeted]** - **[!UICONTROL Excluded]** - **[!UICONTROL Other exclusions]** )
 
 On the right of the chart, you will find the number of exclusions, broken down by fatigue rule.
 

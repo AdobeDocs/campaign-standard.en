@@ -101,13 +101,13 @@ To access the delivery alerting criteria, go to **[!UICONTROL Administration]** 
 
 The following criteria can be used in the delivery alerting dashboards:
 
-* **[!UICONTROL Deliveries failed]** : Any delivery scheduled within a defined range, with an erroneous status.
-* **[!UICONTROL Deliveries with preparation failed]** : Any delivery modified within a defined range, for which the preparation step (target calculation and content generation) has failed. For more on this, see [Preparing the send](../../sending/using/preparing-the-send.md).
-* **[!UICONTROL Delivery with bad error ratio for soft bounces]** : Any delivery scheduled within a defined range, with a status at least **[!UICONTROL In progress]** , with a soft bounce error ratio greater than a defined percentage.
-* **[!UICONTROL Delivery with bad error ratio for hard bounces]** : Any delivery scheduled within a defined range, with a status at least **[!UICONTROL In progress]** , with a hard bounce error ratio greater than a defined percentage.
-* **[!UICONTROL Deliveries with long start pending]** : Any delivery scheduled within a defined range, with a **[!UICONTROL Start pending]** status for longer than a defined duration, **[!UICONTROL Start pending]** status meaning that the messages have not been taken into account by the system yet.
-* **[!UICONTROL Deliveries with low throughput]** : Any delivery started for longer than a defined duration, with less than a defined percentage of processed messages, with a throughput lower than a defined value.
-* **[!UICONTROL Deliveries in progress]** : Any delivery scheduled within a defined range, with the **[!UICONTROL In progress]** status.
+* **[!UICONTROL Deliveries failed]**: Any delivery scheduled within a defined range, with an erroneous status.
+* **[!UICONTROL Deliveries with preparation failed]**: Any delivery modified within a defined range, for which the preparation step (target calculation and content generation) has failed. For more on this, see [Preparing the send](../../sending/using/preparing-the-send.md).
+* **[!UICONTROL Delivery with bad error ratio for soft bounces]**: Any delivery scheduled within a defined range, with a status at least **[!UICONTROL In progress]** , with a soft bounce error ratio greater than a defined percentage.
+* **[!UICONTROL Delivery with bad error ratio for hard bounces]**: Any delivery scheduled within a defined range, with a status at least **[!UICONTROL In progress]** , with a hard bounce error ratio greater than a defined percentage.
+* **[!UICONTROL Deliveries with long start pending]**: Any delivery scheduled within a defined range, with a **[!UICONTROL Start pending]** status for longer than a defined duration, **[!UICONTROL Start pending]** status meaning that the messages have not been taken into account by the system yet.
+* **[!UICONTROL Deliveries with low throughput]**: Any delivery started for longer than a defined duration, with less than a defined percentage of processed messages, with a throughput lower than a defined value.
+* **[!UICONTROL Deliveries in progress]**: Any delivery scheduled within a defined range, with the **[!UICONTROL In progress]** status.
 
 >[!NOTE]
 >
@@ -127,7 +127,7 @@ For each criterion, you can define the following settings:
 
   ![](assets/delivery-alerting_notification_labels.png)
 
-* **[!UICONTROL Criteria frequency]** : If a criterion is met for one delivery, it is repeated in each notification sent within the monitoring period. Otherwise, only one alert will be sent a day (on the first occurrence) by alert criterion for one delivery.
+* **[!UICONTROL Criteria frequency]**: If a criterion is met for one delivery, it is repeated in each notification sent within the monitoring period. Otherwise, only one alert will be sent a day (on the first occurrence) by alert criterion for one delivery.
 
   By default, this option is set to once a day for all criteria.
 
@@ -189,24 +189,24 @@ In the **[!UICONTROL Criteria parameters]** tab of a [delivery alerting dashboar
 
 ![](assets/delivery-alerting_dashboard_criteria-parameters.png)
 
-* **[!UICONTROL Delivery target minimum size]** : For example, if you enter 100 in this field, a notification is sent only for deliveries with a target equal to or greater than 100 recipients. This parameter applies to all criteria.
-* **[!UICONTROL Monitoring period before and after the contact date (in hours)]** : Number of hours before and after the current time. Only the deliveries having a contact date in this time range are taken into account. This parameter applies to all criteria. By default, the value of this field is set to 24 hours.
+* **[!UICONTROL Delivery target minimum size]**: For example, if you enter 100 in this field, a notification is sent only for deliveries with a target equal to or greater than 100 recipients. This parameter applies to all criteria.
+* **[!UICONTROL Monitoring period before and after the contact date (in hours)]**: Number of hours before and after the current time. Only the deliveries having a contact date in this time range are taken into account. This parameter applies to all criteria. By default, the value of this field is set to 24 hours.
 
   For more information on the contact date, see [About the scheduling](../../sending/using/about-scheduling-messages.md).
 
-* **[!UICONTROL Maximum ratio of soft bounce errors]** : A notification is sent for all deliveries with a soft bounce error ratio greater than the specified value. By default, the value of this field is set to 0.05 (5%).
+* **[!UICONTROL Maximum ratio of soft bounce errors]**: A notification is sent for all deliveries with a soft bounce error ratio greater than the specified value. By default, the value of this field is set to 0.05 (5%).
 
   For more on soft bounce errors, see [Bounce mail qualification](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) and [List of delivery failure types](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 
-* **[!UICONTROL Maximum ratio of hard bounce errors]** : A notification is sent for all deliveries with a hard bounce error ratio greater than the specified value. By default, the value of this field is set to 0.05 (5%).
+* **[!UICONTROL Maximum ratio of hard bounce errors]**: A notification is sent for all deliveries with a hard bounce error ratio greater than the specified value. By default, the value of this field is set to 0.05 (5%).
 
   For more on hard bounce errors, see [Bounce mail qualification](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) and [List of delivery failure types](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 
-* **[!UICONTROL Minimum time threshold for delivery in 'Start pending' status (in minutes)]** : A notification is sent for all deliveries with a **[!UICONTROL Start pending]** status for longer than the duration specified in this field, **[!UICONTROL Start pending]** status meaning that the messages have not been taken into account by the system yet.
-* **[!UICONTROL Minimum time required for the computation of the throughput (in minutes)]** : Only deliveries started (with **[!UICONTROL In progress]** status) for more than the specified duration are taken into account for the **[!UICONTROL Deliveries with low throughput]** criterion.
-* **[!UICONTROL Maximum percentage of processed messages for the computation of the throughput]** : Only deliveries with a percentage of processed messages lower than the specified percentage are taken into account for the **[!UICONTROL Deliveries with low throughput]** criterion.
-* **[!UICONTROL Minimum expected throughput (in sent messages per hour)]** : Only deliveries with a throughput lower than the specified value are taken into account for the **[!UICONTROL Deliveries with low throughput]** criterion.
-* **[!UICONTROL Minimum processed ratio required for 'Deliveries in progress' criterion]** : Only deliveries with a percentage of processed messages higher than the specified percentage are taken into account.
+* **[!UICONTROL Minimum time threshold for delivery in 'Start pending' status (in minutes)]**: A notification is sent for all deliveries with a **[!UICONTROL Start pending]** status for longer than the duration specified in this field, **[!UICONTROL Start pending]** status meaning that the messages have not been taken into account by the system yet.
+* **[!UICONTROL Minimum time required for the computation of the throughput (in minutes)]**: Only deliveries started (with **[!UICONTROL In progress]** status) for more than the specified duration are taken into account for the **[!UICONTROL Deliveries with low throughput]** criterion.
+* **[!UICONTROL Maximum percentage of processed messages for the computation of the throughput]**: Only deliveries with a percentage of processed messages lower than the specified percentage are taken into account for the **[!UICONTROL Deliveries with low throughput]** criterion.
+* **[!UICONTROL Minimum expected throughput (in sent messages per hour)]**: Only deliveries with a throughput lower than the specified value are taken into account for the **[!UICONTROL Deliveries with low throughput]** criterion.
+* **[!UICONTROL Minimum processed ratio required for 'Deliveries in progress' criterion]**: Only deliveries with a percentage of processed messages higher than the specified percentage are taken into account.
 
 ### Alerting frequency {#alerting-frequency}
 
@@ -230,7 +230,7 @@ To view the history of every occurrence of a delivery, select the **[!UICONTROL 
 
 Here are a few possible reasons for receiving alerting notifications according to the criteria that are met for a delivery.
 
-* **[!UICONTROL Deliveries failed]** : This criterion informs you of all deliveries with an erroneous status. It can be due to:
+* **[!UICONTROL Deliveries failed]**: This criterion informs you of all deliveries with an erroneous status. It can be due to:
 
     * A problem with the delivery server (MTA, Message Transfer Agent)
     * A connection time-out between the Adobe Campaign delivery server and the receiving server
@@ -239,7 +239,7 @@ Here are a few possible reasons for receiving alerting notifications according t
 
   If the delivery is triggered with a workflow, check if that workflow was correctly started. For more on this, see [Executing a workflow](../../automating/using/executing-a-workflow.md). Otherwise, get in touch with your Adobe Campaign administrator to solve the issue.
 
-* **[!UICONTROL Deliveries with preparation failed]** : An error can occur during delivery preparation in the following cases:
+* **[!UICONTROL Deliveries with preparation failed]**: An error can occur during delivery preparation in the following cases:
 
     * The delivery is missing a subject.
     * There is a wrong syntax in the personalization fields.
@@ -268,9 +268,9 @@ Here are a few possible reasons for receiving alerting notifications according t
     * Regularly update your customer database to maintain good quarantine management processes. See [About quarantines](../../sending/using/understanding-quarantine-management.md#about-quarantines).
     * Generally speaking, improve deliverability the best as you can. See the Adobe Campaign v7 [Managing deliverability](http://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) detailed guide and contact your Adobe Campaign administrator for assistance.
 
-* **[!UICONTROL Deliveries with long start pending]** : Usually this means that there is a problem at the MTA's (Message Transfer Agent) level. The execution process is waiting on the availability of some resources. The MTA may have not been started.
+* **[!UICONTROL Deliveries with long start pending]**: Usually this means that there is a problem at the MTA's (Message Transfer Agent) level. The execution process is waiting on the availability of some resources. The MTA may have not been started.
 
-  **[!UICONTROL Deliveries with low throughput]** : Again, this is a deliverability issue meaning that the MTA is too slow.
+  **[!UICONTROL Deliveries with low throughput]**: Again, this is a deliverability issue meaning that the MTA is too slow.
 
   For more on these issues, get in touch with your Adobe Campaign administrator.
 

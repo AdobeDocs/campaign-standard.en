@@ -32,9 +32,9 @@ To configure a service:
 
 1. Select a confirmation message template for subscriptions and unsubscriptions. Three modes are available:
 
-    * **[!UICONTROL No message]** : this mode allows you to create a service without a confirmation message.
-    * **[!UICONTROL Default message]** : this mode will use the default subscription or unsubscription confirmation transactional message. The default confirmation messages are generic and will be the same for all services that use the default mode.
-    * **[!UICONTROL Custom message]** : this mode allows you to handle custom confirmation messages, specific for each service. You then select the **[!UICONTROL Custom subscription event configuration]** which is associated with a specific transactional message template. Refer to [Transactional messages](../../channels/using/about-transactional-messaging.md) for more information on transactional event and message configuration.
+    * **[!UICONTROL No message]**: this mode allows you to create a service without a confirmation message.
+    * **[!UICONTROL Default message]**: this mode will use the default subscription or unsubscription confirmation transactional message. The default confirmation messages are generic and will be the same for all services that use the default mode.
+    * **[!UICONTROL Custom message]**: this mode allows you to handle custom confirmation messages, specific for each service. You then select the **[!UICONTROL Custom subscription event configuration]** which is associated with a specific transactional message template. Refer to [Transactional messages](../../channels/using/about-transactional-messaging.md) for more information on transactional event and message configuration.
 
 1. Save the service. It is now ready to be used.
 

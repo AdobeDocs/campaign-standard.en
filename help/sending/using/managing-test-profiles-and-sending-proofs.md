@@ -98,9 +98,9 @@ In a message:
 
 1. Select the type of proof you would like to use:
 
-    * **[!UICONTROL Email rendering]** : select this option to test the way your message is received according to the inboxes targeted. For more information, refer to [Email rendering](../../sending/using/email-rendering.md).
-    * **[!UICONTROL Proof]** : select this option to test the message before sending it to the main target. The proof recipients are in charge of approving the delivery, by checking both its content and its format.
-    * **[!UICONTROL Proof + Email rendering]** : this option combines the two previous options.
+    * **[!UICONTROL Email rendering]**: select this option to test the way your message is received according to the inboxes targeted. For more information, refer to [Email rendering](../../sending/using/email-rendering.md).
+    * **[!UICONTROL Proof]**: select this option to test the message before sending it to the main target. The proof recipients are in charge of approving the delivery, by checking both its content and its format.
+    * **[!UICONTROL Proof + Email rendering]**: this option combines the two previous options.
 
    ![](assets/bat_select1.png)
 

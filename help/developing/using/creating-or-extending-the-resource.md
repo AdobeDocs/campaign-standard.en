@@ -37,11 +37,11 @@ To create or extend a resource:
 1. From **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom Resources]** , click the **[!UICONTROL Create]** button.
 1. Choose the action you want to perform:
 
-    * **[!UICONTROL Create a new resource]** : Enter the **[!UICONTROL Label]** and **[!UICONTROL ID]** fields. The **[!UICONTROL ID]** field is mandatory. If you leave the Label field empty, it will automatically be completed from the ID.
+    * **[!UICONTROL Create a new resource]**: Enter the **[!UICONTROL Label]** and **[!UICONTROL ID]** fields. The **[!UICONTROL ID]** field is mandatory. If you leave the Label field empty, it will automatically be completed from the ID.
     
       ![](assets/schema_extension_2.png)
 
-    * **[!UICONTROL Extend an existing resource]** : Select the resource you want to extend.
+    * **[!UICONTROL Extend an existing resource]**: Select the resource you want to extend.
     
       ![](assets/schema_extension_10.png)
 

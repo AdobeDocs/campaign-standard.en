@@ -42,17 +42,17 @@ The name of the content block appears in the editor and it is highlighted in yel
 
 The out-of-the-box content blocks are:
 
-* **[!UICONTROL Database URL in emails (EmailUrlBase)]** : This content block can only be used in a **delivery**.
-* **[!UICONTROL Mirror page URL (MirrorPageUrl)]** : This content block can only be used in a **delivery**.
-* **[!UICONTROL Link to mirror page (MirrorPage)]** : This content block can only be used in a **delivery**.
+* **[!UICONTROL Database URL in emails (EmailUrlBase)]**: This content block can only be used in a **delivery**.
+* **[!UICONTROL Mirror page URL (MirrorPageUrl)]**: This content block can only be used in a **delivery**.
+* **[!UICONTROL Link to mirror page (MirrorPage)]**: This content block can only be used in a **delivery**.
 * **[!UICONTROL Greetings (Greetings)]** 
-* **[!UICONTROL Unsubscription link (UnsubscriptionLink)]** : This content block can only be used in a **delivery**.
-* **[!UICONTROL Social network sharing links (LandingPageViralLinks)]** : This content block can only be used in a **landing page**.
-* **[!UICONTROL Default sender name (DefaultSenderName)]** : This content block can only be used in a **delivery**.
-* **[!UICONTROL Name of default reply-to email address (DefaultReplyName)]** : This content block can only be used in a **delivery**.
-* **[!UICONTROL Email address of default sender (DefaultSenderAddress)]** : This content block can only be used in a **delivery**.
-* **[!UICONTROL Default error email address (DefaultErrorAddress)]** : This content block can only be used in a **delivery**.
-* **[!UICONTROL Default reply-to email address (DefaultReplyAddress)]** : This content block can only be used in a **delivery**.
+* **[!UICONTROL Unsubscription link (UnsubscriptionLink)]**: This content block can only be used in a **delivery**.
+* **[!UICONTROL Social network sharing links (LandingPageViralLinks)]**: This content block can only be used in a **landing page**.
+* **[!UICONTROL Default sender name (DefaultSenderName)]**: This content block can only be used in a **delivery**.
+* **[!UICONTROL Name of default reply-to email address (DefaultReplyName)]**: This content block can only be used in a **delivery**.
+* **[!UICONTROL Email address of default sender (DefaultSenderAddress)]**: This content block can only be used in a **delivery**.
+* **[!UICONTROL Default error email address (DefaultErrorAddress)]**: This content block can only be used in a **delivery**.
+* **[!UICONTROL Default reply-to email address (DefaultReplyAddress)]**: This content block can only be used in a **delivery**.
 * **[!UICONTROL Brand name (BrandingUsualName)]** 
 * **[!UICONTROL Link to the brand website (BrandingWebSiteLink)]** 
 * **[!UICONTROL Brand logo (BrandingLogo)]** 
@@ -72,9 +72,9 @@ To create a content block, follow these steps:
 1. Enter a label.
 1. Select the block's **[!UICONTROL Content type]** . There are three options available:
 
-    * **[!UICONTROL Shared]** : The content block can be used in a delivery or a landing page.
-    * **[!UICONTROL Delivery]** : The content block can only be used in a delivery.
-    * **[!UICONTROL Landing page]** : The content block can only be used in a landing page.
+    * **[!UICONTROL Shared]**: The content block can be used in a delivery or a landing page.
+    * **[!UICONTROL Delivery]**: The content block can only be used in a delivery.
+    * **[!UICONTROL Landing page]**: The content block can only be used in a landing page.
 
    ![](assets/content_bloc_02.png)
 

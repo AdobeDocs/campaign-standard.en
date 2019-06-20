@@ -125,9 +125,9 @@ A link details the association that one table has with other tables.
 
    The various link types are as follows:
 
-    * **[!UICONTROL 1 cardinality simple link]** : one occurrence of the source table can have at most one corresponding occurrence of the target table.
-    * **[!UICONTROL N cardinality collection link]** : one occurrence of the source table can have several corresponding occurrences of the target table, but one occurrence of the target table can have at most one corresponding occurrence of the source table.
-    * **[!UICONTROL 0 or 1 cardinality simple link]** : one occurrence of the source table can have at most one corresponding occurrence of the target table or none. Note that this kind of **[!UICONTROL Link type]** can cause performance issue.
+    * **[!UICONTROL 1 cardinality simple link]**: one occurrence of the source table can have at most one corresponding occurrence of the target table.
+    * **[!UICONTROL N cardinality collection link]**: one occurrence of the source table can have several corresponding occurrences of the target table, but one occurrence of the target table can have at most one corresponding occurrence of the source table.
+    * **[!UICONTROL 0 or 1 cardinality simple link]**: one occurrence of the source table can have at most one corresponding occurrence of the target table or none. Note that this kind of **[!UICONTROL Link type]** can cause performance issue.
 
    ![](assets/schema_extension_29.png)
 
@@ -147,8 +147,8 @@ A link details the association that one table has with other tables.
 
 1. In the **[!UICONTROL Join definition]** section, the default **[!UICONTROL Use the primary keys to make the join]** option is selected but you can choose between two options:
 
-    * **[!UICONTROL Use the primary key to make the join]** : This join definition allows you to use the profiles primary key to reconcile with the purchases' primary key.
-    * **[!UICONTROL Define specific join conditions]** : This join definition allows you to manually select the fields that will join both resources. Please note that if data are not correctly configured, the **Purchase** record will not be visible.
+    * **[!UICONTROL Use the primary key to make the join]**: This join definition allows you to use the profiles primary key to reconcile with the purchases' primary key.
+    * **[!UICONTROL Define specific join conditions]**: This join definition allows you to manually select the fields that will join both resources. Please note that if data are not correctly configured, the **Purchase** record will not be visible.
 
    ![](assets/schema_extension_17.png)
 
