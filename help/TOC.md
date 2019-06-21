@@ -171,6 +171,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Reporting interface](reporting/using/reporting-interface.md)
        + [List of components ](reporting/using/list-of-components-.md)
        + [Indicator calculation](reporting/using/indicator-calculation.md)
+       + [Troubleshooting](reporting/using/troubleshooting.md)
   + List of reports {#list-of-reports}
        + [Defining the report period](reporting/using/defining-the-report-period.md)
        + [Bounce summary](reporting/using/bounce-summary.md)
