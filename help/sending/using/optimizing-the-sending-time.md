@@ -31,17 +31,17 @@ You can view when the message was sent to each recipient in the [sending logs](.
 
 Several options are available:
 
-* **[!UICONTROL No optimization]** : Messages are sent at the user's time.
+* **[!UICONTROL No optimization]**: Messages are sent at the user's time.
 
   For example, if your time zone is GMT+1 and if you enter 9:00 AM in the **[!UICONTROL Start sending from]** field, a recipient located in the GMT+3 time zone will receive the message at 11:00 AM local time for that recipient.
 
-* **[!UICONTROL Send at the recipient's time zone]** : All recipients will receive the message with their time zone taken into account.
+* **[!UICONTROL Send at the recipient's time zone]**: All recipients will receive the message with their time zone taken into account.
 
   For example, if you enter 9:00 AM in the **[!UICONTROL Start sending from]** field, a recipient located in the GMT+3 time zone will receive the message at 9:00 AM local time for that recipient.
 
   See [Sending messages at the recipient's time zone](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md).
 
-* **[!UICONTROL Send at a custom date defined by a formula]** : Each recipient will receive the message at the date and time configured by the specified formula.
+* **[!UICONTROL Send at a custom date defined by a formula]**: Each recipient will receive the message at the date and time configured by the specified formula.
 
   See [Computing the sending date](../../sending/using/computing-the-sending-date.md).
 

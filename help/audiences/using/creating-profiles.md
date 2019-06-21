@@ -33,7 +33,7 @@ As an example, to create a new profile directly in the user interface, follow th
 
    ![](assets/profile_creation_1.png)
 
-1. Then click **[!UICONTROL Create]** .
+1. Then click **[!UICONTROL Create]**.
 
    ![](assets/profile_creation.png)
 

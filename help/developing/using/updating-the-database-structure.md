@@ -32,7 +32,7 @@ To apply the changes carried out on the resources, you must perform a database u
 >
 >If a field of a custom resource used on an event is modified or deleted, the corresponding event will automatically be unpublished. See [Configuring Transactional messaging](../../administration/using/configuring-transactional-messaging.md).
 
-1. From the advanced menu, via the Adobe Campaign logo, select **[!UICONTROL Administration]** > **[!UICONTROL Development]** , then **[!UICONTROL Publishing]** .
+1. From the advanced menu, via the Adobe Campaign logo, select **[!UICONTROL Administration]** > **[!UICONTROL Development]**, then **[!UICONTROL Publishing]**.
 1. By default, the option **[!UICONTROL Determine modifications since the last publication]** is checked, which means that only the changes carried out since the last update will be applied.
 
    >[!NOTE]
@@ -62,7 +62,7 @@ To apply the changes carried out on the resources, you must perform a database u
    >
    >You can stop the Re-draft process by clicking the **[!UICONTROL Cancel re-draft]** button. This action will revert the resource's status back to its original one.
 
-1. If your publication failed, you can always go back to the previous publication by clicking **[!UICONTROL Back to latest successful publication]** .
+1. If your publication failed, you can always go back to the previous publication by clicking **[!UICONTROL Back to latest successful publication]**.
 
    Note that, if you leave your publication in a fail status, a pop-up window will open as soon as you log in to your instance to remind you to fix this publication. Your instance will not be upgraded with new product versions until your publication is fixed.
 
@@ -72,7 +72,7 @@ To apply the changes carried out on the resources, you must perform a database u
 
 You can create the Profile and Services API in the following cases:
 
-* When you extend the custom resources **[!UICONTROL Profiles]** or **[!UICONTROL Services]** , you can perform an update of the Profiles and Services API to integrate the fields declared in the custom resources extension.
+* When you extend the custom resources **[!UICONTROL Profiles]** or **[!UICONTROL Services]**, you can perform an update of the Profiles and Services API to integrate the fields declared in the custom resources extension.
 * When you define a custom resource and you create a link between the resources **[!UICONTROL Profiles]** or **[!UICONTROL Services]** and the custom resource, you can perform an update to include the new resource in the API.
 
 You can select this option in the publication screen.
@@ -85,11 +85,11 @@ You can select this option in the publication screen.
 
   Indeed, once it has been created, the API is automatically updated each time you publish it again. This is to avoid breaking the profile or service resource of this API and harming your instance.
 
-Note that by default, the custom resource is integrated, but, for a specific behavior, if you don't want to publish this resource, you can select the option **[!UICONTROL Hide this resource from APIs]** available in the **[!UICONTROL Resource Properties]** .
+Note that by default, the custom resource is integrated, but, for a specific behavior, if you don't want to publish this resource, you can select the option **[!UICONTROL Hide this resource from APIs]** available in the **[!UICONTROL Resource Properties]**.
 
 ![](assets/removefromextoption.png)
 
-After the **[!UICONTROL Prepare Publication]** step, Adobe Campaign displays the delta between the current version of the API and the future version after the publication in the tab **[!UICONTROL Profiles & Services API Preview]** . If you extend the API for the first time, the delta compares the out-of-the-box custom resource definition with your extension.
+After the **[!UICONTROL Prepare Publication]** step, Adobe Campaign displays the delta between the current version of the API and the future version after the publication in the tab **[!UICONTROL Profiles & Services API Preview]**. If you extend the API for the first time, the delta compares the out-of-the-box custom resource definition with your extension.
 
 The information displayed in the tab is divided into three sections: added, deleted and modified elements.
 

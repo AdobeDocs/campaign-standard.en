@@ -39,7 +39,7 @@ If enabled, you can modify images with the Adobe Creative SDK. See [Modifying im
 
    ![](assets/des_insert_images_1.png)
 
-1. Click **[!UICONTROL Browse]** . Drag and drop an image or click to select a file from your computer.
+1. Click **[!UICONTROL Browse]**. Drag and drop an image or click to select a file from your computer.
 
    ![](assets/des_insert_images_2.png)
 
