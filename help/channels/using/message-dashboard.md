@@ -30,7 +30,7 @@ The gray bar regroups various icons linked to your message.
 * **[!UICONTROL Edit properties]**: lets you edit the message's advanced parameters.
 * **[!UICONTROL Reports]**: gives you access to the reports relating to the message.
 
-**Related topics**
+**Related topics:**
 
 * [Configuring channels](../../administration/using/about-channel-configuration.md)
 * [Accessing reports](../../reporting/using/about-dynamic-reports.md)

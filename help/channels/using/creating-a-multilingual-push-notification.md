@@ -126,7 +126,7 @@ Your multilingual content variant push notifications are now ready to be sent to
 
 You can now measure the impact of your multilingual push notification delivery on your recipients.
 
-**Related content:**
+**Related topics:**
 
 * [Push notification report](../../reporting/using/push-notification-report.md)
 * [Sending a push notification within a workflow](../../automating/using/push-notification-delivery.md)
