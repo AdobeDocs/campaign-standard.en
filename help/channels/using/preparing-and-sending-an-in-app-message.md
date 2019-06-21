@@ -129,7 +129,7 @@ The steps for creating a standalone In-App message with Adobe Campaign are:
 
 Your In-App message is now ready to be sent to your targeted audience.
 
-**Related content:**
+**Related topics:**
 
 * [Customizing an In-App message](../../channels/using/customizing-an-in-app-message.md)
 * [In-App report](../../reporting/using/in-app-report.md)
@@ -161,7 +161,7 @@ Once you have finished preparing your delivery and the approval steps have been 
 
 1. Measure the impact of your In-App messages with delivery reports. For more on reporting, refer to [this section](../../reporting/using/in-app-report.md).
 
-**Related content:**
+**Related topics:**
 
 * [In-App report](../../reporting/using/in-app-report.md)
 * [Sending an In-App message within a workflow](../../automating/using/in-app-delivery.md)

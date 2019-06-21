@@ -195,6 +195,4 @@ Once the setup is done, the collected Points of Interest data is listed in the *
 
 The collected Points of Interest data for the current profile are listed. Location data are stored in the Adobe Campaign database for six months.
 
-**Related topics:**
-
 For more information on accessing and editing profiles, see [Profiles](../../audiences/using/about-profiles.md).
