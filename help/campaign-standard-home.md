@@ -6,9 +6,9 @@ title: Adobe Campaign Standard product documentation
 topic: Premium
 ---
 
-# Campaign Standard documentation {#campaign-standard-documentation}
+# Help Center {#campaign-standard-documentation}
 
-Learn Adobe Campaign basics through simple step-by-step procedures, and experience the power of the solution.
+Learn the basics and refine your skills with Adobe Campaign Standard product documentation.
 
 |  |  |  |
 |:---:|:---:|:---:|
