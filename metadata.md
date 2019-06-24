@@ -8,7 +8,7 @@ getting-started-url: https://forums.adobe.com/community/experience-cloud/marketi
 tutorials-title: Tutorials
 tutorials-url: https://helpx.adobe.com/campaign/kt/acs/index/acs-videos.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/campaign-standard.en
-index: no
+index: yes
 ---
 
 # Metadata for Adobe Campaign Standard
