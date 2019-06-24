@@ -204,7 +204,22 @@ After the Adobe Campaign Standard 19.2.1 release, reports look like the followin
  </tbody> 
 </table>
 
-## What is the signification of the colors in my reports' table?
+## What is the colors' signification in my reports' table?
+
+
+Colors displayed on your reports are randomized and cannot be personalized. They represent a progress bar and are displayed to help you better highlight the maximal value reached in your reports.
+
+In the example below, the cell is of the same color since its value is 100%.
+
+![](assets/troubleshooting_1.png)
+
+If you change the **Conditional formatting** to custom, when the value reaches the upper limit the cell will get greener. Whereas, if it reaches the lower limit, it will get redder.
+
+For example, here, we set the **Upper limit** to 500 and **Lower limit** to 0. 
+
+![](assets/troubleshooting_2.png)
+
+
 
 
 
