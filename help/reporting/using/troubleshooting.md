@@ -20,14 +20,14 @@ snippet: y
 
 You can find in this section common questions related to Dynamic reporting.
 
-## For Unique opens and Unique clicks, the count in the aggregate row is not matching the ones in individual Rows
+## For Unique opens and Unique clicks, the count in the aggregate row is not matching the ones in individual rows
 
-This is an expected behaviour.
-We can take the following example to explain this behaviour.
+This is an expected behavior.
+We can take the following example to explain this behavior.
 
 An email is sent to profiles P1 and P2.
 
-P1 opens the email two times on the first day and then tree times on the second day. 
+P1 opens the email twice on the first day and then tree times on the second day. 
 
 Whereas, P2 opens the email once on the first day and doesn't reopen it in the following days.
 Here is a visual representation of the profiles' interaction with the sent email:
@@ -56,11 +56,11 @@ Here is a visual representation of the profiles' interaction with the sent email
  </tbody> 
 </table>
 
-To understand the overall number of unique opens, we need to sum up the row counts of Unique Opens which gives us the value 3. But since the email was targeted to only 2 profiles, the Open rate should show 150%.
+To understand the overall number of unique opens, we need to sum up the row counts of **Unique Opens** which gives us the value 3. But since the email was targeted to only 2 profiles, the Open rate should show 150%.
 
-To not obtain percentage higher than 100,the definition of Unique Opens is maintained to be the number of unique broadlogs that were opened. In this case even if P1 opened the email on Day 1 and Day 2, his unique opens will still be just 1.
+To not obtain percentage higher than 100, the definition of **Unique Opens** is maintained to be the number of unique broadlogs that were opened. In this case even if P1 opened the email on Day 1 and Day 2, his unique opens will still be 1.
 
-This will result in the following table now:
+This will result in the following table:
 
 <table> 
  <thead> 
@@ -86,7 +86,9 @@ This will result in the following table now:
  </tbody> 
 </table>
 
-Note that the unique counts are based on an HLL-based sketch, this may cause slight inaccuracies at large counts.
+>[!NOTE]
+>
+>Unique counts are based on an HLL-based sketch, this may cause slight inaccuracies at large counts.
 
 ## Open counts do not match the Database count
 
@@ -98,13 +100,15 @@ That is why in database, the **Open** tracking logs counts may not have the same
 
 Such occurrences are added as an email click implies an email open.
 
-Since unique counts are based on an HLL-based sketch, minor inconsistencies between the counts can be experienced.
+>[!NOTE]
+>
+>Since unique counts are based on an HLL-based sketch, minor inconsistencies between the counts can be experienced.
 
 ## How are counts for recurring/transactional deliveries calculated?
 
 When working with recurring and transactional deliveries, the counts will be attributed to both the parent and child deliveries.
 
-We can take the exemple of a recurring delivery named **R1** set to run every day on day 1 (RC1), day 2 (RC2) and day 3 (RC3).
+We can take the example of a recurring delivery named **R1** set to run every day on day 1 (RC1), day 2 (RC2) and day 3 (RC3).
 
 Let's assume that only a single person opened all the child deliveries multiple times. In this case, the individual recurring child deliveries will show the **Open** count as 1 for each.
 
