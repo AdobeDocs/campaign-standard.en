@@ -27,7 +27,7 @@ The In-App content editor lets you choose between two In-App message modes:
 
 ![](assets/inapp_customize_1.png)
 
-**Related content:**
+**Related topics:**
 
 * [Sending your In-App message](../../channels/using/preparing-and-sending-an-in-app-message.md#sending-your-in-app-message)
 * [In-App reporting](../../reporting/using/in-app-report.md)

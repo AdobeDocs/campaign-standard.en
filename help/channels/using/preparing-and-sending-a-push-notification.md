@@ -122,7 +122,7 @@ Push notifications can be sent to a selected audience in Adobe Campaign by defin
 
 You can now measure the impact of your push notification delivery with dynamic reports.
 
-**Related content:**
+**Related topics:**
 
 * [Push notification report](../../reporting/using/push-notification-report.md)
 * [Sending a push notification within a workflow](../../automating/using/push-notification-delivery.md)
