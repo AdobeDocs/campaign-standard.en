@@ -56,9 +56,9 @@ Here is a visual representation of the profiles' interaction with the sent email
  </tbody> 
 </table>
 
-To understand the overall number of unique opens, we need to sum up the row counts of **Unique Opens** which gives us the value 3. But since the email was targeted to only 2 profiles, the Open rate should show 150%.
+To understand the overall number of unique opens, we need to sum up the row counts of **[!UICONTROL Unique Opens]** which gives us the value 3. But since the email was targeted to only 2 profiles, the Open rate should show 150%.
 
-To not obtain percentage higher than 100, the definition of **Unique Opens** is maintained to be the number of unique broadlogs that were opened. In this case even if P1 opened the email on Day 1 and Day 2, his unique opens will still be 1.
+To not obtain percentage higher than 100, the definition of **[!UICONTROL Unique Opens]** is maintained to be the number of unique broadlogs that were opened. In this case even if P1 opened the email on Day 1 and Day 2, his unique opens will still be 1.
 
 This will result in the following table:
 
@@ -92,13 +92,13 @@ This will result in the following table:
 
 ## Open counts do not match the Database count
 
-This may be due to the fact that, heuristics are used in Dynamic reporting to track opens even when we can't track the **Open** action.
+This may be due to the fact that, heuristics are used in Dynamic reporting to track opens even when we can't track the **[!UICONTROL Open]** action.
 
-For example, if a user has disabled images on their client and click on a link in the email, the **Open** may not be tracked by the database but the **Click** will.
+For example, if a user has disabled images on their client and click on a link in the email, the **[!UICONTROL Open]** may not be tracked by the database but the **[!UICONTROL Click]** will.
 
-That is why in database, the **Open** tracking logs counts may not have the same count.
+Therefore, the **[!UICONTROL Open]** tracking logs counts may not have the same count in the database.
 
-Such occurrences are added as an email click implies an email open.
+Such occurrences are added as **"an email click implies an email open"**.
 
 >[!NOTE]
 >
@@ -110,9 +110,9 @@ When working with recurring and transactional deliveries, the counts will be att
 
 We can take the example of a recurring delivery named **R1** set to run every day on day 1 (RC1), day 2 (RC2) and day 3 (RC3).
 
-Let's assume that only a single person opened all the child deliveries multiple times. In this case, the individual recurring child deliveries will show the **Open** count as 1 for each.
+Let's assume that only a single person opened all the child deliveries multiple times. In this case, the individual recurring child deliveries will show the **[!UICONTROL Open]** count as 1 for each.
 
-However, since the same person clicked on all the deliveries, the parent recurring delivery will also have **Unique Opens** as 1.
+However, since the same person clicked on all the deliveries, the parent recurring delivery will also have **[!UICONTROL Unique open]** as 1.
 
 After the Adobe Campaign Standard 19.2.1 release, the definition of **Unique counts** is changed from **Number of unique persons interacting with the delivery** to **Number of unique messages interacted**.
 
