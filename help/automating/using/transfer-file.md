@@ -51,10 +51,6 @@ You can use this activity to recover data that will then be structured with the 
         
           ![](assets/wkf_file_transfer_03.png)
 
-          >[!CAUTION]
-          >
-          >Wildcards are not supported.
-
         * Click the **[!UICONTROL Quick configuration]** option, then enter the URL in the field that appears.
         
           ![](assets/wkf_file_transfer_04.png)
