@@ -2,7 +2,6 @@
 product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
-index: n
 ---
 
 # Adobe Campaign Standard Help {#using}
