@@ -44,27 +44,38 @@ From the advanced menu, select **[!UICONTROL Administration]** > **[!UICONTROL D
 
 1. Click **[!UICONTROL Prepare publication]** then when the preparation is done, click the **[!UICONTROL Publish]** button. For more information on custom resource, refer to this [page](../../developing/using/updating-the-database-structure).
 
-You can now access your reports to track your segment codes.
+You can now start creating your workflow with segment codes.
 
 ## Step 2: Create a workflow with segments {#step-2--create-a-workflow-segments}
 
-You first need to create a workflow with different targeted population. Here, we want to send different deliveries depending on the age of our audience: one delivery for 20 to 30 years old profiles and another for profiles between 30 to 40 years old.
+You first need to create a workflow with different targeted population. Here, we want to send an email that will be personalized depending on the age of our audience: one delivery for 20 to 30 years old profiles and another for profiles between 30 to 40 years old.
 
 1. Create your workflow. For more details on how to create your workflow, refer to this [page](../../automating/using/building-a-workflow).
 
 1. Add a **[!UICONTROL Query]** activity by dragging it from the palette and dropping it in the workspace.
 
-1. Target profiles from 20 to 40 years old to later segment them into more targeted population.
+1. Target profiles from 20 to 40 years old to later segment them into more targeted populations.
 
    ![](assets/report_segment_1.png)
 
 1. Add a **[!UICONTROL Segmentation]** activity to split your query results into two targeted populations. For more on segmentation, refer to this [page](../../automating/using/targeting-data).
 
-1. Add a **[!UICONTROL Segment code]** for each population to be passed on through dynamic reporting.
+1. Double click the **[!UICONTROL Segmentation]** activity to configure it. Edit the first segment by clicking **[!UICONTROL Edit properties]**.
+
+    ![](assets/report_segment_7.png)
+
+1. Query profiles between the age of 20 to 30 and click **[!UICONTROL Confirm]** when done.
+
+    ![](assets/report_segment_8.png)
+
+1. Click **[!UICONTROL Add an element]** to create your second segment and configure it as described in the steps above to target profiles between the age of 30 to 40.
+
+1. Edit the **[!UICONTROL Segment code]** for each population to be passed on through dynamic reporting.
    >[!NOTE]
    >This step is mandatory or else you will not be able to understand which segments to report on.
 
-   ![](assets/report_segment_2.png)
+   ![](assets/report_segment_9.png)
+
 1. Drag and drop an **[!UICONTROL Email delivery]** activity after your segments.
 
    ![](assets/report_segment_3.png)
@@ -75,6 +86,8 @@ You first need to create a workflow with different targeted population. Here, we
 
 1. Click **[!UICONTROL Start]** when your workflow is ready.
 
+You can now access your reports to track your segment codes.
+
 ## Step 3: Create a dynamic report to filter segments{#step-3--create-a-dynamic-report-filter-segments}
 
 After sending deliveries with your workflow, you can breakdown reports using your segment codes from your workflow.
@@ -83,10 +96,12 @@ After sending deliveries with your workflow, you can breakdown reports using you
 
    ![](assets/custom_profile_18.png)
 1. Drag and drop the **[!UICONTROL Delivery]** dimension to your freeform table.
+
    ![](assets/report_segment_5.png)
 
 1. Drag and drop different metrics to your table such as the **[!UICONTROL Open]** and **[!UICONTROL Click]** metrics to start filtering your data.
 1. Then, in the **[!UICONTROL Dimensions]** category, drag and drop your **[!UICONTROL Segment code]** dimension on your workflow's delivery to measure the success of your email delivery depending on the targeted populations.
+
    ![](assets/report_segment_6.png)
 
 1. Drag and drop a visualization in your workspace if needed.
