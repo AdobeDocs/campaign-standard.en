@@ -54,9 +54,9 @@ You first need to create a workflow with different targeted population. Here, we
 
 1. Add a **[!UICONTROL Query]** activity by dragging it from the palette and dropping it in the workspace.
 
-1. Target profiles from 20 to 30 years old to later segment them into more targeted populations.
+1. Target profiles from 20 to 40 years old to later segment them into more targeted populations.
 
-   ![](assets/report_segment_8.png)
+   ![](assets/report_segment_1.png)
 
 1. Add a **[!UICONTROL Segmentation]** activity to split your query results into two targeted populations. For more on segmentation, refer to this [page](../../automating/using/targeting-data).
 
