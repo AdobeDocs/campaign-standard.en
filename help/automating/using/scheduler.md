@@ -59,6 +59,8 @@ When building your workflow, only use one **[!UICONTROL Scheduler]** activity pe
     * **[!UICONTROL After a certain number of iterations]**: the workflow will be executed according to the frequency specified, up until the limit of **X** is reached. The **[!UICONTROL Number of iterations]** will therefore need to be specified.
     * **[!UICONTROL On a specific date]**: the workflow will be executed according to the frequency specified, up until a specific date. The execution deadline will therefore need to be specified.
 
+1. Check the schedule of the next ten executions of your workflow by clicking **[!UICONTROL Preview next executions]**. 
+
 1. In the **[!UICONTROL Execution options]** tab, set up the time zone for your scheduler in the **[!UICONTROL Time zone]** field. This allows you to start your workflow at a specific time zone, otherwise the workflow will run in server time zone by default.
 
    For more information on sending delivery depending on the recipient's time zone, refer to this [section](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md) or this [example](../../automating/using/push-notification-delivery.md#sending-a-recurring-push-notification-with-a-workflow) of a recurring workflow.
