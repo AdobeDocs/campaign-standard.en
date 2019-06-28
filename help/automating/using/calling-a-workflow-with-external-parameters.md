@@ -158,6 +158,14 @@ For more on how to use the activity, refer to the [dedicated section](../../auto
 
 **[!UICONTROL Channels]** activities: personalize deliveries based on events variables.
 
+  >[!NOTE]
+  >
+  >The events variables' values are retrieved each time the delivery is prepared.
+  >
+  >Recurring deliveries preparation is based on the delivery **aggregation period**. For example, if the aggregation period is "by day", then the delivery will be re-prepared only once a day. If an events variable' value is modified during the day, then it will not be updated in the delivery, as it has already been prepared once.
+  >
+  >If you plan on calling the workflow multiple times a day, use the "No aggregation period" option, so that the events variables' values are updated each time.
+
 To do this, you must first declare into the delivery activity the variables that you want to use:
 
 1. Select the activity, then click the ![](assets/dlv_activity_params-24px.png) button to access the settings.
