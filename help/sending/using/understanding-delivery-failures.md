@@ -11,7 +11,7 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
-index: y
+
 internal: n
 snippet: y
 ---
@@ -62,18 +62,18 @@ The possible reasons for a delivery failure are:
   In order for the address to be automatically removed from the list of quarantined addresses, the **[!UICONTROL Database cleanup]** technical workflow must be started.
 
 * **[!UICONTROL Refused]** (Soft/Hard type): the address has been placed in quarantine due to a security feedback as a spam report. According to the error returned by the provider, the address will be sent to quarantine directly or the delivery will be tried again until Campaign receives an error which justifies the Quarantine status or until the number of errors reaches 5.
-* **[!UICONTROL Duplicate]** : the address has already been detected in the segmentation.
+* **[!UICONTROL Duplicate]**: the address has already been detected in the segmentation.
 * **[!UICONTROL Not defined]** (Soft type): the address is in qualification because errors have not been incremented yet.
 
   This type of error occurs when a new error message is sent by the server: it can be an isolated error, but if it occurs again, the error counter increases, which will alert the technical teams. 
 
-* **[!UICONTROL Error ignored]** : the address is in the whitelist and an email will be sent to it in any case.
-* **[!UICONTROL Blacklisted address]** : the address was blacklisted at the time of sending.
+* **[!UICONTROL Error ignored]**: the address is in the whitelist and an email will be sent to it in any case.
+* **[!UICONTROL Blacklisted address]**: the address was blacklisted at the time of sending.
 * **[!UICONTROL Account disabled]** (Soft/Hard type): when the Internet Access Provider (IAP) detects a lengthy period of inactivity, it can close the user's account: deliveries to the user's address will then be impossible. The Soft or Hard type depends upon the type of error received: if the account is temporarily disabled due to six months of inactivity and can still be activated, the status **[!UICONTROL Erroneous]** will be assigned and the delivery will be tried again. If the error received signals that the account is permanently deactivated then it will directly be sent to Quarantine.
-* **[!UICONTROL Not connected]** : the profile's mobile phone is switched off or not connected to the network when the message is sent.
+* **[!UICONTROL Not connected]**: the profile's mobile phone is switched off or not connected to the network when the message is sent.
 * **[!UICONTROL Invalid domain]** (Soft type): the domain of the email address is incorrect or no longer exists. This profile will be targeted again until the error count reaches 5. After this, the record will be set to Quarantine status and no retry will follow.
-* **[!UICONTROL Text too long]** : the number of characters in the SMS message exceeds the limit. For more on this, see [SMS encoding, length and transliteration](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).
-* **[!UICONTROL Character not supported by encoding]** : the SMS message contains one or more characters that are not supported by the encoding. &For more on this, see [Table of characters - GSM Standard](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard).
+* **[!UICONTROL Text too long]**: the number of characters in the SMS message exceeds the limit. For more on this, see [SMS encoding, length and transliteration](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).
+* **[!UICONTROL Character not supported by encoding]**: the SMS message contains one or more characters that are not supported by the encoding. &For more on this, see [Table of characters - GSM Standard](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard).
 
 ## Retries after a delivery temporary failure {#retries-after-a-delivery-temporary-failure}
 
@@ -96,17 +96,17 @@ Delivery failure error messages (or "bounces") are picked up by the Adobe Campai
 
 This list is available to administrators only and contains all the rules used by Adobe Campaign to qualify delivery failures.
 
-To access it, click the **[!UICONTROL Adobe Campaign]** logo, at the top left, then select **[!UICONTROL Administration > Channels > Email > Email processing rules]** .
+To access it, click the **[!UICONTROL Adobe Campaign]** logo, at the top left, then select **[!UICONTROL Administration > Channels > Email > Email processing rules]**.
 
 For more on this, refer to this [section](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
 Bounces can have the following qualification statuses:
 
-* **[!UICONTROL To qualify]** : the bounce mail needs to be qualified. Qualification must be done by the Deliverability team to ensure that the platform deliverability functions correctly. As long as it is not qualified, the bounce mail is not used to enrich the list of email processing rules.
-* **[!UICONTROL Keep]** : the bounce mail was qualified and will be used by the **Update for deliverability** workflow to be compared to existing email processing rules and enrich the list.
-* **[!UICONTROL Ignore]** : the bounce mail was qualified but will not be used by the **Update for deliverability** workflow. So it will not be sent to the client instances.
+* **[!UICONTROL To qualify]**: the bounce mail needs to be qualified. Qualification must be done by the Deliverability team to ensure that the platform deliverability functions correctly. As long as it is not qualified, the bounce mail is not used to enrich the list of email processing rules.
+* **[!UICONTROL Keep]**: the bounce mail was qualified and will be used by the **Update for deliverability** workflow to be compared to existing email processing rules and enrich the list.
+* **[!UICONTROL Ignore]**: the bounce mail was qualified but will not be used by the **Update for deliverability** workflow. So it will not be sent to the client instances.
 
-To list the various bounces and their associated error types et reasons, click the **[!UICONTROL Adobe Campaign]** logo, in the top left, then select **[!UICONTROL Administration > Channels > Quarantines > Message qualification]** .
+To list the various bounces and their associated error types et reasons, click the **[!UICONTROL Adobe Campaign]** logo, in the top left, then select **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
 
 ![](assets/qualification.png)
 

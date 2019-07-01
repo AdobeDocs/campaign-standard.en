@@ -11,7 +11,7 @@ audience: channels
 content-type: reference
 topic-tags: direct-mail
 discoiquuid: e1fbf39c-9c30-493c-8322-9c71e18ce98c
-index: y
+context-tags: delivery,directMailContent,back;deliveryCreation,wizard
 internal: n
 snippet: y
 ---

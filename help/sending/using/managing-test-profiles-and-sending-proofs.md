@@ -11,7 +11,7 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 discoiquuid: 37320ec5-196c-4260-8156-98932da3e4a5
-index: y
+
 internal: n
 snippet: y
 ---
@@ -22,7 +22,7 @@ snippet: y
 
 The test profiles allow you to target additional recipients who do not match the defined targeting criteria. They are added to a message's audience to detect any fraudulent use of your recipient database or to ensure the emails arrive in the inboxes.
 
-You can manage your test profiles from the advanced menu **[!UICONTROL Profiles & audiences > Test profiles]** .
+You can manage your test profiles from the advanced menu **[!UICONTROL Profiles & audiences > Test profiles]**.
 
 A test profile contains fictitious contact information, or contact information controlled by the sender, that can then be used in a message in the following contexts:
 
@@ -56,11 +56,11 @@ A test profile contains fictitious contact information, or contact information c
 
    ![](assets/test_profile_creation_4.png)
 
-1. Enter the contact channels **[!UICONTROL Email, Telephone, Mobile, Mobile app]** , as well as the test profile address if necessary.
+1. Enter the contact channels **[!UICONTROL Email, Telephone, Mobile, Mobile app]**, as well as the test profile address if necessary.
 
    >[!NOTE]
    >
-   >You can define a preferred email format: **[!UICONTROL Text]** or **[!UICONTROL HTML]** .
+   >You can define a preferred email format: **[!UICONTROL Text]** or **[!UICONTROL HTML]**.
 
 1. Specify an event type and the data for this event if you want to use this test profile for testing the personalization of a transactional message.
 1. Click **[!UICONTROL Create]** to save the test profile.
@@ -98,9 +98,9 @@ In a message:
 
 1. Select the type of proof you would like to use:
 
-    * **[!UICONTROL Email rendering]** : select this option to test the way your message is received according to the inboxes targeted. For more information, refer to [Email rendering](../../sending/using/email-rendering.md).
-    * **[!UICONTROL Proof]** : select this option to test the message before sending it to the main target. The proof recipients are in charge of approving the delivery, by checking both its content and its format.
-    * **[!UICONTROL Proof + Email rendering]** : this option combines the two previous options.
+    * **[!UICONTROL Email rendering]**: select this option to test the way your message is received according to the inboxes targeted. For more information, refer to [Email rendering](../../sending/using/email-rendering.md).
+    * **[!UICONTROL Proof]**: select this option to test the message before sending it to the main target. The proof recipients are in charge of approving the delivery, by checking both its content and its format.
+    * **[!UICONTROL Proof + Email rendering]**: this option combines the two previous options.
 
    ![](assets/bat_select1.png)
 

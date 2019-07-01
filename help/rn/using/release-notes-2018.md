@@ -11,7 +11,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
-index: y
+
 internal: n
 snippet: y
 ---
@@ -166,8 +166,8 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * In the **Update for deliverability** out-of-the-box technical workflow, functional administrators can now define the number of consecutive errors to ignore in the **Update rules** javascript activity. By default, the field value is set to 0, which means that all errors will be ignored.
 * The SQL generated when managing unit access restriction conditions has been optimized.
 * The **[!UICONTROL Update]** activity now allows you to add, update or delete data related to subscriptions (nms:appSubscriptionRcp table). 
-* The **[!UICONTROL Update delivery execution]** technical workflow has been divided into two workflows in order to optimize performance: - **[!UICONTROL Update delivery execution]** : updates the delivery's tracking. It is started every 10 minutes by default. **[!UICONTROL Update delivery indicators]** : updates the delivery's KPI's, it is started every hour by default. For more on technical workflows, refer to this [section](../../administration/using/technical-workflows.md#list-of-technical-workflows).
-* When a delivery is sending messages, the status in the **[!UICONTROL Deployment]** section can now have two values: **[!UICONTROL Sending]** : the messages are being sent. **[!UICONTROL Sending (retry)]** : a retry pass is in progress. 
+* The **[!UICONTROL Update delivery execution]** technical workflow has been divided into two workflows in order to optimize performance: - **[!UICONTROL Update delivery execution]**: updates the delivery's tracking. It is started every 10 minutes by default. **[!UICONTROL Update delivery indicators]**: updates the delivery's KPI's, it is started every hour by default. For more on technical workflows, refer to this [section](../../administration/using/technical-workflows.md#list-of-technical-workflows).
+* When a delivery is sending messages, the status in the **[!UICONTROL Deployment]** section can now have two values: **[!UICONTROL Sending]**: the messages are being sent. **[!UICONTROL Sending (retry)]**: a retry pass is in progress. 
 * Users with the **[!UICONTROL Delivery preparation]** role are now able to send proofs. (CAMP-24313)
 * The **Enable TLS over SMPP** option has been added to the **SMS routing via SMPP** external account. For more on this refer to this [section](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
 

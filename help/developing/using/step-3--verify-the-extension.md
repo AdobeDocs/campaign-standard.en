@@ -11,7 +11,7 @@ audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
 discoiquuid: 21bad242-5921-445c-8df9-3d57dbe35197
-index: y
+
 internal: n
 snippet: y
 ---

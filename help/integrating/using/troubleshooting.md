@@ -11,7 +11,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 discoiquuid: c28e1d90-8074-4127-a6fc-ed39d69cdb19
-index: y
+
 internal: n
 snippet: y
 ---
@@ -24,14 +24,14 @@ In this case, make sure that the following elements are correctly configured:
 
 * **External accounts**
 
-  In **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL External accounts]** , make sure that the following external S3 accounts are correctly configured. The mentioned S3 servers should have been configured during provisioning.
+  In **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL External accounts]**, make sure that the following external S3 accounts are correctly configured. The mentioned S3 servers should have been configured during provisioning.
 
-    * **[!UICONTROL importSharedAudience]** : S3 account dedicated to importing audiences.
-    * **[!UICONTROL exportSharedAudience]** : S3 account dedicated to exporting audiences.
+    * **[!UICONTROL importSharedAudience]**: S3 account dedicated to importing audiences.
+    * **[!UICONTROL exportSharedAudience]**: S3 account dedicated to exporting audiences.
 
 * **Shared Data Sources**
 
-  In **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Shared Data Sources]** , check that the shared data source is set properly.
+  In **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Shared Data Sources]**, check that the shared data source is set properly.
 
   **[!UICONTROL Priority]** is used when you have multiple data sources defined. Priority decides which data source will be used to match with alias received in the order defined. **[!UICONTROL Priority]** is only needed for Triggers implementation.
 

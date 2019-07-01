@@ -11,7 +11,7 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
-index: y
+
 internal: n
 snippet: y
 ---
@@ -33,7 +33,7 @@ Being cautious and following the few simple rules detailed below will help a lot
 
 ### Using import templates {#using-import-templates}
 
-Most import workflows should contain the following activities: **[!UICONTROL Load file]** , **[!UICONTROL Reconciliation]** , **[!UICONTROL Segmentation]** , **[!UICONTROL Deduplication]** , **[!UICONTROL Update data]** .
+Most import workflows should contain the following activities: **[!UICONTROL Load file]**, **[!UICONTROL Reconciliation]**, **[!UICONTROL Segmentation]**, **[!UICONTROL Deduplication]**, **[!UICONTROL Update data]**.
 
 Using import templates makes it very convenient to prepare similar imports and ensure data consistency within the database.
 
@@ -94,19 +94,19 @@ Using an import template is a best practice if you need to regularly import file
 
 This example shows how to pre-set a workflow that can be reused for importing profiles coming from a CRM in the Adobe Campaign database.
 
-1. Create a new workflow template from **[!UICONTROL Resources > Templates > Workflow templates]** .
+1. Create a new workflow template from **[!UICONTROL Resources > Templates > Workflow templates]**.
 1. Add the following activities:
 
-    * **[!UICONTROL Load file]** : Define the expected structure of the file containing the data to import.
+    * **[!UICONTROL Load file]**: Define the expected structure of the file containing the data to import.
 
       >[!NOTE]
       >
       >You can only import data from a single file. If the workflow has multiple **[!UICONTROL Load file]** activities, the same file will be used each time.
 
-    * **[!UICONTROL Reconciliation]** : Reconcile the imported data with database data.
-    * **[!UICONTROL Segmentation]** : Create filters to process records differently depending on whether they could be reconciled or not.
-    * **[!UICONTROL Deduplication]** : Deduplicate the data from the incoming file before it is inserted in the database.
-    * **[!UICONTROL Update data]** : Update the database with the imported profiles.
+    * **[!UICONTROL Reconciliation]**: Reconcile the imported data with database data.
+    * **[!UICONTROL Segmentation]**: Create filters to process records differently depending on whether they could be reconciled or not.
+    * **[!UICONTROL Deduplication]**: Deduplicate the data from the incoming file before it is inserted in the database.
+    * **[!UICONTROL Update data]**: Update the database with the imported profiles.
 
    ![](assets/import_template_example0.png)
 
@@ -121,9 +121,9 @@ This example shows how to pre-set a workflow that can be reused for importing pr
 
     * In the **[!UICONTROL File to load]** section, select **[!UICONTROL Upload a new file from the local machine]** and leave the field blank. Each time a new workflow is created from this template, you can specify here the file you want, as long at it corresponds to the defined structure.
 
-      You can use any of the options but you have to modify the template accordingly. For example, if you select **[!UICONTROL Use the file specified in the inbound transition]** , you can add a **[!UICONTROL Transfer file]** activity before to retrieve the file to import from a FTP/SFTP server.
+      You can use any of the options but you have to modify the template accordingly. For example, if you select **[!UICONTROL Use the file specified in the inbound transition]**, you can add a **[!UICONTROL Transfer file]** activity before to retrieve the file to import from a FTP/SFTP server.
 
-      If you want users to be able to download a file containing errors that occurred during an import, check the **[!UICONTROL Keep the rejects in a file]** option and specify the **[!UICONTROL File name]** .
+      If you want users to be able to download a file containing errors that occurred during an import, check the **[!UICONTROL Keep the rejects in a file]** option and specify the **[!UICONTROL File name]**.
     
       ![](assets/import_template_example1.png)
 
@@ -150,7 +150,7 @@ This example shows how to pre-set a workflow that can be reused for importing pr
     
       ![](assets/import_template_example3_2.png)
 
-    * All records that are not selected in the first two subsets are selected in the **[!UICONTROL Complement]** .
+    * All records that are not selected in the first two subsets are selected in the **[!UICONTROL Complement]**.
 
 1. Configure the **[!UICONTROL Update data]** activity located after the first outbound transition of the **[!UICONTROL Segmentation]** activity configured previously.
 
@@ -165,7 +165,7 @@ This example shows how to pre-set a workflow that can be reused for importing pr
 
       >[!NOTE]
       >
-      >If you plan on sending direct mails to these profiles, make sure to include a postal address as this information is essential to the direct mail provider. Also make sure that the **[!UICONTROL Address specified]** box in your profiles' information is checked. To update this option from a workflow, simply add an element to the fields to update, and specify **1** as **[!UICONTROL Source]** and select the **[postalAddress/@addrDefined]** field as **[!UICONTROL Destination]** . For more on direct mail and the use of the **[!UICONTROL Address specified]** option, see [this document](../../channels/using/about-direct-mail.md#recommendations).
+      >If you plan on sending direct mails to these profiles, make sure to include a postal address as this information is essential to the direct mail provider. Also make sure that the **[!UICONTROL Address specified]** box in your profiles' information is checked. To update this option from a workflow, simply add an element to the fields to update, and specify **1** as **[!UICONTROL Source]** and select the **[postalAddress/@addrDefined]** field as **[!UICONTROL Destination]**. For more on direct mail and the use of the **[!UICONTROL Address specified]** option, see [this document](../../channels/using/about-direct-mail.md#recommendations).
 
 1. Configure the **[!UICONTROL Deduplication]** activity located after the transition containing unreconciled profiles:
 
@@ -174,7 +174,7 @@ This example shows how to pre-set a workflow that can be reused for importing pr
       ![](assets/import_template_example4.png)
 
     * In this is example, the email field is used to find unique profiles. You can use any field you are sure is filled and part of a unique combination.
-    * Choose a **[!UICONTROL Deduplication method]** . In this case, the application decides automatically which records are kept in case of duplicates.
+    * Choose a **[!UICONTROL Deduplication method]**. In this case, the application decides automatically which records are kept in case of duplicates.
 
    ![](assets/import_template_example7.png)
 
@@ -191,7 +191,7 @@ This example shows how to pre-set a workflow that can be reused for importing pr
 
       >[!NOTE]
       >
-      >If you plan on sending direct mails to these profiles, make sure to include a postal address as this information is essential to the direct mail provider. Also make sure that the **[!UICONTROL Address specified]** box in your profiles' information is checked. To update this option from a workflow, simply add an element to the fields to update, and specify **1** as **[!UICONTROL Source]** and select the **[postalAddress/@addrDefined]** field as **[!UICONTROL Destination]** . For more on direct mail and the use of the **[!UICONTROL Address specified]** option, see [this document](../../channels/using/about-direct-mail.md#recommendations).
+      >If you plan on sending direct mails to these profiles, make sure to include a postal address as this information is essential to the direct mail provider. Also make sure that the **[!UICONTROL Address specified]** box in your profiles' information is checked. To update this option from a workflow, simply add an element to the fields to update, and specify **1** as **[!UICONTROL Source]** and select the **[postalAddress/@addrDefined]** field as **[!UICONTROL Destination]**. For more on direct mail and the use of the **[!UICONTROL Address specified]** option, see [this document](../../channels/using/about-direct-mail.md#recommendations).
 
 1. After the third transition of the **[!UICONTROL Segmentation]** activity, add a **[!UICONTROL Extract file]** activity and a **[!UICONTROL Transfer file]** activity if you want to keep track of data not inserted in the database. Configure those activities to export the column you need and to transfer the file on a FTP or SFTP server where you can retrieve it.
 1. Add an **[!UICONTROL End]** activity and save the workflow template.

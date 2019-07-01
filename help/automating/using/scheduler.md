@@ -11,7 +11,7 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 discoiquuid: 0fb16cea-3941-404f-899c-33f81ced4ed5
-index: y
+context-tags: schedule,main
 internal: n
 snippet: y
 ---
@@ -38,14 +38,14 @@ When building your workflow, only use one **[!UICONTROL Scheduler]** activity pe
 
 1. Drag and drop a **[!UICONTROL Scheduler]** activity into your workflow.
 1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
-1. Specify the **[!UICONTROL Execution frequency]** :
+1. Specify the **[!UICONTROL Execution frequency]**:
 
-    * **[!UICONTROL Once]** : the workflow is executed a single time.
-    * **[!UICONTROL Several times a day]** : the workflow is regularly executed several times a day.
-    * **[!UICONTROL Daily]** : the workflow is executed at a specific time, once a day.
-    * **[!UICONTROL Weekly]** : the workflow is executed at a specified moment, once or several times a week.
-    * **[!UICONTROL Monthly]** : the workflow is executed at a specified moment, once or several times a month.
-    * **[!UICONTROL Yearly]** : the workflow is executed at a specified moment, once or several times a year.
+    * **[!UICONTROL Once]**: the workflow is executed a single time.
+    * **[!UICONTROL Several times a day]**: the workflow is regularly executed several times a day.
+    * **[!UICONTROL Daily]**: the workflow is executed at a specific time, once a day.
+    * **[!UICONTROL Weekly]**: the workflow is executed at a specified moment, once or several times a week.
+    * **[!UICONTROL Monthly]**: the workflow is executed at a specified moment, once or several times a month.
+    * **[!UICONTROL Yearly]**: the workflow is executed at a specified moment, once or several times a year.
 
 1. Define the execution details according to the frequency selected. The detail fields may vary depending on the frequency used (time, repetition frequency, specified days, etc.).
 
@@ -55,9 +55,9 @@ When building your workflow, only use one **[!UICONTROL Scheduler]** activity pe
 
 1. Specify when the execution will expire:
 
-    * **[!UICONTROL Never]** : the workflow will be executed, according to the frequency specified, without any limits to the time frame or number of iterations.
-    * **[!UICONTROL After a certain number of iterations]** : the workflow will be executed according to the frequency specified, up until the limit of **X** is reached. The **[!UICONTROL Number of iterations]** will therefore need to be specified.
-    * **[!UICONTROL On a specific date]** : the workflow will be executed according to the frequency specified, up until a specific date. The execution deadline will therefore need to be specified.
+    * **[!UICONTROL Never]**: the workflow will be executed, according to the frequency specified, without any limits to the time frame or number of iterations.
+    * **[!UICONTROL After a certain number of iterations]**: the workflow will be executed according to the frequency specified, up until the limit of **X** is reached. The **[!UICONTROL Number of iterations]** will therefore need to be specified.
+    * **[!UICONTROL On a specific date]**: the workflow will be executed according to the frequency specified, up until a specific date. The execution deadline will therefore need to be specified.
 
 1. In the **[!UICONTROL Execution options]** tab, set up the time zone for your scheduler in the **[!UICONTROL Time zone]** field. This allows you to start your workflow at a specific time zone, otherwise the workflow will run in server time zone by default.
 

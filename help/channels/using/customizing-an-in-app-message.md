@@ -11,7 +11,7 @@ audience: channels
 content-type: reference
 topic-tags: in-app-messaging
 discoiquuid: c9c3e033-e319-447b-8d87-ff7dd4941876
-index: y
+context-tags: delivery,inAppContent,back
 internal: n
 snippet: y
 ---
@@ -27,7 +27,7 @@ The In-App content editor lets you choose between two In-App message modes:
 
 ![](assets/inapp_customize_1.png)
 
-**Related content:**
+**Related topics:**
 
 * [Sending your In-App message](../../channels/using/preparing-and-sending-an-in-app-message.md#sending-your-in-app-message)
 * [In-App reporting](../../reporting/using/in-app-report.md)
@@ -38,23 +38,23 @@ The In-App content editor lets you choose between two In-App message modes:
 
 The **[!UICONTROL Layout]** drop-down provides you with four different options to choose from depending on your messaging needs:
 
-* **[!UICONTROL Full page]** : This type of layout covers the entire screen of your audience devices.
+* **[!UICONTROL Full page]**: This type of layout covers the entire screen of your audience devices.
 
   It supports media (image, video), text and button components.
 
-* **[!UICONTROL Large modal]** : This layout appears in a large alert-style window, your application is still visible in the background.
+* **[!UICONTROL Large modal]**: This layout appears in a large alert-style window, your application is still visible in the background.
 
   It supports media (image, video), text and button components.
 
-* **[!UICONTROL Small modal]** : This layout appears as a small alert type window, your application is still visible in the background.
+* **[!UICONTROL Small modal]**: This layout appears as a small alert type window, your application is still visible in the background.
 
   It supports media (image, video), text and button components.
 
-* **[!UICONTROL Alert]** : This type of layout appears as a native OS alert message.
+* **[!UICONTROL Alert]**: This type of layout appears as a native OS alert message.
 
   It can only support text and button components.
 
-* **[!UICONTROL Local notification]** : This type of layout appears as a banner message.
+* **[!UICONTROL Local notification]**: This type of layout appears as a banner message.
 
   It can only support sound, text and destination. For more on local notification, refer to [Customizing a local notification message type](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type).
 

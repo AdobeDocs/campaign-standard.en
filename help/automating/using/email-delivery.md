@@ -11,7 +11,7 @@ audience: automating
 content-type: reference
 topic-tags: channel-activities
 discoiquuid: 5f288cf6-f8ff-4ac9-9c1a-8010260554bb
-index: y
+context-tags: delivery,workflow,main
 internal: n
 snippet: y
 ---
@@ -51,8 +51,8 @@ The message preparation is triggered according to the workflow execution paramet
 
 1. Select the email send mode:
 
-    * **[!UICONTROL Email]** : the email is sent a single time. You can specify here whether or not you would like to add an outbound transition to the activity. The different transition types are detailed in step 7 of this procedure.
-    * **[!UICONTROL Recurring email]** : the email is sent several times, according to the frequency defined in a **[!UICONTROL Scheduler]** activity. Select the aggregation period of the sends. This allows you to regroup all the sends that occur during the defined period in one single email that is also called **Recurring execution** and can be accessed from the application's marketing activity list.
+    * **[!UICONTROL Email]**: the email is sent a single time. You can specify here whether or not you would like to add an outbound transition to the activity. The different transition types are detailed in step 7 of this procedure.
+    * **[!UICONTROL Recurring email]**: the email is sent several times, according to the frequency defined in a **[!UICONTROL Scheduler]** activity. Select the aggregation period of the sends. This allows you to regroup all the sends that occur during the defined period in one single email that is also called **Recurring execution** and can be accessed from the application's marketing activity list.
 
       For example, for a recurring birthday email, that is sent daily, you can choose to aggregate the sends per month. This allows you to receive reports on your delivery on a monthly basis although the email is sent every day.
 
@@ -61,8 +61,8 @@ The message preparation is triggered according to the workflow execution paramet
 1. Define the email content. Refer to the section concerning [content editing](../../designing/using/about-email-content-design.md).
 1. By default, the **[!UICONTROL Email delivery]** activity does not include any outbound transitions. If you would like to add an outbound transition to your **[!UICONTROL Email delivery]** activity, go to the **[!UICONTROL General]** tab of the advanced activity options ( ![](assets/dlv_activity_params-24px.png) button in the activity's quick actions) then check one of the following options:
 
-    * **[!UICONTROL Add outbound transition without the population]** : this lets you generate an outbound transition that contains the exact same population as the inbound transition.
-    * **[!UICONTROL Add outbound transition with the population]** : this lets you generate an outbound transition containing the population to whom the email was sent. The members of the target excluded during the delivery preparation (quarantine, invalid email, etc.) are excluded from this transition.
+    * **[!UICONTROL Add outbound transition without the population]**: this lets you generate an outbound transition that contains the exact same population as the inbound transition.
+    * **[!UICONTROL Add outbound transition with the population]**: this lets you generate an outbound transition containing the population to whom the email was sent. The members of the target excluded during the delivery preparation (quarantine, invalid email, etc.) are excluded from this transition.
 
 1. Confirm the configuration of your activity and save your workflow.
 
@@ -80,7 +80,7 @@ The executions of recurring deliveries are masked by default, though. To view th
 
 ![](assets/wkf_display_recurrent_executions.png)
 
-In the parent deliveries, which can be accessed from the marketing activity list or directly via the associated recurring executions, you can view the total number of sends that have been processed (according to the aggregation period specified when the **[!UICONTROL Email delivery]** activity was configured). To do this, open the detail view of the parent delivery's **[!UICONTROL Deployment]** block by selecting ![](assets/wkf_dlv_detail_button.png) .
+In the parent deliveries, which can be accessed from the marketing activity list or directly via the associated recurring executions, you can view the total number of sends that have been processed (according to the aggregation period specified when the **[!UICONTROL Email delivery]** activity was configured). To do this, open the detail view of the parent delivery's **[!UICONTROL Deployment]** block by selecting ![](assets/wkf_dlv_detail_button.png).
 
 ![](assets/wkf_display_recurrent_executions_3.png)
 

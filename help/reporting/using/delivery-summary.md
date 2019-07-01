@@ -11,7 +11,7 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 discoiquuid: 536067df-d16d-472a-850a-5fb7c609d60a
-index: y
+
 internal: n
 snippet: y
 ---
@@ -26,9 +26,9 @@ Each table is represented by summary numbers and charts. You can change how the 
 
 The **Delivery statistics** table contains the data available for sent emails, such as:
 
-* **[!UICONTROL Processed/sent]** : The total number of sends for the delivery.
-* **[!UICONTROL Delivered]** : The number of messages successfully sent, in relation to the total number of sent messages. Errors raised (bounces) are taken into account. However, complaints (spam declarations) and away messages such as "out of office" are not taken into account.
-* **[!UICONTROL Bounces + Errors]** : The number of total errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.
+* **[!UICONTROL Processed/sent]**: The total number of sends for the delivery.
+* **[!UICONTROL Delivered]**: The number of messages successfully sent, in relation to the total number of sent messages. Errors raised (bounces) are taken into account. However, complaints (spam declarations) and away messages such as "out of office" are not taken into account.
+* **[!UICONTROL Bounces + Errors]**: The number of total errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.
 
 The **Open and clicks** table, contains the available data for recipient activity for each delivery, such as:
 

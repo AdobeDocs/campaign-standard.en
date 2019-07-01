@@ -11,7 +11,7 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 discoiquuid: 4f22ee35-1d5f-4c75-95b4-3e38b85de26e
-index: y
+context-tags: cusResource,main
 internal: n
 snippet: y
 ---
@@ -53,7 +53,7 @@ You can add new fields to a resource to store data that are not part of the out 
 
 1. Check the **[!UICONTROL Specify a list of authorized values]** option if you need to define values that will be offered to the user (enumeration values).
 
-   Then, click **[!UICONTROL Create element]** and specify a **[!UICONTROL Label]** and **[!UICONTROL Value]** . Add as many values as needed.
+   Then, click **[!UICONTROL Create element]** and specify a **[!UICONTROL Label]** and **[!UICONTROL Value]**. Add as many values as needed.
 
 1. Once you have added your fields, check the **[!UICONTROL Add audit fields]** box to include fields detailing the creation date, the user that created the resource, the date, and the author of the last modification.
 1. Check the **[!UICONTROL Add access authorization management fields]** box to include the fields stating who has access rights to that particular resource.
@@ -102,7 +102,7 @@ Defining indexes is recommended but not mandatory.
 
    ![](assets/schema_extension_27.png)
 
-1. Click **[!UICONTROL Confirm]** .
+1. Click **[!UICONTROL Confirm]**.
 
 The indexes that were created appear in the list in the **[!UICONTROL Index]** section.
 
@@ -111,13 +111,13 @@ The indexes that were created appear in the list in the **[!UICONTROL Index]** s
 A link details the association that one table has with other tables.
 
 1. Use the **[!UICONTROL Create element]** button to create a link to a target resource.
-1. Click **[!UICONTROL Select a target resource]** .
+1. Click **[!UICONTROL Select a target resource]**.
 
    ![](assets/schema_extension_28.png)
 
 1. Resources are shown in alphabetical order and can be filtered by name. Their technical name is displayed in brackets.
 
-   Select an element from the list and click **[!UICONTROL Confirm]** .
+   Select an element from the list and click **[!UICONTROL Confirm]**.
 
    ![](assets/schema_extension_9.png)
 
@@ -125,9 +125,9 @@ A link details the association that one table has with other tables.
 
    The various link types are as follows:
 
-    * **[!UICONTROL 1 cardinality simple link]** : one occurrence of the source table can have at most one corresponding occurrence of the target table.
-    * **[!UICONTROL N cardinality collection link]** : one occurrence of the source table can have several corresponding occurrences of the target table, but one occurrence of the target table can have at most one corresponding occurrence of the source table.
-    * **[!UICONTROL 0 or 1 cardinality simple link]** : one occurrence of the source table can have at most one corresponding occurrence of the target table or none. Note that this kind of **[!UICONTROL Link type]** can cause performance issue.
+    * **[!UICONTROL 1 cardinality simple link]**: one occurrence of the source table can have at most one corresponding occurrence of the target table.
+    * **[!UICONTROL N cardinality collection link]**: one occurrence of the source table can have several corresponding occurrences of the target table, but one occurrence of the target table can have at most one corresponding occurrence of the source table.
+    * **[!UICONTROL 0 or 1 cardinality simple link]**: one occurrence of the source table can have at most one corresponding occurrence of the target table or none. Note that this kind of **[!UICONTROL Link type]** can cause performance issue.
 
    ![](assets/schema_extension_29.png)
 
@@ -147,8 +147,8 @@ A link details the association that one table has with other tables.
 
 1. In the **[!UICONTROL Join definition]** section, the default **[!UICONTROL Use the primary keys to make the join]** option is selected but you can choose between two options:
 
-    * **[!UICONTROL Use the primary key to make the join]** : This join definition allows you to use the profiles primary key to reconcile with the purchases' primary key.
-    * **[!UICONTROL Define specific join conditions]** : This join definition allows you to manually select the fields that will join both resources. Please note that if data are not correctly configured, the **Purchase** record will not be visible.
+    * **[!UICONTROL Use the primary key to make the join]**: This join definition allows you to use the profiles primary key to reconcile with the purchases' primary key.
+    * **[!UICONTROL Define specific join conditions]**: This join definition allows you to manually select the fields that will join both resources. Please note that if data are not correctly configured, the **Purchase** record will not be visible.
 
    ![](assets/schema_extension_17.png)
 
@@ -159,13 +159,13 @@ The links created are displayed in the list in the **[!UICONTROL Links]** sectio
 In this example, we want to link a new resource **Purchase** with the **Profiles **custom resource:
 
 1. Create your new **Purchase** resource.
-1. To link it with the **Profiles** custom resource, unfold the **[!UICONTROL Links]** section in the **[!UICONTROL Data structure]** tab and click **[!UICONTROL Create element]** .
-1. Select the target resource, here **[!UICONTROL Profiles (profile)]** .
+1. To link it with the **Profiles** custom resource, unfold the **[!UICONTROL Links]** section in the **[!UICONTROL Data structure]** tab and click **[!UICONTROL Create element]**.
+1. Select the target resource, here **[!UICONTROL Profiles (profile)]**.
 1. In this example, keep the default **[!UICONTROL 1 cardinality simple link]** Link type selected.
 
    ![](assets/custom_resource_link_to_profile_2.png)
 
-1. Choose a join definition, here keep the default **[!UICONTROL Use the primary key to make the join]** .
+1. Choose a join definition, here keep the default **[!UICONTROL Use the primary key to make the join]**.
 
    ![](assets/custom_resource_link_to_profile_3.png)
 
@@ -173,14 +173,14 @@ In this example, we want to link a new resource **Purchase** with the **Profiles
 
    Unfold the **[!UICONTROL Detail screen configuration]** section and check the **[!UICONTROL Define a detail screen]** to configure the screen that corresponds to each element of the resource. If you do not check this box, the detail view of elements of this resource will not be accessible.
 
-1. Click **[!UICONTROL Create element]** .
-1. Select your linked resource and click **[!UICONTROL Add]** .
+1. Click **[!UICONTROL Create element]**.
+1. Select your linked resource and click **[!UICONTROL Add]**.
 
-   Your new resource will then be available in the advanced menu by selecting **[!UICONTROL Client data]** > **[!UICONTROL Purchase]** .
+   Your new resource will then be available in the advanced menu by selecting **[!UICONTROL Client data]** > **[!UICONTROL Purchase]**.
 
    ![](assets/custom_resource_link_to_profile_4.png)
 
-1. Once your configuration is done, click **[!UICONTROL Confirm]** .
+1. Once your configuration is done, click **[!UICONTROL Confirm]**.
 
    You can now publish your new resource.
 
@@ -201,7 +201,7 @@ The user can extend the logs with the segment code coming from the workflow engi
 
 The segment code must be defined into the workflow.
 
-To activate this extension, check the option **[!UICONTROL Add segment code]** .
+To activate this extension, check the option **[!UICONTROL Add segment code]**.
 
 ![](assets/sendinglogsextension_1.png)
 

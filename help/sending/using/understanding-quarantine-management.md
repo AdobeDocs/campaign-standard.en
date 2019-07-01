@@ -11,7 +11,7 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 discoiquuid: de3a50b6-ea8f-4521-996b-c49cc1f3c946
-index: y
+
 internal: n
 snippet: y
 ---

@@ -11,7 +11,7 @@ audience: reporting
 content-type: reference
 topic-tags: about-reporting
 discoiquuid: 14d86b4f-2782-48ec-8968-393a6de4f853
-index: y
+
 internal: n
 snippet: y
 ---
@@ -55,9 +55,9 @@ The left tabs let you build your report and filter your data as needed.
 
 These tabs give you access to the following items:
 
-* **[!UICONTROL Panels]** : add a blank panel or freeform to your report to start filtering your data. For more on this, refer to the Adding panels section
-* **[!UICONTROL Visualizations]** : drag and drop a selection of visualization items to give your report a graphical dimension. For more on this, refer to the Adding visualizations section.
-* **[!UICONTROL Components]** : customize your reports with different dimensions, metrics, segments and time periods.
+* **[!UICONTROL Panels]**: add a blank panel or freeform to your report to start filtering your data. For more on this, refer to the Adding panels section
+* **[!UICONTROL Visualizations]**: drag and drop a selection of visualization items to give your report a graphical dimension. For more on this, refer to the Adding visualizations section.
+* **[!UICONTROL Components]**: customize your reports with different dimensions, metrics, segments and time periods.
 
 ## Toolbar {#toolbar}
 
@@ -81,7 +81,7 @@ Use the **Project** tab to:
 * **Save As...**: Duplicates templates to be able to modify them.
 * **Refresh project**: Updates your report based upon new data and changes to filters.
 * **Download CSV**: Exports your reports to a CSV file.
-* **[!UICONTROL Print]** : Print your report.
+* **[!UICONTROL Print]**: Print your report.
 
 ### Edit tab {#edit-tab}
 
@@ -109,7 +109,7 @@ The **Insert** tab lets you customize your reports by adding graphs and tables t
 
 The **[!UICONTROL Share]** tab allows you to send your reports with Adobe Campaign users through one-shot or recurrent emails. The targeted users will then receive an email with your report attached.
 
-* **[!UICONTROL Send report now]** : Send your report to a list of chosen recipients through a one-shot email.
+* **[!UICONTROL Send report now]**: Send your report to a list of chosen recipients through a one-shot email.
 
     1. In the **[!UICONTROL Send report]** window, add a description if needed.
     
@@ -117,9 +117,9 @@ The **[!UICONTROL Share]** tab allows you to send your reports with Adobe Campai
 
     1. Select the recipients to your email by clicking the field and selecting them in the drop-down or by typing their email addresses.
     1. Check **[!UICONTROL Show scheduling options]** if you want to send recurring emails. This can also be done by selecting **[!UICONTROL Send Report on schedule]** in the **[!UICONTROL Share]** tab.
-    1. Click **[!UICONTROL Send now]** . Your recipients will then receive an email with your report attached.
+    1. Click **[!UICONTROL Send now]**. Your recipients will then receive an email with your report attached.
 
-* **[!UICONTROL Send report on schedule]** : Schedule your report and send recurring emails to your recipients.
+* **[!UICONTROL Send report on schedule]**: Schedule your report and send recurring emails to your recipients.
 
     1. In the **[!UICONTROL Send report]** window, add a description if needed.
     1. Select the recipients to your email by clicking the field and selecting them in the drop-down or by typing their email addresses.
@@ -131,15 +131,15 @@ The **[!UICONTROL Share]** tab allows you to send your reports with Adobe Campai
     
        ![](assets/tab_share_2.png)
 
-    1. Click **[!UICONTROL Send on schedule]** , your recipients will receive your recurring email depending on the chosen frequency.
+    1. Click **[!UICONTROL Send on schedule]**, your recipients will receive your recurring email depending on the chosen frequency.
 
-* **[!UICONTROL Scheduled reports]** : Find and configure all your scheduled report.
+* **[!UICONTROL Scheduled reports]**: Find and configure all your scheduled report.
 
     1. In the **[!UICONTROL Scheduled reports]** window, find all your recurring sent reports. 
     
        ![](assets/tab_share_3.png)
 
-    1. If you need to delete one of your scheduled report, select the scheduled report you want to delete then click **[!UICONTROL Delete the section]** . 
+    1. If you need to delete one of your scheduled report, select the scheduled report you want to delete then click **[!UICONTROL Delete the section]**. 
     1. To configure or check your scheduled reports, click directly on the report you need to change.
     1. The **[!UICONTROL Edit scheduled report]** window appears, you can now change the recipients or frequency of your email if needed.
 

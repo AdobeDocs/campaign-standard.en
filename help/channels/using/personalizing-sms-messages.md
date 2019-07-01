@@ -11,7 +11,7 @@ audience: channels
 content-type: reference
 topic-tags: sms-messages
 discoiquuid: 7c64785c-e3c2-4caa-a547-002990aae3f9
-index: y
+delivercontext-tags: deliveryCreation,wizard;delivery,smsContent,back;delivery,smsContent,back
 internal: n
 snippet: y
 ---

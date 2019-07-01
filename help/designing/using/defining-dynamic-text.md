@@ -11,7 +11,7 @@ audience: designing
 content-type: reference
 topic-tags: defining-conditional-content
 discoiquuid: 6bb6cee3-5674-4113-8073-5a9572b3e830
-index: y
+
 internal: n
 snippet: y
 ---
@@ -27,7 +27,7 @@ Dynamic text is defined in the same way as dynamic content. Refer to the [Defini
 The example below shows how to define dynamic text in an SMS message.
 
 1. Select text in the body of your message or landing page.
-1. Click **[!UICONTROL Enable dynamic text]** .
+1. Click **[!UICONTROL Enable dynamic text]**.
 
    ![](assets/dynamic_text_sms_1.png)
 

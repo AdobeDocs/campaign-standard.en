@@ -11,7 +11,7 @@ audience: reporting
 content-type: reference
 topic-tags: customizing-reports
 discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
-index: y
+
 internal: n
 snippet: y
 ---
@@ -45,7 +45,7 @@ To do so:
 
    ![](assets/custom_profile_2.png)
 
-1. Enter the **[!UICONTROL Label]** , **[!UICONTROL ID]** and select the custom resource **[!UICONTROL Type]** . Here, we selected **[!UICONTROL Text]** since recipients will have the choice between gold, silver and bronze.
+1. Enter the **[!UICONTROL Label]**, **[!UICONTROL ID]** and select the custom resource **[!UICONTROL Type]**. Here, we selected **[!UICONTROL Text]** since recipients will have the choice between gold, silver and bronze.
 
    ![](assets/custom_profile_3.png)
 
@@ -53,11 +53,11 @@ To do so:
 
    ![](assets/custom_profile_12.png)
 
-1. Here, we need to specify the authorized values by checking **[!UICONTROL Specify a list of authorized valued]** and create each value by clicking **[!UICONTROL Create element]** .
+1. Here, we need to specify the authorized values by checking **[!UICONTROL Specify a list of authorized valued]** and create each value by clicking **[!UICONTROL Create element]**.
 
    ![](assets/custom_profile_13.png)
 
-1. Enter the **[!UICONTROL Label]** and **[!UICONTROL Value]** then click **[!UICONTROL Add]** . For this example, we need to create the value gold, silver and bronze. Click **[!UICONTROL Confirm]** when done.
+1. Enter the **[!UICONTROL Label]** and **[!UICONTROL Value]** then click **[!UICONTROL Add]**. For this example, we need to create the value gold, silver and bronze. Click **[!UICONTROL Confirm]** when done.
 
    ![](assets/custom_profile_14.png)
 
@@ -65,11 +65,11 @@ To do so:
 
    ![](assets/custom_profile_4.png)
 
-1. Click the **[!UICONTROL Add an element]** button to create your new section. Select the **[!UICONTROL Type]** : **[!UICONTROL Input field]** , **[!UICONTROL Value]** or **[!UICONTROL List]** , then the field to add in this new section.
+1. Click the **[!UICONTROL Add an element]** button to create your new section. Select the **[!UICONTROL Type]**: **[!UICONTROL Input field]**, **[!UICONTROL Value]** or **[!UICONTROL List]**, then the field to add in this new section.
 
    ![](assets/custom_profile_5.png)
 
-1. You can also add a title to your section in the field **[!UICONTROL Customize the title of the section where the fields will be displayed]** .
+1. You can also add a title to your section in the field **[!UICONTROL Customize the title of the section where the fields will be displayed]**.
 
    Click **[!UICONTROL Save]** when the configuration is done.
 
@@ -100,7 +100,7 @@ Before extending the log with our profile field, make sure that the PII window w
 
    ![](assets/custom_profile_9.png)
 
-1. Select your previously created field and click **[!UICONTROL Confirm]** .
+1. Select your previously created field and click **[!UICONTROL Confirm]**.
 1. Check **[!UICONTROL Add this field in Dynamic reporting as a new dimension]** to create your custom profile dimension.
 
    ![](assets/custom_profile_10.png)
@@ -124,21 +124,21 @@ Now that your field has been created and that sending logs have been extended wi
 
 Once your profile field is published, you can start your delivery. In this example, we want to target every recipient enrolled in the loyalty program.
 
-1. From the **[!UICONTROL Marketing activities]** tab, click **[!UICONTROL Create]** then select **[!UICONTROL Email]** .
+1. From the **[!UICONTROL Marketing activities]** tab, click **[!UICONTROL Create]** then select **[!UICONTROL Email]**.
 1. Choose an **[!UICONTROL Email type]** then enter your email's properties.
 1. To target recipient enrolled in the loyalty program, drag and drop the **[!UICONTROL Profiles (attributes)]** activity.
 1. Select your previously created field from the **[!UICONTROL Field]** drop-down.
 
    ![](assets/custom_profile_16.png)
 
-1. Select your **[!UICONTROL Filter conditions]** . Here, we want to target recipients who are part of one of the three loyalty program's levels.
+1. Select your **[!UICONTROL Filter conditions]**. Here, we want to target recipients who are part of one of the three loyalty program's levels.
 
    ![](assets/custom_profile_17.png)
 
-1. Click **[!UICONTROL Confirm]** then when done filtering, click **[!UICONTROL Next]** .
+1. Click **[!UICONTROL Confirm]** then when done filtering, click **[!UICONTROL Next]**.
 1. Define and personalize the message content, sender name and subject. For more information on email creation refer to this [page](../../designing/using/about-email-content-design.md#about-the-email-designer).
 
-   Then, click **[!UICONTROL Create]** .
+   Then, click **[!UICONTROL Create]**.
 
 1. When ready, you can preview and send your message. For more information on how to prepare and send your message, refer to this [page](../../sending/using/preparing-the-send.md).
 

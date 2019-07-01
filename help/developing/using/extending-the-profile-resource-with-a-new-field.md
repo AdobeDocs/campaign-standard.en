@@ -11,7 +11,7 @@ audience: developing
 content-type: reference
 topic-tags: use-cases--extending-resources
 discoiquuid: 1e0f8945-fc3c-46a9-a8e5-b181a1f5ffcb
-index: y
+
 internal: n
 snippet: y
 ---
@@ -45,43 +45,43 @@ Related topics:
 
 To create the new **Interest** field for our profiles, you first need to extend the out-of-the-box **[!UICONTROL Profiles (profile)]** resource.
 
-1. From the advanced menu, via the Adobe Campaign logo, select **[!UICONTROL Administration]** > **[!UICONTROL Development]** , then **[!UICONTROL Custom resources]** .
-1. If you have not extended the **[!UICONTROL Profiles]** resource yet, click **[!UICONTROL Create]** .
+1. From the advanced menu, via the Adobe Campaign logo, select **[!UICONTROL Administration]** > **[!UICONTROL Development]**, then **[!UICONTROL Custom resources]**.
+1. If you have not extended the **[!UICONTROL Profiles]** resource yet, click **[!UICONTROL Create]**.
 1. Choose the **[!UICONTROL Extend an existing resource]** option.
 1. Select the **[!UICONTROL Profile (profile)]** resource.
-1. Click **[!UICONTROL Create]** .
+1. Click **[!UICONTROL Create]**.
 
    ![](assets/schema_extension_uc5.png)
 
-1. In the **[!UICONTROL Fields]** category of the **[!UICONTROL Data structure]** tab, click **[!UICONTROL Create element]** .
+1. In the **[!UICONTROL Fields]** category of the **[!UICONTROL Data structure]** tab, click **[!UICONTROL Create element]**.
 
    >[!NOTE]
    >
-   >Note that if you already extended the **[!UICONTROL Profile]** resource for previous purposes, you can start at this step by clicking **[!UICONTROL Add field]** .
+   >Note that if you already extended the **[!UICONTROL Profile]** resource for previous purposes, you can start at this step by clicking **[!UICONTROL Add field]**.
 
    ![](assets/schema_extension_uc6.png)
 
-1. Add a **[!UICONTROL Label]** and an **[!UICONTROL ID]** . Select the **[!UICONTROL Text]** type and click **[!UICONTROL Add]** .
+1. Add a **[!UICONTROL Label]** and an **[!UICONTROL ID]**. Select the **[!UICONTROL Text]** type and click **[!UICONTROL Add]**.
 
    ![](assets/schema_extension_uc9.png)
 
 1. To configure your field, in the **[!UICONTROL Data structure]** tab under the **[!UICONTROL Fields]** drop-down, click ![](assets/schema_extension_uc8.png) then ![](assets/schema_extension_uc7.png) from your previously created field.
-1. In this example we want to add specific values, to do so click **[!UICONTROL Specify a list of authorized values]** .
+1. In this example we want to add specific values, to do so click **[!UICONTROL Specify a list of authorized values]**.
 
    ![](assets/schema_extension_uc10.png)
 
-1. Click **[!UICONTROL Add an element]** then add as many value as needed by adding a **[!UICONTROL Label]** and an **[!UICONTROL ID]** and clicking **[!UICONTROL Add]** .
+1. Click **[!UICONTROL Add an element]** then add as many value as needed by adding a **[!UICONTROL Label]** and an **[!UICONTROL ID]** and clicking **[!UICONTROL Add]**.
 
    Here, we will create the Books, Exhibitions, Movies and N/A values for profiles to choose between these options.
 
    ![](assets/schema_extension_uc11.png)
 
 1. To add this field in the **[!UICONTROL Profile]** screen, click the **[!UICONTROL Screen definition]** tab.
-1. In the **[!UICONTROL Detail screen configuration]** drop-down, click **[!UICONTROL Add a personalized fields section]** and click **[!UICONTROL Create element]** .
+1. In the **[!UICONTROL Detail screen configuration]** drop-down, click **[!UICONTROL Add a personalized fields section]** and click **[!UICONTROL Create element]**.
 
    ![](assets/schema_extension_uc12.png)
 
-1. Select a **[!UICONTROL Type]** . Here we want to add an input field. Then, select your previously created field and click **[!UICONTROL Add]** .
+1. Select a **[!UICONTROL Type]**. Here we want to add an input field. Then, select your previously created field and click **[!UICONTROL Add]**.
 
    ![](assets/schema_extension_uc2.png)
 
@@ -99,24 +99,24 @@ Your field is now configured. We now need to extend it to the test profile.
 
 To test if the new created field is correctly configured, you can test it by sending your delivery to your test profiles. First, the new field also needs to be carried out to the test profiles.
 
-1. From the advanced menu, via the Adobe Campaign logo, select **[!UICONTROL Administration]** > **[!UICONTROL Development]** , then **[!UICONTROL Custom resources]** .
-1. If you have not extended the **[!UICONTROL Profiles]** resource yet, click **[!UICONTROL Create]** .
+1. From the advanced menu, via the Adobe Campaign logo, select **[!UICONTROL Administration]** > **[!UICONTROL Development]**, then **[!UICONTROL Custom resources]**.
+1. If you have not extended the **[!UICONTROL Profiles]** resource yet, click **[!UICONTROL Create]**.
 1. Choose the **[!UICONTROL Extend an existing resource]** option.
 1. Select the **[!UICONTROL Test profile (seedMember)]** resource.
-1. Click **[!UICONTROL Create]** .
+1. Click **[!UICONTROL Create]**.
 
    ![](assets/schema_extension_uc13.png)
 
-1. In the **[!UICONTROL Data structure]** tab, click **[!UICONTROL Create element]** .
+1. In the **[!UICONTROL Data structure]** tab, click **[!UICONTROL Create element]**.
 
    ![](assets/schema_extension_uc15.png)
 
-1. Select your previously created resource field and click **[!UICONTROL Add]** .
+1. Select your previously created resource field and click **[!UICONTROL Add]**.
 
    ![](assets/schema_extension_uc16.png)
 
 1. Carry out the same steps from step 11 to 13 as the extend profile walkthrough above to add this field in the **[!UICONTROL Test profile]** screen.
-1. Click **[!UICONTROL Save]** .
+1. Click **[!UICONTROL Save]**.
 
 Both profiles and test profiles will now have your new field available. For it to be correctly configured, you need to publish your custom resource.
 
@@ -152,9 +152,9 @@ Here, we want to target in a workflow profiles that didn't fill this field. They
 
 First, we need to create a landing page that will update the **Interest** fields of the targeted profiles:
 
-1. From the **[!UICONTROL Marketing activities]** , click **[!UICONTROL Create]** then select **[!UICONTROL Landing page]** .
-1. Select a landing page type. Here, since we want to update our profiles, select **[!UICONTROL Profile acquisition]** .
-1. Click **[!UICONTROL Create]** .
+1. From the **[!UICONTROL Marketing activities]**, click **[!UICONTROL Create]** then select **[!UICONTROL Landing page]**.
+1. Select a landing page type. Here, since we want to update our profiles, select **[!UICONTROL Profile acquisition]**.
+1. Click **[!UICONTROL Create]**.
 1. Click the **[!UICONTROL Content]** block to start editing the content of your landing page.
 
    ![](assets/schema_extension_uc21.png)
@@ -169,9 +169,9 @@ First, we need to create a landing page that will update the **Interest** fields
 
 Your landing page is now ready. To update the profiles, you can create a workflow that will then send a special offer depending on the chosen Interest.
 
-1. From the **[!UICONTROL Marketing activities]** tab, click **[!UICONTROL Create]** then select **[!UICONTROL Workflow]** .
+1. From the **[!UICONTROL Marketing activities]** tab, click **[!UICONTROL Create]** then select **[!UICONTROL Workflow]**.
 1. Drag and drop a **[!UICONTROL Query]** activity to target the profiles or audiences you need.
-1. Drag and drop an **[!UICONTROL Email delivery]** activity to start configuring your email which will contain a link to the landing page. Select the **[!UICONTROL Add an outbound transition with the population]** .
+1. Drag and drop an **[!UICONTROL Email delivery]** activity to start configuring your email which will contain a link to the landing page. Select the **[!UICONTROL Add an outbound transition with the population]**.
 
    ![](assets/schema_extension_uc3.png)
 
@@ -185,7 +185,7 @@ Your landing page is now ready. To update the profiles, you can create a workflo
 
    ![](assets/schema_extension_uc24.png)
 
-1. Click **[!UICONTROL Save]** . Your email is now ready, you can come back to your workflow.
+1. Click **[!UICONTROL Save]**. Your email is now ready, you can come back to your workflow.
 1. Add a **[!UICONTROL Wait]** activity to let some time for your profiles to fill the landing page.
 1. Add a **[!UICONTROL Segmentation]** activity to split the outbound transition depending on their **Interests**.
 1. Create an outbound segment for each **Interest**.

@@ -11,7 +11,7 @@ audience: designing
 content-type: reference
 topic-tags: using-images
 discoiquuid: 4b2cea83-2c18-4a3b-8095-836b8fb01c1d
-index: y
+
 internal: n
 snippet: y
 ---
@@ -34,7 +34,7 @@ Adobe Campaign allows you to personalize one or several images in your message a
 
    >[!NOTE]
    >
-   >The domain name (http://mydomain.com) cannot be personalized, it has to be entered manually. The rest of the URL can be personalized. For example: http://mydomain.com/[Gender].jpg
+   >The domain name (http://mydomain.com) cannot be personalized, it has to be entered manually. The rest of the URL can be personalized. For example: http://mydomain.com/`[Gender]`.jpg
 
 1. Confirm your changes.
 

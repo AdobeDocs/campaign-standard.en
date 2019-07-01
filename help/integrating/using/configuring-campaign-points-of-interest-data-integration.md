@@ -11,7 +11,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
 discoiquuid: a967c6cc-c53b-41b4-866b-90860d78f463
-index: y
+
 internal: n
 snippet: y
 ---
@@ -38,13 +38,13 @@ To use the Point of Interest data feature, you need to:
 
 To be able to collect Points of interest data with Adobe Campaign, you must configure the mobile application which Adobe Campaign will be receiving data from.
 
-1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app]** .
+1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app]**.
 1. Click **[!UICONTROL Create]** to set up an application.
-1. Enter a name in the **[!UICONTROL Application name]** field and click **[!UICONTROL Create]** .
+1. Enter a name in the **[!UICONTROL Application name]** field and click **[!UICONTROL Create]**.
 
    Do not fill in the **[!UICONTROL Device-specific settings]** section. This only applies to configuring applications that receive push notifications.
 
-In the **[!UICONTROL Mobile application properties]** section, two URLs are listed: **[!UICONTROL Collect PII endpoint]** and **[!UICONTROL Location Services endpoint]** . They will be used in the Adobe Mobile Services interface. See [Configuring a mobile app in Adobe Mobile Services](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#configuring-a-mobile-app-in-adobe-mobile-services).
+In the **[!UICONTROL Mobile application properties]** section, two URLs are listed: **[!UICONTROL Collect PII endpoint]** and **[!UICONTROL Location Services endpoint]**. They will be used in the Adobe Mobile Services interface. See [Configuring a mobile app in Adobe Mobile Services](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#configuring-a-mobile-app-in-adobe-mobile-services).
 
 * The **[!UICONTROL Collect PII endpoint]** URL is used to collect the users' Experience Cloud IDs and registration tokens from the mobile application when it is launched. When a user logs into the application using credentials such as email, first name, last name etc., this data is also collected and used to reconcile the user's registration token with an Adobe Campaign profile.
 * The **[!UICONTROL Location Services endpoint]** URL is used to collect location data such as a user's latitude, longitude and radius from a Point of Interest.
@@ -74,10 +74,10 @@ You must have access to Adobe Analytics to do the following configuration. If yo
    >
    >This organization must be the same as the one you use on the Adobe Campaign instance.
 
-1. Click **[!UICONTROL Manage Postbacks]** .
+1. Click **[!UICONTROL Manage Postbacks]**.
 1. Create a postback.
 
-    * Select **[!UICONTROL PII]** as the **[!UICONTROL Postback Type]** .
+    * Select **[!UICONTROL PII]** as the **[!UICONTROL Postback Type]**.
     * In the **[!UICONTROL URL]** field, copy the **[!UICONTROL Collect PII Endpoint]** URL from the mobile application that you configured in the Adobe Campaign interface, preceded by the server name. See [Setting up a mobile app in Campaign](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#setting-up-a-mobile-app-in-campaign).
     * Fill in the **[!UICONTROL Post Body]** field as follows:
 
@@ -109,13 +109,13 @@ You must have access to Adobe Analytics to do the following configuration. If yo
       
       ```
 
-    * Set **Content Type** as **[!UICONTROL application/json]** .
-    * In the **Which Data Tags Trigger the Postback?**, select any event, typically **[!UICONTROL Launched]** and **[!UICONTROL exists]** .
-    * Click **[!UICONTROL Save & Activate]** .
+    * Set **Content Type** as **[!UICONTROL application/json]**.
+    * In the **Which Data Tags Trigger the Postback?**, select any event, typically **[!UICONTROL Launched]** and **[!UICONTROL exists]**.
+    * Click **[!UICONTROL Save & Activate]**.
 
 1. Create a second postback.
 
-    * Select **[!UICONTROL Postback]** as the **[!UICONTROL Postback Type]** .
+    * Select **[!UICONTROL Postback]** as the **[!UICONTROL Postback Type]**.
     * In the **[!UICONTROL URL]** field, copy the **[!UICONTROL Location Services Endpoint]** URL from the mobile application that you configured in the Adobe Campaign interface, preceded by the server name. See [Setting up a mobile app in Campaign](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#setting-up-a-mobile-app-in-campaign).
     * Fill in the **[!UICONTROL Post Body]** field as follows:
 
@@ -138,9 +138,9 @@ You must have access to Adobe Analytics to do the following configuration. If yo
       
       ```
 
-    * Set **Content Type** as **[!UICONTROL application/json]** .
-    * In the **Which Data Tags Trigger the Postback?**, select **[!UICONTROL campaign.test]** and **[!UICONTROL exists]** .
-    * Click **[!UICONTROL Save & Activate]** .
+    * Set **Content Type** as **[!UICONTROL application/json]**.
+    * In the **Which Data Tags Trigger the Postback?**, select **[!UICONTROL campaign.test]** and **[!UICONTROL exists]**.
+    * Click **[!UICONTROL Save & Activate]**.
 
 >[!NOTE]
 >
@@ -176,7 +176,7 @@ This step is described in the [Configuring a mobile application using SDK V4](ht
 To access the successfully created applications in Adobe Campaign:
 
 1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner.
-1. Select **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app]** .
+1. Select **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app]**.
 1. Select a mobile application from the list to display its properties.
 
    ![](assets/poi_mobile_app_subscribers.png)
@@ -194,7 +194,5 @@ Once the setup is done, the collected Points of Interest data is listed in the *
    ![](assets/poi_profile_places.png)
 
 The collected Points of Interest data for the current profile are listed. Location data are stored in the Adobe Campaign database for six months.
-
-**Related topics:**
 
 For more information on accessing and editing profiles, see [Profiles](../../audiences/using/about-profiles.md).

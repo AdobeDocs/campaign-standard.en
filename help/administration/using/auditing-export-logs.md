@@ -11,14 +11,14 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 discoiquuid: 1033d0ce-a400-47ad-afda-bcf7419c94c7
-index: y
+
 internal: n
 snippet: y
 ---
 
 # Auditing export logs{#auditing-export-logs}
 
-From **[!UICONTROL Administration]** > **[!UICONTROL Users & Security]** > **[!UICONTROL Export audits]** , administrators can view a list of all the following exports, including their date and the user who performed the export:
+From **[!UICONTROL Administration]** > **[!UICONTROL Users & Security]** > **[!UICONTROL Export audits]**, administrators can view a list of all the following exports, including their date and the user who performed the export:
 
 * File upload from a **[!UICONTROL Transfer file]** activity in a workflow.
 * List export from a list or a sub-list.

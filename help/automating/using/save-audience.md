@@ -11,7 +11,7 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 1f6bb048-7abd-499b-a4b0-187f9492dc47
-index: y
+context-tags: saveAudience,main
 internal: n
 snippet: y
 ---
@@ -41,23 +41,23 @@ The **[!UICONTROL Save audience]** activity is essentially used to keep populati
 1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
 1. Select the action that you would like to carry out:
 
-    * **[!UICONTROL Update an existing audience]** : Select an existing audience and choose the type of update:
+    * **[!UICONTROL Update an existing audience]**: Select an existing audience and choose the type of update:
 
-        * **[!UICONTROL Replace audience content with new data]** : The whole of the audience content is replaced. The old data is lost. Only the data from the inbound transition of the save audience activity is kept.
-        * **[!UICONTROL Complete audience with new data]** : The old audience data is kept and the data from the save audience activity's inbound transition is added to it.
+        * **[!UICONTROL Replace audience content with new data]**: The whole of the audience content is replaced. The old data is lost. Only the data from the inbound transition of the save audience activity is kept.
+        * **[!UICONTROL Complete audience with new data]**: The old audience data is kept and the data from the save audience activity's inbound transition is added to it.
 
-    * **[!UICONTROL Create then update an audience]** : Enter the name of the audience and select the update type. If the audience does not already exist, then it is created. If it already exists, it is updated according the mode selected:
+    * **[!UICONTROL Create then update an audience]**: Enter the name of the audience and select the update type. If the audience does not already exist, then it is created. If it already exists, it is updated according the mode selected:
 
-        * **[!UICONTROL Replace audience content with new data]** : The whole of the audience content is replaced. The old data is lost. Only the data from the inbound transition of the save audience activity is kept.
+        * **[!UICONTROL Replace audience content with new data]**: The whole of the audience content is replaced. The old data is lost. Only the data from the inbound transition of the save audience activity is kept.
 
           Warning, this option erases the audience type and the targeting dimension of the updated audience.
         
-        * **[!UICONTROL Complete audience with new data]** : The old audience data is kept and the data from the save audience activity's inbound transition is added to it.
+        * **[!UICONTROL Complete audience with new data]**: The old audience data is kept and the data from the save audience activity's inbound transition is added to it.
 
           Warning, this option causes an error if the audience type or the targeting dimension of the audience updated are not compatible with the current configuration of the workflow. For example, you cannot complete a file type audience with profiles that come from a query.
 
-    * **[!UICONTROL Create a new audience]** : Enter the name of the audience to create. The time and date the audience is created will automatically be added to the audience name. This makes the audience unique every time the workflow is executed.
-    * **[!UICONTROL Share in Adobe Experience Cloud]** : If you have targeted profiles and you would like to export your audience to Adobe Experience Cloud, select this option, then select an existing shared audience or create a new audience.
+    * **[!UICONTROL Create a new audience]**: Enter the name of the audience to create. The time and date the audience is created will automatically be added to the audience name. This makes the audience unique every time the workflow is executed.
+    * **[!UICONTROL Share in Adobe Experience Cloud]**: If you have targeted profiles and you would like to export your audience to Adobe Experience Cloud, select this option, then select an existing shared audience or create a new audience.
 
       Also select a **[!UICONTROL Shared Data source]** that corresponds to the resource of the data contained in the audience so that the data is correctly reconciled in Adobe Experience Cloud.
 
@@ -81,7 +81,7 @@ The **[!UICONTROL Save audience]** activity is essentially used to keep populati
 
 The workflow defined in this example shows a regular audience update from targeting:
 
-* It is automatically executed once a month using a **[!UICONTROL Scheduler]** .
+* It is automatically executed once a month using a **[!UICONTROL Scheduler]**.
 * You can use a **[!UICONTROL Query]** to recover all the profiles subscribed to the different application services available.
 * The **[!UICONTROL Save audience]** activity updates the audience by deleting profiles that have unsubscribed from the service since the last workflow execution and by adding the newly subscribed profiles.
 

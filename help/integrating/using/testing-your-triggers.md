@@ -11,7 +11,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 discoiquuid: f67e69f2-09fb-4f33-b2c3-c67a060743e3
-index: y
+
 internal: n
 snippet: y
 ---
@@ -22,7 +22,7 @@ The following troubleshooting tips will help you solve the most common problems 
 
 **Is the functionality activated?**
 
-To check if the Triggers - Campaign integration is activated, click the Adobe Campaign logo, in the top left corner, then select **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** . You should see the **[!UICONTROL Experience Cloud Triggers]** item.
+To check if the Triggers - Campaign integration is activated, click the Adobe Campaign logo, in the top left corner, then select **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]**. You should see the **[!UICONTROL Experience Cloud Triggers]** item.
 
 If you see it, move on to the next step.
 

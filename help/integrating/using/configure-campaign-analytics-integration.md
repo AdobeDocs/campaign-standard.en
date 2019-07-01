@@ -11,7 +11,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
 discoiquuid: 92b9004c-cba0-41fd-a035-32bee1d6a42c
-index: y
+
 internal: n
 snippet: y
 ---
@@ -24,14 +24,14 @@ To start the integration between Adobe Campaign Standard and Adobe Analytics, yo
 
 External accounts and technical workflows can only be managed by the functional administrator of the platform.
 
-1. From the advanced menu, via the Adobe Campaign logo, select **[!UICONTROL Administration > Application settings > External accounts]** .
+1. From the advanced menu, via the Adobe Campaign logo, select **[!UICONTROL Administration > Application settings > External accounts]**.
 1. Select the **[!UICONTROL Share KPIs with Adobe Analytics]** external account.
 
    ![](assets/analytics_2.png)
 
 1. Specify your **[!UICONTROL Web services user name]** and **[!UICONTROL Web services share secret]** in the **[!UICONTROL Connection]** field.
 
-   These parameters can be found in Analytics by selecting **[!UICONTROL Admin > Company settings > Web services]** .
+   These parameters can be found in Analytics by selecting **[!UICONTROL Admin > Company settings > Web services]**.
 
    ![](assets/analytics_1.png)
 
@@ -42,7 +42,7 @@ External accounts and technical workflows can only be managed by the functional 
 
    ![](assets/analytics.png)
 
-The **[!UICONTROL Share KPIs with Adobe Analytics]** technical workflow will now automatically launch and can be viewed from the advanced menu by selecting **[!UICONTROL Administration > Application settings > Workflow]** . This technical workflow will automatically execute every 15 minutes and will push up to 6 months old data in Adobe Analytics.
+The **[!UICONTROL Share KPIs with Adobe Analytics]** technical workflow will now automatically launch and can be viewed from the advanced menu by selecting **[!UICONTROL Administration > Application settings > Workflow]**. This technical workflow will automatically execute every 15 minutes and will push up to 6 months old data in Adobe Analytics.
 
 ![](assets/analytics_3.png)
 

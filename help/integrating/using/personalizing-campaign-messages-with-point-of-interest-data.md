@@ -11,7 +11,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
 discoiquuid: a1736ba3-5121-4d01-bf04-ebb7e701e2e0
-index: y
+
 internal: n
 snippet: y
 ---
@@ -41,7 +41,7 @@ In this case, you decide to send an email to all subscribers who have visited yo
 
    ![](assets/poi_location_subscription.png)
 
-1. In the **[!UICONTROL Filter type]** field, select **[!UICONTROL Relative]** .
+1. In the **[!UICONTROL Filter type]** field, select **[!UICONTROL Relative]**.
 1. Check the **[!UICONTROL Preceding days]** option and enter **[!UICONTROL 15]** in the corresponding field.
 1. Define the number of times the user must have visited the Point of Interest.
 1. Click **[!UICONTROL Confirm]** to save your audience.

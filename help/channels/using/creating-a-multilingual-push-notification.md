@@ -11,7 +11,7 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 discoiquuid: f9bb2235-d388-4025-9ace-734beb0c1961
-index: y
+
 internal: n
 snippet: y
 ---
@@ -28,9 +28,9 @@ This feature leverages either preferred languages specified in recipients' profi
 
 To use multilingual content variants for your push notification delivery, follow these steps:
 
-1. [Step 1: Upload multilingual content variant](../../channels/using/creating-a-multilingual-push-notification.md#step-1--upload-multilingual-content-variant)
-1. [Step 2: Preview and finalize a push notification using multilingual content variants](../../channels/using/creating-a-multilingual-push-notification.md#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants)
-1. [Step 3: Send and analyze multilingual push notification delivery](../../channels/using/creating-a-multilingual-push-notification.md#step-3--send-and-analyze-multilingual-push-notification-delivery)
+* [Step 1: Upload multilingual content variant](../../channels/using/creating-a-multilingual-push-notification.md#step-1--upload-multilingual-content-variant)
+* [Step 2: Preview and finalize a push notification using multilingual content variants](../../channels/using/creating-a-multilingual-push-notification.md#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants)
+* [Step 3: Send and analyze multilingual push notification delivery](../../channels/using/creating-a-multilingual-push-notification.md#step-3--send-and-analyze-multilingual-push-notification-delivery)
 
 ## Step 1: Upload multilingual content variant {#step-1--upload-multilingual-content-variant}
 
@@ -126,7 +126,7 @@ Your multilingual content variant push notifications are now ready to be sent to
 
 You can now measure the impact of your multilingual push notification delivery on your recipients.
 
-**Related content:**
+**Related topics:**
 
 * [Push notification report](../../reporting/using/push-notification-report.md)
 * [Sending a push notification within a workflow](../../automating/using/push-notification-delivery.md)

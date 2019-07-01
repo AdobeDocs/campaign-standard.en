@@ -11,7 +11,7 @@ audience: start
 content-type: reference
 topic-tags: about-adobe-campaign
 discoiquuid: 3aebc89c-ed08-46ab-909c-e077ce2ab5da
-index: y
+
 internal: n
 snippet: y
 ---

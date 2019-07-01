@@ -11,7 +11,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 09c66cd5-2bbf-4846-ac8a-312ab5c18473
-index: y
+
 internal: n
 snippet: y
 ---
@@ -63,7 +63,7 @@ See an example in [this section](../../designing/using/editing-email-styles.md#e
 
 The Email Designer interface allows you to quickly adjust padding and margin settings.
 
-**[!UICONTROL Padding]** : this setting enables you to manage the space that is located inside an element's border.
+**[!UICONTROL Padding]**: this setting enables you to manage the space that is located inside an element's border.
 
 ![](assets/des_padding.png)
 
@@ -73,7 +73,7 @@ For example:
 * Use top and bottom padding to add more spacing to a **[!UICONTROL Text]** or a **[!UICONTROL Divider]** component.
 * To set borders between columns inside a structure element, define padding for each column.
 
-**[!UICONTROL Margin]** : this setting enables you to manage the space between the element's border and the next element.
+**[!UICONTROL Margin]**: this setting enables you to manage the space between the element's border and the next element.
 
 ![](assets/des_margin.png)
 
@@ -81,7 +81,7 @@ For example:
 >
 >Depending on your selection (structure component, column or content component), the result will not be the same. Adobe recommends setting the **[!UICONTROL Padding]** and **[!UICONTROL Margin]** parameters at the column level.
 
-For both **[!UICONTROL Padding]** and **[!UICONTROL Margin]** , click the lock icon to break synchronization between top and bottom or right and left parameters. This enables you to adjust each parameter separately.
+For both **[!UICONTROL Padding]** and **[!UICONTROL Margin]**, click the lock icon to break synchronization between top and bottom or right and left parameters. This enables you to adjust each parameter separately.
 
 ![](assets/des_padding_lock_icon.png)
 
@@ -113,7 +113,7 @@ Below are the available background settings that you can use.
 
   ![](assets/des_background_body.png)
 
-* Set the same background color for all structure components by selecting **[!UICONTROL Viewport background color]** . This option enables you to select a different setting from the background color.
+* Set the same background color for all structure components by selecting **[!UICONTROL Viewport background color]**. This option enables you to select a different setting from the background color.
 
   ![](assets/des_background_viewport.png)
 
@@ -152,13 +152,13 @@ You want to adjust padding and vertical alignment inside a structure component c
 
    The editable parameters for that column are displayed in the **[!UICONTROL Settings]** pane on the right.
 
-1. Under **[!UICONTROL Vertical alignment]** , select **[!UICONTROL Up]** .
+1. Under **[!UICONTROL Vertical alignment]**, select **[!UICONTROL Up]**.
 
    ![](assets/des_vertical_alignment.png)
 
    The content component displays on top of the column.
 
-1. Under **[!UICONTROL Padding]** , define the top padding inside the column. Click the lock icon to break synchronization with the bottom padding.
+1. Under **[!UICONTROL Padding]**, define the top padding inside the column. Click the lock icon to break synchronization with the bottom padding.
 
    Define the left and right padding for that column.
 

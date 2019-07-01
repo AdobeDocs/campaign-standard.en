@@ -11,7 +11,7 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 discoiquuid: 4f6317a1-9dfe-4714-bc1c-393629d855cd
-index: y
+context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 ---
@@ -140,8 +140,8 @@ Before being able to use a product listing in a transactional message, you need 
 
 1. Select how the elements of the collection will be displayed:
 
-    * **[!UICONTROL Row]** : horizontally, meaning each element on one row under the other.
-    * **[!UICONTROL Column]** : vertically, meaning each element next to the other on the same row.
+    * **[!UICONTROL Row]**: horizontally, meaning each element on one row under the other.
+    * **[!UICONTROL Column]**: vertically, meaning each element next to the other on the same row.
 
    >[!NOTE]
    >

@@ -11,7 +11,7 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
-index: y
+
 internal: n
 snippet: y
 ---
@@ -30,19 +30,19 @@ Once the event is published, the corresponding transactional message is automati
 
 Start by creating the event corresponding to your needs.
 
-1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]** .
+1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
 1. Click the **[!UICONTROL Create]** button.
-1. Give a **[!UICONTROL Label]** and an **[!UICONTROL ID]** to the event. The **[!UICONTROL ID]** field is mandatory and should begin with the prefix "EVT". If you do not use this prefix, it is automatically added once you click **[!UICONTROL Create]** . 
+1. Give a **[!UICONTROL Label]** and an **[!UICONTROL ID]** to the event. The **[!UICONTROL ID]** field is mandatory and should begin with the prefix "EVT". If you do not use this prefix, it is automatically added once you click **[!UICONTROL Create]**. 
 
    ![](assets/message-center_1.png)
 
-1. Select the channel that will be used to send your transactional messages **[!UICONTROL Email]** , **[!UICONTROL Mobile (SMS)]** or **[!UICONTROL Mobile application]** (push notification).
+1. Select the channel that will be used to send your transactional messages **[!UICONTROL Email]**, **[!UICONTROL Mobile (SMS)]** or **[!UICONTROL Mobile application]** (push notification).
 
    >[!NOTE]
    >
    >Only one channel can be used for each event configuration. Once the event is created, you cannot change the channel.
 
-1. Select the targeting dimension corresponding to the desired event configuration and click **[!UICONTROL Create]** .
+1. Select the targeting dimension corresponding to the desired event configuration and click **[!UICONTROL Create]**.
 
    Event-based transactional messages target data contained in the event itself, whereas profile-based transactional messages target data contained in the Adobe Campaign database. For more on this, refer to [Transactional event specific configurations](../../administration/using/configuring-transactional-messaging.md#transactional-event-specific-configurations).
 
@@ -114,7 +114,7 @@ For more on resource creation and publishing, refer to [this page](../../develop
 
    ![](assets/message-center_enrichment-join-fields.png)
 
-1. In the **[!UICONTROL Targeting enrichment]** section, select the enrichment that will be used as the message target during the delivery execution. In this example, select **[!UICONTROL Profile]** . Selecting a targeting enrichment is mandatory for profile-based events. 
+1. In the **[!UICONTROL Targeting enrichment]** section, select the enrichment that will be used as the message target during the delivery execution. In this example, select **[!UICONTROL Profile]**. Selecting a targeting enrichment is mandatory for profile-based events. 
 
    ![](assets/message-center_marketing_targeting_enrichment.png)
 

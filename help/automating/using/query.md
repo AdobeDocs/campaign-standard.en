@@ -11,7 +11,7 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 8d46ce28-0101-4f13-865a-2208ed6d6139
-index: y
+context-tags: query,main
 internal: n
 snippet: y
 ---
@@ -38,9 +38,9 @@ The **[!UICONTROL Query]** activity can be used for various types of uses:
 
 1. Drag and drop a **[!UICONTROL Query]** activity into your workflow.
 1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear. By default, the activity is pre-configured to search for profiles.
-1. If you would like to run a query on a resource other than the profile resource, go to the activity's **[!UICONTROL Properties]** tab and select a **[!UICONTROL Resource]** and a **[!UICONTROL Targeting dimension]** .
+1. If you would like to run a query on a resource other than the profile resource, go to the activity's **[!UICONTROL Properties]** tab and select a **[!UICONTROL Resource]** and a **[!UICONTROL Targeting dimension]**.
 
-   The **[!UICONTROL Resource]** allows you to refine the filters displayed in the palette whereas the **[!UICONTROL Targeting dimension]** , contextual with regard to the resource selected, corresponds to the type of population that you would like to obtain (identified profiles, deliveries, data linked to the selected resource, etc.).
+   The **[!UICONTROL Resource]** allows you to refine the filters displayed in the palette whereas the **[!UICONTROL Targeting dimension]**, contextual with regard to the resource selected, corresponds to the type of population that you would like to obtain (identified profiles, deliveries, data linked to the selected resource, etc.).
 
    For more on this, refer to [Targeting dimensions and resources](../../automating/using/query.md#targeting-dimensions-and-resources)
 
@@ -75,11 +75,11 @@ Targeting dimension and resources are defined when creating a workflow, in the *
 
 Targeting dimensions and resources are linked. The available targeting dimensions therefore depend on the selected resource.
 
-For example, for the Resource **[!UICONTROL Profiles (profile)]** , the following targeting dimensions will be available: 
+For example, for the Resource **[!UICONTROL Profiles (profile)]**, the following targeting dimensions will be available: 
 
 ![](assets/targeting_dimension2.png)
 
-While for **[!UICONTROL Deliveries (delivery)]** , the list will contain the following targeting dimensions:
+While for **[!UICONTROL Deliveries (delivery)]**, the list will contain the following targeting dimensions:
 
 ![](assets/targeting_dimension3.png)
 
@@ -101,8 +101,8 @@ However, it may be useful to use a different resource from the targeting dimensi
 
 **Example 1: identifying profiles targeted by the delivery with the label ”Welcome back !”**.
 
-* In this case, we want to target profiles. We will set the targeting dimension to **[!UICONTROL Profiles (profile)]** .
-* We want to filter the selected profiles according to the delivery label. We will therefore set the resource to **[!UICONTROL Delivery logs]** . This way, we are filtering directly in the delivery log table, which will offers better performances.
+* In this case, we want to target profiles. We will set the targeting dimension to **[!UICONTROL Profiles (profile)]**.
+* We want to filter the selected profiles according to the delivery label. We will therefore set the resource to **[!UICONTROL Delivery logs]**. This way, we are filtering directly in the delivery log table, which will offers better performances.
 
 ![](assets/targeting_dimension6.png)
 
@@ -114,7 +114,7 @@ In the previous example, we used a resource different from the targeting dimensi
 
 If we want to find a record that **is not present** in the distant table (for example, profiles who were not targeted by a specific delivery), you must use the same resource and targeting dimension, as the record will not be present in the distant table (delivery logs).
 
-* In this case, we want to target profiles. We will set the targeting dimension to **[!UICONTROL Profiles (profile)]** .
+* In this case, we want to target profiles. We will set the targeting dimension to **[!UICONTROL Profiles (profile)]**.
 * We want to filter the selected profiles according to the delivery label. It is not possible to filter directly on delivery logs as we are looking for a record not present in the delivery logs table. We will therefore set the resource to **[!UICONTROL Profile (profile)]** and build our query on the profiles table.
 
 ![](assets/targeting_dimension8.png)
@@ -123,7 +123,7 @@ If we want to find a record that **is not present** in the distant table (for ex
 
 ## Enriching data {#enriching-data}
 
-The **[!UICONTROL Additional data]** tab of the **[!UICONTROL Query]** , **[!UICONTROL Incremental query]** and **[!UICONTROL Enrichment]** activities allows you to enrich the data targeted and transfer this data to the following workflow activities, where it can be utilized. In particular, you can add:
+The **[!UICONTROL Additional data]** tab of the **[!UICONTROL Query]**, **[!UICONTROL Incremental query]** and **[!UICONTROL Enrichment]** activities allows you to enrich the data targeted and transfer this data to the following workflow activities, where it can be utilized. In particular, you can add:
 
 * Simple data
 * Aggregates
@@ -148,7 +148,7 @@ By adding a simple field as additional data, that field becomes directly visible
 1. From the **[!UICONTROL Additional data]** tab, add a new element.
 1. In the window that opens, in the **[!UICONTROL Expression]** field, select one of the fields available directly in the targeting dimension or in one of the linked dimensions. You can edit expressions and use functions or simple calculations (except aggregates) from the dimension fields.
 
-   An **[!UICONTROL Alias]** is automatically created if you edit an expression that is not a simple XPATH path (for example: "Year(<@birthDate>)"). If you like, you can modify it. If you only select one field (for example: "@age"), you do not need to define an **[!UICONTROL Alias]** .
+   An **[!UICONTROL Alias]** is automatically created if you edit an expression that is not a simple XPATH path (for example: "Year(<@birthDate>)"). If you like, you can modify it. If you only select one field (for example: "@age"), you do not need to define an **[!UICONTROL Alias]**.
 
 1. Select **[!UICONTROL Add]** to confirm adding the field to the additional data. When the query is executed, an additional column corresponding to the field added will be present in the activity's outbound transition.
 
@@ -189,7 +189,7 @@ Aggregates allow values to be calculated from fields of the targeting dimension 
 
 1. From the **[!UICONTROL Additional data]** tab, add a new element.
 1. In the window that opens, select the collection that you want to add in the **[!UICONTROL Expression]** field. An **[!UICONTROL Alias]** is created automatically. If you like, you can modify it by going back to the query's **[!UICONTROL Additional data]** tab.
-1. Select **[!UICONTROL Add]** . A new window opens, allowing you to refine the collection data that you want to display.
+1. Select **[!UICONTROL Add]**. A new window opens, allowing you to refine the collection data that you want to display.
 1. In the **[!UICONTROL Parameters]** tab, select **[!UICONTROL Collection]** and define the number of lines of the collection that you want to add. For example, if you want to get the three most recent purchases carried out by each profile, enter "3" in the **[!UICONTROL Number of lines to return]** field.
 
    >[!NOTE]
@@ -229,9 +229,9 @@ For example, if you want to save only the transaction that was carried out most 
 
 ### Filtering the targeted data according to additional data {#filtering-the-targeted-data-according-to-additional-data}
 
-Once you have added additional data, a new **[!UICONTROL Output filtering]** tab appears in the **[!UICONTROL Query]** . This tab allows you to apply an additional filter on the data initially targeted in the **[!UICONTROL Target]** tab, by taking into account the added data.
+Once you have added additional data, a new **[!UICONTROL Output filtering]** tab appears in the **[!UICONTROL Query]**. This tab allows you to apply an additional filter on the data initially targeted in the **[!UICONTROL Target]** tab, by taking into account the added data.
 
-For example, if you have targeted all of the profiles that carried out at least one transaction and an aggregate calculating the average transaction amount carried out for each profile was added to the **[!UICONTROL Additional data]** , you can refine the population initially calculated using this average.
+For example, if you have targeted all of the profiles that carried out at least one transaction and an aggregate calculating the average transaction amount carried out for each profile was added to the **[!UICONTROL Additional data]**, you can refine the population initially calculated using this average.
 
 To do this, in the **[!UICONTROL Output filtering]** tab, simply add a condition on this additional data.
 
@@ -309,7 +309,7 @@ The following example shows a query activity configured to target profiles whose
 
    ![](assets/query_sample_birthday.png)
 
-1. Set the **[!UICONTROL Filter type]** to **[!UICONTROL Relative]** and select **[!UICONTROL Today]** .
+1. Set the **[!UICONTROL Filter type]** to **[!UICONTROL Relative]** and select **[!UICONTROL Today]**.
 
    ![](assets/query_sample_birthday2.png)
 
@@ -321,7 +321,7 @@ The following example shows a query activity configured to filter profiles who o
 
    ![](assets/query_sample_opened.png)
 
-1. Select the delivery then click **[!UICONTROL Confirm]** .
+1. Select the delivery then click **[!UICONTROL Confirm]**.
 
    ![](assets/query_sample_opened2.png)
 
@@ -337,7 +337,7 @@ The following example shows a query activity configured to filter profiles for w
 
    ![](assets/query_sample_failure2.png)
 
-1. Select the type of failure you want to target. In our case **[!UICONTROL Mailbox full]** .
+1. Select the type of failure you want to target. In our case **[!UICONTROL Mailbox full]**.
 
    ![](assets/query_sample_failure3.png)
 

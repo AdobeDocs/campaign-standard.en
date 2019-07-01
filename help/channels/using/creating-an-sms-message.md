@@ -11,7 +11,7 @@ audience: channels
 content-type: reference
 topic-tags: sms-messages
 discoiquuid: b27381a9-19e5-4b65-b194-c72f475ba54d
-index: y
+delivercontext-tags: deliveryCreation,wizard
 internal: n
 snippet: y
 ---
@@ -56,7 +56,7 @@ To create and send SMS messages to a mobile phone, you need:
    ![](assets/sms_creation_4.png)
 
 1. Confirm creating the message. Its dashboard is then displayed.
-1. Schedule the sending. The SMS can be sent manually right after the message preparation or automatically at a scheduled date. See . [Scheduling messages](../../sending/using/about-scheduling-messages.md)
+1. Schedule the sending. The SMS can be sent manually right after the message preparation or automatically at a scheduled date. See [Scheduling messages](../../sending/using/about-scheduling-messages.md).
 1. Prepare the message to analyze its validity, personalization and target.
 
    ![](assets/sms_creation_6.png)

@@ -11,7 +11,7 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 discoiquuid: daa980ba-8c7c-4673-a68f-379d63e4b8bd
-index: y
+
 internal: n
 snippet: y
 ---
@@ -43,9 +43,9 @@ In the following example, we want to send a promotional code that is only valid 
 
 1. In the **[!UICONTROL Time zone of the contact date]** field, select at which time zone your delivery should be sent by default.
 
-   If a profile's **[!UICONTROL Time zone]** is left as **[!UICONTROL Default]** , the recipients will receive the delivery depending on the chosen time zone here.
+   If a profile's **[!UICONTROL Time zone]** is left as **[!UICONTROL Default]**, the recipients will receive the delivery depending on the chosen time zone here.
 
-1. From the **[!UICONTROL Optimize the sending time per recipient]** drop-down menu, choose **[!UICONTROL Send at the recipient's time zone]** . This allows recipients to receive the Valentine's day email on the 14 of February depending on their time zone.
+1. From the **[!UICONTROL Optimize the sending time per recipient]** drop-down menu, choose **[!UICONTROL Send at the recipient's time zone]**. This allows recipients to receive the Valentine's day email on the 14 of February depending on their time zone.
 
    ![](assets/send-time_opt_valentine_3.png)
 

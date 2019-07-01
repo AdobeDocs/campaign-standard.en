@@ -11,7 +11,7 @@ audience: developing
 content-type: reference
 topic-tags: use-cases--extending-resources
 discoiquuid: 59faa74e-86fc-42d3-90da-f48580b5ec13
-index: y
+
 internal: n
 snippet: y
 ---
@@ -22,9 +22,9 @@ In Adobe Campaign, mobile profile attributes data sent from mobile device are st
 
 This resource can be extended to collect data you intend to send from the mobile device to Adobe Campaign.
 
-1. From the advanced menu, via the Adobe Campaign logo, select **[!UICONTROL Administration]** > **[!UICONTROL Development]** , then **[!UICONTROL Custom resources]** .
+1. From the advanced menu, via the Adobe Campaign logo, select **[!UICONTROL Administration]** > **[!UICONTROL Development]**, then **[!UICONTROL Custom resources]**.
 1. Click **[!UICONTROL Create]** and choose the **[!UICONTROL Extend an existing resource]** option.
-1. Select the **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** resource and click **[!UICONTROL Create]** .
+1. Select the **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** resource and click **[!UICONTROL Create]**.
 
    ![](assets/in_app_personal_data_4.png)
 
@@ -36,7 +36,7 @@ This resource can be extended to collect data you intend to send from the mobile
 
    ![](assets/in_app_personal_data.png)
 
-1. Add a **[!UICONTROL Label]** and an **[!UICONTROL ID]** to your new field. Select your field's **[!UICONTROL Type]** .
+1. Add a **[!UICONTROL Label]** and an **[!UICONTROL ID]** to your new field. Select your field's **[!UICONTROL Type]**.
 
    ![](assets/schema_extension_uc9.png)
 

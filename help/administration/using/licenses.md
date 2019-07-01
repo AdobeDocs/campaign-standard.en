@@ -11,7 +11,7 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 discoiquuid: b0056f83-610e-4fdc-95cd-bb5ed9f5c483
-index: y
+
 internal: n
 snippet: y
 ---
@@ -28,7 +28,7 @@ The following window will appear for standard users after logging in, no action 
 
 ![](assets/license_2.png)
 
-An administrator has to read and confirm the new terms of agreement in the following 30 days of the build installation by checking **[!UICONTROL I accept the terms from the license agreement]** and clicking **[!UICONTROL Confirm]** .
+An administrator has to read and confirm the new terms of agreement in the following 30 days of the build installation by checking **[!UICONTROL I accept the terms from the license agreement]** and clicking **[!UICONTROL Confirm]**.
 
 ![](assets/license_3.png)
 
