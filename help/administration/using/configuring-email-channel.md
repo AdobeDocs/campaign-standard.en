@@ -60,7 +60,7 @@ The **[!UICONTROL Integrated email routing]** external account is provided by de
 
 ![](assets/channels_2.png)
 
-The account type must always be set to **[!UICONTROL Routing]** , the channel to **[!UICONTROL Email]** and the delivery mode set to **[!UICONTROL Bulk delivery]** .
+The account type must always be set to **[!UICONTROL Routing]**, the channel to **[!UICONTROL Email]** and the delivery mode set to **[!UICONTROL Bulk delivery]**.
 
 **Related topic**:
 
@@ -114,17 +114,17 @@ These rules are applied in sequence: the first rule whose MX mask is compatible 
 
 The following parameters are available for each rule:
 
-* **[!UICONTROL Range of IDs]** : this option lets you indicate the ranges of identifiers (publicId) for which the rule applies. You can specify:
+* **[!UICONTROL Range of IDs]**: this option lets you indicate the ranges of identifiers (publicId) for which the rule applies. You can specify:
 
     * A number: the rule will only apply to this publicId.
     * A range of numbers (number1-number2): the rule will apply to all publicIds between these two numbers.
 
   If the field is empty, the rule applies to all IDs.
 
-* **[!UICONTROL Shared]** : this option indicates that the highest number of messages per hour and of connections applies to all MXs linked to this rule. 
-* **[!UICONTROL Maximum number of connections]** : maximum number of simultaneous connections to an MX from a given address. 
+* **[!UICONTROL Shared]**: this option indicates that the highest number of messages per hour and of connections applies to all MXs linked to this rule. 
+* **[!UICONTROL Maximum number of connections]**: maximum number of simultaneous connections to an MX from a given address. 
 * **Maximum number of messages**: maximum number of messages that can be sent by one connection. After this amount, the connection is closed and a new one is reopened. 
-* **[!UICONTROL Messages per hour]** : maximum number of messages that can be sent in one hour for an MX via a given address.
+* **[!UICONTROL Messages per hour]**: maximum number of messages that can be sent in one hour for an MX via a given address.
 
 >[!CAUTION]
 >
@@ -191,10 +191,10 @@ You can configure the format of emails to be sent. There are three options avail
 
 The **[!UICONTROL Validity]** section contains the following parameters:
 
-* **[!UICONTROL Explicitly set validity dates]** : when this box is unchecked, you must enter a duration in the **[!UICONTROL Delivery duration]** and **[!UICONTROL Resource validity limit]** fields. Check this box if you would like to define specific times and dates.
-* **[!UICONTROL Delivery duration]** : Adobe Campaign sends the messages beginning on the start date. This field allows you to specify the duration during which the messages can be sent.
-* **[!UICONTROL Resource validity duration]** : this field is used for uploaded resources, mainly for the mirror page and images. The resources on this page are valid for a limited time (to save disk space).
-* **[!UICONTROL Mirror page management]** : the mirror page is an HTML page accessible online via a web browser. Its content is identical to the email content. By default, the mirror page is generated if the link is inserted in the mail content. This field allows you to modify the way in which this page is generated:
+* **[!UICONTROL Explicitly set validity dates]**: when this box is unchecked, you must enter a duration in the **[!UICONTROL Delivery duration]** and **[!UICONTROL Resource validity limit]** fields. Check this box if you would like to define specific times and dates.
+* **[!UICONTROL Delivery duration]**: Adobe Campaign sends the messages beginning on the start date. This field allows you to specify the duration during which the messages can be sent.
+* **[!UICONTROL Resource validity duration]**: this field is used for uploaded resources, mainly for the mirror page and images. The resources on this page are valid for a limited time (to save disk space).
+* **[!UICONTROL Mirror page management]**: the mirror page is an HTML page accessible online via a web browser. Its content is identical to the email content. By default, the mirror page is generated if the link is inserted in the mail content. This field allows you to modify the way in which this page is generated:
 
   >[!CAUTION]
   >
@@ -213,9 +213,9 @@ The **[!UICONTROL Validity]** section contains the following parameters:
 
 The **[!UICONTROL Tracking]** section contains the following parameters:
 
-* **[!UICONTROL Activate tracking]** : allows you to activate/deactivate message URL tracking. To manage tracking for each message URL, use the **[!UICONTROL Links]** icon in the Email Designer action bar. See [About tracked URLs](../../designing/using/about-tracked-urls.md).
-* **[!UICONTROL Tracking validity limit]** : allows you to define the duration for which the tracking will be activated on the URLs.
-* **[!UICONTROL Substitution URL for expired URLs]** : you can enter a URL to a web page that will be displayed once the tracking has expired.
+* **[!UICONTROL Activate tracking]**: allows you to activate/deactivate message URL tracking. To manage tracking for each message URL, use the **[!UICONTROL Links]** icon in the Email Designer action bar. See [About tracked URLs](../../designing/using/about-tracked-urls.md).
+* **[!UICONTROL Tracking validity limit]**: allows you to define the duration for which the tracking will be activated on the URLs.
+* **[!UICONTROL Substitution URL for expired URLs]**: you can enter a URL to a web page that will be displayed once the tracking has expired.
 
 ### Advanced parameters {#advanced-parameters}
 
@@ -239,22 +239,22 @@ This field indicates the routing mode used. It references an external account. F
 
 Preparing messages is detailed in the [Approving messages](../../sending/using/preparing-the-send.md) section.
 
-* **[!UICONTROL Typology]** : before any send, messages must be prepared in order to validate the content and configuration. The verification rules applied during the preparation phase are defined in a **typology**. For example, for emails, preparation involves checking the subject, URLs and images, etc. Select the typology to apply in this field.
+* **[!UICONTROL Typology]**: before any send, messages must be prepared in order to validate the content and configuration. The verification rules applied during the preparation phase are defined in a **typology**. For example, for emails, preparation involves checking the subject, URLs and images, etc. Select the typology to apply in this field.
 
   >[!NOTE]
   >
   >Typologies, which can be accessed via the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** menu, are presented in the [Typologies](../../administration/using/about-typology-rules.md) section.
 
-* **[!UICONTROL Compute the label during delivery analysis]** : allows you to calculate the label value of the email during the message preparation phase. 
-* **[!UICONTROL Save SQL queries in the log]** : this option allows you to add SQL query logs in the journal during the preparation phase.
+* **[!UICONTROL Compute the label during delivery analysis]**: allows you to calculate the label value of the email during the message preparation phase. 
+* **[!UICONTROL Save SQL queries in the log]**: this option allows you to add SQL query logs in the journal during the preparation phase.
 
 ### List of email SMTP parameters {#list-of-email-smtp-parameters}
 
 The **[!UICONTROL SMTP]** section contains the following parameters:
 
-* **[!UICONTROL Character encoding]** : check the **[!UICONTROL Force encoding]** box if you would like to force message encoding, then select the encoding you want to use.
-* **[!UICONTROL Bounce mails]** : by default, bounce mails are received in the platform's error inbox (defined in the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email]** > **[!UICONTROL Configuration]** screen). To define a specific error address for an email, enter the address in the **[!UICONTROL Error address]** field.
-* **[!UICONTROL Additional SMTP headers]** : this option allows for additional SMTP headers to be added to your messages. The script entered in the **[!UICONTROL Headers]** field must reference one header per line, in the form of **name:value**. Values are encoded automatically if necessary.
+* **[!UICONTROL Character encoding]**: check the **[!UICONTROL Force encoding]** box if you would like to force message encoding, then select the encoding you want to use.
+* **[!UICONTROL Bounce mails]**: by default, bounce mails are received in the platform's error inbox (defined in the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email]** > **[!UICONTROL Configuration]** screen). To define a specific error address for an email, enter the address in the **[!UICONTROL Error address]** field.
+* **[!UICONTROL Additional SMTP headers]**: this option allows for additional SMTP headers to be added to your messages. The script entered in the **[!UICONTROL Headers]** field must reference one header per line, in the form of **name:value**. Values are encoded automatically if necessary.
 
   >[!CAUTION]
   >
@@ -270,7 +270,7 @@ The **[!UICONTROL Access authorization]** section contains the following paramet
   >
   >You can configure organizational units via the **Administration** > **Users & Security** menu.
 
-* The **[!UICONTROL Created by]** , **[!UICONTROL Created]** , **[!UICONTROL Modified by]** and **[!UICONTROL Last modified]** fields are automatically completed.
+* The **[!UICONTROL Created by]**, **[!UICONTROL Created]**, **[!UICONTROL Modified by]** and **[!UICONTROL Last modified]** fields are automatically completed.
 
 ## Archiving emails {#archiving-emails}
 

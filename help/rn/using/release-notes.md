@@ -24,6 +24,31 @@ Each release comes with new features and patches. Click on a release to view its
 
 View the latest [documentation updates](../../rn/using/documentation-updates.md) for Adobe Campaign Standard. If you're looking for a previous release, consult these pages: [2018 Release Notes](../../rn/using/release-notes-2018.md), [2017 Release Notes](../../rn/using/release-notes-2017.md), [2015-2016 Release Notes](../../rn/using/release-notes-2015-2016.md). Also consult the list of [Deprecated and Removed Features](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html).
 
+## Release 19.2.4 - June 2019 {#release-19-2-4---june-2019}
+
+### Email Designer {#email-designer-2}
+
+* Fixed an issue which prevented users from editing fragments when empty style tags were used in the HTML. This is a follow-up fix for CAMP-33778 in 19.2.3.
+
+## Release 19.2.3 - June 2019 {#release-19-2-3---june-2019}
+
+### Email Designer {#email-designer-1}
+
+Introduced a series of improvements and fixes to optimize fragments in the 19.2 release. Newly created fragments will work seamlessly. Fragments that were previously built have been grayed-out and need to be migrated to the new format. To do so, click on each fragment and validate its migration to the new format. We recommend that you test a few fragments before migrating them all.
+
+* Fixed an issue which prevented users from editing a fragment after unlocking it. This was affecting existing fragments when updating to 19.2. (CAMP-33778)
+* Fixed an issue when using dynamic content. Extra spaces were added in the HTML.
+
+### Other improvements {#other-improvements-2}
+
+* Fixed an issue which could prevent SMS sending from resuming after a disconnection of the SMS connector.
+* Fixed an issue which could close SMPP connections when TLS was enabled.
+* Fixed an issue which could close SMPP connections when TLS was enabled.
+* The “Launch_URL_Campaign” option has been added in Campaign to manage properties of mobile applications created with Adobe Experience Platform Mobile SDK.
+* Fixed an error that led to the Sandbox environment option being unchecked after uploading the certificate of a newly created mobile property and exiting the mobile application property page.
+* Fixed an issue which prevented you from enriching a transactional message content with information from the Service resource. (CAMP-33707)
+* Fixed an issue in Blacklist landing pages that occurred when trying to unsubscribe profiles from a service.
+
 ## Release 19.2 - May 2019 {#release-19-2---may-2019}
 
 ### What's new? {#what-s-new-}
@@ -38,19 +63,19 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
  <tbody> 
   <tr> 
    <td> Control Panel<br /> </td> 
-   <td> To help increase efficiency in your work as an Admin user, you can easily monitor capacity and manage settings of your instances (starting with SFTP servers management).<br/> For more information, refer to the <a href="https://helpx.adobe.com/campaign/kb/control-panel.html">detailed documentation</a>. <br /> </td> 
+   <td> <p>To help increase efficiency in your work as an Admin user, you can easily monitor capacity and manage settings of your instances (starting with SFTP servers management).</p><p>For more information, refer to the <a href="https://helpx.adobe.com/campaign/kb/control-panel.html">detailed documentation</a> and the <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-control-panel-video-use.html">how-to video</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Local notifications<br /> </td> 
-   <td> <p> Local notification messaging allows you to inform your users when new data becomes available within their mobile applications, even without having access to the Internet or the mobile application running in the foreground. Local notifications are triggered by a mobile application on a particular time and depending on an event.<br /></p> <p>For more information, refer to the <a href="../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type">detailed documentation</a>.</p> <br /> </td> 
+   <td> <p>Local notification messaging allows you to inform your users when new data becomes available within their mobile applications, even without having access to the Internet or the mobile application running in the foreground. Local notifications are triggered by a mobile application on a particular time and depending on an event.</p><p>For more information, refer to the <a href="../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type">detailed documentation</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Workflow enhancement - Add a payload to external signal activity<br /> </td> 
-   <td> Start a workflow with a payload when defined conditions are successfully met from another workflow or a REST API call to integrate with your external systems. This also includes a new <strong>test</strong> activity where you can run tests on this functionality.<br /> For more information, refer to the <a href="../../automating/using/calling-a-workflow-with-external-parameters.md">detailed documentation</a>. <br /> </td> 
+   <td> <p>Start a workflow with a payload when defined conditions are successfully met from another workflow or a REST API call to integrate with your external systems. This also includes a new <strong>test</strong> activity where you can run tests on this functionality.</p><p>For more information, refer to the <a href="../../automating/using/calling-a-workflow-with-external-parameters.md">detailed documentation</a> and the <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-external-signal-activity-feature-video-use.html">how-to video</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Landing Pages enhancement - Google reCAPTCHA<br /> </td> 
-   <td> Leverage Google reCAPTCHA to prevent spam on your landing pages without requiring any action from your customers.<br /> For more information, refer to the <a href="../../channels/using/designing-a-landing-page.md#setting-google-recaptcha">detailed documentation</a>. <br /> </td> 
+   <td> <p>Leverage Google reCAPTCHA to prevent spam on your landing pages without requiring any action from your customers.</p><p>For more information, refer to the <a href="../../channels/using/designing-a-landing-page.md#setting-google-recaptcha">detailed documentation</a>.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -93,7 +118,6 @@ Several improvements have been added to the Transactional messaging channel in o
 
 ### Other changes {#other-changes}
 
-* The number of simultaneous workflow executions has been limited to 20 in order to improve performance.
 * A new option has been added to the SMS external account. It enables to limit the maximum number of MTA processes that send SMS in order to better control the number of parallel connections. For more information, refer to the [SMS connector protocol and settings](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html) technote.
 * When publishing a resource with API extension, if the API has already been published, it is now automatically updated each time it is published again. Previously this action was manual and failing to update the API could break the profile or service resource of this API. For more on this, refer to the [detailed documentation](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension).
 * Zip code dimension has been removed from Dynamic Reporting. We recommend using City, Country, State dimensions instead.
@@ -157,19 +181,19 @@ Several improvements have been added to the Transactional messaging channel in o
  <tbody> 
   <tr> 
    <td> Push channel Reporting improvements<br /> </td> 
-   <td> Several enhancements have been added to Push channel reporting to allow you to measure user engagement more intuitively. With this release, we are expanding the list of Push channel metrics to three different metrics: Impressions, Clicks, Opens (App Open) to help you measure and analyze users’ interaction with Push notifications more effectively. Along with this, we are also standardizing the definition and implementation of these metrics. The Push notification built-in report has also been improved with commonly used visualizations and metrics.<br /> For more information, refer to the <a href="../../reporting/using/push-notification-report.md">detailed documentation</a>. <br /> </td> 
+   <td> <p>Several enhancements have been added to Push channel reporting to allow you to measure user engagement more intuitively. With this release, we are expanding the list of Push channel metrics to three different metrics: Impressions, Clicks, Opens (App Open) to help you measure and analyze users’ interaction with Push notifications more effectively. Along with this, we are also standardizing the definition and implementation of these metrics. The Push notification built-in report has also been improved with commonly used visualizations and metrics.</p><p> For more information, refer to the <a href="../../reporting/using/push-notification-report.md">detailed documentation</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Launch integration for Mobile App<br /> </td> 
-   <td> This release contains the integration of Adobe Campaign with the GA versions of Android and iOS extensions for Adobe Campaign Standard in Adobe Experience Platform Launch and Mobile SDKs. These extensions support push messaging, in-app messaging, and mobile app profile updates. <br/> For more information, refer to the <a href="../../administration/using/about-typology-rules.md#typology-rules">detailed documentation</a>. <br /> </td> 
+   <td> <p>This release contains the integration of Adobe Campaign with the GA versions of Android and iOS extensions for Adobe Campaign Standard in Adobe Experience Platform Launch and Mobile SDKs. These extensions support push messaging, in-app messaging, and mobile app profile updates.</p><p> For more information, refer to the <a href="../../administration/using/about-typology-rules.md#typology-rules">detailed documentation</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Mobile In-App Messaging<br /> </td> 
-   <td> This release contains the GA version of In-App channel in Campaign. From a functional standpoint, the most notable additions to the Beta release are Dynamic reports for In-App channel and secure handshake between Mobile SDK and MCIAS (Marketing Cloud In-App Messaging Service that serves the In-App rules to the SDK). Secure handshake ensures that your users' PII data does not fall into malicious hands as well as enables you to maintain users' privacy on a shared device by clearing out message cache every time the user logs out.<br /> For more information, refer to the <a href="../../channels/using/about-in-app-messaging.md">detailed documentation</a> and the dedicated <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-in-app-message-tutorial.html">In-App tutorial</a>.<br /> </td> 
+   <td> <p>This release contains the GA version of In-App channel in Campaign. From a functional standpoint, the most notable additions to the Beta release are Dynamic reports for In-App channel and secure handshake between Mobile SDK and MCIAS (Marketing Cloud In-App Messaging Service that serves the In-App rules to the SDK). Secure handshake ensures that your users' PII data does not fall into malicious hands as well as enables you to maintain users' privacy on a shared device by clearing out message cache every time the user logs out.</p><p>For more information, refer to the <a href="../../channels/using/about-in-app-messaging.md">detailed documentation</a> and the dedicated <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-in-app-message-tutorial.html">In-App tutorial</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Workflow enhancements<br /> </td> 
-   <td> The following workflow capabilities have been added:<br /> 
+   <td> <p>The following workflow capabilities have been added:</p> 
     <ul> 
      <li> You can now copy-paste activities within a workflow or another workflow from the same Campaign instance. This way, you can easily duplicate an entire workflow or specific activities, and keep the settings that were initially defined. For more information, refer to the <a href="../../automating/using/workflow-interface.md#duplicating-workflow-activities">detailed documentation</a>. (CAMP-20014) </li> 
      <li> When using the <strong>Load file</strong> activity, you can now add a timestamp to the name of the file containing the rejected records. For more information, refer to the <a href="../../automating/using/load-file.md#configuration">detailed documentation</a>. </li> 
@@ -254,6 +278,7 @@ Several improvements have been added to the Transactional messaging channel in o
 ### What's new? {#what-s-new--2}
 
 <table> 
+ <colgroup><col style="width: 30%"><col style="width: 70%"></colgroup>
  <thead> 
   <tr> 
    <th> Functionality<br /> </th> 
@@ -263,30 +288,31 @@ Several improvements have been added to the Transactional messaging channel in o
  <tbody> 
   <tr> 
    <td> Email Designer General Availability<br /> </td> 
-   <td> The new intuitive Email Designer (formerly known as Creative Designer) has moved to GA. It now supports all the features from the legacy content editor, including:<br /> 
+   <td> <p>The new intuitive Email Designer (formerly known as Creative Designer) has moved to GA. It now supports all the features from the legacy content editor, including:</p> 
     <ul> 
      <li> The use of <a href="../../integrating/using/adding-target-dynamic-content.md">dynamic images from Adobe Target</a> </li> 
      <li> The ability to <a href="../../designing/using/importing-content-from-a-url.md#retrieving-content-from-a-url-automatically-at-preparation-time">retrieve content from a URL automatically at preparation time</a> </li> 
      <li> Fully compliant <a href="../../start/using/about-templates.md#content-templates">out-of-the box content templates</a>. </li> 
-    </ul> For more information, refer to the <a href="../../designing/using/about-email-content-design.md">detailed documentation</a>. Improvements and fixes are listed below.<br /> As a consequence, the legacy email content editor is now deprecated. For more information, refer to this <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">page</a>.<br /> </td> 
+    </ul> 
+    <p>For more information, refer to the <a href="../../designing/using/about-email-content-design.md">detailed documentation</a> and the <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html">how-to video</a>. Improvements and fixes are listed below.</p><p>As a consequence, the legacy email content editor is now deprecated. For more information, refer to this <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">page</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Product Listings in Transactional Emails<br /> </td> 
-   <td> You can now reference one or more product collections in a transactional email message. For example, you can automatically send a cart abandonment email listing all the products that were in the user’s cart with an image, price, and link to each product.<br /> For more information, refer to the <a href="../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message">detailed documentation</a>.<br /> </td> 
+   <td> <p>You can now reference one or more product collections in a transactional email message. For example, you can automatically send a cart abandonment email listing all the products that were in the user’s cart with an image, price, and link to each product.</p><p>For more information, refer to the <a href="../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message">detailed documentation</a> and the <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-product-listings-in-transactional-emails-feature-video-setup.html">how-to video</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Mobile View in the Email Designer<br /> </td> 
-   <td> You can now switch to a dedicated mobile view when editing email content. This allows you to fine-tune the responsive design of an email by separately editing all style options for mobile display, such as adapting margins, smaller font size, different background color, and so on.<br /> For more information, refer to the <a href="../../designing/using/about-email-content-design.md#switching-to-mobile-view">detailed documentation</a>.<br /> </td> 
+   <td> <p>You can now switch to a dedicated mobile view when editing email content. This allows you to fine-tune the responsive design of an email by separately editing all style options for mobile display, such as adapting margins, smaller font size, different background color, and so on.</p><p> For more information, refer to the <a href="../../designing/using/about-email-content-design.md#switching-to-mobile-view">detailed documentation</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> In-App Messaging Beta Improvements<br /> </td> 
-   <td> The In-App Messaging Beta feature has been enhanced with the following capabilities:<br /> 
+   <td> <p>The In-App Messaging Beta feature has been enhanced with the following capabilities:</p> 
     <ul> 
      <li> In-App Beta channel is GDPR compliant </li> 
      <li> Integration with Analytics APIs to populate Triggers dropdowns </li> 
      <li> Intuitive look and description of delivery templates </li> 
      <li> Enhancements to authoring interface from usability standpoint </li> 
-    </ul> For more information, refer to the <a href="../../channels/using/about-in-app-messaging.md">detailed documentation</a>.<br /> </td> 
+    </ul> <p>For more information, refer to the <a href="../../channels/using/about-in-app-messaging.md">detailed documentation</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

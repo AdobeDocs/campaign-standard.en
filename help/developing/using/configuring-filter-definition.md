@@ -11,7 +11,7 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 discoiquuid: 993ab2bd-e05f-468e-9ef8-a603761247f8
-
+context-tags: cusResource,main
 internal: n
 snippet: y
 ---
@@ -47,7 +47,7 @@ To do this, you need to extend the **[!UICONTROL Profiles]** resource and define
 
 1. In the **[!UICONTROL Optional parameter settings]** of the **[!UICONTROL Add a rule - Transactions]** window, check the **[!UICONTROL Switch to parameters]** box.
 
-   In the **[!UICONTROL Filter conditions]** , select the **[!UICONTROL Greater than or equal to]** operator. In the **[!UICONTROL Parameters]** field, enter a name and click the plus sign to create the new parameter.
+   In the **[!UICONTROL Filter conditions]**, select the **[!UICONTROL Greater than or equal to]** operator. In the **[!UICONTROL Parameters]** field, enter a name and click the plus sign to create the new parameter.
 
    ![](assets/custom_resource_filter-definition_example-parameter.png)
 

@@ -18,7 +18,7 @@ snippet: y
 
 # Active profiles{#active-profiles}
 
-Adobe Campaign provides a report that displays the number of active profiles. This report is only informative, it doesn't have a direct impact on billing. Only administrators can access this report, under **[!UICONTROL Administration > Customer metrics]** . 
+Adobe Campaign provides a report that displays the number of active profiles. This report is only informative, it doesn't have a direct impact on billing. Only administrators can access this report, under **[!UICONTROL Administration > Customer metrics]**. 
 
 ![](assets/audience_active_profiles1.png)
 

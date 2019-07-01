@@ -137,7 +137,7 @@ To add the Google reCAPTCHA V3 to you landing page, you first need to configure 
 For a Google reCAPTCHA V3 external account, provide the following details:
 
 * A **[!UICONTROL Label]** and **[!UICONTROL ID]** of your external account
-* **[!UICONTROL Type]** : Google reCAPTCHA
+* **[!UICONTROL Type]**: Google reCAPTCHA
 * Your **[!UICONTROL Site key]** and **[!UICONTROL Site secret]** 
 * A **[!UICONTROL Threshold]** between 0 and 1
 

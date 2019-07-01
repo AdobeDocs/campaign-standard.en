@@ -69,12 +69,12 @@ The program is created and displayed. Use the **[!UICONTROL Create]** button to 
 In programs and sub-programs, you can add campaigns. Campaigns can contain marketing activities such as emails, SMS, push notifications, workflows, and landing pages.
 
 1. From the Adobe Campaign home page, select the **[!UICONTROL Programs & Campaigns]** card and access a program or sub-program. 
-1. Click on the **[!UICONTROL Create]** button and select **[!UICONTROL Campaign]** .
+1. Click on the **[!UICONTROL Create]** button and select **[!UICONTROL Campaign]**.
 1. In the **[!UICONTROL Creation mode]** screen, select a campaign type.
 
    ![](assets/programs_and_campaigns_7.png)
 
-   The campaign types available are based on templates defined in **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Campaign templates]** . For more on this, refer to the [Managing templates](../../start/using/about-templates.md) section.
+   The campaign types available are based on templates defined in **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Campaign templates]**. For more on this, refer to the [Managing templates](../../start/using/about-templates.md) section.
 
 1. In the **[!UICONTROL Properties]** screen, enter the name and ID of the campaign.
 1. Select a start and end date to your campaign. These dates only apply to the campaign itself.

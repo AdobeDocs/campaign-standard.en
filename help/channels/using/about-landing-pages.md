@@ -11,7 +11,7 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 discoiquuid: ca8d1698-6e8a-4f5a-b017-74a152e14286
-
+context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 ---
@@ -26,10 +26,10 @@ Campaign comes with landing pages which are web forms that can be used to captur
 
 Campaign comes with a set of built-in landing page templates:
 
-* **[!UICONTROL Acquisition]** : this is the default template for landing pages, which enables you to capture and update data in Campaign database.
-* **[!UICONTROL Subscription]** : this template should be used to offer subscriptions to a service.
-* **[!UICONTROL Unsubscription]** : this template can be linked from an email sent to subscribers to a service, to allow them to unsubscribe this service.
-* **[!UICONTROL Blacklist]** : this template should be used when a profile no longer wants to be contacted by Campaign. For more about blacklisting, refer to [About opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+* **[!UICONTROL Acquisition]**: this is the default template for landing pages, which enables you to capture and update data in Campaign database.
+* **[!UICONTROL Subscription]**: this template should be used to offer subscriptions to a service.
+* **[!UICONTROL Unsubscription]**: this template can be linked from an email sent to subscribers to a service, to allow them to unsubscribe this service.
+* **[!UICONTROL Blacklist]**: this template should be used when a profile no longer wants to be contacted by Campaign. For more about blacklisting, refer to [About opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 These templates are proposed by default when creating a new landing page.
 

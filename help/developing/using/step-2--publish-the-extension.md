@@ -18,7 +18,7 @@ snippet: y
 
 # Step 2: Publish the extension{#step-publish-the-extension}
 
-1. From the advanced menu, via the Adobe Campaign logo, select **[!UICONTROL Administration]** > **[!UICONTROL Development]** , then **[!UICONTROL Publication]** .
+1. From the advanced menu, via the Adobe Campaign logo, select **[!UICONTROL Administration]** > **[!UICONTROL Development]**, then **[!UICONTROL Publication]**.
 1. Click the **[!UICONTROL Prepare Publication]** button.
 1. Select the **[!UICONTROL Create the Profiles & Services Ext API]** option.
 

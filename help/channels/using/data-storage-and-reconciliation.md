@@ -11,7 +11,7 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 discoiquuid: 899c7152-f415-4df9-b4b4-5ff3470a4e32
-
+context-tags: landingPage,main
 internal: n
 snippet: y
 ---
@@ -26,7 +26,7 @@ To do this:
 
    ![](assets/lp_parameters_4.png)
 
-1. Select the **[!UICONTROL Reconciliation key]** : these database fields (for example: email, first name, last name) are used to determine whether the visitor has a profile that is already known in the Adobe Campaign database. This allows you to update or create a profile, according to the update strategy parameters defined.
-1. Define the **[!UICONTROL Form parameter mapping]** : this section allows you to map the landing page field parameters and those used in the reconciliation key.
-1. Select the **[!UICONTROL Update strategy]** : if the reconciliation key recovers an existing database profile, you can choose for this profile to be updated with the data entered in the form or instead prevent this update.
+1. Select the **[!UICONTROL Reconciliation key]**: these database fields (for example: email, first name, last name) are used to determine whether the visitor has a profile that is already known in the Adobe Campaign database. This allows you to update or create a profile, according to the update strategy parameters defined.
+1. Define the **[!UICONTROL Form parameter mapping]**: this section allows you to map the landing page field parameters and those used in the reconciliation key.
+1. Select the **[!UICONTROL Update strategy]**: if the reconciliation key recovers an existing database profile, you can choose for this profile to be updated with the data entered in the form or instead prevent this update.
 

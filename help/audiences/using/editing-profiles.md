@@ -40,9 +40,8 @@ Profiles edition is also possible using the Adobe Campaign Standard API. For mor
 
 Related topic:
 
-[Integrated customer profile](../../audiences/using/integrated-customer-profile.md)
-
-[Sending at the recipient's time zone](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)
+* [Integrated customer profile](../../audiences/using/integrated-customer-profile.md)
+* [Sending at the recipient's time zone](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)
 
 ## General profile data {#general-profile-data}
 

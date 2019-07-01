@@ -42,7 +42,7 @@ You can create an email from a [campaign](../../start/using/marketing-activities
 
 1. Define the target of your message based on your business criteria. See [Managing profiles](../../audiences/using/about-profiles.md).
 
-   You also define the test profiles who will validate the message. See [Managing test profiles](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles).
+   You can also define the test profiles who will validate the message. See [Managing test profiles](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles).
 
    ![](assets/email_creation_3.png)
 

@@ -39,7 +39,7 @@ To retrieve existing content form a URL, follow the steps below:
    ![](assets/email_designer_importfromurl.png)
 
 1. Define the URL from which the content will be retrieved.
-1. Click **[!UICONTROL Confirm]** .
+1. Click **[!UICONTROL Confirm]**.
 
 **Related topic:**
 

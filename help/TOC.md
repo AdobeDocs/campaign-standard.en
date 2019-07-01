@@ -2,12 +2,11 @@
 product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
-index: n
 ---
 
 # Adobe Campaign Standard Help {#using}
 
-+ [Adobe Campaign Standard product documentation](campaign-standard-home.md)
++ [Product documentation](campaign-standard-home.md)
 + Release Notes {#release-notes}
   + [Release Notes](rn/using/release-notes.md)
   + [Release Notes 2018](rn/using/release-notes-2018.md)

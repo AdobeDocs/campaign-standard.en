@@ -11,7 +11,7 @@ audience: channels
 content-type: reference
 topic-tags: in-app-messaging
 discoiquuid: a4168cfb-22bf-4ab3-b9d8-6e76e1bdc055
-
+context-tags: delivery,triggers,back
 internal: n
 snippet: y
 ---
@@ -46,4 +46,4 @@ To learn how to configure Experience Platform SDKs, refer to this [page](https:/
 * [Customizing an In-App message](../../channels/using/customizing-an-in-app-message.md)
 * [Customizing a local notification message type](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 * [Sending an In-App message within a workflow](../../automating/using/in-app-delivery.md)
-
+* [Push and In-App FAQ](https://helpx.adobe.com/campaign/kb/push_inapp_faq.html)

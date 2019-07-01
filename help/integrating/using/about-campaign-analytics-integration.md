@@ -31,7 +31,7 @@ This integration is available for email deliveries only.
 
 An integration between Adobe Analytics' core service **Triggers** and Adobe Campaign is also available. It allows you to send personalized emails to your customers as a reaction to specific behaviors that are tracked on your website by Adobe Analytics (within 15 minutes).
 
-Related topics:
+**Related topics:**
 
 * [Campaign dimensions and metrics in Analytics](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
 * [Reporting](../../reporting/using/about-dynamic-reports.md)

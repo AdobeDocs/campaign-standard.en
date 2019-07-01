@@ -162,7 +162,7 @@ Now that your email structure is populated, you can edit the style of each conte
 
 You can create your own content fragments to use them as needed in one or more emails.
 
-1. Go to **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** and click **[!UICONTROL Create]** .
+1. Go to **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** and click **[!UICONTROL Create]**.
 1. Click the email label to access the **[!UICONTROL Properties]** tab of the Email Designer.
 1. Specify a recognizable label and select the following parameters to find the fragment later in new emails:
 
@@ -201,7 +201,7 @@ To save as a fragment some email content that you created, follow the steps belo
 
 1. When editing an email in the Email Designer, select **[!UICONTROL Edit]** > **[!UICONTROL HTML]** to open the HTML version of that email.
 1. Select and copy the HTML corresponding to the part that you want to save.
-1. Go to **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** and click **[!UICONTROL Create]** .
+1. Go to **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** and click **[!UICONTROL Create]**.
 1. Click the email label to access the **[!UICONTROL Properties]** tab of the Email Designer and select **[!UICONTROL Fragment]** from the **[!UICONTROL HTML type]** drop-down list.
 1. Select **[!UICONTROL Edit]** > **[!UICONTROL HTML]** to open the HTML version of the fragment.
 1. Paste the HTML that you copied where appropriate.

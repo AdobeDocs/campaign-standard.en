@@ -32,7 +32,7 @@ As a cloud-based solution, Adobe Campaign offers administrators different ways t
 
 The different Adobe Campaign admin operations are carried out via the **[!UICONTROL Administration]** menu. This part of the interface can only be accessed by functional administrators of the platform.
 
-To access this menu, click the **[!UICONTROL Adobe Campaign]** logo, in the top left-hand corner, then click **[!UICONTROL Administration]** .
+To access this menu, click the **[!UICONTROL Adobe Campaign]** logo, in the top left-hand corner, then click **[!UICONTROL Administration]**.
 
 ![](assets/admin_overview.png)
 

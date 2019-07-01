@@ -64,11 +64,11 @@ Each table and visualization is resizable and can be moved to better customize y
 
    The **[!UICONTROL Column settings]** is composed of:
 
-    * **[!UICONTROL Number]** : lets you show or hide summary numbers in the column.
-    * **[!UICONTROL Percent]** : lets you show or hide percent in the column.
-    * **[!UICONTROL Interpret zero as no value]** : lets you show or hide when value equals zero.
-    * **[!UICONTROL Background]** : lets you show or hide the horizontal progress bar in cells.
-    * **[!UICONTROL Include retries]** : lets you include retries in the result. This is only available for **[!UICONTROL Sent]** and **[!UICONTROL Bounces + Errors]** .
+    * **[!UICONTROL Number]**: lets you show or hide summary numbers in the column.
+    * **[!UICONTROL Percent]**: lets you show or hide percent in the column.
+    * **[!UICONTROL Interpret zero as no value]**: lets you show or hide when value equals zero.
+    * **[!UICONTROL Background]**: lets you show or hide the horizontal progress bar in cells.
+    * **[!UICONTROL Include retries]**: lets you include retries in the result. This is only available for **[!UICONTROL Sent]** and **[!UICONTROL Bounces + Errors]**.
 
 1. Select one or multiple rows and click the **Visualize** icon. A visualization is added to reflect the rows you have selected.
 

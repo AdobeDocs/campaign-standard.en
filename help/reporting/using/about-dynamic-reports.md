@@ -73,13 +73,13 @@ By accepting this agreement, every European and non-European data will be transf
 
 Three options are available:
 
-* **[!UICONTROL Ask me later]** : By clicking Ask me later, the window will stop showing for 24 hours.
-* **[!UICONTROL Accept]** : By accepting this agreement, you authorize Adobe Campaign to collect your customers' Personal identification information and to transfer them to the United States.
-* **[!UICONTROL Decline]** : By declining the agreement, the profile dimensions will not appear in your reports and your customers' Personal identification information will not be collected or sent.
+* **[!UICONTROL Ask me later]**: By clicking Ask me later, the window will stop showing for 24 hours.
+* **[!UICONTROL Accept]**: By accepting this agreement, you authorize Adobe Campaign to collect your customers' Personal identification information and to transfer them to the United States.
+* **[!UICONTROL Decline]**: By declining the agreement, the profile dimensions will not appear in your reports and your customers' Personal identification information will not be collected or sent.
 
-This choice is not final, you can always change it by selecting **[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]** in **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Options]** .
+This choice is not final, you can always change it by selecting **[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]** in **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Options]**.
 
-The value can be changed at any time. The value -1 corresponds to **[!UICONTROL Ask me later]** , 1 **[!UICONTROL Accept]** and 0 **[!UICONTROL Decline]** .
+The value can be changed at any time. The value -1 corresponds to **[!UICONTROL Ask me later]**, 1 **[!UICONTROL Accept]** and 0 **[!UICONTROL Decline]**.
 
 ![](assets/pii_window_2.png)
 
