@@ -246,7 +246,8 @@ Preparing messages is detailed in the [Approving messages](../../sending/using/p
   >Typologies, which can be accessed via the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** menu, are presented in the [Typologies](../../administration/using/about-typology-rules.md) section.
 
 * **[!UICONTROL Compute the label during delivery preparation]**: allows you to calculate the label value of the email during the message preparation phase using personalization fields, content blocks, and dynamic text.
-It is also possible to personalize the delivery label with events variables that have been declared into the workflow's external signal activity. For more on this, refer to (this section)[/help/automating/using/calling-a-workflow-with-external-parameters.md].
+
+  It is also possible to personalize the delivery label with events variables that have been declared into the workflow's external signal activity. For more on this, refer to (this section)[/help/automating/using/calling-a-workflow-with-external-parameters.md].
 
 * **[!UICONTROL Save SQL queries in the log]**: this option allows you to add SQL query logs in the journal during the preparation phase.
 
