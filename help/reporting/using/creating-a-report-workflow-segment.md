@@ -72,6 +72,7 @@ You first need to create a workflow with different targeted population. Here, we
 
 1. Edit the **[!UICONTROL Segment code]** for each population to be passed on through dynamic reporting.
    >[!NOTE]
+   >
    >This step is mandatory or else you will not be able to understand which segments to report on.
 
    ![](assets/report_segment_9.png)
