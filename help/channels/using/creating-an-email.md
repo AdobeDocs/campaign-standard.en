@@ -59,7 +59,9 @@ You can create an email from a [campaign](../../start/using/marketing-activities
    >
    >To be able to save your email, you first need to make some edits to the content. If you click **[!UICONTROL Cancel]** at this point, you will not complete the wizard and your email will not be created.
 
-   The email dashboard is then displayed. For more on this, see [Approving messages](../../sending/using/preparing-the-send.md).
+   The email dashboard is then displayed. It allows you to check your message and [prepare the send](../../sending/using/preparing-the-send.md).
+
+   The [**[!UICONTROL Edit properties]** in the upper-right corner allows you to edit the properties of the email. You can, for example, configure the delivery so that its label is compute at the preparation time.  Available parameters are listed in (this section)[/help/administration/using/configuring-email-channel.md#list-of-email-properties].
 
    ![](assets/delivery_dashboard_2.png)
 
