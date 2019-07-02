@@ -41,7 +41,7 @@ Follow the steps below to start the configuration:
    ![](assets/launch_1.png)
 
 1. Create the mobile application in Adobe Launch by creating a property of Mobile type. For more info, refer to the [Adobe Launch](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#create-a-new-mobile-property) documentation.
-1. Install the **[!UICONTROL Adobe Campaign (Beta)]** extension for your mobile application in Adobe Launch:
+1. Install the **[!UICONTROL Adobe Campaign Standard]** extension for your mobile application in Adobe Launch:
 
    For more information on extensions, refer to the [Adobe Launch](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard-beta) documentation.
 
