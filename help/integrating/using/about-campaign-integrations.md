@@ -18,9 +18,9 @@ snippet: y
 
 # About Campaign integrations{#about-campaign-integrations}
 
-This section details the functional integrations available between the current version of Adobe Campaign and Adobe clouds as well as its solutions.
+This section details the functional integrations available between the current version of Adobe Campaign and other solutions and services.
 
-The different integrations presented below allow you to combine the delivery functionalities and advanced campaign management functionalities of Adobe Campaign with a set of solutions created to help you personalize your users' experience.
+The different integrations presented below allow you to combine the delivery and advanced campaign management functionalities of Adobe Campaign with a set of solutions created to help you personalize your users' experience.
 
 By default, Adobe Campaign is already linked to an Adobe Experience Cloud account.
 
@@ -29,6 +29,11 @@ Depending on your environment, other solutions can also be linked to Adobe Exper
 An organization is the entity that enables an administrator to configure groups and users, and to control single sign-on in the Experience Cloud. The organization functions like a log-in company that spans all the Experience Cloud products and solutions. Most often, an organization is your company name. However, a company can have many organizations. User and organization management is detailed in the [Adobe Experience Cloud help portal](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html).
 
 If you would like to integrate data flows from other systems with Adobe Campaign, have a look at our [API documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html).
+
+>[!NOTE]
+>
+>Adobe Campaign Standard can also connect to Microsoft Dynamics 365 : this integration enables synchronization of all available Contact data in the CRM system, making all relevant Contact data available for campaign activities. For more on this integration, refer to [Working with Campaign and Dynamics 365](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html).
+
 
 <table> 
  <thead> 
