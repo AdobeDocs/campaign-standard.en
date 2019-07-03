@@ -11,7 +11,7 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 80961e73-42ec-463a-8496-cff69fab0475
-index: y
+context-tags: incremental,main
 internal: n
 snippet: y
 ---
@@ -43,15 +43,15 @@ The **[!UICONTROL Incremental query]** activity can be used for various types of
 
 1. Drag and drop an **[!UICONTROL Incremental query]** activity into your workflow.
 1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
-1. If you would like to run a query on a resource other than the profile resource, go to the activity's **[!UICONTROL Properties]** tab and select a **[!UICONTROL Resource]** and a **[!UICONTROL Targeting dimension]** .
+1. If you would like to run a query on a resource other than the profile resource, go to the activity's **[!UICONTROL Properties]** tab and select a **[!UICONTROL Resource]** and a **[!UICONTROL Targeting dimension]**.
 
-   The **[!UICONTROL Resource]** allows you to refine the filters displayed in the palette whereas the **[!UICONTROL Targeting dimension]** , contextual with regard to the resource selected, corresponds to the type of population that you would like to obtain (identified profiles, deliveries, data linked to the selected resource, etc.).
+   The **[!UICONTROL Resource]** allows you to refine the filters displayed in the palette whereas the **[!UICONTROL Targeting dimension]**, contextual with regard to the resource selected, corresponds to the type of population that you would like to obtain (identified profiles, deliveries, data linked to the selected resource, etc.).
 
 1. In the **[!UICONTROL Target]** tab, run your query by defining and combining rules.
 1. In the **[!UICONTROL Processed data]** tab, choose the incremental mode you want to use for the next executions of the workflow:
 
-    * **[!UICONTROL Use the exclusion of the results of previous executions]** : the results of previous executions for each new execution are excluded.
-    * **[!UICONTROL Use a date field]** : the next executions only take into account the results having the selected date field greater or equal to the last execution date of the **[!UICONTROL Incremental query]** activity. You can select any date field pertaining to the resource selected in the **[!UICONTROL Properties]** tab. This mode has better performance when querying large resources such as log data.
+    * **[!UICONTROL Use the exclusion of the results of previous executions]**: the results of previous executions for each new execution are excluded.
+    * **[!UICONTROL Use a date field]**: the next executions only take into account the results having the selected date field greater or equal to the last execution date of the **[!UICONTROL Incremental query]** activity. You can select any date field pertaining to the resource selected in the **[!UICONTROL Properties]** tab. This mode has better performance when querying large resources such as log data.
 
       After the first execution of the workflow, you can see in this tab the last execution date that will be used for the next execution. It is automatically updated every time the workflow is executed. You still have the possibility to override this value by manually entering a new one so that it fits your needs.
 
@@ -66,7 +66,7 @@ The **[!UICONTROL Incremental query]** activity can be used for various types of
 
 ## Enriching data {#enriching-data}
 
-Just as for a query, you can enrich the data from an **[!UICONTROL Incremental query]** . Consult the [Enriching data](../../automating/using/query.md#enriching-data) section.
+Just as for a query, you can enrich the data from an **[!UICONTROL Incremental query]**. Consult the [Enriching data](../../automating/using/query.md#enriching-data) section.
 
 ## Example: incremental query on subscribers to a service {#example--incremental-query-on-subscribers-to-a-service}
 
@@ -86,7 +86,7 @@ The workflow is up made up of the following elements:
 
 * An **[!UICONTROL Email delivery]** activity. The workflow is executed once a week, but you can aggregate the emails sent and the results per month, for example to generate reports over a period of an entire month and not just a single week.
 
-  To do this, choose to create a **[!UICONTROL Recurring email]** here regrouping the emails and the results **[!UICONTROL By month]** .
+  To do this, choose to create a **[!UICONTROL Recurring email]** here regrouping the emails and the results **[!UICONTROL By month]**.
 
   Define the content of your email and insert the welcome promo code.
 

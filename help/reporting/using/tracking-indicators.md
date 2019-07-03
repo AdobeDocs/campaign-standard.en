@@ -11,7 +11,7 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 discoiquuid: 64abc885-2aec-423f-bf5b-5a623a16ca6d
-index: y
+
 internal: n
 snippet: y
 ---
@@ -28,7 +28,7 @@ The **[!UICONTROL Tracking indicators]** report contains the key indicators for 
 
 The **[!UICONTROL Tracking indicators]** table and **Top 5 deliveries** graph contain the available data for email tracking, such as:
 
-* **[!UICONTROL Delivered]** : The number of messages successfully sent. Errors raised (bounces) are taken into account. however, complaints (spam declarations) and away messages such as "out of office" are not taken into account.
+* **[!UICONTROL Delivered]**: The number of messages successfully sent. Errors raised (bounces) are taken into account. however, complaints (spam declarations) and away messages such as "out of office" are not taken into account.
 * **Open**: The number of times a message was opened in a delivery.
 * **Click**: The number of times content was clicked in a delivery.
 * **Unsubscribed**: The number of clicks on the subscription link.

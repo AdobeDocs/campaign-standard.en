@@ -11,7 +11,7 @@ audience: automating
 content-type: reference
 topic-tags: filtering-data
 discoiquuid: 4375153c-0621-4d4c-bfcc-66d157f04f6c
-index: y
+context-tags: queryFilter,overview;audience,main
 internal: n
 snippet: y
 ---
@@ -82,8 +82,8 @@ The standard expressions are made up of one or several conditions that respect t
 
 * If you would like to use several conditions, they can be combined using logical operators.
 
-    * **[!UICONTROL AND]** : two conditions are intersected.
-    * **[!UICONTROL OR]** : two conditions are combined.
+    * **[!UICONTROL AND]**: two conditions are intersected.
+    * **[!UICONTROL OR]**: two conditions are combined.
 
 For example:
 
@@ -111,8 +111,8 @@ JavaScript expressions are made up of one or multiple conditions, and they use t
 
 * If you would like to use several conditions, they can be combined using logical operators.
 
-    * **[!UICONTROL &&]** : two conditions are intersected.
-    * **[!UICONTROL ||]** : two conditions are combined.
+    * **[!UICONTROL &&]**: two conditions are intersected.
+    * **[!UICONTROL ||]**: two conditions are combined.
 
 For example:
 
@@ -199,7 +199,7 @@ Conditions must be linked to values by using one of the following operators.
    <td> <span class="uicontrol">Not like</span> <br /> </td> 
    <td> NOT<br /> </td> 
    <td> N/A<br /> </td> 
-   <td> Is similar to <span class="uicontrol">Like</span> . It lets you not recover the entered value. Here too, the entered value must contain the <span class="uicontrol">%</span> wild card character.<br /> </td> 
+   <td> Is similar to <span class="uicontrol">Like</span>. It lets you not recover the entered value. Here too, the entered value must contain the <span class="uicontrol">%</span> wild card character.<br /> </td> 
    <td> <strong>@lastName NOT Smi%h</strong>. Here, the recipients correspond to the name 'Smi%h' (so Smith, etc.) are not returned as a result.<br /> </td> 
   </tr> 
   <tr> 

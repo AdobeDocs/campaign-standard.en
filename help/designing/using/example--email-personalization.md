@@ -11,7 +11,7 @@ audience: designing
 content-type: reference
 topic-tags: personalizing-content
 discoiquuid: d1b618ac-a842-41e8-9ba6-7a50f7315b02
-index: y
+
 internal: n
 snippet: y
 ---
@@ -80,7 +80,7 @@ In this example, the dynamic contents applied to the texts are configured as fol
 
 1. Select the structure component you want and add a dynamic content.
 1. Edit the dynamic content and configure the targeting expressions. Refer to [Configuring images](../../designing/using/example--email-personalization.md#configuring-images).
-1. In the structure component, at the desired position, click the **[!UICONTROL Personalize]** icon from the contextual toolbar and select **[!UICONTROL Insert personalization field]** .
+1. In the structure component, at the desired position, click the **[!UICONTROL Personalize]** icon from the contextual toolbar and select **[!UICONTROL Insert personalization field]**.
 
    ![](assets/delivery_content_53.png)
 
@@ -94,7 +94,7 @@ In this example, the dynamic contents applied to the texts are configured as fol
 
 1. Select the structure component you want and add a dynamic content.
 1. Edit the dynamic content and configure the targeting expressions. Refer to [Configuring images](../../designing/using/example--email-personalization.md#configuring-images).
-1. In the structure component, at the desired position, click the **[!UICONTROL Personalize]** icon from the contextual toolbar and select **[!UICONTROL Insert personalization field]** .
+1. In the structure component, at the desired position, click the **[!UICONTROL Personalize]** icon from the contextual toolbar and select **[!UICONTROL Insert personalization field]**.
 1. Select **[!UICONTROL Title]** from the drop-down list.
 1. Proceed similarly to add the **[!UICONTROL Last name]** field.
 
@@ -104,7 +104,7 @@ Your personalization fields should now be perfectly inserted into the chosen dyn
 
 ## Previewing emails {#previewing-emails}
 
-Previewing allows you to check that the personalization fields and the dynamic contents are configured correctly before sending the **[!UICONTROL Proofs]** . During the preview, you can select different test profiles corresponding to the email targets.
+Previewing allows you to check that the personalization fields and the dynamic contents are configured correctly before sending the **[!UICONTROL Proofs]**. During the preview, you can select different test profiles corresponding to the email targets.
 
 Without test profiles, the email that appears by default is:
 

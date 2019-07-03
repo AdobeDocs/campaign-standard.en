@@ -11,7 +11,7 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 discoiquuid: 752f2aed-f897-485e-b329-f3cc1756ee8e
-index: y
+context-tags: fileTransfer,main
 internal: n
 snippet: y
 ---
@@ -98,7 +98,7 @@ You can use this activity to recover data that will then be structured with the 
 
     * **[!UICONTROL Delete the source files after transfer]** 
     * **[!UICONTROL Disable passive mode]** 
-    * **[!UICONTROL List all files]** : this option is available when selecting the **[!UICONTROL File listing]** action. It allows you to index all the files present on the server in the **vars.filenames** event variable in which the file names are separated by the **'n'** characters.
+    * **[!UICONTROL List all files]**: this option is available when selecting the **[!UICONTROL File listing]** action. It allows you to index all the files present on the server in the **vars.filenames** event variable in which the file names are separated by the **'n'** characters.
 
 1. The **[!UICONTROL If no files are found]** section of the **[!UICONTROL Advanced options]** tab allows you to configure specific actions if any errors or inexistent files are detected when the activity is started.
 

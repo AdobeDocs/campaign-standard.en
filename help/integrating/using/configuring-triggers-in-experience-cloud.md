@@ -11,7 +11,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 discoiquuid: 4163dc0c-8103-4425-b8bf-7aa45c4d3a06
-index: y
+
 internal: n
 snippet: y
 ---
@@ -96,7 +96,7 @@ An Adobe Experience Cloud trigger needs to be created so that you can use it in 
 
 Create a new trigger in Experience Cloud and make sure you select the report suite used on your website. Make sure you choose the right dimension so that the trigger will fire.
 
-Refer to the [Adobe Experience Cloud documentation](https://marketing.adobe.com/resources/help/en_US/mcloud/triggers.html) and watch this [video](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two) .
+Refer to the [Adobe Experience Cloud documentation](https://marketing.adobe.com/resources/help/en_US/mcloud/triggers.html) and watch this [video](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two).
 
 ## Triggers best practices and limitations {#triggers-best-practices-and-limitations}
 

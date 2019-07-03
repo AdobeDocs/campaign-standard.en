@@ -11,7 +11,7 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 356d4d4f-3d5a-468c-bff8-96767cd8fff6
-index: y
+context-tags: extAccountMobile,overview;extAccount,main;delivery,smsContent,back
 internal: n
 snippet: y
 ---
@@ -28,8 +28,8 @@ The external account **[!UICONTROL SMS routing via SMPP]** is provided by defaul
 
 If you want to use the SMPP protocol, you can also create a new external account. For more information on SMS protocol and settings, refer to this [technical note](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html).
 
-1. Create a new external account from **[!UICONTROL Administration > Application settings > External accounts]** .
-1. Define the account type as **[!UICONTROL Routing]** , the channel as **[!UICONTROL Mobile (SMS)]** and the delivery mode as **[!UICONTROL Bulk delivery]** .
+1. Create a new external account from **[!UICONTROL Administration > Application settings > External accounts]**.
+1. Define the account type as **[!UICONTROL Routing]**, the channel as **[!UICONTROL Mobile (SMS)]** and the delivery mode as **[!UICONTROL Bulk delivery]**.
 
    Once these routing parameters have been defined, the SMS connector ( **[!UICONTROL Generic SMPP]** ) is selected automatically. This connector allows Adobe Campaign to send SMS messages directly to the targeted profiles by connecting to a short message service center (SMS-C) via the SMPP protocol.
 
@@ -348,7 +348,7 @@ The specific parameters for sending SMS messages are regrouped in the **[!UICONT
 
 * The **[!UICONTROL Transmission mode]** field allows you to determine the delivery method for SMS messages:
 
-    * **[!UICONTROL Saved on SIM card]** : the message is stored on the recipient's telephone SIM card.
-    * **[!UICONTROL Saved on mobile]** : the message is stored on the telephone's internal memory.
-    * **[!UICONTROL Flash]** : the message is displayed on the recipient's mobile telephone as a notification, then it disappears without being saved.
+    * **[!UICONTROL Saved on SIM card]**: the message is stored on the recipient's telephone SIM card.
+    * **[!UICONTROL Saved on mobile]**: the message is stored on the telephone's internal memory.
+    * **[!UICONTROL Flash]**: the message is displayed on the recipient's mobile telephone as a notification, then it disappears without being saved.
 

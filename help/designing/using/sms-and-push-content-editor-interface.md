@@ -11,7 +11,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-sms-and-push-content
 discoiquuid: 4e214eb9-d299-4095-b786-8d1de9b1c8a2
-index: y
+context-tags: delivery,smsContent,back
 internal: n
 snippet: y
 ---

@@ -11,7 +11,7 @@ audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
 discoiquuid: 305cadde-6424-4c6f-b11b-1e8bdbad6ef1
-index: y
+
 internal: n
 snippet: y
 ---
@@ -29,7 +29,7 @@ A set of default rules available in Adobe Campaign ensures the standard controls
 * **Check unsubscription link** (email): checks for the presence of at least one unsubscription (opt-out) URL in each content (HTML and Text).
 * **[!UICONTROL Check delivery size]** (all channels): checks the size of the messages.
 * **[!UICONTROL Check social network sharing link]** (email): checks the presence of a link to a mirror page when including a social network sharing link (ViralLinks) in the content.
-* **[!UICONTROL A/B Test]** : extracts the test population for a delivery with an A/B test.
+* **[!UICONTROL A/B Test]**: extracts the test population for a delivery with an A/B test.
 
 You can choose the moment at which the rule will be applied from one of the phases of the delivery's life cycle. Select the value to apply in the drop-down list from the **[!UICONTROL Phase]** field of the typology rule.
 

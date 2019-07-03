@@ -11,7 +11,7 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
-index: y
+
 internal: n
 snippet: y
 ---
@@ -28,11 +28,11 @@ In the message dashboard, the **[!UICONTROL Schedule]** block allows you to defi
 
 The **[!UICONTROL Schedule]** properties let you set sending options for your emails, SMS or push notifications:
 
-* **[!UICONTROL Messages to be sent once confirmed]** : messages are sent as soon as the send is confirmed. See [Confirming the send](../../sending/using/confirming-the-send.md).
+* **[!UICONTROL Messages to be sent once confirmed]**: messages are sent as soon as the send is confirmed. See [Confirming the send](../../sending/using/confirming-the-send.md).
 
   ![](assets/delivery_planning_1.png)
 
-* **[!UICONTROL Messages to be sent automatically on the date specified below]** : messages will be sent at a later date and time. Specify the **contact date** in the **Start sending from** field.
+* **[!UICONTROL Messages to be sent automatically on the date specified below]**: messages will be sent at a later date and time. Specify the **contact date** in the **Start sending from** field.
 
   You can prepare and confirm the send, but messages will only be sent starting the selected date and time. Preparing and confirming the send are presented in the [Preparing the send](../../sending/using/preparing-the-send.md) and [Confirming the send](../../sending/using/confirming-the-send.md) sections.
 

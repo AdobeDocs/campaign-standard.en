@@ -11,7 +11,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
 discoiquuid: 45ddf7b7-98f7-4fdd-bb4a-49ec8490e877
-index: y
+
 internal: n
 snippet: y
 ---
@@ -40,7 +40,7 @@ Before accessing the image in Adobe Campaign, the following tasks must first be 
 
 1. Enter the name of the rawbox specified in Adobe Target.
 1. If you use Enterprise permissions in your settings in Adobe Target, add the corresponding property in this field. Learn more about Target Enterprise permissions in [this page](https://marketing.adobe.com/resources/help/en_US/target/target/properties-overview.html). This field is optional and not required if you don't use Enterprise permissions in Target.
-1. In **[!UICONTROL Additional decision parameters]** , specify the mapping between the fields defined in the Adobe Target segments and the Adobe Campaign fields.
+1. In **[!UICONTROL Additional decision parameters]**, specify the mapping between the fields defined in the Adobe Target segments and the Adobe Campaign fields.
 
    The Adobe Campaign fields used must have been specified in the rawbox. Here, we will define different experiences depending of the recipient's gender.
 

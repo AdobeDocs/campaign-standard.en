@@ -11,7 +11,7 @@ audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 discoiquuid: a51351ee-e3b6-4996-9e68-b7d5157b8207
-index: y
+
 internal: n
 snippet: y
 ---

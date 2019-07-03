@@ -11,7 +11,7 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 discoiquuid: 4ab8a984-f898-4fff-ad8c-ed8f95362f96
-index: y
+
 internal: n
 snippet: y
 ---
@@ -33,7 +33,7 @@ As an example, to create a new profile directly in the user interface, follow th
 
    ![](assets/profile_creation_1.png)
 
-1. Then click **[!UICONTROL Create]** .
+1. Then click **[!UICONTROL Create]**.
 
    ![](assets/profile_creation.png)
 

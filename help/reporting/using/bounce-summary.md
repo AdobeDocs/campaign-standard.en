@@ -11,7 +11,7 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 discoiquuid: 5ae561b4-03cf-4541-87ff-47f1027d53b8
-index: y
+
 internal: n
 snippet: y
 ---
@@ -28,17 +28,17 @@ Each table is represented by summary numbers and charts. You can change how the 
 
 The **Bounce reasons** table contains the available data for the types of errors that caused bounces for each delivery:
 
-* **[!UICONTROL User unknown]** : The type of error generated when a delivery is sent to an invalid email address.
-* **[!UICONTROL Invalid domain]** : The type of error generated when a delivery is sent to an email address whose domain is wrong or no longer exists.
-* **[!UICONTROL Unreachable]** : The type of error encountered in the message delivery string. For example, SMTP relay incident, domain temporarily unreachable, etc. 
-* **[!UICONTROL Account disabled]** : The type of error generated when a delivery is sent to an email address that no longer exists.
-* **[!UICONTROL Mailbox full]** : The type of error generated when the recipient's inbox is full. There are five attempts to deliver the message before this error is generated.
-* **[!UICONTROL Not connected]** : The type of error generated when the recipient's mobile phone is off or it is not connected to a network at the time the message is sent.
+* **[!UICONTROL User unknown]**: The type of error generated when a delivery is sent to an invalid email address.
+* **[!UICONTROL Invalid domain]**: The type of error generated when a delivery is sent to an email address whose domain is wrong or no longer exists.
+* **[!UICONTROL Unreachable]**: The type of error encountered in the message delivery string. For example, SMTP relay incident, domain temporarily unreachable, etc. 
+* **[!UICONTROL Account disabled]**: The type of error generated when a delivery is sent to an email address that no longer exists.
+* **[!UICONTROL Mailbox full]**: The type of error generated when the recipient's inbox is full. There are five attempts to deliver the message before this error is generated.
+* **[!UICONTROL Not connected]**: The type of error generated when the recipient's mobile phone is off or it is not connected to a network at the time the message is sent.
 
   >[!NOTE]
   >
   >This type of error only concerns deliveries on mobile channels.
 
-* **[!UICONTROL Refused]** : The type of error generated when an address is refused by the Internet service provider (ISP). For example, when a security rule has been applied by anti-Spam software.
+* **[!UICONTROL Refused]**: The type of error generated when an address is refused by the Internet service provider (ISP). For example, when a security rule has been applied by anti-Spam software.
 
 The **Domain repartition** table displays the overall problems encountered during the deliveries according to the recipient domain.

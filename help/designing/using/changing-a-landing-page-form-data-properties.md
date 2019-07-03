@@ -11,7 +11,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-landing-page-content
 discoiquuid: 2a21cf84-3db9-428f-833e-3f0f8bde7f53
-index: y
+
 internal: n
 snippet: y
 ---

@@ -11,7 +11,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 discoiquuid: bf718329-f181-46f7-80a2-b525a8dee46d
-index: y
+
 internal: n
 snippet: y
 ---

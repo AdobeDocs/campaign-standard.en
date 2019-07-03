@@ -11,7 +11,7 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 discoiquuid: 6f60c653-1d12-4d27-9bc8-ce8c19bca466
-index: y
+context-tags: orgUnit,overview;orgUnit,main;geoUnit,overview;geoUnit,main
 internal: n
 snippet: y
 ---
@@ -46,13 +46,13 @@ Here, we previously created security groups with different roles to two users: o
 
 We now need to create the organizational units for the Geometrixx Clothes and Geometrixx security groups:
 
-1. From Adobe campaign advanced menu, select **[!UICONTROL Administration]** > **[!UICONTROL Users & security]** > **[!UICONTROL Organizational units]** .
+1. From Adobe campaign advanced menu, select **[!UICONTROL Administration]** > **[!UICONTROL Users & security]** > **[!UICONTROL Organizational units]**.
 1. Click **[!UICONTROL Create]** to start configuring your organizational unit.
 
    ![](assets/manage_units_1.png)
 
 1. Change the default **[!UICONTROL Label]** and **[!UICONTROL ID]** to Geometrixx.
-1. Then, link this unit to a parent unit. Here, we chose **[!UICONTROL All]** .
+1. Then, link this unit to a parent unit. Here, we chose **[!UICONTROL All]**.
 
    ![](assets/manage_units_2.png)
 
@@ -63,7 +63,7 @@ We now need to create the organizational units for the Geometrixx Clothes and Ge
 
 To see the impact of assigning different units to different security group, the user assigned to the Administrator and Geometrixx groups will create two email templates to see what the other user assigned to Standard User and Geometrixx Clothes can or cannot access.
 
-1. From the advanced menu, select **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery Templates]** .
+1. From the advanced menu, select **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery Templates]**.
 1. Duplicate an existing template and personalize it as needed. For more on this, refer to the [About templates](../../start/using/about-templates.md) section.
 1. When the template is created, select the **[!UICONTROL Edit properties]** icon to assign units to your template.
 
@@ -87,7 +87,7 @@ Since the Geometrixx Clothes unit is a child unit of Geometrixx, the following m
 
 Organizational units can restrict the access to different features such as profiles. For example, if our Geometrixx Clothes user access the **[!UICONTROL Profiles]** tab, he will be able to fully access and modify the profiles with the Geometrixx Clothes organizational unit.
 
-Whereas the profiles with the Geometrixx organizational unit will be read only, the following error will appear if our user tries to modify one profile: **[!UICONTROL You do not have the rights needed to modify the 'profile' resource of ID]** .
+Whereas the profiles with the Geometrixx organizational unit will be read only, the following error will appear if our user tries to modify one profile: **[!UICONTROL You do not have the rights needed to modify the 'profile' resource of ID]**.
 
 ![](assets/manage_units_10.png)
 
@@ -109,7 +109,7 @@ Profiles with no organizational units cannot be accessed by users.
 
    ![](assets/user_management_9.png)
 
-1. Click **[!UICONTROL Save]** .
+1. Click **[!UICONTROL Save]**.
 1. Update the structure by re-publishing the custom resources. For more information about the publication process, refer to [Updating the structure](../../developing/using/data-model-concepts.md) section.
 
 The organizational unit field is added to your profiles in the **[!UICONTROL Access authorization]** section. 

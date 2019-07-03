@@ -11,7 +11,7 @@ audience: designing
 content-type: reference
 topic-tags: loading-content
 discoiquuid: 1ee53dae-1aaa-4f72-af71-c8031dec3265
-index: y
+
 internal: n
 snippet: y
 ---

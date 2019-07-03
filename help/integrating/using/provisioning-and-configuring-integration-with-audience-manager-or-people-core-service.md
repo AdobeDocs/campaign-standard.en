@@ -11,7 +11,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 discoiquuid: eb24f4ea-325f-433a-91a0-c45906320bcb
-index: y
+
 internal: n
 snippet: y
 ---
@@ -83,7 +83,7 @@ To do so:
    ![](assets/integration_aam_1.png)
 
 1. Enter **[!UICONTROL Receiver server]** in following format 
-1. Enter the **[!UICONTROL AWS Access Key ID]** , **[!UICONTROL Secret Access Key]** and **[!UICONTROL AWS Region]** .
+1. Enter the **[!UICONTROL AWS Access Key ID]**, **[!UICONTROL Secret Access Key]** and **[!UICONTROL AWS Region]**.
 
 Your external accounts are now configured for this integration.
 
@@ -91,14 +91,14 @@ Your external accounts are now configured for this integration.
 
 The two following data sources are created inside Audience manager: Adobe Campaign (MID) and Adobe Campaign (DeclaredId). At the same time, these two data sources are available in Adobe Campaign:
 
-* **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]** : This is an out-of-the-box data source configured by default for Visitor ID. Segments created from Campaign will be part of this data source.
+* **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]**: This is an out-of-the-box data source configured by default for Visitor ID. Segments created from Campaign will be part of this data source.
 * **Declared ID** data source: This data source needs to be created and mapped with the **[!UICONTROL DeclaredId]** data source definition from Audience Manager.
 
 Please note that in the case of multiple websites with different domains, Adobe Campaign does not support reconciliation based on ECID.
 
 To configure the **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]** data source:
 
-1. In **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Shared Data Sources]** , select **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]** .
+1. In **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Shared Data Sources]**, select **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]**.
 
    ![](assets/integration_aam_2.png)
 
@@ -107,17 +107,17 @@ To configure the **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]** da
 
    ![](assets/integration_aam_3.png)
 
-1. In the **[!UICONTROL Reconciliation process]** category, we advise you not to change the reconciliation criteria and always use the **[!UICONTROL Visitor ID]** .
-1. Click **[!UICONTROL Save]** .
+1. In the **[!UICONTROL Reconciliation process]** category, we advise you not to change the reconciliation criteria and always use the **[!UICONTROL Visitor ID]**.
+1. Click **[!UICONTROL Save]**.
 
 To create the **[!UICONTROL Declared ID]** data source:
 
-1. In **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Shared Data Sources]** , click the **[!UICONTROL Create]** button.
+1. In **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Shared Data Sources]**, click the **[!UICONTROL Create]** button.
 1. Edit the **[!UICONTROL Label]** of your data source.
 1. In the **[!UICONTROL Data Source/ Alias]** drop-down, choose the Data Source corresponding to the **[!UICONTROL DeclaredID]** data source from Audience Manager. 
 1. Configure your data source by entering the **[!UICONTROL Data Source / Alias]** and **[!UICONTROL AAM Destination ID]** provided by Adobe.
 1. Set the **[!UICONTROL Reconciliation process]** as needed.
-1. Click **[!UICONTROL Save]** .
+1. Click **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
@@ -131,6 +131,6 @@ Here, you need to make sure the Campaign Tracking Server is registered on the do
 
 ### Step 4: Configure the Visitor ID Service {#step-4--configure-the-visitor-id-service}
 
-In the case that your Visitor ID service has never been configured on your web properties or websites, refer to the following [document](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-aam-analytics.html) to learn how to configure your service or the following [video](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two) .
+In the case that your Visitor ID service has never been configured on your web properties or websites, refer to the following [document](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-aam-analytics.html) to learn how to configure your service or the following [video](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two).
 
 Your configuration and provisioning are finalized, the integration can now be used to import and export audiences or segments.

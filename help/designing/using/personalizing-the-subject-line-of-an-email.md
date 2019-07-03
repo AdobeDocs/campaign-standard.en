@@ -11,7 +11,7 @@ audience: designing
 content-type: reference
 topic-tags: personalizing-content
 discoiquuid: f7a5e935-54cf-422e-8459-27221409a200
-index: y
+
 internal: n
 snippet: y
 ---
@@ -56,7 +56,7 @@ To test your subject line:
 1. Open the content and enter the subject of the email in the corresponding input field.
 1. Click the **[!UICONTROL Test subject]** button to access the **[!UICONTROL Test your subject line]** window. You can still edit the subject from this window.
 1. Select the correct model to be taken into account for the open rate prediction. Several models are available, each corresponding to a specific industry.
-1. Click **[!UICONTROL Test]** .
+1. Click **[!UICONTROL Test]**.
 
 Your subject is then analyzed.
 

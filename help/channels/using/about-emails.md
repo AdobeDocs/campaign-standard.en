@@ -11,7 +11,7 @@ audience: channels
 content-type: reference
 topic-tags: email-messages
 discoiquuid: 521463aa-dec0-4f4b-8b71-93a4572e2b33
-index: y
+context-tags: deliveryCreation,wizard
 internal: n
 snippet: y
 ---

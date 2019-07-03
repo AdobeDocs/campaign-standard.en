@@ -11,10 +11,9 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 discoiquuid: d5c6a3d4-f767-46c1-a8c0-3b9dc52dcea8
-index: y
 internal: n
 snippet: y
-context-tags: extAccount,main
+context-tags: extAccount,main;extAccount,overview
 ---
 
 # External accounts{#external-accounts}
@@ -131,7 +130,7 @@ To add the Google reCAPTCHA V3 to you landing page, you first need to configure 
 For a Google reCAPTCHA V3 external account, provide the following details:
 
 * A **[!UICONTROL Label]** and **[!UICONTROL ID]** of your external account
-* **[!UICONTROL Type]** : Google reCAPTCHA
+* **[!UICONTROL Type]**: Google reCAPTCHA
 * Your **[!UICONTROL Site key]** and **[!UICONTROL Site secret]** 
 * A **[!UICONTROL Threshold]** between 0 and 1
 

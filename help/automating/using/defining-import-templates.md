@@ -11,7 +11,7 @@ audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
 discoiquuid: 85d13147-fb31-446a-8476-f112c841fb82
-index: y
+
 internal: n
 snippet: y
 ---
@@ -26,25 +26,25 @@ An import template is defined by the functional administrator and can be managed
 
 Three default read-only templates are available:
 
-* **[!UICONTROL Update Direct mail quarantines and delivery logs]** : this template can serve as a basis for new imports to update quarantines and delivery logs for Direct mail. The template's workflow contains the following activities: 
-* **[!UICONTROL Import data]** : this template can serve as a basis for new imports to insert data from a file into the database. This template's workflow contains the following activities:
+* **[!UICONTROL Update Direct mail quarantines and delivery logs]**: this template can serve as a basis for new imports to update quarantines and delivery logs for Direct mail. The template's workflow contains the following activities: 
+* **[!UICONTROL Import data]**: this template can serve as a basis for new imports to insert data from a file into the database. This template's workflow contains the following activities:
 
-    * **[!UICONTROL Load file]** : this activity allows you to upload a file on the Adobe Campaign server.
-    * **[!UICONTROL Update data]** : this activity allows you to insert data from the file in the database.
+    * **[!UICONTROL Load file]**: this activity allows you to upload a file on the Adobe Campaign server.
+    * **[!UICONTROL Update data]**: this activity allows you to insert data from the file in the database.
 
-* **[!UICONTROL Import list]** : this template can serve as a basis for new imports to create a **List** type audience from data in a file. This template's workflow contains the following activities:
+* **[!UICONTROL Import list]**: this template can serve as a basis for new imports to create a **List** type audience from data in a file. This template's workflow contains the following activities:
 
-    * **[!UICONTROL Load file]** : this activity allows you to upload a file on the Adobe Campaign server.
-    * **[!UICONTROL Reconciliation]** : this activity allows you to link a targeting dimension to imported data. This then allows you to create a **List** type audience. If the targeting dimension of the imported data is not known, the audience is **File** type. See [Targeting dimensions and resources](../../automating/using/query.md#targeting-dimensions-and-resources).
-    * **[!UICONTROL Save audience]** : this activity allows you to save data imported in the form of a **List** type audience. The name of the saved audience corresponds to the name of the file imported by the user, and a suffix specifying the date and time of the import will be added. For example: 'profiles_20150406_151448'.
+    * **[!UICONTROL Load file]**: this activity allows you to upload a file on the Adobe Campaign server.
+    * **[!UICONTROL Reconciliation]**: this activity allows you to link a targeting dimension to imported data. This then allows you to create a **List** type audience. If the targeting dimension of the imported data is not known, the audience is **File** type. See [Targeting dimensions and resources](../../automating/using/query.md#targeting-dimensions-and-resources).
+    * **[!UICONTROL Save audience]**: this activity allows you to save data imported in the form of a **List** type audience. The name of the saved audience corresponds to the name of the file imported by the user, and a suffix specifying the date and time of the import will be added. For example: 'profiles_20150406_151448'.
 
 These default templates are read-only and are not visible to standard users. To create a template that will be available to users, follow these steps:
 
 1. Duplicate a default template. The duplicated template contains three tabs:
 
-    * **[!UICONTROL Properties]** : the import template's general parameters. This tab allows you to enable the template and to upload a sample file.
-    * **[!UICONTROL Workflow]** : import workflow. This tab allows you to define the workflow activities. These activities are not visible during simplified imports carried out by users.
-    * **[!UICONTROL Executed imports]** : list of imports carried out using this template. You can view the status, details and results of each import that has been carried out using this template. You can directly access the workflow (carried out in a transparent manner for the user) from this list.
+    * **[!UICONTROL Properties]**: the import template's general parameters. This tab allows you to enable the template and to upload a sample file.
+    * **[!UICONTROL Workflow]**: import workflow. This tab allows you to define the workflow activities. These activities are not visible during simplified imports carried out by users.
+    * **[!UICONTROL Executed imports]**: list of imports carried out using this template. You can view the status, details and results of each import that has been carried out using this template. You can directly access the workflow (carried out in a transparent manner for the user) from this list.
 
 1. From the **[!UICONTROL Properties]** tab, rename the template and add a description. Users will be able to view the description when the template is available.
 
@@ -74,7 +74,7 @@ These default templates are read-only and are not visible to standard users. To 
 
    ![](assets/simplified_import_model3.png)
 
-1. In the **[!UICONTROL Properties]** tab, set the **[!UICONTROL Import template status]** to **[!UICONTROL Available]** , then save the template. To stop using this template, you can set the **[!UICONTROL Import template status]** to **[!UICONTROL Archived]** .
+1. In the **[!UICONTROL Properties]** tab, set the **[!UICONTROL Import template status]** to **[!UICONTROL Available]**, then save the template. To stop using this template, you can set the **[!UICONTROL Import template status]** to **[!UICONTROL Archived]**.
 
 The template workflow can be modified by re-uploading the sample file and checking the **[!UICONTROL Load file]** configuration.
 

@@ -11,7 +11,7 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 4ba4f766-fdee-4ff0-8fe4-0612ed2b69a4
-index: y
+
 internal: n
 snippet: y
 ---
@@ -49,12 +49,12 @@ You can also configure whether columns in a list are to be displayed or not. To 
 
    For each column added, specify whether you want to apply sorting by default:
 
-    * **[!UICONTROL NO]** : No sort on the column
-    * **[!UICONTROL ASC]** : Applies an ascending (rising) sort on the column
-    * **[!UICONTROL DESC]** : Applies a descending (declining) sort on the column.
+    * **[!UICONTROL NO]**: No sort on the column
+    * **[!UICONTROL ASC]**: Applies an ascending (rising) sort on the column
+    * **[!UICONTROL DESC]**: Applies a descending (declining) sort on the column.
 
 1. Delete the columns that you do not want to be displayed by checking the boxes corresponding to the columns to delete. Then, use the ![](assets/delete.png) button from the action bar to confirm deleting them.
 1. Once your list contains the correct columns, you can change the order in which they are displayed in the list by checking the columns that you want to move. Then, use the ![](assets/arrowdown.png) and ![](assets/arrowup.png) arrows.
-1. Confirm your list configuration by selecting **[!UICONTROL OK]** .
+1. Confirm your list configuration by selecting **[!UICONTROL OK]**.
 
 Your list is now displayed as you have configured it.

@@ -11,7 +11,7 @@ audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-index: y
+
 internal: n
 snippet: y
 ---
@@ -26,7 +26,7 @@ In order to publish the API, you need to have the **[!UICONTROL Datamodel]** rol
 * Publishing the extension
 * Verifying that the extended fields are available in the API
 
-Related topics:
+**Related topics:**
 
 * [About custom resources](../../developing/using/data-model-concepts.md)
 * [API documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)

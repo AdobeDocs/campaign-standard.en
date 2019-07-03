@@ -11,7 +11,7 @@ audience: automating
 content-type: reference
 topic-tags: channel-activities
 discoiquuid: 978592b8-989a-446a-8a84-12b7fecfc130
-index: y
+context-tags: sms,main;delivery,smsContent,back
 internal: n
 snippet: y
 ---
@@ -51,8 +51,8 @@ The message preparation is triggered according to the workflow execution paramet
 
 1. Select the SMS send mode:
 
-    * **[!UICONTROL SMS]** : the SMS is sent a single time. You can specify here whether or not you would like to add an outbound transition to the activity. The different transition types are detailed in step 7 of this procedure.
-    * **[!UICONTROL Recurring SMS]** : the SMS is sent several times, according to the frequency defined in a **[!UICONTROL Scheduler]** activity. Select the aggregation period of the sends. This allows you to regroup all the sends that occur during the defined period into one single view that is also called **Recurring execution** and can be accessed from the application's marketing activity list.
+    * **[!UICONTROL SMS]**: the SMS is sent a single time. You can specify here whether or not you would like to add an outbound transition to the activity. The different transition types are detailed in step 7 of this procedure.
+    * **[!UICONTROL Recurring SMS]**: the SMS is sent several times, according to the frequency defined in a **[!UICONTROL Scheduler]** activity. Select the aggregation period of the sends. This allows you to regroup all the sends that occur during the defined period into one single view that is also called **Recurring execution** and can be accessed from the application's marketing activity list.
 
       For example, for a recurring birthday SMS, that is sent daily, you can choose to aggregate the sends per month. This allows you to receive reports on your delivery on a monthly basis although the SMS is sent every day.
 
@@ -61,8 +61,8 @@ The message preparation is triggered according to the workflow execution paramet
 1. Define the SMS content. Refer to the section concerning [Creating an SMS message](../../channels/using/creating-an-sms-message.md).
 1. By default, the **[!UICONTROL SMS delivery]** activity does not include any outbound transitions. If you would like to add an outbound transition to your **[!UICONTROL SMS delivery]** activity, go to the **[!UICONTROL General]** tab of the advanced activity options ( ![](assets/dlv_activity_params-24px.png) button in the activity's quick actions) then check one of the following options:
 
-    * **[!UICONTROL Add outbound transition without the population]** : this lets you generate an outbound transition that contains the exact same population as the inbound transition.
-    * **[!UICONTROL Add outbound transition with the population]** : this lets you generate an outbound transition containing the population to whom the SMS was sent. The members of the target excluded during the delivery preparation (quarantine, invalid number, etc.) are excluded from this transition.
+    * **[!UICONTROL Add outbound transition without the population]**: this lets you generate an outbound transition that contains the exact same population as the inbound transition.
+    * **[!UICONTROL Add outbound transition with the population]**: this lets you generate an outbound transition containing the population to whom the SMS was sent. The members of the target excluded during the delivery preparation (quarantine, invalid number, etc.) are excluded from this transition.
 
 1. Confirm the configuration of your activity and save your workflow.
 
@@ -76,7 +76,7 @@ The deliveries created within a workflow can be accessed in the application's ma
 
 The executions of recurring deliveries are masked by default, though. To view them, check the **[!UICONTROL Show recurring executions]** option in the marketing activities' search panel.
 
-In the parent deliveries, which can be accessed from the marketing activity list or directly via the associated recurring executions, you can view the total number of sends that have been processed (according to the aggregation period specified when the **[!UICONTROL SMS delivery]** activity was configured). To do this, open the detail view of the parent delivery's **[!UICONTROL Deployment]** block by selecting ![](assets/wkf_dlv_detail_button.png) .
+In the parent deliveries, which can be accessed from the marketing activity list or directly via the associated recurring executions, you can view the total number of sends that have been processed (according to the aggregation period specified when the **[!UICONTROL SMS delivery]** activity was configured). To do this, open the detail view of the parent delivery's **[!UICONTROL Deployment]** block by selecting ![](assets/wkf_dlv_detail_button.png).
 
 ## Example {#example}
 

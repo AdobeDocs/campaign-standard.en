@@ -11,7 +11,7 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 discoiquuid: fb9a8bae-214e-4255-858e-b91a987191d3
-index: y
+
 internal: n
 snippet: y
 ---
