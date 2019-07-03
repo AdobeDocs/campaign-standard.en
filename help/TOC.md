@@ -171,7 +171,6 @@ user-guide-title: Adobe Campaign Standard Help
        + [Reporting interface](reporting/using/reporting-interface.md)
        + [List of components ](reporting/using/list-of-components-.md)
        + [Indicator calculation](reporting/using/indicator-calculation.md)
-       + [Troubleshooting](reporting/using/troubleshooting.md)
   + List of reports {#list-of-reports}
        + [Defining the report period](reporting/using/defining-the-report-period.md)
        + [Bounce summary](reporting/using/bounce-summary.md)
@@ -193,7 +192,6 @@ user-guide-title: Adobe Campaign Standard Help
        + [Adding visualizations](reporting/using/adding-visualizations.md)
        + [Adding components](reporting/using/adding-components.md)
        + [Creating a custom profile dimension](reporting/using/creating-a-custom-profile-dimension.md)
-       + [Creating a report based on workflow segments](reporting/using/creating-a-report-workflow-segment.md)
 + Integrating with Adobe Cloud {#integrating-with-adobe-cloud}
   + [About Campaign integrations](integrating/using/about-campaign-integrations.md)
   + Working with Campaign and Experience Manager {#working-with-campaign-and-experience-manager}
