@@ -37,3 +37,4 @@ The **[!UICONTROL Targeting]** section provides the following activities:
 * [Deduplication](../../automating/using/deduplication.md)
 * [Enrichment](../../automating/using/enrichment.md)
 
+**[!UICONTROL Targeting]** activities allows you to define **segment codes** for their outbound transitions. You can then create reports based on these segment codes in order to measure the efficiency of your maketing campaigns. For more on this, refer to (this section)[help/reporting/using/creating-a-report-workflow-segment.md].
