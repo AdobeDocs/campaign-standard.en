@@ -91,6 +91,9 @@ To create the diagram:
    >
    >You can also duplicate existing activities by copy-pasting them. This way, you keep the settings that were originally defined. For more on this, refer to [Duplicating workflow activities](../../automating/using/workflow-interface.md#duplicating-workflow-activities).
 
+Once your workflow activities are linked together, you can personalize the transitions between them with the **label** of your choice. To do this, double-click the transition to access its properties.
+Moreover, **[!UICONTROL Targeting]** and **[!UICONTROL Data management (ETL)]** activities allows you to define **segment codes** for their outbound transitions. You can then create reports based on these segment codes in order to measure the efficiency of your maketing campaigns. For more on this, refer to (this section)[help/reporting/using/creating-a-report-workflow-segment.md].
+
 ## Configuring activities {#configuring-activities}
 
 By default, activities are not set and won't process the data correctly if they are not configured. Each activity contains several tabs to manage specific configurations and activity generic options such as outbound transitions, labels, etc.
