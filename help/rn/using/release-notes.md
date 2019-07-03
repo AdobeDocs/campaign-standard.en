@@ -29,8 +29,8 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 ### Improvements {#improvements-2}
 
 * Fixed an issue which could cause web crashes after the 19.2 upgrade. (CAMP-34862)
-* The GDPR delete query was improved for better performance.
-* Fixed an issue which could prevent you from saving or scheduling reports. (CAMP-34862)
+* The GDPR delete query has been improved for better performance.
+* Fixed an issue which could prevent you from saving or scheduling reports. (CAMP-31133)
 
 ## Release 19.2.4 - June 2019 {#release-19-2-4---june-2019}
 
