@@ -22,7 +22,9 @@ This section details the functional integrations available between the current v
 
 The different integrations presented below allow you to combine the delivery and advanced campaign management functionalities of Adobe Campaign with a set of solutions created to help you personalize your users' experience.
 
-By default, Adobe Campaign is already linked to an Adobe Experience Cloud account.
+>[!NOTE]
+>
+> By default, Adobe Campaign is already linked to an Adobe Experience Cloud account.
 
 Depending on your environment, other solutions can also be linked to Adobe Experience Cloud. They are linked as Organizations (also called Tenants).
 
@@ -45,21 +47,21 @@ If you would like to integrate data flows from other systems with Adobe Campaign
  </thead> 
  <tbody> 
   <tr> 
-   <td> Experience Manager<br /> Versions: 6.1, 6.2, 6.3, 6.4<br /> </td> 
+   <td> Experience Manager<br /> 6.1, 6.2, 6.3, 6.4<br /> </td> 
    <td> Allows you to create email contents or forms mapped to the Adobe Campaign database directly in Adobe Experience Manager.<br /> </td> 
    <td> 
      <a href="../../integrating/using/integrating-with-experience-manager.md">Work with Campaign and Experience Manager</a><br/>, <a href="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignstandard.html">Integrate Experience Manager and Campaign Standard</a> <br/>, <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_AEM.html">Create an email with Experience Manager and Campaign</a> 
     </td> 
   </tr> 
   <tr> 
-   <td> Target<br /> Versions: Classic, Standard<br /> </td> 
+   <td> Target<br /> Classic, Standard<br /> </td> 
    <td> Allows you to insert images that are dynamically computed by Adobe Target when an email created and sent by Adobe Campaign is opened.<br /> </td> 
    <td> 
     <a href="../../integrating/using/about-campaign-target-integration.md">Work with Campaign and Target</a> <br/>, <a href="https://marketing.adobe.com/resources/help/en_US/target/a4t/c_campaign_and_target.html">Integrate Campaign and Target</a><br/>, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">Personalize Email Images in Real-Time</a> video (step 3)
     </td> 
   </tr> 
   <tr> 
-   <td> Analytics<br /> Versions: Standard, Premium <br /> </td> 
+   <td> Analytics<br /> Standard, Premium <br /> </td> 
    <td> Allows you to track the success of your email deliveries directly in Adobe Analytics.<br /> </td> 
    <td> 
     <a href="../../integrating/using/about-campaign-analytics-integration.md">Share Campaign data with Analytics</a><br/>, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">Share KPIs for integrated Campaign reporting</a> video (step 1
