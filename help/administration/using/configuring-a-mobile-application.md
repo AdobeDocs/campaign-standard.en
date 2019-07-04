@@ -22,7 +22,7 @@ Push notifications or In-App messages are received on mobile applications that f
 
 * To send In-App messages and push notifications, your mobile applications need to be set up in Adobe Campaign by leveraging Adobe Experience Platform SDKs. See [Using Adobe Experience Platform SDK](../administration/using/configuring-a-mobile-application#using-adobe-experience-platform-sdk).
 
-* To send only Push notifications, you can configure the integration between Adobe Campaign and Adobe Mobile Service using SDK V4. See [Using SDK V4 ](../administration/using/configuring-a-mobile-application#using-sdk-v4}).
+* To send only Push notifications, you can configure the integration between Adobe Campaign and Adobe Mobile Service using SDK V4. See [Using SDK V4](../administration/using/configuring-a-mobile-application#using-sdk-v4}).
 
 After your mobile applications are set up in Adobe Campaign by leveraging the Experience Cloud Mobile SDK V4 or Experience Platform SDK, they need to be configured by an administrator under the [!UICONTROL Administration] > [!UICONTROL Channels] > [!UICONTROL Mobile app] menu.
 
