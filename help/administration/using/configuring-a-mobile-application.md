@@ -17,6 +17,7 @@ snippet: y
 ---
 
 # Configuring a mobile application{#configuring-a-mobile-application}
+
 ## Using SDK V4 {#using-sdk-v4}
 
 Push notification is supported by SDK V4 and Adobe Experience Platform SDKs unlike In-App. For the detailed steps to use push notifications with your mobile app, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html).
