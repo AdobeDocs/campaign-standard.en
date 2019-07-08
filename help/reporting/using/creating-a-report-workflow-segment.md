@@ -26,13 +26,20 @@ To target these segments in your reports:
 * [Step 2: Create a workflow with segments](../../reporting/using/creating-a-custom-profile-dimension.md##step-2--create-a-workflow-segments})
 * [Step 3: Create a dynamic report to filter segments](../../reporting/using/creating-a-custom-profile-dimension.md#step-3--create-a-dynamic-report-filter-segments)
 
+[!WARNING]
+> The Dynamic reporting usage agreement must be accepted to start collecting these data. 
+>
+>For more on this agreement, refer to this [page](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement}).
+
 ## Step 1: Update Profiles custom resource with segments{#step-1--update-profiles-custom-resource-segments}
 
 Before reporting on your segment code, you need to update your **[!UICONTROL Profiles]** custom resource for your segment codes to be stored.
 
 1. From the advanced menu, via the Adobe Campaign logo, select **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]**, then select the **[!UICONTROL Profile (profile)]** resource.
-1. In the **[!UICONTROL Sending logs extension]** menu from the **[!UICONTROL Data structure]** tab, check **[!UICONTROL Add segment code]** to allow storage of your segment codes from targeting workflows.
+1. In the **[!UICONTROL Sending logs extension]** menu from the **[!UICONTROL Data structure]** tab, check **[!UICONTROL Add segment code]** to allow storage of your segment codes from targeting workflows and to send it to dynamic reporting.
 
+    The **[!UICONTROL Segment code]** will then be available in the **[!UICONTROL Profile]** dimension section of your report.
+    
    ![](assets/report_segment_4.png)
 
 1. Save your custom resource.
@@ -46,7 +53,12 @@ From the advanced menu, select **[!UICONTROL Administration]** > **[!UICONTROL D
 
 You can now start creating your workflow with segment codes.
 
+Note that segment codes will be collected as soon as you enable the segment code in the **[!UICONTROL Sending logs extension]**.
+
 ## Step 2: Create a workflow with segments {#step-2--create-a-workflow-segments}
+
+[!NOTE]
+>If the input transition of the email delivery is empty, the Segment code from the previous transition will added by default. 
 
 You first need to create a workflow with different targeted population. Here, we want to send an email that will be personalized depending on the age of our audience: one delivery for 20 to 30 years old profiles and another for profiles between 30 to 40 years old.
 
@@ -101,7 +113,7 @@ After sending deliveries with your workflow, you can breakdown reports using you
    ![](assets/report_segment_5.png)
 
 1. Drag and drop different metrics to your table such as the **[!UICONTROL Open]** and **[!UICONTROL Click]** metrics to start filtering your data.
-1. Then, in the **[!UICONTROL Dimensions]** category, drag and drop your **[!UICONTROL Segment code]** dimension on your workflow's delivery to measure the success of your email delivery depending on the targeted populations.
+1. In the **[!UICONTROL Dimensions]** category, click the **[!UICONTROL Profile]** dimension then drag and drop the **[!UICONTROL Segment code]** dimension on your workflow's delivery to measure the success of your email delivery depending on the targeted populations.
 
    ![](assets/report_segment_6.png)
 
