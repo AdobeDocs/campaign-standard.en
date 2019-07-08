@@ -106,7 +106,7 @@ When an activity is selected, quick action buttons appear around the activity, a
 
 <img height="21px" src="assets/edit_darkgrey-24px.png" /> **[!UICONTROL Copy selection]**<br/>Opens the selected activity.
 
-<img height="21px" src="assets/copy_24px.png" /> <br /> **[!UICONTROL Copy selection]**<br/>Copies the selected activity.
+<img height="21px" src="assets/copy_24px.png" /> **[!UICONTROL Copy selection]**<br/>Copies the selected activity.
 
 <img height="21px" src="assets/wkf_dlv_act_params_icon.png" /> **[!UICONTROL Copy selection]**<br/>Opens the advanced options of the Email or SMS delivery activity selected.
 
