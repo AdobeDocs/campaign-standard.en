@@ -68,231 +68,57 @@ Certain functions are only enabled in the workspace:
 
 Depending on the elements selected in the workspace or on the workflow's execution status, the buttons available in the action bar may vary.
 
-<table> 
- <thead> 
-  <tr> 
-   <th> Button<br /> </th> 
-   <th> No selection<br /> </th> 
-   <th> Single-selection<br /> </th> 
-   <th> Multi-selection<br /> </th> 
-   <th> Running<br /> </th> 
-   <th> Description<br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <img height="21px" src="assets/edit_darkgrey-24px.png" /> <br /> </td> 
-   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
-   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
-   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
-   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
-   <td> Allows you to edit the workflow's properties.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <img height="21px" src="assets/play_darkgrey-24px_table.png" /> <br /> </td> 
-   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
-   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
-   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
-   <td> </td> 
-   <td> Starts the workflow.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <img height="21px" src="assets/pause_darkgrey-24px_table.png" /> <br /> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
-   <td> Pauses the workflow.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <img height="21px" src="assets/stop_darkgrey-24px_table.png" /> <br /> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
-   <td> Interrupts workflow execution. Cannot be resumed from where it was stopped.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <img height="21px" src="assets/pauseplay_darkgrey-24px_table.png" /> <br /> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
-   <td> Restarts the workflow.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <img height="21px" src="assets/printpreview_darkgrey-24px_table.png" /> <br /> </td> 
-   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
-   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
-   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
-   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
-   <td> Opens the workflow's execution log.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <img height="21px" src="assets/checkcircle_darkgrey-24px_table.png" /> <br /> </td> 
-   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
-   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
-   <td> </td> 
-   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
-   <td> Enables multi-selection mode. The workflow must be made up of at least two activities.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <img height="21px" src="assets/closecircle_darkgrey-24px_table.png" /> <br /> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
-   <td> </td> 
-   <td> Disables multi-selection mode.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <img height="21px" src="assets/targeted.png" /> <br /> </td> 
-   <td> </td> 
-   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> Opens the selected transition.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <img height="21px" src="assets/check_darkgrey-24px_table.png" /> <br /> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
-   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
-   <td> Re-enables selection if it has previously been disabled or marked as paused.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <img height="21px" src="assets/check_pause_darkgrey-24px_table.png" /> <br /> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
-   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
-   <td> Pauses the workflow at the selected activity.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <img height="21px" src="assets/checkdisable.png" /> <br /> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
-   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
-   <td> Disables the activity.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <img height="21px" src="assets/delete_darkgrey-24px_table.png" /> <br /> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
-   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
-   <td> Deletes the activities that are selected.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <br /> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
-   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
-   <td> Copies the activities that are selected.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <br /> </td> 
-   <td> <br /> </td> 
-   <td> <br /> </td> 
-   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
-   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
-   <td> Pastes the activities that have been copied.<br /> </td> 
-  </tr> 
- </tbody> 
-</table>
+<img height="21px" src="assets/edit_darkgrey-24px.png" /> **[!UICONTROL Open activity]**<br/>Allows you to edit the workflow's properties.
+
+<img height="21px" src="assets/play_darkgrey-24px_table.png" /> **[!UICONTROL Start]**<br/>Starts the workflow.
+
+<img height="21px" src="assets/pause_darkgrey-24px_table.png" /> **[!UICONTROL Pause]**<br/>Pauses the workflow.
+
+<img height="21px" src="assets/stop_darkgrey-24px_table.png" /> **[!UICONTROL Stop]**<br/>Interrupts workflow execution. Cannot be resumed from where it was stopped.
+
+<img height="21px" src="assets/pauseplay_darkgrey-24px_table.png" /> **[!UICONTROL Restart]**<br/>Restarts the workflow.
+
+<img height="21px" src="assets/printpreview_darkgrey-24px_table.png" /> **[!UICONTROL Log and tasks]**<br/>Opens the workflow's execution log.
+
+<img height="21px" src="assets/checkcircle_darkgrey-24px_table.png" /> **[!UICONTROL Enable multi-selection]**<br/>Enables multi-selection mode. The workflow must be made up of at least two activities.
+
+<img height="21px" src="assets/closecircle_darkgrey-24px_table.png" /> **[!UICONTROL Disable multi-selection]**<br/>Disables multi-selection mode.<br /> 
+
+<img height="21px" src="assets/targeted.png" /> **[!UICONTROL Open transition]**<br/>Opens the selected transition.<br /> 
+
+<img height="21px" src="assets/check_darkgrey-24px_table.png" />  **[!UICONTROL Normal execution]**<br/>Re-enables selection if it has previously been disabled or marked as paused.<br /> 
+
+<img height="21px" src="assets/check_pause_darkgrey-24px_table.png" /> **[!UICONTROL Execution suspended]**<br/>Pauses the workflow at the selected activity.<br /> 
+
+<img height="21px" src="assets/checkdisable.png" /> **[!UICONTROL No execution]**<br/>Disables the activity.<br /> 
+
+<img height="21px" src="assets/delete_darkgrey-24px_table.png" /> **[!UICONTROL Delete selection]**<br/>Deletes the activities that are selected.<br />
+
+<img height="21px" src="assets/copy_24px.png" /> **[!UICONTROL Copy selection]**<br/>Copies the activities that are selected.
+
+<img height="21px" src="assets/paste_24px.png" /> **[!UICONTROL Paste]**<br/>Pastes the activities that have been copied.
 
 ## Quick actions {#quick-actions}
 
 When an activity is selected, quick action buttons appear around the activity, allowing you to interact with it.
 
-<table> 
- <thead> 
-  <tr> 
-   <th> Button<br /> </th> 
-   <th> No selection<br /> </th> 
-   <th> Single-selection<br /> </th> 
-   <th> Multi-selection<br /> </th> 
-   <th> Running<br /> </th> 
-   <th> Description<br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <img height="21px" src="assets/close_darkgrey-24px_table.png" /> <br /> </td> 
-   <td> </td> 
-   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
-   <td> </td> 
-   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
-   <td> Disables selecting the activity.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <img height="21px" src="assets/edit_darkgrey-24px.png" /> <br /> </td> 
-   <td> </td> 
-   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
-   <td> </td> 
-   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
-   <td> Opens the selected activity.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <img height="21px" src="assets/copy_24px.png" /> <br /> </td> 
-   <td> </td> 
-   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
-   <td> </td> 
-   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
-   <td> Copies the selected activity.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <img height="21px" src="assets/wkf_dlv_act_params_icon.png" /> <br /> </td> 
-   <td> </td> 
-   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
-   <td> </td> 
-   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
-   <td> Opens the advanced options of the Email or SMS delivery activity selected.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <img height="21px" src="assets/check_darkgrey-24px_table.png" /> <br /> </td> 
-   <td> </td> 
-   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
-   <td> </td> 
-   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
-   <td> Re-enables selection if it has previously been disabled or marked as paused.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <img height="21px" src="assets/check_pause_darkgrey-24px_table.png" /> <br /> </td> 
-   <td> </td> 
-   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
-   <td> </td> 
-   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
-   <td> Pauses the workflow at the selected activity.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <img height="21px" src="assets/checkdisable.png" /> <br /> </td> 
-   <td> </td> 
-   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
-   <td> </td> 
-   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
-   <td> Disables the activity.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <img height="21px" src="assets/pending_darkgrey-24px_table.png" /> <br /> </td> 
-   <td> </td> 
-   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> Forces immediate processing of the selection. This button is only available for the <span class="uicontrol">Scheduler</span> and <span class="uicontrol">Wait</span> activities.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <img height="21px" src="assets/delete_darkgrey-24px_table.png" /> <br /> </td> 
-   <td> </td> 
-   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
-   <td> </td> 
-   <td> <img height="21px" src="assets/check_blue-12px_table.png" /> <br /> </td> 
-   <td> Deletes the activities that are selected.<br /> </td> 
-  </tr> 
- </tbody> 
-</table>
+<img height="21px" src="assets/close_darkgrey-24px_table.png" /> **[!UICONTROL Copy selection]**<br/>Disables selecting the activity.
+
+<img height="21px" src="assets/edit_darkgrey-24px.png" /> **[!UICONTROL Copy selection]**<br/>Opens the selected activity.
+
+<img height="21px" src="assets/copy_24px.png" /> <br /> **[!UICONTROL Copy selection]**<br/>Copies the selected activity.
+
+<img height="21px" src="assets/wkf_dlv_act_params_icon.png" /> **[!UICONTROL Copy selection]**<br/>Opens the advanced options of the Email or SMS delivery activity selected.
+
+<img height="21px" src="assets/check_darkgrey-24px_table.png" /> **[!UICONTROL Copy selection]**<br/>Re-enables selection if it has previously been disabled or marked as paused.
+
+<img height="21px" src="assets/check_pause_darkgrey-24px_table.png" /> **[!UICONTROL Copy selection]**<br/>Pauses the workflow at the selected activity.
+
+<img height="21px" src="assets/checkdisable.png" /> **[!UICONTROL Copy selection]**<br/>Disables the activity.
+
+<img height="21px" src="assets/pending_darkgrey-24px_table.png" /> **[!UICONTROL Copy selection]**<br/>Forces immediate processing of the selection. This button is only available for the <span class="uicontrol">Scheduler</span> and <span class="uicontrol">Wait</span> activities.
+
+<img height="21px" src="assets/delete_darkgrey-24px_table.png" /> **[!UICONTROL Copy selection]**<br/>Deletes the activities that are selected.
 
 ## Duplicating workflow activities {#duplicating-workflow-activities}
 
