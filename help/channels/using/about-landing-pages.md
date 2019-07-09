@@ -57,3 +57,24 @@ Once created and published, you can make the landing page accessible via a websi
 * [Creating a landing page](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-edit-landing-page-feature-video-use.html) video
 * [Use a landing page to subscribe a service](../../audiences/using/creating-a-service.md)
 
+# Landing page limitations
+
+**Writing and Updating data**
+
+* Landing pages are limited to **[!UICONTROL Profile]** and **[!UICONTROL Subscription]** resources only. Record can be saved and updated from **[!UICONTROL Profile]** and a subscription/unsubscription to a **[!UICONTROL Service]**. This means that a landing page cannot display or update data from any other resource.
+To learn more on resources, see.
+
+**Preloading**
+
+* Landing page cannot display a list of records automatically, it cannot list services that profiles already subscribed to. For more information on services, refer to this page.
+* Landing page with a pre-filled form, data to load with the page, can only be accessed from a Adobe Campaign email. It is not possible to access such a form from a website page.
+
+
+**Reconciliation**
+
+* The reconciliation behavior is the following: as soon as a match is found, the reconciliation process stops meaning that reconciliation can only be done on one profile record and not on multiple records or duplicates. 
+Profiles are prioritized depending on their creation date thus only the matching profile with the earliest creation date will be updated.
+
+**Testing landing page**
+* Landing pages work only on profiles and not test profile meaning that landing pages cannot be tested as part of an email proof.
+
