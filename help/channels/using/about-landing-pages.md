@@ -62,11 +62,11 @@ Once created and published, you can make the landing page accessible via a websi
 **Writing and Updating data**
 
 * Landing pages are limited to **[!UICONTROL Profile]** and **[!UICONTROL Subscription]** resources only. Record can be saved and updated from **[!UICONTROL Profile]** and a subscription/unsubscription to a **[!UICONTROL Service]**. This means that a landing page cannot display or update data from any other resource.
-To learn more on resources, see.
+To learn more on resources, see [Configuring the resource's data structure](../../developing/using/configuring-the-resource-s-data-structure.md).
 
 **Preloading**
 
-* Landing page cannot display a list of records automatically, it cannot list services that profiles already subscribed to. For more information on services, refer to this page.
+* Landing page cannot display a list of records automatically, it cannot list services that profiles already subscribed to. For more information on services, refer to this [page](../../audiences/using/creating-a-service.md).
 * Landing page with a pre-filled form, data to load with the page, can only be accessed from a Adobe Campaign email. It is not possible to access such a form from a website page.
 
 
@@ -76,5 +76,5 @@ To learn more on resources, see.
 Profiles are prioritized depending on their creation date thus only the matching profile with the earliest creation date will be updated.
 
 **Testing landing page**
-* Landing pages work only on profiles and not test profile meaning that landing pages cannot be tested as part of an email proof.
+* Landing pages work only on profiles and not test profiles meaning that landing pages cannot be tested as part of an email proof.
 
