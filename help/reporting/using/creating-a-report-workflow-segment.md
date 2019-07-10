@@ -118,3 +118,5 @@ After sending deliveries with your workflow, you can breakdown reports using you
    ![](assets/report_segment_6.png)
 
 1. Drag and drop a visualization in your workspace if needed.
+
+   ![](assets/report_segment_10.png)
