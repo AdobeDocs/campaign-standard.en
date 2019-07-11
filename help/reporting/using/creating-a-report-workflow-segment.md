@@ -21,15 +21,13 @@ snippet: y
 After creating a workflow and filtering your population into different targeted audience, you can measure the efficiency of your marketing campaigns based on segments defined in this targeting workflow.
 To target these segments in your reports:
 
+* [Step 1: Update Profiles custom resource with segments](#step-1--update-profiles-custom-resource-segments)
+* [Step 2: Create a workflow with segments](#step-2--create-a-workflow-segments)
+* [Step 3: Create a dynamic report to filter segments](#step-3--create-a-dynamic-report-filter-segments)
 
-* [Step 1: Update Profiles custom resource with segments](../../reporting/using/creating-a-custom-profile-dimension.md#step-1--update-profiles-custom-resource-segments)
-* [Step 2: Create a workflow with segments](../../reporting/using/creating-a-custom-profile-dimension.md##step-2--create-a-workflow-segments})
-* [Step 3: Create a dynamic report to filter segments](../../reporting/using/creating-a-custom-profile-dimension.md#step-3--create-a-dynamic-report-filter-segments)
-
-[!WARNING]
-> The Dynamic reporting usage agreement must be accepted to start collecting these data. 
->
->For more on this agreement, refer to this [page](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement}).
+>[!CAUTION]
+>The Dynamic reporting usage agreement must be accepted to start collecting these data.
+>For more on this agreement, refer to this [page](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
 
 ## Step 1: Update Profiles custom resource with segments{#step-1--update-profiles-custom-resource-segments}
 
@@ -39,7 +37,7 @@ Before reporting on your segment code, you need to update your **[!UICONTROL Pro
 1. In the **[!UICONTROL Sending logs extension]** menu from the **[!UICONTROL Data structure]** tab, check **[!UICONTROL Add segment code]** to allow storage of your segment codes from targeting workflows and to send it to dynamic reporting.
 
     The **[!UICONTROL Segment code]** will then be available in the **[!UICONTROL Profile]** dimension section of your report.
-    
+
    ![](assets/report_segment_4.png)
 
 1. Save your custom resource.
@@ -49,7 +47,7 @@ From the advanced menu, select **[!UICONTROL Administration]** > **[!UICONTROL D
 
    ![](assets/custom_profile_7.png)
 
-1. Click **[!UICONTROL Prepare publication]** then when the preparation is done, click the **[!UICONTROL Publish]** button. For more information on custom resource, refer to this [page](../../developing/using/updating-the-database-structure).
+1. Click **[!UICONTROL Prepare publication]** then when the preparation is done, click the **[!UICONTROL Publish]** button. For more information on custom resource, refer to this [page](../../developing/using/updating-the-database-structure.md).
 
 You can now start creating your workflow with segment codes.
 
@@ -58,11 +56,11 @@ Note that segment codes will be collected as soon as you enable the segment code
 ## Step 2: Create a workflow with segments {#step-2--create-a-workflow-segments}
 
 [!NOTE]
->If the input transition of the email delivery is empty, the Segment code from the previous transition will added by default. 
+>If the input transition of the email delivery is empty, the Segment code from the previous transition will added by default.
 
 You first need to create a workflow with different targeted population. Here, we want to send an email that will be personalized depending on the age of our audience: one delivery for 20 to 30 years old profiles and another for profiles between 30 to 40 years old.
 
-1. Create your workflow. For more details on how to create your workflow, refer to this [page](../../automating/using/building-a-workflow).
+1. Create your workflow. For more details on how to create your workflow, refer to this [page](../../automating/using/building-a-workflow.md).
 
 1. Add a **[!UICONTROL Query]** activity by dragging it from the palette and dropping it in the workspace.
 
@@ -70,7 +68,7 @@ You first need to create a workflow with different targeted population. Here, we
 
    ![](assets/report_segment_1.png)
 
-1. Add a **[!UICONTROL Segmentation]** activity to split your query results into two targeted populations. For more on segmentation, refer to this [page](../../automating/using/targeting-data).
+1. Add a **[!UICONTROL Segmentation]** activity to split your query results into two targeted populations. For more on segmentation, refer to this [page](../../automating/using/targeting-data.md#segmenting-data).
 
 1. Double click the **[!UICONTROL Segmentation]** activity to configure it. Edit the first segment by clicking **[!UICONTROL Edit properties]**.
 
@@ -83,8 +81,8 @@ You first need to create a workflow with different targeted population. Here, we
 1. Click **[!UICONTROL Add an element]** to create your second segment and configure it as described in the steps above to target profiles between the age of 30 to 40.
 
 1. Edit the **[!UICONTROL Segment code]** for each population to be passed on through dynamic reporting.
+
    >[!NOTE]
-   >
    >This step is mandatory or else you will not be able to understand which segments to report on.
 
    ![](assets/report_segment_9.png)
@@ -93,7 +91,7 @@ You first need to create a workflow with different targeted population. Here, we
 
    ![](assets/report_segment_3.png)
 
-1. Personalize your deliveries depending on the different targeted populations. For more on email creation, refer to this [page](../../designing/using/about-email-content-design).
+1. Personalize your deliveries depending on the different targeted populations. For more on email creation, refer to this [page](../../designing/using/about-email-content-design.md).
 
 1. Save the workflow.
 
@@ -101,7 +99,7 @@ You first need to create a workflow with different targeted population. Here, we
 
 You can now access your reports to track your segment codes.
 
-## Step 3: Create a dynamic report to filter segments{#step-3--create-a-dynamic-report-filter-segments}
+## Step 3: Create a dynamic report to filter segments {#step-3--create-a-dynamic-report-filter-segments}
 
 After sending deliveries with your workflow, you can breakdown reports using your segment codes from your workflow.
 
