@@ -114,3 +114,8 @@ The workflow is presented as follows:
         ![](assets/externalAPI_activity_example7.png)
 1. Finally drag and drop a **Send via Email** activity.
     You can modify your email template by adding the **code** personnalized field.
+
+>[!NOTE]
+>
+>* [Article 1](https://helpx.adobe.com/support/analytics.html)
+>* [Article 2](https://helpx.adobe.com/support/audience-manager.html)
