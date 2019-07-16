@@ -24,6 +24,57 @@ Each release comes with new features and patches. Click on a release to view its
 
 View the latest [documentation updates](../../rn/using/documentation-updates.md) for Adobe Campaign Standard. If you're looking for a previous release, consult these pages: [2018 Release Notes](../../rn/using/release-notes-2018.md), [2017 Release Notes](../../rn/using/release-notes-2017.md), [2015-2016 Release Notes](../../rn/using/release-notes-2015-2016.md). Also consult the list of [Deprecated and Removed Features](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html).
 
+## Release 19.3 - July 2019 {#release-19-3---july-2019}
+
+### What's new? {#what-s-new-3}
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> Functionality<br /> </th> 
+   <th> Description<br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> Microsoft Dynamics 365 connector<br /> </td> 
+   <td> <p>Activate your CRM data on cross-channel communication. Pass on contacts from Microsoft Dynamics 365 to Adobe Campaign, and share campaign performance data (sends, opens, clicks, and bounces) back from Adobe Campaign to Microsoft Dynamics 365.</p><p>For more information, refer to the <a href="https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html">detailed documentation</a>.</p></td> 
+  </tr> 
+  <tr> 
+   <td> External API<br /> </td> 
+   <td> <p>We’ve added a new activity to extend the workflow capabilities and give users the ability to communicate with external systems that offer web APIs. The External API activity allows you to bring data into a workflow from an external system via a REST API call. The REST endpoints can be a Customer management system, an Adobe I/O Runtime or an Experience Cloud REST endpoint (Data Platform, Target, Analytics, Campaign, etc). This data will then be used for segmentation and personalization.</p><p>For more information, refer to the <a href="XX">XX</a>.</p></td> 
+  </tr> 
+  <tr> 
+   <td> Report on workflow segment<br /> </td> 
+   <td> <p>This feature allows marketers to breakdown their delivery performances by segment code. When you create a workflow then use a segmentation activity to assign segments to the delivery population, these segments now go into the same delivery. This allows you to display the opens/clicks statistics based on segments in a single delivery. </p><p>For more information, refer to the <a href="XX">XX</a>.</p></td> 
+  </tr> 
+  <tr> 
+   <td> New Location Service integration with Campaign<br /> </td> 
+   <td> <p>XXX</p><p>For more information, refer to the <a href="XXX">XX</a>.</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Security enhancements {#security-enhancements-2}
+
+* XX
+
+### Email Designer enhancements {#email-designer-enhancements}
+
+* XX
+
+### Other improvements {#other-improvements-3}
+
+* XX
+
+### Other changes {#other-changes-2}
+
+* XX
+
+### Patches {#patches-3}
+
+* XX
+
 ## Release 19.2.7 - July 2019 {#release-19-2-7---july-2019}
 
 ### Improvements {#improvements-2}
