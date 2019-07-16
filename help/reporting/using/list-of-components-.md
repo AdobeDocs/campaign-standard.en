@@ -274,7 +274,7 @@ The tables below give you the list of metrics used in reports and their definiti
   </tr> 
   <tr> 
    <td> Click<br /> </td> 
-   <td> Number of times users interact with the push notification, e.g. clicks on the notification or button.<br /> </td> 
+   <td> Number of times a push notification has been delivered to the device and clicked on by the user. The user either wanted to view the notification, which will then be moved to Push Open tracking, or dismiss it.<br /> </td> 
   </tr> 
   <tr> 
    <td> Click through rate<br /> </td> 
@@ -290,7 +290,7 @@ The tables below give you the list of metrics used in reports and their definiti
   </tr> 
   <tr> 
    <td> Impressions<br /> </td> 
-   <td> Total of push notifications seen by recipients.<br /> </td> 
+   <td> Number of times a push notification has been delivered to the device and left untouched in the notification center. In most cases, impressions number should be similar to the delivered number. This ensures that the device got the message and relayed that information back to the server.<br /> </td> 
   </tr> 
   <tr> 
    <td> Processed/sent<br /> </td> 
@@ -298,7 +298,7 @@ The tables below give you the list of metrics used in reports and their definiti
   </tr> 
   <tr> 
    <td> Open<br /> </td> 
-   <td> Total number of application launches when users open the push notification.<br /> </td> 
+   <td> Total number of push notifications delivered to the device and clicked on by users thus opening the app. This is similar to the Push Click except a Push Open will not be triggered if the notification was dismissed.<br /> </td> 
   </tr> 
   <tr> 
    <td> Open rate<br /> </td> 
