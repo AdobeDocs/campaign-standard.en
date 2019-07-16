@@ -215,7 +215,7 @@ When editing an email with the Email Designer, you can directly save part of tha
 
 1. To use your new fragment, open any other email content and select it from the fragment list.
 
-![](assets/email_designer_save-as-fragment_popup.png)
+![](assets/email_designer_save-as-fragment_in-new-email.png)
 
 <!--You need to copy-paste the HTML corresponding to the section that you want to save into a new fragment.
 
