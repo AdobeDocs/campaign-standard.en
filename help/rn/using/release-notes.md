@@ -38,7 +38,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
  <tbody> 
   <tr> 
    <td> Microsoft Dynamics 365 connector<br /> </td> 
-   <td> <p>Activate your CRM data on cross-channel communication. Pass on contacts from Microsoft Dynamics 365 to Adobe Campaign, and share campaign performance data (sends, opens, clicks, and bounces) back from Adobe Campaign to Microsoft Dynamics 365.</p><p>For more information, refer to the <a href="https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html">detailed documentation</a>.</p></td> 
+   <td> <p>Activate your CRM data on cross-channel communication. Pass on contacts from Microsoft Dynamics 365 to Adobe Campaign, and share campaign performance data (sends, opens, clicks, and bounces) back from Adobe Campaign to Microsoft Dynamics 365.</p><p>For more information, refer to the <a href="https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html">detailed documentation</a> and the <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-ms-dynamics-crm-connector-tutorial.html">how-to video</a>..</p></td> 
   </tr> 
   <tr> 
    <td> External API<br /> </td> 
@@ -50,7 +50,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
   </tr> 
   <tr> 
    <td> New Location Service integration with Campaign<br /> </td> 
-   <td> <p>XXX</p><p>For more information, refer to the <a href="XXX">XX</a>.</p></td> 
+   <td> <p>The integration with the Location Service is now fully compliant with AEP SDK.</p><p>For more information, refer to the <a href="XXX">XX</a>.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,7 +65,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 
 ### Other improvements {#other-improvements-3}
 
-* XX
+* The reporting feature has been improved for a better experience. To use this feature, accept the Dynamic Reporting Usage Agreement.
 
 ### Other changes {#other-changes-2}
 
