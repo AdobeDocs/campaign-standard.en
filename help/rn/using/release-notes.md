@@ -42,7 +42,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
   </tr> 
   <tr> 
    <td> External API<br /> </td> 
-   <td> <p>We’ve added a new activity to extend the workflow capabilities and give users the ability to communicate with external systems that offer web APIs. The External API activity allows you to bring data into a workflow from an external system via a REST API call. The REST endpoints can be a Customer management system, an Adobe I/O Runtime or an Experience Cloud REST endpoint (Data Platform, Target, Analytics, Campaign, etc). This data will then be used for segmentation and personalization.</p><p>For more information, refer to the <a href="XX">XX</a>.</p></td> 
+   <td> <p>We’ve added a new activity to extend the workflow capabilities and give users the ability to communicate with external systems that offer web APIs. The External API activity allows you to bring data into a workflow from an external system via a REST API call. The REST endpoints can be a Customer management system, an Adobe I/O Runtime or an Experience Cloud REST endpoint (Data Platform, Target, Analytics, Campaign, etc). This data will then be used for segmentation and personalization.</p><p>For more information, refer to the <a href="../../automating/using/externalAPI.md">detailed documentation</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Report on workflow segment<br /> </td> 
@@ -65,7 +65,11 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 
 ### Other improvements {#other-improvements-3}
 
-* The reporting feature has been improved for a better experience. To use this feature, accept the Dynamic Reporting Usage Agreement.
+* The reporting feature has been improved for a better experience. To use this feature, you need to accept the Dynamic Reporting Usage Agreement.
+* In workflows, a new option has been added to activate the preview of a workflow's next ten executions.
+* In the Scheduler activity, a new option allows you to select a specific day of a specific week for monthly deliveries.
+* When creating recurring deliveries with no aggregation period, the delivery dashboard now allows you to request confirmation before the delivery is sent. For more on this, refer to the [detailed documentation](../../sending/using/confirming-the-send.md).
+* You can now personalize a delivery’s label with events variables that have been declared into the workflow’s external signal activity. For more on this, refer to the [detailed documentation](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
 ### Other changes {#other-changes-2}
 
