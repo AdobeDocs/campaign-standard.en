@@ -46,7 +46,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
   </tr> 
   <tr> 
    <td> Report on workflow segment<br /> </td> 
-   <td> <p>This feature allows marketers to breakdown their delivery performance by segment code. When you create a workflow then use a segmentation activity to assign segments to the delivery population, these segments now go into the same delivery. This allows you to display the opens/clicks statistics based on segments in a single delivery. </p><p>For more information, refer to the <a href="../../reporting/using/creating-a-report-workflow-segment.md">detailed documentation</a>.</p></td> 
+   <td> <p>This feature allows marketers to breakdown their delivery performance by segment code. When you create a workflow, then use a segmentation activity to assign segments to the delivery population, these segments now go into the same delivery. This allows you to display the opens/clicks statistics based on segments in a single delivery. </p><p>For more information, refer to the <a href="../../reporting/using/creating-a-report-workflow-segment.md">detailed documentation</a>.</p></td> 
   </tr> 
   <tr> 
    <td> New Location Service integration with Campaign<br /> </td> 
@@ -69,7 +69,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * In workflows, a new option has been added to preview the next ten executions of a workflow. For more on this, refer to the [detailed documentation](../../automating/using/scheduler.md).
 * In the Scheduler activity, a new option allows you to select a specific day of a specific week for monthly deliveries. For more on this, refer to the [detailed documentation](../../automating/using/scheduler.md).
 * When creating recurring deliveries with no aggregation period, the delivery dashboard now allows you to request confirmation before the delivery is sent. For more on this, refer to the [detailed documentation](../../sending/using/confirming-the-send.md).
-* You can now personalize a delivery’s label with events variables that have been declared into the workflow’s external signal activity. For more on this, refer to the [detailed documentation](../../automating/using/calling-a-workflow-with-external-parameters.md).
+* You can now personalize a delivery’s label with event variables that have been declared in the workflow’s external signal activity. For more on this, refer to the [detailed documentation](../../automating/using/calling-a-workflow-with-external-parameters.md).
 * A warning has been added in custom resource configuration screens. We recommend using 30 characters maximum for custom resource IDs. This also applies to custom resource fields, keys, indexes and links.
 * The GDPR delete query has been improved for better performance. (CAMP-33504)
 * The transactional messaging overall performance has been improved with the capability of handling several event types at the same time, which accelerates the event processing time.
