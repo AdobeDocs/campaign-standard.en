@@ -98,6 +98,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Follow-up messages](channels/using/follow-up-messages.md)
   + Landing pages {#landing-pages}
        + [About landing pages](channels/using/about-landing-pages.md)
+       + [Landing page limitations](channels/using/landing-page-limitations.md)
        + [Designing a landing page](channels/using/designing-a-landing-page.md)
        + [Sharing a landing page](channels/using/sharing-a-landing-page.md)
        + [Data storage and reconciliation](channels/using/data-storage-and-reconciliation.md)
