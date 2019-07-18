@@ -18,7 +18,7 @@ snippet: y
 
 # Users management{#users-management}
 
-## About users {about-users}
+## About users {#about-users}
 
 Adobe Campaign allows you to assign a set of roles to your users to define which part of the interface they can access.
 
@@ -97,12 +97,54 @@ Here are the main tasks they can perform:
 * [Create and execute campaign workflows](../../automating/using/building-a-workflow.md): automate your campaign processes using workflows.
 * Monitor your marketing activities through the [available reports](../../reporting/using/defining-the-report-period.md).
 
-## Creating a user
+## Creating a user {#creating-a-user}
 
 To add a user to your instance, you must first create it in the Admin console before managing it in Adobe Campaign Standard.
 
 1. From the advanced menu, select **[!UICONTROL Administration > Users & Security > Users]** and click **[!UICONTROL User administration]** to access the admin console.
 
-1. In the Admin Console, click Users then Add User.
+    ![](assets/user_management_5.png)
 
-1. 
+1. In the **[!UICONTROL Admin Console]**, click on the **[!UICONTROL Users]** tab.
+
+1. Click **[!UICONTROL Add User]**.
+
+    ![](assets/create_user_2.png)
+
+1. From the **[!UICONTROL User details]** tab, fill in the user's details such as email address, name and surname.
+
+    ![](assets/create_user_3.png)
+
+1. From the **[!UICONTROL Assign products]** tab, assign one or multiple security group to your user. For more information on security groups, refer to this [page](../../administration/using/managing-groups-and-users.md).
+
+    Click **[!UICONTROL Save]** when done configuring.
+
+    ![](assets/create_user_4.png)
+
+Your user is now created and should receive an email redirecting to the following window where the user has to set a password then agree to the term of use. This user will then be able to connect to your Adobe Campaign Standard instance.
+
+![](assets/create_user_5.png)
+
+
+Your user will be synced with Adobe Campaign Standard as soon as he signs in to your instance.
+
+You can then check if your user has been correctly synced with Adobe Campaign:
+
+1. From the advanced menu **[!UICONTROL Administration > Users & Security > Users]** select your previously created user.
+
+1. Update the **[!UICONTROL Mobile]**, **[!UICONTROL Time zone]** or **[!UICONTROL Regional settings]** if needed.
+
+1. Check your user's security group. Here, you can see that the user has been assigned the **[!UICONTROL Administrators]** security group.
+
+    >[!Note]
+    >
+    >Security groups can only be removed or added to a user in the Admin Console.
+
+    ![](assets/create_user_6.png)
+
+1. Check **[!UICONTROL Account disabled]** if you want to deactivate this user.
+
+1. In the **[!UICONTROL Authorized connection zone]** field, select through which way your user will connect to this instance, e.g. internal network or VPN.
+
+1. Click **[!UICONTROL Save]**.
+
