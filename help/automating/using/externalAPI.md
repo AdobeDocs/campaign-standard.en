@@ -25,10 +25,12 @@ The REST endpoints can be a Customer management system, an [Adobe I/O Runtime](h
 
 Main characteristics of this activity are:
 
-* No parameter in the call
-* 1MB http response data size limit
+* 5MB http response data size limit
 * Failure management with an outbound specific transition
 * Request timeout is 60 seconds
+* HTTP redirects are not allowed
+* Non-HTTPS Urls are rejected
+* "Accept: application/json" request header and "Content-Type: application/json" response header are allowed
 
 ## Configuration {#configuration}
 
