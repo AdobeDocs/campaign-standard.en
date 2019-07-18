@@ -1,7 +1,7 @@
 ---
-title: Types of users
-seo-title: Types of users
-description: Types of users
+title: Users management
+seo-title: Users management
+description: Users management
 seo-description: Adobe Campaign users hold specific roles. Discover the main user types. 
 page-status-flag: never-activated
 uuid: 8c4cc74a-815f-4815-af66-a7c21bc754f1
@@ -16,21 +16,29 @@ internal: n
 snippet: y
 ---
 
-# Types of users{#types-of-users}
+# Users management{#users-management}
 
-Administrators can manage users from the Admin console. Users are then automatically synchronized with Adobe Campaign.
-
-For more on this, refer to the [Admin console](https://helpx.adobe.com/enterprise/using/users.html) documentation.
-
-To view the users in Adobe Campaign, click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Administration > Users & Security > Users]**.
-
-To access the user management interface from Adobe Campaign, click **[!UICONTROL User administration]**. 
-
-![](assets/user_management_5.png)
+## About users {about-users}
 
 Adobe Campaign allows you to assign a set of roles to your users to define which part of the interface they can access.
 
 The specific roles and the corresponding authorizations are detailed in the following sections: [understanding roles](../../administration/using/list-of-roles.md) and [authorizations](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
+
+Administrators can manage users from the Admin console. Users are then automatically synchronized with Adobe Campaign. For more on this, refer to the [Admin console](https://helpx.adobe.com/enterprise/using/users.html) documentation.
+
+To view the users in Adobe Campaign, click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Administration > Users & Security > Users]**.
+
+To access the user management interface from Adobe Campaign, click **[!UICONTROL User administration]**.
+
+![](assets/user_management_5.png)
+
+**Related topics:**
+
+* [Managing user permissions](https://helpx.adobe.com/campaign/kt/acs/using/acs-user-access-rights-feature-video-use.html) video
+* [List of roles](../../administration/using/list-of-roles.md)
+* [List of authorizations](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
+
+## Type of users {#type-of-users}
 
 This user segmentation is not mandatory, it is only a representation of the most common usage of Adobe Campaign.
 
@@ -46,13 +54,7 @@ We will rather focus on how the different tasks in Adobe Campaign are split betw
 >
 >Functional administrators are different from the Adobe technical administrators. Adobe technical administrators hold an Adobe internal role which no customer can use. They manage the instance provisioning, hosting, infrastructure monitoring and supervision, technical troubleshooting.
 
-**Related topics:**
-
-* [Managing user permissions](https://helpx.adobe.com/campaign/kt/acs/using/acs-user-access-rights-feature-video-use.html) video
-* [List of roles](../../administration/using/list-of-roles.md)
-* [List of authorizations](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
-
-## Functional administrators {#functional-administrators}
+### Functional administrators {#functional-administrators}
 
 Functional administrators are users who can access the most technical parts of the interface. They hold the **[!UICONTROL Administration]** role and make sure that the platform is all set up so that marketers only have to focus on delivering their campaigns.
 
@@ -68,7 +70,7 @@ Here are the main tasks they can perform:
 * [Export and import data packages](../../automating/using/managing-packages.md): exchange resources between different Adobe Campaign instances through structured XML files.
 * [Export logs](../../automating/using/exporting-logs.md) and [define import templates](../../automating/using/defining-import-templates.md).
 
-## Advanced users {#advanced-users}
+### Advanced users {#advanced-users}
 
 Advanced users are marketing users who perform the most technical use cases in Adobe Campaign. They preconfigure all the elements that marketers use to send and monitor their deliveries.
 
@@ -82,7 +84,7 @@ Here are the main tasks they can perform:
 * [Perform advanced expression editing](../../automating/using/editing-queries.md#about-query-editor): use advanced functions to manipulate the values used to carry out specific queries such as dates, strings, numerical fields, sorting, etc.
 * [Export lists](../../automating/using/exporting-lists.md) and [import data using existing import templates](../../automating/using/importing-data-with-import-templates.md).
 
-## Basic users {#basic-users}
+### Basic users {#basic-users}
 
 Thanks to the functional administrator and advanced users, marketers can personalize, deliver and monitor their campaigns without having to worry about the technical configuration. To do so, they should be assigned, for example, the **[!UICONTROL Prepare deliveries]**, **[!UICONTROL Workflow]** and **[!UICONTROL Start deliveries]** out-of-the-box roles. These roles are combined in the **[!UICONTROL Standard Users]** out-of-the-box security group. For more on this, refer to this [section](../../administration/using/list-of-roles.md).
 
@@ -95,3 +97,12 @@ Here are the main tasks they can perform:
 * [Create and execute campaign workflows](../../automating/using/building-a-workflow.md): automate your campaign processes using workflows.
 * Monitor your marketing activities through the [available reports](../../reporting/using/defining-the-report-period.md).
 
+## Creating a user
+
+To add a user to your instance, you must first create it in the Admin console before managing it in Adobe Campaign Standard.
+
+1. From the advanced menu, select **[!UICONTROL Administration > Users & Security > Users]** and click **[!UICONTROL User administration]** to access the admin console.
+
+1. In the Admin Console, click Users then Add User.
+
+1. 
