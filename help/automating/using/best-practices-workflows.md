@@ -19,8 +19,8 @@ snippet: y
 
 ### Naming of workflows
 
-To ease workflows troubleshooting workflows, Adobe recommends to name and label your workflows explicitly. Fill in the workflow's description field to summarize the process to be performed so that the operator can easily understand it.
-If the workflow is part of a process involving multiple workflows, you can use numbers when entering a label to order the workflows clearly.
+To ease workflow troubleshooting, Adobe recommends to name and label your workflows explicitly. Fill in the workflow's description field to summarize the process to be performed so that the operator can easily understand it.
+If the workflow is part of a process involving multiple workflows, you can use numbers when entering a label to order them clearly.
 
 For example:
 
@@ -36,14 +36,14 @@ While developing your workflow, a name is generated for every activity, as for a
 
 ## Execution
 
-Adobe recommends not to run more than 20 workflows simultaneously.
+Adobe recommends not to run more than 20 workflows simultaneously. Depending on the nature of activities in your workflow, when executing too many workflows at the same time, the system can run out of resources and become unstable.
 
 A workflow cannot be automatically executed more often than once every ten minutes.
 The Repetition frequency of the activity cannot be less than 10 minutes. If the repetition frequency is set at 0 (also the default value), this option is not taken into account and the workflow will run according to the execution frequency specified.
 
 A workflow containing unterminated transitions can still be executed: it will generate a warning message and the workflow will pause once it reaches the transition but will not generate an error. You can also start a workflow without a finished design and complete it as you go along.
 
-For more information, refer to [Executing workflows](../../automating/executing-a-workflow.md).
+For more information, refer to [Executing workflows](../../automating/using//executing-a-workflow.md).
 
 ## Activity
 
@@ -57,9 +57,9 @@ To access the detail view of the transitions, check the **Keep interim results**
 
 ### Duplicating activities
 
-To duplicate existing activities, you can use copy-paste. This way, you keep the settings that were originally defined. For more information, refer to [Duplicating workflow activities](../../automating/workflow-interface.md).
+To duplicate existing activities, you can use copy-paste. This way, you keep the settings that were originally defined. For more information, refer to [Duplicating workflow activities](../../automating/using/workflow-interface.md).
 
-Each marketing activity offers several types by default. You can preconfigure certain parameters according to your needs. For more information, refer to the [Managing templates section](../building-a-workflow.md#configuring).
+Each marketing activity offers several types by default. You can preconfigure certain parameters according to your needs. For more information, refer to the [Managing templates section](../automating/using/building-a-workflow.md#configuring).
 
 ### Scheduler activity
 
@@ -67,11 +67,11 @@ When building your workflow, only use one Scheduler activity per branch. If the 
 
 You can preview the next ten executions of your workflows by clicking preview.
 
-For more information, refer to [Scheduler activity](../../automating/scheduler.md).
+For more information, refer to [Scheduler activity](../../automating/using/scheduler.md).
 
 ## Targeting dimension
 
-The targeting dimension can be defined when creating an audience. For more information, see [Creating audiences](../../automating/creating-audiences.md).
+The targeting dimension can be defined when creating an audience. For more information, see [Creating audiences](../../automating/using/creating-audiences.md).
 
 ## External Signal - Call workflow with parameter
 
@@ -79,17 +79,17 @@ Make sure that the name and number of parameters are identical to what is define
 
 Make sure that all the parameters have been declared in the External signal activity. Otherwise, an error will occur when running the activity.
 
-For more information, see [Calling a workflow with external parameters](../../automating/calling-a-workflow-with-external-parameters.md).
+For more information, see [Calling a workflow with external parameters](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
 ## Exporting packages
 
 To export packages, the resources exported must not contain default IDs. Therefore, the IDs of exportable resources must be changed by using a different name from the templates provided as standard by Adobe Campaign Standard.
-For more information, see [Managing packages](../../automating/managing-packages.md).
+For more information, see [Managing packages](../../automating/using/managing-packages.md).
 
 ## Exporting lists
 
 The export list option allows you to export a maximum of 100,000 lines by default and defined by the Nms_ExportListLimit option. This option can be managed by the functional administrator, under the Administration > Application settings > Options menu.
-For more information, see [Exporting lists](../../automating/exporting-lists.md).
+For more information, see [Exporting lists](../../automating/using/exporting-lists.md).
 
 ## Troubleshooting
 
@@ -98,7 +98,7 @@ Adobe Campaign offers various logs to better understand your workflow issues.
 ### Using workflow logs
 
 You can access workflow logs to monitor the execution of your activities. It indexes the operations carried out and execution errors by chronological order.
-For more information, refer to [Monitoring workflow execution](../../automating/executing-a-workflow.md#monitoring).
+For more information, refer to [Monitoring workflow execution](../../automating/using/executing-a-workflow.md#monitoring).
 
 ### Using delivery logs
 
