@@ -57,9 +57,11 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 
 ### Security enhancements {#security-enhancements-2}
 
+* TBD
+
 ### Email Designer enhancements {#email-designer-enhancements}
 
-* XX
+* TBD
 
 ### Other improvements {#other-improvements-3}
 
@@ -75,13 +77,14 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 
 ### Other changes {#other-changes-2}
 
-* XX
+* TBD
 
 ### Patches {#patches-3}
 
 * Fixed an issue which could cause GDPR Access requests to fail.
 * Fixed an issue which could lead to triggers being discarded when multiple triggers were received for a unique profile.
 * Fixed a configuration issue with the Campaign and Assets Core Service integration which could prevent you from selecting a shared asset in an email.
+* To Be Finished
 
 ## Release 19.2.7 - July 2019 {#release-19-2-7---july-2019}
 
