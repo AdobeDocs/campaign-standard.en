@@ -71,7 +71,6 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * When creating recurring deliveries with no aggregation period, the delivery dashboard now allows you to request confirmation before the delivery is sent. For more on this, refer to the [detailed documentation](../../sending/using/confirming-the-send.md).
 * You can now personalize a delivery’s label with events variables that have been declared into the workflow’s external signal activity. For more on this, refer to the [detailed documentation](../../automating/using/calling-a-workflow-with-external-parameters.md).
 * A warning has been added in custom resource configuration screens. We recommend using 30 characters maximum for custom resource IDs. This also applies to custom resource fields, keys, indexes and links.
-* Fixed an issue which could lead to an erroneous publication error message after login.
 * The GDPR delete query has been improved for better performance. (CAMP-33504)
 * The transactional messaging overall performance has been improved with the capability of handling several event types at the same time, which accelerates the event processing time.
 
@@ -84,6 +83,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed an issue which could cause GDPR Access requests to fail.
 * Fixed an issue which could lead to triggers being discarded when multiple triggers were received for a unique profile.
 * Fixed a configuration issue with the Campaign and Assets Core Service integration which could prevent you from selecting a shared asset in an email.
+* Fixed an issue which could lead to an erroneous publication error message after login.
 * To Be Finished
 
 ## Release 19.2.7 - July 2019 {#release-19-2-7---july-2019}
