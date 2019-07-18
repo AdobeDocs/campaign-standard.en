@@ -24,7 +24,7 @@ A workflow is always started manually. However, once started, it can remain inac
 
 >[!CAUTION]
 >
->We recommend that you don't run more than 5 workflows simultaneously. When too many workflows are executed at the same time, the system can run out of resources and become unstable. We also recommend that you spread out your workflows over time.
+>We recommend that you don't run more than 20 workflows simultaneously. When too many workflows are executed at the same time, the system can run out of resources and become unstable. We also recommend that you spread out your workflows over time.
 
 Execution related actions (start, stop, pause, etc.) are **asynchronous** processes: the command is saved and will become effective once the server is available to apply it.
 
