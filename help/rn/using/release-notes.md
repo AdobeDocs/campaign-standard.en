@@ -46,11 +46,11 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
   </tr> 
   <tr> 
    <td> Report on workflow segment<br /> </td> 
-   <td> <p>This feature allows marketers to breakdown their delivery performances by segment code. When you create a workflow then use a segmentation activity to assign segments to the delivery population, these segments now go into the same delivery. This allows you to display the opens/clicks statistics based on segments in a single delivery. </p><p>For more information, refer to the <a href="XX">XX</a>.</p></td> 
+   <td> <p>This feature allows marketers to breakdown their delivery performances by segment code. When you create a workflow then use a segmentation activity to assign segments to the delivery population, these segments now go into the same delivery. This allows you to display the opens/clicks statistics based on segments in a single delivery. </p><p>For more information, refer to the <a href="../../reporting/using/creating-a-report-workflow-segment.md">detailed documentation.</a>.</p></td> 
   </tr> 
   <tr> 
    <td> New Location Service integration with Campaign<br /> </td> 
-   <td> <p>Through the integration with Adobe Analytics for Mobile, you can now use Adobe Campaign to send location-based marketing messages to your mobile application's subscribers via the Experience Platform SDK.<a href="XXX">XX</a>.</p></td> 
+   <td> <p>Through the integration with Adobe Analytics for Mobile, you can now use Adobe Campaign to send location-based marketing messages to your mobile application's subscribers via the Experience Platform SDK. For more information, refer to the <a href="../../integrating/using/configuring-campaign-points-of-interest-data-integration.md"></a>detailed documentation.</p></td> 
   </tr> 
  </tbody> 
 </table>
