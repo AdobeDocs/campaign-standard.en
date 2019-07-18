@@ -56,4 +56,3 @@ Once created and published, you can make the landing page accessible via a websi
 
 * [Creating a landing page](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-edit-landing-page-feature-video-use.html) video
 * [Use a landing page to subscribe a service](../../audiences/using/creating-a-service.md)
-
