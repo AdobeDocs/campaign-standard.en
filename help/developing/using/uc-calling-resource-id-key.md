@@ -19,16 +19,16 @@ This main steps for this use case are:
 
 Related topics:
 
-* [Creating or extending the resource](help/developing/using/creating-or-extending-the-resource.md)
-* [Defining identification keys](help/developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
+* [Creating or extending the resource](../../developing/using/creating-or-extending-the-resource.md)
+* [Defining identification keys](h../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
 * [Campaign Standard REST APIs](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
 
 ## Step 1: Configure the identification key
 
    >[!NOTE]
-   > Global concepts when configuring identification keys are detailed in [this section](help/developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys).
+   > Global concepts when configuring identification keys are detailed in [this section](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys).
 
-1. Before configuring the identification key, make sure that the resource has been extended with the desired fields and that it has been published. For more on this, refer to [this section](help/developing/using/creating-or-extending-the-resource.md).
+1. Before configuring the identification key, make sure that the resource has been extended with the desired fields and that it has been published. For more on this, refer to [this section](../../developing/using/creating-or-extending-the-resource.md).
 
 1. Go to the **[!UICONTROL Administration]** / **[!UICONTROL Developement]** / **[!UICONTROL Custom resources]** menu, then open the **[!UICONTROL Profile]** resource.
 
@@ -43,14 +43,14 @@ Related topics:
    ![](assets/uc_idkey3.png)
 
    >[!NOTE]
-   > If you want to display the two custom fields in the profile's interface, configure the **[UICONTROL Screen definition]** tab. For more on this, refer to [this section](help/developing/using/configuring-the-screen-definition.md).
+   > If you want to display the two custom fields in the profile's interface, configure the **[UICONTROL Screen definition]** tab. For more on this, refer to [this section](../../developing/using/configuring-the-screen-definition.md).
 
 1. You can now configure the filter definition to be able to call the resource using its identification key.
 
 ## Step 2: Configure the filter definition
 
    >[!NOTE]
-   > Global concepts when configuring filter definitions are detailed in [this section](help/developing/using/configuring-filter-definition.md).
+   > Global concepts when configuring filter definitions are detailed in [this section](../../developing/using/configuring-filter-definition.md).
 
 1. In the **[UICONTROL Filter definition]** tab, click **[UICONTROL Add an element]**, then enter the filter definition's label and ID.
 
@@ -83,7 +83,7 @@ Related topics:
 
 Once the identification key and its filter definition are configured, you can use them to call the resource, either from Campaign standard interface or REST APIs.
 
-To use the filter definition from the interface, use a **[UICONTROL Query]** activity in a workflow (see [this section](help/automating/using/query.md)). The filter is then available in the left pane.
+To use the filter definition from the interface, use a **[UICONTROL Query]** activity in a workflow (see [this section](../../automating/using/query.md)). The filter is then available in the left pane.
 
    ![](assets/uc_idkey9.png)
 
