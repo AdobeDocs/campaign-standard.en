@@ -20,7 +20,7 @@ snippet: y
 
 You can find in this section common questions related to Dynamic reporting.
 
-## For Unique opens and Unique clicks, the count in the aggregate row is not matching the ones in individual rows
+## For Unique opens and Unique clicks, the count in the aggregate row is not matching the ones in individual rows {#unique-open-clicks-no-match}
 
 This is an expected behavior.
 We can take the following example to explain this behavior.
@@ -90,7 +90,7 @@ This will result in the following table:
 >
 >Unique counts are based on an HLL-based sketch, this may cause slight inaccuracies at large counts.
 
-## Open counts do not match the Database count
+## Open counts do not match the Database count {#open-counts-no-match-database}
 
 This may be due to the fact that, heuristics are used in Dynamic reporting to track opens even when we can't track the **[!UICONTROL Open]** action.
 
@@ -208,7 +208,7 @@ After the Adobe Campaign Standard 19.2.1 release, reports look like the followin
  </tbody> 
 </table>
 
-## What is the colors' signification in my reports' table?
+## What is the colors' signification in my reports' table? {#reports-color-signification}
 
 
 Colors displayed on your reports are randomized and cannot be personalized. They represent a progress bar and are displayed to help you better highlight the maximal value reached in your reports.
@@ -219,12 +219,6 @@ In the example below, the cell is of the same color since its value is 100%.
 
 If you change the **Conditional formatting** to custom, when the value reaches the upper limit the cell will get greener. Whereas, if it reaches the lower limit, it will get redder.
 
-For example, here, we set the **Upper limit** to 500 and **Lower limit** to 0. 
+For example, here, we set the **Upper limit** to 500 and **Lower limit** to 0.
 
 ![](assets/troubleshooting_2.png)
-
-
-
-
-
-
