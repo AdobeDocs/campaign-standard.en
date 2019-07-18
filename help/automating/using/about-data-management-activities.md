@@ -33,4 +33,4 @@ The **[!UICONTROL Data management (ETL)]** section provides the following activi
 * [Extract file](../../automating/using/extract-file.md)
 * [Subscription Services](../../automating/using/subscription-services.md)
 
-**[!UICONTROL Data management (ETL)]** activities allows you to define **segment codes** for their outbound transitions. You can then create reports based on these segment codes in order to measure the efficiency of your maketing campaigns. For more on this, refer to (this section)[help/reporting/using/creating-a-report-workflow-segment.md].
+**[!UICONTROL Data management (ETL)]** activities allows you to define **segment codes** for their outbound transitions. You can then create reports based on these segment codes in order to measure the efficiency of your maketing campaigns. For more on this, refer to [this section](../../reporting/using/creating-a-report-workflow-segment.md).
