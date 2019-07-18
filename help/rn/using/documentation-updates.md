@@ -23,6 +23,7 @@ Learn about all the latest updates for Adobe Campaign Standard documentation.
 This page lists all the new features and documentation updates for each release of Adobe Campaign Standard.
 
 You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-notes.md).
+
 ## July 2019 {#release-july-2019}
 
 Added a new page on Landing page limitations. [Read more](../../channels/using/landing-page-limitations.md)
