@@ -38,7 +38,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
  <tbody> 
   <tr> 
    <td> Microsoft Dynamics 365 connector<br /> </td> 
-   <td> <p>Activate your CRM data on cross-channel communication. Pass on contacts from Microsoft Dynamics 365 to Adobe Campaign, and share campaign performance data (sends, opens, clicks, and bounces) back from Adobe Campaign to Microsoft Dynamics 365.</p><p>For more information, refer to the <a href="https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html">detailed documentation</a> and the <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-ms-dynamics-crm-connector-tutorial.html">how-to video</a>..</p></td> 
+   <td> <p>Activate your CRM data on cross-channel communication. Pass on contacts from Microsoft Dynamics 365 to Adobe Campaign, and share campaign performance data (sends, opens, clicks, and bounces) back from Adobe Campaign to Microsoft Dynamics 365.</p><p>For more information, refer to the <a href="https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html">detailed documentation</a> and the <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-ms-dynamics-crm-connector-tutorial.html">how-to video</a>.</p></td> 
   </tr> 
   <tr> 
    <td> External API<br /> </td> 
@@ -46,11 +46,11 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
   </tr> 
   <tr> 
    <td> Report on workflow segment<br /> </td> 
-   <td> <p>This feature allows marketers to breakdown their delivery performances by segment code. When you create a workflow then use a segmentation activity to assign segments to the delivery population, these segments now go into the same delivery. This allows you to display the opens/clicks statistics based on segments in a single delivery. </p><p>For more information, refer to the <a href="../../reporting/using/creating-a-report-workflow-segment.md">detailed documentation.</a>.</p></td> 
+   <td> <p>This feature allows marketers to breakdown their delivery performances by segment code. When you create a workflow then use a segmentation activity to assign segments to the delivery population, these segments now go into the same delivery. This allows you to display the opens/clicks statistics based on segments in a single delivery. </p><p>For more information, refer to the <a href="../../reporting/using/creating-a-report-workflow-segment.md">detailed documentation</a>.</p></td> 
   </tr> 
   <tr> 
    <td> New Location Service integration with Campaign<br /> </td> 
-   <td> <p>Through the integration with Adobe Analytics for Mobile, you can now use Adobe Campaign to send location-based marketing messages to your mobile application's subscribers via the Experience Platform SDK. For more information, refer to the <a href="../../integrating/using/configuring-campaign-points-of-interest-data-integration.md"></a>detailed documentation.</p></td> 
+   <td> <p>Through the integration with Adobe Analytics for Mobile, you can now use Adobe Campaign to send location-based marketing messages to your mobile application's subscribers via the Experience Platform SDK. For more information, refer to the <a href="../../integrating/using/configuring-campaign-points-of-interest-data-integration.md">detailed documentation</a>.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -66,7 +66,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 ### Other improvements {#other-improvements-3}
 
 * The reporting feature has been improved for a better experience. To use this feature, you need to accept the Dynamic Reporting Usage Agreement.
-* In workflows, a new option has been added to activate the preview of a workflow's next ten executions.
+* In workflows, a new option has been added to preview the next ten executions of a workflow.
 * In the Scheduler activity, a new option allows you to select a specific day of a specific week for monthly deliveries.
 * When creating recurring deliveries with no aggregation period, the delivery dashboard now allows you to request confirmation before the delivery is sent. For more on this, refer to the [detailed documentation](../../sending/using/confirming-the-send.md).
 * You can now personalize a delivery’s label with events variables that have been declared into the workflow’s external signal activity. For more on this, refer to the [detailed documentation](../../automating/using/calling-a-workflow-with-external-parameters.md).
