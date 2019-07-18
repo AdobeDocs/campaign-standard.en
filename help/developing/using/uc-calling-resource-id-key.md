@@ -20,7 +20,7 @@ This main steps for this use case are:
 Related topics:
 
 * [Creating or extending the resource](../../developing/using/creating-or-extending-the-resource.md)
-* [Defining identification keys](h../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
+* [Defining identification keys](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
 * [Campaign Standard REST APIs](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
 
 ## Step 1: Configure the identification key
