@@ -50,7 +50,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
   </tr> 
   <tr> 
    <td> New Location Service integration with Campaign<br /> </td> 
-   <td> <p>The integration with the Location Service is now fully compliant with AEP SDK.</p><p>For more information, refer to the <a href="XXX">XX</a>.</p></td> 
+   <td> <p>Through the integration with Adobe Analytics for Mobile, you can now use Adobe Campaign to send location-based marketing messages to your mobile application's subscribers via the Experience Platform SDK.<a href="XXX">XX</a>.</p></td> 
   </tr> 
  </tbody> 
 </table>
