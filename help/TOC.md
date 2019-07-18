@@ -293,6 +293,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Configuring filter definition](developing/using/configuring-filter-definition.md)
        + [Updating the database structure](developing/using/updating-the-database-structure.md)
        + [Deleting a resource](developing/using/deleting-a-resource.md)
+       + [Calling a resource using a composite identification key](developing/using/uc-calling-resource-id-key.md)
   + Use case: Extending the API {#use-case--extending-the-api}
        + [About extending the API](developing/using/about-extending-the-api.md)
        + [Step 1: Add extension fields to the profile resource](developing/using/step-1--add-extension-fields-to-the-profile-resource.md)
