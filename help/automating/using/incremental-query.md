@@ -76,7 +76,7 @@ The workflow is up made up of the following elements:
 
 ![](assets/incremental_query_example1.png)
 
-* A **[!UICONTROL Scheduler]** activity, to execute the workflow every Monday at 6 am.
+* A **[!UICONTROL Scheduler]** activity, to execute the workflow every Monday at 7 am.
 
   ![](assets/incremental_query_example2.png)
 
