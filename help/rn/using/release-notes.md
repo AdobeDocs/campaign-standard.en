@@ -41,12 +41,12 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
    <td> <p>Activate your CRM data on cross-channel communication. Pass on contacts from Microsoft Dynamics 365 to Adobe Campaign, and share campaign performance data (sends, opens, clicks, and bounces) back from Adobe Campaign to Microsoft Dynamics 365.</p><p>For more information, refer to the <a href="https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html">detailed documentation</a> and the <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-ms-dynamics-crm-connector-tutorial.html">how-to video</a>.</p></td> 
   </tr> 
   <tr> 
-   <td> External API<br /> </td> 
-   <td> <p>We’ve added a new activity to extend the workflow capabilities and give users the ability to communicate with external systems that offer web APIs. The External API activity allows you to bring data into a workflow from an external system via a REST API call. The REST endpoints can be a Customer management system, an Adobe I/O Runtime or an Experience Cloud REST endpoint (Data Platform, Target, Analytics, Campaign, etc). This data will then be used for segmentation and personalization.</p><p>For more information, refer to the <a href="../../automating/using/externalAPI.md">detailed documentation</a>.</p></td> 
+   <td> External API (Public Beta)<br /> </td> 
+   <td> <p>We’ve added a new activity to extend the workflow capabilities and give users the ability to communicate with external systems that offer web APIs. The External API activity allows you to bring data into a workflow from an external system via a REST API call. The REST endpoints can be a Customer management system, an Adobe I/O Runtime or an Experience Cloud REST endpoint (Data Platform, Target, Analytics, Campaign, etc). This data will then be used for segmentation and personalization.</p><p>This capability is a public beta feature. </p><p>For more information, refer to the <a href="../../automating/using/externalAPI.md">detailed documentation</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Report on workflow segment<br /> </td> 
-   <td> <p>This feature allows marketers to breakdown their delivery performances by segment code. When you create a workflow then use a segmentation activity to assign segments to the delivery population, these segments now go into the same delivery. This allows you to display the opens/clicks statistics based on segments in a single delivery. </p><p>For more information, refer to the <a href="../../reporting/using/creating-a-report-workflow-segment.md">detailed documentation</a>.</p></td> 
+   <td> <p>This feature allows marketers to breakdown their delivery performance by segment code. When you create a workflow then use a segmentation activity to assign segments to the delivery population, these segments now go into the same delivery. This allows you to display the opens/clicks statistics based on segments in a single delivery. </p><p>For more information, refer to the <a href="../../reporting/using/creating-a-report-workflow-segment.md">detailed documentation</a>.</p></td> 
   </tr> 
   <tr> 
    <td> New Location Service integration with Campaign<br /> </td> 
