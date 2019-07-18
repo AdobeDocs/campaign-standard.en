@@ -38,7 +38,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
  <tbody> 
   <tr> 
    <td> Microsoft Dynamics 365 connector<br /> </td> 
-   <td> <p>Activate your CRM data on cross-channel communication. Pass on contacts from Microsoft Dynamics 365 to Adobe Campaign, and share campaign performance data (sends, opens, clicks, and bounces) back from Adobe Campaign to Microsoft Dynamics 365.</p><p>For more information, refer to the <a href="https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html">detailed documentation</a> and the <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-ms-dynamics-crm-connector-tutorial.html">how-to video</a>.</p></td> 
+   <td> <p>Activate your CRM data on cross-channel communication. Pass on contacts from Microsoft Dynamics 365 to Adobe Campaign, and share campaign performance data (sends, opens, clicks, and bounces) back from Adobe Campaign to Microsoft Dynamics 365.</p><p>For more information, refer to the <a href="https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html">detailed documentation</a> and the <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-ms-dynamics-crm-connector-tutorial.html">how-to videos</a>.</p></td> 
   </tr> 
   <tr> 
    <td> External API (Public Beta)<br /> </td> 
@@ -71,6 +71,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * A warning has been added in custom resource configuration screens. We recommend using 30 characters maximum for custom resource IDs. This also applies to custom resource fields, keys, indexes and links.
 * Fixed an issue which could lead to an erroneous publication error message after login.
 * The GDPR delete query has been improved for better performance. (CAMP-33504)
+* The transactional messaging overall performance has been improved with the capability of handling several event types at the same time, which accelerates the event processing time.
 
 ### Other changes {#other-changes-2}
 
