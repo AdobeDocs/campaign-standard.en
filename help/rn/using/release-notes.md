@@ -65,7 +65,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 
 ### Other improvements {#other-improvements-3}
 
-* The reporting feature has been improved for a better experience. To use this feature, you need to accept the Dynamic Reporting Usage Agreement.
+* The reporting feature has been improved for a better experience. To use this feature, you need to accept the Dynamic Reporting Usage Agreement. For more on this, refer to the [detailed documentation](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
 * In workflows, a new option has been added to preview the next ten executions of a workflow. For more on this, refer to the [detailed documentation](../../automating/using/scheduler.md).
 * In the Scheduler activity, a new option allows you to select a specific day of a specific week for monthly deliveries. For more on this, refer to the [detailed documentation](../../automating/using/scheduler.md).
 * When creating recurring deliveries with no aggregation period, the delivery dashboard now allows you to request confirmation before the delivery is sent. For more on this, refer to the [detailed documentation](../../sending/using/confirming-the-send.md).
