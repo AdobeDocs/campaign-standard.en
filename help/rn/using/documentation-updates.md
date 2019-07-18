@@ -27,6 +27,10 @@ You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-n
 
 Added a new page on Landing page limitations. [Read more](../../channels/using/landing-page-limitations.md)
 
+A use case was added on how to call a profile using a composite identification key. [Read more](../../developing/using/uc-calling-resource-id-key.md)
+
+A recommendation has been added regarding the use of recurring deliveries with no aggreagation period when calling a worfkflow with parameters. [Read more](../../automating/using/calling-a-workflow-with-external-parameters.md)
+
 ## Release 19.2 - May 2019 {#release-19-2---may-2019}
 
 ### New capabilities included in the release {#new-capabilities-included-in-the-release}
