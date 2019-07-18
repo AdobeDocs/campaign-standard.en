@@ -66,8 +66,8 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 ### Other improvements {#other-improvements-3}
 
 * The reporting feature has been improved for a better experience. To use this feature, you need to accept the Dynamic Reporting Usage Agreement.
-* In workflows, a new option has been added to preview the next ten executions of a workflow.
-* In the Scheduler activity, a new option allows you to select a specific day of a specific week for monthly deliveries.
+* In workflows, a new option has been added to preview the next ten executions of a workflow. For more on this, refer to the [detailed documentation](../../automating/using/scheduler.md).
+* In the Scheduler activity, a new option allows you to select a specific day of a specific week for monthly deliveries. For more on this, refer to the [detailed documentation](../../automating/using/scheduler.md).
 * When creating recurring deliveries with no aggregation period, the delivery dashboard now allows you to request confirmation before the delivery is sent. For more on this, refer to the [detailed documentation](../../sending/using/confirming-the-send.md).
 * You can now personalize a delivery’s label with events variables that have been declared into the workflow’s external signal activity. For more on this, refer to the [detailed documentation](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
