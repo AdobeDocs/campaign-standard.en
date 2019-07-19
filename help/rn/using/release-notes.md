@@ -71,7 +71,6 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * When creating recurring deliveries with no aggregation period, the delivery dashboard now allows you to request confirmation before the delivery is sent. For more on this, refer to the [detailed documentation](../../sending/using/confirming-the-send.md).
 * You can now personalize a delivery’s label with event variables that have been declared in the workflow’s external signal activity. For more on this, refer to the [detailed documentation](../../automating/using/calling-a-workflow-with-external-parameters.md).
 * The GDPR delete query has been improved for better performance. (CAMP-33504)
-* The transactional messaging overall performance has been improved with the capability of handling several event types at the same time, which accelerates the event processing time.
 * The "ftp" option was removed from the external account configuration interface. (CAMP-34472)
 
 ### Other changes {#other-changes-2}
