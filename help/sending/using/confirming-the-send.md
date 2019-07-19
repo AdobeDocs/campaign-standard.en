@@ -42,7 +42,7 @@ The message is being sent.
 
 If you are using a recurring delivery with no aggregation period, you can request confirmation before the delivery is sent. To do this, open the **[!UICONTROL Schedule]** block of the delivery dashboard, then activate the dedicated option.
 
-![](assets/confirmatiojn_recurring_deliveries.png)
+![](assets/confirmation_recurring_deliveries.png)
 
 The **[!UICONTROL Deployment]** block shows the progress of the send.
 
