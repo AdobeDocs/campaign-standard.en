@@ -38,12 +38,12 @@ To create or extend a resource:
 1. Choose the action you want to perform:
 
     * **[!UICONTROL Create a new resource]**: Enter the **[!UICONTROL Label]** and **[!UICONTROL ID]** fields. The **[!UICONTROL ID]** field is mandatory. If you leave the Label field empty, it will automatically be completed from the ID.
-
-   >[!NOTE]
-   >
-   >We recommand using 30 characters maximum.
     
       ![](assets/schema_extension_2.png)
+
+    >[!NOTE]
+    >
+    >We recommand using 30 characters maximum.
 
     * **[!UICONTROL Extend an existing resource]**: Select the resource you want to extend.
     
