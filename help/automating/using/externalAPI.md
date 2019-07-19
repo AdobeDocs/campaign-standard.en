@@ -36,9 +36,15 @@ Main characteristics of this activity are:
 
 Drag and drop an **[!UICONTROL External API]** activity into your workflow and open the activity to start the configuration.
 
+### Inbound Mapping
+
+ ![](assets/externalAPI-inbound.png)
+
 ### Outbound Mapping
 
 This tab lets you define the sample **JSON structure** returned by the API Call.
+
+ ![](assets/externalAPI-outbound.png)
 
 The JSON structure pattern is: **{“data”:[{“key”:“value”}, {“key”:“value”},...]}**
 
@@ -55,10 +61,12 @@ If the **parsing is validated** a message appears and invite you to customize th
 ### Execution
 
 This tab lets you define the **HTTPS Endpoint** that will send data to ACS. If needed, you can enter authentication information in the fields below.
+ ![](assets/externalAPI-execution.png)
 
 ### Properties
 
 This tab lets you control **general properties** on the external API activity like the displayed label in the UI. The internal ID is not customizable.
+ ![](assets/externalAPI-properties.png)
 
 ### Column definition
 
@@ -68,6 +76,8 @@ This tab lets you control **general properties** on the external API activity li
 
 The **Column definition** tab allows you to precisely specify the data structure of each column in order to import data that does not contain any errors and make it match the types that are already present in the Adobe Campaign database for future operations.
 
+ ![](assets/externalAPI-column.png)
+
 For example, you can change the label of a column, select its type (string, integer, date, etc.) or even specify error processing.
 
 For more information, refer to the [Load File](../../automating/using/load-file.md) section.
@@ -76,10 +86,15 @@ For more information, refer to the [Load File](../../automating/using/load-file.
 
 This tab lets you activate the **outbound transition** and its label. This specific transition is useful in case of **timeout** or if the payload exceed the **data size limit**.
 
+ ![](assets/externalAPI-transition.png)
+
 ### Execution options
 
 This tab is available in most of the workflow activities. For more information, consult the [Activity properties](../../automating/using/executing-a-workflow.md#activity-properties) section.
 
+ ![](assets/externalAPI-options.png)
+
+<!--
 ## Example: Managing coupons with External API Activity
 
 This example illustrates how to **add coupon value** retrieving by a REST call to profiles and then sending an email containing these coupon values.
@@ -117,7 +132,4 @@ The workflow is presented as follows:
 1. Finally drag and drop a **Send via Email** activity.
     You can modify your email template by adding the **code** personnalized field.
 
->[!NOTE]
->
->* [Article 1](https://helpx.adobe.com/support/analytics.html)
->* [Article 2](https://helpx.adobe.com/support/audience-manager.html)
+-->
