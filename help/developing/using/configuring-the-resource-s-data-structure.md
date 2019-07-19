@@ -40,6 +40,7 @@ You can add new fields to a resource to store data that are not part of the out 
    >[!NOTE]
    >
    >If you leave the **[!UICONTROL Label]** field empty, it will automatically be completed from the ID.
+   >We recommand using 30 characters maximum.
 
    ![](assets/schema_extension_4.png)
 
