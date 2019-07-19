@@ -38,7 +38,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
  <tbody> 
   <tr> 
    <td> Microsoft Dynamics 365 connector<br /> </td> 
-   <td> <p>Activate your CRM data on cross-channel communication. Pass on contacts from Microsoft Dynamics 365 to Adobe Campaign, and share campaign performance data (sends, opens, clicks, and bounces) back from Adobe Campaign to Microsoft Dynamics 365.</p><p>For more information, refer to the <a href="https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html">detailed documentation</a> and the <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-ms-dynamics-crm-connector-tutorial.html">how-to videos</a>.</p></td> 
+   <td> <p>Activate your CRM data on cross-channel communication. Pass on contacts from Microsoft Dynamics 365 to Adobe Campaign, and share campaign performance data (sends, opens, clicks, and bounces) back from Adobe Campaign to Microsoft Dynamics 365.</p><p>For more information, refer to the <a href="https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html">detailed documentation</a> and the <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-ms-dynamics-crm-connector-tutorial.html">feature videos</a>.</p></td> 
   </tr> 
   <tr> 
    <td> External API (Public Beta)<br /> </td> 
@@ -57,7 +57,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 
 ### Security enhancements {#security-enhancements-2}
 
-* TBD
+* Fixed a security issue to prevent denial of service (DoS) attacks on invalid requests to get images. (CAMP-33454)
 
 ### Email Designer enhancements {#email-designer-enhancements}
 
@@ -70,21 +70,40 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * In the Scheduler activity, a new option allows you to select a specific day of a specific week for monthly deliveries. For more on this, refer to the [detailed documentation](../../automating/using/scheduler.md).
 * When creating recurring deliveries with no aggregation period, the delivery dashboard now allows you to request confirmation before the delivery is sent. For more on this, refer to the [detailed documentation](../../sending/using/confirming-the-send.md).
 * You can now personalize a delivery’s label with event variables that have been declared in the workflow’s external signal activity. For more on this, refer to the [detailed documentation](../../automating/using/calling-a-workflow-with-external-parameters.md).
-* A warning has been added in custom resource configuration screens. We recommend using 30 characters maximum for custom resource IDs. This also applies to custom resource fields, keys, indexes and links.
 * The GDPR delete query has been improved for better performance. (CAMP-33504)
 * The transactional messaging overall performance has been improved with the capability of handling several event types at the same time, which accelerates the event processing time.
+* The "ftp" option was removed from the external account configuration interface. (CAMP-34472)
 
 ### Other changes {#other-changes-2}
 
-* TBD
+* A warning was added in the delivery properties interface. It specifies that deliveries are prepared based on their aggregation period and that, if you plan to call the workflow multiple times a day, you should make sure they don't have any period. (CAMP-34393)
+* A warning has been added in custom resource configuration screens. We recommend using 30 characters maximum for custom resource IDs. This also applies to custom resource fields, keys, indexes and links.
+
 
 ### Patches {#patches-3}
 
-* Fixed an issue which could cause GDPR Access requests to fail.
+* Fixed an issue which could cause GDPR access requests to fail.
 * Fixed an issue which could lead to triggers being discarded when multiple triggers were received for a unique profile.
 * Fixed a configuration issue with the Campaign and Assets Core Service integration which could prevent you from selecting a shared asset in an email.
-* Fixed an issue which could lead to an erroneous publication error message after login.
-* To Be Finished
+* Fixed an issue which could lead to an erroneous custom resource publication error message after login.
+* Fixed an issue which displayed a blank page when creating or extending a custom resource.
+* The Redirect to destination URL action can no longer be selected for the secondary button in In-App messages.
+* Fixed an issue which prevented an audience with appSubscriptionrcp as the targeting dimension from being available for targeting in a mobile delivery.
+* Fixed an error which prevented hard bounces email addresses from being put in quarantine. (CAMP-24587)
+* Fixed an issue which occurred when adding a typology rule, then deleting it before saving the typology. (CAMP-32789)
+* Fixed an issue that could prevent landing page content from being displayed when disabling dynamic content. (CAMP-32924)
+* Fixed an issue with recurring deliveries which occurred when using personalization on a master delivery's attributes. (CAMP-32983)
+* Fixed an issue in workflows which prevented from reading results from a transition containing incoming SMS messages data. (CAMP-33134)
+* Fixed an issue in workflows which occurred when combining fork and exclusion activities to create audiences. (CAMP-33401)
+* Fixed an issue that could prevent mirror page content from being displayed, and proof messages from being sent for recurring deliveries. (CAMP-33413)
+* Fixed an issue leading to an error when using a Union activity between profiles and audiences. This issue was caused by an incompatibility of the identification keys in input transitions. (CAMP-33713)
+* Fixed an issue in the Test activities which prevented the "recCount" expression from using the correct syntax when double-clicking it. (CAMP-33756)
+* Fixed an issue that could lead to an error message when opening the Billing technical workflow logs. (CAMP-34313)
+* Fixed an issue in landing pages that could occur when configuring checkbox fields with subscriptions. (CAMP-34369)
+* Fixed an issue that occurred when configuring a list and adding the "icon" field to it. (CAMP-34585)
+* Fixed an issue which prevented from using the "|" and "%" symbols as date or time separators in Load file workflow activities. (CAMP-34706)
+* Fixed an issue which occurred in workflows when adding an activity, saving the workflow, then hitting the browser's "back" button. The newly added activity was removed from the workspace. (CAMP-34788)
+* Fixed an issue which occurred when using visibility conditions with checkboxes in landing pages. (CAMP-34802)
 
 ## Release 19.2.7 - July 2019 {#release-19-2-7---july-2019}
 
