@@ -61,7 +61,7 @@ You can create an email from a [campaign](../../start/using/marketing-activities
 
    The email dashboard is then displayed. It allows you to check your message and [prepare the send](../../sending/using/preparing-the-send.md).
 
-   The [**[!UICONTROL Edit properties]** button in the upper-right corner allows you to edit the properties of the email. You can, for example, configure the email so that its label is computed at the delivery preparation time.  Available parameters are listed in [this section](../../administration/using/configuring-email-channel.md#list-of-email-properties).
+   The **[!UICONTROL Edit properties]** button in the upper-right corner allows you to edit the properties of the email. You can, for example, configure the email so that its label is computed at the delivery preparation time.  Available parameters are listed in [this section](../../administration/using/configuring-email-channel.md#list-of-email-properties).
 
    ![](assets/delivery_dashboard_2.png)
 
