@@ -82,7 +82,7 @@ Each resource must have at least one unique key. For example, you can specify a 
 
    >[!NOTE]
    >
-   >We recommand using 30 characters maximum.
+   >We recommend using 30 characters maximum.
 
 1. To define the elements making up this key, click **[!UICONTROL Create element]** and select the fields that you created for this resource.
 
@@ -106,7 +106,7 @@ Defining indexes is recommended but not mandatory.
 
    >[!NOTE]
    >
-   >We recommand using 30 characters maximum.
+   >We recommend using 30 characters maximum.
 
 1. To define the elements making up this index, select the fields from those that you created for this resource.
 
@@ -143,17 +143,16 @@ A link details the association that one table has with other tables.
 
 1. In the **[!UICONTROL New link]** screen, the **[!UICONTROL Label]** and **[!UICONTROL ID]** fields are completed by default, but you can edit them.
 
+   >[!NOTE]
+   >
+   >We recommend using 30 characters maximum.
+   
    >[!CAUTION]
    >
    >It is not possible to rename a link after creation. To rename a link, you must delete it and create it again.
 
 1. The **[!UICONTROL Category for the audience and targeting]** list allows you to assign this link to a category making it more visible in the query editor tool.
 1. If needed, the **[!UICONTROL Reverse link definition]** section allows you to display the label and ID of the resource in the targeted resource.
-
-   >[!NOTE]
-   >
-   >We recommand using 30 characters maximum.
-
 1. Define the behavior of the records referenced by the link in the **[!UICONTROL Behavior if deleted/duplicated]** section.
 
    By default, the target record will be deleted once it is no longer referenced by the link.
@@ -258,7 +257,7 @@ In the custom resource screen, the **[!UICONTROL Summary]** pane indicates the s
 
    >[!NOTE]
    >
-   >We recommand using 30 characters maximum.
+   >We recommend using 30 characters maximum.
 
 1. If you need to restrict the access to this resource to certain organizational units, specify them here. Only users from authorized units will be able to work with this resource in the application.
 1. Save the modifications.
