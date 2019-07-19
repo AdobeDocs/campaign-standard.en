@@ -41,9 +41,9 @@ To create or extend a resource:
     
       ![](assets/schema_extension_2.png)
 
-    >[!NOTE]
-    >
-    >We recommand using 30 characters maximum.
+      >[!NOTE]
+      >
+      >We recommand using 30 characters maximum.
 
     * **[!UICONTROL Extend an existing resource]**: Select the resource you want to extend.
     
