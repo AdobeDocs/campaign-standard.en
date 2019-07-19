@@ -78,7 +78,11 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 
 * A warning was added in the delivery properties interface. It specifies that deliveries are prepared based on their aggregation period and that, if you plan to call the workflow multiple times a day, you should make sure they don't have any period. (CAMP-34393)
 * A warning has been added in custom resource configuration screens. We recommend using 30 characters maximum for custom resource IDs. This also applies to custom resource fields, keys, indexes and links.
-
+* A message now appears when trying to delete a transactional message that is used by a landing page as a confirmation message.
+* A warning now appears in workflows logs when an activity has been running for more than 6 hours. This does not apply to Push notification, Delivery, Signal, Start, End, Fork , AND-joint, Schedule, and Wait activities.
+* A warning now appears in workflows logs when you reach the maximum number of workflows that are simultaneously running.
+* Workflows that have been in pause or fail status for more than 7 days are now stopped in order to consume less disk space. The cleaning task displays into the workflow logs.
+* When using a "Transfer file" activity, an error is now logged if the file size exceeds the available disk space.
 
 ### Patches {#patches-3}
 
@@ -104,6 +108,11 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed an issue which prevented from using the "|" and "%" symbols as date or time separators in Load file workflow activities. (CAMP-34706)
 * Fixed an issue which occurred in workflows when adding an activity, saving the workflow, then hitting the browser's "back" button. The newly added activity was removed from the workspace. (CAMP-34788)
 * Fixed an issue which occurred when using visibility conditions with checkboxes in landing pages. (CAMP-34802)
+* Fixed an issue in the Enrichment activity that prevented fields from displaying in the "Additional data" tab, if the filtering dimension was set to tracking logs and the target dimension to profile.
+* Fixed an issue that led to an error message when exporting a "workflowTemplate" resource.
+* Fixed an issue when creating a new profile, which prevented the "Country/Region code" field from being saved if it was selected from the dialog box.
+* Fixed several issues that occurred when using the Direct Mail import template (updateQuarantinesDeliveryLogsDirectMail).
+
 
 ## Release 19.2.7 - July 2019 {#release-19-2-7---july-2019}
 
