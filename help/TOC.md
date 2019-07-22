@@ -272,6 +272,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Reconciliation](automating/using/reconciliation.md)
        + [Extract file](automating/using/extract-file.md)
        + [Subscription Services](automating/using/subscription-services.md)
+       + [External API](automating/using/external-api.md)
   + Filtering data {#filtering-data}
        + [Editing queries](automating/using/editing-queries.md)
        + [Advanced expression editing](automating/using/advanced-expression-editing.md)
