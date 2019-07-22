@@ -290,7 +290,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Resource statuses](developing/using/resource-statuses.md)
        + [Monitoring data model changes](developing/using/monitoring-data-model-changes.md)
   + Adding or extending a resource {#adding-or-extending-a-resource}
-       + [Key steps of adding a resource](developing/using/key-steps-of-adding-a-resource.md)
+       + [Key steps to add a resource](developing/using/key-steps-to-add-a-resource.md)
        + [Creating or extending the resource](developing/using/creating-or-extending-the-resource.md)
        + [Configuring the resource's data structure](developing/using/configuring-the-resource-s-data-structure.md)
        + [Configuring the screen definition](developing/using/configuring-the-screen-definition.md)
@@ -310,7 +310,7 @@ user-guide-title: Adobe Campaign Standard Help
   + [About Administrating Adobe Campaign](administration/using/about-administrating-adobe-campaign.md)
   + Users and security {#users-and-security}
        + [About access management](administration/using/about-access-management.md)
-       + [Types of users](administration/using/types-of-users.md)
+       + [Users management](administration/using/users-management.md)
        + [Organizational units](administration/using/organizational-units.md)
        + [List of roles](administration/using/list-of-roles.md)
        + [Managing groups and users](administration/using/managing-groups-and-users.md)

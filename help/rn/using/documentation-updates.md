@@ -208,7 +208,7 @@ The Configuring a mobile application using Adobe Experience Platform SDKs sectio
 
 Videos have been updated and moved [here](https://helpx.adobe.com/campaign/kt/acs/index/acs-videos.html).
 
-Updated the Type of users section. [Read more](../../administration/using/types-of-users.md)
+Updated the Type of users section. [Read more](../../administration/using/users-management.md)
 
 ## Release 18.9 - September 2018 {#release-18-9---september-2018}
 
@@ -468,7 +468,7 @@ New Dynamic Report video. [Read more](../../start/using/how-to-videos.md)
 
 Added S3 account recommendations. [Read more](../../administration/using/external-accounts.md#amazon-s3-account-recommendations)
 
-Updated the section about the different types of users. [Read more](../../administration/using/types-of-users.md)
+Updated the section about the different types of users. [Read more](../../administration/using/users-management.md)
 
 Updated the section about image source personalization. [Read more](../../designing/using/personalizing-an-image-source.md)
 
@@ -558,7 +558,7 @@ Dreamweaver integration live - [Read more](https://helpx.adobe.com/campaign/kt/a
 
 ### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-14}
 
-Section added on the different types of Adobe Campaign users. [Read more](../../administration/using/types-of-users.md)
+Section added on the different types of Adobe Campaign users. [Read more](../../administration/using/users-management.md)
 
 The Workflow guide has been reorganized and extended. Easily find how to [build](../../automating/using/building-a-workflow.md) and [execute](../../automating/using/executing-a-workflow.md) a workflow, how to [target](../../automating/using/targeting-data.md) and [manage](../../automating/using/targeting-data.md#enriching-data) your data, how to [import](../../automating/using/importing-data.md) data, and [how to use workflow data](../../automating/using/using-workflow-data.md) to update the database or to send deliveries.
 
