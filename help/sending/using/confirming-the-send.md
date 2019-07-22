@@ -40,6 +40,10 @@ The message is being sent.
 >
 >If the message is scheduled, it will be sent when sending time is reached. For more on scheduling messages, refer to [this section](../../sending/using/about-scheduling-messages.md).
 
+If you are using a recurring delivery with no aggregation period, you can request confirmation before the delivery is sent. To do this, open the **[!UICONTROL Schedule]** block of the delivery dashboard, then activate the dedicated option.
+
+![](assets/confirmation_recurring_deliveries.png)
+
 The **[!UICONTROL Deployment]** block shows the progress of the send.
 
 Once the message is sent to the contacts, the **[!UICONTROL Deployment]** zone shows your KPIs (Key Performance Indicator) data , including:

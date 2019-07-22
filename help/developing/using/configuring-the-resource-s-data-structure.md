@@ -40,6 +40,7 @@ You can add new fields to a resource to store data that are not part of the out 
    >[!NOTE]
    >
    >If you leave the **[!UICONTROL Label]** field empty, it will automatically be completed from the ID.
+   >We recommend using 30 characters maximum.
 
    ![](assets/schema_extension_4.png)
 
@@ -77,7 +78,11 @@ Each resource must have at least one unique key. For example, you can specify a 
 
 1. Use the **[!UICONTROL Create element]** button to create a key.
 
-   The **[!UICONTROL Label]** and **[!UICONTROL ID]** fields are completed by default, but you can be edited.
+   The **[!UICONTROL Label]** and **[!UICONTROL ID]** fields are completed by default but you can edit them.
+
+   >[!NOTE]
+   >
+   >We recommend using 30 characters maximum.
 
 1. To define the elements making up this key, click **[!UICONTROL Create element]** and select the fields that you created for this resource.
 
@@ -98,6 +103,11 @@ Defining indexes is recommended but not mandatory.
    ![](assets/schema_extension_26.png)
 
 1. The **[!UICONTROL Label]** and **[!UICONTROL ID]** fields are completed by default, but you can edit them.
+
+   >[!NOTE]
+   >
+   >We recommend using 30 characters maximum.
+
 1. To define the elements making up this index, select the fields from those that you created for this resource.
 
    ![](assets/schema_extension_27.png)
@@ -133,6 +143,10 @@ A link details the association that one table has with other tables.
 
 1. In the **[!UICONTROL New link]** screen, the **[!UICONTROL Label]** and **[!UICONTROL ID]** fields are completed by default, but you can edit them.
 
+   >[!NOTE]
+   >
+   >We recommend using 30 characters maximum.
+   
    >[!CAUTION]
    >
    >It is not possible to rename a link after creation. To rename a link, you must delete it and create it again.
@@ -240,6 +254,11 @@ In the custom resource screen, the **[!UICONTROL Summary]** pane indicates the s
    ![](assets/schema_extension_30.png)
 
 1. If needed, modify the label and ID of the resource.
+
+   >[!NOTE]
+   >
+   >We recommend using 30 characters maximum.
+
 1. If you need to restrict the access to this resource to certain organizational units, specify them here. Only users from authorized units will be able to work with this resource in the application.
 1. Save the modifications.
 

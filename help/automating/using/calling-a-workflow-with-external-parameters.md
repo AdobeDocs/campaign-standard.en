@@ -199,6 +199,10 @@ Declared events variables are now available from the list of personalization fie
 
 ![](assets/extsignal_activities_segment.png)
 
+**Delivery label**: define the delivery label based on events variables.
+
+![](assets/extsignal_activities_label.png)
+
 ## Use case {#use-case}
 
 The use case below shows how to call workflow with parameters within your workflows.
