@@ -41,10 +41,10 @@ When building your workflow, only use one **[!UICONTROL Scheduler]** activity pe
 1. Specify the **[!UICONTROL Execution frequency]**:
 
     * **[!UICONTROL Once]**: the workflow is executed a single time.
-    * **[!UICONTROL Several times a day]**: the workflow is regularly executed several times a day.
+    * **[!UICONTROL Several times a day]**: the workflow is regularly executed several times a day. You can set up executions at specific times or periodically. 
     * **[!UICONTROL Daily]**: the workflow is executed at a specific time, once a day.
     * **[!UICONTROL Weekly]**: the workflow is executed at a specified moment, once or several times a week.
-    * **[!UICONTROL Monthly]**: the workflow is executed at a specified moment, once or several times a month.
+    * **[!UICONTROL Monthly]**: the workflow is executed at a specified moment, once or several times a month. You can select months, when you need the workflow to be executed. You can also set up executions on specified weekday of the month, such as the second Tuesday of the month.
     * **[!UICONTROL Yearly]**: the workflow is executed at a specified moment, once or several times a year.
 
 1. Define the execution details according to the frequency selected. The detail fields may vary depending on the frequency used (time, repetition frequency, specified days, etc.).
