@@ -38,7 +38,6 @@ Here is a visual representation of the profiles' interaction with the sent email
    <th align="center"> <strong>Day</strong> <br /> </th> 
    <th align="center"> <strong>Opens</strong> <br /> </th> 
    <th align="center"> <strong>Unique opens</strong> <br /> </th> 
-
   </tr> 
  </thead> 
  <tbody> 
@@ -51,8 +50,7 @@ Here is a visual representation of the profiles' interaction with the sent email
    <td align="center"> Day 2<br /> </td> 
    <td align="center"> 3 + 0 = 3<br /> </td> 
    <td align="center"> 1 + 0 = 1<br /> </td> 
-  </tr> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
@@ -68,7 +66,6 @@ This will result in the following table:
    <th align="center"> <strong>Day</strong> <br /> </th> 
    <th align="center"> <strong>Opens</strong> <br /> </th> 
    <th align="center"> <strong>Unique opens</strong> <br /> </th> 
-
   </tr> 
  </thead> 
  <tbody> 
@@ -125,7 +122,6 @@ Before the Adobe Campaign Standard 19.2.1 release, reports looked like the follo
    <th align="center"> <strong>Delivered</strong> <br /> </th>
    <th align="center"> <strong>Opens</strong> <br /> </th> 
    <th align="center"> <strong>Unique opens</strong> <br /> </th>
-
   </tr> 
  </thead> 
  <tbody> 
@@ -156,8 +152,7 @@ Before the Adobe Campaign Standard 19.2.1 release, reports looked like the follo
    <td align="center"> 40<br /> </td> 
    <td align="center"> 2<br /> </td> 
    <td align="center"> 1<br /> </td> 
-  </tr>  
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
@@ -171,7 +166,6 @@ After the Adobe Campaign Standard 19.2.1 release, reports look like the followin
    <th align="center"> <strong>Delivered</strong> <br /> </th>
    <th align="center"> <strong>Opens</strong> <br /> </th> 
    <th align="center"> <strong>Unique opens</strong> <br /> </th>
-
   </tr> 
  </thead> 
  <tbody> 
@@ -202,13 +196,11 @@ After the Adobe Campaign Standard 19.2.1 release, reports look like the followin
    <td align="center"> 40<br /> </td> 
    <td align="center"> 2<br /> </td> 
    <td align="center"> 1<br /> </td> 
-  </tr>  
   </tr> 
  </tbody> 
 </table>
 
 ## What is the colors' signification in my reports' table? {#reports-color-signification}
-
 
 Colors displayed on your reports are randomized and cannot be personalized. They represent a progress bar and are displayed to help you better highlight the maximal value reached in your reports.
 
