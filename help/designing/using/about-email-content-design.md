@@ -98,10 +98,6 @@ To make proper use of the Email Designer and create the best emails as simply as
 
   See [Creating a content fragment](../../designing/using/defining-the-email-structure.md#creating-a-content-fragment).
 
-* When using and editing HTML code, make sure you follow the best practices and use correct coding style and syntax.
-
-  See [HTML5 Style Guide and Coding Conventions](https://www.w3schools.com/html/html5_syntax.asp).
-
 Also check the [general best practices for content design](../../designing/using/content-design-best-practices.md).
 
 ### Email Designer compatibility mode {#email-designer-compatibility-mode}
