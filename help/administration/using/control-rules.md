@@ -55,3 +55,6 @@ Possible values are:
 
   When a check requires message personalization to be complete, select this phase.
 
+>[!NOTE]
+>
+>For security reasons, the content of the control rules cannot be modified. The **[!UICONTROL Code]** field is read-only.
