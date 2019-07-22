@@ -55,7 +55,7 @@ To manage the notifications' recipients, define the alerting criteria and access
 
 >[!NOTE]
 >
->To access and configure the dashboards and the alerting criteria, you must have administration rights or appear in the **Delivery supervisors** security group. Standard users cannot access the dashboards in the Adobe Campaign interface. They can only receive the alerting notifications. For more on users and security in Adobe Campaign, see [Types of users](../../administration/using/types-of-users.md) and [About security groups](../../administration/using/managing-groups-and-users.md#about-security-groups).
+>To access and configure the dashboards and the alerting criteria, you must have administration rights or appear in the **Delivery supervisors** security group. Standard users cannot access the dashboards in the Adobe Campaign interface. They can only receive the alerting notifications. For more on users and security in Adobe Campaign, see [Types of users](../../administration/using/users-management.md) and [About security groups](../../administration/using/managing-groups-and-users.md#about-security-groups).
 
 From the Adobe Campaign interface, you can:
 

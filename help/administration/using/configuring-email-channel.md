@@ -138,7 +138,7 @@ This section details the list of parameters available in the properties screen o
 
 >[!NOTE]
 >
->Some parameters are only available in templates. Parameters you can access [depend on your permissions](../../administration/using/types-of-users.md).
+>Some parameters are only available in templates. Parameters you can access [depend on your permissions](../../administration/using/users-management.md).
 
 To edit the properties of an email or an email template, use the **[!UICONTROL Edit properties]** button.
 

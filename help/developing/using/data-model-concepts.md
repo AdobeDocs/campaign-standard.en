@@ -18,7 +18,7 @@ snippet: y
 
 # Data model concepts{#data-model-concepts}
 
-Adobe Campaign comes with a pre-defined data model. This data model can be modified by [administrators](../../administration/using/types-of-users.md#functional-administrators) who are able to add new resources or extensions to existing resources.
+Adobe Campaign comes with a pre-defined data model. This data model can be modified by [administrators](../../administration/using/users-management.md#functional-administrators) who are able to add new resources or extensions to existing resources.
 
 >[!CAUTION]
 >

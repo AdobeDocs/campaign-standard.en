@@ -46,9 +46,9 @@ This section will help you understand the main types of Adobe Campaign users. He
 
 We will rather focus on how the different tasks in Adobe Campaign are split between three main user types:
 
-* [Functional administrators](../../administration/using/types-of-users.md#functional-administrators): among all your organization's users, they are the most technical.
-* [Advanced users](../../administration/using/types-of-users.md#advanced-users): they setup all the elements that marketers need to send and monitor their deliveries. 
-* [Basic users](../../administration/using/types-of-users.md#basic-users): they are the marketers who personalize, deliver and monitor their campaigns.
+* [Functional administrators](../../administration/using/users-management.md#functional-administrators): among all your organization's users, they are the most technical.
+* [Advanced users](../../administration/using/users-management.md#advanced-users): they setup all the elements that marketers need to send and monitor their deliveries. 
+* [Basic users](../../administration/using/users-management.md#basic-users): they are the marketers who personalize, deliver and monitor their campaigns.
 
 >[!NOTE]
 >
