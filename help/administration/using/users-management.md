@@ -125,7 +125,6 @@ Your user is now created and should receive an email redirecting to the followin
 
 ![](assets/create_user_5.png)
 
-
 Your user will be synced with Adobe Campaign Standard as soon as he signs in to your instance.
 
 You can then check if your user has been correctly synced with Adobe Campaign:
@@ -147,4 +146,3 @@ You can then check if your user has been correctly synced with Adobe Campaign:
 1. In the **[!UICONTROL Authorized connection zone]** field, select through which way your user will connect to this instance, e.g. internal network or VPN.
 
 1. Click **[!UICONTROL Save]**.
-
