@@ -307,7 +307,7 @@ user-guide-title: Adobe Campaign Standard Help
   + [About Administrating Adobe Campaign](administration/using/about-administrating-adobe-campaign.md)
   + Users and security {#users-and-security}
        + [About access management](administration/using/about-access-management.md)
-       + [Types of users](administration/using/types-of-users.md)
+       + [Users management](administration/using/users-management.md)
        + [Organizational units](administration/using/organizational-units.md)
        + [List of roles](administration/using/list-of-roles.md)
        + [Managing groups and users](administration/using/managing-groups-and-users.md)
