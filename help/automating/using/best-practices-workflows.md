@@ -30,16 +30,16 @@ For example:
 
 ## Duplicating workflows
 
-You can duplicate workflows. In the **[!UICONTROL Marketing Activities]**, hover over the workflow and click **[!UICONTROL Duplicate element]**.
+You can duplicate workflows. In the **[!UICONTROL Marketing Activities]**, hover over the workflow and click **[!UICONTROL Duplicate element]**. Once duplicated, modifications of the workflow are not carried over to the copy of the workflow. The copy of the workflow can be edited.
 
 ![](assets/duplicating-workflow.png)
 
 ## Execution
 
-Adobe recommends not to run more than 20 workflows simultaneously. Depending on the nature of activities in your workflow, when executing too many workflows at the same time, the system can run out of resources and become unstable.
+By default, we recommend not to run more than 20 workflows simultaneously. After hitting that limit, workflows will be queued. To allow more workflows to run simultaneously, contact Customer Care. We also recommend that you spread out your workflows over time.
 
 A workflow cannot be automatically executed more often than once every ten minutes.
-The Repetition frequency of the activity cannot be less than 10 minutes. If the repetition frequency is set at 0 (also the default value), this option is not taken into account and the workflow will run according to the execution frequency specified.
+The Repetition frequency of the activity cannot be less than 10 minutes. If the repetition frequency is set at 0 (also the default value), this option is not taken into account and the workflow will run according to the execution frequency.
 
 A workflow containing unterminated transitions can still be executed: it will generate a warning message and the workflow will pause once it reaches the transition but will not generate an error. You can also start a workflow without a finished design and complete it as you go along.
 
@@ -53,7 +53,7 @@ To access the detail view of the transitions, check the **[!UICONTROL Keep inter
 
 >[!CAUTION]
 >
->This option consumes a lot of memory and is designed to help constructing a workflow and ensure it is correctly configured and behaving. Leave it unchecked on production instances.
+>This option consumes a lot of memory and is designed to help you build a workflow and ensure proper configuration and behavior. Leave it unchecked on production instances.
 
 ![](assets/keep-interim-best-practices.png)
 
@@ -65,7 +65,7 @@ While developing your workflow, a name is generated for every activity, as for a
 
 To duplicate existing activities, you can use copy-paste. This way, you keep the settings that were originally defined. For more information, refer to [Duplicating workflow activities](../../automating/using/workflow-interface.md).
 
-Each marketing activity offers several types by default. You can preconfigure certain parameters according to your needs. For more information, refer to the [Managing templates section](../automating/using/building-a-workflow.md#configuring).
+Each marketing activity offers several types by default. You can preconfigure some parameters according to your needs. For more information, refer to the [Managing templates section](../automating/using/building-a-workflow.md#configuring).
 
 ### Scheduler activity
 
@@ -81,7 +81,7 @@ For more information, refer to [Scheduler activity](../../automating/using/sched
 
 The targeting dimension can be defined when creating an audience. For more information, see [Creating audiences](../../automating/using/creating-audiences.md).
 
-## External Signal - Call workflow with parameters
+## Calling workflow with parameters
 
 Make sure that the name and number of parameters are identical to what is defined when calling the workflow (see [Defining the parameters when calling the workflow](../../automating/using/calling-a-workflow-with-external-parameters.md#defining-the-parameters-when-calling-the-workflow)). The parameters' types must also be consistent with the values that are expected.
 
@@ -96,7 +96,7 @@ For more information, see [Managing packages](../../automating/using/managing-pa
 
 ## Exporting lists
 
-The export list option allows you to export a maximum of 100,000 lines by default and defined by the Nms_ExportListLimit option. This option can be managed by the functional administrator, under the Administration > Application settings > Options menu.
+The export list option allows you to export a maximum of 100,000 lines by default and defined by the **Nms_ExportListLimit option**. This option can be managed by the functional administrator, under **Administration** > **Application settings** > **Options**.
 For more information, see [Exporting lists](../../automating/using/exporting-lists.md).
 
 ## Troubleshooting
@@ -110,7 +110,7 @@ For more information, refer to [Monitoring workflow execution](../../automating/
 
 ### Using delivery logs
 
-You can access workflow logs to monitor the success of your deliveries. Exclusion logs return excluded messages during preparation of the sending. Sending logs provide the status of the delivery for each profile.
+Delivery logs allow to monitor the success of your deliveries. Exclusion logs return excluded messages during preparation of the sending. Sending logs provide the status of the delivery for each profile.
 For more information, refer to [Understanding delivery failures](../sending/using/understanding-delivery-failures.md).
 
 ### Using delivery alerting
