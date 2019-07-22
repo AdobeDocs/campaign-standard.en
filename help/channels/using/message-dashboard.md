@@ -27,7 +27,7 @@ The message dashboard is a workspace made up of different icons - regrouped into
 The gray bar regroups various icons linked to your message.
 
 * **[!UICONTROL Summary]**: shows/hides the main information regarding the message.
-* **[!UICONTROL Edit properties]**: lets you edit the message's advanced parameters.
+* **[!UICONTROL Edit properties]**: lets you edit the message's [advanced parameters](../../administration/using/configuring-email-channel.md#list-of-email-properties).
 * **[!UICONTROL Reports]**: gives you access to the reports relating to the message.
 
 **Related topics:**
