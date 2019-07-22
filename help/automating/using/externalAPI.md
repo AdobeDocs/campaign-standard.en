@@ -13,7 +13,7 @@ internal: n
 snippet: y
 ---
 
-# External API {#externalAPI}
+# External API {#externalapi}
 
 ## Description {#description}
 
