@@ -90,6 +90,10 @@ To create a content block, follow these steps:
 
 Your content block can now be used in the content editor of a message or a landing page.
 
+>[!CAUTION]
+>
+>When editing the content of a block, make sure there are no extra white spaces between the beginning and the end of your *if* statements. In HTML the white spaces are displayed on screen and they will therefore impact your content layout.
+
 ## About targeting dimension {#about-targeting-dimension}
 
 The targeting dimension enables you to define in which type of message you can use the content block. This is to prevent using inappropriate blocks in a message, which may lead to errors.

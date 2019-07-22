@@ -310,8 +310,6 @@ For example, the event could not be assigned to an execution delivery because it
 
 Once the event has been assigned to an execution delivery, the transactional message can fail due to a temporary error, if the recipient's mailbox is full for example. For more on this, see [Retries after a delivery temporary failure](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
-If a transactional event has been assigned to an execution delivery that has failed, this event is postponed and retried later. When it is retried, it is assigned to a new execution delivery.
-
 >[!NOTE]
 >
 >When an event is assigned to an execution delivery, it appears in the sending logs of this execution delivery, and only at this time. The failed deliveries are displayed in the **[!UICONTROL Execution list]** tab of the transactional message.
@@ -320,9 +318,7 @@ If a transactional event has been assigned to an execution delivery that has fai
 
 **Sending logs update**
 
-When a transactional event has been assigned to an execution delivery that has failed, this event is postponed and retried a few minutes later. When it is retried, it is assigned to a new execution delivery.
-
-However, the sending logs of the new execution delivery are not immediately updated (the update is performed through a scheduled workflow). It means that the message could be in **[!UICONTROL Pending]** status even if the transactional event has been processed by the new execution delivery.
+In the retry process, the sending logs of the new execution delivery are not immediately updated (the update is performed through a scheduled workflow). It means that the message could be in **[!UICONTROL Pending]** status even if the transactional event has been processed by the new execution delivery.
 
 **Failed execution delivery**
 
