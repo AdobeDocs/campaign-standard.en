@@ -107,7 +107,7 @@ The steps for creating a standalone In-App message with Adobe Campaign are:
 
    ![](assets/inapp_creating_4.png)
 
-1. If you use an **[!UICONTROL Analytics Events]**, Adobe Analytics and View state events will be automatically populated based on the report suites configured in the Analytics extension in Adobe Launch whereas Context data events have to be manually added.
+1. If you use an **[!UICONTROL Analytics Events]**, Adobe Analytics and View state events will be automatically populated based on the report suites configured in the Analytics extension in Adobe Experience Platform Launch whereas Context data events have to be manually added.
 
    Please note that these events are only available if you have an Adobe Analytics license.
 
@@ -115,7 +115,7 @@ The steps for creating a standalone In-App message with Adobe Campaign are:
 
 1. If you use a **[!UICONTROL Places]** trigger, Places context data, Places custom metadata or Places event type will be automatically populated based on all the Libraries and their Points of Interest created in Adobe Places.
 
-   Please note that this trigger will be applied on the device only for the Points of Interest from the Libraries selected in the Places extension in Adobe Launch. For more information on the Places extension and how to install it, refer to this [documentation](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/places-extension-1/places-extension).
+   Please note that this trigger will be applied on the device only for the Points of Interest from the Libraries selected in the Places extension in Experience Platform Launch. For more information on the Places extension and how to install it, refer to this [documentation](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/places-extension-1/places-extension).
 
 1. In the **[!UICONTROL Frequency & duration]** tab, choose the frequency for your trigger, the start and end date, day of the week and time of the day when your In-App message will be active.
 

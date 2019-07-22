@@ -24,6 +24,15 @@ Each release comes with new features and patches. Click on a release to view its
 
 View the latest [documentation updates](../../rn/using/documentation-updates.md) for Adobe Campaign Standard. If you're looking for a previous release, consult these pages: [2018 Release Notes](../../rn/using/release-notes-2018.md), [2017 Release Notes](../../rn/using/release-notes-2017.md), [2015-2016 Release Notes](../../rn/using/release-notes-2015-2016.md). Also consult the list of [Deprecated and Removed Features](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html).
 
+## Release 19.2.7 - July 2019 {#release-19-2-7---july-2019}
+
+### Improvements {#improvements-2}
+
+* The GDPR delete query has been improved for better performance.
+* Fixed an issue which could cause web crashes after the 19.2 upgrade. (CAMP-34862)
+* Fixed an issue which could prevent non-administrator users from saving or scheduling reports. (CAMP-31133)
+* Fixed an issue when using "|" as the date separator in the Load file workflow activity. (CAMP-34706)
+
 ## Release 19.2.4 - June 2019 {#release-19-2-4---june-2019}
 
 ### Email Designer {#email-designer-2}
