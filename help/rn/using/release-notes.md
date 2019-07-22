@@ -45,10 +45,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
    <td> Report on workflow segment<br /> </td> 
    <td> <p>This feature allows marketers to break down their delivery performance by segment code. When you create a workflow and use a segmentation activity to assign segments to the delivery population, these segments can now go into the same delivery. This allows you to display the opens/clicks statistics based on multiple segments within a single delivery.</p><p>For more information, refer to the <a href="../../reporting/using/creating-a-report-workflow-segment.md">detailed documentation</a>.</p></td> 
   </tr> 
-  <tr> 
-   <td> New Location Service integration with Campaign<br /> </td> 
-   <td> <p></p></td> 
-  </tr> 
+  
  </tbody> 
 </table>
 
@@ -96,22 +93,21 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 
 ### Other changes {#other-changes-2}
 
-* A warning was added in the delivery properties interface. It specifies that deliveries are prepared based on their aggregation period and that, if you plan to call the workflow multiple times a day, you should make sure they don't have any period. (CAMP-34393)
+* A warning was added in the delivery properties interface. It specifies that deliveries are prepared based on their aggregation period and thaw to call the workflow multiple times a day, you should make sure they don't have any period. (CAMP-34393)
 * A warning has been added in custom resource configuration screens. We recommend using 30 characters maximum for custom resource IDs. This also applies to custom resource fields, keys, indexes and links.
 * A message now appears when trying to delete a transactional message that is used by a landing page as a confirmation message.
 * A warning now appears in workflows logs when an activity has been running for more than 6 hours. This does not apply to Push notification, Delivery, Signal, Start, End, Fork , AND-joint, Schedule, and Wait activities.
 * A warning now appears in workflows logs when you reach the maximum number of workflows that are simultaneously running.
-* Workflows that have been in pause or fail status for more than 7 days are now stopped in order to consume less disk space. The cleaning task displays into the workflow logs.
+* Workflows that have been in pause or fail status for more than 7 days are now stopped in order to consume less disk space. The cleaning task is displayed in the workflow logs.
 * When using a "Transfer file" activity, an error is now logged if the file size exceeds the available disk space.
+* The Redirect to destination URL action can no longer be selected for the secondary button in In-App messages.
 
 ### Patches {#patches-3}
 
 * Fixed an issue which could cause GDPR access requests to fail.
 * Fixed an issue which could lead to triggers being discarded when multiple triggers were received for a unique profile.
-* Fixed a configuration issue with the Campaign and Assets Core Service integration which could prevent you from selecting a shared asset in an email.
 * Fixed an issue which could lead to an erroneous custom resource publication error message after login.
 * Fixed an issue which displayed a blank page when creating or extending a custom resource.
-* The Redirect to destination URL action can no longer be selected for the secondary button in In-App messages.
 * Fixed an issue which prevented an audience with appSubscriptionrcp as the targeting dimension from being available for targeting in a mobile delivery.
 * Fixed an error which prevented hard bounces email addresses from being put in quarantine. (CAMP-24587)
 * Fixed an issue which occurred when adding a typology rule, then deleting it before saving the typology. (CAMP-32789)
@@ -138,7 +134,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed an issue related to transactional messaging that generated error logs when a user logged out. (CAMP-31698)
 * Fixed an error that could occur on specific environments when scheduling an email message.
 * Fixed an issue that caused the Update delivery execution workflow to fail.
-* Fixed a security issue that broke the email content when the subject contains multiple lines.
+* Fixed a security issue that broke the email content when the subject contained multiple lines.
 
 
 ## Release 19.2.7 - July 2019 {#release-19-2-7---july-2019}
