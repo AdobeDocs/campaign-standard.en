@@ -24,6 +24,26 @@ This page lists all the new features and documentation updates for each release 
 
 You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-notes.md).
 
+## Release 19.3 - July 30 {#release-19-3---july-2019}
+
+### New capabilities included in the release {#new-capabilities-included-in-the-release-19}
+
+### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-17}
+
+Information was added in the [Calling a workflow with parameters](../../developing/using/uc-calling-resource-id-key.md) section. It specifies that deliveries are prepared based on their aggregation period and that, if you plan to call the workflow multiple times a day, you should make sure they don’t have any period.
+
+Information was added on how to personalize a delivery’s label with event variables that have been declared in the workflow’s external signal activity. [Read more](../../developing/using/uc-calling-resource-id-key.md)
+
+## July 2019 {#release-july-2019}
+
+Added a new page on Landing page limitations. [Read more](../../channels/using/landing-page-limitations.md)
+
+A use case was added on how to call a profile using a composite identification key. [Read more](../../developing/using/uc-calling-resource-id-key.md)
+
+A recommendation has been added regarding the use of recurring deliveries with no aggregation period when calling a workflow with parameters. [Read more](../../automating/using/calling-a-workflow-with-external-parameters.md)
+
+The section on how to save email content as a fragment in the Email Designer has been updated. [Read more](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment)
+
 ## Release 19.2 - May 2019 {#release-19-2---may-2019}
 
 ### New capabilities included in the release {#new-capabilities-included-in-the-release}
