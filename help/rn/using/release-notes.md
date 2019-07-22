@@ -36,21 +36,18 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
   </tr> 
  </thead> 
  <tbody> 
+
   <tr> 
-   <td> Microsoft Dynamics 365 connector<br /> </td> 
-   <td> <p>Activate your CRM data on cross-channel communication. Pass on contacts from Microsoft Dynamics 365 to Adobe Campaign, and share campaign performance data (sends, opens, clicks, and bounces) back from Adobe Campaign to Microsoft Dynamics 365.</p><p>For more information, refer to the <a href="https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html">detailed documentation</a> and the <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-ms-dynamics-crm-connector-tutorial.html">feature videos</a>.</p></td> 
-  </tr> 
-  <tr> 
-   <td> External API (Public Beta)<br /> </td> 
-   <td> <p>We’ve added a new activity to extend the workflow capabilities and give users the ability to communicate with external systems that offer web APIs. The External API activity allows you to bring data into a workflow from an external system via a REST API call. The REST endpoints can be a Customer management system, an Adobe I/O Runtime or an Experience Cloud REST endpoint (Data Platform, Target, Analytics, Campaign, etc). This data will then be used for segmentation and personalization.</p><p>This capability is a public beta feature. </p><p>For more information, refer to the <a href="../../automating/using/externalAPI.md">detailed documentation</a>.</p></td> 
+   <td> External API Activity (Public Beta)<br /> </td> 
+   <td> <p>For deeper personalization, External API Activity allows you to bring data from external systems into a workflow via a REST API call. The REST endpoints can be a customer management system, Adobe I/O Runtime or Adobe Experience Cloud REST endpoint (e.g. Data Platform, Target, Analytics, Campaign).</p><p>This capability is currently in public beta.</p><p>For more information, refer to the <a href="../../automating/using/externalAPI.md">detailed documentation</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Report on workflow segment<br /> </td> 
-   <td> <p>This feature allows marketers to breakdown their delivery performance by segment code. When you create a workflow, then use a segmentation activity to assign segments to the delivery population, these segments now go into the same delivery. This allows you to display the opens/clicks statistics based on segments in a single delivery. </p><p>For more information, refer to the <a href="../../reporting/using/creating-a-report-workflow-segment.md">detailed documentation</a>.</p></td> 
+   <td> <p>This feature allows marketers to break down their delivery performance by segment code. When you create a workflow and use a segmentation activity to assign segments to the delivery population, these segments can now go into the same delivery. This allows you to display the opens/clicks statistics based on multiple segments within a single delivery.</p><p>For more information, refer to the <a href="../../reporting/using/creating-a-report-workflow-segment.md">detailed documentation</a>.</p></td> 
   </tr> 
   <tr> 
    <td> New Location Service integration with Campaign<br /> </td> 
-   <td> <p>Through the integration with Adobe Analytics for Mobile, you can now use Adobe Campaign to send location-based marketing messages to your mobile application's subscribers via the Experience Platform SDK. For more information, refer to the <a href="../../integrating/using/configuring-campaign-points-of-interest-data-integration.md">detailed documentation</a>.</p></td> 
+   <td> <p></p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,10 +58,34 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 
 ### Email Designer enhancements {#email-designer-enhancements}
 
-* TBD
+* Fixed an issue that added additional HTML style tags to an HTML template each time a component was added, which could dramatically increase the template’s size. (CAMP-34694)
+* Fixed an issue that could prevent some right top toolbar menu options from being available. (CAMP-34577)
+* Fixed an issue that occurred when the Mirror page URL content block was inserted into an email content. (CAMP-34779)
+* Fixed an issue that occurred when using JSPP code in an email, making it difficult to edit the content. (CAMP-34574)
+* Fixed an issue that resulted in images truncated on top when a hyperlink was added to them. (CAMP-34382)
+* Fixed a display issue when using the Email Designer with Firefox. (CAMP-34364)
+* Fixed several issues that occurred with the Advanced mode when defining dynamic content in an email. (CAMP-34351, CAMP-34333, CAMP-34331)
+* Fixed several issues that occurred with the dynamic content rule editor (CAMP-34304, CAMP-34303).
+* Fixed an issue that could prevent the Link field from being displayed in the Email Designer Settings pane (CAMP-33749).
+* Fixed an issue with the YouTube icon that was oversized in sent emails. (CAMP-33726)
+* Fixed a security issue that made the mirror page content editable. (CAMP-33691)
+* Fixed an issue that broke the HTML output when using the greater than symbol in dynamic content. (CAMP-33688)
+* Fixed an issue that occurred on using the Undo option when editing text in the Email Designer. (CAMP-32565)
+* Fixed an issue that created extra tags when undoing styles instead of removing them. (CAMP-32359)
+* It is now possible to define if each image used in an email will be shown only on desktop devices or only on mobile devices.
+* It is now possible to set the width and height of a Social content component.
+* Fixed an issue that prevented dynamic content old source code from being removed after deleting that dynamic content.
+* Fixed an issue that could prevent the subject of an email from being updated after it was modified.
+* Fixed an issue that prevented a n:n column structure from being selected once dropped into the workspace.
+* Fixed an issue that made the thumbnail of the message appear blurred in the email dashboard.
+* Fixed an issue that prevented the background from being correctly displayed for emails received in Outlook.
+* Fixed some sorting issues on the Email Designer home page.
+* Fixed an issue that occurred on duplicating variants when using dynamic content.
+* Some unwanted fields were removed from the Email Designer Settings pane.
 
 ### Other improvements {#other-improvements-3}
 
+* Through the integration with Adobe Experience Platform Location Services, Adobe Campaign is now compatible to send location-based marketing messages to your mobile application's subscribers via the Experience Platform SDK. For more information, refer to the [detailed documentation](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md).
 * The reporting feature has been improved for a better experience. To use this feature, you need to accept the Dynamic Reporting Usage Agreement. For more on this, refer to the [detailed documentation](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
 * In workflows, a new option has been added to preview the next ten executions of a workflow. For more on this, refer to the [detailed documentation](../../automating/using/scheduler.md).
 * In the Scheduler activity, a new option allows you to select a specific day of a specific week for monthly deliveries. For more on this, refer to the [detailed documentation](../../automating/using/scheduler.md).
@@ -111,6 +132,13 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed an issue that led to an error message when exporting a "workflowTemplate" resource.
 * Fixed an issue when creating a new profile, which prevented the "Country/Region code" field from being saved if it was selected from the dialog box.
 * Fixed several issues that occurred when using the Direct Mail import template (updateQuarantinesDeliveryLogsDirectMail).
+* Fixed an issue related to the Assets on Demand integration.
+* Fixed an issue that occurred when zooming in on the Timeline view. (CAMP-33628)
+* Fixed an issue that prevented proofs from being instantly sent for email messages with a scheduled date and time. (CAMP-33723)
+* Fixed an issue related to transactional messaging that generated error logs when a user logged out. (CAMP-31698)
+* Fixed an error that could occur on specific environments when scheduling an email message.
+* Fixed an issue that caused the Update delivery execution workflow to fail.
+* Fixed a security issue that broke the email content when the subject contains multiple lines.
 
 
 ## Release 19.2.7 - July 2019 {#release-19-2-7---july-2019}
