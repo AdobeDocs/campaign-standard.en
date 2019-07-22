@@ -11,7 +11,7 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 discoiquuid: 394402ac-0290-41e7-a8e2-e7cdd9addf28
-
+context-tags: deliveryThroughputReport,main;campaignThroughputReport,main;programThroughputReport,main
 internal: n
 snippet: y
 ---

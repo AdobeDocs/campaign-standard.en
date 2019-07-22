@@ -86,6 +86,10 @@ Adobe Campaign manages quarantine according to the delivery failure type and the
 
 If a user qualifies an email as a spam (**Feedback loop**), the message is automatically redirected towards a technical mailbox managed by Campaign. The user's email address is then automatically sent to quarantine with the **[!UICONTROL Blacklisted]** status. This status refers to the address only, the profile is not blacklisted, so that the user continues receiving SMS messages and push notifications.
 
+>[!NOTE]
+>
+>Quarantine in Adobe Campaign is case sensitive. Make sure to import email addresses in lower case, so that they are not retargeted later on.
+
 In the list of quarantined addresses (see [Identifying quarantined addresses for the entire platform](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-the-entire-platform)), the **[!UICONTROL Error reason]** field indicates why the selected address was placed in quarantine.
 
 ![](assets/quarantines2.png)
