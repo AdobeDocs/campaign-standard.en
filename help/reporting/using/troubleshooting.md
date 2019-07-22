@@ -75,13 +75,12 @@ This will result in the following table:
   <tr> 
    <td align="center"> Day 1<br /> </td> 
    <td align="center"> 6<br /> </td> 
-   <td align="center"> 2<br /> </td> 
+   <td align="center"> 2<br /> </td>
   </tr> 
   <tr> 
    <td align="center"> Day 2<br /> </td> 
    <td align="center"> 3<br /> </td> 
    <td align="center"> 2<br /> </td> 
-  </tr> 
   </tr> 
  </tbody> 
 </table>
