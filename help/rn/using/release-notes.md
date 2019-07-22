@@ -51,7 +51,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 
 * Fixed a security issue to prevent denial of service (DoS) attacks on invalid requests to get images. (CAMP-33454)
 
-### Email Designer enhancements {#email-designer-enhancements}
+### Email Designer enhancements {#email-designer-enhancements-3}
 
 * Fixed an issue that added additional HTML style tags to an HTML template each time a component was added, which could dramatically increase the template’s size. (CAMP-34694)
 * Fixed an issue that could prevent some right top toolbar menu options from being available. (CAMP-34577)
