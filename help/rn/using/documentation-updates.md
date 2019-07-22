@@ -26,9 +26,9 @@ You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-n
 
 ## Release 19.3 - July 30 {#release-19-3---july-2019}
 
-### New capabilities included in the release {#new-capabilities-included-in-the-release}
+### New capabilities included in the release {#new-capabilities-included-in-the-release-19}
 
-### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release}
+### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-17}
 
 Information was added in the [Calling a workflow with parameters](../../developing/using/uc-calling-resource-id-key.md) section. It specifies that deliveries are prepared based on their aggregation period and that, if you plan to call the workflow multiple times a day, you should make sure they don’t have any period.
 
