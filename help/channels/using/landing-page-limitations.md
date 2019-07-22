@@ -25,7 +25,7 @@ To learn more on resources configuration, see [Configuring the resource's data s
 
 >[!CAUTION]
 >
-> A landing page cannot display or update data from any other resource than **[!UICONTROL Profile]** and **[!UICONTROL Subscription]**.
+>A landing page cannot display or update data from any other resource than **[!UICONTROL Profile]** and **[!UICONTROL Subscription]**.
 
 **Preloading**
 
