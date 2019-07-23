@@ -21,16 +21,29 @@ snippet: y
 
 The **[!UICONTROL External API]** activity brings data into the workflow from an **external system** via a **REST API** call.
 
-The REST endpoints can be a Customer management system, an [Adobe I/O Runtime](https://www.adobe.io/apis/experienceplatform/runtime.html) or an Experience Cloud REST endpoints (Data Platform, Target, Analytics, Campaign, etc).
+The REST endpoints can be a customer management system, an [Adobe I/O Runtime](https://www.adobe.io/apis/experienceplatform/runtime.html) instance or an Experience Cloud REST endpoints (Data Platform, Target, Analytics, Campaign, etc).
 
-Main characteristics of this activity are:
+>[!CAUTION]
+>
+>This capability is currently in public beta. You need to accept the usage agreement before starting using the External API activity. Please note that since this public beta capability has not yet been commercially released by Adobe, it is not supported by Adobe Client Care, it may contain errors and may not function as well as other released features. 
+
+The main characteristics of this activity are:
+
+* Ability to pass data in a JSON format to a 3rd party REST API endpoint 
+* Ability to receive a JSON response back, map it to output tables and pass downstream to other workflow activities.
+* Failure management with an outbound specific transition
+
+The following guardrails have been put in place for this activity:
 
 * 5MB http response data size limit
-* Failure management with an outbound specific transition
 * Request timeout is 60 seconds
 * HTTP redirects are not allowed
 * Non-HTTPS Urls are rejected
 * "Accept: application/json" request header and "Content-Type: application/json" response header are allowed
+
+>[!CAUTION]
+>
+>Please note that the activity is meant for fetching of campaign wide data (latest set of offers, latest scores etc.) not for retrieving specific information for each profile as that can result in large amounts of data being transferred. If the usecase requires this the recommendation is to use the file transfer activity
 
 ## Configuration {#configuration}
 
