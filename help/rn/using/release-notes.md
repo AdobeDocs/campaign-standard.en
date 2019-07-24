@@ -67,8 +67,8 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed an issue that broke the HTML output when using the greater than symbol in dynamic content. (CAMP-33688)
 * Fixed an issue that occurred on using the Undo option when editing text in the Email Designer. (CAMP-32565)
 * Fixed an issue that created extra tags when undoing styles instead of removing them. (CAMP-32359)
-* It is now possible to define if each image used in an email will be shown only on desktop devices or only on mobile devices.
-* It is now possible to set the width and height of a Social content component.
+* You can now define if each component used in an email will be shown only on desktop devices or only on mobile devices.
+* You can now set the width and height of a Social content component.
 * Fixed an issue that prevented dynamic content old source code from being removed after deleting that dynamic content.
 * Fixed an issue that could prevent the subject of an email from being updated after it was modified.
 * Fixed an issue that prevented a n:n column structure from being selected once dropped into the workspace.
