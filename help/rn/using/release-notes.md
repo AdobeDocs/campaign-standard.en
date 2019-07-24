@@ -88,6 +88,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * You can now personalize a delivery’s label with event variables that have been declared in the workflow’s external signal activity. For more on this, refer to the [detailed documentation](../../automating/using/calling-a-workflow-with-external-parameters.md).
 * The GDPR delete query has been improved for better performance. (CAMP-33504)
 * The "ftp" option was removed from the external account configuration interface. (CAMP-34472)
+* You can now enable and disable the SMTP test mode option for each email message. For more on this, refer to the [detailed documentation](../../administration/using/configuring-email-channel.md#smtp-test-mode). (CAMP-34602)
 
 ### Other changes {#other-changes-2}
 
