@@ -16,7 +16,7 @@ internal: n
 snippet: y
 ---
 
-# Key steps of adding a resource{#key-steps-of-adding-a-resource}
+# Key steps to add a resource{#key-steps-to-add-a-resource}
 
 To create a new resource or to extend an existing resource with new fields, several steps are required:
 

@@ -171,6 +171,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Reporting interface](reporting/using/reporting-interface.md)
        + [List of components ](reporting/using/list-of-components-.md)
        + [Indicator calculation](reporting/using/indicator-calculation.md)
+       + [Troubleshooting](reporting/using/troubleshooting.md)
   + List of reports {#list-of-reports}
        + [Defining the report period](reporting/using/defining-the-report-period.md)
        + [Bounce summary](reporting/using/bounce-summary.md)
@@ -192,6 +193,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Adding visualizations](reporting/using/adding-visualizations.md)
        + [Adding components](reporting/using/adding-components.md)
        + [Creating a custom profile dimension](reporting/using/creating-a-custom-profile-dimension.md)
+       + [Creating a report based on workflow segments](reporting/using/creating-a-report-workflow-segment.md)
 + Integrating with Adobe Cloud {#integrating-with-adobe-cloud}
   + [About Campaign integrations](integrating/using/about-campaign-integrations.md)
   + Working with Campaign and Experience Manager {#working-with-campaign-and-experience-manager}
@@ -270,6 +272,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Reconciliation](automating/using/reconciliation.md)
        + [Extract file](automating/using/extract-file.md)
        + [Subscription Services](automating/using/subscription-services.md)
+       + [External API](automating/using/external-api.md)
   + Filtering data {#filtering-data}
        + [Editing queries](automating/using/editing-queries.md)
        + [Advanced expression editing](automating/using/advanced-expression-editing.md)
@@ -287,7 +290,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Resource statuses](developing/using/resource-statuses.md)
        + [Monitoring data model changes](developing/using/monitoring-data-model-changes.md)
   + Adding or extending a resource {#adding-or-extending-a-resource}
-       + [Key steps of adding a resource](developing/using/key-steps-of-adding-a-resource.md)
+       + [Key steps to add a resource](developing/using/key-steps-to-add-a-resource.md)
        + [Creating or extending the resource](developing/using/creating-or-extending-the-resource.md)
        + [Configuring the resource's data structure](developing/using/configuring-the-resource-s-data-structure.md)
        + [Configuring the screen definition](developing/using/configuring-the-screen-definition.md)
@@ -307,7 +310,7 @@ user-guide-title: Adobe Campaign Standard Help
   + [About Administrating Adobe Campaign](administration/using/about-administrating-adobe-campaign.md)
   + Users and security {#users-and-security}
        + [About access management](administration/using/about-access-management.md)
-       + [Types of users](administration/using/types-of-users.md)
+       + [Users management](administration/using/users-management.md)
        + [Organizational units](administration/using/organizational-units.md)
        + [List of roles](administration/using/list-of-roles.md)
        + [Managing groups and users](administration/using/managing-groups-and-users.md)
