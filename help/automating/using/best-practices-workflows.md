@@ -55,6 +55,7 @@ The Repetition frequency of the activity cannot be less than 10 minutes. If the 
 Workflows that have been in pause or fail status for more than 7 days are stopped in order to consume less disk space. The cleaning task is displayed in the workflow logs.
 
 ### Transitions
+
 A workflow containing unterminated transitions can still be executed: it will generate a warning message and the workflow will pause once it reaches the transition but will not generate an error. You can also start a workflow without a finished design and complete it as you go along.
 
 For more information, refer to [Executing workflows](../../automating/using//executing-a-workflow.md).
