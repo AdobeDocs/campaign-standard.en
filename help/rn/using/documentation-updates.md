@@ -34,6 +34,12 @@ Information was added in the [Calling a workflow with parameters](../../developi
 
 Information was added on how to personalize a delivery’s label with event variables that have been declared in the workflow’s external signal activity. [Read more](../../developing/using/uc-calling-resource-id-key.md)
 
+A new section has been added detailing how to create a user in Adobe Campaign Standard. [Read more](../../administration/using/users-management.md)
+
+A troubleshooting has been added for Dynamic Reporting. [Read more](../../reporting/using/troubleshooting.md)
+
+A diagram explaining how the different In-App templates handle personal information has been added. [Read more](../../channels/using/preparing-and-sending-an-in-app-message.md)
+
 ## July 2019 {#release-july-2019}
 
 Added a new page on Landing page limitations. [Read more](../../channels/using/landing-page-limitations.md)
