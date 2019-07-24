@@ -82,10 +82,6 @@ By default, filtering is carried out on the **[!UICONTROL Profiles]**. For examp
 
 ![](assets/typology_rule-order_2.png)
 
->[!NOTE]
->
->As the content of the control rules cannot be modified, they are essentially filtering rules that are used.
-
 ## Typology rules execution order {#typology-rules-execution-order}
 
 The typology rules are executed in an order specified during the targeting, analysis, and message personalization phases.

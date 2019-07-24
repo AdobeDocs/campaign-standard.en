@@ -96,7 +96,7 @@ This information can also be stored in new resources. In that case, the resource
 
 ![](assets/message-center_usecaseschema.png)
 
-For more on resource creation and publishing, refer to [this page](../../developing/using/key-steps-of-adding-a-resource.md).
+For more on resource creation and publishing, refer to [this page](../../developing/using/key-steps-to-add-a-resource.md).
 
 1. In the **[!UICONTROL Enrichment]** section, click the **[!UICONTROL Create element]** button.
 
@@ -304,7 +304,7 @@ As we want to identify our client via his CRM ID, first make sure that the **[!U
 
 In the same way, a custom resource corresponding to purchases must have been created and published, and must be linked to the **[!UICONTROL Profile]** resource. This way, you will be able to retrieve information from this resource to enrich the message content.
 
-For more on resource creation and publishing, refer to [this page](../../developing/using/key-steps-of-adding-a-resource.md).
+For more on resource creation and publishing, refer to [this page](../../developing/using/key-steps-to-add-a-resource.md).
 
 1. Create a new event using the **[!UICONTROL Email]** channel and the **[!UICONTROL Profile]** targeting dimension (see [Creating an event](../../administration/using/configuring-transactional-messaging.md#creating-an-event)).
 1. Define the attributes that will be available to personalize the transactional message. In our case, add the "CRM ID" and the "Product identifier" fields (see [Defining the event attributes](../../administration/using/configuring-transactional-messaging.md#defining-the-event-attributes)).

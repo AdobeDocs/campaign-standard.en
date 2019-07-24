@@ -179,7 +179,7 @@ Once created, these criteria can be added to a delivery alerting dashboard as we
 
 **Related topic:**
 
-[Adding or extending a resource](../../developing/using/key-steps-of-adding-a-resource.md)
+[Adding or extending a resource](../../developing/using/key-steps-to-add-a-resource.md)
 
 ## Delivery alerting parameters {#delivery-alerting-parameters}
 
