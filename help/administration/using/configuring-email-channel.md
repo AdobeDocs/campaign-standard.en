@@ -172,8 +172,6 @@ By default, five retries are scheduled for the first day with a minimum interval
 
 The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template
 
-The **[!UICONTROL Test SMTP delivery]** option allows you to test sending messages via SMTP. The messages are processed up until connection with the SMTP server is achieved, but they are not sent. For more information on configuring SMTP, refer to the [List of email SMTP parameters](../../administration/using/configuring-email-channel.md#list-of-email-smtp-parameters) section.
-
 #### Email format parameters {#email-format-parameters}
 
 You can configure the format of emails to be sent. There are three options available:
@@ -186,6 +184,24 @@ You can configure the format of emails to be sent. There are three options avail
   >This option includes both versions of the message. It therefore impacts the delivery throughput, because the message size is greater.
 
 * **Send all messages in text format**: the message is sent in text format. HTML format will not be sent, but used for the mirror page only when the recipient clicks the link in the message.
+
+#### SMTP test mode {#smtp-test-mode}
+
+The **[!UICONTROL Enable SMTP test mode]** option allows you to test sending emails via an SMTP connection without actually sending messages.
+The messages are processed until connection with the SMTP server is achieved, but they are not sent.
+
+![](assets/smtp-test-mode.png)
+
+This option is available for emails and email templates.
+
+If you enable the SMTP test mode option for an email template, all email messages created from this template will have this option enabled.
+
+  >[!CAUTION]
+  >
+  >When this option is enabled for an email, no messages will be sent until it is unchecked.
+  >A warning will be displayed in the email or email template dashboard.
+
+For more information on configuring SMTP, refer to the [List of email SMTP parameters](../../administration/using/configuring-email-channel.md#list-of-email-smtp-parameters) section.
 
 ### Validity period parameters {#validity-period-parameters}
 
