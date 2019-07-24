@@ -102,6 +102,7 @@ You need to create a specific [typology rule](../../administration/using/about-t
 1. From the Adobe Campaign logo, select **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** and click **[!UICONTROL Typologies]**.
 1. Duplicate the out-of-box typology **[!UICONTROL Transactional message on profile (mcTypologyProfile)]**.
 1. Once duplication confirmed, edit the new typology and enter the label **TYPOLOGY_PROFILE**.
+1. Remove the **blacklisted address** rule.
 1. Click **[!UICONTROL Save]**.
 
 This typology can now be associated to the confirmation email.
