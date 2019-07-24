@@ -24,6 +24,117 @@ Each release comes with new features and patches. Click on a release to view its
 
 View the latest [documentation updates](../../rn/using/documentation-updates.md) for Adobe Campaign Standard. If you're looking for a previous release, consult these pages: [2018 Release Notes](../../rn/using/release-notes-2018.md), [2017 Release Notes](../../rn/using/release-notes-2017.md), [2015-2016 Release Notes](../../rn/using/release-notes-2015-2016.md). Also consult the list of [Deprecated and Removed Features](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html).
 
+## Release 19.3 - July 2019 {#release-19-3---july-2019}
+
+### What's new? {#what-s-new-3}
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> Functionality<br /> </th> 
+   <th> Description<br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> External API Activity (Public Beta)<br /> </td> 
+   <td> <p>For deeper personalization, External API Activity allows you to bring data from external systems into a workflow via a REST API call. The REST endpoints can be a customer management system, Adobe I/O Runtime or Adobe Experience Cloud REST endpoint (e.g. Data Platform, Target, Analytics, Campaign).</p><p>This capability is currently in public beta.</p><p>For more information, refer to the <a href="../../automating/using/external-api.md">detailed documentation</a>.</p></td> 
+  </tr> 
+  <tr> 
+   <td> Report on workflow segment<br /> </td> 
+   <td> <p>This feature allows marketers to break down their delivery performance by segment code. When you create a workflow and use a segmentation activity to assign segments to the delivery population, these segments can now go into the same delivery. This allows you to display the opens/clicks statistics based on multiple segments within a single delivery.</p><p>For more information, refer to the <a href="../../reporting/using/creating-a-report-workflow-segment.md">detailed documentation</a>.</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Security enhancements {#security-enhancements-2}
+
+* Fixed a security issue to prevent denial of service (DoS) attacks on invalid requests to get images. (CAMP-33454)
+
+### Email Designer enhancements {#email-designer-enhancements-3}
+
+* Fixed an issue that added additional HTML style tags to an HTML template each time a component was added, which could dramatically increase the template’s size. (CAMP-34694)
+* Fixed an issue that could prevent some right top toolbar menu options from being available. (CAMP-34577)
+* Fixed an issue that occurred when the Mirror page URL content block was inserted into an email content. (CAMP-34779)
+* Fixed an issue that occurred when using JSPP code in an email, making it difficult to edit the content. (CAMP-34574)
+* Fixed an issue that resulted in images truncated on top when a hyperlink was added to them. (CAMP-34382)
+* Fixed a display issue when using the Email Designer with Firefox. (CAMP-34364)
+* Fixed several issues that occurred with the Advanced mode when defining dynamic content in an email. (CAMP-34351, CAMP-34333, CAMP-34331)
+* Fixed several issues that occurred with the dynamic content rule editor (CAMP-34304, CAMP-34303).
+* Fixed an issue that could prevent the Link field from being displayed in the Email Designer Settings pane (CAMP-33749).
+* Fixed an issue with the YouTube icon that was oversized in sent emails. (CAMP-33726)
+* Fixed a security issue that made the mirror page content editable. (CAMP-33691)
+* Fixed an issue that broke the HTML output when using the greater than symbol in dynamic content. (CAMP-33688)
+* Fixed an issue that occurred on using the Undo option when editing text in the Email Designer. (CAMP-32565)
+* Fixed an issue that created extra tags when undoing styles instead of removing them. (CAMP-32359)
+* It is now possible to define if each image used in an email will be shown only on desktop devices or only on mobile devices.
+* It is now possible to set the width and height of a Social content component.
+* Fixed an issue that prevented dynamic content old source code from being removed after deleting that dynamic content.
+* Fixed an issue that could prevent the subject of an email from being updated after it was modified.
+* Fixed an issue that prevented a n:n column structure from being selected once dropped into the workspace.
+* Fixed an issue that made the thumbnail of the message appear blurred in the email dashboard.
+* Fixed an issue that prevented the background from being correctly displayed for emails received in Outlook.
+* Fixed some sorting issues on the Email Designer home page.
+* Fixed an issue that occurred on duplicating variants when using dynamic content.
+* Some unwanted fields were removed from the Email Designer Settings pane.
+
+### Other improvements {#other-improvements-3}
+
+* Through the integration with Adobe Experience Platform Location Services, Adobe Campaign is now compatible to send location-based marketing messages to your mobile application's subscribers via the Experience Platform SDK. For more information, refer to the [detailed documentation](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md).
+* The reporting feature has been improved for a better experience. To use this feature, you need to accept the Dynamic Reporting Usage Agreement. For more on this, refer to the [detailed documentation](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
+* In workflows, a new option has been added to preview the next ten executions of a workflow. For more on this, refer to the [detailed documentation](../../automating/using/scheduler.md).
+* In the Scheduler activity, a new option allows you to select a specific day of a specific week for monthly deliveries. For more on this, refer to the [detailed documentation](../../automating/using/scheduler.md).
+* When creating recurring deliveries with no aggregation period, the delivery dashboard now allows you to request confirmation before the delivery is sent. For more on this, refer to the [detailed documentation](../../sending/using/confirming-the-send.md).
+* You can now personalize a delivery’s label with event variables that have been declared in the workflow’s external signal activity. For more on this, refer to the [detailed documentation](../../automating/using/calling-a-workflow-with-external-parameters.md).
+* The GDPR delete query has been improved for better performance. (CAMP-33504)
+* The "ftp" option was removed from the external account configuration interface. (CAMP-34472)
+
+### Other changes {#other-changes-2}
+
+* A warning was added in the delivery properties interface. It specifies that deliveries are prepared based on their aggregation period and thaw to call the workflow multiple times a day, you should make sure they don't have any period. (CAMP-34393)
+* A warning has been added in custom resource configuration screens. We recommend using 30 characters maximum for custom resource IDs. This also applies to custom resource fields, keys, indexes and links.
+* A message now appears when trying to delete a transactional message that is used by a landing page as a confirmation message.
+* A warning now appears in workflows logs when an activity has been running for more than 6 hours. This does not apply to Push notification, Delivery, Signal, Start, End, Fork , AND-joint, Schedule, and Wait activities.
+* A warning now appears in workflows logs when you reach the maximum number of workflows that are simultaneously running.
+* Workflows that have been in pause or fail status for more than 7 days are now stopped in order to consume less disk space. The cleaning task is displayed in the workflow logs.
+* When using a "Transfer file" activity, an error is now logged if the file size exceeds the available disk space.
+* The Redirect to destination URL action can no longer be selected for the secondary button in In-App messages.
+
+### Patches {#patches-3}
+
+* Fixed an issue which could cause GDPR access requests to fail.
+* Fixed an issue which could lead to triggers being discarded when multiple triggers were received for a unique profile.
+* Fixed an issue which could lead to an erroneous custom resource publication error message after login.
+* Fixed an issue which displayed a blank page when creating or extending a custom resource.
+* Fixed an issue which prevented an audience with appSubscriptionrcp as the targeting dimension from being available for targeting in a mobile delivery.
+* Fixed an error which prevented hard bounces email addresses from being put in quarantine. (CAMP-24587)
+* Fixed an issue which occurred when adding a typology rule, then deleting it before saving the typology. (CAMP-32789)
+* Fixed an issue that could prevent landing page content from being displayed when disabling dynamic content. (CAMP-32924)
+* Fixed an issue with recurring deliveries which occurred when using personalization on a master delivery's attributes. (CAMP-32983)
+* Fixed an issue in workflows which prevented from reading results from a transition containing incoming SMS messages data. (CAMP-33134)
+* Fixed an issue in workflows which occurred when combining fork and exclusion activities to create audiences. (CAMP-33401)
+* Fixed an issue that could prevent mirror page content from being displayed, and proof messages from being sent for recurring deliveries. (CAMP-33413)
+* Fixed an issue leading to an error when using a Union activity between profiles and audiences. This issue was caused by an incompatibility of the identification keys in input transitions. (CAMP-33713)
+* Fixed an issue in the Test activities which prevented the "recCount" expression from using the correct syntax when double-clicking it. (CAMP-33756)
+* Fixed an issue that could lead to an error message when opening the Billing technical workflow logs. (CAMP-34313)
+* Fixed an issue in landing pages that could occur when configuring checkbox fields with subscriptions. (CAMP-34369)
+* Fixed an issue that occurred when configuring a list and adding the "icon" field to it. (CAMP-34585)
+* Fixed an issue which prevented from using the "|" and "%" symbols as date or time separators in Load file workflow activities. (CAMP-34706)
+* Fixed an issue which occurred in workflows when adding an activity, saving the workflow, then hitting the browser's "back" button. The newly added activity was removed from the workspace. (CAMP-34788)
+* Fixed an issue which occurred when using visibility conditions with checkboxes in landing pages. (CAMP-34802)
+* Fixed an issue in the Enrichment activity that prevented fields from displaying in the "Additional data" tab, if the filtering dimension was set to tracking logs and the target dimension to profile.
+* Fixed an issue that led to an error message when exporting a "workflowTemplate" resource.
+* Fixed an issue when creating a new profile, which prevented the "Country/Region code" field from being saved if it was selected from the dialog box.
+* Fixed several issues that occurred when using the Direct Mail import template (updateQuarantinesDeliveryLogsDirectMail).
+* Fixed an issue related to the Assets on Demand integration.
+* Fixed an issue that occurred when zooming in on the Timeline view. (CAMP-33628)
+* Fixed an issue that prevented proofs from being instantly sent for email messages with a scheduled date and time. (CAMP-33723)
+* Fixed an issue related to transactional messaging that generated error logs when a user logged out. (CAMP-31698)
+* Fixed an error that could occur on specific environments when scheduling an email message.
+* Fixed an issue that caused the Update delivery execution workflow to fail.
+* Fixed a security issue that broke the email content when the subject contained multiple lines.
+
+
 ## Release 19.2.7 - July 2019 {#release-19-2-7---july-2019}
 
 ### Improvements {#improvements-2}
