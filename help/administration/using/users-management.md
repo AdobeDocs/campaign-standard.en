@@ -121,13 +121,13 @@ To add a user to your instance, you must first create it in the Admin console be
 
     ![](assets/create_user_4.png)
 
-Your user is now created and should receive an email redirecting to the following window where the user has to set a password then agree to the term of use. This user will then be able to connect to your Adobe Campaign Standard instance.
+Your user is now created and should receive an email redirecting to the following window where the user has to set a password then accept the term of use agreement. This user will then be able to connect to your Adobe Campaign Standard instance.
 
 ![](assets/create_user_5.png)
 
-Your user will be synced with Adobe Campaign Standard as soon as he signs in to your instance.
+Your user will be synced to Adobe Campaign Standard as soon as he signs in to your instance.
 
-You can then check if your user has been correctly synced with Adobe Campaign:
+You can then check if your user has been correctly synced to Adobe Campaign:
 
 1. From the advanced menu **[!UICONTROL Administration > Users & Security > Users]** select your previously created user.
 
@@ -146,3 +146,5 @@ You can then check if your user has been correctly synced with Adobe Campaign:
 1. In the **[!UICONTROL Authorized connection zone]** field, select through which way your user will connect to this instance, e.g. internal network or VPN.
 
 1. Click **[!UICONTROL Save]**.
+
+Your user is now ready to use Adobe Campaign Standard.
