@@ -191,6 +191,10 @@ The fragment can now be used in any email built with the Email Designer. It appe
 
 When editing an email with the Email Designer, you can directly save part of that email as a fragment.
 
+>[!CAUTION]
+    >
+    >You cannot save as fragment a structure containing personalization fields, dynamic content or another fragment.
+
 1. When editing an email in the Email Designer, select **[!UICONTROL Save as fragment]** from the main toolbar.
 
    ![](assets/email_designer_save-as-fragment.png)
@@ -213,7 +217,7 @@ When editing an email with the Email Designer, you can directly save part of tha
 
     ![](assets/email_designer_save-as-fragment_list.png)
 
-1. To use your new fragment, open any other email content and select it from the fragment list.
+1. To use your new fragment, open any email content and select it from the fragment list.
 
 ![](assets/email_designer_save-as-fragment_in-new-email.png)
 
