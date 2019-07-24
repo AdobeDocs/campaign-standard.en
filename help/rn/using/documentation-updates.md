@@ -44,6 +44,10 @@ A troubleshooting has been added for Dynamic Reporting. [Read more](../../report
 
 A diagram explaining how the different In-App templates handle personal information has been added. [Read more](../../channels/using/preparing-and-sending-an-in-app-message.md)
 
+The section on how to save email content as a fragment in the Email Designer has been updated. [Read more](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment)
+
+A warning was added on how extra white spaces can impact the layout of a email content. [Read more](../../designing/using/adding-a-content-block.md#creating-custom-content-blocks)
+
 ## Documentation updates - July 2019 {#doc-updates-2019}
 
 Added a new page on Landing page limitations. [Read more](../../channels/using/landing-page-limitations.md)
@@ -51,8 +55,6 @@ Added a new page on Landing page limitations. [Read more](../../channels/using/l
 A use case was added on how to call a profile using a composite identification key. [Read more](../../developing/using/uc-calling-resource-id-key.md)
 
 A recommendation has been added regarding the use of recurring deliveries with no aggregation period when calling a workflow with parameters. [Read more](../../automating/using/calling-a-workflow-with-external-parameters.md)
-
-The section on how to save email content as a fragment in the Email Designer has been updated. [Read more](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment)
 
 ## Release 19.2 - May 2019 {#release-19-2---may-2019}
 
