@@ -67,8 +67,8 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed an issue that broke the HTML output when using the greater than symbol in dynamic content. (CAMP-33688)
 * Fixed an issue that occurred on using the Undo option when editing text in the Email Designer. (CAMP-32565)
 * Fixed an issue that created extra tags when undoing styles instead of removing them. (CAMP-32359)
-* It is now possible to define if each image used in an email will be shown only on desktop devices or only on mobile devices.
-* It is now possible to set the width and height of a Social content component.
+* You can now define if each component used in an email will be shown only on desktop devices or only on mobile devices.
+* You can now set the width and height of a Social content component.
 * Fixed an issue that prevented dynamic content old source code from being removed after deleting that dynamic content.
 * Fixed an issue that could prevent the subject of an email from being updated after it was modified.
 * Fixed an issue that prevented a n:n column structure from being selected once dropped into the workspace.
@@ -88,6 +88,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * You can now personalize a delivery’s label with event variables that have been declared in the workflow’s external signal activity. For more on this, refer to the [detailed documentation](../../automating/using/calling-a-workflow-with-external-parameters.md).
 * The GDPR delete query has been improved for better performance. (CAMP-33504)
 * The "ftp" option was removed from the external account configuration interface. (CAMP-34472)
+* You can now enable and disable the SMTP test mode option for each email message. For more on this, refer to the [detailed documentation](../../administration/using/configuring-email-channel.md#smtp-test-mode). (CAMP-34602)
 
 ### Other changes {#other-changes-2}
 
