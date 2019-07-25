@@ -236,6 +236,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Using workflow data](automating/using/using-workflow-data.md)
        + [Executing a workflow](automating/using/executing-a-workflow.md)
        + [Calling a workflow with external parameters](automating/using/calling-a-workflow-with-external-parameters.md)
+       + [Workflow best practices](automating/using/best-practices-workflows.md)
   + Targeting activities {#targeting-activities}
        + [About targeting activities](automating/using/about-targeting-activities.md)
        + [Query](automating/using/query.md)
