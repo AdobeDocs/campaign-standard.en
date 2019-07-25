@@ -48,6 +48,10 @@ The section on how to save email content as a fragment in the Email Designer has
 
 A warning was added on how extra white spaces can impact the layout of a email content. [Read more](../../designing/using/adding-a-content-block.md#creating-custom-content-blocks)
 
+A new section on Email Designer recommended updates has been added. [Read more](../../designing/using/about-email-content-design.md#email-designer-updates)
+
+A new section on how to send proofs using real customer data has been added. [Read more](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs-using-additional-data)
+
 ## Documentation updates - July 2019 {#doc-updates-2019}
 
 Added a new page on Landing page limitations. [Read more](../../channels/using/landing-page-limitations.md)
