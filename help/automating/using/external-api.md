@@ -137,15 +137,15 @@ These log messages are used to log information about useful checkpoints during t
  <tbody> 
   <tr> 
    <td> Invoking API URL '%s'.</td> 
-   <td> <p>Invoking API URL 'https://adobeioruntime.net/api/v1/web/campaign-stage/bao/web-coupon-secure?count=2'.</p></td> 
+   <td> <p>Invoking API URL 'https://example.com/api/v1/web-coupon?count=2'.</p></td> 
   </tr> 
   <tr> 
    <td> Retrying API URL '%s', previous attempt failed ('%s').</td> 
-   <td> <p>Retrying API URL 'https://adobeioruntime.net/api/v1/web/campaign-stage/bao/web-coupon-secure?count=2', previous attempt failed ('HTTP - 401').</p></td>
+   <td> <p>Retrying API URL 'https://example.com/api/v1/web-coupon?count=2', previous attempt failed ('HTTP - 401').</p></td>
   </tr> 
   <tr> 
    <td> Transferring content from '%s' (%s / %s).</td> 
-   <td> <p>Transferring content from 'https://adobeioruntime.net/api/v1/web/campaign-stage/bao/web-coupon-secure?count=2' (1234 / 1234).</p></td> 
+   <td> <p>Transferring content from 'https://example.com/api/v1/web-coupon?count=2' (1234 / 1234).</p></td> 
   </tr>
  </tbody> 
 </table>
@@ -172,7 +172,8 @@ These log messages are used to log information about unexpected error conditions
   </tr> 
   <tr> 
    <td> WKF-560245 - API URL could not be parsed (error: '%d').</td> 
-   <td> <p>API URL could not be parsed (error: '-2010'). Note: This error is logged when the API URL fails validation rules.</p></td>
+   <td> <p>API URL could not be parsed (error: '-2010').</p>
+   <p> Note: This error is logged when the API URL fails validation rules.</p></td>
   </tr> 
   <tr>
    <td> WKF-560244 - API URL host must not be 'localhost', or IP address literal (URL host: '%s').</td> 
@@ -182,7 +183,7 @@ These log messages are used to log information about unexpected error conditions
   </tr> 
   <tr> 
    <td> WKF-560238 - API URL must be a secure URL (https) (requested URL: '%s').</td> 
-   <td> <p>API URL must be a secure URL (https) (requested URL: 'http://adobeioruntime.net/api/v1/web/campaign-stage/bao/web-coupon-secure?count=2').</p></td> 
+   <td> <p>API URL must be a secure URL (https) (requested URL: 'https://example.com/api/v1/web-coupon?count=2').</p></td> 
   </tr> 
   <tr> 
    <td> WKF-560249 - Failed to create request body JSON. Error when adding '%s'.</td> 
@@ -191,7 +192,8 @@ These log messages are used to log information about unexpected error conditions
   </tr> 
   <tr> 
    <td> WKF-560246 - HTTP header key is bad (header key: '%s').</td> 
-   <td> <p>HTTP header key is bad (header key: '%s'). (Note: This error is logged when the custom header key fails validation according to RFC https://tools.ietf.org/html/rfc7230#section-3.2.)</p></td> 
+   <td> <p>HTTP header key is bad (header key: '%s').</p>
+   <p> Note: This error is logged when the custom header key fails validation according to RFC https://tools.ietf.org/html/rfc7230#section-3.2.</p></td> 
   </tr>
  <tr> 
    <td> WKF-560248 - HTTP header key is not allowed (header key: '%s').</td> 
@@ -199,7 +201,8 @@ These log messages are used to log information about unexpected error conditions
   </tr> 
   <tr> 
    <td> WKF-560247 -  AHTTP header value is bad (header value: '%s').</td> 
-   <td> <p>AHTTP header value is bad (header value: '%s'). (Note: This error is logged when the custom header value fails validation according to RFC https://tools.ietf.org/html/rfc7230#section-3.2.).</p></td> 
+   <td> <p>AHTTP header value is bad (header value: '%s'). </p>
+    <p>Note: This error is logged when the custom header value fails validation according to RFC https://tools.ietf.org/html/rfc7230#section-3.2.</p></td> 
   </tr> 
   <tr> 
    <td> WKF-560240 - JSON payload has bad property '%s'.</td> 
@@ -207,16 +210,9 @@ These log messages are used to log information about unexpected error conditions
   </tr> 
   <tr>
    <td> WKF-560241 - Malformed JSON or unacceptable format.</td> 
-   <td> <p>Malformed JSON or unacceptable format. Note: This message only applies to parsing response body from the external API, and is logged when trying to validate whether the response body conforms to the JSON format mandated by this activity.</p></td>
-  </tr> 
-  <tr> 
-   <td> WKF-560242 - More than %d reject temporary files created with the same name.</td> 
-   <td> <p>More than 100 reject temporary files created with the same name.</p></td> 
-  </tr> 
-  <tr> 
-   <td> WKF-560243 - The temporary file name evaluated from '%s' is empty.</td> 
-   <td> <p>The temporary file name evaluated from '%s' is empty.</p></td>
-  </tr> 
+   <td> <p>Malformed JSON or unacceptable format.</p>
+   <p>Note: This message only applies to parsing response body from the external API, and is logged when trying to validate whether the response body conforms to the JSON format mandated by this activity.</p></td>
+  </tr>
   <tr> 
    <td> WKF-560246 - Activity failed (reason: '%s').</td> 
    <td> <p>When activity fails due to HTTP 401 error response - Activity failed (reason: 'HTTP - 401')</p>
