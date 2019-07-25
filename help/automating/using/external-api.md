@@ -70,7 +70,7 @@ This tab lets you define the sample **JSON structure** returned by the API Call.
 
 ![](assets/externalAPI-outbound.png)
 
-The JSON structure pattern is: **{“data”:[{“key”:“value”}, {“key”:“value”},...]}**
+The JSON structure pattern is: `{“data”:[{“key”:“value”}, {“key”:“value”},...]}`
 
 The sample JSON definition must have the **following characteristics**:
 
@@ -201,8 +201,8 @@ These log messages are used to log information about unexpected error conditions
   </tr> 
   <tr> 
    <td> WKF-560247 -  AHTTP header value is bad (header value: '%s').</td> 
-   <td> <p>AHTTP header value is bad (header value: '%s'). </p>
-    <p>Note: This error is logged when the custom header value fails validation according to RFC https://tools.ietf.org/html/rfc7230#section-3.2.</p></td> 
+   <td> <p>HTTP header value is bad (header value: '%s'). </p>
+    <p>Note: This error is logged when the custom header value fails validation according to [RFC](https://tools.ietf.org/html/rfc7230#section-3.2).</p></td> 
   </tr> 
   <tr> 
    <td> WKF-560240 - JSON payload has bad property '%s'.</td> 
