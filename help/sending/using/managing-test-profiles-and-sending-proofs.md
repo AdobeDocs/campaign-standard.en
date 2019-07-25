@@ -146,7 +146,7 @@ This section describes how to send proofs using real customer data accessible vi
 
    The Query activity is presented in the [Query](../../automating/using/query.md) section.
 
-1. Add additional data from a linked table. For more on this, see [Enriching data](../../sautomating/using/query.md#enriching-data).
+1. Add additional data from a linked table. For more on this, see [Enriching data](../../automating/using/query.md#enriching-data).
 
 1. Drag and drop an **Email delivery** activity into your workflow and open it.
 
