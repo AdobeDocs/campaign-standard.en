@@ -21,16 +21,29 @@ snippet: y
 
 The **[!UICONTROL External API]** activity brings data into the workflow from an **external system** via a **REST API** call.
 
-The REST endpoints can be a Customer management system, an [Adobe I/O Runtime](https://www.adobe.io/apis/experienceplatform/runtime.html) or an Experience Cloud REST endpoints (Data Platform, Target, Analytics, Campaign, etc).
+The REST endpoints can be a customer management system, an [Adobe I/O Runtime](https://www.adobe.io/apis/experienceplatform/runtime.html) instance or an Experience Cloud REST endpoints (Data Platform, Target, Analytics, Campaign, etc).
 
-Main characteristics of this activity are:
+>[!CAUTION]
+>
+>This capability is currently in public beta. You need to accept the usage agreement before starting using the External API activity. Please note that since this public beta capability has not yet been commercially released by Adobe, it is not supported by Adobe Client Care, it may contain errors and may not function as well as other released features. 
+
+The main characteristics of this activity are:
+
+* Ability to pass data in a JSON format to a 3rd party REST API endpoint 
+* Ability to receive a JSON response back, map it to output tables and pass downstream to other workflow activities.
+* Failure management with an outbound specific transition
+
+The following guardrails have been put in place for this activity:
 
 * 5MB http response data size limit
-* Failure management with an outbound specific transition
 * Request timeout is 60 seconds
 * HTTP redirects are not allowed
 * Non-HTTPS Urls are rejected
 * "Accept: application/json" request header and "Content-Type: application/json" response header are allowed
+
+>[!CAUTION]
+>
+>Please note that the activity is meant for fetching of campaign wide data (latest set of offers, latest scores etc.) not for retrieving specific information for each profile as that can result in large amounts of data being transferred. If the usecase requires this the recommendation is to use the file transfer activity
 
 ## Configuration {#configuration}
 
@@ -105,6 +118,109 @@ This tab lets you activate the **outbound transition** and its label. This speci
 This tab is available in most of the workflow activities. For more information, consult the [Activity properties](../../automating/using/executing-a-workflow.md#activity-properties) section.
 
 ![](assets/externalAPI-options.png)
+
+## Troubleshooting
+
+There two types of log messages added to this new workflow activity: information and errors. They can help you troubleshooting potential issues.
+
+### Information
+
+These log messages are used to log information about useful checkpoints during the execution of the workflow activity. Specifically, the following log messages are used to log the first attempt as well a retry attempt (and reason for failure of first attempt) to access the API.
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> Message format<br /> </th> 
+   <th> Example<br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> Invoking API URL '%s'.</td> 
+   <td> <p>Invoking API URL 'https://example.com/api/v1/web-coupon?count=2'.</p></td> 
+  </tr> 
+  <tr> 
+   <td> Retrying API URL '%s', previous attempt failed ('%s').</td> 
+   <td> <p>Retrying API URL 'https://example.com/api/v1/web-coupon?count=2', previous attempt failed ('HTTP - 401').</p></td>
+  </tr> 
+  <tr> 
+   <td> Transferring content from '%s' (%s / %s).</td> 
+   <td> <p>Transferring content from 'https://example.com/api/v1/web-coupon?count=2' (1234 / 1234).</p></td> 
+  </tr>
+ </tbody> 
+</table>
+
+### Errors
+
+These log messages are used to log information about unexpected error conditions, that can eventually cause the workflow activity to fail.
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> Code - Message format<br /> </th> 
+   <th> Example<br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> WKF-560250 - API request body exceeded limit (limit: '%d').</td> 
+   <td> <p>API request body exceeded limit (limit: '5242880').</p></td> 
+  </tr> 
+  <tr> 
+   <td> WKF-560239 -  API response exceeded limit (limit: '%d').</td> 
+   <td> <p>API response exceeded limit (limit: 5242880').</p></td> 
+  </tr> 
+  <tr> 
+   <td> WKF-560245 - API URL could not be parsed (error: '%d').</td> 
+   <td> <p>API URL could not be parsed (error: '-2010').</p>
+   <p> Note: This error is logged when the API URL fails validation rules.</p></td>
+  </tr> 
+  <tr>
+   <td> WKF-560244 - API URL host must not be 'localhost', or IP address literal (URL host: '%s').</td> 
+   <td> <p>API URL host must not be 'localhost', or IP address literal (URL host: 'localhost').</p>
+    <p>API URL host must not be 'localhost', or IP address literal (URL host: '192.168.0.5').</p>
+    <p>API URL host must not be 'localhost', or IP address literal (URL host: '[2001]').</p></td>
+  </tr> 
+  <tr> 
+   <td> WKF-560238 - API URL must be a secure URL (https) (requested URL: '%s').</td> 
+   <td> <p>API URL must be a secure URL (https) (requested URL: 'https://example.com/api/v1/web-coupon?count=2').</p></td> 
+  </tr> 
+  <tr> 
+   <td> WKF-560249 - Failed to create request body JSON. Error when adding '%s'.</td> 
+   <td> <p>Failed to create request body JSON. Error when adding 'params'.</p>
+    <p>Failed to create request body JSON. Error when adding 'data'.</p></td>
+  </tr> 
+  <tr> 
+   <td> WKF-560246 - HTTP header key is bad (header key: '%s').</td> 
+   <td> <p>HTTP header key is bad (header key: '%s').</p>
+   <p> Note: This error is logged when the custom header key fails validation according to RFC https://tools.ietf.org/html/rfc7230#section-3.2.</p></td> 
+  </tr>
+ <tr> 
+   <td> WKF-560248 - HTTP header key is not allowed (header key: '%s').</td> 
+   <td> <p>HTTP header key is not allowed (header key: 'Accept').</p></td> 
+  </tr> 
+  <tr> 
+   <td> WKF-560247 -  AHTTP header value is bad (header value: '%s').</td> 
+   <td> <p>AHTTP header value is bad (header value: '%s'). </p>
+    <p>Note: This error is logged when the custom header value fails validation according to RFC https://tools.ietf.org/html/rfc7230#section-3.2.</p></td> 
+  </tr> 
+  <tr> 
+   <td> WKF-560240 - JSON payload has bad property '%s'.</td> 
+   <td> <p>JSON payload has bad property 'blah'.</p></td>
+  </tr> 
+  <tr>
+   <td> WKF-560241 - Malformed JSON or unacceptable format.</td> 
+   <td> <p>Malformed JSON or unacceptable format.</p>
+   <p>Note: This message only applies to parsing response body from the external API, and is logged when trying to validate whether the response body conforms to the JSON format mandated by this activity.</p></td>
+  </tr>
+  <tr> 
+   <td> WKF-560246 - Activity failed (reason: '%s').</td> 
+   <td> <p>When activity fails due to HTTP 401 error response - Activity failed (reason: 'HTTP - 401')</p>
+        <p>When activity fails due to a failed internal call - Activity failed (reason: 'iRc - -Nn').</p>
+        <p>When activity fails due to an invalid Content-Type header. - Activity failed (reason: 'Content-Type - application/html').</p></td> 
+  </tr>
+ </tbody> 
+</table>
 
 <!--
 ## Example: Managing coupons with External API Activity
