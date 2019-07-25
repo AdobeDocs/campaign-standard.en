@@ -126,6 +126,20 @@ For more on converting an existing email into an Email Designer-compatible email
 * When editing styles, only the web fonts officially supported by most email clients are available.
 * Styles cannot be saved as a theme for future reuse. However, the CSS style can be saved in a content template or in an email. For more on styles, see [this section](../../designing/using/editing-email-styles.md).
 
+### Email Designer update {#email-designer-update}
+
+The Email Designer is under continuous improvement. If you created email content from scratch, from an out-of-the-box template or using fragments, you may get the following update message the next time you open your content:
+
+![](assets/email_designer_fragment-patch-message.png)
+
+Adobe recommends updating this content to the latest version. Click **[!UICONTROL Update now]**.
+
+If an error occurs during the content update, check your HTML and fix it before running this update again.
+
+If you have multiple fragments, you have to update each fragment that you need to use.
+
+You can still use a fragment that is not updated, but it is not editable. You can still send emails where the fragment is already used in a content.
+
 ## Designing an email content from scratch {#designing-an-email-content-from-scratch}
 
 Here are the main steps to create and design an email content from scratch using the Email Designer:
