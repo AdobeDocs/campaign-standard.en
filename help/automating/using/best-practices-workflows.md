@@ -127,7 +127,7 @@ For more information, refer to [Monitoring workflow execution](../../automating/
 ### Using delivery logs{#using-delivery-logs}
 
 Delivery logs allow to monitor the success of your deliveries. Exclusion logs return excluded messages during preparation of the sending. Sending logs provide the status of the delivery for each profile.
-For more information, refer to [Understanding delivery failures](../sending/using/understanding-delivery-failures.md).
+For more information, refer to [Understanding delivery failures](../../sending/using/understanding-delivery-failures.md).
 
 ### Using delivery alerting{#delivery-alerting}
 
