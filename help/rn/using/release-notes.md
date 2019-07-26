@@ -121,7 +121,6 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed an issue in landing pages that could occur when configuring checkbox fields with subscriptions. (CAMP-34369)
 * Fixed an issue that occurred when configuring a list and adding the "icon" field to it. (CAMP-34585)
 * Fixed an issue which prevented from using the "|" and "%" symbols as date or time separators in Load file workflow activities. (CAMP-34706)
-* Fixed an issue which occurred in workflows when adding an activity, saving the workflow, then hitting the browser's "back" button. The newly added activity was removed from the workspace. (CAMP-34788)
 * Fixed an issue which occurred when using visibility conditions with checkboxes in landing pages. (CAMP-34802)
 * Fixed an issue in the Enrichment activity that prevented fields from displaying in the "Additional data" tab, if the filtering dimension was set to tracking logs and the target dimension to profile.
 * Fixed an issue that led to an error message when exporting a "workflowTemplate" resource.
