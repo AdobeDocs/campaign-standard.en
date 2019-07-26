@@ -52,6 +52,8 @@ A new section on Email Designer recommended updates has been added. [Read more](
 
 A new section on how to send proofs using real customer data has been added. [Read more](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs-using-additional-data)
 
+A new section on workflow best practices has been added. [Read more](../../automating/using/best-practices-workflows.md)
+
 The list of error messages for Campaign Standard and Classic has been updated. [Read more](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
 Added a warning in custom resource documentation. We recommend using 30 characters maximum for custom resource IDs. This also applies to custom resource fields, keys, indexes and links. [Read more](../../developing/using/creating-or-extending-the-resource.md)
@@ -63,6 +65,10 @@ Added a new page on Landing page limitations. [Read more](../../channels/using/l
 A use case was added on how to call a profile using a composite identification key. [Read more](../../developing/using/uc-calling-resource-id-key.md)
 
 A recommendation has been added regarding the use of recurring deliveries with no aggregation period when calling a workflow with parameters. [Read more](../../automating/using/calling-a-workflow-with-external-parameters.md)
+
+The list of error messages for Campaign Standard and Classic has been updated. [Read more](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+
+ Added a warning in custom resource documentation. We recommend using 30 characters maximum for custom resource IDs. This also applies to custom resource fields, keys, indexes and links. [Read more](../../developing/using/creating-or-extending-the-resource.md)
 
 ## Release 19.2 - May 2019 {#release-19-2---may-2019}
 
@@ -187,8 +193,6 @@ Added information on the new option in the Query ( [Read more](../../automating/
 Added information in the Update data activity section on the new Batch size field that lets you define the maximum batch size for the data to upload. [Read more](../../automating/using/update-data.md#configuration)
 
 Added information in the Extract file activity section on the new option that lets you disable the file generation process if the outbound transition is empty. [Read more](../../automating/using/extract-file.md#configuration)
-
-A new technote has been added on how to update the Profiles & Services Ext API. [Read more](https://helpx.adobe.com/campaign/kb/profile-service-api-update.html)
 
 ## Release 19.0 - January 2019 {#release-19-0---january-2019}
 
