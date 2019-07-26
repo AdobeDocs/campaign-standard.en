@@ -52,6 +52,8 @@ A new section on Email Designer recommended updates has been added. [Read more](
 
 A new section on how to send proofs using real customer data has been added. [Read more](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs-using-additional-data)
 
+A new section on workflow best practices has been added. [Read more](../../automating/using/best-practices-workflows.md)
+
 ## Documentation updates - July 2019 {#doc-updates-2019}
 
 Added a new page on Landing page limitations. [Read more](../../channels/using/landing-page-limitations.md)
