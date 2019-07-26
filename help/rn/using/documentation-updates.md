@@ -60,6 +60,10 @@ A use case was added on how to call a profile using a composite identification k
 
 A recommendation has been added regarding the use of recurring deliveries with no aggregation period when calling a workflow with parameters. [Read more](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
+The list of error messages for Campaign Standard and Classic has been updated. [Read more](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+
+ Added a warning in custom resource documentation. We recommend using 30 characters maximum for custom resource IDs. This also applies to custom resource fields, keys, indexes and links. [Read more](../../developing/using/creating-or-extending-the-resource.md)
+
 ## Release 19.2 - May 2019 {#release-19-2---may-2019}
 
 ### New capabilities included in the release {#new-capabilities-included-in-the-release}
