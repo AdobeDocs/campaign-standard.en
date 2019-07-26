@@ -40,7 +40,7 @@ For example:
 
 You can duplicate workflows. In the **[!UICONTROL Marketing Activities]**, hover over the workflow and click **[!UICONTROL Duplicate element]**. Once duplicated, modifications of the workflow are not carried over to the copy of the workflow. The copy of the workflow can be edited.
 
-    ![](assets/duplicating_workflow.png)
+![](assets/duplicating_workflow.png)
 
 ## Execution{#execution}
 
@@ -76,7 +76,7 @@ To access the detail view of the transitions, check the **[!UICONTROL Keep inter
 >
 >This option consumes a lot of disk space and is designed to help you build a workflow and ensure proper configuration and behavior. Leave it unchecked on production instances.
 
-    ![](assets/keep_interim_best_practices.png)
+![](assets/keep_interim_best_practices.png)
 
 
 ### Labelling activities{#activity-labeling}
@@ -93,7 +93,7 @@ When building your workflow, only use one **[!UICONTROL Scheduler activity]** pe
 
 You can preview the next ten executions of your workflows by clicking **[!UICONTROL Preview next executions]**.
 
-    ![](assets/preview-scheduler.png)
+![](assets/preview-scheduler.png)
 
 For more information, refer to [Scheduler activity](../../automating/using/scheduler.md).
 
