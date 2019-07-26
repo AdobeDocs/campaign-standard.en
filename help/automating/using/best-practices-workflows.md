@@ -93,7 +93,7 @@ When building your workflow, only use one **[!UICONTROL Scheduler activity]** pe
 
 You can preview the next ten executions of your workflows by clicking **[!UICONTROL Preview next executions]**.
 
-![](assets/preview-scheduler.png)
+![](assets/preview_scheduler.png)
 
 For more information, refer to [Scheduler activity](../../automating/using/scheduler.md).
 
