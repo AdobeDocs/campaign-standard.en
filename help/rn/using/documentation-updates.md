@@ -54,6 +54,10 @@ A new section on how to send proofs using real customer data has been added. [Re
 
 A new section on workflow best practices has been added. [Read more](../../automating/using/best-practices-workflows.md)
 
+The list of error messages for Campaign Standard and Classic has been updated. [Read more](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+
+Added a warning in custom resource documentation. We recommend using 30 characters maximum for custom resource IDs. This also applies to custom resource fields, keys, indexes and links. [Read more](../../developing/using/creating-or-extending-the-resource.md)
+
 ## Documentation updates - July 2019 {#doc-updates-2019}
 
 Added a new page on Landing page limitations. [Read more](../../channels/using/landing-page-limitations.md)
