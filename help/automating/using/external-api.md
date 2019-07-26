@@ -43,7 +43,7 @@ The following guardrails have been put in place for this activity:
 
 >[!CAUTION]
 >
->Please note that the activity is meant for fetching of campaign wide data (latest set of offers, latest scores etc.) not for retrieving specific information for each profile as that can result in large amounts of data being transferred. If the usecase requires this the recommendation is to use the file transfer activity
+>Please note that the activity is meant for fetching of campaign wide data (latest set of offers, latest scores etc.) not for retrieving specific information for each profile as that can result in large amounts of data being transferred. If the use case requires this, the recommendation is to use the [Transfer File](../../automating/using/transfer-file.md) activity.
 
 ## Configuration {#configuration}
 
@@ -95,9 +95,9 @@ This tab lets you control **general properties** on the external API activity li
 
 ### Column definition
 
-    >[!NOTE]
-    >
-    >This tab appears when the **response data format** is completed and validated in Outbound Mapping tab.
+>[!NOTE]
+>
+>This tab appears when the **response data format** is completed and validated in Outbound Mapping tab.
 
 The **Column definition** tab allows you to precisely specify the data structure of each column in order to import data that does not contain any errors and make it match the types that are already present in the Adobe Campaign database for future operations.
 
@@ -193,7 +193,7 @@ These log messages are used to log information about unexpected error conditions
   <tr> 
    <td> WKF-560246 - HTTP header key is bad (header key: '%s').</td> 
    <td> <p>HTTP header key is bad (header key: '%s').</p>
-   <p> Note: This error is logged when the custom header key fails validation according to RFC https://tools.ietf.org/html/rfc7230#section-3.2.</p></td> 
+   <p> Note: This error is logged when the custom header key fails validation according to [RFC](https://tools.ietf.org/html/rfc7230#section-3.2.html)</p></td> 
   </tr>
  <tr> 
    <td> WKF-560248 - HTTP header key is not allowed (header key: '%s').</td> 
@@ -202,7 +202,7 @@ These log messages are used to log information about unexpected error conditions
   <tr> 
    <td> WKF-560247 -  AHTTP header value is bad (header value: '%s').</td> 
    <td> <p>HTTP header value is bad (header value: '%s'). </p>
-    <p>Note: This error is logged when the custom header value fails validation according to [RFC](https://tools.ietf.org/html/rfc7230#section-3.2).</p></td> 
+    <p>Note: This error is logged when the custom header value fails validation according to [RFC](https://tools.ietf.org/html/rfc7230#section-3.2.html)</p></td> 
   </tr> 
   <tr> 
    <td> WKF-560240 - JSON payload has bad property '%s'.</td> 
