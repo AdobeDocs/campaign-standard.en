@@ -184,8 +184,6 @@ Added information in the Update data activity section on the new Batch size fiel
 
 Added information in the Extract file activity section on the new option that lets you disable the file generation process if the outbound transition is empty. [Read more](../../automating/using/extract-file.md#configuration)
 
-A new technote has been added on how to update the Profiles & Services Ext API. [Read more](https://helpx.adobe.com/campaign/kb/profile-service-api-update.html)
-
 ## Release 19.0 - January 2019 {#release-19-0---january-2019}
 
 ### New capabilities included in the release {#new-capabilities-included-in-the-release-2}
