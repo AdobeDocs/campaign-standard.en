@@ -1,43 +1,37 @@
----
-title: About email content design
-seo-title: About email content design
-description: About email content design
-seo-description: Discover the Email Designer that enables you to design content for your emails.
-page-status-flag: never-activated
-uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
-audience: designing
-content-type: reference
-topic-tags: editing-email-content
-discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
+## Quick Start: Design and personalize an email 
 
-internal: n
-snippet: y
----
+You can create an email, add components and personalize their content to send a delivery quickly. 
 
-# About email content design{#about-email-content-design}
+### Add a structure component
 
-Use the Email Designer drag-and-drop interface to create and modify the content of your emails in Adobe Campaign.
+Structure components will define the layout of your email. 
 
-This section describes the specificities of the Email Designer:
+1.	Create an email. 
+1.	Close homepage. 
+1.	In Structure components, drag and drop components for the layout you want to use. 
+Note: You can select different content layouts that will add up in your email. 
 
-* [About the Email Designer](../../designing/using/about-email-content-design.md#about-the-email-designer)
-* [Defining the email structure](../../designing/using/defining-the-email-structure.md)
-* [Editing email styles](../../designing/using/editing-email-styles.md)
+### Add a content component image
+1.	In Content Components, drag and drop image into one of your structure components. 
+1.	Click Browse.
+1.	Select your image file from your computer. 
 
-To know more about actions that are common to one or more marketing activities, refer to the following sections:
+### Add a content component text with personalization 
+1.	In Content Components, drag and drop text into one of your structure components. 
+1.	Click on the component and enter your text. 
+1.	To add a personalization field, click Insert personalization field in the toolbar. 
+1.	Select the field you need, such as First Name. 
 
-* For more on personalizing an email content, see [Inserting a personalization field](../../designing/using/inserting-a-personalization-field.md) and [Adding a content block](../../designing/using/adding-a-content-block.md).
-* For more on importing another email content, see [Selecting an existing content](../../designing/using/selecting-an-existing-content.md).
-* For more on defining dynamic content in an email, see [Defining dynamic content in an email](../../designing/using/defining-dynamic-content-in-an-email.md).
-* For more on inserting links in an email, see [Inserting a link](../../designing/using/inserting-a-link.md).
-* For more on inserting images in an email, see [Inserting images](../../designing/using/inserting-images.md).
+### Add a content component button
 
-Also check the [general best practices for content design](../../designing/using/content-design-best-practices.md).
+1.	In Content Components, drag and drop button into one of your structure components. 
+1.	Click on the component. 
+1.	Click link. 
+1.	 Enter a url and a label 
+1.	Click Save.
+1.	Save your email. 
 
-
-### Email Designer compatibility mode {#email-designer-compatibility-mode}
+## Quick Start: Importing and editing an HTML email
 
 When you upload a content, it must contain specific tagging to be fully compliant and editable with the WYSIWYG editor of the Email Designer.
 
@@ -57,7 +51,7 @@ Other modifications such as adding new sections to your email or advanced stylin
 For more on converting an existing email into an Email Designer-compatible email, see [this section](../../designing/using/about-email-content-design.md#designing-an-email-using-existing-contents).
 
 
-### Converting an HTML content {#converting-an-html-content}
+## Quick Start:  Converting an HTML content {#converting-an-html-content}
 
 This use case offers a quick way to convert an HTML email into Email Designer components.
 
