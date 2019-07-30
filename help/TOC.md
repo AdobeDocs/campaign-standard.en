@@ -98,6 +98,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Follow-up messages](channels/using/follow-up-messages.md)
   + Landing pages {#landing-pages}
        + [About landing pages](channels/using/about-landing-pages.md)
+       + [Landing page limitations](channels/using/landing-page-limitations.md)
        + [Designing a landing page](channels/using/designing-a-landing-page.md)
        + [Sharing a landing page](channels/using/sharing-a-landing-page.md)
        + [Data storage and reconciliation](channels/using/data-storage-and-reconciliation.md)
@@ -170,6 +171,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Reporting interface](reporting/using/reporting-interface.md)
        + [List of components ](reporting/using/list-of-components-.md)
        + [Indicator calculation](reporting/using/indicator-calculation.md)
+       + [Troubleshooting](reporting/using/troubleshooting.md)
   + List of reports {#list-of-reports}
        + [Defining the report period](reporting/using/defining-the-report-period.md)
        + [Bounce summary](reporting/using/bounce-summary.md)
@@ -191,6 +193,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Adding visualizations](reporting/using/adding-visualizations.md)
        + [Adding components](reporting/using/adding-components.md)
        + [Creating a custom profile dimension](reporting/using/creating-a-custom-profile-dimension.md)
+       + [Creating a report based on workflow segments](reporting/using/creating-a-report-workflow-segment.md)
 + Integrating with Adobe Cloud {#integrating-with-adobe-cloud}
   + [About Campaign integrations](integrating/using/about-campaign-integrations.md)
   + Working with Campaign and Experience Manager {#working-with-campaign-and-experience-manager}
@@ -233,6 +236,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Using workflow data](automating/using/using-workflow-data.md)
        + [Executing a workflow](automating/using/executing-a-workflow.md)
        + [Calling a workflow with external parameters](automating/using/calling-a-workflow-with-external-parameters.md)
+       + [Workflow best practices](automating/using/best-practices-workflows.md)
   + Targeting activities {#targeting-activities}
        + [About targeting activities](automating/using/about-targeting-activities.md)
        + [Query](automating/using/query.md)
@@ -269,6 +273,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Reconciliation](automating/using/reconciliation.md)
        + [Extract file](automating/using/extract-file.md)
        + [Subscription Services](automating/using/subscription-services.md)
+       + [External API](automating/using/external-api.md)
   + Filtering data {#filtering-data}
        + [Editing queries](automating/using/editing-queries.md)
        + [Advanced expression editing](automating/using/advanced-expression-editing.md)
@@ -286,13 +291,14 @@ user-guide-title: Adobe Campaign Standard Help
        + [Resource statuses](developing/using/resource-statuses.md)
        + [Monitoring data model changes](developing/using/monitoring-data-model-changes.md)
   + Adding or extending a resource {#adding-or-extending-a-resource}
-       + [Key steps of adding a resource](developing/using/key-steps-of-adding-a-resource.md)
+       + [Key steps to add a resource](developing/using/key-steps-to-add-a-resource.md)
        + [Creating or extending the resource](developing/using/creating-or-extending-the-resource.md)
        + [Configuring the resource's data structure](developing/using/configuring-the-resource-s-data-structure.md)
        + [Configuring the screen definition](developing/using/configuring-the-screen-definition.md)
        + [Configuring filter definition](developing/using/configuring-filter-definition.md)
        + [Updating the database structure](developing/using/updating-the-database-structure.md)
        + [Deleting a resource](developing/using/deleting-a-resource.md)
+       + [Calling a resource using a composite identification key](developing/using/uc-calling-resource-id-key.md)
   + Use case: Extending the API {#use-case--extending-the-api}
        + [About extending the API](developing/using/about-extending-the-api.md)
        + [Step 1: Add extension fields to the profile resource](developing/using/step-1--add-extension-fields-to-the-profile-resource.md)
@@ -305,7 +311,7 @@ user-guide-title: Adobe Campaign Standard Help
   + [About Administrating Adobe Campaign](administration/using/about-administrating-adobe-campaign.md)
   + Users and security {#users-and-security}
        + [About access management](administration/using/about-access-management.md)
-       + [Types of users](administration/using/types-of-users.md)
+       + [Users management](administration/using/users-management.md)
        + [Organizational units](administration/using/organizational-units.md)
        + [List of roles](administration/using/list-of-roles.md)
        + [Managing groups and users](administration/using/managing-groups-and-users.md)

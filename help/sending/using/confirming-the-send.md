@@ -11,7 +11,7 @@ audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
 discoiquuid: 8bb160b1-7de9-4c1f-bb89-b2e5fdafed41
-
+context-tags: delivery,deployment,back
 internal: n
 snippet: y
 ---
@@ -39,6 +39,10 @@ The message is being sent.
 >[!NOTE]
 >
 >If the message is scheduled, it will be sent when sending time is reached. For more on scheduling messages, refer to [this section](../../sending/using/about-scheduling-messages.md).
+
+If you are using a recurring delivery with no aggregation period, you can request confirmation before the delivery is sent. To do this, open the **[!UICONTROL Schedule]** block of the delivery dashboard, then activate the dedicated option.
+
+![](assets/confirmation_recurring_deliveries.png)
 
 The **[!UICONTROL Deployment]** block shows the progress of the send.
 

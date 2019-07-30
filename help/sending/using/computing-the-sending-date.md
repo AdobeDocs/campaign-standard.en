@@ -72,7 +72,7 @@ You can schedule this using a workflow.
 
    ![](assets/send-time_opt_formula_define.png)
 
-1. Create the following expression using the **[!UICONTROL ToDateTime]** function and the **[!UICONTROL Segment code]** field. You can also direclty type in the expression but make sure to use correct syntax and spelling.
+1. Create the following expression using the **[!UICONTROL ToDateTime]** function and the **[!UICONTROL Segment code]** field. You can also directly type in the expression but make sure to use correct syntax and spelling.
 
    ```
    ToDateTime([targetData/@segmentCode])

@@ -11,7 +11,7 @@ audience: start
 content-type: reference
 topic-tags: marketing-plans
 discoiquuid: 3ba165e1-420f-4d6f-b339-467b066b42d0
-
+context-tags: activity,overview
 internal: n
 snippet: y
 ---
@@ -47,6 +47,7 @@ In the main zone, each type of activity in the list has an icon:
 * ![](assets/marketing_email_icon.png) : Email
 * ![](assets/marketing_sms_icon.png) : SMS
 * ![](assets/marketing_push_icon.png) : Push notification
+* ![](assets/marketing_lp_icon.png) : In-App message
 * ![](assets/marketing_lp_icon.png) : Landing page
 * ![](assets/marketing_workflow_icon.png) : Workflow
 

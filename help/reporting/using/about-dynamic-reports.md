@@ -20,15 +20,22 @@ snippet: y
 
 >[!NOTE]
 >
->Only users with administration rights or with organizational units set to **All** can create or save a new report. For more on this, refer to this [section](../../administration/using/types-of-users.md).
-
-## Accessing dynamic reports {#accessing-dynamic-reports}
+>Only users with administration rights or with organizational units set to **All** can create or save a new report. For more on this, refer to this [section](../../administration/using/users-management.md).
 
 ![](assets/dynamic_report_intro.png)
 
+Dynamic Reporting provides fully customizable and real-time  reports. It adds access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks. With the drag-and-drop interface, you can explore data, determine how your email campaigns performed against your most important customer segments and measure their impact on recipients.
+
 Thanks to its drag and drop menu and customizable visualizations, the dynamic reports feature allows you to combine dimensions, metrics and time range in any combination, with unlimited breakdowns and comparisons.
 
-Adobe Campaign's dynamic reports is designed to be a flexible freeform environment where you can explore data. The workspace offers a set of real-time reports to monitor deliveries, campaigns, and programs and measure their impact on recipients.
+
+**Related topics:**
+
+* [Report list](../../reporting/using/defining-the-report-period.md)
+* [Organizational units](../../administration/using/organizational-units.md)
+* [Dynamic reports](https://helpx.adobe.com/campaign/kt/acs/using/acs-creating-a-dynamic-report-feature-video-use.html) video
+
+## Accessing dynamic reports {#accessing-dynamic-reports}
 
 Reports can be accessed:
 
@@ -53,11 +60,6 @@ Dynamic reports are divided into two categories:
 
 ![](assets/dynamic_report_overview.png)
 
-**Related topics:**
-
-* [Report list](../../reporting/using/defining-the-report-period.md)
-* [Organizational units](../../administration/using/organizational-units.md)
-* [Dynamic reports](https://helpx.adobe.com/campaign/kt/acs/using/acs-creating-a-dynamic-report-feature-video-use.html) video
 
 ## Dynamic reporting usage agreement {#dynamic-reporting-usage-agreement}
 

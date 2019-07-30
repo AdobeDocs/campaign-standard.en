@@ -126,6 +126,26 @@ For more on converting an existing email into an Email Designer-compatible email
 * When editing styles, only the web fonts officially supported by most email clients are available.
 * Styles cannot be saved as a theme for future reuse. However, the CSS style can be saved in a content template or in an email. For more on styles, see [this section](../../designing/using/editing-email-styles.md).
 
+### Email Designer updates {#email-designer-updates}
+
+The Email Designer is under continuous improvement. If you created an email content from scratch, from an out-of-the-box template or if you created fragments, you may get the following update message the next time you open your content:
+
+![](assets/email_designer_fragment-patch-message.png)
+
+Adobe recommends updating your content to the latest version to avoid problems such as CSS collision issues. Click **[!UICONTROL Update now]**.
+
+If an error occurs during the content update, check your HTML and fix it before running this update again.
+
+When it comes to fragments, please note the following:
+
+* If you want to add a fragment to a new email or template and if you get this message, you need to update this fragment first.
+
+* If you have multiple fragments, you have to update each fragment that you want to use in an email content.
+
+* To avoid impact on your current email messages, as some of them may be at preparation stage or in a specific campaign where you do not want alteration, you can choose not to update some fragments.
+
+* You can still send emails where a fragment that is not updated is already used, but that fragment is not editable.
+
 ## Designing an email content from scratch {#designing-an-email-content-from-scratch}
 
 Here are the main steps to create and design an email content from scratch using the Email Designer:
@@ -362,7 +382,10 @@ All style options are available in mobile view. The Email Designer style setting
 
    ![](assets/email_designer_mobile_view_change.png)
 
-1. You can also hide a component. When checking this option, the corresponding component will be hidden when displayed on a mobile device.
+1. You can hide a component when displayed on a mobile device. To do this, select **[!UICONTROL Show only on desktop devices]** from the **[!UICONTROL Display options]**.
+You can also choose to hide this component on desktop devices, which means that it will be displayed on mobile devices only. To do this, select **[!UICONTROL Show only on mobile devices]**.
+For example, this option enables you to display a specific image on mobile devices and another image on desktop devices.
+You can either set this option from the mobile or desktop view.
 
    ![](assets/email_designer_mobile_hide.png)
 

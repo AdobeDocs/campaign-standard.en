@@ -189,9 +189,39 @@ The fragment can now be used in any email built with the Email Designer. It appe
 
 ### Saving content as a fragment {#saving-content-as-a-fragment}
 
-When editing an email with the Email Designer, you cannot directly save part of that email as a fragment.
+When editing an email with the Email Designer, you can directly save part of that email as a fragment.
 
-You need to copy-paste the HTML corresponding to the section that you want to save into a new fragment.
+>[!CAUTION]
+>
+>You cannot save as fragment a structure containing personalization fields, dynamic content or another fragment.
+
+1. When editing an email in the Email Designer, select **[!UICONTROL Save as fragment]** from the main toolbar.
+
+   ![](assets/email_designer_save-as-fragment.png)
+
+1. From the workspace, select the structures that will compose the fragment.
+
+    ![](assets/email_designer_save-as-fragment_select.png)
+
+    >[!NOTE]
+    >
+    >You can only select structures that are adjacent to each other.
+
+1. Click **[!UICONTROL Create]**.
+
+1. Add a label and a description if needed, then click **[!UICONTROL Save]**.
+
+    ![](assets/email_designer_save-as-fragment_popup.png)
+
+1. To find the fragment that you just created, go to **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]**.
+
+    ![](assets/email_designer_save-as-fragment_list.png)
+
+1. To use your new fragment, open any email content and select it from the fragment list.
+
+![](assets/email_designer_save-as-fragment_in-new-email.png)
+
+<!--You need to copy-paste the HTML corresponding to the section that you want to save into a new fragment.
 
 >[!NOTE]
 >
@@ -205,5 +235,5 @@ To save as a fragment some email content that you created, follow the steps belo
 1. Click the email label to access the **[!UICONTROL Properties]** tab of the Email Designer and select **[!UICONTROL Fragment]** from the **[!UICONTROL HTML type]** drop-down list.
 1. Select **[!UICONTROL Edit]** > **[!UICONTROL HTML]** to open the HTML version of the fragment.
 1. Paste the HTML that you copied where appropriate.
-1. Switch back to the **[!UICONTROL Edit]** view to check the result and save the new fragment.
+1. Switch back to the **[!UICONTROL Edit]** view to check the result and save the new fragment.-->
 

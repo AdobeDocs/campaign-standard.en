@@ -24,6 +24,52 @@ This page lists all the new features and documentation updates for each release 
 
 You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-notes.md).
 
+## Release 19.3 - July 2019 {#release-19-3---july-2019}
+
+### New capabilities included in the release {#new-capabilities-included-in-the-release-19}
+
+External API Activity (Public Beta) - [Read more](../../automating/using/external-api.md)
+
+Report on workflow segment - [Read more](../../reporting/using/creating-a-report-workflow-segment.md)
+
+### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-17}
+
+Information was added in the [Calling a workflow with parameters](../../developing/using/uc-calling-resource-id-key.md) section. It specifies that deliveries are prepared based on their aggregation period and that, if you plan to call the workflow multiple times a day, you should make sure they don’t have any period.
+
+Information was added on how to personalize a delivery’s label with event variables that have been declared in the workflow’s external signal activity. [Read more](../../developing/using/uc-calling-resource-id-key.md)
+
+A new section has been added detailing how to create a user in Adobe Campaign Standard. [Read more](../../administration/using/users-management.md)
+
+A troubleshooting has been added for Dynamic Reporting. [Read more](../../reporting/using/troubleshooting.md)
+
+A diagram explaining how the different In-App templates handle personal information has been added. [Read more](../../channels/using/preparing-and-sending-an-in-app-message.md)
+
+The section on how to save email content as a fragment in the Email Designer has been updated. [Read more](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment)
+
+A warning was added on how extra white spaces can impact the layout of a email content. [Read more](../../designing/using/adding-a-content-block.md#creating-custom-content-blocks)
+
+A new section on Email Designer recommended updates has been added. [Read more](../../designing/using/about-email-content-design.md#email-designer-updates)
+
+A new section on how to send proofs using real customer data has been added. [Read more](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs-using-additional-data)
+
+A new section on workflow best practices has been added. [Read more](../../automating/using/best-practices-workflows.md)
+
+The list of error messages for Campaign Standard and Classic has been updated. [Read more](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+
+Added a warning in custom resource documentation. We recommend using 30 characters maximum for custom resource IDs. This also applies to custom resource fields, keys, indexes and links. [Read more](../../developing/using/creating-or-extending-the-resource.md)
+
+## Documentation updates - July 2019 {#doc-updates-2019}
+
+Added a new page on Landing page limitations. [Read more](../../channels/using/landing-page-limitations.md)
+
+A use case was added on how to call a profile using a composite identification key. [Read more](../../developing/using/uc-calling-resource-id-key.md)
+
+A recommendation has been added regarding the use of recurring deliveries with no aggregation period when calling a workflow with parameters. [Read more](../../automating/using/calling-a-workflow-with-external-parameters.md)
+
+The list of error messages for Campaign Standard and Classic has been updated. [Read more](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+
+ Added a warning in custom resource documentation. We recommend using 30 characters maximum for custom resource IDs. This also applies to custom resource fields, keys, indexes and links. [Read more](../../developing/using/creating-or-extending-the-resource.md)
+
 ## Release 19.2 - May 2019 {#release-19-2---may-2019}
 
 ### New capabilities included in the release {#new-capabilities-included-in-the-release}
@@ -148,8 +194,6 @@ Added information in the Update data activity section on the new Batch size fiel
 
 Added information in the Extract file activity section on the new option that lets you disable the file generation process if the outbound transition is empty. [Read more](../../automating/using/extract-file.md#configuration)
 
-A new technote has been added on how to update the Profiles & Services Ext API. [Read more](https://helpx.adobe.com/campaign/kb/profile-service-api-update.html)
-
 ## Release 19.0 - January 2019 {#release-19-0---january-2019}
 
 ### New capabilities included in the release {#new-capabilities-included-in-the-release-2}
@@ -188,7 +232,7 @@ The Configuring a mobile application using Adobe Experience Platform SDKs sectio
 
 Videos have been updated and moved [here](https://helpx.adobe.com/campaign/kt/acs/index/acs-videos.html).
 
-Updated the Type of users section. [Read more](../../administration/using/types-of-users.md)
+Updated the Type of users section. [Read more](../../administration/using/users-management.md)
 
 ## Release 18.9 - September 2018 {#release-18-9---september-2018}
 
@@ -448,7 +492,7 @@ New Dynamic Report video. [Read more](../../start/using/how-to-videos.md)
 
 Added S3 account recommendations. [Read more](../../administration/using/external-accounts.md#amazon-s3-account-recommendations)
 
-Updated the section about the different types of users. [Read more](../../administration/using/types-of-users.md)
+Updated the section about the different types of users. [Read more](../../administration/using/users-management.md)
 
 Updated the section about image source personalization. [Read more](../../designing/using/personalizing-an-image-source.md)
 
@@ -538,7 +582,7 @@ Dreamweaver integration live - [Read more](https://helpx.adobe.com/campaign/kt/a
 
 ### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-14}
 
-Section added on the different types of Adobe Campaign users. [Read more](../../administration/using/types-of-users.md)
+Section added on the different types of Adobe Campaign users. [Read more](../../administration/using/users-management.md)
 
 The Workflow guide has been reorganized and extended. Easily find how to [build](../../automating/using/building-a-workflow.md) and [execute](../../automating/using/executing-a-workflow.md) a workflow, how to [target](../../automating/using/targeting-data.md) and [manage](../../automating/using/targeting-data.md#enriching-data) your data, how to [import](../../automating/using/importing-data.md) data, and [how to use workflow data](../../automating/using/using-workflow-data.md) to update the database or to send deliveries.
 

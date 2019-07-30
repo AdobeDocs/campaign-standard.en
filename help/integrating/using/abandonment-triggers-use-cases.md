@@ -82,7 +82,6 @@ In Adobe Campaign, you need to create a Trigger linked to the one you created in
 
    ![](assets/trigger_uc_browse_6.png)
 
-
 1. To dislay the message template, click the **[!UICONTROL More]** button, on the top right, then click **[!UICONTROL Trigger Transactional Template]**. 
 
 1. Personalize its content and sender details.

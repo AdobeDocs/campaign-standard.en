@@ -24,7 +24,7 @@ A workflow is always started manually. However, once started, it can remain inac
 
 >[!CAUTION]
 >
->We recommend that you don't run more than 5 workflows simultaneously. When too many workflows are executed at the same time, the system can run out of resources and become unstable. We also recommend that you spread out your workflows over time.
+> Adobe recommends customers prioritize workflow executions and run up to twenty concurrent workflow executions to consistently achieve maximum performance across your instance. More than twenty concurrent workflow executions may be planned and will execute sequentially by default. You may adjust the default settings for maximum number of concurrent workflow executions by submitting a ticket to Customer Care.
 
 Execution related actions (start, stop, pause, etc.) are **asynchronous** processes: the command is saved and will become effective once the server is available to apply it.
 
