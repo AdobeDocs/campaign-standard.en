@@ -7,7 +7,7 @@ getting-started-title: Forum
 getting-started-url: https://forums.adobe.com/community/experience-cloud/marketing-cloud/campaign/standard
 tutorials-title: Tutorials
 tutorials-url: https://helpx.adobe.com/campaign/kt/acs/index/acs-videos.html
-git-repo: https://git.corp.adobe.com/AdobeDocs/campaign-standard.en
+git-repo: https://github.com/AdobeDocs/campaign-standard.en
 index: yes
 ---
 
