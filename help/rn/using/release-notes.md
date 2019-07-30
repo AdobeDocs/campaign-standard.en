@@ -38,11 +38,11 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
  <tbody> 
   <tr> 
    <td> External API Activity (Public Beta)<br /> </td> 
-   <td> <p>For deeper personalization, External API Activity allows you to bring data from external systems into a workflow via a REST API call. The REST endpoints can be a customer management system, Adobe I/O Runtime or Adobe Experience Cloud REST endpoint (e.g. Data Platform, Target, Analytics, Campaign).</p><p>This capability is currently in public beta.</p><p>For more information, refer to the <a href="../../automating/using/external-api.md">detailed documentation</a>.</p></td> 
+   <td> <p>For deeper personalization, External API Activity allows you to bring data from external systems into a workflow via a REST API call. The REST endpoints can be a customer management system, Adobe I/O Runtime or Adobe Experience Cloud REST endpoint (e.g. Data Platform, Target, Analytics, Campaign).</p><p>This capability is currently in public beta.</p><p>For more information, refer to the <a href="../../automating/using/external-api.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">how-to video</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Report on workflow segment<br /> </td> 
-   <td> <p>This feature allows marketers to break down their delivery performance by segment code. When you create a workflow and use a segmentation activity to assign segments to the delivery population, these segments can now go into the same delivery. This allows you to display the opens/clicks statistics based on multiple segments within a single delivery.</p><p>For more information, refer to the <a href="../../reporting/using/creating-a-report-workflow-segment.md">detailed documentation</a>.</p></td> 
+   <td> <p>This feature allows marketers to break down their delivery performance by segment code. When you create a workflow and use a segmentation activity to assign segments to the delivery population, these segments can now go into the same delivery. This allows you to display the opens/clicks statistics based on multiple segments within a single delivery.</p><p>For more information, refer to the <a href="../../reporting/using/creating-a-report-workflow-segment.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html">how-to video</a>.</p></td>
   </tr> 
  </tbody> 
 </table>
