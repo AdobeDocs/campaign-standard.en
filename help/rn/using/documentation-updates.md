@@ -34,11 +34,17 @@ Report on workflow segment - [Read more](../../reporting/using/creating-a-report
 
 ### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-17}
 
-Information was added in the [Calling a workflow with parameters](../../developing/using/uc-calling-resource-id-key.md) section. It specifies that deliveries are prepared based on their aggregation period and that, if you plan to call the workflow multiple times a day, you should make sure they don’t have any period.
+Campaign Standard Implementation Guide is now live.[Read more](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
 
-Information was added on how to personalize a delivery’s label with event variables that have been declared in the workflow’s external signal activity. [Read more](../../developing/using/uc-calling-resource-id-key.md)
+A set of new help articles have been created about Microsoft Dynamics 365 connector implementation and usage. Note that this feature is currently in Limited Availability.[Read more](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
+
+A note has been added in the [Calling a workflow with parameters](../../automating/using/calling-a-workflow-with-external-parameters.md) section about delivery preparation and their aggregation period.
+
+Information was added on how to personalize a delivery’s label with event variables that have been declared in the workflow’s external signal activity. [Read more](../../automating/using/external-signal.md)
 
 A new section has been added detailing how to create a user in Adobe Campaign Standard. [Read more](../../administration/using/users-management.md)
+
+A new article is now available with tips to simplify marketing campaigns, including links to product documentation and tutorial videos.[Read more](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html)
 
 A troubleshooting has been added for Dynamic Reporting. [Read more](../../reporting/using/troubleshooting.md)
 
