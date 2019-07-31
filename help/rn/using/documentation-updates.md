@@ -56,7 +56,7 @@ A warning was added on how extra white spaces can impact the layout of a email c
 
 A new section on Email Designer recommended updates has been added. [Read more](../../designing/using/about-email-content-design.md#email-designer-updates)
 
-A new section on how to send proofs using real customer data has been added. [Read more](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs-using-additional-data)
+<!-- A new section on how to send proofs using real customer data has been added. [Read more](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs-using-additional-data) -->
 
 A new section on workflow best practices has been added. [Read more](../../automating/using/best-practices-workflows.md)
 
