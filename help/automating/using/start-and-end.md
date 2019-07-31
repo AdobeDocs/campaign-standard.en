@@ -46,7 +46,7 @@ Using the **[!UICONTROL External signal]** tab of an **[!UICONTROL End]** activi
 
 ## Example {#example}
 
-The following example shows how a complex workflow is executed with a **[!UICONTROL Start]** activity and several **[!UICONTROL End]** activities. The **[!UICONTROL Stop all tasks in progress]** box has been checked for the first **[!UICONTROL End]** activity. Once the corresponding task is finished, the entire workflow will be stopped: it will have the same effect as if the ![](assets/stop_darkgrey-24px.png) button had been selected (refer to the [Action bar](../../automating/using/workflow-interface.md#action-bar) section)
+The following example shows how a complex workflow is executed with a **[!UICONTROL Start]** activity and several **[!UICONTROL End]** activities. The **[!UICONTROL Stop all tasks in progress]** box has been checked for the first **[!UICONTROL End]** activity. Once the corresponding task is finished, the entire workflow will be stopped: it will have the same effect as if the ![](assets/stop_darkgrey-24px.png) button had been selected (refer to the [Action bar](../../automating/using/workflow-interface.md#action-bar) section).
 
 ![](assets/wkf_start_end_example.png)
 
