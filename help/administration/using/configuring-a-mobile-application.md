@@ -31,6 +31,7 @@ After your mobile applications are set up in Adobe Campaign by leveraging the Ex
 >Push notification and In-App implementations have to be performed by expert users. If you need to be assisted, contact your Adobe Account executive or Professional services partner.
 
 ## Using Adobe Experience Platform SDK {#using-adobe-experience-platform-sdk}
+
 >[!Note]
 >
 >To learn more on the different mobile use cases supported in Adobe Campaign Standard by using the Adobe Experience Platform SDKs, refer to this [page](https://helpx.adobe.com/campaign/kb/configure-launch-rules-acs-use-cases.html).
