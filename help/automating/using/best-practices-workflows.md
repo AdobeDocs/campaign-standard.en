@@ -121,8 +121,14 @@ Adobe Campaign offers various logs to better understand your workflow issues.
 
 ### Using workflow logs{#using-workflow-logs}
 
-You can access workflow logs to monitor the execution of your activities. It indexes the operations carried out and execution errors by chronological order.
+You can access workflow logs to monitor the execution of your activities. It indexes the operations carried out and execution errors by chronological order. The Logs tab consists in the history of the execution of all or some selected activities.
+The Tasks tab details the execution sequencing of the activities. To get more information on an activity, click a task.
 For more information, refer to [Monitoring workflow execution](../../automating/using/executing-a-workflow.md#monitoring).
+
+#### Troubleshooting Query activities 
+
+Check the Save SQL queries in the log and Execute in the engine (do not use in production) options to analyze SQL queries in the Logs tab.
+Then, in the **Search** panel, check **Display SQL logs only**. The query is displayed in the **Message** column of the logs.
 
 ### Using delivery logs{#using-delivery-logs}
 
