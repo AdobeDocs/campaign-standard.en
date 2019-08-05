@@ -125,3 +125,42 @@ You have to send as many proofs as necessary until you have finalized the conten
 **Related topic:**
 
 [Sending a test, preparing and sending an email](https://helpx.adobe.com/campaign/kt/acs/using/acs-sending-test-preparing-sending-email-feature-video-use.html) video
+
+<!-- ## Sending proofs using additional data {#sending-proofs-using-additional-data}
+
+This section describes how to send proofs using real customer data accessible via a workflow, as opposed to using fake test profile data. This allows you to check that the variables used in the workflow are accurate and to get a view of the message that your recipients will receive.
+
+1. Create a test profile and enable **[!UICONTROL Proof]** and **[!UICONTROL Trap]** as the intended usage. For more on this, see [Managing test profiles](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles).
+
+    This test profile becomes part of the targeted audience.
+
+   >[!NOTE]
+   >
+   >When using a test profile as a trap, for any enriched fields in a message, the corresponding additional data is randomly picked from a real targeted profile and assigned to the trap test profile.
+
+1. Access the marketing activity list and create a test workflow.
+
+   See [Creating a workflow](../../automating/using/building-a-workflow.md#creating-a-workflow).
+
+1. Drag and drop a **[!UICONTROL Query]** activity into your workflow and open it.
+
+   The Query activity is presented in the [Query](../../automating/using/query.md) section.
+
+1. Add additional data from a linked table. For more on this, see [Enriching data](../../automating/using/query.md#enriching-data).
+
+1. Drag and drop an **Email delivery** activity into your workflow and open it.
+
+   The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.
+
+1. From the email message dashboard, select the test profile with trap usage that you created.
+
+1. Add to your email content personalization fields using the additional data that you defined in the Query activity.
+
+1. Save the email and start the workflow.
+
+During message preparation, the target count includes the test profile that you selected.
+Once the message is sent, additional data is replaced by data from a real profile.
+
+>[!NOTE]
+   >
+   >Only additional data are replaced. No real profile data such as first name or last name will be used for the test profile. -->

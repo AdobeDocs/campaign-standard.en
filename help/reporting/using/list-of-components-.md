@@ -80,7 +80,7 @@ The table below gives you the list of dimensions used in reports and their defin
   </tr> 
   <tr> 
    <td> Profiles<br /> </td> 
-   <td> Regroups out-of-the-box and custom profile fields created during the profile resource extension, for more on this refer to this <a href="../../developing/using/key-steps-of-adding-a-resource.md">page</a> or this <a href="../../reporting/using/creating-a-custom-profile-dimension.md">example</a>.<br /> Note that data for this dimension is retrieved as soon as the custom resource linked to the profile field is published.<br /> </td> 
+   <td> Regroups out-of-the-box and custom profile fields created during the profile resource extension, for more on this refer to this <a href="../../developing/using/key-steps-to-add-a-resource.md">page</a> or this <a href="../../reporting/using/creating-a-custom-profile-dimension.md">example</a>.<br /> Note that data for this dimension is retrieved as soon as the custom resource linked to the profile field is published.<br /> </td> 
   </tr> 
   <tr> 
    <td> Push platform<br /> </td> 
@@ -274,7 +274,7 @@ The tables below give you the list of metrics used in reports and their definiti
   </tr> 
   <tr> 
    <td> Click<br /> </td> 
-   <td> Number of times users interact with the push notification, e.g. clicks on the notification or button.<br /> </td> 
+   <td> Number of times a push notification has been delivered to the device and clicked on by the user. The user either wanted to view the notification, which will then be moved to Push Open tracking, or dismiss it.<br /> </td> 
   </tr> 
   <tr> 
    <td> Click through rate<br /> </td> 
@@ -290,7 +290,7 @@ The tables below give you the list of metrics used in reports and their definiti
   </tr> 
   <tr> 
    <td> Impressions<br /> </td> 
-   <td> Total of push notifications seen by recipients.<br /> </td> 
+   <td> Number of times a push notification has been delivered to the device and left untouched in the notification center. In most cases, impressions number should be similar to the delivered number. This ensures that the device got the message and relayed that information back to the server.<br /> </td> 
   </tr> 
   <tr> 
    <td> Processed/sent<br /> </td> 
@@ -298,7 +298,7 @@ The tables below give you the list of metrics used in reports and their definiti
   </tr> 
   <tr> 
    <td> Open<br /> </td> 
-   <td> Total number of application launches when users open the push notification.<br /> </td> 
+   <td> Total number of push notifications delivered to the device and clicked on by users thus opening the app. This is similar to the Push Click except a Push Open will not be triggered if the notification was dismissed.<br /> </td> 
   </tr> 
   <tr> 
    <td> Open rate<br /> </td> 
