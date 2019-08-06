@@ -126,9 +126,14 @@ You have to send as many proofs as necessary until you have finalized the conten
 
 [Sending a test, preparing and sending an email](https://helpx.adobe.com/campaign/kt/acs/using/acs-sending-test-preparing-sending-email-feature-video-use.html) video
 
-<!-- ## Sending proofs using additional data {#sending-proofs-using-additional-data}
+## Using traps to test sending additional data {#sending-proofs-using-additional-data}
 
-This section describes how to send proofs using real customer data accessible via a workflow, as opposed to using fake test profile data. This allows you to check that the variables used in the workflow are accurate and to get a view of the message that your recipients will receive.
+This section describes how use a test profile as a trap using real customer data accessible via a workflow, as opposed to using fake test profile data. This allows you to check that the variables used in the workflow are accurate and to get a view of the message that your recipients will receive.
+
+>[!CAUTION]
+   >
+   >Following this process implies to run the workflow and confirm sending. The email is sent for real to the targeted audience including the trap test profile.
+   >Adobe recommends creating a first test workflow that you will send to the trap test profile, then creating a real workflow that you will send to the targeted audience.
 
 1. Create a test profile and enable **[!UICONTROL Proof]** and **[!UICONTROL Trap]** as the intended usage. For more on this, see [Managing test profiles](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles).
 
@@ -142,11 +147,13 @@ This section describes how to send proofs using real customer data accessible vi
 
    See [Creating a workflow](../../automating/using/building-a-workflow.md#creating-a-workflow).
 
+1. Drag and drop a Load file activity to assign some data to a profile. For example, to assign a loyalty status to some profiles of the database.
+
 1. Drag and drop a **[!UICONTROL Query]** activity into your workflow and open it.
 
    The Query activity is presented in the [Query](../../automating/using/query.md) section.
 
-1. Add additional data from a linked table. For more on this, see [Enriching data](../../automating/using/query.md#enriching-data).
+1. Add additional data. For more on this, see [Enriching data](../../automating/using/query.md#enriching-data).
 
 1. Drag and drop an **Email delivery** activity into your workflow and open it.
 
@@ -163,4 +170,4 @@ Once the message is sent, additional data is replaced by data from a real profil
 
 >[!NOTE]
    >
-   >Only additional data are replaced. No real profile data such as first name or last name will be used for the test profile. -->
+   >Only additional data are replaced. No real profile data such as first name or last name will be used for the test profile.
