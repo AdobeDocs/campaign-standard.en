@@ -125,10 +125,16 @@ You can access workflow logs to monitor the execution of your activities. It ind
 The Tasks tab details the execution sequencing of the activities. To get more information on an activity, click a task.
 For more information, refer to [Monitoring workflow execution](../../automating/using/executing-a-workflow.md#monitoring).
 
-#### Troubleshooting Query activities 
+#### Troubleshooting Query activities{#troubleshooting-query-activities}
 
-Check the Save SQL queries in the log and Execute in the engine (do not use in production) options to analyze SQL queries in the Logs tab.
-Then, in the **Search** panel, check **Display SQL logs only**. The query is displayed in the **Message** column of the logs.
+You can analyze SQL queries in the Log tab.
+
+1. In the workflow workspace, click **Edit properties**.
+1. In **General** > **Execution**, check the **Save SQL queries in the log** and **Execute in the engine** options and click **Confirm**. 
+1. Then, click **Log and Tasks**.
+1. In the **Log** tab, check **Display SQL logs only** in the **Search** panel.
+
+The query is displayed in the **Message** column of the logs.
 
 ### Using delivery logs{#using-delivery-logs}
 
@@ -139,3 +145,7 @@ For more information, refer to [Understanding delivery failures](../../sending/u
 
 The Delivery alerting feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries.
 For more information, refer to [Delivery alerting](../../sending/using/receiving-alerts-when-failures-happen.md).
+
+**Related topics:**
+
+* [Error Management](../../automating/using/executing-a-workflow.md#error-management)
