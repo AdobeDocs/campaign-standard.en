@@ -1,8 +1,8 @@
 ---
-title: "Workflow use-case: Create a weekly delivery"
-seo-title: "Workflow use-case: Create a weekly delivery"
-description: "Workflow use-case: Create a weekly delivery"
-seo-description: "Workflow use-case: Create a weekly delivery"
+title: "Workflow use-case: Creating a weekly delivery"
+seo-title: "Workflow use-case: Creating a weekly delivery"
+description: "Workflow use-case: Creating a weekly delivery"
+seo-description: "Workflow use-case: Creating a weekly delivery"
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -20,7 +20,7 @@ snippet: y
 
 You can send an email every Tuesday to all the customers for Special Offers.
 
-1. In a Marketing Activities, click create and select **Workflow**.
+1. In **Marketing Activities**, click **Create** and select **Workflow**.
 1. Select **New Workflow** as workflow type and click **Next**.
 1. Enter properties of the workflow and click **Create**.
 
@@ -33,11 +33,12 @@ You can send an email every Tuesday to all the customers for Special Offers.
 	1. Select a **Time** and a **Repetition frequency** for your deliveries.
 	1. In **Days of the week**, select **Tuesday**.
 	1. Specify a **Start** and an **Expiration** parameter for your workflow.
+
 	![](assets/scheduler_properties.png)
 
-		>[!NOTE]
-		>
-		>To start your workflow at a specific **Time Zone**, in the **Execution options** tab, set up the time zone for your scheduler in the Time zone field.
+	>[!NOTE]
+	>
+	>To start your workflow at a specific **Time Zone**, in the **Execution options** tab, set up the time zone for your scheduler in the Time zone field.
  
 	1. Confirm your activity and save your workflow.
 

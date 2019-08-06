@@ -1,8 +1,8 @@
 ---
-title: "Workflow use-case: Create deliveries on profiles' creation date"
-seo-title: "Workflow use-case: Create deliveries on profiles' creation date"
-description: "Workflow use-case: Create deliveries on profiles' creation date"
-seo-description: "Workflow use-case: Create deliveries on profiles' creation date" 
+title: "Workflow use-case: Creating deliveries on the creation date of the profile"
+seo-title: "Workflow use-case: Creating deliveries on the creation date of the profile"
+description: "Workflow use-case: Creating deliveries on the creation date of the profile"
+seo-description: "Workflow use-case: Creating deliveries on the creation date of the profile"
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -20,9 +20,9 @@ snippet: y
 
 You can send an offer via email on the anniversary of the customer's profile creation.
 
-1. In a Marketing Activities, click create and select **Workflow**.
+1. In **Marketing Activities**, click create and select **Workflow**.
 1. Select **New Workflow** as workflow type and click **Next**.
-1. Enter properties of the workflow and click **Create**.
+1. Enter the properties of the workflow and click **Create**.
 
 ## Creating a Scheduler activity {#creating-a-scheduler-activity}
 
@@ -32,8 +32,6 @@ You can send an offer via email on the anniversary of the customer's profile cre
 	1. In **Execution frequency**, select **Daily**.
 	1. Select a **Time** and the **Repetition frequency** of execution for your workflow.
 	1. Select a **Start** date and **Expiration** for your workflow.
-
-		![](assets/scheduler_date_query.png)
 
 		>[!NOTE]
 		>
@@ -45,31 +43,34 @@ You can send an offer via email on the anniversary of the customer's profile cre
 
 ## Creating a Query activity {#creating-a-query-activity}
 
-1. To select recipients, drag and drop a query activity and double-click it.
-1. Add profiles and select no longer contact by email with the value no.
+1. To select recipients, drag and drop a **Query activity** and double-click it.
+1. Add **Profiles** and select **no longer contact by email** with the value **no**.
 
 ### Retriving profiles created on the same day as the day of execution {#retriving-profiles-created-on-the-same-day}
 
-1. In Profile, drag and drop the Created field. At the top-right of the window, click on **Advanced Mode**.
+1. In **Profile**, drag and drop the **Created** field. and click on **Advanced Mode**.
 ![](assets/advanced_mode.png)
-1. In the **list of functions**, double-click Day from the **Date** node.
+1. In the **list of functions**, double-click **Day** from the **Date** node.
 1. Then, insert the field **Created** as argument.
-1. Select **equals to** (=) as the operator.
+1. Select **equals to (=)** as the operator.
 1. For Value, select **Day** from the **Date** node in the **List of functions**.
-1. Insert the **GetDate()** function as argument. 
+1. Insert the **GetDate()** function as argument.
+
 You retrieved the profiles which creation day is equal to current day.
-You should end up with this:
+
+You should end up with:
 
 	```Day(@created) = Day(GetDate())```
-	![](assets/day_creation_query.png)
 
-1. Click **Confirm**.
+![](assets/day_creation_query.png)
+
+ Click **Confirm**.
 
 ### Retriving profiles created on the same month as the month of execution{#retriving-profiles-created-on-the-same-month}
 
-1. On the Query editor, select the first query and duplicate it. 
+1. On the **Query** editor, select the first query and duplicate it. 
 1. Open the duplicate.
-1. Replace Day by Month in the query.
+1. Replace **Day** by **Month** in the query.
 	You should end up with this:  
 
 	``` Month(@created) = Month(GetDate()) ```
@@ -78,7 +79,7 @@ You should end up with this:
 
 ![](assets/month_rule.png)
 
-The final query displays: 
+The final query displays:
 
 ![](assets/expression_editor_1.png)
 

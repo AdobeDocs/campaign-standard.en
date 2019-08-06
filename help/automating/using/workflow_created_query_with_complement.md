@@ -1,8 +1,8 @@
 ---
-title: "Workflow use-case: Create deliveries with a complement"
-seo-title: "Workflow use-case: Create deliveries with a complement"
-description: "Workflow use-case: Create deliveries with a complement"
-seo-description: "Workflow use-case: Create deliveries with a complement"
+title: "Workflow use-case: Creating deliveries with a complement"
+seo-title: "Workflow use-case: Creating deliveries with a complement"
+description: "Workflow use-case: Creating deliveries with a complement"
+seo-description: "Workflow use-case: Creating deliveries with a complement"
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -16,7 +16,7 @@ internal: n
 snippet: y
 ---
 
-# Workflow use-case: Create deliveries with a complement {#deliveries-with-complement}
+# Workflow use-case: Creating deliveries with a complement {#deliveries-with-complement}
 
 You can send an email to customers: one for clients created less than a year ago, one for clients created more than a year ago.
 
@@ -35,7 +35,7 @@ You can send an email to customers: one for clients created less than a year ago
 ## Create a Segmentation activity {#create-a-segmentation-activity}
 
 1. In **Activities** > **Targeting**, drag and drop a **Segmentation** activity and double-click it.
-1. Hover over segment then click on ![](assets/edit_darkgrey-24px.png) to target customers added this year in the database. 
+1. Hover over the segment then click on ![](assets/edit_darkgrey-24px.png) to target customers added this year in the database. 
 1. Drag and drop **Profiles** and select **Created** with the filter type **Relative**.
 1. Change the **Level of precision** to **Year** and select **This year**.
 Note: To observe the structure of the rule, click on **Advanced Mode**.

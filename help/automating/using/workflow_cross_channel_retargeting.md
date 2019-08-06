@@ -1,8 +1,8 @@
 ---
-title: "Workflow use-case: Segmentation on location"
-seo-title: "Workflow use-case: Segmentation on location"
-description: "Workflow use-case: Segmentation on location"
-seo-description: "Workflow use-case: Segmentation on location"
+title: "Workflow use-case: Retargeting non-openers"
+seo-title: "Workflow use-case: Retargeting non-openers"
+description: "Workflow use-case: Retargeting non-openers"
+seo-description: "Workflow use-case: Retargeting non-openers"
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -20,7 +20,7 @@ snippet: y
 
 You can send an email to my customers and then an sms to those who didn't open the mail.
 
-1. In a Campaign, create a workflow.
+1. In a campaign, create a workflow.
 
 ## Creating a query activity{#creating-a-query-activity}
 
@@ -48,8 +48,8 @@ You can send an email to my customers and then an sms to those who didn't open t
 
 ## Targeting non-openers in a query activity{#targeting-non-openers-in-a-query-activity}
 
-1. In **Activities** > **Execution**, drag and drop a **Wait activity**. **ICON**
-1. In **Duration**, click on **Click ICON** and select one day.
+1. In **Activities** > **Execution**, drag and drop a **Wait activity**![](assets/wait.png).
+1. In **Duration**, click on ![](assets/duration-icon.png) and select one day.
 1. In **Activities** > **Targeting**, drag and drop a **Query activity** ![](assets/query.png).
 1. Double-click the activity.
 1. In **Shortcuts**, drag and drop **Tracking Logs** and with the operator **exists**.
