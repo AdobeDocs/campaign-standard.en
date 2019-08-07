@@ -137,6 +137,8 @@ This section describes how use a test profile as a trap using real customer data
 
 1. Create a test profile and enable **[!UICONTROL Proof]** and **[!UICONTROL Trap]** as the intended usage. For more on this, see [Managing test profiles](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles).
 
+   ![](assets/trap_test_profile.png)
+
     This test profile becomes part of the targeted audience.
 
    >[!NOTE]
@@ -147,13 +149,19 @@ This section describes how use a test profile as a trap using real customer data
 
    See [Creating a workflow](../../automating/using/building-a-workflow.md#creating-a-workflow).
 
-1. Drag and drop a Load file activity to assign some data to a profile. For example, to assign a loyalty status to some profiles of the database.
+1. Drag and drop a Load file activity to assign some data to a profile. In this example, load a file containing account numbers corresponding to each profile of the database.
+
+   ![](assets/trap_load_file.png)
+
+The Load file activity is presented in the [Load file](../../automating/using/load-file.md) section.
 
 1. Drag and drop a **[!UICONTROL Query]** activity into your workflow and open it.
 
    The Query activity is presented in the [Query](../../automating/using/query.md) section.
 
 1. Add additional data. For more on this, see [Enriching data](../../automating/using/query.md#enriching-data).
+
+  ![](assets/trap_additional_data.png)
 
 1. Drag and drop an **Email delivery** activity into your workflow and open it.
 
@@ -166,8 +174,13 @@ This section describes how use a test profile as a trap using real customer data
 1. Save the email and start the workflow.
 
 During message preparation, the target count includes the test profile that you selected.
+
+   ![](assets/trap_test_workflow.png)
+
 Once the message is sent, additional data is replaced by data from a real profile.
 
 >[!NOTE]
    >
    >Only additional data are replaced. No real profile data such as first name or last name will be used for the test profile.
+
+Now you can duplicate the test workflow, define your real audience and run the new workflow to send an email to your intended target.
