@@ -137,8 +137,6 @@ This section describes how to use a trap test profile to test sending real custo
 
 For example, you want to check that additional data retrieved from a Load file activity are correctly used in the email you intend to send.
 
-send an email to all your customers with the number of newsletters they are subscribed to
-
 1. Create a test profile and enable **[!UICONTROL Proof]** and **[!UICONTROL Trap]** as the intended usage. For more on this, see [Managing test profiles](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles).
 
    ![](assets/trap_test_profile.png)
