@@ -151,25 +151,29 @@ For example, you want to check that additional data retrieved from a Load file a
 
    See [Creating a workflow](../../automating/using/building-a-workflow.md#creating-a-workflow).
 
+1. Drag and drop a **[!UICONTROL Query]** activity into your workflow and open it to define the main target.
+
+   The Query activity is presented in the [Query](../../automating/using/query.md) section.
+
 1. Drag and drop a Load file activity to assign some data to a profile. In this example, load a file containing account numbers corresponding to some profiles of the database.
 
    ![](assets/trap_load_file.png)
 
    The Load file activity is presented in the [Load file](../../automating/using/load-file.md) section.
 
-1. Drag and drop a **[!UICONTROL Query]** activity into your workflow and open it to define the main target.
-
-   The Query activity is presented in the [Query](../../automating/using/query.md) section.
-
 1. Drag and drop an **[!UICONTROL Enrichment]** activity into your workflow and link the Load file and Query activities to it.
 
    ![](assets/trap_test_enrichment.png)
 
-1. Open the Enrichment activity and select **[!UICONTROL Query]** as the **[!UICONTROL Primary set]**.
+1. Open the Enrichment activity and make sure **[!UICONTROL Query]** is selected as the **[!UICONTROL Primary set]**.
 
    ![](assets/trap_test_enrichment_primary_set.png)
 
-1. In the **[!UICONTROL Additional data]** tab of the Enrichment activity, select the elements that you want to use in your email. Here select Account number (column from the file that you retrieved through the Load file activity).
+1. In the **[!UICONTROL Advanced relations]** tab of the Enrichment activity, select the **[!UICONTROL 0 or 1 cardinality simple link]** and define the fields to be used for reconciliation.
+
+   ![](assets/trap_test_enrichment_relation.png)
+
+1. In the **[!UICONTROL Additional data]** tab, select the elements that you want to use in your email. Here select Account number (column from the file that you retrieved through the Load file activity).
 
    ![](assets/trap_test_enrichment_select_element.png)
 
