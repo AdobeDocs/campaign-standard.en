@@ -162,7 +162,7 @@ Fatigue rules are defined in n-day rolling periods. The period is configured in 
 
 When the rule executes, both past deliveries and scheduled deliveries are taken into account. This guarantees that, on a given sliding period, the threshold is never exceeded.
 
-For example, if you define a 48-hour period, the system will be looking 48 hours **before the contact date ** and 48 hours **after the contact date**. So, the selected period is doubled to enable the integration of future deliveries as well as previous ones.
+For example, if you define a 48-hour period, the system will be looking 48 hours **before the contact date** and 48 hours **after the contact date**. So, the selected period is doubled to enable the integration of future deliveries as well as previous ones.
 
 To restrict the deliveries taken into account to a 2-week period, enter **Day** and **7** or 1 week in the **Sliding period** section. Deliveries sent up to 7 days before the delivery date and scheduled up to 7 days after the delivery date on which the rule is applied will be taken into account in the calculation.
 
