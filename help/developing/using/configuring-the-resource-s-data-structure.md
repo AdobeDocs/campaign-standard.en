@@ -170,7 +170,7 @@ The links created are displayed in the list in the **[!UICONTROL Links]** sectio
 
 **Example: Link a created resource with the 'Profiles' resource**
 
-In this example, we want to link a new resource **Purchase** with the **Profiles **custom resource:
+In this example, we want to link a new resource **Purchase** with the **Profiles** custom resource:
 
 1. Create your new **Purchase** resource.
 1. To link it with the **Profiles** custom resource, unfold the **[!UICONTROL Links]** section in the **[!UICONTROL Data structure]** tab and click **[!UICONTROL Create element]**.
