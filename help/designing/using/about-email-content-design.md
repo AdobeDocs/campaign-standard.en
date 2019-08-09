@@ -57,6 +57,182 @@ Other modifications such as adding new sections to your email or advanced stylin
 For more on converting an existing email into an Email Designer-compatible email, see [this section](../../designing/using/about-email-content-design.md#designing-an-email-using-existing-contents).
 
 
+### Email Designer limitations {#email-designer-limitations}
+
+* You cannot use personalization fields in a fragment. For more on fragments, see [this section](../../designing/using/defining-the-email-structure.md#about-fragments).
+* You cannot save directly as a fragment some content of an email that you are editing within the Email Designer. You need to copy-paste the HTML corresponding to that content into a new fragment. For more on this, see [Saving content as a fragment](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment).
+* When editing styles, only the web fonts officially supported by most email clients are available.
+* Styles cannot be saved as a theme for future reuse. However, the CSS style can be saved in a content template or in an email. For more on styles, see [this section](../../designing/using/editing-email-styles.md).
+
+### Email Designer updates {#email-designer-updates}
+
+The Email Designer is under continuous improvement. If you created an email content from scratch, from an out-of-the-box template or if you created fragments, you may get the following update message the next time you open your content:
+
+![](assets/email_designer_fragment_patch_message.png)
+
+Adobe recommends updating your content to the latest version to avoid problems such as CSS collision issues. Click **[!UICONTROL Update now]**.
+
+If an error occurs during the content update, check your HTML and fix it before running this update again.
+
+When it comes to fragments, please note the following:
+
+* If you want to add a fragment to a new email or template and if you get this message, you need to update this fragment first.
+
+* If you have multiple fragments, you have to update each fragment that you want to use in an email content.
+
+* To avoid impact on your current email messages, as some of them may be at preparation stage or in a specific campaign where you do not want alteration, you can choose not to update some fragments.
+
+* You can still send emails where a fragment that is not updated is already used, but that fragment is not editable.
+
+## Designing an email content from scratch {#designing-an-email-content-from-scratch}
+
+Here are the main steps to create and design an email content from scratch using the Email Designer:
+
+1. Create an email and open its content.
+1. Add structure components to shape the email. See [Editing the email structure](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
+1. Insert content components and fragments in the structure components. See [Adding fragments and content components](../../designing/using/defining-the-email-structure.md#adding-fragments-and-content-components).
+1. Add images and edit the text of the email. See [Inserting images](../../designing/using/inserting-images.md).
+1. Personalize your email by adding personalization fields, links, and so on. See [Inserting a personalization field](../../designing/using/inserting-a-personalization-field.md), [Inserting a link](../../designing/using/inserting-a-link.md) and [Defining dynamic content in an email](../../designing/using/defining-dynamic-content-in-an-email.md).
+1. Define the subject line of your email. See [Personalizing the subject line of an email](../../designing/using/personalizing-the-subject-line-of-an-email.md).
+1. Preview your email.
+1. Save your content, and proceed with your message after making sure that you have defined an audience and properly scheduled the sending.
+
+You can also check out this [introduction video](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true).
+
+>[!NOTE]
+>
+>To avoid designing email content from scratch, you can use out-of-the-box content templates. For more on this, see [Content templates](../../start/using/about-templates.md#content-templates).
+
+**Related topics**:
+
+* [Creating an email](../../channels/using/creating-an-email.md)
+* [Selecting an existing content](../../designing/using/selecting-an-existing-content.md)
+* [Selecting an audience in a message](../../audiences/using/selecting-an-audience-in-a-message.md)
+* [Scheduling messages](../../sending/using/about-scheduling-messages.md)
+* [Previewing messages](../../sending/using/previewing-messages.md)
+* [Email rendering](../../sending/using/email-rendering.md)
+
+## Designing an email using existing contents {#designing-an-email-using-existing-contents}
+
+This section explains how to convert an existing email into an Email Designer-compatible email.
+
+By default, if you just upload any HTML (see [Importing content from a file](../../designing/using/importing-content-from-a-file.md)), the content is loaded in '[compatibility mode](../../designing/using/about-email-content-design.md#email-designer-compatibility-mode)', which limits the edition possibilities through the UI (only in-place edition, no drag-and-drop).
+
+However, if you want to build a framework of modular templates and fragments that can be combined to reuse in multiple emails, you should consider converting your email HTML into an Email Designer template.
+
+When designing content with the Email Designer, you have three options:
+
+* [Building content from an out-of-the-box template](../../designing/using/about-email-content-design.md#building-content-from-an-out-of-the-box-template)
+* [Using fragments and components](../../designing/using/about-email-content-design.md#using-fragments-and-components), start from scratch and recreate an HTML design
+* [Converting an HTML content](../../designing/using/about-email-content-design.md#converting-an-html-content) email into a modular Email Designer content
+
+### Building content from an out-of-the-box template {#building-content-from-an-out-of-the-box-template}
+
+1. Create an email and open its content. For more on this, see [Creating an email](../../channels/using/creating-an-email.md).
+1. Click the home icon to access the **[!UICONTROL Email Designer]** home page.
+1. Click the **[!UICONTROL Templates]** tab.
+1. Choose an out-of-the-box HTML template.
+
+   The different templates present various combinations of several types of elements. For example, 'Feather' templates have margins while 'Astro' templates do not have ones. For more on this, see [Content templates](../../start/using/about-templates.md#content-templates).
+
+1. You can combine these elements to build a number of email variants. For example, you can duplicate an email section by selecting a structure component and clicking **[!UICONTROL Duplicate]** from the contextual toolbar.
+1. You can move the elements around using the blue arrow on the left to drag a structure component below or above another. For more on this, see [Editing the email structure](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
+1. You can also move components around to change the organization of each structure element. For more on this, see [Adding fragments and components](../../designing/using/defining-the-email-structure.md#adding-fragments-and-content-components).
+1. Modify the content of each element according to your needs: images, text, links.
+1. Adapt the styling options to your content if needed. For more on this, see [Editing email styles](../../designing/using/editing-email-styles.md).
+
+### Using fragments and components {#using-fragments-and-components}
+
+To simply make an external content compliant with the Email Designer, Adobe recommends creating a message from scratch and copy the content from your existing email into fragments and components.
+
+When you have a content that cannot be recreated, you can copy-paste the HTML code from the original email using the **[!UICONTROL Html]** content component. Make sure you are familiar with HTML before proceeding.
+
+A full example is presented below.
+
+>[!NOTE]
+>
+>The new content will not be the exact copy of your original email, but the steps below will guide you through the creation of a message that will be as close as possible.
+
+Let's say that you want to use an existing newsletter that was created outside of Adobe Campaign.
+
+You want to have the same header and footer in all the emails that you will send with Adobe Campaign. The body of the email will change according to the content that you intend to display in each newsletter.
+
+**Prerequisites**
+
+1. In your original email, identify the reusable sections from the sections that will be unique to each email that you will send.
+1. Save all the images and assets that you want to use.
+1. If you are familiar with HTML, split your original HTML content into different parts.
+
+**Creating fragments for your reusable content**
+
+Using the Email Designer, create a fragment for each reusable section. In this example, you will create two fragments: one for the header and one for the footer. You can then copy the relevant parts from your existing content into these fragments.
+
+To do this, follow the steps below:
+
+1. In Adobe Campaign, go to **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** and create a fragment for your header. For more on this, see [Creating a content fragment](../../designing/using/defining-the-email-structure.md#creating-a-content-fragment).
+1. Add as many structure components as you need to your fragment.
+
+   ![](assets/des_loading_compatible_fragment_1.png)
+
+1. Insert image and text components into your structure.
+
+   ![](assets/des_loading_compatible_fragment_2.png)
+
+1. Upload the corresponding image, enter your text and adjust the settings.
+
+   For more on managing style settings and inline attributes, see [Editing email styles](../../designing/using/editing-email-styles.md).
+
+   ![](assets/des_loading_compatible_fragment_3.png)
+
+1. Save your fragment.
+1. Proceed similarly to create your footer and save it.
+
+   ![](assets/des_loading_compatible_fragment_4.png)
+
+   If you are familiar with HTML, you can copy-paste the HTML code from the original footer using the **[!UICONTROL Html]** content component. For more on this, see [About content components](../../designing/using/defining-the-email-structure.md#about-content-components).
+
+   ![](assets/des_loading_compatible_fragment_9.png)
+
+Your fragments are now ready to be used in a template.
+
+**Inserting fragments and components into your template**
+
+You can now create an email template with the Email Designer. Use content components to reflect the different sections of your email and adjust the settings to make them as close as possible to your original newsletter. Finally, insert the fragments that you just created.
+
+1. Using the Email Designer, create a template. For more on this, see [Content templates](../../start/using/about-templates.md#content-templates).
+1. Insert several structure components into your template - corresponding to the header, footer and body of your email. For more on adding structure components, see [Editing the email structure with the Email Designer](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
+1. Insert as many content components as needed to create the body of your newsletter. This will be the editable content of your email that you will update every month.
+
+   ![](assets/des_loading_compatible_fragment_5.png)
+
+   If you are familiar with HTML code, Adobe recommends leveraging **[!UICONTROL Html]** components where you can copy-paste the more complex elements of the original email. Use other components such as **[!UICONTROL Button]**, **[!UICONTROL Image]** or **[!UICONTROL Text]** for the rest of the content. For more on this, see [About content components](../../designing/using/defining-the-email-structure.md#about-content-components).
+
+   >[!NOTE]
+   >
+   >Using the **[!UICONTROL Html]** component results in creating components that are editable with limited options. Make sure you know how to handle HTML code before selecting this component.
+
+1. Adjust the content components to match your original email as much as you can.
+
+   ![](assets/des_loading_compatible_fragment_6.png)
+
+   For more on managing style settings and inline attributes, see [Editing email styles](../../designing/using/editing-email-styles.md).
+
+1. Insert the two fragments (header and footer) that you previously created into the desired structure components.
+
+   ![](assets/des_loading_compatible_fragment_10.png)
+
+1. Save your template.
+
+You can now fully manage this template within the Email Designer to create and update the newsletter that you will send every month to your recipients.
+
+To use it, create an email and select the content template that you just created.
+
+**Related topic**:
+
+* [Creating an email](../../channels/using/creating-an-email.md)
+* [Introduction video to the Email Designer](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true)
+* [Designing an email content from scratch](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch)
+
 ### Converting an HTML content {#converting-an-html-content}
 
 This use case offers a quick way to convert an HTML email into Email Designer components.
@@ -186,3 +362,168 @@ You can either set this option from the mobile or desktop view.
    The background color defined in desktop view is now applied: it turns grey (not blank).
 
    The only exception is the **[!UICONTROL Border color]** setting. When disabled in mobile view, no border is applied anymore, even if a border color is defined in desktop view.
+
+## Plain text and HTML modes {#plain-text-and-html-modes}
+
+### Generating a text version of the email {#generating-a-text-version-of-the-email}
+
+By default, the **[!UICONTROL Plain text]** version of your email is automatically generated and synchronized with the **[!UICONTROL Edit]** version.
+
+Personalization fields and content blocks added to the HTML version are also synchronized with the plain text version.
+
+>[!NOTE]
+>
+>To use content blocks in plain text version, make sure they do not contain HTML code.
+
+To have a plain text version different from the HTML version, you can disable this synchronization by clicking the **[!UICONTROL Sync with HTML]** switch from the **[!UICONTROL Plain text]** view of your email.
+
+![](assets/email_designer_textversion.png)
+
+You can then edit the plain text version as desired.
+
+>[!NOTE]
+>
+>If you edit the **[!UICONTROL Plain text]** version while synchronization is disabled, the next time you enable the **[!UICONTROL Sync with HTML]** option, all the changes you made in the plain text version will be replaced with the HTML version. The changes made in **[!UICONTROL Plain text]** view cannot be reflected in **[!UICONTROL HTML]** view.
+
+### Editing an email content source in HTML {#editing-an-email-content-source-in-html}
+
+For the most advanced users and debugging, you can view and edit the email content directly in HTML.
+
+You have two ways to edit the HTML version of the email:
+
+* Select **[!UICONTROL Edit]** > **[!UICONTROL HTML]** to open the HTML version of the entire email.
+
+  ![](assets/email_designer_html1.png)
+
+* From the WYSIWYG interface, select an element and click the **[!UICONTROL Source code]** icon.
+
+  Only the source of the selected element is displayed. You can edit the source code if the selected element is a **[!UICONTROL HTML]** content component. Other components are in read-only mode, but can still be edited in the full HTML version of the email.
+
+  ![](assets/email_designer_html2.png)
+
+If you modify the HTML the code, the responsiveness of the email could be broken. Make sure to test it using the **[!UICONTROL Preview]** button. See [Previewing messages](../../sending/using/previewing-messages.md).
+
+## Design through Adobe Campaign integrations {#design-through-adobe-campaign-integrations}
+
+### Editing content in Dreamweaver {#editing-content-in-dreamweaver}
+
+The Adobe Campaign Standard integration with Dreamweaver lets you edit an email's content in the Dreamweaver interface. You have access to the powerful interface of Dreamweaver to design and develop responsive email content.
+
+* **Bidirectional syncing**
+
+  Whenever an edit is made in one product, it is updated in real time in the other. If you want to change the color of text in Dreamweaver, as soon as you make that edit, the color of the text is live in Campaign. Additionally, when you select code in either Dreamweaver or Campaign, since the line numbers are the same, the selection remains between the two products, which is very useful when looking for something specific in the code.
+
+* **Upload local images to AC through Dreamweaver**
+
+  When creating or editing an email within Dreamweaver, you can simply select an image from your desktop or local machine. While Dreamweaver has always allowed you to do this, when Dreamweaver and Campaign are connected, the local file is immediately uploaded to the Adobe Campaign server: no need to manually upload images as content changes. Additionally, it ensures that the latest images are always live in Campaign.
+
+* **Add Campaign personalization in Dreamweaver**
+
+  For the email developer there is no longer a need to add text like ```[[FIRSTNAME_PLACEHOLDER]]``` nor to look up the syntax of your data model’s tables. The Campaign toolbar in Dreamweaver connects directly to your Campaign instance's data model. That means you can pull in any data you want for personalization from something like First Name to Address. If you’ve created Content Blocks within Campaign, you can also pull those directly into Dreamweaver.
+
+This capability is detailed in the Dreamweaver Documentation accessible [here](https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html). A demonstration [video](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html) is also available.
+
+### Editing content in Experience Manager {#editing-content-in-experience-manager}
+
+Email content can be edited in Experience Manager and then used for one or several email messages in Adobe Campaign Standard. Refer to [this document](../../integrating/using/integrating-with-experience-manager.md).
+
+### Email design options comparison {#email-design-options-comparison}
+
+Adobe Campaign offers several email authoring options. The table below shows the main possibilities, benefits and limitations for each of them.
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> </th> 
+   <th> Email Designer<br /> </th> 
+   <th> Experience Manager<br /> </th> 
+   <th> Dreamweaver<br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <strong>Start blank email</strong><br /> </td> 
+   <td> Supported<br /> </td> 
+   <td> Supported<br /> </td> 
+   <td> Supported<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Write HTML</strong><br /> </td> 
+   <td> Supported<br /> </td> 
+   <td> Not supported<br /> </td> 
+   <td> Supported<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Update HTML</strong><br /> </td> 
+   <td> Only inside an HTML component<br /> </td> 
+   <td> Not supported<br /> </td> 
+   <td> Supported<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Basic personalization</strong><br /> </td> 
+   <td> Supported<br /> </td> 
+   <td> Supported<br /> </td> 
+   <td> Supported<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Advanced personalization</strong><br /> </td> 
+   <td> Supported<br /> </td> 
+   <td> Not supported<br /> </td> 
+   <td> Not supported<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Proof/Preview</strong><br /> </td> 
+   <td> Supported<br /> </td> 
+   <td> Preview in AEM<br /> Proof in Campaign<br /> </td> 
+   <td> Preview and proof in Campaign<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Product listings</strong><br /> </td> 
+   <td> Supported in email transactional messages<br /> </td> 
+   <td> Not supported<br /> </td> 
+   <td> Not supported<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Benefits</strong><br /> </td> 
+   <td> 
+     - Easy email building through drag-and-drop experience<br/>
+     - Functionalities similar to legacy content editor<br/>
+     - Reusable content with fragments
+  </td> 
+   <td> 
+     - Reusing assets from website in emails<br/>
+     - Leveraging the power of Experience Manager in email contents
+    </td> 
+   <td> 
+    - Capability for a developer to directly code an email<br/>
+    - Bi-directional synchronization<br/>
+    - Editing offline in Dreamweaver and synchronizing later<br/>
+    - Uploading images to Adobe Campaign through Dreamweaver
+  </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Limitations</strong><br /> </td> 
+   <td> 
+     - No conditional content within fragments<br/>
+     - Using Experience Manager fragments not possible
+  </td> 
+   <td> 
+     - Advanced personalization difficult to implement<br/>
+     - Need to send tests in Adobe Campaign
+  </td> 
+   <td> Dynamic content not supported<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Audience</strong><br /> </td> 
+   <td> Marketers who want to keep the flexibility to use HTML components in combination with drag-and-drop features<br /> </td> 
+   <td> Marketers already using Experience Manager who want to use standard email templates with little personalization<br /> </td> 
+   <td> Developers who want to code email contents and integrate directly with Adobe Campaign<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>To learn more</strong><br /> </td> 
+   <td> See <a href="../../designing/using/about-email-content-design.md#about-the-email-designer">About the Email Designer</a><br /> </td> 
+   <td> See <a href="../../integrating/using/integrating-with-experience-manager.md">Integrating with Experience Manager</a><br /> </td> 
+   <td> See <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver and Campaign</a> and watch this <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">video</a><br /> </td> 
+  </tr> 
+ </tbody> 
+</table>

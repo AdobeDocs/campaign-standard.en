@@ -22,8 +22,8 @@ You can create workflows to manage entire processes in your campaigns and progra
 
 The workflow editing screen is made up of the following elements:
 
-* The [Palette](../../automating/using/workflow-interface.md#palette), which references the available activities
-* The [Workspace](../../automating/using/workflow-interface.md#workspace), in which the activities are configured and organized
+* The [Palette](../../automating/using/workflow-interface.md#palette), which references the available activities.
+* The [Workspace](../../automating/using/workflow-interface.md#workspace), in which the activities are configured and organized.
 * The [Action bar](../../automating/using/workflow-interface.md#action-bar), which is made up of buttons that allow you to interact with the workflow and/or its components.
 * The [Quick actions](../../automating/using/workflow-interface.md#quick-actions), which appear around a selected activity, allow you to interact with it.
 
