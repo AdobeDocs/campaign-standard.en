@@ -20,7 +20,7 @@ snippet: y
 
 You can send an email to customers: one for clients created less than a year ago, one for clients created more than a year ago.
 
-1. In a Marketing Activities, click create and select **Workflow**.
+1. In **Marketing Activities**, click **Create** and select **Workflow**.
 1. Select **New Workflow** as workflow type and click **Next**.
 1. Enter properties of the workflow and click **Create**.
 
@@ -38,7 +38,11 @@ You can send an email to customers: one for clients created less than a year ago
 1. Hover over the segment then click on ![](assets/edit_darkgrey-24px.png) to target customers added this year in the database. 
 1. Drag and drop **Profiles** and select **Created** with the filter type **Relative**.
 1. Change the **Level of precision** to **Year** and select **This year**.
-Note: To observe the structure of the rule, click on **Advanced Mode**.
+
+	>[!NOTE]
+	>
+	>To observe the structure of the rule, click on **Advanced Mode**.
+
 1. Click **Confirm** twice.
 1. In **Advanced Options**, check **Generate complement** to create a segment targeting the remaining recipients.
 1. Click **Confirm**.
@@ -55,6 +59,7 @@ Note: To observe the structure of the rule, click on **Advanced Mode**.
 	1. Insert elements or select an existing template.
 	1. Personalize your email with offers specific to each delivery.
 	For more information, refer to [designing an email](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch).
+
 1. Click **Preview** to check your layout.
 1. Click **Save**.
 

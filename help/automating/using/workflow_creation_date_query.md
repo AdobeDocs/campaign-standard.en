@@ -20,7 +20,7 @@ snippet: y
 
 You can send an offer via email on the anniversary of the customer's profile creation.
 
-1. In **Marketing Activities**, click create and select **Workflow**.
+1. In **Marketing Activities**, click **Create** and select **Workflow**.
 1. Select **New Workflow** as workflow type and click **Next**.
 1. Enter the properties of the workflow and click **Create**.
 
@@ -60,7 +60,7 @@ You retrieved the profiles which creation day is equal to current day.
 
 You should end up with:
 
-	```Day(@created) = Day(GetDate())```
+```Day(@created) = Day(GetDate())```
 
 ![](assets/day_creation_query.png)
 
@@ -80,6 +80,8 @@ You should end up with:
 ![](assets/month_rule.png)
 
 The final query displays:
+
+```Day(@created) = Day(GetDate()) AND Month(@created) = Month(GetDate())```
 
 ![](assets/expression_editor_1.png)
 

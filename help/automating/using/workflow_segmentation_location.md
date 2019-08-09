@@ -20,7 +20,7 @@ snippet: y
 
 You can send a targeting email to customers with offers on their local shops.
 
-1. In a **Marketing Activities**, click create and select **Workflow**.
+1. In **Marketing Activities**, click **Create** and select **Workflow**.
 1. Select **New Workflow** as workflow type and click **Next**.
 1. Enter properties of the workflow and click **Create**.
 

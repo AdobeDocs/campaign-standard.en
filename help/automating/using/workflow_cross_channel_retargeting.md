@@ -18,9 +18,11 @@ snippet: y
 
 # Workflow use-case: Retargeting workflow sending a new delivery to non-openers{#retargeting-delivery-to-non-openers}
 
-You can send an email to my customers and then an sms to those who didn't open the mail.
+You can send an email to customers and then an sms to those who did not open the mail.
 
-1. In a campaign, create a workflow.
+1. In **Marketing Activities**, click **Create** and select **Workflow**.
+1. Select **New Workflow** as workflow type and click **Next**.
+1. Enter properties of the workflow and click **Create**.
 
 ## Creating a query activity{#creating-a-query-activity}
 
@@ -41,8 +43,7 @@ You can send an email to my customers and then an sms to those who didn't open t
 	1. Rename the email with **email offer**.
   1. To create the layout of your email, click on **Email Designer**.
 	1. Insert elements or select an existing template.
-	1. Personalize your email with offers specific to each location.
-	For more information, refer to [designing an email](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch).
+	1. Personalize your email with offers specific to each location.For more information, refer to [designing an email](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch).
 1. Click **Preview** to check your layout.
 1. Click **Save**.
 
