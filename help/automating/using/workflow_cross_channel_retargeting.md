@@ -37,7 +37,7 @@ You can send an email to customers and then an sms to those who did not open the
 1. Drag and drop an email delivery after each segment.
 	1. Click the activity and select ![](assets/edit_darkgrey-24px.png) to edit.
 	1. Select **Simple email** and click **Next**.
-	1. Select **Add an outbound transition with the population** and click **Next**.
+	1. Select **Add an outbound transition without the population** and click **Next**.
 	1. Select an email template and click **Next**.
 	1. Enter the email properties and click **Next**.
 	1. Rename the email with **email offer**.
@@ -49,7 +49,7 @@ You can send an email to customers and then an sms to those who did not open the
 
 ## Targeting non-openers in a query activity{#targeting-non-openers-in-a-query-activity}
 
-1. In **Activities** > **Execution**, drag and drop a **Wait activity**![](assets/wait.png).
+1. In **Activities** > **Execution**, drag and drop a **Wait activity** ![](assets/wait.png).
 1. In **Duration**, click on ![](assets/duration-icon.png) and select one day.
 1. In **Activities** > **Targeting**, drag and drop a **Query activity** ![](assets/query.png).
 1. Double-click the activity.
