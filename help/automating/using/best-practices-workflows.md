@@ -130,9 +130,12 @@ For more information, refer to [Monitoring workflow execution](../../automating/
 You can analyze SQL queries in the Log tab.
 
 1. In the workflow workspace, click **Edit properties**.
-1. In **General** > **Execution**, check the **Save SQL queries in the log** and **Execute in the engine** options and click **Confirm**. 
-1. Then, click **Log and Tasks**.
-1. In the **Log** tab, check **Display SQL logs only** in the **Search** panel.
+1. In **General** > **Execution**, check the **Save SQL queries in the log** and **Execute in the engine** options and click **Confirm**.
+
+**To see SQL queries in Log:**
+1. Click **Log and Tasks**.
+1. In the **Log** tab, open the **Search** panel. 
+1. Check **Display SQL logs only**.
 
 The query is displayed in the **Message** column of the logs.
 
