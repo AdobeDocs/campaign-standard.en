@@ -1,5 +1,6 @@
 ---
-product: Adobe Campaign Standard
+product: adobe campaign
+sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 ---
