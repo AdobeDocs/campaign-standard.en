@@ -112,7 +112,7 @@ For more information, see [Managing packages](../../automating/using/managing-pa
 
 ## Exporting lists{#exporting-lists}
 
-The export list option allows you to export a maximum of 100,000 lines by default and defined by the **Nms_ExportListLimit option**. This option can be managed by the functional administrator, under **Administration** > **Application settings** > **Options**.
+The export list option allows you to export a maximum of 100,000 lines by default and defined by the **Nms_ExportListLimit option**. This option can be managed by the functional administrator, under **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
 For more information, see [Exporting lists](../../automating/using/exporting-lists.md).
 
 ## Troubleshooting{#workflow-troubleshooting}
@@ -129,15 +129,15 @@ For more information, refer to [Monitoring workflow execution](../../automating/
 
 You can analyze SQL queries in the Log tab.
 
-1. In the workflow workspace, click **Edit properties**.
-1. In **General** > **Execution**, check the **Save SQL queries in the log** and **Execute in the engine** options and click **Confirm**.
+1. In the workflow workspace, click **[!UICONTROL Edit properties]**.
+1. In  **[!UICONTROL General]** > **[!UICONTROL Execution]**, check the **[!UICONTROL Save SQL queries in the log]** and **[!UICONTROL Execute in the engine]** options and click **[!UICONTROL Confirm]**.
 
 **To see SQL queries in Log:**
-1. Click **Log and Tasks**.
-1. In the **Log** tab, open the **Search** panel. 
-1. Check **Display SQL logs only**.
+1. Click **[!UICONTROL Log and Tasks]**.
+1. In the **[!UICONTROL Logs]** tab, open the **[!UICONTROL Search]** panel.
+1. Check **[!UICONTROL Display SQL logs only]**.
 
-The query is displayed in the **Message** column of the logs.
+The query is displayed in the **[!UICONTROL Message]** column of the logs.
 
 ### Using delivery logs{#using-delivery-logs}
 
