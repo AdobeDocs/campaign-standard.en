@@ -125,7 +125,7 @@ You can access workflow logs to monitor the execution of your activities. It ind
 The Tasks tab details the execution sequencing of the activities. To get more information on an activity, click a task.
 For more information, refer to [Monitoring workflow execution](../../automating/using/executing-a-workflow.md#monitoring).
 
-#### Troubleshooting Query activities{#troubleshooting-query-activities}
+#### Troubleshooting data management activities{#troubleshooting-data-management-activities}
 
 You can analyze SQL queries in the Log tab.
 
