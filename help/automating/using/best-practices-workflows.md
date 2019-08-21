@@ -121,8 +121,23 @@ Adobe Campaign offers various logs to better understand your workflow issues.
 
 ### Using workflow logs{#using-workflow-logs}
 
-You can access workflow logs to monitor the execution of your activities. It indexes the operations carried out and execution errors by chronological order.
+You can access workflow logs to monitor the execution of your activities. It indexes the operations carried out and execution errors by chronological order. The Logs tab consists in the history of the execution of all or some selected activities.
+The Tasks tab details the execution sequencing of the activities. To get more information on an activity, click a task.
 For more information, refer to [Monitoring workflow execution](../../automating/using/executing-a-workflow.md#monitoring).
+
+#### Troubleshooting data management activities{#troubleshooting-data-management-activities}
+
+You can analyze SQL queries in the Log tab.
+
+1. In the workflow workspace, click **Edit properties**.
+1. In **General** > **Execution**, check the **Save SQL queries in the log** and **Execute in the engine** options and click **Confirm**.
+
+**To see SQL queries in Log:**
+1. Click **Log and Tasks**.
+1. In the **Log** tab, open the **Search** panel. 
+1. Check **Display SQL logs only**.
+
+The query is displayed in the **Message** column of the logs.
 
 ### Using delivery logs{#using-delivery-logs}
 
@@ -133,3 +148,7 @@ For more information, refer to [Understanding delivery failures](../../sending/u
 
 The Delivery alerting feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries.
 For more information, refer to [Delivery alerting](../../sending/using/receiving-alerts-when-failures-happen.md).
+
+**Related topics:**
+
+* [Error Management](../../automating/using/executing-a-workflow.md#error-management)
