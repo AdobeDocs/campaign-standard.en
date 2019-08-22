@@ -192,6 +192,7 @@ The following sections detail what specific configuration should be set accordin
 ### Event-based transactional messages {#event-based-transactional-messages}
 
 To send an event-based transactional message, you first need to create and configure an event targeting the data contained in the event itself.
+For more information, see [Engaging with transactional messaging](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Managedatatofuelengagingexperiences).
 
 1. When creating the event configuration, select the **[!UICONTROL Real-time event]** targeting dimension (see [Creating an event](../../administration/using/configuring-transactional-messaging.md#creating-an-event)).
 1. Add fields to the event, in order to be able to personalize the transactional message (see [Defining the event attributes](../../administration/using/configuring-transactional-messaging.md#defining-the-event-attributes)).

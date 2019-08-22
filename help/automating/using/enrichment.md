@@ -135,3 +135,7 @@ The workflow is configured as follows:
 
   ![](assets/enrichment_example_workflow10.png)
 
+**Related topic:**
+
+* [Enriching customer profiles with external data](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Managedatatofuelengagingexperiences)
+

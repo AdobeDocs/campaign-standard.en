@@ -174,6 +174,7 @@ You can also check out this [introduction video](https://video.tv.adobe.com/v/22
 * [Scheduling messages](../../sending/using/about-scheduling-messages.md)
 * [Previewing messages](../../sending/using/previewing-messages.md)
 * [Email rendering](../../sending/using/email-rendering.md)
+* [Build personalized emails without the need for HTML](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Createcompellingcontenttailoredtoeveryindividual)
 
 ## Designing an email using existing contents {#designing-an-email-using-existing-contents}
 
