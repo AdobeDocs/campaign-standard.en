@@ -114,3 +114,6 @@ The models that are available for use are:
 * Medical industry: subjectInsightMedical.xml
 * Model to train: subjectlineTraining.xml.
 
+**Related topic:**
+
+* [Optimizing subject lines with Adobe Sensei predictions](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Createcompellingcontenttailoredtoeveryindividual)
