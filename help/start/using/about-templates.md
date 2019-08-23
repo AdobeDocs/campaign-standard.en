@@ -59,7 +59,7 @@ You can create new templates or fragments, and define your own contents. For mor
 
 When editing content with the Email Designer, you can also create content templates by saving your content as fragment or as template. For more on this, see [Saving content as template](../../start/using/about-templates.md##saving-content-as-template) and [Saving content as fragment](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment).
 
-### Email content templates {#email-content-templates}
+### Out-of-the-box email content templates {#email-content-templates}
 
 The out-of-the-box email content templates include eighteen mobile-optimized layouts and four best-in-class responsive templates designed by Behance artists. They correspond to the most current usages such as customer welcome messages, newsletters and reengagement emails, among others. They can easily be customized with your brands' content to ease the process of designing emails from scratch.
 
@@ -72,22 +72,22 @@ The out-of-the-box email content templates include eighteen mobile-optimized lay
 
 ### Creating a content template {#creating-a-content-template}
 
-You can create your own content fragments to use them as needed in one or more emails.
+You can create your own content templates to use them as needed for one or more emails.
 
 1. Go to **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** and click **[!UICONTROL Create]**.
 1. Click the email label to access the **[!UICONTROL Properties]** tab of the Email Designer.
-1. Specify a recognizable label and select the following parameters to find the fragment later in new emails:
+1. Specify a recognizable label and select the following parameters to be able to use this template in emails:
 
-    * Because fragments are only compatible with emails, select **[!UICONTROL Delivery]** from the **[!UICONTROL Content type]** drop-down list.
-    * Select **[!UICONTROL Fragment]** from the **[!UICONTROL HTML type]** drop-down list to be able to use this content as a fragment in your emails.
+    * Select **[!UICONTROL Shared]** or **[!UICONTROL Delivery]** from the **[!UICONTROL Content type]** drop-down list.
+    * Select **[!UICONTROL Template]** from the **[!UICONTROL HTML type]** drop-down list.
 
-   ![](assets/email_designer_createfragment.png)
+   ![](assets/email_designer_create-template.png)
 
-1. If needed, you can set an image that will be used as a thumbnail for the fragment. Select it from the **[!UICONTROL Thumbnail]** tab of the template properties.
+1. If needed, you can set an image that will be used as a thumbnail for the template. Select it from the **[!UICONTROL Thumbnail]** tab of the template properties.
 
-   ![](assets/email_designer_createfragment_thumbnail.png)
+   ![](assets/email_designer_create-template_thumbnail.png)
 
-   This thumbnail will be displayed next to the fragment's label when editing an email.
+   This thumbnail will be displayed in the template list when editing an email.
 
 1. Save your changes to return to the main workspace.
 1. Add a structure component and a content component that you can customize as needed.
