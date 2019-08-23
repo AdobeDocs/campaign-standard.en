@@ -53,17 +53,21 @@ These templates are managed from the **[!UICONTROL Resources]** > **[!UICONTROL 
 
 The HTML content templates are accessible from the **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** screen of the [Advanced menu](../../start/using/interface-description.md#advanced-menu). From there you can manage landing page content templates, email content templates and fragments.
 
+![](assets/content_templates_list.png)
+
 The out-of-the-box content templates are read-only. To edit one of them, you must first duplicate it.
 
 You can create new templates or fragments, and define your own contents. For more on this, see [Creating a content template](../../start/using/about-templates.md#creating-a-content-template) and [Creating a content fragment](../../designing/using/defining-the-email-structure.md#creating-a-content-fragment).
 
-When editing content with the Email Designer, you can also create content templates by saving your content as fragment or as template. For more on this, see [Saving content as template](../../start/using/about-templates.md##saving-content-as-template) and [Saving content as fragment](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment).
+When editing content with the Email Designer, you can also create content templates by saving your content as fragment or template. For more on this, see [Saving content as template](../../start/using/about-templates.md##saving-content-as-template) and [Saving content as fragment](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment).
 
 ### Out-of-the-box email content templates {#email-content-templates}
 
+You can manage HTML contents that are offered in the **[!UICONTROL Templates]** tab of the [Email Designer](../../designing/using/about-email-content-design.md#about-the-email-designer) home page.
+
 The out-of-the-box email content templates include eighteen mobile-optimized layouts and four best-in-class responsive templates designed by Behance artists. They correspond to the most current usages such as customer welcome messages, newsletters and reengagement emails, among others. They can easily be customized with your brands' content to ease the process of designing emails from scratch.
 
-![](assets/template_content.png)
+![](assets/content_templates.png)
 
 **Related topics:**
 
@@ -72,7 +76,9 @@ The out-of-the-box email content templates include eighteen mobile-optimized lay
 
 ### Creating a content template {#creating-a-content-template}
 
-You can create your own content templates to use them as needed for one or more emails.
+You can create your own content templates to use them as many times as needed.
+
+The following example shows how to create an email content template.
 
 1. Go to **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** and click **[!UICONTROL Create]**.
 1. Click the email label to access the **[!UICONTROL Properties]** tab of the Email Designer.
@@ -87,49 +93,38 @@ You can create your own content templates to use them as needed for one or more 
 
    ![](assets/email_designer_create-template_thumbnail.png)
 
-   This thumbnail will be displayed in the template list when editing an email.
+   This thumbnail will be displayed in the **[!UICONTROL Templates]** tab of the [Email Designer](../../designing/using/about-email-content-design.md#about-the-email-designer) home page.
 
-1. Save your changes to return to the main workspace.
-1. Add a structure component and a content component that you can customize as needed.
-1. Once edited, save your fragment.
+1. Close the **[!UICONTROL Properties]** tab to return to the main workspace.
+1. Add structure components and content components that you can customize as needed.
+    >[!NOTE]
+    >
+    > You cannot insert personalization fields or conditional content inside a content template.
+1. Once edited, save your template.
 
-The fragment can now be used in any email built with the Email Designer. It appears under the **[!UICONTROL Fragments]** section of the Palette.
+This template can now be used in any email built with the Email Designer. Select it from the **[!UICONTROL Templates]** tab of the [Email Designer](../../designing/using/about-email-content-design.md#about-the-email-designer) home page.
 
->[!NOTE]
->
->You cannot insert personalization fields inside a fragment unless it is used in an email. To do this, you need to unlock this fragment. See [About fragments](../../designing/using/defining-the-email-structure.md#about-fragments).
+![](assets/content_template_new.png)
 
 ### Saving content as template {#saving-content-as-template}
 
-When editing an email with the Email Designer, you can directly save part of that email as a template.
+When editing an email with the Email Designer, you can directly save the content of that email as a template.
 
->[!CAUTION]
+<!--[!CAUTION]
 >
->You cannot save as template a structure containing personalization fields or dynamic content.///To check///
+>You cannot save as template a structure containing personalization fields or dynamic content.-->
 
-1. When editing an email in the Email Designer, select **[!UICONTROL Save as template]** from the main toolbar.
+1. Select **[!UICONTROL Save as template]** from the Email Designer main toolbar.
 
-   ![](assets/email_designer_save-as-fragment.png)
-
-1. From the workspace, select the structures that will compose the fragment.
-
-    ![](assets/email_designer_save-as-fragment_select.png)
-
-    >[!NOTE]
-    >
-    >You can only select structures that are adjacent to each other.
-
-1. Click **[!UICONTROL Create]**.
+   ![](assets/email_designer_save-as-template.png)
 
 1. Add a label and a description if needed, then click **[!UICONTROL Save]**.
 
-    ![](assets/email_designer_save-as-fragment_popup.png)
+    ![](assets/email_designer_save-as-template_creation.png)
 
 1. To find the template that you just created, go to **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]**.
 
-    ![](assets/email_designer_save-as-fragment_list.png)
+1. To use your new template, select it from the **[!UICONTROL Templates]** tab of the [Email Designer](../../designing/using/about-email-content-design.md#about-the-email-designer) home page.
 
-1. To use your new template, the **[!UICONTROL Templates]** tab of the [Email Designer](../../designing/using/about-email-content-design.md#about-the-email-designer) home page.
-
-![](assets/template_content.png)
+    ![](assets/content_template_new.png)
 
