@@ -51,18 +51,55 @@ These templates are managed from the **[!UICONTROL Resources]** > **[!UICONTROL 
 
 ## Content templates {#content-templates}
 
-The HTML content templates are accessible from the **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** screen of the [Advanced menu](../../start/using/interface-description.md#advanced-menu).
+The HTML content templates are accessible from the **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** screen of the [Advanced menu](../../start/using/interface-description.md#advanced-menu). From there you can manage landing page content templates, email content templates and fragments.
 
-From there you can manage landing page content templates, delivery content templates and fragments.
+The out-of-the-box content templates are read-only. To edit one of them, you must first duplicate it.
 
-* The out-of-the-box landing page and email content templates are read-only. To edit one of them, you must first duplicate it.
-* You can also create new templates and define your own contents.
+You can create new templates or fragments, and define your own contents. For more on this, see [Creating a content template](../../start/using/about-templates.md#creating-a-content-template) and [Creating a content fragment](../../designing/using/defining-the-email-structure.md#creating-a-content-fragment).
 
-### Creating a content template
+When editing content with the Email Designer, you can also create content templates by saving your content as fragment or as template. For more on this, see [Saving content as template](../../start/using/about-templates.md##saving-content-as-template) and [Saving content as fragment](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment).
 
-When editing content with the Email Designer, you can also create content templates by saving your content as fragment or as template. For more on this, see [Saving as fragment](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment) and [Saving as template](../../designing/using/about-templates.md#about-the-email-designer).
+### Email content templates {#email-content-templates}
 
-### Saving content as template
+The out-of-the-box email content templates include eighteen mobile-optimized layouts and four best-in-class responsive templates designed by Behance artists. They correspond to the most current usages such as customer welcome messages, newsletters and reengagement emails, among others. They can easily be customized with your brands' content to ease the process of designing emails from scratch.
+
+![](assets/template_content.png)
+
+**Related topics:**
+
+* Learn how to personalize content templates [in this video](https://helpx.adobe.com/campaign/kt/acs/using/acs-email_content_templates-feature-video-use.html).
+* For more information on editing content, see [About email content design](../../designing/using/about-email-content-design.md).
+
+### Creating a content template {#creating-a-content-template}
+
+You can create your own content fragments to use them as needed in one or more emails.
+
+1. Go to **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** and click **[!UICONTROL Create]**.
+1. Click the email label to access the **[!UICONTROL Properties]** tab of the Email Designer.
+1. Specify a recognizable label and select the following parameters to find the fragment later in new emails:
+
+    * Because fragments are only compatible with emails, select **[!UICONTROL Delivery]** from the **[!UICONTROL Content type]** drop-down list.
+    * Select **[!UICONTROL Fragment]** from the **[!UICONTROL HTML type]** drop-down list to be able to use this content as a fragment in your emails.
+
+   ![](assets/email_designer_createfragment.png)
+
+1. If needed, you can set an image that will be used as a thumbnail for the fragment. Select it from the **[!UICONTROL Thumbnail]** tab of the template properties.
+
+   ![](assets/email_designer_createfragment_thumbnail.png)
+
+   This thumbnail will be displayed next to the fragment's label when editing an email.
+
+1. Save your changes to return to the main workspace.
+1. Add a structure component and a content component that you can customize as needed.
+1. Once edited, save your fragment.
+
+The fragment can now be used in any email built with the Email Designer. It appears under the **[!UICONTROL Fragments]** section of the Palette.
+
+>[!NOTE]
+>
+>You cannot insert personalization fields inside a fragment unless it is used in an email. To do this, you need to unlock this fragment. See [About fragments](../../designing/using/defining-the-email-structure.md#about-fragments).
+
+### Saving content as template {#saving-content-as-template}
 
 When editing an email with the Email Designer, you can directly save part of that email as a template.
 
@@ -95,17 +132,4 @@ When editing an email with the Email Designer, you can directly save part of tha
 1. To use your new template, the **[!UICONTROL Templates]** tab of the [Email Designer](../../designing/using/about-email-content-design.md#about-the-email-designer) home page.
 
 ![](assets/template_content.png)
-
-### Email content templates
-
-You can manage HTML contents that will be offered in the **[!UICONTROL Templates]** tab of the [Email Designer](../../designing/using/about-email-content-design.md#about-the-email-designer) home page.
-
-![](assets/template_content.png)
-
-These templates include eighteen mobile-optimized layouts and four best-in-class responsive templates designed by Behance artists. They correspond to the most current usages such as customer welcome messages, newsletters and reengagement emails, among others. They can easily be customized with your brands' content to ease the process of designing emails from scratch.
-
-**Related topics:**
-
-* Learn how to personalize content templates [in this video](https://helpx.adobe.com/campaign/kt/acs/using/acs-email_content_templates-feature-video-use.html).
-* For more information on editing content, see [About email content design](../../designing/using/about-email-content-design.md).
 
