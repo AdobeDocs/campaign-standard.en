@@ -149,7 +149,7 @@ The column formatting allows you to define the value processing of each column:
     * **[!UICONTROL Insert NULL in the corresponding field]**: authorizes empty values. The value NULL is therefore inserted.
     * **[!UICONTROL Generate an error]**: generates an error if a value is empty.
 
-## Example {#example}
+## Example 1: Updating the database {#example-1-update-the-database}
 
 The load file activity mainly structures the data from a transfer file activity in order to integrate it into the existing data.
 
@@ -167,65 +167,54 @@ The following example shows the result of an automatically downloaded load file 
 
 Once the workflow has started, the data from the uploaded file is extracted and then used to enrich the Adobe Campaign database.
 
-## Example 2 {#sending-proofs-using-additional-data}
+## Example 2: Sending an email with enriched fields {#example-2-email-with-enriched-fields}
 
-This example shows how to send an email containing additional data retrieved from a Load file activity.
+<!--A new example showing how to send an email containing additional data retrieved from a load file activity has been added. [Read more](../../automating/using/load-file.md#example-2-email-with-enriched-fields)-->
+
+The load file activity also enables to send an email enriched with additional data from an external file in the same workflow.
+
+The example below shows how to send an email using additional data retrieved from an external file through the load file activity. In this example, the external file contains a list of profiles with their associated account number. You want to import this data to send an email to each profile with their account number.
+
+![](assets/load_file_workflow.png)
 
 1. Drag and drop a **[!UICONTROL Query]** activity into your workflow and open it to define the main target.
 
    <!--The Query activity is presented in the [Query](../../automating/using/query.md) section.-->
 
-1. Drag and drop a Load file activity to assign some data to a profile. In this example, load a file containing account numbers corresponding to some profiles of the database.
+1. Drag and drop a **[!UICONTROL Load file]** activity to assign some data to a profile. In this example, load a file containing account numbers corresponding to some profiles of the database.
 
-   ![](assets/trap_load_file.png)
+   ![](assets/load_file_activity.png)
 
-1. Drag and drop an **[!UICONTROL Enrichment]** activity into your workflow and link the Load file and Query activities to it.
+1. Drag and drop an **[!UICONTROL Enrichment]** activity into your workflow and link the load file and query activities to it.
 
-   <!--![](assets/trap_test_enrichment.png)-->
+4. In the **[!UICONTROL Advanced relations]** tab of the enrichment activity, select the **[!UICONTROL 0 or 1 cardinality simple link]** and define the fields to be used for reconciliation. Here we use the last name to reconcile the data with the database profiles.
 
-<!--1. Open the Enrichment activity and make sure **[!UICONTROL Query]** is selected as the **[!UICONTROL Primary set]**.
+   ![](assets/load_file_enrichment_relation.png)
 
-   ![](assets/trap_test_enrichment_primary_set.png)-->
-4. In the **[!UICONTROL Advanced relations]** tab of the Enrichment activity, select the **[!UICONTROL 0 or 1 cardinality simple link]** and define the fields to be used for reconciliation.
+6. In the **[!UICONTROL Additional data]** tab, select the elements that you want to use in your email. Here select Account number (column from the file that you retrieved through the load file activity).
 
-   ![](assets/trap_test_enrichment_relation.png)
+   ![](assets/load_file_enrichment_select_element.png)
 
-6. In the **[!UICONTROL Additional data]** tab, select the elements that you want to use in your email. Here select Account number (column from the file that you retrieved through the Load file activity).
-
-   ![](assets/trap_test_enrichment_select_element.png)
-
-   <!--![](assets/trap_test_enrichment_additional_data.png)-->
+   <!--![](assets/load_file_enrichment_additional_data.png)-->
 
    For more on this, see the [Enrichment](../../automating/using/enrichment.md) section.
 
-1. Drag and drop a **[!UICONTROL Segmentation]** activity into your workflow and open it to refine the main target if needed.
+1. Drag and drop a **[!UICONTROL Segmentation]** activity into your workflow and open it to refine the main target.
 
-   ![](assets/trap_test_segmentation.png)
+   ![](assets/load_file_segmentation.png)
 
    For more on this, see the [Segmentation](../../automating/using/segmentation.md) section.
 
-7. Drag and drop an **Email delivery** activity into your workflow and open it.
+7. Drag and drop an **[!UICONTROL Email delivery]** activity into your workflow and open it.
 
    <!--The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.-->
 
-1. Add to your email content personalization fields using the additional data that you defined in the Query activity.
+1. Add a personalization field and select the additional data defined in the enrichment activity (here Account number) from the **[!UICONTROL Additional data (targetData)]** node. This enables to dynamically retrieve the account number of each profile in the email content.
 
-   ![](assets/trap_test_perso_field.png)
+   ![](assets/load_file_perso_field.png)
 
 1. Save the email and start the workflow.
 
-   ![](assets/trap_test_workflow.png)
+The email is sent to the target. Each profile receives the email with their corresponding account number.
 
-<!--1. In the Sending logs of the Email delivery activity, click one of the profile rows.
-
-   ![](assets/trap_test_sending_logs.png)
-
-   You can see on the mirror page that an account number is displayed.
-
-   ![](assets/trap_test_mirror_page.png)
-
-1. Click the **[!UICONTROL Confirm]** button.-->
-
-The email is sent to the target. Each profile receives the email with its corresponding account number.
-
-![](assets/trap_test_mirror_page.png)
+![](assets/load_file_email.png)
