@@ -11,7 +11,7 @@ In some cases, you may need to define for a resource an identification key that 
 
 In this use case, the **Profile** resource has been extended with custom **"CRM ID"** and **"category"** field. We will create an identification key for the Profile resource, that will be made up of these two fields. We will then configure a filter definition, so that we can access the Profile resource using the identification key.
 
-This main steps for this use case are:
+The main steps for this use case are:
 
 1. Configure the identification key for the Profile resource, based on the two fields.
 1. Configure the filter definition, to be able to call the Profile resource using its identification key.
