@@ -96,7 +96,7 @@ Here is the list of the available components in the Email Designer:
 * **[!UICONTROL Divider]** 
 * **[!UICONTROL Html]**
 
-  Use this component to copy-past the different parts of your existing HTML. This enables you to create free modular HTML components.
+  Use this component to copy-paste the different parts of your existing HTML. This enables you to create free modular HTML components.
 
   >[!NOTE]
   >

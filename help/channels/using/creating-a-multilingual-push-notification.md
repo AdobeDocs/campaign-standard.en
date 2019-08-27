@@ -130,4 +130,4 @@ You can now measure the impact of your multilingual push notification delivery o
 
 * [Push notification report](../../reporting/using/push-notification-report.md)
 * [Sending a push notification within a workflow](../../automating/using/push-notification-delivery.md)
-
+* [Reaching multilingual audiences using one workflow](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)

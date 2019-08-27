@@ -24,6 +24,12 @@ This page lists all the new features and documentation updates for each release 
 
 You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-notes.md).
 
+## Documentation updates - August 2019 {#doc-updates-august-2019}
+
+A procedure was added in the workflow troubleshooting section on how to display SQL queries in the Log tab. [Read more](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
+
+A new help article has been added, with information related to subdomains and certificates management within the Control Panel. [Read more](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html)
+
 ## Release 19.3 - July 2019 {#release-19-3---july-2019}
 
 ### New capabilities included in the release {#new-capabilities-included-in-the-release-19}

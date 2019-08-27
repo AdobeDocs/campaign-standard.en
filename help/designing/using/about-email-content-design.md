@@ -122,7 +122,6 @@ For more on converting an existing email into an Email Designer-compatible email
 ### Email Designer limitations {#email-designer-limitations}
 
 * You cannot use personalization fields in a fragment. For more on fragments, see [this section](../../designing/using/defining-the-email-structure.md#about-fragments).
-* You cannot save directly as a fragment some content of an email that you are editing within the Email Designer. You need to copy-paste the HTML corresponding to that content into a new fragment. For more on this, see [Saving content as a fragment](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment).
 * When editing styles, only the web fonts officially supported by most email clients are available.
 * Styles cannot be saved as a theme for future reuse. However, the CSS style can be saved in a content template or in an email. For more on styles, see [this section](../../designing/using/editing-email-styles.md).
 
@@ -142,9 +141,11 @@ When it comes to fragments, please note the following:
 
 * If you have multiple fragments, you have to update each fragment that you want to use in an email content.
 
-* To avoid impact on your current email messages, as some of them may be at preparation stage or in a specific campaign where you do not want alteration, you can choose not to update some fragments.
+* To avoid impact on the current email messages that are not prepared yet, you can choose not to update some fragments.
 
 * You can still send emails where a fragment that is not updated is already used, but that fragment is not editable.
+
+* Updating fragments used in emails that are already prepared has no impact on those emails.
 
 ## Designing an email content from scratch {#designing-an-email-content-from-scratch}
 
@@ -173,6 +174,7 @@ You can also check out this [introduction video](https://video.tv.adobe.com/v/22
 * [Scheduling messages](../../sending/using/about-scheduling-messages.md)
 * [Previewing messages](../../sending/using/previewing-messages.md)
 * [Email rendering](../../sending/using/email-rendering.md)
+* [Build personalized emails without the need for HTML](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Createcompellingcontenttailoredtoeveryindividual)
 
 ## Designing an email using existing contents {#designing-an-email-using-existing-contents}
 

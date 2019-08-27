@@ -18,7 +18,7 @@ snippet: y
 
 # SMS report{#sms-report}
 
-The **SMS **report provides details about SMS deliveries, such as delivered and bounce rates.
+The **SMS** report provides details about SMS deliveries, such as delivered and bounce rates.
 
 ![](assets/dynamic_report_sms.png)
 
