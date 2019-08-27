@@ -32,7 +32,7 @@ A test profile contains fictitious contact information, or contact information c
   The **Email rendering** use is read-only. Test profiles with this use are only available out-of-the-box in Adobe Campaign.
 
 * As a **Trap**: the message is sent to the test profile just as it is sent to the main target, as a means to identify whether your client file is being used fraudulently.
-* To **Preview** messages: a test profile can be selected when previewing a message to test the personalization elements.
+* To **Preview** messages: a test profile can be selected when previewing a message to test the personalization elements. See [Previewing messages](/help/sending/using/previewing-messages.md).
 
 ![](assets/test_profile.png)
 
@@ -125,6 +125,12 @@ You have to send as many proofs as necessary until you have finalized the conten
 **Related topic:**
 
 [Sending a test, preparing and sending an email](https://helpx.adobe.com/campaign/kt/acs/using/acs-sending-test-preparing-sending-email-feature-video-use.html) video
+
+## About trap test profiles
+
+Traps are historically used for direct mail. Mail is sent to a provider for sending, so including a trap tes profile address in the audience enables to detect if the client file was sent to another provider.
+For the other channels, you can add trap test profiles to your maing target in order to check that your message was successfully sent, to get an exact copy of your email and to know when it was sent and received.
+For more on this, see [Root link](.../.../channels/using/defining-the-direct-mail-audience.md).
 
 ## Using traps to test sending additional data {#sending-proofs-using-additional-data}
 
