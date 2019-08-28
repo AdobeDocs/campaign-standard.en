@@ -20,58 +20,58 @@ snippet: y
 
 You can send an email to customers and then an sms to those who did not open the mail.
 
-1. In **Marketing Activities**, click **Create** and select **Workflow**.
-1. Select **New Workflow** as workflow type and click **Next**.
-1. Enter properties of the workflow and click **Create**.
+1. In **[!UICONTROL Marketing Activities]**, click **[!UICONTROL Create]** and select **[!UICONTROL Workflow]**.
+1. Select **[!UICONTROL New Workflow]** as workflow type and click **[!UICONTROL Next]**.
+1. Enter the properties of the workflow and click **[!UICONTROL Create]**.
 
 ## Creating a query activity{#creating-a-query-activity}
 
-1. In **Activities** > **Targeting**, drag and drop a **Query activity** ![](assets/query.png).
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, drag and drop a **[!UICONTROL Query activity]** ![](assets/query.png).
 1. Double-click the activity.
-1. In **Shortcuts**, drag and drop **Profiles** and select **email** with the operator **is not empty**.
-1. In **Shortcuts**, drag and drop **Profiles** and select **no longer contact by email** with the value **no**.
-1. Click **Confirm**.
+1. In **[!UICONTROL Shortcuts]**, drag and drop **[!UICONTROL Profiles]** and select **[!UICONTROL email]** with the operator **[!UICONTROL is not empty]**.
+1. In **[!UICONTROL Shortcuts]**, drag and drop **[!UICONTROL Profiles]** and select **[!UICONTROL no longer contact by email]** with the value **[!UICONTROL no ]**.
+1. Click **[!UICONTROL Confirm]**.
 
 ## Creating an email delivery{#creating-an-email-delivery}
 
-1. Drag and drop an email delivery after each segment.
+1. Drag and drop an **[!UICONTROL Email delivery]**email delivery after each segment.
 	1. Click the activity and select ![](assets/edit_darkgrey-24px.png) to edit.
-	1. Select **Simple email** and click **Next**.
-	1. Select **Add an outbound transition without the population** and click **Next**.
-	1. Select an email template and click **Next**.
-	1. Enter the email properties and click **Next**.
-	1. Rename the email with **email offer**.
-  1. To create the layout of your email, click on **Email Designer**.
+	1. Select **[!UICONTROL Simple email]** and click **[!UICONTROL Next]**.
+	1. Select **[!UICONTROL Add an outbound transition without the population]** and click **[!UICONTROL Next]**.
+	1. Select an email template and click **[!UICONTROL Next]**.
+	1. Enter the email properties and click **[!UICONTROL Next]**.
+	1. Rename the email **email offer**.
+  1. To create the layout of your email, click on **[!UICONTROL Using the Email Designer]**.
 	1. Insert elements or select an existing template.
 	1. Personalize your email with offers specific to each location.For more information, refer to [designing an email](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch).
-1. Click **Preview** to check your layout.
-1. Click **Save**.
+1. Click **[!UICONTROL Preview]** to check your layout.
+1. Click **[!UICONTROL Save]**.
 
 ## Targeting non-openers in a query activity{#targeting-non-openers-in-a-query-activity}
 
-1. In **Activities** > **Execution**, drag and drop a **Wait activity** ![](assets/wait.png).
-1. In **Duration**, click on ![](assets/duration-icon.png) and select one day.
-1. In **Activities** > **Targeting**, drag and drop a **Query activity** ![](assets/query.png).
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, drag and drop a **[!UICONTROL Wait activity]** ![](assets/wait.png).
+1. In **[!UICONTROL Duration]**, click on ![](assets/duration-icon.png) and select one day.
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, drag and drop a **[!UICONTROL Query activity]** ![](assets/query.png).
 1. Double-click the activity.
-1. In **Shortcuts**, drag and drop **Tracking Logs** and with the operator **exists**.
-1. In **Shortcuts** > **Delivery**, drag and drop **delivery** with the operator **is equal to** and select the delivery as value.
-1. In **Shortcuts**> **Delivery**, drag and drop **type** and check **Open** as value.
-1. Select the operator between rules as **except**.
-1. Click **Confirm**.
+1. In **[!UICONTROL Shortcuts]**, drag and drop **[!UICONTROL Tracking Logs]** and with the operator **[!UICONTROL exists]**.
+1. In **[!UICONTROL Shortcuts]**> **[!UICONTROL Delivery]**, drag and drop **[!UICONTROL delivery]** with the operator **[!UICONTROL is equal to]** and select the delivery as value.
+1. In **[!UICONTROL Shortcuts]**> **[!UICONTROL Delivery]**, drag and drop **[!UICONTROL type]** and check **[!UICONTROL Open]** as value.
+1. Select the operator between rules as **[!UICONTROL except]**.
+1. Click **[!UICONTROL Confirm]**.
 
 ## Creating a sms delivery{#creating-a-sms-delivery}
 
 1. Drag and drop an sms delivery after each segment.
 	1. Click the activity and select ![](assets/edit_darkgrey-24px.png) to edit.
-	1. Select **Simple sms** and click **Next**.
-	1. Select an sms template and click **Next**.
-	1. Enter the sms properties and click **Next**.
-  1. To create the layout of your sms, click on **Email Designer**.
+	1. Select **[!UICONTROL Simple sms]** and click **[!UICONTROL Next]**.
+	1. Select an sms template and click **[!UICONTROL Next]**.
+	1. Enter the sms properties and click **[!UICONTROL Next]**.
+  1. To create the layout of your sms, click on **[!UICONTROL Email Designer]**.
 	1. Insert elements or select an existing template.
 	1. Personalize your sms with offers specific to each location.
 	For more information, refer to [designing an sms](../../channels/using/creating-an-sms-message.md).
-1. Click **Preview** to check your layout.
-1. Click **Save**.
+1. Click **[!UICONTROL Preview]** to check your layout.
+1. Click **[!UICONTROL Save]**.
 
 **Related topics:**
 

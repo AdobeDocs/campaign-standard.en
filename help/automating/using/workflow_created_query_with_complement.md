@@ -20,48 +20,48 @@ snippet: y
 
 You can send an email to customers: one for clients created less than a year ago, one for clients created more than a year ago.
 
-1. In **Marketing Activities**, click **Create** and select **Workflow**.
-1. Select **New Workflow** as workflow type and click **Next**.
-1. Enter properties of the workflow and click **Create**.
+1. In **[!UICONTROL Marketing Activities]**, click **[!UICONTROL Create]** and select **[!UICONTROL Workflow]**.
+1. Select **[!UICONTROL New Workflow]** as workflow type and click **[!UICONTROL Next]**.
+1. Enter properties of the workflow and click **[!UICONTROL Create]**.
 
 ## Create a Query activity {#create-a-query-activity}
 
-1. In **Activities** > **Targeting**, drag and drop a **Query activity** ![](assets/query.png).
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, drag and drop a **[!UICONTROL Query activity]** ![](assets/query.png).
 1. Double-click the activity.
-1. In **Shortcuts**, drag and drop **Profiles** and select **email** with the operator **is not empty**.
-1. In **Shortcuts**, drag and drop **Profiles** and select **no longer contact by email** with the value **no**.
-1. Click **Confirm**.
+1. In **[!UICONTROL Shortcuts]**, drag and drop **[!UICONTROL Profiles]** and select **[!UICONTROL email]** with the operator **[!UICONTROL is not empty]**.
+1. In **[!UICONTROL Shortcuts]**, drag and drop **[!UICONTROL Profiles]** and select **[!UICONTROL no longer contact by email]** with the value **[!UICONTROL no]**.
+1. Click **[!UICONTROL Confirm]**.
 
 ## Create a Segmentation activity {#create-a-segmentation-activity}
 
-1. In **Activities** > **Targeting**, drag and drop a **Segmentation** activity and double-click it.
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, drag and drop a **[!UICONTROL Segmentation]** activity and double-click it.
 1. Hover over the segment then click on ![](assets/edit_darkgrey-24px.png) to target customers added this year in the database. 
-1. Drag and drop **Profiles** and select **Created** with the filter type **Relative**.
-1. Change the **Level of precision** to **Year** and select **This year**.
+1. Drag and drop **[!UICONTROL Profiles]** and select **[!UICONTROL Created]** with the filter type **[!UICONTROL Relative]**.
+1. Change the **[!UICONTROL Level of precision]** to **[!UICONTROL Year]** and select **[!UICONTROL This year]**.
 
 	>[!NOTE]
 	>
-	>To observe the structure of the rule, click on **Advanced Mode**.
+	>To observe the structure of the rule, click on **[!UICONTROL Advanced Mode]**.
 
-1. Click **Confirm** twice.
-1. In **Advanced Options**, check **Generate complement** to create a segment targeting the remaining recipients.
-1. Click **Confirm**.
-1. Click **Save**.
+1. Click **[!UICONTROL Confirm]** twice.
+1. In **[!UICONTROL Advanced Options]**, check **[!UICONTROL Generate complement]** to create a segment targeting the remaining recipients.
+1. Click **[!UICONTROL Confirm]**.
+1. Click **[!UICONTROL Save]**.
 
 ## Creating an Email delivery {#create-an-email-delivery}
 
-1. In **Activities** > **Channels**, drag and drop an email delivery after each segment.
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, drag and drop an email delivery after each segment.
 	1. Click the activity and select ![](assets/edit_darkgrey-24px.png) to edit.
-	1. Select **Single send email** and click **Next**.
-	1. Select an email template and click **Next**.
-	1. Enter the email properties and click **Next**.
-  1. To create the layout of your email, click on **Email Designer**.
+	1. Select **[!UICONTROL Single send email]** and click **[!UICONTROL Next]**.
+	1. Select an email template and click **[!UICONTROL Next]**.
+	1. Enter the email properties and click **[!UICONTROL Next]**.
+  1. To create the layout of your email, click on **[!UICONTROL Email Designer]**.
 	1. Insert elements or select an existing template.
 	1. Personalize your email with offers specific to each delivery.
 	For more information, refer to [designing an email](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch).
 
-1. Click **Preview** to check your layout.
-1. Click **Save**.
+1. Click **[!UICONTROL Preview]** to check your layout.
+1. Click **[!UICONTROL Save]**.
 
 **Related topics:**
 
