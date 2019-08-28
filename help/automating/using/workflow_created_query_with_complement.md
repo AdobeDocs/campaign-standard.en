@@ -58,6 +58,7 @@ You can send an email to customers: one for clients created less than a year ago
 1. To create the layout of your email, click on **[!UICONTROL Email Designer]**.
 1. Insert elements or select an existing template.
 1. Personalize your email with offers specific to each delivery.
+
 For more information, refer to [designing an email](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch).
 
 1. Click **[!UICONTROL Preview]** to check your layout.

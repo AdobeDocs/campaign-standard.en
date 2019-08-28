@@ -29,15 +29,15 @@ You can send an offer via email on the anniversary of the customer's profile cre
 1. In **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, drag and drop a **[!UICONTROL Scheduler activity]** ![](assets/scheduler_icon.png).
 1. Double-click the activity.
 1. Configure the execution of your delivery.
-	1. In **[!UICONTROL Execution frequency]**, select **[!UICONTROL Daily]**.
-	1. Select a **[!UICONTROL Time]** and the **[!UICONTROL Repetition frequency]** of execution for your workflow.
-	1. Select a **[!UICONTROL Start]** date and **[!UICONTROL Expiration]** for your workflow.
+1. In **[!UICONTROL Execution frequency]**, select **[!UICONTROL Daily]**.
+1. Select a **[!UICONTROL Time]** and the **[!UICONTROL Repetition frequency]** of execution for your workflow.
+1. Select a **[!UICONTROL Start]** date and **[!UICONTROL Expiration]** for your workflow.
 
-		>[!NOTE]
-		>
-		>To start your workflow at a specific time zone, in the **[!UICONTROL Execution options]** tab, set up the time zone for your scheduler in the **[!UICONTROL Time zone]** field.
+>[!NOTE]
+>
+>To start your workflow at a specific time zone, in the **[!UICONTROL Execution options]** tab, set up the time zone for your scheduler in the **[!UICONTROL Time zone]** field.
 
-		![](assets/time_zone.png)
+![](assets/time_zone.png)
 
 1. Confirm your activity and save your workflow.
 
@@ -71,9 +71,9 @@ You should end up with:
 1. On the **[!UICONTROL Query]** editor, select the first query and duplicate it. 
 1. Open the duplicate.
 1. Replace **[!UICONTROL Day]** by **[!UICONTROL Month]** in the query.
-	You should end up with this:  
+You should end up with this:  
 
-	``` Month(@created) = Month(GetDate()) ```
+``` Month(@created) = Month(GetDate()) ```
 
 1. Click **[!UICONTROL Confirm]**.
 
