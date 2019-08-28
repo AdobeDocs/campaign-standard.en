@@ -287,11 +287,11 @@ user-guide-title: Adobe Campaign Standard Help
        + [Managing packages](automating/using/managing-packages.md)
        + [Exporting lists](automating/using/exporting-lists.md)
   + Use cases: Workflows {#workflow-use-case}
-       + [Creating deliveries with a complement](automating/using/workflow_created_query_with_complement.md)
-       + [Creating deliveries on creation date](automating/using/workflow_creation_date_query.md)
-       + [Creating a weekly delivery](automating/using/workflow_weekly_offer.md)
-       + [Creating a segmentation on location](automating/using/workflow_segmentation_location.md)
-       + [Retargeting non-openers](automating/using/workflow_cross_channel_retargeting.md)
+       + [Creating deliveries with a complement](automating/using/workflow-created-query-with-complement.md)
+       + [Creating deliveries on creation date](automating/using/workflow-creation-date-query.md)
+       + [Creating a weekly delivery](automating/using/workflow-weekly-offer.md)
+       + [Creating a segmentation on location](automating/using/workflow-segmentation-location.md)
+       + [Retargeting non-openers](automating/using/workflow-cross-channel-retargeting.md)
 + Developing {#developing}
   + About custom resources {#about-custom-resources}
        + [Data model concepts](developing/using/data-model-concepts.md)

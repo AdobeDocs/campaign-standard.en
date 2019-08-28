@@ -18,7 +18,7 @@ snippet: y
 
 # Worflow use case: Create an email delivery every Tuesday{#creating-email-every-tuesday}
 
-You can send an email every Tuesday to all the customers for Special Offers.[!UICONTROL ]
+You can send an email every Tuesday to all the customers for Special Offers.
 
 1. In **[!UICONTROL Marketing Activities]**, click **[!UICONTROL Create]** and select **[!UICONTROL Workflow]**.
 1. Select **[!UICONTROL New Workflow]** as workflow type and click **[!UICONTROL Next]**.
