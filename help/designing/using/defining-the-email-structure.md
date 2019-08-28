@@ -183,6 +183,7 @@ You can create your own content fragments to use them as needed in one or more e
     >[!NOTE]
     >
     >Fragments cannot include personalization fields, dynamic content or another fragment.
+    >The [mobile view](../../designing/using/about-email-content-design.md#switching-to-mobile-view) is not available in fragments.
 
 1. Once edited, save your fragment.
 
@@ -190,7 +191,7 @@ This fragment can now be used in any email built with the Email Designer. It app
 
 >[!NOTE]
 >
->You cannot insert personalization fields inside a fragment unless it is used in an email. To do this, you need to unlock this fragment. See [About fragments](../../designing/using/defining-the-email-structure.md#about-fragments).
+>You cannot insert personalization fields inside a fragment unless it is used in an email and unlocked. See [About fragments](../../designing/using/defining-the-email-structure.md#about-fragments).
 
 ### Saving content as a fragment {#saving-content-as-a-fragment}
 
@@ -226,6 +227,9 @@ When editing an email with the Email Designer, you can directly save part of tha
 1. To use the new fragment, open any email content and select it from the fragment list.
 
 ![](assets/email_designer_save-as-fragment_in-new-email.png)
+
+>[!NOTE]
+>The [mobile view](../../designing/using/about-email-content-design.md#switching-to-mobile-view) is not available in fragments. If you want to edit an email mobile view, do it before saving your content as a fragment.
 
 <!--You need to copy-paste the HTML corresponding to the section that you want to save into a new fragment.
 
