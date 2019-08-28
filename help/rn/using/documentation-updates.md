@@ -30,9 +30,9 @@ A procedure was added in the workflow troubleshooting section on how to display 
 
 A new help article has been added, with information related to subdomains and certificates management within the Control Panel. [Read more](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html)
 
-<!--The section describing the content templates and fragments has been updated. [Read more](../../start/using/about-templates.md#content-templates)
+The section describing the content templates and fragments has been updated. [Read more](../../start/using/about-templates.md#content-templates)
 
-A new section on how to save email content as a template in the Email Designer has been added. [Read more](../../start/using/about-templates.md#saving-content-as-template)-->
+A new section on how to save email content as a template in the Email Designer has been added. [Read more](../../start/using/about-templates.md#saving-content-as-template)
 
 ## Release 19.3 - July 2019 {#release-19-3---july-2019}
 
