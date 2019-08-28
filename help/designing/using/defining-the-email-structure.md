@@ -164,10 +164,10 @@ You can create your own content fragments to use them as needed in one or more e
 
 1. Go to **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** and click **[!UICONTROL Create]**.
 1. Click the email label to access the **[!UICONTROL Properties]** tab of the Email Designer.
-1. Specify a recognizable label and select the following parameters to find the fragment later in new emails:
+1. Specify a recognizable label and select the following parameters to find the fragment when editing email content:
 
     * Because fragments are only compatible with emails, select **[!UICONTROL Delivery]** from the **[!UICONTROL Content type]** drop-down list.
-    * Select **[!UICONTROL Fragment]** from the **[!UICONTROL HTML type]** drop-down list to be able to use this content as a fragment in your emails.
+    * Select **[!UICONTROL Fragment]** from the **[!UICONTROL HTML type]** drop-down list to be able to use this content as a fragment.
 
    ![](assets/email_designer_createfragment.png)
 
@@ -177,23 +177,29 @@ You can create your own content fragments to use them as needed in one or more e
 
    This thumbnail will be displayed next to the fragment's label when editing an email.
 
-1. Save your changes to return to the main workspace.
-1. Add a structure component and a content component that you can customize as needed.
+1. Close the **[!UICONTROL Properties]** tab to return to the main workspace.
+1. Add structure components and content components that you can customize as needed.
+
+    >[!NOTE]
+    >
+    >Fragments cannot include personalization fields, dynamic content or another fragment.
+    >The [mobile view](../../designing/using/about-email-content-design.md#switching-to-mobile-view) is not available in fragments.
+
 1. Once edited, save your fragment.
 
-The fragment can now be used in any email built with the Email Designer. It appears under the **[!UICONTROL Fragments]** section of the Palette.
+This fragment can now be used in any email built with the Email Designer. It appears under the **[!UICONTROL Fragments]** section of the Palette.
 
 >[!NOTE]
 >
->You cannot insert personalization fields inside a fragment unless it is used in an email. To do this, you need to unlock this fragment. See [About fragments](../../designing/using/defining-the-email-structure.md#about-fragments).
+>You cannot insert personalization fields inside a fragment unless it is used in an email and unlocked. See [About fragments](../../designing/using/defining-the-email-structure.md#about-fragments).
 
 ### Saving content as a fragment {#saving-content-as-a-fragment}
 
 When editing an email with the Email Designer, you can directly save part of that email as a fragment.
 
->[!CAUTION]
->
->You cannot save as fragment a structure containing personalization fields, dynamic content or another fragment.
+* You cannot save as fragment a structure containing personalization fields, dynamic content or another fragment.
+* You can only select structures that are adjacent to each other.
+<!--* You cannot select an empty structure.-->
 
 1. When editing an email in the Email Designer, select **[!UICONTROL Save as fragment]** from the main toolbar.
 
@@ -205,7 +211,8 @@ When editing an email with the Email Designer, you can directly save part of tha
 
     >[!NOTE]
     >
-    >You can only select structures that are adjacent to each other.
+    >Make sure you select structures that are adjacent to each other and that do not include personalization fields, dynamic content or another fragment.
+    <!--You cannot select an empty structure.-->
 
 1. Click **[!UICONTROL Create]**.
 
@@ -217,9 +224,12 @@ When editing an email with the Email Designer, you can directly save part of tha
 
     ![](assets/email_designer_save-as-fragment_list.png)
 
-1. To use your new fragment, open any email content and select it from the fragment list.
+1. To use the new fragment, open any email content and select it from the fragment list.
 
 ![](assets/email_designer_save-as-fragment_in-new-email.png)
+
+>[!NOTE]
+>The [mobile view](../../designing/using/about-email-content-design.md#switching-to-mobile-view) is not available in fragments. If you want to edit an email mobile view, do it before saving your content as a fragment.
 
 <!--You need to copy-paste the HTML corresponding to the section that you want to save into a new fragment.
 
