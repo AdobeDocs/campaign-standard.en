@@ -28,7 +28,7 @@ For example, in the case of an email template, you can pre-fill the HTML content
 
 ![](assets/template_1.png)
 
-For each type of marketing activity, one or several out-of-the-box templates are available. They offer minimal configuration for each type of marketing activity. These out-of-the-box templates cannot be modified or deleted.
+For each type of marketing activity, one or several out-of-the-box templates are available with minimal configuration. These out-of-the-box templates cannot be modified or deleted.
 
 Templates are available for the following marketing activities:
 
