@@ -35,15 +35,15 @@ You can send an email to customers and then an sms to those who did not open the
 ## Creating an email delivery{#creating-an-email-delivery}
 
 1. Drag and drop an **[!UICONTROL Email delivery]**email delivery after each segment.
-	1. Click the activity and select ![](assets/edit_darkgrey-24px.png) to edit.
-	1. Select **[!UICONTROL Simple email]** and click **[!UICONTROL Next]**.
-	1. Select **[!UICONTROL Add an outbound transition without the population]** and click **[!UICONTROL Next]**.
-	1. Select an email template and click **[!UICONTROL Next]**.
-	1. Enter the email properties and click **[!UICONTROL Next]**.
-	1. Rename the email **email offer**.
-  1. To create the layout of your email, click on **[!UICONTROL Using the Email Designer]**.
-	1. Insert elements or select an existing template.
-	1. Personalize your email with offers specific to each location.For more information, refer to [designing an email](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch).
+1. Click the activity and select ![](assets/edit_darkgrey-24px.png) to edit.
+1. Select **[!UICONTROL Simple email]** and click **[!UICONTROL Next]**.
+1. Select **[!UICONTROL Add an outbound transition without the population]** and click **[!UICONTROL Next]**.
+1. Select an email template and click **[!UICONTROL Next]**.
+1. Enter the email properties and click **[!UICONTROL Next]**.
+1. Rename the email **email offer**.
+1. To create the layout of your email, click on **[!UICONTROL Using the Email Designer]**.
+1. Insert elements or select an existing template.
+1. Personalize your email with offers specific to each location.For more information, refer to [designing an email](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch).
 1. Click **[!UICONTROL Preview]** to check your layout.
 1. Click **[!UICONTROL Save]**.
 
@@ -62,14 +62,14 @@ You can send an email to customers and then an sms to those who did not open the
 ## Creating a sms delivery{#creating-a-sms-delivery}
 
 1. Drag and drop an sms delivery after each segment.
-	1. Click the activity and select ![](assets/edit_darkgrey-24px.png) to edit.
-	1. Select **[!UICONTROL Simple sms]** and click **[!UICONTROL Next]**.
-	1. Select an sms template and click **[!UICONTROL Next]**.
-	1. Enter the sms properties and click **[!UICONTROL Next]**.
-  1. To create the layout of your sms, click on **[!UICONTROL Email Designer]**.
-	1. Insert elements or select an existing template.
-	1. Personalize your sms with offers specific to each location.
-	For more information, refer to [designing an sms](../../channels/using/creating-an-sms-message.md).
+1. Click the activity and select ![](assets/edit_darkgrey-24px.png) to edit.
+1. Select **[!UICONTROL Simple sms]** and click **[!UICONTROL Next]**.
+1. Select an sms template and click **[!UICONTROL Next]**.
+1. Enter the sms properties and click **[!UICONTROL Next]**.
+1. To create the layout of your sms, click on **[!UICONTROL Email Designer]**.
+1. Insert elements or select an existing template.
+1. Personalize your sms with offers specific to each location.
+For more information, refer to [designing an sms](../../channels/using/creating-an-sms-message.md).
 1. Click **[!UICONTROL Preview]** to check your layout.
 1. Click **[!UICONTROL Save]**.
 

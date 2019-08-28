@@ -39,9 +39,9 @@ You can send an email to customers: one for clients created less than a year ago
 1. Drag and drop **[!UICONTROL Profiles]** and select **[!UICONTROL Created]** with the filter type **[!UICONTROL Relative]**.
 1. Change the **[!UICONTROL Level of precision]** to **[!UICONTROL Year]** and select **[!UICONTROL This year]**.
 
-	>[!NOTE]
-	>
-	>To observe the structure of the rule, click on **[!UICONTROL Advanced Mode]**.
+>[!NOTE]
+>
+>To observe the structure of the rule, click on **[!UICONTROL Advanced Mode]**.
 
 1. Click **[!UICONTROL Confirm]** twice.
 1. In **[!UICONTROL Advanced Options]**, check **[!UICONTROL Generate complement]** to create a segment targeting the remaining recipients.
@@ -51,14 +51,14 @@ You can send an email to customers: one for clients created less than a year ago
 ## Creating an Email delivery {#create-an-email-delivery}
 
 1. In **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, drag and drop an email delivery after each segment.
-	1. Click the activity and select ![](assets/edit_darkgrey-24px.png) to edit.
-	1. Select **[!UICONTROL Single send email]** and click **[!UICONTROL Next]**.
-	1. Select an email template and click **[!UICONTROL Next]**.
-	1. Enter the email properties and click **[!UICONTROL Next]**.
-  1. To create the layout of your email, click on **[!UICONTROL Email Designer]**.
-	1. Insert elements or select an existing template.
-	1. Personalize your email with offers specific to each delivery.
-	For more information, refer to [designing an email](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch).
+1. Click the activity and select ![](assets/edit_darkgrey-24px.png) to edit.
+1. Select **[!UICONTROL Single send email]** and click **[!UICONTROL Next]**.
+1. Select an email template and click **[!UICONTROL Next]**.
+1. Enter the email properties and click **[!UICONTROL Next]**.
+1. To create the layout of your email, click on **[!UICONTROL Email Designer]**.
+1. Insert elements or select an existing template.
+1. Personalize your email with offers specific to each delivery.
+For more information, refer to [designing an email](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch).
 
 1. Click **[!UICONTROL Preview]** to check your layout.
 1. Click **[!UICONTROL Save]**.
