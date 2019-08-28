@@ -64,7 +64,7 @@ You should end up with:
 
 ![](assets/day_creation_query.png)
 
- Click **[!UICONTROL Confirm]**.
+Click **[!UICONTROL Confirm]**.
 
 ### Retriving profiles created on the same month as the month of execution{#retriving-profiles-created-on-the-same-month}
 
