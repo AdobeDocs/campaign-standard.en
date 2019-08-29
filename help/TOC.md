@@ -108,6 +108,16 @@ user-guide-title: Adobe Campaign Standard Help
   + About content design {#about-content-design}
        + [Designing content in Adobe Campaign](designing/using/designing-content-in-adobe-campaign.md)
        + [Content design best practices](designing/using/content-design-best-practices.md)
+  + Building email content {#building-email-content}
+      + [Quick Start](designing/using/quick-start.md)
+      + [Overview](designing/using/overview.md)
+      + [Defining a subject line](designing/using/subject-line.md)
+      + [Designing emails from scratch](designing/using/designing-from-scratch.md)
+      + [Designing emails using existing content](designing/using/using-existing-content.md)
+      + [Designing emails through Adobe Campaign integrations](designing/using/using-integrations.md)
+      + [Managing styles](designing/using/styles.md)
+      + [Managing images](designing/using/images.md)
+      + [Managing links](designing/using/links.md)
   + Editing email content {#editing-email-content}
        + [About email content design](designing/using/about-email-content-design.md)
        + [Defining the email structure](designing/using/defining-the-email-structure.md)
