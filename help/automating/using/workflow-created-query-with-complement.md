@@ -38,15 +38,14 @@ You can send an email to customers: one for clients created less than a year ago
 1. Hover over the segment then click on ![](assets/edit_darkgrey-24px.png) to target customers added this year in the database. 
 1. Drag and drop **[!UICONTROL Profiles]** and select **[!UICONTROL Created]** with the filter type **[!UICONTROL Relative]**.
 1. Change the **[!UICONTROL Level of precision]** to **[!UICONTROL Year]** and select **[!UICONTROL This year]**.
-
->[!NOTE]
->
->To observe the structure of the rule, click on **[!UICONTROL Advanced Mode]**.
-
 1. Click **[!UICONTROL Confirm]** twice.
 1. In **[!UICONTROL Advanced Options]**, check **[!UICONTROL Generate complement]** to create a segment targeting the remaining recipients.
 1. Click **[!UICONTROL Confirm]**.
 1. Click **[!UICONTROL Save]**.
+
+>[!NOTE]
+>
+>To observe the structure of the rule, click on **[!UICONTROL Advanced Mode]**.
 
 ## Creating an Email delivery {#create-an-email-delivery}
 
@@ -58,11 +57,10 @@ You can send an email to customers: one for clients created less than a year ago
 1. To create the layout of your email, click on **[!UICONTROL Email Designer]**.
 1. Insert elements or select an existing template.
 1. Personalize your email with offers specific to each delivery.
-
-For more information, refer to [designing an email](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch).
-
 1. Click **[!UICONTROL Preview]** to check your layout.
 1. Click **[!UICONTROL Save]**.
+
+For more information, refer to [designing an email](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch).
 
 **Related topics:**
 
