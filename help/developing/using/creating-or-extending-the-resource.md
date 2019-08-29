@@ -43,7 +43,7 @@ To create or extend a resource:
 
       >[!NOTE]
       >
-      >We recommand using 30 characters maximum.
+      >We recommend using 30 characters maximum.
 
     * **[!UICONTROL Extend an existing resource]**: Select the resource you want to extend.
     
