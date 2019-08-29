@@ -122,7 +122,6 @@ For more on converting an existing email into an Email Designer-compatible email
 ### Email Designer limitations {#email-designer-limitations}
 
 * You cannot use personalization fields in a fragment. For more on fragments, see [this section](../../designing/using/defining-the-email-structure.md#about-fragments).
-* You cannot save directly as a fragment some content of an email that you are editing within the Email Designer. You need to copy-paste the HTML corresponding to that content into a new fragment. For more on this, see [Saving content as a fragment](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment).
 * When editing styles, only the web fonts officially supported by most email clients are available.
 * Styles cannot be saved as a theme for future reuse. However, the CSS style can be saved in a content template or in an email. For more on styles, see [this section](../../designing/using/editing-email-styles.md).
 
@@ -130,7 +129,7 @@ For more on converting an existing email into an Email Designer-compatible email
 
 The Email Designer is under continuous improvement. If you created an email content from scratch, from an out-of-the-box template or if you created fragments, you may get the following update message the next time you open your content:
 
-![](assets/email_designer_fragment-patch-message.png)
+![](assets/email_designer_fragment_patch_message.png)
 
 Adobe recommends updating your content to the latest version to avoid problems such as CSS collision issues. Click **[!UICONTROL Update now]**.
 
@@ -142,9 +141,11 @@ When it comes to fragments, please note the following:
 
 * If you have multiple fragments, you have to update each fragment that you want to use in an email content.
 
-* To avoid impact on your current email messages, as some of them may be at preparation stage or in a specific campaign where you do not want alteration, you can choose not to update some fragments.
+* To avoid impact on the current email messages that are not prepared yet, you can choose not to update some fragments.
 
 * You can still send emails where a fragment that is not updated is already used, but that fragment is not editable.
+
+* Updating fragments used in emails that are already prepared has no impact on those emails.
 
 ## Designing an email content from scratch {#designing-an-email-content-from-scratch}
 
@@ -173,12 +174,13 @@ You can also check out this [introduction video](https://video.tv.adobe.com/v/22
 * [Scheduling messages](../../sending/using/about-scheduling-messages.md)
 * [Previewing messages](../../sending/using/previewing-messages.md)
 * [Email rendering](../../sending/using/email-rendering.md)
+* [Build personalized emails without the need for HTML](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Createcompellingcontenttailoredtoeveryindividual)
 
 ## Designing an email using existing contents {#designing-an-email-using-existing-contents}
 
 This section explains how to convert an existing email into an Email Designer-compatible email.
 
-By default, if you just upload any HTML (see [Importing content from a file](../../designing/using/importing-content-from-a-file.md)), the content is loaded in ' [compatibility mode](../../designing/using/about-email-content-design.md#email-designer-compatibility-mode)', which limits the edition possibilities through the UI (only in-place edition, no drag-and-drop).
+By default, if you just upload any HTML (see [Importing content from a file](../../designing/using/importing-content-from-a-file.md)), the content is loaded in '[compatibility mode](../../designing/using/about-email-content-design.md#email-designer-compatibility-mode)', which limits the edition possibilities through the UI (only in-place edition, no drag-and-drop).
 
 However, if you want to build a framework of modular templates and fragments that can be combined to reuse in multiple emails, you should consider converting your email HTML into an Email Designer template.
 
@@ -425,6 +427,10 @@ You can either set this option from the mobile or desktop view.
 
    The only exception is the **[!UICONTROL Border color]** setting. When disabled in mobile view, no border is applied anymore, even if a border color is defined in desktop view.
 
+>[!NOTE]
+>
+>The mobile view is not available in [fragments](../../designing/using/defining-the-email-structure.md#about-fragments).
+
 ## Plain text and HTML modes {#plain-text-and-html-modes}
 
 ### Generating a text version of the email {#generating-a-text-version-of-the-email}
@@ -481,7 +487,7 @@ The Adobe Campaign Standard integration with Dreamweaver lets you edit an email'
 
 * **Add Campaign personalization in Dreamweaver**
 
-  For the email developer there is no longer a need to add text like [[FIRSTNAME_PLACEHOLDER]] nor to look up the syntax of your data model’s tables. The Campaign toolbar in Dreamweaver connects directly to your Campaign instance's data model. That means you can pull in any data you want for personalization from something like First Name to Address. If you’ve created Content Blocks within Campaign, you can also pull those directly into Dreamweaver.
+  For the email developer there is no longer a need to add text like ```[[FIRSTNAME_PLACEHOLDER]]``` nor to look up the syntax of your data model’s tables. The Campaign toolbar in Dreamweaver connects directly to your Campaign instance's data model. That means you can pull in any data you want for personalization from something like First Name to Address. If you’ve created Content Blocks within Campaign, you can also pull those directly into Dreamweaver.
 
 This capability is detailed in the Dreamweaver Documentation accessible [here](https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html). A demonstration [video](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html) is also available.
 

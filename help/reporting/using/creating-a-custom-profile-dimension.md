@@ -164,3 +164,6 @@ After sending your delivery, you can breakdown reports using your custom profile
 
    ![](assets/custom_profile_21.png)
 
+**Related topic:**
+
+* [Using custom profile data to create insightful reports](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)

@@ -24,6 +24,16 @@ This page lists all the new features and documentation updates for each release 
 
 You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-notes.md).
 
+## Documentation updates - August 2019 {#doc-updates-august-2019}
+
+A procedure was added in the workflow troubleshooting section on how to display SQL queries in the Log tab. [Read more](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
+
+A new help article has been added, with information related to subdomains and certificates management within the Control Panel. [Read more](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html)
+
+The section describing the content templates and fragments has been updated. [Read more](../../start/using/about-templates.md#content-templates)
+
+A new section on how to save email content as a template in the Email Designer has been added. [Read more](../../start/using/about-templates.md#saving-content-as-template)
+
 ## Release 19.3 - July 2019 {#release-19-3---july-2019}
 
 ### New capabilities included in the release {#new-capabilities-included-in-the-release-19}
@@ -34,11 +44,17 @@ Report on workflow segment - [Read more](../../reporting/using/creating-a-report
 
 ### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-17}
 
-Information was added in the [Calling a workflow with parameters](../../developing/using/uc-calling-resource-id-key.md) section. It specifies that deliveries are prepared based on their aggregation period and that, if you plan to call the workflow multiple times a day, you should make sure they don’t have any period.
+Campaign Standard Implementation Guide is now live.[Read more](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
 
-Information was added on how to personalize a delivery’s label with event variables that have been declared in the workflow’s external signal activity. [Read more](../../developing/using/uc-calling-resource-id-key.md)
+A set of new help articles have been created about Microsoft Dynamics 365 connector implementation and usage. Note that this feature is currently in Limited Availability.[Read more](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
+
+A note has been added in the [Calling a workflow with parameters](../../automating/using/calling-a-workflow-with-external-parameters.md) section about delivery preparation and their aggregation period.
+
+Information was added on how to personalize a delivery’s label with event variables that have been declared in the workflow’s external signal activity. [Read more](../../automating/using/external-signal.md)
 
 A new section has been added detailing how to create a user in Adobe Campaign Standard. [Read more](../../administration/using/users-management.md)
+
+A new article is now available with tips to simplify marketing campaigns, including links to product documentation and tutorial videos.[Read more](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html)
 
 A troubleshooting has been added for Dynamic Reporting. [Read more](../../reporting/using/troubleshooting.md)
 
@@ -50,7 +66,7 @@ A warning was added on how extra white spaces can impact the layout of a email c
 
 A new section on Email Designer recommended updates has been added. [Read more](../../designing/using/about-email-content-design.md#email-designer-updates)
 
-A new section on how to send proofs using real customer data has been added. [Read more](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs-using-additional-data)
+<!-- A new section on how to send proofs using real customer data has been added. [Read more](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs-using-additional-data) -->
 
 A new section on workflow best practices has been added. [Read more](../../automating/using/best-practices-workflows.md)
 

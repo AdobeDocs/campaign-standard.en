@@ -46,6 +46,7 @@ The **Insert** table lets you customize your reports by adding graphs and tables
 * [Adding panels](../../reporting/using/adding-panels.md)
 * [Adding visualizations](../../reporting/using/adding-visualizations.md)
 * [Adding components](../../reporting/using/adding-components.md)
+* [Sharing reports automatically with stakeholders through email](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
 
 ## Tabs {#tabs}
 
@@ -144,3 +145,7 @@ The **[!UICONTROL Share]** tab allows you to send your reports with Adobe Campai
     1. The **[!UICONTROL Edit scheduled report]** window appears, you can now change the recipients or frequency of your email if needed.
 
 The targeted users will then receive an email with your report attached directly in their inboxes. Users can always decide to stop receiving recurring emails using an unsubscription link available in each recurring email.
+
+**Related topic:**
+
+* [Sharing reports automatically with stakeholders through email](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)

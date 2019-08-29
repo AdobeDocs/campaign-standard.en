@@ -193,7 +193,7 @@ These log messages are used to log information about unexpected error conditions
   <tr> 
    <td> WKF-560246 - HTTP header key is bad (header key: '%s').</td> 
    <td> <p>HTTP header key is bad (header key: '%s').</p>
-   <p> Note: This error is logged when the custom header key fails validation according to [RFC](https://tools.ietf.org/html/rfc7230#section-3.2.html)</p></td> 
+   <p> Note: This error is logged when the custom header key fails validation according to <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a></p></td> 
   </tr>
  <tr> 
    <td> WKF-560248 - HTTP header key is not allowed (header key: '%s').</td> 
@@ -202,7 +202,7 @@ These log messages are used to log information about unexpected error conditions
   <tr> 
    <td> WKF-560247 -  AHTTP header value is bad (header value: '%s').</td> 
    <td> <p>HTTP header value is bad (header value: '%s'). </p>
-    <p>Note: This error is logged when the custom header value fails validation according to [RFC](https://tools.ietf.org/html/rfc7230#section-3.2.html)</p></td> 
+    <p>Note: This error is logged when the custom header value fails validation according to <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a></p></td> 
   </tr> 
   <tr> 
    <td> WKF-560240 - JSON payload has bad property '%s'.</td> 

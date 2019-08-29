@@ -126,7 +126,7 @@ You have to send as many proofs as necessary until you have finalized the conten
 
 [Sending a test, preparing and sending an email](https://helpx.adobe.com/campaign/kt/acs/using/acs-sending-test-preparing-sending-email-feature-video-use.html) video
 
-## Sending proofs using additional data {#sending-proofs-using-additional-data}
+<!-- ## Sending proofs using additional data {#sending-proofs-using-additional-data}
 
 This section describes how to send proofs using real customer data accessible via a workflow, as opposed to using fake test profile data. This allows you to check that the variables used in the workflow are accurate and to get a view of the message that your recipients will receive.
 
@@ -163,4 +163,4 @@ Once the message is sent, additional data is replaced by data from a real profil
 
 >[!NOTE]
    >
-   >Only additional data are replaced. No real profile data such as first name or last name will be used for the test profile.
+   >Only additional data are replaced. No real profile data such as first name or last name will be used for the test profile. -->
