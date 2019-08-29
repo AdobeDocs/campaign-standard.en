@@ -115,6 +115,7 @@ user-guide-title: Adobe Campaign Standard Help
       + [Designing emails from scratch](designing/using/designing-from-scratch.md)
       + [Designing emails using existing content](designing/using/using-existing-content.md)
       + [Designing emails through Adobe Campaign integrations](designing/using/using-integrations.md)
+      + [Personalization](designing/using/personalization.md)
       + [Managing styles](designing/using/styles.md)
       + [Managing images](designing/using/images.md)
       + [Managing links](designing/using/links.md)
