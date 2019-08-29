@@ -148,7 +148,7 @@ To customize a local notification:
    ![](assets/inapp_customize_18.png)
 
 1. Under the **[!UICONTROL Advanced option]** category, in the **[!UICONTROL Wait to display]** field, choose how long in seconds your local notification will be displayed on screen once your event is triggered.
-1. In the **[!UICONTROL Sound]** field, enter the filename of the sound file, without the extension, to be played by the mobile device when the local notification is received.
+1. In the **[!UICONTROL Sound]** field, enter the filename of the sound file, with the extension, to be played by the mobile device when the local notification is received.
 
    The sound file plays when delivering the notification if the file is defined in the mobile application's package. Otherwise, the device's default sound is played.
 

@@ -60,7 +60,6 @@ For more on converting an existing email into an Email Designer-compatible email
 ### Email Designer limitations {#email-designer-limitations}
 
 * You cannot use personalization fields in a fragment. For more on fragments, see [this section](../../designing/using/defining-the-email-structure.md#about-fragments).
-* You cannot save directly as a fragment some content of an email that you are editing within the Email Designer. You need to copy-paste the HTML corresponding to that content into a new fragment. For more on this, see [Saving content as a fragment](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment).
 * When editing styles, only the web fonts officially supported by most email clients are available.
 * Styles cannot be saved as a theme for future reuse. However, the CSS style can be saved in a content template or in an email. For more on styles, see [this section](../../designing/using/editing-email-styles.md).
 
@@ -113,6 +112,7 @@ You can also check out this [introduction video](https://video.tv.adobe.com/v/22
 * [Scheduling messages](../../sending/using/about-scheduling-messages.md)
 * [Previewing messages](../../sending/using/previewing-messages.md)
 * [Email rendering](../../sending/using/email-rendering.md)
+* [Build personalized emails without the need for HTML](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Createcompellingcontenttailoredtoeveryindividual)
 
 ## Designing an email using existing contents {#designing-an-email-using-existing-contents}
 
@@ -364,6 +364,10 @@ You can either set this option from the mobile or desktop view.
    The background color defined in desktop view is now applied: it turns grey (not blank).
 
    The only exception is the **[!UICONTROL Border color]** setting. When disabled in mobile view, no border is applied anymore, even if a border color is defined in desktop view.
+
+>[!NOTE]
+>
+>The mobile view is not available in [fragments](../../designing/using/defining-the-email-structure.md#about-fragments).
 
 ## Plain text and HTML modes {#plain-text-and-html-modes}
 

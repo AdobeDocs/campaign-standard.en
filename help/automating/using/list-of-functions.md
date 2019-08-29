@@ -458,11 +458,6 @@ This table contains the remaining functions avalaible.
    <td> SetBit(&lt;identifier&gt;, &lt;flag&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>SetVar</strong><br /> </td> 
-   <td> Sets a variable<br /> </td> 
-   <td> SetVar(&lt;variable&gt;, &lt;expression&gt;)<br /> </td> 
-  </tr> 
-  <tr> 
    <td> <strong>ToBoolean</strong><br /> </td> 
    <td> Converts a number into a Boolean<br /> </td> 
    <td> ToBoolean(&lt;number&gt;)<br /> </td> 
