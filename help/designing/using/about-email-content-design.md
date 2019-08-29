@@ -427,6 +427,10 @@ You can either set this option from the mobile or desktop view.
 
    The only exception is the **[!UICONTROL Border color]** setting. When disabled in mobile view, no border is applied anymore, even if a border color is defined in desktop view.
 
+>[!NOTE]
+>
+>The mobile view is not available in [fragments](../../designing/using/defining-the-email-structure.md#about-fragments).
+
 ## Plain text and HTML modes {#plain-text-and-html-modes}
 
 ### Generating a text version of the email {#generating-a-text-version-of-the-email}
