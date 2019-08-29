@@ -22,7 +22,7 @@ Adobe Campaign allows you to define and manage the permissions assigned to diffe
 * **Organizational units**: These allow you to define a hierarchy of permissions on the different objects of the platform (emails, workflows, templates, users, profiles, etc.). Refer to the [Organizational units](../../administration/using/organizational-units.md) section.
 * **Roles**: A set of unitary rights that allow you to define the authorizations assigned to users and user groups. Refer to the [List of roles](../../administration/using/list-of-roles.md) section.
 
-  Combined with organizational units, roles give users a filtered view of the interface and define their access to the different features. For more on this, refer to the [Roles and permissions table](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
+  Combined with organizational units, roles give users a filtered view of the interface and define their access to the different features. For more on this, refer to the [Authorizations table](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
 
 >[!CAUTION]
 >
