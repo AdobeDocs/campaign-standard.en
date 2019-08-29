@@ -38,4 +38,6 @@ Add test profiles so that you can test your file with a small number of profiles
 
 The use of traps is essential to direct mail deliveries. For instance, they allow you to verify that your direct mail provider is really sending the communication and that they are not sending your client list to another provider.
 
-For direct mail deliveries, traps are added during extraction and mixed in the output document. By default, they are inserted in the sorting order of the output file, but you can choose to insert them at the end or the beginning of the file ( **[!UICONTROL Trap insertion mode]** tab).
+For direct mail deliveries, traps are added during extraction and mixed in the output document. By default, they are inserted in the sorting order of the output file, but you can choose to insert them at the end or the beginning of the file when defining the audience, from the **[!UICONTROL Trap insertion mode]** tab.
+
+![](assets/direct_mail_trap_insertion_mode.png)
