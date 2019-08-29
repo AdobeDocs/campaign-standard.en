@@ -20,6 +20,6 @@ snippet: y
 
 To fully leverage the edition possibilities of the [Email Designer](../../designing/using/about-email-content-design.md#about-the-email-designer), your uploaded HTML must contain specific tagging that makes it compliant with the WYSIWYG editor.
 
-If all or part of the HTML does not have this tagging, the content is then loaded in ' [compatibility mode](../../designing/using/about-email-content-design.md#email-designer-compatibility-mode)'.
+If all or part of the HTML does not have this tagging, the content is then loaded in ' [compatibility mode](../../designing/using/using-existing-content.md#compatibility-mode)'.
 
-To make an existing external content fully editable within the Email Designer, see the [Designing an email using existing contents](../../designing/using/about-email-content-design.md#designing-an-email-using-existing-contents) section.
+To make an existing external content fully editable within the Email Designer, see the [Designing an email using existing contents](../../designing/using/using-existing-content.md) section.

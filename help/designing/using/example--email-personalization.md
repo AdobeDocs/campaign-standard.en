@@ -79,7 +79,7 @@ In this example, the dynamic contents applied to the texts are configured as fol
 **To target profiles aged between 18-27:**
 
 1. Select the structure component you want and add a dynamic content.
-1. Edit the dynamic content and configure the targeting expressions. Refer to [Configuring images](../../designing/using/example--email-personalization.md#configuring-images).
+1. Edit the dynamic content and configure the targeting expressions. Refer to [Configuring images](../../designing/using/personalization.md#configuring-images).
 1. In the structure component, at the desired position, click the **[!UICONTROL Personalize]** icon from the contextual toolbar and select **[!UICONTROL Insert personalization field]**.
 
    ![](assets/delivery_content_53.png)
@@ -93,7 +93,7 @@ In this example, the dynamic contents applied to the texts are configured as fol
 **To target profiles aged 27 and above:**
 
 1. Select the structure component you want and add a dynamic content.
-1. Edit the dynamic content and configure the targeting expressions. Refer to [Configuring images](../../designing/using/example--email-personalization.md#configuring-images).
+1. Edit the dynamic content and configure the targeting expressions. Refer to [Configuring images](../../designing/using/personalization.md#configuring-images).
 1. In the structure component, at the desired position, click the **[!UICONTROL Personalize]** icon from the contextual toolbar and select **[!UICONTROL Insert personalization field]**.
 1. Select **[!UICONTROL Title]** from the drop-down list.
 1. Proceed similarly to add the **[!UICONTROL Last name]** field.

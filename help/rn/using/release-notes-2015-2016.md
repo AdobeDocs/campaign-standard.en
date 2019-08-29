@@ -100,7 +100,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
  <tbody> 
   <tr> 
    <td> Email predictive subject line<br /> </td> 
-   <td> When editing an email, a new option lets you try out different subject lines and get an estimation of its open rate before you send it. This is made possible by training your own model based on your past delivery data or by using a pre-defined model that is specific to your industry. This feature is available for email messages and for databases that contain English contents only. <br /> For more information about enabling and using it, refer to the <a href="../../designing/using/personalizing-the-subject-line-of-an-email.md#predictive-subject-line">detailed documentation</a>.<br /> </td> 
+   <td> When editing an email, a new option lets you try out different subject lines and get an estimation of its open rate before you send it. This is made possible by training your own model based on your past delivery data or by using a pre-defined model that is specific to your industry. This feature is available for email messages and for databases that contain English contents only. <br /> For more information about enabling and using it, refer to the <a href="../../designing/using/subject-line.md#predictive-subject-line">detailed documentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> SMS transactional messaging<br /> </td> 

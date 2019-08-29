@@ -147,7 +147,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Adding a content block](designing/using/adding-a-content-block.md)
        + [Personalizing the sender](designing/using/personalizing-the-sender.md)
        + [Personalizing the subject line of an email](designing/using/personalizing-the-subject-line-of-an-email.md)
-       + [Example: Email personalization](designing/using/example--email-personalization.md)
+       + [Example: Email personalization](designing/using/personalization.md#example-email-personalization)
   + Defining conditional content {#defining-conditional-content}
        + [Defining a visibility condition](designing/using/defining-a-visibility-condition.md)
        + [Defining dynamic content in an email](designing/using/defining-dynamic-content-in-an-email.md)

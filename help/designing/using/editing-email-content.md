@@ -24,7 +24,7 @@ Here are the main steps to create and design an email content from scratch using
 
 1. Create an email and open its content.
 1. Add structure components to shape the email. See [Editing the email structure](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
-1. Insert content components and fragments in the structure components. See [Adding fragments and content components](../../designing/using/defining-the-email-structure.md#adding-fragments-and-content-components).
+1. Insert content components and fragments in the structure components. See [Adding fragments and content components](../../designing/using/designing-from-scratch.md#editing-the-email-structure).
 1. Add images and edit the text of the email. See [Inserting images](../../designing/using/inserting-images.md).
 1. Personalize your email by adding personalization fields, links, and so on. See [Inserting a personalization field](../../designing/using/inserting-a-personalization-field.md), [Inserting a link](../../designing/using/inserting-a-link.md) and [Defining dynamic content in an email](../../designing/using/defining-dynamic-content-in-an-email.md).
 1. Define the subject line of your email. See [Personalizing the subject line of an email](../../designing/using/personalizing-the-subject-line-of-an-email.md).
@@ -57,7 +57,7 @@ You can now create an email template with the Email Designer. Use content compon
 
    ![](assets/des_loading_compatible_fragment_5.png)
 
-   If you are familiar with HTML code, Adobe recommends leveraging **[!UICONTROL Html]** components where you can copy-paste the more complex elements of the original email. Use other components such as **[!UICONTROL Button]**, **[!UICONTROL Image]** or **[!UICONTROL Text]** for the rest of the content. For more on this, see [About content components](../../designing/using/defining-the-email-structure.md#about-content-components).
+   If you are familiar with HTML code, Adobe recommends leveraging **[!UICONTROL Html]** components where you can copy-paste the more complex elements of the original email. Use other components such as **[!UICONTROL Button]**, **[!UICONTROL Image]** or **[!UICONTROL Text]** for the rest of the content. For more on this, see [About content components](../../designing/using/designing-from-scratch.md#about-content-components).
 
    >[!NOTE]
    >
@@ -128,11 +128,11 @@ Here is the list of the available components in the Email Designer:
 
   If you need to use multiple buttons, rather than editing each button from scratch, you can duplicate the **[!UICONTROL Button]** component using the contextual toolbar.
 
-  You can also save buttons into fragments that can be reused. For more on this, see [Creating a content fragment](../../designing/using/defining-the-email-structure.md#creating-a-content-fragment) and [Saving content as a fragment](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment).
+  You can also save buttons into fragments that can be reused. For more on this, see [Creating a content fragment](../../designing/using/designing-from-scratch.md#creating-a-content-fragment) and [Saving content as a fragment](../../designing/using/designing-from-scratch.md#saving-content-as-a-fragment).
 
 * **[!UICONTROL Carousel]**
 
-  For more on this, see [Using the carousel component](../../designing/using/defining-the-email-structure.md#using-the-carousel-component).
+  For more on this, see [Using the carousel component](../../designing/using/designing-from-scratch.md#using-the-carousel-component).
 
 * **[!UICONTROL Divider]** 
 * **[!UICONTROL Html]**
@@ -192,8 +192,8 @@ They can be found in the interface under **Resources** > **Content fragments and
 
 To make the best use of fragments in the Email Designer:
 
-* Create your own fragments. See [Creating a content fragment](../../designing/using/defining-the-email-structure.md#creating-a-content-fragment) and [Saving content as a fragment](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment).
-* Use them as many times as needed in your emails. See [Inserting elements into an email](../../designing/using/defining-the-email-structure.md#inserting-elements-into-an-email).
+* Create your own fragments. See [Creating a content fragment](../../designing/using/designing-from-scratch.md#creating-a-content-fragment) and [Saving content as a fragment](../../designing/using/designing-from-scratch.md#saving-content-as-a-fragment).
+* Use them as many times as needed in your emails. See [Inserting elements into an email](../../designing/using/designing-from-scratch.md#inserting-elements-into-an-email).
 * When you edit a fragment, the changes are synchronized: they are automatically propagated to all emails (provided they have not been prepared or sent yet) containing that fragment.
 
 When added to an email, fragments are locked by default. If you want to modify a fragment for a specific email, you can break the synchronization with the original fragment by unlocking it in the email where it is used. The changes will not be synchronized anymore.
@@ -202,13 +202,13 @@ To unlock a fragment inside an email, select it and click the lock icon from the
 
 ![](assets/des_unlocking_fragment.png)
 
-That fragment becomes a standalone component that is not linked anymore to the original fragment. It can then be edited as any other content component. See [About content components](../../designing/using/defining-the-email-structure.md#about-content-components).
+That fragment becomes a standalone component that is not linked anymore to the original fragment. It can then be edited as any other content component. See [About content components](../../designing/using/designing-from-scratch.md#about-content-components).
 
 #### Inserting fragments into an email {#inserting-elements-into-an-email}
 
 To define the content of your email, you can add content elements in the structure components you have placed beforehand. See [Editing the email structure](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
 
-1. Access the content elements by selecting the **+** icon on the left. Select [Fragments](../../designing/using/defining-the-email-structure.md#about-fragments) or [Content components](../../designing/using/defining-the-email-structure.md#about-content-components).
+1. Access the content elements by selecting the **+** icon on the left. Select [Fragments](../../designing/using/designing-from-scratch.md#about-fragments) or [Content components](../../designing/using/designing-from-scratch.md#about-content-components).
 1. If you already know the label or part of the label of the fragment you want to add, you can search for it.
 
    ![](assets/email_designer_fragmentsearch.png)
@@ -225,16 +225,16 @@ To define the content of your email, you can add content elements in the structu
 
    >[!NOTE]
    >
-   >Fragments are locked by default when added to an email. You can break the synchronization with the original fragment if you want to modify the fragment for a specific email, or make your change directly in the fragment. See [About fragments](../../designing/using/defining-the-email-structure.md#about-fragments).
+   >Fragments are locked by default when added to an email. You can break the synchronization with the original fragment if you want to modify the fragment for a specific email, or make your change directly in the fragment. See [About fragments](../../designing/using/designing-from-scratch.md#about-fragments).
 
 1. Repeat this procedure for all elements you need to add to your email.
 1. Save your email.
 
-Now that your email structure is populated, you can edit the style of each content element. See [Editing an element](../../designing/using/editing-email-styles.md#editing-an-element).
+Now that your email structure is populated, you can edit the style of each content element. See [Editing an element](../../designing/using/styles.md#editing-an-element).
 
 >[!NOTE]
 >
->If a fragment is modified, the changes are automatically propagated in the emails where it is used. For more on this, see [About fragments](../../designing/using/defining-the-email-structure.md#about-fragments).
+>If a fragment is modified, the changes are automatically propagated in the emails where it is used. For more on this, see [About fragments](../../designing/using/designing-from-scratch.md#about-fragments).
 
 #### Creating a content fragment {#creating-a-content-fragment}
 
@@ -263,7 +263,7 @@ The fragment can now be used in any email built with the Email Designer. It appe
 
 >[!NOTE]
 >
->You cannot insert personalization fields inside a fragment unless it is used in an email. To do this, you need to unlock this fragment. See [About fragments](../../designing/using/defining-the-email-structure.md#about-fragments).
+>You cannot insert personalization fields inside a fragment unless it is used in an email. To do this, you need to unlock this fragment. See [About fragments](../../designing/using/designing-from-scratch.md#about-fragments).
 
 #### Saving content as a fragment {#saving-content-as-a-fragment}
 

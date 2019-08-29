@@ -44,7 +44,7 @@ The **[!UICONTROL Learn & support]** tab gives you easy access to the related do
 
 If you do not select a template, the Email Designer home page also enables you to choose how you want to start designing your content:
 
-* Click the **[!UICONTROL Create]** button to start a new content from scratch. See [Designing an email content from scratch](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch).
+* Click the **[!UICONTROL Create]** button to start a new content from scratch. See [Designing an email content from scratch](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 * Click the **[!UICONTROL Upload]** button to upload a file from your computer. See [Importing content from a file](../../designing/using/importing-content-from-a-file.md).
 * Click the **[!UICONTROL Import from URL]** button to retrieve existing content form a URL. See [Importing content from a URL](../../designing/using/importing-content-from-a-url.md).
 
@@ -84,11 +84,11 @@ To make proper use of the Email Designer and create the best emails as simply as
 
 * Use inline styling rather than a separate CSS and CSS in the &lt;head&gt; section of the HTML. By using inline styling, you can optimize content fragment save and reuse.
 
-  See [Adding inline styling attributes](../../designing/using/editing-email-styles.md#adding-inline-styling-attributes).
+  See [Adding inline styling attributes](../../designing/using/styles.md#adding-inline-styling-attributes).
 
 * Settle your branding easily by creating and reusing content fragments to keep consistency across your marketing campaigns.
 
-  See [Creating a content fragment](../../designing/using/defining-the-email-structure.md#creating-a-content-fragment).
+  See [Creating a content fragment](../../designing/using/designing-from-scratch.md#creating-a-content-fragment).
 
 ### Content design best practices {#content-design-best-practices}
 
@@ -103,8 +103,8 @@ More design and general best practices regarding messages are presented in the f
 
 ### Email Designer limitations {#email-designer-limitations}
 
-* You cannot use personalization fields in a fragment. For more on fragments, see [this section](../../designing/using/defining-the-email-structure.md#about-fragments).
-<!--* You cannot save directly as a fragment some content of an email that you are editing within the Email Designer. You need to copy-paste the HTML corresponding to that content into a new fragment. For more on this, see [Saving content as a fragment](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment).-->
+* You cannot use personalization fields in a fragment. For more on fragments, see [this section](../../designing/using/designing-from-scratch.md#about-fragments).
+<!--* You cannot save directly as a fragment some content of an email that you are editing within the Email Designer. You need to copy-paste the HTML corresponding to that content into a new fragment. For more on this, see [Saving content as a fragment](../../designing/using/designing-from-scratch.md#saving-content-as-a-fragment).-->
 * When editing styles, only the web fonts officially supported by most email clients are available.
 * Styles cannot be saved as a theme for future reuse. However, the CSS style can be saved in a content template or in an email. For more on styles, see [this section](../../designing/using/editing-email-styles.md).
 

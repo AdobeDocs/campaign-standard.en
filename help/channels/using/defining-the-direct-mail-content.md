@@ -28,7 +28,7 @@ The **[!UICONTROL Content]** definition screen is specific to the direct mail ch
 
 ## Defining the extraction {#defining-the-extraction}
 
-1. Start by defining the name of the extraction file. Click on the button to the right of the **[!UICONTROL Output file]** field and enter the desired label. You can use personalization fields, content blocks and dynamic text (see [Defining content](../../designing/using/example--email-personalization.md)). For example, you can complete the label with the delivery ID or the extraction date. 
+1. Start by defining the name of the extraction file. Click on the button to the right of the **[!UICONTROL Output file]** field and enter the desired label. You can use personalization fields, content blocks and dynamic text (see [Defining content](../../designing/using/personalization.md#example-email-personalization)). For example, you can complete the label with the delivery ID or the extraction date. 
 
    ![](assets/direct_mail_12.png)
 
@@ -62,7 +62,7 @@ Sometimes you may need to add information at the beginning or at the end of the 
 
 ![](assets/direct_mail_7.png)
 
-For example, you might want to include, for the direct mail provider, the sender information in the header of the file. It is possible to personalize the footer and header with information available in the context of the delivery. See [Defining content](../../designing/using/example--email-personalization.md).
+For example, you might want to include, for the direct mail provider, the sender information in the header of the file. It is possible to personalize the footer and header with information available in the context of the delivery. See [Defining content](../../designing/using/personalization.md#example-email-personalization).
 
 The sender address is defined in the **[!UICONTROL Send]** section of the direct mail properties or at the template level.
 

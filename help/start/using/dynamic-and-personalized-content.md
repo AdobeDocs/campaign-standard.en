@@ -25,7 +25,7 @@ Personalized messages are key to send relevant content, offer personalized exper
 * Insert [dynamic personalization fields](../../designing/using/inserting-a-personalization-field.md) in your messages
 * Insert [predefined personalization blocks](../../designing/using/adding-a-content-block.md)
 * [Personalize the sender](../../designing/using/personalizing-the-sender.md) of an email or a SMS
-* [Personalize the subject line](../../designing/using/personalizing-the-subject-line-of-an-email.md) of an email, or use [Predictive subject line](../../designing/using/personalizing-the-subject-line-of-an-email.md#predictive-subject-line) capabilities to optimize it
+* [Personalize the subject line](../../designing/using/personalizing-the-subject-line-of-an-email.md) of an email, or use [Predictive subject line](../../designing/using/subject-line.md#predictive-subject-line) capabilities to optimize it
 * Create [conditional content in an email](../../designing/using/defining-dynamic-content-in-an-email.md) or [in a landing page](../../designing/using/defining-dynamic-content-in-a-landing-page.md)
 * Insert [Dynamic text](../../designing/using/defining-dynamic-text.md) in a SMS message or a Push notification
 
@@ -33,7 +33,7 @@ Personalized messages are key to send relevant content, offer personalized exper
 
 **Related topics:**
 
-* Discover email personalization through a [end-to-end sample](../../designing/using/example--email-personalization.md)
+* Discover email personalization through a [end-to-end sample](../../designing/using/personalization.md#example-email-personalization)
 * Learn how to personalize URLs [in this page](../../designing/using/personalizing-urls.md)
 * Learn how to set up personalization of an image [in this page](../../designing/using/personalizing-an-image-source.md)
 

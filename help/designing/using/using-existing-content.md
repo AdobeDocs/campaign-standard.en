@@ -113,13 +113,13 @@ When a content is loaded in compatibility mode, you can still perform the follow
 
 Other modifications such as adding new sections to your email or advanced styling must be done directly in the source code of the email via the HTML mode.
 
-For more on converting an existing email into an Email Designer-compatible email, see [this section](../../designing/using/about-email-content-design.md#designing-an-email-using-existing-contents).
+For more on converting an existing email into an Email Designer-compatible email, see [this section](../../designing/using/using-existing-content.md).
 
 **Related topic**:
 
 * [Creating an email](../../channels/using/creating-an-email.md)
 * [Introduction video to the Email Designer](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true)
-* [Designing an email content from scratch](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch)
+* [Designing an email content from scratch](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
 ## Converting an HTML content {#converting-an-html-content}
 
@@ -164,9 +164,9 @@ Once you have identified all your blocks, in the Email Designer, repeat the foll
 1. Open the Email Designer to create an empty email content.
 1. Set the body level attributes: background colors, width, etc. For more on this, see [Editing email styles](../../designing/using/editing-email-styles.md).
 1. Add a structure component. For more on this, see [Editing the email structure](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
-1. Add an HTML component. For more on this, see [Adding fragments and components](../../designing/using/defining-the-email-structure.md#adding-fragments-and-content-components).
+1. Add an HTML component. For more on this, see [Adding fragments and components](../../designing/using/designing-from-scratch.md#editing-the-email-structure).
 1. Copy-paste your HTML into that component.
-1. Switch to mobile view. For more on this, see [this section](../../designing/using/about-email-content-design.md#switching-to-mobile-view).
+1. Switch to mobile view. For more on this, see [this section](../../designing/using/styles.md#switching-to-mobile-view).
 
    The responsive view is broken, because your CSS is missing.
 

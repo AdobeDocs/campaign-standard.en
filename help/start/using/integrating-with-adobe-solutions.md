@@ -48,7 +48,7 @@ Combine Adobe Experience Cloud solutions with Adobe Campaign, and then you will 
 
 * Create and modify the content of your emails in Dreamweaver.
 
-  For more on this refer to [Editing content in Dreamweaver](../../designing/using/about-email-content-design.md#editing-content-in-dreamweaver).
+  For more on this refer to [Editing content in Dreamweaver](../../designing/using/using-integrations.md#editing-content-in-dreamweaver).
 
 * Send personalized emails to your customers in Adobe Campaign as a reaction to specific behaviors that are tracked on your website by Adobe Analytics.
 

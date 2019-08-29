@@ -34,7 +34,7 @@ When creating an email or a landing page, you can choose to load an existing con
 1. Select the source of the content you want to load:
 
     * [Content templates](../../start/using/about-templates.md#content-templates): click the **[!UICONTROL Templates]** tab.
-    * [Content from scratch](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch), to start fresh: click the **[!UICONTROL Create]** button.
+    * [Content from scratch](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch), to start fresh: click the **[!UICONTROL Create]** button.
     * [Content from your computer as a ZIP or HTML file](../../designing/using/importing-content-from-a-file.md): click the **[!UICONTROL Upload]** button.
     * [Content from an existing URL](../../designing/using/importing-content-from-a-url.md) (only for emails): click the **[!UICONTROL Import from URL]** button.
 
@@ -46,7 +46,7 @@ When creating an email or a landing page, you can choose to load an existing con
 
    >[!NOTE]
    >
-   >The [Email Designer](../../designing/using/about-email-content-design.md#about-the-email-designer) uses specific tagging. Standard HTML content uploaded to Campaign have to match the expected tagging to be fully compatible and editable from the Email Designer. If not matching, your content is uploaded in [compatibility mode](../../designing/using/about-email-content-design.md#email-designer-compatibility-mode). To make existing contents compatible, see [this section](../../designing/using/editing-existing-contents-with-the-email-designer.md).
+   >The [Email Designer](../../designing/using/about-email-content-design.md#about-the-email-designer) uses specific tagging. Standard HTML content uploaded to Campaign have to match the expected tagging to be fully compatible and editable from the Email Designer. If not matching, your content is uploaded in [compatibility mode](../../designing/using/using-existing-content.md#compatibility-mode). To make existing contents compatible, see [this section](../../designing/using/editing-existing-contents-with-the-email-designer.md).
 
 **Related topics:**
 
