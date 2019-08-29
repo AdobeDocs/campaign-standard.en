@@ -112,7 +112,7 @@ For more information, see [Managing packages](../../automating/using/managing-pa
 
 ## Exporting lists{#exporting-lists}
 
-The export list option allows you to export a maximum of 100,000 lines by default and defined by the **Nms_ExportListLimit option**. This option can be managed by the functional administrator, under **Administration** > **Application settings** > **Options**.
+The export list option allows you to export a maximum of 100,000 lines by default and defined by the **Nms_ExportListLimit option**. This option can be managed by the functional administrator, under **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
 For more information, see [Exporting lists](../../automating/using/exporting-lists.md).
 
 ## Troubleshooting{#workflow-troubleshooting}
@@ -121,8 +121,23 @@ Adobe Campaign offers various logs to better understand your workflow issues.
 
 ### Using workflow logs{#using-workflow-logs}
 
-You can access workflow logs to monitor the execution of your activities. It indexes the operations carried out and execution errors by chronological order.
+You can access workflow logs to monitor the execution of your activities. It indexes the operations carried out and execution errors by chronological order. The Logs tab consists in the history of the execution of all or some selected activities.
+The Tasks tab details the execution sequencing of the activities. To get more information on an activity, click a task.
 For more information, refer to [Monitoring workflow execution](../../automating/using/executing-a-workflow.md#monitoring).
+
+#### Troubleshooting data management activities{#troubleshooting-data-management-activities}
+
+You can analyze SQL queries in the Log tab.
+
+1. In the workflow workspace, click **[!UICONTROL Edit properties]**.
+1. In  **[!UICONTROL General]** > **[!UICONTROL Execution]**, check the **[!UICONTROL Save SQL queries in the log]** and **[!UICONTROL Execute in the engine]** options and click **[!UICONTROL Confirm]**.
+
+**To see SQL queries in Log:**
+1. Click **[!UICONTROL Log and Tasks]**.
+1. In the **[!UICONTROL Logs]** tab, open the **[!UICONTROL Search]** panel.
+1. Check **[!UICONTROL Display SQL logs only]**.
+
+The query is displayed in the **[!UICONTROL Message]** column of the logs.
 
 ### Using delivery logs{#using-delivery-logs}
 
@@ -133,3 +148,7 @@ For more information, refer to [Understanding delivery failures](../../sending/u
 
 The Delivery alerting feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries.
 For more information, refer to [Delivery alerting](../../sending/using/receiving-alerts-when-failures-happen.md).
+
+**Related topics:**
+
+* [Error Management](../../automating/using/executing-a-workflow.md#error-management)

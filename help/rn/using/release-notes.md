@@ -24,6 +24,16 @@ Each release comes with new features and patches. Click on a release to view its
 
 View the latest [documentation updates](../../rn/using/documentation-updates.md) for Adobe Campaign Standard. If you're looking for a previous release, consult these pages: [2018 Release Notes](../../rn/using/release-notes-2018.md), [2017 Release Notes](../../rn/using/release-notes-2017.md), [2015-2016 Release Notes](../../rn/using/release-notes-2015-2016.md). Also consult the list of [Deprecated and Removed Features](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html).
 
+## Control Panel update - August 2019 {#controlpanel-update---august-2019}
+
+### What's new? {#what-s-new-4}
+
+We’ve added new capabilities for Admin users to receive notifications before SSL certificates for their domains expire. For more information, refer to the [detailed documentation](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html).
+
+Additionally, Admin users can now delete SSH keys that were added to access SFTP servers.
+
+Please note that Control Panel is available for customers hosted on AWS only. These updates will be available on August 26th.
+
 ## Release 19.3 - July 2019 {#release-19-3---july-2019}
 
 ### What's new? {#what-s-new-3}

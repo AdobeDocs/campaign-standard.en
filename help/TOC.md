@@ -1,5 +1,6 @@
 ---
-product: Adobe Campaign Standard
+product: adobe campaign
+sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 ---
@@ -285,6 +286,12 @@ user-guide-title: Adobe Campaign Standard Help
        + [Exporting logs](automating/using/exporting-logs.md)
        + [Managing packages](automating/using/managing-packages.md)
        + [Exporting lists](automating/using/exporting-lists.md)
+  + Use cases: Workflows {#workflow-use-case}
+       + [Creating deliveries with a complement](automating/using/workflow-created-query-with-complement.md)
+       + [Creating deliveries on creation date](automating/using/workflow-creation-date-query.md)
+       + [Creating a weekly delivery](automating/using/workflow-weekly-offer.md)
+       + [Creating a segmentation on location](automating/using/workflow-segmentation-location.md)
+       + [Retargeting non-openers](automating/using/workflow-cross-channel-retargeting.md)
 + Developing {#developing}
   + About custom resources {#about-custom-resources}
        + [Data model concepts](developing/using/data-model-concepts.md)
