@@ -36,8 +36,8 @@ For each targeted profile a new line is added in the extraction file. The amount
 
 Add test profiles so that you can test your file with a small number of profiles. It allows you to quickly create a file sample to test and validate the structure before preparing the actual file. See [Managing test profiles and sending proofs](../../sending/using/managing-test-profiles-and-sending-proofs.md).
 
-The use of traps is essential to direct mail deliveries. They allow you to verify that your direct mail provider is really sending the communication to your customers and that they are not sending your client list to another provider. See [Managing test profiles and sending proofs](../../sending/using/managing-test-profiles-and-sending-proofs.md).
+The use of traps is essential to direct mail deliveries. They allow you to verify that your direct mail provider is really sending the communication and that they are not sending your client list to another provider. See [Using traps](../../sending/using/managing-test-profiles-and-sending-proofs.md##using-traps).
 
-For direct mail deliveries, traps are added during extraction and mixed in the output document. By default, they are inserted in the sorting order of the output file, but you can choose to insert them at the end or the beginning of the file when defining the audience, from the **[!UICONTROL Trap insertion mode]** tab.
+For direct mail deliveries, traps are added during extraction and mixed in the output document. By default, they are inserted in the sorting order of the output file, but you can choose to insert them at the end or the beginning of the file. When defining the audience, select the desired option from the **[!UICONTROL Trap insertion mode]** tab.
 
 ![](assets/direct_mail_trap_insertion_mode.png)

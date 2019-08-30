@@ -31,7 +31,7 @@ A test profile contains fictitious contact information, or contact information c
 
   The **Email rendering** use is read-only. Test profiles with this use are only available out-of-the-box in Adobe Campaign.
 
-* As a **Trap**: the message is sent to the test profile just as it is sent to the main target, as a means to identify whether your client file is being used fraudulently.
+* As a **Trap**: the message is sent to the test profile just as it is sent to the main target. See [Using traps](../../sending/using/managing-test-profiles-and-sending-proofs.md##using-traps).
 * To **Preview** messages: a test profile can be selected when previewing a message to test the personalization elements. See [Previewing messages](/help/sending/using/previewing-messages.md).
 
 ![](assets/test_profile.png)
@@ -126,10 +126,46 @@ You have to send as many proofs as necessary until you have finalized the conten
 
 [Sending a test, preparing and sending an email](https://helpx.adobe.com/campaign/kt/acs/using/acs-sending-test-preparing-sending-email-feature-video-use.html) video
 
-## About trap test profiles
+## Using traps {#using-traps}
 
-Traps are historically used for direct mail. Mail is sent to a provider for sending, so including a trap test profile address in the audience enables to detect if the client file was sent to another provider.
-For the other channels, you can add trap test profiles to your main target in order to check that your message was successfully sent, to get an exact copy of your email and to know when it was sent and received.
-When using a test profile as a trap, for any enriched fields in a message, the corresponding additional data is randomly picked from a real targeted profile and assigned to the trap test profile.
-For more on this, see [Root link](.../.../channels/using/defining-the-direct-mail-audience.md).
+When using traps, the message is sent to the test profile just as it is sent to the main target, as a means to identify whether your client file is being used fraudulently.
 
+Traps were originally designed for direct mail deliveries. They allow you to:
+ * Verify that your direct mail provider is really sending the communication.
+ * Receive the mail at the same time and in the same conditions as your customers.
+ * Keep an exact copy of the mail that was sent.
+ * Check that your direct mail provider is not sending your client list to another provider. Indeed, if any other communication is sent to your test profile's address, your client file may have been used without your knowing. This is why the test profile's address should only be used to this purpose.
+
+ For more on adding traps to a direct mail's audience, see [Adding test and trap profiles](.../.../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles).
+
+For the other communication channels, you can add trap test profiles to your main target in order to:
+* Check that your message was successfully sent.
+* Get and keep an exact copy of your message.
+* Track when it was sent and received.
+
+To use a test profile as a trap, it must be included in your message's audience.
+
+>[!NOTE]
+>
+>As opposed to test profiles used for [proofs](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs) or [email rendering](../../sending/using/email-rendering.md), the message is sent at the same time to the main target and to the test profiles used as traps.
+
+When defining a message's audience:
+
+1. From the **[!UICONTROL Test profiles]** tab, select a test profile. Make sure that it has **[!UICONTROL Trap]** as the intended use.
+
+   ![](assets/trap_select.png)
+
+1. Once your message content is ready, click the **[!UICONTROL Prepare]** button. See [Preparing the send](../../sending/using/preparing-the-send.md).
+   >[!NOTE]
+   >
+   >Make sure you selected a main target. Otherwise, your message cannot be sent.
+
+2. Click the **[!UICONTROL Confirm]** button. See [Confirming the send](../../sending/using/confirming-the-send.md).
+
+   ![](assets/trap_confirm.png)
+
+The message is sent to the main target and to the test profile.
+
+>[!NOTE]
+>
+>When using a test profile as a trap, for any enriched fields in a message, the corresponding additional data is randomly picked from a real targeted profile and assigned to the trap test profile. For more on enrichment, see [this example](../../automating/using/enrichment.md#example--enriching-profile-data-with-data-contained-in-a-file).
