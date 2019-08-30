@@ -25,8 +25,8 @@ The content editor is organized into three different sections. These sections al
 ![](assets/des_lp_content_8.png)
 
 1. The **palette** on the left-hand side of the screen allows you to modify the general options linked to a selected block. The options that can be modified are: background color, border, text alignment, visibility condition, etc. See [Inserting a personalization field](../../designing/using/inserting-a-personalization-field.md).
-1. The **action bar** contains the general options for the page. You can select a template and change the display mode. See [Landing page editor action bar](../../designing/using/landing-page-content-editor-interface.md#landing-page-editor-action-bar).
-1. The main **editing zone** allows you to directly interact with the content using the contextual toolbar: insert a link into an image, change the font, delete a field, etc. See [Landing page editor toolbar](../../designing/using/landing-page-content-editor-interface.md#landing-page-editor-toolbar).
+1. The **action bar** contains the general options for the page. You can select a template and change the display mode. See [Landing page editor action bar](../../channels/using/landing-page-content-editor-interface.md#landing-page-editor-action-bar).
+1. The main **editing zone** allows you to directly interact with the content using the contextual toolbar: insert a link into an image, change the font, delete a field, etc. See [Landing page editor toolbar](../../channels/using/landing-page-content-editor-interface.md#landing-page-editor-toolbar).
 
 ## Landing page editor action bar {#landing-page-editor-action-bar}
 
@@ -143,7 +143,7 @@ The toolbar is a **contextual element** of the editor interface that offers vari
    <td> <img height="21px" src="assets/dynamiccontent_24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Enable dynamic content</span> <br /> </td> 
    <td> Text element<br /> </td> 
-   <td> Allows you to insert dynamic content in the content. Refer to <a href="../../designing/using/defining-dynamic-content-in-a-landing-page.md">Defining dynamic content</a>.<br /> </td> 
+   <td> Allows you to insert dynamic content in the content. Refer to <a href="../../channels/using/defining-dynamic-content-in-a-landing-page.md">Defining dynamic content</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/dynamiccontentdisable_24px.png" /> <br /> </td> 

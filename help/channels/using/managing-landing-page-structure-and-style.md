@@ -64,4 +64,23 @@ To change the text alignment, select one of the following three icons in the pal
 * **Center**: centers the text in the block selected (adds style="text-align: center;"). 
 * **Align right**: aligns the text to the right of the selected block (adds style="text-align: right;").
 
-You can also use the toolbar to change the font attributes: adapt the font size, make the text bold or italic, underline or change the color of the text. Refer to [this section](../../designing/using/landing-page-content-editor-interface.md#landing-page-editor-toolbar).
+You can also use the toolbar to change the font attributes: adapt the font size, make the text bold or italic, underline or change the color of the text. Refer to [this section](../../channels/using/landing-page-content-editor-interface.md#landing-page-editor-toolbar).
+
+## Inserting images in a landing page {#inserting-images-in-a-landing-page}
+
+1. In a landing page content, select a block containing an image.
+1. Select the **[!UICONTROL Insert]** button.
+
+   ![](assets/des_insert_images_lp_1.png)
+
+1. Choose **[!UICONTROL Local image]** from the contextual toolbar.
+
+   ![](assets/des_insert_images_lp_2.png)
+
+1. Select a file.
+
+   ![](assets/des_insert_images_lp_3.png)
+
+1. Adjust the image properties as needed.
+
+   ![](assets/des_insert_images_lp_4.png)

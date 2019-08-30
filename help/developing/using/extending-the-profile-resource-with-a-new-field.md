@@ -175,7 +175,7 @@ Your landing page is now ready. To update the profiles, you can create a workflo
 
    ![](assets/schema_extension_uc3.png)
 
-1. Create and design your email as needed. For more information on email personalization, refer to this [page](../../designing/using/designing-content-in-adobe-campaign.md).
+1. Create and design your email as needed. For more information on email personalization, refer to this [page](../../designing/using/quickstart.md).
 1. Add a button to your email that will redirect profiles to your landing page.
 1. Select the added button and click ![](assets/schema_extension_uc7.png) in the **[!UICONTROL Link]** section in the left pane.
 

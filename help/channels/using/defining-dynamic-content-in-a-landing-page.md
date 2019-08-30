@@ -24,7 +24,7 @@ To define dynamic content in a landing page, select a block using the breadcrumb
 
 Certain blocks, such as images, cannot be directly selected. In this case, select the parent block using the breadcrumb. You can then modify all of the elements included in this parent element, including images. The condition will be applied to all child elements within the parent block.
 
-The breadcrumb is presented in the [Managing blocks](../../designing/using/managing-landing-page-structure-and-style.md) section.
+The breadcrumb is presented in the [Managing blocks](../../channels/using/managing-landing-page-structure-and-style.md) section.
 
 The next steps for defining dynamic content in a landing page are similar to the steps to follow for an email. See [this section](../../designing/using/defining-dynamic-content-in-an-email.md).
 
