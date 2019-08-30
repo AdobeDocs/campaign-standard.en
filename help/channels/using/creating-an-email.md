@@ -46,7 +46,7 @@ You can create an email from a [campaign](../../start/using/marketing-activities
 
    ![](assets/email_creation_3.png)
 
-1. Define and personalize the message content, sender name and subject using the [Email Designer](../../designing/using/about-email-content-design.md#about-the-email-designer). For more on this, see [About email content design](../../designing/using/about-email-content-design.md).
+1. Define and personalize the message content, sender name and subject using the [Email Designer](../../designing/using/overview.md). For more on this, see [About email content design](../../designing/using/about-email-content-design.md).
 
    ![](assets/email_creation_4.png)
 

@@ -22,7 +22,7 @@ Adobe Campaign allows you to insert a field from the database into your page suc
 
 >[!NOTE]
 >
->The images below show how to insert a personalization field using the [Email Designer](../../designing/using/about-email-content-design.md#about-the-email-designer) for an email.
+>The images below show how to insert a personalization field using the [Email Designer](../../designing/using/overview.md) for an email.
 
 To add a personalization field to the content:
 

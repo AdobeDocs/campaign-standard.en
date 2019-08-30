@@ -22,7 +22,7 @@ Adobe Campaign offers a list of pre-configured content blocks. These content blo
 
 >[!NOTE]
 >
->The images below show how to insert a content block using the [Email Designer](../../designing/using/about-email-content-design.md#about-the-email-designer) for an email.
+>The images below show how to insert a content block using the [Email Designer](../../designing/using/overview.md) for an email.
 
 To add a content block:
 

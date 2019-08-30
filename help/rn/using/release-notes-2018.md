@@ -316,7 +316,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
      <li> Create and save an email content template &amp; leverage saved templates to help scale email creation </li> 
      <li> Create and save content Fragments (such as a header, footer, article, etc.) to streamline content creation and ensure brand consistency </li> 
      <li> Seamlessly switch between creating in the drag &amp; drop interface and directly editing HTML of an email at the click of a button </li> 
-    </ul> The Creative Designer for Email is only available in English.<br /> For more information, refer to the <a href="../../designing/using/about-email-content-design.md#about-the-email-designer">detailed documentation</a> and watch this <a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">video</a>.<br /> </td> 
+    </ul> The Creative Designer for Email is only available in English.<br /> For more information, refer to the <a href="../../designing/using/overview.md">detailed documentation</a> and watch this <a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">video</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Multilingual Push Deliveries<br /> </td> 

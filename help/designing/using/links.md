@@ -26,7 +26,7 @@ You can insert a link into any page element: image, word, group of words, block 
 
 >[!NOTE]
 >
->The images below show how to insert a link using the [Email Designer](../../designing/using/about-email-content-design.md#about-the-email-designer) in an email.
+>The images below show how to insert a link using the [Email Designer](../../designing/using/overview.md) in an email.
 
 1. Select an element and click **[!UICONTROL Insert link]** from the contextual toolbar.
 
@@ -60,7 +60,7 @@ Once the link is created, you can still modify it from the Settings pane. Click 
 
 ![](assets/des_link_edit.png)
 
-When editing an email with the [Email Designer](../../designing/using/about-email-content-design.md#about-the-email-designer), you can easily access and modify the links that you created from the table listing all the URLs included in the email. This list enables you to have a centralized view and to locate each URL in the email content. To access it, see [About tracked URLs](../../designing/using/about-tracked-urls.md).
+When editing an email with the [Email Designer](../../designing/using/overview.md), you can easily access and modify the links that you created from the table listing all the URLs included in the email. This list enables you to have a centralized view and to locate each URL in the email content. To access it, see [About tracked URLs](../../designing/using/about-tracked-urls.md).
 
 ![](assets/des_link_list.png)
 
