@@ -286,7 +286,7 @@ Once you have identified all your blocks, in the Email Designer, repeat the foll
 <
 1. To fix this, switch to source code mode and copy-paste your style section into a new style section. For example:
 
-   ```
+ 
 
    <style type="text/css">
    a {text-decoration:none;}
@@ -295,7 +295,7 @@ Once you have identified all your blocks, in the Email Designer, repeat the foll
    ...
    </style>
 
-   ```
+  
    
    
    >[!NOTE]
