@@ -16,7 +16,7 @@ internal: n
 snippet: y
 ---
 
-# Defining a visibility condition{#defining-a-visibility-condition}
+<!--# Defining a visibility condition{#defining-a-visibility-condition}
 
 You can specify a visibility condition on any element. It will only be visible if the condition is respected.
 
@@ -33,4 +33,4 @@ These conditions adopt the XTK expression syntax (e.g. **context.profile.email !
 >[!NOTE]
 >
 >A condition cannot be defined for a block that already contains a sub-element with a dynamic content or a block that already makes up a dynamic content. Non-visible dynamic blocks like drop-down lists cannot be edited.
-
+-->

@@ -37,7 +37,7 @@ To know more about actions that are common to one or more marketing activities, 
 Also check the [general best practices for content design](../../designing/using/content-design-best-practices.md).
 
 
-### Email Designer compatibility mode {#email-designer-compatibility-mode}
+<!--### Email Designer compatibility mode {#email-designer-compatibility-mode}
 
 When you upload a content, it must contain specific tagging to be fully compliant and editable with the WYSIWYG editor of the Email Designer.
 
@@ -102,7 +102,7 @@ You can also check out this [introduction video](https://video.tv.adobe.com/v/22
 
 >[!NOTE]
 >
->To avoid designing email content from scratch, you can use out-of-the-box content templates. For more on this, see [Content templates](../../start/using/about-templates.md#content-templates).
+>To avoid designing email content from scratch, you can use out-of-the-box content templates. For more on this, see [Content templates](../../start/using/about-templates.md#content-templates).-->
 
 **Related topics**:
 
@@ -128,7 +128,7 @@ When designing content with the Email Designer, you have three options:
 * [Using fragments and components](../../designing/using/designing-from-scratch.md), start from scratch and recreate an HTML design
 * [Converting an HTML content](../../designing/using/using-existing-content.md#converting-an-html-content) email into a modular Email Designer content
 
-### Building content from an out-of-the-box template {#building-content-from-an-out-of-the-box-template}
+<!--### Building content from an out-of-the-box template {#building-content-from-an-out-of-the-box-template}
 
 1. Create an email and open its content. For more on this, see [Creating an email](../../channels/using/creating-an-email.md).
 1. Click the home icon to access the **[!UICONTROL Email Designer]** home page.
@@ -141,7 +141,7 @@ When designing content with the Email Designer, you have three options:
 1. You can move the elements around using the blue arrow on the left to drag a structure component below or above another. For more on this, see [Editing the email structure](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
 1. You can also move components around to change the organization of each structure element. For more on this, see [Adding fragments and components](../../designing/using/designing-from-scratch.md#editing-the-email-structure).
 1. Modify the content of each element according to your needs: images, text, links.
-1. Adapt the styling options to your content if needed. For more on this, see [Editing email styles](../../designing/using/editing-email-styles.md).
+1. Adapt the styling options to your content if needed. For more on this, see [Editing email styles](../../designing/using/editing-email-styles.md).-->
 
 ### Using fragments and components {#using-fragments-and-components}
 
@@ -165,7 +165,7 @@ You want to have the same header and footer in all the emails that you will send
 1. Save all the images and assets that you want to use.
 1. If you are familiar with HTML, split your original HTML content into different parts.
 
-**Creating fragments for your reusable content**
+<!--**Creating fragments for your reusable content**
 
 Using the Email Designer, create a fragment for each reusable section. In this example, you will create two fragments: one for the header and one for the footer. You can then copy the relevant parts from your existing content into these fragments.
 
@@ -195,9 +195,9 @@ To do this, follow the steps below:
 
    ![](assets/des_loading_compatible_fragment_9.png)
 
-Your fragments are now ready to be used in a template.
+Your fragments are now ready to be used in a template.-->
 
-**Inserting fragments and components into your template**
+<!--**Inserting fragments and components into your template**
 
 You can now create an email template with the Email Designer. Use content components to reflect the different sections of your email and adjust the settings to make them as close as possible to your original newsletter. Finally, insert the fragments that you just created.
 
@@ -270,20 +270,20 @@ If this is not the case, cut out the different blocks from your HTML. For exampl
 </table>
 <!-- //3 COLUMN w/CTA (SCALED) -->
 ```
-
+<!--
 Once you have identified all your blocks, in the Email Designer, repeat the following procedure for each section of your existing email:
-
+<
 1. Open the Email Designer to create an empty email content.
 1. Set the body level attributes: background colors, width, etc. For more on this, see [Editing email styles](../../designing/using/editing-email-styles.md).
 1. Add a structure component. For more on this, see [Editing the email structure](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
 1. Add an HTML component. For more on this, see [Adding fragments and components](../../designing/using/designing-from-scratch.md#editing-the-email-structure).
 1. Copy-paste your HTML into that component.
 1. Switch to mobile view. For more on this, see [this section](../../designing/using/styles.md#switching-to-mobile-view).
-
+<
    The responsive view is broken, because your CSS is missing.
-
+<
 1. To fix this, switch to source code mode and copy-paste your style section into a new style section. For example:
-
+<
    ```
    <style type="text/css">
    a {text-decoration:none;}
@@ -292,14 +292,14 @@ Once you have identified all your blocks, in the Email Designer, repeat the foll
    ...
    </style>
    ```
-
+<
    >[!NOTE]
    >
    >Do not modify the CSS generated by the Email Designer: `<style acrite-template-css="true">` and `<style acrite-custom-styles="" type="text/css">`. Make sure you add your style after this.
-
+<>
 1. Go back to the mobile view to check that your content is correctly displayed and save your changes.
 
-## Switching to mobile view {#switching-to-mobile-view}
+<!--## Switching to mobile view {#switching-to-mobile-view}
 
 You can fine-tune the responsive design of an email by separately editing all style options for mobile display. For example, you can adapt margins and padding, use smaller or bigger font sizes, change buttons, or apply different background colors that will be specific to the mobile version of your email.
 
@@ -533,3 +533,4 @@ Adobe Campaign offers several email authoring options. The table below shows the
   </tr> 
  </tbody> 
 </table>
+-->

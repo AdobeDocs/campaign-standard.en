@@ -16,7 +16,7 @@ internal: n
 snippet: y
 ---
 
-# Personalizing URLs{#personalizing-urls}
+<!--# Personalizing URLs{#personalizing-urls}
 
 Adobe Campaign allows you to personalize one or several URLs in your message by adding personalization fields, content blocks, or dynamic content to them. To do this:
 
@@ -36,5 +36,5 @@ Adobe Campaign allows you to personalize one or several URLs in your message by 
 
 * [Inserting a personalization field](../../designing/using/inserting-a-personalization-field.md)
 * [Adding content blocks](../../designing/using/adding-a-content-block.md)
-* [Defining dynamic content](../../designing/using/defining-dynamic-content-in-an-email.md)
+* [Defining dynamic content](../../designing/using/defining-dynamic-content-in-an-email.md)-->
 

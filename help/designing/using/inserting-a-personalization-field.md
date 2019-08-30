@@ -16,7 +16,7 @@ internal: n
 snippet: y
 ---
 
-# Inserting a personalization field{#inserting-a-personalization-field}
+<!--# Inserting a personalization field{#inserting-a-personalization-field}
 
 Adobe Campaign allows you to insert a field from the database into your page such as the profile's first name.
 
@@ -45,4 +45,4 @@ Once personalization is generated (when previewing and preparing the email for e
 >[!NOTE]
 >
 >If the email is created from a workflow, the additional data computed in the workflow is also available in the personalization fields. For more information about adding additional data from a workflow, refer to the [Enriching data](../../automating/using/targeting-data.md#enriching-data) section.
-
+-->

@@ -15,7 +15,7 @@ discoiquuid: 2e8ab4a1-d8f1-478b-b18a-acba2ea1e6d0
 internal: n
 snippet: y
 ---
-
+<!--
 # About personalization{#about-personalization}
 
 The content and display of messages delivered by Adobe Campaign can be personalized in several different ways. These ways can be combined according to criteria depending on the profiles. In general, Adobe Campaign allows you to:
@@ -26,3 +26,4 @@ The content and display of messages delivered by Adobe Campaign can be personali
 * Personalize the subject of an email. See [Personalizing the subject line of an email](../../designing/using/personalizing-the-subject-line-of-an-email.md).
 * Create conditional content. See [Defining dynamic content in an email](../../designing/using/defining-dynamic-content-in-an-email.md) and [Defining dynamic content in a landing page](../../designing/using/defining-dynamic-content-in-a-landing-page.md).
 
+-->

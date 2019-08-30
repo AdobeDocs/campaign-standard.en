@@ -16,7 +16,7 @@ internal: n
 snippet: y
 ---
 
-# Example: Email personalization{#example-email-personalization}
+<!--# Example: Email personalization{#example-email-personalization}
 
 In this example, a member of the marketing service team has created an email to inform some of his clients that there is a special offer just for them. The team member decided to personalize the email according to the clients' respective ages. Clients aged between 18 and 27 years old will receive an email containing a different image and slogan to those that the clients older than 27 will receive.
 
@@ -128,4 +128,4 @@ The image has changed thanks to the dynamic content, and the slogan that appears
 
 * [Creating audiences](../../audiences/using/creating-audiences.md)
 * [Preparing the send](../../sending/using/preparing-the-send.md)
-
+-->

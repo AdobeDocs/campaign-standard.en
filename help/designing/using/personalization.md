@@ -18,6 +18,14 @@ snippet: y
 
 # Personalization {#personalization}
 
+The content and display of messages delivered by Adobe Campaign can be personalized in several different ways. These ways can be combined according to criteria depending on the profiles. In general, Adobe Campaign allows you to:
+
+* Insert dynamic personalization fields. See [Inserting a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field).
+* Insert predefined personalization blocks. See [Adding a content block](../../designing/using/personalization.md#adding-a-content-block).
+* Personalize the sender of an email. See [Personalizing the sender](../../designing/using/personalization.md#personalizing-the-sender).
+* Personalize the subject of an email. See [Personalizing the subject line of an email](../../designing/using/subject-line.md#personalizing-the-subject-line-of-an-email).
+* Create conditional content. See [Defining dynamic content in an email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
+
 ## Personalizing an image source{#personalizing-an-image-source}
 
 Adobe Campaign allows you to personalize one or several images in your message according to a particular criterion or to use tracking. This is done by inserting personalization fields, content blocks, or dynamic content into the image source. To do this:
@@ -198,10 +206,9 @@ To define the name of the sender which will appear in the header of messages sen
 
 **Related topics:**
 
-* [Inserting a personalization field](../../designing/using/inserting-a-personalization-field.md)
-* [Adding a content block](../../designing/using/adding-a-content-block.md)
-* [Defining dynamic content in an email](../../designing/using/defining-dynamic-content-in-an-email.md)
-
+* [Inserting a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field)
+* [Adding a content block](../../designing/using/personalization.md#adding-a-content-block)
+* [Defining dynamic content in an email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
 
 ## Conditional content {#conditional-content}
 

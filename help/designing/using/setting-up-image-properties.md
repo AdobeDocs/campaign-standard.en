@@ -16,7 +16,7 @@ internal: n
 snippet: y
 ---
 
-# Setting up image properties{#setting-up-image-properties}
+<!-- # Setting up image properties{#setting-up-image-properties}
 
 When you select a block that contains an image, the following properties are offered in the palette:
 
@@ -38,4 +38,4 @@ The editor allows you to work with **all image types** whose formats are compati
 </object>
 
 ```
-
+-->

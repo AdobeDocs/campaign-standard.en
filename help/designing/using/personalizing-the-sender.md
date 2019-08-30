@@ -16,7 +16,7 @@ internal: n
 snippet: y
 ---
 
-# Personalizing the sender{#personalizing-the-sender}
+<!--# Personalizing the sender{#personalizing-the-sender}
 
 ## Email sender {#email-sender}
 
@@ -38,9 +38,9 @@ To define the name of the sender which will appear in the header of messages sen
 
 **Related topics:**
 
-* [Inserting a personalization field](../../designing/using/inserting-a-personalization-field.md)
-* [Adding a content block](../../designing/using/adding-a-content-block.md)
-* [Defining dynamic content in an email](../../designing/using/defining-dynamic-content-in-an-email.md)
+* [Inserting a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field)
+* [Adding a content block](../../designing/using/personalization.md#adding-a-content-block)
+* [Defining dynamic content in an email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)-->
 
 ## SMS sender {#sms-sender}
 

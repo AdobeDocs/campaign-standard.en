@@ -15,7 +15,7 @@ discoiquuid: d0d009a5-6022-433e-acdf-2b51a243a5c9
 internal: n
 snippet: y
 ---
-
+<!--
 # Defining dynamic content in an email{#defining-dynamic-content-in-an-email}
 
 In an email, you can define different contents which will be displayed dynamically to the recipients according to the conditions defined via the expression editor. For example, from the same email, you can ensure that each profile receives a different message according to their age range.
@@ -99,3 +99,4 @@ In the expression editor, when you define a dynamic content, the order of priori
    ![](assets/delivery_content_62.png)
 
 You can only define one order of priority per dynamic content.
+-->

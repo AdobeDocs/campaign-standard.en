@@ -23,11 +23,11 @@ Learn how to master email content edition. With Email Designer, you can create e
 Here are the main steps to create and design an email content from scratch using the Email Designer:
 
 1. Create an email and open its content.
-1. Add structure components to shape the email. See [Editing the email structure](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
-1. Insert content components and fragments in the structure components. See [Adding fragments and content components](../../designing/using/designing-from-scratch.md#editing-the-email-structure).
-1. Add images and edit the text of the email. See [Inserting images](../../designing/using/inserting-images.md).
-1. Personalize your email by adding personalization fields, links, and so on. See [Inserting a personalization field](../../designing/using/inserting-a-personalization-field.md), [Inserting a link](../../designing/using/inserting-a-link.md) and [Defining dynamic content in an email](../../designing/using/defining-dynamic-content-in-an-email.md).
-1. Define the subject line of your email. See [Personalizing the subject line of an email](../../designing/using/personalizing-the-subject-line-of-an-email.md).
+1. Add structure components to shape the email. See [Editing the email structure](../../designing/using/designing-from-scratch.md#editing-the-email-structure).
+1. Insert content components and fragments in the structure components. See [Adding fragments and content components](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+1. Add images and edit the text of the email. See [Inserting images](../../designing/using/images.md#inserting-images).
+1. Personalize your email by adding personalization fields, links, and so on. See [Inserting a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field), [Inserting a link](../../designing/using/links.md#inserting-a-link) and [Defining dynamic content in an email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
+1. Define the subject line of your email. See [Personalizing the subject line of an email](../../designing/using/subject-line.md#personalizing-the-subject-line-of-an-email.md).
 1. Preview your email.
 1. Save your content, and proceed with your message after making sure that you have defined an audience and properly scheduled the sending.
 
@@ -79,6 +79,12 @@ You can now fully manage this template within the Email Designer to create and u
 
 To use it, create an email and select the content template that you just created.
 
+**Related topic**:
+
+* [Creating an email](../../channels/using/creating-an-email.md)
+* [Introduction video to the Email Designer](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true)
+* [Designing an email content from scratch](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
+
 - Save as templates
 
 ## Editing the email structure {#editing-the-email-structure}
@@ -86,6 +92,8 @@ To use it, create an email and select the content template that you just created
 The Email Designer allows you to easily define the structure of your email. By adding and moving structural elements with simple drag-and-drop actions, you can design the shape of your email within seconds.
 
 ### Defining Email Structure {#defining-the-email-structure}
+
+The Email Designer allows you to easily define the structure of your email. By adding and moving structural elements with simple drag-and-drop actions, you can design the shape of your email within seconds.
 
 To edit the structure of an email:
 
@@ -253,25 +261,31 @@ You can create your own content fragments to use them as needed in one or more e
 
    ![](assets/email_designer_createfragment_thumbnail.png)
 
-   This thumbnail will be displayed next to the fragment's label when editing an email.
+    This thumbnail will be displayed next to the fragment's label when editing an email.
 
-1. Save your changes to return to the main workspace.
-1. Add a structure component and a content component that you can customize as needed.
+1. Close the **[!UICONTROL Properties]** tab to return to the main workspace.
+1. Add structure components and content components that you can customize as needed.
+
+    >[!NOTE]
+    >
+    >Fragments cannot include personalization fields, dynamic content or another fragment.
+    >The [mobile view](../../designing/using/styles.md#switching-to-mobile-view) is not available in fragments.
+
 1. Once edited, save your fragment.
 
-The fragment can now be used in any email built with the Email Designer. It appears under the **[!UICONTROL Fragments]** section of the Palette.
+This fragment can now be used in any email built with the Email Designer. It appears under the **[!UICONTROL Fragments]** section of the Palette.
 
 >[!NOTE]
 >
->You cannot insert personalization fields inside a fragment unless it is used in an email. To do this, you need to unlock this fragment. See [About fragments](../../designing/using/designing-from-scratch.md#about-fragments).
+>You cannot insert personalization fields inside a fragment unless it is used in an email and unlocked. See [About fragments](../../designing/using/designing-from-scratch.md#about-fragments).
 
 #### Saving content as a fragment {#saving-content-as-a-fragment}
 
 When editing an email with the Email Designer, you can directly save part of that email as a fragment.
 
->[!CAUTION]
->
->You cannot save as fragment a structure containing personalization fields, dynamic content or another fragment.
+* You cannot save as fragment a structure containing personalization fields, dynamic content or another fragment.
+* You can only select structures that are adjacent to each other.
+<!--* You cannot select an empty structure.-->
 
 1. When editing an email in the Email Designer, select **[!UICONTROL Save as fragment]** from the main toolbar.
 
@@ -283,7 +297,8 @@ When editing an email with the Email Designer, you can directly save part of tha
 
     >[!NOTE]
     >
-    >You can only select structures that are adjacent to each other.
+    >Make sure you select structures that are adjacent to each other and that do not include personalization fields, dynamic content or another fragment.
+    <!--You cannot select an empty structure.-->
 
 1. Click **[!UICONTROL Create]**.
 
@@ -295,14 +310,33 @@ When editing an email with the Email Designer, you can directly save part of tha
 
     ![](assets/email_designer_save-as-fragment_list.png)
 
-1. To use your new fragment, open any email content and select it from the fragment list.
+1. To use the new fragment, open any email content and select it from the fragment list.
 
 ![](assets/email_designer_save-as-fragment_in-new-email.png)
+
+
+>[!NOTE]
+>The [mobile view](../../designing/using/styles.md#switching-to-mobile-view) is not available in fragments. If you want to edit an email mobile view, do it before saving your content as a fragment.
+
+<!--You need to copy-paste the HTML corresponding to the section that you want to save into a new fragment.
+
+>[!NOTE]
+>
+>To do this, you need to be familiar with HTML code.
+
+To save as a fragment some email content that you created, follow the steps below.
+
+1. When editing an email in the Email Designer, select **[!UICONTROL Edit]** > **[!UICONTROL HTML]** to open the HTML version of that email.
+1. Select and copy the HTML corresponding to the part that you want to save.
+1. Go to **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** and click **[!UICONTROL Create]**.
+1. Click the email label to access the **[!UICONTROL Properties]** tab of the Email Designer and select **[!UICONTROL Fragment]** from the **[!UICONTROL HTML type]** drop-down list.
+1. Select **[!UICONTROL Edit]** > **[!UICONTROL HTML]** to open the HTML version of the fragment.
+1. Paste the HTML that you copied where appropriate.
+1. Switch back to the **[!UICONTROL Edit]** view to check the result and save the new fragment.-->
 
 **Related topics**:
 
 * [Creating an email](../../channels/using/creating-an-email.md)
-* [Selecting an existing content](../../designing/using/selecting-an-existing-content.md)
 * [Selecting an audience in a message](../../audiences/using/selecting-an-audience-in-a-message.md)
 * [Scheduling messages](../../sending/using/about-scheduling-messages.md)
 * [Previewing messages](../../sending/using/previewing-messages.md)

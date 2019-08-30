@@ -16,7 +16,7 @@ internal: n
 snippet: y
 ---
 
-# Adding a content block{#adding-a-content-block}
+<!--# Adding a content block{#adding-a-content-block}
 
 Adobe Campaign offers a list of pre-configured content blocks. These content blocks are dynamic, personalized and have a specific rendering. For example, you can add a greeting or a link to the mirror page.
 
@@ -105,3 +105,4 @@ For example, the **[!UICONTROL Unsubscription link]** block's targeting dimensio
 If you leave this field empty, the content block will be compatible with all messages, no matter what the targeting dimension is. If you set a targeting dimension, that block will only be compatible with messages that have the same targeting dimension.
 
 For more on this, refer to [Targeting dimensions and resources](../../automating/using/query.md#targeting-dimensions-and-resources).
+-->

@@ -16,7 +16,7 @@ internal: n
 snippet: y
 ---
 
-# Modifying images with the Adobe Creative SDK{#modifying-images-with-the-adobe-creative-sdk}
+<!--# Modifying images with the Adobe Creative SDK{#modifying-images-with-the-adobe-creative-sdk}
 
 You can edit images and use a complete set of features powered by the Adobe Creative SDK to enhance your images directly in the content editor when editing emails or landing pages.
 
@@ -38,4 +38,4 @@ To modify an image with the Adobe Creative SDK:
 >[!NOTE]
 >
 >Tools offered in the image editor cannot be customized.
-
+-->

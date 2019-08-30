@@ -16,7 +16,7 @@ internal: n
 snippet: y
 ---
 
-# Selecting an existing content{#selecting-an-existing-content}
+<!--# Selecting an existing content{#selecting-an-existing-content}
 
 Adobe Campaign comes with a set of predefined contents to help you get started. You can use one of these or, if the content of the message you need to send is being prepared outside of Adobe Campaign, you can import it from your computer or a URL.
 
@@ -52,4 +52,4 @@ When creating an email or a landing page, you can choose to load an existing con
 
 * [Creating an email](../../channels/using/creating-an-email.md)
 * [Managing landing pages](../../channels/using/about-landing-pages.md)
-
+-->

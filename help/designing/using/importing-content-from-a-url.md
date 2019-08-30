@@ -16,7 +16,7 @@ internal: n
 snippet: y
 ---
 
-# Importing content from a URL{#importing-content-from-a-url}
+<!--# Importing content from a URL{#importing-content-from-a-url}
 
 Before importing content from a URL, make sure it follows the requirements below:
 
@@ -77,4 +77,4 @@ It is possible to personalize the remote URL from which the content will be retr
    >[!NOTE]
    >
    >The available personalization fields are linked to **Delivery** attributes only (email creation date, status, campaign label...).
-
+-->

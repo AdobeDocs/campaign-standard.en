@@ -70,9 +70,9 @@ When editing an email with the [Email Designer](../../designing/using/about-emai
 
 **Related topics**:
 
-* [Inserting a personalization field](../../designing/using/inserting-a-personalization-field.md)
-* [Adding content blocks](../../designing/using/adding-a-content-block.md)
-* [Defining dynamic content](../../designing/using/defining-dynamic-content-in-an-email.md)
+* [Inserting a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field)
+* [Adding content blocks](../../designing/using/personalization.md#adding-a-content-block)
+* [Defining dynamic content](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
 
 ## About tracked URLs {#about-tracked-urls}
 

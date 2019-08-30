@@ -16,7 +16,7 @@ internal: n
 snippet: y
 ---
 
-# Inserting images{#inserting-images}
+<!--# Inserting images{#inserting-images}
 
 You can insert images in your emails and landing pages.
 
@@ -67,3 +67,4 @@ If enabled, you can modify images with the Adobe Creative SDK. See [Modifying im
 
    ![](assets/des_insert_images_lp_4.png)
 
+-->

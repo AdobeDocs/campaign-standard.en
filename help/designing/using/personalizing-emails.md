@@ -16,7 +16,7 @@ internal: n
 snippet: y
 ---
 
-# Inserting a personalization field{#inserting-a-personalization-field}
+<!--# Inserting a personalization field{#inserting-a-personalization-field}
 
 Adobe Campaign allows you to insert a field from the database into your page such as the profile's first name.
 
@@ -263,3 +263,4 @@ The models that are available for use are:
 * Supermarket industry: subjectInsightSupermarket.xml
 * Medical industry: subjectInsightMedical.xml
 * Model to train: subjectlineTraining.xml.
+-->

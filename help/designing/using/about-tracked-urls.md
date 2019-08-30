@@ -16,7 +16,7 @@ internal: n
 snippet: y
 ---
 
-# About tracked URLs{#about-tracked-urls}
+<!--# About tracked URLs{#about-tracked-urls}
 
 Adobe Campaign enables you to track the behavior of your recipients when they click a URL included in an email. For more on tracking, see [this section](../../sending/using/tracking-messages.md#about-tracking).
 
@@ -55,4 +55,4 @@ When building a report, from the **[!UICONTROL Components]** tab, select **[!UIC
 
 ![](assets/des_link_tracking_report.png)
 
-For more on building customized reports, see [this section](../../reporting/using/about-dynamic-reports.md).
+For more on building customized reports, see [this section](../../reporting/using/about-dynamic-reports.md).-->

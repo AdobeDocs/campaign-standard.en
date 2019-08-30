@@ -16,7 +16,7 @@ internal: n
 snippet: y
 ---
 
-# Importing content from a file{#importing-content-from-a-file}
+<!--# Importing content from a file{#importing-content-from-a-file}
 
 From the Email Designer home page, click the **[!UICONTROL Upload]** button to upload a file from your computer, then confirm.
 
@@ -30,4 +30,4 @@ The following formats are supported for import:
 >[!NOTE]
 >
 >For email content, we recommend that you import single HTML files with an incorporated style sheet.
-
+-->

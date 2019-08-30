@@ -16,7 +16,7 @@ internal: n
 snippet: y
 ---
 
-# Personalizing an image source{#personalizing-an-image-source}
+<!--# Personalizing an image source{#personalizing-an-image-source}
 
 Adobe Campaign allows you to personalize one or several images in your message according to a particular criterion or to use tracking. This is done by inserting personalization fields, content blocks, or dynamic content into the image source. To do this:
 
@@ -37,4 +37,4 @@ Adobe Campaign allows you to personalize one or several images in your message a
    >The domain name (http://mydomain.com) cannot be personalized, it has to be entered manually. The rest of the URL can be personalized. For example: http://mydomain.com/`[Gender]`.jpg
 
 1. Confirm your changes.
-
+-->

@@ -126,10 +126,10 @@ The different templates present various combinations of several types of element
 1. Go the **[!UICONTROL Properties]** tab of the Email Designer home page (accessible through the home icon) and fill in the **[!UICONTROL Subject]** section.
 
 1. You can combine these elements to build a number of email variants. For example, you can duplicate an email section by selecting a structure component and clicking **[!UICONTROL Duplicate]** from the contextual toolbar.
-1. You can move the elements around using the blue arrow on the left to drag a structure component below or above another. For more on this, see [Editing the email structure](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
+1. You can move the elements around using the blue arrow on the left to drag a structure component below or above another. For more on this, see [Editing the email structure](../../designing/using/designing-from-scratch.md#editing-the-email-structure).
 1. You can also move components around to change the organization of each structure element. For more on this, see [Adding fragments and components](../../designing/using/designing-from-scratch.md#editing-the-email-structure).
 1. Modify the content of each element according to your needs: images, text, links.
-1. Adapt the styling options to your content if needed. For more on this, see [Editing email styles](../../designing/using/editing-email-styles.md).
+1. Adapt the styling options to your content if needed. For more on this, see [Editing email styles](../../designing/using/styles.md).
 
 ## With existing content {#with-existing-content}
 

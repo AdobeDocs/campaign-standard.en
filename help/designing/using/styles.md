@@ -250,3 +250,7 @@ You can either set this option from the mobile or desktop view.
    The background color defined in desktop view is now applied: it turns grey (not blank).
 
    The only exception is the **[!UICONTROL Border color]** setting. When disabled in mobile view, no border is applied anymore, even if a border color is defined in desktop view.
+
+>[!NOTE]
+>
+>The mobile view is not available in [fragments](../../designing/using/designing-from-scratch.md#about-fragments).

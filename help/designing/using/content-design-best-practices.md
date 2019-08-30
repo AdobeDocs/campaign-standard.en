@@ -16,7 +16,7 @@ internal: n
 snippet: y
 ---
 
-# Content design best practices{#content-design-best-practices}
+<!--# Content design best practices{#content-design-best-practices}
 
 To ensure the editor's optimal operation, we recommend observing the following guidelines:
 
@@ -41,4 +41,4 @@ To ensure the editor's optimal operation, we recommend observing the following g
     
       The official list of 'type' attributes is available at the following address: [http://www.w3schools.com/tags/att_input_type.asp](http://www.w3schools.com/tags/att_input_type.asp)
 
-More design and general best practices regarding messages are presented in the following Adobe Campaign step-by-step guide: [Delivery best practices with Adobe Campaign](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html ).
+More design and general best practices regarding messages are presented in the following Adobe Campaign step-by-step guide: [Delivery best practices with Adobe Campaign](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html ).-->

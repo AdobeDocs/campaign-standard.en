@@ -16,7 +16,7 @@ internal: n
 snippet: y
 ---
 
-# Inserting a link{#inserting-a-link}
+<!--# Inserting a link{#inserting-a-link}
 
 The editor allows you to personalize an email or landing page by inserting links into the HTML content elements.
 

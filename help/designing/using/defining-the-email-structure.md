@@ -16,7 +16,7 @@ internal: n
 snippet: y
 ---
 
-# Defining the email structure{#defining-the-email-structure}
+<!--# Defining the email structure{#defining-the-email-structure}
 
 The Email Designer allows you to easily define the structure of your email. By adding and moving structural elements with simple drag-and-drop actions, you can design the shape of your email within seconds.
 
@@ -47,7 +47,7 @@ To edit the structure of an email:
    >
    >Each column size cannot be under 10% of the total width of the structure component. You cannot remove a column that is not empty.
 
-Once the structure is defined, you are able to add content fragments and components to your email.
+Once the structure is defined, you are able to add content fragments and components to your email.-->
 
 ## Adding fragments and content components {#adding-fragments-and-content-components}
 
@@ -55,7 +55,7 @@ With the Email Designer, after adding structure components to your email, you ca
 
 There are two categories of content elements that you can use: **fragments** and **content components**.
 
-### About fragments {#about-fragments}
+<!--### About fragments {#about-fragments}
 
 A fragment is a reusable component that can be referenced in one or more emails.
 
@@ -197,7 +197,7 @@ When editing an email with the Email Designer, you can directly save part of tha
 
 * You cannot save as fragment a structure containing personalization fields, dynamic content or another fragment.
 * You can only select structures that are adjacent to each other.
-<!--* You cannot select an empty structure.-->
+<!--* You cannot select an empty structure.
 
 1. When editing an email in the Email Designer, select **[!UICONTROL Save as fragment]** from the main toolbar.
 
@@ -210,7 +210,7 @@ When editing an email with the Email Designer, you can directly save part of tha
     >[!NOTE]
     >
     >Make sure you select structures that are adjacent to each other and that do not include personalization fields, dynamic content or another fragment.
-    <!--You cannot select an empty structure.-->
+    <!--You cannot select an empty structure.
 
 1. Click **[!UICONTROL Create]**.
 
@@ -245,4 +245,3 @@ To save as a fragment some email content that you created, follow the steps belo
 1. Select **[!UICONTROL Edit]** > **[!UICONTROL HTML]** to open the HTML version of the fragment.
 1. Paste the HTML that you copied where appropriate.
 1. Switch back to the **[!UICONTROL Edit]** view to check the result and save the new fragment.-->
-

@@ -106,13 +106,13 @@ More design and general best practices regarding messages are presented in the f
 * You cannot use personalization fields in a fragment. For more on fragments, see [this section](../../designing/using/designing-from-scratch.md#about-fragments).
 <!--* You cannot save directly as a fragment some content of an email that you are editing within the Email Designer. You need to copy-paste the HTML corresponding to that content into a new fragment. For more on this, see [Saving content as a fragment](../../designing/using/designing-from-scratch.md#saving-content-as-a-fragment).-->
 * When editing styles, only the web fonts officially supported by most email clients are available.
-* Styles cannot be saved as a theme for future reuse. However, the CSS style can be saved in a content template or in an email. For more on styles, see [this section](../../designing/using/editing-email-styles.md).
+* Styles cannot be saved as a theme for future reuse. However, the CSS style can be saved in a content template or in an email. For more on styles, see [this section](../../designing/using/styles.md).
 
 ### Email Designer updates {#email-designer-updates}
 
 The Email Designer is under continuous improvement. If you created an email content from scratch, from an out-of-the-box template or if you created fragments, you may get the following update message the next time you open your content:
 
-![](assets/email_designer_fragment-patch-message.png)
+![](assets/email_designer_fragment_patch_message.png)
 
 Adobe recommends updating your content to the latest version to avoid problems such as CSS collision issues. Click **[!UICONTROL Update now]**.
 
@@ -124,9 +124,11 @@ When it comes to fragments, please note the following:
 
 * If you have multiple fragments, you have to update each fragment that you want to use in an email content.
 
-<!-- IN MASTER + CHANGES * To avoid impact on your current email messages, as some of them may be at preparation stage or in a specific campaign where you do not want alteration, you can choose not to update some fragments.-->
+* To avoid impact on the current email messages that are not prepared yet, you can choose not to update some fragments.
 
 * You can still send emails where a fragment that is not updated is already used, but that fragment is not editable.
+
+* Updating fragments used in emails that are already prepared has no impact on those emails.
 
 ## Plain text and HTML modes {#plain-text-and-html-modes}
 
