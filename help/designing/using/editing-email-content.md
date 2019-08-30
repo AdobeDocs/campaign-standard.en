@@ -124,18 +124,18 @@ You can add as many content components as you want in a structure component. You
 
 Here is the list of the available components in the Email Designer:
 
-* **[!UICONTROL Button]**
+- **[!UICONTROL Button]**
 
   If you need to use multiple buttons, rather than editing each button from scratch, you can duplicate the **[!UICONTROL Button]** component using the contextual toolbar.
 
   You can also save buttons into fragments that can be reused. For more on this, see [Creating a content fragment](../../designing/using/designing-from-scratch.md#creating-a-content-fragment) and [Saving content as a fragment](../../designing/using/designing-from-scratch.md#saving-content-as-a-fragment).
 
-* **[!UICONTROL Carousel]**
+- **[!UICONTROL Carousel]**
 
   For more on this, see [Using the carousel component](../../designing/using/designing-from-scratch.md#using-the-carousel-component).
 
-* **[!UICONTROL Divider]** 
-* **[!UICONTROL Html]**
+- **[!UICONTROL Divider]** 
+- **[!UICONTROL Html]**
 
   Use this component to copy-past the different parts of your existing HTML. This enables you to create free modular HTML components.
 
@@ -143,9 +143,9 @@ Here is the list of the available components in the Email Designer:
   >
   >A free HTML component is editable with limited options. If all styles are not inlined, make sure to add the proper CSS in the **head** section of the HTML code, otherwise the email will not be responsive. Use the **[!UICONTROL Preview]** button to test the responsiveness of your content (see [Previewing messages](../../sending/using/previewing-messages.md)).
 
-* **[!UICONTROL Image]** 
-* **[!UICONTROL Social]** 
-* **[!UICONTROL Text]**
+- **[!UICONTROL Image]** 
+- **[!UICONTROL Social]** 
+- **[!UICONTROL Text]**
 
 #### Using the HTML component {#using-html-component}
 
@@ -192,9 +192,9 @@ They can be found in the interface under **Resources** > **Content fragments and
 
 To make the best use of fragments in the Email Designer:
 
-* Create your own fragments. See [Creating a content fragment](../../designing/using/designing-from-scratch.md#creating-a-content-fragment) and [Saving content as a fragment](../../designing/using/designing-from-scratch.md#saving-content-as-a-fragment).
-* Use them as many times as needed in your emails. See [Inserting elements into an email](../../designing/using/designing-from-scratch.md#inserting-elements-into-an-email).
-* When you edit a fragment, the changes are synchronized: they are automatically propagated to all emails (provided they have not been prepared or sent yet) containing that fragment.
+- Create your own fragments. See [Creating a content fragment](../../designing/using/designing-from-scratch.md#creating-a-content-fragment) and [Saving content as a fragment](../../designing/using/designing-from-scratch.md#saving-content-as-a-fragment).
+- Use them as many times as needed in your emails. See [Inserting elements into an email](../../designing/using/designing-from-scratch.md#inserting-elements-into-an-email).
+- When you edit a fragment, the changes are synchronized: they are automatically propagated to all emails (provided they have not been prepared or sent yet) containing that fragment.
 
 When added to an email, fragments are locked by default. If you want to modify a fragment for a specific email, you can break the synchronization with the original fragment by unlocking it in the email where it is used. The changes will not be synchronized anymore.
 
@@ -301,9 +301,9 @@ When editing an email with the Email Designer, you can directly save part of tha
 
 **Related topics**:
 
-* [Creating an email](../../channels/using/creating-an-email.md)
-* [Selecting an existing content](../../designing/using/selecting-an-existing-content.md)
-* [Selecting an audience in a message](../../audiences/using/selecting-an-audience-in-a-message.md)
-* [Scheduling messages](../../sending/using/about-scheduling-messages.md)
-* [Previewing messages](../../sending/using/previewing-messages.md)
-* [Email rendering](../../sending/using/email-rendering.md)
+- [Creating an email](../../channels/using/creating-an-email.md)
+- [Selecting an existing content](../../designing/using/selecting-an-existing-content.md)
+- [Selecting an audience in a message](../../audiences/using/selecting-an-audience-in-a-message.md)
+- [Scheduling messages](../../sending/using/about-scheduling-messages.md)
+- [Previewing messages](../../sending/using/previewing-messages.md)
+- [Email rendering](../../sending/using/email-rendering.md)

@@ -270,6 +270,7 @@ If this is not the case, cut out the different blocks from your HTML. For exampl
 </table>
 <!-- //3 COLUMN w/CTA (SCALED) -->
 ```
+
 <!--
 Once you have identified all your blocks, in the Email Designer, repeat the following procedure for each section of your existing email:
 <
@@ -285,6 +286,7 @@ Once you have identified all your blocks, in the Email Designer, repeat the foll
 1. To fix this, switch to source code mode and copy-paste your style section into a new style section. For example:
 <
    ```
+
    <style type="text/css">
    a {text-decoration:none;}
    body {min-width:100% !important; margin:0 auto !important; padding:0 !important;}
@@ -292,6 +294,7 @@ Once you have identified all your blocks, in the Email Designer, repeat the foll
    ...
    </style>
    ```
+   
 <
    >[!NOTE]
    >

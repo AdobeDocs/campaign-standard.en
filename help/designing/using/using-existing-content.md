@@ -17,7 +17,7 @@ snippet: y
 ---
 # Designing using existing content {#designing-using-existing-content}
 
-# Selecting an existing content{#selecting-an-existing-content}
+## Selecting an existing content{#selecting-an-existing-content}
 
 Adobe Campaign comes with a set of predefined contents to help you get started. You can use one of these or, if the content of the message you need to send is being prepared outside of Adobe Campaign, you can import it from your computer or a URL.
 

@@ -15,9 +15,8 @@ discoiquuid: 49532f6b-3cd0-4d03-932e-bcb7d05c74d4
 internal: n
 snippet: y
 ---
-
-<!--# Personalizing the sender{#personalizing-the-sender}
-
+# Personalizing the sender{#personalizing-the-sender}
+<!-->
 ## Email sender {#email-sender}
 
 To define the name of the sender which will appear in the header of messages sent, go the **[!UICONTROL Properties]** tab of the Email Designer home page (accessible through the home icon).

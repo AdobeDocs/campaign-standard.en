@@ -15,7 +15,6 @@ discoiquuid: 212720d2-5d57-4e7a-bb72-10512050e78c
 internal: n
 snippet: y
 ---
-
 # About landing page content design{#about-landing-page-content-design}
 
 Use the standard content editor to create and modify the content of your landing pages in Adobe Campaign.
@@ -40,20 +39,20 @@ Also check the [general best practices for content design](../../designing/using
 >
 >If your instance was installed before the Adobe Campaign Standard 19.0 release, you still have access to the legacy email content editor. The interface, principles of use and configuration are mostly the same as described below for landing pages. However, all features may not be available or maintained in the legacy email content editor, which is deprecated starting 19.0 release. To quickly edit your email content through a drag and drop interface with extended functionalities, use the [Email Designer](../../designing/using/about-email-content-design.md#about-the-email-designer).
 
-## Landing page design best practices {landing-pages-best-practices-design}
+## Landing page design best practices {#landing-pages-best-practices-design}
 
-   * When editing **landing page content**:
+* When editing **landing page content**:
 
-    * Before importing an HTML page template in Adobe Campaign, please make sure the template opens and displays correctly in the various browsers.
-    * If the HTML page contains JavaScript scripts, they need to execute without errors outside of the editor. In general, avoid using scripts in message content to make sure it is correctly processed by email clients.
-    * When building a template, we recommend adding a **'type'** attribute to  tags. This information will be processed by the editor and help the user to link a database field to the form field when configuring the web application.
+  * Before importing an HTML page template in Adobe Campaign, please make sure the template opens and displays correctly in the various browsers.
+  * If the HTML page contains JavaScript scripts, they need to execute without errors outside of the editor. In general, avoid using scripts in message content to make sure it is correctly processed by email clients.
+  * When building a template, we recommend adding a **'type'** attribute to  tags. This information will be processed by the editor and help the user to link a database field to the form field when configuring the web application.
 
-      Example of HTML code in the template:
+  Example of HTML code in the template:
 
-      ```    
-      
-      <input id="email" type="email" name="email"/>
-         
-      ```    
-    
-      The official list of 'type' attributes is available at the following address: [http://www.w3schools.com/tags/att_input_type.asp](http://www.w3schools.com/tags/att_input_type.asp)
+  ```    
+  
+  <input id="email" type="email" name="email"/>
+  
+  ```
+
+  The official list of 'type' attributes is available at the following address: [http://www.w3schools.com/tags/att_input_type.asp](http://www.w3schools.com/tags/att_input_type.asp)

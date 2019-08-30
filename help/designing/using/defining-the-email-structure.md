@@ -16,8 +16,8 @@ internal: n
 snippet: y
 ---
 
-<!--# Defining the email structure{#defining-the-email-structure}
-
+# Defining the email structure{#defining-the-email-structure}
+<!--
 The Email Designer allows you to easily define the structure of your email. By adding and moving structural elements with simple drag-and-drop actions, you can design the shape of your email within seconds.
 
 To edit the structure of an email:

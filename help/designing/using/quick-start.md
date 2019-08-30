@@ -15,8 +15,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 ---
-
-# Quick Start {#quick-start}
+# Quick Start email content design{#quick-start}
 
 The Email Designer provides four ways to create emails.
 
@@ -24,7 +23,7 @@ You can create an email starting fresh:
 
 - You can create an email from a blank canvas by easily adding structure and content components and personalize their content to send a delivery quickly. You can also fully manage style elements.
 
-- You can create an email from an out-of-the-box templates by selecting a template and building your new email content from here. 
+- You can create an email from an out-of-the-box templates by selecting a template and building your new email content from here.
 
 You can also create an email  with existing content:
 
@@ -207,10 +206,10 @@ If all or part of the uploaded HTML is not compliant with the expected tagging, 
 
 When a content is loaded in compatibility mode, you can still perform the following modifications through the interface (unavailable actions are hidden):
 
-* Changing the text or changing an image
-* Inserting links and personalization fields
-* Edit some styling options on the selected HTML block
-* Defining conditional content
+- Changing the text or changing an image
+- Inserting links and personalization fields
+- Edit some styling options on the selected HTML block
+- Defining conditional content
 
 ![](assets/email_designer_compatibility.png)
 
