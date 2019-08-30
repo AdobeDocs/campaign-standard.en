@@ -34,3 +34,6 @@ Here we take a sample SMS message containing personalization fields which, depen
 >
 >The algorithm which automatically chooses the best encoding is executed independently for each message, case by case. This way, only the personalized messages that require Unicode encoding will be sent in Unicode; all the others will use GSM encoding.
 
+## SMS sender {#sms-sender}
+
+You can personalize the name of the SMS sender. For more on this, refer to the [SMS configuration](../../administration/using/configuring-sms-channel.md#configuring-sms-properties) section.

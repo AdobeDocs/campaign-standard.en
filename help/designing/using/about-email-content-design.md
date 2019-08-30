@@ -252,6 +252,7 @@ Outside of the Email Designer, make sure the original HTML is divided into reusa
 If this is not the case, cut out the different blocks from your HTML. For example:
 
 ```
+
 <!-- 3 COLUMN w/CTA (SCALED) -->
 <table width="100%" align="center" cellspacing="0" cellpadding="0" border="0" role="presentation" style="max-width:680px;">
 <tbody>
@@ -284,7 +285,7 @@ Once you have identified all your blocks, in the Email Designer, repeat the foll
    The responsive view is broken, because your CSS is missing.
 <
 1. To fix this, switch to source code mode and copy-paste your style section into a new style section. For example:
-<
+
    ```
 
    <style type="text/css">
@@ -293,6 +294,7 @@ Once you have identified all your blocks, in the Email Designer, repeat the foll
    img {line-height:100%; text-decoration:none; -ms-interpolation-mode:bicubic;}
    ...
    </style>
+   
    ```
    
 <

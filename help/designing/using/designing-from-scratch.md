@@ -81,11 +81,9 @@ To use it, create an email and select the content template that you just created
 
 **Related topic**:
 
-* [Creating an email](../../channels/using/creating-an-email.md)
-* [Introduction video to the Email Designer](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true)
-* [Designing an email content from scratch](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
-
-- Save as templates
+- [Creating an email](../../channels/using/creating-an-email.md)
+- [Introduction video to the Email Designer](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true)
+- [Designing an email content from scratch](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
 ## Editing the email structure {#editing-the-email-structure}
 

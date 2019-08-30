@@ -54,7 +54,7 @@ When creating an email or a landing page, you can choose to load an existing con
 * [Creating an email](../../channels/using/creating-an-email.md)
 * [Managing landing pages](../../channels/using/about-landing-pages.md)
 
-# Editing existing contents with the Email Designer{#editing-existing-contents-with-the-email-designer}
+## Editing existing contents with the Email Designer{#editing-existing-contents-with-the-email-designer}
 
 To fully leverage the edition possibilities of the [Email Designer](../../designing/using/overview.md), your uploaded HTML must contain specific tagging that makes it compliant with the WYSIWYG editor.
 

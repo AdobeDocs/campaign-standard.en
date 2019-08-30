@@ -16,7 +16,9 @@ internal: n
 snippet: y
 ---
 # Personalizing the sender{#personalizing-the-sender}
+
 <!-->
+
 ## Email sender {#email-sender}
 
 To define the name of the sender which will appear in the header of messages sent, go the **[!UICONTROL Properties]** tab of the Email Designer home page (accessible through the home icon).
@@ -41,6 +43,4 @@ To define the name of the sender which will appear in the header of messages sen
 * [Adding a content block](../../designing/using/personalization.md#adding-a-content-block)
 * [Defining dynamic content in an email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)-->
 
-## SMS sender {#sms-sender}
 
-You can personalize the name of the SMS sender. For more on this, refer to the [SMS configuration](../../administration/using/configuring-sms-channel.md#configuring-sms-properties) section.
