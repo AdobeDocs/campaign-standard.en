@@ -294,7 +294,7 @@ Once you have identified all your blocks, in the Email Designer, repeat the foll
    img {line-height:100%; text-decoration:none; -ms-interpolation-mode:bicubic;}
    ...
    </style>
-   
+
    ```
    
 <

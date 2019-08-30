@@ -250,8 +250,8 @@ You can create your own content fragments to use them as needed in one or more e
 1. Click the email label to access the **[!UICONTROL Properties]** tab of the Email Designer.
 1. Specify a recognizable label and select the following parameters to find the fragment later in new emails:
 
-    * Because fragments are only compatible with emails, select **[!UICONTROL Delivery]** from the **[!UICONTROL Content type]** drop-down list.
-    * Select **[!UICONTROL Fragment]** from the **[!UICONTROL HTML type]** drop-down list to be able to use this content as a fragment in your emails.
+    - Because fragments are only compatible with emails, select **[!UICONTROL Delivery]** from the **[!UICONTROL Content type]** drop-down list.
+    - Select **[!UICONTROL Fragment]** from the **[!UICONTROL HTML type]** drop-down list to be able to use this content as a fragment in your emails.
 
    ![](assets/email_designer_createfragment.png)
 
@@ -281,9 +281,9 @@ This fragment can now be used in any email built with the Email Designer. It app
 
 When editing an email with the Email Designer, you can directly save part of that email as a fragment.
 
-* You cannot save as fragment a structure containing personalization fields, dynamic content or another fragment.
-* You can only select structures that are adjacent to each other.
-<!--* You cannot select an empty structure.-->
+- You cannot save as fragment a structure containing personalization fields, dynamic content or another fragment.
+- You can only select structures that are adjacent to each other.
+<!-- - You cannot select an empty structure.-->
 
 1. When editing an email in the Email Designer, select **[!UICONTROL Save as fragment]** from the main toolbar.
 
@@ -334,8 +334,8 @@ To save as a fragment some email content that you created, follow the steps belo
 
 **Related topics**:
 
-* [Creating an email](../../channels/using/creating-an-email.md)
-* [Selecting an audience in a message](../../audiences/using/selecting-an-audience-in-a-message.md)
-* [Scheduling messages](../../sending/using/about-scheduling-messages.md)
-* [Previewing messages](../../sending/using/previewing-messages.md)
-* [Email rendering](../../sending/using/email-rendering.md)
+- [Creating an email](../../channels/using/creating-an-email.md)
+- [Selecting an audience in a message](../../audiences/using/selecting-an-audience-in-a-message.md)
+- [Scheduling messages](../../sending/using/about-scheduling-messages.md)
+- [Previewing messages](../../sending/using/previewing-messages.md)
+- [Email rendering](../../sending/using/email-rendering.md)
