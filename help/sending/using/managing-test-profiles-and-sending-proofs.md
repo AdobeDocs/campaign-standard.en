@@ -136,7 +136,7 @@ Traps were originally designed for direct mail deliveries. They allow you to:
  * Keep an exact copy of the mail that was sent.
  * Check that your direct mail provider is not sending your client list to another provider. Indeed, if any other communication is sent to your test profile's address, your client file may have been used without your knowing. This is why the test profile's address should only be used to this purpose.
 
- For more on adding traps to a direct mail's audience, see [Adding test and trap profiles](.../.../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles).
+ For more on adding traps to a direct mail's audience, see [Adding test and trap profiles](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles).
 
 For the other communication channels, you can add trap test profiles to your main target in order to:
 * Check that your message was successfully sent.
