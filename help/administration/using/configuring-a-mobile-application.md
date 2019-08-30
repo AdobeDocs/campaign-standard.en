@@ -30,6 +30,8 @@ After your mobile applications are set up in Adobe Campaign by leveraging the Ex
 >
 >Push notification and In-App implementations have to be performed by expert users. If you need to be assisted, contact your Adobe Account executive or Professional services partner.
 
+Once a mobile application is set up, you can retrieve the PII data it collected to create or update profiles from your database. For more on this, refer to this section: [Creating and updating profile information based on mobile application data](../../channels/using/updating-profile-with-mobile-app-data.md).
+
 ## Using Adobe Experience Platform SDK {#using-adobe-experience-platform-sdk}
 
 >[!Note]
