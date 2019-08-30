@@ -156,7 +156,6 @@ The load file activity mainly structures the data from a transfer file activity 
 The following example shows the result of an automatically downloaded load file activity via a transfer file activity, followed by an update data activity. This workflow aims to enrich the Adobe Campaign database with new profiles or to update existing profiles using the data recovered from the imported file.
 
 ![](assets/load_file_workflow_ex1.png)
-![](assets/load_file_workflow_ex1 copy.png)
 
 1. Drag and drop a **[!UICONTROL Transfer file]** activity into your workflow and configure it in a way so that it recovers the file you would like.
 1. Drag and drop a **[!UICONTROL Load file]** activity into your workflow and place it after the **[!UICONTROL Transfer file]** activity.
