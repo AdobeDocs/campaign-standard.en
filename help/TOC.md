@@ -120,14 +120,6 @@ user-guide-title: Adobe Campaign Standard Help
        + [About email content design](designing/using/about-email-content-design.md)
        + [Defining the email structure](designing/using/defining-the-email-structure.md)
        + [Editing email styles](designing/using/editing-email-styles.md)
-  + Editing landing page content {#editing-landing-page-content}
-       + [About landing page content design](designing/using/about-landing-page-content-design.md)
-       + [Landing page content editor interface](designing/using/landing-page-content-editor-interface.md)
-       + [Managing landing page structure and style](designing/using/managing-landing-page-structure-and-style.md)
-       + [Changing a landing page form data properties](designing/using/changing-a-landing-page-form-data-properties.md)
-  + Editing SMS and push content {#editing-sms-and-push-content}
-       + [About SMS and push content design](designing/using/about-sms-and-push-content-design.md)
-       + [SMS and push content editor interface](designing/using/sms-and-push-content-editor-interface.md)
   + Loading content {#loading-content}
        + [Selecting an existing content](designing/using/selecting-an-existing-content.md)
        + [Importing content from a file](designing/using/importing-content-from-a-file.md)
@@ -148,8 +140,6 @@ user-guide-title: Adobe Campaign Standard Help
   + Defining conditional content {#defining-conditional-content}
        + [Defining a visibility condition](designing/using/defining-a-visibility-condition.md)
        + [Defining dynamic content in an email](designing/using/defining-dynamic-content-in-an-email.md)
-       + [Defining dynamic content in a landing page](designing/using/defining-dynamic-content-in-a-landing-page.md)
-       + [Defining dynamic text](designing/using/defining-dynamic-text.md)
   + Managing links {#managing-links}
        + [Inserting a link](designing/using/inserting-a-link.md)
        + [Personalizing URLs](designing/using/personalizing-urls.md)
