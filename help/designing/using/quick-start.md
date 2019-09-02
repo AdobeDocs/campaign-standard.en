@@ -83,7 +83,7 @@ Your fragments are now ready to be used in a template.
 
 ### Add content components {#add-content-components}
 
-You can add several content components to your email such as image, text and buttons. For more information, see [Content components](#content-components).
+You can add several content components to your email such as image, text and buttons. For more information, see [Content components](designing-from-scratch.md#about-content-components).
 
 - Image
 
@@ -125,7 +125,7 @@ The different templates present various combinations of several types of element
 1. Go the **[!UICONTROL Properties]** tab of the Email Designer home page (accessible through the home icon) and fill in the **[!UICONTROL Subject]** section.
 
 1. You can combine these elements to build a number of email variants. For example, you can duplicate an email section by selecting a structure component and clicking **[!UICONTROL Duplicate]** from the contextual toolbar.
-1. You can move the elements around using the blue arrow on the left to drag a structure component below or above another. For more on this, see [Editing the email structure](../../designing/using/designing-from-scratch.md#editing-the-email-structure).
+1. You can move the elements around using the blue arrow on the left to drag a structure component below or above another. For more on this, see [Editing the email structure](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. You can also move components around to change the organization of each structure element. For more on this, see [Adding fragments and components](../../designing/using/designing-from-scratch.md#editing-the-email-structure).
 1. Modify the content of each element according to your needs: images, text, links.
 1. Adapt the styling options to your content if needed. For more on this, see [Editing email styles](../../designing/using/styles.md).

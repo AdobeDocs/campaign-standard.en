@@ -345,11 +345,11 @@ Several improvements have been added to the Transactional messaging channel in o
 
 * Our new on-boarding experience will help you start email creation faster and give you easier access to documentation and tutorials.
 
-  For more information, refer to the [detailed documentation](../../designing/using/about-email-content-design.md#email-designer-home-page).
+  For more information, refer to the [detailed documentation](../../designing/using/overview.md#email-designer-home-page).
 
 * You now have the flexibility to configure the number of columns and width based on your needs.
 
-  For more information, refer to the [detailed documentation](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
+  For more information, refer to the [detailed documentation](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
 * When editing in mobile view, you can hide certain components just in mobile display for effective usage of space.
 

@@ -23,7 +23,7 @@ The content and display of messages delivered by Adobe Campaign can be personali
 * Insert dynamic personalization fields. See [Inserting a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field).
 * Insert predefined personalization blocks. See [Adding a content block](../../designing/using/personalization.md#adding-a-content-block).
 * Personalize the sender of an email. See [Personalizing the sender](../../designing/using/personalization.md#personalizing-the-sender).
-* Personalize the subject of an email. See [Personalizing the subject line of an email](../../designing/using/subject-line.md#personalizing-the-subject-line-of-an-email).
+* Personalize the subject of an email. See [Personalizing the subject line of an email](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
 * Create conditional content. See [Defining dynamic content in an email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
 
 ## Personalizing an image source{#personalizing-an-image-source}
@@ -104,7 +104,7 @@ Adobe Campaign offers a list of pre-configured content blocks. These content blo
 
 To add a content block:
 
-1. Click inside a text block, click the **[!UICONTROL Personalize]** icon from the contextual toolbar and select **[!UICONTROL Insert content block]**. For more on the Email Designer interface, see [this section](../../designing/using/about-email-content-design.md#email-designer-interface).
+1. Click inside a text block, click the **[!UICONTROL Personalize]** icon from the contextual toolbar and select **[!UICONTROL Insert content block]**. For more on the Email Designer interface, see [this section](../../designing/using/overview.md#email-designer-interface).
 
    ![](assets/email_content_block_1.png)
 

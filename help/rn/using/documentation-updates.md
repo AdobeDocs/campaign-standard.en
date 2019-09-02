@@ -170,7 +170,7 @@ Workflow enhancements - Read more [here](../../automating/using/workflow-interfa
 
 ### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-1}
 
-The new onboarding experience to create email contents and other enhancements to the Email Designer have been added to the Editing email content chapter. [Read more](../../designing/using/about-email-content-design.md#email-designer-home-page)
+The new onboarding experience to create email contents and other enhancements to the Email Designer have been added to the Editing email content chapter. [Read more](../../designing/using/overview.md#email-designer-home-page)
 
 A new section on Transactional messaging limitations has been added. [Read more](../../channels/using/about-transactional-messaging.md#transactional-messaging-limitations)
 
