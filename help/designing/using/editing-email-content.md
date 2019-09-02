@@ -23,7 +23,7 @@ Learn how to master email content edition. With Email Designer, you can create e
 Here are the main steps to create and design an email content from scratch using the Email Designer:
 
 1. Create an email and open its content.
-1. Add structure components to shape the email. See [Editing the email structure](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
+1. Add structure components to shape the email. See [Editing the email structure](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Insert content components and fragments in the structure components. See [Adding fragments and content components](../../designing/using/designing-from-scratch.md#editing-the-email-structure).
 1. Add images and edit the text of the email. See [Inserting images](../../designing/using/inserting-images.md).
 1. Personalize your email by adding personalization fields, links, and so on. See [Inserting a personalization field](../../designing/using/inserting-a-personalization-field.md), [Inserting a link](../../designing/using/inserting-a-link.md) and [Defining dynamic content in an email](../../designing/using/defining-dynamic-content-in-an-email.md).
@@ -52,7 +52,7 @@ To learn how to build an email from an out-of-the-box-template, see [Email Desig
 You can now create an email template with the Email Designer. Use content components to reflect the different sections of your email and adjust the settings to make them as close as possible to your original newsletter. Finally, insert the fragments that you just created.
 
 1. Using the Email Designer, create a template. For more on this, see [Content templates](../../start/using/about-templates.md#content-templates).
-1. Insert several structure components into your template - corresponding to the header, footer and body of your email. For more on adding structure components, see [Editing the email structure with the Email Designer](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
+1. Insert several structure components into your template - corresponding to the header, footer and body of your email. For more on adding structure components, see [Editing the email structure with the Email Designer](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Insert as many content components as needed to create the body of your newsletter. This will be the editable content of your email that you will update every month.
 
    ![](assets/des_loading_compatible_fragment_5.png)
@@ -206,7 +206,7 @@ That fragment becomes a standalone component that is not linked anymore to the o
 
 #### Inserting fragments into an email {#inserting-elements-into-an-email}
 
-To define the content of your email, you can add content elements in the structure components you have placed beforehand. See [Editing the email structure](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
+To define the content of your email, you can add content elements in the structure components you have placed beforehand. See [Editing the email structure](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
 1. Access the content elements by selecting the **+** icon on the left. Select [Fragments](../../designing/using/designing-from-scratch.md#about-fragments) or [Content components](../../designing/using/designing-from-scratch.md#about-content-components).
 1. If you already know the label or part of the label of the fragment you want to add, you can search for it.

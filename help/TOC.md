@@ -113,8 +113,8 @@ user-guide-title: Adobe Campaign Standard Help
        + [Changing a landing page form data properties](channels/using/changing-a-landing-page-form-data-properties.md)
        + [Defining dynamic content in a landing page](channels/using/defining-dynamic-content-in-a-landing-page.md)
 + Designing content {#designing-content}
-       + [Designing content in Adobe Campaign](designing/using/designing-content-in-adobe-campaign.md)
   + Building email content {#building-email-content}
+       + [Designing content in Adobe Campaign](designing/using/designing-content-in-adobe-campaign.md)
        + [Quick Start](designing/using/quick-start.md)
        + [Overview](designing/using/overview.md)
        + [Defining a subject line](designing/using/subject-line.md)
