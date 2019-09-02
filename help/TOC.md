@@ -144,7 +144,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Inserting a link](designing/using/inserting-a-link.md)
        + [Personalizing URLs](designing/using/personalizing-urls.md)
        + [About tracked URLs](designing/using/about-tracked-urls.md)
-+ Building email content {#building-email-content}
+  + Building email content {#building-email-content}
        + [Designing content in Adobe Campaign](designing/using/designing-content-in-adobe-campaign.md)
        + [Quick Start](designing/using/quick-start.md)
        + [Overview](designing/using/overview.md)
