@@ -27,8 +27,8 @@ You can create an email starting fresh:
 
 You can also create an email  with existing content:
 
-- You can convert an HTML content.[Learn more](../../designing/using/quick-start.md#converting-an-html-content)
-- You can import an existing content.[Learn more](../../designing/using/quick-start.md#compatibility-mode)
+- You can convert an HTML content. [Learn more](../../designing/using/quick-start.md#converting-an-html-content)
+- You can import an existing content. [Learn more](../../designing/using/quick-start.md#compatibility-mode)
 
 ## Without existing content {#without-existing-content}
 
