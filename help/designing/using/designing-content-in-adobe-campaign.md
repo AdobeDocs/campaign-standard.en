@@ -20,7 +20,7 @@ snippet: y
 
 Once you have created a message or a landing page in Adobe Campaign, you need to define its content.
 
-* For more on editing email content and using the Email Designer provided by Adobe Campaign, see [About email content design](../../designing/using/about-email-content-design.md).
+* For more on editing email content and using the Email Designer provided by Adobe Campaign, see [About email content design](../../designing/using/overview.md).
 * For more on editing landing page content, see [About landing page content design](../../channels/using/about-landing-page-content-design.md).
 * For more on editing SMS or push notification content, see [About SMS and push content design](../../channels/using/about-sms-and-push-content-design.md).
 
