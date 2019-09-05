@@ -51,7 +51,7 @@ These templates are managed from the **[!UICONTROL Resources]** > **[!UICONTROL 
 
 ## Content templates {#content-templates}
 
-The HTML content templates are accessible from the **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** screen of the [Advanced menu](../../start/using/interface-description.md#advanced-menu). From there you can manage landing page content templates, email content templates and fragments.
+The HTML content templates are accessible from the **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** screen of the [Advanced menu](../../start/using/interface-description.md#advanced-menu). From there you can manage landing page content templates, email content templates and fragments. 
 
 ![](assets/content_templates_list.png)
 
