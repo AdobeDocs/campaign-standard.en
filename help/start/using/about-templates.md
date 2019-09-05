@@ -51,19 +51,19 @@ These templates are managed from the **[!UICONTROL Resources]** > **[!UICONTROL 
 
 ## Content templates {#content-templates}
 
-The HTML content templates are accessible from the **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** screen of the [Advanced menu](../../start/using/interface-description.md#advanced-menu). From there you can manage landing page content templates, email content templates and fragments. 
+The HTML content templates are accessible from the **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** screen of the [Advanced menu](../../start/using/interface-description.md#advanced-menu). From there, you can manage landing page content templates, email content templates and also fragments.
 
 ![](assets/content_templates_list.png)
 
-The out-of-the-box content templates are read-only. To edit one of them, you must first duplicate it.
+The out-of-the-box content templates are read-only. To edit one of them, you must first duplicate the desired template.
 
 You can create new templates or fragments, and define your own contents. For more on this, see [Creating a content template](../../start/using/about-templates.md#creating-a-content-template) and [Creating a content fragment](../../designing/using/defining-the-email-structure.md#creating-a-content-fragment).
 
-When editing content with the Email Designer, you can also create content templates by saving your content as fragment or template. For more on this, see [Saving content as template](../../start/using/about-templates.md#saving-content-as-template) and [Saving content as fragment](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment).
+When editing content with the Email Designer, you can also create content templates by saving your content as a fragment or as a template. For more on this, see [Saving content as template](../../start/using/about-templates.md#saving-content-as-template) and [Saving content as fragment](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment).
 
 ### Out-of-the-box email content templates {#email-content-templates}
 
-You can manage HTML contents that are offered in the **[!UICONTROL Templates]** tab of the [Email Designer](../../designing/using/about-email-content-design.md#about-the-email-designer) home page.
+You can manage the HTML contents that are offered in the **[!UICONTROL Templates]** tab of the [Email Designer](../../designing/using/about-email-content-design.md#about-the-email-designer) home page.
 
 The out-of-the-box email content templates include eighteen mobile-optimized layouts and four best-in-class responsive templates designed by Behance artists. They correspond to the most current usages such as customer welcome messages, newsletters and reengagement emails, among others. They can easily be customized with your brands' content to ease the process of designing emails from scratch.
 
