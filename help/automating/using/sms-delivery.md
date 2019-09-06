@@ -96,3 +96,4 @@ This example is a birthday workflow. Every day an SMS is sent to profiles whose 
 
   ![](assets/wkf_sms_example_4.png)
 
+For another example of SMS delivery in a workflow, see [Use case: Retargeting workflow sending a new delivery to non-openers](../../automating/using/creating-an-email.md).

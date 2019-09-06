@@ -95,6 +95,13 @@ Once your workflow activities are linked together, you can personalize the trans
 
 Moreover, **[!UICONTROL Targeting]** and **[!UICONTROL Data management (ETL)]** activities allows you to define **segment codes** for their outbound transitions. You can then create reports based on these segment codes in order to measure the efficiency of your maketing campaigns. For more on this, refer to [this section](../../reporting/using/creating-a-report-workflow-segment.md).
 
+**Workflow use cases:** 
+
+* [Use case: Create a once-a-week email delivery](../../automating/using/workflow-weekly-offer.md)
+* [Use case: Creating a delivery segmented on location](../../automating/using/workflow-segmentation-location.md)
+* [Use case: Creating deliveries with a complement](../../automating/using/workflow-created-query-with-complement.md)
+* [Use case: Retargeting workflow sending a new delivery to non-openers](../../automating/using/creating-an-email.md)
+
 ## Configuring activities {#configuring-activities}
 
 By default, activities are not set and won't process the data correctly if they are not configured. Each activity contains several tabs to manage specific configurations and activity generic options such as outbound transitions, labels, etc.
@@ -105,4 +112,3 @@ By default, activities are not set and won't process the data correctly if they 
 1. Define all different options that you need to process the data. Refer to the activity's specific section of this documentation to learn the possible options for each activity.
 1. Save the activity and repeat these operations for each activity of the workflow.
 1. Save the workflow.
-

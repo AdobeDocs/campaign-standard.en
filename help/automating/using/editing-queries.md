@@ -114,4 +114,7 @@ Your queries are now created and defined, this allows you to build a population 
 
 * [Advanced functions](../../automating/using/advanced-expression-editing.md)
 * [Defining filters](../../developing/using/configuring-filter-definition.md)
-
+* [Use case: Create a once-a-week email delivery](../../automating/using/workflow-weekly-offer.md)
+* [Use case: Creating a delivery segmented on location](../../automating/using/workflow-segmentation-location.md)
+* [Use case: Creating deliveries with a complement](../../automating/using/workflow-created-query-with-complement.md)
+* [Use case: Retargeting workflow sending a new delivery to non-openers](../../automating/using/creating-an-email.md)
