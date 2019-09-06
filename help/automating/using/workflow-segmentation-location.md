@@ -62,7 +62,7 @@ For more information, refer to [designing an email](../../designing/using/about-
 1. Click **[!UICONTROL Preview]** to check your layout.
 1. Click **[!UICONTROL Save]**.
 
-![](wf-segmentation-location.png)
+![](assets/wf-segmentation-location.png)
 
 **Related topics:**
 
