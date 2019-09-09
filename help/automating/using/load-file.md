@@ -189,11 +189,11 @@ The example below shows how to send an email using additional data retrieved fro
 
 1. Drag and drop an **[!UICONTROL Enrichment]** activity into your workflow and link the load file and query activities to it.
 
-4. In the **[!UICONTROL Advanced relations]** tab of the enrichment activity, select the **[!UICONTROL 0 or 1 cardinality simple link]** and define the fields to be used for reconciliation. Here we use the last name to reconcile the data with the database profiles.
+1. In the **[!UICONTROL Advanced relations]** tab of the enrichment activity, select the **[!UICONTROL 0 or 1 cardinality simple link]** and define the fields to be used for reconciliation. Here we use the last name to reconcile the data with the database profiles.
 
    ![](assets/load_file_enrichment_relation.png)
 
-6. In the **[!UICONTROL Additional data]** tab, select the elements that you want to use in your email. Here select Account number (column from the file that you retrieved through the load file activity).
+1. In the **[!UICONTROL Additional data]** tab, select the elements that you want to use in your email. Here select Account number (column from the file that you retrieved through the load file activity).
 
    ![](assets/load_file_enrichment_select_element.png)
 
@@ -207,7 +207,7 @@ The example below shows how to send an email using additional data retrieved fro
 
    For more on this, see the [Segmentation](../../automating/using/segmentation.md) section.
 
-7. Drag and drop an **[!UICONTROL Email delivery]** activity into your workflow and open it.
+1. Drag and drop an **[!UICONTROL Email delivery]** activity into your workflow and open it.
 
    <!--The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.-->
 

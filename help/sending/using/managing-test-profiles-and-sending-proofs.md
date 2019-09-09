@@ -160,7 +160,7 @@ When defining a message's audience:
    >
    >Make sure you selected a main target. Otherwise, your message cannot be sent.
 
-2. Click the **[!UICONTROL Confirm]** button. See [Confirming the send](../../sending/using/confirming-the-send.md).
+1. Click the **[!UICONTROL Confirm]** button. See [Confirming the send](../../sending/using/confirming-the-send.md).
 
    ![](assets/trap_confirm.png)
 
