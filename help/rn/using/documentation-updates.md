@@ -64,7 +64,7 @@ A diagram explaining how the different In-App templates handle personal informat
 
 The section on how to save email content as a fragment in the Email Designer has been updated. [Read more](../../designing/using/designing-from-scratch.md#saving-content-as-a-fragment)
 
-A warning was added on how extra white spaces can impact the layout of a email content. [Read more](../../designing/using/adding-a-content-block.md#creating-custom-content-blocks)
+A warning was added on how extra white spaces can impact the layout of a email content. [Read more](../../designing/using/personalization.md#adding-a-content-block#creating-custom-content-blocks)
 
 A new section on Email Designer recommended updates has been added. [Read more](../../designing/using/overview.md#email-designer-updates)
 
@@ -138,7 +138,7 @@ The Designing content chapter has been reorganized and improved with a new secti
 
 A new section on how to save email content as a fragment in the Email Designer has been added. [Read more](../../designing/using/designing-from-scratch.md#saving-content-as-a-fragment)
 
-The Managing links section has been updated with additional information on how to manage tracked URLs in the Email Designer. [Read more](../../designing/using/inserting-a-link.md)
+The Managing links section has been updated with additional information on how to manage tracked URLs in the Email Designer. [Read more](../../designing/using/links.md#inserting-a-link)
 
 A new section has been added to describe the specific transactional message retry process. [Read more](../../channels/using/event-transactional-messages.md#transactional-message-retry-process)
 
@@ -176,7 +176,7 @@ A new section on Transactional messaging limitations has been added. [Read more]
 
 A new section comparing the different email authoring options in Adobe Campaign has been added. [Read more](../../designing/using/using-integrations.md#email-design-options-comparison)
 
-The Creating custom content blocks section has been enhanced with details on targeting dimensions. [Read more](../../designing/using/adding-a-content-block.md#creating-custom-content-blocks)
+The Creating custom content blocks section has been enhanced with details on targeting dimensions. [Read more](../../designing/using/personalization.md#adding-a-content-block#creating-custom-content-blocks)
 
 A warning indicating that the Email Designer does not support Internet Explorer 11 has been added. [Read more](../../start/using/compatible-browsers.md)
 
@@ -238,7 +238,7 @@ Added information on the new option in the Load data activity that lets you appl
 
 Added information on the new field in the Update data activity that allows you to configure the maximum batch size for the data to upload. [Read more](../../automating/using/update-data.md)
 
-Updated the [Importing content from a URL](../../designing/using/importing-content-from-a-url.md) documentation with information related to the Email designer.
+Updated the [Importing content from a URL](../../designing/using/using-existing-content.md#importing-content-from-a-url) documentation with information related to the Email designer.
 
 The Microsoft Edge (latest version) was added to the list of compatible browsers for computers. [Read more](../../start/using/compatible-browsers.md)
 
@@ -274,7 +274,7 @@ Updated Push notification out-of-the-box report section. [Read more](../../repor
 
 [High priority flag](../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android) and [typology filter](../../administration/using/about-typology-rules.md#typology-rules) for mobile app subscribers.
 
-Automated content import from a URL at preparation time. [Read more](../../designing/using/importing-content-from-a-url.md#retrieving-content-from-a-url-automatically-at-preparation-time)
+Automated content import from a URL at preparation time. [Read more](../../designing/using/using-existing-content.md##retrieving-content-from-a-url-automatically-at-preparation-time)
 
 ### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-4}
 
@@ -286,7 +286,7 @@ The "Designing Content" guide has been fully reorganized, particularly to presen
 
 Learn how to simply make external contents fully editable with the Creative SDK by creating fragments from your existing emails. [Read more](../../designing/using/designing-from-scratch.md)
 
-The list of HTML attributes for full compliance with the Creative Designer is now available in this [section](../../designing/using/editing-existing-contents-with-the-email-designer.md).
+The list of HTML attributes for full compliance with the Creative Designer is now available in this [section](../../designing/using/using-existing-content.md#editing-existing-contents-with-the-email-designer).
 
 Added information on default language for multilingual template. [Read more](../../start/using/creating-a-multilingual-template.md)
 
@@ -456,7 +456,7 @@ Instructions to configure the integration with Audience Manager or People core s
 
 Fatigue Management - [Read more](../../administration/using/fatigue-rules.md)
 
-Content creation: Import from a URL - [Read more](../../designing/using/importing-content-from-a-url.md)
+Content creation: Import from a URL - [Read more](../../designing/using/using-existing-content.md#importing-content-from-a-url)
 
 ### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-10}
 
@@ -512,7 +512,7 @@ Added S3 account recommendations. [Read more](../../administration/using/externa
 
 Updated the section about the different types of users. [Read more](../../administration/using/users-management.md)
 
-Updated the section about image source personalization. [Read more](../../designing/using/personalizing-an-image-source.md)
+Updated the section about image source personalization. [Read more](../../designing/using/personalization.md#personalizing-an-image-source)
 
 Documentation added on active profiles report. [Read more](../../audiences/using/active-profiles.md)
 
@@ -588,7 +588,7 @@ Update of the contextual help links available directly from Adobe Campaign.
 
 ### New capabilities included in the release {#new-capabilities-included-in-the-release-14}
 
-Enhanced Image edition capabilities with the Creative SDK - [Read more](../../designing/using/modifying-images-with-the-adobe-creative-sdk.md)
+Enhanced Image edition capabilities with the Creative SDK - [Read more](../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk)
 
 Transactional push notifications - [Read more](../../channels/using/transactional-push-notifications.md)
 

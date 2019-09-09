@@ -64,7 +64,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 
 * When selecting a content block using the Creative Designer interface, all the content blocks from the list are now loaded and displayed. (CAMP-27311)
 
-  For more on this, refer to the [detailed documentation](../../designing/using/adding-a-content-block.md).
+  For more on this, refer to the [detailed documentation](../../designing/using/personalization.md#adding-a-content-block).
 
 ### Patches {#patches}
 
@@ -111,7 +111,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
   </tr> 
   <tr> 
    <td> Automated content import from a URL during message preparation<br /> </td> 
-   <td> It is now possible to import email content from a URL during the preparation phase. For recurring email deliveries, the latest HTML content is retrieved each time the message is prepared ensuring the content is always up-to-date at the time the email is sent. This feature also lets you create a scheduled delivery with content from a URL even if the content is not ready yet.<br /> For more information, refer to the <a href="../../designing/using/importing-content-from-a-url.md#retrieving-content-from-a-url-automatically-at-preparation-time">detailed documentation</a>.<br /> </td> 
+   <td> It is now possible to import email content from a URL during the preparation phase. For recurring email deliveries, the latest HTML content is retrieved each time the message is prepared ensuring the content is always up-to-date at the time the email is sent. This feature also lets you create a scheduled delivery with content from a URL even if the content is not ready yet.<br /> For more information, refer to the <a href="../../designing/using/using-existing-content.md##retrieving-content-from-a-url-automatically-at-preparation-time">detailed documentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Campaign release notification message<br /> </td> 

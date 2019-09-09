@@ -42,7 +42,7 @@ To define the name of the sender which will appear in the header of messages sen
 
 Adobe Campaign allows you to personalize one or several URLs in your message by adding personalization fields, content blocks, or dynamic content to them. To do this:
 
-1. Insert an external URL and specify its parameters. See [Inserting a link](../../designing/using/inserting-a-link.md).
+1. Insert an external URL and specify its parameters. See [Inserting a link](../../designing/using/links.md#inserting-a-link).
 1. If not displayed, click the pencil next to the selected URL in the Settings pane to access the personalization options.
 1. Add the personalization fields, content blocks, and dynamic contents that you want to use.
 
@@ -146,7 +146,7 @@ To create a content block, follow these steps:
 
    ![](assets/content_bloc_02.png)
 
-1. You can select a **[!UICONTROL Targeting dimension]**. For more on this, see [About targeting dimension](../../designing/using/adding-a-content-block.md#about-targeting-dimension).
+1. You can select a **[!UICONTROL Targeting dimension]**. For more on this, see [About targeting dimension](../../designing/using/personalization.md#about-targeting-dimension).
 
    ![](assets/content_bloc_04.png)
 
@@ -226,7 +226,7 @@ These conditions adopt the XTK expression syntax (e.g. **context.profile.email !
 
 In an email, you can define different contents which will be displayed dynamically to the recipients according to the conditions defined via the expression editor. For example, from the same email, you can ensure that each profile receives a different message according to their age range.
 
-Defining dynamic content is different from [defining visibility conditions](../../designing/using/defining-a-visibility-condition.md).
+Defining dynamic content is different from [defining visibility conditions](../../designing/using/personalization.md#defining-a-visibility-condition).
 
 1. Select a fragment, a component or an element. In this example, select an image.
 1. Click the **[!UICONTROL Dynamic content]** icon from the contextual toolbar.
@@ -259,7 +259,7 @@ Defining dynamic content is different from [defining visibility conditions](../.
 
    ![](assets/dynamic_content_7.png)
 
-   The contents will be displayed in the palette in order of priority, from top to bottom. For more on priorities, refer to [this section](../../designing/using/defining-dynamic-content-in-an-email.md#order-of-priority).
+   The contents will be displayed in the palette in order of priority, from top to bottom. For more on priorities, refer to [this section](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 
 1. Upload a new image for the variant you just defined.
 
@@ -316,13 +316,13 @@ The email is created as follows:
 
   ![](assets/delivery_content_43.png)
 
-  Adding and configuring dynamic content is detailed in the [Defining dynamic content in an email](../../designing/using/defining-dynamic-content-in-an-email.md) section.
+  Adding and configuring dynamic content is detailed in the [Defining dynamic content in an email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) section.
 
 * Personalization fields and dynamic contents are applied to the text. Depending on the age range of the profile, the email starts with either the profile's first name, or the profile's title and last name.
 
   ![](assets/delivery_content_44.png)
 
-  Adding and configuring the personalization fields is detailed in the [Inserting a personalization field](../../designing/using/inserting-a-personalization-field.md) section.
+  Adding and configuring the personalization fields is detailed in the [Inserting a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field) section.
 
 ### Configuring images {#configuring-images}
 

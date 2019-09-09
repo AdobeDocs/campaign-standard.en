@@ -93,7 +93,7 @@ To set up personalization in a transactional message, follow the steps below:
 
    ![](assets/message-center_7-enrichment.png)
 
-   The steps for inserting a personalization field are detailed in the [Inserting a personalization field](../../designing/using/inserting-a-personalization-field.md) section.
+   The steps for inserting a personalization field are detailed in the [Inserting a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field) section.
 
    ![](assets/message-center_8.png)
 
@@ -218,7 +218,7 @@ For more on creating a collection and related fields when configuring the event,
 
    The fallback content will be displayed if the collection is empty when the event is triggered, for example if a customer has nothing in his cart.
 
-1. From the Settings pane, edit the styles for the product listing. For more on this, see [Editing email styles](../../designing/using/editing-email-styles.md).
+1. From the Settings pane, edit the styles for the product listing. For more on this, see [Editing email styles](../../designing/using/styles.md).
 1. Preview the email using a test profile linked to the relevant transactional event and for which you defined collection data. For example, add the following information in the **[!UICONTROL Event data]** section for the test profile you want to use:
 
    ![](assets/message-center_loop_test-profile_payload.png)

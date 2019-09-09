@@ -22,11 +22,11 @@ Get your clients' attention and improve your response rate by using content and 
 
 Personalized messages are key to send relevant content, offer personalized experiences and increase open and conversion rates. Cross-channel messages delivered by Adobe Campaign can be personalized in several different ways. These ways can be combined with criteria depending on the profiles. You can:
 
-* Insert [dynamic personalization fields](../../designing/using/inserting-a-personalization-field.md) in your messages
-* Insert [predefined personalization blocks](../../designing/using/adding-a-content-block.md)
+* Insert [dynamic personalization fields](../../designing/using/personalization.md#inserting-a-personalization-field) in your messages
+* Insert [predefined personalization blocks](../../designing/using/personalization.md#adding-a-content-block)
 * [Personalize the sender](../../designing/using/personalizing-the-sender.md) of an email or a SMS
 * [Personalize the subject line](../../designing/using/personalizing-the-subject-line-of-an-email.md) of an email, or use [Predictive subject line](../../designing/using/subject-line.md#predictive-subject-line) capabilities to optimize it
-* Create [conditional content in an email](../../designing/using/defining-dynamic-content-in-an-email.md) or [in a landing page](../../channels/using/defining-dynamic-content-in-a-landing-page.md)
+* Create [conditional content in an email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) or [in a landing page](../../channels/using/defining-dynamic-content-in-a-landing-page.md)
 * Insert [Dynamic text](../../channels/using/defining-dynamic-text.md) in a SMS message or a Push notification
 
 ![](assets/delivery_content_43.png)
@@ -35,5 +35,5 @@ Personalized messages are key to send relevant content, offer personalized exper
 
 * Discover email personalization through a [end-to-end sample](../../designing/using/personalization.md#example-email-personalization)
 * Learn how to personalize URLs [in this page](../../designing/using/personalizing-urls.md)
-* Learn how to set up personalization of an image [in this page](../../designing/using/personalizing-an-image-source.md)
+* Learn how to set up personalization of an image [in this page](../../designing/using/personalization.md#personalizing-an-image-source)
 

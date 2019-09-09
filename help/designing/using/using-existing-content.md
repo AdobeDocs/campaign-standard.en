@@ -34,10 +34,10 @@ When creating an email or a landing page, you can choose to load an existing con
 
 1. Select the source of the content you want to load:
 
-    * [Content templates](../../start/using/about-templates.md#content-templates): click the **[!UICONTROL Templates]** tab.
+    * [Content templates](../../start/using/using-reusable-content.md#content-templates): click the **[!UICONTROL Templates]** tab.
     * [Content from scratch](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch), to start fresh: click the **[!UICONTROL Create]** button.
     * [Content from your computer as a ZIP or HTML file](../../designing/using/using-existing-content.md#importing-content-from-a-file): click the **[!UICONTROL Upload]** button.
-    * [Content from an existing URL](../../designing/using/importing-content-from-a-url.md) (only for emails): click the **[!UICONTROL Import from URL]** button.
+    * [Content from an existing URL](../../designing/using/using-existing-content.md#importing-content-from-a-url) (only for emails): click the **[!UICONTROL Import from URL]** button.
 
    ![](assets/des_loading_2.png)
 
@@ -47,7 +47,7 @@ When creating an email or a landing page, you can choose to load an existing con
 
    >[!NOTE]
    >
-   >The [Email Designer](../../designing/using/overview.md) uses specific tagging. Standard HTML content uploaded to Campaign have to match the expected tagging to be fully compatible and editable from the Email Designer. If not matching, your content is uploaded in [compatibility mode](../../designing/using/using-existing-content.md#compatibility-mode). To make existing contents compatible, see [this section](../../designing/using/editing-existing-contents-with-the-email-designer.md).
+   >The [Email Designer](../../designing/using/overview.md) uses specific tagging. Standard HTML content uploaded to Campaign have to match the expected tagging to be fully compatible and editable from the Email Designer. If not matching, your content is uploaded in [compatibility mode](../../designing/using/using-existing-content.md#compatibility-mode). To make existing contents compatible, see [this section](../../designing/using/using-existing-content.md#editing-existing-contents-with-the-email-designer).
 
 **Related topics:**
 
@@ -207,7 +207,7 @@ If this is not the case, cut out the different blocks from your HTML. For exampl
 Once you have identified all your blocks, in the Email Designer, repeat the following procedure for each section of your existing email:
 
 1. Open the Email Designer to create an empty email content.
-1. Set the body level attributes: background colors, width, etc. For more on this, see [Editing email styles](../../designing/using/editing-email-styles.md).
+1. Set the body level attributes: background colors, width, etc. For more on this, see [Editing email styles](../../designing/using/styles.md).
 1. Add a structure component. For more on this, see [Editing the email structure](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Add an HTML component. For more on this, see [Adding fragments and components](../../designing/using/designing-from-scratch.md#editing-the-email-structure).
 1. Copy-paste your HTML into that component.

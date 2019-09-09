@@ -26,7 +26,7 @@ Certain blocks, such as images, cannot be directly selected. In this case, selec
 
 The breadcrumb is presented in the [Managing blocks](../../channels/using/managing-landing-page-structure-and-style.md) section.
 
-The next steps for defining dynamic content in a landing page are similar to the steps to follow for an email. See [this section](../../designing/using/defining-dynamic-content-in-an-email.md).
+The next steps for defining dynamic content in a landing page are similar to the steps to follow for an email. See [this section](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 
 >[!NOTE]
 >

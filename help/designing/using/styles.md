@@ -189,7 +189,7 @@ The styling is then applied to the selected element. If the child elements do no
 
 You can fine-tune the responsive design of an email by separately editing all style options for mobile display. For example, you can adapt margins and padding, use smaller or bigger font sizes, change buttons, or apply different background colors that will be specific to the mobile version of your email.
 
-All style options are available in mobile view. The Email Designer style settings are presented in the [Editing email styles](../../designing/using/editing-email-styles.md) section.
+All style options are available in mobile view. The Email Designer style settings are presented in the [Editing email styles](../../designing/using/styles.md) section.
 
 1. Create an email and start editing the content. For more on this, see [Designing an email content from scratch](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 1. To access the dedicated mobile view, select the **[!UICONTROL Switch to mobile view]** button.
@@ -253,4 +253,4 @@ You can either set this option from the mobile or desktop view.
 
 >[!NOTE]
 >
->The mobile view is not available in [fragments](../../designing/using/designing-from-scratch.md#about-fragments).
+>The mobile view is not available in [fragments](../../designing/using/using-reusable-content.md#about-fragments).

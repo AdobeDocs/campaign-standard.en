@@ -26,7 +26,7 @@ Here are the main steps to create and design an email content from scratch using
 1. Add structure components to shape the email. See [Editing the email structure](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Insert content components and fragments in the structure components. See [Adding fragments and content components](../../designing/using/designing-from-scratch.md#editing-the-email-structure).
 1. Add images and edit the text of the email. See [Inserting images](../../designing/using/inserting-images.md).
-1. Personalize your email by adding personalization fields, links, and so on. See [Inserting a personalization field](../../designing/using/inserting-a-personalization-field.md), [Inserting a link](../../designing/using/inserting-a-link.md) and [Defining dynamic content in an email](../../designing/using/defining-dynamic-content-in-an-email.md).
+1. Personalize your email by adding personalization fields, links, and so on. See [Inserting a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field), [Inserting a link](../../designing/using/links.md#inserting-a-link) and [Defining dynamic content in an email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 1. Define the subject line of your email. See [Personalizing the subject line of an email](../../designing/using/personalizing-the-subject-line-of-an-email.md).
 1. Preview your email.
 1. Save your content, and proceed with your message after making sure that you have defined an audience and properly scheduled the sending.
@@ -67,7 +67,7 @@ You can now create an email template with the Email Designer. Use content compon
 
    ![](assets/des_loading_compatible_fragment_6.png)
 
-   For more on managing style settings and inline attributes, see [Editing email styles](../../designing/using/editing-email-styles.md).
+   For more on managing style settings and inline attributes, see [Editing email styles](../../designing/using/styles.md).
 
 1. Insert the two fragments (header and footer) that you previously created into the desired structure components.
 

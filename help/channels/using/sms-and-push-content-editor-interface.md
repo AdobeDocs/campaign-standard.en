@@ -59,13 +59,13 @@ The action bar contains different buttons that allow you to interact with the co
    <td> <img height="21px" src="assets/personalization_field_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Insert personalization field</span> <br /> </td> 
    <td> SMS and push<br /> </td> 
-   <td> Allows you to add a field from the database to the content. See <a href="../../designing/using/inserting-a-personalization-field.md" target="_blank">Inserting a personalization field</a>.<br /> </td> 
+   <td> Allows you to add a field from the database to the content. See <a href="../../designing/using/personalization.md#inserting-a-personalization-field" target="_blank">Inserting a personalization field</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/personalization_block_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Insert content block</span> <br /> </td> 
    <td> SMS and push<br /> </td> 
-   <td> Allows you to add a personalization block to the content. See <a href="../../designing/using/adding-a-content-block.md" target="_blank">Adding a content block</a>.<br /> </td> 
+   <td> Allows you to add a personalization block to the content. See <a href="../../designing/using/personalization.md#adding-a-content-block" target="_blank">Adding a content block</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/dynamiccontent_24px.png" /> <br /> </td> 
@@ -87,8 +87,8 @@ The action bar contains different buttons that allow you to interact with the co
 The SMS and push content editor offers the following functionalities:
 
 * Enter text.
-* Add a personalization field. For more on this, see [Inserting a personalization field](../../designing/using/inserting-a-personalization-field.md).
-* Add a content block. For more on this, see [Adding a content block](../../designing/using/adding-a-content-block.md).
+* Add a personalization field. For more on this, see [Inserting a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field).
+* Add a content block. For more on this, see [Adding a content block](../../designing/using/personalization.md#adding-a-content-block).
 * Add dynamic text. For more on this, see [Defining dynamic text](../../channels/using/defining-dynamic-text.md).
 * Personalize the name of the SMS sender (SMS only). For more on this, see [SMS configuration](../../administration/using/configuring-sms-channel.md#configuring-sms-properties).
 

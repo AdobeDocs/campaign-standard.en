@@ -34,7 +34,7 @@ The **[!UICONTROL Properties]** tab enables you to edit the email details such a
 
 ![](assets/email_designer_home_properties.png)
 
-The **[!UICONTROL Templates]** tab enables you to choose from the out-of-the-box HTML contents or the templates that you already created to quickly start designing your email. See [Content templates](../../start/using/about-templates.md#content-templates).
+The **[!UICONTROL Templates]** tab enables you to choose from the out-of-the-box HTML contents or the templates that you already created to quickly start designing your email. See [Content templates](../../start/using/using-reusable-content.md#content-templates).
 
 ![](assets/email_designer_home_templates.png)
 
@@ -45,8 +45,8 @@ The **[!UICONTROL Learn & support]** tab gives you easy access to the related do
 If you do not select a template, the Email Designer home page also enables you to choose how you want to start designing your content:
 
 * Click the **[!UICONTROL Create]** button to start a new content from scratch. See [Designing an email content from scratch](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
-* Click the **[!UICONTROL Upload]** button to upload a file from your computer. See [Importing content from a file](../../designing/using/importing-content-from-a-file.md).
-* Click the **[!UICONTROL Import from URL]** button to retrieve existing content form a URL. See [Importing content from a URL](../../designing/using/importing-content-from-a-url.md).
+* Click the **[!UICONTROL Upload]** button to upload a file from your computer. See [Importing content from a file](../../designing/using/using-existing-content.md#importing-content-from-a-file).
+* Click the **[!UICONTROL Import from URL]** button to retrieve existing content form a URL. See [Importing content from a URL](../../designing/using/using-existing-content.md#importing-content-from-a-url).
 
 ### Email Designer interface {#email-designer-interface}
 

@@ -20,7 +20,7 @@ snippet: y
 
 In an email, you can define different contents which will be displayed dynamically to the recipients according to the conditions defined via the expression editor. For example, from the same email, you can ensure that each profile receives a different message according to their age range.
 
-Defining dynamic content is different from [defining visibility conditions](../../designing/using/defining-a-visibility-condition.md).
+Defining dynamic content is different from [defining visibility conditions](../../designing/using/personalization.md#defining-a-visibility-condition).
 
 1. Select a fragment, a component or an element. In this example, select an image.
 1. Click the **[!UICONTROL Dynamic content]** icon from the contextual toolbar.
@@ -53,7 +53,7 @@ Defining dynamic content is different from [defining visibility conditions](../.
 
    ![](assets/dynamic_content_7.png)
 
-   The contents will be displayed in the palette in order of priority, from top to bottom. For more on priorities, refer to [this section](../../designing/using/defining-dynamic-content-in-an-email.md#order-of-priority).
+   The contents will be displayed in the palette in order of priority, from top to bottom. For more on priorities, refer to [this section](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 
 1. Upload a new image for the variant you just defined.
 

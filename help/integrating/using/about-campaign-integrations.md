@@ -99,7 +99,7 @@ If you would like to integrate data flows from other systems with Adobe Campaign
   <tr> 
    <td> Creative SDK<br /> </td> 
    <td> Allows you to edit images and use a complete set of features powered by the Adobe Creative SDK to enhance your images directly in the content editor.<br /> </td> 
-   <td> <a href="../../designing/using/modifying-images-with-the-adobe-creative-sdk.md">Modifying images with the Adobe Creative SDK</a><br /> </td> 
+   <td> <a href="../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk">Modifying images with the Adobe Creative SDK</a><br /> </td> 
   </tr> 
   <tr> 
    <td> Experience Platform SDKs<br /> </td> 

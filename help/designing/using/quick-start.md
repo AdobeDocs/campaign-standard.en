@@ -36,9 +36,9 @@ You can also create an email  with existing content:
 
 You can create an email easily, add components and personalize their content to send a delivery quickly. You can adapt the styling options to your content if needed. For more on managing style settings and inline attributes, see [Editing email styles](../../designing/using/styles.md).
 
-### Add a subject line {#add-a-subject-line}
+### Adding a subject line {#add-a-subject-line}
 
-Subject lines are mandatory when sending an email.
+Subject lines are mandatory when sending an email. For more information, see [Defining the subject line of an email](../../designing/using/subject-line.md).
 
 1. Create an email.
 1. Close homepage.
@@ -46,9 +46,9 @@ Subject lines are mandatory when sending an email.
 
 ![](assets/subject-line-quick-start.png)
 
-### Add structure components {#add-structure-components}
+### Adding structure components {#add-structure-components}
 
-Structure components will define the layout of your email.
+Structure components will define the layout of your email. For more information, see [Defining the structure of an email](../../designing/using/designing-from-scratch.md##defining-the-email-structure).
 
 In Structure components, drag and drop components for the layout you want to use.
 
@@ -58,9 +58,9 @@ In Structure components, drag and drop components for the layout you want to use
 
 ![](assets/structure-components-quick-start.png)
 
-### Add content components {#add-content-components}
+### Adding content components {#add-content-components}
 
-You can add several content components to your email such as image, text and buttons. For more information, see [Content components](designing-from-scratch.md#about-content-components).
+You can add several content components to your email such as image, text and buttons. For more information, see [Content components](../../designing/using/designing-from-scratch.md#about-content-components).
 
 - Image
 
@@ -92,7 +92,7 @@ If you are familiar with HTML, you can copy-paste the HTML code from the origina
 
 ![](assets/des_loading_compatible_fragment_9.png)
 
-### Style your email component
+### Styling your email component
 
 You can adjust your email styling, for example by changing the padding of a component. For more on managing style settings and inline attributes, see [Editing email styles](../../designing/using/styles.md). 
 
@@ -143,7 +143,7 @@ This use case offers a quick way to convert an HTML email into Email Designer co
 Outside of the Email Designer, make sure the original HTML is divided into reusable sections.
 
 1. Open the Email Designer to create an empty email content.
-1. Set the body level attributes: background colors, width, etc. For more on this, see [Editing email styles](../../designing/using/editing-email-styles.md).
+1. Set the body level attributes: background colors, width, etc. For more on this, see [Editing email styles](../../designing/using/styles.md).
 
 If this is not the case, cut out the different blocks from your HTML. For example, here is a clearly identified section:
 

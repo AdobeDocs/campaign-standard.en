@@ -26,7 +26,7 @@ The following types of images are available, depending on your configuration:
 * Images shared from Adobe Experience Cloud - refer to [Working with Campaign and Assets Core Service](../../integrating/using/working-with-campaign-and-assets-core-service.md) / Assets On Demand
 * Dynamic images from Adobe Target - refer to [Working with Campaign and Target](../../integrating/using/about-campaign-target-integration.md)
 
-If enabled, you can modify images with the Adobe Creative SDK. See [Modifying images with the Adobe Creative SDK](../../designing/using/modifying-images-with-the-adobe-creative-sdk.md).
+If enabled, you can modify images with the Adobe Creative SDK. See [Modifying images with the Adobe Creative SDK](../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk).
 
 >[!CAUTION]
 >

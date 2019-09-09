@@ -18,7 +18,7 @@ snippet: y
 
 # Personalizing SMS messages{#personalizing-sms-messages}
 
-The principles for personalizing SMS messages are the same as those for [emails](../../designing/using/inserting-a-personalization-field.md). You must nevertheless be aware of the transliteration options as these can impact the encoding and therefore the number of SMS messages to send. For more on this, refer to the [Transliteration and SMS length](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration) section.
+The principles for personalizing SMS messages are the same as those for [emails](../../designing/using/personalization.md#inserting-a-personalization-field). You must nevertheless be aware of the transliteration options as these can impact the encoding and therefore the number of SMS messages to send. For more on this, refer to the [Transliteration and SMS length](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration) section.
 
 Here we take a sample SMS message containing personalization fields which, depending on whether or not transliteration has been selected, will not generate the same number of sends:
 

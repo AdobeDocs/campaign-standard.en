@@ -78,7 +78,7 @@ To create a content block, follow these steps:
 
    ![](assets/content_bloc_02.png)
 
-1. You can select a **[!UICONTROL Targeting dimension]**. For more on this, see [About targeting dimension](../../designing/using/adding-a-content-block.md#about-targeting-dimension).
+1. You can select a **[!UICONTROL Targeting dimension]**. For more on this, see [About targeting dimension](../../designing/using/personalization.md#about-targeting-dimension).
 
    ![](assets/content_bloc_04.png)
 

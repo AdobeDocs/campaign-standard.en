@@ -108,7 +108,7 @@ To create a content block, follow these steps:
 
    ![](assets/content_bloc_02.png)
 
-1. You can select a **[!UICONTROL Targeting dimension]**. For more on this, see [About targeting dimension](../../designing/using/adding-a-content-block.md#about-targeting-dimension).
+1. You can select a **[!UICONTROL Targeting dimension]**. For more on this, see [About targeting dimension](../../designing/using/personalization.md#about-targeting-dimension).
 
    ![](assets/content_bloc_04.png)
 
@@ -158,9 +158,9 @@ To define the name of the sender which will appear in the header of messages sen
 
 **Related topics:**
 
-* [Inserting a personalization field](../../designing/using/inserting-a-personalization-field.md)
-* [Adding a content block](../../designing/using/adding-a-content-block.md)
-* [Defining dynamic content in an email](../../designing/using/defining-dynamic-content-in-an-email.md)
+* [Inserting a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field)
+* [Adding a content block](../../designing/using/personalization.md#adding-a-content-block)
+* [Defining dynamic content in an email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
 
 ## SMS sender {#sms-sender}
 
@@ -184,9 +184,9 @@ You can also add personalization fields, content blocks and dynamic content to t
 
 **Related topics:**
 
-* [Inserting a personalization field](../../designing/using/inserting-a-personalization-field.md)
-* [Adding a content block](../../designing/using/adding-a-content-block.md)
-* [Defining dynamic content in an email](../../designing/using/defining-dynamic-content-in-an-email.md)
+* [Inserting a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field)
+* [Adding a content block](../../designing/using/personalization.md#adding-a-content-block)
+* [Defining dynamic content in an email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
 
 ## Predictive subject line {#predictive-subject-line}
 

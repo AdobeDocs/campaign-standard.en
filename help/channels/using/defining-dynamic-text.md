@@ -18,11 +18,11 @@ snippet: y
 
 # Defining dynamic text{#defining-dynamic-text}
 
-Dynamic text is defined in the same way as dynamic content. Refer to the [Definig dynamic content](../../designing/using/defining-dynamic-content-in-an-email.md) section.
+Dynamic text is defined in the same way as dynamic content. Refer to the [Definig dynamic content](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) section.
 
 >[!NOTE]
 >
->For SMS and push, you can only define dynamic text. You can define both dynamic content and text in a landing page. If you want to define dynamic text with the [Email Designer](../../designing/using/overview.md), see [Defining dynamic content in an email](../../designing/using/defining-dynamic-content-in-an-email.md).
+>For SMS and push, you can only define dynamic text. You can define both dynamic content and text in a landing page. If you want to define dynamic text with the [Email Designer](../../designing/using/overview.md), see [Defining dynamic content in an email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 
 The example below shows how to define dynamic text in an SMS message.
 

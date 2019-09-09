@@ -34,9 +34,9 @@ You can also add personalization fields, content blocks and dynamic content to t
 
 **Related topics:**
 
-* [Inserting a personalization field](../../designing/using/inserting-a-personalization-field.md)
-* [Adding a content block](../../designing/using/adding-a-content-block.md)
-* [Defining dynamic content in an email](../../designing/using/defining-dynamic-content-in-an-email.md)
+* [Inserting a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field)
+* [Adding a content block](../../designing/using/personalization.md#adding-a-content-block)
+* [Defining dynamic content in an email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
 
 ## Predictive subject line {#predictive-subject-line}
 

@@ -24,14 +24,14 @@ This section describes the specificities of the Email Designer:
 
 * [About the Email Designer](../../designing/using/overview.md)
 * [Defining the email structure](../../designing/using/defining-the-email-structure.md)
-* [Editing email styles](../../designing/using/editing-email-styles.md)
+* [Editing email styles](../../designing/using/styles.md)
 
 To know more about actions that are common to one or more marketing activities, refer to the following sections:
 
-* For more on personalizing an email content, see [Inserting a personalization field](../../designing/using/inserting-a-personalization-field.md) and [Adding a content block](../../designing/using/adding-a-content-block.md).
+* For more on personalizing an email content, see [Inserting a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field) and [Adding a content block](../../designing/using/personalization.md#adding-a-content-block).
 * For more on importing another email content, see [Selecting an existing content](../../designing/using/selecting-an-existing-content.md).
-* For more on defining dynamic content in an email, see [Defining dynamic content in an email](../../designing/using/defining-dynamic-content-in-an-email.md).
-* For more on inserting links in an email, see [Inserting a link](../../designing/using/inserting-a-link.md).
+* For more on defining dynamic content in an email, see [Defining dynamic content in an email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
+* For more on inserting links in an email, see [Inserting a link](../../designing/using/links.md#inserting-a-link).
 * For more on inserting images in an email, see [Inserting images](../../designing/using/inserting-images.md).
 
 Also check the [general best practices for content design](../../designing/using/content-design-best-practices.md).
@@ -61,7 +61,7 @@ For more on converting an existing email into an Email Designer-compatible email
 
 * You cannot use personalization fields in a fragment. For more on fragments, see [this section](../../designing/using/designing-from-scratch.md#about-fragments).
 * When editing styles, only the web fonts officially supported by most email clients are available.
-* Styles cannot be saved as a theme for future reuse. However, the CSS style can be saved in a content template or in an email. For more on styles, see [this section](../../designing/using/editing-email-styles.md).
+* Styles cannot be saved as a theme for future reuse. However, the CSS style can be saved in a content template or in an email. For more on styles, see [this section](../../designing/using/styles.md).
 
 ### Email Designer updates {#email-designer-updates}
 
@@ -93,7 +93,7 @@ Here are the main steps to create and design an email content from scratch using
 1. Add structure components to shape the email. See [Editing the email structure](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
 1. Insert content components and fragments in the structure components. See [Adding fragments and content components](../../designing/using/designing-from-scratch.md#editing-the-email-structure).
 1. Add images and edit the text of the email. See [Inserting images](../../designing/using/inserting-images.md).
-1. Personalize your email by adding personalization fields, links, and so on. See [Inserting a personalization field](../../designing/using/inserting-a-personalization-field.md), [Inserting a link](../../designing/using/inserting-a-link.md) and [Defining dynamic content in an email](../../designing/using/defining-dynamic-content-in-an-email.md).
+1. Personalize your email by adding personalization fields, links, and so on. See [Inserting a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field), [Inserting a link](../../designing/using/links.md#inserting-a-link) and [Defining dynamic content in an email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 1. Define the subject line of your email. See [Personalizing the subject line of an email](../../designing/using/personalizing-the-subject-line-of-an-email.md).
 1. Preview your email.
 1. Save your content, and proceed with your message after making sure that you have defined an audience and properly scheduled the sending.
@@ -118,7 +118,7 @@ You can also check out this [introduction video](https://video.tv.adobe.com/v/22
 
 This section explains how to convert an existing email into an Email Designer-compatible email.
 
-By default, if you just upload any HTML (see [Importing content from a file](../../designing/using/importing-content-from-a-file.md)), the content is loaded in '[compatibility mode](../../designing/using/using-existing-content.md#compatibility-mode)', which limits the edition possibilities through the UI (only in-place edition, no drag-and-drop).
+By default, if you just upload any HTML (see [Importing content from a file](../../designing/using/using-existing-content.md#importing-content-from-a-file)), the content is loaded in '[compatibility mode](../../designing/using/using-existing-content.md#compatibility-mode)', which limits the edition possibilities through the UI (only in-place edition, no drag-and-drop).
 
 However, if you want to build a framework of modular templates and fragments that can be combined to reuse in multiple emails, you should consider converting your email HTML into an Email Designer template.
 
@@ -141,7 +141,7 @@ When designing content with the Email Designer, you have three options:
 1. You can move the elements around using the blue arrow on the left to drag a structure component below or above another. For more on this, see [Editing the email structure](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
 1. You can also move components around to change the organization of each structure element. For more on this, see [Adding fragments and components](../../designing/using/designing-from-scratch.md#editing-the-email-structure).
 1. Modify the content of each element according to your needs: images, text, links.
-1. Adapt the styling options to your content if needed. For more on this, see [Editing email styles](../../designing/using/editing-email-styles.md).-->
+1. Adapt the styling options to your content if needed. For more on this, see [Editing email styles](../../designing/using/styles.md).-->
 
 ### Using fragments and components {#using-fragments-and-components}
 
@@ -182,7 +182,7 @@ To do this, follow the steps below:
 
 1. Upload the corresponding image, enter your text and adjust the settings.
 
-   For more on managing style settings and inline attributes, see [Editing email styles](../../designing/using/editing-email-styles.md).
+   For more on managing style settings and inline attributes, see [Editing email styles](../../designing/using/styles.md).
 
    ![](assets/des_loading_compatible_fragment_3.png)
 
@@ -217,7 +217,7 @@ You can now create an email template with the Email Designer. Use content compon
 
    ![](assets/des_loading_compatible_fragment_6.png)
 
-   For more on managing style settings and inline attributes, see [Editing email styles](../../designing/using/editing-email-styles.md).
+   For more on managing style settings and inline attributes, see [Editing email styles](../../designing/using/styles.md).
 
 1. Insert the two fragments (header and footer) that you previously created into the desired structure components.
 
@@ -276,7 +276,7 @@ If this is not the case, cut out the different blocks from your HTML. For exampl
 Once you have identified all your blocks, in the Email Designer, repeat the following procedure for each section of your existing email:
 <
 1. Open the Email Designer to create an empty email content.
-1. Set the body level attributes: background colors, width, etc. For more on this, see [Editing email styles](../../designing/using/editing-email-styles.md).
+1. Set the body level attributes: background colors, width, etc. For more on this, see [Editing email styles](../../designing/using/styles.md).
 1. Add a structure component. For more on this, see [Editing the email structure](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
 1. Add an HTML component. For more on this, see [Adding fragments and components](../../designing/using/designing-from-scratch.md#editing-the-email-structure).
 1. Copy-paste your HTML into that component.
@@ -308,7 +308,7 @@ Once you have identified all your blocks, in the Email Designer, repeat the foll
 
 You can fine-tune the responsive design of an email by separately editing all style options for mobile display. For example, you can adapt margins and padding, use smaller or bigger font sizes, change buttons, or apply different background colors that will be specific to the mobile version of your email.
 
-All style options are available in mobile view. The Email Designer style settings are presented in the [Editing email styles](../../designing/using/editing-email-styles.md) section.
+All style options are available in mobile view. The Email Designer style settings are presented in the [Editing email styles](../../designing/using/styles.md) section.
 
 1. Create an email and start editing the content. For more on this, see [Designing an email content from scratch](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 1. To access the dedicated mobile view, select the **[!UICONTROL Switch to mobile view]** button.

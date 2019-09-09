@@ -95,7 +95,7 @@ The **[!UICONTROL Profiles & audiences]** icon gives you access to the following
 The **[!UICONTROL Resources]** icon gives you access to the following functionalities:
 
 * **[!UICONTROL Templates]**, which contains the sub-menus for each type of template - for more on this, refer to the [Managing templates](../../start/using/about-templates.md) section.
-* **[!UICONTROL Content blocks]** - for more on this, refer to the [Adding a content block](../../designing/using/adding-a-content-block.md) section.
+* **[!UICONTROL Content blocks]** - for more on this, refer to the [Adding a content block](../../designing/using/personalization.md#adding-a-content-block) section.
 * **[!UICONTROL Content templates & fragments]** - for more on this, refer to the [Content template](../../start/using/about-templates.md#content-templates) section.
 
 ### Administration {#administration}

@@ -28,7 +28,7 @@ The following types of images are available, depending on your configuration:
 * Images shared from Adobe Experience Cloud - refer to [Working with Campaign and Assets Core Service](../../integrating/using/working-with-campaign-and-assets-core-service.md) / Assets On Demand
 * Dynamic images from Adobe Target - refer to [Working with Campaign and Target](../../integrating/using/about-campaign-target-integration.md)
 
-If enabled, you can modify images with the Adobe Creative SDK. See [Modifying images with the Adobe Creative SDK](../../designing/using/modifying-images-with-the-adobe-creative-sdk.md).
+If enabled, you can modify images with the Adobe Creative SDK. See [Modifying images with the Adobe Creative SDK](../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk).
 
 >[!CAUTION]
 >
@@ -54,7 +54,7 @@ If enabled, you can modify images with the Adobe Creative SDK. See [Modifying im
 
 When you select a block that contains an image, the following properties are offered in the palette:
 
-* **Enable personalization** allows you to customize the image source. See [Personalizing an image source](../../designing/using/personalizing-an-image-source.md).
+* **Enable personalization** allows you to customize the image source. See [Personalizing an image source](../../designing/using/personalization.md#personalizing-an-image-source).
 * **Image Title** lets you define a title for the image.
 * **Alt text** (email) or **Caption** (landing page) lets you define the caption linked to the image (corresponds to the **alt** HTML attribute).
 * When editing an email, **Style** lets you specify the image size, background, and border.

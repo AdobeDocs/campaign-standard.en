@@ -20,7 +20,7 @@ snippet: y
 
 When you select a block that contains an image, the following properties are offered in the palette:
 
-* **Enable personalization** allows you to customize the image source. See [Personalizing an image source](../../designing/using/personalizing-an-image-source.md).
+* **Enable personalization** allows you to customize the image source. See [Personalizing an image source](../../designing/using/personalization.md#personalizing-an-image-source).
 * **Image Title** lets you define a title for the image.
 * **Alt text** (email) or **Caption** (landing page) lets you define the caption linked to the image (corresponds to the **alt** HTML attribute).
 * When editing an email, **Style** lets you specify the image size, background, and border.

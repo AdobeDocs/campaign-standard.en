@@ -26,13 +26,13 @@ The email is created as follows:
 
   ![](assets/delivery_content_43.png)
 
-  Adding and configuring dynamic content is detailed in the [Defining dynamic content in an email](../../designing/using/defining-dynamic-content-in-an-email.md) section.
+  Adding and configuring dynamic content is detailed in the [Defining dynamic content in an email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) section.
 
 * Personalization fields and dynamic contents are applied to the text. Depending on the age range of the profile, the email starts with either the profile's first name, or the profile's title and last name.
 
   ![](assets/delivery_content_44.png)
 
-  Adding and configuring the personalization fields is detailed in the [Inserting a personalization field](../../designing/using/inserting-a-personalization-field.md) section.
+  Adding and configuring the personalization fields is detailed in the [Inserting a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field) section.
 
 ## Configuring images {#configuring-images}
 

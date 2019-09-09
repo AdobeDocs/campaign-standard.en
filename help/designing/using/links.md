@@ -36,7 +36,7 @@ You can insert a link into any page element: image, word, group of words, block 
 
     * **External link**: insert a link to an external URL.
 
-      You can define personalization for your URLs. See [Personalizing URLs](../../designing/using/personalizing-urls.md).
+      You can define personalization for your URLs. See [Personalizing URLs](../../designing/using/links.md#personalizing-urls).
     
     * **Landing page**: give access to an Adobe Campaign landing page.
     * **Subscription link**: insert a link to subscribe to an Adobe Campaign service.
@@ -60,7 +60,7 @@ Once the link is created, you can still modify it from the Settings pane. Click 
 
 ![](assets/des_link_edit.png)
 
-When editing an email with the [Email Designer](../../designing/using/overview.md), you can easily access and modify the links that you created from the table listing all the URLs included in the email. This list enables you to have a centralized view and to locate each URL in the email content. To access it, see [About tracked URLs](../../designing/using/about-tracked-urls.md).
+When editing an email with the [Email Designer](../../designing/using/overview.md), you can easily access and modify the links that you created from the table listing all the URLs included in the email. This list enables you to have a centralized view and to locate each URL in the email content. To access it, see [About tracked URLs](../../designing/using/links.md#about-tracked-urls).
 
 ![](assets/des_link_list.png)
 
