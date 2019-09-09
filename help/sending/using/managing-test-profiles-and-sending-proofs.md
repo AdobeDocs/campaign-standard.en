@@ -31,7 +31,7 @@ A test profile contains fictitious contact information, or contact information c
 
   The **Email rendering** use is read-only. Test profiles with this use are only available out-of-the-box in Adobe Campaign.
 
-* As a **Trap**: the message is sent to the test profile just as it is sent to the main target. See [Using traps](../../sending/using/managing-test-profiles-and-sending-proofs.md##using-traps).
+* As a **Trap**: the message is sent to the test profile just as it is sent to the main target. See [Using traps](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps).
 * To **Preview** messages: a test profile can be selected when previewing a message to test the personalization elements. See [Previewing messages](/help/sending/using/previewing-messages.md).
 
 ![](assets/test_profile.png)
