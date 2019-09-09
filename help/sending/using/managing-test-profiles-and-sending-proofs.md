@@ -131,10 +131,10 @@ You have to send as many proofs as necessary until you have finalized the conten
 When using traps, the message is sent to the test profile just as it is sent to the main target, as a means to identify whether your client file is being used fraudulently.
 
 Traps were originally designed for direct mail deliveries. They allow you to:
- * Verify that your direct mail provider is really sending the communication.
- * Receive the mail at the same time and in the same conditions as your customers.
- * Keep an exact copy of the mail that was sent.
- * Check that your direct mail provider is not sending your client list to another provider. Indeed, if any other communication is sent to your test profile's address, your client file may have been used without your knowing. This is why the test profile's address should only be used to this purpose.
+* Verify that your direct mail provider is really sending the communication.
+* Receive the mail at the same time and in the same conditions as your customers.
+* Keep an exact copy of the mail that was sent.
+* Check that your direct mail provider is not sending your client list to another provider. Indeed, if any other communication is sent to your test profile's address, your client file may have been used without your knowing. This is why the test profile's address should only be used to this purpose.
 
  For more on adding traps to a direct mail's audience, see [Adding test and trap profiles](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles).
 
