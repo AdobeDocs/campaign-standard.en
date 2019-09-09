@@ -51,11 +51,11 @@ These templates are managed from the **[!UICONTROL Resources]** > **[!UICONTROL 
 
 ## Content templates {#content-templates}
 
-The HTML content templates are accessible from the **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** screen of the [Advanced menu](../../start/using/interface-description.md#advanced-menu). From there you can manage landing page content templates, email content templates and fragments.
+The HTML content templates are accessible from the **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** screen of the [Advanced menu](../../start/using/interface-description.md#advanced-menu). From there, you can manage landing page content templates, email content templates and also fragments.
 
 ![](assets/content_templates_list.png)
 
-The out-of-the-box content templates are read-only. To edit one of them, you must first duplicate it.
+The out-of-the-box content templates are read-only. To edit one of them, you must first duplicate the desired template.
 
 You can create new templates or fragments, and define your own contents. For more on this, see [Creating a content template](../../start/using/about-templates.md#creating-a-content-template) and [Creating a content fragment](../../designing/using/designing-from-scratch.md#creating-a-content-fragment).
 
