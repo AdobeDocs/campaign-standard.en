@@ -21,14 +21,14 @@ The Email Designer provides four ways to create emails.
 
 You can create an email starting fresh:
 
-- You can create an email from a blank canvas by easily adding structure and content components and personalize their content to send a delivery quickly. You can also fully manage style elements. For more information, [get started quickly](../../designing/using/quick-start.md#from-scratch-email) or see the [complete documentation](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
+* You can create an email from a blank canvas by easily adding structure and content components and personalize their content to send a delivery quickly. You can also fully manage style elements. For more information, [get started quickly](../../designing/using/quick-start.md#from-scratch-email) or see the [complete documentation](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 
-- You can create an email from an out-of-the-box templates by selecting a template and building your new email content from here. [Learn more](../../designing/using/quick-start.md#building-content-from-an-out-of-the-box-template)
+* You can create an email from an out-of-the-box templates by selecting a template and building your new email content from here. [Learn more](../../designing/using/quick-start.md#building-content-from-an-out-of-the-box-template)
 
 You can also create an email  with existing content:
 
-- You can convert an existing HTML content (created externally or in the legacy editor). [Learn more](../../designing/using/quick-start.md#converting-an-html-content)
-- You can import an existing HTML content straight away in compatibility mode. [Learn more](../../designing/using/quick-start.md#compatibility-mode)
+* You can convert an existing HTML content (created externally or in the legacy editor). [Learn more](../../designing/using/quick-start.md#converting-an-html-content)
+* You can import an existing HTML content straight away in compatibility mode. [Learn more](../../designing/using/quick-start.md#compatibility-mode)
 
 ## Without existing content {#without-existing-content}
 
@@ -62,7 +62,7 @@ In Structure components, drag and drop components for the layout you want to use
 
 You can add several content components to your email such as image, text and buttons. For more information, see [Content components](../../designing/using/designing-from-scratch.md#about-content-components).
 
-- Image
+* Image
 
 1. In **Content Components**, drag and drop image into one of your structure components.
 1. Click **Browse**.
@@ -70,7 +70,7 @@ You can add several content components to your email such as image, text and but
 
 ![](assets/browse-image-quick-start.png)
 
-- Text with personalization
+* Text with personalization
 
 1. In **Content Components**, drag and drop text into one of your structure components.
 1. Click on the component and enter your text. 
@@ -79,7 +79,7 @@ You can add several content components to your email such as image, text and but
 
 ![](assets/edit-text-quick-start.png)
 
-- HTML
+* HTML
 
 1. In **Content Components**, drag and drop HTML into one of your structure components.
 1. Click **Show the source code**.
@@ -209,10 +209,10 @@ If all or part of the uploaded HTML is not compliant with the expected tagging, 
 
 When a content is loaded in compatibility mode, you can still perform the following modifications through the interface (unavailable actions are hidden):
 
-- Changing the text or changing an image
-- Inserting links and personalization fields
-- Edit some styling options on the selected HTML block
-- Defining conditional content
+* Changing the text or changing an image
+* Inserting links and personalization fields
+* Edit some styling options on the selected HTML block
+* Defining conditional content
 
 ![](assets/email_designer_compatibility.png)
 

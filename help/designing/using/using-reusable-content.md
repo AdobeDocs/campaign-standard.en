@@ -15,8 +15,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 ---
-
-# Creating and using reusable content{using-reusable-content}
+# Creating and using reusable content {#using-reusable-content}
 
 Learn how to master email content edition. With Email Designer, you can create templates and fragments with your own predefined content and reuse them for following deliveries.
 
@@ -122,9 +121,9 @@ To use it, create an email and select the content template that you just created
 
 **Related topic**:
 
-- [Creating an email](../../channels/using/creating-an-email.md)
-- [Introduction video to the Email Designer](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true)
-- [Designing an email content from scratch](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
+* [Creating an email](../../channels/using/creating-an-email.md)
+* [Introduction video to the Email Designer](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true)
+* [Designing an email content from scratch](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
 ### About fragments {#about-fragments}
 
@@ -133,9 +132,9 @@ They can be found in the interface under **Resources** > **Content fragments and
 
 To make the best use of fragments in the Email Designer:
 
-- Create your own fragments. See [Creating a content fragment](../../designing/using/using-reusable-content.md#creating-a-content-fragment) and [Saving content as a fragment](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
-- Use them as many times as needed in your emails. See [Inserting elements into an email](../../designing/using/designing-from-scratch.md#inserting-elements-into-an-email).
-- When you edit a fragment, the changes are synchronized: they are automatically propagated to all emails (provided they have not been prepared or sent yet) containing that fragment.
+* Create your own fragments. See [Creating a content fragment](../../designing/using/using-reusable-content.md#creating-a-content-fragment) and [Saving content as a fragment](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
+* Use them as many times as needed in your emails. See [Inserting elements into an email](../../designing/using/designing-from-scratch.md#inserting-elements-into-an-email).
+* When you edit a fragment, the changes are synchronized: they are automatically propagated to all emails (provided they have not been prepared or sent yet) containing that fragment.
 
 When added to an email, fragments are locked by default. If you want to modify a fragment for a specific email, you can break the synchronization with the original fragment by unlocking it in the email where it is used. The changes will not be synchronized anymore.
 
@@ -185,8 +184,8 @@ You can create your own content fragments to use them as needed in one or more e
 1. Click the email label to access the **[!UICONTROL Properties]** tab of the Email Designer.
 1. Specify a recognizable label and select the following parameters to find the fragment when editing email content:
 
-    - Because fragments are only compatible with emails, select **[!UICONTROL Delivery]** from the **[!UICONTROL Content type]** drop-down list.
-    - Select **[!UICONTROL Fragment]** from the **[!UICONTROL HTML type]** drop-down list to be able to use this content as a fragment.
+    * Because fragments are only compatible with emails, select **[!UICONTROL Delivery]** from the **[!UICONTROL Content type]** drop-down list.
+    * Select **[!UICONTROL Fragment]** from the **[!UICONTROL HTML type]** drop-down list to be able to use this content as a fragment.
 
    ![](assets/email_designer_createfragment.png)
 
@@ -216,8 +215,8 @@ This fragment can now be used in any email built with the Email Designer. It app
 
 When editing an email with the Email Designer, you can directly save part of that email as a fragment.
 
-- You cannot save as fragment a structure containing personalization fields, dynamic content or another fragment.
-- You can only select structures that are adjacent to each other.
+* You cannot save as fragment a structure containing personalization fields, dynamic content or another fragment.
+* You can only select structures that are adjacent to each other.
 <!-- - You cannot select an empty structure.-->
 
 1. When editing an email in the Email Designer, select **[!UICONTROL Save as fragment]** from the main toolbar.
