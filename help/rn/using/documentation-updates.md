@@ -24,6 +24,8 @@ This page lists all the new features and documentation updates for each release 
 
 You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-notes.md).
 
+## Documentation updates - September 2019 {#doc-updates-september-2019}
+
 ## Documentation updates - August 2019 {#doc-updates-august-2019}
 
 A new section with use cases on workflows focusing on queries has been added. [Read more](../../automating/using/workflow-created-query-with-complement.md)
