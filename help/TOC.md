@@ -151,6 +151,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Defining a subject line](designing/using/subject-line.md)
        + [Designing emails from scratch](designing/using/designing-from-scratch.md)
        + [Designing emails using existing content](designing/using/using-existing-content.md)
+       + [Designing emails using reusable content](designing/using/using-reusable-content.md)
        + [Designing emails through Adobe Campaign integrations](designing/using/using-integrations.md)
        + [Personalization](designing/using/personalization.md)
        + [Managing styles](designing/using/styles.md)
