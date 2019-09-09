@@ -41,11 +41,7 @@ Note: To reach all the people that entered boston, unregarding of the case unche
 1. Click **[!UICONTROL Confirm]**.
 1. In **[!UICONTROL List of outbound segments]**, click **[!UICONTROL Add an element]** and click on ![](assets/edit_darkgrey-24px.png)  to create a segment targeting people in the second city. Here Chicago.
 1. Drag and drop **[!UICONTROL Location]** and select **[!UICONTROL City]** with the operator **[!UICONTROL equals to]** and enter **[!UICONTROL Chicago]** in value.
-
->[!NOTE]
->
->To reach all the people that entered chicago, unregarding of the case uncheck the case sensitive option.
-
+1. To reach all the people that entered chicago, unregarding of the case uncheck the case sensitive option.
 1. Click **[!UICONTROL Confirm]**.
 
 ## Creating an email delivery{#creating-an-email-delivery}
