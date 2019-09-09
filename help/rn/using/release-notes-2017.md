@@ -117,7 +117,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
  <tbody> 
   <tr> 
    <td> Library of Email templates<br /> </td> 
-   <td> Introducing eighteen brand-new, responsive templates designed in two beautiful themes - Astro and Feather. These customizable templates are industry agnostic, and ready to be used right away. Templates include content for a variety of use cases to get your email marketing campaigns designed and delivered more quickly, efficiently and more beautifully than ever before.<br /> For more information, refer to the <a href="../../start/using/using-reusable-content.md#content-templates">detailed documentation</a>.<br /> </td> 
+   <td> Introducing eighteen brand-new, responsive templates designed in two beautiful themes - Astro and Feather. These customizable templates are industry agnostic, and ready to be used right away. Templates include content for a variety of use cases to get your email marketing campaigns designed and delivered more quickly, efficiently and more beautifully than ever before.<br /> For more information, refer to the <a href="../../designing/using/using-reusable-content.md#content-templates">detailed documentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Dynamic Reporting with Profile Data<br /> </td> 
