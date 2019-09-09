@@ -44,6 +44,8 @@ Subject lines are mandatory when sending an email.
 1. Close homepage.
 1. Go the **[!UICONTROL Properties]** tab of the Email Designer home page (accessible through the home icon) and fill in the **[!UICONTROL Subject]** section.
 
+![](assets/subject-line-quick-start.png)
+
 ### Add structure components {#add-structure-components}
 
 Structure components will define the layout of your email.
@@ -54,31 +56,7 @@ In Structure components, drag and drop components for the layout you want to use
 >
 >You can select different content layouts that will add up in your email.
 
-### Creating reusable headers and footers using fragments {#header-footer-fragments}
-
-Using the Email Designer, create a fragment for each reusable section. In this example, you will create two fragments: one for the header and one for the footer. You can then copy the relevant parts from your existing content into these fragments.
-
-To do this, follow the steps below:
-
-1. In Adobe Campaign, go to **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** and create a fragment for your header. For more on this, see [Creating a content fragment](../../designing/using/designing-from-scratch.md#creating-a-content-fragment).
-1. Add as many structure components as you need to your fragment.
-
-![](assets/des_loading_compatible_fragment_1.png)
-
-1. Insert image and text components into your structure.
-
-![](assets/des_loading_compatible_fragment_2.png)
-
-1. Upload the corresponding image, enter your text and adjust the settings.
-
-![](assets/des_loading_compatible_fragment_3.png)
-
-1. Save your fragment.
-1. Proceed similarly to create your footer and save it.
-
-![](assets/des_loading_compatible_fragment_4.png)
-
-Your fragments are now ready to be used in a template.
+![](assets/structure-components-quick-start.png)
 
 ### Add content components {#add-content-components}
 
@@ -86,27 +64,45 @@ You can add several content components to your email such as image, text and but
 
 - Image
 
-1. In Content Components, drag and drop image into one of your structure components.
-1. Click Browse.
+1. In **Content Components**, drag and drop image into one of your structure components.
+1. Click **Browse**.
 1. Select your image file from your computer.
+
+![](assets/browse-image-quick-start.png)
 
 - Text with personalization
 
-1. In Content Components, drag and drop text into one of your structure components.
+1. In **Content Components**, drag and drop text into one of your structure components.
 1. Click on the component and enter your text. 
-1. To add a personalization field, click Insert personalization field in the toolbar.
+1. To add a personalization field, click **Insert personalization field** in the toolbar.
 1. Select the field you need, such as First Name.
+
+![](assets/edit-text-quick-start.png)
 
 - HTML
 
-1. In Content Components, drag and drop HTML into one of your structure components.
-1. Click Show the source code.
+1. In **Content Components**, drag and drop HTML into one of your structure components.
+1. Click **Show the source code**.
 1. Enter your HTML content.
-1. Click Save.
+1. Click **Save**.
+
+![](assets/html-component-source-code.png)
 
 If you are familiar with HTML, you can copy-paste the HTML code from the original footer using the **[!UICONTROL Html]** content component. For more on this, see [About content components](../../designing/using/designing-from-scratch.md#about-content-components).
 
 ![](assets/des_loading_compatible_fragment_9.png)
+
+### Style your email component
+
+You can adjust your email styling, for example by changing the padding of a component. For more on managing style settings and inline attributes, see [Editing email styles](../../designing/using/styles.md). 
+
+1. Click on your **Text component**. 
+1. On the right, in the palette, go to **Padding**.
+1. Click the lock icon to break synchronization between top and bottom or right and left parameters. 
+1. Adjust **Padding** as you need. 
+1. Click **Save**. 
+
+![](assets/padding-quick-start.png)
 
 1. Save your email.
 
@@ -122,7 +118,6 @@ You can build an email from out-of-the-box templates such as customer welcome me
 The different templates present various combinations of several types of elements. For example, 'Feather' templates have margins while 'Astro' templates do not have ones. For more on this, see [Content templates](../../start/using/about-templates.md#content-templates).
 
 1. Go the **[!UICONTROL Properties]** tab of the Email Designer home page (accessible through the home icon) and fill in the **[!UICONTROL Subject]** section.
-
 1. You can combine these elements to build a number of email variants. For example, you can duplicate an email section by selecting a structure component and clicking **[!UICONTROL Duplicate]** from the contextual toolbar.
 1. You can move the elements around using the blue arrow on the left to drag a structure component below or above another. For more on this, see [Editing the email structure](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. You can also move components around to change the organization of each structure element. For more on this, see [Adding fragments and components](../../designing/using/designing-from-scratch.md#editing-the-email-structure).
@@ -139,7 +134,7 @@ This use case offers a quick way to convert an HTML email into Email Designer co
 
 >[!CAUTION]
 >
->This section is for advanced users who are familiar with HTML code.
+>This section is for users who are familiar with HTML code.
 
 >[!NOTE]
 >
@@ -150,7 +145,7 @@ Outside of the Email Designer, make sure the original HTML is divided into reusa
 1. Open the Email Designer to create an empty email content.
 1. Set the body level attributes: background colors, width, etc. For more on this, see [Editing email styles](../../designing/using/editing-email-styles.md).
 
-If this is not the case, cut out the different blocks from your HTML. For example:
+If this is not the case, cut out the different blocks from your HTML. For example, here is a clearly identified section:
 
 ```
 <!-- 3 COLUMN w/CTA (SCALED) -->
@@ -174,7 +169,6 @@ If this is not the case, cut out the different blocks from your HTML. For exampl
 
 Once you have identified all your blocks, in the Email Designer, repeat the following procedure for each section of your existing email:
 
-
 1. Add a structure component. For more on this, see [Editing the email structure](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Add an HTML component. For more on this, see [Adding fragments and components](../../designing/using/designing-from-scratch.md#editing-the-email-structure).
 1. Copy-paste your HTML into that component.
@@ -195,7 +189,15 @@ Once you have identified all your blocks, in the Email Designer, repeat the foll
 
    >[!NOTE]
    >
-   >Do not modify the CSS generated by the Email Designer: `<style acrite-template-css="true">` and `<style acrite-custom-styles="" type="text/css">`. Make sure you add your style after this in another custom style tag.
+   >Make sure you add your style after this in another custom style tag.
+   >
+   >Do not modify the CSS generated by the Email Designer:
+   >
+   >* `<style data-name="default" type="text/css">(##)</style>`
+   >* `<style data-name="supportIOS10" type="text/css">(##)</style>`
+   >* `<style data-name="mediaIOS8" type="text/css">(##)</style>`
+   >* `<style data-name="media-default-max-width-500px" type="text/css">(##)</style>`
+   >* `<style data-name="media-default--webkit-min-device-pixel-ratio-0" type="text/css">(##)</style>`
 
 1. Go back to the mobile view to check that your content is correctly displayed and save your changes.
 
@@ -214,6 +216,7 @@ When a content is loaded in compatibility mode, you can still perform the follow
 
 ![](assets/email_designer_compatibility.png)
 
-Other modifications such as adding new sections to your email or advanced styling must be done directly in the source code of the email via the HTML mode.
+Other modifications such as adding new sections to your email or advanced styling must be done directly in the source code of the email via the HTML mode. 
+Though the compatibility mode does not allow you to use drag and drop, it guarantees the same set of features as the legacy editor.
 
 For more on converting an existing email into an Email Designer-compatible email, see [this section](../../designing/using/using-existing-content.md).

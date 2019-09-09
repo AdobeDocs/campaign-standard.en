@@ -26,27 +26,17 @@ The content and display of messages delivered by Adobe Campaign can be personali
 * Personalize the subject of an email. See [Personalizing the subject line of an email](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
 * Create conditional content. See [Defining dynamic content in an email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
 
-## Personalizing an image source{#personalizing-an-image-source}
+## Personalizing the sender {#personalizing-the-sender}
 
-Adobe Campaign allows you to personalize one or several images in your message according to a particular criterion or to use tracking. This is done by inserting personalization fields, content blocks, or dynamic content into the image source. To do this:
+To define the name of the sender which will appear in the header of messages sent, go the **[!UICONTROL Properties]** tab of the Email Designer home page (accessible through the home icon). For more on this, see [Defining the sender of an email](../../designing/using/subject-line.md#email-sender)
 
-1. Insert an image into the content of your message, or select an image that is already present.
-1. In the image properties palette, check the **[!UICONTROL Enable personalization]** option.
+  You can change the sender name by clicking the **Sender name** block. The field then becomes editable and you can enter the name you would like to use.
 
-   ![](assets/des_personalize_images_1.png)
+  This field can be personalized. To do this, you can add personalization fields, content blocks and dynamic content by clicking the icons below the sender name.
 
-   The **[!UICONTROL Source]** field is displayed and the image selected is shown as **personalized** in the editor.
-
-1. Click the pencil next to the **[!UICONTROL Source]** field button to access the personalization options.
-1. After having added the image source, add the personalization fields, content blocks, and dynamic contents that you like.
-
-   ![](assets/des_personalize_images_2.png)
-
-   >[!NOTE]
-   >
-   >The domain name (http://mydomain.com) cannot be personalized, it has to be entered manually. The rest of the URL can be personalized. For example: http://mydomain.com/`[Gender]`.jpg
-
-1. Confirm your changes.
+>[!NOTE]
+>
+>The header parameters must not be empty. The sender's address is mandatory to allow an email to be sent (RFC standard). Adobe Campaign checks the syntax of email addresses entered.
 
 ## Personalizing URLs{#personalizing-urls}
 
@@ -184,31 +174,33 @@ If you leave this field empty, the content block will be compatible with all mes
 
 For more on this, refer to [Targeting dimensions and resources](../../automating/using/query.md#targeting-dimensions-and-resources).
 
-## Personalizing the sender {#personalizing-the-sender}
-
-### Email sender {#email-sender}
-
-To define the name of the sender which will appear in the header of messages sent, go the **[!UICONTROL Properties]** tab of the Email Designer home page (accessible through the home icon).
-
-![](assets/delivery_content_edition16.png)
-
-* The **[!UICONTROL From: name]** field allows you to enter the sender name. By default, the default **Sender name** block is automatically entered in the field. Adobe Campaign refers to the email channel configuration (from the advanced menu **[!UICONTROL Administration > Channels > Email > Email accounts]** via the Adobe Campaign logo) to designate this sender.
-
-  You can change the sender name by clicking the **Sender name** block. The field then becomes editable and you can enter the name you would like to use.
-
-  This field can be personalized. To do this, you can add personalization fields, content blocks and dynamic content by clicking the icons below the sender name.
-
-* The **[!UICONTROL From: email address]** field cannot be edited from this section. You can change it by editing the properties of the email from its dashboard. For more on this, see [List of email advanced parameters](../../administration/using/configuring-email-channel.md#advanced-parameters).
-
->[!NOTE]
->
->The header parameters must not be empty. The sender's address is mandatory to allow an email to be sent (RFC standard). Adobe Campaign checks the syntax of email addresses entered.
-
 **Related topics:**
 
 * [Inserting a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field)
 * [Adding a content block](../../designing/using/personalization.md#adding-a-content-block)
 * [Defining dynamic content in an email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
+
+## Personalizing an image source{#personalizing-an-image-source}
+
+Adobe Campaign allows you to personalize one or several images in your message according to a particular criterion or to use tracking. This is done by inserting personalization fields, content blocks, or dynamic content into the image source. To do this:
+
+1. Insert an image into the content of your message, or select an image that is already present.
+1. In the image properties palette, check the **[!UICONTROL Enable personalization]** option.
+
+   ![](assets/des_personalize_images_1.png)
+
+   The **[!UICONTROL Source]** field is displayed and the image selected is shown as **personalized** in the editor.
+
+1. Click the pencil next to the **[!UICONTROL Source]** field button to access the personalization options.
+1. After having added the image source, add the personalization fields, content blocks, and dynamic contents that you like.
+
+   ![](assets/des_personalize_images_2.png)
+
+   >[!NOTE]
+   >
+   >The domain name (http://mydomain.com) cannot be personalized, it has to be entered manually. The rest of the URL can be personalized. For example: http://mydomain.com/`[Gender]`.jpg
+
+1. Confirm your changes.
 
 ## Conditional content {#conditional-content}
 
