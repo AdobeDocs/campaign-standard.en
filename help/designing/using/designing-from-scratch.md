@@ -35,7 +35,7 @@ You can also check out this [introduction video](https://video.tv.adobe.com/v/22
 
 >[!NOTE]
 >
->To avoid designing email content from scratch, you can use out-of-the-box content templates. For more on this, see [Content templates](../../start/using/about-templates.md#content-templates).
+>To avoid designing email content from scratch, you can use out-of-the-box content templates. For more on this, see [Content templates](../../designing/using/using-reusable-content.md#content-templates).
 
 
 ## Editing the email structure {#editing-the-email-structure}
@@ -87,7 +87,7 @@ Here is the list of the available components in the Email Designer:
 
   If you need to use multiple buttons, rather than editing each button from scratch, you can duplicate the **[!UICONTROL Button]** component using the contextual toolbar.
 
-  You can also save buttons into fragments that can be reused. For more on this, see [Creating a content fragment](../../designing/using/designing-from-scratch.md#creating-a-content-fragment) and [Saving content as a fragment](../../designing/using/designing-from-scratch.md#saving-content-as-a-fragment).
+  You can also save buttons into fragments that can be reused. For more on this, see [Creating a content fragment](../../designing/using/using-reusable-content.md#creating-a-content-fragment) and [Saving content as a fragment](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
 
 - **[!UICONTROL Carousel]**
 

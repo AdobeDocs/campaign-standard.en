@@ -33,7 +33,7 @@ When creating an email or a landing page, you can choose to load an existing con
 
 1. Select the source of the content you want to load:
 
-    * [Content templates](../../start/using/about-templates.md#content-templates): click the **[!UICONTROL Templates]** tab.
+    * [Content templates](../../designing/using/using-reusable-content.md#content-templates): click the **[!UICONTROL Templates]** tab.
     * [Content from scratch](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch), to start fresh: click the **[!UICONTROL Create]** button.
     * [Content from your computer as a ZIP or HTML file](../../designing/using/importing-content-from-a-file.md): click the **[!UICONTROL Upload]** button.
     * [Content from an existing URL](../../designing/using/importing-content-from-a-url.md) (only for emails): click the **[!UICONTROL Import from URL]** button.

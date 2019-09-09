@@ -59,7 +59,7 @@ For more on converting an existing email into an Email Designer-compatible email
 
 ### Email Designer limitations {#email-designer-limitations}
 
-* You cannot use personalization fields in a fragment. For more on fragments, see [this section](../../designing/using/designing-from-scratch.md#about-fragments).
+* You cannot use personalization fields in a fragment. For more on fragments, see [this section](../../designing/using/using-reusable-content.md#about-fragments).
 * When editing styles, only the web fonts officially supported by most email clients are available.
 * Styles cannot be saved as a theme for future reuse. However, the CSS style can be saved in a content template or in an email. For more on styles, see [this section](../../designing/using/styles.md).
 
@@ -102,7 +102,7 @@ You can also check out this [introduction video](https://video.tv.adobe.com/v/22
 
 >[!NOTE]
 >
->To avoid designing email content from scratch, you can use out-of-the-box content templates. For more on this, see [Content templates](../../start/using/about-templates.md#content-templates).-->
+>To avoid designing email content from scratch, you can use out-of-the-box content templates. For more on this, see [Content templates](../../designing/using/using-reusable-content.md#content-templates).-->
 
 **Related topics**:
 
@@ -135,7 +135,7 @@ When designing content with the Email Designer, you have three options:
 1. Click the **[!UICONTROL Templates]** tab.
 1. Choose an out-of-the-box HTML template.
 
-   The different templates present various combinations of several types of elements. For example, 'Feather' templates have margins while 'Astro' templates do not have ones. For more on this, see [Content templates](../../start/using/about-templates.md#content-templates).
+   The different templates present various combinations of several types of elements. For example, 'Feather' templates have margins while 'Astro' templates do not have ones. For more on this, see [Content templates](../../designing/using/using-reusable-content.md#content-templates).
 
 1. You can combine these elements to build a number of email variants. For example, you can duplicate an email section by selecting a structure component and clicking **[!UICONTROL Duplicate]** from the contextual toolbar.
 1. You can move the elements around using the blue arrow on the left to drag a structure component below or above another. For more on this, see [Editing the email structure](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
@@ -171,7 +171,7 @@ Using the Email Designer, create a fragment for each reusable section. In this e
 
 To do this, follow the steps below:
 
-1. In Adobe Campaign, go to **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** and create a fragment for your header. For more on this, see [Creating a content fragment](../../designing/using/designing-from-scratch.md#creating-a-content-fragment).
+1. In Adobe Campaign, go to **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** and create a fragment for your header. For more on this, see [Creating a content fragment](../../designing/using/using-reusable-content.md#creating-a-content-fragment).
 1. Add as many structure components as you need to your fragment.
 
    ![](assets/des_loading_compatible_fragment_1.png)
@@ -201,7 +201,7 @@ Your fragments are now ready to be used in a template.-->
 
 You can now create an email template with the Email Designer. Use content components to reflect the different sections of your email and adjust the settings to make them as close as possible to your original newsletter. Finally, insert the fragments that you just created.
 
-1. Using the Email Designer, create a template. For more on this, see [Content templates](../../start/using/about-templates.md#content-templates).
+1. Using the Email Designer, create a template. For more on this, see [Content templates](../../designing/using/using-reusable-content.md#content-templates).
 1. Insert several structure components into your template - corresponding to the header, footer and body of your email. For more on adding structure components, see [Editing the email structure with the Email Designer](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
 1. Insert as many content components as needed to create the body of your newsletter. This will be the editable content of your email that you will update every month.
 
@@ -372,7 +372,7 @@ You can either set this option from the mobile or desktop view.
 
 >[!NOTE]
 >
->The mobile view is not available in [fragments](../../designing/using/designing-from-scratch.md#about-fragments).
+>The mobile view is not available in [fragments](../../designing/using/using-reusable-content.md#about-fragments).
 
 ## Plain text and HTML modes {#plain-text-and-html-modes}
 

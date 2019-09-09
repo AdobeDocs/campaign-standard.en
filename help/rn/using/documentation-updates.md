@@ -32,7 +32,7 @@ A procedure was added in the workflow troubleshooting section on how to display 
 
 A new help article has been added, with information related to subdomains and certificates management within the Control Panel. [Read more](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html)
 
-The section describing the content templates and fragments has been updated. [Read more](../../start/using/about-templates.md#content-templates)
+The section describing the content templates and fragments has been updated. [Read more](../../designing/using/using-reusable-content.md#content-templates)
 
 A new section on how to save email content as a template in the Email Designer has been added. [Read more](../../start/using/about-templates.md#saving-content-as-template)
 
@@ -62,9 +62,9 @@ A troubleshooting has been added for Dynamic Reporting. [Read more](../../report
 
 A diagram explaining how the different In-App templates handle personal information has been added. [Read more](../../channels/using/preparing-and-sending-an-in-app-message.md)
 
-The section on how to save email content as a fragment in the Email Designer has been updated. [Read more](../../designing/using/designing-from-scratch.md#saving-content-as-a-fragment)
+The section on how to save email content as a fragment in the Email Designer has been updated. [Read more](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment)
 
-A warning was added on how extra white spaces can impact the layout of a email content. [Read more](../../designing/using/personalization.md#adding-a-content-block#creating-custom-content-blocks)
+A warning was added on how extra white spaces can impact the layout of a email content. [Read more](../../designing/using/personalization.md#creating-custom-content-blocks)
 
 A new section on Email Designer recommended updates has been added. [Read more](../../designing/using/overview.md#email-designer-updates)
 
@@ -136,7 +136,7 @@ The list of functions for workflows has been updated. [Read more](../../automati
 
 The Designing content chapter has been reorganized and improved with a new section describing clearly the different methods to design an email with the Email Designer using existing contents. [Read more](../../designing/using/using-existing-content.md)
 
-A new section on how to save email content as a fragment in the Email Designer has been added. [Read more](../../designing/using/designing-from-scratch.md#saving-content-as-a-fragment)
+A new section on how to save email content as a fragment in the Email Designer has been added. [Read more](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment)
 
 The Managing links section has been updated with additional information on how to manage tracked URLs in the Email Designer. [Read more](../../designing/using/links.md#inserting-a-link)
 
@@ -176,7 +176,7 @@ A new section on Transactional messaging limitations has been added. [Read more]
 
 A new section comparing the different email authoring options in Adobe Campaign has been added. [Read more](../../designing/using/using-integrations.md#email-design-options-comparison)
 
-The Creating custom content blocks section has been enhanced with details on targeting dimensions. [Read more](../../designing/using/personalization.md#adding-a-content-block#creating-custom-content-blocks)
+The Creating custom content blocks section has been enhanced with details on targeting dimensions. [Read more](../../designing/using/personalization.md#creating-custom-content-blocks)
 
 A warning indicating that the Email Designer does not support Internet Explorer 11 has been added. [Read more](../../start/using/compatible-browsers.md)
 
@@ -274,7 +274,7 @@ Updated Push notification out-of-the-box report section. [Read more](../../repor
 
 [High priority flag](../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android) and [typology filter](../../administration/using/about-typology-rules.md#typology-rules) for mobile app subscribers.
 
-Automated content import from a URL at preparation time. [Read more](../../designing/using/using-existing-content.md##retrieving-content-from-a-url-automatically-at-preparation-time)
+Automated content import from a URL at preparation time. [Read more](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
 
 ### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-4}
 
@@ -494,7 +494,7 @@ Information added on simple and multiple filtering in the API. [Read more](https
 
 ### New capabilities included in the release {#new-capabilities-included-in-the-release-11}
 
-Library of Email templates - [Read more](../../start/using/about-templates.md#content-templates)
+Library of Email templates - [Read more](../../designing/using/using-reusable-content.md#content-templates)
 
 Dynamic reporting with profile data - [Read more](../../reporting/using/about-dynamic-reports.md)
 

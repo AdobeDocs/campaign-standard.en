@@ -62,8 +62,8 @@ A fragment is a reusable component that can be referenced in one or more emails.
 
 To make the best use of fragments in the Email Designer:
 
-* Create your own fragments. See [Creating a content fragment](../../designing/using/designing-from-scratch.md#creating-a-content-fragment) and [Saving content as a fragment](../../designing/using/designing-from-scratch.md#saving-content-as-a-fragment).
-* Use them as many times as needed in your emails. See [Inserting elements into an email](../../designing/using/designing-from-scratch.md#inserting-elements-into-an-email).
+* Create your own fragments. See [Creating a content fragment](../../designing/using/using-reusable-content.md#creating-a-content-fragment) and [Saving content as a fragment](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
+* Use them as many times as needed in your emails. See [Inserting elements into an email](../../designing/using/using-reusable-content.md#inserting-elements-into-an-email).
 * When you edit a fragment, the changes are synchronized: they are automatically propagated to all emails (provided they have not been prepared or sent yet) containing that fragment.
 
 When added to an email, fragments are locked by default. If you want to modify a fragment for a specific email, you can break the synchronization with the original fragment by unlocking it in the email where it is used. The changes will not be synchronized anymore.
@@ -86,7 +86,7 @@ Here is the list of the available components in the Email Designer:
 
   If you need to use multiple buttons, rather than editing each button from scratch, you can duplicate the **[!UICONTROL Button]** component using the contextual toolbar.
 
-  You can also save buttons into fragments that can be reused. For more on this, see [Creating a content fragment](../../designing/using/designing-from-scratch.md#creating-a-content-fragment) and [Saving content as a fragment](../../designing/using/designing-from-scratch.md#saving-content-as-a-fragment).
+  You can also save buttons into fragments that can be reused. For more on this, see [Creating a content fragment](../../designing/using/using-reusable-content.md#creating-a-content-fragment) and [Saving content as a fragment](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
 
 * **[!UICONTROL Carousel]**
 
@@ -129,7 +129,7 @@ Here is the list of the available components in the Email Designer:
 
 To define the content of your email, you can add content elements in the structure components you have placed beforehand. See [Editing the email structure](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
 
-1. Access the content elements by selecting the **+** icon on the left. Select [Fragments](../../designing/using/designing-from-scratch.md#about-fragments) or [Content components](../../designing/using/designing-from-scratch.md#about-content-components).
+1. Access the content elements by selecting the **+** icon on the left. Select [Fragments](../../designing/using/using-reusable-content.md#about-fragments) or [Content components](../../designing/using/designing-from-scratch.md#about-content-components).
 1. If you already know the label or part of the label of the fragment you want to add, you can search for it.
 
    ![](assets/email_designer_fragmentsearch.png)
@@ -146,7 +146,7 @@ To define the content of your email, you can add content elements in the structu
 
    >[!NOTE]
    >
-   >Fragments are locked by default when added to an email. You can break the synchronization with the original fragment if you want to modify the fragment for a specific email, or make your change directly in the fragment. See [About fragments](../../designing/using/designing-from-scratch.md#about-fragments).
+   >Fragments are locked by default when added to an email. You can break the synchronization with the original fragment if you want to modify the fragment for a specific email, or make your change directly in the fragment. See [About fragments](../../designing/using/using-reusable-content.md#about-fragments).
 
 1. Repeat this procedure for all elements you need to add to your email.
 1. Save your email.
@@ -155,7 +155,7 @@ Now that your email structure is populated, you can edit the style of each conte
 
 >[!NOTE]
 >
->If a fragment is modified, the changes are automatically propagated in the emails where it is used. For more on this, see [About fragments](../../designing/using/designing-from-scratch.md#about-fragments).
+>If a fragment is modified, the changes are automatically propagated in the emails where it is used. For more on this, see [About fragments](../../designing/using/using-reusable-content.md#about-fragments).
 
 ### Creating a content fragment {#creating-a-content-fragment}
 
@@ -190,7 +190,7 @@ This fragment can now be used in any email built with the Email Designer. It app
 
 >[!NOTE]
 >
->You cannot insert personalization fields inside a fragment unless it is used in an email and unlocked. See [About fragments](../../designing/using/designing-from-scratch.md#about-fragments).
+>You cannot insert personalization fields inside a fragment unless it is used in an email and unlocked. See [About fragments](../../designing/using/using-reusable-content.md#about-fragments).
 
 ### Saving content as a fragment {#saving-content-as-a-fragment}
 

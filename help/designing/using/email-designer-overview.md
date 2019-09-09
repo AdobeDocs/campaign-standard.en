@@ -32,7 +32,7 @@ The **[!UICONTROL Properties]** tab enables you to edit the email details such a
 
 ![](assets/email_designer_home_properties.png)
 
-The **[!UICONTROL Templates]** tab enables you to choose from the out-of-the-box HTML contents or the templates that you already created to quickly start designing your email. See [Content templates](../../start/using/about-templates.md#content-templates).
+The **[!UICONTROL Templates]** tab enables you to choose from the out-of-the-box HTML contents or the templates that you already created to quickly start designing your email. See [Content templates](../../designing/using/using-reusable-content.md#content-templates).
 
 ![](assets/email_designer_home_templates.png)
 
@@ -88,14 +88,14 @@ To make proper use of the Email Designer and create the best emails as simply as
 
 * Settle your branding easily by creating and reusing content fragments to keep consistency across your marketing campaigns.
 
-  See [Creating a content fragment](../../designing/using/designing-from-scratch.md#creating-a-content-fragment).
+  See [Creating a content fragment](../../designing/using/using-reusable-content.md#creating-a-content-fragment).
 
 Also check the [general best practices for content design](../../designing/using/content-design-best-practices.md).
 
 ## Email Designer limitations {#email-designer-limitations}
 
-* You cannot use personalization fields in a fragment. For more on fragments, see [this section](../../designing/using/designing-from-scratch.md#about-fragments).
-* You cannot save directly as a fragment some content of an email that you are editing within the Email Designer. You need to copy-paste the HTML corresponding to that content into a new fragment. For more on this, see [Saving content as a fragment](../../designing/using/designing-from-scratch.md#saving-content-as-a-fragment).
+* You cannot use personalization fields in a fragment. For more on fragments, see [this section](../../designing/using/using-reusable-content.md#about-fragments).
+* You cannot save directly as a fragment some content of an email that you are editing within the Email Designer. You need to copy-paste the HTML corresponding to that content into a new fragment. For more on this, see [Saving content as a fragment](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
 * When editing styles, only the web fonts officially supported by most email clients are available.
 * Styles cannot be saved as a theme for future reuse. However, the CSS style can be saved in a content template or in an email. For more on styles, see [this section](../../designing/using/styles.md).
 

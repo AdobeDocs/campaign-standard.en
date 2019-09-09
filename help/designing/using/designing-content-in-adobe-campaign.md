@@ -34,7 +34,7 @@ When creating an email , you can choose to use a predefined template or to load 
 
 To increase the efficiency of your marketing campaigns, personalize your content. See [Inserting a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field) and [Adding a content block](../../designing/using/personalization.md#adding-a-content-block).
 
-You can also define dynamic content that varies depending on each profile. See [Defining dynamic content in an email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) and [Defining dynamic content in a landing page](../../channels/using/personalization.md#defining-dynamic-content-in-a-landing-page).
+You can also define dynamic content that varies depending on each profile. See [Defining dynamic content in an email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) and [Defining dynamic content in a landing page](../../channels/using/defining-dynamic-content-in-a-landing-page.md).
 
 Enhance your messages and landing pages with links and images. See [Inserting a link](../../designing/using/links.md#inserting-a-link) and [Inserting images](../../designing/using/images.md#inserting-images).
 

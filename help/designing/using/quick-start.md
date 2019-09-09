@@ -48,7 +48,7 @@ Subject lines are mandatory when sending an email. For more information, see [De
 
 ### Adding structure components {#add-structure-components}
 
-Structure components will define the layout of your email. For more information, see [Defining the structure of an email](../../designing/using/designing-from-scratch.md##defining-the-email-structure).
+Structure components will define the layout of your email. For more information, see [Defining the structure of an email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
 In Structure components, drag and drop components for the layout you want to use.
 
@@ -115,7 +115,7 @@ You can build an email from out-of-the-box templates such as customer welcome me
 1. Click the **[!UICONTROL Templates]** tab.
 1. Choose an out-of-the-box HTML template.
 
-The different templates present various combinations of several types of elements. For example, 'Feather' templates have margins while 'Astro' templates do not have ones. For more on this, see [Content templates](../../start/using/about-templates.md#content-templates).
+The different templates present various combinations of several types of elements. For example, 'Feather' templates have margins while 'Astro' templates do not have ones. For more on this, see [Content templates](../../designing/using/using-reusable-content.md#content-templates).
 
 1. Go the **[!UICONTROL Properties]** tab of the Email Designer home page (accessible through the home icon) and fill in the **[!UICONTROL Subject]** section.
 1. You can combine these elements to build a number of email variants. For example, you can duplicate an email section by selecting a structure component and clicking **[!UICONTROL Duplicate]** from the contextual toolbar.
