@@ -132,7 +132,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 ### Other changes {#other-changes-1}
 
 * Report sharing time out has been increased from one to four minutes to avoid any time out error.
-* When editing the content of an email, the new Creative Designer opens by default. If you wish, you can still go back to the default content editor at any time after saving your changes. For more on this, refer to the [detailed documentation](../../designing/using/about-email-content-design.md).
+* When editing the content of an email, the new Creative Designer opens by default. If you wish, you can still go back to the default content editor at any time after saving your changes. For more on this, refer to the [detailed documentation](../../designing/using/overview.md).
 * In the Creative Designer, a new content component can now be added into an email: the carousel. For more on this, refer to the [detailed documentation](../../designing/using/designing-from-scratch.md#about-content-components).
 * In a transactional message hot click report, when you click the **Change profile** button, now only the test profiles linked to the event that you defined for your transactional message are listed.
 

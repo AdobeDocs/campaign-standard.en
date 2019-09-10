@@ -28,12 +28,11 @@ This section describes the specificities of the landing page content editor:
 To know more about actions that are common to one or more marketing activities, refer to the following sections:
 
 * For more on personalizing a landing page content, see [Inserting a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field) and [Adding a content block](../../designing/using/personalization.md#adding-a-content-block).
-* For more on importing another landing page content, see [Selecting an existing content](../../designing/using/selecting-an-existing-content.md).
 * For more on defining dynamic content in a landing page, see [Defining dynamic content in a landing page](../../channels/using/defining-dynamic-content-in-a-landing-page.md).
 * For more on inserting links in a landing page, see [Inserting a link](../../designing/using/links.md#inserting-a-link).
-* For more on inserting images in a landing page, see [Inserting images](../../designing/using/inserting-images.md).
+* For more on inserting images in a landing page, see [Inserting images](../../designing/using/images.md).
 
-Also check the [general best practices for content design](../../designing/using/content-design-best-practices.md).
+Also check the [general best practices for content design](../../designing/using/overview.md#content-design-best-practices).
 
 >[!NOTE]
 >

@@ -231,7 +231,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
   </tr> 
   <tr> 
    <td> Dynamic URLs for images<br /> </td> 
-   <td> This new functionality allows you to personalize an image source by inserting content blocks and dynamic text for tracking and personalization purposes.<br /> It then becomes possible, amongst other things, to profit from the functionalities of AEM Asset (S7) dynamic media by entering parameters into the image URLs. For example, you can send an email with personalized images stating "Hello Alexandre, get the latest news about upcoming events in Paris!" or "Hello Frank, get the latest news about upcoming events in New York!".<br /> For more information, refer to the <a href="../../designing/using/personalizing-urls.md">detailed documentation</a>.<br /> </td> 
+   <td> This new functionality allows you to personalize an image source by inserting content blocks and dynamic text for tracking and personalization purposes.<br /> It then becomes possible, amongst other things, to profit from the functionalities of AEM Asset (S7) dynamic media by entering parameters into the image URLs. For example, you can send an email with personalized images stating "Hello Alexandre, get the latest news about upcoming events in Paris!" or "Hello Frank, get the latest news about upcoming events in New York!".<br /> For more information, refer to the <a href="../../designing/using/personalization.md#personalizing-urls">detailed documentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Integration with People Core Service<br /> </td> 
@@ -378,7 +378,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 
 #### Content editor {#content-editor}
 
-* The content editor now allows you to personalize any URL contained in an email or a landing page. Refer to the [detailed documentation](../../designing/using/personalizing-urls.md).
+* The content editor now allows you to personalize any URL contained in an email or a landing page. Refer to the [detailed documentation](../../designing/using/personalization.md#personalizing-urls).
 * Fixed an error that could cause images to be lost when they were added in the delivery's creation wizard and their content was modified afterwards.
 
 #### Custom resources {#custom-resources-3}

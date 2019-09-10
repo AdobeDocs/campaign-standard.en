@@ -46,11 +46,11 @@ You can create an email from a [campaign](../../start/using/marketing-activities
 
    ![](assets/email_creation_3.png)
 
-1. Define and personalize the message content, sender name and subject using the [Email Designer](../../designing/using/overview.md). For more on this, see [About email content design](../../designing/using/about-email-content-design.md).
+1. Define and personalize the message content, sender name and subject using the [Email Designer](../../designing/using/overview.md). For more on this, see [About email content design](../../designing/using/overview.md).
 
    ![](assets/email_creation_4.png)
 
-   You can design your message directly using a pre-defined content template, or using Dreamweaver or Adobe Experience Manager. If you don't feel like a designer, you can also upload a content that has been prepared for you, or import an existing content from a URL. See [Selecting an existing content](../../designing/using/selecting-an-existing-content.md).
+   You can design your message directly using a pre-defined content template, or using Dreamweaver or Adobe Experience Manager. If you don't feel like a designer, you can also upload a content that has been prepared for you, or import an existing content from a URL. See [Selecting an existing content](../../designing/using/using-an-existing-content.md).
 
 1. Preview your message. See [Previewing messages](../../sending/using/previewing-messages.md).
 1. Confirm creating the email.

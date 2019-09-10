@@ -72,7 +72,7 @@ The out-of-the-box email content templates include eighteen mobile-optimized lay
 **Related topics:**
 
 * Learn how to personalize content templates [in this video](https://helpx.adobe.com/campaign/kt/acs/using/acs-email_content_templates-feature-video-use.html).
-* For more information on editing content, see [About email content design](../../designing/using/about-email-content-design.md).
+* For more information on editing content, see [About email content design](../../designing/using/overview.md).
 
 ### Creating a content template {#creating-a-content-template}
 

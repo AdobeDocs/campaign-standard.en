@@ -224,7 +224,7 @@ Added information in the Extract file activity section on the new option that le
 
 ### New capabilities included in the release {#new-capabilities-included-in-the-release-2}
 
-Email Designer General Availability - [Read more](../../designing/using/about-email-content-design.md)
+Email Designer General Availability - [Read more](../../designing/using/overview.md)
 
 Product Listings in Transactional Emails - [Read more](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)
 
@@ -234,7 +234,7 @@ In-App Messaging Beta Improvements - [Read more](../../channels/using/about-in-a
 
 ### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-2}
 
-The Designing Content guide has been updated to reflect the Email Designer general availability and the legacy email content editor deprecation. [Read more](../../designing/using/about-email-content-design.md)
+The Designing Content guide has been updated to reflect the Email Designer general availability and the legacy email content editor deprecation. [Read more](../../designing/using/overview.md)
 
 Updated the [In-app](../../channels/using/about-in-app-messaging.md) and [Push notification](../../channels/using/about-push-notifications.md) documentation.
 
@@ -290,7 +290,7 @@ Added a new technote on SMS connector protocol and settings. [Read more](https:/
 
 Updated the Experience manager integration with Adobe Campaign documentation. [Read more](../../reporting/using/creating-a-custom-profile-dimension.md)
 
-The "Designing Content" guide has been fully reorganized, particularly to present the two editors that enable you to design content for emails. [Read more](../../designing/using/about-email-content-design.md)
+The "Designing Content" guide has been fully reorganized, particularly to present the two editors that enable you to design content for emails. [Read more](../../designing/using/overview.md)
 
 Learn how to simply make external contents fully editable with the Creative SDK by creating fragments from your existing emails. [Read more](../../designing/using/designing-from-scratch.md)
 
@@ -352,7 +352,7 @@ Learn the best practices for using Adobe hosted SFTP servers. [Read more](../../
 
 The list of supported Analytics SKUs for the integration with Triggers has been updated. [Read more](../../integrating/using/configuring-triggers-in-experience-cloud.md#configuring-solutions-and-services)
 
-Some pages of the content editor documentation have been merged to offer a more comprehensive view of the different actions available. [Read more](../../designing/using/about-email-content-design.md)
+Some pages of the content editor documentation have been merged to offer a more comprehensive view of the different actions available. [Read more](../../designing/using/overview.md)
 
 ## Release 18.3 - March 2018 {#release-18-3---march-2018}
 
@@ -618,7 +618,7 @@ New dedicated section about Adobe Mobile Services configuration to use push noti
 
 Mobile app configuration and implementation sections updated, including more detailed steps to set up and send push notifications. [Read more](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html )
 
-Updated section about how to work with images in Campaign. [Read more](../../designing/using/setting-up-image-properties.md)
+Updated section about how to work with images in Campaign. [Read more](../../designing/using/images.md#setting-up-image-properties)
 
 Integration with Adobe Analytics for Mobile (Point of Interest) updated, including configuration steps and use case. [Read more](../../integrating/using/about-campaign-points-of-interest-data-integration.md)
 

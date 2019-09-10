@@ -79,7 +79,7 @@ You can now access the message that you created and select the updated test prof
 
 To set up personalization in a transactional message, follow the steps below:
 
-1. Click the **[!UICONTROL Content]** block to modify your message's subject and content. For this example, import an HTML template containing images, the style sheet, and an HTML file. Importing HTML templates is presented in the [Loading an existing content](../../designing/using/selecting-an-existing-content.md) section.
+1. Click the **[!UICONTROL Content]** block to modify your message's subject and content. For this example, import an HTML template containing images, the style sheet, and an HTML file. Importing HTML templates is presented in the [Loading an existing content](../../designing/using/using-an-existing-content.md) section.
 
    ![](assets/message-center_6.png)
 

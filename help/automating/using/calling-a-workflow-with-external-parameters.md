@@ -187,7 +187,7 @@ Declared events variables are now available from the list of personalization fie
 
 * Personalize the delivery: when selecting a personalization field to configure a delivery, events variables are available in the **[!UICONTROL Workflow parameters]** element. You can use them as any personalization field, for example to define the delivery subject, the sender etc.
 
-  Delivery personalization is detailed in [this section](../../designing/using/about-personalization.md).
+  Delivery personalization is detailed in [this section](../../designing/using/personalization.md).
 
   ![](assets/extsignal_activities_perso.png)
 

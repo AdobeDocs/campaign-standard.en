@@ -26,7 +26,7 @@ Adobe Campaign allows you to insert a field from the database into your page suc
 
 To add a personalization field to the content:
 
-1. Click inside a text block, click the **[!UICONTROL Personalize]** icon from the contextual toolbar and select **[!UICONTROL Insert personalization field]**. For more on the Email Designer interface, see [this section](../../designing/using/about-email-content-design.md#email-designer-interface).
+1. Click inside a text block, click the **[!UICONTROL Personalize]** icon from the contextual toolbar and select **[!UICONTROL Insert personalization field]**. For more on the Email Designer interface, see [this section](../../designing/using/overview.md#email-designer-interface).
 
    ![](assets/email_perso_field_1.png)
 
@@ -56,7 +56,7 @@ Adobe Campaign offers a list of pre-configured content blocks. These content blo
 
 To add a content block:
 
-1. Click inside a text block, click the **[!UICONTROL Personalize]** icon from the contextual toolbar and select **[!UICONTROL Insert content block]**. For more on the Email Designer interface, see [this section](../../designing/using/about-email-content-design.md#email-designer-interface).
+1. Click inside a text block, click the **[!UICONTROL Personalize]** icon from the contextual toolbar and select **[!UICONTROL Insert content block]**. For more on the Email Designer interface, see [this section](../../designing/using/overview.md#email-designer-interface).
 
    ![](assets/email_content_block_1.png)
 

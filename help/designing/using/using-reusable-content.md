@@ -52,7 +52,7 @@ The following example shows how to create an email content template.
 
    ![](assets/email_designer_create-template_thumbnail.png)
 
-   This thumbnail will be displayed in the **[!UICONTROL Templates]** tab of the [Email Designer](../../designing/using/about-email-content-design.md#about-the-email-designer) home page.
+   This thumbnail will be displayed in the **[!UICONTROL Templates]** tab of the [Email Designer](../../designing/using/overview.md#about-the-email-designer) home page.
 
 1. Close the **[!UICONTROL Properties]** tab to return to the main workspace.
 1. Add structure components and content components that you can customize as needed.
@@ -61,7 +61,7 @@ The following example shows how to create an email content template.
     > You cannot insert personalization fields or conditional content inside a content template.
 1. Once edited, save your template.
 
-This template can now be used in any email built with the Email Designer. Select it from the **[!UICONTROL Templates]** tab of the [Email Designer](../../designing/using/about-email-content-design.md#about-the-email-designer) home page.
+This template can now be used in any email built with the Email Designer. Select it from the **[!UICONTROL Templates]** tab of the [Email Designer](../../designing/using/overview.md#about-the-email-designer) home page.
 
 ![](assets/content_template_new.png)
 
@@ -83,7 +83,7 @@ When editing an email with the Email Designer, you can directly save the content
 
 1. To find the template that you just created, go to **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]**.
 
-1. To use your new template, select it from the **[!UICONTROL Templates]** tab of the [Email Designer](../../designing/using/about-email-content-design.md#about-the-email-designer) home page.
+1. To use your new template, select it from the **[!UICONTROL Templates]** tab of the [Email Designer](../../designing/using/overview.md#about-the-email-designer) home page.
 
     ![](assets/content_template_new.png)
     

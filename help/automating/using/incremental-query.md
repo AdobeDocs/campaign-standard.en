@@ -90,7 +90,7 @@ The workflow is up made up of the following elements:
 
   Define the content of your email and insert the welcome promo code.
 
-  For more on this, refer to the [Email delivery](../../automating/using/email-delivery.md) and [Defining email content](../../designing/using/about-personalization.md) sections.
+  For more on this, refer to the [Email delivery](../../automating/using/email-delivery.md) and [Defining email content](../../designing/using/personalization.md) sections.
 
 Then start the workflow execution. Each week the new subscribers will receive the welcome email with the promo code.
 
