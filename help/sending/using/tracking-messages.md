@@ -58,7 +58,7 @@ In the **[!UICONTROL Type]** column, the possible values are:
 >
 >For the **push notification** channel, only clicks on mobile notifications are tracked. In that case, the value will be **[!UICONTROL Click on mobile notification]**.
 
-For more on how to insert tracking links, refer to [this page](../../designing/using/inserting-a-link.md).
+For more on how to insert tracking links, refer to [this page](../../designing/using/links.md#inserting-a-link).
 
 ## Tracked URLs {#tracked-urls}
 
@@ -66,4 +66,4 @@ The **[!UICONTROL Tracked URLs]** tab regroups the URLs contained in the sent me
 
 ![](assets/sending_delivery6.png)
 
-For more on tracking links, refer to [this section](../../designing/using/about-tracked-urls.md).
+For more on tracking links, refer to [this section](../../designing/using/links.md#about-tracked-urls).

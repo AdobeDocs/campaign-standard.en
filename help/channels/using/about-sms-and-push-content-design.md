@@ -20,12 +20,12 @@ snippet: y
 
 Use the content editor to define, modify and personalize the content of your SMS messages and push notifications in Adobe Campaign.
 
-This section describes the specificities of the SMS and push content editor, including the [SMS and push content editor interface](../../designing/using/sms-and-push-content-editor-interface.md).
+This section describes the specificities of the SMS and push content editor, including the [SMS and push content editor interface](../../channels/using/sms-and-push-content-editor-interface.md).
 
 The actions that are common to one or more marketing activities are presented in the following sections:
 
-* For more on personalizing an SMS or push notification content, see [Inserting a personalization field](../../designing/using/inserting-a-personalization-field.md) and [Adding a content block](../../designing/using/adding-a-content-block.md).
-* For more on defining conditional text in an SMS message or push notification, see [Defining dynamic text](../../designing/using/defining-dynamic-text.md).
+* For more on personalizing an SMS or push notification content, see [Inserting a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field) and [Adding a content block](../../designing/using/personalization.md#adding-a-content-block).
+* For more on defining conditional text in an SMS message or push notification, see [Defining dynamic text](../../channels/using/defining-dynamic-text.md).
 
 To access the SMS and push content editor:
 

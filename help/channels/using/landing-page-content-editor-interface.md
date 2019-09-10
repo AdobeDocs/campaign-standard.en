@@ -24,9 +24,9 @@ The content editor is organized into three different sections. These sections al
 
 ![](assets/des_lp_content_8.png)
 
-1. The **palette** on the left-hand side of the screen allows you to modify the general options linked to a selected block. The options that can be modified are: background color, border, text alignment, visibility condition, etc. See [Inserting a personalization field](../../designing/using/inserting-a-personalization-field.md).
-1. The **action bar** contains the general options for the page. You can select a template and change the display mode. See [Landing page editor action bar](../../designing/using/landing-page-content-editor-interface.md#landing-page-editor-action-bar).
-1. The main **editing zone** allows you to directly interact with the content using the contextual toolbar: insert a link into an image, change the font, delete a field, etc. See [Landing page editor toolbar](../../designing/using/landing-page-content-editor-interface.md#landing-page-editor-toolbar).
+1. The **palette** on the left-hand side of the screen allows you to modify the general options linked to a selected block. The options that can be modified are: background color, border, text alignment, visibility condition, etc. See [Inserting a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field).
+1. The **action bar** contains the general options for the page. You can select a template and change the display mode. See [Landing page editor action bar](../../channels/using/landing-page-content-editor-interface.md#landing-page-editor-action-bar).
+1. The main **editing zone** allows you to directly interact with the content using the contextual toolbar: insert a link into an image, change the font, delete a field, etc. See [Landing page editor toolbar](../../channels/using/landing-page-content-editor-interface.md#landing-page-editor-toolbar).
 
 ## Landing page editor action bar {#landing-page-editor-action-bar}
 
@@ -48,7 +48,7 @@ The action bar contains different buttons that allow you to interact with the co
    <td> <img height="21px" src="assets/download_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Change content</span> <br /> </td> 
    <td> Landing page and email<br /> </td> 
-   <td> Allows you to select out-of-the-box content or import your own HTML content. Refer to <a href="../../designing/using/selecting-an-existing-content.md">Loading an existing content</a>.<br /> </td> 
+   <td> Allows you to select out-of-the-box content or import your own HTML content. Refer to <a href="../../designing/using/using-existing-content.md">Loading an existing content</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/undo_darkgrey-24px.png" /> <br /> </td> 
@@ -101,25 +101,25 @@ The toolbar is a **contextual element** of the editor interface that offers vari
    <td> <img height="21px" src="assets/link_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Link to an external URL</span> <br /> </td> 
    <td> Any element<br /> </td> 
-   <td> Allows you to add a link to a URL. Details of how to configure a link are presented in the <a href="../../designing/using/inserting-a-link.md">Inserting a link</a> section.<br /> </td> 
+   <td> Allows you to add a link to a URL. Details of how to configure a link are presented in the <a href="../../designing/using/links.md#inserting-a-link">Inserting a link</a> section.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/linkpage_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Link to a landing page</span> <br /> </td> 
    <td> Any element<br /> </td> 
-   <td> Allows access to an Adobe Campaign landing page. Details of how to configure a link are presented in the <a href="../../designing/using/inserting-a-link.md">Inserting a link</a> section.<br /> </td> 
+   <td> Allows access to an Adobe Campaign landing page. Details of how to configure a link are presented in the <a href="../../designing/using/links.md#inserting-a-link">Inserting a link</a> section.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/link_subscribe_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Subscription link</span> <br /> </td> 
    <td> Any element<br /> </td> 
-   <td> Allows you to insert a service subscription link. Details of how to configure a link are presented in the <a href="../../designing/using/inserting-a-link.md">Inserting a link</a> section.<br /> </td> 
+   <td> Allows you to insert a service subscription link. Details of how to configure a link are presented in the <a href="../../designing/using/links.md#inserting-a-link">Inserting a link</a> section.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/link_unsubscribe_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Unsubscription link</span> <br /> </td> 
    <td> Any element<br /> </td> 
-   <td> Allows you to insert a service unsubscription link. Details of how to configure a link are presented in the <a href="../../designing/using/inserting-a-link.md">Inserting a link</a> section.<br /> </td> 
+   <td> Allows you to insert a service unsubscription link. Details of how to configure a link are presented in the <a href="../../designing/using/links.md#inserting-a-link">Inserting a link</a> section.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/linkoff_darkgrey-24px.png" /> <br /> </td> 
@@ -131,19 +131,19 @@ The toolbar is a **contextual element** of the editor interface that offers vari
    <td> <img height="21px" src="assets/personalization_field_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Insert a personalization field</span> <br /> </td> 
    <td> Text element<br /> </td> 
-   <td> Allows you to add a field from the database to the content. Refer to <a href="../../designing/using/inserting-a-personalization-field.md">Inserting a personalization field</a>.<br /> </td> 
+   <td> Allows you to add a field from the database to the content. Refer to <a href="../../designing/using/personalization.md#inserting-a-personalization-field">Inserting a personalization field</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/personalization_block_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Insert a content block</span> <br /> </td> 
    <td> Text element<br /> </td> 
-   <td> Allows you to add a personalization block to the content. Refer to <a href="../../designing/using/adding-a-content-block.md">Adding a content block</a>.<br /> </td> 
+   <td> Allows you to add a personalization block to the content. Refer to <a href="../../designing/using/personalization.md#adding-a-content-block">Adding a content block</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/dynamiccontent_24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Enable dynamic content</span> <br /> </td> 
    <td> Text element<br /> </td> 
-   <td> Allows you to insert dynamic content in the content. Refer to <a href="../../designing/using/defining-dynamic-content-in-a-landing-page.md">Defining dynamic content</a>.<br /> </td> 
+   <td> Allows you to insert dynamic content in the content. Refer to <a href="../../channels/using/defining-dynamic-content-in-a-landing-page.md">Defining dynamic content</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/dynamiccontentdisable_24px.png" /> <br /> </td> 

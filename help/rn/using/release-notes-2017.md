@@ -42,7 +42,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
   </tr> 
   <tr> 
    <td> Content creation: Import from a URL<br /> </td> 
-   <td> Import from a URL enables you to quickly retrieve your creative content from a website to build emails for any delivery. Additionally, you can streamline your creative process by enabling third parties to share content directly through a URL. Imported content can be flexibly used as part of a single delivery or at the template level ensuring brand consistency for all related campaigns whether they be workflow-based or transactional messages, and include A/B or multivariate testing. Import from a URL automatically converts and tracks all links to monitor email performance through Dynamic Reporting.<br /> For more information, refer to the <a href="../../designing/using/importing-content-from-a-url.md">detailed documentation</a>.<br /> </td> 
+   <td> Import from a URL enables you to quickly retrieve your creative content from a website to build emails for any delivery. Additionally, you can streamline your creative process by enabling third parties to share content directly through a URL. Imported content can be flexibly used as part of a single delivery or at the template level ensuring brand consistency for all related campaigns whether they be workflow-based or transactional messages, and include A/B or multivariate testing. Import from a URL automatically converts and tracks all links to monitor email performance through Dynamic Reporting.<br /> For more information, refer to the <a href="../../designing/using/using-existing-content.md#importing-content-from-a-url">detailed documentation</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -117,7 +117,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
  <tbody> 
   <tr> 
    <td> Library of Email templates<br /> </td> 
-   <td> Introducing eighteen brand-new, responsive templates designed in two beautiful themes - Astro and Feather. These customizable templates are industry agnostic, and ready to be used right away. Templates include content for a variety of use cases to get your email marketing campaigns designed and delivered more quickly, efficiently and more beautifully than ever before.<br /> For more information, refer to the <a href="../../start/using/about-templates.md#content-templates">detailed documentation</a>.<br /> </td> 
+   <td> Introducing eighteen brand-new, responsive templates designed in two beautiful themes - Astro and Feather. These customizable templates are industry agnostic, and ready to be used right away. Templates include content for a variety of use cases to get your email marketing campaigns designed and delivered more quickly, efficiently and more beautifully than ever before.<br /> For more information, refer to the <a href="../../designing/using/using-reusable-content.md#content-templates">detailed documentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Dynamic Reporting with Profile Data<br /> </td> 
@@ -312,7 +312,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
  <tbody> 
   <tr> 
    <td> Enhanced Image edition capabilities with the Creative SDK<br /> </td> 
-   <td> You now have access to a complete set of features powered by the Creative SDK to enhance your images directly in the content editor when editing emails or landing pages.<br /> This feature does not require the acquisition of additional Creative Cloud solutions.<br /> For more information, refer to the <a href="../../designing/using/modifying-images-with-the-adobe-creative-sdk.md">detailed documentation</a>.<br /> </td> 
+   <td> You now have access to a complete set of features powered by the Creative SDK to enhance your images directly in the content editor when editing emails or landing pages.<br /> This feature does not require the acquisition of additional Creative Cloud solutions.<br /> For more information, refer to the <a href="../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk">detailed documentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Transactional push notifications<br /> </td> 

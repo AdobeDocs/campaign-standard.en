@@ -1,0 +1,154 @@
+---
+title: Designing emails from scratch 
+seo-title: Designing emails from scratch 
+description: Designing emails from scratch 
+seo-description: Discover how to design emails from scratch email content in the Email Designer.
+page-status-flag: never-activated
+uuid: 571ffc01-6e41-4501-9094-2f812b041a10
+contentOwner: sauviat
+products: SG_CAMPAIGN/STANDARD
+audience: designing
+content-type: reference
+topic-tags: editing-email-content
+discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
+
+internal: n
+snippet: y
+---
+
+# Designing emails from scratch {#designing-an-email-content-from-scratch}
+
+Learn how to master email content edition. With Email Designer, you can create emails and templates starting with or without your own predefined content. 
+
+Here are the main steps to create and design an email content from scratch using the Email Designer:
+
+1. Create an email and open its content.
+1. Add structure components to shape the email. See [Editing the email structure](../../designing/using/designing-from-scratch.md#editing-the-email-structure).
+1. Insert content components and fragments in the structure components. See [Adding fragments and content components](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+1. Add images and edit the text of the email. See [Inserting images](../../designing/using/images.md#inserting-images).
+1. Personalize your email by adding personalization fields, links, and so on. See [Inserting a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field), [Inserting a link](../../designing/using/links.md#inserting-a-link) and [Defining dynamic content in an email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
+1. Define the subject line of your email. See [Personalizing the subject line of an email](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
+1. Preview your email.
+1. Save your content, and proceed with your message after making sure that you have defined an audience and properly scheduled the sending.
+
+You can also check out this [introduction video](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true).
+
+>[!NOTE]
+>
+>To avoid designing email content from scratch, you can use out-of-the-box content templates. For more on this, see [Content templates](../../designing/using/using-reusable-content.md#content-templates).
+
+
+## Editing the email structure {#editing-the-email-structure}
+
+The Email Designer allows you to easily define the structure of your email. By adding and moving structural elements with simple drag-and-drop actions, you can design the shape of your email within seconds.
+
+### Defining Email Structure {#defining-the-email-structure}
+
+The Email Designer allows you to easily define the structure of your email. By adding and moving structural elements with simple drag-and-drop actions, you can design the shape of your email within seconds.
+
+To edit the structure of an email:
+
+1. Open an existing content or create a new email content.
+1. Access the **[!UICONTROL Structure components]** by selecting the **+** icon on the left.
+
+   ![](assets/email_designer_structure.png)
+
+1. Drag and drop the structure components that you need to shape your email.
+
+   ![](assets/email_designer_structure_components.png)
+
+   A blue line materializes the exact location of the structure components before you drop it. You can drop it above, between or below any other component, but not inside.
+
+   >[!NOTE]
+   >
+   >Once placed in the email, you cannot move nor remove your components unless there is already a content component or a fragment placed inside.
+
+1. Several structure components composed of one or more columns are available.
+
+   Select the **[!UICONTROL n:n column]** component to define the number of columns of your choice (between 3 and 10). You can also define the width of each column by moving the arrows at the bottom of each column.
+
+   ![](assets/email_designer_n-n-column.png)
+
+   >[!NOTE]
+   >
+   >Each column size cannot be under 10% of the total width of the structure component. You cannot remove a column that is not empty.
+
+Once the structure is defined, you are able to add content fragments and components to your email.
+
+### About content components {#about-content-components}
+
+Content components are raw, empty components that you can edit once placed in an email.
+
+You can add as many content components as you want in a structure component. You can also move them inside the structure component or to another structure component.
+
+Here is the list of the available components in the Email Designer:
+
+- **[!UICONTROL Button]**
+
+  If you need to use multiple buttons, rather than editing each button from scratch, you can duplicate the **[!UICONTROL Button]** component using the contextual toolbar.
+
+  You can also save buttons into fragments that can be reused. For more on this, see [Creating a content fragment](../../designing/using/using-reusable-content.md#creating-a-content-fragment) and [Saving content as a fragment](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
+
+- **[!UICONTROL Carousel]**
+
+  For more on this, see [Using the carousel component](../../designing/using/designing-from-scratch.md#using-the-carousel-component).
+
+- **[!UICONTROL Divider]** 
+- **[!UICONTROL Html]**
+
+  Use this component to copy-past the different parts of your existing HTML. This enables you to create free modular HTML components.
+
+  >[!NOTE]
+  >
+  >A free HTML component is editable with limited options. If all styles are not inlined, make sure to add the proper CSS in the **head** section of the HTML code, otherwise the email will not be responsive. Use the **[!UICONTROL Preview]** button to test the responsiveness of your content (see [Previewing messages](../../sending/using/previewing-messages.md)).
+
+- **[!UICONTROL Image]** 
+- **[!UICONTROL Social]** 
+- **[!UICONTROL Text]**
+
+#### Using the HTML component {#using-html-component}
+
+To simply make an external content compliant with the Email Designer, Adobe recommends creating a message from scratch and copy the content from your existing email into fragments and components.
+
+When you have a content that cannot be recreated, you can copy-paste the HTML code from the original email using the **[!UICONTROL Html]** content component. Make sure you are familiar with HTML before proceeding.
+
+<!-- A full example is presented below. -->
+
+>[!NOTE]
+>
+>The new content will not be the exact copy of your original email, but the steps below will guide you through the creation of a message that will be as close as possible.
+
+**Before copying your content**
+
+1. In your original email, identify the reusable sections from the sections that will be unique to each email that you will send.
+1. Save all the images and assets that you want to use.
+1. If you are familiar with HTML, split your original HTML content into different parts.
+
+#### Using the carousel component {#using-the-carousel-component}
+
+1. Drag and drop the **[!UICONTROL Carousel]** component inside a structure component.
+1. Browse to select images from your computer.
+
+   ![](assets/des_carousel_browse.png)
+
+1. From the **[!UICONTROL Settings]** pane, set the number of thumbnails that you want in the carousel.
+1. Select a fallback image from your computer.
+
+   ![](assets/des_carousel_fallback.png)
+
+   The carousel component is not compatible with all email programs. Upload a fallback to display an image instead when the carousel is not supported in the email.
+
+   >[!NOTE]
+   >
+   >The carousel component is compatible with the following email platforms: Apple Mail 7, Apple Mail 8, Outlook 2011 for Mac, Outlook 2016 for Mac, Mozilla Thunderbird, iPad and iPad mini iOS, iPhone iOS, Android, AOL (Chrome, Firefox and Safari).
+
+1. Select **[!UICONTROL Fallback view]** to display the fallback image in the Email Designer.
+
+
+**Related topics**:
+
+- [Creating an email](../../channels/using/creating-an-email.md)
+- [Selecting an audience in a message](../../audiences/using/selecting-an-audience-in-a-message.md)
+- [Scheduling messages](../../sending/using/about-scheduling-messages.md)
+- [Previewing messages](../../sending/using/previewing-messages.md)
+- [Email rendering](../../sending/using/email-rendering.md)

@@ -1,22 +1,24 @@
 ---
-title: Editing email styles
-seo-title: Editing email styles
-description: Editing email styles
-seo-description: Quickly edit the style of your content through the Email Designer with easily accessible settings.
+title: Managing Styles
+seo-title: Managing Styles
+description: Managing Styles
+seo-description: Discover how to manage email styles in the Email Designer.
 page-status-flag: never-activated
-uuid: 1fac228d-c02c-410a-a4bd-0c3b163ab5f9
+uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-discoiquuid: 09c66cd5-2bbf-4846-ac8a-312ab5c18473
+discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 
 internal: n
 snippet: y
 ---
 
-# Editing email styles{#editing-email-styles}
+# Managing Styles {#managing-styles}
+
+## Editing email styles{#editing-email-styles}
 
 ## Editing an element {#editing-an-element}
 
@@ -44,16 +46,16 @@ To select a column, you can also do the following:
 1. Select a structure component (directly in the email or using the structure tree available from the left **Palette**).
 1. From the **contextual toolbar**, click **[!UICONTROL Select a column]** to choose the desired column.
 
-See an example in [this section](../../designing/using/editing-email-styles.md#example--adjusting-vertical-alignment-and-padding).
+See an example in [this section](../../designing/using/styles.md#example--adjusting-vertical-alignment-and-padding).
 
 ### Adjusting style settings {#adjusting-style-settings}
 
-1. Select an element in your email. For more on this, see [Selecting an element](../../designing/using/editing-email-styles.md#selecting-an-element).
+1. Select an element in your email. For more on this, see [Selecting an element](../../designing/using/styles.md#selecting-an-element).
 1. Adjust the settings according to your needs. Each selected element offers a different set of settings.
 
-   You can insert backgrounds, change sizes, modify horizontal or vertical alignment, manage colors, add [padding or margin](../../designing/using/editing-email-styles.md#about-padding-and-margin), and so on.
+   You can insert backgrounds, change sizes, modify horizontal or vertical alignment, manage colors, add [padding or margin](../../designing/using/styles.md#selecting-an-element), and so on.
 
-   To do this, use the options displayed in the **[!UICONTROL Settings]** pane or [add inline styling attributes](../../designing/using/editing-email-styles.md#adding-inline-styling-attributes).
+   To do this, use the options displayed in the **[!UICONTROL Settings]** pane or [add inline styling attributes](../../designing/using/styles.md#adding-inline-styling-attributes).
 
    ![](assets/des_settings_pane.png)
 
@@ -141,7 +143,7 @@ Below are the available background settings that you can use.
 
   You can also set a background image at the column level, but this is rarely used.
 
-### Example: adjusting vertical alignment and padding {#example--adjusting-vertical-alignment-and-padding}
+#### Example: adjusting vertical alignment and padding {#example--adjusting-vertical-alignment-and-padding}
 
 You want to adjust padding and vertical alignment inside a structure component composed of three columns. To do this, follow the steps below:
 
@@ -170,7 +172,7 @@ You want to adjust padding and vertical alignment inside a structure component c
 
 1. Save your changes.
 
-## Adding inline styling attributes {#adding-inline-styling-attributes}
+### Adding inline styling attributes {#adding-inline-styling-attributes}
 
 In the Email Designer interface, when you select an element and display its settings on the side panel, you can customize the inline attributes and their value for that specific element.
 
@@ -182,3 +184,73 @@ In the Email Designer interface, when you select an element and display its sett
 1. Modify the values of the existing attributes, or add new ones using the **+** button. You can add any attribute and value that is CSS-compliant.
 
 The styling is then applied to the selected element. If the child elements do not have specific styling attributes defined, the styling of the parent element is inherited.
+
+## Switching to mobile view {#switching-to-mobile-view}
+
+You can fine-tune the responsive design of an email by separately editing all style options for mobile display. For example, you can adapt margins and padding, use smaller or bigger font sizes, change buttons, or apply different background colors that will be specific to the mobile version of your email.
+
+All style options are available in mobile view. The Email Designer style settings are presented in the [Editing email styles](../../designing/using/styles.md) section.
+
+1. Create an email and start editing the content. For more on this, see [Designing an email content from scratch](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
+1. To access the dedicated mobile view, select the **[!UICONTROL Switch to mobile view]** button.
+
+   ![](assets/email_designer_mobile_view_switch.png)
+
+   The mobile version of the email is displayed. It contains all the components and styles that were defined in desktop view.
+
+1. Edit independently all style settings such as background color, alignment, padding, margin, font family, text color, and so on.
+
+   ![](assets/email_designer_mobile_view.png)
+
+1. When editing any style setting in mobile view, the modifications are only applied to the mobile display.
+
+   For example, reduce the size of an image, add a green background and change the padding in mobile view.
+
+   ![](assets/email_designer_mobile_view_change.png)
+
+1. You can hide a component when displayed on a mobile device. To do this, select **[!UICONTROL Show only on desktop devices]** from the **[!UICONTROL Display options]**.
+You can also choose to hide this component on desktop devices, which means that it will be displayed on mobile devices only. To do this, select **[!UICONTROL Show only on mobile devices]**.
+For example, this option enables you to display a specific image on mobile devices and another image on desktop devices.
+You can either set this option from the mobile or desktop view.
+
+   ![](assets/email_designer_mobile_hide.png)
+
+1. Click again the **[!UICONTROL Switch to mobile view]** button to go back to the standard desktop view. The style changes you just made are not reflected.
+
+   ![](assets/email_designer_mobile_view_desktop_no-change.png)
+
+   >[!NOTE]
+   >
+   >The only exception is the **[!UICONTROL Style inline]** settings. Any style inline setting change is also applied to the standard desktop view.
+
+1. Any other change to the structure or the content of the email such as text edits, uploading a new image, adding a new component, etc. is also applied to the standard view.
+
+   For example, switch back to mobile view, edit some text and replace an image.
+
+   ![](assets/email_designer_mobile_view_change_content.png)
+
+   Click again the **[!UICONTROL Switch to mobile view]** button to go back to the standard desktop view. The changes are reflected.
+
+   ![](assets/email_designer_mobile_view_desktop_content-change.png)
+
+1. Removing a style in mobile view takes you back to the style that was applied in desktop mode.
+
+   For example, in mobile view, apply a green background color to a button.
+
+   ![](assets/email_designer_mobile_view_background_mobile.png)
+
+1. Switch to desktop view and apply a grey background to the same button.
+
+   ![](assets/email_designer_mobile_view_background_desktop.png)
+
+1. Switch again to mobile view, and now disable the **[!UICONTROL Background color]** setting.
+
+   ![](assets/email_designer_mobile_view_background_mobile_disabled.png)
+
+   The background color defined in desktop view is now applied: it turns grey (not blank).
+
+   The only exception is the **[!UICONTROL Border color]** setting. When disabled in mobile view, no border is applied anymore, even if a border color is defined in desktop view.
+
+>[!NOTE]
+>
+>The mobile view is not available in [fragments](../../designing/using/using-reusable-content.md#about-fragments).

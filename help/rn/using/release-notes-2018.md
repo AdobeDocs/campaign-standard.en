@@ -64,7 +64,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 
 * When selecting a content block using the Creative Designer interface, all the content blocks from the list are now loaded and displayed. (CAMP-27311)
 
-  For more on this, refer to the [detailed documentation](../../designing/using/adding-a-content-block.md).
+  For more on this, refer to the [detailed documentation](../../designing/using/personalization.md#adding-a-content-block).
 
 ### Patches {#patches}
 
@@ -111,7 +111,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
   </tr> 
   <tr> 
    <td> Automated content import from a URL during message preparation<br /> </td> 
-   <td> It is now possible to import email content from a URL during the preparation phase. For recurring email deliveries, the latest HTML content is retrieved each time the message is prepared ensuring the content is always up-to-date at the time the email is sent. This feature also lets you create a scheduled delivery with content from a URL even if the content is not ready yet.<br /> For more information, refer to the <a href="../../designing/using/importing-content-from-a-url.md#retrieving-content-from-a-url-automatically-at-preparation-time">detailed documentation</a>.<br /> </td> 
+   <td> It is now possible to import email content from a URL during the preparation phase. For recurring email deliveries, the latest HTML content is retrieved each time the message is prepared ensuring the content is always up-to-date at the time the email is sent. This feature also lets you create a scheduled delivery with content from a URL even if the content is not ready yet.<br /> For more information, refer to the <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">detailed documentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Campaign release notification message<br /> </td> 
@@ -132,8 +132,8 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 ### Other changes {#other-changes-1}
 
 * Report sharing time out has been increased from one to four minutes to avoid any time out error.
-* When editing the content of an email, the new Creative Designer opens by default. If you wish, you can still go back to the default content editor at any time after saving your changes. For more on this, refer to the [detailed documentation](../../designing/using/about-email-content-design.md).
-* In the Creative Designer, a new content component can now be added into an email: the carousel. For more on this, refer to the [detailed documentation](../../designing/using/defining-the-email-structure.md#about-content-components).
+* When editing the content of an email, the new Creative Designer opens by default. If you wish, you can still go back to the default content editor at any time after saving your changes. For more on this, refer to the [detailed documentation](../../designing/using/overview.md).
+* In the Creative Designer, a new content component can now be added into an email: the carousel. For more on this, refer to the [detailed documentation](../../designing/using/designing-from-scratch.md#about-content-components).
 * In a transactional message hot click report, when you click the **Change profile** button, now only the test profiles linked to the event that you defined for your transactional message are listed.
 
 ### Patches {#patches-1}
@@ -316,7 +316,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
      <li> Create and save an email content template &amp; leverage saved templates to help scale email creation </li> 
      <li> Create and save content Fragments (such as a header, footer, article, etc.) to streamline content creation and ensure brand consistency </li> 
      <li> Seamlessly switch between creating in the drag &amp; drop interface and directly editing HTML of an email at the click of a button </li> 
-    </ul> The Creative Designer for Email is only available in English.<br /> For more information, refer to the <a href="../../designing/using/about-email-content-design.md#about-the-email-designer">detailed documentation</a> and watch this <a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">video</a>.<br /> </td> 
+    </ul> The Creative Designer for Email is only available in English.<br /> For more information, refer to the <a href="../../designing/using/overview.md">detailed documentation</a> and watch this <a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">video</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Multilingual Push Deliveries<br /> </td> 

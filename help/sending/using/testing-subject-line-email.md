@@ -1,54 +1,21 @@
 ---
-title: Personalizing the subject line of an email
-seo-title: Personalizing the subject line of an email
-description: Personalizing the subject line of an email
-seo-description: You can personalize the subject of an email, but also try out different subject lines and get an estimation of its open rate.
+title: Testing the subject line of an email
+seo-title: Testing the subject line of an email
+description: Testing the subject line of an email
+seo-description: Discover how to define the subject line of an email in the Email Designer.
 page-status-flag: never-activated
-uuid: 345b5f4b-8e2c-4f8e-bce7-0e9b40a44932
+uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: designing
+audience: sending
 content-type: reference
-topic-tags: personalizing-content
-discoiquuid: f7a5e935-54cf-422e-8459-27221409a200
+topic-tags: editing-email-content
+discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 
 internal: n
 snippet: y
 ---
-
-# Personalizing the subject line of an email{#personalizing-the-subject-line-of-an-email}
-
-## Personalizing an email subject {#personalizing-an-email-subject}
-
-The message subject is mandatory to prepare and send the message.
-
->[!NOTE]
->
->If the subject line is empty, a warning is displayed in the message dashboard and in the Email Designer.
-
-To configure the email subject, go the **[!UICONTROL Properties]** tab of the Email Designer home page (accessible through the home icon) and fill in the **[!UICONTROL Subject]** section.
-
-![](assets/email_designer_subject.png)
-
-You can also add personalization fields, content blocks and dynamic content to the subject line by clicking the corresponding icons.
-
-**Related topics:**
-
-* [Inserting a personalization field](../../designing/using/inserting-a-personalization-field.md)
-* [Adding a content block](../../designing/using/adding-a-content-block.md)
-* [Defining dynamic content in an email](../../designing/using/defining-dynamic-content-in-an-email.md)
-
-## Predictive subject line {#predictive-subject-line}
-
-When editing an email, you can try out different subject lines and get an estimation of its open rate before you send it.
-
-This feature is disabled by default. It is enabled when the first model is imported. A model is the result of training data sets specific to a given industry. Models allow the system to predict the open rate of the email when a new subject line is submitted.
-
->[!NOTE]
->
->This feature is available for email messages and for databases that contain English contents only. The trained model will be inconsistent and will lead to erroneous results if your instance contains emails in other languages. The option that allows you to test a subject is only visible if a model is already available on your instance.
-
-### Testing a subject {#testing-a-subject}
+# Testing a subject {#testing-a-subject}
 
 To test your subject line:
 
@@ -77,7 +44,7 @@ Several indicators are calculated and a set of tools are displayed to help you:
 
 ![](assets/predictive_subject_line_example.png)
 
-### Importing models {#importing-models}
+## Importing models {#importing-models}
 
 By default, there is no model running on your Adobe Campaign server. There are two ways to get a model and activate the feature:
 
@@ -113,7 +80,3 @@ The models that are available for use are:
 * Supermarket industry: subjectInsightSupermarket.xml
 * Medical industry: subjectInsightMedical.xml
 * Model to train: subjectlineTraining.xml.
-
-**Related topic:**
-
-* [Optimizing subject lines with Adobe Sensei predictions](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Createcompellingcontenttailoredtoeveryindividual)

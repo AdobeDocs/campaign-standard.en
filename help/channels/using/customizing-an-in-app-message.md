@@ -94,7 +94,7 @@ If needed, you can also add a message title and content to your In-App message. 
 
 1. Type in your message content and add your personalization fields if needed.
 
-   For more information on personalization field, refer to this [section](../../designing/using/inserting-a-personalization-field.md).
+   For more information on personalization field, refer to this [section](../../designing/using/personalization.md#inserting-a-personalization-field).
 
    ![](assets/inapp_customize_10.png)
 

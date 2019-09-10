@@ -57,7 +57,7 @@ In the specific context of an A/B test:
 
    ![](assets/ab_parameters.png)
 
-1. Once the A/B test parameters have been defined, pass to the next step in the wizard and define the email content. Depending on the template that you have chosen, you can define several subjects, several sender names, or several different contents. Use the carousel to navigate between the different variants of the element. For more information, consult the [content editor](../../designing/using/about-email-content-design.md) section.
+1. Once the A/B test parameters have been defined, pass to the next step in the wizard and define the email content. Depending on the template that you have chosen, you can define several subjects, several sender names, or several different contents. Use the carousel to navigate between the different variants of the element. For more information, consult the [content editor](../../designing/using/overview.md) section.
 
    ![](assets/create_ab_testing2.png)
 

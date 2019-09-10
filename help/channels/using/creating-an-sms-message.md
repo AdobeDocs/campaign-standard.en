@@ -49,7 +49,7 @@ To create and send SMS messages to a mobile phone, you need:
 
    ![](assets/sms_creation_3.png)
 
-1. Add content to your SMS. You can also define the content by clicking the **[!UICONTROL Content]** section of the delivery dashboard, once the SMS creation is finalized. See [About SMS content design](../../designing/using/about-sms-and-push-content-design.md).
+1. Add content to your SMS. You can also define the content by clicking the **[!UICONTROL Content]** section of the delivery dashboard, once the SMS creation is finalized. See [About SMS content design](../../channels/using/about-sms-and-push-content-design.md).
 
    If you have inserted personalization fields or conditional text into the content of your SMS message, the length of the message may vary from one recipient to another. indeed, these factors may introduce characters that are not taken into account by the GSM encoding. This is why the message length has to be evaluated once personalization has been carried out. See [Personalizing SMS messages](../../channels/using/personalizing-sms-messages.md).
 
@@ -76,7 +76,7 @@ Once the sending is finished, you can start measuring the impact of your message
 
 **Related topics:**
 
-* [About SMS and push content edition](../../designing/using/about-sms-and-push-content-design.md)
+* [About SMS and push content edition](../../channels/using/about-sms-and-push-content-design.md)
 * [Managing templates](../../start/using/about-templates.md)
 * [Create an SMS delivery](https://helpx.adobe.com/campaign/kt/acs/using/acs-creating-a-sms-delivery-feature-video-use.html) video
 

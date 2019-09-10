@@ -16,21 +16,27 @@ internal: n
 snippet: y
 ---
 
-# Designing content in Adobe Campaign{#designing-content-in-adobe-campaign}
+# Designing email content with the Email Designer{#designing-content-in-adobe-campaign}
 
-Once you have created a message or a landing page in Adobe Campaign, you need to define its content.
+Once you have created an email in Adobe Campaign, you need to define its content.
 
-* For more on editing email content and using the Email Designer provided by Adobe Campaign, see [About email content design](../../designing/using/about-email-content-design.md).
-* For more on editing landing page content, see [About landing page content design](../../designing/using/about-landing-page-content-design.md).
-* For more on editing SMS or push notification content, see [About SMS and push content design](../../designing/using/about-sms-and-push-content-design.md).
+<!--The Email Designer has more features than the Legacy Editor and is backward compatible.-->
 
-When creating an email or a landing page, you can choose to use a predefined template or to load an existing content from another source. See [Selecting an existing content](../../designing/using/selecting-an-existing-content.md).
+* To discover how to create email content, see [Quick start](../../designing/using/quick-start.md).
+* For an overview of the Email Designer, see [Using the Email Designer](../../designing/using/overview.md).
+* For more on building content: 
+  * From scratch, see [Designing emails from scratch](../../designing/using/designing-from-scratch.md).
+  * Using existing content, see [Designing using existing content](../../designing/using/using-existing-content.md).
+  * Using integrations, see [Designing through Adobe Campaign integrations](../../designing/using/using-integrations.md).
+* For more on Personalization, see [Personalization](../../designing/using/personalization.md).
 
-To increase the efficiency of your marketing campaigns, personalize your content. See [Inserting a personalization field](../../designing/using/inserting-a-personalization-field.md) and [Adding a content block](../../designing/using/adding-a-content-block.md).
+When creating an email , you can choose to use a predefined template or to load an existing content from another source. See [Selecting an existing content](../../designing/using/using-existing-content.md#selecting-an-existing-content).
 
-You can also define dynamic content that varies depending on each profile. See [Defining dynamic content in an email](../../designing/using/defining-dynamic-content-in-an-email.md) and [Defining dynamic content in a landing page](../../designing/using/defining-dynamic-content-in-a-landing-page.md).
+To increase the efficiency of your marketing campaigns, personalize your content. See [Inserting a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field) and [Adding a content block](../../designing/using/personalization.md#adding-a-content-block).
 
-Enhance your messages and landing pages with links and images. See [Inserting a link](../../designing/using/inserting-a-link.md) and [Inserting images](../../designing/using/inserting-images.md).
+You can also define dynamic content that varies depending on each profile. See [Defining dynamic content in an email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) and [Defining dynamic content in a landing page](../../channels/using/defining-dynamic-content-in-a-landing-page.md).
+
+Enhance your messages and landing pages with links and images. See [Inserting a link](../../designing/using/links.md#inserting-a-link) and [Inserting images](../../designing/using/images.md#inserting-images).
 
 **Related topics**:
 
@@ -38,4 +44,3 @@ Enhance your messages and landing pages with links and images. See [Inserting a 
 * [Designing a landing page](../../channels/using/designing-a-landing-page.md)
 * [Creating an SMS message](../../channels/using/creating-an-sms-message.md)
 * [Creating and sending a push notification](../../channels/using/preparing-and-sending-a-push-notification.md)
-
