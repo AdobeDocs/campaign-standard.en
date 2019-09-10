@@ -1,6 +1,6 @@
-![Campaign Banner](banner.png)
+# Welcome!
 
-# Campaign Standard Documentation
+![Campaign Banner](banner.png)
 
 This project contains the Technical documentation for Campaign Standard. You can access it online [here](https://docs.adobe.com/content/help/en/campaign-standard/using/campaign-standard-home.html).
 
