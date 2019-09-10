@@ -50,7 +50,7 @@ You can create an email from a [campaign](../../start/using/marketing-activities
 
    ![](assets/email_creation_4.png)
 
-   You can design your message directly using a pre-defined content template, or using Dreamweaver or Adobe Experience Manager. If you don't feel like a designer, you can also upload a content that has been prepared for you, or import an existing content from a URL. See [Selecting an existing content](../../designing/using/using-an-existing-content.md).
+   You can design your message directly using a pre-defined content template, or using Dreamweaver or Adobe Experience Manager. If you don't feel like a designer, you can also upload a content that has been prepared for you, or import an existing content from a URL. See [Selecting an existing content](../../designing/using/using-existing-content.md).
 
 1. Preview your message. See [Previewing messages](../../sending/using/previewing-messages.md).
 1. Confirm creating the email.

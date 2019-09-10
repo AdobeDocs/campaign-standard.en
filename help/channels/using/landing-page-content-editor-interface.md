@@ -48,7 +48,7 @@ The action bar contains different buttons that allow you to interact with the co
    <td> <img height="21px" src="assets/download_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Change content</span> <br /> </td> 
    <td> Landing page and email<br /> </td> 
-   <td> Allows you to select out-of-the-box content or import your own HTML content. Refer to <a href="../../designing/using/using-an-existing-content.md">Loading an existing content</a>.<br /> </td> 
+   <td> Allows you to select out-of-the-box content or import your own HTML content. Refer to <a href="../../designing/using/using-existing-content.md">Loading an existing content</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/undo_darkgrey-24px.png" /> <br /> </td> 
