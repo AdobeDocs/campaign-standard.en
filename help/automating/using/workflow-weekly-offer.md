@@ -49,6 +49,8 @@ You can send an email every Tuesday to all the customers for Special Offers.
 1. In **[!UICONTROL Shortcuts]** > **[!UICONTROL General]**, add profiles and select **[!UICONTROL no longer contact by email]** with the value **[!UICONTROL No]**.
 1. Click **[!UICONTROL Confirm]**.
 
+![](assets/wf-complement-query.png)
+
 ## Creating an Email delivery{#creating-an-email-delivery}
 
 1. In **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, drag and drop an **[!UICONTROL Email delivery]**.
