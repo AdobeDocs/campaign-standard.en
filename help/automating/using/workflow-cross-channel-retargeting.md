@@ -36,7 +36,7 @@ You can send an email to customers and then an sms to those who did not open the
 
 ## Creating an email delivery{#creating-an-email-delivery}
 
-1. Drag and drop an **[!UICONTROL Email delivery]**email delivery after each segment.
+1. Drag and drop an **[!UICONTROL Email delivery]** after each segment.
 1. Click the activity and select ![](assets/edit_darkgrey-24px.png) to edit.
 1. Select **[!UICONTROL Simple email]** and click **[!UICONTROL Next]**.
 1. Select **[!UICONTROL Add an outbound transition without the population]** and click **[!UICONTROL Next]**.
