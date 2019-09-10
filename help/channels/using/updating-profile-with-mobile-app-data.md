@@ -102,7 +102,7 @@ To build the workflow, follow the steps below:
         ![](assets/update_profile5.png)
 
 1. Configure the **[!UICONTROL Update data]** activity.
-    1. In the **[!UICONTROL Identification]** tab, make sure that the **[UICONTROL Dimension to update]** field is set to "Profiles (profile)", then click the **[!UICONTROL Create element]** button to add a field as a reconciliation criteria.
+    1. In the **[!UICONTROL Identification]** tab, make sure that the **[!UICONTROL Dimension to update]** field is set to "Profiles (profile)", then click the **[!UICONTROL Create element]** button to add a field as a reconciliation criteria.
 
         ![](assets/update_profile_createelement.png)
 
@@ -112,7 +112,7 @@ To build the workflow, follow the steps below:
         ![](assets/update_profile7.png)
 
     1. In the **[!UICONTROL Fields to update]** tab, click the **[!UICONTROL Create element]** button, then map the fields that are coming from the appSubscriptionRcp table (**[!UICONTROL Source]** field) with the fields that you want to update in the Profile table (**[!UICONTROL Destination]** field).
-    1. In the **[!UICONTROL Enabled if]** field, add an expression to ensure that the corresponding field in the Profile table is updated only if the source field contains a value. To do this, select the field from the list, then add the "!=''" expression (if the Source field is "[target/@cusEmail]" in the Expression editor make sure to type "[target/@cusEmail] != ''").
+    1. In the **[!UICONTROL Enabled if]** field, add an expression to ensure that the corresponding field in the Profile table is updated only if the source field contains a value. To do this, select the field from the list, then add the "!=''" expression (if the Source field is `[target/@cusEmail]` in the Expression editor make sure to type `[target/@cusEmail] != ''"`).
 
         ![](assets/update_profile8.png)
 
