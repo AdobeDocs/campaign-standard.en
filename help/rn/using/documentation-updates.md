@@ -24,6 +24,10 @@ This page lists all the new features and documentation updates for each release 
 
 You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-notes.md).
 
+## Documentation updates - September 2019 {#doc-updates-september-2019}
+
+A new section was added in the Push notifications section on how to create and update profile information based on mobile application subscription data. [Read more](../../channels/using/updating-profile-with-mobile-app-data.md)
+
 ## Documentation updates - August 2019 {#doc-updates-august-2019}
 
 A new section with use cases on workflows focusing on queries has been added. [Read more](../../automating/using/workflow-created-query-with-complement.md)
@@ -35,8 +39,6 @@ A new help article has been added, with information related to subdomains and ce
 The section describing the content templates and fragments has been updated. [Read more](../../start/using/about-templates.md#content-templates)
 
 A new section on how to save email content as a template in the Email Designer has been added. [Read more](../../start/using/about-templates.md#saving-content-as-template)
-
-A new section was added in the Push notifications section on how to create and update profile information based on mobile application subscription data. [Read more](../../channels/using/updating-profile-with-mobile-app-data.md)
 
 ## Release 19.3 - July 2019 {#release-19-3---july-2019}
 
