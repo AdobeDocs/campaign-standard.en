@@ -32,6 +32,8 @@ You can send a targeting email to customers with offers on their local shops.
 1. In **[!UICONTROL Shortcuts]**, drag and drop **[!UICONTROL Profiles]** and select the field **[!UICONTROL no longer contact by email]** with the value **[!UICONTROL no]**.
 1. Click **[!UICONTROL Confirm]** twice.
 
+![](assets/wf-complement-query.png)
+
 ## Creating a Segmentation activity{#creating-a-segmentation-activity}
 
 1. Drag and drop a **[!UICONTROL Segmentation]** activity and double-click it.
@@ -59,6 +61,8 @@ For more information, refer to [designing an email](../../designing/using/design
 
 1. Click **[!UICONTROL Preview]** to check your layout.
 1. Click **[!UICONTROL Save]**.
+
+![](assets/wf-segmentation-location.png)
 
 **Related topics:**
 

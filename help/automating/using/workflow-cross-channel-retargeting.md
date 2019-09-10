@@ -32,6 +32,8 @@ You can send an email to customers and then an sms to those who did not open the
 1. In **[!UICONTROL Shortcuts]**, drag and drop **[!UICONTROL Profiles]** and select **[!UICONTROL no longer contact by email]** with the value **[!UICONTROL no ]**.
 1. Click **[!UICONTROL Confirm]**.
 
+![](assets/wf-complement-query.png)
+
 ## Creating an email delivery{#creating-an-email-delivery}
 
 1. Drag and drop an **[!UICONTROL Email delivery]**email delivery after each segment.
@@ -40,7 +42,6 @@ You can send an email to customers and then an sms to those who did not open the
 1. Select **[!UICONTROL Add an outbound transition without the population]** and click **[!UICONTROL Next]**.
 1. Select an email template and click **[!UICONTROL Next]**.
 1. Enter the email properties and click **[!UICONTROL Next]**.
-1. Rename the email **email offer**.
 1. To create the layout of your email, click on **[!UICONTROL Using the Email Designer]**.
 1. Insert elements or select an existing template.
 1. Personalize your email with offers specific to each location.For more information, refer to [designing an email](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
@@ -72,6 +73,8 @@ You can send an email to customers and then an sms to those who did not open the
 For more information, refer to [designing an sms](../../channels/using/creating-an-sms-message.md).
 1. Click **[!UICONTROL Preview]** to check your layout.
 1. Click **[!UICONTROL Save]**.
+
+![](assets/wf-retargeting-non-openers.png)
 
 **Related topics:**
 

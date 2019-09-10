@@ -83,6 +83,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Preparing and sending a push notification](channels/using/preparing-and-sending-a-push-notification.md)
        + [Customizing a push notification](channels/using/customizing-a-push-notification.md)
        + [Creating a multilingual push notification](channels/using/creating-a-multilingual-push-notification.md)
+       + [Creating and updating profile information based on mobile application data](channels/using/updating-profile-with-mobile-app-data.md)
   + In-App messaging {#in-app-messaging}
        + [About In-App messaging](channels/using/about-in-app-messaging.md)
        + [Preparing and sending an In-App message](channels/using/preparing-and-sending-an-in-app-message.md)
