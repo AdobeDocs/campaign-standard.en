@@ -33,14 +33,13 @@ You can send an email every Tuesday to all the customers for Special Offers.
 1. Select a **[!UICONTROL Time]** and a **[!UICONTROL Repetition frequency]** for your deliveries.
 1. In **[!UICONTROL Days of the week]**, select **[!UICONTROL Tuesday]**.
 1. Specify a **[!UICONTROL Start]** and an **[!UICONTROL Expiration]** parameter for your workflow.
+1. Confirm your activity and save your workflow.
 
 ![](assets/scheduler_properties.png)
 
 >[!NOTE]
 >
 >To start your workflow at a specific **[!UICONTROL Time Zone]**, in the **[!UICONTROL Execution options]** tab, set up the time zone for your scheduler in the Time zone field.
-
-1. Confirm your activity and save your workflow.
 
 ## Creating a Query activity{#creating-a-query-activity}
 
@@ -49,6 +48,8 @@ You can send an email every Tuesday to all the customers for Special Offers.
 1. Select **[!UICONTROL is not empty]** as an operator.
 1. In **[!UICONTROL Shortcuts]** > **[!UICONTROL General]**, add profiles and select **[!UICONTROL no longer contact by email]** with the value **[!UICONTROL No]**.
 1. Click **[!UICONTROL Confirm]**.
+
+![](assets/wf-complement-query.png)
 
 ## Creating an Email delivery{#creating-an-email-delivery}
 
