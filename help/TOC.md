@@ -114,37 +114,6 @@ user-guide-title: Adobe Campaign Standard Help
        + [Changing a landing page form data properties](channels/using/changing-a-landing-page-form-data-properties.md)
        + [Defining dynamic content in a landing page](channels/using/defining-dynamic-content-in-a-landing-page.md)
 + Designing content {#designing-content}
-  + About content design {#about-content-design}
-       + [Designing content in Adobe Campaign](designing/using/designing-content-in-adobe-campaign.md)
-       + [Content design best practices](designing/using/content-design-best-practices.md)
-  + Editing email content {#editing-email-content}
-       + [About email content design](designing/using/about-email-content-design.md)
-       + [Defining the email structure](designing/using/defining-the-email-structure.md)
-       + [Editing email styles](designing/using/editing-email-styles.md)
-  + Loading content {#loading-content}
-       + [Selecting an existing content](designing/using/selecting-an-existing-content.md)
-       + [Importing content from a file](designing/using/importing-content-from-a-file.md)
-       + [Importing content from a URL](designing/using/importing-content-from-a-url.md)
-       + [Editing existing contents with the Email Designer](designing/using/editing-existing-contents-with-the-email-designer.md)
-  + Using images {#using-images}
-       + [Inserting images](designing/using/inserting-images.md)
-       + [Setting up image properties](designing/using/setting-up-image-properties.md)
-       + [Modifying images with the Adobe Creative SDK](designing/using/modifying-images-with-the-adobe-creative-sdk.md)
-       + [Personalizing an image source](designing/using/personalizing-an-image-source.md)
-  + Personalizing content {#personalizing-content}
-       + [About personalization](designing/using/about-personalization.md)
-       + [Inserting a personalization field](designing/using/inserting-a-personalization-field.md)
-       + [Adding a content block](designing/using/adding-a-content-block.md)
-       + [Personalizing the sender](designing/using/personalizing-the-sender.md)
-       + [Personalizing the subject line of an email](designing/using/personalizing-the-subject-line-of-an-email.md)
-       + [Example: Email personalization](designing/using/example--email-personalization.md)
-  + Defining conditional content {#defining-conditional-content}
-       + [Defining a visibility condition](designing/using/defining-a-visibility-condition.md)
-       + [Defining dynamic content in an email](designing/using/defining-dynamic-content-in-an-email.md)
-  + Managing links {#managing-links}
-       + [Inserting a link](designing/using/inserting-a-link.md)
-       + [Personalizing URLs](designing/using/personalizing-urls.md)
-       + [About tracked URLs](designing/using/about-tracked-urls.md)
   + Building email content {#building-email-content}
        + [Designing content in Adobe Campaign](designing/using/designing-content-in-adobe-campaign.md)
        + [Quick Start](designing/using/quick-start.md)
