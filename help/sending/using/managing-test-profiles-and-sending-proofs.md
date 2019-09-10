@@ -31,8 +31,8 @@ A test profile contains fictitious contact information, or contact information c
 
   The **Email rendering** use is read-only. Test profiles with this use are only available out-of-the-box in Adobe Campaign.
 
-* As a **Trap**: the message is sent to the test profile just as it is sent to the main target, as a means to identify whether your client file is being used fraudulently.
-* To **Preview** messages: a test profile can be selected when previewing a message to test the personalization elements.
+* As a **Trap**: the message is sent to the test profile just as it is sent to the main target. See [Using traps](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps).
+* To **Preview** messages: a test profile can be selected when previewing a message to test the personalization elements. See [Previewing messages](/help/sending/using/previewing-messages.md).
 
 ![](assets/test_profile.png)
 
@@ -126,41 +126,46 @@ You have to send as many proofs as necessary until you have finalized the conten
 
 [Sending a test, preparing and sending an email](https://helpx.adobe.com/campaign/kt/acs/using/acs-sending-test-preparing-sending-email-feature-video-use.html) video
 
-<!-- ## Sending proofs using additional data {#sending-proofs-using-additional-data}
+## Using traps {#using-traps}
 
-This section describes how to send proofs using real customer data accessible via a workflow, as opposed to using fake test profile data. This allows you to check that the variables used in the workflow are accurate and to get a view of the message that your recipients will receive.
+When using traps, the message is sent to the test profile just as it is sent to the main target, as a means to identify whether your client file is being used fraudulently.
 
-1. Create a test profile and enable **[!UICONTROL Proof]** and **[!UICONTROL Trap]** as the intended usage. For more on this, see [Managing test profiles](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles).
+Traps were originally designed for direct mail deliveries. They allow you to:
+* Verify that your direct mail provider is really sending the communication.
+* Receive the mail at the same time and in the same conditions as your customers.
+* Keep an exact copy of the mail that was sent.
+* Check that your client list is not misused by your direct mail provider. Indeed, if any other communication is sent to your test profile's address, your client file may have been used without your knowing. This is why the test profile's address should only be used to this purpose.
 
-    This test profile becomes part of the targeted audience.
+ For more on adding traps to a direct mail's audience, see [Adding test and trap profiles](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles).
 
-   >[!NOTE]
-   >
-   >When using a test profile as a trap, for any enriched fields in a message, the corresponding additional data is randomly picked from a real targeted profile and assigned to the trap test profile.
+For the other communication channels, you can add trap test profiles to your main target in order to:
+* Check that your message was successfully sent.
+* Get and keep an exact copy of your message.
+* Track when it was sent and received.
 
-1. Access the marketing activity list and create a test workflow.
-
-   See [Creating a workflow](../../automating/using/building-a-workflow.md#creating-a-workflow).
-
-1. Drag and drop a **[!UICONTROL Query]** activity into your workflow and open it.
-
-   The Query activity is presented in the [Query](../../automating/using/query.md) section.
-
-1. Add additional data from a linked table. For more on this, see [Enriching data](../../automating/using/query.md#enriching-data).
-
-1. Drag and drop an **Email delivery** activity into your workflow and open it.
-
-   The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.
-
-1. From the email message dashboard, select the test profile with trap usage that you created.
-
-1. Add to your email content personalization fields using the additional data that you defined in the Query activity.
-
-1. Save the email and start the workflow.
-
-During message preparation, the target count includes the test profile that you selected.
-Once the message is sent, additional data is replaced by data from a real profile.
+To use a test profile as a trap, it must be included in your message's audience.
 
 >[!NOTE]
+>
+>As opposed to test profiles used for [proofs](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs) or [email rendering](../../sending/using/email-rendering.md), the message is sent at the same time to the main target and to the test profiles used as traps.
+
+When defining a message's audience:
+
+1. From the **[!UICONTROL Test profiles]** tab, select a test profile. Make sure that it has **[!UICONTROL Trap]** as the intended use.
+
+   ![](assets/trap_select.png)
+
+1. Once your message content is ready, click the **[!UICONTROL Prepare]** button. See [Preparing the send](../../sending/using/preparing-the-send.md).
+   >[!NOTE]
    >
-   >Only additional data are replaced. No real profile data such as first name or last name will be used for the test profile. -->
+   >Make sure you selected a main target. Otherwise, your message cannot be sent.
+
+1. Click the **[!UICONTROL Confirm]** button. See [Confirming the send](../../sending/using/confirming-the-send.md).
+
+   ![](assets/trap_confirm.png)
+
+The message is sent to the main target and to the test profile.
+
+>[!NOTE]
+>
+>When using a test profile as a trap, for any enriched fields in a message, the corresponding additional data is randomly picked from a real targeted profile and assigned to the trap test profile. For more on enrichment, see [this example](../../automating/using/enrichment.md#example--enriching-profile-data-with-data-contained-in-a-file).

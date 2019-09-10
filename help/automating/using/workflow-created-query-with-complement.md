@@ -32,6 +32,8 @@ You can send an email to customers: one for clients created less than a year ago
 1. In **[!UICONTROL Shortcuts]**, drag and drop **[!UICONTROL Profiles]** and select **[!UICONTROL no longer contact by email]** with the value **[!UICONTROL no]**.
 1. Click **[!UICONTROL Confirm]**.
 
+![](assets/wf-complement-query.png)
+
 ## Create a Segmentation activity {#create-a-segmentation-activity}
 
 1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, drag and drop a **[!UICONTROL Segmentation]** activity and double-click it.
@@ -42,6 +44,8 @@ You can send an email to customers: one for clients created less than a year ago
 1. In **[!UICONTROL Advanced Options]**, check **[!UICONTROL Generate complement]** to create a segment targeting the remaining recipients.
 1. Click **[!UICONTROL Confirm]**.
 1. Click **[!UICONTROL Save]**.
+
+![](assets/wf-complement-segmentation.png)
 
 >[!NOTE]
 >
@@ -61,6 +65,8 @@ You can send an email to customers: one for clients created less than a year ago
 1. Click **[!UICONTROL Save]**.
 
 For more information, refer to [designing an email](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch).
+
+![](assets/wf-deliveries-with-a-complement.png)
 
 **Related topics:**
 
