@@ -122,7 +122,7 @@ The confirmation email is a transactional message based on the event created bef
 
 ## Step 3: Create the acquisition landing page {#step-3--create-the-acquisition-landing-page}
 
-You have to create the initial acquisition landing page: this op-in form will be published on your website.
+You have to create the initial acquisition landing page: this opt-in form will be published on your website.
 
 To create and configure this landing page, you need to:
 
