@@ -23,7 +23,7 @@ Learn how to master email content edition. With Email Designer, you can create t
 
 >[!NOTE]
 >
-> In Adobe Campaign Standard, you can create different types of templates that are accessible from the **Resources** > **Templates** menu. The templates used in the Email Designer are Content templates. For more information, see [About templates](../../start/using/about-templates.md)
+> In Adobe Campaign Standard, you can create different types of templates that are accessible from the **Resources** > **Templates** menu. The templates used in the Email Designer are Content templates. For more information, see [About templates](../../start/using/about-templates.md).
 
 ### Content templates {#content-templates}
 
@@ -125,7 +125,7 @@ To use it, create an email and select the content template that you just created
 * [Introduction video to the Email Designer](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true)
 * [Designing an email content from scratch](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
-### About fragments {#about-fragments}
+## About fragments {#about-fragments}
 
 A fragment is a reusable component that can be referenced in one or more emails.
 They can be found in the interface under **Resources** > **Content fragments and templates**. 
@@ -144,7 +144,7 @@ To unlock a fragment inside an email, select it and click the lock icon from the
 
 That fragment becomes a standalone component that is not linked anymore to the original fragment. It can then be edited as any other content component. See [About content components](../../designing/using/designing-from-scratch.md#about-content-components).
 
-#### Inserting fragments into an email {#inserting-elements-into-an-email}
+### Inserting fragments into an email {#inserting-elements-into-an-email}
 
 To define the content of your email, you can add content elements in the structure components you have placed beforehand. See [Editing the email structure](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
@@ -176,7 +176,7 @@ Now that your email structure is populated, you can edit the style of each conte
 >
 >If a fragment is modified, the changes are automatically propagated in the emails where it is used. For more on this, see [About fragments](../../designing/using/using-reusable-content.md#about-fragments).
 
-#### Creating a content fragment {#creating-a-content-fragment}
+### Creating a content fragment {#creating-a-content-fragment}
 
 You can create your own content fragments to use them as needed in one or more emails.
 
@@ -211,7 +211,7 @@ This fragment can now be used in any email built with the Email Designer. It app
 >
 >You cannot insert personalization fields inside a fragment unless it is used in an email and unlocked. See [About fragments](../../designing/using/using-reusable-content.md#about-fragments).
 
-#### Saving content as a fragment {#saving-content-as-a-fragment}
+### Saving content as a fragment {#saving-content-as-a-fragment}
 
 When editing an email with the Email Designer, you can directly save part of that email as a fragment.
 
@@ -265,7 +265,7 @@ To save as a fragment some email content that you created, follow the steps belo
 1. Paste the HTML that you copied where appropriate.
 1. Switch back to the **[!UICONTROL Edit]** view to check the result and save the new fragment.-->
 
-### Creating reusable headers and footers using fragments {#header-footer-fragments}
+## Creating reusable headers and footers using fragments {#header-footer-fragments}
 
 Using the Email Designer, create a fragment for each reusable section. In this example, you will create two fragments: one for the header and one for the footer. You can then copy the relevant parts from your existing content into these fragments.
 

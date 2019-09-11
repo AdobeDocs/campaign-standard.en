@@ -15,7 +15,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 ---
-# Design through Adobe Campaign integrations {#design-through-adobe-campaign-integrations}
+# Multi-solution email design {#multi-solution-email-design}
 
 ## Editing content in Dreamweaver {#editing-content-in-dreamweaver}
 
@@ -25,7 +25,7 @@ The Adobe Campaign Standard integration with Dreamweaver lets you edit an email'
 
   Whenever an edit is made in one product, it is updated in real time in the other. If you want to change the color of text in Dreamweaver, as soon as you make that edit, the color of the text is live in Campaign. Additionally, when you select code in either Dreamweaver or Campaign, since the line numbers are the same, the selection remains between the two products, which is very useful when looking for something specific in the code.
 
-* **Upload local images to AC through Dreamweaver**
+* **Upload local images to Adobe Campaign through Dreamweaver**
 
   When creating or editing an email within Dreamweaver, you can simply select an image from your desktop or local machine. While Dreamweaver has always allowed you to do this, when Dreamweaver and Campaign are connected, the local file is immediately uploaded to the Adobe Campaign server: no need to manually upload images as content changes. Additionally, it ensures that the latest images are always live in Campaign.
 

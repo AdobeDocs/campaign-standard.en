@@ -20,10 +20,12 @@ snippet: y
 
 Learn how to master email content edition. With Email Designer, you can create emails and templates starting with or without your own predefined content. 
 
+## Key steps to create your email {#key-steps-to-create-your-email}
+
 Here are the main steps to create and design an email content from scratch using the Email Designer:
 
 1. Create an email and open its content.
-1. Add structure components to shape the email. See [Editing the email structure](../../designing/using/designing-from-scratch.md#editing-the-email-structure).
+1. Add structure components to shape the email. See [Editing the email structure](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Insert content components and fragments in the structure components. See [Adding fragments and content components](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Add images and edit the text of the email. See [Inserting images](../../designing/using/images.md#inserting-images).
 1. Personalize your email by adding personalization fields, links, and so on. See [Inserting a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field), [Inserting a link](../../designing/using/links.md#inserting-a-link) and [Defining dynamic content in an email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
@@ -36,11 +38,6 @@ You can also check out this [introduction video](https://video.tv.adobe.com/v/22
 >[!NOTE]
 >
 >To avoid designing email content from scratch, you can use out-of-the-box content templates. For more on this, see [Content templates](../../designing/using/using-reusable-content.md#content-templates).
-
-
-## Editing the email structure {#editing-the-email-structure}
-
-The Email Designer allows you to easily define the structure of your email. By adding and moving structural elements with simple drag-and-drop actions, you can design the shape of your email within seconds.
 
 ### Defining Email Structure {#defining-the-email-structure}
 
@@ -75,7 +72,7 @@ To edit the structure of an email:
 
 Once the structure is defined, you are able to add content fragments and components to your email.
 
-### About content components {#about-content-components}
+### Using content components {#about-content-components}
 
 Content components are raw, empty components that you can edit once placed in an email.
 
@@ -89,34 +86,33 @@ Here is the list of the available components in the Email Designer:
 
   You can also save buttons into fragments that can be reused. For more on this, see [Creating a content fragment](../../designing/using/using-reusable-content.md#creating-a-content-fragment) and [Saving content as a fragment](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
 
-- **[!UICONTROL Carousel]**
+1. Select **[!UICONTROL Fallback view]** to display the fallback image in the Email Designer.
 
-  For more on this, see [Using the carousel component](../../designing/using/designing-from-scratch.md#using-the-carousel-component).
+- **[!UICONTROL Text]**
 
-- **[!UICONTROL Divider]** 
+Use this component to insert text in your email. You can adjust the color, style and size of your text in **[!UICONTROL Component Settings]**.
+
+- **[!UICONTROL Divider]**
+
+Use this component to insert a dividing line in your email. You can select the color, style and size of the breaking line in **[!UICONTROL Component Settings]**.
+
 - **[!UICONTROL Html]**
 
-  Use this component to copy-past the different parts of your existing HTML. This enables you to create free modular HTML components.
+  Use this component to copy-paste the different parts of your existing HTML. This enables you to create free modular HTML components.
 
   >[!NOTE]
   >
   >A free HTML component is editable with limited options. If all styles are not inlined, make sure to add the proper CSS in the **head** section of the HTML code, otherwise the email will not be responsive. Use the **[!UICONTROL Preview]** button to test the responsiveness of your content (see [Previewing messages](../../sending/using/previewing-messages.md)).
 
-- **[!UICONTROL Image]** 
-- **[!UICONTROL Social]** 
-- **[!UICONTROL Text]**
+  To simply make an external content compliant with the Email Designer, Adobe recommends creating a message from scratch and copy the content from your existing email into fragments and components.
 
-#### Using the HTML component {#using-html-component}
+  When you have a content that cannot be recreated, you can copy-paste the HTML code from the original email using the **[!UICONTROL Html]** content component. Make sure you are familiar with HTML before proceeding.
 
-To simply make an external content compliant with the Email Designer, Adobe recommends creating a message from scratch and copy the content from your existing email into fragments and components.
+  <!-- A full example is presented below. -->
 
-When you have a content that cannot be recreated, you can copy-paste the HTML code from the original email using the **[!UICONTROL Html]** content component. Make sure you are familiar with HTML before proceeding.
-
-<!-- A full example is presented below. -->
-
->[!NOTE]
->
->The new content will not be the exact copy of your original email, but the steps below will guide you through the creation of a message that will be as close as possible.
+  >[!NOTE]
+  >
+  >The new content will not be the exact copy of your original email, but the steps below will guide you through the creation of a message that will be as close as possible.
 
 **Before copying your content**
 
@@ -124,7 +120,23 @@ When you have a content that cannot be recreated, you can copy-paste the HTML co
 1. Save all the images and assets that you want to use.
 1. If you are familiar with HTML, split your original HTML content into different parts.
 
-#### Using the carousel component {#using-the-carousel-component}
+- **[!UICONTROL Video]**
+
+Use this component to insert a video in your email.
+
+Insert the video component into a structure component of your email and enter the video link in the **[!UICONTROL Component Settings]**.
+
+- **[!UICONTROL Image]**
+
+Use this component to insert an image in your email. 
+  
+Insert the image component into a structure component and click browse to upload an image file from your computer.
+
+- **[!UICONTROL Social]**
+
+Use this component to insert links to social media pages in your email. You can select which links you want to display and the size of their icon in **[!UICONTROL Component Settings]**.
+
+- **[!UICONTROL Carousel]**
 
 1. Drag and drop the **[!UICONTROL Carousel]** component inside a structure component.
 1. Browse to select images from your computer.
@@ -136,14 +148,11 @@ When you have a content that cannot be recreated, you can copy-paste the HTML co
 
    ![](assets/des_carousel_fallback.png)
 
-   The carousel component is not compatible with all email programs. Upload a fallback to display an image instead when the carousel is not supported in the email.
+The carousel component is not compatible with all email programs. Upload a fallback to display an image instead when the carousel is not supported in the email.
 
-   >[!NOTE]
-   >
-   >The carousel component is compatible with the following email platforms: Apple Mail 7, Apple Mail 8, Outlook 2011 for Mac, Outlook 2016 for Mac, Mozilla Thunderbird, iPad and iPad mini iOS, iPhone iOS, Android, AOL (Chrome, Firefox and Safari).
-
-1. Select **[!UICONTROL Fallback view]** to display the fallback image in the Email Designer.
-
+>[!NOTE]
+>
+>The carousel component is compatible with the following email platforms: Apple Mail 7, Apple Mail 8, Outlook 2011 for Mac, Outlook 2016 for Mac, Mozilla Thunderbird, iPad and iPad mini iOS, iPhone iOS, Android, AOL (Chrome, Firefox and Safari).
 
 **Related topics**:
 

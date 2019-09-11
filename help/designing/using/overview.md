@@ -78,7 +78,7 @@ The **Contextual toolbar** of the editor interface offers various functionalitie
 
 **Content components**: Content components are raw, empty components that you can edit once placed in an email.
 
-### General recommendations for using the Email Designer {#general-recommendations-for-using-the-email-designer}
+### Content design best practices {#content-design-best-practices}
 
 To make proper use of the Email Designer and create the best emails as simply as possible, we recommend applying the following principles:
 
@@ -86,20 +86,17 @@ To make proper use of the Email Designer and create the best emails as simply as
 
   See [Adding inline styling attributes](../../designing/using/styles.md#adding-inline-styling-attributes).
 
+* If you import ZIP files containing your HTML content, use regular CSS. SCSS style sheets are not supported.
+
 * Settle your branding easily by creating and reusing content fragments to keep consistency across your marketing campaigns.
 
   See [Creating a content fragment](../../designing/using/using-reusable-content.md#creating-a-content-fragment).
 
-### Content design best practices {#content-design-best-practices}
-
-To ensure the editor's optimal operation, we recommend observing the following guidelines:
-
-* SCSS style sheets are not supported. Use regular CSS if you import ZIP files containing your HTML content.
 * When editing **email content**:
 
   Preview your messages before sending them. Adobe Campaign offers a way to test email rendering using Litmus. For more on this, see [Email rendering](../../sending/using/email-rendering.md).
 
-More design and general best practices regarding messages are presented in the following Adobe Campaign step-by-step guide: [Delivery best practices with Adobe Campaign](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html ).
+More design and general best practices regarding messages are presented in the following Adobe Campaign step-by-step guide: [Delivery best practices with Adobe Campaign](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html).
 
 ### Email Designer limitations {#email-designer-limitations}
 
@@ -108,7 +105,7 @@ More design and general best practices regarding messages are presented in the f
 * When editing styles, only the web fonts officially supported by most email clients are available.
 * Styles cannot be saved as a theme for future reuse. However, the CSS style can be saved in a content template or in an email. For more on styles, see [this section](../../designing/using/styles.md).
 
-### Email Designer updates {#email-designer-updates}
+### Updating fragments {#email-designer-updates}
 
 The Email Designer is under continuous improvement. If you created an email content from scratch, from an out-of-the-box template or if you created fragments, you may get the following update message the next time you open your content:
 
@@ -129,44 +126,3 @@ When it comes to fragments, please note the following:
 * You can still send emails where a fragment that is not updated is already used, but that fragment is not editable.
 
 * Updating fragments used in emails that are already prepared has no impact on those emails.
-
-## Plain text and HTML modes {#plain-text-and-html-modes}
-
-### Generating a text version of the email {#generating-a-text-version-of-the-email}
-
-By default, the **[!UICONTROL Plain text]** version of your email is automatically generated and synchronized with the **[!UICONTROL Edit]** version.
-
-Personalization fields and content blocks added to the HTML version are also synchronized with the plain text version.
-
->[!NOTE]
->
->To use content blocks in plain text version, make sure they do not contain HTML code.
-
-To have a plain text version different from the HTML version, you can disable this synchronization by clicking the **[!UICONTROL Sync with HTML]** switch from the **[!UICONTROL Plain text]** view of your email.
-
-![](assets/email_designer_textversion.png)
-
-You can then edit the plain text version as desired.
-
->[!NOTE]
->
->If you edit the **[!UICONTROL Plain text]** version while synchronization is disabled, the next time you enable the **[!UICONTROL Sync with HTML]** option, all the changes you made in the plain text version will be replaced with the HTML version. The changes made in **[!UICONTROL Plain text]** view cannot be reflected in **[!UICONTROL HTML]** view.
-
-### Editing an email content source in HTML {#editing-an-email-content-source-in-html}
-
-For the most advanced users and debugging, you can view and edit the email content directly in HTML.
-
-You have two ways to edit the HTML version of the email:
-
-* Select **[!UICONTROL Edit]** > **[!UICONTROL HTML]** to open the HTML version of the entire email.
-
-  ![](assets/email_designer_html1.png)
-
-* From the WYSIWYG interface, select an element and click the **[!UICONTROL Source code]** icon.
-
-  Only the source of the selected element is displayed. You can edit the source code if the selected element is a **[!UICONTROL HTML]** content component. Other components are in read-only mode, but can still be edited in the full HTML version of the email.
-
-  ![](assets/email_designer_html2.png)
-
-If you modify the HTML the code, the responsiveness of the email could be broken. Make sure to test it using the **[!UICONTROL Preview]** button. See [Previewing messages](../../sending/using/previewing-messages.md).
-
