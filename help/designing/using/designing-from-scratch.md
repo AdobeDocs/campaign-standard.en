@@ -90,11 +90,11 @@ Here is the list of the available components in the Email Designer:
 
 - **[!UICONTROL Text]**
 
-Use this component to insert text in your email. You can adjust the color, style and size of your text in **[!UICONTROL Component Settings]**.
+    Use this component to insert text in your email. You can adjust the color, style and size of your text in **[!UICONTROL Component Settings]**.
 
 - **[!UICONTROL Divider]**
 
-Use this component to insert a dividing line in your email. You can select the color, style and size of the breaking line in **[!UICONTROL Component Settings]**.
+    Use this component to insert a dividing line in your email. You can select the color, style and size of the breaking line in **[!UICONTROL Component Settings]**.
 
 - **[!UICONTROL Html]**
 
@@ -114,45 +114,45 @@ Use this component to insert a dividing line in your email. You can select the c
   >
   >The new content will not be the exact copy of your original email, but the steps below will guide you through the creation of a message that will be as close as possible.
 
-**Before copying your content**
+    **Before copying your content**
 
-1. In your original email, identify the reusable sections from the sections that will be unique to each email that you will send.
-1. Save all the images and assets that you want to use.
-1. If you are familiar with HTML, split your original HTML content into different parts.
+    1. In your original email, identify the reusable sections from the sections that will be unique to each email that you will send.
+    1. Save all the images and assets that you want to use.
+    1. If you are familiar with HTML, split your original HTML content into different parts.
 
 - **[!UICONTROL Video]**
 
-Use this component to insert a video in your email.
+    Use this component to insert a video in your email.
 
-Insert the video component into a structure component of your email and enter the video link in the **[!UICONTROL Component Settings]**.
+    Insert the video component into a structure component of your email and enter the video link in the **[!UICONTROL Component Settings]**.
 
 - **[!UICONTROL Image]**
 
-Use this component to insert an image in your email. 
+    Use this component to insert an image in your email. 
   
-Insert the image component into a structure component and click browse to upload an image file from your computer.
+    Insert the image component into a structure component and click browse to upload an image file from your computer.
 
 - **[!UICONTROL Social]**
 
-Use this component to insert links to social media pages in your email. You can select which links you want to display and the size of their icon in **[!UICONTROL Component Settings]**.
+    Use this component to insert links to social media pages in your email. You can select which links you want to display and the size of their icon in **[!UICONTROL Component Settings]**.
 
 - **[!UICONTROL Carousel]**
 
-1. Drag and drop the **[!UICONTROL Carousel]** component inside a structure component.
-1. Browse to select images from your computer.
+    1. Drag and drop the **[!UICONTROL Carousel]** component inside a structure component.
+    1. Browse to select images from your computer.
 
-   ![](assets/des_carousel_browse.png)
+    ![](assets/des_carousel_browse.png)
 
-1. From the **[!UICONTROL Settings]** pane, set the number of thumbnails that you want in the carousel.
-1. Select a fallback image from your computer.
+    1. From the **[!UICONTROL Settings]** pane, set the number of thumbnails that you want in the carousel.
+    1. Select a fallback image from your computer.
 
-   ![](assets/des_carousel_fallback.png)
+    ![](assets/des_carousel_fallback.png)
 
-The carousel component is not compatible with all email programs. Upload a fallback to display an image instead when the carousel is not supported in the email.
+    The carousel component is not compatible with all email programs. Upload a fallback to display an image instead when the carousel is not supported in the email.
 
->[!NOTE]
->
->The carousel component is compatible with the following email platforms: Apple Mail 7, Apple Mail 8, Outlook 2011 for Mac, Outlook 2016 for Mac, Mozilla Thunderbird, iPad and iPad mini iOS, iPhone iOS, Android, AOL (Chrome, Firefox and Safari).
+    >[!NOTE]
+    >
+    >The carousel component is compatible with the following email platforms: Apple Mail 7, Apple Mail 8, Outlook 2011 for Mac, Outlook 2016 for Mac, Mozilla Thunderbird, iPad and iPad mini iOS, iPhone iOS, Android, AOL (Chrome, Firefox and Safari).
 
 **Related topics**:
 
