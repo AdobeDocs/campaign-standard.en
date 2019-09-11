@@ -5,7 +5,7 @@ description: Calling a resource using a composite identification key
 seo-description: Learn how to call a resource using a composite identification key
 ---
 
-# Calling a resource using a composite identification key
+# Calling a resource using a composite identification key{#calling-a-resource-using-a-composite-identification-key}
 
 In some cases, you may need to define for a resource an identification key that is made up of two fields. Once the identification key is configured, you need to configure a filter definition in order to be able to call the resource with this identification key, either from Campaign Standard interface or APIs.
 
@@ -23,7 +23,7 @@ Related topics:
 * [Defining identification keys](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
 * [Campaign Standard REST APIs](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
 
-## Step 1: Configure the identification key
+## Step 1: Configure the identification key{#step-1-configure-the-identification-key}
 
    >[!NOTE]
    > Global concepts when configuring identification keys are detailed in [this section](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys).
@@ -47,7 +47,7 @@ Related topics:
 
 1. You can now configure the filter definition to be able to call the resource using its identification key.
 
-## Step 2: Configure the filter definition
+## Step 2: Configure the filter definition{#step-2-configure-the-filter-definition}
 
    >[!NOTE]
    > Global concepts when configuring filter definitions are detailed in [this section](../../developing/using/configuring-filter-definition.md).
@@ -79,7 +79,7 @@ Related topics:
 
 1. The filter definition is now configured. You can publish the resource so that the filter is available.
 
-## Step 3: Call the resource based on its identification key
+## Step 3: Call the resource based on its identification key{#step-3-call-the-resource-based-on-its-identification-key}
 
 Once the identification key and its filter definition are configured, you can use them to call the resource, either from Campaign standard interface or REST APIs.
 
@@ -90,13 +90,16 @@ To use the filter definition from the interface, use a **[!UICONTROL Query]** ac
 To use the filter definition from Campaign Standard REST APIs, use the syntax below:
 
 ```
-GET /profileAndServicesExt/<resourceName><filterName>?<param1_parameter>=<value>&<param2_parameter>=<value>
+GET /profileAndServicesExt/<resourceName>/by<filterName>?<param1_parameter>=<value>&<param2_parameter>=<value>
 ```
 
-In our case, the syntax to retrieve a profile from the "spring" category and with the "123456" CRM ID would be:
+>[!NOTE]
+>To call a customer filter, use the "by" prefix followed by the filter name defined when configuring the filter definition in [step 2](../../automating/using/uc-calling-resource-id-key.md#step-2-configure-the-filter-definition).
+
+In our case, the syntax to retrieve a profile from the "spring" category with the "123456" CRM ID would be:
 
 ```
-GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/identification_key?category_parameter=spring&crm_id_parameter=123456
+GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byidentification_key?category_parameter=spring&crm_id_parameter=123456
 ```
 
 For more details, refer to [Campaign Standard REST APIs documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering).
