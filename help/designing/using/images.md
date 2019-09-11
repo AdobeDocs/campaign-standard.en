@@ -36,7 +36,7 @@ If enabled, you can modify images with the Adobe Creative SDK. See [Modifying im
 
 ### Inserting images in an email {#inserting-images-in-an-email}
 
-1. Add a structure component. For more on this, see [Editing the email structure](../../designing/using/designing-from-scratch.md#editing-the-email-structure).
+1. Add a structure component. For more on this, see [Editing the email structure](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Inside this structure component, add an **[!UICONTROL Image]** content component.
 
    ![](assets/des_insert_images_1.png)

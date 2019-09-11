@@ -32,7 +32,7 @@ You can also create an email  with existing content:
 
 ## Without existing content {#without-existing-content}
 
-## Creating an email from scratch {#from-scratch-email}
+### Creating an email from scratch {#from-scratch-email}
 
 You can create an email easily, add components and personalize their content to send a delivery quickly. You can adapt the styling options to your content if needed. For more on managing style settings and inline attributes, see [Editing email styles](../../designing/using/styles.md).
 
@@ -104,7 +104,7 @@ You can adjust your email styling, for example by changing the padding of a comp
 
 ![](assets/padding-quick-start.png)
 
-1. Save your email.
+You can now save and send your email.
 
 ### Building content from an out-of-the-box template {#building-content-from-an-out-of-the-box-template}
 
@@ -114,13 +114,11 @@ You can build an email from out-of-the-box templates such as customer welcome me
 1. Click the home icon to access the **[!UICONTROL Email Designer]** home page.
 1. Click the **[!UICONTROL Templates]** tab.
 1. Choose an out-of-the-box HTML template.
-
-The different templates present various combinations of several types of elements. For example, 'Feather' templates have margins while 'Astro' templates do not have ones. For more on this, see [Content templates](../../designing/using/using-reusable-content.md#content-templates).
-
+    The different templates present various combinations of several types of elements. For example, 'Feather' templates have margins while 'Astro' templates do not have ones. For more on this, see [Content templates](../../designing/using/using-reusable-content.md#content-templates).
 1. Go the **[!UICONTROL Properties]** tab of the Email Designer home page (accessible through the home icon) and fill in the **[!UICONTROL Subject]** section.
 1. You can combine these elements to build a number of email variants. For example, you can duplicate an email section by selecting a structure component and clicking **[!UICONTROL Duplicate]** from the contextual toolbar.
 1. You can move the elements around using the blue arrow on the left to drag a structure component below or above another. For more on this, see [Editing the email structure](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
-1. You can also move components around to change the organization of each structure element. For more on this, see [Adding fragments and components](../../designing/using/designing-from-scratch.md#editing-the-email-structure).
+1. You can also move components around to change the organization of each structure element. For more on this, see [Adding fragments and components](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Modify the content of each element according to your needs: images, text, links.
 1. Adapt the styling options to your content if needed. For more on this, see [Editing email styles](../../designing/using/styles.md).
 
@@ -170,7 +168,7 @@ If this is not the case, cut out the different blocks from your HTML. For exampl
 Once you have identified all your blocks, in the Email Designer, repeat the following procedure for each section of your existing email:
 
 1. Add a structure component. For more on this, see [Editing the email structure](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
-1. Add an HTML component. For more on this, see [Adding fragments and components](../../designing/using/designing-from-scratch.md#editing-the-email-structure).
+1. Add an HTML component. For more on this, see [Adding fragments and components](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Copy-paste your HTML into that component.
 1. Switch to mobile view. For more on this, see [this section](../../designing/using/styles.md#switching-to-mobile-view).
 
