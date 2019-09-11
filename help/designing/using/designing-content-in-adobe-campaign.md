@@ -16,7 +16,7 @@ internal: n
 snippet: y
 ---
 
-# Designing email content with the Email Designer{#designing-content-in-adobe-campaign}
+# Campaign Email Designer{#designing-content-in-adobe-campaign}
 
 Once you have created an email in Adobe Campaign, you need to define its content.
 
