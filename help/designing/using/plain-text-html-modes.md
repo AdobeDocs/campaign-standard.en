@@ -16,9 +16,9 @@ internal: n
 snippet: y
 ---
 
-## Plain text and HTML modes {#plain-text-and-html-modes}
+# Plain text and HTML modes {#plain-text-and-html-modes}
 
-### Generating a text version of the email {#generating-a-text-version-of-the-email}
+## Generating a text version of the email {#generating-a-text-version-of-the-email}
 
 By default, the **[!UICONTROL Plain text]** version of your email is automatically generated and synchronized with the **[!UICONTROL Edit]** version.
 
@@ -38,7 +38,7 @@ You can then edit the plain text version as desired.
 >
 >If you edit the **[!UICONTROL Plain text]** version while synchronization is disabled, the next time you enable the **[!UICONTROL Sync with HTML]** option, all the changes you made in the plain text version will be replaced with the HTML version. The changes made in **[!UICONTROL Plain text]** view cannot be reflected in **[!UICONTROL HTML]** view.
 
-### Editing an email content source in HTML {#editing-an-email-content-source-in-html}
+## Editing an email content source in HTML {#editing-an-email-content-source-in-html}
 
 For the most advanced users and debugging, you can view and edit the email content directly in HTML.
 
