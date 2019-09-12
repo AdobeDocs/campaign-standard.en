@@ -46,43 +46,52 @@ The main difference between these two approaches are that configured from the se
 
 ## Step 1: Create the confirmation email {#step-2--create-the-confirmation-email}
 
-Once the confirmation landing page is created, you can design the confirmation email: this email will be automatically sent to every visitor who validates the acquisition landing page. This validation is considered as an event and the email is a transactional message, linked to a specific typology rule which allows to target opt-out populations.
+This email will be automatically sent to every visitor who subscribes to the service through a landing page or any other means. The subscription is considered as an event and the email is a transactional message which will target each profile that subscribes to the service.
 
-Steps to create these elements are described below. You need to follow them before creating the acquisition landing page itself as this email template will be referenced in it.
+Steps to create these elements are described below. You need to follow them before creating the service (and/or landing page?) as this email template will be referenced in the service (and/or the landing page?).
 
 ### Create the event {#create-the-event}
 
-The confirmation email is a [transactional message](../../channels/using/about-transactional-messaging.md) as it reacts to an event: the validation of the form. You must first create the event and then create the template of the transactional message.
+The confirmation email is a [transactional message](../../channels/using/about-transactional-messaging.md) as it reacts to an event: the subscription to a service. You must first create the event and then create the template of the transactional message.
 
-1. Create an event, from the **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]** menu, accessible from the Adobe Campaign logo, and enter the label '**CONFIRM**'.
+1. Create an event, from the **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]** menu, accessible from the Adobe Campaign logo, and enter a label.
 1. Select the **[!UICONTROL Profile]** targeting dimension and click **[!UICONTROL Create]**.
 
    ![](assets/optin_eventcreate.png)
 
-1. In the **[!UICONTROL Fields]** section, click **[!UICONTROL Create element]** and add the **[!UICONTROL email]** in the data structure to enable reconciliation.
-1. In the **[!UICONTROL Enrichment]** section, click **[!UICONTROL Create element]** and select the **[!UICONTROL Profile]** target resource. You can then map on the **[!UICONTROL email]** field in the **[!UICONTROL Join definition]** section, or any other composite reconciliation key, depending on your needs.
+1. In the **[!UICONTROL Fields]** section, click **[!UICONTROL Create element]** and add **[!UICONTROL publicLabel]** in the data structure to enable reconciliation.
+    >[NOTE]
+    >
+    >The **[!UICONTROL publicLabel]** field is mandatory. If you do not add it in the event fields, Adonbe Campaign will not be able to retrieve the service(s) that will reference the transactional message.
+    
+1. In the **[!UICONTROL Enrichment]** section, click **[!UICONTROL Create element]** and select the **[!UICONTROL Service]** target resource. Then map on the **[!UICONTROL publicLabel]** field (with the Service name?) in the **[!UICONTROL Join definition]** section. This will enable you to use personalization fields from the Service resource in the transactional message.
 
    ![](assets/optin_eventcreate_join.png)
-
-   If you need to use services, add the **[!UICONTROL Service]** target resource and map on the **[!UICONTROL serviceName]** field. For more on this, see .
-
-1. Select **[!UICONTROL Profile]** as the **[!UICONTROL Targeting enrichment]** in the dropdown list.
+(1. Select **[!UICONTROL Profile]** as the **[!UICONTROL Targeting enrichment]** in the dropdown list.?)
 1. Click **[!UICONTROL Publish]** to publish the event.
 
-The event is ready. You can now design the email template. This template must include a link to the **CONFIRMATION** landing page created before. For more on this, see [Design the confirmation message](../../channels/using/setting-up-a-double-opt-in-process.md#design-the-confirmation-message).
+The event is ready. You can now design the email template.
 
 ### Design the confirmation message {#design-the-confirmation-message}
 
 The confirmation email is a transactional message based on the event created before. Follow the steps below to create this message:
 
 1. From the Adobe Campaign logo, select **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** and click **[!UICONTROL Transactional messages]**.
-1. Edit the **CONFIRM** email template and personalize it. You can upload an existing content or use an out-of-box template.
-1. Add a link to the **CONFIRMATION** landing page, and click **[!UICONTROL Confirm]** to save modifications.
+1. Edit the **xxx** email template and personalize it using fields from the Service resource. You can upload an existing content or use an out-of-box template.
+1. click **[!UICONTROL Confirm]** to save modifications.
 
    ![](assets/optin_email_selectlp.png)
 
-1. Edit the email template properties. In the **[!UICONTROL Advanced parameters]** > **[!UICONTROL Preparation]** section, select the **TYPOLOGY_PROFILE** typology created before.
 1. Save and publish the transactional message.
+
+## Step 2: Create the service {#step-3--create-the-service}
+
+1. From the advanced menu **Profiles & audiences** > **Services** via the Adobe Campaign logo, add a new service.
+1. In the **Service properties** section, accessed via the ![](assets/edit_darkgrey-24px.png) button in the service dashboard, configure the confirmation messages for subscriptions and unsubscriptions.
+1. Select **[!UICONTROL Custom message]** as the confirmation message: this mode allows you to handle custom confirmation messages, specific for each service. You then select the **[!UICONTROL Custom subscription event configuration]** which is associated with a specific transactional message template. Refer to [Transactional messages](../../channels/using/about-transactional-messaging.md) for more information on transactional event and message configuration.
+1. Save the service. It is now ready to be used.
+
+Now each time a profile subscribes to this service, he receives the transactional message that you defined with personalized fields mapped to the service.
 
 ## Step 3: Create the acquisition landing page {#step-3--create-the-acquisition-landing-page}
 
