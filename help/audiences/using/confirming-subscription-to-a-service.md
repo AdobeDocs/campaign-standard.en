@@ -23,8 +23,8 @@ snippet: y
 This section describes how to send an automatic custom confirmation email to the profiles who subscribe to a specific service.
 
 To do this, you must create and configure a transactional message. This message can be referenced :
-* From the service itself. For more on this, see (Configuring confirmation message from a service)[../../audiences/using/subscription-to-a-service-example.md#configuring-confirmation-message-from-service].
-* From a subscription landing page. For more on this, see .
+* From the service itself. For more on this, see (Configuring confirmation message from a service)[../../audiences/using/confirming-subscription-to-a-service.md#configuring-confirmation-message-from-service].
+* From a subscription landing page. For more on this, see (Configuring confirmation message from a landing page)[../../audiences/using/confirming-subscription-to-a-service.md#configuring-confirmation-message-from-landing-page].
 
 ## Configuring confirmation message from a service {#configuring-confirmation-message-from-service}
 
