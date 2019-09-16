@@ -36,7 +36,7 @@ You need to configure a transactional message so that it can be reconciled with 
 >
 >To link a confirmation message to a service, you must use the **[!UICONTROL publicLabel]** field in your event configuration. This field will be reconciled with the **[!UICONTROL Service label]** of the service. See [Create the event](../../audiences/using/confirming-subscription-to-a-service.md#create-the-event-1).
 
-When configuring it from the service, the confirmation the transactional message will be sent only the first time each visitor subscribes to that service. If a profile is already subscribed, no confirmation message will be sent again to that profile.
+When configuring it from the service, the confirmation transactional message will be sent only the first time each visitor subscribes to that service. If a profile is already subscribed, no confirmation message will be sent again to that profile.
 
 ### Step 1: Create the confirmation email {#step-1--create-the-confirmation-email-1}
 
