@@ -48,7 +48,7 @@ Combine Adobe Experience Cloud solutions with Adobe Campaign, and then you will 
 
 * Create and modify the content of your emails in Dreamweaver.
 
-  For more on this refer to [Editing content in Dreamweaver](../../designing/using/about-email-content-design.md#editing-content-in-dreamweaver).
+  For more on this refer to [Editing content in Dreamweaver](../../designing/using/using-integrations.md#editing-content-in-dreamweaver).
 
 * Send personalized emails to your customers in Adobe Campaign as a reaction to specific behaviors that are tracked on your website by Adobe Analytics.
 
@@ -56,7 +56,7 @@ Combine Adobe Experience Cloud solutions with Adobe Campaign, and then you will 
 
 * Edit images and use a complete set of features powered by the Adobe Creative SDK to enhance your images directly in the content editor
 
-  For more on this refer to [Modifying images with the Adobe Creative SDK](../../designing/using/modifying-images-with-the-adobe-creative-sdk.md)
+  For more on this refer to [Modifying images with the Adobe Creative SDK](../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk)
 
 * Automate the Mobile App Property activation process in Adobe Campaign using Adobe Experience Platform SDK.
 

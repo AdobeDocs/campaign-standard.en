@@ -26,7 +26,7 @@ It presents the message content (HTML and/or text) with the percentage of clicks
 
 ![](assets/delivery_reports_10.png)
 
-If you created dynamic content for your delivery, you can view the percentages for each condition that you defined. For more on inserting conditional content in a delivery, see [Defining dynamic content](../../designing/using/defining-dynamic-content-in-a-landing-page.md).
+If you created dynamic content for your delivery, you can view the percentages for each condition that you defined. For more on inserting conditional content in a delivery, see [Defining dynamic content](../../channels/using/defining-dynamic-content-in-a-landing-page.md).
 
 For example, imagine you created a delivery with the following conditions:
 

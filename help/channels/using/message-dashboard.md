@@ -72,5 +72,5 @@ The main screen is made up of different blocks. Click inside a block to access t
 * **[!UICONTROL Deployment]**: allows you to track the progress of the message preparation or send. Click the button found in the lower right section of this block to access the send and analysis logs. This block only appears once the send has been prepared. For more on this. See [Confirming send](../../sending/using/confirming-the-send.md).
 * **[!UICONTROL Audience]**: allows you to establish the message's main target as well as the test profiles. See [Creating audiences](../../audiences/using/creating-audiences.md).
 * **[!UICONTROL Schedule]**: allows you to specify the date on which your message will be sent. See [Scheduling](../../sending/using/about-scheduling-messages.md).
-* **[!UICONTROL Content]**: allows you to define the message's content and preview it. See [Defining content](../../designing/using/designing-content-in-adobe-campaign.md).
+* **[!UICONTROL Content]**: allows you to define the message's content and preview it. See [Key steps to send a message](../../channels/using/key-steps-to-send-a-message.md).
 

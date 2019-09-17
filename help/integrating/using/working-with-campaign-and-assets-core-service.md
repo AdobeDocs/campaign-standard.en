@@ -35,5 +35,5 @@ The image is then inserted. The delivery can now be personalized as needed and s
 **Related topics:**
 
 * [Assets and Sharing](https://marketing.adobe.com/resources/help/en_US/mcloud/experience-cloud-assets.html) 
-* [Content editor](../../designing/using/example--email-personalization.md)
+* [Content editor](../../designing/using/personalization.md#example-email-personalization)
 
