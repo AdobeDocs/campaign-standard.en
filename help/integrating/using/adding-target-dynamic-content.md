@@ -53,6 +53,6 @@ Your delivery containing the dynamic image can now be send. Its results can be f
 **Related topics:**
 
 * [Adobe Target Portal](https://marketing.adobe.com/resources/help/en_US/target/a4t/c_campaign_and_target.html)
-* [About email content design](../../designing/using/about-email-content-design.md)
+* [About email content design](../../designing/using/overview.md)
 * [Personalize Email Images in Real-Time](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html) video
 

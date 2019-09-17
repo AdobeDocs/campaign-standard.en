@@ -50,7 +50,7 @@ The full life cycle of a landing page is as follows:
 
 ![](assets/lp_livecycle.png)
 
-Once created and published, you can make the landing page accessible via a website or by [inserting a direct link to the landing page into an email](../../designing/using/inserting-a-link.md).
+Once created and published, you can make the landing page accessible via a website or by [inserting a direct link to the landing page into an email](../../designing/using/links.md#inserting-a-link).
 
 **Related topics:**
 

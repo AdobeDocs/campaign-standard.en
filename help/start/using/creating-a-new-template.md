@@ -37,5 +37,5 @@ Created templates can then be selected by standard user in the first screen of t
 **Related topics:**
 
 * [Branding](../../administration/using/branding.md)
-* [Design content](../../designing/using/about-email-content-design.md)
+* [Design content](../../designing/using/overview.md)
 

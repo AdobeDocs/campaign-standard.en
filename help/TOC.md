@@ -75,6 +75,9 @@ user-guide-title: Adobe Campaign Standard Help
        + [Creating an SMS message](channels/using/creating-an-sms-message.md)
        + [Personalizing SMS messages](channels/using/personalizing-sms-messages.md)
        + [Managing incoming SMS](channels/using/managing-incoming-sms.md)
+       + [About SMS and push content design](channels/using/about-sms-and-push-content-design.md)
+       + [SMS and push content editor interface](channels/using/sms-and-push-content-editor-interface.md)
+       + [Defining dynamic text](channels/using/defining-dynamic-text.md)
   + Push notifications {#push-notifications}
        + [About push notifications](channels/using/about-push-notifications.md)
        + [Preparing and sending a push notification](channels/using/preparing-and-sending-a-push-notification.md)
@@ -105,48 +108,25 @@ user-guide-title: Adobe Campaign Standard Help
        + [Sharing a landing page](channels/using/sharing-a-landing-page.md)
        + [Data storage and reconciliation](channels/using/data-storage-and-reconciliation.md)
        + [Setting up a double opt-in process](channels/using/setting-up-a-double-opt-in-process.md)
-+ Designing content {#designing-content}
-  + About content design {#about-content-design}
-       + [Designing content in Adobe Campaign](designing/using/designing-content-in-adobe-campaign.md)
-       + [Content design best practices](designing/using/content-design-best-practices.md)
-  + Editing email content {#editing-email-content}
-       + [About email content design](designing/using/about-email-content-design.md)
-       + [Defining the email structure](designing/using/defining-the-email-structure.md)
-       + [Editing email styles](designing/using/editing-email-styles.md)
-  + Editing landing page content {#editing-landing-page-content}
-       + [About landing page content design](designing/using/about-landing-page-content-design.md)
-       + [Landing page content editor interface](designing/using/landing-page-content-editor-interface.md)
-       + [Managing landing page structure and style](designing/using/managing-landing-page-structure-and-style.md)
-       + [Changing a landing page form data properties](designing/using/changing-a-landing-page-form-data-properties.md)
-  + Editing SMS and push content {#editing-sms-and-push-content}
-       + [About SMS and push content design](designing/using/about-sms-and-push-content-design.md)
-       + [SMS and push content editor interface](designing/using/sms-and-push-content-editor-interface.md)
-  + Loading content {#loading-content}
-       + [Selecting an existing content](designing/using/selecting-an-existing-content.md)
-       + [Importing content from a file](designing/using/importing-content-from-a-file.md)
-       + [Importing content from a URL](designing/using/importing-content-from-a-url.md)
-       + [Editing existing contents with the Email Designer](designing/using/editing-existing-contents-with-the-email-designer.md)
-  + Using images {#using-images}
-       + [Inserting images](designing/using/inserting-images.md)
-       + [Setting up image properties](designing/using/setting-up-image-properties.md)
-       + [Modifying images with the Adobe Creative SDK](designing/using/modifying-images-with-the-adobe-creative-sdk.md)
-       + [Personalizing an image source](designing/using/personalizing-an-image-source.md)
-  + Personalizing content {#personalizing-content}
-       + [About personalization](designing/using/about-personalization.md)
-       + [Inserting a personalization field](designing/using/inserting-a-personalization-field.md)
-       + [Adding a content block](designing/using/adding-a-content-block.md)
-       + [Personalizing the sender](designing/using/personalizing-the-sender.md)
-       + [Personalizing the subject line of an email](designing/using/personalizing-the-subject-line-of-an-email.md)
-       + [Example: Email personalization](designing/using/example--email-personalization.md)
-  + Defining conditional content {#defining-conditional-content}
-       + [Defining a visibility condition](designing/using/defining-a-visibility-condition.md)
-       + [Defining dynamic content in an email](designing/using/defining-dynamic-content-in-an-email.md)
-       + [Defining dynamic content in a landing page](designing/using/defining-dynamic-content-in-a-landing-page.md)
-       + [Defining dynamic text](designing/using/defining-dynamic-text.md)
-  + Managing links {#managing-links}
-       + [Inserting a link](designing/using/inserting-a-link.md)
-       + [Personalizing URLs](designing/using/personalizing-urls.md)
-       + [About tracked URLs](designing/using/about-tracked-urls.md)
+       + [About landing page content design](channels/using/about-landing-page-content-design.md)
+       + [Landing page content editor interface](channels/using/landing-page-content-editor-interface.md)
+       + [Managing landing page structure and style](channels/using/managing-landing-page-structure-and-style.md)
+       + [Changing a landing page form data properties](channels/using/changing-a-landing-page-form-data-properties.md)
+       + [Defining dynamic content in a landing page](channels/using/defining-dynamic-content-in-a-landing-page.md)
++ Designing email content {#designing-content}
+  + [Campaign Email Designer](designing/using/designing-content-in-adobe-campaign.md)
+  + [Quick Start](designing/using/quick-start.md)
+  + [Usage & Recommendations](designing/using/overview.md)
+  + [Defining the subject line and the sender](designing/using/subject-line.md)
+  + [Designing emails from scratch](designing/using/designing-from-scratch.md)
+  + [Designing emails using existing content](designing/using/using-existing-content.md)
+  + [Designing emails using reusable content](designing/using/using-reusable-content.md)
+  + [Multi-solution email design](designing/using/using-integrations.md)
+  + [Personalization](designing/using/personalization.md)
+  + [Plain text and HTML modes](designing/using/plain-text-html-modes.md)
+  + [Managing styles](designing/using/styles.md)
+  + [Managing images](designing/using/images.md)
+  + [Managing links](designing/using/links.md)
 + Testing and Sending {#testing-and-sending}
   + [About sending messages with Campaign](sending/using/about-sending-messages-with-campaign.md)
   + Preparing and testing messages {#preparing-and-testing-messages}

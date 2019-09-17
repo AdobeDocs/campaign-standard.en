@@ -35,7 +35,7 @@ The steps for creating a push notification with Adobe Campaign are:
 
    By default, you can select one of the following two templates:
 
-    * **[!UICONTROL Send push to Campaign profiles]**: use this template to target the Adobe Campaign CRM profiles who have subscribed to your mobile application and have opted in to receive push notifications. You can insert [personalization](../../designing/using/inserting-a-personalization-field.md) fields into your push notification, such as the recipient's first name.
+    * **[!UICONTROL Send push to Campaign profiles]**: use this template to target the Adobe Campaign CRM profiles who have subscribed to your mobile application and have opted in to receive push notifications. You can insert [personalization](../../designing/using/personalization.md#inserting-a-personalization-field) fields into your push notification, such as the recipient's first name.
     * **[!UICONTROL Send push to app subscribers]**: use this template to send a push notification to all known and anonymous mobile application users who have opted in to receive notifications from your application. You can personalize these messages with data collected from your mobile application.
 
    You can also select multilingual templates. For more information, refer to [Creating a multilingual push notification](../../channels/using/creating-a-multilingual-push-notification.md).
