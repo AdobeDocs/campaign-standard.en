@@ -30,11 +30,11 @@ To do this, you must create and configure a transactional message. This message 
 
 For example, you want to automatically send a confirmation message to the visitors of your website when they subscribe to your brand newsletter.
 
-You need to configure a transactional message so that it can be reconciled with a service, and reference that message from the desired service (in this case, the service being subscription to your brand newsletter).
+You need to configure a transactional email so that it can be reconciled with a service, and reference that message from the desired service (subscription to your brand newsletter in this case).
 
 >[CAUTION]
 >
->To link a confirmation message to a service, you must use the **[!UICONTROL publicLabel]** field in your event configuration. This field will be reconciled with the **[!UICONTROL Service label]** of the service. See [Create the event](../../audiences/using/confirming-subscription-to-a-service.md#create-the-event-1).
+>To link a transactional message to a service, you must define the **[!UICONTROL publicLabel]** field in your event configuration. This field will be reconciled with the **[!UICONTROL Service label]** of the service. See [Create the event](../../audiences/using/confirming-subscription-to-a-service.md#create-the-event-1).
 
 When configuring it from the service, the confirmation transactional message will be sent only the first time each visitor subscribes to that service. If a profile is already subscribed, no confirmation message will be sent again to that profile.
 
@@ -46,29 +46,35 @@ Steps to create the confirmation email are described below. As the transactional
 
 #### Create the event {#create-the-event-1}
 
-The confirmation email is a [transactional message](../../channels/using/about-transactional-messaging.md) as it reacts to an event: the subscription to a service. This message will be sent to confirm subscription to your newsletter.
+The confirmation email is a transactional message as it reacts to an event: the subscription to a service. This message will be sent to confirm subscription to your newsletter.
+
+>[NOTE]
+    >
+    >The transactional message needs to be based on the **[!UICONTROL Profile]** resource. See [Profile transactional messages](../../channels/using/profile-transactional-messages.md).
 
 1. Create an event from the **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]** menu, accessible from the Adobe Campaign logo.
-1. Enter a label, select the **[!UICONTROL Profile]** targeting dimension and click **[!UICONTROL Create]**.
+1. Enter a label, select a targeting dimension and click **[!UICONTROL Create]**.
 
    ![](assets/confirmation_event-create.png)
 
-    The configuration steps are presented in the [Profile-based transactional messages](../../administration/using/configuring-transactional-messaging.md#profile-based-transactional-messages) section.
-
-1. In the **[!UICONTROL Fields]** section, click **[!UICONTROL Create element]** and add **[!UICONTROL publicLabel]** in the data structure to enable reconciliation.
+    The configuration steps are presented in the [Configuring transactional messaging](../../administration/using/configuring-transactional-messaging.md) section.
+    <!--1. Enter a label, select the **[!UICONTROL Profile]** targeting dimension and click **[!UICONTROL Create]**.
+    ![](assets/confirmation_event-create.png)
+    The configuration steps are presented in the [Profile-based transactional messages](../../administration/using/configuring-transactional-messaging.md#profile-based-transactional-messages) section.-->
+1. In the **[!UICONTROL Fields]** section, click **[!UICONTROL Create element]** and add **[!UICONTROL publicLabel]** to the data structure in order to enable reconciliation.
 
     ![](assets/confirmation_publicLabel-field.png)
 
     >[NOTE]
     >
-    >The **[!UICONTROL publicLabel]** field is mandatory. If you do not add it to the event data structure, Adobe Campaign will not be able to perform reconciliation with the subscribed service. When subscribing to a service, this field will be filled with the **[!UICONTROL Service label]** of the corresponding service.
+    >The **[!UICONTROL publicLabel]** field is mandatory. If you do not add it to the event data structure, Adobe Campaign will not be able to perform reconciliation with the service. When subscribing to a service, this field will be filled with the **[!UICONTROL Service label]** of the corresponding service.
     
-1. Click **[!UICONTROL Add field]** and add another field such as **[!UICONTROL Email]** to the data structure, in order to enable enrichment and reconciliation with the **[!UICONTROL Profiles]** resource.
+    <!--1. Click **[!UICONTROL Add field]** and add another field such as **[!UICONTROL Email]** to the data structure, in order to enable reconciliation with the **[!UICONTROL Profiles]** resource.-->
 1. In the **[!UICONTROL Enrichment]** section, click **[!UICONTROL Create element]** and select the **[!UICONTROL Service]** target resource.
 
     ![](assets/confirmation_enrichment-service.png)
 
-1. Map the **[!UICONTROL publicLabel]** field of the **[!UICONTROL Service]** resource with the **[!UICONTROL publicLabel]** field of the event configuration in the **[!UICONTROL Join definition]** section.
+1. In the **[!UICONTROL Join definition]** section, map the **[!UICONTROL publicLabel]** field of the **[!UICONTROL Service]** resource with the **[!UICONTROL publicLabel]** field of the event configuration.
 
    ![](assets/confirmation_publicLabel-join.png)
 
@@ -77,15 +83,12 @@ The confirmation email is a [transactional message](../../channels/using/about-t
     >This will enable you to use personalization fields from the **[!UICONTROL Service]** resource in the transactional message.
 
     <!--To be able to personalize the confirmation transactional message with fields from the Service resource, you must enrich the event configuration on **[!UICONTROL Service]** using the **[!UICONTROL publicLabel]** field.-->
-
-1. In the **[!UICONTROL Enrichment]** section, add the **[!UICONTROL Profiles]** resource and set reconciliation on the **[!UICONTROL Email]** field.
+    <!--1. In the **[!UICONTROL Enrichment]** section, add the **[!UICONTROL Profiles]** resource and set reconciliation on the **[!UICONTROL Email]** field.
 
     ![](assets/confirmation_email-join.png)
+    1. Select **[!UICONTROL profile]** as the **[!UICONTROL Targeting enrichment]** from the corresponding drop-down list. Selecting a targeting enrichment is mandatory for profile-based events.
 
-1. Select **[!UICONTROL profile]** as the **[!UICONTROL Targeting enrichment]** in the drop-down list. Selecting a targeting enrichment is mandatory for profile-based events.
-
-    ![](assets/confirmation_targeting-enrichment.png)
-
+    ![](assets/confirmation_targeting-enrichment.png)-->
 1. Save the event configuration and click **[!UICONTROL Publish]** to publish the event.
 
 The event is ready. You can now design the transactional email message.
@@ -99,7 +102,7 @@ The confirmation email is a transactional message based on the event that you ju
 
     ![](assets/confirmation_transactional-message.png)
 
-1. Click the **[!UICONTROL Content]** section and select an email template. For more on editing a transactional message content, see [Profile transactional messages](../../channels/using/profile-transactional-messages.md).
+1. Click the **[!UICONTROL Content]** section and select an email template. For more on editing a transactional message content, see [Sending a profile transactional message](../../channels/using/profile-transactional-messages.md#sending-a-profile-transactional-message).
 1. As you have direct access to all profile and service information, you can select any field from the **[!UICONTROL Context]** > **[!UICONTROL Service]** node to personalize your content. For more on this, see See [Inserting a personalization field](../../designing/using/inserting-a-personalization-field.md).
 
     ![](assets/confirmation_personalization-service.png)
@@ -122,14 +125,14 @@ The confirmation email is a transactional message based on the event that you ju
 
     ![](assets/confirmation_service-confirmation-message.png)
 
-1. Click **[!UICONTROL Confirm]** and save the service. It is now ready to be used.
+1. Click **[!UICONTROL Confirm]** and save the service.
 
-### Step 3: Publish the transactional message {#step-3--publish-transactional-message-1}
+<!--### Step 3: Publish the transactional message {#step-3--publish-transactional-message-1}
 
 1. Go back to the transactional message through the **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]** menu.
 1. Preview your message using a test profile. For more on this, see [Defining a test profile in a transactional message](../../channels/using/event-transactional-messages.md#defining-a-test-profile-in-a-transactional-message).
     <!--Is it possible to preview with fields from the Service resource? Seems like doesn't work for me: ISSUE-->
-1. Publish the transactional message. See [Publishing a transactional message](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message).
+<!--1. Publish the transactional message. See [Publishing a transactional message](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message).-->
 
 Now each time a profile subscribes to this service, he receives the transactional message that you defined, with personalized fields mapped to the selected service. A message will be sent only the first time the user subscribes.
 <!--ISSUE: Transactional message is received but not personalized with Service field.-->
@@ -140,9 +143,9 @@ You can also reference the confirmation message from a subscription landing page
 
 >[CAUTION]
 >
->To link a confirmation message to a landing page, you must use the **[!UICONTROL serviceName]** field in your event configuration. This field will be reconciled with the **[!UICONTROL @name]** attribute of the service. See [Create the event](../../audiences/using/confirming-subscription-to-a-service.md#create-the-event-2).
+>To link a transactional message to a landing page, you must define the **[!UICONTROL serviceName]** field in your event configuration. This field will be reconciled with the **[!UICONTROL @name]** attribute of the service. See [Create the event](../../audiences/using/confirming-subscription-to-a-service.md#create-the-event-2).
 
-When referencing the confirmation message from the landing page, a message will be sent each time the landing page is submitted (even if the user is already subscribed).
+When referencing the confirmation message from the landing page, a message will be sent each time the landing page is submitted (even if the profile is already subscribed).
 
 ### Step 1: Create the confirmation email {#step-1--create-the-confirmation-email-2}
 
@@ -155,10 +158,13 @@ Steps to create these elements are described below. As the transactional message
 The confirmation email is a [transactional message](../../channels/using/about-transactional-messaging.md) as it reacts to an event: the subscription to a service. This message will be sent to confirm subscription to your newsletter.
 
 1. Create an event from the **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]** menu, accessible from the Adobe Campaign logo.
-1. Enter a label, select the **[!UICONTROL Profile]** targeting dimension and click **[!UICONTROL Create]**.
-The configuration steps are presented in the [Profile-based transactional messages](../../administration/using/configuring-transactional-messaging.md#profile-based-transactional-messages) section.
+1. Enter a label, select a targeting dimension and click **[!UICONTROL Create]**.
 
-1. In the **[!UICONTROL Fields]** section, click **[!UICONTROL Create element]** and add **[!UICONTROL serviceName]** in the data structure to enable reconciliation.
+    The configuration steps are presented in the [Configuring transactional messaging](../../administration/using/configuring-transactional-messaging.md) section.
+    <!--1. Enter a label, select the **[!UICONTROL Profile]** targeting dimension and click **[!UICONTROL Create]**.
+    The configuration steps are presented in the [Profile-based transactional messages](../../administration/using/configuring-transactional-messaging.md#profile-based-transactional-messages) section.-->
+
+1. In the **[!UICONTROL Fields]** section, click **[!UICONTROL Create element]** and add **[!UICONTROL serviceName]** to the data structure in order to enable reconciliation.
     
    ![](assets/confirmation_serviceName-field.png)
 
@@ -166,9 +172,9 @@ The configuration steps are presented in the [Profile-based transactional messag
     >
     >The **[!UICONTROL serviceName]** field is mandatory. If you do not add it to the event data structure, Adobe Campaign will not be able to perform reconciliation with the subscribed service.
 
-1. Click **[!UICONTROL Add field]** and add another field such as **[!UICONTROL Email]** to the data structure, in order to enable enrichment and reconciliation with the **[!UICONTROL Profiles]** resource.
+    <!--1. Click **[!UICONTROL Add field]** and add another field such as **[!UICONTROL Email]** to the data structure, in order to enable reconciliation with the **[!UICONTROL Profiles]** resource.-->
 1. In the **[!UICONTROL Enrichment]** section, click **[!UICONTROL Create element]** and select the **[!UICONTROL Service]** target resource.
-1. Map the **[!UICONTROL serviceName]** field of the **[!UICONTROL Service]** resource with the **[!UICONTROL name]** field of the event configuration in the **[!UICONTROL Join definition]** section.
+1. In the **[!UICONTROL Join definition]** section, map the **[!UICONTROL serviceName]** field of the **[!UICONTROL Service]** resource with the **[!UICONTROL name]** field of the event configuration.
 
    ![](assets/confirmation_serviceName-join.png)
 
@@ -176,11 +182,11 @@ The configuration steps are presented in the [Profile-based transactional messag
     >
     >This will enable you to use personalization fields from the [!UICONTROL Service]  resource in the transactional message.
 
-1. In the **[!UICONTROL Enrichment]** section, add the **[!UICONTROL Profiles]** resource and set reconciliation on the **[!UICONTROL Email]** field.
-1. Select **[!UICONTROL profile]** as the **[!UICONTROL Targeting enrichment]** in the drop-down list. Selecting a targeting enrichment is mandatory for profile-based events.
-1. Save the event configuration and and click **[!UICONTROL Publish]** to publish the event.
+    <!--1. In the **[!UICONTROL Enrichment]** section, add the **[!UICONTROL Profiles]** resource and set reconciliation on the **[!UICONTROL Email]** field.
+    1. Select **[!UICONTROL profile]** as the **[!UICONTROL Targeting enrichment]** from the corresponding drop-down list. Selecting a targeting enrichment is mandatory for profile-based events.
+    1. Save the event configuration and and click **[!UICONTROL Publish]** to publish the event.
 
-The event is ready. You can now design the transactional email message.
+    The event is ready. You can now design the transactional email message.-->
 
 #### Design the confirmation message {#design-the-confirmation-message-2}
 
@@ -193,9 +199,9 @@ The steps for designing the transactional message are presented in this [section
 1. Fill in the **[!UICONTROL Service label]** field. This label will be displayed in the confirmation message and in the subscription landing page.
 1. Click **[!UICONTROL Confirm]** and save the service.
 
-### Step 3: Publish the transactional message {#step-3--publish-transactional-message-2}
+    <!--### Step 3: Publish the transactional message {#step-3--publish-transactional-message-2}
 
-The steps for publishing the transactional message are presented in this [section](../../audiences/using/confirming-subscription-to-a-service.md##step-3--publish-transactional-message-1).
+    The steps for publishing the transactional message are presented in this [section](../../audiences/using/confirming-subscription-to-a-service.md##step-3--publish-transactional-message-1).-->
 
 ### Step 4: Create and configure the landing page {#step-4--create-and-configure-the-landing-page}
 
