@@ -203,7 +203,7 @@ The steps for designing the transactional message are presented in this [section
 
     The steps for publishing the transactional message are presented in this [section](../../audiences/using/confirming-subscription-to-a-service.md##step-3--publish-transactional-message-1).-->
 
-### Step 4: Create and configure the landing page {#step-4--create-and-configure-the-landing-page}
+### Step 3: Create and configure the landing page {#step-3--create-and-configure-the-landing-page}
 
 Create a subscription landing page which will be published on your website.
 
