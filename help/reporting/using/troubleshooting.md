@@ -213,3 +213,10 @@ If you change the **Conditional formatting** to custom, when the value reaches t
 For example, here, we set the **Upper limit** to 500 and **Lower limit** to 0.
 
 ![](assets/troubleshooting_2.png)
+
+## When targeting transactional delivery, the value Others or N/A appear in my reports
+
+![](assets/troubleshooting_3.png)
+
+When drag and dropping the Transaction Delivery dimension to your reports, the value N/A might appear as a delivery. This happens because Dynamic report fetches deliveries which are not transactional i.e. deliveries with transactionalTemplateId as null.
+

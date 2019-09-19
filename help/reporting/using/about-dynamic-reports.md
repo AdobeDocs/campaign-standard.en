@@ -84,4 +84,3 @@ This choice is not final, you can always change it by selecting **[!UICONTROL En
 The value can be changed at any time. The value -1 corresponds to **[!UICONTROL Ask me later]**, 1 **[!UICONTROL Accept]** and 0 **[!UICONTROL Decline]**.
 
 ![](assets/pii_window_2.png)
-
