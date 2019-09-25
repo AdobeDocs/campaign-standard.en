@@ -125,8 +125,8 @@ user-guide-title: Adobe Campaign Standard Help
   + [Personalization](designing/using/personalization.md)
   + [Plain text and HTML modes](designing/using/plain-text-html-modes.md)
   + [Managing styles](designing/using/styles.md)
-  + [Managing images](designing/using/images.md)
   + [Managing links](designing/using/links.md)
+  + [Managing images](designing/using/images.md)
 + Testing and Sending {#testing-and-sending}
   + [About sending messages with Campaign](sending/using/about-sending-messages-with-campaign.md)
   + Preparing and testing messages {#preparing-and-testing-messages}
