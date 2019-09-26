@@ -48,10 +48,6 @@ Steps to create the confirmation email are described below. As the transactional
 
 The confirmation email is a transactional message as it reacts to an event: the subscription to a service. This message will be sent to confirm subscription to your newsletter.
 
-<!-->>[NOTE]
->
->The transactional message needs to be based on the **[!UICONTROL Profile]** resource. See [Profile transactional messages](../../channels/using/profile-transactional-messages.md).-->
-
 1. Create an event from the **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]** menu, accessible from the Adobe Campaign logo.
 1. Enter a label, select a targeting dimension and click **[!UICONTROL Create]**.
 
