@@ -110,7 +110,8 @@ When a landing page is submitted by a visitor, you can configure the actions tri
 
 ## Setting permissions and pre-loading data {#setting-permissions-and-pre-loading-data}
 
-Access to a landing page can be restricted to identified visitors, who come from a link in a message sent by Campaign for example. In this case, you can preload their data in the landing page. To do this:
+Access to a landing page can be restricted to identified visitors, who come from a link in a message sent by Campaign for example, or to a specific organizational unit. 
+In the case of identified visitors, you can preload their data in the landing page. To do this:
 
 1. Edit the landing page properties accessed via the ![](assets/edit_darkgrey-24px.png) icon in the landing page dashboard, and display the **[!UICONTROL Access & loading]** parameters. 
 
@@ -126,6 +127,22 @@ You can also:
 
 * Use the URL parameters to identify the visitors, using the **[!UICONTROL Authorize visitor identification via URL parameters]** option: then you must choose the loading key and map the filter parameters with the parameters of the corresponding URL.
 * Authorize any visitor to access the landing page, using the **[!UICONTROL Authorize unidentified visitors]** option.
+
+Landing pages can also be linked to an organizational unit. This will define the users' access to the different landing pages. To assign an organizational unit:
+
+1. Access your landing page properties via the **[!UICONTROL Edit properties]** icon.
+
+1. Unfold the **[!UICONTROL Access authorization]**.
+
+1. Click the drop-down menu and select your organizational unit. For more information on how to create organization unit, refer to this [page](../../administration/using/organizational-units.md).
+
+1. The **[!UICONTROL Created by]**, **[!UICONTROL Created]**, **[!UICONTROL Access authorization]** and **[!UICONTROL Last modified]** fields are automatically completed.
+
+1. Click **[!UICONTROL Confirm]** then **[!UICONTROL Save]**.
+
+Your landing page can now only be accessed to users within the chosen organizational unit.
+
+   ![](assets/lp_org_unit_3.png)
 
 ## Setting Google reCAPTCHA {#setting-google-recaptcha}
 
