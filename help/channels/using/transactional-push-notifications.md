@@ -94,7 +94,7 @@ If the registration token exists, the corresponding user receives a transactiona
 
 ## Transactional push notifications targeting a profile {#transactional-push-notifications-targeting-a-profile}
 
-You can send a transactional push notification to the Adobe Campaign profiles who have subscribed to your mobile application. This delivery can contain [personalization](../../designing/using/inserting-a-personalization-field.md) fields, such as the recipient's first name.
+You can send a transactional push notification to the Adobe Campaign profiles who have subscribed to your mobile application. This delivery can contain [personalization](../../designing/using/personalization.md#inserting-a-personalization-field) fields, such as the recipient's first name.
 
 In this case, the event must contain some fields allowing reconciliation with a profile from the Adobe Campaign database.
 
@@ -116,7 +116,7 @@ For example, an airline company wants to send a last call for boarding to all Ad
 
 1. Click the **[!UICONTROL Content]** block to modify your message's title and body.
 
-   As opposed to configurations based on real-time events, you have direct access to all profile information to personalize your message. See [Inserting a personalization field](../../designing/using/inserting-a-personalization-field.md).
+   As opposed to configurations based on real-time events, you have direct access to all profile information to personalize your message. See [Inserting a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field).
 
    ![](assets/message-center_push_content_profile.png)
 

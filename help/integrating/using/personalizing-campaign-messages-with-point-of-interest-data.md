@@ -63,6 +63,6 @@ The email with the 10% discount offer will be sent to subscribers who:
 **Related topics:**
 
 * [Creating an email](../../channels/using/creating-an-email.md)
-* [Defining content](../../designing/using/example--email-personalization.md)
+* [Defining content](../../designing/using/personalization.md#example-email-personalization)
 * [Sending messages](../../sending/using/confirming-the-send.md)
 

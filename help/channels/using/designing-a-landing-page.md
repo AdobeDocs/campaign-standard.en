@@ -30,7 +30,7 @@ When designing a landing page, you need to define the content of:
 
 Use the switcher under the action bar to display and configure each of these pages.
 
-The content of these pages is designed through Campaign content editor. Refer to [Design content](../../designing/using/about-landing-page-content-design.md).
+The content of these pages is designed through Campaign content editor. Refer to [Design content](../../channels/using/about-landing-page-content-design.md).
 
 ## Mapping form fields {#mapping-form-fields}
 

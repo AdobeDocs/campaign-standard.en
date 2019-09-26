@@ -26,7 +26,7 @@ You can send an email every Tuesday to all the customers for Special Offers.
 
 ## Creating a Scheduler activity{#creating-a-scheduler-activity}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, drag and drop a **[!UICONTROL Scheduler activity]** ![](assets/scheduler_icon.png).
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, drag and drop a **[!UICONTROL Scheduler activity]**.
 1. Double-click the activity.
 1. Configure the execution of your delivery. 
 1. In **[!UICONTROL Execution frequency]**, select **[!UICONTROL Weekly]**.
@@ -63,7 +63,7 @@ You can send an email every Tuesday to all the customers for Special Offers.
 1. Personalize your email using fields and links.
 1. Click **[!UICONTROL Save]**.
 
-For more information, refer to [designing an email](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch).
+For more information, refer to [designing an email](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 
 **Related topics:**
 

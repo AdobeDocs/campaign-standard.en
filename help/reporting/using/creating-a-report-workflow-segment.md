@@ -91,7 +91,7 @@ You first need to create a workflow with different targeted population. Here, we
 
    ![](assets/report_segment_3.png)
 
-1. Personalize your deliveries depending on the different targeted populations. For more on email creation, refer to this [page](../../designing/using/about-email-content-design.md).
+1. Personalize your deliveries depending on the different targeted populations. For more on email creation, refer to this [page](../../designing/using/overview.md).
 
 1. Save the workflow.
 

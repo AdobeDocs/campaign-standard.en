@@ -100,7 +100,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
  <tbody> 
   <tr> 
    <td> Email predictive subject line<br /> </td> 
-   <td> When editing an email, a new option lets you try out different subject lines and get an estimation of its open rate before you send it. This is made possible by training your own model based on your past delivery data or by using a pre-defined model that is specific to your industry. This feature is available for email messages and for databases that contain English contents only. <br /> For more information about enabling and using it, refer to the <a href="../../designing/using/personalizing-the-subject-line-of-an-email.md#predictive-subject-line">detailed documentation</a>.<br /> </td> 
+   <td> When editing an email, a new option lets you try out different subject lines and get an estimation of its open rate before you send it. This is made possible by training your own model based on your past delivery data or by using a pre-defined model that is specific to your industry. This feature is available for email messages and for databases that contain English contents only. <br /> For more information about enabling and using it, refer to the <a href="../../designing/using/subject-line.md#predictive-subject-line">detailed documentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> SMS transactional messaging<br /> </td> 
@@ -231,7 +231,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
   </tr> 
   <tr> 
    <td> Dynamic URLs for images<br /> </td> 
-   <td> This new functionality allows you to personalize an image source by inserting content blocks and dynamic text for tracking and personalization purposes.<br /> It then becomes possible, amongst other things, to profit from the functionalities of AEM Asset (S7) dynamic media by entering parameters into the image URLs. For example, you can send an email with personalized images stating "Hello Alexandre, get the latest news about upcoming events in Paris!" or "Hello Frank, get the latest news about upcoming events in New York!".<br /> For more information, refer to the <a href="../../designing/using/personalizing-urls.md">detailed documentation</a>.<br /> </td> 
+   <td> This new functionality allows you to personalize an image source by inserting content blocks and dynamic text for tracking and personalization purposes.<br /> It then becomes possible, amongst other things, to profit from the functionalities of AEM Asset (S7) dynamic media by entering parameters into the image URLs. For example, you can send an email with personalized images stating "Hello Alexandre, get the latest news about upcoming events in Paris!" or "Hello Frank, get the latest news about upcoming events in New York!".<br /> For more information, refer to the <a href="../../designing/using/personalization.md#personalizing-urls">detailed documentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Integration with People Core Service<br /> </td> 
@@ -378,7 +378,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 
 #### Content editor {#content-editor}
 
-* The content editor now allows you to personalize any URL contained in an email or a landing page. Refer to the [detailed documentation](../../designing/using/personalizing-urls.md).
+* The content editor now allows you to personalize any URL contained in an email or a landing page. Refer to the [detailed documentation](../../designing/using/personalization.md#personalizing-urls).
 * Fixed an error that could cause images to be lost when they were added in the delivery's creation wizard and their content was modified afterwards.
 
 #### Custom resources {#custom-resources-3}
@@ -876,7 +876,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
   </tr> 
   <tr> 
    <td> Digital Content Editor - Dynamic content<br /> </td> 
-   <td> The dynamic content interface has been improved. Arrows now appear to allow you to navigate between the different dynamic contents, directly in the email body.<br /> For more information on using this functionality, refer to the <a href="../../designing/using/defining-dynamic-content-in-a-landing-page.md">detailed documentation</a>.<br /> </td> 
+   <td> The dynamic content interface has been improved. Arrows now appear to allow you to navigate between the different dynamic contents, directly in the email body.<br /> For more information on using this functionality, refer to the <a href="../../channels/using/defining-dynamic-content-in-a-landing-page.md">detailed documentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Digital Content Editor - Dynamic text<br /> </td> 
@@ -885,7 +885,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
      <li> in an email subject, </li> 
      <li> in HTML mode, </li> 
      <li> or in Text mode. </li> 
-    </ul> For more information on using this functionality, refer to the <a href="../../designing/using/defining-dynamic-text.md">detailed documentation</a>.<br /> </td> 
+    </ul> For more information on using this functionality, refer to the <a href="../../channels/using/defining-dynamic-text.md">detailed documentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Programs and campaigns - Reports<br /> </td> 
@@ -960,7 +960,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
   </tr> 
   <tr> 
    <td> Content editor: Dynamic content<br /> </td> 
-   <td> You can define different contents which will be displayed dynamically to the user according to the conditions defined via the expression editor.<br /> Refer to the <a href="../../designing/using/defining-dynamic-content-in-a-landing-page.md">detailed documentation</a>.<br /> </td> 
+   <td> You can define different contents which will be displayed dynamically to the user according to the conditions defined via the expression editor.<br /> Refer to the <a href="../../channels/using/defining-dynamic-content-in-a-landing-page.md">detailed documentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Email<br /> </td> 
@@ -1054,7 +1054,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
   </tr> 
   <tr> 
    <td> Digital Content Editor: <strong>Block selector</strong><br /> </td> 
-   <td> When a block is selected in the HTML content editor, a breadcrumb is displayed at the bottom of the editing zone. This allows you to easily navigate to and select different elements.<br /> Refer to the <a href="../../designing/using/managing-landing-page-structure-and-style.md">detailed documentation</a>.<br /> </td> 
+   <td> When a block is selected in the HTML content editor, a breadcrumb is displayed at the bottom of the editing zone. This allows you to easily navigate to and select different elements.<br /> Refer to the <a href="../../channels/using/managing-landing-page-structure-and-style.md">detailed documentation</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
