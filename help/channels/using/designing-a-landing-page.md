@@ -132,15 +132,19 @@ Landing pages can also be linked to an organizational unit. This will define the
 
 1. Access your landing page properties via the **[!UICONTROL Edit properties]** icon.
 
+   ![](assets/lp_parameters_google3.png)
+
 1. Unfold the **[!UICONTROL Access authorization]**.
 
 1. Click the drop-down menu and select your organizational unit. For more information on how to create organization unit, refer to this [page](../../administration/using/organizational-units.md).
+
+   ![](assets/lp_org_unit_2.png)
 
 1. The **[!UICONTROL Created by]**, **[!UICONTROL Created]**, **[!UICONTROL Access authorization]** and **[!UICONTROL Last modified]** fields are automatically completed.
 
 1. Click **[!UICONTROL Confirm]** then **[!UICONTROL Save]**.
 
-Your landing page can now only be accessed to users within the chosen organizational unit.
+Your landing page can now only be accessed and managed by users within the chosen organizational unit.
 
    ![](assets/lp_org_unit_3.png)
 
