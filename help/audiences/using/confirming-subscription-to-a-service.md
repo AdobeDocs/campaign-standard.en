@@ -22,7 +22,12 @@ snippet: y
 
 This section describes how to send an automatic custom confirmation email to the profiles who subscribe to a specific service.
 
-To do this, you must create and configure a transactional message. This message can be referenced :
+When you want to send a confirmation message for a subscription (or unsubscription), you can use the default message. However:
+* You can only personalize this default message with fields from the event context, which are limited.
+* This message will be the same for all services that use the default mode, which can be somehow restrictive if your are using several services for example.
+* The default message is not availble from the Adobe Campaign transactional messages list. You can only edit it from the services or landing pages where it is used.
+
+You may want to create a custom confirmation message. To do this, you must create and configure a transactional message. This message can be referenced :
 * From the service itself. For more on this, see [Configuring confirmation message from a service](../../audiences/using/confirming-subscription-to-a-service.md#configuring-confirmation-message-from-service]).
 * From a subscription landing page. For more on this, see [Configuring confirmation message from a landing page](../../audiences/using/confirming-subscription-to-a-service.md#configuring-confirmation-message-from-landing-page).
 
@@ -30,11 +35,11 @@ To do this, you must create and configure a transactional message. This message 
 
 For example, you want to automatically send a confirmation message to the visitors of your website when they subscribe to your brand newsletter.
 
-You need to configure a transactional email so that it can be reconciled with a service, and reference that message from the desired service (subscription to your brand newsletter in this case).
+You need to configure a transactional email and reference that message from the desired service (subscription to your brand newsletter in this case). In order to enrich the transactional message with service information, you can define a reconciliation when creating the event.
 
->[CAUTION]
+<!-->>[CAUTION]
 >
->To link a transactional message to a service, you must define the **[!UICONTROL publicLabel]** field in your event configuration. This field will be reconciled with the **[!UICONTROL Service label]** of the service. See [Create the event](../../audiences/using/confirming-subscription-to-a-service.md#create-the-event-1).
+>To link a transactional message to a service, you must define the **[!UICONTROL publicLabel]** field in your event configuration. This field will be reconciled with the **[!UICONTROL Service label]** of the service. See [Create the event](../../audiences/using/confirming-subscription-to-a-service.md#create-the-event-1).-->
 
 When configuring it from the service, the confirmation transactional message will be sent only the first time each visitor subscribes to that service. If a profile is already subscribed, no confirmation message will be sent again to that profile.
 
@@ -143,9 +148,9 @@ Now each time a profile subscribes to this service, he receives the transactiona
 
 You can also reference the confirmation message from a subscription landing page by using the **[!UICONTROL Start sending messages]** option from the **[!UICONTROL Job]** section of the landing page.
 
->[CAUTION]
+<!-->>[CAUTION]
 >
->To link a transactional message to a landing page, you must define the **[!UICONTROL serviceName]** field in your event configuration. This field will be reconciled with the **[!UICONTROL @name]** attribute of the service. See [Create the event](../../audiences/using/confirming-subscription-to-a-service.md#create-the-event-2).
+>To link a transactional message to a landing page, you must define the **[!UICONTROL serviceName]** field in your event configuration. This field will be reconciled with the **[!UICONTROL @name]** attribute of the service. See [Create the event](../../audiences/using/confirming-subscription-to-a-service.md#create-the-event-2).-->
 
 When referencing the confirmation message from the landing page, a message will be sent each time the landing page is submitted (even if the profile is already subscribed).
 
