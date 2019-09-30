@@ -27,7 +27,6 @@ When you want to send a confirmation message for a subscription (or unsubscripti
 If you choose to use the default message, you can edit its content with the following limitations:
 * You can only personalize the message content with limited fields from the event context.
 * This message will be the same for all services that use the default mode.
-* The default message is not available from the Adobe Campaign transactional messages list. You can only modify a default message by clicking its label in the **[!UICONTROL Service properties]** section.
 
 To send a specific confirmation message for a given service, you can create a custom confirmation message, where you will also be able to leverage personalization fields from other resources. To do this, you must create and configure a transactional message. This message can be referenced :
 * From the service itself. For more on this, see [Configuring confirmation message from a service](../../audiences/using/confirming-subscription-to-a-service.md#configuring-confirmation-message-from-service]).
