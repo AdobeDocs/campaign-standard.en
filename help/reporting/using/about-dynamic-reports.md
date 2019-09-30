@@ -72,67 +72,17 @@ Three options are available:
 
 The table below displays the result after agreeing with this agreement.
 
-<table> 
- <thead> 
-  <tr> 
-    <th></th>
-    <th>Dynamic reporting</th> 
-    <th>Microsoft Dynamics 365 connector</th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td>Americas & APAC</td> 
-   <td><strong>Feature available.</strong>
-  
-   All out-of-the-box & custom profiles information pushed into the US reporting cluster.</td> 
-   <td><strong>Feature available.</strong>
-  
-   All out-of-the-box & custom profiles fields and Adobe Campaign Standard event fields processed in the US data cluster.</td> 
-  </tr> 
-  <tr> 
-   <td>EMEA</td> 
-   <td><strong>Feature available.</strong>
-  
-   All out-of-the-box & custom profiles information pushed into the EMEA reporting cluster.</td> 
-   <td><strong>Feature available.</strong>
-  
-   All out-of-the-box & custom profiles fields and Adobe Campaign Standard event fields processed in the EMEA data cluster.</td> 
-  </tr>
- </tbody> 
-</table>
+|   | Dynamic reporting  |  Microsoft Dynamics 365 connector |
+|---|---|---|
+|  Americas & APAC | **Feature available**. <br>All out-of-the-box & custom profiles information pushed into the US reporting cluster. | **Feature available**. <br>All out-of-the-box & custom profiles fields and Adobe Campaign Standard event fields processed in the US data cluster.  |
+|  EMEA | **Feature available**. <br>All out-of-the-box & custom profiles information pushed into the EMEA reporting cluster.| **Feature available.** <br>All out-of-the-box & custom profiles fields and Adobe Campaign Standard event fields processed in the EMEA data cluster.  |
 
 The table below displays the result after declining this agreement.
 
-<table> 
- <thead> 
-  <tr> 
-    <th></th>
-    <th>Dynamic reporting</th> 
-    <th>Microsoft Dynamics 365 connector</th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td>Americas & APAC</td> 
-   <td><strong>Feature available.</strong>
-  
-   No out-of-the-box & custom profiles information pushed into the US reporting cluster. </td> 
-   <td><strong>Feature available.</strong>
-  
-   No out-of-the-box or custom profile fields sent to the US data center with the exception of profileExternalID. All Adobe Campaign Standard event fields processed in the US data center with the exception of segment code and mirror page ID.</td> 
-  </tr> 
-  <tr> 
-   <td>EMEA</td> 
-   <td><strong>Feature available.</strong>
-  
-   No out-of-the-box & custom profiles information pushed into the EMEA reporting cluster. </td>
-   <td><strong>Feature available.</strong>
-  
-   No out-of-the-box or custom profile fields sent to the EMEA data center with the exception of profileExternalID. All Adobe Campaign Standard event fields processed in the EMEA data center with the exception of segment code and mirror page ID.</td>  
-  </tr> 
- </tbody> 
-</table>
+|   | Dynamic reporting  |  Microsoft Dynamics 365 connector |
+|---|---|---|
+|  Americas & APAC | **Feature available**. <br>No out-of-the-box & custom profiles information pushed into the US reporting cluster. | **Feature available**. <br>No out-of-the-box or custom profile fields sent to the US data center with the exception of profileExternalID. All Adobe Campaign Standard event fields processed in the US data center with the exception of segment code and mirror page ID.  |
+|  EMEA | **Feature available**. <br>No out-of-the-box & custom profiles information pushed into the EMEA reporting cluster.| **Feature available.** <br>No out-of-the-box or custom profile fields sent to the EMEA data center with the exception of profileExternalID. All Adobe Campaign Standard event fields processed in the EMEA data center with the exception of segment code and mirror page ID. |
 
 This choice is not final, you can always change it by selecting **[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]** in **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Options]**.
 
