@@ -72,12 +72,12 @@ Three options are available:
 
 The table below displays the result following your action with this agreement.
 
-<table border=1> 
+<table> 
  <thead> 
   <tr>
-  <th rowspan=2> <center><strong></strong></center> </th>
-  <th colspan=2> <center><strong>Agreed</strong></center></th>
-  <th colspan=2> <center><strong>Did not agree</strong></center></th>
+  <th rowspan=2> <center></center> </th>
+  <th colspan=2> <center>Agreed</center></th>
+  <th colspan=2> <center>Did not agree</center></th>
 </tr>
   <tr> 
     <th><center>Dynamic reporting</center></th> 
