@@ -31,6 +31,9 @@ After adding test profiles in the **[!UICONTROL Audience]** window, you can prev
    ![](assets/sending_anti-spam_analysis.png)
 
 1. Select the **[!UICONTROL Change profile]** button to choose the test profile you want to test the personalization elements on.
+
+    ![](assets/sending_test-profile.png)
+
 1. To exit the **[!UICONTROL Preview]** mode, click the **[!UICONTROL Edit]** button on top left of the screen.
 
    ![](assets/sending_preview_edit.png)
