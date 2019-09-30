@@ -75,15 +75,15 @@ The table below displays the result following your action with this agreement.
 <table> 
  <thead> 
   <tr>
-  <th rowspan=2> <center></center> </th>
-  <th colspan=2> <center>Agreed</center></th>
-  <th colspan=2> <center>Did not agree</center></th>
+  <th rowspan=2></th>
+  <th colspan=2>Agreed</th>
+  <th colspan=2>Did not agree</th>
 </tr>
   <tr> 
-    <th><center>Dynamic reporting</center></th> 
-    <th><center>Microsoft Dynamics 365 connector</center></th> 
-    <th><center>Dynamic reporting</center></th>
-    <th><center>Microsoft Dynamics 365 connector</center></th>  
+    <th>Dynamic reporting</th> 
+    <th>Microsoft Dynamics 365 connector</th> 
+    <th>Dynamic reporting</th>
+    <th>Microsoft Dynamics 365 connector</th>  
   </tr> 
  </thead> 
  <tbody> 
