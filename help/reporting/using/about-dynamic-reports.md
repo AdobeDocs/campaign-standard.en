@@ -70,20 +70,14 @@ Three options are available:
 * **[!UICONTROL Accept]**: By accepting this agreement, you authorize Adobe Campaign to collect your customers' Personal identification information and to transfer them to the reporting cluster or data center.
 * **[!UICONTROL Decline]**: By declining the agreement, the profile dimensions will not appear in your reports and your customers' Personal identification information will not be collected or sent.
 
-The table below displays the result following your action with this agreement.
+The table below displays the result after agreeing with this agreement.
 
 <table> 
  <thead> 
-  <tr>
-  <th rowspan=2></th>
-  <th colspan=2>Agreed</th>
-  <th colspan=2>Did not agree</th>
-</tr>
   <tr> 
+    <th></th>
     <th>Dynamic reporting</th> 
     <th>Microsoft Dynamics 365 connector</th> 
-    <th>Dynamic reporting</th>
-    <th>Microsoft Dynamics 365 connector</th>  
   </tr> 
  </thead> 
  <tbody> 
@@ -95,12 +89,6 @@ The table below displays the result following your action with this agreement.
    <td><strong>Feature available.</strong>
   
    All out-of-the-box & custom profiles fields and Adobe Campaign Standard event fields processed in the US data cluster.</td> 
-   <td><strong>Feature available.</strong>
-  
-   No out-of-the-box & custom profiles information pushed into the US reporting cluster. </td> 
-   <td><strong>Feature available.</strong>
-  
-   No out-of-the-box or custom profile fields sent to the US data center with the exception of profileExternalID. All Adobe Campaign Standard event fields processed in the US data center with the exception of segment code and mirror page ID.</td> 
   </tr> 
   <tr> 
    <td>EMEA</td> 
@@ -110,6 +98,32 @@ The table below displays the result following your action with this agreement.
    <td><strong>Feature available.</strong>
   
    All out-of-the-box & custom profiles fields and Adobe Campaign Standard event fields processed in the EMEA data cluster.</td> 
+  </tr>
+ </tbody> 
+</table>
+
+The table below displays the result after declining this agreement.
+
+<table> 
+ <thead> 
+  <tr> 
+    <th></th>
+    <th>Dynamic reporting</th> 
+    <th>Microsoft Dynamics 365 connector</th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td>Americas & APAC</td> 
+   <td><strong>Feature available.</strong>
+  
+   No out-of-the-box & custom profiles information pushed into the US reporting cluster. </td> 
+   <td><strong>Feature available.</strong>
+  
+   No out-of-the-box or custom profile fields sent to the US data center with the exception of profileExternalID. All Adobe Campaign Standard event fields processed in the US data center with the exception of segment code and mirror page ID.</td> 
+  </tr> 
+  <tr> 
+   <td>EMEA</td> 
    <td><strong>Feature available.</strong>
   
    No out-of-the-box & custom profiles information pushed into the EMEA reporting cluster. </td>
