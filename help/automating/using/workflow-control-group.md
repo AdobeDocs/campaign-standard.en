@@ -18,34 +18,48 @@ snippet: y
 
 # Workflow use-case: Building a control group {#building-control-group}
 
-You can send exclude some profiles from a delivery for comparison purpose maintaining a separate table for control groups. For example, you want to compare how the recipients of a campaign will react compared to a small group who was excluded from the delivery and did not receive that campaign.
+To measure the impact of an email campaign, you may want to exclude some profiles from your target so that they will not receive the message. This control group can be used to make a comparison with the behavior of the target population, which has received the delivery.
 
-## Creating a separate table{#selecting-recipients-contactable-via-email}
+To do this in Adobe Campaign, you can maintain a separate table for control groups and use a segmentation activity within a workflow to isolate this control group.
+* The message is sent to the target population and tracked as usual in the sending logs. 
+* The profiles that are exluded from the target in the Segmentation activity are tracked outside the message sending logs in a custom table.
+
+For example, you want to compare how the recipients of a campaign will react compared to a small group who will be excluded from the message and will not receive it.
+
+![](assets/wkf-control-group.png)
+
+## Creating a separate table{#creating-table}
 
 Create a table with some recipients from profile that you define as the control group.
 
-![](assets/.png)
+1. From Administration > Development > Custom Resources , click the Create button.
+1. Configure the screen definition.
+2. Update the database structure to publish the resource.
 
-## Creating a workflow 
+## Creating a workflow {#creating-a-workflow}
 
 1. In **[!UICONTROL Marketing Activities]**, click **[!UICONTROL Create]** and select **[!UICONTROL Workflow]**.
 1. Select **[!UICONTROL New Workflow]** as workflow type and click **[!UICONTROL Next]**.
 1. Enter the properties of the workflow and click **[!UICONTROL Create]**.
 
-## Creating a query activity
+## Creating a Query activity {#create-a-query-activity}
+
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, drag and drop a **[!UICONTROL Query activity]** ![](assets/query.png).
+1. Double-click the activity.
+1. In **[!UICONTROL Shortcuts]**, drag and drop **[!UICONTROL Profiles]** and select **[!UICONTROL email]** with the operator **[!UICONTROL is not empty]**.
+1. In **[!UICONTROL Shortcuts]**, drag and drop **[!UICONTROL Profiles]** and select **[!UICONTROL no longer contact by email]** with the value **[!UICONTROL no]**.
+1. Click **[!UICONTROL Confirm]**.
 
 ## Creating a Segmentation activity{#creating-a-segmentation-activity}
 
 1. Drag and drop a **[!UICONTROL Segmentation]** activity and double-click it.
 1. Define a segment code which is the control group.
 1. Click **[!UICONTROL Confirm]**.
-1. In **[!UICONTROL List of outbound segments]**, click **[!UICONTROL Add an element]** and click on ![](assets/edit_darkgrey-24px.png)  to create a segment targeting people in the second city. Here Chicago.
+1. In **[!UICONTROL List of outbound segments]**, click **[!UICONTROL Add an element]** and click on ![](assets/edit_darkgrey-24px.png)  to create a segment targeting people in the second city.
 1. 
 1. Click **[!UICONTROL Confirm]**.
 
-## Creating an Email activity
-
-## Creating an email delivery{#creating-an-email-delivery}
+## Creating an Email activity{#creating-an-email-activity}
 
 1. In **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, drag and drop an **[!UICONTROL Email Delivery]** after each segment.
 1. Click the activity and select ![](assets/edit_darkgrey-24px.png) to edit.
