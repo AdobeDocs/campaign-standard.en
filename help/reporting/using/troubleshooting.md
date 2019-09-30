@@ -208,15 +208,18 @@ In the example below, the cell is of the same color since its value is 100%.
 
 ![](assets/troubleshooting_1.png)
 
-If you change the **Conditional formatting** to custom, when the value reaches the upper limit the cell will get greener. Whereas, if it reaches the lower limit, it will get redder.
+If you change the **[!UICONTROL Conditional formatting]** to custom, when the value reaches the upper limit the cell will get greener. Whereas, if it reaches the lower limit, it will get redder.
 
-For example, here, we set the **Upper limit** to 500 and **Lower limit** to 0.
+For example, here, we set the **[!UICONTROL Upper limit]** to 500 and **[!UICONTROL Lower limit**] to 0.
 
 ![](assets/troubleshooting_2.png)
 
-## When targeting transactional delivery, the value Others or N/A appear in my reports
+## Why does the value N/A appear in my reports?
 
 ![](assets/troubleshooting_3.png)
 
-When drag and dropping the Transaction Delivery dimension to your reports, the value N/A might appear as a delivery. This happens because Dynamic report fetches deliveries which are not transactional i.e. deliveries with transactionalTemplateId as null.
+The value **N/A** can sometimes appear in your dynamic reports. This can be displayed for two reasons:
 
+* The delivery has been deleted and is shown here as **N/A** to not cause discrepancy in the results.
+* When drag and dropping the **[!UICONTROL Transactional Delivery]** dimension to your reports, the value **N/A** might appear as a result. This happens because Dynamic report fetches every delivery even if they are not transactional.
+  This can also happen when drag and dropping the **[!UICONTROL Delivery]** dimension to your report but in this case, the **N/A** value will represent transactional deliveries.
