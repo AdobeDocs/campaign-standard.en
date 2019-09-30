@@ -24,6 +24,10 @@ This page lists all the new features and documentation updates for each release 
 
 You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-notes.md).
 
+## Documentation updates - October 2019 {#doc-updates-october-2019}
+
+A new section describing how to send an automatic custom confirmation email to profiles who subscribe to a specific service has been added. [Read more](../../audiences/using/confirming-subscription-to-a-service.md)
+
 ## Documentation updates - September 2019 {#doc-updates-september-2019}
 
 A new section was added in the Push notifications section on how to create and update profile information based on mobile application subscription data. [Read more](../../channels/using/updating-profile-with-mobile-app-data.md)
