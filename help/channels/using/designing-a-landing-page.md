@@ -49,7 +49,7 @@ Input fields are used to store or update data in Campaign database. For this, yo
    >
    >Landing pages can only be mapped with **Profiles**.
 
-1. Define the field type by choosing, for example **[!UICONTROL Text]**, **[!UICONTROL Number]**,or **[!UICONTROL Date]** in the **[!UICONTROL HTML type of the field]** selection area.
+1. Define the field type by choosing, for example **[!UICONTROL Text]**, **[!UICONTROL Number]**, or **[!UICONTROL Date]** in the **[!UICONTROL HTML type of the field]** selection area.
 
 >[!NOTE]
 >

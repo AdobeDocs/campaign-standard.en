@@ -112,7 +112,7 @@ Once you created the follow-up delivery template, you can use it in a workflow t
 
    ![](assets/message-center_follow-up-content.png)
 
-1. Find the fields that you defined when creating your event by selecting **[!UICONTROL Transactional event]** > **[!UICONTROL Event context]**. See [Personalizing a transactional message](../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message).
+1. Find the fields that you defined when creating your event by selecting **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**. See [Personalizing a transactional message](../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message).
 
    ![](assets/message-center_follow-up-personalization.png)
 
