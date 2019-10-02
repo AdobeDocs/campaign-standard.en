@@ -55,6 +55,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Creating a service](audiences/using/creating-a-service.md)
        + [Promoting a service](audiences/using/promoting-a-service.md)
        + [Monitoring subscriptions](audiences/using/monitoring-subscriptions.md)
+       + [Confirming subscription to a service](audiences/using/confirming-subscription-to-a-service.md)
   + Understanding opt-in and opt-out processes {#understanding-opt-in-and-opt-out-processes}
        + [About opt-in and opt-out in Campaign](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
        + [Managing opt-in and opt-out in Campaign](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
@@ -133,6 +134,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Previewing messages](sending/using/previewing-messages.md)
        + [Preparing the send](sending/using/preparing-the-send.md)
        + [Managing test profiles and sending proofs](sending/using/managing-test-profiles-and-sending-proofs.md)
+       + [Testing the subject line of an email](sending/using/testing-subject-line-email.md)
        + [Email rendering](sending/using/email-rendering.md)
   + Sheduling messages {#sheduling-messages}
        + [About scheduling messages](sending/using/about-scheduling-messages.md)
