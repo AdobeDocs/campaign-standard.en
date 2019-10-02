@@ -22,7 +22,7 @@ Campaign comes with landing pages which are web forms that can be used to captur
 
 >[!CAUTION]
 >
->Landing pages can only be used to update profiles.
+>Landing pages can only be used to create or update **profiles**.
 
 Campaign comes with a set of built-in landing page templates:
 
