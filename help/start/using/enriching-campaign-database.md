@@ -18,21 +18,19 @@ snippet: y
 
 # Enriching the database{#enriching-the-database}
 
-main entry when feeding the database in through direct input in a profile's interface.
-
-Additionnally, various methods allows to enrich database in an automated way.
-
-This sections presents methods, with reference to the dedicated documentation.
+Campaign Standard offers several tools to help you grow your marketing database. This section details the various methods that you can use to inject data into Campaign, with references to the dedicated documentations.
 
 ## Importing data through workflows {#importing-data-through-workflows}
 
 Workflows allow you to collect data and import it into Campaign database through the use of [**[!UICONTROL Data management]**](../../automating/data-management-activities/about-data-management-activities.md) activities.
 
-Generic information and best practices when importing data through workflows are presented in these sections: [this section](../../automating/workflow-general-operation/importing-data.md).
+Generic information and best practices when importing data through workflows are presented in [this section](../../automating/workflow-general-operation/importing-data.md).
 
-Additionally, you can set up templates to import data. Using import templates is a best practice if you need to import files with the same structure on a regular basis. You can set up two types of templates to import data:
+Additionally, you can set up templates to import data. Using import templates is a best practice if you need to import files with the same structure on a regular basis.
 
-* **Workflow templates**: these are pre-configured workflows that you can set up once according to your needs, and reuse each time you want to import data to udpate the database.
+You can set up two types of templates:
+
+* **Workflow templates**: these are pre-configured workflows that you can set up once according to your needs, and reuse each time you want to import data and udpate the database.
 
     An example of workflow template to import data is detailed in [this section](../../automating/workflow-general-operation/importing-data.md#example--import-workflow-template).
 
@@ -40,11 +38,11 @@ Additionally, you can set up templates to import data. Using import templates is
 
     For more on import data templates, refer to the [dedicated documentation](../../automating/importing-and-exporting-data/importing-data-with-import-templates.md).
 
-## Collecting data online from landing pages {#collecting-data-online-from-landing-pages}
+## Collecting data from landing pages {#collecting-data-from-landing-pages}
 
 Landing pages are web forms that can be used to collect data and create or update existing information in your database.
 
-The principle is:
+The principle is as follows:
 
 * Create and design your landing page by adding input fields to collect data (first name, last name, email, etc.).
 * Map each input field with the corresponding field from the database.
