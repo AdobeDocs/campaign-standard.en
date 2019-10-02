@@ -163,7 +163,7 @@ The steps for designing the transactional message are presented in this [section
 
 ### Step 2: Create and configure the service {#step-2--create-and-configure-the-service-2}
 
-1. From the advanced menu **[!UICONTROL Profiles & audiences]** > **[!UICONTROLServices]** via the Adobe Campaign logo, create a service.
+1. From the advanced menu **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Services]** via the Adobe Campaign logo, create a service.
 1. Go to the **[!UICONTROL Service properties]** section, accessed via the ![](assets/edit_darkgrey-24px.png) button in the service dashboard.
 1. Fill in the **[!UICONTROL Service label]** field. This label will be displayed in the confirmation message and in the subscription landing page.
 1. Click **[!UICONTROL Confirm]** and save the service.
