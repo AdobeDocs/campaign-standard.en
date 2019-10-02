@@ -28,7 +28,7 @@ If you choose to use the default message, you can edit its content with the foll
 * You can only personalize the message content with limited fields from the event context.
 * This message will be the same for all services that use the default mode.
 
-To send a specific confirmation message for a given service, you can create a custom confirmation message, where you will also be able to leverage personalization fields from other resources. To do this, you must create and configure a transactional message. This message can be referenced :
+To send a specific confirmation email for a given service, you can create a custom message, in which you will also be able to leverage personalization fields from other resources. To do this, you must create and configure a transactional message. This message can be referenced :
 * From the service itself. For more on this, see [Configuring confirmation message from a service](../../audiences/using/confirming-subscription-to-a-service.md#configuring-confirmation-message-from-service).
 * From a subscription landing page. For more on this, see [Configuring confirmation message from a landing page](../../audiences/using/confirming-subscription-to-a-service.md#configuring-confirmation-message-from-landing-page).
 
@@ -163,7 +163,7 @@ The steps for designing the transactional message are presented in this [section
 
 ### Step 2: Create and configure the service {#step-2--create-and-configure-the-service-2}
 
-1. From the advanced menu **[!UICONTROL Profiles & audiences]** > **[!UICONTROLServices]** via the Adobe Campaign logo, create a service.
+1. From the advanced menu **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Services]** via the Adobe Campaign logo, create a service.
 1. Go to the **[!UICONTROL Service properties]** section, accessed via the ![](assets/edit_darkgrey-24px.png) button in the service dashboard.
 1. Fill in the **[!UICONTROL Service label]** field. This label will be displayed in the confirmation message and in the subscription landing page.
 1. Click **[!UICONTROL Confirm]** and save the service.
