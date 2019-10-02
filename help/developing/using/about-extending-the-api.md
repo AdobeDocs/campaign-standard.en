@@ -29,5 +29,5 @@ In order to publish the API, you need to have the **[!UICONTROL Datamodel]** rol
 **Related topics:**
 
 * [About custom resources](../../developing/using/data-model-concepts.md)
-* [API documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
+* [API documentation](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
 

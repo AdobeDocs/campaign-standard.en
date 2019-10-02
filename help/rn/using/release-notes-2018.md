@@ -156,7 +156,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 
 ### Improvements {#improvements-2}
 
-* The **[!UICONTROL History]** API has been added to Adobe.IO. It allows you to access information related to a profile's marketing history: number of touchpoints, sent deliveries, mirror page URL etc. For more on this, refer to the [dedicated use case](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#how-to-retrieve-the-mirror-page-for-a-delivery-sent-to-a-profile) .
+* The **[!UICONTROL History]** API has been added to Adobe.IO. It allows you to access information related to a profile's marketing history: number of touchpoints, sent deliveries, mirror page URL etc. For more on this, refer to the [dedicated use case](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#how-to-retrieve-the-mirror-page-for-a-delivery-sent-to-a-profile) .
 * The **[!UICONTROL Database cleanup]** technical workflow has been optimized in order to ensure better performance for database backup.
 * The Creative Designer for Email is now also available in French and German.
 
@@ -478,7 +478,7 @@ Some issues might occur when using contextual help links from Campaign interface
   </tr> 
   <tr> 
    <td> API Signal activity triggering<br /> </td> 
-   <td> It is now possible to trigger a signal activity for your workflows directly from Adobe Campaign Standard API.<br /> For more information, refer to the <a class="anchorLink" href="https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity" target="_blank">detailed documentation</a> .<br /> </td> 
+   <td> It is now possible to trigger a signal activity for your workflows directly from Adobe Campaign Standard API.<br /> For more information, refer to the <a class="anchorLink" href="https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity" target="_blank">detailed documentation</a> .<br /> </td> 
   </tr> 
  </tbody> 
 </table>
