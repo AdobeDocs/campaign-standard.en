@@ -70,12 +70,12 @@ Three options are available:
 * **[!UICONTROL Accept]**: By accepting this agreement, you authorize Adobe Campaign to collect your customers' Personal identification information and to transfer them to the reporting cluster or data center.
 * **[!UICONTROL Decline]**: By declining the agreement, the profile dimensions will not appear in your reports and your customers' Personal identification information will not be collected or sent.
 
-The table below displays what happens after accepting with this agreement depending on your region. For more information on out-of-the-box profiles information, refer to this page and this page for custom ones. 
+The table below displays what happens after accepting with this agreement depending on your region.
 
 |  |Dynamic reporting|Microsoft Dynamics 365 connector|
 |---|---|---|
 |Americas & APAC (Asia Pacific)| **Feature available**. <br>All out-of-the-box & custom profiles information (i.e. city, country/region, state, gender and segments on the age basis) pushed into the US reporting cluster. For more information on profile dimensions, refer to this [page](../../reporting/using/list-of-components-.md) |**Feature available**. <br>All out-of-the-box & custom profiles fields and Adobe Campaign Standard event fields processed in the US data cluster.|
-|EMEA (Europe Middle East & Africa)|**Feature available**. <br>All out-of-the-box & custom profiles information (i.e.city, country/region, state, gender and segments on the age basis) pushed into the EMEA reporting cluster. For more information on profile dimensions, refer to this [page](../../reporting/using/list-of-components-.md)|**Feature available.** <br>All out-of-the-box & custom profiles fields and Adobe Campaign Standard event fields processed in the EMEA data cluster.|
+|EMEA (Europe Middle East & Africa)|**Feature available**. <br>All out-of-the-box & custom profiles information (i.e. city, country/region, state, gender and segments on the age basis) pushed into the EMEA reporting cluster. For more information on profile dimensions, refer to this [page](../../reporting/using/list-of-components-.md)|**Feature available.** <br>All out-of-the-box & custom profiles fields and Adobe Campaign Standard event fields processed in the EMEA data cluster.|
 
 The table below displays what happens after declining this agreement depending on your region. Note that even if you decline this agreement, reporting on deliveries will still be available.
 
