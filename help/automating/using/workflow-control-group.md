@@ -18,7 +18,7 @@ snippet: y
 
 # Workflow use-case: Building a control group {#building-control-group}
 
-To measure the impact of an email campaign, you may want to exclude some profiles from your target so that they will not receive the message. This control group can be used to make a comparison with the behavior of the target population, which has received the delivery.
+To measure the impact of an email campaign, you may want to exclude some profiles from your target so that they will not receive a message. This control group can be used to make a comparison with the behavior of the target population which received the delivery.
 
 To do this in Adobe Campaign, you can maintain a separate table for control groups and use a segmentation activity within a workflow to isolate this control group.
 * The message is sent to the target population and tracked as usual in the sending logs. 
@@ -28,11 +28,11 @@ For example, you want to compare how the recipients of a campaign will react com
 
 ![](assets/wkf-control-group.png)
 
-## Creating a separate table{#creating-table}
+## Creating a separate table {#creating-table}
 
 Create a table with some recipients from profile that you define as the control group.
 
-1. From Administration > Development > Custom Resources , click the Create button.
+1. From **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom Resources]**, click **[!UICONTROL Create]**.
 1. Configure the screen definition.
 2. Update the database structure to publish the resource.
 
@@ -47,28 +47,27 @@ Create a table with some recipients from profile that you define as the control 
 1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, drag and drop a **[!UICONTROL Query activity]** ![](assets/query.png).
 1. Double-click the activity.
 1. In **[!UICONTROL Shortcuts]**, drag and drop **[!UICONTROL Profiles]** and select **[!UICONTROL email]** with the operator **[!UICONTROL is not empty]**.
-1. In **[!UICONTROL Shortcuts]**, drag and drop **[!UICONTROL Profiles]** and select **[!UICONTROL no longer contact by email]** with the value **[!UICONTROL no]**.
+1. In **[!UICONTROL Shortcuts]**, drag and drop **[!UICONTROL Profiles]** and select **[!UICONTROL xxx]** with the value **[!UICONTROL xxx]**.
 1. Click **[!UICONTROL Confirm]**.
 
-## Creating a Segmentation activity{#creating-a-segmentation-activity}
+## Creating a Segmentation activity {#creating-a-segmentation-activity}
 
 1. Drag and drop a **[!UICONTROL Segmentation]** activity and double-click it.
 1. Define a segment code which is the control group.
 1. Click **[!UICONTROL Confirm]**.
-1. In **[!UICONTROL List of outbound segments]**, click **[!UICONTROL Add an element]** and click on ![](assets/edit_darkgrey-24px.png)  to create a segment targeting people in the second city.
-1. 
+1. In **[!UICONTROL List of outbound segments]**, click **[!UICONTROL Add an element]** and click on ![](assets/edit_darkgrey-24px.png)  to create a segment targeting profiles from the main target.
 1. Click **[!UICONTROL Confirm]**.
 
-## Creating an Email activity{#creating-an-email-activity}
+## Creating an Email activity {#creating-an-email-activity}
 
 1. In **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, drag and drop an **[!UICONTROL Email Delivery]** after each segment.
-1. Click the activity and select ![](assets/edit_darkgrey-24px.png) to edit.
+1. Click the activity and select ![](assets/edit_darkgrey-24px.png) to edit it.
 1. Select **[!UICONTROL Simple email]** and click **[!UICONTROL Next]**.
 1. Select an email template and click **[!UICONTROL Next]**.
 1. Enter the email properties and click **[!UICONTROL Next]**.
 1. To create the layout of your email, click on **[!UICONTROL Email Designer]**.
-1. Message is sent and tracked in sending logs for other profiles.
-1. For control group segment, population is excluded and exported
+
+Once the workflow is run, the message is sent and tracked in sending logs for other profiles. For the control group segment, the population is excluded and exported to a table.
 
 **Related topics:**
 
