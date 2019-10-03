@@ -114,6 +114,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Managing landing page structure and style](channels/using/managing-landing-page-structure-and-style.md)
        + [Changing a landing page form data properties](channels/using/changing-a-landing-page-form-data-properties.md)
        + [Defining dynamic content in a landing page](channels/using/defining-dynamic-content-in-a-landing-page.md)
+       + [Main steps to set up a landing page](channels/using/main-steps-to-set-up-a-landing-page.md)
 + Designing email content {#designing-content}
   + [Campaign Email Designer](designing/using/designing-content-in-adobe-campaign.md)
   + [Quick Start](designing/using/quick-start.md)
