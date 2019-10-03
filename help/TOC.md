@@ -125,7 +125,7 @@ user-guide-title: Adobe Campaign Standard Help
   + [Multi-solution email design](designing/using/using-integrations.md)
   + [Personalization](designing/using/personalization.md)
   + [Plain text and HTML modes](designing/using/plain-text-html-modes.md)
-  + [Managing styles](designing/using/styles.md)
+  + [Managing email styles](designing/using/styles.md)
   + [Managing links](designing/using/links.md)
   + [Managing images](designing/using/images.md)
 + Testing and Sending {#testing-and-sending}
