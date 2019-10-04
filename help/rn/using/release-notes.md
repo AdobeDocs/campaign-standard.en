@@ -28,6 +28,42 @@ Additional resources:
 * [Control Panel](https://helpx.adobe.com/campaign/kb/control-panel.html)
 * Previous Release Notes: [2018](../../rn/using/release-notes-2018.md), [2017](../../rn/using/release-notes-2017.md), [2015-2016](../../rn/using/release-notes-2015-2016.md)
 
+## Release 19.4 - September 2019 {#release-19-4---september-2019}
+
+### What's new? {#what-s-new-5}
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> Functionality<br /> </th> 
+   <th> Description<br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> California Consumer Privacy Act (CCPA)<br /> </td> 
+   <td> <p>CCPA is California States’ new privacy law that harmonizes and modernizes data protection requirements going into effect on Jan 01, 2020. CCPA applies to Adobe Campaign customers who hold data for Data Subjects residing in California.</p>
+   <p>In addition to the privacy capabilities already available in Adobe Campaign (including consent management, data retention settings, and user roles), we are taking this opportunity to include additional capabilities, to help facilitate your readiness for CCPA:</p>
+   <ul>
+    <li>Right to Access and Right to Delete: we are leveraging the capabilities that were added for GDPR.</li>
+    <li>When creating a Privacy request, you can now select the regulation type: GDPR and CCPA.</li>
+    <li>A CCPA Opt-out field has been added to the Profiles resource to allow Adobe Campaign users to track whether a consumer has opted-out for the sale of Personal Information.</li>
+  </ul>
+      <p>For more information, refer to the <a href="https://helpx-internal.corp.adobe.com/content/help/en/campaign/kb/campaign-privacy.html">detailed documentation</a></p></td> 
+  </tr> 
+  <tr> 
+   <td> MS Dynamics integration - Support for Custom Entities<br /> </td> 
+   <td> <p>XXX</p><p>For more information, refer to the <a href="XX">detailed documentation</a>.</p></td>
+  </tr> 
+ </tbody> 
+</table>
+
+### Improvements {#improvements-3}
+
+* The consent pop-up for Dynamic reporting has been updated to include Adobe Campaign Standard and Microsoft Dynamics 365 integration. By accepting the terms, profile data will be included when using Adobe Campaign Standard and Microsoft Dynamics 365 integration and Dynamic Reporting.
+* Fixed an issue which displayed incorrect contact dates when receiving delivery.
+* When editing a link using the email designer, you can now use the **Underline link** option. Also, a **Target** property has been added with the default value set to "New window".
+
 ## Control Panel update - August 2019 {#controlpanel-update---august-2019}
 
 ### What's new? {#what-s-new-4}
