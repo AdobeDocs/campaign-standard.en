@@ -60,6 +60,7 @@ Additional resources:
       <li>Support of Custom entities to map Campaign CusResources and Dynamics Custom entities through Unifi</li>
       <li>Mirror page display in Dynamics</li>
       <li>Single Sign-On to use your Adobe ID to log in to your Unifi instance</li>
+    </ul>
       <p>For more information about this integration, refer to the <a href="https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html">detailed documentation</a>.</p></td>
   </tr> 
  </tbody> 
