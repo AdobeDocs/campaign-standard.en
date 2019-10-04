@@ -61,7 +61,7 @@ Additional resources:
 ### Improvements {#improvements-3}
 
 * The consent pop-up for Dynamic reporting has been updated to include Adobe Campaign Standard and Microsoft Dynamics 365 integration. By accepting the terms, profile data will be included when using Adobe Campaign Standard and Microsoft Dynamics 365 integration and Dynamic Reporting.
-* Fixed an issue which displayed incorrect contact dates when receiving delivery.
+* Fixed an issue which displayed incorrect contact dates when receiving delivery alerts.
 * When editing a link using the email designer, you can now use the **Underline link** option. Also, a **Target** property has been added with the default value set to "New window".
 
 ## Control Panel update - August 2019 {#controlpanel-update---august-2019}
