@@ -22,17 +22,7 @@ snippet: y
 
 In this section, you will learn the main steps to create and personalize a landing page.
 
-![](assets/lp-steps-overview.png)
-
-The main step to set up a landing page are as follows:
-
-1. [Configure the landing page template](../../channels/using/main-steps-to-set-up-a-landing-page.md#configure-the-landing-page-template)
-
-1. [Create the landing page](../../channels/using/main-steps-to-set-up-a-landing-page.md#create-the-landing-page)
-1. [Define the landing page content](../../channels/using/main-steps-to-set-up-a-landing-page.md#define-the-landing-page-content)
-1. [Test the landing page](../../channels/using/main-steps-to-set-up-a-landing-page.md#test-the-landing-page)
-1. [Set up the landing page validity parameters](../../channels/using/main-steps-to-set-up-a-landing-page.md#set-up-the-landing-page-validity-parameters)
-1. [Publish the landing page](../../channels/using/main-steps-to-set-up-a-landing-page.md#publish-the-landing-page)
+![](assets/lp-steps5.png)
 
 ## Configure the landing page template {#configure-the-landing-page-template}
 
@@ -46,15 +36,14 @@ For more on landing page templates, refer to [this section](../../channels/using
 
 ![](assets/lp-steps1.png)
 
-## Create the landing page {#create-the-landing-page}
+## Create and configure the landing page {#create-and-configure-the-landing-page}
 
 From the template defined in the previous step, create a new landing page in a program or campaign.
 
 1. Create the landing page based on the desired template.
-
 1. Enter the general parameters of the landing page (label, description, etc.).
-
 1. You will then access the landing page dashboard. Edit the landing page properties, if necessary. By default, the properties are those configured in the landing page template.
+    For security reasons and platform performances, we highly recommend that you set an expiration date in the landing page properties. Once done, the landing page will be automatically unpublished on the selected date. For more on validity parameters, refer to [this section](../../channels/using/sharing-a-landing-page.md#setting-up-validity-parameters).
 
     ![](assets/lp-steps3.png)
 
@@ -62,15 +51,11 @@ From the template defined in the previous step, create a new landing page in a p
     >
     >Your modifications are only effective for the landing page that is being edited. If you want to apply these modifications to other landing pages, you can carry them out in a dedicated template and then create other landing pages from that template.
 
-## Define the landing page content {#define-the-landing-page-content}
+## Design the landing page {#design-the-landing-page}
 
 You can now define the content of the landing page. By default, the landing page contains three pages that can be accessed via scrolling arrows: the main content page, a confirmation page, and an error page.
 
 ![](assets/lp-steps4.png)
-
->[!NOTE]
->
->If you have a landing page that is already predefined in HTML format, you can import it directly using the **[!UICONTROL Change content]** button.
 
 Several fields are configured by default on each page. If necessary, you can edit their properties and mapping.
 
@@ -80,7 +65,7 @@ For more on landing page design, refer to [this section](../../channels/using/de
 
 ## Test the landing page {#test-the-landing-page}
 
-Once the landing page is configured, you can simulate the way it will execute and behave when it is available online.
+Once the landing page is defined, you can simulate the way it will execute and behave when it is available online.
 
 ![](assets/lp-steps5.png)
 
@@ -91,13 +76,6 @@ Once the landing page is configured, you can simulate the way it will execute an
 If you are satisfied with the way the landing page behaves, you can publish it to make it available online.
 
 For more on how to test a landing page, refer to [this section](../../channels/using/sharing-a-landing-page.md#testing-the-landing-page-).
-
-## Set up the landing page validity parameters {#set-up-the-landing-page-validity-parameters}
-
-For security reasons and platform performances, we highly recommend that you set an expiration date in the landing page properties.
-Once done, the landing page will be automatically unpublished on the selected date.
-
-For more on validity parameters, refer to [this section](../../channels/using/sharing-a-landing-page.md#setting-up-validity-parameters).
 
 ## Publish the landing page {#publish-the-landing-page}
 
