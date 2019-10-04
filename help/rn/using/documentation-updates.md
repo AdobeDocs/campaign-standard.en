@@ -96,7 +96,7 @@ Added a warning in custom resource documentation. We recommend using 30 characte
 
 ## Documentation updates - July 2019 {#doc-updates-2019}
 
-Added a new page on Landing page limitations. [Read more](../../channels/using/landing-page-limitations.md)
+Added a new page on Landing page limitations. [Read more](../../channels/using/about-landing-pages.md#landing-page-limitations)
 
 A use case was added on how to call a profile using a composite identification key. [Read more](../../developing/using/uc-calling-resource-id-key.md)
 

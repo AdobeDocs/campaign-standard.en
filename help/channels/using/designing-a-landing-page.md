@@ -52,8 +52,8 @@ The content editor is organized into three different sections. These sections al
 ![](assets/des_lp_content_8.png)
 
 1. The **palette** on the left-hand side of the screen allows you to modify the general options linked to a selected block. The options that can be modified are: background color, border, text alignment, visibility condition, etc. See [Inserting a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field).
-1. The **action bar** contains the general options for the page. You can select a template and change the display mode. See [Landing page editor action bar](../../channels/using/landing-page-content-editor-interface.md#landing-page-editor-action-bar).
-1. The main **editing zone** allows you to directly interact with the content using the contextual toolbar: insert a link into an image, change the font, delete a field, etc. See [Landing page editor toolbar](../../channels/using/landing-page-content-editor-interface.md#landing-page-editor-toolbar).
+1. The **action bar** contains the general options for the page. You can select a template and change the display mode.
+1. The main **editing zone** allows you to directly interact with the content using the contextual toolbar: insert a link into an image, change the font, delete a field, etc.
 
 The **action bar** contains different buttons that allow you to interact with the content that is being created.
 
@@ -166,7 +166,7 @@ The **toolbar** is a contextual element of the editor interface that offers vari
    <td> <img height="21px" src="assets/dynamiccontent_24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Enable dynamic content</span> <br /> </td> 
    <td> Text element<br /> </td> 
-   <td> Allows you to insert dynamic content in the content. Refer to <a href="../../channels/using/defining-dynamic-content-in-a-landing-page.md">Defining dynamic content</a>.<br /> </td> 
+   <td> Allows you to insert dynamic content in the content. Refer to <a href="../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page">Defining dynamic content</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/dynamiccontentdisable_24px.png" /> <br /> </td> 
@@ -283,7 +283,7 @@ To change the text alignment, select one of the following three icons in the pal
 * **Center**: centers the text in the block selected (adds style="text-align: center;"). 
 * **Align right**: aligns the text to the right of the selected block (adds style="text-align: right;").
 
-You can also use the toolbar to change the font attributes: adapt the font size, make the text bold or italic, underline or change the color of the text. Refer to [this section](../../channels/using/landing-page-content-editor-interface.md#landing-page-editor-toolbar).
+You can also use the toolbar to change the font attributes: adapt the font size, make the text bold or italic, underline or change the color of the text. Refer to [this section](../../channels/using/designing-a-landing-page.md#landing-page-content-editor-interface).
 
 ### Inserting images in a landing page {#inserting-images-in-a-landing-page}
 
@@ -312,7 +312,7 @@ To define dynamic content in a landing page, select a block using the breadcrumb
 
 Certain blocks, such as images, cannot be directly selected. In this case, select the parent block using the breadcrumb. You can then modify all of the elements included in this parent element, including images. The condition will be applied to all child elements within the parent block.
 
-The breadcrumb is presented in the [Managing blocks](../../channels/using/managing-landing-page-structure-and-style.md) section.
+The breadcrumb is presented in the [Managing blocks](../../channels/using/designing-a-landing-page#managing-landing-page-structure-and-style) section.
 
 The next steps for defining dynamic content in a landing page are similar to the steps to follow for an email. See [this section](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 
