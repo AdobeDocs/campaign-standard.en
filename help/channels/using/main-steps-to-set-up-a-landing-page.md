@@ -20,9 +20,11 @@ snippet: y
 
 ## About landing page creation
 
-In this section, you will learn the main steps to create and personalize a landing page.
+The main steps when setting up landing pages are as follows:
 
-![](assets/lp-steps5.png)
+![](assets/lp_steps.png)
+
+In this page, you will find information on each of these steps, as well as references to the dedicated documentations for more details.
 
 ## Configure the landing page template {#configure-the-landing-page-template}
 
