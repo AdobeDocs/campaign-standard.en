@@ -345,19 +345,19 @@ Several improvements have been added to the Transactional messaging channel in o
 
 * A set of four best-in-class responsive email templates designed by Behance artists is now available.
 
-  For more information, refer to the [detailed documentation](../../start/using/about-templates.md#content-templates).
+  For more information, refer to the [detailed documentation](../../designing/using/using-reusable-content.md#content-templates).
 
 * Our new on-boarding experience will help you start email creation faster and give you easier access to documentation and tutorials.
 
-  For more information, refer to the [detailed documentation](../../designing/using/about-email-content-design.md#email-designer-home-page).
+  For more information, refer to the [detailed documentation](../../designing/using/overview.md#email-designer-home-page).
 
 * You now have the flexibility to configure the number of columns and width based on your needs.
 
-  For more information, refer to the [detailed documentation](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
+  For more information, refer to the [detailed documentation](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
 * When editing in mobile view, you can hide certain components just in mobile display for effective usage of space.
 
-  For more information, refer to the [detailed documentation](../../designing/using/about-email-content-design.md#switching-to-mobile-view).
+  For more information, refer to the [detailed documentation](../../designing/using/styles.md#switching-to-mobile-view).
 
 * You can now add custom social channels to your email template on top of the ones that are already available.
 * Fixed an issue that prevented to scroll down the structure menu when using more than 18 structures. (CAMP-31173)
@@ -425,10 +425,10 @@ Several improvements have been added to the Transactional messaging channel in o
    <td> <p>The new intuitive Email Designer (formerly known as Creative Designer) has moved to GA. It now supports all the features from the legacy content editor, including:</p> 
     <ul> 
      <li> The use of <a href="../../integrating/using/adding-target-dynamic-content.md">dynamic images from Adobe Target</a> </li> 
-     <li> The ability to <a href="../../designing/using/importing-content-from-a-url.md#retrieving-content-from-a-url-automatically-at-preparation-time">retrieve content from a URL automatically at preparation time</a> </li> 
-     <li> Fully compliant <a href="../../start/using/about-templates.md#content-templates">out-of-the box content templates</a>. </li> 
+     <li> The ability to <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">retrieve content from a URL automatically at preparation time</a> </li> 
+     <li> Fully compliant <a href="../../designing/using/using-reusable-content.md#content-templates">out-of-the box content templates</a>. </li> 
     </ul> 
-    <p>For more information, refer to the <a href="../../designing/using/about-email-content-design.md">detailed documentation</a> and the <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html">how-to video</a>. Improvements and fixes are listed below.</p><p>As a consequence, the legacy email content editor is now deprecated. For more information, refer to this <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">page</a>.</p> </td> 
+    <p>For more information, refer to the <a href="../../designing/using/overview.md">detailed documentation</a> and the <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html">how-to video</a>. Improvements and fixes are listed below.</p><p>As a consequence, the legacy email content editor is now deprecated. For more information, refer to this <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">page</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Product Listings in Transactional Emails<br /> </td> 
@@ -436,7 +436,7 @@ Several improvements have been added to the Transactional messaging channel in o
   </tr> 
   <tr> 
    <td> Mobile View in the Email Designer<br /> </td> 
-   <td> <p>You can now switch to a dedicated mobile view when editing email content. This allows you to fine-tune the responsive design of an email by separately editing all style options for mobile display, such as adapting margins, smaller font size, different background color, and so on.</p><p> For more information, refer to the <a href="../../designing/using/about-email-content-design.md#switching-to-mobile-view">detailed documentation</a>.</p> </td> 
+   <td> <p>You can now switch to a dedicated mobile view when editing email content. This allows you to fine-tune the responsive design of an email by separately editing all style options for mobile display, such as adapting margins, smaller font size, different background color, and so on.</p><p> For more information, refer to the <a href="../../designing/using/styles.md#switching-to-mobile-view">detailed documentation</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> In-App Messaging Beta Improvements<br /> </td> 

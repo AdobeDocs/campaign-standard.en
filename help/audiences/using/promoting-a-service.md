@@ -22,7 +22,7 @@ You can offer subscriptions to a service in several ways, and give your visitors
 
 You can use Campaign to promote a service by:
 
-* [Inserting a service subscription or unsubscription link into an email](../../designing/using/inserting-a-link.md).
+* [Inserting a service subscription or unsubscription link into an email](../../designing/using/links.md#inserting-a-link).
 * Inserting a link to a subscription or unsubscription landing page in an email. In this case, the service must be directly referenced in the configuration of the landing pages concerned.
 * Making a subscription or unsubscription landing page available on a website. The URLs that give you access to the landing page must specify parameters such as the associated service, as well as the profile ID accessing it. This ID can be defined in the landing page parameters.
 

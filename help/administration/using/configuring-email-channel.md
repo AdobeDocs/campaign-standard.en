@@ -229,7 +229,7 @@ The **[!UICONTROL Validity]** section contains the following parameters:
 
 The **[!UICONTROL Tracking]** section contains the following parameters:
 
-* **[!UICONTROL Activate tracking]**: allows you to activate/deactivate message URL tracking. To manage tracking for each message URL, use the **[!UICONTROL Links]** icon in the Email Designer action bar. See [About tracked URLs](../../designing/using/about-tracked-urls.md).
+* **[!UICONTROL Activate tracking]**: allows you to activate/deactivate message URL tracking. To manage tracking for each message URL, use the **[!UICONTROL Links]** icon in the Email Designer action bar. See [About tracked URLs](../../designing/using/links.md#about-tracked-urls).
 * **[!UICONTROL Tracking validity limit]**: allows you to define the duration for which the tracking will be activated on the URLs.
 * **[!UICONTROL Substitution URL for expired URLs]**: you can enter a URL to a web page that will be displayed once the tracking has expired.
 
@@ -237,7 +237,7 @@ The **[!UICONTROL Tracking]** section contains the following parameters:
 
 The **[!UICONTROL Advanced parameters]** section contains multiple parameters.
 
-The first two fields allow you to enter information necessary to elaborate email message headers (reply address and reply address text). This information can be personalized. To do this, click the button to the right of the field that is going to be changed, then add the personalization fields. Inserting and using the personalization fields is detailed in the [Inserting a personalization field](../../designing/using/inserting-a-personalization-field.md) section.
+The first two fields allow you to enter information necessary to elaborate email message headers (reply address and reply address text). This information can be personalized. To do this, click the button to the right of the field that is going to be changed, then add the personalization fields. Inserting and using the personalization fields is detailed in the [Inserting a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field) section.
 
 #### Target context {#target-context}
 

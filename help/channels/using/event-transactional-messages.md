@@ -79,21 +79,27 @@ You can now access the message that you created and select the updated test prof
 
 To set up personalization in a transactional message, follow the steps below:
 
-1. Click the **[!UICONTROL Content]** block to modify your message's subject and content. For this example, import an HTML template containing images, the style sheet, and an HTML file. Importing HTML templates is presented in the [Loading an existing content](../../designing/using/selecting-an-existing-content.md) section.
+1. Click the **[!UICONTROL Content]** block to modify your message's subject and content. For this example, select any template containing images and text. For more on email content templates, see [Designing using templates](../../designing/using/using-reusable-content.md#designing-templates).
 
    ![](assets/message-center_6.png)
 
-1. Enter your message content. In this example, we have added three personalization fields: last name, last product consulted, total cart amount. The link to the abandoned cart is a link to an external URL that will redirect the person to their cart. This parameter is not managed in Adobe Campaign.
+1. Add a subject and edit your message content to suit your needs.
 
-   To add fields that you defined when you created your event (see [Configuring an event](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message)), insert a personalization field in the message content. You can find the fields by selecting **[!UICONTROL Transactional event]** > **[!UICONTROL Event context]**.
+    >[NOTE]
+    >
+    >The link to the abandoned cart is a link to an external URL that will redirect the person to their cart. This parameter is not managed in Adobe Campaign.
+
+1. In this example, you want to add three fields that you defined when you [created your event](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message): first name, last product consulted, total cart amount. To do this, [insert a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field) in the message content.
+    
+1. Browse to those fields through **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
 
    ![](assets/message-center_7.png)
 
-1. To enrich the content of your message, add fields by selecting them from the table with which you linked your event. In our example, select the **[!UICONTROL Title (salutation)]** field in the **[!UICONTROL Profile]** table.
+1. To enrich the content of your message, add fields by selecting them from the table with which you linked your event. In our example, select the **[!UICONTROL Title (salutation)]** field in the **[!UICONTROL Profile]** table through **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
 
    ![](assets/message-center_7-enrichment.png)
 
-   The steps for inserting a personalization field are detailed in the [Inserting a personalization field](../../designing/using/inserting-a-personalization-field.md) section.
+1. Insert all the fields needed.
 
    ![](assets/message-center_8.png)
 
@@ -111,7 +117,7 @@ You can create product listings referencing one or more data collections in the 
 
 >[!CAUTION]
 >
->Product listings are only available when editing transactional email messages through the [Email Designer](../../designing/using/about-email-content-design.md#about-the-email-designer) interface.
+>Product listings are only available when editing transactional email messages through the [Email Designer](../../designing/using/overview.md#email-designer) interface.
 
 To add a list of abandoned products in a transactional message, follow the steps below.
 
@@ -126,9 +132,9 @@ You can also watch a set of videos explaining the steps that are required to con
 Before being able to use a product listing in a transactional message, you need to define at the event level the list of products and the fields for each product of the list you want to display. For more on this, see [Defining data collections](../../administration/using/configuring-transactional-messaging.md#defining-data-collections).
 
 1. In the transactional message, click the **[!UICONTROL Content]** block to modify the email content.
-1. Drag and drop a structure component to the workspace. For more on this, see [Editing the email structure](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
+1. Drag and drop a structure component to the workspace. For more on this, see [Editing the email structure](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
-   For example, select a one-column structure component and add a text component, an image component and a button component. For more on this, see [Adding fragments and components](../../designing/using/defining-the-email-structure.md#adding-fragments-and-content-components).
+   For example, select a one-column structure component and add a text component, an image component and a button component. For more on this, see [Adding fragments and components](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
 1. Select the structure component you just created and click the **[!UICONTROL Enable product listing]** icon from the contextual toolbar.
 
@@ -145,7 +151,7 @@ Before being able to use a product listing in a transactional message, you need 
 
    >[!NOTE]
    >
-   >The **[!UICONTROL Column]** option is only available when using a multicolumn structure component ( **[!UICONTROL 2:2 column]**, **[!UICONTROL 3:3 column]** and **[!UICONTROL 4:4 column]** ). When editing the product listing, only fill in the first column: the other columns will not be taken into account. For more on selecting structure components, see [Editing the email structure](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
+   >The **[!UICONTROL Column]** option is only available when using a multicolumn structure component ( **[!UICONTROL 2:2 column]**, **[!UICONTROL 3:3 column]** and **[!UICONTROL 4:4 column]** ). When editing the product listing, only fill in the first column: the other columns will not be taken into account. For more on selecting structure components, see [Editing the email structure](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
 1. Select the data collection you created when configuring the event related to the transactional message. You can find it under the **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** node.
 
@@ -161,7 +167,7 @@ Before being able to use a product listing in a transactional message, you need 
 
    >[!NOTE]
    >
-   >If you want the elements of your list to be displayed vertically ( **[!UICONTROL Column]** ), the maximum number of items is limited according to the selected structure component (2, 3 or 4 columns). For more on selecting structure components, see [Editing the email structure](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
+   >If you want the elements of your list to be displayed vertically ( **[!UICONTROL Column]** ), the maximum number of items is limited according to the selected structure component (2, 3 or 4 columns). For more on selecting structure components, see [Editing the email structure](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
 ### Populating the product listing {#populating-the-product-listing}
 
@@ -218,7 +224,7 @@ For more on creating a collection and related fields when configuring the event,
 
    The fallback content will be displayed if the collection is empty when the event is triggered, for example if a customer has nothing in his cart.
 
-1. From the Settings pane, edit the styles for the product listing. For more on this, see [Editing email styles](../../designing/using/editing-email-styles.md).
+1. From the Settings pane, edit the styles for the product listing. For more on this, see [Editing email styles](../../designing/using/styles.md).
 1. Preview the email using a test profile linked to the relevant transactional event and for which you defined collection data. For example, add the following information in the **[!UICONTROL Event data]** section for the test profile you want to use:
 
    ![](assets/message-center_loop_test-profile_payload.png)

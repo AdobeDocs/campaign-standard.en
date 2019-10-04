@@ -20,7 +20,7 @@ snippet: y
 
 After adding test profiles in the **[!UICONTROL Audience]** window, you can preview your message to check its personalization and how your recipients will see your delivery.
 
-1. In the [Email Designer](../../designing/using/about-email-content-design.md#about-the-email-designer), click the **[!UICONTROL Preview]** button.
+1. In the [Email Designer](../../designing/using/overview.md), click the **[!UICONTROL Preview]** button.
 
    ![](assets/sending_preview.png)
 
@@ -31,6 +31,9 @@ After adding test profiles in the **[!UICONTROL Audience]** window, you can prev
    ![](assets/sending_anti-spam_analysis.png)
 
 1. Select the **[!UICONTROL Change profile]** button to choose the test profile you want to test the personalization elements on.
+
+    ![](assets/sending_test-profile.png)
+
 1. To exit the **[!UICONTROL Preview]** mode, click the **[!UICONTROL Edit]** button on top left of the screen.
 
    ![](assets/sending_preview_edit.png)

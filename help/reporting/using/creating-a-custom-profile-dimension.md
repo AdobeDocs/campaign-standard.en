@@ -136,7 +136,7 @@ Once your profile field is published, you can start your delivery. In this examp
    ![](assets/custom_profile_17.png)
 
 1. Click **[!UICONTROL Confirm]** then when done filtering, click **[!UICONTROL Next]**.
-1. Define and personalize the message content, sender name and subject. For more information on email creation refer to this [page](../../designing/using/about-email-content-design.md#about-the-email-designer).
+1. Define and personalize the message content, sender name and subject. For more information on email creation refer to this [page](../../designing/using/overview.md).
 
    Then, click **[!UICONTROL Create]**.
 

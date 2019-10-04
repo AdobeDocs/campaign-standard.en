@@ -29,7 +29,7 @@ To send a delivery at the recipient's time zone, you can also use the **[!UICONT
 In the following example, we want to send a promotional code that is only valid on Valentine's Day to all customers around the world. To provide sufficient time to use it during the day, all customers must receive your message on February 14th at 8:00 AM depending on their time zones.
 
 1. In the **[!UICONTROL Marketing activities]** tab, start creating your delivery, in our case an email. To learn more on delivery creation, refer to this [section](../../channels/using/creating-an-email.md).
-1. After designing your Valentine's Day email, click **[!UICONTROL Create]** to access the delivery dashboard. For more on email designing, refer to this [page](../../designing/using/example--email-personalization.md).
+1. After designing your Valentine's Day email, click **[!UICONTROL Create]** to access the delivery dashboard. For more on email designing, refer to this [page](../../designing/using/personalization.md#example-email-personalization).
 
    ![](assets/send-time_opt_valentine_1.png)
 
