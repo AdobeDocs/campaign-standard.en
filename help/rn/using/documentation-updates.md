@@ -24,13 +24,23 @@ This page lists all the new features and documentation updates for each release 
 
 You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-notes.md).
 
+## Documentation updates - October 2019 {#doc-updates-october-2019}
+
+A new section describing how to send an automatic custom confirmation email to profiles who subscribe to a specific service has been added. [Read more](../../audiences/using/confirming-subscription-to-a-service.md)
+
+The Transactional messaging section has been modified with the latest UI updates, including editing content with the Email Designer. [Read more](../../channels/using/event-transactional-messages.md)
+
 ## Documentation updates - September 2019 {#doc-updates-september-2019}
 
 A new section was added in the Push notifications section on how to create and update profile information based on mobile application subscription data. [Read more](../../channels/using/updating-profile-with-mobile-app-data.md)
 
 A new example showing how to send an email containing additional data retrieved from a load file activity has been added. [Read more](../../automating/using/load-file.md#example-2-email-with-enriched-fields)
 
-A new section on how to use traps has been added. [Read more](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps)
+A new section on how to use traps has been added. [Read more](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps). 
+
+A note about the **Launch_URL_Campaign** option was added in the page on how to configure a mobile application using Adobe Experience Platform SDKs. [Read more](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
+
+The email designer guide has been reorganized. [Read more](../../designing/using/designing-content-in-adobe-campaign.md)
 
 ## Documentation updates - August 2019 {#doc-updates-august-2019}
 

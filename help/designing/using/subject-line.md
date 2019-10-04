@@ -54,7 +54,7 @@ This feature is disabled by default. It is enabled when the first model is impor
 
 **Related Topic** 
 
-* [Testing a subject line](../../sending/using/testing-subject-line-email.md)
+* [Testing the subject line of an email](../../sending/using/testing-subject-line-email.md)
 
 ## Email sender {#email-sender}
 
@@ -68,7 +68,7 @@ To define the name of the sender which will appear in the header of messages sen
 
   This field can be personalized. To do this, you can add personalization fields, content blocks and dynamic content by clicking the icons below the sender name.
 
-* The **[!UICONTROL From: email address]** field cannot be edited from this section. You can change it by editing the properties of the email from its dashboard. For more on this, see [List of email advanced parameters](../../administration/using/configuring-email-channel.md#advanced-parameters).
+* The **[!UICONTROL From: email address]** field cannot be edited from this section. You can change it by editing the properties of the email from its dashboard. For more information, see [List of email advanced parameters](../../administration/using/configuring-email-channel.md#advanced-parameters).
 
 >[!NOTE]
 >

@@ -26,7 +26,7 @@ You can send an offer via email on the anniversary of the customer's profile cre
 
 ## Creating a Scheduler activity {#creating-a-scheduler-activity}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, drag and drop a **[!UICONTROL Scheduler activity]** ![](assets/scheduler_icon.png).
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, drag and drop a **[!UICONTROL Scheduler activity]**.
 1. Double-click the activity.
 1. Configure the execution of your delivery.
 1. In **[!UICONTROL Execution frequency]**, select **[!UICONTROL Daily]**.

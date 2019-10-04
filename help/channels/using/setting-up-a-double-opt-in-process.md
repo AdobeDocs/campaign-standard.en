@@ -84,11 +84,11 @@ The confirmation email is a [transactional message](../../channels/using/about-t
    ![](assets/optin_eventcreate.png)
 
 1. In the **[!UICONTROL Fields]** section, click **[!UICONTROL Create element]** and add the **[!UICONTROL email]** in the data structure to enable reconciliation.
-1. In the **[!UICONTROL Enrichment]** section, click **[!UICONTROL Create element]** and select the target resource **[!UICONTROL Profile]**. You can then map on the **[!UICONTROL email]** in the **[!UICONTROL Join definition]** section, or any other composite reconciliation key, depending on your needs.
+1. In the **[!UICONTROL Enrichment]** section, click **[!UICONTROL Create element]** and select the **[!UICONTROL Profile]** target resource. You can then map on the **[!UICONTROL email]** field in the **[!UICONTROL Join definition]** section, or any other composite reconciliation key, depending on your needs.
 
    ![](assets/optin_eventcreate_join.png)
 
-   If you need to use services, you can also add the **[!UICONTROL serviceName]**.
+   If you need to use services, add the **[!UICONTROL Service]** target resource and map on the **[!UICONTROL serviceName]** field. For more on this, see .
 
 1. Select **[!UICONTROL Profile]** as the **[!UICONTROL Targeting enrichment]** in the dropdown list.
 1. Click **[!UICONTROL Publish]** to publish the event.
@@ -122,7 +122,7 @@ The confirmation email is a transactional message based on the event created bef
 
 ## Step 3: Create the acquisition landing page {#step-3--create-the-acquisition-landing-page}
 
-You have to create the initial acquisition landing page: this op-in form will be published on your website.
+You have to create the initial acquisition landing page: this opt-in form will be published on your website.
 
 To create and configure this landing page, you need to:
 

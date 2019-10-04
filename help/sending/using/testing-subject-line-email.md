@@ -15,9 +15,9 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 ---
-# Testing a subject {#testing-a-subject}
+# Testing the subject line of an email {#testing-a-subject}
 
-To test your subject line:
+To test your subject line, follow the steps below:
 
 1. Create or open your email.
 1. Open the content and enter the subject of the email in the corresponding input field.
