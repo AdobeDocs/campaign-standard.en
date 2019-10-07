@@ -37,7 +37,7 @@ To configure a service:
     * **[!UICONTROL No message]**: this mode allows you to create a service without a confirmation message.
     * **[!UICONTROL Default message]**: this mode will use the default subscription or unsubscription confirmation transactional message. The default confirmation messages are generic and will be the same for all services that use the default mode.
 
-        >[NOTE]
+        >[!NOTE]
         >
         >You can modify a default message by clicking its label in the **[!UICONTROL Service properties]** section or by selecting it from the Adobe Campaign transactional message list, after checking the **[!UICONTROL Show internal transactional messages]** box.
 
