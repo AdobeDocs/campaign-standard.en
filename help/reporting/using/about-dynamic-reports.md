@@ -68,7 +68,7 @@ Three options are available:
 
 * **[!UICONTROL Ask me later]**: By clicking Ask me later, the window will stop showing for 24 hours.
 * **[!UICONTROL Accept]**: By accepting this agreement, you authorize Adobe Campaign to collect your customers' Personal identification information and to transfer them to the reporting or data center.
-* **[!UICONTROL Decline]**: By declining the agreement, the profile dimensions will not appear in your reports and your customers' Personal identification information will not be collected or sent.
+* **[!UICONTROL Decline]**: By declining the agreement, the profile dimensions will not appear in your reports and your customers' Personal identification information will not be collected or sent. Note that in this case externalID will still be collected and used to identify end-users.
 
 The table below displays what happens after accepting with this agreement depending on your region.
 
