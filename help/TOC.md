@@ -125,7 +125,7 @@ user-guide-title: Adobe Campaign Standard Help
   + [Multi-solution email design](designing/using/using-integrations.md)
   + [Personalization](designing/using/personalization.md)
   + [Plain text and HTML modes](designing/using/plain-text-html-modes.md)
-  + [Managing styles](designing/using/styles.md)
+  + [Managing email styles](designing/using/styles.md)
   + [Managing links](designing/using/links.md)
   + [Managing images](designing/using/images.md)
 + Testing and Sending {#testing-and-sending}
@@ -134,6 +134,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Previewing messages](sending/using/previewing-messages.md)
        + [Preparing the send](sending/using/preparing-the-send.md)
        + [Managing test profiles and sending proofs](sending/using/managing-test-profiles-and-sending-proofs.md)
+       + [Testing the subject line of an email](sending/using/testing-subject-line-email.md)
        + [Email rendering](sending/using/email-rendering.md)
   + Sheduling messages {#sheduling-messages}
        + [About scheduling messages](sending/using/about-scheduling-messages.md)
