@@ -30,13 +30,13 @@ Default rights are:
 * **[!UICONTROL Datamodel]**: Right to run publications and create custom resources.
 * **[!UICONTROL Export]**: Right to export data.
 * **[!UICONTROL Generic import]**: Right to run a generic import on data. For this to work, you need to link the **[!UICONTROL Generic import]** role to the **[!UICONTROL Workflow]** role.
-* **[!UICONTROL Prepare deliveries]**: Right to create, edit, start delivery preparation and send proofs.
-* **[!UICONTROL Start deliveries]**: Right to validate previously prepared deliveries.
-* **[!UICONTROL Workflow]**: Right to use workflows.
+* **[!UICONTROL Prepare deliveries]**: Right to create, edit, start delivery preparation, send deliveries and proofs.
+* **[!UICONTROL Start deliveries]**: Right to create, edit and validate previously prepared deliveries. This role does not allow you to send delivery.
+* **[!UICONTROL Workflow]**: Right to create, edit, start delivery preparation and workflows.
 
 >[!CAUTION]
 >
->The DELIVERABILITY role is for Adobe administrators internal use only. It must not be granted to a user.
+>The **[!UICONTROL Deliverability]**, **[!UICONTROL Command execution]**, **[!UICONTROL Export]**, **[!UICONTROL File access]** and **[!UICONTROL Message Center push]** roles are for Adobe administrators internal use only. They should not be granted to a user.
 
 **Related topics:**
 
