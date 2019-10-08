@@ -23,7 +23,7 @@ In Adobe Campaign, profiles are used by default to define the main target of mes
 To create or update a profile in Campaign, you can:
 
 * Import a profile list from a file, via a [workflow](https://helpx.adobe.com/campaign/kt/acs/using/acs-importing-profiles-feature-video-using.html)
-* Collect data online, via [landing pages](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_CreateLandingPage.html)
+* Collect data online, via [landing pages](../../channels/using/about-landing-pages.md)
 * Create bulk via [REST API](http://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
 * Synchronize profiles from [Microsoft Dynamics](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
 * Enter data using the graphical interface screens, as explained below
@@ -66,6 +66,6 @@ Profiles can also be partitioned depending on their organizational units. To add
 
 **Related topics:**
 
-* [Creating a landing page](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_CreateLandingPage.html) step-by-step guide
+* [About landing pages](../../channels/using/about-landing-pages.md) step-by-step guide
 * [Importing profiles](https://helpx.adobe.com/campaign/kt/acs/using/acs-importing-profiles-feature-video-using.html)
 
