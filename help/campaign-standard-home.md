@@ -31,11 +31,11 @@ Learn how to manage settings and track usage of your Campaign instance
 <table>
 <tr>
   <td>
-    <a href="platform/using/common-questions.md">
+    <a href="start/using/common-questions.md">
       <img alt="FAQ" src="platform/using/assets/FAQ.png"/>
     </a>
     <div>
-      <a href="platform/using/common-questions.md">
+      <a href="start/using/common-questions.md">
     <strong>Frequently Asked Questions</strong>
     </a>
     </div>
@@ -57,11 +57,11 @@ Learn how to manage settings and track usage of your Campaign instance
     <p>
   </td>
   <td>
-    <a href="delivery/using/creating-notifications.md">
-       <img alt="Push notifications" src="platform/using/assets/push.png" />
+    <a href="https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html>
+       <img alt="Push notifications" src="start/using/assets/push.png" />
     </a>
     <div>
-       <a href="delivery/using/creating-notifications.md">
+       <a href="https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html">
     <strong>Send push notifications</strong>
     </a>
     </div>
@@ -75,7 +75,7 @@ Learn how to manage settings and track usage of your Campaign instance
 
 ## Additional Resources
 
-* [Release notes](/help/rn/using/about-release-notes.md)
+* [Release notes](/help/rn/using/release-notes.md)
 
 * [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
 
