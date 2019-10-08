@@ -30,6 +30,8 @@ A new section describing how to send an automatic custom confirmation email to p
 
 The Transactional messaging section has been modified with the latest UI updates, including editing content with the Email Designer. [Read more](../../channels/using/event-transactional-messages.md)
 
+The landing pages chapter has been reorganized. It has also been enriched with a new section detailing the steps to set up a landing page. [Read more](../../channels/using/main-steps-to-set-up-a-landing-page.md)
+
 ## Documentation updates - September 2019 {#doc-updates-september-2019}
 
 A new section was added in the Push notifications section on how to create and update profile information based on mobile application subscription data. [Read more](../../channels/using/updating-profile-with-mobile-app-data.md)
