@@ -8,7 +8,7 @@ topic: Premium
 
 # Help Center {#campaign-standard-documentation}
 
-![](start/using/assets/banner_acs_doc.jpg)
+![](start/using/assets/banner_acs_doc.jpg) 
 
 ## What's New
 
