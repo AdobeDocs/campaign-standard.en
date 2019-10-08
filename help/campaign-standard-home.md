@@ -8,14 +8,77 @@ topic: Premium
 
 # Help Center {#campaign-standard-documentation}
 
-Learn the basics and refine your skills with Adobe Campaign Standard product documentation.
+![](start/using/assets/banner_acs_doc.jpg)
 
-The test for staging
+## What's New
+
+* **[Tracking guide](https://helpx.adobe.com/campaign/kb/acc-tracking.html)**<br/>
+Understand tracking capabilities in Campaign
+
+* **[Maintenance guide](https://helpx.adobe.com/campaign/kb/acc-maintenance.html)**<br/>
+Learn how to monitor your Campaign instance and processes
+
+* **[Audit trail](production/using/audit-trail.md)**<br/>
+Learn how to access the complete history of changes in your Campaign instance
+
+* **[Control Panel](https://helpx.adobe.com/campaign/kb/control-panel.html)**<br/>
+Learn how to manage settings and track usage of your Campaign instance
+
+[Click here for more updates](/help/rn/using/documentation-updates.md)
+
+## Top pages
+
+<table>
+<tr>
+  <td>
+    <a href="platform/using/common-questions.md">
+      <img alt="FAQ" src="platform/using/assets/FAQ.png"/>
+    </a>
+    <div>
+      <a href="platform/using/common-questions.md">
+    <strong>Frequently Asked Questions</strong>
+    </a>
+    </div>
+    <p>
+    <em>Find answers to common questions when using Campaign Classic</em>
+    <p>
+  </td>
+   <td>
+    <a href="https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html">
+      <img alt="Build Upgrade" src="platform/using/assets/upgrade.png" />
+    </a>
+    <div>
+      <a href="https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html">
+    <strong>Upgrade to the latest build</strong>
+    </a>
+    </div>
+    <p>
+    <em>Learn key steps and best practices to perform a build upgrade</em>
+    <p>
+  </td>
+  <td>
+    <a href="delivery/using/creating-notifications.md">
+       <img alt="Push notifications" src="platform/using/assets/push.png" />
+    </a>
+    <div>
+       <a href="delivery/using/creating-notifications.md">
+    <strong>Send push notifications</strong>
+    </a>
+    </div>
+    <p>
+    <em>Design and send personalized push notifications on mobiles</em>
+    <p>
+  </td>
+</tr>
+</table>
 
 
-|  |  |  |
-|:---:|:---:|:---:|
-| [![image](/help/assets/start-400.png)](/help/start/using/campaign-orchestration.md) | [![image](/help/assets/access-400.png)](/help/administration/using/about-access-management.md) | [![image](/help/assets/design-400.png)](/help/designing/using/overview.md) |
-| [![image](/help/assets/email-400.png)](/help/channels/using/creating-an-email.md) | [![image](/help/assets/push-400.png)](/help/channels/using/about-push-notifications.md) | [![image](/help/assets/track-400.png)](/help/sending/using/tracking-messages.md) |
-| [![image](/help/assets/workflows-400.png)](/help/automating/using/building-a-workflow.md) | [![image](/help/assets/multi-400.png)](/help/integrating/using/about-campaign-integrations.md) | [![image](/help/assets/api-400.png)](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html) |
-| [![image](/help/assets/empty123456791.png)](https://docs.adobe.com/content/help/en/campaign-standard/using/campaign-standard-home.html) | [![image](/help/assets/empty123456791.png)](https://docs.adobe.com/content/help/en/campaign-standard/using/campaign-standard-home.html) | [![image](/help/assets/empty123456791.png)](https://docs.adobe.com/content/help/en/campaign-standard/using/campaign-standard-home.html) |
+## Additional Resources
+
+* [Release notes](/help/rn/using/about-release-notes.md)
+
+* [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
+
+* [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
+
+* [Implementation guide](https://helpx.adobe.com/campaign/kb/acc-implementation.html)
