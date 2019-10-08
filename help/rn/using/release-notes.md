@@ -255,7 +255,7 @@ Several improvements have been added to the Transactional messaging channel in o
 * When exporting a package with security groups, it now contains the roles that are assigned to each group. (CAMP-32960)
 * In the Load file activity, a new option lets you check that the columns of the file you are uploading match the column definition. For more information, refer to the [detailed documentation](../../automating/using/load-file.md). (CAMP-32229) 
 * Workflows can now be started with a payload, allowing you to use and share external parameters between activities within the workflow. For more information, refer to the [detailed documentation](../../automating/using/calling-a-workflow-with-external-parameters.md). (CAMP-29412 & CAMP-29413)
-* Campaign Standard APIs now let you update profiles' geographical and organizational units using a payload. For more information, refer to the [detailed documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html).
+* Campaign Standard APIs now let you update profiles' geographical and organizational units using a payload. For more information, refer to the [detailed documentation](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html).
 * Error messages when an object from the database is not accessible have been made clearer to understand.
 * In the Extract file activity, Javascript capabilities have been updated when defining the name of a file to export. Only the formatDate function is now available for use in the Output field. For more information, refer to the [detailed documentation](../../automating/using/extract-file.md).
 * Auto sequence ID generation has been improved for custom resources. Primary keys for new custom resources are now in 64 bits by default.

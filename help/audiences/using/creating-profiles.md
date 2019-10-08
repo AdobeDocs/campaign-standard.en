@@ -56,7 +56,7 @@ The profile will now appear in the list.
 
 >[!NOTE]
 >
->Profiles creation is also possible using the Adobe Campaign Standard API. For more on this, refer to the [dedicated documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#creating-profiles) .
+>Profiles creation is also possible using the Adobe Campaign Standard API. For more on this, refer to the [dedicated documentation](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#creating-profiles) .
 
 Profiles can also be partitioned depending on their organizational units. To add the organizational fields to your profiles, refer to the [Partitioning profiles](../../administration/using/organizational-units.md#partitioning-profiles) section.
 

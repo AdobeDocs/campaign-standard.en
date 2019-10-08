@@ -28,4 +28,4 @@ Each service comes with:
 * Subscription and/or unsubscription **confirmation mechanisms**.
 * A subscription **history**.
 
-Subscriptions can also be managed using the Adobe Campaign Standard API. For more on this, refer to the [dedicated documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#managing-subscriptions) .
+Subscriptions can also be managed using the Adobe Campaign Standard API. For more on this, refer to the [dedicated documentation](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#managing-subscriptions) .

@@ -43,7 +43,7 @@ The message type is defined when configuring the event that will be transformed 
 >
 >Adobe Campaign prioritizes processing the transactional messages over any other delivery.
 
-Transactional messaging is also available from the Adobe Campaign Standard API. For more on this, refer to the [dedicated documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#about-transactional-messaging).
+Transactional messaging is also available from the Adobe Campaign Standard API. For more on this, refer to the [dedicated documentation](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#about-transactional-messaging).
 
 ## Transactional messaging operating principle {#transactional-messaging-operating-principle}
 
