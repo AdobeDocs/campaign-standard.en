@@ -105,7 +105,7 @@ To set up personalization in a transactional message, follow the steps below:
 
 1. Preview your message by selecting the profile that you defined for this event.
 
-   The steps for previewing a message are detailed in the [Previewing messages](../../sending/using/preparing-the-send.md) section.
+   The steps for previewing a message are detailed in the [Previewing messages](../../sending/using/previewing-messages.md) section.
 
    ![](assets/message-center_9.png)
 
