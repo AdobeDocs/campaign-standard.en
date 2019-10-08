@@ -32,6 +32,8 @@ A new section describing how to send an automatic custom confirmation email to p
 
 The Transactional messaging section has been modified with the latest UI updates, including editing content with the Email Designer. [Read more](../../channels/using/event-transactional-messages.md)
 
+The landing pages chapter has been reorganized. It has also been enriched with a new section detailing the steps to set up a landing page. [Read more](../../channels/using/main-steps-to-set-up-a-landing-page.md)
+
 ## Documentation updates - September 2019 {#doc-updates-september-2019}
 
 A new section was added in the Push notifications section on how to create and update profile information based on mobile application subscription data. [Read more](../../channels/using/updating-profile-with-mobile-app-data.md)
@@ -98,7 +100,7 @@ Added a warning in custom resource documentation. We recommend using 30 characte
 
 ## Documentation updates - July 2019 {#doc-updates-2019}
 
-Added a new page on Landing page limitations. [Read more](../../channels/using/landing-page-limitations.md)
+Added a new page on Landing page limitations. [Read more](../../channels/using/about-landing-pages.md#landing-page-limitations)
 
 A use case was added on how to call a profile using a composite identification key. [Read more](../../developing/using/uc-calling-resource-id-key.md)
 
