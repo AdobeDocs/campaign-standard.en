@@ -20,7 +20,7 @@ snippet: y
 
 Campaign comes with landing pages which are web forms that can be used to capture information on your audiences, offer subscriptions to a service, display data and grow your database. Landing pages can also be used for acquiring or updating existing profiles.
 
-For more information on the required steps to set up a landing page, refer to [this section](channels/using/main-steps-to-set-up-a-landing-page.md)
+For more information on the required steps to set up a landing page, refer to [this section](../../channels/using/main-steps-to-set-up-a-landing-page.md)
 
 **Related topics:**
 
