@@ -16,12 +16,12 @@ topic: Premium
 Use the email designer in your transactional messages.
 
 * **[Reporting guide](reporting/using/creating-a-report-workflow-segment.md)**<br/>
-Creatie a report based on workflow segments.
+Create a report based on workflow segments.
 
 * **[Automating guide](automating/using/workflow-created-query-with-complement.md)**<br/>
 Read our workflow query use cases.
 
-* **[Automating guide](automating/using/load-file_example-2-email-with-enriched-fields.md)**<br/>
+* **[Automating guide](automating/using/load-file.md)**<br/>
 Use the Load file activity to send an email containing additional data.
 
 [Click here for more updates](rn/using/documentation-updates.md)
