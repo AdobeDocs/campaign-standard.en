@@ -46,7 +46,7 @@ Only the follow-up messages are displayed.
 
 >[!NOTE]
 >
->To access the transactional messages, you must have administration rights or appear in the **[!UICONTROL Message Center agents]** (mcExec) security group.
+>To access transactional messages, you must be part of the **[!UICONTROL Administrators (all units)]** security group.
 
 ## Sending a follow-up message {#sending-a-follow-up-message}
 
