@@ -59,7 +59,7 @@ The confirmation email is a transactional message as it reacts to an event: the 
 
     ![](assets/confirmation_publicLabel-field.png)
 
-    >[NOTE]
+    >[!NOTE]
     >
     >The **[!UICONTROL publicLabel]** field is mandatory. If you do not add it to the event data structure, Adobe Campaign will not be able to perform reconciliation with the service. When subscribing to a service, this field will be filled with the **[!UICONTROL Service label]** of the corresponding service.
 
@@ -71,7 +71,7 @@ The confirmation email is a transactional message as it reacts to an event: the 
 
    ![](assets/confirmation_publicLabel-join.png)
 
-    >[NOTE]
+    >[!NOTE]
     >
     >This will enable you to use personalization fields from the **[!UICONTROL Service]** resource in the transactional message.
 
@@ -106,7 +106,7 @@ The confirmation email is a transactional message based on the event that you ju
 
     ![](assets/confirmation_service-label.png)
 
-    >[NOTE]
+    >[!NOTE]
     >
     >You must fill in this field to enable reconciliation with the transactional message.
 
@@ -117,7 +117,11 @@ The confirmation email is a transactional message based on the event that you ju
 
 1. Click **[!UICONTROL Confirm]** and save the service.
 
-Now each time a profile subscribes to this service, he receives the transactional message that you defined, with personalized fields mapped to the selected service. A message will be sent only the first time the user subscribes.
+Now each time a profile subscribes to this service, he receives the transactional message that you defined, with personalized fields mapped to the selected service.
+
+>[!NOTE]
+>
+>A message will be sent only the first time the user subscribes.
 
 ## Configuring confirmation message from a landing page {#configuring-confirmation-message-from-landing-page}
 
@@ -144,7 +148,7 @@ The confirmation email is a [transactional message](../../channels/using/about-t
     
    ![](assets/confirmation_serviceName-field.png)
 
-    >[NOTE]
+    >[!NOTE]
     >
     >The **[!UICONTROL serviceName]** field is mandatory. If you do not add it to the event data structure, Adobe Campaign will not be able to perform reconciliation with the subscribed service.
 
@@ -153,7 +157,7 @@ The confirmation email is a [transactional message](../../channels/using/about-t
 
    ![](assets/confirmation_serviceName-join.png)
 
-    >[NOTE]
+    >[!NOTE]
     >
     >This will enable you to use personalization fields from the [!UICONTROL Service]  resource in the transactional message.
 
@@ -189,6 +193,6 @@ To create and configure this landing page, follow the steps below:
 
 Now each time a profile subscribes to your newsletter by submitting the landing page, he receives the confirmation message that you defined with personalized fields mapped to the service.
 
->[NOTE]
+>[!NOTE]
 >
 >A message will be sent each time the landing page is submitted, even if the profile is already subscribed.

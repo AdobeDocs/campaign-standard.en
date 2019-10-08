@@ -37,7 +37,7 @@ In order for the event to trigger sending a transactional message, you have to p
 
 >[!NOTE]
 >
->To access the transactional messages, you must have administration rights or appear in the **[!UICONTROL Message Center agents]** (mcExec) security group.
+>To access transactional messages, you must be part of the **[!UICONTROL Administrators (all units)]** security group.
 
 ## Transactional push notifications targeting an event {#transactional-push-notifications-targeting-an-event}
 
