@@ -30,4 +30,4 @@ Additionally, technical options are available in the **[!UICONTROL Options]** me
 
 >[!CAUTION]
 >
->These options are already configured when instlaling Campaign, and should be modified by advanced users only. If you have any question or request, reach out to your Adobe contact.
+>These options are already configured when installing Campaign, and should be modified by advanced users only. If you have any question or request, reach out to your Adobe contact.
