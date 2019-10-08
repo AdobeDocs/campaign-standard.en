@@ -28,6 +28,10 @@ You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-n
 
 A new section related to Campaign Standard settings was added. [Read more](../../administration/using/about-campaign-standard-settings.md)
 
+A new section describing how to send an automatic custom confirmation email to profiles who subscribe to a specific service has been added. [Read more](../../audiences/using/confirming-subscription-to-a-service.md)
+
+The Transactional messaging section has been modified with the latest UI updates, including editing content with the Email Designer. [Read more](../../channels/using/event-transactional-messages.md)
+
 ## Documentation updates - September 2019 {#doc-updates-september-2019}
 
 A new section was added in the Push notifications section on how to create and update profile information based on mobile application subscription data. [Read more](../../channels/using/updating-profile-with-mobile-app-data.md)
