@@ -12,7 +12,7 @@ topic: Premium
 
 ## What's New
 
-* **[Channels guide](channels/using/event-transactional-messages.html)**<br/>
+* **[Channels guide](channels/using/event-transactional-messages.md)**<br/>
 Use the email designer in your transactional messages.
 
 * **[Reporting guide](reporting/using/creating-a-report-workflow-segment.md)**<br/>
@@ -21,7 +21,7 @@ Creatie a report based on workflow segments.
 * **[Automating guide](automating/using/workflow-created-query-with-complement.md)**<br/>
 Read our workflow query use cases.
 
-* **[Automating guide](automating/using/load-file_example-2-email-with-enriched-fields)**<br/>
+* **[Automating guide](automating/using/load-file_example-2-email-with-enriched-fields.md)**<br/>
 Use the Load file activity to send an email containing additional data.
 
 [Click here for more updates](rn/using/documentation-updates.md)
@@ -44,7 +44,7 @@ Use the Load file activity to send an email containing additional data.
     <p>
   </td>
    <td>
-    <a href="https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html">
+    <a href="designing/using/designing-content-in-adobe-campaign.md">
       <img alt="designer" src="start/using/assets/FAQ.png" />
     </a>
     <div>
