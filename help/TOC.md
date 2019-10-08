@@ -319,6 +319,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Fatigue rules](administration/using/fatigue-rules.md)
        + [Control rules](administration/using/control-rules.md)
   + Application settings {#application-settings}
+       + [About Campaign Standard settings](administration/using/about-campaign-standard-settings.md)
        + [External accounts](administration/using/external-accounts.md)
        + [Target mappings in Campaign](administration/using/target-mappings-in-campaign.md)
        + [Technical workflows](administration/using/technical-workflows.md)
