@@ -12,56 +12,56 @@ topic: Premium
 
 ## What's New
 
-* **[Tracking guide](https://helpx.adobe.com/campaign/kb/acc-tracking.html)**<br/>
-Understand tracking capabilities in Campaign
+* **[Channels guide](channels/using/event-transactional-messages.html)**<br/>
+Use the email designer in your transactional messages.
 
-* **[Maintenance guide](https://helpx.adobe.com/campaign/kb/acc-maintenance.html)**<br/>
-Learn how to monitor your Campaign instance and processes
+* **[Reporting guide](reporting/using/creating-a-report-workflow-segment.md)**<br/>
+Creatie a report based on workflow segments.
 
-* **[Audit trail](production/using/audit-trail.md)**<br/>
-Learn how to access the complete history of changes in your Campaign instance
+* **[Automating guide](automating/using/workflow-created-query-with-complement.md)**<br/>
+Read our workflow query use cases.
 
-* **[Control Panel](https://helpx.adobe.com/campaign/kb/control-panel.html)**<br/>
-Learn how to manage settings and track usage of your Campaign instance
+* **[Automating guide](automating/using/load-file_example-2-email-with-enriched-fields)**<br/>
+Use the Load file activity to send an email containing additional data.
 
-[Click here for more updates](/help/rn/using/documentation-updates.md)
+[Click here for more updates](rn/using/documentation-updates.md)
 
 ## Top pages
 
-<table>
+ <table>
 <tr>
   <td>
-    <a href="start/using/common-questions.md">
-      <img alt="FAQ" src="platform/using/assets/FAQ.png"/>
+    <a href="automating/using/workflow-data-and-processes.md">
+      <img alt="workflow" src="start/using/assets/upgrade.png"/>
     </a>
     <div>
-      <a href="start/using/common-questions.md">
-    <strong>Frequently Asked Questions</strong>
+      <a href="automating/using/workflow-data-and-processes.md">
+    <strong>Workflows</strong>
     </a>
     </div>
     <p>
-    <em>Find answers to common questions when using Campaign Classic</em>
+    <em>Use workflows to automate processes and send cross-channel campaigns</em>
     <p>
   </td>
    <td>
     <a href="https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html">
-      <img alt="Build Upgrade" src="platform/using/assets/upgrade.png" />
+      <img alt="designer" src="start/using/assets/FAQ.png" />
     </a>
     <div>
-      <a href="https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html">
-    <strong>Upgrade to the latest build</strong>
+      <a href="designing/using/designing-content-in-adobe-campaign.md">
+    <strong>Design an email</strong>
     </a>
     </div>
     <p>
-    <em>Learn key steps and best practices to perform a build upgrade</em>
+    <em>Learn how to use the email designer to create responsive and personalized emails</em>
     <p>
   </td>
   <td>
-    <a href="https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html>
+    <a href="channels/using/about-push-notifications.md">
        <img alt="Push notifications" src="start/using/assets/push.png" />
     </a>
     <div>
-       <a href="https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html">
+       <a href="channels/using/about-push-notifications.md">
     <strong>Send push notifications</strong>
     </a>
     </div>
@@ -75,10 +75,10 @@ Learn how to manage settings and track usage of your Campaign instance
 
 ## Additional Resources
 
-* [Release notes](/help/rn/using/release-notes.md)
+* [Release notes](rn/using/release-notes.md)
 
-* [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
+* [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
 
-* [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
+* [Release Planning guide](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
 
-* [Implementation guide](https://helpx.adobe.com/campaign/kb/acc-implementation.html)
+* [Deprecated and Removed Features](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
