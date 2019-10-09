@@ -74,6 +74,7 @@ Additional resources:
 * When a transactional message event is submitted with an unknown context parameter, Campaign now returns a “400” error message instead of “500".
 * A new Exclude proof segment has been added in Dynamic reporting. This segment is now selected by default to filter your reports.
 * The **Message expiration** option has been added to push notification. It allows you to specify an expiration date where the message will no longer be sent by Apple (APNS) or Android (FCM).
+* Improvements have been made to the **Load file** activity: Workflow logs have been made clearer and more detailed about the error that occurs when a file fails to load. The outbound transition generated when activating the **Keep the rejects in a file** option has been renamed "Rejects".
 
 ## Control Panel update - August 2019 {#controlpanel-update---august-2019}
 
