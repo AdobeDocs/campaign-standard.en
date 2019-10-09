@@ -47,14 +47,14 @@ Additional resources:
    <ul>
     <li>Right to Access and Right to Delete: we are leveraging the capabilities that were added for GDPR.</li>
     <li>When creating a Privacy request, you can now select the regulation type: GDPR or CCPA.</li>
-    <li>A CCPA Opt-out field has been added to the Profiles resource to allow Adobe Campaign users to track whether a consumer has opted-out for the sale of Personal Information.</li>
+    <li>A **CCPA Opt-Out** field has been added to the Profiles resource to allow Adobe Campaign users to track whether a consumer has opted-out for the sale of Personal Information.</li>
   </ul>
       <p>For more information, refer to the <a href="https://helpx-internal.corp.adobe.com/content/help/en/campaign/kb/campaign-privacy.html">detailed documentation</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Microsoft Dynamics 365 integration (GA)<br /> </td> 
-   <td> <p>Microsoft Dynamics 365/Adobe Campaign Standard integration is now GA.</p>
-    <p>In addition to Beta capabilities, the following improvements have been added:</p>
+   <td> <p>The Microsoft Dynamics 365 / Adobe Campaign Standard integration is now GA.</p>
+    <p>In addition to the Beta capabilities, the following improvements have been added:</p>
     <ul>
       <li>Support of APAC region</li>
       <li>Support of Custom entities to map Campaign custom resources and Dynamics Custom entities through Unifi</li>
@@ -68,13 +68,13 @@ Additional resources:
 
 ### Improvements {#improvements-3}
 
-* The consent pop-up for Dynamic reporting has been updated to include Adobe Campaign Standard and Microsoft Dynamics 365 integration. By accepting the terms, profile data will be included when using Adobe Campaign Standard and Microsoft Dynamics 365 integration and Dynamic Reporting.
-* Fixed an issue which displayed incorrect contact dates when receiving delivery alerts.
-* When editing a link using the email designer, you can now use the **Underline link** option. Also, a **Target** property has been added with the default value set to "New window".
-* When a transactional message event is submitted with an unknown context parameter, Campaign now returns a “400” error message instead of “500".
-* A new Exclude proof segment has been added in Dynamic reporting. This segment is now selected by default to filter your reports.
+* The consent pop-up for Dynamic reporting has been updated to include Adobe Campaign Standard and Microsoft Dynamics 365 integration. By accepting the terms, profile data will be included when using the Adobe Campaign Standard / Microsoft Dynamics 365 integration and Dynamic Reporting.
+* Fixed an issue which displayed incorrect contact dates when receiving delivery alerts. (CAMP-29766)
+* When editing a link using the email designer, you can now use the **Underline link** option. Also, a **Target** property has been added with the default value set to **New window**.
+* When a transactional message event is submitted with an unknown context parameter, Campaign now returns a “400” error message instead of “500". (CAMP-28632)
+* A new **Exclude proof** segment has been added in Dynamic reporting. This segment is now selected by default to filter your reports.
 * The **Message expiration** option has been added to push notification. It allows you to specify an expiration date where the message will no longer be sent by Apple (APNS) or Android (FCM).
-* Improvements have been made to the **Load file** activity: Workflow logs have been made clearer and more detailed about the error that occurs when a file fails to load. The outbound transition generated when activating the **Keep the rejects in a file** option has been renamed "Rejects".
+* Improvements have been made to the **Load file** activity: workflow logs have been made clearer and more detailed about the error that occurs when a file fails to load. The outbound transition generated when activating the **Keep the rejects in a file** option has been renamed **Rejects**.
 
 ## Control Panel update - August 2019 {#controlpanel-update---august-2019}
 
