@@ -18,7 +18,7 @@ snippet: y
 
 # Release Notes{#release-notes}
 
-All 2019 releases, with their new features and patches, are listed in this page. Control Panel updates are also listed included.
+All 2019 releases, with their new features and patches, are listed in this page. Control Panel updates are also included.
  
 Additional resources:
 
