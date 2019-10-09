@@ -68,8 +68,8 @@ Additional resources:
 
 ### Improvements {#improvements-3}
 
-* The consent pop-up for Dynamic reporting has been updated to include Adobe Campaign Standard and Microsoft Dynamics 365 integration. By accepting the terms, profile data will be included when using the Adobe Campaign Standard / Microsoft Dynamics 365 integration and Dynamic Reporting.
-* Fixed an issue which displayed incorrect contact dates when receiving delivery alerts. (CAMP-29766)
+* The consent pop-up for Dynamic reporting has been updated to include Adobe Campaign Standard and Microsoft Dynamics 365 integration. By accepting the terms, profile data will be included when using the Adobe Campaign Standard / Microsoft Dynamics 365 integration and Dynamic Reporting. (CAMP-29766)
+* Fixed an issue which displayed incorrect contact dates when receiving delivery alerts. 
 * When editing a link using the email designer, you can now use the **Underline link** option. Also, a **Target** property has been added with the default value set to **New window**.
 * When a transactional message event is submitted with an unknown context parameter, Campaign now returns a “400” error message instead of “500". (CAMP-28632)
 * A new **Exclude proof** segment has been added in Dynamic reporting. This segment is now selected by default to filter your reports.
