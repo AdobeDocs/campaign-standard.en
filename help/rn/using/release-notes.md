@@ -47,7 +47,7 @@ Additional resources:
    <ul>
     <li>Right to Access and Right to Delete: we are leveraging the capabilities that were added for GDPR.</li>
     <li>When creating a Privacy request, you can now select the regulation type: GDPR or CCPA.</li>
-    <li>A **CCPA Opt-Out** field has been added to the Profiles resource to allow Adobe Campaign users to track whether a consumer has opted-out for the sale of Personal Information.</li>
+    <li>A <strong>CCPA Opt-Out</strong> field has been added to the Profiles resource to allow Adobe Campaign users to track whether a consumer has opted-out for the sale of Personal Information.</li>
   </ul>
       <p>For more information, refer to the <a href="https://helpx-internal.corp.adobe.com/content/help/en/campaign/kb/campaign-privacy.html">detailed documentation</a>.</p></td> 
   </tr> 
@@ -75,6 +75,7 @@ Additional resources:
 * A new **Exclude proof** segment has been added in Dynamic reporting. This segment is now selected by default to filter your reports.
 * The **Message expiration** option has been added to push notification. It allows you to specify an expiration date where the message will no longer be sent by Apple (APNS) or Android (FCM).
 * Improvements have been made to the **Load file** activity: workflow logs have been made clearer and more detailed about the error that occurs when a file fails to load. The outbound transition generated when activating the **Keep the rejects in a file** option has been renamed **Rejects**.
+* Multilingual related logs have been added to the sending logs to better understand sending failures due to missing languages in the uploaded CSV files.
 
 ## Control Panel update - August 2019 {#controlpanel-update---august-2019}
 
