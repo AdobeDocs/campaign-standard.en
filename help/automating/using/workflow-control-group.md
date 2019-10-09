@@ -30,7 +30,7 @@ For example, you want to compare how the recipients of a campaign will react com
 
 ## Creating a separate table {#creating-table}
 
-Create a table with some recipients from profile that you define as the control group.
+Create a table with a list of recipients? Create an empty table.
 
 1. From **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom Resources]**, click **[!UICONTROL Create]**.
 1. Configure the screen definition.
@@ -71,6 +71,8 @@ Once the workflow is run, the message is sent and tracked in sending logs for ot
 
 **Related topics:**
 
+* [Publishing a custom resource](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)
+* [Building a workflow](../../automating/using/building-a-workflow.md)
 * [Query activity](../../automating/using/query.md)
 * [Segmentation activity](../../automating/using/segmentation.md)
 * [Email delivery](../../automating/using/email-delivery.md)
