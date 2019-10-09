@@ -105,6 +105,20 @@ To add a category in a push notification:
 
 Depending on the user's action, the application will be notified so that it can perform any associated tasks.
 
+## Add an expiration date {#add-expiration-date}
+
+Setting an expiration date to your push notification allows you to set a specific expiration date where the message will no longer be sent by Apple (APNS) or Android (FCM).
+
+To add an expiration date to your push notification:
+
+1. Check the **[!UICONTROL Expire message]** option.
+
+1. In the **[!UICONTROL Duration]** field, select the validity of your push notification.
+
+1. After sending your push notification, if the user didn't receive it right away due to the phone not being on or not having a signal, the push will still be sent within the expiration date time slot.
+
+Note that if the push notification is not able to be sent before the expiration date, it will not be sent but discarded.
+
 ## Add custom fields {#add-custom-fields}
 
 Custom fields allow you to pass custom data in the payload in the form of a key value pair. This option can be used to pass additional data to the application beyond the pre-defined keys.
