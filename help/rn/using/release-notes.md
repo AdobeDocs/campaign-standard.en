@@ -46,7 +46,7 @@ Additional resources:
    <p>In addition to the privacy capabilities already available in Adobe Campaign (including consent management, data retention settings, and user roles), we are taking this opportunity to include additional capabilities, to help facilitate your readiness for CCPA:</p>
    <ul>
     <li>Right to Access and Right to Delete: we are leveraging the capabilities that were added for GDPR.</li>
-    <li>When creating a Privacy request, you can now select the regulation type: GDPR and CCPA.</li>
+    <li>When creating a Privacy request, you can now select the regulation type: GDPR or CCPA.</li>
     <li>A CCPA Opt-out field has been added to the Profiles resource to allow Adobe Campaign users to track whether a consumer has opted-out for the sale of Personal Information.</li>
   </ul>
       <p>For more information, refer to the <a href="https://helpx-internal.corp.adobe.com/content/help/en/campaign/kb/campaign-privacy.html">detailed documentation</a>.</p></td> 
@@ -57,7 +57,7 @@ Additional resources:
     <p>In addition to Beta capabilities, the following improvements have been added:</p>
     <ul>
       <li>Support of APAC region</li>
-      <li>Support of Custom entities to map Campaign CusResources and Dynamics Custom entities through Unifi</li>
+      <li>Support of Custom entities to map Campaign custom resources and Dynamics Custom entities through Unifi</li>
       <li>Mirror page display in Dynamics</li>
       <li>Single Sign-On to use your Adobe ID to log in to your Unifi instance</li>
     </ul>
@@ -73,6 +73,7 @@ Additional resources:
 * When editing a link using the email designer, you can now use the **Underline link** option. Also, a **Target** property has been added with the default value set to "New window".
 * When a transactional message event is submitted with an unknown context parameter, Campaign now returns a “400” error message instead of “500".
 * A new Exclude proof segment has been added in Dynamic reporting. This segment is now selected by default to filter your reports.
+* The **Message expiration** option has been added to push notification. It allows you to specify an expiration date where the message will no longer be sent by Apple (APNS) or Android (FCM).
 
 ## Control Panel update - August 2019 {#controlpanel-update---august-2019}
 
