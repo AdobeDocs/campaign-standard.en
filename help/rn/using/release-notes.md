@@ -28,7 +28,7 @@ Additional resources:
 * [Control Panel](https://helpx.adobe.com/campaign/kb/control-panel.html)
 * Previous Release Notes: [2018](../../rn/using/release-notes-2018.md), [2017](../../rn/using/release-notes-2017.md), [2015-2016](../../rn/using/release-notes-2015-2016.md)
 
-## Release 19.4 - September 2019 {#release-19-4---september-2019}
+## Release 19.4 - October 2019 {#release-19-4---october-2019}
 
 ### What's new? {#what-s-new-5}
 
