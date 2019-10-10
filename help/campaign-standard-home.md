@@ -38,7 +38,7 @@ Use the Load file activity to send an email containing additional data.
     <a href="administration/using/about-access-management.md"><strong>Roles and security groups</strong></a>
     </div>
     <p>
-    <p>Learn how to define permissions and assign roles to Campaign users.</p>
+    <em>Learn how to define permissions and assign roles to Campaign users.</em>
     <p>
   </td>
    <td>
@@ -49,7 +49,7 @@ Use the Load file activity to send an email containing additional data.
     <a href="designing/using/designing-content-in-adobe-campaign.md"><strong>Design an email</strong></a>
     </div>
     <p>
-    <p>Learn how to use the email designer to create responsive and personalized emails</p>
+    <em>Learn how to use the email designer to create responsive and personalized emails</em>
     <p>
   </td>
   <td>
@@ -59,8 +59,8 @@ Use the Load file activity to send an email containing additional data.
     </div>
       <p>
     <ul>
-    	<li><a href="https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html">Adobe Campaign API</a></li>
-    	<li><a href="integrating/using/about-adobe-experience-cloud-triggers.md">Adobe Experience Cloud Triggers</a></li>
+    	<li><a href="https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html"><em>Adobe Campaign API</em></a></li>
+    	<li><a href="integrating/using/about-adobe-experience-cloud-triggers.md"><em>Adobe Experience Cloud Triggers</em></a></li>
     </ul>
       <p>
   </td>
