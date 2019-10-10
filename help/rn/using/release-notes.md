@@ -18,11 +18,15 @@ snippet: y
 
 # Release Notes{#release-notes}
 
-Looking for a specific release of Adobe Campaign Standard?
+All 2019 releases, with their new features and patches, are listed in this page. Control Panel updates are also included.
+ 
+Additional resources:
 
-Each release comes with new features and patches. Click on a release to view its content. Consult the [Release Planning](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) to find out when the next release will happen.
-
-View the latest [documentation updates](../../rn/using/documentation-updates.md) for Adobe Campaign Standard. If you're looking for a previous release, consult these pages: [2018 Release Notes](../../rn/using/release-notes-2018.md), [2017 Release Notes](../../rn/using/release-notes-2017.md), [2015-2016 Release Notes](../../rn/using/release-notes-2015-2016.md). Also consult the list of [Deprecated and Removed Features](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html).
+* [Campaign Release Planning](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
+* [Latest Documentation Updates](../../rn/using/documentation-updates.md)
+* [Deprecated and Removed Features](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
+* [Control Panel](https://helpx.adobe.com/campaign/kb/control-panel.html)
+* Previous Release Notes: [2018](../../rn/using/release-notes-2018.md), [2017](../../rn/using/release-notes-2017.md), [2015-2016](../../rn/using/release-notes-2015-2016.md)
 
 ## Control Panel update - August 2019 {#controlpanel-update---august-2019}
 
