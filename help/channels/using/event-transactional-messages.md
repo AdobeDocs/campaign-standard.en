@@ -28,7 +28,9 @@ In order for the event to trigger sending a transactional message, you have to p
 
 >[!NOTE]
 >
->To access the transactional messages, you must have administration rights or appear in the **[!UICONTROL Message Center agents]** (mcExec) security group. Event transactional messages do not contain profile information, therefore they are not compatible with fatigue rules (even in the case of an enrichment with profiles). See [Fatigue rules](../../administration/using/fatigue-rules.md#choosing-the-channel).
+>To access transactional messages, you must be part of the **[!UICONTROL Administrators (all units)]** security group.
+>
+>Event transactional messages do not contain profile information, therefore they are not compatible with fatigue rules (even in the case of an enrichment with profiles). See [Fatigue rules](../../administration/using/fatigue-rules.md#choosing-the-channel).
 
 ## Defining a test profile in a transactional message {#defining-a-test-profile-in-a-transactional-message}
 
@@ -105,7 +107,7 @@ To set up personalization in a transactional message, follow the steps below:
 
 1. Preview your message by selecting the profile that you defined for this event.
 
-   The steps for previewing a message are detailed in the [Previewing messages](../../sending/using/preparing-the-send.md) section.
+   The steps for previewing a message are detailed in the [Previewing messages](../../sending/using/previewing-messages.md) section.
 
    ![](assets/message-center_9.png)
 
@@ -255,7 +257,7 @@ To access reports concerning your transactional message, use the **[!UICONTROL R
 
 You can suspend publishing your transactional message by using the **[!UICONTROL Pause]** button, for example, to modify the data contained in the message. The events are therefore no longer processed, but instead kept in a queue in the Adobe Campaign database.
 
-The queued events are kept during a period of time that is defined in the REST API (see [REST API documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)) or in the trigger event if you are using the Triggers core service (see [Working with Campaign and Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
+The queued events are kept during a period of time that is defined in the REST API (see [REST API documentation](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)) or in the trigger event if you are using the Triggers core service (see [Working with Campaign and Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
 
 ![](assets/message-center_pause.png)
 
