@@ -35,9 +35,7 @@ Use the Load file activity to send an email containing additional data.
       <img alt="roles" src="start/using/assets/roles.png"/>
     </a>
     <div>
-      <a href="administration/using/about-access-management.md">
     <strong>Roles and security groups</strong>
-    </a>
     </div>
     <p>
     <em>Learn how to define permissions and assign roles to Campaign users.</em>
@@ -48,9 +46,7 @@ Use the Load file activity to send an email containing additional data.
       <img alt="designer" src="start/using/assets/FAQ.png" />
     </a>
     <div>
-      <a href="designing/using/designing-content-in-adobe-campaign.md">
     <strong>Design an email</strong>
-    </a>
     </div>
     <p>
     <em>Learn how to use the email designer to create responsive and personalized emails</em>
