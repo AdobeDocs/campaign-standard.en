@@ -31,16 +31,16 @@ Use the Load file activity to send an email containing additional data.
  <table>
 <tr>
   <td>
-    <a href="automating/using/workflow-data-and-processes.md">
-      <img alt="workflow" src="start/using/assets/upgrade.png"/>
+    <a href="administration/using/about-access-management.md">
+      <img alt="roles" src="start/using/assets/roles.png"/>
     </a>
     <div>
-      <a href="automating/using/workflow-data-and-processes.md">
-    <strong>Workflows</strong>
+      <a href="administration/using/about-access-management.md">
+    <strong>Roles and security groups</strong>
     </a>
     </div>
     <p>
-    <em>Use workflows to automate processes and send cross-channel campaigns</em>
+    <em>Learn how to define permissions and assign roles to Campaign users.</em>
     <p>
   </td>
    <td>
@@ -57,17 +57,16 @@ Use the Load file activity to send an email containing additional data.
     <p>
   </td>
   <td>
-    <a href="channels/using/about-push-notifications.md">
-       <img alt="Push notifications" src="start/using/assets/push.png" />
-    </a>
+       <img alt="Push notifications" src="start/using/assets/dev.png" />
     <div>
-       <a href="channels/using/about-push-notifications.md">
-    <strong>Send push notifications</strong>
-    </a>
+    <strong>Resources for developers</strong>
     </div>
-    <p>
-    <em>Design and send personalized push notifications on mobiles</em>
-    <p>
+      <p>
+    <ul>
+    	<a href="https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html"><li>Adobe Campaign API</li></a>
+    	<a href="integrating/using/about-adobe-experience-cloud-triggers.md"><li>Adobe Experience Cloud Triggers</li></a>
+    </ul>
+      <p>
   </td>
 </tr>
 </table>
