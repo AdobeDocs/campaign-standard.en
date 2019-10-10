@@ -55,9 +55,9 @@ Use the Load file activity to send an email containing additional data.
     <div>
     <strong>Resources for developers</strong>
     </div>
-   <a href="https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html"><em>Adobe Campaign API</em></a><br>
-    	<a href="integrating/using/about-adobe-experience-cloud-triggers.md"><em>Adobe Experience Cloud Triggers</em></a>
-      <br>
+    <em>Discover the <a href="https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html">Adobe Campaign API</a>.</em>
+    <em>Learn more about the <a href="integrating/using/about-adobe-experience-cloud-triggers.md">Adobe Experience Cloud Triggers</a>.</em>
+    <br>
   </td>
 </tr>
 </table>
@@ -66,6 +66,8 @@ Use the Load file activity to send an email containing additional data.
 ## Additional Resources
 
 * [Release notes](rn/using/release-notes.md)
+
+* [Control Panel](https://helpx.adobe.com/campaign/kb/control-panel.html)
 
 * [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
 
