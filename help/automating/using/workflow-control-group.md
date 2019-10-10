@@ -100,5 +100,6 @@ You can now compare how the recipients of the message will react compared to the
 * [Building a workflow](../../automating/using/building-a-workflow.md)
 * [Query activity](../../automating/using/query.md)
 * [Segmentation activity](../../automating/using/segmentation.md)
-* [Email delivery activity](../../automating/using/email-delivery.md)
+* [Email delivery](../../automating/using/email-delivery.md)
+* [Update data](../../automating/using/update-data.md)
 * [Monitoring a delivery](../../asending/using/monitoring-a-delivery.md)
