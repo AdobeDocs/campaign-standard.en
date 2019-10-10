@@ -32,7 +32,7 @@ Use the Load file activity to send an email containing additional data.
 <tr>
   <td>
     <a href="administration/using/about-access-management.md">
-      <img alt="roles" src="start/using/assets/roles.png"/>
+      <img align= "top" alt="roles" src="start/using/assets/roles.png"/>
     </a>
     <div>
     <a href="administration/using/about-access-management.md"><strong>Roles and security groups</strong></a>
@@ -42,7 +42,7 @@ Use the Load file activity to send an email containing additional data.
   </td>
    <td>
     <a href="designing/using/designing-content-in-adobe-campaign.md">
-      <img alt="designer" src="start/using/assets/FAQ.png" />
+      <img align= "top" alt="designer" src="start/using/assets/FAQ.png" />
     </a>
     <div>
     <a href="designing/using/designing-content-in-adobe-campaign.md"><strong>Design an email</strong></a>
@@ -51,7 +51,7 @@ Use the Load file activity to send an email containing additional data.
     <br>
   </td>
   <td>
-       <img alt="Push notifications" src="start/using/assets/dev.png" />
+       <img align= "top" alt="Push notifications" src="start/using/assets/dev.png" />
     <div>
     <strong>Resources for developers</strong>
     </div>
