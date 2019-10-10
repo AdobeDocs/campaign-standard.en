@@ -30,44 +30,34 @@ Use the Load file activity to send an email containing additional data.
 
  <table>
 <tr>
-  <td>
-    <a href="automating/using/workflow-data-and-processes.md">
-      <img alt="workflow" src="start/using/assets/upgrade.png"/>
+  <td valign="top">
+    <a href="administration/using/about-access-management.md">
+      <img alt="Roles" src="start/using/assets/roles.png"/>
     </a>
     <div>
-      <a href="automating/using/workflow-data-and-processes.md">
-    <strong>Workflows</strong>
-    </a>
+    <a href="administration/using/about-access-management.md"><strong>Roles and security groups</strong></a>
     </div>
-    <p>
-    <em>Use workflows to automate processes and send cross-channel campaigns</em>
-    <p>
+    <em>Learn how to define permissions and assign roles to Campaign users.</em>
+    <br>
   </td>
-   <td>
+  <td valign="top">
     <a href="designing/using/designing-content-in-adobe-campaign.md">
-      <img alt="designer" src="start/using/assets/FAQ.png" />
+      <img alt="Designer" src="start/using/assets/design.png" />
     </a>
     <div>
-      <a href="designing/using/designing-content-in-adobe-campaign.md">
-    <strong>Design an email</strong>
-    </a>
+    <a href="designing/using/designing-content-in-adobe-campaign.md"><strong>Design an email</strong></a>
     </div>
-    <p>
     <em>Learn how to use the email designer to create responsive and personalized emails</em>
-    <p>
+    <br>
   </td>
-  <td>
-    <a href="channels/using/about-push-notifications.md">
-       <img alt="Push notifications" src="start/using/assets/push.png" />
-    </a>
+  <td valign="top">
+       <img alt="Developers" src="start/using/assets/dev.png" />
     <div>
-       <a href="channels/using/about-push-notifications.md">
-    <strong>Send push notifications</strong>
-    </a>
+    <strong>Resources for developers</strong>
     </div>
-    <p>
-    <em>Design and send personalized push notifications on mobiles</em>
-    <p>
+   <a href="https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html"><em>Adobe Campaign API</em></a><br>
+    	<a href="integrating/using/about-adobe-experience-cloud-triggers.md"><em>Adobe Experience Cloud Triggers</em></a>
+      <br>
   </td>
 </tr>
 </table>
