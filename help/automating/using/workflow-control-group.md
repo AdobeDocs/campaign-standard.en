@@ -98,8 +98,8 @@ You can now compare how the recipients of the message will react compared to the
 
 * [Publishing a custom resource](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)
 * [Building a workflow](../../automating/using/building-a-workflow.md)
-* [Query activity](../../automating/using/query.md)
-* [Segmentation activity](../../automating/using/segmentation.md)
+* [Query](../../automating/using/query.md)
+* [Segmentation](../../automating/using/segmentation.md)
 * [Email delivery](../../automating/using/email-delivery.md)
 * [Update data](../../automating/using/update-data.md)
 * [Monitoring a delivery](../../asending/using/monitoring-a-delivery.md)
