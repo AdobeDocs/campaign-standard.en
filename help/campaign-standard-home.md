@@ -55,9 +55,8 @@ Use the Load file activity to send an email containing additional data.
     <div>
     <strong>Resources for developers</strong>
     </div>
-    <ul>
-    <li><em>Discover the <a href="https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html">Adobe Campaign API</a>.</em></li>
-    <li><em>Learn how to use the <a href="integrating/using/about-adobe-experience-cloud-triggers.md">Adobe Experience Cloud Triggers</a>.</em></li>
+    <p><em><a href="https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html">Adobe Campaign API</a></em></p>
+    <p><em><a href="integrating/using/about-adobe-experience-cloud-triggers.md">Adobe Experience Cloud Triggers</a></em></p>
     <br>
   </td>
 </tr>
