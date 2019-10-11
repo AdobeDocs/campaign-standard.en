@@ -113,11 +113,15 @@ To add an expiration date to your push notification:
 
 1. Check the **[!UICONTROL Expire message]** option.
 
+    >[!NOTE]
+    >
+    >By selecting the **[!UICONTROL Expire message]** option, the duration is automatically set to 0. If you do not change the value, both APNS and GCM will try to send the message immediately. If it fails, the message will not be resent.
+
 1. In the **[!UICONTROL Duration]** field, select the validity of your push notification.
 
 1. After sending your push notification, if the user didn't receive it right away due to the phone not being on or not having a signal, the push will still be sent within the expiration date time slot.
 
-Note that if the push notification is not able to be sent before the expiration date, it will not be sent but discarded.
+Note that if the push notification has not been sent before the expiration date, it will be discarded.
 
 ## Add custom fields {#add-custom-fields}
 
