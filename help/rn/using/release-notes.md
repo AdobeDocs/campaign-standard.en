@@ -53,15 +53,10 @@ Additional resources:
   </tr> 
   <tr> 
    <td> Microsoft Dynamics 365 integration (GA)<br /> </td> 
-   <td> <p>The Microsoft Dynamics 365 / Adobe Campaign Standard integration is now GA.</p>
-    <p>In addition to the Beta capabilities, the following improvements have been added:</p>
-    <ul>
-      <li>Support of APAC region</li>
-      <li>Support of Custom entities to map Campaign custom resources and Dynamics Custom entities through Unifi</li>
-      <li>Mirror page display in Dynamics</li>
-      <li>Single Sign-On to use your Adobe ID to log in to your Unifi instance</li>
-    </ul>
-      <p>For more information about this integration, refer to the <a href="https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html">detailed documentation</a>.</p></td>
+   <td> 
+    <p>The integration between Adobe Campaign Standard and Microsoft Dynamics 365 is now available. You’ll be able to transfer your contact and custom entity records from Dynamics 365 to Campaign, and get email event data back from Campaign to Dynamics 365 for better sales/marketing alignment.</p>
+    <p>Refer to the <a href="https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html">detailed documentation</a> to set this integration up.</p>
+  </td>
   </tr> 
  </tbody> 
 </table>
