@@ -12,16 +12,16 @@ topic: Premium
 
 ## What's New
 
-* **[Channels guide](channels/using/event-transactional-messages.md)**<br/>
+* **[Email designer](channels/using/event-transactional-messages.md)**<br/>
 Use the email designer in your transactional messages.
 
-* **[Reporting guide](reporting/using/creating-a-report-workflow-segment.md)**<br/>
+* **[Workflow segments](reporting/using/creating-a-report-workflow-segment.md)**<br/>
 Create a report based on workflow segments.
 
-* **[Automating guide](automating/using/workflow-created-query-with-complement.md)**<br/>
+* **[New workflow use cases](automating/using/workflow-created-query-with-complement.md)**<br/>
 Read our workflow query use cases.
 
-* **[Automating guide](automating/using/load-file.md)**<br/>
+* **[Load file activity](automating/using/load-file.md)**<br/>
 Use the Load file activity to send an email containing additional data.
 
 [Click here for more updates](rn/using/documentation-updates.md)
