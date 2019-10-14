@@ -24,6 +24,19 @@ This page lists all the new features and documentation updates for each release 
 
 You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-notes.md).
 
+## Release 19.4 - October 2019 {#release-19-4---october-2019}
+
+### New capabilities included in the release {#new-capabilities-included-in-the-release-20}
+
+California Consumer Privacy Act (CCPA) - [Read more](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa)
+
+Microsoft Dynamics 365 integration (GA) - [Read more](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
+
+### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-18}
+
+The list of error messages for Campaign Standard and Classic has been updated. [Read more](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+
+
 ## Documentation updates - October 2019 {#doc-updates-october-2019}
 
 A new section related to Campaign Standard settings was added. [Read more](../../administration/using/about-campaign-standard-settings.md)
