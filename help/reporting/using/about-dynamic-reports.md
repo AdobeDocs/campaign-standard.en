@@ -62,6 +62,10 @@ Dynamic reports are divided into two categories:
 
 ## Dynamic reporting usage agreement {#dynamic-reporting-usage-agreement}
 
+>[!NOTE]
+>
+>These changes only apply starting Campaign Standard 19.4 release.
+
 The Dynamic reporting usage agreement's purpose is to function as a pop-up consent for data processing. By default, the agreement is only visible and can only be accepted or declined by users assigned with administration rights.
 
 Three options are available:
