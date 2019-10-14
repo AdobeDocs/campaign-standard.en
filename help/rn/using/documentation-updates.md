@@ -38,9 +38,11 @@ The list of error messages for Campaign Standard and Classic has been updated. [
 
 The GDPR getting started guide has been improved and enriched. It is now a privacy management documentation including GDPR and CCPA. [Read more](https://helpx-internal.corp.adobe.com/content/help/en/campaign/kb/campaign-privacy.html)
 
-## Documentation updates - October 2019 {#doc-updates-october-2019}
+A new chart presenting the transactional messaging publication process has been added. [Read more](../../channels/using/about-transactional-messaging.md#transactional-messaging-pub-process)
 
-A new chart presenting the transactional messaging publication process was added. [Read more](../../channels/using/about-transactional-messaging.md#transactional-messaging-pub-process)
+The Delivery Best Practices getting started guide has been updated. [Read more](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+
+## Documentation updates - October 2019 {#doc-updates-october-2019}
 
 A new section related to Campaign Standard settings was added. [Read more](../../administration/using/about-campaign-standard-settings.md)
 
