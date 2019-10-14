@@ -76,8 +76,10 @@ Additional resources:
 ### Security enhancements {#security-enhancements-3}
 
 * Fixed an issue, when deleting a quanrantined profile's information via a privacy request, which removed all data except the email address in the quarantine list. 
+* Security has been enhanced for protection against injections in email headers.
+* Security has been enhanced for protection against SSRF attacks where xtk expressions can be used (email HTML, text content and subject, SMS and push notification content).
 
-### Email Designer enhancements {#email-designer-enhancements-3}
+### Email Designer enhancements {#email-designer-enhancements-4}
 
 * Fixed a color issue on links in text components in the body of an email. (CAMP-37330)
 * Fixed an issue which prevented associated links from being removed when deleting an image (CAMP-37234)
@@ -114,7 +116,8 @@ Additional resources:
 * An error message now displays when executing a workflow's **Scheduler** activity that is connected to itself, either directly or through several activities, as this could lead to the instance's workflow server being stuck.
 * Improvements have been made to help troubleshoot transactional messaging: a **Data** link has been added in the event configuration screen to list the received events, sorted in a descending order. Also, a new transactional event status has been created: "targetingFailed". When the transactional messaging module fails to enrich a link that is used for message targeting, the transactional event will now be in this new state (instead of the "routingFailed" status).
 * Improvements have been made to the interface when restricting landing page access to specific geographical or organizational units. The purpose is to warn that the landing page may be subject to visibility conditions: the selection of a geographical and organizational unit when creating a landing page is now mandatory. A banner with related information now displays once a unit is selected. The error message that displays when testing the landing page has been made clearer.
-* In Campaign Standard APIs, the PATCH operation on custom keys is not authorized anymore in the following cases: if the custom key is different from the origin key, if the API is public, if you are using your own business key as URI instead of the key provided by Adobe.
+* In Campaign Standard APIs, the PATCH operation on custom keys is not authorized anymore in the following cases: if the custom key is different from the origin key, if the API is public, if you are using your own business key as URI instead of the key provided by Adobe
+* The "Albanian - Macedonia" language has been added to the preferred language drop-down list. (CAMP-35396)
 
 ### Patches {#patches-4}
 
@@ -140,7 +143,6 @@ Additional resources:
 * Fixed an issue that prevented custom resources from being imported into a new environment. (CAMP-36506)
 * Fixed an issue in hot click reports that could lead to percentages being hidden by images (CAMP-36407)
 * Fixed an issue that occurred when trying to export a delivery description field. (CAMP-35467)
-* The "Albanian - Macedonia" language has been added to the preferred language drop-down list. (CAMP-35396)
 * Fixed an issue that could leave the state of a delivery as "Start pending” although the delivery was finished. (CAMP-35355)
 * Fixed an issue that prevented workflow logs from being displayed after enabling, then disabling SQL logs.
 
