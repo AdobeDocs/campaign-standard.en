@@ -59,6 +59,10 @@ The table below gives you the list of dimensions used in reports and their defin
    <td> Device from which the email/SMS/push notification was opened/viewed/clicked on.<br /> </td> 
   </tr> 
   <tr> 
+   <td> Failure reason<br /> </td> 
+   <td> Types of errors that caused bounces for each delivery e.g. user unknown, invalid domain or mailbox full.<br /> </td> 
+  </tr> 
+  <tr> 
    <td> Gender<br /> </td> 
    <td> Recipient's gender such as male or female. If the gender field is empty in the recipient's profile, the value will be none.<br /> </td> 
   </tr> 
