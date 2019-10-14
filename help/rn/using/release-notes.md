@@ -77,7 +77,7 @@ Additional resources:
 
 * Fixed an issue, when deleting a quanrantined profile's information via a privacy request, which removed all data except the email address in the quarantine list. 
 
-### Email Designer enhancements {#email-designer-enhancements-3}
+### Email Designer enhancements {#email-designer-enhancements-4}
 
 * Fixed a color issue on links in text components in the body of an email. (CAMP-37330)
 * Fixed an issue which prevented associated links from being removed when deleting an image (CAMP-37234)
