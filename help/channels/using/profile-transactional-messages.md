@@ -33,7 +33,9 @@ In order for the event to trigger sending a transactional message, you have to p
 
 >[!NOTE]
 >
->To access the transactional messages, you must have administration rights or appear in the **[!UICONTROL Message Center agents]** (mcExec) security group. Fatigue rules are compatible with profile transactional messages. See [Fatigue rules](../../administration/using/fatigue-rules.md).
+>To access transactional messages, you must be part of the **[!UICONTROL Administrators (all units)]** security group.
+>
+>Fatigue rules are compatible with profile transactional messages. See [Fatigue rules](../../administration/using/fatigue-rules.md).
 
 ## Sending a profile transactional message {#sending-a-profile-transactional-message}
 

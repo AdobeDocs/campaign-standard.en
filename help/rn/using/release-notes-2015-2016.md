@@ -876,7 +876,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
   </tr> 
   <tr> 
    <td> Digital Content Editor - Dynamic content<br /> </td> 
-   <td> The dynamic content interface has been improved. Arrows now appear to allow you to navigate between the different dynamic contents, directly in the email body.<br /> For more information on using this functionality, refer to the <a href="../../channels/using/defining-dynamic-content-in-a-landing-page.md">detailed documentation</a>.<br /> </td> 
+   <td> The dynamic content interface has been improved. Arrows now appear to allow you to navigate between the different dynamic contents, directly in the email body.<br /> For more information on using this functionality, refer to the <a href="../../designing/using/personalization.md#defining-dynamic-content-in-an-email">detailed documentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Digital Content Editor - Dynamic text<br /> </td> 
@@ -960,7 +960,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
   </tr> 
   <tr> 
    <td> Content editor: Dynamic content<br /> </td> 
-   <td> You can define different contents which will be displayed dynamically to the user according to the conditions defined via the expression editor.<br /> Refer to the <a href="../../channels/using/defining-dynamic-content-in-a-landing-page.md">detailed documentation</a>.<br /> </td> 
+   <td> You can define different contents which will be displayed dynamically to the user according to the conditions defined via the expression editor.<br /> Refer to the <a href="../../designing/using/personalization.md#defining-dynamic-content-in-an-email">detailed documentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Email<br /> </td> 
@@ -1054,7 +1054,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
   </tr> 
   <tr> 
    <td> Digital Content Editor: <strong>Block selector</strong><br /> </td> 
-   <td> When a block is selected in the HTML content editor, a breadcrumb is displayed at the bottom of the editing zone. This allows you to easily navigate to and select different elements.<br /> Refer to the <a href="../../channels/using/managing-landing-page-structure-and-style.md">detailed documentation</a>.<br /> </td> 
+   <td> When a block is selected in the HTML content editor, a breadcrumb is displayed at the bottom of the editing zone. This allows you to easily navigate to and select different elements.<br /> Refer to the <a href="../../channels/using/designing-a-landing-page.md#managing-landing-page-structure-and-style">detailed documentation</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

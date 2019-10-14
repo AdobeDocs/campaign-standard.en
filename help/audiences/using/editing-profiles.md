@@ -36,7 +36,7 @@ To edit an existing profile and consult the data associated to it, or modify it,
    >
    >You can only modify the information in the **[!UICONTROL General]** tab - except for the **[!UICONTROL Traceability]** section.
 
-Profiles edition is also possible using the Adobe Campaign Standard API. For more on this, refer to the [dedicated documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#updating-profiles) .
+Profiles edition is also possible using the Adobe Campaign Standard API. For more on this, refer to the [dedicated documentation](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#updating-profiles) .
 
 Related topic:
 
