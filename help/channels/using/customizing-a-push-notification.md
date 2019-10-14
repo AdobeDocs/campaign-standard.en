@@ -107,7 +107,7 @@ Depending on the user's action, the application will be notified so that it can 
 
 ## Add an expiration date {#add-expiration-date}
 
-Setting an expiration date to your push notification allows you to set a specific expiration date where the message will no longer be sent by Apple (APNS) or Android (FCM).
+Setting an expiration date to your push notification allows you to set a specific expiration date where the message will no longer be sent by Apple ([APNS](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/sending_notification_requests_to_apns)) or Android ([FCM](https://firebase.google.com/docs/cloud-messaging/concept-options)).
 
 To add an expiration date to your push notification:
 
@@ -115,9 +115,11 @@ To add an expiration date to your push notification:
 
     >[!NOTE]
     >
-    >By selecting the **[!UICONTROL Expire message]** option, the duration is automatically set to 0. If you do not change the value, both APNS and GCM will try to send the message immediately. If it fails, the message will not be resent.
+    >By selecting the **[!UICONTROL Expire message]** option, the duration is automatically set to 0. If you do not change the value, both APNS and FCM will try to send the message immediately. If it fails, the message will not be resent.
 
 1. In the **[!UICONTROL Duration]** field, select the validity of your push notification.
+
+   ![](assets/push_expiration.png)
 
 1. After sending your push notification, if the user didn't receive it right away due to the phone not being on or not having a signal, the push will still be sent within the expiration date time slot.
 
