@@ -185,12 +185,6 @@ You can underline a link and select its color and target in the Email Designer.
 1. To select in which browsing context your link will be opened select a **[!UICONTROL Target]**.
 
    ![](assets/stylelinks-target.png)
-<!-->
-      * None: opens the link in a new tab
-      * Blank: opens the link in a new tab
-      * Self: opens the link in the current page
-      * Parent: opens the link in the parent page of the current one
-      * Top: opens the link in the highest ancestor page of the current page-->
 
 1. To change the color of your link, click on **[!UICONTROL Link color]**.
 
