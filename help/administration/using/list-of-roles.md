@@ -30,9 +30,9 @@ Default rights are:
 * **[!UICONTROL Datamodel]**: Right to run publications and create custom resources.
 * **[!UICONTROL Export]**: Right to export data.
 * **[!UICONTROL Generic import]**: Right to run a generic import on data. For this to work, you need to link the **[!UICONTROL Generic import]** role to the **[!UICONTROL Workflow]** role.
-* **[!UICONTROL Prepare deliveries]**: Right to create, edit, start delivery preparation, send deliveries and proofs.
-* **[!UICONTROL Start deliveries]**: Right to create, edit and validate previously prepared deliveries. This role does not allow you to send delivery.
-* **[!UICONTROL Workflow]**: Right to create, edit, start delivery preparation and workflows.
+* **[!UICONTROL Prepare deliveries]**: Right to create, modify, prepare and delete deliveries. Users with this role can prepare the delivery but not send it.
+* **[!UICONTROL Start deliveries]**: Right to create, modify, prepare, send, and delete deliveries.
+* **[!UICONTROL Workflow]**: Right to create, modify, start and delete workflows. Users with this role can not send a delivery even in a workflow.
 
 >[!CAUTION]
 >
