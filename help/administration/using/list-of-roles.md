@@ -20,7 +20,7 @@ snippet: y
 
 By default, Adobe Campaign offers a set of roles which allows you to define unitary authorizations assigned to users and user groups. Combined with organizational units, roles give users a filtered view of the interface and define their access to the different features. For more on this, refer to the [Roles and permissions table](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
 
-![](assets/user_management_3.png)
+[![image](/help/administration/using/assets/user_management_3.png)](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
 
 Roles can be managed from the **[!UICONTROL Administration > Users & Security > Roles]** menu.
 
@@ -30,13 +30,13 @@ Default rights are:
 * **[!UICONTROL Datamodel]**: Right to run publications and create custom resources.
 * **[!UICONTROL Export]**: Right to export data.
 * **[!UICONTROL Generic import]**: Right to run a generic import on data. For this to work, you need to link the **[!UICONTROL Generic import]** role to the **[!UICONTROL Workflow]** role.
-* **[!UICONTROL Prepare deliveries]**: Right to create, edit, start delivery preparation and send proofs.
-* **[!UICONTROL Start deliveries]**: Right to validate previously prepared deliveries.
-* **[!UICONTROL Workflow]**: Right to use workflows.
+* **[!UICONTROL Prepare deliveries]**: Right to create, modify, prepare and delete deliveries. Users with this role can prepare the delivery but not send it.
+* **[!UICONTROL Start deliveries]**: Right to create, modify, prepare, send, and delete deliveries.
+* **[!UICONTROL Workflow]**: Right to create, modify, start and delete workflows. Users with this role can not send a delivery even in a workflow.
 
 >[!CAUTION]
 >
->The DELIVERABILITY role is for Adobe administrators internal use only. It must not be granted to a user.
+>The **[!UICONTROL Deliverability]**, **[!UICONTROL Command execution]**, **[!UICONTROL Export]**, **[!UICONTROL File access]** and **[!UICONTROL Message Center push]** roles are for Adobe administrators internal use only. They should not be granted to a user.
 
 **Related topics:**
 

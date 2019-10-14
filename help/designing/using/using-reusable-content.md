@@ -198,9 +198,12 @@ You can create your own content fragments to use them as needed in one or more e
 1. Close the **[!UICONTROL Properties]** tab to return to the main workspace.
 1. Add structure components and content components that you can customize as needed.
 
-    >[!NOTE]
+    >[!CAUTION]
     >
     >Fragments cannot include personalization fields, dynamic content or another fragment.
+    >
+    >Avoid saving as a fragment content with empty structure components. Once the >fragment is inserted, they will not be editable.
+    >
     >The [mobile view](../../designing/using/styles.md#switching-to-mobile-view) is not available in fragments.
 
 1. Once edited, save your fragment.
