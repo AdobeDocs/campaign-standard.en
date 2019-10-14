@@ -111,7 +111,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Sharing a landing page](channels/using/sharing-a-landing-page.md)
        + [Setting up a double opt-in process](channels/using/setting-up-a-double-opt-in-process.md)
 + Designing email content {#designing-content}
-  + [Campaign EmailDesigner](designing/using/designing-content-in-adobe-campaign.md)
+  + [Campaign Email Designer](designing/using/designing-content-in-adobe-campaign.md)
   + [Quick Start](designing/using/quick-start.md)
   + [Usage & Recommendations](designing/using/overview.md)
   + [Defining the subject line and the sender](designing/using/subject-line.md)
