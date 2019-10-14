@@ -8,70 +8,11 @@ topic: Premium
 
 # Help Center {#campaign-standard-documentation}
 
-![](start/using/assets/banner_acs_doc.jpg) 
+Learn the basics and refine your skills with Adobe Campaign Standard product documentation.
 
-## What's New
-
-* **[Email designer](channels/using/event-transactional-messages.md)**<br/>
-Use the email designer in your transactional messages.
-
-* **[Workflow segments](reporting/using/creating-a-report-workflow-segment.md)**<br/>
-Create a report based on workflow segments.
-
-* **[New workflow use cases](automating/using/workflow-created-query-with-complement.md)**<br/>
-Read our workflow query use cases.
-
-* **[Load file activity](automating/using/load-file.md)**<br/>
-Use the Load file activity to send an email containing additional data.
-
-[Click here for more updates](rn/using/documentation-updates.md)
-
-## Top pages
-
- <table>
-<tr>
-  <td valign="top">
-    <a href="administration/using/about-access-management.md">
-      <img alt="Roles" src="start/using/assets/roles.png"/>
-    </a>
-    <div>
-    <a href="administration/using/about-access-management.md"><strong>Roles and security groups</strong></a>
-    </div>
-    <em>Learn how to define permissions and assign roles to Campaign users.</em>
-    <br>
-  </td>
-  <td valign="top">
-    <a href="designing/using/designing-content-in-adobe-campaign.md">
-      <img alt="Designer" src="start/using/assets/design.png" />
-    </a>
-    <div>
-    <a href="designing/using/designing-content-in-adobe-campaign.md"><strong>Design an email</strong></a>
-    </div>
-    <em>Learn how to use the email designer to create responsive and personalized emails</em>
-    <br>
-  </td>
-  <td valign="top">
-       <img alt="Developers" src="start/using/assets/dev.png" />
-    <div>
-    <strong>Resources for developers</strong>
-    </div>
-    <p><em><a href="https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html">Adobe Campaign API</a></em></p>
-    <p><em><a href="integrating/using/about-adobe-experience-cloud-triggers.md">Adobe Experience Cloud Triggers</a></em></p>
-    <br>
-  </td>
-</tr>
-</table>
-
-
-## Additional Resources
-
-* [Release notes](rn/using/release-notes.md)
-
-* [Control Panel](https://helpx.adobe.com/campaign/kb/control-panel.html)
-
-* [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
-
-* [Release Planning guide](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
-
-* [Deprecated and Removed Features](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
-
+|  |  |  |
+|:---:|:---:|:---:|
+| [![image](/help/assets/start-400.png)](/help/start/using/campaign-orchestration.md) | [![image](/help/assets/access-400.png)](/help/administration/using/about-access-management.md) | [![image](/help/assets/design-400.png)](/help/designing/using/overview.md) |
+| [![image](/help/assets/email-400.png)](/help/channels/using/creating-an-email.md) | [![image](/help/assets/push-400.png)](/help/channels/using/about-push-notifications.md) | [![image](/help/assets/track-400.png)](/help/sending/using/tracking-messages.md) |
+| [![image](/help/assets/workflows-400.png)](/help/automating/using/building-a-workflow.md) | [![image](/help/assets/multi-400.png)](/help/integrating/using/about-campaign-integrations.md) | [![image](/help/assets/api-400.png)](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html) |
+| [![image](/help/assets/empty123456791.png)](https://docs.adobe.com/content/help/en/campaign-standard/using/campaign-standard-home.html) | [![image](/help/assets/empty123456791.png)](https://docs.adobe.com/content/help/en/campaign-standard/using/campaign-standard-home.html) | [![image](/help/assets/empty123456791.png)](https://docs.adobe.com/content/help/en/campaign-standard/using/campaign-standard-home.html) |
