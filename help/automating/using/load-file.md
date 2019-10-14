@@ -103,7 +103,7 @@ The activity configuration involves two steps. First, you need to define the exp
 
 1. Confirm the configuration of your activity and save your workflow.
 
-  If any error occurs with the activity after executing the workflow, refer to the logs to get more details on the values that are incorrect in the file. For more on workflows logs, refer to [this section](../../automating/using/executing-a-workflow.md##monitoring)
+  If any error occurs with the activity after executing the workflow, refer to the logs to get more details on the values that are incorrect in the file. For more on workflows logs, refer to [this section](../../automating/using/executing-a-workflow.md#monitoring)
 
 ## Column format {#column-format}
 
