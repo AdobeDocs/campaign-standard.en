@@ -45,11 +45,12 @@ Additional resources:
    <td> <p>CCPA is the California State’s new privacy law that harmonizes and modernizes data protection requirements going into effect on Jan 01, 2020. CCPA applies to Adobe Campaign customers who hold data for Data Subjects residing in California.</p>
    <p>In addition to the privacy capabilities already available in Adobe Campaign (including consent management, data retention settings, and user roles), we are taking this opportunity to include additional capabilities, to help facilitate your readiness for CCPA:</p>
    <ul>
-    <li>Right to Access and Right to Delete: we are leveraging the capabilities that were added for GDPR.</li>
-    <li>When creating a Privacy request, you can now select the regulation type: GDPR or CCPA.</li>
-    <li>A <strong>CCPA Opt-Out</strong> field has been added to the Profiles resource to allow Adobe Campaign users to track whether a consumer has opted-out for the sale of Personal Information.</li>
+    <li>Right to Access and Right to Delete: we are leveraging the capabilities that were added for GDPR. <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#righttoaccess">Learn more</a> </li>
+    <li><p>When creating a Privacy request, you can now select the regulation type: GDPR or CCPA.<p>
+      <p><strong>Note</strong>: this new field is mandatory. If you use the Campaign Privacy API for your access and delete requests, you will need to include it in your payload. See the <a href="https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#privacy-management">API documentation</a>.</p></li>
+    <li>A <strong>CCPA Opt-Out</strong> field has been added to the Profiles resource to allow Adobe Campaign users to track whether a consumer has opted-out for the sale of Personal Information. <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa">Learn more</a>.</li>
   </ul>
-      <p>For more information, refer to the <a href="https://helpx-internal.corp.adobe.com/content/help/en/campaign/kb/campaign-privacy.html">detailed documentation</a>.</p></td> 
+</td> 
   </tr> 
   <tr> 
    <td> Microsoft Dynamics 365 integration (GA)<br /> </td> 
@@ -74,7 +75,7 @@ Additional resources:
 
 ### Security enhancements {#security-enhancements-3}
 
-* 
+* Fixed an issue, when deleting a quanrantined profile's information via a privacy request, which removed all data except the email address in the quarantine list. 
 
 ### Email Designer enhancements {#email-designer-enhancements-3}
 
@@ -85,7 +86,7 @@ Additional resources:
 * Fixed an issue when saving modifications on the email sender in the **From: Name** field. (CAMP-36606)
 * The carousel component compatibility warning has been modified to reflect supported email clients.
 * Fixed a display issue on mobile. The height attribute is now always set to “height: auto” when adding or uploading a new image in an email. (CAMP-35497)
-* FFixed an issue which left style and meta tags in the HTML when deleting a fragment from a structure component. (CAMP-35390)
+* Fixed an issue which left style and meta tags in the HTML when deleting a fragment from a structure component. (CAMP-35390)
 * Fixed an issue with fragments when updating reusable content. (CAMP-35186)
 * Fixed an issue when displaying mobile only conditional content in emails. (CAMP-35155)
 * Fixed an issue which randomly displayed zero width non-breaking spaces. (CAMP-35116)
@@ -93,7 +94,7 @@ Additional resources:
 * Fixed a preview issue when adding an HTML tag in an image title and alternative text. 
 * Fixed an issue when editing, in the Email designer, links created in emails from the legacy editor.
 * Fixed an issue which left duplicated style tags in the content.
-* Fixed an issue with the date format when a inserting personalization field in an email. 
+* Fixed an issue with the date format when inserting a personalization field in an email. 
 * Fixed a saving issue when switching from HTML mode to plain text.
 * Fixed an issue when clicking the lock and unlock option which added margin values in the inline style property panel.
 * Fixed an issue with the size of mobile preview for better rendering.
@@ -136,7 +137,7 @@ Additional resources:
 * Fixed an issue that could prevent custom resources from being published. (CAMP-37425)
 * Fixed an issue that prevented Admin users from modifying import packages.  (CAMP-37176)
 * Fixed an issue in workflows that prevented proofs from being sent, if the delivery activity was connected to an empty **Read audience** activity. (CAMP-37164)
-* Fixed an issue that preventedcustom resources from being imported into a new environment. (CAMP-36506)
+* Fixed an issue that prevented custom resources from being imported into a new environment. (CAMP-36506)
 * Fixed an issue in hot click reports that could lead to percentages being hidden by images (CAMP-36407)
 * Fixed an issue that occurred when trying to export a delivery description field. (CAMP-35467)
 * The "Albanian - Macedonia" language has been added to the preferred language drop-down list. (CAMP-35396)
