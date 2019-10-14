@@ -30,7 +30,7 @@ Components help you customize your reports with different dimensions, metrics, a
 
     * **Dimensions**: Get details from the deliveries log, such as the recipient's browser or domain, or the success of a delivery.
     * **Metrics**: Get details on the status of a message. For example, if a message was delivered and did the user open it. 
-    * **[!UICONTROL Segments]**: Filter data depending on the recipient's age range. **[!UICONTROL Segments]** can be dragged and dropped directly in a freeform table or in the top bar of the panel.
+    * **[!UICONTROL Segments]**: Filter data depending on the recipient's age range. **[!UICONTROL Segments]** can be dragged and dropped directly in a freeform table or in the top bar of the panel. Starting Campaign 19.4 release, the **[!UICONTROL Exclude proof]** will already be selected by default but can be changed if needed.
 
       This category is only available once the administrator approved the terms and conditions of the Dynamic Reporting Usage Agreement that will be displayed on screen. If the administrator declines the agreement, the segments will not be visible in the **[!UICONTROL Components]** tab and data will not be collected.
     
