@@ -74,3 +74,4 @@ Use the Load file activity to send an email containing additional data.
 * [Release Planning guide](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
 
 * [Deprecated and Removed Features](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+

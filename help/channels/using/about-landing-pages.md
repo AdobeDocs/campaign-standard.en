@@ -20,6 +20,13 @@ snippet: y
 
 Campaign comes with landing pages which are web forms that can be used to capture information on your audiences, offer subscriptions to a service, display data and grow your database. Landing pages can also be used for acquiring or updating existing profiles.
 
+For more information on the required steps to set up a landing page, refer to [this section](../../channels/using/main-steps-to-set-up-a-landing-page.md)
+
+**Related topics:**
+
+* [Creating a landing page tutorial video](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-edit-landing-page-feature-video-use.html) video
+* [Using a landing page to subscribe a service](../../audiences/using/creating-a-service.md)
+
 ## Landing pages life cycle {#landing-pages-life-cycle}
 
 The full life cycle of a landing page is as follows:
@@ -66,11 +73,6 @@ Here only the first profile was updated since it was the oldest entry.
 
 ![](assets/landing_page_limitation_2.png)
 
-**Testing landing page**
+**Testing landing pages**
 
 * Landing pages work only on profiles and not test profiles meaning that landing pages cannot be tested as part of an email proof.
-
-**Related topics:**
-
-* [Creating a landing page](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-edit-landing-page-feature-video-use.html) video
-* [Use a landing page to subscribe a service](../../audiences/using/creating-a-service.md)
