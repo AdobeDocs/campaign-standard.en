@@ -66,7 +66,6 @@ Additional resources:
 
 * The consent pop-up for Dynamic reporting has been updated to include Adobe Campaign Standard and Microsoft Dynamics 365 integration. By accepting the terms, profile data will be included when using the Adobe Campaign Standard / Microsoft Dynamics 365 integration and Dynamic Reporting. [Read more](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) (CAMP-29766)
 * Fixed an issue which displayed incorrect contact dates when receiving delivery alerts. 
-* When editing a link using the email designer, you can now use the **Underline link** option. Also, a **Target** property has been added with the default value set to **None**.
 * When a transactional message event is submitted with an unknown context parameter, Campaign now returns a “400” error message instead of “500". (CAMP-28632)
 * A new **Exclude proof** segment has been added in Dynamic reporting. This segment is now selected by default to filter your reports. [Read more](../../reporting/using/list-of-components-.md#segments)
 * The **Message expiration** option has been added to push notification. It allows you to specify an expiration date where the message will no longer be sent by Apple (APNS) or Android (FCM). [Read more](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
@@ -81,8 +80,9 @@ Additional resources:
 
 ### Email Designer enhancements {#email-designer-enhancements-4}
 
+* When editing a link using the email designer, you can now use the **Underline link** option. Also, a **Target** property has been added with the default value set to **None**. [Read more](../../designing/using/styles.md#about-styling-links)
 * Fixed a color issue on links in text components in the body of an email. (CAMP-37330)
-* Fixed an issue which prevented associated links from being removed when deleting an image (CAMP-37234)
+* Fixed an issue which prevented associated links from being removed when deleting an image. (CAMP-37234)
 * Fixed an issue which prevented saving modifications on the **Order** settings of dynamic content in a condition. (CAMP-36883)
 * Fixed an issue when searching landing pages. The search has been extended from the 50 first created to all the database. (CAMP-36839)
 * Fixed an issue when saving modifications on the email sender in the **From: Name** field. (CAMP-36606)
@@ -102,7 +102,6 @@ Additional resources:
 * Fixed an issue with the size of mobile preview for better rendering.
 * Fixed an issue with the size of buttons in templates and fragments.
 * Fixed an issue with the size of images when inserted in a button component.
-
 
 ### Other changes {#other-changes-3}
 
