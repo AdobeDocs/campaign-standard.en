@@ -28,13 +28,14 @@ To do this in Adobe Campaign Standard, you can build a workflow including the fo
 
 ![](assets/wkf_control-group.png)
 
-## Creating a custom table {#creating-table}
+## Extending the Profile resource {#extending-profile}
 
 1. From **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom Resources]**, click **[!UICONTROL Create]**.
-1. Configure the screen definition.
+1. If you haven't extended it yet, select Extend an existing resource and choose the Profiles resource.
+1. Add a new field for the control group and select **[!UICONTROL Boolean 
 2. Update the database structure to publish the resource.
 
-For more on creating a custom table, see [Key steps to add a resource](../../developing/using/key-steps-to-add-a-resource.md).
+For more on extending a custom resource, see [Key steps to add a resource](../../developing/using/key-steps-to-add-a-resource.md).
 
 ## Creating a workflow {#creating-a-workflow}
 
