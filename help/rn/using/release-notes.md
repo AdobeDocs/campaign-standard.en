@@ -49,13 +49,14 @@ Additional resources:
     <li><p>When creating a Privacy request, the regulation type (GDPR or CCPA) has been added in the Privacy Core Service. This method is the one you should use for all access and delete requests. The use of the Campaign API and interface for access and delete requests is deprecated. However, if you still need to use these methods in 19.4, please note that the regulation type has been added in Campaign interface and API and is mandatory. For the interface, the default value will be set to GDPR. For the API, you will need to include this field in your payload. See the <a href="https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#privacy-management">API documentation</a>.</p></li>
     <li>A <strong>CCPA Opt-Out</strong> field has been added to the Profiles resource to allow Adobe Campaign users to track whether a consumer has opted-out for the sale of Personal Information. <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa">Learn more</a>.</li>
   </ul>
+    <p>Refer to the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">how-to video</a>.</p>
 </td> 
   </tr> 
   <tr> 
    <td> Microsoft Dynamics 365 integration (GA)<br /> </td> 
    <td> 
     <p>The integration between Adobe Campaign Standard and Microsoft Dynamics 365 is now available. You’ll be able to transfer your contact and custom entity records from Dynamics 365 to Campaign, and get email event data back from Campaign to Dynamics 365 for better sales/marketing alignment.</p>
-    <p>Refer to the <a href="https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html">detailed documentation</a> to set this integration up.</p>
+    <p>Refer to the <a href="https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html">detailed documentation</a> to set this integration up and view the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/integrating/microsoft-dynamics365-connector/introduction.html">how-to video</a>.</p>
   </td>
   </tr> 
  </tbody> 
