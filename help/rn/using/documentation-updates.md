@@ -38,6 +38,10 @@ The list of error messages for Campaign Standard and Classic has been updated. [
 
 The GDPR getting started guide has been improved and enriched. It is now a privacy management documentation including GDPR and CCPA. [Read more](https://helpx-internal.corp.adobe.com/content/help/en/campaign/kb/campaign-privacy.html)
 
+A new chart presenting the transactional messaging publication process has been added. [Read more](../../channels/using/about-transactional-messaging.md#transactional-messaging-pub-process)
+
+The Delivery Best Practices getting started guide has been updated. [Read more](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+
 ## Documentation updates - October 2019 {#doc-updates-october-2019}
 
 A new section related to Campaign Standard settings was added. [Read more](../../administration/using/about-campaign-standard-settings.md)
@@ -54,7 +58,7 @@ A new section was added in the Push notifications section on how to create and u
 
 A new example showing how to send an email containing additional data retrieved from a load file activity has been added. [Read more](../../automating/using/load-file.md#example-2-email-with-enriched-fields)
 
-A new section on how to use traps has been added. [Read more](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps). 
+A new section on how to use traps has been added. [Read more](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps).
 
 A note about the **Launch_URL_Campaign** option was added in the page on how to configure a mobile application using Adobe Experience Platform SDKs. [Read more](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
 

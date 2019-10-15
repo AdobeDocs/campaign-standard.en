@@ -105,6 +105,30 @@ To add a category in a push notification:
 
 Depending on the user's action, the application will be notified so that it can perform any associated tasks.
 
+## Add an expiration date {#add-expiration-date}
+
+ >[!NOTE]
+ >
+ >These changes only apply starting Campaign Standard 19.4 release.
+
+Setting an expiration date to your push notification allows you to set a specific expiration date where the message will no longer be sent by Apple ([APNS](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/sending_notification_requests_to_apns)) or Android ([FCM](https://firebase.google.com/docs/cloud-messaging/concept-options)).
+
+To add an expiration date to your push notification:
+
+1. Check the **[!UICONTROL Expire message]** option.
+
+    >[!NOTE]
+    >
+    >By selecting the **[!UICONTROL Expire message]** option, the duration is automatically set to 0. If you do not change the value, both APNS and FCM will try to send the message immediately. If it fails, the message will not be resent.
+
+1. In the **[!UICONTROL Duration]** field, select the validity of your push notification.
+
+   ![](assets/push_expiration.png)
+
+1. After sending your push notification, if the user didn't receive it right away due to the phone not being on or not having a signal, the push will still be sent within the expiration date time slot.
+
+Note that if the push notification has not been sent before the expiration date, it will be discarded.
+
 ## Add custom fields {#add-custom-fields}
 
 Custom fields allow you to pass custom data in the payload in the form of a key value pair. This option can be used to pass additional data to the application beyond the pre-defined keys.

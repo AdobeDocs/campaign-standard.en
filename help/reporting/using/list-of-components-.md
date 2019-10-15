@@ -59,6 +59,10 @@ The table below gives you the list of dimensions used in reports and their defin
    <td> Device from which the email/SMS/push notification was opened/viewed/clicked on.<br /> </td> 
   </tr> 
   <tr> 
+   <td> Failure reason<br /> </td> 
+   <td> Types of errors that caused bounces for each delivery e.g. user unknown, invalid domain or mailbox full.<br /> </td> 
+  </tr> 
+  <tr> 
    <td> Gender<br /> </td> 
    <td> Recipient's gender such as male or female. If the gender field is empty in the recipient's profile, the value will be none.<br /> </td> 
   </tr> 
@@ -374,6 +378,10 @@ The tables below give you the list of metrics used in reports and their definiti
 
 ## Segments {#segments}
 
+>[!NOTE]
+>
+>By default, the **[!UICONTROL Exclude proof]** segment is alredy selected to filter your reports but can be changed if needed.
+
 The table below gives you the list of segments used in reports and their definitions.
 
 <table> 
@@ -447,6 +455,10 @@ The table below gives you the list of segments used in reports and their definit
   <tr> 
    <td> All visits<br /> </td> 
    <td> Every recipient<br /> </td> 
+  </tr> 
+    <tr> 
+   <td> Exclude proof<br /> </td> 
+   <td> Exclude proofs from your reports (starting Campaign 19.4 release only)<br /> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -89,11 +89,11 @@ The activity configuration involves two steps. First, you need to define the exp
     * Comes from an inbound transition in the workflow.
     * Is the one that you uploaded during the previous step.
     * Is a new file to upload from the local machine. The **[!UICONTROL Upload a new file from local machine]** option appears if uploading a first file was already defined in the workflow. This allows you to upload another file to be processed if the current file does not suit your needs.
-    
+
       ![](assets/wkf_file_loading1.png)
 
 1. If the file that you want to load the data from is compressed into a GZIP file (.gz), select the **[!UICONTROL Decompression]** option in the **[!UICONTROL Add a pre-processing step]** field. This allows you to unzip the file before loading the data. This option is only available if the file comes from the activity's inbound transition.
-1. The **[!UICONTROL Keep the rejects in a file]** option enables you to download a file containing errors that occurred during the import, and to apply to it a post-processing stage.
+1. The **[!UICONTROL Keep the rejects in a file]** option enables you to download a file containing errors that occurred during the import, and to apply to it a post-processing stage. When the option is activated, the outbound transition is renamed as "Rejects".
 
    >[!NOTE]
    >
@@ -102,6 +102,8 @@ The activity configuration involves two steps. First, you need to define the exp
    ![](assets/wkf_file_loading_keeprejects.png)
 
 1. Confirm the configuration of your activity and save your workflow.
+
+  If any error occurs with the activity after executing the workflow, refer to the logs to get more details on the values that are incorrect in the file. For more on workflows logs, refer to [this section](../../automating/using/executing-a-workflow.md#monitoring)
 
 ## Column format {#column-format}
 
@@ -122,7 +124,7 @@ The column formatting allows you to define the value processing of each column:
     * **[!UICONTROL Maximum number of characters]**: specifies the maximum number of characters for string type columns.
 
       This field must be filled in when loading files made up of columns with fixed length. 
-    
+
     * **[!UICONTROL Letter case management]**: defines whether a character case process needs to be applied for **Text** data.
     * **[!UICONTROL White space management]**: specifies whether certain spaces need to be ignored in a string for **Text** data.
     * **[!UICONTROL Time format]**, **[!UICONTROL Date format]**: specify the format for **Date**, **Time** and **Date and time** data.

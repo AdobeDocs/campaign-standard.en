@@ -172,6 +172,30 @@ You want to adjust padding and vertical alignment inside a structure component c
 
 1. Save your changes.
 
+### About styling links {#about-styling-links}
+
+You can underline a link and select its color and target in the Email Designer.
+
+1. In a component where a link is inserted, select the label text of your link.
+
+1. In the component settings, check **[!UICONTROL Underline link]** to underline the label text of your link.
+
+   ![](assets/stylelinks-selecttext.png)
+
+1. To select in which browsing context your link will be opened select a **[!UICONTROL Target]**.
+
+   ![](assets/stylelinks-target.png)
+
+1. To change the color of your link, click on **[!UICONTROL Link color]**.
+
+   ![](assets/stylelinks-colorpicker.png)
+
+1. Pick the color you need.
+
+   ![](assets/stylelinks-colorchanged.png)
+
+1. Save your changes.
+
 ### Adding inline styling attributes {#adding-inline-styling-attributes}
 
 In the Email Designer interface, when you select an element and display its settings on the side panel, you can customize the inline attributes and their value for that specific element.
