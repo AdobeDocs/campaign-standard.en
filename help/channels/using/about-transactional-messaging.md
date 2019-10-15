@@ -59,6 +59,14 @@ The steps for putting this into place are:
 
 Once all of these steps have been carried out, as soon as a user leaves the site without ordering the products in their cart, they automatically receive a notification email.
 
+## Transactional messaging publication process {#transactional-messaging-pub-process}
+
+The chart below illustrates the transactional messaging publication process.
+
+![](assets/message-center_pub-process.png)
+
+For more on the event configuration steps, see [Transactional messaging configuration](../../administration/using/configuring-transactional-messaging.md).
+
 ## Transactional messaging limitations {#transactional-messaging-limitations}
 
 >[!NOTE]

@@ -18,11 +18,132 @@ snippet: y
 
 # Release Notes{#release-notes}
 
-Looking for a specific release of Adobe Campaign Standard?
+All 2019 releases, with their new features and patches, are listed in this page. Control Panel updates are also included.
+ 
+Additional resources:
 
-Each release comes with new features and patches. Click on a release to view its content. Consult the [Release Planning](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) to find out when the next release will happen.
+* [Campaign Release Planning](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
+* [Latest Documentation Updates](../../rn/using/documentation-updates.md)
+* [Deprecated and Removed Features](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
+* [Control Panel](https://helpx.adobe.com/campaign/kb/control-panel.html)
+* Previous Release Notes: [2018](../../rn/using/release-notes-2018.md), [2017](../../rn/using/release-notes-2017.md), [2015-2016](../../rn/using/release-notes-2015-2016.md)
 
-View the latest [documentation updates](../../rn/using/documentation-updates.md) for Adobe Campaign Standard. If you're looking for a previous release, consult these pages: [2018 Release Notes](../../rn/using/release-notes-2018.md), [2017 Release Notes](../../rn/using/release-notes-2017.md), [2015-2016 Release Notes](../../rn/using/release-notes-2015-2016.md). Also consult the list of [Deprecated and Removed Features](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html).
+## Release 19.4 - October 2019 {#release-19-4---october-2019}
+
+### What's new? {#what-s-new-5}
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> Functionality<br /> </th> 
+   <th> Description<br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> California Consumer Privacy Act (CCPA)<br /> </td> 
+   <td> <p>CCPA is the California State’s new privacy law that harmonizes and modernizes data protection requirements going into effect on Jan 01, 2020. CCPA applies to Adobe Campaign customers who hold data for Data Subjects residing in California.</p>
+   <p>In addition to the privacy capabilities already available in Adobe Campaign (including consent management, data retention settings, and user roles), we are taking this opportunity to include additional capabilities, to help facilitate your readiness for CCPA:</p>
+   <ul>
+    <li>Right to Access and Right to Delete: we are leveraging the capabilities that were added for GDPR. <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#righttoaccess">Learn more</a> </li>
+    <li><p>When creating a Privacy request, you can now select the regulation type: GDPR or CCPA.<p>
+      <p><strong>Note</strong>: this new field is mandatory. If you use the Campaign Privacy API for your access and delete requests, you will need to include it in your payload. See the <a href="https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#privacy-management">API documentation</a>.</p></li>
+    <li>A <strong>CCPA Opt-Out</strong> field has been added to the Profiles resource to allow Adobe Campaign users to track whether a consumer has opted-out for the sale of Personal Information. <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa">Learn more</a>.</li>
+  </ul>
+</td> 
+  </tr> 
+  <tr> 
+   <td> Microsoft Dynamics 365 integration (GA)<br /> </td> 
+   <td> 
+    <p>The integration between Adobe Campaign Standard and Microsoft Dynamics 365 is now available. You’ll be able to transfer your contact and custom entity records from Dynamics 365 to Campaign, and get email event data back from Campaign to Dynamics 365 for better sales/marketing alignment.</p>
+    <p>Refer to the <a href="https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html">detailed documentation</a> to set this integration up.</p>
+  </td>
+  </tr> 
+ </tbody> 
+</table>
+
+### Improvements {#improvements-3}
+
+* The consent pop-up for Dynamic reporting has been updated to include Adobe Campaign Standard and Microsoft Dynamics 365 integration. By accepting the terms, profile data will be included when using the Adobe Campaign Standard / Microsoft Dynamics 365 integration and Dynamic Reporting. [Read more](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) (CAMP-29766)
+* Fixed an issue which displayed incorrect contact dates when receiving delivery alerts. 
+* When a transactional message event is submitted with an unknown context parameter, Campaign now returns a “400” error message instead of “500". (CAMP-28632)
+* A new **Exclude proof** segment has been added in Dynamic reporting. This segment is now selected by default to filter your reports. [Read more](../../reporting/using/list-of-components-.md#segments)
+* The **Message expiration** option has been added to push notification. It allows you to specify an expiration date where the message will no longer be sent by Apple (APNS) or Android (FCM). [Read more](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
+* Improvements have been made to the **Load file** activity: workflow logs have been made clearer and more detailed about the error that occurs when a file fails to load. The outbound transition generated when activating the **Keep the rejects in a file** option has been renamed **Rejects**. [Read more](../../automating/using/load-file.md#load-files)
+* Multilingual related logs have been added to the sending logs to better understand sending failures due to missing languages in the uploaded CSV files.
+
+### Security enhancements {#security-enhancements-3}
+
+* Fixed an issue, when deleting a quanrantined profile's information via a privacy request, which removed all data except the email address in the quarantine list. 
+* Security has been enhanced for protection against injections in email headers.
+* Security has been enhanced for protection against SSRF attacks where xtk expressions can be used (email HTML, text content and subject, SMS and push notification content).
+
+### Email Designer enhancements {#email-designer-enhancements-4}
+
+* When editing a link using the email designer, you can now use the **Underline link** option. Also, a **Target** property has been added with the default value set to **None**. [Read more](../../designing/using/styles.md#about-styling-links)
+* Fixed a color issue on links in text components in the body of an email. (CAMP-37330)
+* Fixed an issue which prevented associated links from being removed when deleting an image. (CAMP-37234)
+* Fixed an issue which prevented saving modifications on the **Order** settings of dynamic content in a condition. (CAMP-36883)
+* Fixed an issue when searching landing pages. The search has been extended from the 50 first created to all the database. (CAMP-36839)
+* Fixed an issue when saving modifications on the email sender in the **From: Name** field. (CAMP-36606)
+* The carousel component compatibility warning has been modified to reflect supported email clients.
+* Fixed a display issue on mobile. The height attribute is now always set to “height: auto” when adding or uploading a new image in an email. (CAMP-35497)
+* Fixed an issue which left style and meta tags in the HTML when deleting a fragment from a structure component. (CAMP-35390)
+* Fixed an issue with fragments when updating reusable content. (CAMP-35186)
+* Fixed an issue when displaying mobile only conditional content in emails. (CAMP-35155)
+* Fixed an issue which randomly displayed zero width non-breaking spaces. (CAMP-35116)
+* Fixed an issue with the position of buttons in the **Save as fragment** dialog box.
+* Fixed a preview issue when adding an HTML tag in an image title and alternative text. 
+* Fixed an issue when editing, in the Email designer, links created in emails from the legacy editor.
+* Fixed an issue which left duplicated style tags in the content.
+* Fixed an issue with the date format when inserting a personalization field in an email. 
+* Fixed a saving issue when switching from HTML mode to plain text.
+* Fixed an issue when clicking the lock and unlock option which added margin values in the inline style property panel.
+* Fixed an issue with the size of mobile preview for better rendering.
+* Fixed an issue with the size of buttons in templates and fragments.
+* Fixed an issue with the size of images when inserted in a button component.
+
+### Other changes {#other-changes-3}
+
+* The default time range for which data is shown on the delivery KPI pages and on the Dynamic Reporting page has been aligned to prevent discrepancy in reporting results. (CAMP-35148)
+* An error message has been added in logs when the application certificate is expired. 
+* The payload calculation preview now includes custom field size to prevent push notification failures. (CAMP-35303)
+* The name of the **Rejects file** in the **Load file** activity can now be personalized in the same was as in the **File export** activity.
+* All custom entities that are not linked to any out-of-the-box entity can now be accessed via the API.
+* Improved database performance on large resources. 
+* The descriptions of some errors occurring when sending SMS messages have been made clearer. (CAMP-36558) 
+* An error message now displays when executing a workflow's **Scheduler** activity that is connected to itself, either directly or through several activities, as this could lead to the instance's workflow server being stuck.
+* Improvements have been made to help troubleshoot transactional messaging: the "Data" link has been renamed "Last transactional events" in the event configuration screen, it now lists the received events sorted in a descending order. Also, a new transactional event status has been created: "targetingFailed". When the transactional messaging module fails to enrich a link that is used for message targeting, the transactional event will now be in this new state (instead of the "routingFailed" status).
+* Improvements have been made to the interface when restricting landing page access to specific geographical or organizational units. The purpose is to warn that the landing page may be subject to visibility conditions: the selection of a geographical and organizational unit when creating a landing page is now mandatory. A banner with related information now displays once a unit is selected. The error message that displays when testing the landing page has been made clearer.
+* In Campaign Standard APIs, custom keys cannot be modified using a PATCH operation if the key value is different from the origin key, or if you are using your own business key as URI instead of the one provided by Adobe.
+* The "Albanian - Macedonia" language has been added to the preferred language drop-down list. (CAMP-35396)
+
+### Patches {#patches-4}
+
+* Fixed an issue that prevented scheduled reports from being sorted or searched.
+* Fixed an issue with Triggers rules which caused the AND and OR rules to be mixed up. 
+* Fixed an issue that displayed the Mobile property as Deleted in Launch. (CAMP-35382)
+* Fixed an issue which prevented Adobe Launch mobile properties from being synchronized in Adobe Campaign. (CAMP-35411, CAMP-35089, CAMP-35014, CAMP-35487)
+* Fixed an issue where transactional push messages failed when events were enriched with profile data. (CAMP-34385)
+* Fixed an issue with mobile properties not syncing on multiple environments. (CAMP-37060)
+* Fixed an issue when selecting, in a push notification, a template using a contact date formula. (CAMP-35300)
+* Fixed an issue which could cause the message sending service to crash. (CAMP-35287)
+* Fixed an issue with recurring direct mails which were all defined with the first event date. (CAMP-35139)
+* Fixed an issue with newly extended **Profiles** custom resources which were not available for queries. (CAMP-35119)
+* Fixed the **Repair database structure** mode for instances with Sharding configuration activated. (CAMP-35118)
+* Fixed an issue which led to an SQL log error when adding aggregate data on broadlogs. (CAMP-35034)
+* Fixed an issue with transitions when creating a **Segmentation** activity. (CAMP-35033)
+* Fixed an issue in the **Query** activity which prevented the **encryption_aescbcDecrypt** function from decrypting the **encryption_aescbcEncrypt** function. (CAMP-34952)
+* Fixed an issue which could prevent the **Tracking logs** from being displayed in deliveries. (CAMP-34855)
+* Fixed an issue, when using a **Send time optimization** custom date formula, which could prevent push notifications from being sent due to errors with the workflow's additional data. (CAMP-30336)
+* Fixed an issue that could prevent custom resources from being published. (CAMP-37425)
+* Fixed an issue that prevented Admin users from modifying import packages.  (CAMP-37176)
+* Fixed an issue in workflows that prevented proofs from being sent, if the delivery activity was connected to an empty **Read audience** activity. (CAMP-37164)
+* Fixed an issue that prevented custom resources from being imported into a new environment. (CAMP-36506)
+* Fixed an issue in hot click reports that could lead to percentages being hidden by images (CAMP-36407)
+* Fixed an issue that occurred when trying to export a delivery description field. (CAMP-35467)
+* Fixed an issue that could leave the state of a delivery as "Start pending” although the delivery was finished. (CAMP-35355)
+* Fixed an issue that prevented workflow logs from being displayed after enabling, then disabling SQL logs.
 
 ## Control Panel update - August 2019 {#controlpanel-update---august-2019}
 
