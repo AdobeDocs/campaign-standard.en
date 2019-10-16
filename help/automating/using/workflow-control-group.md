@@ -24,16 +24,16 @@ To do this in Adobe Campaign Standard, you can build a workflow including the fo
 * A Query activity to target a given population.
 * A Segmentation activity to isolate a random control group from this population.
 * An Email delivery activity to send a message to the main target, which will be tracked as usual in the sending logs.
-* An Update data activity to track the profiles excluded from the target in a custom table, outside the message sending logs.
+* An Update data activity to track the profiles excluded from the target in the **[!UICONTROL Profiles]** resource, outside the message sending logs.
 
 ![](assets/wkf_control-group.png)
 
 ## Extending the Profile resource {#extending-profile}
 
 1. From **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom Resources]**, click **[!UICONTROL Create]**.
-1. If you haven't extended it yet, select Extend an existing resource and choose the Profiles resource.
-1. Add a new field for the control group and select **[!UICONTROL Boolean 
-2. Update the database structure to publish the resource.
+1. If you haven't extended it yet, select **[!UICONTROL Extend an existing resource]** and choose the **[!UICONTROL Profiles]** resource.
+1. Add a new field for the control group and select **[!UICONTROL Boolean]** for the field **[!UICONTROL Type]**.
+2. Update the database structure to publish the **[!UICONTROL Profiles]** extended resource.
 
 For more on extending a custom resource, see [Key steps to add a resource](../../developing/using/key-steps-to-add-a-resource.md).
 
@@ -78,20 +78,25 @@ For more on extending a custom resource, see [Key steps to add a resource](../..
 1. Enter the email properties and click **[!UICONTROL Next]**.
 1. To create the layout of your email, click on **[!UICONTROL Use the Email Designer]**.
 1. Edit and save your content.
-1. In the Schedule section of the message dashboard, unselect the **[!UICONTROL Request confirmation before sending messages}** option.
+1. In the **[!UICONTROL Schedule]** section of the message dashboard, unselect the **[!UICONTROL Request confirmation before sending messages}** option.
 
 ## Creating an Update data activity {#creating-update-data-activity}
 
 1. Drag and drop an **[!UICONTROL Update data]** activity after the control group segment.
 1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
-1. In the **[!UICONTROL Identification]** tab, select the custom table that you previously created.
+1. In the **[!UICONTROL Identification]** tab, select the **[!UICONTROL Profiles]** resource that you previously extended.
 
     ![](assets/wkf_control-update-identification.png)
 
-1. In the **[!UICONTROL Fields to update]** tab, specify the fields on which the update will be applied.
+1. In the **[!UICONTROL Fields to update]** tab, specify the fields on which the update will be applied: select the control group field that you added to the **[!UICONTROL Profiles]** resource as the **[!UICONTROL Destination]** through the **[!UICONTROL Additional data]** > **[!UICONTROL Targeting dimension]** node.
+
+    ![](assets/wkf_control-update-fields-to-update.png)
+
 1. Click **[!UICONTROL Confirm]**.
 
-Once the workflow is run, the message is sent to the main target and tracked in the sending logs for these profiles. The population of the control group is excluded and its data is exported to the custom table.
+Once the workflow is run, the message is sent to the main target and tracked in the sending logs for these profiles.
+
+The population of the control group is excluded and the **[!UICONTROL Profiles]** resource is updated: if a profile was in the control group, the corresponding field is updated.
 
 You can now compare how the recipients of the message will react compared to the small group who was excluded from the message and did not receive it.
 
