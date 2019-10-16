@@ -56,6 +56,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Creating a service](audiences/using/creating-a-service.md)
        + [Promoting a service](audiences/using/promoting-a-service.md)
        + [Monitoring subscriptions](audiences/using/monitoring-subscriptions.md)
+       + [Confirming subscription to a service](audiences/using/confirming-subscription-to-a-service.md)
   + Understanding opt-in and opt-out processes {#understanding-opt-in-and-opt-out-processes}
        + [About opt-in and opt-out in Campaign](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
        + [Managing opt-in and opt-out in Campaign](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
@@ -104,16 +105,12 @@ user-guide-title: Adobe Campaign Standard Help
        + [Follow-up messages](channels/using/follow-up-messages.md)
   + Landing pages {#landing-pages}
        + [About landing pages](channels/using/about-landing-pages.md)
-       + [Landing page limitations](channels/using/landing-page-limitations.md)
+       + [Main steps to set up a landing page](channels/using/main-steps-to-set-up-a-landing-page.md)
+       + [About landing page templates](channels/using/landing-page-templates.md)
        + [Designing a landing page](channels/using/designing-a-landing-page.md)
+       + [Managing landing page form data](channels/using/managing-landing-page-form-data.md)
        + [Sharing a landing page](channels/using/sharing-a-landing-page.md)
-       + [Data storage and reconciliation](channels/using/data-storage-and-reconciliation.md)
        + [Setting up a double opt-in process](channels/using/setting-up-a-double-opt-in-process.md)
-       + [About landing page content design](channels/using/about-landing-page-content-design.md)
-       + [Landing page content editor interface](channels/using/landing-page-content-editor-interface.md)
-       + [Managing landing page structure and style](channels/using/managing-landing-page-structure-and-style.md)
-       + [Changing a landing page form data properties](channels/using/changing-a-landing-page-form-data-properties.md)
-       + [Defining dynamic content in a landing page](channels/using/defining-dynamic-content-in-a-landing-page.md)
 + Designing email content {#designing-content}
   + [Campaign Email Designer](designing/using/designing-content-in-adobe-campaign.md)
   + [Quick Start](designing/using/quick-start.md)
@@ -125,7 +122,7 @@ user-guide-title: Adobe Campaign Standard Help
   + [Multi-solution email design](designing/using/using-integrations.md)
   + [Personalization](designing/using/personalization.md)
   + [Plain text and HTML modes](designing/using/plain-text-html-modes.md)
-  + [Managing styles](designing/using/styles.md)
+  + [Managing email styles](designing/using/styles.md)
   + [Managing links](designing/using/links.md)
   + [Managing images](designing/using/images.md)
 + Testing and Sending {#testing-and-sending}
@@ -134,6 +131,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Previewing messages](sending/using/previewing-messages.md)
        + [Preparing the send](sending/using/preparing-the-send.md)
        + [Managing test profiles and sending proofs](sending/using/managing-test-profiles-and-sending-proofs.md)
+       + [Testing the subject line of an email](sending/using/testing-subject-line-email.md)
        + [Email rendering](sending/using/email-rendering.md)
   + Sheduling messages {#sheduling-messages}
        + [About scheduling messages](sending/using/about-scheduling-messages.md)
@@ -318,6 +316,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Fatigue rules](administration/using/fatigue-rules.md)
        + [Control rules](administration/using/control-rules.md)
   + Application settings {#application-settings}
+       + [About Campaign Standard settings](administration/using/about-campaign-standard-settings.md)
        + [External accounts](administration/using/external-accounts.md)
        + [Target mappings in Campaign](administration/using/target-mappings-in-campaign.md)
        + [Technical workflows](administration/using/technical-workflows.md)

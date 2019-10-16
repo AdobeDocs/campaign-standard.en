@@ -54,7 +54,7 @@ This feature is disabled by default. It is enabled when the first model is impor
 
 **Related Topic** 
 
-* [Testing a subject line](../../sending/using/testing-subject-line-email.md)
+* [Testing the subject line of an email](../../sending/using/testing-subject-line-email.md)
 
 ## Email sender {#email-sender}
 

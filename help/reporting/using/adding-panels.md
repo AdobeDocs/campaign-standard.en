@@ -50,7 +50,7 @@ Each table and visualization is resizable and can be moved to better customize y
 
    ![](assets/dynamic_report_panel_2.png)
 
-1. If needed, drag and drop **[!UICONTROL Segments]** from the **[!UICONTROL Components]** tab into the top bar to filter your report depending on your recipient's age range.
+1. Starting Campaign 19.4 release, the **[!UICONTROL Exclude proof]** will already be selected by default. If needed, you can change it by drag and dropping one of the **[!UICONTROL Segments]** from the **[!UICONTROL Components]** tab into the top bar.
 
    ![](assets/dynamic_report_panel_3.png)
 

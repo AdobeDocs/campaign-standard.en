@@ -46,7 +46,7 @@ Only the follow-up messages are displayed.
 
 >[!NOTE]
 >
->To access the transactional messages, you must have administration rights or appear in the **[!UICONTROL Message Center agents]** (mcExec) security group.
+>To access transactional messages, you must be part of the **[!UICONTROL Administrators (all units)]** security group.
 
 ## Sending a follow-up message {#sending-a-follow-up-message}
 
@@ -112,7 +112,7 @@ Once you created the follow-up delivery template, you can use it in a workflow t
 
    ![](assets/message-center_follow-up-content.png)
 
-1. Find the fields that you defined when creating your event by selecting **[!UICONTROL Transactional event]** > **[!UICONTROL Event context]**. See [Personalizing a transactional message](../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message).
+1. Find the fields that you defined when creating your event by selecting **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**. See [Personalizing a transactional message](../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message).
 
    ![](assets/message-center_follow-up-personalization.png)
 

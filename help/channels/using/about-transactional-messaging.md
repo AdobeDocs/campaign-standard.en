@@ -43,7 +43,7 @@ The message type is defined when configuring the event that will be transformed 
 >
 >Adobe Campaign prioritizes processing the transactional messages over any other delivery.
 
-Transactional messaging is also available from the Adobe Campaign Standard API. For more on this, refer to the [dedicated documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#about-transactional-messaging).
+Transactional messaging is also available from the Adobe Campaign Standard API. For more on this, refer to the [dedicated documentation](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#about-transactional-messaging).
 
 ## Transactional messaging operating principle {#transactional-messaging-operating-principle}
 
@@ -59,7 +59,19 @@ The steps for putting this into place are:
 
 Once all of these steps have been carried out, as soon as a user leaves the site without ordering the products in their cart, they automatically receive a notification email.
 
+## Transactional messaging publication process {#transactional-messaging-pub-process}
+
+The chart below illustrates the transactional messaging publication process.
+
+![](assets/message-center_pub-process.png)
+
+For more on the event configuration steps, see [Transactional messaging configuration](../../administration/using/configuring-transactional-messaging.md).
+
 ## Transactional messaging limitations {#transactional-messaging-limitations}
+
+>[!NOTE]
+>
+>To access transactional messages, you must have administration rights.
 
 ### Design and publication {#design-and-publication}
 
@@ -92,13 +104,13 @@ Note that product listings are available in transactional email messages only. S
 
 ### Permissions and branding {#permissions-and-branding}
 
-When it comes to [branding](../../administration/using/branding.md) management, transactional messaging enables less flexibility than standard messaging. Adobe recommends linking all brands used in transactional messages to the **[!UICONTROL All]** organizational unit. For more on this, read the detailed explanation below.
+When it comes to [branding](../../administration/using/branding.md) management, transactional messaging enables less flexibility than standard messaging. Adobe recommends linking all brands used in transactional messages to the **[!UICONTROL All]** [organizational unit](../../administration/using/organizational-units.md). For more on this, read the detailed explanation below.
 
 When editing a transactional message, you can link it to a brand to automatically apply some parameters such as the brand name or the brand logo. The **[!UICONTROL Default brand]** is selected by default in the transactional message properties.
 
 ![](assets/message-center_branding.png)
 
-To access the transactional messages, you must be part of the **[!UICONTROL Message Center agents]** (mcExec) security group, which is linked to the **[!UICONTROL Message Center]** [organizational unit](../../administration/using/organizational-units.md). Therefore, all objects (including branding) used in a transactional message must be visible from the **[!UICONTROL Message Center]** organizational unit, meaning that these objects must be in the **[!UICONTROL Message Center]** or **[!UICONTROL All]** organizational units.
+All objects (including branding) used in a transactional message must be visible from the **[!UICONTROL Message Center]** organizational unit, meaning that these objects must be in the **[!UICONTROL Message Center]** or **[!UICONTROL All]** organizational units.
 
 However, if the brand selected in the message properties is linked to an organizational unit which is different from **[!UICONTROL Message Center]** or **[!UICONTROL All]**, this will cause an error and you will not be able to send the transactional message.
 

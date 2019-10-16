@@ -28,7 +28,9 @@ In order for the event to trigger sending a transactional message, you have to p
 
 >[!NOTE]
 >
->To access the transactional messages, you must have administration rights or appear in the **[!UICONTROL Message Center agents]** (mcExec) security group. Event transactional messages do not contain profile information, therefore they are not compatible with fatigue rules (even in the case of an enrichment with profiles). See [Fatigue rules](../../administration/using/fatigue-rules.md#choosing-the-channel).
+>To access transactional messages, you must be part of the **[!UICONTROL Administrators (all units)]** security group.
+>
+>Event transactional messages do not contain profile information, therefore they are not compatible with fatigue rules (even in the case of an enrichment with profiles). See [Fatigue rules](../../administration/using/fatigue-rules.md#choosing-the-channel).
 
 ## Defining a test profile in a transactional message {#defining-a-test-profile-in-a-transactional-message}
 
@@ -79,27 +81,33 @@ You can now access the message that you created and select the updated test prof
 
 To set up personalization in a transactional message, follow the steps below:
 
-1. Click the **[!UICONTROL Content]** block to modify your message's subject and content. For this example, import an HTML template containing images, the style sheet, and an HTML file. Importing HTML templates is presented in the [Loading an existing content](../../designing/using/using-existing-content.md) section.
+1. Click the **[!UICONTROL Content]** block to modify your message's subject and content. For this example, select any template containing images and text. For more on email content templates, see [Designing using templates](../../designing/using/using-reusable-content.md#designing-templates).
 
    ![](assets/message-center_6.png)
 
-1. Enter your message content. In this example, we have added three personalization fields: last name, last product consulted, total cart amount. The link to the abandoned cart is a link to an external URL that will redirect the person to their cart. This parameter is not managed in Adobe Campaign.
+1. Add a subject and edit your message content to suit your needs.
 
-   To add fields that you defined when you created your event (see [Configuring an event](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message)), insert a personalization field in the message content. You can find the fields by selecting **[!UICONTROL Transactional event]** > **[!UICONTROL Event context]**.
+    >[NOTE]
+    >
+    >The link to the abandoned cart is a link to an external URL that will redirect the person to their cart. This parameter is not managed in Adobe Campaign.
+
+1. In this example, you want to add three fields that you defined when you [created your event](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message): first name, last product consulted, total cart amount. To do this, [insert a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field) in the message content.
+    
+1. Browse to those fields through **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
 
    ![](assets/message-center_7.png)
 
-1. To enrich the content of your message, add fields by selecting them from the table with which you linked your event. In our example, select the **[!UICONTROL Title (salutation)]** field in the **[!UICONTROL Profile]** table.
+1. To enrich the content of your message, add fields by selecting them from the table with which you linked your event. In our example, select the **[!UICONTROL Title (salutation)]** field in the **[!UICONTROL Profile]** table through **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
 
    ![](assets/message-center_7-enrichment.png)
 
-   The steps for inserting a personalization field are detailed in the [Inserting a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field) section.
+1. Insert all the fields needed.
 
    ![](assets/message-center_8.png)
 
 1. Preview your message by selecting the profile that you defined for this event.
 
-   The steps for previewing a message are detailed in the [Previewing messages](../../sending/using/preparing-the-send.md) section.
+   The steps for previewing a message are detailed in the [Previewing messages](../../sending/using/previewing-messages.md) section.
 
    ![](assets/message-center_9.png)
 
@@ -249,7 +257,7 @@ To access reports concerning your transactional message, use the **[!UICONTROL R
 
 You can suspend publishing your transactional message by using the **[!UICONTROL Pause]** button, for example, to modify the data contained in the message. The events are therefore no longer processed, but instead kept in a queue in the Adobe Campaign database.
 
-The queued events are kept during a period of time that is defined in the REST API (see [REST API documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)) or in the trigger event if you are using the Triggers core service (see [Working with Campaign and Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
+The queued events are kept during a period of time that is defined in the REST API (see [REST API documentation](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)) or in the trigger event if you are using the Triggers core service (see [Working with Campaign and Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
 
 ![](assets/message-center_pause.png)
 

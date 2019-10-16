@@ -26,7 +26,7 @@ Personalized messages are key to send relevant content, offer personalized exper
 * Insert [predefined personalization blocks](../../designing/using/personalization.md#adding-a-content-block)
 * [Personalize the sender](../../designing/using/subject-line.md) of an email or a SMS
 * [Personalize the subject line](../../designing/using/subject-line.md) of an email, or use [Predictive subject line](../../designing/using/subject-line.md#predictive-subject-line) capabilities to optimize it
-* Create [conditional content in an email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) or [in a landing page](../../channels/using/defining-dynamic-content-in-a-landing-page.md)
+* Create [conditional content in an email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) or [in a landing page](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
 * Insert [Dynamic text](../../channels/using/defining-dynamic-text.md) in a SMS message or a Push notification
 
 ![](assets/delivery_content_43.png)
