@@ -33,7 +33,9 @@ In order for the event to trigger sending a transactional message, you have to p
 
 >[!NOTE]
 >
->To access the transactional messages, you must have administration rights or appear in the **[!UICONTROL Message Center agents]** (mcExec) security group. Fatigue rules are compatible with profile transactional messages. See [Fatigue rules](../../administration/using/fatigue-rules.md).
+>To access transactional messages, you must be part of the **[!UICONTROL Administrators (all units)]** security group.
+>
+>Fatigue rules are compatible with profile transactional messages. See [Fatigue rules](../../administration/using/fatigue-rules.md).
 
 ## Sending a profile transactional message {#sending-a-profile-transactional-message}
 
@@ -42,7 +44,7 @@ The steps for creating, personalizing and publishing a profile transactional mes
 The differences are listed below.
 
 1. Go the transactional message that was created to edit it.
-1. In the transactional message, click the **[!UICONTROL Content]** section. In addition to the transactional template, you can also choose the default email template, which targets **[!UICONTROL Profile]**.
+1. In the transactional message, click the **[!UICONTROL Content]** section. In addition to the transactional template, you can also choose any email template targeting **[!UICONTROL Profile]**.
 
    ![](assets/message-center_marketing_templates.png)
 

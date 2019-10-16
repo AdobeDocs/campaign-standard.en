@@ -21,7 +21,7 @@ Related topics:
 
 * [Creating or extending the resource](../../developing/using/creating-or-extending-the-resource.md)
 * [Defining identification keys](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
-* [Campaign Standard REST APIs](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
+* [Campaign Standard REST APIs](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
 
 ## Step 1: Configure the identification key{#step-1-configure-the-identification-key}
 
@@ -102,4 +102,4 @@ In our case, the syntax to retrieve a profile from the "spring" category with th
 GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byidentification_key?category_parameter=spring&crm_id_parameter=123456
 ```
 
-For more details, refer to [Campaign Standard REST APIs documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering).
+For more details, refer to [Campaign Standard REST APIs documentation](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering).

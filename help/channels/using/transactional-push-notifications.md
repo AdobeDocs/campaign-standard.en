@@ -37,7 +37,7 @@ In order for the event to trigger sending a transactional message, you have to p
 
 >[!NOTE]
 >
->To access the transactional messages, you must have administration rights or appear in the **[!UICONTROL Message Center agents]** (mcExec) security group.
+>To access transactional messages, you must be part of the **[!UICONTROL Administrators (all units)]** security group.
 
 ## Transactional push notifications targeting an event {#transactional-push-notifications-targeting-an-event}
 
@@ -61,7 +61,7 @@ The company will send one transactional push notification per user (identified w
 
    ![](assets/message-center_push_content.png)
 
-   To find these fields, click the pencil next to an item, click **[!UICONTROL Insert personalization field]** and select **[!UICONTROL Transactional event]** > **[!UICONTROL Event context]**.
+   To find these fields, click the pencil next to an item, click **[!UICONTROL Insert personalization field]** and select **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
 
    ![](assets/message-center_push_personalization.png)
 
@@ -112,13 +112,13 @@ For example, an airline company wants to send a last call for boarding to all Ad
 
 1. Go the transactional message that was created to edit it. See [Event transactional messages](../../channels/using/event-transactional-messages.md).
 
-   ![](assets/message-center_push_message_profile.png)
+   <!--![](assets/message-center_push_message_profile.png)-->
 
 1. Click the **[!UICONTROL Content]** block to modify your message's title and body.
 
    As opposed to configurations based on real-time events, you have direct access to all profile information to personalize your message. See [Inserting a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field).
 
-   ![](assets/message-center_push_content_profile.png)
+   <!--![](assets/message-center_push_content_profile.png)-->
 
    For more on editing a push notification content. See [Creating a push notification](../../channels/using/preparing-and-sending-a-push-notification.md).
 

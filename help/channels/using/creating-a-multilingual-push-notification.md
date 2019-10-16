@@ -51,7 +51,10 @@ Before personalizing your multilingual push notification, we first need to uploa
 
 1. In the **[!UICONTROL Audiences]** windows, drag and drop queries to fine tune your audience.
 
-   The queries added depend on the chosen template: if you chose the **[!UICONTROL Send multilingual push to Campaign profiles]** template you can query known recipients of your mobile application. Whereas if you chose the **[!UICONTROL Send multilingual push to app subscriber]** template, you can query all subscribers of a particular app who have opted in.
+   The queries added depend on the chosen template: if you chose the **[!UICONTROL Send multilingual push to Campaign profiles]** template you can query known recipients of your mobile application. Whereas if you chose the **[!UICONTROL Send multilingual push to app subscriber]** template, you can query all subscribers of a particular app who have opted in.  
+    >[!NOTE]
+    >
+    >If you target audiences with specific languages, you need to list every targeted language in your CSV file.
 
    ![](assets/push_notif_audience.png)
 

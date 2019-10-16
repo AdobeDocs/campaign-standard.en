@@ -118,6 +118,8 @@ For more on resource creation and publishing, refer to [this page](../../develop
 
    ![](assets/message-center_enrichment-join-fields.png)
 
+    You can also enrich the transactional message content using the **[!UICONTROL Service]** resource. For more on this, see .
+
 1. In the **[!UICONTROL Targeting enrichment]** section, select the enrichment that will be used as the message target during the delivery execution. In this example, select **[!UICONTROL Profile]**. Selecting a targeting enrichment is mandatory for profile-based events. 
 
    ![](assets/message-center_marketing_targeting_enrichment.png)
@@ -181,7 +183,7 @@ Once you have created an event, you will have to integrate the triggering of thi
 
 In the example described in the [Transactional messaging operating principle](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) section, you want a "Cart abandonment" event to be triggered whenever one of your clients leaves your website before purchasing the products in their cart. To do this, your website web developer must use the Adobe Campaign Standard REST API.
 
-See the [REST API Documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#transactional-messages-api) .
+See the [REST API Documentation](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#transactional-messages-api) .
 
 ## Transactional event specific configurations {#transactional-event-specific-configurations}
 
