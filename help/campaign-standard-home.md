@@ -12,17 +12,17 @@ topic: Premium
 
 ## What's New
 
-* **[Email designer](channels/using/event-transactional-messages.md)**<br/>
-Use the email designer in your transactional messages.
+* **[Privacy management](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>
+Learn about the tools provided by Adobe Campaign to help you with your Privacy compliance.
 
-* **[Workflow segments](reporting/using/creating-a-report-workflow-segment.md)**<br/>
-Create a report based on workflow segments.
+* **[Delivery best pratices](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>
+Learn more on best practices related to delivery design and sending.
 
-* **[New workflow use cases](automating/using/workflow-created-query-with-complement.md)**<br/>
-Read our workflow query use cases.
+* **[Email designer](designing/using/designing-content-in-adobe-campaign.md)**<br/>
+Consult the reorganized email designer documentation.
 
-* **[Load file activity](automating/using/load-file.md)**<br/>
-Use the Load file activity to send an email containing additional data.
+* **[Landing pages](channels/using/main-steps-to-set-up-a-landing-page.md)**<br/>
+Learn more on how to set up a landing page.
 
 [Click here for more updates](rn/using/documentation-updates.md)
 
