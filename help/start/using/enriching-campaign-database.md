@@ -69,4 +69,4 @@ For more on how to use the APIs, refer to the [dedicated documentation](https://
 
 >[!CAUTION]
 >
->Before performing profiles mass creation or update via API calls, please check the scale limitations corresponding to your license agreement. For more on this, refer to [this pagr](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
+>Before performing profiles mass creation or update via API calls, please check the scale limitations corresponding to your license agreement. For more on this, refer to [this page](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
