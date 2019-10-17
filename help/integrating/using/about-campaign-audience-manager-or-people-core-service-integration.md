@@ -26,7 +26,7 @@ Adobe Campaign allows you to exchange and share audiences/segments with the diff
 Integration supports two types of Adobe Experience Cloud IDs:
 
 * **Visitor ID**: this type of ID allows you to reconcile Adobe Experience Cloud visitors with Adobe Campaign profiles.
-* **Declared ID**: this type of ID allows you to reconcile any type of data with profiles in the Adobe Campaign database. This integration supports regular declared IDs, hashed declared IDs and encrypted declared IDs.
+* **Declared ID**: this type of ID allows you to reconcile any type of data with profiles in the Adobe Campaign database. This integration supports regular declared IDs, hashed declared IDs and encrypted declared IDs. For **[!UICONTROL Declared ID]** validity, refer to this [page](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md).
 
   Encryption allows you to share encrypted data in data sources (for example PII) using the declared ID by specifying the encryption algorithm.
 
