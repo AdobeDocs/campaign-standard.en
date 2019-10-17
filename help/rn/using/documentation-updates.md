@@ -42,6 +42,8 @@ A new chart presenting the transactional messaging publication process has been 
 
 The Delivery Best Practices getting started guide has been updated. [Read more](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
+A new section has been added. It provides an overview of the different methods that allow you to enrich Campaign Standard database. [Read more](../../start/using/enriching-campaign-database.md)
+
 ## Documentation updates - October 2019 {#doc-updates-october-2019}
 
 A new section related to Campaign Standard settings was added. [Read more](../../administration/using/about-campaign-standard-settings.md)
@@ -51,8 +53,6 @@ A new section describing how to send an automatic custom confirmation email to p
 The Transactional messaging section has been modified with the latest UI updates, including editing content with the Email Designer. [Read more](../../channels/using/event-transactional-messages.md)
 
 The landing pages chapter has been reorganized. It has also been enriched with a new section detailing the steps to set up a landing page. [Read more](../../channels/using/main-steps-to-set-up-a-landing-page.md)
-
-A new section has been added. It provides an overview of the different methods that allow you to enrich Campaign Standard database. [Read more](../../start/using/enriching-campaign-database.md)
 
 ## Documentation updates - September 2019 {#doc-updates-september-2019}
 
