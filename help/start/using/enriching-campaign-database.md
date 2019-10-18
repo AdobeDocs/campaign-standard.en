@@ -53,7 +53,7 @@ For more on landing pages, refer to the [dedicated documentation](../../channels
 ## Synchronizing profiles from Microsoft Dynamics 365
 
 Campaign Standard integration with Microsoft Dynamics 365 allows you to pass on contact data from Microsoft Dynamics 365 to Campaign database.
-These contacts are then visible in the Profiles list and can be targeted in marketing campaigns.
+These contacts are then visible in the **[!UICONTROL Profiles]** list and can be targeted in marketing campaigns.
 
 For more on this integration, refer to the [dedicated documentation](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html).
 
