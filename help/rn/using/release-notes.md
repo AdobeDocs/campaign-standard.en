@@ -24,7 +24,7 @@ Additional resources:
 
 * [Campaign Release Planning](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
 * [Latest Documentation Updates](../../rn/using/documentation-updates.md)
-* [Deprecated and Removed Features](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
+* [Deprecated and Removed Features](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 * [Control Panel](https://helpx.adobe.com/campaign/kb/control-panel.html)
 * Previous Release Notes: [2018](../../rn/using/release-notes-2018.md), [2017](../../rn/using/release-notes-2017.md), [2015-2016](../../rn/using/release-notes-2015-2016.md)
 
