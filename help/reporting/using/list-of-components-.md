@@ -47,7 +47,7 @@ The table below gives you the list of dimensions used in reports and their defin
    <td> City registered in the recipient's profile.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Country<br /> </td> 
+   <td> Country/region<br /> </td> 
    <td> Country registered in the recipient's profile.<br /> </td> 
   </tr> 
   <tr> 
