@@ -1,8 +1,8 @@
 ---
 title: Enriching the database
-seo-title: Enriching the database
-description: Enriching the database
-seo-description: Learn about the various methods to enrich the database.
+seo-title: Enriching Campaign database
+description: Enriching Campaign database
+seo-description: Learn about the various methods to enrich Campaign database.
 page-status-flag: never-activated
 uuid: 71f53808-0309-49f6-a4ee-3446eac9758a
 contentOwner: lemaitre

@@ -21,7 +21,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Dynamic and personalized content](start/using/dynamic-and-personalized-content.md)
        + [Tracking, monitoring and reporting](start/using/tracking--monitoring-and-reporting.md)
        + [Integrating with Adobe solutions](start/using/integrating-with-adobe-solutions.md)
-       + [Enriching Campaign database](start/using/enriching-campaign-database.md)
+       + [Enriching Campaign database](start/using/enriching-campaign-database.md) 
   + Discovering the interface {#discovering-the-interface}
        + [About the interface](start/using/about-the-interface.md)
        + [Interface description](start/using/interface-description.md)
