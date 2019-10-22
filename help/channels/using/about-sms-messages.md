@@ -39,6 +39,7 @@ To deliver SMS messages to a mobile telephone you need:
 
 * [Managing templates](../../start/using/about-templates.md)
 * [SMS configuration](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)
+* [SMS report](../../reporting/using/sms-report.md)
 
 ## SMS delivery template {#sms-delivery-template}
 

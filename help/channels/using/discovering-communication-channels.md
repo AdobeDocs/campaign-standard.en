@@ -24,11 +24,11 @@ It also lets you create cross-channel campaigns to better target recipients.
 
 Four messaging channels are available in Adobe Campaign:
 
-* Email, presented in the [Creating an email](../../channels/using/creating-an-email.md) section.
-* SMS, presented in the [Creating an SMS message](../../channels/using/creating-an-sms-message.md) section.
-* Push notification, presented in the [Creating a push notification](../../channels/using/preparing-and-sending-a-push-notification.md) section.
+* Email, presented in the [Creating an email](../../channels/using/about-emails.md) section.
+* SMS, presented in the [Creating an SMS message](../../channels/using/about-sms-messages.md) section.
+* Push notification, presented in the [Creating a push notification](../../channels/using/about-push-notifications.md) section.
 * In-App messages, presented in the [Creating an In-App message](../../channels/using/about-in-app-messaging.md) section.
-* Direct mail, presented in the [Creating a direct mail delivery](../../channels/using/creating-the-direct-mail.md) section.
+* Direct mail, presented in the [Creating a direct mail delivery](../../channels/using/about-direct-mail.md) section.
 
 All marketing activities are based on a template. Templates can be used to configure frequently used properties, allowing you to gain time and consistency across your messaging strategy.
 
