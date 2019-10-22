@@ -133,7 +133,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Managing test profiles and sending proofs](sending/using/managing-test-profiles-and-sending-proofs.md)
        + [Testing the subject line of an email](sending/using/testing-subject-line-email.md)
        + [Email rendering](sending/using/email-rendering.md)
-  + Scheduling messages {#sheduling-messages}
+  + Scheduling messages {#scheduling-messages}
        + [About scheduling messages](sending/using/about-scheduling-messages.md)
        + [Optimizing the sending time](sending/using/optimizing-the-sending-time.md)
        + [Sending messages at the recipient's time zone](sending/using/sending-messages-at-the-recipient-s-time-zone.md)
