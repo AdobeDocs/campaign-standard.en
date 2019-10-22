@@ -42,7 +42,7 @@ A new chart presenting the transactional messaging publication process has been 
 
 The Delivery Best Practices getting started guide has been updated. [Read more](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
-A new section has been added. It provides an overview of the different methods that allow you to enrich Campaign Standard database. [Read more](../../start/using/enriching-campaign-database.md)
+<!--A new section has been added. It provides an overview of the different methods that allow you to enrich Campaign Standard database. [Read more](../../start/using/enriching-campaign-database.md)-->
 
 ## Documentation updates - October 2019 {#doc-updates-october-2019}
 
