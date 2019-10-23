@@ -18,7 +18,7 @@ snippet: y
 
 # Enriching the database{#enriching-the-database}
 
-Campaign Standard offers several tools to help you grow your marketing database. This section details the various methods that you can use to inject data into Campaign, with references to the dedicated documentations.
+Campaign Standard offers several tools to help you grow your marketing database. This section details the different methods that you can use to inject data into Campaign, with references to the dedicated documentations.
 
 ## Importing data through workflows {#importing-data-through-workflows}
 
