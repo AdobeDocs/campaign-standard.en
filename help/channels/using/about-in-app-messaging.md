@@ -27,24 +27,17 @@ This channel requires mobile applications to be integrated with Adobe Experience
 To start sending In-App messages on mobile applications leveraging Experience Platform SDK, you need to meet following prerequisites:
 
 1. In Adobe Campaign, make sure you can access the **[!UICONTROL In-App]** channel. If you cannot access these channels, contact your account team.
-1. In Experience Platform Launch, create the mobile application by creating a mobile property and instrument your mobile app with Experience Platform SDK.
 
-   For more information, refer to the [Set up a mobile property](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property) section in Adobe Launch documentation.
+1. To leverage mobile use cases in Adobe Campaign Standard with an Experience Cloud SDK application, a mobile app has to be created in Adobe Experience Platform Launch and be configured in Adobe Campaign Standard. For the step-by-step guide, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
 
-1. In Experience Platform Launch, install the **[!UICONTROL Adobe Campaign Standard]** extension for your mobile application in Experience Platform Launch:
+1. Once configured, you can now prepare your In-App message. For more on this, refer to this [page](../../channels/using/preparing-and-sending-an-in-app-message.md#preparing-your-in-app-message).
 
-   For more on extensions, refer to the [Configure Campaign Standard Extension in Experience Platform Launch](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) in Experience Platform Launch documentation.
+1. You can then decide to send an [In-App message](../../channels/using/customizing-an-in-app-message.md) or a [Customizing a local notification message type](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type).
 
-1. In Experience Platform Launch, configure rules and data elements for your application, see [Configuring your application in Experience Platform Launch](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Step1Createdataelements)
-
-1. Configure your Experience Platform Launch application in Adobe Campaign Standard, see [Setting up your Experience Platform Launch application in Adobe Campaign](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#SettingupyourAdobeLaunchapplicationinAdobeCampaign) .
-
-To learn how to configure Experience Platform SDKs, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
+1. Your delivery is now ready to be sent. To learn more, refer to this [page](../../channels/using/preparing-and-sending-an-in-app-message.md#sending-your-in-app-message).
 
 **Related content:**
 
-* [Preparing and sending an In-App message](../../channels/using/preparing-and-sending-an-in-app-message.md)
-* [Customizing an In-App message](../../channels/using/customizing-an-in-app-message.md)
-* [Customizing a local notification message type](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
-* [Sending an In-App message within a workflow](../../automating/using/in-app-delivery.md)
+* [In-App report](../../reporting/using/in-app-report.md)
 * [Push and In-App FAQ](https://helpx.adobe.com/campaign/kb/push_inapp_faq.html)
+* [Mobile use cases supported in Adobe Campaign Standard](https://helpx.adobe.com/campaign/kb/configure-launch-rules-acs-use-cases.html)
