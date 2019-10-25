@@ -150,7 +150,7 @@ user-guide-title: Adobe Campaign Standard Help
   + About reporting {#about-reporting}
        + [About dynamic reports](reporting/using/about-dynamic-reports.md)
        + [Reporting interface](reporting/using/reporting-interface.md)
-       + [List of components ](reporting/using/list-of-components-.md)
+       + [List of components](reporting/using/list-of-components-.md)
        + [Indicator calculation](reporting/using/indicator-calculation.md)
        + [Troubleshooting](reporting/using/troubleshooting.md)
   + List of reports {#list-of-reports}
