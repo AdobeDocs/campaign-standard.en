@@ -46,16 +46,16 @@ To select a column, you can also do the following:
 1. Select a structure component (directly in the email or using the structure tree available from the left **Palette**).
 1. From the **contextual toolbar**, click **[!UICONTROL Select a column]** to choose the desired column.
 
-See an example in [this section](../../designing/using/styles.md#example--adjusting-vertical-alignment-and-padding).
+See an example in [this section](#example--adjusting-vertical-alignment-and-padding).
 
 ### Adjusting style settings {#adjusting-style-settings}
 
-1. Select an element in your email. For more on this, see [Selecting an element](../../designing/using/styles.md#selecting-an-element).
+1. Select an element in your email. For more on this, see [Selecting an element](#selecting-an-element).
 1. Adjust the settings according to your needs. Each selected element offers a different set of settings.
 
-   You can insert backgrounds, change sizes, modify horizontal or vertical alignment, manage colors, add [padding or margin](../../designing/using/styles.md#selecting-an-element), and so on.
+   You can insert backgrounds, change sizes, modify horizontal or vertical alignment, manage colors, add [padding or margin](#selecting-an-element), and so on.
 
-   To do this, use the options displayed in the **[!UICONTROL Settings]** pane or [add inline styling attributes](../../designing/using/styles.md#adding-inline-styling-attributes).
+   To do this, use the options displayed in the **[!UICONTROL Settings]** pane or [add inline styling attributes](#adding-inline-styling-attributes).
 
    ![](assets/des_settings_pane.png)
 
@@ -217,7 +217,7 @@ The styling is then applied to the selected element. If the child elements do no
 
 You can fine-tune the responsive design of an email by separately editing all style options for mobile display. For example, you can adapt margins and padding, use smaller or bigger font sizes, change buttons, or apply different background colors that will be specific to the mobile version of your email.
 
-All style options are available in mobile view. The Email Designer style settings are presented in the [Editing email styles](../../designing/using/styles.md) section.
+All style options are available in mobile view. The Email Designer style settings are presented in the [Editing email styles]() section.
 
 1. Create an email and start editing the content. For more on this, see [Designing an email content from scratch](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 1. To access the dedicated mobile view, select the **[!UICONTROL Switch to mobile view]** button.

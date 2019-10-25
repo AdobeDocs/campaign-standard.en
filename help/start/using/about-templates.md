@@ -57,9 +57,9 @@ The HTML content templates are accessible from the **[!UICONTROL Resources]** > 
 
 The out-of-the-box content templates are read-only. To edit one of them, you must first duplicate the desired template.
 
-You can create new templates or fragments, and define your own contents. For more on this, see [Creating a content template](../../start/using/about-templates.md#creating-a-content-template) and [Creating a content fragment](../../designing/using/using-reusable-content.md#creating-a-content-fragment).
+You can create new templates or fragments, and define your own contents. For more on this, see [Creating a content template](#creating-a-content-template) and [Creating a content fragment](../../designing/using/using-reusable-content.md#creating-a-content-fragment).
 
-When editing content with the Email Designer, you can also create content templates by saving your content as fragment or template. For more on this, see [Saving content as template](../../start/using/about-templates.md#saving-content-as-template) and [Saving content as fragment](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
+When editing content with the Email Designer, you can also create content templates by saving your content as fragment or template. For more on this, see [Saving content as template](#saving-content-as-template) and [Saving content as fragment](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
 
 ### Out-of-the-box email content templates {#email-content-templates}
 

@@ -59,7 +59,7 @@ Once you have created your email delivery and defined its content as well as the
 
    ![](assets/email_rendering_04.png)
 
-The dedicated email rendering report is displayed. See [Email rendering report description](../../sending/using/email-rendering.md#email-rendering-report-description).
+The dedicated email rendering report is displayed. See [Email rendering report description](#email-rendering-report-description).
 
 **Related topics**:
 

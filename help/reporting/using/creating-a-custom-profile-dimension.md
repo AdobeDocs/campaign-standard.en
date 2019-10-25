@@ -22,10 +22,10 @@ Reports can also be created and managed based on custom profile data created dur
 
 In this example, we want to create the custom profile field **Loyalty programs** which will be divided into three levels: gold, silver and bronze. This custom profile will then be extended to be able to use it as a custom profile dimension in dynamic reports.
 
-* [Step 1: Create a new profile field](../../reporting/using/creating-a-custom-profile-dimension.md#step-1--create-a-new-profile-field)
-* [Step 2: Extend the sending logs with the profile field](../../reporting/using/creating-a-custom-profile-dimension.md#step-2--extend-the-sending-logs-with-the-profile-field)
-* [Step 3: Create a delivery targeting recipients enrolled in the loyalty program](../../reporting/using/creating-a-custom-profile-dimension.md#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program)
-* [Step 4: Create a dynamic report to filter recipients with the custom profile dimension](../../reporting/using/creating-a-custom-profile-dimension.md#step-4--create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension)
+* [Step 1: Create a new profile field](#step-1--create-a-new-profile-field)
+* [Step 2: Extend the sending logs with the profile field](#step-2--extend-the-sending-logs-with-the-profile-field)
+* [Step 3: Create a delivery targeting recipients enrolled in the loyalty program](#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program)
+* [Step 4: Create a dynamic report to filter recipients with the custom profile dimension](#step-4--create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension)
 
 ## Step 1: Create a new profile field {#step-1--create-a-new-profile-field}
 

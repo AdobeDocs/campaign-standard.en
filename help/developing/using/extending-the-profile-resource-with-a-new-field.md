@@ -26,10 +26,10 @@ Here, we want to update our profiles with the new field using a landing page the
 
 To do so, follow the steps below:
 
-* [Step 1: Extend the profile resource](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-1--extend-the-profile-resource)
-* [Step 2: Extend the test profile](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-2--extend-the-test-profile)
-* [Step 3: Publish your custom resource](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-3--publish-your-custom-resource)
-* [Step 4: Update and target profiles with a workflow](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-4--update-and-target-profiles-with-a-workflow)
+* [Step 1: Extend the profile resource](#step-1--extend-the-profile-resource)
+* [Step 2: Extend the test profile](#step-2--extend-the-test-profile)
+* [Step 3: Publish your custom resource](#step-3--publish-your-custom-resource)
+* [Step 4: Update and target profiles with a workflow](#step-4--update-and-target-profiles-with-a-workflow)
 
 The following field will then be added to our profiles and can be targeted in a delivery:
 

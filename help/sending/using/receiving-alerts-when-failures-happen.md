@@ -59,9 +59,9 @@ To manage the notifications' recipients, define the alerting criteria and access
 
 From the Adobe Campaign interface, you can:
 
-* Create and manage delivery alerting dashboards. See [Creating a delivery alerting dashboard](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-dashboard).
-* Define and manage delivery alerting criteria for each dashboard. For example, you can build alerts based on deliveries with failed preparation or deliveries with a low throughput only. See [About alerting criteria](../../sending/using/receiving-alerts-when-failures-happen.md#about-alerting-criteria).
-* Modify the criteria parameters for each dashboard. See [Criteria parameters](../../sending/using/receiving-alerts-when-failures-happen.md#criteria-parameters).
+* Create and manage delivery alerting dashboards. See [Creating a delivery alerting dashboard](#creating-a-delivery-alerting-dashboard).
+* Define and manage delivery alerting criteria for each dashboard. For example, you can build alerts based on deliveries with failed preparation or deliveries with a low throughput only. See [About alerting criteria](#about-alerting-criteria).
+* Modify the criteria parameters for each dashboard. See [Criteria parameters](#criteria-parameters).
 * Define a group of recipients for each dashboard.
 
   For example, you want to inform the users with administration rights of the failed deliveries only. However, you want the marketing users to receive information on the deliveries with a soft bounce bad error ratio. Therefore, you need to create two different dashboards and define the criteria that you want for each group of recipients.
@@ -85,8 +85,8 @@ If you want to send notifications based on specific criteria to different groups
    ![](assets/delivery-alerting_dashboard_general.png)
 
 1. Select the group of recipients that you want to notify from the **[!UICONTROL Alert group]** drop-down list. To modify or create a group, see [Creating a security group and assigning users](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users).
-1. From the **[!UICONTROL Delivery alerting criteria]** section, click **[!UICONTROL Create element]** to add criteria. See [About alerting criteria](../../sending/using/receiving-alerts-when-failures-happen.md#about-alerting-criteria).
-1. Select the **[!UICONTROL Edit properties]** button. In the **[!UICONTROL Criteria parameters]** tab, define how the criteria will be applied. See [Criteria parameters](../../sending/using/receiving-alerts-when-failures-happen.md#criteria-parameters).
+1. From the **[!UICONTROL Delivery alerting criteria]** section, click **[!UICONTROL Create element]** to add criteria. See [About alerting criteria](#about-alerting-criteria).
+1. Select the **[!UICONTROL Edit properties]** button. In the **[!UICONTROL Criteria parameters]** tab, define how the criteria will be applied. See [Criteria parameters](#criteria-parameters).
 1. Click **[!UICONTROL Create]** to save the dashboard.
 
 Now each time a delivery meets the criteria that you defined in this dashboard, an alerting notification will be sent to the specified group of users.
@@ -111,7 +111,7 @@ The following criteria can be used in the delivery alerting dashboards:
 
 >[!NOTE]
 >
->All the parameters applying to the above criteria have defaults values. These values can be changed in the **[!UICONTROL Criteria parameters]** tab of the delivery alerting dashboards. See [Criteria parameters](../../sending/using/receiving-alerts-when-failures-happen.md#criteria-parameters).
+>All the parameters applying to the above criteria have defaults values. These values can be changed in the **[!UICONTROL Criteria parameters]** tab of the delivery alerting dashboards. See [Criteria parameters](#criteria-parameters).
 
 You can select any item from the **[!UICONTROL Delivery alerting criteria]** list to access its details.
 
@@ -134,7 +134,7 @@ For each criterion, you can define the following settings:
 **Related topics:**
 
 * [Sending logs](../../sending/using/monitoring-a-delivery.md#sending-logs)
-* [Alerting frequency](../../sending/using/receiving-alerts-when-failures-happen.md#alerting-frequency)
+* [Alerting frequency](#alerting-frequency)
 * [Marketing activity icons and statuses](../../start/using/marketing-activities.md#marketing-activity-icons-and-statuses)
 
 ### Creating a delivery alerting criterion {#creating-a-delivery-alerting-criterion}
@@ -171,9 +171,9 @@ To do this, you first need to extend the **Delivery** resource and add a new fil
 
    ![](assets/delivery-alerting_cus-filter.png)
 
-   You can define your criterion's settings the same way as for the default criteria. See [About alerting criteria](../../sending/using/receiving-alerts-when-failures-happen.md#about-alerting-criteria).
+   You can define your criterion's settings the same way as for the default criteria. See [About alerting criteria](#about-alerting-criteria).
 
-Once created, these criteria can be added to a delivery alerting dashboard as well as other criteria. See [About delivery alerting dashboards](../../sending/using/receiving-alerts-when-failures-happen.md#about-delivery-alerting-dashboards).
+Once created, these criteria can be added to a delivery alerting dashboard as well as other criteria. See [About delivery alerting dashboards](#about-delivery-alerting-dashboards).
 
 ![](assets/delivery-alerting_new-criterion.png)
 
@@ -185,7 +185,7 @@ Once created, these criteria can be added to a delivery alerting dashboard as we
 
 ### Criteria parameters {#criteria-parameters}
 
-In the **[!UICONTROL Criteria parameters]** tab of a [delivery alerting dashboard](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-dashboard), you can define the settings that apply to the criteria selected in this dashboard.
+In the **[!UICONTROL Criteria parameters]** tab of a [delivery alerting dashboard](#creating-a-delivery-alerting-dashboard), you can define the settings that apply to the criteria selected in this dashboard.
 
 ![](assets/delivery-alerting_dashboard_criteria-parameters.png)
 

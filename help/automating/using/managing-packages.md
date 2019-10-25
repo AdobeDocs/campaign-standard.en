@@ -28,7 +28,7 @@ The elements of each list are displayed by default according to their modificati
 
 ![](assets/packages_1.png)
 
-To display and modify the content of an element, click its label. Refer to the [Exporting a package](../../automating/using/managing-packages.md#exporting-a-package) and [Importing a package](../../automating/using/managing-packages.md#importing-a-package) sections.
+To display and modify the content of an element, click its label. Refer to the [Exporting a package](#exporting-a-package) and [Importing a package](#importing-a-package) sections.
 
 ## Package exports {#package-exports}
 
@@ -42,7 +42,7 @@ To display and modify the content of an element, click its label. Refer to the [
 >
 >Exporting packages is not authorized if the resources exported have default IDs. Therefore, the IDs of exportable resources must be changed by using a name that is different from the templates provided as standard by Adobe Campaign Standard. For example, to export test profiles, an ID containing the value "SDM" or "sdm" must not be used. When trying to export packages containing default IDs, you can see errors such as: "The 'Brands (branding)' entity type uses a default ID ('BRD1') that may cause a conflict when importing the package. Change this name and repeat the operation."
 
-The package export steps are described in the [Exporting a package](../../automating/using/managing-packages.md#exporting-a-package) section.
+The package export steps are described in the [Exporting a package](#exporting-a-package) section.
 
 * The **[!UICONTROL Platform]** package regroups all the resources added during technical configuration: custom resources, custom resource sets, triggers, and application options with the **[!UICONTROL System]** type.
 * The **[!UICONTROL Administration]** package regroups all the objects added during business configuration such as: campaign templates, content templates, delivery templates, landing page templates, program templates and workflow templates.
@@ -51,7 +51,7 @@ The package export steps are described in the [Exporting a package](../../automa
 
 >[!NOTE]
 >
->The contents of these two packages cannot me modified. In contrast, these packages always contain the most up-to-date data available. You can [create your own packages](../../automating/using/managing-packages.md#creating-a-package) to export specific elements.
+>The contents of these two packages cannot me modified. In contrast, these packages always contain the most up-to-date data available. You can [create your own packages](#creating-a-package) to export specific elements.
 
 ### Creating a package {#creating-a-package}
 
@@ -138,7 +138,7 @@ The **[!UICONTROL Execution logs]** tab stores all of the import steps. A side p
 
 ### Importing a package {#importing-a-package}
 
-An administrator can manually import a package originating from an export executed earlier from an Adobe Campaign instance. For more on this, refer to the [Package exports](../../automating/using/managing-packages.md#package-exports) section.
+An administrator can manually import a package originating from an export executed earlier from an Adobe Campaign instance. For more on this, refer to the [Package exports](#package-exports) section.
 
 The manual package import consists of two steps: first, you have to upload a file, then you can import its content.
 

@@ -44,7 +44,7 @@ If specified in a file through dedicated columns, this activity also lets you ch
 1. Select the **[!UICONTROL Service]** for which you would like to manage the subscriptions using one of the following options:
 
     * **[!UICONTROL Select a specific service]**: manually select a service.
-    * **[!UICONTROL Select services from the inbound transition]**: the service is specified in the inbound transition. For example, you can import a file which specifies the service to manage for each line. If you choose this option, make sure a link has been created beforehand between the data and the **Service** resource, as shown in [this example](../../automating/using/subscription-services.md#example--updating-multiple-subscription-statuses-from-a-file).
+    * **[!UICONTROL Select services from the inbound transition]**: the service is specified in the inbound transition. For example, you can import a file which specifies the service to manage for each line. If you choose this option, make sure a link has been created beforehand between the data and the **Service** resource, as shown in [this example](#example--updating-multiple-subscription-statuses-from-a-file).
 
       The service on which to perform the operation is then dynamically selected for each record.
 

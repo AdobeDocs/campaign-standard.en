@@ -28,9 +28,9 @@ This feature leverages either preferred languages specified in recipients' profi
 
 To use multilingual content variants for your push notification delivery, follow these steps:
 
-* [Step 1: Upload multilingual content variant](../../channels/using/creating-a-multilingual-push-notification.md#step-1--upload-multilingual-content-variant)
-* [Step 2: Preview and finalize a push notification using multilingual content variants](../../channels/using/creating-a-multilingual-push-notification.md#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants)
-* [Step 3: Send and analyze multilingual push notification delivery](../../channels/using/creating-a-multilingual-push-notification.md#step-3--send-and-analyze-multilingual-push-notification-delivery)
+* [Step 1: Upload multilingual content variant](#step-1--upload-multilingual-content-variant)
+* [Step 2: Preview and finalize a push notification using multilingual content variants](#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants)
+* [Step 3: Send and analyze multilingual push notification delivery](#step-3--send-and-analyze-multilingual-push-notification-delivery)
 
 ## Step 1: Upload multilingual content variant {#step-1--upload-multilingual-content-variant}
 

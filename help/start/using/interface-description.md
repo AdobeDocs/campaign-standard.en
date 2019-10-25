@@ -54,7 +54,7 @@ The navigation principles are:
 
 * The **[!UICONTROL Adobe Campaign]** logo in the top left-hand corner of the page gives you access to the advanced capabilities and configurations. Menus depend on your profile and permissions.
 
-  The advanced menu is presented in the [Advanced menu](../../start/using/interface-description.md#advanced-menu) section.
+  The advanced menu is presented in the [Advanced menu](#advanced-menu) section.
 
 * The **[!UICONTROL Home]** link allows you to display the Adobe Campaign home page.
 * The **[!UICONTROL Marketing activities]**, **[!UICONTROL Programs & Campaigns]**, **[!UICONTROL Profiles]**, **[!UICONTROL Audiences]** and **[!UICONTROL Reports]** links let you access the views linked to these functionalities. 

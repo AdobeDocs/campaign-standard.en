@@ -80,7 +80,7 @@ The activity configuration involves two steps. First, you need to define the exp
 
    For example, you can change the label of a column, select its type (string, integer, date, etc.) or even specify error processing.
 
-   For more information, refer to the [Column format](../../automating/using/load-file.md#column-format) section.
+   For more information, refer to the [Column format](../../automating/using/#column-format) section.
 
    ![](assets/wkf_file_loading4.png)
 
@@ -173,7 +173,7 @@ Once the workflow has started, the data from the uploaded file is extracted and 
 
 ## Example 2: Sending an email with enriched fields {#example-2-email-with-enriched-fields}
 
-<!--A new example showing how to send an email containing additional data retrieved from a load file activity has been added. [Read more](../../automating/using/load-file.md#example-2-email-with-enriched-fields)-->
+<!--A new example showing how to send an email containing additional data retrieved from a load file activity has been added. [Read more](../../automating/using/#example-2-email-with-enriched-fields)-->
 
 The load file activity also enables to send an email enriched with additional data from an external file in the same workflow.
 

@@ -18,7 +18,7 @@ snippet: y
 
 # Provisioning and configuring integration with Audience Manager or People core service{#provisioning-and-configuring-integration-with-audience-manager-or-people-core-service}
 
-The provisioning and configuring of Audience Manager and People core in Adobe Campaign take two steps: [Submitting request to Adobe](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#submitting-request-to-adobe) then [Configuring the integration in Adobe Campaign](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#configuring-the-integration-in-adobe-campaign).
+The provisioning and configuring of Audience Manager and People core in Adobe Campaign take two steps: [Submitting request to Adobe](#submitting-request-to-adobe) then [Configuring the integration in Adobe Campaign](#configuring-the-integration-in-adobe-campaign).
 
 ## Submitting request to Adobe {#submitting-request-to-adobe}
 
@@ -73,10 +73,10 @@ You can raise a request for **[!UICONTROL Declared ID]** provisioning to the fol
 
 After submitting this request, Adobe will proceed to the provisioning of the integration for you and contact you to provide details and information that you have to finalize the configuration:
 
-* [Step 1: Configure or check the external accounts in Adobe Campaign](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-1--configure-or-check-the-external-accounts-in-adobe-campaign)
-* [Step 2: Configure the Data Sources](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources)
-* [Step 3: Configure Campaign Tracking server](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-3--configure-campaign-tracking-server)
-* [Step 4: Configure the Visitor ID Service](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-4--configure-the-visitor-id-service)
+* [Step 1: Configure or check the external accounts in Adobe Campaign](#step-1--configure-or-check-the-external-accounts-in-adobe-campaign)
+* [Step 2: Configure the Data Sources](#step-2--configure-the-data-sources)
+* [Step 3: Configure Campaign Tracking server](#step-3--configure-campaign-tracking-server)
+* [Step 4: Configure the Visitor ID Service](#step-4--configure-the-visitor-id-service)
 
 ### Step 1: Configure or check the external accounts in Adobe Campaign {#step-1--configure-or-check-the-external-accounts-in-adobe-campaign}
 

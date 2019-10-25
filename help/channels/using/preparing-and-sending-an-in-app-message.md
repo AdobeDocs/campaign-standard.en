@@ -31,7 +31,7 @@ Three types of In-App message are available in Adobe Campaign:
 * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**: This message type enables you to send messages to all users (current or future) of your mobile application even if they don't have an existing profile in Adobe Campaign. Personalization is thus not possible when customizing the messages as the user profile may not even exist in Adobe Campaign.
 * **[!UICONTROL Target users based on their Mobile profile (inApp)]**: This message type enables you to target all known or anonymous users of a mobile app that have a mobile profile in Adobe Campaign. This messages type can be personalized using only non-personal and non-sensitive attributes and does not require secure handshake between Mobile SDK and Adobe Campaign's In-App messaging service.
 
-  For more information on how to handle personal and sensitive data, refer to [Handling mobile profile fields with personal and sensitive data](../../channels/using/preparing-and-sending-an-in-app-message.md#handling-mobile-profile-fields-with-personal-and-sensitive-data).
+  For more information on how to handle personal and sensitive data, refer to [Handling mobile profile fields with personal and sensitive data](#handling-mobile-profile-fields-with-personal-and-sensitive-data).
 
 ![](assets/diagram_inapp.png)
 

@@ -24,11 +24,11 @@ These external accounts can be used in Campaign workflows to access and manage d
 
 You can set up the following types of external accounts:
 
-* SFTP. For more on this, refer to [this section](../../administration/using/external-accounts.md#sftp-external-account).
-* Amazon Storage Service (S3). For more on this, refer to [this section](../../administration/using/external-accounts.md#amazon-s3-external-account).
-* Adobe Experience Manager. For more on this, refer to [this section](../../administration/using/external-accounts.md#adobe-experience-manager-external-account).
+* SFTP. For more on this, refer to [this section](#sftp-external-account).
+* Amazon Storage Service (S3). For more on this, refer to [this section](#amazon-s3-external-account).
+* Adobe Experience Manager. For more on this, refer to [this section](#adobe-experience-manager-external-account).
 * Adobe Analytics. For more on this, refer to [this section](../../integrating/using/configure-campaign-analytics-integration.md).
-* Google reCAPTCHA. For more on this, refer to [this section](../../administration/using/external-accounts.md#google-recaptcha-external-account).
+* Google reCAPTCHA. For more on this, refer to [this section](#google-recaptcha-external-account).
 
 >[!NOTE]
 >

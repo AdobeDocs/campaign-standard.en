@@ -54,7 +54,7 @@ The elements contained in the tabs must be moved into the workspace in order to 
 
 The workspace is the central zone in which you can configure and combine rules, audiences, and predefined filters added from the palette.
 
-When you move an element from the palette into the workspace, a new window opens and you can start [Creating queries](../../automating/using/editing-queries.md#creating-queries).
+When you move an element from the palette into the workspace, a new window opens and you can start [Creating queries](#creating-queries).
 
 ## Creating queries {#creating-queries}
 

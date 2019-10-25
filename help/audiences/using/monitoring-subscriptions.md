@@ -22,10 +22,10 @@ Use the Adobe Campaign interface to track your subscribers and measure the succe
 
 You have several options for monitoring subscriptions to and unsubscriptions:
 
-* View the list of people currently subscribed to your service from the service dashboard. See [Service dashboard](../../audiences/using/monitoring-subscriptions.md#service-dashboard).
-* consult the history of subscriptions and unsubscriptions from the **Subscription history** tab in the service dashboard. See [Subscription history](../../audiences/using/monitoring-subscriptions.md#subscription-history).
-* display a report detailing the evolution of subscriptions and unsubscriptions in the service **Reports**. See [Service reports](../../audiences/using/monitoring-subscriptions.md#service-reports).
-* find the list of services a person has subscribed from its **Profile**. See [History of events linked to a profile](../../audiences/using/monitoring-subscriptions.md#history-of-events-linked-to-a-profile).
+* View the list of people currently subscribed to your service from the service dashboard. See [Service dashboard](#service-dashboard).
+* consult the history of subscriptions and unsubscriptions from the **Subscription history** tab in the service dashboard. See [Subscription history](#subscription-history).
+* display a report detailing the evolution of subscriptions and unsubscriptions in the service **Reports**. See [Service reports](#service-reports).
+* find the list of services a person has subscribed from its **Profile**. See [History of events linked to a profile](#history-of-events-linked-to-a-profile).
 
 ## Service dashboard {#service-dashboard}
 

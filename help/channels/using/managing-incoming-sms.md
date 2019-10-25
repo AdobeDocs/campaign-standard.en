@@ -59,7 +59,7 @@ To do so:
 
 Your recipients can now be automatically unsubscribed to your messages and sent to quarantine with this automatic reply. The quarantined recipients are listed in the **[!UICONTROL Addresses]** table available through the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Quarantines]** menu. For more information on quarantines, refer to this [section](../../sending/using/understanding-quarantine-management.md).
 
-These incoming SMS can be stored if needed. For more information on this, refer to this [section](../../channels/using/managing-incoming-sms.md#storing-incoming-sms).
+These incoming SMS can be stored if needed. For more information on this, refer to this [section](#storing-incoming-sms).
 
 ## Storing incoming SMS {#storing-incoming-sms}
 
