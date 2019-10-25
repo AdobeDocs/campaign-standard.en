@@ -58,7 +58,7 @@ When creating an email or a landing page, you can choose to load an existing con
 
 To fully leverage the edition possibilities of the [Email Designer](../../designing/using/overview.md), your uploaded HTML must contain specific tagging that makes it compliant with the WYSIWYG editor.
 
-If all or part of the HTML does not have this tagging, the content is then loaded in ' [compatibility mode](compatibility-mode)'.
+If all or part of the HTML does not have this tagging, the content is then loaded in ' [compatibility mode](#compatibility-mode)'.
 
 To make an existing external content fully editable within the Email Designer, see the [Designing an email using existing contents](../../designing/using/using-existing-content.md) section.
 
