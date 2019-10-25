@@ -42,7 +42,7 @@ Several typologies are present by default in the application. Based on your need
 1. Define the type of the typology. Typologies can be either Standard or Filtering typologies.
 1. Add the typology rules you need using the **[!UICONTROL Add an element]** button or remove the ones you do not want to use.
 
-   You can modify the order in which the rules are applied for a given typology. To do this, move the elements to modify the order in which they appear on the screen. The numbers corresponding to the execution order are then automatically recalculated. The rule application mode is presented in the [Typology rules execution order](../../administration/using/about-typology-rules.md#typology-rules-execution-order) section.
+   You can modify the order in which the rules are applied for a given typology. To do this, move the elements to modify the order in which they appear on the screen. The numbers corresponding to the execution order are then automatically recalculated. The rule application mode is presented in the [Typology rules execution order](#typology-rules-execution-order) section.
 
    The rules displayed on this screen can be accessed in read-only mode.
 
@@ -68,7 +68,7 @@ A typology rule can be applied to only one channel or to all channels.
 
 ![](assets/typology_channel.png)
 
-In the **[!UICONTROL Properties]** of a typology rule, you can set its execution order. When several rules have to be applied, the execution order of each rule determines the ones to process first. For more on this, refer to the [Typology rules execution order](../../administration/using/about-typology-rules.md#typology-rules-execution-order) section.
+In the **[!UICONTROL Properties]** of a typology rule, you can set its execution order. When several rules have to be applied, the execution order of each rule determines the ones to process first. For more on this, refer to the [Typology rules execution order](#typology-rules-execution-order) section.
 
 ![](assets/typology_rule-active.png)
 

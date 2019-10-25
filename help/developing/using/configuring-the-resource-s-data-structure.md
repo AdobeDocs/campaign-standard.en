@@ -22,11 +22,11 @@ After creating a new custom resource, you must configure the data structure.
 
 When editing the resource, in the **[!UICONTROL Data structure]** tab, you can add:
 
-* [Fields](../../developing/using/configuring-the-resource-s-data-structure.md#adding-fields-to-a-resource)
-* [Identification keys](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
-* [Indexes](../../developing/using/configuring-the-resource-s-data-structure.md#defining-indexes)
-* [Links](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources)
-* [Sending logs](../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension)
+* [Fields](#adding-fields-to-a-resource)
+* [Identification keys](#defining-identification-keys)
+* [Indexes](#defining-indexes)
+* [Links](#defining-links-with-other-resources)
+* [Sending logs](#defining-sending-logs-extension)
 
 ## Adding fields to a resource {#adding-fields-to-a-resource}
 

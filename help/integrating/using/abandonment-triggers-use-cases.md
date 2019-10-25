@@ -20,8 +20,8 @@ snippet: y
 
 This section presents different use cases that can be implemented using the integration between Adobe Campaign and Experience Cloud Triggers. You will find two examples of use cases:
 
-* [Browse abandonment Trigger](../../integrating/using/abandonment-triggers-use-cases.md#browse-abandonment-trigger): send a communication to customers who abandoned their visit on your website.
-* [Search abandonment Trigger](../../integrating/using/abandonment-triggers-use-cases.md#search-abandonment-trigger): reengage with visitors who made a search on your website, but didn't make a purchase.
+* [Browse abandonment Trigger](#browse-abandonment-trigger): send a communication to customers who abandoned their visit on your website.
+* [Search abandonment Trigger](#search-abandonment-trigger): reengage with visitors who made a search on your website, but didn't make a purchase.
 
 >[!NOTE]
 >
@@ -120,11 +120,11 @@ In Adobe Campaign, you need to create a Trigger linked to the one you created in
 
 ## Search abandonment Trigger {#search-abandonment-trigger}
 
-In this use case, we are going to create a trigger to reengage with visitors who went on our trip booking website, searched for a destination, found no successful results, and didn't book anything after that. The general process is the same as in the previous use case (see [Browse abandonment Trigger](../../integrating/using/abandonment-triggers-use-cases.md#browse-abandonment-trigger)). We will focus here on how to personalize the remarketing email message.
+In this use case, we are going to create a trigger to reengage with visitors who went on our trip booking website, searched for a destination, found no successful results, and didn't book anything after that. The general process is the same as in the previous use case (see [Browse abandonment Trigger](#browse-abandonment-trigger)). We will focus here on how to personalize the remarketing email message.
 
 ### Creating an Experience Cloud Trigger {#creating-an-experience-cloud-trigger-1}
 
-Follow the steps described in the previous use case to create the Experience Cloud Trigger. See [Creating an Experience Cloud Trigger](../../integrating/using/abandonment-triggers-use-cases.md#creating-an-experience-cloud-trigger). The main difference is the trigger definition.
+Follow the steps described in the previous use case to create the Experience Cloud Trigger. See [Creating an Experience Cloud Trigger](#creating-an-experience-cloud-trigger). The main difference is the trigger definition.
 
 ![](assets/trigger_uc_search_1.png)
 
@@ -132,7 +132,7 @@ The **[!UICONTROL Include Meta Data]** section allows you to pass any data colle
 
 ### Using the trigger in Adobe Campaign {#using-the-trigger-in-adobe-campaign-1}
 
-1. Follow the steps described in the previous use case to create the trigger in Adobe Campaign. See [Using the trigger in Adobe Campaign](../../integrating/using/abandonment-triggers-use-cases.md#using-the-trigger-in-adobe-campaign). The main difference is how we access and use, in Adobe Campaign, the meta data pushed in the Trigger payload. 
+1. Follow the steps described in the previous use case to create the trigger in Adobe Campaign. See [Using the trigger in Adobe Campaign](#using-the-trigger-in-adobe-campaign). The main difference is how we access and use, in Adobe Campaign, the meta data pushed in the Trigger payload. 
 1. In the Search Abandonment trigger you created in Adobe Campaign, click on the **[!UICONTROL Event content and enrichment]** icon to view the payload pushed to Adobe Campaign.
 
    ![](assets/trigger_uc_search_2.png)

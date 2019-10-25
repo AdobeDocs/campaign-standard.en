@@ -43,7 +43,7 @@ To apply the changes carried out on the resources, you must perform a database u
 
 1. Click the **[!UICONTROL Prepare publication]** button to start the analysis. Please note that big table updates should be done when the instance is not intensively busy by workflows.
 
-   To learn more on the action to perform on the Profiles & Services API, refer to [Publishing a resource with API extension](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension).
+   To learn more on the action to perform on the Profiles & Services API, refer to [Publishing a resource with API extension](#publishing-a-resource-with-api-extension).
 
    ![](assets/schema_extension_13.png)
 

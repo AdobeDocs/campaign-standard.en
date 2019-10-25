@@ -26,7 +26,7 @@ You can either define the audience in the creation wizard or by clicking on the 
 
 For direct mail, the targeted profiles are the ones that will be included in the extraction file that you will send to your direct mail provider.
 
-For each targeted profile a new line is added in the extraction file. The amount of profile information that will be included for each recipient is defined in the [Defining the extraction](../../channels/using/defining-the-direct-mail-content.md#defining-the-extraction) screen.
+For each targeted profile a new line is added in the extraction file. The amount of profile information that will be included for each recipient is defined in the [Defining the extraction](#defining-the-extraction) screen.
 
 >[!CAUTION]
 >

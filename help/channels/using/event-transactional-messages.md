@@ -111,7 +111,7 @@ To set up personalization in a transactional message, follow the steps below:
 
    ![](assets/message-center_9.png)
 
-   You can check that the personalization fields match the information entered in the test profile. For more on this, see [Defining a test profile in a transactional message](../../channels/using/event-transactional-messages.md#defining-a-test-profile-in-a-transactional-message).
+   You can check that the personalization fields match the information entered in the test profile. For more on this, see [Defining a test profile in a transactional message](#defining-a-test-profile-in-a-transactional-message).
 
 ## Using product listings in a transactional message {#using-product-listings-in-a-transactional-message}
 
@@ -231,7 +231,7 @@ For more on creating a collection and related fields when configuring the event,
 
    ![](assets/message-center_loop_test-profile_payload.png)
 
-   For more on defining a test profile in a transactional message, see [this section](../../channels/using/event-transactional-messages.md#defining-a-test-profile-in-a-transactional-message).
+   For more on defining a test profile in a transactional message, see [this section](#defining-a-test-profile-in-a-transactional-message).
 
 ## Testing a transactional message {#testing-a-transactional-message}
 
@@ -271,9 +271,9 @@ Clicking **[!UICONTROL Unpublish]** allows you to cancel the transactional messa
 
 >[!NOTE]
 >
->To publish the message again, you need to go back to the corresponding event configuration, publish it, and then publish the message. For more on this, see [Publishing a transactional message](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message).
+>To publish the message again, you need to go back to the corresponding event configuration, publish it, and then publish the message. For more on this, see [Publishing a transactional message](#publishing-a-transactional-message).
 
-If you unpublish a paused transactional message, you may have to wait up to 24 hours before you can publish it again. This is to let the **[!UICONTROL Database cleanup]** workflow clean all the events that were sent to the queue. The steps for pausing a message are detailed in the [Suspending a transactional message publication](../../channels/using/event-transactional-messages.md#suspending-a-transactional-message-publication) section.
+If you unpublish a paused transactional message, you may have to wait up to 24 hours before you can publish it again. This is to let the **[!UICONTROL Database cleanup]** workflow clean all the events that were sent to the queue. The steps for pausing a message are detailed in the [Suspending a transactional message publication](#suspending-a-transactional-message-publication) section.
 
 The **[!UICONTROL Database cleanup]** workflow, which runs every day at 4am, is accessible through **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Workflows]**.
 
@@ -285,7 +285,7 @@ By selecting a transactional message, you can delete it with the **[!UICONTROL D
 
 * **Transactional messages**: To delete a transactional message, the message should be unpublished and not paused.
 
-  If the transactional message is unpublished, the event configuration also needs to be unpublished to successfully delete your transactional message, unless another transactional message is linked to the corresponding event. For more information on how to unpublish a transactional message, refer to this [section](../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message).
+  If the transactional message is unpublished, the event configuration also needs to be unpublished to successfully delete your transactional message, unless another transactional message is linked to the corresponding event. For more information on how to unpublish a transactional message, refer to this [section](#unpublishing-a-transactional-message).
 
   >[!CAUTION]
   >
@@ -301,8 +301,8 @@ A temporarily undelivered transactional message is subject to automatic retries 
 
 When a transactional message fails to be sent, there are two retry systems:
 
-* At the transactional messaging level, a transactional message can fail before the event is assigned to an execution delivery, meaning between the event reception and the delivery preparation. See [Event processing retry process](../../channels/using/event-transactional-messages.md#event-processing-retry-process).
-* At the sending process level, once the event has been assigned to an execution delivery, the transactional message can fail due to a temporary error. See [Message sending retry process](../../channels/using/event-transactional-messages.md#message-sending-retry-process).
+* At the transactional messaging level, a transactional message can fail before the event is assigned to an execution delivery, meaning between the event reception and the delivery preparation. See [Event processing retry process](#event-processing-retry-process).
+* At the sending process level, once the event has been assigned to an execution delivery, the transactional message can fail due to a temporary error. See [Message sending retry process](#message-sending-retry-process).
 
 ### Event processing retry process {#event-processing-retry-process}
 

@@ -20,7 +20,7 @@ snippet: y
 
 ## About delivery failures {#about-delivery-failures}
 
-When a delivery cannot be sent to a profile, the remote server automatically sends an error message, which is picked up by the Adobe Campaign platform and qualified to determine whether or not the email address or phone number should be quarantined. See [Bounce mail qualification](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification).
+When a delivery cannot be sent to a profile, the remote server automatically sends an error message, which is picked up by the Adobe Campaign platform and qualified to determine whether or not the email address or phone number should be quarantined. See [Bounce mail qualification](#bounce-mail-qualification).
 
 >[!NOTE]
 >
@@ -37,7 +37,7 @@ Messages can also be excluded during the delivery preparation if an address is q
 
 ## Identifying delivery failures for a message {#identifying-delivery-failures-for-a-message}
 
-Once a delivery is sent, the **[!UICONTROL Sending logs]** tab (see [this section](../../sending/using/monitoring-a-delivery.md#sending-logs)) allows you to view the delivery status for each profile and the associated failure type and reason (see [Delivery failure types and reasons](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)).
+Once a delivery is sent, the **[!UICONTROL Sending logs]** tab (see [this section](../../sending/using/monitoring-a-delivery.md#sending-logs)) allows you to view the delivery status for each profile and the associated failure type and reason (see [Delivery failure types and reasons](#delivery-failure-types-and-reasons)).
 
 ![](assets/sending_logs.png)
 
@@ -77,7 +77,7 @@ The possible reasons for a delivery failure are:
 
 ## Retries after a delivery temporary failure {#retries-after-a-delivery-temporary-failure}
 
-If a message fails due to a temporary error of the **Ignored** type, retries will be performed during the delivery duration. For more on the types of errors, see [Delivery failure types and reasons](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+If a message fails due to a temporary error of the **Ignored** type, retries will be performed during the delivery duration. For more on the types of errors, see [Delivery failure types and reasons](#delivery-failure-types-and-reasons).
 
 To modify the duration of a delivery, go to the advanced parameters of the delivery or delivery template and specify the desired duration in the corresponding field. The advanced delivery properties are presented in [this section](../../administration/using/configuring-email-channel.md#validity-period-parameters).
 

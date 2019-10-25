@@ -82,7 +82,7 @@ Once it has been started, a workflow may also have two other statuses:
 
 * **Erroneous** (red)
 
-  An error occurred when a workflow was executed. The workflow was stopped and the user must carry out an action. To find out more about this error, use the ![](assets/printpreview_darkgrey-24px.png) button to access the workflow log (refer to [Monitoring](../../automating/using/executing-a-workflow.md#monitoring)).
+  An error occurred when a workflow was executed. The workflow was stopped and the user must carry out an action. To find out more about this error, use the ![](assets/printpreview_darkgrey-24px.png) button to access the workflow log (refer to [Monitoring](#monitoring)).
 
 The list of marketing activities allows you to display all the workflows as well as their statuses. For more on this, see [Managing marketing activities](../../start/using/marketing-activities.md#about-marketing-activities).
 
@@ -142,7 +142,7 @@ The ![](assets/checkdisable.png) button deactivates any selected activities.
 
 The ![](assets/printpreview_darkgrey-24px.png) icon opens the workflow log and task menu.
 
-The workflow history is saved for the duration specified in the workflow execution options (refer to [Workflow properties](../../automating/using/executing-a-workflow.md#workflow-properties)). During this duration, all the messages are therefore saved, even after a restart. If you do not want to save the messages from a previous execution, you have to purge the history by clicking the ![](assets/delete_darkgrey-24px.png) button.
+The workflow history is saved for the duration specified in the workflow execution options (refer to [Workflow properties](#workflow-properties)). During this duration, all the messages are therefore saved, even after a restart. If you do not want to save the messages from a previous execution, you have to purge the history by clicking the ![](assets/delete_darkgrey-24px.png) button.
 
 The **[!UICONTROL Log]** tab contains the execution history of all the activities or any selected activities. It indexes the operations carried out and execution errors by chronological order.
 
@@ -170,9 +170,9 @@ In this case, the erroneous task is aborted. This mode is particularly suited to
 
 >[!NOTE]
 >
->You can apply this configuration individually for each activity. To do this, select an activity and open it using the quick action ![](assets/edit_darkgrey-24px.png). Then select the error management mode in the **Execution options** tab. See [Activity execution options](../../automating/using/executing-a-workflow.md#activity-execution-options).
+>You can apply this configuration individually for each activity. To do this, select an activity and open it using the quick action ![](assets/edit_darkgrey-24px.png). Then select the error management mode in the **Execution options** tab. See [Activity execution options](#activity-execution-options).
 
-The **[!UICONTROL Execution]** section of the workflow properties also allows you to define a number of **[!UICONTROL Consecutive errors]** that are authorized before the workflow execution is automatically suspended. As long as this number is not reached, the erroneous elements are ignored and the other workflow branches are executed normally. If this number is reached, the workflow is suspended and the workflow supervisors are automatically notified (email and in-app notification). See [Workflow properties](../../automating/using/executing-a-workflow.md#workflow-properties) and [Adobe Campaign notifications](../../administration/using/sending-internal-notifications.md).
+The **[!UICONTROL Execution]** section of the workflow properties also allows you to define a number of **[!UICONTROL Consecutive errors]** that are authorized before the workflow execution is automatically suspended. As long as this number is not reached, the erroneous elements are ignored and the other workflow branches are executed normally. If this number is reached, the workflow is suspended and the workflow supervisors are automatically notified (email and in-app notification). See [Workflow properties](#workflow-properties) and [Adobe Campaign notifications](../../administration/using/sending-internal-notifications.md).
 
 The supervisors can also be defined in the execution properties of the workflow.
 

@@ -29,8 +29,8 @@ If you choose to use the default message, you can edit its content with the foll
 * This message will be the same for all services that use the default mode.
 
 To send a specific confirmation email for a given service, you can create a custom message, in which you will also be able to leverage personalization fields from other resources. To do this, you must create and configure a transactional message. This message can be referenced :
-* From the service itself. For more on this, see [Configuring confirmation message from a service](../../audiences/using/confirming-subscription-to-a-service.md#configuring-confirmation-message-from-service).
-* From a subscription landing page. For more on this, see [Configuring confirmation message from a landing page](../../audiences/using/confirming-subscription-to-a-service.md#configuring-confirmation-message-from-landing-page).
+* From the service itself. For more on this, see [Configuring confirmation message from a service](#configuring-confirmation-message-from-service).
+* From a subscription landing page. For more on this, see [Configuring confirmation message from a landing page](#configuring-confirmation-message-from-landing-page).
 
 ## Configuring confirmation message from a service {#configuring-confirmation-message-from-service}
 
@@ -163,7 +163,7 @@ The confirmation email is a [transactional message](../../channels/using/about-t
 
 #### Design the confirmation message {#design-the-confirmation-message-2}
 
-The steps for designing the transactional message are presented in this [section](../../audiences/using/confirming-subscription-to-a-service.md#design-the-confirmation-message-1).
+The steps for designing the transactional message are presented in this [section](#design-the-confirmation-message-1).
 
 ### Step 2: Create and configure the service {#step-2--create-and-configure-the-service-2}
 

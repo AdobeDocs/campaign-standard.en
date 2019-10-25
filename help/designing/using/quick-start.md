@@ -21,14 +21,14 @@ The Email Designer provides four ways to create emails.
 
 You can create an email starting fresh:
 
-* You can create an email from a blank canvas by easily adding structure and content components and personalize their content to send a delivery quickly. You can also fully manage style elements. For more information, [get started quickly](../../designing/using/quick-start.md#from-scratch-email) or see the [complete documentation](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
+* You can create an email from a blank canvas by easily adding structure and content components and personalize their content to send a delivery quickly. You can also fully manage style elements. For more information, [get started quickly](#from-scratch-email) or see the [complete documentation](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 
-* You can create an email from an out-of-the-box templates by selecting a template and building your new email content from here. [Learn more](quick-start.md#building-content-from-an-out-of-the-box-template)
+* You can create an email from an out-of-the-box templates by selecting a template and building your new email content from here. [Learn more](#building-content-from-an-out-of-the-box-template)
 
 You can also create an email  with existing content:
 
-* You can convert an existing HTML content (created externally or in the legacy editor). [Learn more](quick-start.md#converting-an-html-content)
-* You can import an existing HTML content straight away in compatibility mode. [Learn more](quick-start.md#compatibility-mode)
+* You can convert an existing HTML content (created externally or in the legacy editor). [Learn more](#converting-an-html-content)
+* You can import an existing HTML content straight away in compatibility mode. [Learn more](#compatibility-mode)
 
 ## Without existing content {#without-existing-content}
 

@@ -20,8 +20,8 @@ snippet: y
 
 The SMS and push content editor is organized into two different sections that allow you to view and edit the message.
 
-1. The **action bar** contains the general options for the page. You can insert personalization fields or content blocks, add conditional text and preview your SMS content from here. See [SMS and push content editor action bar](../../channels/using/sms-and-push-content-editor-interface.md#sms-and-push-content-editor-action-bar).
-1. The **editing zone** of the screen allows you to directly enter your text message and select where you want to insert personalization. See [SMS and push content edition modes](../../channels/using/sms-and-push-content-editor-interface.md#sms-and-push-content-edition-modes).
+1. The **action bar** contains the general options for the page. You can insert personalization fields or content blocks, add conditional text and preview your SMS content from here. See [SMS and push content editor action bar](#sms-and-push-content-editor-action-bar).
+1. The **editing zone** of the screen allows you to directly enter your text message and select where you want to insert personalization. See [SMS and push content edition modes](#sms-and-push-content-edition-modes).
 
 ## SMS and push content editor action bar {#sms-and-push-content-editor-action-bar}
 
