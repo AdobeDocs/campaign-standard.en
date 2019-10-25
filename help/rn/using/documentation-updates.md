@@ -36,7 +36,7 @@ Microsoft Dynamics 365 integration (GA) - [Read more](https://helpx.adobe.com/ca
 
 The list of error messages for Campaign Standard and Campaign Classic has been updated. [Read more](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
-The GDPR getting started guide has been improved and enriched. It is now a privacy management documentation including GDPR and CCPA. [Read more](https://helpx-internal.corp.adobe.com/content/help/en/campaign/kb/campaign-privacy.html)
+The GDPR getting started guide has been improved and enriched. It is now a privacy management documentation including GDPR and CCPA. [Read more](https://helpx.adobe.com/content/help/en/campaign/kb/campaign-privacy.html)
 
 A new chart presenting the transactional messaging publication process has been added. [Read more](../../channels/using/about-transactional-messaging.md#transactional-messaging-pub-process)
 
