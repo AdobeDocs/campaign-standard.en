@@ -44,6 +44,8 @@ The Delivery Best Practices getting started guide has been updated. [Read more](
 
 <!--A new section has been added. It provides an overview of the different methods that allow you to enrich Campaign Standard database. [Read more](../../start/using/enriching-campaign-database.md)-->
 
+A new section has been added describing how to style links with the Email Designer. [Read more](../../designing/using/styles.md#about-styling-links)
+
 ## Documentation updates - October 2019 {#doc-updates-october-2019}
 
 A new section related to Campaign Standard settings was added. [Read more](../../administration/using/about-campaign-standard-settings.md)
