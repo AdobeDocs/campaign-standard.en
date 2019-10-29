@@ -74,3 +74,7 @@ Learn more on how to set up a landing page.
 * [Release Planning guide](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
 
 * [Deprecated and Removed Features](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+
+* [Technical notes](https://helpx.adobe.com/campaign/kb/acs-article-list.html)
+
+* [Adobe Campaign Standard Implementation guide](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
