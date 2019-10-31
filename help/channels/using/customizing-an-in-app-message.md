@@ -22,8 +22,8 @@ To fine-tune your In-App message, Adobe Campaign allows you to access a set of a
 
 The In-App content editor lets you choose between two In-App message modes:
 
-* [Message Template](../../channels/using/customizing-an-in-app-message.md#customizing-with-a-message-template): this template allows you to fully customize your In-App with images or videos and action buttons.
-* [Custom Message](../../channels/using/customizing-an-in-app-message.md#customizing-with-a-custom-html-message): this template lets you import custom HTML.
+* [Message Template](#customizing-with-a-message-template): this template allows you to fully customize your In-App with images or videos and action buttons.
+* [Custom Message](#customizing-with-a-custom-html-message): this template lets you import custom HTML.
 
 ![](assets/inapp_customize_1.png)
 
@@ -57,7 +57,7 @@ The **[!UICONTROL Layout]** drop-down provides you with four different options t
 
 * **[!UICONTROL Local notification]**: This type of layout appears as a banner message.
 
-  It can only support sound, text and destination. For more on local notification, refer to [Customizing a local notification message type](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type).
+  It can only support sound, text and destination. For more on local notification, refer to [Customizing a local notification message type](#customizing-a-local-notification-message-type).
 
 Each type of layouts can be previewed on different devices such as phone, tablet, platform e.g. Android or iOS and orientation e.g. landscape or portrait in the right-window of the content editor.
 
@@ -121,7 +121,7 @@ You can add up to two buttons to your In-App message.
 1. Enter your web URL or deeplink in the **[!UICONTROL Destination URL]** field, if you chose the **[!UICONTROL Redirect]** action, 
 1. Check your message content in the preview window or by clicking the Preview button.
 
-   Refer to the [Previewing the In-App message](../../channels/using/customizing-an-in-app-message.md#previewing-the-in-app-message) page.
+   Refer to the [Previewing the In-App message](#previewing-the-in-app-message) page.
 
    ![](assets/inapp_customize_11.png)
 

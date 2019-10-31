@@ -51,15 +51,15 @@ To create and configure a **[!UICONTROL Fatigue]** typology rule, apply the foll
 
    ![](assets/fatigue3.png)
 
-1. In the **[!UICONTROL Channel]** field, select which channel your rule will apply to. You can either select a single channel (email, SMS, direct mail, mobile application) or select **[!UICONTROL All channels]**. See [Choosing the channel](../../administration/using/fatigue-rules.md#choosing-the-channel).
+1. In the **[!UICONTROL Channel]** field, select which channel your rule will apply to. You can either select a single channel (email, SMS, direct mail, mobile application) or select **[!UICONTROL All channels]**. See [Choosing the channel](#choosing-the-channel).
 
    ![](assets/fatigue5.png)
 
-1. In the **[!UICONTROL General]** tab, define the method for calculating the maximum number of messages per profile. You can choose either a constant threshold or a variable. You can also refine the threshold on profiles and deliveries. For more on this, refer to [Defining the threshold](../../administration/using/fatigue-rules.md#defining-the-threshold).
+1. In the **[!UICONTROL General]** tab, define the method for calculating the maximum number of messages per profile. You can choose either a constant threshold or a variable. You can also refine the threshold on profiles and deliveries. For more on this, refer to [Defining the threshold](#defining-the-threshold).
 
    ![](assets/fatigue2.png)
 
-1. Choose a **[!UICONTROL Sliding period]** on which the typology rule will apply. For more on this, refer to [Setting the sliding period](../../administration/using/fatigue-rules.md#setting-the-sliding-period).
+1. Choose a **[!UICONTROL Sliding period]** on which the typology rule will apply. For more on this, refer to [Setting the sliding period](#setting-the-sliding-period).
 
    ![](assets/fatigue6.png)
 
@@ -77,7 +77,7 @@ To create and configure a **[!UICONTROL Fatigue]** typology rule, apply the foll
    >
    >The typology can be defined in the delivery template, to be applied automatically to all deliveries created using this template.
 
-During delivery preparation, profiles are excluded from the delivery if applicable, depending on the number of deliveries already sent to them. You can view the fatigue rule execution results in the delivery logs. See [Viewing the fatigue results](../../administration/using/fatigue-rules.md#viewing-the-fatigue-results).
+During delivery preparation, profiles are excluded from the delivery if applicable, depending on the number of deliveries already sent to them. You can view the fatigue rule execution results in the delivery logs. See [Viewing the fatigue results](#viewing-the-fatigue-results).
 
 ![](assets/fatigue16.png)
 

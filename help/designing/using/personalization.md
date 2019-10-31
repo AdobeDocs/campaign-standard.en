@@ -20,11 +20,11 @@ snippet: y
 
 The content and display of messages delivered by Adobe Campaign can be personalized in several different ways. These ways can be combined according to criteria depending on the profiles. In general, Adobe Campaign allows you to:
 
-* Insert dynamic personalization fields. See [Inserting a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field).
-* Insert predefined personalization blocks. See [Adding a content block](../../designing/using/personalization.md#adding-a-content-block).
-* Personalize the sender of an email. See [Personalizing the sender](../../designing/using/personalization.md#personalizing-the-sender).
+* Insert dynamic personalization fields. See [Inserting a personalization field](#inserting-a-personalization-field).
+* Insert predefined personalization blocks. See [Adding a content block](#adding-a-content-block).
+* Personalize the sender of an email. See [Personalizing the sender](#personalizing-the-sender).
 * Personalize the subject of an email. See [Personalizing the subject line of an email](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
-* Create conditional content. See [Defining dynamic content in an email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
+* Create conditional content. See [Defining dynamic content in an email](#defining-dynamic-content-in-an-email)
 
 ## Personalizing the sender {#personalizing-the-sender}
 
@@ -146,7 +146,7 @@ To create a content block, follow these steps:
 
    ![](assets/content_bloc_02.png)
 
-1. You can select a **[!UICONTROL Targeting dimension]**. For more on this, see [About targeting dimension](../../designing/using/personalization.md#about-targeting-dimension).
+1. You can select a **[!UICONTROL Targeting dimension]**. For more on this, see [About targeting dimension](#about-targeting-dimension).
 
    ![](assets/content_bloc_04.png)
 
@@ -176,9 +176,9 @@ For more on this, refer to [Targeting dimensions and resources](../../automating
 
 **Related topics:**
 
-* [Inserting a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field)
-* [Adding a content block](../../designing/using/personalization.md#adding-a-content-block)
-* [Defining dynamic content in an email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
+* [Inserting a personalization field](#inserting-a-personalization-field)
+* [Adding a content block](#adding-a-content-block)
+* [Defining dynamic content in an email](#defining-dynamic-content-in-an-email)
 
 ## Personalizing an image source{#personalizing-an-image-source}
 
@@ -226,7 +226,7 @@ These conditions adopt the XTK expression syntax (e.g. **context.profile.email !
 
 In an email, you can define different contents which will be displayed dynamically to the recipients according to the conditions defined via the expression editor. For example, from the same email, you can ensure that each profile receives a different message according to their age range.
 
-Defining dynamic content is different from [defining visibility conditions](../../designing/using/personalization.md#defining-a-visibility-condition).
+Defining dynamic content is different from [defining visibility conditions](#defining-a-visibility-condition).
 
 1. Select a fragment, a component or an element. In this example, select an image.
 1. Click the **[!UICONTROL Dynamic content]** icon from the contextual toolbar.
@@ -259,7 +259,7 @@ Defining dynamic content is different from [defining visibility conditions](../.
 
    ![](assets/dynamic_content_7.png)
 
-   The contents will be displayed in the palette in order of priority, from top to bottom. For more on priorities, refer to [this section](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
+   The contents will be displayed in the palette in order of priority, from top to bottom. For more on priorities, refer to [this section](#defining-dynamic-content-in-an-email).
 
 1. Upload a new image for the variant you just defined.
 
@@ -316,13 +316,13 @@ The email is created as follows:
 
   ![](assets/delivery_content_43.png)
 
-  Adding and configuring dynamic content is detailed in the [Defining dynamic content in an email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) section.
+  Adding and configuring dynamic content is detailed in the [Defining dynamic content in an email](#defining-dynamic-content-in-an-email) section.
 
 * Personalization fields and dynamic contents are applied to the text. Depending on the age range of the profile, the email starts with either the profile's first name, or the profile's title and last name.
 
   ![](assets/delivery_content_44.png)
 
-  Adding and configuring the personalization fields is detailed in the [Inserting a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field) section.
+  Adding and configuring the personalization fields is detailed in the [Inserting a personalization field](#inserting-a-personalization-field) section.
 
 ### Configuring images {#configuring-images}
 
@@ -369,7 +369,7 @@ In this example, the dynamic contents applied to the texts are configured as fol
 **To target profiles aged between 18-27:**
 
 1. Select the structure component you want and add a dynamic content.
-1. Edit the dynamic content and configure the targeting expressions. Refer to [Configuring images](../../designing/using/personalization.md#configuring-images).
+1. Edit the dynamic content and configure the targeting expressions. Refer to [Configuring images](#configuring-images).
 1. In the structure component, at the desired position, click the **[!UICONTROL Personalize]** icon from the contextual toolbar and select **[!UICONTROL Insert personalization field]**.
 
    ![](assets/delivery_content_53.png)
@@ -383,7 +383,7 @@ In this example, the dynamic contents applied to the texts are configured as fol
 **To target profiles aged 27 and above:**
 
 1. Select the structure component you want and add a dynamic content.
-1. Edit the dynamic content and configure the targeting expressions. Refer to [Configuring images](../../designing/using/personalization.md#configuring-images).
+1. Edit the dynamic content and configure the targeting expressions. Refer to [Configuring images](#configuring-images).
 1. In the structure component, at the desired position, click the **[!UICONTROL Personalize]** icon from the contextual toolbar and select **[!UICONTROL Insert personalization field]**.
 1. Select **[!UICONTROL Title]** from the drop-down list.
 1. Proceed similarly to add the **[!UICONTROL Last name]** field.

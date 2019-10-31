@@ -41,7 +41,7 @@ In many projects, imports are built without **[!UICONTROL Deduplication]** activ
 
 Do not rest on assumption that the incoming data is consistent and correct, or that the IT department or Adobe Campaign supervisor will take care of it. During the project, keep the data cleansing in mind. Deduplicate, reconcile, and maintain consistency when you import data.
 
-An example of a generic workflow template designed for importing data is available in the [Example: Import workflow template](../../automating/using/importing-data.md#example--import-workflow-template) section.
+An example of a generic workflow template designed for importing data is available in the [Example: Import workflow template](#example--import-workflow-template) section.
 
 >[!NOTE]
 >

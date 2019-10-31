@@ -168,7 +168,7 @@ The **[!UICONTROL Send]** section is only available for email templates. It cont
 
 Temporarily undelivered messages are subject to an automatic retry. This section indicates how many retries should be performed the day after the send is started ( **[!UICONTROL Max. number of retries]** ) and the minimum delay between retries ( **[!UICONTROL Retry period]** ).
 
-By default, five retries are scheduled for the first day with a minimum interval of one hour, spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the [Validity period parameters](../../administration/using/configuring-email-channel.md#validity-period-parameters) section.
+By default, five retries are scheduled for the first day with a minimum interval of one hour, spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the [Validity period parameters](#validity-period-parameters) section.
 
 The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template
 
@@ -201,7 +201,7 @@ If you enable the SMTP test mode option for an email template, all email message
   >When this option is enabled for an email, no messages will be sent until it is unchecked.
   >A warning will be displayed in the email or email template dashboard.
 
-For more information on configuring SMTP, refer to the [List of email SMTP parameters](../../administration/using/configuring-email-channel.md#list-of-email-smtp-parameters) section.
+For more information on configuring SMTP, refer to the [List of email SMTP parameters](#list-of-email-smtp-parameters) section.
 
 ### Validity period parameters {#validity-period-parameters}
 

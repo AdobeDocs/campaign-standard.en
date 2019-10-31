@@ -26,12 +26,12 @@ You can manage your test profiles from the advanced menu **[!UICONTROL Profiles 
 
 A test profile contains fictitious contact information, or contact information controlled by the sender, that can then be used in a message in the following contexts:
 
-* For sending **Proofs**: the Proof is a specific message used to check the message before sending the finalized delivery to recipients. A Proof test profile is in charge of checking the delivery, with regard to its content and format. See [Sending proofs](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs).
+* For sending **Proofs**: the Proof is a specific message used to check the message before sending the finalized delivery to recipients. A Proof test profile is in charge of checking the delivery, with regard to its content and format. See [Sending proofs](#sending-proofs).
 * For **Email rendering**: the Email rendering test profile is used to check the way in which a message is displayed according to the message inbox that receives it. For example, webmail, message service, mobile, etc. See [Email rendering](../../sending/using/email-rendering.md).
 
   The **Email rendering** use is read-only. Test profiles with this use are only available out-of-the-box in Adobe Campaign.
 
-* As a **Trap**: the message is sent to the test profile just as it is sent to the main target. See [Using traps](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps).
+* As a **Trap**: the message is sent to the test profile just as it is sent to the main target. See [Using traps](#using-traps).
 * To **Preview** messages: a test profile can be selected when previewing a message to test the personalization elements. See [Previewing messages](/help/sending/using/previewing-messages.md).
 
 ![](assets/test_profile.png)
@@ -86,7 +86,7 @@ To edit a test profile and consult the data that is linked to it, or to modify i
 
 A proof is a specific message that allows you to test a message before sending it to the main target.
 
-Recipients of the proof are in charge of approving the message (its content and form). They are defined in the **Test profiles**. For more on this, see [Managing test profiles](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles).
+Recipients of the proof are in charge of approving the message (its content and form). They are defined in the **Test profiles**. For more on this, see [Managing test profiles](#managing-test-profiles).
 
 In order to send a proof, the test profiles must be included in your message's audience.
 
@@ -147,7 +147,7 @@ To use a test profile as a trap, it must be included in your message's audience.
 
 >[!NOTE]
 >
->As opposed to test profiles used for [proofs](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs) or [email rendering](../../sending/using/email-rendering.md), the message is sent at the same time to the main target and to the test profiles used as traps.
+>As opposed to test profiles used for [proofs](#sending-proofs) or [email rendering](../../sending/using/email-rendering.md), the message is sent at the same time to the main target and to the test profiles used as traps.
 
 When defining a message's audience:
 

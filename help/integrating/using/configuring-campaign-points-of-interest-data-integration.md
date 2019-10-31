@@ -37,7 +37,7 @@ This rule will be triggered when a user enters a geo-fenced **[!UICONTROL Point 
 
 1. Define your **[!UICONTROL Points of Interest]** in Places. See [Create a Point of Interest](https://placesdocs.com/places-services-by-adobe-documentation/places-database-management-1/managing-pois-in-the-places-ui#create-a-poi).
 
-1. Make sure you access the mobile application and the collected location data in Adobe Campaign. See [Accessing mobile apps used to collect location data](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#accessing-mobile-apps-used-to-collect-location-data) and [Accessing collected location data](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#accessing-collected-location-data).
+1. Make sure you access the mobile application and the collected location data in Adobe Campaign. See [Accessing mobile apps used to collect location data](#accessing-mobile-apps-used-to-collect-location-data) and [Accessing collected location data](#accessing-collected-location-data).
 
 ## Configuring Campaign-Points of Interest data integration using SDK V4 {#configuring-campaign-poi-sdkv4}
 
@@ -46,16 +46,16 @@ The mobile applications used to collect location data must be configured by an *
 To use the Point of Interest data feature with mobile applications configured with SDK V4, you need to:
 
 1. Have access to Adobe Analytics for Mobile. Check your license agreement or contact your Adobe Account executive for more information.
-1. Set up your mobile application in Adobe Campaign. See [Setting up a mobile app in Campaign](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#setting-up-a-mobile-app-in-campaign).
-1. Set up your mobile application in the Adobe Mobile Services interface. This enables you to ensure that data collected by Adobe Mobile Services is sent to Adobe Campaign. See [Configuring a mobile app in Adobe Mobile Services](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#configuring-a-mobile-app-in-adobe-mobile-services).
+1. Set up your mobile application in Adobe Campaign. See [Setting up a mobile app in Campaign](#setting-up-a-mobile-app-in-campaign).
+1. Set up your mobile application in the Adobe Mobile Services interface. This enables you to ensure that data collected by Adobe Mobile Services is sent to Adobe Campaign. See [Configuring a mobile app in Adobe Mobile Services](#configuring-a-mobile-app-in-adobe-mobile-services).
 1. Perform the mobile application's specific setup:
 
     * Package the configuration file downloaded from the Adobe Mobile Services interface with the mobile application.
-    * Integrate the Experience Cloud Mobile SDK into your mobile application. See [Integrating the SDK into a mobile application](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#integrating-the-sdk-into-a-mobile-application).
+    * Integrate the Experience Cloud Mobile SDK into your mobile application. See [Integrating the SDK into a mobile application](#integrating-the-sdk-into-a-mobile-application).
 
-1. Define Points of Interest in the Adobe Mobile Services interface. See [Defining Points of Interest in Adobe Mobile Services](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#defining-points-of-interest-in-adobe-mobile-services).
-1. Define the data that you want to collect from your mobile application's subscribers. See [Collecting subscribers' Points of interest data](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#collecting-subscribers--points-of-interest-data).
-1. Make sure you access the mobile application and the collected location data in Adobe Campaign. See [Accessing mobile apps used to collect location data](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#accessing-mobile-apps-used-to-collect-location-data) and [Accessing collected location data](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#accessing-collected-location-data).
+1. Define Points of Interest in the Adobe Mobile Services interface. See [Defining Points of Interest in Adobe Mobile Services](#defining-points-of-interest-in-adobe-mobile-services).
+1. Define the data that you want to collect from your mobile application's subscribers. See [Collecting subscribers' Points of interest data](#collecting-subscribers--points-of-interest-data).
+1. Make sure you access the mobile application and the collected location data in Adobe Campaign. See [Accessing mobile apps used to collect location data](#accessing-mobile-apps-used-to-collect-location-data) and [Accessing collected location data](#accessing-collected-location-data).
 
 ### Setting up a mobile app in Adobe Campaign using SDK V4 {#setting-up-a-mobile-app-in-campaign}
 
@@ -67,12 +67,12 @@ To be able to collect Points of interest data with Adobe Campaign, you must conf
 
    Do not fill in the **[!UICONTROL Device-specific settings]** section. This only applies to configuring applications that receive push notifications.
 
-In the **[!UICONTROL Mobile application properties]** section, two URLs are listed: **[!UICONTROL Collect PII endpoint]** and **[!UICONTROL Location Services endpoint]**. They will be used in the Adobe Mobile Services interface. See [Configuring a mobile app in Adobe Mobile Services](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#configuring-a-mobile-app-in-adobe-mobile-services).
+In the **[!UICONTROL Mobile application properties]** section, two URLs are listed: **[!UICONTROL Collect PII endpoint]** and **[!UICONTROL Location Services endpoint]**. They will be used in the Adobe Mobile Services interface. See [Configuring a mobile app in Adobe Mobile Services](#configuring-a-mobile-app-in-adobe-mobile-services).
 
 * The **[!UICONTROL Collect PII endpoint]** URL is used to collect the users' Experience Cloud IDs and registration tokens from the mobile application when it is launched. When a user logs into the application using credentials such as email, first name, last name etc., this data is also collected and used to reconcile the user's registration token with an Adobe Campaign profile.
 * The **[!UICONTROL Location Services endpoint]** URL is used to collect location data such as a user's latitude, longitude and radius from a Point of Interest.
 
-You can now use these values in Adobe Mobile Services to finish the configuration, as explained in the [Configuring a mobile app in Adobe Mobile Services](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#configuring-a-mobile-app-in-adobe-mobile-services) section.
+You can now use these values in Adobe Mobile Services to finish the configuration, as explained in the [Configuring a mobile app in Adobe Mobile Services](#configuring-a-mobile-app-in-adobe-mobile-services) section.
 
 ![](assets/poi_mobile_app_properties.png)
 
@@ -80,7 +80,7 @@ You can now use these values in Adobe Mobile Services to finish the configuratio
 
 To send the data collected by Adobe Mobile Services to Adobe Campaign, you must configure postbacks in the Mobile Services interface.
 
-You will need specific information that you can find in the mobile application parameters set in Adobe Campaign (see [Setting up a mobile app in Campaign](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#setting-up-a-mobile-app-in-campaign)):
+You will need specific information that you can find in the mobile application parameters set in Adobe Campaign (see [Setting up a mobile app in Campaign](#setting-up-a-mobile-app-in-campaign)):
 
 * **[!UICONTROL IMS Organization ID]** 
 * **[!UICONTROL Collect PII Endpoint]** 
@@ -101,7 +101,7 @@ You must have access to Adobe Analytics to do the following configuration. If yo
 1. Create a postback.
 
     * Select **[!UICONTROL PII]** as the **[!UICONTROL Postback Type]**.
-    * In the **[!UICONTROL URL]** field, copy the **[!UICONTROL Collect PII Endpoint]** URL from the mobile application that you configured in the Adobe Campaign interface, preceded by the server name. See [Setting up a mobile app in Campaign](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#setting-up-a-mobile-app-in-campaign).
+    * In the **[!UICONTROL URL]** field, copy the **[!UICONTROL Collect PII Endpoint]** URL from the mobile application that you configured in the Adobe Campaign interface, preceded by the server name. See [Setting up a mobile app in Campaign](#setting-up-a-mobile-app-in-campaign).
     * Fill in the **[!UICONTROL Post Body]** field as follows:
 
       For iOS:
@@ -139,7 +139,7 @@ You must have access to Adobe Analytics to do the following configuration. If yo
 1. Create a second postback.
 
     * Select **[!UICONTROL Postback]** as the **[!UICONTROL Postback Type]**.
-    * In the **[!UICONTROL URL]** field, copy the **[!UICONTROL Location Services Endpoint]** URL from the mobile application that you configured in the Adobe Campaign interface, preceded by the server name. See [Setting up a mobile app in Campaign](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#setting-up-a-mobile-app-in-campaign).
+    * In the **[!UICONTROL URL]** field, copy the **[!UICONTROL Location Services Endpoint]** URL from the mobile application that you configured in the Adobe Campaign interface, preceded by the server name. See [Setting up a mobile app in Campaign](#setting-up-a-mobile-app-in-campaign).
     * Fill in the **[!UICONTROL Post Body]** field as follows:
 
       ```    

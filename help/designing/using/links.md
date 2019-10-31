@@ -60,7 +60,7 @@ Once the link is created, you can still modify it from the Settings pane. Click 
 
 ![](assets/des_link_edit.png)
 
-When editing an email with the [Email Designer](../../designing/using/overview.md), you can easily access and modify the links that you created from the table listing all the URLs included in the email. This list enables you to have a centralized view and to locate each URL in the email content. To access it, see [About tracked URLs](../../designing/using/links.md#about-tracked-urls).
+When editing an email with the [Email Designer](../../designing/using/overview.md), you can easily access and modify the links that you created from the table listing all the URLs included in the email. This list enables you to have a centralized view and to locate each URL in the email content. To access it, see [About tracked URLs](#about-tracked-urls).
 
 ![](assets/des_link_list.png)
 

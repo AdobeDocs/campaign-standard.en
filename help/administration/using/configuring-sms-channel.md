@@ -46,7 +46,7 @@ If you want to use the SMPP protocol, you can also create a new external account
    **[!UICONTROL Enable verbose SMPP traces in the log file]** allows you to dump all SMPP traffic in log files. This option must be enabled to troubleshoot the connector and to compare with the traffic seen by the provider.
 
 1. Contact Adobe who will give you the value to enter into the **[!UICONTROL SMS-C implementation name]** field, depending on the provider chosen.
-1. Define the SMPP channel settings. You can learn more in the [SMS encoding and formats](../../administration/using/configuring-sms-channel.md#sms-encoding-and-formats) section.
+1. Define the SMPP channel settings. You can learn more in the [SMS encoding and formats](#sms-encoding-and-formats) section.
 
    Enable the **[!UICONTROL Store incoming MO in the database]** if you want all incoming SMS to be stored in the inSMS table. For more information on how to retrieve your incoming SMS, refer to this [section](../../channels/using/managing-incoming-sms.md#storing-incoming-sms).
 
@@ -60,7 +60,7 @@ If you want to use the SMPP protocol, you can also create a new external account
 
    The values of all of the fields corresponding to durations need to be completed in seconds.
 
-1. Define the SMS-C specific parameters in case you need to define a specific encoding mapping. For more information, refer to the [SMSC specifics](../../administration/using/configuring-sms-channel.md#smsc-specifics) section.
+1. Define the SMS-C specific parameters in case you need to define a specific encoding mapping. For more information, refer to the [SMSC specifics](#smsc-specifics) section.
 
    Enable the **[!UICONTROL Send full phone number (send characters other than digits)]** option if you don't want to respect the SMPP protocol and transfer the **[!UICONTROL +]** prefix to the server of the SMS provider (SMS-C).
 
@@ -81,7 +81,7 @@ SMS messages using GSM encoding are limited to 160 characters, or 153 characters
 
 >[!NOTE]
 >
->Certain characters count as two (braces, square brackets, the euro symbol, etc.). The list of available GSM characters is presented in the [Table of characters - GSM Standard](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard) section.
+>Certain characters count as two (braces, square brackets, the euro symbol, etc.). The list of available GSM characters is presented in the [Table of characters - GSM Standard](#table-of-characters---gsm-standard) section.
 
 If you like, you can authorize character transliteration by checking the corresponding box.
 
@@ -102,7 +102,7 @@ However, if your SMS messages contain a lot of characters that generate Unicode 
 
 ### Table of characters - GSM Standard {#table-of-characters---gsm-standard}
 
-This section presents the characters taken into account by the GSM standard. All of the characters inserted into the message body, other than those mentioned below, convert the entire message into binary format (Unicode) and therefore limit it to 70 characters. For more on this, refer to the [SMS encoding, length and transliteration](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration) section.
+This section presents the characters taken into account by the GSM standard. All of the characters inserted into the message body, other than those mentioned below, convert the entire message into binary format (Unicode) and therefore limit it to 70 characters. For more on this, refer to the [SMS encoding, length and transliteration](#sms-encoding--length-and-transliteration) section.
 
 **Basic characters**
 
@@ -332,7 +332,7 @@ The specific parameters for sending SMS messages are regrouped in the **[!UICONT
 
 * The **[!UICONTROL From]** option allows you to personalize the name of the SMS message sender using a string of characters. This is the name that will appear as the sender name of the SMS message on the recipient's mobile telephone.
 
-  If this field is empty, then it will be the source number provided in the external account that will be used. If no source number is provided, it will be the short code that will be used. The external account specific to SMS delivery is presented in the [External SMS account](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing) section.
+  If this field is empty, then it will be the source number provided in the external account that will be used. If no source number is provided, it will be the short code that will be used. The external account specific to SMS delivery is presented in the [External SMS account](#defining-an-sms-routing) section.
 
   ![](assets/sms_smpp.png)
 

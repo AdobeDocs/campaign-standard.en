@@ -18,7 +18,7 @@ snippet: y
 
 # Provisioning and configuring integration with Audience Manager or People core service{#provisioning-and-configuring-integration-with-audience-manager-or-people-core-service}
 
-The provisioning and configuring of Audience Manager and People core in Adobe Campaign take two steps: [Submitting request to Adobe](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#submitting-request-to-adobe) then [Configuring the integration in Adobe Campaign](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#configuring-the-integration-in-adobe-campaign).
+The provisioning and configuring of Audience Manager and People core in Adobe Campaign take two steps: [Submitting request to Adobe](#submitting-request-to-adobe) then [Configuring the integration in Adobe Campaign](#configuring-the-integration-in-adobe-campaign).
 
 ## Submitting request to Adobe {#submitting-request-to-adobe}
 
@@ -38,7 +38,7 @@ This integration must first be configured. To request provisioning of this integ
   </tr> 
   <tr> 
    <td> <strong>IMS Org ID</strong><br /> </td> 
-   <td> Your IMS Org ID* </td> 
+   <td> Your IMS Org ID. <br> You can find your IMS Org ID on the Experience Cloud, in the Administration menu. It is also provided when you first connect to the Adobe Experience Cloud. </td> 
   </tr> 
   <tr> 
    <td> <strong>Environment:</strong><br /> </td> 
@@ -59,16 +59,24 @@ This integration must first be configured. To request provisioning of this integ
  </tbody> 
 </table>
 
-&#42; You can find your IMS Org ID on the Experience Cloud, in the **Administration** menu. It is also provided when you first connect to the Adobe Experience Cloud.
+&#42; **[!UICONTROL Declared ID]** works for every shared audiences integration. Note that if you are using People core Service, the use of **[!UICONTROL Declared ID]** can change depending on the solution:
+
+* If audiences are shared from Adobe Campaign to Adobe Target via People core service, **[!UICONTROL Declared ID]** can be provisioned.
+* If audiences are shared from Adobe Campaign to Ad Cloud via People core Service, you will not be able to use **[!UICONTROL Declared ID]** provisioning for historical backfill of audiences. Some latency is also to be expected when building audiences.
+* If audiences are being shared from Adobe Analytics to Adobe Campaign via People Core Service,  segments will not be populated in Adobe Campaign with **[!UICONTROL Declared ID]**.
+
+If you are using Adobe Audience Manager instead of People Core Service, **[!UICONTROL Declared ID]** will work in all scenarios.
+
+You can raise a request for **[!UICONTROL Declared ID]** provisioning to the following address: [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com).
 
 ## Configuring the integration in Adobe Campaign {#configuring-the-integration-in-adobe-campaign}
 
 After submitting this request, Adobe will proceed to the provisioning of the integration for you and contact you to provide details and information that you have to finalize the configuration:
 
-* [Step 1: Configure or check the external accounts in Adobe Campaign](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-1--configure-or-check-the-external-accounts-in-adobe-campaign)
-* [Step 2: Configure the Data Sources](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources)
-* [Step 3: Configure Campaign Tracking server](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-3--configure-campaign-tracking-server)
-* [Step 4: Configure the Visitor ID Service](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-4--configure-the-visitor-id-service)
+* [Step 1: Configure or check the external accounts in Adobe Campaign](#step-1--configure-or-check-the-external-accounts-in-adobe-campaign)
+* [Step 2: Configure the Data Sources](#step-2--configure-the-data-sources)
+* [Step 3: Configure Campaign Tracking server](#step-3--configure-campaign-tracking-server)
+* [Step 4: Configure the Visitor ID Service](#step-4--configure-the-visitor-id-service)
 
 ### Step 1: Configure or check the external accounts in Adobe Campaign {#step-1--configure-or-check-the-external-accounts-in-adobe-campaign}
 

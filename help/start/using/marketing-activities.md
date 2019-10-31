@@ -36,7 +36,7 @@ The **[!UICONTROL Search]** pane allows you to filter elements according to diff
 
 To directly access the content of each activity, choose one of the elements from the list.
 
-The **[!UICONTROL Create]** button can be used to create a new activity. For more on this, refer to the [Creating a marketing activity](../../start/using/marketing-activities.md#creating-a-marketing-activity) section.
+The **[!UICONTROL Create]** button can be used to create a new activity. For more on this, refer to the [Creating a marketing activity](#creating-a-marketing-activity) section.
 
 ## Marketing activity icons and statuses {#marketing-activity-icons-and-statuses}
 

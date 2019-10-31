@@ -60,7 +60,7 @@ Once the event has been published, a transactional template linked to the new ev
 
 ## Editing the transactional message template {#editing-the-transactional-message-template}
 
-Once you have created and published the trigger event, the corresponding transactional template is created automatically. For more on this, refer to the [Creating a mapped trigger in Campaign](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) section.
+Once you have created and published the trigger event, the corresponding transactional template is created automatically. For more on this, refer to the [Creating a mapped trigger in Campaign](#creating-a-mapped-trigger-in-campaign) section.
 
 In order for the event to trigger sending a transactional message, you have to personalize the template, then test it and publish it. These steps are the same as for a standard transactional message. For more on this, refer to the [Transactional template](../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message) section.
 

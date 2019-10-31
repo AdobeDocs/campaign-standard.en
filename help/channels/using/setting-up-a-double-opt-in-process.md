@@ -56,7 +56,7 @@ To create and configure this landing page, you need to:
 
    ![](assets/optin_confirmlp_newelement.png)
 
-   This context removes the blacklist field, in order to be able to send emails. We will see later that the first landing page was setting this field to **true** before confirmation, to prevent from sending emails to non-confirmed profiles. For more on this, see [Step 3: Create the acquisition landing page](../../channels/using/setting-up-a-double-opt-in-process.md#step-3--create-the-acquisition-landing-page).
+   This context removes the blacklist field, in order to be able to send emails. We will see later that the first landing page was setting this field to **true** before confirmation, to prevent from sending emails to non-confirmed profiles. For more on this, see [Step 3: Create the acquisition landing page](#step-3--create-the-acquisition-landing-page).
 
 1. Customize the content of the landing page: you can display personalized data and change the label of the confirmation button to ‘Click here to confirm my subscription’ for example.
 
@@ -93,7 +93,7 @@ The confirmation email is a [transactional message](../../channels/using/about-t
 1. Select **[!UICONTROL Profile]** as the **[!UICONTROL Targeting enrichment]** in the dropdown list.
 1. Click **[!UICONTROL Publish]** to publish the event.
 
-The event is ready. You can now design the email template. This template must include a link to the **CONFIRMATION** landing page created before. For more on this, see [Design the confirmation message](../../channels/using/setting-up-a-double-opt-in-process.md#design-the-confirmation-message).
+The event is ready. You can now design the email template. This template must include a link to the **CONFIRMATION** landing page created before. For more on this, see [Design the confirmation message](#design-the-confirmation-message).
 
 ### Create the typology rule {#create-the-typology-rule}
 
@@ -133,7 +133,7 @@ To create and configure this landing page, you need to:
 
    and set the value to **true**.
 
-   This is mandatory to force blacklist and avoid sending messages to visitors who did not confirm their agreement. The validation of the CONFIRMATION landing page will set this field to **false** after confirmation. For more on this, see [Step 1: Create the confirmation landing page](../../channels/using/setting-up-a-double-opt-in-process.md#step-1--create-the-confirmation-landing-page).
+   This is mandatory to force blacklist and avoid sending messages to visitors who did not confirm their agreement. The validation of the CONFIRMATION landing page will set this field to **false** after confirmation. For more on this, see [Step 1: Create the confirmation landing page](#step-1--create-the-confirmation-landing-page).
 
 1. In the **[!UICONTROL Job]** > **[!UICONTROL Specific actions]** section, select the option **[!UICONTROL Start sending messages]**.
 1. In the associated drop-down list, choose the **CONFIRM** transactional message template you created.

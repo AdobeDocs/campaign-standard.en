@@ -34,13 +34,17 @@ Microsoft Dynamics 365 integration (GA) - [Read more](https://helpx.adobe.com/ca
 
 ### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-18}
 
-The list of error messages for Campaign Standard and Classic has been updated. [Read more](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+The list of error messages for Campaign Standard and Campaign Classic has been updated. [Read more](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
-The GDPR getting started guide has been improved and enriched. It is now a privacy management documentation including GDPR and CCPA. [Read more](https://helpx-internal.corp.adobe.com/content/help/en/campaign/kb/campaign-privacy.html)
+The GDPR getting started guide has been improved and enriched. It is now a privacy management documentation including GDPR and CCPA. [Read more](https://helpx.adobe.com/content/help/en/campaign/kb/campaign-privacy.html)
 
 A new chart presenting the transactional messaging publication process has been added. [Read more](../../channels/using/about-transactional-messaging.md#transactional-messaging-pub-process)
 
 The Delivery Best Practices getting started guide has been updated. [Read more](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+
+A new section has been added. It provides an overview of the different methods that allow you to enrich Campaign Standard database. [Read more](../../start/using/enriching-campaign-database.md)
+
+A new section has been added describing how to style links with the Email Designer. [Read more](../../designing/using/styles.md#about-styling-links)
 
 ## Documentation updates - October 2019 {#doc-updates-october-2019}
 
@@ -51,6 +55,8 @@ A new section describing how to send an automatic custom confirmation email to p
 The Transactional messaging section has been modified with the latest UI updates, including editing content with the Email Designer. [Read more](../../channels/using/event-transactional-messages.md)
 
 The landing pages chapter has been reorganized. It has also been enriched with a new section detailing the steps to set up a landing page. [Read more](../../channels/using/main-steps-to-set-up-a-landing-page.md)
+
+The Audience Manager integration page has been updated to reflect **Declared ID** changes. [Read more](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 ## Documentation updates - September 2019 {#doc-updates-september-2019}
 

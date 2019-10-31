@@ -25,8 +25,8 @@ Learn how to master email content edition. With Email Designer, you can create e
 Here are the main steps to create and design an email content from scratch using the Email Designer:
 
 1. Create an email and open its content.
-1. Add structure components to shape the email. See [Editing the email structure](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
-1. Insert content components and fragments in the structure components. See [Adding fragments and content components](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+1. Add structure components to shape the email. See [Editing the email structure](#defining-the-email-structure).
+1. Insert content components and fragments in the structure components. See [Adding fragments and content components](#defining-the-email-structure).
 1. Add images and edit the text of the email. See [Inserting images](../../designing/using/images.md#inserting-images).
 1. Personalize your email by adding personalization fields, links, and so on. See [Inserting a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field), [Inserting a link](../../designing/using/links.md#inserting-a-link) and [Defining dynamic content in an email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 1. Define the subject line of your email. See [Personalizing the subject line of an email](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).

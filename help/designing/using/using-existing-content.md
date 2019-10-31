@@ -36,8 +36,8 @@ When creating an email or a landing page, you can choose to load an existing con
 
     * [Content templates](../../designing/using/using-reusable-content.md#content-templates): click the **[!UICONTROL Templates]** tab.
     * [Content from scratch](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch), to start fresh: click the **[!UICONTROL Create]** button.
-    * [Content from your computer as a ZIP or HTML file](../../designing/using/using-existing-content.md#importing-content-from-a-file): click the **[!UICONTROL Upload]** button.
-    * [Content from an existing URL](../../designing/using/using-existing-content.md#importing-content-from-a-url) (only for emails): click the **[!UICONTROL Import from URL]** button.
+    * [Content from your computer as a ZIP or HTML file](#importing-content-from-a-file): click the **[!UICONTROL Upload]** button.
+    * [Content from an existing URL](#importing-content-from-a-url) (only for emails): click the **[!UICONTROL Import from URL]** button.
 
    ![](assets/des_loading_2.png)
 
@@ -47,7 +47,7 @@ When creating an email or a landing page, you can choose to load an existing con
 
    >[!NOTE]
    >
-   >The [Email Designer](../../designing/using/overview.md) uses specific tagging. Standard HTML content uploaded to Campaign have to match the expected tagging to be fully compatible and editable from the Email Designer. If not matching, your content is uploaded in [compatibility mode](../../designing/using/using-existing-content.md#compatibility-mode). To make existing contents compatible, see [this section](../../designing/using/using-existing-content.md#editing-existing-contents-with-the-email-designer).
+   >The [Email Designer](../../designing/using/overview.md) uses specific tagging. Standard HTML content uploaded to Campaign have to match the expected tagging to be fully compatible and editable from the Email Designer. If not matching, your content is uploaded in [compatibility mode](#compatibility-mode). To make existing contents compatible, see [this section](#editing-existing-contents-with-the-email-designer).
 
 **Related topics:**
 
@@ -58,7 +58,7 @@ When creating an email or a landing page, you can choose to load an existing con
 
 To fully leverage the edition possibilities of the [Email Designer](../../designing/using/overview.md), your uploaded HTML must contain specific tagging that makes it compliant with the WYSIWYG editor.
 
-If all or part of the HTML does not have this tagging, the content is then loaded in ' [compatibility mode](../../designing/using/using-existing-content.md#compatibility-mode)'.
+If all or part of the HTML does not have this tagging, the content is then loaded in ' [compatibility mode](#compatibility-mode)'.
 
 To make an existing external content fully editable within the Email Designer, see the [Designing an email using existing contents](../../designing/using/using-existing-content.md) section.
 

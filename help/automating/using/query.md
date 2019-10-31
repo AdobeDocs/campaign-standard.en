@@ -42,10 +42,10 @@ The **[!UICONTROL Query]** activity can be used for various types of uses:
 
    The **[!UICONTROL Resource]** allows you to refine the filters displayed in the palette whereas the **[!UICONTROL Targeting dimension]**, contextual with regard to the resource selected, corresponds to the type of population that you would like to obtain (identified profiles, deliveries, data linked to the selected resource, etc.).
 
-   For more on this, refer to [Targeting dimensions and resources](../../automating/using/query.md#targeting-dimensions-and-resources)
+   For more on this, refer to [Targeting dimensions and resources](#targeting-dimensions-and-resources).
 
 1. In the **[!UICONTROL Target]** tab, run your query by defining and combining rules.
-1. You can define **[!UICONTROL Additional data]** for the targeted population via a dedicated tab. This data is stored in additional columns and can only be used for the workflow in progress. In particular, you can add data from the Adobe Campaign database tables linked to the query's targeting dimension. Consult the [Enriching data](../../automating/using/query.md#enriching-data) section.
+1. You can define **[!UICONTROL Additional data]** for the targeted population via a dedicated tab. This data is stored in additional columns and can only be used for the workflow in progress. In particular, you can add data from the Adobe Campaign database tables linked to the query's targeting dimension. Consult the [Enriching data](#enriching-data) section.
 
    >[!NOTE]
    >
@@ -177,7 +177,7 @@ Aggregates allow values to be calculated from fields of the targeting dimension 
 
 1. If needed, you can add a filter to limit the data taken into account.
 
-   Refer to the [Filtering added data](../../automating/using/query.md#filtering-added-data) section.
+   Refer to the [Filtering added data](#filtering-added-data) section.
 
 1. Select **[!UICONTROL Confirm]** to add aggregates.
 
@@ -202,13 +202,13 @@ Aggregates allow values to be calculated from fields of the targeting dimension 
 
 1. If you like, you can add a filter to limit the collection lines taken into account.
 
-   Refer to the [Filtering added data](../../automating/using/query.md#filtering-added-data) section.
+   Refer to the [Filtering added data](#filtering-added-data) section.
 
 1. If you like, you can define a data sorting.
 
    For example, if you have selected 3 lines to return in the **[!UICONTROL Parameters]** tab, and you want to determine the three most recent purchases, you can define a descending sort on the "date" field of the collection that corresponds to the transactions.
 
-1. Refer to the [Sorting additional data](../../automating/using/query.md#sorting-additional-data) section.
+1. Refer to the [Sorting additional data](#sorting-additional-data) section.
 1. Select **[!UICONTROL Confirm]** to add the collection.
 
 ### Filtering added data {#filtering-added-data}
@@ -261,15 +261,15 @@ The workflow is presented as follows:
 
    From the query's **[!UICONTROL Additional data]** tab, define the different data to be displayed in the final email:
 
-    * The simple field of the **profile** dimension corresponding to the loyalty points. Refer to the [Adding a simple field](../../automating/using/query.md#adding-a-simple-field) section.
-    * Two aggregates based on the transactions collection: the number of products purchased and the total amount spent. You can add them from the **[!UICONTROL Data]** tab of the aggregate configuration window, using the **Count** and **Sum** aggregates. Refer to the [Adding an aggregate](../../automating/using/query.md#adding-an-aggregate) section.
+    * The simple field of the **profile** dimension corresponding to the loyalty points. Refer to the [Adding a simple field](#adding-a-simple-field) section.
+    * Two aggregates based on the transactions collection: the number of products purchased and the total amount spent. You can add them from the **[!UICONTROL Data]** tab of the aggregate configuration window, using the **Count** and **Sum** aggregates. Refer to the [Adding an aggregate](#adding-an-aggregate) section.
     * A collection returning the amount spent, the date, and the product of the last transaction effected.
 
       To do this, you have to add the different fields that you want to display from the **[!UICONTROL Data]** tab of the collection configuration window.
 
       To return only the most recent transaction, you have to enter "1" for the **[!UICONTROL Number of lines to return]** and apply a descending sort on the **Date** field of the collection from the **[!UICONTROL Sort]** tab.
 
-      Refer to the [Adding a collection](../../automating/using/query.md#adding-a-collection) and [Sorting additional data](../../automating/using/query.md#sorting-additional-data) sections.
+      Refer to the [Adding a collection](#adding-a-collection) and [Sorting additional data](#sorting-additional-data) sections.
 
    ![](assets/enrichment_example4.png)
 
@@ -329,7 +329,7 @@ The following example shows a query activity configured to filter profiles who o
 
 The following example shows a query activity configured to filter profiles for whom deliveries failed because their mailbox was full. This query is only available for users with administration rights and belonging to the **[!UICONTROL All (all)]** organizational units (see [this section](../../administration/using/organizational-units.md)).
 
-1. Select the **[!UICONTROL Delivery logs]** resource in order to filter directly in the delivery log table (see [Using resources different from targeting dimensions](../../automating/using/query.md#using-resources-different-from-targeting-dimensions)).
+1. Select the **[!UICONTROL Delivery logs]** resource in order to filter directly in the delivery log table (see [Using resources different from targeting dimensions](#using-resources-different-from-targeting-dimensions)).
 
    ![](assets/query_sample_failure1.png)
 
