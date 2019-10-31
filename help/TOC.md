@@ -272,6 +272,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Creating a weekly delivery](automating/using/workflow-weekly-offer.md)
        + [Creating a segmentation on location](automating/using/workflow-segmentation-location.md)
        + [Retargeting non-openers](automating/using/workflow-cross-channel-retargeting.md)
+       + [Building a control group](automating/using/workflow-control-group.md)
 + Developing {#developing}
   + About custom resources {#about-custom-resources}
        + [Data model concepts](developing/using/data-model-concepts.md)

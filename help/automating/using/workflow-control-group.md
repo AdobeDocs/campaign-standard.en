@@ -23,17 +23,27 @@ To measure the impact of a delivery, you may want to exclude some profiles from 
 To do this in Adobe Campaign Standard, you can build a workflow including the following activities:
 * A Query activity to target a given population.
 * A Segmentation activity to isolate a random control group from this population.
-* An Email delivery activity to send a message to the main target, which will be tracked as usual in the sending logs.
-* An Update data activity to track the profiles excluded from the target in the **[!UICONTROL Profiles]** resource, outside the message sending logs.
+* An Email delivery activity to send a message to the main target.
+* An Update data activity to update the profiles that were excluded from the target (the random control group).
 
 ![](assets/wkf_control-group.png)
 
 ## Extending the Profile resource {#extending-profile}
 
+First, you need to extend the **[!UICONTROL Profile]** resource with a new field corresponding to the control group. Once the workflow is run, this field will be checked for the profiles that were excluded from the target.
+
 1. From **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom Resources]**, click **[!UICONTROL Create]**.
-1. If you haven't extended it yet, select **[!UICONTROL Extend an existing resource]** and choose the **[!UICONTROL Profiles]** resource.
-1. Add a new field for the control group and select **[!UICONTROL Boolean]** for the field **[!UICONTROL Type]**.
-2. Update the database structure to publish the **[!UICONTROL Profiles]** extended resource.
+1. If you haven't extended it yet, select **[!UICONTROL Extend an existing resource]** and choose the **[!UICONTROL Profile]** resource.
+1. In the **[!UICONTROL Data structure]** tab, add a new field for the control group and select **[!UICONTROL Boolean]** for the **[!UICONTROL Type]** field.
+
+    ![](assets/wkf_control-group-profile-field.png)
+
+1. From the **[!UICONTROL Screen definition]** tab, unfold the **[!UICONTROL Detail screen configuration]** section and select the field that you just created so that it will be displayed for each profile.
+
+    ![](assets/wkf_control-group-profile-field-screen.png)
+
+1. Save your changes.
+1. Update the database structure to publish the **[!UICONTROL Profile]** extended resource. See [Publishing a custom resource](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
 
 For more on extending a custom resource, see [Key steps to add a resource](../../developing/using/key-steps-to-add-a-resource.md).
 
@@ -43,12 +53,16 @@ For more on extending a custom resource, see [Key steps to add a resource](../..
 1. Select **[!UICONTROL New Workflow]** as workflow type and click **[!UICONTROL Next]**.
 1. Enter the properties of the workflow and click **[!UICONTROL Create]**.
 
+The detailed steps to create a workflow are presented in the [Building a workflow](../../automating/using/building-a-workflow.md) section.
+
 ## Creating a Query activity {#create-a-query-activity}
 
 1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, drag and drop a **[!UICONTROL Query activity]**.
 1. Double-click the activity to define your target.
-1. For example, in **[!UICONTROL Shortcuts]**, drag and drop **[!UICONTROL Profiles]**, select **[!UICONTROL Age]** with the operator **[!UICONTROL Greater than]** and type 25 in the **[!UICONTROL Value]** field.
+1. For example, in **[!UICONTROL Shortcuts]**, drag and drop **[!UICONTROL Profile]**, select **[!UICONTROL Age]** with the operator **[!UICONTROL Greater than]** and type 25 in the **[!UICONTROL Value]** field.
 1. Click **[!UICONTROL Confirm]**.
+
+The detailed steps to build a Query activity are presented in the [Query](../../automating/using/query.md) section.
 
 ## Creating a Segmentation activity {#creating-a-segmentation-activity}
 
@@ -69,6 +83,8 @@ For more on extending a custom resource, see [Key steps to add a resource](../..
 
 1. Click **[!UICONTROL Confirm]**.
 
+The detailed steps to build a Segmentation activity are presented in the [Segmentation](../../automating/using/segmentation.md) section.
+
 ## Creating an Email activity {#creating-an-email-activity}
 
 1. In **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, drag and drop an **[!UICONTROL Email Delivery]** after the main target segment.
@@ -80,32 +96,33 @@ For more on extending a custom resource, see [Key steps to add a resource](../..
 1. Edit and save your content.
 1. In the **[!UICONTROL Schedule]** section of the message dashboard, unselect the **[!UICONTROL Request confirmation before sending messages}** option.
 
+The detailed steps to build a Email activity are presented in the [Email delivery](../../automating/using/email-delivery.md) section.
+
 ## Creating an Update data activity {#creating-update-data-activity}
 
 1. Drag and drop an **[!UICONTROL Update data]** activity after the control group segment.
 1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
-1. In the **[!UICONTROL Identification]** tab, select the **[!UICONTROL Profiles]** resource that you previously extended.
+1. In the **[!UICONTROL General]** tab, select **[!UICONTROL Update]** from the **[!UICONTROL Operation type]** drop-down list.
+1. In the **[!UICONTROL Identification]** tab, select the **[!UICONTROL Profile]** resource that you previously extended.
 
     ![](assets/wkf_control-update-identification.png)
 
-1. In the **[!UICONTROL Fields to update]** tab, specify the fields on which the update will be applied: select the control group field that you added to the **[!UICONTROL Profiles]** resource as the **[!UICONTROL Destination]** through the **[!UICONTROL Additional data]** > **[!UICONTROL Targeting dimension]** node.
+1. In the **[!UICONTROL Fields to update]** tab, specify the fields on which the update will be applied: select the control group field that you added to the **[!UICONTROL Profile]** resource as the **[!UICONTROL Destination]** through the **[!UICONTROL Additional data]** > **[!UICONTROL Targeting dimension]** node.
 
     ![](assets/wkf_control-update-fields-to-update.png)
 
 1. Click **[!UICONTROL Confirm]**.
 
-Once the workflow is run, the message is sent to the main target and tracked in the sending logs for these profiles.
+The detailed steps to build a Update data activity are presented in the [Update data](../../automating/using/update-data.md) section.
 
-The population of the control group is excluded and the **[!UICONTROL Profiles]** resource is updated: if a profile was in the control group, the corresponding field is updated.
+## Running the workflow {#running-the-workflow}
+
+Click **[!UICONTROL Start]** to run the workflow.
+
+Once the workflow is run, the population of the control group is excluded and the message is sent to the remaining main target.
+
+The **[!UICONTROL Profile]** resource is updated as follows: if a profile was in the control group, the corresponding field is checked.
+
+![](assets/wkf_control-group-profile-checked.png)
 
 You can now compare how the recipients of the message will react compared to the small group who was excluded from the message and did not receive it.
-
-**Related topics:**
-
-* [Publishing a custom resource](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)
-* [Building a workflow](../../automating/using/building-a-workflow.md)
-* [Query](../../automating/using/query.md)
-* [Segmentation](../../automating/using/segmentation.md)
-* [Email delivery](../../automating/using/email-delivery.md)
-* [Update data](../../automating/using/update-data.md)
-* [Monitoring a delivery](../../asending/using/monitoring-a-delivery.md)
