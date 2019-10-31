@@ -114,7 +114,7 @@ The detailed steps to build an Email activity are presented in the [Email delive
 
 1. Click **[!UICONTROL Confirm]**.
 
-The detailed steps to build a Update data activity are presented in the [Update data](../../automating/using/update-data.md) section.
+The detailed steps to build an Update data activity are presented in the [Update data](../../automating/using/update-data.md) section.
 
 ## Running the workflow {#running-the-workflow}
 
