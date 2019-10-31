@@ -96,18 +96,19 @@ The detailed steps to build a Segmentation activity are presented in the [Segmen
 1. Edit and save your content.
 1. In the **[!UICONTROL Schedule]** section of the message dashboard, unselect the **[!UICONTROL Request confirmation before sending messages}** option.
 
-The detailed steps to build a Email activity are presented in the [Email delivery](../../automating/using/email-delivery.md) section.
+The detailed steps to build an Email activity are presented in the [Email delivery](../../automating/using/email-delivery.md) section.
 
 ## Creating an Update data activity {#creating-update-data-activity}
 
 1. Drag and drop an **[!UICONTROL Update data]** activity after the control group segment.
 1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
 1. In the **[!UICONTROL General]** tab, select **[!UICONTROL Update]** from the **[!UICONTROL Operation type]** drop-down list.
-1. In the **[!UICONTROL Identification]** tab, select the **[!UICONTROL Profile]** resource that you previously extended.
+1. In the **[!UICONTROL Identification]** tab, select the **[!UICONTROL Directly using the targeting dimension]** option.
+1. Select the **[!UICONTROL Profile]** resource that you previously extended as the dimension to update.
 
     ![](assets/wkf_control-update-identification.png)
 
-1. In the **[!UICONTROL Fields to update]** tab, specify the fields on which the update will be applied: select the control group field that you added to the **[!UICONTROL Profile]** resource as the **[!UICONTROL Destination]** through the **[!UICONTROL Additional data]** > **[!UICONTROL Targeting dimension]** node.
+1. In the **[!UICONTROL Fields to update]** tab, select the control group field that you added to the **[!UICONTROL Profile]** resource as the **[!UICONTROL Destination]** and enter true as the condition.
 
     ![](assets/wkf_control-update-fields-to-update.png)
 
@@ -119,7 +120,7 @@ The detailed steps to build a Update data activity are presented in the [Update 
 
 Click **[!UICONTROL Start]** to run the workflow.
 
-Once the workflow is run, the population of the control group is excluded and the message is sent to the remaining main target.
+Once the workflow is run, the population of the control group is excluded, and the message is sent to the remaining main target.
 
 The **[!UICONTROL Profile]** resource is updated as follows: if a profile was in the control group, the corresponding field is checked.
 
