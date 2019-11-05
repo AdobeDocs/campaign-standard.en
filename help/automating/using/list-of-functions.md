@@ -1,8 +1,6 @@
 ---
 title: List of functions
-seo-title: List of functions
-description: List of functions
-seo-description: The query editing tool allows you to use advanced functions to carry out complex filtering.
+description: The query editing tool allows you to use advanced functions to carry out complex filtering.
 page-status-flag: never-activated
 uuid: fd50fc99-1e7a-479b-beb7-1f246b419d46
 contentOwner: sauviat

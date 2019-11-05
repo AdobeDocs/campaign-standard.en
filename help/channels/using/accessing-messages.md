@@ -1,8 +1,6 @@
 ---
 title: Accessing messages
-seo-title: Accessing messages
-description: Accessing messages
-seo-description: "Learn how to access messages and their advanced functionalities: creation, targeting, personalization, execution and reporting."
+description: "Learn how to access messages and their advanced functionalities: creation, targeting, personalization, execution and reporting."
 page-status-flag: never-activated
 uuid: 77e57ed3-bcd5-46b3-aee1-3d03f0df6c11
 contentOwner: sauviat

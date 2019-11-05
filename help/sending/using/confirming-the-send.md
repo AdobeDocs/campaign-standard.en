@@ -1,8 +1,6 @@
 ---
 title: Confirming the send
-seo-title: Confirming the send
-description: Confirming the send
-seo-description: Learn how to finalize the message preparation.
+description: Learn how to finalize the message preparation.
 page-status-flag: never-activated
 uuid: 1eaecb32-ffd2-45d0-a8b4-f97bee59a1bd
 contentOwner: sauviat

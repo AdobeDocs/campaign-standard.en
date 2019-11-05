@@ -1,8 +1,6 @@
 ---
 title: Organizational units
-seo-title: Organizational units
-description: Organizational units
-seo-description: Define your users' access levels using organizational units.
+description: Define your users' access levels using organizational units.
 page-status-flag: never-activated
 uuid: 8c82ffea-cef4-4a89-b823-d8b7bae1db4f
 contentOwner: sauviat

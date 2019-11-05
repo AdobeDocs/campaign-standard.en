@@ -1,8 +1,6 @@
 ---
 title: About opt-in and opt-out in Campaign
-seo-title: About opt-in and opt-out in Campaign
-description: About opt-in and opt-out in Campaign
-seo-description: Opt-out (or blacklist) results in a profile no longer being targeted by any delivery or by deliveries from a specific channel.
+description: Opt-out (or blacklist) results in a profile no longer being targeted by any delivery or by deliveries from a specific channel.
 page-status-flag: never-activated
 uuid: 501d9485-976b-4de7-b242-6886f2814c6c
 contentOwner: sauviat

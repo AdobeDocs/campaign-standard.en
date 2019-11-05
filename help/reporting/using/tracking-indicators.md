@@ -1,8 +1,6 @@
 ---
 title: Tracking indicators
-seo-title: Tracking indicators
-description: Tracking indicators
-seo-description: With the Tracking indicators out-of-the-box report, learn about the behavior of your customers when they receive email messages.
+description: With the Tracking indicators out-of-the-box report, learn about the behavior of your customers when they receive email messages.
 page-status-flag: never-activated
 uuid: b2df8846-4caf-45e6-a8ff-ee37655383c2
 contentOwner: sauviat

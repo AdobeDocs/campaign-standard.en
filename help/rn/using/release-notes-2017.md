@@ -1,8 +1,6 @@
 ---
 title: Release Notes 2017
-seo-title: Release Notes 2017
-description: Release Notes 2017
-seo-description: This page lists all 2017 releases of Adobe Campaign Standard.
+description: This page lists all 2017 releases of Adobe Campaign Standard.
 page-status-flag: never-activated
 uuid: d73f8186-e309-441b-969d-71d0a1c33cf4
 contentOwner: sauviat

@@ -1,8 +1,6 @@
 ---
 title: Technical workflows
-seo-title: Technical workflows
-description: Technical workflows
-seo-description: Technical workflows are out-of-the-box workflows designed to handle background technical processes in Adobe Campaign, ensuring correct behaviour of the platform.
+description: Technical workflows are out-of-the-box workflows designed to handle background technical processes in Adobe Campaign, ensuring correct behaviour of the platform.
 page-status-flag: never-activated
 uuid: 6e763dc1-e1d3-4d94-bc0b-ef5b1703d8e5
 contentOwner: sauviat

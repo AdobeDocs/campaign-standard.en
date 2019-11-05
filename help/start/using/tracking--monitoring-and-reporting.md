@@ -1,8 +1,6 @@
 ---
 title: Tracking, monitoring and reporting
-seo-title: Tracking, monitoring and reporting
-description: Tracking, monitoring and reporting
-seo-description: Learn how to track messages and understand your customers' behavior by enriching their profile data. With Adobe Campaign, use reporting and analysis tools to capitalize on each new campaign.
+description: Learn how to track messages and understand your customers' behavior by enriching their profile data. With Adobe Campaign, use reporting and analysis tools to capitalize on each new campaign.
 page-status-flag: never-activated
 uuid: 09592947-e65f-4be4-b39f-1e0c9f6d014b
 contentOwner: sauviat

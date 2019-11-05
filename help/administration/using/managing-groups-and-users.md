@@ -1,8 +1,6 @@
 ---
 title: Managing groups and users
-seo-title: Managing groups and users
-description: Managing groups and users
-seo-description: Learn how to create security groups and manage users.
+description: Learn how to create security groups and manage users.
 page-status-flag: never-activated
 uuid: b3a3a2e3-9d69-4231-b724-8f37419f7a61
 contentOwner: sauviat

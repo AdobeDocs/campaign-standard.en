@@ -1,8 +1,6 @@
 ---
 title: How-to videos
-seo-title: How-to videos
-description: How-to videos
-seo-description: Watch how-to videos and discover Adobe Campaign's key capabilities.
+description: Watch how-to videos and discover Adobe Campaign's key capabilities.
 page-status-flag: never-activated
 uuid: e3b66906-80bc-45e2-b65e-50a20e6ea0d7
 contentOwner: sauviat

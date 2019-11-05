@@ -1,8 +1,6 @@
 ---
 title: Sharing a landing page
-seo-title: Sharing a landing page
-description: Sharing a landing page
-seo-description: Learn how to test and publish a landing page in Adobe Campaign.
+description: Learn how to test and publish a landing page in Adobe Campaign.
 page-status-flag: never-activated
 uuid: fb7b087a-3292-496c-bc41-2e3012bacf59
 contentOwner: sauviat

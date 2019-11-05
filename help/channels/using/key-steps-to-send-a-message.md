@@ -1,8 +1,6 @@
 ---
 title: Key steps to send a message
-seo-title: Key steps to send a message
-description: Key steps to send a message
-seo-description: Follow these steps to create and send messages with Adobe Campaign.
+description: Follow these steps to create and send messages with Adobe Campaign.
 page-status-flag: never-activated
 uuid: d3fbb1e6-6444-4b56-b9d6-ae39bd8d4804
 contentOwner: sauviat

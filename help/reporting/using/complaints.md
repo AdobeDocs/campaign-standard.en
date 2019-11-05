@@ -1,8 +1,6 @@
 ---
 title: Complaints
-seo-title: Complaints
-description: Complaints
-seo-description: With the Complaints out-of-the-box report, learn how many time delivery was declared as spam.
+description: With the Complaints out-of-the-box report, learn how many time delivery was declared as spam.
 page-status-flag: never-activated
 uuid: 9a973460-fda1-4eb0-9b6e-df421df8ca02
 contentOwner: sauviat

@@ -1,8 +1,6 @@
 ---
 title: About audiences
-seo-title: About audiences
-description: About audiences
-seo-description: Learn how to build audiences from a query, a list or a file, and how to import them from Adobe Experience Cloud.
+description: Learn how to build audiences from a query, a list or a file, and how to import them from Adobe Experience Cloud.
 page-status-flag: never-activated
 uuid: b3996642-96ec-489e-b146-c8c2cb52aa32
 contentOwner: sauviat

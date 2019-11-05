@@ -1,8 +1,6 @@
 ---
 title: Control rules
-seo-title: Control rules
-description: Control rules
-seo-description: Learn how to reinforce the quality check of your messages with control rules.
+description: Learn how to reinforce the quality check of your messages with control rules.
 page-status-flag: never-activated
 uuid: 33a1c90c-534e-4fe1-982c-f4e1858d4d2d
 contentOwner: sauviat

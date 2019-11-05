@@ -1,8 +1,6 @@
 ---
 title: Branding
-seo-title: Branding
-description: Branding
-seo-description: Discover all the tools available to manage your branding identities.
+description: Discover all the tools available to manage your branding identities.
 page-status-flag: never-activated
 uuid: d66ac5a2-2ae1-4870-b48e-7f276744ffdd
 contentOwner: sauviat

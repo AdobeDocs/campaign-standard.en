@@ -1,8 +1,6 @@
 ---
 title: Targeting data
-seo-title: Targeting data
-description: Targeting data
-seo-description: Learn the different ways to target and select the data you need.
+description: Learn the different ways to target and select the data you need.
 page-status-flag: never-activated
 uuid: 0645d6e5-6a7e-4917-874a-7e7725f06abd
 contentOwner: sauviat

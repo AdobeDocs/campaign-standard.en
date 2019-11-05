@@ -1,8 +1,6 @@
 ---
 title: Plain text and HTML modes
-seo-title: Plain text and HTML modes
-description: Plain text and HTML modes
-seo-description: Discover the Plain text and HTML modes
+description: Discover the Plain text and HTML modes
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat

@@ -1,8 +1,6 @@
 ---
 title: Setting up a double opt-in process
-seo-title: Setting up a double opt-in process
-description: Setting up a double opt-in process
-seo-description: Follow these steps to set up a double opt-in process using landing pages in Adobe Campaign.
+description: Follow these steps to set up a double opt-in process using landing pages in Adobe Campaign.
 page-status-flag: never-activated
 uuid: 23e6c4c2-e2c7-472f-b616-36a95225ac1d
 contentOwner: sauviat

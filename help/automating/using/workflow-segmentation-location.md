@@ -1,8 +1,6 @@
 ---
 title: "Workflow use-case: Segmentation on location"
-seo-title: "Workflow use-case: Segmentation on location"
 description: "Workflow use-case: Segmentation on location"
-seo-description: "Workflow use-case: Segmentation on location"
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat

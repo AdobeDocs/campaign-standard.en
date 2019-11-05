@@ -1,8 +1,6 @@
 ---
 title: Customizing an In-App message
-seo-title: Customizing an In-App message
-description: Customizing an In-App message
-seo-description: Learn how to customize your In-App messages with various options.
+description: Learn how to customize your In-App messages with various options.
 page-status-flag: never-activated
 uuid: 1d9c08ed-4de5-440d-bf51-4a437eec67d5
 contentOwner: sauviat

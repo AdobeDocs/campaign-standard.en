@@ -1,8 +1,6 @@
 ---
 title: Message dashboard
-seo-title: Message dashboard
-description: Message dashboard
-seo-description: Discover what the message dashboard is made up of, including the action bar and the various functional blocks.
+description: Discover what the message dashboard is made up of, including the action bar and the various functional blocks.
 page-status-flag: never-activated
 uuid: 9bb44ee8-2cf6-43ce-94a4-367f4e469713
 contentOwner: sauviat

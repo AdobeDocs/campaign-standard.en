@@ -1,8 +1,6 @@
 ---
 title: Email rendering
-seo-title: Email rendering
-description: Email rendering
-seo-description: Discover the email rendering feature.
+description: Discover the email rendering feature.
 page-status-flag: never-activated
 uuid: c423e237-ad39-4797-ac3a-4320894a8f99
 contentOwner: sauviat

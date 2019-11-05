@@ -1,8 +1,6 @@
 ---
 title: Managing test profiles and sending proofs
-seo-title: Managing test profiles and sending proofs
-description: Managing test profiles and sending proofs
-seo-description: Learn how to manage test profiles and proofs.
+description: Learn how to manage test profiles and proofs.
 page-status-flag: never-activated
 uuid: eb4d893b-3724-4b15-9312-1ec74784368d
 contentOwner: sauviat

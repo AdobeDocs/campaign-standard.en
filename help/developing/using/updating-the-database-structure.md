@@ -1,8 +1,6 @@
 ---
 title: Updating the database structure
-seo-title: Updating the database structure
-description: Updating the database structure
-seo-description: Discover how to update the Adobe Campaign database.
+description: Discover how to update the Adobe Campaign database.
 page-status-flag: never-activated
 uuid: 6c802f4f-d298-4ca4-acdb-09f2ad3865b9
 contentOwner: sauviat

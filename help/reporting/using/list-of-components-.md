@@ -1,8 +1,6 @@
 ---
 title: List of components 
-seo-title: List of components 
-description: List of components 
-seo-description: Find here the list of every components available in     Dynamic reports as well as their definitions.
+description: Find here the list of every components available in     Dynamic reports as well as their definitions.
 page-status-flag: never-activated
 uuid: a2403806-8df4-4bb1-bac2-2689dc584ae0
 contentOwner: sauviat

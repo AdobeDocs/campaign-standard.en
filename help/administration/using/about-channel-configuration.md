@@ -1,8 +1,6 @@
 ---
 title: About channel configuration
-seo-title: About channel configuration
-description: About channel configuration
-seo-description: "Each channel needs to be configured: technical configuration, message properties and templates."
+description: "Each channel needs to be configured: technical configuration, message properties and templates."
 page-status-flag: never-activated
 uuid: 867b1c4b-4c79-4c52-9d0a-ef71993e50a2
 contentOwner: sauviat

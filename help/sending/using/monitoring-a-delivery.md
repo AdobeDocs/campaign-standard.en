@@ -1,8 +1,6 @@
 ---
 title: Monitoring a delivery
-seo-title: Monitoring a delivery
-description: Monitoring a delivery
-seo-description: Discover how to monitor a delivery.
+description: Discover how to monitor a delivery.
 page-status-flag: never-activated
 uuid: 7772c607-debd-40fd-8322-4d49119979b4
 contentOwner: sauviat

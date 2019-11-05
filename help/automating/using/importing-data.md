@@ -1,8 +1,6 @@
 ---
 title: Importing data
-seo-title: Importing data
-description: Importing data
-seo-description: Learn how to import data with a workflow.
+description: Learn how to import data with a workflow.
 page-status-flag: never-activated
 uuid: d909d26a-cf50-46af-ae09-f0fd7258ca27
 contentOwner: sauviat

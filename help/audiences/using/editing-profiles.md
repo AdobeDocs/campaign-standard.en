@@ -1,8 +1,6 @@
 ---
 title: Editing profiles
-seo-title: Editing profiles
-description: Editing profiles
-seo-description: Learn how to edit existing profiles and access contact information, prefered channels, tracking logs, subscriptions, etc.
+description: Learn how to edit existing profiles and access contact information, prefered channels, tracking logs, subscriptions, etc.
 page-status-flag: never-activated
 uuid: 6fcdb719-6149-48fc-b400-64c24a51487f
 contentOwner: sauviat

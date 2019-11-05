@@ -1,8 +1,6 @@
 ---
 title: Users management
-seo-title: Users management
-description: Users management
-seo-description: Adobe Campaign users hold specific roles. Discover the main user types. 
+description: Adobe Campaign users hold specific roles. Discover the main user types. 
 page-status-flag: never-activated
 uuid: 8c4cc74a-815f-4815-af66-a7c21bc754f1
 contentOwner: sauviat

@@ -1,8 +1,6 @@
 ---
 title: About push notifications
-seo-title: About push notifications
-description: About push notifications
-seo-description: Discover the main specificities of the push notification channel in Adobe Campaign.
+description: Discover the main specificities of the push notification channel in Adobe Campaign.
 page-status-flag: never-activated
 uuid: 961aaeb5-6948-4fd2-b8d7-de4510c10566
 contentOwner: sauviat

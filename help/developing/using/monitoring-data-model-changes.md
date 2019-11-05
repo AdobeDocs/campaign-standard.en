@@ -1,8 +1,6 @@
 ---
 title: Monitoring data model changes
-seo-title: Monitoring data model changes
-description: Monitoring data model changes
-seo-description: Learn how to diagnose the Adobe Campaign data model.
+description: Learn how to diagnose the Adobe Campaign data model.
 page-status-flag: never-activated
 uuid: 994f1e85-107d-4348-a197-87a95853fca6
 contentOwner: sauviat

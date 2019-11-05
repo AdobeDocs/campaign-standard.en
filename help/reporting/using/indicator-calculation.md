@@ -1,8 +1,6 @@
 ---
 title: Indicator calculation
-seo-title: Indicator calculation
-description: Indicator calculation
-seo-description: Understand the results of your reports with a list of every metric's formula.
+description: Understand the results of your reports with a list of every metric's formula.
 page-status-flag: never-activated
 uuid: dfbc9d7e-62db-4e77-bb8e-0ac826ec7333
 contentOwner: sauviat

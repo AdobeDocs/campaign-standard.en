@@ -1,8 +1,6 @@
 ---
 title: About data import and export
-seo-title: About data import and export
-description: About data import and export
-seo-description: Learn about the different ways to import and export data with Adobe Campaign.
+description: Learn about the different ways to import and export data with Adobe Campaign.
 page-status-flag: never-activated
 uuid: f6810364-555c-4b72-8a9c-4ae2fcb2ba63
 contentOwner: sauviat

@@ -1,8 +1,6 @@
 ---
 title: Reporting interface
-seo-title: Reporting interface
-description: Reporting interface
-seo-description: Learn more about Dynamic report interface basis and how to navigate through the different tabs and menus.
+description: Learn more about Dynamic report interface basis and how to navigate through the different tabs and menus.
 page-status-flag: never-activated
 uuid: da6bcf7a-1d57-4d00-a3ba-d84214592417
 contentOwner: sauviat

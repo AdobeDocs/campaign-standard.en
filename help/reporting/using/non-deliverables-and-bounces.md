@@ -1,8 +1,6 @@
 ---
 title: Non-deliverables and bounces
-seo-title: Non-deliverables and bounces
-description: Non-deliverables and bounces
-seo-description: With the Non-deliverables and bounces out-of-the-box report, learn about the errors that may occurred to your delivery. 
+description: With the Non-deliverables and bounces out-of-the-box report, learn about the errors that may occurred to your delivery. 
 page-status-flag: never-activated
 uuid: b70ae9ec-b659-42bf-b663-73615307005b
 contentOwner: sauviat

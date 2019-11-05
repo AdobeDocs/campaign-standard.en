@@ -1,8 +1,6 @@
 ---
 title: Preparing and sending a push notification
-seo-title: Preparing and sending a push notification
-description: Preparing and sending a push notification
-seo-description: Follow these steps to create a single-send push notification in Adobe Campaign.
+description: Follow these steps to create a single-send push notification in Adobe Campaign.
 page-status-flag: never-activated
 uuid: 01997725-ca0a-420c-9e81-5ea801652f87
 contentOwner: sauviat

@@ -1,8 +1,6 @@
 ---
 title: About extending the API
-seo-title: About extending the API
-description: About extending the API
-seo-description: 
+description: 
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat

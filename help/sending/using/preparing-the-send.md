@@ -1,8 +1,6 @@
 ---
 title: Preparing the send
-seo-title: Preparing the send
-description: Preparing the send
-seo-description: Learn how to define preparation before the send.
+description: Learn how to define preparation before the send.
 page-status-flag: never-activated
 uuid: 1038dae2-164c-4579-9294-bdf2a4eb12d6
 contentOwner: sauviat

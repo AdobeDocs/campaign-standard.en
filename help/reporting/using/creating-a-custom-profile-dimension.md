@@ -1,8 +1,6 @@
 ---
 title: Creating a custom profile dimension
-seo-title: Creating a custom profile dimension
-description: Creating a custom profile dimension
-seo-description: Learn how to create a custom profile dimension based on custom profile data.
+description: Learn how to create a custom profile dimension based on custom profile data.
 page-status-flag: never-activated
 uuid: f75e005b-5328-4c98-9e78-51d54fd0e246
 contentOwner: sauviat

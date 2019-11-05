@@ -1,8 +1,6 @@
 ---
 title: Personalizing SMS messages
-seo-title: Personalizing SMS messages
-description: Personalizing SMS messages
-seo-description: Discover the specificity of the transliteration options when personalizing SMS messages.
+description: Discover the specificity of the transliteration options when personalizing SMS messages.
 page-status-flag: never-activated
 uuid: 123fe70c-c279-40a3-88b6-6bfb2453ec83
 contentOwner: sauviat

@@ -1,8 +1,6 @@
 ---
 title: AND-join
-seo-title: AND-join
-description: AND-join
-seo-description: The AND-join activity allows you to synchronize multiple execution branches of a workflow.
+description: The AND-join activity allows you to synchronize multiple execution branches of a workflow.
 page-status-flag: never-activated
 uuid: 9b54fd4c-9915-400f-a494-74e52c329b8a
 contentOwner: sauviat

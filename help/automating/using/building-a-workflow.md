@@ -1,8 +1,6 @@
 ---
 title: Building a workflow
-seo-title: Building a workflow
-description: Building a workflow
-seo-description: This section details the main principles and best practices for creating a new workflow.
+description: This section details the main principles and best practices for creating a new workflow.
 page-status-flag: never-activated
 uuid: 11374f64-8d34-40da-937b-09f419250f4c
 contentOwner: sauviat

@@ -1,8 +1,6 @@
 ---
 title: Using workflow data
-seo-title: Using workflow data
-description: Using workflow data
-seo-description: Learn the different possibilities to consume the data you imported or targeted.
+description: Learn the different possibilities to consume the data you imported or targeted.
 page-status-flag: never-activated
 uuid: 3dd66aeb-3a26-4214-b6a0-242c2b7fbc49
 contentOwner: sauviat

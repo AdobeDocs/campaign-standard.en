@@ -1,8 +1,6 @@
 ---
 title: Designing content in Adobe Campaign
-seo-title: Designing content in Adobe Campaign
-description: Designing content in Adobe Campaign
-seo-description: Learn about all the elements that you can define in your contents with Adobe Campaign.
+description: Learn about all the elements that you can define in your contents with Adobe Campaign.
 page-status-flag: never-activated
 uuid: 8f73407f-ab90-46bc-aeb6-bd87fcb0404c
 contentOwner: sauviat

@@ -1,8 +1,6 @@
 ---
 title: Adding components
-seo-title: Adding components
-description: Adding components
-seo-description: Drag and drog components to your freeform table to start filtering your data and building your report.
+description: Drag and drog components to your freeform table to start filtering your data and building your report.
 page-status-flag: never-activated
 uuid: a1aa880c-4ee8-4ffb-b3bf-45249e6d446f
 contentOwner: sauviat

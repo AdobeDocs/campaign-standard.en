@@ -1,8 +1,6 @@
 ---
 title: Wait
-seo-title: Wait
-description: Wait
-seo-description: The Wait activity momentarily suspends executing a part of a workflow.
+description: The Wait activity momentarily suspends executing a part of a workflow.
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat

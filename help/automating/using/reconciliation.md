@@ -1,8 +1,6 @@
 ---
 title: Reconciliation
-seo-title: Reconciliation
-description: Reconciliation
-seo-description: The Reconciliation activity allows you to link unidentified data to existing resources.
+description: The Reconciliation activity allows you to link unidentified data to existing resources.
 page-status-flag: never-activated
 uuid: 7884db8c-1717-4724-be15-3b0b32ccc071
 contentOwner: sauviat

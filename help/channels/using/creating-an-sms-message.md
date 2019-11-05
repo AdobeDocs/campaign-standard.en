@@ -1,8 +1,6 @@
 ---
 title: Creating an SMS message
-seo-title: Creating an SMS message
-description: Creating an SMS message
-seo-description: Follow these steps to create a single-send SMS message in Adobe Campaign.
+description: Follow these steps to create a single-send SMS message in Adobe Campaign.
 page-status-flag: never-activated
 uuid: 591ae97e-2d19-4f93-be4b-d8d20f1d2d12
 contentOwner: sauviat

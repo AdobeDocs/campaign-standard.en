@@ -1,8 +1,6 @@
 ---
 title: About dynamic reports
-seo-title: About dynamic reports
-description: About dynamic reports
-seo-description: With dynamic reports, drag and drop variables and dimensions into your freeform environment and analyze the success of your campaigns.
+description: With dynamic reports, drag and drop variables and dimensions into your freeform environment and analyze the success of your campaigns.
 page-status-flag: never-activated
 uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
 contentOwner: sauviat

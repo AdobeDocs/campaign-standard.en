@@ -1,8 +1,6 @@
 ---
 title: Creating a new template
-seo-title: Creating a new template
-description: Creating a new template
-seo-description: Learn how to create a new template, from existing out-of-box activity templates for email, SMS, push notification deliveries, etc.
+description: Learn how to create a new template, from existing out-of-box activity templates for email, SMS, push notification deliveries, etc.
 page-status-flag: never-activated
 uuid: 26e368ae-06e1-4c11-9899-c23cc727d398
 contentOwner: sauviat

@@ -1,8 +1,6 @@
 ---
 title: Using Triggers in Campaign
-seo-title: Using Triggers in Campaign
-description: Using Triggers in Campaign
-seo-description: 
+description: 
 page-status-flag: never-activated
 uuid: d844d013-b38a-4e69-9df5-0edc01fa9c6e
 contentOwner: sauviat

@@ -1,8 +1,6 @@
 ---
 title: Confirming subscription to a service
-seo-title: Confirming subscription to a service
-description: Confirming subscription to a service
-seo-description: Follow these steps to set up a confirmation message for profiles subscribing to a service in Adobe Campaign.
+description: Follow these steps to set up a confirmation message for profiles subscribing to a service in Adobe Campaign.
 page-status-flag: never-activated
 uuid: 23e6c4c2-e2c7-472f-b616-36a95225ac1d
 contentOwner: sauviat

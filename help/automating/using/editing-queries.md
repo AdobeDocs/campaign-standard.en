@@ -1,8 +1,6 @@
 ---
 title: Editing queries
-seo-title: Editing queries
-description: Editing queries
-seo-description: Build a population thanks to the predefined filters and rules.
+description: Build a population thanks to the predefined filters and rules.
 page-status-flag: never-activated
 uuid: a49c7739-a96c-45cb-9ac5-1ce299161a97
 contentOwner: sauviat

@@ -1,8 +1,6 @@
 ---
 title: List of roles
-seo-title: List of roles
-description: List of roles
-seo-description: Find out the list of roles that you can assign to your users.
+description: Find out the list of roles that you can assign to your users.
 page-status-flag: never-activated
 uuid: 128aaf9b-9b7d-49f3-9e1f-72e79a29baa0
 contentOwner: sauviat

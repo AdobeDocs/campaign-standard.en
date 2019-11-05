@@ -1,8 +1,6 @@
 ---
 title: Optimizing the sending time
-seo-title: Optimizing the sending time
-description: Optimizing the sending time
-seo-description: Learn how to set up sending time and improve the open rate of your messages.
+description: Learn how to set up sending time and improve the open rate of your messages.
 page-status-flag: never-activated
 uuid: c2c13934-9819-4e18-b5c7-60915c907f37
 contentOwner: sauviat

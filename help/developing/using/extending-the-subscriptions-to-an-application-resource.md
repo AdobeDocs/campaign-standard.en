@@ -1,8 +1,6 @@
 ---
 title: Extending the subscriptions to an application resource
-seo-title: Extending the subscriptions to an application resource
-description: Extending the subscriptions to an application resource
-seo-description: 
+description: 
 page-status-flag: never-activated
 uuid: 8879b427-b31b-4311-bf54-258a91b1fb78
 contentOwner: sauviat

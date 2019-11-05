@@ -1,8 +1,6 @@
 ---
 title: Unsubscriptions
-seo-title: Unsubscriptions
-description: Unsubscriptions
-seo-description: With the Unsubscriptions out-of-the-box report, learn how many times customers unsubscribed to your deliveries.
+description: With the Unsubscriptions out-of-the-box report, learn how many times customers unsubscribed to your deliveries.
 page-status-flag: never-activated
 uuid: 62e24335-dd63-4767-86e3-4084be04fc50
 contentOwner: sauviat

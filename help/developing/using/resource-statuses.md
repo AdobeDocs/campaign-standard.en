@@ -1,8 +1,6 @@
 ---
 title: Resource statuses
-seo-title: Resource statuses
-description: Resource statuses
-seo-description: Discover the different resource statuses according to their publication state.
+description: Discover the different resource statuses according to their publication state.
 page-status-flag: never-activated
 uuid: 215c0a2e-27ec-43f3-baac-1eaac7640784
 contentOwner: sauviat

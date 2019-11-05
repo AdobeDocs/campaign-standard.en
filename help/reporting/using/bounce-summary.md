@@ -1,8 +1,6 @@
 ---
 title: Bounce summary
-seo-title: Bounce summary
-description: Bounce summary
-seo-description: With the Bounce summary out-of-the-box report, learn about the status of your sent campaigns and errors they may have encountered.
+description: With the Bounce summary out-of-the-box report, learn about the status of your sent campaigns and errors they may have encountered.
 page-status-flag: never-activated
 uuid: 90087311-4236-4df9-ae7d-4a15c00c70ab
 contentOwner: sauviat

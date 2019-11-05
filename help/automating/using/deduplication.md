@@ -1,8 +1,6 @@
 ---
 title: Deduplication
-seo-title: Deduplication
-description: Deduplication
-seo-description: The Deduplication activity allows you to delete duplicates in the result(s) of the inbound activities.
+description: The Deduplication activity allows you to delete duplicates in the result(s) of the inbound activities.
 page-status-flag: never-activated
 uuid: 11a22a9c-3bfe-4953-8a52-2f4e93c128fb
 contentOwner: sauviat

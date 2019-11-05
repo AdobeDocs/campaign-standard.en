@@ -1,8 +1,6 @@
 ---
 title: Defining dynamic text
-seo-title: Defining dynamic text
-description: Defining dynamic text
-seo-description: Learn how to display different texts dynamically to the user according to the conditions defined in Adobe Campaign.
+description: Learn how to display different texts dynamically to the user according to the conditions defined in Adobe Campaign.
 page-status-flag: never-activated
 uuid: bbcd200c-4fb4-467b-ba39-09b8bee9bcaa
 contentOwner: sauviat

@@ -1,8 +1,6 @@
 ---
 title: Campaign dimensions and metrics in Analytics
-seo-title: Campaign dimensions and metrics in Analytics
-description: Campaign dimensions and metrics in Analytics
-seo-description: Learn the different dimensions that you can find in Adobe Analytics to start tracking your email deliveries from Adobe Campaign.
+description: Learn the different dimensions that you can find in Adobe Analytics to start tracking your email deliveries from Adobe Campaign.
 page-status-flag: never-activated
 uuid: effa1028-66b2-4bef-b5e4-7319dbb23d5d
 contentOwner: sauviat

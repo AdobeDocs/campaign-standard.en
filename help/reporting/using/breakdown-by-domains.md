@@ -1,8 +1,6 @@
 ---
 title: Breakdown by domains
-seo-title: Breakdown by domains
-description: Breakdown by domains
-seo-description: With the Breakdown by domains out-of-the-box report, learn about the performance data of your deliveries depending on each of your customer's domain.
+description: With the Breakdown by domains out-of-the-box report, learn about the performance data of your deliveries depending on each of your customer's domain.
 page-status-flag: never-activated
 uuid: 75a64c81-325b-422f-b6ef-deb06eec7f7b
 contentOwner: sauviat

@@ -1,8 +1,6 @@
 ---
 title: Creating a service
-seo-title: Creating a service
-description: Creating a service
-seo-description: Learn how to create your first service and configure it to send email confirmations to your subscribers.
+description: Learn how to create your first service and configure it to send email confirmations to your subscribers.
 page-status-flag: never-activated
 uuid: 0d95d852-0f22-4b7b-b301-8fb4844c3ca2
 contentOwner: sauviat

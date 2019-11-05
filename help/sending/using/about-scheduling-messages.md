@@ -1,8 +1,6 @@
 ---
 title: About scheduling messages
-seo-title: About scheduling messages
-description: About scheduling messages
-seo-description: Learn how to schedule your messages.
+description: Learn how to schedule your messages.
 page-status-flag: never-activated
 uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
 contentOwner: sauviat

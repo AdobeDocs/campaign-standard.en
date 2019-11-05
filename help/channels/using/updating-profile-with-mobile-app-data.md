@@ -1,8 +1,6 @@
 ---
 title: Creating and updating profile information based on mobile application data
-seo-title: Creating and updating profile information based on mobile application data
-description: Creating and updating profile information based on mobile application data
-seo-description: Learn how to create and update profile information based on mobile application data.
+description: Learn how to create and update profile information based on mobile application data.
 page-status-flag: never-activated
 uuid: 8cf74cad-b1ba-4aad-83bd-7289cb22d5f4
 contentOwner: lemaitre

@@ -1,8 +1,6 @@
 ---
 title: Configuring email channel
-seo-title: Configuring email channel
-description: Configuring email channel
-seo-description: Learn how to configure the email channel.
+description: Learn how to configure the email channel.
 page-status-flag: never-activated
 uuid: 9fddb655-b445-41f3-9b02-5d356fc88aa1
 contentOwner: sauviat

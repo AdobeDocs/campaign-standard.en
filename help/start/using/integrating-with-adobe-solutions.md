@@ -1,8 +1,6 @@
 ---
 title: Integrating with Adobe solutions
-seo-title: Integrating with Adobe solutions
-description: Integrating with Adobe solutions
-seo-description: Learn how integrations with Adobe Experience Cloud core services and solutions such as Adobe Analytics and Experience Manager can improve your Adobe Campaign strategy with deep insights and convenient content management.
+description: Learn how integrations with Adobe Experience Cloud core services and solutions such as Adobe Analytics and Experience Manager can improve your Adobe Campaign strategy with deep insights and convenient content management.
 page-status-flag: never-activated
 uuid: e142e449-1cf4-4d3f-a318-6572d78e6f85
 contentOwner: sauviat

@@ -1,8 +1,6 @@
 ---
 title: Return to sender
-seo-title: Return to sender
-description: Return to sender
-seo-description: Learn how to be notified of an incorrect address and exclude it from future communications.
+description: Learn how to be notified of an incorrect address and exclude it from future communications.
 page-status-flag: never-activated
 uuid: 11981c2f-0b7f-4166-9daa-ec6a6b4d5367
 contentOwner: sauviat

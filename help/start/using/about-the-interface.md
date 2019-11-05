@@ -1,8 +1,6 @@
 ---
 title: About the interface
-seo-title: About the interface
-description: About the interface
-seo-description: Campaign workspace is based on concepts which are common to all the Adobe Experience Cloud solutions..
+description: Campaign workspace is based on concepts which are common to all the Adobe Experience Cloud solutions..
 page-status-flag: never-activated
 uuid: ed9e631c-5ad1-49f1-be1e-b710bc64dc91
 contentOwner: sauviat

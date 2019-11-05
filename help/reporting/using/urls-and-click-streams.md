@@ -1,8 +1,6 @@
 ---
 title: URLs and click streams
-seo-title: URLs and click streams
-description: URLs and click streams
-seo-description: With the URLs and click streams out-of-the-box report, learn about the success of the URLs in your deliveries.
+description: With the URLs and click streams out-of-the-box report, learn about the success of the URLs in your deliveries.
 page-status-flag: never-activated
 uuid: 712b26b2-3b4b-487c-8d47-e56dc34609a4
 contentOwner: sauviat

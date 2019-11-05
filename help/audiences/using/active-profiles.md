@@ -1,8 +1,6 @@
 ---
 title: Active profiles
-seo-title: Active profiles
-description: Active profiles
-seo-description: You can access a dedicated report on customer metrics and visualize active profiles in your Campaign database.
+description: You can access a dedicated report on customer metrics and visualize active profiles in your Campaign database.
 page-status-flag: never-activated
 uuid: ee8ac493-c297-49ca-aed4-3976d8a685a4
 contentOwner: sauviat

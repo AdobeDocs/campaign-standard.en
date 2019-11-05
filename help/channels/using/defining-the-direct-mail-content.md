@@ -1,8 +1,6 @@
 ---
 title: Defining the direct mail content
-seo-title: Defining the direct mail content
-description: Defining the direct mail content
-seo-description: Learn how to define the content for your direct mail delivery.
+description: Learn how to define the content for your direct mail delivery.
 page-status-flag: never-activated
 uuid: c1234c06-4d22-46d7-ad1b-3c88660f9b06
 contentOwner: sauviat

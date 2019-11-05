@@ -1,8 +1,6 @@
 ---
 title: Follow-up messages
-seo-title: Follow-up messages
-description: Follow-up messages
-seo-description: Learn how to create and publish a follow-up message.
+description: Learn how to create and publish a follow-up message.
 page-status-flag: never-activated
 uuid: d2a17da2-e935-420a-8531-78ed6a1fe68b
 contentOwner: sauviat

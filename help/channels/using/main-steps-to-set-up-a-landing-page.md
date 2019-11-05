@@ -1,8 +1,6 @@
 ---
 title: Main steps to set up a landing page
-seo-title: Main steps to set up a landing page
-description: Main steps to set up a landing page
-seo-description: Learn the main steps to set up a landing page
+description: Learn the main steps to set up a landing page
 page-status-flag: never-activated
 uuid: b316bf47-7d98-46fa-ab4f-67ff50de8095
 contentOwner: lemaitre

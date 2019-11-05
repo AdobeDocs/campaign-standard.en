@@ -1,8 +1,6 @@
 ---
 title: Hot clicks
-seo-title: Hot clicks
-description: Hot clicks
-seo-description: With the Hot clicks out-of-the-box report, learn where your customer clicked on your delivery.
+description: With the Hot clicks out-of-the-box report, learn where your customer clicked on your delivery.
 page-status-flag: never-activated
 uuid: 7ed49dd3-d7ee-466a-9a7b-d2aa16961667
 contentOwner: sauviat

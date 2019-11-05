@@ -1,8 +1,6 @@
 ---
 title: Troubleshooting
-seo-title: Troubleshooting
-description: Troubleshooting
-seo-description: Learn how to troubleshoot issues when sharing resources.
+description: Learn how to troubleshoot issues when sharing resources.
 page-status-flag: never-activated
 uuid: 1c764dd8-e09f-4e8e-9ccd-88ab3d714284
 contentOwner: sauviat

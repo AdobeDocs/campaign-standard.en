@@ -1,8 +1,6 @@
 ---
 title: Configuring the resource's data structure
-seo-title: Configuring the resource's data structure
-description: Configuring the resource's data structure
-seo-description: Learn how to configure the data structure.
+description: Learn how to configure the data structure.
 page-status-flag: never-activated
 uuid: 60fe80c0-9df6-4808-a432-60a1977216ea
 contentOwner: sauviat

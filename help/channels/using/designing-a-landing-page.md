@@ -1,8 +1,6 @@
 ---
 title: Designing a landing page
-seo-title: Designing a landing page
-description: Designing a landing page
-seo-description: Follow these steps to design the content of a landing page and link it to a service.
+description: Follow these steps to design the content of a landing page and link it to a service.
 page-status-flag: never-activated
 uuid: de6fe190-835c-40fd-8101-a809b430b423
 contentOwner: sauviat

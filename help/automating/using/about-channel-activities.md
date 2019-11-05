@@ -1,8 +1,6 @@
 ---
 title: About channel activities
-seo-title: About channel activities
-description: About channel activities
-seo-description: Channel activities are available from the left-hand side of the screen.
+description: Channel activities are available from the left-hand side of the screen.
 page-status-flag: never-activated
 uuid: 900e0580-2e56-4aaf-b584-58d8e9a408cf
 contentOwner: sauviat

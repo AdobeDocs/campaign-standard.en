@@ -1,8 +1,6 @@
 ---
 title: Testing your triggers
-seo-title: Testing your triggers
-description: Testing your triggers
-seo-description: 
+description: 
 page-status-flag: never-activated
 uuid: b3a6667d-e843-4ad6-817e-d91542b5f2e2
 contentOwner: sauviat

@@ -1,8 +1,6 @@
 ---
 title: Selecting an audience in a message
-seo-title: Selecting an audience in a message
-description: Selecting an audience in a message
-seo-description: "Step-be-step procedure to choose audiences of an email: main target population and test profiles."
+description: "Step-be-step procedure to choose audiences of an email: main target population and test profiles."
 page-status-flag: never-activated
 uuid: 7d8f8446-f2e0-49c1-83f6-9667b29bc228
 contentOwner: sauviat

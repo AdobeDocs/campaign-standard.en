@@ -1,8 +1,6 @@
 ---
 title: About subscriptions
-seo-title: About subscriptions
-description: About subscriptions
-seo-description: 
+description: 
 page-status-flag: never-activated
 uuid: b0263e40-f910-49f2-a138-0a1302aeeec6
 contentOwner: sauviat

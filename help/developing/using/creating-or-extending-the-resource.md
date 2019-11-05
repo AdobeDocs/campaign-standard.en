@@ -1,8 +1,6 @@
 ---
 title: Creating or extending the resource
-seo-title: Creating or extending the resource
-description: Creating or extending the resource
-seo-description: Discover how to define a resource from scratch.
+description: Discover how to define a resource from scratch.
 page-status-flag: never-activated
 uuid: 7c26b63d-9587-472b-804f-cde5c45dfb3c
 contentOwner: sauviat

@@ -1,8 +1,6 @@
 ---
 title: Defining the report period
-seo-title: Defining the report period
-description: Defining the report period
-seo-description: The time period of your report allows you to filter your data depending on the chosen dates.
+description: The time period of your report allows you to filter your data depending on the chosen dates.
 page-status-flag: never-activated
 uuid: 8dfd1ae6-a5a0-4900-bd6f-7815749d0b60
 contentOwner: sauviat

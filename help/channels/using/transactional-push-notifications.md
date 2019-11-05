@@ -1,8 +1,6 @@
 ---
 title: Transactional push notifications
-seo-title: Transactional push notifications
-description: Transactional push notifications
-seo-description: Learn how to create and publish a transactional push         notification.
+description: Learn how to create and publish a transactional push         notification.
 page-status-flag: never-activated
 uuid: ef31c1b6-9ef8-42e3-b49d-72f9eac8ea32
 contentOwner: sauviat

@@ -1,8 +1,6 @@
 ---
 title: About access management
-seo-title: About access management
-description: About access management
-seo-description: Manage your Adobe Campaign operators using roles, groups and organizational units.
+description: Manage your Adobe Campaign operators using roles, groups and organizational units.
 page-status-flag: never-activated
 uuid: 4f538452-cc67-4e03-9e2f-2d9eecc081c7
 contentOwner: sauviat

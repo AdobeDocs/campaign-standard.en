@@ -1,8 +1,6 @@
 ---
 title: Executing a workflow
-seo-title: Executing a workflow
-description: Executing a workflow
-seo-description: Learn how to execute and monitor a workflow.
+description: Learn how to execute and monitor a workflow.
 page-status-flag: never-activated
 uuid: ff02b74e-53e8-49c6-bf8e-0c729eaa7d25
 contentOwner: sauviat

@@ -1,8 +1,6 @@
 ---
 title: Using a template
-seo-title: Using a template
-description: Using a template
-seo-description: Discover a simple step-by-step procedure to use an existing template.
+description: Discover a simple step-by-step procedure to use an existing template.
 page-status-flag: never-activated
 uuid: 733383ac-1271-4621-83a4-db9bc5ad74a4
 contentOwner: sauviat

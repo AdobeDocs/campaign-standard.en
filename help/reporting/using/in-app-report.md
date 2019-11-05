@@ -1,8 +1,6 @@
 ---
 title: In-App report
-seo-title: In-App report
-description: In-App report
-seo-description: With the In-App out-of-the-box report, learn about the success of your In-app messages.
+description: With the In-App out-of-the-box report, learn about the success of your In-app messages.
 page-status-flag: never-activated
 uuid: 802dc606-a314-46dd-b361-b746b0772303
 contentOwner: sauviat

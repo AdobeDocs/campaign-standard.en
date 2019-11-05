@@ -1,8 +1,6 @@
 ---
 title: Customizing a push notification
-seo-title: Customizing a push notification
-description: Customizing a push notification
-seo-description: Learn how to customize your push notifications with various advanced options.
+description: Learn how to customize your push notifications with various advanced options.
 page-status-flag: never-activated
 uuid: 8cf74cad-b1ba-4aad-83bd-7289cb22d5f4
 contentOwner: sauviat

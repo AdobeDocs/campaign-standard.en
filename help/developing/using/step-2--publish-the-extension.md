@@ -1,8 +1,6 @@
 ---
 title: "Step 2: Publish the extension"
-seo-title: "Step 2: Publish the extension"
-description: "Step 2: Publish the extension"
-seo-description: 
+description: 
 page-status-flag: never-activated
 uuid: 0c944ed0-3007-4c1b-8960-41c7ef6121cf
 contentOwner: sauviat

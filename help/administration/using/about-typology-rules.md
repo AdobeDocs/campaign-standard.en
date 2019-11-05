@@ -1,8 +1,6 @@
 ---
 title: About typology rules
-seo-title: About typology rules
-description: About typology rules
-seo-description: Discover how typology rules work in Adobe Campaign.
+description: Discover how typology rules work in Adobe Campaign.
 page-status-flag: never-activated
 uuid: a98ebc36-172d-4f46-b6ee-b2636a1007c9
 contentOwner: sauviat

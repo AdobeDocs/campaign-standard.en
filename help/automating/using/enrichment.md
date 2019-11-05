@@ -1,8 +1,6 @@
 ---
 title: Enrichment
-seo-title: Enrichment
-description: Enrichment
-seo-description: The Enrichment activity is an advanced activity that allows you to define additional data to process in your workflow.
+description: The Enrichment activity is an advanced activity that allows you to define additional data to process in your workflow.
 page-status-flag: never-activated
 uuid: 8c1693ef-1312-422c-b05d-263553113f8f
 contentOwner: sauviat

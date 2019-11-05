@@ -1,8 +1,6 @@
 ---
 title: Integrating with Experience Manager
-seo-title: Integrating with Experience Manager
-description: Integrating with Experience Manager
-seo-description: With the Adobe Experience Manager integration, you can create content directly in AEM and use it later on in Adobe Campaign.
+description: With the Adobe Experience Manager integration, you can create content directly in AEM and use it later on in Adobe Campaign.
 page-status-flag: never-activated
 uuid: ed6c1b76-87f7-4d23-b5e2-0765297a905c
 contentOwner: sauviat

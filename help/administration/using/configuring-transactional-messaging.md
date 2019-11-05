@@ -1,8 +1,6 @@
 ---
 title: Configuring transactional messaging
-seo-title: Configuring transactional messaging
-description: Configuring transactional messaging
-seo-description: Learn how to configure transactional messaging.
+description: Learn how to configure transactional messaging.
 page-status-flag: never-activated
 uuid: 4caeadbe-f4a7-43ce-986d-e99fa9ca0d0d
 contentOwner: sauviat

@@ -1,8 +1,6 @@
 ---
 title: Configure Campaign-Analytics integration
-seo-title: Configure Campaign-Analytics integration
-description: Configure Campaign-Analytics integration
-seo-description: Learn how to configure the Adobe Analytics integration to start measuring the success of your email deliveries.
+description: Learn how to configure the Adobe Analytics integration to start measuring the success of your email deliveries.
 page-status-flag: never-activated
 uuid: bdaa00b0-7445-469c-8268-9d06c53ce2b0
 contentOwner: sauviat

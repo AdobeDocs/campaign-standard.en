@@ -1,8 +1,6 @@
 ---
 title: Abandonment Triggers use cases
-seo-title: Abandonment Triggers use cases
-description: Abandonment Triggers use cases
-seo-description: Learn how to use the Experience Cloud Triggers integration with these different use cases.
+description: Learn how to use the Experience Cloud Triggers integration with these different use cases.
 page-status-flag: never-activated
 uuid: 9e236165-afd5-4155-9151-c1941dc0af99
 contentOwner: sauviat

@@ -1,8 +1,6 @@
 ---
 title: "Workflow use-case: Retargeting non-openers"
-seo-title: "Workflow use-case: Retargeting non-openers"
 description: "Workflow use-case: Retargeting non-openers"
-seo-description: "Workflow use-case: Retargeting non-openers"
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat

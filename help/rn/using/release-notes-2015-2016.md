@@ -1,8 +1,6 @@
 ---
 title: Release Notes 2015-2016
-seo-title: Release Notes 2015-2016
-description: Release Notes 2015-2016
-seo-description: This page lists all 2015 and 2016 releases of Adobe Campaign Standard.
+description: This page lists all 2015 and 2016 releases of Adobe Campaign Standard.
 page-status-flag: never-activated
 uuid: d5a0f6cc-0bed-46cf-8dff-1717fb624f8f
 contentOwner: sauviat

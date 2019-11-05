@@ -1,8 +1,6 @@
 ---
 title: Release Notes 2018
-seo-title: Release Notes 2018
-description: Release Notes 2018
-seo-description: This page lists all 2018 releases of Adobe Campaign Standard.
+description: This page lists all 2018 releases of Adobe Campaign Standard.
 page-status-flag: never-activated
 uuid: 99f92a54-4b3d-48b9-b08d-e98b24e75f62
 contentOwner: sauviat

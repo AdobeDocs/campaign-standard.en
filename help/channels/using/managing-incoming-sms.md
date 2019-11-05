@@ -1,8 +1,6 @@
 ---
 title: Managing incoming SMS
-seo-title: Managing incoming SMS
-description: Managing incoming SMS
-seo-description: Learn how to manage STOP SMS and store incoming SMS in Adobe Campaign.
+description: Learn how to manage STOP SMS and store incoming SMS in Adobe Campaign.
 page-status-flag: never-activated
 uuid: f063052b-96ef-41b6-bf1b-4006de73f0b9
 contentOwner: sauviat

@@ -1,8 +1,6 @@
 ---
 title: Union
-seo-title: Union
-description: Union
-seo-description: The Union activity allows you to regroup the result of multiple activities into a single target.
+description: The Union activity allows you to regroup the result of multiple activities into a single target.
 page-status-flag: never-activated
 uuid: fafc3ce9-2212-4403-8754-cfbb28ba6e26
 contentOwner: sauviat

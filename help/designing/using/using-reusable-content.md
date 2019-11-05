@@ -1,8 +1,6 @@
 ---
 title: Creating and using reusable content 
-seo-title: Creating and using reusable content
-description: Creating and using reusable content
-seo-description: Start building reusable email content with the Email Designer.
+description: Start building reusable email content with the Email Designer.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat

@@ -1,8 +1,6 @@
 ---
 title: Monitoring subscriptions
-seo-title: Monitoring subscriptions
-description: Monitoring subscriptions
-seo-description: Learn how to track your subscribers and measure the success of your services using dashboards and reports.
+description: Learn how to track your subscribers and measure the success of your services using dashboards and reports.
 page-status-flag: never-activated
 uuid: b0d8eb80-fa51-4518-a5e6-56de4046f6ff
 contentOwner: sauviat

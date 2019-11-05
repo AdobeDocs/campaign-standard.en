@@ -1,8 +1,6 @@
 ---
 title: Campaign orchestration
-seo-title: Campaign orchestration
-description: Campaign orchestration
-seo-description: Adobe Campaign is a powerful cross-channel campaign management tool that can help you align your online and offline strategies to create personalized customer experiences.
+description: Adobe Campaign is a powerful cross-channel campaign management tool that can help you align your online and offline strategies to create personalized customer experiences.
 page-status-flag: never-activated
 uuid: 027f6787-d2ef-44ae-a40a-8facdfe2ae77
 contentOwner: sauviat

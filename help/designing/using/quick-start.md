@@ -1,8 +1,6 @@
 ---
 title: Quick Start email content design
-seo-title: Quick Start email content design
-description: Quick Start email content design
-seo-description: Start building email content with the Email Designer.
+description: Start building email content with the Email Designer.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat

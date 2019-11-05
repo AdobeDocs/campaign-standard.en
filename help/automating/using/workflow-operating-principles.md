@@ -1,8 +1,6 @@
 ---
 title: Workflow operating principles
-seo-title: Workflow operating principles
-description: Workflow operating principles
-seo-description: Learn the main aspects of workflows.
+description: Learn the main aspects of workflows.
 page-status-flag: never-activated
 uuid: 85755e85-617b-4a9b-bb30-96ba8333f4f0
 contentOwner: sauviat
