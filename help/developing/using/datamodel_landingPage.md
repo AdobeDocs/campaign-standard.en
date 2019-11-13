@@ -14,9 +14,9 @@ internal: n
 snippet: y
 ---
 
+# Landing Page Datamodel
 
-# Landing Page - Datamodel
-
+sdg
 
 ## Object Description
 
@@ -1355,4 +1355,3 @@ snippet: y
 | webTrackingEnab | Enable web      | boolean         |                 |
 | led             | tracking        |                 |                 |
 +-----------------+-----------------+-----------------+-----------------+
-
