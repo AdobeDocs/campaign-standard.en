@@ -20,7 +20,7 @@ snippet: y
 
 By default, Adobe Campaign offers a set of roles which allows you to define unitary authorizations assigned to users and user groups. Combined with organizational units, roles give users a filtered view of the interface and define their access to the different features. For more on this, refer to the [Roles and permissions table](/help/administration/using/assets/acs_rights.pdf).
 
-[![image](/help/administration/using/assets/user_management_3.png)](/assets/acs_rights.pdf)
+   ![](assets/user_management_3.png)
 
 Roles can be managed from the **[!UICONTROL Administration > Users & Security > Roles]** menu.
 
