@@ -18,9 +18,9 @@ snippet: y
 
 # List of components {#list-of-components}
 
-To learn more on compatibility between dimensions and metrics, refer to this [table](https://docs.campaign.adobe.com/doc/standard/en/Technotes/dynamic_report_compatibility.pdf). If two components are not compatible, the cell will display the value **None**.
+To learn more on compatibility between dimensions and metrics, refer to this [table](/help/reporting/using/assets/dynamic_report_compatibility.pdf). If two components are not compatible, the cell will display the value **None**.
 
-[![image](/help/reporting/using/assets/dynamic_report_compatibility.png)](https://docs.campaign.adobe.com/doc/standard/en/Technotes/dynamic_report_compatibility.pdf)
+   ![](assets/dynamic_report_compatibility.png)
 
 ## Dimensions {#dimensions}
 
