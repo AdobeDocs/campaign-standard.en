@@ -295,7 +295,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Extending the profile resource with a new field](developing/using/extending-the-profile-resource-with-a-new-field.md)
        + [Extending the subscriptions to an application resource](developing/using/extending-the-subscriptions-to-an-application-resource.md)
   + Datamodel {#datamodel}
-       + [Audiences](developing/using/datamodel_landingPage.md)
+       + [Audiences](developing/using/datamodel-landingpage.md)
 + Administrating {#administrating}
   + [About Administrating Adobe Campaign](administration/using/about-administrating-adobe-campaign.md)
   + Users and security {#users-and-security}
