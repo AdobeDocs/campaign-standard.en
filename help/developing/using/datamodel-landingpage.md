@@ -16,10 +16,11 @@ snippet: y
 
 # Lanfinng
 
-<table cellpadding="4" cellspacing="0" summary="" border="1" class="simpletable"><tr class="sthead"><th valign="bottom" align="left" id="d5439e17" class="stentry">Name</th>
-<th valign="bottom" align="left" id="d5439e19" class="stentry">Label</th>
-<th valign="bottom" align="left" id="d5439e21" class="stentry">Type (length)</th>
-<th valign="bottom" align="left" id="d5439e23" class="stentry">Enumeration values</th>
+<table cellpadding="4" cellspacing="0" summary="" class="simpletable">
+<tr class="sthead"><th valign="bottom" id="d5439e17" class="stentry">Name</th>
+<th valign="bottom" id="d5439e19" class="stentry">Label</th>
+<th valign="bottom" id="d5439e21" class="stentry">Type (length)</th>
+<th valign="bottom" id="d5439e23" class="stentry">Enumeration values</th>
 </tr>
 <tr class="strow"><td valign="top" headers="d5439e17" class="stentry">PKey</td>
 <td valign="top" headers="d5439e19" class="stentry">Main resource ID</td>
