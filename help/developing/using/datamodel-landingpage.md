@@ -1,6 +1,6 @@
 ---
-title: About SMS and push content design
-description: Learn about the editor used to modify the content of your SMS messages and push notifications in Adobe Campaign.
+title: DataModel
+description: Learn about the datamodel
 page-status-flag: never-activated
 uuid: 99277e46-e4f7-49a9-ba27-b878780f90da
 contentOwner: sauviat
