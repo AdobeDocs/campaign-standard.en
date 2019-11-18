@@ -1,8 +1,6 @@
 ---
 title: Fatigue rules
-seo-title: Fatigue rules
-description: Fatigue rules
-seo-description: Create fatigue rules to manage over-communication with profiles.
+description: Create fatigue rules to manage over-communication with profiles.
 page-status-flag: never-activated
 uuid: fa5e3ded-36c2-4f16-b97a-119b85adf679
 contentOwner: sauviat

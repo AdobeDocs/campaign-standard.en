@@ -1,8 +1,6 @@
 ---
 title: Creating a multilingual push notification
-seo-title: Creating a multilingual push notification
-description: Creating a multilingual push notification
-seo-description: Create multilingual push notifications to target your users in their preferred languages and regions.
+description: Create multilingual push notifications to target your users in their preferred languages and regions.
 page-status-flag: never-activated
 uuid: d4aff741-e969-47c6-bae8-787c6c673191
 contentOwner: sauviat

@@ -1,8 +1,6 @@
 ---
 title: Interface description
-seo-title: Interface description
-description: Interface description
-seo-description: "Learn how to navigate and use the Adobe Campaign workspace: home page, top bar, advanced menus and action bars."
+description: "Learn how to navigate and use the Adobe Campaign workspace: home page, top bar, advanced menus and action bars."
 page-status-flag: never-activated
 uuid: af9f0f1f-d24a-4dc7-b4a8-70290de6eb3f
 contentOwner: sauviat

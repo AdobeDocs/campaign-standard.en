@@ -1,8 +1,6 @@
 ---
 title: Adding Target dynamic content
-seo-title: Adding Target dynamic content
-description: Adding Target dynamic content
-seo-description: Learn how to add Adobe Target dynamic content in one of your Adobe Campaign delivery.
+description: Learn how to add Adobe Target dynamic content in one of your Adobe Campaign delivery.
 page-status-flag: never-activated
 uuid: b3cc045f-7924-480e-8c61-8246510f3adb
 contentOwner: sauviat

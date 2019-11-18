@@ -1,8 +1,6 @@
 ---
 title: Example of direct mail in a workflow
-seo-title: Example of direct mail in a workflow
-description: Example of direct mail in a workflow
-seo-description: Discover an example of a direct mail delivery in a workflow.
+description: Discover an example of a direct mail delivery in a workflow.
 page-status-flag: never-activated
 uuid: 1db691b8-c072-4e99-b2fa-27844a179c55
 contentOwner: sauviat

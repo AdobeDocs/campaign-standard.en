@@ -1,8 +1,6 @@
 ---
 title: Start and end
-seo-title: Start and end
-description: Start and end
-seo-description: The Start and End activities allow you to clearly mark where your workflow starts and ends.
+description: The Start and End activities allow you to clearly mark where your workflow starts and ends.
 page-status-flag: never-activated
 uuid: 146b6337-122c-453d-8ffd-5c157db29217
 contentOwner: sauviat

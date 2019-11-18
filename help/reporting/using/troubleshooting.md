@@ -1,8 +1,6 @@
 ---
 title: Troubleshooting
-seo-title: Troubleshooting
-description: Troubleshooting
-seo-description: Find here common questions related to Dynamic reporting.
+description: Find here common questions related to Dynamic reporting.
 page-status-flag: never-activated
 uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
 contentOwner: beneat

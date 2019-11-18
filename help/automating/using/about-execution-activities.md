@@ -1,8 +1,6 @@
 ---
 title: About execution activities
-seo-title: About execution activities
-description: About execution activities
-seo-description: Execution activities are available from the left-hand side of the screen.
+description: Execution activities are available from the left-hand side of the screen.
 page-status-flag: never-activated
 uuid: af2d19d7-a819-4064-806f-46e946387799
 contentOwner: sauviat

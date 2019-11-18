@@ -1,8 +1,6 @@
 ---
 title: About In-App messaging
-seo-title: About In-App messaging
-description: About In-App messaging
-seo-description: Display message or alert within the mobile application with In-App messaging.
+description: Display message or alert within the mobile application with In-App messaging.
 page-status-flag: never-activated
 uuid: 6784cdfc-6db9-41dd-9fbb-2e756a5bcb5f
 contentOwner: sauviat

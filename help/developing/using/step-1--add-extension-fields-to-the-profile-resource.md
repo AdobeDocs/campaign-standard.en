@@ -1,8 +1,6 @@
 ---
 title: "Step 1: Add extension fields to the profile resource"
-seo-title: "Step 1: Add extension fields to the profile resource"
-description: "Step 1: Add extension fields to the profile resource"
-seo-description: Discover how to extend the profile resource.
+description: Discover how to extend the profile resource.
 page-status-flag: never-activated
 uuid: cb93ed40-3b00-458d-9554-883954565fdb
 contentOwner: sauviat

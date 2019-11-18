@@ -1,8 +1,6 @@
 ---
 title: About transactional messaging
-seo-title: About transactional messaging
-description: About transactional messaging
-seo-description: Discover the different types of transactional messages you can         send and how they are used in Adobe Campaign.
+description: Discover the different types of transactional messages you can         send and how they are used in Adobe Campaign.
 page-status-flag: never-activated
 uuid: 8470e9e2-ee17-456f-9e4c-460e69c78a2c
 contentOwner: sauviat

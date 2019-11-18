@@ -1,8 +1,6 @@
 ---
 title: Segmentation
-seo-title: Segmentation
-description: Segmentation
-seo-description: The Segmentation activity lets you create one or several segments from a population calculated by activities placed earlier in the workflow.
+description: The Segmentation activity lets you create one or several segments from a population calculated by activities placed earlier in the workflow.
 page-status-flag: never-activated
 uuid: 77796f18-cad5-4e7a-9d7b-4ed0dd8943bf
 contentOwner: sauviat

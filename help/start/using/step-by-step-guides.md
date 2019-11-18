@@ -1,8 +1,6 @@
 ---
 title: Step-by-step guides
-seo-title: Step-by-step guides
-description: Step-by-step guides
-seo-description: Learn Adobe Campaign basics through simple step-by-step procedures, and experience the power of the solution.
+description: Learn Adobe Campaign basics through simple step-by-step procedures, and experience the power of the solution.
 page-status-flag: never-activated
 uuid: 8d6d5f62-e564-4b5b-86ef-2b7ac5f8ab62
 contentOwner: sauviat

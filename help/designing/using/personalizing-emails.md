@@ -1,8 +1,6 @@
 ---
 title: Personalizing emails 
-seo-title: About email designer
-description: About email designer
-seo-description: Discover the Email Designer that enables you to design content for your emails.
+description: Discover the Email Designer that enables you to design content for your emails.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat

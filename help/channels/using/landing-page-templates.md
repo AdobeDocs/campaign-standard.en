@@ -1,8 +1,6 @@
 ---
 title: Landing page templates
-seo-title: Landing page templates
-description: Landing page templates
-seo-description: Learn more on landing page templates.
+description: Learn more on landing page templates.
 page-status-flag: never-activated
 uuid: b316bf47-7d98-46fa-ab4f-67ff50de8095
 contentOwner: lemaitre

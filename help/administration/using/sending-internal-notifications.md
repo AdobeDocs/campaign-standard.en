@@ -1,8 +1,6 @@
 ---
 title: Sending internal notifications
-seo-title: Sending internal notifications
-description: Sending internal notifications
-seo-description: Learn how to send real-time system notifications to your Adobe Campaign users.
+description: Learn how to send real-time system notifications to your Adobe Campaign users.
 page-status-flag: never-activated
 uuid: f196f025-dbb9-4268-9d7d-ff626994b447
 contentOwner: sauviat

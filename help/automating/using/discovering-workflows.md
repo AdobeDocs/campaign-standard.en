@@ -1,8 +1,6 @@
 ---
 title: Discovering workflows
-seo-title: Discovering workflows
-description: Discovering workflows
-seo-description: Adobe Campaign offers a comprehensive graphical environment that allows you to design and automate processes.
+description: Adobe Campaign offers a comprehensive graphical environment that allows you to design and automate processes.
 page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
 contentOwner: sauviat

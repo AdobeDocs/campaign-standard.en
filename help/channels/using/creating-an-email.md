@@ -1,8 +1,6 @@
 ---
 title: Creating an email
-seo-title: Creating an email
-description: Creating an email
-seo-description: Follow these steps to create a single-send email in Adobe Campaign.
+description: Follow these steps to create a single-send email in Adobe Campaign.
 page-status-flag: never-activated
 uuid: 74c7ef35-82c0-4bc4-b1f6-8e74fdcaea3c
 contentOwner: sauviat

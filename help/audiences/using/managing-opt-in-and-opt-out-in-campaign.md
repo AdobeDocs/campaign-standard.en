@@ -1,8 +1,6 @@
 ---
 title: Managing opt-in and opt-out in Campaign
-seo-title: Managing opt-in and opt-out in Campaign
-description: Managing opt-in and opt-out in Campaign
-seo-description: Understand how opt-in and opt-out are managed in Adobe Campaign.
+description: Understand how opt-in and opt-out are managed in Adobe Campaign.
 page-status-flag: never-activated
 uuid: aa1801ec-562b-420e-8d79-c07d066b7b1a
 contentOwner: sauviat

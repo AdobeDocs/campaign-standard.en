@@ -1,8 +1,6 @@
 ---
 title: Calling a workflow with external parameters
-seo-title: Calling a workflow with external parameters
-description: Calling a workflow with external parameters
-seo-description: This section details thow to call a workflow with external parameters.
+description: This section details thow to call a workflow with external parameters.
 page-status-flag: never-activated
 uuid: beccd1b6-8e6d-4504-9152-9ff537459c4a
 contentOwner: sauviat

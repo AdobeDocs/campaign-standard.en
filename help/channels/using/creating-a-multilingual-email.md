@@ -1,8 +1,6 @@
 ---
 title: Creating a multilingual email
-seo-title: Creating a multilingual email
-description: Creating a multilingual email
-seo-description: Follow these steps to create a multilingual email targeting recipients with different preferred languages.
+description: Follow these steps to create a multilingual email targeting recipients with different preferred languages.
 page-status-flag: never-activated
 uuid: e90f4ec8-14e3-4304-b5fc-bce0ba08a4ef
 contentOwner: sauviat

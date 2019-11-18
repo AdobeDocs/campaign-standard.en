@@ -1,8 +1,6 @@
 ---
 title: Creating audiences
-seo-title: Creating audiences
-description: Creating audiences
-seo-description: Learn how to create audiences in Adobe Campaign.
+description: Learn how to create audiences in Adobe Campaign.
 page-status-flag: never-activated
 uuid: fe99b31b-a949-4832-b0e6-2b36d1c8be80
 contentOwner: sauviat

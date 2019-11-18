@@ -1,8 +1,6 @@
 ---
 title: Extending the profile resource with a new field
-seo-title: Extending the profile resource with a new field
-description: Extending the profile resource with a new field
-seo-description: Learn how to extend the profile resource.
+description: Learn how to extend the profile resource.
 page-status-flag: never-activated
 uuid: 9b99e95c-93ff-4187-90f7-db0baf5369ad
 contentOwner: sauviat

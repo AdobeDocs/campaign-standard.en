@@ -1,8 +1,6 @@
 ---
 title: Transfer file
-seo-title: Transfer file
-description: Transfer file
-seo-description: The Transfer file activity allows you to receive or send files, test whether there are files present, or list files in Adobe Campaign.
+description: The Transfer file activity allows you to receive or send files, test whether there are files present, or list files in Adobe Campaign.
 page-status-flag: never-activated
 uuid: a2f18118-b681-4310-aee0-9e82179d2032
 contentOwner: sauviat

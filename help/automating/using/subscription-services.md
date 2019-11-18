@@ -1,8 +1,6 @@
 ---
 title: Subscription Services
-seo-title: Subscription Services
-description: Subscription Services
-seo-description: The Subscription Services activity allows you to take profiles in mass and subscribe them to a service or unsubscribe them from a service.
+description: The Subscription Services activity allows you to take profiles in mass and subscribe them to a service or unsubscribe them from a service.
 page-status-flag: never-activated
 uuid: 56637024-15ab-4145-9c48-3fbd27ab8af8
 contentOwner: sauviat

@@ -1,8 +1,6 @@
 ---
 title: About data management activities
-seo-title: About data management activities
-description: About data management activities
-seo-description: Data management activities are available from the left-hand side of the screen.
+description: Data management activities are available from the left-hand side of the screen.
 page-status-flag: never-activated
 uuid: c377bdb6-ae4e-4f23-acb7-ba6b0e095241
 contentOwner: sauviat

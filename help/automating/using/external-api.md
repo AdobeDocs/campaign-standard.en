@@ -1,8 +1,6 @@
 ---
 title: External API
-seo-title: External API
-description: External API
-seo-description: 
+description: 
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: automating

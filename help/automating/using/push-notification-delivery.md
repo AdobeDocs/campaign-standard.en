@@ -1,8 +1,6 @@
 ---
 title: Push notification delivery
-seo-title: Push notification delivery
-description: Push notification delivery
-seo-description: The Push notification delivery activity allows you to configure sending a single send push notification or a recurring push notification in a workflow.
+description: The Push notification delivery activity allows you to configure sending a single send push notification or a recurring push notification in a workflow.
 page-status-flag: never-activated
 uuid: 994d8fe3-29f0-4b5c-89ee-c6be7c60a31b
 contentOwner: sauviat

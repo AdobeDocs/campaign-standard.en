@@ -1,8 +1,6 @@
 ---
 title: Compatible browsers
-seo-title: Compatible browsers
-description: Compatible browsers
-seo-description: Adobe Campaign Standard is compatible with most browsers and main operating systems. Discover the full list.
+description: Adobe Campaign Standard is compatible with most browsers and main operating systems. Discover the full list.
 page-status-flag: never-activated
 uuid: 745599a6-6b06-4052-82ee-62a766f4922b
 contentOwner: sauviat

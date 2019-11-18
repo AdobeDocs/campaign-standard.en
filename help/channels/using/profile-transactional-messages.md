@@ -1,8 +1,6 @@
 ---
 title: Profile transactional messages
-seo-title: Profile transactional messages
-description: Profile transactional messages
-seo-description: Learn how to create and publish a profile transactional         message.
+description: Learn how to create and publish a profile transactional         message.
 page-status-flag: never-activated
 uuid: a8efe979-74ae-46ff-a305-b86a90679581
 contentOwner: sauviat

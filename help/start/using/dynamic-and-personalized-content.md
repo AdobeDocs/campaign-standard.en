@@ -1,8 +1,6 @@
 ---
 title: Dynamic and personalized content
-seo-title: Dynamic and personalized content
-description: Dynamic and personalized content
-seo-description: With Adobe Campaign, you can use your customer preferences and data to create personalized campaigns via email, SMS, push notification, InApp messages, or direct mail.
+description: With Adobe Campaign, you can use your customer preferences and data to create personalized campaigns via email, SMS, push notification, InApp messages, or direct mail.
 page-status-flag: never-activated
 uuid: a36a581e-25d4-426d-865a-c646519c961d
 contentOwner: sauviat

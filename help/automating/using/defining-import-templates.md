@@ -1,8 +1,6 @@
 ---
 title: Defining import templates
-seo-title: Defining import templates
-description: Defining import templates
-seo-description: Import templates allow to reduce the settings needed and to import data faster.
+description: Import templates allow to reduce the settings needed and to import data faster.
 page-status-flag: never-activated
 uuid: 651eb57c-adac-4e3e-b454-b39aea1f0484
 contentOwner: sauviat

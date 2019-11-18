@@ -1,8 +1,6 @@
 ---
 title: Calling a resource using a composite identification key
-seo-title: Calling a resource using a composite identification key
-description: Calling a resource using a composite identification key
-seo-description: Learn how to call a resource using a composite identification key
+description: Learn how to call a resource using a composite identification key
 ---
 
 # Calling a resource using a composite identification key{#calling-a-resource-using-a-composite-identification-key}

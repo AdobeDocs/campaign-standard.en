@@ -1,8 +1,6 @@
 ---
 title: Configuring the screen definition
-seo-title: Configuring the screen definition
-description: Configuring the screen definition
-seo-description: Learn how to define new Adobe Campaign screens based on the resource data structure.
+description: Learn how to define new Adobe Campaign screens based on the resource data structure.
 page-status-flag: never-activated
 uuid: 40848197-b1a0-4018-bfc3-7df64fb83307
 contentOwner: sauviat

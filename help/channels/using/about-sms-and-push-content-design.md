@@ -1,8 +1,6 @@
 ---
 title: About SMS and push content design
-seo-title: About SMS and push content design
-description: About SMS and push content design
-seo-description: Learn about the editor used to modify the content of your SMS messages and push notifications in Adobe Campaign.
+description: Learn about the editor used to modify the content of your SMS messages and push notifications in Adobe Campaign.
 page-status-flag: never-activated
 uuid: 99277e46-e4f7-49a9-ba27-b878780f90da
 contentOwner: sauviat

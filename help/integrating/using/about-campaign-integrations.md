@@ -1,8 +1,6 @@
 ---
 title: About Campaign integrations
-seo-title: About Campaign integrations
-description: About Campaign integrations
-seo-description: Adobe Campaign allows you to use other Adobe solutions and combine their different capabilities.
+description: Adobe Campaign allows you to use other Adobe solutions and combine their different capabilities.
 page-status-flag: never-activated
 uuid: 59d7cd99-a6f7-47f1-9b5c-c50e27a2bef8
 contentOwner: sauviat

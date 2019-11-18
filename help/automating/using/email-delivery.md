@@ -1,8 +1,6 @@
 ---
 title: Email delivery
-seo-title: Email delivery
-description: Email delivery
-seo-description: The Email delivery activity allows you to configure sending a single send email or a recurring email in a workflow.
+description: The Email delivery activity allows you to configure sending a single send email or a recurring email in a workflow.
 page-status-flag: never-activated
 uuid: 7de53431-84ae-4d21-8361-2775ad314ed2
 contentOwner: sauviat

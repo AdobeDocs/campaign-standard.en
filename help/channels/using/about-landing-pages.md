@@ -1,8 +1,6 @@
 ---
 title: About landing pages
-seo-title: About landing pages
-description: About landing pages
-seo-description: Discover Campaign landing pages and their life cycle.
+description: Discover Campaign landing pages and their life cycle.
 page-status-flag: never-activated
 uuid: b316bf47-7d98-46fa-ab4f-67ff50de8095
 contentOwner: sauviat

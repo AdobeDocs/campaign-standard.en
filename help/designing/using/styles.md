@@ -1,8 +1,6 @@
 ---
 title: Managing Styles
-seo-title: Managing Styles
-description: Managing Styles
-seo-description: Discover how to manage email styles in the Email Designer.
+description: Discover how to manage email styles in the Email Designer.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat

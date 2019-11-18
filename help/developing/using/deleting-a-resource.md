@@ -1,8 +1,6 @@
 ---
 title: Deleting a resource
-seo-title: Deleting a resource
-description: Deleting a resource
-seo-description: Learn how to delete a resource 
+description: Learn how to delete a resource 
 page-status-flag: never-activated
 uuid: 5de27589-6fa5-412c-8e5a-a4976de05715
 contentOwner: sauviat

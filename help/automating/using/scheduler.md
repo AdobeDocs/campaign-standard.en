@@ -1,8 +1,6 @@
 ---
 title: Scheduler
-seo-title: Scheduler
-description: Scheduler
-seo-description: The Scheduler activity allows you to schedule when a workflow or an activity is started.
+description: The Scheduler activity allows you to schedule when a workflow or an activity is started.
 page-status-flag: never-activated
 uuid: f5e50a11-8dc9-4d98-9531-024c0fb3f7da
 contentOwner: sauviat

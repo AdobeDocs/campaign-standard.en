@@ -1,8 +1,6 @@
 ---
 title: Adding visualizations
-seo-title: Adding visualizations
-description: Adding visualizations
-seo-description: Dynamic reports offer a set of visualizations to add a graphical representation to your report.
+description: Dynamic reports offer a set of visualizations to add a graphical representation to your report.
 page-status-flag: never-activated
 uuid: f4d851c1-8ef8-4295-a7bc-eb9608fbc497
 contentOwner: sauviat

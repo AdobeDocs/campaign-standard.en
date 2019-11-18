@@ -1,8 +1,6 @@
 ---
 title: "Step 3: Verify the extension"
-seo-title: "Step 3: Verify the extension"
-description: "Step 3: Verify the extension"
-seo-description: Learn how to access to the extended field with the Rest API.
+description: Learn how to access to the extended field with the Rest API.
 page-status-flag: never-activated
 uuid: 35ba89a5-a354-466f-91a0-50de111a2e00
 contentOwner: sauviat

@@ -1,8 +1,6 @@
 ---
 title: Configuring SMS channel
-seo-title: Configuring SMS channel
-description: Configuring SMS channel
-seo-description: "Find out the SMS configuration steps: routing, encoding, formats and advanced properties. "
+description: "Find out the SMS configuration steps: routing, encoding, formats and advanced properties. "
 page-status-flag: never-activated
 uuid: 5f13dbd5-9522-4199-8d9a-44c397cb2458
 contentOwner: sauviat

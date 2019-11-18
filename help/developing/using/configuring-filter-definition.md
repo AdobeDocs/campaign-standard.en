@@ -1,8 +1,6 @@
 ---
 title: Configuring filter definition
-seo-title: Configuring filter definition
-description: Configuring filter definition
-seo-description: Discover the filter feature to manage large data set.
+description: Discover the filter feature to manage large data set.
 page-status-flag: never-activated
 uuid: c9db95fe-e9aa-40f8-9c0a-e74bb21ac14b
 contentOwner: sauviat

@@ -1,8 +1,6 @@
 ---
 title: Configuring a mobile application
-seo-title: Configuring a mobile application
-description: Configuring a mobile application
-seo-description: Discover how to configure Adobe Campaign to send push         notifications or In-App messages using SDK V4 or Experience Platform SDK.
+description: Discover how to configure Adobe Campaign to send push         notifications or In-App messages using SDK V4 or Experience Platform SDK.
 page-status-flag: never-activated
 uuid: 63e1476a-7875-4f48-ba9e-97f1a0007e42
 contentOwner: sauviat

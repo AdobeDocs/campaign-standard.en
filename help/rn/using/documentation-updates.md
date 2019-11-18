@@ -1,8 +1,6 @@
 ---
 title: Documentation Updates
-seo-title: Documentation Updates
-description: Documentation Updates
-seo-description: Learn about all the latest updates for Adobe Campaign Standard documentation.
+description: Learn about all the latest updates for Adobe Campaign Standard documentation.
 page-status-flag: never-activated
 uuid: 3bdc7d11-8421-4110-a5ba-7b1376a03dda
 contentOwner: sauviat

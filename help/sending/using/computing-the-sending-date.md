@@ -1,8 +1,6 @@
 ---
 title: Computing the sending date
-seo-title: Computing the sending date
-description: Computing the sending date
-seo-description: Discover how to send a message at a specific date and time.
+description: Discover how to send a message at a specific date and time.
 page-status-flag: never-activated
 uuid: fbbb37a0-7257-4407-a4c9-f76bf04460d4
 contentOwner: sauviat

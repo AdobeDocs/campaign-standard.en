@@ -1,8 +1,6 @@
 ---
 title: Test
-seo-title: Test
-description: Test
-seo-description: The Test activity enables a transition based on a test result.
+description: The Test activity enables a transition based on a test result.
 page-status-flag: never-activated
 uuid: 1562ec7a-253a-4f4f-b66a-c2948b57775a
 contentOwner: sauviat

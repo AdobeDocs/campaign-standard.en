@@ -1,8 +1,6 @@
 ---
 title: Sending messages at the recipient's time zone
-seo-title: Sending messages at the recipient's time zone
-description: Sending messages at the recipient's time zone
-seo-description: Learn how to send messages at the recipient's time zone.
+description: Learn how to send messages at the recipient's time zone.
 page-status-flag: never-activated
 uuid: 70228c07-451f-4ddb-8d26-92a5a4814e3a
 contentOwner: sauviat

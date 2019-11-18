@@ -1,8 +1,6 @@
 ---
 title: List of roles
-seo-title: List of roles
-description: List of roles
-seo-description: Find out the list of roles that you can assign to your users.
+description: Find out the list of roles that you can assign to your users.
 page-status-flag: never-activated
 uuid: 128aaf9b-9b7d-49f3-9e1f-72e79a29baa0
 contentOwner: sauviat
@@ -18,9 +16,9 @@ snippet: y
 
 # List of roles{#list-of-roles}
 
-By default, Adobe Campaign offers a set of roles which allows you to define unitary authorizations assigned to users and user groups. Combined with organizational units, roles give users a filtered view of the interface and define their access to the different features. For more on this, refer to the [Roles and permissions table](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
+By default, Adobe Campaign offers a set of roles which allows you to define unitary authorizations assigned to users and user groups. Combined with organizational units, roles give users a filtered view of the interface and define their access to the different features. For more on this, refer to the [Roles and permissions table](/help/administration/using/assets/acs_rights.pdf).
 
-[![image](/help/administration/using/assets/user_management_3.png)](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
+   ![](assets/user_management_3.png)
 
 Roles can be managed from the **[!UICONTROL Administration > Users & Security > Roles]** menu.
 

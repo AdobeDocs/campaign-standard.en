@@ -1,8 +1,6 @@
 ---
 title: Advanced expression editing
-seo-title: Advanced expression editing
-description: Advanced expression editing
-seo-description: The query edition wizard allows you to define advanced expressions.
+description: The query edition wizard allows you to define advanced expressions.
 page-status-flag: never-activated
 uuid: a635f999-27ce-41e0-a88c-8a3882e31efe
 contentOwner: sauviat

@@ -1,8 +1,6 @@
 ---
 title: Opens
-seo-title: Opens
-description: Opens
-seo-description: With the Opens report, learn which delivery was the most viewed according to various criteria.
+description: With the Opens report, learn which delivery was the most viewed according to various criteria.
 page-status-flag: never-activated
 uuid: fe5453b6-cac1-43be-860e-c65c8a5168d6
 contentOwner: sauviat

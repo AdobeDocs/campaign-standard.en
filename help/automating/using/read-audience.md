@@ -1,8 +1,6 @@
 ---
 title: Read audience
-seo-title: Read audience
-description: Read audience
-seo-description: The Read audience activity allows you to retrieve an existing audience and to refine it by applying additional filtering conditions.
+description: The Read audience activity allows you to retrieve an existing audience and to refine it by applying additional filtering conditions.
 page-status-flag: never-activated
 uuid: 58c54e71-f4a7-4ae9-80a3-33c379ab1db9
 contentOwner: sauviat

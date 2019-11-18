@@ -1,8 +1,6 @@
 ---
 title: Identifying opt-out profiles for a delivery
-seo-title: Identifying opt-out profiles for a delivery
-description: Identifying opt-out profiles for a delivery
-seo-description: Discover how to identify opt-out profiles for a delivery.
+description: Discover how to identify opt-out profiles for a delivery.
 page-status-flag: never-activated
 uuid: ad09a4d3-7ad6-47b8-9c56-73bbaba6fa60
 contentOwner: sauviat

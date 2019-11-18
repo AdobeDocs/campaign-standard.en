@@ -1,8 +1,6 @@
 ---
 title: SMS report
-seo-title: SMS report
-description: SMS report
-seo-description: With the SMS out-of-the-box report, learn about the success of your SMS deliveries. 
+description: With the SMS out-of-the-box report, learn about the success of your SMS deliveries. 
 page-status-flag: never-activated
 uuid: af672a56-f304-4ea9-99b1-e9886a6e1823
 contentOwner: sauviat

@@ -1,8 +1,6 @@
 ---
 title: Promoting a service
-seo-title: Promoting a service
-description: Promoting a service
-seo-description: Use Adobe Campaign to promote a service and engage your customers through dedicated landing pages, emails or directly on your website.
+description: Use Adobe Campaign to promote a service and engage your customers through dedicated landing pages, emails or directly on your website.
 page-status-flag: never-activated
 uuid: 2b71d2a1-3e48-4a21-ab21-4a360abc1d36
 contentOwner: sauviat

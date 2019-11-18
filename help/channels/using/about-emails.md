@@ -1,8 +1,6 @@
 ---
 title: About emails
-seo-title: About emails
-description: About emails
-seo-description: Discover the different types of emails that you can send with Adobe Campaign.
+description: Discover the different types of emails that you can send with Adobe Campaign.
 page-status-flag: never-activated
 uuid: 1650cad5-afc0-4215-9fb4-7f8ad5f504df
 contentOwner: sauviat

@@ -1,8 +1,6 @@
 ---
 title: Updates and maintenance operations
-seo-title: Updates and maintenance operations
-description: Updates and maintenance operations
-seo-description: 
+description: 
 page-status-flag: never-activated
 uuid: 8111bac6-4c9d-4b04-810b-5a84131083ac
 contentOwner: sauviat

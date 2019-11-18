@@ -1,8 +1,6 @@
 ---
 title: Extract file
-seo-title: Extract file
-description: Extract file
-seo-description: The Extract file activity allows you to export data from Adobe Campaign in the form of an external file.
+description: The Extract file activity allows you to export data from Adobe Campaign in the form of an external file.
 page-status-flag: never-activated
 uuid: 631f0fbd-9e8d-4f77-a338-fcb7f4fc1774
 contentOwner: sauviat

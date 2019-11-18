@@ -1,8 +1,6 @@
 ---
 title: Creating a report based on workflow segments
-seo-title: Creating a report based on workflow segments
-description: Creating a report based on workflow segments
-seo-description: Learn how to check the success of your delivery depending on your workflows' segments in your reports.
+description: Learn how to check the success of your delivery depending on your workflows' segments in your reports.
 page-status-flag: never-activated
 uuid: f75e005b-5328-4c98-9e78-51d54fd0e246
 contentOwner: beneat

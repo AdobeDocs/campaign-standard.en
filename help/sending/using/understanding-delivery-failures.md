@@ -1,8 +1,6 @@
 ---
 title: Understanding delivery failures
-seo-title: Understanding delivery failures
-description: Understanding delivery failures
-seo-description: Learn how to manage delivery failures with Campaign.
+description: Learn how to manage delivery failures with Campaign.
 page-status-flag: never-activated
 uuid: 2735aa05-7b6f-47c9-98c4-a15cc33be39d
 contentOwner: sauviat

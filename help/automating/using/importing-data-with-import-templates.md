@@ -1,8 +1,6 @@
 ---
 title: Importing data with import templates
-seo-title: Importing data with import templates
-description: Importing data with import templates
-seo-description: Learn how to collect data to feed your Campaign database.
+description: Learn how to collect data to feed your Campaign database.
 page-status-flag: never-activated
 uuid: bfc03235-2032-448a-a9ed-21ff2a83fa09
 contentOwner: sauviat

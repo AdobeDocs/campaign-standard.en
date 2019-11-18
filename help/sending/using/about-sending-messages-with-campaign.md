@@ -1,8 +1,6 @@
 ---
 title: About sending messages with Campaign
-seo-title: About sending messages with Campaign
-description: About sending messages with Campaign
-seo-description: Discover the different steps to test and send a message.
+description: Discover the different steps to test and send a message.
 page-status-flag: never-activated
 uuid: 58666444-6e7c-4049-b2d2-8b26eabf5a82
 contentOwner: sauviat

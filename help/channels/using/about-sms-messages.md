@@ -1,8 +1,6 @@
 ---
 title: About SMS messages
-seo-title: About SMS messages
-description: About SMS messages
-seo-description: Discover the main specificities of the SMS channel in Adobe Campaign.
+description: Discover the main specificities of the SMS channel in Adobe Campaign.
 page-status-flag: never-activated
 uuid: 14dc7434-8171-4ad1-9540-52ca637659a9
 contentOwner: sauviat

@@ -1,8 +1,6 @@
 ---
 title: Update data
-seo-title: Update data
-description: Update data
-seo-description: The Update data activity allows you to perform a mass update on fields in the database.
+description: The Update data activity allows you to perform a mass update on fields in the database.
 page-status-flag: never-activated
 uuid: 1dc55db5-affd-4688-b673-adfb8c1338b5
 contentOwner: sauviat

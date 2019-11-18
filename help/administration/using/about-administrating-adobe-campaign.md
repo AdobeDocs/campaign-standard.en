@@ -1,8 +1,6 @@
 ---
 title: About Administrating Adobe Campaign
-seo-title: About Administrating Adobe Campaign
-description: About Administrating Adobe Campaign
-seo-description: Adobe Campaign provides you with a complete set of administration tools. Learn how to manage your users and configure your channels.
+description: Adobe Campaign provides you with a complete set of administration tools. Learn how to manage your users and configure your channels.
 page-status-flag: never-activated
 uuid: 64c34729-5c98-4db0-9131-af6dd0e78fb4
 contentOwner: sauviat

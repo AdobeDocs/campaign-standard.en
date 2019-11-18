@@ -1,8 +1,6 @@
 ---
 title: About Campaign Standard settings
-seo-title: About Campaign Standard settings
 description: About Campaign Standard settings
-seo-description: About Campaign Standard settings
 page-status-flag: never-activated
 uuid: 5d2e2e3d-5d1f-4466-97e5-842c50390146
 contentOwner: sauviat

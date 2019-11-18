@@ -1,8 +1,6 @@
 ---
 title: Exporting lists
-seo-title: Exporting lists
-description: Exporting lists
-seo-description: Adobe Campaign allows you to export the data displayed as lists from an overview screen directly in a file for future use. 
+description: Adobe Campaign allows you to export the data displayed as lists from an overview screen directly in a file for future use. 
 page-status-flag: never-activated
 uuid: c64fe706-bd6e-4746-958e-f94226f4e2cb
 contentOwner: sauviat

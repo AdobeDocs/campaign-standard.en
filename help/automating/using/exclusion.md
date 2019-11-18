@@ -1,8 +1,6 @@
 ---
 title: Exclusion
-seo-title: Exclusion
-description: Exclusion
-seo-description: The Exclusion  activity allows you to exclude elements from one population according to certain criteria.
+description: The Exclusion  activity allows you to exclude elements from one population according to certain criteria.
 page-status-flag: never-activated
 uuid: b79e7f73-37a0-4ec3-ac5a-5449dc1b1f22
 contentOwner: sauviat

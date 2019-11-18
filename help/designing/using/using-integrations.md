@@ -1,8 +1,6 @@
 ---
 title: Designing emails through Adobe Campaign integrations 
-seo-title: Designing emails through Adobe Campaign integrations  
-description: Designing emails through Adobe Campaign integrations 
-seo-description: Discover how to design emails through Adobe Campaign integrations in the Email Designer.
+description: Discover how to design emails through Adobe Campaign integrations in the Email Designer.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat

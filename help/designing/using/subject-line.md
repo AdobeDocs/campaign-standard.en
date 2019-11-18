@@ -1,8 +1,6 @@
 ---
 title: Defining the subject line and the sender of an email
-seo-title: Defining the subject line and the sender of an email
-description: Defining the subject line and the sender of an email
-seo-description: Discover how to define the subject line and the sender of an email in the Email Designer.
+description: Discover how to define the subject line and the sender of an email in the Email Designer.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat

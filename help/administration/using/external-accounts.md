@@ -1,8 +1,6 @@
 ---
 title: External accounts
-seo-title: External accounts
-description: External accounts
-seo-description: Configure external accounts to set up connections with external systems such as SFTP servers.
+description: Configure external accounts to set up connections with external systems such as SFTP servers.
 page-status-flag: never-activated
 uuid: 5d2e2e3d-5d1f-4466-97e5-842c50390146
 contentOwner: sauviat

@@ -1,8 +1,6 @@
 ---
 title: Intersection
-seo-title: Intersection
-description: Intersection
-seo-description: The Intersection activity allows you to keep only the elements common to the different inbound populations in the activity.
+description: The Intersection activity allows you to keep only the elements common to the different inbound populations in the activity.
 page-status-flag: never-activated
 uuid: a60f9811-0158-44b3-952b-392685c006cc
 contentOwner: sauviat

@@ -1,8 +1,6 @@
 ---
 title: Adding panels
-seo-title: Adding panels
-description: Adding panels
-seo-description: Dynamic report allows you to add panel to better filter your data depending on the chosen time period.
+description: Dynamic report allows you to add panel to better filter your data depending on the chosen time period.
 page-status-flag: never-activated
 uuid: 8e76e837-5efc-4250-8192-dee1a0bd62fe
 contentOwner: sauviat

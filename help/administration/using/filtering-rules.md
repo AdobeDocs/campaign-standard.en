@@ -1,8 +1,6 @@
 ---
 title: Filtering rules
-seo-title: Filtering rules
-description: Filtering rules
-seo-description: Use filtering rules to refine the audience of your messages.
+description: Use filtering rules to refine the audience of your messages.
 page-status-flag: never-activated
 uuid: ed3eea62-3a47-4318-ae22-d82aa857448f
 contentOwner: sauviat

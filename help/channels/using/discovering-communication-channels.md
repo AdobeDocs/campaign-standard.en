@@ -1,8 +1,6 @@
 ---
 title: Discovering communication channels
-seo-title: Discovering communication channels
-description: Discovering communication channels
-seo-description: Learn how to send personalized messages on various channels and to create cross-channel campaigns to better target your recipients.
+description: Learn how to send personalized messages on various channels and to create cross-channel campaigns to better target your recipients.
 page-status-flag: never-activated
 uuid: 5d61d8df-8256-4f28-8dd3-e791891e312f
 contentOwner: sauviat

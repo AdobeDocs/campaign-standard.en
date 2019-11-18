@@ -1,8 +1,6 @@
 ---
 title: Receiving alerts when failures happen
-seo-title: Receiving alerts when failures happen
-description: Receiving alerts when failures happen
-seo-description: Learn how to use the alert management system.
+description: Learn how to use the alert management system.
 page-status-flag: never-activated
 uuid: a3ab733a-e3db-4adc-b930-cd4064b6dc1c
 contentOwner: sauviat

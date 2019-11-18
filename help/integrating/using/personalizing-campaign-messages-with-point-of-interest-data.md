@@ -1,8 +1,6 @@
 ---
 title: Personalizing Campaign messages with Point of Interest data
-seo-title: Personalizing Campaign messages with Point of Interest data
-description: Personalizing Campaign messages with Point of Interest data
-seo-description: Learn how to create a personalized message based on your subscribers' location with the Point of Interest data integration.
+description: Learn how to create a personalized message based on your subscribers' location with the Point of Interest data integration.
 page-status-flag: never-activated
 uuid: d74c3e55-f130-441b-bc2a-06ddcd5d9784
 contentOwner: sauviat

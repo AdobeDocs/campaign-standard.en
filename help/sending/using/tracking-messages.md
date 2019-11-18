@@ -1,8 +1,6 @@
 ---
 title: Tracking messages
-seo-title: Tracking messages
-description: Tracking messages
-seo-description: Learn how to track the behavior of your delivery recipients.
+description: Learn how to track the behavior of your delivery recipients.
 page-status-flag: never-activated
 uuid: c3721647-0663-4614-a9c9-3b3a40af328a
 contentOwner: sauviat

@@ -1,8 +1,6 @@
 ---
 title: About targeting activities
-seo-title: About targeting activities
-description: About targeting activities
-seo-description: Targeting activities can be accessed from the left-hand side of the screen.
+description: Targeting activities can be accessed from the left-hand side of the screen.
 page-status-flag: never-activated
 uuid: a6cbc431-1ae3-428e-b2c9-893454b32ae2
 contentOwner: sauviat

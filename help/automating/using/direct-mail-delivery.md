@@ -1,8 +1,6 @@
 ---
 title: Direct mail delivery
-seo-title: Direct mail delivery
-description: Direct mail delivery
-seo-description: The Direct mail delivery activity allows you to configure sending a single send direct mail or a recurring direct mail in a workflow.
+description: The Direct mail delivery activity allows you to configure sending a single send direct mail or a recurring direct mail in a workflow.
 page-status-flag: never-activated
 uuid: bfa7b176-a17c-4079-a073-64b8ce4788ed
 contentOwner: sauviat

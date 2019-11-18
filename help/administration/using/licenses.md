@@ -1,8 +1,6 @@
 ---
 title: Licenses
-seo-title: Licenses
-description: Licenses
-seo-description: Learn more on licenses installed on your instance.
+description: Learn more on licenses installed on your instance.
 page-status-flag: never-activated
 uuid: fea2ea2b-e036-4fe4-9db2-7ba25ec8fb3b
 contentOwner: sauviat

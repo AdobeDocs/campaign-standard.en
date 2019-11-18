@@ -1,8 +1,6 @@
 ---
 title: Preparing and sending an In-App message
-seo-title: Preparing and sending an In-App message
-description: Preparing and sending an In-App message
-seo-description: Create In-App message to target your application subscribers with specific content.
+description: Create In-App message to target your application subscribers with specific content.
 page-status-flag: never-activated
 uuid: a79b0466-8641-46cc-a70f-e4e839587bb2
 contentOwner: sauviat

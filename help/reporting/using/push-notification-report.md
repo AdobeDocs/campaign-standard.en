@@ -1,8 +1,6 @@
 ---
 title: Push notification report
-seo-title: Push notification report
-description: Push notification report
-seo-description: With the Push notification out-of-the-box report, learn about the success of your push notifications.
+description: With the Push notification out-of-the-box report, learn about the success of your push notifications.
 page-status-flag: never-activated
 uuid: 5b121a37-1c09-4749-a409-6989978ddc4c
 contentOwner: sauviat

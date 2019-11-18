@@ -1,8 +1,6 @@
 ---
 title: Using the Email Designer
-seo-title: Using the Email Designer
-description: Using the Email Designer
-seo-description: Discover the Email Designer and how it enables email design content.
+description: Discover the Email Designer and how it enables email design content.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat

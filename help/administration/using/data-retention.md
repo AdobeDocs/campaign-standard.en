@@ -1,8 +1,6 @@
 ---
 title: Data retention
-seo-title: Data retention
-description: Data retention
-seo-description: 
+description: 
 page-status-flag: never-activated
 uuid: d90852b4-e9f3-4187-bbea-e748d16d1590
 contentOwner: sauviat

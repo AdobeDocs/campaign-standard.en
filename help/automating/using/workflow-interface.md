@@ -1,8 +1,6 @@
 ---
 title: Workflow interface
-seo-title: Workflow interface
-description: Workflow interface
-seo-description: Learn the interface and options to create, edit and execute a workflow.
+description: Learn the interface and options to create, edit and execute a workflow.
 page-status-flag: never-activated
 uuid: aafe33ed-fa07-4dd9-825e-242099334f1a
 contentOwner: sauviat

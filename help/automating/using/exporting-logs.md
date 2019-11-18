@@ -1,8 +1,6 @@
 ---
 title: Exporting logs
-seo-title: Exporting logs
-description: Exporting logs
-seo-description: Log data, whether they are related to deliveries or to subscriptions, can be exported through a simple workflow.
+description: Log data, whether they are related to deliveries or to subscriptions, can be exported through a simple workflow.
 page-status-flag: never-activated
 uuid: 954e919c-0a33-47c3-9a3c-63c7a2a4edc4
 contentOwner: sauviat

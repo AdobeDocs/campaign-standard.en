@@ -1,8 +1,6 @@
 ---
 title: Creating the direct mail
-seo-title: Creating the direct mail
-description: Creating the direct mail
-seo-description: Follow these steps to create a direct mail delivery in Adobe Campaign.
+description: Follow these steps to create a direct mail delivery in Adobe Campaign.
 page-status-flag: never-activated
 uuid: 3b1365c4-4ea1-4434-818b-05ff0c9b42c1
 contentOwner: sauviat

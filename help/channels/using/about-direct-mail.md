@@ -1,8 +1,6 @@
 ---
 title: About direct mail
-seo-title: About direct mail
-description: About direct mail
-seo-description: Discover the main specificities of the direct mail channel in Adobe Campaign.
+description: Discover the main specificities of the direct mail channel in Adobe Campaign.
 page-status-flag: never-activated
 uuid: 24add992-2efe-4b73-81c9-cda3e921ab16
 contentOwner: sauviat

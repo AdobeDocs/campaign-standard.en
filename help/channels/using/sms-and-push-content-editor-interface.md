@@ -1,8 +1,6 @@
 ---
 title: SMS and push content editor interface
-seo-title: SMS and push content editor interface
-description: SMS and push content editor interface
-seo-description: Learn how to use the different sections of the editor to modify your SMS and push content.
+description: Learn how to use the different sections of the editor to modify your SMS and push content.
 page-status-flag: never-activated
 uuid: 4af5d247-555b-45c5-95a7-cb27f356b5a0
 contentOwner: sauviat

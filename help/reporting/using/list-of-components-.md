@@ -1,8 +1,6 @@
 ---
 title: List of components 
-seo-title: List of components 
-description: List of components 
-seo-description: Find here the list of every components available in     Dynamic reports as well as their definitions.
+description: Find here the list of every components available in     Dynamic reports as well as their definitions.
 page-status-flag: never-activated
 uuid: a2403806-8df4-4bb1-bac2-2689dc584ae0
 contentOwner: sauviat
@@ -18,9 +16,9 @@ snippet: y
 
 # List of components {#list-of-components}
 
-To learn more on compatibility between dimensions and metrics, refer to this [table](https://docs.campaign.adobe.com/doc/standard/en/Technotes/dynamic_report_compatibility.pdf). If two components are not compatible, the cell will display the value **None**.
+To learn more on compatibility between dimensions and metrics, refer to this [table](/help/reporting/using/assets/dynamic_report_compatibility.pdf). If two components are not compatible, the cell will display the value **None**.
 
-[![image](/help/reporting/using/assets/dynamic_report_compatibility.png)](https://docs.campaign.adobe.com/doc/standard/en/Technotes/dynamic_report_compatibility.pdf)
+   ![](assets/dynamic_report_compatibility.png)
 
 ## Dimensions {#dimensions}
 

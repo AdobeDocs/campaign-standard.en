@@ -1,8 +1,6 @@
 ---
 title: Delivery throughput
-seo-title: Delivery throughput
-description: Delivery throughput
-seo-description: With the Delivery throughput out-of-the-box report, learn about the success of your delivery.
+description: With the Delivery throughput out-of-the-box report, learn about the success of your delivery.
 page-status-flag: never-activated
 uuid: 51888b63-f507-43ea-8faf-5b3c00eb1800
 contentOwner: sauviat

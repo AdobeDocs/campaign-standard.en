@@ -1,8 +1,6 @@
 ---
 title: Understanding quarantine management
-seo-title: Understanding quarantine management
-description: Understanding quarantine management
-seo-description: Learn how to optimize your deliverability with quarantine management.
+description: Learn how to optimize your deliverability with quarantine management.
 page-status-flag: never-activated
 uuid: 3c287865-1ada-4351-b205-51807ff9f7ed
 contentOwner: sauviat

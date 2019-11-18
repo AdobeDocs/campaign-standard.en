@@ -1,8 +1,6 @@
 ---
 title: Designing emails from scratch 
-seo-title: Designing emails from scratch 
-description: Designing emails from scratch 
-seo-description: Discover how to design emails from scratch email content in the Email Designer.
+description: Discover how to design emails from scratch email content in the Email Designer.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat

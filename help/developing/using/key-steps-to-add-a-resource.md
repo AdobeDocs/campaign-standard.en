@@ -1,8 +1,6 @@
 ---
 title: Key steps of adding a resource
-seo-title: Key steps of adding a resource
-description: Key steps of adding a resource
-seo-description: Learn here the key steps of adding a resource in the Adobe Campaign data model.
+description: Learn here the key steps of adding a resource in the Adobe Campaign data model.
 page-status-flag: never-activated
 uuid: b8a32659-17ec-4e3e-92f2-0a0d6aaf2629
 contentOwner: sauviat

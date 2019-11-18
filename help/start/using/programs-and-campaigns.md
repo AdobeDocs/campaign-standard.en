@@ -1,8 +1,6 @@
 ---
 title: Programs and campaigns
-seo-title: Programs and campaigns
-description: Programs and campaigns
-seo-description: In Adobe Campaign, programs and campaigns allow you to group and orchestrate the different marketing activities that are linked to them. Reports on programs and campaigns allow you to analyze their impact.
+description: In Adobe Campaign, programs and campaigns allow you to group and orchestrate the different marketing activities that are linked to them. Reports on programs and campaigns allow you to analyze their impact.
 page-status-flag: never-activated
 uuid: fe2812a8-196f-4aba-a739-fbbfffd754cb
 contentOwner: sauviat

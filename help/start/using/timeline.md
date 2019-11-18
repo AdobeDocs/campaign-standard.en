@@ -1,8 +1,6 @@
 ---
 title: Timeline
-seo-title: Timeline
-description: Timeline
-seo-description: Learn how to visualize programs that are in progress and their content using the Adobe Campaign Standard interface.
+description: Learn how to visualize programs that are in progress and their content using the Adobe Campaign Standard interface.
 page-status-flag: never-activated
 uuid: ffa0a63a-2e77-45c0-8e60-212f7aaeb447
 contentOwner: sauviat

@@ -1,8 +1,6 @@
 ---
 title: "Workflow use-case: Creating deliveries with a complement"
-seo-title: "Workflow use-case: Creating deliveries with a complement"
 description: "Workflow use-case: Creating deliveries with a complement"
-seo-description: "Workflow use-case: Creating deliveries with a complement"
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat

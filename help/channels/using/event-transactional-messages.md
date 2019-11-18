@@ -1,8 +1,6 @@
 ---
 title: Event transactional messages
-seo-title: Event transactional messages
-description: Event transactional messages
-seo-description: Learn how to create and publish an event transactional         message.
+description: Learn how to create and publish an event transactional         message.
 page-status-flag: never-activated
 uuid: d747feb5-58fb-4e12-a176-404f0eca5391
 contentOwner: sauviat

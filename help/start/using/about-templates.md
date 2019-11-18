@@ -1,8 +1,6 @@
 ---
 title: About templates
-seo-title: About templates
-description: About templates
-seo-description: "Adobe Campaign templates allow you to pre-configure parameters depending on your needs: templates may contain a full or partial configuration of the marketing activity, to simplify Adobe Campaign usage for non-technical end users."
+description: "Adobe Campaign templates allow you to pre-configure parameters depending on your needs: templates may contain a full or partial configuration of the marketing activity, to simplify Adobe Campaign usage for non-technical end users."
 page-status-flag: never-activated
 uuid: 018534b6-61a3-433e-bb60-49883c8b9386
 contentOwner: sauviat

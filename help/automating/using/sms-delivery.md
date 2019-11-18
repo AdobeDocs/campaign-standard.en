@@ -1,8 +1,6 @@
 ---
 title: SMS delivery
-seo-title: SMS delivery
-description: SMS delivery
-seo-description: The SMS delivery activity allows you to configure sending a single send SMS or a recurring SMS in a workflow.
+description: The SMS delivery activity allows you to configure sending a single send SMS or a recurring SMS in a workflow.
 page-status-flag: never-activated
 uuid: 736078c6-ac91-4440-825b-4a6ae31894ef
 contentOwner: sauviat

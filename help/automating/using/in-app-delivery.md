@@ -1,8 +1,6 @@
 ---
 title: In-App delivery
-seo-title: In-App delivery
-description: In-App delivery
-seo-description: The In-App delivery activity allows you to configure sending an In-App message within a workflow.
+description: The In-App delivery activity allows you to configure sending an In-App message within a workflow.
 page-status-flag: never-activated
 uuid: 528d9472-e447-47af-a6b2-3181aa5fb5ad
 contentOwner: sauviat

@@ -1,8 +1,6 @@
 ---
 title: Managing landing page form data
-seo-title: Managing landing page form data
-description: Managing landing page form data
-seo-description: Learn how to manage landing page form data.
+description: Learn how to manage landing page form data.
 page-status-flag: never-activated
 uuid: 5b222ea2-6628-457f-a618-bfc0e5eb93dd
 contentOwner: lemaitre

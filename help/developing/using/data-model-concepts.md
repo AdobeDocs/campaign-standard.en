@@ -1,8 +1,6 @@
 ---
 title: Data model concepts
-seo-title: Data model concepts
-description: Data model concepts
-seo-description: Learn about the Adobe Campaign data model and how to modify it.
+description: Learn about the Adobe Campaign data model and how to modify it.
 page-status-flag: never-activated
 uuid: cacd563f-6936-4b3e-83e3-5d4ae31d44e8
 contentOwner: sauviat
