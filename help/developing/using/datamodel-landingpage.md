@@ -14,7 +14,9 @@ internal: n
 snippet: y
 ---
 
-# Lanfinng
+# landingPage (nms:landingPage)
+
+## Object description 
 
    <table>
       <tr>
@@ -647,3 +649,117 @@ snippet: y
          <td> </td>
       </tr>
    </table>
+
+## Filters
+
+By logical status (byLogicalStatus)
+
+<table>
+    <tr>
+    <th>Name</th>
+    <th>Type</th>
+    </tr>
+    <tr>
+    <td>state</td>
+    <td>enumeration</td>
+    </tr>
+</table>
+
+By name or label (byText)
+
+<table>
+    <tr>
+    <th>Name</th>
+    <th>Type</th>
+    </tr>
+    <tr>
+    <td>text</td>
+    <td>string</td>
+    </tr>
+</table>
+
+By status (byState)
+
+<table>
+    <tr>
+    <th>Name</th>
+    <th>Type</th>
+    </tr>
+    <tr>
+    <td>state</td>
+    <td>enumeration</td>
+    </tr>
+</table>
+
+By targeting resource (byTargetResource)
+
+<table>
+<tr>
+<th>Name</th>
+<th>Type</th>
+</tr>
+<tr>
+<td>targetResource</td>
+<td>string</td>
+</tr>
+</table>
+
+Include advanced landing pages (withAdvanced)
+
+<table>
+    <tr>
+    <th>Name</th>
+    <th>Type</th>
+    </tr>
+    <tr>
+    <td>advanced</td>
+    <td>boolean</td>
+    </tr>
+</table>
+
+Include continuous deliveries from a heterogeneous list (withContinuous)
+
+<table>
+        <tr>
+        <th>Name</th>
+        <th>Type</th>
+        </tr>
+        <tr>
+        <td>withContinuous</td>
+        <td>boolean</td>
+        </tr>
+    </table>
+
+Present during given period (byCalendar)
+
+<table>
+        <tr>
+        <th>Name</th>
+        <th>Type</th>
+        </tr>
+        <tr>
+        <td>startDate</td>
+        <td>date</td>
+        </tr>
+        <tr>
+        <td>endDate</td>
+        <td>date</td>
+        </tr>
+    </table>
+
+Published during given period (byPlanning)
+
+<table>
+    <tr>
+    <th>Name</th>
+    <th>Type</th>
+    </tr>
+    <tr>
+    <td>startDate</td>
+    <td>date</td>
+    </tr>
+    <tr>
+    <td>endDate</td>
+    <td>date</td>
+    </tr>
+</table>
