@@ -128,7 +128,7 @@ The **[!UICONTROL Profile]** resource is updated as follows: if a profile was in
 
 You can now compare how the recipients of the message will react compared to the small group who was excluded from the message and did not receive it.
 
-## Reusing the same control group
+## Reusing the same control group {#reusing-same-control-group}
 
 The example above enables to create a global control group, as this is stored as a profile attribute independently from deliveries. Indeed, the new "Control group" field that was created as part of the **[!UICONTROL Profile]** resource extension is updated after the workflow above is run.
 
