@@ -22,6 +22,10 @@ This page lists all the new features and documentation updates for each release 
 
 You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-notes.md).
 
+## Documentation updates - November 2019 {#doc-updates-november-2019}
+
+A new use case has been added describing how to build a control group using a workflow in Campaign Standard. [Read more](../../automating/using/workflow-control-group.md)
+
 ## Release 19.4 - October 2019 {#release-19-4---october-2019}
 
 ### New capabilities included in the release {#new-capabilities-included-in-the-release-20}

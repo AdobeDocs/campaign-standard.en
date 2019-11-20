@@ -272,6 +272,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Creating a weekly delivery](automating/using/workflow-weekly-offer.md)
        + [Creating a segmentation on location](automating/using/workflow-segmentation-location.md)
        + [Retargeting non-openers](automating/using/workflow-cross-channel-retargeting.md)
+       + [Building a control group](automating/using/workflow-control-group.md)
 + Developing {#developing}
   + About custom resources {#about-custom-resources}
        + [Data model concepts](developing/using/data-model-concepts.md)
@@ -294,6 +295,20 @@ user-guide-title: Adobe Campaign Standard Help
   + Use cases: Extending resources {#use-cases--extending-resources}
        + [Extending the profile resource with a new field](developing/using/extending-the-profile-resource-with-a-new-field.md)
        + [Extending the subscriptions to an application resource](developing/using/extending-the-subscriptions-to-an-application-resource.md)
+  + Datamodel {#datamodel}
+       + [Audience](developing/using/datamodel-audience.md)
+       + [Campaign](developing/using/datamodel-campaign.md)
+       + [Delivery](developing/using/datamodel-delivery.md)
+       + [Landing Pages](developing/using/datamodel-landingpage.md)
+       + [Marketing History](developing/using/datamodel-history.md)
+       + [Profile](developing/using/datamodel-profile.md)
+       + [Program](developing/using/datamodel-program.md)
+       + [Seed Member](developing/using/datamodel-seed.md)
+       + [Service](developing/using/datamodel-service.md)
+       + [Subscription Event](developing/using/datamodel-subscription.md)
+       + [Tracking Logs](developing/using/datamodel-tracking.md)
+       + [Unsubscription Event](developing/using/datamodel-unsubscription.md)
+       + [Visitor](developing/using/datamodel-visitor.md)
 + Administrating {#administrating}
   + [About Administrating Adobe Campaign](administration/using/about-administrating-adobe-campaign.md)
   + Users and security {#users-and-security}
