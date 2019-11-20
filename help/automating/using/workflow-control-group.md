@@ -139,8 +139,8 @@ To do this:
 1. In the **[!UICONTROL Configuration]** tab of that segment, make sure you do not select the **[!UICONTROL Limit the population of this segment]** option.
 1. In the **[!UICONTROL Filtering]** tab, drag and drop **[!UICONTROL Profiles (attributes)]** to the main workspace.
 
-    ![](assets/wkf_control-group-segment-profiles-attributes-field.png)
+    ![](assets/wkf_control-group-segment-profiles-attributes.png)
 
 1. In the **[!UICONTROL Add a rule - Profiles (attributes)]** window, select "Control group" (the field that you added to the **[!UICONTROL Profile]** resource) and select **[!UICONTROL Yes]** as the filter condition.
 
-    ![](assets/wkf_control-group-segment-profiles-attributes.png)
+    ![](assets/wkf_control-group-segment-profiles-attributes-field.png)
