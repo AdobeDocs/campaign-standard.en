@@ -128,7 +128,7 @@ The tables below give you the list of indicators used in the different reports a
   </tr> 
   <tr> 
    <td> Open<br /> </td> 
-   <td> @opens<br /> </td> 
+   <td> @uniqueOpens<br /> </td> 
    <td> count(@trackingUrlType=2 + unique(@trackingUrlType=1,2,3,6,10,11) - unique(@trackingUrlType=2))<br /> </td> 
    <td> </td> 
   </tr> 
