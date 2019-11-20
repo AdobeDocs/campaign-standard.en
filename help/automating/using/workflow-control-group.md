@@ -127,3 +127,20 @@ The **[!UICONTROL Profile]** resource is updated as follows: if a profile was in
 ![](assets/wkf_control-group-profile-checked.png)
 
 You can now compare how the recipients of the message will react compared to the small group who was excluded from the message and did not receive it.
+
+## Reusing the same control group
+
+The example above enables to create a global control group, as this is stored as a profile attribute independently from deliveries. Indeed, the new "Control group" field that was created as part of the **[!UICONTROL Profile]** resource extension is updated after the workflow above is run.
+
+Consequently, next time you want to use the same control group, you can segment on the new “Control group” field rather than doing a random segmentation.
+
+To do this:
+1. When creating the **[!UICONTROL Segmentation]** activity, select the segment to edit in the **[!UICONTROL Segments]** tab.
+1. In the **[!UICONTROL Configuration]** tab of that segment, make sure you do not select the **[!UICONTROL Limit the population of this segment]** option.
+1. In the **[!UICONTROL Filtering]** tab, drag and drop **[!UICONTROL Profiles (attributes)]** to the main workspace.
+
+    ![](assets/wkf_control-group-segment-profiles-attributes-field.png)
+
+1. In the **[!UICONTROL Add a rule - Profiles (attributes)]** window, select "Control group" (the field that you added to the **[!UICONTROL Profile]** resource) and select **[!UICONTROL Yes]** as the filter condition.
+
+    ![](assets/wkf_control-group-segment-profiles-attributes.png)
