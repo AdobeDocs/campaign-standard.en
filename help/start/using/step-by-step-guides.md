@@ -19,7 +19,6 @@ snippet: y
 Get started with Adobe Campaign by consulting our intuitive step-by-step guides.
 
 * [Creating a personalized email](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GettingStartedEmail.html): create and send personalized emails to a targeted audience.
-* [Offering a subscription to a service](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GettingStartedLandingPages.html): create a subscription to a newsletter using a landing page.
 * [Exporting and importing a package of custom resources](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_ImportExport.html): export and import a package of custom resources from a development environment to a production environment.
 * [Creating a cross-channel message workflow](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_WorkflowSegmentation.html): create a workflow by segmenting a population to send an email delivery and an SMS delivery.
 * [Creating an email with Experience Manager and Campaign](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_AEM.html): create an email content in Adobe Experience Manager and use it in an email in Adobe Campaign Standard.
