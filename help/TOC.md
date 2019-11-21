@@ -339,3 +339,5 @@ user-guide-title: Adobe Campaign Standard Help
        + [Sending internal notifications](administration/using/sending-internal-notifications.md)
        + [Data retention](administration/using/data-retention.md)
        + [Updates and maintenance operations](administration/using/updates-and-maintenance-operations.md)
+  + Working with Campaign Standard APIs {#working-with-campaign-standard-apis}
+       + [Global concepts](api/using/global-concepts.md)
