@@ -168,6 +168,12 @@ snippet: y
                   <td> </td>
                </tr>
                <tr>
+                  <td>externalId</td>
+                  <td>External Resource ID</td>
+                  <td>string(100) </td>
+                  <td> </td>
+               </tr>
+               <tr>
                   <td>fax</td>
                   <td>Fax</td>
                   <td>string (32)</td>
