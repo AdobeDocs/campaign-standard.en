@@ -38,7 +38,7 @@ The process to setup double opt-in mechanism starts with the creation of the con
 
 To create and configure this landing page, you need to:
 
-1. Design a [new landing page](../../channels/using/about-landing-pages.md) based on the **[!UICONTROL Profile acquisition (acquisition)]** template. Enter the label '**CONFIRMATION**'.
+1. Design a [new landing page](../../channels/using/getting-started-with-landing-pages.md) based on the **[!UICONTROL Profile acquisition (acquisition)]** template. Enter the label '**CONFIRMATION**'.
 
    If you need to use [services](../../audiences/using/about-subscriptions.md), you can also use the **[!UICONTROL Subscription (sub)]** template.
 
@@ -64,7 +64,7 @@ To create and configure this landing page, you need to:
 
    ![](assets/optin_confimlp_page2.png)
 
-1. [Test and publish](../../channels/using/sharing-a-landing-page.md) the landing page.
+1. [Test and publish](../../channels/using/testing-publishing-landing-page.md) the landing page.
 
 ## Step 2: Create the confirmation email {#step-2--create-the-confirmation-email}
 
@@ -124,7 +124,7 @@ You have to create the initial acquisition landing page: this opt-in form will b
 
 To create and configure this landing page, you need to:
 
-1. Design a [new landing page](../../channels/using/about-landing-pages.md) based on the **[!UICONTROL Profile acquisition (acquisition)]** template. Enter the label '**ACQUISITION**'.
+1. Design a [new landing page](../../channels/using/getting-started-with-landing-pages.md) based on the **[!UICONTROL Profile acquisition (acquisition)]** template. Enter the label '**ACQUISITION**'.
 1. Edit the landing page properties: in the **[!UICONTROL Job]** > **[!UICONTROL Additional data]** section, click **[!UICONTROL Add an element]** and enter the following context path:
 
    /context/profile/blackList
@@ -146,6 +146,6 @@ To create and configure this landing page, you need to:
 
    ![](assets/optin_acquisition_page2.png)
 
-1. [Test and publish](../../channels/using/sharing-a-landing-page.md) the landing page.
+1. [Test and publish](../../channels/using/testing-publishing-landing-page.md) the landing page.
 
 Double opt-in mechanism is now configured. You can run and test the procedure from end to end, starting from the public URL of this **[!UICONTROL ACQUISITION]** landing page. This URL is displayed in the landing page dashboard.

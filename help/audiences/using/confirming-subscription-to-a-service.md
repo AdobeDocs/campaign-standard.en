@@ -176,7 +176,7 @@ Create a subscription landing page which will be published on your website.
 
 To create and configure this landing page, follow the steps below:
 
-1. Design a [new landing page](../../channels/using/about-landing-pages.md) based on the **[!UICONTROL Subscription]** template.
+1. Design a [new landing page](../../channels/using/getting-started-with-landing-pages.md) based on the **[!UICONTROL Subscription]** template.
 1. Edit the landing page properties. In the **[!UICONTROL Job]** > **[!UICONTROL Specific actions]** section, select the **[!UICONTROL Specific service]** option and choose the service that you just created from the drop-down list.
 
     ![](assets/confirmation_lp-specific-service.png)
@@ -187,7 +187,7 @@ To create and configure this landing page, follow the steps below:
 
 1. Customize the content of the landing page.
 
-1. [Test and publish](../../channels/using/sharing-a-landing-page.md) the landing page.
+1. [Test and publish](../../channels/using/testing-publishing-landing-page.md) the landing page.
 
 Now each time a profile subscribes to your newsletter by submitting the landing page, he receives the confirmation message that you defined with personalized fields mapped to the service.
 

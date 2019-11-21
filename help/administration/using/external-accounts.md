@@ -130,7 +130,7 @@ As you are setting up this new external account, you need to provide the followi
 
 The Google reCAPTCHA mechanism allows you to protect your landing page from spam and abuse caused by bots. This is non-intrusive for your customers since it does not require any interaction from them and is based on interactions with your site. To register your site, refer to this [page](https://www.google.com/recaptcha/admin/create). You need to choose the V3 reCAPTCHA type.
 
-To add the Google reCAPTCHA V3 to you landing page, you first need to configure it in your external account. For more information on how to add it to your landing page, refer to this [section](../../channels/using/designing-a-landing-page.md#setting-google-recaptcha).
+To add the Google reCAPTCHA V3 to you landing page, you first need to configure it in your external account. For more information on how to add it to your landing page, refer to this [section](../../channels/using/configuring-landing-page.md#setting-google-recaptcha).
 
 For a Google reCAPTCHA V3 external account, provide the following details:
 
@@ -142,4 +142,3 @@ For a Google reCAPTCHA V3 external account, provide the following details:
   The 0.0 **[!UICONTROL Threshold]** value means that it is likely a bot and 1.0 likely a good interaction. By default, you can use a threshold of 0.5.
 
 ![](assets/external_accounts_3.png)
-

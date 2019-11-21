@@ -86,6 +86,26 @@ To maintain data consistency in the Adobe Campaign database, follow the principl
 * **Import related files in order**. If the import is composed of multiple files that depend on each other, the workflow should make sure that the files are imported in the correct order. When a file fails, the other files are not imported.
 * **Deduplicate**, reconcile, and maintain consistency when you import data.
 
+## Managing encrypted data {#managing-encrypted-data}
+
+In some cases, the data that you want to import Campaign Servers may need to be encrypted, for example if it contains PII data.
+
+To be able to import or export encrypted files, you first need to contact Adobe Customer Care so that they provide your instance with the needed encryption/decryption commands.
+
+To do this, submit a request indicating:
+
+* The **label** that will display in Campaign interface to use the command. For example "Encrypt file".
+* The **command** to install on your instance.
+  For example, to decrypt a file using PGP, the command will be:
+
+  ```
+  <path-to_pgp_if-not_global_or_server/>pgp.exe --decrypt --input nl6/var/vp/import/filename.pgp --passphrase "your password" --recipient recipient @email.com --verbose --output nl6/var/vp/import/filename
+  ```
+
+Once the request is processed, the encryption / decryption commands will be available in the **!UICONTROL Pre-processing stage]** field from the **[!UICONTROL Data loading (file)]** and **[!UICONTROL Extracting data (file)]** activities. You can use them to decrypt or encrypt the files that you want to import or export.
+
+   ![](assets/preprocessing-encryption.png)
+
 ## Example: Import workflow template {#example--import-workflow-template}
 
 Using an import template is a best practice if you need to regularly import files with the same structure.
@@ -112,7 +132,7 @@ This example shows how to pre-set a workflow that can be reused for importing pr
 
     * Define the expected structure by uploading a sample file. The sample file should contain only a few lines but all the columns necessary for the import. Check and edit the file format to make sure that the type of each column is set correctly: text, date, integer, etc. For example:
 
-      ```    
+      ```
       lastname;firstname;birthdate;email;crmID
       Smith;Hayden;23/05/1989;hayden.smith@mailtest.com;123456
       ```
@@ -122,7 +142,7 @@ This example shows how to pre-set a workflow that can be reused for importing pr
       You can use any of the options but you have to modify the template accordingly. For example, if you select **[!UICONTROL Use the file specified in the inbound transition]**, you can add a **[!UICONTROL Transfer file]** activity before to retrieve the file to import from a FTP/SFTP server.
 
       If you want users to be able to download a file containing errors that occurred during an import, check the **[!UICONTROL Keep the rejects in a file]** option and specify the **[!UICONTROL File name]**.
-    
+
       ![](assets/import_template_example1.png)
 
 1. Configure the **[!UICONTROL Reconciliation]** activity. The purpose of this activity in this context is to identify the incoming data.
@@ -141,11 +161,11 @@ This example shows how to pre-set a workflow that can be reused for importing pr
     * In the **[!UICONTROL General]** tab of the activity, set the **[!UICONTROL Resource type]** to **[!UICONTROL Temporary resource]** and select **[!UICONTROL Reconciliation]** as the targeted set.
     * In the **[!UICONTROL Advanced options]** tab, check the **[!UICONTROL Generate complement]** option to be able to see if any record cannot be inserted in the database. If you need, you can then apply further processing to the complementary data: file export, list update, etc.
     * In the first segment of the **[!UICONTROL Segments]** tab, add a filtering condition on the inbound population to select only records for which the profile's CRM ID is not equal to 0. This way, data from the file that are reconciled with profiles from the database are selected in that subset.
-    
+
       ![](assets/import_template_example3.png)
 
     * Add a second segment that selects unreconciled records that have enough data to be inserted in the database. For example: email address, first name and last name. Records that are not reconciled have their profile's CRM ID value equal to 0.
-    
+
       ![](assets/import_template_example3_2.png)
 
     * All records that are not selected in the first two subsets are selected in the **[!UICONTROL Complement]**.
@@ -154,11 +174,11 @@ This example shows how to pre-set a workflow that can be reused for importing pr
 
     * Select **[!UICONTROL Update]** as **[!UICONTROL Operation type]** since the inbound transition only contains recipients already present in the database.
     * In the **[!UICONTROL Identification]** tab, select **[!UICONTROL Using reconciliation criteria]** and define a key between the **[!UICONTROL Dimension to update]** - Profiles in this case - and the link created in the **[!UICONTROL Reconciliation]** activity. In this example, the **CRM ID** custom field is used.
-    
+
       ![](assets/import_template_example6.png)
 
     * In the **[!UICONTROL Fields to update]** tab, indicate the fields from the Profiles dimension to update with the value of the corresponding column from the file. If the names of the file columns are identical or almost identical to the names of the recipients dimension fields, you can use the magic wand button to automatically match the different fields.
-    
+
       ![](assets/import_template_example6_2.png)
 
       >[!NOTE]
@@ -168,7 +188,7 @@ This example shows how to pre-set a workflow that can be reused for importing pr
 1. Configure the **[!UICONTROL Deduplication]** activity located after the transition containing unreconciled profiles:
 
     * In the **[!UICONTROL Properties]** tab, set the **[!UICONTROL Resource type]** to the temporary resource generated from the **[!UICONTROL Reconciliation]** activity of the workflow.
-    
+
       ![](assets/import_template_example4.png)
 
     * In this is example, the email field is used to find unique profiles. You can use any field you are sure is filled and part of a unique combination.
@@ -180,11 +200,11 @@ This example shows how to pre-set a workflow that can be reused for importing pr
 
     * Select **[!UICONTROL Insert only]** as **[!UICONTROL Operation type]** since the inbound transition only contains profiles not present in the database.
     * In the **[!UICONTROL Identification]** tab, select **[!UICONTROL Using reconciliation criteria]** and define a key between the **[!UICONTROL Dimension to update]** - Profiles in this case - and the link created in the **[!UICONTROL Reconciliation]** activity. In this example, the **CRM ID** custom field is used.
-    
+
       ![](assets/import_template_example6.png)
 
     * In the **[!UICONTROL Fields to update]** tab, indicate the fields from the Profiles dimension to update with the value of the corresponding column from the file. If the names of the file columns are identical or almost identical to the names of the recipients dimension fields, you can use the magic wand button to automatically match the different fields.
-    
+
       ![](assets/import_template_example6_2.png)
 
       >[!NOTE]
@@ -197,4 +217,3 @@ This example shows how to pre-set a workflow that can be reused for importing pr
 The template can now be used and is available for every new workflow. All is needed is then to specify the file containing the data to import in the **[!UICONTROL Load file]** activity.
 
 ![](assets/import_template_example9.png)
-
