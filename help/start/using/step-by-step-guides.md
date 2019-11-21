@@ -33,6 +33,5 @@ Learn more about Adobe Campaign by checking the following use cases and examples
 * [Key steps to design an email](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch): read out key steps to design email content from scratch.
 * [Using Experience Cloud Triggers with Adobe Campaign](../../integrating/using/abandonment-triggers-use-cases.md): send personalized emails to your customers following specific behaviors that were tracked by Adobe Analytics on your website.
 * [Adding or extending a resource](../../developing/using/key-steps-to-add-a-resource.md): learn how to create new resources or extend existing ones.
-* [Importing workflow template](../../automating/using/importing-data.md#example--import-workflow-template): 
 * [Setting up a double opt-in process](../../channels/using/setting-up-a-double-opt-in-process.md): learn how to send an email linked to a landing page to confirm a customer's subscription.
 * [Personalize an email](../../designing/using/personalization.md#example-email-personalization): personalize an email according to the customer's age.
