@@ -26,6 +26,8 @@ You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-n
 
 A new use case has been added describing how to build a control group using a workflow in Campaign Standard. [Read more](../../automating/using/workflow-control-group.md)
 
+The **Indicator calculation** table has been updated. [Read more](../../reporting/using/indicator-calculation.md)
+
 ## Release 19.4 - October 2019 {#release-19-4---october-2019}
 
 ### New capabilities included in the release {#new-capabilities-included-in-the-release-20}
