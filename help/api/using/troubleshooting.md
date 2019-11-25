@@ -45,7 +45,7 @@ It returns the following error.
 
 ```
 
->Check your IMS profile with this request.
+Check your IMS profile with this request.
 
 ```
 
