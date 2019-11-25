@@ -96,9 +96,7 @@ Either your token is invalid (improper IMS call used to generate a token) or you
 
 Depending on the instance configuration, the created profile needs to be associated to an **orgUnit**. To understand how to add this field in your creation, consult [this section](../../api/using/managing-profiles.md).
 
-<!-- 
-
-* (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu’un POST)
+<!-- * (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu’un POST)
 
 With Curl
 List all profiles
@@ -116,7 +114,6 @@ GET the list of services
 <!--
 
 How to find and use a filter?
------------------------------
 Error codes:
 
 * PAtch sur Age = message d'erreur :
@@ -127,7 +124,6 @@ Cannot update the 'age' property that is read-only
 
 <!--
 How to filter a list of subscribed profiles with available profile filters ? by date (by les filtres dispo sur la ressource) ?
-------------------------------------------------
 
 Pattern classique :
 
@@ -145,6 +141,4 @@ Comment savoir quel filtre appliquer ?
 4) get sur le href dans filters
 5) retourne les filtres applicables sur l'url des data.
 
-How to delete a service?
-------------------------
 -->
