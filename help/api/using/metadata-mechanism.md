@@ -41,7 +41,6 @@ All other fields are descriptive or internal.
 <!-- créer une section au même niveau sur les liens -->
 <!-- dans l'exemple: birthdate, email +  mettre 2 liens : un de type 1-1 , 1-N
 si on prend l'exemple de l'org unit, on aura un bon exemple lien -->
-
 <!-- plus reparler du node Data -->
 
 

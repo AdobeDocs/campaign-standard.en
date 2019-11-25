@@ -39,10 +39,10 @@ To establish a secure service-to-service Adobe I/O API session, every request to
 
 ```
 
-* **<ORGANIZATION>**: This is your personal ORGANIZATION ID, one ORGANIZATION ID is provided by Adobe for each of your instances :
+* **`<ORGANIZATION>`**: This is your personal ORGANIZATION ID, one ORGANIZATION ID is provided by Adobe for each of your instances :
 
-    * <ORGANIZATION> : your production instance,
-    * <ORGANIZATION-mkt-stage>: your stage instance.
+    * `<ORGANIZATION>` : your production instance,
+    * `<ORGANIZATION-mkt-stage>`: your stage instance.
 
     To obtain your ORGANIZATION ID value, refer to your administrator or your Adobe technical contact. You can also retrieve it into Adobe I/O when creating a new integration, in the licenses list (see the <a href="https://www.adobe.io/authentication.html">Adobe IO documentation</a>).
 

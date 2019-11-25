@@ -53,13 +53,6 @@ It returns the services corresponding to the filter in the **content** node, and
             "name": "SVC6",
             ...
         },
-        {
-            ...
-            "messageType": "sms",
-            "mode": "newsletter",
-            "name": "SVC7",
-            ...
-        },
         ...
     ],
     "count": {
@@ -94,11 +87,11 @@ It returns the number of results in the "count" attribute.
 
 ## Pagination
 
-<!-- serverside pagination. quand table très longue (au delà de 100.000), on peut plus faire de next. doit utiliser à la place les trucs type lineStart etc. si false: voudra dirre que ça a atteint la limite-->
-
 By default, 25 resources are loaded in a list. The **_lineCount** parameter allows you to limit the number of listed records.
 
 Always use the URL value returned in the **next** node to perform a pagination request. The **_lineStart** request is calculated and must always be used within the URL returned in the **next** node.
+
+<!-- serverside pagination. quand table très longue (au delà de 100.000), on peut plus faire de next. doit utiliser à la place les trucs type lineStart etc. si false: voudra dirre que ça a atteint la limite-->
 
 ***Sample request***
 
@@ -452,8 +445,6 @@ Response to the request.
             ...
         }
     ],
-    "count": ...,
-    "serverSidePagination": true
 }
 
 ```
@@ -467,6 +458,10 @@ privacy ?
 displayFOrmat ?
 pour faire un POST sur une enum, il faut lui passer le @name décrit dans le noeud values, chaque @name a une correspondance en format = au format définit par le resType
 -->
+
+
+
+
 
 <!--
  if link ou collection.* resName +
