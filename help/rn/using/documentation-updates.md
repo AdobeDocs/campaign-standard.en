@@ -168,7 +168,7 @@ Added a section on updates and maintenance operations. [Read more](../../adminis
 
 Information was added on the new sorting option in the **Transfer file** activity. [Read more](../../automating/using/transfer-file.md)
 
-The [REST APIs documentation](../../api/using/about-campaign-standard-api.md) was updated:
+The [REST APIs documentation](../../api/using/about-campaign-standard-apis.md) was updated:
 
 * A new section was added, with generic information on why using Campaign Standard REST APIs.
 * A collection of pre-designed API requests has been made available, representing common use cases.
@@ -724,7 +724,7 @@ New documentation home page and new look and feel.
 
 Understanding user permissions: a use case has been added. Also consult the [user permission matrix](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
 
-Working with APIs: an [API extension use case](../../developing/using/about-extending-the-api.md) has been added. Also consult [API documentation](../../api/using/about-campaign-standard-api.md).
+Working with APIs: an [API extension use case](../../developing/using/about-extending-the-api.md) has been added. Also consult [API documentation](../../api/using/about-campaign-standard-apis.md).
 
 Campaign error messages: access the full list of error messages in both Campaign v6 and Standard, filtered by version and language. [Read more](http://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
