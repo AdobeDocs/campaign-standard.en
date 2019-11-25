@@ -35,5 +35,4 @@ Click an event in the list to open it: you can access the message which has been
 
 >[!NOTE]
 >
->Marketing history is also accessible using the Adobe Campaign Standard API. For more on this, refer to the [dedicated documentation](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#interacting-with-marketing-history) .
-
+>Marketing history is also accessible using the Adobe Campaign Standard API. For more on this, refer to the [dedicated documentation](../../api/using/interacting-with-marketing-history.md) .

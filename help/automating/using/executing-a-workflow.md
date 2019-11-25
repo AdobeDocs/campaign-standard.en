@@ -54,7 +54,7 @@ When a transition is open, you can edit its **[!UICONTROL Label]** or link a **[
 
 Using the REST API, you can **start**, **pause**, **resume** and **stop** a workflow.
 
-You can find more details and examples of REST calls in the [API documentation.](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#controlling-a-workflow)
+You can find more details and examples of REST calls in the [API documentation.](../../api/using/managing-workflows.md)
 
 ## Life cycle {#life-cycle}
 

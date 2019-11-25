@@ -63,7 +63,7 @@ For more on this integration, refer to the [dedicated documentation](https://hel
 
 Campaign Standard APIs allow you to perform operations to update the database like profiles or services' creation, update or deletion.
 
-For more on how to use the APIs, refer to the [dedicated documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html).
+For more on how to use the APIs, refer to the [dedicated documentation](../../api/using/about-campaign-standard-apis.md).
 
 >[!CAUTION]
 >
