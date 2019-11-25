@@ -26,7 +26,7 @@ You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-n
 
 A new use case has been added describing how to build a control group using a workflow in Campaign Standard. [Read more](../../automating/using/workflow-control-group.md)
 
-The APIs documentation set has been integrated into Campaign Standard documentation.[Read more](../..api/about-campaign-standard-apis.md)
+The APIs documentation set has been integrated into Campaign Standard documentation.[Read more](../../api/about-campaign-standard-apis.md)
 
 ## Release 19.4 - October 2019 {#release-19-4---october-2019}
 
@@ -50,7 +50,7 @@ A new section has been added. It provides an overview of the different methods t
 
 A new section has been added describing how to style links with the Email Designer. [Read more](../../designing/using/styles.md#about-styling-links)
 
-Information related to privacy has been added to the APIs documentation [Click here](../../api/privacy-management.md)
+Information related to privacy has been added to the APIs documentation [Click here](../../api/using/privacy-management.md)
 
 ## Documentation updates - October 2019 {#doc-updates-october-2019}
 
