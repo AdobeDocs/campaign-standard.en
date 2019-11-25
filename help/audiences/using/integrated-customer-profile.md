@@ -1,6 +1,6 @@
 ---
 title: Integrated customer profile
-description: "Track every customer interaction in a single view: Adobe Campaign integrated customer profile is updated throughout the customer life cycle."
+description: Track every customer interaction in a single view: Adobe Campaign integrated customer profile is updated throughout the customer life cycle.
 page-status-flag: never-activated
 uuid: da2eb13a-2268-4a99-939c-c6388f5d34f3
 contentOwner: sauviat
@@ -35,5 +35,4 @@ Click an event in the list to open it: you can access the message which has been
 
 >[!NOTE]
 >
->Marketing history is also accessible using the Adobe Campaign Standard API. For more on this, refer to the [dedicated documentation](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#interacting-with-marketing-history) .
-
+>Marketing history is also accessible using the Adobe Campaign Standard API. For more on this, refer to the [dedicated documentation](../../api/using/interacting-with-marketing-history.md) .

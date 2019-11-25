@@ -1,6 +1,6 @@
 ---
 title: Segmentation and targeting
-description: "Learn about profiles, targeting and audience creation in Campaign: build audiences, import contacts share audiences with Experience Cloud solutions, and avoid marketing fatigue."
+description: Learn about profiles, targeting and audience creation in Campaign: build audiences, import contacts share audiences with Experience Cloud solutions, and avoid marketing fatigue.
 page-status-flag: never-activated
 uuid: 71f53808-0309-49f6-a4ee-3446eac9758a
 contentOwner: sauviat
@@ -26,7 +26,7 @@ The customer profiles feature integrates all of your customer data in one place:
 
 ![](assets/mkt_hist_view.png)
 
-Adobe Campaign proposes various mechanisms for profile acquisition: collecting data online via [landing pages](../../channels/using/about-landing-pages.md), manual or [automated import mechanisms](../../automating/using/about-data-import-and-export.md), [direct input](../../audiences/using/creating-profiles.md) in the Adobe Campaign interface, bulk creation through [Campaign APIs](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html).
+Adobe Campaign proposes various mechanisms for profile acquisition: collecting data online via [landing pages](../../channels/using/about-landing-pages.md), manual or [automated import mechanisms](../../automating/using/about-data-import-and-export.md), [direct input](../../audiences/using/creating-profiles.md) in the Adobe Campaign interface, bulk creation through [Campaign APIs](../../api/using/about-campaign-standard-apis.md).
 
 **Related topics:**
 

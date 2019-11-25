@@ -1,6 +1,6 @@
 ---
 title: About extending the API
-description: 
+description: Learn how to expose extended fields for the custom resource Profiles in the public Profiles API.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -27,5 +27,4 @@ In order to publish the API, you need to have the **[!UICONTROL Datamodel]** rol
 **Related topics:**
 
 * [About custom resources](../../developing/using/data-model-concepts.md)
-* [API documentation](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
-
+* [API documentation](../../api/using/about-campaign-standard-apis.md)
