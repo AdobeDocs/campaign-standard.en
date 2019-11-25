@@ -538,7 +538,7 @@ The SMS documentation has been updated with some clarification added to the [SMS
 
 New section dedicated to workflow management via the API. [Read more](../../api/using/managing-workflows.md)
 
-New section dedicated to primary keys and the use of a business ID as a key in the API. [Read more](../../api/using/about-campaign-standard-api.md)
+New section dedicated to primary keys and the use of a business ID as a key in the API. [Read more](../../api/using/about-campaign-standard-apis.md)
 
 Information added on simple and multiple filtering in the API. [Read more](../../api/using/filtering.md)
 
@@ -690,7 +690,7 @@ Linked resources in REST APIs - [Read more](../../developing/using/updating-the-
 
 Triggers integration: two use cases have been added. [Read more](../../integrating/using/abandonment-triggers-use-cases.md)
 
-We have redesigned the developer API documentation with new information and code snippets for an improved user experience. [Read more](../../api/using/about-campaign-standard-api.md)
+We have redesigned the developer API documentation with new information and code snippets for an improved user experience. [Read more](../../api/using/about-campaign-standard-apis.md)
 
 Discover examples of the new [Read audience](../../automating/using/read-audience.md) and [External signal](../../automating/using/external-signal.md) workflow activities.
 
@@ -700,7 +700,7 @@ Discover examples of the new [Read audience](../../automating/using/read-audienc
 
 Log export for external reporting - [Read more](../../automating/using/exporting-logs.md)
 
-Transactional Messaging API - [Read more](../../api/using/about-campaign-standard-api.md)
+Transactional Messaging API - [Read more](../../api/using/about-campaign-standard-apis.md)
 
 Marketing capabilities for transactional messages - [read more](../../channels/using/profile-transactional-messages.md)
 
