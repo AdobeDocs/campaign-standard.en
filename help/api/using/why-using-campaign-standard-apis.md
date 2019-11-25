@@ -41,4 +41,4 @@ Sign up landing pages provide a way for customers or prospects to register their
 
     ![alt text](assets/apis_uc3.png)
 
-For more on the operations you can carry out using Campaign Standard APIs, refer to the use cases presented in [this section](../../api/using/about-apis-use-cases).
+For more on the operations you can carry out using Campaign Standard APIs, refer to the use cases presented in [this section](../../api/using/about-apis-use-cases.md).
