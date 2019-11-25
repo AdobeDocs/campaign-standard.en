@@ -353,7 +353,7 @@ user-guide-title: Adobe Campaign Standard Help
           + [Sorting](api/using/sorting.md)
           + [Filtering](api/using/filtering.md)
           + [Counting](api/using/counting.md)
-          + [Pagination](api/using/pagination.md
+          + [Pagination](api/using/pagination.md)
        + [Custom resources](api/using/custom-resources.md)
   + Use cases {#use-cases}
        + [About Campaign Standard APIs use cases](api/using/about-apis-use-cases.md)
