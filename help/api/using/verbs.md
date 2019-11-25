@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# GET / POST / PATCH / DELETE verbs {#verbs}`
+# GET / POST / PATCH / DELETE verbs {#verbs}
 
 Available verbs to perform operations on the resources are:
 
@@ -27,9 +27,11 @@ Available verbs to perform operations on the resources are:
 
 <!-- enlever les nodes iniutiles genre pagniation, count etc)-->
 
+
 ***Sample requests***
 
 * Sample GET request on the profile collection.
+
 
     ```
 
@@ -43,6 +45,7 @@ Available verbs to perform operations on the resources are:
     ```
 
     It returns an array of profiles.
+
 
     ```
 
@@ -72,6 +75,7 @@ Available verbs to perform operations on the resources are:
 
 * Sample GET request on a specific profile.
 
+
     ```
 
     $curl  
@@ -83,9 +87,10 @@ Available verbs to perform operations on the resources are:
 
     ```
 
-<!-- toujours ces 4 champs dans les exemples: pkey first name lastname email birthdate -->
+    <!-- toujours ces 4 champs dans les exemples: pkey first name lastname email birthdate -->
 
     It returns the requested profile.
+
 
     ```
 
@@ -102,6 +107,7 @@ Available verbs to perform operations on the resources are:
 
 * Sample POST request to create a profile.
 
+
     ```
 
     -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
@@ -117,7 +123,10 @@ Available verbs to perform operations on the resources are:
 
     <!-- dans les exemples, mettre email au lieu de age-->
 
-    It returns the profile. <!-- returns  le profil avec tous les champs par défaut . >
+    It returns the profile. 
+
+    
+    <!-- returns  le profil avec tous les champs par défaut . >
 
     ```
 

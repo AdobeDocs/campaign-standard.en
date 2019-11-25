@@ -20,6 +20,7 @@ You can retrieve the resources metadata using 'resourceType' in a GET request:
 
 `GET /profileAndServices/resourceType/<resourceName>`
 
+
 The response returns the main metadata from the resource:
 
 * **Content**: returns the resource's fields. For each field in the **content** node, we can find the following fields:
@@ -30,10 +31,10 @@ The response returns the main metadata from the resource:
     * **category**: gives the category of the field in the query editor.
     * **resType**: this the technical type.
 
-        If **type** is completed with the value "link" or "collection", the resTarget value is the name of the resource targeted by the link.
-        If **type** is completed with the value "enumeration", a **values** field is added and each enumeration value are detailed in the **values** node.
+        If "type" is completed with the value "link" or "collection", the resTarget value is the name of the resource targeted by the link.
+        If "type" is completed with the value "enumeration", a "values" field is added and each enumeration value are detailed in the **values** node.
 
-**Filters**: returns the URL to retrieve the associated filters. See [Filters](#filtering)
+* **Filters**: returns the URL to retrieve the associated filters. For more on filters, refer to [this section](#filtering).
 
 All other fields are descriptive or internal.
 
@@ -43,7 +44,10 @@ si on prend l'exemple de l'org unit, on aura un bon exemple lien -->
 
 <!-- plus reparler du node Data -->
 
+
 ***Sample request***
+
+Perform a GET request on the resource.
 
 ```
 

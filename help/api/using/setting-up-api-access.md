@@ -39,15 +39,15 @@ To establish a secure service-to-service Adobe I/O API session, every request to
 
 ```
 
-* **`<ORGANIZATION>`**: This is your personal ORGANIZATION ID, one ORGANIZATION ID is provided by Adobe for each of your instances :
+* **<ORGANIZATION>**: This is your personal ORGANIZATION ID, one ORGANIZATION ID is provided by Adobe for each of your instances :
 
-    * **`<ORGANIZATION>`** : your production instance,
-    * **`<ORGANIZATION-mkt-stage>`**: your stage instance.
+    * <ORGANIZATION> : your production instance,
+    * <ORGANIZATION-mkt-stage>: your stage instance.
 
     To obtain your ORGANIZATION ID value, refer to your administrator or your Adobe technical contact. You can also retrieve it into Adobe I/O when creating a new integration, in the licenses list (see the <a href="https://www.adobe.io/authentication.html">Adobe IO documentation</a>).
 
-* **`<ACCESS_TOKEN>`**: Your personal access token, that was retrieved when exchanging your JSON Web Token through a POST request.
+* **<ACCESS_TOKEN>**: Your personal access token, that was retrieved when exchanging your JSON Web Token through a POST request.
 
-* **`<API_KEY>`**: your personal API Key. It is provided in Adobe I/O after creating a new integration to Adobe Campaign Service.
+* **<API_KEY>**: your personal API Key. It is provided in Adobe I/O after creating a new integration to Adobe Campaign Service.
 
     ![alt text](assets/tenant.png)

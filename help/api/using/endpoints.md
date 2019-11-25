@@ -25,11 +25,11 @@ The available endpoints for Adobe Campaign REST API:
 * **/privacy/privacyTool**: interact with the privacy API to allow the automatic process of privacy requests. For more on this, refer to [this section](#privacy-management).
 * **/history**: retrieve the profiles' marketing history. For more on integrated customer profiles in Campaign, refer to the [Campaign documentation](https://helpx.adobe.com/campaign/standard/audiences/using/integrated-customer-profile.html).
 
-By default, the main resources are available for the **profileAndServices** and **profileAndServicesExt** APIs:
+By default, the main resources available for the **profileAndServices** and **profileAndServicesExt** APIs are:
 
 * **/profile**: interact with profiles from Campaign database. To add profiles to a service, use the **/service** endpoint. For more on profiles in Campaign, refer to the [Campaign documentation](https://helpx.adobe.com/campaign/standard/audiences/using/about-profiles.html).
 * **/service**: manage subscription services. For more on services in Campaign, refer to the [Campaign documentation](https://helpx.adobe.com/campaign/standard/audiences/using/creating-a-service.html).
 
 >[!NOTE]
 >
->All other resources that have been extended or created are available via the <b>ProfileAndServicesExt</b> API only. They must be linekd to the <b>Profile</b> resource in order to be accessible.
+>All other resources that have been extended or created are available via the **ProfileAndServicesExt** API only. They must be linked to the **Profile** resource in order to be accessible.

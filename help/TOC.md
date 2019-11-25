@@ -353,6 +353,7 @@ user-guide-title: Adobe Campaign Standard Help
     + [Additional operations](api/using/additional-operations.md)
     + [Custom resources](api/using/custom-resources.md)
   + Use cases {#use-cases}
+    + [About Campaign Standard APIs use cases](api/using/about-apis-use-cases.md)
     + [Managing profiles](api/using/managing-profiles.md)
     + [Managing services and subscriptions](api/using/managing-services-and-subscriptions.md)
     + [Interacting with marketing history](api/using/interacting-with-marketing-history.md)  
