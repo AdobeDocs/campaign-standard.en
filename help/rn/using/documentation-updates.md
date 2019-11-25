@@ -26,7 +26,7 @@ You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-n
 
 A new use case has been added describing how to build a control group using a workflow in Campaign Standard. [Read more](../../automating/using/workflow-control-group.md)
 
-The APIs documentation set has been integrated into Campaign Standard documentation.[Read more](../../api/about-campaign-standard-apis.md)
+The APIs documentation set has been integrated into Campaign Standard documentation.[Read more](../../api/using/about-campaign-standard-apis.md)
 
 ## Release 19.4 - October 2019 {#release-19-4---october-2019}
 
