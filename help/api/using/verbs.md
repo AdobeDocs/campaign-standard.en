@@ -25,6 +25,7 @@ Available verbs to perform operations on the resources are:
 
 <!-- ajouter codes retour -->
 
+<br/>
 
 ***Sample requests***
 

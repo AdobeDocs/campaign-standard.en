@@ -22,6 +22,8 @@ Services creation is performed with a **POST** request on the service resource.
 
 If you want to create the service with specific attributes, add them into the payload. Otherwise, the new service will be created with default ones.
 
+<br/>
+
 ***Sample request***
 
 Sample POST request to create a service with specific attributes.
@@ -43,7 +45,7 @@ Sample POST request to create a service with specific attributes.
 
 ```
 
-It returns the newly created service with the updates attributes.
+It returns the newly created service with the updated attributes.
 
 ```
 
@@ -70,6 +72,8 @@ This is a two-steps procedure.
 >[!CAUTION]
 >
 >The REST API returns the "href" property, which contains the URL to use. <b>Always use the URL contained in the response to make the subsequent API request</b>.
+
+<br/>
 
 ***Sample request***
 
@@ -138,6 +142,8 @@ This is a two-steps procedure.
 
 1. Retrieve the subscriptions URL for a given profile.
 1. Perform a GET request on the URL. It returns the list of subscriptions for the profile, with each associated service.
+
+<br/>
 
 ***Sample request***
 
@@ -336,6 +342,8 @@ This is a three-steps procedure.
 
 If the delete request is successful, the response status is 204 No Content.
 
+<br/>
+
 ***Sample request***
 
 The sample payloads below show how to unsubscribe a profil from a service. First perform a GET request to retrieve the profile.
@@ -416,6 +424,8 @@ This is a three-steps procedure.
 1. Perform a DELETE request on the desired profile subscription URL.
 
 If the delete request is successful, the response status is 204 No Content.
+
+<br/>
 
 ***Sample request***
 

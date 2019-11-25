@@ -20,7 +20,9 @@ snippet: y
 
 Retrieving profiles is performed with a **GET** request.
 
-You can then refine your search by using filters, ordering and pagination. For more on this, refer to the [Additional operations](../../api/using/additional-operations.md) section.
+You can then refine your search by using filters, ordering and pagination. For more on this, refer to the [Additional operations](../../api/using/sorting.md) section.
+
+<br/>
 
 ***Sample requests***
 
@@ -103,13 +105,15 @@ Updating profiles is performed with a **PATCH** request.
 
 1. To check if the PATCH request has updated the profile, we can perform a final GET request.
 
+<br/>
+
 ***Sample request***
 
-Sample GET request to retrieve the profile with the "amy.dakota@mail.com" email address.
+Sample GET request to retrieve a profile.
 
 ```
 
--X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byEmail?email=amy.dakota@mail.com \
+-X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>\
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
 -H 'Cache-Control: no-cache' \
@@ -125,7 +129,7 @@ Response to the request.
     "content": [
         {
             "PKey": "<PKEY>",
-            "firstName": "AMy",
+            "firstName": "Amy",
             "lastName":"Dakota",
             "birthDate": "1980-10-24",
             ...
@@ -168,6 +172,8 @@ Creating profiles is performed with a **POST** request on the profile resource.
 >If you want to associate an <b>orgUnit</b> to the created profile, you need to extend the profile resource with this field and, after the publication of the extension, perform a POST request on the <b>ProfileAndServicesExt</b> endpoint.
 >
 >For more on the profile's resource extension, refer to the <a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">Campaign documentation</a>.
+
+<br/>
 
 ***Sample request***
 

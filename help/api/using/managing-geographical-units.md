@@ -16,20 +16,22 @@ snippet: y
 
 # Managing geographical units {#managing-geographical-units}
 
-The **geoUnitBase** endpoint lets you interact with Geographical units, enabling you, for example, to update their attributes or update a profile's Geographcal unit.
-
 >[!CAUTION]
 >
 >The Geographical unit feature has been deprecated with the Campaign Standard 18.7 release.
 As a result, new Campaign Standard instances, as well as existing instances with no geographical units created, cannot have this capability implemented starting the 18.7 release.
 For more on this, refer to the <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">Deprecated features</a> page.
 
-The **Geographcal unit** field is added to a profile when extending the profile resource. As a result, remember to always use the **profileAndServicesExt** endpoint to interact with Geographical units. For more on the profile's resource extension, refer to the [Campaign documentation](https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles).
+The **geoUnitBase** endpoint lets you interact with Geographical units, enabling you, for example, to update their attributes or update a profile's unit.
+
+The **Geographical unit** field is added to a profile when extending the profile resource. As a result, remember to always use the **profileAndServicesExt** endpoint to interact with Geographical units. For more on the profile's resource extension, refer to the [Campaign documentation](https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles).
 
 ## Retrieving a profile's Geographical unit
 
 1. Perform a GET request on the profile PKey to retrieve the **geoUnit** URL.
 1. Perform a GET request on the URL to retrieve more details about the Geographical unit.
+
+<br/>
 
 ***Sample request***
 
@@ -73,7 +75,7 @@ Perform a GET request on the URL to retrieve more information.
 
 ```
 
-It returns details about the geogrpahical unit.
+It returns details about the geographical unit.
 
 ```
 
@@ -94,6 +96,8 @@ It returns details about the geogrpahical unit.
 
 1. Perform a GET request on the **geoUnitBase** resource to retrieve the Geographical unit PKey.
 1. Perform a PATCH request on the profile PKey, with the desired Geographical unit PKey in the payload.
+
+<br/>
 
 ***Sample request***
 
@@ -151,6 +155,8 @@ Perform a PATCH request on the profile, with the PKey of the desired Geographica
 
 1. Perform a GET request on the **geoUnitBase** resource to retrieve the Geographical unit PKey.
 1. Perform a PATCH request on the Geographical unit, with the attributes to update in the payload.
+
+<br/>
 
 ***Sample request***
 

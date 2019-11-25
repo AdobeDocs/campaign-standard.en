@@ -16,33 +16,31 @@ snippet: y
 
 # Metadata mechanism {#metadata-mechanism}
 
-You can retrieve the resources metadata using 'resourceType' in a GET request:
+You can retrieve the resources metadata using **resourceType** in a GET request:
 
 `GET /profileAndServices/resourceType/<resourceName>`
 
+The response returns the main metadata from the resource (all other fields are descriptive or internal):
 
-The response returns the main metadata from the resource:
+* The **Content** node returns the resource's fields. For each field in the **content** node, we can find the following fields:
 
-* **Content**: returns the resource's fields. For each field in the **content** node, we can find the following fields:
-
-    * **apiName**: name of the attribute used in the APIs.
-    * **type**: this is the high-level type definition (string, number, link, collection, enumeration...).
-    * **dataPolicy**: the value of the field must follow the given policy rules. For example, if dataPolicy rule is set to "email", the value must be a valid email. During a PATCH or a POST, the dataPolicy can check the value or modify the value to transform (smartCase for example).
-    * **category**: gives the category of the field in the query editor.
-    * **resType**: this the technical type.
+    * "apiName": name of the attribute used in the APIs.
+    * "type": this is the high-level type definition (string, number, link, collection, enumeration...).
+    * "dataPolicy": the value of the field must follow the given policy rules. For example, if dataPolicy rule is set to "email", the value must be a valid email. During a PATCH or a POST, the dataPolicy can check the value or modify the value to transform (smartCase for example).
+    * "category": gives the category of the field in the query editor.
+    * "resType": this the technical type.
 
         If "type" is completed with the value "link" or "collection", the resTarget value is the name of the resource targeted by the link.
         If "type" is completed with the value "enumeration", a "values" field is added and each enumeration value are detailed in the **values** node.
 
-* **Filters**: returns the URL to retrieve the associated filters. For more on filters, refer to the [Additional operations](../../api/using/additional-operations.md) section.
-
-All other fields are descriptive or internal.
+* The **Filters** node returns the URL to retrieve the associated filters. For more on filters, refer to [this section](../../api/using/filtering.md) section.
 
 <!-- créer une section au même niveau sur les liens -->
 <!-- dans l'exemple: birthdate, email +  mettre 2 liens : un de type 1-1 , 1-N
 si on prend l'exemple de l'org unit, on aura un bon exemple lien -->
 <!-- plus reparler du node Data -->
 
+<br/>
 
 ***Sample request***
 

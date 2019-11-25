@@ -51,7 +51,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
 * **&lt;eventID&gt;**: the type of event you want to send. This ID is generated when creating the event definition. Refer to the [Campaign documentation](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
 
-**POST request header**
+### POST request header
 
 The request must contain a "Content-Type: application/json" header.
 
@@ -68,7 +68,7 @@ You must add a charset, for example **utf-8**. Note that this value depends on t
 
 ```
 
-**POST request body**
+### POST request body
 
 The event data are contained inside the JSON POST body. The event structure depends on its definition. The API preview button in the resource definition screen provides a request sample. Refer to the [Campaign documentation](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
 
@@ -81,18 +81,13 @@ The following optional parameters can be added to the event content to manage th
 >
 >The values of the "expiration" and "scheduled" parameters follow the ISO 8601 format. ISO 8601 specifies the use of the uppercase letter "T" to separate the date and time. It can however be removed from the input or output for better readability.
 
-**Response to the POST request**
+### Response to the POST request
 
-The POST response returns the transactional event status at the time it was created.
-
-To get its current status (event data, event status...), use the Primary Key returned by this POST response in a GET request:
+The POST response returns the transactional event status at the time it was created. To retrieve its current status (event data, event status...), use the Primary Key returned by the POST response in a GET request:
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>/`
 
->[!NOTE]
->
->&lt;PKey&gt; corresponds to the Primary Key returned by the POST response.
-
+<br/>
 
 ***Sample request***
 
@@ -144,7 +139,7 @@ Response to the POST request.
 
 ```
 
-## Transactional event status {#transactional-event-status}
+### Transactional event status {#transactional-event-status}
 
 In the response, the "status" field allows you to know whether the event has been processed or not:
 

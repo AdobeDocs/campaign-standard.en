@@ -27,7 +27,9 @@ Here are some examples:
 * Event based transactional communication triggering – order confirmation, booking Itinerary, password reset, etc.
 * Even cart abandonment email communication.
 
-Sign up landing pages provide a way for customers or prospects to register their name and email address. Once ACS captures the profile information and preferences, Campaign Standard can send personalized messages based on the person’s interests. They are built with the elements below:
+Sign up landing pages provide a way for customers or prospects to register their name and email address. Once Campaign Standard captures the profile information and preferences, it can send personalized messages based on the person’s interests.
+
+They are built with the elements below:
 
 1. A registration form with campaign API listeners.
 

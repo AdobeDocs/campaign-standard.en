@@ -1,6 +1,6 @@
 ---
-title: Additional operations
-description: Learn more about additional operations that you can perform with the GET verb.
+title: Filtering
+description: Learn how to perform filtering operations.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -14,194 +14,15 @@ internal: n
 snippet: y
 ---
 
-# Additional operations {#global-concepts}
+# Filtering {#filtering}
 
-When using the GET verb, you can perform additional operations in order to refine your requests.
-
-## Counting
-
-The Adobe Campaign REST API can count the number of records. Counting is often used with **filters**. For more on filters, refer to [this section](#filtering).
-
->[!CAUTION]
->
-> Always use the URL value returned in the count node to perform a count request.
-
-***Sample request***
-
-To count all the services that have a **messageType** value equaling to "sms", perform a GET request with the **byChannel** filter.
-
-```
-
--X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=sms \
--H 'Content-Type: application/json' \
--H 'Authorization: Bearer <ACCESS_TOKEN>' \
--H 'Cache-Control: no-cache' \
--H 'X-Api-Key: <API_KEY>'
-
-```
-
-It returns the services corresponding to the filter in the **content** node, and the URL to retrieve the number of results in the **count** node.
-
-```
-
-{
-    "content": [
-        {
-            ...
-            "messageType": "sms",
-            "mode": "newsletter",
-            "name": "SVC6",
-            ...
-        },
-        ...
-    ],
-    "count": {
-        "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/_count?channel=sms&_lineStart=@iKTZ2q3IiSEDqZ5Nw1vdoGnQCqF-8DAUJRaVwR9obqqTxhMy"
-    },
-    "serverSidePagination": true
-}
-
-```
-
-Perform a GET request on the **count** URL.
-
-```
-
--X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/_count?channel=sms&_lineStart=@iKTZ2q3IiSEDqZ5Nw1vdoGnQCqF-8DAUJRaVwR9obqqTxhMy \
--H 'Content-Type: application/json' \
--H 'Authorization: Bearer <ACCESS_TOKEN>' \
--H 'Cache-Control: no-cache' \
--H 'X-Api-Key: <API_KEY>'
-
-```
-
-It returns the number of results in the "count" attribute.
-
-```
-
-{
-    "count": 26
-}
-
-```
-
-## Pagination
-
-By default, 25 resources are loaded in a list. The **_lineCount** parameter allows you to limit the number of listed records.
-
-Always use the URL value returned in the **next** node to perform a pagination request. The **_lineStart** request is calculated and must always be used within the URL returned in the **next** node.
-
-<!-- serverside pagination. quand table très longue (au delà de 100.000), on peut plus faire de next. doit utiliser à la place les trucs type lineStart etc. si false: voudra dirre que ça a atteint la limite-->
-
-***Sample request***
-
-Sample GET request to display 1 record of the profile resource.
-
-```
-
--X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_lineCount=1 \
--H 'Content-Type: application/json' \
--H 'Authorization: Bearer <ACCESS_TOKEN>' \
--H 'Cache-Control: no-cache' \
--H 'X-Api-Key: <API_KEY>'
-
-```
-
-<!-- dans l'exemple, avoir le node "next"-->
-
-Response to the request.
-
-```
-
-{
-    "content": [
-        {
-            "PKey": "<PKEY>",
-            "firstName": "John",
-            "lastName":"Doe",
-            "birthDate": "1980-10-24",
-            ...
-        }
-    ],
-    ...
-}
-
-```
-
-## Sorting
-
-Sorting is available in **ascending** or **descending** order. The '%20desc' or '%20asc' parameter needs to be added to the URL.
-
-Sorting is also available on every field. A specific flag is available in the resource metadata to know whether or not the field can be ordered. For more on this, refer to [this section](../../api/using/metadata-mechanism.md).
-
-***Sample requests***
-
-* Sample GET request to retrieve emails in the database alphabetically ordered.
-
-    ```
-
-    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email/email?_order=email \
-    -H 'Content-Type: application/json' \
-    -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-    -H 'Cache-Control: no-cache' \
-    -H 'X-Api-Key: <API_KEY>'
-
-    ```
-
-    Response to the request.
-
-    ```
-
-    {
-    "content": [
-        "adam@email.com",
-        "allison.durance@example.com",
-        "amy.dakota@mail.com",
-        "andrea.johnson@mail.com",
-        ...
-    ]
-    ...
-    }
-
-    ```
-
-* Sample GET request to retrieve the email in the database in a descending alpha order.
-
-    ```
-
-    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_order=email%20desc \
-    -H 'Content-Type: application/json' \
-    -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-    -H 'Cache-Control: no-cache' \
-    -H 'X-Api-Key: <API_KEY>'
-
-    ```
-
-    Response to the request.
-
-    ```
-
-    {
-    "content": [
-        "tombinder@example.com",
-        "tombinder@example.com",
-        "timross@example.com",
-        "john.smith@example.com",
-        ...
-    ]
-    }
-
-    ```
-
-## Filtering {#filtering}
-
-### Retrieving filters metadata
+## Retrieving filters metadata
   
-Filters are available for **each resource**.
+Filters are available for each resource. To identify the filters associated to a resource, you need to perform a GET request on the resource metadata. This request returns the URL where all of the filters are defined for a given resource. For more on metadata, refer to [this section](../../api/using/metadata-mechanism.md).
   
-To **identify the filters** associated to the resource, you need to perform a GET request on the resource metadata. For more on metadata, refer to [this section](../../api/using/metadata-mechanism.md). This request returns the URL where all of the filters are defined for a given resource.
-  
-To identify the filter **metadata** and determine how to use it, you have to perform a GET request on the previously returned URL.
+To identify the metadata of a filter and determine how to use it, you have to perform a GET request on the previously returned URL.
+
+<br/>
 
 ***Sample request***
 
@@ -246,7 +67,7 @@ Perform a GET request on the URL. It returns the list of filters for the profile
 
 ```
 
-### Filters metadata structure
+## Filters metadata structure
 
 The same metadata structure is available for each filter:
   
@@ -255,7 +76,9 @@ The same metadata structure is available for each filter:
 * The **metadata** node describes the filter parameters.
 * The **condition** node describes what the filter is intended to do. The filter parameters described in the metadata node are used to create filter conditions. For each filter condition, if **enabledIf** is true, the **expr** will be applied.
 
-Filter metadata structure sample.
+<br/>
+
+Filter metadata structure sample:
 
 ```
 
@@ -271,15 +94,17 @@ Filter metadata structure sample.
 
 ```
 
-### Using filters
+## Using filters
 
-Filtering can be done with the following request:
+Filtering is performed with the following request:
   
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/<resourceName>/by<filterName>?<filterParam>=<filterValue>`
   
-It is possible to combine **multiple filters** in a single request:
+It is possible to combine multiple filters in a single request:
   
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/<resourceName>/<filter1name>/<filter2name>?<filter1param>=<filter1value>&<filter2param>=<filter2value>`
+
+<br/>
 
 ***Sample requests***
 
@@ -307,17 +132,6 @@ It is possible to combine **multiple filters** in a single request:
                 "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/@I_FIiDush4OQPc0mbOVR9USoh36Tt5CsD35lATvQjdWlXrYc0lFkvle2XIwZUbD8GqTVvSp8AfWFUvjkGMe1fPe5nok",
                 "label": "Marketing Newsletter",
                 "lastModified": "2019-09-25 23:20:35.000Z",
-                "limitedDuration": false,
-                "messageType": "email",
-                "mode": "newsletter",
-                ...
-            },
-            {
-                "PKey": "<PKEY>",
-                "created": "2019-09-25 23:33:17.488Z",
-                "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/@wuKK4-SmPSzNZGhQnqSZRYC8affVMqKeqjsr_mmtmW6qG8R5BQqfbrXNaxyBxGVm_Qu6OLHKPLvMHyhyWNLPovWohvU",
-                "label": "QA Marketing Newsletter dvsxmzwpg",
-                "lastModified": "2019-09-25 23:33:17.488Z",
                 "limitedDuration": false,
                 "messageType": "email",
                 "mode": "newsletter",
@@ -399,11 +213,9 @@ the email or last name fields (the byText filter searchs into both the email and
 
     ```
 
-### Custom filters
+## Custom filters
   
-If you want to use a custom filter, you have to create and customize it in the Adobe Campaign Standard interface.
-  
-The custom filter will then have the same behavior as out of the box filters:
+If you want to use a custom filter, you have to create and customize it in the Adobe Campaign Standard interface. The custom filter will then have the same behavior as out of the box filters:
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/by<customFilterName>?<customFilterparam>=<customFilterValue>`
   
@@ -412,11 +224,11 @@ For more on this, refer to the Campaign Standard documentation:
 * [Configuring filter definition](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html).
 * [Use case: Calling a resource using a composite identification key](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html).
 
+<br/>
+
 ***Sample request***
 
-Sample GET request to retrieve the "profile" resources with transaction amounts of 100$ or more.
-
-Note that the "byAmount" filter has first been defined in the Adobe Campaign Standard interface and linked to the "Transaction" custom table.
+Sample GET request to retrieve the "profile" resources with transaction amounts of 100$ or more. Note that the "byAmount" filter has first been defined in the Adobe Campaign Standard interface and linked to the "Transaction" custom table.
 
 ```
 

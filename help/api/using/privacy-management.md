@@ -50,6 +50,8 @@ The payload must contain the following parameters:
 * **type**: the request type. Accepted values are "access" or "delete".
 * **regulation**: the regulation type. Example: "GDPR", "CCPA". This parameter is mandatory, and available starting Campaign Standard 19.4 release. If you are on an older build, you do not need to add it to your payload.
 
+<br/>
+
 ***Sample request***
 
 This POST request creates a privacy request based on a email reconciliation key defined in the namespace AMCDS2:
@@ -110,6 +112,8 @@ You can monitor information about a created privacy request using a **GET** requ
 
 The status list description is available in the [Privacy management documentation](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ManagingPrivacyRequests).
 
+<br/>
+
 ***Sample request***
 
 ```
@@ -166,6 +170,8 @@ To retrieve the file that contains all the information associated to a reconcili
 1. Perform a **GET** request to retrieve information about the request.
 
 1. Retrieve the data file by performing a **POST** request on the returned **privacyRequestData** URL, with the privacy request internal name inside the payload. For example: {"name":"PT17"}.
+
+<br/>
 
 ***Sample request***
 
@@ -262,6 +268,8 @@ A profile's CCPA opt-out status can be monitored and managed using the **ccpaOpt
 >The “CCPA Opt-Out” attribute is only available starting 19.4. For 19.3 environments, you need to extend the Profiles resource and add a boolean field. This field will be added to the API with the chosen label. We suggest you use “Opt-Out for CCPA”.
 >
 >For more on this, refer to the [Privacy management documentation](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ccpa).
+
+<br/>
 
 ***Sample requests***
 

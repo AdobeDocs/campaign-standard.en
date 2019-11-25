@@ -35,6 +35,8 @@ Four execution commands are available to control a workflow:
 
 For more information on the execution commands, refer to the [Campaign documentation](https://helpx.adobe.com/campaign/standard/automating/using/executing-a-workflow.html).
 
+<br/>
+
 ***Sample requests***
 
 * Start a workflow.
@@ -113,6 +115,8 @@ If you want to call the workflow with parameters, add them into the payload with
   >[!NOTE]
   >
   >When adding a parameter to the payload, make sure that its **name** and **type** values are consistent with the information declared in the External signal activity. Moreover, the payload size should not exceed 64Ko.
+
+<br/>
 
 ***Sample request***
 

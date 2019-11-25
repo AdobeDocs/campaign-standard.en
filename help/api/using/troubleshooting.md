@@ -16,6 +16,17 @@ snippet: y
 
 # Troubleshooting {#troubleshooting}
 
+* **When going to the Adobe.io Console you get the following error: "The Adobe I/O console is only available to select members of enterprise accounts. If you believe you should have access, please contact your System Administrator."**
+
+You can only create API Keys for the IMS organizations you are admin of. If this message is displayed and you want to create API Keys and you want to ask one of the administrator of the IMS organization.
+
+* **When doing a request to Adobe.io you get {"error_code":"403023","message":"Profile is not valid"}**
+
+This means that there is an issue with the IMS provisioning of your specific Campaign product: the IMS team needs to fix it.
+
+To get more details you can call the IMS API with your token to see what your IMS profile looks like: You need to have a prodCtx where the organization_id is the same as the one you put in you URL for Adobe.io to be able to route your request.
+If it is missing the IMS provisioning needs to be fixed.
+
 ```
 
 -X GET https://mc.adobe.io/{ORGANIZATION}/campaign/profileAndServices/profile \
@@ -73,17 +84,6 @@ In the response, the ORGANIZATION_ID value must be the same in your first GET re
 
 ```
 
-* **When going to the Adobe.io Console you get the following error: "The Adobe I/O console is only available to select members of enterprise accounts. If you believe you should have access, please contact your System Administrator."**
-
-You can only create API Keys for the IMS organizations you are admin of. If this message is displayed and you want to create API Keys and you want to ask one of the administrator of the IMS organization.
-
-* **When doing a request to Adobe.io you get {"error_code":"403023","message":"Profile is not valid"}**
-
-This means that there is an issue with the IMS provisioning of your specific Campaign product: the IMS team needs to fix it.
-
-To get more details you can call the IMS API with your token to see what your IMS profile looks like: You need to have a prodCtx where the organization_id is the same as the one you put in you URL for Adobe.io to be able to route your request.
-If it is missing the IMS provisioning needs to be fixed.
-
 * **When doing a request to Adobe.io you get {"code":500, "message":"Oops. Something went wrong. Check your URI and try again."}**
 
 Adobe.io declares your unvalid URI: most likely the URI you are requesting is not valid. On Adobe.io when you select the Campaign service you get a picker with a list of possible organization_ids. You need to check that the one you choose is the one you put in your URL.
@@ -95,3 +95,56 @@ Either your token is invalid (improper IMS call used to generate a token) or you
 * **I don't see my profile after creation**
 
 Depending on the instance configuration, the created profile needs to be associated to an **orgUnit**. To understand how to add this field in your creation, consult [this section](../../api/using/managing-profiles.md).
+
+<!-- 
+
+* (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu’un POST)
+
+With Curl
+List all profiles
+
+Create a profile
+
+Update the mobilePhone attribute of a profile
+
+API Calls on Service
+
+GET the list of services
+
+-->
+
+<!--
+
+How to find and use a filter?
+-----------------------------
+Error codes:
+
+* PAtch sur Age = message d'erreur :
+500
+Cannot update the 'age' property that is read-only
+'age' property is not valid for the 'profile' resource.
+-->
+
+<!--
+How to filter a list of subscribed profiles with available profile filters ? by date (by les filtres dispo sur la ressource) ?
+------------------------------------------------
+
+Pattern classique :
+
+recupérer la liste des subscriptions filtrées d'un profile
+1) get sur profile
+2) recup PKey
+3) get sur PKey
+4) get sur href des subscriptions
+
+Comment savoir quel filtre appliquer ?
+
+1) get sur metadata de profile
+2) retourne description de la collection subscription
+3) get sur la valeur du champ resTarget
+4) get sur le href dans filters
+5) retourne les filtres applicables sur l'url des data.
+
+How to delete a service?
+------------------------
+-->

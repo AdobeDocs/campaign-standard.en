@@ -25,6 +25,8 @@ The **Organizational unit** field is added to a profile when extending the profi
 1. Perform a GET request on the profile PKey to retrieve the **orgUnit** URL.
 1. Perform a GET request on the URL to retrieve more details about the Organizational unit.
 
+<br/>
+
 ***Sample request***
 
 Retrieve the profile record.
@@ -89,6 +91,8 @@ It returns details about the organizational unit.
 1. Perform a GET request on the **orgUnitBase** resource to retrieve the Organizational unit PKey
 1. Perform a PATCH request on the profile PKey, with the desired Organizational unit PKey in the payload.
 
+<br/>
+
 ***Sample request***
 
 Retrieve the list of Organizational units.
@@ -145,6 +149,8 @@ Perform a PATCH request on the profile, with the PKey of the desired Organizatio
 
 1. Perform a GET request on the **orgUnitBase** resource to retrieve the Organizational unit PKey.
 1. Perform a PATCH request on the Organizational unit, with the attributes to update in the payload.
+
+<br/>
 
 ***Sample request***
 
