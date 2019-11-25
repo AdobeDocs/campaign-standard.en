@@ -94,4 +94,4 @@ Either your token is invalid (improper IMS call used to generate a token) or you
 
 * **I don't see my profile after creation**
 
-Depending on the instance configuration, the created profile needs to be associated to an **orgUnit**. To understand how to add this field in your creation, consult [this section](#creating-profiles).
+Depending on the instance configuration, the created profile needs to be associated to an **orgUnit**. To understand how to add this field in your creation, consult [this section](../../api/using/managing-profiles.md).

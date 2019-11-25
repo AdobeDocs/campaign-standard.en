@@ -25,8 +25,6 @@ Available verbs to perform operations on the resources are:
 
 <!-- ajouter codes retour -->
 
-<!-- enlever les nodes iniutiles genre pagniation, count etc)-->
-
 
 ***Sample requests***
 
@@ -53,22 +51,19 @@ Available verbs to perform operations on the resources are:
         "content": [
             {
                 "PKey": "<PKEY>",
-                "age": 34,
-                ...
+                "firstName": "Olivia",
+                "lastName": "Varney",
+                "birthDate": "1977-09-°4",
+                "email": "o.varney@mail.com",
             },
             {
                 "PKey": "<PKEY>",
-                "age": 30,
-                ...
+                "firstName": "John",
+                "lastName": "Doe",
+                "birthDate": "1985-08-17",
+                "email": "johndoe@mail.com",
             }
         ],
-        "count": {
-        "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile//_count?_lineStart=@iKTZ2q3IiSEDqZ5Nw1vdoGnQCqF-8DAUJRaVwR9obqqTxhMy"
-        },
-        "next": {
-        "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/?_lineStart=@iKTZ2q3IiSEDqZ5Nw1vdoGnQCqF-8DAUJRaVwR9obqqTxhMy"
-        },
-        "serverSidePagination": true
     }
 
     ```
@@ -86,8 +81,6 @@ Available verbs to perform operations on the resources are:
     -H 'X-Api-Key: <API_KEY>'
 
     ```
-
-    <!-- toujours ces 4 champs dans les exemples: pkey first name lastname email birthdate -->
 
     It returns the requested profile.
 
@@ -119,23 +112,16 @@ Available verbs to perform operations on the resources are:
 
     ```
 
-    <!-- toujours les mêmes champs que dit plus haut-->
-
-    <!-- dans les exemples, mettre email au lieu de age-->
-
-    It returns the profile. 
-
-    
-    <!-- returns  le profil avec tous les champs par défaut . >
+    It returns the profile with the default fields.
 
     ```
 
     {
-        ...
-        "gender": "unknown",
-        "lastModified": "2019-09-25 08:25:12.234Z",
+        "PKey": "<PKEY>",
+        "firstName": "John",
         "lastName": "Doe",
-        ...
+        "birthDate": "1985-08-17",
+        "email": "johndoe@mail.com",
     }
 
     ```
@@ -149,11 +135,9 @@ Available verbs to perform operations on the resources are:
     -H 'Authorization: Bearer <ACCESS_TOKEN>' \
     -H 'Cache-Control: no-cache' \
     -H 'X-Api-Key: <API_KEY>' \
-    -d '{"lastName":"Smith"}'
+    -d '{"firstName":"Mark"',"lastName":"Smith"}'
 
     ```
-
-    <!-- mettre un 2ème champ à updater type prénom-->
 
     It returns the PKEY and URL to retrieve the updated profile.
 

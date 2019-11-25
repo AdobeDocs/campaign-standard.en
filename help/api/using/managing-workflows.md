@@ -83,7 +83,7 @@ To trigger a workflow, follow the steps below:
 
 1. Perform a **GET** request on the workflow to retrieve the External signal activity trigger URL.
 
-    `GET https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>`<br/><br/>
+    `GET https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>`
 
 1. Perform a **POST** request on the returned URL to trigger the signal activity, with the **"source"** parameter in the payload. This attribute is mandatory, it lets you indicate the triggering request source.
 

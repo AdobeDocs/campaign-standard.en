@@ -1,6 +1,6 @@
 ---
-title: WHy using Campaign Standard APIs?
-description: Learn more on Campaign Standard APIs and why to use them.
+title: About APIs use cases
+description: Learn more on how use cases you can perform with APIs.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# About Campaign Standard APIs use cases
+# About Campaign Standard APIs use cases {#about-apis-use-cases}
 
 In this section, you will find various use cases you can perform Campaign Standard APIs.
 
@@ -34,7 +34,7 @@ The steps below describe a step-by-step use case to import and use the collectio
 
     ![alt text](assets/postman_collection.png)
 
-1. Select the **Creating a profile** request, then update the POST request and the **Headers** tab with your own information (&lt;ORGANIZATION&gt;, &lt;API_KEY&gt;, &lt;ACCESS_TOKEN&gt;). For more on this, refer to [this section](#api-identifiers).
+1. Select the **Creating a profile** request, then update the POST request and the **Headers** tab with your own information (&lt;ORGANIZATION&gt;, &lt;API_KEY&gt;, &lt;ACCESS_TOKEN&gt;). For more on this, refer to [this section](../../api/using/setting-up-api-access.md).
 
     ![alt text](assets/postman_uc1.png)
 

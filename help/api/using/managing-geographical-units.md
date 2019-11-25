@@ -73,7 +73,7 @@ Perform a GET request on the URL to retrieve more information.
 
 ```
 
-It returns the details below.
+It returns details about the geogrpahical unit.
 
 ```
 

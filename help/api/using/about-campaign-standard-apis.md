@@ -26,7 +26,7 @@ With the Adobe Campaign Standard APIs, you get access to the following functiona
 * Retrieve data from your customized data model
 
 To use the Campaign Standard API, you need an Adobe I/O account. This is a mandatory first step to go forward and discover the API features.
-For more on this, refer to [this section](#setting-up-api-access).
+For more on this, refer to [this section](../../api/using/setting-up-api-access.md).
 
 The APIs we provide use **standard concepts** with a REST interface and JSON payloads.
 

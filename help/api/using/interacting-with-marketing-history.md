@@ -42,29 +42,14 @@ The "events" node returns the URL that gives you access to the events on the pro
 ```
 
 {
-    "PKey": "<PKEY>",
-    "age": 45,
-    "birthDate": "1972-08-11",
-    "blackList": false,
-    "blackListEmail": false,
-    "blackListFax": false,
-    "blackListMobile": false,
-    "blackListPhone": false,
-    "blackListPostalMail": false,
-    "blackListPushnotification": false,
-    "countBroadLogEvents": 1,
-    "countSubHistoEvents": 0,
-    "countryIsoA2": "FR",
-    "created": "2018-05-16 23:08:13.006Z",
-    "email": "",
-    "events": {
-        "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/history/<PKEY>/events/",
-        "metadata": "subHisto"
+  "PKey": "<PKEY>",
+  "firstName": "John",
+  "lastName":"Doe",
+  "birthDate": "1980-10-24",
+  "events": {
+    "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/history/<PKEY>/events/",
+    "metadata": "subHisto"
     },
-    "fax": "",
-    "firstName": "",
-    "gender": "female",
-    "isExternal": false,
 }
 
 ```
@@ -91,7 +76,6 @@ It returns the list of events for the profile with links to mirror pages in the 
       "date": "2018-05-17 08:44:49.366Z",
       "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/history/<PKEY>/events/<PKEY>",
       "label": "Send via email",
-      "metadata": "broadLog",
       "mirrorPage": {
         "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/history/<PKEY>/events/<PKEY>/mirrorPage/"
       },

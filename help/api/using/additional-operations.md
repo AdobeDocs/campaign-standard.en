@@ -124,18 +124,13 @@ Response to the request.
     "content": [
         {
             "PKey": "<PKEY>",
-            "age": 85,
-            "birthDate": "1933-10-24",
+            "firstName": "John",
+            "lastName":"Doe",
+            "birthDate": "1980-10-24",
             ...
         }
     ],
-    "count": {
-        "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile//_count?_lineCount=1&_lineStart=@vnxw2tye3sTSnooV6nR7SMh_y1e-MMtR6FOEOVXjiItJq5XA"
-    },
-    "next": {
-        "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/?_lineCount=1&_lineStart=@vnxw2tye3sTSnooV6nR7SMh_y1e-MMtR6FOEOVXjiItJq5XA"
-    },
-    "serverSidePagination": true
+    ...
 }
 
 ```
@@ -144,7 +139,7 @@ Response to the request.
 
 Sorting is available in **ascending** or **descending** order. The '%20desc' or '%20asc' parameter needs to be added to the URL.
 
-Sorting is also available on every field. A specific flag is available in the resource metadata to know whether or not the field can be ordered. For more on this, refer to [this section](#metadata-mechanism).
+Sorting is also available on every field. A specific flag is available in the resource metadata to know whether or not the field can be ordered. For more on this, refer to [this section](../../api/using/metadata-mechanism.md).
 
 ***Sample requests***
 
@@ -170,14 +165,9 @@ Sorting is also available on every field. A specific flag is available in the re
         "allison.durance@example.com",
         "amy.dakota@mail.com",
         "andrea.johnson@mail.com",
-        "audrey.davis@mail.com",
-        "barbara.cooper@mail.com",
-        "bette.grant@mail.com"
         ...
     ]
-    "next": {
-        "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_order=email&_lineStart=@sL3AJfHiOJZzn9Ytm0OSduPdEz_kYoaflOEfSS1N2-ttAfLl"
-    }
+    ...
     }
 
     ```
@@ -204,22 +194,19 @@ Sorting is also available on every field. A specific flag is available in the re
         "tombinder@example.com",
         "timross@example.com",
         "john.smith@example.com",
-        "jody.lucassen@example.com",
-        "jade.connor@email.com",
-        "dannymars@example.com",
         ...
     ]
     }
 
     ```
 
-## Filtering
+## Filtering {#filtering}
 
 ### Retrieving filters metadata
   
 Filters are available for **each resource**.
   
-To **identify the filters** associated to the resource, you need to perform a GET request on the resource metadata. For more on metadata, refer to [this section](#metadata-mechanism). This request returns the URL where all of the filters are defined for a given resource.
+To **identify the filters** associated to the resource, you need to perform a GET request on the resource metadata. For more on metadata, refer to [this section](../../api/using/metadata-mechanism.md). This request returns the URL where all of the filters are defined for a given resource.
   
 To identify the filter **metadata** and determine how to use it, you have to perform a GET request on the previously returned URL.
 
@@ -262,12 +249,6 @@ Perform a GET request on the URL. It returns the list of filters for the profile
         "formType": "webPage",
         "fragmentName": "",
         "label": "Birthday",
-        "metadata": ...,
-        "resName": "birthday",
-        "webPage": "...",
-        "webPageName": ""},
-        "byEmail": ...,
-
 }
 
 ```
@@ -293,10 +274,6 @@ Filter metadata structure sample.
         "formType": "none",
         "fragmentName": "",
         "label": "By name or email",
-        "metadata": ...,
-        "resName": "byText",
-        "webPage": "",
-        "webPageName": ""
     }
 
 ```
@@ -333,45 +310,29 @@ It is possible to combine **multiple filters** in a single request:
         "content": [
             {
                 "PKey": "<PKEY>",
-                "builtIn": false,
                 "created": "2019-09-25 23:20:35.000Z",
-                "desc": "test description",
-                "end": "",
                 "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/@I_FIiDush4OQPc0mbOVR9USoh36Tt5CsD35lATvQjdWlXrYc0lFkvle2XIwZUbD8GqTVvSp8AfWFUvjkGMe1fPe5nok",
-                "isExternal": false,
-                "isTemplate": false,
-                "label": "QA Marketing Newsletter bjuiwdsod",
+                "label": "Marketing Newsletter",
                 "lastModified": "2019-09-25 23:20:35.000Z",
                 "limitedDuration": false,
-                "mainDate": "2019-09-25",
                 "messageType": "email",
                 "mode": "newsletter",
                 ...
             },
             {
                 "PKey": "<PKEY>",
-                "builtIn": false,
                 "created": "2019-09-25 23:33:17.488Z",
-                "desc": "test description",
-                "end": "",
                 "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/@wuKK4-SmPSzNZGhQnqSZRYC8affVMqKeqjsr_mmtmW6qG8R5BQqfbrXNaxyBxGVm_Qu6OLHKPLvMHyhyWNLPovWohvU",
-                "isExternal": false,
-                "isTemplate": false,
                 "label": "QA Marketing Newsletter dvsxmzwpg",
                 "lastModified": "2019-09-25 23:33:17.488Z",
                 "limitedDuration": false,
-                "mainDate": "2019-09-25",
                 "messageType": "email",
                 "mode": "newsletter",
                 ...
             },
             ...
         ],
-        "count": {
-            "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service//byChannel/_count?channel=email&_lineStart=@sL3AJfHiOJZzn9Ytm0OSduPdEz_kYoaflOEfSS1N2-ttAfLl",
-            "value": 12
-        },
-        "serverSidePagination": true
+        ...
     }
 
     ```
@@ -396,23 +357,15 @@ the email or last name fields (the byText filter searchs into both the email and
     {
         "content": [
             {
-                ...
-                "email": "john.doe@mail.com",
-                "emailFormat": "unknown",
-                "externalId": "",
-                "fax": "",
+                "PKey": "<PKEY>",
                 "firstName": "John",
-                "gender": "unknown",
-                "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>",
-                "isExternal": false,
-                "lastModified": "2019-09-26 09:30:52.940Z",
-                "lastName": "Doe",
+                "lastName":"Doe",
+                "birthDate": "1980-10-24",
                 ...
             }
             ...
         ],
-        "count": ...,
-        "serverSidePagination": true
+        ...
     }
 
     ```
@@ -437,25 +390,18 @@ the email or last name fields (the byText filter searchs into both the email and
         "content": [
             {
                 "PKey": "<PKEY>",
-                "builtIn": false,
                 "created": "2019-09-26 09:36:01.014Z",
-                "desc": "",
-                "end": "",
                 "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>",
-                "isExternal": false,
-                "isTemplate": false,
                 "label": "sport",
                 "lastModified": "2019-09-26 09:36:01.014Z",
                 "limitedDuration": false,
-                "mainDate": "2019-09-26",
                 "messageType": "email",
                 "mode": "newsletter",
                 "name": "SVC13",
                 ...
             }
         ],
-        "count": ...,
-        "serverSidePagination": true
+        ...
     }
 
     ```

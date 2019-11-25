@@ -34,7 +34,7 @@ The response returns the main metadata from the resource:
         If "type" is completed with the value "link" or "collection", the resTarget value is the name of the resource targeted by the link.
         If "type" is completed with the value "enumeration", a "values" field is added and each enumeration value are detailed in the **values** node.
 
-* **Filters**: returns the URL to retrieve the associated filters. For more on filters, refer to [this section](#filtering).
+* **Filters**: returns the URL to retrieve the associated filters. For more on filters, refer to the [Additional operations](../../api/using/additional-operations.md) section.
 
 All other fields are descriptive or internal.
 

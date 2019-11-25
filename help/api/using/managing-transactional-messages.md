@@ -22,14 +22,14 @@ Once you have created an event, you will have to integrate the triggering of thi
 
 >[!NOTE]
 >
->Creating and publishing an event are presented in <a href="https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html"The Campaign documentation</a>.
+>Creating and publishing an event are presented in <a href="https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html">The Campaign documentation</a>.
 
 For example, you want a "Cart abandonment" event to be triggered whenever one of your clients leaves your website before purchasing the products in their cart. To do this, your web developer must use the REST Transactional Messages API.
 
 1. The developer sends a request according to the POST method, which triggers the [sending of the transactional event](#sending-a-transactional-event).
 1. The response to the POST request contains a Primary Key, which allows the developer to  send one or multiple requests through a GET request. This way he is able to obtain the [event status](#transactional-event-status).
 
-## Sending a transactional event
+## Sending a transactional event {#sending-a-transactional-event}
 
 The transactional event is sent through a POST request with the following URL structure:
 
@@ -39,7 +39,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
 ```
 
-* **&lt;ORGANIZATION&gt;**: your personal ORGANIZATION ID. Refer to [this section](#must-read).
+* **&lt;ORGANIZATION&gt;**: your personal ORGANIZATION ID. Refer to [this section](../../api/using/must-read.md).
 
 * **&lt;transactionalAPI&gt;**: the Transactional Messages API endPoints.
 
@@ -55,7 +55,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
 The request must contain a "Content-Type: application/json" header.
 
-You must add a charset, for example <b>utf-8</b>. Note that this value depends on the REST application you are using.
+You must add a charset, for example **utf-8**. Note that this value depends on the REST application you are using.
 
 ```
 
@@ -144,7 +144,7 @@ Response to the POST request.
 
 ```
 
-## Transactional event status
+## Transactional event status {#transactional-event-status}
 
 In the response, the "status" field allows you to know whether the event has been processed or not:
 

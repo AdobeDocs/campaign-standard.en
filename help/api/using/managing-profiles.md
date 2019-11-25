@@ -20,7 +20,7 @@ snippet: y
 
 Retrieving profiles is performed with a **GET** request.
 
-You can then refine your search by using filters, ordering and pagination. For more on this, refer to these sections: [Filtering](#filtering), [Sorting](#sorting) and [Pagination](#pagination).
+You can then refine your search by using filters, ordering and pagination. For more on this, refer to the [Additional operations](../../api/using/additional-operations.md) section.
 
 ***Sample requests***
 
@@ -44,10 +44,9 @@ You can then refine your search by using filters, ordering and pagination. For m
         "content": [
             {
                 "PKey": "<PKEY>",
-                "age": 85,
-                "birthDate": "1933-10-24",
-                "blackList": false,
-                "blackListAllLastModified": "",
+                "firstName": "John",
+                "lastName":"Doe",
+                "birthDate": "1980-10-24",
                 ...
             },
             ...
@@ -125,13 +124,10 @@ Response to the request.
 {
     "content": [
         {
-            ...
-            "domain": "mail.com",
-            "email": "john.doe@mail.com",
-            "emailFormat": "unknown",
-            "externalId": "",
-            "fax": "",
-            "firstName": "",
+            "PKey": "<PKEY>",
+            "firstName": "AMy",
+            "lastName":"Dakota",
+            "birthDate": "1980-10-24",
             ...
         }
     ]
@@ -194,10 +190,10 @@ It returns the newly created profile, with the "john.doe@mail.com" email address
 ```
 
 {
-    ...
-    "created": "2019-09-26 11:49:48.817Z",
-    "cryptedId": "u5e+EEGhALYQwgQJpsEIZy+NYz5KFCHy++ckfwZ+okq05UpQ6mWOP+U/KUh2slJFcwqarw==",
-    "domain": "mail.com",
+    "PKey": "<PKEY>",
+    "firstName": "John",
+    "lastName":"Doe",
+    "birthDate": "1980-10-24",
     "email": "john.doe@mail.com",
     ...
 }

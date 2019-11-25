@@ -25,13 +25,13 @@ The actions you can perform are as follows:
 * Retrieve a privacy data file,
 * Manage a profile's CCPA opt-out status.
 
-The privacy API endpoint is **/privacy/privacyTool**. PrivacyTool resource description and associated filters are available in the resource metadata. See [Metadata Mechanism](#metadata-mechanism).
+The privacy API endpoint is **/privacy/privacyTool**. PrivacyTool resource description and associated filters are available in the resource metadata. See [Metadata Mechanism](../../api/using/metadata-mechanism.md).
 
 CCPA opt-out is managed using the **ccpaOptOut** profile attribute.
 
 For more on Adobe Campaign Standard and privacy compliance, refer to the [dedicated documentation](https://helpx.adobe.com/campaign/kb/acs-privacy.html).
 
-## Creating a privacy request
+## Creating a privacy request {#creating-a-privacy-request}
 
 >[!CAUTION]
 >
@@ -115,7 +115,7 @@ The status list description is available in the [Privacy management documentatio
 ```
 
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool \
--H 'Authorization: Bearer <ACCESS_TOKEN>' 
+-H 'Authorization: Bearer <ACCESS_TOKEN>'
 -H 'Cache-Control: no-cache' \
 -H 'X-Api-Key: <API_KEY>' \
 -H 'Content-Type: application/json;charset=utf-8'

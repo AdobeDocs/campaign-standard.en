@@ -30,7 +30,7 @@ Custom resources are accessible using the **/profileAndServicesExt** endpoint, a
 
 >[!NOTE]
 >
->For resources that are not out-of-the-box, always use the <b>"cus"</b> prefix before the resource's name.
+>For resources that are not out-of-the-box, always use the **"cus"**prefix before the resource's name.
 
 You can perform any operation with custom resources, as long as they are linked to the Profile table.
 
@@ -76,14 +76,7 @@ It returns the list of all linked custom resources. You can then use the resourc
         "name": "cusProduct",
         "type": "collection"
     },
-"cusTransactionDetails": {
-        "content": ...,
-        "data": "/profileAndServicesExt/cusTransactionDetails/",
-        "help": "Product",
-        "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/cusTransactionDetails/metadata",
-        "name": "cusProduct",
-        "type": "collection"
-    },
+    ...
 }
 
 ```
