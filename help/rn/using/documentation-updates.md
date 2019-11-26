@@ -26,7 +26,7 @@ You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-n
 
 A new use case has been added describing how to build a control group using a workflow in Campaign Standard. [Read more](../../automating/using/workflow-control-group.md)
 
-Information related to landing pages’ properties have been moved into a dedicated section [Read more](../../channels/using/configuring-landing-page.md]
+Information related to landing pages’ properties have been moved into a dedicated section [Read more](../../channels/using/configuring-landing-page.md)
 
 The Control Panel documentation has been integrated into the new collaborative documentation set. [Read more](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
 
