@@ -34,6 +34,10 @@ The **Indicator calculation** table has been updated. [Read more](../../reportin
 
 The APIs documentation set has been integrated into Campaign Standard documentation.[Read more](../../api/using/about-campaign-standard-apis.md)
 
+The Creating a personalized email getting started guide has been moved and updated. [Read more](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
+
+The Delivery Best Practices getting started guide has been updated. [Read more](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+
 ## Release 19.4 - October 2019 {#release-19-4---october-2019}
 
 ### New capabilities included in the release {#new-capabilities-included-in-the-release-20}
@@ -50,7 +54,7 @@ The GDPR getting started guide has been improved and enriched. It is now a priva
 
 A new chart presenting the transactional messaging publication process has been added. [Read more](../../channels/using/about-transactional-messaging.md#transactional-messaging-pub-process)
 
-The Delivery Best Practices getting started guide has been updated. [Read more](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+The Delivery Best Practices getting started guide has been moved and updated. [Read more](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
 A new section has been added. It provides an overview of the different methods that allow you to enrich Campaign Standard database. [Read more](../../start/using/enriching-campaign-database.md)
 
