@@ -32,9 +32,9 @@ You can also set up a **[!UICONTROL BlackList]** landing page that will enable u
 
 >[!NOTE]
 >
->Landing pages can also be used to enable services subscription. For more on this, refer to [this page](../../channels/using/designing-a-landing-page.md#linking-a-form-to-a-service).
+>Landing pages can also be used to enable services subscription. For more on this, refer to [this page](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service).
 
-1. Create a **[!UICONTROL Profile acquisition]** landing page (see [this section](../../channels/using/about-landing-pages.md)).
+1. Create a **[!UICONTROL Profile acquisition]** landing page (see [this section](../../channels/using/getting-started-with-landing-pages.md)).
 1. Add a checkbox in the landing page content for each desired channel, then link it to the corresponding field from the Campaign database.
 
    ![](assets/optin_landingpage_1.png)
@@ -50,7 +50,7 @@ You can also set up a **[!UICONTROL BlackList]** landing page that will enable u
 
 ### Setting up a landing page to opt out from all deliveries {#setting-up-a-landing-page-to-opt-out-from-all-deliveries}
 
-To give users the ability to opt out from all deliveries, you have to create and publish a **[!UICONTROL BlackList]** landing page. For more on landing pages creation, refer to [this page](../../channels/using/about-landing-pages.md).
+To give users the ability to opt out from all deliveries, you have to create and publish a **[!UICONTROL BlackList]** landing page. For more on landing pages creation, refer to [this page](../../channels/using/getting-started-with-landing-pages.md).
 
 Once a user clicks on the landing page link, the **[!UICONTROL No longer contact (by any channel)]** option in the profile is automatically selected.
 

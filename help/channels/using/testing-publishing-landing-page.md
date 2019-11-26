@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Sharing a landing page{#sharing-a-landing-page}
+# Testing and publishing a landing page{#testing-publishing--landing-page}
 
 ## About landing page publication {#about-landing-page-publication}
 
