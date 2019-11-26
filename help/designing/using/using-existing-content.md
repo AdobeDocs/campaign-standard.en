@@ -50,7 +50,7 @@ When creating an email or a landing page, you can choose to load an existing con
 **Related topics:**
 
 * [Creating an email](../../channels/using/creating-an-email.md)
-* [Managing landing pages](../../channels/using/about-landing-pages.md)
+* [Managing landing pages](../../channels/using/getting-started-with-landing-pages.md)
 
 ## Editing existing contents with the Email Designer{#editing-existing-contents-with-the-email-designer}
 

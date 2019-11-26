@@ -144,7 +144,7 @@ Your new resource field is now ready to be used and targeted in a delivery for e
 
 ## Step 4: Update and target profiles with a workflow {#step-4--update-and-target-profiles-with-a-workflow}
 
-To update profiles with data for the new custom field, you can create a landing page using the **[!UICONTROL Profile acquisition]** template. For more information on landing pages, refer to this [page](../../channels/using/about-landing-pages.md).
+To update profiles with data for the new custom field, you can create a landing page using the **[!UICONTROL Profile acquisition]** template. For more information on landing pages, refer to this [page](../../channels/using/getting-started-with-landing-pages.md).
 
 Here, we want to target in a workflow profiles that didn't fill this field. They will receive an email asking them to update their profiles to receive personalized newsletters and offers. Each profile will then receive a personalized newsletter depending on their chosen interests.
 
