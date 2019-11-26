@@ -30,6 +30,8 @@ Information related to landing pages’ properties have been moved into a dedica
 
 The Control Panel documentation has been integrated into the new collaborative documentation set. [Read more](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
 
+The **Indicator calculation** table has been updated. [Read more](../../reporting/using/indicator-calculation.md)
+
 ## Release 19.4 - October 2019 {#release-19-4---october-2019}
 
 ### New capabilities included in the release {#new-capabilities-included-in-the-release-20}
