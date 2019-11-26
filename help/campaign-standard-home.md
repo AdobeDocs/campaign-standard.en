@@ -20,7 +20,7 @@ Learn more on best practices related to delivery design and sending.
 * **[Email designer](designing/using/designing-content-in-adobe-campaign.md)**<br/>
 Consult the reorganized email designer documentation.
 
-* **[Landing pages](channels/using/main-steps-to-set-up-a-landing-page.md)**<br/>
+* **[Landing pages](channels/using/getting-started-with-landing-pages.md)**<br/>
 Learn more on how to set up a landing page.
 
 [Click here for more updates](rn/using/documentation-updates.md)

@@ -26,7 +26,17 @@ You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-n
 
 A new use case has been added describing how to build a control group using a workflow in Campaign Standard. [Read more](../../automating/using/workflow-control-group.md)
 
+Information related to landing pages’ properties have been moved into a dedicated section. [Read more](../../channels/using/configuring-landing-page.md)
+
+The Control Panel documentation has been integrated into the new collaborative documentation set. [Read more](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
+
+The **Indicator calculation** table has been updated. [Read more](../../reporting/using/indicator-calculation.md)
+
 The APIs documentation set has been integrated into Campaign Standard documentation.[Read more](../../api/using/about-campaign-standard-apis.md)
+
+The Creating a personalized email getting started guide has been moved and updated. [Read more](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
+
+The Delivery Best Practices getting started guide has been updated. [Read more](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
 ## Release 19.4 - October 2019 {#release-19-4---october-2019}
 
@@ -44,7 +54,7 @@ The GDPR getting started guide has been improved and enriched. It is now a priva
 
 A new chart presenting the transactional messaging publication process has been added. [Read more](../../channels/using/about-transactional-messaging.md#transactional-messaging-pub-process)
 
-The Delivery Best Practices getting started guide has been updated. [Read more](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+The Delivery Best Practices getting started guide has been moved and updated. [Read more](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
 A new section has been added. It provides an overview of the different methods that allow you to enrich Campaign Standard database. [Read more](../../start/using/enriching-campaign-database.md)
 
@@ -60,7 +70,7 @@ A new section describing how to send an automatic custom confirmation email to p
 
 The Transactional messaging section has been modified with the latest UI updates, including editing content with the Email Designer. [Read more](../../channels/using/event-transactional-messages.md)
 
-The landing pages chapter has been reorganized. It has also been enriched with a new section detailing the steps to set up a landing page. [Read more](../../channels/using/main-steps-to-set-up-a-landing-page.md)
+The landing pages chapter has been reorganized. It has also been enriched with a new section detailing the steps to set up a landing page. [Read more](../../channels/using/getting-started-with-landing-pages.md)
 
 The Audience Manager integration page has been updated to reflect **Declared ID** changes. [Read more](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
@@ -130,7 +140,7 @@ Added a warning in custom resource documentation. We recommend using 30 characte
 
 ## Documentation updates - July 2019 {#doc-updates-2019}
 
-Added a new page on Landing page limitations. [Read more](../../channels/using/about-landing-pages.md#landing-page-limitations)
+Added a new page on Landing page limitations. [Read more](../../channels/using/getting-started-with-landing-pages.md#landing-page-limitations)
 
 A use case was added on how to call a profile using a composite identification key. [Read more](../../developing/using/uc-calling-resource-id-key.md)
 
@@ -150,7 +160,7 @@ Local notifications - [Read more](../../channels/using/customizing-an-in-app-mes
 
 Workflow enhancement - Add a payload to external signal activity - [Read more](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
-Landing Pages enhancement - Google reCAPTCHA - [Read more](../../channels/using/designing-a-landing-page.md#setting-google-recaptcha)
+Landing Pages enhancement - Google reCAPTCHA - [Read more](../../channels/using/configuring-landing-page.md#setting-google-recaptcha)
 
 ### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release}
 

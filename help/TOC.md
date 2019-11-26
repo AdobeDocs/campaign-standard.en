@@ -104,12 +104,13 @@ user-guide-title: Adobe Campaign Standard Help
        + [Transactional push notifications](channels/using/transactional-push-notifications.md)
        + [Follow-up messages](channels/using/follow-up-messages.md)
   + Landing pages {#landing-pages}
-       + [About landing pages](channels/using/about-landing-pages.md)
-       + [Main steps to set up a landing page](channels/using/main-steps-to-set-up-a-landing-page.md)
+       + [About landing pages](channels/using/getting-started-with-landing-pages.md)
+       + [Main steps to set up a landing page](channels/using/getting-started-with-landing-pages.md)
        + [About landing page templates](channels/using/landing-page-templates.md)
+       + [Configuring a landing page](channels/using/configuring-landing-page.md)
        + [Designing a landing page](channels/using/designing-a-landing-page.md)
        + [Managing landing page form data](channels/using/managing-landing-page-form-data.md)
-       + [Sharing a landing page](channels/using/sharing-a-landing-page.md)
+       + [Testing and publishing a landing page](channels/using/testing-publishing-landing-page.md)
        + [Setting up a double opt-in process](channels/using/setting-up-a-double-opt-in-process.md)
 + Designing email content {#designing-content}
   + [Campaign Email Designer](designing/using/designing-content-in-adobe-campaign.md)
