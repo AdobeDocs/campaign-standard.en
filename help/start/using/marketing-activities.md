@@ -84,7 +84,7 @@ According to the context, you can:
 * [Create a push notification](../../channels/using/preparing-and-sending-a-push-notification.md)
 * [Create an InApp message](../../channels/using/about-in-app-messaging.md)
 * [Create a workflow](../../automating/using/building-a-workflow.md#creating-a-workflow)
-* [Create a landing page](../../channels/using/about-landing-pages.md)
+* [Create a landing page](../../channels/using/getting-started-with-landing-pages.md)
 * [Create a campaign](../../start/using/programs-and-campaigns.md#creating-a-campaign)
 * [Create a program](../../start/using/programs-and-campaigns.md#creating-a-program)
 

@@ -64,6 +64,6 @@ Profiles can also be partitioned depending on their organizational units. To add
 
 **Related topics:**
 
-* [About landing pages](../../channels/using/about-landing-pages.md) step-by-step guide
+* [About landing pages](../../channels/using/getting-started-with-landing-pages.md) step-by-step guide
 * [Importing profiles](https://helpx.adobe.com/campaign/kt/acs/using/acs-importing-profiles-feature-video-using.html)
 

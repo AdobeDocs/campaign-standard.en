@@ -50,5 +50,4 @@ Once a service has been created, you can start promoting it.
 * [Managing a service and subscriptions](https://helpx.adobe.com/campaign/kt/acs/using/acs-services-and-subscriptions-feature-video-use.html) video
 * [Promoting a service](../../audiences/using/promoting-a-service.md)
 * [Creating an audience made of subscribers](../../audiences/using/creating-audiences.md#creating-list-audiences)
-* [Linking a form to a service in a landing page](../../channels/using/designing-a-landing-page.md#linking-a-form-to-a-service)
-
+* [Linking a landing page to a service](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)

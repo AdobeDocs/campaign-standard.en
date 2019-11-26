@@ -46,7 +46,7 @@ The principle is as follows:
 * Map each input field with the corresponding field from the database.
 * Make the landing page available online via a website or through a direct link into a message.
 
-For more on landing pages, refer to the [dedicated documentation](../../channels/using/about-landing-pages.md).
+For more on landing pages, refer to the [dedicated documentation](../../channels/using/getting-started-with-landing-pages.md).
 
 ## Synchronizing profiles from Microsoft Dynamics 365
 

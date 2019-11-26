@@ -324,7 +324,7 @@ Introduced a series of improvements and fixes to optimize fragments in the 19.2 
   </tr> 
   <tr> 
    <td> Landing Pages enhancement - Google reCAPTCHA<br /> </td> 
-   <td> <p>Leverage Google reCAPTCHA to prevent spam on your landing pages without requiring any action from your customers.</p><p>For more information, refer to the <a href="../../channels/using/designing-a-landing-page.md#setting-google-recaptcha">detailed documentation</a>.</p></td> 
+   <td> <p>Leverage Google reCAPTCHA to prevent spam on your landing pages without requiring any action from your customers.</p><p>For more information, refer to the <a href="../../channels/using/configuring-landing-page.md#setting-google-recaptcha">detailed documentation</a>.</p></td> 
   </tr> 
  </tbody> 
 </table>
