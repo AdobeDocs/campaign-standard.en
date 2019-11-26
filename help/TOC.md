@@ -340,3 +340,28 @@ user-guide-title: Adobe Campaign Standard Help
        + [Sending internal notifications](administration/using/sending-internal-notifications.md)
        + [Data retention](administration/using/data-retention.md)
        + [Updates and maintenance operations](administration/using/updates-and-maintenance-operations.md)
++ Working with APIs {#working-with-apis}  
+  + About Campaign Standard APIs {#about-campaign-standard-apis}
+       + [Overview](api/using/about-campaign-standard-apis.md)
+       + [Why using Campaign Standard APIs](api/using/why-using-campaign-standard-apis.md)
+       + [Setting up API access](api/using/setting-up-api-access.md)
+  + Global concepts {#global-concepts}
+       + [Must-read](api/using/must-read.md)
+       + [Endpoints](api/using/endpoints.md)
+       + [Metadata mechanism](api/using/metadata-mechanism.md)
+       + [Verbs](api/using/verbs.md)
+       + Additional operations {#additional-operations}
+          + [Sorting](api/using/sorting.md)
+          + [Filtering](api/using/filtering.md)
+          + [Counting](api/using/counting.md)
+          + [Pagination](api/using/pagination.md)
+       + [Custom resources](api/using/custom-resources.md)
+  + [Managing profiles](api/using/managing-profiles.md)
+  + [Managing services and subscriptions](api/using/managing-services-and-subscriptions.md)
+  + [Interacting with marketing history](api/using/interacting-with-marketing-history.md)  
+  + [Privacy management](api/using/privacy-management.md)
+  + [Managing transactional messages](api/using/managing-transactional-messages.md)
+  + [Managing workflows](api/using/managing-workflows.md)  
+  + [Managing organizational units](api/using/managing-organizational-units.md)
+  + [Managing geographical units](api/using/managing-geographical-units.md)
+  + [Troubleshooting](api/using/troubleshooting.md)

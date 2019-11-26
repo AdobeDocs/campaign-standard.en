@@ -54,7 +54,7 @@ Learn more on how to set up a landing page.
     <div>
     <strong>Resources for developers</strong>
     </div>
-    <p><em><a href="https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html">Adobe Campaign API</a></em></p>
+    <p><em><a href="api/using/about-campaign-standard-apis.md">Adobe Campaign API</a></em></p>
     <p><em><a href="integrating/using/about-adobe-experience-cloud-triggers.md">Adobe Experience Cloud Triggers</a></em></p>
     <br>
   </td>
