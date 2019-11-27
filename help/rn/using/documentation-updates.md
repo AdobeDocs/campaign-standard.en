@@ -60,7 +60,7 @@ A new section has been added. It provides an overview of the different methods t
 
 A new section has been added describing how to style links with the Email Designer. [Read more](../../designing/using/styles.md#about-styling-links)
 
-Information related to privacy has been added to the APIs documentation [Click here](../../api/using/creating-a-privacy-request)
+Information related to privacy has been added to the APIs documentation [Click here](../../api/using/creating-a-privacy-request.md)
 
 ## Documentation updates - October 2019 {#doc-updates-october-2019}
 

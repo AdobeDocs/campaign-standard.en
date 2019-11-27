@@ -363,7 +363,7 @@ user-guide-title: Adobe Campaign Standard Help
   + Managing services and subscriptions
        + [Creating a service](api/using/creating-a-service.md)
        + [Retrieving subscriptions](api/using/retrieving-subscriptions.md)
-       + [Perform subscriptions](api/using/performing-subscriptions.md)
+       + [Perform subscriptions](api/using/perform-subscriptions.md)
        + [Deleting subscriptions](api/using/deleting-subscriptions.md)
   + [Interacting with marketing history](api/using/interacting-with-marketing-history.md)  
   + Privacy management
