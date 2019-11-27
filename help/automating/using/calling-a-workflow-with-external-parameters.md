@@ -46,7 +46,7 @@ The first step to call a workflow with parameters is to declare them in an **[!U
 
 ## Defining the parameters when calling the workflow {#defining-the-parameters-when-calling-the-workflow}
 
-This section details how to define parameters when calling a workflow. For more on how to perform this operation from an API call, refer to the [REST APIs documentation](../../api/using/managing-workflows.md).
+This section details how to define parameters when calling a workflow. For more on how to perform this operation from an API call, refer to the [REST APIs documentation](../../api/using/triggering-a-signal-activity.md).
 
 Before defining the parameters, make sure that:
 
@@ -221,7 +221,7 @@ Before configuring the workflows, you need to create Workflow 1 and 2 with an **
 
 ### Step 1: Configuring the API call {#step-1--configuring-the-api-call}
 
-Make an API call to trigger Workflow 1 with parameters. For more on the API call syntax, refer to the [Campaign Standard REST APIs documentation](../../api/using/managing-workflows.md).
+Make an API call to trigger Workflow 1 with parameters. For more on the API call syntax, refer to the [Campaign Standard REST APIs documentation](../../api/using/triggering-a-signal-activity.md).
 
 In our case, we want to call the workflow with the parameters below:
 

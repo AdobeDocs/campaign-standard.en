@@ -496,7 +496,7 @@ Push improvements - Read more [here](../../channels/using/preparing-and-sending-
 
 Time-zone optimized deliveries - [Read more](../../automating/using/scheduler.md)
 
-API Signal activity triggering - [Read more](../../api/using/managing-workflows.md)
+API Signal activity triggering - [Read more](../../api/using/triggering-a-signal-activity.md)
 
 ### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-9}
 
@@ -546,7 +546,7 @@ The Push channel configuration [section](https://helpx.adobe.com/campaign/kb/con
 
 The SMS documentation has been updated with some clarification added to the [SMS automatic replies](../../channels/using/managing-incoming-sms.md#managing-stop-sms) section.
 
-New section dedicated to workflow management via the API. [Read more](../../api/using/managing-workflows.md)
+New section dedicated to workflow management via the API. [Read more](../../api/using/controlling-a-workflow.md)
 
 New section dedicated to primary keys and the use of a business ID as a key in the API. [Read more](../../api/using/about-campaign-standard-apis.md)
 

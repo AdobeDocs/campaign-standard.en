@@ -356,12 +356,31 @@ user-guide-title: Adobe Campaign Standard Help
           + [Counting](api/using/counting.md)
           + [Pagination](api/using/pagination.md)
        + [Custom resources](api/using/custom-resources.md)
-  + [Managing profiles](api/using/managing-profiles.md)
-  + [Managing services and subscriptions](api/using/managing-services-and-subscriptions.md)
+  + Managing profiles
+       + [Retrieving profiles](api/using/retrieving-profiles.md)
+       + [Updating profiles](api/using/updating-profiles.md)
+       + [Creating profiles](api/using/creating-profiles.md)
+  + Managing services and subscriptions
+       + [Creating a service](api/using/creating-a-service.md)
+       + [Retrieving subscriptions](api/using/rtrieving-subscriptions.md)
+       + [Performing subscriptions](api/using/performing-subscriptions.md)
+       + [Deleting subscriptions](api/using/deleting-subscriptions.md)
   + [Interacting with marketing history](api/using/interacting-with-marketing-history.md)  
-  + [Privacy management](api/using/privacy-management.md)
+  + Privacy management
+       + [Creating a privacy request](api/using/creating-a-privacy-request.md)
+       + [Monitoring a privacy request](api/using/monitoring-a-privacy-request.md)
+       + [Retrieving privacy data files](api/using/retrieving-privacy-data-files.md)
+       + [Managing CCPA opt-out](api/using/managing-ccpa-opt-out.md)
   + [Managing transactional messages](api/using/managing-transactional-messages.md)
-  + [Managing workflows](api/using/managing-workflows.md)  
-  + [Managing organizational units](api/using/managing-organizational-units.md)
-  + [Managing geographical units](api/using/managing-geographical-units.md)
+  + [Managing workflows]
+       + [Controlling a workflow](api/using/controlling-a-workflow.md)
+       + [Triggering a signal activity](api/using/triggering-a-signal-activity.md)
+  + Managing organizational units
+       + [Retrieving a profile's Organizational unit](api/using/retrieving-an-organizational-unit.md)
+       + [Updating a profile's Organizational unit](api/using/updating-profile-organizational-unit.md)
+       + [Updating an Organizational unit attributes](api/using/updating-organizational-unit-attributes.md)  
+  + Managing geographical units
+       + [Retrieving a profile's Geographical unit](api/using/retrieving-a-geographical-unit.md)
+       + [Updating a profile's Geographical unit](api/using/updating-a-geographical-unit.md)
+       + [Updating a Geographical unit attributes](api/using/updating-geographical-unit-attributes.md)  
   + [Troubleshooting](api/using/troubleshooting.md)
