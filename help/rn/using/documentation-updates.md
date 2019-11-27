@@ -60,7 +60,7 @@ A new section has been added. It provides an overview of the different methods t
 
 A new section has been added describing how to style links with the Email Designer. [Read more](../../designing/using/styles.md#about-styling-links)
 
-Information related to privacy has been added to the APIs documentation [Click here](../../api/using/privacy-management.md)
+Information related to privacy has been added to the APIs documentation [Click here](../../api/using/creating-a-privacy-request)
 
 ## Documentation updates - October 2019 {#doc-updates-october-2019}
 
@@ -422,7 +422,7 @@ Use of Custom Resources in Transactional Messaging - [Read more](../../administr
 
 ### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-7}
 
-The GDPR API regroups features that allow the automatic processing of GDPR requests. [Read more](../../api/using/privacy-management.md)
+The GDPR API regroups features that allow the automatic processing of GDPR requests. [Read more](../../api/using/creating-a-privacy-request.md)
 
 Added information on how to set up landing pages to give your recipients the ability to be blacklisted. [Read more](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 

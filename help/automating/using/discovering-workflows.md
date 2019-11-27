@@ -29,7 +29,7 @@ Workflows can be used in **different contexts**, as for example:
 * Importing data into Campaign database. For more on this, refer to [Importing and exporting data](../../automating/using/about-data-import-and-export.md).
 * Technical processes such as database cleanup, recovering tracking information, etc. Learn more about technical workflows in [this section](../../administration/using/technical-workflows.md).
 
-Workflows are also accessible from the Adobe Campaign Standard API. For more on this, refer to the [dedicated documentation](../../api/using/controlling-a-workflow.md.md).
+Workflows are also accessible from the Adobe Campaign Standard API. For more on this, refer to the [dedicated documentation](../../api/using/controlling-a-workflow.md).
 
 **Related topics:**
 
