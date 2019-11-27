@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-#  Updating an Organizational unit attributes {#updating-organizational-unit-attributes}
+# Updating an Organizational unit attributes {#updating-organizational-unit-attributes}
 
 1. Perform a GET request on the **orgUnitBase** resource to retrieve the Organizational unit PKey.
 1. Perform a PATCH request on the Organizational unit, with the attributes to update in the payload.
