@@ -1,5 +1,5 @@
 ---
-title: Quick Start email content design
+title: Get started with the email designer
 description: Start building email content with the Email Designer.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
@@ -13,22 +13,27 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 ---
-# Quick Start email content design{#quick-start}
+# Get started with the email designer {#quick-start}
 
 The Email Designer provides four ways to create emails.
 
-You can create an email starting fresh:
+You can create an email [starting fresh in the Email Designer](#without-existing-content):
 
 * You can create an email from a blank canvas by easily adding structure and content components and personalize their content to send a delivery quickly. You can also fully manage style elements. For more information, [get started quickly](#from-scratch-email) or see the [complete documentation](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 
 * You can create an email from an out-of-the-box templates by selecting a template and building your new email content from here. [Learn more](#building-content-from-an-out-of-the-box-template)
 
-You can also create an email  with existing content:
+You can also create an email [with existing content](#with-existing-content):
 
 * You can convert an existing HTML content (created externally or in the legacy editor). [Learn more](#converting-an-html-content)
 * You can import an existing HTML content straight away in compatibility mode. [Learn more](#compatibility-mode)
 
-## Without existing content {#without-existing-content}
+| Without content   | With content   |
+|---|---|
+| Creating an email from scratch  | Converting an existing HTML content  |
+| Building content from an out-of-the-box template  | Importing an existing HTML  |
+
+## Designing emails with the editor {#without-existing-content}
 
 ### Creating an email from scratch {#from-scratch-email}
 
@@ -60,7 +65,7 @@ In Structure components, drag and drop components for the layout you want to use
 
 You can add several content components to your email such as image, text and buttons. For more information, see [Content components](../../designing/using/designing-from-scratch.md#about-content-components).
 
-* Image
+* **Image**
 
 1. In **Content Components**, drag and drop image into one of your structure components.
 1. Click **Browse**.
@@ -68,7 +73,7 @@ You can add several content components to your email such as image, text and but
 
 ![](assets/browse-image-quick-start.png)
 
-* Text with personalization
+* **Text with personalization**
 
 1. In **Content Components**, drag and drop text into one of your structure components.
 1. Click on the component and enter your text. 
@@ -77,7 +82,7 @@ You can add several content components to your email such as image, text and but
 
 ![](assets/edit-text-quick-start.png)
 
-* HTML
+* **HTML**
 
 1. In **Content Components**, drag and drop HTML into one of your structure components.
 1. Click **Show the source code**.
@@ -120,7 +125,7 @@ You can build an email from out-of-the-box templates such as customer welcome me
 1. Modify the content of each element according to your needs: images, text, links.
 1. Adapt the styling options to your content if needed. For more on this, see [Editing email styles](../../designing/using/styles.md).
 
-## With existing content {#with-existing-content}
+## Using an existing email content {#with-existing-content}
 
 If you want to build a framework of modular templates and fragments that can be combined to reuse in multiple emails, you should consider converting your email HTML into an Email Designer template.
 
@@ -212,7 +217,7 @@ When a content is loaded in compatibility mode, you can still perform the follow
 
 ![](assets/email_designer_compatibility.png)
 
-Other modifications such as adding new sections to your email or advanced styling must be done directly in the source code of the email via the HTML mode. 
+Other modifications such as adding new sections to your email or advanced styling must be done directly in the source code of the email via the HTML mode.
 Though the compatibility mode does not allow you to use drag and drop, it guarantees the same set of features as the legacy editor.
 
 For more on converting an existing email into an Email Designer-compatible email, see [this section](../../designing/using/using-existing-content.md).
