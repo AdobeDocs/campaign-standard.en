@@ -13,7 +13,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 ---
+
 # Multi-solution email design {#multi-solution-email-design}
+
+Adobe Campaign offers several email authoring options. You can use solutions such as Dreamweaver to edit your email content and create responsive messages in the Email Designer. You can also email content with Adobe Experience Manager and use it in your emails in Adobe Campaign Standard. 
 
 ## Editing content in Dreamweaver {#editing-content-in-dreamweaver}
 
@@ -96,30 +99,30 @@ Adobe Campaign offers several email authoring options. The table below shows the
   <tr> 
    <td> <strong>Benefits</strong><br /> </td> 
    <td> 
-     - Easy email building through drag-and-drop experience<br/>
-     - Functionalities similar to legacy content editor<br/>
-     - Reusable content with fragments
+     <p>- Easy email building through drag-and-drop experience</p>
+     <p>- Functionalities similar to legacy content editor</p>
+     <p>- Reusable content with fragments</p>
   </td> 
    <td> 
-     - Reusing assets from website in emails<br/>
-     - Leveraging the power of Experience Manager in email contents
+     <p>- Reusing assets from website in emails</p>
+     <p>- Leveraging the power of Experience Manager in email contents</p>
     </td> 
    <td> 
-    - Capability for a developer to directly code an email<br/>
-    - Bi-directional synchronization<br/>
-    - Editing offline in Dreamweaver and synchronizing later<br/>
-    - Uploading images to Adobe Campaign through Dreamweaver
+    <p>- Capability for a developer to directly code an email</p>
+    <p>- Bi-directional synchronization</p>
+    <p>- Editing offline in Dreamweaver and synchronizing later</p>
+    <p>- Uploading images to Adobe Campaign through Dreamweaver</p>
   </td> 
   </tr> 
   <tr> 
    <td> <strong>Limitations</strong><br /> </td> 
    <td> 
-     - No conditional content within fragments<br/>
-     - Using Experience Manager fragments not possible
+     <p>- No conditional content within fragments</p>
+     <p>- Using Experience Manager fragments not possible</p>
   </td> 
    <td> 
-     - Advanced personalization difficult to implement<br/>
-     - Need to send tests in Adobe Campaign
+     <p>- Advanced personalization difficult to implement</p>
+     <p>- Need to send tests in Adobe Campaign</p>
   </td> 
    <td> Dynamic content not supported<br /> </td> 
   </tr> 
