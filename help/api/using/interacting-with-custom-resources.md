@@ -15,7 +15,6 @@ snippet: y
 
 # Interacting with custom resources {#interacting-with-custom-resources}
 
-
 The **/customResources** endpoint allows you to expose the ACS custom entities in REST. Based on this API, an integration between custom entities and external endpoints is available.
 
 The /customResources has exactly the same behavior as /profileAndServices endpoint.
@@ -32,17 +31,13 @@ The custom entities that are exposed within this API are:
 Here is an example to retrieve the metadata from a custom resource:
 
 ```
-
 GET /customResources/resourceType/<customResourceName>
-
 ```
 
 To perform a creation, update or deletion, the GET, POST, PATCH, DELETE are used.
 
 ```
-
 POST /customResources/<customResourceName>
-
 ```
 
 >[!NOTE]

@@ -38,6 +38,10 @@ The Creating a personalized email getting started guide has been moved and updat
 
 The Delivery Best Practices getting started guide has been updated. [Read more](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
+The datamodel has been integrated into Campaign Standard documentation. [Read more](../../developing/using/datamodel-audience.md)
+
+The new API endpoint **/customResources** has been added to the API documentation.[Read more](../../api/using/interacting-with-custom-resources.md)
+
 ## Release 19.4 - October 2019 {#release-19-4---october-2019}
 
 ### New capabilities included in the release {#new-capabilities-included-in-the-release-20}
