@@ -20,7 +20,7 @@ Once you have created an email in Adobe Campaign, you need to define its content
 
 <!--The Email Designer has more features than the Legacy Editor and is backward compatible.-->
 
-* To discover how to create email content, see [Quick start](../../designing/using/quick-start.md).
+* To discover how to create email content, see [Get started with the email designer](../../designing/using/quick-start.md).
 * For an overview of the Email Designer, see [Using the Email Designer](../../designing/using/overview.md).
 * For more on building content: 
   * From scratch, see [Designing emails from scratch](../../designing/using/designing-from-scratch.md).
