@@ -104,8 +104,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Transactional push notifications](channels/using/transactional-push-notifications.md)
        + [Follow-up messages](channels/using/follow-up-messages.md)
   + Landing pages {#landing-pages}
-       + [About landing pages](channels/using/getting-started-with-landing-pages.md)
-       + [Main steps to set up a landing page](channels/using/getting-started-with-landing-pages.md)
+       + [Getting started with landing pages](channels/using/getting-started-with-landing-pages.md)
        + [About landing page templates](channels/using/landing-page-templates.md)
        + [Configuring a landing page](channels/using/configuring-landing-page.md)
        + [Designing a landing page](channels/using/designing-a-landing-page.md)
@@ -356,6 +355,7 @@ user-guide-title: Adobe Campaign Standard Help
           + [Counting](api/using/counting.md)
           + [Pagination](api/using/pagination.md)
        + [Custom resources](api/using/custom-resources.md)
+  + [Interacting with custom resources](api/using/interacting-with-custom-resources.md)   
   + Managing profiles {#managing-profiles}
        + [Retrieving profiles](api/using/retrieving-profiles.md)
        + [Updating profiles](api/using/updating-profiles.md)
