@@ -40,7 +40,25 @@ You can also define dynamic content that varies depending on each profile. See [
 
 Enhance your messages and landing pages with links and images. See [Inserting a link](../../designing/using/links.md#inserting-a-link) and [Inserting images](../../designing/using/images.md#inserting-images).
 
-## User interface
+## Email Designer interface {#email-designer-interface}
+
+The Email Designer provides many options that allow you to create, edit and customize every aspect of your content.
+
+The interface is composed of several areas offering different functionalities:
+
+![](assets/email_designer_overview.png)
+
+From the elements available in the **Palette** (1), drag and drop structure components and content fragments into the main **Workspace** (2). Select a component or element in the **Workspace** (2) and customize its main styling and display characteristics from the **Settings** pane (3).
+
+Access more general options and settings from the main **Toolbar** (4).
+
+>[!NOTE]
+>
+>The **Settings** pane can move to the left according to your screen resolution and display.
+
+![](assets/email_designer_toolbar.png)
+
+The **Contextual toolbar** of the editor interface offers various functionalities depending on the zone selected. It contains action buttons and buttons that allow you to change the style of the text. The modifications carried out always apply to the zone selected.
 
 ### Email Designer home page {#email-designer-home-page}
 
@@ -65,26 +83,6 @@ If you do not select a template, the Email Designer home page also enables you t
 * Click the **[!UICONTROL Create]** button to start a new content from scratch. See [Designing an email content from scratch](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 * Click the **[!UICONTROL Upload]** button to upload a file from your computer. See [Importing content from a file](../../designing/using/using-existing-content.md#importing-content-from-a-file).
 * Click the **[!UICONTROL Import from URL]** button to retrieve existing content form a URL. See [Importing content from a URL](../../designing/using/using-existing-content.md#importing-content-from-a-url).
-
-### Email Designer interface {#email-designer-interface}
-
-The Email Designer provides many options that allow you to create, edit and customize every aspect of your content.
-
-The interface is composed of several areas offering different functionalities:
-
-![](assets/email_designer_overview.png)
-
-From the elements available in the **Palette** (1), drag and drop structure components and content fragments into the main **Workspace** (2). Select a component or element in the **Workspace** (2) and customize its main styling and display characteristics from the **Settings** pane (3).
-
-Access more general options and settings from the main **Toolbar** (4).
-
->[!NOTE]
->
->The **Settings** pane can move to the left according to your screen resolution and display.
-
-![](assets/email_designer_toolbar.png)
-
-The **Contextual toolbar** of the editor interface offers various functionalities depending on the zone selected. It contains action buttons and buttons that allow you to change the style of the text. The modifications carried out always apply to the zone selected.
 
 ## Terminology {#terminology}
 
