@@ -21,7 +21,7 @@ Learn how to master email content edition. With Email Designer, you can create t
 
 >[!NOTE]
 >
-> In Adobe Campaign Standard, you can create different types of templates that are accessible from the **Resources** > **Templates** menu. The templates used in the Email Designer are Content templates. For more information, see [About templates](../../start/using/about-templates.md).
+> In Adobe Campaign Standard, you can create different types of templates that are accessible from the **Resources** > **Templates** menu. The templates used in the Email Designer are Content templates. For more information, see [About templates](../../start/using/marketing-activity-templates.md).
 
 ### Content templates {#content-templates}
 

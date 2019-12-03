@@ -75,6 +75,6 @@ Once the sending is finished, you can start measuring the impact of your message
 **Related topics:**
 
 * [About SMS and push content edition](../../channels/using/about-sms-and-push-content-design.md)
-* [Managing templates](../../start/using/about-templates.md)
+* [Managing templates](../../start/using/marketing-activity-templates.md)
 * [Create an SMS delivery](https://helpx.adobe.com/campaign/kt/acs/using/acs-creating-a-sms-delivery-feature-video-use.html) video
 
