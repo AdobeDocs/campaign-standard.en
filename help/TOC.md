@@ -114,8 +114,8 @@ user-guide-title: Adobe Campaign Standard Help
        + [Setting up a double opt-in process](channels/using/setting-up-a-double-opt-in-process.md)
 + Designing email content {#designing-content}
   + [Campaign Email Designer](designing/using/designing-content-in-adobe-campaign.md)
-  + [Get started with the email designer](designing/using/quick-start.md)
   + [Usage & Recommendations](designing/using/overview.md)
+  + [Get started with the email designer](designing/using/quick-start.md)
   + [Defining the subject line and the sender](designing/using/subject-line.md)
   + Designing email content{#designing-email-content}
        + [Designing emails from scratch](designing/using/designing-from-scratch.md)
