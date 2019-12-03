@@ -116,7 +116,7 @@ To make proper use of the Email Designer and create the best emails as simply as
 
 More design and general best practices regarding messages are presented in the following Adobe Campaign step-by-step guide: [Delivery best practices with Adobe Campaign](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html).
 
-#### Updating fragments {#email-designer-updates}
+### Updating fragments {#email-designer-updates}
 
 The Email Designer is under continuous improvement. If you created an email content from scratch, from an out-of-the-box template or if you created fragments, you may get the following update message the next time you open your content:
 
