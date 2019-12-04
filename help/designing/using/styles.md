@@ -16,9 +16,7 @@ snippet: y
 
 # Managing Styles {#managing-styles}
 
-## Editing email styles{#editing-email-styles}
-
-### Editing an element {#editing-an-element}
+## Editing an element {#editing-an-element}
 
 In the Email Designer, when selecting an element, several options specific to the type of content selected are displayed in the **[!UICONTROL Settings]** pane. You can use these options to easily change the style of your email.
 
@@ -46,7 +44,7 @@ To select a column, you can also do the following:
 
 See an example in [this section](#example--adjusting-vertical-alignment-and-padding).
 
-### Adjusting style settings {#adjusting-style-settings}
+## Adjusting style settings {#adjusting-style-settings}
 
 1. Select an element in your email. For more on this, see [Selecting an element](#selecting-an-element).
 1. Adjust the settings according to your needs. Each selected element offers a different set of settings.
@@ -59,7 +57,7 @@ See an example in [this section](#example--adjusting-vertical-alignment-and-padd
 
 1. Save your content.
 
-### About padding and margin {#about-padding-and-margin}
+## About padding and margin {#about-padding-and-margin}
 
 The Email Designer interface allows you to quickly adjust padding and margin settings.
 
@@ -85,7 +83,7 @@ For both **[!UICONTROL Padding]** and **[!UICONTROL Margin]**, click the lock ic
 
 ![](assets/des_padding_lock_icon.png)
 
-### About alignment {#about-alignment}
+## Styling alignment {#about-alignment}
 
 * **Text alignment**: place the cursor of your mouse on some text and use the contextual toolbar to align it.
 
@@ -99,7 +97,7 @@ For both **[!UICONTROL Padding]** and **[!UICONTROL Margin]**, click the lock ic
 
   ![](assets/des_set_vertical_alignment.png)
 
-### About backgrounds {#about-backgrounds}
+## Setting backgrounds {#about-backgrounds}
 
 When it comes to setting backgrounds with the Email Designer, Adobe recommends the following:
 
@@ -141,7 +139,7 @@ Below are the available background settings that you can use.
 
   You can also set a background image at the column level, but this is rarely used.
 
-#### Example: adjusting vertical alignment and padding {#example--adjusting-vertical-alignment-and-padding}
+### Example: adjusting vertical alignment and padding {#example--adjusting-vertical-alignment-and-padding}
 
 You want to adjust padding and vertical alignment inside a structure component composed of three columns. To do this, follow the steps below:
 
@@ -170,7 +168,7 @@ You want to adjust padding and vertical alignment inside a structure component c
 
 1. Save your changes.
 
-### About styling links {#about-styling-links}
+## Styling links {#about-styling-links}
 
  >[!NOTE]
  >
@@ -198,7 +196,7 @@ You can underline a link and select its color and target in the Email Designer.
 
 1. Save your changes.
 
-### Adding inline styling attributes {#adding-inline-styling-attributes}
+## Adding inline styling attributes {#adding-inline-styling-attributes}
 
 In the Email Designer interface, when you select an element and display its settings on the side panel, you can customize the inline attributes and their value for that specific element.
 
@@ -215,7 +213,7 @@ The styling is then applied to the selected element. If the child elements do no
 
 You can fine-tune the responsive design of an email by separately editing all style options for mobile display. For example, you can adapt margins and padding, use smaller or bigger font sizes, change buttons, or apply different background colors that will be specific to the mobile version of your email.
 
-All style options are available in mobile view. The Email Designer style settings are presented in the [Editing email styles](#editing-email-styles) section.
+All style options are available in mobile view. The Email Designer style settings are presented previously on this page.
 
 1. Create an email and start editing the content. For more on this, see [Designing an email content from scratch](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 1. To access the dedicated mobile view, select the **[!UICONTROL Switch to mobile view]** button.

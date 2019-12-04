@@ -202,7 +202,7 @@ You can create your own content fragments to use them as needed in one or more e
     >
     >Avoid saving as a fragment content with empty structure components. Once the >fragment is inserted, they will not be editable.
     >
-    >The [mobile view](../../designing/using/styles.md#switching-to-mobile-view) is not available in fragments.
+    >The [mobile view](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view) is not available in fragments.
 
 1. Once edited, save your fragment.
 
@@ -248,7 +248,7 @@ When editing an email with the Email Designer, you can directly save part of tha
 ![](assets/email_designer_save-as-fragment_in-new-email.png)
 
 >[!NOTE]
->The [mobile view](../../designing/using/styles.md#switching-to-mobile-view) is not available in fragments. If you want to edit an email mobile view, do it before saving your content as a fragment.
+>The [mobile view](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view) is not available in fragments. If you want to edit an email mobile view, do it before saving your content as a fragment.
 
 <!--You need to copy-paste the HTML corresponding to the section that you want to save into a new fragment.
 
