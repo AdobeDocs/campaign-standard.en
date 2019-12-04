@@ -18,6 +18,11 @@ snippet: y
 
 Once you have created an email in Adobe Campaign, you need to define its content.
 
+The Email Designer enables you to create captivating, individually tailored emails through a drag and drop
+interface augmented by native Creative Cloud integrations. Whether you're starting from a blank slate, or leveraging existing content fragments or templates, design and refine all content for every email, whether promotional or transactional.
+
+Built to deliver HTML optimized for responsive design, the Email Designer allows you to easily define and apply visibility conditions and dynamic content to an email, template, or fragment directly through the user interface. You can seamlessly switch betwing the drag and drop interface and HTML code at the click of a button.
+
 The Email Designer allows you to create email content and email content templates. It is compatible with simple emails, transactional emails, A/B test emails, multilingual emails, and recurring emails.
 
 To get started with the Email Designer, watch this [set of videos](https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html#GettingStarted) that explain the general functionality of the Email Designer and how to design an email from scratch or using templates.
