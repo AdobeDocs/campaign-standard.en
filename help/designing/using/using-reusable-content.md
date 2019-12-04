@@ -17,7 +17,7 @@ snippet: y
 
 Learn how to master email content edition. With Email Designer, you can create templates and fragments with your own predefined content and reuse them for following deliveries.
 
-## Designing using templates {#designing-templates}
+## Designing emails using templates {#designing-templates}
 
 >[!NOTE]
 >
@@ -84,7 +84,7 @@ When editing an email with the Email Designer, you can directly save the content
 1. To use your new template, select it from the **[!UICONTROL Templates]** tab of the [Email Designer](../../designing/using/overview.md#about-the-email-designer) home page.
 
     ![](assets/content_template_new.png)
-    
+
 ### Creating a template with fragments and components {#template-fragments-components}
 
 You can now create an email template with the Email Designer. Use content components to reflect the different sections of your email and adjust the settings to make them as close as possible to your original newsletter. Finally, insert the fragments that you just created.

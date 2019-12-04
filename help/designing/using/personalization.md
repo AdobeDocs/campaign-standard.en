@@ -1,5 +1,5 @@
 ---
-title: Personalization
+title: Personalizing email content
 description: Discover how to personalize an email in the Email Designer.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Personalization {#personalization}
+# Personalizing email content {#personalization}
 
 The content and display of messages delivered by Adobe Campaign can be personalized in several different ways. These ways can be combined according to criteria depending on the profiles. In general, Adobe Campaign allows you to:
 
