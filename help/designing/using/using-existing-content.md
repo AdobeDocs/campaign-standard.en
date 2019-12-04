@@ -60,7 +60,7 @@ If all or part of the HTML does not have this tagging, the content is then loade
 
 To make an existing external content fully editable within the Email Designer, see the [Designing an email using existing contents](../../designing/using/using-existing-content.md) section.
 
-## Importing existing content {#importing}
+## Importing an existing email content {#importing}
 
 ### Importing content from a file {#importing-content-from-a-file}
 
