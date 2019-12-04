@@ -1,5 +1,5 @@
 ---
-title: Plain text and HTML modes
+title: Editing plain text, HTML and mobile email formats
 description: Discover the Plain text and HTML modes
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
@@ -14,7 +14,9 @@ internal: n
 snippet: y
 ---
 
-# Editing plain text, html and mobile email formats {#plain-text-and-html-modes}
+# Editing plain text, HTML and mobile email formats {#plain-text-and-html-modes}
+
+The Email Designer enables you to edit several rendering of your emails. You can generate a text version of your email, edit the HTML source of an email and design emails for mobile view.
 
 ## Generating a text version of the email {#generating-a-text-version-of-the-email}
 
