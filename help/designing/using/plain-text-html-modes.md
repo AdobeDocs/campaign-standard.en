@@ -80,9 +80,12 @@ All style options are available in mobile view. The Email Designer style setting
    ![](assets/email_designer_mobile_view_change.png)
 
 1. You can hide a component when displayed on a mobile device. To do this, select **[!UICONTROL Show only on desktop devices]** from the **[!UICONTROL Display options]**.
-You can also choose to hide this component on desktop devices, which means that it will be displayed on mobile devices only. To do this, select **[!UICONTROL Show only on mobile devices]**.
-For example, this option enables you to display a specific image on mobile devices and another image on desktop devices.
-You can either set this option from the mobile or desktop view.
+
+   You can also choose to hide this component on desktop devices, which means that it will be displayed on mobile devices only. To do this, select **[!UICONTROL Show only on mobile devices]**.
+
+   For example, this option enables you to display a specific image on mobile devices and another image on desktop devices.
+
+   You can either set this option from the mobile or desktop view.
 
    ![](assets/email_designer_mobile_hide.png)
 
