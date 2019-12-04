@@ -1,6 +1,6 @@
 ---
-title: Managing workflows
-description: Learn how to manage workflows with APIs.
+title: Triggering a signal activity
+description: Learn how to trigger a signal activity with APIs.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -14,64 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Managing workflows {#managing-workflows}
-
-## Controlling a workflow
-
-You can control a workflow directly from the REST API, through a POST request containing the workflow ID and the required execution command:
-
-`POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>/commands`
-
->[!CAUTION]
->
->If the worfklow ID is changed in Adobe Campaign, the API request will not work anymore.
-
-Four execution commands are available to control a workflow:
-
-* Start
-* Pause
-* Resume
-* Stop
-
-For more information on the execution commands, refer to the [Campaign documentation](https://helpx.adobe.com/campaign/standard/automating/using/executing-a-workflow.html).
-
-<br/>
-
-***Sample requests***
-
-* Start a workflow.
-
-  ```
-
-  -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>/commands \
-  -H 'Content-Type: application/json' \
-  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-  -H 'Cache-Control: no-cache' \
-  -H 'X-Api-Key: <API_KEY>' \
-  -i
-  -d '{"method":"start"}'
-
-  ```
-
-  <!-- + réponse -->
-
-* Stop a workflow.
-
-    ```
-
-    -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>/commands \
-    -H 'Content-Type: application/json' \
-    -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-    -H 'Cache-Control: no-cache' \
-    -H 'X-Api-Key: <API_KEY>' \
-    -i
-    -d '{"method":"stop"}'
-
-    ```
-
-    <!-- + réponse -->
-
-## Triggering a Signal activity
+# Triggering a signal activity {#triggering-a-signal-activity}
 
 In an Adobe Campaign Standard workflow, there can be one or more **External signal** activities. These activities are 'listeners' that wait to be triggered.
 
