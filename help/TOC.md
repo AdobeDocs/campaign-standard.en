@@ -120,7 +120,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Designing emails using existing content](designing/using/using-existing-content.md)
        + [Designing emails using reusable content](designing/using/using-reusable-content.md)
        + [Designing emails using multi-solution integrations](designing/using/using-integrations.md)
-  + [Editing plain text, HTML and mobile emails](designing/using/plain-text-html-modes.md)
+       + [Editing plain text, HTML and mobile emails](designing/using/plain-text-html-modes.md)
   + [Personalizing email content](designing/using/personalization.md)
   + [Managing email styles](designing/using/styles.md)
   + [Managing links](designing/using/links.md)
