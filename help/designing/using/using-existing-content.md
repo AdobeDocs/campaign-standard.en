@@ -209,7 +209,7 @@ Once you have identified all your blocks, in the Email Designer, repeat the foll
 1. Add a structure component. For more on this, see [Editing the email structure](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Add an HTML component. For more on this, see [Adding fragments and components](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Copy-paste your HTML into that component.
-1. Switch to mobile view. For more on this, see [this section](../../designing/using/styles.md#switching-to-mobile-view).
+1. Switch to mobile view. For more on this, see [this section](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
 
    The responsive view is broken, because your CSS is missing.
 
