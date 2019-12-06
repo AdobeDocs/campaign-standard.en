@@ -55,15 +55,15 @@ First, start by consulting the documentation on the deliverability tools provide
 * [Quarantine vs blacklisting](../../sending/using/understanding-quarantine-management.md#quarantine-vs-blacklisting)
 * [Dynamic reports](../../reporting/using/about-dynamic-reports.md)
 
-## Incorrect network configuration {#network-configuration}
+## Checking network configuration {#network-configuration}
 
 Spammers try to conceal their real identity and as a consequence make their servers difficult to identify. A legitimate network configuration that does not try to hide the identity of the server is essential to sending emails in large volumes.
 
-## Sending to invalid addresses {#invalid-addresses}
+## Sending to valid addresses {#valid-addresses}
 
 Spammers often use address generators based on lists of frequent names and first names; in addition, they rarely process technical notifications sent back by mail servers. A high rate of invalid addresses is often interpreted as a sign of spam. Double opt-in mechanisms and effective handling of technical bounce messages make it possible to avoid this.
 
-## High complaint rate {#complaint-rate}
+## Reducing complaint rate {#reduce-complaint-rate}
 
 ISPs usually have a prominent means of reporting a received message as spam. This makes it possible to identify unreliable sources. By rapidly honoring opt-out requests, making regular use of a given list, verifying consent through a double opt-in system, and implementing feedback loops, you can reduce complaint rates.
 
@@ -71,10 +71,10 @@ ISPs usually have a prominent means of reporting a received message as spam. Thi
 
 ISPs and other organizations (refer to http://www.projecthoneypot.org/) make use of mailboxes that do not correspond to physical persons but are created simply to trick spammers. These so-called "honey pot" addresses are published on the Web in order to be collected by spambots and thus catch illegitimate senders. The use of a double opt-in mechanism precludes this sort of address being added to a list. When using a third-party list, you must be sure of the methods employed by its maintainer.
 
-## Aggressive vocabulary and insistent use of images {#content-detected-as-spam}
+## Adapting message content {#adapt-message-content}
 
 To a lesser degree, the content of certain messages can lead certain filters to detect it as spam. The use of certain words, the use of exclamation points in the subject line and within the messages are read as tell-tale signs of spam. Spammers are also known to replace text with images to stop offending text from being analyzed automatically by anti-spam filters. In response to this, a message (in HTML format) with a high proportion of images, or images as attachments, may end up being blocked.
 
-## Irregular deliveries with irregular volume-sizes {#irregular-deliveries}
+## Sending on a regular basis {#regular-deliveries}
 
 Spammers make programmed deliveries to maintain their reputation over time. They sometimes need to adapt their marketing plan to meet the best practices imposed by the ISPs and so, after a peak in reputation (ramp-up), they configure regular deliveries.

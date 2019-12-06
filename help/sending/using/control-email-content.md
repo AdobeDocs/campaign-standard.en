@@ -1,5 +1,5 @@
 ---
-title: Controlling the email content in Adobe Campaign Standard
+title: Controlling email content in Adobe Campaign Standard
 description: Learn how to improve deliverability in Adobe Campaign Standard when editing your email content.
 page-status-flag: never-activated
 uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
@@ -68,6 +68,10 @@ In the message content editor, click **[!UICONTROL Preview]**. A message warns y
   
 ## Checking the message responsiveness {#message-responsiveness}
 
-You can check what your message is going to look like on different devices. To allow this, Adobe Campaign captures the rendering and makes it available in a dedicated report. This enables you to preview the sent message in the different contexts in which it may be received. For more on this, see [Email rendering](../../sending/using/email-rendering.md).
+You can check what your message is going to look like on different devices.
+
+To allow this, Adobe Campaign captures the rendering and makes it available in a dedicated report. This enables you to preview the sent message in the different contexts in which it may be received.
+
+For more on this, see [Email rendering](../../sending/using/email-rendering.md).
 
 ![](assets/inbox_rendering_report_3.png)

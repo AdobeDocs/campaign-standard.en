@@ -28,11 +28,11 @@ Having duplicate email addresses can have multiple consequences:
 
 Besides this side-stepping of opt-in procedures, this situation will likely lead users to consider the messages as spam and to trigger a blacklisting procedure at the ISP.
 
-You must be especially prudent when performing operations on the database. To avoid duplicates as much as possible, the following actions must be carried out:
-* Imports must be meticulously configured, in particular when choosing the reconciliation key.
-* Pay attention when modifying email addresses. Changed email addresses can also be a source of duplicates. In particular, two addresses with different domains may be routed to the same mailbox, for example in the case of a company that has changed name and has maintained the former domain for a certain period of time: joe.doe@amce-co.com and joe.doe@acme-rebranded.com.
-* Automatic imports, of lists or from other databases, are elements to be taken into account when managing profiles. What happens when you delete or move a profile in another partition? It might be recreated in the initial partition by an automatic import, for example, when a purchase order is placed.
-* Profiles should be sorted into different folders.
+You must be especially cautious when performing operations on the database. To avoid duplicates as much as possible, the following actions must be carried out:
+* **Imports must be meticulously configured.** This is particularly important when choosing the reconciliation key.
+* **Pay attention when modifying email addresses.** Changed email addresses can also be a source of duplicates. In particular, two addresses with different domains may be routed to the same mailbox, for example in the case of a company that has changed name and has maintained the former domain for a certain period of time: joe.doe@amce-co.com and joe.doe@acme-rebranded.com.
+* **Pay attention during automatic imports.** Whether of lists or from other databases, they are elements to be taken into account when managing profiles. What happens when you delete or move a profile in another partition? It might be recreated in the initial partition by an automatic import, for example, when a purchase order is placed.
+* **Profiles should be sorted into different folders.**
 
 There are, all the same, cases in which duplicates between the different partitions are normal. For example, when sending for third-parties or different company entities, it is logical for the same person to be a recipient for different reasons. It is, however, rarely normal to find duplicates within the same partition.
 
