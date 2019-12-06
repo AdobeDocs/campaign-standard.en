@@ -149,8 +149,8 @@ user-guide-title: Adobe Campaign Standard Help
   + Managing deliverability {#managing-deliverability}
        + [About deliverability](sending/using/about-deliverability.md)
        + [Starting a new platform](sending/using/starting-new-platform.md)
-       + [bbb](sending/using/bbb.md)
-       + [ccc](sending/using/ccc.md)
+       + [Controlling email content](sending/using/control-email-content.md)
+       + [Improving your reputation](sending/using/improving-reputation.md)
 + Reporting {#reporting}
   + About reporting {#about-reporting}
        + [About dynamic reports](reporting/using/about-dynamic-reports.md)
