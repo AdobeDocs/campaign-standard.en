@@ -16,7 +16,7 @@ snippet: y
 
 # Monitoring deliverability{#monitoring-deliverability}
 
-Below you will find details on the Delivery throughput report as well as the different monitoring tools offered by Adobe Campaign. Here are some additional guidelines on deliverability monitoring:
+Below you will find details on the **[!UICONTROL Delivery throughput]** report as well as the different monitoring tools offered by Adobe Campaign. Here are some additional guidelines on deliverability monitoring:
 * Regularly check the delivery throughput for the whole platform to verify whether it is consistent with the original set-up.
 * Check that retries are set up correctly (30 minutes for retry period and more than 20 retries) in delivery templates.
 * Regularly verify that the bounce mailbox is accessible and that the account is not about to expire.
@@ -47,9 +47,9 @@ For more on this, see [Monitoring a delivery](../../sending/using/monitoring-a-d
 
 ## Receiving alerts {#receiving-alerts}
 
-The Delivery alerting feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries.
+The **[!UICONTROL Delivery alerting]** feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries.
 
-See documentation: Receiving alerts when failures happen
+For more on this, see [Receiving alerts when failures happen](../../sending/using/receiving-alerts-when-failures-happen.md).
 
 ## Signal Spam {#signal-spam}
 

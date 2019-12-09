@@ -68,7 +68,7 @@ In the message content editor, click **[!UICONTROL Preview]**. A message warns y
   
 ## Checking the message responsiveness {#message-responsiveness}
 
-You can check what your message is going to look like on different devices.
+Before sending your message, you can check what your message is going to look like on different devices. This is to make sure that it will be displayed in an optimal way on a variety of web clients, web mails and devices.
 
 To allow this, Adobe Campaign captures the rendering and makes it available in a dedicated report. This enables you to preview the sent message in the different contexts in which it may be received.
 
