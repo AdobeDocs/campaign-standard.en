@@ -50,6 +50,7 @@ To improve the success rate of your messages, you can manually define a sending 
 For more on this, see [Optimizing the sending time](../../sending/using/optimizing-the-sending-time.md).
 
 ## Opt-out link and form {#opt-out}
+
 By default, when the message is analyzed, a typology rule checks whether an opt-out link has been included and generates a warning if it is missing.
 
 You must check that the opt-out link works correctly before each time you send. For example, when sending the proof, make sure the link is valid, that the form is on-line and that validating this changes the value of the No longer contact boxes are checked. You should make this check systematically because human error is always possible when entering the link or when changing the form.

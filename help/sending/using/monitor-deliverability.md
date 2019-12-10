@@ -59,7 +59,7 @@ This service allows you to follow the reputation of the French ISPs and track cu
 
 Signal Spam also provides direct complaints that end users log through a dedicated interface. Those complaints are then quarantined from the email address database.
 
-## 250ok {#250ok}
+## 250ok {#solution-250ok}
 
 250ok is a monitoring solution which provides IP, domain blacklisting and reputation indicators.
 
