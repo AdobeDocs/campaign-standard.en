@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Monitoring deliverability{#monitoring-deliverability}
+# Monitoring deliverability{#monitor-deliverability}
 
 Below you will find details on the **[!UICONTROL Delivery throughput]** report as well as the different monitoring tools offered by Adobe Campaign. Here are some additional guidelines on deliverability monitoring:
 * Regularly check the delivery throughput for the whole platform to verify whether it is consistent with the original set-up.

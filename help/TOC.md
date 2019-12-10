@@ -153,7 +153,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Improving your reputation](sending/using/improving-reputation.md)
        + [Whitelists](sending/using/whitelists.md)
        + [Technical recommendations](sending/using/technical-recommendations.md)
-       + [Monitoring deliverability](sending/using/monitoring-deliverability.md)
+       + [Monitoring deliverability](sending/using/monitor-deliverability.md)
        + [Troubleshooting](sending/using/troubleshooting.md)
 + Reporting {#reporting}
   + About reporting {#about-reporting}
