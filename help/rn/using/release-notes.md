@@ -434,7 +434,7 @@ Several improvements have been added to the Transactional messaging channel in o
   </tr> 
   <tr> 
    <td> Launch integration for Mobile App<br /> </td> 
-   <td> <p>This release contains the integration of Adobe Campaign with the GA versions of Android and iOS extensions for Adobe Campaign Standard in Adobe Experience Platform Launch and Mobile SDKs. These extensions support push messaging, in-app messaging, and mobile app profile updates.</p><p> For more information, refer to the <a href="../../administration/using/about-typology-rules.md#typology-rules">detailed documentation</a>.</p> </td> 
+   <td> <p>This release contains the integration of Adobe Campaign with the GA versions of Android and iOS extensions for Adobe Campaign Standard in Adobe Experience Platform Launch and Mobile SDKs. These extensions support push messaging, in-app messaging, and mobile app profile updates.</p><p> For more information, refer to the <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">detailed documentation</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Mobile In-App Messaging<br /> </td> 
@@ -472,7 +472,7 @@ Several improvements have been added to the Transactional messaging channel in o
 
 * When editing in mobile view, you can hide certain components just in mobile display for effective usage of space.
 
-  For more information, refer to the [detailed documentation](../../designing/using/styles.md#switching-to-mobile-view).
+  For more information, refer to the [detailed documentation](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
 
 * You can now add custom social channels to your email template on top of the ones that are already available.
 * Fixed an issue that prevented to scroll down the structure menu when using more than 18 structures. (CAMP-31173)
@@ -551,7 +551,7 @@ Several improvements have been added to the Transactional messaging channel in o
   </tr> 
   <tr> 
    <td> Mobile View in the Email Designer<br /> </td> 
-   <td> <p>You can now switch to a dedicated mobile view when editing email content. This allows you to fine-tune the responsive design of an email by separately editing all style options for mobile display, such as adapting margins, smaller font size, different background color, and so on.</p><p> For more information, refer to the <a href="../../designing/using/styles.md#switching-to-mobile-view">detailed documentation</a>.</p> </td> 
+   <td> <p>You can now switch to a dedicated mobile view when editing email content. This allows you to fine-tune the responsive design of an email by separately editing all style options for mobile display, such as adapting margins, smaller font size, different background color, and so on.</p><p> For more information, refer to the <a href="../../designing/using/plain-text-html-modes.md#switching-to-mobile-view">detailed documentation</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> In-App Messaging Beta Improvements<br /> </td> 

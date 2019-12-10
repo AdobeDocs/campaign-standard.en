@@ -25,4 +25,3 @@ To modify the filter, select a start date and a period or use the pre-set time p
 The report is automatically updated when a filter is applied or modified. The report period selected will govern the events that happened in the period, not the whole set of data of your deliveries that were created in the interval e.g. if a delivery ran from 1st til 5th January and the report period is 1st til 2nd January, you may see partial data. This can affect the open/click counts since open or click may happen even one month after the delivery was sent. 
 
 ![](assets/campaign_reports_5.png)
-
