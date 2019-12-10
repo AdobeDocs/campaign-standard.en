@@ -152,9 +152,9 @@ user-guide-title: Adobe Campaign Standard Help
        + [Controlling email content](sending/using/control-email-content.md)
        + [Improving your reputation](sending/using/improving-reputation.md)
        + [Whitelists](sending/using/whitelists.md)
-       + [Technical recommendations](sending/using/#technical-recommendations)
-       + [Monitoring deliverability](sending/using/#monitoring-deliverability)
-       + [Troubleshooting](sending/using/#troubleshooting)
+       + [Technical recommendations](sending/using/technical-recommendations)
+       + [Monitoring deliverability](sending/using/monitoring-deliverability)
+       + [Troubleshooting](sending/using/troubleshooting)
 + Reporting {#reporting}
   + About reporting {#about-reporting}
        + [About dynamic reports](reporting/using/about-dynamic-reports.md)
