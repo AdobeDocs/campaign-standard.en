@@ -146,6 +146,15 @@ user-guide-title: Adobe Campaign Standard Help
        + [Receiving alerts when failures happen](sending/using/receiving-alerts-when-failures-happen.md)
        + [Understanding delivery failures](sending/using/understanding-delivery-failures.md)
        + [Understanding quarantine management](sending/using/understanding-quarantine-management.md)
+  + Managing deliverability {#managing-deliverability}
+       + [About deliverability](sending/using/about-deliverability.md)
+       + [Starting a new platform](sending/using/starting-new-platform.md)
+       + [Controlling email content](sending/using/control-email-content.md)
+       + [Improving your reputation](sending/using/improving-reputation.md)
+       + [Whitelists](sending/using/whitelists.md)
+       + [Technical recommendations](sending/using/technical-recommendations.md)
+       + [Monitoring deliverability](sending/using/monitor-deliverability.md)
+       + [Troubleshooting](sending/using/troubleshooting.md)
 + Reporting {#reporting}
   + About reporting {#about-reporting}
        + [About dynamic reports](reporting/using/about-dynamic-reports.md)
