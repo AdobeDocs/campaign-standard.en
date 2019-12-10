@@ -26,6 +26,8 @@ You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-n
 
 The Configuring S3 external account documentation has been updated. [Read more](../../administration/using/external-accounts.md#amazon-s3-external-account)
 
+The Designing email content section has been reorganized. [Read more](../../designing/using/designing-content-in-adobe-campaign.md)
+
 ## Documentation updates - November 2019 {#doc-updates-november-2019}
 
 A new use case has been added describing how to build a control group using a workflow in Campaign Standard. [Read more](../../automating/using/workflow-control-group.md)
