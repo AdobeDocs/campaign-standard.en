@@ -60,10 +60,6 @@ Dynamic reports are divided into two categories:
 
 ## Dynamic reporting usage agreement {#dynamic-reporting-usage-agreement}
 
->[!NOTE]
->
-> Starting Campaign Standard 19.4 release, the consent pop-up for Dynamic reporting has been updated to include Adobe Campaign Standard and Microsoft Dynamics 365 integration.
-
 The Dynamic reporting usage agreement's purpose is to function as a pop-up consent for data processing. By default, the agreement is only visible and can only be accepted or declined by users assigned with administration rights.
 
 Three options are available:
@@ -89,7 +85,5 @@ The table below displays what happens after declining this agreement depending o
 This choice is not final, you can always change it by selecting **[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]** in **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Options]**.
 
 The value can be changed at any time. The value 1 corresponds to **[!UICONTROL Ask me later]**, 2 **[!UICONTROL Decline]** and 3 **[!UICONTROL Accept]**.
-
-Note that for releases prior to Adobe Campaign Standard 19.4, the value -1 corresponds to **[!UICONTROL Ask me later]**, 0 **[!UICONTROL Decline]** and 1 **[!UICONTROL Accept]**.
 
 ![](assets/pii_window_2.png)

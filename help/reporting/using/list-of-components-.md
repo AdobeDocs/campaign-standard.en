@@ -456,7 +456,7 @@ The table below gives you the list of segments used in reports and their definit
   </tr> 
     <tr> 
    <td> Exclude proof<br /> </td> 
-   <td> Exclude proofs from your reports (starting Campaign 19.4 release only)<br /> </td> 
+   <td> Exclude proofs from your reports<br /> </td> 
   </tr> 
  </tbody> 
 </table>
