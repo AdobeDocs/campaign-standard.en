@@ -36,4 +36,4 @@ Extension fields are generated with a prefix so that they never conflict with th
 
 You can also **configure the navigation** in the screens corresponding to the resource created.
 
-It is possible to **export and import** custom resources, for example from a development to a production environment. For more on this, refer to this [step-by-step use case](../../using/automating/exporting-importing-custom-resources.md).
+It is possible to **export and import** custom resources, for example from a development to a production environment. For more on this, refer to this [step-by-step use case](../../automating/using/exporting-importing-custom-resources.md).

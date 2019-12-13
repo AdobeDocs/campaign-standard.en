@@ -28,9 +28,9 @@ The prerequisites are:
 
 Additional resources:
 
-* [Managing packages](../../using/automating/managing-packages.md)
-* [Deploying packages: Operating principle](../../using/developing/data-model-concepts.md)
-* [Adding or extending a resource](../../using/developing/key-steps-to-add-a-resource.md)
+* [Managing packages](../../automating/using/managing-packages.md)
+* [Deploying packages: Operating principle](../../developing/using/data-model-concepts.md)
+* [Adding or extending a resource](../../developing/using/key-steps-to-add-a-resource.md)
 
 ## Step 1: Exporting the structure {#exporting-the-structure}
 
