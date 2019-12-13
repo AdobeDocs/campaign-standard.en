@@ -30,6 +30,8 @@ The Designing email content section has been reorganized. [Read more](../../desi
 
 The Deliverability getting started guide has been integrated into the core documentation and updated. [Read more](../../sending/using/about-deliverability.md)
 
+The getting started guide on how to export / import custom resources has been integrated into the core documentation. [Read more](../../automating/exporting-importing-custom-resources.md)
+
 ## Documentation updates - November 2019 {#doc-updates-november-2019}
 
 A new use case has been added describing how to build a control group using a workflow in Campaign Standard. [Read more](../../automating/using/workflow-control-group.md)
