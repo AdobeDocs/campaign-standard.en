@@ -115,7 +115,7 @@ user-guide-title: Adobe Campaign Standard Help
   + [Campaign Email Designer](designing/using/designing-content-in-adobe-campaign.md)
   + [Get started with the Email Designer](designing/using/quick-start.md)
   + [Defining the subject line and the sender](designing/using/subject-line.md)
-  + Designing email content{#designing-email-content}
+  + Building email content{#building-email-content}
        + [Designing emails from scratch](designing/using/designing-from-scratch.md)
        + [Designing emails using existing content](designing/using/using-existing-content.md)
        + [Designing emails using reusable content](designing/using/using-reusable-content.md)
