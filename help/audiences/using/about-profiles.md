@@ -20,7 +20,7 @@ Adobe Campaign lets you manage contacts throughout their entire life cycle: crea
 
 >[!NOTE]
 >
->Profiles are also available using the Adobe Campaign Standard API. For more on this, refer to the [dedicated documentation](../../api/using/managing-profiles.md).
+>Profiles are also available using the Adobe Campaign Standard API. For more on this, refer to the [dedicated documentation](../../api/using/retrieving-profiles.md).
 
 ![](assets/marketing_history.png)
 

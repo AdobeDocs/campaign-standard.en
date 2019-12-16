@@ -42,4 +42,5 @@ POST /customResources/<customResourceName>
 
 >[!NOTE]
 >The privacy API endpoint and workflows (/privacy/privacyTool) are not managing the custom resources that are not linked to the profile entity.
->You will have the responsibility to manage and clean up any PII for these custom resources. For more information on privacy tool, [click here](../../api/using/privacy-management.md).
+>You will have the responsibility to manage and clean up any PII for these custom resources. For more information on privacy tool, [click here](../../api/using/creating-a-privacy-request.md).
+

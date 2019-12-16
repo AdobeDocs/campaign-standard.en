@@ -22,4 +22,3 @@ This report contains data relating to the delivery throughput of a send, or seve
 * The **[!UICONTROL Top 5 deliveries]** table and complementary summary numbers that show the five deliveries with the best gain in retries.
 
 ![](assets/delivery_reports_1.png)
-
