@@ -26,7 +26,7 @@ Additional resources:
 * [Control Panel](https://helpx.adobe.com/campaign/kb/control-panel.html)
 * Previous Release Notes: [2018](../../rn/using/release-notes-2018.md), [2017](../../rn/using/release-notes-2017.md), [2015-2016](../../rn/using/release-notes-2015-2016.md)
 
-## Release 19.4 - October 2019 {#release-19-4---october-2019}
+## Release 19.4 - December 2019 {#release-19-4---october-2019}
 
 ### What's new? {#what-s-new-5}
 
@@ -78,6 +78,8 @@ Additional resources:
 
 ### Email Designer enhancements {#email-designer-enhancements-4}
 
+* Fixed an issue which prevented unsubscription, subscription and landing page links from being tracked when inserted in an email. (CAMP-37809)
+* Fixed an issue which could lead to errors when creating a new email and selecting a template. (CAMP-38000)
 * When editing a link using the email designer, you can now use the **Underline link** option. Also, a **Target** property has been added with the default value set to **None**. [Read more](../../designing/using/styles.md#about-styling-links)
 * Fixed a color issue on links in text components in the body of an email. (CAMP-37330)
 * Fixed an issue which prevented associated links from being removed when deleting an image. (CAMP-37234)
