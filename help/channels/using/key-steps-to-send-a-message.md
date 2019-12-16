@@ -16,7 +16,7 @@ snippet: y
 
 # Key steps to send a message{#key-steps-to-send-a-message}
 
-To learn the delivery best practices, consult the [Delivery best practices](http://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html) getting started.
+To learn the delivery best practices, consult the [Delivery best practices](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html) getting started.
 
 The steps to create and send messages are as follows:
 

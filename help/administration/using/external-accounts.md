@@ -113,9 +113,9 @@ Specify the **[!UICONTROL AWS Region]** associated to your endpoint. You can che
 
 To help you set up your Amazon S3 account, we advise you to follow these recommendations:
 
-* Create strict bucket policy to restrict access to S3 buckets. Bucket policy can be configured while creating a bucket. For more information, refer to the [Amazon S3 documentation](http://docs.aws.amazon.com/AmazonS3/latest/dev//example-bucket-policies.html). 
+* Create strict bucket policy to restrict access to S3 buckets. Bucket policy can be configured while creating a bucket. For more information, refer to the [Amazon S3 documentation](https://docs.aws.amazon.com/AmazonS3/latest/dev//example-bucket-policies.html).
 * While creating an external account, enable the encryption to store sensitive data in the S3 bucket by checking the **[!UICONTROL Keep files in S3 encrypted]** box.
-* Grant bucket permissions to specify who can access the object in a bucket. For more information on bucket permission, refer to the [Amazon S3 documentation](http://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html)
+* Grant bucket permissions to specify who can access the object in a bucket. For more information on bucket permission, refer to the [Amazon S3 documentation](https://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html).
 
 ## Adobe Experience Manager external account {#adobe-experience-manager-external-account}
 

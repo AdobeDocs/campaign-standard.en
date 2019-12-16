@@ -440,7 +440,7 @@ Added information on how to set up landing pages to give your recipients the abi
 
 The [Configuring transactional messaging](../../administration/using/configuring-transactional-messaging.md) section has been reorganized, and a [step-by-step use case](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) has been added.
 
-Added a technote to learn how to generate a multilingual CSV file to use for push notifications. [Read more](http://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html).
+Added a technote to learn how to generate a multilingual CSV file to use for push notifications. [Read more](https://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html).
 
 Added information on the **Update Direct mail quarantines and delivery logs** import template. [Read more](../../automating/using/defining-import-templates.md)
 
@@ -748,7 +748,7 @@ Understanding user permissions: a use case has been added. Also consult the [use
 
 Working with APIs: an [API extension use case](../../developing/using/about-extending-the-api.md) has been added. Also consult [API documentation](../../api/using/about-campaign-standard-apis.md).
 
-Campaign error messages: access the full list of error messages in both Campaign v6 and Standard, filtered by version and language. [Read more](http://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+Campaign error messages: access the full list of error messages in both Campaign v6 and Standard, filtered by version and language. [Read more](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
 Multi-branding use case - [Read more](../../administration/using/branding.md)
 
