@@ -32,7 +32,7 @@ Additional resources:
 * [Deploying packages: Operating principle](../../developing/using/data-model-concepts.md)
 * [Adding or extending a resource](../../developing/using/key-steps-to-add-a-resource.md)
 
-## Step 1: Exporting the structure {#exporting-the-structure}
+## Exporting the structure {#exporting-the-structure}
 
 In this section, we are going to carry out a first package export which details the physical structure of the custom resource data.
 
