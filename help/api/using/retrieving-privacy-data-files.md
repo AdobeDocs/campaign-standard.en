@@ -22,7 +22,7 @@ snippet: y
 
 To retrieve the file that contains all the information associated to a reconciliation value, follow this three-steps procedure:
 
-1. Perform a **POST** request to create a new request with the attribute **type="access"**, see [Creating a new privacy request](#creating-a-privacy-request).
+1. Perform a **POST** request to create a new request with the attribute **type="access"**, see [Creating a new privacy request](../../api/using/creating-a-privacy-request.md).
 
 1. Perform a **GET** request to retrieve information about the request.
 
