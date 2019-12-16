@@ -117,7 +117,7 @@ You can create product listings referencing one or more data collections in the 
 
 >[!CAUTION]
 >
->Product listings are only available when editing transactional email messages through the [Email Designer](../../designing/using/overview.md#email-designer) interface.
+>Product listings are only available when editing transactional email messages through the [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) interface.
 
 To add a list of abandoned products in a transactional message, follow the steps below.
 

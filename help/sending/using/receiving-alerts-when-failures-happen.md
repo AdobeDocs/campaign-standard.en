@@ -264,7 +264,7 @@ Here are a few possible reasons for receiving alerting notifications according t
 
     * Build filtering typology rules to exclude one part of the message target during the delivery analysis, such as quarantined recipients. See [Creating a filtering rule](../../administration/using/filtering-rules.md).
     * Regularly update your customer database to maintain good quarantine management processes. See [About quarantines](../../sending/using/understanding-quarantine-management.md#about-quarantines).
-    * Generally speaking, improve deliverability the best as you can. See the Adobe Campaign v7 [Managing deliverability](http://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) detailed guide and contact your Adobe Campaign administrator for assistance.
+    * Generally speaking, improve deliverability the best as you can. See the Adobe Campaign [Deliverability](../../sending/using/about-deliverability.md) detailed documentation and contact your Adobe Campaign administrator for assistance.
 
 * **[!UICONTROL Deliveries with long start pending]**: Usually this means that there is a problem at the MTA's (Message Transfer Agent) level. The execution process is waiting on the availability of some resources. The MTA may have not been started.
 

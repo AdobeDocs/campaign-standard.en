@@ -56,7 +56,7 @@ The message preparation is triggered according to the workflow execution paramet
 
 1. Select an email type. The email types come from email templates defined in the **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** menu.
 1. Enter the general properties for the email. You can also attach it to an existing campaign. The label of the workflow's delivery activity is updated with the email label.
-1. Define the email content. Refer to the section concerning [content editing](../../designing/using/overview.md).
+1. Define the email content. Refer to the section concerning [content editing](../../designing/using/designing-content-in-adobe-campaign.md).
 1. By default, the **[!UICONTROL Email delivery]** activity does not include any outbound transitions. If you would like to add an outbound transition to your **[!UICONTROL Email delivery]** activity, go to the **[!UICONTROL General]** tab of the advanced activity options ( ![](assets/dlv_activity_params-24px.png) button in the activity's quick actions) then check one of the following options:
 
     * **[!UICONTROL Add outbound transition without the population]**: this lets you generate an outbound transition that contains the exact same population as the inbound transition.

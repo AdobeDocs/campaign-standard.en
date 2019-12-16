@@ -16,11 +16,10 @@ snippet: y
 
 # Managing Styles {#managing-styles}
 
-## Editing an element {#editing-an-element}
 
 In the Email Designer, when selecting an element, several options specific to the type of content selected are displayed in the **[!UICONTROL Settings]** pane. You can use these options to easily change the style of your email.
 
-### Selecting an element {#selecting-an-element}
+## Selecting an element {#selecting-an-element}
 
 To select an element in the Email Designer interface, you can either:
 

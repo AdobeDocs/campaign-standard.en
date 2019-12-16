@@ -67,7 +67,7 @@ Additional resources:
 * When a transactional message event is submitted with an unknown context parameter, Campaign now returns a “400” error message instead of “500". (CAMP-28632)
 * A new **Exclude proof** segment has been added in Dynamic reporting. This segment is now selected by default to filter your reports. [Read more](../../reporting/using/list-of-components-.md#segments)
 * The **Message expiration** option has been added to push notification. It allows you to specify an expiration date where the message will no longer be sent by Apple (APNS) or Android (FCM). [Read more](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
-* Improvements have been made to the **Load file** activity: workflow logs have been made clearer and more detailed about the error that occurs when a file fails to load. The outbound transition generated when activating the **Keep the rejects in a file** option has been renamed **Rejects**. [Read more](../../automating/using/load-file.md#load-files)
+* Improvements have been made to the **Load file** activity: workflow logs have been made clearer and more detailed about the error that occurs when a file fails to load. The outbound transition generated when activating the **Keep the rejects in a file** option has been renamed **Rejects**. [Read more](../../automating/using/load-file.md)
 * Multilingual related logs have been added to the sending logs to better understand sending failures due to missing languages in the uploaded CSV files.
 
 ### Security enhancements {#security-enhancements-3}
@@ -466,7 +466,7 @@ Several improvements have been added to the Transactional messaging channel in o
 
 * Our new on-boarding experience will help you start email creation faster and give you easier access to documentation and tutorials.
 
-  For more information, refer to the [detailed documentation](../../designing/using/overview.md#email-designer-home-page).
+  For more information, refer to the [detailed documentation](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page).
 
 * You now have the flexibility to configure the number of columns and width based on your needs.
 
@@ -545,7 +545,7 @@ Several improvements have been added to the Transactional messaging channel in o
      <li> The ability to <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">retrieve content from a URL automatically at preparation time</a> </li> 
      <li> Fully compliant <a href="../../designing/using/using-reusable-content.md#content-templates">out-of-the box content templates</a>. </li> 
     </ul> 
-    <p>For more information, refer to the <a href="../../designing/using/overview.md">detailed documentation</a> and the <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html">how-to video</a>. Improvements and fixes are listed below.</p><p>As a consequence, the legacy email content editor is now deprecated. For more information, refer to this <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">page</a>.</p> </td> 
+    <p>For more information, refer to the <a href="../../designing/using/designing-content-in-adobe-campaign.md">detailed documentation</a> and the <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html">how-to video</a>. Improvements and fixes are listed below.</p><p>As a consequence, the legacy email content editor is now deprecated. For more information, refer to this <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">page</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Product Listings in Transactional Emails<br /> </td> 

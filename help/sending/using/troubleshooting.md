@@ -48,8 +48,8 @@ For more on this, see [Understanding quarantine management](../../sending/using/
 **How can I find out whether one of my IPs is blacklisted? How do I unblacklist my IP(s)?**
 
 To check whether your IP address is blacklisted, you can use various web sites to verify it:
-* http://mxtoolbox.com/
-* http://whatismyipaddress.com/blacklist-check
+* https://mxtoolbox.com/
+* https://whatismyipaddress.com/blacklist-check
 * http://www.blacklistalert.org/
 
 Generally, the result of the IP address check will return a list that contains details of the blacklist and also the name of the web site that blacklisted the IP address.

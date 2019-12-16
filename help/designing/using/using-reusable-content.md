@@ -25,7 +25,7 @@ Learn how to master email content edition. With Email Designer, you can create t
 
 ### Content templates {#content-templates}
 
-You can manage HTML contents that will be offered in the **[!UICONTROL Templates]** tab of the [Email Designer](../../designing/using/overview.md) home page. The different templates present various combinations of several types of elements. For example, 'Feather' templates have margins while 'Astro' templates do not have ones. For more on this, see [Content templates](#content-templates).
+You can manage HTML contents that will be offered in the **[!UICONTROL Templates]** tab of the [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) home page. The different templates present various combinations of several types of elements. For example, 'Feather' templates have margins while 'Astro' templates do not have ones. For more on this, see [Content templates](#content-templates).
 
 ![](assets/template_content.png)
 
@@ -50,7 +50,7 @@ The following example shows how to create an email content template.
 
    ![](assets/email_designer_create-template_thumbnail.png)
 
-   This thumbnail will be displayed in the **[!UICONTROL Templates]** tab of the [Email Designer](../../designing/using/overview.md#about-the-email-designer) home page.
+   This thumbnail will be displayed in the **[!UICONTROL Templates]** tab of the [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) home page.
 
 1. Close the **[!UICONTROL Properties]** tab to return to the main workspace.
 1. Add structure components and content components that you can customize as needed.
@@ -59,7 +59,7 @@ The following example shows how to create an email content template.
     > You cannot insert personalization fields or conditional content inside a content template.
 1. Once edited, save your template.
 
-This template can now be used in any email built with the Email Designer. Select it from the **[!UICONTROL Templates]** tab of the [Email Designer](../../designing/using/overview.md#about-the-email-designer) home page.
+This template can now be used in any email built with the Email Designer. Select it from the **[!UICONTROL Templates]** tab of the [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) home page.
 
 ![](assets/content_template_new.png)
 
@@ -81,7 +81,7 @@ When editing an email with the Email Designer, you can directly save the content
 
 1. To find the template that you just created, go to **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]**.
 
-1. To use your new template, select it from the **[!UICONTROL Templates]** tab of the [Email Designer](../../designing/using/overview.md#about-the-email-designer) home page.
+1. To use your new template, select it from the **[!UICONTROL Templates]** tab of the [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) home page.
 
     ![](assets/content_template_new.png)
 
@@ -168,7 +168,7 @@ To define the content of your email, you can add content elements in the structu
 1. Repeat this procedure for all elements you need to add to your email.
 1. Save your email.
 
-Now that your email structure is populated, you can edit the style of each content element. See [Editing an element](../../designing/using/styles.md#editing-an-element).
+Now that your email structure is populated, you can edit the style of each content element. See [Editing an element](../../designing/using/styles.md).
 
 >[!NOTE]
 >
