@@ -30,6 +30,8 @@ The Designing email content section has been reorganized. [Read more](../../desi
 
 The Deliverability getting started guide has been integrated into the core documentation and updated. [Read more](../../sending/using/about-deliverability.md)
 
+The getting started guide on how to export / import custom resources has been integrated into the core documentation. [Read more](../../automating/using/exporting-importing-custom-resources.md)
+
 ## Documentation updates - November 2019 {#doc-updates-november-2019}
 
 A new use case has been added describing how to build a control group using a workflow in Campaign Standard. [Read more](../../automating/using/workflow-control-group.md)
@@ -83,8 +85,6 @@ A new section describing how to send an automatic custom confirmation email to p
 The Transactional messaging section has been modified with the latest UI updates, including editing content with the Email Designer. [Read more](../../channels/using/event-transactional-messages.md)
 
 The landing pages chapter has been reorganized. It has also been enriched with a new section detailing the steps to set up a landing page. [Read more](../../channels/using/getting-started-with-landing-pages.md)
-
-The Audience Manager integration page has been updated to reflect **Declared ID** changes. [Read more](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 ## Documentation updates - September 2019 {#doc-updates-september-2019}
 

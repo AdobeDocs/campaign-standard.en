@@ -24,11 +24,11 @@ Adobe Campaign comes with a pre-defined data model. This data model can be modif
 
 The **[!UICONTROL Administration]** > **[!UICONTROL Development]** menu, accessed via the Adobe Campaign logo, allows you to manage your **custom resources**, **publish** them, and **access the diagnostic tools**.
 
-The data used by Adobe Campaign is defined through different resources.
-
-You can **enrich the data template** that is provided by creating your own custom resources, such as purchase or product tables.
+The data used by Adobe Campaign is defined through different resources. You can **enrich the data template** that is provided by creating your own custom resources, such as purchase or product tables.
 
 Out-of-the-box resources (such as campaigns, emails, or audiences) cannot be modified. However, custom resources can be extended to add new fields.
+
+Extension fields are generated with a prefix so that they never conflict with the out-of-the-box fields.
 
 >[!NOTE]
 >
@@ -36,4 +36,4 @@ Out-of-the-box resources (such as campaigns, emails, or audiences) cannot be mod
 
 You can also **configure the navigation** in the screens corresponding to the resource created.
 
-Extension fields are generated with a prefix so that they never conflict with the out-of-the-box fields.
+It is possible to **export and import** custom resources, for example from a development to a production environment. For more on this, refer to this [step-by-step use case](../../automating/using/exporting-importing-custom-resources.md).

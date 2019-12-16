@@ -170,10 +170,6 @@ You want to adjust padding and vertical alignment inside a structure component c
 
 ## Styling links {#about-styling-links}
 
- >[!NOTE]
- >
- >This feature will be available starting from Campaign Standard 19.4 release.
-
 You can underline a link and select its color and target in the Email Designer.
 
 1. In a component where a link is inserted, select the label text of your link.
