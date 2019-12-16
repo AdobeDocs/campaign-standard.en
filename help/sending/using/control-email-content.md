@@ -25,7 +25,7 @@ To improve your email deliverability rate and make sure that your emails reach y
 * **Unsubscription link and landing page**: The unsubscription link is essential. It must be visible and valid, and the form must be functional.
 * **Use tools** offered by Adobe Campaign to optimize the content of your email (delivery analysis, anti-spam analysis).
 
-For additional information on editing email content, consult the [Email Designer overview](../../designing/using/designing-content-in-adobe-campaign.md) and the [Message design best practices](../../designing/using/overview.md#content-design-best-practices).
+For additional information on editing email content, consult the [Email Designer overview](../../designing/using/designing-content-in-adobe-campaign.md) and the [Message design best practices](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices).
 
 ## Sender name and address {#sender-name}
 

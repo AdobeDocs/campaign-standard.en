@@ -134,7 +134,7 @@ Adobe Campaign offers several email authoring options. The table below shows the
   </tr> 
   <tr> 
    <td> <strong>To learn more</strong><br /> </td> 
-   <td> See <a href="../../designing/using/overview.md">About the Email Designer</a>.<br /> </td> 
+   <td> See <a href="../../designing/using/designing-content-in-adobe-campaign.md">About the Email Designer</a>.<br /> </td> 
    <td> See <a href="../../integrating/using/integrating-with-experience-manager.md">Integrating with Experience Manager</a>.<br /> </td> 
    <td> See <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver and Campaign</a> and watch this <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">video</a>.<br /> </td> 
   </tr> 

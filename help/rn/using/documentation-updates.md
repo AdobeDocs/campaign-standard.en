@@ -142,7 +142,7 @@ The section on how to save email content as a fragment in the Email Designer has
 
 A warning was added on how extra white spaces can impact the layout of a email content. [Read more](../../designing/using/personalization.md#creating-custom-content-blocks)
 
-A new section on Email Designer recommended updates has been added. [Read more](../../designing/using/overview.md#email-designer-updates)
+A new section on Email Designer recommended updates has been added. [Read more](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-updates)
 
 <!-- A new section on how to send proofs using real customer data has been added. [Read more](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs-using-additional-data) -->
 
@@ -246,7 +246,7 @@ Workflow enhancements - Read more [here](../../automating/using/workflow-interfa
 
 ### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-1}
 
-The new onboarding experience to create email contents and other enhancements to the Email Designer have been added to the Editing email content chapter. [Read more](../../designing/using/overview.md#email-designer-home-page)
+The new onboarding experience to create email contents and other enhancements to the Email Designer have been added to the Editing email content chapter. [Read more](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page)
 
 A new section on Transactional messaging limitations has been added. [Read more](../../channels/using/about-transactional-messaging.md#transactional-messaging-limitations)
 
@@ -292,7 +292,7 @@ Added information in the Extract file activity section on the new option that le
 
 ### New capabilities included in the release {#new-capabilities-included-in-the-release-2}
 
-Email Designer General Availability - [Read more](../../designing/using/overview.md)
+Email Designer General Availability - [Read more](../../designing/using/designing-content-in-adobe-campaign.md)
 
 Product Listings in Transactional Emails - [Read more](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)
 
@@ -302,7 +302,7 @@ In-App Messaging Beta Improvements - [Read more](../../channels/using/about-in-a
 
 ### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-2}
 
-The Designing Content guide has been updated to reflect the Email Designer general availability and the legacy email content editor deprecation. [Read more](../../designing/using/overview.md)
+The Designing Content guide has been updated to reflect the Email Designer general availability and the legacy email content editor deprecation. [Read more](../../designing/using/designing-content-in-adobe-campaign.md)
 
 Updated the [In-app](../../channels/using/about-in-app-messaging.md) and [Push notification](../../channels/using/about-push-notifications.md) documentation.
 
@@ -358,7 +358,7 @@ Added a new technote on SMS connector protocol and settings. [Read more](https:/
 
 Updated the Experience manager integration with Adobe Campaign documentation. [Read more](../../reporting/using/creating-a-custom-profile-dimension.md)
 
-The "Designing Content" guide has been fully reorganized, particularly to present the two editors that enable you to design content for emails. [Read more](../../designing/using/overview.md)
+The "Designing Content" guide has been fully reorganized, particularly to present the two editors that enable you to design content for emails. [Read more](../../designing/using/designing-content-in-adobe-campaign.md)
 
 Learn how to simply make external contents fully editable with the Creative SDK by creating fragments from your existing emails. [Read more](../../designing/using/designing-from-scratch.md)
 
@@ -420,7 +420,7 @@ Learn the best practices for using Adobe hosted SFTP servers. [Read more](../../
 
 The list of supported Analytics SKUs for the integration with Triggers has been updated. [Read more](../../integrating/using/configuring-triggers-in-experience-cloud.md#configuring-solutions-and-services)
 
-Some pages of the content editor documentation have been merged to offer a more comprehensive view of the different actions available. [Read more](../../designing/using/overview.md)
+Some pages of the content editor documentation have been merged to offer a more comprehensive view of the different actions available. [Read more](../../designing/using/designing-content-in-adobe-campaign.md)
 
 ## Release 18.3 - March 2018 {#release-18-3---march-2018}
 
@@ -428,7 +428,7 @@ Some pages of the content editor documentation have been merged to offer a more 
 
 EU General Data Protection Regulation (GDPR) - [Read more](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)
 
-Creative Designer for Email - [Read more](../../designing/using/overview.md)
+Creative Designer for Email - [Read more](../../designing/using/designing-content-in-adobe-campaign.md)
 
 Multilingual Push Deliveries - [Read more](../../channels/using/creating-a-multilingual-push-notification.md)
 

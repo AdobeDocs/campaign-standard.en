@@ -30,7 +30,7 @@ To get started with the Email Designer, watch this [set of videos](https://helpx
 <!--The Email Designer has more features than the Legacy Editor and is backward compatible.-->
 
 * To discover how to create email content, see [Get started with the email designer](../../designing/using/quick-start.md).
-* For an overview of the Email Designer, see [Using the Email Designer](../../designing/using/overview.md).
+* For an overview of the Email Designer, see [Using the Email Designer](../../designing/using/designing-content-in-adobe-campaign.md).
 * For more on building content:
   * From scratch, see [Designing emails from scratch](../../designing/using/designing-from-scratch.md).
   * Using existing content, see [Designing using existing content](../../designing/using/using-existing-content.md).
