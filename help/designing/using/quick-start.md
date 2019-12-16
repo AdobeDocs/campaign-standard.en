@@ -30,8 +30,8 @@ You can also create an email [with existing content](#with-existing-content):
 
 | Without content   | With content   |
 |---|---|
-| Creating an email from scratch  | Converting an existing HTML content  |
-| Building content from an out-of-the-box template  | Importing an existing HTML  |
+| [Creating an email from scratch](#from-scratch-email)  | [Converting an existing HTML content](#converting-an-html-content)  |
+| [Building content from an out-of-the-box template](#building-content-from-an-out-of-the-box-template)  | [Importing an existing HTML](#compatibility-mode) |
 
 ## Designing emails with the editor {#without-existing-content}
 
