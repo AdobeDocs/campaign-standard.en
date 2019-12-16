@@ -105,10 +105,6 @@ Depending on the user's action, the application will be notified so that it can 
 
 ## Add an expiration date {#add-expiration-date}
 
- >[!NOTE]
- >
- >These changes only apply starting Campaign Standard 19.4 release.
-
 Setting an expiration date to your push notification allows you to set a specific expiration date where the message will no longer be sent by Apple ([APNS](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/sending_notification_requests_to_apns)) or Android ([FCM](https://firebase.google.com/docs/cloud-messaging/concept-options)).
 
 To add an expiration date to your push notification:
