@@ -362,7 +362,7 @@ Learn how to simply make external contents fully editable with the Creative SDK 
 
 The list of HTML attributes for full compliance with the Creative Designer is now available in this [section](../../designing/using/using-existing-content.md#editing-existing-contents-with-the-email-designer).
 
-Added information on default language for multilingual template. [Read more](../../start/using/creating-a-multilingual-template.md)
+Added information on default language for multilingual template. [Read more](../../channels/using/creating-a-multilingual-template.md)
 
 The Users & security guide has been updated to reflect the depreciation of the geographical unit capability for new Campaign Standard instances, as well as existing instances with no geographical units created, starting 18.7 release. [Read more](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 

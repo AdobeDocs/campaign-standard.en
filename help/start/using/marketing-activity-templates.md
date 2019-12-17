@@ -14,9 +14,9 @@ internal: n
 snippet: y
 ---
 
-# About templates{#about-templates}
+# Marketing activity templates {#marketing-activity-templates}
 
-## Marketing activity templates {#marketing-activity-templates}
+## About templates {#about-templates}
 
 When you create a new marketing activity, the first screen in the wizard asks you to select a type, or template. Templates allow you to pre-configure certain parameters according to your needs. The template may contain a full or partial configuration of the marketing activity. The template management is performed by the functional administrator.
 
@@ -41,88 +41,40 @@ Templates are available for the following marketing activities:
 * Import
 * Transactional messages
 
-These templates are managed from the **[!UICONTROL Resources]** > **[!UICONTROL Templates]** screen.
+## Creating a new template {#creating-a-new-template}
+
+Message templates can be managed by the functional administrator of the platform, under the **[!UICONTROL Resources > Templates]** menu. Out-of-the-box templates cannot be modified or deleted. To create a new template, you must duplicate an existing one.
+
+1. Select an existing template. In our example, we have chosen a **[!UICONTROL Delivery template]**.
+
+   ![](assets/template_2.png)
+
+1. Hover over it with the mouse, then select the **[!UICONTROL Duplicate element]** option.
+
+   ![](assets/template_3.png)
+
+1. Configure any settings you want, just like you would do when [creating a new marketing activity](../../start/using/marketing-activities.md#creating-a-marketing-activity) from scratch.
+
+   ![](assets/template_4.png)
+
+Created templates can then be selected by standard user in the first screen of the wizard while creating a marketing activity.
+
+## Using a template {#using-a-template}
+
+We are now going to look into how to use a template created in the earlier section.
 
 >[!NOTE]
 >
->Brand configuration can be pre-configured in an email or landing page template. For more information, refer to the [Branding](../../administration/using/branding.md) section.
+>Creating a marketing activity based on a template is generally carried out by a standard user type profile.
 
-## Content templates {#content-templates}
+1. Create a new marketing activity.
 
-The HTML content templates are accessible from the **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** screen of the [Advanced menu](../../start/using/interface-description.md#advanced-menu). From there, you can manage landing page content templates, email content templates and also fragments.
+   ![](assets/template_5.png)
 
-![](assets/content_templates_list.png)
+1. In the first screen in the wizard, select the template that you would like to use.
 
-The out-of-the-box content templates are read-only. To edit one of them, you must first duplicate the desired template.
+   ![](assets/template_6.png)
 
-You can create new templates or fragments, and define your own contents. For more on this, see [Creating a content template](#creating-a-content-template) and [Creating a content fragment](../../designing/using/using-reusable-content.md#creating-a-content-fragment).
+   The marketing activity is pre-configured with the parameters defined in the template.
 
-When editing content with the Email Designer, you can also create content templates by saving your content as fragment or template. For more on this, see [Saving content as template](#saving-content-as-template) and [Saving content as fragment](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
-
-### Out-of-the-box email content templates {#email-content-templates}
-
-You can manage HTML contents that are offered in the **[!UICONTROL Templates]** tab of the [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) home page.
-
-The out-of-the-box email content templates include eighteen mobile-optimized layouts and four best-in-class responsive templates designed by Behance artists. They correspond to the most current usages such as customer welcome messages, newsletters and reengagement emails, among others. They can easily be customized with your brands' content to ease the process of designing emails from scratch.
-
-![](assets/content_templates.png)
-
-**Related topics:**
-
-* Learn how to personalize content templates [in this video](https://helpx.adobe.com/campaign/kt/acs/using/acs-email_content_templates-feature-video-use.html).
-* For more information on editing content, see [About email content design](../../designing/using/designing-content-in-adobe-campaign.md).
-
-### Creating a content template {#creating-a-content-template}
-
-You can create your own content templates to use them as many times as needed.
-
-The following example shows how to create an email content template.
-
-1. Go to **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** and click **[!UICONTROL Create]**.
-1. Click the email label to access the **[!UICONTROL Properties]** tab of the Email Designer.
-1. Specify a recognizable label and select the following parameters to be able to use this template in emails:
-
-    * Select **[!UICONTROL Shared]** or **[!UICONTROL Delivery]** from the **[!UICONTROL Content type]** drop-down list.
-    * Select **[!UICONTROL Template]** from the **[!UICONTROL HTML type]** drop-down list.
-
-   ![](assets/email_designer_create-template.png)
-
-1. If needed, you can set an image that will be used as a thumbnail for the template. Select it from the **[!UICONTROL Thumbnail]** tab of the template properties.
-
-   ![](assets/email_designer_create-template_thumbnail.png)
-
-   This thumbnail will be displayed in the **[!UICONTROL Templates]** tab of the [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) home page.
-
-1. Close the **[!UICONTROL Properties]** tab to return to the main workspace.
-1. Add structure components and content components that you can customize as needed.
-    >[!NOTE]
-    >
-    > You cannot insert personalization fields or conditional content inside a content template.
-1. Once edited, save your template.
-
-This template can now be used in any email built with the Email Designer. Select it from the **[!UICONTROL Templates]** tab of the [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) home page.
-
-![](assets/content_template_new.png)
-
-### Saving content as template {#saving-content-as-template}
-
-When editing an email with the Email Designer, you can directly save the content of that email as a template.
-
-<!--[!CAUTION]
->
->You cannot save as template a structure containing personalization fields or dynamic content.-->
-
-1. Select **[!UICONTROL Save as template]** from the Email Designer main toolbar.
-
-   ![](assets/email_designer_save-as-template.png)
-
-1. Add a label and a description if needed, then click **[!UICONTROL Save]**.
-
-    ![](assets/email_designer_save-as-template_creation.png)
-
-1. To find the template that you just created, go to **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]**.
-
-1. To use your new template, select it from the **[!UICONTROL Templates]** tab of the [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) home page.
-
-    ![](assets/content_template_new.png)
-
+   ![](assets/template_7.png)

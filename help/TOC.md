@@ -32,10 +32,6 @@ user-guide-title: Adobe Campaign Standard Help
        + [Marketing activities](start/using/marketing-activities.md)
        + [Marketing activity templates](start/using/marketing-activity-templates.md)
        + [Timeline](start/using/timeline.md)
-  + Managing templates {#managing-templates}
-       + [Creating a new template](start/using/creating-a-new-template.md)
-       + [Creating a multilingual template](start/using/creating-a-multilingual-template.md)
-       + [Using a template](start/using/using-a-template.md)
   + Tutorials {#tutorials}
        + [Step-by-step guides](start/using/step-by-step-guides.md)
        + [How-to videos](start/using/how-to-videos.md)
