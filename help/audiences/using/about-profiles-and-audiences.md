@@ -36,7 +36,7 @@ Identify customers more effectively across all your channels using integrated cu
 
 >[!CAUTION]
 >
->You must always respect [Adobe Campaign acceptable use policy](http://www.adobe.com/legal/terms/aup.html).
+>You must always respect [Adobe Campaign acceptable use policy](https://www.adobe.com/legal/terms/aup.html).
 
 GDPR is the European Union’s (EU) new privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU. In addition to the privacy capabilities already available in Adobe Campaign (including consent management, data retention settings, and user roles), we are taking this opportunity in our role as a Data Processor to include additional capabilities, to help facilitate your readiness as a Data Controller for certain GDPR requests.
 

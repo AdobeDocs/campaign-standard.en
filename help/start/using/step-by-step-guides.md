@@ -23,7 +23,7 @@ Get started with Adobe Campaign by consulting our intuitive step-by-step guides.
 * [Creating a cross-channel message workflow](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_WorkflowSegmentation.html): create a workflow by segmenting a population to send an email delivery and an SMS delivery.
 * [Creating an email with Experience Manager and Campaign](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_AEM.html): create an email content in Adobe Experience Manager and use it in an email in Adobe Campaign Standard.
 * [Delivering with Adobe Campaign](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html): discover some of the best practices that can be used to deliver with Adobe Campaign, from creating and targeting to sending and monitoring.
-* [Optimizing your deliverability](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_Deliverability.html): learn the key concepts and best practices related to deliverability as well as the tools offered by Adobe Campaign to optimize your deliveries.
+* [Optimizing your deliverability](../../sending/using/about-deliverability.md): learn the key concepts and best practices related to deliverability as well as the tools offered by Adobe Campaign to optimize your deliveries.
 * [General Data Protection Regulation](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html): discover the tools and functionalities that Adobe Campaign provides, as well as best practices, to help you become GDPR compliant.
 
 Learn more about Adobe Campaign by checking the following use cases and examples:

@@ -22,6 +22,16 @@ This page lists all the new features and documentation updates for each release 
 
 You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-notes.md).
 
+## Documentation updates - December 2019 {#doc-updates-december-2019}
+
+The Configuring S3 external account documentation has been updated. [Read more](../../administration/using/external-accounts.md#amazon-s3-external-account)
+
+The Designing email content section has been reorganized. [Read more](../../designing/using/designing-content-in-adobe-campaign.md)
+
+The Deliverability getting started guide has been integrated into the core documentation and updated. [Read more](../../sending/using/about-deliverability.md)
+
+The getting started guide on how to export / import custom resources has been integrated into the core documentation. [Read more](../../automating/using/exporting-importing-custom-resources.md)
+
 ## Documentation updates - November 2019 {#doc-updates-november-2019}
 
 A new use case has been added describing how to build a control group using a workflow in Campaign Standard. [Read more](../../automating/using/workflow-control-group.md)
@@ -64,7 +74,7 @@ A new section has been added. It provides an overview of the different methods t
 
 A new section has been added describing how to style links with the Email Designer. [Read more](../../designing/using/styles.md#about-styling-links)
 
-Information related to privacy has been added to the APIs documentation [Click here](../../api/using/privacy-management.md)
+Information related to privacy has been added to the APIs documentation [Click here](../../api/using/creating-a-privacy-request.md)
 
 ## Documentation updates - October 2019 {#doc-updates-october-2019}
 
@@ -75,8 +85,6 @@ A new section describing how to send an automatic custom confirmation email to p
 The Transactional messaging section has been modified with the latest UI updates, including editing content with the Email Designer. [Read more](../../channels/using/event-transactional-messages.md)
 
 The landing pages chapter has been reorganized. It has also been enriched with a new section detailing the steps to set up a landing page. [Read more](../../channels/using/getting-started-with-landing-pages.md)
-
-The Audience Manager integration page has been updated to reflect **Declared ID** changes. [Read more](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 ## Documentation updates - September 2019 {#doc-updates-september-2019}
 
@@ -132,7 +140,7 @@ The section on how to save email content as a fragment in the Email Designer has
 
 A warning was added on how extra white spaces can impact the layout of a email content. [Read more](../../designing/using/personalization.md#creating-custom-content-blocks)
 
-A new section on Email Designer recommended updates has been added. [Read more](../../designing/using/overview.md#email-designer-updates)
+A new section on Email Designer recommended updates has been added. [Read more](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-updates)
 
 <!-- A new section on how to send proofs using real customer data has been added. [Read more](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs-using-additional-data) -->
 
@@ -236,7 +244,7 @@ Workflow enhancements - Read more [here](../../automating/using/workflow-interfa
 
 ### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-1}
 
-The new onboarding experience to create email contents and other enhancements to the Email Designer have been added to the Editing email content chapter. [Read more](../../designing/using/overview.md#email-designer-home-page)
+The new onboarding experience to create email contents and other enhancements to the Email Designer have been added to the Editing email content chapter. [Read more](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page)
 
 A new section on Transactional messaging limitations has been added. [Read more](../../channels/using/about-transactional-messaging.md#transactional-messaging-limitations)
 
@@ -282,17 +290,17 @@ Added information in the Extract file activity section on the new option that le
 
 ### New capabilities included in the release {#new-capabilities-included-in-the-release-2}
 
-Email Designer General Availability - [Read more](../../designing/using/overview.md)
+Email Designer General Availability - [Read more](../../designing/using/designing-content-in-adobe-campaign.md)
 
 Product Listings in Transactional Emails - [Read more](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)
 
-Mobile View in the Email Designer - [Read more](../../designing/using/styles.md#switching-to-mobile-view)
+Mobile View in the Email Designer - [Read more](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)
 
 In-App Messaging Beta Improvements - [Read more](../../channels/using/about-in-app-messaging.md)
 
 ### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-2}
 
-The Designing Content guide has been updated to reflect the Email Designer general availability and the legacy email content editor deprecation. [Read more](../../designing/using/overview.md)
+The Designing Content guide has been updated to reflect the Email Designer general availability and the legacy email content editor deprecation. [Read more](../../designing/using/designing-content-in-adobe-campaign.md)
 
 Updated the [In-app](../../channels/using/about-in-app-messaging.md) and [Push notification](../../channels/using/about-push-notifications.md) documentation.
 
@@ -348,7 +356,7 @@ Added a new technote on SMS connector protocol and settings. [Read more](https:/
 
 Updated the Experience manager integration with Adobe Campaign documentation. [Read more](../../reporting/using/creating-a-custom-profile-dimension.md)
 
-The "Designing Content" guide has been fully reorganized, particularly to present the two editors that enable you to design content for emails. [Read more](../../designing/using/overview.md)
+The "Designing Content" guide has been fully reorganized, particularly to present the two editors that enable you to design content for emails. [Read more](../../designing/using/designing-content-in-adobe-campaign.md)
 
 Learn how to simply make external contents fully editable with the Creative SDK by creating fragments from your existing emails. [Read more](../../designing/using/designing-from-scratch.md)
 
@@ -410,7 +418,7 @@ Learn the best practices for using Adobe hosted SFTP servers. [Read more](../../
 
 The list of supported Analytics SKUs for the integration with Triggers has been updated. [Read more](../../integrating/using/configuring-triggers-in-experience-cloud.md#configuring-solutions-and-services)
 
-Some pages of the content editor documentation have been merged to offer a more comprehensive view of the different actions available. [Read more](../../designing/using/overview.md)
+Some pages of the content editor documentation have been merged to offer a more comprehensive view of the different actions available. [Read more](../../designing/using/designing-content-in-adobe-campaign.md)
 
 ## Release 18.3 - March 2018 {#release-18-3---march-2018}
 
@@ -418,7 +426,7 @@ Some pages of the content editor documentation have been merged to offer a more 
 
 EU General Data Protection Regulation (GDPR) - [Read more](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)
 
-Creative Designer for Email - [Read more](../../designing/using/overview.md)
+Creative Designer for Email - [Read more](../../designing/using/designing-content-in-adobe-campaign.md)
 
 Multilingual Push Deliveries - [Read more](../../channels/using/creating-a-multilingual-push-notification.md)
 
@@ -426,13 +434,13 @@ Use of Custom Resources in Transactional Messaging - [Read more](../../administr
 
 ### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-7}
 
-The GDPR API regroups features that allow the automatic processing of GDPR requests. [Read more](../../api/using/privacy-management.md)
+The GDPR API regroups features that allow the automatic processing of GDPR requests. [Read more](../../api/using/creating-a-privacy-request.md)
 
 Added information on how to set up landing pages to give your recipients the ability to be blacklisted. [Read more](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
 The [Configuring transactional messaging](../../administration/using/configuring-transactional-messaging.md) section has been reorganized, and a [step-by-step use case](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) has been added.
 
-Added a technote to learn how to generate a multilingual CSV file to use for push notifications. [Read more](http://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html).
+Added a technote to learn how to generate a multilingual CSV file to use for push notifications. [Read more](https://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html).
 
 Added information on the **Update Direct mail quarantines and delivery logs** import template. [Read more](../../automating/using/defining-import-templates.md)
 
@@ -500,7 +508,7 @@ Push improvements - Read more [here](../../channels/using/preparing-and-sending-
 
 Time-zone optimized deliveries - [Read more](../../automating/using/scheduler.md)
 
-API Signal activity triggering - [Read more](../../api/using/managing-workflows.md)
+API Signal activity triggering - [Read more](../../api/using/triggering-a-signal-activity.md)
 
 ### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-9}
 
@@ -550,7 +558,7 @@ The Push channel configuration [section](https://helpx.adobe.com/campaign/kb/con
 
 The SMS documentation has been updated with some clarification added to the [SMS automatic replies](../../channels/using/managing-incoming-sms.md#managing-stop-sms) section.
 
-New section dedicated to workflow management via the API. [Read more](../../api/using/managing-workflows.md)
+New section dedicated to workflow management via the API. [Read more](../../api/using/controlling-a-workflow.md)
 
 New section dedicated to primary keys and the use of a business ID as a key in the API. [Read more](../../api/using/about-campaign-standard-apis.md)
 
@@ -740,7 +748,7 @@ Understanding user permissions: a use case has been added. Also consult the [use
 
 Working with APIs: an [API extension use case](../../developing/using/about-extending-the-api.md) has been added. Also consult [API documentation](../../api/using/about-campaign-standard-apis.md).
 
-Campaign error messages: access the full list of error messages in both Campaign v6 and Standard, filtered by version and language. [Read more](http://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+Campaign error messages: access the full list of error messages in both Campaign v6 and Standard, filtered by version and language. [Read more](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
 Multi-branding use case - [Read more](../../administration/using/branding.md)
 

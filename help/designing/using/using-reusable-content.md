@@ -17,7 +17,7 @@ snippet: y
 
 Learn how to master email content edition. With Email Designer, you can create templates and fragments with your own predefined content and reuse them for following deliveries.
 
-## Designing using templates {#designing-templates}
+## Designing emails using templates {#designing-templates}
 
 >[!NOTE]
 >
@@ -25,7 +25,7 @@ Learn how to master email content edition. With Email Designer, you can create t
 
 ### Content templates {#content-templates}
 
-You can manage HTML contents that will be offered in the **[!UICONTROL Templates]** tab of the [Email Designer](../../designing/using/overview.md) home page. The different templates present various combinations of several types of elements. For example, 'Feather' templates have margins while 'Astro' templates do not have ones. For more on this, see [Content templates](#content-templates).
+You can manage HTML contents that will be offered in the **[!UICONTROL Templates]** tab of the [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) home page. The different templates present various combinations of several types of elements. For example, 'Feather' templates have margins while 'Astro' templates do not have ones. For more on this, see [Content templates](#content-templates).
 
 ![](assets/template_content.png)
 
@@ -50,7 +50,7 @@ The following example shows how to create an email content template.
 
    ![](assets/email_designer_create-template_thumbnail.png)
 
-   This thumbnail will be displayed in the **[!UICONTROL Templates]** tab of the [Email Designer](../../designing/using/overview.md#about-the-email-designer) home page.
+   This thumbnail will be displayed in the **[!UICONTROL Templates]** tab of the [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) home page.
 
 1. Close the **[!UICONTROL Properties]** tab to return to the main workspace.
 1. Add structure components and content components that you can customize as needed.
@@ -59,7 +59,7 @@ The following example shows how to create an email content template.
     > You cannot insert personalization fields or conditional content inside a content template.
 1. Once edited, save your template.
 
-This template can now be used in any email built with the Email Designer. Select it from the **[!UICONTROL Templates]** tab of the [Email Designer](../../designing/using/overview.md#about-the-email-designer) home page.
+This template can now be used in any email built with the Email Designer. Select it from the **[!UICONTROL Templates]** tab of the [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) home page.
 
 ![](assets/content_template_new.png)
 
@@ -81,10 +81,10 @@ When editing an email with the Email Designer, you can directly save the content
 
 1. To find the template that you just created, go to **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]**.
 
-1. To use your new template, select it from the **[!UICONTROL Templates]** tab of the [Email Designer](../../designing/using/overview.md#about-the-email-designer) home page.
+1. To use your new template, select it from the **[!UICONTROL Templates]** tab of the [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) home page.
 
     ![](assets/content_template_new.png)
-    
+
 ### Creating a template with fragments and components {#template-fragments-components}
 
 You can now create an email template with the Email Designer. Use content components to reflect the different sections of your email and adjust the settings to make them as close as possible to your original newsletter. Finally, insert the fragments that you just created.
@@ -168,7 +168,7 @@ To define the content of your email, you can add content elements in the structu
 1. Repeat this procedure for all elements you need to add to your email.
 1. Save your email.
 
-Now that your email structure is populated, you can edit the style of each content element. See [Editing an element](../../designing/using/styles.md#editing-an-element).
+Now that your email structure is populated, you can edit the style of each content element. See [Editing an element](../../designing/using/styles.md).
 
 >[!NOTE]
 >
@@ -202,7 +202,7 @@ You can create your own content fragments to use them as needed in one or more e
     >
     >Avoid saving as a fragment content with empty structure components. Once the >fragment is inserted, they will not be editable.
     >
-    >The [mobile view](../../designing/using/styles.md#switching-to-mobile-view) is not available in fragments.
+    >The [mobile view](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view) is not available in fragments.
 
 1. Once edited, save your fragment.
 
@@ -248,7 +248,7 @@ When editing an email with the Email Designer, you can directly save part of tha
 ![](assets/email_designer_save-as-fragment_in-new-email.png)
 
 >[!NOTE]
->The [mobile view](../../designing/using/styles.md#switching-to-mobile-view) is not available in fragments. If you want to edit an email mobile view, do it before saving your content as a fragment.
+>The [mobile view](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view) is not available in fragments. If you want to edit an email mobile view, do it before saving your content as a fragment.
 
 <!--You need to copy-paste the HTML corresponding to the section that you want to save into a new fragment.
 

@@ -26,7 +26,7 @@ Additional resources:
 * [Control Panel](https://helpx.adobe.com/campaign/kb/control-panel.html)
 * Previous Release Notes: [2018](../../rn/using/release-notes-2018.md), [2017](../../rn/using/release-notes-2017.md), [2015-2016](../../rn/using/release-notes-2015-2016.md)
 
-## Release 19.4 - October 2019 {#release-19-4---october-2019}
+## Release 19.4 - December 2019 {#release-19-4---october-2019}
 
 ### What's new? {#what-s-new-5}
 
@@ -67,7 +67,7 @@ Additional resources:
 * When a transactional message event is submitted with an unknown context parameter, Campaign now returns a “400” error message instead of “500". (CAMP-28632)
 * A new **Exclude proof** segment has been added in Dynamic reporting. This segment is now selected by default to filter your reports. [Read more](../../reporting/using/list-of-components-.md#segments)
 * The **Message expiration** option has been added to push notification. It allows you to specify an expiration date where the message will no longer be sent by Apple (APNS) or Android (FCM). [Read more](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
-* Improvements have been made to the **Load file** activity: workflow logs have been made clearer and more detailed about the error that occurs when a file fails to load. The outbound transition generated when activating the **Keep the rejects in a file** option has been renamed **Rejects**. [Read more](../../automating/using/load-file.md#load-files)
+* Improvements have been made to the **Load file** activity: workflow logs have been made clearer and more detailed about the error that occurs when a file fails to load. The outbound transition generated when activating the **Keep the rejects in a file** option has been renamed **Rejects**. [Read more](../../automating/using/load-file.md)
 * Multilingual related logs have been added to the sending logs to better understand sending failures due to missing languages in the uploaded CSV files.
 
 ### Security enhancements {#security-enhancements-3}
@@ -78,6 +78,8 @@ Additional resources:
 
 ### Email Designer enhancements {#email-designer-enhancements-4}
 
+* Fixed an issue which prevented unsubscription, subscription and landing page links from being tracked when inserted in an email. (CAMP-37809)
+* Fixed an issue which could lead to errors when creating a new email and selecting a template. (CAMP-38000)
 * When editing a link using the email designer, you can now use the **Underline link** option. Also, a **Target** property has been added with the default value set to **None**. [Read more](../../designing/using/styles.md#about-styling-links)
 * Fixed a color issue on links in text components in the body of an email. (CAMP-37330)
 * Fixed an issue which prevented associated links from being removed when deleting an image. (CAMP-37234)
@@ -434,7 +436,7 @@ Several improvements have been added to the Transactional messaging channel in o
   </tr> 
   <tr> 
    <td> Launch integration for Mobile App<br /> </td> 
-   <td> <p>This release contains the integration of Adobe Campaign with the GA versions of Android and iOS extensions for Adobe Campaign Standard in Adobe Experience Platform Launch and Mobile SDKs. These extensions support push messaging, in-app messaging, and mobile app profile updates.</p><p> For more information, refer to the <a href="../../administration/using/about-typology-rules.md#typology-rules">detailed documentation</a>.</p> </td> 
+   <td> <p>This release contains the integration of Adobe Campaign with the GA versions of Android and iOS extensions for Adobe Campaign Standard in Adobe Experience Platform Launch and Mobile SDKs. These extensions support push messaging, in-app messaging, and mobile app profile updates.</p><p> For more information, refer to the <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">detailed documentation</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Mobile In-App Messaging<br /> </td> 
@@ -464,7 +466,7 @@ Several improvements have been added to the Transactional messaging channel in o
 
 * Our new on-boarding experience will help you start email creation faster and give you easier access to documentation and tutorials.
 
-  For more information, refer to the [detailed documentation](../../designing/using/overview.md#email-designer-home-page).
+  For more information, refer to the [detailed documentation](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page).
 
 * You now have the flexibility to configure the number of columns and width based on your needs.
 
@@ -472,7 +474,7 @@ Several improvements have been added to the Transactional messaging channel in o
 
 * When editing in mobile view, you can hide certain components just in mobile display for effective usage of space.
 
-  For more information, refer to the [detailed documentation](../../designing/using/styles.md#switching-to-mobile-view).
+  For more information, refer to the [detailed documentation](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
 
 * You can now add custom social channels to your email template on top of the ones that are already available.
 * Fixed an issue that prevented to scroll down the structure menu when using more than 18 structures. (CAMP-31173)
@@ -543,7 +545,7 @@ Several improvements have been added to the Transactional messaging channel in o
      <li> The ability to <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">retrieve content from a URL automatically at preparation time</a> </li> 
      <li> Fully compliant <a href="../../designing/using/using-reusable-content.md#content-templates">out-of-the box content templates</a>. </li> 
     </ul> 
-    <p>For more information, refer to the <a href="../../designing/using/overview.md">detailed documentation</a> and the <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html">how-to video</a>. Improvements and fixes are listed below.</p><p>As a consequence, the legacy email content editor is now deprecated. For more information, refer to this <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">page</a>.</p> </td> 
+    <p>For more information, refer to the <a href="../../designing/using/designing-content-in-adobe-campaign.md">detailed documentation</a> and the <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html">how-to video</a>. Improvements and fixes are listed below.</p><p>As a consequence, the legacy email content editor is now deprecated. For more information, refer to this <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">page</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Product Listings in Transactional Emails<br /> </td> 
@@ -551,7 +553,7 @@ Several improvements have been added to the Transactional messaging channel in o
   </tr> 
   <tr> 
    <td> Mobile View in the Email Designer<br /> </td> 
-   <td> <p>You can now switch to a dedicated mobile view when editing email content. This allows you to fine-tune the responsive design of an email by separately editing all style options for mobile display, such as adapting margins, smaller font size, different background color, and so on.</p><p> For more information, refer to the <a href="../../designing/using/styles.md#switching-to-mobile-view">detailed documentation</a>.</p> </td> 
+   <td> <p>You can now switch to a dedicated mobile view when editing email content. This allows you to fine-tune the responsive design of an email by separately editing all style options for mobile display, such as adapting margins, smaller font size, different background color, and so on.</p><p> For more information, refer to the <a href="../../designing/using/plain-text-html-modes.md#switching-to-mobile-view">detailed documentation</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> In-App Messaging Beta Improvements<br /> </td> 

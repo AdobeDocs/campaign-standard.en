@@ -86,7 +86,7 @@ Here is the API preview for this example:
 **Related topics:**
 
 * [Previewing and publishing the event](#previewing-and-publishing-the-event)
-* [Using product listings in a transactional message](#using-product-listings-in-a-transactional-message)
+* [Using product listings in a transactional message](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)
 
 ## Enriching the transactional message content {#enriching-the-transactional-message-content}
 

@@ -43,4 +43,4 @@ When building a template, we recommend adding a **'type'** attribute to tags. Th
   
   ```
 
-  The official list of 'type' attributes is available at the following address: [http://www.w3schools.com/tags/att_input_type.asp](http://www.w3schools.com/tags/att_input_type.asp)
+  The official list of 'type' attributes is available at the following address: [https://www.w3schools.com/tags/att_input_type.asp](https://www.w3schools.com/tags/att_input_type.asp)

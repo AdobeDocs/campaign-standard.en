@@ -21,8 +21,8 @@ The available endpoints for Adobe Campaign REST API:
 * **/profileAndServices**: interact with out of the box fields. Extended fields are not accessible with this endpoint.
 * **/profileAndServicesExt**: interact with custom fields added during Profile or Services custom resource extension. For more on custom resources, refer to [this section](../../api/using/custom-resources.md).
 * **/&lt;transactionalAPI&gt;**: interact with the transactional messages API (the name of the transactional messages API endpoint depends on your instance configuration). For more on this, refer to [this section](../../api/using/managing-transactional-messages.md).
-* **/workflow/execution**: interact with workflows. For more on this, refer to [this section](../../api/using/managing-workflows.md).
-* **/privacy/privacyTool**: interact with the privacy API to allow the automatic process of privacy requests. For more on this, refer to [this section](../../api/using/privacy-management.md).
+* **/workflow/execution**: interact with workflows. For more on this, refer to [this section](../../api/using/controlling-a-workflow.md).
+* **/privacy/privacyTool**: interact with the privacy API to allow the automatic process of privacy requests. For more on this, refer to [this section](../../api/using/creating-a-privacy-request.md).
 * **/history**: retrieve the profiles' marketing history. For more on integrated customer profiles in Campaign, refer to the [Campaign documentation](https://helpx.adobe.com/campaign/standard/audiences/using/integrated-customer-profile.html).
 
 By default, the main resources available for the **profileAndServices** and **profileAndServicesExt** APIs are:

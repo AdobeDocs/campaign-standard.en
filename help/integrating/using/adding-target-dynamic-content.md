@@ -23,8 +23,8 @@ While editing an email, you can insert a dynamic image from Adobe Target which w
 Before accessing the image in Adobe Campaign, the following tasks must first be performed in Adobe Target:
 
 * Create one or several [redirect offers](https://docs.adobe.com/content/help/en/target/using/experiences/offers/offer-redirect.html), in which you must specify the URL of the image you will be using.
-* Create one or several [audiences](https://marketing.adobe.com/resources/help/en_US/target/ov/c_about_segments.html), to define the target of your activity.
-* Create a [Form-based experience composer](https://marketing.adobe.com/resources/help/en_US/target/target/t_form_experience_composer.html) activity, in which you have to select a rawbox and specify several experiences, depending on the number of redirect offers created. For each experience, you must select one of the redirect offers created.
+* Create one or several [audiences](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/audiences.html), to define the target of your activity.
+* Create a [Form-based experience composer](https://docs.adobe.com/content/help/en/target/using/experiences/form-experience-composer.html) activity, in which you have to select a rawbox and specify several experiences, depending on the number of redirect offers created. For each experience, you must select one of the redirect offers created.
 * Create segments using information from Adobe Campaign to specify experiences. To use data from Adobe Campaign in the offer's selection rules, you must specify the data in the rawbox in Adobe Target.
 
 1. Create an email delivery.
@@ -51,6 +51,6 @@ Your delivery containing the dynamic image can now be send. Its results can be f
 **Related topics:**
 
 * [Adobe Target Portal](https://marketing.adobe.com/resources/help/en_US/target/a4t/c_campaign_and_target.html)
-* [About email content design](../../designing/using/overview.md)
+* [About email content design](../../designing/using/designing-content-in-adobe-campaign.md)
 * [Personalize Email Images in Real-Time](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html) video
 
