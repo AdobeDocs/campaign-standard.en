@@ -283,6 +283,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Creating a segmentation on location](automating/using/workflow-segmentation-location.md)
        + [Retargeting non-openers](automating/using/workflow-cross-channel-retargeting.md)
        + [Building a control group](automating/using/workflow-control-group.md)
+       + [Creating a cross-channel delivery](automating/using/workflow-cross-channel-delivery.md)
 + Developing {#developing}
   + About custom resources {#about-custom-resources}
        + [Data model concepts](developing/using/data-model-concepts.md)
