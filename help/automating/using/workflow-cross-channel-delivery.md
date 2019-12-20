@@ -20,7 +20,7 @@ This document allows you to discover the following Adobe Campaign functionality 
 
 The objective here is to select an audience from the recipients of the database and segment them into two different groups with the aim of sending an email to the first group and an SMS message to the second group.
 
-![](assets/wkf_segment_execute.png)
+![](assets/wkf_segment_overview.png)
 
 For more details on workflows and the different channels available in Adobe Campaign, check the following documents:
 
