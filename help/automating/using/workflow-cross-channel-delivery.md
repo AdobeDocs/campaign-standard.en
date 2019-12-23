@@ -98,11 +98,11 @@ To configure the first transition (Email):
 Your first transition is configured. To configure the second transition (SMS):
 
 1. Click the **[!UICONTROL Add an element]** button to add a new transition.
-1. Define a condition that allows you to retrieve all of the profiles whose mobile phone numbers have been provided. To do this, create a rule on the **[!UICONTROL Mobile > Mobile]** field with the **[!UICONTROL Is not empty]** logical operator.
+1. Define a condition that allows you to retrieve all of the profiles whose mobile phone numbers have been provided. To do this, create a rule on the **[!UICONTROL Mobile]** field with the **[!UICONTROL Is not empty]** logical operator.
 
     ![](assets/wkf_segment_mobile_not_empty.png)
 
-    All of the profiles coming from the query that have a mobile telephone number defined, will be in this transition.
+    All of the profiles coming from the query that have a mobile telephone number defined will be in this transition.
 
 1. You can edit the label of the transition. Confirm your changes.
 
@@ -124,7 +124,7 @@ To create an Email delivery:
 
 1. Drag and drop an **[!UICONTROL Email delivery]** after the fist segment.
 1. Double-click the activity to edit it.
-1. Select **[!UICONTROL Simple email]** and click **[!UICONTROL Next]**.
+1. Select **[!UICONTROL Simple email]**.
 1. Select **[!UICONTROL Add an outbound transition with the population]** and click **[!UICONTROL Next]**.
 
     ![](assets/wkf_segment_deliveries2.png)
@@ -160,4 +160,4 @@ Once the workflow is started, the population targeted by the Query activity will
 
 To execute your workflow, click the **[!UICONTROL Start]** button from the action bar.
 
-You can access your deliveries from the **[!UICONTROL Marketing plans]** > **[!UICONTROL Marketing activities]** advanced menu via the Adobe Campaign logo. Click the delivery then the **[!UICONTROL Reports]** button to access the delivery reports, such as the delivery summary, the open rate or the email rendering according to the recipients' message inbox.
+You can access your deliveries from the **[!UICONTROL Marketing plans]** > **[!UICONTROL Marketing activities]** advanced menu via the Adobe Campaign logo. Click the delivery then the **[!UICONTROL Reports]** button to access the [delivery reports](../../reporting/using/about-dynamic-reports.md#accessing-dynamic-reports), such as the delivery summary, the open rate or the email rendering according to the recipients' message inbox.
