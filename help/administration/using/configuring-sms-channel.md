@@ -330,7 +330,7 @@ The specific parameters for sending SMS messages are regrouped in the **[!UICONT
 
 * The **[!UICONTROL From]** option allows you to personalize the name of the SMS message sender using a string of characters. This is the name that will appear as the sender name of the SMS message on the recipient's mobile telephone.
 
-  If this field is empty, then it will be the source number provided in the external account that will be used. If no source number is provided, it will be the short code that will be used. The external account specific to SMS delivery is presented in the [External SMS account](#defining-an-sms-routing) section.
+  If this field is empty, then it will be the source number provided in the external account that will be used. If no source number is provided, it will be the short code that will be used. The external account specific to SMS delivery is presented in the [Defining an SMS routing](#defining-an-sms-routing) section.
 
   ![](assets/sms_smpp.png)
 
