@@ -22,6 +22,10 @@ This page lists all the new features and documentation updates for each release 
 
 You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-notes.md).
 
+## Documentation updates - January 2020 {#doc-updates-january-2020}
+
+The 'Creating a cross-channel delivery workflow' getting started guide has been updated and included into the core documentation. [Read more](../../automating/using/workflow-cross-channel-delivery.md)
+
 ## Documentation updates - December 2019 {#doc-updates-december-2019}
 
 The Configuring S3 external account documentation has been updated. [Read more](../../administration/using/external-accounts.md#amazon-s3-external-account)
