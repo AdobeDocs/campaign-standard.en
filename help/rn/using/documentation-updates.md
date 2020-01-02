@@ -28,6 +28,8 @@ The 'Creating a cross-channel delivery workflow' getting started guide has been 
 
 The Indicator calculation section for Dynamic reports has been updated. [Read more](../../reporting/using/indicator-calculation.md)
 
+A new page about general guidelines for Mobile deliveries in Adobe Campaign Standard has been added. [Read more](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
+
 ## Documentation updates - December 2019 {#doc-updates-december-2019}
 
 The Configuring S3 external account documentation has been updated. [Read more](../../administration/using/external-accounts.md#amazon-s3-external-account)
