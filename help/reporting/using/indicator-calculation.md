@@ -149,13 +149,7 @@ The tables below give you the list of indicators used in the different reports a
    <td> @rateQuarantine<br /> </td> 
    <td> @quarantine/@sent<br /> </td> 
    <td> Denominator for rate calculation is based on Sent count (Delivered + Bounces).<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> Refused<br /> </td> 
-   <td> @refused<br /> </td> 
-   <td> count(@failureReason=20)<br /> </td> 
-   <td> </td> 
-  </tr> 
+  </tr>
   <tr> 
    <td> Rejected<br /> </td> 
    <td> @rejected<br /> </td> 
