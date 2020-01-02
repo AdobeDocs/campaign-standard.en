@@ -54,13 +54,13 @@ This feature is disabled by default. It is enabled when the first model is impor
 
 * [Testing the subject line of an email](../../sending/using/testing-subject-line-email.md)
 
-## Email sender {#email-sender}
+## Defining the email sender of an email {#email-sender}
 
 To define the name of the sender which will appear in the header of messages sent, go the **[!UICONTROL Properties]** tab of the Email Designer home page (accessible through the home icon).
 
 ![](assets/delivery_content_edition16.png)
 
-* The **[!UICONTROL From: name]** field allows you to enter the sender name. By default, the default **Sender name** block is automatically entered in the field. Adobe Campaign refers to the email channel configuration (from the advanced menu **[!UICONTROL Administration > Channels > Email > Email accounts]** via the Adobe Campaign logo) to designate this sender.
+* The **[!UICONTROL From: name]** field allows you to enter the sender name. By default, the default **Sender name** block is automatically entered in the field. The default sender email address and sender name are  defined in **[!UICONTROL Brands]** accessible via the Adobe Campaign logo under the advanced menu **[!UICONTROL Administration > Instance settings > Brand configuration]** .
 
   You can change the sender name by clicking the **Sender name** block. The field then becomes editable and you can enter the name you would like to use.
 
