@@ -35,7 +35,7 @@ To use these two solutions together, you must configure them to connect to one a
 1. Configure Adobe Campaign. To do this:
 
     * Configure an Adobe Experience Manager type external account.
-    * Configure the **AEMResourceTypeFilter** option, which recognizes the content types created in Adobe Experience Manager for Adobe Campaign.
+    * Configure the **[!UICONTROL AEMResourceTypeFilter]** option, which recognizes the content types created in Adobe Experience Manager for Adobe Campaign.
     * Create an email template specifying that it is Adobe Experience Manager content and link the previously created external account to this template.
 
 1. Configure Adobe Experience Manager. To do this:
