@@ -39,12 +39,13 @@ You can also create an email [with existing content](#with-existing-content):
 
 You can create an email easily, add components and personalize their content to send a delivery quickly. You can adapt the styling options to your content if needed. For more on managing style settings and inline attributes, see [Editing email styles](../../designing/using/styles.md).
 
+1. Create an email.
+1. Close homepage.
+
 ### Adding a subject line {#add-a-subject-line}
 
 Subject lines are mandatory when sending an email. For more information, see [Defining the subject line of an email](../../designing/using/subject-line.md).
 
-1. Create an email.
-1. Close homepage.
 1. Go the **[!UICONTROL Properties]** tab of the Email Designer home page (accessible through the home icon) and fill in the **[!UICONTROL Subject]** section.
 
 ![](assets/subject-line-quick-start.png)
