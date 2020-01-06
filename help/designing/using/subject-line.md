@@ -34,12 +34,6 @@ To configure the email subject, go the **[!UICONTROL Properties]** tab of the Em
 
 You can also add personalization fields, content blocks and dynamic content to the subject line by clicking the corresponding icons.
 
-**Related topics:**
-
-* [Inserting a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field)
-* [Adding a content block](../../designing/using/personalization.md#adding-a-content-block)
-* [Defining dynamic content in an email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
-
 ## Predictive subject line {#predictive-subject-line}
 
 When editing an email, you can try out different subject lines and get an estimation of its open rate before you send it.
