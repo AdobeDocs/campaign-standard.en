@@ -26,7 +26,7 @@ Creating a direct mail delivery is very similar to creating a regular email. The
 
    ![](assets/direct_mail_1.png)
 
-1. Choose either the out-of-the-box **[!UICONTROL Direct mail]** template or one of your own templates. For more information on templates, refer to the [Managing templates](../../start/using/about-templates.md) section.
+1. Choose either the out-of-the-box **[!UICONTROL Direct mail]** template or one of your own templates. For more information on templates, refer to the [Managing templates](../../start/using/marketing-activity-templates.md) section.
 
    ![](assets/direct_mail_2.png)
 
