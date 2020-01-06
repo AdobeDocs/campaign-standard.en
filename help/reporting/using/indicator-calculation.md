@@ -16,6 +16,10 @@ snippet: y
 
 # Indicator calculation{#indicator-calculation}
 
+>[!NOTE]
+>
+>To better process and manage high volumes and real-time analyses, Dynamic reporting uses approximate aggregations for distinct count estimates. Approximate aggregations offer bounded memory usage and are often faster than exact computations.
+
 The tables below give you the list of indicators used in the different reports and their calculation formula depending on the delivery type.
 
 ## Email delivery {#email-delivery}
