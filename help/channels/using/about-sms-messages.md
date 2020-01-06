@@ -35,7 +35,7 @@ To deliver SMS messages to a mobile telephone you need:
 
 **Related topics:**
 
-* [Managing templates](../../start/using/about-templates.md)
+* [Managing templates](../../start/using/marketing-activity-templates.md)
 * [SMS configuration](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)
 * [SMS report](../../reporting/using/sms-report.md)
 
@@ -53,5 +53,4 @@ Adobe Campaign offers a delivery template for mobile devices. This template must
 
 **Related topics:**
 
-* [Managing templates](../../start/using/about-templates.md)
-
+* [Managing templates](../../start/using/marketing-activity-templates.md)

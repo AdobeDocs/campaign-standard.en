@@ -108,7 +108,7 @@ A new help article has been added, with information related to subdomains and ce
 
 The section describing the content templates and fragments has been updated. [Read more](../../designing/using/using-reusable-content.md#content-templates)
 
-A new section on how to save email content as a template in the Email Designer has been added. [Read more](../../start/using/about-templates.md#saving-content-as-template)
+A new section on how to save email content as a template in the Email Designer has been added. [Read more](../../designing/using/using-reusable-content.md#saving-content-as-template)
 
 ## Release 19.3 - July 2019 {#release-19-3---july-2019}
 
@@ -362,7 +362,7 @@ Learn how to simply make external contents fully editable with the Creative SDK 
 
 The list of HTML attributes for full compliance with the Creative Designer is now available in this [section](../../designing/using/using-existing-content.md#editing-existing-contents-with-the-email-designer).
 
-Added information on default language for multilingual template. [Read more](../../start/using/creating-a-multilingual-template.md)
+Added information on default language for multilingual template. [Read more](../../channels/using/multilingual-messages-template.md)
 
 The Users & security guide has been updated to reflect the depreciation of the geographical unit capability for new Campaign Standard instances, as well as existing instances with no geographical units created, starting 18.7 release. [Read more](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 

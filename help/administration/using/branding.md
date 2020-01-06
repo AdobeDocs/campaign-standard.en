@@ -27,7 +27,7 @@ Technical administrators can define one or several brands to centrally enter the
 The main principle of configuring and using brands is to:
 
 1. Create and configure the brand - this operation requires specific permissions and is carried out by the Adobe Campaign technical administrator.
-1. Create one or several delivery and landing page templates for this brand. Refer to the [Creating a template](../../start/using/about-templates.md) section.
+1. Create one or several delivery and landing page templates for this brand. Refer to the [Creating a template](../../start/using/marketing-activity-templates.md) section.
 1. Create messages and landing pages based on this template. Refer to the [Creating an email](../../channels/using/creating-an-email.md) and [Creating a landing page](../../channels/using/designing-a-landing-page.md) sections.
 
 >[!CAUTION]
@@ -85,7 +85,7 @@ To use the parameters defined for a brand, it must be linked to a delivery templ
 
 >[!NOTE]
 >
->For more information about creating a template, refer to the [Creating a template](../../start/using/about-templates.md) section.
+>For more information about creating a template, refer to the [Creating a template](../../start/using/marketing-activity-templates.md) section.
 
 Once your template has been created, you can link it to a brand. To do this:
 

@@ -44,7 +44,7 @@ The program is the first level of organization. It can contain sub-programs, cam
 
    ![](assets/programs_and_campaigns_2.png)
 
-   The program types available are based on templates defined in the **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Program templates]** section. For more on this, refer to the [Managing templates](../../start/using/about-templates.md) section.
+   The program types available are based on templates defined in the **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Program templates]** section. For more on this, refer to the [Managing templates](../../start/using/marketing-activity-templates.md) section.
 
 1. In the **[!UICONTROL Properties]** screen, enter the name and ID of the program.
 
@@ -72,7 +72,7 @@ In programs and sub-programs, you can add campaigns. Campaigns can contain marke
 
    ![](assets/programs_and_campaigns_7.png)
 
-   The campaign types available are based on templates defined in **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Campaign templates]**. For more on this, refer to the [Managing templates](../../start/using/about-templates.md) section.
+   The campaign types available are based on templates defined in **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Campaign templates]**. For more on this, refer to the [Managing templates](../../start/using/marketing-activity-templates.md) section.
 
 1. In the **[!UICONTROL Properties]** screen, enter the name and ID of the campaign.
 1. Select a start and end date to your campaign. These dates only apply to the campaign itself.

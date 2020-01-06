@@ -18,16 +18,16 @@ snippet: y
 
 You can send a multilingual email to profiles with different preferred languages: each profile will receive a variant of the email in his preferred language.
 
-To do this, check that you have a multilingual email template available. If not, learn how to create one in [this section](../../start/using/creating-a-multilingual-template.md).
+To do this, check that you have a multilingual email template available. If not, learn how to create one in [this section](../../channels/using/multilingual-messages-template.md).
 
 The audience is based on profiles with a completed preferred language information.
 
-1. Create a new email based on a [multilingual template](../../start/using/creating-a-multilingual-template.md).
+1. Create a new email based on a [multilingual template](../../channels/using/multilingual-messages-template.md).
 
    ![](assets/multi_create1.png)
 
 1. Define the general properties and the target audience of the email, just as for a standard email. Refer to the [Creating audiences](../../audiences/using/creating-audiences.md) section.
-1. At the fourth step in the creation wizard, define the variant options. If the [multilingual template](../../start/using/creating-a-multilingual-template.md) already contains all the right parameters, you can directly click on the **[!UICONTROL Create]** button.
+1. At the fourth step in the creation wizard, define the variant options. If the [multilingual template](../../channels/using/multilingual-messages-template.md) already contains all the right parameters, you can directly click on the **[!UICONTROL Create]** button.
 
    ![](assets/multi_create4.png)
 
