@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Links {#links}
+# Managing links {#links}
 
 ## Inserting a link {#inserting-a-link}
 
