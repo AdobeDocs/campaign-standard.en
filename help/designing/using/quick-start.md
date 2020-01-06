@@ -13,7 +13,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 ---
-# Get started with the email designer {#quick-start}
+# Get started with the Email Designer {#quick-start}
 
 The Email Designer provides four ways to create emails.
 
