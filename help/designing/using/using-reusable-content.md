@@ -33,7 +33,7 @@ The out-of-the-box email content templates include eighteen mobile-optimized lay
 
 The HTML content templates are accessible from the **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** screen of the [Advanced menu](../../start/using/interface-description.md#advanced-menu). From there, you can manage landing page content templates, email content templates and also fragments.
 
-![](assets/content_template_list.png)
+![](assets/content_templates_list.png)
 
 The out-of-the-box content templates are read-only. To edit one of them, you must first duplicate the desired template.
 
