@@ -1,5 +1,5 @@
 ---
-title: Managing Styles
+title: Managing email styles
 description: Discover how to manage email styles in the Email Designer.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Managing Styles {#managing-styles}
+# Managing email styles {#managing-styles}
 
 
 In the Email Designer, when selecting an element, several options specific to the type of content selected are displayed in the **[!UICONTROL Settings]** pane. You can use these options to easily change the style of your email.
