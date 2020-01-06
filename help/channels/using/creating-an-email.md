@@ -20,7 +20,7 @@ You can create an email from a [campaign](../../start/using/marketing-activities
 
 1. Once you have started creating an email marketing activity, select the template you would like to use.
 
-   By default, you can choose from several templates for each marketing activity. This allows you to pre-configure certain parameters according to your needs and also assign a brand to your delivery. For more on this, see [Managing templates](../../start/using/about-templates.md).
+   By default, you can choose from several templates for each marketing activity. This allows you to pre-configure certain parameters according to your needs and also assign a brand to your delivery. For more on this, see [Managing templates](../../start/using/marketing-activity-templates.md).
 
    ![](assets/email_creation_1.png)
 

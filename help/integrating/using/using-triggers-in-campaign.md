@@ -54,7 +54,7 @@ The steps for putting this into place are:
 
 The **[!UICONTROL Show Trigger in Experience Cloud]** button allows you to view the trigger definition in Adobe Experience Cloud.
 
-Once the event has been published, a transactional template linked to the new event is then automatically created. You then have to modify and publish the template that was just created. For more on this, refer to the [Editing the template](../../start/using/about-templates.md) section.
+Once the event has been published, a transactional template linked to the new event is then automatically created. You then have to modify and publish the template that was just created. For more on this, refer to the [Editing the template](../../start/using/marketing-activity-templates.md) section.
 
 ## Editing the transactional message template {#editing-the-transactional-message-template}
 
