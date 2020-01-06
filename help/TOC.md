@@ -187,8 +187,9 @@ user-guide-title: Adobe Campaign Standard Help
 + Integrating with Adobe Cloud {#integrating-with-adobe-cloud}
   + [About Campaign integrations](integrating/using/about-campaign-integrations.md)
   + Working with Campaign and Experience Manager {#working-with-campaign-and-experience-manager}
-       + [Integrating with Experience Manager](integrating/using/integrating-with-experience-manager.md)
-       + [Creating a Campaign form in Experience Manager ](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
+       + [About Campaign-Experience Manager integration](integrating/using/integrating-with-experience-manager.md)
+       + [Creating an email content in Adobe Experience Manager](integrating/using/creating-email-experience-manager.md)
+       + [Creating a Campaign form in Experience Manager](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
   + Working with Campaign and Target {#working-with-campaign-and-target}
        + [About Campaign-Target integration](integrating/using/about-campaign-target-integration.md)
        + [Configuring the Campaign-Target integration](integrating/using/configuring-the-campaign-target-integration.md)

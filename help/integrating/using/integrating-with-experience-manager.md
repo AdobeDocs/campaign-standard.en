@@ -70,4 +70,4 @@ Adobe Campaign Standard is compatible with Adobe Experience Manager 6.1, 6.2, 6.
     This integration allows you to easily turn one email into several versions with the segmentation. 
     To learn how to set up segmentation in Adobe Experience Manager and how to create email with targeted content, refer to this [page](https://docs.adobe.com/help/en/experience-manager-64/authoring/aem-adobe-campaign/target-adobe-campaign.html#setting-up-segmentation-in-aem).
 
-* **For a successful sync, the segment name in Experience Manager has to match the segment name in Campaign exact**
+* **For a successful sync, the segment name in Experience Manager has to match the segment name in Campaign exact.**
