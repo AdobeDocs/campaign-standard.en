@@ -35,6 +35,10 @@ You can also create an email [with existing content](#with-existing-content):
 
 ## Designing emails with the editor {#without-existing-content}
 
+>[!NOTE]
+>
+>In both creation strategy, it is crucial to fill in the subject line before sending your email. Learn how to [Add a subject line](#add-a-subject-line).
+
 ### Creating an email from scratch {#from-scratch-email}
 
 You can create an email easily, add components and personalize their content to send a delivery quickly. You can adapt the styling options to your content if needed. For more on managing style settings and inline attributes, see [Editing email styles](../../designing/using/styles.md).
