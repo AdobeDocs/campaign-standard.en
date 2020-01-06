@@ -56,7 +56,7 @@ See an example in [this section](#example--adjusting-vertical-alignment-and-padd
 
 1. Save your content.
 
-## About padding and margin {#about-padding-and-margin}
+## Adjusting padding and margin {#about-padding-and-margin}
 
 The Email Designer interface allows you to quickly adjust padding and margin settings.
 
