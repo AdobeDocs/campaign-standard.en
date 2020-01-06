@@ -1,5 +1,5 @@
 ---
-title: Managing Images
+title: Working with Images
 description: Discover how to manage images in emails with the Email Designer.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Managing images {#images} 
+# Working with images {#images} 
 
 ## Inserting images{#inserting-images}
 
