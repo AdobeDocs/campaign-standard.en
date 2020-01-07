@@ -34,7 +34,7 @@ Creating a marketing activity is detailed in the [Creating marketing activities]
 
    >[!NOTE]
    >
-   >Each marketing activity offers several types by default. These allow you to preconfigure certain parameters according to your needs. For more information, refer to the [Managing templates](../../start/using/about-templates.md) section.
+   >Each marketing activity offers several types by default. These allow you to preconfigure certain parameters according to your needs. For more information, refer to the [Managing templates](../../start/using/marketing-activity-templates.md) section.
 
 1. Enter the general properties of the workflow.
 

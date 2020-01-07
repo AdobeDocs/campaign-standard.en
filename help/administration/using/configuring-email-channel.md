@@ -132,7 +132,7 @@ The following parameters are available for each rule:
 
 ## List of email properties {#list-of-email-properties}
 
-This section details the list of parameters available in the properties screen of an email or [email template](../../start/using/about-templates.md).
+This section details the list of parameters available in the properties screen of an email or email template.
 
 >[!NOTE]
 >
@@ -307,7 +307,7 @@ When activated in the delivery template, this feature allows you to send an exac
 
 ### Activating email archiving {#activating-email-archiving}
 
-Email BCC is activated in the [email template](../../start/using/about-templates.md), through a dedicated option:
+Email BCC is activated in the [email template](../../start/using/marketing-activity-templates.md), through a dedicated option:
 
 1. Go to **Resources** > **Templates** > **Delivery templates**.
 1. Duplicate the out-of-the-box **[!UICONTROL Send via email]** template.

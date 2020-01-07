@@ -21,15 +21,30 @@ Learn how to master email content edition. With Email Designer, you can create t
 
 >[!NOTE]
 >
-> In Adobe Campaign Standard, you can create different types of templates that are accessible from the **Resources** > **Templates** menu. The templates used in the Email Designer are Content templates. For more information, see [About templates](../../start/using/about-templates.md).
+> In Adobe Campaign Standard, you can create different types of templates that are accessible from the **Resources** > **Templates** menu. The templates used in the Email Designer are Content templates. For more information, see [About templates](../../start/using/marketing-activity-templates.md).
 
-### Content templates {#content-templates}
+### About content templates {#content-templates}
 
-You can manage HTML contents that will be offered in the **[!UICONTROL Templates]** tab of the [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) home page. The different templates present various combinations of several types of elements. For example, 'Feather' templates have margins while 'Astro' templates do not have ones. For more on this, see [Content templates](#content-templates).
+You can manage HTML contents that are offered in the **[!UICONTROL Templates]** tab of the [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) home page.
+
+The out-of-the-box email content templates include eighteen mobile-optimized layouts and four best-in-class responsive templates designed by Behance artists. They correspond to the most current usages such as customer welcome messages, newsletters and reengagement emails, among others. They can easily be customized with your brands' content to ease the process of designing emails from scratch.
 
 ![](assets/template_content.png)
 
-To learn how to build an email from an out-of-the-box-template, see [Email Designer](../../designing/using/quick-start.md#building-content-from-an-out-of-the-box-template).
+The HTML content templates are accessible from the **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** screen of the [Advanced menu](../../start/using/interface-description.md#advanced-menu). From there, you can manage landing page content templates, email content templates and also fragments.
+
+![](assets/content_templates_list.png)
+
+The out-of-the-box content templates are read-only. To edit one of them, you must first duplicate the desired template.
+
+You can create new templates or fragments, and define your own contents. For more on this, see [Creating a content template](#creating-a-content-template) and [Creating a content fragment](#creating-a-content-fragment).
+
+When editing content with the Email Designer, you can also create content templates by saving your content as fragment or template. For more on this, see [Saving content as template](#saving-content-as-template) and [Saving content as fragment](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
+
+**Related topics:**
+
+* Learn how to personalize content templates [in this video](https://helpx.adobe.com/campaign/kt/acs/using/acs-email_content_templates-feature-video-use.html).
+* For more information on editing content, see [About email content design](../../designing/using/designing-content-in-adobe-campaign.md).
 
 ### Creating a content template {#creating-a-content-template}
 

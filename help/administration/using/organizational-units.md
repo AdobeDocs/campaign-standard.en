@@ -62,7 +62,7 @@ We now need to create the organizational units for the Geometrixx Clothes and Ge
 To see the impact of assigning different units to different security group, the user assigned to the Administrator and Geometrixx groups will create two email templates to see what the other user assigned to Standard User and Geometrixx Clothes can or cannot access.
 
 1. From the advanced menu, select **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery Templates]**.
-1. Duplicate an existing template and personalize it as needed. For more on this, refer to the [About templates](../../start/using/about-templates.md) section.
+1. Duplicate an existing template and personalize it as needed. For more on this, refer to the [About templates](../../start/using/marketing-activity-templates.md) section.
 1. When the template is created, select the **[!UICONTROL Edit properties]** icon to assign units to your template.
 
    ![](assets/manage_units_6.png)
