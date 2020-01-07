@@ -20,8 +20,8 @@ Learn more on best practices related to delivery design and sending.
 * **[Email designer](designing/using/designing-content-in-adobe-campaign.md)**<br/>
 Consult the reorganized email designer documentation.
 
-* **[Landing pages](channels/using/getting-started-with-landing-pages.md)**<br/>
-Learn more on how to set up a landing page.
+* **[Campaign Standard Mobile guide](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>
+Learn more about general guidelines for mobile deliveries.
 
 [Click here for more updates](rn/using/documentation-updates.md)
 

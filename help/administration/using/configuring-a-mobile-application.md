@@ -30,6 +30,8 @@ After your mobile applications are set up in Adobe Campaign by leveraging the Ex
 
 Once a mobile application is set up, you can retrieve the PII data it collected to create or update profiles from your database. For more on this, refer to this section: [Creating and updating profile information based on mobile application data](../../channels/using/updating-profile-with-mobile-app-data.md).
 
+For general guidelines for Mobile deliveries in Adobe Campaign Standard, refer to this [page](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
+
 ## Using Adobe Experience Platform SDK {#using-adobe-experience-platform-sdk}
 
 >[!Note]
