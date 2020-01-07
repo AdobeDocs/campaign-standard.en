@@ -30,7 +30,7 @@ The Indicator calculation section for Dynamic reports has been updated. [Read mo
 
 A new page about general guidelines for Mobile deliveries in Adobe Campaign Standard has been added. [Read more](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
 
-The Working with Campaign and Experience Manager documentation has been updated with a new section **Tips on how to use Campaign-Experience Manager integration**. [Read more](../../integrating/integrating-with-experience-manager.md#tips-aem)
+The Working with Campaign and Experience Manager documentation has been updated with a new section **Tips on how to use Campaign-Experience Manager integration**. [Read more](../../integrating/using/integrating-with-experience-manager.md#tips-aem)
 
 ## Documentation updates - December 2019 {#doc-updates-december-2019}
 
