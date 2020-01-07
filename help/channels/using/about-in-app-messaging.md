@@ -39,3 +39,4 @@ To start sending In-App messages on mobile applications leveraging Experience Pl
 * [In-App report](../../reporting/using/in-app-report.md)
 * [Push and In-App FAQ](https://helpx.adobe.com/campaign/kb/push_inapp_faq.html)
 * [Mobile use cases supported in Adobe Campaign Standard](https://helpx.adobe.com/campaign/kb/configure-launch-rules-acs-use-cases.html)
+* [Campaign Standard Mobile guide](https://helpx.adobe.com/campaign/kb/acs-mobile.html)

@@ -29,8 +29,6 @@ If you want to use the SMPP protocol, you can also create a new external account
 1. Create a new external account from **[!UICONTROL Administration > Application settings > External accounts]**.
 1. Define the account type as **[!UICONTROL Routing]**, the channel as **[!UICONTROL Mobile (SMS)]** and the delivery mode as **[!UICONTROL Bulk delivery]**.
 
-   Once these routing parameters have been defined, the SMS connector ( **[!UICONTROL Generic SMPP]** ) is selected automatically. This connector allows Adobe Campaign to send SMS messages directly to the targeted profiles by connecting to a short message service center (SMS-C) via the SMPP protocol.
-
    ![](assets/sms_routing.png)
 
 1. Define the connection settings.
@@ -330,7 +328,7 @@ The specific parameters for sending SMS messages are regrouped in the **[!UICONT
 
 * The **[!UICONTROL From]** option allows you to personalize the name of the SMS message sender using a string of characters. This is the name that will appear as the sender name of the SMS message on the recipient's mobile telephone.
 
-  If this field is empty, then it will be the source number provided in the external account that will be used. If no source number is provided, it will be the short code that will be used. The external account specific to SMS delivery is presented in the [External SMS account](#defining-an-sms-routing) section.
+  If this field is empty, then it will be the source number provided in the external account that will be used. If no source number is provided, it will be the short code that will be used. The external account specific to SMS delivery is presented in the [Defining an SMS routing](#defining-an-sms-routing) section.
 
   ![](assets/sms_smpp.png)
 

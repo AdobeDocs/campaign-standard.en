@@ -34,7 +34,7 @@ To get started with the Email Designer, watch this [set of videos](https://helpx
 * For more on building content:
   * From scratch, see [Designing emails from scratch](../../designing/using/designing-from-scratch.md).
   * Using existing content, see [Designing using existing content](../../designing/using/using-existing-content.md).
-  * Using integrations, see [Multi-solution email design](../../designing/using/using-integrations.md).
+  * Using Creative Cloud integrations, see [Multi-solution email design](../../designing/using/using-integrations.md).
 * For more on Personalization, see [Personalization](../../designing/using/personalization.md).
 
 When creating an email, you can choose to use a predefined template or to load an existing content from another source. See [Selecting an existing content](../../designing/using/using-existing-content.md#selecting-an-existing-content).

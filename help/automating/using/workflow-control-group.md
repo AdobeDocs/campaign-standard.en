@@ -1,8 +1,6 @@
 ---
 title: "Workflow use-case: Control group"
-seo-title: "Workflow use-case: Control group"
 description: "Workflow use-case: Control group"
-seo-description: "Workflow use-case: Control group"
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat

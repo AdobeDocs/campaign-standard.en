@@ -49,7 +49,7 @@ As an expert user, to define these specific configurations, refer to the mobile 
 * [Preparing and sending a push notification](../../channels/using/preparing-and-sending-a-push-notification.md)
 * [Creating a multilingual push notification](../../channels/using/creating-a-multilingual-push-notification.md)
 * [Push notification report](../../reporting/using/push-notification-report.md)
-* [Push and In-App FAQ](https://helpx.adobe.com/campaign/kb/push_inapp_faq.html)
+* [Campaign Standard Mobile guide](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
 
 ## Prerequisites {#prerequisites}
 
