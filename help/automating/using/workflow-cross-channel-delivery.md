@@ -25,7 +25,7 @@ The objective here is to select an audience from the recipients of the database 
 For more details on workflows and the different channels available in Adobe Campaign, check the following documents:
 
 * [Discovering workflows](../../automating/using/discovering-workflows.md)
-* [Communication channels](../../channels/using/discovering-communication-channels.md)
+* [Discovering communication channels](../../channels/using/discovering-communication-channels.md)
 
 ## Creating a workflow {#creating-workflow}
 
@@ -122,7 +122,7 @@ Adobe Campaign allows you to add deliveries into a workflow. To do this, select 
 
 To create an Email delivery:
 
-1. Drag and drop an **[!UICONTROL Email delivery]** after the fist segment.
+1. Drag and drop an **[!UICONTROL Email delivery]** after the first segment.
 1. Double-click the activity to edit it.
 1. Select **[!UICONTROL Simple email]**.
 1. Select **[!UICONTROL Add an outbound transition with the population]** and click **[!UICONTROL Next]**.

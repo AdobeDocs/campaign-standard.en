@@ -80,7 +80,7 @@ Additional resources:
 
 * Fixed an issue which prevented unsubscription, subscription and landing page links from being tracked when inserted in an email. (CAMP-37809)
 * Fixed an issue which could lead to errors when creating a new email and selecting a template. (CAMP-38000)
-* When editing a link using the email designer, you can now use the **Underline link** option. Also, a **Target** property has been added with the default value set to **None**. [Read more](../../designing/using/styles.md#about-styling-links)
+* When editing a link using the Email Designer, you can now use the **Underline link** option. Also, a **Target** property has been added with the default value set to **None**. [Read more](../../designing/using/styles.md#about-styling-links)
 * Fixed a color issue on links in text components in the body of an email. (CAMP-37330)
 * Fixed an issue which prevented associated links from being removed when deleting an image. (CAMP-37234)
 * Fixed an issue which prevented saving modifications on the **Order** settings of dynamic content in a condition. (CAMP-36883)

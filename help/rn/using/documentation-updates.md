@@ -106,7 +106,7 @@ A new section on how to use traps has been added. [Read more](../../sending/usin
 
 A note about the **Launch_URL_Campaign** option was added in the page on how to configure a mobile application using Adobe Experience Platform SDKs. [Read more](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
 
-The email designer guide has been reorganized. [Read more](../../designing/using/designing-content-in-adobe-campaign.md)
+The Email Designer guide has been reorganized. [Read more](../../designing/using/designing-content-in-adobe-campaign.md)
 
 ## Documentation updates - August 2019 {#doc-updates-august-2019}
 
