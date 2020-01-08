@@ -80,12 +80,12 @@ To avoid such problems, Adobe recommends to follow the best practices below:
 
 Also, note that the public IPs from which you are trying to initiate the SFTP connection must be whitelisted on the Campaign instance. Whitelisting of IP addresses can be requested via a [support ticket](https://support.neolane.net), along with providing the public key to use for authentication.
 
-SFTP servers can be managed from the Control Panel. For more information, refer to the [Control Panel documentation](https://helpx.adobe.com/campaign/kb/control-panel-sftp.html). 
+SFTP servers can be managed from the Control Panel. For more information, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/sftp-management/about-sftp-management.html).
 
 >[!NOTE]
 >
 >Control Panel is available only to Admin users of customers hosted on AWS. 
-Check if your instance is hosted on AWS [here](https://helpx.adobe.com/campaign/kb/control-panel-faq.html#IMSOrgID).
+Check if your instance is hosted on AWS [here](https://docs.adobe.com/content/help/en/control-panel/using/faq.html#ims-org-id).
 
 ## Amazon S3 external account {#amazon-s3-external-account}
 

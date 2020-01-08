@@ -66,7 +66,7 @@ Learn more about general guidelines for mobile deliveries.
 
 * [Release notes](rn/using/release-notes.md)
 
-* [Control Panel](https://helpx.adobe.com/campaign/kb/control-panel.html)
+* [Control Panel](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
 
 * [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
 
