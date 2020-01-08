@@ -18,7 +18,7 @@ Learn about the tools provided by Adobe Campaign to help you with your Privacy c
 Learn more on best practices related to delivery design and sending.
 
 * **[Email designer](designing/using/designing-content-in-adobe-campaign.md)**<br/>
-Consult the reorganized email designer documentation.
+Consult the reorganized Email Designer documentation.
 
 * **[Campaign Standard Mobile guide](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>
 Learn more about general guidelines for mobile deliveries.
@@ -46,7 +46,7 @@ Learn more about general guidelines for mobile deliveries.
     <div>
     <a href="designing/using/designing-content-in-adobe-campaign.md"><strong>Design an email</strong></a>
     </div>
-    <em>Learn how to use the email designer to create responsive and personalized emails</em>
+    <em>Learn how to use the Email Designer to create responsive and personalized emails</em>
     <br>
   </td>
   <td valign="top">
