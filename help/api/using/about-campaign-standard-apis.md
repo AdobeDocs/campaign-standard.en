@@ -20,7 +20,7 @@ Campaign Standard APIs are aimed at letting you **create integrations** for Adob
 
 With the Adobe Campaign Standard APIs, you get access to various functionalities described in the sections below:
 
-<table valign="top">
+<table>
 <tr>
     <td>
         <a href="../../api/using/retrieving-profiles.md"><img alt="conditions" src="assets/icon_profile.png"/></a>
@@ -54,7 +54,7 @@ With the Adobe Campaign Standard APIs, you get access to various functionalities
         <div><a href="../../api/using/managing-transactional-messages.md"><strong>Transactional messages</strong></a></div>
         <em>Learn how to send transactional events.</em>
     </td>
-    <td>
+    <td valign="top">
         <a href="../../api/using/controlling-a-workflow.md"><img alt="conditions" src="assets/icon_workflows.png"/></a>
         <div><a href="../../api/using/controlling-a-workflow.md"><strong>Workflows</strong></a></div>
         <em>Learn how to control and trigger workflows.</em>
