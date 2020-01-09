@@ -28,7 +28,7 @@ With the Adobe Campaign Standard APIs, you get access to various functionalities
         <em>Learn how to interact with profiles from your database.</em>
     </td>
     <td>
-        <a href="../../api/using/create-a-service.md"><img alt="conditions" src="assets/icon_services.png"/></a>
+        <a href="../../api/using/creating-a-service.md"><img alt="conditions" src="assets/icon_services.png"/></a>
         <div><a href="../../api/using/creating-a-service.md"><strong>Services and subscriptions</strong></a></div>
         <em>Learn how to interact with services from your database and manage subscriptions.</em>
     </td>
