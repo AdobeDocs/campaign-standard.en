@@ -363,7 +363,6 @@ user-guide-title: Adobe Campaign Standard Help
           + [Counting](api/using/counting.md)
           + [Pagination](api/using/pagination.md)
        + [Custom resources](api/using/custom-resources.md)
-  + [Interacting with custom resources](api/using/interacting-with-custom-resources.md)   
   + Managing profiles {#managing-profiles}
        + [Retrieving profiles](api/using/retrieving-profiles.md)
        + [Updating profiles](api/using/updating-profiles.md)
@@ -373,6 +372,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Retrieving subscriptions](api/using/retrieving-subscriptions.md)
        + [Perform subscriptions](api/using/perform-subscriptions.md)
        + [Deleting subscriptions](api/using/deleting-subscriptions.md)
+  + [Interacting with custom resources](api/using/interacting-with-custom-resources.md)
   + [Interacting with marketing history](api/using/interacting-with-marketing-history.md)  
   + Privacy management {#privacy-management}
        + [Creating a privacy request](api/using/creating-a-privacy-request.md)
