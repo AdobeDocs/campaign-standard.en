@@ -28,8 +28,8 @@ With the Adobe Campaign Standard APIs, you get access to various functionalities
         <em>Learn how to interact with profiles from your database.</em>
     </td>
     <td>
-        <a href="../../api/using/managing-services.md"><img alt="conditions" src="assets/do-not-localize/icon_services.png"/></a>
-        <div><a href="../../api/using/managing-services.md"><strong>Services and subscriptions</strong></a></div>
+        <a href="../../api/using/create-a-service.md"><img alt="conditions" src="assets/do-not-localize/icon_services.png"/></a>
+        <div><a href="../../api/using/creating-a-service.md"><strong>Services and subscriptions</strong></a></div>
         <em>Learn how to interact with services from your database and manage subscriptions.</em>
     </td>
     <td>
@@ -55,8 +55,8 @@ With the Adobe Campaign Standard APIs, you get access to various functionalities
         <em>Learn how to send transactional events.</em>
     </td>
     <td>
-        <a href="../../api/using/managing-workflows/controlling-a-workflow.md"><img alt="conditions" src="assets/do-not-localize/icon_workflows.png"/></a>
-        <div><a href="../../api/using/managing-workflows/controlling-a-workflow.md"><strong>Workflows</strong></a></div>
+        <a href="../../api/using/controlling-a-workflow.md"><img alt="conditions" src="assets/do-not-localize/icon_workflows.png"/></a>
+        <div><a href="../../api/using/controlling-a-workflow.md"><strong>Workflows</strong></a></div>
         <em>Learn how to control and trigger workflows.</em>
     </td>
     <td>
