@@ -28,39 +28,39 @@ With the Adobe Campaign Standard APIs, you get access to various functionalities
         <em>Learn how to interact with profiles from your database.</em>
     </td>
     <td valign="top">
-        <a href="../../api/using/creating-a-service.md"><img alt="conditions" src="assets/icon_services.png"/></a>
+        <a href="../../api/using/creating-a-service.md"><img width="60px" alt="conditions" src="assets/icon_services.svg"/></a>
         <div><a href="../../api/using/creating-a-service.md"><strong>Services and subscriptions</strong></a></div>
         <em>Learn how to interact with services from your database and manage subscriptions.</em>
     </td>
     <td valign="top">
-        <a href="../../api/using/interacting-with-custom-resources.md"><img alt="conditions" src="assets/icon_customresources.png"/></a>
+        <a href="../../api/using/interacting-with-custom-resources.md"><img width="60px" alt="conditions" src="assets/icon_customresources.svg"/></a>
         <div><a href="../../api/using/interacting-with-custom-resources.md"><strong>Custom resources</strong></a></div>
         <em>Learn how to interact with custom resources from your database.</em>
     </td>
     <td valign="top">
-        <a href="../../api/using/interacting-with-marketing-history.md"><img alt="conditions" src="assets/icon_marketinghistory.png"/></a>
+        <a href="../../api/using/interacting-with-marketing-history.md"><img width="60px" alt="conditions" src="assets/icon_marketinghistory.svg"/></a>
         <div><a href="../../api/using/interacting-with-marketing-history.md"><strong>Marketing history</strong></a></div>
         <em>Learn how to interact with profiles' marketing history.</em>
     </td>
 </tr>
 <tr>
     <td valign="top">
-        <a href="../../api/using/creating-a-privacy-request.md"><img alt="conditions" src="assets/icon_privacy.png"/></a>
+        <a href="../../api/using/creating-a-privacy-request.md"><img width="60px" alt="conditions" src="assets/icon_privacy.svg"/></a>
         <div><a href="../../api/using/creating-a-privacy-request.md"><strong>Privacy</strong></a></div>
         <em>Learn more about privacy management.</em>
     </td>
     <td valign="top">
-        <a href="../../api/using/managing-transactional-messages.md"><img alt="conditions" src="assets/icon_transactionalmessage.png"/></a>
+        <a href="../../api/using/managing-transactional-messages.md"><img width="60px" alt="conditions" src="assets/icon_transactionalmessage.svg"/></a>
         <div><a href="../../api/using/managing-transactional-messages.md"><strong>Transactional messages</strong></a></div>
         <em>Learn how to send transactional events.</em>
     </td>
     <td valign="top">
-        <a href="../../api/using/controlling-a-workflow.md"><img alt="conditions" src="assets/icon_workflows.png"/></a>
+        <a href="../../api/using/controlling-a-workflow.md"><img width="60px" alt="conditions" src="assets/icon_workflows.svg"/></a>
         <div><a href="../../api/using/controlling-a-workflow.md"><strong>Workflows</strong></a></div>
         <em>Learn how to control and trigger workflows.</em>
     </td>
     <td valign="top">
-        <a href="../../api/using/retrieving-an-organizational-unit.md"><img alt="conditions" src="assets/icon_units.png"/></a>
+        <a href="../../api/using/retrieving-an-organizational-unit.md"><img width="60px" alt="conditions" src="assets/icon_units.svg"/></a>
         <div><a href="../../api/using/retrieving-an-organizational-unit.md"><strong>Organizational and geographical units</strong></a></div>
         <em>Learn how to interact with organizational and geographical units.</em>
     </td>
