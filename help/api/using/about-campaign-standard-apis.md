@@ -20,7 +20,7 @@ Campaign Standard APIs are aimed at letting you **create integrations** for Adob
 
 With the Adobe Campaign Standard APIs, you get access to various functionalities described in the sections below:
 
-<table>
+<table valign="top">
 <tr>
     <td>
         <a href="../../api/using/retrieving-profiles.md"><img alt="conditions" src="assets/icon_profile.png"/></a>
