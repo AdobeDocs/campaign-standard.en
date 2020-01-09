@@ -16,7 +16,7 @@ snippet: y
 
 # Multi-solution email design {#multi-solution-email-design}
 
-Adobe Campaign offers several email authoring options. You can use solutions such as Dreamweaver to edit your email content and create responsive messages in the Email Designer. You can also email content with Adobe Experience Manager and use it in your emails in Adobe Campaign Standard. 
+Adobe Campaign offers several email authoring options. You can use solutions such as Dreamweaver to edit your email content and create responsive messages in the Email Designer. You can also email content with Adobe Experience Manager and use it in your emails in Adobe Campaign Standard.
 
 ## Editing content in Dreamweaver {#editing-content-in-dreamweaver}
 
@@ -134,7 +134,7 @@ Adobe Campaign offers several email authoring options. The table below shows the
   </tr> 
   <tr> 
    <td> <strong>To learn more</strong><br /> </td> 
-   <td> See <a href="../../designing/using/overview.md">About the Email Designer</a>.<br /> </td> 
+   <td> See <a href="../../designing/using/designing-content-in-adobe-campaign.md">About the Email Designer</a>.<br /> </td> 
    <td> See <a href="../../integrating/using/integrating-with-experience-manager.md">Integrating with Experience Manager</a>.<br /> </td> 
    <td> See <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver and Campaign</a> and watch this <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">video</a>.<br /> </td> 
   </tr> 

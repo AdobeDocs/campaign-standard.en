@@ -30,12 +30,8 @@ user-guide-title: Adobe Campaign Standard Help
   + Marketing plans {#marketing-plans}
        + [Programs and campaigns](start/using/programs-and-campaigns.md)
        + [Marketing activities](start/using/marketing-activities.md)
+       + [Marketing activity templates](start/using/marketing-activity-templates.md)
        + [Timeline](start/using/timeline.md)
-  + Managing templates {#managing-templates}
-       + [About templates](start/using/about-templates.md)
-       + [Creating a new template](start/using/creating-a-new-template.md)
-       + [Creating a multilingual template](start/using/creating-a-multilingual-template.md)
-       + [Using a template](start/using/using-a-template.md)
   + Tutorials {#tutorials}
        + [Step-by-step guides](start/using/step-by-step-guides.md)
        + [How-to videos](start/using/how-to-videos.md)
@@ -115,11 +111,11 @@ user-guide-title: Adobe Campaign Standard Help
   + [Campaign Email Designer](designing/using/designing-content-in-adobe-campaign.md)
   + [Get started with the Email Designer](designing/using/quick-start.md)
   + [Defining the subject line and the sender](designing/using/subject-line.md)
-  + Designing email content{#designing-email-content}
+  + Building email content{#building-email-content}
        + [Designing emails from scratch](designing/using/designing-from-scratch.md)
-       + [Designing emails using existing content](designing/using/using-existing-content.md)
-       + [Designing emails using reusable content](designing/using/using-reusable-content.md)
-       + [Designing emails using multi-solution integrations](designing/using/using-integrations.md)
+       + [Using existing content](designing/using/using-existing-content.md)
+       + [Working with reusable content](designing/using/using-reusable-content.md)
+       + [Using multi-solution integrations](designing/using/using-integrations.md)
        + [Editing plain text, HTML and mobile emails](designing/using/plain-text-html-modes.md)
   + [Personalizing email content](designing/using/personalization.md)
   + [Managing email styles](designing/using/styles.md)
@@ -146,6 +142,15 @@ user-guide-title: Adobe Campaign Standard Help
        + [Receiving alerts when failures happen](sending/using/receiving-alerts-when-failures-happen.md)
        + [Understanding delivery failures](sending/using/understanding-delivery-failures.md)
        + [Understanding quarantine management](sending/using/understanding-quarantine-management.md)
+  + Managing deliverability {#managing-deliverability}
+       + [About deliverability](sending/using/about-deliverability.md)
+       + [Starting a new platform](sending/using/starting-new-platform.md)
+       + [Controlling email content](sending/using/control-email-content.md)
+       + [Improving your reputation](sending/using/improving-reputation.md)
+       + [Whitelists](sending/using/whitelists.md)
+       + [Technical recommendations](sending/using/technical-recommendations.md)
+       + [Monitoring deliverability](sending/using/monitor-deliverability.md)
+       + [Troubleshooting](sending/using/troubleshooting.md)
 + Reporting {#reporting}
   + About reporting {#about-reporting}
        + [About dynamic reports](reporting/using/about-dynamic-reports.md)
@@ -178,8 +183,9 @@ user-guide-title: Adobe Campaign Standard Help
 + Integrating with Adobe Cloud {#integrating-with-adobe-cloud}
   + [About Campaign integrations](integrating/using/about-campaign-integrations.md)
   + Working with Campaign and Experience Manager {#working-with-campaign-and-experience-manager}
-       + [Integrating with Experience Manager](integrating/using/integrating-with-experience-manager.md)
-       + [Creating a Campaign form in Experience Manager ](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
+       + [About Campaign-Experience Manager integration](integrating/using/integrating-with-experience-manager.md)
+       + [Creating an email content in Adobe Experience Manager](integrating/using/creating-email-experience-manager.md)
+       + [Creating a Campaign form in Experience Manager](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
   + Working with Campaign and Target {#working-with-campaign-and-target}
        + [About Campaign-Target integration](integrating/using/about-campaign-target-integration.md)
        + [Configuring the Campaign-Target integration](integrating/using/configuring-the-campaign-target-integration.md)
@@ -266,6 +272,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Exporting logs](automating/using/exporting-logs.md)
        + [Managing packages](automating/using/managing-packages.md)
        + [Exporting lists](automating/using/exporting-lists.md)
+       + [Use case: Exporting / importing custom resources](automating/using/exporting-importing-custom-resources.md)
   + Use cases: Workflows {#workflow-use-case}
        + [Creating deliveries with a complement](automating/using/workflow-created-query-with-complement.md)
        + [Creating deliveries on creation date](automating/using/workflow-creation-date-query.md)
@@ -273,6 +280,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Creating a segmentation on location](automating/using/workflow-segmentation-location.md)
        + [Retargeting non-openers](automating/using/workflow-cross-channel-retargeting.md)
        + [Building a control group](automating/using/workflow-control-group.md)
+       + [Creating a cross-channel delivery](automating/using/workflow-cross-channel-delivery.md)
 + Developing {#developing}
   + About custom resources {#about-custom-resources}
        + [Data model concepts](developing/using/data-model-concepts.md)

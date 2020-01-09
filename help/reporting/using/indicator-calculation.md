@@ -16,6 +16,10 @@ snippet: y
 
 # Indicator calculation{#indicator-calculation}
 
+>[!NOTE]
+>
+>To better process and manage high volumes and real-time analyses, Dynamic reporting uses approximate aggregations for distinct count estimates. Approximate aggregations offer bounded memory usage and are often faster than exact computations.
+
 The tables below give you the list of indicators used in the different reports and their calculation formula depending on the delivery type.
 
 ## Email delivery {#email-delivery}
@@ -149,13 +153,7 @@ The tables below give you the list of indicators used in the different reports a
    <td> @rateQuarantine<br /> </td> 
    <td> @quarantine/@sent<br /> </td> 
    <td> Denominator for rate calculation is based on Sent count (Delivered + Bounces).<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> Refused<br /> </td> 
-   <td> @refused<br /> </td> 
-   <td> count(@failureReason=20)<br /> </td> 
-   <td> </td> 
-  </tr> 
+  </tr>
   <tr> 
    <td> Rejected<br /> </td> 
    <td> @rejected<br /> </td> 

@@ -38,5 +38,4 @@ The functional administrator in charge of configuring the templates, can define,
 
 **Related topics**:
 
-* [Optimizing your deliverability](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_Deliverability.html)
-
+* [Optimizing your deliverability](../../sending/using/about-deliverability.md)

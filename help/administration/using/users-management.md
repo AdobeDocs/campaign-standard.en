@@ -77,7 +77,7 @@ This type of user requires more general roles than functional administrators but
 Here are the main tasks they can perform:
 
 * [Create and execute complex data management workflows](../../automating/using/about-data-management-activities.md): import, enrich and transform data to feed your database, or export the data you need in external files to process it in your own tools.
-* [Manage templates](../../start/using/about-templates.md): manage your templates to pre-configure certain parameters of your marketing activities according to your needs.
+* [Manage templates](../../start/using/marketing-activity-templates.md): manage your templates to pre-configure certain parameters of your marketing activities according to your needs.
 * [Create queries](../../automating/using/editing-queries.md#about-query-editor) and [manage your audiences](../../audiences/using/about-audiences.md): create your audiences manually using queries or automatically using dedicated workflows.
 * [Perform advanced expression editing](../../automating/using/editing-queries.md#about-query-editor): use advanced functions to manipulate the values used to carry out specific queries such as dates, strings, numerical fields, sorting, etc.
 * [Export lists](../../automating/using/exporting-lists.md) and [import data using existing import templates](../../automating/using/importing-data-with-import-templates.md).

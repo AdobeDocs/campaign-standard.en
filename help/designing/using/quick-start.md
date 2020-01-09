@@ -1,5 +1,5 @@
 ---
-title: Get started with the email designer
+title: Get started with the Email Designer
 description: Start building email content with the Email Designer.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
@@ -13,7 +13,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 ---
-# Get started with the email designer {#quick-start}
+# Get started with the Email Designer {#quick-start}
 
 The Email Designer provides four ways to create emails.
 
@@ -30,21 +30,26 @@ You can also create an email [with existing content](#with-existing-content):
 
 | Without content   | With content   |
 |---|---|
-| Creating an email from scratch  | Converting an existing HTML content  |
-| Building content from an out-of-the-box template  | Importing an existing HTML  |
+| [Creating an email from scratch](#from-scratch-email)  | [Converting an existing HTML content](#converting-an-html-content)  |
+| [Building content from an out-of-the-box template](#building-content-from-an-out-of-the-box-template)  | [Importing an existing HTML](#compatibility-mode) |
 
 ## Designing emails with the editor {#without-existing-content}
+
+>[!NOTE]
+>
+>In both creation strategy, it is crucial to fill in the subject line before sending your email. Learn how to [Add a subject line](#add-a-subject-line).
 
 ### Creating an email from scratch {#from-scratch-email}
 
 You can create an email easily, add components and personalize their content to send a delivery quickly. You can adapt the styling options to your content if needed. For more on managing style settings and inline attributes, see [Editing email styles](../../designing/using/styles.md).
 
+1. Create an email.
+1. Close homepage.
+
 ### Adding a subject line {#add-a-subject-line}
 
 Subject lines are mandatory when sending an email. For more information, see [Defining the subject line of an email](../../designing/using/subject-line.md).
 
-1. Create an email.
-1. Close homepage.
 1. Go the **[!UICONTROL Properties]** tab of the Email Designer home page (accessible through the home icon) and fill in the **[!UICONTROL Subject]** section.
 
 ![](assets/subject-line-quick-start.png)

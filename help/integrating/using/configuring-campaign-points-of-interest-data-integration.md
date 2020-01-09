@@ -26,14 +26,14 @@ The mobile applications used to collect location data must be configured by an *
 
 To be able to use Adobe Experience Platform Location Services with mobile applications configured with Adobe Experience Platform SDK, you need to:
 
-1. Add the **[!UICONTROL Places]** and **[!UICONTROL Places Monitor]** extensions to your mobile app configuration in Adobe Experience Platform Launch. Set up your mobile application in Adobe Campaign. See [Install the Places extension in Adobe Experience Platform Launch](https://placesdocs.com/places-services-by-adobe-documentation/configure-places-in-the-sdk/places-extension#install-the-places-extension-in-adobe-experience-platform-launch) and [Install the Places Monitor extension in Experience Platform Launch](https://placesdocs.com/places-services-by-adobe-documentation/configure-places-in-the-sdk/places-monitor-extension/using-the-places-monitor-extension).
+1. Add the **[!UICONTROL Places]** and **[!UICONTROL Places Monitor]** extensions to your mobile app configuration in Adobe Experience Platform Launch. Set up your mobile application in Adobe Campaign. See [Install the Places extension in Adobe Experience Platform Launch](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-extension/places-extension.html#install-the-places-extension-in-adobe-experience-platform-launch) and [Install the Places Monitor extension in Experience Platform Launch](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html#install-the-places-monitor-extension-in-experience-platform-launch).
 
 1. Once your extensions are set up, create data elements within **[!UICONTROL Adobe Experience Platform Launch]** to retrieve data from these extensions. Refer to this [page](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Step1Createdataelements) to create your data elements.
 
 1. Then, in **[!UICONTROL Adobe Experience Platform Launch]**, you need to create rules to support mobile use cases between Point of Interests and Adobe Campaign.  
 This rule will be triggered when a user enters a geo-fenced **[!UICONTROL Point of Interest]**. Refer to this [page](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Locationpostback) to create your rule.
 
-1. Define your **[!UICONTROL Points of Interest]** in Places. See [Create a Point of Interest](https://placesdocs.com/places-services-by-adobe-documentation/places-database-management-1/managing-pois-in-the-places-ui#create-a-poi).
+1. Define your **[!UICONTROL Points of Interest]** in Places. See [Create a Point of Interest](https://docs.adobe.com/content/help/en/places/using/poi-mgmt-ui/create-a-poi-ui.html).
 
 1. Make sure you access the mobile application and the collected location data in Adobe Campaign. See [Accessing mobile apps used to collect location data](#accessing-mobile-apps-used-to-collect-location-data) and [Accessing collected location data](#accessing-collected-location-data).
 
@@ -86,7 +86,7 @@ You will need specific information that you can find in the mobile application p
 
 You must have access to Adobe Analytics to do the following configuration. If you are not an Adobe Analytics user, contact your Adobe Campaign administrator.
 
-1. Log into [mobilemarketing.adobe.com](http://mobilemarketing.adobe.com/).
+1. Log into [mobilemarketing.adobe.com](https://mobilemarketing.adobe.com/).
 1. Create the application or select an existing one.
 1. Go to the **[!UICONTROL Manage App Settings]** page.
 1. In the **Visitor ID Service** section, check **Enable** and select your organization from the drop-down list. Click **Save**.

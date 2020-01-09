@@ -25,6 +25,10 @@ With the Adobe Campaign Standard APIs, you get access to the following functiona
 * Send Transactional Messages
 * Retrieve data from your customized data model
 
+>[!NOTE]
+>
+>Before performing API calls, please check the scale limitations corresponding to your license agreement. For more on this, refer to [this page](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
+
 To use the Campaign Standard API, you need an Adobe I/O account. This is a mandatory first step to go forward and discover the API features.
 For more on this, refer to [this section](../../api/using/setting-up-api-access.md).
 
@@ -36,4 +40,4 @@ The APIs we provide use **standard concepts** with a REST interface and JSON pay
 
 All the endpoints are described extensively in this documentation with the general notions you should know for manipulating the API, the complete API reference, code examples and quick start guides.
 
-If anything is missing or seems incorrect, please ask the [community](http://help-forums.adobe.com/content/adobeforums/en/campaign-forum/adobe-campaign.html).
+If anything is missing or seems incorrect, please ask the [community](https://help-forums.adobe.com/content/adobeforums/en/campaign-forum/adobe-campaign.html).

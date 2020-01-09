@@ -38,7 +38,7 @@ The steps for creating a push notification with Adobe Campaign are:
 
    You can also select multilingual templates. For more information, refer to [Creating a multilingual push notification](../../channels/using/creating-a-multilingual-push-notification.md).
 
-   For more on templates, refer to the [Managing templates](../../start/using/about-templates.md) section.
+   For more on templates, refer to the [Managing templates](../../start/using/marketing-activity-templates.md) section.
 
 1. Enter your push notification properties and select your mobile app in the **[!UICONTROL Associate a Mobile App to a delivery]** field.
 

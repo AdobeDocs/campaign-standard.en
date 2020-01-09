@@ -80,19 +80,21 @@ To avoid such problems, Adobe recommends to follow the best practices below:
 
 Also, note that the public IPs from which you are trying to initiate the SFTP connection must be whitelisted on the Campaign instance. Whitelisting of IP addresses can be requested via a [support ticket](https://support.neolane.net), along with providing the public key to use for authentication.
 
-SFTP servers can be managed from the Control Panel. For more information, refer to the [Control Panel documentation](https://helpx.adobe.com/campaign/kb/control-panel-sftp.html). 
+SFTP servers can be managed from the Control Panel. For more information, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/sftp-management/about-sftp-management.html).
 
 >[!NOTE]
 >
 >Control Panel is available only to Admin users of customers hosted on AWS. 
-Check if your instance is hosted on AWS [here](https://helpx.adobe.com/campaign/kb/control-panel-faq.html#IMSOrgID).
+Check if your instance is hosted on AWS [here](https://docs.adobe.com/content/help/en/control-panel/using/faq.html#ims-org-id).
 
 ## Amazon S3 external account {#amazon-s3-external-account}
 
 The Amazon S3 server field should be filled as follows:
 
 ```
+
 <S3 bucket name>.s3.amazonaws.com/<s3 object path>
+
 ```
 
 To store your file in S3 encrypted mode, check the **[!UICONTROL Keep files in S3 encrypted]** box.
@@ -101,15 +103,19 @@ To store your file in S3 encrypted mode, check the **[!UICONTROL Keep files in S
 
 The necessary information is usually provided by the provider of the server you are connecting to.
 
-Specify the **[!UICONTROL AWS Region]** associated to your endpoint. You can check the supported regions and signature versions in the official [Amazon S3 documentation](https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region) .
+Specify the **[!UICONTROL AWS Region]** associated to your endpoint. You can check the supported regions and signature versions in the official [Amazon S3 documentation](https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region).
+
+>[!NOTE]
+>
+>Your **[!UICONTROL Receiver server]** should be entered without your AWS Region, it will later be automatically added to your URL.
 
 ### Amazon S3 account recommendations {#amazon-s3-account-recommendations}
 
 To help you set up your Amazon S3 account, we advise you to follow these recommendations:
 
-* Create strict bucket policy to restrict access to S3 buckets. Bucket policy can be configured while creating a bucket. For more information, refer to the [Amazon S3 documentation](http://docs.aws.amazon.com/AmazonS3/latest/dev//example-bucket-policies.html). 
+* Create strict bucket policy to restrict access to S3 buckets. Bucket policy can be configured while creating a bucket. For more information, refer to the [Amazon S3 documentation](https://docs.aws.amazon.com/AmazonS3/latest/dev//example-bucket-policies.html).
 * While creating an external account, enable the encryption to store sensitive data in the S3 bucket by checking the **[!UICONTROL Keep files in S3 encrypted]** box.
-* Grant bucket permissions to specify who can access the object in a bucket. For more information on bucket permission, refer to the [Amazon S3 documentation](http://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html)
+* Grant bucket permissions to specify who can access the object in a bucket. For more information on bucket permission, refer to the [Amazon S3 documentation](https://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html).
 
 ## Adobe Experience Manager external account {#adobe-experience-manager-external-account}
 

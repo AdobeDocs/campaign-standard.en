@@ -28,7 +28,7 @@ Each concerned customer will then receive a follow-up message based on the same 
 
 Once you have created and published an event (the cart abandonment as per the [example](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) above), the corresponding transactional message and follow-up message are created automatically.
 
-The configuration steps are presented in the [Configuring an event to send a follow-up message](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) section.
+The configuration steps are presented in the [Configuring an event to send a follow-up message](../../administration/using/configuring-transactional-messaging.md#configuring-an-event-to-send-a-follow-up-message) section.
 
 To handle an event in a workflow, a delivery template is required. However, when publishing the event, the [transactional message](../../channels/using/event-transactional-messages.md) that is created cannot be used as a template. Therefore, you need to create a specific follow-up delivery template designed to support this event type and to be used as a template in a workflow.
 
@@ -74,7 +74,7 @@ Once you created the follow-up delivery template, you can use it in a workflow t
 
    ![](assets/message-center_follow-up-query-resource.png)
 
-1. Go to the activity's **[!UICONTROL Target]** tab and drag and drop the **[!UICONTROL Delivery logs (logs)]** element from the **[!UICONTROL Email]** section into the workspace.
+1. Go to the activity's **[!UICONTROL Target]** tab and drag and drop the **[!UICONTROL Delivery logs (logs)]** element from the palette into the workspace.
 
    ![](assets/message-center_follow-up-delivery-logs.png)
 
@@ -86,7 +86,7 @@ Once you created the follow-up delivery template, you can use it in a workflow t
 
    ![](assets/message-center_follow-up-delivery-and-tracking-logs.png)
 
-1. Drag and drop the event that you are targeting (**Cart abandonment** in this example) from the **[!UICONTROL Email]** section into the workspace. Then define a rule to target all messages sent three days ago.
+1. Drag and drop the event that you are targeting (**Cart abandonment** in this example) from the palette into the workspace. Then define a rule to target all messages sent three days ago.
 
    ![](assets/message-center_follow-up-created.png)
 

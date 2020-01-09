@@ -132,7 +132,7 @@ The following parameters are available for each rule:
 
 ## List of email properties {#list-of-email-properties}
 
-This section details the list of parameters available in the properties screen of an email or [email template](../../start/using/about-templates.md).
+This section details the list of parameters available in the properties screen of an email or email template.
 
 >[!NOTE]
 >
@@ -235,7 +235,13 @@ The **[!UICONTROL Tracking]** section contains the following parameters:
 
 The **[!UICONTROL Advanced parameters]** section contains multiple parameters.
 
-The first two fields allow you to enter information necessary to elaborate email message headers (reply address and reply address text). This information can be personalized. To do this, click the button to the right of the field that is going to be changed, then add the personalization fields. Inserting and using the personalization fields is detailed in the [Inserting a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field) section.
+The first fields allow you to enter information necessary to elaborate email message headers. You can manage here the reply address and text as well as the sender address (which fills the field "From:"). This information can be personalized.
+
+Click the button to the right of the field that is going to be changed, then add the personalization field, content block or dynamic text.
+
+![](assets/advancedparameters.png)
+
+Inserting and using the personalization content is detailed in the [Personalizing email content](../../designing/using/personalization.md) documentation.
 
 #### Target context {#target-context}
 
@@ -307,7 +313,7 @@ When activated in the delivery template, this feature allows you to send an exac
 
 ### Activating email archiving {#activating-email-archiving}
 
-Email BCC is activated in the [email template](../../start/using/about-templates.md), through a dedicated option:
+Email BCC is activated in the [email template](../../start/using/marketing-activity-templates.md), through a dedicated option:
 
 1. Go to **Resources** > **Templates** > **Delivery templates**.
 1. Duplicate the out-of-the-box **[!UICONTROL Send via email]** template.
@@ -321,4 +327,3 @@ Email BCC is activated in the [email template](../../start/using/about-templates
 >[!NOTE]
 >
 >If the emails sent to the BCC address are opened and clicked through, this will be taken into account in the **[!UICONTROL Total opens]** and **[!UICONTROL Clicks]** from the send analysis, which could cause some miscalculations.
-

@@ -23,7 +23,7 @@ When creating an email or a landing page, you can choose to load an existing con
 
 >[!NOTE]
 >
->The images below show how to load an existing content using the [Email Designer](../../designing/using/overview.md).
+>The images below show how to load an existing content using the [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md).
 
 1. After creating the email or landing page, open its content.
 1. Click the home icon to access the **[!UICONTROL Email Designer]** home page.
@@ -45,7 +45,7 @@ When creating an email or a landing page, you can choose to load an existing con
 
    >[!NOTE]
    >
-   >The [Email Designer](../../designing/using/overview.md) uses specific tagging. Standard HTML content uploaded to Campaign have to match the expected tagging to be fully compatible and editable from the Email Designer. If not matching, your content is uploaded in [compatibility mode](#compatibility-mode). To make existing contents compatible, see [this section](#editing-existing-contents-with-the-email-designer).
+   >The [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) uses specific tagging. Standard HTML content uploaded to Campaign have to match the expected tagging to be fully compatible and editable from the Email Designer. If not matching, your content is uploaded in [compatibility mode](#compatibility-mode). To make existing contents compatible, see [this section](#editing-existing-contents-with-the-email-designer).
 
 **Related topics:**
 
@@ -54,7 +54,7 @@ When creating an email or a landing page, you can choose to load an existing con
 
 ## Editing existing contents with the Email Designer{#editing-existing-contents-with-the-email-designer}
 
-To fully leverage the edition possibilities of the [Email Designer](../../designing/using/overview.md), your uploaded HTML must contain specific tagging that makes it compliant with the WYSIWYG editor.
+To fully leverage the edition possibilities of the [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md), your uploaded HTML must contain specific tagging that makes it compliant with the WYSIWYG editor.
 
 If all or part of the HTML does not have this tagging, the content is then loaded in ' [compatibility mode](#compatibility-mode)'.
 

@@ -16,7 +16,7 @@ snippet: y
 
 # Configuring a mobile application{#configuring-a-mobile-application}
 
-Push notifications or In-App messages are received on mobile applications that first need to be configured in Adobe Mobile Services depending on the channel you want to use.
+Push notifications or In-App messages are received on mobile applications that first need to be configured in Adobe Campaign Standard depending on the channel you want to use.
 
 * To send In-App messages and push notifications, your mobile applications need to be set up in Adobe Campaign by leveraging Adobe Experience Platform SDKs. See [Using Adobe Experience Platform SDK](#using-adobe-experience-platform-sdk).
 
@@ -29,6 +29,8 @@ After your mobile applications are set up in Adobe Campaign by leveraging the Ex
 >Push notification and In-App implementations have to be performed by expert users. If you need to be assisted, contact your Adobe Account executive or Professional services partner.
 
 Once a mobile application is set up, you can retrieve the PII data it collected to create or update profiles from your database. For more on this, refer to this section: [Creating and updating profile information based on mobile application data](../../channels/using/updating-profile-with-mobile-app-data.md).
+
+For general guidelines for Mobile deliveries in Adobe Campaign Standard, refer to this [page](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
 
 ## Using Adobe Experience Platform SDK {#using-adobe-experience-platform-sdk}
 

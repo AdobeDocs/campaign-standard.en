@@ -1,5 +1,5 @@
 ---
-title: Managing Links
+title: Adding Links
 description: Discover how to manage links with the Email Designer.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Links {#links}
+# Adding links {#links}
 
 ## Inserting a link {#inserting-a-link}
 
@@ -24,7 +24,7 @@ You can insert a link into any page element: image, word, group of words, block 
 
 >[!NOTE]
 >
->The images below show how to insert a link using the [Email Designer](../../designing/using/overview.md) in an email.
+>The images below show how to insert a link using the [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) in an email.
 
 1. Select an element and click **[!UICONTROL Insert link]** from the contextual toolbar.
 
@@ -58,7 +58,7 @@ Once the link is created, you can still modify it from the Settings pane. Click 
 
 ![](assets/des_link_edit.png)
 
-When editing an email with the [Email Designer](../../designing/using/overview.md), you can easily access and modify the links that you created from the table listing all the URLs included in the email. This list enables you to have a centralized view and to locate each URL in the email content. To access it, see [About tracked URLs](#about-tracked-urls).
+When editing an email with the [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md), you can easily access and modify the links that you created from the table listing all the URLs included in the email. This list enables you to have a centralized view and to locate each URL in the email content. To access it, see [About tracked URLs](#about-tracked-urls).
 
 ![](assets/des_link_list.png)
 

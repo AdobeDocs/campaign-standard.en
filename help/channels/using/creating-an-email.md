@@ -20,7 +20,7 @@ You can create an email from a [campaign](../../start/using/marketing-activities
 
 1. Once you have started creating an email marketing activity, select the template you would like to use.
 
-   By default, you can choose from several templates for each marketing activity. This allows you to pre-configure certain parameters according to your needs and also assign a brand to your delivery. For more on this, see [Managing templates](../../start/using/about-templates.md).
+   By default, you can choose from several templates for each marketing activity. This allows you to pre-configure certain parameters according to your needs and also assign a brand to your delivery. For more on this, see [Managing templates](../../start/using/marketing-activity-templates.md).
 
    ![](assets/email_creation_1.png)
 
@@ -44,7 +44,7 @@ You can create an email from a [campaign](../../start/using/marketing-activities
 
    ![](assets/email_creation_3.png)
 
-1. Define and personalize the message content, sender name and subject using the [Email Designer](../../designing/using/overview.md). For more on this, see [About email content design](../../designing/using/overview.md).
+1. Define and personalize the message content, sender name and subject using the [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md). For more on this, see [About email content design](../../designing/using/designing-content-in-adobe-campaign.md).
 
    ![](assets/email_creation_4.png)
 
@@ -88,7 +88,6 @@ You can create an email from a [campaign](../../start/using/marketing-activities
 **Related topics**:
 
 * [Creating an email](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-email-from-homepage-feature-video-use.html) video
-* [Creating a personalized email](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GettingStartedEmail.html) step-by-step guide
+* [Creating a personalized email](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html) step-by-step guide
 * [Adobe Campaign and Dreamweaver integration](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html) video
 * [Integrating with Adobe Experience Manager](../../integrating/using/integrating-with-experience-manager.md)
-
