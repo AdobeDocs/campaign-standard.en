@@ -114,7 +114,7 @@ A new section with use cases on workflows focusing on queries has been added. [R
 
 A procedure was added in the workflow troubleshooting section on how to display SQL queries in the Log tab. [Read more](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
 
-A new help article has been added, with information related to subdomains and certificates management within the Control Panel. [Read more](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html)
+A new help article has been added, with information related to subdomains and certificates management within the Control Panel. [Read more](https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
 
 The section describing the content templates and fragments has been updated. [Read more](../../designing/using/using-reusable-content.md#content-templates)
 
@@ -176,7 +176,7 @@ The list of error messages for Campaign Standard and Classic has been updated. [
 
 ### New capabilities included in the release {#new-capabilities-included-in-the-release}
 
-Control Panel - [Read more](https://helpx.adobe.com/campaign/kb/control-panel.html)
+Control Panel - [Read more](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
 
 Local notifications - [Read more](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 

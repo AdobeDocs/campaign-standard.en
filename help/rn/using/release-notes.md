@@ -23,7 +23,7 @@ Additional resources:
 * [Campaign Release Planning](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
 * [Latest Documentation Updates](../../rn/using/documentation-updates.md)
 * [Deprecated and Removed Features](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
-* [Control Panel](https://helpx.adobe.com/campaign/kb/control-panel.html)
+* [Control Panel release notes](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)
 * Previous Release Notes: [2018](../../rn/using/release-notes-2018.md), [2017](../../rn/using/release-notes-2017.md), [2015-2016](../../rn/using/release-notes-2015-2016.md)
 
 ## Release 19.4 - December 2019 {#release-19-4---october-2019}
@@ -314,7 +314,7 @@ Introduced a series of improvements and fixes to optimize fragments in the 19.2 
  <tbody> 
   <tr> 
    <td> Control Panel<br /> </td> 
-   <td> <p>To help increase efficiency in your work as an Admin user, you can easily monitor capacity and manage settings of your instances (starting with SFTP servers management).</p><p>For more information, refer to the <a href="https://helpx.adobe.com/campaign/kb/control-panel.html">detailed documentation</a> and the <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-control-panel-video-use.html">how-to video</a>.</p></td> 
+   <td> <p>To help increase efficiency in your work as an Admin user, you can easily monitor capacity and manage settings of your instances (starting with SFTP servers management).</p><p>For more information, refer to the <a href="https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html">detailed documentation</a> and the <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-control-panel-video-use.html">how-to video</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Local notifications<br /> </td> 
