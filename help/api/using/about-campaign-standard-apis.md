@@ -23,7 +23,7 @@ With the Adobe Campaign Standard APIs, you get access to various functionalities
 <table>
 <tr>
     <td valign="top">
-        <a href="../../api/using/retrieving-profiles.md"><img alt="conditions" src="assets/icon_profile.svg"/></a>
+        <a href="../../api/using/retrieving-profiles.md"><img width="60px" alt="conditions" src="assets/icon_profile.svg"/></a>
         <div><a href="../../api/using/retrieving-profiles.md"><strong>Profiles</strong></a></div>
         <em>Learn how to interact with profiles from your database.</em>
     </td>
