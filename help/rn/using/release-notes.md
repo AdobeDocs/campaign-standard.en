@@ -21,7 +21,7 @@ All 2019 releases, with their new features and patches, are listed in this page.
 Additional resources:
 
 | Header 1 | Header 2 |
-|--- |--- |--- |
+|--- |--- |
 | [Campaign Release Planning](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) | [Control Panel release notes](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) |
 | [Latest Documentation Updates](../../rn/using/documentation-updates.md) | [Previous Release Notes](../../rn/using/release-notes-2018.md) |
 | [Deprecated and Removed Features](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) |   |
