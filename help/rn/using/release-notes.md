@@ -18,7 +18,7 @@ snippet: y
 
 Find out about Adobe Campaign Standard's latest release, its new features and patches.
 
-| Additional resources: |  |
+| Additional resources |  |
 |--- |--- |
 | [Campaign Release Planning](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) | [Control Panel release notes](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) |
 | [Latest Documentation Updates](../../rn/using/documentation-updates.md) | [Previous Release Notes](../../rn/using/release-notes-2018.md) |
