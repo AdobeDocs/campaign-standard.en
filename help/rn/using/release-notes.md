@@ -36,7 +36,6 @@ Find out about Adobe Campaign Standard's latest release, its new features and pa
  </thead> 
  <tbody> 
   <tr> 
-   <td> California Consumer Privacy Act (CCPA)<br /> </td> 
    <td> <p>CCPA is the State of California's new privacy law hat harmonizes and modernizes data protection requirements going into effect on Jan 01, 2020. CCPA applies to Adobe Campaign customers who hold data for Data Subjects residing in California.</p>
    <p>In addition to the privacy capabilities already available in Adobe Campaign (including consent management, data retention settings, and user roles), we are taking this opportunity to include additional capabilities, to help facilitate your readiness for CCPA:</p>
    <ul>
@@ -58,7 +57,6 @@ Find out about Adobe Campaign Standard's latest release, its new features and pa
  </thead> 
  <tbody> 
   <tr> 
-    <td> Microsoft Dynamics 365 integration (GA)<br /> </td> 
    <td> 
     <p>The integration between Adobe Campaign Standard and Microsoft Dynamics 365 is now available. You’ll be able to transfer your contact and custom entity records from Dynamics 365 to Campaign, and get email event data back from Campaign to Dynamics 365 for better sales/marketing alignment.</p>
     <p>Refer to the <a href="https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html">detailed documentation</a> to set this integration up and view the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/integrating/microsoft-dynamics365-connector/introduction.html">how-to video</a>.</p>
