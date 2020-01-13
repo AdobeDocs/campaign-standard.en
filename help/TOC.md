@@ -14,7 +14,6 @@ user-guide-title: Adobe Campaign Standard Help
   + Previous Releases {#previous-releases}
     + [Release Notes 2018](rn/using/release-notes-2018.md)
     + [Release Notes 2017](rn/using/release-notes-2017.md)
-    + [Release Notes 2015-2016](rn/using/release-notes-2015-2016.md)
 + Getting started {#getting-started}
   + About Adobe Campaign {#about-adobe-campaign}
        + [Campaign orchestration](start/using/campaign-orchestration.md)
