@@ -1,5 +1,5 @@
 ---
-title: Release Notes
+title: Latest Release
 description: This page lists all recent releases of Adobe Campaign Standard.
 page-status-flag: never-activated
 uuid: 1cf2e40c-beca-43db-8261-a1820ee86ad3
