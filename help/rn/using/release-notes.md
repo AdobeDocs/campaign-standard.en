@@ -16,9 +16,9 @@ snippet: y
 
 # Release Notes{#release-notes}
 
-Find out about Adobe Campaign Standard latest release, its new features and patches.
+Find out about Adobe Campaign Standard's latest release, its new features and patches.
 
-| Additional resources: |  |
+| Additional resources |  |
 |--- |--- |
 | [Campaign Release Planning](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) | [Control Panel release notes](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) |
 | [Latest Documentation Updates](../../rn/using/documentation-updates.md) | [Previous Release Notes](../../rn/using/release-notes-2018.md) |
@@ -31,8 +31,7 @@ Find out about Adobe Campaign Standard latest release, its new features and patc
 <table> 
  <thead> 
   <tr> 
-   <th> Functionality<br /> </th> 
-   <th> Description<br /> </th> 
+   <th> California Consumer Privacy Act (CCPA)<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -48,8 +47,18 @@ Find out about Adobe Campaign Standard latest release, its new features and patc
     <p>Refer to the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">how-to video</a>.</p>
 </td> 
   </tr> 
+ </tbody> 
+</table>
+
+<table> 
+ <thead> 
   <tr> 
-   <td> Microsoft Dynamics 365 integration (GA)<br /> </td> 
+   <th> Microsoft Dynamics 365 integration (GA)<br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+    <td> Microsoft Dynamics 365 integration (GA)<br /> </td> 
    <td> 
     <p>The integration between Adobe Campaign Standard and Microsoft Dynamics 365 is now available. You’ll be able to transfer your contact and custom entity records from Dynamics 365 to Campaign, and get email event data back from Campaign to Dynamics 365 for better sales/marketing alignment.</p>
     <p>Refer to the <a href="https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html">detailed documentation</a> to set this integration up and view the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/integrating/microsoft-dynamics365-connector/introduction.html">how-to video</a>.</p>
