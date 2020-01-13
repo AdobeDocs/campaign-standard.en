@@ -16,7 +16,7 @@ snippet: y
 
 # Release Notes{#release-notes}
 
-All 2019 releases, with their new features and patches, are listed in this page.
+Find out about Adobe Campaign Standard latest release, its new features and patches.
 
 | Additional resources: |  |
 |--- |--- |
