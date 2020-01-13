@@ -3,8 +3,8 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 40 40" style="enable-background:new 0 0 40 40;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#2D50B3;fill-opacity:0;}
-	.st1{fill:#2D50B3;}
+	.st0{fill:#76787C;fill-opacity:0;}
+	.st1{fill:#76787C;}
 </style>
 <title>S Workflow 18 N</title>
 <rect id="Canvas" class="st0" width="40" height="40"/>
@@ -17,6 +17,6 @@
 <path class="st1" d="M32.2,26.7h4.4c0.6,0,1.1,0.5,1.1,1.1v4.4c0,0.6-0.5,1.1-1.1,1.1h-4.4c-0.6,0-1.1-0.5-1.1-1.1v-4.4
 	C31.1,27.2,31.6,26.7,32.2,26.7z"/>
 <path class="st1" d="M28.9,8.3V7.2c0-0.3-0.2-0.6-0.6-0.6h-7.8c-0.3,0-0.6,0.2-0.6,0.6v10.6h-6.1c-0.3,0-0.6,0.2-0.6,0.6v1.1
-	c0,0.3,0.2,0.6,0.6,0.6H20v10.6c0,0.3,0.2,0.6,0.6,0.6h7.8c0.3,0,0.6-0.2,0.6-0.6v-1.1c0-0.3-0.2-0.6-0.6-0.6h-6.1V20h6.1
+	c0,0.3,0.2,0.6,0.6,0.6H20v10.6c0,0.3,0.2,0.6,0.6,0.6h7.8c0.3,0,0.6-0.2,0.6-0.6v-1.1c0-0.3-0.2-0.6-0.6-0.6h-6.1v-9h6.1
 	c0.3,0,0.6-0.2,0.6-0.6v-1.1c0-0.3-0.2-0.6-0.6-0.6h-6.1V8.9h6.1C28.6,8.9,28.9,8.6,28.9,8.3z"/>
 </svg>
