@@ -24,7 +24,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 
 ## Release 16.11 - November 2016 {#release-16-11---november-2016}
 
-### New capabilities {#new-capabilities}
+**New capabilities**
 
 <table> 
  <thead> 
@@ -45,15 +45,15 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
  </tbody> 
 </table>
 
-### Patches {#patches}
+**Patches**
 
-#### General {#general}
+_General_
 
 * Fixed several security issues.
 * Fixed several issues regarding empty fields or duplicate fields in the REST API.
 * You can now create SMS messages and push notifications directly from the home page of the application.
 
-#### Emails and SMS messages {#emails-and-sms-messages}
+_Emails and SMS messages_
 
 * Fixed an issue that prevented users from uploading zip files in the content editor.
 * Fixed an issue that prevented opening a proof after sending it.
@@ -63,21 +63,21 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * A new screen dedicated to importing data for the subject line trained model is now available in **[!UICONTROL Administration > Channels > Emails > Predictive Subject Line]** .
 * Fixed an issue that allowed non admin users to edit the authorized masks in the email configuration screen.
 
-#### Push notifications {#push-notifications}
+_Push notifications_
 
 * Fixed an issue that prevented sending logs and event logs from being displayed for the recipients after sending a push notification using the **[!UICONTROL Send push on profiles]** template.
 * Fixed an issue that could prevent new mobile applications from being created.
 
-#### Workflows {#workflows}
+_Workflows_
 
 * Fixed a performance issue that occured when using the **[!UICONTROL Subscription]** activity.
 * Fixed an issue that prevented a workflow from functioning when its internal name contained a space.
 
-#### Integrations {#integrations}
+_Integrations_
 
 * Fixed an issue that could lead to an error being displayed when using the **Image shared from Adobe Marketing Cloud** option in an email.
 
-#### Custom resources {#custom-resources}
+_Custom resources_
 
 * Enhanced APIs log preview between two publications of extended API fields.
 * Fixed an issue that prevented a custom resource from being deleted before it was published.
@@ -86,7 +86,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 
 ## Release 16.10 - October 2016 {#release-16-10---october-2016}
 
-### New capabilities {#new-capabilities-1}
+**New capabilities**
 
 <table> 
  <thead> 
@@ -115,35 +115,35 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
  </tbody> 
 </table>
 
-### Patches {#patches-1}
+**Patches**
 
-#### General {#general-1}
+_General_
 
 * Fixed several security issues.
 
-#### Emails and SMS messages {#emails-and-sms-messages-1}
+_Emails and SMS messages_
 
 * The SMS external account configuration screen ( **[!UICONTROL Administration > Channels > SMS > SMS accounts]** ) has been improved. Several parameters have been added in the **[!UICONTROL SMSC specifics]** section to support error codes in the "Text" field.
 
-#### Push notifications {#push-notifications-1}
+_Push notifications_
 
 * Fixed an issue that prevented the predefined filters from being displayed when editing the audience of a push notification based on the **[!UICONTROL Send via push notification]** (mobileApp) template.
 * The mobile application configuration screen ( **[!UICONTROL Administration > Channels > Push Notification > Mobile applications]** ) now displays a message to indicate that the iOS or Android platform has been successfully created.
 
-#### Landing pages {#landing-pages}
+_Landing pages_
 
 * Fixed issues that prevented confirmation emails from being sent when a landing page form was submitted.
 
-#### Audiences and queries {#audiences-and-queries}
+_Audiences and queries_
 
 * Fixed several issues that occurred when selecting a profile in the query editor.
 
-#### Transactional messages {#transactional-messages}
+_Transactional messages_
 
 * Fixed an error that prevented a transactional template from being unpublished.
 * Fixed an issue that led to trigger events being displayed in the event list.
 
-#### Integrations {#integrations-1}
+_Integrations_
 
 * Fixed an issue that prevented a shared audience from being used in a delivery after that audience was updated.
 * Fixed an issue that prevented a shared asset ( **[!UICONTROL Image shared from Adobe Marketing Cloud]** option) from being used in a landing page.
@@ -151,7 +151,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 
 ## Release 16.9 - September 2016 {#release-16-9---september-2016}
 
-### New capabilities {#new-capabilities-2}
+**New capabilities**
 
 <table> 
  <thead> 
@@ -184,36 +184,36 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
  </tbody> 
 </table>
 
-### Patches {#patches-2}
+**Patches**
 
-#### General {#general-2}
+_General_
 
 * This release introduces new filtering and searching capabilities in the interface lists. This new feature is available, for example, in the logs (delivery, tracking), services (subscription, subscription history), audiences and workflow transitions.
 * Fixed several display issues regarding the number of touchpoints in a customer profile.
 * Fixed several typology issues.
 
-#### Emails and SMS messages {#emails-and-sms-messages-2}
+_Emails and SMS messages_
 
 * Fixed an error that allowed erroneous proofs to be edited. They are now read-only. 
 * Fixed an issue that led a recipient being blacklisted when an SMS was too long or had encoding problems.
 
-#### Custom resources {#custom-resources-1}
+_Custom resources_
 
 * Fixed an error that prevented all of the results from being displayed when using a custom resource's advanced filters.
 
-#### Transactional messages {#transactional-messages-1}
+_Transactional messages_
 
 * A prefix is now automatically added to the identifier of a new event definition.
 * The icon representing the transactional messages in the interface has been changed.
 
-#### Integrations {#integrations-2}
+_Integrations_
 
 * Fixed a display error that would occur when a high resolution image was inserted via the **Dynamic image from Adobe Target** option.
 * Fixed an error that allowed a shared audience to be saved even if the destination ID was not set in AMC Data Source.
 
 ## Release 16.7 - July 2016 {#release-16-7---july-2016}
 
-### New capabilities {#new-capabilities-3}
+**New capabilities**
 
 <table> 
  <thead> 
@@ -242,32 +242,32 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
  </tbody> 
 </table>
 
-### Patches {#patches-3}
+**Patches**
 
-#### General {#general-3}
+_General_
 
 * Fixed an error that could cause irrelevant fields to be displayed instead of fields that need to be completed. This would happen after the comparison operator was modified multiple times when editing a condition in a query.
 * Fixed the behavior of the option **[!UICONTROL The last X days/months/quarters/years]** when defining a relative filtering condition for a date field. The period calculated is now a sliding period relative to the date and time of the server and not calendar-based.
 
-#### Workflows {#workflows-1}
+_Workflows_
 
 * Fixed an error that would return an incorrect list of values in the screen for selecting the targeting dimension in the properties of a **[!UICONTROL Query]** activity.
 * Fixed an error that would force the **Exists** operator to be selected when adding an average or count aggregate on a collection element in a **[!UICONTROL Query]** activity.
 
-#### Content editing {#content-editing}
+_Content editing_
 
 * Fixed an error that could lead to display problems (responsive design) when importing HTML content: the style attributes are no longer rewritten when the content is opened for the first time after being imported.
 * Fixed a non-blocking error that was caused when a condition was added on a dynamic content variant.
 * Fixed an error caused by adding a checkbox in the content of a landing page. The checkbox was unusable.
 * Fixed an error that could occur when deleting text in a block if the cursor was placed at the start of the block in question.
 
-#### Transactional messages {#transactional-messages-2}
+_Transactional messages_
 
 * When integrating a website, you can now define an expiration date for any given event. Once this date has been passed, the message corresponding to the event can no longer be sent.
 
 ## Release 16.6 - June 2016 {#release-16-6---june-2016}
 
-### New capabilities {#new-capabilities-4}
+**New capabilities**
 
 <table> 
  <thead> 
@@ -284,9 +284,9 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
  </tbody> 
 </table>
 
-### Patches {#patches-4}
+**Patches**
 
-#### General {#general-4}
+_General_
 
 * Tooltips are now disabled on mobile devices to ensure that the information displayed on the screen is easy to read.
 * Fixed an error that prevented the user from scrolling the content of certain zones on the iPad screen.
@@ -296,7 +296,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed an error that prevented elements of a resource from being displayed when configuring the way a list is displayed.
 * Fixed an error in the query editor explorer. The results returned by the search field were kept in the search history and continued to be displayed upon every new search.
 
-#### Emails and SMS messages {#emails-and-sms-messages-3}
+_Emails and SMS messages_
 
 * Fixed an error that prevented information linked to bounces from being recovered in delivery logs.
 * Fixed an error that prevented the context in a dynamic content block of a transactional message from being accessed.
@@ -304,19 +304,19 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed the display of the top bar of the delivery creation wizard.
 * The primary key of a delivery can no longer be used as a personalization field.
 
-#### Workflows {#workflows-2}
+_Workflows_
 
 * The transitions between two activities of a workflow now display the count of elements computed and transferred from one activity to another.
 * Incompatible fields are now hidden when additional data is added in a **[!UICONTROL Query]** activity.
 * The aggregate definition window, displayed when adding additional data, was improved to only offer options that are compatible with the data in use (for example: calculating an average is only possible for numerical data).
 * Starting or restarting an out-of-the-box technical workflow can now only be carried out by a user with administration rights.
 
-#### Landing pages {#landing-pages-1}
+_Landing pages_
 
 * Fixed an error that could truncate 32 bit AES coding keys in the properties of a landing page.
 * Fixed an error that prevented the query editor from displaying correctly when defining a visibility condition or when adding dynamic content to a landing page.
 
-#### Custom resources {#custom-resources-2}
+_Custom resources_
 
 * The **[!UICONTROL Switch to parameters]** option is now hidden when defining a filter related to a profile's subscriptions to a service.
 * Fixed an error that could occur when a 0-1 type link was configured from a custom resource.
@@ -324,7 +324,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 
 ## Release 16.5 - May 2016 {#release-16-5---may-2016}
 
-### New capabilities {#new-capabilities-5}
+**New capabilities**
 
 <table> 
  <thead> 
@@ -353,20 +353,20 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
  </tbody> 
 </table>
 
-### Patches {#patches-5}
+**Patches**
 
-#### General {#general-5}
+_General_
 
 * Various interface New capabilities complying with Marketing Cloud standards.
 * Standardization of the different drop-down list types.
 
-#### Emails and SMS messages {#emails-and-sms-messages-4}
+_Emails and SMS messages_
 
 * Fixed an error that prevented emails from being sent if the error address mask was specified.
 * The TLS protocol is now supported for email delivery. A new column in MX management lets you define the desired TLS behavior for each domain.
 * The SMS interface has been improved.
 
-#### Workflows {#workflows-3}
+_Workflows_
 
 * Various workflow interface New capabilities.
 * Fixed an error that occurred when displaying Quick actions.
@@ -374,35 +374,35 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed an error that prevented the transitions of a workflow from being opened on a hybrid device. 
 * Fixed an error that prevented the pause button from being displayed when starting a workflow for the first time.
 
-#### Content editor {#content-editor}
+_Content editor_
 
 * The content editor now allows you to personalize any URL contained in an email or a landing page. Refer to the [detailed documentation](../../designing/using/personalization.md#personalizing-urls).
 * Fixed an error that could cause images to be lost when they were added in the delivery's creation wizard and their content was modified afterwards.
 
-#### Custom resources {#custom-resources-3}
+_Custom resources_
 
 * Fixed an error that occurred when adding a personalized 1-N type link in the configuration screen of a custom resource.
 * Improved the display of the progress bar when preparing and publishing custom resources.
 * Fixed an error that occurred when displaying a custom resource's list of links.
 
-#### Transactional messages {#transactional-messages-3}
+_Transactional messages_
 
 * The user-friendliness of the interface as well as the performance and robustness of the transactional message engine have been optimized.
 * It is now possible to temporarily suspend the publication of a transactional message template. For more on this, refer to the [detailed documentation](../../channels/using/event-transactional-messages.md#suspending-a-transactional-message-publication).
 * Fixed an error that could cause a content block with an incompatible targeting dimension to be added into a transactional message template.
 * Fixed an error that prevented the API preview from being displayed in an event configuration screen.
 
-#### Audiences and queries {#audiences-and-queries-1}
+_Audiences and queries_
 
 * Various patches regarding the use of dates in the query editor. Refer to the [detailed documentation](../../automating/using/editing-queries.md#creating-queries).
 
-#### Administration {#administration}
+_Administration_
 
 * Fixed an error regarding the name of the "Standard users" security group, that prevented users from logging in.
 
 ## Release 16.3 - March 2016 {#release-16-3---march-2016}
 
-### New capabilities {#new-capabilities-6}
+**New capabilities**
 
 <table> 
  <thead> 
@@ -427,19 +427,19 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
  </tbody> 
 </table>
 
-### Patches {#patches-6}
+**Patches**
 
-#### General {#general-6}
+_General_
 
 * Fixed a display error that occurred when sorting a list: the arrow indicating the sort order of a column could only be inversed for certain types of data.
 * Fixed an error that limited the number of elements displayed in a drop-down menu when a rule was added in a query.
 
-#### Emails and SMS messages {#emails-and-sms-messages-5}
+_Emails and SMS messages_
 
 * Fixed an error that could prevent access to the email rendering report.
 * The prepare send stage for a message now returns an error if the sender address is not provided.
 
-#### Workflows {#workflows-4}
+_Workflows_
 
 * Certain file formatting options were visible but not taken into account when a CSV format file was extracted. These options are now no longer visible.
 * Fixed an error caused when the **[!UICONTROL Delete the source files after transfer]** option was checked for a **[!UICONTROL SFTP]** type file transfer.
@@ -448,17 +448,17 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed an error that prevented a personalization field from being inserted into a delivery activity of a workflow if the workflow was not saved after adding the activity.
 * Fixed an error that prevented the outbound transition targeting dimension of an email delivery activity from being displayed.
 
-#### Landing pages {#landing-pages-2}
+_Landing pages_
 
 * Fixed an error that prevented the personalization fields from functioning correctly in a localizable content block in a landing page.
 
-#### Custom resources {#custom-resources-4}
+_Custom resources_
 
 * Fixed an error that prevented a search on a custom resource from being carried out if the **[!UICONTROL Add search fields]** option of the resource screen definition was checked and if several fields were selected in the **[!UICONTROL Filter zone composition]** .
 
 ## Release 16.2 - February 2016 {#release-16-2---february-2016}
 
-### New capabilities {#new-capabilities-7}
+**New capabilities**
 
 <table> 
  <thead> 
@@ -487,28 +487,28 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
  </tbody> 
 </table>
 
-### Patches {#patches-7}
+**Patches**
 
-#### General {#general-7}
+_General_
 
 * Fixed several display errors in reports, lists, and queries.
 * Fixed several compatibility and display errors on mobile devices.
 
-#### Emails and SMS messages {#emails-and-sms-messages-6}
+_Emails and SMS messages_
 
 * Fixed an error that could prevent the button used to insert personalization fields from displaying when creating a message (email or SMS).
 * Fixed an error that could prevent SMS messages sent via Mblox from being correctly transmitted.
 
-#### Audiences and queries {#audiences-and-queries-2}
+_Audiences and queries_
 
 * Fixed a counting error that could be caused when adding an additional condition in a query, after having modified the filtering dimension.
 * Fixed an error that could lead to an incorrect pagination when previewing results of a query.
 
-#### Content editing {#content-editing-1}
+_Content editing_
 
 * Fixed an error that could prevent the dynamic content configuration from being correctly taken into account when using a personalized enumeration.
 
-#### Workflows {#workflows-5}
+_Workflows_
 
 * Fixed an error that could prevent any action in a workflow from being carried out if there was an empty line in the **[!UICONTROL Fields to update]** tab of an **[!UICONTROL Update data]** activity.
 * Fixed an error that prevented data containing geographical/organizational unit information from being imported.
@@ -517,18 +517,18 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed an error caused by loading a file in a workflow template.
 * Fixed an error that could prevent spaces from being used as column separators in a **[!UICONTROL Load file]** activity.
 
-#### Custom resources {#custom-resources-5}
+_Custom resources_
 
 * Fixed an error that prevented the status of a custom resource from being re-drafted after importing a package, if the resource was published at the time of the export.
 
-#### Packages {#packages}
+_Packages_
 
 * Fixed an error that prevented a package containing a workflow from being exported.
 * Fixed an error that could prevent several elements of the same resource from being selected.
 
 ## Release 16.1 - January 2016 {#release-16-1---january-2016}
 
-### New capabilities {#new-capabilities-8}
+**New capabilities**
 
 <table> 
  <thead> 
@@ -561,19 +561,19 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
  </tbody> 
 </table>
 
-### Patches {#patches-8}
+**Patches**
 
-#### General {#general-8}
+_General_
 
 * Improved compatibility with Internet Explorer and Chrome for hybrid/touchscreen devices.
 * Fixed an error that could lead to the loss of all data entered for a new user/profile/test profile if the indicated email address contained syntax errors.
 
-#### Emails and SMS messages {#emails-and-sms-messages-7}
+_Emails and SMS messages_
 
 * Fixed an error that could prevent the content thumbnail from being generated in the email preview screen.
 * Fixed an error that could prevent the raw content of a message (email or SMS) from being displayed in the message preview screen.
 
-#### Audiences and queries {#audiences-and-queries-3}
+_Audiences and queries_
 
 * Fixed an error that could prevent a **Query** type audience from being created in the **Service** resource.
 * Fixed an error that could prevent the function list from being displayed correctly when editing a condition of a query in advanced mode.
@@ -581,14 +581,14 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed an error that could prevent queries containing filters on delivery KPIs from being created.
 * Fixed an error that could prevent the content of an audience created from a workflow from being previewed.
 
-#### Custom resources {#custom-resources-6}
+_Custom resources_
 
 * Fixed an error that could lead to a server crash if a custom resource contained a field with a dynamic default value.
 * Fixed an error caused by moving, then deleting an element in the **[!UICONTROL Detail screen configuration]** section while defining screens of a custom resource.
 * Fixed an error that occurred when a default value had been defined for an **integer** list that did not include **0** in its range of possible values.
 * Fixed an error that could prevent an element from being added in the detail screen configuration of a custom resource after a reinitialization.
 
-#### Workflows {#workflows-6}
+_Workflows_
 
 * Fixed an error that could cause logs of all activities in a workflow to be displayed instead of only displaying those of the activity selected.
 * Fixed an error in the **[!UICONTROL Scheduler]** activity. The **[!UICONTROL Day of the month]** option was not correctly taken into account and replaced by **[!UICONTROL Week day]** .
@@ -602,22 +602,22 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed an error that could prevent a **[!UICONTROL Query]** activity from being executed correctly if the targeting dimension and the filtering dimension configured in the activity were different.
 * Fixed an error concerning the automatic naming of outbound transitions added to a **[!UICONTROL Fork]** activity that could prevent the workflow from being saved.
 
-#### Content editing {#content-editing-2}
+_Content editing_
 
 * Fixed an error that could lead to an icon or a search bar being undesirably displayed when editing content.
 
-#### Landing pages {#landing-pages-3}
+_Landing pages_
 
 * Fixed an error that prevented a landing page from being imported using a package import.
 
-#### Transactional messages {#transactional-messages-4}
+_Transactional messages_
 
 * It is now possible to specify a trusted IP address in the security parameters of the Message Center Push agent operator.
 * Fixed an error that could prevent a new type of event from being created.
 
 ## Release 15.11 - November 2015 {#release-15-11---november-2015}
 
-### New capabilities {#new-capabilities-9}
+**New capabilities**
 
 <table> 
  <thead> 
@@ -654,26 +654,26 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
  </tbody> 
 </table>
 
-### Patches {#patches-9}
+**Patches**
 
-#### General {#general-9}
+_General_
 
 * Fixed an error that could prevent access to an instance's general parameters from an administrator account.
 * **Floating** data is now correctly taken into account in the custom resources.
 * Fixed a display error in the list of executed simplified imports which was caused when the status of the corresponding template had been modified.
 
-#### Landing pages {#landing-pages-4}
+_Landing pages_
 
 * Fixed certain elements of landing page templates that could be incorrectly displayed in French on English instances.
 
-#### Audiences {#audiences}
+_Audiences_
 
 * Fixed an error that could prevent audiences imported from Adobe Marketing Cloud from appearing in the list of audiences.
 * Fixed an error that could force case-sensitivity when defining a query.
 * Fixed an error that could prevent audiences from being filtered when defining a query.
 * Fixed an error that could prevent an action from being canceled in an audience.
 
-#### Workflows {#workflows-7}
+_Workflows_
 
 * Fixed an error that could prevent the fields that were to be updated in an **[!UICONTROL Update data]** activity from manually being configured.
 * Fixed an error that could cause the **[!UICONTROL Query]** activity to load infinitely when opened if the workflow had not been saved after having placed the activity in the diagram.
@@ -687,11 +687,11 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed an error that prevented heterogeneous collections of activities from being duplicated in a workflow.
 * Fixed an error that prevented the SQL from being displayed, thus allowing errors to be diagnosed for a recurring delivery in a workflow.
 
-#### Content editor {#content-editor-1}
+_Content editor_
 
 * Fixed an error that would make searching in the source code of a landing page or email impossible.
 
-#### Packages {#packages-1}
+_Packages_
 
 * Fixed various errors that could prevent certain types of elements from being exported in packages (particularly landing pages, workflows).
 * Fixed an error that would cause the former package import label to display if the label had been modified.
@@ -699,7 +699,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 
 ## Release 15.10 - October 2015 {#release-15-10---october-2015-}
 
-### New capabilities {#new-capabilities-10}
+**New capabilities**
 
 <table> 
  <thead> 
@@ -732,20 +732,20 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
  </tbody> 
 </table>
 
-### Patches {#patches-10}
+**Patches**
 
-#### Email {#email}
+_Email_
 
 * Fixed an error that prevented a service unsubscription link from working correctly from a mirror page.
 * Fixed an error that could prevent an email delivery label from displaying correctly on the email editing page.
 * Fixed an error that could prevent an external **[!UICONTROL Routing]** account from being selected in a duplicated delivery template.
 
-#### Audiences {#audiences-1}
+_Audiences_
 
 * Fixed an error caused during an audience count if a 1-N link was used in the query.
 * Fixed an error that could prevent a profile from being selected in an email delivery's target audience.
 
-#### Workflows {#workflows-8}
+_Workflows_
 
 * Fixed an error that could cause display problems when configuring an email delivery in a workflow.
 * Fixed an error that could prevent the **[!UICONTROL Load file]** activity from working correctly. An blank error message would then appear.
@@ -755,31 +755,31 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed an error that could prevent a reconciliation key from being selected in an **[!UICONTROL Update data]** activity when configuring the workflow of a simplified import template.
 * Fixed an error that could prevent a workflow from being saved after an activity had been deleted.
 
-#### Platform {#platform}
+_Platform_
 
 * Fixed an error that could prevent a new element from being created if a custom resource contained a link to that element's resource type.
 * Fixed an error that could cause a 15 minute delay for certain logs to be written.
 * Fixed an error that could prevent the marketing activity list from being displayed when sorted by the **[!UICONTROL Date]** or **[!UICONTROL Indicators]** columns.
 
-#### Landing pages {#landing-pages-5}
+_Landing pages_
 
 * Fixed an error that occurred when selecting a test profile in order to preview a landing page.
 
-#### Transactional messages {#transactional-messages-5}
+_Transactional messages_
 
 * Fixed an error that could cause the application to crash after deleting an event on a test profile.
 
-#### Reports {#reports}
+_Reports_
 
 * Fixed an error that could cause incorrect data to be sent for the reports **[!UICONTROL deliveryThroughputReport]** and **[!UICONTROL deliveryTrackingReport]** .
 
-#### Content editor {#content-editor-2}
+_Content editor_
 
 * Fixed an HTML tag management error that occurred when processing dynamic content blocks.
 
 ## Release 15.8 - August 2015 {#release-15-8---august-2015}
 
-### New capabilities {#new-capabilities-11}
+**New capabilities**
 
 <table> 
  <thead> 
@@ -816,41 +816,41 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
  </tbody> 
 </table>
 
-### Patches {#patches-11}
+**Patches**
 
-#### Display {#display}
+_Display_
 
 * Fixed an error that could lead to two fields being juxtaposed in the query editor in Safari.
 
-#### Content editor {#content-editor-3}
+_Content editor_
 
 * Fixed an error that prevented the characters '<', '&', and '>' from being used in an email subject.
 
-#### Email {#email-1}
+_Email_
 
 * Fixed an error that prevented the user from adding text after dynamic text.
 
-#### Lists {#lists}
+_Lists_
 
 * Fixed an error that prevented the **Message** column in workflow execution logs from being exported correctly.
 
-#### Profiles and audiences {#profiles-and-audiences}
+_Profiles and audiences_
 
 * Fixed an error that lead to a double confirmation of when an element was duplicated or deleted. **Hybrid devices using Internet Explorer 11 only**.
 
-#### Workflows {#workflows-9}
+_Workflows_
 
 * Fixed an error that could prevent emails from being sent from a workflow.
 * Fixed an error that could prevent a workflow from executing when the name of the rejection file was not specified in a **[!UICONTROL Load file]** activity.
 * Fixed an error that could prevent a workflow from executing when the **[!UICONTROL Execution frequency]** of a **[!UICONTROL Schedule]** activity was set to **[!UICONTROL Daily]** .
 
-#### Platform {#platform-1}
+_Platform_
 
 * Fixed an error that prevented thumbnails from being generated in a load balanced environment.
 
 ## Release 15.7 - July 2015 {#release-15-7---july-2015}
 
-### New capabilities {#new-capabilities-12}
+**New capabilities**
 
 <table> 
  <thead> 
@@ -892,33 +892,33 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
  </tbody> 
 </table>
 
-### Patches {#patches-12}
+**Patches**
 
-#### Installation {#installation}
+_Installation_
 
 * Adobe Campaign instance names are now limited to 32 characters.
 
-#### Workflows {#workflows-10}
+_Workflows_
 
 * Fixed an error that could prevent targeting a 'delivery' resource when editing a query in a workflow.
 * Fixed an error that could prevent certain linked resources from being processed when editing a query in a workflow.
 * Fixed an error that could prevent a **Recurring delivery** activity from being modified if the workflow had already been executed.
 
-#### Emails {#emails}
+_Emails_
 
 * Fixed an error that prevented JavaScript syntax errors from being checked before sending an email when a dynamic content had been added via the expression editor.
 
-#### Landing pages {#landing-pages-6}
+_Landing pages_
 
 * Fixed an error that prevented a landing page from being edited from a tablet.
 
-#### Assets Core Service {#assets-core-service}
+_Assets Core Service_
 
 * When selecting a shared resource from an email or landing page that is being edited, the list of available resources is now filtered for Adobe Campaign.
 
 ## Release 15.6 - June 2015 {#release-15-6---june-2015}
 
-### New capabilities {#new-capabilities-13}
+**New capabilities**
 
 <table> 
  <thead> 
@@ -967,9 +967,9 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
  </tbody> 
 </table>
 
-### Patches {#patches-13}
+**Patches**
 
-#### Lists {#lists-1}
+_Lists_
 
 * Deleting an element from a list now results in the list being automatically refreshed.
 * Fixed an error that prevented elements from being selected from a list containing only one column.
@@ -977,22 +977,22 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Both the middle name and the title of test profiles can now be displayed in the test profile list.
 * Fixed an error that occurred when selecting a checkbox in a list with Mozilla Firefox.
 
-#### Audiences {#audiences-2}
+_Audiences_
 
 * Fixed an error that prevented the **[!UICONTROL Add]** button from being used in the audience interface.
 
-#### Emails {#emails-1}
+_Emails_
 
 * Fixed a JavaScript error that prevented the preview button from being used twice in a row when editing an email.
 * Fixed an error that prevented the **[!UICONTROL Edit properties]** and **[!UICONTROL Show proofs]** buttons from being used on Microsoft Surface Pro3 tablets using Internet Explorer 11.
 * Fixed an error that could prevent an email's sending logs from being displayed.
 
-#### Landing pages {#landing-pages-7}
+_Landing pages_
 
 * Fixed an error that prevented the **Brand logo** content block from being used when editing content in a landing page. 
 * Fixed an error that prevented landing pages from being displayed in the marketing activity list if validity dates were specified for the landing page.
 
-#### Workflows {#workflows-11}
+_Workflows_
 
 * Fixed an error that prevented limiting a segment in group mode from working correctly when configuring a **Segmentation** activity. 
 * Fixed an error that prevented a transition from being selected after having configured a **Segmentation** activity.
@@ -1003,13 +1003,13 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed an error that prevented an exclusion rule from being correctly taken into account within an **Exclusion** activity.
 * Fixed an error that occurred when deleting an email delivery activity in a workflow. The corresponding deliveries are now also removed from the marketing activity list.
 
-#### Navigation {#navigation}
+_Navigation_
 
 * You can now use the tab key to properly navigate between fields on the same page.
 
 ## Release 15.4 - April 2015 {#release-15-4---april-2015}
 
-### New capabilities {#new-capabilities-14}
+**New capabilities**
 
 <table> 
  <thead> 
@@ -1059,7 +1059,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 
 ## Release 15.3 - March 2015 {#release-15-3---march-2015}
 
-### New capabilities {#new-capabilities-15}
+**New capabilities**
 
 <table> 
  <thead> 
@@ -1084,9 +1084,9 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
  </tbody> 
 </table>
 
-### Patches {#patches-14}
+**Patches**
 
-#### General {#general-10}
+_General_
 
 * Fixed an error that prevented the recipient from being displayed when creating a delivery.
 * Fixed an error that prevented an audience that was based on a 'Recipients who have opened' condition from being used.

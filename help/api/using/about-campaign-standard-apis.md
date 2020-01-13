@@ -18,7 +18,7 @@ snippet: y
 
 Campaign Standard APIs are aimed at letting you **create integrations** for Adobe Campaign Standard and **build your own ecosystem** by interfacing Adobe Campaign Standard with the panel of technologies that you use.
 
-With the Adobe Campaign Standard APIs, you get access to various functionalities described in the sections below:
+With the Adobe Campaign Standard APIs, you get access to the following functionalities:
 
 <table>
 <tr>
@@ -59,13 +59,19 @@ With the Adobe Campaign Standard APIs, you get access to various functionalities
 </tr>
 </table>
 
+>[!NOTE]
+>
+>Before performing API calls, please check the scale limitations corresponding to your license agreement. For more on this, refer to [this page](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
+
 To use the Campaign Standard API, you need an Adobe I/O account. This is a mandatory first step to go forward and discover the API features.
 For more on this, refer to [this section](../../api/using/setting-up-api-access.md).
 
 The APIs we provide use **standard concepts** with a REST interface and JSON payloads.
 
-All the endpoints are described extensively in this documentation with the general notions you should know for manipulating the API, code examples and quick start guides. All the examples work with Postman but feel free to use your favorite REST client.
-
->[!CAUTION]
+>[!NOTE]
 >
->Before performing API calls, please check the scale limitations corresponding to your license agreement. For more on this, refer to [this page](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
+>All the examples work with Postman but feel free to use your favorite REST client.
+
+All the endpoints are described extensively in this documentation with the general notions you should know for manipulating the API, the complete API reference, code examples and quick start guides.
+
+If anything is missing or seems incorrect, please ask the [community](https://help-forums.adobe.com/content/adobeforums/en/campaign-forum/adobe-campaign.html).

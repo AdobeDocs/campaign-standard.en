@@ -8,12 +8,12 @@ user-guide-title: Adobe Campaign Standard Help
 # Adobe Campaign Standard Help {#using}
 
 + [Product documentation](campaign-standard-home.md)
++ [Latest Updates](rn/using/documentation-updates.md)
 + Release Notes {#release-notes}
-  + [Release Notes](rn/using/release-notes.md)
-  + [Release Notes 2018](rn/using/release-notes-2018.md)
-  + [Release Notes 2017](rn/using/release-notes-2017.md)
-  + [Release Notes 2015-2016](rn/using/release-notes-2015-2016.md)
-  + [Documentation Updates](rn/using/documentation-updates.md)
+  + [Latest Release](rn/using/release-notes.md)
+  + Previous Releases {#previous-releases}
+    + [Release Notes 2018](rn/using/release-notes-2018.md)
+    + [Release Notes 2017](rn/using/release-notes-2017.md)
 + Getting started {#getting-started}
   + About Adobe Campaign {#about-adobe-campaign}
        + [Campaign orchestration](start/using/campaign-orchestration.md)
@@ -363,6 +363,7 @@ user-guide-title: Adobe Campaign Standard Help
           + [Counting](api/using/counting.md)
           + [Pagination](api/using/pagination.md)
        + [Custom resources](api/using/custom-resources.md)
+  + [Interacting with custom resources](api/using/interacting-with-custom-resources.md)   
   + Managing profiles {#managing-profiles}
        + [Retrieving profiles](api/using/retrieving-profiles.md)
        + [Updating profiles](api/using/updating-profiles.md)
@@ -372,7 +373,6 @@ user-guide-title: Adobe Campaign Standard Help
        + [Retrieving subscriptions](api/using/retrieving-subscriptions.md)
        + [Perform subscriptions](api/using/perform-subscriptions.md)
        + [Deleting subscriptions](api/using/deleting-subscriptions.md)
-  + [Interacting with custom resources](api/using/interacting-with-custom-resources.md)
   + [Interacting with marketing history](api/using/interacting-with-marketing-history.md)  
   + Privacy management {#privacy-management}
        + [Creating a privacy request](api/using/creating-a-privacy-request.md)
