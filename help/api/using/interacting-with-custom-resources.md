@@ -15,18 +15,18 @@ snippet: y
 
 # Interacting with custom resources {#interacting-with-custom-resources}
 
-The **/customResources** endpoint allows you to expose the ACS custom entities in REST. Based on this API, an integration between custom entities and external endpoints is available.
+The **/customResources** endpoint allows you to expose the ACS custom resources in REST. Based on this API, an integration between custom entities and external endpoints is available.
 
-The /customResources has exactly the same behavior as /profileAndServices endpoint.
+The /customResources endpoint has exactly the same behavior as /profileAndServices endpoint.
 
-The custom entities that are exposed within this API are:
+The custom resources that are exposed within this API are:
 
 * all the entities linked to the profile entity
 * all the entities linked to the profile entity's children
 * all the entities that are not linked to profile and, for these entities, their children and grandchildren.
 
 >[!NOTE]
->The custom entities that are available under /profileAndServicesExt are not exposed in the /customResources API.
+>The custom resources that are available under /profileAndServicesExt are not exposed in the /customResources API.
 
 Here is an example to retrieve the metadata from a custom resource:
 
