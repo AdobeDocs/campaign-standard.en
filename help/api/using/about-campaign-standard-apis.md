@@ -59,7 +59,7 @@ With the Adobe Campaign Standard APIs, you get access to the following functiona
 <td>Privacy management</td>
 <td>Transactional messages</td>
 <td>Workflows</td>
-<td>Organizational & geographical units</td>
+<td>Organizational units</td>
 </td>
 </table>
 
