@@ -1,5 +1,5 @@
 ---
-title: Release Notes
+title: Latest Release
 description: This page lists all recent releases of Adobe Campaign Standard.
 page-status-flag: never-activated
 uuid: 1cf2e40c-beca-43db-8261-a1820ee86ad3
@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Release Notes{#release-notes}
+# Latest Release{#latest-release}
 
 Find out about Adobe Campaign Standard's latest release, its new features and patches.
 
@@ -31,7 +31,7 @@ Find out about Adobe Campaign Standard's latest release, its new features and pa
 <table> 
  <thead> 
   <tr> 
-   <th> California Consumer Privacy Act (CCPA)<br /> </th> 
+   <th> <strong>California Consumer Privacy Act (CCPA)</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -52,7 +52,7 @@ Find out about Adobe Campaign Standard's latest release, its new features and pa
 <table> 
  <thead> 
   <tr> 
-   <th> Microsoft Dynamics 365 integration (GA)<br /> </th> 
+   <th> <strong>Microsoft Dynamics 365 integration (GA)</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
