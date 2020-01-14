@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Release Notes{#release-notes}
+# Latest Release{#latest-release}
 
 Find out about Adobe Campaign Standard's latest release, its new features and patches.
 
@@ -31,7 +31,7 @@ Find out about Adobe Campaign Standard's latest release, its new features and pa
 <table> 
  <thead> 
   <tr> 
-   <th> California Consumer Privacy Act (CCPA)<br /> </th> 
+   <th> <strong>California Consumer Privacy Act (CCPA)</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -52,7 +52,7 @@ Find out about Adobe Campaign Standard's latest release, its new features and pa
 <table> 
  <thead> 
   <tr> 
-   <th> Microsoft Dynamics 365 integration (GA)<br /> </th> 
+   <th> <strong>Microsoft Dynamics 365 integration (GA)</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
