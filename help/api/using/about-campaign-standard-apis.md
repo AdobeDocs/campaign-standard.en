@@ -24,39 +24,43 @@ With the Adobe Campaign Standard APIs, you get access to the following functiona
 <tr>
     <td valign="top">
         <a href="../../api/using/retrieving-profiles.md"><img width="60px" alt="conditions" src="assets/icon_profile.svg"/></a>
-        <br/><em>Profiles</em>
     </td>
     <td valign="top">
         <a href="../../api/using/creating-a-service.md"><img width="60px" alt="conditions" src="assets/icon_services.svg"/></a>
-        <br/><em>Services & subscriptions</em>
     </td>
     <td valign="top">
         <a href="../../api/using/interacting-with-custom-resources.md"><img width="60px" alt="conditions" src="assets/icon_customresources.svg"/></a>
-       <br/><em>Custom resources</em>
     </td>
     <td valign="top">
         <a href="../../api/using/interacting-with-marketing-history.md"><img width="60px" alt="conditions" src="assets/icon_marketinghistory.svg"/></a>
-        <br/><em>Marketing history</em>
     </td>
+</tr>
+<tr>
+<td>Profiles</td>
+<td>Services & subscriptions</td>
+<td>Custom resources</td>
+<td>Marketing history</td>
 </tr>
 <tr>
     <td valign="top">
         <a href="../../api/using/creating-a-privacy-request.md"><img width="60px" alt="conditions" src="assets/icon_privacy.svg"/></a>
-        <br/><em>Privacy management</em>
     </td>
     <td valign="top">
         <a href="../../api/using/managing-transactional-messages.md"><img width="60px" alt="conditions" src="assets/icon_transactionalmessage.svg"/></a>
-        <br/><em>Transactional messages</em>
     </td>
     <td valign="top">
         <a href="../../api/using/controlling-a-workflow.md"><img width="60px" alt="conditions" src="assets/icon_workflows.svg"/></a>
-        <br/><em>Workflows</em>
     </td>
     <td valign="top">
         <a href="../../api/using/retrieving-an-organizational-unit.md"><img width="60px" alt="conditions" src="assets/icon_units.svg"/></a>
-        <br/><em>Organizational & geographical units</em>
     </td>
 </tr>
+<tr>
+<td>Privacy management</td>
+<td>Transactional messages</td>
+<td>Workflows</td>
+<td>Organizational & geographical units</td>
+</td>
 </table>
 
 >[!NOTE]
