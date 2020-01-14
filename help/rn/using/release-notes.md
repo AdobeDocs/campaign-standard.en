@@ -1,5 +1,5 @@
 ---
-title: Release Notes
+title: Latest Release
 description: This page lists all recent releases of Adobe Campaign Standard.
 page-status-flag: never-activated
 uuid: 1cf2e40c-beca-43db-8261-a1820ee86ad3
@@ -14,32 +14,28 @@ internal: n
 snippet: y
 ---
 
-# Release Notes{#release-notes}
+# Latest Release{#latest-release}
 
-All 2019 releases, with their new features and patches, are listed in this page. Control Panel updates are also included.
- 
-Additional resources:
+Find out about Adobe Campaign Standard's latest release, its new features and patches.
 
-* [Campaign Release Planning](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
-* [Latest Documentation Updates](../../rn/using/documentation-updates.md)
-* [Deprecated and Removed Features](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
-* [Control Panel release notes](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)
-* Previous Release Notes: [2018](../../rn/using/release-notes-2018.md), [2017](../../rn/using/release-notes-2017.md), [2015-2016](../../rn/using/release-notes-2015-2016.md)
+| Additional resources |  |
+|--- |--- |
+| [Campaign Release Planning](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) | [Control Panel release notes](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) |
+| [Latest Documentation Updates](../../rn/using/documentation-updates.md) | [Previous Release Notes](../../rn/using/release-notes-2018.md) |
+| [Deprecated and Removed Features](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) |   |
 
 ## Release 19.4 - December 2019 {#release-19-4---october-2019}
 
-### What's new? {#what-s-new-5}
+**What's new?**
 
 <table> 
  <thead> 
   <tr> 
-   <th> Functionality<br /> </th> 
-   <th> Description<br /> </th> 
+   <th> <strong>California Consumer Privacy Act (CCPA)</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> California Consumer Privacy Act (CCPA)<br /> </td> 
    <td> <p>CCPA is the State of California's new privacy law hat harmonizes and modernizes data protection requirements going into effect on Jan 01, 2020. CCPA applies to Adobe Campaign customers who hold data for Data Subjects residing in California.</p>
    <p>In addition to the privacy capabilities already available in Adobe Campaign (including consent management, data retention settings, and user roles), we are taking this opportunity to include additional capabilities, to help facilitate your readiness for CCPA:</p>
    <ul>
@@ -50,8 +46,17 @@ Additional resources:
     <p>Refer to the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">how-to video</a>.</p>
 </td> 
   </tr> 
+ </tbody> 
+</table>
+
+<table> 
+ <thead> 
   <tr> 
-   <td> Microsoft Dynamics 365 integration (GA)<br /> </td> 
+   <th> <strong>Microsoft Dynamics 365 integration (GA)</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
    <td> 
     <p>The integration between Adobe Campaign Standard and Microsoft Dynamics 365 is now available. You’ll be able to transfer your contact and custom entity records from Dynamics 365 to Campaign, and get email event data back from Campaign to Dynamics 365 for better sales/marketing alignment.</p>
     <p>Refer to the <a href="https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html">detailed documentation</a> to set this integration up and view the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/integrating/microsoft-dynamics365-connector/introduction.html">how-to video</a>.</p>
@@ -60,7 +65,7 @@ Additional resources:
  </tbody> 
 </table>
 
-### Improvements {#improvements-3}
+**Improvements**
 
 * The consent pop-up for Dynamic reporting has been updated to include Adobe Campaign Standard and Microsoft Dynamics 365 integration. By accepting the terms, profile data will be included when using the Adobe Campaign Standard / Microsoft Dynamics 365 integration and Dynamic Reporting. [Read more](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) (CAMP-29766)
 * Fixed an issue which displayed incorrect contact dates when receiving delivery alerts. 
@@ -70,13 +75,13 @@ Additional resources:
 * Improvements have been made to the **Load file** activity: workflow logs have been made clearer and more detailed about the error that occurs when a file fails to load. The outbound transition generated when activating the **Keep the rejects in a file** option has been renamed **Rejects**. [Read more](../../automating/using/load-file.md)
 * Multilingual related logs have been added to the sending logs to better understand sending failures due to missing languages in the uploaded CSV files.
 
-### Security enhancements {#security-enhancements-3}
+**Security enhancements**
 
 * Fixed an issue, when deleting a quanrantined profile's information via a privacy request, which removed all data except the email address in the quarantine list. 
 * Security has been enhanced for protection against injections in email headers.
 * Security has been enhanced for protection against SSRF attacks where xtk expressions can be used (email HTML, text content and subject, SMS and push notification content).
 
-### Email Designer enhancements {#email-designer-enhancements-4}
+**Email Designer enhancements**
 
 * Fixed an issue which prevented unsubscription, subscription and landing page links from being tracked when inserted in an email. (CAMP-37809)
 * Fixed an issue which could lead to errors when creating a new email and selecting a template. (CAMP-38000)
@@ -103,7 +108,7 @@ Additional resources:
 * Fixed an issue with the size of buttons in templates and fragments.
 * Fixed an issue with the size of images when inserted in a button component.
 
-### Other changes {#other-changes-3}
+**Other changes**
 
 * The default time range for which data is shown on the delivery KPI pages and on the Dynamic Reporting page has been aligned to prevent discrepancy in reporting results. (CAMP-35148)
 * An error message has been added in logs when the application certificate is expired. 
@@ -118,7 +123,7 @@ Additional resources:
 * In Campaign Standard APIs, custom keys cannot be modified using a PATCH operation if the key value is different from the origin key, or if you are using your own business key as URI instead of the one provided by Adobe.
 * The "Albanian - Macedonia" language has been added to the preferred language drop-down list. (CAMP-35396)
 
-### Patches {#patches-4}
+**Patches**
 
 * Fixed an issue that prevented scheduled reports from being sorted or searched.
 * Fixed an issue with Triggers rules which caused the AND and OR rules to be mixed up. 
@@ -145,19 +150,9 @@ Additional resources:
 * Fixed an issue that could leave the state of a delivery as "Start pending” although the delivery was finished. (CAMP-35355)
 * Fixed an issue that prevented workflow logs from being displayed after enabling, then disabling SQL logs.
 
-## Control Panel update - August 2019 {#controlpanel-update---august-2019}
-
-### What's new? {#what-s-new-4}
-
-We’ve added new capabilities for Admin users to receive notifications before SSL certificates for their domains expire. For more information, refer to the [detailed documentation](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html).
-
-Additionally, Admin users can now delete SSH keys that were added to access SFTP servers.
-
-Please note that Control Panel is available for customers hosted on AWS only. These updates will be available on August 26th.
-
 ## Release 19.3 - July 2019 {#release-19-3---july-2019}
 
-### What's new? {#what-s-new-3}
+**What's new?**
 
 <table> 
  <thead> 
@@ -178,11 +173,11 @@ Please note that Control Panel is available for customers hosted on AWS only. Th
  </tbody> 
 </table>
 
-### Security enhancements {#security-enhancements-2}
+**Security enhancements**
 
 * Fixed a security issue to prevent denial of service (DoS) attacks on invalid requests to get images. (CAMP-33454)
 
-### Email Designer enhancements {#email-designer-enhancements-3}
+**Email Designer enhancements**
 
 * Fixed an issue that added additional HTML style tags to an HTML template each time a component was added, which could dramatically increase the template’s size. (CAMP-34694)
 * Fixed an issue that could prevent some right top toolbar menu options from being available. (CAMP-34577)
@@ -209,7 +204,7 @@ Please note that Control Panel is available for customers hosted on AWS only. Th
 * Fixed an issue that occurred on duplicating variants when using dynamic content.
 * Some unwanted fields were removed from the Email Designer Settings pane.
 
-### Other improvements {#other-improvements-3}
+**Other improvements**
 
 * Through the integration with Adobe Experience Platform Location Services, Adobe Campaign is now compatible to send location-based marketing messages to your mobile application's subscribers via the Experience Platform SDK. For more information, refer to the [detailed documentation](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md).
 * The reporting feature has been improved for a better experience. To use this feature, you need to accept the Dynamic Reporting Usage Agreement. For more on this, refer to the [detailed documentation](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
@@ -221,7 +216,7 @@ Please note that Control Panel is available for customers hosted on AWS only. Th
 * The "ftp" option was removed from the external account configuration interface. (CAMP-34472)
 * You can now enable and disable the SMTP test mode option for each email message. For more on this, refer to the [detailed documentation](../../administration/using/configuring-email-channel.md#smtp-test-mode). (CAMP-34602)
 
-### Other changes {#other-changes-2}
+**Other changes**
 
 * A warning was added in the delivery properties interface. It specifies that deliveries are prepared based on their aggregation period and thaw to call the workflow multiple times a day, you should make sure they don't have any period. (CAMP-34393)
 * A warning has been added in custom resource configuration screens. We recommend using 30 characters maximum for custom resource IDs. This also applies to custom resource fields, keys, indexes and links.
@@ -232,7 +227,7 @@ Please note that Control Panel is available for customers hosted on AWS only. Th
 * When using a "Transfer file" activity, an error is now logged if the file size exceeds the available disk space.
 * The Redirect to destination URL action can no longer be selected for the secondary button in In-App messages.
 
-### Patches {#patches-3}
+**Patches**
 
 * Fixed an issue which could cause GDPR access requests to fail.
 * Fixed an issue which could lead to triggers being discarded when multiple triggers were received for a unique profile.
@@ -268,7 +263,7 @@ Please note that Control Panel is available for customers hosted on AWS only. Th
 
 ## Release 19.2.7 - July 2019 {#release-19-2-7---july-2019}
 
-### Improvements {#improvements-2}
+**Improvements**
 
 * The GDPR delete query has been improved for better performance.
 * Fixed an issue which could cause web crashes after the 19.2 upgrade. (CAMP-34862)
@@ -277,20 +272,20 @@ Please note that Control Panel is available for customers hosted on AWS only. Th
 
 ## Release 19.2.4 - June 2019 {#release-19-2-4---june-2019}
 
-### Email Designer {#email-designer-2}
+**Email Designer**
 
 * Fixed an issue which prevented users from editing fragments when empty style tags were used in the HTML. This is a follow-up fix for CAMP-33778 in 19.2.3.
 
 ## Release 19.2.3 - June 2019 {#release-19-2-3---june-2019}
 
-### Email Designer {#email-designer-1}
+**Email Designer**
 
 Introduced a series of improvements and fixes to optimize fragments in the 19.2 release. Newly created fragments will work seamlessly. Fragments that were previously built have been grayed-out and need to be migrated to the new format. To do so, click on each fragment and validate its migration to the new format. We recommend that you test a few fragments before migrating them all.
 
 * Fixed an issue which prevented users from editing a fragment after unlocking it. This was affecting existing fragments when updating to 19.2. (CAMP-33778)
 * Fixed an issue when using dynamic content. Extra spaces were added in the HTML.
 
-### Other improvements {#other-improvements-2}
+**Other improvements**
 
 * Fixed an issue which could prevent SMS sending from resuming after a disconnection of the SMS connector.
 * Fixed an issue which could close SMPP connections when TLS was enabled.
@@ -302,7 +297,7 @@ Introduced a series of improvements and fixes to optimize fragments in the 19.2 
 
 ## Release 19.2 - May 2019 {#release-19-2---may-2019}
 
-### What's new? {#what-s-new-}
+**What's new?**
 
 <table> 
  <thead> 
@@ -331,11 +326,11 @@ Introduced a series of improvements and fixes to optimize fragments in the 19.2 
  </tbody> 
 </table>
 
-### Security enhancements {#security-enhancements}
+**Security enhancements**
 
 * Fixed a potential clickjacking security issue in reporting workspace.
 
-### Email Designer enhancements {#email-designer-enhancements}
+**Email Designer enhancements**
 
 * Fixed an issue that occurred when duplicating fragments and trying to use them in the Email Designer. (CAMP-33193)
 * Fixed an issue that created unwanted spaces when using inline elements in the Email Designer interface. (CAMP-32163)
@@ -355,7 +350,7 @@ Introduced a series of improvements and fixes to optimize fragments in the 19.2 
 * Fixed an issue that occurred with the color picker when trying to define a color using RGB values.
 * Fixed an issue that prevented the mirror page from being responsive when receiving the email on a mobile.
 
-### Transactional Messaging enhancements {#transactional-messaging-enhancements}
+**Transactional Messaging enhancements**
 
 Several improvements have been added to the Transactional messaging channel in order to optimize operation and performance.
 
@@ -367,7 +362,7 @@ Several improvements have been added to the Transactional messaging channel in o
 * Fixed an issue that occurred when importing a package with an event configuration and the associated transactional message. For more on this, refer to the [detailed documentation](../../channels/using/about-transactional-messaging.md#exporting-and-importing-transactional-messages).
 * Fixed an issue that deleted the collection data from the test profiles created for a transactional message containing product listings.
 
-### Other changes {#other-changes}
+**Other changes**
 
 * A new option has been added to the SMS external account. It enables to limit the maximum number of MTA processes that send SMS in order to better control the number of parallel connections. For more information, refer to the [SMS connector protocol and settings](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html) technote.
 * When publishing a resource with API extension, if the API has already been published, it is now automatically updated each time it is published again. Previously this action was manual and failing to update the API could break the profile or service resource of this API. For more on this, refer to the [detailed documentation](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension).
@@ -383,7 +378,7 @@ Several improvements have been added to the Transactional messaging channel in o
 * The custom resource publication test mode has been improved. A warning message is now displayed to users if the last custom resource publication failed and is not fixed. After a custom resource publication failure, you can rollback to last working version. For more information, refer to the [detailed documentation](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
 * A new option was added in the Transfer file activity. It allows you to sort the files when using the File download action, in SFTP mode. For more information, refer to the [detailed documentation](../../automating/using/transfer-file.md). (CAMP-33109)
 
-### Patches {#patches}
+**Patches**
 
 * Fixed an issue that could cause memory leak to the MTA when SMS settings were reloaded.
 * Fixed an issue that could prevent publishing database updates in repair mode.
@@ -406,13 +401,13 @@ Several improvements have been added to the Transactional messaging channel in o
 
 ## Release 19.1.3 - March 2019 {#release-19-1-3---march-2019}
 
-### Email Designer enhancements {#email-designer-enhancements-1}
+**Email Designer enhancements**
 
 * Fixed an issue which prevented a template from being modified after saving it.
 * Fixed various issues when using a previously created template in an email.
 * Fixed an issue which prevented components from being hidden in imported templates.
 
-### Other improvements {#other-improvements}
+**Other improvements**
 
 * Fixed an error when viewing typology rules. (CAMP-32059 & CAMP-31849)
 * Fixed an issue which prevented typology rules from being edited. (CAMP-31750)
@@ -420,7 +415,7 @@ Several improvements have been added to the Transactional messaging channel in o
 
 ## Release 19.1 - February 2019 {#release-19-1---february-2019}
 
-### What's new? {#what-s-new--1}
+**What's new?**
 
 <table> 
  <thead> 
@@ -454,11 +449,11 @@ Several improvements have been added to the Transactional messaging channel in o
  </tbody> 
 </table>
 
-### Security enhancements {#security-enhancements-1}
+**Security enhancements**
 
 * The generated landing page HTML code has been updated to prevent search engine indexing.
 
-### Email Designer enhancements {#email-designer-enhancements-2}
+**Email Designer enhancements**
 
 * A set of four best-in-class responsive email templates designed by Behance artists is now available.
 
@@ -485,7 +480,7 @@ Several improvements have been added to the Transactional messaging channel in o
 * The YouTube icon has been added to the **Social** content component.
 * The **List** view has been added for content components and fragments displayed in the Email Designer palette.
 
-### Other improvements {#other-improvements-1}
+**Other improvements**
 
 * Adobe Campaign is now fully FCM compliant for both SDK V4 and AEP SDK Apps.
 * Adobe Campaign supports Push notifications on Wear OS by Android as well as watchOS by Apple.
@@ -496,12 +491,12 @@ Several improvements have been added to the Transactional messaging channel in o
 
   For more information, refer to the [detailed documentation](../../developing/using/configuring-the-screen-definition.md#defining-the-detail-screen-configuration).
 
-### Other changes {#other-changes-1}
+**Other changes**
 
 * Adobe Campaign and Adobe Experience Cloud will drop support for Microsoft Internet Explorer 11 starting Spring 2019, and Campaign Standard 19.2 release. Please switch to Microsoft Edge or another supported browser. See [Deprecated and removed features](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) page.
 * The **Country code** field from the Profile resource has been renamed to **Country/Region code**.
 
-### Patches {#patches-1}
+**Patches**
 
 * Fixed an issue that prevented the message from being sent when adding a test profile to an email transactional message. (CAMP-29854)
 * Fixed an issue that slowed down message sending from other channels if sending was low for one channel when message sending from all channels was triggered simultaneously.
@@ -526,7 +521,7 @@ Several improvements have been added to the Transactional messaging channel in o
 
 ## Release 19.0 - January 2019 {#release-19-0---january-2019}
 
-### What's new? {#what-s-new--2}
+**What's new?**
 
 <table> 
  <colgroup><col style="width: 30%"><col style="width: 70%"></colgroup>
@@ -568,7 +563,7 @@ Several improvements have been added to the Transactional messaging channel in o
  </tbody> 
 </table>
 
-### Improvements {#improvements}
+**Improvements**
 
 * A new option in the Load data activity now lets you apply a post-processing stage to the file containing the rejected records (ex. Zip format compression). (CAMP-24521)
 * A new option in the Update data activity now allows you to configure the maximum batch size for the data to upload. (CAMP-28400)
@@ -578,7 +573,7 @@ Several improvements have been added to the Transactional messaging channel in o
 * The list of available countries when defining a profile's address has been enriched. (CAMP-26707)
 * An error message is now displayed when trying to import a built-in workflow.
 
-### Email Designer {#email-designer}
+**Email Designer**
 
 * Fixed an issue that enabled the geographical unit capability on an email template or a content fragment created with the Email Designer, even though this capability was disabled in Adobe Campaign, which made the template or fragment unavailable when trying to access it again. (CAMP-28174)
 * Fixed an issue that prevented Dynamic content conditions to be saved when editing content with the Email Designer. (CAMP-27905)
@@ -594,7 +589,7 @@ Several improvements have been added to the Transactional messaging channel in o
 * It is now possible to create profile transactional messages using the Email Designer. (CAMP-28900)
 * Fixed an error in the Email Designer that made the content editable when retrieving content from a URL automatically at preparation time, whereas it should be locked.
 
-### Patches {#patches-2}
+**Patches**
 
 * Fixed an issue that showed incorrect delivery logs in Dynamic reporting. (CAMP-23446)
 * Fixed an issue that could affect the numbers on the bounce Summary report (CAMP-28703)
