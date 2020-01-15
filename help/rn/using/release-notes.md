@@ -1,5 +1,5 @@
 ---
-title: Release Notes
+title: Latest Release
 description: This page lists all recent releases of Adobe Campaign Standard.
 page-status-flag: never-activated
 uuid: 1cf2e40c-beca-43db-8261-a1820ee86ad3
@@ -14,15 +14,9 @@ internal: n
 snippet: y
 ---
 
-# Release Notes{#release-notes}
+# Latest Release{#latest-release}
 
-Find out about Adobe Campaign Standard's latest release, its new features and patches.
-
-| Additional resources |  |
-|--- |--- |
-| [Campaign Release Planning](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) | [Control Panel release notes](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) |
-| [Latest Documentation Updates](../../rn/using/documentation-updates.md) | [Previous Release Notes](../../rn/using/release-notes-2018.md) |
-| [Deprecated and Removed Features](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) |   |
+[Release Planning](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) &#124; [Control Panel releases](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) &#124; [Documentation Updates](../../rn/using/documentation-updates.md) &#124; [Previous Release Notes](../../rn/using/release-notes-2018.md) &#124; [Deprecated Features](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
 ## Release 19.4 - December 2019 {#release-19-4---october-2019}
 
@@ -31,7 +25,7 @@ Find out about Adobe Campaign Standard's latest release, its new features and pa
 <table> 
  <thead> 
   <tr> 
-   <th> California Consumer Privacy Act (CCPA)<br /> </th> 
+   <th> <strong>California Consumer Privacy Act (CCPA)</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -52,7 +46,7 @@ Find out about Adobe Campaign Standard's latest release, its new features and pa
 <table> 
  <thead> 
   <tr> 
-   <th> Microsoft Dynamics 365 integration (GA)<br /> </th> 
+   <th> <strong>Microsoft Dynamics 365 integration (GA)</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
