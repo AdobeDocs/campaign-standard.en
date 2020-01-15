@@ -24,7 +24,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 
 ## Release 18.9 - September 2018 {#release-18-9---september-2018}
 
-### What's new? {#what-s-new-}
+**What's new?**
 
 <table> 
  <thead> 
@@ -45,11 +45,11 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
  </tbody> 
 </table>
 
-### Improvements {#improvements}
+**Improvements**
 
 * Adobe Campaign Standard now supports version 4 of Amazon S3 API.
 
-### Other changes {#other-changes}
+**Other changes**
 
 * In the broadlogs, there is now a distinction between the maximum number of connections and the maximum number of messages per hour. When the limits are reached, it is then possible to know why the throughput is limited. Previously, the same message (‘quota met’) applied to both cases.
 * When configuring a mobile application in Campaign, the user can now know if the iOS certificate and Android server key have been successfully uploaded and their expiration date.
@@ -64,7 +64,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 
   For more on this, refer to the [detailed documentation](../../designing/using/personalization.md#adding-a-content-block).
 
-### Patches {#patches}
+**Patches**
 
 * Fixed an issue that showed a discrepancy in the log counts between the email dashboard and the email summary report for transactional emails. (CAMP-28237
 * Fixed an issue in workflows that could display an error message when importing a file through a File transfer activity. (CAMP-27435)
@@ -89,7 +89,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 
 ## Release 18.7 - July 2018 {#release-18-7---july-2018}
 
-### What's new? {#what-s-new--1}
+**What's new?**
 
 <table> 
  <thead> 
@@ -122,19 +122,19 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
  </tbody> 
 </table>
 
-### Improvements {#improvements-1}
+**Improvements**
 
 * The Adobe Campaign and Adobe Target integration now allows you to leverage Target’s [Permissions](https://marketing.adobe.com/resources/help/en_US/target/target/properties-overview.html) feature. When including a dynamic image from Adobe Target in an email, you can now specify a Target Property (at_property code).
 * Custom resources that have an owncopy link to the profiles resource are now taken into account by GDPR Privacy access/delete requests. For 1 cardinality simple links and N cardinality collection links, you need to select "Deleting/Duplicating the target record implies deleting/duplicating the records referenced by the link" in the custom resource. For 0 or 1 cardinality simple links, select "Deleting/Duplicating the record implies deleting/duplicating the target record referenced by the link”.
 
-### Other changes {#other-changes-1}
+**Other changes**
 
 * Report sharing time out has been increased from one to four minutes to avoid any time out error.
 * When editing the content of an email, the new Creative Designer opens by default. If you wish, you can still go back to the default content editor at any time after saving your changes. For more on this, refer to the [detailed documentation](../../designing/using/designing-content-in-adobe-campaign.md).
 * In the Creative Designer, a new content component can now be added into an email: the carousel. For more on this, refer to the [detailed documentation](../../designing/using/designing-from-scratch.md#about-content-components).
 * In a transactional message hot click report, when you click the **Change profile** button, now only the test profiles linked to the event that you defined for your transactional message are listed.
 
-### Patches {#patches-1}
+**Patches**
 
 * Fixed an issue with the byEmail query filter which failed to return any results. (CAMP-23420)
 * Fixed an issue which allowed a standard user to access certain features or screens restricted to administrators (/rest/head/&#42; endpoints, transactional messaging screens, profiles and audiences import screens). 
@@ -152,13 +152,13 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 
 ## Release 18.6 - June 2018 {#release-18-6---june-2018}
 
-### Improvements {#improvements-2}
+**Improvements**
 
 * The **[!UICONTROL History]** API has been added to Adobe.IO. It allows you to access information related to a profile's marketing history: number of touchpoints, sent deliveries, mirror page URL etc. For more on this, refer to the [dedicated use case](../../api/using/interacting-with-marketing-history.md) .
 * The **[!UICONTROL Database cleanup]** technical workflow has been optimized in order to ensure better performance for database backup.
 * The Creative Designer for Email is now also available in French and German.
 
-### Other changes {#other-changes-2}
+**Other changes**
 
 * A **[!UICONTROL Compute stats]** button has been added in the **[!UICONTROL Deployment]** window of sent deliveries. It allows you to retrieve the latest KPIs, for example if the results from the sending take too long to update or have not been taken into account. For more on this, refer to this [section](../../sending/using/confirming-the-send.md). 
 * In the **Update for deliverability** out-of-the-box technical workflow, functional administrators can now define the number of consecutive errors to ignore in the **Update rules** javascript activity. By default, the field value is set to 0, which means that all errors will be ignored.
@@ -169,7 +169,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Users with the **[!UICONTROL Delivery preparation]** role are now able to send proofs. (CAMP-24313)
 * The **Enable TLS over SMPP** option has been added to the **SMS routing via SMPP** external account. For more on this refer to this [section](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
 
-### Patches {#patches-2}
+**Patches**
 
 * Fixed an issue which could prevent emails from being sent when including a dynamic image from Adobe Target (CAMP-24848). 
 * Fixed an issue with the **[!UICONTROL Privacy Access/Delete Request]** technical workflows, which did not complete if any of the requests failed.
@@ -190,7 +190,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 
 ## Release 18.5 - May 2018 {#release-18-5---may-2018}
 
-### What's new? {#what-s-new--2}
+**What's new?**
 
 <table> 
  <thead> 
@@ -223,11 +223,11 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
  </tbody> 
 </table>
 
-### Improvements {#improvements-3}
+**Improvements**
 
 * Overall memory and CPU usage of the application has been enhanced
 
-### Other changes {#other-changes-3}
+**Other changes**
 
 * The Read Audience workflow activity can now read Experience Cloud audiences. Previously, this activity could only read Query and List audiences. Refer to the [detailed documentation](../../automating/using/read-audience.md). (CAMP-23623)
 * The identifier of the default Shared data source is now in read only mode and can no longer be changed. Changing this identifier could lead to some issues when sharing audiences with the Experience Cloud.
@@ -243,7 +243,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * When using a Segmentation activity with an Additional data (targetData) link, a message now informs you that the data is not available outside the workflow. This message displays when clicking on the Count or Preview button from the Segmentation activity. (CAMP-23651) 
 * Enhancements have been made to optimize disk space used by workflows: (CAMP-21979): The files processed by the "Load file" activity are now deleted by default. An option allows you to keep them for specific needs. When a workflow is deleted, its dedicated folder is automatically suppressed from the server directory.
 
-### Patches {#patches-3}
+**Patches**
 
 * Fixed an issue where some raw reporting events did not have associated tracking events because the eventDate field was not properly populated.
 * Fixed an issue that prevented personalized fields to show in the preview window of a push notification delivery.
@@ -262,33 +262,33 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 
 ## Release 18.4 - April 2018 {#release-18-4---april-2018}
 
-### Patches {#patches-4}
+**Patches**
 
-#### Platform {#platform}
+_Platform_
 
 * Fixed an error that could prevent from correctly processing GDPR access or delete requests. This behavior has been observed in some rare cases where the extracted data was containing one of the following characters: & < > " '.
 
-#### Emails, SMS messages and direct mail {#emails--sms-messages-and-direct-mail}
+_Emails, SMS messages and direct mail_
 
 * Fixed an issue could lead to KPIs being overwritten with wrong values if the broadlog synchronization took more than an hour.
 
-#### Workflows {#workflows}
+_Workflows_
 
 * Improved memory management and optimized performances in workflows.
 
-#### Reporting {#reporting}
+_Reporting_
 
 * KPI sharing workflow now retrieves delivery values for the last 2 months instead of the last 6 months. Fixed an issue with KPI sharing external account showing truncated dates.
 * Fixed an issue which could lead to certain messages not being taken into account in **Sent**, **Delivered** and **Bounce**metrics.
 * Fixed an error which occurred when the chosen time range in the **Delivery Summary Report** was too long.
 
-#### Custom resources {#custom-resources}
+_Custom resources_
 
 * Fixed an error which caused custom resource preparation to fail.
 
 ## Release 18.3 - March 2018 {#release-18-3---march-2018}
 
-### New capabilities {#new-capabilities}
+**New capabilities**
 
 <table> 
  <thead> 
@@ -331,14 +331,14 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
  </tbody> 
 </table>
 
-### Patches {#patches-5}
+**Patches**
 
-#### Platform {#platform-1}
+_Platform_
 
 * Fixed an issue that prevented from exporting more than 5000 records from a list.
 * Fixed an issue when exporting data to files named with personalization fields.
 
-#### Emails, SMS messages and direct mail {#emails--sms-messages-and-direct-mail-1}
+_Emails, SMS messages and direct mail_
 
 * Fixed an issue which caused multi-part SMS to be truncated because the size of parts were calculated in characters instead of bytes.
 * Added an option which allows the **[!UICONTROL Delivered]** or **[!UICONTROL Bounces + Errors]** KPIs to be updated in real time after sending your delivery. They are directly recalculated from the SR (Status Report) received from the provider.
@@ -351,19 +351,19 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed an issue that could prevent the winner of an A/B test email to be automatically selected, leading to the email not being sent. This behavior could occur if the delivery was in **[!UICONTROL retryInProgress]** state.
 * Fixed an issue that could lead to an error message appearing when re-opening the parameters of an A/B test email.
 
-#### Audiences &amp; queries {#audiences-e-queries}
+_Audiences &amp; queries_
 
 * Fixed an issue that prevented from accessing data and setting up queries for recipients replicated from Adobe Campaign Classic to Standard.
 * Fixed an issue that occurred when using a filter type field in the query editor, after using the **Count** or **Preview** buttons.
 
-#### Workflows {#workflows-1}
+_Workflows_
 
 * The **Billing** workflow has been optimized to improve the delivery preparation delay.
 * Fixed an issue that prevented population data from being displayed in an outbound transition when using a recurring delivery activity.
 * Fixed an issue that prevented reject records from being displayed in a transition after an **Update data** activity.
 * Fixed an issue which could cause the **deliverabilityUpdate** technical workflow to fail.
 
-#### Integrations {#integrations}
+_Integrations_
 
 * Fixed an issue that prevented international characters from being correctly sent to Adobe Analytics.
 * Assets should now load faster when trying to insert an image from your Experience Cloud asset library in a message.
@@ -371,14 +371,14 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * From a datasource detail, you can now directly access its related workflow to check the workflow’s state.
 * You can now update the Triggers schema directly when defining or editing a trigger event. With this change, you no longer have to unpublish the trigger and create another one.
 
-#### Transactional messages {#transactional-messages}
+_Transactional messages_
 
 * Fixed an error with transactional message template when the delivery resource was extended.
 * It is now possible to delete transactional messages.
 
 ## Release 18.2 - February 2018 {#release-18-2---february-2018}
 
-### New capabilities {#new-capabilities-1}
+**New capabilities**
 
 <table> 
  <thead> 
@@ -399,30 +399,30 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
  </tbody> 
 </table>
 
-### Patches {#patches-6}
+**Patches**
 
-#### Platform {#platform-2}
+_Platform_
 
 * The top bar of Adobe Campaign's interface has been updated with the new Experience Cloud menu.
 * Fixed an issue which prevented the link to **[!UICONTROL Offers]** from being displayed in the solution dropdown list.
 
-#### Emails, SMS messages and direct mail {#emails--sms-messages-and-direct-mail-2}
+_Emails, SMS messages and direct mail_
 
 * The delivery preparation phase has been enhanced to improve performance.
 * Fixed several issues that could cause tracking logs to be corrupted in some niche situations.
 * Fixed a contact date update issue that occurred when the contact date was changed between delivery preparation and confirmation. Now, when you change the contact date after the preparation, you are required to prepare the delivery again before being able to confirm the send. See the [detailed documentation](../../sending/using/preparing-the-send.md).
 
-#### Push notifications {#push-notifications}
+_Push notifications_
 
 * Fixed an error that prevented some personalization fields from working in iOS push notifications.
 * Fixed an error which displayed the click and open rates as 0% in the push notification dashboard.
 
-#### Reports {#reports}
+_Reports_
 
 * Fixed an error that showed the report list as empty in some browsers.
 * Fixed an error that occurred in the **[!UICONTROL Report sharing]** technical workflow just before its expiration limit was reached.
 
-#### Workflows {#workflows-2}
+_Workflows_
 
 * Fixed an issue which prevented activities from being accessible after drag and dropping them.
 * Fixed an issue that could cause the order of output transitions of a **[!UICONTROL Segmentation]** activity to change in some situations.
@@ -430,11 +430,11 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed an issue causing the **[!UICONTROL Request confirmation before sending messages]** option to remain checked even after unchecking it when defining the scheduling properties of a delivery created in a workflow.
 * Automatic removal of duplicate rows (DISTINCT clause) can now be disabled in **[!UICONTROL Query]** activities, via a new option located in the **[!UICONTROL Additional data]** tab. Disabling this option is recommended when defining many (more than 100) additional elements, for performance reasons.
 
-#### Integrations {#integrations-1}
+_Integrations_
 
 * Some improvements were made to the **[!UICONTROL Data sources]** configuration screen.
 
-### Known issues {#known-issues}
+_Known issues_
 
 We recommend that you do not use Internet Explorer version 11 because of possible display issues.
 
@@ -442,7 +442,7 @@ Some issues might occur when using contextual help links from Campaign interface
 
 ## Release 18.1 - January 2018 {#release-18-1---january-2018}
 
-### New capabilities {#new-capabilities-2}
+**New capabilities**
 
 <table> 
  <thead> 
@@ -481,14 +481,14 @@ Some issues might occur when using contextual help links from Campaign interface
  </tbody> 
 </table>
 
-### Patches {#patches-7}
+**Patches**
 
-#### Platform {#platform-3}
+_Platform_
 
 * The profile search has been optimized to improve performance. 
 * The internal identifier of default security groups is now in read-only mode for standard users.
 
-#### Emails, SMS messages and direct mail {#emails--sms-messages-and-direct-mail-3}
+_Emails, SMS messages and direct mail_
 
 * Fixed a display issue which occurred when inserting emojis into the content of your deliveries. 
 * Fixed an issue which allowed the user to access sending logs when the delivery was still in edition.
@@ -497,27 +497,25 @@ Some issues might occur when using contextual help links from Campaign interface
 * SMS: Services are now attached to an event instead of a transactional template.
 * SMS: The default SMTP connection timeout has been reduced to 30 seconds.
 
-#### Push notifications {#push-notifications-1}
+_Push notifications_
 
 * Fixed an error that prevented push notification deliveries from being stopped.
 * Added an option in push notification advanced options to wake up the application with a push notification.
 * Added a pause button for the push notification preview video.
 * The push notification preview is now available for different devices such as iPhone, Android, tablets.
 
-  all channels
-
-#### Reports {#reports-1}
+_Reports_
 
 * Fixed an error which displayed rates over 100%.
 * Fixed an issue that prevented users from downloading reports in CSV.
 * Added a new **[!UICONTROL Report]** item in the homepage.
 
-#### Workflows {#workflows-3}
+_Workflows_
 
 * Fixed an issue which led to an error message when using additional data in a query and adding aliases containing spaces. The non-alphanumeric characters are now replaced by "_".
 * Fixed an issue where the technical workflow calculating KPIs could be stopped by default in some cases.
 
-#### Profiles and audiences {#profiles-and-audiences}
+_Profiles and audiences_
 
 * Fixed an error that occurred when adding multiple filters in an audience's query.
 * Fixed a display issue that occurred when changing a profile's picture.

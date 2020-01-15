@@ -32,6 +32,8 @@ A new page about general guidelines for Mobile deliveries in Adobe Campaign Stan
 
 The Working with Campaign and Experience Manager documentation has been updated with a new section **Tips on how to use Campaign-Experience Manager integration**. [Read more](../../integrating/using/integrating-with-experience-manager.md#tips-aem)
 
+The APIs documentation homepage has been improved with redirections to the different topics. [Read more](../../api/using/about-campaign-standard-apis.md)
+
 ## Documentation updates - December 2019 {#doc-updates-december-2019}
 
 The Configuring S3 external account documentation has been updated. [Read more](../../administration/using/external-accounts.md#amazon-s3-external-account)
