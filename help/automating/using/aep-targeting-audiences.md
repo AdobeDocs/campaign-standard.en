@@ -26,7 +26,7 @@ To activate an Adobe Experience Platform audience into your workflows, you must 
     >
     >Only Adobe Experience Platform audiences created in Audiences within Campaign are available for use in the activity.
 
-    ![](assets/aep_wf_readaudience.png)
+    ![](assets/aep_wkf_readaudience.png)
 
 1. (Optional) Once the audience is selected, you can click the eye button to review and/or edit the segment definition (make sure to save your changes again). Clicking the eye button will simply direct you to the Unified Segment Builder (in another tab) associated with the selected audience within Campaign.
 
@@ -48,7 +48,7 @@ To activate an Adobe Experience Platform audience into your workflows, you must 
 
 You can now configure your workflow with other activities. You can, for example, link an Email delivery activity to send an email to the audience that has been selected.
 
-![](assets/wkf_email.png)
+![](assets/aep_wkf_email.png)
 
 >[!NOTE]
 >
