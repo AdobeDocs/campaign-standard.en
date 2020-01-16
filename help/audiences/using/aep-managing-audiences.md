@@ -42,7 +42,7 @@ Audiences are created directly from the list of audiences. To do this, follow th
 
     ![](assets/audiences_creation_type_selection.png)
 
-2. The Unified Segment Builder should now be displayed in your workspace. It allows you to build a segment using data from the Adobe Experience Platform that will eventually be used to create your audience.
+1. The Unified Segment Builder should now be displayed in your workspace. It allows you to build a segment using data from the Adobe Experience Platform that will eventually be used to create your audience.
 
     In order to successfully create a segment, you must specify the desired merge policy (see Real-time Customer Profile overview) and name the segment in the right pane. (Optional): Enter a description.
 
