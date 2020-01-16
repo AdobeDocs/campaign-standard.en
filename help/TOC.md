@@ -57,6 +57,10 @@ user-guide-title: Adobe Campaign Standard Help
        + [About opt-in and opt-out in Campaign](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
        + [Managing opt-in and opt-out in Campaign](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
        + [Identifying opt-out profiles for a delivery](audiences/using/identifying-opt-out-profiles-for-a-delivery.md)
+  + Working wih Adobe Experience Platform audiences {#working-with-adobe-experience-platform-audiences}
+       + [About the Audience Destinations service](aep-about-audience-destinations-service.md)
+       + [Managing Adobe Experience Platform audiences](aep-managing-audiences.md)
+       + [Using the Unified Segment Builder](aep-using-segment-builder.md)
 + Communication channels {#communication-channels}
   + About communication channels {#about-communication-channels}
        + [Discovering communication channels](channels/using/discovering-communication-channels.md)
@@ -281,6 +285,10 @@ user-guide-title: Adobe Campaign Standard Help
        + [Retargeting non-openers](automating/using/workflow-cross-channel-retargeting.md)
        + [Building a control group](automating/using/workflow-control-group.md)
        + [Creating a cross-channel delivery](automating/using/workflow-cross-channel-delivery.md)
+  + Working with Adobe Experience Platform {working-with-adobe-experience-platform}
+       + [Using Adobe Experience Platform audiences within workflows](aep-using-workflows.md)
+       + [Targeting Adobe Experience Platform audiences](aep-targeting-aep-audiences.md)
+       + [Personalizing campaigns using Adobe Experience Platform attributes](aep-personalizing-campaigns.md)
 + Developing {#developing}
   + About custom resources {#about-custom-resources}
        + [Data model concepts](developing/using/data-model-concepts.md)
