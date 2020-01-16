@@ -287,8 +287,8 @@ user-guide-title: Adobe Campaign Standard Help
        + [Creating a cross-channel delivery](automating/using/workflow-cross-channel-delivery.md)
   + Working with Adobe Experience Platform {working-with-adobe-experience-platform}
        + [Using Adobe Experience Platform audiences within workflows](automating/using/aep-using-workflows.md)
-       + [Targeting Adobe Experience Platform audiences](automating/using/aep-targeting-aep-audiences.md)
-       + [Personalizing campaigns using Adobe Experience Platform attributes](aep-personalizing-campaigns.md)
+       + [Targeting Adobe Experience Platform audiences](automating/using/aep-targeting-audiences.md)
+       + [Personalizing campaigns using Adobe Experience Platform attributes](automating/using/aep-personalizing-campaigns.md)
 + Developing {#developing}
   + About custom resources {#about-custom-resources}
        + [Data model concepts](developing/using/data-model-concepts.md)

@@ -30,11 +30,11 @@ To do this, you must add these attributes into the Read audience activity:
 
 1. Click the xxxx button to display the list of available XDM fields. Select the desired field, then click Confirm.
 
-    ![](assets/aep_wkf_readaudience_perso1)
+    ![](assets/aep_wkf_readaudience_perso1.png)
 
 1. Click the Add button to add the selected field to the list of additional data.
 
-    ![](assets/aep_wkf_readaudience_perso1)
+    ![](assets/aep_wkf_readaudience_perso3.png)
 
 1. Repeat these steps for every XDM field that you want to add into your workflow.
 
