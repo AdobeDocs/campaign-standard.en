@@ -148,3 +148,18 @@ For a Google reCAPTCHA V3 external account, provide the following details:
   The 0.0 **[!UICONTROL Threshold]** value means that it is likely a bot and 1.0 likely a good interaction. By default, you can use a threshold of 0.5.
 
 ![](assets/external_accounts_3.png)
+
+## Microsoft Azure Blob storage external account {#microsoft-azure-external-account}
+
+For a Microsoft Azure Blob storage external account, provide the following details:
+
+* A **[!UICONTROL Label]** and **[!UICONTROL ID]** of your external account
+* **[!UICONTROL Type]**: Microsoft Azure Blob storage
+* Your **[!UICONTROL Account name]** and **[!UICONTROL Account key]**. To know where to find your account name and key, refer to this [page](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage).
+* Your **[!UICONTROL Endpoint suffix]**
+* Your **[!UICONTROL Container]** name. If you are planning to use more than one container you need to create as many external accounts as containers.
+* The **[!UICONTROL Concurrency]** option lets you fine tune the speed of your file transfers.
+
+![](assets/external_accounts_4.png)
+
+Once configured, click **[!UICONTROL Test connection]** to link Adobe Campaign to Microsoft Azure Blob storage.
