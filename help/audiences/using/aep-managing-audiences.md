@@ -46,7 +46,7 @@ Audiences are created directly from the list of audiences. To do this, follow th
 
     In order to successfully create a segment, you must specify the desired merge policy (see Real-time Customer Profile overview) and name the segment in the right pane. (Optional): Enter a description.
 
-    ![](assets/aep_audienceS_creation_edit_name.png)
+    ![](assets/aep_audiences_creation_edit_name.png)
 
 1. Define the rules that will identify the profiles to be retrieved in your audience. To do this, drag the desired attributes from the left pane into the workspace, define the corresponding rules then click the Create Segment button to save the segment. For more details on this, refer to Using the Unified Segment Builder.
 
@@ -58,7 +58,7 @@ The audience is now ready to be activated, you can use it as a target for your c
 
 To delete or duplicate an audience, hover over it then click the Delete element or Duplicate element button.
 
-![](assets/audiences_delete_duplicate.png)
+![](assets/aep_audiences_delete_duplicate.png)
 
 Once duplicated, a copy of the audience is created.
 
