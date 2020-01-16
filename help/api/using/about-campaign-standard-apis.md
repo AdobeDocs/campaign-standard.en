@@ -36,10 +36,10 @@ With the Adobe Campaign Standard APIs, you get access to the following functiona
     </td>
 </tr>
 <tr>
-<td><b>Profiles</b></td>
-<td><b>Services & subscriptions</b></td>
-<td><b>Custom resources</b></td>
-<td><b>Marketing history</b></td>
+<td>Profiles</td>
+<td>Services & subscriptions</td>
+<td>Custom resources</td>
+<td>Marketing history</td>
 </tr>
 <tr>
     <td valign="top">
@@ -56,10 +56,10 @@ With the Adobe Campaign Standard APIs, you get access to the following functiona
     </td>
 </tr>
 <tr>
-<td><b>Privacy management</b></td>
-<td><b>Transactional messages</b></td>
-<td><b>Workflows</b></td>
-<td><b>Organizational & geographical units</b></td>
+<td>Privacy management</td>
+<td>Transactional messages</td>
+<td>Workflows</td>
+<td>Organizational units</td>
 </td>
 </table>
 
