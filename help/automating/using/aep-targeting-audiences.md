@@ -22,11 +22,11 @@ To activate an Adobe Experience Platform audience into your workflows, you must 
 
 1. Select the Adobe Experience Platform option under Type of audience, then add the desired audience.
 
-    >[!CAUTION]
+    >[!NOTE]
     >
     >Only Adobe Experience Platform audiences created in Audiences within Campaign are available for use in the activity.
 
-    ![](assets/wf_readaudience.png)
+    ![](assets/aep_wf_readaudience.png)
 
 1. (Optional) Once the audience is selected, you can click the eye button to review and/or edit the segment definition (make sure to save your changes again). Clicking the eye button will simply direct you to the Unified Segment Builder (in another tab) associated with the selected audience within Campaign.
 
@@ -34,15 +34,15 @@ To activate an Adobe Experience Platform audience into your workflows, you must 
 
     By default, the primary key (e.g., iRecipientID for Profile table, iAppSubscriptionID for AppSubscription table) used for reconciliation will automatically be available from the dropdown list. To target outside of the primary key, you must create a custom Namespace
 
-    >[!CAUTION]
+    >[!NOTE]
     >
     >For targets outside of the primary key, you must also create a custom Target Mapping that corresponds to the custom Namespace. For more information on Target Mapping, refer to this dedicated document.
 
-    ![](assets/wkf_readaudience_namespace.png)
+    ![](assets/aep_wkf_readaudience_namespace.png)
 
     This list contains all the Experience Data Model (XDM) mappings that have been configured on your instance. For more on Data Mapping, refer to this dedicated document.
 
-    ![](assets/wkf_readaudience_namespace2.png)
+    ![](assets/aep_wkf_readaudience_namespace2.png)
 
 1. Once the audience and targeting dimensions are configured properly, click the Confirm button to save your changes.
 
@@ -50,7 +50,7 @@ You can now configure your workflow with other activities. You can, for example,
 
 ![](assets/wkf_email.png)
 
->[!CAUTION]
+>[!NOTE]
 >
 >Campaign Standard lets you target Adobe Experience Platform audiences within all delivery channels: Emails, SMS messages, Direct mail messages, Push notifications, and In-app messages.
 

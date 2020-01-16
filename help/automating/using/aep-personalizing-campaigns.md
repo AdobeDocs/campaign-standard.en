@@ -26,15 +26,15 @@ To do this, you must add these attributes into the Read audience activity:
     >
     >The Additional data tab is only available after an Adobe Experience Platform audience has been selected.
 
-    ![](assets/wkf_readaudience_attributes.png)
+    ![](assets/aep_wkf_readaudience_attributes.png)
 
 1. Click the ![](assets/wkf_selectbutton1.png) button to display the list of available XDM fields. Select the desired field, then click Confirm.
 
-    ![](assets/wkf_readaudience_perso1)
+    ![](assets/aep_wkf_readaudience_perso1)
 
 1. Click the Add button to add the selected field to the list of additional data.
 
-    ![](assets/wkf_readaudience_perso1)
+    ![](assets/aep_wkf_readaudience_perso1)
 
 1. Repeat these steps for every XDM field that you want to add into your workflow.
 
@@ -51,6 +51,7 @@ For more information on how to create and personalize deliveries, refer to the C
 * Personalizing deliveries
 
 More like this
+
 * Working with Adobe Experience Platform and Adobe Campaign
 * Working with Adobe Experience Platform Offer service
 * Using Adobe Experience Platform assets in Adobe Campaign
