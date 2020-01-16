@@ -28,7 +28,7 @@ Adobe Experience Platform audiences are available in the list of audiences, whic
 
 They can be identified by the Data Services Query label in the Type column.
 
-![](assets/audiences_list.png)
+![](assets/aep_audiences_list.png)
 
 ## Creating audiences
 
@@ -36,21 +36,21 @@ Audiences are created directly from the list of audiences. To do this, follow th
 
 1. Go to the list of audiences, then click the Create button.
 
-    ![](assets/audiences_creation_create_button.png)
+    ![](assets/aep_audiences_creation_create_button.png)
 
 1. Choose the Adobe Experience Platform segment builder environment.
 
-    ![](assets/audiences_creation_type_selection.png)
+    ![](assets/aep_audiences_creation_type_selection.png)
 
 1. The Unified Segment Builder should now be displayed in your workspace. It allows you to build a segment using data from the Adobe Experience Platform that will eventually be used to create your audience.
 
     In order to successfully create a segment, you must specify the desired merge policy (see Real-time Customer Profile overview) and name the segment in the right pane. (Optional): Enter a description.
 
-    ![](assets/audienceS_creation_edit_name.png)
+    ![](assets/aep_audienceS_creation_edit_name.png)
 
 1. Define the rules that will identify the profiles to be retrieved in your audience. To do this, drag the desired attributes from the left pane into the workspace, define the corresponding rules then click the Create Segment button to save the segment. For more details on this, refer to Using the Unified Segment Builder.
 
-    ![](assets/audiences_creation_query.png)
+    ![](assets/aep_audiences_creation_query.png)
 
 The audience is now ready to be activated, you can use it as a target for your campaigns.
 
@@ -62,11 +62,11 @@ To delete or duplicate an audience, hover over it then click the Delete element 
 
 Once duplicated, a copy of the audience is created.
 
-![](assets/audiences_duplicate.png)
+![](assets/aep_audiences_duplicate.png)
 
 The copy of the audience has the same segment definition as the duplicated audience. The Segment name field is therefore identical for both audiences. If you intend to modify the segment's rules, thereby essentially creating a new segment, we strongly recommend changing its name.
 
-![](assets/audiences_duplicate_rename.png)
+![](assets/aep_audiences_duplicate_rename.png)
 
 ## Editing audiences
 
@@ -74,4 +74,4 @@ To edit an audience, open it and modify the rules as needed within the Unified S
 
 Once the changes have been completed, click the Save Segment button to update your audience.
 
-![](assets/audiences_editing.png)
+![](assets/aep_audiences_editing.png)
