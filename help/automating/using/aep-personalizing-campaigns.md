@@ -28,7 +28,7 @@ To do this, you must add these attributes into the Read audience activity:
 
     ![](assets/aep_wkf_readaudience_attributes.png)
 
-1. Click the ![](assets/wkf_selectbutton1.png) button to display the list of available XDM fields. Select the desired field, then click Confirm.
+1. Click the xxxx button to display the list of available XDM fields. Select the desired field, then click Confirm.
 
     ![](assets/aep_wkf_readaudience_perso1)
 
