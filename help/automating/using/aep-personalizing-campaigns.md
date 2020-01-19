@@ -16,23 +16,31 @@ snippet: y
 
 # Personalizing campaigns using Adobe Experience Platform attributes {#personalizing-campaigns-using-aep-attributes}
 
+>[!IMPORTANT]
+>
+>Adobe Experience Platform features are currently in beta, and subject to frequent updates and modifications without notice.
+
+>[!NOTE]
+>
+>**Push** and **in-app** channels are not available yet for personalization using contextual data from Adobe Experience Platform.
+
 Once your workflow is configured with an Adobe Experience Platform audience, you can personalize messages with profile attributes that exist exclusively in the Experience Data Model (XDM).
 
 To do this, you must add these attributes into the Read audience activity:
 
-1. Open the Read audience activity. In the Additional data tab, click the Create element button.
+1. Open the **[!UICONTROL Read audience]** activity. In the **[!UICONTROL Additional data]** tab, click the **[!UICONTROL Create element]** button.
 
     >[!NOTE]
     >
-    >The Additional data tab is only available after an Adobe Experience Platform audience has been selected.
+    >The **[!UICONTROL Additional data]** tab is only available after an Adobe Experience Platform audience has been selected.
 
     ![](assets/aep_wkf_readaudience_attributes.png)
 
-1. Click the xxxx button to display the list of available XDM fields. Select the desired field, then click Confirm.
+1. Select the desired XDM field from the available fieldslist, then click **[!UICONTROL Confirm]**.
 
     ![](assets/aep_wkf_readaudience_perso1.png)
 
-1. Click the Add button to add the selected field to the list of additional data.
+1. Click the **[!UICONTROL Add]** button to add it to the list of additional data.
 
     ![](assets/aep_wkf_readaudience_perso3.png)
 
@@ -40,19 +48,12 @@ To do this, you must add these attributes into the Read audience activity:
 
 >[!NOTE]
 >
->You can add a maximum of 20 XDM fields in a Read audience activity.
+>You can add a maximum of 20 XDM fields in a **[!UICONTROL Read audience]** activity.
 
-1. Once all the fields have been added, click the Confirm button to save your changes. They will now be available to personalize your deliveries.
+1. Once all the fields have been added, click the **[!UICONTROL Confirm]** button to save your changes. They will now be available to personalize your deliveries.
 
 For more information on how to create and personalize deliveries, refer to the Campaign Standard documentation:
 
-* Discovering communication channels
-* About channel activities
-* Personalizing deliveries
-
-More like this
-
-* Working with Adobe Experience Platform and Adobe Campaign
-* Working with Adobe Experience Platform Offer service
-* Using Adobe Experience Platform assets in Adobe Campaign
-* Mapping Adobe Campaign and Adobe Experience Platform data
+* [Discovering communication channels](../../channels/using/discovering-communication-channels.md)
+* [About channel activities](../../automating/using/about-channel-activities.md)
+* [Personalizing deliveries](../../designing/using/personalization.md)

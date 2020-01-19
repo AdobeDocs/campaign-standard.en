@@ -16,9 +16,11 @@ snippet: y
 
 # Using the Unified Segment Builder {#using-the-unified-segment-builder}
 
-The Unified Segment Builder allows you to define rules based on data coming from the Unified Profile Service.
+>[!IMPORTANT]
+>
+>Adobe Experience Platform features are currently in beta, and subject to frequent updates and modifications without notice.
 
-For detailed information on the Unified Segment Builder, refer to this dedicated document.
+The Unified Segment Builder allows you to build audiences by defining rules based on data coming from the Unified Profile Service. For detailed information on the Unified Segment Builder, refer to the [Segment Builder user guide](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md).
 
 The Unified Segment Builder interface is composed as follows:
 
@@ -32,11 +34,11 @@ The Unified Segment Builder interface is composed as follows:
 
 To build a segment, follow these steps:
 
-1. Name the segment and enter a description (optional). Specify the desired merge policy (this can be done after the rules have been built).
+1. Name the segment, enter a description (optional), then specify the desired **[!UICONTROL merge policy ]** (this can be done after the rules have been built).
 
     ![](assets/aep_audiences_editdetails.png)
 
-1. Look for the desired fields in the left pane, and then drag them into the center workspace.
+1. Look for the desired fields in the left pane, and drag them into the center workspace.
 
     ![](assets/aep_audiences_dragfield.png)
 
@@ -44,27 +46,27 @@ To build a segment, follow these steps:
 
     ![](assets/aep_audiences_configure_rules.png)
 
-1. Click the Create segment button.
+1. Click the **[!UICONTROL Create segment]** button.
 
 ## Finding the right fields for a segment
 
 The left pane lists fields (i.e., attributes, events and segments) that are available for use to construct rules.
 
-The fields listed are attributes captured by your company and can be made available through Data Services model in the Experience Data Model (XDM) schemas.
+The fields listed are attributes captured by your company and can be made available through the [Experience Data Model (XDM) System](https://www.adobe.io/apis/experienceplatform/home/xdm.html).
 
-For detailed information on the left pane, refer to the dedicated section from the Unified Segment Builder documentation.
+For detailed information on the left pane, refer to the dedicated section from the [Segment Builder user guide](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md).
 
 Fields are organized into tabs:
 
-* Attributes: Existing profiles attributes that can originate from your Adobe Campaign database and/or Adobe Experience Platform. They refer to static information attached to a profile (e.g., email address, country of residence, loyalty program status, etc.).
+* **[!UICONTROL Attributes]**: Existing profiles attributes that can originate from your Adobe Campaign database and/or Adobe Experience Platform. They refer to static information attached to a profile (e.g., email address, country of residence, loyalty program status, etc.).
 
     ![](assets/aep_audiences_attributestab.png)
 
-* Events: Events are activities that identify consumers who have had some interaction with your company's customer touchpoints, such as “anyone who has ordered twice in two weeks”. This can be streamed from Adobe Analytics, or ingested directly into the Adobe Experience Platform using third-party ETL tools.
+* **[!UICONTROL Events]**: Activities that identify consumers who have had some interaction with your company's customer touchpoints, such as “anyone who has ordered twice in two weeks”. This can be streamed from Adobe Analytics, or ingested directly into the Adobe Experience Platform using third-party ETL tools.
 
     ![](assets/aep_audiences_eventstab.png)
 
-By default, the Unified Segment builder displays fields for which data is present. To display the full schema, including fields for which data is not present, deselect the option from the settings tab.
+By default, the Unified Segment builder displays fields for which data is present. To display the full schema, including fields for which data is not present, unselect the option from the settings.
 
 ![](assets/aep_audiences_populatedfields.png)
 
@@ -74,23 +76,23 @@ The symbol at the end of each field provides additional information about the at
 
 ## Defining rules for a segment
 
-To build a rule, follow the steps below:
-
 >[!NOTE]
 >
->Detailed information on rule definition is presented in the "Building a segment" section from the Unified Segment Builder documentation.
+>The section below provides global information on rules definition. For more on this, refer to the [Segment Builder user guide](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md).
+
+To build a rule, follow these steps:
 
 1. Find the field from the left pane that reflects the attributes or events to which the rule will be based on.
 
-1. Drag the field onto the center workspace, then configure it according to the desired segment definition. To do this, several string and date/time functions are available (for more on this, refer to the Unified Segment Builder documentation).
+1. Drag the field onto the center workspace, then configure it according to the desired segment definition. To do this, several string and date/time functions are available.
 
     In the example below, the rule will target all profiles with gender that equals to "Male".
 
     ![](assets/aep_audiences_malegender.png)
 
-    The estimated population corresponding to the segment is automatically recalculated in the Segment Properties section. For more on this, refer to the "Building a segment" section from the Unified Segment Builder documentation.
+    The estimated population corresponding to the segment is automatically recalculated in the **[!UICONTROL Segment Properties]** section. 
 
-1. The View Profiles button gives you a preview of the first 20 records corresponding to the rule, enabling you to quickly validate the segment.
+1. The **[!UICONTROL View Profiles]** button gives you a preview of the first 20 records corresponding to the rule, enabling you to quickly validate the segment.
 
     ![](assets/aep_audiences_samplepreview.png)
 
@@ -106,7 +108,7 @@ Once linked together, the two rules form a container.
 
 The Unified Segment Builder lets you compare two fields to define a rule. For example, females whose home address is in a different ZIP code from their work address.
 
-To do this, follow the steps below:
+To do this, follow these steps:
 
 1. Drag the first field that you want to compare (e.g., the home address postal code) onto the center workspace.
 
@@ -114,7 +116,7 @@ To do this, follow the steps below:
 
 1. Select the second field (e.g., the work address postal code) that will be compared with the first field.
 
-    Drag it onto the center workspace, in the same container as the first field, in the Drop here to compare operands box.
+    Drag it onto the center workspace, in the same container as the first field, in the **[!UICONTROL Drop here to compare operands]** box.
 
     ![](assets/aep_audiences_comparing_2.png)
 

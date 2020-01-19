@@ -16,11 +16,17 @@ snippet: y
 
 # Targeting Adobe Experience Platform audiences {#targeting-aep-audiences}
 
-To activate an Adobe Experience Platform audience into your workflows, you must configure a Read audience activity. To do this, follow the steps below:
+>[!IMPORTANT]
+>
+>Adobe Experience Platform features are currently in beta, and subject to frequent updates and modifications without notice.
 
-1. Add a Read audience activity into the workflow, then open it to configure it with an Experience Platform audience.
+Once you have created an Adobe Experience Platform audience using the Unified Profile segment builder (see [this section](../../audiences/using/aep-managing-audiences.md)), you can use it in the same way as you would for a Campaign audience within workflows to personalize and send messages.
 
-1. Select the Adobe Experience Platform option under Type of audience, then add the desired audience.
+To activate an Adobe Experience Platform audience into your workflows, you must configure a **[!UICONTROL Read audience]** activity:
+
+1. Add a **[!UICONTROL Read audience]** activity into the workflow, then open it to configure it with an Experience Platform audience.
+
+1. Select the **[!UICONTROL Adobe Experience Platform]** option under **[!UICONTROL Type of audience]**, then add the desired audience.
 
     >[!NOTE]
     >
@@ -28,25 +34,27 @@ To activate an Adobe Experience Platform audience into your workflows, you must 
 
     ![](assets/aep_wkf_readaudience.png)
 
-1. (Optional) Once the audience is selected, you can click the eye button to review and/or edit the segment definition (make sure to save your changes again). Clicking the eye button will simply direct you to the Unified Segment Builder (in another tab) associated with the selected audience within Campaign.
+1. (Optional) Once the audience is selected, you can click the eye button to review and/or edit the segment definition (make sure to save your changes again).
 
-1. You must select a Platform data mapping element to specify the desired targeting dimension for the selected Adobe Experience Platform audience.
+    Clicking the eye button will simply direct you to the Unified Segment Builder (in another tab) associated with the selected audience within Campaign.
 
-    By default, the primary key (e.g., iRecipientID for Profile table, iAppSubscriptionID for AppSubscription table) used for reconciliation will automatically be available from the dropdown list. To target outside of the primary key, you must create a custom Namespace
+1. Select a **[!UICONTROL Platform data mapping]** element to specify the desired targeting dimension for the selected Adobe Experience Platform audience.
+
+    By default, the primary key (e.g., iRecipientID for Profile table, iAppSubscriptionID for AppSubscription table) used for reconciliation will automatically be available from the dropdown list. To target outside of the primary key, you must create a custom **Namespace**.
 
     >[!NOTE]
     >
-    >For targets outside of the primary key, you must also create a custom Target Mapping that corresponds to the custom Namespace. For more information on Target Mapping, refer to this dedicated document.
+    >For targets outside of the primary key, you must also create a custom Target Mapping that corresponds to the custom Namespace. For more information on Target Mapping, refer to [this section](../../administration/using/target-mappings-in-campaign.md).
 
     ![](assets/aep_wkf_readaudience_namespace.png)
 
-    This list contains all the Experience Data Model (XDM) mappings that have been configured on your instance. For more on Data Mapping, refer to this dedicated document.
+    This list contains all the Experience Data Model (XDM) mappings that have been configured on your instance. For more on Data Mapping, refer to [this dedicated document](https://helpx.adobe.com/campaign/kb/aep-acs-datamapping.html).
 
     ![](assets/aep_wkf_readaudience_namespace2.png)
 
-1. Once the audience and targeting dimensions are configured properly, click the Confirm button to save your changes.
+1. Once the audience and targeting dimensions are configured properly, click the **[!UICONTROL Confirm]** button to save your changes.
 
-You can now configure your workflow with other activities. You can, for example, link an Email delivery activity to send an email to the audience that has been selected.
+You can now configure your workflow with other activities. You can, for example, link an **[!UICONTROL Email delivery]** activity to send an email to the audience that has been selected.
 
 ![](assets/aep_wkf_email.png)
 
@@ -54,9 +62,9 @@ You can now configure your workflow with other activities. You can, for example,
 >
 >Campaign Standard lets you target Adobe Experience Platform audiences within all delivery channels: Emails, SMS messages, Direct mail messages, Push notifications, and In-app messages.
 
-For more on how to use workflows and deliveries, refer to the Campaign Standard documentation:
+For more on how to use workflows and deliveries, refer to these sections:
 
-* Discovering workflows
-* Building a workflow
-* Discovering communication channels
-* About channel activities
+* [Discovering workflows](../../automating/using/discovering-workflows.md)
+* [Building a workflow](../../automating/using/building-a-workflow.md)
+* [Discovering communication channels](../../channels/using/discovering-communication-channels.md)
+* [About channel activities](../../automating/using/about-channel-activities.md)
