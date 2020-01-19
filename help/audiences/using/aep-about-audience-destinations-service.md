@@ -16,26 +16,28 @@ snippet: y
 
 # About the Audience Destinations service {#about-audiences}
 
-In Adobe Campaign Standard, Profiles are individual contacts stored in the database, with information that enables marketers to build the desired targets for their campaign programs.
+>[!IMPORTANT]
+>
+>Adobe Experience Platform features are currently in beta, and subject to frequent updates and modifications without notice.
 
-Adobe Campaigns Standard allows you to identify collections of profiles, known as Audiences, which are created by building segments (rules that include profile attributes and event data originating from Adobe Experience Platform). Global concepts on Unified Profile & Segmentation Services can be referenced in these dedicated documents.
+The Audience Destinations service allows you to build highly targeted audiences based on large, complex datasets and share these segments near real-time with other Adobe Experience Cloud solutions. The Adobe Experience Platform consolidates profile, behavioral and multi-entity data to help you build a 360 view of your customer, enabling you to effectively manage your customer experiences.
 
-Once an audience has been created, you can activate it for a delivery in Adobe Campaign Standard. Additionally, you can use contextual data from the Adobe Experience Platform to personalize and add dynamic content to your campaigns, if desired.
+Campaign Standard allows you to workk with Adobe Experience Platform, in order to identify collections of profiles, known as **Audiences**. They are created by building **segments**, which are rules including profile attributes and event data originating from Adobe Experience Platform.
 
-Terms used in this documentation:
+Global concepts on Unified Profile & Segmentation Services can be referenced in [these dedicated documents](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation.html).
 
-* Profile: Profile is an Experience Platform standard data model used to define attributes of consumers. A profile can also be an aggregate of event data and attributes related to a person and or device.
+Once an audience has been created, you can activate it for a delivery in Campaign Standard. Additionally, you can use contextual data from the Adobe Experience Platform to personalize and add dynamic content to your campaigns, if desired.
+
+Terms used in this section:
+
+* **Profile**: Profile is an Experience Platform standard data model used to define attributes of consumers. A profile can also be an aggregate of event data and attributes related to a person and or device.
 
     Example: "John Doe is a 55 years old male.”
 
-* Segment: A set of rules that defines a subset of profiles from your database, using both attributes and event data.
+* **Segment**: A set of rules that defines a subset of profiles from your database, using both attributes and event data.
 
     Example: “Males > 50 years old.”
 
-* Audience: A collection of profiles that meet segment rules.
+* **Audience**: A collection of profiles that meet segment rules.
 
     Example: List of profiles corresponding to all males > 50 years old in your database.
-
->[!NOTE]
->
->The sections below are specific to workflows utilizing Adobe Experience Platform audiences and profiles available in Adobe Campaign Standard. For general information on profiles and audiences in Campaign, refer to the Campaign Standard documentation.
