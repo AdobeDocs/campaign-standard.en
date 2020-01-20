@@ -16,6 +16,10 @@ snippet: y
 
 # Experience Data Model overview {#experience-data-model-overview}
 
+>[!IMPORTANT]
+>
+>Adobe Experience Platform features are currently in beta, and subject to frequent updates and modifications without notice.
+
 Experience Data Model (XDM) is a standard set of data schemas into which data might be ingested for use with Adobe Experience Platform solutions and products.
 
 The creation and management of XDM schemas is available with a dedicated API or with the XDM user interface.

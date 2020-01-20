@@ -16,6 +16,9 @@ snippet: y
 
 # About Data Mapping {#about-data-mapping}
 
+>[!IMPORTANT]
+>
+>Adobe Experience Platform features are currently in beta, and subject to frequent updates and modifications without notice.
 
 Adobe Campaign Standard is available on Adobe Experience Platform - Data Mapping for all customers with an access to Adobe Experience Platform. The Data Mapping features help existing customers to make their data available on Adobe Experience Platform by mapping XTK data (data ingested in Campaign) to Experience Data Model (XDM) data on Adobe Experience Platform.
 

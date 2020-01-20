@@ -16,6 +16,10 @@ snippet: y
 
 # Mapping definition {#mapping-definition}
 
+>[!IMPORTANT]
+>
+>Adobe Experience Platform features are currently in beta, and subject to frequent updates and modifications without notice.
+
 In this section, you will discover how to map a Campaign Standard field with an an Experience Data Model (XDM) field.
 
 >[!NOTE]

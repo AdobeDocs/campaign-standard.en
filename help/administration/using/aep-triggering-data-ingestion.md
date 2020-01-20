@@ -16,6 +16,10 @@ snippet: y
 
 # Triggering data ingestion through APIs {#triggering-data-ingestion-apis}
 
+>[!IMPORTANT]
+>
+>Adobe Experience Platform features are currently in beta, and subject to frequent updates and modifications without notice.
+
 Adobe Campaign Standard allows you to trigger the immediate ingestion of data mappings via APIs, and retrieve the status of your ingestion requests.
 
 >[!NOTE]

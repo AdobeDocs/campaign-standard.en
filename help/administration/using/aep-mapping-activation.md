@@ -16,6 +16,10 @@ snippet: y
 
 # Mapping activation {#mapping-activation}
 
+>[!IMPORTANT]
+>
+>Adobe Experience Platform features are currently in beta, and subject to frequent updates and modifications without notice.
+
 When the mapping definition is completed, you can publish the mapping. After the deployment step, the data replication between Campaign Standard and Adobe Experience Platform is automatically started. At any time, you can stop the replication by clicking on the **[!UICONTROL Stop]** button.
 
 Depending on your mapping modifications, you can choose to resend all your records to Adobe Experience Platform.
