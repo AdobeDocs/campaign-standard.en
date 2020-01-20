@@ -1,6 +1,6 @@
 ---
 title: About Data Mapping
-description: Data mapping is a tool to map XTK data (data ingested in Campaign) to Experience Data Model (XDM) data on Adobe Experience Platform.
+description: Manage XDM schemas to make your Campaign Standard data available on Adobe Experience Platform.
 page-status-flag: never-activated
 uuid: 867b1c4b-4c79-4c52-9d0a-ef71993e50a2
 contentOwner: sauviat
@@ -16,11 +16,8 @@ snippet: y
 
 # About Data Mapping {#about-data-mapping}
 
-Manage XDM schemas to make your Campaign Standard data available on Adobe Experience Platform.
 
-Data mapping is a tool to map XTK data (data ingested in Campaign) to Experience Data Model (XDM) data on Adobe Experience Platform.
-
-Adobe Campaign Standard is available on Adobe Experience Platform - Data Mapping for all customers with an access to Adobe Experience Platform. The Data Mapping features help existing customers to make their data available on Adobe Experience Platform. Adobe Experience Platform understands all data in Experience Data Model (XDM). Campaign Standard needs a data mapping tool to complete its data transmission from Campaign Standard to Adobe Experience Platform.
+Adobe Campaign Standard is available on Adobe Experience Platform - Data Mapping for all customers with an access to Adobe Experience Platform. The Data Mapping features help existing customers to make their data available on Adobe Experience Platform by mapping XTK data (data ingested in Campaign) to Experience Data Model (XDM) data on Adobe Experience Platform.
 
 The mapping feature is intended for data engineers who understand Adobe Campaign Standard custom resources and have an understanding of how customer's overall data schema should be inside Adobe Experience Platform.
 
