@@ -194,7 +194,7 @@ A new Release Planning article has been published to share upcoming release date
 
 The contextual help links available directly from Adobe Campaign have been updated.
 
-The following [page](https://helpx.adobe.com/campaign/kt/acs/index/acs-videos.html) becomes the official Videos page for Adobe Campaign Standard.
+The following [page](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) becomes the official Videos page for Adobe Campaign Standard.
 
 Added a section on data retention including the default retention values for standard tables. [Read more](../../administration/using/data-retention.md)
 
@@ -334,7 +334,7 @@ The Configuring a mobile application using SDK V4 section has been moved [here](
 
 The Configuring a mobile application using Adobe Experience Platform SDKs section has been moved [here](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
 
-Videos have been updated and moved [here](https://helpx.adobe.com/campaign/kt/acs/index/acs-videos.html).
+Videos have been updated and moved [here](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html).
 
 Updated the Type of users section. [Read more](../../administration/using/users-management.md)
 
@@ -682,7 +682,7 @@ Recurring push notifications - [Read more](../../automating/using/push-notificat
 
 Amazon Simple Storage Service (S3) connector - [Read more](../../administration/using/external-accounts.md)
 
-Dreamweaver integration live - [Read more](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html)
+Dreamweaver integration live - [Read more](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
 ### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-14}
 
@@ -706,7 +706,7 @@ Integration with Adobe Analytics for Mobile (Point of Interest) updated, includi
 
 Dynamic reporting - [Read more](../../reporting/using/about-dynamic-reports.md)
 
-Dreamweaver integration (Labs) - [Read more](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html)
+Dreamweaver integration (Labs) - [Read more](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
 Manual send time optimization - [Read more](../../sending/using/optimizing-the-sending-time.md)
 
