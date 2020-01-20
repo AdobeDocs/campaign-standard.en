@@ -22,7 +22,7 @@ snippet: y
 
 The Audience Destinations service allows you to build highly targeted audiences based on large, complex datasets and share these segments near real-time with other Adobe Experience Cloud solutions. The Adobe Experience Platform consolidates profile, behavioral and multi-entity data to help you build a 360 view of your customer, enabling you to effectively manage your customer experiences.
 
-Campaign Standard allows you to workk with Adobe Experience Platform, in order to identify collections of profiles, known as **Audiences**. They are created by building **segments**, which are rules including profile attributes and event data originating from Adobe Experience Platform.
+Campaign Standard allows you to work with Adobe Experience Platform, in order to identify collections of profiles, known as **Audiences**. They are created by building **segments**, which are rules including profile attributes and event data originating from Adobe Experience Platform.
 
 Global concepts on Unified Profile & Segmentation Services can be referenced in [these dedicated documents](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation.html).
 
