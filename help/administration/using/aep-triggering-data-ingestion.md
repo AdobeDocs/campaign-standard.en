@@ -16,6 +16,10 @@ snippet: y
 
 # Triggering data ingestion through APIs {#triggering-data-ingestion-apis}
 
+>[!IMPORTANT]
+>
+>Adobe Experience Platform features are currently in beta, and subject to frequent updates and modifications without notice.
+
 Adobe Campaign Standard allows you to trigger the immediate ingestion of data mappings via APIs, and retrieve the status of your ingestion requests.
 
 >[!NOTE]
@@ -45,8 +49,7 @@ The data mapping execution is now stopped. You can use Campaign Standard APIs to
 
 Immediate ingestion of a XDM mapping into Adobe Experience Platform is triggered with a POST operation:
 
-POST https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM Mapping ID>/ingest
-Note:
+`POST https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM Mapping ID>/ingest`
 
 >[!NOTE]
 >
