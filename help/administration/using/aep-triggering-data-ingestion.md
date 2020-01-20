@@ -49,8 +49,7 @@ The data mapping execution is now stopped. You can use Campaign Standard APIs to
 
 Immediate ingestion of a XDM mapping into Adobe Experience Platform is triggered with a POST operation:
 
-POST https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM Mapping ID>/ingest
-Note:
+`POST https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM Mapping ID>/ingest`
 
 >[!NOTE]
 >
