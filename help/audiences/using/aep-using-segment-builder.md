@@ -20,7 +20,9 @@ snippet: y
 >
 >Adobe Experience Platform features are currently in beta, and subject to frequent updates and modifications without notice.
 
-The Unified Segment Builder allows you to build audiences by defining rules based on data coming from the Unified Profile Service. For detailed information on the Unified Segment Builder, refer to the [Segment Builder user guide](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md).
+The Unified Segment Builder allows you to build audiences by defining rules based on data coming from the [Unified Profile Service](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation.html).
+
+This section presents global concepts when building a segment. For detailed information on the Unified Segment Builder itself, refer to the [Segment Builder user guide](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md).
 
 The Unified Segment Builder interface is composed as follows:
 
@@ -53,8 +55,6 @@ To build a segment, follow these steps:
 The left pane lists fields (i.e., attributes, events and segments) that are available for use to construct rules.
 
 The fields listed are attributes captured by your company and can be made available through the [Experience Data Model (XDM) System](https://www.adobe.io/apis/experienceplatform/home/xdm.html).
-
-For detailed information on the left pane, refer to the dedicated section from the [Segment Builder user guide](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md).
 
 Fields are organized into tabs:
 
