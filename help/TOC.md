@@ -354,6 +354,12 @@ user-guide-title: Adobe Campaign Standard Help
        + [Sending internal notifications](administration/using/sending-internal-notifications.md)
        + [Data retention](administration/using/data-retention.md)
        + [Updates and maintenance operations](administration/using/updates-and-maintenance-operations.md)
+   + Mapping Campaign and Adobe Experience Platform data {#mapping-campaign-and-aep-data}
+     + [About Data Mapping](administration/aep-about-data-mapping.md)
+     + [Experience Platform Datamodel overview](administration/aep-data-model-overview.md)
+     + [Mapping definition](administration/aep-mapping-definition.md)
+     + [Mapping activation](administration/aep-mapping-activation.md)
+     + [Triggering data ingestion through APIs](administration/aep-triggering-data-ingestion.md)
 + Working with APIs {#working-with-apis}  
   + About Campaign Standard APIs {#about-campaign-standard-apis}
        + [Overview](api/using/about-campaign-standard-apis.md)
