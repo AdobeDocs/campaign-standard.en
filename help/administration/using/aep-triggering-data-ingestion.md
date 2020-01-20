@@ -35,7 +35,7 @@ Before using the APIs, the data mapping must first have been configured and publ
 
 Once the data mapping is created, you must stop it from running so that you can trigger it from the APIs whenever you want. To do this, follow these steps:
 
-1. In Campaign Standard, go to the **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **!UICONTROL [Status of data export to platform]** menu.
+1. In Campaign Standard, go to the **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **!UICONTROL Status of data export to platform]** menu.
 
 1. Double-click the data mapping to open it, then click the **[!UICONTROL Stop]** button.
 
