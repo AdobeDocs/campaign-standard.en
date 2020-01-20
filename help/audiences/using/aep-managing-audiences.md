@@ -50,7 +50,7 @@ Audiences are created directly from the list of audiences. To do this, follow th
 
 1. Define the rules that will identify the profiles to be retrieved in your audience.
 
-    To do this, drag the desired attributes from the left pane into the workspace, define the corresponding rules then click the **!UICONTROL [Create Segment]** button to save the segment (see [Using the Unified Segment Builder](../../audiences/using/aep-using-segment-builder.md)).
+    To do this, drag the desired attributes from the left pane into the workspace, define the corresponding rules then click the **[!UICONTROL Create Segment]** button to save the segment (see [Using the Unified Segment Builder](../../audiences/using/aep-using-segment-builder.md)).
 
     ![](assets/aep_audiences_creation_query.png)
 

@@ -20,17 +20,17 @@ snippet: y
 >
 >Adobe Experience Platform features are currently in beta, and subject to frequent updates and modifications without notice.
 
-Once you have created an Adobe Experience Platform audience using the Unified Profile segment builder (see [this section](../../audiences/using/aep-managing-audiences.md)), you can use it in the same way as you would for a Campaign audience within workflows to personalize and send messages.
+Once you have created an [Adobe Experience Platform audience](help/audiences/using/aep-about-audience-destinations-service.md) using the Unified Profile segment builder, you can use it in the same way as you would for a Campaign audience within workflows to personalize and send messages.
 
-To activate an Adobe Experience Platform audience into your workflows, you must configure a **[!UICONTROL Read audience]** activity:
+To activate an Adobe Experience Platform audience into your workflows, follow these steps:
 
-1. Add a **[!UICONTROL Read audience]** activity into the workflow, then open it to configure it with an Experience Platform audience.
+1. Add a **[!UICONTROL Read audience]** activity into the workflow, then open it.
 
 1. Select the **[!UICONTROL Adobe Experience Platform]** option under **[!UICONTROL Type of audience]**, then add the desired audience.
 
     >[!NOTE]
     >
-    >Only Adobe Experience Platform audiences created in Audiences within Campaign are available for use in the activity.
+    >Only Adobe Experience Platform audiences created within Campaign are available for use in the activity.
 
     ![](assets/aep_wkf_readaudience.png)
 
