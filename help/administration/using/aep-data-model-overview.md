@@ -28,7 +28,7 @@ To access the XDM user interface, open Adobe Experience Platform. Navigate to th
 
 Consult the full [XDM Workspace documentation](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/xdm_system/xdm_system_in_experience_platform.md).
 
-![](aep_xdmworkspace.png)
+![](assets/aep_xdmworkspace.png)
 
 ## XDM API {#xdm-api}
 
