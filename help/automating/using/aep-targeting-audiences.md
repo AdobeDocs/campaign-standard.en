@@ -20,7 +20,7 @@ snippet: y
 >
 >Adobe Experience Platform features are currently in beta, and subject to frequent updates and modifications without notice.
 
-Once you have created an [Adobe Experience Platform audience](help/audiences/using/aep-about-audience-destinations-service.md) using the Unified Profile segment builder, you can use it in the same way as you would for a Campaign audience within workflows to personalize and send messages.
+Once you have created an [Adobe Experience Platform audience](../../audiences/using/aep-about-audience-destinations-service.md) using the Unified Profile segment builder, you can use it in the same way as you would for a Campaign audience within workflows to personalize and send messages.
 
 To activate an Adobe Experience Platform audience into your workflows, follow these steps:
 
