@@ -14,26 +14,27 @@ internal: n
 snippet: y
 ---
 
-# Whitelists{#whitelists}
+# IP Certification {#ip-certification}
 
-The main Internet service providers (ISPs) and Web mail providers manage whitelists from recognized email message senders. Adobe Campaign helps you with the process of getting certified on the best whitelists.
+IP Certification is a whitelisting and sending practices program that helps ensuring that emails are received without being blocked by antispam filters or other email blocking systems.
 
-An email whitelist is a list of email addresses or domain names from which an email blocking program will allow messages to be received.
+Currently two providers offer IP Certification: Return Path and Certified Senders Alliance.
 
-There are two types of whitelists:
-* Non-commercial whitelists
-* Commercial whitelists
+Certified senders are added to email whitelists which are used by global mailbox providers and email security companies. These commercial whitelists are based on a system that allows the sender to bypass antispam filters altogether or be assigned incremental points as they enter the system.
 
-## Non-commercial whitelists {#non-commercial-whitelists}
+The [Return Path Certification](https://www.validity.com/products/returnpath/certification/) program offers a number of benefits, including the following:
+* A measurable increase in inbox placement at top mailbox providers like Microsoft, AOL, Yahoo, Gmail, Comcast, Orange, Mail.ru, and more
+* Favorable reputation and treatment at critical filters like Cloudmark, SpamAssassin, and Cisco Ironport
+* A compliance team dedicated to 24/7 monitoring, providing with security alerts and working with you through the resolution of any compromises
+* Mailbox provider data delivering detailed information about KPIs, placement, and Certification performance
+* Simplified and faster IP warming, including stronger reputation and recognition when migrating or obtaining a new IP address
 
-To be accepted by these whitelists, the sender must pass a series of tests based on a technical verification (its email server must not be an open relay but should have a static IP) of the infrastructure or its activity (delivery frequency, volume, number of complaints).
+The [Certified Senders Alliance](https://certified-senders.org/certification-process/) Certification offers amongst other benefits:
+* Certification of senders of commercial emails who can comply with high quality standards
+* Improved delivery and deliverability of commercial emails to increase the inbox placement rate and reduce spam filtering
+* Protection from legal and financial risks by fully complying with legal standards
+* Protecting reputation by means of early warnings from the CSA Complaints Office and daily spam trap reports
 
-If the sender does not follow one of these rules, it may be deleted from the whitelist. In its **Adobe Campaign Email Deliverability** package, Adobe Campaign offers an accompanying expert consulting service for the certification process for non-commercial whitelists.
+ISPs are free to use these services and the number of ISPs can vary depending on the whitelist.
 
-## Commercial whitelists {#commercial-whitelists}
-
-Commercial whitelists are based on a system that allows the sender to bypass antispam filters altogether or be assigned incremental points as they enter the system. These paying whitelists (CPT or on an annual basis) are offered by systems such as Return Path Sender Score.
-
-ISPs are free to use these services and the number of ISPs can vary depending on the whitelist. A sender can therefore be more confident when sending his messages by having a delivery guarantee. Certain whitelists also offer to open images and activate links.
-
-Appearing in a whitelist is an undeniable asset for any email campaign. In its **Adobe Campaign Email Deliverability** package, Adobe Campaign offers a commercial whitelist certification service such as CSA and Return Path Sender Score.
+However, because more and more ISPs build their antispam filters based on each inbox owner's behavior rather than analyzing the message content itself, using IP Certification cannot be a guarantee of inbox placement or even delivery.
