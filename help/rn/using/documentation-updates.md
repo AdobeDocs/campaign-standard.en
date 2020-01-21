@@ -24,7 +24,9 @@ You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-n
 
 ## Documentation updates - January 2020 {#doc-updates-january-2020}
 
-The 'Creating a cross-channel delivery workflow' getting started guide has been updated and included into the core documentation. [Read more](../../automating/using/workflow-cross-channel-delivery.md)
+The Deliverability documentation has been updated with a new section on IP Certification. [Read more](../../sending/using/ip-certification.md)
+
+A new section describing how to create a cross-channel delivery workflow is available. [Read more](../../automating/using/workflow-cross-channel-delivery.md)
 
 The Indicator calculation section for Dynamic reports has been updated. [Read more](../../reporting/using/indicator-calculation.md)
 
