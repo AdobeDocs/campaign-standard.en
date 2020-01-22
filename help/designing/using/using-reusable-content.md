@@ -43,7 +43,7 @@ When editing content with the Email Designer, you can also create content templa
 
 **Related topics:**
 
-* Learn how to personalize content templates [in this video](https://helpx.adobe.com/campaign/kt/acs/using/acs-email_content_templates-feature-video-use.html).
+* Learn how to personalize content templates [in this video](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-content-templates.html).
 * For more information on editing content, see [About email content design](../../designing/using/designing-content-in-adobe-campaign.md).
 
 ### Creating a content template {#creating-a-content-template}

@@ -121,7 +121,7 @@ You can create product listings referencing one or more data collections in the 
 
 To add a list of abandoned products in a transactional message, follow the steps below.
 
-You can also watch a set of videos explaining the steps that are required to configure product listings in a transactional email. For more on this, see [this page](https://helpx.adobe.com/campaign/kt/acs/using/acs-product-listings-in-transactional-emails-feature-video-setup.html).
+You can also watch a set of videos explaining the steps that are required to configure product listings in a transactional email. For more on this, see [this page](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html).
 
 >[!NOTE]
 >

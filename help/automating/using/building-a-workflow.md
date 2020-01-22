@@ -54,7 +54,7 @@ Creating a marketing activity is detailed in the [Creating marketing activities]
 
 **Related topic:**
 
-[Creating a workflow](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-workflow-feature-video-use.html) video
+[Creating a workflow](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/building-a-workflow.html) video
 
 ## Adding and linking activities {#adding-and-linking-activities}
 

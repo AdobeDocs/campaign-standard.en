@@ -30,7 +30,7 @@ In this page, you will find information on each of these steps, as well as refer
 
 **Related topics:**
 
-* [Creating a landing page tutorial video](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-edit-landing-page-feature-video-use.html) video
+* [Creating a landing page tutorial video](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/communication-channels/landing-pages/landing-page-create-and-edit.html) video
 * [Creating a service](../../audiences/using/creating-a-service.md)
 * [Setting up a double opt-in process](setting-up-a-double-opt-in-process.md)
 
