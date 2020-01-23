@@ -16,7 +16,7 @@ snippet: y
 
 # How-to videos{#how-to-videos}
 
-Discover key capabilities by watching our [Campaign Standard how-to videos](https://helpx.adobe.com/campaign/kt/acs/index/acs-videos.html).
+Discover key capabilities by watching our [Campaign Standard how-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html).
 
 * [Creating an email](https://video.tv.adobe.com/v/23721): create an email from the home page in Adobe Campaign.
 * [Creating a landing page](https://video.tv.adobe.com/v/24093): create and edit a landing page in Adobe Campaign.
