@@ -54,7 +54,7 @@ Creating a marketing activity is detailed in the [Creating marketing activities]
 
 1. Once the workflow is ready to be configured, you can access additional options by clicking the **[!UICONTROL Edit properties]** button. You can, for example, define a specific time zone to use by default in all the workflow's activities. By default, the workflow's time zone is the one defined for the current Campaign operator.
 
-![](assets/workflow_properties.png)
+    ![](assets/workflow_properties.png)
 
 **Related topic:**
 

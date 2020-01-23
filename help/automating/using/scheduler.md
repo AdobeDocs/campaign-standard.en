@@ -26,7 +26,7 @@ The **[!UICONTROL Scheduler]** activity allows you to schedule when a workflow o
 
 The **[!UICONTROL Scheduler]** activity should be considered as a scheduled start. The activity positioning rules within the chart are the same as for the **[!UICONTROL Start]** activity. This activity must not have an inbound transition.
 
-When building your workflow, only use one **[!UICONTROL Scheduler]** activity per branch and remember to set a time zone. This allows you to start your workflow at a specific time zone, otherwise the workflow will run in the time zone defined in the workflow properties (see [Building a workflow](../../automating/using/building-a-workflow.md).
+When building your workflow, only use one **[!UICONTROL Scheduler]** activity per branch and remember to set a time zone. This allows you to start your workflow at a specific time zone, otherwise the workflow will run in the time zone defined in the workflow properties (see [Building a workflow](../../automating/using/building-a-workflow.md)).
 
 >[!CAUTION]
 >
