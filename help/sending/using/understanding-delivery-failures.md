@@ -90,13 +90,20 @@ A delivery can fail immediately (synchronous error), or later on, after it has b
 
 ## Bounce mail qualification {#bounce-mail-qualification}
 
-Delivery failure error messages (or "bounces") are picked up by the Adobe Campaign platform and qualified by the inMail process to enrich the list of email management rules.
+Synchronous delivery failure error messages (or "bounces") are picked up by the Adobe Campaign platform via webhooks. Asynchronous bounces are qualified by the inMail process to enrich the list of email management rules.
+<!--Delivery failure error messages (or "bounces") are picked up by the Adobe Campaign platform and qualified by the inMail process to enrich the list of email management rules.-->
 
 This list is available to administrators only and contains all the rules used by Adobe Campaign to qualify delivery failures.
 
 To access it, click the **[!UICONTROL Adobe Campaign]** logo, at the top left, then select **[!UICONTROL Administration > Channels > Email > Email processing rules]**.
 
 For more on this, refer to this [section](../../administration/using/configuring-email-channel.md#email-processing-rules).
+
+>[!NOTE]
+>
+>If you have upgraded to the Enhanced MTA, the bounce qualifications in the Campaign **[!UICONTROL Message qualification]** table are no longer used. The Enhanced MTA determines the bounce type and qualification, and sends back that information to Campaign.
+>
+>For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
 Bounces can have the following qualification statuses:
 

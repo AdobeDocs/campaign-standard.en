@@ -1,6 +1,6 @@
 ---
-title: Configuring email channel
-description: Learn how to configure the email channel.
+title: Configuring email channel in Adobe Campaign Standard
+description: Learn how to configure the email channel in Adobe Campaign Standard.
 page-status-flag: never-activated
 uuid: 9fddb655-b445-41f3-9b02-5d356fc88aa1
 contentOwner: sauviat
@@ -66,21 +66,29 @@ The account type must always be set to **[!UICONTROL Routing]**, the channel to 
 
 ## Email processing rules {#email-processing-rules}
 
+The **[!UICONTROL Email processing rules]** cen be accessed by Administrators through the **[!UICONTROL Administration > Channels > Email]** menu.
+
 These rules contain the list of character strings which can be returned by remote servers and which let you qualify the error (**Hard**, **Soft** or **Ignored**).
 
 The default rules are as follows:
 
-**Bounce mails**
+### Bounce mails {#bounce-mails}
 
 When an email fails, the remote message server returns a bounce error message to the address specified in the application settings. Adobe Campaign compares the content of each bounce mail to the strings in the list of rules, and then assigns it one of the three error types.
 
 The user can create his own rules.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >When importing a package and when updating data via the **Update for deliverability** workflow, the user-created rules are overwritten.
 
-**Managing email domains**
+>[!NOTE]
+>
+>If you have upgraded to the Enhanced MTA, the bounce qualifications in the Campaign **[!UICONTROL Message qualification]** table are no longer used. The Enhanced MTA determines the bounce type and qualification, and sends back that information to Campaign.
+>
+>For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+
+### Managing email domains {#managing-email-domains}
 
 The domain management rules are used to regulate the flow of outgoing emails for a specific domain. They sample the bounce messages and block sending where appropriate. The Adobe Campaign messaging server applies rules specific to the domains, and then the rules for the general case represented by an asterisk in the list of rules. Rules for the Hotmail and MSN domains are available by default in Adobe Campaign.
 
@@ -93,7 +101,19 @@ The **SMTP parameters** act as filters applied for a blocking rule.
 * You can choose whether or not to activate certain identification standards and encryption keys to check the domain name, such as **Sender ID**, **DomainKeys**, **DKIM**, and **S/MIME**.
 * **SMTP relay**: lets you configure the IP address and the port of a relay server for a particular domain.
 
-**MX Management**
+>[!NOTE]
+>
+>If you have upgraded to the Enhanced MTA, DKIM (DomainKeys Identified Mail) email authentication signing is done by the Enhanced MTA. DKIM-signing by the native Campaign MTA will be turned off within the **[!UICONTROL Domain management]** table as part of the Enhanced MTA upgrade.
+>
+>For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+
+### MX Management {mx-management}
+
+>[!NOTE]
+>
+>If you have upgraded to the Enhanced MTA, the Adobe Campaign **MX management** delivery throughput rules are no longer used. The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you’re sending emails.
+>
+>For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
 Each rule defines an address mask for the MX. Any MX whose name matches this mask is therefore eligible. The mask can contain "&#42;" and "?" generic characters.
 
@@ -124,7 +144,7 @@ The following parameters are available for each rule:
 * **Maximum number of messages**: maximum number of messages that can be sent by one connection. After this amount, the connection is closed and a new one is reopened. 
 * **[!UICONTROL Messages per hour]**: maximum number of messages that can be sent in one hour for an MX via a given address.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >* The delivery server (MTA) must be restarted if the parameters have been changed. 
 >* The modification or creation of management rules is for expert users only. 
@@ -148,7 +168,7 @@ On the top of the email parameter screen, identify the email using the **[!UICON
 
 ![](assets/delivery_options_2.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >The ID must be unique.
 
@@ -177,7 +197,7 @@ You can configure the format of emails to be sent. There are three options avail
 * **Use recipient preferences** (default mode): the message format is defined according to the data stored in the recipient profile and stored by default in the **Email format** field (@emailFormat). If a recipient wishes to receive messages in a certain format, this is the format sent. If the field is not completed, a multipart-alternative message is sent (see below).
 * **Let recipient mail client choose the most appropriate format (multipart-alternative)**: the message contains both formats: text and HTML. The format displayed upon reception depends on the configuration of the recipient's mail software (multipart-alternative).
 
-  >[!CAUTION]
+  >[!IMPORTANT]
   >
   >This option includes both versions of the message. It therefore impacts the delivery throughput, because the message size is greater.
 
@@ -194,7 +214,7 @@ This option is available for emails and email templates.
 
 If you enable the SMTP test mode option for an email template, all email messages created from this template will have this option enabled.
 
-  >[!CAUTION]
+  >[!IMPORTANT]
   >
   >When this option is enabled for an email, no messages will be sent until it is unchecked.
   >A warning will be displayed in the email or email template dashboard.
@@ -203,14 +223,19 @@ For more information on configuring SMTP, refer to the [List of email SMTP param
 
 ### Validity period parameters {#validity-period-parameters}
 
-The **[!UICONTROL Validity]** section contains the following parameters:
+The **[!UICONTROL Validity period]** section contains the following parameters:
+
+![](assets/delivery-validity-period.png)
 
 * **[!UICONTROL Explicitly set validity dates]**: when this box is unchecked, you must enter a duration in the **[!UICONTROL Delivery duration]** and **[!UICONTROL Resource validity limit]** fields. Check this box if you would like to define specific times and dates.
+
+  ![](assets/delivery-set-explicit-dates.png)
+
 * **[!UICONTROL Delivery duration]**: Adobe Campaign sends the messages beginning on the start date. This field allows you to specify the duration during which the messages can be sent.
 * **[!UICONTROL Resource validity duration]**: this field is used for uploaded resources, mainly for the mirror page and images. The resources on this page are valid for a limited time (to save disk space).
 * **[!UICONTROL Mirror page management]**: the mirror page is an HTML page accessible online via a web browser. Its content is identical to the email content. By default, the mirror page is generated if the link is inserted in the mail content. This field allows you to modify the way in which this page is generated:
 
-  >[!CAUTION]
+  >[!IMPORTANT]
   >
   >An HTML content must have been defined for the email for the mirror page to be created.
 
@@ -221,7 +246,9 @@ The **[!UICONTROL Validity]** section contains the following parameters:
 
 >[!NOTE]
 >
->The **[!UICONTROL Explicitly set validity dates]** and **[!UICONTROL Delivery duration]** parameters do not apply to transactional messages. For more on transactional messaging, see [this section](../../channels/using/about-transactional-messaging.md).
+>The **[!UICONTROL Delivery duration]** parameter does not apply to transactional messages. For more on transactional messaging, see [this section](../../channels/using/about-transactional-messaging.md).
+>
+>If you have upgraded to the Enhanced MTA, the **[!UICONTROL Delivery duration]** in your Campaign deliveries will be used only if set to 3.5 days or less. If you define a value higher than 3.5 days, it will not be taken into account. All impacts are detailed in the [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html) document.
 
 ### Tracking parameters {#tracking-parameters}
 
@@ -279,7 +306,7 @@ The **[!UICONTROL SMTP]** section contains the following parameters:
 * **[!UICONTROL Bounce mails]**: by default, bounce mails are received in the platform's error inbox (defined in the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email]** > **[!UICONTROL Configuration]** screen). To define a specific error address for an email, enter the address in the **[!UICONTROL Error address]** field.
 * **[!UICONTROL Additional SMTP headers]**: this option allows for additional SMTP headers to be added to your messages. The script entered in the **[!UICONTROL Headers]** field must reference one header per line, in the form of **name:value**. Values are encoded automatically if necessary.
 
-  >[!CAUTION]
+  >[!IMPORTANT]
   >
   >Adding a script for inserting additional SMTP headers is reserved for advanced users. The syntax of this script must comply with the requirements of this content type: no unused space, no empty line, etc.
 
