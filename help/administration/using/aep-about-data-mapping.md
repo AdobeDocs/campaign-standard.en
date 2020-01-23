@@ -24,7 +24,15 @@ Adobe Campaign Standard is available on Adobe Experience Platform - Data Mapping
 
 The mapping feature is intended for data engineers who understand Adobe Campaign Standard custom resources and have an understanding of how customer's overall data schema should be inside Adobe Experience Platform.
 
-The following sections describe the key-steps to perform a data mapping between Campaign Standard and Adobe Experience Platform. This starts witAh the creation of an XDM schema and a dataset.
+The following sections describe the key-steps to perform a data mapping between Campaign Standard and Adobe Experience Platform. This starts with the creation of an XDM schema and a dataset.
+
+>[!NOTE]
+>Once data mapping is configured and data is successfullly ingested into Adobe Experience Platform, you need to enable the dataset so that the data is included in the Real-time Customer Profile.
+>
+>This can be performed either through the APIs or the Adobe Experience Platform interface. For more information, refer to the dedicated documentations:
+>
+>* [Enable a dataset for Real-time Customer Profile](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/data_ingestion_tutorial/data_ingestion_tutorial.md)
+>* [Configure a dataset for Real-time Customer Profile and Identity Service using APIs](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/unified_profile_dataset_tutorial/unified_profile_dataset_api_tutorial.md)
 
 ## Key concepts {#key-concepts}
 
