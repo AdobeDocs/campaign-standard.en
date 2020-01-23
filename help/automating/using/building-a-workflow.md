@@ -52,6 +52,10 @@ Creating a marketing activity is detailed in the [Creating marketing activities]
 
 1. Confirm creating the activity and the dashboard for that activity will then be displayed. For more on this, refer to the [Workflow interface](../../automating/using/workflow-interface.md) section.
 
+1. Once the workflow is ready to be configured, you can access additional options by clicking the **[!UICONTROL Edit properties]** button. You can, for example, define a specific time zone to use by default in all the workflow's activities. By default, the workflow's time zone is the one defined for the current Campaign operator.
+
+![](assets/workflow_properties.png)
+
 **Related topic:**
 
 [Creating a workflow](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/building-a-workflow.html) video
@@ -93,7 +97,7 @@ Once your workflow activities are linked together, you can personalize the trans
 
 Moreover, **[!UICONTROL Targeting]** and **[!UICONTROL Data management (ETL)]** activities allows you to define **segment codes** for their outbound transitions. You can then create reports based on these segment codes in order to measure the efficiency of your maketing campaigns. For more on this, refer to [this section](../../reporting/using/creating-a-report-workflow-segment.md).
 
-**Workflow use cases:** 
+**Workflow use cases:**
 
 * [Use case: Create a once-a-week email delivery](../../automating/using/workflow-weekly-offer.md)
 * [Use case: Creating a delivery segmented on location](../../automating/using/workflow-segmentation-location.md)

@@ -251,4 +251,8 @@ The **[!UICONTROL Affinity]** field allows you to force a workflow or a workflow
 
 The **[!UICONTROL Time zone]** field allows you to select the time zone of the activity. Adobe Campaign allows you to manage the time differences between multiple countries on the same instance. The setting applied is configured when the instance is created.
 
+>[!NOTE]
+>
+>By default, if no time zone is selected, the activity will use the time zone defined in the workflow properties.
+
 The **Comment** field is a free field that allows you to add a note.
