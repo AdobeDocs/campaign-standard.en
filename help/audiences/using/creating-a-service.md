@@ -28,6 +28,12 @@ To configure a service:
 
    ![](assets/lp_service_parameters.png)
 
+1. Select the **[!UICONTROL Subscriptions with an expiration date]** option to set a validity duration for the subscription.
+(Once the expiration date is reached, the profiles who subscribed to the service will not be subscribed anymore??)
+OR rather: You can use this subscription date in a Segmentation activity to target profiles that are subscribed to a service that is still valid (or more generally speaking to filter on profiles who are subscribed to services that are not expired). The filter to use is Subscription date (subscriptionDate).
+
+   ![](assets/lp_service_expiration.png)
+
 1. Fill in the **[!UICONTROL Service label]** field. The service label is mandatory when using a custom confirmation message.
 
 1. Select a confirmation message template for subscriptions and unsubscriptions. Three modes are available:
