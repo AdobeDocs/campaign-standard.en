@@ -18,7 +18,7 @@ snippet: y
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform features are currently in beta, and subject to frequent updates and modifications without notice.
+>Audience Destinations service is currently in beta, which may be subject to frequent updates without notice. Customers are required to be hosted on Azure (currently in beta for North America only) to access these capabilities. Please reach out to Adobe Customer Care if you would like access.
 
 Once you have created an [Adobe Experience Platform audience](../../audiences/using/aep-about-audience-destinations-service.md) using the Unified Profile segment builder, you can use it in the same way as you would for a Campaign audience within workflows to personalize and send messages.
 
