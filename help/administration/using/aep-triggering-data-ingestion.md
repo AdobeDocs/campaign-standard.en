@@ -18,7 +18,7 @@ snippet: y
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform features are currently in beta, and subject to frequent updates and modifications without notice.
+>This capability is currently in beta, and subject to frequent updates and modifications without notice. Data mapping is based on Adobe Experience Platform and requires a specific configuration. Please reach out to Adobe Customer Care if you plan to implement this capability.
 
 Adobe Campaign Standard allows you to trigger the immediate ingestion of data mappings via APIs, and retrieve the status of your ingestion requests.
 
