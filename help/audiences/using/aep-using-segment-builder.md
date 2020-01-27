@@ -18,7 +18,7 @@ snippet: y
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform features are currently in beta, and subject to frequent updates and modifications without notice.
+>This capability is currently in beta, and subject to frequent updates and modifications without notice. Data mapping is based on Adobe Experience Platform and requires a specific configuration. Please reach out to Adobe Customer Care if you plan to implement this capability.
 
 The Unified Segment Builder allows you to build audiences by defining rules based on data coming from the Unified Profile Service. For detailed information on the Unified Segment Builder, refer to the [Segment Builder user guide](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md).
 

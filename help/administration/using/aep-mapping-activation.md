@@ -18,7 +18,7 @@ snippet: y
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform features are currently in beta, and subject to frequent updates and modifications without notice.
+>This capability is currently in beta, and subject to frequent updates and modifications without notice. Data mapping is based on Adobe Experience Platform and requires a specific configuration. Please reach out to Adobe Customer Care if you plan to implement this capability.
 
 When the mapping definition is completed, you can publish the mapping. After the deployment step, the data replication between Campaign Standard and Adobe Experience Platform is automatically started. At any time, you can stop the replication by clicking on the **[!UICONTROL Stop]** button.
 

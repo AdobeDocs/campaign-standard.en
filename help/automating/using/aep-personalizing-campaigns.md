@@ -18,9 +18,7 @@ snippet: y
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform features are currently in beta, and subject to frequent updates and modifications without notice.
-
->[!NOTE]
+>This capability is currently in beta, and subject to frequent updates and modifications without notice. Data mapping is based on Adobe Experience Platform and requires a specific configuration. Please reach out to Adobe Customer Care if you plan to implement this capability.
 >
 >**Push** and **in-app** channels are not available yet for personalization using contextual data from Adobe Experience Platform.
 
