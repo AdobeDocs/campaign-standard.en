@@ -18,7 +18,7 @@ snippet: y
 
 >[!IMPORTANT]
 >
->This capability is currently in beta, and subject to frequent updates and modifications without notice. Data mapping is based on Adobe Experience Platform and requires a specific configuration. Please reach out to Adobe Customer Care if you plan to implement this capability.
+>Audience Destinations service is currently in beta, which may be subject to frequent updates without notice. Customers are required to be hosted on Azure (currently in beta for North America only) to access these capabilities. Please reach out to Adobe Customer Care if you would like access.
 
 The **Audience Destinations service** allows you to build highly targeted audiences based on large, complex datasets and share these segments near real-time with other Adobe Experience Cloud solutions.
 
