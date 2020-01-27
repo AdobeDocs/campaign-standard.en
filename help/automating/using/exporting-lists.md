@@ -72,5 +72,4 @@ Adama;Henry;22/09/1992 02:00:00;henry.adama@mail.com;64120
 
 * [Roles](../../administration/using/list-of-roles.md)
 * [Customizing lists](../../start/using/customizing-lists.md)
-* [Configuring list video](https://helpx.adobe.com/campaign/kt/acs/using/acs-configuring-a-list-feature-video-setup.html) 
-
+* [Configuring list video](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/configure-a-list.html) 

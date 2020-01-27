@@ -16,9 +16,7 @@ snippet: y
 
 # About deliverability{#about-deliverability}
 
-Deliverability or how to measure the success of your campaigns reaching your recipients' inbox without bouncing, or being marked as spam.
-
-Adobe Campaign Deliverability is a paid service that comes available in different offers. Contact the deliverability or commercial service.
+Deliverability allows to measure the success of your campaigns reaching your recipients' inbox without bouncing, or being marked as spam.
 
 The deliverability rate depends on numerous factors, particularly:
 

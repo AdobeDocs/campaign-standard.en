@@ -22,9 +22,9 @@ snippet: y
 >
 >**Push** and **in-app** channels are not available yet for personalization using contextual data from Adobe Experience Platform.
 
-Once your workflow is configured with an Adobe Experience Platform audience, you can personalize messages with profile attributes that exist exclusively in the Experience Data Model (XDM).
+Once your workflow is configured with an [Adobe Experience Platform audience](../../audiences/using/aep-about-audience-destinations-service.md), you can personalize messages with profile attributes that exist exclusively in the Experience Data Model (XDM).
 
-To do this, you must add these attributes into the Read audience activity:
+To do this, you must add these attributes into the **[!UICONTROL Read audience]** activity:
 
 1. Open the **[!UICONTROL Read audience]** activity. In the **[!UICONTROL Additional data]** tab, click the **[!UICONTROL Create element]** button.
 
@@ -34,7 +34,7 @@ To do this, you must add these attributes into the Read audience activity:
 
     ![](assets/aep_wkf_readaudience_attributes.png)
 
-1. Select the desired XDM field from the available fieldslist, then click **[!UICONTROL Confirm]**.
+1. Select the desired XDM field from the list, then click **[!UICONTROL Confirm]**.
 
     ![](assets/aep_wkf_readaudience_perso1.png)
 
@@ -44,9 +44,9 @@ To do this, you must add these attributes into the Read audience activity:
 
 1. Repeat these steps for every XDM field that you want to add into your workflow.
 
->[!NOTE]
->
->You can add a maximum of 20 XDM fields in a **[!UICONTROL Read audience]** activity.
+    >[!NOTE]
+    >
+    >You can add a maximum of 20 XDM fields in a **[!UICONTROL Read audience]** activity.
 
 1. Once all the fields have been added, click the **[!UICONTROL Confirm]** button to save your changes. They will now be available to personalize your deliveries.
 

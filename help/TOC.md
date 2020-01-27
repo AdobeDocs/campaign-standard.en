@@ -151,7 +151,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Starting a new platform](sending/using/starting-new-platform.md)
        + [Controlling email content](sending/using/control-email-content.md)
        + [Improving your reputation](sending/using/improving-reputation.md)
-       + [Whitelists](sending/using/whitelists.md)
+       + [IP Certification](sending/using/ip-certification.md)
        + [Technical recommendations](sending/using/technical-recommendations.md)
        + [Monitoring deliverability](sending/using/monitor-deliverability.md)
        + [Troubleshooting](sending/using/troubleshooting.md)
