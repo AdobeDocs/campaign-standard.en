@@ -27,9 +27,9 @@ You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-n
 
 ### New capabilities included in the release
 
-XXX - [Read more](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa)
+XXX - [Read more](XXX)
 
-XXX - [Read more](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
+XXX - [Read more](XXX)
 
 ### Other documentation updates coming with the release
 

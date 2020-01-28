@@ -26,13 +26,14 @@ snippet: y
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>XXXX</strong><br /> </th> 
+   <th> <strong>ACS Data Service (public beta)</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>XXXX</p>
-    <p>For more information, refer to the <a href="../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status">XXXX</a>.</p>
+   <td> <p>The ACS Data Service is now integrated with Adobe Campaign Standard, allowing you to make your data available on Adobe Experience Platform by mapping XTK data (data ingested in Campaign) to Experience Data Model (XDM) data on Adobe Experience Platform. </p>
+    <p>For more information, refer to the <a href="XXX">detailed documentation</a> and the <a href="XXX">how-to video</a>.</p>
+    <p>Note: the ACS Data Service is currently in beta, which may be subject to frequent updates without notice. Customers are required to be hosted on Azure (currently in beta for North America only) to access these capabilities. Please reach out to Adobe Customer Care if you would like access.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -41,13 +42,13 @@ snippet: y
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>XXXX</strong><br /> </th> 
+   <th> <strong>Campaign Enhanced MTA for transactional messaging</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>XXXX</p>
-    <p>For more information, refer to the <a href="../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status">XXXX</a>.</p>
+   <td> <p>Transactional messaging can now be managed by the Adobe Campaign Enhanced MTA, which provides an upgraded sending infrastructure allowing for improved deliverability, throughput, and bounce handling.</p>
+    <p>For more information, refer to the <a href="https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html">detailed documentation</a>.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -56,13 +57,14 @@ snippet: y
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>XXXX</strong><br /> </th> 
+   <th> <strong>Audience Destinations service (public beta)</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>XXXX</p>
-    <p>For more information, refer to the <a href="../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status">XXXX</a>.</p>
+   <td> <p>The Audience Destinations service is now integrated with Adobe Campaign Standard, allowing you to build highly targeted audiences based on large, complex datasets and share these segments near real-time with other Adobe Experience Cloud solutions.</p>
+    <p>For more information, refer to the <a href="XXX">detailed documentation</a> and the <a href="XXX">how-to video</a>.</p>
+    <p>Note: the Audience Destinations service is currently in beta, which may be subject to frequent updates without notice. Customers are required to be hosted on Azure (currently in beta for North America only) to access these capabilities. Please reach out to Adobe Customer Care if you would like access.</p>
    </td> 
   </tr> 
  </tbody> 
