@@ -31,7 +31,7 @@ Thanks to its drag and drop menu and customizable visualizations, the dynamic re
 
 * [Report list](../../reporting/using/defining-the-report-period.md)
 * [Organizational units](../../administration/using/organizational-units.md)
-* [Dynamic reports](https://helpx.adobe.com/campaign/kt/acs/using/acs-creating-a-dynamic-report-feature-video-use.html) video
+* [Dynamic reports](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/reporting/creating-a-dynamic-report.html) video
 
 ## Accessing dynamic reports {#accessing-dynamic-reports}
 
