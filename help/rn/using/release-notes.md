@@ -72,7 +72,7 @@ snippet: y
 
 **Improvements**
 
-* Campaign Standard APIs now allow you to perform pagination when using large tables, by adding the _forcePagination=true parameter to your call UR. [Read more](https://docs.adobe.com/content/help/en/campaign-standard/using/working-with-apis/global-concepts/additional-operations/pagination.html)
+* Campaign Standard APIs now allow you to perform pagination when using large tables, by adding the `_forcePagination=true` parameter to your call UR. [Read more](https://docs.adobe.com/content/help/en/campaign-standard/using/working-with-apis/global-concepts/additional-operations/pagination.html)
 
 * The Delivery log ID (which is a unique identifier for each log) is now available in the Delivery logs and Tracking logs resources for all targeting dimensions. This enables to identify sending or tracking logs when exporting for example.
 
