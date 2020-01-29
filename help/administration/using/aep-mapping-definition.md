@@ -38,9 +38,11 @@ In this section, you will discover how to map a Campaign Standard field with an 
 1. Complete the mandatory fields and select:
 
     * a **targeting dimension**: this is the Campaign Standard schema to map
-    * a **dataset**: this is the data package associated to an XDM schema in Adobe Experience Platform
+    * a **dataset**: this is the data package associated to an XDM schema in Adobe Experience Platform.
 
 >[!NOTE]
+>
+>The dataset has to be enabled for Profile, for a batch to be ingested into Real-time Customer Profile or Identity Service.
 >
 >If the dataset you select is already being used in an existing data mapping, a warning appears to inform you that your data may be overwritten on Adobe Experience Platform. This may happen when there are some common recipients in datamappings using a same dataset.
 
