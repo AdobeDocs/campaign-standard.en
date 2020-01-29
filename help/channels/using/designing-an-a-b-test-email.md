@@ -85,7 +85,7 @@ Your email is now defined and sent. You can access its logs and reports to measu
 
 **Related topic**:
 
-[Creating an email](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-email-from-homepage-feature-video-use.html) video
+[Creating an email](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/create-email-from-homepage.html) video
 
 ## About A/B test indicators {#about-a-b-test-indicators}
 

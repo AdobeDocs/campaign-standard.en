@@ -24,13 +24,17 @@ You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-n
 
 ## Documentation updates - January 2020 {#doc-updates-january-2020}
 
-The 'Creating a cross-channel delivery workflow' getting started guide has been updated and included into the core documentation. [Read more](../../automating/using/workflow-cross-channel-delivery.md)
+The Deliverability documentation has been updated with a new section on IP Certification. [Read more](../../sending/using/ip-certification.md)
+
+A new section describing how to create a cross-channel delivery workflow is available. [Read more](../../automating/using/workflow-cross-channel-delivery.md)
 
 The Indicator calculation section for Dynamic reports has been updated. [Read more](../../reporting/using/indicator-calculation.md)
 
 A new page about general guidelines for Mobile deliveries in Adobe Campaign Standard has been added. [Read more](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
 
 The Working with Campaign and Experience Manager documentation has been updated with a new section **Tips on how to use Campaign-Experience Manager integration**. [Read more](../../integrating/using/integrating-with-experience-manager.md#tips-aem)
+
+The APIs documentation homepage has been improved with redirections to the different topics. [Read more](../../api/using/about-campaign-standard-apis.md)
 
 ## Documentation updates - December 2019 {#doc-updates-december-2019}
 
@@ -192,7 +196,7 @@ A new Release Planning article has been published to share upcoming release date
 
 The contextual help links available directly from Adobe Campaign have been updated.
 
-The following [page](https://helpx.adobe.com/campaign/kt/acs/index/acs-videos.html) becomes the official Videos page for Adobe Campaign Standard.
+The following [page](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) becomes the official Videos page for Adobe Campaign Standard.
 
 Added a section on data retention including the default retention values for standard tables. [Read more](../../administration/using/data-retention.md)
 
@@ -332,7 +336,7 @@ The Configuring a mobile application using SDK V4 section has been moved [here](
 
 The Configuring a mobile application using Adobe Experience Platform SDKs section has been moved [here](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
 
-Videos have been updated and moved [here](https://helpx.adobe.com/campaign/kt/acs/index/acs-videos.html).
+Videos have been updated and moved [here](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html).
 
 Updated the Type of users section. [Read more](../../administration/using/users-management.md)
 
@@ -680,7 +684,7 @@ Recurring push notifications - [Read more](../../automating/using/push-notificat
 
 Amazon Simple Storage Service (S3) connector - [Read more](../../administration/using/external-accounts.md)
 
-Dreamweaver integration live - [Read more](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html)
+Dreamweaver integration live - [Read more](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
 ### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-14}
 
@@ -704,7 +708,7 @@ Integration with Adobe Analytics for Mobile (Point of Interest) updated, includi
 
 Dynamic reporting - [Read more](../../reporting/using/about-dynamic-reports.md)
 
-Dreamweaver integration (Labs) - [Read more](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html)
+Dreamweaver integration (Labs) - [Read more](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
 Manual send time optimization - [Read more](../../sending/using/optimizing-the-sending-time.md)
 

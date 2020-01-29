@@ -8,12 +8,12 @@ user-guide-title: Adobe Campaign Standard Help
 # Adobe Campaign Standard Help {#using}
 
 + [Product documentation](campaign-standard-home.md)
++ [Latest Updates](rn/using/documentation-updates.md)
 + Release Notes {#release-notes}
-  + [Release Notes](rn/using/release-notes.md)
-  + [Release Notes 2018](rn/using/release-notes-2018.md)
-  + [Release Notes 2017](rn/using/release-notes-2017.md)
-  + [Release Notes 2015-2016](rn/using/release-notes-2015-2016.md)
-  + [Documentation Updates](rn/using/documentation-updates.md)
+  + [Latest Release](rn/using/release-notes.md)
+  + Previous Releases {#previous-releases}
+    + [Release Notes 2018](rn/using/release-notes-2018.md)
+    + [Release Notes 2017](rn/using/release-notes-2017.md)
 + Getting started {#getting-started}
   + About Adobe Campaign {#about-adobe-campaign}
        + [Campaign orchestration](start/using/campaign-orchestration.md)
@@ -147,7 +147,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Starting a new platform](sending/using/starting-new-platform.md)
        + [Controlling email content](sending/using/control-email-content.md)
        + [Improving your reputation](sending/using/improving-reputation.md)
-       + [Whitelists](sending/using/whitelists.md)
+       + [IP Certification](sending/using/ip-certification.md)
        + [Technical recommendations](sending/using/technical-recommendations.md)
        + [Monitoring deliverability](sending/using/monitor-deliverability.md)
        + [Troubleshooting](sending/using/troubleshooting.md)

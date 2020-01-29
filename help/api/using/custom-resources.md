@@ -16,7 +16,7 @@ snippet: y
 
 # Custom resources {#custom-resources}
 
-Adobe Campaign comes with a pre-defined data model, where data is defined through different resources. You can enrich the data model that is provided by extending the resources to add your own custom fields, such as purchase or product tables.
+Adobe Campaign comes with a pre-defined data model, where data is defined through different resources. You can enrich the data model that is provided by extending the resources to add your own custom fields or custom tables, such as purchase or product tables.
 
 Custom resources are accessible through APIs using the **/profileAndServicesExt** endpoint, and the custom resource name.
 
