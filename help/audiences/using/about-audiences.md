@@ -30,4 +30,3 @@ You can manipulate different audience types in Adobe Campaign. The type of an au
 * **[!UICONTROL Experience Cloud]**: indicates that the audience was imported from the Adobe Experience Cloud. This option is only available if the audience sharing functionality has been configured. For more information, see [Importing an audience from the Adobe Experience Cloud](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md#importing-an-audience).
 
 ![](assets/audience_type_selection.png)
-

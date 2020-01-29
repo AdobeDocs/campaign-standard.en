@@ -44,7 +44,7 @@ To activate an Adobe Experience Platform audience into your workflows, follow th
 
     ![](assets/aep_wkf_readaudience_namespace.png)
 
-    This list contains all the Experience Data Model (XDM) mappings that have been configured on your instance. For more on Data Mapping, refer to [this dedicated document](https://helpx.adobe.com/campaign/kb/aep-acs-datamapping.html).
+    This list contains all the Experience Data Model (XDM) mappings that have been configured on your instance. For more on Adobe Experience Platform Data Connector, refer to [this dedicated document](../../administration/using/aep-about-data-connector.md).
 
     ![](assets/aep_wkf_readaudience_namespace2.png)
 
