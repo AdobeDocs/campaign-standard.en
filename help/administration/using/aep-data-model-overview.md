@@ -18,7 +18,7 @@ snippet: y
 
 >[!IMPORTANT]
 >
->This capability is currently in beta, and subject to frequent updates and modifications without notice. Data mapping is based on Adobe Experience Platform and requires a specific configuration. Please reach out to Adobe Customer Care if you plan to implement this capability.
+>Campaign Standard Data service is currently in beta, which may be subject to frequent updates without notice. Customers are required to be hosted on Azure (currently in beta for North America only) to access these capabilities. Please reach out to Adobe Customer Care if you would like access.
 
 Experience Data Model (XDM) is a standard set of data schemas into which data might be ingested for use with Adobe Experience Platform solutions and products.
 

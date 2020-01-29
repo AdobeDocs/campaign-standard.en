@@ -18,7 +18,7 @@ snippet: y
 
 >[!IMPORTANT]
 >
->This capability is currently in beta, and subject to frequent updates and modifications without notice. Data mapping is based on Adobe Experience Platform and requires a specific configuration. Please reach out to Adobe Customer Care if you plan to implement this capability.
+>Campaign Standard Data service is currently in beta, which may be subject to frequent updates without notice. Customers are required to be hosted on Azure (currently in beta for North America only) to access these capabilities. Please reach out to Adobe Customer Care if you would like access.
 
 In this section, you will discover how to map a Campaign Standard field with an an Experience Data Model (XDM) field.
 
@@ -38,9 +38,11 @@ In this section, you will discover how to map a Campaign Standard field with an 
 1. Complete the mandatory fields and select:
 
     * a **targeting dimension**: this is the Campaign Standard schema to map
-    * a **dataset**: this is the data package associated to an XDM schema in Adobe Experience Platform
+    * a **dataset**: this is the data package associated to an XDM schema in Adobe Experience Platform.
 
 >[!NOTE]
+>
+>For a batch to be ingested into Real-time Customer Profile or Identity Service, the dataset has to be [enabled for Real-time Customer Profile](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/data_ingestion_tutorial/data_ingestion_tutorial.md).
 >
 >If the dataset you select is already being used in an existing data mapping, a warning appears to inform you that your data may be overwritten on Adobe Experience Platform. This may happen when there are some common recipients in datamappings using a same dataset.
 
