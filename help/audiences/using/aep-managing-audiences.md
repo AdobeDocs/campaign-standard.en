@@ -18,23 +18,25 @@ snippet: y
 
 >[!IMPORTANT]
 >
->Audience Destinations service is currently in beta, which may be subject to frequent updates without notice. Customers are required to be hosted on Azure (currently in beta for North America only) to access these capabilities. Please reach out to Adobe Customer Care if you would like access.
+>Audience Destinations Service is currently in beta, which may be subject to frequent updates without notice. Customers are required to be hosted on Azure (currently in beta for North America only) to access these capabilities. Please reach out to Adobe Customer Care if you would like access.
 
 ## Accessing audiences
 
-Adobe Experience Platform audiences are available from the **[!UICONTROL Audiences]** card on Campaign Standard home page, or from the **[!UICONTROL Audiences]** link. You can duplicate, delete or edit them directly from this list.
+To access Adobe Experience Platform audiences, select the **[!UICONTROL Audiences]** card on Campaign Standard home page, or the **[!UICONTROL Audiences]** link, then select **[!UICONTROL Adobe Experience Platform]**.
 
-They can be identified by the **[!UICONTROL Data Services Query]** label in the **[!UICONTROL Type]** column.
+![](assets/aep_audiences_access.png)
+
+all created Adobe Experience Platform audiences display. A search bar and filters are available to help you find the desired audience.
 
 ![](assets/aep_audiences_list.png)
 
 ## Creating audiences
 
-Audiences are created directly from the list of audiences. To do this, follow these steps:
+Audiences are created directly from the list of Adobe Experience Platform audiences. To do this, follow these steps:
 
-1. Go to the list of audiences, then click the **[!UICONTROL Create]** button.
+1. Go to the list of audiences, then click the **[!UICONTROL New audience]** button.
 
-    ![](assets/aep_audiences_creation_create_button.png)
+    ![](assets/aep_audiences_creation_create.png)
 
 1. Choose the **[!UICONTROL Adobe Experience Platform]** segment builder environment.
 
@@ -42,33 +44,23 @@ Audiences are created directly from the list of audiences. To do this, follow th
 
 1. The Unified Segment Builder should now be displayed in your workspace. It allows you to build a segment using data from Adobe Experience Platform that will eventually be used to create your audience.
 
-    In order to successfully create a segment, you must specify the desired **[!UICONTROL merge policy]**, name the segment in the right pane and enter a description (optional).
-
-    For more information on merge policies, refer to the dedicated section from the [Segment Builder user guide](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md)
+1. Name the segment in the right pane and enter a description (optional).
 
     ![](assets/aep_audiences_creation_edit_name.png)
 
+1. In order to successfully create a segment, you must select a **merge policy** that matches your marketing purpose for this segment.
+
+    In the settings pane, a Platform default merge policy is selected. For more information on merge policies, refer to the dedicated section from the [Segment Builder user guide](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md)
+
+    ![](assets/aep_audiences_mergepolicy.png)
+
 1. Define the rules that will identify the profiles to be retrieved in your audience.
 
-    To do this, drag the desired attributes from the left pane into the workspace, define the corresponding rules then click the **[!UICONTROL Create Segment]** button to save the segment (see [Using the Unified Segment Builder](../../audiences/using/aep-using-segment-builder.md)).
+    To do this, drag the desired attributes and/or events from the left pane into the workspace, define the corresponding rules then click the **[!UICONTROL Create Segment]** button to save the segment (see [Using the Unified Segment Builder](../../audiences/using/aep-using-segment-builder.md)).
 
     ![](assets/aep_audiences_creation_query.png)
 
 The audience is now ready to be activated, you can use it as a target for your campaigns (see [Targeting Adobe Experience Platform audiences](../../automating/using/aep-targeting-audiences.md)).
-
-## Deleting and duplicating audiences
-
-To delete or duplicate an audience, hover over it then click the **[!UICONTROL Delete element]** or **[!UICONTROL Duplicate element]** button.
-
-![](assets/aep_audiences_delete_duplicate.png)
-
-Once duplicated, a copy of the audience is created.
-
-![](assets/aep_audiences_duplicate.png)
-
-The copy of the audience has the same segment definition as the duplicated audience. The Segment name field is therefore identical for both audiences. If you intend to modify the segment's rules, thereby essentially creating a new segment, we strongly recommend changing its name.
-
-![](assets/aep_audiences_duplicate_rename.png)
 
 ## Editing audiences
 

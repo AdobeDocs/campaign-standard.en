@@ -24,11 +24,11 @@ The **Audience Destinations service** allows you to build highly targeted audien
 
 The [Adobe Experience Platform](https://www.adobe.io/apis/experienceplatform/home.html) consolidates profile, behavioral and multi-entity data to help you build a 360 view of your customer, enabling you to effectively manage your customer experiences.
 
-Campaign Standard allows you to work with Adobe Experience Platform, in order to identify collections of profiles, known as **Audiences**. They are created by building **segments**, which are rules including profile attributes and event data originating from Adobe Experience Platform.
-
-Global concepts on Unified Profile & Segmentation Services can be referenced in [these dedicated documents](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation.html).
+Campaign Standard allows you to work with Adobe Experience Platform, in order to identify collections of profiles, known as **Audiences**. They are created by building **segments**, which are rules including profile attributes and event data originating from Adobe Experience Platform. Global concepts on Unified Profile & Segmentation Services can be referenced in [these dedicated documents](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation.html).
 
 Once an audience has been created, you can activate it for a delivery in [Campaign Standard workflows](../../automating/using/aep-targeting-audiences.md). Additionally, you can use contextual data from the Adobe Experience Platform to [personalize](../../automating/using/aep-personalizing-campaigns.md) and add dynamic content to your campaigns, if desired.
+
+Demo videos are also available in [this page](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/leveraging-aep-audiences-overview.html)
 
 Terms used in these sections:
 

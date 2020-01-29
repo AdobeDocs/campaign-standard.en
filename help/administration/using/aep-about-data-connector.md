@@ -1,5 +1,5 @@
 ---
-title: About Data Mapping
+title: About Adobe Experience Platform Data Connector
 description: Manage XDM schemas to make your Campaign Standard data available on Adobe Experience Platform.
 page-status-flag: never-activated
 uuid: 867b1c4b-4c79-4c52-9d0a-ef71993e50a2
@@ -14,20 +14,22 @@ internal: n
 snippet: y
 ---
 
-# About Data Mapping {#about-data-mapping}
+# About Adobe Experience Platform Data Connector {#about-aep-data-connector}
 
 >[!IMPORTANT]
 >
->This capability is currently in beta, and subject to frequent updates and modifications without notice. Data mapping is based on Adobe Experience Platform and requires a specific configuration. Please reach out to Adobe Customer Care if you plan to implement this capability.
+>Adobe Experience Platform Data Connector is currently in beta, which may be subject to frequent updates without notice. Customers are required to be hosted on Azure (currently in beta for North America only) to access these capabilities. Please reach out to Adobe Customer Care if you would like access.
 
-Adobe Campaign Standard is available on Adobe Experience Platform - Data Mapping for all customers with an access to Adobe Experience Platform. The Data Mapping features help existing customers to make their data available on Adobe Experience Platform by mapping XTK data (data ingested in Campaign) to Experience Data Model (XDM) data on Adobe Experience Platform.
+Adobe Experience Platform Data Connector helps existing customers to make their data available on Adobe Experience Platform by mapping XTK data (data ingested in Campaign) to Experience Data Model (XDM) data on Adobe Experience Platform.
 
-The mapping feature is intended for data engineers who understand Adobe Campaign Standard custom resources and have an understanding of how customer's overall data schema should be inside Adobe Experience Platform.
+Note that the connector is **uni-directional** and sends the data from Adobe Campaign Standard to Adobe Experience Platform. The data are never sent from the Adobe Experience Platform to Adobe Campaign Standard.
+
+Adobe Experience Platform Data Connector is intended for **data engineers** who understand Adobe Campaign Standard custom resources and have an understanding of how customer's overall data schema should be inside Adobe Experience Platform.
 
 The following sections describe the key-steps to perform a data mapping between Campaign Standard and Adobe Experience Platform. This starts with the creation of an XDM schema and a dataset.
 
 >[!NOTE]
->Once data mapping is configured and data is successfullly ingested into Adobe Experience Platform, you need to enable the dataset so that the data is included in the Real-time Customer Profile.
+>Once Adobe Experience Platform Data Connector is configured and data is successfullly ingested into Adobe Experience Platform, you need to enable the dataset so that the data is included in the Real-time Customer Profile.
 >
 >This can be performed either through the APIs or the Adobe Experience Platform interface. For more information, refer to the dedicated documentations:
 >
@@ -38,15 +40,17 @@ The following sections describe the key-steps to perform a data mapping between 
 
 * Out of the Box Mapping is only available for fields which are provided in Campaign Standard by default. For ingesting all custom fields and resources, each customer needs to define his own mapping.
 
-* This process is single tenant and it needs to be deployed on each Adobe Campaign Standard instance​.
+* Adobe Experience Platform Data Connector will push profile data through the platform at regular intervals.​ The interval duration is 15 mn. This value is not modifiable.
 
-* The service will push profile data through the platform at regular intervals.​ The interval duration is 15 mn. This value is not modifiable.
+    >[!NOTE]
+    >
+    >This duration can be modified using [Adobe Experience Platform APIs](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/authenticate_to_acp_tutorial/authenticate_to_acp_tutorial.md).
 
 * Data engineer can publish, modify and pause the mapping from Campaign to Adobe Experience Platform.
-* *Any targeting dimension can be mapped. The recommendation is to have one single mapping for all fields in a single targeting dimension.
+
+* Any targeting dimension can be mapped. The recommendation is to have one single mapping for all fields in a single targeting dimension.
 
 * All profile updates including channel opt-ins / opt-outs are part of the batch update.
-The service is uni-directional and sends the data from Adobe Campaign Standard to Adobe Experience Platform. The data are never sent from the Adobe Experience Platform to Adobe Campaign Standard.
 
 * Any Adobe Campaign Standard or XDM schema changes needs to be manually remapped.​
 
@@ -56,11 +60,9 @@ The service is uni-directional and sends the data from Adobe Campaign Standard t
 
 * The out-of-the-box transfer of subscription events is not supported. To transfer subscription events, you can create corresponding XDM and dataset on Adobe Experience Platform, then configure a custom data mapping for these data.
 
-* Existing experience events cannot be ingested into Adobe Experience Platform, but ongoing generated experience events will be streamed to Adobe Experience Platform.Data engineer cannot manually stop/pause ingestion of tracking log and broadlog data to Adobe Experience Platform.
+* Regarding privacy requests, customers need to place separate requests for Campaign core privacy service and Adobe Experience Platform for both access and delete actions.
 
-* Regarding GDPR Requests, customers need to place separate requests for Campaign Standard and Adobe Experience Platform for both access and delete actions.
-
-* For each XDM field, the DULE labeling needs to be done in Adobe Experience Platform. This is customer responsibility to apply DULE labels. 
+* For each XDM field, the DULE labeling needs to be done in Adobe Experience Platform. This is customer responsibility to apply DULE labels.
 
 * Restrictions on marketing actions become applicable only after DULE labels are applied in Adobe Experience Platform. Before that, all data are available for all types of marketing actions.
 

@@ -26,7 +26,7 @@ This section presents global concepts when building a segment. For detailed info
 
 The Unified Segment Builder interface is composed as follows:
 
-* The left pane provides all fields (e.g., attributes, events and segments) available to build the segment by dragging and dropping desired fields into the segment builder workspace.
+* The left pane provides all attributes, events and audiences available to build the segment by dragging and dropping desired fields into the segment builder workspace.
 * The center area provides a workspace to build the segment by defining and combining rules from the available fields.
 * The header and right pane displays the segment's properties (i.e., name, description, and estimated qualified profiles for the segment).
 
@@ -36,9 +36,17 @@ The Unified Segment Builder interface is composed as follows:
 
 To build a segment, follow these steps:
 
-1. Name the segment, enter a description (optional), then specify the desired **[!UICONTROL merge policy ]** (this can be done after the rules have been built).
+ The Unified Segment Builder should now be displayed in your workspace. It allows you to build a segment using data from Adobe Experience Platform that will eventually be used to create your audience.
 
-    ![](assets/aep_audiences_editdetails.png)
+1. Name the segment, then enter a description (optional).
+
+    ![](assets/aep_audiences_creation_edit_name.png)
+
+1. Make sure that the desired merge policy is selected in the settings pane.
+
+    For more information on merge policies, refer to the dedicated section from the [Segment Builder user guide](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md)
+
+    ![](assets/aep_audiences_mergepolicy.png)
 
 1. Look for the desired fields in the left pane, and drag them into the center workspace.
 
@@ -52,7 +60,7 @@ To build a segment, follow these steps:
 
 ## Finding the right fields for a segment
 
-The left pane lists fields (i.e., attributes, events and segments) that are available for use to construct rules.
+The left pane lists all attributes, events and audiences that are available for use to construct rules.
 
 The fields listed are attributes captured by your company and can be made available through the [Experience Data Model (XDM) System](https://www.adobe.io/apis/experienceplatform/home/xdm.html).
 
@@ -66,7 +74,7 @@ Fields are organized into tabs:
 
     ![](assets/aep_audiences_eventstab.png)
 
-By default, the Unified Segment builder displays fields for which data is present. To display the full schema, including fields for which data is not present, unselect the option from the settings.
+By default, the Unified Segment builder displays fields for which data is present. To display the full schema, including fields for which data is not present, enable the **[!UICONTROL Show full XDM schema]** option from the settings.
 
 ![](assets/aep_audiences_populatedfields.png)
 
