@@ -22,7 +22,6 @@ This page lists all the new features and documentation updates for each release 
 
 You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-notes.md).
 
-
 ## Release 20.1 - February 2019 {#release-20-1---february-2020}
 
 ### New capabilities included in the release
