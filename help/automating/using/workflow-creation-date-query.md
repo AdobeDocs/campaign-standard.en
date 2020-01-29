@@ -34,7 +34,7 @@ You can send an offer via email on the anniversary of the customer's profile cre
 
 >[!NOTE]
 >
->To start your workflow at a specific time zone, in the **[!UICONTROL Execution options]** tab, set up the time zone for your scheduler in the **[!UICONTROL Time zone]** field.
+>To start your workflow at a specific time zone, in the **[!UICONTROL Execution options]** tab, set up the time zone for your scheduler in the **[!UICONTROL Time zone]** field. By default, the selected time zone is the one defined in the workflow properties (see [Building a workflow](../../automating/using/building-a-workflow.md)).
 
 ![](assets/time_zone.png)
 
