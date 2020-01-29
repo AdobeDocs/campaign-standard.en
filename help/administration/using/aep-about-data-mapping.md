@@ -38,12 +38,15 @@ The following sections describe the key-steps to perform a data mapping between 
 
 * Out of the Box Mapping is only available for fields which are provided in Campaign Standard by default. For ingesting all custom fields and resources, each customer needs to define his own mapping.
 
-* This process is single tenant and it needs to be deployed on each Adobe Campaign Standard instance​.
-
 * The service will push profile data through the platform at regular intervals.​ The interval duration is 15 mn. This value is not modifiable.
 
+    >[!NOTE]
+    >
+    >This duration can be modified using [Adobe Experience Platform APIs](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/authenticate_to_acp_tutorial/authenticate_to_acp_tutorial.md).
+
 * Data engineer can publish, modify and pause the mapping from Campaign to Adobe Experience Platform.
-* *Any targeting dimension can be mapped. The recommendation is to have one single mapping for all fields in a single targeting dimension.
+
+* Any targeting dimension can be mapped. The recommendation is to have one single mapping for all fields in a single targeting dimension.
 
 * All profile updates including channel opt-ins / opt-outs are part of the batch update.
 The service is uni-directional and sends the data from Adobe Campaign Standard to Adobe Experience Platform. The data are never sent from the Adobe Experience Platform to Adobe Campaign Standard.
@@ -56,11 +59,9 @@ The service is uni-directional and sends the data from Adobe Campaign Standard t
 
 * The out-of-the-box transfer of subscription events is not supported. To transfer subscription events, you can create corresponding XDM and dataset on Adobe Experience Platform, then configure a custom data mapping for these data.
 
-* Existing experience events cannot be ingested into Adobe Experience Platform, but ongoing generated experience events will be streamed to Adobe Experience Platform.Data engineer cannot manually stop/pause ingestion of tracking log and broadlog data to Adobe Experience Platform.
+* Regarding privacy requests, customers need to place separate requests for Campaign core privacy service and Adobe Experience Platform for both access and delete actions.
 
-* Regarding GDPR Requests, customers need to place separate requests for Campaign Standard and Adobe Experience Platform for both access and delete actions.
-
-* For each XDM field, the DULE labeling needs to be done in Adobe Experience Platform. This is customer responsibility to apply DULE labels. 
+* For each XDM field, the DULE labeling needs to be done in Adobe Experience Platform. This is customer responsibility to apply DULE labels.
 
 * Restrictions on marketing actions become applicable only after DULE labels are applied in Adobe Experience Platform. Before that, all data are available for all types of marketing actions.
 

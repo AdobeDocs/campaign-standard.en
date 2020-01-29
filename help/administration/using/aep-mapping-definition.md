@@ -42,7 +42,7 @@ In this section, you will discover how to map a Campaign Standard field with an 
 
 >[!NOTE]
 >
->The dataset has to be enabled for Profile, for a batch to be ingested into Real-time Customer Profile or Identity Service.
+>For a batch to be ingested into Real-time Customer Profile or Identity Service, the dataset has to be [enabled for Real-time Customer Profile](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/data_ingestion_tutorial/data_ingestion_tutorial.md).
 >
 >If the dataset you select is already being used in an existing data mapping, a warning appears to inform you that your data may be overwritten on Adobe Experience Platform. This may happen when there are some common recipients in datamappings using a same dataset.
 
