@@ -28,10 +28,6 @@ To activate an Adobe Experience Platform audience into your workflows, follow th
 
 1. Select the **[!UICONTROL Adobe Experience Platform]** option under **[!UICONTROL Type of audience]**, then add the desired audience.
 
-    >[!NOTE]
-    >
-    >Only Adobe Experience Platform audiences created within Campaign are available for use in the activity.
-
     ![](assets/aep_wkf_readaudience.png)
 
 1. (Optional) Once the audience is selected, you can click the eye button to review and/or edit the segment definition (make sure to save your changes again).
