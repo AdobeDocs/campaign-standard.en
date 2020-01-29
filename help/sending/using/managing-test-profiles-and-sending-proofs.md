@@ -67,7 +67,7 @@ The test profile will then be added to the list of profiles.
 
 **Related topic:**
 
-[Creating a test profile](https://helpx.adobe.com/campaign/kt/acs/using/acs-test-profiles-feature-video-use.html) video
+[Creating a test profile](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/test-profiles.html) video
 
 ### Editing test profiles {#editing-test-profiles}
 
@@ -122,7 +122,7 @@ You have to send as many proofs as necessary until you have finalized the conten
 
 **Related topic:**
 
-[Sending a test, preparing and sending an email](https://helpx.adobe.com/campaign/kt/acs/using/acs-sending-test-preparing-sending-email-feature-video-use.html) video
+[Sending a test, preparing and sending an email](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/sending-test-preparing-sending-email.html) video
 
 ## Using traps {#using-traps}
 
