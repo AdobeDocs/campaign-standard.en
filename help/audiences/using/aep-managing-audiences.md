@@ -26,7 +26,7 @@ To access Adobe Experience Platform audiences, select the **[!UICONTROL Audience
 
 ![](assets/aep_audiences_access.png)
 
-all created Adobe Experience Platform audiences display. A search bar and filters are available to help you find the desired audience.
+All created Adobe Experience Platform audiences display. A search bar and filters are available to help you find the desired audience.
 
 ![](assets/aep_audiences_list.png)
 
@@ -37,10 +37,6 @@ Audiences are created directly from the list of Adobe Experience Platform audien
 1. Go to the list of audiences, then click the **[!UICONTROL New audience]** button.
 
     ![](assets/aep_audiences_creation_create.png)
-
-1. Choose the **[!UICONTROL Adobe Experience Platform]** segment builder environment.
-
-    ![](assets/aep_audiences_creation_type_selection.png)
 
 1. The Unified Segment Builder should now be displayed in your workspace. It allows you to build a segment using data from Adobe Experience Platform that will eventually be used to create your audience.
 
@@ -56,7 +52,7 @@ Audiences are created directly from the list of Adobe Experience Platform audien
 
 1. Define the rules that will identify the profiles to be retrieved in your audience.
 
-    To do this, drag the desired attributes and/or events from the left pane into the workspace, define the corresponding rules then click the **[!UICONTROL Create Segment]** button to save the segment (see [Using the Unified Segment Builder](../../audiences/using/aep-using-segment-builder.md)).
+    To do this, drag the desired attributes and/or events from the left pane into the workspace, define the corresponding rules then click the **[!UICONTROL Create segment]** button to save the segment (see [Using the Unified Segment Builder](../../audiences/using/aep-using-segment-builder.md)).
 
     ![](assets/aep_audiences_creation_query.png)
 
@@ -66,6 +62,6 @@ The audience is now ready to be activated, you can use it as a target for your c
 
 To edit an audience, open it and modify the rules as needed within the Unified Segment Builder interface (see [Using the Unified Segment Builder](../../audiences/using/aep-using-segment-builder.md)).
 
-Once the changes have been completed, click the **[!UICONTROL Save Segment]** button to update your audience.
+Once the changes have been completed, click the **[!UICONTROL Save segment]** button to update your audience.
 
 ![](assets/aep_audiences_editing.png)
