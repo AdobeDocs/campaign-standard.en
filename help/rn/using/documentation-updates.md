@@ -22,6 +22,20 @@ This page lists all the new features and documentation updates for each release 
 
 You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-notes.md).
 
+## Release 20.1 - February 2019 {#release-20-1---february-2020}
+
+### New capabilities included in the release
+
+Transactional messaging managed by the Adobe Campaign Enhanced MTA - [Read More](../../channels/using/about-transactional-messaging.md)
+
+### Other documentation updates coming with the release
+
+A new section describing the warnings that can be displayed in a message dashboard is available. [Read more](../../channels/using/message-dashboard.md#warnings)
+
+The Adobe Campaign Enhanced MTA documentation is now available. [Read More](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
+
+Notes have been added to indicate that the application server and mirror page server URLs must be secure for the landing page and mirror page previews to be displayed from the Campaign user interface. [Read more](../../administration/using/branding.md#configuring-and-using-brands)
+
 ## Documentation updates - January 2020 {#doc-updates-january-2020}
 
 The Deliverability documentation has been updated with a new section on IP Certification. [Read more](../../sending/using/ip-certification.md)
