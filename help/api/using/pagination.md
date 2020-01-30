@@ -79,4 +79,4 @@ By default, the **next** node is not available when interacting with tables with
 
 >[!NOTE]
 >
->The number of records above which a table is considered as large is defined in Campaign Standard **XtkBigTableThreshold** option.
+>The number of records above which a table is considered as large is defined in Campaign Standard **XtkBigTableThreshold** option. The default value is 100,000 records.
