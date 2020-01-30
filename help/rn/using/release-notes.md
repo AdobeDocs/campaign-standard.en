@@ -112,7 +112,7 @@ snippet: y
 * Fixed an issue with custom resources which caused duplicate entries to appear under different API endpoints.
 * Fixed an issue which prevented landing pages from being available after publishing. (CAMP-38695)
 * Fixed a bug which occurred when displaying data from an Intersection transition coming from two different resources. (CAMP-38974)
-* Fixed an issue which caused the enumeration value in a delivery template to default to a different one than the one configured. (CAMP-38388)
+* Fixed an issue which caused the enumeration value in a delivery template to be set incorrecly. (CAMP-38388)
 * Fixed an error with email bulk deliveries which displayed the deliveries' state as Pending and the Sent status as Finished. (CAMP-35355)
 * Fixed an error which displayed the sender domain incorrectly in Dynamic reporting. (CAMP-33123)
 * Fixed an issue which caused discrepancy in Unsubscription counts in Dynamic reporting. (CAMP-39949)
