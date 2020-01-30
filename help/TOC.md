@@ -304,6 +304,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Extending the profile resource with a new field](developing/using/extending-the-profile-resource-with-a-new-field.md)
        + [Extending the subscriptions to an application resource](developing/using/extending-the-subscriptions-to-an-application-resource.md)
   + Datamodel {#datamodel}
+       + [Introduction](developing/using/datamodel-introduction.md)	
        + [Audience](developing/using/datamodel-audience.md)
        + [Campaign](developing/using/datamodel-campaign.md)
        + [Delivery](developing/using/datamodel-delivery.md)
