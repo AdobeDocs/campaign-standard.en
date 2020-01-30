@@ -22,6 +22,22 @@ This page lists all the new features and documentation updates for each release 
 
 You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-notes.md).
 
+## Release 20.1 - February 2019 {#release-20-1---february-2020}
+
+### New capabilities included in the release
+
+XXX - [Read more](XXX)
+
+XXX - [Read more](XXX)
+
+### Other documentation updates coming with the release
+
+The privacy management documentation has been updated with information on how to create the CCPA opt-out field for custom profile resources. [Read more](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html)
+
+The Release Notes have been reorganized and improved. [Read more](../../rn/using/release-notes.md)
+
+Information has been added in the Working with APIs guide regarding the new **_forcePagination=true** parameter, allowing you to perform pagination on large tables. [Read more](../../api/using/pagination.md)
+
 ## Documentation updates - January 2020 {#doc-updates-january-2020}
 
 The Deliverability documentation has been updated with a new section on IP Certification. [Read more](../../sending/using/ip-certification.md)
