@@ -318,7 +318,7 @@ The numerical value functions are used to convert text to numbers.
   </tr> 
   <tr> 
    <td> <strong>Floor</strong><br /> </td> 
-   <td> Returns the greatest integer greater than or equal to a number<br /> </td> 
+   <td> Returns the greatest integer lower than or equal to a number<br /> </td> 
    <td> Floor(&lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 

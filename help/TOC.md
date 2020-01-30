@@ -8,12 +8,12 @@ user-guide-title: Adobe Campaign Standard Help
 # Adobe Campaign Standard Help {#using}
 
 + [Product documentation](campaign-standard-home.md)
++ [Latest Updates](rn/using/documentation-updates.md)
 + Release Notes {#release-notes}
-  + [Release Notes](rn/using/release-notes.md)
-  + [Release Notes 2018](rn/using/release-notes-2018.md)
-  + [Release Notes 2017](rn/using/release-notes-2017.md)
-  + [Release Notes 2015-2016](rn/using/release-notes-2015-2016.md)
-  + [Documentation Updates](rn/using/documentation-updates.md)
+  + [Latest Release](rn/using/release-notes.md)
+  + Previous Releases {#previous-releases}
+    + [Release Notes 2018](rn/using/release-notes-2018.md)
+    + [Release Notes 2017](rn/using/release-notes-2017.md)
 + Getting started {#getting-started}
   + About Adobe Campaign {#about-adobe-campaign}
        + [Campaign orchestration](start/using/campaign-orchestration.md)
@@ -113,9 +113,9 @@ user-guide-title: Adobe Campaign Standard Help
   + [Defining the subject line and the sender](designing/using/subject-line.md)
   + Building email content{#building-email-content}
        + [Designing emails from scratch](designing/using/designing-from-scratch.md)
-       + [Designing emails using existing content](designing/using/using-existing-content.md)
-       + [Designing emails using reusable content](designing/using/using-reusable-content.md)
-       + [Designing emails using multi-solution integrations](designing/using/using-integrations.md)
+       + [Using existing content](designing/using/using-existing-content.md)
+       + [Working with reusable content](designing/using/using-reusable-content.md)
+       + [Using multi-solution integrations](designing/using/using-integrations.md)
        + [Editing plain text, HTML and mobile emails](designing/using/plain-text-html-modes.md)
   + [Personalizing email content](designing/using/personalization.md)
   + [Managing email styles](designing/using/styles.md)
@@ -147,7 +147,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Starting a new platform](sending/using/starting-new-platform.md)
        + [Controlling email content](sending/using/control-email-content.md)
        + [Improving your reputation](sending/using/improving-reputation.md)
-       + [Whitelists](sending/using/whitelists.md)
+       + [IP Certification](sending/using/ip-certification.md)
        + [Technical recommendations](sending/using/technical-recommendations.md)
        + [Monitoring deliverability](sending/using/monitor-deliverability.md)
        + [Troubleshooting](sending/using/troubleshooting.md)
@@ -183,8 +183,9 @@ user-guide-title: Adobe Campaign Standard Help
 + Integrating with Adobe Cloud {#integrating-with-adobe-cloud}
   + [About Campaign integrations](integrating/using/about-campaign-integrations.md)
   + Working with Campaign and Experience Manager {#working-with-campaign-and-experience-manager}
-       + [Integrating with Experience Manager](integrating/using/integrating-with-experience-manager.md)
-       + [Creating a Campaign form in Experience Manager ](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
+       + [About Campaign-Experience Manager integration](integrating/using/integrating-with-experience-manager.md)
+       + [Creating an email content in Adobe Experience Manager](integrating/using/creating-email-experience-manager.md)
+       + [Creating a Campaign form in Experience Manager](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
   + Working with Campaign and Target {#working-with-campaign-and-target}
        + [About Campaign-Target integration](integrating/using/about-campaign-target-integration.md)
        + [Configuring the Campaign-Target integration](integrating/using/configuring-the-campaign-target-integration.md)
@@ -279,6 +280,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Creating a segmentation on location](automating/using/workflow-segmentation-location.md)
        + [Retargeting non-openers](automating/using/workflow-cross-channel-retargeting.md)
        + [Building a control group](automating/using/workflow-control-group.md)
+       + [Creating a cross-channel delivery](automating/using/workflow-cross-channel-delivery.md)
 + Developing {#developing}
   + About custom resources {#about-custom-resources}
        + [Data model concepts](developing/using/data-model-concepts.md)

@@ -17,11 +17,11 @@ Learn about the tools provided by Adobe Campaign to help you with your Privacy c
 * **[Delivery best pratices](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>
 Learn more on best practices related to delivery design and sending.
 
-* **[Email designer](designing/using/designing-content-in-adobe-campaign.md)**<br/>
-Consult the reorganized email designer documentation.
+* **[Email Designer](designing/using/designing-content-in-adobe-campaign.md)**<br/>
+Consult the reorganized Email Designer documentation.
 
-* **[Landing pages](channels/using/getting-started-with-landing-pages.md)**<br/>
-Learn more on how to set up a landing page.
+* **[Campaign Standard Mobile guide](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>
+Learn more about general guidelines for mobile deliveries.
 
 [Click here for more updates](rn/using/documentation-updates.md)
 
@@ -46,7 +46,7 @@ Learn more on how to set up a landing page.
     <div>
     <a href="designing/using/designing-content-in-adobe-campaign.md"><strong>Design an email</strong></a>
     </div>
-    <em>Learn how to use the email designer to create responsive and personalized emails</em>
+    <em>Learn how to use the Email Designer to create responsive and personalized emails</em>
     <br>
   </td>
   <td valign="top">
@@ -66,7 +66,7 @@ Learn more on how to set up a landing page.
 
 * [Release notes](rn/using/release-notes.md)
 
-* [Control Panel](https://helpx.adobe.com/campaign/kb/control-panel.html)
+* [Control Panel](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
 
 * [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
 

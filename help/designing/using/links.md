@@ -1,5 +1,5 @@
 ---
-title: Managing Links
+title: Adding Links
 description: Discover how to manage links with the Email Designer.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Links {#links}
+# Adding links {#links}
 
 ## Inserting a link {#inserting-a-link}
 

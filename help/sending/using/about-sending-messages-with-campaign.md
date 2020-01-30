@@ -37,5 +37,4 @@ Once you have defined the target and created the content of a message, you need 
 * [Managing test profiles and sending proofs](../../sending/using/managing-test-profiles-and-sending-proofs.md)
 * [Email rendering](../../sending/using/email-rendering.md)
 * [Receiving alerts when failures happen](../../sending/using/receiving-alerts-when-failures-happen.md)
-* [Optimizing your deliverability](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_Deliverability.html)
-
+* [Optimizing your deliverability](../../sending/using/about-deliverability.md)
