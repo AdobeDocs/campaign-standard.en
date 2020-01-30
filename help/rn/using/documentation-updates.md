@@ -36,6 +36,8 @@ The Adobe Campaign Enhanced MTA documentation is now available. [Read More](http
 
 Notes have been added to indicate that the application server and mirror page server URLs must be secure for the landing page and mirror page previews to be displayed from the Campaign user interface. [Read more](../../administration/using/branding.md#configuring-and-using-brands)
 
+The Exporting logs section has been updated to reflect the availability of the Delivery log ID in the Delivery logs and Tracking logs resources, which enables to export a unique identifier for each log. [Read more](../../automating/using/exporting-logs.md)
+
 ## Documentation updates - January 2020 {#doc-updates-january-2020}
 
 The Deliverability documentation has been updated with a new section on IP Certification. [Read more](../../sending/using/ip-certification.md)
