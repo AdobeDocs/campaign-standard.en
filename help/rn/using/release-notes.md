@@ -26,7 +26,7 @@ snippet: y
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Adobe Experience Platform Data Connector</strong><br /> </th> 
+   <th> <strong>Adobe Experience Platform Data Connector (beta)</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -42,7 +42,7 @@ snippet: y
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Integration with Audience Destination service’ </strong><br /> </th> 
+   <th> <strong>Integration with Audience Destination service (beta) </strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
