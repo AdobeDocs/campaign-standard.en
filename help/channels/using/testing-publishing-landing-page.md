@@ -40,7 +40,7 @@ As the landing page will impact your platform and data, you need to test careful
 
    You can also generate the landing page thumbnail from this screen.
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >If the application server URL is not secure (meaning if not starting with https://), the landing page preview cannot be displayed from the Campaign user interface. This server is defined when [configuring brands](../../administration/using/branding.md#configuring-and-using-brands).
 
