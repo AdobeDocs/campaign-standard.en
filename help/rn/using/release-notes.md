@@ -80,7 +80,7 @@ snippet: y
 **Email Designer enhancements**
 
 * Fixed an issue which led to accessibility problems when resizing text in a container element.
-* Added missing mandatory text instruction when creating an Audience.
+* Added missing mandatory text instructions when creating an Audience.
 * Fixed an issue which prevented users from dismissing the auto Calendar pop-up that appears on hover in marketing activities.
 * Fixed an issue when clicking on the **Change content** button in the wizard of the legacy email editor.
 * Fixed an issue which prevented headers from being aligned with the content on the Service Summary report. (CAMP-38103)
@@ -101,7 +101,7 @@ snippet: y
 **Patches**
 
 * Fixed an issue in the **[!UICONTROL External API]** activity which displayed the **[!UICONTROL Confirm]** button even when no data was modified.
-* Fixed an issue when using an **[!UICONTROL Union]** activity on queries with different target dimensions. The transition data only showed records from the main set's targeting dimension. (CAMP-36831)
+* Fixed an issue when using a **[!UICONTROL Union]** activity on queries with different target dimensions. The transition data only showed records from the main set's targeting dimension. (CAMP-36831)
 * Fixed an issue that could lead to an error when using a **[!UICONTROL Reconciliation]** activity in specific contexts, for example with two inbound activities, one of them being an exclusion activity. (CAMP-37490)
 * Fixed performance issues that could occur when selecting and updating test profiles. (CAMP-37976)
 * Fixed an issue that could display error pages when subscribing or unsubscribing via landing pages. (CAMP-37771) 
@@ -112,7 +112,7 @@ snippet: y
 * Fixed an issue with custom resources which caused duplicate entries to appear under different API endpoints.
 * Fixed an issue which prevented landing pages from being available after publishing. (CAMP-38695)
 * Fixed a bug which occurred when displaying data from an Intersection transition coming from two different resources. (CAMP-38974)
-* Fixed an issue which caused the enumeration value in a delivery template to be set incorrecly. (CAMP-38388)
+* Fixed an issue which caused the enumeration value in a delivery template to be set incorrectly. (CAMP-38388)
 * Fixed an error with email bulk deliveries which displayed the deliveries' state as Pending and the Sent status as Finished. (CAMP-35355)
 * Fixed an error which displayed the sender domain incorrectly in Dynamic reporting. (CAMP-33123)
 * Fixed an issue which caused discrepancy in Unsubscription counts in Dynamic reporting. (CAMP-39949)
