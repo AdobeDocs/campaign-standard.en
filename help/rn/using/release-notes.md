@@ -62,7 +62,7 @@ snippet: y
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Transactional messaging are now sent by the Adobe Campaign Enhanced MTA, which provides an upgraded sending infrastructure allowing for improved deliverability, throughput, and bounce handling.</p>
+   <td> <p>Transactional messages are now sent by the Adobe Campaign Enhanced MTA, which provides an upgraded sending infrastructure allowing for improved deliverability, throughput, and bounce handling.</p>
     <p>For more information, refer to the <a href="https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html">detailed documentation</a>.</p>
    </td> 
   </tr> 
@@ -71,7 +71,7 @@ snippet: y
 
 **Improvements**
 
-* Timezone management has been enhanced. You can now define a specific timezone for an entire workflow. The selected timezone will apply to all the workflow's activities. [Read more](../../automating/using/building-a-workflow.md). Information about the timezone that has been configured for the operator or the server is now displayed in the interface (in logs, and after selecting a timezone). (CAMP-37672)
+* Timezone management has been enhanced. You can now define a [specific timezone](../../automating/using/building-a-workflow.md) for an entire workflow. The selected timezone will apply to all the workflow's activities. Information about the timezone that has been configured for the operator or the server is now displayed in the interface (in logs, and after selecting a timezone). (CAMP-37672)
 
 * Campaign Standard APIs now allow you to perform pagination when using large tables, by adding the `_forcePagination=true parameter` to your call URL. [Read more](../../api/using/pagination.md)
 
@@ -80,9 +80,8 @@ snippet: y
 **Email Designer enhancements**
 
 * Fixed an issue which led to accessibility problems when resizing text in a container element.
-* Fixed an accessibility issue which prevented instructive text from being placed at the beginning of the Audiences form.
+* Added missing mandatory text instruction when creating an Audience.
 * Fixed an issue which prevented users from dismissing the auto Calendar pop-up that appears on hover in marketing activities.
-* Fixed an issue with accessibility ensuring that instructive text is placed at the beginning of the Audiences form.
 * Fixed an issue when clicking on the **Change content** button in the wizard of the legacy email editor.
 * Fixed an issue which prevented headers from being aligned with the content on the Service Summary report. (CAMP-38103)
 * Fixed an issue which prevented dynamic content variants from being deleted without affecting the rest of the subject line. (CAMP-40096)
