@@ -83,14 +83,14 @@ snippet: y
 * Fixed an accessibility issue which prevented instructive text from being placed at the beginning of the Audiences form.
 * Fixed an issue which prevented users from dismissing the auto Calendar pop-up that appears on hover in marketing activities.
 * Fixed an issue with accessibility ensuring that instructive text is placed at the beginning of the Audiences form.
-* Fixed an issue when clicking on the **Change content** button in the wizard of the legacy content editor.
+* Fixed an issue when clicking on the **Change content** button in the wizard of the legacy email editor.
 * Fixed an issue which prevented headers from being aligned with the content on the Service Summary report. (CAMP-38103)
 * Fixed an issue which prevented dynamic content variants from being deleted without affecting the rest of the subject line. (CAMP-40096)
 * Fixed an A/B testing issue when using the B variant on the subject line. (CAMP-40327)
 * Fixed an issue which prevented you from dragging and dropping files when using the Upload HTML import feature. (CAMP-39326)
 * Fixed an issue which prevented you from copying and pasting text from a text editor. (CAMP-39028)
 * Fixed an issue which prevented the word suggestions from being displayed. (CAMP-38970)
-* Fixed an issue with preventing users from saving fragments by adding guardrails. (ATU-2447)
+* Fixed an issue with preventing users from saving fragments. (ATU-2447)
 
 **Other changes**
 
