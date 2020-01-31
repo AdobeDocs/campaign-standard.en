@@ -174,6 +174,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Unsubscriptions](reporting/using/unsubscriptions.md)
        + [URLs and click streams](reporting/using/urls-and-click-streams.md)
        + [Hot clicks](reporting/using/hot-clicks.md)
+       + [Service summary](reporting/using/service-summary.md)
   + Customizing reports {#customizing-reports}
        + [Adding panels](reporting/using/adding-panels.md)
        + [Adding visualizations](reporting/using/adding-visualizations.md)
