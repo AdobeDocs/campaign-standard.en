@@ -38,10 +38,6 @@ The Release Notes have been reorganized and improved. [Read more](../../rn/using
 
 Information has been added on how to define a specific time zone to use by default in a workflow. [Read more](../../automating/using/building-a-workflow.md)
 
-"Timezone management has been enhanced:
-- You can now define a specific timezone for a entire workflow. The selected timezone will apply to all the workflow's activities.
-- Information about the timezone that has been configured for the operator or the server now displays in the interface (in logs, and after selecting a timezone)."
-
 ## Documentation updates - January 2020 {#doc-updates-january-2020}
 
 The Deliverability documentation has been updated with a new section on IP Certification. [Read more](../../sending/using/ip-certification.md)
