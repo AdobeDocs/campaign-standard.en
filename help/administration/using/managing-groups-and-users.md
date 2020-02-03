@@ -26,15 +26,19 @@ For more information on roles, the tables in the following page present the diff
 
 Default security groups are:
 
-* **[!UICONTROL Administrators]** 
-* **[!UICONTROL Delivery supervisors]** 
-* **[!UICONTROL Message Center agents]** 
-* **[!UICONTROL Standard Users]** 
+* **[!UICONTROL Administrators]**
+* **[!UICONTROL Delivery supervisors]**
+* **[!UICONTROL Message Center agents]**
+* **[!UICONTROL Standard Users]**
 * **[!UICONTROL Workflow supervisors]**
 
 If a user is not linked to any security group, he will not be able to access Adobe Campaign.
 
 To restrict a user's access, do not add the user to the Campaign Standard users group as this is linked to **[!UICONTROL All]** organizational unit.
+
+>[!NOTE]
+>
+>By default, the **[!UICONTROL All (all)]** organizational unit is assigned to the **[!UICONTROL Administrators]** security group. It is read-only and cannot be modified.
 
 ## Creating a security group and assigning users {#creating-a-security-group-and-assigning-users}
 

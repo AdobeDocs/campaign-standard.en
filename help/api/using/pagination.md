@@ -26,8 +26,6 @@ The **_lineCount** parameter allows you to limit the number of resources listed 
 >
 >The **_lineStart** request is calculated and must always be used within the URL returned in the **next** node.
 
-<!-- serverside pagination. quand table très longue (au delà de 100.000), on peut plus faire de next. doit utiliser à la place les trucs type lineStart etc. si false: voudra dirre que ça a atteint la limite-->
-
 <br/>
 
 ***Sample request***
@@ -44,9 +42,7 @@ Sample GET request to display 1 record of the profile resource.
 
 ```
 
-<!-- dans l'exemple, avoir le node "next"-->
-
-Response to the request.
+Response to the request, with the **next** node to perform pagination.
 
 ```
 
@@ -60,7 +56,27 @@ Response to the request.
             ...
         }
     ],
+    "next": {
+        "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_lineCount=10&_
+        lineStart=@Qy2MRJCS67PFf8soTf4BzF7BXsq1Gbkp_e5lLj1TbE7HJKqc"
+    }
     ...
 }
 
 ```
+
+By default, the **next** node is not available when interacting with tables with large amount of data. To be able to perform pagination, you must add the **_forcePagination=true** parameter to your call URL.
+
+```
+
+-X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_forcePagination=true \
+-H 'Content-Type: application/json' \
+-H 'Authorization: Bearer <ACCESS_TOKEN>' \
+-H 'Cache-Control: no-cache' \
+-H 'X-Api-Key: <API_KEY>'
+
+```
+
+>[!NOTE]
+>
+>The number of records above which a table is considered as large is defined in Campaign Standard **XtkBigTableThreshold** option. The default value is 100,000 records.

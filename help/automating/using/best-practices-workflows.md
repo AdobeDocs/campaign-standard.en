@@ -62,6 +62,11 @@ A workflow containing unterminated transitions can still be executed: it will ge
 
 For more information, refer to [Executing workflows](../../automating/using//executing-a-workflow.md).
 
+### Time zone
+
+The workflow properties allow you to define a specific time zone that will be used by default in all the its activities. By default, the workflow's time zone is the one defined for the current Campaign operator.
+
+
 ## Activity{#activity}
 
 ### Workflow design

@@ -1,6 +1,6 @@
 ---
-title: Monitoring a delivery
-description: Discover how to monitor a delivery.
+title: Monitoring a delivery in Adobe Campaign Standard
+description: Discover how to monitor a delivery in Adobe Campaign Standard.
 page-status-flag: never-activated
 uuid: 7772c607-debd-40fd-8322-4d49119979b4
 contentOwner: sauviat
@@ -51,6 +51,18 @@ For each profile with a **[!UICONTROL Sent]** status, the **[!UICONTROL Date]** 
 
 ![](assets/sending_delivery3.png)
 
+To access the details of a specific sending log, click the pencil icon on the right of the corresponding row.
+
+![](assets/sending_access-sending-log.png)
+
+All the sending log details are read-only. You can also see a preview of the mirror page.
+
+![](assets/sending_sending-log.png)
+
+>[!NOTE]
+>
+>If the mirror page server URL is not secure (meaning if not starting with https://), the mirror page rendering cannot be displayed from the Campaign user interface. This server is defined when [configuring brands](../../administration/using/branding.md#configuring-and-using-brands).
+
 ### Exclusion logs {#exclusion-logs}
 
 The **[!UICONTROL Exclusion logs]** tab lists all the messages that have been excluded from the target sent and specifies the reason for the send failure.
@@ -62,4 +74,3 @@ The **[!UICONTROL Exclusion logs]** tab lists all the messages that have been ex
 The **[!UICONTROL Exclusion causes]** tab displays the volume (in number of messages) of messages that were excluded from the target send.
 
 ![](assets/sending_delivery5.png)
-
