@@ -28,4 +28,4 @@ You can use Campaign to promote a service by:
     >
     >It is also important to give the subscribers the possibility of unsubscribing. To do this, insert a service <b>Unsubscription link</b> in the confirmation email (defined in the service properties) sent automatically to the new subscribers as well as in future newsletter emails.
 
-* Making a subscription or unsubscription landing page available on a website. The URLs that give you access to the landing page must specify parameters such as the associated service, as well as the profile ID accessing it. This ID can be defined in the landing page parameters (see [Configuring a landing page](../../channels/using/configuring-landing-page.md).
+* Making a subscription or unsubscription landing page available on a website. The URLs that give you access to the landing page must specify parameters such as the associated service, as well as the profile ID accessing it. This ID can be defined in the landing page parameters (see [Configuring a landing page](../../channels/using/configuring-landing-page.md)).
