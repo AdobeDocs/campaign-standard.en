@@ -33,7 +33,7 @@ snippet: y
   <tr> 
    <td> <p>
    The Adobe Experience Platform Data Connector is now integrated with Adobe Campaign Standard. You can make your Campaign data available on Adobe Experience Platform by mapping XTK data (data ingested in Campaign) to Adobe Experience Platform Data Model (XDM). </p>
-
+    <p>For more information about this capability and conditions to activate it, refer to the <a href="../../administration/using/aep-about-data-connector.md">detailed documentation</a>.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -48,7 +48,7 @@ snippet: y
  <tbody> 
   <tr> 
    <td> <p>The Audience Destinations service is now integrated with Adobe Campaign Standard. You can build highly targeted audiences based on large, complex datasets and share these segments near real-time with other Adobe Experience Cloud solutions.</p>
-
+    <p>For more information about this capability and conditions to activate it, refer to the <a href="../../audiences/using/aep-about-audience-destinations-service.md">detailed documentation</a>.</p>
    </td> 
   </tr> 
  </tbody> 
