@@ -79,9 +79,7 @@ snippet: y
 
 **Email Designer enhancements**
 
-* Fixed an issue which led to accessibility problems when resizing text in a container element.
 * Added missing mandatory text instructions when creating an Audience.
-* Fixed an issue with the Calendar pop-up to allow users to dismiss content that appears on hover in marketing activities.
 * Fixed an issue when clicking on the **Change content** button in the wizard of the legacy email editor.
 * Fixed an issue which prevented headers from being aligned with the content on the Service Summary report. (CAMP-38103)
 * Fixed an issue which prevented dynamic content variants from being deleted without affecting the rest of the subject line. (CAMP-40096)
@@ -100,6 +98,8 @@ snippet: y
 
 **Patches**
 
+* Fixed an issue which led to accessibility problems when resizing text in a container element.
+* Fixed an issue which prevented users from dismissing the Calendar pop-up that appears on hover in marketing activities.
 * Fixed an issue in the **[!UICONTROL External API]** activity which displayed the **[!UICONTROL Confirm]** button even when no data was modified.
 * Fixed an issue when using a **[!UICONTROL Union]** activity on queries with different target dimensions. The transition data only showed records from the main set's targeting dimension. (CAMP-36831)
 * Fixed an issue that could lead to an error when using a **[!UICONTROL Reconciliation]** activity in specific contexts, for example with two inbound activities, one of them being an exclusion activity. (CAMP-37490)
