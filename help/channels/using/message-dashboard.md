@@ -72,3 +72,30 @@ The main screen is made up of different blocks. Click inside a block to access t
 * **[!UICONTROL Schedule]**: allows you to specify the date on which your message will be sent. See [Scheduling](../../sending/using/about-scheduling-messages.md).
 * **[!UICONTROL Content]**: allows you to define the message's content and preview it. See [Key steps to send a message](../../channels/using/key-steps-to-send-a-message.md).
 
+## Warnings {#warnings}
+
+In some cases, a warning may appear in a yellow banner on top of the message dashboard.
+
+![](assets/delivery_dashboard_warnings.png)
+
+Below is a list of the messages that can be displayed:
+
+* *"The SMTP test mode option is enabled for this email: no messages will be sent."*
+
+    For more on this, see [this section](../../administration/using/configuring-email-channel.md#smtp-test-mode).
+
+* *"Routing external account has been disabled."*
+
+    For more on this, see [External accounts](../../administration/using/external-accounts.md).
+
+* *"Messages cannot be sent because the current IP affinity is not handled by any sending process."*
+
+    If you see this message, there is an issue at the IP affinity definition level or at the sending process level. Contact your Adobe administrator.
+
+* *"This transactional message is an out-of-the-box transactional message template. If you want to modify it, you must duplicate it and work on your copy."*
+
+    Some of these out-of-the-box transactional message templates are built-in landing page templates. For more on this, see [this section](../../channels/using/landing-page-templates.md).
+
+* *"This message is a technical transactional message template. You cannot modify or publish it."*
+
+    This warning is displayed in empty transactional message templates that are not editable. For more on transactional messages, see [this section](../../channels/using/about-transactional-messaging.md).

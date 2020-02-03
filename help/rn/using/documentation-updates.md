@@ -44,6 +44,14 @@ Information has been added on how to define a specific time zone to use by defau
 
 Information has been added in the Working with APIs guide regarding the new **_forcePagination=true** parameter, allowing you to perform pagination on large tables. [Read more](../../api/using/pagination.md)
 
+A new section describing the warnings that can be displayed in a message dashboard is available. [Read more](../../channels/using/message-dashboard.md#warnings)
+
+The Adobe Campaign Enhanced MTA documentation is now available. [Read More](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
+
+Notes have been added to indicate that the application server and mirror page server URLs must be secure for the landing page and mirror page previews to be displayed from the Campaign user interface. [Read more](../../administration/using/branding.md#configuring-and-using-brands)
+
+The Exporting logs section has been updated to reflect the availability of the Delivery log ID in the Delivery logs and Tracking logs resources, which enables to export a unique identifier for each log. [Read more](../../automating/using/exporting-logs.md)
+
 ## Documentation updates - January 2020 {#doc-updates-january-2020}
 
 The Deliverability documentation has been updated with a new section on IP Certification. [Read more](../../sending/using/ip-certification.md)

@@ -45,15 +45,17 @@ The export logs operation can be carried out by standard users. Private resource
 
 1. Add an **[!UICONTROL Extract file]** activity that will export the queried data in a file:
 
-    * In the **[!UICONTROL Extraction]** tab, specify the name of the file. This name will be automatically completed with the date of the export to ensure all extracted files are unique.
-
-      Select the columns that you want to export in your file. You can select here data coming from related resources such as delivery or profile information. To organize the final file, you can apply a sort. For example on the log date, as shown in the example below.
+    * In the **[!UICONTROL Extraction]** tab, specify the name of the file.
     
-      ![](assets/export_logs_extractfile_extraction.png)
+      If you select the **[!UICONTROL Add date and time to the file name]** option, this name will be automatically completed with the date of the export to ensure all extracted files are unique. Select the columns that you want to export in your file. You can select here data coming from related resources such as delivery or profile information.
 
       >[!NOTE]
       >
-      >It is not possible to export unique identifiers (primary keys) of log resources.
+      >To export a unique identifier for each log, select the **[!UICONTROL Delivery log ID]** element.
+      
+      To organize the final file, you can apply a sort. For example on the log date, as shown in the example below.
+    
+      ![](assets/export_logs_extractfile_extraction.png)
 
     * In the **[!UICONTROL File structure]** tab, define the format of the output file to match your needs.
 
