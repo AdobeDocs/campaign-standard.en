@@ -38,6 +38,8 @@ The privacy management documentation has been updated with information on how to
 
 The Release Notes have been reorganized and improved. [Read more](../../rn/using/release-notes.md)
 
+Information has been added in the Working with APIs guide regarding the new **_forcePagination=true** parameter, allowing you to perform pagination on large tables. [Read more](../../api/using/pagination.md)
+
 ## Documentation updates - January 2020 {#doc-updates-january-2020}
 
 The Deliverability documentation has been updated with a new section on IP Certification. [Read more](../../sending/using/ip-certification.md)
