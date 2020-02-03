@@ -31,9 +31,8 @@ snippet: y
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>
-   The Adobe Experience Platform Data Connector is now integrated with Adobe Campaign Standard. You can make your Campaign data available on Adobe Experience Platform by mapping XTK data (data ingested in Campaign) to Adobe Experience Platform Data Model (XDM). </p>
-    <p>For more information about this capability and conditions to activate it, refer to the <a href="../../administration/using/aep-about-data-connector.md">detailed documentation</a>.</p>
+   <td> <p>The Adobe Experience Platform Data Connector is now integrated with Adobe Campaign Standard. You can make your Campaign data available on Adobe Experience Platform by mapping XTK data (data ingested in Campaign) to Adobe Experience Platform Data Model (XDM). </p>
+    <p>Please note this capability is only available to customers hosted on Azure. For more information about this capability and conditions to activate it, refer to the <a href="../../administration/using/aep-about-data-connector.md">detailed documentation</a>.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -42,28 +41,13 @@ snippet: y
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Integration with Audience Destination service (beta) </strong><br /> </th> 
+   <th> <strong>Audience Destinations (beta) </strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>The Audience Destinations service is now integrated with Adobe Campaign Standard. You can build highly targeted audiences based on large, complex datasets and share these segments near real-time with other Adobe Experience Cloud solutions.</p>
-    <p>For more information about this capability and conditions to activate it, refer to the <a href="../../audiences/using/aep-about-audience-destinations-service.md">detailed documentation</a>.</p>
-   </td> 
-  </tr> 
- </tbody> 
-</table>
-
-<table> 
- <thead> 
-  <tr> 
-   <th> <strong>Campaign Enhanced MTA for transactional messaging</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>Transactional messages are now sent by the Adobe Campaign Enhanced MTA, which provides an upgraded sending infrastructure allowing for improved deliverability, throughput, and bounce handling.</p>
-    <p>For more information, refer to the <a href="https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html">detailed documentation</a>.</p>
+   <td> <p>Audience Destinations allows you to share segments from Adobe Experience Platform to Adobe Campaign.</p>
+    <p>Please note this capability is only available to customers hosted on Azure. For more information about this capability and conditions to activate it, refer to the <a href="../../audiences/using/aep-about-audience-destinations-service.md">detailed documentation</a>.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -71,11 +55,13 @@ snippet: y
 
 **Improvements**
 
+* Global availability of the enhanced MTA: messages (including transactional messages) are now sent by the Adobe Campaign Enhanced MTA, which provides an upgraded sending infrastructure allowing for improved deliverability, throughput, and bounce handling. [Read more](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
+
 * Timezone management has been enhanced. You can now define a [specific timezone](../../automating/using/building-a-workflow.md) for an entire workflow. The selected timezone will apply to all the workflow's activities. Information about the timezone that has been configured for the operator or the server is now displayed in the interface (in logs, and after selecting a timezone). (CAMP-37672)
 
-* Campaign Standard APIs now allow you to perform pagination when using large tables, by adding the `_forcePagination=true parameter` to your call URL. [Read more](../../api/using/pagination.md)
+* Campaign Standard APIs now allow you to perform pagination when using large tables, by adding the `_forcePagination=true` parameter to your call URL. [Read more](../../api/using/pagination.md)
 
-* The Delivery log ID (which is a unique identifier for each log) is now available in the Delivery logs and Tracking logs resources for all targeting dimensions. This enables to identify sending or tracking logs when exporting, for example.
+* The Delivery log ID (which is a unique identifier for each log) is now available in the Delivery logs and Tracking logs resources for all targeting dimensions. This enables to identify sending or tracking logs when exporting, for example. [Read more](../../automating/using/exporting-logs.md)
 
 **Email Designer enhancements**
 
