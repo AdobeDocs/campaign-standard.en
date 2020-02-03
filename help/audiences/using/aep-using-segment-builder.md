@@ -74,6 +74,12 @@ Fields are organized into tabs:
 
     ![](assets/aep_audiences_eventstab.png)
 
+>[!NOTE]
+>
+>**Multi-entity segmentation** allows you to extend Profile data with additional data based on products, stores, or other non-profile classes. Once connected, data from additional classes becomes available as if they were native to the Profile schema.
+>
+>For more on this, refer to the [dedicated documentation](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/tutorials/segmentation/multi_entity_segmentation.md).
+
 By default, the Unified Segment builder displays fields for which data is present. To display the full schema, including fields for which data is not present, enable the **[!UICONTROL Show full XDM schema]** option from the settings.
 
 ![](assets/aep_audiences_populatedfields.png)
