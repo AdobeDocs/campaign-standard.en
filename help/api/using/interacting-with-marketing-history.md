@@ -31,7 +31,7 @@ Retrieve the profile's marketing history with a GET request.
 
 ```
 
--X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/History/"<PKEY>" \
+-X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/history/"<PKEY>" \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
 -H 'Cache-Control: no-cache' \

@@ -14,7 +14,7 @@ topic: Premium
 * **[Privacy management](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>
 Learn about the tools provided by Adobe Campaign to help you with your Privacy compliance.
 
-* **[Delivery best pratices](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>
+* **[Delivery best practices](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>
 Learn more on best practices related to delivery design and sending.
 
 * **[Email Designer](designing/using/designing-content-in-adobe-campaign.md)**<br/>

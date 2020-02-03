@@ -12,6 +12,7 @@ user-guide-title: Adobe Campaign Standard Help
 + Release Notes {#release-notes}
   + [Latest Release](rn/using/release-notes.md)
   + Previous Releases {#previous-releases}
+    + [Release Notes 2019](rn/using/release-notes-2019.md)
     + [Release Notes 2018](rn/using/release-notes-2018.md)
     + [Release Notes 2017](rn/using/release-notes-2017.md)
 + Getting started {#getting-started}
@@ -178,6 +179,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Unsubscriptions](reporting/using/unsubscriptions.md)
        + [URLs and click streams](reporting/using/urls-and-click-streams.md)
        + [Hot clicks](reporting/using/hot-clicks.md)
+       + [Service summary](reporting/using/service-summary.md)
   + Customizing reports {#customizing-reports}
        + [Adding panels](reporting/using/adding-panels.md)
        + [Adding visualizations](reporting/using/adding-visualizations.md)
@@ -311,6 +313,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Extending the profile resource with a new field](developing/using/extending-the-profile-resource-with-a-new-field.md)
        + [Extending the subscriptions to an application resource](developing/using/extending-the-subscriptions-to-an-application-resource.md)
   + Datamodel {#datamodel}
+       + [Introduction](developing/using/datamodel-introduction.md)	
        + [Audience](developing/using/datamodel-audience.md)
        + [Campaign](developing/using/datamodel-campaign.md)
        + [Delivery](developing/using/datamodel-delivery.md)
