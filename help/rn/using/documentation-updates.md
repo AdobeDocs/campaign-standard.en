@@ -24,11 +24,6 @@ You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-n
 
 ## Release 20.1 - February 2019 {#release-20-1---february-2020}
 
-### New capabilities included in the release
-
-
-### Other documentation updates coming with the release
-
 The privacy management documentation has been updated with information on how to create the CCPA opt-out field for custom profile resources. [Read more](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html)
 
 The Release Notes have been reorganized and improved. [Read more](../../rn/using/release-notes.md)
