@@ -38,6 +38,8 @@ The privacy management documentation has been updated with information on how to
 
 The Release Notes have been reorganized and improved. [Read more](../../rn/using/release-notes.md)
 
+Information related to the Administrators security group has been added, specifying that the **[!UICONTROL All (all)]** organizational unit is assigned to it and cannot be modified. [Read more](../../administration/using/managing-groups-and-users.md)
+
 Information has been added on how to define a specific time zone to use by default in a workflow. [Read more](../../automating/using/building-a-workflow.md)
 
 Information has been added in the Working with APIs guide regarding the new **_forcePagination=true** parameter, allowing you to perform pagination on large tables. [Read more](../../api/using/pagination.md)
