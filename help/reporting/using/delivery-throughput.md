@@ -23,7 +23,7 @@ This report contains data relating to the delivery throughput of a send, or seve
 
 ![](assets/delivery_reports_1.png)
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >Once upgraded to the Enhanced MTA, the **[!UICONTROL Delivery throughput]** page no longer displays the throughput to your email recipients. It shows the throughput speed for the relay of your messages from Campaign over to the Enhanced MTA.
 >

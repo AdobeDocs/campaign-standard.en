@@ -100,7 +100,7 @@ To access it, click the **[!UICONTROL Adobe Campaign]** logo, at the top left, t
 
 For more on this, refer to this [section](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >Once upgraded to the Enhanced MTA, the bounce qualifications in the Campaign **[!UICONTROL Message qualification]** table are no longer used. For synchronous delivery failure error messages, the Enhanced MTA determines the bounce type and qualification, and sends back that information to Campaign. Asynchronous bounces are still qualified by the inMail process.
 >

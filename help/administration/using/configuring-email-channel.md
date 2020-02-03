@@ -82,7 +82,7 @@ The user can create his own rules.
 >
 >When importing a package and when updating data via the **Update for deliverability** workflow, the user-created rules are overwritten.
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >Once upgraded to the Enhanced MTA, the bounce qualifications in the Campaign **[!UICONTROL Message qualification]** table are no longer used. For synchronous delivery failure error messages, the Enhanced MTA determines the bounce type and qualification, and sends back that information to Campaign. Asynchronous bounces are still qualified by the inMail process.
 >
@@ -99,7 +99,7 @@ The **SMTP parameters** act as filters applied for a blocking rule.
 * You can choose whether or not to activate certain identification standards and encryption keys to check the domain name, such as **Sender ID**, **DomainKeys**, **DKIM**, and **S/MIME**.
 * **SMTP relay**: lets you configure the IP address and the port of a relay server for a particular domain.
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >Once upgraded to the Enhanced MTA, DKIM (DomainKeys Identified Mail) email authentication signing is done by the Enhanced MTA. DKIM-signing by the native Campaign MTA will be turned off within the **[!UICONTROL Domain management]** table as part of the Enhanced MTA upgrade.
 >
@@ -107,7 +107,7 @@ The **SMTP parameters** act as filters applied for a blocking rule.
 
 ### MX Management {mx-management}
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >Once upgraded to the Enhanced MTA, the Adobe Campaign **MX management** delivery throughput rules are no longer used. The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you’re sending emails.
 >
@@ -230,6 +230,11 @@ The **[!UICONTROL Validity period]** section contains the following parameters:
   ![](assets/delivery-set-explicit-dates.png)
 
 * **[!UICONTROL Delivery duration]**: Adobe Campaign sends the messages beginning on the start date. This field allows you to specify the duration during which the messages can be sent.
+
+  >[!IMPORTANT]
+  >
+  >Once upgraded to the Enhanced MTA, the **[!UICONTROL Delivery duration] parameter ** in your Campaign deliveries is used only if set to 3.5 days or less. If you define a value higher than 3.5 days, it will not be taken into account. All impacts are detailed in the [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html) document.
+
 * **[!UICONTROL Resource validity duration]**: this field is used for uploaded resources, mainly for the mirror page and images. The resources on this page are valid for a limited time (to save disk space).
 * **[!UICONTROL Mirror page management]**: the mirror page is an HTML page accessible online via a web browser. Its content is identical to the email content. By default, the mirror page is generated if the link is inserted in the mail content. This field allows you to modify the way in which this page is generated:
 
@@ -245,8 +250,6 @@ The **[!UICONTROL Validity period]** section contains the following parameters:
 >[!NOTE]
 >
 >The **[!UICONTROL Delivery duration]** parameter does not apply to transactional messages. For more on transactional messaging, see [this section](../../channels/using/about-transactional-messaging.md).
->
->Once upgraded to the Enhanced MTA, the **[!UICONTROL Delivery duration]** in your Campaign deliveries is used only if set to 3.5 days or less. If you define a value higher than 3.5 days, it will not be taken into account. All impacts are detailed in the [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html) document.
 
 ### Tracking parameters {#tracking-parameters}
 
