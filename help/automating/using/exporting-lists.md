@@ -37,7 +37,7 @@ Export list is available in all the screens that have a **List** mode view, for 
 
    A popup will appear to confirm the export. Once you have confirmed the export, the file is automatically downloaded to your computer.
 
-The file is generated in CSV format, unless the export is carried out in iOS, in which case the file generated is in TXT format. It is named according to the resource exported and the export date. For example: the name profileBase_20150426_120253.csv would be applied to a profile export carried out on the 26th of April 2015 at 12:02:53. It is encoded in UTF-8 format.
+The file is generated in CSV format with a .TXT extension. It is named according to the resource exported and the export date. For example: the name profileBase_20150426_120253.txt would be applied to a profile export carried out on the 26th of April 2015 at 12:02:53. It is encoded in UTF-8 format.
 
 The numeric values and dates take into account the local time (locale) of the user that carries out the export. For example: DD-MM-YYYY or MM-DD-YYYY.
 
