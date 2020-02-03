@@ -246,7 +246,7 @@ The **[!UICONTROL Validity period]** section contains the following parameters:
 >
 >The **[!UICONTROL Delivery duration]** parameter does not apply to transactional messages. For more on transactional messaging, see [this section](../../channels/using/about-transactional-messaging.md).
 >
->If you have upgraded to the Enhanced MTA, the **[!UICONTROL Delivery duration]** in your Campaign deliveries will be used only if set to 3.5 days or less. If you define a value higher than 3.5 days, it will not be taken into account. All impacts are detailed in the [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html) document.
+>Once upgraded to the Enhanced MTA, the **[!UICONTROL Delivery duration]** in your Campaign deliveries will be used only if set to 3.5 days or less. If you define a value higher than 3.5 days, it will not be taken into account. All impacts are detailed in the [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html) document.
 
 ### Tracking parameters {#tracking-parameters}
 
