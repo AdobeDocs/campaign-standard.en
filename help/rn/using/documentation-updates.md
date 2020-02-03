@@ -26,9 +26,11 @@ You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-n
 
 ### New capabilities included in the release
 
-XXX - [Read more](XXX)
+Adobe Experience Platform Data Connector (beta) - [Read more](../../administration/using/aep-about-data-connector.md)
 
-XXX - [Read more](XXX)
+Integration with Audience Destination service (beta) - [Read more](../../audiences/using/aep-about-audience-destinations-service.md)
+
+Campaign Enhanced MTA for transactional messaging - [Read more](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
 
 ### Other documentation updates coming with the release
 
@@ -496,7 +498,7 @@ The datamodel v1 is now available with the SQL structure for out-of-the box reso
 
 Added information on how to prepare a message in a delivery [Read more](../../sending/using/preparing-the-send.md)
 
-Release notes have been reorganized in two pages so that you get a more global view of all the different releases: [Latest Release Notes](../../rn/using/release-notes.md) and [Previous release Notes](../../rn/using/release-notes-2015-2016.md)
+Release notes have been reorganized in several pages so that you get a more global view of all the different releases.
 
 The **[!UICONTROL Working with typologies]** section has been updated for an improved visibility. [Read more](../../administration/using/about-typology-rules.md)
 
