@@ -1,5 +1,5 @@
 ---
-title: Managing audiences
+title: Managing Adobe Experience Platform audiences
 description: Learn how to manage Adobe Experience Platform within Campaign Standard.
 page-status-flag: never-activated
 uuid: b3996642-96ec-489e-b146-c8c2cb52aa32
@@ -14,27 +14,29 @@ internal: n
 snippet: y
 ---
 
-# Managing audiences {#about-audiences}
+# Managing Adobe Experience Platform audiences {#about-audiences}
 
 >[!IMPORTANT]
 >
 >Audience Destinations Service is currently in beta, which may be subject to frequent updates without notice. Customers are required to be hosted on Azure (currently in beta for North America only) to access these capabilities. Please reach out to Adobe Customer Care if you would like access.
 
-## Accessing audiences
+## Accessing Adobe Experience Platform audiences
 
-To access Adobe Experience Platform audiences, select the **[!UICONTROL Audiences]** card on Campaign Standard home page, or the **[!UICONTROL Audiences]** link, then select **[!UICONTROL Adobe Experience Platform]**.
+To access the Adobe Experience Platform segment builder, navigate to the **[!UICONTROL Audiences]** card on Campaign Standard home page (or the **[!UICONTROL Audiences]** link in the header), and then select the **[!UICONTROL Adobe Experience Platform]** option.
 
 ![](assets/aep_audiences_access.png)
 
-All created Adobe Experience Platform audiences display. A search bar and filters are available to help you find the desired audience.
+You will first be directed to the Adobe Experience Platform segment list page, where already existing Adobe Experience Platform segments can be accessed for further editing, if desired.
+
+A search bar and filter are available to help you find the desired Adobe Experience Platform segment.
 
 ![](assets/aep_audiences_list.png)
 
-## Creating audiences
+## Creating Adobe Experience Platform audiences
 
-Audiences are created directly from the list of Adobe Experience Platform audiences. To do this, follow these steps:
+To create an Adobe Experience Platform audience directly in Campaign Standard, follow these steps:
 
-1. Go to the list of audiences, then click the **[!UICONTROL New audience]** button.
+1. From the Adobe Experience Platform segment list page, click the **[!UICONTROL New audience]** button located in the right-hand corner.
 
     ![](assets/aep_audiences_creation_create.png)
 
