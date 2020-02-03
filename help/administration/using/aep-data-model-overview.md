@@ -24,7 +24,7 @@ Experience Data Model (XDM) is a standard set of data schemas into which data mi
 
 The creation and management of XDM schemas is available with a dedicated API or with the XDM user interface.
 
-## XDM workspace (#xdm-workspace)
+## XDM workspace {#xdm-workspace}
 
 XDM Workspace affords the ability to view, create, and extend data schemas.
 
