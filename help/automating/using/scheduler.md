@@ -26,7 +26,7 @@ The **[!UICONTROL Scheduler]** activity allows you to schedule when a workflow o
 
 The **[!UICONTROL Scheduler]** activity should be considered as a scheduled start. The activity positioning rules within the chart are the same as for the **[!UICONTROL Start]** activity. This activity must not have an inbound transition.
 
-When building your workflow, only use one **[!UICONTROL Scheduler]** activity per branch and remember to set a time zone. It will be set otherwise to run at the server time zone.
+When building your workflow, only use one **[!UICONTROL Scheduler]** activity per branch and remember to set a time zone. This allows you to start your workflow at a specific time zone, otherwise the workflow will run in the time zone defined in the workflow properties (see [Building a workflow](../../automating/using/building-a-workflow.md)).
 
 >[!CAUTION]
 >
@@ -59,7 +59,7 @@ When building your workflow, only use one **[!UICONTROL Scheduler]** activity pe
 
 1. Check the schedule of the next ten executions of your workflow by clicking **[!UICONTROL Preview next executions]**.
 
-1. In the **[!UICONTROL Execution options]** tab, set up the time zone for your scheduler in the **[!UICONTROL Time zone]** field. This allows you to start your workflow at a specific time zone, otherwise the workflow will run in server time zone by default.
+1. In the **[!UICONTROL Execution options]** tab, set up the time zone for your scheduler in the **[!UICONTROL Time zone]** field.
 
    For more information on sending delivery depending on the recipient's time zone, refer to this [section](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md) or this [example](../../automating/using/push-notification-delivery.md#sending-a-recurring-push-notification-with-a-workflow) of a recurring workflow.
 
