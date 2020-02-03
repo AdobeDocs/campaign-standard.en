@@ -52,7 +52,7 @@ To create an email content in Adobe Experience Manager:
 1. Edit the content by inserting text, images, personalization, etc.
 1. Validate the content.
 
-For more information, refer to the [detailed documentation](https://docs.adobe.com/docs/en/aem/6-2/author/personalization/adobe-campaign/campaign.html).
+For more information, refer to the [detailed documentation](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/aem-adobe-campaign/campaign.html).
 
 ![](assets/aem_content.png)
 

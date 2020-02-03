@@ -32,7 +32,7 @@ Extension fields are generated with a prefix so that they never conflict with th
 
 >[!NOTE]
 >
->You can find a datamodel representation for the out-of-the-box resources [here](https://docs.campaign.adobe.com/doc/standard/en/datamodel/datamodel.html).
+>You can find a datamodel representation for the out-of-the-box resources [here](../../developing/using/datamodel-introduction.md).
 
 You can also **configure the navigation** in the screens corresponding to the resource created.
 
