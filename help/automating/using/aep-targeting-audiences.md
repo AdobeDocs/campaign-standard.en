@@ -57,6 +57,8 @@ You can now configure your workflow with other activities. You can, for example,
 >[!NOTE]
 >
 >Campaign Standard lets you target Adobe Experience Platform audiences within all delivery channels: Emails, SMS messages, Direct mail messages, Push notifications, and In-app messages.
+>
+>*Note: For all push and in-app messages, Campaign Standard only supports deliveries for known profiles only.
 
 For more on how to use workflows and deliveries, refer to these sections:
 

@@ -28,11 +28,13 @@ To do this, you must add these attributes into the **[!UICONTROL Read audience]*
 
 1. Open the **[!UICONTROL Read audience]** activity. In the **[!UICONTROL Additional data]** tab, click the **[!UICONTROL Create element]** button.
 
-    >[!NOTE]
-    >
-    >The **[!UICONTROL Additional data]** tab is only available after an Adobe Experience Platform audience has been selected.
+    Note that the **[!UICONTROL Additional data]** tab is only available after an Adobe Experience Platform audience has been selected.
 
     ![](assets/aep_wkf_readaudience_attributes.png)
+
+    >[!NOTE]
+    >
+    >Array and map data types are not supported in this feature. Also, only data from the union schema will be displayed in the picker.
 
 1. Select the desired XDM field from the list, then click **[!UICONTROL Confirm]**.
 

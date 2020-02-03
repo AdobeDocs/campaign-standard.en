@@ -22,12 +22,10 @@ snippet: y
 
 In this section, you will discover how to map a Campaign Standard field with an an Experience Data Model (XDM) field.
 
->[!NOTE]
->
->To perform this task, the prerequisites are:
->
-> * an XDM Schema definition via the interface or by using the REST API associated to XDM
-> * a Dataset creation based on the XDM schema definition
+To perform this task, the prerequisites are:
+
+* an XDM Schema definition via the interface or by using the REST API associated to XDM
+* a Dataset creation based on the XDM schema definition
 
 1. Go to **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** and choose the **[!UICONTROL Data mappings]** entry.
 
@@ -74,8 +72,8 @@ If the XDM value is defined as an enumeration in the XDM Schema, you can use the
 
 To edit a XDM mapping, open it, modify the desired information then save it.
 
+![](assets/aep_editmapping.png)
+
 >[!IMPORTANT]
 >
 >For now, if you edit a value in the **[!UICONTROL Field mappings]** section then click outside of the field, your change does not display in the interface until you click the **[!UICONTROL Save]** button. This behaviour occurs only once, when the edit on **[!UICONTROL Field Mappings]** is the first edit on the page.
-
-![](assets/aep_editmapping.png)

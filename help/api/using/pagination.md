@@ -20,7 +20,7 @@ By default, 25 resources are loaded in a list.
 
 The **_lineCount** parameter allows you to limit the number of resources listed in the response.  You can then use the **next** node to display the next results.
 
->[!NOTE]>
+>[!NOTE]
 >
 >Always use the URL value returned in the **next** node to perform a pagination request.
 >
