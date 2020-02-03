@@ -58,6 +58,10 @@ user-guide-title: Adobe Campaign Standard Help
        + [About opt-in and opt-out in Campaign](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
        + [Managing opt-in and opt-out in Campaign](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
        + [Identifying opt-out profiles for a delivery](audiences/using/identifying-opt-out-profiles-for-a-delivery.md)
+  + Working wih Adobe Experience Platform {#working-with-adobe-experience-platform}
+       + [About the Audience Destinations service](audiences/using/aep-about-audience-destinations-service.md)
+       + [Managing Adobe Experience Platform audiences](audiences/using/aep-managing-audiences.md)
+       + [Using the Unified Segment Builder](audiences/using/aep-using-segment-builder.md)
 + Communication channels {#communication-channels}
   + About communication channels {#about-communication-channels}
        + [Discovering communication channels](channels/using/discovering-communication-channels.md)
@@ -283,6 +287,9 @@ user-guide-title: Adobe Campaign Standard Help
        + [Retargeting non-openers](automating/using/workflow-cross-channel-retargeting.md)
        + [Building a control group](automating/using/workflow-control-group.md)
        + [Creating a cross-channel delivery](automating/using/workflow-cross-channel-delivery.md)
+  + Working with Adobe Experience Platform audiences {working-with-aep-audiences}
+       + [Targeting Adobe Experience Platform audiences](automating/using/aep-targeting-audiences.md)
+       + [Personalizing campaigns using Adobe Experience Platform attributes](automating/using/aep-personalizing-campaigns.md)
 + Developing {#developing}
   + About custom resources {#about-custom-resources}
        + [Data model concepts](developing/using/data-model-concepts.md)
@@ -350,6 +357,12 @@ user-guide-title: Adobe Campaign Standard Help
        + [Sending internal notifications](administration/using/sending-internal-notifications.md)
        + [Data retention](administration/using/data-retention.md)
        + [Updates and maintenance operations](administration/using/updates-and-maintenance-operations.md)
+   + Adobe Experience Platform Data Connector {#mapping-campaign-and-aep-data}
+     + [About Adobe Experience Platform Data Connector](administration/using/aep-about-data-connector.md)
+     + [Experience Platform Datamodel overview](administration/using/aep-data-model-overview.md)
+     + [Mapping definition](administration/using/aep-mapping-definition.md)
+     + [Mapping activation](administration/using/aep-mapping-activation.md)
+     + [Triggering data ingestion through APIs](administration/using/aep-triggering-data-ingestion.md)
 + Working with APIs {#working-with-apis}  
   + About Campaign Standard APIs {#about-campaign-standard-apis}
        + [Overview](api/using/about-campaign-standard-apis.md)

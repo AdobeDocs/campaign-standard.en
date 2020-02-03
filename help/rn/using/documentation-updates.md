@@ -28,7 +28,7 @@ You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-n
 
 Adobe Experience Platform Data Connector (beta) - [Read more](../../administration/using/aep-about-data-connector.md)
 
-Integration with Audience Destination service (beta) - [Read more](../../audiences/using/aep-about-audience-destinations-service.md)
+Integration with Audience Destinations service (beta) - [Read more](../../audiences/using/aep-about-audience-destinations-service.md)
 
 Campaign Enhanced MTA for transactional messaging - [Read more](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
 
