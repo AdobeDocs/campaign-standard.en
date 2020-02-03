@@ -102,7 +102,7 @@ For more on this, refer to this [section](../../administration/using/configuring
 
 >[!NOTE]
 >
->If you have upgraded to the Enhanced MTA, the bounce qualifications in the Campaign **[!UICONTROL Message qualification]** table are no longer used. For synchronous delivery failure error messages, the Enhanced MTA determines the bounce type and qualification, and sends back that information to Campaign. Asynchronous bounces are still qualified by the inMail process.
+>Once upgraded to the Enhanced MTA, the bounce qualifications in the Campaign **[!UICONTROL Message qualification]** table are no longer used. For synchronous delivery failure error messages, the Enhanced MTA determines the bounce type and qualification, and sends back that information to Campaign. Asynchronous bounces are still qualified by the inMail process.
 >
 >For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 

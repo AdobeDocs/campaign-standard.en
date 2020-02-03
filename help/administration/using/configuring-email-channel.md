@@ -66,7 +66,7 @@ The account type must always be set to **[!UICONTROL Routing]**, the channel to 
 
 ## Email processing rules {#email-processing-rules}
 
-The **[!UICONTROL Email processing rules]** cen be accessed by Administrators through the **[!UICONTROL Administration > Channels > Email]** menu.
+The **[!UICONTROL Email processing rules]** can be accessed by Administrators through the **[!UICONTROL Administration > Channels > Email]** menu.
 
 These rules contain the list of character strings which can be returned by remote servers and which let you qualify the error (**Hard**, **Soft** or **Ignored**).
 
@@ -84,7 +84,7 @@ The user can create his own rules.
 
 >[!NOTE]
 >
->If you have upgraded to the Enhanced MTA, the bounce qualifications in the Campaign **[!UICONTROL Message qualification]** table are no longer used. For synchronous delivery failure error messages, the Enhanced MTA determines the bounce type and qualification, and sends back that information to Campaign. Asynchronous bounces are still qualified by the inMail process.
+>Once upgraded to the Enhanced MTA, the bounce qualifications in the Campaign **[!UICONTROL Message qualification]** table are no longer used. For synchronous delivery failure error messages, the Enhanced MTA determines the bounce type and qualification, and sends back that information to Campaign. Asynchronous bounces are still qualified by the inMail process.
 >
 >For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
@@ -101,7 +101,7 @@ The **SMTP parameters** act as filters applied for a blocking rule.
 
 >[!NOTE]
 >
->If you have upgraded to the Enhanced MTA, DKIM (DomainKeys Identified Mail) email authentication signing is done by the Enhanced MTA. DKIM-signing by the native Campaign MTA will be turned off within the **[!UICONTROL Domain management]** table as part of the Enhanced MTA upgrade.
+>Once upgraded to the Enhanced MTA, DKIM (DomainKeys Identified Mail) email authentication signing is done by the Enhanced MTA. DKIM-signing by the native Campaign MTA will be turned off within the **[!UICONTROL Domain management]** table as part of the Enhanced MTA upgrade.
 >
 >For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
@@ -109,7 +109,7 @@ The **SMTP parameters** act as filters applied for a blocking rule.
 
 >[!NOTE]
 >
->If you have upgraded to the Enhanced MTA, the Adobe Campaign **MX management** delivery throughput rules are no longer used. The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you’re sending emails.
+>Once upgraded to the Enhanced MTA, the Adobe Campaign **MX management** delivery throughput rules are no longer used. The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you’re sending emails.
 >
 >For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
