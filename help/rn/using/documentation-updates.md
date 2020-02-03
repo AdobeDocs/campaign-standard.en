@@ -26,9 +26,7 @@ You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-n
 
 ### New capabilities included in the release
 
-XXX - [Read more](XXX)
 
-XXX - [Read more](XXX)
 
 ### Other documentation updates coming with the release
 
