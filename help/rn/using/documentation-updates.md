@@ -28,10 +28,6 @@ The privacy management documentation has been updated with information on how to
 
 The Release Notes have been reorganized and improved. [Read more](../../rn/using/release-notes.md)
 
-A new section on the Adobe Experience Platform Data Connector has been added. [Read more](../../administration/using/aep-about-data-connector.md)
-
-A new section has been added following the integration of the Audience Destinations Service with Campaign Standard. [Read more](../../audiences/using/aep-about-audience-destinations-service.md)
-
 ## Documentation updates - January 2020 {#doc-updates-january-2020}
 
 The Deliverability documentation has been updated with a new section on IP Certification. [Read more](../../sending/using/ip-certification.md)
