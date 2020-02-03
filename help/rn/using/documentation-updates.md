@@ -24,11 +24,7 @@ You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-n
 
 ## Release 20.1 - February 2019 {#release-20-1---february-2020}
 
-### New capabilities included in the release
-
 Transactional messaging managed by the Adobe Campaign Enhanced MTA - [Read More](../../channels/using/about-transactional-messaging.md)
-
-### Other documentation updates coming with the release
 
 A new section describing the warnings that can be displayed in a message dashboard is available. [Read more](../../channels/using/message-dashboard.md#warnings)
 
