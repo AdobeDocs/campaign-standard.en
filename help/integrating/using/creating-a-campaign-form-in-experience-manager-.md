@@ -37,4 +37,4 @@ To create an Adobe Campaign form on your AEM site:
 1. Edit the content of the form by adding different fields and components that you can map to the Adobe Campaign database fields.
 1. Test and publish the form to make it accessible on your AEM site.
 
-For more information, refer to the [detailed documentation](https://docs.adobe.com/docs/en/aem/6-2/author/personalization/adobe-campaign/adobe-campaign-forms.html).
+For more information, refer to the [detailed documentation](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/aem-adobe-campaign/adobe-campaign-forms.html).
