@@ -32,7 +32,7 @@ snippet: y
  <tbody> 
   <tr> 
    <td> <p>The Adobe Experience Platform Data Connector is now integrated with Adobe Campaign Standard. You can make your Campaign data available on Adobe Experience Platform by mapping XTK data (data ingested in Campaign) to Adobe Experience Platform Data Model (XDM). </p>
-    <p>Please note this capability is only available to customers hosted on Azure. For more information about this capability and conditions to activate it, refer to the <a href="../../administration/using/aep-about-data-connector.md">detailed documentation</a>.</p>
+    <p>Please note this capability is only available to customers hosted on Azure. For more information about this capability and conditions to activate it, refer to the <a href="../../administration/using/aep-about-data-connector.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">how-to video</a>.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -47,7 +47,7 @@ snippet: y
  <tbody> 
   <tr> 
    <td> <p>Audience Destinations allows you to share segments from Adobe Experience Platform to Adobe Campaign.</p>
-    <p>Please note this capability is only available to customers hosted on Azure. For more information about this capability and conditions to activate it, refer to the <a href="../../audiences/using/aep-about-audience-destinations-service.md">detailed documentation</a>.</p>
+    <p>Please note this capability is only available to customers hosted on Azure. For more information about this capability and conditions to activate it, refer to the <a href="../../audiences/using/aep-about-audience-destinations-service.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html">how-to video</a>. </p>
    </td> 
   </tr> 
  </tbody> 
