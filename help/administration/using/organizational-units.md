@@ -20,7 +20,7 @@ snippet: y
 
 Each object and user of the platform is linked to an organizational unit. This unit allows a hierarchical structure to be defined in order to give users a filtered view. A user's unit defines their access level for different platform objects.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >If a user is not linked to any unit, that user will not be able to connect to Adobe Campaign. If you would like to restrict access for a particular user or group of users, do not link it to the **[!UICONTROL All]** unit.
 >
@@ -99,7 +99,7 @@ By default, the organizational unit fields are not available on your profiles an
 
 Profiles with no organizational units cannot be accessed by users.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >We recommend adding this option before importing any profiles. If you have already imported your customer database, an update is necessary in order to set the organizational unit values on the already imported Profiles.
 
