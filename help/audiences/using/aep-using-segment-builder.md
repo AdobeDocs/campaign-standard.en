@@ -44,7 +44,7 @@ To build a segment, follow these steps:
 
 1. Make sure that the desired merge policy is selected in the settings pane.
 
-    For more information on merge policies, refer to the dedicated section from the [Segment Builder user guide](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md)
+    For more information on merge policies, refer to the dedicated section from the [Segment Builder user guide](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md).
 
     ![](assets/aep_audiences_mergepolicy.png)
 
@@ -62,7 +62,7 @@ To build a segment, follow these steps:
 
 The left pane lists all attributes, events and audiences that are available for use to construct rules.
 
-The fields listed are attributes captured by your company and can be made available through the [Experience Data Model (XDM) System](https://www.adobe.io/apis/experienceplatform/home/xdm.html).
+The fields listed are attributes captured by your company and have been made available through the [Experience Data Model (XDM) System](https://www.adobe.io/apis/experienceplatform/home/xdm.html).
 
 Fields are organized into tabs:
 
@@ -134,7 +134,7 @@ To do this, follow these steps:
 
     ![](assets/aep_audiences_comparing_2.png)
 
-1. Configure the operator between the two fields as desired. In this example, our segment requires that the home address postal code does not equal the work address one.
+1. Configure the operator between the two fields as desired. In this example, we want our segment to target profiles with the home address different from the work address.
 
     ![](assets/aep_audiences_comparing_3.png)
 

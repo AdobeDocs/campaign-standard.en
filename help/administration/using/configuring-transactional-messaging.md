@@ -34,9 +34,9 @@ Start by creating the event corresponding to your needs.
 
    ![](assets/message-center_1.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
-   >The ID must not exceed 64 characters, including EVT prefix.
+   >The ID must not exceed 64 characters, including the EVT prefix.
 
 1. Select the channel that will be used to send your transactional messages **[!UICONTROL Email]**, **[!UICONTROL Mobile (SMS)]** or **[!UICONTROL Mobile application]** (push notification).
 

@@ -326,7 +326,7 @@ _Push notifications_
   </tr> 
   <tr> 
    <td> Dreamweaver integration live<br /> </td> 
-   <td> The integration between Adobe Campaign and Dreamweaver is now live. It now works with the official last released version of Dreamweaver (17.0.2).<br /> This requires the installation of Adobe Campaign Integration extension from here: <a href="http://adobe.ly/acdw_addon">https://adobe.ly/acdw_addon</a><br /> For more information, refer to this <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">video</a>.<br /> </td> 
+   <td> The integration between Adobe Campaign and Dreamweaver is now live. It now works with the official last released version of Dreamweaver (17.0.2).<br /> This requires the installation of Adobe Campaign Integration extension from here: <a href="https://adobe.ly/acdw_addon">https://adobe.ly/acdw_addon</a><br /> For more information, refer to this <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">video</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

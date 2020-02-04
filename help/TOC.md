@@ -68,6 +68,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Key steps to send a message](channels/using/key-steps-to-send-a-message.md)
        + [Accessing messages](channels/using/accessing-messages.md)
        + [Message dashboard](channels/using/message-dashboard.md)
+       + [Multilingual messages templates](channels/using/multilingual-messages-template.md)
   + Email messages {#email-messages}
        + [About emails](channels/using/about-emails.md)
        + [Creating an email](channels/using/creating-an-email.md)

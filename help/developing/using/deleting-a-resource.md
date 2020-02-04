@@ -34,7 +34,7 @@ To re-draft and delete a published resource:
 
 1. Click **[!UICONTROL Ok]**.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >This action is definitive: the resource's database table or colums and their data will be permanently deleted when the modification is published, which can result in broken links from other custom resources. Only the resource definition will remain available.
 
