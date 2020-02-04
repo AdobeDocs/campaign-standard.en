@@ -44,7 +44,7 @@ Information has been added in the Working with APIs guide regarding the new **_f
 
 A new section describing the warnings that can be displayed in a message dashboard is available. [Read more](../../channels/using/message-dashboard.md#warnings)
 
-The Adobe Campaign Enhanced MTA documentation is now available. [Read More](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
+The Adobe Campaign Enhanced MTA documentation, which describes the upgraded sending infrastructure allowing for improved deliverability, throughput, and bounce handling, is now available. [Read More](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
 
 Notes have been added to indicate that the application server and mirror page server URLs must be secure for the landing page and mirror page previews to be displayed from the Campaign user interface. [Read more](../../administration/using/branding.md#configuring-and-using-brands)
 
