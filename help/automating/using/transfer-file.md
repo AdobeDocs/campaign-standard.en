@@ -82,7 +82,13 @@ You can use this activity to recover data that will then be structured with the 
 
       >[!NOTE]
       >
-      >The path must be relative to the storage space directory of the Adobe Campaign server. Files are located in the **sftp&lt;yourinstancename&gt;/** directory. You also cannot browse the directories above the storage space. For example: **user&lt;yourinstancename>/my_recipients.csv** is correct. **../hello/my_recipients.csv** is incorrect. **//myserver/hello/myrecipients.csv** is incorrect.
+      >The path must be relative to the storage space directory of the Adobe Campaign server. Files are located in the **sftp&lt;yourinstancename&gt;/** directory. You also cannot browse the directories above the storage space. For example:
+      >
+      >**user&lt;yourinstancename>/my_recipients.csv** is correct.
+      >
+      >**../hello/my_recipients.csv** is incorrect.
+      >
+      >**//myserver/hello/myrecipients.csv** is incorrect.
 
    Select your protocol and complete the associated fields.
 
