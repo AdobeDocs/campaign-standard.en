@@ -131,13 +131,13 @@ The **toolbar** is a contextual element of the editor interface that offers vari
    <td> Allows access to an Adobe Campaign landing page. Details of how to configure a link are presented in the <a href="../../designing/using/links.md#inserting-a-link">Inserting a link</a> section.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <img height="21px" src="assets/link_subscribe_darkgrey-24px.png" /> <br /> </td> 
+   <td> <img height="21px" src="assets/link_Subscribe_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Subscription link</span> <br /> </td> 
    <td> Any element<br /> </td> 
    <td> Allows you to insert a service subscription link. Details of how to configure a link are presented in the <a href="../../designing/using/links.md#inserting-a-link">Inserting a link</a> section.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <img height="21px" src="assets/link_unsubscribe_darkgrey-24px.png" /> <br /> </td> 
+   <td> <img height="21px" src="assets/link_unSubscribe_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Unsubscription link</span> <br /> </td> 
    <td> Any element<br /> </td> 
    <td> Allows you to insert a service unsubscription link. Details of how to configure a link are presented in the <a href="../../designing/using/links.md#inserting-a-link">Inserting a link</a> section.<br /> </td> 
