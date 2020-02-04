@@ -32,7 +32,7 @@ Default rights are:
 * **[!UICONTROL Start deliveries]**: Right to create, modify, prepare, send, and delete deliveries.
 * **[!UICONTROL Workflow]**: Right to create, modify, start and delete workflows. Users with this role can not send a delivery even in a workflow.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >The **[!UICONTROL Deliverability]**, **[!UICONTROL Command execution]**, **[!UICONTROL Export]**, **[!UICONTROL File access]** and **[!UICONTROL Message Center push]** roles are for Adobe administrators internal use only. They should not be granted to a user.
 
