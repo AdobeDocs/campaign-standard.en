@@ -82,7 +82,7 @@ The executions of recurring deliveries are masked by default. To view them, chec
 
 ![](assets/wkf_display_recurrent_executions_direct_mail.png)
 
-In the parent deliveries, which can be accessed from the marketing activity list or directly via the associated recurring executions, you can view the total number of mails that have been processed (according to the aggregation period specified when the **[!UICONTROL Direct mail delivery]** activity was configured). To do this, open the detail view of the parent delivery's **[!UICONTROL Deployment]** block by selecting ![](assets/wkf_dlv_detail_button.png).
+In the parent deliveries, which can be accessed from the marketing activity list or directly via the associated recurring executions, you can view the total number of mails that have been processed (according to the aggregation period specified when the **[!UICONTROL Direct mail delivery]** activity was configured). To do this, open the detail view of the parent delivery's **[!UICONTROL Deployment]** block by selecting the ![](assets/wkf_dlv_detail_button.png) button.
 
 ![](assets/wkf_display_recurrent_executions_3_direct_mail.png)
 

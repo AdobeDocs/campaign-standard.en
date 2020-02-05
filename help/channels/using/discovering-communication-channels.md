@@ -20,7 +20,7 @@ Adobe Campaign allows you to create and send personalized messages on various ch
 
 It also lets you create cross-channel campaigns to better target recipients.
 
-Four messaging channels are available in Adobe Campaign:
+Five messaging channels are available in Adobe Campaign:
 
 * Email, presented in the [Creating an email](../../channels/using/about-emails.md) section.
 * SMS, presented in the [Creating an SMS message](../../channels/using/about-sms-messages.md) section.

@@ -35,4 +35,4 @@ Discover key capabilities by watching our [Campaign Standard how-to videos](http
 * [Configuring a list](https://video.tv.adobe.com/v/25288): configure a list in Adobe Campaign.
 * [Creating a report](https://video.tv.adobe.com/v/25264): create your own dynamic report.
 
-Besides these short and detailed videos, you can also find [training courses](https://training.adobe.com/training/courses.html) as well as [presentation videos](http://www.adobe.com/training/video.html) on our website.
+Besides these short and detailed videos, you can also find [training courses](https://training.adobe.com/training/courses.html) as well as [presentation videos](https://www.adobe.com/training/video.html) on our website.

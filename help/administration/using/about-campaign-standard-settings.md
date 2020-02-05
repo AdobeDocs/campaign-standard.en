@@ -26,6 +26,6 @@ These settings are available from the **[!UICONTROL Administration]** / **[!UICO
 
 Additionally, technical options are available in the **[!UICONTROL Options]** menu, allowing you to configure the application more specifically. Some of them are built-in when installing Campaign, and others can be added manually when needed (available options vary according to the packages installed with your instance).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >These options are already configured when installing Campaign, and should be modified by advanced users only. If you have any question or request, reach out to your Adobe contact.

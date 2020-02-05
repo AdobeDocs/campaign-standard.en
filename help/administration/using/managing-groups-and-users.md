@@ -42,7 +42,7 @@ To restrict a user's access, do not add the user to the Campaign Standard users 
 
 ## Creating a security group and assigning users {#creating-a-security-group-and-assigning-users}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Please note that in the Admin console, security groups are referred as profiles.
 
@@ -135,7 +135,7 @@ The Administrator user has to create the set of security groups that are used to
 
 Your users are now assigned to a security group and can connect to Adobe Campaign.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >If users are removed from a security group in the admin console, they will remain part of the Adobe Campaign security group and will no longer be able to log in Adobe Campaign. In this case, remove the users' email addresses in the admin console to prevent them from receiving sensitive information.
 
