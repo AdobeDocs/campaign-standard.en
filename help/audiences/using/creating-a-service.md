@@ -32,7 +32,7 @@ To configure a service:
 
    ![](assets/lp_service_expiration.png)
 
-You can use the expiration date in a Segmentation activity to target profiles who are subscribed to a service that is not expired.
+    You can use the expiration date in a Segmentation activity to target profiles who are subscribed to a service that is not expired.
 
 1. Fill in the **[!UICONTROL Service label]** field. The service label is mandatory when using a custom confirmation message.
 

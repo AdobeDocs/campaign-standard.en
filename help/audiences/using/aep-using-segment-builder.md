@@ -80,7 +80,7 @@ Fields are organized into tabs:
 >
 >For more on this, refer to the [dedicated documentation](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/tutorials/segmentation/multi_entity_segmentation.md).
 
-By default, the Unified Segment builder displays fields for which data is present. To display the full schema, including fields for which data is not present, enable the **[!UICONTROL Show full XDM schema]** option from the settings.
+By default, the Unified Segment builder displays fields in which data is already present. To display the full schema, including fields for which data is not present, enable the **[!UICONTROL Show full XDM schema]** option from the settings.
 
 ![](assets/aep_audiences_populatedfields.png)
 
@@ -112,7 +112,7 @@ To build a rule, follow these steps:
 
     You can add as many additional rules as desired, in order to target the right profiles.
 
-    When adding a rule to a container, it will be appended to any existing rules with the AND operator. Click the operator to access the option to change it to OR.
+    When adding a rule to a container, it will be appended to any existing rules with the AND logical operator. If needed, click on the logical operator to modify it.
 
     ![](assets/aep_audiences_andoperator.png)
 
