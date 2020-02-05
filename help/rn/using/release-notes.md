@@ -84,6 +84,7 @@ snippet: y
 
 **Patches**
 
+* Fixed an issue when performing a delete privacy request which prevented user data from being deleted in exclusion logs. (CAMP-39003)
 * Fixed an issue which led to accessibility problems when resizing text in a container element.
 * Fixed an issue which prevented users from dismissing the Calendar pop-up that appears on hover in marketing activities.
 * Fixed an issue in the **[!UICONTROL External API]** activity which displayed the **[!UICONTROL Confirm]** button even when no data was modified.
