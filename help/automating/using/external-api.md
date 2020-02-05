@@ -25,9 +25,9 @@ The REST endpoints can be a customer management system, an [Adobe I/O Runtime](h
 >
 >For security reasons, the use of JSSPs is not supported in Campaign Standard. If you need to execute code, you can call an Adobe I/O Runtime instance via the External API activity.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
->This capability is currently in public beta. You need to accept the usage agreement before starting using the External API activity. Please note that since this public beta capability has not yet been commercially released by Adobe, it is not supported by Adobe Client Care, it may contain errors and may not function as well as other released features. 
+>This capability is currently in beta. You need to accept the usage agreement before starting using the External API activity. Please note that since this beta capability has not yet been commercially released by Adobe, it is not supported by Adobe Client Care, it may contain errors and may not function as well as other released features. 
 
 The main characteristics of this activity are:
 

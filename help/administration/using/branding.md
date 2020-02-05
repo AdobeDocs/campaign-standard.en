@@ -30,7 +30,7 @@ The main principle of configuring and using brands is to:
 1. Create one or several delivery and landing page templates for this brand. Refer to the [Creating a template](../../start/using/marketing-activity-templates.md) section.
 1. Create messages and landing pages based on this template. Refer to the [Creating an email](../../channels/using/creating-an-email.md) and [Creating a landing page](../../channels/using/designing-a-landing-page.md) sections.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Brands cannot be created or modified by end-users: these operations have to be performed by Adobe Campaign technical administrator. For any request, contact Adobe Customer care. Multi-branding cannot be used in the context of transactional messaging. For more on this, see [Transactional messages and branding](../../channels/using/about-transactional-messaging.md#permissions-and-branding).
 
@@ -59,7 +59,7 @@ A **Brand** is defined by the following characteristics:
     * **Reply to (name)** with the brand's name.
     * **Error (email address)** with the email address to use in case of an error.
 
-  >[!CAUTION]
+  >[!IMPORTANT]
   >
   >After having updated the header parameters of the emails, if the name and email address of the sender have not changed in the email created from the template, check the template's advanced settings.
 
@@ -70,6 +70,10 @@ A **Brand** is defined by the following characteristics:
     * **External URL of the application server** used for hosting and accessing the different landing pages you create.
     * **External URL of the tracking server** used as the tracked URL during the deliveries.
     * **External URL of the mirror page server** used as the default mirror page in your deliveries.
+
+    >[!NOTE]
+    >
+    >If the application server and mirror page server URLs are not secure (meaning if not starting with https://), the landing page preview and the mirror page rendering cannot be displayed from the Campaign user interface.
 
 * **[!UICONTROL Tracking URL configuration (Web Analytics)]**, which defines the configuration of the URLs tracking for your brand.
 
@@ -115,7 +119,7 @@ In this example, we are going to create a new travel-related brand, and use it i
 
 #### Configure a new brand {#configure-a-new-brand}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Brand configuration is managed by Adobe only as it requires specific permissions and technical settings.
 

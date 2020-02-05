@@ -22,3 +22,9 @@ This report contains data relating to the delivery throughput of a send, or seve
 * The **[!UICONTROL Top 5 deliveries]** table and complementary summary numbers that show the five deliveries with the best gain in retries.
 
 ![](assets/delivery_reports_1.png)
+
+>[!IMPORTANT]
+>
+>Once upgraded to the Enhanced MTA, the **[!UICONTROL Delivery throughput]** page no longer displays the throughput to your email recipients. It shows the throughput speed for the relay of your messages from Campaign over to the Enhanced MTA.
+>
+>For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
