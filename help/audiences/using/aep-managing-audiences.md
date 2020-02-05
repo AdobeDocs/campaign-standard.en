@@ -22,11 +22,11 @@ snippet: y
 
 ## Accessing Adobe Experience Platform audiences
 
-To access the Adobe Experience Platform segment builder, navigate to the **[!UICONTROL Audiences]** card on Campaign Standard home page (or the **[!UICONTROL Audiences]** link in the header), and then select the **[!UICONTROL Adobe Experience Platform]** option.
+To access the Adobe Experience Platform segment builder, navigate to the **[!UICONTROL Audiences]** card on Campaign Standard home page (or the **[!UICONTROL Audiences]** link in the header), and then select the **[!UICONTROL Adobe Experience Platform]** environment.
 
 ![](assets/aep_audiences_access.png)
 
-You will first be directed to the Adobe Experience Platform segment list page, where already existing Adobe Experience Platform segments can be accessed for further editing, if desired.
+You will first be directed to the Adobe Experience Platform segment list page, where already existing Adobe Experience Platform segments can be accessed for further editing.
 
 A search bar and filter are available to help you find the desired Adobe Experience Platform segment.
 
