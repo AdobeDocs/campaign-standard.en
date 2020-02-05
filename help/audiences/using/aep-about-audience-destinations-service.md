@@ -24,9 +24,9 @@ Empower your consumer experiences by leveraging the [Adobe Experience Platform](
 
 Adobe Campaign Standard will then use the **Audience Destinations** service to retrieve a collection of profiles, known as **Audiences**, from AEP for multi-step and/or cross-channel campaign programs.
 
-**Audiences** are created by first building **segments**, which are essentially a set of rules based on virtually any variable (e.g., profile, event, multi-entity data) within a customer profile from AEP to create a multidimensional target. Global concepts on Unified Profile & Segmentation Services can be referenced in [these dedicated documents](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation.html).
+**Audiences** are created by first building **segments**, which are essentially a set of rules based on virtually any variable (e.g., profile, event, multi-entity data) within a customer profile from AEP to create a multidimensional target. Global concepts on Unified Profile & Segmentation Services are referenced in [these dedicated documents](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation.html).
 
-Once a segment has been created, you can then activate it as an audience for a delivery in [Campaign Standard workflows](../../automating/using/aep-targeting-audiences.md). Additionally, you can use contextual data from the Adobe Experience Platform to [personalize](../../automating/using/aep-personalizing-campaigns.md) and add dynamic content to your campaigns, if desired.
+Once a segment has been created, you can then activate it as an audience for a delivery in [Campaign Standard workflows](../../automating/using/aep-targeting-audiences.md). Additionally, you can use contextual data from the Adobe Experience Platform to [personalize](../../automating/using/aep-personalizing-campaigns.md) and add dynamic content to your campaigns.
 
 How-to videos are also available in [this section](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html).
 
