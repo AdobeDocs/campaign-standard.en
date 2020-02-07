@@ -16,26 +16,23 @@ user-guide-title: Adobe Campaign Standard Help
     + [Release Notes 2018](rn/using/release-notes-2018.md)
     + [Release Notes 2017](rn/using/release-notes-2017.md)
 + Getting started {#getting-started}
-  + About Adobe Campaign {#about-adobe-campaign}
-       + [Campaign orchestration](start/using/campaign-orchestration.md)
-       + [Segmentation and targeting](start/using/segmentation-and-targeting.md)
-       + [Dynamic and personalized content](start/using/dynamic-and-personalized-content.md)
-       + [Tracking, monitoring and reporting](start/using/tracking--monitoring-and-reporting.md)
-       + [Integrating with Adobe solutions](start/using/integrating-with-adobe-solutions.md)
-       + [Enriching Campaign database](start/using/enriching-campaign-database.md) 
+  + [About Adobe Campaign Standard](start/using/about-campaign-standard.md)
+  + Get started {#get-started}
+       + [Orchestrate campaigns](orchestrate-campaigns.md)
+       + [Work with audiences](start/using/work-with-audiences.md)
+       + [Design and send messages](design-send-messages.md)
+       + [Monitor your instance](monitor-instance.md)
+       + [Administrate your instance](administrate-instance.md)
   + Discovering the interface {#discovering-the-interface}
        + [About the interface](start/using/about-the-interface.md)
        + [Interface description](start/using/interface-description.md)
        + [Compatible browsers](start/using/compatible-browsers.md)
        + [Customizing lists](start/using/customizing-lists.md)
-  + Marketing plans {#marketing-plans}
+  + Working with marketing activities {#marketing-plans}
        + [Programs and campaigns](start/using/programs-and-campaigns.md)
        + [Marketing activities](start/using/marketing-activities.md)
        + [Marketing activity templates](start/using/marketing-activity-templates.md)
        + [Timeline](start/using/timeline.md)
-  + Tutorials {#tutorials}
-       + [Step-by-step guides](start/using/step-by-step-guides.md)
-       + [How-to videos](start/using/how-to-videos.md)
 + Profiles and audiences {#profiles-and-audiences}
   + [About profiles and audiences](audiences/using/about-profiles-and-audiences.md)
   + Managing profiles {#managing-profiles}
