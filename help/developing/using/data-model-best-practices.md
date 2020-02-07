@@ -106,7 +106,7 @@ When creating a custom resource, you have two options:
 
 Identification keys should not be used as a reference in workflows.
 
-### Indexes {#keys}
+### Indexes {#indexes}
 
 Adobe Campaign automatically adds an index to all primary and internal keys defined in a resource.
 
