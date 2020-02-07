@@ -1,6 +1,6 @@
 ---
 title: Data model best practices in Adobe Campaign Standard
-description: Learn about the Adobe Campaign Standard data model best practices.
+description: Learn about the best practices when designing your Adobe Campaign Standard data model.
 page-status-flag: never-activated
 uuid: cacd563f-6936-4b3e-83e3-5d4ae31d44e8
 contentOwner: sauviat
@@ -16,23 +16,23 @@ snippet: y
 
 # Data model best practices{#data-model-best-practices}
 
-This document outlines key recommendations while designing the data model.
+This document outlines key recommendations while designing your Adobe Campaign data model.
 
 ## Overview {#overview}
 
 Adobe Campaign system is extremely flexible and can be extended beyond the initial implementation. However, while possibilities are infinite, it is critical to make wise decisions and build strong foundations to start designing your data model.
 
-This document will provide common use case and best practices to learn how to architect properly you Adobe Campaign tool.
+This document provides common use cases and best practices to learn how to architect properly you Adobe Campaign tool.
 
 ## Data model architecture {data-model-architecture}
 
-Adobe Campaign Standard is a powerful cross-channel campaign management tool that can help you align your online and offline strategies to create personalized customer experiences.
+Adobe Campaign Standard is a powerful cross-channel campaign management system that can help you align your online and offline strategies to create personalized customer experiences.
 
 ### Customer-centric approach {#customer-centric-approach}
 
-While most Email service providers are communicating to customers via a list-centric approach, Adobe Campaign relies on a relational database in order to leverage a broader view of the customers and their attributes.
+While most email service providers are communicating to customers via a list-centric approach, Adobe Campaign relies on a relational database in order to leverage a broader view of the customers and their attributes.
 
-This customer-centric approach is shown on the chart below. The **Profile** table in grey represents the main customer table around which everything is being built:
+This customer-centric approach is shown on the chart below. The **Profile** resource in grey represents the main customer table around which everything is being built:
 
 ![](assets/customer-centric-data-model.png)
 
@@ -61,55 +61,80 @@ To make the decision whether an attribute would be needed or not in Adobe Campai
 * Attribute used for **data management processes** (aggregate calculation for example)
 * Attribute used for **personalization**
 
-If an attribute does not fall into any of these, you are most likely not going to need this in the platform.
+If not falling into any of these, you are most likely not going to need this attribute in Adobe Campaign.
 
 ### Data types {#data-types}
 
 To ensure good architecture and performance of your system, follow the best practices below to set up data in Adobe Campaign:
-* The length for a **string** field should always be defined with the column. By default, the maximum length in Adobe Campaign is 255, but Adobe recommends keeping the field shorter if you already know that the size will not exceed a shorter length.
-* It is acceptable to have a field shorter in Adobe Campaign than it is in the source system if there is a confirmation that the size in the source system was overestimated and would not be reached. This could mean a shorter string or smaller integer in Adobe Campaign.
+* The length for a string field should always be defined with the column. By default, the maximum length in Adobe Campaign is 255, but Adobe recommends keeping the field shorter if you already know that the size will not exceed a shorter length.
+* It is acceptable to have a field shorter in Adobe Campaign than it is in the source system if you are certain that the size in the source system was overestimated and would not be reached. This could mean a shorter string or smaller integer in Adobe Campaign.
 
-## Best practices when configuring a resource's data structure
+## Configuring data structure {#configuring-data-structure}
 
-### Identifiers and keys {identifiers-and-keys}
+This section outlines best practices when configuring a resource's data structure.
 
-<!-->>[!IMPORTANT]
->
->No table should be defined in Adobe Campaign without setting up primary keys. => on ne peut pas en fait et on ne parle pas de pkey car pas dans l'UI donc...-->
+### Identifiers {identifiers}
 
-Adobe Campaign out-of-the-box tables have three identifiers. It is also possible to add an additional identifier.
+Adobe Campaign resources have three identifiers, and it is possible to add an additional identifier.
 
 The following table describe these identifiers and their purpose.
 
 >[!NOTE]
 >
->The display name is the name of the field while displayed to the user via the Adobe Campaign user interface. The technical name is the actual field name in the resource definition (and the table column name).
+>The display name is the name of the field displayed to the user via the Adobe Campaign user interface. The technical name is the actual field name in the resource definition (and the table column name).
 
-| Display name | Technical name | Description |
-|--- |--- |--- |
-|  | PKey | <ul><li>The id is usually the physical primary key of an Adobe Campaign table.</li><li>An id is usually unique to a specific Adobe Campaign instance. A record/object deployment would generate a different id in the destination instance of Adobe Campaign.</li><li>In Adobe Campaign Standard, this value is not visible to the end-user. Via the API system, it is possible to retrieve a PKey value (which is a generated/hashed value, not the physical id) and it is not recommended to use it for anything else than retrieving/updating/deleting records via API.|
-| ID | name or internalName | <ul><li>Often called “internal name” this information is a unique identifier of a record in a table. However, this value can be manually updated, with usually a generated name.</li><li>This identifier is keeping its value when being deployed in a different instance of Adobe Campaign. It will be required for the object to have a different name than the generated value to be exportable via a package.</li><li>An end user will see “ID” for the field, but it is not the actual primary key of the table.</li></ul> |
-| Label | label | <ul><li>Business identifier of an object/record in Adobe Campaign.</li><li>This object allows spaces and special characters but does not guarantee uniqueness of a record.|
-| ACS ID |  acsId | <ul><li>An additional identifier can be added: the ACS ID. As the PKey should not be used in ACS, this is a solution to obtain a unique value generated during the insertion of a profile record.</li><li>The value can only be automatically generated if the option is enabled in the profile extension resource before a record gets inserted into Adobe Campaign. This UUID can be used as a reconciliation key.</li><li>For more on this, see [Generating a unique ID for profiles and custom resources](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).</li></ul> |
+| Display name | Technical name | Description | Best practices |
+|--- |--- |--- |--- |
+|  | PKey | <ul><li>The PKey is the physical primary key of an Adobe Campaign table.</li><li>This identifier is usually unique to a specific Adobe Campaign instance.</li><li>In Adobe Campaign Standard, this value is not visible to the end user. | <ul><li>Via the API system, it is possible to retrieve a PKey value (which is a generated/hashed value, not the physical key).</li><li>It is not recommended to use it for anything else than retrieving, updating, or deleting records via API.</li><li>For more on this, see the [API documentation](../../api/using/about-campaign-standard-apis.md).</li></ul> |
+| ID | name or internalName | <ul><li>This information is a unique identifier of a record in a table. This value can be manually updated.</li><li>This identifier keeps its value when deployed in a different instance of Adobe Campaign. It must have a different name than the generated value to be exportable via a package.</li><li>This is not the actual primary key of the table.</li></ul> | <ul><li>Do not use special characters such as space “ “, semi-column “:” or hyphen “-“.</li><li>All these characters would be replaced by an underscore “_” (allowed character). For example, “abc-def” and “abc:def” would be stored as “abc_def” and overwrite each other. |
+| Label | label | <ul><li>The label is the business identifier of an object or record in Adobe Campaign.</li><li>This object allows spaces and special characters.</li><li>It does not guarantee the uniqueness of a record.</li></ul>| <ul><li>It is recommended to determine a structure for your object labels.</li><li>This is the most user-friendly solution to identify a record or object for an Adobe Campaign user.</li></ul> |
+| ACS ID |  acsId | <ul><li>An additional identifier can be generated: the ACS ID.</li><li>As the PKey cannot be used in the Adobe Campaign user interface, this is a solution to obtain a unique value generated during the insertion of a profile record.</li><li>The value can only be automatically generated if the option is enabled in the resource before a record gets inserted into Adobe Campaign.</li><li>For more on this, see [Generating a unique ID for profiles and custom resources](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources). | <ul><li>This UUID can be used as a reconciliation key.</li><li>An auto-generated ACS ID cannot be used as a reference in a workflow or in a package definition.</li><li>This value is specific to an Adobe Campaign instance.</li></ul> |</li></ul> |fd|
 
-**Best practices when creating IDs:**
-* It is recommended to rename the record name generated by Adobe Campaign if the object is meant to be deployed from an environment to another. If the object is created under “business-as-usual” activity on production, there is no need to manually rename it unless it helps the IT or user groups with Adobe Campaign maintenance and usability.
-* Any technical object created as a core functionality for a customer implementation of Adobe Campaign (think about data import workflows for example) should be renamed and a convention should be determined for the object name.
-* Do not use special characters as space “ “, semi-column “:” or hyphen “-“. All these characters would be replaced by an underscore “_” (allowed character). While “abc-def” and “abc:def” should be different, they would be stored as “abc_def” and overwrite each other.
+### Identification keys {#keys}
 
-**Best practices when creating labels**:
+Each resource created in Adobe Campaign must have at least one unique identification key.
 
-It is recommended to determine a structure for your object labels as this will be the most user-friendly solution to identify a record or object for an Adobe Campaign user.
-
-**Custom “internal key”**
-
-Most organizations are importing records from external systems. While the physical key of the Profile table is behind the “PKey” attribute, it is possible to determine a custom key in addition.
+<!--Most organizations are importing records from external systems. While the physical key of a resource lies behind the PKey attribute, it is possible to determine a custom key in addition.
 
 This custom key is the actual record primary key in the external system feeding Adobe Campaign.
 
-When an out-of-the-box table has both an ID (internal auto-generated) and internal key, the internal key will be set as a unique index in the physical database table (from Customer data).
+When an out-of-the-box resource has both an internal auto-generated and an internal custom key, the internal key will be set as a unique index in the physical database table.-->
 
-Creating a custom table, you have two options:
-* Combination of auto-generated key (id) and internal key (custom). This option is interesting if your system key is a composite key or not an integer. Integers will provide higher performances in big tables and joining with other tables.
-* Primary key as the external system primary key. In most cases, we would prefer this solution. This simplifies the approach to import/export data, with a consistent key between different systems.
-Takeaway: Primary keys are required for every table created in Adobe Campaign. An autopk should not be used as a reference in workflows.
+When creating a custom resource, you have two options:
+* A combination of auto-generated key and internal custom key. This option is interesting if your system key is a composite key or not an integer. Integers will provide higher performances in big tables and joining with other tables.
+* Using the primary key as the external system primary key. This solution is usually preferred as it simplifies the approach to import and export data, with a consistent key between different systems.
+
+Identification keys should not be used as a reference in workflows.
+
+### Indexes {#keys}
+
+Adobe Campaign automatically adds an index to all primary and internal keys defined in a resource.
+
+* Adobe recommends defining additional indexes as it may improve performance.
+* However, do not add too many indexes as they use space on the database. Numerous indexes may also have a negative performance impact.
+* Carefully select the indexes that need to be defined.
+
+<!--When you are performing an initial import with very high volumes of data insert in Adobe Campaign database, it is recommended to run that import without custom indexes at first. It will allow to accelerate the insertion process. Once you’ve completed this important import, it is possible to enable the index(es).-->
+
+### Links {#links}
+
+* While it is possible to join any table in a workflow, Adobe recommends defining common links between resources directly in the data structure definition.
+* Link should be defined in alignment with the actual data in your tables. A wrong definition could impact data retrieved via links, for example unexpectedly duplicating records.
+* Name your link consistently with the resource name: the link name should help understand what the distant table is.
+* Do not name a link with “id” as a suffix. For example, name it “transaction” rather than “transactionId”.
+
+<!--## Operational best practices {#operational-best-practices}
+
+In order to make sure better performance all the time, below practices could be handy
+* Avoid using operations like “CONTAINS” in queries, if we know what is expected and want to be filtered for, apply the same condition with an “EQUAL TO” or other specific filter operators
+* Avoid joining with non-indexed fields while building data in workflows
+* Try and make sure the processes like import and export happens during off business hours
+* Make sure there is a schedule for all the daily activities and stick to the schedule
+* If one or few of the daily process fails and if it is mandatory to run it that day itself, make sure there are no conflicting processes running during the manual process is kicked off, this can affect the sys-tem performance
+* Make sure none of the Daily campaign run during the import process or any manual process is executed
+* One-to-many relationships
+    * Data design will impact usability and functionality. If you design your data model with lots of one-to-many relationships, it makes it more difficult for users to construct meaningful logic in the application. One-to-many filter logic can be difficult for non-technical marketers to cor-rectly construct and understand.
+    * It's good to have all the essential fields in one table because it makes it easier for users to build queries. Sometimes it's also good for performance to duplicate some fields across tables if it can avoid a join.
+    * Certain built-in functionalities will not be able to reference one-to-many relationships, e.g. Of-fer Weighting formula and Deliveries
+* Use one or several reference tables rather than duplicating a field in every row. When using key/value pairs, it is preferred to choose a numerical key
+* A short string remains acceptable. In case references tables are already in place in an external sys-tem, reusing the same will facilitate the data integration with Adobe Campaign.-->

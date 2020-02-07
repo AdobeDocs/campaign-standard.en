@@ -37,8 +37,7 @@ You can add new fields to a resource to store data that are not part of the out 
 
    >[!NOTE]
    >
-   >If you leave the **[!UICONTROL Label]** field empty, it will automatically be completed from the ID.
-   >We recommend using 30 characters maximum.
+   >Use 30 characters maximum.
 
    ![](assets/schema_extension_4.png)
 
@@ -80,7 +79,7 @@ Each resource must have at least one unique key. For example, you can specify a 
 
    >[!NOTE]
    >
-   >We recommend using 30 characters maximum.
+   >Use 30 characters maximum.
 
 1. To define the elements making up this key, click **[!UICONTROL Create element]** and select the fields that you created for this resource.
 
@@ -104,7 +103,7 @@ Defining indexes is recommended but not mandatory.
 
    >[!NOTE]
    >
-   >We recommend using 30 characters maximum.
+   >Use 30 characters maximum.
 
 1. To define the elements making up this index, select the fields from those that you created for this resource.
 
@@ -143,7 +142,7 @@ A link details the association that one table has with other tables.
 
    >[!NOTE]
    >
-   >We recommend using 30 characters maximum.
+   >Use 30 characters maximum.
    
    >[!CAUTION]
    >
@@ -255,7 +254,7 @@ In the custom resource screen, the **[!UICONTROL Summary]** pane indicates the s
 
    >[!NOTE]
    >
-   >We recommend using 30 characters maximum.
+   >Use 30 characters maximum.
 
 1. If you need to restrict the access to this resource to certain organizational units, specify them here. Only users from authorized units will be able to work with this resource in the application.
 1. Save the modifications.
@@ -273,6 +272,13 @@ It can be enabled for profiles and custom resources only.
 
 1. Create an extension to the profiles resource or create a new resource.
 1. In the data structure definition, check the **[!UICONTROL Add automatic ID field]** option, under the **[!UICONTROL Fields]** section.
+
+    ![](assets/option_id_field.png)
+
+    >[!NOTE]
+    >
+    >Only new records will have an ACS ID. The **[!UICONTROL ACS ID]** field will remain empty for profiles or elements created before activating this option.
+
 1. Save and publish the modification made to the resource. If you want this mechanism to apply for elements created via the API, check the option to extend the API.
 
 The **[!UICONTROL ACS ID]** field is now available and automatically populated when new elements are created manually, from the API, or inserted from an import workflow. The ACS ID field is a UUID field and is indexed.
@@ -285,6 +291,6 @@ When re-importing data that have been processed/updated in another application (
 
 >[!NOTE]
 >
->The **[!UICONTROL ACS ID]** field is not updated for profiles or elements created before activating the option. Only new records will have an ACS ID. This field is in read-only mode: you cannot modify it.
+>The **[!UICONTROL ACS ID]** field is not updated for profiles or elements created before enabling the option. Only new records will have an ACS ID.
 >
->The auto-generated ACS IDs cannot be used as a reference in a workflow or in a package definition. These values are specific to an Adobe Campaign instance.
+>This field is in read-only mode. You cannot modify it.
