@@ -43,8 +43,6 @@ snippet: y
 
 <img width="60px" alt="conditions" src="assets/icon_profile.svg"/>
 
-Use Adobe Campaign’s flexible data model to enrich your customer profile data and add new attributes or tables. Then, use these customer profiles for more accurate segmentation, personalization, and reporting.
-
 Adobe Campaign profiles represent all of the contacts stored in the database. Each profile corresponds to one entry in the database which contains the necessary information for that profile to be targeted, qualified and individually tracked. This means that a profile can be: a client, a prospect, an individual subscribed to a newsletter, a recipient, a user, or any other denomination depending on the organization.
 
 **Read more**
@@ -60,27 +58,17 @@ Campaign Standard offers several tools to help you grow your marketing database.
 
 ### Importing data through workflows {#importing-data-through-workflows}
 
-Workflows allow you to collect data and import it into Campaign database through the use of [**[!UICONTROL Data management]**](../../automating/using/about-data-management-activities.md) activities.
+Workflows allow you to collect data and import it into Campaign database through the use of [**[!UICONTROL Data management]**](../../automating/using/about-data-management-activities.md) activities. Generic information and best practices when importing data through workflows are presented in [this section](../../automating/using/importing-data.md).
 
-Generic information and best practices when importing data through workflows are presented in [this section](../../automating/using/importing-data.md).
+Additionally, you can set up templates to import data. Using import templates is a best practice if you need to import files with the same structure on a regular basis. You can set up two types of templates:
 
-Additionally, you can set up templates to import data. Using import templates is a best practice if you need to import files with the same structure on a regular basis.
+* **Workflow templates**: these are pre-configured workflows that you can set up once according to your needs, and reuse each time you want to import data and udpate the database. An example of workflow template to import data is detailed in [this section](../../automating/using/importing-data.md#example--import-workflow-template).
 
-You can set up two types of templates:
-
-* **Workflow templates**: these are pre-configured workflows that you can set up once according to your needs, and reuse each time you want to import data and udpate the database.
-
-    An example of workflow template to import data is detailed in [this section](../../automating/using/importing-data.md#example--import-workflow-template).
-
-* **Import data templates**: like workflow templates, these are templates based on workflows, that are set up to upload files to update the database. Once configured, they are made available to users with a simplified view under the **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]** menu.
-
-    For more on import data templates, refer to the [dedicated documentation](../../automating/using/importing-data-with-import-templates.md).
+* **Import data templates**: like workflow templates, these are templates based on workflows, that are set up to upload files to update the database. Once configured, they are made available to users with a simplified view under the **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]** menu. For more on import data templates, refer to the [dedicated documentation](../../automating/using/importing-data-with-import-templates.md).
 
 ### Collecting data from landing pages {#collecting-data-from-landing-pages}
 
-Landing pages are web forms that can be used to collect data and create or update existing information in your database.
-
-The principle is as follows:
+Landing pages are web forms that can be used to collect data and create or update existing information in your database. The principle is as follows:
 
 * Create and design your landing page by adding input fields to collect data (first name, last name, email, etc.).
 * Map each input field with the corresponding field from the database.
@@ -91,9 +79,7 @@ For more on landing pages, refer to the [dedicated documentation](../../channels
 ### Synchronizing profiles from Microsoft Dynamics 365
 
 Campaign Standard integration with Microsoft Dynamics 365 allows you to pass on contact data from Microsoft Dynamics 365 to Campaign database.
-These contacts are then visible in the Profiles list and can be targeted in marketing campaigns.
-
-For more on this integration, refer to the [dedicated documentation](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html).
+These contacts are then visible in the Profiles list and can be targeted in marketing campaigns. For more on this integration, refer to the [dedicated documentation](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html).
 
 >[!NOTE]
 >
@@ -101,9 +87,7 @@ For more on this integration, refer to the [dedicated documentation](https://hel
 
 ### Importing data through API calls
 
-Campaign Standard APIs allow you to perform operations to update the database like profiles or services' creation, update or deletion.
-
-For more on how to use the APIs, refer to the [dedicated documentation](../../api/using/about-campaign-standard-apis.md).
+Campaign Standard APIs allow you to perform operations to update the database like profiles or services' creation, update or deletion. For more on how to use the APIs, refer to the [dedicated documentation](../../api/using/about-campaign-standard-apis.md).
 
 >[!CAUTION]
 >
