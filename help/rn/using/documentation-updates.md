@@ -22,6 +22,10 @@ This page lists all the new features and documentation updates for each release 
 
 You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-notes.md).
 
+## Documentation updates - February 2020 {#doc-updates-february-2020}
+
+A new section dedicated to data model design best practices is now available. [Read more](../../developing/using/data-model-best-practices.md)
+
 ## Release 20.1 - February 2019 {#release-20-1---february-2020}
 
 **New capabilities included in the release**
