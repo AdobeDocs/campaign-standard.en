@@ -33,84 +33,52 @@ snippet: y
 </tr>
 <tr>
 <td>Design your deliveries</td>
-<td>Create your first delivery</td>
+<td>Create deliveries</td>
 <td>Personalize and make your deliveries dynamic</td>
-<td>Track your deliveries and manage reports</td>
+<td>Track and monitor your deliveries</td>
 </tr>
 </table>
 
 ## Design your deliveries
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, a lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
-
-<table><tr>
-<td>
-<ul>
-<li><a href="xxxx">xxxx</a></li>
-<li><a href="xxxx">xxxx</a></li>
-</ul>
-</td>
-<td>
-<ul>
-<li><a href="xxxx">xxxx</a></li>
-<li><a href="xxxx">xxxx</a></li>
-</ul>
-</td>
-</tr></table>
-
-## Create your first delivery
+<img width="60px" alt="conditions" src="assets/icon_profile.svg"/>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, a lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
-<table><tr>
-<td>
-<ul>
-<li><a href="xxxx">xxxx</a></li>
-<li><a href="xxxx">xxxx</a></li>
-</ul>
-</td>
-<td>
-<ul>
-<li><a href="xxxx">xxxx</a></li>
-<li><a href="xxxx">xxxx</a></li>
-</ul>
-</td>
-</tr></table>
+**Read more**
+
+* xxxx
+* xxxx
+
+## Create deliveries
+
+<img width="60px" alt="conditions" src="assets/icon_profile.svg"/>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, a lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
+
+**Read more**
+
+* xxxx
+* xxxx
 
 ## Personalize and make your deliveries dynamic
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, a lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
-
-<table><tr>
-<td>
-<ul>
-<li><a href="xxxx">xxxx</a></li>
-<li><a href="xxxx">xxxx</a></li>
-</ul>
-</td>
-<td>
-<ul>
-<li><a href="xxxx">xxxx</a></li>
-<li><a href="xxxx">xxxx</a></li>
-</ul>
-</td>
-</tr></table>
-
-## Track your deliveries and manage reports
+<img width="60px" alt="conditions" src="assets/icon_profile.svg"/>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, a lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
-<table><tr>
-<td>
-<ul>
-<li><a href="xxxx">xxxx</a></li>
-<li><a href="xxxx">xxxx</a></li>
-</ul>
-</td>
-<td>
-<ul>
-<li><a href="xxxx">xxxx</a></li>
-<li><a href="xxxx">xxxx</a></li>
-</ul>
-</td>
-</tr></table>
+**Read more**
+
+* xxxx
+* xxxx
+
+## Track and monitor your deliveries
+
+<img width="60px" alt="conditions" src="assets/icon_profile.svg"/>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, a lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
+
+**Read more**
+
+* xxxx
+* xxxx

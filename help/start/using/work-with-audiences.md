@@ -16,29 +16,6 @@ snippet: y
 
 # Working with profiles & audiences
 
-<table>
-<tr>
-    <td valign="top">
-        <a href="../../start/using/work-with-audiences.md#customer-profiles"><img width="60px" alt="conditions" src="assets/icon_profile.svg"/></a>
-    </td>
-    <td valign="top">
-        <a href="../../start/using/work-with-audiences.md#populating-database"><img width="60px" alt="conditions" src="assets/icon_populate.svg"/></a>
-    </td>
-    <td valign="top">
-        <a href="../../start/using/work-with-audiences.md#organizing-audiences"><img width="60px" alt="conditions" src="assets/icon_audience.svg"/></a>
-    </td>
-    <td valign="top">
-        <a href="../../start/using/work-with-audiences.md#privacy-management"><img width="60px" alt="conditions" src="assets/icon_privacy.svg"/></a>
-    </td>
-</tr>
-<tr>
-<td><a href="../../start/using/work-with-audiences.md#customer-profiles">Customer profiles</a></td>
-<td><a href="../../start/using/work-with-audiences.md#populating-database">Populating your database</a></td>
-<td><a href="../../start/using/work-with-audiences.md#organizing-audiences">Organizing your audiences</a></td>
-<td><a href="../../start/using/work-with-audiences.md#privacy-management">Privacy management</a></td>
-</tr>
-</table>
-
 ## Customer profiles {#customer-profiles}
 
 <img width="60px" alt="conditions" src="assets/icon_profile.svg"/>
@@ -76,6 +53,11 @@ Landing pages are web forms that can be used to collect data and create or updat
 
 For more on landing pages, refer to the [dedicated documentation](../../channels/using/getting-started-with-landing-pages.md).
 
+**Read more**
+
+* xxxx
+* xxxx
+
 ### Synchronizing profiles from Microsoft Dynamics 365
 
 Campaign Standard integration with Microsoft Dynamics 365 allows you to pass on contact data from Microsoft Dynamics 365 to Campaign database.
@@ -85,13 +67,24 @@ These contacts are then visible in the Profiles list and can be targeted in mark
 >
 >Please note that Campaign Standard-Microsoft Dynamics 365 connector is currently in Limited Availability, and that it is subject to several limitations, detailed in the documentation.
 
+**Read more**
+
+* xxxx
+* xxxx
+
 ### Importing data through API calls
 
 Campaign Standard APIs allow you to perform operations to update the database like profiles or services' creation, update or deletion. For more on how to use the APIs, refer to the [dedicated documentation](../../api/using/about-campaign-standard-apis.md).
 
 >[!CAUTION]
 >
->Before performing profiles mass creation or update via API calls, please check the scale limitations corresponding to your license agreement. For more on this, refer to [this page](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
+>Before performing profiles mass creation or update via API calls, please check the scale limitations corresponding to your license agreement. For more on this, refer to 
+[this page](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
+
+**Read more**
+
+* xxxx
+* xxxx
 
 ## Organizing your audiences {#organizing-audiences}
 
@@ -113,3 +106,8 @@ Thanks to the workflows and the query editor, you can build audiences that will 
 GDPR is the European Union’s (EU) new privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU. In addition to the privacy capabilities already available in Adobe Campaign (including consent management, data retention settings, and user roles), we are taking this opportunity in our role as a Data Processor to include additional capabilities, to help facilitate your readiness as a Data Controller for certain GDPR requests.
 
 Refer to this [guide](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html) to learn more about the tools and functionalities that Adobe Campaign provides to help you become GDPR compliant.
+
+**Read more**
+
+* xxxx
+* xxxx

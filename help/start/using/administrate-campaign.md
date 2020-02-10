@@ -41,78 +41,44 @@ snippet: y
 
 ## Campaign data model
 
+<img width="60px" alt="conditions" src="assets/icon_profile.svg"/>
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, a lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
-**More on this:**
+***Read more**
 
-<table><tr>
-<td>
-<ul>
-<li><a href="xxxx">xxxx</a></li>
-<li><a href="xxxx">xxxx</a></li>
-</ul>
-</td>
-<td>
-<ul>
-<li><a href="xxxx">xxxx</a></li>
-<li><a href="xxxx">xxxx</a></li>
-</ul>
-</td>
-</tr></table>
+* xxxx
+* xxxx
 
 ## APIs
 
+<img width="60px" alt="conditions" src="assets/icon_profile.svg"/>
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, a lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
-<table><tr>
-<td>
-<ul>
-<li><a href="xxxx">xxxx</a></li>
-<li><a href="xxxx">xxxx</a></li>
-</ul>
-</td>
-<td>
-<ul>
-<li><a href="xxxx">xxxx</a></li>
-<li><a href="xxxx">xxxx</a></li>
-</ul>
-</td>
-</tr></table>
+**Read more**
+
+* xxxx
+* xxxx
 
 ## Manage users
 
+<img width="60px" alt="conditions" src="assets/icon_profile.svg"/>
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, a lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
-<table><tr>
-<td>
-<ul>
-<li><a href="xxxx">xxxx</a></li>
-<li><a href="xxxx">xxxx</a></li>
-</ul>
-</td>
-<td>
-<ul>
-<li><a href="xxxx">xxxx</a></li>
-<li><a href="xxxx">xxxx</a></li>
-</ul>
-</td>
-</tr></table>
+**Read more**
+
+* xxxx
+* xxxx
 
 ## Configure and monitor your instance
 
+<img width="60px" alt="conditions" src="assets/icon_profile.svg"/>
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, a lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
-<table><tr>
-<td>
-<ul>
-<li><a href="xxxx">xxxx</a></li>
-<li><a href="xxxx">xxxx</a></li>
-</ul>
-</td>
-<td>
-<ul>
-<li><a href="xxxx">xxxx</a></li>
-<li><a href="xxxx">xxxx</a></li>
-</ul>
-</td>
-</tr></table>
+**Read more**
+
+* xxxx
+* xxxx

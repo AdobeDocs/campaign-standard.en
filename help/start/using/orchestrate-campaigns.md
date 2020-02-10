@@ -32,14 +32,16 @@ snippet: y
     </td>
 </tr>
 <tr>
-<td>Key steps </td>
+<td>Key steps to set up a campaign</td>
 <td>Discover marketing activities</td>
 <td>Build workflows</td>
 <td>Integrate Campaign Standard with Adobe solutions</td>
 </tr>
 </table>
 
-## Key steps
+## Key steps to set up a campaign
+
+<img width="60px" alt="conditions" src="assets/icon_profile.svg"/>
 
 Key steps to create and orchestrate a marketing campaign with Adobe Campaign are:
 
@@ -50,59 +52,40 @@ Key steps to create and orchestrate a marketing campaign with Adobe Campaign are
 * **Monitoring and reporting** - Once the campaign has been executed and the different messages have been sent, this stage allows the user to collect the different statuses of the sends, and the tracking and monitoring information. The campaign and delivery reports are generated to track the impact of the campaign and the recipients' activities. See [Reporting tools](../../reporting/using/about-dynamic-reports.md).
 * **Automating** - During this stage, additional factors such as the import/export mechanism implementation methods, the data management and update modes, personalization data identification, etc. are defined. See [Workflows and data management](../../automating/using/workflow-data-and-processes.md).
 
+**Read more**
+
+* xxxx
+* xxxx
+
 ## Discover marketing activities
+
+<img width="60px" alt="conditions" src="assets/icon_profile.svg"/>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, a lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
-<table><tr>
-<td>
-<ul>
-<li><a href="xxxx">xxxx</a></li>
-<li><a href="xxxx">xxxx</a></li>
-</ul>
-</td>
-<td>
-<ul>
-<li><a href="xxxx">xxxx</a></li>
-<li><a href="xxxx">xxxx</a></li>
-</ul>
-</td>
-</tr></table>
+**Read more**
+
+* xxxx
+* xxxx
 
 ## Build workflows
 
+<img width="60px" alt="conditions" src="assets/icon_profile.svg"/>
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, a lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
-<table><tr>
-<td>
-<ul>
-<li><a href="xxxx">xxxx</a></li>
-<li><a href="xxxx">xxxx</a></li>
-</ul>
-</td>
-<td>
-<ul>
-<li><a href="xxxx">xxxx</a></li>
-<li><a href="xxxx">xxxx</a></li>
-</ul>
-</td>
-</tr></table>
+**Read more**
+
+* xxxx
+* xxxx
 
 ## Integrate Campaign Standard with Adobe solutions
 
+<img width="60px" alt="conditions" src="assets/icon_profile.svg"/>
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, a lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
-<table><tr>
-<td>
-<ul>
-<li><a href="xxxx">xxxx</a></li>
-<li><a href="xxxx">xxxx</a></li>
-</ul>
-</td>
-<td>
-<ul>
-<li><a href="xxxx">xxxx</a></li>
-<li><a href="xxxx">xxxx</a></li>
-</ul>
-</td>
-</tr></table>
+**Read more**
+
+* xxxx
+* xxxx
