@@ -27,4 +27,3 @@ Adobe Campaign key capabilities are:
 * Operational reports generation to track the impact of your campaigns and pilot your solution, and dynamic reporting capabilities to create your own reports.
 
 ![](assets/overview_home_page.png)
-
