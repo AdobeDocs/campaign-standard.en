@@ -19,7 +19,7 @@ user-guide-title: Adobe Campaign Standard Help
   + [About Adobe Campaign Standard](start/using/about-campaign-standard.md)
   + Get started {#get-started}
        + [Orchestrate campaigns](orchestrate-campaigns.md)
-       + [Work with audiences](start/using/work-with-audiences.md)
+       + [Work with profiles & audiences](start/using/work-with-audiences.md)
        + [Design and send messages](design-send-messages.md)
        + [Administrate your instance](administrate-instance.md)
   + Discovering the interface {#discovering-the-interface}

@@ -14,21 +14,21 @@ internal: n
 snippet: y
 ---
 
-# Working with audiences
+# Working with profiles & audiences
 
 <table>
 <tr>
     <td valign="top">
-        <a href="../../start/using/work-with-audiences.md"><img width="60px" alt="conditions" src="assets/icon_profile.svg"/></a>
+        <a href="../../start/using/work-with-audiences.md#customer-profiles"><img width="60px" alt="conditions" src="assets/icon_profile.svg"/></a>
     </td>
     <td valign="top">
-        <a href="../../api/using/creating-a-service.md"><img width="60px" alt="conditions" src="assets/icon_populate.svg"/></a>
+        <a href="../../start/using/work-with-audiences.md#populating-database"><img width="60px" alt="conditions" src="assets/icon_populate.svg"/></a>
     </td>
     <td valign="top">
-        <a href="../../api/using/interacting-with-custom-resources.md"><img width="60px" alt="conditions" src="assets/icon_audience.svg"/></a>
+        <a href="../../start/using/work-with-audiences.md#organizing-audiences"><img width="60px" alt="conditions" src="assets/icon_audience.svg"/></a>
     </td>
     <td valign="top">
-        <a href="../../api/using/interacting-with-marketing-history.md"><img width="60px" alt="conditions" src="assets/icon_privacy.svg"/></a>
+        <a href="../../start/using/work-with-audiences.md#privacy-management"><img width="60px" alt="conditions" src="assets/icon_privacy.svg"/></a>
     </td>
 </tr>
 <tr>
@@ -39,7 +39,7 @@ snippet: y
 </tr>
 </table>
 
-## Customer profiles
+## Customer profiles {#customer-profiles}
 
 <img width="60px" alt="conditions" src="assets/icon_profile.svg"/>
 
@@ -52,7 +52,7 @@ Adobe Campaign profiles represent all of the contacts stored in the database. Ea
 * [About profiles](../../audiences/using/about-profiles.md)
 * [Accessing the number of Active Profiles in your organization](../../audiences/using/active-profiles.md)
 
-## Populating your database
+## Populating your database {#populating-database}
 
 <img width="60px" alt="conditions" src="assets/icon_populate.svg"/>
 
@@ -109,7 +109,7 @@ For more on how to use the APIs, refer to the [dedicated documentation](../../ap
 >
 >Before performing profiles mass creation or update via API calls, please check the scale limitations corresponding to your license agreement. For more on this, refer to [this page](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
 
-## Organizing your audiences
+## Organizing your audiences {#organizing-audiences}
 
 <img width="60px" alt="conditions" src="assets/icon_audience.svg"/>
 
@@ -121,7 +121,7 @@ To enable you to deliver relevant and effective messages, and engage your custom
 * [Creating audiences](../../audiences/using/creating-audiences.md)
 * [Sharing audiences with Experience Cloud solutions](../../audiences/using/creating-audiences.md#creating-experience-cloud-audiences)
 
-## Privacy management
+## Privacy management {#privacy-management}
 
 <img width="60px" alt="conditions" src="assets/icon_privacy.svg"/>
 
