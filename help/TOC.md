@@ -21,7 +21,6 @@ user-guide-title: Adobe Campaign Standard Help
        + [Orchestrate campaigns](orchestrate-campaigns.md)
        + [Work with audiences](start/using/work-with-audiences.md)
        + [Design and send messages](design-send-messages.md)
-       + [Monitor your instance](monitor-instance.md)
        + [Administrate your instance](administrate-instance.md)
   + Discovering the interface {#discovering-the-interface}
        + [About the interface](start/using/about-the-interface.md)

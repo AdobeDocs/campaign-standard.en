@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Design & send messages
+# Administrate Campaign Standard
 
 <table>
 <tr>
@@ -32,14 +32,35 @@ snippet: y
     </td>
 </tr>
 <tr>
-<td>Design your deliveries</td>
-<td>Create your first delivery</td>
-<td>Personalize and make your deliveries dynamic</td>
-<td>Track your deliveries and manage reports</td>
+<td>Campaign data model</td>
+<td>APIs</td>
+<td>Manage users</td>
+<td>Configure and monitor your instance</td>
 </tr>
 </table>
 
-## Design your deliveries
+## Campaign data model
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, a lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
+
+**More on this:**
+
+<table><tr>
+<td>
+<ul>
+<li><a href="xxxx">xxxx</a></li>
+<li><a href="xxxx">xxxx</a></li>
+</ul>
+</td>
+<td>
+<ul>
+<li><a href="xxxx">xxxx</a></li>
+<li><a href="xxxx">xxxx</a></li>
+</ul>
+</td>
+</tr></table>
+
+## APIs
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, a lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
@@ -58,7 +79,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mau
 </td>
 </tr></table>
 
-## Create your first delivery
+## Manage users
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, a lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
@@ -77,26 +98,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mau
 </td>
 </tr></table>
 
-## Personalize and make your deliveries dynamic
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, a lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
-
-<table><tr>
-<td>
-<ul>
-<li><a href="xxxx">xxxx</a></li>
-<li><a href="xxxx">xxxx</a></li>
-</ul>
-</td>
-<td>
-<ul>
-<li><a href="xxxx">xxxx</a></li>
-<li><a href="xxxx">xxxx</a></li>
-</ul>
-</td>
-</tr></table>
-
-## Track your deliveries and manage reports
+## Configure and monitor your instance
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, a lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
