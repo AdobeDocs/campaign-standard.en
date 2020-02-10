@@ -113,13 +113,14 @@ For more on how to use the APIs, refer to the [dedicated documentation](../../ap
 
 <img width="60px" alt="conditions" src="assets/icon_audience.svg"/>
 
-To enable you to deliver relevant and effective messages, and engage your customers effectively, Adobe Campaign integrates advanced analysis and targeting functionalities. Thanks to the workflows and the query editor, you can build audiences that will be targeted by your different campaigns, depending on the information that you have on them, their activities, their language, their preferences or their marketing history. This allows you to filter subscribed profiles for example, or create target audiences on an unlimited number of criteria.
+To enable you to deliver relevant and effective messages, and engage your customers effectively, Adobe Campaign integrates advanced analysis and targeting functionalities.
+
+Thanks to the workflows and the query editor, you can build audiences that will be targeted by your different campaigns, depending on the information that you have on them, their activities, their language, their preferences or their marketing history. This allows you to filter subscribed profiles for example, or create target audiences on an unlimited number of criteria.
 
 **Read more**
 
 * [About audiences](../../audiences/using/about-audiences.md)
 * [Creating audiences](../../audiences/using/creating-audiences.md)
-* [Sharing audiences with Experience Cloud solutions](../../audiences/using/creating-audiences.md#creating-experience-cloud-audiences)
 
 ## Privacy management {#privacy-management}
 
