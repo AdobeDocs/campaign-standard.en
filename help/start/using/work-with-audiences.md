@@ -32,10 +32,10 @@ snippet: y
     </td>
 </tr>
 <tr>
-<td>Customer profiles</td>
-<td>Populating your database</td>
-<td>Organizing your audiences</td>
-<td>Privacy management</td>
+<td><a href="../../start/using/work-with-audiences.md#customer-profiles">Customer profiles</a></td>
+<td><a href="../../start/using/work-with-audiences.md#populating-database">Populating your database</a></td>
+<td><a href="../../start/using/work-with-audiences.md#organizing-audiences">Organizing your audiences</a></td>
+<td><a href="../../start/using/work-with-audiences.md#privacy-management">Privacy management</a></td>
 </tr>
 </table>
 
