@@ -41,6 +41,8 @@ snippet: y
 
 ## Customer profiles
 
+<img width="60px" alt="conditions" src="assets/icon_profile.svg"/>
+
 Use Adobe Campaign’s flexible data model to enrich your customer profile data and add new attributes or tables. Then, use these customer profiles for more accurate segmentation, personalization, and reporting.
 
 Adobe Campaign profiles represent all of the contacts stored in the database. Each profile corresponds to one entry in the database which contains the necessary information for that profile to be targeted, qualified and individually tracked. This means that a profile can be: a client, a prospect, an individual subscribed to a newsletter, a recipient, a user, or any other denomination depending on the organization.
@@ -51,6 +53,8 @@ Adobe Campaign profiles represent all of the contacts stored in the database. Ea
 * [Accessing the number of Active Profiles in your organization](../../audiences/using/active-profiles.md)
 
 ## Populating your database
+
+<img width="60px" alt="conditions" src="assets/icon_populate.svg"/>
 
 Campaign Standard offers several tools to help you grow your marketing database. This section details the different methods that you can use to inject data into Campaign, with references to the dedicated documentations.
 
@@ -107,18 +111,19 @@ For more on how to use the APIs, refer to the [dedicated documentation](../../ap
 
 ## Organizing your audiences
 
+<img width="60px" alt="conditions" src="assets/icon_audience.svg"/>
+
 To enable you to deliver relevant and effective messages, and engage your customers effectively, Adobe Campaign integrates advanced analysis and targeting functionalities. Thanks to the workflows and the query editor, you can build audiences that will be targeted by your different campaigns, depending on the information that you have on them, their activities, their language, their preferences or their marketing history. This allows you to filter subscribed profiles for example, or create target audiences on an unlimited number of criteria.
 
 **Read more**
 
 * [About audiences](../../audiences/using/about-audiences.md)
 * [Creating audiences](../../audiences/using/creating-audiences.md)
-* [Creating queries to build audiences](../../audiences/using/creating-audiences.md#creating-query-audiences)
-* [Creating list audiences](../../audiences/using/creating-audiences.md#creating-list-audiences)
-* [Importing an audience from a file](../../audiences/using/creating-audiences.md#creating-file-audiences)
 * [Sharing audiences with Experience Cloud solutions](../../audiences/using/creating-audiences.md#creating-experience-cloud-audiences)
 
 ## Privacy management
+
+<img width="60px" alt="conditions" src="assets/icon_privacy.svg"/>
 
 GDPR is the European Union’s (EU) new privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU. In addition to the privacy capabilities already available in Adobe Campaign (including consent management, data retention settings, and user roles), we are taking this opportunity in our role as a Data Processor to include additional capabilities, to help facilitate your readiness as a Data Controller for certain GDPR requests.
 
