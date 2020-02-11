@@ -42,7 +42,7 @@ As the landing page will impact your platform and data, you need to test careful
 
 >[!NOTE]
 >
->If the application server URL is not secure (meaning if not starting with https://), the landing page preview cannot be displayed from the Campaign user interface. This server is defined when [configuring brands](../../administration/using/branding.md#configuring-and-using-brands).
+>To display the landing page preview in the Campaign user interface, the application server URL must be secure. In that case, use https:// rather than http:// to set up this URL when [configuring your brand](../../administration/using/branding.md#configuring-and-using-brands).
 
 ## Setting up validity parameters {#setting-up-validity-parameters}
 

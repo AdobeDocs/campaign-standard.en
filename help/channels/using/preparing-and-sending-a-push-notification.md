@@ -68,7 +68,7 @@ The steps for creating a push notification with Adobe Campaign are:
 
 1. Before sending the notification, you can test it with test profiles and then see exactly what your recipients will see before sending the delivery. Select **[!UICONTROL Audiences]** from your delivery summary and click the **[!UICONTROL Test profiles]** tab.
 
-   For more on sending tests, refer to [Test profiles](../../sending/using/managing-test-profiles-and-sending-proofs.md).
+   For more on sending tests, refer to [Test profiles](../../sending/using/sending-proofs.md).
 
 1. Select your test profiles and click **[!UICONTROL Preview]** to display the notification: content is personalized with the test profile data.
 1. Check the push notification layout on different devices: select iPhone, Android phone, iPad or Android tablet to preview rendering.

@@ -40,7 +40,7 @@ You can create an email from a [campaign](../../start/using/marketing-activities
 
 1. Define the target of your message based on your business criteria. See [Managing profiles](../../audiences/using/about-profiles.md).
 
-   You can also define the test profiles who will validate the message. See [Managing test profiles](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles).
+   You can also define the test profiles who will validate the message. See [Managing test profiles](../../audiences/using/managing-test-profiles.md).
 
    ![](assets/email_creation_3.png)
 
@@ -75,7 +75,7 @@ You can create an email from a [campaign](../../start/using/marketing-activities
    >
    >You can set global cross-channel fatigue rules that will automatically exclude oversollicited profiles from campaigns. For more on this, see [Fatigue rules](../../administration/using/fatigue-rules.md).
 
-1. Send proofs to check and validate your message and monitor its inbox rendering. See [Sending proof](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs).
+1. Send proofs to check and validate your message and monitor its inbox rendering. See [Sending proof](../../sending/using/sending-proofs.md).
 
    ![](assets/bat_select.png)
 
