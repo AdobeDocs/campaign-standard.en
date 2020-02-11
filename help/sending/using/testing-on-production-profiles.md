@@ -14,29 +14,46 @@ internal: n
 snippet: y
 ---
 
-# Testing deliveries using real profiles and substitution addresses {#testing-deliveries-profiles}
+# Testing and previewing deliveries as a recipient {#testing-deliveries-profiles}
+
+>[!IMPORTANT]
+>
+>This feature will be available with Campaign Standard 20.2 release.
 
 ## Overview {#overview}
 
-principle:
-*  do a preview in email designer selecting a "production" profile, not a test profile.
-* send a test email using data of a specifically selected production profile, to the address of our choice.
+Additionally to test profiles, you can test and preview a delivery by placing yourself in the position of one of the targeted recipients.
 
-Benefits: allows to test on real profile, to have a more relevant testing with real data // test profiles don't allow this or more complicated (extension of test profiles with good fields etc.)
+This allows you to get a real representation of the delivery your recipients will receive, including all custom fields, and personalized/dynamic information.
 
-Limitations
-* email only
-* depuis delivery standalone ou workflow
-* 100 profils maximum
+To do this, Campaign Standard allows you to select one or several profiles among the targeted recipients, and to specify for each of them a subsitution address to which a test delivery (proof) will be sent. Moreover, you can preview the delivery directly from the Email Designer using this same recipient(s). This can be performed either from standalone deliveries or workflows.
 
-## Prerequisites {#Prerequisites}
+>[!NOTE]
+>
+>For now, this feature is only available with **single** deliveries and for the **email** channel.
 
-* delivery must be created and prepared successfully. (because once prepared, campaign will know the profiles to load according to the target)
-* delivery must be a single delivery, not a reccuring
+The key steps are as follows:
 
-## Selecting the profiles and their substitution addresses
+1. Prepare the delivery.
+1. Select among the targeted recipients the one(s) that you want to use for testing and previewing.
+1. Define for each recipient the substitution address that will receive the test delivery.
+1. Preview the delivery in the Email Designer using the selected recipients.
+1. Send a proof of the delivery using the recipients' data to the substitution addresses defined earlier.
 
-1. In the delivery dashboard, make sure that the delivery preparation has been successfull, then open the **[!UICONTROL Audience]** block.
+## Selecting the profiles and defining substitution addresses
+
+To use recipients for testing and previewing, you must first select them and define the substitution address(ses) that will receive the test deliveries.
+
+>[!NOTE]
+>
+>You can select up to 100 recipients for testing and previewing.
+
+To do this, follow these steps:
+
+1. In the delivery dashboard, make sure that the delivery preparation has been successfull, then click the **[!UICONTROL Audience]** block.
+
+   ![](assets/substitution_preparation.png)
+
 1. In the **[!UICONTROL Profile substitutions]** tab, click the **[!UICONTROL Create element]** button to select the profiles to use for testing.
 1. All the profiles corresponding to the delivery target display in the list. Select the desired profile, then click **[!UICONTROL Confirm]**.
 
