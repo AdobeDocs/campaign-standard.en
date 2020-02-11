@@ -37,7 +37,7 @@ To use a test profile as a trap, it must be included in your message's audience.
 
 >[!NOTE]
 >
->As opposed to test profiles used for [proofs](../../sending/sending-proofs.md) or [email rendering](../../sending/using/email-rendering.md), the message is sent at the same time to the main target and to the test profiles used as traps.
+>As opposed to test profiles used for [proofs](../../sending/using/sending-proofs.md) or [email rendering](../../sending/using/email-rendering.md), the message is sent at the same time to the main target and to the test profiles used as traps.
 
 When defining a message's audience:
 
