@@ -22,9 +22,9 @@ snippet: y
 
 **Email Designer enhancements**
 
-Fixed an issue which added an HTML tag element in an outdated fragment when patching it and then saving the content. (CAMP-40685)
-Fixed an issue which added a space when using dynamic content. (CAMP-40605)
-Fixed an issue when configuring a transactional email template. (CAMP-40604)
+* Fixed an issue which added an HTML tag element in an outdated fragment when patching it and then saving the content. (CAMP-40685)
+* Fixed an issue which added a space when using dynamic content. (CAMP-40605)
+* Fixed an issue when configuring a transactional email template. (CAMP-40604)
 
 ## Release 20.1 - February 2020 {#release-20-1---february-2020}
 
