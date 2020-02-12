@@ -42,62 +42,80 @@ The key steps are as follows:
 
 ## Selecting the profiles and defining substitution addresses
 
-To use recipients for testing and previewing, you must first select them and define the substitution address(ses) that will receive the test deliveries.
+To use recipients for proof and previewing, you must first select them and define the substitution addresses that will receive the test deliveries.
 
 >[!NOTE]
 >
 >You can select up to 100 recipients for testing and previewing.
 
-To do this, follow these steps:
+1. In the delivery dashboard, make sure that the delivery preparation is successfull, then click the **[!UICONTROL Audience]** block.
 
-1. In the delivery dashboard, make sure that the delivery preparation has been successfull, then click the **[!UICONTROL Audience]** block.
+    ![](assets/substitution_preparation.png)
 
-       ![](assets/substitution_preparation.png)
-
-1. In the **[!UICONTROL Profile substitutions]** tab, click the **[!UICONTROL Create element]** button to select the recipients to use for testing.
+1. In the **[!UICONTROL Profile substitutions]** tab, click the **[!UICONTROL Create element]** button to select the profiles to use for testing.
 
    ![](assets/substitution_tab.png)
 
-1. Click the profile selection button to display the list of recipients targeted by the delivery.
+1. Click the profile selection button to display the full of profiles targeted by the delivery.
 
-       ![](assets/substitution_recipient_selection.png)
+    ![](assets/substitution_recipient_selection.png)
 
-1. Select the recipient to add, then enter in the **[!UICONTROL Address]** field the substitution address that you want to use for this profile. All test deliveries will be sent to this address, rather than the one specified in the database for the profile.
+1. Select the profile to use for testing, then enter in the **[!UICONTROL Address]** field the desired substitution address. All proofs will be sent to this address, rather than to the address defined for this profile in your database.
 
-    If you want to add a specific prefix to all the test deliveries sent for this recipient, use the **[!UICONTROL Prefix]** field. The prefix will be added to the subject line of the proof.
+    If you want to add a specific prefix to the proofs sent for this profile, fill in the **[!UICONTROL Prefix]** field. The prefix will be added to the subject line of the proofs.
 
-       ![](assets/substitution_address.png)
+    ![](assets/substitution_address.png)
 
     >[!NOTE]
     >
-    >The eye button allows you to access the profile's details. Make sure you saved your changes before clicking.
+    >The eye button allows you to access the profile's details. Make sure you saved your changes before using it.
 
 1. The profile is added to the list, with its associated substitution address and prefix.
 
-    Repeat the above steps for all the recipients that you want to use for testing and/or previewing, then click **[!UICONTROL Confirm]**.
+    Repeat the above steps for all the recipients that you want to use for testing, then click **[!UICONTROL Confirm]**.
 
       ![](assets/substitution_recipients_confirm.png)
 
 1. Once all profiles and substitution addresses are defined, you can send a proof to test the delivery.
 
-    To do this, click the **[!UICONTROL Test]** button, then select the type of test to perform. For more on how to send proofs, refer to [this section](../../sending/using/sending-proofs.md).
+    To do this, click the **[!UICONTROL Test]** button, then select the type of test to perform. For more information on proofs sending, refer to [this section](../../sending/using/sending-proofs.md).
 
-        ![](assets/substitution_send_test.png)
+    ![](assets/substitution_send_test.png)
 
 ### Selecting profiles and substitution addresses from an audience
 
-1. To import from an audience,  click Import from an audience: only profiles from the audience corresponding to the target will be selected)
+Campaign Standard allows you to import an audience of profiles that you will be able to use for proofing and previewing.
 
-1. Que signifie fill subsitutiojn address section? Permet de selectionner la colonne qui contient le mail pour le test ? 
+This allows you, for example, to send to a unique address an entire set of deliveries targeting different profiles.
 
-### Importing profiles and substitution addresses from a file
+1. In the delivery dashboard, make sure that the delivery preparation has been successfull, then click the **[!UICONTROL Audience]** block.
 
-need to build a specific workflow, detail steps
+       ![](assets/substitution_preparation.png)
+
+1. In the **[!UICONTROL Profile substitutions]** tab, select **[!UICONTROL Import from an audience]**.
+
+   ![](assets/substitution_audience_import.png)
+
+1. Select the audience to use, then enter the substitution address and the prefix to use for the proofs sent to the audience.
+
+    ![](assets/substitution_audience_define.png)
+
+    If the substitution addresses and/or prefixes to use have already been defined in your audience, select the **[!UICONTROL From Audience]** option, then specify the column to use to retrieve these information.
+
+    ![](assets/substitution_fromaudience.png)
+
+1. Click the **[!UICONTROL Import]** button to confirm. The profiles from the audience are added to the **[!UICONTROL Profile substitution]** tab, as well as the specified substitution address and prefix.
+
+    ![](assets/substitution_audience_added.png)
+
+    >[!NOTE]
+    >
+    >When importing an audience, only the profiles corresponding to the delivery target will be selected and added to the **[!UICONTROL Profile substitutions]** tab.
 
 ## Previewing the delivery on the selected profiles
 
 substitution addresses must have been configured in the email
-	
+
 1. Une fois préparé, double cliquer sur email pour l'ouvrir dans email designer
 
 1. Bouton preview / Change profile > on accède à la liste des profils configurés dans substitution addresses
