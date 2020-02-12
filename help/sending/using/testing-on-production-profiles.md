@@ -52,32 +52,43 @@ To do this, follow these steps:
 
 1. In the delivery dashboard, make sure that the delivery preparation has been successfull, then click the **[!UICONTROL Audience]** block.
 
-   ![](assets/substitution_preparation.png)
+       ![](assets/substitution_preparation.png)
 
-1. In the **[!UICONTROL Profile substitutions]** tab, click the **[!UICONTROL Create element]** button to select the profiles to use for testing.
-1. All the profiles corresponding to the delivery target display in the list. Select the desired profile, then click **[!UICONTROL Confirm]**.
+1. In the **[!UICONTROL Profile substitutions]** tab, click the **[!UICONTROL Create element]** button to select the recipients to use for testing.
 
-    >[!NOTE]
-    >
-    >Advanced filters are available  in the left hand-side pane to help you refine your search.
+   ![](assets/substitution_tab.png)
 
-1. Enter the substitution address that you want to use for the profile, then click **[!UICONTROL Confirm]**.
+1. Click the profile selection button to display the list of recipients targeted by the delivery.
 
-    The proof delivery will be sent to this address, rather than the one specified in the database for this sam profile.
+       ![](assets/substitution_recipient_selection.png)
+
+1. Select the recipient to add, then enter in the **[!UICONTROL Address]** field the substitution address that you want to use for this profile. All test deliveries will be sent to this address, rather than the one specified in the database for the profile.
+
+    If you want to add a specific prefix to all the test deliveries sent for this recipient, use the **[!UICONTROL Prefix]** field. The prefix will be added to the subject line of the proof.
+
+       ![](assets/substitution_address.png)
 
     >[!NOTE]
     >
     >The eye button allows you to access the profile's details. Make sure you saved your changes before clicking.
 
-1. The profile is added to the list, with its associated substitution address. Repeat the above steps for all the profiles that you want to use for your proof, then click **[!UICONTROL Confirm]**.
-1. Click à nouveau sur prepare pour faire apparaître bouton test
-1. Fenêtre habituelle pour les proofs:
-    Envoie à la fois au test profiles + subsitution addresses renseignés
+1. The profile is added to the list, with its associated substitution address and prefix.
+
+    Repeat the above steps for all the recipients that you want to use for testing and/or previewing, then click **[!UICONTROL Confirm]**.
+
+      ![](assets/substitution_recipients_confirm.png)
+
+1. Once all profiles and substitution addresses are defined, you can send a proof to test the delivery.
+
+    To do this, click the **[!UICONTROL Test]** button, then select the type of test to perform. For more on how to send proofs, refer to [this section](../../sending/using/sending-proofs.md).
+
+        ![](assets/substitution_send_test.png)
 
 ### Selecting profiles and substitution addresses from an audience
 
-	10. To import from an audience,  click Import from an audience: only profiles from the audience corresponding to the target will be selected)
-    1. Que signifie fill subsitutiojn address section? Permet de selectionner la colonne qui contient le mail pour le test ? 
+1. To import from an audience,  click Import from an audience: only profiles from the audience corresponding to the target will be selected)
+
+1. Que signifie fill subsitutiojn address section? Permet de selectionner la colonne qui contient le mail pour le test ? 
 
 ### Importing profiles and substitution addresses from a file
 
@@ -87,11 +98,13 @@ need to build a specific workflow, detail steps
 
 substitution addresses must have been configured in the email
 	
-	1. Une fois préparé, double cliquer sur email pour l'ouvrir dans email designer
-	3. Bouton preview / Change profile > on accède à la liste des profils configurés dans substitution addresses
-	5. On coche les profils voulus puis select
-	6. on peut switcher d'un profil à l'autre avec les flèches
-	
+1. Une fois préparé, double cliquer sur email pour l'ouvrir dans email designer
+
+1. Bouton preview / Change profile > on accède à la liste des profils configurés dans substitution addresses
+
+1. On coche les profils voulus puis select
+
+1. on peut switcher d'un profil à l'autre avec les flèches
 
 ## Use case
 prepare audience with profiles + substitution addresses in a specific field
