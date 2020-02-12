@@ -18,6 +18,14 @@ snippet: y
 
 [Release Planning](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) &#124; [Control Panel releases](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) &#124; [Documentation Updates](../../rn/using/documentation-updates.md) &#124; [Previous Release Notes](../../rn/using/release-notes-2019.md) &#124; [Deprecated Features](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
+## Release 20.1.2 - February 2020 {#release-20-1-2---february-2020}
+
+**Email Designer enhancements**
+
+Fixed an issue which added an HTML tag element in an outdated fragment when patching it and then saving the content. (CAMP-40685)
+Fixed an issue which added a space when using dynamic content. (CAMP-40605)
+Fixed an issue when configuring a transactional email template. (CAMP-40604)
+
 ## Release 20.1 - February 2020 {#release-20-1---february-2020}
 
 **What's new?**
