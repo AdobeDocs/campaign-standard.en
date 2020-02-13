@@ -18,7 +18,7 @@ snippet: y
 
 A proof is a specific message that allows you to test a message before sending it to the main target.
 
-Recipients of the proof are in charge of approving the message (its content and form). They are defined in the **Test profiles**. For more on this, see [Managing test profiles](#managing-test-profiles).
+Recipients of the proof are in charge of approving the message (its content and form). They are defined in the **Test profiles**. For more on this, see [Managing test profiles](../../audiences/using/managing-test-profiles.md).
 
 In order to send a proof, the test profiles must be included in your message's audience.
 
