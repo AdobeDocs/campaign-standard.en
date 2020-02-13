@@ -95,6 +95,10 @@ Campaign Standard allows you to import an audience of profiles that you can use 
 
 This allows you, for example, to send to a unique substitution address an entire set of deliveries targeting different profiles.
 
+>[!NOTE]
+>
+>When importing an audience, only the profiles corresponding to the delivery target will be selected and added to the **[!UICONTROL Profile substitutions]** tab.
+
 1. In the delivery dashboard, make sure that the delivery preparation has been successfull, then click the **[!UICONTROL Audience]** block.
 
        ![](assets/substitution_preparation.png)
@@ -115,9 +119,9 @@ This allows you, for example, to send to a unique substitution address an entire
 
     ![](assets/substitution_audience_added.png)
 
-    >[!NOTE]
-    >
-    >When importing an audience, only the profiles corresponding to the delivery target will be selected and added to the **[!UICONTROL Profile substitutions]** tab.
+>[!NOTE]
+>
+>If you import the same audience once again, with different substitution addresses and/or prefixes, the profiles will be added to the list in addition to those from the previous import.
 
 ## Previewing the delivery on the selected profiles
 
