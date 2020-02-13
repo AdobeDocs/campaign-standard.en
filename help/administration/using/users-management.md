@@ -89,7 +89,7 @@ Thanks to the functional administrator and advanced users, marketers can persona
 Here are the main tasks they can perform:
 
 * [Manage programs and campaigns](../../start/using/programs-and-campaigns.md): create marketing campaigns including different types of activities (emails, SMS messages, push notifications, workflows, landing pages).
-* Manage [profiles](../../audiences/using/about-profiles.md) and [test profiles](../../sending/using/managing-test-profiles-and-sending-proofs.md): manage the identified and test recipients that will be targeted by your deliveries. Add information such as first name, last name, contact information, subscriptions, emails, etc.
+* Manage [profiles](../../audiences/using/about-profiles.md) and [test profiles](../../audiences/using/managing-test-profiles.md): manage the identified and test recipients that will be targeted by your deliveries. Add information such as first name, last name, contact information, subscriptions, emails, etc.
 * [Create and send messages](../../sending/using/confirming-the-send.md): create your message, select the audience, define the message content and its personalization elements, send proofs and send the final message to your audience.
 * [Create and publish landing pages](../../channels/using/getting-started-with-landing-pages.md): create and manage a set of services that you wish to offer your clients, for example subscription or unsubscription forms.
 * [Create and execute campaign workflows](../../automating/using/building-a-workflow.md): automate your campaign processes using workflows.

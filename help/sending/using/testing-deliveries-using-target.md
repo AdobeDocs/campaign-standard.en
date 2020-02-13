@@ -22,28 +22,21 @@ snippet: y
 
 ## Overview {#overview}
 
-Additionally to test profiles, you can test and preview a delivery by placing yourself in the position of one of the targeted profiles.
+Additionally to test profiles, you can test a delivery by placing yourself in the position of one of the targeted profiles. This allows you to get an exact representation of the delivery the profile will receive (custom fields, personalized and dynamic information...).
 
-This allows you to obtain a real representation of the delivery that the profiles will receive, including all custom fields, and personalized information.
+The main steps are as follows:
 
-To do this, Campaign Standard allows you to select one or several profiles among the profiles targeted by the delivery. You can then specify for each profile a **subsitution address** to which proofs will be sent, as well a specific prefix to add to the proof subject line.
-
-Finally, the Email Designer allows you to preview how the delivery will display for each selected profile.
+1. Configure your delivery then launch the **Preparation** phase.
+1. **Select one or several profiles** among the profiles targeted by the delivery.
+1. Associate with each profile a **substitution address** to which proofs will be sent.
+1. (optional) For each profile, define a **prefix** to add to the proof subject line.
+1. **Preview** in the Email Designer how the delivery will display for each selected profile.
 
 >[!NOTE]
 >
 >For now, this feature is only available with the **email** channel.
 
-The key steps are as follows:
-
-1. Prepare the delivery.
-1. Select the targeted profiles that you want to use for testing.
-1. Specify for each profile or for an entire audience the substitution address that will receive the proof.
-1. Define a prefix to add to the proof subject line (optional).
-1. Preview the delivery in the Email Designer using the selected profiles.
-1. Send proofs.
-
-## Defining profiles and substitution addresses {#selecting-profiles}
+## Selecting profiles and substitution addresses {#selecting-profiles}
 
 To use profiles for proofing and previewing, you must first select them and define the substitution addresses that will receive the test deliveries.
 

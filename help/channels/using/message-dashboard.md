@@ -43,9 +43,9 @@ Depending on the parameters that have been set up and the progress made, certain
 
 * **[!UICONTROL Show proofs]**: shows/hides the list of proofs that have been sent, if they exist. This button is only enabled once you have sent proofs.
 
-  For more on proofs, see [Managing test profiles and sending proofs](../../sending/using/managing-test-profiles-and-sending-proofs.md).
+  For more on proofs, see [Sending proofs](../../sending/using/sending-proofs.md).
 
-* **[!UICONTROL Send a test]**: lets you select the approval mode to use: **[!UICONTROL Email rendering]**, **[!UICONTROL Proof]** or both for an email. For more on test profiles, see [Sending proofs](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs).
+* **[!UICONTROL Send a test]**: lets you select the approval mode to use: **[!UICONTROL Email rendering]**, **[!UICONTROL Proof]** or both for an email. For more on test profiles, see [Sending proofs](../../sending/using/sending-proofs.md).
 
   This button is only enabled once you have established test profiles.
 

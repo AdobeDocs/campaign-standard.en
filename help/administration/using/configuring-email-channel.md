@@ -338,6 +338,7 @@ When activated in the delivery template, this feature allows you to send an exac
 ### Recommendations and limitations {#recommendations-and-limitations}
 
 * This feature is optional. Please check your license agreement and contact your account executive to activate it.
+* The BCC address of your choice must be provided to the Adobe team who will configure it for you.
 * You can only use one BCC email address.
 * Only successfully sent emails are taken in account. Bounces are not.
 * For privacy reasons, BCC emails must be processed by an archiving system capable of storing securely personally identifiable information (PII).

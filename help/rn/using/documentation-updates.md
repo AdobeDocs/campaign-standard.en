@@ -134,7 +134,7 @@ A new section was added in the Push notifications section on how to create and u
 
 A new example showing how to send an email containing additional data retrieved from a load file activity has been added. [Read more](../../automating/using/load-file.md#example-2-email-with-enriched-fields)
 
-A new section on how to use traps has been added. [Read more](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps).
+A new section on how to use traps has been added. [Read more](../../sending/using/using-traps.md).
 
 A note about the **Launch_URL_Campaign** option was added in the page on how to configure a mobile application using Adobe Experience Platform SDKs. [Read more](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
 
