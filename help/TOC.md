@@ -134,6 +134,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Previewing messages](sending/using/previewing-messages.md)
        + [Preparing the send](sending/using/preparing-the-send.md)
        + [Sending proofs](sending/using/sending-proofs.md)
+       + [Testing email messages using targeted profiles](sending/using/testing-messages-using-target.md)
        + [Testing the subject line of an email](sending/using/testing-subject-line-email.md)
        + [Email rendering](sending/using/email-rendering.md)
        + [Using traps](sending/using/using-traps.md)
