@@ -58,8 +58,8 @@ You can add new fields to a resource to store data that are not part of the out 
 
    These fields appear in the data and metadata that can be displayed once the database update has been carried out. For more on this, refer to the [Updating the database structure](../../developing/using/updating-the-database-structure.md) section.
 
-1. Check the **[!UICONTROL Add automatic ID]** field to automatically generate an ID. Please note that existing entities will remain empty.
-1. To modify the way in which the name of the resource elements will appear in the lists and creation steps, check the **[!UICONTROL Personalize the resource title]** box. Select a field from those you created for this resource.
+1. Check the **[!UICONTROL Add automatic ID]** field to automatically generate an ID. Please note that existing entities will remain empty. For more on this, refer to the [Generating a unique ID for profiles and custom resources](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).
+1. To modify the way in which the name of the resource elements will appear in the lists and creation steps, check the **[!UICONTROL Customize the title of the resource elements]** box. Select a field from those you created for this resource.
 
    ![](assets/schema_extension_18.png)
 
