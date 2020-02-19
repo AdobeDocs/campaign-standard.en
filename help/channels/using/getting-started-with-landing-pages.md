@@ -124,7 +124,7 @@ If you are satisfied with the way the landing page behaves, you can publish it t
 
 For more on how to test a landing page, refer to [this section](../../channels/using/testing-publishing-landing-page.md#testing-the-landing-page-).
 
-## Step Publish the landing page {#publish-the-landing-page}
+## Step 5 - Publish the landing page {#publish-the-landing-page}
 
 Once the tests are successfull, you can publish the landing page using the **[!UICONTROL Publish]** button from the action bar in the dashboard. A monitoring block shows the progression and status of the publication.
 
