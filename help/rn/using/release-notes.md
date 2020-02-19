@@ -86,6 +86,8 @@ snippet: y
 * Fixed an issue which prevented you from copying and pasting text from a text editor. (CAMP-39028)
 * Fixed an issue which prevented the word suggestions from being displayed. (CAMP-38970)
 * Fixed an issue which prevented users from saving fragments. (ATU-2447)
+* Fixed an issue preventing dynamic structures from being duplicated. (CAMP-38367)
+* Fixed an issue preventing dynamic content to retain conditions when duplicated. (CAMP-39051)
 
 **Other changes**
 
