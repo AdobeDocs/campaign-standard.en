@@ -89,10 +89,12 @@ snippet: y
 
 **Other changes**
 
-* The "Deliveries with preparation failed" filter now takes into account the deliveries' creation date rather than the last modification date. 
+* The "Deliveries with preparation failed" filter now takes into account the deliveries' creation date rather than the last modification date.
 * The Organizational unit of the Administrators security group can no longer be changed.
-* When creating a profile, the Organizational unit field must now be filled. 
+* When creating a profile, the Organizational unit field must now be filled.
 * An Experience Cloud Trigger can now only be deleted if both the event and the transactional template that are linked to it are deleted.
+* Adobe Creative SDK has been decommissioned. It is now deprecated in Campaign Standard. See the [Deprecated and removed features](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) page.
+
 
 **Patches**
 
