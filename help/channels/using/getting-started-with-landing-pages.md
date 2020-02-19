@@ -126,7 +126,7 @@ For more on how to test a landing page, refer to [this section](../../channels/u
 
 ## Step 5 - Publish the landing page {#publish-the-landing-page}
 
-Once the tests are successfull, you can publish the landing page using the **[!UICONTROL Publish]** button from the action bar in the dashboard. A monitoring block shows the progression and status of the publication.
+Once the tests are successful, you can publish the landing page using the **[!UICONTROL Publish]** button from the action bar in the dashboard. A monitoring block shows the progression and status of the publication.
 
 Publishing the landing page makes it accessible online. Once published, you can always update it: to do this, you have to republish it after each modification. You can also unpublish a landing page at any time so that it is no longer available.
 
