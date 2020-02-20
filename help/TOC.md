@@ -11,6 +11,7 @@ user-guide-title: Adobe Campaign Standard Help
 + [Latest Updates](rn/using/documentation-updates.md)
 + Release Notes {#release-notes}
   + [Latest Release](rn/using/release-notes.md)
+  + [Release Planning](rn/using/release-planning.md)
   + Previous Releases {#previous-releases}
     + [Release Notes 2019](rn/using/release-notes-2019.md)
     + [Release Notes 2018](rn/using/release-notes-2018.md)
