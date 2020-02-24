@@ -18,6 +18,10 @@ snippet: y
 
 [Release Planning](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) &#124; [Control Panel releases](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) &#124; [Documentation Updates](../../rn/using/documentation-updates.md) &#124; [Previous Release Notes](../../rn/using/release-notes-2019.md) &#124; [Deprecated Features](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
+## Release 20.1.3 - February 2020 {#release-20-1-3---february-2020}
+
+* Fixed a regression issue introduced in 20.1 by CAMP-39273 for customers using the loophole. CAMP-39273 was reverted. 
+
 ## Release 20.1.2 - February 2020 {#release-20-1-2---february-2020}
 
 **Email Designer enhancements**
@@ -82,6 +86,8 @@ snippet: y
 * Fixed an issue which prevented you from copying and pasting text from a text editor. (CAMP-39028)
 * Fixed an issue which prevented the word suggestions from being displayed. (CAMP-38970)
 * Fixed an issue which prevented users from saving fragments. (ATU-2447)
+* Fixed an issue preventing dynamic structures from being duplicated. (CAMP-38367)
+* Fixed an issue preventing dynamic content to retain conditions when duplicated. (CAMP-39051)
 
 **Other changes**
 
@@ -113,3 +119,4 @@ snippet: y
 * Fixed an issue which caused discrepancy in Unsubscription counts in Dynamic reporting. (CAMP-39949)
 * Fixed an issue which prevented addresses from being displayed in the Sending logs screen when sending In-App messages.
 * Fixed an issue which prevented SMS sending logs from being updated with the correct number of bounces. (CAMP-38395)
+* Fixed a loophole which allowed the application subscription post calls to update the push notification tokens. (CAMP-39273)
