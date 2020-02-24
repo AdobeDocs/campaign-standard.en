@@ -24,6 +24,8 @@ snippet: y
 
 Additionally to [test profiles](../../audiences/using/managing-test-profiles.md), you can test an email message by placing yourself in the position of one of the targeted profiles. This allows you to get an exact representation of the message that the profile will receive (custom fields, personalized and dynamic information...).
 
+Note that this feature is only available for emails, and from the Email Designer only.
+
 The main steps are as follows:
 
 1. Configure your message then launch the **Preparation** phase.
@@ -31,6 +33,7 @@ The main steps are as follows:
 1. Associate with each profile a **substitution address** to which proofs will be sent.
 1. (optional) For each profile, define a **prefix** to add to the proof subject line.
 1. **Preview** in the Email Designer how the message will display for each selected profile.
+1. Send the proofs.
 
 >[!IMPORTANT]
 >
@@ -63,10 +66,6 @@ To use targeted profiles for testing, you must first select them, then define th
     ![](assets/substitution_recipient_selection.png)
 
 1. Select the profile to use for testing, then enter in the **[!UICONTROL Address]** field the desired substitution address, then click **[!UICONTROL Confirm]**. Alls proofs targeting the profile will be sent to this email address, rather than to the one defined in the database for this profile.
-
-    >[!NOTE]
-    >
-    >The eye button allows you to access the profile's details. Make sure you saved your changes before using it.
 
     If you want to add a specific prefix to the proofs' subject line, fill in the **[!UICONTROL Subject line prefix]** field.
 
@@ -152,3 +151,35 @@ To be able to preview messages using targeted profiles, make sure you have added
 1. A preview of the message displays. Use the arrows to navigate between the profiles selected in the previous step.
 
     ![](assets/substitution_preview.png)
+
+## Use case {#use-case}
+
+In this use case, we will build a workflow to target a set of specific profiles, then send them a personnalized email newsletter. Before sending the messages, we will send proofs and preview the messages using internal email addresses that have been defined in a dedicated audience.
+
+The main steps for this use case are as follows:
+
+1. Create and configure the audience to use for testing.
+1. Build the worklow with the query and email activities.
+1. Add the audience to the address subsitutions to use for testing.
+1. Preview the delivery using targeted profiles.
+1. Send proofs to the audience.
+
+### Step 1: Create and configure the audience to use for testing
+
+xx
+
+### Step 2: Build the worklow with the query and email activities
+
+xx
+
+### Step 3: Add the audience to the address subsitutions to use for proof and preview
+
+xx
+
+### Step 4: Preview the delivery using targeted profiles
+
+xx
+
+### Step 5: Send proofs to the audience
+
+xx
