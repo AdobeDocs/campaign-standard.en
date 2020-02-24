@@ -18,7 +18,7 @@ snippet: y
 
 This integration between Adobe Campaign Standard and Adobe Experience Manager allows you to use content created in Adobe Experience Manager in your Adobe Campaign emails.
 
-This use case will show you how to create an email content in Adobe Experience Manager.
+With this use case you will learn how to create and manage email contents in Adobe Experience Manager, then use them for your marketing campaigns by importing them in your emails into Adobe Campaign Standard.
 
 ## Prerequisites {#prerequisites}
 
@@ -30,13 +30,40 @@ You should make sure you have the following elements beforehand:
 
 ## Configuration {#configuration}
 
+## Configuration in Adobe Campaign Standard {#config-acs}
+
 To use these two solutions together, you must configure them to connect to one another.
+To configure Adobe Campaign:
 
-1. Configure Adobe Campaign. To do this:
+1. You first need to configure the **[!UICONTROL Adobe Experience Manager instance]** external account under **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL External accounts menu]**.
 
-    * Configure an Adobe Experience Manager type external account.
-    * Configure the **[!UICONTROL AEMResourceTypeFilter]** option, which recognizes the content types created in Adobe Experience Manager for Adobe Campaign.
-    * Create an email template specifying that it is Adobe Experience Manager content and link the previously created external account to this template.
+1. Configure the Adobe Experience Manager type external account with your **[!UICONTROL Server]** URL, **[!UICONTROL Account]** and **[!UICONTROL Password]**.
+
+    ![](assets/aem_1.png)
+
+1. Check that the **[!UICONTROL AEMResourceTypeFilter]** option has been correctly configured. Access the **[!UICONTROL Options]** menu under **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** menu.
+
+1. In the **[!UICONTROL Value (text)]** field, check that the following syntax is correct:
+
+    ```
+    mcm/campaign/components/newsletter,mcm/campaign/components/campaign_newsletterpage,mcm/neolane/components/newsletter
+    ```
+
+    ![](assets/aem_2.png)
+
+1. Then, in the advanced menu under **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**, duplicate one of the existing template to create an email template specific to Adobe Experience Manager.
+
+    ![](assets/aem_3.png)
+
+1. Click the **[!UICONTROL Edit properties]** icon.
+
+    ![](assets/aem_4.png)
+
+1. Under the **[!UICONTROL Content]** drop-down, select **[!UICONTROL Adobe Experience Manager]** in the **[!UICONTROL Content source]** field then your previously created external account in the **[!UICONTROL Adobe Experience Manager account]**.
+
+You now need to configure the integration in Adobe Experience Manager.
+
+## Configuration in Adobe Experience Manager {#config-aem}
 
 1. Configure Adobe Experience Manager. To do this:
 
@@ -62,4 +89,3 @@ To retrieve the content in Adobe Campaign:
 1. Link a content created with Adobe Experience Manager using the Adobe Campaign email content definition screen.
 
 ![](assets/aem_linked_content.png)
-
