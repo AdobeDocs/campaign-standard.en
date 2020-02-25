@@ -20,7 +20,9 @@ Adobe Campaign's user interface is based on concepts which are common to all the
 
 This interface is intended for web browsers. It is completely resizable and therefore automatically adapts to the media on which it is used: desktop computer or tablet. Every element is compatible with the use of a mouse or touchscreen.
 
-Campaign interface, capabilities and options you can access to may vary depending your contract and user permissions.
+Campaign interface, capabilities and options you can access to may vary depending your contract and user permissions. It is available in English, French and German.
+
+Please note that language is set up at the installation, and cannot be changed afterwards.
 
 In order to adapt to the different uses and new functionalities offered, the Adobe Campaign user interface and all of its elements are updated regularly. You may notice some differences between the version that you are using and the screens shown in this document.
 
