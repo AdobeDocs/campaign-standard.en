@@ -30,7 +30,7 @@ Once you have created your email delivery and defined its content as well as the
 
    ![](assets/email_rendering_05.png)
 
-1. Use the query editor to define the test profiles that you want to use, including the test profiles that are for **Email rendering** use. See [About test profiles](../../sending/using/managing-test-profiles-and-sending-proofs.md#about-test-profiles).
+1. Use the query editor to define the test profiles that you want to use, including the test profiles that are for **Email rendering** use. See [About test profiles](../../audiences/using/managing-test-profiles.md).
 
    ![](assets/email_rendering_06.png)
 
@@ -45,7 +45,7 @@ Once you have created your email delivery and defined its content as well as the
 
    >[!NOTE]
    >
-   >The **[!UICONTROL Proof + Email rendering]** option enables you to send a proof and use the email rendering feature simultaneously. You can have your message approved by the proof recipients and at the same time you can test the way your message will be received depending on the inboxes targeted. In this case, you also need to select Proof test profiles. See [About test profiles](../../sending/using/managing-test-profiles-and-sending-proofs.md#about-test-profiles).
+   >The **[!UICONTROL Proof + Email rendering]** option enables you to send a proof and use the email rendering feature simultaneously. You can have your message approved by the proof recipients and at the same time you can test the way your message will be received depending on the inboxes targeted. In this case, you also need to select Proof test profiles. See [About test profiles](../../audiences/using/managing-test-profiles.md).
 
    The test delivery is sent.
 
@@ -62,7 +62,7 @@ The dedicated email rendering report is displayed. See [Email rendering report d
 **Related topics**:
 
 * [Creating an email](../../channels/using/creating-an-email.md)
-* [Managing test profiles and sending proofs](../../sending/using/managing-test-profiles-and-sending-proofs.md)
+* [Sending proofs](../../sending/using/sending-proofs.md)
 * [Query editor](../../automating/using/editing-queries.md#about-query-editor)
 
 ## Email rendering report description {#email-rendering-report-description}

@@ -46,6 +46,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Editing profiles](audiences/using/editing-profiles.md)
        + [Integrated customer profile](audiences/using/integrated-customer-profile.md)
        + [Active profiles](audiences/using/active-profiles.md)
+       + [Managing test profiles](audiences/using/managing-test-profiles.md) 
   + Managing audiences {#managing-audiences}
        + [About audiences](audiences/using/about-audiences.md)
        + [Creating audiences](audiences/using/creating-audiences.md)
@@ -134,9 +135,10 @@ user-guide-title: Adobe Campaign Standard Help
   + Preparing and testing messages {#preparing-and-testing-messages}
        + [Previewing messages](sending/using/previewing-messages.md)
        + [Preparing the send](sending/using/preparing-the-send.md)
-       + [Managing test profiles and sending proofs](sending/using/managing-test-profiles-and-sending-proofs.md)
+       + [Sending proofs](sending/using/sending-proofs.md)
        + [Testing the subject line of an email](sending/using/testing-subject-line-email.md)
        + [Email rendering](sending/using/email-rendering.md)
+       + [Using traps](sending/using/using-traps.md)
   + Scheduling messages {#scheduling-messages}
        + [About scheduling messages](sending/using/about-scheduling-messages.md)
        + [Optimizing the sending time](sending/using/optimizing-the-sending-time.md)
@@ -290,7 +292,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Retargeting non-openers](automating/using/workflow-cross-channel-retargeting.md)
        + [Building a control group](automating/using/workflow-control-group.md)
        + [Creating a cross-channel delivery](automating/using/workflow-cross-channel-delivery.md)
-  + Working with Adobe Experience Platform audiences {working-with-aep-audiences}
+  + Working with Adobe Experience Platform audiences {#working-with-aep-audiences}
        + [Targeting Adobe Experience Platform audiences](automating/using/aep-targeting-audiences.md)
        + [Personalizing campaigns using Adobe Experience Platform attributes](automating/using/aep-personalizing-campaigns.md)
 + Developing {#developing}

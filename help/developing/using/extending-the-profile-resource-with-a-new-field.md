@@ -37,7 +37,7 @@ Related topics:
 
 * [About custom resources](../../developing/using/data-model-concepts.md)
 * [Managing profiles](../../audiences/using/about-profiles.md)
-* [Managing test profiles](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles)
+* [Managing test profiles](../../audiences/using/managing-test-profiles.md)
 
 ## Step 1: Extend the profile resource {#step-1--extend-the-profile-resource}
 
