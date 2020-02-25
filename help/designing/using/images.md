@@ -68,6 +68,7 @@ The editor allows you to work with **all image types** whose formats are compati
 </object>
 
 ```
+
 <!--
 ## Modifying images with the Adobe Creative SDK{#modifying-images-with-the-adobe-creative-sdk}
 
