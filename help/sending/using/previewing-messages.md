@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Previewing messages{#previewing-messages}
+# Previewing messages {#previewing-messages}
 
 After adding test profiles in the **[!UICONTROL Audience]** window, you can preview your message to check its personalization and how your recipients will see your delivery.
 
@@ -35,4 +35,3 @@ After adding test profiles in the **[!UICONTROL Audience]** window, you can prev
 1. To exit the **[!UICONTROL Preview]** mode, click the **[!UICONTROL Edit]** button on top left of the screen.
 
    ![](assets/sending_preview_edit.png)
-

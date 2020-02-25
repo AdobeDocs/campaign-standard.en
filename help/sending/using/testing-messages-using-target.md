@@ -22,7 +22,7 @@ snippet: y
 
 ## Overview {#overview}
 
-Additionally to [test profiles](../../audiences/using/managing-test-profiles.md), you can test an email message by placing yourself in the position of one of the targeted profiles. This allows you to get an exact representation of the message that the profile will receive (custom fields, personalized and dynamic information...).
+Additionally to [test profiles](../../audiences/using/managing-test-profiles.md), you can test an email message by placing yourself in the position of one of the targeted profiles. This allows you to get an exact representation of the message that the profile will receive (custom fields, dynamic and personalized information, including additional data from workflows...).
 
 Note that this feature is only available for emails, and from the Email Designer only.
 
@@ -95,7 +95,6 @@ To use targeted profiles for testing, you must first select them, then define th
 >
 >If you make any change to your message, make sure you launch the message preparation again. Otherwise, the changes will not be reflected in the proof.
 
-
 ### Importing profiles from an audience {#importing-from-audience}
 
 Campaign Standard allows you to import an audience of profiles that you can use for testing. This allows you, for example, to send to a unique email address an entire set of messages targeting different profiles.
@@ -154,32 +153,57 @@ To be able to preview messages using targeted profiles, make sure you have added
 
 ## Use case {#use-case}
 
-In this use case, we will build a workflow to target a set of specific profiles, then send them a personnalized email newsletter. Before sending the messages, we will send proofs and preview the messages using internal email addresses that have been defined in a dedicated audience.
+In this use case, we want to send to a set of specific profiles a personalized email newsletter. Before sending the newsletter, we want to preview it using some of the targeted recipients, and send proofs to internal email addresses that are defined in an external file.
 
 The main steps for this use case are as follows:
 
-1. Create and configure the audience to use for testing.
+1. Create the audience to use for testing.
 1. Build the worklow with the query and email activities.
 1. Add the audience to the address subsitutions to use for testing.
 1. Preview the delivery using targeted profiles.
 1. Send proofs to the audience.
 
-### Step 1: Create and configure the audience to use for testing
+### Step 1: Create the audience to use for testing
 
-xx
+1. Prepare the file to import to create the audience. It should contain the substitution address to use for the proof, and eventually a prefix to add into the proof's subject line.
+
+    In this example, the email address "olivier.vaughan@internal.com" will receive a proof of the message targeting the profile with the "john.doe@mail.com" email address. The"JD" prefix will be added to the proof's the subject line.
+
+    ![](assets/substitution_uc1.png)
+
+1. Build the workflow to create an audience from the file. To do this, add:
+
+    * a **[!UICONTROL Load file]** activity to import the file.
+    * a **[!UICONTROL Reconciliation]** activity to link data from the file to data from the database. In this example, we will use the profile's email address as reconciliation field.
+    * a **[!UICONTROL Save audience]** activity to import data from the file into an audience.
+
+    ![](assets/substitution_uc2.png)
+
+1. Run the workflow, then go to the **[!UICONTROL Audiences]** to check that the audience has been created with the desired information.
+
+    In this example, the audience is made up of three profiles. Each of them is linked to a substitution email address that will receive a proof with the associated prefix.
+
+    ![](assets/substitution_uc3.png)
 
 ### Step 2: Build the worklow with the query and email activities
 
-xx
+1. add query to target the recipients
+1. add an email activity then prepare the message (on peut designer après?)
+1. launch the message preparation
 
 ### Step 3: Add the audience to the address subsitutions to use for proof and preview
 
-xx
+1. open email activity, profile substitution tab
+1. add the audience then map the columns containing the substitution address and the prefix
 
 ### Step 4: Preview the delivery using targeted profiles
 
-xx
+1. open the email activity then click the content snapshot to open the email designer
+1. click preview, profile substitution tab
+1. select profiles from the audience then preview
 
 ### Step 5: Send proofs to the audience
 
-xx
+1. click test then confirm
+1. proofs sent
+1. once proofs validated, can send the message
