@@ -92,7 +92,7 @@ Customers are advised to review if they make use of the feature/capability in th
 <tr> 
    <td> 19.2<br /> </td> 
    <td> Privacy requests - Campaign API and interface<br /> </td>
-    <td> Adobe Campaign and Adobe Experience Cloud has dropped support for Microsoft Internet Explorer 11 starting Spring 2019, and Campaign 19.2 release. Please switch to Microsoft Edge or another supported browser.  <a href="Learn more">Learn more</a>.<br /> </td>
+    <td> Adobe Campaign and Adobe Experience Cloud has dropped support for Microsoft Internet Explorer 11 starting Spring 2019, and Campaign 19.2 release. Please switch to Microsoft Edge or another supported browser.  <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/getting-started/discovering-the-interface/compatible-browsers.html">Learn more</a>.<br /> </td>
     <td><br /> </td> 
   </tr>
   </tbody> 
