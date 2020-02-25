@@ -11,10 +11,12 @@ user-guide-title: Adobe Campaign Standard Help
 + [Latest Updates](rn/using/documentation-updates.md)
 + Release Notes {#release-notes}
   + [Latest Release](rn/using/release-notes.md)
-  + Previous Releases {#previous-releases}
+  Previous Releases {#previous-releases}
     + [Release Notes 2019](rn/using/release-notes-2019.md)
     + [Release Notes 2018](rn/using/release-notes-2018.md)
     + [Release Notes 2017](rn/using/release-notes-2017.md)
+  + [Release Planning](rn/using/release-planning.md)
+  + [Deprecated Features](rn/using/deprecated-features.md)
 + Getting started {#getting-started}
   + About Adobe Campaign {#about-adobe-campaign}
        + [Campaign orchestration](start/using/campaign-orchestration.md)
