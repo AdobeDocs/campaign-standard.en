@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Creating an email content in Adobe Experience Manager {#creating-email-aem}
+# Configuring the Campaign-Experience Manager integration {#configuration-aem}
 
 This integration between Adobe Campaign Standard and Adobe Experience Manager allows you to use content created in Adobe Experience Manager in your Adobe Campaign emails.
 
@@ -27,8 +27,6 @@ You should make sure you have the following elements beforehand:
 * An Adobe Experience Manager **authoring** instance
 * An Adobe Experience Manager **publishing** instance
 * An Adobe Campaign instance
-
-## Configuration {#configuration}
 
 ## Configuration in Adobe Campaign Standard {#config-acs}
 
@@ -73,22 +71,3 @@ To configure Adobe Experience Manager with Adobe Campaign Standard, you must fol
 
 1. You now need to configure the externalizer in Adobe Experience Manager on your author instance. Refer to this [section](https://docs.adobe.com/content/help/en/experience-manager-65/administering/integration/campaignstandard.html#configuring-the-externalizer).
 
-## Creating an email content in Adobe Experience Manager {#use-case}
-
-To create an email content in Adobe Experience Manager:
-
-1. Create an email content using a template created specifically for Adobe Campaign.
-1. In the content properties, select the **[!UICONTROL Cloud Service]** corresponding to your Adobe Campaign instance.
-1. Edit the content by inserting text, images, personalization, etc.
-1. Validate the content.
-
-For more information, refer to the [detailed documentation](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/aem-adobe-campaign/campaign.html).
-
-![](assets/aem_content.png)
-
-To retrieve the content in Adobe Campaign:
-
-1. Create an email based on an Adobe Experience Manager type content template.
-1. Link a content created with Adobe Experience Manager using the Adobe Campaign email content definition screen.
-
-![](assets/aem_linked_content.png)
