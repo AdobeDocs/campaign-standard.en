@@ -79,7 +79,7 @@ During delivery preparation, profiles are excluded from the delivery if applicab
 
 ![](assets/fatigue16.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >For fatigue rules to work, you need to define a contact date for your delivery. If you choose to send messages immediately, the fatigue rule will not be applied.
 
@@ -98,7 +98,7 @@ The following channels are available:
 * Direct mail
 * Mobile application: this channel allows you to send push notifications to profiles or to app subscribers. If you choose to send notifications to profiles, they will be compatible with multi-channel fatigue rules.
 
-  >[!CAUTION]
+  >[!IMPORTANT]
   >
   >Fatigue rules are not compatible with push notifications sent to app subscribers. If you're sending messages to app subscribers, fatigue rules will not apply.
 
