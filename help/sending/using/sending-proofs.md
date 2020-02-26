@@ -18,9 +18,11 @@ snippet: y
 
 A proof is a specific message that allows you to test a message before sending it to the main target. Recipients of the proof are in charge of approving the message (its content and form).
 
-There are two types of proofs recipients:
+There are two types of proof recipients:
 
-* **Test profiles** allow you to target additional recipients who do not match the defined targeting criteria. They can be added to a message's audience to detect any fraudulent use of your recipient database or to ensure the emails arrive in the inboxes. For more on this, see [Managing test profiles](../../audiences/using/managing-test-profiles.md).
+* **Test profiles** allow you to target additional recipients who do not match the defined targeting criteria.
+
+   They can be added to a message's audience to detect any fraudulent use of your recipient database or to ensure the emails arrive in the inboxes. For more on this, see [Managing test profiles](../../audiences/using/managing-test-profiles.md).
 
    >[!NOTE]
    >
@@ -36,7 +38,7 @@ To send proofs, follow these steps:
 
 1. Make sure the proofs recipients have been configured:
    * **Test profiles** must be included in your message's audience
-   * **Substitution profiles** must be added once the message preparation has been successfull (see [this section](../../sending/using/testing-messages-using-target.md))).
+   * **Substitution profiles** must be added once the message preparation has been successfull (see [this section](../../sending/using/testing-messages-using-target.md)).
 
 1. Click the **[!UICONTROL Send a test]** button.
 
@@ -49,6 +51,10 @@ To send proofs, follow these steps:
     * **[!UICONTROL Proof + Email rendering]**: this option combines the two previous options.
 
    ![](assets/bat_select1.png)
+
+   >[!NOTE]
+   >
+   >Email rendering is available with test profiles only. If no test profiles has been added to the message, only the **[!UICONTROL Proof]** option will be available for selection.
 
 1. Confirm your choice.
 
@@ -73,3 +79,4 @@ You have to send as many proofs as necessary until you have finalized the conten
 * [Sending a test, preparing and sending an email](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/sending-test-preparing-sending-email.html) video
 * [Testing email messages using targeted profiles](../../sending/using/testing-messages-using-target.md).
 * [Managing test profiles](../../audiences/using/managing-test-profiles.md).
+* [Previewing messages](../../sending/using/previewing-messages.md)
