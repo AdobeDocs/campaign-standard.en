@@ -26,7 +26,7 @@ All release dates are subject to change: we recommend you visit this page on a r
 
 Please subscribe to [receive release notifications](https://www.adobe.com/subscription/priority-product-update.html) to get details about latest Adobe Experience Cloud releases straight in your inbox.
 
-## Release 20.1.3 - February Release update {#release-20-1-3---february-release-update}
+## Release 20.1.4 - February Release update {#release-20-1-4---february-release-update}
 
 Environment updates happen in waves, during the indicated timeframes below. Detailed information about this release are available in the [Release Notes](../../rn/using/release-notes.md). If you have any further questions, please contact [Adobe Client Care](https://support.neolane.net/webApp/extranetLogin).
 
