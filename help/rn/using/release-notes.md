@@ -20,7 +20,7 @@ snippet: y
 
 ## Release 20.1.4 - February 2020 {#release-20-1-4---february-2020}
 
-* Fixed an issue when opening a **Read Audience** actvity on existing workflows. (CAMP-39273) 
+* Fixed an issue when opening a **Read Audience** actvity on existing workflows. (CAMP-41002) 
 
 ## Release 20.1.3 - February 2020 {#release-20-1-3---february-2020}
 
