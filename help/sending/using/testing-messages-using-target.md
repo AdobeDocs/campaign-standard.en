@@ -45,7 +45,7 @@ The main steps are as follows:
 
 ## Selecting profiles and substitution addresses {#selecting-profiles}
 
-To use targeted profiles for testing, you must first select them, then define the substitution addresses that will receive the proofs. To do this, you can either [select specific profiles](#selecting-individual-profiles) among the message's recipients, or [import profiles from an existing audience](#importing-from-audience).
+To use targeted profiles for testing, you must first select them, then define the substitution addresses that will receive the proofs. To do this, you can either [select specific profiles](#selecting-individual-profiles) among the targeted profiles, or [import profiles from an existing audience](#importing-from-audience).
 
 >[!NOTE]
 >
@@ -153,15 +153,15 @@ To be able to preview messages using targeted profiles, make sure you have added
 
 ## Use case {#use-case}
 
-In this use case, we want to send to a set of specific profiles a personalized email newsletter. Before sending the newsletter, we want to preview it using some of the targeted recipients, and send proofs to internal email addresses that are defined in an external file.
+In this use case, we want to send to a set of specific profiles a personalized email newsletter. Before sending the newsletter, we want to preview it using some of the targeted profiles, and send proofs to internal email addresses that are defined in an external file.
 
 The main steps for this use case are as follows:
 
 1. Create the audience to use for testing.
-1. Build the worklow with the query and email activities.
-1. Add the audience to the address subsitutions to use for testing.
-1. Preview the delivery using targeted profiles.
-1. Send proofs to the audience.
+1. Build the worklow to target profiles and send the newsletter.
+1. Configure the message's Profile substitutions tab.
+1. Preview the message using targeted profiles.
+1. Send proofs.
 
 ### Step 1: Create the audience to use for testing
 
@@ -171,39 +171,74 @@ The main steps for this use case are as follows:
 
     ![](assets/substitution_uc1.png)
 
-1. Build the workflow to create an audience from the file. To do this, add:
+1. Build the workflow to create an audience from the file. To do this, add and configure the activities below:
 
-    * a **[!UICONTROL Load file]** activity to import the file.
-    * a **[!UICONTROL Reconciliation]** activity to link data from the file to data from the database. In this example, we will use the profile's email address as reconciliation field.
-    * a **[!UICONTROL Save audience]** activity to import data from the file into an audience.
+    * **[!UICONTROL Load file]** activity: import the file.
+    * **[!UICONTROL Reconciliation]** activity: links information from the file to information from the database. In this example, we will use the profile's email address as reconciliation field.
+    * **[!UICONTROL Save audience]** activity: creates an audience based on the imported file.
 
     ![](assets/substitution_uc2.png)
 
-1. Run the workflow, then go to the **[!UICONTROL Audiences]** to check that the audience has been created with the desired information.
+1. Run the workflow, then go to the **[!UICONTROL Audiences]** tab to check that the audience has been created with the desired information.
 
-    In this example, the audience is made up of three profiles. Each of them is linked to a substitution email address that will receive a proof with the associated prefix.
+    In this example, the audience is made up of three profiles. Each of them is linked to a substitution email address that will receive the proof and a prefix to use in the proof's subject line.
 
     ![](assets/substitution_uc3.png)
 
-### Step 2: Build the worklow with the query and email activities
+### Step 2: Build the worklow to target profiles and send the newsletter
 
-1. add query to target the recipients
-1. add an email activity then prepare the message (on peut designer après?)
-1. launch the message preparation
+1. Add **[!UICONTROL Query]** and **[!UICONTROL Email delivery]** activities, then configure them to target the desired profiles.
 
-### Step 3: Add the audience to the address subsitutions to use for proof and preview
+    ![](assets/substitution_uc4.png)
 
-1. open email activity, profile substitution tab
-1. add the audience then map the columns containing the substitution address and the prefix
+1. Run the workflow and make sure that the message preparation is successfull.
 
-### Step 4: Preview the delivery using targeted profiles
+### Step 3: Configure the message's Profile substitution tab
 
-1. open the email activity then click the content snapshot to open the email designer
-1. click preview, profile substitution tab
-1. select profiles from the audience then preview
+1. Open the **[UICONTROL Email delivery]** activity. In the message dashboard, click the **[!UICONTROL Audience]** block.
 
-### Step 5: Send proofs to the audience
+    ![](assets/substitution_uc5.png)
 
-1. click test then confirm
-1. proofs sent
-1. once proofs validated, can send the message
+1. Select the **[!UICONTROL Profile substitutions]** tab, then click **[!UICONTROL Import from an audience]**.
+
+    ![](assets/substitution_uc6.png)
+
+1. In the **[!UICONTROL Audience]**  field, select the audience created in step 1.
+
+    ![](assets/substitution_uc7.png)
+
+1. Define the substitution address and subject line prefix to use when sending the proofs.
+
+    To do this, select the **[!UICONTROL From audience]** option, then select the column from the audience that contains the information.
+
+    ![](assets/substitution_uc8.png)
+
+1. Click the **[!UICONTROL Import]** button. Profiles from the audience are added to the list, with their associated substitution addresses and subject line prefixes.
+
+    ![](assets/substitution_uc9.png)
+
+### Step 4: Preview the message using targeted profiles
+
+1. In the message dashboard, click the content snapshot to open the message in the Email Designer.
+
+    ![](assets/substitution_uc10.png)
+
+1. Select the **[!UICONTROL Preview]** tab, then click **[!UICONTROL Change profile]**.
+
+    ![](assets/substitution_preview_changeprofile.png)
+
+1. Click the **[!UICONTROL Profile Substitution]** tab to display the profiles that have been selected for testing.
+
+    Select the profiles that you want to use for preview, then click **[!UICONTROL Select]**.
+
+1. A preview of the message displays. Use the arrows to navigate between the profiles selected in the previous step.
+
+### Step 5: Send proofs
+
+1. In the message dashboard, click the **[!UICONTROL Test]** button, then confirm.
+
+    ![](assets/substitution_uc_sendproof.png)
+
+1. The proofs are sent according to what has been configured in the **!UICONTROL [Profile substitutions]** tab.
+
+    ![](assets/substitution_uc_proofs.png)
