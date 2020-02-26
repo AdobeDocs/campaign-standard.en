@@ -63,6 +63,8 @@ You can add new fields to a resource to store data that are not part of the out 
 
    ![](assets/schema_extension_18.png)
 
+   If you do not check this option and select a field from the ones that you created, the automatic primary key (autopk, which is automatically created each time an entity is added to the table) will be used when you list all the entities from this table.
+
 The fields of your resource are now defined.
 
 ## Defining identification keys {#defining-identification-keys}
@@ -112,6 +114,8 @@ Defining indexes is recommended but not mandatory.
 1. Click **[!UICONTROL Confirm]**.
 
 The indexes that were created appear in the list in the **[!UICONTROL Index]** section.
+
+To learn about best practices when creating indexes, see this [section](../../developing/using/data-model-best-practices.md#indexes).
 
 ## Defining links with other resources {#defining-links-with-other-resources}
 
