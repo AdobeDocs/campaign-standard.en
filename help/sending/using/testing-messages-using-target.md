@@ -35,7 +35,7 @@ The main steps are as follows:
 
 >[!IMPORTANT]
 >
->This feature allows you to send profile personal information to third-party email addresses. As a result, keep in mind that executing privacy requests (GDPR & CCPA) in Campaign Standard WILL NOT execute that request externally.
+>This feature allows you to send profile personal information to external email addresses. Keep in mind that executing privacy requests (GDPR & CCPA) in Campaign Standard WILL NOT execute that request externally.
 
 ## Selecting profiles and substitution addresses {#selecting-profiles}
 
