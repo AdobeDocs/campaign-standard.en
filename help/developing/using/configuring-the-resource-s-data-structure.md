@@ -63,7 +63,9 @@ You can add new fields to a resource to store data that are not part of the out 
 
    ![](assets/schema_extension_18.png)
 
-   If you do not check this option and select a field from the ones that you created, the automatic primary key (autopk, which is automatically created each time an entity is added to the table) will be used when you list all the entities from this table.
+   >[!NOTE]
+   >
+   >If you do not check this option, the automatic primary key (autopk, which is automatically created each time an entity is added to the table) will be used when you list all the entities from this table.
 
 The fields of your resource are now defined.
 
@@ -90,6 +92,8 @@ Each resource must have at least one unique key. For example, you can specify a 
    Created keys are displayed in the **[!UICONTROL Custom keys]** section.
 
 Your identification keys for the resource are now created.
+
+To learn about best practices when creating identification keys, see this [section](../../developing/using/data-model-best-practices.md#keys).
 
 ## Defining indexes {#defining-indexes}
 
