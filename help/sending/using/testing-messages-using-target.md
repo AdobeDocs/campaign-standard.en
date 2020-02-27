@@ -22,7 +22,7 @@ Additionally to [test profiles](../../audiences/using/managing-test-profiles.md)
 
 >[!NOTE]
 >
-> This feature is only available with email messages only.
+> This feature is available with email messages only.
 
 The main steps are as follows:
 
