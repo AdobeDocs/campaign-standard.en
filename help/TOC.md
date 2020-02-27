@@ -195,6 +195,7 @@ user-guide-title: Adobe Campaign Standard Help
   + [About Campaign integrations](integrating/using/about-campaign-integrations.md)
   + Working with Campaign and Experience Manager {#working-with-campaign-and-experience-manager}
        + [About Campaign-Experience Manager integration](integrating/using/integrating-with-experience-manager.md)
+       + [Configuring the Campaign-Experience Manager integration](integrating/using/configure-experience-manager.md)
        + [Creating an email content in Adobe Experience Manager](integrating/using/creating-email-experience-manager.md)
        + [Creating a Campaign form in Experience Manager](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
   + Working with Campaign and Target {#working-with-campaign-and-target}
@@ -210,7 +211,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Provisioning and configuring integration with Audience Manager or People core service](integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
        + [Troubleshooting](integrating/using/troubleshooting.md)
        + [Sharing audiences with Audience Manager or People core service](integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
-  + [Working with Campaign and Assets core service](integrating/using/working-with-campaign-and-assets-core-service.md)
+       + [Working with Campaign and Assets core service](integrating/using/working-with-campaign-and-assets-core-service.md)
   + Working with Campaign and Analytics for Mobile {#working-with-campaign-and-analytics-for-mobile}
        + [About Campaign-Points of Interest data integration](integrating/using/about-campaign-points-of-interest-data-integration.md)
        + [Configuring Campaign-Points of Interest data integration](integrating/using/configuring-campaign-points-of-interest-data-integration.md)
