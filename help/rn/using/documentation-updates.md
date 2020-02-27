@@ -22,6 +22,14 @@ This page lists all the new features and documentation updates for each release 
 
 You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-notes.md).
 
+## Documentation updates - March 2020 {#doc-updates-january-2020}
+
+The Configuring a mobile application documentation and related pages have been updated to reflect SDK V4 depreciation. [Read more](https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq)
+
+The Adobe Campaign Standard / Adobe Experience Manager integration documentation has been updated and improved. [Read more](../../integrating/using/configure-experience-manager.md)
+
+The Campaign Email Designer documentation and related pages have been updated to reflect Adobe Creative SDK depreciation. [Read more](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+
 ## Release 20.1 - February 2019 {#release-20-1---february-2020}
 
 **New capabilities included in the release**
