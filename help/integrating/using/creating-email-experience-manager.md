@@ -30,7 +30,7 @@ Log in to your Adobe Experience Manager authoring instance and browse your site 
 
 >[!VIDEO](https://images-tv.adobe.com/mpcv3/2674d459-d57b-413b-9d34-9fd941666023_1575035768.854x480at800_h264.mp4)
 
-## Creating new email content in Adobe Experience Manager {#creating-email-aem}
+## Creating new email content in Adobe Experience Manager {#creating-email-content-aem}
 
 Several templates specific to Adobe Campaign are available. You must use one of these templates as they contain predefined components supported by Adobe Campaign.
 
