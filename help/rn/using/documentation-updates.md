@@ -22,7 +22,7 @@ This page lists all the new features and documentation updates for each release 
 
 You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-notes.md).
 
-## Documentation updates - March 2020 {#doc-updates-january-2020}
+## Documentation updates - March 2020 {#doc-updates-march-2020}
 
 The Configuring a mobile application documentation and related pages have been updated to reflect SDK V4 depreciation. [Read more](https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq)
 
