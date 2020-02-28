@@ -18,6 +18,13 @@ snippet: y
 
 This document outlines key recommendations while designing your Adobe Campaign data model.
 
+
+>[!NOTE]
+>
+>To create and modify resources in order to extend the Adobe Campaign pre-defined data model, refer to [this section](../../developing/using/key-steps-to-add-a-resource.md).
+>
+>You can find a datamodel representation for the out-of-the-box resources [here](../../developing/using/datamodel-introduction.md).
+
 ## Overview {#overview}
 
 Adobe Campaign system is extremely flexible and can be extended beyond the initial implementation. However, while possibilities are infinite, it is critical to make wise decisions and build strong foundations to start designing your data model.
@@ -54,24 +61,25 @@ What data should be sent to Adobe Campaign? It is critical to determine the data
 
 >[!NOTE]
 >
->Adobe Campaign is neither a data warehouse or a reporting tool. Therefore, do not try to import all possible customers and their associated information into Adobe Campaign, or import data which will only be used to build reports.
+>Adobe Campaign is not a data warehouse. Therefore, do not try to import all possible customers and their associated information into Adobe Campaign.
 
 To make the decision whether an attribute would be needed or not in Adobe Campaign, determine whether it would fall under one of these categories:
 * Attribute used for **segmentation**
 * Attribute used for **data management processes** (aggregate calculation for example)
 * Attribute used for **personalization**
+* Attribute used for **reporting** (reports can be created based on custom profile data)
 
 If not falling into any of these, you are most likely not going to need this attribute in Adobe Campaign.
 
 ### Data types {#data-types}
 
 To ensure good architecture and performance of your system, follow the best practices below to set up data in Adobe Campaign:
-* The length for a string field should always be defined with the column. By default, the maximum length in Adobe Campaign is 255, but Adobe recommends keeping the field shorter if you already know that the size will not exceed a shorter length.
+* The length for a string field should always be defined with the column. By default, the maximum length in Adobe Campaign is 255 characters, but Adobe recommends keeping the field shorter if you already know that the size will not exceed a shorter length.
 * It is acceptable to have a field shorter in Adobe Campaign than it is in the source system if you are certain that the size in the source system was overestimated and would not be reached. This could mean a shorter string or smaller integer in Adobe Campaign.
 
 ## Configuring data structure {#configuring-data-structure}
 
-This section outlines best practices when configuring a resource's data structure.
+This section outlines best practices when [configuring a resource's data structure](../../developing/using/configuring-the-resource-s-data-structure.md).
 
 ### Identifiers {identifiers}
 
@@ -106,6 +114,8 @@ When creating a custom resource, you have two options:
 
 Identification keys should not be used as a reference in workflows.
 
+For more on defining identification keys, see [this section](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys).
+
 ### Indexes {#indexes}
 
 Adobe Campaign automatically adds an index to all primary and internal keys defined in a resource.
@@ -113,6 +123,8 @@ Adobe Campaign automatically adds an index to all primary and internal keys defi
 * Adobe recommends defining additional indexes as it may improve performance.
 * However, do not add too many indexes as they use space on the database. Numerous indexes may also have a negative performance impact.
 * Carefully select the indexes that need to be defined.
+
+For more on defining indexes, see [this section](../../developing/using/configuring-the-resource-s-data-structure.md#defining-indexes).
 
 <!--When you are performing an initial import with very high volumes of data insert in Adobe Campaign database, it is recommended to run that import without custom indexes at first. It will allow to accelerate the insertion process. Once you’ve completed this important import, it is possible to enable the index(es).-->
 
@@ -123,18 +135,34 @@ Adobe Campaign automatically adds an index to all primary and internal keys defi
 * Name your link consistently with the resource name: the link name should help understand what the distant table is.
 * Do not name a link with “id” as a suffix. For example, name it “transaction” rather than “transactionId”.
 
-<!--## Operational best practices {#operational-best-practices}
+For more on defining links with other resources, see [this section](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources).
 
-In order to make sure better performance all the time, below practices could be handy
-* Avoid using operations like “CONTAINS” in queries, if we know what is expected and want to be filtered for, apply the same condition with an “EQUAL TO” or other specific filter operators
-* Avoid joining with non-indexed fields while building data in workflows
-* Try and make sure the processes like import and export happens during off business hours
-* Make sure there is a schedule for all the daily activities and stick to the schedule
-* If one or few of the daily process fails and if it is mandatory to run it that day itself, make sure there are no conflicting processes running during the manual process is kicked off, this can affect the sys-tem performance
-* Make sure none of the Daily campaign run during the import process or any manual process is executed
-* One-to-many relationships
-    * Data design will impact usability and functionality. If you design your data model with lots of one-to-many relationships, it makes it more difficult for users to construct meaningful logic in the application. One-to-many filter logic can be difficult for non-technical marketers to cor-rectly construct and understand.
-    * It's good to have all the essential fields in one table because it makes it easier for users to build queries. Sometimes it's also good for performance to duplicate some fields across tables if it can avoid a join.
-    * Certain built-in functionalities will not be able to reference one-to-many relationships, e.g. Of-fer Weighting formula and Deliveries
-* Use one or several reference tables rather than duplicating a field in every row. When using key/value pairs, it is preferred to choose a numerical key
-* A short string remains acceptable. In case references tables are already in place in an external sys-tem, reusing the same will facilitate the data integration with Adobe Campaign.-->
+## Performance {#performance}
+
+In order to ensure better performance at any time, follow the best practices below.
+
+### General recommendations {#general-recommendations}
+
+* Avoid using operations like “CONTAINS” in queries. If you know what is expected and want to be filtered for, apply the same condition with an “EQUAL TO” or other specific filter operators.
+* Avoid joining with non-indexed fields while building data in workflows.
+* Try and make sure the processes like import and export happen off business hours.
+* Make sure there is a schedule for all the daily activities and stick to the schedule.
+* If one or few of the daily processes fail and if it is mandatory to run it on that same day, make sure there are no conflicting processes running when the manual process is kicked off as this could affect the system performance.
+* Make sure none of the daily campaign is run during the import process or when any manual process is executed.
+* Use one or several reference tables rather than duplicating a field in every row. When using key/value pairs, it is preferred to choose a numerical key.
+* A short string remains acceptable. In case references tables are already in place in an external system, reusing the same will facilitate the data integration with Adobe Campaign.
+
+### One-to-many relationships {#one-to-many-relationships}
+
+* Data design impacts usability and functionality. If you design your data model with lots of one-to-many relationships, it makes it more difficult for users to construct meaningful logic in the application. One-to-many filter logic can be difficult for non-technical marketers to correctly construct and understand.
+* It is good to have all the essential fields in one table because it makes it easier for users to build queries. Sometimes it is also good for performance to duplicate some fields across tables if it can avoid a join. 
+* Certain built-in functionalities will not be able to reference one-to-many relationships, for example, Offer Weighting formula and Deliveries.
+
+### Large tables {#large-tables}
+
+Below are a few best practices that should be followed when designing your data model using large tables and complex joins.
+
+* Reduce the number of columns, particularly by identifying those that are unused.
+* Optimize the data model relations by avoiding complex joins, such as joins on several conditions and/or several columns.
+* For join keys, always use numeric data rather than character strings.
+* Reduce as much as you can the depth of log retention. If your need deeper history, you can aggregate computation and/or handle custom log tables to store larger history.
