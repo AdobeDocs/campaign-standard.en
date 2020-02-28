@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Campaign Standard Release Planning {#release-planning}
+# Release Planning {#release-planning}
 
 Adobe continuously improves its solutions by adding new capabilities, enhancements and fixes.
 

@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Campaign Standard Deprecated and Removed Features {#deprecated-and-removed-features}
+# Deprecated and Removed Features {#deprecated-and-removed-features}
 
 Adobe constantly evaluates product capabilities to identify older features that should be replaced with more modern alternatives to improve overall customer value, always under careful consideration of backward compatibility.
 
@@ -133,7 +133,7 @@ Customers are advised to review if they make use of the feature/capability in th
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Internet Explorer 11</strong><br /> </th> 
+   <th> <strong>Microsoft Internet Explorer 11</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
