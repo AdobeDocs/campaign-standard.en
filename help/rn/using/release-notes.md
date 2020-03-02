@@ -18,6 +18,10 @@ snippet: y
 
 [Release Planning](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) &#124; [Control Panel releases](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) &#124; [Documentation Updates](../../rn/using/documentation-updates.md) &#124; [Previous Release Notes](../../rn/using/release-notes-2019.md) &#124; [Deprecated Features](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
+## Release 20.1.4 - February 2020 {#release-20-1-4---february-2020}
+
+* Fixed an issue when opening a **Read Audience** actvity on existing workflows. (CAMP-41002) 
+
 ## Release 20.1.3 - February 2020 {#release-20-1-3---february-2020}
 
 * Fixed a regression issue introduced in 20.1 by CAMP-39273 for customers using the loophole. CAMP-39273 was reverted. 
@@ -91,10 +95,12 @@ snippet: y
 
 **Other changes**
 
-* The "Deliveries with preparation failed" filter now takes into account the deliveries' creation date rather than the last modification date. 
+* The "Deliveries with preparation failed" filter now takes into account the deliveries' creation date rather than the last modification date.
 * The Organizational unit of the Administrators security group can no longer be changed.
-* When creating a profile, the Organizational unit field must now be filled. 
+* When creating a profile, the Organizational unit field must now be filled.
 * An Experience Cloud Trigger can now only be deleted if both the event and the transactional template that are linked to it are deleted.
+* Adobe Creative SDK has been decommissioned. It is now deprecated in Campaign Standard. See the [Deprecated and removed features](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) page.
+
 
 **Patches**
 

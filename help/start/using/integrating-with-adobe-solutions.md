@@ -52,10 +52,6 @@ Combine Adobe Experience Cloud solutions with Adobe Campaign, and then you will 
 
   For more on this refer to [Use Experience Cloud Triggers in Campaign Standard](../../integrating/using/about-adobe-experience-cloud-triggers.md).
 
-* Edit images and use a complete set of features powered by the Adobe Creative SDK to enhance your images directly in the content editor
-
-  For more on this refer to [Modifying images with the Adobe Creative SDK](../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk)
-
 * Automate the Mobile App Property activation process in Adobe Campaign using Adobe Experience Platform SDK.
 
   For more on this refer to [Configuring a mobile application using Experience Platform SDKs](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
