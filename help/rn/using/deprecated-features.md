@@ -67,22 +67,6 @@ Customers are advised to review if they make use of the feature/capability in th
   </tr> 
  </tbody> 
 </table>
-
-<table> 
- <thead> 
-  <tr> 
-   <th> <strong>Creative SDK for Campaign Standard</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>Adobe Creative SDK has been decommissioned. As a consequence, image edition powered by Creative SDK in Campaign Standard emails is deprecated starting 20.1 release.</p></br>
-  <p> Target removal date: March 2020 - Campaign 20.2 release</p>
-   </td> 
-  </tr> 
- </tbody> 
-</table>
-
 <table> 
  <thead> 
   <tr> 
