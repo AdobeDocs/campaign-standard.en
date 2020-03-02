@@ -30,6 +30,8 @@ The Adobe Campaign Standard / Adobe Experience Manager integration documentation
 
 The Campaign Email Designer documentation and related pages have been updated to reflect Adobe Creative SDK depreciation. [Read more](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
+A new section dedicated to Campaign Standard data model best practices is now available. [Read more](../../developing/using/data-model-best-practices.md)
+
 ## Release 20.1 - February 2019 {#release-20-1---february-2020}
 
 **New capabilities included in the release**
