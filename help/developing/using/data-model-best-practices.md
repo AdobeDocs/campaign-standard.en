@@ -23,7 +23,7 @@ This document outlines key recommendations while designing your Adobe Campaign d
 >
 >To create and modify resources in order to extend the Adobe Campaign pre-defined data model, refer to [this section](../../developing/using/key-steps-to-add-a-resource.md).
 >
->You can find a datamodel representation for the out-of-the-box resources [here](../../developing/using/datamodel-introduction.md).
+>You can find a data model representation of the out-of-the-box resources [here](../../developing/using/datamodel-introduction.md).
 
 ## Overview {#overview}
 
@@ -93,14 +93,14 @@ The following table describe these identifiers and their purpose.
 
 | Display name | Technical name | Description | Best practices |
 |--- |--- |--- |--- |
-|  | PKey | <ul><li>The PKey is the physical primary key of an Adobe Campaign table.</li><li>This identifier is usually unique to a specific Adobe Campaign instance.</li><li>In Adobe Campaign Standard, this value is not visible to the end user. | <ul><li>Via the API system, it is possible to retrieve a PKey value (which is a generated/hashed value, not the physical key).</li><li>It is not recommended to use it for anything else than retrieving, updating, or deleting records via API.</li><li>For more on this, see the [API documentation](../../api/using/about-campaign-standard-apis.md).</li></ul> |
+|  | PKey | <ul><li>The PKey is the physical primary key of an Adobe Campaign table.</li><li>This identifier is usually unique to a specific Adobe Campaign instance.</li><li>In Adobe Campaign Standard, this value is not visible to the end user. | <ul><li>Via the [API system](../../api/using/about-campaign-standard-apis.md), it is possible to retrieve a PKey value (which is a generated/hashed value, not the physical key).</li><li>It is not recommended to use it for anything else than retrieving, updating, or deleting records via API.</li></ul> |
 | ID | name or internalName | <ul><li>This information is a unique identifier of a record in a table. This value can be manually updated.</li><li>This identifier keeps its value when deployed in a different instance of Adobe Campaign. It must have a different name than the generated value to be exportable via a package.</li><li>This is not the actual primary key of the table.</li></ul> | <ul><li>Do not use special characters such as space “ “, semi-column “:” or hyphen “-“.</li><li>All these characters would be replaced by an underscore “_” (allowed character). For example, “abc-def” and “abc:def” would be stored as “abc_def” and overwrite each other.</li></ul> |
 | Label | label | <ul><li>The label is the business identifier of an object or record in Adobe Campaign.</li><li>This object allows spaces and special characters.</li><li>It does not guarantee the uniqueness of a record.</li></ul>| <ul><li>It is recommended to determine a structure for your object labels.</li><li>This is the most user-friendly solution to identify a record or object for an Adobe Campaign user.</li></ul> |
-| ACS ID |  acsId | <ul><li>An additional identifier can be generated: the ACS ID.</li><li>As the PKey cannot be used in the Adobe Campaign user interface, this is a solution to obtain a unique value generated during the insertion of a profile record.</li><li>The value can only be automatically generated if the option is enabled in the resource before a record gets inserted into Adobe Campaign.</li><li>For more on this, see [Generating a unique ID for profiles and custom resources](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources). | <ul><li>This UUID can be used as a reconciliation key.</li><li>An auto-generated ACS ID cannot be used as a reference in a workflow or in a package definition.</li><li>This value is specific to an Adobe Campaign instance.</li></ul> |</li></ul> |fd|
+| ACS ID |  acsId | <ul><li>An additional identifier can be generated: the [ACS ID](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).</li><li>As the PKey cannot be used in the Adobe Campaign user interface, this is a solution to obtain a unique value generated during the insertion of a profile record.</li><li>The value can only be automatically generated if the option is enabled in the resource before a record gets inserted into Adobe Campaign.</li></ul> | <ul><li>This UUID can be used as a reconciliation key.</li><li>An auto-generated ACS ID cannot be used as a reference in a workflow or in a package definition.</li><li>This value is specific to an Adobe Campaign instance.</li></ul> |
 
 ### Identification keys {#keys}
 
-Each resource created in Adobe Campaign must have at least one unique identification key.
+Each resource created in Adobe Campaign must have at least one unique [identification key](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys).
 
 <!--Most organizations are importing records from external systems. While the physical key of a resource lies behind the PKey attribute, it is possible to determine a custom key in addition.
 
@@ -109,33 +109,36 @@ This custom key is the actual record primary key in the external system feeding 
 When an out-of-the-box resource has both an internal auto-generated and an internal custom key, the internal key will be set as a unique index in the physical database table.-->
 
 When creating a custom resource, you have two options:
+
 * A combination of auto-generated key and internal custom key. This option is interesting if your system key is a composite key or not an integer. Integers will provide higher performances in big tables and joining with other tables.
 * Using the primary key as the external system primary key. This solution is usually preferred as it simplifies the approach to import and export data, with a consistent key between different systems.
 
 Identification keys should not be used as a reference in workflows.
 
-For more on defining identification keys, see [this section](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys).
+<!--For more on defining identification keys, see [this section](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys).-->
 
 ### Indexes {#indexes}
 
-Adobe Campaign automatically adds an index to all primary and internal keys defined in a resource.
+Adobe Campaign automatically adds an [index](../../developing/using/configuring-the-resource-s-data-structure.md#defining-indexes) to all primary and internal keys defined in a resource.
 
 * Adobe recommends defining additional indexes as it may improve performance.
 * However, do not add too many indexes as they use space on the database. Numerous indexes may also have a negative performance impact.
 * Carefully select the indexes that need to be defined.
 
-For more on defining indexes, see [this section](../../developing/using/configuring-the-resource-s-data-structure.md#defining-indexes).
+<!--For more on defining indexes, see [this section](../../developing/using/configuring-the-resource-s-data-structure.md#defining-indexes).
 
-<!--When you are performing an initial import with very high volumes of data insert in Adobe Campaign database, it is recommended to run that import without custom indexes at first. It will allow to accelerate the insertion process. Once you’ve completed this important import, it is possible to enable the index(es).-->
+When you are performing an initial import with very high volumes of data insert in Adobe Campaign database, it is recommended to run that import without custom indexes at first. It will allow to accelerate the insertion process. Once you’ve completed this important import, it is possible to enable the index(es).-->
 
 ### Links {#links}
+
+Defining links with other resources is presented in [this section](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources).
 
 * While it is possible to join any table in a workflow, Adobe recommends defining common links between resources directly in the data structure definition.
 * Link should be defined in alignment with the actual data in your tables. A wrong definition could impact data retrieved via links, for example unexpectedly duplicating records.
 * Name your link consistently with the resource name: the link name should help understand what the distant table is.
 * Do not name a link with “id” as a suffix. For example, name it “transaction” rather than “transactionId”.
 
-For more on defining links with other resources, see [this section](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources).
+<!--For more on defining links with other resources, see [this section](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources).-->
 
 ## Performance {#performance}
 
