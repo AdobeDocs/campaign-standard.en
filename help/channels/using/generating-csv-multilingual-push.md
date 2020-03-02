@@ -94,11 +94,12 @@ In the span there are two mandatory attributes:
 * Another one is data-nl-expr which is the path of personalization field. For example, if you insert "firstName" personalization field from UI, the navigation path will be **[!UICONTROL Context (context)]** > **[!UICONTROL Profile (profile)]** > **[!UICONTROL First name (firstName)]** (as shown in the image below). In this case, the path will be
 
    ```
-   /context/profile/firstName. data-nl-expr="/context/profile/firstName".
-   ```
-   
-![](assets/multilingual_push_2.png)
 
+   /context/profile/firstName. data-nl-expr="/context/profile/firstName".
+
+   ```
+
+![](assets/multilingual_push_2.png)
 
 ## Locale and Language Names {#locale-language-names}
 
