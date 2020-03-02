@@ -93,7 +93,9 @@ Each resource must have at least one unique key. For example, you can specify a 
 
 Your identification keys for the resource are now created.
 
-To learn about best practices when creating identification keys, see this [section](../../developing/using/data-model-best-practices.md#keys).
+>[!NOTE]
+>
+>To learn about best practices when creating identification keys, see this [section](../../developing/using/data-model-best-practices.md#keys).
 
 ## Defining indexes {#defining-indexes}
 
@@ -119,7 +121,9 @@ Defining indexes is recommended but not mandatory.
 
 The indexes that were created appear in the list in the **[!UICONTROL Index]** section.
 
-To learn about best practices when creating indexes, see this [section](../../developing/using/data-model-best-practices.md#indexes).
+>[!NOTE]
+>
+>To learn about best practices when creating indexes, see this [section](../../developing/using/data-model-best-practices.md#indexes).
 
 ## Defining links with other resources {#defining-links-with-other-resources}
 
@@ -172,6 +176,10 @@ A link details the association that one table has with other tables.
    ![](assets/schema_extension_17.png)
 
 The links created are displayed in the list in the **[!UICONTROL Links]** section.
+
+>[!NOTE]
+>
+>To learn about best practices when creating indexes, see this [section](../../developing/using/data-model-best-practices.md#links).
 
 **Example: Link a created resource with the 'Profiles' resource**
 

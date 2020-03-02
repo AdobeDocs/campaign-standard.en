@@ -81,7 +81,7 @@ To ensure good architecture and performance of your system, follow the best prac
 
 This section outlines best practices when [configuring a resource's data structure](../../developing/using/configuring-the-resource-s-data-structure.md).
 
-### Identifiers {identifiers}
+### Identifiers {#identifiers}
 
 Adobe Campaign resources have three identifiers, and it is possible to add an additional identifier.
 
