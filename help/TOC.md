@@ -302,6 +302,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Data model concepts](developing/using/data-model-concepts.md)
        + [Resource statuses](developing/using/resource-statuses.md)
        + [Monitoring data model changes](developing/using/monitoring-data-model-changes.md)
+       + [Data model best practices](developing/using/data-model-best-practices.md)
   + Adding or extending a resource {#adding-or-extending-a-resource}
        + [Key steps to add a resource](developing/using/key-steps-to-add-a-resource.md)
        + [Creating or extending the resource](developing/using/creating-or-extending-the-resource.md)
