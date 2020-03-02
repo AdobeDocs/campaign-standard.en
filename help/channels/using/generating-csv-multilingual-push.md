@@ -49,7 +49,7 @@ Check the CSV sample by clicking the **[!UICONTROL Download a sample file]** in 
 * **language**: name of the language which is associated with the locale. For example, if locale is "en_us", the name of the language should be " English-United States".
 * **silentPush**: flag for the push notification type. If it is a regular push notification, the value should be 0. If it is a silent push, the value should be 1. The default value is 0. If you leave this column blank, the value will be considered 0.
 
-## Constraints and Guidelines for the creation of csv file {constraints-guideline-csv}
+## Constraints and Guidelines for the creation of csv file {#constraints-guideline-csv}
 
 **Name of each column is fixed**.
 You should include the name of each column in the CSV file, if you don't use any columns for the content, leave it blank.
@@ -67,20 +67,24 @@ A blank value for this column will result in a failure of the file upload.
 
 **Variant Mismatch.** If you use content block and target audiences with specific languages, you need to list every targeted language in your CSV file or you will get error when sending the delivery.
 
-## Insertion of personalization field in the csv file {personalization-field-csv}
+## Insertion of personalization field in the csv file {#personalization-field-csv}
 
 If you want to use personalization fields, you should include <span> tag in the file.
 
 To insert "firstName" personalization field in messageBody, the message needs to be:
 
 ```
+
  "Hello <span class="nl-dce-field nl-dce-done"  data-nl-expr="/context/profile/firstName">First name</span>, this is message".
+
 ```
 
 "firstName" field is represented by:
 
 ```
- "<span class="nl-dce-field nl-dce-done" data-nl-expr="/context/profile/firstName">First name</span>"
+
+ <span class="nl-dce-field nl-dce-done" data-nl-expr="/context/profile/firstName">First name</span>
+
 ```
 
 In the span there are two mandatory attributes:
@@ -96,7 +100,7 @@ In the span there are two mandatory attributes:
 ![](assets/multilingual_push_2.png)
 
 
-## Locale and Language Names {locale-language-names}
+## Locale and Language Names {#locale-language-names}
 
 The following languages are supported:
 
