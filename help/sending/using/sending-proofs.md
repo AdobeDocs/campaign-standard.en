@@ -16,6 +16,8 @@ snippet: y
 
 # Sending proofs {#sending-proofs}
 
+## About proofs {#about-proofs}
+
 A proof is a specific message that allows you to test a message before sending it to the main target. Recipients of the proof are in charge of approving the message (its content and form).
 
 There are two types of proof recipients:
@@ -33,6 +35,8 @@ There are two types of proof recipients:
    >[!NOTE]
    >
    >This feature is avaiable for the email channel only.
+
+## Sending a proof {#sending-a-proof}
 
 To send proofs, follow these steps:
 
@@ -74,9 +78,27 @@ Depending on the comments from the people who receive the proof, you may be aske
 
 You have to send as many proofs as necessary until you have finalized the content of your delivery. Once this is done, you can send the delivery to the main target and close the approval cycle.
 
+## Configuring proofs' subject line {#configuring-proofs-subject-line}
+
+When a proof is sent, its subject line is configured by default with the **"Proof"** prefix, as well as a counter indicating the proof's number.
+
+   ![](assets/proof-prefix.png)
+
+To change the default subject line to use, follow these steps:
+
+1. In the message dashboard, Click the **[Open properties]** button.
+1. In the **[!UICONTROL Advanced parameters]** section, define the prefix that you want to use by default in the subject line.
+
+   If you do not want to display the proof's number, activate the **[!UICONTROL Hide proof prefix counter]** option.
+
+   ![](assets/proof-prefix-configuration.png)
+
+1. Click **!UICONTROL Confirm]**. The settings will be applied by default to all the proofs sent for the selected message.
+
 **Related topic:**
 
 * [Sending a test, preparing and sending an email](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/sending-test-preparing-sending-email.html) video
 * [Testing email messages using targeted profiles](../../sending/using/testing-messages-using-target.md).
 * [Managing test profiles](../../audiences/using/managing-test-profiles.md).
 * [Previewing messages](../../sending/using/previewing-messages.md)
+* [Configuring email channel](../../administration/using/configuring-email-channel.md)
