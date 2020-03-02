@@ -65,7 +65,7 @@ You can add new fields to a resource to store data that are not part of the out 
 
    >[!NOTE]
    >
-   >If you do not check this option, the automatic primary key (autopk, which is automatically created each time an entity is added to the table) will be used when you list all the entities from this table.
+   >If you do not check this option, the automatic primary key (which is automatically created each time an entity is added to the table) will be used when you list all the entities from this table.
 
 The fields of your resource are now defined.
 
