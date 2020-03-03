@@ -32,6 +32,8 @@ The Campaign Email Designer documentation and related pages have been updated to
 
 A new section dedicated to Campaign Standard data model best practices is now available. [Read more](../../developing/using/data-model-best-practices.md)
 
+Information has been added on the **[!UICONTROL Workflow]** out-of-the-box right. [Read more](../../administration/using/list-of-roles.md)
+
 ## Release 20.1 - February 2019 {#release-20-1---february-2020}
 
 **New capabilities included in the release**
