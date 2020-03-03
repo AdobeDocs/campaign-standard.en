@@ -180,7 +180,11 @@ To modify a workflow's execution options, use the ![](assets/edit_darkgrey-24px.
 
 The **[!UICONTROL Default affinity]** field allows you to force a workflow or a workflow activity to execute on a particular machine.
 
-In the **[!UICONTROL History in days]** field, specify the duration after which the history must be purged.
+In the **[!UICONTROL History in days]** field, specify the number of days after which the history must be purged. The history consists in all elements related like logs, tasks, events, and files related to the selected workflow.
+
+  >[!NOTE]
+  >
+  >Purge of the history is performed by the **Database cleanup** technical workfow, which is executed by default everyday (see [List of technical workflows](../../administration/using/technical-workflows.md#list-of-technical-workflows).)
 
 You can choose to check the **[!UICONTROL Save SQL queries in the log]** and **[!UICONTROL Execute in the engine (do not use in production)]** options if necessary.
 
