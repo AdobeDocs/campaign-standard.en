@@ -64,7 +64,7 @@ By default, there is no model running on your Adobe Campaign server. There are t
 
   Then, the technical workflow will automatically continue to train your model every week.
 
-* You can import pre-trained models that are specific to certain industries (medical, etc.) using the [package import](../../automating/using/managing-packages.md) feature. These models are available [here](https://support.neolane.net/webApp/downloadCenter?__userConfig=psaDownloadCenter) and cannot be trained.
+* You can import pre-trained models that are specific to certain industries (medical, etc.) using the [package import](../../automating/using/managing-packages.md) feature. To access these models, click [here](https://support.neolane.net/webApp/extranetLogin) and go to **[Download Center]**.These models cannot be trained.
 
   Once a model has been uploaded, the feature is automatically activated and a new option appears next to the subject line field of your messages.
 

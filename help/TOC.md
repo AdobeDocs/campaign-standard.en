@@ -90,6 +90,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Preparing and sending a push notification](channels/using/preparing-and-sending-a-push-notification.md)
        + [Customizing a push notification](channels/using/customizing-a-push-notification.md)
        + [Creating a multilingual push notification](channels/using/creating-a-multilingual-push-notification.md)
+       + [Generating a CSV file for Multilingual Push Notification](channels/using/generating-csv-multilingual-push.md)
        + [Creating and updating profile information based on mobile application data](channels/using/updating-profile-with-mobile-app-data.md)
   + In-App messaging {#in-app-messaging}
        + [About In-App messaging](channels/using/about-in-app-messaging.md)
@@ -195,6 +196,7 @@ user-guide-title: Adobe Campaign Standard Help
   + [About Campaign integrations](integrating/using/about-campaign-integrations.md)
   + Working with Campaign and Experience Manager {#working-with-campaign-and-experience-manager}
        + [About Campaign-Experience Manager integration](integrating/using/integrating-with-experience-manager.md)
+       + [Configuring the Campaign-Experience Manager integration](integrating/using/configure-experience-manager.md)
        + [Creating an email content in Adobe Experience Manager](integrating/using/creating-email-experience-manager.md)
        + [Creating a Campaign form in Experience Manager](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
   + Working with Campaign and Target {#working-with-campaign-and-target}
@@ -210,7 +212,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Provisioning and configuring integration with Audience Manager or People core service](integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
        + [Troubleshooting](integrating/using/troubleshooting.md)
        + [Sharing audiences with Audience Manager or People core service](integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
-  + [Working with Campaign and Assets core service](integrating/using/working-with-campaign-and-assets-core-service.md)
+       + [Working with Campaign and Assets core service](integrating/using/working-with-campaign-and-assets-core-service.md)
   + Working with Campaign and Analytics for Mobile {#working-with-campaign-and-analytics-for-mobile}
        + [About Campaign-Points of Interest data integration](integrating/using/about-campaign-points-of-interest-data-integration.md)
        + [Configuring Campaign-Points of Interest data integration](integrating/using/configuring-campaign-points-of-interest-data-integration.md)
@@ -300,6 +302,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Data model concepts](developing/using/data-model-concepts.md)
        + [Resource statuses](developing/using/resource-statuses.md)
        + [Monitoring data model changes](developing/using/monitoring-data-model-changes.md)
+       + [Data model best practices](developing/using/data-model-best-practices.md)
   + Adding or extending a resource {#adding-or-extending-a-resource}
        + [Key steps to add a resource](developing/using/key-steps-to-add-a-resource.md)
        + [Creating or extending the resource](developing/using/creating-or-extending-the-resource.md)
