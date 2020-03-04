@@ -29,8 +29,7 @@ in [these dedicated documents](https://www.adobe.io/apis/experienceplatform/home
 
 Once a segment has been created, you can then activate it as an audience for a delivery in [Campaign Standard workflows](../../automating/using/aep-targeting-audiences.md). Additionally, you can use contextual data from the Adobe Experience Platform to [personalize](../../automating/using/aep-personalizing-campaigns.md) and add dynamic content to your campaigns.
 
-How-to videos are also available 
-in [this section](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html).
+This [section](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html) contains How-to videos.
 
 Terms used in these sections:
 
