@@ -27,6 +27,7 @@ You can set up the following types of external accounts:
 * Adobe Experience Manager. For more on this, refer to [this section](#adobe-experience-manager-external-account).
 * Adobe Analytics. For more on this, refer to [this section](../../integrating/using/configure-campaign-analytics-integration.md).
 * Google reCAPTCHA. For more on this, refer to [this section](#google-recaptcha-external-account).
+* Microsoft Azure Blob storage. For more on this, refer to [this section](#microsoft-azure-external-account).
 
 >[!NOTE]
 >
