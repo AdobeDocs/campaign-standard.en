@@ -59,7 +59,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Managing opt-in and opt-out in Campaign](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
        + [Identifying opt-out profiles for a delivery](audiences/using/identifying-opt-out-profiles-for-a-delivery.md)
   + Working wih Adobe Experience Platform {#working-with-adobe-experience-platform}
-       + [About the Audience Destinations service](audiences/using/aep-about-audience-destinations-services.md)
+       + [About the Audience Destinations service](audiences/using/aep-about-audience-destinations-service.md)
        + [Managing Adobe Experience Platform audiences](audiences/using/aep-managing-audiences.md)
        + [Using the Unified Segment Builder](audiences/using/aep-using-segment-builder.md)
 + Communication channels {#communication-channels}
