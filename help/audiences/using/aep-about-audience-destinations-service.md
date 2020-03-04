@@ -27,8 +27,6 @@ Adobe Campaign Standard will then use the **Audience Destinations** service to r
 **Audiences** are created by first building **segments**, which are essentially a set of rules based on virtually any variable (e.g., profile, event, multi-entity data) within a customer profile from AEP to create a multidimensional target. Global concepts on Unified Profile & Segmentation Services are referenced
 in [these dedicated documents](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation.html).
 
-Once a segment has been created, you can then activate it as an audience for a delivery in [Campaign Standard workflows](../../automating/using/aep-targeting-audiences.md). Additionally, you can use contextual data from the Adobe Experience Platform to [personalize](../../automating/using/aep-personalizing-campaigns.md) and add dynamic content to your campaigns.
-
 Terms used in these sections:
 
 * **Profile**: Profile is an Experience Platform standard data model used to define attributes of consumers. A profile can also be an aggregate of event data and attributes related to a person and or device.
