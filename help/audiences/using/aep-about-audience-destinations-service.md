@@ -14,6 +14,4 @@ internal: n
 snippet: y
 ---
 
-# About the Audience Destinations service {#about-audiences}
-
-Test
+# Personalizing email content {#personalization}
