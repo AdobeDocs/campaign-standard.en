@@ -127,11 +127,15 @@ To import profiles to use for testing from an audience, follow these steps:
 
 ## Previewing the message with targeted profiles
 
-To be able to preview messages using targeted profiles, make sure you have added these profiles to the **[!UICONTROL Profile substitution]** list (see [Defining profiles and substitution addresses](#selecting-profiles)), then follow the steps below.
-
 >[!NOTE]
 >
->Preview is availalble with the Email Designer only.
+>Preview is available with the Email Designer only.
+
+To be able to preview messages using targeted profiles, make sure you have added these profiles to the **[!UICONTROL Profile substitution]** list (see [Defining profiles and substitution addresses](#selecting-profiles)).
+
+If you want to use personalization fields in the message, they must have been added **before** launching the message preparation. Any change to the personalization fields after the preparation phase will not be taken into account when previewing the message.
+
+To preview messages using profile substitution, follow these steps:
 
 1. In the message dashboard, click the content snapshot to open the message in the Email Designer.
 
