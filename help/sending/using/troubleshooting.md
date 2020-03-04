@@ -50,7 +50,7 @@ For more on this, see [Understanding quarantine management](../../sending/using/
 To check whether your IP address is blacklisted, you can use various web sites to verify it:
 * https://mxtoolbox.com/
 * https://whatismyipaddress.com/blacklist-check
-* http://www.blacklistalert.org/
+* https://www.blacklistalert.org/
 
 Generally, the result of the IP address check will return a list that contains details of the blacklist and also the name of the web site that blacklisted the IP address.
 

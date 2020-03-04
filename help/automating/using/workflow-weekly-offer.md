@@ -37,7 +37,7 @@ You can send an email every Tuesday to all the customers for Special Offers.
 
 >[!NOTE]
 >
->To start your workflow at a specific **[!UICONTROL Time Zone]**, in the **[!UICONTROL Execution options]** tab, set up the time zone for your scheduler in the Time zone field.
+>To start your workflow at a specific **[!UICONTROL Time Zone]**, in the **[!UICONTROL Execution options]** tab, set up the time zone for your scheduler in the Time zone field. By default, the selected time zone is the one defined in the workflow properties (see [Building a workflow](../../automating/using/building-a-workflow.md)).
 
 ## Creating a Query activity{#creating-a-query-activity}
 

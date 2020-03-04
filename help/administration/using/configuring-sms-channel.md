@@ -88,7 +88,7 @@ Transliteration consists of replacing one character of an SMS by another when th
 * If transliteration is **authorized**, each character that is not taken into account is replaced by a GSM character when the message is sent. For example, the letter "ë" is replaced by "e". The message is therefore slightly altered, but the character limit will remain the same.
 * When transliteration is **not authorized**, each message that contains characters that are not taken into account is sent in binary format (Unicode): all of the characters are therefore sent as they are. However, the SMS messages using Unicode are limited to 70 characters (or 67 characters per SMS for messages sent in multiple parts). If the maximum number of characters is exceeded, several messages will then be sent, which may create additional costs.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Inserting personalization fields into the content of your SMS message may introduce characters that are not taken into account by the GSM encoding. A content example is offered in the [Personalizing SMS messages](../../channels/using/personalizing-sms-messages.md) section.
 
@@ -332,13 +332,13 @@ The specific parameters for sending SMS messages are regrouped in the **[!UICONT
 
   ![](assets/sms_smpp.png)
 
-  >[!CAUTION]
+  >[!IMPORTANT]
   >
   >Please check the legislation in your country regarding modifying the sender address. You should also check with your SMS service provider to see whether they offer this functionality.
 
 * The **[!UICONTROL Maximum number of SMS per message]** option allows you to define the number of SMS messages to use to send a message. If this number is exceeded, the message will not be sent.
 
-  >[!CAUTION]
+  >[!IMPORTANT]
   >
   >If you have inserted personalization fields or conditional text into the content of your SMS message, the length of the message and, as a result, the number of SMS messages to send, may vary from one recipient to another. For more on this, refer to the [Personalizing SMS messages](../../channels/using/personalizing-sms-messages.md) section.
 
@@ -347,4 +347,3 @@ The specific parameters for sending SMS messages are regrouped in the **[!UICONT
     * **[!UICONTROL Saved on SIM card]**: the message is stored on the recipient's telephone SIM card.
     * **[!UICONTROL Saved on mobile]**: the message is stored on the telephone's internal memory.
     * **[!UICONTROL Flash]**: the message is displayed on the recipient's mobile telephone as a notification, then it disappears without being saved.
-

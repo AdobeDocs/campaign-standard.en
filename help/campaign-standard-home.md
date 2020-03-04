@@ -7,17 +7,17 @@ topic: Premium
 
 # Help Center {#campaign-standard-documentation}
 
-![](start/using/assets/banner_acs_doc.jpg) 
+![](start/using/assets/do-not-localize/banner_acs_doc.jpg) 
 
 ## What's New
 
 * **[Privacy management](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>
 Learn about the tools provided by Adobe Campaign to help you with your Privacy compliance.
 
-* **[Delivery best pratices](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>
+* **[Delivery best practices](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>
 Learn more on best practices related to delivery design and sending.
 
-* **[Email designer](designing/using/designing-content-in-adobe-campaign.md)**<br/>
+* **[Email Designer](designing/using/designing-content-in-adobe-campaign.md)**<br/>
 Consult the reorganized Email Designer documentation.
 
 * **[Campaign Standard Mobile guide](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>

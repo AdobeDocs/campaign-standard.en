@@ -32,13 +32,17 @@ As the landing page will impact your platform and data, you need to test careful
 1. Enter data in the fields, and select options. 
 1. Submit the landing page and check updates in the database.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >When the form is submitted, service and profile used are updated.
 
 1. Repeat this with various profiles and data.
 
    You can also generate the landing page thumbnail from this screen.
+
+>[!NOTE]
+>
+>To display the landing page preview in the Campaign user interface, the application server URL must be secure. In that case, use https:// rather than http:// to set up this URL when [configuring your brand](../../administration/using/branding.md#configuring-and-using-brands).
 
 ## Setting up validity parameters {#setting-up-validity-parameters}
 
@@ -56,7 +60,7 @@ Before publishing, for security reasons and platform performances, we highly rec
 
    ![](assets/lp_settings_general.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >You can also define a deployment date and time: the landing page will then be automatically published on the specified date.
 

@@ -22,11 +22,11 @@ The content and display of messages delivered by Adobe Campaign can be personali
 * Insert predefined personalization blocks. See [Adding a content block](#adding-a-content-block).
 * Personalize the sender of an email. See [Personalizing the sender](#personalizing-the-sender).
 * Personalize the subject of an email. See [Personalizing the subject line of an email](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
-* Create conditional content. See [Defining dynamic content in an email](#defining-dynamic-content-in-an-email)
+* Create conditional content. See [Defining dynamic content in an email](#defining-dynamic-content-in-an-email).
 
 ## Personalizing the sender {#personalizing-the-sender}
 
-To define the name of the sender which will appear in the header of messages sent, go the **[!UICONTROL Properties]** tab of the Email Designer home page (accessible through the home icon). For more on this, see [Defining the sender of an email](../../designing/using/subject-line.md#email-sender)
+To define the name of the sender which will appear in the header of messages sent, go the **[!UICONTROL Properties]** tab of the Email Designer home page (accessible through the home icon). For more on this, see [Defining the sender of an email](../../designing/using/subject-line.md#email-sender).
 
   You can change the sender name by clicking the **Sender name** block. The field then becomes editable and you can enter the name you would like to use.
 
@@ -281,7 +281,7 @@ Defining dynamic content is different from [defining visibility conditions](#def
 
 **Related topics:**
 
-* [Sending proofs](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs)
+* [Sending proofs](../../sending/using/sending-proofs.md)
 * [Advanced expression editing](../../automating/using/editing-queries.md#about-query-editor)
 
 ### Order of priority {#order-of-priority}

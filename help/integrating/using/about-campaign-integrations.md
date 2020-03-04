@@ -91,13 +91,8 @@ If you would like to integrate data flows from other systems with Adobe Campaign
    <td> Dreamweaver<br /> </td> 
    <td> Allows you to edit an email content from Dreamweaver and synchronize it with Adobe Campaign.<br /> </td> 
    <td> 
-    <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">Create personalized emails with Dreamweaver</a> video <br/>, <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Use Campaign extension for Dreamweaver</a> 
+    <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">Create personalized emails with Dreamweaver</a> video <br/>, <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Use Campaign extension for Dreamweaver</a> 
   </td> 
-  </tr> 
-  <tr> 
-   <td> Creative SDK<br /> </td> 
-   <td> Allows you to edit images and use a complete set of features powered by the Adobe Creative SDK to enhance your images directly in the content editor.<br /> </td> 
-   <td> <a href="../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk">Modifying images with the Adobe Creative SDK</a><br /> </td> 
   </tr> 
   <tr> 
    <td> Experience Platform SDKs<br /> </td> 

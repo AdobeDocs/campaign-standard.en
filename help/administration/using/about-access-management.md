@@ -22,7 +22,7 @@ Adobe Campaign allows you to define and manage the permissions assigned to diffe
 
   Combined with organizational units, roles give users a filtered view of the interface and define their access to the different features. For more on this, refer to the [Authorizations table](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Note that the geographical unit capability has been deprecated. For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html).
 
@@ -34,7 +34,7 @@ Users are managed in the Admin console (refer to the [Managing groups and users]
 
 ![](assets/user_management_6.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Only users with administration rights have access to user management.
 

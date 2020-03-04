@@ -72,7 +72,7 @@ You can now access the message that you created and select the updated test prof
 
 **Related topics:**
 
-* [Managing test profiles](../../sending/using/managing-test-profiles-and-sending-proofs.md)
+* [Managing test profiles](../../audiences/using/managing-test-profiles.md)
 * [Defining audiences](../../audiences/using/creating-audiences.md)
 
 ## Personalizing a transactional message {#personalizing-a-transactional-message}
@@ -121,7 +121,7 @@ You can create product listings referencing one or more data collections in the 
 
 To add a list of abandoned products in a transactional message, follow the steps below.
 
-You can also watch a set of videos explaining the steps that are required to configure product listings in a transactional email. For more on this, see [this page](https://helpx.adobe.com/campaign/kt/acs/using/acs-product-listings-in-transactional-emails-feature-video-setup.html).
+You can also watch a set of videos explaining the steps that are required to configure product listings in a transactional email. For more on this, see [this page](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html).
 
 >[!NOTE]
 >
@@ -237,7 +237,7 @@ Once you have saved your transactional message, you can now send a proof to test
 
 ![](assets/message-center_10.png)
 
-The steps for sending a proof are detailed in the [Sending a proof](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs) section.
+The steps for sending a proof are detailed in the [Sending a proof](../../sending/using/sending-proofs.md) section.
 
 ## Publishing a transactional message {#publishing-a-transactional-message}
 

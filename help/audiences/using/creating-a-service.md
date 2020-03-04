@@ -28,6 +28,12 @@ To configure a service:
 
    ![](assets/lp_service_parameters.png)
 
+1. Select the **[!UICONTROL Subscriptions with an expiration date]** option to set a validity duration for the subscription.
+
+   ![](assets/lp_service_expiration.png)
+
+    You can use the expiration date in a Segmentation activity to target profiles who are subscribed to a service that is not expired.
+
 1. Fill in the **[!UICONTROL Service label]** field. The service label is mandatory when using a custom confirmation message.
 
 1. Select a confirmation message template for subscriptions and unsubscriptions. Three modes are available:
@@ -47,7 +53,7 @@ Once a service has been created, you can start promoting it.
 
 **Related topics:**
 
-* [Managing a service and subscriptions](https://helpx.adobe.com/campaign/kt/acs/using/acs-services-and-subscriptions-feature-video-use.html) video
+* [Managing a service and subscriptions](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/services-and-subscriptions.html) video
 * [Promoting a service](../../audiences/using/promoting-a-service.md)
 * [Creating an audience made of subscribers](../../audiences/using/creating-audiences.md#creating-list-audiences)
 * [Linking a landing page to a service](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)

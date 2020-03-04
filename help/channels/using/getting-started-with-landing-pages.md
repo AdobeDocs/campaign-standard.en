@@ -30,7 +30,7 @@ In this page, you will find information on each of these steps, as well as refer
 
 **Related topics:**
 
-* [Creating a landing page tutorial video](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-edit-landing-page-feature-video-use.html) video
+* [Creating a landing page tutorial video](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/communication-channels/landing-pages/landing-page-create-and-edit.html) video
 * [Creating a service](../../audiences/using/creating-a-service.md)
 * [Setting up a double opt-in process](setting-up-a-double-opt-in-process.md)
 
@@ -124,9 +124,9 @@ If you are satisfied with the way the landing page behaves, you can publish it t
 
 For more on how to test a landing page, refer to [this section](../../channels/using/testing-publishing-landing-page.md#testing-the-landing-page-).
 
-## Step Publish the landing page {#publish-the-landing-page}
+## Step 5 - Publish the landing page {#publish-the-landing-page}
 
-Once the tests are successfull, you can publish the landing page using the **[!UICONTROL Publish]** button from the action bar in the dashboard. A monitoring block shows the progression and status of the publication.
+Once the tests are successful, you can publish the landing page using the **[!UICONTROL Publish]** button from the action bar in the dashboard. A monitoring block shows the progression and status of the publication.
 
 Publishing the landing page makes it accessible online. Once published, you can always update it: to do this, you have to republish it after each modification. You can also unpublish a landing page at any time so that it is no longer available.
 

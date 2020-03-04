@@ -63,7 +63,7 @@ To create and send SMS messages to a mobile phone, you need:
    >
    >You can set global cross-channel fatigue rules that will automatically exclude oversollicited profiles from campaigns. See [Fatigue rules](../../administration/using/fatigue-rules.md).
 
-1. Send proofs to check and validate your message and monitor its inbox rendering. See the [Sending proof](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs) section.
+1. Send proofs to check and validate your message and monitor its inbox rendering. See the [Sending proof](../../sending/using/sending-proofs.md) section.
 1. Confirm the sending of the message. The sending will start accordingly to the schedule you have defined.
 
    ![](assets/sms_creation_7.png)
@@ -76,5 +76,5 @@ Once the sending is finished, you can start measuring the impact of your message
 
 * [About SMS and push content edition](../../channels/using/about-sms-and-push-content-design.md)
 * [Managing templates](../../start/using/marketing-activity-templates.md)
-* [Create an SMS delivery](https://helpx.adobe.com/campaign/kt/acs/using/acs-creating-a-sms-delivery-feature-video-use.html) video
+* [Create an SMS delivery](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/sms/sms-delivery.html) video
 
