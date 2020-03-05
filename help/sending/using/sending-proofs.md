@@ -41,7 +41,7 @@ There are two types of proof recipients:
 To send proofs, follow these steps:
 
 1. Make sure the proofs recipients have been configured:
-   * **Test profiles** must be included in your message's audience
+   * **Test profiles** must be included in your message's audience.
    * **Substitution profiles** must be added once the message preparation has been successfull (see [this section](../../sending/using/testing-messages-using-target.md)).
 
 1. Click the **[!UICONTROL Send a test]** button.
