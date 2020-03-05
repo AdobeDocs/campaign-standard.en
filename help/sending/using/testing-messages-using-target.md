@@ -133,7 +133,7 @@ To import profiles to use for testing from an audience, follow these steps:
 
 To be able to preview messages using targeted profiles, make sure you have added these profiles to the **[!UICONTROL Profile substitution]** list (see [Defining profiles and substitution addresses](#selecting-profiles)).
 
-If you want to use personalization fields in the message, they must have been added **before** launching the message preparation. Any change to the personalization fields after the preparation phase will not be taken into account when previewing the message.
+If you want to use personalization fields in the message, they must be added **before** launching the message preparation. Otherwise, they will not be taken into account in the preview. As a result, make sure you launch the message preparation again if any change is made to the personalization fields.
 
 To preview messages using profile substitution, follow these steps:
 
