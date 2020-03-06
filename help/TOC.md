@@ -352,7 +352,9 @@ user-guide-title: Adobe Campaign Standard Help
        + [Configuring a mobile application](administration/using/configuring-a-mobile-application.md)
        + [Configuring transactional messaging](administration/using/configuring-transactional-messaging.md)
   + Working with typology rules {#working-with-typology-rules}
-       + [About typology rules](administration/using/about-typology-rules.md)
+       + [About typologies and typology rules](administration/using/about-typology-rules.md)
+       + [Managing typologies](administration/using/managing-typologies.md)
+       + [Managing typology rules](administration/using/managing-typology-rules.md)
        + [Filtering rules](administration/using/filtering-rules.md)
        + [Fatigue rules](administration/using/fatigue-rules.md)
        + [Control rules](administration/using/control-rules.md)
