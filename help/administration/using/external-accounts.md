@@ -161,7 +161,7 @@ For a Microsoft Azure Blob storage external account, provide the following detai
 * A **[!UICONTROL Label]** and **[!UICONTROL ID]** of your external account
 * **[!UICONTROL Type]**: Microsoft Azure Blob storage
 * Your **[!UICONTROL Account name]** and **[!UICONTROL Account key]**. To know where to find your account name and key, refer to this [page](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage).
-* Your **[!UICONTROL Endpoint suffix]**
+* Your **[!UICONTROL Endpoint suffix]**. It can be found within your **[!UICONTROL Connection string]** of the **[!UICONTROL Access keys]** menu in the Azure Portal. For more on this, refer to this [page](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage).
 * Your **[!UICONTROL Container]** name. If you are planning to use more than one container you need to create as many external accounts as containers.
 * The **[!UICONTROL Concurrency]** option lets you fine tune the speed of your file transfers.
 

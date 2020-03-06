@@ -88,9 +88,9 @@ You can also choose the **[!UICONTROL Quick configuration]** option. You only ne
 
 The Amazon S3 protocol allows you to start downloading a file from a URL or an external account via Amazon Simple Storage Service (S3).
 
-1. Select an Amazon S3 external account. For more on this, refer to this page. 
+1. Select an Amazon S3 external account. For more on this, refer to this [page](../../administration/using/external-accounts.md#amazon-s3-external-account).
 
-2. Choose if you want to **[!UICONTROL Define a file path]** or **[Use a dynamic file path]** 
+2. Choose if you want to **[!UICONTROL Define a file path]** or **[Use a dynamic file path]**.
 
 3. Specify the path of the file to download.
 
@@ -100,7 +100,25 @@ The Amazon S3 protocol allows you to start downloading a file from a URL or an e
 
 ### Configuration with Microsoft Azure Blob storage {#azure-blob-configuration-wf}
 
-![](assets/wkf_file_transfer_10.png)
+The Microsoft Azure Blob protocol allows you to access blob located on a Microsoft Azure Blob Storage account.
+
+1. Select a **[!UICONTROL Microsoft Azure Blob]** external account. For more on this, refer to this [page](../../administration/using/external-accounts.md#microsoft-azure-external-account).
+
+1. Choose if you want to **[!UICONTROL Define a file path]** or **[Use a dynamic file path]**.
+
+    ![](assets/wkf_file_transfer_10.png)
+
+1. Specify the path of the file to download, it can match multiple blobs. In that case, the **[!UICONTROL File transfer]** activity will activate the outgoing transition once per blob found. They will then be processed in alphabetical order.
+
+    >[!CAUTION]
+    >
+    >Wildcards are supported to match multiple file names. Instead, you need to enter a prefix. All blob names matching that prefix will be eligible.
+
+    You can find below a list of file paths' examples:
+
+    * **"campaign/"**: matches all blobs in the Campaign folder located at the root of the container.
+    * **"campaign/new-"**: matches all blobs with a file name starting with "new-" and located under the Campaign folder.
+    * **""**: adding an empty path allows you to match all the blobs available in the container.
 
 ### Configuration with files present on the Adobe Campaign server {#files-server-configuration-wf}
 
