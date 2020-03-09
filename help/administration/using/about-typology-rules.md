@@ -16,20 +16,15 @@ snippet: y
 
 # About typologies and typology rules{#about-typology-rules}
 
-A typology is a set of rules, executed during the message analysis phase, which allow the target, the content, and the configuration of the following elements to be validated: the subject, URL, images, unsubscription link, proof size, etc.
+Campaign Standard allows you to link a message to a **typology**, in order to check wether the message is valid and meets your quality criteria.
 
-In Adobe Campaign, each message contains a link to a typology. This link is defined in the advanced parameters of the delivery template's properties (for more on this, refer to the [Preparation](../../administration/using/configuring-email-channel.md#preparation) section).
+Typologies are sets of **typology rules**, that are executed during the message analysis phase. They allow you to check various elements of the message to send (subject, URL, images, unsubscription link, proof size, etc.).
 
->[!NOTE]
->
->Each message can only be assigned a single typology.
+![](assets/typology_messagelink.png)
 
-For each typology, the **[!UICONTROL Typology rules]** section lists the set of rules for this typology.
+Ready-to-use typologies and typology rules are available in Campaign Standard. Depending on your needs, you can also create new rules, and add them to existing or new typologies to link to your messages.
 
-![](assets/typology_typo-rule-list.png)
+**Related topics:**
 
-
-
-
-
-Typology rules are business rules that are applied during the message preparation. They are used to check whether a message is valid and meets your quality criteria. They also check if each member of the target audience is eligible to receive the message.
+* [Managing typologies](../../administration/using/managing-typologies.md)
+* [Managing typology rules](../../administration/using/managing-typology-rules.md)
