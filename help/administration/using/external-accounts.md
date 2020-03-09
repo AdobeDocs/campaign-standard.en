@@ -203,3 +203,16 @@ Statistics:
   Disk write time: 15.340 sec
 
 ```
+
+**Retries**
+
+Error codes such as 503 (server busy) or 500 (operation timeout) might return when using Azure Storage service. This means that you might be approaching or exceeding the scalability of your storage account which can happen when using a new account or performing tests.
+In those cases, Azure Storage service will automatically repartition your account to better handle the load. If the error persists, you can increase the number of retries in the options:
+
+```
+
+ID:        AzureBlob_Max_Retries
+Date type: Integer
+Default:   4                      # 5 attempts in total
+
+```
