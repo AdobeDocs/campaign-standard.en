@@ -26,7 +26,7 @@ All release dates are subject to change: we recommend you visit this page on a r
 
 Please subscribe to [receive release notifications](https://www.adobe.com/subscription/priority-product-update.html) to get details about latest Adobe Experience Cloud releases straight in your inbox.
 
-## Release 20.1.4 - February Release update {#release-20-1-4---february-release-update}
+## Release 20.2.1 - April Release {#release-20-2-april-release}
 
 Environment updates happen in waves, during the indicated timeframes below. Detailed information about this release are available in the [Release Notes](../../rn/using/release-notes.md). If you have any further questions, please contact [Adobe Client Care](https://support.neolane.net/webApp/extranetLogin).
 
@@ -40,11 +40,11 @@ Environment updates happen in waves, during the indicated timeframes below. Deta
  <tbody> 
   <tr> 
    <td> Stage<br /> </td> 
-   <td> February 17 - 18, 2020<br /> </td> 
+   <td> March 23 - 24, 2020<br /> </td> 
   </tr> 
   <tr> 
    <td> Production<br /> </td> 
-   <td> February 20 - March 5, 2020<br /> </td> 
+   <td> March 31 - April 6, 2020<br /> </td> 
   </tr> 
  </tbody> 
 </table>
