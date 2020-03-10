@@ -109,7 +109,13 @@ The **SMTP parameters** act as filters applied for a blocking rule.
 
 ### MX Management {#mx-management}
 
-Each rule defines an address mask for the MX. Any MX whose name matches this mask is therefore eligible. The mask can contain "&#42;" and "?" generic characters.
+>[!IMPORTANT]
+>
+>Once upgraded to the Enhanced MTA, the Adobe Campaign **MX management** delivery throughput rules are no longer used. The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you’re sending emails.
+>
+>For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+
+<!--Each rule defines an address mask for the MX. Any MX whose name matches this mask is therefore eligible. The mask can contain "&#42;" and "?" generic characters.
 
 For example, the following addresses:
 
@@ -123,12 +129,6 @@ are compatible with the following masks:
 * ?.mx.yahoo.com
 
 These rules are applied in sequence: the first rule whose MX mask is compatible with the targeted MX is applied.
-
->[!IMPORTANT]
->
->Once upgraded to the Enhanced MTA, the Adobe Campaign **MX management** delivery throughput rules are no longer used. The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you’re sending emails.
->
->For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
 The following parameters are available for each rule:
 
@@ -147,8 +147,7 @@ The following parameters are available for each rule:
 >[!IMPORTANT]
 >
 >* The delivery server (MTA) must be restarted if the parameters have been changed. 
->* The modification or creation of management rules is for expert users only. 
->
+>* The modification or creation of management rules is for expert users only. -->
 
 ## List of email properties {#list-of-email-properties}
 
