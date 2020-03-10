@@ -16,48 +16,43 @@ snippet: y
 
 # Managing typology rules {#managing-typology-rules}
 
-3 types:
-		○ Fatigue
-		○ Control: executed at different phases according to the need
-		○ Filtering: executed at the start of targeting
+## About typology rules {#about-typology-rules}
 
-
-several available by default (except fatigue) + lien vers sections)
-
-where to manage them (+ for creation details, ref to filtering/fatiguye/control rules sections
-
-use typolgy rules in typologies
-
-Execution order
-
-
-
+description
 
 Typology rules are available under the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** > **[!UICONTROL Typology rules]** menu.
 
-There are two types of rules:
+The types of rules are:
 
-* **Filtering** rules: allow you to exclude one part of the message target according to criteria defined in a query, such as quarantined profiles or profiles that have already been sent a certain number of emails. See [Filtering rules](../../administration/using/filtering-rules.md).
+* **Filtering** rules: allow you to exclude one part of the message target according to criteria defined in a query, such as quarantined profiles or profiles that have already been sent a certain number of emails. See [Filtering rules](../../administration/using/filtering-rules.md). executed at the start of targeting
 * **Fatigue** rules: allow you to define a maximum number of messages per profile to avoid over-soliciting them. See [Fatigue rules](../../administration/using/fatigue-rules.md).
-* **Control** rules: allow the user to check the validity and quality of the messages before they are sent, such as character display, SMS message size, address format, etc. See [Control rules](../../administration/using/control-rules.md).
+* **Control** rules: allow the user to check the validity and quality of the messages before they are sent, such as character display, SMS message size, address format, etc. See [Control rules](../../administration/using/control-rules.md). are executed at different phases according to the need
 
-A typology rule can be applied to only one channel or to all channels.
+Out-of-the-box filtering and control typology rules available by default + detailed in dedicated sections
 
-![](assets/typology_channel.png)
+## Creating a typology rule {#creating-a-typology-rule}
 
-In the **[!UICONTROL Properties]** of a typology rule, you can set its execution order. When several rules have to be applied, the execution order of each rule determines the ones to process first. For more on this, refer to the [Typology rules execution order](#typology-rules-execution-order) section.
+global creation steps (channel, phase selection) + for creation details, ref to sub-sections
 
-![](assets/typology_rule-active.png)
+1. access list of rules + create button
+1. define label and id
+1. select the type and channel
 
-A typology rule can be deactivated through its **[!UICONTROL Properties]** if you do not want the rule to be applied at the moment that the messages concerned by the rule are analyzed.
+>[!NOTE]
+>
+>A typology rule can be applied to only one channel or to all channels.
 
-![](assets/typology_rule-order.png)
+	![](assets/typology_channel.png)
 
-In the **[!UICONTROL Targeting context]** category, you can select the **Targeting dimension** and **Filtering dimension** depending on the data that you want to target.
+1. In the **[!UICONTROL Targeting context]** category, you can select the **Targeting dimension** and **Filtering dimension** depending on the data that you want to target.
 
-By default, filtering is carried out on the **[!UICONTROL Profiles]**. For example, if the rule is aimed at a mobile application, the **[!UICONTROL Filtering dimension]** can be changed to **[!UICONTROL Subscriptions to an application]**.
+	By default, filtering is carried out on the **[!UICONTROL Profiles]**. For example, if the rule is aimed at a mobile application, the **[!UICONTROL Filtering dimension]** can be changed to **[!UICONTROL Subscriptions to an application]**.
 
-![](assets/typology_rule-order_2.png)
+	![](assets/typology_rule-order_2.png)
+
+1. Build the rule. For more on this, see sub-sections.
+1. Typologies tab: link to one or several typologies (can also be done from the typologes
+1. Confirm.
 
 ## Typology rules execution order {#typology-rules-execution-order}
 
@@ -78,3 +73,11 @@ In standard operation mode, the rules are applied in the following sequence:
 However, you can adapt the execution order of the same type of rules in each typology. Indeed, when multiple rules are executed during the same message processing phase, you can choose the order in which they are applied.
 
 For example, a filtering rule whose execution order is positioned at number 20 will be executed before a filtering rule whose execution order is positioned at number 30.
+
+In the **[!UICONTROL Properties]** of a typology rule, you can set its execution order. When several rules have to be applied, the execution order of each rule determines the ones to process first. For more on this, refer to the [Typology rules execution order](#typology-rules-execution-order) section.
+
+![](assets/typology_rule-active.png)
+
+A typology rule can be deactivated through its **[!UICONTROL Properties]** if you do not want the rule to be applied at the moment that the messages concerned by the rule are analyzed.
+
+![](assets/typology_rule-order.png)

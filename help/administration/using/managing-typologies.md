@@ -74,4 +74,4 @@ When associating a typology with a message, the typology rules included in the t
 
 1. By default, the out-of-the-box typology is linked to messages. Select the typology of your choice from the list, then confirm.
 
-The selected typology is now linked to the message. All its associated typology rules will be executed for the message validity checks.
+The selected typology is now linked to the message. All its associated typology rules will be executed to check the message validity.

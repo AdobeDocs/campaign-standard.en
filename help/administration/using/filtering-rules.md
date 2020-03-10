@@ -18,9 +18,25 @@ snippet: y
 
 Filtering rules allow you to exclude one part of the message target according to criteria defined in a query, such as quarantined profiles or profiles that have already been sent a certain number of emails.
 
-For example, you can filter the newsletter subscribers so that the subscribers that are younger than 18 years old never receive communications.
+## Default filtering typology rules {#default-filtering-typology-rules}
+
+A set of default filtering rules are available by default in Campaign Standard:
+
+* xx
+* xx
+* xx
+
+Additionnally to the default filtering rukes, two exclusion rules are available by default: **[!UICONTROL Exclusion of addresses]** ( **[!UICONTROL addressExclusions]** ) and **[!UICONTROL Exclusion of domains]** ( **[!UICONTROL domainExclusions]** ). During the email analysis, these rules compare the recipient email addresses with the forbidden addresses or domain names contained in an encrypted global suppression list managed in the deliverability instance. If there is a match, the message is not sent to that recipient.
+
+This is to avoid being blacklisted due to malicious activity, especially the use of a Spamtrap. For example, if a Spamtrap is used to subscribe via one of your web forms, a confirmation email is automatically sent to that Spamtrap, and this results in your address being automatically blacklisted.
+
+>[!NOTE]
+>
+>The addresses and domain names contained in the global suppression list are hidden. Only the number of excluded recipients is indicated in the delivery analysis logs.
 
 ## Creating a filtering rule {#creating-a-filtering-rule}
+
+For example, you can filter the newsletter subscribers so that the subscribers that are younger than 18 years old never receive communications.
 
 1. Create a **Filtering** typology rule, one that can be applied on all communication channels.
 
@@ -65,14 +81,3 @@ You can restrict the applicability of a filtering rule according to the message 
    ![](assets/typology_limit-rule.png)
 
 In this case, the rule is only applied to the messages that correspond to the defined criteria.
-
-## Default deliverability exclusion rules {#default-deliverability-exclusion-rules}
-
-Two filtering rules are available by default: **[!UICONTROL Exclusion of addresses]** ( **[!UICONTROL addressExclusions]** ) and **[!UICONTROL Exclusion of domains]** ( **[!UICONTROL domainExclusions]** ). During the email analysis, these rules compare the recipient email addresses with the forbidden addresses or domain names contained in an encrypted global suppression list managed in the deliverability instance. If there is a match, the message is not sent to that recipient.
-
-This is to avoid being blacklisted due to malicious activity, especially the use of a Spamtrap. For example, if a Spamtrap is used to subscribe via one of your web forms, a confirmation email is automatically sent to that Spamtrap, and this results in your address being automatically blacklisted.
-
->[!NOTE]
->
->The addresses and domain names contained in the global suppression list are hidden. Only the number of excluded recipients is indicated in the delivery analysis logs.
-

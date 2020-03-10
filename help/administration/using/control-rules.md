@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Control rules{#control-rules}
+# Control rules {#control-rules}
 
 Control rules allow the user to check the validity and quality of the messages before they are sent, such as character display, SMS message size, address format, etc.
 
@@ -35,23 +35,15 @@ You can choose the moment at which the rule will be applied from one of the phas
 
 Possible values are:
 
-* **At the start of targeting**
+* **At the start of targeting**: The control rule can be applied at this phase so that the personalization step is not executed in the event of an error.
 
-  The control rule can be applied at this phase so that the personalization step is not executed in the event of an error.
-
-* **After targeting**
-
-  If you need to know the volume of the target in order to apply the control rule, select this phase.
+* **After targeting**: If you need to know the volume of the target in order to apply the control rule, select this phase.
 
   For example, the **Check proof size** control rule applies after the targeting stage: this rule prevents the preparation of message personalization if there are too many proof recipients.
 
-* **At the start of personalization**
+* **At the start of personalization**: This phase must be selected if the check concerns approving message personalization. Message personalization is carried out during the analysis phase.
 
-  This phase must be selected if the check concerns approving message personalization. Message personalization is carried out during the analysis phase.
-
-* **At the end of the analysis**
-
-  When a check requires message personalization to be complete, select this phase.
+* **At the end of the analysis**: When a check requires message personalization to be complete, select this phase.
 
 >[!NOTE]
 >
