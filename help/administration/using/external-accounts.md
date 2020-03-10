@@ -173,46 +173,31 @@ Once configured, click **[!UICONTROL Test connection]** to link Adobe Campaign t
 
 **Encryption**
 
-Azure Storage will encrypt your data as written in Microsoft datacenters using Microsoft Managed Keys. Your data will then be automatically decrypted as you access it.
-Please note that Adobe Campaign does not support custom encryption key and will always use a secured connection (HTTPS) to access your Microsoft Azure Blob storage account.
+Adobe Campaign uses a secured connection (HTTPS) to access your Microsoft Azure Blob storage account.
 
 **Account key**
 
 When configuring your external account, you must use one of the **[!UICONTROL Account key]** available in the Azure Portal. For more information on where to find your account keys, refer to this [page](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage#view-access-keys-and-connection-string).
-
-Shared access signature is not supported in Adobe Campaign Standard.
 
 **Optimizing the file transfer speed**
 
 The **[!UICONTROL Concurrency]** option lets you fine tune the speed of your file transfers.
 It represents the number of threads that will used to perform the file transfer. Each of these threads will download a range of about 1MB from the blob. They will then be queued for them to be written to disk. Note that the more threads you have, larger the capacity of the queue will be.
 
-**[!UICONTROL Concurrency]** can have some impact on the resources used by the application during the file transfer e.g. for a concurrency of 64, a **[!UICONTROL File transfer]** can consume up to 256MB of memory.
-
-After your file transfer completion, you can find for example in the Workflow logs the following statistics:
-
-```
-
-Statistics:
-  Concurrency: 64
-  Execution time: 22s
-  Max queue size: 257 ranges (245 MB)
-  Avg queue wait time: 69.143 ms
-  Max queue wait time: 1607.552 ms
-  Download throughput: 4017.233 Mb/s
-  Disk write time: 15.340 sec
-
-```
+After your file transfer completion, you can find performance metrics in the Workflow logs.
 
 **Retries**
 
-Error codes such as 503 (server busy) or 500 (operation timeout) might return when using Azure Storage service. This means that you might be approaching or exceeding the scalability of your storage account which can happen when using a new account or performing tests.
-In those cases, Azure Storage service will automatically repartition your account to better handle the load. If the error persists, you can increase the number of retries in the options:
+By default, the file transfer for Azure Blob will have up to four retries.  If the Azure Storage service returns an error code such as 503 (server busy) or 500 (operation timeout), this may indicate that you are approaching or exceeding the scalability of your storage account. This can happen when using a new account or performing tests.
+
+If the error persists, you can increase the number of retries by creating an option under the advanced menu **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Options]**.
+
+You can find below an example of option:
 
 ```
 
 ID:        AzureBlob_Max_Retries
 Date type: Integer
-Default:   4                      # 5 attempts in total
+Default:   <the number of retries needed>
 
 ```

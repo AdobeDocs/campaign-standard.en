@@ -112,7 +112,7 @@ The Microsoft Azure Blob protocol allows you to access blob located on a Microso
 
     >[!CAUTION]
     >
-    >Wildcards are supported to match multiple file names. Instead, you need to enter a prefix. All blob names matching that prefix will be eligible.
+    >Wildcards are not supported to match multiple file names. Instead, you need to enter a prefix. All blob names matching that prefix will be eligible.
 
     You can find below a list of file paths' examples:
 
