@@ -61,7 +61,7 @@ All the sending log details are read-only. You can also see a preview of the mir
 
 >[!NOTE]
 >
->If the mirror page server URL is not secure (meaning if not starting with https://), the mirror page rendering cannot be displayed from the Campaign user interface. This server is defined when [configuring brands](../../administration/using/branding.md#configuring-and-using-brands).
+>To display the mirror page rendering in the Campaign user interface, the mirror page server URL must be secure. In that case, use https:// rather than http:// to set up this URL when [configuring your brand](../../administration/using/branding.md#configuring-and-using-brands).
 
 ### Exclusion logs {#exclusion-logs}
 

@@ -281,7 +281,7 @@ Defining dynamic content is different from [defining visibility conditions](#def
 
 **Related topics:**
 
-* [Sending proofs](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs)
+* [Sending proofs](../../sending/using/sending-proofs.md)
 * [Advanced expression editing](../../automating/using/editing-queries.md#about-query-editor)
 
 ### Order of priority {#order-of-priority}

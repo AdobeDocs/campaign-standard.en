@@ -72,7 +72,7 @@ You can now access the message that you created and select the updated test prof
 
 **Related topics:**
 
-* [Managing test profiles](../../sending/using/managing-test-profiles-and-sending-proofs.md)
+* [Managing test profiles](../../audiences/using/managing-test-profiles.md)
 * [Defining audiences](../../audiences/using/creating-audiences.md)
 
 ## Personalizing a transactional message {#personalizing-a-transactional-message}
@@ -237,7 +237,7 @@ Once you have saved your transactional message, you can now send a proof to test
 
 ![](assets/message-center_10.png)
 
-The steps for sending a proof are detailed in the [Sending a proof](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs) section.
+The steps for sending a proof are detailed in the [Sending a proof](../../sending/using/sending-proofs.md) section.
 
 ## Publishing a transactional message {#publishing-a-transactional-message}
 

@@ -73,7 +73,7 @@ A **Brand** is defined by the following characteristics:
 
     >[!NOTE]
     >
-    >If the application server and mirror page server URLs are not secure (meaning if not starting with https://), the landing page preview and the mirror page rendering cannot be displayed from the Campaign user interface.
+    >To display the landing page preview and the mirror page rendering in the Campaign user interface, the application server and mirror page server URLs must be secure. In that case, use https:// rather than http:// when setting up these URLs.
 
 * **[!UICONTROL Tracking URL configuration (Web Analytics)]**, which defines the configuration of the URLs tracking for your brand.
 

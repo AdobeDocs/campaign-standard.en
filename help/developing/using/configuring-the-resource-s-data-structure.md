@@ -37,8 +37,7 @@ You can add new fields to a resource to store data that are not part of the out 
 
    >[!NOTE]
    >
-   >If you leave the **[!UICONTROL Label]** field empty, it will automatically be completed from the ID.
-   >We recommend using 30 characters maximum.
+   >Use 30 characters maximum.
 
    ![](assets/schema_extension_4.png)
 
@@ -59,10 +58,14 @@ You can add new fields to a resource to store data that are not part of the out 
 
    These fields appear in the data and metadata that can be displayed once the database update has been carried out. For more on this, refer to the [Updating the database structure](../../developing/using/updating-the-database-structure.md) section.
 
-1. Check the **[!UICONTROL Add automatic ID]** field to automatically generate an ID. Please note that existing entities will remain empty.
-1. To modify the way in which the name of the resource elements will appear in the lists and creation steps, check the **[!UICONTROL Personalize the resource title]** box. Select a field from those you created for this resource.
+1. Check the **[!UICONTROL Add automatic ID]** field to automatically generate an ID. Please note that existing entities will remain empty. For more on this, refer to the [Generating a unique ID for profiles and custom resources](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).
+1. To modify the way in which the name of the resource elements will appear in the lists and creation steps, check the **[!UICONTROL Customize the title of the resource elements]** box. Select a field from those you created for this resource.
 
    ![](assets/schema_extension_18.png)
+
+   >[!NOTE]
+   >
+   >If you do not check this option, the automatic primary key (which is automatically created each time an entity is added to the table) will be used when you list all the entities from this table.
 
 The fields of your resource are now defined.
 
@@ -80,7 +83,7 @@ Each resource must have at least one unique key. For example, you can specify a 
 
    >[!NOTE]
    >
-   >We recommend using 30 characters maximum.
+   >Use 30 characters maximum.
 
 1. To define the elements making up this key, click **[!UICONTROL Create element]** and select the fields that you created for this resource.
 
@@ -89,6 +92,10 @@ Each resource must have at least one unique key. For example, you can specify a 
    Created keys are displayed in the **[!UICONTROL Custom keys]** section.
 
 Your identification keys for the resource are now created.
+
+>[!NOTE]
+>
+>To learn about best practices when creating identification keys, see this [section](../../developing/using/data-model-best-practices.md#keys).
 
 ## Defining indexes {#defining-indexes}
 
@@ -104,7 +111,7 @@ Defining indexes is recommended but not mandatory.
 
    >[!NOTE]
    >
-   >We recommend using 30 characters maximum.
+   >Use 30 characters maximum.
 
 1. To define the elements making up this index, select the fields from those that you created for this resource.
 
@@ -113,6 +120,10 @@ Defining indexes is recommended but not mandatory.
 1. Click **[!UICONTROL Confirm]**.
 
 The indexes that were created appear in the list in the **[!UICONTROL Index]** section.
+
+>[!NOTE]
+>
+>To learn about best practices when creating indexes, see this [section](../../developing/using/data-model-best-practices.md#indexes).
 
 ## Defining links with other resources {#defining-links-with-other-resources}
 
@@ -143,7 +154,7 @@ A link details the association that one table has with other tables.
 
    >[!NOTE]
    >
-   >We recommend using 30 characters maximum.
+   >Use 30 characters maximum.
    
    >[!CAUTION]
    >
@@ -165,6 +176,10 @@ A link details the association that one table has with other tables.
    ![](assets/schema_extension_17.png)
 
 The links created are displayed in the list in the **[!UICONTROL Links]** section.
+
+>[!NOTE]
+>
+>To learn about best practices when creating indexes, see this [section](../../developing/using/data-model-best-practices.md#links).
 
 **Example: Link a created resource with the 'Profiles' resource**
 
@@ -255,7 +270,7 @@ In the custom resource screen, the **[!UICONTROL Summary]** pane indicates the s
 
    >[!NOTE]
    >
-   >We recommend using 30 characters maximum.
+   >Use 30 characters maximum.
 
 1. If you need to restrict the access to this resource to certain organizational units, specify them here. Only users from authorized units will be able to work with this resource in the application.
 1. Save the modifications.
@@ -273,6 +288,13 @@ It can be enabled for profiles and custom resources only.
 
 1. Create an extension to the profiles resource or create a new resource.
 1. In the data structure definition, check the **[!UICONTROL Add automatic ID field]** option, under the **[!UICONTROL Fields]** section.
+
+    ![](assets/option_id_field.png)
+
+    >[!NOTE]
+    >
+    >Only new records will have an ACS ID. The **[!UICONTROL ACS ID]** field will remain empty for profiles or elements created before activating this option.
+
 1. Save and publish the modification made to the resource. If you want this mechanism to apply for elements created via the API, check the option to extend the API.
 
 The **[!UICONTROL ACS ID]** field is now available and automatically populated when new elements are created manually, from the API, or inserted from an import workflow. The ACS ID field is a UUID field and is indexed.
@@ -285,5 +307,6 @@ When re-importing data that have been processed/updated in another application (
 
 >[!NOTE]
 >
->The **[!UICONTROL ACS ID]** field is not updated for profiles or elements created before activating the option. Only new records will have an ACS ID. This field is in read-only mode. You cannot modify it.
-
+>The **[!UICONTROL ACS ID]** field is not updated for profiles or elements created before enabling the option. Only new records will have an ACS ID.
+>
+>This field is in read-only mode. You cannot modify it.

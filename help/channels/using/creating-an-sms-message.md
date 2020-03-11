@@ -63,7 +63,7 @@ To create and send SMS messages to a mobile phone, you need:
    >
    >You can set global cross-channel fatigue rules that will automatically exclude oversollicited profiles from campaigns. See [Fatigue rules](../../administration/using/fatigue-rules.md).
 
-1. Send proofs to check and validate your message and monitor its inbox rendering. See the [Sending proof](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs) section.
+1. Send proofs to check and validate your message and monitor its inbox rendering. See the [Sending proof](../../sending/using/sending-proofs.md) section.
 1. Confirm the sending of the message. The sending will start accordingly to the schedule you have defined.
 
    ![](assets/sms_creation_7.png)

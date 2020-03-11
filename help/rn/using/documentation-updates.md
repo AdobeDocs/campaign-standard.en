@@ -22,6 +22,18 @@ This page lists all the new features and documentation updates for each release 
 
 You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-notes.md).
 
+## Documentation updates - March 2020 {#doc-updates-march-2020}
+
+The Configuring a mobile application documentation and related pages have been updated to reflect SDK V4 depreciation. [Read more](https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq)
+
+The Adobe Campaign Standard / Adobe Experience Manager integration documentation has been updated and improved. [Read more](../../integrating/using/configure-experience-manager.md)
+
+The Campaign Email Designer documentation and related pages have been updated to reflect Adobe Creative SDK depreciation. [Read more](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+
+A new section dedicated to Campaign Standard data model best practices is now available. [Read more](../../developing/using/data-model-best-practices.md)
+
+Information has been added on the **[!UICONTROL Workflow]** out-of-the-box right. [Read more](../../administration/using/list-of-roles.md)
+
 ## Release 20.1 - February 2019 {#release-20-1---february-2020}
 
 **New capabilities included in the release**
@@ -134,7 +146,7 @@ A new section was added in the Push notifications section on how to create and u
 
 A new example showing how to send an email containing additional data retrieved from a load file activity has been added. [Read more](../../automating/using/load-file.md#example-2-email-with-enriched-fields)
 
-A new section on how to use traps has been added. [Read more](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps).
+A new section on how to use traps has been added. [Read more](../../sending/using/using-traps.md).
 
 A note about the **Launch_URL_Campaign** option was added in the page on how to configure a mobile application using Adobe Experience Platform SDKs. [Read more](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
 

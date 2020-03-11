@@ -47,7 +47,7 @@ Audiences can be defined when creating the message via the creation wizard or fr
 
 1. Define the **[!UICONTROL Test profiles]** you want to use for the email. The test profiles will receive the proofs that you can send before to test the email before sending it to the main target.
 
-   For more information on configuring test profiles, refer to the [Test profiles](../../sending/using/managing-test-profiles-and-sending-proofs.md) section.
+   For more information on configuring test profiles, refer to the [Test profiles](../../audiences/using/managing-test-profiles.md) section.
 
 The audiences block is then updated and shows that a target and test profiles have been selected for the email in question.
 

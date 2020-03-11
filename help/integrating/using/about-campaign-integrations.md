@@ -95,11 +95,6 @@ If you would like to integrate data flows from other systems with Adobe Campaign
   </td> 
   </tr> 
   <tr> 
-   <td> Creative SDK<br /> </td> 
-   <td> Allows you to edit images and use a complete set of features powered by the Adobe Creative SDK to enhance your images directly in the content editor.<br /> </td> 
-   <td> <a href="../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk">Modifying images with the Adobe Creative SDK</a><br /> </td> 
-  </tr> 
-  <tr> 
    <td> Experience Platform SDKs<br /> </td> 
    <td> Allows automation of the Mobile App Property activation process in Adobe Campaign using the Experience Platform SDKs.<br /> </td> 
    <td> <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">Configuring a mobile application using Experience Platform SDKs</a><br /> </td> 

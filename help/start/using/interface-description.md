@@ -84,7 +84,7 @@ The **[!UICONTROL Marketing plans]** icon gives you access the following functio
 The **[!UICONTROL Profiles & audiences]** icon gives you access to the following functionalities:
 
 * **[!UICONTROL Profiles]** - for more on this, refer to the [Managing profiles](../../audiences/using/about-profiles.md) section.
-* **[!UICONTROL Test profiles]** - for more on this, refer to the [Managing test profiles](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles) section.
+* **[!UICONTROL Test profiles]** - for more on this, refer to the [Managing test profiles](../../audiences/using/managing-test-profiles.md) section.
 * **[!UICONTROL Audiences]** - for more on this, refer to the [Managing audiences](../../audiences/using/about-audiences.md) section.
 * **[!UICONTROL Services]** - for more on this, refer to the [Creating a service](../../audiences/using/creating-a-service.md) section.
 
