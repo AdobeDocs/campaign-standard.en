@@ -182,7 +182,7 @@ When configuring your external account, you must use one of the **[!UICONTROL Ac
 **Optimizing the file transfer speed**
 
 The **[!UICONTROL Concurrency]** option lets you fine tune the speed of your file transfers.
-It represents the number of threads that will used to perform the file transfer. Each of these threads will download a range of about 1MB from the blob. They will then be queued for them to be written to disk. Note that the more threads you have, larger the capacity of the queue will be.
+It represents the number of threads that will used to perform the file transfer. Each of these threads will download a range of about 1MB from the blob. They will then be queued to be written to disk. Note that by increasing the number of threads you will also be increasing the load on the resources used by the application during the file transfer.
 
 After your file transfer completion, you can find performance metrics in the Workflow logs.
 
@@ -192,7 +192,7 @@ By default, the file transfer for Azure Blob will have up to four retries.  If t
 
 If the error persists, you can increase the number of retries by creating an option under the advanced menu **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Options]**.
 
-You can find below an example of option:
+If implemented, the option must be created as follows:
 
 ```
 
