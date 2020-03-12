@@ -175,6 +175,23 @@ The **[!UICONTROL Unpublish]** button lets you cancel the publication of the eve
 
 Click the **[!UICONTROL Publish]** button to generate a new REST API.
 
+### Deleting an event {#deleting-an-event}
+
+Once an event has been unpublished, or if an event has  not been published yet, you can delete it from the event configuration list. To do this:
+
+1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
+1. Hover the mouse over the event configuration of your choice and select the **[!UICONTROL Delete element]** button.
+
+   ![](assets/message-center_delete-button.png)
+
+   >[!NOTE]
+   >
+   >Make sure the event configuration has the **[!UICONTROL Draft]** status, otherwise you will not be able to delete it.
+
+1. Click the **[!UICONTROL Confirm]** button.
+
+   ![](assets/message-center_delete-confirm.png)
+
 ## Integrating the triggering of the event in a website {#integrating-the-triggering-of-the-event-in-a-website}
 
 Once you have created an event, you will have to integrate the triggering of this event into your website.
