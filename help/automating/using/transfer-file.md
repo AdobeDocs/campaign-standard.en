@@ -22,6 +22,10 @@ snippet: y
 
 The **[!UICONTROL Transfer file]** activity allows you to receive or send files, test whether there are files present, or list files in Adobe Campaign.
 
+>[!CAUTION]
+>
+>Starting 20.3 release, files downloaded with **[!UICONTROL Transfer File]** activity will be deleted after X days, where X is determined by the **[!UICONTROL History in days]** field under the **[!UICONTROL Execution]** menu in the Workflow properties. Please make sure that your **[!UICONTROL Load File]** activities are not configured to load these files, once deleted, as this will cause an error in the workflow.
+
 ## Context of use {#context-of-use}
 
 The way in which the data will be extracted is defined when the activity is configured. The file to load may be a list of contacts, for example.
