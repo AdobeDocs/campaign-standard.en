@@ -182,7 +182,7 @@ When configuring your external account, you must use one of the **[!UICONTROL Ac
 **Optimizing the file transfer speed**
 
 The **[!UICONTROL Concurrency]** option lets you fine tune the speed of your file transfers.
-It represents the number of threads that will used to perform the file transfer. Each of these threads will download a range of about 1MB from the blob. They will then be queued to be written to disk. Note that by increasing the number of threads you will also be increasing the load on the resources used by the application during the file transfer.
+It represents the number of threads that will be used to perform the file transfer. Each of these threads will download a portion of about 1MB from the blob. They will then be queued to be written to disk. Note that by increasing the number of threads you will also be increasing the load on the resources used by the application during the file transfer.
 
 After your file transfer completion, you can find performance metrics in the Workflow logs.
 
