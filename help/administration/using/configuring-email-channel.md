@@ -347,6 +347,10 @@ When activated in the delivery template, this feature allows you to send an exac
 * For privacy reasons, BCC emails must be processed by an archiving system capable of storing securely personally identifiable information (PII).
 * When creating a new delivery template, Email BCC is not enabled by default, even if the option has been purchased. You must enable it manually in each delivery template where you want to use it.
 
+>[!NOTE]
+>
+>Currently the archived emails cannot be sent with the [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html), even if you are already upgraded to the Enhanced MTA.
+
 ### Activating email archiving {#activating-email-archiving}
 
 Email BCC is activated in the [email template](../../start/using/marketing-activity-templates.md), through a dedicated option:
