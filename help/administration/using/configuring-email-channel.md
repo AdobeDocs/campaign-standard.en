@@ -74,17 +74,13 @@ The default rules are as follows:
 
 ### Bounce mails {#bounce-mails}
 
->[!IMPORTANT]
->
->Once upgraded to the Enhanced MTA, the bounce qualifications in the Campaign **[!UICONTROL Message qualification]** table are no longer used.
-
 For synchronous delivery failure error messages, the Enhanced MTA determines the bounce type and qualification, and sends back that information to Campaign. For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
-Asynchronous bounces are still qualified by the inMail process.
+Asynchronous bounces are still qualified by the Campaign inMail process through the **[!UICONTROL Bounce mails]** rule.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->For instances using the Enhanced MTA without Webhooks/EFS, the Enhanced MTA will send back a bounce email to Campaign (InMail) for all synchronous bounces, using the same email address as for asynchronous bounce emails.
+>Once upgraded to the Enhanced MTA, the bounce qualifications in the Campaign **[!UICONTROL Message qualification]** table are no longer used. For more on bounce mail qualification, see this [section](../../sending/using/understanding-delivery-failures.md).
 
 <!--The user can create his own rules.
 
