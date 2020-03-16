@@ -46,7 +46,7 @@ snippet: y
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>The interface top bar has been enhanced to improve experience across all Experience Cloud applications. Access to solutions has been unified with the following URL: `experience.adobe.com/<application name>`. The header now allows you to switch more easily between solutions and displays improved help and notifications.</p>
+   <td> <p>The interface top bar has been enhanced to improve experience across all Experience Cloud applications. Access to solutions has been unified with the following URL: `experience.adobe.com/&lt;application name>`. The header now allows you to switch more easily between solutions and displays improved help and notifications.</p>
     <p>For more information, refer to the <a href="../../start/using/interface-description.md#top-bar">detailed documentation</a>. </p>
    </td> 
   </tr> 
