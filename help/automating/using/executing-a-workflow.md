@@ -195,7 +195,7 @@ Possible options are:
 
 * **[!UICONTROL Default affinity]**: this field allows you to force a workflow or a workflow activity to execute on a particular machine.
 
-* **[!UICONTROL History in days]**: specifies the number of days after which the history must be purged. The history consists in all elements related like logs, tasks, events. Default value is 30 days.
+* **[!UICONTROL History in days]**: specifies the number of days after which the history must be purged. The history consists in all elements related like logs, tasks, events. Default value is 30 days for out-of-the-box workflow templates.
 
   Purge of the history is performed by the Database cleanup technical workfow, which is executed by default everyday (see [List of technical workflows](../../administration/using/technical-workflows.md).)
 
