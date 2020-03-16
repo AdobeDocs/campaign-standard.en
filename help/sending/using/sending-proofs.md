@@ -34,7 +34,7 @@ There are two types of proof recipients:
 
    >[!NOTE]
    >
-   >This feature is avaiable for the email channel only.
+   >This feature is available for the email channel only.
 
 ## Sending a proof {#sending-a-proof}
 
