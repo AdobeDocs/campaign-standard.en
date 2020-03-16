@@ -50,11 +50,7 @@ By default, only the details of the last transition of the workflow can be acces
 
 When a transition is open, you can edit its **[!UICONTROL Label]** or link a **[!UICONTROL Segment code]** to it. To do this, edit the corresponding fields and confirm your modifications.
 
-## Controlling a workflow from the REST API {#controlling-a-workflow-from-the-rest-api}
-
-Using the REST API, you can **start**, **pause**, **resume** and **stop** a workflow.
-
-You can find more details and examples of REST calls in the [API documentation.](../../api/using/controlling-a-workflow.md)
+Using Campaign Standard REST APIs, you can **start**, **pause**, **resume** and **stop** a workflow. You can find more details and examples of REST calls in the [API documentation.](../../api/using/controlling-a-workflow.md)
 
 ## Life cycle {#life-cycle}
 
