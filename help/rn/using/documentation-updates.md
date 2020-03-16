@@ -24,6 +24,8 @@ You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-n
 
 ## Documentation updates - March 2020 {#doc-updates-march-2020}
 
+More detailed information on the Enhanced MTA has been added to core documentation, particularly regarding email processing rules and bounce mail qualification [Read more](../../administration/using/configuring-email-channel.md#email-processing-rules)
+
 The Configuring a mobile application documentation and related pages have been updated to reflect SDK V4 depreciation. [Read more](https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq)
 
 The Adobe Campaign Standard / Adobe Experience Manager integration documentation has been updated and improved. [Read more](../../integrating/using/configure-experience-manager.md)
