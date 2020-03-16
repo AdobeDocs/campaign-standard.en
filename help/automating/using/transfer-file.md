@@ -22,6 +22,10 @@ snippet: y
 
 The **[!UICONTROL Transfer file]** activity allows you to receive or send files, test whether there are files present, or list files in Adobe Campaign.
 
+>[!CAUTION]
+>
+>Starting 20.3 release, files downloaded with **[!UICONTROL Transfer File]** activity will be deleted after X days, where X is determined by the **[!UICONTROL History in days]** field under the **[!UICONTROL Execution]** menu in the Workflow properties. For more on this, refer to this [page](../../automating/using/executing-a-workflow.md#workflow-properties).
+
 ## Context of use {#context-of-use}
 
 The way in which the data will be extracted is defined when the activity is configured. The file to load may be a list of contacts, for example.
@@ -40,59 +44,12 @@ You can use this activity to recover data that will then be structured with the 
     * **File upload**: allows you to upload a file. Uploading a file from Adobe Campaign file generates a log entry in the **[!UICONTROL Export audits]** menu. For more information on export audits, refer to the [Auditing exports](../../administration/using/auditing-export-logs.md) section.
     * **Test to see if file exists**: allows you to check whether there is a file.
     * **File listing**: allows you to list the files present in Adobe Campaign.
-
-   Depending on the action selected, one or several protocols are available:
-
-    * **HTTP**: this protocol allows you to start downloading a file from an external account or from a URL.
-
-        * Click the **[!UICONTROL Use connection parameters defined in an external account]** option, then select the account you would like and specify the path of the file to download.
-        
-          ![](assets/wkf_file_transfer_03.png)
-
-        * Click the **[!UICONTROL Quick configuration]** option, then enter the URL in the field that appears.
-        
-          ![](assets/wkf_file_transfer_04.png)
-
-    * **S3**: this protocol allows you to start downloading a file from a URL or an external account via Amazon Simple Storage Service (S3).
-
-        * Select the external account and specify the path of the file to download.
-        
-          ![](assets/wkf_file_transfer_08.png)
-
-    * **SFTP**: this protocol allows you to start downloading a file from a URL or an external account.
-
-        * Click the **[!UICONTROL Use connection parameters defined in an external account]** option, then select the account you would like and specify the path of the file to download.
-        
-          ![](assets/wkf_file_transfer_07.png)
-
-          >[!CAUTION]
-          >
-          >Wildcards are supported.
-
-        * Click the **[!UICONTROL Quick configuration]** option, then enter the URL in the field that appears.
-        * If you want to sort the imported files, select the **[!UICONTROL Sort alphanumerically]** option from the **[!UICONTROL Additional options]** section. The files will then be processed in a sequential order.
-        
-          ![](assets/wkf_file_transfer_sort.png)
-
-    * **File(s) present on the Adobe Campaign server**: this protocol corresponds to the repository containing the file(s) to recover.
-
-      Metacharacters, or wildcards (for example &#42; or ?) can be used to filter files.
-
-      Fill in this field and confirm your activity to use this protocol.
-
-      >[!NOTE]
-      >
-      >The path must be relative to the storage space directory of the Adobe Campaign server. Files are located in the **sftp&lt;yourinstancename&gt;/** directory. You also cannot browse the directories above the storage space. For example:
-      
-      >**user&lt;yourinstancename>/my_recipients.csv** is correct.
-      >
-      >**../hello/my_recipients.csv** is incorrect.
-      >
-      >**//myserver/hello/myrecipients.csv** is incorrect.
-
-   Select your protocol and complete the associated fields.
-
-   The **[!UICONTROL Use a dynamic file path]** option, available for each protocol, lets you use a standard expression and events variables to personalize the name of the file to transfer. For more on this, refer to the [Customizing activities with events variables](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables) section.
+1. Select the protocol you want to use:
+    * [HTTP](#HTTP-configuration-wf)
+    * [SFTP](#SFTP-configuration-wf)
+    * [Amazon S3](#S3-configuration-wf)
+    * [Microsoft Azure Blob storage](#azure-blob-configuration-wf)
+    * [File(s) present on the Adobe Campaign server](#files-server-configuration-wf)
 
 1. The **[!UICONTROL Additional options]** section, available depending on the protocol selected, allows you to add parameters to your protocol. You can:
 
@@ -107,6 +64,81 @@ You can use this activity to recover data that will then be structured with the 
    ![](assets/wkf_file_transfer_09.png)
 
 1. Confirm the configuration of your activity and save your workflow.
+
+### Configuration with HTTP {#HTTP-configuration-wf}
+
+The HTTP protocol allows you to start downloading a file from an external account or from a URL.
+
+With this procotol, you can choose to **[!UICONTROL Use connection parameters defined in an external account]** option. In this case select the account you would like and specify the path of the file to download.
+ ![](assets/wkf_file_transfer_03.png)
+
+You can also choose the **[!UICONTROL Quick configuration]** option. You only need to enter the URL in the URL field.
+![](assets/wkf_file_transfer_04.png)
+
+### Configuration with SFTP {#SFTP-configuration-wf}
+
+The SFTP protocol allows you to start downloading a file from a URL or an external account.
+
+With this procotol, you can choose to **[!UICONTROL Use connection parameters defined in an external account]** option, then select the account you would like and specify the path of the file to download.
+![](assets/wkf_file_transfer_07.png)
+
+>[!CAUTION]
+>
+>Wildcards are supported.
+
+You can also choose the **[!UICONTROL Quick configuration]** option. You only need to enter the URL in the URL field.
+
+### Configuration with Amazon S3 {#S3-configuration-wf}
+
+The Amazon S3 protocol allows you to start downloading a file from a URL or an external account via Amazon Simple Storage Service (S3).
+
+1. Select an Amazon S3 external account. For more on this, refer to this [page](../../administration/using/external-accounts.md#amazon-s3-external-account).
+
+2. Choose if you want to **[!UICONTROL Define a file path]** or **[Use a dynamic file path]**.
+
+3. Specify the path of the file to download.
+
+    ![](assets/wkf_file_transfer_08.png)
+
+4. If you want to delete your source files when transfer is completed, check **[!UICONTROL Delete the source files after transfer]**.
+
+### Configuration with Microsoft Azure Blob storage {#azure-blob-configuration-wf}
+
+The Microsoft Azure Blob protocol allows you to access blob located on a Microsoft Azure Blob Storage account.
+
+1. Select a **[!UICONTROL Microsoft Azure Blob]** external account. For more on this, refer to this [page](../../administration/using/external-accounts.md#microsoft-azure-external-account).
+
+1. Choose if you want to **[!UICONTROL Define a file path]** or **[Use a dynamic file path]**.
+
+    ![](assets/wkf_file_transfer_10.png)
+
+1. Specify the path of the file to download, it can match multiple blobs. In that case, the **[!UICONTROL File transfer]** activity will activate the outgoing transition once per blob found. They will then be processed in alphabetical order.
+
+    >[!CAUTION]
+    >
+    >Wildcards are not supported to match multiple file names. Instead, you need to enter a prefix. All blob names matching that prefix will be eligible.
+
+    You can find below a list of file paths' examples:
+
+    * **"campaign/"**: matches all blobs in the Campaign folder located at the root of the container.
+    * **"campaign/new-"**: matches all blobs with a file name starting with "new-" and located under the Campaign folder.
+    * **""**: adding an empty path allows you to match all the blobs available in the container.
+
+### Configuration with files present on the Adobe Campaign server {#files-server-configuration-wf}
+
+The **[!UICONTROL File(s) present on the Adobe Campaign server]** protocol corresponds to the repository containing the file(s) to recover.
+Metacharacters, or wildcards (for example &#42; or ?) can be used to filter files.
+
+Choose if you want to **[!UICONTROL Define a file path]** or **[Use a dynamic file path]** 
+The **[!UICONTROL Use a dynamic file path]** option, lets you use a standard expression and events variables to personalize the name of the file to transfer. For more on this, refer to the [Customizing activities with events variables](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables) section.
+
+Please note that the path must be relative to the storage space directory of the Adobe Campaign server. Files are located in the **sftp&lt;yourinstancename&gt;/** directory. You also cannot browse the directories above the storage space. For example:
+
+      >**user&lt;yourinstancename>/my_recipients.csv** is correct.
+      >
+      >**../hello/my_recipients.csv** is incorrect.
+      >
+      >**//myserver/hello/myrecipients.csv** is incorrect.
 
 ## Historization settings {#historization-settings}
 
