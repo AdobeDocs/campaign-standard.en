@@ -41,12 +41,12 @@ snippet: y
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Support Unified Shell for Campaign</strong><br /> </th> 
+   <th> <strong>Unified Experience Cloud interface and domain</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>The interface top bar has been enhanced to improve experience across all the Experience Cloud. Access to solutions has been unified with the following URL: `experience.adobe.com/<application name>`. The header now allows you to switch more easily between solutions and displays improved help and notifications.</p>
+   <td> <p>The interface top bar has been enhanced to improve experience across all Experience Cloud applications. Access to solutions has been unified with the following URL: `experience.adobe.com/<application name>`. The header now allows you to switch more easily between solutions and displays improved help and notifications.</p>
     <p>For more information, refer to the <a href="../../start/using/interface-description.md#top-bar">detailed documentation</a>. </p>
    </td> 
   </tr> 
@@ -61,7 +61,7 @@ snippet: y
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Additionally to test profiles, you can now test an email message by placing yourself in the position of one of the targeted profiles. Thiis allows you to get an exact representation of the message that the profile will receive (custom fields, dynamic and personalized information, including additional data from worklows...).</p>
+   <td> <p>Additionally to test profiles, you can now test an email message by placing yourself in the position of one of the targeted profiles. This allows you to get an exact representation of the message that the profile will receive: custom fields, dynamic and personalized information, including additional data from worklows, etc.</p>
     <p>For more information, refer to the <a href="../../sending/using/testing-messages-using-target.md">detailed documentation</a>. </p>
    </td> 
   </tr> 
