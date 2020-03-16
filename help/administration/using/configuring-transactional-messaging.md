@@ -186,7 +186,7 @@ Once an event has been unpublished, or if an event has  not been published yet, 
 
    >[!NOTE]
    >
-   >Make sure the event configuration has the **[!UICONTROL Draft]** status, otherwise you will not be able to delete it.
+   >Make sure the event configuration has the **[!UICONTROL Draft]** status, otherwise you will not be able to delete it. The **[!UICONTROL Draft]** status applies to an event that has not been published yet or that has been [unpublished](#unpublishing-an-event).
 
 1. Click the **[!UICONTROL Confirm]** button.
 
