@@ -60,7 +60,7 @@ To create a new typology, follow these steps:
 
 Your typology is ready to be used. You can select it in message properties or in message template properties.
 
-## Associating a typology with a message {#associating-typology-with-message}
+## Applying typology to messages {#applying-typologies-to-messages}
 
 When associating a typology with a message, the typology rules included in the typology will be executed to check the message validity.
 
