@@ -21,9 +21,13 @@ snippet: y
 You can collect data from a file to process it and/or to import it in the Adobe Campaign database.
 
 * The **[!UICONTROL Load file]** activity allows you to import data in one structured form to use this data in Adobe Campaign. The data is temporarily imported and another activity is necessary to definitively integrate it in the Adobe Campaign database.
-* The **[!UICONTROL Transfer file]** activity allows you to receive or send files, test whether there are files present, or list files in Adobe Campaign.
 
-  You can use this activity before a **[!UICONTROL Load file]** in case you need to retrieve the file from an external source.
+  For more on how to use this activity, refer to [this section](../..hep/automating/using/load-file.md).
+
+* The **[!UICONTROL Transfer file]** activity allows you to receive or send files, test whether there are files present, or list files in Adobe Campaign.
+ You can use this activity before a **[!UICONTROL Load file]** in case you need to retrieve the file from an external source.
+
+  For more on how to use this activity, refer to [this section](../../automating/using/transfer-file.md).
 
 ## Import best practices {#import-best-practices}
 
@@ -44,6 +48,14 @@ An example of a generic workflow template designed for importing data is availab
 >[!NOTE]
 >
 >You can also use [import templates](../../automating/using/importing-data-with-import-templates.md). They are workflow templates defined by an administrator that, once activated, only offer the possibility to specify the file containing the data to import.
+
+**Related topics:**
+
+* [Load file activity](../../automating/using/load-file.md)
+* [Reconciliation activity](../../automating/using/reconciliation.md)
+* [Segmentation activity](../../automating/using/segmentation.md)
+* [Deduplication activity](../../automating/using/deduplication.md)
+* [Update data activity](../../automating/using/update-data.md)
 
 ### Using flat file formats {#using-flat-file-formats}
 
@@ -69,6 +81,11 @@ Durance;Allison;15/12/1978;allison.durance@example.com;120987
 ### Using compression {#using-compression}
 
 Use zipped files for imports and exports when possible. GZIP is supported by default. You can add pre-processing when importing files or post-processing when extracting data, respectively in the **[!UICONTROL Load file]** and **[!UICONTROL Extract file]** workflow activities.
+
+**Related topics:**
+
+* [Load file activity](../../automating/using/load-file.md)
+* [Extract file activity](../../automating/using/extract-file.md)
 
 ### Importing in Delta mode {#importing-in-delta-mode}
 
@@ -102,9 +119,14 @@ To do this, submit a request indicating:
   <path-to_pgp_if-not_global_or_server/>pgp.exe --decrypt --input nl6/var/vp/import/filename.pgp --passphrase "your password" --recipient recipient @email.com --verbose --output nl6/var/vp/import/filename
   ```
 
-Once the request is processed, the encryption / decryption commands will be available in the **!UICONTROL Pre-processing stage]** field from the **[!UICONTROL Data loading (file)]** and **[!UICONTROL Extracting data (file)]** activities. You can use them to decrypt or encrypt the files that you want to import or export.
+Once the request is processed, the encryption / decryption commands will be available in the **!UICONTROL Pre-processing stage]** field from the **[!UICONTROL Load file]** and **[!UICONTROL Extract file]** activities. You can use them to decrypt or encrypt the files that you want to import or export.
 
    ![](assets/preprocessing-encryption.png)
+
+**Related topics:**
+
+* [Load file](../../automating/using/load-file.md)
+* [Extract file](../../automating/using/extract-file.md)
 
 ## Creating workflow template to import data {#example--import-workflow-template}
 
