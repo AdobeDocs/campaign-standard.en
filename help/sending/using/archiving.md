@@ -14,11 +14,11 @@ internal: n
 snippet: y
 ---
 
-# Archiving emails{#archiving-emails}
+# Archiving with Email BCC{#archiving-emails}
 
-You can configure Adobe Campaign to keep a copy of emails sent from your platform.
+You can configure Adobe Campaign to keep a copy of emails sent from your platform through Email BCC.
 
-In particular, if your organization needs to archive all outbound email messages for compliance, you can enable this capability that allows you to send an exact hidden copy of the corresponding sent messages to a BCC email address (invisible to the delivery recipients) that you must specify.
+In particular, if your organization needs to archive all outbound email messages for compliance, you can enable this capability. It allows you to send an exact hidden copy of the corresponding sent messages to a BCC email address (invisible to the delivery recipients) that you must specify.
 
 Once enabled, you need to activate Email BCC from the **[!UICONTROL Archive emails]** option in the email delivery template.
 
