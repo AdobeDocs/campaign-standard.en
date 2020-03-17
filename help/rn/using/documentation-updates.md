@@ -34,6 +34,8 @@ A new section dedicated to Campaign Standard data model best practices is now av
 
 Information has been added on the **[!UICONTROL Workflow]** out-of-the-box right. [Read more](../../administration/using/list-of-roles.md)
 
+Information has been added on the **[!UICONTROL History in days field]** available in workflows' properties. [Read more](../../automating/using/executing-a-workflow.md)
+
 ## Release 20.1 - February 2019 {#release-20-1---february-2020}
 
 **New capabilities included in the release**
