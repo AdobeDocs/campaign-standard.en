@@ -61,7 +61,7 @@ snippet: y
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Additionally to test profiles, you can now test an email message by placing yourself in the position of one of the targeted profiles. This allows you to get an exact representation of the message that the profile will receive: custom fields, dynamic and personalized information, including additional data from worklows, etc. Moreover, Campaign Standard now allows you to send proofs to Test profiles using additional data from workflows.</p>
+   <td> <p>Additionally to test profiles, you can now test an email message by placing yourself in the position of one of the targeted profiles. This allows you to get an exact representation of the message that the profile will receive: custom fields, dynamic and personalized information, including additional data from workflows, etc. Moreover, Campaign Standard now allows you to send proofs to Test profiles using additional data from workflows.</p>
     <p>For more information, refer to the <a href="../../sending/using/testing-messages-using-target.md">detailed documentation</a>. </p>
    </td> 
   </tr> 
@@ -103,7 +103,7 @@ snippet: y
 **Patches**
 
 * Fixed an issue with the **Enrichment** workflow activity that could occur when adding spaces in the **Alias** field which then created a new row item. (CAMP-39229)
-* Fixed an issue where every profile tests could be targeted when sending a proof message.
+* Fixed an issue where every profile test could be targeted when sending a proof message.
 * Fixed an issue that occurred after unpublishing and deleting an event configuration. [Read more](../../channels/using/about-transactional-messaging.md#deleting-an-event)
 * Fixed an issue where the **Save** button disappeared when making changes to workflows.
 * Fixed an issue when deleting a privacy request manually in Campaign after it had been processed, which prevented data associated to the request from being deleted even after cleanup.
