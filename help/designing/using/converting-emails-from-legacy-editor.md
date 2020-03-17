@@ -32,38 +32,23 @@ This use case enables you to create an Email Designer template by using an HTML 
 
 1. Select an HTML email. 
 1. Identify sections to divide the HTML email.
-1. Cut out the different blocks from your HTML. For example:
+1. Cut out the different blocks from your HTML. 
 
-```
-<!-- 3 COLUMN w/CTA (SCALED) -->
-<table width="100%" align="center" cellspacing="0" cellpadding="0" border="0" role="presentation" style="max-width:680px;">
-<tbody>
-<tr>
-<td class="padh10" align="center" valign="top" style="padding:0 5px 20px 5px;">
-<table width="100%" cellspacing="0" cellpadding="0" border="0" role="presentation">
-<tbody>
-<tr>
-...
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
-</table>
-<!-- //3 COLUMN w/CTA (SCALED) -->
-```
 
-Once you have identified all your blocks, in the Email Designer, repeat the following procedure for each section of your existing email:
+## Create your email structure 
 
 1. Open the Email Designer to create an empty email content.
 1. Set the body level attributes: background colors, width, etc. For more on this, see [Editing email styles](../../designing/using/styles.md).
-1. Add a structure component. For more on this, see [Editing the email structure](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
-1. Add an HTML component. For more on this, see [Adding fragments and components](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
-1. Copy-paste your HTML into that component.
-1. Switch to mobile view. For more on this, see [this section](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
+1. Add as many structure components as you have sections. For more on this, see [Editing the email structure](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
-   The responsive view is broken, because your CSS is missing.
+## Add HTML content
+
+1. Add an HTML component to each structure component. For more on this, see [Adding fragments and components](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+1. Copy-paste your HTML into every component.
+
+## Manage the style of your email 
+
+1. Switch to mobile view. For more on this, see [this section](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
 
 1. To fix this, switch to source code mode and copy-paste your style section into a new style section. For example:
 
@@ -89,3 +74,19 @@ Once you have identified all your blocks, in the Email Designer, repeat the foll
    >* `<style data-name="media-default--webkit-min-device-pixel-ratio-0" type="text/css">(##)</style>`
 
 1. Go back to the mobile view to check that your content is correctly displayed and save your changes.
+
+## Use Case
+
+Let's try to convert this email, created in the legacy editor, into an Email Designer template.
+
+We can identify 11 sections in this email. 
+
+legacy-editor-email.png
+
+1. Drag and drop structure components reflecting the layout of our email. 
+
+We need to create 11 structure components. 
+
+structure-components-migration.png
+
+2. Insert an HTML component in each structure component. 
