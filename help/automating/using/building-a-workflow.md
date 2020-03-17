@@ -58,7 +58,8 @@ Creating a marketing activity is detailed in the [Creating marketing activities]
 
 **Related topic:**
 
-[Creating a workflow](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/building-a-workflow.html) video
+* [Creating a workflow](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/building-a-workflow.html) video
+* [Workflow properties](../../automating/using/executing-a-workflow.md#workflow-properties)
 
 ## Adding and linking activities {#adding-and-linking-activities}
 
@@ -70,18 +71,18 @@ You must now define the various activities and link them together in the diagram
 
 Activities are grouped by category inside the different sections of the palette.
 
-* The first section contains targeting activities.
-* The second section contains the execution activities, which are mainly used for coordinating other activities.
-* The third section contains activities that can be used to send messages on different channels. Activities in this section can vary depending on the channels that are enabled on your instance.
-* The fourth section contains file manipulation and data management activities.
+* The first section contains [targeting activities](../../automating/using/about-targeting-activities.md) 
+* The second section contains the [execution activities](../../automating/using/about-execution-activities.md), which are mainly used for coordinating other activities.
+* The third section contains activities that can be used to send messages on different [channels](../../automating/using/about-channel-activities.md). Activities in this section can vary depending on the channels that are enabled on your instance.
+* The fourth section contains [file manipulation and data management activities](../../automating/using/about-data-management-activities.md).
 
 To create the diagram:
 
 1. Add an activity by dragging it from the palette and dropping it in the diagram.
 
-   For example, add a **Start** activity and then an **Email delivery** activity on the diagram.
+   For example, add a **[Start](../../automating/using/start-and-end.md)** activity and then an **Email delivery** activity on the diagram.
 
-1. Link the activities together by dragging the **Start** activity transition and dropping it on to the **Email delivery** activity.
+1. Link the activities together by dragging the **Start** activity transition and dropping it on to the **[Email delivery](../../automating/using/email-delivery.md)** activity.
 
    >[!NOTE]
    >
@@ -114,3 +115,4 @@ By default, activities are not set and won't process the data correctly if they 
 1. Define all different options that you need to process the data. Refer to the activity's specific section of this documentation to learn the possible options for each activity.
 1. Save the activity and repeat these operations for each activity of the workflow.
 1. Save the workflow.
+
