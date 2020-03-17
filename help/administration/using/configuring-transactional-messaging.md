@@ -192,6 +192,10 @@ Once an event has been unpublished, or if an event has  not been published yet, 
 
    ![](assets/message-center_delete-confirm.png)
 
+>[!IMPORTANT]
+>
+>Deleting an event configuration that has been published and already used will also delete the corresponding transactional message(s) and its sending and tracking logs.
+
 ## Integrating the triggering of the event in a website {#integrating-the-triggering-of-the-event-in-a-website}
 
 Once you have created an event, you will have to integrate the triggering of this event into your website.
