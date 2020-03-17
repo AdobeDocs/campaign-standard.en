@@ -84,6 +84,8 @@ snippet: y
 * Fixed an issue causing HTML tags to be displayed in the email after switching from HTML content to Plain Text. (CAMP-41138)
 * Fixed an issue preventing the rendering of buttons with only one border defined. 
 * Fixed an issue in HTML indentation which caused the footer of emails to move leftwards in Microsoft Outlook. (CAMP-40987)
+* Fixed an issue causing personalization fields targeting a collection attribute defined in HTML to be copied in the plain text content when switching to plain text mode. (CAMP-40365)
+* Fixed an issue preventing links from being inserted on a text segment that is selected. (CAMP-41406)
 
 **Other changes**
 
@@ -107,3 +109,4 @@ snippet: y
 * Fixed an issue that occurred after unpublishing and deleting an event configuration. [Read more](../../channels/using/about-transactional-messaging.md#deleting-an-event)
 * Fixed an issue where the **Save** button disappeared when making changes to workflows.
 * Fixed an issue when deleting a privacy request manually in Campaign after it had been processed, which prevented data associated to the request from being deleted even after cleanup.
+* Fixed an issue that could occur when previewing or sending messages that included special characters from Adobe Experience Manager.
