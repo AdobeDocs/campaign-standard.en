@@ -61,7 +61,7 @@ snippet: y
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Additionally to test profiles, you can now test an email message by placing yourself in the position of one of the targeted profiles. This allows you to get an exact representation of the message that the profile will receive: custom fields, dynamic and personalized information, including additional data from workflows, etc. Moreover, Campaign Standard now allows you to send proofs to Test profiles using additional data from workflows.</p>
+   <td> <p>Additionally to test profiles, you can now test your emails on real targeted profiles. This allows you to get an exact representation of the message that the profile will receive: custom fields, dynamic and personalized information, including additional data from workflows, etc. Moreover, Campaign Standard now allows you to send proofs to Test profiles using additional data from workflows.</p>
     <p>For more information, refer to the <a href="../../sending/using/testing-messages-using-target.md">detailed documentation</a>. </p>
    </td> 
   </tr> 
