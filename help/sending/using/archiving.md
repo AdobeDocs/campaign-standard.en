@@ -18,11 +18,13 @@ snippet: y
 
 You can configure Adobe Campaign to keep a copy of emails sent from your platform.
 
-If your organization needs to archive all outbound email messages for compliance, you can enable BCC emails. This capability sends a hidden copy of each email message to an email address you specify. Once enabled, the user can activate BCC from the 'Email archiving' / Archive emails option in their email template.
+In particular, if your organization needs to archive all outbound email messages for compliance, you can enable this capability that allows you to send an exact hidden copy of the corresponding sent messages to a BCC email address (invisible to the delivery recipients) that you must specify.
 
-However, Adobe Campaign itself does not manage archived files. It does enable you to send the messages of your choice to a dedicated address, from where they can be processed and archived using an external system.
+Once enabled, you need to activate Email BCC from the **[!UICONTROL Archive emails]** option in the email delivery template.
 
-When activated in the delivery template, this feature allows you to send an exact copy of the corresponding sent messages to a BCC email address (invisible to the delivery recipients) that you must specify.
+>[!NOTE]
+>
+>Adobe Campaign itself does not manage archived files. It does enable you to send the messages of your choice to a dedicated address, from where they can be processed and archived using an external system.
 
 ## Recommendations and limitations {#recommendations-and-limitations}
 
@@ -39,7 +41,7 @@ When activated in the delivery template, this feature allows you to send an exac
 
 ## Activating email archiving {#activating-email-archiving}
 
-Email BCC is activated in the [email template](../../start/using/marketing-activity-templates.md), through a dedicated option:
+Once enabled, Email BCC is activated in the [email template](../../start/using/marketing-activity-templates.md), through a dedicated option:
 
 1. Go to **Resources** > **Templates** > **Delivery templates**.
 1. Duplicate the out-of-the-box **[!UICONTROL Send via email]** template.

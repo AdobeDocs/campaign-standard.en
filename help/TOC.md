@@ -148,6 +148,7 @@ user-guide-title: Adobe Campaign Standard Help
   + Sending and tracking messages {#sending-and-tracking-messages}
        + [Confirming the send](sending/using/confirming-the-send.md)
        + [Tracking messages](sending/using/tracking-messages.md)
+       + [Archiving emails](sending/using/archiving.md)
   + Monitoring messages {#monitoring-messages}
        + [Monitoring a delivery](sending/using/monitoring-a-delivery.md)
        + [Receiving alerts when failures happen](sending/using/receiving-alerts-when-failures-happen.md)
