@@ -28,7 +28,7 @@ In order for the event to trigger sending a transactional message, you have to p
 >
 >To access transactional messages, you must be part of the **[!UICONTROL Administrators (all units)]** security group.
 >
->Event transactional messages do not contain profile information, therefore they are not compatible with fatigue rules (even in the case of an enrichment with profiles). See [Fatigue rules](../../administration/using/fatigue-rules.md#choosing-the-channel).
+>Event transactional messages do not contain profile information, therefore they are not compatible with fatigue rules (even in the case of an enrichment with profiles). See [Fatigue rules](../../sending/using/fatigue-rules.md#choosing-the-channel).
 
 ## Defining a test profile in a transactional message {#defining-a-test-profile-in-a-transactional-message}
 

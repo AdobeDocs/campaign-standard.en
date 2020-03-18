@@ -33,5 +33,5 @@ The steps to create and apply a typology to messages are:
 
 **Related topics:**
 
-* [Managing typologies](../../administration/using/managing-typologies.md)
-* [Managing typology rules](../../administration/using/managing-typology-rules.md)
+* [Managing typologies](../../sending/using/managing-typologies.md)
+* [Managing typology rules](../../sending/using/managing-typology-rules.md)

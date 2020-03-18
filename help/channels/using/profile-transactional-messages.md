@@ -18,7 +18,7 @@ snippet: y
 
 You can send transactional messages based on customer marketing profiles, which allows you to:
 
-* Apply marketing typology rules such as **[!UICONTROL Blacklisted address]** or [fatigue rules](../../administration/using/fatigue-rules.md).
+* Apply marketing typology rules such as **[!UICONTROL Blacklisted address]** or [fatigue rules](../../sending/using/fatigue-rules.md).
 * Include the unsubscription link within the messages.
 * Add the transactional messages to the global delivery reporting.
 * Leverage the transactional messages in the customer journey.
@@ -33,7 +33,7 @@ In order for the event to trigger sending a transactional message, you have to p
 >
 >To access transactional messages, you must be part of the **[!UICONTROL Administrators (all units)]** security group.
 >
->Fatigue rules are compatible with profile transactional messages. See [Fatigue rules](../../administration/using/fatigue-rules.md).
+>Fatigue rules are compatible with profile transactional messages. See [Fatigue rules](../../sending/using/fatigue-rules.md).
 
 ## Sending a profile transactional message {#sending-a-profile-transactional-message}
 

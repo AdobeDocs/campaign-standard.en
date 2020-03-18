@@ -63,11 +63,11 @@ To create and configure a **[!UICONTROL Fatigue]** typology rule, apply the foll
 
    In this example (see previous screenshots), we choose to send a maximum number of 4 messages over a sliding period of 15 days.
 
-1. In the **[!UICONTROL Application criteria]** tab, you can choose to apply this rule to all deliveries or restrict the applicability of the rule according to the message to send. The rule will only execute if the application condition is met. For example, you can apply the rule only on messages with a label starting with a given word or with an ID containing certain letters. See [Restricting the applicability of a filtering rule](../../administration/using/filtering-rules.md#restricting-the-applicability-of-a-filtering-rule).
+1. In the **[!UICONTROL Application criteria]** tab, you can choose to apply this rule to all deliveries or restrict the applicability of the rule according to the message to send. The rule will only execute if the application condition is met. For example, you can apply the rule only on messages with a label starting with a given word or with an ID containing certain letters. See [Restricting the applicability of a filtering rule](../../sending/using/filtering-rules.md#restricting-the-applicability-of-a-filtering-rule).
 
    ![](assets/fatigue20.png)
 
-1. Select the **[!UICONTROL Typologies]** tab and link your typology rule to the typology used for your deliveries. See [Managing typologies](../../administration/using/about-typology-rules.md#managing-typologies) and [Typology rules](../../administration/using/about-typology-rules.md#typology-rules).
+1. Select the **[!UICONTROL Typologies]** tab and link your typology rule to the typology used for your deliveries. See [Managing typologies](../../sending/using/about-typology-rules.md#managing-typologies) and [Typology rules](../../sending/using/about-typology-rules.md#typology-rules).
 
    ![](assets/fatigue12.png)
 

@@ -20,10 +20,10 @@ es
 # Campaign-Standard-TOC {#campaign-standard}
 
 + Administration{#administration}
-  + [Fatigue rules](administration/using/fatigue-rules.md)
+  + [Fatigue rules](sending/using/fatigue-rules.md)
   + [About typology rules](administration/using/about-typology-rules.md)
   + [About typology rules - List](administration/using/about-typology-rules.md#typology-rules)
   + [Configuring email channel](administration/using/configuring-email-channel.md)
-  + [Filtering rules](administration/using/filtering-rules.md)
+  + [Filtering rules](sending/using/filtering-rules.md)
 + Starting{#starting}
   + [About the interface](start/using/about-the-interface.md)

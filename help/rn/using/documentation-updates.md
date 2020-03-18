@@ -560,7 +560,7 @@ New sections dedicated to [target mappings](../../administration/using/target-ma
 
 **New capabilities included in the release**
 
-Reporting for Fatigue Management - [Read more](../../administration/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report)
+Reporting for Fatigue Management - [Read more](../../sending/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report)
 
 Report sharing - [Read more](../../reporting/using/reporting-interface.md#share-tab)
 
@@ -588,7 +588,7 @@ Instructions to configure the integration with Audience Manager or People core s
 
 **New capabilities included in the release**
 
-Fatigue Management - [Read more](../../administration/using/fatigue-rules.md)
+Fatigue Management - [Read more](../../sending/using/fatigue-rules.md)
 
 Content creation: Import from a URL - [Read more](../../designing/using/using-existing-content.md#importing-content-from-a-url)
 
