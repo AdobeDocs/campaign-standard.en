@@ -16,4 +16,10 @@ snippet: y
 
 Adobe Campaign comes with a pre-defined data model. 
 
+The Adobe Campaign Standard datamodel displays the out-of-the-box SQL structure for a set of marketing-related resources.
+
+This content is intended for consultant services or developers.
+
+For each resource, a table lists the SQL fields with available characteristics like internal name, type and enumeration details. A second part introduces out-of-the-box filters associated to the resource. Each filter comes with its parameters list.
+
 This data model can be modified by [administrators](../../administration/using/users-management.md#functional-administrators) who are able to add new resources or extensions to existing resources.

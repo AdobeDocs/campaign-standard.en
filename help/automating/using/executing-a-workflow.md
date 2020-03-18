@@ -50,11 +50,7 @@ By default, only the details of the last transition of the workflow can be acces
 
 When a transition is open, you can edit its **[!UICONTROL Label]** or link a **[!UICONTROL Segment code]** to it. To do this, edit the corresponding fields and confirm your modifications.
 
-## Controlling a workflow from the REST API {#controlling-a-workflow-from-the-rest-api}
-
-Using the REST API, you can **start**, **pause**, **resume** and **stop** a workflow.
-
-You can find more details and examples of REST calls in the [API documentation.](../../api/using/controlling-a-workflow.md)
+Using Campaign Standard REST APIs, you can **start**, **pause**, **resume** and **stop** a workflow. You can find more details and examples of REST calls in the [API documentation.](../../api/using/controlling-a-workflow.md)
 
 ## Life cycle {#life-cycle}
 
@@ -170,37 +166,52 @@ In this case, the erroneous task is aborted. This mode is particularly suited to
 >
 >You can apply this configuration individually for each activity. To do this, select an activity and open it using the quick action ![](assets/edit_darkgrey-24px.png). Then select the error management mode in the **Execution options** tab. See [Activity execution options](#activity-execution-options).
 
-The **[!UICONTROL Execution]** section of the workflow properties also allows you to define a number of **[!UICONTROL Consecutive errors]** that are authorized before the workflow execution is automatically suspended. As long as this number is not reached, the erroneous elements are ignored and the other workflow branches are executed normally. If this number is reached, the workflow is suspended and the workflow supervisors are automatically notified (email and in-app notification). See [Workflow properties](#workflow-properties) and [Adobe Campaign notifications](../../administration/using/sending-internal-notifications.md).
+In the [workflow's properties](#workflow-properties), additional options related to error mangement are available.
 
-The supervisors can also be defined in the execution properties of the workflow.
+![](assets/wkf_execution_error.png)
+
+Possible options are:
+
+* **[!UICONTROL Supervisors]**: allows you to define the group of people to notify (email and in-app notification) if the workflow encounters an error. If no group is defined, nobody will be notified. For more on Adobe Campaign notifications, refer to [Adobe Campaign notifications](../../administration/using/sending-internal-notifications.md).
+
+* **[!UICONTROL In case of error]**: allows you to specify the action to be carried out should the activity encounter an error. There are two options available for this:
+  
+  * **Suspend the process**: the workflow is automatically suspended. The workflow status is then **Erroneous** and the color associated turns red. Once the problem is resolved, restart the workflow.
+  * **Ignore**: the activity is not executed, and as a result neither are any of the activities that follow it (in the same branch). This may prove useful for recurring tasks. If the branch has a scheduler placed upstream, this should trigger on the next execution date.
+
+* **[!UICONTROL Consecutive errors]** : allows you to define a number of consecutive errors that are authorized before the workflow execution is automatically suspended.
+
+  * If the number specified is **[!UICONTROL 0]**, or as long as the number specified is not reached, activities that encounter errors are ignored. The other workflow branches are executed normally.
+  
+  * If the number specified is reached, the whole of the workflow is suspended and becomes **[!UICONTROL Erroneous]**. If supervisors have been defined, they are automatically notified by an email. See [Adobe Campaign notifications](../../administration/using/sending-internal-notifications.md).
 
 ## Workflow properties {#workflow-properties}
 
 To modify a workflow's execution options, use the ![](assets/edit_darkgrey-24px.png) button to access the workflow properties and select the **[!UICONTROL Execution]** section.
 
-The **[!UICONTROL Default affinity]** field allows you to force a workflow or a workflow activity to execute on a particular machine.
-
-In the **[!UICONTROL History in days]** field, specify the duration after which the history must be purged.
-
-You can choose to check the **[!UICONTROL Save SQL queries in the log]** and **[!UICONTROL Execute in the engine (do not use in production)]** options if necessary.
-
-Check the **[!UICONTROL Keep interim results]** option if you would like to be able to view the detail of transitions. Warning: checking this option may significantly slow down the workflow execution.
-
-The **[!UICONTROL Severity]** field allows you to specify a level of priority for executing workflows in your Adobe Campaign instance. Critical workflows will be executed first.
-
-The **[!UICONTROL Supervisors]** field is where you can define the group of people to notify (email and in-app notification) if the workflow encounters an error. If no group is defined, nobody will be notified. For more on Adobe Campaign notifications, refer to [Adobe Campaign notifications](../../administration/using/sending-internal-notifications.md).
-
-The **[!UICONTROL In case of error]** field allows you to specify the action to be carried out should the activity encounter an error. There are two options available for this:
-
-* **Suspend the process**: the workflow is automatically suspended. The workflow status is then **Erroneous** and the color associated turns red. Once the problem is resolved, restart the workflow.
-* **Ignore**: the activity is not executed, and as a result neither are any of the activities that follow it (in the same branch). This may prove useful for recurring tasks. If the branch has a scheduler placed upstream, this should trigger on the next execution date.
-
-  By selecting this option, you can also define a number of **[!UICONTROL Consecutive errors]** that are authorized:
-
-    * If the number specified is **[!UICONTROL 0]**, or as long as the number specified is not reached, activities that encounter errors are ignored. The other workflow branches are executed normally.
-    * If the number specified is reached, the whole of the workflow is suspended and becomes **[!UICONTROL Erroneous]**. If supervisors have been defined, they are automatically notified by an email.
-
 ![](assets/wkf_execution_6.png)
+
+Possible options are:
+
+* **[!UICONTROL Default affinity]**: this field allows you to force a workflow or a workflow activity to execute on a particular machine.
+
+* **[!UICONTROL History in days]**: specifies the number of days after which the history must be purged. The history consists in all elements related like logs, tasks, events. Default value is 30 days for out-of-the-box workflow templates.
+
+  Purge of the history is performed by the Database cleanup technical workfow, which is executed by default everyday (see [List of technical workflows](../../administration/using/technical-workflows.md).)
+
+  >[!IMPORTANT]
+  >
+  >If the **[!UICONTROL History in days]** field is left blank, its value will be considered as "1", meaning that the history will purged after 1 day.
+
+* **[!UICONTROL Save SQL queries in the log]**: allows you to save the SQL queries from the workflow into the logs.
+
+* ***[!UICONTROL Keep interim results]**: check this option if you would like to be able to view the detail of transitions. Warning: checking this option may significantly slow down the workflow execution.
+
+* **[!UICONTROL Execute in the engine (do not use in production)]**: allows you to execute the workflow locally, for developement environemment testing purposes.
+
+* **[!UICONTROL Severity]**: allows you to specify a level of priority for executing workflows in your Adobe Campaign instance. Critical workflows will be executed first.
+
+The **[!UICONTROL Error management]** section provides additional options that allow you to manage how workflows behave in case of errors. These options are detailed in the [Error management](#error-management) section.
 
 ## Activity properties {#activity-properties}
 
