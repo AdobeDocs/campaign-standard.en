@@ -61,7 +61,7 @@ snippet: y
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>In addition to test profiles, you can now test your emails on real targeted profiles. This allows you to get an exact representation of the message that the profile will receive: custom fields, dynamic and personalized information, including additional data from workflows, etc. Moreover, Campaign Standard now allows you to send proofs to Test profiles using additional data from workflows.</p>
+   <td> <p>In addition to test profiles, you can now test your emails on real targeted profiles. This allows you to get an exact representation of the message that the profile will receive: custom fields, dynamic and personalized information, including additional data from workflows, etc. </p>
     <p>For more information, refer to the <a href="../../sending/using/testing-messages-using-target.md">detailed documentation</a>. </p>
    </td> 
   </tr> 
@@ -72,6 +72,7 @@ snippet: y
 
 * Transactional messaging user experience has been enhanced and the interface consistency was improved. [Read more](../../channels/using/about-transactional-messaging.md)
 * The MCPNS doesn't support adding APNS and APNS-SANDBOX both as platforms in an app. After successfully adding the certificate in Adobe Campaign Standard, you are now no longer able to change your settings back since only one APNS platform (production or sandbox) can be added to the MCPNS app.
+* Campaign Standard now allows you to send proofs to Test profiles using additional data from workflows.
 
 **Email Designer enhancements**
 
