@@ -15,12 +15,27 @@ snippet: y
 ---
 # Testing the subject line of an email {#testing-a-subject}
 
+
+## About predictive subject line {#about-predictive-subject-line}
+
+When editing an email, you can try out different subject lines and get an estimation of its open rate before you send it.
+
+This feature is disabled by default. It is enabled when the first model is imported. A model is the result of training data sets specific to a given industry. Models allow the system to predict the open rate of the email when a new subject line is submitted. 
+
+>[!NOTE]
+>
+>This feature is available for email messages and for databases that contain English contents only. The trained model will be inconsistent and will lead to erroneous results if your instance contains emails in other languages. The option that allows you to test a subject is only visible if a model is already available on your instance.
+
+For more on importing models, see this [section](#importing-models).
+
+## Testing the subject line {#testing-subject-line}
+
 To test your subject line, follow the steps below:
 
 1. Create or open your email.
 1. Open the content and enter the subject of the email in the corresponding input field.
 1. Click the **[!UICONTROL Test subject]** button to access the **[!UICONTROL Test your subject line]** window. You can still edit the subject from this window.
-1. Select the correct model to be taken into account for the open rate prediction. Several models are available, each corresponding to a specific industry.
+1. Select the correct model to be taken into account for the open rate prediction. Several models are available, each corresponding to a specific industry. For more on using models, see this [section](#importing-models).
 1. Click **[!UICONTROL Test]**.
 
 Your subject is then analyzed.
@@ -78,3 +93,23 @@ The models that are available for use are:
 * Supermarket industry: subjectInsightSupermarket.xml
 * Medical industry: subjectInsightMedical.xml
 * Model to train: subjectlineTraining.xml.
+
+## Troubleshooting {#troubleshooting}
+
+Some clients have reported this issue: I have had the subject line training workflow running for about a year now.  It has trained on 883 records and I am still seeing the message "The existing dataset is not enough to generate a model."  I do get an error in the workflow every time it runs "XML-110009 Unable to find the element 'runwf' of path '/' (document with schema 'serverConf')".
+
+Answer from Adobe to document:
+
+Predictive subject line is a machine learning process where we take the subject lines, with their open rates that you have uploaded and try to came up with predictions on future subject line that you are going to use.
+
+For this, campaign takes the subject line as training data and tries to come up with significant enough model to predict open rate with 95% confidence.
+
+The 400 subject line number is mention with at least and is only indicative, model generation will also depend on quality of these lines.
+
+It may happen that even 10k subject lines don't lead to model generation if they are too similar.
+
+It means that it can be case that you don't have enough subject lines to generate the model and it is giving this error.
+
+If you are getting an error/warning message, it means that your existing set of records is not enough for the predictive subject module to give a high confidence suggestion.
+
+Adobe recommends reviewing the data you are uploading as the similarity of the subject lines might be the issue.
