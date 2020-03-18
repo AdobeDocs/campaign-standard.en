@@ -24,7 +24,7 @@ You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-n
 
 ## Documentation updates - March 2020 {#doc-updates-march-2020}
 
-More detailed information on the Enhanced MTA has been added to core documentation, particularly regarding email processing rules and bounce mail qualification [Read more](../../administration/using/configuring-email-channel.md#email-processing-rules)
+More detailed information on the Enhanced MTA has been added to core documentation, particularly regarding email processing rules and bounce mail qualification. [Read more](../../administration/using/configuring-email-channel.md#email-processing-rules)
 
 The section dedicated to archiving with Email BCC has been moved and updated. [Read more](../../sending/using/archiving.md)
 
