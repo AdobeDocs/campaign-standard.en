@@ -74,44 +74,54 @@ The default rules are as follows:
 
 ### Bounce mails {#bounce-mails}
 
-When an email fails, the remote message server returns a bounce error message to the address specified in the application settings.
+For synchronous delivery failure error messages, the Enhanced MTA determines the bounce type and qualification, and sends back that information to Campaign. For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
-Adobe Campaign compares the content of each bounce mail to the strings in the list of rules, and then assigns it one of the three error types.
-
->[!IMPORTANT]
->
->Once upgraded to the Enhanced MTA, the bounce qualifications in the Campaign **[!UICONTROL Message qualification]** table are no longer used. For synchronous delivery failure error messages, the Enhanced MTA determines the bounce type and qualification, and sends back that information to Campaign. Asynchronous bounces are still qualified by the inMail process.
->
->For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
-
-The user can create his own rules.
+Asynchronous bounces are still qualified by the Campaign inMail process through the **[!UICONTROL Bounce mails]** rule.
 
 >[!IMPORTANT]
 >
->When importing a package and when updating data via the **Update for deliverability** workflow, the user-created rules are overwritten.
+>Once upgraded to the Enhanced MTA, the bounce qualifications in the Campaign **[!UICONTROL Message qualification]** table are no longer used. For more on bounce mail qualification, see this [section](../../sending/using/understanding-delivery-failures.md).
 
-### Managing email domains {#managing-email-domains}
-
-The domain management rules are used to regulate the flow of outgoing emails for a specific domain. They sample the bounce messages and block sending where appropriate.
-
-The Adobe Campaign messaging server applies rules specific to the domains, and then the rules for the general case represented by an asterisk in the list of rules.
+<!--The user can create his own rules.
 
 >[!IMPORTANT]
 >
->Once upgraded to the Enhanced MTA, DKIM (DomainKeys Identified Mail) email authentication signing is done by the Enhanced MTA. DKIM-signing by the native Campaign MTA will be turned off within the **[!UICONTROL Domain management]** table as part of the Enhanced MTA upgrade.
->
->For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+>When importing a package and when updating data via the **Update for deliverability** workflow, the user-created rules are overwritten.-->
 
-To configure domain management rules, simply set a threshold and select certain SMTP parameters. A **threshold** is a limit calculated as an error percentage beyond which all messages towards a specific domain are blocked.
+### Management of email domains {#managing-email-domains}
+
+<!--The Adobe Campaign messaging server applies rules specific to the domains, and then the rules for the general case represented by an asterisk in the list of rules.
 
 The **SMTP parameters** act as filters applied for a blocking rule.
 
 * You can choose whether or not to activate certain identification standards and encryption keys to check the domain name, such as **Sender ID**, **DomainKeys**, **DKIM**, and **S/MIME**.
-* **SMTP relay**: lets you configure the IP address and the port of a relay server for a particular domain.
+* **SMTP relay**: lets you configure the IP address and the port of a relay server for a particular domain.-->
 
-### MX Management {#mx-management}
+>[!IMPORTANT]
+>
+>Once upgraded to the Enhanced MTA, the Adobe Campaign **[!UICONTROL Domain management]** rules are no longer used.
 
-Each rule defines an address mask for the MX. Any MX whose name matches this mask is therefore eligible. The mask can contain "&#42;" and "?" generic characters.
+**DKIM (DomainKeys Identified Mail)** email authentication signing is done by the Enhanced MTA for all messages with all domains. It does not sign with **Sender ID**, **DomainKeys**, **DKIM**, or **S/MIME** unless otherwise specified at the Enhanced MTA level.
+
+For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+
+### MX management {#mx-management}
+
+<!--The MX management rules are used to regulate the flow of outgoing emails for a specific domain. They sample the bounce messages and block sending where appropriate.
+
+The Adobe Campaign messaging server applies rules specific to the domains, and then the rules for the general case represented by an asterisk in the list of rules.
+
+To configure MX management rules, simply set a threshold and select certain SMTP parameters. A **threshold** is a limit calculated as an error percentage beyond which all messages towards a specific domain are blocked.-->
+
+>[!IMPORTANT]
+>
+>Once upgraded to the Enhanced MTA, the Adobe Campaign **[!UICONTROL MX management]** delivery throughput rules are no longer used.
+
+The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you’re sending emails.
+
+For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+
+<!--Each rule defines an address mask for the MX. Any MX whose name matches this mask is therefore eligible. The mask can contain "&#42;" and "?" generic characters.
 
 For example, the following addresses:
 
@@ -125,12 +135,6 @@ are compatible with the following masks:
 * ?.mx.yahoo.com
 
 These rules are applied in sequence: the first rule whose MX mask is compatible with the targeted MX is applied.
-
->[!IMPORTANT]
->
->Once upgraded to the Enhanced MTA, the Adobe Campaign **MX management** delivery throughput rules are no longer used. The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you’re sending emails.
->
->For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
 The following parameters are available for each rule:
 
@@ -149,8 +153,7 @@ The following parameters are available for each rule:
 >[!IMPORTANT]
 >
 >* The delivery server (MTA) must be restarted if the parameters have been changed. 
->* The modification or creation of management rules is for expert users only. 
->
+>* The modification or creation of management rules is for expert users only. -->
 
 ## List of email properties {#list-of-email-properties}
 
@@ -303,6 +306,10 @@ Preparing messages is detailed in the [Approving messages](../../sending/using/p
 
 * **[!UICONTROL Save SQL queries in the log]**: this option allows you to add SQL query logs in the journal during the preparation phase.
 
+#### Proof settings {#proof-settings}
+
+This section allows you to configure the default prefix to use in proof's subject line. For more in this, refer to [this section](../../sending/using/sending-proofs.md).
+
 ### List of email SMTP parameters {#list-of-email-smtp-parameters}
 
 The **[!UICONTROL SMTP]** section contains the following parameters:
@@ -326,37 +333,3 @@ The **[!UICONTROL Access authorization]** section contains the following paramet
   >You can configure organizational units via the **Administration** > **Users & Security** menu.
 
 * The **[!UICONTROL Created by]**, **[!UICONTROL Created]**, **[!UICONTROL Modified by]** and **[!UICONTROL Last modified]** fields are automatically completed.
-
-## Archiving emails {#archiving-emails}
-
-You can configure Adobe Campaign to keep a copy of emails sent from your platform.
-
-However, Adobe Campaign itself does not manage archived files. It does enable you to send the messages of your choice to a dedicated address, from where they can be processed and archived using an external system.
-
-When activated in the delivery template, this feature allows you to send an exact copy of the corresponding sent messages to a BCC email address (invisible to the delivery recipients) that you must specify.
-
-### Recommendations and limitations {#recommendations-and-limitations}
-
-* This feature is optional. Please check your license agreement and contact your account executive to activate it.
-* The BCC address of your choice must be provided to the Adobe team who will configure it for you.
-* You can only use one BCC email address.
-* Only successfully sent emails are taken in account. Bounces are not.
-* For privacy reasons, BCC emails must be processed by an archiving system capable of storing securely personally identifiable information (PII).
-* When creating a new delivery template, Email BCC is not enabled by default, even if the option has been purchased. You must enable it manually in each delivery template where you want to use it.
-
-### Activating email archiving {#activating-email-archiving}
-
-Email BCC is activated in the [email template](../../start/using/marketing-activity-templates.md), through a dedicated option:
-
-1. Go to **Resources** > **Templates** > **Delivery templates**.
-1. Duplicate the out-of-the-box **[!UICONTROL Send via email]** template.
-1. Select the duplicated template.
-1. Click the **[!UICONTROL Edit properties]** button to edit the template's properties.
-1. Expand the **[!UICONTROL Send]** section.
-1. Check the **[!UICONTROL Archive emails]** box to keep a copy of all sent messages for each delivery based on this template.
-
-   ![](assets/email_archiving.png)
-
->[!NOTE]
->
->If the emails sent to the BCC address are opened and clicked through, this will be taken into account in the **[!UICONTROL Total opens]** and **[!UICONTROL Clicks]** from the send analysis, which could cause some miscalculations.

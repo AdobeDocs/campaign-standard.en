@@ -137,6 +137,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Previewing messages](sending/using/previewing-messages.md)
        + [Preparing the send](sending/using/preparing-the-send.md)
        + [Sending proofs](sending/using/sending-proofs.md)
+       + [Testing email messages using targeted profiles](sending/using/testing-messages-using-target.md)
        + [Testing the subject line of an email](sending/using/testing-subject-line-email.md)
        + [Email rendering](sending/using/email-rendering.md)
        + [Using traps](sending/using/using-traps.md)
@@ -148,6 +149,7 @@ user-guide-title: Adobe Campaign Standard Help
   + Sending and tracking messages {#sending-and-tracking-messages}
        + [Confirming the send](sending/using/confirming-the-send.md)
        + [Tracking messages](sending/using/tracking-messages.md)
+       + [Archiving with Email BCC](sending/using/archiving.md)
   + Monitoring messages {#monitoring-messages}
        + [Monitoring a delivery](sending/using/monitoring-a-delivery.md)
        + [Receiving alerts when failures happen](sending/using/receiving-alerts-when-failures-happen.md)
