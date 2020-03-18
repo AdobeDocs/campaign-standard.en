@@ -205,9 +205,9 @@ Possible options are:
 
 * **[!UICONTROL Save SQL queries in the log]**: allows you to save the SQL queries from the workflow into the logs.
 
-* ***[!UICONTROL Keep interim results]**: check this option if you would like to be able to view the detail of transitions. Warning: checking this option may significantly slow down the workflow execution.
+* **[!UICONTROL Keep interim results]**: check this option if you would like to be able to view the detail of transitions. Warning: checking this option may significantly slow down the workflow execution.
 
-* **[!UICONTROL Execute in the engine (do not use in production)]**: allows you to execute the workflow locally, for developement environemment testing purposes.
+* **[!UICONTROL Execute in the engine (do not use in production)]**: allows you to execute the workflow locally, for development environment testing purposes.
 
 * **[!UICONTROL Severity]**: allows you to specify a level of priority for executing workflows in your Adobe Campaign instance. Critical workflows will be executed first.
 
