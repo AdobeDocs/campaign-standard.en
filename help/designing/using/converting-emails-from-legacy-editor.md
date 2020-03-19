@@ -36,7 +36,7 @@ This use case enables you to create an Email Designer template by using an HTML 
 
 ## Create your email structure 
 
-1. Open the Email Designer**[!UICONTROL ]**  to create an empty email content.
+1. Open the **[!UICONTROL Email Designer]**  to create an empty email content.
 1. Set the body level attributes: background colors, width, etc. For more on this, see [Editing email styles](../../designing/using/styles.md).
 1. Add as many structure components as you have sections. For more on this, see [Editing the email structure](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
@@ -47,7 +47,7 @@ This use case enables you to create an Email Designer template by using an HTML 
 
 ## Manage the style of your email 
 
-1. Switch to mobile view**[!UICONTROL ]** . For more on this, see [this section](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
+1. Switch to **[!UICONTROL Mobile view]**. For more on this, see [this section](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
 
 1. To fix this, switch to source code mode and copy-paste your style section into a new style section. For example:
 
