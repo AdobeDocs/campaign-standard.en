@@ -42,6 +42,12 @@ Limitation has been added with MCPNS when configuring a mobile application. [Rea
 
 A new configuration guidelines section has been added to the Administrating guide. The section on compatible browsers and operating systems has been moved from the Getting started guide to this section. The technote on Campaign Standard network endpoints has also been added to this section. [Read more](../../administration/using/about-configuration-guidelines.md)
 
+A new section describing how to delete an event configuration is now available. [Read more](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
+
+The page describing how to test the subject line of an email to predict its open rate has been updated and improved, including a new [troubleshooting](../../sending/using/testing-subject-line-email.md#troubleshooting) section. [Read more](../../sending/using/testing-subject-line-email.md#troubleshooting)
+
+The transactional messaging sections have been updated to reflect the multiple user interface slight updates and improvements. [Read more](../../channels/using/about-transactional-messaging.md)
+
 ## Documentation updates - March 2020 {#doc-updates-march-2020}
 
 More detailed information on the Enhanced MTA has been added to core documentation, particularly regarding email processing rules and bounce mail qualification. [Read more](../../administration/using/configuring-email-channel.md#email-processing-rules)
