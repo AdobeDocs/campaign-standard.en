@@ -128,7 +128,7 @@ Once the request is processed, the encryption / decryption commands will be avai
 * [Load file](../../automating/using/load-file.md)
 * [Extract file](../../automating/using/extract-file.md)
 
-## Creating workflow template to import data {#example--import-workflow-template}
+## Creating workflow templates to import data {#example--import-workflow-template}
 
 Using an import template is a best practice if you need to regularly import files with the same structure.
 
@@ -205,7 +205,7 @@ This example shows how to pre-set a workflow that can be reused for importing pr
 
       >[!NOTE]
       >
-      >If you plan on sending direct mails to these profiles, make sure to include a postal address as this information is essential to the direct mail provider. Also make sure that the **[!UICONTROL Address specified]** box in your profiles' information is checked. To update this option from a workflow, simply add an element to the fields to update, and specify **1** as **[!UICONTROL Source]** and select the `postalAddress/@addrDefined` field as **[!UICONTROL Destination]**. For more on direct mail and the use of the **[!UICONTROL Address specified]** option, see [this document](../../channels/using/about-direct-mail.md#recommendations).
+      >If you plan on sending direct mails to these profiles, make sure to include a postal address as this information is essential to the direct mail provider. Also make sure that the **[!UICONTROL Address specified]** box in your profiles' information is checked. To update this option from a workflow, simply add an element to the fields to update, and specify **1** as **[!UICONTROL Source]** and select the **postalAddress/@addrDefined** field as **[!UICONTROL Destination]**. For more on direct mail and the use of the **[!UICONTROL Address specified]** option, see [this document](../../channels/using/about-direct-mail.md#recommendations).
 
 1. Configure the **[!UICONTROL Deduplication]** activity located after the transition containing unreconciled profiles:
 
