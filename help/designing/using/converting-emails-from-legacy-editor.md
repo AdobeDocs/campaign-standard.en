@@ -79,14 +79,34 @@ This use case enables you to create an Email Designer template by using an HTML 
 
 Let's try to convert this email, created in the legacy editor, into an Email Designer template.
 
-We can identify 11 sections in this email. 
+## Identify the section of your email 
 
-legacy-editor-email.png
+We can identify 11 sections in this email. ![](assets/.png)
+
+![](assets/html-dce-view-mail.png)
+
+To identify which element is which section of the HTML, you can select it and see breadcrumbs. 
+
+![](assets/HTML-DCE-view.png)
+
+### Create the email template and its structure 
 
 1. Drag and drop structure components reflecting the layout of our email. 
 
 We need to create 11 structure components. 
 
-structure-components-migration.png
+![](assets/structure-components-migration.png)
 
-2. Insert an HTML component in each structure component. 
+### Inserting HTML content components 
+
+1. Insert an HTML component in each structure component. 
+
+![](assets/html-components.png)
+
+1. For each section, click Show source code. 
+
+![](assets/show-source-code.png)
+
+1. Insert the HTML section.
+
+1. Click Save. 
