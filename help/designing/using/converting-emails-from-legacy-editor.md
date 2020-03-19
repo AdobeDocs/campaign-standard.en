@@ -34,10 +34,9 @@ This use case enables you to create an Email Designer template by using an HTML 
 1. Identify sections to divide the HTML email.
 1. Cut out the different blocks from your HTML. 
 
-
 ## Create your email structure 
 
-1. Open the Email Designer to create an empty email content.
+1. Open the Email Designer**[!UICONTROL ]**  to create an empty email content.
 1. Set the body level attributes: background colors, width, etc. For more on this, see [Editing email styles](../../designing/using/styles.md).
 1. Add as many structure components as you have sections. For more on this, see [Editing the email structure](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
@@ -48,7 +47,7 @@ This use case enables you to create an Email Designer template by using an HTML 
 
 ## Manage the style of your email 
 
-1. Switch to mobile view. For more on this, see [this section](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
+1. Switch to mobile view**[!UICONTROL ]** . For more on this, see [this section](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
 
 1. To fix this, switch to source code mode and copy-paste your style section into a new style section. For example:
 
@@ -77,7 +76,7 @@ This use case enables you to create an Email Designer template by using an HTML 
 
 ## Use Case
 
-Let's try to convert this email, created in the legacy editor, into an Email Designer template.
+Let's try to convert this email, created in the legacy editor, into an **[!UICONTROL Email Designer]** template.
 
 ## Identify the section of your email 
 
@@ -85,13 +84,13 @@ We can identify 11 sections in this email.
 
 ![](assets/html-dce-view-mail.png)
 
-To identify which element is which section of the HTML, you can select it and see breadcrumbs.
+To identify which element is which section of the HTML, you can select it.
 
 ![](assets/HTML-DCE-view.png)
 
 ### Create the email template and its structure 
 
-1. Drag and drop structure components reflecting the layout of our email. 
+1. Drag and drop **[!UICONTROL Structure Components]**  reflecting the layout of our email. 
 
 We need to create 11 structure components.
 
@@ -99,17 +98,17 @@ We need to create 11 structure components.
 
 ### Inserting HTML content components
 
-1. Insert an HTML component in each structure component.
+1. Insert an **[!UICONTROL HTML component]**  in each **[!UICONTROL structure component]** .
 
 ![](assets/html-components.png)
 
-1. For each section, click Show source code.
+1. For each section, click **[!UICONTROL Show source code]** .
 
 ![](assets/show-source-code.png)
 
 1. Insert the HTML section.
 
-1. Click Save.
+1. Click **[!UICONTROL Save]**.
 
 You can now check the rendering of your email.
 
