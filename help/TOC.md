@@ -338,6 +338,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Visitor](developing/using/datamodel-visitor.md)
 + Administrating {#administrating}
   + [About Administrating Adobe Campaign](administration/using/about-administrating-adobe-campaign.md)
+  + Configuration guidelines {#configuration-guidelines}
   + Users and security {#users-and-security}
        + [About access management](administration/using/about-access-management.md)
        + [Users management](administration/using/users-management.md)
