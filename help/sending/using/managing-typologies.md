@@ -18,11 +18,11 @@ snippet: y
 
 ## About typologies {#about-typologies}
 
-Typologies are sets of rules that allow you to check the validity of your message before sending it. For example:the message content is not empty, an ubsubscription is present, exclusion of duplicates, etc.).
+Typologies are sets of rules that allow you to check the validity of your message before sending it. For example: The message content is not empty, an unsubscription is present, exclusion of duplicates, etc.).
 
-Based on your needs, you can create your own typologies or modify existing ones.
+Typologies are accesible via the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** menu. By default, oa default typology is available in the application. Based on your needs, you can create your own typologies or modify existing ones.
 
-Typologies are accesible via he **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** menu. Several typologies are present by default in the application.
+![](assets/typologies-list.png)
 
 For each typology, the **[!UICONTROL Typology rules]** section lists the set of rules that are executed when using the typology with a message.
 
@@ -42,27 +42,19 @@ To create a new typology, follow these steps:
 
    ![](assets/typology_list.png)
 
-   >[!NOTE]
-   >
-   >You can also double-click an existing typology to modify its content and properties.
+1. Define the typology's **[!UICONTROL Label]**.
 
-1. Define the type of the typology. Typologies can be either **[!UICONTROL Standard]** or **[!UICONTROL Filtering]** typologies.
+1. The **[!UICONTROL IP affinity]** field allows you to manage the affinities according to your configuration. These are defined in the instance's configuration file. If you want to use the affinities, contact your administrator.
 
-   >[!NOTE]
-   >
-   >The **[!UICONTROL IP affinity]** field allows you to manage the affinities according to your configuration. These are defined in the instance's configuration file. If you want to use the affinities, contact your administrator.
-
-1. Select the typology rules that you want to include into the typology.
+1. Select the typology rules that you want to include into the typology. For more on typology rules, refer to [this section](../../sending/using/managing-typology-rules.md).
 
    ![](assets/typology_addrules.png)
 
-   You can modify the order in which the rules are applied for a given typology. To do this, move the elements to modify the order in which they appear on the screen. The numbers corresponding to the execution order are then automatically recalculated. The rule application mode is presented in the [Typology rules execution order](#typology-rules-execution-order) section.
+1. Click **[!UICONTROL Create]**. Your typology is now ready to be used in messages.
 
-Your typology is ready to be used. You can select it in message properties or in message template properties.
+## Applying typologies to messages {#applying-typologies-to-messages}
 
-## Applying typology to messages {#applying-typologies-to-messages}
-
-When associating a typology with a message, the typology rules included in the typology will be executed to check the message validity.
+When associating a typology with a message or a message template, the typology rules included in the typology will be executed to check the message validity.
 
 >[!NOTE]
 >
@@ -72,6 +64,6 @@ When associating a typology with a message, the typology rules included in the t
 
    ![](assets/typology_message.png)
 
-1. By default, the out-of-the-box typology is linked to messages. Select the typology of your choice from the list, then confirm.
+1. By default, the out-of-the-box typology is linked to all messages. Select the typology of your choice from the list, then confirm.
 
-The selected typology is now linked to the message. All its associated typology rules will be executed to check the message validity.
+The selected typology is now associated with the message. All its associated typology rules will be executed to check the message validity.
