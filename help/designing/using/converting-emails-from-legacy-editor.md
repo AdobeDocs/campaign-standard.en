@@ -81,11 +81,11 @@ Let's try to convert this email, created in the legacy editor, into an Email Des
 
 ## Identify the section of your email 
 
-We can identify 11 sections in this email. ![](assets/.png)
+We can identify 11 sections in this email. 
 
 ![](assets/html-dce-view-mail.png)
 
-To identify which element is which section of the HTML, you can select it and see breadcrumbs. 
+To identify which element is which section of the HTML, you can select it and see breadcrumbs.
 
 ![](assets/HTML-DCE-view.png)
 
@@ -93,20 +93,24 @@ To identify which element is which section of the HTML, you can select it and se
 
 1. Drag and drop structure components reflecting the layout of our email. 
 
-We need to create 11 structure components. 
+We need to create 11 structure components.
 
-![](assets/structure-components-migration.png)
+![](assets/breadcrumbs.png)
 
-### Inserting HTML content components 
+### Inserting HTML content components
 
-1. Insert an HTML component in each structure component. 
+1. Insert an HTML component in each structure component.
 
 ![](assets/html-components.png)
 
-1. For each section, click Show source code. 
+1. For each section, click Show source code.
 
 ![](assets/show-source-code.png)
 
 1. Insert the HTML section.
 
-1. Click Save. 
+1. Click Save.
+
+You can now check the rendering of your email.
+
+![](assets/migrated-email-result.png)
