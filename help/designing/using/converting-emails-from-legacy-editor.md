@@ -86,7 +86,9 @@ We can identify 11 sections in this email.
 
 To identify which element is which section of the HTML, you can select it.
 
-![](assets/HTML-DCE-view.png)
+![](assets/breadcrumbs.png)
+
+To see the HTML version of the email, click **[!UICONTROL Show source]**.
 
 ### Create the email template and its structure 
 
@@ -94,7 +96,7 @@ To identify which element is which section of the HTML, you can select it.
 
 We need to create 11 structure components.
 
-![](assets/breadcrumbs.png)
+![](assets/structure-components-migration.png)
 
 ### Inserting HTML content components
 
