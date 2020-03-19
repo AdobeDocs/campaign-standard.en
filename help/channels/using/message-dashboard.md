@@ -92,7 +92,7 @@ Below is a list of the messages that can be displayed:
 
     If you see this message, there is an issue at the IP affinity definition level or at the sending process level. Contact your Adobe administrator.
 
-* *"This transactional message is an out-of-the-box transactional message template. If you want to modify it, you must duplicate it and work on your copy."*
+* *"This is an out-of-the-box transactional message template. If you want to modify it, you must duplicate it and work on your copy."*
 
     Some of these out-of-the-box transactional message templates are built-in landing page templates. For more on this, see [this section](../../channels/using/landing-page-templates.md).
 
