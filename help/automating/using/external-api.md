@@ -37,8 +37,8 @@ The main characteristics of this activity are:
 
 The following guardrails have been put in place for this activity:
 
-* 5MB http response data size limit
-* Request timeout is 60 seconds
+* 50MB http response data size limit
+* Request timeout is 10 minutes
 * HTTP redirects are not allowed
 * Non-HTTPS Urls are rejected
 * "Accept: application/json" request header and "Content-Type: application/json" response header are allowed
