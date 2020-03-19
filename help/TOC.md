@@ -29,7 +29,6 @@ user-guide-title: Adobe Campaign Standard Help
   + Discovering the interface {#discovering-the-interface}
        + [About the interface](start/using/about-the-interface.md)
        + [Interface description](start/using/interface-description.md)
-       + [Compatible browsers](start/using/compatible-browsers.md)
        + [Customizing lists](start/using/customizing-lists.md)
   + Marketing plans {#marketing-plans}
        + [Programs and campaigns](start/using/programs-and-campaigns.md)
