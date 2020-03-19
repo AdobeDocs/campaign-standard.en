@@ -22,6 +22,14 @@ This page lists all the new features and documentation updates for each release 
 
 You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-notes.md).
 
+## Release 20.2 - March 2020 {#release-20-2---march-2020}
+
+**New capabilities included in the release**
+
+Unified Experience Cloud header - [Read More](../../start/using/interface-description.md#top-bar)
+
+**Other documentation updates coming with the release**
+
 ## Documentation updates - March 2020 {#doc-updates-march-2020}
 
 More detailed information on the Enhanced MTA has been added to core documentation, particularly regarding email processing rules and bounce mail qualification. [Read more](../../administration/using/configuring-email-channel.md#email-processing-rules)
@@ -40,7 +48,7 @@ Information has been added on the **[!UICONTROL Workflow]** out-of-the-box right
 
 Information has been added on the **[!UICONTROL History in days field]** available in workflows' properties. [Read more](../../automating/using/executing-a-workflow.md)
 
-## Release 20.1 - February 2019 {#release-20-1---february-2020}
+## Release 20.1 - February 2020 {#release-20-1---february-2020}
 
 **New capabilities included in the release**
 
