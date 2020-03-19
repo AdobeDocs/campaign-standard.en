@@ -88,6 +88,7 @@ New capabilities will be released in Campaign Control Panel in April, including 
 * Fixed an issue in HTML indentation which caused the footer of emails to move leftwards in Microsoft Outlook. (CAMP-40987)
 * Fixed an issue causing personalization fields targeting a collection attribute defined in HTML to be copied in the plain text content when switching to plain text mode. (CAMP-40365)
 * Fixed an issue preventing links from being inserted on a text segment that is selected. (CAMP-41406)
+* Fixed an issue that caused the date to be altered when selecting a timezone in the query editor. (CAMP-38277)
 
 **Other changes**
 
