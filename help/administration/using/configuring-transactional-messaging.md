@@ -116,13 +116,17 @@ For more on resource creation and publishing, refer to [this page](../../develop
 
    ![](assets/message-center_enrichment-join-fields.png)
 
-    You can also enrich the transactional message content using the **[!UICONTROL Service]** resource. For more on services, see this [section](../../audiences/using/about-subscriptions.md).
+    You can also enrich the transactional message content using the **[!UICONTROL Service]** resource. For more on services, see this [section](../../audiences/using/creating-a-service.md).
 
-1. In the **[!UICONTROL Targeting enrichment]** section, select the enrichment that will be used as the message target during the delivery execution. In this example, select **[!UICONTROL Profile]**. Selecting a targeting enrichment is mandatory for profile-based events.
+1. If you are creating or editing a profile-based event, in the **[!UICONTROL Targeting enrichment]** section, select the enrichment that will be used as the message target during the delivery execution.
 
    ![](assets/message-center_marketing_targeting_enrichment.png)
 
-Once the event and the message are published, the link with the **[!UICONTROL Profile]** resource will allow you to enrich the content of the transactional message.
+   >[!NOTE]
+   >
+   >Selecting a targeting enrichment based on the **[!UICONTROL Profile]** resource is mandatory for profile-based events.
+
+Once the event and the message are published, this link will allow you to enrich the content of the transactional message.
 
 **Related topics:**
 
