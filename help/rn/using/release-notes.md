@@ -112,3 +112,4 @@ New capabilities will be released in Campaign Control Panel in April, including 
 * Fixed an issue where the **Save** button disappeared when making changes to workflows.
 * Fixed an issue when deleting a privacy request manually in Campaign after it had been processed, which prevented data associated to the request from being deleted even after cleanup.
 * Fixed an issue that could occur when previewing or sending messages that included special characters from Adobe Experience Manager.
+* Fixed an issue that could occur in workflows when executing an activity with several inbound transitions.
