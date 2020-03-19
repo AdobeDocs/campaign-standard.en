@@ -26,9 +26,9 @@ You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-n
 
 **New capabilities included in the release**
 
-Unified Experience Cloud header - [Read More](../../start/using/interface-description.md#top-bar)
-
 Azure Blob Integration - [Read More](../../administration/using/external-accounts.md#microsoft-azure-external-account)
+
+Unified Experience Cloud interface and domain - [Read More](../../start/using/interface-description.md#top-bar)
 
 Email testing using targeted profiles - [Read more](../../sending/using/testing-messages-using-target.md)
 
@@ -39,6 +39,8 @@ Limitation has been added to In-App message rendering. [Read more](../../channel
 Information has been added on how to use aggregates in a **[!UICONTROL Query]** activity. [Read more](../../automating/using/query.md#adding-an-aggregate)
 
 Limitation has been added with MCPNS when configuring a mobile application. [Read more](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
+
+A new configuration guidelines section has been added to the Administrating guide. The section on compatible browsers and operating systems has been moved from the Getting started guide to this section. The technote on Campaign Standard network endpoints has also been added to this section. [Read more](../../administration/using/about-configuration-guidelines.md)
 
 ## Documentation updates - March 2020 {#doc-updates-march-2020}
 
