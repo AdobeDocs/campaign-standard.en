@@ -1,5 +1,5 @@
 ---
-title: Campaign Standard Network Endpoints
+title: Campaign Standard network endpoints
 description: Learn about Campaign Standard Network Endpoints.
 page-status-flag: never-activated
 uuid: 64c34729-5c98-4db0-9131-af6dd0e78fb4
@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Campaign Standard Network Endpoints{#campaign-standard-network-endpoints}
+# Campaign Standard network endpoints{#campaign-standard-network-endpoints}
 
 Here are the different endpoints used in Campaign Standard. 
 

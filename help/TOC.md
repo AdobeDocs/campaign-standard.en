@@ -339,6 +339,9 @@ user-guide-title: Adobe Campaign Standard Help
 + Administrating {#administrating}
   + [About Administrating Adobe Campaign](administration/using/about-administrating-adobe-campaign.md)
   + Configuration guidelines {#configuration-guidelines}
+       + [About configuration guidelines](administration/using/about-configuration-guidelines.md)
+       + [Compatible browsers](administration/using/compatible-browsers.md)
+       + [Campaign Standard network endpoints](administration/using/campaign-standard-network-endpoints.md)  
   + Users and security {#users-and-security}
        + [About access management](administration/using/about-access-management.md)
        + [Users management](administration/using/users-management.md)
