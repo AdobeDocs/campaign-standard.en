@@ -28,7 +28,15 @@ You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-n
 
 Unified Experience Cloud header - [Read More](../../start/using/interface-description.md#top-bar)
 
+Azure Blob Integration - [Read More](../../administration/using/external-accounts.md#microsoft-azure-external-account)
+
 **Other documentation updates coming with the release**
+
+Limitation has been added to In-App message rendering. [Read more](../../channels/using/customizing-an-in-app-message.md)
+
+Information has been added on how to use aggregates in a **[!UICONTROL Query]** activity. [Read more](../../automating/using/query.md#adding-an-aggregate)
+
+Limitation has been added with MCPNS when configuring a mobile application. [Read more](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
 
 ## Documentation updates - March 2020 {#doc-updates-march-2020}
 
