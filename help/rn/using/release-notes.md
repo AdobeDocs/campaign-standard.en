@@ -83,7 +83,7 @@ New capabilities will be released in Campaign Control Panel in April, including 
 * Fixed an issue with padding in Outlook when defining padding at table level instead of div level. 
 * Fixed an issue that caused the width of an image to be modified when switching to HTML mode. (CAMP-41116)
 * Fixed an issue preventing the social media component from being accessible when providing alternative text to the icons. (CAMP-41345)
-* Fixed an issue causing visible `&lt;br>` tags to be displayed when using copy paste in the Email Designer.
+* Fixed an issue causing visible `<br>` tags to be displayed when using copy paste in the Email Designer.
 * Fixed an issue causing HTML tags to be displayed in the email after switching from HTML content to Plain Text. (CAMP-41138)
 * Fixed an issue preventing the rendering of buttons with only one border defined. 
 * Fixed an issue in HTML indentation which caused the footer of emails to move leftwards in Microsoft Outlook. (CAMP-40987)
