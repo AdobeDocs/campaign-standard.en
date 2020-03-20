@@ -22,7 +22,7 @@ snippet: y
 
 Adobe Campaign allows you to send personalized and segmented push notifications to iOS and Android mobile devices.
 
-These messages are received on mobile applications that you set up in Adobe Campaign by leveraging the Experience Cloud Mobile SDK V4 or Experience Platform SDK. For more information on this, refer to [Configuring a mobile application using SDK V4](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) and [Configuring a mobile application using Adobe Experience Platform SDKs](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
+These messages are received on mobile applications that you set up in Adobe Campaign by leveraging the Experience Platform SDK. For more information on this, refer to [Configuring a mobile application using Adobe Experience Platform SDKs](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
 
 In Adobe Campaign, mobile profile attributes data sent from mobile device are stored in **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** resource which allows you to define the data that you want to collect from your applications' subscribers.
 
@@ -57,7 +57,7 @@ As an expert user, to define these specific configurations, refer to the mobile 
 >To leverage the push notification feature from Campaign, you need  to provide a valid push certificate in .pem format with no passwords.
 If you have a valid p12 certificate, you can convert it easily into a .pem file using online resources.
 
-First, to be able to start sending push notifications, you need to configure your mobile application using SDK V4. You can also configure your mobile application using Experience Platform SDKs. For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
+First, to be able to start sending push notifications, you need to configure your mobile application using Experience Platform SDKs. For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
 
 Before sending your push notifications, you should:
 
