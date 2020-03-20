@@ -16,7 +16,7 @@ snippet: y
 
 # Defining dynamic text{#defining-dynamic-text}
 
-Dynamic text is defined in the same way as dynamic content. Refer to the [Definig dynamic content](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) section.
+Dynamic text is defined in the same way as dynamic content. Refer to the [Defining dynamic content](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) section.
 
 >[!NOTE]
 >

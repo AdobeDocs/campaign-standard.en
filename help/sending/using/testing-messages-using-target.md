@@ -119,11 +119,11 @@ To import profiles to use for testing from an audience, follow these steps:
 
 1. Click the **[!UICONTROL Import]** button. The profiles from the audience corresponding to the message target are added to the **[!UICONTROL Profile substitution]** tab, as well as the associated substitution addresses and prefixes.
 
-    ![](assets/substitution_audience_added.png)
-
 >[!NOTE]
 >
 >If you import the same audience once again, with different substitution addresses and/or prefixes, the profiles will be added to the list in addition to those from the previous import.
+
+    ![](assets/substitution_audience_added.png)
 
 ## Previewing the message with targeted profiles
 
@@ -171,27 +171,27 @@ The main steps for this use case are as follows:
 
 1. Prepare the file to import to create the audience. In our case, it should contain the substitution address to use for the proof, and a prefix to add into the proof's subject line.
 
-    In this example, the email address "olivier.vaughan@internal.com" will receive a proof of the message targeting the profile with the "john.doe@mail.com" email address. The"JD" prefix will be added to the proof's subject line.
+    In this example, the "oliver.vaughan@internal.com" email address will receive a proof of the message targeting the profile with the "john.doe@mail.com" email address. The"JD" prefix will be added to the proof's subject line.
 
     ![](assets/substitution_uc1.png)
 
 1. Build the workflow to create an audience from the file. To do this, add and configure the activities below:
 
-    * **[!UICONTROL Load file]** activity: Imports the CSV file.
-    * **[!UICONTROL Reconciliation]** activity: Links information from the file to information from the database. In this example, we will use the profile's email address as reconciliation field.
-    * **[!UICONTROL Save audience]** activity: Creates an audience based on the imported file.
+    * **[!UICONTROL Load file]** activity: Imports the CSV file (for more on this activity, refer to [this section](../../automating/using/load-file.md)).
+    * **[!UICONTROL Reconciliation]** activity: Links information from the file to information from the database. In this example, we will use the profile's email address as reconciliation field  (for more on this activity, refer to [this section](../../automating/using/reconciliation.md)).
+    * **[!UICONTROL Save audience]** activity: Creates an audience based on the imported file (for more on this activity, refer to [this section](../../automating/using/save-audience.md)).
 
     ![](assets/substitution_uc2.png)
 
 1. Run the workflow, then go to the **[!UICONTROL Audiences]** tab to check that the audience has been created with the desired information.
 
-    In this example, the audience is made up of three profiles. Each of them is linked to a substitution email address that will receive the proof and a prefix to use in the proof's subject line.
+    In this example, the audience is made up of three profiles. Each of them is linked to a substitution email address that will receive the proof, with a prefix to use in the proof's subject line.
 
     ![](assets/substitution_uc3.png)
 
 ### Step 2: Build a workflow to target profiles and send the newsletter
 
-1. Add **[!UICONTROL Query]** and **[!UICONTROL Email delivery]** activities, then configure them according to your needs.
+1. Add **[!UICONTROL Query]** and **[!UICONTROL Email delivery]** activities, then configure them according to your needs (see [Query](../../automating/using/query.md) and [Email delivery](../../automating/using/email-delivery.md) sections).
 
     ![](assets/substitution_uc4.png)
 
@@ -199,7 +199,7 @@ The main steps for this use case are as follows:
 
 ### Step 3: Configure the message's Profile substitution tab
 
-1. Open the **[UICONTROL Email delivery]** activity. In the message dashboard, click the **[!UICONTROL Audience]** block.
+1. Open the **[!UICONTROL Email delivery]** activity. In the message dashboard, click the **[!UICONTROL Audience]** block.
 
     ![](assets/substitution_uc5.png)
 
@@ -251,6 +251,6 @@ The main steps for this use case are as follows:
 
     ![](assets/substitution_uc_sendproof.png)
 
-1. The proofs are sent according to what has been configured in the **!UICONTROL [Profile substitutions]** tab.
+1. The proofs are sent according to what has been configured in the **[!UICONTROL [Profile substitutions]** tab.
 
     ![](assets/substitution_uc_proofs.png)

@@ -86,18 +86,18 @@ When a proof is sent, its subject line is configured by default with the **"Proo
 
 To change the default subject line to use, follow these steps:
 
-1. In the message dashboard, Click the **[Open properties]** button.
+1. In the message dashboard, Click the **[!UICONTROL Open properties]** button.
 1. In the **[!UICONTROL Advanced parameters]** section, define the prefix that you want to use by default in the subject line.
 
   To hide the proof's number in the subject line, activate the **[!UICONTROL Hide proof prefix counter]** option.
-
-   ![](assets/proof-prefix-configuration.png)
 
    >[!NOTE]
    >
    >If you want to hide the entire proof prefix, leave the **[!UICONTROL Subject line prefix]** field blank.
 
-1. Click **!UICONTROL Confirm]**. The settings will be applied by default to all the proofs sent for the selected message.
+   ![](assets/proof-prefix-configuration.png)
+
+1. Click **[!UICONTROL Confirm]**. The settings will be applied by default to all the proofs sent for the selected message.
 
 **Related topic:**
 
