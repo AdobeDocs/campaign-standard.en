@@ -80,7 +80,7 @@ snippet: y
 **Email Designer enhancements**
 
 * Fixed an issue affecting escaping when clicking multiple times on a personalized image. 
-* Fixed an issue causing group id when duplicating dynamic text components. (CAMP-41249)
+* Fixed an issue when duplicating dynamic text components which could lead to the wong line being duplicated. (CAMP-41249)
 * Fixed an issue with padding in Outlook when defining padding at table level instead of div level. 
 * Fixed an issue that caused the width of an image to be modified when switching to HTML mode. (CAMP-41116)
 * Fixed an issue preventing the social media component from being accessible when providing alternative text to the icons. (CAMP-41345)
@@ -95,7 +95,6 @@ snippet: y
 **Other changes**
 
 * The **KPIs Reconciliation with Adobe Analytics** out-of-the-box workflow now runs until current date instead of running for a single day.
-* The error message displayed when trying to delete a custom resource or an event configuration has been improved. 
 * The MCPNS doesn't support adding APNS and APNS-SANDBOX both as platforms in an app. After successfully adding the certificate in Adobe Campaign Standard, you are now no longer able to change your settings back since only one APNS platform (production or sandbox) can be added to the MCPNS app.
 
 **Experience Platform integrations**
@@ -111,7 +110,7 @@ snippet: y
 **Patches**
 
 * Fixed an issue with the **Enrichment** workflow activity that could occur when adding spaces in the **Alias** field which then created a new row item. (CAMP-39229)
-* Fixed an issue where every profile test could be targeted when sending a proof message.
+* Fixed an issue where every test profile could be targeted when sending a proof message.
 * Fixed an issue that occurred after unpublishing and deleting an event configuration. [Read more](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
 * Fixed an issue where the **Save** button disappeared when making changes to workflows.
 * Fixed an issue when deleting a privacy request manually in Campaign after it had been processed, which prevented data associated to the request from being deleted even after cleanup.
