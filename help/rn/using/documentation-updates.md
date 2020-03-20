@@ -48,6 +48,8 @@ The page describing how to test the subject line of an email to predict its open
 
 The transactional messaging sections have been updated to reflect the multiple user interface slight updates and improvements. [Read more](../../channels/using/about-transactional-messaging.md)
 
+Information related to the External API activity guardrails have been updated. [Read more](../../automating/using/external-api.md)
+
 ## Documentation updates - March 2020 {#doc-updates-march-2020}
 
 More detailed information on the Enhanced MTA has been added to core documentation, particularly regarding email processing rules and bounce mail qualification. [Read more](../../administration/using/configuring-email-channel.md#email-processing-rules)
@@ -338,7 +340,7 @@ A new section comparing the different email authoring options in Adobe Campaign 
 
 The Creating custom content blocks section has been enhanced with details on targeting dimensions. [Read more](../../designing/using/personalization.md#creating-custom-content-blocks)
 
-A warning indicating that the Email Designer does not support Internet Explorer 11 has been added. [Read more](../../start/using/compatible-browsers.md)
+A warning indicating that the Email Designer does not support Internet Explorer 11 has been added. [Read more](../../administration/using/compatible-browsers.md)
 
 Warnings on the impact of re-drafting have been added to the Deleting a resource section. [Read more](../../developing/using/deleting-a-resource.md)
 
@@ -400,7 +402,7 @@ Added information on the new field in the Update data activity that allows you t
 
 Updated the [Importing content from a URL](../../designing/using/using-existing-content.md#importing-content-from-a-url) documentation with information related to the Email designer.
 
-The Microsoft Edge (latest version) was added to the list of compatible browsers for computers. [Read more](../../start/using/compatible-browsers.md)
+The Microsoft Edge (latest version) was added to the list of compatible browsers for computers. [Read more](../../administration/using/compatible-browsers.md)
 
 Added information on the new option in the Extract file activity that prevents from generating a file if the inbound transition is empty. [Read more](../../automating/using/extract-file.md)
 
