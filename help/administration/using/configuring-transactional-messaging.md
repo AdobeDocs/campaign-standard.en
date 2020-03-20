@@ -149,11 +149,10 @@ Before being able to use the event, you must preview and publish it.
 
    ![](assets/message-center_pub.png)
 
-1. You can view the publication logs by selecting the corresponding tab.
+1. You can view the publication logs in the corresponding tab.
 
    ![](assets/message-center_logs.png)
 
-   You can also consult the previous publications by selecting the tab.
 
 >[!NOTE]
 >
@@ -166,6 +165,10 @@ You can access the transactional message that was created directly from the link
 ![](assets/message-center_messagegeneration.png)
 
 You also have to integrate this trigger event into your website. See [Integrating the triggering of the event in a website](#integrating-the-triggering-of-the-event-in-a-website).
+
+<!-->>[!NOTE]
+>
+>To consult the previous publications if any, click the **[!UICONTROL Latest transactional events]** link under the **[!UICONTROL History]** section in the left-hand side area.-->
 
 ### Unpublishing an event {#unpublishing-an-event}
 
