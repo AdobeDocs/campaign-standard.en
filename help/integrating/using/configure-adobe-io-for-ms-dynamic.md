@@ -13,6 +13,7 @@ discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
 ---
+
 # Configure Adobe IO for Microsoft Dynamics 365 integration
 
 Activate your CRM data on cross-channel communication: learn steps required during post-provisioning to create a new integration for Microsoft Dynamics 365.
