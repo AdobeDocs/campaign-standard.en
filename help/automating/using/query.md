@@ -155,6 +155,12 @@ By adding a simple field as additional data, that field becomes directly visible
 ### Adding an aggregate {#adding-an-aggregate}
 
 Aggregates allow values to be calculated from fields of the targeting dimension or from fields of dimensions linked to the targeting dimension. For example: the average amount purchased by a profile.
+When using aggregate with query, its function can return to zero which is then considered as NULL. Use the **[!UICONTROL Output filtering]** tab of your query to filter the aggregated value:
+
+* if you want zero values you should filter on **[!UICONTROL is null]**.
+* if you do not want zero values filter on **[!UICONTROL is not null]**.
+
+Note that if you need to apply sorting on your aggregate, you should filter out zero values or else the NULL value will appear as the greatest number.
 
 1. From the **[!UICONTROL Additional data]** tab, add a new element.
 1. In the window that opens, select the collection that you want to use to create your aggregate in the **[!UICONTROL Expression]** field.

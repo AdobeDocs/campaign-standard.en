@@ -28,7 +28,7 @@ The **Bounce reasons** table contains the available data for the types of errors
 
 * **[!UICONTROL User unknown]**: The type of error generated when a delivery is sent to an invalid email address.
 * **[!UICONTROL Invalid domain]**: The type of error generated when a delivery is sent to an email address whose domain is wrong or no longer exists.
-* **[!UICONTROL Unreachable]**: The type of error encountered in the message delivery string. For example, SMTP relay incident, domain temporarily unreachable, etc. 
+* **[!UICONTROL Unreachable]**: The type of error encountered in the message delivery string, such as domain temporarily unreachable.
 * **[!UICONTROL Account disabled]**: The type of error generated when a delivery is sent to an email address that no longer exists.
 * **[!UICONTROL Mailbox full]**: The type of error generated when the recipient's inbox is full. There are five attempts to deliver the message before this error is generated.
 * **[!UICONTROL Not connected]**: The type of error generated when the recipient's mobile phone is off or it is not connected to a network at the time the message is sent.
