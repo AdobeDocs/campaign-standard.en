@@ -74,7 +74,6 @@ snippet: y
 **Improvements**
 
 * Transactional messaging user experience has been enhanced and the interface consistency was improved. [Read more](../../channels/using/about-transactional-messaging.md)
-* The MCPNS doesn't support adding APNS and APNS-SANDBOX both as platforms in an app. After successfully adding the certificate in Adobe Campaign Standard, you are now no longer able to change your settings back since only one APNS platform (production or sandbox) can be added to the MCPNS app.
 * Campaign Standard now allows you to send proofs to Test profiles using additional data from workflows.
 * Guardrails for the External API activity have been updated. [Read more](../../automating/using/external-api.md)
 
@@ -97,6 +96,7 @@ snippet: y
 
 * The **KPIs Reconciliation with Adobe Analytics** out-of-the-box workflow now runs until current date instead of running for a single day.
 * The error message displayed when trying to delete a custom resource or an event configuration has been improved. 
+* The MCPNS doesn't support adding APNS and APNS-SANDBOX both as platforms in an app. After successfully adding the certificate in Adobe Campaign Standard, you are now no longer able to change your settings back since only one APNS platform (production or sandbox) can be added to the MCPNS app.
 
 **Experience Platform integrations**
 
