@@ -90,7 +90,7 @@ The Amazon S3 protocol allows you to start downloading a file from a URL or an e
 
 1. Select an Amazon S3 external account. For more on this, refer to this [page](../../administration/using/external-accounts.md#amazon-s3-external-account).
 
-2. Choose if you want to **[!UICONTROL Define a file path]** or **[Use a dynamic file path]**.
+2. Choose if you want to **[!UICONTROL Define a file path]** or **[!UICONTROL Use a dynamic file path]**.
 
 3. Specify the path of the file to download.
 
@@ -104,7 +104,7 @@ The Microsoft Azure Blob protocol allows you to access blob located on a Microso
 
 1. Select a **[!UICONTROL Microsoft Azure Blob]** external account. For more on this, refer to this [page](../../administration/using/external-accounts.md#microsoft-azure-external-account).
 
-1. Choose if you want to **[!UICONTROL Define a file path]** or **[Use a dynamic file path]**.
+1. Choose if you want to **[!UICONTROL Define a file path]** or **[!UICONTROL Use a dynamic file path]**.
 
     ![](assets/wkf_file_transfer_10.png)
 
@@ -125,7 +125,7 @@ The Microsoft Azure Blob protocol allows you to access blob located on a Microso
 The **[!UICONTROL File(s) present on the Adobe Campaign server]** protocol corresponds to the repository containing the file(s) to recover.
 Metacharacters, or wildcards (for example &#42; or ?) can be used to filter files.
 
-Choose if you want to **[!UICONTROL Define a file path]** or **[Use a dynamic file path]** 
+Choose if you want to **[!UICONTROL Define a file path]** or **[!UICONTROL Use a dynamic file path]** 
 The **[!UICONTROL Use a dynamic file path]** option, lets you use a standard expression and events variables to personalize the name of the file to transfer. For more on this, refer to the [Customizing activities with events variables](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables) section.
 
 Please note that the path must be relative to the storage space directory of the Adobe Campaign server. Files are located in the **sftp&lt;yourinstancename&gt;/** directory. You also cannot browse the directories above the storage space. For example:

@@ -53,7 +53,7 @@ If specified in a file through dedicated columns, this activity also lets you ch
 
       In this column, the operation must be specified as a Boolean or Integer. Use **0** to unsubscribe a record and **1** to subscribe.
 
-      In case the values contained in an imported file do not match the above requirements, you can still use the [Remapping of values](../../automating/using/load-file.md#column-format) option available in the **[!UICONTROL Load file]** activity
+      In case the values contained in an imported file do not match the above requirements, you can still use the [Remapping of values](../../automating/using/load-file.md#column-format) option available in the **[!UICONTROL Load file]** activity.
 
 1. If the inbound data contain a column with corresponding to the subscription date of the profile to the service, select it. You can leave it empty but no subscription date is set when running the workflow.
 1. Define the origin of the subscription. You can set it to one of the fields of the inbound data or to a constant value of your choice by checking the **[!UICONTROL Set a constant as origin]** option. You can leave it empty but no origin is set when running the workflow.

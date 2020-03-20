@@ -28,7 +28,7 @@ The way in which the data will be extracted is defined when the activity is conf
 
 >[!CAUTION]
 >
->Only the "flat" structure files are taken into account, such as the .txt, .csv, etc., files for example.
+>Only "flat" structure files are taken into account, such as .txt, .csv, etc., files for example.
 
 You can:
 
@@ -101,7 +101,7 @@ The activity configuration involves two steps. First, you need to define the exp
 
 1. Confirm the configuration of your activity and save your workflow.
 
-  If any error occurs with the activity after executing the workflow, refer to the logs to get more details on the values that are incorrect in the file. For more on workflows logs, refer to [this section](../../automating/using/executing-a-workflow.md#monitoring)
+  If any error occurs with the activity after executing the workflow, refer to the logs to get more details on the values that are incorrect in the file. For more on workflows logs, refer to [this section](../../automating/using/executing-a-workflow.md#monitoring).
 
 ## Column format {#column-format}
 
