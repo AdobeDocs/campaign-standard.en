@@ -74,6 +74,7 @@ New capabilities will be released in Campaign Control Panel in April, including 
 * Transactional messaging user experience has been enhanced and the interface consistency was improved. [Read more](../../channels/using/about-transactional-messaging.md)
 * The MCPNS doesn't support adding APNS and APNS-SANDBOX both as platforms in an app. After successfully adding the certificate in Adobe Campaign Standard, you are now no longer able to change your settings back since only one APNS platform (production or sandbox) can be added to the MCPNS app.
 * Campaign Standard now allows you to send proofs to Test profiles using additional data from workflows.
+* Guardrails for the External API activity have been updated. [Read more](../../automating/using/external-api.md)
 
 **Email Designer enhancements**
 

@@ -31,7 +31,7 @@ The REST endpoints can be a customer management system, an [Adobe I/O Runtime](h
 
 The main characteristics of this activity are:
 
-* Ability to pass data in a JSON format to a 3rd party REST API endpoint 
+* Ability to pass data in a JSON format to a 3rd party REST API endpoint
 * Ability to receive a JSON response back, map it to output tables and pass downstream to other workflow activities.
 * Failure management with an outbound specific transition
 

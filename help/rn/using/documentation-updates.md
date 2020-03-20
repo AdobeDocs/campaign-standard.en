@@ -48,6 +48,8 @@ The page describing how to test the subject line of an email to predict its open
 
 The transactional messaging sections have been updated to reflect the multiple user interface slight updates and improvements. [Read more](../../channels/using/about-transactional-messaging.md)
 
+Information related to the External API activity guardrails have been updated. [Read more](../../automating/using/external-api.md)
+
 ## Documentation updates - March 2020 {#doc-updates-march-2020}
 
 More detailed information on the Enhanced MTA has been added to core documentation, particularly regarding email processing rules and bounce mail qualification. [Read more](../../administration/using/configuring-email-channel.md#email-processing-rules)
