@@ -67,7 +67,9 @@ snippet: y
  </tbody> 
 </table>
 
-New capabilities will be released in Campaign Control Panel in April, including Google TXT record management, Database space monitoring and email alerting. For more on these features, refer to the [Control Panel Release Note](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
+>[!NOTE]
+>
+>New capabilities will be released in Campaign Control Panel in April, including Google TXT record management, Database space monitoring and email alerting. For more on these features, refer to the [Control Panel Release Note](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
 
 **Improvements**
 
@@ -98,7 +100,7 @@ New capabilities will be released in Campaign Control Panel in April, including 
 
 **Experience Platform integrations**
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >Adobe Experience Platform features in Campaign Standard are currently in beta, which may be subject to frequent updates without notice. Refer to the detailed documentation: [Experience Platform Data Connector](../../administration/using/aep-about-data-connector.md), [Audience Destinations](../../audiences/using/aep-about-audience-destinations-service.md)
 
