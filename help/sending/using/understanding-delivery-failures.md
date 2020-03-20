@@ -53,7 +53,7 @@ The possible reasons for a delivery failure are:
 
 * **[!UICONTROL User unknown]** (Hard type): the address does not exist. No further deliveries will be attempted for this profile.
 * **[!UICONTROL Quarantined address]** (Hard type): the address was placed in quarantine.
-* **[!UICONTROL Unreachable]** (Soft/Hard type): an error has occurred in the message delivery chain (incident on SMTP relay, domain temporarily unreachable, etc.). According to the error returned by the provider, the address will be sent to quarantine directly or the delivery will be tried again until Campaign receives an error which justifies the Quarantine status or until the number of errors reaches 5.
+* **[!UICONTROL Unreachable]** (Soft/Hard type): an error has occurred in the message delivery chain (such as domain temporarily unreachable). According to the error returned by the provider, the address will be sent to quarantine directly or the delivery will be tried again until Campaign receives an error which justifies the Quarantine status or until the number of errors reaches 5.
 * **[!UICONTROL Address empty]** (Hard type): the address is not defined.
 * **[!UICONTROL Mailbox full]** (Soft type): the mailbox of this user is full and cannot accept more messages. This address can be removed from the quarantine list to make another attempt. It is removed automatically after 30 days.
 

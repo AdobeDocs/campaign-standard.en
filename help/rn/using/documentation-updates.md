@@ -22,6 +22,34 @@ This page lists all the new features and documentation updates for each release 
 
 You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-notes.md).
 
+## Release 20.2 - March 2020 {#release-20-2---march-2020}
+
+**New capabilities included in the release**
+
+Azure Blob Integration - [Read More](../../administration/using/external-accounts.md#microsoft-azure-external-account)
+
+Unified Experience Cloud interface and domain - [Read More](../../start/using/interface-description.md#top-bar)
+
+Email testing using targeted profiles - [Read more](../../sending/using/testing-messages-using-target.md)
+
+**Other documentation updates coming with the release**
+
+Limitation has been added to In-App message rendering. [Read more](../../channels/using/customizing-an-in-app-message.md)
+
+Information has been added on how to use aggregates in a **[!UICONTROL Query]** activity. [Read more](../../automating/using/query.md#adding-an-aggregate)
+
+Limitation has been added with MCPNS when configuring a mobile application. [Read more](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
+
+A new configuration guidelines section has been added to the Administrating guide. The section on compatible browsers and operating systems has been moved from the Getting started guide to this section. The technote on Campaign Standard network endpoints has also been added to this section. [Read more](../../administration/using/about-configuration-guidelines.md)
+
+A new section describing how to delete an event configuration is now available. [Read more](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
+
+The page describing how to test the subject line of an email to predict its open rate has been updated and improved, including a new [troubleshooting](../../sending/using/testing-subject-line-email.md#troubleshooting) section. [Read more](../../sending/using/testing-subject-line-email.md#troubleshooting)
+
+The transactional messaging sections have been updated to reflect the multiple user interface slight updates and improvements. [Read more](../../channels/using/about-transactional-messaging.md)
+
+Information related to the External API activity guardrails have been updated. [Read more](../../automating/using/external-api.md)
+
 ## Documentation updates - March 2020 {#doc-updates-march-2020}
 
 More detailed information on the Enhanced MTA has been added to core documentation, particularly regarding email processing rules and bounce mail qualification. [Read more](../../administration/using/configuring-email-channel.md#email-processing-rules)
@@ -40,7 +68,7 @@ Information has been added on the **[!UICONTROL Workflow]** out-of-the-box right
 
 Information has been added on the **[!UICONTROL History in days field]** available in workflows' properties. [Read more](../../automating/using/executing-a-workflow.md)
 
-## Release 20.1 - February 2019 {#release-20-1---february-2020}
+## Release 20.1 - February 2020 {#release-20-1---february-2020}
 
 **New capabilities included in the release**
 
@@ -278,7 +306,7 @@ A new section has been added to describe the specific transactional message retr
 
 The Publishing a resource with API extension section has been clarified and updated with the latest UI changes. [Read more](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension)
 
-The Archiving emails section has been renamed and reorganized. [Read more](../../administration/using/configuring-email-channel.md#archiving-emails)
+The Archiving emails section has been renamed and reorganized. [Read more](../../sending/using/archiving.md)
 
 The Creating an email section has been updated to reflect the latest interface changes. [Read more](../../channels/using/creating-an-email.md)
 
@@ -312,7 +340,7 @@ A new section comparing the different email authoring options in Adobe Campaign 
 
 The Creating custom content blocks section has been enhanced with details on targeting dimensions. [Read more](../../designing/using/personalization.md#creating-custom-content-blocks)
 
-A warning indicating that the Email Designer does not support Internet Explorer 11 has been added. [Read more](../../start/using/compatible-browsers.md)
+A warning indicating that the Email Designer does not support Internet Explorer 11 has been added. [Read more](../../administration/using/compatible-browsers.md)
 
 Warnings on the impact of re-drafting have been added to the Deleting a resource section. [Read more](../../developing/using/deleting-a-resource.md)
 
@@ -374,7 +402,7 @@ Added information on the new field in the Update data activity that allows you t
 
 Updated the [Importing content from a URL](../../designing/using/using-existing-content.md#importing-content-from-a-url) documentation with information related to the Email designer.
 
-The Microsoft Edge (latest version) was added to the list of compatible browsers for computers. [Read more](../../start/using/compatible-browsers.md)
+The Microsoft Edge (latest version) was added to the list of compatible browsers for computers. [Read more](../../administration/using/compatible-browsers.md)
 
 Added information on the new option in the Extract file activity that prevents from generating a file if the inbound transition is empty. [Read more](../../automating/using/extract-file.md)
 

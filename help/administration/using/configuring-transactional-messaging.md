@@ -116,13 +116,17 @@ For more on resource creation and publishing, refer to [this page](../../develop
 
    ![](assets/message-center_enrichment-join-fields.png)
 
-    You can also enrich the transactional message content using the **[!UICONTROL Service]** resource. For more on this, see .
+    You can also enrich the transactional message content using the **[!UICONTROL Service]** resource. For more on services, see this [section](../../audiences/using/creating-a-service.md).
 
-1. In the **[!UICONTROL Targeting enrichment]** section, select the enrichment that will be used as the message target during the delivery execution. In this example, select **[!UICONTROL Profile]**. Selecting a targeting enrichment is mandatory for profile-based events. 
+1. If you are creating or editing a profile-based event, in the **[!UICONTROL Targeting enrichment]** section, select the enrichment that will be used as the message target during the delivery execution.
 
    ![](assets/message-center_marketing_targeting_enrichment.png)
 
-Once the event and the message are published, the link with the **[!UICONTROL Profile]** resource will allow you to enrich the content of the transactional message.
+   >[!NOTE]
+   >
+   >Selecting a targeting enrichment based on the **[!UICONTROL Profile]** resource is mandatory for profile-based events.
+
+Once the event and the message are published, this link will allow you to enrich the content of the transactional message.
 
 **Related topics:**
 
@@ -145,11 +149,10 @@ Before being able to use the event, you must preview and publish it.
 
    ![](assets/message-center_pub.png)
 
-1. You can view the publication logs by selecting the corresponding tab.
+1. You can view the publication logs in the corresponding tab.
 
    ![](assets/message-center_logs.png)
 
-   You can also consult the previous publications by selecting the tab.
 
 >[!NOTE]
 >
@@ -163,6 +166,10 @@ You can access the transactional message that was created directly from the link
 
 You also have to integrate this trigger event into your website. See [Integrating the triggering of the event in a website](#integrating-the-triggering-of-the-event-in-a-website).
 
+<!-->>[!NOTE]
+>
+>To consult the previous publications if any, click the **[!UICONTROL Latest transactional events]** link under the **[!UICONTROL History]** section in the left-hand side area.-->
+
 ### Unpublishing an event {#unpublishing-an-event}
 
 The **[!UICONTROL Unpublish]** button lets you cancel the publication of the event, which deletes from the REST API the resource corresponding to the event that you previously created. Now, even if the event is triggered through your website, the corresponding messages are not sent anymore and they are not stored in the database.
@@ -174,6 +181,27 @@ The **[!UICONTROL Unpublish]** button lets you cancel the publication of the eve
 >If you have already published the corresponding transactional message, the transactional message publication is also canceled. See [Unpublishing a transactional message](../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message).
 
 Click the **[!UICONTROL Publish]** button to generate a new REST API.
+
+### Deleting an event {#deleting-an-event}
+
+Once an event has been unpublished, or if an event has  not been published yet, you can delete it from the event configuration list. To do this:
+
+1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
+1. Hover the mouse over the event configuration of your choice and select the **[!UICONTROL Delete element]** button.
+
+   ![](assets/message-center_delete-button.png)
+
+   >[!NOTE]
+   >
+   >Make sure the event configuration has the **[!UICONTROL Draft]** status, otherwise you will not be able to delete it. The **[!UICONTROL Draft]** status applies to an event that has not been published yet or that has been [unpublished](#unpublishing-an-event).
+
+1. Click the **[!UICONTROL Confirm]** button.
+
+   ![](assets/message-center_delete-confirm.png)
+
+>[!IMPORTANT]
+>
+>Deleting an event configuration that has been published and already used will also delete the corresponding transactional message(s) and its sending and tracking logs.
 
 ## Integrating the triggering of the event in a website {#integrating-the-triggering-of-the-event-in-a-website}
 

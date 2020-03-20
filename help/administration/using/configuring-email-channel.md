@@ -306,6 +306,10 @@ Preparing messages is detailed in the [Approving messages](../../sending/using/p
 
 * **[!UICONTROL Save SQL queries in the log]**: this option allows you to add SQL query logs in the journal during the preparation phase.
 
+#### Proof settings {#proof-settings}
+
+This section allows you to configure the default prefix to use in proof's subject line. For more in this, refer to [this section](../../sending/using/sending-proofs.md).
+
 ### List of email SMTP parameters {#list-of-email-smtp-parameters}
 
 The **[!UICONTROL SMTP]** section contains the following parameters:
