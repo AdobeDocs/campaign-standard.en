@@ -304,7 +304,7 @@ A new section has been added to describe the specific transactional message retr
 
 The Publishing a resource with API extension section has been clarified and updated with the latest UI changes. [Read more](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension)
 
-The Archiving emails section has been renamed and reorganized. [Read more](../../administration/using/configuring-email-channel.md#archiving-emails)
+The Archiving emails section has been renamed and reorganized. [Read more](../../sending/using/archiving.md)
 
 The Creating an email section has been updated to reflect the latest interface changes. [Read more](../../channels/using/creating-an-email.md)
 
