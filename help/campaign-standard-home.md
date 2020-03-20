@@ -11,14 +11,11 @@ topic: Premium
 
 ## What's New
 
+* **[Email testing using targeted profiles](sending/using/testing-messages-using-target.md)**
+Learn how to test your emails on real targeted profiles.
+
 * **[Privacy management](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>
 Learn about the tools provided by Adobe Campaign to help you with your Privacy compliance.
-
-* **[Delivery best practices](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>
-Learn more on best practices related to delivery design and sending.
-
-* **[Email Designer](designing/using/designing-content-in-adobe-campaign.md)**<br/>
-Consult the reorganized Email Designer documentation.
 
 * **[Campaign Standard Mobile guide](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>
 Learn more about general guidelines for mobile deliveries.
