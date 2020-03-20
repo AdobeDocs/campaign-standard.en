@@ -12,6 +12,7 @@ user-guide-title: Adobe Campaign Standard Help
 + Release Notes {#release-notes}
   + [Latest Release](rn/using/release-notes.md)
   + Previous Releases {#previous-releases}
+    + [Release Notes 2020](rn/using/release-notes-2020.md)
     + [Release Notes 2019](rn/using/release-notes-2019.md)
     + [Release Notes 2018](rn/using/release-notes-2018.md)
     + [Release Notes 2017](rn/using/release-notes-2017.md)
@@ -28,7 +29,6 @@ user-guide-title: Adobe Campaign Standard Help
   + Discovering the interface {#discovering-the-interface}
        + [About the interface](start/using/about-the-interface.md)
        + [Interface description](start/using/interface-description.md)
-       + [Compatible browsers](start/using/compatible-browsers.md)
        + [Customizing lists](start/using/customizing-lists.md)
   + Marketing plans {#marketing-plans}
        + [Programs and campaigns](start/using/programs-and-campaigns.md)
@@ -339,6 +339,10 @@ user-guide-title: Adobe Campaign Standard Help
        + [Visitor](developing/using/datamodel-visitor.md)
 + Administrating {#administrating}
   + [About Administrating Adobe Campaign](administration/using/about-administrating-adobe-campaign.md)
+  + Configuration guidelines {#configuration-guidelines}
+       + [About configuration guidelines](administration/using/about-configuration-guidelines.md)
+       + [Compatible browsers](administration/using/compatible-browsers.md)
+       + [Campaign Standard network endpoints](administration/using/campaign-standard-network-endpoints.md)  
   + Users and security {#users-and-security}
        + [About access management](administration/using/about-access-management.md)
        + [Users management](administration/using/users-management.md)
