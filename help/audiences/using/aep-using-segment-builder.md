@@ -28,7 +28,7 @@ The Unified Segment Builder interface is composed as follows:
 
 * The left pane provides all attributes, events and audiences available to build the segment by dragging and dropping desired fields into the segment builder workspace.
 * The center area provides a workspace to build the segment by defining and combining rules from the available fields.
-* The header and right pane displays the segment's properties (i.e., name, description, and estimated qualified profiles for the segment).
+* The header and right pane display the segment's properties (i.e., name, description, and estimated qualified profiles for the segment).
 
 ![](assets/aep_audiences_interface.png)
 

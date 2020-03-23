@@ -56,6 +56,8 @@ When defining a message's audience:
 
 The message is sent to the main target and to the test profile.
 
+You can use traps when sending transactional messages. In this case, the test profile will receive one message per event configuration. For more on transactional messaging, see this [section](../../channels/using/about-transactional-messaging.md).
+
 >[!NOTE]
 >
 >When using a test profile as a trap, for any enriched fields in a message, the corresponding additional data is randomly picked from a real targeted profile and assigned to the trap test profile. For more on enrichment, see [this example](../../automating/using/enrichment.md#example--enriching-profile-data-with-data-contained-in-a-file).

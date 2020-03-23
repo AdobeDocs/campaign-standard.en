@@ -25,6 +25,10 @@ The In-App content editor lets you choose between two In-App message modes:
 
 ![](assets/inapp_customize_1.png)
 
+>[!NOTE]
+>
+> In-App message rendering is only supported for Android API 19 and later versions.
+
 **Related topics:**
 
 * [Sending your In-App message](../../channels/using/preparing-and-sending-an-in-app-message.md#sending-your-in-app-message)
