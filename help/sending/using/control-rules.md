@@ -16,17 +16,15 @@ snippet: y
 
 # Control rules {#control-rules}
 
-Control rules allow the user to check the validity and quality of the messages before they are sent, such as character display, SMS message size, address format, etc.
+Control rules allow you to check the validity and quality of the messages before they are sent, such as character display, SMS message size, address format, etc.
 
 ## Default control rules {#default-control-rules}
 
-A set of default rules available in Adobe Campaign ensures the standard controls.
+A set of default rules ensures the standard controls. The table below provides information about these rules, as well as their related channel and [execution phases](#control-rules-execution-phases).
 
 >[!NOTE]
 >
 >For security reasons, out-of-the-box control rules are read-only and cannot be modified.
-
-The table below provides information about out-of-the-box control rules, as well as their related channel and [execution phases](#control-rules-execution-phases).
 
 Label | Channel | Execution phase | Description
 ---------|----------|---------|---------
@@ -36,7 +34,7 @@ Label | Channel | Execution phase | Description
  **[!UICONTROL Check In-App content for broadcast template]** | In-App | At the start personalization | Checks that In-App content / triggers are not empty for broadcast template.
  **[!UICONTROL Check In-App content for profile template]** | In-App | At the start of personalization | Checks that In-App content / triggers are not empty for profile template.
  **[!UICONTROL Check In-App content for subscriber template]** | In-App | At the start of personalization | Checks that In-App content / triggers are not empty for subscriber template.
- **[!UICONTROL Check proof size]**| All | After targeting | generates an error message if the proof target population exceeds 100 recipients.
+ **[!UICONTROL Check proof size]**| All | After targeting | Generates an error message if the proof target population exceeds 100 recipients.
  **[!UICONTROL Check social network sharing link]** | Email | At the start of personalization | Checks the presence of a link to a mirror page when including a social network sharing link (ViralLinks) in the content.
  **[!UICONTROL Check subject]** | Email | At the start of personalization | Checks that the subject and sender address do not contain special characters which may cause problems on certain mail transfer agents, and checks that the message subject has been completed.
  **[!UICONTROL Check unsubscription link]** | Email | At the start of personalization | Checks for the presence of at least one unsubscription (opt-out) URL in each content (HTML and Text).
@@ -53,19 +51,6 @@ Control rules can be applied at different phases of the delivery's life cycle:
 
   For example, the **Check proof size** control rule applies after the targeting stage: this rule prevents the preparation of message personalization if there are too many proof recipients.
 
-* **At the start of personalization**: Applies when the check concerns approving message personalization. Message personalization is carried out during the analysis phase.
+* **At the start of personalization**: Applies when the check relates to message personalization approval. Message personalization is carried out during the analysis phase.
 
 * **At the end of the analysis**: When a check requires message personalization to be complete.
-
-## Creating a control rule {#creating-a-control-rule}
-
-To create a control rule, follow these steps:
-
-1. Create a new typology rule (see [Creating a typology rule](../../sending/using/managing-typology-rules.md#creating-a-typology-rule).
-
-1. 
-
-
-Select the value to apply in the drop-down list from the **[!UICONTROL Phase]** field of the typology rule.
-
-![](assets/typology_phase.png)

@@ -18,7 +18,7 @@ snippet: y
 
 ## About typology rules {#about-typology-rules}
 
-Typology rules are business rules that allow you to perform checks and filters on your message before sending it. Available types of typology rules are:
+Typology rules are business rules that allow you to perform checks and filtering on your message before sending it. Available types of typology rules are:
 
 * **Filtering** rules: This type of rule allows you to exclude one part of the message target according to criteria defined in a query, such as quarantined profiles or profiles that have already been sent a certain number of emails. For more on this, refer to [this section](../../sending/using/filtering-rules.md).
 
@@ -28,7 +28,7 @@ Typology rules are business rules that allow you to perform checks and filters o
 
 Typology rules are available under the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** > **[!UICONTROL Typology rules]** menu.
 
-By default, several out-of-the-box **filtering** and **control** typology rules are already available. They are detailed in the [Filtering rules](../../sending/using/fatigue-rules.md) and [Control rules](../../sending/using/control-rules.md) sections.
+By default, several out-of-the-box **filtering** and **control** typology rules are available. They are detailed in the [Filtering rules](../../sending/using/fatigue-rules.md) and [Control rules](../../sending/using/control-rules.md) sections.
 
 According to your needs, you can modify existing typology rules or create new ones, excepted for **[!UICONTROL Control]** rules, which are read-only and cannot be modified.
 
@@ -44,11 +44,13 @@ The main steps to create a typology rule are as follows:
 
 	![](assets/typology-rule-label.png)
 
-1. Specify the typology rule **[!UICONTROL Type]**, then configure the rule according to your needs.
+1. Specify the typology rule **[!UICONTROL Type]**, then configure it according to your needs.
 
 	Typology rules configuration vary depending on their type. For more information, refer to the **[Filtering rules](../../sending/using/filtering-rules.md)** and **[Fatigue rules](../../sending/using/fatigue-rules.md)** sections.
 
-1. Select the typologies where you want to include the new rule. To do this, select the **[!UICONTROL Typologies]** tab, then click **[!UICONTROL Create element]** button.
+1. Select the typologies in which you want to include the new rule. To do this, select the **[!UICONTROL Typologies]** tab, then click **[!UICONTROL Create element]** button.
+
+	![](assets/typology-typologies-tab.png)
 
 1. Select the desired typology, then click **[!UICONTROL Confirm]**.
 

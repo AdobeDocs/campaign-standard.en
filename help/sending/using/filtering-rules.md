@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Filtering rules{#filtering-rules}
+# Filtering rules {#filtering-rules}
 
 Filtering rules allow you to exclude one part of the message target according to criteria defined in a query, such as quarantined profiles or profiles that have already been sent a certain number of emails.
 
@@ -30,11 +30,11 @@ Label | Channel | Description
  **[!UICONTROL Exclude mobile applications]** | Mobile application | Excludes app subscriptions that do not match the mobile application defined in the message.
  **[!UICONTROL Exclude mobile applications for In-App]** | In-App | Excludes app subscriptions that do not match the mobile application defined in the message (In-App template).
  **[!UICONTROL Exclude mobile applications for In-App broadcast]**| In-App | Excludes app subscriptions that do not match the mobile application defined in the message (In-App broadcast template)
- **[!UICONTROL Exclude mobile applications for Push]** | Mobile application | Excludes app subscriptions that do not match the mobile application defined in the message (Push template)
+ **[!UICONTROL Exclude mobile applications for Push]** | Mobile application | Excludes app subscriptions that do not match the mobile application defined in the message (for Push)
  **[!UICONTROL Quarantined address]** | All | Excludes quarantined addresses.
- **[!UICONTROL Target limited in size]** | All | Applies to direct mail deliveries with the "delivery limit" option activated.
+ **[!UICONTROL Target limited in size]** | All | Checks if the maximum delivery size was reached for the target. Applies to direct mail deliveries with the "delivery limit" option activated.
 
-Additionnally to these default filtering rules, two exclusion rules are available:
+Additionally to these default filtering rules, two exclusion rules are available:
 
 * **[!UICONTROL Exclusion of addresses]** ( **[!UICONTROL addressExclusions]** )
 * **[!UICONTROL Exclusion of domains]** ( **[!UICONTROL domainExclusions]** ).
@@ -49,7 +49,7 @@ This is to avoid being blacklisted due to malicious activity, especially the use
 
 ## Creating a filtering rule {#creating-a-filtering-rule}
 
-You can create your own filtering rules according to your needs. For example, you can filternewsletters' target population so that the subscribers that are younger than 18 years old never receive communications.
+You can create your own filtering rules according to your needs. For example, you can filter newsletters' target population so that the subscribers that are younger than 18 years old never receive communications.
 
 To create a filtering typology rule, follow these steps:
 
@@ -57,7 +57,7 @@ To create a filtering typology rule, follow these steps:
 
 1. Select the **[!UICONTROL Filtering]** rule type, then specify the desired channel.
 
-1. In the **[!UICONTROL Filtering criteria]** tab, select the subscriptions in the **[!UICONTROL Subscription]** category.
+1. In the **[!UICONTROsL Filtering criteria]** tab, select the subscriptions in the **[!UICONTROL Subscription]** category.
 
    ![](assets/typology_create-rule-subscription.png)
 

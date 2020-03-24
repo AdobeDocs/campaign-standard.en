@@ -18,19 +18,19 @@ snippet: y
 
 ## About typologies {#about-typologies}
 
-Typologies are sets of rules that allow you to check the validity of your message before sending it. For example: The message content is not empty, an unsubscription is present, exclusion of duplicates, etc.).
+Typologies are sets of rules that allow you to check the validity of your message before sending it. For example: The message content is not empty, an unsubscription is present, exclusion of duplicates, etc.
 
-Typologies are accesible via the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** menu. By default, a default typology is available in the application. Based on your needs, you can create your own typologies or modify existing ones.
+Typologies are accessible via the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** menu. By default, a default typology is available in the application. Based on your needs, you can create your own typologies or modify existing ones.
 
 ![](assets/typologies-list.png)
 
 For each typology, the **[!UICONTROL Typology rules]** section lists the set of rules that are executed when using the typology with a message.
 
+![](assets/typology_typo-rule-list.png)
+
    >[!NOTE]
    >
    >To get more details on one of the typology rules, double-click it. The rule will display in read-only mode.
-
-![](assets/typology_typo-rule-list.png)
 
 ## Creating a typology {#creating-a-typology}
 
@@ -42,13 +42,13 @@ To create a new typology, follow these steps:
 
    ![](assets/typologies-list.png)
 
-1. Define the typology's **[!UICONTROL Label]**, then click the **[!UICONTROL Add an element]** button to select the typology rules that you want to include. For more on typology rules, refer to [this section](../../sending/using/managing-typology-rules.md).
+1. Define the typology **[!UICONTROL Label]**, then click the **[!UICONTROL Add an element]** button to select the typology rules that you want to include in it. For more on typology rules, refer to [this section](../../sending/using/managing-typology-rules.md).
 
    ![](assets/typology_addrules.png)
 
    >[!NOTE]
    >
-   >The **[!UICONTROL IP affinity]** field allows you to manage the affinities according to your configuration. These are defined in the instance's configuration file. If you want to use the affinities, contact your administrator.
+   >The **[!UICONTROL IP affinity]** field allows you to manage the affinities according to your configuration. They are defined in the instance's configuration file. If you want to use the affinities contact your administrator.
 
 1. Click **[!UICONTROL Create]** to confirm your selection. Your typology is now ready to be used in messages.
 
@@ -60,15 +60,11 @@ When associating a typology with a message or message template, the typology rul
 >
 >Each message or message template can only be assigned a single typology.
 
-To link a typology to a message follow these steps:
+To link a typology to a message, follow these steps:
 
 1. Access the message properties. Note that message templates are accessible from the **[!UICONTROL Resources]** > **[!UICONTROL Templates]** navigation menu.
 
-1. In the **[!UICONTROL Advanced parameters]** > **[!UICONTROL]** section, select the typology to link to the message.
-
-   >[!NOTE]
-   >
-   >By default, a default typology is linked to all messages.
+1. In the **[!UICONTROL Advanced parameters]** > **[!UICONTROL Prearation]** section, select the typology to link to the message.
 
    ![](assets/typology_message.png)
 
