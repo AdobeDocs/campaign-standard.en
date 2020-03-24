@@ -18,33 +18,54 @@ snippet: y
 
 Control rules allow the user to check the validity and quality of the messages before they are sent, such as character display, SMS message size, address format, etc.
 
-A set of default rules available in Adobe Campaign ensures the standard controls:
+## Default control rules {#default-control-rules}
 
-* **[!UICONTROL Check subject]** (email): checks that the subject and sender address do not contain special characters which may cause problems on certain mail transfer agents, and checks that the message subject has been completed.
-* **[!UICONTROL Check URL labels]** (email): checks that each tracking URL has a label.
-* **[!UICONTROL Check URLs]** (email): checks the tracking URLs (presence of the "&" character).
-* **[!UICONTROL Check proof size]** (all channels): generates an error message if the proof target population exceeds 100 recipients.
-* **Check unsubscription link** (email): checks for the presence of at least one unsubscription (opt-out) URL in each content (HTML and Text).
-* **[!UICONTROL Check delivery size]** (all channels): checks the size of the messages.
-* **[!UICONTROL Check social network sharing link]** (email): checks the presence of a link to a mirror page when including a social network sharing link (ViralLinks) in the content.
-* **[!UICONTROL A/B Test]**: extracts the test population for a delivery with an A/B test.
-
-You can choose the moment at which the rule will be applied from one of the phases of the delivery's life cycle. Select the value to apply in the drop-down list from the **[!UICONTROL Phase]** field of the typology rule.
-
-![](assets/typology_phase.png)
-
-Possible values are:
-
-* **At the start of targeting**: The control rule can be applied at this phase so that the personalization step is not executed in the event of an error.
-
-* **After targeting**: If you need to know the volume of the target in order to apply the control rule, select this phase.
-
-  For example, the **Check proof size** control rule applies after the targeting stage: this rule prevents the preparation of message personalization if there are too many proof recipients.
-
-* **At the start of personalization**: This phase must be selected if the check concerns approving message personalization. Message personalization is carried out during the analysis phase.
-
-* **At the end of the analysis**: When a check requires message personalization to be complete, select this phase.
+A set of default rules available in Adobe Campaign ensures the standard controls.
 
 >[!NOTE]
 >
->For security reasons, the content of the control rules cannot be modified. The **[!UICONTROL Code]** field is read-only.
+>For security reasons, out-of-the-box control rules are read-only and cannot be modified.
+
+The table below provides information about out-of-the-box control rules, as well as their related channel and [execution phases](#control-rules-execution-phases).
+
+Label | Channel | Execution phase | Description
+---------|----------|---------|---------
+ **[!UICONTROL A/B Test]** | Email | At the start of personalization | Extracts the test population for a delivery with an A/B test.
+ **[!UICONTROL Check delivery size]** | All | After targeting | Checks the size of the messages.
+ **[!UICONTROL Check email content is not empty]** | Email | After targeting | Generates an error if the content of the message is empty.
+ **[!UICONTROL Check In-App content for broadcast template]** | In-App | At the start personalization | Checks that In-App content / triggers are not empty for broadcast template.
+ **[!UICONTROL Check In-App content for profile template]** | In-App | At the start of personalization | Checks that In-App content / triggers are not empty for profile template.
+ **[!UICONTROL Check In-App content for subscriber template]** | In-App | At the start of personalization | Checks that In-App content / triggers are not empty for subscriber template.
+ **[!UICONTROL Check proof size]**| All | After targeting | generates an error message if the proof target population exceeds 100 recipients.
+ **[!UICONTROL Check social network sharing link]** | Email | At the start of personalization | Checks the presence of a link to a mirror page when including a social network sharing link (ViralLinks) in the content.
+ **[!UICONTROL Check subject]** | Email | At the start of personalization | Checks that the subject and sender address do not contain special characters which may cause problems on certain mail transfer agents, and checks that the message subject has been completed.
+ **[!UICONTROL Check unsubscription link]** | Email | At the start of personalization | Checks for the presence of at least one unsubscription (opt-out) URL in each content (HTML and Text).
+ **[!UICONTROL Check URL labels]** | Email | At the start of personalization | Checks that each tracking URL has a label.
+ **[!UICONTROL Check URLs]** | Email | At the start of personalization | Checks the tracking URLs (presence of the "&" character).
+
+## Control rules execution phases (control-rules-execution-phases)
+
+Control rules can be applied at different phases of the delivery's life cycle:
+
+* **At the start of targeting**: The control rule can be applied at this phase so that the personalization step is not executed in the event of an error.
+
+* **After targeting**: Executing after targeting allows you to know the volume of the target in order to apply the control rule.
+
+  For example, the **Check proof size** control rule applies after the targeting stage: this rule prevents the preparation of message personalization if there are too many proof recipients.
+
+* **At the start of personalization**: Applies when the check concerns approving message personalization. Message personalization is carried out during the analysis phase.
+
+* **At the end of the analysis**: When a check requires message personalization to be complete.
+
+## Creating a control rule {#creating-a-control-rule}
+
+To create a control rule, follow these steps:
+
+1. Create a new typology rule (see [Creating a typology rule](../../sending/using/managing-typology-rules.md#creating-a-typology-rule).
+
+1. 
+
+
+Select the value to apply in the drop-down list from the **[!UICONTROL Phase]** field of the typology rule.
+
+![](assets/typology_phase.png)

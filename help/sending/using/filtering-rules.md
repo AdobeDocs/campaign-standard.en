@@ -20,13 +20,21 @@ Filtering rules allow you to exclude one part of the message target according to
 
 ## Default filtering typology rules {#default-filtering-typology-rules}
 
-A set of default filtering rules are available by default in Campaign Standard:
+The table below provides information about out-of-the-box filtering rules, as well as their related channels.
 
-* xx
-* xx
-* xx
+Label | Channel | Description
+---------|----------|---------|---------
+ **[!UICONTROL Address not specified]** | All | Excludes the target population with no specified address (email, postal address, etc. according to the selected channel).
+ **[!UICONTROL Blacklisted address]** | All | Excludes blacklisted addresses.
+ **[!UICONTROL Duplicate]** | All | Excludes duplicates based on the target population **[!UICONTROL Address]** field.
+ **[!UICONTROL Exclude mobile applications]** | Mobile application | Checks that In-App content / triggers are not empty for profile template.
+ **[!UICONTROL Exclude mobile applications for In-App]** | In-App | Checks that In-App content / triggers are not empty for subscriber template.
+ **[!UICONTROL Exclude mobile applications for In-App broadcast]**| In-App | generates an error message if the proof target population exceeds 100 recipients.
+ **[!UICONTROL Exclude mobile applications for Push]** | Mobile application | Checks the presence of a link to a mirror page when including a social network sharing link (ViralLinks) in the content.
+ **[!UICONTROL Quarantined address]** | All | Checks for the presence of at least one unsubscription (opt-out) URL in each content (HTML and Text).
+ **[!UICONTROL Target limited in size]** | All | Checks that each tracking URL has a label.
 
-Additionnally to the default filtering rukes, two exclusion rules are available by default: **[!UICONTROL Exclusion of addresses]** ( **[!UICONTROL addressExclusions]** ) and **[!UICONTROL Exclusion of domains]** ( **[!UICONTROL domainExclusions]** ). During the email analysis, these rules compare the recipient email addresses with the forbidden addresses or domain names contained in an encrypted global suppression list managed in the deliverability instance. If there is a match, the message is not sent to that recipient.
+Additionnally to the default filtering rules, two exclusion rules are available by default: **[!UICONTROL Exclusion of addresses]** ( **[!UICONTROL addressExclusions]** ) and **[!UICONTROL Exclusion of domains]** ( **[!UICONTROL domainExclusions]** ). During the email analysis, these rules compare the recipient email addresses with the forbidden addresses or domain names contained in an encrypted global suppression list managed in the deliverability instance. If there is a match, the message is not sent to that recipient.
 
 This is to avoid being blacklisted due to malicious activity, especially the use of a Spamtrap. For example, if a Spamtrap is used to subscribe via one of your web forms, a confirmation email is automatically sent to that Spamtrap, and this results in your address being automatically blacklisted.
 

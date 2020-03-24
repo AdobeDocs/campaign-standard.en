@@ -20,7 +20,7 @@ snippet: y
 
 Typologies are sets of rules that allow you to check the validity of your message before sending it. For example: The message content is not empty, an unsubscription is present, exclusion of duplicates, etc.).
 
-Typologies are accesible via the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** menu. By default, oa default typology is available in the application. Based on your needs, you can create your own typologies or modify existing ones.
+Typologies are accesible via the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** menu. By default, a default typology is available in the application. Based on your needs, you can create your own typologies or modify existing ones.
 
 ![](assets/typologies-list.png)
 
@@ -40,21 +40,21 @@ To create a new typology, follow these steps:
 
 1. The list of typologies displays. Click the **[!UICONTROL Create]** button.
 
-   ![](assets/typology_list.png)
+   ![](assets/typologies-list.png)
 
-1. Define the typology's **[!UICONTROL Label]**.
-
-1. The **[!UICONTROL IP affinity]** field allows you to manage the affinities according to your configuration. These are defined in the instance's configuration file. If you want to use the affinities, contact your administrator.
-
-1. Select the typology rules that you want to include into the typology. For more on typology rules, refer to [this section](../../sending/using/managing-typology-rules.md).
+1. Define the typology's **[!UICONTROL Label]**, then click the **[!UICONTROL Add an element]** button to select the typology rules that you want to include. For more on typology rules, refer to [this section](../../sending/using/managing-typology-rules.md).
 
    ![](assets/typology_addrules.png)
 
-1. Click **[!UICONTROL Create]**. Your typology is now ready to be used in messages.
+   >[!NOTE]
+   >
+   >The **[!UICONTROL IP affinity]** field allows you to manage the affinities according to your configuration. These are defined in the instance's configuration file. If you want to use the affinities, contact your administrator.
+
+1. Click **[!UICONTROL Create]** to confirm your selection. Your typology is now ready to be used in messages.
 
 ## Applying typologies to messages {#applying-typologies-to-messages}
 
-When associating a typology with a message or a message template, the typology rules included in the typology will be executed to check the message validity.
+When associating a typology with a message or message template, the typology rules included in the typology will be executed to check the message validity.
 
 >[!NOTE]
 >
