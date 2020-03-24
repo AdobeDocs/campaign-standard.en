@@ -34,7 +34,7 @@ You need to set up API access and configure a new integration for Unifi.
 
 Configuration is done in Adobe IO: you need to create a new integration for Unifi, as presented in this video:
 
-**VIDEO**
+>[!VIDEO](https://video.tv.adobe.com/v/27308)
 
 ### Create a new integration
 
@@ -155,4 +155,8 @@ When you are done your services should show up top like the picture below. You w
 
 Post provisioning in Campaign is now complete.  Proceed to complete [post provisioning steps for Microsoft Dynamics 365](https://helpx.adobe.com/campaign/kb/ms-dynamics-integration.html).
 
-** Related Topics** 
+**Related Topics** 
+
+* [Adobe IO - Service Account Integration](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
+* [Campaign Standard - API Access Setup](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#setting-up-api-access)
+* [Campaign Standard - Dynamics 365 integration](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.htmlCam)

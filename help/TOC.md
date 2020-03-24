@@ -196,35 +196,45 @@ user-guide-title: Adobe Campaign Standard Help
        + [Creating a report based on workflow segments](reporting/using/creating-a-report-workflow-segment.md)
 + Integrating with Adobe Cloud {#integrating-with-adobe-cloud}
   + [About Campaign integrations](integrating/using/about-campaign-integrations.md)
-  + Working with Campaign and Experience Manager {#working-with-campaign-and-experience-manager}
+  + Campaign and Experience Manager {#working-with-campaign-and-experience-manager}
        + [About Campaign-Experience Manager integration](integrating/using/integrating-with-experience-manager.md)
        + [Configuring the Campaign-Experience Manager integration](integrating/using/configure-experience-manager.md)
        + [Creating an email content in Adobe Experience Manager](integrating/using/creating-email-experience-manager.md)
        + [Creating a Campaign form in Experience Manager](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
-  + Working with Campaign and Target {#working-with-campaign-and-target}
+  + Campaign and Target {#working-with-campaign-and-target}
        + [About Campaign-Target integration](integrating/using/about-campaign-target-integration.md)
        + [Configuring the Campaign-Target integration](integrating/using/configuring-the-campaign-target-integration.md)
        + [Adding Target dynamic content](integrating/using/adding-target-dynamic-content.md)
-  + Working with Campaign and Analytics {#working-with-campaign-and-analytics}
+  + Campaign and Analytics {#working-with-campaign-and-analytics}
        + [About Campaign-Analytics integration](integrating/using/about-campaign-analytics-integration.md)
        + [Configure Campaign-Analytics integration](integrating/using/configure-campaign-analytics-integration.md)
        + [Campaign dimensions and metrics in Analytics](integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
-  + Working with Campaign and Audience Manager or People core service {#working-with-campaign-and-audience-manager-or-people-core-service}
+  + Campaign and Audience Manager or People core service {#working-with-campaign-and-audience-manager-or-people-core-service}
        + [About Campaign-Audience Manager or People core service integration](integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
        + [Provisioning and configuring integration with Audience Manager or People core service](integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
        + [Troubleshooting](integrating/using/troubleshooting.md)
        + [Sharing audiences with Audience Manager or People core service](integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
        + [Working with Campaign and Assets core service](integrating/using/working-with-campaign-and-assets-core-service.md)
-  + Working with Campaign and Analytics for Mobile {#working-with-campaign-and-analytics-for-mobile}
+  + Campaign and Analytics for Mobile {#working-with-campaign-and-analytics-for-mobile}
        + [About Campaign-Points of Interest data integration](integrating/using/about-campaign-points-of-interest-data-integration.md)
        + [Configuring Campaign-Points of Interest data integration](integrating/using/configuring-campaign-points-of-interest-data-integration.md)
        + [Personalizing Campaign messages with Point of Interest data](integrating/using/personalizing-campaign-messages-with-point-of-interest-data.md)
-  + Working with Campaign and Triggers {#working-with-campaign-and-triggers}
+  + Campaign and Triggers {#working-with-campaign-and-triggers}
        + [About Adobe Experience Cloud Triggers](integrating/using/about-adobe-experience-cloud-triggers.md)
        + [Configuring Triggers in Experience Cloud](integrating/using/configuring-triggers-in-experience-cloud.md)
        + [Using Triggers in Campaign](integrating/using/using-triggers-in-campaign.md)
        + [Testing your triggers](integrating/using/testing-your-triggers.md)
        + [Abandonment Triggers use cases](integrating/using/abandonment-triggers-use-cases.md)
+  + Campaign and Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
+       + [Configure Adobe IO for Microsoft Dynamics 365 integration](integrating/using/configure-adobe-io-for-ms-dynamic.md)
+       + [Working with Campaign Standard and Microsoft Dynamics 365]{#configuring-acs-ms-dynamics}
+          + [Working with Campaign Standard and Microsoft Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+          + [Notices and recommendations](integrating/using/notices-and-recommendations-ACS-MS-dynamics.md) 
+          + [Requesting and configuring the Microsoft Dynamics 365 with Campaign Standard integration](integrating/using/requesting-the-Microsoft-Dynamics-365-with-Campaign-Standard-integration.md)
+          + [Using the Microsoft Dynamics 365 with Campaign Standard integration](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
+       + [Configure Microsoft Dynamics 365 for Campaign integration](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
+       + [Configure Unifi for Microsoft Dynamics 365 integration](integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md)
+       + [Map Campaign custom resources and Dynamics 365 Custom entities](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
 + Managing processes and data {#managing-processes-and-data}
   + About workflows and data management {#about-workflows-and-data-management}
        + [Workflow data and processes](automating/using/workflow-data-and-processes.md)

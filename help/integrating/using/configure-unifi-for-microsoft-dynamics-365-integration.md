@@ -140,29 +140,28 @@ There are two separate roles in Unifi, an owner user and a read-only analyst use
 
 Unifi configuration, job details, setup and monitoring are presented in the videos below.
 
-## Unifi Jobs 
+## Unifi Jobs
 
-### Overview of the Unifi jobs 
+### Overview of the Unifi jobs
 
-**VIDEO**
+>[!VIDEO](https://video.tv.adobe.com/v/27392)
 
 This video explains the different Unifi jobs that required for the Adobe Campaign Standard integration with Microsoft Dynamics 365 (02:10 min)
 
-
 ### Unifi Job Details: Ingress & Egress
 
-**VIDEO**
+>[!VIDEO](https://video.tv.adobe.com/v/27396)
 
 This video explains the ingress and egress jobs in Unifi (04:27 min)
 
 ### Operationalization & Monitoring
 
-**VIDEO**
+>[!VIDEO](https://video.tv.adobe.com/v/27391)
 
 This video explains the workflows and schedules (03:03 min)
 
 More like this
-* Working with Adobe Campaign Standard - Microsoft Dynamics 365
-* Configure Microsoft Dynamics 365 for Campaign integration
-* Configure Adobe IO for Microsoft Dynamics 365 - Campaign Standard integration
-* Microsoft Dynamics 365 integration feature page
+* [Working with Adobe Campaign Standard - Microsoft Dynamics 365](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
+* [Configure Microsoft Dynamics 365 for Campaign integration](https://helpx.adobe.com/campaign/kb/ms-dynamics-integration.html)
+* [Configure Adobe IO for Microsoft Dynamics 365 - Campaign Standard integration](https://helpx.adobe.com/campaign/kb/ms-dynamics-adobe-io.html)
+* [Microsoft Dynamics 365 integration feature page](https://helpx.adobe.com/campaign/kt/acs/using/acs-ms-dynamics-crm-connector-tutorial.html)

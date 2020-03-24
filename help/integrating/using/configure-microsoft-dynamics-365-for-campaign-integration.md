@@ -151,5 +151,8 @@ Alternatively, you can navigate to this [link](https://appsource.microsoft.com/e
 
 Once this configuration is done, you can set up Unifi configuration. For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html).
 
+**Related topics** 
 
-** Related topics ** 
+* [Campaign Standard - Microsoft Dynamics 365 integration](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
+* [Configure Adobe IO for Microsoft Dynamics 365 integration](https://helpx.adobe.com/campaign/kb/ms-dynamics-adobe-io.html)
+* [Configure Unifi for Campaign - Microsoft Dynamics 365 integration](https://helpx.adobe.com/campaign/kb/unifi-configuration.html)

@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Notices and recommendations
+# Working with Campaign Standard and Microsoft Dynamics 365: Notices and recommendations
 
 ## Region support
 
