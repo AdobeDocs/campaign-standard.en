@@ -11,7 +11,7 @@ topic: Premium
 
 ## What's New
 
-* **[Email testing using targeted profiles](sending/using/testing-messages-using-target.md)**
+* **[Email testing using targeted profiles](sending/using/testing-messages-using-target.md)**<br/>
 Learn how to test your emails on real targeted profiles.
 
 * **[Privacy management](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>
