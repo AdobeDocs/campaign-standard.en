@@ -27,12 +27,12 @@ Label | Channel | Description
  **[!UICONTROL Address not specified]** | All | Excludes the target population with no specified address (email, postal address, etc. according to the selected channel).
  **[!UICONTROL Blacklisted address]** | All | Excludes blacklisted addresses.
  **[!UICONTROL Duplicate]** | All | Excludes duplicates based on the target population **[!UICONTROL Address]** field.
- **[!UICONTROL Exclude mobile applications]** | Mobile application | Checks that In-App content / triggers are not empty for profile template.
- **[!UICONTROL Exclude mobile applications for In-App]** | In-App | Checks that In-App content / triggers are not empty for subscriber template.
- **[!UICONTROL Exclude mobile applications for In-App broadcast]**| In-App | Generates an error message if the proof target population exceeds 100 recipients.
- **[!UICONTROL Exclude mobile applications for Push]** | Mobile application | Checks the presence of a link to a mirror page when including a social network sharing link (ViralLinks) in the content.
- **[!UICONTROL Quarantined address]** | All | Checks for the presence of at least one unsubscription (opt-out) URL in each content (HTML and Text).
- **[!UICONTROL Target limited in size]** | All | Checks that each tracking URL has a label.
+ **[!UICONTROL Exclude mobile applications]** | Mobile application | Excludes app subscriptions that do not match the mobile application defined in the message.
+ **[!UICONTROL Exclude mobile applications for In-App]** | In-App | Excludes app subscriptions that do not match the mobile application defined in the message (In-App template).
+ **[!UICONTROL Exclude mobile applications for In-App broadcast]**| In-App | Excludes app subscriptions that do not match the mobile application defined in the message (In-App broadcast template)
+ **[!UICONTROL Exclude mobile applications for Push]** | Mobile application | Excludes app subscriptions that do not match the mobile application defined in the message (Push template)
+ **[!UICONTROL Quarantined address]** | All | Excludes quarantined addresses.
+ **[!UICONTROL Target limited in size]** | All | Applies to direct mail deliveries with the "delivery limit" option activated.
 
 Additionnally to these default filtering rules, two exclusion rules are available:
 
