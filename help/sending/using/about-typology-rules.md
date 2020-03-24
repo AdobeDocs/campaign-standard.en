@@ -1,6 +1,6 @@
 ---
-title: About typology rules
-description: Discover how typology rules work in Adobe Campaign.
+title: About typologies and typology rules
+description: Discover how typologies and typology rules work in Adobe Campaign.
 page-status-flag: never-activated
 uuid: a98ebc36-172d-4f46-b6ee-b2636a1007c9
 contentOwner: sauviat
@@ -26,12 +26,7 @@ Ready-to-use typologies and typology rules are available in Campaign Standard. D
 
 The steps to create and apply a typology to messages are:
 
-1. Create typology rules.
-1. Create a typology and reference the rules you created into it.
-1. Configure your delivery to use the typology you created.
+1. Create typology rules (see [this section](../../sending/using/managing-typology-rules.md#creating-a-typology-rule)).
+1. Create a typology and reference the rules you created into it (see [this section](../../sending/using/managing-typologies.md#creating-a-typology)).
+1. Configure your delivery to use the typology you created (see [this section](../../sending/using/managing-typologies.md#applying-typologies-to-messages))..
 1. During the message preparation, profiles are excluded when criterion is met. You can check logs to monitor exclusions.
-
-**Related topics:**
-
-* [Managing typologies](../../sending/using/managing-typologies.md)
-* [Managing typology rules](../../sending/using/managing-typology-rules.md)
