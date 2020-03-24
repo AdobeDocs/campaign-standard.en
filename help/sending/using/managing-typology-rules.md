@@ -18,47 +18,47 @@ snippet: y
 
 ## About typology rules {#about-typology-rules}
 
-description
+Typology rules are business rules that allow you to perform checks and filters on your message before sending it. Available types of typology rules are:
 
-With Adobe Campaign you can design and apply three types of typology rules:
+* **Filtering** rules: This type of rule allows you to exclude one part of the message target according to criteria defined in a query, such as quarantined profiles or profiles that have already been sent a certain number of emails. For more on this, refer to [this section](../../sending/using/filtering-rules.md).
 
-* **Filtering** rules: allow you to exclude one part of the message target according to criteria defined in a query, such as quarantined profiles or profiles that have already been sent a certain number of emails. See [Filtering rules](../../sending/using/filtering-rules.md).
+* **Fatigue** rules: This type of rules allows you to define a maximum number of messages per profile to avoid over-soliciting them. For more on this, refer to [this section](../../sending/using/fatigue-rules.md).
 
-* **Fatigue** rules: allow you to define a maximum number of messages per profile to avoid over-soliciting them. See [Fatigue rules](../../sending/using/fatigue-rules.md).
-
-* **Control** rules: allow the user to check the validity and quality of the messages before they are sent, such as character display, SMS message size, address format, etc. See [Control rules](../../sending/using/control-rules.md). are executed at different phases according to the need
+* **Control** rules: This type of rules allows the user to check the validity and quality of the messages before they are sent, such as character display, SMS message size, address format, etc. For more on this, refer to [this section](../../sending/using/control-rules.md).
 
 Typology rules are available under the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** > **[!UICONTROL Typology rules]** menu.
 
-Out-of-the-box filtering and control typology rules available by default + detailed in dedicated sections
+By default, several out-of-the-box **filtering** and **control** typology rules are already available. They are detailed in the [Filtering rules](../../sending/using/fatigue-rules.md) and [Control rules](../../sending/using/control-rules.md) sections.
+
+According to your needs, you can modify existing typology rules or create new ones, excepted for **[!UICONTROL Control]** rules, which are read-only and cannot be modified.
 
 ## Creating a typology rule {#creating-a-typology-rule}
 
-global creation steps (channel, phase selection) + for creation details, ref to sub-sections
+The main steps to create a typology rule are as follows:
 
-1. access list of rules + create button
-1. define label and id
-1. select the type and channel
+1. Access the **[!UICONTROL Administration]** / **[!UICONTROL Channels]** / **[!UICONTROL Typologies]** / **[!UICONTROL Typology rules]** menu, then click **[!UICONTROL Create]**.
 
->[!NOTE]
->
->A typology rule can be applied to only one channel or to all channels.
+	![](assets/typology_create-rule.png)
 
-	![](assets/typology_channel.png)
+1. Enter the typology **[!UICONTROL Label]**, then specify the **[!UICONTROL Channel]** to which the rule should apply.
 
-1. In the **[!UICONTROL Targeting context]** category, you can select the **Targeting dimension** and **Filtering dimension** depending on the data that you want to target.
+	![](assets/typology-rule-label.png)
 
-	By default, filtering is carried out on the **[!UICONTROL Profiles]**. For example, if the rule is aimed at a mobile application, the **[!UICONTROL Filtering dimension]** can be changed to **[!UICONTROL Subscriptions to an application]**.
+1. Specify the typology rule **[!UICONTROL Type]**, then configure the rule according to your needs.
 
-	![](assets/typology_rule-order_2.png)
+	Typology rules configuration vary depending on their type. For more information, refer to the **[Filtering rules](../../sending/using/filtering-rules.md)** and **[Fatigue rules](../../sending/using/fatigue-rules.md)** sections.
 
-1. Build the rule. For more on this, see sub-sections.
-1. Typologies tab: link to one or several typologies (can also be done from the typologes
-1. Confirm.
+1. Select the typologies where you want to include the new rule. To do this, select the **[!UICONTROL Typologies]** tab, then click **[!UICONTROL Create element]** button.
+
+1. Select the desired typology, then click **[!UICONTROL Confirm]**.
+
+	![](assets/typology-link.png)
+
+1. Once all the typologies are selected, click **[!UICONTROL Create]** to confirm the typology rule creation.
 
 ## Typology rules execution order {#typology-rules-execution-order}
 
-The typology rules are executed in an order specified during the targeting, analysis, and message personalization phases.
+Typology rules are executed in an order specified during the targeting, analysis, and message personalization phases.
 
 In standard operation mode, the rules are applied in the following sequence:
 

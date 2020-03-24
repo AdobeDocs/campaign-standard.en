@@ -58,12 +58,20 @@ When associating a typology with a message or message template, the typology rul
 
 >[!NOTE]
 >
->Each message can only be assigned a single typology.
+>Each message or message template can only be assigned a single typology.
 
-1. To link a typology to a message, access the message properties, then select the **[!UICONTROL Advanced parameters]** section.
+To link a typology to a message follow these steps:
+
+1. Access the message properties. Note that message templates are accessible from the **[!UICONTROL Resources]** > **[!UICONTROL Templates]** navigation menu.
+
+1. In the **[!UICONTROL Advanced parameters]** > **[!UICONTROL]** section, select the typology to link to the message.
+
+   >[!NOTE]
+   >
+   >By default, a default typology is linked to all messages.
 
    ![](assets/typology_message.png)
 
-1. By default, the out-of-the-box typology is linked to all messages. Select the typology of your choice from the list, then confirm.
+1. Click **[!UICONTROL Confirm]**.
 
-The selected typology is now associated with the message. All its associated typology rules will be executed to check the message validity.
+   The selected typology is now linked to the message. All its associated typology rules will be executed to check the message validity.

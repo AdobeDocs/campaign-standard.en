@@ -29,12 +29,17 @@ Label | Channel | Description
  **[!UICONTROL Duplicate]** | All | Excludes duplicates based on the target population **[!UICONTROL Address]** field.
  **[!UICONTROL Exclude mobile applications]** | Mobile application | Checks that In-App content / triggers are not empty for profile template.
  **[!UICONTROL Exclude mobile applications for In-App]** | In-App | Checks that In-App content / triggers are not empty for subscriber template.
- **[!UICONTROL Exclude mobile applications for In-App broadcast]**| In-App | generates an error message if the proof target population exceeds 100 recipients.
+ **[!UICONTROL Exclude mobile applications for In-App broadcast]**| In-App | Generates an error message if the proof target population exceeds 100 recipients.
  **[!UICONTROL Exclude mobile applications for Push]** | Mobile application | Checks the presence of a link to a mirror page when including a social network sharing link (ViralLinks) in the content.
  **[!UICONTROL Quarantined address]** | All | Checks for the presence of at least one unsubscription (opt-out) URL in each content (HTML and Text).
  **[!UICONTROL Target limited in size]** | All | Checks that each tracking URL has a label.
 
-Additionnally to the default filtering rules, two exclusion rules are available by default: **[!UICONTROL Exclusion of addresses]** ( **[!UICONTROL addressExclusions]** ) and **[!UICONTROL Exclusion of domains]** ( **[!UICONTROL domainExclusions]** ). During the email analysis, these rules compare the recipient email addresses with the forbidden addresses or domain names contained in an encrypted global suppression list managed in the deliverability instance. If there is a match, the message is not sent to that recipient.
+Additionnally to these default filtering rules, two exclusion rules are available:
+
+* **[!UICONTROL Exclusion of addresses]** ( **[!UICONTROL addressExclusions]** )
+* **[!UICONTROL Exclusion of domains]** ( **[!UICONTROL domainExclusions]** ).
+
+During the email analysis, these rules compare the recipient email addresses with the forbidden addresses or domain names contained in an encrypted global suppression list managed in the deliverability instance. If there is a match, the message is not sent to that recipient.
 
 This is to avoid being blacklisted due to malicious activity, especially the use of a Spamtrap. For example, if a Spamtrap is used to subscribe via one of your web forms, a confirmation email is automatically sent to that Spamtrap, and this results in your address being automatically blacklisted.
 
@@ -44,11 +49,13 @@ This is to avoid being blacklisted due to malicious activity, especially the use
 
 ## Creating a filtering rule {#creating-a-filtering-rule}
 
-For example, you can filter the newsletter subscribers so that the subscribers that are younger than 18 years old never receive communications.
+You can create your own filtering rules according to your needs. For example, you can filternewsletters' target population so that the subscribers that are younger than 18 years old never receive communications.
 
-1. Create a **Filtering** typology rule, one that can be applied on all communication channels.
+To create a filtering typology rule, follow these steps:
 
-   ![](assets/typology_create-rule.png)
+1. Create a new typology rule. The main steps to create typology rules are detailed in [this section](../../sending/using/managing-typology-rules.md).
+
+1. Select the **[!UICONTROL Filtering]** rule type, then specify the desired channel.
 
 1. In the **[!UICONTROL Filtering criteria]** tab, select the subscriptions in the **[!UICONTROL Subscription]** category.
 
@@ -66,15 +73,21 @@ For example, you can filter the newsletter subscribers so that the subscribers t
 
    ![](assets/typology_create-rule-typology.png)
 
-1. Make sure that the typology in question is selected in the delivery template that you want to use.
+1. Make sure that the typology is selected in the delivery or delivery template that you want to use. For more on this, refer to [this section](../../sending/using/managing-typologies.md#applying-typologies-to-messages).
 
    ![](assets/typology_template.png)
 
-   >[!NOTE]
-   >
-   >To access the delivery templates, select **[!UICONTROL Resources]** > **[!UICONTROL Templates]** in the navigation menu, which can be accessed via the Adobe Campaign logo.
-
 Whenever this rule is used in a message, the subscribers who are considered minors will be automatically excluded.
+
+## Configuring filtering rules' targeting context {#configuring-filtering-rules-targeting-context}
+
+Campaign Standard allows you to configure the  **Targeting** and **Filtering** dimensions to use depending on the data that you want to target.
+
+To do this, open the typology rule's properties, then access the **[!UICONTROL Advanced information]** section.
+
+By default, filtering is carried out on the **[!UICONTROL Profiles]**. For example, if the rule is aimed at a mobile application, the **[!UICONTROL Filtering dimension]** can be changed to **[!UICONTROL Subscriptions to an application]**.
+
+![](assets/typology_rule-order_2.png)
 
 ## Restricting the applicability of a filtering rule {#restricting-the-applicability-of-a-filtering-rule}
 
