@@ -109,7 +109,7 @@ This new user is a generic user. It will be used by the application: any change 
 
 Fill out the screen for the new user.  Parameters suggestions:
 
-* **[!UICONTROL User Name]** (email): adobeapi@<hostname>, where <hostname> is the hostname of your Dynamics 365 instance
+* **[!UICONTROL User Name]** (email): adobeapi@`<hostname>`, where `<hostname>` is the hostname of your Dynamics 365 instance
 * **[!UICONTROL Application ID]**: ID of the application you registered in Azure AD (this is required)
 * You can leave blank **[!UICONTROL Application ID URI]** and **[!UICONTROL Azure AD Object ID]**
 * **[!UICONTROL Full Name]**: Adobe API
