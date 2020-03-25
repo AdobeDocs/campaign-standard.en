@@ -40,7 +40,7 @@ Configuration is done in Adobe IO: you need to create a new integration for Unif
 
 To achieve this, follow the procedure below:
 
-1. Navigate to [Adobe IO Console](https://console.adobe.io/home) and select your Adobe IMS Organization ID from the drop-down menu at the top left (see below).
+1. Navigate to [Adobe IO Console](https://console.adobe.io/home#) and select your Adobe IMS Organization ID from the drop-down menu at the top left (see below).
 
 Then click on **[!UICONTROL New Integration]** at the top right. 
 
@@ -64,7 +64,7 @@ openssl req -x509 -sha256 -nodes -days 365 -newkey rsa:2048 -keyout private.key 
 
 **For Windows platforms**
 
-* Download an openssl client to generate public certificates (e.g., [Openssl windows client](###))
+* Download an openssl client to generate public certificates (e.g., [Openssl windows client](https://bintray.com/vszakats/generic/download_file?file_path=openssl-1.1.1-win64-mingw.zip))
 
 * Extract the folder from the zip file
 
@@ -159,4 +159,4 @@ Post provisioning in Campaign is now complete.  Proceed to complete [post provis
 
 * [Adobe IO - Service Account Integration](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
 * [Campaign Standard - API Access Setup](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#setting-up-api-access)
-* [Campaign Standard - Dynamics 365 integration](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.htmlCam)
+* [Campaign Standard - Dynamics 365 integration](../working-with-campaign-standard-and-microsoft-dynamics-365.md)

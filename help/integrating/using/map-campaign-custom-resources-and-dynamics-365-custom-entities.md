@@ -28,9 +28,9 @@ Once replicated, the new data in the custom resources can be used for several pu
 >
 >If any Campaign custom resource record contains personal information, applicable to a customer’s use of Campaign, such record should be linked to a corresponding Campaign profile record (either directly or through another custom resource) so that a privacy related delete on the profile record can also delete the linked custom resource record containing personal information; the linking and deletion options between the entities must be configured to enable this cascade-like removal of the linked records. Personal information should not be entered into a custom resource that is not linked to the profile.
 
-A more comprehensive overview of Campaign custom resources can be found [at this link](../../developing/using/adding-or-extending-a-resource/key-steps-to-add-a-resource.md).
+A more comprehensive overview of Campaign custom resources can be found [at this link](../../developing/using/key-steps-to-add-a-resource.md).
 
-In order to set up the integration for custom entities, reach out to [adobe-support@unifisoftware.com](adobe-support@unifisoftware.com) to request this be done.  Unifi will require the names of the custom entity tables in both systems, as well as the desired attribute mappings.  Unifi will then create the corresponding jobs and schedules.
+In order to set up the integration for custom entities, reach out to [adobe-support@unifisoftware.com](mailto:adobe-support@unifisoftware.com) to request this be done.  Unifi will require the names of the custom entity tables in both systems, as well as the desired attribute mappings.  Unifi will then create the corresponding jobs and schedules.
 
 An example use case of custom entity support can be seen in the [Use Case section](https://helpx.adobe.com/campaign/kb/acs-dynamics-custom-entities.html#UC).
 

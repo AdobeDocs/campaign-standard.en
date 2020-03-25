@@ -95,7 +95,7 @@ Click Microsoft Dynamics CRM to configure Dynamics 365 credentials. Most of thes
 >
 >To ensure security and privacy, sensitive credentials fields appear blank when revisiting these configuration screens.
 
-1. For **[!UICONTROL URL]**, enter the URL of your Dynamics 365 instance, taking care to insert “.api” before “.crm” (e.g., https://mydynamicsinstance.api.crm.dynamics.com)
+1. For **[!UICONTROL URL]**, enter the URL of your Dynamics 365 instance, taking care to insert “.api” before “.crm” (e.g., `https://mydynamicsinstance.api.crm.dynamics.com`)
 
 1. For **[!UICONTROL clientid]**, you will use the application ID that was generated when you created the app registration as [configuring Dynamics 365](https://helpx.adobe.com/campaign/kb/ms-dynamics-integration.html).
 

@@ -20,7 +20,7 @@ snippet: y
 
 This integration is available in the North America, EMEA and APAC regions.
 
-If you are located in EMEA or APAC regions, some of your data will be processed in the US as part of this integration. For more information, refer to [this section](../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
+If you are located in EMEA or APAC regions, some of your data will be processed in the US as part of this integration. For more information, refer to [this section](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
 
 ## Source of truth for one-way contact sync
 

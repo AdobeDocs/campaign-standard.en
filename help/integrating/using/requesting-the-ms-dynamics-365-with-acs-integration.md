@@ -81,7 +81,7 @@ In UNIFI, you need to setup integration and configure mapping or add custom attr
 
 ## Requesting support 
 
-If you run into issues, please reach out to Unifi customer support: [support@unifisoftware.atlassian.net](support@unifisoftware.atlassian.net). 
+If you run into issues, please reach out to Unifi customer support: [support@unifisoftware.atlassian.net](mailto:support@unifisoftware.atlassian.net). 
 
 Unifi expected response time: 4 hours during regular U.S. business hours (9am to 5pm Pacific Time, Mon - Fri, excluding holidays).
 
