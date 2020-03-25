@@ -229,8 +229,8 @@ user-guide-title: Adobe Campaign Standard Help
        + [Configure Adobe IO for Microsoft Dynamics 365 integration](integrating/using/configure-adobe-io-for-ms-dynamic.md)
        + [Working with Campaign Standard and Microsoft Dynamics 365]{#configuring-acs-ms-dynamics}
           + [Working with Campaign Standard and Microsoft Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
-          + [Notices and recommendations](integrating/using/notices-and-recommendations-ACS-MS-dynamics.md) 
-          + [Requesting and configuring the Microsoft Dynamics 365 with Campaign Standard integration](integrating/using/requesting-the-Microsoft-Dynamics-365-with-Campaign-Standard-integration.md)
+          + [Notices and recommendations](integrating/using/notices-and-recommendations-acs-ms-dynamics.md) 
+          + [Requesting and configuring the Microsoft Dynamics 365 with Campaign Standard integration](integrating/using/requesting-the-microsoft-dynamics-365-with-campaign-standard-integration.md)
           + [Using the Microsoft Dynamics 365 with Campaign Standard integration](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
        + [Configure Microsoft Dynamics 365 for Campaign integration](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
        + [Configure Unifi for Microsoft Dynamics 365 integration](integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md)
