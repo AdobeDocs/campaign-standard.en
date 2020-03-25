@@ -16,13 +16,13 @@ snippet: y
 
 # Requesting the Microsoft Dynamics 365 with Campaign Standard integration
 
-In order to provision this integration, you will need to follow the steps below. 
+In order to provision this integration, you will need to follow the steps below.
 
 Please note that this integration uses a third-party provider, Unifi.  In connection with your requests for support assistance, Adobe may be required to share your Adobe Campaign instance information with Unifi.
 
 Please follow the flowchart and flowchart details below to request and configure the integration.
 
-(../assets/provisioning-wf.png)
+![](assets/provisioning-wf.png)
 
 Flowchart Details (maps to steps above):
 

@@ -28,7 +28,7 @@ For Contact and custom entity synchronization, this integration treats Dynamics 
 
 ## Managing Privacy Requests
 
-This integration is designed to transfer end user data (including, but not limited to, personal information, if it is contained in your end user data), between Microsoft Dynamics 365 and Adobe Campaign Standard.  As a data controller, your company is responsible for complying with any privacy laws and regulations applicable to your collection and use of personal data. 
+This integration is designed to transfer end user data (including, but not limited to, personal information, if it is contained in your end user data), between Microsoft Dynamics 365 and Adobe Campaign Standard.  As a data controller, your company is responsible for complying with any privacy laws and regulations applicable to your collection and use of personal data.
 
 For this integration, you must process each data subject request in each system independently in order for the change to be reflected in both databases. The change should first be executed in Microsoft Dynamics 365 and then in Adobe Campaign Standard. The only exception to this is that a privacy related delete request will be added to the Privacy Tools queue in Campaign Standard when a contact is deleted in Dynamics 365.
 
@@ -68,7 +68,7 @@ When provisioning the integration, you will have the opportunity to specify whic
 * Campaign Standard is the source of truth for opt-outs: opt-out attributes will be synchronized in one direction from Campaign Standard to Dynamics 365
 * Dynamics 365 AND Campaign Standard are both sources of truth: opt-out attributes will be synchronized bidirectionally between Campaign Standard and Dynamics 365
 
-Follow post-provisioning instructions in the [Unifi user guide](https://drive.google.com/drive/folders/16seHF45e6bFxHX15zWLqFLEXymCuA_wn) to properly map these values. 
+Follow post-provisioning instructions in the [Unifi user guide](https://drive.google.com/drive/folders/16seHF45e6bFxHX15zWLqFLEXymCuA_wn) to properly map these values.
 
 The bidirectional opt-out configuration uses logic determine which value to write to both systems.  The logic compares timestamps between the two systems (record-level change in Dynamics 365, attribute-level change in Campaign) to determine which system prevails.  If Campaign contains the more recent timestamp, then the Campaign value prevails.  If Dynamics 365 contains the more recent timestamp or if they are equal, then opt-out=TRUE will win (assuming one of the values is TRUE).
 
