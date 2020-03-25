@@ -159,4 +159,4 @@ Post provisioning in Campaign is now complete.  Proceed to complete [post provis
 
 * [Adobe IO - Service Account Integration](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
 * [Campaign Standard - API Access Setup](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#setting-up-api-access)
-* [Campaign Standard - Dynamics 365 integration](../working-with-campaign-standard-and-microsoft-dynamics-365.md)
+* [Campaign Standard - Dynamics 365 integration](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
