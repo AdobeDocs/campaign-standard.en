@@ -1,6 +1,6 @@
 ---
 title: Configure Microsoft Dynamics 365 for Campaign integration
-description: Learn how to configure  Microsoft Dynamics 365 for Campaign integration.
+description: Learn how to configure Microsoft Dynamics 365 for Campaign integration.
 page-status-flag: never-activated
 uuid: effa1028-66b2-4bef-b5e4-7319dbb23d5d
 contentOwner: sauviat
