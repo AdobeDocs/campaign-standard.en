@@ -16,7 +16,9 @@ snippet: y
 
 # Troubleshooting{#troubleshooting}
 
-Are you experiencing a deliverability problem? You may find the solution here...
+Are you experiencing a deliverability problem? You may find the solution here.
+
+## Same error message for an ISP {#same-error-for-an-isp}
 
 **Why do I always get the same error message for a particular ISP?**
 
@@ -26,6 +28,8 @@ If you always get the same error message for an ISP, your email or IP may have b
 * If you notice errors stating that your messages are declared as spam, or that your messages are constantly blocked, try excluding the recipients that have not opened or clicked in one of your messages in the last 12 months from the target.
 
 If the problem persists, contact the commercial or deliverability services, or Adobe Campaign support.
+
+## Blacklisting versus quarantine {#blacklisting-versus-quarantine}
 
 **What is the difference between a blacklisted email address and a quarantined email address?**
 
@@ -39,18 +43,20 @@ Here are 10 possible reasons: not defined, user unknown, invalid domain, blackli
 
 For more on this, see [Understanding quarantine management](../../sending/using/understanding-quarantine-management.md).
 
-**One of my recipients was blacklisted by mistake. How do I unblacklist them so that I can start sending them messages again?**
+## Unblacklisting {#unblacklisting}
 
-* Go to **[!UICONTROL Administration > Channels > Quarantines > Addresses]**.
-* In the details of the corresponding record, set the value of the **[!UICONTROL Status]** field to **[!UICONTROL Valid]**.
-* Save the record.
+* **One of my recipients was blacklisted by mistake. How do I unblacklist them so that I can start sending them messages again?**
 
-**How can I find out whether one of my IPs is blacklisted? How do I unblacklist my IP(s)?**
+    * Go to **[!UICONTROL Administration > Channels > Quarantines > Addresses]**.
+    * In the details of the corresponding record, set the value of the **[!UICONTROL Status]** field to **[!UICONTROL Valid]**.
+    * Save the record.
 
-To check whether your IP address is blacklisted, you can use various web sites to verify it:
-* https://mxtoolbox.com/
-* https://whatismyipaddress.com/blacklist-check
-* https://www.blacklistalert.org/
+* **How can I find out whether one of my IPs is blacklisted? How do I unblacklist my IP(s)?**
+
+    To check whether your IP address is blacklisted, you can use various web sites to verify it:
+    * https://mxtoolbox.com/
+    * https://whatismyipaddress.com/blacklist-check
+    * https://www.blacklistalert.org/
 
 Generally, the result of the IP address check will return a list that contains details of the blacklist and also the name of the web site that blacklisted the IP address.
 
