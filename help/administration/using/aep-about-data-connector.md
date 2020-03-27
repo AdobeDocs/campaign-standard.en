@@ -58,8 +58,6 @@ How-to videos are also available in [this page](https://docs.adobe.com/content/h
 
     It is a unique and persistent ID assigned to a visitor, that can be used by the Platform Identity Service to identify the same visitor and their data in different Experience Cloud solutions. For more on this, refer to the [Experience Cloud Identity Service Help](https://docs.adobe.com/content/help/en/id-service/using/home.html).
 
-         
-
     >[!NOTE]
     >
     >Be aware that, if two or more profiles share a same device, the ECID would be the same for these two profiles in the Unified Identity service.
