@@ -20,8 +20,9 @@ In addition, several techniques, configurations, and tools that you can use to i
 
 Here are a few definitions of the main technical terms.
 
-**Reverse DNS**
-Adobe Campaign checks whether a reverse DNS is given for an IP address and that this correctly points back to the IP.
+* **Reverse DNS**
+    
+    Adobe Campaign checks whether a reverse DNS is given for an IP address and that this correctly points back to the IP.
 
 **MX rules**
 MX rules are used to control the speed at which the Campaign MTA (Message Transfer Agent) sends emails to each individual email domain or ISP (e.g. hotmail.com, comcast.net). These rules are typically based on limits published by the ISPs (e.g. do not include more than 20 messages per each SMTP connection).
