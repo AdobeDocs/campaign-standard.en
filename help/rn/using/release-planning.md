@@ -40,7 +40,7 @@ Environment updates happen in waves, during the indicated timeframes below. Deta
  <tbody> 
   <tr> 
    <td> Stage<br /> </td> 
-   <td> April 1 - 2, 2020<br /> </td> 
+   <td> March 31 - April 1, 2020<br /> </td> 
   </tr> 
   <tr> 
    <td> Production<br /> </td> 
