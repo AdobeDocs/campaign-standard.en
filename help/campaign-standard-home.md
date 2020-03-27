@@ -58,19 +58,30 @@ Learn more about general guidelines for mobile deliveries.
 </tr>
 </table>
 
-
 ## Additional Resources
 
+<table>
+<tr>
+  <td valign="top"><strong>Useful pages</strong>
+  
 * [Release notes](rn/using/release-notes.md)
-
-* [Control Panel](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
-
+* [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
 * [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
-
 * [Release Planning guide](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
-
 * [Deprecated and Removed Features](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+* [Getting started with Campaign Standard](start/using/campaign-orchestration.md)
 
-* [Technical notes](https://helpx.adobe.com/campaign/kb/acs-article-list.html)
+  </td>
+  <td valign="top"><strong>Resources for developers</strong>
+  
+  * [Adobe Campaign Standard Implementation guide](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
+  * [APIs documentation](api/using/about-campaign-standard-apis.md)
+  * [List of error messages](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html)
+  * [Campaign Standard data model](developing/using/datamodel-introduction.md)
+  * [About Campaign integrations](integrating/using/about-campaign-integrations.md)
+  * [Technical notes](https://helpx.adobe.com/campaign/kb/acs-article-list.html)
 
-* [Adobe Campaign Standard Implementation guide](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
+  </td>
+</tr>
+</table>
+
