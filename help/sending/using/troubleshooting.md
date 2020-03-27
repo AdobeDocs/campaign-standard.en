@@ -53,15 +53,17 @@ If the problem persists, contact the commercial or deliverability services, or A
 
 * **How can I find out whether one of my IPs is blacklisted? How do I unblacklist my IP(s)?**
 
-    1. To check whether your IP address is blacklisted, you can use various web sites to verify it:
-        * https://mxtoolbox.com/
-        * https://whatismyipaddress.com/blacklist-check
-        * https://www.blacklistalert.org/
+    To check whether your IP address is blacklisted, you can use various web sites to verify it:
+    * https://mxtoolbox.com/
+    * https://whatismyipaddress.com/blacklist-check
+    * https://www.blacklistalert.org/
 
-    1. Generally, the result of the IP address check will return a list that contains details of the blacklist and also the name of the web site that blacklisted the IP address.
+    Generally, the result of the IP address check will return a list that contains details of the blacklist and also the name of the web site that blacklisted the IP address.
 
-    1. By clicking the corresponding link, you can access the web site details.
+    By clicking the corresponding link, you can access the web site details.
 
-    1. Then, you can request that your web site be delisted from the web site that blacklisted the IP address.
+    Then, you can request that your web site be delisted from the web site that blacklisted the IP address.
 
-    1. The delisting process may vary depending on the web site. Some sites require you to create an account, while others just need you to provide the IP address.
+    >[!NOTE]
+    >
+    >The delisting process may vary depending on the web site. Some sites require you to create an account, while others just need you to provide the IP address.
