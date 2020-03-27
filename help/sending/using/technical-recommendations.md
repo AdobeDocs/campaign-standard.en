@@ -16,9 +16,7 @@ snippet: y
 
 # Technical recommendations{#technical-recommendations}
 
-In addition, several techniques, configurations, and tools that you can use to improve your deliverability rate are listed below.
-
-Here are a few definitions of the main technical terms.
+Several techniques, configurations, and tools that you can use to improve your deliverability rate are listed below. Here are a few definitions of the main technical terms.
 
 **Reverse DNS**: Adobe Campaign checks whether a reverse DNS is given for an IP address and that this correctly points back to the IP.
 
