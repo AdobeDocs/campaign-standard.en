@@ -166,9 +166,11 @@ You can access the transactional message that was created directly from the link
 
 You also have to integrate this trigger event into your website. See [Integrating the triggering of the event in a website](#integrating-the-triggering-of-the-event-in-a-website).
 
-<!-->>[!NOTE]
+<!--
+>[!NOTE]
 >
->To consult the previous publications if any, click the **[!UICONTROL Latest transactional events]** link under the **[!UICONTROL History]** section in the left-hand side area.-->
+>To consult the previous publications if any, click the **[!UICONTROL Latest transactional events]** link under the **[!UICONTROL History]** section in the left-hand side area.
+-->
 
 ### Unpublishing an event {#unpublishing-an-event}
 
