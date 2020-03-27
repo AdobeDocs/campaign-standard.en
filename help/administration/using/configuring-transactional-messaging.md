@@ -338,7 +338,7 @@ For more on resource creation and publishing, refer to [this page](../../develop
 
    ![](assets/message-center_usecase2.png)
 
-1. Create a join condition between the "Product identifier" field that was previously added to the message, and the corresponding field from the **[!UICONTROL Purchase]** resource
+1. Create a join condition between the "Product identifier" field that was previously added to the message, and the corresponding field from the **[!UICONTROL Purchase]** resource.
 
    ![](assets/message-center_usecase3.png)
 
