@@ -77,8 +77,9 @@ Learn more about general guidelines for mobile deliveries.
   * [Adobe Campaign Standard Implementation guide](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
   * [APIs documentation](api/using/about-campaign-standard-apis.md)
   * [List of error messages](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html)
-  * [Technical notes](https://helpx.adobe.com/campaign/kb/acs-article-list.html)
   * [Campaign Standard data model](developing/using/datamodel-introduction.md)
+  * [About Campaign integrations](integrating/using/about-campaign-integrations.md)
+  * [Technical notes](https://helpx.adobe.com/campaign/kb/acs-article-list.html)
 
   </td>
 </tr>
