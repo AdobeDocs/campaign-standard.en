@@ -31,17 +31,17 @@ If the problem persists, contact the commercial or deliverability services, or A
 
 ## Blacklisting versus quarantine {#blacklisting-versus-quarantine}
 
-**What is the difference between a blacklisted email address and a quarantined email address?**
+* **What is the difference between a blacklisted email address and a quarantined email address?**
 
-The status **[!UICONTROL Blacklisted]** is a result of a feedback loop (when a person reports a message as spam).
+    * The status **[!UICONTROL Blacklisted]** is a result of a feedback loop (when a person reports a message as spam).
 
-The status **[!UICONTROL Quarantined]** is a result of a soft or hard bounce.
+    * The status **[!UICONTROL Quarantined]** is a result of a soft or hard bounce. For more on this, see this [section](../../sending/using/understanding-quarantine-management.md).
 
-**What do the different quarantine error reasons mean?**
+* **What do the different quarantine error reasons mean?**
 
-Here are 10 possible reasons: not defined, user unknown, invalid domain, blacklisted address, refused, error ignored, unreachable, account disabled, mailbox full, not connected.
-
-For more on this, see [Understanding quarantine management](../../sending/using/understanding-quarantine-management.md).
+    Here are 10 possible reasons: not defined, user unknown, invalid domain, blacklisted address, refused, error ignored, unreachable, account disabled, mailbox full, not connected.
+    
+    For more on this, see [Understanding quarantine management](../../sending/using/understanding-quarantine-management.md).
 
 ## Unblacklisting {#unblacklisting}
 
@@ -53,15 +53,15 @@ For more on this, see [Understanding quarantine management](../../sending/using/
 
 * **How can I find out whether one of my IPs is blacklisted? How do I unblacklist my IP(s)?**
 
-    To check whether your IP address is blacklisted, you can use various web sites to verify it:
-    * https://mxtoolbox.com/
-    * https://whatismyipaddress.com/blacklist-check
-    * https://www.blacklistalert.org/
+    1. To check whether your IP address is blacklisted, you can use various web sites to verify it:
+        * https://mxtoolbox.com/
+        * https://whatismyipaddress.com/blacklist-check
+        * https://www.blacklistalert.org/
 
-Generally, the result of the IP address check will return a list that contains details of the blacklist and also the name of the web site that blacklisted the IP address.
+    1. Generally, the result of the IP address check will return a list that contains details of the blacklist and also the name of the web site that blacklisted the IP address.
 
-By clicking on the link, you can access the web site details.
+    1. By clicking the corresponding link, you can access the web site details.
 
-Then, you can request that your web site be delisted from the web site that blacklisted the IP address.
+    1. Then, you can request that your web site be delisted from the web site that blacklisted the IP address.
 
-The delisting process may vary depending on the web site. Some sites require you to create an account, while others just need you to provide the IP address.
+    1. The delisting process may vary depending on the web site. Some sites require you to create an account, while others just need you to provide the IP address.
