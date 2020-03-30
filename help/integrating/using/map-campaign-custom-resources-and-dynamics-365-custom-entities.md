@@ -20,7 +20,7 @@ Learn how to map custom resources and Custom entities in the context of the inte
 
 ## Prerequisites
 
-The new version of the [Microsoft Dynamics 365-Adobe Campaign Standard integration](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html) brings support for custom entities.  This allows for custom entities in Dynamics 365 to be replicated over to corresponding custom resources in Campaign.
+The new version of the [Microsoft Dynamics 365-Adobe Campaign Standard integration](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md) brings support for custom entities.  This allows for custom entities in Dynamics 365 to be replicated over to corresponding custom resources in Campaign.
 
 Once replicated, the new data in the custom resources can be used for several purposes, including segmentation and personalization.
 
@@ -32,7 +32,7 @@ A more comprehensive overview of Campaign custom resources can be found [at this
 
 In order to set up the integration for custom entities, reach out to [adobe-support@unifisoftware.com](mailto:adobe-support@unifisoftware.com) to request this be done.  Unifi will require the names of the custom entity tables in both systems, as well as the desired attribute mappings.  Unifi will then create the corresponding jobs and schedules.
 
-An example use case of custom entity support can be seen in the [Use Case section](https://helpx.adobe.com/campaign/kb/acs-dynamics-custom-entities.html#UC).
+An example use case of custom entity support can be seen in the [Use Case section](../../integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md#UC).
 
 >[!CAUTION]
 >

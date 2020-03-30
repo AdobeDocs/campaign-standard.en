@@ -21,9 +21,9 @@ Configure Unifi to setup and activate Microsoft Dynamics 365 - Adobe Campaign in
 
 ## Prerequisites
 
-Before performing the post-provisioning steps in this article, it is assumed that you have already successfully completed the [post-provisioning steps for Campaign](https://helpx.adobe.com/campaign/kb/ms-dynamics-adobe-io.html) and [for Dynamics 365](https://helpx.adobe.com/campaign/kb/ms-dynamics-integration.html).  If this has not happened, then you will need to follow those steps to complete Campaign Standard and Dynamics 365 post-provisioning.
+Before performing the post-provisioning steps in this article, it is assumed that you have already successfully completed the [post-provisioning steps for Campaign](../../integrating/using/configure-adobe-io-for-ms-dynamic.md) and [for Dynamics 365](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md).  If this has not happened, then you will need to follow those steps to complete Campaign Standard and Dynamics 365 post-provisioning.
 
-It is also assumed that you have contacted Unifi, have had a Unifi account created for you, and have been able to successfully log in.  If this has not happened, then follow the steps outlined in [this article](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html).
+It is also assumed that you have contacted Unifi, have had a Unifi account created for you, and have been able to successfully log in.  If this has not happened, then follow the steps outlined in [this article](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md).
 
 >[!CAUTION]
 >
@@ -33,7 +33,7 @@ It is also assumed that you have contacted Unifi, have had a Unifi account creat
 
 At your first connection, click **[!UICONTROL Adobe Campaign Standard]** to enter your Campaign credentials.
 
-Most of these credentials will come from the integration you created in Adobe I/O Console during [Campaign Standard configuration steps](https://helpx.adobe.com/campaign/kb/ms-dynamics-adobe-io.html). 
+Most of these credentials will come from the integration you created in Adobe I/O Console during [Campaign Standard configuration steps](../../integrating/using/configure-adobe-io-for-ms-dynamic.md). 
 
 >[!NOTE]
 >
@@ -97,15 +97,15 @@ Click Microsoft Dynamics CRM to configure Dynamics 365 credentials. Most of thes
 
 1. For **[!UICONTROL URL]**, enter the URL of your Dynamics 365 instance, taking care to insert “.api” before “.crm” (e.g., `https://mydynamicsinstance.api.crm.dynamics.com`)
 
-1. For **[!UICONTROL clientid]**, you will use the application ID that was generated when you created the app registration as [configuring Dynamics 365](https://helpx.adobe.com/campaign/kb/ms-dynamics-integration.html).
+1. For **[!UICONTROL clientid]**, you will use the application ID that was generated when you created the app registration as [configuring Dynamics 365](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md).
 
-1. For **[!UICONTROL clientsecret]**, you will use the client secret that was generated when you added a client secret to the app registration as [configuring Dynamics 365](https://helpx.adobe.com/campaign/kb/ms-dynamics-integration.html).
+1. For **[!UICONTROL clientsecret]**, you will use the client secret that was generated when you added a client secret to the app registration as [configuring Dynamics 365](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md).
 
 1. For **[!UICONTROL callbackurl]**, add `http://localhost:33333`.
 
 1. For **[!UICONTROL refresh token]**, leave blank.
 
-1. For **[!UICONTROLtenant ID]**, use the tenant ID that you got from portal.azure.com as [configuring Dynamics 365](https://helpx.adobe.com/campaign/kb/ms-dynamics-integration.html).
+1. For **[!UICONTROLtenant ID]**, use the tenant ID that you got from portal.azure.com as [configuring Dynamics 365](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md).
 
 1. Lastly, check the box for **[!UICONTROL Allow as Output Destination]**.
 
@@ -161,7 +161,7 @@ This video explains the ingress and egress jobs in Unifi (04:27 min)
 This video explains the workflows and schedules (03:03 min)
 
 More like this
-* [Working with Adobe Campaign Standard - Microsoft Dynamics 365](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
-* [Configure Microsoft Dynamics 365 for Campaign integration](https://helpx.adobe.com/campaign/kb/ms-dynamics-integration.html)
-* [Configure Adobe IO for Microsoft Dynamics 365 - Campaign Standard integration](https://helpx.adobe.com/campaign/kb/ms-dynamics-adobe-io.html)
+* [Working with Adobe Campaign Standard - Microsoft Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+* [Configure Microsoft Dynamics 365 for Campaign integration](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
+* [Configure Adobe IO for Microsoft Dynamics 365 - Campaign Standard integration](../../integrating/using/configure-adobe-io-for-ms-dynamic.md)
 * [Microsoft Dynamics 365 integration feature page](https://helpx.adobe.com/campaign/kt/acs/using/acs-ms-dynamics-crm-connector-tutorial.html)

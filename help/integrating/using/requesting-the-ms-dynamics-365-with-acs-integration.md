@@ -73,11 +73,11 @@ Three systems need to be provisioned and configured for this integration: Adobe 
 >
 >Steps in the articles below will guide you through creating integrations/registrations that involve assigning permissions and/or admin access.  It is your responsibility to ensure these steps comply with your company policies before performing, and to perform them carefully.
 
-In ADOBE CAMPAIGN, you need to set up API access and configure a new integration for Unifi. To achieve this, refer to [this article](https://helpx.adobe.com/campaign/kb/ms-dynamics-adobe-io.html).
+In ADOBE CAMPAIGN, you need to set up API access and configure a new integration for Unifi. To achieve this, refer to [this article](../../integrating/using/configure-adobe-io-for-ms-dynamic.md).
 
-In MICROSOFT DYNAMICS 365, you need to create a new app registration and enable an application user to use the integration.  To configure Microsoft Dynamics 365 for this integration, refer to [this article](https://helpx.adobe.com/campaign/kb/ms-dynamics-integration.html).
+In MICROSOFT DYNAMICS 365, you need to create a new app registration and enable an application user to use the integration.  To configure Microsoft Dynamics 365 for this integration, refer to [this article](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md).
 
-In UNIFI, you need to setup integration and configure mapping or add custom attributes. To configure Unifi for this integration, refer to [this article](https://helpx.adobe.com/campaign/kb/unifi-configuration.html).
+In UNIFI, you need to setup integration and configure mapping or add custom attributes. To configure Unifi for this integration, refer to [this article](../../integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md).
 
 ## Requesting support 
 

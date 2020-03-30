@@ -20,13 +20,13 @@ Learn how to configure Microsoft Dynamics 365 integration and activate your CRM 
 
 ## Overview
 
-Adobe Campaign Standard - Microsoft Dynamics 365 integration is described in [this page](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html).
+Adobe Campaign Standard - Microsoft Dynamics 365 integration is described in [this page](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md).
 
 Three systems that need to be provisioned for this integration: 
 
-1. Adobe Campaign Standard - [Learn more](https://helpx.adobe.com/campaign/kb/ms-dynamics-adobe-io.html)
+1. Adobe Campaign Standard - [Learn more](../../integrating/using/configure-adobe-io-for-ms-dynamic.md)
 1. Microsoft Dynamics 365 for Sales - Described below
-1. Unifi - [Learn more](https://helpx.adobe.com/campaign/kb/unifi-configuration.html)
+1. Unifi - [Learn more](../../integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md)
 
 Once provisioned, these systems need to be configured by an Administrator.
 
@@ -149,10 +149,10 @@ Alternatively, you can navigate to this [link](https://appsource.microsoft.com/e
 >
 >If at any time you wish to deactivate these processes, you can do so in this **[!UICONTROL Processes]** screen.
 
-Once this configuration is done, you can set up Unifi configuration. For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html).
+Once this configuration is done, you can set up Unifi configuration. For more on this, refer to this [page](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md).
 
 **Related topics** 
 
-* [Campaign Standard - Microsoft Dynamics 365 integration](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
-* [Configure Adobe IO for Microsoft Dynamics 365 integration](https://helpx.adobe.com/campaign/kb/ms-dynamics-adobe-io.html)
-* [Configure Unifi for Campaign - Microsoft Dynamics 365 integration](https://helpx.adobe.com/campaign/kb/unifi-configuration.html)
+* [Campaign Standard - Microsoft Dynamics 365 integration](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+* [Configure Adobe IO for Microsoft Dynamics 365 integration](../../integrating/using/configure-adobe-io-for-ms-dynamic.md)
+* [Configure Unifi for Campaign - Microsoft Dynamics 365 integration](../../integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md)

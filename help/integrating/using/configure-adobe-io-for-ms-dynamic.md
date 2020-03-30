@@ -20,7 +20,7 @@ Activate your CRM data on cross-channel communication: learn steps required duri
 
 ## Overview
 
-Adobe Campaign Standard - Microsoft Dynamics 365 integration is described in [this page](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html).
+Adobe Campaign Standard - Microsoft Dynamics 365 integration is described in [this page](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md).
 
 Before performing the post-provisioning steps in this article, it is assumed that you have already been provisioned and have admin access to your organization’s Campaign Standard instance.  If this has not happened, then you will need to get in contact with Adobe Customer Care to complete Campaign provisioning.
 
@@ -153,10 +153,10 @@ When you are done your services should show up top like the picture below. You w
 
 ![](assets/MSdynACSIntegration-6.png)
 
-Post provisioning in Campaign is now complete.  Proceed to complete [post provisioning steps for Microsoft Dynamics 365](https://helpx.adobe.com/campaign/kb/ms-dynamics-integration.html).
+Post provisioning in Campaign is now complete.  Proceed to complete [post provisioning steps for Microsoft Dynamics 365](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md).
 
 **Related Topics** 
 
 * [Adobe IO - Service Account Integration](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
 * [Campaign Standard - API Access Setup](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#setting-up-api-access)
-* [Campaign Standard - Dynamics 365 integration](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+* [Campaign Standard - Dynamics 365 integration](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
