@@ -22,6 +22,10 @@ This page lists all the new features and documentation updates for each release 
 
 You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-notes.md).
 
+## Documentation updates - April 2020 {#doc-updates-april-2020}
+
+The Microsoft Dynamics 365 integration with Adobe Campaign Standard documentation has been integrated into the core documentation in the Integrating with other solutions guide. [Read more](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+
 ## Release 20.2 - March 2020 {#release-20-2---march-2020}
 
 **New capabilities included in the release**
