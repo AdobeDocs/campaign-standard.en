@@ -16,7 +16,9 @@ snippet: y
 
 # Troubleshooting{#troubleshooting}
 
-Are you experiencing a deliverability problem? You may find the solution here...
+Are you experiencing a deliverability problem? You may find the solution here.
+
+## Same error message for an ISP {#same-error-for-an-isp}
 
 **Why do I always get the same error message for a particular ISP?**
 
@@ -27,35 +29,41 @@ If you always get the same error message for an ISP, your email or IP may have b
 
 If the problem persists, contact the commercial or deliverability services, or Adobe Campaign support.
 
-**What is the difference between a blacklisted email address and a quarantined email address?**
+## Blacklisting versus quarantine {#blacklisting-versus-quarantine}
 
-The status **[!UICONTROL Blacklisted]** is a result of a feedback loop (when a person reports a message as spam).
+* **What is the difference between a blacklisted email address and a quarantined email address?**
 
-The status **[!UICONTROL Quarantined]** is a result of a soft or hard bounce.
+    * The status **[!UICONTROL Blacklisted]** is a result of a feedback loop (when a person reports a message as spam).
 
-**What do the different quarantine error reasons mean?**
+    * The status **[!UICONTROL Quarantined]** is a result of a soft or hard bounce. For more on this, see this [section](../../sending/using/understanding-quarantine-management.md).
 
-Here are 10 possible reasons: not defined, user unknown, invalid domain, blacklisted address, refused, error ignored, unreachable, account disabled, mailbox full, not connected.
+* **What do the different quarantine error reasons mean?**
 
-For more on this, see [Understanding quarantine management](../../sending/using/understanding-quarantine-management.md).
+    Here are 10 possible reasons: not defined, user unknown, invalid domain, blacklisted address, refused, error ignored, unreachable, account disabled, mailbox full, not connected.
+    
+    For more on this, see [Understanding quarantine management](../../sending/using/understanding-quarantine-management.md).
 
-**One of my recipients was blacklisted by mistake. How do I unblacklist them so that I can start sending them messages again?**
+## Unblacklisting {#unblacklisting}
 
-* Go to **[!UICONTROL Administration > Channels > Quarantines > Addresses]**.
-* In the details of the corresponding record, set the value of the **[!UICONTROL Status]** field to **[!UICONTROL Valid]**.
-* Save the record.
+* **One of my recipients was blacklisted by mistake. How do I unblacklist them so that I can start sending them messages again?**
 
-**How can I find out whether one of my IPs is blacklisted? How do I unblacklist my IP(s)?**
+    * Go to **[!UICONTROL Administration > Channels > Quarantines > Addresses]**.
+    * In the details of the corresponding record, set the value of the **[!UICONTROL Status]** field to **[!UICONTROL Valid]**.
+    * Save the record.
 
-To check whether your IP address is blacklisted, you can use various web sites to verify it:
-* https://mxtoolbox.com/
-* https://whatismyipaddress.com/blacklist-check
-* https://www.blacklistalert.org/
+* **How can I find out whether one of my IPs is blacklisted? How do I unblacklist my IP(s)?**
 
-Generally, the result of the IP address check will return a list that contains details of the blacklist and also the name of the web site that blacklisted the IP address.
+    To check whether your IP address is blacklisted, you can use various web sites to verify it:
+    * https://mxtoolbox.com/
+    * https://whatismyipaddress.com/blacklist-check
+    * https://www.blacklistalert.org/
 
-By clicking on the link, you can access the web site details.
+    Generally, the result of the IP address check will return a list that contains details of the blacklist and also the name of the web site that blacklisted the IP address.
 
-Then, you can request that your web site be delisted from the web site that blacklisted the IP address.
+    By clicking the corresponding link, you can access the web site details.
 
-The delisting process may vary depending on the web site. Some sites require you to create an account, while others just need you to provide the IP address.
+    Then, you can request that your web site be delisted from the web site that blacklisted the IP address.
+
+    >[!NOTE]
+    >
+    >The delisting process may vary depending on the web site. Some sites require you to create an account, while others just need you to provide the IP address.
