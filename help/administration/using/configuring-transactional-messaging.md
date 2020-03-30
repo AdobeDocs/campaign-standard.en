@@ -166,7 +166,7 @@ You can access the transactional message that was created directly from the link
 
 You also have to integrate this trigger event into your website. See [Integrating the triggering of the event in a website](#integrating-the-triggering-of-the-event-in-a-website).
 
-<!--To consult the previous publications if any, click the **[!UICONTROL Latest transactional events]** link under the **[!UICONTROL History]** section in the left-hand side area.-->
+Once Adobe Campaign starts receiving events related to this event configuration, the **[!UICONTROL Latest transactional events]** link under the **[!UICONTROL History]** section enables you to access the latest events sent by your third-party service and processed by Adobe Campaign. The events (in JSON format) are listed from the most recent to the oldest. This list allows you to check data such as the content or the status of an event, for control and debugging purpose.
 
 ### Unpublishing an event {#unpublishing-an-event}
 
