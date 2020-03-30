@@ -30,6 +30,8 @@ Additional resources have been added to the documentation home page. [Read more]
 
 Information on the Experience CLoud ID Service (ECID) has been added to the Adobe Experience Platform Data Connector documentation. [Read more](../../administrating/mapping-campaign-and-aep-data/aep-about-data-connector.md#key-concepts)
 
+The Configuring transactional messaging section has been improved with information on how to access the latest transactional events and updated screenshots. [Read more](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
+
 
 ## Release 20.2 - March 2020 {#release-20-2---march-2020}
 
