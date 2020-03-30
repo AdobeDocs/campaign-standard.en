@@ -28,8 +28,6 @@ You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-n
 
 Azure Blob Integration - [Read More](../../administration/using/external-accounts.md#microsoft-azure-external-account)
 
-Unified Experience Cloud interface and domain - [Read More](../../start/using/interface-description.md#top-bar)
-
 Email testing using targeted profiles - [Read more](../../sending/using/testing-messages-using-target.md)
 
 **Other documentation updates coming with the release**
@@ -146,7 +144,7 @@ The new API endpoint **/customResources** has been added to the API documentatio
 
 California Consumer Privacy Act (CCPA) - [Read more](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa)
 
-Microsoft Dynamics 365 integration (GA) - [Read more](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
+Microsoft Dynamics 365 integration (GA) - [Read more](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 **Other documentation updates coming with the release**
 
@@ -210,7 +208,7 @@ Report on workflow segment - [Read more](../../reporting/using/creating-a-report
 
 Campaign Standard Implementation Guide is now live.[Read more](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
 
-A set of new help articles have been created about Microsoft Dynamics 365 connector implementation and usage. Note that this feature is currently in Limited Availability.[Read more](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
+A set of new help articles have been created about Microsoft Dynamics 365 connector implementation and usage. Note that this feature is currently in Limited Availability.[Read more](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 A note has been added in the [Calling a workflow with parameters](../../automating/using/calling-a-workflow-with-external-parameters.md) section about delivery preparation and their aggregation period.
 
