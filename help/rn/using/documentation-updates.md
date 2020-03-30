@@ -26,6 +26,11 @@ You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-n
 
 The Microsoft Dynamics 365 integration with Adobe Campaign Standard documentation has been integrated into the core documentation in the Integrating with other solutions guide. [Read more](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
+Additional resources have been added to the documentation home page. [Read more](../../campaign-standard-home.md)
+
+Information on the Experience CLoud ID Service (ECID) has been added to the Adobe Experience Platform Data Connector documentation. [Read more](../../administrating/mapping-campaign-and-aep-data/aep-about-data-connector.md#key-concepts)
+
+
 ## Release 20.2 - March 2020 {#release-20-2---march-2020}
 
 **New capabilities included in the release**
