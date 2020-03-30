@@ -28,8 +28,6 @@ You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-n
 
 Azure Blob Integration - [Read More](../../administration/using/external-accounts.md#microsoft-azure-external-account)
 
-Unified Experience Cloud interface and domain - [Read More](../../start/using/interface-description.md#top-bar)
-
 Email testing using targeted profiles - [Read more](../../sending/using/testing-messages-using-target.md)
 
 **Other documentation updates coming with the release**
