@@ -26,7 +26,7 @@ Activate your CRM data on cross-channel communication: learn how to pass on cont
 
 ### Principles
 
-The Adobe Campaign and Microsoft Dynamics 365 integration enables synchronization of all available Contact data in the CRM system, making all relevant Contact data available for campaign activities. 
+The Adobe Campaign and Microsoft Dynamics 365 integration enables synchronization of all available Contact data in the CRM system, making all relevant Contact data available for campaign activities.
 
 Conversely, as profiles within Adobe Campaign interact with messages, those data (e.g.: sends, opens, clicks, and bounces) automatically flow into Microsoft Dynamics 365 to keep Contact records complete with marketing activity as well.  
 
@@ -57,4 +57,3 @@ With contact data synchronized to Adobe Campaign, communications can be sent on 
 >[!CAUTION]
 >
 >For Contacts synchronization, this integration considers Dynamics 365 as the source of truth.  Any changes to synchronized contact attributes should be done in Dynamics 365, not in Campaign.  If changes are made in Campaign, they can eventually get overwritten during synchronization.
-

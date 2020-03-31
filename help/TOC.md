@@ -227,7 +227,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Abandonment Triggers use cases](integrating/using/abandonment-triggers-use-cases.md)
   + Campaign and Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
        + [Configure Adobe IO for Microsoft Dynamics 365 integration](integrating/using/configure-adobe-io-for-ms-dynamic.md)
-       + [Working with Campaign Standard and Microsoft Dynamics 365]{#configuring-acs-ms-dynamics}
+       + {Working with Campaign Standard and Microsoft Dynamics 365} {#working-with-campaign-standard-and-ms-dynamics}
           + [Working with Campaign Standard and Microsoft Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
           + [Notices and recommendations](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md) 
           + [Requesting and configuring the Microsoft Dynamics 365 with Campaign Standard integration](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)

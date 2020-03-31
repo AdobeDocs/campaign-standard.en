@@ -62,7 +62,7 @@ If you would like to integrate data flows from other systems with Adobe Campaign
    <td> Analytics<br /> Standard, Premium <br /> </td> 
    <td> Allows you to track the success of your email deliveries directly in Adobe Analytics.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-analytics-integration.md">Share Campaign data with Analytics</a><br/>, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">Share KPIs for integrated Campaign reporting</a> video (step 1
+    <a href="../../integrating/using/about-campaign-analytics-integration.md">Share Campaign data with Analytics</a><br/>, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">Share KPIs for integrated Campaign reporting</a> video (step 1)
     </td> 
   </tr> 
   <tr> 
