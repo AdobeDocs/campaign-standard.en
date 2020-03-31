@@ -28,7 +28,7 @@ The Microsoft Dynamics 365 integration with Adobe Campaign Standard documentatio
 
 Additional resources have been added to the documentation home page. [Read more](../../campaign-standard-home.md)
 
-Information on the Experience CLoud ID Service (ECID) has been added to the Adobe Experience Platform Data Connector documentation. [Read more](../../administrating/aep-about-data-connector.md#key-concepts)
+Information on the Experience CLoud ID Service (ECID) has been added to the Adobe Experience Platform Data Connector documentation. [Read more](../../administrating/using/aep-about-data-connector.md#key-concepts)
 
 The Configuring transactional messaging section has been improved with information on how to access the latest transactional events and updated screenshots. [Read more](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
 
