@@ -134,9 +134,9 @@ You can build an email from out-of-the-box templates such as customer welcome me
 
 If you want to build a framework of modular templates and fragments that can be combined to reuse in multiple emails, you should consider converting your email HTML into an Email Designer template.
 
-### Converting an HTML content {#converting-an-html-content}
+### Converting HTML content {#converting-an-html-content}
 
-This use case offers a quick way to convert an HTML email into Email Designer components.
+This use case offers a quick way to convert HTML email into Email Designer components.
 
 >[!CAUTION]
 >

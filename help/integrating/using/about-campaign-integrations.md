@@ -32,7 +32,7 @@ If you would like to integrate data flows from other systems with Adobe Campaign
 
 >[!NOTE]
 >
->Adobe Campaign Standard can also connect to Microsoft Dynamics 365 : this integration enables synchronization of all available Contact data in the CRM system, making all relevant Contact data available for campaign activities. For more on this integration, refer to [Working with Campaign and Dynamics 365](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html).
+>Adobe Campaign Standard can also connect to Microsoft Dynamics 365 : this integration enables synchronization of all available Contact data in the CRM system, making all relevant Contact data available for campaign activities. For more on this integration, refer to [Working with Campaign and Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md).
 
 
 <table> 

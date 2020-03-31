@@ -42,11 +42,7 @@ How-to videos are also available in [this page](https://docs.adobe.com/content/h
 
 * Out of the Box Mapping is only available for fields which are provided in Campaign Standard by default. For ingesting all custom fields and resources, each customer needs to define his own mapping.
 
-* Adobe Experience Platform Data Connector will push profile data through the platform at regular intervals.​ The interval duration is 15 mn. This value is not modifiable.
-
-    >[!NOTE]
-    >
-    >This duration can be modified using [Adobe Experience Platform APIs](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/authenticate_to_acp_tutorial/authenticate_to_acp_tutorial.md).
+* Adobe Experience Platform Data Connector will push profile data through the platform at regular intervals.​ The interval duration is 15 mn. This value can be modified using [Adobe Experience Platform APIs](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/authenticate_to_acp_tutorial/authenticate_to_acp_tutorial.md).
 
 * Data engineer can publish, modify and pause the mapping from Campaign to Adobe Experience Platform.
 
@@ -56,7 +52,15 @@ How-to videos are also available in [this page](https://docs.adobe.com/content/h
 
 * Any Adobe Campaign Standard or XDM schema changes needs to be manually remapped.​
 
-* Tracking log and Broadlog data are ingested automatically to Adobe Experience Platform as Experience Events. This ingestion is streamed real-time to Adobe Experience Platform.
+* Tracking log and Broadlog data are ingested automatically to Adobe Experience Platform as Experience Events. This ingestion is streamed in real-time to Adobe Experience Platform.
+
+* Experience Cloud ID Service (ECID) is a device identifier which is sent by default with Experience Events.
+
+    It is a unique and persistent ID assigned to a visitor, that can be used by the Platform Identity Service to identify the same visitor and their data in different Experience Cloud solutions. For more on this, refer to the [Experience Cloud Identity Service Help](https://docs.adobe.com/content/help/en/id-service/using/home.html).
+
+    >[!NOTE]
+    >
+    >Be aware that, if two or more profiles share a same device, the ECID would be the same for these two profiles in the Unified Identity service.
 
 ## Limitations {#limitations}
 
