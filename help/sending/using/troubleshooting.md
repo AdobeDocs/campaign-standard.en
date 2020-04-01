@@ -35,7 +35,9 @@ If the problem persists, contact the commercial or deliverability services, or A
 
     * The status **[!UICONTROL Blacklisted]** is a result of a feedback loop (when a person reports a message as spam).
 
-    * The status **[!UICONTROL Quarantined]** is a result of a soft or hard bounce. For more on this, see this [section](../../sending/using/understanding-quarantine-management.md#quarantine-vs-blacklisting).
+    * The status **[!UICONTROL Quarantined]** is a result of a soft or hard bounce.
+    
+    For more on this, see this [section](../../sending/using/understanding-quarantine-management.md#quarantine-vs-blacklisting).
 
 * **What do the different quarantine error reasons mean?**
 
