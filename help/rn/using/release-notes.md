@@ -18,6 +18,8 @@ snippet: y
 
 [Release Planning](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) &#124; [Control Panel releases](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) &#124; [Documentation Updates](../../rn/using/documentation-updates.md) &#124; [Previous Release Notes](../../rn/using/release-notes-2019.md) &#124; [Deprecated Features](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
+[Click here](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) to subscribe to release notifications and get details about latest Adobe Experience Cloud releases straight in your inbox.
+
 ## Release 20.2 - March 2020 {#release-20-2---march-2020}
 
 **What's new?**
@@ -32,21 +34,6 @@ snippet: y
   <tr> 
    <td> <p>The Azure Blob storage connector can now be used to import or export data to Adobe Campaign using a <strong>Transfer file</strong> workflow activity. </p>
     <p>For more information, refer to the <a href="../../administration/using/external-accounts.md#microsoft-azure-external-account">detailed documentation</a>.</p>
-   </td> 
-  </tr> 
- </tbody> 
-</table>
-
-<table> 
- <thead> 
-  <tr> 
-   <th> <strong>Unified Experience Cloud interface</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>The interface top bar has been enhanced to improve experience across all Experience Cloud applications. The header now allows you to switch more easily between solutions and displays improved help and notifications.</p>
-    <p>For more information, refer to the <a href="../../start/using/interface-description.md#top-bar">detailed documentation</a>. </p>
    </td> 
   </tr> 
  </tbody> 

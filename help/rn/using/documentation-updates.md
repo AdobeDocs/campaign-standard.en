@@ -22,13 +22,22 @@ This page lists all the new features and documentation updates for each release 
 
 You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-notes.md).
 
+## Documentation updates - April 2020 {#doc-updates-april-2020}
+
+The Microsoft Dynamics 365 integration with Adobe Campaign Standard documentation has been integrated into the core documentation in the Integrating with other solutions guide. [Read more](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+
+Additional resources have been added to the documentation home page. [Read more](../../campaign-standard-home.md)
+
+Information on the Experience CLoud ID Service (ECID) has been added to the Adobe Experience Platform Data Connector documentation. [Read more](../../administration/using/aep-about-data-connector.md#key-concepts)
+
+The Configuring transactional messaging section has been improved with information on how to access the latest transactional events and updated screenshots. [Read more](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
+
+
 ## Release 20.2 - March 2020 {#release-20-2---march-2020}
 
 **New capabilities included in the release**
 
 Azure Blob Integration - [Read More](../../administration/using/external-accounts.md#microsoft-azure-external-account)
-
-Unified Experience Cloud interface and domain - [Read More](../../start/using/interface-description.md#top-bar)
 
 Email testing using targeted profiles - [Read more](../../sending/using/testing-messages-using-target.md)
 
@@ -44,7 +53,7 @@ A new configuration guidelines section has been added to the Administrating guid
 
 A new section describing how to delete an event configuration is now available. [Read more](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
 
-The page describing how to test the subject line of an email to predict its open rate has been updated and improved, including a new [troubleshooting](../../sending/using/testing-subject-line-email.md#troubleshooting) section. [Read more](../../sending/using/testing-subject-line-email.md#troubleshooting)
+The page describing how to test the subject line of an email to predict its open rate has been updated and improved, including a new [troubleshooting](../../sending/using/testing-subject-line-email.md#troubleshooting) section. [Read more](../../sending/using/testing-subject-line-email.md)
 
 The transactional messaging sections have been updated to reflect the multiple user interface slight updates and improvements. [Read more](../../channels/using/about-transactional-messaging.md)
 
@@ -146,7 +155,7 @@ The new API endpoint **/customResources** has been added to the API documentatio
 
 California Consumer Privacy Act (CCPA) - [Read more](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa)
 
-Microsoft Dynamics 365 integration (GA) - [Read more](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
+Microsoft Dynamics 365 integration (GA) - [Read more](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 **Other documentation updates coming with the release**
 
@@ -210,7 +219,7 @@ Report on workflow segment - [Read more](../../reporting/using/creating-a-report
 
 Campaign Standard Implementation Guide is now live.[Read more](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
 
-A set of new help articles have been created about Microsoft Dynamics 365 connector implementation and usage. Note that this feature is currently in Limited Availability.[Read more](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
+A set of new help articles have been created about Microsoft Dynamics 365 connector implementation and usage. Note that this feature is currently in Limited Availability.[Read more](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 A note has been added in the [Calling a workflow with parameters](../../automating/using/calling-a-workflow-with-external-parameters.md) section about delivery preparation and their aggregation period.
 

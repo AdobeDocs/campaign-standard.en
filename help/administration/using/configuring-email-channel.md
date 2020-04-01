@@ -101,7 +101,7 @@ The **SMTP parameters** act as filters applied for a blocking rule.
 >
 >Once upgraded to the Enhanced MTA, the Adobe Campaign **[!UICONTROL Domain management]** rules are no longer used.
 
-**DKIM (DomainKeys Identified Mail)** email authentication signing is done by the Enhanced MTA for all messages with all domains. It does not sign with **Sender ID**, **DomainKeys**, **DKIM**, or **S/MIME** unless otherwise specified at the Enhanced MTA level.
+**DKIM (DomainKeys Identified Mail)** email authentication signing is done by the Enhanced MTA for all messages with all domains. It does not sign with **Sender ID**, **DomainKeys**, or **S/MIME** unless otherwise specified at the Enhanced MTA level.
 
 For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
@@ -247,7 +247,7 @@ The **[!UICONTROL Validity period]** section contains the following parameters:
 
   >[!IMPORTANT]
   >
-  >An HTML content must have been defined for the email for the mirror page to be created.
+  >HTML content must have been defined for the email for the mirror page to be created.
 
     * **[!UICONTROL Generate the mirror page if a mirror link appears in the email content]** (default mode): the mirror page is generated if the link is inserted in the mail content. 
     * **Force the generation of the mirror page**: even if no link to the mirror page is inserted into the messages, the mirror page will be created. 

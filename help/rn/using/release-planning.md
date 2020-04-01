@@ -24,7 +24,7 @@ Upgrades are deployed in two phases. First, Stage instances are upgraded to allo
 
 All release dates are subject to change: we recommend you visit this page on a regular basis to check for updates.
 
-Please subscribe to [receive release notifications](https://www.adobe.com/subscription/priority-product-update.html) to get details about latest Adobe Experience Cloud releases straight in your inbox.
+Please subscribe to [receive release notifications](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) to get details about latest Adobe Experience Cloud releases straight in your inbox.
 
 ## Release 20.2.1 - April Release {#release-20-2-april-release}
 
@@ -40,11 +40,11 @@ Environment updates happen in waves, during the indicated timeframes below. Deta
  <tbody> 
   <tr> 
    <td> Stage<br /> </td> 
-   <td> March 23 - 24, 2020<br /> </td> 
+   <td> March 31 - April 1, 2020<br /> </td> 
   </tr> 
   <tr> 
    <td> Production<br /> </td> 
-   <td> March 31 - April 6, 2020<br /> </td> 
+   <td> April 6 - 9, 2020<br /> </td> 
   </tr> 
  </tbody> 
 </table>

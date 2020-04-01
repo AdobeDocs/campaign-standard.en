@@ -153,22 +153,25 @@ Before being able to use the event, you must preview and publish it.
 
    ![](assets/message-center_logs.png)
 
+   >[!IMPORTANT]
+   >
+   >Each time you modify the event, you must click **[!UICONTROL Publish]** again to generate the updated REST API that will be used by your website developer.
 
->[!NOTE]
->
->Each time you modify the event, you must click **[!UICONTROL Publish]** again to generate the updated REST API that will be used by your website developer.
+   Once the event has been published, a transactional message linked to the new event is automatically created.
 
-Once the event has been published, a transactional message linked to the new event is automatically created. In order for this event to trigger sending a transactional message, you must modify and publish the message that was just created. See [Event transactional messages](../../channels/using/event-transactional-messages.md).
+1. You can directly access this transactional message through the link located in the left-hand side area.
 
-You can access the transactional message that was created directly from the link in the left-hand side area.
+   ![](assets/message-center_messagegeneration.png)
 
-![](assets/message-center_messagegeneration.png)
+In order for the event to trigger sending a transactional message, you must modify and publish the message that was just created. See [Event transactional messages](../../channels/using/event-transactional-messages.md).
 
 You also have to integrate this trigger event into your website. See [Integrating the triggering of the event in a website](#integrating-the-triggering-of-the-event-in-a-website).
 
-<!-->>[!NOTE]
->
->To consult the previous publications if any, click the **[!UICONTROL Latest transactional events]** link under the **[!UICONTROL History]** section in the left-hand side area.-->
+Once Adobe Campaign starts receiving events related to this event configuration, the **[!UICONTROL Latest transactional events]** link under the **[!UICONTROL History]** section enables you to access the latest events sent by your third-party service and processed by Adobe Campaign.
+
+![](assets/message-center_latest-events.png)
+
+The events (in JSON format) are listed from the most recent to the oldest. This list allows you to check data such as the content or the status of an event, for control and debugging purpose.
 
 ### Unpublishing an event {#unpublishing-an-event}
 
@@ -340,7 +343,7 @@ For more on resource creation and publishing, refer to [this page](../../develop
 
    ![](assets/message-center_usecase2.png)
 
-1. Create a join condition between the "Product identifier" field that was previously added to the message, and the corresponding field from the **[!UICONTROL Purchase]** resource
+1. Create a join condition between the "Product identifier" field that was previously added to the message, and the corresponding field from the **[!UICONTROL Purchase]** resource.
 
    ![](assets/message-center_usecase3.png)
 
