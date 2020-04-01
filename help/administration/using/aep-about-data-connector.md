@@ -35,14 +35,14 @@ How-to videos are also available in [this page](https://docs.adobe.com/content/h
 >
 >This can be performed either through the APIs or the Adobe Experience Platform interface. For more information, refer to the dedicated documentations:
 >
->* [Enable a dataset for Real-time Customer Profile](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/data_ingestion_tutorial/data_ingestion_tutorial.md)
->* [Configure a dataset for Real-time Customer Profile and Identity Service using APIs](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/unified_profile_dataset_tutorial/unified_profile_dataset_api_tutorial.md)
+>* [Enable a dataset for Real-time Customer Profile](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/datasets/dataset.html)
+>* [Configure a dataset for Real-time Customer Profile and Identity Service using APIs](https://docs.adobe.com/content/help/en/experience-platform/catalog/api/getting-started.html)
 
 ## Key concepts {#key-concepts}
 
 * Out of the Box Mapping is only available for fields which are provided in Campaign Standard by default. For ingesting all custom fields and resources, each customer needs to define his own mapping.
 
-* Adobe Experience Platform Data Connector will push profile data through the platform at regular intervals.​ The interval duration is 15 mn. This value can be modified using [Adobe Experience Platform APIs](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/authenticate_to_acp_tutorial/authenticate_to_acp_tutorial.md).
+* Adobe Experience Platform Data Connector will push profile data through the platform at regular intervals.​ The interval duration is 15 mn. This value can be modified using [Adobe Experience Platform APIs](https://docs.adobe.com/content/help/en/experience-platform/ingestion/home.html).
 
 * Data engineer can publish, modify and pause the mapping from Campaign to Adobe Experience Platform.
 
