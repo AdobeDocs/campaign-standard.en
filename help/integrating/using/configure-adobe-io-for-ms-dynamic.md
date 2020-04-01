@@ -130,8 +130,8 @@ After entering the information, two files will be generated: **[!UICONTROL certi
 
 1. Select the product profile that has in the title:
 
-* The Organization ID of your Campaign instance
-* **[!UICONTROL Administrators]** 
+    * The Organization ID of your Campaign instance
+    * **[!UICONTROL Administrators]** 
 
 Example:  Campaign Standard - your-campaign-organizationID - Administrators 
 

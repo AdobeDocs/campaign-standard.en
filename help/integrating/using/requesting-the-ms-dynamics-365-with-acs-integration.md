@@ -31,21 +31,21 @@ Flowchart Details (maps to steps above):
 1. Read this article, check notices and configuration steps.
 
 1. Send an account request to adobe-support@unifisoftware.com; Unifi will require the following information when you request an account:
-* User First Name
-* User Last Name
-* User Email
-* Company Name
-* Region (North America, EMEA or APAC)
-* Usage Type:  Customer Type (customer users that will be using their production data in this integration), or Partner Type (partner consultants that are testing out the integration to get a better understanding so that they can help their Campaign customers) or Internal Type (Adobe internal users that are testing out the integration to get a better understanding of the solution)
-* Campaign Standard data status (starting with clean database or bringing existing data to integration)
-* Campaign Tenant ID (see Configure Campaign integration section step 3 to get your Tenant ID)
-* Campaign Instance URL
+    * User First Name
+    * User Last Name
+    * User Email
+    * Company Name
+    * Region (North America, EMEA or APAC)
+    * Usage Type:  Customer Type (customer users that will be using their production data in this integration), or Partner Type (partner consultants that are testing out the integration to get a better understanding so that they can help their Campaign customers) or Internal Type (Adobe internal users that are testing out the integration to get a better understanding of the solution)
+    * Campaign Standard data status (starting with clean database or bringing existing data to integration)
+    * Campaign Tenant ID (see Configure Campaign integration section step 3 to get your Tenant ID)
+    * Campaign Instance URL
 
-Unifi expected response time: 1 hour during regular U.S. business hours (9am to 5pm Pacific Time, Mon - Fri, excluding holidays).
+    Unifi expected response time: 1 hour during regular U.S. business hours (9am to 5pm Pacific Time, Mon - Fri, excluding holidays).
 
 1. Complete post-provisoning steps for Microsoft Dynamics 365 and for Campaign Standard. 
-Additionally, submit a ticket to Adobe Customer Care (either directly or through your Adobe contact) to have the single-sign-on feature flag enabled in your Campaign instance. Partners should reach out to their Adobe partner sandbox rep, instead contacting Adobe Customer Care, to enable the feature flag.
-If you have existing data in Campaign that you plan to incorporate into the integration, then follow the guidance in "Existing Campaign Data" and consult closely with your Adobe technical contact before proceeding.
+    Additionally, submit a ticket to Adobe Customer Care (either directly or through your Adobe contact) to have the single-sign-on feature flag enabled in your Campaign instance. Partners should reach out to their Adobe partner sandbox rep, instead contacting Adobe Customer Care, to enable the feature flag.
+    If you have existing data in Campaign that you plan to incorporate into the integration, then follow the guidance in "Existing Campaign Data" and consult closely with your Adobe technical contact before proceeding.
 
 1. Complete initial onboarding steps in Unifi by navigating to Unifi, clicking through onboarding screens, filling in Dynamics 365 and Campaign Standard account credentials, and notifying Unifi when completed.
 
