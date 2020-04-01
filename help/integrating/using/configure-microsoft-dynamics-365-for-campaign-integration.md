@@ -54,12 +54,12 @@ To generate the OAuth access token, follow the steps outlined below.
 
 1. Click **[!UICONTROL New registration]** at the top of screen.
 
-![](assets/MSdynACSIntegration-7.png)
+    ![](assets/MSdynACSIntegration-7.png)
 
-Fill out the app registration screen:
+1. Fill out the app registration screen:
 
-* Name: adobe campaign
-* Supported account type: **[!UICONTROL Accounts in this organizational directory only]** (default value)
+    * Name: adobe campaign
+    * Supported account type: **[!UICONTROL Accounts in this organizational directory only]** (default value)
 
  For more information about creating a new application, refer to [this section](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app).
 
@@ -107,15 +107,15 @@ This new user is a generic user. It will be used by the application: any change 
 
 1. Ensure drop down next to user icon says **[!UICONTROL USER:APPLICATION USER]**.
 
-Fill out the screen for the new user.  Parameters suggestions:
+    Fill out the screen for the new user.  Parameters suggestions:
 
-* **[!UICONTROL User Name]** (email): adobeapi@`<hostname>`, where `<hostname>` is the hostname of your Dynamics 365 instance
-* **[!UICONTROL Application ID]**: ID of the application you registered in Azure AD (this is required)
-* You can leave blank **[!UICONTROL Application ID URI]** and **[!UICONTROL Azure AD Object ID]**
-* **[!UICONTROL Full Name]**: Adobe API
-* **[!UICONTROL Email]**: same as **[!UICONTROL User Name]** (or admin's email if you wish)
+    * **[!UICONTROL User Name]** (email): adobeapi@`<hostname>`, where `<hostname>` is the hostname of your Dynamics 365 instance
+    * **[!UICONTROL Application ID]**: ID of the application you registered in Azure AD (this is required)
+    * You can leave blank **[!UICONTROL Application ID URI]** and **[!UICONTROL Azure AD Object ID]**
+    * **[!UICONTROL Full Name]**: Adobe API
+    * **[!UICONTROL Email]**: same as **[!UICONTROL User Name]** (or admin's email if you wish)
 
-For more information about app user creation, refer to [this section](https://docs.microsoft.com/en-gb/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
+    For more information about app user creation, refer to [this section](https://docs.microsoft.com/en-gb/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
 
 1. Click on the user icon and upload an Adobe Campaign icon; this is the icon that will be displayed in the Timeline view when new Adobe events appear in Dynamics 365.
 
@@ -136,7 +136,7 @@ Follow the instructions in the following link to find your tenant ID.  You’ll 
 To integrate the Dynamics 365 App to your Campaign Standard environment, follow the steps below:
 
 1. Navigate to the following link: [https://appsource.microsoft.com/en-us/marketplace/apps](https://appsource.microsoft.com/en-us/marketplace/apps) and search for _Adobe Campaign for Dynamics 365_ in the search bar.
-Alternatively, you can navigate to this [link](https://appsource.microsoft.com/en-us/product/dynamics-365/adobecampaign.re4snj-a4n7-5t6y-a14br-d5d1b?flightCodes=adobesignhide&tab=Overview).
+    Alternatively, you can navigate to this [link](https://appsource.microsoft.com/en-us/product/dynamics-365/adobecampaign.re4snj-a4n7-5t6y-a14br-d5d1b?flightCodes=adobesignhide&tab=Overview).
 1. Follow the instructions to install the app for your Dynamics 365 instance.
 1. Once installed, navigate to your Dynamics 365 instance and sign in as administrator.
 1. Click on the gear icon in the upper right corner and click on **[!UICONTROL Advanced Settings]**. In the top banner, click on the drop down next to **[!UICONTROL Settings]**, click on **[!UICONTROL Processes]** under **[!UICONTROL Process Center]**.
