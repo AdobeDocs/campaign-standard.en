@@ -62,7 +62,7 @@ To build a segment, follow these steps:
 
 The left pane lists all attributes, events and audiences that are available for use to construct rules.
 
-The fields listed are attributes captured by your company and have been made available through the [Experience Data Model (XDM) System](https://www.adobe.io/apis/experienceplatform/home/xdm.html).
+The fields listed are attributes captured by your company and have been made available through the [Experience Data Model (XDM) System](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html).
 
 Fields are organized into tabs:
 
