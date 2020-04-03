@@ -53,7 +53,7 @@ Adobe Campaign offers a set of tools to help you with your Privacy Compliance fo
 | Useful pages | Additional resources |
 |---|---|
 | [Creating audiences](../../audiences/using/creating-audiences.md) | [Working with Audience Destinations service](../../audiences/using/aep-about-audience-destinations-service.md) |
-| [Creating profiles](../../audiences/using/creating-profiles.md) | [Working  with Microsoft Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md) |
-| [Integrated customer profile](../../audiences/using/integrated-customer-profile.md) |  [Adobe Shared Audiences](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md) |
-| [About opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md) | [Using workflows to import  profiles](automating/using/importing-data.md) |
+| [Creating profiles](../../audiences/using/creating-profiles.md) | [Working  with Microsoft Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md) |
+| [Integrated customer profile](../../audiences/using/integrated-customer-profile.md) |  [Adobe Shared Audiences](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md) |
+| [About opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md) | [Using workflows to import  profiles](../../automating/using/importing-data.md) |
 | [Privacy management  (GDPR,  CCPA)](https://helpx.adobe.com/campaign/kb/campaign-privacy.html) | [Creating profiles and audiences  (video)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html) |
