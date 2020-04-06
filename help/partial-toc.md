@@ -21,8 +21,8 @@ es
 
 + Administration{#administration}
   + [Fatigue rules](sending/using/fatigue-rules.md)
-  + [About typology rules](administration/using/about-typology-rules.md)
-  + [About typology rules - List](administration/using/about-typology-rules.md#typology-rules)
+  + [About typology rules](sending/using/about-typology-rules.md)
+  + [About typology rules - List](sending/using/about-typology-rules.md#typology-rules)
   + [Configuring email channel](administration/using/configuring-email-channel.md)
   + [Filtering rules](sending/using/filtering-rules.md)
 + Starting{#starting}

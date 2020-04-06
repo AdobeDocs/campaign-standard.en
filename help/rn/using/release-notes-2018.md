@@ -105,7 +105,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
   </tr> 
   <tr> 
    <td> Typology filter for mobile app subscribers<br /> </td> 
-   <td> Support subscriptions in typology filter - When specifying the filtering criteria for a typology rule, application subscriptions can be selected as the filtering and targeting dimensions, providing the ability to filter on attributes for users with or without a profile. <br /> For more information, refer to the <a href="../../administration/using/about-typology-rules.md#typology-rules">detailed documentation</a>.<br /> </td> 
+   <td> Support subscriptions in typology filter - When specifying the filtering criteria for a typology rule, application subscriptions can be selected as the filtering and targeting dimensions, providing the ability to filter on attributes for users with or without a profile. <br /> For more information, refer to the <a href="../../sending/using/about-typology-rules.md#typology-rules">detailed documentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Automated content import from a URL during message preparation<br /> </td> 

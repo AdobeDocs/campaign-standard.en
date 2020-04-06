@@ -355,7 +355,7 @@ es
   + [Auditing export logs](administration/using/auditing-export-logs.md)
   + [Fatigue rules](sending/using/fatigue-rules.md)
   + [Adobe Campaign notifications](administration/using/adobe-campaign-notifications.md)
-  + [About typology rules](administration/using/about-typology-rules.md)
+  + [About typology rules](sending/using/about-typology-rules.md)
   + [Licenses](administration/using/licenses.md)
   + [Managing groups and users](administration/using/managing-groups-and-users.md)
   + [Configuring SMS channel](administration/using/configuring-sms-channel.md)

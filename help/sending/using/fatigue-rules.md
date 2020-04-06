@@ -29,8 +29,8 @@ To implement fatigue rules, you define a maximum number of messages per profile 
 Related topics:
 
 * [Preparation](../../administration/using/configuring-email-channel.md#preparation)
-* [Managing typologies](../../administration/using/about-typology-rules.md#managing-typologies)
-* [Typology rules](../../administration/using/about-typology-rules.md#typology-rules)
+* [Managing typologies](../../sending/using/about-typology-rules.md#managing-typologies)
+* [Typology rules](../../sending/using/about-typology-rules.md#typology-rules)
 * [Optimizing communication frequency to prevent contact fatigue](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
 
 ## Creating a fatigue rule {#creating-a-fatigue-rule}

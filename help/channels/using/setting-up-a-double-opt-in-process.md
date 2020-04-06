@@ -95,7 +95,7 @@ The event is ready. You can now design the email template. This template must in
 
 ### Create the typology {#create-the-typology-rule}
 
-You need to create a specific [typology](../../administration/using/about-typology-rules.md), by duplicating an out-of-box one. The typology will allow to send messages to profiles who did not confirm their agreement yet and are still blacklisted. By default, typologies exclude opt-out (i.e. blacklisted) profiles. To create this typology, follow these steps:
+You need to create a specific [typology](../../sending/using/about-typology-rules.md), by duplicating an out-of-box one. The typology will allow to send messages to profiles who did not confirm their agreement yet and are still blacklisted. By default, typologies exclude opt-out (i.e. blacklisted) profiles. To create this typology, follow these steps:
 
 1. From the Adobe Campaign logo, select **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** and click **[!UICONTROL Typologies]**.
 1. Duplicate the out-of-box typology **[!UICONTROL Transactional message on profile (mcTypologyProfile)]**.
