@@ -44,9 +44,7 @@ The main steps to create a typology rule are as follows:
 
 	![](assets/typology-rule-label.png)
 
-1. Specify the typology rule **[!UICONTROL Type]**, then configure it according to your needs.
-
-	Typology rules configuration vary depending on their type. For more information, refer to the **[Filtering rules](../../sending/using/filtering-rules.md)** and **[Fatigue rules](../../sending/using/fatigue-rules.md)** sections.
+1. Specify the typology rule **[!UICONTROL Type]**, then configure it according to your needs. Note that typology rules configuration vary depending on their type. For more information, refer to the **[Filtering rules](../../sending/using/filtering-rules.md)** and **[Fatigue rules](../../sending/using/fatigue-rules.md)** sections.
 
 1. Select the typologies in which you want to include the new rule. To do this, select the **[!UICONTROL Typologies]** tab, then click **[!UICONTROL Create element]** button.
 
