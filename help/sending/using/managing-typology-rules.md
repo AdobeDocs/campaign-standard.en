@@ -38,21 +38,21 @@ The main steps to create a typology rule are as follows:
 
 1. Access the **[!UICONTROL Administration]** / **[!UICONTROL Channels]** / **[!UICONTROL Typologies]** / **[!UICONTROL Typology rules]** menu, then click **[!UICONTROL Create]**.
 
-	![](assets/typology_create-rule.png)
+![](assets/typology_create-rule.png)
 
 1. Enter the typology **[!UICONTROL Label]**, then specify the **[!UICONTROL Channel]** to which the rule should apply.
 
-	![](assets/typology-rule-label.png)
+![](assets/typology-rule-label.png)
 
 1. Specify the typology rule **[!UICONTROL Type]**, then configure it according to your needs. Note that typology rules configuration vary depending on their type. For more information, refer to the **[Filtering rules](../../sending/using/filtering-rules.md)** and **[Fatigue rules](../../sending/using/fatigue-rules.md)** sections.
 
 1. Select the typologies in which you want to include the new rule. To do this, select the **[!UICONTROL Typologies]** tab, then click **[!UICONTROL Create element]** button.
 
-	![](assets/typology-typologies-tab.png)
+![](assets/typology-typologies-tab.png)
 
 1. Select the desired typology, then click **[!UICONTROL Confirm]**.
 
-	![](assets/typology-link.png)
+![](assets/typology-link.png)
 
 1. Once all the typologies are selected, click **[!UICONTROL Create]** to confirm the typology rule creation.
 
