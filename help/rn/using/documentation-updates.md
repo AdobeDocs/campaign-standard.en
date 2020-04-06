@@ -32,6 +32,8 @@ Information on the Experience CLoud ID Service (ECID) has been added to the Adob
 
 The Configuring transactional messaging section has been improved with information on how to access the latest transactional events and updated screenshots. [Read more](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
 
+The section related to typologies and typology rules has been improved and updated with additional information on out-of-the-box typology rules. [Read more](../../sending/using/about-typology-rules.md)
+
 
 ## Release 20.2 - March 2020 {#release-20-2---march-2020}
 
