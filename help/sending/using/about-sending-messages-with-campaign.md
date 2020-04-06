@@ -24,7 +24,7 @@ To do this, best practices are to:
 
   >[!NOTE]
   >
-  >You can set global cross-channel fatigue rules that will automatically exclude oversollicited profiles from campaigns. See [Fatigue rules](../../administration/using/fatigue-rules.md).
+  >You can set global cross-channel fatigue rules that will automatically exclude oversollicited profiles from campaigns. See [Fatigue rules](../../sending/using/fatigue-rules.md).
 
 * Preview messages by using a test profile. For more on previewing messages, refer to [this section](../../sending/using/previewing-messages.md).
 * Send proofs to test messages. For more on proofs, refer to [this  section](../../sending/using/sending-proofs.md). 
