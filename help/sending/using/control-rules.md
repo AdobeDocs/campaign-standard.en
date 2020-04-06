@@ -18,13 +18,13 @@ snippet: y
 
 Control rules allow you to check the validity and quality of the messages before they are sent, such as character display, SMS message size, address format, etc.
 
+>[!NOTE]
+>
+>For security reasons, control rules are read-only and cannot be modified.
+
 ## Default control rules {#default-control-rules}
 
 A set of default rules ensures the standard controls. The table below provides information about these rules, as well as their related channel and [execution phases](#control-rules-execution-phases).
-
->[!NOTE]
->
->For security reasons, out-of-the-box control rules are read-only and cannot be modified.
 
 Label | Channel | Execution phase | Description
 ---------|----------|---------|---------
