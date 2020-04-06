@@ -139,4 +139,3 @@ This bar not only contains common actions such as search and filtering, but also
 * For actions related to **workspace** type screens, refer to either the [Action bar](../../automating/using/workflow-interface.md#action-bar) section for the workflows.
 * For actions related to **dashboard** screens, refer to the [Message dashboard](../../channels/using/message-dashboard.md) section for more information.
 * For actions related to **list** type screens, refer to the [Customizing lists](../../start/using/customizing-lists.md) section below.
-

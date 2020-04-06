@@ -267,7 +267,7 @@ _Workflows_
   </tr> 
   <tr> 
    <td> Email BCC<br /> </td> 
-   <td> Email BCC enables the saving of unique email messages sent to individual recipients, thus allowing the brand to archive those messages. By adding a BCC email address to all emails, Adobe Campaign Standard customers can keep an exact copy of each email with this feature. This is a common legal requirement for the financial services industry and is helpful in assisting customer service centers in resolving conflicts in real time.<br /> For more information, refer to the <a href="../../administration/using/configuring-email-channel.md#archiving-emails">detailed documentation</a>.<br /> </td> 
+   <td> Email BCC enables the saving of unique email messages sent to individual recipients, thus allowing the brand to archive those messages. By adding a BCC email address to all emails, Adobe Campaign Standard customers can keep an exact copy of each email with this feature. This is a common legal requirement for the financial services industry and is helpful in assisting customer service centers in resolving conflicts in real time.<br /> For more information, refer to the <a href="../../sending/using/archiving.md">detailed documentation</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

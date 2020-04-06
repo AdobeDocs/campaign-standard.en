@@ -101,7 +101,7 @@ The **SMTP parameters** act as filters applied for a blocking rule.
 >
 >Once upgraded to the Enhanced MTA, the Adobe Campaign **[!UICONTROL Domain management]** rules are no longer used.
 
-**DKIM (DomainKeys Identified Mail)** email authentication signing is done by the Enhanced MTA for all messages with all domains. It does not sign with **Sender ID**, **DomainKeys**, **DKIM**, or **S/MIME** unless otherwise specified at the Enhanced MTA level.
+**DKIM (DomainKeys Identified Mail)** email authentication signing is done by the Enhanced MTA for all messages with all domains. It does not sign with **Sender ID**, **DomainKeys**, or **S/MIME** unless otherwise specified at the Enhanced MTA level.
 
 For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
@@ -247,7 +247,7 @@ The **[!UICONTROL Validity period]** section contains the following parameters:
 
   >[!IMPORTANT]
   >
-  >An HTML content must have been defined for the email for the mirror page to be created.
+  >HTML content must have been defined for the email for the mirror page to be created.
 
     * **[!UICONTROL Generate the mirror page if a mirror link appears in the email content]** (default mode): the mirror page is generated if the link is inserted in the mail content. 
     * **Force the generation of the mirror page**: even if no link to the mirror page is inserted into the messages, the mirror page will be created. 
@@ -305,6 +305,10 @@ Preparing messages is detailed in the [Approving messages](../../sending/using/p
   It is also possible to personalize the delivery label with events variables that have been declared into the workflow's external signal activity. For more on this, refer to [this section](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
 * **[!UICONTROL Save SQL queries in the log]**: this option allows you to add SQL query logs in the journal during the preparation phase.
+
+#### Proof settings {#proof-settings}
+
+This section allows you to configure the default prefix to use in proof's subject line. For more in this, refer to [this section](../../sending/using/sending-proofs.md).
 
 ### List of email SMTP parameters {#list-of-email-smtp-parameters}
 

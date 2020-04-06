@@ -112,7 +112,7 @@ When using a variable in an activity, the interface provides help to call it.
 
 ![](assets/extsignal_callparameter.png)
 
-* ![](assets/extsignal_picker.png): select the events variable among all variables that are available in the workflow (see ).
+* ![](assets/extsignal_picker.png): select the events variable among all variables that are available in the workflow.
 
   ![](assets/wkf_test_activity_variables.png)
 

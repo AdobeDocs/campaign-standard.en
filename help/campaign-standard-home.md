@@ -11,14 +11,11 @@ topic: Premium
 
 ## What's New
 
+* **[Email testing using targeted profiles](sending/using/testing-messages-using-target.md)**<br/>
+Learn how to test your emails on real targeted profiles.
+
 * **[Privacy management](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>
 Learn about the tools provided by Adobe Campaign to help you with your Privacy compliance.
-
-* **[Delivery best practices](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>
-Learn more on best practices related to delivery design and sending.
-
-* **[Email Designer](designing/using/designing-content-in-adobe-campaign.md)**<br/>
-Consult the reorganized Email Designer documentation.
 
 * **[Campaign Standard Mobile guide](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>
 Learn more about general guidelines for mobile deliveries.
@@ -61,19 +58,13 @@ Learn more about general guidelines for mobile deliveries.
 </tr>
 </table>
 
-
 ## Additional Resources
 
-* [Release notes](rn/using/release-notes.md)
-
-* [Control Panel](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
-
-* [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
-
-* [Release Planning guide](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
-
-* [Deprecated and Removed Features](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
-
-* [Technical notes](https://helpx.adobe.com/campaign/kb/acs-article-list.html)
-
-* [Adobe Campaign Standard Implementation guide](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
+| Useful pages | Resources for developers |
+|---|---|
+| [Release notes](rn/using/release-notes.md) | [Implementation guide](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html) |
+| [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html) | [APIs documentation](api/using/about-campaign-standard-apis.md) |
+| [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) |  [List of error messages](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
+| [Release Planning guide](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) | [Campaign Standard data model](developing/using/datamodel-introduction.md) |
+| [Deprecated and Removed Features](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) | [Campaign integrations](integrating/using/about-campaign-integrations.md) |
+| [Getting started with Campaign Standard](start/using/campaign-orchestration.md) | [Technical notes](https://helpx.adobe.com/campaign/kb/acs-article-list.html) |

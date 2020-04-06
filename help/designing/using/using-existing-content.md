@@ -164,11 +164,11 @@ For more on converting an existing email into an Email Designer-compatible email
 * [Introduction video to the Email Designer](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true)
 * [Designing an email content from scratch](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
-## Converting an HTML content {#converting-an-html-content}
+## Converting HTML content {#converting-an-html-content}
 
 If you want to build a framework of modular templates and fragments that can be combined to reuse in multiple emails, you should consider converting your email HTML into an Email Designer template.
 
-This use case offers a quick way to convert an HTML email into Email Designer components.
+This use case offers a quick way to convert HTML email into Email Designer components.
 
 >[!CAUTION]
 >
