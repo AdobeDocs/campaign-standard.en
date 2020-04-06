@@ -39,7 +39,7 @@ You can then:
 
 | Useful pages | Additional resources |
 |---|---|
-| [Optimizing your deliverability](../../sending/using/about-deliverability.md) | [Fatigue management](../../administration/using/fatigue-rules.md) |
+| [Optimizing your deliverability](../../sending/using/about-deliverability.md) | [Fatigue management](../../sending/using/fatigue-rules.md) |
 | [Monitoring a delivery](../../audiences/using/creating-profiles.md) | [Designing A/B test emails](../../channels/using/designing-an-a-b-test-email.md) |
 | [Receiving a notification when a failure happens](../../sending/using/receiving-alerts-when-failures-happen.md) |  [Monitoring a delivery](../../sending/using/monitoring-a-delivery.md) |
 | [Building a control group](../../automating/using/workflow-control-group.md) | [Receiving a notification when a failure happens](../../sending/using/receiving-alerts-when-failures-happen.md) |
