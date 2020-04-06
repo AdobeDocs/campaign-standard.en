@@ -75,11 +75,17 @@ The possible reasons for a delivery failure are:
 
 ## Retries after a delivery temporary failure {#retries-after-a-delivery-temporary-failure}
 
-If a message fails due to a temporary error of the **Ignored** type, retries will be performed during the delivery duration. For more on the types of errors, see [Delivery failure types and reasons](#delivery-failure-types-and-reasons).
+///If a message fails due to a temporary error of the **Ignored** type, retries will be performed during the delivery duration. For more on the types of errors, see [Delivery failure types and reasons](#delivery-failure-types-and-reasons).
 
 To modify the duration of a delivery, go to the advanced parameters of the delivery or delivery template and specify the desired duration in the corresponding field. The advanced delivery properties are presented in [this section](../../administration/using/configuring-email-channel.md#validity-period-parameters).
 
-The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).
+The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).///
+
+ACS instances are using Momentum as the MTA, and with Momentum, the “Retries” settings in Campaign are ignored – Momentum manages the number of retries, along with the time in between retries, based on how well an IP is performing both historically and currently at a given domain.
+ Momentum does honor the delivery duration (validity period) setting in Campaign, but only up to 3.5 days. At that point, any message in the retry queue will be removed from the queue and sent back as a bounce.
+  So if you want retries for a delivery to stop after one day, they can set the delivery duration to 1, and Momentum will honor that setting by removing messages in the retry queue after one day.
+
+For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
 ## Synchronous and asynchronous errors {#synchronous-and-asynchronous-errors}
 

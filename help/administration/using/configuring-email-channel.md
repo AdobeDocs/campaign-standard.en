@@ -38,9 +38,15 @@ The email configuration screen allows you to define the parameters for the email
 
 * **Retries**
 
-  Temporarily undelivered messages are subject to an automatic retry. This section indicates how many retries should be performed the day after the send is started (**Number of retries**) and the minimum delay between retries (**Retry period**).
+  ///Temporarily undelivered messages are subject to an automatic retry. This section indicates how many retries should be performed the day after the send is started (**Number of retries**) and the minimum delay between retries (**Retry period**).
 
-  By default, five retries are scheduled for the first day with a minimum interval of one hour, spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Delivery parameters]** section. 
+  By default, five retries are scheduled for the first day with a minimum interval of one hour, spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Delivery parameters]** section.///
+
+  ACS instances are using Momentum as the MTA, and with Momentum, the “Retries” settings in Campaign are ignored – Momentum manages the number of retries, along with the time in between retries, based on how well an IP is performing both historically and currently at a given domain.
+ Momentum does honor the delivery duration (validity period) setting in Campaign, but only up to 3.5 days. At that point, any message in the retry queue will be removed from the queue and sent back as a bounce.
+  So if you want retries for a delivery to stop after one day, they can set the delivery duration to 1, and Momentum will honor that setting by removing messages in the retry queue after one day.
+
+  For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
 * **Email quarantine parameters**
 
