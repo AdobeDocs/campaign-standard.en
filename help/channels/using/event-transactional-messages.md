@@ -115,7 +115,7 @@ To set up personalization in a transactional message, follow the steps below:
 
 You can create product listings referencing one or more data collections in the content of a transactional email. For example, in a cart abandonment email you can include a list of all products that were in the users' carts when they left your website, with an image, the price, and a link to each product.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Product listings are only available when editing transactional email messages through the [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) interface.
 
@@ -206,7 +206,7 @@ For more on creating a collection and related fields when configuring the event,
 
    From the **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** node, open the node corresponding to the collection that you created (here **[!UICONTROL Product list]** ) and select the URL field that you created (here **[!UICONTROL Product URL]** ). Click **[!UICONTROL Save]**.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >For security reasons, make sure you insert the personalization field inside a link starting with a proper static domain name.
 
