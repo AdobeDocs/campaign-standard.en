@@ -429,7 +429,7 @@ Updated the Type of users section. [Read more](../../administration/using/users-
 
 In-App messaging (beta) - [Read more](../../channels/using/about-in-app-messaging.md)
 
-Adobe Launch integration for mobile apps (beta) - [Read more](../../administration/using/about-typology-rules.md#typology-rules)
+Adobe Launch integration for mobile apps (beta) - [Read more](../../sending/using/about-typology-rules.md#typology-rules)
 
 **Other documentation updates coming with the release**
 
@@ -443,7 +443,7 @@ Updated Push notification out-of-the-box report section. [Read more](../../repor
 
 **New capabilities included in the release**
 
-[High priority flag](../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android) and [typology filter](../../administration/using/about-typology-rules.md#typology-rules) for mobile app subscribers.
+[High priority flag](../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android) and [typology filter](../../sending/using/about-typology-rules.md#typology-rules) for mobile app subscribers.
 
 Automated content import from a URL at preparation time. [Read more](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
 
@@ -567,7 +567,7 @@ Added information on how to prepare a message in a delivery [Read more](../../se
 
 Release notes have been reorganized in several pages so that you get a more global view of all the different releases.
 
-The **[!UICONTROL Working with typologies]** section has been updated for an improved visibility. [Read more](../../administration/using/about-typology-rules.md)
+The **[!UICONTROL Working with typologies]** section has been updated for an improved visibility. [Read more](../../sending/using/about-typology-rules.md)
 
 A new option allowing to gain performance when defining many additional data in a **[!UICONTROL Query]** is now available. [Read more](../../automating/using/query.md)
 
@@ -597,7 +597,7 @@ New sections dedicated to [target mappings](../../administration/using/target-ma
 
 **New capabilities included in the release**
 
-Reporting for Fatigue Management - [Read more](../../administration/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report)
+Reporting for Fatigue Management - [Read more](../../sending/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report)
 
 Report sharing - [Read more](../../reporting/using/reporting-interface.md#share-tab)
 
@@ -625,7 +625,7 @@ Instructions to configure the integration with Audience Manager or People core s
 
 **New capabilities included in the release**
 
-Fatigue Management - [Read more](../../administration/using/fatigue-rules.md)
+Fatigue Management - [Read more](../../sending/using/fatigue-rules.md)
 
 Content creation: Import from a URL - [Read more](../../designing/using/using-existing-content.md#importing-content-from-a-url)
 

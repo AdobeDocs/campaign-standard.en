@@ -164,6 +164,13 @@ user-guide-title: Adobe Campaign Standard Help
        + [Technical recommendations](sending/using/technical-recommendations.md)
        + [Monitoring deliverability](sending/using/monitor-deliverability.md)
        + [Troubleshooting](sending/using/troubleshooting.md)
+  + Working with typology rules {#working-with-typology-rules}
+       + [About typologies and typology rules](sending/using/about-typology-rules.md)
+       + [Managing typologies](sending/using/managing-typologies.md)
+       + [Managing typology rules](sending/using/managing-typology-rules.md)
+       + [Filtering rules](sending/using/filtering-rules.md)
+       + [Fatigue rules](sending/using/fatigue-rules.md)
+       + [Control rules](sending/using/control-rules.md)
 + Reporting {#reporting}
   + About reporting {#about-reporting}
        + [About dynamic reports](reporting/using/about-dynamic-reports.md)
@@ -367,11 +374,6 @@ user-guide-title: Adobe Campaign Standard Help
        + [Configuring SMS channel](administration/using/configuring-sms-channel.md)
        + [Configuring a mobile application](administration/using/configuring-a-mobile-application.md)
        + [Configuring transactional messaging](administration/using/configuring-transactional-messaging.md)
-  + Working with typology rules {#working-with-typology-rules}
-       + [About typology rules](administration/using/about-typology-rules.md)
-       + [Filtering rules](administration/using/filtering-rules.md)
-       + [Fatigue rules](administration/using/fatigue-rules.md)
-       + [Control rules](administration/using/control-rules.md)
   + Application settings {#application-settings}
        + [About Campaign Standard settings](administration/using/about-campaign-standard-settings.md)
        + [External accounts](administration/using/external-accounts.md)

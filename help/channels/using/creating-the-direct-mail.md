@@ -70,7 +70,7 @@ Creating a direct mail delivery is very similar to creating a regular email. The
 
    >[!NOTE]
    >
-   >You can set global cross-channel fatigue rules that will automatically exclude oversollicited profiles from campaigns. See [Fatigue rules](../../administration/using/fatigue-rules.md).
+   >You can set global cross-channel fatigue rules that will automatically exclude oversollicited profiles from campaigns. See [Fatigue rules](../../sending/using/fatigue-rules.md).
 
 1. Click on **[!UICONTROL Explore file]** to preview the first 100 lines of the file. 
 

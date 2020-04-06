@@ -24,7 +24,7 @@ Once you have defined the target and created the content of a message, you need 
 
   >[!NOTE]
   >
-  >You can set global cross-channel fatigue rules that will automatically exclude oversollicited profiles from campaigns. See [Fatigue rules](../../administration/using/fatigue-rules.md).
+  >You can set global cross-channel fatigue rules that will automatically exclude oversollicited profiles from campaigns. See [Fatigue rules](../../sending/using/fatigue-rules.md).
 
 * Test the send: this step allows you to approve the message by sending proofs.
 * Check the delivery rendering: make sure that your message will be displayed in an optimal way on a variety of web clients, web mails and devices (highly recommended). 

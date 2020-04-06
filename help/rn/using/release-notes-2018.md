@@ -105,7 +105,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
   </tr> 
   <tr> 
    <td> Typology filter for mobile app subscribers<br /> </td> 
-   <td> Support subscriptions in typology filter - When specifying the filtering criteria for a typology rule, application subscriptions can be selected as the filtering and targeting dimensions, providing the ability to filter on attributes for users with or without a profile. <br /> For more information, refer to the <a href="../../administration/using/about-typology-rules.md#typology-rules">detailed documentation</a>.<br /> </td> 
+   <td> Support subscriptions in typology filter - When specifying the filtering criteria for a typology rule, application subscriptions can be selected as the filtering and targeting dimensions, providing the ability to filter on attributes for users with or without a profile. <br /> For more information, refer to the <a href="../../sending/using/about-typology-rules.md#typology-rules">detailed documentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Automated content import from a URL during message preparation<br /> </td> 
@@ -454,7 +454,7 @@ Some issues might occur when using contextual help links from Campaign interface
  <tbody> 
   <tr> 
    <td> Reporting for Fatigue Management<br /> </td> 
-   <td> Reporting for Fatigue Management is a dedicated, configurable report displaying the impact fatigue rules have on deliveries across the Email, Push, SMS, and Direct Mail channels within a specified date range before send. With the added insight of being able to quickly see all conflicting campaigns in a single view, marketers are able to plan marketing campaigns according to set the fatigue rules more effectively, and prioritize communications.<br /> For more information, refer to the <a href="../../administration/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report">detailed documentation</a>.<br /> </td> 
+   <td> Reporting for Fatigue Management is a dedicated, configurable report displaying the impact fatigue rules have on deliveries across the Email, Push, SMS, and Direct Mail channels within a specified date range before send. With the added insight of being able to quickly see all conflicting campaigns in a single view, marketers are able to plan marketing campaigns according to set the fatigue rules more effectively, and prioritize communications.<br /> For more information, refer to the <a href="../../sending/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report">detailed documentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Report sharing<br /> </td> 
