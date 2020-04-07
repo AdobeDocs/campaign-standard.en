@@ -34,6 +34,7 @@ The Configuring transactional messaging section has been improved with informati
 
 The section related to typologies and typology rules has been improved and updated with additional information on out-of-the-box typology rules. [Read more](../../sending/using/about-typology-rules.md)
 
+Information has been added on the **[!UICONTROL Transfer file]** activity's **!UICONTROL File listing]** action. [Read more](../../automating/using/transfer-file.md)
 
 ## Release 20.2 - March 2020 {#release-20-2---march-2020}
 
