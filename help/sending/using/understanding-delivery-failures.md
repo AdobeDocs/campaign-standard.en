@@ -53,7 +53,7 @@ The possible reasons for a delivery failure are:
 
 * **[!UICONTROL User unknown]** (Hard type): the address does not exist. No further deliveries will be attempted for this profile.
 * **[!UICONTROL Quarantined address]** (Hard type): the address was placed in quarantine.
-* **[!UICONTROL Unreachable]** (Soft/Hard type): an error has occurred in the message delivery chain (incident on SMTP relay, domain temporarily unreachable, etc.). According to the error returned by the provider, the address will be sent to quarantine directly or the delivery will be tried again until Campaign receives an error which justifies the Quarantine status or until the number of errors reaches 5.
+* **[!UICONTROL Unreachable]** (Soft/Hard type): an error has occurred in the message delivery chain (such as domain temporarily unreachable). According to the error returned by the provider, the address will be sent to quarantine directly or the delivery will be tried again until Campaign receives an error which justifies the Quarantine status or until the number of errors reaches 5.
 * **[!UICONTROL Address empty]** (Hard type): the address is not defined.
 * **[!UICONTROL Mailbox full]** (Soft type): the mailbox of this user is full and cannot accept more messages. This address can be removed from the quarantine list to make another attempt. It is removed automatically after 30 days.
 
@@ -90,23 +90,21 @@ A delivery can fail immediately (synchronous error), or later on, after it has b
 
 ## Bounce mail qualification {#bounce-mail-qualification}
 
-Delivery failure error messages (or "SMTP bounce responses") are picked up by the Adobe Campaign platform and then processed and qualified as **Hard**, **Soft**, or **Ignored** using the **[!UICONTROL Delivery log qualification]** database.
+<!--Delivery failure error messages (or "SMTP bounce responses") are picked up by the Adobe Campaign platform and then processed and qualified as **Hard**, **Soft**, or **Ignored** using the **[!UICONTROL Delivery log qualification]** database.
 
-<!--Delivery failure error messages (or "bounces") are picked up by the Adobe Campaign platform and qualified by the inMail process to enrich the list of email management rules.(applies to asynchronous (out-of-band) bounces)-->
+//Delivery failure error messages (or "bounces") are picked up by the Adobe Campaign platform and qualified by the inMail process to enrich the list of email management rules.(applies to asynchronous (out-of-band) bounces)
 
-This list is available to administrators only and contains all the rules used by Adobe Campaign to qualify delivery failures.
-
-To access it, click the **[!UICONTROL Adobe Campaign]** logo, at the top left, then select **[!UICONTROL Administration > Channels > Email > Email processing rules]**.
-
-For more on this, refer to this [section](../../administration/using/configuring-email-channel.md#email-processing-rules).
+This list is available to administrators only and contains all the rules used by Adobe Campaign to qualify delivery failures.-->
 
 >[!IMPORTANT]
 >
->Once upgraded to the Enhanced MTA, the bounce qualifications in the Campaign **[!UICONTROL Message qualification]** table are no longer used. For synchronous delivery failure error messages, the Enhanced MTA determines the bounce type and qualification, and sends back that information to Campaign. Asynchronous bounces are still qualified by the inMail process.
->
->For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+>Once upgraded to the Enhanced MTA, the bounce qualifications in the Campaign **[!UICONTROL Message qualification]** table are no longer used.
 
-Bounces can have the following qualification statuses:
+For synchronous delivery failure error messages, the Enhanced MTA determines the bounce type and qualification, and sends back that information to Campaign. For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+
+Asynchronous bounces are still qualified by the inMail process through the **[!UICONTROL Inbound email]** rules. To access these rules, click the **[!UICONTROL Adobe Campaign]** logo, at the top left, then select **[!UICONTROL Administration > Channels > Email > Email processing rules]** and select **[!UICONTROL Bounce mails]**. For more on this rule, refer to this [section](../../administration/using/configuring-email-channel.md#email-processing-rules).
+
+<!--Bounces can have the following qualification statuses:
 
 * **[!UICONTROL To qualify]**: the bounce mail needs to be qualified. Qualification must be done by the Deliverability team to ensure that the platform deliverability functions correctly. As long as it is not qualified, the bounce mail is not used to enrich the list of email processing rules.
 * **[!UICONTROL Keep]**: the bounce mail was qualified and will be used by the **Update for deliverability** workflow to be compared to existing email processing rules and enrich the list.
@@ -114,7 +112,7 @@ Bounces can have the following qualification statuses:
 
 To list the various bounces and their associated error types et reasons, click the **[!UICONTROL Adobe Campaign]** logo, in the top left, then select **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
 
-![](assets/qualification.png)
+![](assets/qualification.png)-->
 
 ## Optimizing mail deliverability with double opt-in mechanism {#optimizing-mail-deliverability-with-double-opt-in-mechanism}
 

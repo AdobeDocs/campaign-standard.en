@@ -16,7 +16,7 @@ snippet: y
 
 # About sending messages with Campaign{#about-sending-messages-with-campaign}
 
-Once you have defined the target and created the content of a message, you need to test it and to approve it before sending it to the main target. To do this:
+Once you have defined the target and created the content of a message, you need to test and approve it before sending the message to the main target. To do this:
 
 * Preview your delivery by using a test profile.
 * Schedule the sending: define when to send the message.
@@ -34,7 +34,7 @@ Once you have defined the target and created the content of a message, you need 
 
 * [About scheduling messages](../../sending/using/about-scheduling-messages.md)
 * [Preparing the send](../../sending/using/preparing-the-send.md)
-* [Managing test profiles and sending proofs](../../sending/using/managing-test-profiles-and-sending-proofs.md)
+* [Sending proofs](../../sending/using/sending-proofs.md)
 * [Email rendering](../../sending/using/email-rendering.md)
 * [Receiving alerts when failures happen](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Optimizing your deliverability](../../sending/using/about-deliverability.md)

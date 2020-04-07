@@ -84,7 +84,7 @@ The **[!UICONTROL Marketing plans]** icon gives you access the following functio
 The **[!UICONTROL Profiles & audiences]** icon gives you access to the following functionalities:
 
 * **[!UICONTROL Profiles]** - for more on this, refer to the [Managing profiles](../../audiences/using/about-profiles.md) section.
-* **[!UICONTROL Test profiles]** - for more on this, refer to the [Managing test profiles](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles) section.
+* **[!UICONTROL Test profiles]** - for more on this, refer to the [Managing test profiles](../../audiences/using/managing-test-profiles.md) section.
 * **[!UICONTROL Audiences]** - for more on this, refer to the [Managing audiences](../../audiences/using/about-audiences.md) section.
 * **[!UICONTROL Services]** - for more on this, refer to the [Creating a service](../../audiences/using/creating-a-service.md) section.
 
@@ -139,4 +139,3 @@ This bar not only contains common actions such as search and filtering, but also
 * For actions related to **workspace** type screens, refer to either the [Action bar](../../automating/using/workflow-interface.md#action-bar) section for the workflows.
 * For actions related to **dashboard** screens, refer to the [Message dashboard](../../channels/using/message-dashboard.md) section for more information.
 * For actions related to **list** type screens, refer to the [Customizing lists](../../start/using/customizing-lists.md) section below.
-

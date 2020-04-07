@@ -38,7 +38,7 @@ The audience is based on profiles with a completed preferred language informatio
 
    ![](assets/multi_selectcontent.png)
 
-1. Test and validate your message. Refer to the [Sending proof](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs) section.
+1. Test and validate your message. Refer to the [Sending proof](../../sending/using/sending-proofs.md) section.
 1. Schedule the send with the **[!UICONTROL Send after confirmation option]**.
 1. Once your email is sent, you can access its logs and reports to measure the success of your campaign. For more on reporting, refer to [this section](../../reporting/using/about-dynamic-reports.md).
 

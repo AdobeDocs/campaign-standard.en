@@ -25,6 +25,10 @@ The In-App content editor lets you choose between two In-App message modes:
 
 ![](assets/inapp_customize_1.png)
 
+>[!NOTE]
+>
+> In-App message rendering is only supported for Android API 19 and later versions.
+
 **Related topics:**
 
 * [Sending your In-App message](../../channels/using/preparing-and-sending-an-in-app-message.md#sending-your-in-app-message)
@@ -190,7 +194,7 @@ Before sending your In-App message, you can test with your test profiles to chec
 
    ![](assets/inapp_sending_2.png)
 
-1. Click the **[!UICONTROL Select a test profile]** button and select one of your test profiles to start previewing your delivery. For more information on test profiles, refer to this [section](../../sending/using/managing-test-profiles-and-sending-proofs.md).
+1. Click the **[!UICONTROL Select a test profile]** button and select one of your test profiles to start previewing your delivery. For more information on test profiles, refer to this [section](../../audiences/using/managing-test-profiles.md).
 1. Check your message on different devices such as Android, iPhone phones or even tablets. You can also check if your personalization fields are retrieving the right data.
 
    ![](assets/inapp_sending_3.png)

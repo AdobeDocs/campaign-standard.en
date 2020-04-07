@@ -20,15 +20,15 @@ snippet: y
 >
 >Audience Destinations service is currently in beta, which may be subject to frequent updates without notice. Customers are required to be hosted on Azure (currently in beta for North America only) to access these capabilities. Please reach out to Adobe Customer Care if you would like access.
 
-The Unified Segment Builder allows you to build audiences by defining rules based on data coming from the [Unified Profile Service](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation.html).
+The Unified Segment Builder allows you to build audiences by defining rules based on data coming from the [Unified Profile Service](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html).
 
-This section presents global concepts when building a segment. For detailed information on the Unified Segment Builder itself, refer to the [Segment Builder user guide](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md).
+This section presents global concepts when building a segment. For detailed information on the Unified Segment Builder itself, refer to the [Segment Builder user guide](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
 
 The Unified Segment Builder interface is composed as follows:
 
 * The left pane provides all attributes, events and audiences available to build the segment by dragging and dropping desired fields into the segment builder workspace.
 * The center area provides a workspace to build the segment by defining and combining rules from the available fields.
-* The header and right pane displays the segment's properties (i.e., name, description, and estimated qualified profiles for the segment).
+* The header and right pane display the segment's properties (i.e., name, description, and estimated qualified profiles for the segment).
 
 ![](assets/aep_audiences_interface.png)
 
@@ -44,7 +44,7 @@ To build a segment, follow these steps:
 
 1. Make sure that the desired merge policy is selected in the settings pane.
 
-    For more information on merge policies, refer to the dedicated section from the [Segment Builder user guide](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md).
+    For more information on merge policies, refer to the dedicated section from the [Segment Builder user guide](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
 
     ![](assets/aep_audiences_mergepolicy.png)
 
@@ -62,7 +62,7 @@ To build a segment, follow these steps:
 
 The left pane lists all attributes, events and audiences that are available for use to construct rules.
 
-The fields listed are attributes captured by your company and have been made available through the [Experience Data Model (XDM) System](https://www.adobe.io/apis/experienceplatform/home/xdm.html).
+The fields listed are attributes captured by your company and have been made available through the [Experience Data Model (XDM) System](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html).
 
 Fields are organized into tabs:
 
@@ -78,7 +78,7 @@ Fields are organized into tabs:
 >
 >**Multi-entity segmentation** allows you to extend Profile data with additional data based on products, stores, or other non-profile classes. Once connected, data from additional classes becomes available as if they were native to the Profile schema.
 >
->For more on this, refer to the [dedicated documentation](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/tutorials/segmentation/multi_entity_segmentation.md).
+>For more on this, refer to the [dedicated documentation](https://docs.adobe.com/content/help/en/experience-platform/segmentation/multi-entity-segmentation.html).
 
 By default, the Unified Segment builder displays fields in which data is already present. To display the full schema, including fields for which data is not present, enable the **[!UICONTROL Show full XDM schema]** option from the settings.
 
@@ -92,7 +92,7 @@ The symbol at the end of each field provides additional information about the at
 
 >[!NOTE]
 >
->The section below provides global information on rules definition. For more on this, refer to the [Segment Builder user guide](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md).
+>The section below provides global information on rules definition. For more on this, refer to the [Segment Builder user guide](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
 
 To build a rule, follow these steps:
 

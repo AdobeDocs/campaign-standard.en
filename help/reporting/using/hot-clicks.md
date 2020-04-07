@@ -43,7 +43,7 @@ To display clicks for women, click the **[!UICONTROL Change profile]** button an
 
 To display clicks for recipients over 25, click the **[!UICONTROL Change profile]** button and select a test profile whose birth date is matching this condition.
 
-For more on test profiles, see [About test profiles](../../sending/using/managing-test-profiles-and-sending-proofs.md#about-test-profiles).
+For more on test profiles, see [About test profiles](../../audiences/using/managing-test-profiles.md).
 
 >[!NOTE]
 >

@@ -26,8 +26,6 @@ The following types of images are available, depending on your configuration:
 * Images shared from Adobe Experience Cloud - refer to [Working with Campaign and Assets Core Service](../../integrating/using/working-with-campaign-and-assets-core-service.md) / Assets On Demand
 * Dynamic images from Adobe Target - refer to [Working with Campaign and Target](../../integrating/using/about-campaign-target-integration.md)
 
-If enabled, you can modify images with the Adobe Creative SDK. See [Modifying images with the Adobe Creative SDK](#modifying-images-with-the-adobe-creative-sdk).
-
 >[!CAUTION]
 >
 >If you choose to add an image directly by editing the HTML version of the email, you must not call up **external files in a &lt;script&gt; tag** of the HTML page. These files will not be imported onto the Adobe Campaign server.
@@ -71,6 +69,7 @@ The editor allows you to work with **all image types** whose formats are compati
 
 ```
 
+<!--
 ## Modifying images with the Adobe Creative SDK{#modifying-images-with-the-adobe-creative-sdk}
 
 You can edit images and use a complete set of features powered by the Adobe Creative SDK to enhance your images directly in the content editor when editing emails or landing pages.
@@ -93,3 +92,4 @@ To modify an image with the Adobe Creative SDK:
 >[!NOTE]
 >
 >Tools offered in the image editor cannot be customized.
+-->
