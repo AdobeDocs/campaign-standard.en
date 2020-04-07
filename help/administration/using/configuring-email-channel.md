@@ -42,7 +42,7 @@ The email configuration screen allows to define the parameters for the email cha
 
 * **Retries**
 
-  Temporarily undelivered messages are subject to an automatic retry.
+  Temporarily undelivered messages are subject to an automatic retry. For more on this, see [Retries after a delivery temporary failure](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
   >[!IMPORTANT]
   >
@@ -195,11 +195,11 @@ The **[!UICONTROL Send]** section is only available for email templates. It cont
 
 #### Retries parameters {#retries-parameters}
 
-Temporarily undelivered messages are subject to an automatic retry.
+Temporarily undelivered messages are subject to an automatic retry. For more on this, see [Retries after a delivery temporary failure](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
 >[!IMPORTANT]
   >
-  >Once upgraded to the [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html), the **Retries** settings in Campaign are ignored. The **[!UICONTROL Max. number of retries]** (how many retries should be performed the day after the send is started) and the **[!UICONTROL Retry period]** (minimum delay between retries) are managed by the Enhanced MTA, based on how well an IP is performing both historically and currently at a given domain.
+  >Once upgraded to the [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html), the **Retries** settings in Campaign are ignored. The **[!UICONTROL Retry period]** (minimum delay between retries) and the **[!UICONTROL Max. number of retries]** (how many retries should be performed the day after the send is started) are managed by the Enhanced MTA, based on how well an IP is performing both historically and currently at a given domain.
   
 <!--This section indicates how many retries should be performed the day after the send is started ( **[!UICONTROL Max. number of retries]** ) and the minimum delay between retries ( **[!UICONTROL Retry period]** ).
 
@@ -207,9 +207,7 @@ By default, five retries are scheduled for the first day with a minimum interval
 
 The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template.-->
 
-Momentum does honor the delivery duration setting (which is defined in the [Validity period parameters](#validity-period-parameters) section) in Campaign, but only up to 3.5 days. At that point, any message in the retry queue will be removed from the queue and sent back as a bounce.
-
-For example, if you want retries for a delivery to stop after one day, you can set the delivery duration to 1, and the Enhanced MTA will honor that setting by removing messages in the retry queue after one day.
+Momentum does honor the delivery duration setting (which is defined in the [Validity period parameters](#validity-period-parameters) section) in Campaign, but only up to 3.5 days. At that point, any message in the retry queue will be removed from the queue and sent back as a bounce. For more on delivery failures, see this [section](../../sending/using/understanding-delivery-failures.md#about-delivery-failures).
 
 #### Email format parameters {#email-format-parameters}
 
