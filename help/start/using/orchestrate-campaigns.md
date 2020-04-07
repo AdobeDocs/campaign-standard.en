@@ -41,7 +41,7 @@ snippet: y
 
 ## Key steps to set up a campaign
 
-<img width="60px" alt="conditions" src="assets/icon_profile.svg"/>
+<table><tr><td><img width="60px" alt="conditions" src="assets/icon_profile.svg"/></td><td></td></tr></table>
 
 Key steps to create and orchestrate a marketing campaign with Adobe Campaign are:
 

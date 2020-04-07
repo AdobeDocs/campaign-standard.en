@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Administrate Campaign Standard
+# Administrate your instance
 
 <table>
 <tr>
