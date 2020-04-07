@@ -18,7 +18,7 @@ snippet: y
 
 ## Email channel parameters {#email-channel-parameters}
 
-The email configuration screen allows you to define the parameters for the email channel.
+The email configuration screen allows to define the parameters for the email channel. Administrators can access these configurations in the **[!UICONTROL Administration] > [!UICONTROL Channels] > [!UICONTROL Email] > [!UICONTROL Configuration]** menu.
 
 ![](assets/channels_1.png)
 
@@ -34,29 +34,29 @@ The email configuration screen allows you to define the parameters for the email
 
   Adobe Campaign sends the messages beginning on the start date. The **[!UICONTROL Message delivery duration]** field allows you to specify the duration during which the messages can be sent.
 
+  >[!IMPORTANT]
+  >
+  >Once upgraded to the [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html), the **[!UICONTROL Message delivery duration]** parameter in your Campaign deliveries is used only if set to 3.5 days or less. If you define a value higher than 3.5 days, it will not be taken into account.
+
   The **[!UICONTROL Online resources validity duration]** field is used for uploaded resources, mainly for the mirror page and images. The resources on this page are valid for a limited time (to save disk space).
 
 * **Retries**
 
-  ///Temporarily undelivered messages are subject to an automatic retry. This section indicates how many retries should be performed the day after the send is started (**Number of retries**) and the minimum delay between retries (**Retry period**).
+  Temporarily undelivered messages are subject to an automatic retry.
 
-  By default, five retries are scheduled for the first day with a minimum interval of one hour, spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Delivery parameters]** section.///
+  >[!IMPORTANT]
+  >
+  >Once upgraded to the [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html), the **Retries** settings in Campaign are ignored. The **[!UICONTROL Number of retries]** (how many retries should be performed the day after the send is started) and the **[!UICONTROL Retry period]** (minimum delay between retries) are managed by the Enhanced MTA, based on how well an IP is performing both historically and currently at a given domain.
 
-  ACS instances are using Momentum as the MTA, and with Momentum, the “Retries” settings in Campaign are ignored – Momentum manages the number of retries, along with the time in between retries, based on how well an IP is performing both historically and currently at a given domain.
- Momentum does honor the delivery duration (validity period) setting in Campaign, but only up to 3.5 days. At that point, any message in the retry queue will be removed from the queue and sent back as a bounce.
-  So if you want retries for a delivery to stop after one day, they can set the delivery duration to 1, and Momentum will honor that setting by removing messages in the retry queue after one day.
-
-  For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+  <!--This section indicates how many retries should be performed the day after the send is started (**Number of retries**) and the minimum delay between retries (**Retry period**). By default, five retries are scheduled for the first day with a minimum interval of one hour, spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Delivery parameters]** section.-->
 
 * **Email quarantine parameters**
 
-  In the **[!UICONTROL Time between two significant errors]** field, enter a value to define the time the application waits before incrementing the error counter in case of failure. Defaut value: **"1d"**, for 1 day.
+  In the **[!UICONTROL Time between two significant errors]** field, enter a value to define the time the application waits before incrementing the error counter in case of failure. The default value is **"1d"**, for 1 day.
 
-  When the **[!UICONTROL Maximum number of errors before quarantine]** value is reached, the email address is then quarantined. Default value: **"5"**: the address will be quarantined on the sixth error. This means that the contact will be automatically excluded from subsequent deliveries.
+  When the **[!UICONTROL Maximum number of errors before quarantine]** value is reached, the email address is then quarantined. The default value is **"5"**: the address will be quarantined on the fifth error. This means that the contact will be automatically excluded from subsequent deliveries.
 
-**Related topic**:
-
-[Understanding quarantine management](../../sending/using/understanding-quarantine-management.md)
+  For more on quarantines, see [Understanding quarantine management](../../sending/using/understanding-quarantine-management.md).
 
 ## Email routing accounts {#email-routing-accounts}
 
@@ -76,7 +76,7 @@ The **[!UICONTROL Email processing rules]** can be accessed by Administrators th
 
 These rules contain the list of character strings which can be returned by remote servers and which let you qualify the error (**Hard**, **Soft** or **Ignored**).
 
-The default rules are as follows:
+The default rules are as follows.
 
 ### Bounce mails {#bounce-mails}
 
@@ -195,11 +195,21 @@ The **[!UICONTROL Send]** section is only available for email templates. It cont
 
 #### Retries parameters {#retries-parameters}
 
-Temporarily undelivered messages are subject to an automatic retry. This section indicates how many retries should be performed the day after the send is started ( **[!UICONTROL Max. number of retries]** ) and the minimum delay between retries ( **[!UICONTROL Retry period]** ).
+Temporarily undelivered messages are subject to an automatic retry.
+
+>[!IMPORTANT]
+  >
+  >Once upgraded to the [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html), the **Retries** settings in Campaign are ignored. The **[!UICONTROL Max. number of retries]** (how many retries should be performed the day after the send is started) and the **[!UICONTROL Retry period]** (minimum delay between retries) are managed by the Enhanced MTA, based on how well an IP is performing both historically and currently at a given domain.
+  
+<!--This section indicates how many retries should be performed the day after the send is started ( **[!UICONTROL Max. number of retries]** ) and the minimum delay between retries ( **[!UICONTROL Retry period]** ).
 
 By default, five retries are scheduled for the first day with a minimum interval of one hour, spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the [Validity period parameters](#validity-period-parameters) section.
 
-The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template
+The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template.-->
+
+Momentum does honor the delivery duration setting (which is defined in the [Validity period parameters](#validity-period-parameters) section) in Campaign, but only up to 3.5 days. At that point, any message in the retry queue will be removed from the queue and sent back as a bounce.
+
+For example, if you want retries for a delivery to stop after one day, you can set the delivery duration to 1, and the Enhanced MTA will honor that setting by removing messages in the retry queue after one day.
 
 #### Email format parameters {#email-format-parameters}
 
@@ -238,17 +248,19 @@ The **[!UICONTROL Validity period]** section contains the following parameters:
 
 ![](assets/delivery-validity-period.png)
 
-* **[!UICONTROL Explicitly set validity dates]**: when this box is unchecked, you must enter a duration in the **[!UICONTROL Delivery duration]** and **[!UICONTROL Resource validity limit]** fields. Check this box if you would like to define specific times and dates.
+* **[!UICONTROL Explicitly set validity dates]**: when this box is unchecked, you must enter a duration in the **[!UICONTROL Delivery duration]** and **[!UICONTROL Resource validity limit]** fields.
+
+  Check this box if you would like to define specific times and dates.
 
   ![](assets/delivery-set-explicit-dates.png)
 
-* **[!UICONTROL Delivery duration]**: Adobe Campaign sends the messages beginning on the start date. This field allows you to specify the duration during which the messages can be sent.
+* **[!UICONTROL Delivery duration]** / **[!UICONTROL Validity limit for sending messages]**: Adobe Campaign sends the messages beginning on the start date. This field allows you to specify the duration during which the messages can be sent.
 
   >[!IMPORTANT]
   >
-  >Once upgraded to the Enhanced MTA, the **[!UICONTROL Delivery duration]** parameter in your Campaign deliveries is used only if set to 3.5 days or less. If you define a value higher than 3.5 days, it will not be taken into account. All impacts are detailed in the [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html) document.
+  >Once upgraded to the [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html), the **[!UICONTROL Delivery duration]** parameter in your Campaign deliveries is used only if set to 3.5 days or less. If you define a value higher than 3.5 days, it will not be taken into account.
 
-* **[!UICONTROL Resource validity duration]**: this field is used for uploaded resources, mainly for the mirror page and images. The resources on this page are valid for a limited time (to save disk space).
+* **[!UICONTROL Resource validity duration]** / **[!UICONTROL Validity limit date for resources]**: this field is used for uploaded resources, mainly for the mirror page and images. The resources on this page are valid for a limited time (to save disk space).
 * **[!UICONTROL Mirror page management]**: the mirror page is an HTML page accessible online via a web browser. Its content is identical to the email content. By default, the mirror page is generated if the link is inserted in the mail content. This field allows you to modify the way in which this page is generated:
 
   >[!IMPORTANT]
