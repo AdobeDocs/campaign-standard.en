@@ -38,7 +38,7 @@ Information has been added on the **[!UICONTROL Transfer file]** activity's **!U
 
 The documentation on retries after a delivery temporary failure has been updated with more details on how retries are managed once upgraded to the Enhanced MTA. [Read more](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)
 
-The Deleting a transactional message section has been enhanced and clarified. [Read more](../..channels/using/event-transactional-messages.md#deleting-a-transactional-message)
+The Deleting a transactional message section has been enhanced and clarified. [Read more](../../channels/using/event-transactional-messages.md#deleting-a-transactional-message)
 
 ## Release 20.2 - March 2020 {#release-20-2---march-2020}
 
