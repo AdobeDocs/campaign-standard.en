@@ -56,21 +56,21 @@ Customer has custom entity vehicle predefined in Dynamics 365 and a correspondin
 
 This customer's custom entities in Dynamics 365 can be viewed in the Sales Dashboard by clicking on the drop down next to Dynamics 365.  This customer's custom entities are group together under **[!UICONTROL Extensions]**.
 
-![](assets/SalesDashboard.png)
+ ![](assets/SalesDashboard.png)
 
 Vehicle data can be viewed by clicking on the **[!UICONTROL vehicle]** custom entity.  See the list of vehicles below.
 
-![](assets/VehicleCustomEntity.png)
+ ![](assets/VehicleCustomEntity.png)
 
 The relationship of the **[!UICONTROL vehicle]** entity to the **[!UICONTROL Contact]** entity can be seen below. **[!UICONTROL Parental]** has been chosen for the **[!UICONTROL Type of Behavior]**.
 
-![](assets/ContactToVehicle.png)
+ ![](assets/ContactToVehicle.png)
 
 ### Configuration in Campaign Standard
 
 In Campaign, the customer's custom resources can be viewed by clicking **[!UICONTROL Adobe Campaign]** in the upper left corner, then selecting **[!UICONTROL Client data]**.
 
-![](assets/ClientDataMenu.png)
+ ![](assets/ClientDataMenu.png)
 
 ### Map custom resources and custom entities
 
@@ -78,14 +78,14 @@ The **[!UICONTROL vehicle]** custom resource should have been previously predefi
 
 Click on **[!UICONTROL Adobe Campaign]** in the upper left corner, then click on **[!UICONTROL Administration > Development > Custom Resources]**.
 
-![](assets/CustomRes.png)
+ ![](assets/CustomRes.png)
 
 1. Click on **[!UICONTROL Custom Resources]**.
 1. Click the **[!UICONTROL Create]** button.  This will open a pop-up window.  
 1. Select **[!UICONTROL Create a new resource]** and enter **[!UICONTROL Vehicle]** as the label and ID.  
 1. Click **[!UICONTROL Create]**.
 
-![](assets/CreateAcusRes.png)
+ ![](assets/CreateAcusRes.png)
 
 Campaign will then display data structures and link page.  You can see that several fields have been added.
 
@@ -99,17 +99,17 @@ Campaign will then display data structures and link page.  You can see that seve
 >
 >Each custom resource must have a unique field with an ID of externalId (exactly).  This field will map to the ID field of the custom resource in Dynamics 365 (see below).
 
-![](assets/FieldsInDynamics.png)
+ ![](assets/FieldsInDynamics.png)
 
 ### Define the identification keys
 
 The next step is to define the identification keys.  First, create the identification keys, as seen below.
 
-![](assets/IDkeys.png)
+ ![](assets/IDkeys.png)
 
 In the Key definition screen, make sure to select the **[!UICONTROL externalId]** field.
 
-![](assets/KeyDefinition.png)
+ ![](assets/KeyDefinition.png)
 
 >[!CAUTION]
 >
@@ -123,29 +123,29 @@ Under **[!UICONTROL Filter Definition]**, click **[!UICONTROL Add an element]**.
 Give the label and ID the name **[!UICONTROL ExternalId]**. 
 Click **[!UICONTROL Add]**.
 
-![](assets/FilterDefinition.png)
+ ![](assets/FilterDefinition.png)
 
 Now, click edit on the newly added filter element and configure the filter per the image below.  If you enter **[!UICONTROL externalId]** in the **[!UICONTROL Parameters]** field and click the plus sign, **[!UICONTROL externalId_parameter]** will appear.  Select this as the parameter.
 
-![](assets/EditArule.png)
+ ![](assets/EditArule.png)
 
 ### Define the link
 
 Next we will specify the linking of the custom resource.  In this case, we chose to link from the **[!UICONTROL Vehicles]** custom entity (source) to the profiles entity (target) using a **[!UICONTROL 1 cardinality simple link]**.
 
-(../assets/DefineTheLink.png)
+ ![](assets/DefineTheLink.png)
 
 1. In the **[!UICONTROL Link definitions]** screen, choose the delete option: **[!UICONTROL Deleting the target record implies deleting records referenced by the link]**. We choose this option so that when a profile is deleted, any **[!UICONTROL Vehicle]** records linked to that profile are deleted as well.  
 1. In **[!UICONTROL Join Definitions]**, select **[!UICONTROL Define specific join conditions]**.
 1. Then click **[!UICONTROL Add an element]**.
 
-![](assets/LinkConfiguration.png)
+ ![](assets/LinkConfiguration.png)
 
 For the join definition, we enter the values below. 
 
 Note that the **[!UICONTROL @externalId]** entry is the externalId field of the profile table and the **[!UICONTROL ProfileExternalId]** entry is the ID of the corresponding field in the vehicles custom resource.  When a profile record's externalId value is entered into the **[!UICONTROL ProfileExternalId]** field of a vehicle record, the two records will be linked together. 
 
-![](assets/JoinDefinition.png)
+ ![](assets/JoinDefinition.png)
 
 Confirm changes and save the custom entity.
 
@@ -157,21 +157,21 @@ The final step is to publish the custom resource.
 1. Keep the default option: **[!UICONTROL Determine modifications since the last publication]**.
 1. Click **[!UICONTROL Prepare Publication]** and wait for it to complete.
 
-![](assets/PublishModifications.png)
+ ![](assets/PublishModifications.png)
 
 Then click **[!UICONTROL Publish]** and wait for it to complete.
 
-![](assets/Publish.png)
+ ![](assets/Publish.png)
 
 ### Unifi ingress schedule
 
 Assuming that the customer has already populated the vehicle custom entity in Dynamics 365 and Unifi has set up their vehicle custom entity jobs and schedules with, the customer should be able to kick off the ingress schedule for the vehicle entity.
 
-![](assets/Schedule.png)
+ ![](assets/Schedule.png)
 
 After completion of the ingress job, the vehicle data can now be seen in the newly populated **[!UICONTROL Vehicle]** custom resource in Campaign.
 
-![](assets/ACSUpdate.png)
+ ![](assets/ACSUpdate.png)
 
 **Related Topics**
 
