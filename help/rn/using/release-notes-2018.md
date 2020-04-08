@@ -9,7 +9,6 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
-
 internal: n
 snippet: y
 ---
@@ -476,7 +475,7 @@ Some issues might occur when using contextual help links from Campaign interface
   </tr> 
   <tr> 
    <td> API Signal activity triggering<br /> </td> 
-   <td> It is now possible to trigger a signal activity for your workflows directly from Adobe Campaign Standard API.<br /> For more information, refer to the <a class="anchorLink" href="../../api/using/triggering-a-signal-activity.md">detailed documentation</a> .<br /> </td> 
+   <td> It is now possible to trigger a signal activity for your workflows directly from Adobe Campaign Standard API.<br /> For more information, refer to the <a href="/help/api/using/triggering-a-signal-activity.md">detailed documentation</a> .<br /> </td> 
   </tr> 
  </tbody> 
 </table>
