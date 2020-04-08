@@ -28,5 +28,5 @@ The steps to create and apply a typology to messages are:
 
 1. Create typology rules (see [this section](../../sending/using/managing-typology-rules.md#creating-a-typology-rule)).
 1. Create a typology and reference the rules you created into it (see [this section](../../sending/using/managing-typologies.md#creating-a-typology)).
-1. Configure your delivery to use the typology you created (see [this section](../../sending/using/managing-typologies.md#applying-typologies-to-messages))..
+1. Configure your delivery to use the typology you created (see [this section](../../sending/using/managing-typologies.md#applying-typologies-to-messages)).
 1. During the message preparation, profiles are excluded when criterion is met. You can check logs to monitor exclusions.

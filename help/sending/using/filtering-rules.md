@@ -23,7 +23,7 @@ Filtering rules allow you to exclude one part of the message target according to
 The table below provides information about out-of-the-box filtering rules, as well as their related channels.
 
 Label | Channel | Description
----------|----------|---------|---------
+---------|----------|---------
  **[!UICONTROL Address not specified]** | All | Excludes the target population with no specified address (email, postal address, etc. according to the selected channel).
  **[!UICONTROL Blacklisted address]** | All | Excludes blacklisted addresses.
  **[!UICONTROL Duplicate]** | All | Excludes duplicates based on the target population **[!UICONTROL Address]** field.
