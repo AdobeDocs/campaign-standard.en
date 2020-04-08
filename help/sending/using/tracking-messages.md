@@ -48,7 +48,6 @@ Tracking with the Adobe Campaign Standard allows you to access to the following 
     </td>
     <td valign="top">
           <a href="../../reporting/using/tracking-indicators.md"><img width="60px" alt="conditions" src="assets/icon_report.png"/></a>
-
 </tr>
 <tr>
 <td>Email tracking</td>
@@ -57,7 +56,6 @@ Tracking with the Adobe Campaign Standard allows you to access to the following 
 <td>Tracking logs</td>
 <td>Tracking report</td>
 </tr>
-
 </table>
 
 ## Tracking logs {#tracking-logs}
