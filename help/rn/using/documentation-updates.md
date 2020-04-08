@@ -34,7 +34,7 @@ The Configuring transactional messaging section has been improved with informati
 
 The section related to typologies and typology rules has been improved and updated with additional information on out-of-the-box typology rules. [Read more](../../sending/using/about-typology-rules.md)
 
-Information has been added on the **[!UICONTROL Transfer file]** activity's **!UICONTROL File listing]** action. [Read more](../../automating/using/transfer-file.md)
+Information has been added on the **[!UICONTROL Transfer file]** activity's **[!UICONTROL File listing]** action. [Read more](../../automating/using/transfer-file.md)
 
 The documentation on retries after a delivery temporary failure has been updated with more details on how retries are managed once upgraded to the Enhanced MTA. [Read more](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)
 
