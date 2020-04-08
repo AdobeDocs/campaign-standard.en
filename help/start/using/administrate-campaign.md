@@ -33,7 +33,7 @@ snippet: y
 </tr>
 <tr>
 <td>Campaign data model</td>
-<td>APIs</td>
+<td>Work with REST APIs</td>
 <td>Manage users</td>
 <td>Configure and monitor your instance</td>
 </tr>
@@ -45,12 +45,12 @@ snippet: y
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, a lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
-***Read more**
+**Read more**
 
 * xxxx
 * xxxx
 
-## APIs
+## Work with REST APIs
 
 <img width="60px" alt="conditions" src="assets/icon_profile.svg"/>
 

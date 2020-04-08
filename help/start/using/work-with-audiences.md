@@ -16,6 +16,29 @@ snippet: y
 
 # Working with profiles & audiences
 
+<table>
+<tr>
+    <td valign="top">
+        <a href="../../start/using/work-with-audiences.md"><img width="60px" alt="conditions" src="assets/icon_profile.svg"/></a>
+    </td>
+    <td valign="top">
+        <a href="../../api/using/creating-a-service.md"><img width="60px" alt="conditions" src="assets/icon_profile.svg"/></a>
+    </td>
+    <td valign="top">
+        <a href="../../api/using/interacting-with-custom-resources.md"><img width="60px" alt="conditions" src="assets/icon_profile.svg"/></a>
+    </td>
+    <td valign="top">
+        <a href="../../api/using/interacting-with-marketing-history.md"><img width="60px" alt="conditions" src="assets/icon_profile.svg"/></a>
+    </td>
+</tr>
+<tr>
+<td>Customer profiles</td>
+<td>Enriching your database</td>
+<td>Organize your audiences</td>
+<td>Privacy management</td>
+</tr>
+</table>
+
 ## Customer profiles {#customer-profiles}
 
 <img width="60px" alt="conditions" src="assets/icon_profile.svg"/>
@@ -27,7 +50,7 @@ Adobe Campaign profiles represent all of the contacts stored in the database. Ea
 * [About profiles](../../audiences/using/about-profiles.md)
 * [Accessing the number of Active Profiles in your organization](../../audiences/using/active-profiles.md)
 
-## Populating your database {#populating-database}
+## Enriching your database {#populating-database}
 
 <img width="60px" alt="conditions" src="assets/icon_populate.svg"/>
 

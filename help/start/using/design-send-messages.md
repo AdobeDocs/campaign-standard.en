@@ -30,6 +30,9 @@ snippet: y
     <td valign="top">
         <a href="../../api/using/interacting-with-marketing-history.md"><img width="60px" alt="conditions" src="assets/icon_profile.svg"/></a>
     </td>
+    <td valign="top">
+        <a href="../../api/using/interacting-with-marketing-history.md"><img width="60px" alt="conditions" src="assets/icon_profile.svg"/></a>
+    </td>
 </tr>
 <tr>
 <td>Design your deliveries</td>
