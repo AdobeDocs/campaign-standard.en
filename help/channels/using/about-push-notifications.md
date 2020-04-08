@@ -57,21 +57,18 @@ As an expert user, to define these specific configurations, refer to the mobile 
 >To leverage the push notification feature from Campaign, you need  to provide a valid push certificate in .pem format with no passwords.
 If you have a valid p12 certificate, you can convert it easily into a .pem file using online resources.
 
-First, to be able to start sending push notifications, you need to configure your mobile application using Experience Platform SDKs. For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
-
 Before sending your push notifications, you should:
 
-1. Make sure you can access the **[!UICONTROL Mobile app]** channel in Adobe Campaign.
-1. Configure your mobile application in:
+1. In Adobe Campaign, make sure you can access the **[!UICONTROL Push notification]** channel. If you cannot access these channels, contact your account team.
 
-    * Adobe Campaign
-    * The Adobe Mobile Services interface
+1. Verify that your user has the necessary permissions in Adobe Campaign Standard and Experience Platform Launch.
 
-1. Perform the mobile application's specific setup:
+1. In Experience Platform Launch, create a mobile property. For more information, see [Set up a mobile property](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property).
 
-    * Package the configuration file downloaded from the Adobe Mobile Services interface with the mobile application.
-    * Integrate the Experience Cloud Mobile SDK into your mobile application.
+1. In Experience Platform Launch, install the **[!UICONTROL Adobe Campaign Standard]** extension.
 
-1. Define the data that you want to collect from your application's subscribers. The mobile application's subscribers who have a profile in the Adobe Campaign database are reconciled based on the criteria that you defined.
+1. In Adobe Campaign Standard, configure the mobile property that you created in Experience Platform Launch. For more information, see [Setting up your Experience Platform Launch application in Adobe Campaign](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#SettingupyourAdobeExperiencePlatformLaunchapplicationinAdobeCampaign).
 
-After configuring your mobile application, you can now start preparing and sending your In-app messages. For more on this, refer to [Preparing and sending a push notification](../../channels/using/preparing-and-sending-a-push-notification.md).
+1. Add the channel-specific configuration to your mobile application set up. For more information, see [Channel-specific application configuration in Adobe Campaign](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign).
+
+1. To support mobile use case implementations, see the detailed instructions about extensions, Experience Platform Launch rules, and the SDK implementation in [Mobile use cases supported in Adobe Campaign Standard by using the Adobe Experience Platform SDKs](https://helpx.adobe.com/campaign/kb/configure-launch-rules-acs-use-cases.html).

@@ -16,7 +16,13 @@ snippet: y
 
 # About profiles and audiences{#about-profiles-and-audiences}
 
+## Segmenting and targeting
+
 When you create campaigns or messages, you can specify the target of the deliveries by selecting from contacts in Campaign database, using simple or advanced criteria, or selecting audiences.
+
+Identify customers more effectively across all your channels using integrated customer profiles and customized segments. When you know your customers, interests, demographics, and channel preferences, it’s easier to create personalized experiences that get noticed.
+
+![](assets/do-not-localize/audiences.png)
 
 Adobe Campaign builds rich customer profiles in real time, allowing you to deliver more relevant and personalized offers as your customer’s preferences change. In addition, Adobe Campaign integrates advanced analysis, data management and targeting functionalities to build audiences.
 
@@ -28,24 +34,26 @@ Adobe Campaign builds rich customer profiles in real time, allowing you to deliv
 
   Using workflows and the query editor, you can construct audiences that will be targeted by your marketing campaigns, depending on the information that you have on them, their activities, and their marketing history. This allows you to filter subscribed profiles, sample, or create target audiences on an unlimited number of criteria.
 
+## Permission and consent
+
 Before starting to send messages to a contact, you need to make sure that you get their permission. If not, your emails might be marked as a spam and this will impact your platform deliverability. To make sure to build a healthy profile database, secure this permission as a first step. With Campaign, we recommend you to use easy opt-in and opt-out mechanisms through [services](../../audiences/using/creating-a-service.md), and [landing pages](../../channels/using/getting-started-with-landing-pages.md) to update your contact information and grow your database.
 
 Providing unsubscription links in your messages will enable Profiles to be blacklisted, when necessary, and therefore to improve your platform deliverability. For more on blacklisting, refer to [About opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
-Identify customers more effectively across all your channels using integrated customer profiles and customized segments. When you know your customers, interests, demographics, and channel preferences, it’s easier to create personalized experiences that get noticed.
-
 >[!CAUTION]
 >
->You must always respect [Adobe Campaign acceptable use policy](https://www.adobe.com/legal/terms/aup.html).
+>You are required to respect the [Adobe Campaign acceptable use policy](https://www.adobe.com/legal/terms/aup.html).
 
-GDPR is the European Union’s (EU) new privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU. In addition to the privacy capabilities already available in Adobe Campaign (including consent management, data retention settings, and user roles), we are taking this opportunity in our role as a Data Processor to include additional capabilities, to help facilitate your readiness as a Data Controller for certain GDPR requests.
+## Privacy compliance
 
-Refer to this [guide](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html) to learn more about the tools and functionalities that Adobe Campaign provides to help you become GDPR compliant.
+Adobe Campaign offers a set of tools to help you with your Privacy Compliance for GDPR, CCPA, and other privacy laws. Learn more in this [this article](https://helpx.adobe.com/campaign/kb/campaign-privacy.html) about Privacy Management and the features we provide to manage Right to Access, Right to be Forgotten, consent, data retention and user roles. You will also find best best practices, to help you with your Privacy compliance when using our service.
 
-**Related topics:**
+## Related topics
 
-* [Creating audiences](../../audiences/using/creating-audiences.md)
-* [Creating profiles](../../audiences/using/creating-profiles.md)
-* [Integrated customer profile](../../audiences/using/integrated-customer-profile.md)
-* [About opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-
+| Useful pages | Additional resources |
+|---|---|
+| [Creating audiences](../../audiences/using/creating-audiences.md) | [Working with Audience Destinations service](../../audiences/using/aep-about-audience-destinations-service.md) |
+| [Creating profiles](../../audiences/using/creating-profiles.md) | [Working  with Microsoft Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md) |
+| [Integrated customer profile](../../audiences/using/integrated-customer-profile.md) |  [Adobe Shared Audiences](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md) |
+| [About opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md) | [Using workflows to import  profiles](../../automating/using/importing-data.md) |
+| [Privacy management  (GDPR,  CCPA)](https://helpx.adobe.com/campaign/kb/campaign-privacy.html) | [Creating profiles and audiences  (video)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html) |
