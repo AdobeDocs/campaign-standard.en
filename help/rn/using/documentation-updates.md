@@ -40,7 +40,7 @@ The documentation on retries after a delivery temporary failure has been updated
 
 The Deleting a transactional message section has been enhanced and clarified. [Read more](../../channels/using/event-transactional-messages.md#deleting-a-transactional-message)
 
-## Release 20.2 - March 2020 {#release-20-2---march-2020}
+## Release 20.2 - April 2020 {#release-20-2---april-2020}
 
 **New capabilities included in the release**
 
