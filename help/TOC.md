@@ -20,11 +20,7 @@ user-guide-title: Adobe Campaign Standard Help
   + [Deprecated Features](rn/using/deprecated-features.md)
 + Getting started {#getting-started}
   + [About Adobe Campaign Standard](start/using/about-campaign-standard.md)
-  + Get started {#get-started}
-       + [Orchestrate campaigns](start/using/orchestrate-campaigns.md)
-       + [Work with profiles & audiences](start/using/work-with-audiences.md)
-       + [Design and send messages](start/using/design-send-messages.md)
-       + [Administrate your instance](start/using/administrate-campaign.md)
+  + [About Adobe Campaign Standard](start/using/about-campaign-standard2.md)
   + Discovering the interface {#discovering-the-interface}
        + [About the interface](start/using/about-the-interface.md)
        + [Interface description](start/using/interface-description.md)
