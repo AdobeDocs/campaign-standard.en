@@ -16,6 +16,8 @@ snippet: y
 
 # Previewing messages {#previewing-messages}
 
+## Previewing emails {#previewing-emails}
+
 Campaign Standard allows you to preview messages before sending, in order to check their personalization and how your recipients will see them.
 
 Messages preview is performed using **Test profiles** that you add to the message's target.
@@ -47,3 +49,52 @@ To preview a message using test profiles, follow these steps:
 * [Managing test profiles](../../audiences/using/managing-test-profiles.md)
 * [Testing email messages using targeted profiles](../../sending/using/testing-messages-using-target.md)
 * [Sending proofs](../../sending/using/sending-proofs.md)
+
+## Previewing SMS messages {#previewing-sms}
+
+For **SMS** messages, Campaign Standard allows you to preview messages using test profiles. This allows you to get an exact representation of the message that a specific profile will receive. For more on this, see [Managing test profiles](../../audiences/using/managing-test-profiles.md).
+
+To preview a SMS message using test profiles, follow these steps:
+
+1. Once you filled in the **[!UICONTROL Properties]** of your SMS message and selected your audiences, you can personalized your delivery. For more information, refer to this [section](../../designing/using/designing-content-in-adobe-campaign.md).
+
+1. After personalizing your content, click **[!UICONTROL Create]** to access the **[!UICONTROL Summary]** window.
+
+1. From the **[!UICONTROL Summary]** window, click **[!UICONTROL Content]** to start previewing your delivery.
+
+1. Click **[!UICONTROL Preview]** in the toolbar.
+
+1. Click **[!UICONTROL Change profile]** to select your test profile then **[!UICONTROL Confirm]**.
+
+You can now see the exact representation of your message depending on the selected test profiles.
+
+**Related topics**
+
+* [Managing test profiles](../../audiences/using/managing-test-profiles.md)
+* [Testing email messages using targeted profiles](../../sending/using/testing-messages-using-target.md)
+* [Sending proofs](../../sending/using/sending-proofs.md)
+
+## Previewing Push notifications {#previewing-push}
+
+For **Push notification**, Campaign Standard allows you to preview messages using test profiles. This allows you to get an exact representation of the message that a specific profile will receive. For more on this, see [Managing test profiles](../../audiences/using/managing-test-profiles.md).
+
+To preview a Push notification using test profiles, follow these steps:
+
+1. Once you filled in the **[!UICONTROL Properties]** of your push notification and selected your audiences, you can personalized your delivery. For more information, refer to this [section](../../designing/using/designing-content-in-adobe-campaign.md).
+
+1. After personalizing your content, you can directly check the rendering of your push notifications depending on devices and OS in the preview window.
+
+1. To preview your push notification using test profiles, click **[!UICONTROL Preview with test profile]**.
+
+1. Select your test profile then **[!UICONTROL Confirm]**.
+
+You can now see the exact representation of your message depending on the selected test profiles.
+
+**Related topics**
+
+* [Managing test profiles](../../audiences/using/managing-test-profiles.md)
+* [Testing email messages using targeted profiles](../../sending/using/testing-messages-using-target.md)
+* [Sending proofs](../../sending/using/sending-proofs.md)
+
+
+## Previewing In-App messages {#previewing-inapp}
