@@ -20,7 +20,7 @@ snippet: y
 
 [Click here](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) to subscribe to release notifications and get details about latest Adobe Experience Cloud releases straight in your inbox.
 
-## Release 20.2 - March 2020 {#release-20-2---march-2020}
+## Release 20.2 - April 2020 {#release-20-2---april-2020}
 
 **What's new?**
 
