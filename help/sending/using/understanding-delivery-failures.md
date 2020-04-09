@@ -77,13 +77,13 @@ The possible reasons for a delivery failure are:
 
 If a message fails due to a temporary error of the **Ignored** type, retries will be performed during the delivery duration. For more on the types of errors, see [Delivery failure types and reasons](#delivery-failure-types-and-reasons).
 
-Once upgraded to the [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html), the **Retries** settings in Campaign are ignored. The number of retries (how many retries should be performed the day after the send is started) and the minimum delay between retries are managed by the Enhanced MTA, based on how well an IP is performing both historically and currently at a given domain.
+The number of retries (how many retries should be performed the day after the send is started) and the minimum delay between retries are now managed by the Adobe Campaign Enhanced MTA, based on how well an IP is performing both historically and currently at a given domain. The **Retries** settings in Campaign are ignored.
 
 To modify the duration of a delivery, go to the advanced parameters of the delivery or delivery template, and edit the **[!UICONTROL Delivery duration]** field of the [Validity period](../../administration/using/configuring-email-channel.md#validity-period-parameters) section.
 
 >[!IMPORTANT]
 >
->Once upgraded to the [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html), the **[!UICONTROL Delivery duration]** parameter in your Campaign deliveries is used only if set to 3.5 days or less. If you define a value higher than 3.5 days, it will not be taken into account.
+>The **[!UICONTROL Delivery duration]** parameter in your Campaign deliveries is now only used if set to 3.5 days or less. If you define a value higher than 3.5 days, it will not be taken into account as it is now managed by the Adobe Campaign Enhanced MTA.
 
 For example, if you want retries for a delivery to stop after one day, you can set the delivery duration to **1d**, and the Enhanced MTA will honor that setting by removing messages in the retry queue after one day.
 
@@ -110,9 +110,9 @@ This list is available to administrators only and contains all the rules used by
 
 >[!IMPORTANT]
 >
->Once upgraded to the Enhanced MTA, the bounce qualifications in the Campaign **[!UICONTROL Message qualification]** table are no longer used.
+>Bounce mail qualification is now managed by the Adobe Campaign Enhanced MTA. The bounce qualifications in the Campaign **[!UICONTROL Message qualification]** table are no longer used.
 
-For synchronous delivery failure error messages, the Enhanced MTA determines the bounce type and qualification, and sends back that information to Campaign. For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+For synchronous delivery failure error messages, the Enhanced MTA determines the bounce type and qualification, and sends back that information to Campaign.
 
 Asynchronous bounces are still qualified by the inMail process through the **[!UICONTROL Inbound email]** rules. To access these rules, click the **[!UICONTROL Adobe Campaign]** logo, at the top left, then select **[!UICONTROL Administration > Channels > Email > Email processing rules]** and select **[!UICONTROL Bounce mails]**. For more on this rule, refer to this [section](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
