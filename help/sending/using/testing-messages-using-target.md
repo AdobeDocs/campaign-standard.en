@@ -125,7 +125,7 @@ To import profiles to use for testing from an audience, follow these steps:
 >
 >If you import the same audience once again, with different substitution addresses and/or prefixes, the profiles will be added to the list in addition to those from the previous import.
 
-    ![](assets/substitution_audience_added.png)
+![](assets/substitution_audience_added.png)
 
 ## Previewing the message with targeted profiles
 
