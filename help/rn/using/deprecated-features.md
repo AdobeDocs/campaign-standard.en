@@ -47,23 +47,9 @@ Customers are advised to review if they make use of the feature/capability in th
   <tr> 
    <td> <p> Starting 20.1 release, SDK v4 is deprecated. <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">Learn more</a>.</p><br/>
    <p>The <a href="https://aep-sdks.gitbook.io/docs/">Adobe Experience Platform Mobile SDK</a> (previously referred to as v5) will exclusively support upcoming Adobe Experience Cloud features and functionality.</p></br>
-     <p>Target removal date: September 30, 2020</p>
+     <p>
+     <em>Target removal date: September 30, 2020</em></p>
      </td> 
-  </tr> 
- </tbody> 
-</table>
-
-<table> 
- <thead> 
-  <tr> 
-   <th> <strong>Creative SDK for Campaign Standard</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>Adobe Creative SDK has been decommissioned. As a consequence, image edition powered by Creative SDK in Campaign Standard emails is deprecated starting 20.1 release.</p></br>
-  <p> Target removal date: March 2020 - Campaign 20.2 release</p>
-   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -77,7 +63,8 @@ Customers are advised to review if they make use of the feature/capability in th
   <tr> 
    <td> <p>Starting Campaign 19.4 release, the use of the Campaign API and interface for access and delete requests is deprecated. The 2-step profile deletion will not be available. Use  <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe Privacy Core Service</a>.</p></br>
    <p>See also <a href="https://helpx.adobe.com/campaign/kb/acs-privacy.html">Privacy Management in Campaign Standard</a>.</p>
-  <p> Target removal date: July 2020 - Campaign 20.5 release</p>
+  <p> 
+  <em>Target removal date: July 2020 - Campaign 20.5 release </em></p>
    </td> 
   </tr> 
  </tbody> 
@@ -93,7 +80,8 @@ Customers are advised to review if they make use of the feature/capability in th
   <tr> 
    <td> <p>Starting Campaign 19.0 release, the legacy email editor is deprecated. Use <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">the new Email Designer</a> to create and personalize your email content. </p></br>
    <p>Read out <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">this section</a> to learn how to adapt your email templates for the new editor.</p></br>
-  <p> Target removal date: October 2020 - Campaign 20.6 release</p>
+  <p> 
+  <em>Target removal date: October 2020 - Campaign 20.6 release </em></p>
    </td> 
   </tr> 
  </tbody> 
@@ -113,6 +101,23 @@ Customers are advised to review if they make use of the feature/capability in th
  </tbody> 
 </table>
 
+## Removed Features {#removed-features}
+
+This section lists features and capabilities that have been removed from Campaign Standard.
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>Creative SDK for Campaign Standard</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p>Adobe Creative SDK has been decommissioned. As a consequence, image edition powered by Creative SDK in Campaign Standard emails is no longer available starting Campaign 20.2 release.</p></br>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 ## End of compatibility {#end-of-compatibility}
 
