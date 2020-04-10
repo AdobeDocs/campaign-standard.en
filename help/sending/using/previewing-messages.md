@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Previewing messages {#previewing-messages}
+# Previewing deliveries {#previewing-messages}
 
 ## Previewing emails {#previewing-emails}
 
