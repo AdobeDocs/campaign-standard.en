@@ -103,3 +103,4 @@ snippet: y
 * Fixed an issue when deleting a privacy request manually in Campaign after it had been processed, which prevented data associated to the request from being deleted even after cleanup.
 * Fixed an issue that could occur when previewing or sending messages that included special characters from Adobe Experience Manager.
 * Fixed an issue that could occur in workflows when executing an activity with several inbound transitions.
+* Fixed an issue which prevented standard users from using the 'Subscriptions to an application' as the target dimension in a workflow query or a delivery. (CAMP-37618)
