@@ -20,7 +20,6 @@ user-guide-title: Adobe Campaign Standard Help
   + [Deprecated Features](rn/using/deprecated-features.md)
 + Getting started {#getting-started}
   + [About Adobe Campaign Standard](start/using/about-campaign-standard.md)
-  + [About Adobe Campaign Standard](start/using/about-campaign-standard2.md)
   + Discovering the interface {#discovering-the-interface}
        + [About the interface](start/using/about-the-interface.md)
        + [Interface description](start/using/interface-description.md)
