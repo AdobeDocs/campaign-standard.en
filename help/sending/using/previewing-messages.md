@@ -135,5 +135,5 @@ You can now see the exact representation of your message depending on the select
 **Related topics**
 
 * [About In-App messaging](../../channels/using/about-in-app-messaging.md)
-* [Preparing and sending an In-App message](../../channels/using/#preparing-and-sending-an-in-app-message.md)
+* [Preparing and sending an In-App message](../../channels/using/preparing-and-sending-an-in-app-message.md)
 * [Customizing an In-App message](../../channels/using/customizing-an-in-app-message.md)
