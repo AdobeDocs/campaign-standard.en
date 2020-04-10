@@ -27,7 +27,7 @@ The steps to create and send messages are as follows:
 
    >[!NOTE]
    >
-   >You can set global cross-channel fatigue rules that will automatically exclude oversollicited profiles from campaigns. See [Fatigue rules](../../administration/using/fatigue-rules.md).
+   >You can set global cross-channel fatigue rules that will automatically exclude oversollicited profiles from campaigns. See [Fatigue rules](../../sending/using/fatigue-rules.md).
 
 1. Send proofs. Refer to [Sending proofs](../../sending/using/sending-proofs.md).
 1. Send the message and check its delivery. Refer to [Sending messages](../../sending/using/confirming-the-send.md).

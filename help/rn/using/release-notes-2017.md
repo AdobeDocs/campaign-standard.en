@@ -36,7 +36,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
  <tbody> 
   <tr> 
    <td> Fatigue Management<br /> </td> 
-   <td> Fatigue Management allows you to create fatigue rules to manage over-communication with profiles. Fatigue rules are easily built, but are extremely flexible with capabilities such as counting messages across multiple channels (including transactional messages), only counting specific deliveries, or applying rules to specific profiles.<br /> For more information, refer to the <a href="../../administration/using/fatigue-rules.md">detailed documentation</a>.<br /> </td> 
+   <td> Fatigue Management allows you to create fatigue rules to manage over-communication with profiles. Fatigue rules are easily built, but are extremely flexible with capabilities such as counting messages across multiple channels (including transactional messages), only counting specific deliveries, or applying rules to specific profiles.<br /> For more information, refer to the <a href="../../sending/using/fatigue-rules.md">detailed documentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Content creation: Import from a URL<br /> </td> 

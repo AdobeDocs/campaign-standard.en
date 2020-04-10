@@ -22,7 +22,7 @@ When a delivery cannot be sent to a profile, the remote server automatically sen
 
 >[!NOTE]
 >
->**Email** error messages (or "bounces") are qualified by the inMail process. **SMS** error messages (or "SR" for "Status Report") are qualified by the MTA process.
+>**Email** error messages (or "bounces") are qualified by the Enhanced MTA (synchronous bounces) or by the inMail process (asynchronous bounces). **SMS** error messages (or "SR" for "Status Report") are qualified by the MTA process.
 
 Messages can also be excluded during the delivery preparation if an address is quarantined or if a profile is blacklisted. Excluded messages are listed in the **[!UICONTROL Exclusion logs]** tab of the delivery dashboard (see [this section](../../sending/using/monitoring-a-delivery.md#exclusion-logs)).
 
@@ -77,9 +77,21 @@ The possible reasons for a delivery failure are:
 
 If a message fails due to a temporary error of the **Ignored** type, retries will be performed during the delivery duration. For more on the types of errors, see [Delivery failure types and reasons](#delivery-failure-types-and-reasons).
 
-To modify the duration of a delivery, go to the advanced parameters of the delivery or delivery template and specify the desired duration in the corresponding field. The advanced delivery properties are presented in [this section](../../administration/using/configuring-email-channel.md#validity-period-parameters).
+Once upgraded to the [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html), the **Retries** settings in Campaign are ignored. The number of retries (how many retries should be performed the day after the send is started) and the minimum delay between retries are managed by the Enhanced MTA, based on how well an IP is performing both historically and currently at a given domain.
 
-The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).
+To modify the duration of a delivery, go to the advanced parameters of the delivery or delivery template, and edit the **[!UICONTROL Delivery duration]** field of the [Validity period](../../administration/using/configuring-email-channel.md#validity-period-parameters) section.
+
+>[!IMPORTANT]
+>
+>Once upgraded to the [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html), the **[!UICONTROL Delivery duration]** parameter in your Campaign deliveries is used only if set to 3.5 days or less. If you define a value higher than 3.5 days, it will not be taken into account.
+
+For example, if you want retries for a delivery to stop after one day, you can set the delivery duration to **1d**, and the Enhanced MTA will honor that setting by removing messages in the retry queue after one day.
+
+>[!NOTE]
+>
+>Once a message has been in the Enhanced MTA queue for 3.5 days and has failed to deliver, it will time out and its status will be updated from **[!UICONTROL Sent]** to **[!UICONTROL Failed]** in the [delivery logs](../../sending/using/monitoring-a-delivery.md#delivery-logs).
+
+<!--The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
 
 ## Synchronous and asynchronous errors {#synchronous-and-asynchronous-errors}
 

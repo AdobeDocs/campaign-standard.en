@@ -39,7 +39,8 @@ You can use this activity to recover data that will then be structured with the 
     * **File download**: allows you to download a file.
     * **File upload**: allows you to upload a file. Uploading a file from Adobe Campaign file generates a log entry in the **[!UICONTROL Export audits]** menu. For more information on export audits, refer to the [Auditing exports](../../administration/using/auditing-export-logs.md) section.
     * **Test to see if file exists**: allows you to check whether there is a file.
-    * **File listing**: allows you to list the files present in Adobe Campaign.
+    * **File listing**: allows you to list the files present on the server defined in the **[!UICONTROL Protocol]** tab. This action is mainly used for debugging purposes, to check if the activity is configured according to your needs before downloading the files from the remote server.
+
 1. Select the protocol you want to use:
     * [HTTP](#HTTP-configuration-wf)
     * [SFTP](#SFTP-configuration-wf)
@@ -51,7 +52,7 @@ You can use this activity to recover data that will then be structured with the 
 
     * **[!UICONTROL Delete the source files after transfer]** 
     * **[!UICONTROL Disable passive mode]** 
-    * **[!UICONTROL List all files]**: this option is available when selecting the **[!UICONTROL File listing]** action. It allows you to index all the files present on the server in the **vars.filenames** event variable in which the file names are separated by the **'n'** characters.
+    * **[!UICONTROL List all files]**: this option is available when selecting the **[!UICONTROL File listing]** action.in the **[!UICONTROL General]** tab. It allows you to index all the files present on the server in the **vars.filenames** event variable in which the file names are separated by the **'n'** characters.
 
 1. The **[!UICONTROL If no files are found]** section of the **[!UICONTROL Advanced options]** tab allows you to configure specific actions if any errors or inexistent files are detected when the activity is started.
 
