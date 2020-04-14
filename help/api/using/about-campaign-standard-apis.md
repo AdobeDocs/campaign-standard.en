@@ -1,5 +1,5 @@
 ---
-title: About Campaign Standard APIs
+title: Get started with Campaign Standard APIs
 description: Learn more about Campaing Standard APIs.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# About Campaign Standard APIs {#about-campaign-standard-apis}
+# Get started with Campaign Standard APIs {#about-campaign-standard-apis}
 
 Campaign Standard APIs are aimed at letting you **create integrations** for Adobe Campaign Standard and **build your own ecosystem** by interfacing Adobe Campaign Standard with the panel of technologies that you use.
 

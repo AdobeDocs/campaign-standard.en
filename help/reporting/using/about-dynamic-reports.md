@@ -1,5 +1,5 @@
 ---
-title: About dynamic reports
+title: Get started with dynamic reports
 description: With dynamic reports, drag and drop variables and dimensions into your freeform environment and analyze the success of your campaigns.
 page-status-flag: never-activated
 uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# About dynamic reports{#about-dynamic-reports}
+# Get started with dynamic reports {#about-dynamic-reports}
 
 >[!NOTE]
 >

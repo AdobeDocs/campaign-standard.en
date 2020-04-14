@@ -1,5 +1,5 @@
 ---
-title: About Campaign integrations
+title: Get started with Campaign integrations
 description: Adobe Campaign allows you to use other Adobe solutions and combine their different capabilities.
 page-status-flag: never-activated
 uuid: 59d7cd99-a6f7-47f1-9b5c-c50e27a2bef8
@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# About Campaign integrations{#about-campaign-integrations}
+# Get started with Campaign integrations {#about-campaign-integrations}
 
 This section details the functional integrations available between the current version of Adobe Campaign and other solutions and services.
 

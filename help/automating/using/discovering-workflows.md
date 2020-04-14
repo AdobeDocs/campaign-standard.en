@@ -1,5 +1,5 @@
 ---
-title: Discovering workflows
+title: Get started with workflows
 description: Adobe Campaign offers a comprehensive graphical environment that allows you to design and automate processes.
 page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Discovering workflows{#discovering-workflows}
+# Get started with workflows {#discovering-workflows}
 
 Adobe Campaign offers a comprehensive [graphical environment](../../automating/using/workflow-interface.md) that allows you to design [complex processes](../../automating/using/workflow-operating-principles.md) including segmentation, campaign execution, file processing, approvals, etc. Principles and best practices are described in [this section](../../automating/using/building-a-workflow.md).
 

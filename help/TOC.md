@@ -39,7 +39,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Step-by-step guides](start/using/step-by-step-guides.md)
        + [How-to videos](start/using/how-to-videos.md)
 + Profiles and audiences {#profiles-and-audiences}
-  + [About profiles and audiences](audiences/using/about-profiles-and-audiences.md)
+  + [Get started with profiles and audiences](audiences/using/about-profiles-and-audiences.md)
   + Managing profiles {#managing-profiles}
        + [About profiles](audiences/using/about-profiles.md)
        + [Creating profiles](audiences/using/creating-profiles.md)
@@ -66,8 +66,8 @@ user-guide-title: Adobe Campaign Standard Help
        + [Managing Adobe Experience Platform audiences](audiences/using/aep-managing-audiences.md)
        + [Using the Unified Segment Builder](audiences/using/aep-using-segment-builder.md)
 + Communication channels {#communication-channels}
+  + [Get started with communication channels](channels/using/discovering-communication-channels.md)
   + About communication channels {#about-communication-channels}
-       + [Discovering communication channels](channels/using/discovering-communication-channels.md)
        + [Key steps to send a message](channels/using/key-steps-to-send-a-message.md)
        + [Accessing messages](channels/using/accessing-messages.md)
        + [Message dashboard](channels/using/message-dashboard.md)
@@ -132,7 +132,7 @@ user-guide-title: Adobe Campaign Standard Help
   + [Managing links](designing/using/links.md)
   + [Managing images](designing/using/images.md)
 + Testing and Sending {#testing-and-sending}
-  + [About sending messages with Campaign](sending/using/about-sending-messages-with-campaign.md)
+  + [Get started with testing and sending](sending/using/about-sending-messages-with-campaign.md)
   + Preparing and testing messages {#preparing-and-testing-messages}
        + [Previewing messages](sending/using/previewing-messages.md)
        + [Preparing the send](sending/using/preparing-the-send.md)
@@ -164,16 +164,9 @@ user-guide-title: Adobe Campaign Standard Help
        + [Technical recommendations](sending/using/technical-recommendations.md)
        + [Monitoring deliverability](sending/using/monitor-deliverability.md)
        + [Troubleshooting](sending/using/troubleshooting.md)
-  + Working with typology rules {#working-with-typology-rules}
-       + [About typologies and typology rules](sending/using/about-typology-rules.md)
-       + [Managing typologies](sending/using/managing-typologies.md)
-       + [Managing typology rules](sending/using/managing-typology-rules.md)
-       + [Filtering rules](sending/using/filtering-rules.md)
-       + [Fatigue rules](sending/using/fatigue-rules.md)
-       + [Control rules](sending/using/control-rules.md)
 + Reporting {#reporting}
+  + [Get started with dynamic reports](reporting/using/about-dynamic-reports.md)
   + About reporting {#about-reporting}
-       + [About dynamic reports](reporting/using/about-dynamic-reports.md)
        + [Reporting interface](reporting/using/reporting-interface.md)
        + [List of components](reporting/using/list-of-components-.md)
        + [Indicator calculation](reporting/using/indicator-calculation.md)
@@ -202,7 +195,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Creating a custom profile dimension](reporting/using/creating-a-custom-profile-dimension.md)
        + [Creating a report based on workflow segments](reporting/using/creating-a-report-workflow-segment.md)
 + Integrating with other solutions {#integrating-with-adobe-cloud}
-  + [About Campaign integrations](integrating/using/about-campaign-integrations.md)
+  + [Get started with Campaign integrations](integrating/using/about-campaign-integrations.md)
   + Campaign and Experience Manager {#working-with-campaign-and-experience-manager}
        + [About Campaign-Experience Manager integration](integrating/using/integrating-with-experience-manager.md)
        + [Configuring the Campaign-Experience Manager integration](integrating/using/configure-experience-manager.md)
@@ -233,19 +226,19 @@ user-guide-title: Adobe Campaign Standard Help
        + [Testing your triggers](integrating/using/testing-your-triggers.md)
        + [Abandonment Triggers use cases](integrating/using/abandonment-triggers-use-cases.md)
   + Campaign and Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
+       + [Configure Adobe IO for Microsoft Dynamics 365 integration](integrating/using/configure-adobe-io-for-ms-dynamic.md)
        + Working with Campaign Standard and Microsoft Dynamics 365 {#working-with-campaign-standard-and-ms-dynamics}
           + [Working with Campaign Standard and Microsoft Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
           + [Notices and recommendations](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md) 
           + [Requesting and configuring the Microsoft Dynamics 365 with Campaign Standard integration](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
           + [Using the Microsoft Dynamics 365 with Campaign Standard integration](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
-       + [Configure Adobe IO for Microsoft Dynamics 365 integration](integrating/using/configure-adobe-io-for-ms-dynamic.md)
        + [Configure Microsoft Dynamics 365 for Campaign integration](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
        + [Configure Unifi for Microsoft Dynamics 365 integration](integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md)
        + [Map Campaign custom resources and Dynamics 365 Custom entities](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
 + Managing processes and data {#managing-processes-and-data}
+  + [Get started with workflows](automating/using/discovering-workflows.md)
   + About workflows and data management {#about-workflows-and-data-management}
        + [Workflow data and processes](automating/using/workflow-data-and-processes.md)
-       + [Discovering workflows](automating/using/discovering-workflows.md)
        + [Workflow operating principles](automating/using/workflow-operating-principles.md)
        + [Workflow interface](automating/using/workflow-interface.md)
   + Workflow general operation {#workflow-general-operation}
@@ -317,6 +310,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Targeting Adobe Experience Platform audiences](automating/using/aep-targeting-audiences.md)
        + [Personalizing campaigns using Adobe Experience Platform attributes](automating/using/aep-personalizing-campaigns.md)
 + Developing {#developing}
+  + [Get started with data model and custom resources](developing/using/get-started-developing.md)
   + About custom resources {#about-custom-resources}
        + [Data model concepts](developing/using/data-model-concepts.md)
        + [Resource statuses](developing/using/resource-statuses.md)
@@ -355,7 +349,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Unsubscription Event](developing/using/datamodel-unsubscription.md)
        + [Visitor](developing/using/datamodel-visitor.md)
 + Administrating {#administrating}
-  + [About Administrating Adobe Campaign](administration/using/about-administrating-adobe-campaign.md)
+  + [Get started with Campaign Standard administration](administration/using/about-administrating-adobe-campaign.md)
   + Configuration guidelines {#configuration-guidelines}
        + [About configuration guidelines](administration/using/about-configuration-guidelines.md)
        + [Compatible browsers](administration/using/compatible-browsers.md)
@@ -374,6 +368,11 @@ user-guide-title: Adobe Campaign Standard Help
        + [Configuring SMS channel](administration/using/configuring-sms-channel.md)
        + [Configuring a mobile application](administration/using/configuring-a-mobile-application.md)
        + [Configuring transactional messaging](administration/using/configuring-transactional-messaging.md)
+  + Working with typology rules {#working-with-typology-rules}
+       + [About typology rules](administration/using/about-typology-rules.md)
+       + [Filtering rules](administration/using/filtering-rules.md)
+       + [Fatigue rules](administration/using/fatigue-rules.md)
+       + [Control rules](administration/using/control-rules.md)
   + Application settings {#application-settings}
        + [About Campaign Standard settings](administration/using/about-campaign-standard-settings.md)
        + [External accounts](administration/using/external-accounts.md)
@@ -390,8 +389,8 @@ user-guide-title: Adobe Campaign Standard Help
      + [Mapping activation](administration/using/aep-mapping-activation.md)
      + [Triggering data ingestion through APIs](administration/using/aep-triggering-data-ingestion.md)
 + Working with APIs {#working-with-apis}  
+  + [Get started with Campaign Standard APIs](api/using/about-campaign-standard-apis.md)
   + About Campaign Standard APIs {#about-campaign-standard-apis}
-       + [Overview](api/using/about-campaign-standard-apis.md)
        + [Why using Campaign Standard APIs](api/using/why-using-campaign-standard-apis.md)
        + [Setting up API access](api/using/setting-up-api-access.md)
   + Global concepts {#global-concepts}

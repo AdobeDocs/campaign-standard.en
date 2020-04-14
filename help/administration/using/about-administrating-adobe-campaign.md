@@ -1,5 +1,5 @@
 ---
-title: About Administrating Adobe Campaign
+title: Get started with Campaign Standard administration
 description: Adobe Campaign provides you with a complete set of administration tools. Learn how to manage your users and configure your channels.
 page-status-flag: never-activated
 uuid: 64c34729-5c98-4db0-9131-af6dd0e78fb4
@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# About Administrating Adobe Campaign{#about-administrating-adobe-campaign}
+# Get started with Campaign Standard administration {#about-administrating-adobe-campaign}
 
 As a cloud-based solution, Adobe Campaign offers administrators different ways to configure the application. Though the infrastructure configuration is performed by Adobe, functional administrators can:
 

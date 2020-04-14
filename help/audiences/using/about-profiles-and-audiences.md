@@ -1,5 +1,5 @@
 ---
-title: About profiles and audiences
+title: Get started with profiles and audiences
 description: "Learn about profiles and audiences management within Adobe Campaign: define targeted populations, select audiences, filter recipients, collect data and update profiles."
 page-status-flag: never-activated
 uuid: f4cb6c38-c8d1-44ec-93f0-d0f5f30a3d9a
@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# About profiles and audiences{#about-profiles-and-audiences}
+# Get started with profiles and audiences{#about-profiles-and-audiences}
 
 ## Segmenting and targeting
 

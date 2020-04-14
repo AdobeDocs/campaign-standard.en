@@ -1,5 +1,5 @@
 ---
-title: About sending messages with Campaign
+title: Get started with testing and sending
 description: Discover the different steps to test and send a message.
 page-status-flag: never-activated
 uuid: 58666444-6e7c-4049-b2d2-8b26eabf5a82
@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# About sending messages with Campaign{#about-sending-messages-with-campaign}
+# Get started with testing and sending {#about-sending-messages-with-campaign}
 
 Once you have defined the target and created the content of a message, you need to test and approve content, personalization, rendering and configuration, and make sure everything is correct before sending the message to the main target. 
 
