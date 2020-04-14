@@ -14,9 +14,15 @@ internal: n
 snippet: y
 ---
 
-# Previewing messages{#previewing-messages}
+# Previewing messages {#previewing-messages}
 
-After adding test profiles in the **[!UICONTROL Audience]** window, you can preview your message to check its personalization and how your recipients will see your delivery.
+Campaign Standard allows you to preview messages before sending, in order to check their personalization and how your recipients will see them.
+
+Messages preview is performed using **Test profiles** that you add to the message's target.
+
+For **email** messages, Campaign Standard allows you to preview messages using targeted profiles rather than test profiles. This allows you to get an exact representation of the message that a specific profile will receive. For more on this, see [Testing email messages using targeted profiles](../../sending/using/testing-messages-using-target.md).
+
+To preview a message using test profiles, follow these steps:
 
 1. In the [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md), click the **[!UICONTROL Preview]** button.
 
@@ -36,3 +42,8 @@ After adding test profiles in the **[!UICONTROL Audience]** window, you can prev
 
    ![](assets/sending_preview_edit.png)
 
+**Related topics**
+
+* [Managing test profiles](../../audiences/using/managing-test-profiles.md)
+* [Testing email messages using targeted profiles](../../sending/using/testing-messages-using-target.md)
+* [Sending proofs](../../sending/using/sending-proofs.md)

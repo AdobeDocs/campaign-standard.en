@@ -27,6 +27,7 @@ You can set up the following types of external accounts:
 * Adobe Experience Manager. For more on this, refer to [this section](#adobe-experience-manager-external-account).
 * Adobe Analytics. For more on this, refer to [this section](../../integrating/using/configure-campaign-analytics-integration.md).
 * Google reCAPTCHA. For more on this, refer to [this section](#google-recaptcha-external-account).
+* Microsoft Azure Blob storage. For more on this, refer to [this section](#microsoft-azure-external-account).
 
 >[!NOTE]
 >
@@ -142,9 +143,63 @@ For a Google reCAPTCHA V3 external account, provide the following details:
 
 * A **[!UICONTROL Label]** and **[!UICONTROL ID]** of your external account
 * **[!UICONTROL Type]**: Google reCAPTCHA
-* Your **[!UICONTROL Site key]** and **[!UICONTROL Site secret]** 
+* Your **[!UICONTROL Site key]** and **[!UICONTROL Site secret]**
 * A **[!UICONTROL Threshold]** between 0 and 1
 
   The 0.0 **[!UICONTROL Threshold]** value means that it is likely a bot and 1.0 likely a good interaction. By default, you can use a threshold of 0.5.
 
 ![](assets/external_accounts_3.png)
+
+## Microsoft Azure Blob storage external account {#microsoft-azure-external-account}
+
+>[!NOTE]
+>
+>Information needed to configure your external account in Adobe Campaign Standard can be found in the Azure Portal by selecting **[!UICONTROL Settings]** > **[!UICONTROL Access keys]**.
+
+The Azure Blob storage connector can be used to import or export data to Adobe Campaign using a **[!UICONTROLTransfer file]** workflow activity. For more on this, refer to this [section](../../automating/using/transfer-file.md#azure-blob-configuration-wf).
+
+For a Microsoft Azure Blob storage external account, provide the following details:
+
+* A **[!UICONTROL Label]** and **[!UICONTROL ID]** of your external account
+* **[!UICONTROL Type]**: Microsoft Azure Blob storage
+* Your **[!UICONTROL Account name]** and **[!UICONTROL Account key]**. To know where to find your account name and key, refer to this [page](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage).
+* Your **[!UICONTROL Endpoint suffix]**. It can be found within your **[!UICONTROL Connection string]** of the **[!UICONTROL Access keys]** menu in the Azure Portal. For more on this, refer to this [page](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage).
+* Your **[!UICONTROL Container]** name. If you are planning to use more than one container you need to create as many external accounts as containers.
+* The **[!UICONTROL Concurrency]** option lets you fine tune the speed of your file transfers.
+
+![](assets/external_accounts_4.png)
+
+Once configured, click **[!UICONTROL Test connection]** to link Adobe Campaign to Microsoft Azure Blob storage.
+
+### Microsoft Azure Blob storage recommendations {#azure-blob-recommendations}
+
+**Encryption**
+
+Adobe Campaign uses a secured connection (HTTPS) to access your Microsoft Azure Blob storage account.
+
+**Account key**
+
+When configuring your external account, you must use one of the **[!UICONTROL Account key]** available in the Azure Portal. For more information on where to find your account keys, refer to this [page](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage#view-access-keys-and-connection-string).
+
+**Optimizing the file transfer speed**
+
+The **[!UICONTROL Concurrency]** option lets you fine tune the speed of your file transfers.
+It represents the number of threads that will be used to perform the file transfer. Each of these threads will download a portion of about 1MB from the blob. They will then be queued to be written to disk. Note that by increasing the number of threads you will also be increasing the load on the resources used by the application during the file transfer.
+
+After your file transfer completion, you can find performance metrics in the Workflow logs.
+
+**Retries**
+
+By default, the file transfer for Azure Blob will have up to four retries.  If the Azure Storage service returns an error code such as 503 (server busy) or 500 (operation timeout), this may indicate that you are approaching or exceeding the scalability of your storage account. This can happen when using a new account or performing tests.
+
+If the error persists, you can increase the number of retries by creating an option under the advanced menu **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Options]**.
+
+If implemented, the option must be created as follows:
+
+```
+
+ID:        AzureBlob_Max_Retries
+Date type: Integer
+Default:   <the number of retries needed>
+
+```

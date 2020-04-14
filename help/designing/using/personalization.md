@@ -21,7 +21,7 @@ The content and display of messages delivered by Adobe Campaign can be personali
 * Insert dynamic personalization fields. See [Inserting a personalization field](#inserting-a-personalization-field).
 * Insert predefined personalization blocks. See [Adding a content block](#adding-a-content-block).
 * Personalize the sender of an email. See [Personalizing the sender](#personalizing-the-sender).
-* Personalize the subject of an email. See [Personalizing the subject line of an email](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
+* Personalize the subject of an email. See [Personalizing the subject line of an email](../../designing/using/subject-line.md#subject-line).
 * Create conditional content. See [Defining dynamic content in an email](#defining-dynamic-content-in-an-email).
 
 ## Personalizing the sender {#personalizing-the-sender}

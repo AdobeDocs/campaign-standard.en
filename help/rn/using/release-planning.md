@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Campaign Standard Release Planning {#release-planning}
+# Release Planning {#release-planning}
 
 Adobe continuously improves its solutions by adding new capabilities, enhancements and fixes.
 
@@ -24,9 +24,9 @@ Upgrades are deployed in two phases. First, Stage instances are upgraded to allo
 
 All release dates are subject to change: we recommend you visit this page on a regular basis to check for updates.
 
-Please subscribe to [receive release notifications](https://www.adobe.com/subscription/priority-product-update.html) to get details about latest Adobe Experience Cloud releases straight in your inbox.
+**NEW!** Subscribe to [Campaign Standard release notifications](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) to get details about upcoming releases straight in your inbox.
 
-## Release 20.1.4 - February Release update {#release-20-1-4---february-release-update}
+## Release 20.3.1 - May Release {#release-20-3-may-release}
 
 Environment updates happen in waves, during the indicated timeframes below. Detailed information about this release are available in the [Release Notes](../../rn/using/release-notes.md). If you have any further questions, please contact [Adobe Client Care](https://support.neolane.net/webApp/extranetLogin).
 
@@ -40,11 +40,11 @@ Environment updates happen in waves, during the indicated timeframes below. Deta
  <tbody> 
   <tr> 
    <td> Stage<br /> </td> 
-   <td> February 17 - 18, 2020<br /> </td> 
+   <td> April 27 - 28, 2020<br /> </td> 
   </tr> 
   <tr> 
    <td> Production<br /> </td> 
-   <td> February 20 - March 5, 2020<br /> </td> 
+   <td> May 4 - 11, 2020<br /> </td> 
   </tr> 
  </tbody> 
 </table>
