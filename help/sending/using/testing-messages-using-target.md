@@ -149,7 +149,7 @@ To preview messages using profile substitution, follow these steps:
 
 1. Click the **[!UICONTROL Profile Substitution]** tab to display the substitution profiles that have been added for testing.
 
-    Select the profiles that you want to use for preview, then click **[!UICONTROL Select]**.
+    Select the profiles that you want to use for preview, then click **[!UICONTROL Select]**. 
 
     ![](assets/substitution_preview_selection.png)
 
