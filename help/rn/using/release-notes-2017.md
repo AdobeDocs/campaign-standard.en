@@ -36,7 +36,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
  <tbody> 
   <tr> 
    <td> Fatigue Management<br /> </td> 
-   <td> Fatigue Management allows you to create fatigue rules to manage over-communication with profiles. Fatigue rules are easily built, but are extremely flexible with capabilities such as counting messages across multiple channels (including transactional messages), only counting specific deliveries, or applying rules to specific profiles.<br /> For more information, refer to the <a href="../../administration/using/fatigue-rules.md">detailed documentation</a>.<br /> </td> 
+   <td> Fatigue Management allows you to create fatigue rules to manage over-communication with profiles. Fatigue rules are easily built, but are extremely flexible with capabilities such as counting messages across multiple channels (including transactional messages), only counting specific deliveries, or applying rules to specific profiles.<br /> For more information, refer to the <a href="../../sending/using/fatigue-rules.md">detailed documentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Content creation: Import from a URL<br /> </td> 
@@ -267,7 +267,7 @@ _Workflows_
   </tr> 
   <tr> 
    <td> Email BCC<br /> </td> 
-   <td> Email BCC enables the saving of unique email messages sent to individual recipients, thus allowing the brand to archive those messages. By adding a BCC email address to all emails, Adobe Campaign Standard customers can keep an exact copy of each email with this feature. This is a common legal requirement for the financial services industry and is helpful in assisting customer service centers in resolving conflicts in real time.<br /> For more information, refer to the <a href="../../administration/using/configuring-email-channel.md#archiving-emails">detailed documentation</a>.<br /> </td> 
+   <td> Email BCC enables the saving of unique email messages sent to individual recipients, thus allowing the brand to archive those messages. By adding a BCC email address to all emails, Adobe Campaign Standard customers can keep an exact copy of each email with this feature. This is a common legal requirement for the financial services industry and is helpful in assisting customer service centers in resolving conflicts in real time.<br /> For more information, refer to the <a href="../../sending/using/archiving.md">detailed documentation</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

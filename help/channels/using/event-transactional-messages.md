@@ -28,7 +28,7 @@ In order for the event to trigger sending a transactional message, you have to p
 >
 >To access transactional messages, you must be part of the **[!UICONTROL Administrators (all units)]** security group.
 >
->Event transactional messages do not contain profile information, therefore they are not compatible with fatigue rules (even in the case of an enrichment with profiles). See [Fatigue rules](../../administration/using/fatigue-rules.md#choosing-the-channel).
+>Event transactional messages do not contain profile information, therefore they are not compatible with fatigue rules (even in the case of an enrichment with profiles). See [Fatigue rules](../../sending/using/fatigue-rules.md#choosing-the-channel).
 
 ## Defining a test profile in a transactional message {#defining-a-test-profile-in-a-transactional-message}
 
@@ -115,7 +115,7 @@ To set up personalization in a transactional message, follow the steps below:
 
 You can create product listings referencing one or more data collections in the content of a transactional email. For example, in a cart abandonment email you can include a list of all products that were in the users' carts when they left your website, with an image, the price, and a link to each product.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Product listings are only available when editing transactional email messages through the [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) interface.
 
@@ -206,7 +206,7 @@ For more on creating a collection and related fields when configuring the event,
 
    From the **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** node, open the node corresponding to the collection that you created (here **[!UICONTROL Product list]** ) and select the URL field that you created (here **[!UICONTROL Product URL]** ). Click **[!UICONTROL Save]**.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >For security reasons, make sure you insert the personalization field inside a link starting with a proper static domain name.
 
@@ -263,35 +263,43 @@ When clicking **[!UICONTROL Resume]**, all of the queued events (provided that t
 
 ## Unpublishing a transactional message {#unpublishing-a-transactional-message}
 
-Clicking **[!UICONTROL Unpublish]** allows you to cancel the transactional message publication, but also the publication of the corresponding event, which deletes from the REST API the resource corresponding to the event that you previously created. Now, even if the event is triggered through your website, the corresponding messages are not sent anymore and they are not stored in the database.
+Clicking **[!UICONTROL Unpublish]** allows you to cancel the transactional message publication, but also the publication of the corresponding event, which deletes from the REST API the resource corresponding to the event that you previously created.
 
 ![](assets/message-center_unpublish-template.png)
+
+Now, even if the event is triggered through your website, the corresponding messages are not sent anymore and they are not stored in the database.
 
 >[!NOTE]
 >
 >To publish the message again, you need to go back to the corresponding event configuration, publish it, and then publish the message. For more on this, see [Publishing a transactional message](#publishing-a-transactional-message).
 
-If you unpublish a paused transactional message, you may have to wait up to 24 hours before you can publish it again. This is to let the **[!UICONTROL Database cleanup]** workflow clean all the events that were sent to the queue. The steps for pausing a message are detailed in the [Suspending a transactional message publication](#suspending-a-transactional-message-publication) section.
+If you unpublish a paused transactional message, you may have to wait up to 24 hours before you can publish it again. This is to let the **[!UICONTROL Database cleanup]** workflow clean all the events that were sent to the queue.
+
+The steps for pausing a message are detailed in the [Suspending a transactional message publication](#suspending-a-transactional-message-publication) section.
 
 The **[!UICONTROL Database cleanup]** workflow, which runs every day at 4am, is accessible through **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Workflows]**.
 
 ## Deleting a transactional message {#deleting-a-transactional-message}
 
+Once a transactional message has been unpublished, or if a a transactional message has  not been published yet, you can delete it from the transactional message list. To do this:
+
+1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
+1. Hover the mouse over the message of your choice.
+1. Click the **[!UICONTROL Delete element]** button.
+
 ![](assets/message-center_delete-template.png)
 
-By selecting a transactional message, you can delete it with the **[!UICONTROL Delete element]** button even if it has already been published. However, deleting a transactional message can only be done under certain conditions:
+However, deleting a transactional message can only be done under certain conditions:
 
-* **Transactional messages**: To delete a transactional message, the message should be unpublished and not paused.
+* Make sure the transactional message has the **[!UICONTROL Draft]** status, otherwise you will not be able to delete it. The **[!UICONTROL Draft]** status applies to a message that has not been published yet, or that has been [unpublished](#unpublishing-a-transactional-message) (and not [paused](#suspending-a-transactional-message-publication)).
 
-  If the transactional message is unpublished, the event configuration also needs to be unpublished to successfully delete your transactional message, unless another transactional message is linked to the corresponding event. For more information on how to unpublish a transactional message, refer to this [section](#unpublishing-a-transactional-message).
+* **Transactional messages**: Unless another transactional message is linked to the corresponding event, if the transactional message is unpublished, the event configuration also needs to be unpublished to successfully delete your transactional message. For more on this, see [Unpublishing an event](../../administration/using/configuring-transactional-messaging.md#unpublishing-an-event).
 
-  >[!CAUTION]
-  >
-  >Deleting a transactional message that has already sent notifications will also delete its sending and tracking logs.
+   >[!IMPORTANT]
+   >
+   >Deleting a transactional message that has already sent notifications will also delete its sending and tracking logs.
 
-* **Transactional messages from an out-of-the-box event template (internal transactional messages)**: To delete an internal transactional message, the message should be unpublished and not paused.
-
-  It also shouldn't be the only transactional message in the event, other messages have to be linked to the corresponding event.
+* **Transactional messages from an out-of-the-box event template (internal transactional messages)**: If an internal transactional message is the only one associated with the corresponding internal event, it cannot be deleted. You must first create another transactional message by duplicating it or through the **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Transactional message templates]** menu.
 
 ## Transactional message retry process {#transactional-message-retry-process}
 

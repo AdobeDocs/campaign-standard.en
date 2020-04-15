@@ -244,7 +244,7 @@ Here are a few possible reasons for receiving alerting notifications according t
     * The target is missing.
     * The delivery exceeds the size limit.
 
-  For more on this, see [Preparing the send](../../sending/using/preparing-the-send.md). However, these errors are generally spotted during the message analysis. See [Control rules](../../administration/using/control-rules.md).
+  For more on this, see [Preparing the send](../../sending/using/preparing-the-send.md). However, these errors are generally spotted during the message analysis. See [Control rules](../../sending/using/control-rules.md).
 
 * The possible causes for a **[!UICONTROL Delivery with bad error ratio for soft bounces]** alert can be:
 
@@ -262,7 +262,7 @@ Here are a few possible reasons for receiving alerting notifications according t
 
   To avoid soft and hard bounce errors, follow the best practices below:
 
-    * Build filtering typology rules to exclude one part of the message target during the delivery analysis, such as quarantined recipients. See [Creating a filtering rule](../../administration/using/filtering-rules.md).
+    * Build filtering typology rules to exclude one part of the message target during the delivery analysis, such as quarantined recipients. See [Creating a filtering rule](../../sending/using/filtering-rules.md).
     * Regularly update your customer database to maintain good quarantine management processes. See [About quarantines](../../sending/using/understanding-quarantine-management.md#about-quarantines).
     * Generally speaking, improve deliverability the best as you can. See the Adobe Campaign [Deliverability](../../sending/using/about-deliverability.md) detailed documentation and contact your Adobe Campaign administrator for assistance.
 

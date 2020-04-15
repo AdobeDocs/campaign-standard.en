@@ -18,7 +18,7 @@ snippet: y
 
 ## Email channel parameters {#email-channel-parameters}
 
-The email configuration screen allows you to define the parameters for the email channel.
+The email configuration screen allows to define the parameters for the email channel. Administrators can access these configurations in the **[!UICONTROL Administration] > [!UICONTROL Channels] > [!UICONTROL Email] > [!UICONTROL Configuration]** menu.
 
 ![](assets/channels_1.png)
 
@@ -34,23 +34,29 @@ The email configuration screen allows you to define the parameters for the email
 
   Adobe Campaign sends the messages beginning on the start date. The **[!UICONTROL Message delivery duration]** field allows you to specify the duration during which the messages can be sent.
 
+  >[!IMPORTANT]
+  >
+  >Once upgraded to the [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html), the **[!UICONTROL Message delivery duration]** parameter in your Campaign deliveries is used only if set to 3.5 days or less. If you define a value higher than 3.5 days, it will not be taken into account.
+
   The **[!UICONTROL Online resources validity duration]** field is used for uploaded resources, mainly for the mirror page and images. The resources on this page are valid for a limited time (to save disk space).
 
 * **Retries**
 
-  Temporarily undelivered messages are subject to an automatic retry. This section indicates how many retries should be performed the day after the send is started (**Number of retries**) and the minimum delay between retries (**Retry period**).
+  Temporarily undelivered messages are subject to an automatic retry. For more on this, see [Retries after a delivery temporary failure](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
-  By default, five retries are scheduled for the first day with a minimum interval of one hour, spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Delivery parameters]** section. 
+  >[!IMPORTANT]
+  >
+  >Once upgraded to the [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html), the **Retries** settings in Campaign are ignored. The **[!UICONTROL Number of retries]** (how many retries should be performed the day after the send is started) and the **[!UICONTROL Retry period]** (minimum delay between retries) are managed by the Enhanced MTA, based on how well an IP is performing both historically and currently at a given domain.
+
+  <!--This section indicates how many retries should be performed the day after the send is started (**Number of retries**) and the minimum delay between retries (**Retry period**). By default, five retries are scheduled for the first day with a minimum interval of one hour, spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Delivery parameters]** section.-->
 
 * **Email quarantine parameters**
 
-  In the **[!UICONTROL Time between two significant errors]** field, enter a value to define the time the application waits before incrementing the error counter in case of failure. Defaut value: **"1d"**, for 1 day.
+  In the **[!UICONTROL Time between two significant errors]** field, enter a value to define the time the application waits before incrementing the error counter in case of failure. The default value is **"1d"**, for 1 day.
 
-  When the **[!UICONTROL Maximum number of errors before quarantine]** value is reached, the email address is then quarantined. Default value: **"5"**: the address will be quarantined on the sixth error. This means that the contact will be automatically excluded from subsequent deliveries.
+  When the **[!UICONTROL Maximum number of errors before quarantine]** value is reached, the email address is then quarantined. The default value is **"5"**: the address will be quarantined on the fifth error. This means that the contact will be automatically excluded from subsequent deliveries.
 
-**Related topic**:
-
-[Understanding quarantine management](../../sending/using/understanding-quarantine-management.md)
+  For more on quarantines, see [Understanding quarantine management](../../sending/using/understanding-quarantine-management.md).
 
 ## Email routing accounts {#email-routing-accounts}
 
@@ -70,48 +76,58 @@ The **[!UICONTROL Email processing rules]** can be accessed by Administrators th
 
 These rules contain the list of character strings which can be returned by remote servers and which let you qualify the error (**Hard**, **Soft** or **Ignored**).
 
-The default rules are as follows:
+The default rules are as follows.
 
 ### Bounce mails {#bounce-mails}
 
-When an email fails, the remote message server returns a bounce error message to the address specified in the application settings.
+For synchronous delivery failure error messages, the Enhanced MTA determines the bounce type and qualification, and sends back that information to Campaign. For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
-Adobe Campaign compares the content of each bounce mail to the strings in the list of rules, and then assigns it one of the three error types.
-
->[!IMPORTANT]
->
->Once upgraded to the Enhanced MTA, the bounce qualifications in the Campaign **[!UICONTROL Message qualification]** table are no longer used. For synchronous delivery failure error messages, the Enhanced MTA determines the bounce type and qualification, and sends back that information to Campaign. Asynchronous bounces are still qualified by the inMail process.
->
->For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
-
-The user can create his own rules.
+Asynchronous bounces are still qualified by the Campaign inMail process through the **[!UICONTROL Bounce mails]** rule.
 
 >[!IMPORTANT]
 >
->When importing a package and when updating data via the **Update for deliverability** workflow, the user-created rules are overwritten.
+>Once upgraded to the Enhanced MTA, the bounce qualifications in the Campaign **[!UICONTROL Message qualification]** table are no longer used. For more on bounce mail qualification, see this [section](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification).
 
-### Managing email domains {#managing-email-domains}
-
-The domain management rules are used to regulate the flow of outgoing emails for a specific domain. They sample the bounce messages and block sending where appropriate.
-
-The Adobe Campaign messaging server applies rules specific to the domains, and then the rules for the general case represented by an asterisk in the list of rules.
+<!--The user can create his own rules.
 
 >[!IMPORTANT]
 >
->Once upgraded to the Enhanced MTA, DKIM (DomainKeys Identified Mail) email authentication signing is done by the Enhanced MTA. DKIM-signing by the native Campaign MTA will be turned off within the **[!UICONTROL Domain management]** table as part of the Enhanced MTA upgrade.
->
->For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+>When importing a package and when updating data via the **Update for deliverability** workflow, the user-created rules are overwritten.-->
 
-To configure domain management rules, simply set a threshold and select certain SMTP parameters. A **threshold** is a limit calculated as an error percentage beyond which all messages towards a specific domain are blocked.
+### Management of email domains {#managing-email-domains}
+
+<!--The Adobe Campaign messaging server applies rules specific to the domains, and then the rules for the general case represented by an asterisk in the list of rules.
 
 The **SMTP parameters** act as filters applied for a blocking rule.
 
 * You can choose whether or not to activate certain identification standards and encryption keys to check the domain name, such as **Sender ID**, **DomainKeys**, **DKIM**, and **S/MIME**.
-* **SMTP relay**: lets you configure the IP address and the port of a relay server for a particular domain.
+* **SMTP relay**: lets you configure the IP address and the port of a relay server for a particular domain.-->
 
-### MX Management {#mx-management}
+>[!IMPORTANT]
+>
+>Once upgraded to the Enhanced MTA, the Adobe Campaign **[!UICONTROL Domain management]** rules are no longer used.
 
-Each rule defines an address mask for the MX. Any MX whose name matches this mask is therefore eligible. The mask can contain "&#42;" and "?" generic characters.
+**DKIM (DomainKeys Identified Mail)** email authentication signing is done by the Enhanced MTA for all messages with all domains. It does not sign with **Sender ID**, **DomainKeys**, or **S/MIME** unless otherwise specified at the Enhanced MTA level.
+
+For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+
+### MX management {#mx-management}
+
+<!--The MX management rules are used to regulate the flow of outgoing emails for a specific domain. They sample the bounce messages and block sending where appropriate.
+
+The Adobe Campaign messaging server applies rules specific to the domains, and then the rules for the general case represented by an asterisk in the list of rules.
+
+To configure MX management rules, simply set a threshold and select certain SMTP parameters. A **threshold** is a limit calculated as an error percentage beyond which all messages towards a specific domain are blocked.-->
+
+>[!IMPORTANT]
+>
+>Once upgraded to the Enhanced MTA, the Adobe Campaign **[!UICONTROL MX management]** delivery throughput rules are no longer used.
+
+The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you’re sending emails.
+
+For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+
+<!--Each rule defines an address mask for the MX. Any MX whose name matches this mask is therefore eligible. The mask can contain "&#42;" and "?" generic characters.
 
 For example, the following addresses:
 
@@ -125,12 +141,6 @@ are compatible with the following masks:
 * ?.mx.yahoo.com
 
 These rules are applied in sequence: the first rule whose MX mask is compatible with the targeted MX is applied.
-
->[!IMPORTANT]
->
->Once upgraded to the Enhanced MTA, the Adobe Campaign **MX management** delivery throughput rules are no longer used. The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you’re sending emails.
->
->For more on the Adobe Campaign Enhanced MTA, refer to this [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
 The following parameters are available for each rule:
 
@@ -149,8 +159,7 @@ The following parameters are available for each rule:
 >[!IMPORTANT]
 >
 >* The delivery server (MTA) must be restarted if the parameters have been changed. 
->* The modification or creation of management rules is for expert users only. 
->
+>* The modification or creation of management rules is for expert users only. -->
 
 ## List of email properties {#list-of-email-properties}
 
@@ -186,11 +195,19 @@ The **[!UICONTROL Send]** section is only available for email templates. It cont
 
 #### Retries parameters {#retries-parameters}
 
-Temporarily undelivered messages are subject to an automatic retry. This section indicates how many retries should be performed the day after the send is started ( **[!UICONTROL Max. number of retries]** ) and the minimum delay between retries ( **[!UICONTROL Retry period]** ).
+Temporarily undelivered messages are subject to an automatic retry. For more on this, see [Retries after a delivery temporary failure](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
+
+>[!IMPORTANT]
+  >
+  >Once upgraded to the [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html), the **Retries** settings in Campaign are ignored. The **[!UICONTROL Retry period]** (minimum delay between retries) and the **[!UICONTROL Max. number of retries]** (how many retries should be performed the day after the send is started) are managed by the Enhanced MTA, based on how well an IP is performing both historically and currently at a given domain.
+  
+<!--This section indicates how many retries should be performed the day after the send is started ( **[!UICONTROL Max. number of retries]** ) and the minimum delay between retries ( **[!UICONTROL Retry period]** ).
 
 By default, five retries are scheduled for the first day with a minimum interval of one hour, spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the [Validity period parameters](#validity-period-parameters) section.
 
-The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template
+The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template.-->
+
+Momentum does honor the delivery duration setting (which is defined in the [Validity period parameters](#validity-period-parameters) section) in Campaign, but only up to 3.5 days. At that point, any message in the retry queue will be removed from the queue and sent back as a bounce. For more on delivery failures, see this [section](../../sending/using/understanding-delivery-failures.md#about-delivery-failures).
 
 #### Email format parameters {#email-format-parameters}
 
@@ -229,22 +246,24 @@ The **[!UICONTROL Validity period]** section contains the following parameters:
 
 ![](assets/delivery-validity-period.png)
 
-* **[!UICONTROL Explicitly set validity dates]**: when this box is unchecked, you must enter a duration in the **[!UICONTROL Delivery duration]** and **[!UICONTROL Resource validity limit]** fields. Check this box if you would like to define specific times and dates.
+* **[!UICONTROL Explicitly set validity dates]**: when this box is unchecked, you must enter a duration in the **[!UICONTROL Delivery duration]** and **[!UICONTROL Resource validity limit]** fields.
+
+  Check this box if you would like to define specific times and dates.
 
   ![](assets/delivery-set-explicit-dates.png)
 
-* **[!UICONTROL Delivery duration]**: Adobe Campaign sends the messages beginning on the start date. This field allows you to specify the duration during which the messages can be sent.
+* **[!UICONTROL Delivery duration]** / **[!UICONTROL Validity limit for sending messages]**: Adobe Campaign sends the messages beginning on the start date. This field allows you to specify the duration during which the messages can be sent.
 
   >[!IMPORTANT]
   >
-  >Once upgraded to the Enhanced MTA, the **[!UICONTROL Delivery duration]** parameter in your Campaign deliveries is used only if set to 3.5 days or less. If you define a value higher than 3.5 days, it will not be taken into account. All impacts are detailed in the [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html) document.
+  >Once upgraded to the [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html), the **[!UICONTROL Delivery duration]** parameter in your Campaign deliveries is used only if set to 3.5 days or less. If you define a value higher than 3.5 days, it will not be taken into account.
 
-* **[!UICONTROL Resource validity duration]**: this field is used for uploaded resources, mainly for the mirror page and images. The resources on this page are valid for a limited time (to save disk space).
+* **[!UICONTROL Resource validity duration]** / **[!UICONTROL Validity limit date for resources]**: this field is used for uploaded resources, mainly for the mirror page and images. The resources on this page are valid for a limited time (to save disk space).
 * **[!UICONTROL Mirror page management]**: the mirror page is an HTML page accessible online via a web browser. Its content is identical to the email content. By default, the mirror page is generated if the link is inserted in the mail content. This field allows you to modify the way in which this page is generated:
 
   >[!IMPORTANT]
   >
-  >An HTML content must have been defined for the email for the mirror page to be created.
+  >HTML content must have been defined for the email for the mirror page to be created.
 
     * **[!UICONTROL Generate the mirror page if a mirror link appears in the email content]** (default mode): the mirror page is generated if the link is inserted in the mail content. 
     * **Force the generation of the mirror page**: even if no link to the mirror page is inserted into the messages, the mirror page will be created. 
@@ -295,13 +314,17 @@ Preparing messages is detailed in the [Approving messages](../../sending/using/p
 
   >[!NOTE]
   >
-  >Typologies, which can be accessed via the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** menu, are presented in the [Typologies](../../administration/using/about-typology-rules.md) section.
+  >Typologies, which can be accessed via the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** menu, are presented in the [Typologies](../../sending/using/about-typology-rules.md) section.
 
 * **[!UICONTROL Compute the label during delivery preparation]**: allows you to calculate the label value of the email during the message preparation phase using personalization fields, content blocks, and dynamic text.
 
   It is also possible to personalize the delivery label with events variables that have been declared into the workflow's external signal activity. For more on this, refer to [this section](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
 * **[!UICONTROL Save SQL queries in the log]**: this option allows you to add SQL query logs in the journal during the preparation phase.
+
+#### Proof settings {#proof-settings}
+
+This section allows you to configure the default prefix to use in proof's subject line. For more in this, refer to [this section](../../sending/using/sending-proofs.md).
 
 ### List of email SMTP parameters {#list-of-email-smtp-parameters}
 
@@ -326,37 +349,3 @@ The **[!UICONTROL Access authorization]** section contains the following paramet
   >You can configure organizational units via the **Administration** > **Users & Security** menu.
 
 * The **[!UICONTROL Created by]**, **[!UICONTROL Created]**, **[!UICONTROL Modified by]** and **[!UICONTROL Last modified]** fields are automatically completed.
-
-## Archiving emails {#archiving-emails}
-
-You can configure Adobe Campaign to keep a copy of emails sent from your platform.
-
-However, Adobe Campaign itself does not manage archived files. It does enable you to send the messages of your choice to a dedicated address, from where they can be processed and archived using an external system.
-
-When activated in the delivery template, this feature allows you to send an exact copy of the corresponding sent messages to a BCC email address (invisible to the delivery recipients) that you must specify.
-
-### Recommendations and limitations {#recommendations-and-limitations}
-
-* This feature is optional. Please check your license agreement and contact your account executive to activate it.
-* The BCC address of your choice must be provided to the Adobe team who will configure it for you.
-* You can only use one BCC email address.
-* Only successfully sent emails are taken in account. Bounces are not.
-* For privacy reasons, BCC emails must be processed by an archiving system capable of storing securely personally identifiable information (PII).
-* When creating a new delivery template, Email BCC is not enabled by default, even if the option has been purchased. You must enable it manually in each delivery template where you want to use it.
-
-### Activating email archiving {#activating-email-archiving}
-
-Email BCC is activated in the [email template](../../start/using/marketing-activity-templates.md), through a dedicated option:
-
-1. Go to **Resources** > **Templates** > **Delivery templates**.
-1. Duplicate the out-of-the-box **[!UICONTROL Send via email]** template.
-1. Select the duplicated template.
-1. Click the **[!UICONTROL Edit properties]** button to edit the template's properties.
-1. Expand the **[!UICONTROL Send]** section.
-1. Check the **[!UICONTROL Archive emails]** box to keep a copy of all sent messages for each delivery based on this template.
-
-   ![](assets/email_archiving.png)
-
->[!NOTE]
->
->If the emails sent to the BCC address are opened and clicked through, this will be taken into account in the **[!UICONTROL Total opens]** and **[!UICONTROL Clicks]** from the send analysis, which could cause some miscalculations.
