@@ -121,11 +121,11 @@ To import profiles to use for testing from an audience, follow these steps:
 
 1. Click the **[!UICONTROL Import]** button. The profiles from the audience corresponding to the message target are added to the **[!UICONTROL Profile substitution]** tab, as well as the associated substitution addresses and prefixes.
 
+![](assets/substitution_audience_imported.png)
+
 >[!NOTE]
 >
 >If you import the same audience once again, with different substitution addresses and/or prefixes, the profiles will be added to the list in addition to those from the previous import.
-
-    ![](assets/substitution_audience_added.png)
 
 ## Previewing the message with targeted profiles
 
@@ -149,7 +149,7 @@ To preview messages using profile substitution, follow these steps:
 
 1. Click the **[!UICONTROL Profile Substitution]** tab to display the substitution profiles that have been added for testing.
 
-    Select the profiles that you want to use for preview, then click **[!UICONTROL Select]**.
+    Select the profiles that you want to use for preview, then click **[!UICONTROL Select]**. 
 
     ![](assets/substitution_preview_selection.png)
 
