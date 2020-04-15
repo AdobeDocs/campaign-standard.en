@@ -16,12 +16,6 @@ snippet: y
 
 # Getting started with landing pages {#getting-started-with-landing-pages}
 
-## About landing pages {#about-landing-pages}
-
-Campaign comes with landing pages which are web forms that can be used to capture information on your audiences, offer subscriptions to a service, display data and grow your database. Landing pages can also be used for acquiring or updating existing profiles.
-
-Landing pages can also be used to set up a double opt-in mechanism, allowing you to to protect the platform from wrong or invalid email addresses ,or spambots. For more on this, refer to the [dedicated use case](../../channels/using/setting-up-a-double-opt-in-process.md).
-
 The main steps when setting up landing pages are as follows:
 
 ![](assets/lp_steps.png)
