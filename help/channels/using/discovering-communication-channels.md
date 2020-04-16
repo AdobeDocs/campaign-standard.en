@@ -44,7 +44,7 @@ Read more:
 * [Multilingual messages templates](../../channels/using/multilingual-messages-template.md)
 * [Marketing activity templates](../../start/using/marketing-activity-templates.md)
 
-## Available communication channels {available-communication-channels}
+## Available communication channels {#available-communication-channels}
 
 Five communication channels are available in Adobe Campaign: Email, SMS message, Push notification, In-App message and Direct mail delivery.
 
@@ -60,7 +60,7 @@ Read more:
 * [Creating In-App messages](../../channels/using/about-in-app-messaging.md)
 * [Creating Direct mail deliveries](../../channels/using/about-direct-mail.md)
 
-## Transactional messages {transactional-messages}
+## Transactional messages {#transactional-messages}
 
 Send individual and unique messages to your customers in real-time: welcome messages, order shipping confirmations, password modification, etc.
 
@@ -74,7 +74,7 @@ Read more:
 * [Transactional push notifications](../../channels/using/transactional-push-notifications.md)
 * [Follow-up messages](../../channels/using/follow-up-messages.md)
 
-## Landing pages {landing-pages}
+## Landing pages {#landing-pages}
 
 Campaign comes with landing pages which are web forms that can be used to capture information on your audiences, offer subscriptions to a service, display data and grow your database.
 
