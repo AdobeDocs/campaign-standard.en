@@ -16,24 +16,58 @@ snippet: y
 
 # Get started with testing and sending {#about-sending-messages-with-campaign}
 
-Once you have defined the target and created the content of a message, you need to test and approve content, personalization, rendering and configuration, and make sure everything is correct before sending the message to the main target. 
+Once you have defined the target and created the content of a message, you need to test and approve content, personalization, rendering and configuration, and make sure everything is correct before sending the message to the main target.
 
-To do this, best practices are to:
+<table>
+<tr><td><img src="assets/do-not-localize/icon_prepare.svg" width="60px"></td><td><img src="assets/do-not-localize/icon_send.svg"  width="60px"></td><td><img src="assets/do-not-localize/icon_deliverability.svg"  width="60px"></td></tr>
+<tr><td><a href="#prepare-test-send">Prepare and test the send</a></td><td><a href="#send-track-messages">Send and track your messages</a></td><td><a href="#improve-deliverability">Improve your deliverability</a></td></tr>
+</table>
 
-* Prepare the send: this step allows you to move to analyzing and preparing messages to send. The message preparation analyzes the target, the personalization and the validity of the message. Errors detected during this step must be corrected before being able to proceed further. You can launch the message preparation as many times as needed. For more on message preparation, refer to [this section](../../sending/using/preparing-the-send.md).
+## Prepare and test the send {#prepare-test-send}
 
-  >[!NOTE]
-  >
-  >You can set global cross-channel fatigue rules that will automatically exclude oversollicited profiles from campaigns. See [Fatigue rules](../../sending/using/fatigue-rules.md).
+Campaign message preparation analyzes the target, the personalization and the validity of the message. Errors detected during this step must be corrected before being able to proceed further.
 
-* Preview messages by using a test profile. For more on previewing messages, refer to [this section](../../sending/using/previewing-messages.md).
-* Send proofs to test messages. For more on proofs, refer to [this  section](../../sending/using/sending-proofs.md). 
-* Check the message rendering: make sure that your message will be displayed in an optimal way on a variety of web clients, web mails and devices. Learn more about Email rendering in [this section](../../sending/using/email-rendering.md).
+Preview and test your messages using various capabilities: send proofs to test profiles or tageted profiles, test your emails' subject line, and check the rendering of your messages to make sure that it will display in an optimal way on a variety of web clients, web mails and devices.
 
-You can then:
+Leverage Campaign scheduling capabilities to define when your messages will be sent. For example, you can adapt sending at the recipient's timezone, optimize the sending time or compute the sending date.
 
-* Schedule the sending: you can define when messages will be sent. For example, you can adapt sending at the recipient's timezone, optimize the sending time or compute the  sending date. Learn more in [this section](../../sending/using/about-scheduling-messages.md).
-* Send the message: once the message ready, you can start the sending. Access logs and reports are then available to monitor the message delivery and measure the success of your campaign. Adobe Campaign also provides an email alerting system to keep track of delivery successes or failures. Learn more in [this page](../../sending/using/confirming-the-send.md).
+Use typologies to check during the preparation wether your message is valid and meets your quality criteria through fatigue, control and targeting rules. For example, to check that your emails always contain a subject line, or to exclude unsubscribers from the message recipients.
+
+Read more:
+
+* [Preparing the send](../../sending/using/preparing-the-send.md)
+* [Previewing messages](../../sending/using/previewing-messages.md)
+* [Sending proofs](../../sending/using/sending-proofs.md)
+* [Email rendering](../../sending/using/email-rendering.md)
+* [Scheduling messages](../../sending/using/about-scheduling-messages.md)
+* [About typologies and typology rules](../../sending/using/about-typology-rules.md)
+
+## Send and track your messages {#send-track-messages}
+
+Once your message is ready, you can confirm the sending and access logs and reports to monitor the delivery and measure the success of your campaign. Adobe Campaign also provides an email alerting system to keep track of delivery successes or failures, as well as quarantine management capabilities.
+
+Track the behavior of the message recipients by using session and permanent cookies to retrieve tracking information (clicked URLs, mirror pages, opened messages...).
+
+Finally, you can configure Adobe Campaign to keep a copy of emails sent from your platform through Email BCC. In particular, if your organization needs to archive all outbound email messages for compliance, you can enable this capability.
+
+Read more:
+
+* [Confirming the send](../../sending/using/confirming-the-send.md)
+* [Archiving with Email BCC](../../sending/using/archiving.md)
+* [Monitoring a delivery](../../sending/using/monitoring-a-delivery.md)
+* [Understanding delivery failures](../../sending/using/understanding-delivery-failures.md)
+* [Understanding quarantine management](../../sending/using/understanding-quarantine-management.md)
+
+## Improve your deliverability {#improve-deliverability}
+
+Deliverability allows to measure the success of your campaigns reaching your recipients' inbox without bouncing, or being marked as spam.
+
+Campaign Standard provides several deliverability tools to help you improve the number of successfully delivered messages: delivery thoughput reports, sending time optimization, messages preview, email rendering, quarantine management, etc.
+
+* [About deliverability](../../sending/using/about-deliverability.md)
+* [Monitoring deliverability](../../sending/using/monitor-deliverability.md)
+* [Improving your reputation](../../sending/using/improving-reputation.md)
+* [Technical recommendations](../../sending/using/technical-recommendations.md)
 
 ## Related topics
 
