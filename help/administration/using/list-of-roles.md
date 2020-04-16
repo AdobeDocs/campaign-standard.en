@@ -30,15 +30,10 @@ Default rights are:
 
 * **[!UICONTROL Administration]**: Generic administration right.
 * **[!UICONTROL Datamodel]**: Right to run publications and create custom resources.
-* **[!UICONTROL Export]**: Right to export data.
 * **[!UICONTROL Generic import]**: Right to run a generic import on data. For this to work, you need to link the **[!UICONTROL Generic import]** role to the **[!UICONTROL Workflow]** role.
 * **[!UICONTROL Prepare deliveries]**: Right to create, modify, prepare and delete deliveries. Users with this role can prepare the delivery but not send it.
 * **[!UICONTROL Start deliveries]**: Right to create, modify, prepare, send, and delete deliveries.
 * **[!UICONTROL Workflow]**: Right to manage the execution of workflows (start, stop, pause etc.). Users with this role can not send a delivery even in a workflow.
-
->[!IMPORTANT]
->
->The **[!UICONTROL Deliverability]**, **[!UICONTROL Command execution]**, **[!UICONTROL Export]**, **[!UICONTROL File access]** and **[!UICONTROL Message Center push]** roles are for Adobe administrators internal use only. They should not be granted to a user.
 
 **Related topics:**
 
