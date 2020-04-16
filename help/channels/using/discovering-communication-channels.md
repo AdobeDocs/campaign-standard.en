@@ -22,8 +22,8 @@ Harmonizing all of your marketing channels is not an impossible task. With the h
 ![](assets/do-not-localize/cross-channel.png)
 
 <table>
-<tr><td><img src="assets/do-not-localize/icon_segment.svg" width="60px"></td><td><img src="assets/do-not-localize/icon_permission.svg"  width="60px"></td><td><img src="assets/do-not-localize/icon_privacy.svg"  width="60px"></td><td><img src="assets/do-not-localize/icon_privacy.svg"  width="60px"></td></tr>
-<tr><td><a href="#segmenting-targeting">Global concepts</a></td><td><a href="#permission">Available communication channels</a></td><td><a href="#privacy">Transactional messages</a></td><td><a href="#privacy">Landing pages</a></td></tr>
+<tr><td><img src="assets/do-not-localize/icon_concepts.svg" width="60px"></td><td><img src="assets/do-not-localize/icon_channels.svg"  width="60px"></td><td><img src="assets/do-not-localize/icon_transactional.svg"  width="60px"></td><td><img src="assets/do-not-localize/icon_landing.svg"  width="60px"></td></tr>
+<tr><td><a href="#global-concepts">Global concepts</a></td><td><a href="#available-communication-channels">Available communication channels</a></td><td><a href="#transactional-messages">Transactional messages</a></td><td><a href="#landing-pages">Landing pages</a></td></tr>
 </table>
 
 ## Global concepts {#global-concepts}
@@ -38,10 +38,10 @@ Harmonizing all of your marketing channels is not an impossible task. With the h
 
 Read more:
 
-* [Key steps to send a message](../..)
-* [Accessing messages](../..)
-* [Message dashboard](../..)
-* [Multilingual messages templates](../..)
+* [Key steps to send a message](../../channels/using/key-steps-to-send-a-message.md)
+* [Accessing messages](../../channels/using/accessing-messages.md)
+* [Message dashboard](../../channels/using/message-dashboard.md)
+* [Multilingual messages templates](../../channels/using/multilingual-messages-template.md)
 * [Marketing activity templates](../../start/using/marketing-activity-templates.md)
 
 ## Available communication channels {available-communication-channels}
@@ -68,11 +68,11 @@ Transactional messages are available for the email, SMS and push notification ch
 
 Read more:
 
-* [About transactional messaging](../..)
-* [Event transactional emssages](../..)
-* [Profile tyrnasactional messages](../..)
-* [Transactional push notifications](../..)
-* [Follow-up messages](../..) 
+* [About transactional messaging](../../channels/using/about-transactional-messaging.md)
+* [Event transactional messages](../../channels/using/event-transactional-messages.md)
+* [Profile transactional messages](../../channels/using/profile-transactional-messages.md)
+* [Transactional push notifications](../../channels/using/transactional-push-notifications.md)
+* [Follow-up messages](../../channels/using/follow-up-messages.md)
 
 ## Landing pages {landing-pages}
 
@@ -82,11 +82,10 @@ Landing pages can also be used for acquiring or updating existing profiles, and 
 
 Read more:
 
-* [Getting started with landing pages](../..)
-* [Landing page templates](../..)
-* [Managing landing page form data](../..)
-* [Setting up a double opt-in process](../..)
-
+* [Getting started with landing pages](../../channels/using/getting-started-with-landing-pages.md)
+* [Landing page templates](../../channels/using/landing-page-templates.md)
+* [Managing landing page form data](../../channels/using/managing-landing-page-form-data.md)
+* [Setting up a double opt-in process](../../channels/using/setting-up-a-double-opt-in-process.md)
 
 ## Related topics
 
