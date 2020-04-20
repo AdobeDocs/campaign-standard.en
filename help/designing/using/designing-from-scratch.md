@@ -84,7 +84,7 @@ Here is the list of the available components in the Email Designer:
 
   You can also save buttons into fragments that can be reused. For more on this, see [Creating a content fragment](../../designing/using/using-reusable-content.md#creating-a-content-fragment) and [Saving content as a fragment](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
 
-1. Select **[!UICONTROL Fallback view]** to display the fallback image in the Email Designer.
+Select **[!UICONTROL Fallback view]** to display the fallback image in the Email Designer.
 
 - **[!UICONTROL Text]**
 
@@ -139,7 +139,7 @@ Here is the list of the available components in the Email Designer:
     1. Drag and drop the **[!UICONTROL Carousel]** component inside a structure component.
     1. Browse to select images from your computer.
 
-    ![](assets/des_carousel_browse.png)
+     ![](assets/des_carousel_browse.png)
 
     1. From the **[!UICONTROL Settings]** pane, set the number of thumbnails that you want in the carousel.
     1. Select a fallback image from your computer.
