@@ -67,13 +67,13 @@ snippet: y
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>The External API activity is now GA. This release brings additional flexibility to the JSON response body parser. You can now:</p>
+<td> <p>The External API activity is transitioning from beta to GA. This release brings additional flexibility to the JSON response body parser. You can now:</p>
 <ul>
-<li>parse a nested JSON with a max depth of 10 levels. </li>
+<li>parse a nested JSON with a maximum depth of 10 levels. </li>
 <li>parse selected properties as leaf nodes from a JSON and flatten them into a single table row.</li>
-<li>select and use an array object from a JSON, not just the data array at top-level supported in beta release, and use elements of that array to populate multiple rows in the transition table.</li>
+<li>select and use an array object from a JSON and use elements of that array to populate multiple rows in the transition table.</li>
 </ul>
-<p>Customers will need to replace all beta External API activities with GA External API activities in their workflows.  Workflows that use the beta version of External API will stop working in ACS 20.3.</p>
+<p>Customers will need to replace all beta External API activities with GA External API activities in their workflows.  Workflows that use the beta version of External API will stop working in 20.3.</p>
 <p>For more information, refer to the <a href="../../automating/using/external-api.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">how-to video</a>.</p>
 </td> 
 </tr> 
@@ -82,9 +82,8 @@ snippet: y
 
 **Improvements**
 
-* Guardrail limit for the External API activity have been enhanced: request timeout has been increased to 10 minutes and payload size to 50MB.
 * The number of characters that can be used in the Prefix field to test messages using targeted profiles has been increased from 32 to 500 characters.
-* The maximum number of real-time events that can be published on an instance has been increased from 350 to 2000.
+* The maximum number of real-time events that can be published on an instance has been increased from 350 to 2000. (CAMP-41608)
 
 
 **Email Designer enhancements**
@@ -98,24 +97,24 @@ snippet: y
 
 **Other changes**
 
-* The custom resource publication interface has been improved with clearer error messages: error messages have been improved when publishing a custom resources with missing fields. They now specify the resource(s) where the missing field is still referenced. Also, the error message has been updated and improved when creating an extension of profile resource which already existed.
+* The custom resource publication interface has been improved with clearer error messages.
 * Unused delivery mappings have been removed from the interface.
 * Unnecessary administrator roles have been removed from the interface.
 * Checkboxes can now be mandatory in a landing page.
 
 **Experience Platform integrations**
 
-* Activation of Adobe Experience Platform audiences from the Read audience activity has been improved to provide better performance and stability. Moreover, workflow logs have been made clearer and more detailed regarding activation jobs, allowing easier monitoring and troubleshooting when reading Adobe Experience Platform audiences.
+* Activation of Adobe Experience Platform audiences from the **Read audience** activity has been improved to provide better performance and stability. Moreover, workflow logs have been made clearer and more detailed regarding activation jobs, allowing easier monitoring and troubleshooting when reading Adobe Experience Platform audiences.
 
 **Patches**
 
 * Fixed an error which led to a ghost resource being created during the publication job of a custom resource.
-* Fixed an issue that could prevent profiles' Marketing History from displaying if the Profile resource was extended with a custom resource.
-* Fixed an issue with out-of-the-box landing page templates which displayed their content in French when opening the editor.
-* Fixed an issue in push notifications with dynamic content that could prevent emojis from being displayed.
-* Fixed an issue in the Deduplication activity which could led to an incorrect segment code being assignedto one of the outbound complement transitions.
-* Fixed an error which prevented Scheduled Report from being deleted.
-* Fixed an issue which caused discrepancy between the delivery dashboard and the Delivery summary report.
+* Fixed an issue that could prevent profiles' Marketing History from displaying if the Profile resource was extended with a custom resource. (CAMP-41009)
+* Fixed an issue with out-of-the-box landing page templates which displayed their content in French when opening the editor. (CAMP-41639)
+* Fixed an issue in push notifications with dynamic content that could prevent emojis from being displayed. (CAMP-40715)
+* Fixed an issue in the Deduplication activity which could led to an incorrect segment code being assignedto one of the outbound complement transitions. (CAMP-41400)
+* Fixed an error which prevented Scheduled Report from being deleted. (CAMP-41302)
+* Fixed an issue which caused discrepancy between the delivery dashboard and the Delivery summary report. (CAMP-41145)
 * Fixed an issue which led to a character overlap display issue in downloaded reports.
 * Fixed an issue which prevented the preview of a delivery from working for proof substitution.
 * Fixed an error when deleting custom fields of an In-App local notification.
