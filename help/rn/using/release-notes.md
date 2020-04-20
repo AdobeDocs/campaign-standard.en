@@ -82,7 +82,7 @@ snippet: y
 
 **Improvements**
 
-* The number of characters that can be used in the Prefix field to test messages using targeted profiles has been increased from 32 to 500 characters.
+* The number of characters that can be used in the Prefix field to test messages using targeted profiles has been increased from 32 to 500 characters. [Read more](../../sending/using/testing-messages-using-target.md)
 * The maximum number of real-time events that can be published on an instance has been increased from 350 to 2000. (CAMP-41608)
 
 
