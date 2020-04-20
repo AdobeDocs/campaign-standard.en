@@ -89,8 +89,8 @@ snippet: y
 **Email Designer enhancements**
 
 * The Email Designer can now handle a more flexible HTML formatting than strict W3C. (CAMP-42529)
-* Fixed an issue with clickable images to prevent links from being displayed next to the image in content blocks. (CAMP-41586)
-* Fixed an issue preventing the redirection to a landing page when the tracked URL had a category added in the template. (CAMP-41537)
+* Fixed an issue with clickable images to prevent links from being displayed next to the image in content blocks. (CAMP-41586) [Read more](../../designing/using/links.md#inserting-a-link)
+* Fixed an issue preventing the redirection to a landing page when the tracked URL had a category added in the template. (CAMP-41537) [Read more](../../designing/using/links.md#about-tracked-urls-about-tracked-urls)
 * Fixed an issue with buttons padding in Outlook.
 * Fixed an issue causing HTML tags to appear in plain text.
 * Content block search now displays server search results as well as preloaded results. (CAMP-41870)
@@ -104,7 +104,7 @@ snippet: y
 
 **Experience Platform integrations**
 
-* Activation of Adobe Experience Platform audiences from the **Read audience** activity has been improved to provide better performance and stability. Moreover, workflow logs have been made clearer and more detailed regarding activation jobs, allowing easier monitoring and troubleshooting when reading Adobe Experience Platform audiences.
+* Activation of Adobe Experience Platform audiences from the **Read audience** activity has been improved to provide better performance and stability. Moreover, workflow logs have been made clearer and more detailed regarding activation jobs, allowing easier monitoring and troubleshooting when reading Adobe Experience Platform audiences. [Read more](../../automating/using/aep-targeting-audiences.md)
 
 **Patches**
 
@@ -119,4 +119,6 @@ snippet: y
 * Fixed an issue which prevented the preview of a delivery from working for proof substitution.
 * Fixed an error when deleting custom fields of an In-App local notification.
 * Fixed an issue which prevented the charIndex function from working with an End or File transfer activity in a workflow.
-
+* Fixed an issue in workflows that could occur when using an Enrichment activity with two input activities including target resources having a link between them. (CAMP-42133)
+* Fixed an issue that could prevent a workflow from running when using unknown functions. (CAMP-41873)
+* Fixed an issue in workflows that could occur when creating audiences using several **Save audience** activies with complement outbound transitions. 
