@@ -1,5 +1,5 @@
 ---
-title: Get started with workflows
+title: Get started with processes and data management
 description: Adobe Campaign offers a comprehensive graphical environment that allows you to design and automate processes.
 page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
@@ -14,28 +14,29 @@ internal: n
 snippet: y
 ---
 
-# Get started with workflows {#discovering-workflows}
+# Get started with processes and data management {#get-started-processes-data-management}
 
-Adobe Campaign offers a comprehensive [graphical environment](../../automating/using/workflow-interface.md) that allows you to design [complex processes](../../automating/using/workflow-operating-principles.md) including segmentation, campaign execution, file processing, approvals, etc. Principles and best practices are described in [this section](../../automating/using/building-a-workflow.md).
+With Adobe Campaign, you can import, transform, filter, manage, and export data to design and automate your business processes.
 
-For example, you can use a workflow to download a file from a server, decompress it, and then import its records into the Adobe Campaign database.
+<table>
+<tr><td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"></td><td><img src="assets/do-not-localize/icon_filter.svg"  width="60px"></td><td><img src="assets/do-not-localize/icon_manage.svg"  width="60px"></td></tr>
+<tr><td><a href="#about-workflows">About workflows</a></td><td><a href="#filter-data">Filter data</a></td><td><a href="#import-export-data">Import/export data</a></td></tr>
+</table>
 
-A workflow can also involve users by assigning them tasks or having them approve performed tasks. This means you can assign a task to one or several users to work on content or specify targets, and approve proofs before sending the message.
+## About workflows {#about-workflows}
 
-Workflows can be used in **different contexts**, as for example:
+- interface: intuitive interface + duplicate functions, quick actions
+- can be used to target, import, leverage data
+- various activities: target, execute, channel, data management
 
-* Targeting to manage audiences or send messages. For more on this, refer to [Channel activities](../../automating/using/about-channel-activities.md) and [Targeting activities](../../automating/using/about-targeting-activities.md).
-* Data management (ETL) to manipulate data. For more on this, refer to [Data management activities](../../automating/using/about-data-management-activities.md).
-* Importing data into Campaign database. For more on this, refer to [Importing and exporting data](../../automating/using/about-data-import-and-export.md).
-* Technical processes such as database cleanup, recovering tracking information, etc. Learn more about technical workflows in [this section](../../administration/using/technical-workflows.md).
+## Filter data {#filter-data}
 
-Workflows are also accessible from the Adobe Campaign Standard API. For more on this, refer to the [dedicated documentation](../../api/using/controlling-a-workflow.md).
+- query editor: filter data contained in your database using predefined filters and rules. allows you to build a population to better target your recipients. : used to create audiences, define deliveries targets, or populations in workflow activities
+- also provides advanced exoression editiing capabilities: can manually enter conditions to form rules, using functions.
 
-**Related topics:**
+## Import/export data {#import-export-data}
 
-* [Workflow operational principles](../../automating/using/workflow-operating-principles.md)
-* [About data import and export](../../automating/using/about-data-import-and-export.md)
-* [Use case: Create a once-a-week email delivery](../../automating/using/workflow-weekly-offer.md)
-* [Use case: Creating a delivery segmented on location](../../automating/using/workflow-segmentation-location.md)
-* [Use case: Creating deliveries with a complement](../../automating/using/workflow-created-query-with-complement.md)
-* [Use case: Retargeting workflow sending a new delivery to non-openers](../../automating/using/workflow-cross-channel-retargeting.md)
+- import templates:Alternatively to Workflows , Adobe Campaign offers a simplified import function that allows the user to manage certain types of import that were defined by an administrator.import templates
+- exporting logs: allow you to export log data through a simple workflow. can analyse the rsults of your campaigns in your own reporting or BI tool.
+- packages allow you ro exchange resrouces between different campaign instances: useful to replicate config of an instance, or transfer data from a server to another, like custom resources
+- export list option allow to exports lists from campaign, example list of test profiles

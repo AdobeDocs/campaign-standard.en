@@ -236,18 +236,16 @@ user-guide-title: Adobe Campaign Standard Help
        + [Map Campaign custom resources and Dynamics 365 Custom entities](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
 + Managing processes and data {#managing-processes-and-data}
   + [Get started with workflows](automating/using/discovering-workflows.md)
-  + About workflows and data management {#about-workflows-and-data-management}
-       + [Workflow data and processes](automating/using/workflow-data-and-processes.md)
-       + [Workflow operating principles](automating/using/workflow-operating-principles.md)
-       + [Workflow interface](automating/using/workflow-interface.md)
   + Workflow general operation {#workflow-general-operation}
+       + [Discover workflows](automating/using/workflow-operating-principles.md)
+       + [Workflow interface](automating/using/workflow-interface.md)
        + [Building a workflow](automating/using/building-a-workflow.md)
        + [Targeting data](automating/using/targeting-data.md)
        + [Importing data](automating/using/importing-data.md)
        + [Using workflow data](automating/using/using-workflow-data.md)
        + [Executing a workflow](automating/using/executing-a-workflow.md)
-       + [Calling a workflow with external parameters](automating/using/calling-a-workflow-with-external-parameters.md)
        + [Workflow best practices](automating/using/best-practices-workflows.md)
+  + [Calling a workflow with external parameters](automating/using/calling-a-workflow-with-external-parameters.md)
   + Targeting activities {#targeting-activities}
        + [About targeting activities](automating/using/about-targeting-activities.md)
        + [Query](automating/using/query.md)
