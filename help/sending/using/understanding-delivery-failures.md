@@ -22,7 +22,9 @@ When a delivery cannot be sent to a profile, the remote server automatically sen
 
 >[!NOTE]
 >
->**Email** error messages (or "bounces") are qualified by the Enhanced MTA (synchronous bounces) or by the inMail process (asynchronous bounces). **SMS** error messages (or "SR" for "Status Report") are qualified by the MTA process.
+>**Email** error messages (or "bounces") are qualified by the Enhanced MTA (synchronous bounces) or by the inMail process (asynchronous bounces).
+>
+>**SMS** error messages (or "SR" for "Status Report") are qualified by the MTA process.
 
 Messages can also be excluded during the delivery preparation if an address is quarantined or if a profile is blacklisted. Excluded messages are listed in the **[!UICONTROL Exclusion logs]** tab of the delivery dashboard (see [this section](../../sending/using/monitoring-a-delivery.md#exclusion-logs)).
 
@@ -83,7 +85,7 @@ To modify the duration of a delivery, go to the advanced parameters of the deliv
 
 >[!IMPORTANT]
 >
->The **[!UICONTROL Delivery duration]** parameter in your Campaign deliveries is now only used if set to 3.5 days or less. If you define a value higher than 3.5 days, it will not be taken into account as it is now managed by the Adobe Campaign Enhanced MTA.
+>**The **[!UICONTROL Delivery duration]** parameter in your Campaign deliveries is now only used if set to 3.5 days or less.** If you define a value higher than 3.5 days, it will not be taken into account as it is now managed by the Adobe Campaign Enhanced MTA.
 
 For example, if you want retries for a delivery to stop after one day, you can set the delivery duration to **1d**, and the Enhanced MTA will honor that setting by removing messages in the retry queue after one day.
 
