@@ -163,8 +163,9 @@ user-guide-title: Adobe Campaign Standard Help
        + [Fatigue rules](sending/using/fatigue-rules.md)
        + [Control rules](sending/using/control-rules.md)
 + Reporting {#reporting}
-  + [Get started with dynamic reports](reporting/using/about-dynamic-reports.md)
+  + [Get started with dynamic reports](reporting/using/get-started-reporting.md)
   + About reporting {#about-reporting}
+       + [About dynamic reports](reporting/using/about-dynamic-reports.md)
        + [Reporting interface](reporting/using/reporting-interface.md)
        + [List of components](reporting/using/list-of-components-.md)
        + [Indicator calculation](reporting/using/indicator-calculation.md)
