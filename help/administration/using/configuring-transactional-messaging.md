@@ -30,7 +30,7 @@ Start by creating the event corresponding to your needs.
 
 >[!NOTE]
 >
->The number of real-time events created can have an impact on your platform. To ensure optimal performance, make sure you delete real-time events that you do not need anymore.
+>The number of created real-time events can have an impact on your platform. To ensure optimal performance, make sure you delete real-time events that you do not need anymore. See [Deleting an event](../../administration/using/configuring-transactional-messaging.md#deleting-an-event).
 
 1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
 1. Click the **[!UICONTROL Create]** button.
