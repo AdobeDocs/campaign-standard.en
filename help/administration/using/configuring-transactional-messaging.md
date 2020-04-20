@@ -28,6 +28,10 @@ Once the event is published, the corresponding transactional message is automati
 
 Start by creating the event corresponding to your needs.
 
+>[!NOTE]
+>
+>The number of real-time events created can have an impact on your platform. To ensure optimal performance, make sure you delete real-time events that you do not need anymore.
+
 1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
 1. Click the **[!UICONTROL Create]** button.
 1. Give a **[!UICONTROL Label]** and an **[!UICONTROL ID]** to the event. The **[!UICONTROL ID]** field is mandatory and should begin with the prefix "EVT". If you do not use this prefix, it is automatically added once you click **[!UICONTROL Create]**. 
