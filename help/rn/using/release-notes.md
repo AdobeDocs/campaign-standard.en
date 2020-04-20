@@ -101,6 +101,8 @@ snippet: y
 * Unused delivery mappings have been removed from the interface.
 * Unnecessary administrator roles have been removed from the interface.
 * Checkboxes can now be mandatory in a landing page.
+* When downloading the CSV file of a Dynamic report, the limit of 200 rows has been removed. You can now include every row of your report. (CAMP-40810)
+* Added ES-US language in the list of out-of-the-box languages for multilingual emails. (CAMP-42279)
 
 **Experience Platform integrations**
 
@@ -112,7 +114,7 @@ snippet: y
 * Fixed an issue that could prevent profiles' Marketing History from displaying if the Profile resource was extended with a custom resource. (CAMP-41009)
 * Fixed an issue with out-of-the-box landing page templates which displayed their content in French when opening the editor. (CAMP-41639)
 * Fixed an issue in push notifications with dynamic content that could prevent emojis from being displayed. (CAMP-40715)
-* Fixed an issue in the Deduplication activity which could led to an incorrect segment code being assignedto one of the outbound complement transitions. (CAMP-41400)
+* Fixed an issue in the Deduplication activity which could led to an incorrect segment code being assigned to one of the outbound complement transitions. (CAMP-41400)
 * Fixed an error which prevented Scheduled Report from being deleted. (CAMP-41302)
 * Fixed an issue which caused discrepancy between the delivery dashboard and the Delivery summary report. (CAMP-41145)
 * Fixed an issue which led to a character overlap display issue in downloaded reports.
@@ -121,4 +123,7 @@ snippet: y
 * Fixed an issue which prevented the charIndex function from working with an End or File transfer activity in a workflow.
 * Fixed an issue in workflows that could occur when using an Enrichment activity with two input activities including target resources having a link between them. (CAMP-42133)
 * Fixed an issue that could prevent a workflow from running when using unknown functions. (CAMP-41873)
-* Fixed an issue in workflows that could occur when creating audiences using several **Save audience** activies with complement outbound transitions. 
+* Fixed an issue in workflows that could occur when creating audiences using several **Save audience** activities with complement outbound transitions. (CAMP-39992)
+* Fixed an issue which caused data discrepancy when using personalization in transactional emails. (CAMP-41842)
+* Fixed issues which occurred when deleting custom fields in push notification deliveries. (CAMP-37586)
+* Fixed an error which prevented users from making changes to reports. (CAMP-42505)
