@@ -104,19 +104,13 @@ A delivery can fail immediately (synchronous error), or later on, after it has b
 
 ## Bounce mail qualification {#bounce-mail-qualification}
 
-<!--Delivery failure error messages (or "SMTP bounce responses") are picked up by the Adobe Campaign platform and then processed and qualified as **Hard**, **Soft**, or **Ignored** using the **[!UICONTROL Delivery log qualification]** database.
-
-//Delivery failure error messages (or "bounces") are picked up by the Adobe Campaign platform and qualified by the inMail process to enrich the list of email management rules.(applies to asynchronous (out-of-band) bounces)
-
-This list is available to administrators only and contains all the rules used by Adobe Campaign to qualify delivery failures.-->
-
->[!IMPORTANT]
->
->Bounce mail qualification is now managed by the Adobe Campaign Enhanced MTA. The bounce qualifications in the Campaign **[!UICONTROL Message qualification]** table are no longer used.
-
 For synchronous delivery failure error messages, the Enhanced MTA determines the bounce type and qualification, and sends back that information to Campaign.
 
 Asynchronous bounces are still qualified by the inMail process through the **[!UICONTROL Inbound email]** rules. To access these rules, click the **[!UICONTROL Adobe Campaign]** logo, at the top left, then select **[!UICONTROL Administration > Channels > Email > Email processing rules]** and select **[!UICONTROL Bounce mails]**. For more on this rule, refer to this [section](../../administration/using/configuring-email-channel.md#email-processing-rules).
+
+>[!NOTE]
+>
+>Bounce mail qualification is now managed by the Adobe Campaign Enhanced MTA. The bounce qualifications in the Campaign **[!UICONTROL Message qualification]** table are no longer used.
 
 <!--Bounces can have the following qualification statuses:
 
