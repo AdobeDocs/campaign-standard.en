@@ -18,9 +18,9 @@ snippet: y
 
 Adobe Campaign Standard API access is set up through the steps below. Each of these steps is detailed in the [Adobe IO documentation](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
->To manage certificates in Adobe IO, make sure you have <b>System administrator</b> rights on the organization or a <a href="https://helpx.adobe.com/enterprise/using/manage-developers.html">developer account</a> in the Admin console.
+>To manage certificates in Adobe IO, make sure you have <b>System administrator</b> rights on the organization or a [developer account](https://helpx.adobe.com/enterprise/using/manage-developers.html)</a> in the Admin console.
 
 1. **Check you have a digital certificate**, or create one if necessary. The public and private keys provided with the certificate are needed in the following steps.
 1. **Create a new integration to Adobe Campaign Service** in Adobe IO and configure it. Your credentials will then be generated (API Key, Client secret...).
