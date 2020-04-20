@@ -20,10 +20,12 @@ Integrations available between Campaign Standard and other solutions and service
 
 <table>
 <tr><td><img src="assets/do-not-localize/icon_functional.svg" width="60px"></td><td><img src="assets/do-not-localize/icon_organization.svg"  width="60px"></td></tr>
-<tr><td><a href="#global-concepts">Work with functional integrations</a></td><td><a href="#available-communication-channels">Link Adobe Experience Cloud Organizations</a></td></tr>
+<tr><td><a href="#functional-integrations">Work with functional integrations</a></td><td><a href="#linking-organizations">Link Adobe Experience Cloud Organizations</a></td></tr>
 </table>
 
 ## Work with functional integrations {#functional-integrations}
+
+Integrating Campaign Standard with the different integrations presented below will help you build optimal marketing campaigns. 
 
 If you would like to integrate data flows from other systems with Adobe Campaign, have a look at our [API documentation](../../api/using/about-campaign-standard-apis.md).
 
