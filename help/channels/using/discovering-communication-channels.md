@@ -27,6 +27,8 @@ Harmonizing all of your marketing channels is not an impossible task. With the h
 
 ## Global concepts {#global-concepts}
 
+<img src="assets/do-not-localize/icon_concepts.svg" width="60px">
+
 **Leverage Campaign message dashboard** to configure and send your messages from one single location, as well as access various functionalities like scheduling, multilingual messaging...
 
 **Manage templates** to configure messages properties and allow you to gain time and consistency across your messaging strategy. As an example, for emails, the functional administrator in charge of configuring the templates can define the standard parameters of an email, such as the audience, schedule, or content, the advanced parameters related to sending, validity, tracking, etc, or the pre-configuration parameters concerning targeting and personalization (targeting context).
@@ -40,6 +42,8 @@ Read more:
 * [Marketing activity templates](../../start/using/marketing-activity-templates.md)
 
 ## Available communication channels {#available-communication-channels}
+
+<img src="assets/do-not-localize/icon_channels.svg"  width="60px">
 
 Five communication channels are available in Adobe Campaign: Email, SMS message, Push notification, In-App message and Direct mail delivery.
 
@@ -57,6 +61,8 @@ Read more:
 
 ## Transactional messages {#transactional-messages}
 
+<img src="assets/do-not-localize/icon_transactional.svg" width="60px">
+
 Send individual and unique messages to your customers in real-time: welcome messages, order shipping confirmations, password modification, etc.
 
 Transactional messages are available for the email, SMS and push notification channels, depending on your options. There are two types of messages: event transactional messages targeting events without profile information, and profile transactional messages targeting profiles from your database.
@@ -70,6 +76,8 @@ Read more:
 * [Follow-up messages](../../channels/using/follow-up-messages.md)
 
 ## Landing pages {#landing-pages}
+
+<img src="assets/do-not-localize/icon_landing.svg" width="60px">
 
 Campaign comes with landing pages which are web forms that can be used to capture information on your audiences, offer subscriptions to a service, display data and grow your database.
 

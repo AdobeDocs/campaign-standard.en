@@ -27,6 +27,8 @@ Manage customers permission and consent using services and landing pages to set 
 
 ## Segmenting and targeting {#segmenting-targeting}
 
+<img src="assets/do-not-localize/icon_segment.svg" width="60px">
+
 When you create campaigns or messages, you can specify the target of the deliveries by selecting from contacts in Campaign database, using simple or advanced criteria, or selecting audiences.
 
 Identify customers more effectively across all your channels using integrated customer profiles and customized segments. When you know your customers, interests, demographics, and channel preferences, it’s easier to create personalized experiences that get noticed.
@@ -50,6 +52,8 @@ Read more
 
 ## Permission and consent {#permission}
 
+<img src="assets/do-not-localize/icon_permission.svg"  width="60px">
+
 Before starting to send messages to a contact, you need to make sure that you get their permission. If not, your emails might be marked as a spam and this will impact your platform deliverability. To make sure to build a healthy profile database, secure this permission as a first step. With Campaign, we recommend you to use easy opt-in and opt-out mechanisms through [services](../../audiences/using/creating-a-service.md), and [landing pages](../../channels/using/getting-started-with-landing-pages.md) to update your contact information and grow your database.
 
 Providing unsubscription links in your messages will enable Profiles to be blacklisted, when necessary, and therefore to improve your platform deliverability. For more on blacklisting, refer to [About opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
@@ -62,6 +66,8 @@ Providing unsubscription links in your messages will enable Profiles to be black
 * [About opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 ## Privacy compliance {#privacy}
+
+<img src="assets/do-not-localize/icon_privacy.svg" width="60px">
 
 Adobe Campaign offers a set of tools to help you with your Privacy Compliance for GDPR, CCPA, and other privacy laws.
 

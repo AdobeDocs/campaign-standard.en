@@ -28,6 +28,8 @@ As a cloud-based solution, Adobe Campaign offers administrators different ways t
 
 ## Administration menu {#administration-menu}
 
+<img src="assets/do-not-localize/icon_menu.svg" width="60px">
+
 The different Adobe Campaign admin operations are carried out via the **[!UICONTROL Administration]** menu accessible when clicking the Adobe Campaign logo in the top left-hand corner. This part of the interface can only be accessed by functional administrators of the platform.
 
 ![](assets/admin_overview2.png)
@@ -45,6 +47,8 @@ The different menus available are:
 
 ## Users and security {#users-security}
 
+<img src="assets/do-not-localize/icon_users.svg"  width="60px">
+
 Invite users to access the application and manage **security groups**, which are sets of users sharing the same roles and rights within your organization. By default, Adobe Campaign offers a set of **roles** which allows you to define unitary authorizations assigned to users and user groups. Combined with **organizational units**, roles give users a filtered view of the interface and define their access to the different features.
 
 Campaign standard also allows you to monitor security-related information. You can retrieve information regarding data exports performed by users through the **[!UICONTROL Export audits]** screen, and leverage the **[!UICONTROL Licenses]** screen to monitor all the installed Campaign licenses within your organization, as well as different information such as the build number, release version and terms of agreement.
@@ -59,6 +63,8 @@ Read more:
 * [Licenses](../../administration/using/licenses.md)
 
 ## Channels configuration {#channels-configuration}
+
+<img src="assets/do-not-localize/icon_channels.svg" width="60px">
 
 All communication channels in Adobe Campaign must be correctly configured to be able to effectively send messages.,The **[!UICONTROL Channel]**  menu allows you to manage the technical parameters linked to the different channels.
 
@@ -75,6 +81,8 @@ Read more:
 * [Configuring transactional messaging](../../administration/using/configuring-transactional-messaging.md)
 
 ## Application settings {#application-settings}
+
+<img src="assets/do-not-localize/icon_settings.svg" width="60px">
 
 Campaign Standard comes with different application elements that can be configured to match your needs.
 

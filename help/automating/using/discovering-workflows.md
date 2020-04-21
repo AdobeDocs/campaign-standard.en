@@ -24,6 +24,8 @@ With Adobe Campaign, you can import, transform, filter, manage, and export data 
 
 ## About workflows {#about-workflows}
 
+<img src="assets/do-not-localize/icon_workflows.svg" width="60px">
+
 Adobe Campaign offers a comprehensive graphical environment that allows you to design and automate complex processes from one single interface. Processes can include segmentation, campaign execution, file processing, approvals, delivery sending etc.
 
 Various activities are available to help you design your workflows. [Targeting activities](../../automating/using/about-targeting-activities.md) allow you to build one or more targets by defining sets and splitting or combining these sets using intersection, union, or exclusion operations.
@@ -42,6 +44,8 @@ Read more:
 
 ## Filter data {#filter-data}
 
+<img src="assets/do-not-localize/icon_filter.svg" width="60px">
+
 Leverage the **query editor** to filter data from your database and build a population to better target your recipients. The query editor is available to perform several actions in Campaign Standard: create Query type audiences, define delivery targets, or populations in workflow activities.
 
 The query editor comes with predefined filters and rules for quick and easy filtering. However, you can also use **advanced expression editing** capabilities. This allows you to manually enter conditions and use functions, in order to form your own rules.
@@ -53,6 +57,8 @@ Read more:
 * [List of functions](../../automating/using/list-of-functions.md)
 
 ## Import/export data {#import-export-data}
+
+<img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
 Campaign Standard comes with several data management capabilities to import and export data.
 

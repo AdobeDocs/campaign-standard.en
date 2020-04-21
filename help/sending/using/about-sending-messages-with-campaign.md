@@ -24,6 +24,8 @@ Once you have defined the target and created the content of a message, you need 
 
 ## Prepare and test the send {#prepare-test-send}
 
+<img src="assets/do-not-localize/icon_prepare.svg" width="60px">
+
 Campaign message preparation analyzes the target, the personalization and the validity of the message. Errors detected during this step must be corrected before being able to proceed further.
 
 Preview and test your messages using various capabilities: send proofs to test profiles or tageted profiles, test your emails' subject line, and check the rendering of your messages to make sure that it will display in an optimal way on a variety of web clients, web mails and devices.
@@ -43,6 +45,8 @@ Read more:
 
 ## Send and track your messages {#send-track-messages}
 
+<img src="assets/do-not-localize/icon_send.svg"  width="60px">
+
 Once your message is ready, you can confirm the sending and access logs and reports to monitor the delivery and measure the success of your campaign. Adobe Campaign also provides an email alerting system to keep track of delivery successes or failures, as well as quarantine management capabilities.
 
 Track the behavior of the message recipients by using session and permanent cookies to retrieve tracking information (clicked URLs, mirror pages, opened messages...).
@@ -58,6 +62,8 @@ Read more:
 * [Understanding quarantine management](../../sending/using/understanding-quarantine-management.md)
 
 ## Improve your deliverability {#improve-deliverability}
+
+<img src="assets/do-not-localize/icon_deliverability.svg"  width="60px">
 
 Deliverability allows to measure the success of your campaigns reaching your recipients' inbox without bouncing, or being marked as spam.
 

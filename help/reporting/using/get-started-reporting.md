@@ -26,6 +26,8 @@ Dynamic Reporting provides fully customizable and real-time reports to measure t
 
 ## Manage and share reports {#manage-share-reports}
 
+<img src="assets/do-not-localize/icon_manage.svg" width="60px">
+
 With Dynamic reporting drag-and-drop interface, you can explore data, determine how your email campaigns performed against your most important customer segments and measure their impact on recipients from one single place.
 
 Manage your dynamic reports thanks to various functionalities: refresh the data in real-time, print your reports, or export them as CSV files. You can also share your reports with Campaign Standard users through one-shot or recurring emails.
@@ -36,6 +38,8 @@ Read more:
 * [Reporting interface](../../reporting/using/reporting-interface.md)
 
 ## Build your reports {#build-reports}
+
+<img src="assets/do-not-localize/icon_build.svg" width="60px">
 
 Campaign Standard comes with a set of ready-to-use dynamc reports allowing you to measure multiple aspects of your markting campaigns: bounces, deliveries that have been declared the most as spam or junk, most viewed deliveries by recipients, channels-related reports, delivery throughput  and tracking reports...
 
@@ -48,6 +52,8 @@ Read more:
 * [List of reports](../../reporting/using/defining-the-report-period.md)
 
 ## Customize your reports {#customize-reports}
+
+<img src="assets/do-not-localize/icon_customize.svg" width="60px">
 
 Customize your reports by leverage dynamic reporting designing capabilities: add as many components as you need (panels and freeform tables) to analyse your data using the available metric and dimensions.
 

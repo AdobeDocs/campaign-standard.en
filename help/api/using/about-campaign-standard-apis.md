@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Get started with Campaign Standard APIs {#about-campaign-standard-apis}
+# Get started with Campaign Standard APIs {#get-started-apis}
 
 Campaign Standard APIs are aimed at letting you **create integrations** for Adobe Campaign Standard and **build your own ecosystem** by interfacing Adobe Campaign Standard with the panel of technologies that you use.
 
