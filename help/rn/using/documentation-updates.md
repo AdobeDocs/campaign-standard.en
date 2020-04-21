@@ -44,6 +44,8 @@ The section **Previewing deliveries** has been updated with mobile deliveries ex
 
 Best practice has been added regarding transactional messaging and the deletion of unused real-time events. [Read more](../../administration/using/configuring-transactional-messaging.md#creating-an-event)
 
+The Configuring email channel section has been updated with clarification on all the email settings that are now managed by the Adobe Campaign Enhanced MTA. [Read more](../../administration/using/configuring-email-channel.md)
+
 ## Release 20.2 - April 2020 {#release-20-2---april-2020}
 
 **New capabilities included in the release**
