@@ -32,7 +32,7 @@ CCPA (California Consumer Privacy Act) provides California residents new rights 
 
 In addition to consent management, data retention settings, and rights management, we provide, in our role as Data Processor, additional capabilities, to help facilitate your readiness as Data Controller for certain Privacy requests.
 
-In this [article](https://helpx.adobe.com/campaign/kb/acc-privacy.html), you will learn how Adobe Campaign helps you manage the different Privacy key features: Right to Access, Right to be Forgotten, consent, data retention and user roles. You will also find best best practices, to help you with your Privacy compliance when using our service.
+In this [article](https://helpx.adobe.com/campaign/kb/acs-privacy.html), you will learn how Adobe Campaign helps you manage the different Privacy key features: Right to Access, Right to be Forgotten, consent, data retention and user roles. You will also find best best practices, to help you with your Privacy compliance when using our service.
 
 ## Cookies and tracking capabilities {#cookies-and-tracking-capabilities}
 
