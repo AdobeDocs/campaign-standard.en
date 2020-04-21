@@ -38,7 +38,7 @@ Read more:
 
 ## Custom resources {#custom-resources}
 
-Campaign Standard allows you to e**nrich the pre-defined data model** to create your own resources (for example to add Purchase or Product tables), or to extend existing resources with new fields. You can also configure Campaign screens to optimize the navigation through the new resources and fields that have been created.
+Campaign Standard allows you to **Enrich the pre-defined data model** to create your own resources (for example to add Purchase or Product tables), or to extend existing resources with new fields. You can also configure Campaign screens to optimize the navigation through the new resources and fields that have been created.
 
 Additionally, you can **extend Campaign Standard REST APIs** in order to expose in the APIs extended fields for the custom resources Profiles. This allows you, for example, to update a customer's profile with a promo code generated from a billing system.
 
