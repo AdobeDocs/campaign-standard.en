@@ -44,7 +44,7 @@ Plan, coordinate and orchestrate cross-channel campaigns.
 
 **Optimize your marketing plans organization** by creating programs and campaigns. Analyse the impact of your marketing campaigns through reports. Orchestrate your campaigns using mutiple marketing activities accessible from one single interface and set up marketing activities templates to save time. [Get started with Marketing plans and activities](../../start/using/programs-and-campaigns.md)
 
-**Leverage workflows** to orchestrate and automate your campaigns. [Get started with processes and data management](../../automating/using/workflow-data-and-processes.md)
+**Leverage workflows** to orchestrate and automate your campaigns. [Get started with processes and data management](../../automating/using/discovering-workflows.md)
 
 ## Design & send messages {#design-send}
 
@@ -81,6 +81,6 @@ Leverage the delivery alerting feature to keep track of the delivery successes o
 
 **Administrate Campaign** from one single view: monitor your instance, manage users' permissions. Setup external servers to connect to your instance, and configure parameters for your communication channels. [Get started with Campaign Standard administration](../../administration/using/about-administrating-adobe-campaign.md)
 
-**Import and export data** easily using Campaign Standard data management capabilities. [Get started with processes and data management](../../automating/using/workflow-data-and-processes.md)
+**Import and export data** easily using Campaign Standard data management capabilities. [Get started with processes and data management](../../automating/using/discovering-workflows.md)
 
 **Combine Campaign capabilities with other solutions** to help you build optimal marketing campaigns. [Get started with Campaign Standard integrations](../../integrating/using/about-campaign-integrations.md)
