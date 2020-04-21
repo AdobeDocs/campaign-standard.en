@@ -16,19 +16,17 @@ snippet: y
 
 # Configuring email channel{#configuring-email-channel}
 
-As a Campaign [administrator](../../administration/using/about-administrating-adobe-campaign.md), you can configure email channel settings. These advanced settings include general email channel parameters, email routing accounts, email processing rules and email properties.
+As a Campaign [administrator](../../administration/using/about-administrating-adobe-campaign.md), you can configure email channel settings. These advanced settings include general email channel parameters, email routing accounts, email processing rules and email properties. On this page, you will learn how to edit the default values for the general email and sending parameters.
 
-On this page, you will learn how to edit the default values for the general email and sending parameters.
-
-Some email settings are now managed by the Adobe Campaign Enhanced MTA. Therefore:
+Note that some email settings are now managed by the Adobe Campaign Enhanced MTA. Therefore:
 * Some configurations in the Campaign user interface are no longer applied:
   * The **[!UICONTROL Retries]** settings in the [Configuration menu](#email-channel-parameters) and in the [Sending parameters](#retries-parameters) of the email properties.
   * The **[!UICONTROL MX management]** and **[!UICONTROL Domain management]** rules in the [Email processing rules menu](#email-processing-rules).
 
-* Other parameters are now partially managed by Enhanced MTA. Some configuration can still be done within Campaign. The impacted settings are as follows:
-  * The **[!UICONTROL Message delivery duration]** parameter in the [Configuration menu](#email-channel-parameters).
-  * The **[!UICONTROL Delivery duration]** or **[!UICONTROL Validity limit for sending messages]** parameter in the [Validity period parameters](#validity-period-parameters).
-  * The **[!UICONTROL Bounce mails]** rules in the [Email processing rules menu](#email-processing-rules).
+* Other parameters are now partially managed by Enhanced MTA, while some configuration can still be done within Campaign. The impacted settings are as follows:
+  * The **[!UICONTROL Message delivery duration]** parameter in the **[!UICONTROL Configuration]** menu. For more on this, see [this section](#email-channel-parameters).
+  * The **[!UICONTROL Delivery duration]** or **[!UICONTROL Validity limit for sending messages]** parameter in the **[!UICONTROL Validity period]** section. For more on this, see [this section](#validity-period-parameters).
+  * The **[!UICONTROL Bounce mails]** rules in the **[!UICONTROL Email processing rules]**. For more on this, see [this section](#email-processing-rules).
 
 ## Email channel parameters {#email-channel-parameters}
 
@@ -88,11 +86,9 @@ The account type must always be set to **[!UICONTROL Routing]**, the channel to 
 
 The **[!UICONTROL Email processing rules]** can be accessed by administrators through the **[!UICONTROL Administration > Channels > Email]** menu.
 
->[!NOTE]
->
->The email domains and the MX rules are now managed by the Adobe Campaign Enhanced MTA.
->* **DKIM (DomainKeys Identified Mail)** email authentication signing is done by the Enhanced MTA for all messages with all domains. It does not sign with **Sender ID**, **DomainKeys**, or **S/MIME** unless otherwise specified at the Enhanced MTA level.
->* The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you are sending emails.
+Note that the email domains and the MX rules are now managed by the Adobe Campaign Enhanced MTA:
+* **DKIM (DomainKeys Identified Mail)** email authentication signing is done by the Enhanced MTA for all messages with all domains. It does not sign with **Sender ID**, **DomainKeys**, or **S/MIME** unless otherwise specified at the Enhanced MTA level.
+* The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you are sending emails.
 
 ### Bounce mails {#bounce-mails}
 
