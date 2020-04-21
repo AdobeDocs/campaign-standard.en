@@ -22,8 +22,6 @@ Adobe Campaign is a powerful tool for collecting and processing extremely large 
 
 For more on this, refer to [Adobe Experience Cloud privacy](https://www.adobe.com/privacy/marketing-cloud.html).
 
-Take the time to go through the [Security and Privacy checklist](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/security.html) to learn the key elements to check regarding security and privacy.
-
 ## Privacy management {#privacy-management}
 
 GDPR (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
