@@ -67,7 +67,7 @@ snippet: y
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>The External API activity is transitioning from beta to GA. This release brings additional flexibility to the JSON response body parser. You can now:</p>
+<td> <p>The **External API** activity is transitioning from beta to GA. This release brings additional flexibility to the JSON response body parser. You can now:</p>
 <ul>
 <li>parse a nested JSON with a maximum depth of 10 levels. </li>
 <li>parse selected properties as leaf nodes from a JSON and flatten them into a single table row.</li>
