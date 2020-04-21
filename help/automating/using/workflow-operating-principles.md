@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Discover workflows {#about-workflows}
+# Discover workflows {#discover-workflows}
 
 ## About workflows {#about-workflows}
 
