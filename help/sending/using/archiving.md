@@ -37,7 +37,7 @@ Once enabled, you need to activate Email BCC from the **[!UICONTROL Archive emai
 
 >[!NOTE]
 >
->Currently the archived emails cannot be sent with the [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html), even if you are already upgraded to the Enhanced MTA.
+>Currently the archived emails cannot be sent with the Adobe Campaign Enhanced MTA, even if you are already upgraded to the Enhanced MTA.
 
 ## Activating email archiving {#activating-email-archiving}
 
