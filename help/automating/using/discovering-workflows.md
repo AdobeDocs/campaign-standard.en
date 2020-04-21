@@ -25,18 +25,48 @@ With Adobe Campaign, you can import, transform, filter, manage, and export data 
 
 ## About workflows {#about-workflows}
 
-- interface: intuitive interface + duplicate functions, quick actions
-- can be used to target, import, leverage data
-- various activities: target, execute, channel, data management
+Adobe Campaign offers a comprehensive graphical environment that allows you to design and automate complex processes from one single interface. Processes can include segmentation, campaign execution, file processing, approvals, delivery sending etc.
+
+Various activities are available to help you design your workflows:
+
+* **[Targeting activities](../../automating/using/about-targeting-activities.md)**: Build one or more targets by defining sets and splitting or combining these sets using intersection, union, or exclusion operations. 
+* **[Execution activities](../../automating/using/about-execution-activities.md)**: Coordinate your workflow and its activities.
+* **[Channel activities](../../automating/using/about-channel-activities.md)**: Use and combine Campaign Standard communication channels to create cross-channel workflows.
+* **[Data management activities](../../automating/using/about-data-management-activities.md)**: Manipulate data from your database.
+
+Read more:
+
+* [Discover workflows](../../automating/using/workflow-operating-principles.md)
+* [Workflow interface](../../automating/using/workflow-interface.md)
+* [Building a workflow](../../automating/using/building-a-workflow.md)
+* [Executing a workflow](../../automating/using/executing-a-workflow.md)
+* [Workflow best practices](../../automating/using/best-practices-workflows.md)
+* [Workflows use cases](../../automating/using/workflow-created-query-with-complement.md)
 
 ## Filter data {#filter-data}
 
-- query editor: filter data contained in your database using predefined filters and rules. allows you to build a population to better target your recipients. : used to create audiences, define deliveries targets, or populations in workflow activities
-- also provides advanced exoression editiing capabilities: can manually enter conditions to form rules, using functions.
+Leverage the **query editor** to filter data from your database and build a population to better target your recipients. The query editor is available to perform several actions in Campaign Standard: create Query type audiences, define delivery targets, or populations in workflow activities.
+
+The query editor comes with predefined filters and rules for quick and easy filtering. However, you can also use **advanced expression editing** capabilities. This allows you to manually enter conditions and use functions, in order to form your own rules.
+
+Read more:
+
+* [Editing queries](../../automating/using/editing-queries.md)
+* [Advanced expression editing](../../automating/using/advanced-expression-editing.md)
+* [List of functions](../../automating/using/list-of-functions.md)
 
 ## Import/export data {#import-export-data}
 
-- import templates:Alternatively to Workflows , Adobe Campaign offers a simplified import function that allows the user to manage certain types of import that were defined by an administrator.import templates
-- exporting logs: allow you to export log data through a simple workflow. can analyse the rsults of your campaigns in your own reporting or BI tool.
-- packages allow you ro exchange resrouces between different campaign instances: useful to replicate config of an instance, or transfer data from a server to another, like custom resources
-- export list option allow to exports lists from campaign, example list of test profiles
+Campaign Standard comes with several data management capabilities to import and export data.
+
+* **[Workflows data management activities](../../automating/using/about-data-management-activities.md)**: import data, perform mass updates on fields, receive or send file, or link unidentified data to existing resources.
+* **[Import templates](../../automating/using/importing-data-with-import-templates.md)**: manage certain types of import defined by administrators through simplified import functions.
+* **[Exporting logs](../../automating/using/exporting-logs.md)**: export log data through a simple workflow, allowing you to analyse the resultats of your marketing campaigns in your own reporting or BI tools.
+* **[Packages](../../automating/using/managing-packages.md)**: Exchange resources between different campaign instances, for example, to replicate the configuation of an instance, or to transfer data from a server to another including custom resources.
+* **[Exporting lists](../../automating/using/exporting-lists.md)**: exports any list from Campaign Standard like, for example, the list of test profiles, the list of quarantines email addresses, etc.
+
+Read more:
+
+* [Importing data](../../automating/using/importing-data.md)
+* [Using workflow data](../../automating/using/using-workflow-data.md)
+* [Use case: Exporting / importing custom resources](../../automating/using/exporting-importing-custom-resources.md)
