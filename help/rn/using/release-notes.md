@@ -90,7 +90,7 @@ snippet: y
 
 * The Email Designer can now handle a more flexible HTML formatting than strict W3C. (CAMP-42529)
 * Fixed an issue with [clickable images](../../designing/using/links.md#inserting-a-link) to prevent links from being displayed next to the image in content blocks. (CAMP-41586)
-* Fixed an issue preventing the redirection to a landing page when the [tracked UR](../../designing/using/links.md#about-tracked-urls-about-tracked-urls) had a category added in the template. (CAMP-41537)
+* Fixed an issue preventing the redirection to a landing page when the [tracked URL](../../designing/using/links.md#about-tracked-urls-about-tracked-urls) had a category added in the template. (CAMP-41537)
 * Fixed an issue with buttons padding in Outlook.
 * Fixed an issue causing HTML tags to appear in plain text.
 * Content block search now displays server search results as well as preloaded results. (CAMP-41870)
