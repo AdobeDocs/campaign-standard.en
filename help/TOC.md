@@ -134,7 +134,7 @@ user-guide-title: Adobe Campaign Standard Help
 + Testing and Sending {#testing-and-sending}
   + [About sending messages with Campaign](sending/using/about-sending-messages-with-campaign.md)
   + Preparing and testing messages {#preparing-and-testing-messages}
-       + [Previewing messages](sending/using/previewing-messages.md)
+       + [Previewing deliveries](sending/using/previewing-messages.md)
        + [Preparing the send](sending/using/preparing-the-send.md)
        + [Sending proofs](sending/using/sending-proofs.md)
        + [Testing email messages using targeted profiles](sending/using/testing-messages-using-target.md)
