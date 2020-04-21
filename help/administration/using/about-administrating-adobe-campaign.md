@@ -23,17 +23,17 @@ As a cloud-based solution, Adobe Campaign offers administrators different ways t
 >If you have questions or requests about implementation and configuration matters, contact your Adobe account executive.
 
 <table>
-<tr><td><img src="assets/do-not-localize/icon_menu.svg" width="60px"></td><td><img src="assets/do-not-localize/icon_users.svg"  width="60px"></td><td><img src="assets/do-not-localize/icon_channels.svg"  width="60px"></td><td><img src="assets/do-not-localize/icon_settings.svg" width="60px"></td><td><img src="assets/do-not-localize/icon_platform.svg" width="60px"></td></tr>
-<tr><td><a href="#administration-menu">Administration menu</a></td><td><a href="#users-security">Users and security/a></td><td><a href="#channels-configuration">Channels configuration</a></td><td><a href="#application-settings">Application settings</a></td><td><a href="#platform">Adobe Experience Platform data connector</a></td></tr>
+<tr><td><img src="assets/do-not-localize/icon_menu.svg" width="60px"></td><td><img src="assets/do-not-localize/icon_users.svg"  width="60px"></td><td><img src="assets/do-not-localize/icon_channels.svg"  width="60px"></td><td><img src="assets/do-not-localize/icon_settings.svg" width="60px"></td></tr>
+<tr><td><a href="#administration-menu">Administration menu</a></td><td><a href="#users-security">Users and security</a></td><td><a href="#channels-configuration">Channels configuration</a></td><td><a href="#application-settings">Application settings</a></td></tr>
 </table>
 
 ## Administration menu {#administration-menu}
 
-The different Adobe Campaign admin operations are carried out via the **[!UICONTROL Administration]** menu. This part of the interface can only be accessed by functional administrators of the platform.
-
-To access this menu, click the **[!UICONTROL Adobe Campaign]** logo, in the top left-hand corner, then click **[!UICONTROL Administration]**. The different menus available are:
+The different Adobe Campaign admin operations are carried out via the **[!UICONTROL Administration]** menu accessible when clicking the Adobe Campaign logo in the top left-hand corner. This part of the interface can only be accessed by functional administrators of the platform.
 
 ![](assets/admin_overview2.png)
+
+The different menus available are:
 
 * [Users & Security](../../administration/using/about-access-management.md): This menu allows you to manage access to the platform (users, roles, security groups, units). 
 * [Channels](../../administration/using/about-channel-configuration.md): This menu regroups the technical parameters linked to the different platform channels (Email, SMS) as well as typology and quarantine management. 
@@ -46,16 +46,56 @@ To access this menu, click the **[!UICONTROL Adobe Campaign]** logo, in the top 
 
 ## Users and security {#users-security}
 
-* Invite users to access the application and manage groups of users as well as their rights and roles.
+Invite users to access the application and manage **security groups**, which are sets of users hsaring the same roles and rights within your organization. By default, Adobe Campaign offers a set of **roles** which allows you to define unitary authorizations assigned to users and user groups. Combined with **organizational units**, roles give users a filtered view of the interface and define their access to the different features.
 
+Campaign standard also allows you to monitor security-related information:
+
+* Retrieve information regarding data exports performed by users through the **[!UICONTROL Export audits]** screen.
+* Leverage the **[!UICONTROL Licenses]** screen to monitor all the installed Campaign licenses within your organization, as well as different information such as the build number, release version and terms of agreement.
+
+Read more:
+
+* [Users management](administration/using/users-management.md)
+* [Organizational units](administration/using/organizational-units.md)
+* [List of roles](administration/using/list-of-roles.md)
+* [Managing groups and users](administration/using/managing-groups-and-users.md)
+* [Auditing export logs](administration/using/auditing-export-logs.md)
+* [Licenses](administration/using/licenses.md)
 
 ## Channels configuration {#channels-configuration}
 
-* Adjust and configure routing parameters for all communication channels.
+All communication channels in Adobe Campaign must be correctly configured to be able to effectively send messages.
 
+The **[!UICONTROL Channel]**  menu allows you to manage the technical parameters linked to the different channels:
+
+* Configure various email parameters: processing rules for bounce, quarantines, email properties and routing parameters, typoly rules...
+* Define routing configurations and properties of the SMS channel, as well as SMS encoding and formats.
+* Configure mobile applications in order to be able to send in-app messages and push bnotifications using Adobe Experience Platform SDKs.
+* Configure transactional messaging by creating and setting up events.
+
+Read more:
+
+* [About channel configuration](administration/using/about-channel-configuration.md)
+* [Configuring email channel](administration/using/configuring-email-channel.md)
+* [Configuring SMS channel](administration/using/configuring-sms-channel.md)
+* [Configuring a mobile application](administration/using/configuring-a-mobile-application.md)
+* [Configuring transactional messaging](administration/using/configuring-transactional-messaging.md)
 
 ## Application settings {#application-settings}
-* Configure external accounts, which are used to connect Adobe Campaign to external servers.
-* Monitor the platform by accessing technical workflows.
 
-## Adobe Experience Platform Data Connector {#platform}
+Campaign Standard comes with different application elements that can be configured to match your needs.
+
+* Set up external accounts, which are used to connect Adobe Campaign to external servers.
+* Access Campaign Standard target mappings.
+* Monitor your platform using technical workflows.
+* Define one or several brands for your organization and link them to messages or landing pages.
+* Configure the sending of real-time notifications within the application in case of important system activities.
+
+Read more:
+
+* [About Campaign Standard settings](administration/using/about-campaign-standard-settings.md)
+* [External accounts](administration/using/external-accounts.md)
+* [Target mappings in Campaign](administration/using/target-mappings-in-campaign.md)
+* [Technical workflows](administration/using/technical-workflows.md)
+* [Branding](administration/using/branding.md)
+* [Sending internal notifications](administration/using/sending-internal-notifications.md)
