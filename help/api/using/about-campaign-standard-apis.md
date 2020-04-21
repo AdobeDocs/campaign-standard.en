@@ -55,7 +55,7 @@ With the Adobe Campaign Standard APIs, you get access to the following functiona
 >
 >Before performing API calls, please check the scale limitations corresponding to your license agreement. For more on this, refer to [this page](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
 
-To use the Campaign Standard API, you need an Adobe I/O account. This is a mandatory first step to go forward and discover the API features.
+To use the Campaign Standard API, you need an Adobe I/O account. This is a mandatory first step to go forward and discover the API features. 
 For more on this, refer to [this section](../../api/using/setting-up-api-access.md).
 
 The APIs we provide use **standard concepts** with a REST interface and JSON payloads.
