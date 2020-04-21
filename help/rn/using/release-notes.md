@@ -42,12 +42,12 @@ snippet: y
 <table> 
 <thead> 
 <tr> 
-<th> <strong>Thailand's Personal Data Protection Act</strong><br /> </th> 
+<th> <strong>Thailand's Personal Data Protection Act (PDPA)</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>Thailand's Personal Data Protection Act is the new privacy law that harmonizes and modernizes data protection requirements for Thailand. This regulation applies to Adobe Campaign customers who hold data for Data Subjects residing in this country.</p>
+<td> <p>Thailand's Personal Data Protection Act (PDPA) is the new privacy law that harmonizes and modernizes data protection requirements for Thailand. This regulation applies to Adobe Campaign customers who hold data for Data Subjects residing in this country.</p>
 <p>In addition to the privacy capabilities already available in Adobe Campaign (including consent management, data retention settings, and user roles), we are taking this opportunity to include additional capabilities, to help facilitate your readiness for PDPA:</p>
 <ul>
 <li>Right to Access and Right to Delete: we are leveraging the capabilities that were added for GDPR and CCPA. <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#righttoaccess">Learn more</a> </li>
@@ -82,15 +82,15 @@ snippet: y
 
 **Improvements**
 
-* The number of characters that can be used in the Prefix field to test messages using targeted profiles has been increased from 32 to 500 characters. [Read more](../../sending/using/testing-messages-using-target.md)
+* The number of characters that can be used in the **Prefix** field to [test messages using targeted profiles](../../sending/using/testing-messages-using-target.md) has been increased from 32 to 500 characters. 
 * The maximum number of real-time events that can be published on an instance has been increased from 350 to 2000. (CAMP-41608)
 
 
 **Email Designer enhancements**
 
 * The Email Designer can now handle a more flexible HTML formatting than strict W3C. (CAMP-42529)
-* Fixed an issue with clickable images to prevent links from being displayed next to the image in content blocks. (CAMP-41586) [Read more](../../designing/using/links.md#inserting-a-link)
-* Fixed an issue preventing the redirection to a landing page when the tracked URL had a category added in the template. (CAMP-41537) [Read more](../../designing/using/links.md#about-tracked-urls-about-tracked-urls)
+* Fixed an issue with [clickable images](../../designing/using/links.md#inserting-a-link) to prevent links from being displayed next to the image in content blocks. (CAMP-41586)
+* Fixed an issue preventing the redirection to a landing page when the [tracked UR](../../designing/using/links.md#about-tracked-urls-about-tracked-urls) had a category added in the template. (CAMP-41537)
 * Fixed an issue with buttons padding in Outlook.
 * Fixed an issue causing HTML tags to appear in plain text.
 * Content block search now displays server search results as well as preloaded results. (CAMP-41870)
@@ -106,7 +106,7 @@ snippet: y
 
 **Experience Platform integrations**
 
-* Activation of Adobe Experience Platform audiences from the **Read audience** activity has been improved to provide better performance and stability. Moreover, workflow logs have been made clearer and more detailed regarding activation jobs, allowing easier monitoring and troubleshooting when reading Adobe Experience Platform audiences. [Read more](../../automating/using/aep-targeting-audiences.md)
+* Activation of Adobe [Experience Platform Audiences](../../automating/using/aep-targeting-audiences.md) from the **Read audience** activity has been improved to provide better performance and stability. Moreover, workflow logs have been made clearer and more detailed regarding activation jobs, allowing easier monitoring and troubleshooting when reading Adobe Experience Platform audiences.
 
 **Patches**
 
@@ -114,14 +114,14 @@ snippet: y
 * Fixed an issue that could prevent profiles' Marketing History from displaying if the Profile resource was extended with a custom resource. (CAMP-41009)
 * Fixed an issue with out-of-the-box landing page templates which displayed their content in French when opening the editor. (CAMP-41639)
 * Fixed an issue in push notifications with dynamic content that could prevent emojis from being displayed. (CAMP-40715)
-* Fixed an issue in the Deduplication activity which could led to an incorrect segment code being assigned to one of the outbound complement transitions. (CAMP-41400)
-* Fixed an error which prevented Scheduled Report from being deleted. (CAMP-41302)
-* Fixed an issue which caused discrepancy between the delivery dashboard and the Delivery summary report. (CAMP-41145)
+* Fixed an issue in the **Deduplication** activity which could led to an incorrect segment code being assigned to one of the outbound complement transitions. (CAMP-41400)
+* Fixed an error which prevented scheduled reports from being deleted. (CAMP-41302)
+* Fixed an issue which caused discrepancy between the delivery dashboard and the **Delivery Summary** report. (CAMP-41145)
 * Fixed an issue which led to a character overlap display issue in downloaded reports.
 * Fixed an issue which prevented the preview of a delivery from working for proof substitution.
 * Fixed an error when deleting custom fields of an In-App local notification.
-* Fixed an issue which prevented the charIndex function from working with an End or File transfer activity in a workflow.
-* Fixed an issue in workflows that could occur when using an Enrichment activity with two input activities including target resources having a link between them. (CAMP-42133)
+* Fixed an issue which prevented the charIndex function from working with an **End** or **File transfer** activity in a workflow.
+* Fixed an issue in workflows that could occur when using an **Enrichment** activity with two input activities including target resources having a link between them. (CAMP-42133)
 * Fixed an issue that could prevent a workflow from running when using unknown functions. (CAMP-41873)
 * Fixed an issue in workflows that could occur when creating audiences using several **Save audience** activities with complement outbound transitions. (CAMP-39992)
 * Fixed an issue which caused data discrepancy when using personalization in transactional emails. (CAMP-41842)
