@@ -382,7 +382,7 @@ user-guide-title: Adobe Campaign Standard Help
      + [Mapping activation](administration/using/aep-mapping-activation.md)
      + [Triggering data ingestion through APIs](administration/using/aep-triggering-data-ingestion.md)
 + Working with APIs {#working-with-apis}  
-  + [Get started with Campaign Standard APIs](help/api/using/about-campaign-standard-apis.md)
+  + [Get started with Campaign Standard APIs](api/using/about-campaign-standard-apis.md)
   + About Campaign Standard APIs {#about-campaign-standard-apis}
        + [Why using Campaign Standard APIs](api/using/why-using-campaign-standard-apis.md)
        + [Setting up API access](api/using/setting-up-api-access.md)
