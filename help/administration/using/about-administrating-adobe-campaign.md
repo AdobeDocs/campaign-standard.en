@@ -23,7 +23,7 @@ As a cloud-based solution, Adobe Campaign offers administrators different ways t
 >If you have questions or requests about implementation and configuration matters, contact your Adobe account executive.
 
 <table>
-<tr><td><a href="#administration-menu"><img src="assets/do-not-localize/icon_menu.svg" width="60px"><br/>Administration menu</a></td><td><a href="#users-security"><img src="assets/do-not-localize/icon_users.svg"  width="60px"><br/>Users and security</a></td><td><a href="#channels-configuration"><img src="assets/do-not-localize/icon_channels.svg" width="60px"><br>Channels configuration</a></td><td><a href="#application-settings"><img src="assets/do-not-localize/icon_settings.svg" width="60px"><br/>Application settings</a></td></tr>
+<tr><td><img src="assets/do-not-localize/icon_menu.svg" width="60px"><br/><a href="#administration-menu">Administration menu</a></td><td><a href="#users-security"><img src="assets/do-not-localize/icon_users.svg"  width="60px"><br/>Users and security</a></td><td><a href="#channels-configuration"><img src="assets/do-not-localize/icon_channels.svg" width="60px"><br>Channels configuration</a></td><td><a href="#application-settings"><img src="assets/do-not-localize/icon_settings.svg" width="60px"><br/>Application settings</a></td></tr>
 </table>
 
 ## Administration menu {#administration-menu}

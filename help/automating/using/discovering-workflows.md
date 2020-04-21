@@ -26,12 +26,11 @@ With Adobe Campaign, you can import, transform, filter, manage, and export data 
 
 Adobe Campaign offers a comprehensive graphical environment that allows you to design and automate complex processes from one single interface. Processes can include segmentation, campaign execution, file processing, approvals, delivery sending etc.
 
-Various activities are available to help you design your workflows:
+Various activities are available to help you design your workflows. [Targeting activities](../../automating/using/about-targeting-activities.md) allow you to build one or more targets by defining sets and splitting or combining these sets using intersection, union, or exclusion operations.
 
-* **[Targeting activities](../../automating/using/about-targeting-activities.md)**: Build one or more targets by defining sets and splitting or combining these sets using intersection, union, or exclusion operations. 
-* **[Execution activities](../../automating/using/about-execution-activities.md)**: Coordinate your workflow and its activities.
-* **[Channel activities](../../automating/using/about-channel-activities.md)**: Use and combine Campaign Standard communication channels to create cross-channel workflows.
-* **[Data management activities](../../automating/using/about-data-management-activities.md)**: Manipulate data from your database.
+With [Execution activities](../../automating/using/about-execution-activities.md), coordinate your workflow and its activities, while [Channel activities](../../automating/using/about-channel-activities.md) let you combine Campaign Standard communication channels to create cross-channel workflows.
+
+Finally, [Data management activities](../../automating/using/about-data-management-activities.md) allow you to manipulate data from your database.
 
 Read more:
 
@@ -57,11 +56,15 @@ Read more:
 
 Campaign Standard comes with several data management capabilities to import and export data.
 
-* **[Workflows data management activities](../../automating/using/about-data-management-activities.md)**: import data, perform mass updates on fields, receive or send file, or link unidentified data to existing resources.
-* **[Import templates](../../automating/using/importing-data-with-import-templates.md)**: manage certain types of import defined by administrators through simplified import functions.
-* **[Exporting logs](../../automating/using/exporting-logs.md)**: export log data through a simple workflow, allowing you to analyse the resultats of your marketing campaigns in your own reporting or BI tools.
-* **[Packages](../../automating/using/managing-packages.md)**: Exchange resources between different campaign instances, for example, to replicate the configuation of an instance, or to transfer data from a server to another including custom resources.
-* **[Exporting lists](../../automating/using/exporting-lists.md)**: exports any list from Campaign Standard like, for example, the list of test profiles, the list of quarantines email addresses, etc.
+[Workflows data management activities](../../automating/using/about-data-management-activities.md) allow you to import data, perform mass updates on fields, receive or send file, or link unidentified data to existing resources.
+
+With [Import templates](../../automating/using/importing-data-with-import-templates.md), manage certain types of import defined by administrators through simplified import functions.
+
+[Exporting logs](../../automating/using/exporting-logs.md) let you export log data through a simple workflow, allowing you to analyse the resultats of your marketing campaigns in your own reporting or BI tools.
+
+Leverage [Packages](../../automating/using/managing-packages.md) to exchange resources between different campaign instances, for example, to replicate the configuation of an instance, or to transfer data from a server to another including custom resources.
+
+Finally, [Exporting lists](../../automating/using/exporting-lists.md) allow you to export any list from Campaign Standard like, for example, the list of test profiles, the list of quarantines email addresses, etc.
 
 Read more:
 

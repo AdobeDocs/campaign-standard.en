@@ -35,13 +35,9 @@ Identify customers more effectively across all your channels using integrated cu
 
 Adobe Campaign builds rich customer profiles in real time, allowing you to deliver more relevant and personalized offers as your customer’s preferences change. In addition, Adobe Campaign integrates advanced analysis, data management and targeting functionalities to build audiences.
 
-* Profiles are individual contacts stored in the database.
+**Profiles** are individual contacts stored in the database. Each profile corresponds to one entry in the database which contains the necessary information for that profile to be targeted, qualified and individually tracked: Adobe Campaign can track every interaction from both online and offline channels and merge it into a single profile.
 
-  Each profile corresponds to one entry in the database which contains the necessary information for that profile to be targeted, qualified and individually tracked: Adobe Campaign can track every interaction from both online and offline channels and merge it into a single profile.
-
-* Audiences are lists of profiles built on a specific criteria, or set of criteria.
-
-  Using workflows and the query editor, you can construct audiences that will be targeted by your marketing campaigns, depending on the information that you have on them, their activities, and their marketing history. This allows you to filter subscribed profiles, sample, or create target audiences on an unlimited number of criteria.
+**Audiences** are lists of profiles built on a specific criteria, or set of criteria. Using workflows and the query editor, you can construct audiences that will be targeted by your marketing campaigns, depending on the information that you have on them, their activities, and their marketing history. This allows you to filter subscribed profiles, sample, or create target audiences on an unlimited number of criteria.
 
 Read more
 
@@ -58,7 +54,7 @@ Before starting to send messages to a contact, you need to make sure that you ge
 
 Providing unsubscription links in your messages will enable Profiles to be blacklisted, when necessary, and therefore to improve your platform deliverability. For more on blacklisting, refer to [About opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >You are required to respect the [Adobe Campaign acceptable use policy](https://www.adobe.com/legal/terms/aup.html).
 
@@ -67,7 +63,11 @@ Providing unsubscription links in your messages will enable Profiles to be black
 
 ## Privacy compliance {#privacy}
 
-Adobe Campaign offers a set of tools to help you with your Privacy Compliance for GDPR, CCPA, and other privacy laws. Learn more in this [this article](https://helpx.adobe.com/campaign/kb/campaign-privacy.html) about Privacy Management and the features we provide to manage Right to Access, Right to be Forgotten, consent, data retention and user roles. You will also find best best practices, to help you with your Privacy compliance when using our service.
+Adobe Campaign offers a set of tools to help you with your Privacy Compliance for GDPR, CCPA, and other privacy laws.
+
+Learn more in this [this article](https://helpx.adobe.com/campaign/kb/campaign-privacy.html) about Privacy Management and the features we provide to manage Right to Access, Right to be Forgotten, consent, data retention and user roles.
+
+You will also find best best practices, to help you with your Privacy compliance when using our service.
 
 ## Additional resources
 
