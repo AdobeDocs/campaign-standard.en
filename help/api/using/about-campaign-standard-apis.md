@@ -23,44 +23,32 @@ With the Adobe Campaign Standard APIs, you get access to the following functiona
 <table>
 <tr>
     <td valign="top">
-        <a href="../../api/using/retrieving-profiles.md"><img width="60px" alt="conditions" src="assets/icon_profile.svg"/></a>
+        <a href="../../api/using/retrieving-profiles.md"><img width="60px" alt="conditions" src="assets/icon_profile.svg"/><br/>Profiles</a>
     </td>
     <td valign="top">
-        <a href="../../api/using/creating-a-service.md"><img width="60px" alt="conditions" src="assets/icon_services.svg"/></a>
+        <a href="../../api/using/creating-a-service.md"><img width="60px" alt="conditions" src="assets/icon_services.svg"/><br/>Services & subscriptions</a>
     </td>
     <td valign="top">
-        <a href="../../api/using/interacting-with-custom-resources.md"><img width="60px" alt="conditions" src="assets/icon_customresources.svg"/></a>
+        <a href="../../api/using/interacting-with-custom-resources.md"><img width="60px" alt="conditions" src="assets/icon_customresources.svg"/><br/>Custom resources</a>
     </td>
     <td valign="top">
-        <a href="../../api/using/interacting-with-marketing-history.md"><img width="60px" alt="conditions" src="assets/icon_marketinghistory.svg"/></a>
+        <a href="../../api/using/interacting-with-marketing-history.md"><img width="60px" alt="conditions" src="assets/icon_marketinghistory.svg"/><br/>Marketing history</a>
     </td>
 </tr>
 <tr>
-<td>Profiles</td>
-<td>Services & subscriptions</td>
-<td>Custom resources</td>
-<td>Marketing history</td>
-</tr>
-<tr>
     <td valign="top">
-        <a href="../../api/using/creating-a-privacy-request.md"><img width="60px" alt="conditions" src="assets/icon_privacy.svg"/></a>
+        <a href="../../api/using/creating-a-privacy-request.md"><img width="60px" alt="conditions" src="assets/icon_privacy.svg"/><br/>Privacy management</a>
     </td>
     <td valign="top">
-        <a href="../../api/using/managing-transactional-messages.md"><img width="60px" alt="conditions" src="assets/icon_transactionalmessage.svg"/></a>
+        <a href="../../api/using/managing-transactional-messages.md"><img width="60px" alt="conditions" src="assets/icon_transactionalmessage.svg"/><br/>Transactional messages</a>
     </td>
     <td valign="top">
-        <a href="../../api/using/controlling-a-workflow.md"><img width="60px" alt="conditions" src="assets/icon_workflows.svg"/></a>
+        <a href="../../api/using/controlling-a-workflow.md"><img width="60px" alt="conditions" src="assets/icon_workflows.svg"/><br/>Workflows</a>
     </td>
     <td valign="top">
-        <a href="../../api/using/retrieving-an-organizational-unit.md"><img width="60px" alt="conditions" src="assets/icon_units.svg"/></a>
+        <a href="../../api/using/retrieving-an-organizational-unit.md"><img width="60px" alt="conditions" src="assets/icon_units.svg"/><br/>Organizational units</a>
     </td>
 </tr>
-<tr>
-<td>Privacy management</td>
-<td>Transactional messages</td>
-<td>Workflows</td>
-<td>Organizational units</td>
-</td>
 </table>
 
 >[!NOTE]

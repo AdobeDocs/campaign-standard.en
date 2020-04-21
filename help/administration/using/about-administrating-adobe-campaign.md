@@ -23,8 +23,7 @@ As a cloud-based solution, Adobe Campaign offers administrators different ways t
 >If you have questions or requests about implementation and configuration matters, contact your Adobe account executive.
 
 <table>
-<tr><td><img src="assets/do-not-localize/icon_menu.svg" width="60px"></td><td><img src="assets/do-not-localize/icon_users.svg"  width="60px"></td><td><img src="assets/do-not-localize/icon_channels.svg"  width="60px"></td><td><img src="assets/do-not-localize/icon_settings.svg" width="60px"></td></tr>
-<tr><td><a href="#administration-menu">Administration menu</a></td><td><a href="#users-security">Users and security</a></td><td><a href="#channels-configuration">Channels configuration</a></td><td><a href="#application-settings">Application settings</a></td></tr>
+<tr><td><a href="#administration-menu"><img src="assets/do-not-localize/icon_menu.svg" width="60px"><br/>Administration menu</a></td><td><a href="#users-security"><img src="assets/do-not-localize/icon_users.svg"  width="60px"><br/>Users and security</a></td><td><a href="#channels-configuration"><img src="assets/do-not-localize/icon_channels.svg" width="60px"><br>Channels configuration</a></td><td><a href="#application-settings"><img src="assets/do-not-localize/icon_settings.svg" width="60px"><br/>Application settings</a></td></tr>
 </table>
 
 ## Administration menu {#administration-menu}
@@ -46,7 +45,7 @@ The different menus available are:
 
 ## Users and security {#users-security}
 
-Invite users to access the application and manage **security groups**, which are sets of users hsaring the same roles and rights within your organization. By default, Adobe Campaign offers a set of **roles** which allows you to define unitary authorizations assigned to users and user groups. Combined with **organizational units**, roles give users a filtered view of the interface and define their access to the different features.
+Invite users to access the application and manage **security groups**, which are sets of users sharing the same roles and rights within your organization. By default, Adobe Campaign offers a set of **roles** which allows you to define unitary authorizations assigned to users and user groups. Combined with **organizational units**, roles give users a filtered view of the interface and define their access to the different features.
 
 Campaign standard also allows you to monitor security-related information. You can retrieve information regarding data exports performed by users through the **[!UICONTROL Export audits]** screen, and leverage the **[!UICONTROL Licenses]** screen to monitor all the installed Campaign licenses within your organization, as well as different information such as the build number, release version and terms of agreement.
 
