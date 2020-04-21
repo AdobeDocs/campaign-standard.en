@@ -35,14 +35,14 @@ The different Adobe Campaign admin operations are carried out via the **[!UICONT
 
 The different menus available are:
 
-* Users & Security: This menu allows you to manage access to the platform (users, roles, security groups, units). 
-* Channels: This menu regroups the technical parameters linked to the different platform channels (Email, SMS) as well as typology and quarantine management. 
-* Application settings: This menu allows you to configure different application elements (external accounts, options, technical workflows).
-* Development: This menu allows you to manage your custom resources and access diagnostic tools.
-* Instance settings: This menu is where you define your different brands and configure their settings (logo, manage tracking, URL domain to access the landing pages, etc.).
-* Deployment: This menu regroups the package import and export options.
-* Customer metrics: Adobe Campaign provides a report that displays the number of active profiles. This report is only informative, it doesn't have a direct impact on billing. 
-* Privacy Tools: This menu allows you to create GDPR access and delete requests and track their evolution.
+* [Users & Security](../../administration/using/about-access-management.md): This menu allows you to manage access to the platform (users, roles, security groups, units). 
+* [Channels](../../administration/using/about-channel-configuration.md): This menu regroups the technical parameters linked to the different platform channels (Email, SMS) as well as typology and quarantine management. 
+* [Application settings](../../administration/using/external-accounts.md): This menu allows you to configure different application elements (external accounts, options, technical workflows).
+* [Development](../../developing/using/data-model-concepts.md): This menu allows you to manage your custom resources and access diagnostic tools.
+* [Instance settings](../../administration/using/branding.md): This menu is where you define your different brands and configure their settings (logo, manage tracking, URL domain to access the landing pages, etc.).
+* [Deployment](../../automating/using/managing-packages.md): This menu regroups the package import and export options.
+* [Customer metrics](../../audiences/using/active-profiles.md): Adobe Campaign provides a report that displays the number of active profiles. This report is only informative, it doesn't have a direct impact on billing. 
+* [Privacy Tools](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html): This menu allows you to create GDPR access and delete requests and track their evolution.
 
 ## Users and security {#users-security}
 
