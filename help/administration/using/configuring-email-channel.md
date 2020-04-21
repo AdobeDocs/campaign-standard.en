@@ -86,7 +86,7 @@ The account type must always be set to **[!UICONTROL Routing]**, the channel to 
 
 ## Email processing rules {#email-processing-rules}
 
-The **[!UICONTROL Email processing rules]** can be accessed by Administrators through the **[!UICONTROL Administration > Channels > Email]** menu.
+The **[!UICONTROL Email processing rules]** can be accessed by administrators through the **[!UICONTROL Administration > Channels > Email]** menu.
 
 >[!NOTE]
 >
