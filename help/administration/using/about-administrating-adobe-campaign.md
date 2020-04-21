@@ -16,25 +16,22 @@ snippet: y
 
 # Get started with Campaign Standard administration {#about-administrating-adobe-campaign}
 
-As a cloud-based solution, Adobe Campaign offers administrators different ways to configure the application. Though the infrastructure configuration is performed by Adobe, functional administrators can:
-
-* Invite users to access the application and manage groups of users as well as their rights and roles.
-* Configure external accounts, which are used to connect Adobe Campaign to external servers.
-* Adjust and configure routing parameters for all communication channels.
-* Monitor the platform by accessing technical workflows.
-* Import and export packages as well as extend the data model to add new fields or resources.
+As a cloud-based solution, Adobe Campaign offers administrators different ways to configure the application. Though the infrastructure configuration is performed by Adobe, functional administrators can perform various configuration operations detailed below.
 
 >[!NOTE]
 >
 >If you have questions or requests about implementation and configuration matters, contact your Adobe account executive.
 
+<table>
+<tr><td><img src="assets/do-not-localize/icon_menu.svg" width="60px"></td><td><img src="assets/do-not-localize/icon_users.svg"  width="60px"></td><td><img src="assets/do-not-localize/icon_channels.svg"  width="60px"></td><td><img src="assets/do-not-localize/icon_settings.svg" width="60px"></td><td><img src="assets/do-not-localize/icon_platform.svg" width="60px"></td></tr>
+<tr><td><a href="#administration-menu">Administration menu</a></td><td><a href="#users-security">Users and security/a></td><td><a href="#channels-configuration">Channels configuration</a></td><td><a href="#application-settings">Application settings</a></td><td><a href="#platform">Adobe Experience Platform data connector</a></td></tr>
+</table>
+
+## Administration menu {#administration-menu}
+
 The different Adobe Campaign admin operations are carried out via the **[!UICONTROL Administration]** menu. This part of the interface can only be accessed by functional administrators of the platform.
 
-To access this menu, click the **[!UICONTROL Adobe Campaign]** logo, in the top left-hand corner, then click **[!UICONTROL Administration]**.
-
-![](assets/admin_overview.png)
-
-The different menus available are:
+To access this menu, click the **[!UICONTROL Adobe Campaign]** logo, in the top left-hand corner, then click **[!UICONTROL Administration]**. The different menus available are:
 
 ![](assets/admin_overview2.png)
 
@@ -47,3 +44,18 @@ The different menus available are:
 * [Customer metrics](../../audiences/using/active-profiles.md): Adobe Campaign provides a report that displays the number of active profiles. This report is only informative, it doesn't have a direct impact on billing. 
 * [Privacy Tools](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html): This menu allows you to create GDPR access and delete requests and track their evolution.
 
+## Users and security {#users-security}
+
+* Invite users to access the application and manage groups of users as well as their rights and roles.
+
+
+## Channels configuration {#channels-configuration}
+
+* Adjust and configure routing parameters for all communication channels.
+
+
+## Application settings {#application-settings}
+* Configure external accounts, which are used to connect Adobe Campaign to external servers.
+* Monitor the platform by accessing technical workflows.
+
+## Adobe Experience Platform Data Connector {#platform}
