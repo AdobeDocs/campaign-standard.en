@@ -19,8 +19,7 @@ snippet: y
 Once you have defined the target and created the content of a message, you need to test and approve content, personalization, rendering and configuration, and make sure everything is correct before sending the message to the main target.
 
 <table>
-<tr><td><img src="assets/do-not-localize/icon_prepare.svg" width="60px"></td><td><img src="assets/do-not-localize/icon_send.svg"  width="60px"></td><td><img src="assets/do-not-localize/icon_deliverability.svg"  width="60px"></td></tr>
-<tr><td><a href="#prepare-test-send">Prepare and test the send</a></td><td><a href="#send-track-messages">Send and track your messages</a></td><td><a href="#improve-deliverability">Improve your deliverability</a></td></tr>
+<tr><td><a href="#prepare-test-send"><img src="assets/do-not-localize/icon_prepare.svg" width="60px"><br/>Prepare and test the send</a></td><td><a href="#send-track-messages"><img src="assets/do-not-localize/icon_send.svg"  width="60px"><br/>Send and track your messages</a></td><td><a href="#improve-deliverability"><img src="assets/do-not-localize/icon_deliverability.svg"  width="60px"><br/>Improve your deliverability</a></td></tr>
 </table>
 
 ## Prepare and test the send {#prepare-test-send}
@@ -69,11 +68,9 @@ Campaign Standard provides several deliverability tools to help you improve the 
 * [Improving your reputation](../../sending/using/improving-reputation.md)
 * [Technical recommendations](../../sending/using/technical-recommendations.md)
 
-## Related topics
+## Additional resources
 
-| Useful pages | Additional resources |
-|---|---|
-| [Optimizing your deliverability](../../sending/using/about-deliverability.md) | [Fatigue management](../../sending/using/fatigue-rules.md) |
-| [Controling Delivery throughput](../../reporting/using/delivery-throughput.md) | [Designing A/B test emails](../../channels/using/designing-an-a-b-test-email.md) |
-| [Receiving a notification when a failure happens](../../sending/using/receiving-alerts-when-failures-happen.md) |  [Monitoring a delivery](../../sending/using/monitoring-a-delivery.md) |
-| [Building a control group](../../automating/using/workflow-control-group.md) | [Sending follow-up messages](../../channels/using/follow-up-messages.md) |
+* [Controling Delivery throughput](../../reporting/using/delivery-throughput.md)
+* [Designing A/B test emails](../../channels/using/designing-an-a-b-test-email.md)
+* [Receiving a notification when a failure happens](../../sending/using/receiving-alerts-when-failures-happen.md)
+* [Sending follow-up messages](../../channels/using/follow-up-messages.md)

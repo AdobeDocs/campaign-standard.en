@@ -21,8 +21,7 @@ Dynamic Reporting provides fully customizable and real-time reports to measure t
 ![](assets/dynamic_report_intro.png)
 
 <table>
-<tr><td><img src="assets/do-not-localize/icon_manage.svg" width="60px"></td><td><img src="assets/do-not-localize/icon_build.svg"  width="60px"></td><td><img src="assets/do-not-localize/icon_customize.svg"  width="60px"></td></tr>
-<tr><td><a href="#manage-share-reports">Manage and share dynamic reports</a></td><td><a href="#build-reports">Build your reports</a></td><td><a href="#customize-reports">Customize your reports</a></td></tr>
+<tr><td><a href="#manage-share-reports"><img src="assets/do-not-localize/icon_manage.svg" width="60px"><br/>Manage and share dynamic reports</a></td><td><a href="#build-reports"><img src="assets/do-not-localize/icon_build.svg" width="60px"><br>Build your reports</a></td><td><a href="#customize-reports"><img src="assets/do-not-localize/icon_customize.svg" width="60px"><br/>Customize your reports</a></td></tr>
 </table>
 
 ## Manage and share reports {#manage-share-reports}
@@ -64,3 +63,7 @@ Read more:
 * [Creating a custom profile dimension](../../reporting/using/creating-a-custom-profile-dimension.md)
 * [Creating a report based on workflow segments](../../reporting/using/creating-a-report-workflow-segment.md)
 
+## Additional resources
+
+* xxx
+* xxx

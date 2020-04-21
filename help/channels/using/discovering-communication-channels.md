@@ -22,19 +22,14 @@ Harmonizing all of your marketing channels is not an impossible task. With the h
 ![](assets/do-not-localize/cross-channel.png)
 
 <table>
-<tr><td><img src="assets/do-not-localize/icon_concepts.svg" width="60px"></td><td><img src="assets/do-not-localize/icon_channels.svg"  width="60px"></td><td><img src="assets/do-not-localize/icon_transactional.svg"  width="60px"></td><td><img src="assets/do-not-localize/icon_landing.svg"  width="60px"></td></tr>
-<tr><td><a href="#global-concepts">Global concepts</a></td><td><a href="#available-communication-channels">Available communication channels</a></td><td><a href="#transactional-messages">Transactional messages</a></td><td><a href="#landing-pages">Landing pages</a></td></tr>
+<tr><td><a href="#global-concepts"><img src="assets/do-not-localize/icon_concepts.svg" width="60px"><br/>Global concepts</a></td><td><a href="#available-communication-channels"><img src="assets/do-not-localize/icon_channels.svg"  width="60px"><br/>Available communication channels</a></td><td><a href="#transactional-messages"><img src="assets/do-not-localize/icon_transactional.svg" width="60px"><br/>Transactional messages</a></td><td><a href="#landing-pages"><img src="assets/do-not-localize/icon_landing.svg" width="60px"><br/>Landing pages</a></td></tr>
 </table>
 
 ## Global concepts {#global-concepts}
 
 **Leverage Campaign message dashboard** to configure and send your messages from one single location, as well as access various functionalities like scheduling, multilingual messaging...
 
-**Manage templates** to configure messages properties and allow you to gain time and consistency across your messaging strategy. As an example, for emails, the functional administrator in charge of configuring the templates can define:
-
-* The standard parameters of an email, such as the audience, schedule, or content.
-* The advanced parameters related to sending, validity, tracking, etc.
-* The pre-configuration parameters concerning targeting and personalization (targeting context).
+**Manage templates** to configure messages properties and allow you to gain time and consistency across your messaging strategy. As an example, for emails, the functional administrator in charge of configuring the templates can define the standard parameters of an email, such as the audience, schedule, or content, the advanced parameters related to sending, validity, tracking, etc, or the pre-configuration parameters concerning targeting and personalization (targeting context).
 
 Read more:
 
@@ -87,12 +82,12 @@ Read more:
 * [Managing landing page form data](../../channels/using/managing-landing-page-form-data.md)
 * [Setting up a double opt-in process](../../channels/using/setting-up-a-double-opt-in-process.md)
 
-## Related topics
+## Additional resources
 
-| Useful pages | Additional resources |
-|---|---|
-| [Creating templates](../../start/using/marketing-activity-templates.md) | [Optimizing your deliverability](../../sending/using/about-deliverability.md) |
-| [Designing an email content](../../designing/using/designing-content-in-adobe-campaign.md) | [Delivery best practices](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html) |
-| [Creating a multilingual push  notification](../../channels/using/creating-a-multilingual-push-notification.md) |  [Designing landing pages](../../channels/using/getting-started-with-landing-pages.md) |
-| [Transactional messaging](../../channels/using/about-transactional-messaging.md) | [Importing an AEM content](../../integrating/using/creating-email-experience-manager.md) |
-| [Get started with emails](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html) | [Sending messages with workflows](../../automating/using/about-channel-activities.md) |
+* [About marketing activity templates](../../start/using/marketing-activity-templates.md)
+* [Optimizing your deliverability](../../sending/using/about-deliverability.md)
+* [Designing an email content](../../designing/using/designing-content-in-adobe-campaign.md)
+* [Delivery best practices](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+* [Importing an AEM content](../../integrating/using/creating-email-experience-manager.md)
+* [Get started with emails](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
+*  [Sending messages with workflows](../../automating/using/about-channel-activities.md)

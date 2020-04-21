@@ -37,7 +37,8 @@ user-guide-title: Adobe Campaign Standard Help
        + [Editing profiles](audiences/using/editing-profiles.md)
        + [Integrated customer profile](audiences/using/integrated-customer-profile.md)
        + [Active profiles](audiences/using/active-profiles.md)
-       + [Managing test profiles](audiences/using/managing-test-profiles.md) 
+       + [Managing test profiles](audiences/using/managing-test-profiles.md)
+       + [Enriching Campaign database](audiences/using/enriching-campaign-database.md)
   + Managing audiences {#managing-audiences}
        + [About audiences](audiences/using/about-audiences.md)
        + [Creating audiences](audiences/using/creating-audiences.md)

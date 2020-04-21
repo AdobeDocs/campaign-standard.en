@@ -19,8 +19,7 @@ snippet: y
 With Adobe Campaign, you can import, transform, filter, manage, and export data to design and automate your business processes.
 
 <table>
-<tr><td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"></td><td><img src="assets/do-not-localize/icon_filter.svg"  width="60px"></td><td><img src="assets/do-not-localize/icon_manage.svg"  width="60px"></td></tr>
-<tr><td><a href="#about-workflows">About workflows</a></td><td><a href="#filter-data">Filter data</a></td><td><a href="#import-export-data">Import/export data</a></td></tr>
+<tr><td><a href="#about-workflows"><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><br/>About workflows</a></td><td><a href="#filter-data"><img src="assets/do-not-localize/icon_filter.svg" width="60px"><br/>Filter data</a></td><td><a href="#import-export-data"><img src="assets/do-not-localize/icon_manage.svg" width="60px"><br/>Import/export data</a></td></tr>
 </table>
 
 ## About workflows {#about-workflows}
@@ -37,7 +36,6 @@ Various activities are available to help you design your workflows:
 Read more:
 
 * [Discover workflows](../../automating/using/workflow-operating-principles.md)
-* [Workflow interface](../../automating/using/workflow-interface.md)
 * [Building a workflow](../../automating/using/building-a-workflow.md)
 * [Executing a workflow](../../automating/using/executing-a-workflow.md)
 * [Workflow best practices](../../automating/using/best-practices-workflows.md)
@@ -70,3 +68,8 @@ Read more:
 * [Importing data](../../automating/using/importing-data.md)
 * [Using workflow data](../../automating/using/using-workflow-data.md)
 * [Use case: Exporting / importing custom resources](../../automating/using/exporting-importing-custom-resources.md)
+
+## Additional resources
+
+* xxx
+* xxx

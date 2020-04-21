@@ -19,8 +19,7 @@ snippet: y
 Integrations available between Campaign Standard and other solutions and services allow you to combine the delivery and advanced campaign management functionalities of Adobe Campaign with a set of solutions created to help you personalize your users' experience.
 
 <table>
-<tr><td><img src="assets/do-not-localize/icon_functional.svg" width="60px"></td><td><img src="assets/do-not-localize/icon_organization.svg"  width="60px"></td></tr>
-<tr><td><a href="#functional-integrations">Work with functional integrations</a></td><td><a href="#linking-organizations">Link Adobe Experience Cloud Organizations</a></td></tr>
+<tr><td><a href="#functional-integrations"><img src="assets/do-not-localize/icon_functional.svg" width="60px"><br/>Work with functional integrations</a></td><td><a href="#linking-organizations"><img src="assets/do-not-localize/icon_organization.svg" width="60px"><br/>Link Adobe Experience Cloud Organizations</a></td></tr>
 </table>
 
 ## Work with functional integrations {#functional-integrations}
@@ -109,3 +108,8 @@ An organization is the entity that enables an administrator to configure groups 
 >[!NOTE]
 >
 > By default, Adobe Campaign is already linked to an Adobe Experience Cloud account.
+
+## Additional resources
+
+* xxx
+* xxx

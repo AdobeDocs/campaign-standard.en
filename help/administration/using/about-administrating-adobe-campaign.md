@@ -51,12 +51,12 @@ Campaign standard also allows you to monitor security-related information. You c
 
 Read more:
 
-* [Users management](administration/using/users-management.md)
-* [Organizational units](administration/using/organizational-units.md)
-* [List of roles](administration/using/list-of-roles.md)
-* [Managing groups and users](administration/using/managing-groups-and-users.md)
-* [Auditing export logs](administration/using/auditing-export-logs.md)
-* [Licenses](administration/using/licenses.md)
+* [Users management](../../administration/using/users-management.md)
+* [Organizational units](../../administration/using/organizational-units.md)
+* [List of roles](../../administration/using/list-of-roles.md)
+* [Managing groups and users](../../administration/using/managing-groups-and-users.md)
+* [Auditing export logs](../../administration/using/auditing-export-logs.md)
+* [Licenses](../../administration/using/licenses.md)
 
 ## Channels configuration {#channels-configuration}
 
@@ -68,11 +68,11 @@ Set up **mobile applications** in order to be able to send in-app messages and p
 
 Read more:
 
-* [About channel configuration](administration/using/about-channel-configuration.md)
-* [Configuring email channel](administration/using/configuring-email-channel.md)
-* [Configuring SMS channel](administration/using/configuring-sms-channel.md)
-* [Configuring a mobile application](administration/using/configuring-a-mobile-application.md)
-* [Configuring transactional messaging](administration/using/configuring-transactional-messaging.md)
+* [About channel configuration](../../administration/using/about-channel-configuration.md)
+* [Configuring email channel](../../administration/using/configuring-email-channel.md)
+* [Configuring SMS channel](../../administration/using/configuring-sms-channel.md)
+* [Configuring a mobile application](../../administration/using/configuring-a-mobile-application.md)
+* [Configuring transactional messaging](../../administration/using/configuring-transactional-messaging.md)
 
 ## Application settings {#application-settings}
 
@@ -84,9 +84,15 @@ Define one or several **brands** for your organization, and configure the sendin
 
 Read more:
 
-* [About Campaign Standard settings](administration/using/about-campaign-standard-settings.md)
-* [External accounts](administration/using/external-accounts.md)
-* [Target mappings in Campaign](administration/using/target-mappings-in-campaign.md)
-* [Technical workflows](administration/using/technical-workflows.md)
-* [Branding](administration/using/branding.md)
-* [Sending internal notifications](administration/using/sending-internal-notifications.md)
+* [About Campaign Standard settings](../../administration/using/about-campaign-standard-settings.md)
+* [External accounts](../../administration/using/external-accounts.md)
+* [Target mappings in Campaign](../../administration/using/target-mappings-in-campaign.md)
+* [Technical workflows](../../administration/using/technical-workflows.md)
+* [Branding](../../administration/using/branding.md)
+* [Sending internal notifications](../../administration/using/sending-internal-notifications.md)
+
+
+## Additional resources
+
+* xxx
+* xxx
