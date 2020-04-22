@@ -1,6 +1,6 @@
 ---
-title: About push notifications
-description: Discover the main specificities of the push notification channel in Adobe Campaign.
+title: Implementing Push tracking
+description: This document allows you to ensure that push notification tracking has been implemented correctly on iOS and Android.
 page-status-flag: never-activated
 uuid: 961aaeb5-6948-4fd2-b8d7-de4510c10566
 contentOwner: sauviat
