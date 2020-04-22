@@ -87,7 +87,11 @@ This collection can be used in a transactional email to add product listings to 
 
    ![](assets/message-center_collection_fields.png)
 
+1. The **[!UICONTROL Enrichment]** tab allows you to enrich each item of the collection. This will enable you to personalize the elements of the corresponding product listing with information from the Adobe Campaign database or from other resources that you created.
 
+>[!NOTE]
+>
+>The steps for enriching the elements of a collection are the same as described in the [Enriching the event](#enriching-the-transactional-message-content) section. Note that enriching the event will not allow you to enrich a collection: you need to add an enrichment to the collection itself in the **[!UICONTROL Collections]** section.
 
 Once the event and the message are published, you will be able to use this collection in your transactional message.
 
