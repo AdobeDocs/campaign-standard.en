@@ -18,21 +18,21 @@ snippet: y
 
 ## About push tracking {#about-push-tracking}
 
-To ensure that the push notification has been fully developed we need to be sure that the tracking portion has been implemented correctly.
+To ensure that the push notification has been fully developed you need to be sure that the tracking portion has been implemented correctly.
 
 The following steps allow you to ensure that push tracking has been implemented correctly. This assumes that you have already implemented the first parts of Push Notification implementation: Registering the app user and handling a push notification message.
 
 Push Tracking is separated into three types:
 
-* **Push Impressions** - When a push notification has been delivered to the device and is sitting on the notification center, but it hasn't been touched at all.  This is considered an impression.  In most cases impressions numbers should be similar if not the same as the delivered number. It ensures that the device did get the message and relayed that information back to the server.
+* **Push Impressions** - When a push notification has been delivered to the device and is sitting on the notification center but hasn't been touched at all.  This is considered an impression.  In most cases impressions numbers should be similar if not the same as the delivered number. It ensures that the device did get the message and relayed that information back to the server.
 
 * **Push Click** - When a push notification has been delivered to the device and the user has clicked on the device.  The user either wanted to view the notification (which will in turn move to Push Open tracking) or dismiss the notification.
 
-* **Push Open** - When a push notification has been delivered to the device and the user has clicked on the notification causing the app the open.  This is similar to the Push Click except a Push Open will not be triggered if the notification was dismissed.
+* **Push Open** - When a push notification has been delivered to the device and the user has clicked on the notification causing the app to open.  This is similar to the Push Click except a Push Open will not be triggered if the notification was dismissed.
 
 To implement tracking for Campaign Standard, the mobile app needs to include Mobile SDK. These SDK are available on Adobe Mobile Services.
 
-To send tracking information there are three variables that need to be sent.  Two that are part of the data received from Campaign and an action variable that dictates whether it is an **Impression**, **Click** or **Open**.
+To send tracking information there are three variables that need to be sent. Two that are part of the data received from Campaign Standard and an action variable that dictates whether it is an **Impression**, **Click** or **Open**.
 
 | Variable   |  Value |
 |:-:|:-:|
@@ -45,8 +45,6 @@ To send tracking information there are three variables that need to be sent.  Tw
 ### How to implement push impression tracking {#push-impression-tracking-android}
 
 For impression tracking, you will have to send value "7" for action when calling trackAction() function.
-
-Using Adobe Experience Platform SDK:
 
 ```
 
@@ -66,7 +64,6 @@ public void onMessageReceived(RemoteMessage remoteMessage) {
     }
   }
 }
-
 ```
 
 ### How to implement click tracking {#push-click-tracking-android}
@@ -146,11 +143,11 @@ public class NotificationDismissedReceiver extends BroadcastReceiver {
 
 ### How to implement open tracking {#push-open-tracking-android}
 
-You will send "1" and "2" since user must click notification to open app. If app is launched/opened not through push notification, then no tracking events occur.
+You will need to send "1" and "2" since user must click notification to open app. If the app is not launched/opened through push notification, then no tracking events occur.
 
-In order to track open, we need to create Intent. Intent objects allow Android OS to call your method when certain actions are done: in this case, clicking the notification to open the app.
+In order to track open, you need to create Intent. Intent objects allow Android OS to call your method when certain actions are done. In this case, clicking the notification to open the app.
 
-This code is based of the implementation of the click impression tracking. With Intent set there we now need to act upon that and send tracking info back to Campaign. In our case set our Open Intent to open to a certain View in our App, this will call the onResume method WITH the notification data in the Intent Object.
+This code is based of the implementation of the click impression tracking. With Intent set, you now need to send tracking info back to Campaign. In this case, your need to set the Open Intent to open to a certain view in your app, this will call the onResume method WITH the notification data in the Intent Object.
 
 ```
 @Override
@@ -194,16 +191,15 @@ private void handleTracking() {
 
 For impression tracking, you will have to send value "7" for action when calling trackAction() function.
 
-To explain how to get Impression tracking working we need to explain some major concepts on how iOS works with push notifications. Apple is very strict about push notification and about how much access is given to the app.
+To understand how iOS notifications works, the three states of an app needs to be detailed:
 
-To understand iOS notifications, we need to understand the three states of an app meaning foreground, background and off/closed:
+* **Foreground**: when the app is currently active and is currently on screen (in the foreground).
+* **Background**: when the is app is not on screen but the process is not closed. When you double-click the home button, it will usually showcase all the apps that are in the background.
+* **Off/closed**: an app whose process has been killed.
 
-Foreground: when the app is currently active and is currently on screen (in the foreground).
-Background: when the is app is not on screen but the process isn't closed. When you double-click the home button, it will usually showcase all the apps that are in the background.
-Off/closed:  an app whose process has been killed.
-If an app is closed, Apple will not call the app until the app has been relaunched. This means that you can never truly know when the notification has been received on iOS.
+If an app is closed, Apple will not call the app until the app has been relaunched. This means that you will not be able to know when the notification has been received on iOS.
 
-In order to still have Impression tracking working while the app is in the background we need to send "Content-Available" to let the app know a tracking has to be done.
+In order to still have Impression tracking working while the app is in the background we need to send **Content-Available** to let the app know a tracking has to be done.
 
 >[!CAUTION]
 >
@@ -286,11 +282,11 @@ func registerForPushNotifications() {
     }
 ```
 
-Now when we send Push Notifications we need to add a Category in this case we called it "DEFAULT".
+Now when you send Push Notifications you need to add a category. In this case, we called it "DEFAULT".
 
 ![](assets/tracking_push.png)
 
-Then to handle the Dismiss and send a tracking info we need to add the following:
+Then to handle the Dismiss and send a tracking info you need to add the following:
 
 ```
 func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
@@ -312,7 +308,7 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive respo
 
 ### How to implement open tracking {#push-open-tracking-iOS}
 
-You will send "1" and "2" since user must click notification to open app. If app is launched/opened not through push notification, then no tracking events occur.
+You will need to send "1" and "2" since user must click notification to open app. If the app is not launched/opened through push notification, then no tracking events occur.
 
 ```
 import Foundation
