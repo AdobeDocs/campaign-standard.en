@@ -28,6 +28,10 @@ You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-n
 
 **Other documentation updates coming with the release**
 
+* Information has been added on the **[!UICONTROL History in days]** field in workflows' properties that now includes files downloaded by the **[!UICONTROL Transfer file]** activity. [Read more](../../automating/using/executing-a-workflow.md)
+
+* Information has been added in the profile subsitution section regarding the 500 characters limit of the subject line prefix. [Read more](../..help/sending/using/testing-messages-using-target.md)
+
 ## Documentation updates - April 2020 {#doc-updates-april-2020}
 
 The Microsoft Dynamics 365 integration with Adobe Campaign Standard documentation has been integrated into the core documentation in the Integrating with other solutions guide. [Read more](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
