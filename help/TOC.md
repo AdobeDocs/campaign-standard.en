@@ -134,7 +134,7 @@ user-guide-title: Adobe Campaign Standard Help
 + Testing and Sending {#testing-and-sending}
   + [About sending messages with Campaign](sending/using/about-sending-messages-with-campaign.md)
   + Preparing and testing messages {#preparing-and-testing-messages}
-       + [Previewing messages](sending/using/previewing-messages.md)
+       + [Previewing deliveries](sending/using/previewing-messages.md)
        + [Preparing the send](sending/using/preparing-the-send.md)
        + [Sending proofs](sending/using/sending-proofs.md)
        + [Testing email messages using targeted profiles](sending/using/testing-messages-using-target.md)
@@ -164,6 +164,13 @@ user-guide-title: Adobe Campaign Standard Help
        + [Technical recommendations](sending/using/technical-recommendations.md)
        + [Monitoring deliverability](sending/using/monitor-deliverability.md)
        + [Troubleshooting](sending/using/troubleshooting.md)
+  + Working with typology rules {#working-with-typology-rules}
+       + [About typologies and typology rules](sending/using/about-typology-rules.md)
+       + [Managing typologies](sending/using/managing-typologies.md)
+       + [Managing typology rules](sending/using/managing-typology-rules.md)
+       + [Filtering rules](sending/using/filtering-rules.md)
+       + [Fatigue rules](sending/using/fatigue-rules.md)
+       + [Control rules](sending/using/control-rules.md)
 + Reporting {#reporting}
   + About reporting {#about-reporting}
        + [About dynamic reports](reporting/using/about-dynamic-reports.md)
@@ -226,12 +233,12 @@ user-guide-title: Adobe Campaign Standard Help
        + [Testing your triggers](integrating/using/testing-your-triggers.md)
        + [Abandonment Triggers use cases](integrating/using/abandonment-triggers-use-cases.md)
   + Campaign and Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-       + [Configure Adobe IO for Microsoft Dynamics 365 integration](integrating/using/configure-adobe-io-for-ms-dynamic.md)
        + Working with Campaign Standard and Microsoft Dynamics 365 {#working-with-campaign-standard-and-ms-dynamics}
           + [Working with Campaign Standard and Microsoft Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
           + [Notices and recommendations](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md) 
           + [Requesting and configuring the Microsoft Dynamics 365 with Campaign Standard integration](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
           + [Using the Microsoft Dynamics 365 with Campaign Standard integration](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
+       + [Configure Adobe IO for Microsoft Dynamics 365 integration](integrating/using/configure-adobe-io-for-ms-dynamic.md)
        + [Configure Microsoft Dynamics 365 for Campaign integration](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
        + [Configure Unifi for Microsoft Dynamics 365 integration](integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md)
        + [Map Campaign custom resources and Dynamics 365 Custom entities](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
@@ -367,11 +374,6 @@ user-guide-title: Adobe Campaign Standard Help
        + [Configuring SMS channel](administration/using/configuring-sms-channel.md)
        + [Configuring a mobile application](administration/using/configuring-a-mobile-application.md)
        + [Configuring transactional messaging](administration/using/configuring-transactional-messaging.md)
-  + Working with typology rules {#working-with-typology-rules}
-       + [About typology rules](administration/using/about-typology-rules.md)
-       + [Filtering rules](administration/using/filtering-rules.md)
-       + [Fatigue rules](administration/using/fatigue-rules.md)
-       + [Control rules](administration/using/control-rules.md)
   + Application settings {#application-settings}
        + [About Campaign Standard settings](administration/using/about-campaign-standard-settings.md)
        + [External accounts](administration/using/external-accounts.md)

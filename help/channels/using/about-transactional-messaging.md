@@ -45,7 +45,7 @@ Transactional messaging is also available from the Adobe Campaign Standard API. 
 
 >[!IMPORTANT]
 >
->Once upgraded to the [Enhanced MTA](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html), all transactional messages are sent with the Adobe Campaign Enhanced MTA for improved deliverability, throughput, and bounce handling. All impacts are the same as for standard marketing messages and they are detailed in the [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html) document.
+>All transactional messages are now sent with the Adobe Campaign Enhanced MTA for improved deliverability, throughput, and bounce handling. All impacts are the same as for standard marketing messages.
 
 ## Transactional messaging operating principle {#transactional-messaging-operating-principle}
 
@@ -94,13 +94,13 @@ The way you can personalize a message content depends on the type of transaction
 * The personalization information is coming from the data contained in the event itself. See [Event transactional messages](../../channels/using/event-transactional-messages.md).
 * You cannot use **Unsubscription link** content blocks in an event transactional message.
 * Event-based transactional messaging is supposed to use only the data that are in the sent event to define the recipient and the message content personalization. However, you can enrich the content of your transactional message using information from the Adobe Campaign database. See [Enriching the transactional message content](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content).
-* As event transactional messages do not contain profile information, they are not compatible with fatigue rules, even in the case of an enrichment with profiles. See [Fatigue rules](../../administration/using/fatigue-rules.md).
+* As event transactional messages do not contain profile information, they are not compatible with fatigue rules, even in the case of an enrichment with profiles. See [Fatigue rules](../../sending/using/fatigue-rules.md).
 
 **Profile-based transactional messages**:
 
 * The personalization information can come from the data contained in the event or from the reconciled profile record. See [Profile transactional messages](../../channels/using/profile-transactional-messages.md).
 * You can use **Unsubscription link** content blocks in a profile transactional message. See [Adding a content block](../../designing/using/personalization.md#adding-a-content-block).
-* Fatigue rules are compatible with profile transactional messages. See [Fatigue rules](../../administration/using/fatigue-rules.md).
+* Fatigue rules are compatible with profile transactional messages. See [Fatigue rules](../../sending/using/fatigue-rules.md).
 
 Note that product listings are available in transactional email messages only. See [Using product listings in a transactional message](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message).
 

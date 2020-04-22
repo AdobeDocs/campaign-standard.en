@@ -18,7 +18,7 @@ snippet: y
 
 >[!IMPORTANT]
 >
->Campaign Standard Data service is currently in beta, which may be subject to frequent updates without notice. Customers are required to be hosted on Azure (currently in beta for North America only) to access these capabilities. Please reach out to Adobe Customer Care if you would like access.
+>Adobe Experience Platform Data Connector is currently in beta, which may be subject to frequent updates without notice. Customers are required to be hosted on Azure (currently in beta for North America only) to access these capabilities. Please reach out to Adobe Customer Care if you would like access.
 
 When the mapping definition is completed, you can publish the mapping. After the deployment step, the data replication between Campaign Standard and Adobe Experience Platform is automatically started. At any time, you can stop the replication by clicking on the **[!UICONTROL Stop]** button.
 

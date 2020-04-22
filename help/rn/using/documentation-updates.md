@@ -28,12 +28,25 @@ The Microsoft Dynamics 365 integration with Adobe Campaign Standard documentatio
 
 Additional resources have been added to the documentation home page. [Read more](../../campaign-standard-home.md)
 
-Information on the Experience CLoud ID Service (ECID) has been added to the Adobe Experience Platform Data Connector documentation. [Read more](../../administration/using/aep-about-data-connector.md#key-concepts)
+Information on the Experience Cloud ID Service (ECID) has been added to the Adobe Experience Platform Data Connector documentation. [Read more](../../administration/using/aep-about-data-connector.md#key-concepts)
 
 The Configuring transactional messaging section has been improved with information on how to access the latest transactional events and updated screenshots. [Read more](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
 
+The section related to typologies and typology rules has been improved and updated with additional information on out-of-the-box typology rules. [Read more](../../sending/using/about-typology-rules.md)
 
-## Release 20.2 - March 2020 {#release-20-2---march-2020}
+Information has been added on the **[!UICONTROL Transfer file]** activity's **[!UICONTROL File listing]** action. [Read more](../../automating/using/transfer-file.md)
+
+The documentation on retries after a delivery temporary failure has been updated with more details on how retries are managed once upgraded to the Enhanced MTA. [Read more](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)
+
+The Deleting a transactional message section has been enhanced and clarified. [Read more](../../channels/using/event-transactional-messages.md#deleting-a-transactional-message)
+
+The section **Previewing deliveries** has been updated with mobile deliveries examples.[Read more](../../sending/using/previewing-messages.md)
+
+Best practice has been added regarding transactional messaging and the deletion of unused real-time events. [Read more](../../administration/using/configuring-transactional-messaging.md#creating-an-event)
+
+The Configuring email channel section has been updated with clarification on all the email settings that are now managed by the Adobe Campaign Enhanced MTA. [Read more](../../administration/using/configuring-email-channel.md)
+
+## Release 20.2 - April 2020 {#release-20-2---april-2020}
 
 **New capabilities included in the release**
 
@@ -429,7 +442,7 @@ Updated the Type of users section. [Read more](../../administration/using/users-
 
 In-App messaging (beta) - [Read more](../../channels/using/about-in-app-messaging.md)
 
-Adobe Launch integration for mobile apps (beta) - [Read more](../../administration/using/about-typology-rules.md#typology-rules)
+Adobe Launch integration for mobile apps (beta) - [Read more](../../sending/using/about-typology-rules.md#typology-rules)
 
 **Other documentation updates coming with the release**
 
@@ -443,7 +456,7 @@ Updated Push notification out-of-the-box report section. [Read more](../../repor
 
 **New capabilities included in the release**
 
-[High priority flag](../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android) and [typology filter](../../administration/using/about-typology-rules.md#typology-rules) for mobile app subscribers.
+[High priority flag](../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android) and [typology filter](../../sending/using/about-typology-rules.md#typology-rules) for mobile app subscribers.
 
 Automated content import from a URL at preparation time. [Read more](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
 
@@ -567,7 +580,7 @@ Added information on how to prepare a message in a delivery [Read more](../../se
 
 Release notes have been reorganized in several pages so that you get a more global view of all the different releases.
 
-The **[!UICONTROL Working with typologies]** section has been updated for an improved visibility. [Read more](../../administration/using/about-typology-rules.md)
+The **[!UICONTROL Working with typologies]** section has been updated for an improved visibility. [Read more](../../sending/using/about-typology-rules.md)
 
 A new option allowing to gain performance when defining many additional data in a **[!UICONTROL Query]** is now available. [Read more](../../automating/using/query.md)
 
@@ -597,7 +610,7 @@ New sections dedicated to [target mappings](../../administration/using/target-ma
 
 **New capabilities included in the release**
 
-Reporting for Fatigue Management - [Read more](../../administration/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report)
+Reporting for Fatigue Management - [Read more](../../sending/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report)
 
 Report sharing - [Read more](../../reporting/using/reporting-interface.md#share-tab)
 
@@ -625,7 +638,7 @@ Instructions to configure the integration with Audience Manager or People core s
 
 **New capabilities included in the release**
 
-Fatigue Management - [Read more](../../administration/using/fatigue-rules.md)
+Fatigue Management - [Read more](../../sending/using/fatigue-rules.md)
 
 Content creation: Import from a URL - [Read more](../../designing/using/using-existing-content.md#importing-content-from-a-url)
 

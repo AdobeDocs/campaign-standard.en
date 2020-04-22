@@ -20,7 +20,7 @@ snippet: y
 
 [Click here](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) to subscribe to release notifications and get details about latest Adobe Experience Cloud releases straight in your inbox.
 
-## Release 20.2 - March 2020 {#release-20-2---march-2020}
+## Release 20.2 - April 2020 {#release-20-2---april-2020}
 
 **What's new?**
 
@@ -103,3 +103,4 @@ snippet: y
 * Fixed an issue when deleting a privacy request manually in Campaign after it had been processed, which prevented data associated to the request from being deleted even after cleanup.
 * Fixed an issue that could occur when previewing or sending messages that included special characters from Adobe Experience Manager.
 * Fixed an issue that could occur in workflows when executing an activity with several inbound transitions.
+* Fixed an issue which prevented standard users from using the 'Subscriptions to an application' as the target dimension in a workflow query or a delivery. (CAMP-37618)

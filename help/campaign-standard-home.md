@@ -47,12 +47,11 @@ Learn more about general guidelines for mobile deliveries.
     <br>
   </td>
   <td valign="top">
-       <img alt="Developers" src="start/using/assets/dev.png" />
-    <div>
-    <strong>Resources for developers</strong>
+       <img alt="Support" src="start/using/assets/do-not-localize/help.jpeg" />
+    <div><a href="https://helpx.adobe.com/campaign/kb/ac-support.html">
+    <strong>Get Support</strong></a>
     </div>
-    <p><em><a href="api/using/about-campaign-standard-apis.md">Adobe Campaign API</a></em></p>
-    <p><em><a href="integrating/using/about-adobe-experience-cloud-triggers.md">Adobe Experience Cloud Triggers</a></em></p>
+    <p><em>Access FAQs, best practices, help resources, and connect with Campaign experts.</em></p>
     <br>
   </td>
 </tr>
@@ -62,9 +61,9 @@ Learn more about general guidelines for mobile deliveries.
 
 | Useful pages | Resources for developers |
 |---|---|
-| [Release notes](rn/using/release-notes.md) | [Implementation guide](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html) |
-| [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html) | [APIs documentation](api/using/about-campaign-standard-apis.md) |
-| [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) |  [List of error messages](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
-| [Release Planning guide](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) | [Campaign Standard data model](developing/using/datamodel-introduction.md) |
-| [Deprecated and Removed Features](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) | [Campaign integrations](integrating/using/about-campaign-integrations.md) |
-| [Getting started with Campaign Standard](start/using/campaign-orchestration.md) | [Technical notes](https://helpx.adobe.com/campaign/kb/acs-article-list.html) |
+| [Release notes](rn/using/release-notes.md) | [Experience Cloud triggers](integrating/using/about-adobe-experience-cloud-triggers.md) |
+| [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html) | [Campaign APIs](api/using/about-campaign-standard-apis.md) |
+| [Implementation guide](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html) |  [List of error messages](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
+| [Release planning](rn/using/release-planning.md) | [Campaign data model](developing/using/datamodel-introduction.md) |
+| [Deprecated and removed features](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) | [Multi-solution guide](integrating/using/about-campaign-integrations.md) |
+| [Get started with Campaign Standard](start/using/campaign-orchestration.md) | [Technical notes](https://helpx.adobe.com/campaign/kb/acs-article-list.html) |
