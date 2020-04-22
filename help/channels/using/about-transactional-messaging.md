@@ -45,7 +45,7 @@ Transactional messaging is also available from the Adobe Campaign Standard API. 
 
 >[!IMPORTANT]
 >
->Once upgraded to the [Enhanced MTA](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html), all transactional messages are sent with the Adobe Campaign Enhanced MTA for improved deliverability, throughput, and bounce handling. All impacts are the same as for standard marketing messages and they are detailed in the [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html) document.
+>All transactional messages are now sent with the Adobe Campaign Enhanced MTA for improved deliverability, throughput, and bounce handling. All impacts are the same as for standard marketing messages.
 
 ## Transactional messaging operating principle {#transactional-messaging-operating-principle}
 
