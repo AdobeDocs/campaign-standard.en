@@ -76,7 +76,7 @@ The payload attributes and their values will vary based on the configurations pr
     "_mId":"h138a"} 
 ```
 
-**JSON sample payload to use with [iOS APNS Tester](pushtry.com)**
+**JSON sample payload to use with [iOS APNS Tester](https://pushtry.com/)**
 
 ```
 {
