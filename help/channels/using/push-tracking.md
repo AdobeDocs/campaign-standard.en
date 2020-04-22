@@ -36,9 +36,9 @@ To send tracking information there are three variables that need to be sent. Two
 
 | Variable   |  Value |
 |:-:|:-:|
-| broadlogId	  |  "_mId" from data |
-| deliveryId | "_dId" from data  |
-|  action |  "1" for Open, "2" for Click and "7" for Impression |
+| broadlogId  |  _mId from data |
+| deliveryId | _dId from data  |
+|  action |  1 for Open, 2 for Click and 7 for Impression |
 
 ## Implementation for Android {#implementation-android}
 
