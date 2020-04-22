@@ -56,7 +56,7 @@ To get started, create the event corresponding to your needs.
 
 >[!NOTE]
 >
->The number of created real-time events can have an impact on your platform. To ensure optimal performance, make sure you delete real-time events that you do not need anymore. See [Deleting an event](../../administration/using/configuring-transactional-messaging.md#deleting-an-event).
+>The number of created real-time events can have an impact on your platform. To ensure optimal performance, make sure you delete real-time events that you do not need anymore. See [Deleting an event](#deleting-an-event).
 
 ## Defining the event attributes {#defining-the-event-attributes}
 
