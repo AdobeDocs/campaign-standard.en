@@ -58,7 +58,7 @@ snippet: y
 <li>parse selected properties as leaf nodes from a JSON and flatten them into a single table row.</li>
 <li>select and use an array object from a JSON without having to name the object "data" or have it be at the top level.</li>
 </ul>
-<p><strong>Note:</strong> Customers will need to <strong>replace all beta External API activities</strong> with GA External API activities in their workflows.  Workflows that use the beta version of External API will stop working in 20.3.</p>
+<p><strong>Caution:</strong> Customers will need to <strong>replace all beta External API activities</strong> with GA External API activities in their workflows.  Workflows that use the beta version of External API will stop working in 20.3.</p>
 <p>For more information, refer to the <a href="../../automating/using/external-api.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">how-to video</a>.</p>
 </td> 
 </tr> 
