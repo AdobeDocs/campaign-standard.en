@@ -24,21 +24,6 @@ snippet: y
 
 **What's new?**
 
-<table>  
-<thead>  
-<tr>  
-<th> <strong>Unified Experience Cloud interface</strong><br /> </th>   
-</tr>   
-</thead>   
-<tbody>  
-<tr>  
-<td> <p>The interface top bar has been enhanced to improve experience across all Experience Cloud applications. The header now allows you to switch more easily between solutions and displays improved help and notifications.</p>  
-<p>For more information, refer to the <a href="../../start/using/interface-description.md#top-bar">detailed documentation</a>. </p> 
-</td>  
-</tr>   
-</tbody>   
-</table>
-
 <table> 
 <thead> 
 <tr> 
@@ -71,7 +56,7 @@ snippet: y
 <ul>
 <li>parse a nested JSON with a maximum depth of 10 levels. </li>
 <li>parse selected properties as leaf nodes from a JSON and flatten them into a single table row.</li>
-<li>select and use an array object from a JSON and use elements of that array to populate multiple rows in the transition table.</li>
+<li>select and use an array object from a JSON without having to name the object "data" or have it be at the top level.</li>
 </ul>
 <p>Customers will need to replace all beta External API activities with GA External API activities in their workflows.  Workflows that use the beta version of External API will stop working in 20.3.</p>
 <p>For more information, refer to the <a href="../../automating/using/external-api.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">how-to video</a>.</p>
@@ -79,6 +64,10 @@ snippet: y
 </tr> 
 </tbody> 
 </table>
+
+>[!NOTE]
+>
+>Customers will need to replace all beta External API activities with GA External API activities in their workflows.  Workflows that use the beta version of External API will stop working in 20.3.
 
 **Improvements**
 
@@ -103,7 +92,7 @@ snippet: y
 * Checkboxes can now be mandatory in a landing page.
 * When downloading the CSV file of a Dynamic report, the limit of 200 rows has been removed. You can now include every row of your report. (CAMP-40810)
 * Added ES-US language in the list of out-of-the-box languages for multilingual emails. (CAMP-42279)
-* Files downloaded with a Transfer File activity will now be deleted after X days, where X is determined by the History in days field under the Execution menu in the Workflow properties. [Read more](../../automating/using/executing-a-workflow.md#workflow-properties)
+* Files downloaded with a Transfer File activity will now be deleted after X days, where X is determined by the **History in days** field under the **Execution** menu in the Workflow properties. [Read more](../../automating/using/executing-a-workflow.md#workflow-properties)
 
 **Experience Platform integrations**
 
