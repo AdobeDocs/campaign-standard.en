@@ -174,5 +174,5 @@ After completion of the ingress job, the vehicle data can now be seen in the new
 
 **Related Topics**
 
-* Working with Adobe Campaign Standard - Microsoft Dynamics 365
-* Key steps to add a custom resource in Campaign
+* [Working with Adobe Campaign Standard - Microsoft Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+* [Key steps to add a custom resource in Campaign](../../developing/using/key-steps-to-add-a-resource.md)

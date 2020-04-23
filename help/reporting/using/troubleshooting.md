@@ -98,6 +98,7 @@ Such occurrences are added as **"an email click implies an email open"**.
 >
 >Since unique counts are based on an HLL-based sketch, minor inconsistencies between the counts can be experienced.
 
+<!-->
 ## How are counts for recurring/transactional deliveries calculated?
 
 When working with recurring and transactional deliveries, the counts will be attributed to both the parent and child deliveries.
@@ -197,6 +198,7 @@ After the Adobe Campaign Standard 19.2.1 release, reports look like the followin
   </tr> 
  </tbody> 
 </table>
+-->
 
 ## What is the colors' signification in my reports' table? {#reports-color-signification}
 
@@ -208,7 +210,7 @@ In the example below, the cell is of the same color since its value is 100%.
 
 If you change the **[!UICONTROL Conditional formatting]** to custom, when the value reaches the upper limit the cell will get greener. Whereas, if it reaches the lower limit, it will get redder.
 
-For example, here, we set the **[!UICONTROL Upper limit]** to 500 and **[!UICONTROL Lower limit**] to 0.
+For example, here, we set the **[!UICONTROL Upper limit]** to 500 and **[!UICONTROL Lower limit]** to 0.
 
 ![](assets/troubleshooting_2.png)
 

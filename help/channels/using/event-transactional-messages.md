@@ -281,7 +281,7 @@ The **[!UICONTROL Database cleanup]** workflow, which runs every day at 4am, is 
 
 ## Deleting a transactional message {#deleting-a-transactional-message}
 
-Once a transactional message has been unpublished, or if a a transactional message has  not been published yet, you can delete it from the transactional message list. To do this:
+Once a transactional message has been unpublished, or if a transactional message has  not been published yet, you can delete it from the transactional message list. To do this:
 
 1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
 1. Hover the mouse over the message of your choice.
