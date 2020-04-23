@@ -14,17 +14,23 @@ internal: n
 snippet: y
 ---
 
-# Privacy and recommendations{#privacy-and-recommendations}
+# Privacy and consent{#privacy-and-consent}
 
 ## About privacy and consent {#about-privacy-and-consent}
 
-Adobe Campaign is a powerful tool for collecting and processing extremely large amounts of data, including personal information. We encourage all users of Adobe Campaign to work within legislation (DPA, CAN-SPAM, European Directive on Privacy and Electronic Communications, European GDPR, CCPA, etc.), make responsible and ethical use of personal information and refrain from sending unsolicited e-mail, push notifications and SMS messages ("spam"). We strongly believe in the principles of permission marketing in fostering customer lifetime value and loyalty, and we therefore strictly forbid the use of Adobe Campaign in sending unsolicited messages.
+Adobe Campaign is a powerful tool for collecting and processing extremely large amounts of data, including personal information. We encourage all users of Adobe Campaign to:
+* Work within legislation (DPA, CAN-SPAM, European Directive on Privacy and Electronic Communications, European GDPR, CCPA, etc.)
+* Make responsible and ethical use of personal information.
+* Refrain from sending unsolicited email, push notifications and SMS messages ("spam"). We strongly believe in the principles of permission marketing in fostering customer lifetime value and loyalty, and we therefore strictly forbid the use of Adobe Campaign in sending unsolicited messages.
+* Always have recipients agree to receive communications.
+* Do not import fraudulent lists.
+* Use traps to check audiences.
+
+Audiences can come and go from an environment to another (Audience Destinations, MS Dynamics Integration, ACS-AA interaction, Audience Sharing, etc) so it needs additional care when it comes to privacy.
 
 For more on this, refer to [Adobe Experience Cloud privacy](https://www.adobe.com/privacy/marketing-cloud.html).
 
 ## Privacy management {#privacy-management}
-
-
 
 GDPR (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
 
@@ -52,15 +58,3 @@ Adobe Campaign uses two types of cookies:
 * **A cookie shared between Adobe Experience Cloud solutions**. This enables you to identify the users who interact with the Experience Cloud solutions when they visit a website.
 
 For more information on tracking with Adobe Campaign Standard, see [this page](../../sending/using/tracking-messages.md).
-
-## Database integrity {#database-integrity}
-
-Adobe Campaign has an abundance of features. It therefore uses a complex database structure. The database contains many tables, fields, links, and indexes. Certain intermediate tables are not displayed in the interface. The software automatically creates, deletes or modifies certain links, fields and indexes. Only Adobe Campaign interfaces (graphical interface, import program, server module, web module, delivery servers, add field, database extension, etc.) can modify the contents of the database while preserving its integrity.
-
-**Never modify the database contents or structure using any tool other than this software**. Such modifications would be very likely to corrupt the database, resulting in: accidental modification or loss of links, creation of ghost records or links, serious error messages, etc., and rendering the guarantee and technical support contract provided by Adobe Campaign null and void.
-
-In the Adobe Campaign system, all the data is stored in the database. Proper operation of the entire Adobe Campaign system depends on the availability of this data for: web modules for subscription, administration, and unsubscription, administration screens, delivery queues, delivery optimization mechanisms, etc.
-
-## Apache Tomcat {#apache-tomcat}
-
-Adobe Campaign includes Apache Tomcat, developed by the Apache Software Foundation ( [https://www.apache.org/](https://www.apache.org/)).
