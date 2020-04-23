@@ -56,6 +56,8 @@ Best practice has been added regarding transactional messaging and the deletion 
 
 The Configuring email channel section has been updated with clarification on all the email settings that are now managed by the Adobe Campaign Enhanced MTA. [Read more](../../administration/using/configuring-email-channel.md)
 
+The Configuring transactional messaging section has been updated with further information on the rights needed to edit event configurations and on how to enrich collections in transactional messages. [Read more](../../administration/using/configuring-transactional-messaging.md).
+
 ## Release 20.2 - April 2020 {#release-20-2---april-2020}
 
 **New capabilities included in the release**
