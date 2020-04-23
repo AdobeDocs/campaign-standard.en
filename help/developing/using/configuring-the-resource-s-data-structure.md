@@ -156,7 +156,7 @@ A link details the association that one table has with other tables.
    >
    >Use 30 characters maximum.
    
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >It is not possible to rename a link after creation. To rename a link, you must delete it and create it again.
 
@@ -252,7 +252,7 @@ From Dynamic Reporting, you can drag and drop the custom field dimension into a 
 
 For more information on Dynamic Reporting, refer to the [List of components](../../reporting/using/list-of-components-.md).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >The number of fields sent to Dynamic Reporting is limited to 20.
 

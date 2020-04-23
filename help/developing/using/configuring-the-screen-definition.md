@@ -49,7 +49,7 @@ The **[!UICONTROL List configuration]** section of the screen definition lets yo
 
 1. In the **[!UICONTROL Simple search]** section, check the **[!UICONTROL Specify the fields to be taken into account in the search]** to define which fields will be included in the search.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >This configuration replaces the fields used in the default search.
 
