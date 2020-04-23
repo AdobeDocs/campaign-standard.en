@@ -34,15 +34,12 @@ Input fields are used to store or update data in Campaign database. For this, yo
 
    ![](assets/editing_lp_content_4.png)
 
-1. Choose a database field to link with the form field in the **[!UICONTROL Field]** selection zone.
+1. Choose a database field to link with the form field in the **[!UICONTROL Field]** selection zone. Landing pages can only be mapped with **Profiles**.
 
-   When the **[!UICONTROL Mandatory]** option is checked, the page can only be submitted if the user has completed this field. If a mandatory field is not completed, an error message will appear when the user validates the page.
-
-   >[!NOTE]
-   >
-   >Landing pages can only be mapped with **Profiles**.
+1. Check the **[!UICONTROL Mandatory]** option if needed. The page can only be submitted if the user has completed this field. If a mandatory field is not completed, an error message will appear when the user validates the page.
 
 1. Define the field type by choosing, for example **[!UICONTROL Text]**, **[!UICONTROL Number]**, or **[!UICONTROL Date]** in the **[!UICONTROL HTML type of the field]** selection area.
+   If you choose a mandatory **[!UICONTROL Checkbox]**, make sure that it is of **[!UICONTROL Field]** type.
 
 >[!NOTE]
 >

@@ -22,13 +22,19 @@ This page lists all the new features and documentation updates for each release 
 
 You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-notes.md).
 
-## Release 20.3 - April 2020 {#release-20-3---april-2020}
+## Release 20.3 - May 2020 {#release-20-3---may-2020}
 
 **New capabilities included in the release**
 
 Thailand's Personal Data Protection Act (PDPA) - [Read More](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html)
 
 External API Activity (GA) - [Read more](../../automating/using/external-api.md)
+
+**Other documentation updates coming with the release**
+
+* Information has been added on the **[!UICONTROL History in days]** field in workflows' properties that now includes files downloaded by the **[!UICONTROL Transfer file]** activity. [Read more](../../automating/using/executing-a-workflow.md)
+
+* Information has been added in the profile subsitution section regarding the 500 characters limit of the subject line prefix. [Read more](../..help/sending/using/testing-messages-using-target.md)
 
 ## Documentation updates - April 2020 {#doc-updates-april-2020}
 

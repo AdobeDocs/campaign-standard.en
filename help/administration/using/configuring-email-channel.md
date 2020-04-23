@@ -16,7 +16,7 @@ snippet: y
 
 # Configuring email channel{#configuring-email-channel}
 
-As a Campaign [administrator](../../administration/using/about-administrating-adobe-campaign.md), you can configure email channel settings. These advanced settings include general email channel parameters, email routing accounts, email processing rules and email properties. On this page, you will learn how to edit the default values for the general email and sending parameters.
+As a Campaign [administrator](../../administration/using/users-management.md#functional-administrators), you can configure email channel settings. These advanced settings include general email channel parameters, email routing accounts, email processing rules and email properties. On this page, you will learn how to edit the default values for the general email and sending parameters.
 
 Note that some email settings are now managed by the Adobe Campaign Enhanced MTA. Therefore:
 * Some configurations in the Campaign user interface are no longer applied:
