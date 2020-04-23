@@ -38,25 +38,26 @@ Adobe Campaign Standard is compatible with Adobe Experience Manager 6.1, 6.2, 6.
 
     Configuring the Externalizer while implementing Experience Manager for Adobe Campaign Standard makes it possible to transform a resource path into a URL. This allows you to make your images visible on the page. If the Externalizer is not configured properly, your emails will contain broken images.
     
-    To learn how to configure the Externalizer, refer to this [page](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/externalizer.html)
+    To learn how to configure the Externalizer, refer to this [page](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/externalizer.html).
 
 * **Organize your email templates to avoid misuse.**
 
     Keeping templates organized ensures that the appropriate templates are in the appropriate folders and to not choose the wrong ones by mistake. During implementation, paths should be created to save templates in the right places.
 
-    For more information on templates, refer to this [page](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/templates.html#template-availability)
+    For more information on templates, refer to this [page](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/templates.html#template-availability).
 
 * **Get quickly started with out-of-the-box components.**
 
     Out-of-the-box components in Adobe Experience Manager for Adobe Campaign Standard can help you get quickly started if your templates are not complex.
     There are seven out-of-the-box components in Experience Manager that you can start using:
-    1. Heading
-    1. Image
-    1. Link
-    1. Scene7 Image Template
-    1. Targeted Reference
-    1. Text & Image
-    1. Text & Personalization
+    
+    * Heading
+    * Image
+    * Link
+    * Scene7 Image Template
+    * Targeted Reference
+    * Text & Image
+    * Text & Personalization
 
 * **HTML for emails is different from HTML for web**
 
