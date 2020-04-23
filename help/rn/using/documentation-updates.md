@@ -22,6 +22,16 @@ This page lists all the new features and documentation updates for each release 
 
 You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-notes.md).
 
+## Release 20.3 - April 2020 {#release-20-3---april-2020}
+
+**New capabilities included in the release**
+
+**Other documentation updates coming with the release**
+
+* Information has been added on the **[!UICONTROL History in days]** field in workflows' properties that now includes files downloaded by the **[!UICONTROL Transfer file]** activity. [Read more](../../automating/using/executing-a-workflow.md)
+
+* Information has been added in the profile subsitution section regarding the 500 characters limit of the subject line prefix. [Read more](../..help/sending/using/testing-messages-using-target.md)
+
 ## Documentation updates - April 2020 {#doc-updates-april-2020}
 
 The Microsoft Dynamics 365 integration with Adobe Campaign Standard documentation has been integrated into the core documentation in the Integrating with other solutions guide. [Read more](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
@@ -45,6 +55,8 @@ The section **Previewing deliveries** has been updated with mobile deliveries ex
 Best practice has been added regarding transactional messaging and the deletion of unused real-time events. [Read more](../../administration/using/configuring-transactional-messaging.md#creating-an-event)
 
 The Configuring email channel section has been updated with clarification on all the email settings that are now managed by the Adobe Campaign Enhanced MTA. [Read more](../../administration/using/configuring-email-channel.md)
+
+The Configuring transactional messaging section has been updated with further information on the rights needed to edit event configurations and on how to enrich collections in transactional messages. [Read more](../../administration/using/configuring-transactional-messaging.md).
 
 ## Release 20.2 - April 2020 {#release-20-2---april-2020}
 
