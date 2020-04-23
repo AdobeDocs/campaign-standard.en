@@ -34,7 +34,7 @@ External API Activity (GA) - [Read more](../../automating/using/external-api.md)
 
 * Information has been added on the **[!UICONTROL History in days]** field in workflows' properties that now includes files downloaded by the **[!UICONTROL Transfer file]** activity. [Read more](../../automating/using/executing-a-workflow.md)
 
-* Information has been added in the profile subsitution section regarding the 500 characters limit of the subject line prefix. [Read more](../..help/sending/using/testing-messages-using-target.md)
+* Information has been added in the profile subsitution section regarding the 500 characters limit of the subject line prefix. [Read more](../../help/sending/using/testing-messages-using-target.md)
 
 ## Documentation updates - April 2020 {#doc-updates-april-2020}
 
