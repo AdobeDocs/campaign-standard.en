@@ -47,14 +47,12 @@ To send tracking information there are three variables that need to be sent. Two
 For impression tracking, you will have to send value "7" for action when calling trackAction() function.
 
 ```
-
 @Override
 public void onMessageReceived(RemoteMessage remoteMessage) {
 ....{Handle push messages}....
   if (data.size() > 0) {
     String deliveryId = data.get("_dId");
     String messageId = data.get("_mId");
-      
     HashMap<String, String> contextData = new HashMap<>();
     if (deliveryId != null && messageId != null) {
                 contextData.put("deliveryId", deliveryId);
@@ -72,8 +70,8 @@ For click tracking, you will have to send value "2" for action when calling trac
 
 To track click, two scenarios need to be handled:
 
-* The user see the notification but clears it.
-* The user see the notification and clicks on it turning it into an open tracking.
+* The user sees the notification but clears it.
+* The user sees the notification and clicks on it turning it into an open tracking.
 
 To handle this, you need to use two Intents: one for clicking the notification and another one to dismiss the notification.
 
@@ -147,7 +145,7 @@ You will need to send "1" and "2" since user must click notification to open app
 
 In order to track open, you need to create Intent. Intent objects allow Android OS to call your method when certain actions are done. In this case, clicking the notification to open the app.
 
-This code is based of the implementation of the click impression tracking. With Intent set, you now need to send tracking info back to Campaign. In this case, your need to set the Open Intent to open to a certain view in your app, this will call the onResume method WITH the notification data in the Intent Object.
+This code is based on the implementation of the click impression tracking. With Intent set, you now need to send tracking info back to Campaign. In this case, your need to set the Open Intent to open to a certain view in your app, this will call the onResume method WITH the notification data in the Intent Object.
 
 ```
 @Override
@@ -205,7 +203,7 @@ In order to still have Impression tracking working while the app is in the backg
 >
 >iOS Impression Tracking is not accurate and should not be seen as reliable.
 
-The following code targets backgroung app:
+The following code targets background app:
 
 ```
 // In didReceiveRemoteNotification event handler in AppDelegate.m

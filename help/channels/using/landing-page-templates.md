@@ -31,16 +31,14 @@ To access landing page templates, click the Adobe Campaign logo on the upper lef
 
 >[!NOTE]
 >
->Adobe recommends to create your own templates by duplicating a built-in template. Some parameters can only be set in landing page templates, and cannot be modified in landing pages directly.
+>Adobe recommends creating your own templates by duplicating a built-in template. Some parameters can only be set in landing page templates, and cannot be modified in landing pages directly.
 
 When building a template, we recommend adding a **'type'** attribute to tags. This information will be processed by the editor and help the user to link a database field to the form field when configuring the web application.
 
   Example of HTML code in the template:
 
   ```
-  
   <input id="email" type="email" name="email"/>
-  
   ```
 
   The official list of 'type' attributes is available at the following address: [https://www.w3schools.com/tags/att_input_type.asp](https://www.w3schools.com/tags/att_input_type.asp)

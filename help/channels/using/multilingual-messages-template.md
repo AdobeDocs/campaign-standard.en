@@ -16,7 +16,7 @@ snippet: y
 
 # Multilingual messages templates {#multilingual-messages-template}
 
-A multilingual template is a specific template to manage multilingual messages. This kind of template is available for ****Email** and **SMS messages**  and useable in standalone mode, within a workflow or in a recurring delivery.
+A multilingual template is a specific template to manage multilingual messages. This kind of template is available for **Email** and **SMS messages**  and useable in standalone mode, within a workflow or in a recurring delivery.
 
 In the multilingual feature templates, the language management is based on variants. **Each variant represents one language**. Adobe Campaign Standard is able to set up a maximum of 40 variants.
 

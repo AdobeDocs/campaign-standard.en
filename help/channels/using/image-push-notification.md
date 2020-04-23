@@ -124,7 +124,7 @@ If your app is in Swift, follow the steps below:
     }
 
     }
-
+    ```
 
 The mobile should receive the following payload while notification is sent.
 
@@ -153,5 +153,4 @@ userInfo: [AnyHashable("media-attachment-url"): https://pbs.twimg.com/profile_im
 You can now test building your application and the delivery you created in step 2 above. For more information on preparing and sending your push notification, refer to this [page](../../channels/using/preparing-and-sending-a-push-notification.md).
 
 ![](assets/push_notif_advanced_34.png)
-
 
