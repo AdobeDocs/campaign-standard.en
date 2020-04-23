@@ -46,7 +46,7 @@ Providing unsubscription links in your messages will enable Profiles to be black
 
 ## Privacy compliance
 
-Adobe Campaign offers a set of tools to help you with your Privacy Compliance for GDPR, CCPA, and other privacy laws. Learn more in this [this article](https://helpx.adobe.com/campaign/kb/campaign-privacy.html) about Privacy Management and the features we provide to manage Right to Access, Right to be Forgotten, consent, data retention and user roles. You will also find best best practices, to help you with your Privacy compliance when using our service.
+Adobe Campaign offers a set of tools to help you with your Privacy Compliance for GDPR, CCPA, and other privacy laws. Learn more in this [this article](https://helpx.adobe.com/campaign/kb/campaign-privacy.html) about Privacy Management and the features we provide to manage Right to Access, Right to be Forgotten, consent, data retention and user roles. You will also find best practices, to help you with your Privacy compliance when using our service.
 
 ## Related topics
 
