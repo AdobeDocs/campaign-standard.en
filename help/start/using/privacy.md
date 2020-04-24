@@ -28,7 +28,7 @@ Privacy needs to be managed carefully, therefore we encourage all users of Adobe
 * Do not import fraudulent lists and use traps to check that your client file is not being used fraudulently. For more on this, see [Using traps](../../sending/using/using-traps.md).
 * When integrating Campaign with other Experience Cloud solutions such as the [Audience Destinations service](../../audiences/using/aep-about-audience-destinations-service.md), [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), [Audience Manager or People core service](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md), or other solutions such as [Microsoft Dynamics 365](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md), where audiences can be transferred from one system to another, you need to pay extra care to your data when it comes to privacy.
 
-## Adobe Experience Cloud privacy
+## Adobe Experience Cloud privacy {#experience-cloud-privacy}
 
 Adobe Campaign is part of the Adobe Experience Cloud solutions. Therefore, the way privacy is handled in Campaign obeys the Adobe Experience Cloud general principles, such as the following:
 
@@ -95,7 +95,7 @@ To learn how to create **Access** and **Delete** requests and how Adobe Campaign
 >
 >Tutorials on privacy management for Campaign Standard are available [here](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/privacy/privacy-overview.html).
 
-### Opt-out for the Sale of Personal Information (CCPA)
+### Opt-out for the Sale of Personal Information (CCPA) {#opt-out-CCPA}
 
 CCPA (California Consumer Privacy Rights) provides California residents new rights in regards to their personal information and imposes data protection responsibilities on certain entities whom conduct business in California.
 
