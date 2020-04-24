@@ -14,11 +14,13 @@ internal: n
 snippet: y
 ---
 
-# Privacy and consent{#privacy-and-consent}
+# Privacy and Consent{#privacy-and-consent}
 
 ## Recommendations {#privacy-recommendations}
 
-Adobe Campaign is a powerful tool for collecting and processing extremely large amounts of data, including personal information. Privacy needs to be managed carefully, therefore we encourage all users of Adobe Campaign to:
+Adobe Campaign is a powerful tool for collecting and processing extremely large amounts of data, including personal information.
+
+Privacy needs to be managed carefully, therefore we encourage all users of Adobe Campaign to:
 * Work within legislation (DPA, CAN-SPAM, European Directive on Privacy and Electronic Communications, European GDPR, CCPA, PDPA, etc.)
 * Make responsible and ethical use of personal information.
 * Refrain from sending unsolicited email, push notifications and SMS messages ("spam"). We strongly believe in the principles of permission marketing in fostering customer lifetime value and loyalty, and we therefore strictly forbid the use of Adobe Campaign in sending unsolicited messages.
@@ -49,9 +51,7 @@ Adobe asks you to provide your customers privacy policies describing:
 
 For further details, refer to the [Adobe Experience Cloud privacy](https://www.adobe.com/privacy/marketing-cloud.html) page.
 
-For more on these features and the way to implement them in Campaign Standard, see this [page](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#consent).
-
-## Privacy management {#privacy-management}
+## Privacy management in Adobe Campaign {#privacy-management}
 
 This [article](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html) presents general information on what Privacy Management is and the features provided by Adobe Campaign to manage:
 * Consent management, data retention and user roles
@@ -61,11 +61,13 @@ You will also find best best practices to help you with your Privacy compliance 
 
 ### Consent, Retention and roles {#consent}
 
-Adobe Campaign offers other important features that are essential to Privacy:
+Adobe Campaign offers important features that are essential to Privacy:
 
 * **Consent management**: subscription functionality for preference management
 * **Data retention**: data retention periods on all standard log tables, additional retention periods can be set up with workflows
 * **Rights management**: data access managed by roles
+
+For more on these features and the way to implement them in Campaign Standard, see this [page](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#consent).
 
 ### Privacy requests {#privacy-requests}
 
@@ -99,7 +101,7 @@ CCPA (California Consumer Privacy Rights) provides California residents new righ
 
 The configuration and usage of [Access and Delete requests](#privacy-requests) are common to both GDPR and CCPA. This section presents the opt-out for the sale of personal data, which is specific to CCPA.
 
-In addition to consent management, data retention settings, and rights management tools provided by Campaign (see this [section](#consent)), you also have the possibility to track whether a consumer has opted-out for the sale of Personal Information.
+In addition to [consent management, data retention settings, and rights management](#consent) tools provided by Adobe Campaign, you also have the possibility to track whether a consumer has opted-out for the sale of Personal Information.
 
 The implementation steps are detailed on this [page](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ccpa).
 
