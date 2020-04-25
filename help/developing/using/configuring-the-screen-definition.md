@@ -100,4 +100,3 @@ These settings allow you to display a control bar in the custom resource screen.
 
 * **[!UICONTROL Authorize duplicating]**: this option allows you to activate duplicating records linked to the custom resource.
 * **[!UICONTROL Authorize deleting]**: this option allows you to activate deleting records linked to the custom resource.
-
