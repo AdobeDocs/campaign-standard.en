@@ -16,9 +16,9 @@ snippet: y
 
 # Creating or extending the resource{#creating-or-extending-the-resource}
 
-Administrators can create a new resource from scratch or create an extension of an existing resource if you need work on data that are not part of the out-of-the-box data model.
+Administrators can create a new resource from scratch or create an extension of an existing resource if you need work on data that are not part of the built-in data model.
 
-Only the following out-of-the-box resources can be extended:
+Only the following built-in resources can be extended:
 
 * **[!UICONTROL Campaign (campaign)]** 
 * **[!UICONTROL Deliveries (delivery)]** 
