@@ -31,7 +31,7 @@ The main characteristics of this activity are:
 * Ability to receive a JSON response back, map it to output tables and pass downstream to other workflow activities.
 * Failure management with an outbound specific transition
 
-### Transitionning from beta to GA {#from-beta-to-ga}
+### Transitioning from Beta to GA {#from-beta-to-ga}
 
 With Campaign Standard 20.3 release, External API capability has moved trom Beta to General Availability (GA).
 
