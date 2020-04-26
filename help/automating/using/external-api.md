@@ -17,17 +17,20 @@ snippet: y
 
 ![](assets/wf_externalAPI.png)
 
-The **[!UICONTROL External API]** activity brings data into the workflow from an **external system** via a **REST API** call.
+The **[!UICONTROL External API]** activity brings data into the workflow from an **external system** via an **HTTP API** call.
 
-The REST endpoints can be a customer management system, an [Adobe I/O Runtime](https://www.adobe.io/apis/experienceplatform/runtime.html) instance or an Experience Cloud REST endpoints (Data Platform, Target, Analytics, Campaign, etc).
+The external system endpoints can be public API endpoints, customer management systems, or serverless application instances (e.g., [Adobe I/O Runtime](https://www.adobe.io/apis/experienceplatform/runtime.html)), to mention a few categories.
+
+>[!IMPORTANT]
+>
+>The customer will need to replace all beta External API activities with GA External API activities in their workflows.  Workflows that use the beta version of External API will stop working in ACS 20.3.
+>When replacing External API activities, add the new External API activity to the workflow, manually copy over the configuration details, then delete the old activity.  Note: You will not be able to copy over header values as those are masked within the activity.
+>Next, reconfigure other activities in the workflow which point to and/or use data from the beta External API activity to point to and/or use data from the new External API activity instead. Examples of activities: email delivery (personalization fields), enrichment activity, etc.
+
 
 >[!NOTE]
 >
 >For security reasons, the use of JSSPs is not supported in Campaign Standard. If you need to execute code, you can call an Adobe I/O Runtime instance via the External API activity.
-
->[!IMPORTANT]
->
->This capability is currently in beta. You need to accept the usage agreement before starting using the External API activity. Please note that since this beta capability has not yet been commercially released by Adobe, it is not supported by Adobe Client Care, it may contain errors and may not function as well as other released features. 
 
 The main characteristics of this activity are:
 
@@ -47,6 +50,20 @@ The following guardrails have been put in place for this activity:
 >
 >Please note that the activity is meant for fetching of campaign wide data (latest set of offers, latest scores etc.) not for retrieving specific information for each profile as that can result in large amounts of data being transferred. If the use case requires this, the recommendation is to use the [Transfer File](../../automating/using/transfer-file.md) activity.
 
+
+Specific Guardrails have been put in place for the JSON: 
+
+* **JSON Max Depth**: limit the maximum depth of a custom nested JSON that can be processed to 10 levels.
+* **JSON Max Key Length**: limit the maximum length of the internal key generated to 255. This key is associated with the column ID. 
+* **JSON Max Duplicate Keys Allowed**:  limit the maximum total number of duplicate JSON property names, which are used as column ID, to 150.
+
+
+The activity is not supported JSON structure as:
+
+* Combining array object with other non-array elements
+* JSON array object is nested within one or more intermediate array objects.
+
+
 ## Configuration {#configuration}
 
 Drag and drop an **[!UICONTROL External API]** activity into your workflow and open the activity to start the configuration.
@@ -60,7 +77,7 @@ Based on this temporary table, user can make modification to inbound data.
 
 The **Inbound resource** dropdown lets you select the query activity that will create the temporary table.
 
-The **Add count parameter** checkbox will a count value for each row coming from the temporary table. Note that this checkbox is only available if the inbound activity is generating a temporary table.
+The **Add count parameter** checkbox will add a count value for each row coming from the temporary table. Note that this checkbox is only available if the inbound activity is generating a temporary table.
 
 The **Inbound Columns** section allow the user to add any fields from the inbound transition table. The selected column(s) will be the keys in the data object. The data object in the JSON will be an array list containing data for selected columns from each row of the inbound transition table.
 
@@ -72,17 +89,26 @@ This tab lets you define the sample **JSON structure** returned by the API Call.
 
 ![](assets/externalAPI-outbound.png)
 
-The JSON structure pattern is: `{“data”:[{“key”:“value”}, {“key”:“value”},...]}`
+The JSON parser is designed to accommodate standard JSON structure pattern types, with some exceptions. An example of a standard pattern is:`{“data”:[{“key”:“value”}, {“key”:“value”},...]}`
 
 The sample JSON definition must have the **following characteristics**:
 
-* **data** is a mandatory property name in the JSON, the content of "data" is a JSON array.
 * **Array elements** must contain first-level properties (deeper levels are not supported).
-  **Property names** would end up becoming column names for the output schema of the output temporary table.
+  **Property names** will end up becoming column names for the output schema of the output temporary table.
+* **JSON elements** to be captured must be at 10 or less levels of nesting within the JSON response.  
 * **Column name** definition is based on the first element of the "data" array.
   Columns definition (add/remove) and the type value of the property can be edited in the **Column definition** tab.
 
-If the **parsing is validated** a message appears and invite you to customize the data mapping in the "Column definition" tab. In other cases, an error message is displayed.
+**Flatten checkbox** behavior:
+
+The Flatten checkbox (default: unchecked) is provided to indicate whether to flatten the JSON to a key/value map or not.
+
+* When the **checkbox is disabled** (unchecked), the sample JSON will be parsed to look for an array object. The user will need to provide a trimmed version of the API response sample JSON format so that Adobe Campaign can determine exactly which array the user is interested in using. At workflow authoring time, the path to the nested array object will be determined and recorded, so that it can be used at execution time to access that array object from the JSON response body received from the API call.
+
+* When the **checkbox is enabled** (checked), the sample JSON will be flattened and all the properties that are specified in the provided sample JSON will be used to create columns of the output temporary table, and displayed on the Column Definitions tab. Note that if there are any array object in the sample JSON, then all elements of those array objects will also be flattened.
+
+
+If the **parsing is validated**, a message appears and invites you to customize the data mapping in the "Column definition" tab. In other cases, an error message is displayed.
 
 ### Execution
 
