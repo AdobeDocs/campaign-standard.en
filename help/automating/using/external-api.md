@@ -39,7 +39,7 @@ As a consequence, if you were using beta External API activities, you need to re
 
 When replacing External API activities, add the new External API activity to the workflow, manually copy over the configuration details, then delete the old activity.  
 
->>[!NOTE]
+>[!NOTE]
 >
 >You will not be able to copy over header values as those are masked within the activity.
 
