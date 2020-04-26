@@ -21,13 +21,6 @@ The **[!UICONTROL External API]** activity brings data into the workflow from an
 
 The external system endpoints can be public API endpoints, customer management systems, or serverless application instances (e.g., [Adobe I/O Runtime](https://www.adobe.io/apis/experienceplatform/runtime.html)), to mention a few categories.
 
->[!IMPORTANT]
->
->The customer will need to replace all beta External API activities with GA External API activities in their workflows.  Workflows that use the beta version of External API will stop working in ACS 20.3.
->When replacing External API activities, add the new External API activity to the workflow, manually copy over the configuration details, then delete the old activity.  Note: You will not be able to copy over header values as those are masked within the activity.
->Next, reconfigure other activities in the workflow which point to and/or use data from the beta External API activity to point to and/or use data from the new External API activity instead. Examples of activities: email delivery (personalization fields), enrichment activity, etc.
-
-
 >[!NOTE]
 >
 >For security reasons, the use of JSSPs is not supported in Campaign Standard. If you need to execute code, you can call an Adobe I/O Runtime instance via the External API activity.
@@ -37,6 +30,22 @@ The main characteristics of this activity are:
 * Ability to pass data in a JSON format to a 3rd party REST API endpoint
 * Ability to receive a JSON response back, map it to output tables and pass downstream to other workflow activities.
 * Failure management with an outbound specific transition
+
+### Transitionning from beta to GA {#from-beta-to-ga}
+
+With Campaign Standard 20.3 release, External API capability has moved trom Beta to General Availability (GA).
+
+As a consequence, if you were using beta External API activities, you need to replace them with GA External API activities in all workflows.  Workflows that use the beta version of External API will stop working starting 20.3 release.
+
+When replacing External API activities, add the new External API activity to the workflow, manually copy over the configuration details, then delete the old activity.  
+
+>>[!NOTE]
+>
+>You will not be able to copy over header values as those are masked within the activity.
+
+Next, reconfigure other activities in the workflow which point to and/or use data from the beta External API activity to point to and/or use data from the new External API activity instead. Examples of activities: email delivery (personalization fields), enrichment activity, etc.
+
+###  Limitations and guardrails {#guardrails}
 
 The following guardrails have been put in place for this activity:
 
@@ -48,10 +57,10 @@ The following guardrails have been put in place for this activity:
 
 >[!CAUTION]
 >
->Please note that the activity is meant for fetching of campaign wide data (latest set of offers, latest scores etc.) not for retrieving specific information for each profile as that can result in large amounts of data being transferred. If the use case requires this, the recommendation is to use the [Transfer File](../../automating/using/transfer-file.md) activity.
+>Please note that the activity is meant for fetching campaign-wide data (latest set of offers, latest scores, etc.), not for retrieving specific information for each profile as that can result in large amounts of data being transferred. If the use case requires this, the recommendation is to use the [Transfer File](../../automating/using/transfer-file.md) activity.
 
 
-Specific Guardrails have been put in place for the JSON: 
+Specific guardrails have been put in place for the JSON: 
 
 * **JSON Max Depth**: limit the maximum depth of a custom nested JSON that can be processed to 10 levels.
 * **JSON Max Key Length**: limit the maximum length of the internal key generated to 255. This key is associated with the column ID. 
