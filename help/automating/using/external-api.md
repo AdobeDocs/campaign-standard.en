@@ -45,7 +45,7 @@ When replacing External API activities, add the new External API activity to the
 
 Next, reconfigure other activities in the workflow which point to and/or use data from the beta External API activity to point to and/or use data from the new External API activity instead. Examples of activities: email delivery (personalization fields), enrichment activity, etc.
 
-###  Limitations and guardrails {#guardrails}
+### Limitations and guardrails {#guardrails}
 
 The following guardrails have been put in place for this activity:
 
