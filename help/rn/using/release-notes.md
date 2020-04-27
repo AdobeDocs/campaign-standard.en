@@ -69,7 +69,7 @@ snippet: y
 * The maximum number of real-time events that can be published on an instance has been increased from 350 to 2000. (CAMP-41608)
 * The synchronization between Adobe Launch and Campaign Standard has been improved by using the syncWithLaunch technical workflow. This workflow enables automatic importing of all Adobe Launch mobile properties into Adobe Campaign Standard. For more information, refer to [this page](../../administration/using/technical-workflows.md).
   
-  You will need to submit a ticket to Adobe Customer Care (either directly or through your Adobe contact) to have the syncWithLaunch technical workflow feature flag enabled in your Campaign instance. (CAMP-40082)
+  You will need to submit a ticket to Adobe Customer Care (either directly or through your Adobe contact) to have the syncWithLaunch technical workflow enabled in your Campaign instance. (CAMP-40082)
 
 **Email Designer enhancements**
 
