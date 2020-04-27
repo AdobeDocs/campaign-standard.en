@@ -136,7 +136,7 @@ Following frequency is recommended for various use cases:
 >
 >By default, SEND marketing events are filtered out of the egress job.  If you wish to see SEND marketing events in Dynamics 365, you need to modify the filter (step 5) of the egress job in Unifi.
 
-There are two separate roles in Unifi, an owner user and a read-only analyst user. An owner user has the ability to modify jobs and schedules, while the read-only analyst does not.  There can be only one owner user for a given customer instance.  If the customer needs to change the individual assigned as the owner user, they can send an email to [adobe-support@unifisoftware.com](mailto: adobe-support@unifisoftware.com) with the requested change.
+There are two separate roles in Unifi, an owner user and a read-only analyst user. An owner user has the ability to modify jobs and schedules, while the read-only analyst does not.  There can be only one owner user for a given customer instance.  If the customer needs to change the individual assigned as the owner user, they can send an email to [adobe-support@unifisoftware.com](mailto:adobe-support@unifisoftware.com) with the requested change.
 
 Unifi configuration, job details, setup and monitoring are presented in the videos below.
 

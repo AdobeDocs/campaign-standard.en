@@ -40,7 +40,7 @@ To create a new typology, follow these steps:
 
 1. The list of typologies displays. Click the **[!UICONTROL Create]** button.
 
-   ![](assets/typologies-list.png)
+   ![](assets/typologies-create.png)
 
 1. Define the typology **[!UICONTROL Label]**, then click the **[!UICONTROL Add an element]** button to select the typology rules that you want to include in it. For more on typology rules, refer to [this section](../../sending/using/managing-typology-rules.md).
 

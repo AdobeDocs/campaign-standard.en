@@ -33,5 +33,5 @@ An integration between Adobe Analytics' core service **Triggers** and Adobe Camp
 
 * [Campaign dimensions and metrics in Analytics](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
 * [Reporting](../../reporting/using/about-dynamic-reports.md)
-* [Adobe Analytics](https://marketing.adobe.com/resources/help/en_US/reference/adobe-campaign.html) documentation
+* [Adobe Analytics documentation](https://marketing.adobe.com/resources/help/en_US/reference/adobe-campaign.html)
 

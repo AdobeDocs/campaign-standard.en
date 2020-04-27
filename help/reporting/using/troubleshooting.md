@@ -98,106 +98,6 @@ Such occurrences are added as **"an email click implies an email open"**.
 >
 >Since unique counts are based on an HLL-based sketch, minor inconsistencies between the counts can be experienced.
 
-## How are counts for recurring/transactional deliveries calculated?
-
-When working with recurring and transactional deliveries, the counts will be attributed to both the parent and child deliveries.
-
-We can take the example of a recurring delivery named **R1** set to run every day on day 1 (RC1), day 2 (RC2) and day 3 (RC3).
-
-Let's assume that only a single person opened all the child deliveries multiple times. In this case, the individual recurring child deliveries will show the **[!UICONTROL Open]** count as 1 for each.
-
-However, since the same person clicked on all the deliveries, the parent recurring delivery will also have **[!UICONTROL Unique open]** as 1.
-
-After the Adobe Campaign Standard 19.2.1 release, the definition of **Unique counts** is changed from **Number of unique persons interacting with the delivery** to **Number of unique messages interacted**.
-
-Before the Adobe Campaign Standard 19.2.1 release, reports looked like the following:
-
-<table> 
- <thead> 
-  <tr> 
-   <th align="center"> <strong>Delivery</strong> <br /> </th> 
-   <th align="center"> <strong>Sent</strong> <br /> </th> 
-   <th align="center"> <strong>Delivered</strong> <br /> </th>
-   <th align="center"> <strong>Opens</strong> <br /> </th> 
-   <th align="center"> <strong>Unique opens</strong> <br /> </th>
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td align="center"> <strong>R1<br/> </td> 
-   <td align="center"> <strong>100<br/> </td> 
-   <td align="center"> <strong>90<br/> </td> 
-   <td align="center"> <strong>10<br/> </td> 
-   <td align="center"> <strong>1<br/> </td> 
-  </tr> 
-  <tr> 
-   <td align="center"> RC1<br/> </td> 
-   <td align="center"> 20<br /> </td> 
-   <td align="center"> 20<br /> </td> 
-   <td align="center"> 6<br /> </td> 
-   <td align="center"> 1<br /> </td> 
-  </tr>
-    <tr> 
-   <td align="center"> RC2<br /> </td> 
-   <td align="center"> 40<br /> </td> 
-   <td align="center"> 30<br /> </td> 
-   <td align="center"> 2<br /> </td> 
-   <td align="center"> 1<br /> </td> 
-  </tr> 
-    <tr> 
-   <td align="center"> RC3<br /> </td> 
-   <td align="center"> 40<br /> </td> 
-   <td align="center"> 40<br /> </td> 
-   <td align="center"> 2<br /> </td> 
-   <td align="center"> 1<br /> </td> 
-  </tr>
- </tbody> 
-</table>
-
-After the Adobe Campaign Standard 19.2.1 release, reports look like the following:
-
-<table> 
- <thead> 
-  <tr> 
-   <th align="center"> <strong>Delivery</strong> <br /> </th> 
-   <th align="center"> <strong>Sent</strong> <br /> </th> 
-   <th align="center"> <strong>Delivered</strong> <br /> </th>
-   <th align="center"> <strong>Opens</strong> <br /> </th> 
-   <th align="center"> <strong>Unique opens</strong> <br /> </th>
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td align="center"> <strong>R1<br/> </td> 
-   <td align="center"> <strong>100<br/> </td> 
-   <td align="center"> <strong>90<br/> </td> 
-   <td align="center"> <strong>10<br/> </td> 
-   <td align="center"> <strong>3<br/> </td> 
-  </tr> 
-  <tr> 
-   <td align="center"> RC1<br/> </td> 
-   <td align="center"> 20<br /> </td> 
-   <td align="center"> 20<br /> </td> 
-   <td align="center"> 6<br /> </td> 
-   <td align="center"> 1<br /> </td> 
-  </tr>
-    <tr> 
-   <td align="center"> RC2<br /> </td> 
-   <td align="center"> 40<br /> </td> 
-   <td align="center"> 30<br /> </td> 
-   <td align="center"> 2<br /> </td> 
-   <td align="center"> 1<br /> </td> 
-  </tr> 
-    <tr> 
-   <td align="center"> RC3<br /> </td> 
-   <td align="center"> 40<br /> </td> 
-   <td align="center"> 40<br /> </td> 
-   <td align="center"> 2<br /> </td> 
-   <td align="center"> 1<br /> </td> 
-  </tr> 
- </tbody> 
-</table>
-
 ## What is the colors' signification in my reports' table? {#reports-color-signification}
 
 Colors displayed on your reports are randomized and cannot be personalized. They represent a progress bar and are displayed to help you better highlight the maximal value reached in your reports.
@@ -208,7 +108,7 @@ In the example below, the cell is of the same color since its value is 100%.
 
 If you change the **[!UICONTROL Conditional formatting]** to custom, when the value reaches the upper limit the cell will get greener. Whereas, if it reaches the lower limit, it will get redder.
 
-For example, here, we set the **[!UICONTROL Upper limit]** to 500 and **[!UICONTROL Lower limit**] to 0.
+For example, here, we set the **[!UICONTROL Upper limit]** to 500 and **[!UICONTROL Lower limit]** to 0.
 
 ![](assets/troubleshooting_2.png)
 

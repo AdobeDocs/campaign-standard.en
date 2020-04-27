@@ -40,7 +40,7 @@ In the specific context of an A/B test:
 
    >[!NOTE]
    >
-   >Follow-up and A/B test templates are hidden by default. Check the A/B test box on the left side ( **[!UICONTROL Filter]** lateral panel) to display them.
+   >Follow-up and A/B test templates are hidden by default. Check the A/B test box on the left side (**[!UICONTROL Filter]** lateral panel) to display them.
 
 1. Define the general properties and the target audience of the email, just as for a standard email. Refer to the [Creating audiences](../../audiences/using/creating-audiences.md) section.
 1. At the fourth step in the creation wizard, define the A/B test parameters:
@@ -69,7 +69,7 @@ In the specific context of an A/B test:
 1. Before sending the A/B test, check your email by sending proofs.
 1. Once preparation has finished, confirm sending the test. Once confirmed, the A/B test parameters cannot be modified.
 
-   The A/B test starts on the date defined in the **[!UICONTROL Schedule]**.You can track its progress using the **[!UICONTROL A/B test]** and **[!UICONTROL Deployment]** blocks.
+   The A/B test starts on the date defined in the **[!UICONTROL Schedule]**. You can track its progress using the **[!UICONTROL A/B test]** and **[!UICONTROL Deployment]** blocks.
 
    You can manually select the winning variant at any time if you would like to cut the test duration short.
 

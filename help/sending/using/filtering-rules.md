@@ -57,7 +57,7 @@ To create a filtering typology rule, follow these steps:
 
 1. Select the **[!UICONTROL Filtering]** rule type, then specify the desired channel.
 
-1. In the **[!UICONTROsL Filtering criteria]** tab, select the subscriptions in the **[!UICONTROL Subscription]** category.
+1. In the **[!UICONTROL Filtering criteria]** tab, select the subscriptions in the **[!UICONTROL Subscription]** category.
 
    ![](assets/typology_create-rule-subscription.png)
 

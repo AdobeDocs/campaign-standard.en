@@ -12,13 +12,13 @@ topic: Premium
 ## What's New
 
 * **[Email testing using targeted profiles](sending/using/testing-messages-using-target.md)**<br/>
-Learn how to test your emails on real targeted profiles.
+Learn how to test your emails on real targeted profiles
 
 * **[Privacy management](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>
-Learn about the tools provided by Adobe Campaign to help you with your Privacy compliance.
+Learn about the tools provided by Adobe Campaign to help you with your Privacy compliance
 
 * **[Campaign Standard Mobile guide](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>
-Learn more about general guidelines for mobile deliveries.
+Learn more about general guidelines for mobile deliveries
 
 [Click here for more updates](rn/using/documentation-updates.md)
 
@@ -33,7 +33,7 @@ Learn more about general guidelines for mobile deliveries.
     <div>
     <a href="administration/using/about-access-management.md"><strong>Roles and security groups</strong></a>
     </div>
-    <em>Learn how to define permissions and assign roles to Campaign users.</em>
+    <em>Learn how to define permissions and assign roles to Campaign users</em>
     <br>
   </td>
   <td valign="top">
@@ -51,7 +51,7 @@ Learn more about general guidelines for mobile deliveries.
     <div><a href="https://helpx.adobe.com/campaign/kb/ac-support.html">
     <strong>Get Support</strong></a>
     </div>
-    <p><em>Access FAQs, best practices, help resources, and connect with Campaign experts.</em></p>
+    <p><em>Access FAQs, best practices, help resources, and connect with the experts</em></p>
     <br>
   </td>
 </tr>

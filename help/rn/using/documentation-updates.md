@@ -16,15 +16,25 @@ snippet: y
 
 # Documentation Updates{#documentation-updates}
 
-Learn about all the latest updates for Adobe Campaign Standard documentation.
+In  addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), this page lists all the new updates in Adobe Campaign Standard documentation.
 
-This page lists all the new features and documentation updates for each release of Adobe Campaign Standard.
+## Release 20.3 - May 2020 {#release-20-3---may-2020}
 
-You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-notes.md).
+**New capabilities included in the release**
+
+Thailand's Personal Data Protection Act (PDPA) - [Read More](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html)
+
+External API Activity (GA) - [Read more](../../automating/using/external-api.md)
+
+**Other documentation updates coming with the release**
+
+* Information has been added on the **[!UICONTROL History in days]** field in workflows' properties that now includes files downloaded by the **[!UICONTROL Transfer file]** activity. [Read more](../../automating/using/executing-a-workflow.md)
+
+* Information has been added in the profile substitution section regarding the 500 characters limit of the subject line prefix. [Read more](../../sending/using/testing-messages-using-target.md)
 
 ## Documentation updates - April 2020 {#doc-updates-april-2020}
 
-The Microsoft Dynamics 365 integration with Adobe Campaign Standard documentation has been integrated into the core documentation in the Integrating with other solutions guide. [Read more](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+The Microsoft Dynamics 365 integration with Adobe Campaign Standard documentation is now available into the core documentation. [Read more](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 Additional resources have been added to the documentation home page. [Read more](../../campaign-standard-home.md)
 
@@ -32,7 +42,7 @@ Information on the Experience Cloud ID Service (ECID) has been added to the Adob
 
 The Configuring transactional messaging section has been improved with information on how to access the latest transactional events and updated screenshots. [Read more](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
 
-The section related to typologies and typology rules has been improved and updated with additional information on out-of-the-box typology rules. [Read more](../../sending/using/about-typology-rules.md)
+Typologies and typology rules documentation has been improved and updated with additional information on built-in typology rules. [Read more](../../sending/using/about-typology-rules.md)
 
 Information has been added on the **[!UICONTROL Transfer file]** activity's **[!UICONTROL File listing]** action. [Read more](../../automating/using/transfer-file.md)
 
@@ -45,6 +55,8 @@ The section **Previewing deliveries** has been updated with mobile deliveries ex
 Best practice has been added regarding transactional messaging and the deletion of unused real-time events. [Read more](../../administration/using/configuring-transactional-messaging.md#creating-an-event)
 
 The Configuring email channel section has been updated with clarification on all the email settings that are now managed by the Adobe Campaign Enhanced MTA. [Read more](../../administration/using/configuring-email-channel.md)
+
+The Configuring transactional messaging section has been updated with further information on the rights needed to edit event configurations and on how to enrich collections in transactional messages. [Read more](../../administration/using/configuring-transactional-messaging.md).
 
 ## Release 20.2 - April 2020 {#release-20-2---april-2020}
 
@@ -86,7 +98,7 @@ The Campaign Email Designer documentation and related pages have been updated to
 
 A new section dedicated to Campaign Standard data model best practices is now available. [Read more](../../developing/using/data-model-best-practices.md)
 
-Information has been added on the **[!UICONTROL Workflow]** out-of-the-box right. [Read more](../../administration/using/list-of-roles.md)
+Information has been added on the **[!UICONTROL Workflow]** built-in right. [Read more](../../administration/using/list-of-roles.md)
 
 Information has been added on the **[!UICONTROL History in days field]** available in workflows' properties. [Read more](../../automating/using/executing-a-workflow.md)
 
@@ -450,7 +462,7 @@ Updated Push notification guide with interface changes. [Read more](../../channe
 
 Added information on how to delete an audience. [Read more](../../audiences/using/creating-audiences.md#deleting-audiences)
 
-Updated Push notification out-of-the-box report section. [Read more](../../reporting/using/push-notification-report.md)
+Updated Push notification built-in report section. [Read more](../../reporting/using/push-notification-report.md)
 
 ## Release 18.7 - July 2018 {#release-18-7---july-2018}
 
@@ -574,7 +586,7 @@ Enrichment activity - enrich data based on previous transitions - [Read more](..
 
 Most URLs for Campaign and Adobe solutions integrations have changed! Check your bookmarks! [Read more](../../integrating/using/about-campaign-integrations.md)
 
-The datamodel v1 is now available with the SQL structure for out-of-the box resources - [Read more](https://docs.campaign.adobe.com/doc/standard/en/datamodel/datamodel.html)
+The datamodel v1 is now available with the SQL structure for built-in resources - [Read more](https://docs.campaign.adobe.com/doc/standard/en/datamodel/datamodel.html)
 
 Added information on how to prepare a message in a delivery [Read more](../../sending/using/preparing-the-send.md)
 
@@ -650,7 +662,7 @@ New technote about how to create or update profile data when a mobile app sends 
 
 Section added about new export tracking capabilities. [Read more](../../administration/using/auditing-export-logs.md)
 
-Added precisions about out-of-the-box package export. [Read more](../../automating/using/managing-packages.md)
+Added precisions about built-in package export. [Read more](../../automating/using/managing-packages.md)
 
 Updated external account definition and samples. [Read more](../../administration/using/external-accounts.md)
 
