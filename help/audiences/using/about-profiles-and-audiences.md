@@ -16,11 +16,6 @@ snippet: y
 
 # Get started with profiles and audiences{#about-profiles-and-audiences}
 
-Campaign integrated customer profiles allows you to track every interaction with customers across all channels within one single view, allowing you to deliver relevant and personalized messages to your customers.
-Segment your database into audiences to optimize the target of your marketing campaigns.
-
-Manage customers permission and consent using services and landing pages to set up easy opt-in and opt-out mechanisms.
-
 <table>
 <tr>
 <td><img src="assets/do-not-localize/icon_segment.svg" width="60px"><p><a href="#segmenting-targeting">Segmenting and targeting</a></p></td>
@@ -28,7 +23,10 @@ Manage customers permission and consent using services and landing pages to set 
 <td><img src="assets/do-not-localize/icon_privacy.svg" width="60px"><p><a href="#privacy">Privacy compliance</a></p></td></tr>
 </table>
 
-![](assets/do-not-localize/audiences.png)
+Campaign integrated customer profiles allows you to track every interaction with customers across all channels within one single view, allowing you to deliver relevant and personalized messages to your customers.
+Segment your database into audiences to optimize the target of your marketing campaigns.
+
+Manage customers permission and consent using services and landing pages to set up easy opt-in and opt-out mechanisms.
 
 ## Segmenting and targeting {#segmenting-targeting}
 

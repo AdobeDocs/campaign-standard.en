@@ -1,5 +1,5 @@
 ---
-title: Get started with data model and custom resources
+title: Get started with data model and APIs
 description: Adobe Campaign offers a comprehensive graphical environment that allows you to design and automate processes.
 page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
@@ -14,17 +14,15 @@ internal: n
 snippet: y
 ---
 
-# Get started with data model and custom resources {#get-started-data-model}
-
-Extend Campaign Standard data model with your own fields and resources, and monitor all data model changes into one single view
+# Get started with data model and APIs {#get-started-data-model}
 
 <table>
 <tr>
 <td><img src="assets/do-not-localize/icon_datamodel.svg" width="60px"><p><a href="#data-model">Data model</a></p></td>
-<td><img src="assets/do-not-localize/icon_custom.svg" width="60px"><p><a href="#custom-resources">Custom resources</a></p></td></tr>
+<td><img src="assets/do-not-localize/icon_custom.svg" width="60px"><p><a href="#custom-resources">Custom resources</a></p></td><td><img src="assets/do-not-localize/icon_api.svg" width="60px"><p><a href="#custom-resources">Work with APIs</a></p></td></tr>
 </table>
 
-<img src="assets/get-started.png">
+Extend Campaign Standard data model with your own fields and resources, and monitor all data model changes into one single view
 
 ## Data model {#data-model}
 
@@ -55,6 +53,12 @@ Read more:
 * [Extending the API](../../developing/using/about-extending-the-api.md)
 * [Use case: Extending the profile resource with a new field](../../developing/using/extending-the-profile-resource-with-a-new-field.md)
 * [Use case: Extending the subscriptions to an application resource](../../developing/using/extending-the-subscriptions-to-an-application-resource.md)
+
+## Work with APIs {#apis}
+
+<img src="assets/do-not-localize/icon_api.svg" width="60px">
+
+With Campaign Standard APIs, create integrations for Adobe Campaign Standard and build your own ecosystem by interfacing Campaign with the panel of technologies that you use. [Get started with Campaign Standard REST APIs](../../api/using/about-campaign-standard-apis.md)
 
 ## Additional resources
 

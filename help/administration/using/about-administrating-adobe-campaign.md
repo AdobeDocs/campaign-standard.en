@@ -16,12 +16,6 @@ snippet: y
 
 # Get started with Campaign Standard administration {#about-administrating-adobe-campaign}
 
-As a cloud-based solution, Adobe Campaign offers administrators different ways to configure the application. Though the infrastructure configuration is performed by Adobe, functional administrators can perform various configuration operations detailed below.
-
->[!NOTE]
->
->If you have questions or requests about implementation and configuration matters, contact your Adobe account executive.
-
 <table>
 <tr><td><img src="assets/do-not-localize/icon_menu.svg" width="60px"><p><a href="#administration-menu">Administration menu</a></p></td>
 <td><img src="assets/do-not-localize/icon_users.svg" width="60px"><p><a href="#users-security">Users and security</a></p></td>
@@ -29,7 +23,11 @@ As a cloud-based solution, Adobe Campaign offers administrators different ways t
 <td><img src="assets/do-not-localize/icon_settings.svg" width="60px"><p><a href="#application-settings">Application settings</a></p></td></tr>
 </table>
 
-![](assets/admin_overview2.png)
+As a cloud-based solution, Adobe Campaign offers administrators different ways to configure the application. Though the infrastructure configuration is performed by Adobe, functional administrators can perform various configuration operations detailed below.
+
+>[!NOTE]
+>
+>If you have questions or requests about implementation and configuration matters, contact your Adobe account executive.
 
 ## Administration menu {#administration-menu}
 
