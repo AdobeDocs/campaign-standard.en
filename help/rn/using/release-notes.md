@@ -67,6 +67,9 @@ snippet: y
 
 * The number of characters that can be used in the **Prefix** field to [test messages using targeted profiles](../../sending/using/testing-messages-using-target.md) has been increased from 32 to 500 characters. 
 * The maximum number of real-time events that can be published on an instance has been increased from 350 to 2000. (CAMP-41608)
+* The synchronization between Adobe Launch and Campaign Standard has been improved by using the syncWithLaunch technical workflow. This workflow enables automatic importing of all Adobe Launch mobile properties into Adobe Campaign Standard. For more information, refer to [this page](../../administration/using/technical-workflows.md).
+  
+  You will need to submit a ticket to Adobe Customer Care (either directly or through your Adobe contact) to have the syncWithLaunch technical workflow enabled in your Campaign instance. (CAMP-40082)
 
 **Email Designer enhancements**
 
