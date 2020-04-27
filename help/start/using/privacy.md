@@ -18,19 +18,19 @@ snippet: y
 
 ## Recommendations {#privacy-recommendations}
 
-Adobe Campaign is a powerful tool for collecting and processing extremely large amounts of data, including personal information.
+Adobe Campaign is a powerful tool for collecting and processing extremely large amounts of data, including personal information. This is why privacy needs to be managed carefully.
 
-Privacy needs to be managed carefully, therefore we encourage all users of Adobe Campaign to:
-* Work within legislation (DPA, CAN-SPAM, European Directive on Privacy and Electronic Communications, European GDPR, CCPA, PDPA, etc.)
+Therefore, we encourage all users of Adobe Campaign to:
+* Work within legislation: [GDPR](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en) (European General Data Protection Regulation), [DPA](https://www.gov.uk/data-protection) (UK’s implementation of GDPR), [CAN-SPAM Act](https://www.ftc.gov/tips-advice/business-center/guidance/can-spam-act-compliance-guide-business) (setting the rules for commercial email in United States), [European Directive on privacy and electronic communications](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02002L0058-20091219), [CCPA](http://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=1.81.5.&part=4.&chapter=&article=) (California Consumer Privacy Act), [PDPA](https://secureprivacy.ai/thailand-pdpa-summary-what-businesses-need-to-know/) (Thailand Personal Data Protection Act), etc.
 * Make responsible and ethical use of personal information.
 * Refrain from sending unsolicited email, push notifications and SMS messages ("spam"). We strongly believe in the principles of permission marketing in fostering customer lifetime value and loyalty, and we therefore strictly forbid the use of Adobe Campaign in sending unsolicited messages.
 * Always have recipients agree to receive communications. To do this, keep honoring opt-out requests as quickly as possible and verify consent through a double opt-in process. For more on this, see [Managing opt-in and opt-out in Campaign](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md) and [Setting up a double opt-in process](../../channels/using/setting-up-a-double-opt-in-process.md).
 * Do not import fraudulent lists and use traps to check that your client file is not being used fraudulently. For more on this, see [Using traps](../../sending/using/using-traps.md).
-* When integrating Campaign with other Experience Cloud solutions such as the [Audience Destinations service](../../audiences/using/aep-about-audience-destinations-service.md), [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), [Audience Manager or People core service](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md), or other solutions such as [Microsoft Dynamics 365](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md), where audiences can be transferred from one system to another, you need to pay extra care to your data when it comes to privacy.
+* When integrating Campaign with other Experience Cloud solutions where audiences can be transferred from one system to another, such as the [Audience Destinations service](../../audiences/using/aep-about-audience-destinations-service.md), [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), [Audience Manager or People core service](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md), or with other solutions such as [Microsoft Dynamics 365](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md), you need to pay extra care to your data when it comes to privacy.
 
 ## Adobe Experience Cloud privacy {#experience-cloud-privacy}
 
-Adobe Campaign is part of the Adobe Experience Cloud solutions. Therefore, the way privacy is handled in Campaign obeys the Adobe Experience Cloud general principles, such as the following:
+Adobe Campaign is part of the Adobe Experience Cloud solutions. The way privacy is handled in Campaign obeys the Adobe Experience Cloud general principles, such as the following:
 
 * **What information is collected when using Adobe Experience Cloud?**
 
@@ -38,7 +38,7 @@ Adobe Campaign is part of the Adobe Experience Cloud solutions. Therefore, the w
 
 * **How is Adobe Experience Cloud used to collect information?**
 
-    * Adobe Experience Cloud solutions use cookies and similar technologies, such as web beacons (also known as tags or pixels), to enable you to collect information. For more on cookies and tracking capabilities with Adobe Campaign see this [section](#cookies-and-tracking-capabilities).
+    * Adobe Experience Cloud solutions use cookies and similar technologies, such as web beacons (also known as tags or pixels), to enable you to collect information. For more on cookies and tracking capabilities with Adobe Campaign, see this [section](#cookies-and-tracking-capabilities).
     * You may also use Adobe Experience Cloud technologies within your mobile apps.
 
 * **What are the users' privacy choices about your use of Adobe's Experience Cloud solutions?**
@@ -53,13 +53,24 @@ For further details, refer to the [Adobe Experience Cloud privacy](https://www.a
 
 ## Privacy management in Adobe Campaign {#privacy-management}
 
-This [article](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html) presents general information on what Privacy Management is and the features provided by Adobe Campaign to manage:
-* Consent management, data retention and user roles
-* Right to Access, Right to Delete, Right to be Forgotten
+When it comes to Privacy, it is important to understand a few key terms.
+* **Personal Data** is information that can directly or indirectly identify a living individual.
+* **Sensitive Personal Data** is information related to a Data Subject’s race, political views, religious beliefs, criminal background, genetic information, health data, sexual preference, biometric information, as well as trade union membership.
+
+It is also essential to understand who the stakeholders are regarding Privacy. The main legislation refer to the different entities that manage data as follows:
+* A **Data Controller** is the authority that determines the means and purpose of collecting, using, and sharing personal data.
+* A **Data Processor** is any individual or party that collects, uses, or shares personal data as directed by the Data Controller.
+* A **Data Subject** is any living individual whose personal data is collected, used or shared.
+
+Therefore, as a company collecting and sharing personal data, you are the Data Controller, your clients are the Data Subjects and Adobe Campaign acts as a Data Processor when handling their personal data as directed by you.
+
+[This article](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html) presents general information on what Privacy Management is. It also provides an overview of the features provided by Adobe Campaign to manage:
+* Consent management, data Retention and user Roles
+* Right to Access and Right to be Forgotten
 
 You will also find best best practices to help you with your Privacy compliance when using Adobe Campaign.
 
-### Consent, Retention and roles {#consent}
+### Consent, Retention and Roles {#consent}
 
 Adobe Campaign offers important features that are essential to Privacy:
 
