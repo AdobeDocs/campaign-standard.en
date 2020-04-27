@@ -98,7 +98,7 @@ Technical workflows are used to handle self-triggered background and technical p
    <tr> 
    <td> <span class="uicontrol">Sync with Launch</span> <br /> </td> 
    <td> <span class="uicontrol">SyncWithLaunch</span> <br /> </td> 
-   <td> This workflow synchronizes the Adobe Launch mobile properties imported in Adobe Campaign Standard. it is started 15 minutes.<br /> </td> 
+   <td> This workflow synchronizes the Adobe Launch mobile properties imported in Adobe Campaign Standard. It is started 15 minutes.<br /> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">Update delivery execution</span> <br /> </td> 
