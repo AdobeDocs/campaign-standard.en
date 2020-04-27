@@ -18,6 +18,6 @@ snippet: y
 
 This section regroups the various configuration guidelines for Adobe Campaign Standard.
 
-Find out which browsers are compatible with Campaign Standard as well as the different supported operating systems for tablets.
+Find out which browsers are compatible with Campaign Standard as well as the different supported operating systems for tablets. For more on this, see [this section](../../administration/using/compatible-browsers.md).
 
-Also learn about the different endpoints used in Campaign Standard. 
+Also learn about the different endpoints used in Campaign Standard. For more on this, see [this section](../../administration/using/campaign-standard-network-endpoints.md).

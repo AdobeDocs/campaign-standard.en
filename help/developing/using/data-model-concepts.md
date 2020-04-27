@@ -26,14 +26,14 @@ The **[!UICONTROL Administration]** > **[!UICONTROL Development]** menu, accesse
 
 The data used by Adobe Campaign is defined through different resources. You can **enrich the data template** that is provided by creating your own custom resources, such as purchase or product tables.
 
-Out-of-the-box resources (such as campaigns, emails, or audiences) cannot be modified. However, custom resources can be extended to add new fields.
+Built-in resources (such as campaigns, emails, or audiences) cannot be modified. However, custom resources can be extended to add new fields.
 
-Extension fields are generated with a prefix so that they never conflict with the out-of-the-box fields.
+Extension fields are generated with a prefix so that they never conflict with the built-in fields.
 
 >[!NOTE]
 >
->You can find a datamodel representation for the out-of-the-box resources [here](../../developing/using/datamodel-introduction.md).
+>You can find a datamodel representation for the buil-in resources in [this page](../../developing/using/datamodel-introduction.md).
 
-You can also **configure the navigation** in the screens corresponding to the resource created.
+You can also [configure the navigation](configuring-the-screen-definition.md) in the screens corresponding to the resource created.
 
 It is possible to **export and import** custom resources, for example from a development to a production environment. For more on this, refer to this [step-by-step use case](../../automating/using/exporting-importing-custom-resources.md).

@@ -32,7 +32,7 @@ A more comprehensive overview of Campaign custom resources can be found [at this
 
 In order to set up the integration for custom entities, reach out to [adobe-support@unifisoftware.com](mailto:adobe-support@unifisoftware.com) to request this be done.  Unifi will require the names of the custom entity tables in both systems, as well as the desired attribute mappings.  Unifi will then create the corresponding jobs and schedules.
 
-An example use case of custom entity support can be seen in the [Use Case section](../../integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md#UC).
+An example use case of custom entity support can be seen below.
 
 >[!CAUTION]
 >
@@ -40,7 +40,6 @@ An example use case of custom entity support can be seen in the [Use Case sectio
 >* Creating and modifying Campaign Standard custom resources are sensitive operations which must be performed by expert users only.
 
 ## Use case
-
 
 ### Beginning state
 
@@ -175,5 +174,5 @@ After completion of the ingress job, the vehicle data can now be seen in the new
 
 **Related Topics**
 
-* Working with Adobe Campaign Standard - Microsoft Dynamics 365
-* Key steps to add a custom resource in Campaign
+* [Working with Adobe Campaign Standard - Microsoft Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+* [Key steps to add a custom resource in Campaign](../../developing/using/key-steps-to-add-a-resource.md)

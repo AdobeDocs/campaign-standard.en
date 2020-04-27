@@ -50,7 +50,7 @@ When you add the fields to include in the extraction file, the postal address fi
 
 Adobe Campaign offers you a set of predefined calculated fields that follow the most common postal address normalizations. The fields are available in the **[!UICONTROL Postal address]** node.
 
-An address can contain up to six lines by default: the first calculated field ( **[!UICONTROL Line 1]** contains the first name and last name, the next lines contain the postal address (road etc.), and the last line contains the ZIP/Postal code and town or city.
+An address can contain up to six lines by default: the first calculated field (**[!UICONTROL Line 1]** contains the first name and last name, the next lines contain the postal address (road etc.), and the last line contains the ZIP/Postal code and town or city.
 
 ![](assets/direct_mail_23.png)
 
