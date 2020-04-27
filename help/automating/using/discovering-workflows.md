@@ -57,6 +57,7 @@ Read more:
 * [Channel activities](../../automating/using/about-channel-activities.md)
 * [Data management activities](../../automating/using/about-data-management-activities.md)
 * [Workflows use cases](../../automating/using/workflow-created-query-with-complement.md)
+
 ## Filter data {#filter-data}
 
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">

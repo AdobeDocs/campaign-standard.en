@@ -176,7 +176,7 @@ A new chart presenting the transactional messaging publication process has been 
 
 The Delivery Best Practices getting started guide has been moved and updated. [Read more](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
-A new section has been added. It provides an overview of the different methods that allow you to enrich Campaign Standard database. [Read more](../../start/using/enriching-campaign-database.md)
+A new section has been added. It provides an overview of the different methods that allow you to enrich Campaign Standard database. [Read more](../../audiences/using/enriching-campaign-database.md)
 
 A new section has been added describing how to style links with the Email Designer. [Read more](../../designing/using/styles.md#about-styling-links)
 
@@ -330,7 +330,7 @@ The Creating an email section has been updated to reflect the latest interface c
 
 The [SMS connector protocol and settings](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html) Knowledge Base article has been updated with the new option added to the SMS external account to limit the number of MTA instances allowed to connect to the SMPP provider.
 
-The Get Started Guide has been enriched and reorganized. [Read more](../../start/using/campaign-orchestration.md)
+The Get Started Guide has been enriched and reorganized. [Read more](../../start/using/about-campaign-standard.md)
 
 The Deprecated and Removed features page has been updated. [Read more](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
@@ -358,7 +358,7 @@ A new section comparing the different email authoring options in Adobe Campaign 
 
 The Creating custom content blocks section has been enhanced with details on targeting dimensions. [Read more](../../designing/using/personalization.md#creating-custom-content-blocks)
 
-A warning indicating that the Email Designer does not support Internet Explorer 11 has been added. [Read more](../../administration/using/compatible-browsers.md)
+A warning indicating that the Email Designer does not support Internet Explorer 11 has been added. [Read more](../../administration/using/about-configuration-guidelines.md)
 
 Warnings on the impact of re-drafting have been added to the Deleting a resource section. [Read more](../../developing/using/deleting-a-resource.md)
 
@@ -420,7 +420,7 @@ Added information on the new field in the Update data activity that allows you t
 
 Updated the [Importing content from a URL](../../designing/using/using-existing-content.md#importing-content-from-a-url) documentation with information related to the Email designer.
 
-The Microsoft Edge (latest version) was added to the list of compatible browsers for computers. [Read more](../../administration/using/compatible-browsers.md)
+The Microsoft Edge (latest version) was added to the list of compatible browsers for computers. [Read more](../../administration/using/about-configuration-guidelines.md)
 
 Added information on the new option in the Extract file activity that prevents from generating a file if the inbound transition is empty. [Read more](../../automating/using/extract-file.md)
 

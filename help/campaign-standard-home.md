@@ -67,4 +67,4 @@ Learn more about general guidelines for mobile deliveries.
 | [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) |  [List of error messages](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [Release planning](rn/using/release-planning.md) | [Campaign data model](developing/using/datamodel-introduction.md) |
 | [Deprecated and removed features](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) | [Multi-solution guide](integrating/using/about-campaign-integrations.md) |
-| [Get started with Campaign Standard](start/using/campaign-orchestration.md) | [Technical notes](https://helpx.adobe.com/campaign/kb/acs-article-list.html) |
+| [Get started with Campaign Standard](start/using/about-campaign-standard.md) | [Technical notes](https://helpx.adobe.com/campaign/kb/acs-article-list.html) |
