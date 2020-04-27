@@ -1,5 +1,5 @@
 ---
-title: "Working with Campaign Standard and Microsoft Dynamics 365: Notices and recommendations"
+title: About Microsoft Dynamics 365 integration
 description: Learn notices and recommendations for how to Work with Campaign Standard and Microsoft Dynamics 365
 page-status-flag: never-activated
 uuid: ed6c1b76-87f7-4d23-b5e2-0765297a905c
@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Working with Campaign Standard and Microsoft Dynamics 365: Notices and recommendations
+# About Microsoft Dynamics 365 integration
 
 ## Region support
 
