@@ -73,7 +73,7 @@ snippet: y
 <tr> 
   <td> <p>The synchronization between Adobe Launch and Campaign Standard has been improved by using the syncWithLaunch technical workflow.</p>
 <p><strong>Note:</strong> You will need to submit a ticket to Adobe Customer Care (either directly or through your Adobe contact) to have the syncWithLaunch technical workflow feature flag enabled in your Campaign instance.</p>
-<p>For more information, refer to the <a href="../../automating/using/technical-workflows.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../../administration/using/technical-workflows.md">detailed documentation</a>.</p>
 </td> 
 </tr> 
 </tbody> 
