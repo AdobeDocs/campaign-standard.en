@@ -24,7 +24,6 @@ Here are the different endpoints used in Campaign Standard.
 | IMS | `https://adobeid-na1.services.adobe.com`<br>`https://*.adobelogin.com` |
 | Experience cloud | `https://experiencecloud.adobe.com` |
 | Tracking | `https://*.adobedtm.com`<br>`https://*.demdex.net`<br>`https://*.omtrdc.net`|
-| Creative SDK for image editor | `https://dme0ih8comzn4.cloudfront.net`<br>`https://d42hh4005hpu.cloudfront.net/`<br>`https://cdn-creativesdk.adobe.io/`<br>`https://api-ag.aviary.com/`<br>`https://feather-client-files-aviary-prod-us-east-1.s3.amazonaws.com/`|
 | Assets Integration | `https://*.marketing-assets.adobe.com`|
 | Internal Adobe services | `https://*.adobe.io`|
 | Surveys | `https://adobe.allegiancetech.com`|
