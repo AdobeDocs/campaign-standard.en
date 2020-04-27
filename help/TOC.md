@@ -235,7 +235,7 @@ user-guide-title: Adobe Campaign Standard Help
   + Campaign and Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
        + Working with Campaign Standard and Microsoft Dynamics 365 {#working-with-campaign-standard-and-ms-dynamics}
           + [Get Started with Microsoft Dynamics 365 integration](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
-          + [About Microsoft Dynamics 365](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
+          + [About Microsoft Dynamics 365 integration](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
           + [Request and configure the Microsoft Dynamics 365 integration](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
           + [Use the Microsoft Dynamics 365 integration](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
        + [Configure Adobe IO for Microsoft Dynamics 365 integration](integrating/using/configure-adobe-io-for-ms-dynamic.md)
