@@ -16,8 +16,6 @@ snippet: y
 
 # Get started with testing and sending {#about-sending-messages-with-campaign}
 
-Once you have defined the target and created the content of a message, you need to test and approve content, personalization, rendering and configuration, and make sure everything is correct before sending the message to the main target.
-
 <table>
 <tr>
 <td><img src="assets/do-not-localize/icon_prepare.svg" width="60px"><p><a href="#prepare-test-send">Prepare and test the send</a></p></td>
@@ -25,7 +23,7 @@ Once you have defined the target and created the content of a message, you need 
 <td><img src="assets/do-not-localize/icon_deliverability.svg" width="60px"><p><a href="#improve-deliverability">Improve your deliverability</a></p></td></tr>
 </table>
 
-<img src="assets/get-started.png">
+Once you have defined the target and created the content of a message, you need to test and approve content, personalization, rendering and configuration, and make sure everything is correct before sending the message to the main target.
 
 ## Prepare and test the send {#prepare-test-send}
 

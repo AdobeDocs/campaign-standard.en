@@ -1,5 +1,5 @@
 ---
-title: About configuration guidelines
+title: Configuration guidelines
 description: Learn about Campaign Standard configuration guidelines.
 page-status-flag: never-activated
 uuid: 64c34729-5c98-4db0-9131-af6dd0e78fb4
@@ -14,10 +14,40 @@ internal: n
 snippet: y
 ---
 
-# About configuration guidelines{#about-configuration-guidelines}
+# Configuration guidelines {#about-configuration-guidelines}
 
-This section regroups the various configuration guidelines for Adobe Campaign Standard.
+## Compatible browsers{#compatible-browsers}
 
-Find out which browsers are compatible with Campaign Standard as well as the different supported operating systems for tablets.
+Adobe Campaign Standard is compatible with most browsers for computers as well as the main operating systems for tablets.
 
-Also learn about the different endpoints used in Campaign Standard. 
+Adobe Campaign Standard only supports landscape as display mode on tablets.
+
+Here is the list of the browsers compatible with Adobe Campaign Standard:
+
+**Computer:**
+
+* Chrome (latest version)
+* Firefox (latest version)
+* Safari (latest version)
+* Microsoft Edge (latest version)
+
+**Tablet:**
+
+* iOS (version 7 and later)
+* Android (version 4.4 and later)
+
+## Campaign Standard network endpoints {#campaign-standard-network-endpoints}
+
+Here are the different endpoints used in Campaign Standard.
+
+| Context | URL |
+|--- |--- |
+| Campaign instances | `https://*.experiencecloud.adobe.com` (tenant ID * + client domain)<br>`https://*.campaign.adobe.com` (Campaign Instance tenant) |
+| IMS | `https://adobeid-na1.services.adobe.com`<br>`https://*.adobelogin.com` |
+| Experience cloud | `https://experiencecloud.adobe.com` |
+| Tracking | `https://*.adobedtm.com`<br>`https://*.demdex.net`<br>`https://*.omtrdc.net`|
+| Creative SDK for image editor | `https://dme0ih8comzn4.cloudfront.net`<br>`https://d42hh4005hpu.cloudfront.net/`<br>`https://cdn-creativesdk.adobe.io/`<br>`https://api-ag.aviary.com/`<br>`https://feather-client-files-aviary-prod-us-east-1.s3.amazonaws.com/`|
+| Assets Integration | `https://*.marketing-assets.adobe.com`|
+| Internal Adobe services | `https://*.adobe.io`|
+| Surveys | `https://adobe.allegiancetech.com`|
+| Default Branding URL (before client configuration) | `https://*.adobe-campaign.com`|

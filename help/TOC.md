@@ -346,12 +346,15 @@ user-guide-title: Adobe Campaign Standard Help
        + [Tracking Logs](developing/using/datamodel-tracking.md)
        + [Unsubscription Event](developing/using/datamodel-unsubscription.md)
        + [Visitor](developing/using/datamodel-visitor.md)
+  + Adobe Experience Platform Data Connector {#mapping-campaign-and-aep-data}
+       + [About Adobe Experience Platform Data Connector](developing/using/aep-about-data-connector.md)
+       + [Experience Platform Datamodel overview](developing/using/aep-data-model-overview.md)
+       + [Mapping definition](developing/using/aep-mapping-definition.md)
+       + [Mapping activation](developing/using/aep-mapping-activation.md)
+       + [Triggering data ingestion through APIs](developing/using/aep-triggering-data-ingestion.md)
 + Administrating {#administrating}
   + [Get started with Campaign Standard administration](administration/using/about-administrating-adobe-campaign.md)
-  + Configuration guidelines {#configuration-guidelines}
-       + [About configuration guidelines](administration/using/about-configuration-guidelines.md)
-       + [Compatible browsers](administration/using/compatible-browsers.md)
-       + [Campaign Standard network endpoints](administration/using/campaign-standard-network-endpoints.md)  
+  + [Configuration guidelines](administration/using/about-configuration-guidelines.md)
   + Users and security {#users-and-security}
        + [About access management](administration/using/about-access-management.md)
        + [Users management](administration/using/users-management.md)
@@ -375,12 +378,6 @@ user-guide-title: Adobe Campaign Standard Help
        + [Sending internal notifications](administration/using/sending-internal-notifications.md)
        + [Data retention](administration/using/data-retention.md)
        + [Updates and maintenance operations](administration/using/updates-and-maintenance-operations.md)
-   + Adobe Experience Platform Data Connector {#mapping-campaign-and-aep-data}
-     + [About Adobe Experience Platform Data Connector](administration/using/aep-about-data-connector.md)
-     + [Experience Platform Datamodel overview](administration/using/aep-data-model-overview.md)
-     + [Mapping definition](administration/using/aep-mapping-definition.md)
-     + [Mapping activation](administration/using/aep-mapping-activation.md)
-     + [Triggering data ingestion through APIs](administration/using/aep-triggering-data-ingestion.md)
 + Working with APIs {#working-with-apis}  
   + [Get started with Campaign Standard APIs](api/using/about-campaign-standard-apis.md)
   + About Campaign Standard APIs {#about-campaign-standard-apis}

@@ -1,5 +1,5 @@
 ---
-title: Get started with Campaign integrations
+title: About Campaign integrations
 description: Adobe Campaign allows you to use other Adobe solutions and combine their different capabilities.
 page-status-flag: never-activated
 uuid: 59d7cd99-a6f7-47f1-9b5c-c50e27a2bef8
@@ -14,29 +14,26 @@ internal: n
 snippet: y
 ---
 
-# Get started with Campaign integrations {#about-campaign-integrations}
+# About Campaign integrations{#about-campaign-integrations}
 
-Integrations available between Campaign Standard and other solutions and services allow you to combine the delivery and advanced campaign management functionalities of Adobe Campaign with a set of solutions created to help you personalize your users' experience.
+This section details the functional integrations available between the current version of Adobe Campaign and other solutions and services.
 
-<table>
-<tr>
-<td><img src="assets/do-not-localize/icon_functional.svg" width="60px"><p><a href="#functional-integrations">Work with functional integrations</a></p></td>
-<td><img src="assets/do-not-localize/icon_organization.svg" width="60px"><p><a href="#linking-organizations">Link Adobe Experience Cloud Organizations</a></p></td></tr>
-</table>
+The different integrations presented below allow you to combine the delivery and advanced campaign management functionalities of Adobe Campaign with a set of solutions created to help you personalize your users' experience.
 
-<img src="assets/get-started.png">
+>[!NOTE]
+>
+> By default, Adobe Campaign is already linked to an Adobe Experience Cloud account.
 
-## Work with functional integrations {#functional-integrations}
+Depending on your environment, other solutions can also be linked to Adobe Experience Cloud. They are linked as Organizations (also called Tenants).
 
-<img src="assets/do-not-localize/icon_functional.svg" width="60px">
-
-Integrating Campaign Standard with the different integrations presented below will help you build optimal marketing campaigns. 
+An organization is the entity that enables an administrator to configure groups and users, and to control single sign-on in the Experience Cloud. The organization functions like a log-in company that spans all the Experience Cloud products and solutions. Most often, an organization is your company name. However, a company can have many organizations. User and organization management is detailed in the [Adobe Experience Cloud help portal](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html).
 
 If you would like to integrate data flows from other systems with Adobe Campaign, have a look at our [API documentation](../../api/using/about-campaign-standard-apis.md).
 
 >[!NOTE]
 >
 >Adobe Campaign Standard can also connect to Microsoft Dynamics 365 : this integration enables synchronization of all available Contact data in the CRM system, making all relevant Contact data available for campaign activities. For more on this integration, refer to [Working with Campaign and Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md).
+
 
 <table> 
  <thead> 
@@ -105,19 +102,3 @@ If you would like to integrate data flows from other systems with Adobe Campaign
  </tbody> 
 </table>
 
-## Link Adobe Experience Cloud Organizations {#linking-organizations}
-
-<img src="assets/do-not-localize/icon_organization.svg" width="60px">
-
-Depending on your environment, other solutions can be linked to Adobe Experience Cloud. They are linked as Organizations (also called Tenants).
-
-An organization is the entity that enables an administrator to configure groups and users, and to control single sign-on in the Experience Cloud. The organization functions like a log-in company that spans all the Experience Cloud products and solutions. Most often, an organization is your company name. However, a company can have many organizations. User and organization management is detailed in the [Adobe Experience Cloud help portal](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html).
-
->[!NOTE]
->
-> By default, Adobe Campaign is already linked to an Adobe Experience Cloud account.
-
-## Additional resources
-
-* xxx
-* xxx

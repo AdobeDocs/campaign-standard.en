@@ -18,8 +18,6 @@ snippet: y
 
 Adobe Campaign Standard is a powerful cross-channel campaign management tool that can help you align your online and offline strategies to create personalized customer experiences.
 
-![](assets/overview_home_page.png)
-
 Control the entire process of creating, executing, and tracking cross-channel campaigns, as well as send messages that are personalized according to the profile, behavior, preferences, and needs of the clients. You can easily orchestrate, modelize and automate the entire marketing process, and integrate with other Adobe solutions.
 
 ## Grow your marketing database {#grow-database}

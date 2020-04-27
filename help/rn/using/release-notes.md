@@ -88,7 +88,7 @@ snippet: y
 
 >[!NOTE]
 >
->Adobe Experience Platform features in Campaign Standard are currently in beta, which may be subject to frequent updates without notice. Refer to the detailed documentation: [Experience Platform Data Connector](../../administration/using/aep-about-data-connector.md), [Audience Destinations](../../audiences/using/aep-about-audience-destinations-service.md)
+>Adobe Experience Platform features in Campaign Standard are currently in beta, which may be subject to frequent updates without notice. Refer to the detailed documentation: [Experience Platform Data Connector](../../developing/using/aep-about-data-connector.md), [Audience Destinations](../../audiences/using/aep-about-audience-destinations-service.md)
 
 * In workflow logs, every 10 minutes, Campaign now displays the number of records already processed by the job that is currently running.
 * Fixed an issue that could occur when importing an Adobe Experience Platform profile that had been deleted from the database.

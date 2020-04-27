@@ -16,8 +16,6 @@ snippet: y
 
 # Get started with dynamic reporting {#get-started-reporting}
 
-Dynamic Reporting provides fully customizable and real-time reports to measure the impact of your marketing activitied. It adds access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks.
-
 <table>
 <tr>
 <td><img src="assets/do-not-localize/icon_manage.svg" width="60px"><p><a href="#manage-share-reports">Manage and share dynamic reports</a></p></td>
@@ -25,7 +23,7 @@ Dynamic Reporting provides fully customizable and real-time reports to measure t
 <td><img src="assets/do-not-localize/icon_customize.svg" width="60px"><p><a href="#customize-reports">Customize your reports</a></p></td></tr>
 </table>
 
-![](assets/dynamic_report_intro.png)
+Dynamic Reporting provides fully customizable and real-time reports to measure the impact of your marketing activitied. It adds access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks.
 
 ## Manage and share reports {#manage-share-reports}
 
