@@ -65,6 +65,10 @@ To use targeted profiles for testing, you must first select them, then define th
 
     If you want to add a specific prefix to the proofs' subject line, fill in the **[!UICONTROL Subject line prefix]** field.
 
+    >[!NOTE]
+    >
+    >The subject line prefix can contain up to 500 characters.
+
     ![](assets/substitution_address.png)
 
     The prefix will display as below:
@@ -112,6 +116,10 @@ To import profiles to use for testing from an audience, follow these steps:
    ![](assets/substitution_audience_import.png)
 
 1. Select the audience to use, then enter the substitution address and the prefix to use for the proofs sent to the audience.
+    
+    >[!NOTE]
+    >
+    >The subject line prefix can contain up to 500 characters.
 
     ![](assets/substitution_audience_define.png)
 

@@ -23,7 +23,7 @@ This document outlines key recommendations while designing your Adobe Campaign d
 >
 >To create and modify resources in order to extend the Adobe Campaign pre-defined data model, refer to [this section](../../developing/using/key-steps-to-add-a-resource.md).
 >
->You can find a data model representation of the out-of-the-box resources [here](../../developing/using/datamodel-introduction.md).
+>You can find a data model representation of the built-in resources in [this page](../../developing/using/datamodel-introduction.md).
 
 ## Overview {#overview}
 

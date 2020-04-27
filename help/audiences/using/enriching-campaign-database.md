@@ -28,7 +28,7 @@ Additionally, you can set up templates to import data. Using import templates is
 
 You can set up two types of templates:
 
-* **Workflow templates**: these are pre-configured workflows that you can set up once according to your needs, and reuse each time you want to import data and udpate the database.
+* **Workflow templates**: these are pre-configured workflows that you can set up once according to your needs, and reuse each time you want to import data and update the database.
 
     An example of workflow template to import data is detailed in [this section](../../automating/using/importing-data.md#example--import-workflow-template).
 
