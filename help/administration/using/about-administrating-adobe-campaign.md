@@ -23,16 +23,19 @@ As a cloud-based solution, Adobe Campaign offers administrators different ways t
 >If you have questions or requests about implementation and configuration matters, contact your Adobe account executive.
 
 <table>
-<tr><td><img src="assets/do-not-localize/icon_menu.svg" width="60px"><p><a href="#administration-menu">Administration menu</a></p></td><td><img src="assets/do-not-localize/icon_users.svg" width="60px"><p><a href="#users-security">Users and security</a></p></td><td><img src="assets/do-not-localize/icon_channels.svg" width="60px"><p><a href="#channels-configuration">Channels configuration</a></p></td><td><img src="assets/do-not-localize/icon_settings.svg" width="60px"><p><a href="#application-settings">Application settings</a></p></td></tr>
+<tr><td><img src="assets/do-not-localize/icon_menu.svg" width="60px"><p><a href="#administration-menu">Administration menu</a></p></td>
+<td><img src="assets/do-not-localize/icon_users.svg" width="60px"><p><a href="#users-security">Users and security</a></p></td>
+<td><img src="assets/do-not-localize/icon_channels.svg" width="60px"><p><a href="#channels-configuration">Channels configuration</a></p></td>
+<td><img src="assets/do-not-localize/icon_settings.svg" width="60px"><p><a href="#application-settings">Application settings</a></p></td></tr>
 </table>
+
+![](assets/admin_overview2.png)
 
 ## Administration menu {#administration-menu}
 
 <img src="assets/do-not-localize/icon_menu.svg" width="60px">
 
 The different Adobe Campaign admin operations are carried out via the **[!UICONTROL Administration]** menu accessible when clicking the Adobe Campaign logo in the top left-hand corner. This part of the interface can only be accessed by functional administrators of the platform.
-
-![](assets/admin_overview2.png)
 
 The different menus available are:
 

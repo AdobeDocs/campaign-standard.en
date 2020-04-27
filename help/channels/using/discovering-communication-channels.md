@@ -19,11 +19,15 @@ snippet: y
 Adobe Campaign allows you to launch, measure, and automate campaigns across every channel.
 Harmonizing all of your marketing channels is not an impossible task. With the help of Adobe Campaign, you can bring customer data from different systems, devices, and channels into a single profile. Then, deliver timely and relevant campaigns that meet your customers in the right places and right ways along their customer journey.
 
-![](assets/do-not-localize/cross-channel.png)
-
 <table>
-<tr><td><a href="#global-concepts"><img src="assets/do-not-localize/icon_concepts.svg" width="60px"><br/>Global concepts</a></td><td><a href="#available-communication-channels"><img src="assets/do-not-localize/icon_channels.svg"  width="60px"><br/>Available communication channels</a></td><td><a href="#transactional-messages"><img src="assets/do-not-localize/icon_transactional.svg" width="60px"><br/>Transactional messages</a></td><td><a href="#landing-pages"><img src="assets/do-not-localize/icon_landing.svg" width="60px"><br/>Landing pages</a></td></tr>
+<tr>
+<td><img src="assets/do-not-localize/icon_concepts.svg" width="60px"><p><a href="#global-concepts">Global concepts</a></p></td>
+<td><img src="assets/do-not-localize/icon_channels.svg" width="60px"><p><a href="#available-communication-channels">Available communication channels</a></p></td>
+<td><img src="assets/do-not-localize/icon_transactional.svg" width="60px"><p><a href="#transactional-messages">Transactional messages</a></p></td>
+<td><img src="assets/do-not-localize/icon_landing.svg" width="60px"><p><a href="#landing-pages">Landing pages</a></p></td></tr>
 </table>
+
+![](assets/do-not-localize/cross-channel.png)
 
 ## Global concepts {#global-concepts}
 
@@ -45,11 +49,11 @@ Read more:
 
 <img src="assets/do-not-localize/icon_channels.svg"  width="60px">
 
-Five communication channels are available in Adobe Campaign: Email, SMS message, Push notification, In-App message and Direct mail delivery.
+**Five communication channels** are available in Adobe Campaign: Email, SMS message, Push notification, In-App message and Direct mail delivery.
 
 For each channel, specific functionalities are available. For example, the email channel allows you to perform A/B testing in order to test up to 3 versions of an email message. With the SMS channel, manage STOP SMS messages and store incoming SMS from the recipients into your database.
 
-Additionally, leverage Campaign Standard personalization and dynamic content capabilities to capture your audience's interest.
+Additionally, leverage Campaign Standard **personalization and dynamic content capabilities** to capture your audience's interest.
 
 Read more:
 
@@ -63,9 +67,9 @@ Read more:
 
 <img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
-Send individual and unique messages to your customers in real-time: welcome messages, order shipping confirmations, password modification, etc.
+**Send individual and unique messages** to your customers in real-time: welcome messages, order shipping confirmations, password modification, etc.
 
-Transactional messages are available for the email, SMS and push notification channels, depending on your options. There are two types of messages: event transactional messages targeting events without profile information, and profile transactional messages targeting profiles from your database.
+Transactional messages are available for the email, SMS and push notification channels, depending on your options. There are two types of messages: **event transactional messages** targeting events without profile information, and **profile transactional messages** targeting profiles from your database.
 
 Read more:
 
@@ -79,9 +83,9 @@ Read more:
 
 <img src="assets/do-not-localize/icon_landing.svg" width="60px">
 
-Campaign comes with landing pages which are web forms that can be used to capture information on your audiences, offer subscriptions to a service, display data and grow your database.
+Campaign comes with landing pages which are web forms that can be used to **capture information on your audiences**, offer subscriptions to a service, display data and grow your database.
 
-Landing pages can also be used for acquiring or updating existing profiles, and to set up a double opt-in mechanism, allowing you to to protect the platform from wrong or invalid email addresses, or spambots.
+Landing pages can also be used for **acquiring or updating existing profiles**, and to set up a double opt-in mechanism, allowing you to to protect the platform from wrong or invalid email addresses, or spambots.
 
 Read more:
 

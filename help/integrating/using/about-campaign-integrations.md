@@ -19,8 +19,12 @@ snippet: y
 Integrations available between Campaign Standard and other solutions and services allow you to combine the delivery and advanced campaign management functionalities of Adobe Campaign with a set of solutions created to help you personalize your users' experience.
 
 <table>
-<tr><td><a href="#functional-integrations"><img src="assets/do-not-localize/icon_functional.svg" width="60px"><br/>Work with functional integrations</a></td><td><a href="#linking-organizations"><img src="assets/do-not-localize/icon_organization.svg" width="60px"><br/>Link Adobe Experience Cloud Organizations</a></td></tr>
+<tr>
+<td><img src="assets/do-not-localize/icon_functional.svg" width="60px"><p><a href="#functional-integrations">Work with functional integrations</a></p></td>
+<td><img src="assets/do-not-localize/icon_organization.svg" width="60px"><p><a href="#linking-organizations">Link Adobe Experience Cloud Organizations</a></p></td></tr>
 </table>
+
+<img src="assets/get-started.png">
 
 ## Work with functional integrations {#functional-integrations}
 

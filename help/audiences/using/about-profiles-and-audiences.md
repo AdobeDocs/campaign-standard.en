@@ -22,8 +22,13 @@ Segment your database into audiences to optimize the target of your marketing ca
 Manage customers permission and consent using services and landing pages to set up easy opt-in and opt-out mechanisms.
 
 <table>
-<tr><td><a href="#segmenting-targeting"><img src="assets/do-not-localize/icon_segment.svg" width="60px"><br/>Segmenting and targeting</a></td><td><a href="#permission"><img src="assets/do-not-localize/icon_permission.svg"  width="60px"><br/>Permission and consent</a></td><td><a href="#privacy"><img src="assets/do-not-localize/icon_privacy.svg" width="60px"><br/>Privacy compliance</a></td></tr>
+<tr>
+<td><img src="assets/do-not-localize/icon_segment.svg" width="60px"><p><a href="#segmenting-targeting">Segmenting and targeting</a></p></td>
+<td><img src="assets/do-not-localize/icon_permission.svg" width="60px"><p><a href="#permission">Permission and consent</a></p></td>
+<td><img src="assets/do-not-localize/icon_privacy.svg" width="60px"><p><a href="#privacy">Privacy compliance</a></p></td></tr>
 </table>
+
+![](assets/do-not-localize/audiences.png)
 
 ## Segmenting and targeting {#segmenting-targeting}
 
@@ -31,9 +36,7 @@ Manage customers permission and consent using services and landing pages to set 
 
 When you create campaigns or messages, you can specify the target of the deliveries by selecting from contacts in Campaign database, using simple or advanced criteria, or selecting audiences.
 
-Identify customers more effectively across all your channels using integrated customer profiles and customized segments. When you know your customers, interests, demographics, and channel preferences, it’s easier to create personalized experiences that get noticed.
-
-![](assets/do-not-localize/audiences.png)
+Identify customers more effectively across all your channels using **integrated customer profiles** and **customized segments**. When you know your customers, interests, demographics, and channel preferences, it’s easier to create personalized experiences that get noticed.
 
 Adobe Campaign builds rich customer profiles in real time, allowing you to deliver more relevant and personalized offers as your customer’s preferences change. In addition, Adobe Campaign integrates advanced analysis, data management and targeting functionalities to build audiences.
 
@@ -41,7 +44,7 @@ Adobe Campaign builds rich customer profiles in real time, allowing you to deliv
 
 **Audiences** are lists of profiles built on a specific criteria, or set of criteria. Using workflows and the query editor, you can construct audiences that will be targeted by your marketing campaigns, depending on the information that you have on them, their activities, and their marketing history. This allows you to filter subscribed profiles, sample, or create target audiences on an unlimited number of criteria.
 
-Read more
+Read more:
 
 * [About profiles](../../audiences/using/about-profiles.md)
 * [Active profiles](../../audiences/using/active-profiles.md)
@@ -54,13 +57,17 @@ Read more
 
 <img src="assets/do-not-localize/icon_permission.svg"  width="60px">
 
-Before starting to send messages to a contact, you need to make sure that you get their permission. If not, your emails might be marked as a spam and this will impact your platform deliverability. To make sure to build a healthy profile database, secure this permission as a first step. With Campaign, we recommend you to use easy opt-in and opt-out mechanisms through [services](../../audiences/using/creating-a-service.md), and [landing pages](../../channels/using/getting-started-with-landing-pages.md) to update your contact information and grow your database.
+Before starting to send messages to a contact, you need to make sure that you get their permission. If not, your emails might be marked as a spam and this will impact your platform deliverability. To make sure to build a healthy profile database, secure this permission as a first step.
 
-Providing unsubscription links in your messages will enable Profiles to be blacklisted, when necessary, and therefore to improve your platform deliverability. For more on blacklisting, refer to [About opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+With Campaign, we recommend you to use **easy opt-in and opt-out mechanisms** through [services](../../audiences/using/creating-a-service.md), and [landing pages](../../channels/using/getting-started-with-landing-pages.md) to update your contact information and grow your database.
+
+Providing **unsubscription links** in your messages will enable Profiles to be blacklisted, when necessary, and therefore to improve your platform deliverability. For more on blacklisting, refer to [About opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 >[!IMPORTANT]
 >
 >You are required to respect the [Adobe Campaign acceptable use policy](https://www.adobe.com/legal/terms/aup.html).
+
+Read more:
 
 * [About subscriptions](../../audiences/using/about-subscriptions.md)
 * [About opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
@@ -69,7 +76,7 @@ Providing unsubscription links in your messages will enable Profiles to be black
 
 <img src="assets/do-not-localize/icon_privacy.svg" width="60px">
 
-Adobe Campaign offers a set of tools to help you with your Privacy Compliance for GDPR, CCPA, and other privacy laws.
+Adobe Campaign offers a set of tools to help you with your **Privacy Compliance** for GDPR, CCPA, and other privacy laws.
 
 Learn more in this [this article](https://helpx.adobe.com/campaign/kb/campaign-privacy.html) about Privacy Management and the features we provide to manage Right to Access, Right to be Forgotten, consent, data retention and user roles.
 

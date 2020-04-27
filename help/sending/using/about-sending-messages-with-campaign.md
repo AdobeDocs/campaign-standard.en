@@ -19,20 +19,25 @@ snippet: y
 Once you have defined the target and created the content of a message, you need to test and approve content, personalization, rendering and configuration, and make sure everything is correct before sending the message to the main target.
 
 <table>
-<tr><td><a href="#prepare-test-send"><img src="assets/do-not-localize/icon_prepare.svg" width="60px"><br/>Prepare and test the send</a></td><td><a href="#send-track-messages"><img src="assets/do-not-localize/icon_send.svg"  width="60px"><br/>Send and track your messages</a></td><td><a href="#improve-deliverability"><img src="assets/do-not-localize/icon_deliverability.svg"  width="60px"><br/>Improve your deliverability</a></td></tr>
+<tr>
+<td><img src="assets/do-not-localize/icon_prepare.svg" width="60px"><p><a href="#prepare-test-send">Prepare and test the send</a></p></td>
+<td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#send-track-messages">Send and track your messages</a></p></td>
+<td><img src="assets/do-not-localize/icon_deliverability.svg" width="60px"><p><a href="#improve-deliverability">Improve your deliverability</a></p></td></tr>
 </table>
+
+<img src="assets/get-started.png">
 
 ## Prepare and test the send {#prepare-test-send}
 
 <img src="assets/do-not-localize/icon_prepare.svg" width="60px">
 
-Campaign message preparation analyzes the target, the personalization and the validity of the message. Errors detected during this step must be corrected before being able to proceed further.
+Campaign Standard **message preparation** analyzes the target, the personalization and the validity of the message. Errors detected during this step must be corrected before being able to proceed further.
 
-Preview and test your messages using various capabilities: send proofs to test profiles or tageted profiles, test your emails' subject line, and check the rendering of your messages to make sure that it will display in an optimal way on a variety of web clients, web mails and devices.
+**Preview and test** your messages using various capabilities: send proofs to test profiles or tageted profiles, test your emails' subject line, and check the rendering of your messages to make sure that it will display in an optimal way on a variety of web clients, web mails and devices.
 
-Leverage Campaign scheduling capabilities to define when your messages will be sent. For example, you can adapt sending at the recipient's timezone, optimize the sending time or compute the sending date.
+Leverage Campaign scheduling capabilities$$ to define when your messages will be sent. For example, you can adapt sending at the recipient's timezone, optimize the sending time or compute the sending date.
 
-Use typologies to check during the preparation wether your message is valid and meets your quality criteria through fatigue, control and targeting rules. For example, to check that your emails always contain a subject line, or to exclude unsubscribers from the message recipients.
+Use **typologies** to check during the preparation wether your message is valid and meets your quality criteria through fatigue, control and targeting rules. For example, to check that your emails always contain a subject line, or to exclude unsubscribers from the message recipients.
 
 Read more:
 
@@ -47,11 +52,11 @@ Read more:
 
 <img src="assets/do-not-localize/icon_send.svg"  width="60px">
 
-Once your message is ready, you can confirm the sending and access logs and reports to monitor the delivery and measure the success of your campaign. Adobe Campaign also provides an email alerting system to keep track of delivery successes or failures, as well as quarantine management capabilities.
+Once your message is ready, you can confirm the sending and access **logs and reports** to monitor the delivery and measure the success of your campaign. Adobe Campaign also provides an email alerting system to keep track of delivery successes or failures, as well as quarantine management capabilities.
 
-Track the behavior of the message recipients by using session and permanent cookies to retrieve tracking information (clicked URLs, mirror pages, opened messages...).
+**Track the behavior** of the message recipients by using session and permanent cookies to retrieve tracking information (clicked URLs, mirror pages, opened messages...).
 
-Finally, you can configure Adobe Campaign to keep a copy of emails sent from your platform through Email BCC. In particular, if your organization needs to archive all outbound email messages for compliance, you can enable this capability.
+Finally, you can configure Adobe Campaign to **keep a copy of emails** sent from your platform through Email BCC. In particular, if your organization needs to archive all outbound email messages for compliance, you can enable this capability.
 
 Read more:
 
@@ -67,7 +72,9 @@ Read more:
 
 Deliverability allows to measure the success of your campaigns reaching your recipients' inbox without bouncing, or being marked as spam.
 
-Campaign Standard provides several deliverability tools to help you improve the number of successfully delivered messages: delivery thoughput reports, sending time optimization, messages preview, email rendering, quarantine management, etc.
+Campaign Standard provides several **deliverability tools** to help you improve the number of successfully delivered messages: delivery thoughput reports, sending time optimization, messages preview, email rendering, quarantine management, etc.
+
+Read more:
 
 * [About deliverability](../../sending/using/about-deliverability.md)
 * [Monitoring deliverability](../../sending/using/monitor-deliverability.md)

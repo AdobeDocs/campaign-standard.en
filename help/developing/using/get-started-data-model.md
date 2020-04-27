@@ -19,8 +19,12 @@ snippet: y
 Extend Campaign Standard data model with your own fields and resources, and monitor all data model changes into one single view
 
 <table>
-<tr><td><a href="#data-model"><img src="assets/do-not-localize/icon_datamodel.svg" width="60px"><br/>Data model</a></td><td><a href="#custom-resources"><img src="assets/do-not-localize/icon_custom.svg" width="60px"><br/>Custom resources</a></td></tr>
+<tr>
+<td><img src="assets/do-not-localize/icon_datamodel.svg" width="60px"><p><a href="#data-model">Data model</a></p></td>
+<td><img src="assets/do-not-localize/icon_custom.svg" width="60px"><p><a href="#custom-resources">Custom resources</a></p></td></tr>
 </table>
+
+<img src="assets/get-started.png">
 
 ## Data model {#data-model}
 

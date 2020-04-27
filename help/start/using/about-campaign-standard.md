@@ -75,7 +75,7 @@ Leverage the delivery alerting feature to keep track of the delivery successes o
 
 <img width="60px" alt="conditions" src="assets/icon_admin.svg"/>
 
-**Extend Campaign Standard data model** with your own fields and resources, and monitor all data model changes into one single view. [Get started with Campaign Standard data model](../../developing/using/data-model-concepts.md)
+**Extend Campaign Standard data model** with your own fields and resources, and monitor all data model changes into one single view. [Get started with Campaign Standard data model](../../developing/using/get-started-data-model.md)
 
 **Leverage REST APIs** to perform various operations and integrate Campaign Standard with your own ecosystem. [Get started with Campaign Standard REST APIs](../../api/using/about-campaign-standard-apis.md)
 
