@@ -63,11 +63,26 @@ snippet: y
 </tbody> 
 </table>
 
+<table> 
+<thead> 
+<tr> 
+<th> <strong>Sync with Launch technical workflow</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+  <td> <p>The synchronization between Adobe Launch and Campaign Standard has been improved by using the syncWithLaunch technical workflow.</p>
+<p><strong>Note:</strong> You will need to submit a ticket to Adobe Customer Care (either directly or through your Adobe contact) to have the syncWithLaunch technical workflow feature flag enabled in your Campaign instance.</p>
+<p>For more information, refer to the <a href="../../automating/using/technical-workflows.md">detailed documentation</a>.</p>
+</td> 
+</tr> 
+</tbody> 
+</table>
+
 **Improvements**
 
 * The number of characters that can be used in the **Prefix** field to [test messages using targeted profiles](../../sending/using/testing-messages-using-target.md) has been increased from 32 to 500 characters. 
 * The maximum number of real-time events that can be published on an instance has been increased from 350 to 2000. (CAMP-41608)
-
 
 **Email Designer enhancements**
 
