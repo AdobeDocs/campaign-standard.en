@@ -69,7 +69,11 @@ Adobe Campaign provides you with various sets of features dedicated to Privacy M
 * Privacy requests (Right to Access and Right to be Forgotten). See [this section](#privacy-requests).
 * Opt-out for the Sale of Personal Information (CCPA-specific). See [this section](#opt-out-CCPA).
 
-<!--[This article](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html) presents general information on what Privacy Management is.-->
+**Related topics:**
+
+* General information on [Privacy Management](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html)
+* The main Privacy capabilities in Campaign and an example of the personas involved are presented in [this section](https://helpx.adobe.com/campaign/kb/campaign-privacy-more.html#gdprpersonasandflow).
+
 
 ### Consent, Retention and Roles {#consent}
 
@@ -83,21 +87,21 @@ For more on these features and how to manage them in Adobe Campaign, see [this p
 
 ### Privacy requests {#privacy-requests}
 
-In addition to [consent, retention and rights management](#consent), Adobe Campaign provides additional capabilities to help you facilitate your readiness as a Data Controller for certain Privacy requests.
+In addition to [consent, retention and rights management](#consent), Adobe Campaign provides additional capabilities to help you facilitate your readiness as a Data Controller for certain Privacy requests:
 
-This set of tools is here to help you with your privacy compliance for GDPR, CCPA, and PDPA. For more on these different regulations, see [this page](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
+* The **Right to Access** is the right for the Data Subject to obtain from the Data Controller confirmation as to whether or not personal data concerning them is being processed, where and why.
+
+* The **Right to be Forgotten** (delete request) entitles the Data Subject to have the Data Controller erase his/her personal data.
+
+>[!NOTE]
+>
+>This set of tools is here to help you with your privacy compliance for GDPR, CCPA, and PDPA. For more on these different regulations, see [this page](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
 
 <!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
 
 * **CCPA** (California Consumer Privacy Act) provides California residents new rights in regards to their personal information and imposes data protection responsibilities on certain entities whom conduct business in California.
 
 * **Thailand's PDPA** (Personal Data Protection Act) is the new privacy law that harmonizes and modernizes data protection requirements for Thailand. This regulation applies to Adobe Campaign customers who hold data for Data Subjects residing in this country.-->
-
-In order to help you facilitate your privacy readiness, Adobe Campaign allows you to handle **Access** and **Delete** requests:
-
-* The **Right to Access** is the right for the Data Subject to obtain from the Data Controller confirmation as to whether or not personal data concerning them is being processed, where and for what purpose.
-
-* The **Right to be Forgotten** (delete request) entitles the Data Subject to have the Data Controller erase his/her personal data.
 
 The **Access** and **Delete** requests are presented on [this page](https://helpx.adobe.com/campaign/kb/acs-privacy.html#righttoaccess).
 
