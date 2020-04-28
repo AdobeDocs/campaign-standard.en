@@ -125,7 +125,7 @@ The opt-out for the sale of personal information enables you to track whether a 
 
 The full description and the implementation steps are detailed on this [page](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ccpa).
 
-For more on GDPR and CCPA, see [this page](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
+For more on CCPA, see [this page](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
 
 ## Cookies and tracking capabilities {#cookies-and-tracking-capabilities}
 
