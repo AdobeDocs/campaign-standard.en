@@ -311,7 +311,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Targeting Adobe Experience Platform audiences](automating/using/aep-targeting-audiences.md)
        + [Personalizing campaigns using Adobe Experience Platform attributes](automating/using/aep-personalizing-campaigns.md)
 + Developing {#developing}
-  + [Get started with data model and APIs](developing/using/get-started-data-model.md)
+  + [Get started with Campaign Standard data model](developing/using/get-started-data-model.md)
   + About custom resources {#about-custom-resources}
        + [Data model concepts](developing/using/data-model-concepts.md)
        + [Resource statuses](developing/using/resource-statuses.md)

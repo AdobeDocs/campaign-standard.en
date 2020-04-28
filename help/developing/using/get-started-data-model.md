@@ -1,5 +1,5 @@
 ---
-title: Get started with data model and APIs
+title: Get started with Campaign Standard data model
 description: Adobe Campaign offers a comprehensive graphical environment that allows you to design and automate processes.
 page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Get started with data model and APIs {#get-started-data-model}
+# Get started with Campaign Standard data model {#get-started-data-model}
 
 <table>
 <tr>

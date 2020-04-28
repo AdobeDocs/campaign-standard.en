@@ -18,18 +18,25 @@ snippet: y
 
 <table>
 <tr>
-<td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#about-workflows">About workflows</a></p></td>
-<td><img src="assets/do-not-localize/icon_activities.svg" width="60px"><p><a href="#workflow-activities">Workflow activities</a></p></td><td><img src="assets/do-not-localize/icon_filter.svg" width="60px"><p><a href="#filter-data">Filter data</a></p></td>
+<td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#workflow-activities">Workflow activities</a></p></td><td><img src="assets/do-not-localize/icon_activities.svg" width="60px"><p><a href="../../automating/using/workflow-created-query-with-complement.md">Use cases</a></p></td><td><img src="assets/do-not-localize/icon_filter.svg" width="60px"><p><a href="#filter-data">Filter data</a></p></td>
 <td><img src="assets/do-not-localize/icon_manage.svg" width="60px"><p><a href="#import-export-data">Import/export data</a></p></td></tr>
 </table>
 
-With Adobe Campaign, you can import, transform, filter, manage, and export data to design and automate your business processes.
+Adobe Campaign offers a comprehensive graphical environment that allows you to **design and automate complex processes** from one single interface.
 
-## About workflows {#about-workflows}
+Processes can include segmentation, campaign execution, file processing, approvals, delivery sending etc.
+
+## Workflow activities {#workflow-activities}
 
 <img src="assets/do-not-localize/icon_workflows.svg" width="60px">
 
-Adobe Campaign offers a comprehensive graphical environment that allows you to **design and automate complex processes** from one single interface. Processes can include segmentation, campaign execution, file processing, approvals, delivery sending etc.
+Various activities are available to help you design your workflows.
+
+[Targeting activities](../../automating/using/about-targeting-activities.md) allow you to build one or more targets by defining sets and splitting or combining these sets using intersection, union, or exclusion operations.
+
+With [Execution activities](../../automating/using/about-execution-activities.md), coordinate your workflow and its activities, while [Channel activities](../../automating/using/about-channel-activities.md) let you combine Campaign Standard communication channels to create cross-channel workflows.
+
+Finally, [Data management activities](../../automating/using/about-data-management-activities.md) allow you to manipulate data from your database.
 
 Read more:
 
@@ -38,25 +45,6 @@ Read more:
 * [Executing a workflow](../../automating/using/executing-a-workflow.md)
 * [Workflow best practices](../../automating/using/best-practices-workflows.md)
 
-## Workflow activities {#workflow-activities}
-
-<img src="assets/do-not-localize/icon_activities.svg" width="60px">
-
-Various activities are available to help you design your workflows. 
-
-**Targeting activities** allow you to build one or more targets by defining sets and splitting or combining these sets using intersection, union, or exclusion operations.
-
-With **Execution activities**, coordinate your workflow and its activities, while **Channel activities** let you combine Campaign Standard communication channels to create cross-channel workflows.
-
-Finally, **Data management activities** allow you to manipulate data from your database.
-
-Read more:
-
-* [Targeting activities](../../automating/using/about-targeting-activities.md)
-* [Execution activities](../../automating/using/about-execution-activities.md)
-* [Channel activities](../../automating/using/about-channel-activities.md)
-* [Data management activities](../../automating/using/about-data-management-activities.md)
-* [Workflows use cases](../../automating/using/workflow-created-query-with-complement.md)
 
 ## Filter data {#filter-data}
 

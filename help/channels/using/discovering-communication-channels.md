@@ -16,9 +16,6 @@ snippet: y
 
 # Get started with communication channels {#discovering-communication-channels}
 
-Adobe Campaign allows you to launch, measure, and automate campaigns across every channel.
-Harmonizing all of your marketing channels is not an impossible task. With the help of Adobe Campaign, you can bring customer data from different systems, devices, and channels into a single profile. Then, deliver timely and relevant campaigns that meet your customers in the right places and right ways along their customer journey.
-
 <table>
 <tr>
 <td><img src="assets/do-not-localize/icon_concepts.svg" width="60px"><p><a href="#global-concepts">Global concepts</a></p></td>
@@ -27,7 +24,8 @@ Harmonizing all of your marketing channels is not an impossible task. With the h
 <td><img src="assets/do-not-localize/icon_landing.svg" width="60px"><p><a href="#landing-pages">Landing pages</a></p></td></tr>
 </table>
 
-![](assets/do-not-localize/cross-channel.png)
+Adobe Campaign allows you to launch, measure, and automate campaigns across every channel.
+Harmonizing all of your marketing channels is not an impossible task. With the help of Adobe Campaign, you can bring customer data from different systems, devices, and channels into a single profile. Then, deliver timely and relevant campaigns that meet your customers in the right places and right ways along their customer journey.
 
 ## Global concepts {#global-concepts}
 
