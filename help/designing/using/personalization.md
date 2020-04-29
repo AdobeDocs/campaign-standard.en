@@ -108,24 +108,23 @@ The name of the content block appears in the editor and it is highlighted in yel
 
 The out-of-the-box content blocks are:
 
-| &nbsp;  |&nbsp;   |   &nbsp;|
-|---|---|---|
-| &nbsp;  |&nbsp;   |  &nbsp; |
-| **[!UICONTROL Brand logo (BrandingLogo)]** | &nbsp;  | &nbsp;  |
-| **[!UICONTROL Brand name (BrandingUsualName)]**  | &nbsp;  |  &nbsp; |
-| **[!UICONTROL Link to the brand website (BrandingWebSiteLink)]**   | &nbsp;  | &nbsp;  |
-| **[!UICONTROL Database URL in emails (EmailUrlBase)]**  | &nbsp;  | This content block can only be used in a **delivery**  |
-| **[!UICONTROL Default error email address (DefaultErrorAddress)]**  | &nbsp;  | This content block can only be used in a **delivery**  |
-| **[!UICONTROL Default reply-to email address (DefaultReplyAddress)]** | &nbsp;  | This content block can only be used in a **delivery**  |
-| **[!UICONTROL Name of default reply-to email address (DefaultReplyName)]** | &nbsp;  | This content block can only be used in a **delivery**.  |
-| **[!UICONTROL Email address of default sender (DefaultSenderAddress)]**  |  &nbsp; | This content block can only be used in a **delivery**.  |
-| **[!UICONTROL Default sender name (DefaultSenderName)]**  | &nbsp;  | This content block can only be used in a **delivery**. |
-| **[!UICONTROL Greetings (Greetings)]** | &nbsp;  | &nbsp;  |
-| **[!UICONTROL Link to mirror page (MirrorPage)]**  |  &nbsp; | This content block can only be used in a **delivery**.  |
-| **[!UICONTROL Mirror page URL (MirrorPageUrl)]**   | &nbsp;  | This content block can only be used in a **delivery**.  |
-| **[!UICONTROL Notification style (notificationStyle)]**  | &nbsp;  |  &nbsp; |  
-| **[!UICONTROL Social network sharing links (LandingPageViralLinks)]** |  &nbsp; | This content block can only be used in a **landing page**.  |
-| **[!UICONTROL Unsubscription link (UnsubscriptionLink)]**  |  &nbsp; |  This content block can only be used in a **delivery**. |
+The out-of-the-box content blocks are:
+
+* **[!UICONTROL Database URL in emails (EmailUrlBase)]**: This content block can only be used in a **delivery**.
+* **[!UICONTROL Mirror page URL (MirrorPageUrl)]**: This content block can only be used in a **delivery**.
+* **[!UICONTROL Link to mirror page (MirrorPage)]**: This content block can only be used in a **delivery**.
+* **[!UICONTROL Greetings (Greetings)]** 
+* **[!UICONTROL Unsubscription link (UnsubscriptionLink)]**: This content block can only be used in a **delivery**.
+* **[!UICONTROL Social network sharing links (LandingPageViralLinks)]**: This content block can only be used in a **landing page**.
+* **[!UICONTROL Default sender name (DefaultSenderName)]**: This content block can only be used in a **delivery**.
+* **[!UICONTROL Name of default reply-to email address (DefaultReplyName)]**: This content block can only be used in a **delivery**.
+* **[!UICONTROL Email address of default sender (DefaultSenderAddress)]**: This content block can only be used in a **delivery**.
+* **[!UICONTROL Default error email address (DefaultErrorAddress)]**: This content block can only be used in a **delivery**.
+* **[!UICONTROL Default reply-to email address (DefaultReplyAddress)]**: This content block can only be used in a **delivery**.
+* **[!UICONTROL Brand name (BrandingUsualName)]** 
+* **[!UICONTROL Link to the brand website (BrandingWebSiteLink)]** 
+* **[!UICONTROL Brand logo (BrandingLogo)]** 
+* **[!UICONTROL Notification style (notificationStyle)]**
 
 ### Creating custom content blocks {#creating-custom-content-blocks}
 
