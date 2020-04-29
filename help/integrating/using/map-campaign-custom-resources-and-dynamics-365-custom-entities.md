@@ -55,15 +55,15 @@ Customer has custom entity vehicle predefined in Dynamics 365 and a correspondin
 
 This customer's custom entities in Dynamics 365 can be viewed in the Sales Dashboard by clicking on the drop down next to Dynamics 365.  This customer's custom entities are group together under **[!UICONTROL Extensions]**.
 
- ![](assets/SalesDashboard.png)
+ ![](assets/do-not-localize/SalesDashboard.png)
 
 Vehicle data can be viewed by clicking on the **[!UICONTROL vehicle]** custom entity.  See the list of vehicles below.
 
- ![](assets/VehicleCustomEntity.png)
+ ![](assets/do-not-localize/VehicleCustomEntity.png)
 
 The relationship of the **[!UICONTROL vehicle]** entity to the **[!UICONTROL Contact]** entity can be seen below. **[!UICONTROL Parental]** has been chosen for the **[!UICONTROL Type of Behavior]**.
 
- ![](assets/ContactToVehicle.png)
+ ![](assets/do-not-localize/ContactToVehicle.png)
 
 ### Configuration in Campaign Standard
 
@@ -98,7 +98,7 @@ Campaign will then display data structures and link page.  You can see that seve
 >
 >Each custom resource must have a unique field with an ID of externalId (exactly).  This field will map to the ID field of the custom resource in Dynamics 365 (see below).
 
- ![](assets/FieldsInDynamics.png)
+ ![](assets/do-not-localize/FieldsInDynamics.png)
 
 ### Define the identification keys
 
@@ -166,7 +166,7 @@ Then click **[!UICONTROL Publish]** and wait for it to complete.
 
 Assuming that the customer has already populated the vehicle custom entity in Dynamics 365 and Unifi has set up their vehicle custom entity jobs and schedules with, the customer should be able to kick off the ingress schedule for the vehicle entity.
 
- ![](assets/Schedule.png)
+ ![](assets/do-not-localize/Schedule.png)
 
 After completion of the ingress job, the vehicle data can now be seen in the newly populated **[!UICONTROL Vehicle]** custom resource in Campaign.
 
