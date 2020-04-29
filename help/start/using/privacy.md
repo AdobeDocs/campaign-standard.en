@@ -48,7 +48,7 @@ Adobe Campaign is part of the Adobe Experience Cloud solutions. The way privacy 
 
     >[!NOTE]
     >
-    >As for all Adobe products, Campaign collects information about app and website users. See the [Adobe Privacy Policy](https://www.adobe.com/privacy/policy.html).
+    >As for all Adobe products, Campaign collects information about app and website users. For more on this, see the [Adobe Privacy Policy](https://www.adobe.com/privacy/policy.html).
 
 * **How Adobe Experience Cloud is used to collect information**
 
@@ -56,18 +56,17 @@ Adobe Campaign is part of the Adobe Experience Cloud solutions. The way privacy 
     * You may also use Adobe Experience Cloud technologies within your mobile apps. For more on sending mobile deliveries with Campaign, see [this page](https://helpx.adobe.com/campaign/kb/acs-mobile.html).
 
 * **You users' privacy choices about your use of Adobe Experience Cloud**
-Adobe asks you to provide your customers privacy policies describing:
+
+    Adobe asks you to provide your customers privacy policies describing:
 
     * Your privacy practices in connection with Adobe Experience Cloud
     * How users can set their preferences for the collection or use of their information in connection with Adobe Experience Cloud
 
     >[!NOTE]
     >
-    >As for all Adobe products, Campaign users can opt-out sharing information collected about them through apps and websites. See the [Adobe Experience Cloud Usage Information FAQ](https://www.adobe.com/privacy/experience-cloud-usage-info-faq.html).
+    >As for all Adobe products, Campaign users can opt-out sharing information collected about them through apps and websites. For more on this, see the [Adobe Experience Cloud Usage Information FAQ](https://www.adobe.com/privacy/experience-cloud-usage-info-faq.html).
 
-    <!--For more on the users' privacy choices, see [this page](https://www.adobe.com/privacy/opt-out.html).-->
-
-For further details, refer to the [Adobe Experience Cloud privacy](https://www.adobe.com/privacy/marketing-cloud.html) page.
+For further details on the Adobe Experience Cloud privacy, see [this page](https://www.adobe.com/privacy/marketing-cloud.html).
 
 ## Personal Data and Personas {#personal-data}
 
@@ -134,18 +133,6 @@ Adobe Campaign provides additional capabilities to help you facilitate your read
 * **Thailand's PDPA** (Personal Data Protection Act) is the new privacy law that harmonizes and modernizes data protection requirements for Thailand. This regulation applies to Adobe Campaign customers who hold data for Data Subjects residing in this country.-->
 
 The **Access** and **Delete** requests are presented on [this page](https://helpx.adobe.com/campaign/kb/acs-privacy.html#righttoaccess). The implementation steps to create these requests are detailed on [this page](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ManagingPrivacyRequests). Tutorials are also available [here](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/privacy/privacy-overview.html).
-
-<!--Privacy **Access** and **Delete** requests are now only performed via the Adobe Experience Platform **Privacy Core Service** integration. Privacy requests pushed from the Privacy Core Service to all Experience Cloud solutions are automatically handled by Campaign via a dedicated workflow.-->
-
-<!--### Opt-out for the Sale of Personal Information (CCPA) {#opt-out-CCPA}
-
-The opt-out for the sale of personal information enables you to track whether a consumer has opted-out for the sale of Personal Data.
-
->[!NOTE]
->
->This feature is specific to CCPA. For more on this, see [this page](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
-
-The full description and the implementation steps are detailed on this [page](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ccpa).-->
 
 ## Tracking capabilities {#tracking-capabilities}
 
