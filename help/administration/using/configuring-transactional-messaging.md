@@ -18,19 +18,21 @@ snippet: y
 
 To send a transactional message with Adobe Campaign, your first need to describe the structure of the event data.
 
-Event configuration must be performed by an **administrator** by following the steps below:
+Event configuration must be performed by an [administrator](../../administration/using/users-management.md#functional-administrators) following the steps below.
 
-The configuration can vary depending on the type of transactional message you want to send. For more on this, refer to [Transactional event specific configurations](#transactional-event-specific-configurations)
+>[!NOTE]
+>
+>The configuration can vary depending on the type of transactional message you want to send. For more on this, refer to [Transactional event specific configurations](#transactional-event-specific-configurations).
 
 Once the event is published, the corresponding transactional message is automatically created. For more on transactional messaging, refer to [this page](../../channels/using/about-transactional-messaging.md).
 
 ## Creating an event {#creating-an-event}
 
-Start by creating the event corresponding to your needs.
+To get started, create the event corresponding to your needs.
 
 >[!NOTE]
 >
->The number of created real-time events can have an impact on your platform. To ensure optimal performance, make sure you delete real-time events that you do not need anymore. See [Deleting an event](../../administration/using/configuring-transactional-messaging.md#deleting-an-event).
+>Only users holding the **[!UICONTROL Administration]** role and being part of the **[!UICONTROL All]** [organizational unit](../../administration/using/organizational-units.md) have the appropriate rights to create an event configuration.
 
 1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
 1. Click the **[!UICONTROL Create]** button.
@@ -52,6 +54,10 @@ Start by creating the event corresponding to your needs.
 
    Event-based transactional messages target data contained in the event itself, whereas profile-based transactional messages target data contained in the Adobe Campaign database. For more on this, refer to [Transactional event specific configurations](#transactional-event-specific-configurations).
 
+>[!NOTE]
+>
+>The number of created real-time events can have an impact on your platform. To ensure optimal performance, make sure you delete real-time events that you do not need anymore. See [Deleting an event](#deleting-an-event).
+
 ## Defining the event attributes {#defining-the-event-attributes}
 
 In the **[!UICONTROL Fields]** section, define the attributes that will be integrated into the event content and will then be able to be used to personalize the transactional message.
@@ -68,7 +74,7 @@ The steps for adding and modifying fields are the same as for [custom resources]
 
 You can add to the event content a collection of elements, each element itself including several attributes.
 
-This collection can be used in a transactional email to add product listings to the content of the message, for example a list of products - with the price, reference number, quantity, etc. for each product of the list.
+This collection can be used in a transactional email to add [product listings](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message) to the content of the message, for example a list of products - with the price, reference number, quantity, etc. for each product of the list.
 
 1. In the **[!UICONTROL Collections]** section, click the **[!UICONTROL Create element]** button.
 
@@ -81,6 +87,12 @@ This collection can be used in a transactional email to add product listings to 
 
    ![](assets/message-center_collection_fields.png)
 
+1. The **[!UICONTROL Enrichment]** tab allows you to enrich each item of the collection. This will enable you to personalize the elements of the corresponding product listing with information from the Adobe Campaign database or from other resources that you created.
+
+>[!NOTE]
+>
+>The steps for enriching the elements of a collection are the same as described in the [Enriching the event](#enriching-the-transactional-message-content) section. Note that enriching the event will not allow you to enrich a collection: you need to add an enrichment to the collection itself in the **[!UICONTROL Collections]** section.
+
 Once the event and the message are published, you will be able to use this collection in your transactional message.
 
 Here is the API preview for this example:
@@ -92,9 +104,9 @@ Here is the API preview for this example:
 * [Previewing and publishing the event](#previewing-and-publishing-the-event)
 * [Using product listings in a transactional message](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)
 
-## Enriching the transactional message content {#enriching-the-transactional-message-content}
+## Enriching the event {#enriching-the-transactional-message-content}
 
-Enriching the transactional message content with information from the Adobe Campaign database enables you to personalize your messages. From the last name or CRM ID of each of your recipients, for example, you can recover data such as their address or date of birth or any other custom field added in the Profile table, in order to personalize the information that is sent to them.
+You can enrich the transactional message content with information from the Adobe Campaign database in order to personalize your messages. From the last name or CRM ID of each of your recipients, for example, you can recover data such as their address or date of birth or any other custom field added in the Profile table, in order to personalize the information that is sent to them.
 
 It is possible to enrich the transactional message content with information from extended **[!UICONTROL Profile and services Ext API]**. For more information, refer to [Extending the API: Publishing the extension](../../developing/using/step-2--publish-the-extension.md)
 

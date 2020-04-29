@@ -16,7 +16,7 @@ snippet: y
 
 # Resource statuses{#resource-statuses}
 
-Resources can have different statuses according to their publication or activation status.
+Depending on to their publication or activation status, resources can have different statuses.
 
 There are two columns dedicated to displaying these statuses in the **[!UICONTROL Custom resources]** screen.
 
@@ -24,8 +24,8 @@ There are two columns dedicated to displaying these statuses in the **[!UICONTRO
 
 **Publication statuses**
 
-* **Draft**: the resource has just been created or re-drafted. To create the database tables as well as the corresponding APIs the resource must be republished. If a resource is being re-drafted, it is automatically rendered inactive following the publication step.
-* **Pending re-draft**: the resource was re-drafted. The re-draft process will occur during the next publication. Re-drafting is irreversible. Several warning messages warn the user of this fact both when re-drafting, then when preparing to publish.
+* **Draft**: the resource has just been created or re-drafted. To create the database tables as well as the corresponding APIs, the resource must be republished. If a resource is being re-drafted, it automatically becomes inactive after the publication step.
+* **Pending re-draft**: the resource was re-drafted. The re-draft process will occur during the next publication. Re-drafting is irreversible. Several warning messages are displayed to inform the user, both when re-drafting and preparing to publish.
 
   For more on re-drafting, see [Deleting a resource](../../developing/using/deleting-a-resource.md).
 
@@ -33,7 +33,7 @@ There are two columns dedicated to displaying these statuses in the **[!UICONTRO
   >
   >The **[!UICONTROL Cancel re-draft]** option is available when the resource that you want to re-draft still contains links through other resources with the "Published" status. This option allows you to revert the "re-draft" process. The custom resources will then go back to their original statuses.
 
-* **Published**: the resource has been published. If the resource is modified after the last modified date, then a message appears asking the user to republish in order to take into account the latest modifications.
+* **Published**: the resource has been published. If the resource is modified after the last modified date, then a message is displayed to invit you to republish the resource in order to take into account the latest modifications.
 
 The **[!UICONTROL Do not publish latest modifications]** field prevents modifications from being taken into account during future publications.
 
