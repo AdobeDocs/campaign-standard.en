@@ -45,7 +45,7 @@ This use case enables you to create an Email Designer template by using an HTML 
 1. Add an HTML component to each structure component. For more on this, see [Adding fragments and components](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Copy-paste your HTML into every component.
 
-## Manage the style of your email 
+## Manage the style of your email {#manage-the-style-of-your-email}
 
 1. Switch to **[!UICONTROL Mobile view]**. For more on this, see [this section](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
 
@@ -115,3 +115,13 @@ We need to create 11 structure components.
 You can now check the rendering of your email.
 
 ![](assets/migrated-email-result.png)
+
+### Managing styles to fit mobile view
+
+Insert CSS elements to ensure that your email is suitable for mobile view. 
+
+1. Switch to source code and copy-paste your style section into a new style section.
+
+For more on this, refer to [Manage the style of your email](#manage-the-style-of-your-email).
+
+Your legacy email is now available in the Email Designer. 

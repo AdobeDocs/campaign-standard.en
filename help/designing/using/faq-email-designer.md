@@ -38,16 +38,14 @@ You can now add a padding to this element.
 
 ## Can I import HTML content in the Email Designer? 
 
-You can upload your own HTML content to the Email Designer.
-It must contain specific tagging to be fully compliant and editable with  the Email Designer.
-If all or part of the uploaded HTML is not compliant with the expected tagging, the content is then loaded in 'compatibility mode', which limits the edition possibilities through the UI.
+You can upload your own HTML content to the Email Designer. If it hasn’t been created through Email Designer, it will load in compatibility mode which is designed to keep your original HTML but limits certain edition capabilities through the UI.
 
 For more information, refer to [Compatibility mode](../../designing/using/using-existing-content.md#compatibility-mode)
 
 ## How do I create my first email content?
 
 First of all, create an email from the home page. 
-Then too add content to an email, you need to add a structure component, and insert a content component in it.
+Then to add content to an email, you need to add a structure component, and insert a content component in it.
 
 For more information, refer to [Creating an email from scratch](../../designing/using/quick-start.mdl#from-scratch-email)
 
@@ -63,6 +61,6 @@ Styles cannot be saved as a theme for future reuse. However, the CSS style can b
 
 For more information, refer to [Styles](../../designing/using/styles.md)
 
-## Which fonts are available ? 
+## Which fonts are available? 
 
-When editing styles, only the web fonts officially supported by most email clients are available.
+When editing styles, only the web fonts officially supported by most email clients are availableby default through the UI. Using custom fonts requires to update the HTML code.
