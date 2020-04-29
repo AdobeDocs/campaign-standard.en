@@ -100,7 +100,7 @@ Privacy management refer to all the processes and tools that can help you comply
 Adobe Campaign provides you with various sets of features dedicated to privacy management:
 * Consent management, data Retention and user Roles. See [this section](#consent).
 * Privacy requests (Right to Access and Right to be Forgotten). See [this section](#privacy-requests).
-* Opt-out for the Sale of Personal Information (CCPA-specific). See [this section](#opt-out-CCPA).
+* Opt-out for the Sale of Personal Information (CCPA-specific). See [this section](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ccpa).
 
 The main Privacy capabilities in Campaign and an example of the personas involved are presented in [this section](https://helpx.adobe.com/campaign/kb/campaign-privacy-more.html#gdprpersonasandflow).
 
@@ -137,7 +137,7 @@ The **Access** and **Delete** requests are presented on [this page](https://help
 
 <!--Privacy **Access** and **Delete** requests are now only performed via the Adobe Experience Platform **Privacy Core Service** integration. Privacy requests pushed from the Privacy Core Service to all Experience Cloud solutions are automatically handled by Campaign via a dedicated workflow.-->
 
-### Opt-out for the Sale of Personal Information (CCPA) {#opt-out-CCPA}
+<!--### Opt-out for the Sale of Personal Information (CCPA) {#opt-out-CCPA}
 
 The opt-out for the sale of personal information enables you to track whether a consumer has opted-out for the sale of Personal Data.
 
@@ -145,7 +145,7 @@ The opt-out for the sale of personal information enables you to track whether a 
 >
 >This feature is specific to CCPA. For more on this, see [this page](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
 
-The full description and the implementation steps are detailed on this [page](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ccpa).
+The full description and the implementation steps are detailed on this [page](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ccpa).-->
 
 ## Tracking capabilities {#tracking-capabilities}
 
