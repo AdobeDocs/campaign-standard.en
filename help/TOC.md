@@ -130,10 +130,12 @@ user-guide-title: Adobe Campaign Standard Help
        + [Working with reusable content](designing/using/using-reusable-content.md)
        + [Using multi-solution integrations](designing/using/using-integrations.md)
        + [Editing plain text, HTML and mobile emails](designing/using/plain-text-html-modes.md)
+       + [Converting Legacy Editor emails to the Email Designer](designing/using/converting-emails-from-legacy-editor.md)
   + [Personalizing email content](designing/using/personalization.md)
   + [Managing email styles](designing/using/styles.md)
   + [Managing links](designing/using/links.md)
   + [Managing images](designing/using/images.md)
+  + [Frequently asked questions](designing/using/faq-email-designer.md)
 + Testing and Sending {#testing-and-sending}
   + [About sending messages with Campaign](sending/using/about-sending-messages-with-campaign.md)
   + Preparing and testing messages {#preparing-and-testing-messages}
