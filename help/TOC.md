@@ -92,6 +92,9 @@ user-guide-title: Adobe Campaign Standard Help
        + [Creating a multilingual push notification](channels/using/creating-a-multilingual-push-notification.md)
        + [Generating a CSV file for Multilingual Push Notification](channels/using/generating-csv-multilingual-push.md)
        + [Creating and updating profile information based on mobile application data](channels/using/updating-profile-with-mobile-app-data.md)
+       + [Implementing Push tracking](channels/using/push-tracking.md)
+       + [Display an image from an Adobe Campaign Standard push notification](channels/using/image-push-notification.md)
+       + [Understanding Campaign Standard push notifications payload structure](channels/using/push-payload.md)
   + In-App messaging {#in-app-messaging}
        + [About In-App messaging](channels/using/about-in-app-messaging.md)
        + [Preparing and sending an In-App message](channels/using/preparing-and-sending-an-in-app-message.md)
@@ -134,7 +137,7 @@ user-guide-title: Adobe Campaign Standard Help
 + Testing and Sending {#testing-and-sending}
   + [About sending messages with Campaign](sending/using/about-sending-messages-with-campaign.md)
   + Preparing and testing messages {#preparing-and-testing-messages}
-       + [Previewing messages](sending/using/previewing-messages.md)
+       + [Previewing deliveries](sending/using/previewing-messages.md)
        + [Preparing the send](sending/using/preparing-the-send.md)
        + [Sending proofs](sending/using/sending-proofs.md)
        + [Testing email messages using targeted profiles](sending/using/testing-messages-using-target.md)

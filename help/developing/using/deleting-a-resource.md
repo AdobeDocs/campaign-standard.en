@@ -21,7 +21,7 @@ To delete a resource, the resource in question must be a **[!UICONTROL Draft]**.
 * It has just been created and has not yet been published.
 * If it has already been published, the resource has to be re-drafted.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Re-drafting and deleting a custom resource are sensitive operations which can impact other resources. These actions must be performed by an expert user only.
 

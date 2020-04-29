@@ -49,7 +49,7 @@ The **[!UICONTROL List configuration]** section of the screen definition lets yo
 
 1. In the **[!UICONTROL Simple search]** section, check the **[!UICONTROL Specify the fields to be taken into account in the search]** to define which fields will be included in the search.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >This configuration replaces the fields used in the default search.
 
@@ -100,4 +100,3 @@ These settings allow you to display a control bar in the custom resource screen.
 
 * **[!UICONTROL Authorize duplicating]**: this option allows you to activate duplicating records linked to the custom resource.
 * **[!UICONTROL Authorize deleting]**: this option allows you to activate deleting records linked to the custom resource.
-
