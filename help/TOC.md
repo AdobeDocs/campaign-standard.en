@@ -242,7 +242,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Configure Unifi for Microsoft Dynamics 365 integration](integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md)
        + [Map Campaign custom resources and Dynamics 365 Custom entities](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
 + Managing processes and data {#managing-processes-and-data}
-  + [Get started with workflows](automating/using/get-started-workflows.md)
+  + [Get started with data and processes management](automating/using/get-started-workflows.md)
   + Workflow general operation {#workflow-general-operation}
        + [Workflow interface](automating/using/workflow-interface.md)
        + [Building a workflow](automating/using/building-a-workflow.md)
