@@ -1,5 +1,5 @@
 ---
-title: Frequently asked questions 
+title: Email Designer Frequently Asked Questions 
 description: Frequently asked questions about Email Designer.
 page-status-flag: never-activated
 uuid: effa1028-66b2-4bef-b5e4-7319dbb23d5d
