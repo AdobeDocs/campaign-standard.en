@@ -77,7 +77,7 @@ Leverage the delivery alerting feature to keep track of the delivery successes o
 
 **Leverage REST APIs** to perform various operations and integrate Campaign Standard with your own ecosystem. [Get started with Campaign Standard REST APIs](../../api/using/about-campaign-standard-apis.md)
 
-**Administrate Campaign** from one single view: monitor your instance, manage users' permissions. Setup external servers to connect to your instance, and configure parameters for your communication channels. [Get started with Campaign Standard administration](../../administration/using/about-administrating-adobe-campaign.md)
+**Administrate Campaign** from one single view: monitor your instance, manage users' permissions. Setup external servers to connect to your instance, and configure parameters for your communication channels. [Get started with Campaign Standard administration](../../administration/using/get-started-campaign-administration.md)
 
 **Import and export data** easily using Campaign Standard data management capabilities. [Get started with processes and data management](../../automating/using/get-started-workflows.md)
 
