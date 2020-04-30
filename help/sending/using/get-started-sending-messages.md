@@ -85,3 +85,5 @@ Read more:
 * [Designing A/B test emails](../../channels/using/designing-an-a-b-test-email.md)
 * [Send a test, prepare, and send an email (video)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/sending-test-preparing-sending-email.html)
 * [Review an email delivery and reports (video)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/reviewing-personalized-email-delivery-and-reports.html)
+* [Getting started with emails](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
+* [Delivery best practices](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
