@@ -26,7 +26,7 @@ snippet: y
 
 ## How can I add padding to an element from the HTML structure?
 
-You can add padding by using the HTML breadcrumb. 
+You can add padding by using the HTML breadcrumb.
 
 1. On the bottom left of the screen, click the HTML breadcrumb.
 
@@ -36,7 +36,7 @@ You can add padding by using the HTML breadcrumb.
 1. Click on the parent tag in the HTML breadcrumb.
 You can now add a padding to this element.
 
-## Can I import HTML content in the Email Designer? 
+## Can I import HTML content in the Email Designer?
 
 You can upload your own HTML content to the Email Designer. If it hasn’t been created through Email Designer, it will load in compatibility mode which is designed to keep your original HTML but limits certain edition capabilities through the UI.
 
