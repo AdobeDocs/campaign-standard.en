@@ -32,6 +32,10 @@ External API Activity (GA) - [Read more](../../automating/using/external-api.md)
 
 * Information has been added in the profile substitution section regarding the 500 characters limit of the subject line prefix. [Read more](../../sending/using/testing-messages-using-target.md)
 
+* A use case has been added to allow you to convert legacy editor emails into the Email Designer. [Read more](../../designing/using/converting-emails-from-legacy-editor.md)
+
+* A frequently asked question section has been added about the Email Designer. [Read more](../../designing/using/faq-email-designer.md)
+
 ## Documentation updates - April 2020 {#doc-updates-april-2020}
 
 The Microsoft Dynamics 365 integration with Adobe Campaign Standard documentation is now available into the core documentation. [Read more](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
