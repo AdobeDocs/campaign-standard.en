@@ -35,7 +35,9 @@ The main characteristics of this activity are:
 
 With Campaign Standard 20.3 release, External API capability has moved trom Beta to General Availability (GA).
 
-As a consequence, if you were using beta External API activities, you need to replace them with GA External API activities in all workflows.  Workflows that use the beta version of External API will stop working starting 20.3 release.
+>[!CAUTION]
+>
+>As a consequence, if you were using beta External API activities, you need to replace them with GA External API activities in all workflows.  Workflows that use the beta version of External API will stop working starting 20.3 release.
 
 When replacing External API activities, add the new External API activity to the workflow, manually copy over the configuration details, then delete the old activity.  
 

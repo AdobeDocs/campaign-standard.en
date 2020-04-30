@@ -150,7 +150,7 @@ When it comes to fragments, please note the following:
 * When editing styles, only the web fonts officially supported by most email clients are available.
 * Styles cannot be saved as a theme for future reuse. However, the CSS style can be saved in a content template or in an email. For more on styles, see [this section](../../designing/using/styles.md).
 
-**Related topics**:
+**Related topics**
 
 * [Creating an email](../../channels/using/creating-an-email.md)
 * [Designing a landing page](../../channels/using/designing-a-landing-page.md)

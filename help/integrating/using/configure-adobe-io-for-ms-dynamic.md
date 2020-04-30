@@ -137,7 +137,7 @@ Example:  Campaign Standard - your-campaign-organizationID - Administrators
 
 Click on **[!UICONTROL Create Integration]**.
 
-![](assets/MSdynACSIntegration-4B.png)
+![](assets/do-not-localize/MSdynACSIntegration-4B.png)
 
 ### Set up integration details
 
@@ -145,13 +145,13 @@ Click on **[!UICONTROL Create Integration]**.
 
 Review the integration details.  You will need to refer back to them when you run through Unifi post-provisioning steps.
 
-![](assets/MSdynACSIntegration-5.png)
+![](assets/do-not-localize/MSdynACSIntegration-5.png)
 
 1. Click over to the **[!UICONTROL Services]** tab and add **[!UICONTROL I/O Events]** and **[!UICONTROL I/O Management API]** services.  To add the service, click on the radio button, then **[!UICONTROL Add service]**.  You will do this for each service separately.
 
 When you are done your services should show up top like the picture below. You will not need to complete the section a-on generating a JWT and access token. 
 
-![](assets/MSdynACSIntegration-6.png)
+![](assets/do-not-localize/MSdynACSIntegration-6.png)
 
 Post provisioning in Campaign is now complete.  Proceed to complete [post provisioning steps for Microsoft Dynamics 365](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md).
 

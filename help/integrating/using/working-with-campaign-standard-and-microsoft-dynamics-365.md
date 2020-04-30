@@ -1,6 +1,6 @@
 ---
-title: Working with Campaign Standard and Microsoft Dynamics 365
-description: Learn how to Work with Campaign Standard and Microsoft Dynamics 365
+title: Get Started with Microsoft Dynamics 365 integration
+description: Learn how to Get Started with Microsoft Dynamics 365 integration
 page-status-flag: never-activated
 uuid: ed6c1b76-87f7-4d23-b5e2-0765297a905c
 contentOwner: sauviat
@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Working with Campaign Standard and Microsoft Dynamics 365
+# Get Started with Microsoft Dynamics 365 integration
 
 Activate your CRM data on cross-channel communication: learn how to pass on contacts from Microsoft Dynamics 365 to Adobe Campaign, and share campaign performance data (sends, opens, clicks, and bounces) back from Adobe Campaign to Microsoft Dynamics 365.
 
