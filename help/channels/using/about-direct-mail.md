@@ -24,7 +24,7 @@ Direct mail is an offline channel that allows you to personalize and generate th
 
 Online channels allow you to create your messages (email, SMS, mobile app delivery, etc.) and send them to your audience directly from Adobe Campaign. With offline channels, it is different. When you prepare a direct mail delivery, Adobe Campaign generates a file including all the targeted profiles and the chosen contact information (postal address for example). You will then be able to send this file to your direct mail provider who will take care of the actual sending.
 
-The following section explains how to create and generate a one-shot direct mail delivery. You also have the possibility to include a direct mail activity in a workflow to orchestrate campaigns combining online and offline channels. For more on this, refer to the [Workflows](../../automating/using/discovering-workflows.md) guide.
+The following section explains how to create and generate a one-shot direct mail delivery. You also have the possibility to include a direct mail activity in a workflow to orchestrate campaigns combining online and offline channels. For more on this, refer to the [Workflows](../../automating/using/get-started-workflows.md) guide.
 
 The user process in Adobe Campaign is as follows:
 

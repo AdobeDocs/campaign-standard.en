@@ -30,7 +30,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Marketing activity templates](start/using/marketing-activity-templates.md)
        + [Timeline](start/using/timeline.md)
 + Profiles and audiences {#profiles-and-audiences}
-  + [Get started with profiles and audiences](audiences/using/about-profiles-and-audiences.md)
+  + [Get started with profiles and audiences](audiences/using/get-started-profiles-and-audiences.md)
   + Managing profiles {#managing-profiles}
        + [About profiles](audiences/using/about-profiles.md)
        + [Creating profiles](audiences/using/creating-profiles.md)
@@ -58,7 +58,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Managing Adobe Experience Platform audiences](audiences/using/aep-managing-audiences.md)
        + [Using the Unified Segment Builder](audiences/using/aep-using-segment-builder.md)
 + Communication channels {#communication-channels}
-  + [Get started with communication channels](channels/using/discovering-communication-channels.md)
+  + [Get started with communication channels](channels/using/get-started-communication-channels.md)
   + About communication channels {#about-communication-channels}
        + [Key steps to send a message](channels/using/key-steps-to-send-a-message.md)
        + [Accessing messages](channels/using/accessing-messages.md)
@@ -129,7 +129,7 @@ user-guide-title: Adobe Campaign Standard Help
   + [Managing images](designing/using/images.md)
   + [Frequently asked questions](designing/using/faq-email-designer.md)
 + Testing and Sending {#testing-and-sending}
-  + [Get started with testing and sending](sending/using/about-sending-messages-with-campaign.md)
+  + [Get started with testing and sending](sending/using/get-started-sending-messages.md)
   + Preparing and testing messages {#preparing-and-testing-messages}
        + [Previewing deliveries](sending/using/previewing-messages.md)
        + [Preparing the send](sending/using/preparing-the-send.md)
@@ -242,9 +242,8 @@ user-guide-title: Adobe Campaign Standard Help
        + [Configure Unifi for Microsoft Dynamics 365 integration](integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md)
        + [Map Campaign custom resources and Dynamics 365 Custom entities](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
 + Managing processes and data {#managing-processes-and-data}
-  + [Get started with workflows](automating/using/discovering-workflows.md)
+  + [Get started with workflows](automating/using/get-started-workflows.md)
   + Workflow general operation {#workflow-general-operation}
-       + [Discover workflows](automating/using/workflow-operating-principles.md)
        + [Workflow interface](automating/using/workflow-interface.md)
        + [Building a workflow](automating/using/building-a-workflow.md)
        + [Targeting data](automating/using/targeting-data.md)

@@ -32,7 +32,7 @@ Control the entire process of creating, executing, and tracking cross-channel ca
 
 **Enrich your database** using multiple functionalities: workflows, landing pages, or APIs, or Microsoft Dynamics 365.
 
-[Get started with profiles and audiences](../../audiences/using/about-profiles-and-audiences.md)
+[Get started with profiles and audiences](../../audiences/using/get-started-profiles-and-audiences.md)
 
 ## Orchestrate cross-channel marketing campaigns {#orchestrate-campaigns}
 
@@ -42,7 +42,7 @@ Plan, coordinate and orchestrate cross-channel campaigns.
 
 **Optimize your marketing plans organization** by creating programs and campaigns. Analyse the impact of your marketing campaigns through reports. Orchestrate your campaigns using mutiple marketing activities accessible from one single interface and set up marketing activities templates to save time. [Get started with Marketing plans and activities](../../start/using/programs-and-campaigns.md)
 
-**Leverage workflows** to orchestrate and automate your campaigns. [Get started with processes and data management](../../automating/using/discovering-workflows.md)
+**Leverage workflows** to orchestrate and automate your campaigns. [Get started with processes and data management](../../automating/using/get-started-workflows.md)
 
 ## Design & send messages {#design-send}
 
@@ -50,11 +50,11 @@ Plan, coordinate and orchestrate cross-channel campaigns.
 
 Design and send messages on online and offline communication channels, including email delivery optimization for multiple devices through testing and responsive design strategies.
 
-**Leverage Campaign communication channels** to deliver your marketing campaigns at the right place: email, SMS, push notification, In-App message, direct mail, landing pages. Gain time and consistency across your messaging strategy by creating templates for all types of messages (transactional, recurring, multilingual messages). PErform A/B testing, and capture your audience's interest using personalization and dynamic content functionalities. [Get started with communication channels](../../channels/using/discovering-communication-channels.md)
+**Leverage Campaign communication channels** to deliver your marketing campaigns at the right place: email, SMS, push notification, In-App message, direct mail, landing pages. Gain time and consistency across your messaging strategy by creating templates for all types of messages (transactional, recurring, multilingual messages). PErform A/B testing, and capture your audience's interest using personalization and dynamic content functionalities. [Get started with communication channels](../../channels/using/get-started-communication-channels.md)
 
 **Use Campaign Email Designer** to create captivating, individually tailored email messages. Start from scratch or leverage built-in content fragments or templates to design your emails using HTML format optimized for responsive design. [Get started with email content designing](../../designing/using/designing-content-in-adobe-campaign.md)
 
-**Analyze and check the content of your messages** before sending, using multiple testing functionalities like preview, proofs, email subject line testing, email rendering etc. Make sure your messages are delivered at the right time by optimizing their sending time (scheduling, time zone management). [Get started with message testing and sending](../../sending/using/about-sending-messages-with-campaign.md)
+**Analyze and check the content of your messages** before sending, using multiple testing functionalities like preview, proofs, email subject line testing, email rendering etc. Make sure your messages are delivered at the right time by optimizing their sending time (scheduling, time zone management). [Get started with message testing and sending](../../sending/using/get-started-sending-messages.md)
 
 ## Track the impact of your campaigns {#track-impact-campaigns}
 
@@ -79,6 +79,6 @@ Leverage the delivery alerting feature to keep track of the delivery successes o
 
 **Administrate Campaign** from one single view: monitor your instance, manage users' permissions. Setup external servers to connect to your instance, and configure parameters for your communication channels. [Get started with Campaign Standard administration](../../administration/using/about-administrating-adobe-campaign.md)
 
-**Import and export data** easily using Campaign Standard data management capabilities. [Get started with processes and data management](../../automating/using/discovering-workflows.md)
+**Import and export data** easily using Campaign Standard data management capabilities. [Get started with processes and data management](../../automating/using/get-started-workflows.md)
 
 **Combine Campaign capabilities with other solutions** to help you build optimal marketing campaigns. [Get started with Campaign Standard integrations](../../integrating/using/about-campaign-integrations.md)

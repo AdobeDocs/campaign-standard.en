@@ -94,10 +94,9 @@ Read more:
 
 ## Additional resources
 
-* [About marketing activity templates](../../start/using/marketing-activity-templates.md)
 * [Optimizing your deliverability](../../sending/using/about-deliverability.md)
-* [Designing an email content](../../designing/using/designing-content-in-adobe-campaign.md)
 * [Delivery best practices](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+* [Designing an email content](../../designing/using/designing-content-in-adobe-campaign.md)
 * [Importing an AEM content](../../integrating/using/creating-email-experience-manager.md)
-* [Get started with emails](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
-*  [Sending messages with workflows](../../automating/using/about-channel-activities.md)
+* [Sending messages with workflows](../../automating/using/about-channel-activities.md)
+* [Communication channels tutorial videos](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html)

@@ -72,5 +72,6 @@ Read more:
 
 ## Additional resources
 
-* xxx
-* xxx
+* [Dynamic reporting tutorial videos](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/reporting/exploring-reports.html)
+* [Exporting logs](../../automating/using/exporting-logs.md)
+* [About Campaign-Analytics integration](../../integrating/using/about-campaign-analytics-integration.md)

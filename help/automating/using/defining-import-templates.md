@@ -80,7 +80,7 @@ The import template is now available for the users and can be used to upload fil
 
 **Related topics:**
 
-* [Workflows](../../automating/using/discovering-workflows.md)
+* [Workflows](../../automating/using/get-started-workflows.md)
 * [Importing data](../../automating/using/importing-data.md)
 * [Example: Import workflow template](../../automating/using/importing-data.md#example--import-workflow-template)
 

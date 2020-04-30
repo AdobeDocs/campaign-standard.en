@@ -24,6 +24,7 @@ snippet: y
 </table>
 
 Campaign integrated customer profiles allows you to track every interaction with customers across all channels within one single view, allowing you to deliver relevant and personalized messages to your customers.
+
 Segment your database into audiences to optimize the target of your marketing campaigns.
 
 Manage customers permission and consent using services and landing pages to set up easy opt-in and opt-out mechanisms.
@@ -86,4 +87,4 @@ You will also find best best practices, to help you with your Privacy compliance
 * [Working  with Microsoft Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 * [Adobe Shared Audiences](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
 * [Using workflows to import  profiles](../../automating/using/importing-data.md) 
-* [Creating profiles and audiences  (video)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)
+* [Profiles and audiences videos](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)

@@ -100,8 +100,7 @@ Read more:
 * [Branding](../../administration/using/branding.md)
 * [Sending internal notifications](../../administration/using/sending-internal-notifications.md)
 
-
 ## Additional resources
 
-* xxx
-* xxx
+* [Managing user access rights (video)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html)
+* [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)

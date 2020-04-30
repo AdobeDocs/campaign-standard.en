@@ -78,10 +78,10 @@ Read more:
 * [Monitoring deliverability](../../sending/using/monitor-deliverability.md)
 * [Improving your reputation](../../sending/using/improving-reputation.md)
 * [Technical recommendations](../../sending/using/technical-recommendations.md)
+* [Controling Delivery throughput](../../reporting/using/delivery-throughput.md)
 
 ## Additional resources
 
-* [Controling Delivery throughput](../../reporting/using/delivery-throughput.md)
 * [Designing A/B test emails](../../channels/using/designing-an-a-b-test-email.md)
-* [Receiving a notification when a failure happens](../../sending/using/receiving-alerts-when-failures-happen.md)
-* [Sending follow-up messages](../../channels/using/follow-up-messages.md)
+* [Send a test, prepare, and send an email (video)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/sending-test-preparing-sending-email.html)
+* [Review an email delivery and reports (video)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/reviewing-personalized-email-delivery-and-reports.html)

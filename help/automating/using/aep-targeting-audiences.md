@@ -62,7 +62,7 @@ You can now configure your workflow with other activities. You can, for example,
 
 For more on how to use workflows and deliveries, refer to these sections:
 
-* [Discovering workflows](../../automating/using/discovering-workflows.md)
+* [Discovering workflows](../../automating/using/get-started-workflows.md)
 * [Building a workflow](../../automating/using/building-a-workflow.md)
-* [Discovering communication channels](../../channels/using/discovering-communication-channels.md)
+* [Discovering communication channels](../../channels/using/get-started-communication-channels.md)
 * [About channel activities](../../automating/using/about-channel-activities.md)

@@ -22,9 +22,16 @@ snippet: y
 <td><img src="assets/do-not-localize/icon_manage.svg" width="60px"><p><a href="#import-export-data">Import/export data</a></p></td></tr>
 </table>
 
-Adobe Campaign offers a comprehensive graphical environment that allows you to **design and automate complex processes** from one single interface.
+Adobe Campaign offers a comprehensive graphical environment that allows you to design complex processes including segmentation, campaign execution, file processing, approvals, etc. For example, you can use a workflow to download a file from a server, decompress it, and then import its records into the Adobe Campaign database.
 
-Processes can include segmentation, campaign execution, file processing, approvals, delivery sending etc.
+A workflow can also involve users by assigning them tasks or having them approve performed tasks. This means you can assign a task to one or several users to work on content or specify targets, and approve proofs before sending the message.
+
+Workflows can be used in different contexts, as for example:
+
+* Targeting to manage audiences or send messages.
+* Data management (ETL) to manipulate data.
+* Importing data into Campaign database.
+* Technical processes such as database cleanup, recovering tracking information, etc.
 
 ## Workflow activities {#workflow-activities}
 
@@ -40,11 +47,9 @@ Finally, [Data management activities](../../automating/using/about-data-manageme
 
 Read more:
 
-* [Discover workflows](../../automating/using/workflow-operating-principles.md)
 * [Building a workflow](../../automating/using/building-a-workflow.md)
 * [Executing a workflow](../../automating/using/executing-a-workflow.md)
 * [Workflow best practices](../../automating/using/best-practices-workflows.md)
-
 
 ## Filter data {#filter-data}
 
@@ -84,5 +89,6 @@ Read more:
 
 ## Additional resources
 
-* xxx
-* xxx
+* [Processes and data management tutorial videos](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/getting-started/create-workflow.html)
+* [Technical workflows](../../administration/using/technical-workflows.md)
+* [Get started with Campaign Standard data model](../../developing/using/get-started-data-model.md)

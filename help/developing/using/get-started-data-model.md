@@ -62,5 +62,5 @@ With Campaign Standard APIs, create integrations for Adobe Campaign Standard and
 
 ## Additional resources
 
-* xxx
-* xxx
+* [About Adobe Experience Platform Data Connector](../../developing/using/aep-about-data-connector.md)
+* [Creating custom resources (video)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/developing/custom-resources-develop/creating-custom-resources.html)

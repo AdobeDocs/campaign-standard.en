@@ -16,11 +16,20 @@ snippet: y
 
 # Building a workflow{#building-a-workflow}
 
-This section details the main principles and best practices for creating a new workflow:
+This section details the main principles and best practices for creating a new workflow.
 
-* Creating a workflow.
-* Adding and linking activities.
-* Configuring activities.
+## Workflow operating principles{#workflow-operating-principles}
+
+A workflow is a **sequence of configurable activities**. Each activity has a specific role in the process. The result of each activity is forwarded to the following activity by a **transition**, represented by an arrow.
+
+The type of data exchanged between one activity and another can affect the way the following activities are configured. For example, if a population is established before email delivery activity, it can serve as the target for the email in question.
+
+You can open activities to check or edit parameters before or after executing the workflow.
+
+You can open transitions to check that the data sent is correct during or after executing the workflow. To access the detail view of the transitions, you have to check the **[!UICONTROL Keep interim results]** option in the **[!UICONTROL Execution]** section of the workflow properties.
+
+![](assets/workflow_overview.png)
+
 
 ## Creating a workflow {#creating-a-workflow}
 
