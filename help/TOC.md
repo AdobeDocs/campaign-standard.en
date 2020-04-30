@@ -21,6 +21,7 @@ user-guide-title: Adobe Campaign Standard Help
 + Getting started {#getting-started}
   + About Adobe Campaign {#about-adobe-campaign}
        + [Campaign orchestration](start/using/campaign-orchestration.md)
+       + [Privacy and consent](start/using/privacy.md)
        + [Segmentation and targeting](start/using/segmentation-and-targeting.md)
        + [Dynamic and personalized content](start/using/dynamic-and-personalized-content.md)
        + [Tracking, monitoring and reporting](start/using/tracking--monitoring-and-reporting.md)
