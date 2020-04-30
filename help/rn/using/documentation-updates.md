@@ -28,15 +28,9 @@ External API Activity (GA) - [Read more](../../automating/using/external-api.md)
 
 **Other documentation updates coming with the release**
 
-Information has been added on the **[!UICONTROL History in days]** field in workflows' properties that now includes files downloaded by the **[!UICONTROL Transfer file]** activity. [Read more](../../automating/using/executing-a-workflow.md)
+* Information has been added on the **[!UICONTROL History in days]** field in workflows' properties that now includes files downloaded by the **[!UICONTROL Transfer file]** activity. [Read more](../../automating/using/executing-a-workflow.md)
 
-Information has been added in the profile substitution section regarding the 500 characters limit of the subject line prefix. [Read more](../../sending/using/testing-messages-using-target.md)
-
-A new section dedicated to Privacy and Consent has been added to core documentation. [Read more](../../start/using/privacy.md)
-
-* A use case has been added to allow you to convert legacy editor emails into the Email Designer. [Read more](../../designing/using/converting-emails-from-legacy-editor.md)
-
-* A frequently asked question section has been added about the Email Designer. [Read more](../../designing/using/faq-email-designer.md)
+* Information has been added in the profile substitution section regarding the 500 characters limit of the subject line prefix. [Read more](../../sending/using/testing-messages-using-target.md)
 
 ## Documentation updates - April 2020 {#doc-updates-april-2020}
 
@@ -576,7 +570,7 @@ Updated the technical workflow list. [Read more](../../administration/using/tech
 
 Updated the scheduler activity section. [Read more](../../automating/using/scheduler.md)
 
-Updated the list of help materials about Campaign and Adobe solutions integration. [Read more](../../integrating/using/about-campaign-integrations.md).
+Updated the list of help materials about Campaign and Adobe solutions integration. [Read more](../../integrating/using/get-started-campaign-integrations.md).
 
 Updated Campaign Standard in-product contextual help.
 
@@ -590,7 +584,7 @@ Enrichment activity - enrich data based on previous transitions - [Read more](..
 
 **Other documentation updates coming with the release**
 
-Most URLs for Campaign and Adobe solutions integrations have changed! Check your bookmarks! [Read more](../../integrating/using/about-campaign-integrations.md)
+Most URLs for Campaign and Adobe solutions integrations have changed! Check your bookmarks! [Read more](../../integrating/using/get-started-campaign-integrations.md)
 
 The datamodel v1 is now available with the SQL structure for built-in resources - [Read more](https://docs.campaign.adobe.com/doc/standard/en/datamodel/datamodel.html)
 
@@ -774,7 +768,7 @@ Email BCC - [Read more](../../administration/using/configuring-email-channel.md#
 
 **Other documentation updates coming with the release**
 
-The "Deliveries" guide has been reorganized and renamed "Channels". [Read more](../../channels/using/get-started-communication-channels.md)
+The "Deliveries" guide has been reorganized and renamed "Channels". [Read more](../../channels/using/discovering-communication-channels.md)
 
 Numerous screenshots have been updated to reflect interface changes.
 
@@ -864,5 +858,5 @@ URL change: Assets core service - [Read more](../../integrating/using/working-wi
 
 URL change: People core service - [Read more](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
-Profiles and audiences guide has been reorganized. [Read more](../../audiences/using/get-started-profiles-and-audiences.md)
+Profiles and audiences guide has been reorganized. [Read more](../../audiences/using/about-profiles-and-audiences.md)
 

@@ -200,7 +200,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Creating a custom profile dimension](reporting/using/creating-a-custom-profile-dimension.md)
        + [Creating a report based on workflow segments](reporting/using/creating-a-report-workflow-segment.md)
 + Integrating with other solutions {#integrating-with-adobe-cloud}
-  + [Get started with Campaign integrations](integrating/using/about-campaign-integrations.md)
+  + [Get started with Campaign integrations](integrating/using/get-started-campaign-integrations.md)
   + Campaign and Experience Manager {#working-with-campaign-and-experience-manager}
        + [About Campaign-Experience Manager integration](integrating/using/integrating-with-experience-manager.md)
        + [Configuring the Campaign-Experience Manager integration](integrating/using/configure-experience-manager.md)

@@ -81,4 +81,4 @@ Leverage the delivery alerting feature to keep track of the delivery successes o
 
 **Import and export data** easily using Campaign Standard data management capabilities. [Get started with processes and data management](../../automating/using/get-started-workflows.md)
 
-**Combine Campaign capabilities with other solutions** to help you build optimal marketing campaigns. [Get started with Campaign Standard integrations](../../integrating/using/about-campaign-integrations.md)
+**Combine Campaign capabilities with other solutions** to help you build optimal marketing campaigns. [Get started with Campaign Standard integrations](../../integrating/using/get-started-campaign-integrations.md)
