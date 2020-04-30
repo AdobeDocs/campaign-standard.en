@@ -1,5 +1,5 @@
 ---
-title: Requesting and configuring the Microsoft Dynamics 365 with Campaign Standard integration
+title: Request and configure the Microsoft Dynamics 365 integration
 description: Learn how to Request and configure the Microsoft Dynamics 365 with Campaign Standard integration
 page-status-flag: never-activated
 uuid: ed6c1b76-87f7-4d23-b5e2-0765297a905c
@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Requesting the Microsoft Dynamics 365 with Campaign Standard integration
+# Request and configure the Microsoft Dynamics 365 integration
 
 In order to provision this integration, you will need to follow the steps below.
 

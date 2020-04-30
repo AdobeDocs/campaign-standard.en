@@ -54,7 +54,7 @@ To generate the OAuth access token, follow the steps outlined below.
 
 1. Click **[!UICONTROL New registration]** at the top of screen.
 
-    ![](assets/MSdynACSIntegration-7.png)
+    ![](assets/do-not-localize/MSdynACSIntegration-7.png)
 
 1. Fill out the app registration screen:
 
@@ -71,7 +71,7 @@ To generate the OAuth access token, follow the steps outlined below.
 
 1. From the app overview screen, on the sub menu on the left, click **[!UICONTROL Certificates and Secrets > New client secret]**
 
-    ![](assets/MSdynACSIntegration-8.png)
+    ![](assets/do-not-localize/MSdynACSIntegration-8.png)
 
 1. Enter a description, set duration and click **[!UICONTROL OK]**.
 
@@ -87,11 +87,11 @@ For more information about generating a client secret, refer to this section.
 
 1. From this screen or the app overview screen, click on **[!UICONTROL API permissions]** in the sub menu on the left.  After clicking **[!UICONTROL Add a permission]**,  you need to select **[!UICONTROL Dynamics CRM]** in the menu.
 
-    ![](assets/MSdynACSIntegration-9.png)
+    ![](assets/do-not-localize/MSdynACSIntegration-9.png)
 
 1. Then check the box for **[!UICONTROL user_impersonation]**, and click the **[!UICONTROL Add permissions]** button.
 
-    ![](assets/MSdynACSIntegration-10.png)
+    ![](assets/do-not-localize/MSdynACSIntegration-10.png)
 
 For more information about permission set up, refer to [this section](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-configure-app-access-web-apis#add-permissions-to-access-web-apis).
 

@@ -21,6 +21,7 @@ user-guide-title: Adobe Campaign Standard Help
 + Getting started {#getting-started}
   + About Adobe Campaign {#about-adobe-campaign}
        + [Campaign orchestration](start/using/campaign-orchestration.md)
+       + [Privacy and consent](start/using/privacy.md)
        + [Segmentation and targeting](start/using/segmentation-and-targeting.md)
        + [Dynamic and personalized content](start/using/dynamic-and-personalized-content.md)
        + [Tracking, monitoring and reporting](start/using/tracking--monitoring-and-reporting.md)
@@ -130,10 +131,12 @@ user-guide-title: Adobe Campaign Standard Help
        + [Working with reusable content](designing/using/using-reusable-content.md)
        + [Using multi-solution integrations](designing/using/using-integrations.md)
        + [Editing plain text, HTML and mobile emails](designing/using/plain-text-html-modes.md)
+       + [Converting Legacy Editor emails to the Email Designer](designing/using/converting-emails-from-legacy-editor.md)
   + [Personalizing email content](designing/using/personalization.md)
   + [Managing email styles](designing/using/styles.md)
   + [Managing links](designing/using/links.md)
   + [Managing images](designing/using/images.md)
+  + [Frequently asked questions](designing/using/faq-email-designer.md)
 + Testing and Sending {#testing-and-sending}
   + [About sending messages with Campaign](sending/using/about-sending-messages-with-campaign.md)
   + Preparing and testing messages {#preparing-and-testing-messages}
@@ -237,10 +240,10 @@ user-guide-title: Adobe Campaign Standard Help
        + [Abandonment Triggers use cases](integrating/using/abandonment-triggers-use-cases.md)
   + Campaign and Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
        + Working with Campaign Standard and Microsoft Dynamics 365 {#working-with-campaign-standard-and-ms-dynamics}
-          + [Working with Campaign Standard and Microsoft Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
-          + [Notices and recommendations](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md) 
-          + [Requesting and configuring the Microsoft Dynamics 365 with Campaign Standard integration](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
-          + [Using the Microsoft Dynamics 365 with Campaign Standard integration](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
+          + [Get Started with Microsoft Dynamics 365 integration](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+          + [About Microsoft Dynamics 365 integration](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
+          + [Request and configure the Microsoft Dynamics 365 integration](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
+          + [Use the Microsoft Dynamics 365 integration](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
        + [Configure Adobe IO for Microsoft Dynamics 365 integration](integrating/using/configure-adobe-io-for-ms-dynamic.md)
        + [Configure Microsoft Dynamics 365 for Campaign integration](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
        + [Configure Unifi for Microsoft Dynamics 365 integration](integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md)
