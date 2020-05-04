@@ -40,11 +40,11 @@ Environment updates happen in waves, during the indicated timeframes below. Deta
  <tbody>
   <tr>
    <td>Stage<br /> </td>
-   <td><s>April 27 - 28, 2020</s> Delayed<br /> </td>
+   <td>Delayed<br /> </td>
   </tr>
   <tr>
    <td> Production<br /> </td>
-   <td><s>May 4 - 11, 2020</s>  Delayed<br /> </td>
+   <td>Delayed<br /> </td>
   </tr>
  </tbody>
 </table>
