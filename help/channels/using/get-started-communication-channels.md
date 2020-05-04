@@ -19,7 +19,7 @@ snippet: y
 <table>
 <tr>
 <td><img src="assets/do-not-localize/icon_concepts.svg" width="60px"><p><a href="#global-concepts">Global concepts</a></p></td>
-<td><img src="assets/do-not-localize/icon_channels.svg" width="60px"><p><a href="#available-communication-channels">Available communication channels</a></p></td>
+<td><img src="assets/do-not-localize/icon_channels.svg" width="60px"><p><a href="#available-communication-channels">Communication channels</a></p></td>
 <td><img src="assets/do-not-localize/icon_transactional.svg" width="60px"><p><a href="#transactional-messages">Transactional messages</a></p></td>
 <td><img src="assets/do-not-localize/icon_landing.svg" width="60px"><p><a href="#landing-pages">Landing pages</a></p></td></tr>
 </table>
@@ -43,7 +43,7 @@ Read more:
 * [Multilingual messages templates](../../channels/using/multilingual-messages-template.md)
 * [Marketing activity templates](../../start/using/marketing-activity-templates.md)
 
-## Available communication channels {#available-communication-channels}
+## Communication channels {#available-communication-channels}
 
 <img src="assets/do-not-localize/icon_channels.svg"  width="60px">
 

@@ -18,14 +18,18 @@ snippet: y
 
 <table>
 <tr>
-<td><img src="assets/do-not-localize/icon_prepare.svg" width="60px"><p><a href="#prepare-test-send">Prepare and test the send</a></p></td>
-<td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#send-track-messages">Send and track your messages</a></p></td>
-<td><img src="assets/do-not-localize/icon_deliverability.svg" width="60px"><p><a href="#improve-deliverability">Improve your deliverability</a></p></td></tr>
+<td><img src="assets/do-not-localize/icon_prepare.svg" width="60px"><p><a href="#prepare-test-send">Prepare and test</a></p></td>
+<td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#send-track-messages">Send, monitor and track</a></p></td>
+<td><img src="assets/do-not-localize/icon_deliverability.svg" width="60px"><p><a href="#improve-deliverability">Deliverability guidelines</a></p></td></tr>
 </table>
 
-Once you have defined the target and created the content of a message, you need to test and approve content, personalization, rendering and configuration, and make sure everything is correct before sending the message to the main target.
+Once you have defined the target and created the content of a message, you need to prepare and test your deliveries' content, personalization, rendering and configuration. This allows you to make sure that everything is correct before sending the message to the main target. To do this, multiple functionalities are available like preview, proofs, email subject line testing, or email rendering.
 
-## Prepare and test the send {#prepare-test-send}
+Once marketing campaigns have been executed and the different messages have been sent, monitor them using logs to check the success of your campaign, and retrieve tracking information on the recipients.
+
+Finally, leverage deliverability guidelines and tools available in Campaign Standard to improve the number of delivered messages and ensure successfull marketing campaigns.
+
+## Prepare and test {#prepare-test-send}
 
 <img src="assets/do-not-localize/icon_prepare.svg" width="60px">
 
@@ -46,11 +50,11 @@ Read more:
 * [Scheduling messages](../../sending/using/about-scheduling-messages.md)
 * [About typologies and typology rules](../../sending/using/about-typology-rules.md)
 
-## Send and track your messages {#send-track-messages}
+## Send, monitor and track {#send-track-messages}
 
 <img src="assets/do-not-localize/icon_send.svg"  width="60px">
 
-Once your message is ready, you can confirm the sending and access **logs and reports** to monitor the delivery and measure the success of your campaign. Adobe Campaign also provides an email alerting system to keep track of delivery successes or failures, as well as quarantine management capabilities.
+Once your message is ready, you can confirm the sending and access logs and reports to **monitor the delivery** and measure the success of your campaign. Adobe Campaign also provides an email alerting system to keep track of delivery successes or failures, as well as quarantine management capabilities.
 
 **Track the behavior** of the message recipients by using session and permanent cookies to retrieve tracking information (clicked URLs, mirror pages, opened messages...).
 
@@ -59,12 +63,13 @@ Finally, you can configure Adobe Campaign to **keep a copy of emails** sent from
 Read more:
 
 * [Confirming the send](../../sending/using/confirming-the-send.md)
+* [Tracking messages](../../sending/using/tracking-messages.md)
 * [Archiving with Email BCC](../../sending/using/archiving.md)
 * [Monitoring a delivery](../../sending/using/monitoring-a-delivery.md)
 * [Understanding delivery failures](../../sending/using/understanding-delivery-failures.md)
 * [Understanding quarantine management](../../sending/using/understanding-quarantine-management.md)
 
-## Improve your deliverability {#improve-deliverability}
+## Deliverability guidelines {#improve-deliverability}
 
 <img src="assets/do-not-localize/icon_deliverability.svg"  width="60px">
 
