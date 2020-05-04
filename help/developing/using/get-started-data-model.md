@@ -36,7 +36,7 @@ Read more:
 
 * [Data model concepts](../../developing/using/data-model-concepts.md)
 * [Data model best practices](../../developing/using/data-model-best-practices.md)
-* [Data model description](../../developing/using/datamodel-introduction.md)	
+* [Data model description](../../developing/using/datamodel-introduction.md)
 * [Monitoring data model changes](../../developing/using/monitoring-data-model-changes.md)
 
 ## Custom resources {#custom-resources}
