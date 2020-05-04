@@ -79,6 +79,8 @@ Adobe Campaign offers a set of tools to help you with your **Privacy Compliance*
 
 Learn more in this [this article](https://helpx.adobe.com/campaign/kb/campaign-privacy.html) about Privacy Management and the features we provide to manage Right to Access, Right to be Forgotten, consent, data retention and user roles.
 
+Privacy and Consent in Campaign and how to manage them are presented in [this section](../../start/using/privacy.md).
+
 You will also find best best practices, to help you with your Privacy compliance when using our service.
 
 ## Additional resources
