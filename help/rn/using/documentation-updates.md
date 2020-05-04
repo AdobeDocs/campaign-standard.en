@@ -768,13 +768,13 @@ Email BCC - [Read more](../../administration/using/configuring-email-channel.md#
 
 **Other documentation updates coming with the release**
 
-The "Deliveries" guide has been reorganized and renamed "Channels". [Read more](../../channels/using/discovering-communication-channels.md)
+The "Deliveries" guide has been reorganized and renamed "Channels". [Read more](../../channels/using/get-started-communication-channels.md)
 
 Numerous screenshots have been updated to reflect interface changes.
 
 A new technote is now available: "Integrating the Adobe Mobile SDK with your mobile app". [Read more](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html)
 
-Instructions to configure People core service or Audience Manager integration with Adobe Campaign have been updated. [Read more](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+Instructions to configure People core service or Audience Manager integration with Adobe Campaign havget-started-communication-channels.mdegrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 Authorizations table revised to make certain roles’ function clearer. [Read more](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
 
@@ -858,5 +858,5 @@ URL change: Assets core service - [Read more](../../integrating/using/working-wi
 
 URL change: People core service - [Read more](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
-Profiles and audiences guide has been reorganized. [Read more](../../audiences/using/about-profiles-and-audiences.md)
+Profiles and audiences guide has been reorganized. [Read more](../../audiences/using/get-started-profiles-and-audiences.md)
 
