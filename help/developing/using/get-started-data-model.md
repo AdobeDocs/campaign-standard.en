@@ -1,6 +1,6 @@
 ---
 title: Get started with Campaign Standard data model
-description: Adobe Campaign offers a comprehensive graphical environment that allows you to design and automate processes.
+description: Extend Campaign Standard data model with your own fields and resources, and monitor all data model changes into one single view.
 page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
 contentOwner: sauviat
@@ -22,7 +22,7 @@ snippet: y
 <td><img src="assets/do-not-localize/icon_custom.svg" width="60px"><p><a href="#custom-resources">Custom resources</a></p></td><td><img src="assets/do-not-localize/icon_api.svg" width="60px"><p><a href="#custom-resources">Work with APIs</a></p></td></tr>
 </table>
 
-Extend Campaign Standard data model with your own fields and resources, and monitor all data model changes into one single view
+Extend Campaign Standard data model with your own fields and resources, and monitor all data model changes into one single view.
 
 ## Data model {#data-model}
 
