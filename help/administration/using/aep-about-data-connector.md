@@ -66,7 +66,7 @@ How-to videos are also available in [this page](https://docs.adobe.com/content/h
 
 * The out-of-the-box transfer of subscription events is not supported. To transfer subscription events, you can create corresponding XDM and dataset on Adobe Experience Platform, then configure a custom data mapping for these data.
 
-* Regarding privacy requests (both access and delete actions), customers need to place separate requests: one for Campaign via the Privacy Core Service integration (see [this section](https://helpx.adobe.com/campaign/kb/acs-privacy.html#righttoaccess)), and one for Adobe Experience Platform via its [Privacy Service](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ccpa). For more on Access and Delete requests, see [this page](https://helpx.adobe.com/campaign/kb/acs-privacy.html#righttoaccess).
+* Regarding privacy requests (both Access and Delete actions), customers need to place separate requests via the [Privacy Core Service](https://docs.adobe.com/content/help/en/experience-platform/privacy/home.html#how-to-use-privacy-service-to-manage-privacy-job-requests): one for Campaign and one for Adobe Experience Platform. For more on this, see [About Privacy Requests](https://helpx.adobe.com/campaign/kb/acs-privacy.html#righttoaccess) and [Managing Privacy Requests](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ManagingPrivacyRequests) in Campaign.
 
 * For each XDM field, the DULE labeling needs to be done in Adobe Experience Platform. This is customer responsibility to apply DULE labels.
 
