@@ -18,15 +18,15 @@ snippet: y
 
 Start working with the Email Designer and build reusable templates and fragments from your email HTML created in the Legacy Editor.
 
-This use case enables you to create an Email Designer template by using an HTML email and dividing it into HTML components in the Email Designer. 
-
->[!CAUTION]
+>[!IMPORTANT]
 >
 >This section is for advanced users who are familiar with HTML code.
 
+This use case enables you to create an Email Designer template by using an HTML email and dividing it into HTML components in the Email Designer. 
+
 >[!NOTE]
 >
->Like the compatibility mode, a HTML component is editable with limited options: you can only perform in-place edition.
+>Like the compatibility mode, an HTML component is editable with limited options: you can only perform in-place edition.
 
 ## Preparing your email content
 
@@ -92,21 +92,21 @@ To see the HTML version of the email, click **[!UICONTROL Show source]**.
 
 ### Create the email template and its structure 
 
-1. Drag and drop **[!UICONTROL Structure Components]**  reflecting the layout of our email. 
+1. Drag and drop **[!UICONTROL Structure components]**  reflecting the layout of our email. 
 
-We need to create 11 structure components.
+1. Repeat as many times as needed. We need to create 11 structure components.
 
-![](assets/structure-components-migration.png)
+   ![](assets/structure-components-migration.png)
 
 ### Inserting HTML content components
 
-1. Insert an **[!UICONTROL HTML component]**  in each **[!UICONTROL structure component]** .
+1. Insert an **[!UICONTROL HTML component]**  in each **[!UICONTROL Structure component]** .
 
-![](assets/html-components.png)
+   ![](assets/html-components.png)
 
 1. For each section, click **[!UICONTROL Show source code]** .
 
-![](assets/show-source-code.png)
+   ![](assets/show-source-code.png)
 
 1. Insert the HTML section.
 
@@ -118,7 +118,7 @@ You can now check the rendering of your email.
 
 ### Managing styles to fit mobile view
 
-Insert CSS elements to ensure that your email is suitable for mobile view. 
+1. Insert CSS elements to ensure that your email is suitable for mobile view.
 
 1. Switch to source code and copy-paste your style section into a new style section.
 

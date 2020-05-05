@@ -1,6 +1,6 @@
 ---
-title: About privacy and recommendations in Adobe Campaign Standard
-description: This section is about privacy management in Adobe Campaign Standard.
+title: Privacy and consent in Adobe Campaign Standard
+description: This section provides an overview of privacy, personal data and consent management in Adobe Campaign Standard, as well as the tools available to handle these.
 page-status-flag: never-activated
 uuid: ed9e631c-5ad1-49f1-be1e-b710bc64dc91
 contentOwner: sauviat
