@@ -32,7 +32,9 @@ The main principle of configuring and using brands is to:
 
 >[!IMPORTANT]
 >
->Brands cannot be created or modified by end-users: these operations have to be performed by Adobe Campaign technical administrator. For any request, contact Adobe Customer care. Multi-branding cannot be used in the context of transactional messaging. For more on this, see [Transactional messages and branding](../../channels/using/about-transactional-messaging.md#permissions-and-branding).
+>Brands cannot be created or modified by end-users: these operations have to be performed by Adobe Campaign technical administrator. For any request, contact Adobe Customer care.
+>
+>Multi-branding cannot be used in the context of transactional messaging. For more on this, see [Transactional messages and branding](../../channels/using/about-transactional-messaging.md#permissions-and-branding).
 
 Brands can be found in the **[!UICONTROL Administration > Instance settings > Brand configuration]** menu.
 

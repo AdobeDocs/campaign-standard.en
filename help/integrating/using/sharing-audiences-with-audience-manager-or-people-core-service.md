@@ -78,6 +78,6 @@ Synchronization between Adobe Campaign and People core service takes 24-36 hours
 
 **Related topics:**
 
-* [Workflows](../../automating/using/workflow-data-and-processes.md)
+* [Workflows](../../automating/using/get-started-workflows.md)
 * [Audiences](../../audiences/using/about-audiences.md)
 

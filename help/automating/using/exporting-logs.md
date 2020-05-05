@@ -74,4 +74,4 @@ You can now execute the workflow and retrieve the output file on your external s
 
 **Related topic:**
 
-[Workflows](../../automating/using/discovering-workflows.md)
+[Workflows](../../automating/using/get-started-workflows.md)

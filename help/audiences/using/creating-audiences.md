@@ -18,7 +18,7 @@ snippet: y
 
 ## Creating query audiences {#creating-query-audiences}
 
-This section describes how to create a **Query** audience. You can also create audiences from importing a file or targeting in a [workflow](../../automating/using/discovering-workflows.md).
+This section describes how to create a **Query** audience. You can also create audiences from importing a file or targeting in a [workflow](../../automating/using/get-started-workflows.md).
 
 From the audience list, you can create audiences by performing queries on Adobe Campaign profiles or importing an Adobe Experience Cloud audience.
 
@@ -45,7 +45,7 @@ From the audience list, you can create audiences by performing queries on Adobe 
 
 ## Creating list audiences {#creating-list-audiences}
 
-This section describes how to create a **List** audience after targeting in a workflow. You can also create audiences by importing a file into a [workflow](../../automating/using/discovering-workflows.md) or via a query from the **[!UICONTROL Audiences]** menu.
+This section describes how to create a **List** audience after targeting in a workflow. You can also create audiences by importing a file into a [workflow](../../automating/using/get-started-workflows.md) or via a query from the **[!UICONTROL Audiences]** menu.
 
 To create a **List** audience, the steps are as follows:
 
@@ -75,7 +75,7 @@ To create a **List** audience, the steps are as follows:
 
 ## Creating file audiences {#creating-file-audiences}
 
-This section details how to create a **File** audience by importing a file into a workflow. You can also create audiences from a targeting activity in a [workflow](../../automating/using/discovering-workflows.md) or via a query from the **[!UICONTROL Audiences]** menu.
+This section details how to create a **File** audience by importing a file into a workflow. You can also create audiences from a targeting activity in a [workflow](../../automating/using/get-started-workflows.md) or via a query from the **[!UICONTROL Audiences]** menu.
 
 To create a **File** audience, the steps are as follows:
 
