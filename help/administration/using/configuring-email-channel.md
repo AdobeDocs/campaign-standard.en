@@ -40,7 +40,7 @@ The email configuration screen allows to define the parameters for the email cha
     * Both sender and error addresses are set up by Adobe. Those fields cannot be empty.
     * You cannot edit those fields. To update an address, contact the Adobe Customer Care team.
     * To add another address, you can use the [Control Panel](https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html) to set up a new subdomain, or contact the Adobe Customer Care team. Note that if several masks are used, they will be separated by commas.
-    * It is a good practice to set addresses using a star such as **@yourdomain.com*: it enables you to use any address ending with your subdomain name.
+    * It is a good practice to set addresses using a star such as *@yourdomain.com: it enables you to use any address ending with your subdomain name.
 
 * **Deliverability**
 
