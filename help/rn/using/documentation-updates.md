@@ -20,7 +20,9 @@ In  addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md),
 
 ## Documentation updates - May 2020 {#doc-updates-may-2020}
 
-* Campaign Standard overview page has been enriched and reorganized into thematic topics. [Read more](../../start/using/about-campaign-standard.md)
+Campaign Standard overview page has been enriched and reorganized into thematic topics. [Read more](../../start/using/about-campaign-standard.md)
+
+The Email channel parameters section has been clarified with further information regarding the authorized masks fields and the delivery reports ID. [Read more](../../administration/using/configuring-email-channel.md)
 
 ## Release 20.3 - May 2020 {#release-20-3---may-2020}
 
@@ -32,9 +34,15 @@ External API Activity (GA) - [Read more](../../automating/using/external-api.md)
 
 **Other documentation updates coming with the release**
 
-* Information has been added on the **[!UICONTROL History in days]** field in workflows' properties that now includes files downloaded by the **[!UICONTROL Transfer file]** activity. [Read more](../../automating/using/executing-a-workflow.md)
+Information has been added on the **[!UICONTROL History in days]** field in workflows' properties that now includes files downloaded by the **[!UICONTROL Transfer file]** activity. [Read more](../../automating/using/executing-a-workflow.md)
 
-* Information has been added in the profile substitution section regarding the 500 characters limit of the subject line prefix. [Read more](../../sending/using/testing-messages-using-target.md)
+Information has been added in the profile substitution section regarding the 500 characters limit of the subject line prefix. [Read more](../../sending/using/testing-messages-using-target.md)
+
+A new section dedicated to Privacy and Consent has been added to core documentation. [Read more](../../start/using/privacy.md)
+
+A use case has been added to allow you to convert legacy editor emails into the Email Designer. [Read more](../../designing/using/converting-emails-from-legacy-editor.md)
+
+A frequently asked question section has been added about the Email Designer. [Read more](../../designing/using/faq-email-designer.md)
 
 ## Documentation updates - April 2020 {#doc-updates-april-2020}
 
