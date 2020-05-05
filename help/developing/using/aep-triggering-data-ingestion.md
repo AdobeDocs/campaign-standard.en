@@ -22,7 +22,7 @@ snippet: y
 
 Adobe Campaign Standard allows you to trigger the immediate ingestion of data mappings via APIs, and retrieve the status of your ingestion requests.
 
-This page describes how to trigger and retrieve the ingestion status of your data mappings. For global information on Campaign Standard APIs, refer to [this section](../../api/using/about-campaign-standard-apis.md).
+This page describes how to trigger and retrieve the ingestion status of your data mappings. For global information on Campaign Standard APIs, refer to [this section](../../api/using/get-started-apis.md).
 
 ## Prerequisites {#prerequisites}
 

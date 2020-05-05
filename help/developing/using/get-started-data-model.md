@@ -58,7 +58,7 @@ Read more:
 
 <img src="assets/do-not-localize/icon_api.svg" width="60px">
 
-With Campaign Standard APIs, create integrations for Adobe Campaign Standard and build your own ecosystem by interfacing Campaign with the panel of technologies that you use. [Get started with Campaign Standard REST APIs](../../api/using/about-campaign-standard-apis.md)
+With Campaign Standard APIs, create integrations for Adobe Campaign Standard and build your own ecosystem by interfacing Campaign with the panel of technologies that you use. [Get started with Campaign Standard REST APIs](../../api/using/get-started-apis.md)
 
 ## Additional resources
 

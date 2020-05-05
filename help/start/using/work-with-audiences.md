@@ -97,7 +97,7 @@ These contacts are then visible in the Profiles list and can be targeted in mark
 
 ### Importing data through API calls
 
-Campaign Standard APIs allow you to perform operations to update the database like profiles or services' creation, update or deletion. For more on how to use the APIs, refer to the [dedicated documentation](../../api/using/about-campaign-standard-apis.md).
+Campaign Standard APIs allow you to perform operations to update the database like profiles or services' creation, update or deletion. For more on how to use the APIs, refer to the [dedicated documentation](../../api/using/get-started-apis.md).
 
 >[!CAUTION]
 >
