@@ -62,7 +62,7 @@ Learn more about general guidelines for mobile deliveries
 | Useful pages | Resources for developers |
 |---|---|
 | [Release notes](rn/using/release-notes.md) | [Experience Cloud triggers](integrating/using/about-adobe-experience-cloud-triggers.md) |
-| [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html) | [Campaign APIs](api/using/about-campaign-standard-apis.md) |
+| [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html) | [Campaign APIs](api/using/get-started-apis.md) |
 | [Implementation guide](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html) |  [List of error messages](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [Release planning](rn/using/release-planning.md) | [Campaign data model](developing/using/datamodel-introduction.md) |
 | [Deprecated and removed features](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) | [Multi-solution guide](integrating/using/get-started-campaign-integrations.md) |

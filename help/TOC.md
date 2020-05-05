@@ -385,7 +385,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Data retention](administration/using/data-retention.md)
        + [Updates and maintenance operations](administration/using/updates-and-maintenance-operations.md)
 + Working with APIs {#working-with-apis}  
-  + [Get started with Campaign Standard APIs](api/using/about-campaign-standard-apis.md)
+  + [Get started with Campaign Standard APIs](api/using/get-started-apis.md)
   + About Campaign Standard APIs {#about-campaign-standard-apis}
        + [Why using Campaign Standard APIs](api/using/why-using-campaign-standard-apis.md)
        + [Setting up API access](api/using/setting-up-api-access.md)

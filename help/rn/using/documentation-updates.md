@@ -154,7 +154,7 @@ A new page about general guidelines for Mobile deliveries in Adobe Campaign Stan
 
 The Working with Campaign and Experience Manager documentation has been updated with a new section **Tips on how to use Campaign-Experience Manager integration**. [Read more](../../integrating/using/integrating-with-experience-manager.md#tips-aem)
 
-The APIs documentation homepage has been improved with redirections to the different topics. [Read more](../../api/using/about-campaign-standard-apis.md)
+The APIs documentation homepage has been improved with redirections to the different topics. [Read more](../../api/using/get-started-apis.md)
 
 ## Documentation updates - December 2019 {#doc-updates-december-2019}
 
@@ -176,7 +176,7 @@ The Control Panel documentation has been integrated into the new collaborative d
 
 The **Indicator calculation** table has been updated. [Read more](../../reporting/using/indicator-calculation.md)
 
-The APIs documentation set has been integrated into Campaign Standard documentation.[Read more](../../api/using/about-campaign-standard-apis.md)
+The APIs documentation set has been integrated into Campaign Standard documentation.[Read more](../../api/using/get-started-apis.md)
 
 The Creating a personalized email getting started guide has been moved and updated. [Read more](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
 
@@ -324,7 +324,7 @@ Added a section on updates and maintenance operations. [Read more](../../adminis
 
 Information was added on the new sorting option in the **Transfer file** activity. [Read more](../../automating/using/transfer-file.md)
 
-The [REST APIs documentation](../../api/using/about-campaign-standard-apis.md) was updated:
+The [REST APIs documentation](../../api/using/get-started-apis.md) was updated:
 
 * A new section was added, with generic information on why using Campaign Standard REST APIs.
 * A collection of pre-designed API requests has been made available, representing common use cases.
@@ -694,7 +694,7 @@ The SMS documentation has been updated with some clarification added to the [SMS
 
 New section dedicated to workflow management via the API. [Read more](../../api/using/controlling-a-workflow.md)
 
-New section dedicated to primary keys and the use of a business ID as a key in the API. [Read more](../../api/using/about-campaign-standard-apis.md)
+New section dedicated to primary keys and the use of a business ID as a key in the API. [Read more](../../api/using/get-started-apis.md)
 
 Information added on simple and multiple filtering in the API. [Read more](../../api/using/filtering.md)
 
@@ -846,7 +846,7 @@ Linked resources in REST APIs - [Read more](../../developing/using/updating-the-
 
 Triggers integration: two use cases have been added. [Read more](../../integrating/using/abandonment-triggers-use-cases.md)
 
-We have redesigned the developer API documentation with new information and code snippets for an improved user experience. [Read more](../../api/using/about-campaign-standard-apis.md)
+We have redesigned the developer API documentation with new information and code snippets for an improved user experience. [Read more](../../api/using/get-started-apis.md)
 
 Discover examples of the new [Read audience](../../automating/using/read-audience.md) and [External signal](../../automating/using/external-signal.md) workflow activities.
 
@@ -856,7 +856,7 @@ Discover examples of the new [Read audience](../../automating/using/read-audienc
 
 Log export for external reporting - [Read more](../../automating/using/exporting-logs.md)
 
-Transactional Messaging API - [Read more](../../api/using/about-campaign-standard-apis.md)
+Transactional Messaging API - [Read more](../../api/using/get-started-apis.md)
 
 Marketing capabilities for transactional messages - [read more](../../channels/using/profile-transactional-messages.md)
 
