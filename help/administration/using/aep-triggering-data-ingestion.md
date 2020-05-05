@@ -123,7 +123,7 @@ Possible responses to the GET operation are:
     "requestId": 3520,
     "status": "Success"
     }
-    ````
+    ```
 
 * Ingest request failed with 0 record ingested:
 
@@ -139,7 +139,7 @@ Possible responses to the GET operation are:
 
 * Ingest request faild, with some record uploaded under a batch:
 
-    ````
+    ```
     {
     "batchId": "<value>",
     "info": "Mapping Id: <value>. ACP-880096 Sync Job failed to upload. Please check the error in the Platform UI.",
