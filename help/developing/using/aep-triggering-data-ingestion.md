@@ -28,8 +28,8 @@ This page describes how to trigger and retrieve the ingestion status of your dat
 
 Before using the APIs, the data mapping must first have been configured and published within Campaign Standard interface. For more on thisn refer to these sections:
 
-* [Mapping definition](../../administration/using/aep-mapping-definition.md)
-* [Mapping activation](../../administration/using/aep-mapping-activation.md)
+* [Mapping definition](../../developing/using/aep-mapping-definition.md)
+* [Mapping activation](../../developing/using/aep-mapping-activation.md)
 
 Once the data mapping is created, you must stop it from running so that you can trigger it from the APIs whenever you want. To do this, follow these steps:
 
@@ -102,7 +102,7 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 
 >[!NOTE]
 >
->Detailed information about the XDM mapping request status and its related jobs is available in Campaign Standard interface, in the **!UICONTROL [Status of data export to platform]** menu (see [Mapping activation](../../administration/using/aep-mapping-activation.md)).
+>Detailed information about the XDM mapping request status and its related jobs is available in Campaign Standard interface, in the **!UICONTROL [Status of data export to platform]** menu (see [Mapping activation](../../developing/using/aep-mapping-activation.md)).
 
 The GET operation returns the information below:
 

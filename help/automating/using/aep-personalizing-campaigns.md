@@ -54,6 +54,6 @@ To do this, you must add these attributes into the **[!UICONTROL Read audience]*
 
 For more information on how to create and personalize deliveries, refer to the Campaign Standard documentation:
 
-* [Discovering communication channels](../../channels/using/discovering-communication-channels.md)
+* [Discovering communication channels](../../channels/using/get-started-communication-channels.md)
 * [About channel activities](../../automating/using/about-channel-activities.md)
 * [Personalizing deliveries](../../designing/using/personalization.md)
