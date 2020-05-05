@@ -18,6 +18,10 @@ snippet: y
 
 In  addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), this page lists all the new updates in Adobe Campaign Standard documentation.
 
+## Documentation updates - May 2020 {#doc-updates-may-2020}
+
+* Campaign Standard overview page has been enriched and reorganized into thematic topics [Read more](../../start/using/about-campaign-standard.md)
+
 ## Release 20.3 - May 2020 {#release-20-3---may-2020}
 
 **New capabilities included in the release**
