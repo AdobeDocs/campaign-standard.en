@@ -84,7 +84,7 @@ By default, the technical worflow starts every 15 minutes. If needed, it can be 
 
    ![](assets/launch_11.png)
 
-Your workflow will now restart.
+Your workflow will now restart and synchronize the Adobe Launch mobile properties imported in Adobe Campaign Standard.
 
 ## Setting up your Adobe Experience Platform Launch application in Adobe Campaign {#set-up-campaign}
 
