@@ -255,7 +255,7 @@ To access reports concerning your transactional message, use the **[!UICONTROL R
 
 You can suspend publishing your transactional message by using the **[!UICONTROL Pause]** button, for example, to modify the data contained in the message. The events are therefore no longer processed, but instead kept in a queue in the Adobe Campaign database.
 
-The queued events are kept during a period of time that is defined in the REST API (see the [REST API documentation](../../api/using/about-campaign-standard-apis.md)) or in the trigger event if you are using the Triggers core service (see [Working with Campaign and Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
+The queued events are kept during a period of time that is defined in the REST API (see the [REST API documentation](../../api/using/get-started-apis.md)) or in the trigger event if you are using the Triggers core service (see [Working with Campaign and Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
 
 ![](assets/message-center_pause.png)
 

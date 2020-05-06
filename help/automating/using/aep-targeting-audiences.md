@@ -44,7 +44,7 @@ To activate an Adobe Experience Platform audience into your workflows, follow th
 
     ![](assets/aep_wkf_readaudience_namespace.png)
 
-    This list contains all the Experience Data Model (XDM) mappings that have been configured on your instance. For more on Adobe Experience Platform Data Connector, refer to [this dedicated document](../../administration/using/aep-about-data-connector.md).
+    This list contains all the Experience Data Model (XDM) mappings that have been configured on your instance. For more on Adobe Experience Platform Data Connector, refer to [this dedicated document](../../developing/using/aep-about-data-connector.md).
 
     ![](assets/aep_wkf_readaudience_namespace2.png)
 
@@ -62,7 +62,7 @@ You can now configure your workflow with other activities. You can, for example,
 
 For more on how to use workflows and deliveries, refer to these sections:
 
-* [Discovering workflows](../../automating/using/discovering-workflows.md)
+* [Discovering workflows](../../automating/using/get-started-workflows.md)
 * [Building a workflow](../../automating/using/building-a-workflow.md)
-* [Discovering communication channels](../../channels/using/discovering-communication-channels.md)
+* [Discovering communication channels](../../channels/using/get-started-communication-channels.md)
 * [About channel activities](../../automating/using/about-channel-activities.md)

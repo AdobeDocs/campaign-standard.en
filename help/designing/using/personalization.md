@@ -108,8 +108,6 @@ The name of the content block appears in the editor and it is highlighted in yel
 
 The out-of-the-box content blocks are:
 
-The out-of-the-box content blocks are:
-
 * **[!UICONTROL Database URL in emails (EmailUrlBase)]**: This content block can only be used in a **delivery**.
 * **[!UICONTROL Mirror page URL (MirrorPageUrl)]**: This content block can only be used in a **delivery**.
 * **[!UICONTROL Link to mirror page (MirrorPage)]**: This content block can only be used in a **delivery**.

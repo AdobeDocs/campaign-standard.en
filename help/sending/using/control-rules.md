@@ -41,7 +41,7 @@ Label | Channel | Execution phase | Description
  **[!UICONTROL Check URL labels]** | Email | At the start of personalization | Checks that each tracking URL has a label.
  **[!UICONTROL Check URLs]** | Email | At the start of personalization | Checks the tracking URLs (presence of the "&" character).
 
-## Control rules execution phases (control-rules-execution-phases)
+## Control rules execution phases {#control-rules-execution-phases}
 
 Control rules can be applied at different phases of the delivery's life cycle:
 

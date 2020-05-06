@@ -86,7 +86,7 @@ snippet: y
 
 >[!NOTE]
 >
->Adobe Experience Platform features in Campaign Standard are currently in beta, which may be subject to frequent updates without notice. Refer to the detailed documentation: [Experience Platform Data Connector](../../administration/using/aep-about-data-connector.md), [Audience Destinations](../../audiences/using/aep-about-audience-destinations-service.md)
+>Adobe Experience Platform features in Campaign Standard are currently in beta, which may be subject to frequent updates without notice. Refer to the detailed documentation: [Experience Platform Data Connector](../../developing/using/aep-about-data-connector.md), [Audience Destinations](../../audiences/using/aep-about-audience-destinations-service.md)
 
 * In workflow logs, every 10 minutes, Campaign now displays the number of records already processed by the job that is currently running.
 * Fixed an issue that could occur when importing an Adobe Experience Platform profile that had been deleted from the database.
@@ -133,7 +133,7 @@ snippet: y
  <tbody> 
   <tr> 
    <td> <p>The Adobe Experience Platform Data Connector is now integrated with Adobe Campaign Standard. You can make your Campaign data available on Adobe Experience Platform by mapping XTK data (data ingested in Campaign) to Adobe Experience Platform Data Model (XDM). </p>
-    <p>Please note this capability is only available to customers hosted on Azure. For more information about this capability and conditions to activate it, refer to the <a href="../../administration/using/aep-about-data-connector.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">how-to video</a>.</p>
+    <p>Please note this capability is only available to customers hosted on Azure. For more information about this capability and conditions to activate it, refer to the <a href="../../developing/using/aep-about-data-connector.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">how-to video</a>.</p>
    </td> 
   </tr> 
  </tbody> 

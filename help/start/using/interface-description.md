@@ -98,7 +98,7 @@ The **[!UICONTROL Resources]** icon gives you access to the following functional
 
 ### Administration {#administration}
 
-The **[!UICONTROL Administration]** icon gives you access to the advanced functionalities that can only be carried out by functional administrator. For more on this, refer to the [Administration](../../administration/using/about-administrating-adobe-campaign.md) section.
+The **[!UICONTROL Administration]** icon gives you access to the advanced functionalities that can only be carried out by functional administrator. For more on this, refer to the [Administration](../../administration/using/get-started-campaign-administration.md) section.
 
 ## Central zone {#central-zone}
 

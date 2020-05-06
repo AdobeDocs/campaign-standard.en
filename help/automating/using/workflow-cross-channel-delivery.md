@@ -24,8 +24,8 @@ The objective here is to select an audience from the recipients of the database 
 
 For more details on workflows and the different channels available in Adobe Campaign, check the following documents:
 
-* [Discovering workflows](../../automating/using/discovering-workflows.md)
-* [Discovering communication channels](../../channels/using/discovering-communication-channels.md)
+* [Discovering workflows](../../automating/using/get-started-workflows.md)
+* [Discovering communication channels](../../channels/using/get-started-communication-channels.md)
 
 ## Creating a workflow {#creating-workflow}
 

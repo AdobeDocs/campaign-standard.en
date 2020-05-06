@@ -19,7 +19,7 @@ Related topics:
 
 * [Creating or extending the resource](../../developing/using/creating-or-extending-the-resource.md)
 * [Defining identification keys](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
-* [Campaign Standard REST APIs](../../api/using/about-campaign-standard-apis.md)
+* [Campaign Standard REST APIs](../../api/using/get-started-apis.md)
 
 ## Step 1: Configure the identification key{#step-1-configure-the-identification-key}
 

@@ -1,5 +1,5 @@
 ---
-title: About dynamic reports
+title: Get started with dynamic reports
 description: With dynamic reports, drag and drop variables and dimensions into your freeform environment and analyze the success of your campaigns.
 page-status-flag: never-activated
 uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
@@ -14,24 +14,13 @@ internal: n
 snippet: y
 ---
 
-# About dynamic reports{#about-dynamic-reports}
+# Get started with dynamic reports {#about-dynamic-reports}
 
 Dynamic Reporting provides fully customizable and real-time  reports. It adds access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks. With the drag-and-drop interface, you can explore data, determine how your email campaigns performed against your most important customer segments and measure their impact on recipients.
 
 >[!NOTE]
 >
 >Only users with administration rights or with organizational units set to **All** can create or save a new report. For more on this, refer to this [section](../../administration/using/users-management.md).
-
-![](assets/dynamic_report_intro.png)
-
-Thanks to its drag and drop menu and customizable visualizations, the dynamic reports feature allows you to combine dimensions, metrics and time range in any combination, with unlimited breakdowns and comparisons.
-
-
-**Related topics:**
-
-* [Report list](../../reporting/using/defining-the-report-period.md)
-* [Organizational units](../../administration/using/organizational-units.md)
-* [Dynamic reports](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/reporting/creating-a-dynamic-report.html) video
 
 ## Accessing dynamic reports {#accessing-dynamic-reports}
 

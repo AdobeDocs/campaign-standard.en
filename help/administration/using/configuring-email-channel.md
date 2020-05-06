@@ -34,13 +34,18 @@ The email configuration screen allows to define the parameters for the email cha
 
 ![](assets/channels_1.png)
 
-* **Header parameters of sent emails**
+* **Authorized masks fields**
 
-  In this section, you can specify the **[!UICONTROL masks]** authorized for the sender address and the error address. If several masks are used, they must be separated by commas. When these fields are populated, Adobe Campaign checks that the addresses entered are valid during the message preparation stage. This operating mode ensures that no addresses are used that could trigger deliverability issues. Both sender and error addresses are set up by Adobe. You need to contact the Adobe Customer Care team to update them.
+  The **[!UICONTROL Header parameters of sent emails]** lists the authorized email addresses that you can use to send emails to your recipients (sender address) and to notify them of any errors (error address).  Adobe Campaign checks that the addresses entered are valid during the message preparation stage. This operating mode ensures that no addresses are used that could trigger deliverability issues.
+    * Both sender and error addresses are set up by Adobe. Those fields cannot be empty.
+    * You cannot edit those fields. To update an address, contact the Adobe Customer Care team.
+    * To add another address, you can use the [Control Panel](https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html) to set up a new subdomain, or contact the Adobe Customer Care team. Note that if several masks are used, they will be separated by commas.
+    * It is a good practice to set addresses using a star such as *@yourdomain.com: it enables you to use any address ending with your subdomain name.
 
 * **Deliverability**
 
-  This ID is provided by the Adobe Customer Care team. It is mandatory for deliverability reports to work correctly.
+  The **[!UICONTROL Delivery reports ID]** is provided by the Adobe Customer Care team. It identifies each instance with a deliverability ID which is used in the technical deliverability reports.
+  <!--The Technical Deliverability report is not accessible through the UI in ACS. It will be replaced with 250ok in the future (project starting).-->
 
 * **Delivery parameters**
 
@@ -67,6 +72,7 @@ The email configuration screen allows to define the parameters for the email cha
   In the **[!UICONTROL Time between two significant errors]** field, enter a value to define the time the application waits before incrementing the error counter in case of failure. The default value is **"1d"**, for 1 day.
 
   When the **[!UICONTROL Maximum number of errors before quarantine]** value is reached, the email address is then quarantined. The default value is **"5"**: the address will be quarantined on the fifth error. This means that the contact will be automatically excluded from subsequent deliveries.
+  <!--Actually the way ACS works is that the address is already on the quarantine list on the first bounce, but with a different status meaning that the error count has started.-->
 
   For more on quarantines, see [Understanding quarantine management](../../sending/using/understanding-quarantine-management.md).
 

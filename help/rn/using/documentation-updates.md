@@ -18,6 +18,12 @@ snippet: y
 
 In  addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), this page lists all the new updates in Adobe Campaign Standard documentation.
 
+## Documentation updates - May 2020 {#doc-updates-may-2020}
+
+Campaign Standard overview page has been enriched and reorganized into thematic topics. [Read more](../../start/using/about-campaign-standard.md)
+
+The Email channel parameters section has been clarified with further information regarding the authorized masks fields and the delivery reports ID. [Read more](../../administration/using/configuring-email-channel.md)
+
 ## Release 20.3 - May 2020 {#release-20-3---may-2020}
 
 **New capabilities included in the release**
@@ -34,9 +40,9 @@ Information has been added in the profile substitution section regarding the 500
 
 A new section dedicated to Privacy and Consent has been added to core documentation. [Read more](../../start/using/privacy.md)
 
-* A use case has been added to allow you to convert legacy editor emails into the Email Designer. [Read more](../../designing/using/converting-emails-from-legacy-editor.md)
+A use case has been added to allow you to convert legacy editor emails into the Email Designer. [Read more](../../designing/using/converting-emails-from-legacy-editor.md)
 
-* A frequently asked question section has been added about the Email Designer. [Read more](../../designing/using/faq-email-designer.md)
+A frequently asked question section has been added about the Email Designer. [Read more](../../designing/using/faq-email-designer.md)
 
 ## Documentation updates - April 2020 {#doc-updates-april-2020}
 
@@ -44,7 +50,7 @@ The Microsoft Dynamics 365 integration with Adobe Campaign Standard documentatio
 
 Additional resources have been added to the documentation home page. [Read more](../../campaign-standard-home.md)
 
-Information on the Experience Cloud ID Service (ECID) has been added to the Adobe Experience Platform Data Connector documentation. [Read more](../../administration/using/aep-about-data-connector.md#key-concepts)
+Information on the Experience Cloud ID Service (ECID) has been added to the Adobe Experience Platform Data Connector documentation. [Read more](../../developing/using/aep-about-data-connector.md#key-concepts)
 
 The Configuring transactional messaging section has been improved with information on how to access the latest transactional events and updated screenshots. [Read more](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
 
@@ -112,7 +118,7 @@ Information has been added on the **[!UICONTROL History in days field]** availab
 
 **New capabilities included in the release**
 
-Adobe Experience Platform Data Connector (beta) - [Read more](../../administration/using/aep-about-data-connector.md)
+Adobe Experience Platform Data Connector (beta) - [Read more](../../developing/using/aep-about-data-connector.md)
 
 Audience Destinations (beta) - [Read more](../../audiences/using/aep-about-audience-destinations-service.md)
 
@@ -148,7 +154,7 @@ A new page about general guidelines for Mobile deliveries in Adobe Campaign Stan
 
 The Working with Campaign and Experience Manager documentation has been updated with a new section **Tips on how to use Campaign-Experience Manager integration**. [Read more](../../integrating/using/integrating-with-experience-manager.md#tips-aem)
 
-The APIs documentation homepage has been improved with redirections to the different topics. [Read more](../../api/using/about-campaign-standard-apis.md)
+The APIs documentation homepage has been improved with redirections to the different topics. [Read more](../../api/using/get-started-apis.md)
 
 ## Documentation updates - December 2019 {#doc-updates-december-2019}
 
@@ -170,7 +176,7 @@ The Control Panel documentation has been integrated into the new collaborative d
 
 The **Indicator calculation** table has been updated. [Read more](../../reporting/using/indicator-calculation.md)
 
-The APIs documentation set has been integrated into Campaign Standard documentation.[Read more](../../api/using/about-campaign-standard-apis.md)
+The APIs documentation set has been integrated into Campaign Standard documentation.[Read more](../../api/using/get-started-apis.md)
 
 The Creating a personalized email getting started guide has been moved and updated. [Read more](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
 
@@ -198,7 +204,7 @@ A new chart presenting the transactional messaging publication process has been 
 
 The Delivery Best Practices getting started guide has been moved and updated. [Read more](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
-A new section has been added. It provides an overview of the different methods that allow you to enrich Campaign Standard database. [Read more](../../start/using/enriching-campaign-database.md)
+A new section has been added. It provides an overview of the different methods that allow you to enrich Campaign Standard database. [Read more](../../audiences/using/enriching-campaign-database.md)
 
 A new section has been added describing how to style links with the Email Designer. [Read more](../../designing/using/styles.md#about-styling-links)
 
@@ -318,7 +324,7 @@ Added a section on updates and maintenance operations. [Read more](../../adminis
 
 Information was added on the new sorting option in the **Transfer file** activity. [Read more](../../automating/using/transfer-file.md)
 
-The [REST APIs documentation](../../api/using/about-campaign-standard-apis.md) was updated:
+The [REST APIs documentation](../../api/using/get-started-apis.md) was updated:
 
 * A new section was added, with generic information on why using Campaign Standard REST APIs.
 * A collection of pre-designed API requests has been made available, representing common use cases.
@@ -352,7 +358,7 @@ The Creating an email section has been updated to reflect the latest interface c
 
 The [SMS connector protocol and settings](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html) Knowledge Base article has been updated with the new option added to the SMS external account to limit the number of MTA instances allowed to connect to the SMPP provider.
 
-The Get Started Guide has been enriched and reorganized. [Read more](../../start/using/campaign-orchestration.md)
+The Get Started Guide has been enriched and reorganized. [Read more](../../start/using/about-campaign-standard.md)
 
 The Deprecated and Removed features page has been updated. [Read more](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
@@ -380,7 +386,7 @@ A new section comparing the different email authoring options in Adobe Campaign 
 
 The Creating custom content blocks section has been enhanced with details on targeting dimensions. [Read more](../../designing/using/personalization.md#creating-custom-content-blocks)
 
-A warning indicating that the Email Designer does not support Internet Explorer 11 has been added. [Read more](../../administration/using/compatible-browsers.md)
+A warning indicating that the Email Designer does not support Internet Explorer 11 has been added. [Read more](../../administration/using/about-configuration-guidelines.md)
 
 Warnings on the impact of re-drafting have been added to the Deleting a resource section. [Read more](../../developing/using/deleting-a-resource.md)
 
@@ -442,7 +448,7 @@ Added information on the new field in the Update data activity that allows you t
 
 Updated the [Importing content from a URL](../../designing/using/using-existing-content.md#importing-content-from-a-url) documentation with information related to the Email designer.
 
-The Microsoft Edge (latest version) was added to the list of compatible browsers for computers. [Read more](../../administration/using/compatible-browsers.md)
+The Microsoft Edge (latest version) was added to the list of compatible browsers for computers. [Read more](../../administration/using/about-configuration-guidelines.md)
 
 Added information on the new option in the Extract file activity that prevents from generating a file if the inbound transition is empty. [Read more](../../automating/using/extract-file.md)
 
@@ -576,7 +582,7 @@ Updated the technical workflow list. [Read more](../../administration/using/tech
 
 Updated the scheduler activity section. [Read more](../../automating/using/scheduler.md)
 
-Updated the list of help materials about Campaign and Adobe solutions integration. [Read more](../../integrating/using/about-campaign-integrations.md).
+Updated the list of help materials about Campaign and Adobe solutions integration. [Read more](../../integrating/using/get-started-campaign-integrations.md).
 
 Updated Campaign Standard in-product contextual help.
 
@@ -590,7 +596,7 @@ Enrichment activity - enrich data based on previous transitions - [Read more](..
 
 **Other documentation updates coming with the release**
 
-Most URLs for Campaign and Adobe solutions integrations have changed! Check your bookmarks! [Read more](../../integrating/using/about-campaign-integrations.md)
+Most URLs for Campaign and Adobe solutions integrations have changed! Check your bookmarks! [Read more](../../integrating/using/get-started-campaign-integrations.md)
 
 The datamodel v1 is now available with the SQL structure for built-in resources - [Read more](https://docs.campaign.adobe.com/doc/standard/en/datamodel/datamodel.html)
 
@@ -688,7 +694,7 @@ The SMS documentation has been updated with some clarification added to the [SMS
 
 New section dedicated to workflow management via the API. [Read more](../../api/using/controlling-a-workflow.md)
 
-New section dedicated to primary keys and the use of a business ID as a key in the API. [Read more](../../api/using/about-campaign-standard-apis.md)
+New section dedicated to primary keys and the use of a business ID as a key in the API. [Read more](../../api/using/get-started-apis.md)
 
 Information added on simple and multiple filtering in the API. [Read more](../../api/using/filtering.md)
 
@@ -774,13 +780,13 @@ Email BCC - [Read more](../../administration/using/configuring-email-channel.md#
 
 **Other documentation updates coming with the release**
 
-The "Deliveries" guide has been reorganized and renamed "Channels". [Read more](../../channels/using/discovering-communication-channels.md)
+The "Deliveries" guide has been reorganized and renamed "Channels". [Read more](../../channels/using/get-started-communication-channels.md)
 
 Numerous screenshots have been updated to reflect interface changes.
 
 A new technote is now available: "Integrating the Adobe Mobile SDK with your mobile app". [Read more](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html)
 
-Instructions to configure People core service or Audience Manager integration with Adobe Campaign have been updated. [Read more](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+Instructions to configure People core service or Audience Manager integration with Adobe Campaign havget-started-communication-channels.mdegrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 Authorizations table revised to make certain roles’ function clearer. [Read more](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
 
@@ -840,7 +846,7 @@ Linked resources in REST APIs - [Read more](../../developing/using/updating-the-
 
 Triggers integration: two use cases have been added. [Read more](../../integrating/using/abandonment-triggers-use-cases.md)
 
-We have redesigned the developer API documentation with new information and code snippets for an improved user experience. [Read more](../../api/using/about-campaign-standard-apis.md)
+We have redesigned the developer API documentation with new information and code snippets for an improved user experience. [Read more](../../api/using/get-started-apis.md)
 
 Discover examples of the new [Read audience](../../automating/using/read-audience.md) and [External signal](../../automating/using/external-signal.md) workflow activities.
 
@@ -850,7 +856,7 @@ Discover examples of the new [Read audience](../../automating/using/read-audienc
 
 Log export for external reporting - [Read more](../../automating/using/exporting-logs.md)
 
-Transactional Messaging API - [Read more](../../api/using/about-campaign-standard-apis.md)
+Transactional Messaging API - [Read more](../../api/using/get-started-apis.md)
 
 Marketing capabilities for transactional messages - [read more](../../channels/using/profile-transactional-messages.md)
 
@@ -864,5 +870,5 @@ URL change: Assets core service - [Read more](../../integrating/using/working-wi
 
 URL change: People core service - [Read more](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
-Profiles and audiences guide has been reorganized. [Read more](../../audiences/using/about-profiles-and-audiences.md)
+Profiles and audiences guide has been reorganized. [Read more](../../audiences/using/get-started-profiles-and-audiences.md)
 

@@ -30,23 +30,23 @@ All release dates are subject to change: we recommend you visit this page on a r
 
 Environment updates happen in waves, during the indicated timeframes below. Detailed information about this release are available in the [Release Notes](../../rn/using/release-notes.md). If you have any further questions, please contact [Adobe Client Care](https://support.neolane.net/webApp/extranetLogin).
 
-<table> 
- <thead> 
-  <tr> 
-   <th> Environment<br /> </th> 
-   <th> Dates<br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> Stage<br /> </td> 
-   <td> April 27 - 28, 2020<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> Production<br /> </td> 
-   <td> May 4 - 11, 2020<br /> </td> 
-  </tr> 
- </tbody> 
+<table>
+ <thead>
+  <tr>
+   <th> Environment<br /> </th>
+   <th> Dates<br /> </th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td>Stage<br /> </td>
+   <td>Delayed<br /> </td>
+  </tr>
+  <tr>
+   <td> Production<br /> </td>
+   <td>Delayed<br /> </td>
+  </tr>
+ </tbody>
 </table>
 
 

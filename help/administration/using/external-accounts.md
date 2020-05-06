@@ -122,7 +122,7 @@ To help you set up your Amazon S3 account, we advise you to follow these recomme
 
 Adobe Experience Manager external accounts are used when integrating Campaign with Experience Manager.
 
-Process and requirements related to this integration are available in [this document](../../integrating/using/about-campaign-integrations.md).
+Process and requirements related to this integration are available in [this document](../../integrating/using/get-started-campaign-integrations.md).
 
 As you are setting up this new external account, you need to provide the following details:
 

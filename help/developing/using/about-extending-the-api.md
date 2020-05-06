@@ -31,4 +31,4 @@ The steps to expose extended fields in the public API are as follows:
 **Related topics:**
 
 * [About custom resources](../../developing/using/data-model-concepts.md)
-* [API documentation](../../api/using/about-campaign-standard-apis.md)
+* [API documentation](../../api/using/get-started-apis.md)
