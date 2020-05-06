@@ -65,20 +65,34 @@ To complete the configuration, complete the following steps:
 
 ## Sync Mobile app AEPSDK from Launch technical workflow {#aepsdk-workflow}
 
-SyncWithLaunch</span> <br /> </td> 
-   <td> This workflow synchronizes the Adobe Launch mobile properties imported in Adobe Campaign Standard. It is started every 15 minutes.
+>[!IMPORTANT]
+>
+>This feature is a beta capability in Adobe Campaign. You will need to submit a ticket to Adobe Customer Care (either directly or through your Adobe contact) to have the **[!UICONTROL sync Mobile app AEPSDK from Launch]** technical workflow enabled in your Adobe Campaign instance.
 
-   The synchronization between Adobe Launch and Campaign Standard has been improved by using the syncWithLaunch technical workflow. This workflow enables automatic importing of all Adobe Launch mobile properties into Adobe Campaign Standard. For more information, refer to [this page](../../administration/using/technical-workflows.md).
-  
-  You will need to submit a ticket to Adobe Customer Care (either directly or through your Adobe contact) to have the syncWithLaunch technical workflow enabled in your Campaign instance. (CAMP-40082)
+After creating and configuring your mobile property in Experience Platform Launch, the **[!UICONTROL Sync Mobile app AEPSDK from Launch]** technical workflow will now synchronize the Adobe Launch mobile properties imported in Adobe Campaign Standard.
+
+By default, the technical worflow starts every 15 minutes. If needed, it can be manually restarted:
+
+1. In Adobe Campaign Standard, from the advanced menu, select **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]**.
+1. Open the **[!UICONTROL Sync Mobile app AEPSDK from Launch (syncWithLaunch)]** workflow.
+
+   ![](assets/launch_10.png)
+
+1. Click on the **[!UICONTROL Scheduler]** activity.
+
+1. Select **[!UICONTROL Immediate execution]**.
+
+   ![](assets/launch_11.png)
+
+Your workflow will now restart.
 
 ## Setting up your Adobe Experience Platform Launch application in Adobe Campaign {#set-up-campaign}
 
 To use an Experience Platform Launch mobile property in Campaign, you also need to configure this property in Adobe Campaign. In Adobe Campaign, ensure that the IMS user is part of the Standard User and Administrator Product Profiles.
 
-For users with the syncWithLaunch technical workflow feature flag, you will need to wait for the technical workflow to run and sync the Launch mobile property to Adobe Campaign. You can then configure it in Adobe Campaign.
+For users with the Sync Mobile app AEPSDK from Launch technical workflow feature flag, you will need to wait for the technical workflow to run and sync the Launch mobile property to Adobe Campaign. You can then configure it in Adobe Campaign.
 
-For more information on syncWithLaunch technical workflow feature flag, refer to this [section](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow).
+For more information on Sync Mobile app AEPSDK from Launch technical workflow feature flag, refer to this [section](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow).
 
 >[!NOTE]
 >
@@ -86,13 +100,17 @@ For more information on syncWithLaunch technical workflow feature flag, refer to
 
 1. From the advanced menu, select **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]**.
 
+   ![](assets/launch.png)
+
 1. Select the mobile application that you created in Experience Platform Launch.
    Its **[!UICONTROL Property Status]** should be **[!UICONTROL Ready to configure]**.
-   
+
    >[!NOTE]
    >
    >By default, to retrieve the list of mobile applications created in Adobe Launch, Campaign Standard uses the value defined in the NmsServer_URL option to look for matching properties.
-   In some cases, the Campaign endpoint for a mobile application may be different from the one defined in NmsServer_URL. In that case, define the endpoint in the Launch_URL_Campaign option. Campaign will use the value from this option to look for matching properties in Adobe Launch..
+   In some cases, the Campaign endpoint for a mobile application may be different from the one defined in NmsServer_URL. In that case, define the endpoint in the Launch_URL_Campaign option. Campaign will use the value from this option to look for matching properties in Adobe Launch.
+
+      ![](assets/launch_4.png)
 
 1. You can change the organizational unit of your mobile application under the **[!UICONTROL Access Authorization]** section to limit access to this mobile application to specific organization units. For more information, refer to this page.
 
@@ -103,6 +121,8 @@ For more information on syncWithLaunch technical workflow feature flag, refer to
 1. Verify that the status of the mobile app has changed from **[!UICONTROL Ready to Configure]** to **[!UICONTROL Configured]**.
 
    When the Experience Platform Launch Campaign extension shows that the pkey has been set up successfully, you can also verify that the property has been set up successfully in Campaign.
+
+      ![](assets/launch_5.png)
 
 1. For this configuration to take effect, the changes need to be published in Experience Platform Launch.
 
@@ -120,7 +140,11 @@ Your mobile application is now ready to be used in Campaign for push notificatio
 
 1. To configure your events, click **[!UICONTROL Create Element]**.
 
+      ![](assets/launch_6.png)
+
 1. Type a name and a description.
+
+      ![](assets/launch_7.png)
 
 1. Click **[!UICONTROL Add]**.
 
@@ -133,6 +157,8 @@ Your mobile application is now ready to be used in Campaign for push notificatio
    >[!NOTE]
    >
    >After successfully adding the certificate in Adobe Campaign Standard, you will no longer be able to change your settings back since only one APNS platform (production or sandbox) can be added to the MCPNS app.
+
+      ![](assets/launch_8.png)
 
 1. Click the **[!UICONTROL Mobile application subscribers]** tab to see a list of subscribers and other information about these subscribers, for example, whether they opted out of your notifications.
 
@@ -150,4 +176,4 @@ After your application is deleted, in Adobe Campaign, verify whether your applic
 
 By clicking on your application in Adobe Campaign, you can choose to completely remove this application from Adobe Campaign by clicking Delete from Campaign.
 
-
+      ![](assets/launch_9.png)
