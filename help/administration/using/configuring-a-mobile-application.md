@@ -116,6 +116,8 @@ For more information on Sync Mobile app AEPSDK from Launch technical workflow fe
 
    Here, the administrator can assign sub organizational units by selecting them from the drop-down.
 
+      ![](assets/launch_12.png)
+
 1. To make the connection between Campaign and Experience Platform Launch, click **[!UICONTROL Save]**.
 
 1. Verify that the status of the mobile app has changed from **[!UICONTROL Ready to Configure]** to **[!UICONTROL Configured]**.
