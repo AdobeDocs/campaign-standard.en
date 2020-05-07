@@ -714,7 +714,7 @@ Detailed list of every components available in Dynamic Reports and some changes 
 
 Detailed list of KPIs shared with Adobe Analytics. [Read more](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
 
-New Dynamic Report video. [Read more](../../start/using/how-to-videos.md)
+New Dynamic Report video.
 
 Added S3 account recommendations. [Read more](../../administration/using/external-accounts.md#amazon-s3-account-recommendations)
 
@@ -756,7 +756,7 @@ Direct Mail Channel - Return To Sender, [Read more](../../channels/using/return-
 
 **Other documentation updates coming with the release**
 
-The [getting started guides](../../start/using/step-by-step-guides.md) and [how-to videos](../../start/using/how-to-videos.md) have been regrouped in a dedicated section.
+The getting started guides and how-to videos have been regrouped in a dedicated section.
 
 The Email rendering documentation has been updated. [Read more](../../sending/using/email-rendering.md)
 
