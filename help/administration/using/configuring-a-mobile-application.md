@@ -35,7 +35,7 @@ To complete the configuration, complete the following steps:
 1. In Adobe Campaign, ensure that you can access the following:
    * **[!UICONTROL Push notification]**
    * **[!UICONTROL In-App message]**
-   * **[!UICONTROL Adobe Places (Beta)]**
+   * **[!UICONTROL Adobe Places]**
 
    If not, contact your account team.
 
