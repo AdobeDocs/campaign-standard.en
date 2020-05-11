@@ -156,7 +156,7 @@ For a Google reCAPTCHA V3 external account, provide the following details:
 >
 >Information needed to configure your external account in Adobe Campaign Standard can be found in the Azure Portal by selecting **[!UICONTROL Settings]** > **[!UICONTROL Access keys]**.
 
-The Azure Blob storage connector can be used to import or export data to Adobe Campaign using a **[!UICONTROLTransfer file]** workflow activity. For more on this, refer to this [section](../../automating/using/transfer-file.md#azure-blob-configuration-wf).
+The Azure Blob storage connector can be used to import or export data to Adobe Campaign using a **[!UICONTROL Transfer file]** workflow activity. For more on this, refer to this [section](../../automating/using/transfer-file.md#azure-blob-configuration-wf).
 
 For a Microsoft Azure Blob storage external account, provide the following details:
 
