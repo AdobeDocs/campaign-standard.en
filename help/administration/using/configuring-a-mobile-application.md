@@ -90,7 +90,7 @@ Your workflow will now restart and synchronize the Adobe Launch mobile propertie
 
 To use an Experience Platform Launch mobile property in Campaign, you also need to configure this property in Adobe Campaign. In Adobe Campaign, ensure that the IMS user is part of the Standard User and Administrator Product Profiles.
 
-For users with the Sync Mobile app AEPSDK from Launch technical workflow feature flag, you will need to wait for the technical workflow to run and sync the Launch mobile property to Adobe Campaign. You can then configure it in Adobe Campaign.
+For users with the Sync Mobile app AEPSDK from Launch technical workflow feature flag enabled, you will need to wait for the technical workflow to run and sync the Launch mobile property to Adobe Campaign. You can then configure it in Adobe Campaign.
 
 For more information on Sync Mobile app AEPSDK from Launch technical workflow feature flag, refer to this [section](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow).
 
