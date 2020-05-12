@@ -36,7 +36,7 @@ The email configuration screen allows to define the parameters for the email cha
 
 * **Authorized masks fields**
 
-  The **[!UICONTROL Header parameters of sent emails]** lists the authorized email addresses that you can use to send emails to your recipients (sender address) and to notify them of any errors (error address).  Adobe Campaign checks that the addresses entered are valid during the message preparation stage. This operating mode ensures that no addresses are used that could trigger deliverability issues.
+  The **[!UICONTROL Header parameters of sent emails]** section lists the authorized email addresses that you can use to send emails to your recipients (sender address) and to enable them to send back automated replies like asynchronous bounces, out-of-office replies, etc. (error address).  Adobe Campaign checks that the addresses entered are valid during the message preparation stage. This operating mode ensures that no addresses are used that could trigger deliverability issues.
     * Both sender and error addresses are set up by Adobe. Those fields cannot be empty.
     * You cannot edit those fields. To update an address, contact the Adobe Customer Care team.
     * To add another address, you can use the [Control Panel](https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html) to set up a new subdomain, or contact the Adobe Customer Care team. Note that if several masks are used, they will be separated by commas.
@@ -49,7 +49,7 @@ The email configuration screen allows to define the parameters for the email cha
 
 * **Delivery parameters**
 
-  Adobe Campaign sends the messages beginning on the start date. The **[!UICONTROL Message delivery duration]** field allows you to specify the duration during which the messages can be sent.
+  Adobe Campaign sends the messages beginning on the start date. The **[!UICONTROL Message delivery duration]** field allows you to specify the time frame in which any message in the delivery that encounters a temporary error or soft bounce will be retried.
 
   >[!IMPORTANT]
   >
@@ -69,7 +69,7 @@ The email configuration screen allows to define the parameters for the email cha
 
 * **Email quarantine parameters**
 
-  In the **[!UICONTROL Time between two significant errors]** field, enter a value to define the time the application waits before incrementing the error counter in case of failure. The default value is **"1d"**, for 1 day.
+  In the **[!UICONTROL Time between two significant errors]** field, enter a value to define the time the application waits before incrementing the error counter in case of a soft-bounced failure. The default value is **"1d"**, for 1 day.
 
   When the **[!UICONTROL Maximum number of errors before quarantine]** value is reached, the email address is then quarantined. The default value is **"5"**: the address will be quarantined on the fifth error. This means that the contact will be automatically excluded from subsequent deliveries.
   <!--Actually the way ACS works is that the address is already on the quarantine list on the first bounce, but with a different status meaning that the error count has started.-->
@@ -98,9 +98,9 @@ Note that the email domains and the MX rules are now managed by the Adobe Campai
 
 ### Bounce mails {#bounce-mails}
 
-Asynchronous bounces are still qualified by the Campaign inMail process through the **[!UICONTROL Bounce mails]** rule.
+Asynchronous bounces are still qualified by the Campaign inMail process through the **[!UICONTROL Bounce mails]** rules.
 
-This rule contains the list of character strings which can be returned by remote servers and which let you qualify the error (**Hard**, **Soft** or **Ignored**).
+These rules contain the list of character strings which can be returned by remote servers and which let you qualify the error (**Hard**, **Soft** or **Ignored**).
 
 >[!NOTE]
 >
