@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Workflow use-case: Building a control group {#building-control-group}
+# Building/Defining a control group {#building-control-group}
 
 To measure the impact of a delivery, you may want to exclude some profiles from your target so that they will not receive a given message. This control group can be used to make a comparison with the behavior of the target population which received the message.
 
