@@ -24,6 +24,8 @@ Campaign Standard overview page has been enriched and reorganized into thematic 
 
 The Email channel parameters section has been clarified with further information regarding the authorized masks fields and the delivery reports ID. [Read more](../../administration/using/configuring-email-channel.md)
 
+The Configuring a mobile application using Adobe Experience Platform SDKs is now avalaible in the core documentation with further information regarding the Sync Mobile app AEPSDK from Launch technical workflow. [Read more](../../administration/using/configuring-a-mobile-application.md)
+
 ## Release 20.3 - May 2020 {#release-20-3---may-2020}
 
 **New capabilities included in the release**
