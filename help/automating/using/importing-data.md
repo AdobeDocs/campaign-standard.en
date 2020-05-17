@@ -123,6 +123,12 @@ Once the request is processed, the encryption / decryption commands will be avai
 
    ![](assets/preprocessing-encryption.png)
 
+>[!NOTE]
+>
+>Note that GPG keys can be added to your instance using the Control Panel, which is available to all customers hosted on AWS (excepted for customers who host their marketing instances on premise).
+>
+>For more on this, refer to [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html).
+
 **Related topics:**
 
 * [Load file](../../automating/using/load-file.md)
