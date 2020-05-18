@@ -36,6 +36,15 @@ To do this in Adobe Campaign Standard, you can create a control group when defin
 1. Launch the delivery preparation. See [Preparing the send](../../sending/using/preparing-the-send.md).
 1. Check the **[!UICONTROL Sending logs]**. You can see the excluded profiles with the [!UICONTROL Ignored] status and **[!UICONTROL Control group]** as the nature of failure.
 
+The control group will then be excluded from the delivery when you confirm sending.
+
+You can extract logs to compare how the control group that did not receive the communication reacted compared to the effective target.
+
+>[!NOTE]
+>
+>As Dynamic Reporting are based on Delivery dimension, we cannot analyze what is excluded. We won’t change this behavior and this is the reason why Dynamic Reporting cannot help us here.
+Also, we won’t build dedicated report for this.
+
 ## Reusing the same control group {#reusing-same-control-group}
 
 The example above enables to create a global control group, as this is stored as a profile attribute independently from deliveries.
