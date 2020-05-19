@@ -48,7 +48,7 @@ Finally, [Data management activities](../../automating/using/about-data-manageme
 Read more:
 
 * [Building a workflow](../../automating/using/building-a-workflow.md)
-* [Executing a workflow](../../automating/using/executing-a-workflow.md)
+* [Executing a workflow](../../automating/using/about-workflow-execution.md)
 * [Workflow best practices](../../automating/using/best-practices-workflows.md)
 
 ## Filter data {#filter-data}

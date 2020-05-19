@@ -154,7 +154,7 @@ This tab lets you activate the **outbound transition** and its label. This speci
 
 ### Execution options
 
-This tab is available in most of the workflow activities. For more information, consult the [Activity properties](../../automating/using/executing-a-workflow.md#activity-properties) section.
+This tab is available in most of the workflow activities. For more information, consult the [Activity properties](../../automating/using/activity-properties.md) section.
 
 ![](assets/externalAPI-options.png)
 
