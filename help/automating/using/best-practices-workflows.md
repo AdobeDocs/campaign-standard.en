@@ -60,7 +60,7 @@ Workflows that have been in pause or fail status for more than 7 days are stoppe
 
 A workflow containing unterminated transitions can still be executed: it will generate a warning message and the workflow will pause once it reaches the transition but will not generate an error. You can also start a workflow without a finished design and complete it as you go along.
 
-For more information, refer to [Executing workflows](../../automating/using//executing-a-workflow.md).
+For more information, refer to [Executing workflows](../../automating/using/about-workflow-execution.md).
 
 ### Time zone
 
@@ -126,7 +126,7 @@ Adobe Campaign offers various logs to better understand your workflow issues.
 
 You can access workflow logs to monitor the execution of your activities. It indexes the operations carried out and execution errors by chronological order. The Logs tab consists in the history of the execution of all or some selected activities.
 The Tasks tab details the execution sequencing of the activities. To get more information on an activity, click a task.
-For more information, refer to [Monitoring workflow execution](../../automating/using/executing-a-workflow.md#monitoring).
+For more information, refer to [Monitoring workflow execution](../../automating/using/monitoring-workflow-execution.md).
 
 #### Troubleshooting data management activities{#troubleshooting-data-management-activities}
 
@@ -154,4 +154,4 @@ For more information, refer to [Delivery alerting](../../sending/using/receiving
 
 **Related topics:**
 
-* [Error Management](../../automating/using/executing-a-workflow.md#error-management)
+* [Error Management](../../automating/using/monitoring-workflow-execution.md)

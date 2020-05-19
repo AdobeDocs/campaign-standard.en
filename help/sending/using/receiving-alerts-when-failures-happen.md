@@ -235,7 +235,7 @@ Here are a few possible reasons for receiving alerting notifications according t
     * A deliverability issue
     * An erroneous workflow
 
-  If the delivery is triggered with a workflow, check if that workflow was correctly started. For more on this, see [Executing a workflow](../../automating/using/executing-a-workflow.md). Otherwise, get in touch with your Adobe Campaign administrator to solve the issue.
+  If the delivery is triggered with a workflow, check if that workflow was correctly started. For more on this, see [Executing a workflow](../../automating/using/about-workflow-execution.md). Otherwise, get in touch with your Adobe Campaign administrator to solve the issue.
 
 * **[!UICONTROL Deliveries with preparation failed]**: An error can occur during delivery preparation in the following cases:
 
