@@ -43,7 +43,7 @@ The **[!UICONTROL Union]** activity is used to combine the populations from inbo
 
 1. Check the **[!UICONTROL Use common additional data only]** box if you would like to keep only the additional data that is in all inbound transitions.
 1. If you would like to limit the size of the final population, check the **[!UICONTROL Limit size of generated population]** box. The size can be specified in the **[!UICONTROL Maximum number of records]** field.
-1. If needed, manage the activity's [Transitions](../../automating/using/executing-a-workflow.md#managing-an-activity-s-outbound-transitions) to access the advanced options for the calculated population.
+1. If needed, manage the activity's [Transitions](../../automating/using/activity-properties.md) to access the advanced options for the calculated population.
 1. Confirm the configuration of your activity and save your workflow.
 
 ## Example {#example}

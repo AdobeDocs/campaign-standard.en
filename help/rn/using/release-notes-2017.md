@@ -244,7 +244,7 @@ _Reports_
 
 _Workflows_
 
-* You can now filter workflow logs (period of time and text search). For more information, refer to the [detailed documention](../../automating/using/executing-a-workflow.md#monitoring).
+* You can now filter workflow logs (period of time and text search). For more information, refer to the [detailed documention](../../automating/using/monitoring-workflow-execution.md).
 * An option is now available in workflow deliveries to deactivate the confirmation before the send.
 * Fixed an issue which prevented you from setting an outbound transition in the creation wizard of recurring delivery.
 * Fixed an issue that occurred when using a workflow query activity based on a custom resource field with an enumeration that had a lot of values

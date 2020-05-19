@@ -70,7 +70,7 @@ To configure a deduplication activity, you must enter a label, the method and th
     
       ![](assets/deduplication_4.png)
 
-1. If needed, manage the activity's [Transitions](../../automating/using/executing-a-workflow.md#managing-an-activity-s-outbound-transitions) to access the advanced options for the outbound population.
+1. If needed, manage the activity's [Transitions](../../automating/using/activity-properties.md) to access the advanced options for the outbound population.
 1. Confirm the configuration of your activity and save your workflow.
 
 ## Example 1: Identifying duplicates before a delivery {#example-1--identifying-duplicates-before-a-delivery}

@@ -38,7 +38,7 @@ The **[!UICONTROL Intersection]** activity is generally used to carry out additi
     * **[!UICONTROL A selection of columns]**: Select this option to define the list of columns on which the data reconciliation will be applied. You must first select the primary set (the one which contains the source data), then specify the fields to use for the join.
 
 1. Check the **[!UICONTROL Use common additional data only]** box if you would like to keep only the additional data that is in all inbound transitions.
-1. If needed, manage the activity's [Transitions](../../automating/using/executing-a-workflow.md#managing-an-activity-s-outbound-transitions) to access the advanced options for the outbound population.
+1. If needed, manage the activity's [Transitions](../../automating/using/activity-properties.md) to access the advanced options for the outbound population.
 1. Confirm the configuration of your activity and save your workflow.
 
 ## Example {#example}
