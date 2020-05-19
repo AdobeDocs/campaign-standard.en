@@ -38,7 +38,7 @@ A primary set is defined amongst inbound transitions. Members of other inbound t
    >
    >The inbound transitions have to contain the same type of population. For example, if the primary set contains test profiles, the other transitions have to also contain test profiles.
 
-1. If needed, manage the activity's [Transitions](../../automating/using/executing-a-workflow.md#managing-an-activity-s-outbound-transitions) to access the advanced options for the outbound population.
+1. If needed, manage the activity's [Transitions](../../automating/using/activity-properties.md) to access the advanced options for the outbound population.
 1. Confirm the configuration of your activity and save your workflow.
 
 ## Example {#example}

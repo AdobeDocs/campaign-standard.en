@@ -88,7 +88,7 @@ snippet: y
 * Checkboxes can now be mandatory in a landing page.
 * When downloading the CSV file of a Dynamic report, the limit of 200 rows has been removed. You can now include every row of your report. (CAMP-40810)
 * Added ES-US language in the list of out-of-the-box languages for multilingual emails. (CAMP-42279)
-* Files downloaded with a Transfer File activity will now be deleted after X days, where X is determined by the **History in days** field under the **Execution** menu in the Workflow properties. [Read more](../../automating/using/executing-a-workflow.md#workflow-properties)
+* Files downloaded with a Transfer File activity will now be deleted after X days, where X is determined by the **History in days** field under the **Execution** menu in the Workflow properties. [Read more](../../automating/using/managing-execution-options.md)
 
 **Experience Platform integrations**
 

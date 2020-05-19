@@ -36,7 +36,7 @@ External API Activity (GA) - [Read more](../../automating/using/external-api.md)
 
 **Other documentation updates coming with the release**
 
-Information has been added on the **[!UICONTROL History in days]** field in workflows' properties that now includes files downloaded by the **[!UICONTROL Transfer file]** activity. [Read more](../../automating/using/executing-a-workflow.md)
+Information has been added on the **[!UICONTROL History in days]** field in workflows' properties that now includes files downloaded by the **[!UICONTROL Transfer file]** activity. [Read more](../../automating/using/managing-execution-options.md)
 
 Information has been added in the profile substitution section regarding the 500 characters limit of the subject line prefix. [Read more](../../sending/using/testing-messages-using-target.md)
 
@@ -114,7 +114,7 @@ A new section dedicated to Campaign Standard data model best practices is now av
 
 Information has been added on the **[!UICONTROL Workflow]** built-in right. [Read more](../../administration/using/list-of-roles.md)
 
-Information has been added on the **[!UICONTROL History in days field]** available in workflows' properties. [Read more](../../automating/using/executing-a-workflow.md)
+Information has been added on the **[!UICONTROL History in days field]** available in workflows' properties. [Read more](../../automating/using/about-workflow-execution.md)
 
 ## Release 20.1 - February 2020 {#release-20-1---february-2020}
 
@@ -812,7 +812,7 @@ Dreamweaver integration live - [Read more](https://docs.adobe.com/content/help/e
 
 Section added on the different types of Adobe Campaign users. [Read more](../../administration/using/users-management.md)
 
-The Workflow guide has been reorganized and extended. Easily find how to [build](../../automating/using/building-a-workflow.md) and [execute](../../automating/using/executing-a-workflow.md) a workflow, how to [target](../../automating/using/targeting-data.md) and [manage](../../automating/using/targeting-data.md#enriching-data) your data, how to [import](../../automating/using/importing-data.md) data, and [how to use workflow data](../../automating/using/using-workflow-data.md) to update the database or to send deliveries.
+The Workflow guide has been reorganized and extended. Easily find how to [build](../../automating/using/building-a-workflow.md) and [execute](../../automating/using/about-workflow-execution.md) a workflow, how to [target](../../automating/using/targeting-data.md) and [manage](../../automating/using/targeting-data.md#enriching-data) your data, how to [import](../../automating/using/importing-data.md) data, and [how to use workflow data](../../automating/using/using-workflow-data.md) to update the database or to send deliveries.
 
 Report indicator calculation now available for dynamic reports, including full description and calculation formula. [Read more](../../reporting/using/indicator-calculation.md)
 

@@ -232,7 +232,6 @@ user-guide-title: Adobe Campaign Standard Help
        + [Testing your triggers](integrating/using/testing-your-triggers.md)
        + [Abandonment Triggers use cases](integrating/using/abandonment-triggers-use-cases.md)
   + Campaign and Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-       + [Configure Adobe IO for Microsoft Dynamics 365 integration](integrating/using/configure-adobe-io-for-ms-dynamic.md)
        + Working with Campaign Standard and Microsoft Dynamics 365 {#working-with-campaign-standard-and-ms-dynamics}
           + [Get Started with Microsoft Dynamics 365 integration](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
           + [About Microsoft Dynamics 365 integration](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
@@ -250,8 +249,14 @@ user-guide-title: Adobe Campaign Standard Help
        + [Targeting data](automating/using/targeting-data.md)
        + [Importing data](automating/using/importing-data.md)
        + [Using workflow data](automating/using/using-workflow-data.md)
-       + [Executing a workflow](automating/using/executing-a-workflow.md)
        + [Workflow best practices](automating/using/best-practices-workflows.md)
+  + [Executing a workflow]{#executing-a-workflow}
+       + [About workflow execution](automating/using/about-workflow-execution.md)
+       + [Workflow life cycle](automating/using/workflow-life-cycle.md)
+       + [Execution commands](automating/using/execution-commands.md)
+       + [Monitoring workflow execution](automating/using/monitoring-workflow-execution.md)
+       + [Managing execution options](automating/using/managing-execution-options.md)
+       + [Managing activities' properties](automating/using/activity-properties.md)
   + [Calling a workflow with external parameters](automating/using/calling-a-workflow-with-external-parameters.md)
   + Targeting activities {#targeting-activities}
        + [About targeting activities](automating/using/about-targeting-activities.md)
