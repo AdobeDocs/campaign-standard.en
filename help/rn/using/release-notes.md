@@ -63,6 +63,10 @@ snippet: y
 </tbody> 
 </table>
 
+>[!NOTE]
+>
+>New capabilities will be released in Campaign Control Panel in May, including GPG keys management and certificate renewal for CNAME subdomains. For more on these features, refer to the [Control Panel Release Note](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
+
 **Improvements**
 
 * The number of characters that can be used in the **Prefix** field to [test messages using targeted profiles](../../sending/using/testing-messages-using-target.md) has been increased from 32 to 500 characters. 
