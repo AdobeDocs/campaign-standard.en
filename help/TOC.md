@@ -300,8 +300,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [About data import and export](automating/using/about-data-import-and-export.md)
        + [Import best practices](automating/using/import-best-practices.md)
        + [Importing data with import templates](automating/using/importing-data-with-import-templates.md)
-       + [Creating workflow templates to import data](automating/using/creating-import-workflow-templates
-       .md)
+       + [Creating workflow templates to import data](automating/using/creating-import-workflow-templates.md)
        + [Managing encrypted data](automating/using/managing-encrypted-data.md)
        + [Exporting logs](automating/using/exporting-logs.md)
        + [Managing packages](automating/using/managing-packages.md)
