@@ -22,7 +22,8 @@ Depending on your business needs, you have several ways to import and export dat
 * **Lists**: all list screens can be configured and the displayed data exported in a separate file.
 * **Workflows**: import data from files and use it to update the database or send emails. You can also select data to export in files. Workflows are the best way to automate regular updates, like profile imports.
 
-When designing import processes, it is a best practice to use workflow templates that you can adapt to fit your needs. For more on how to set up a workflow template to import data, refer to [this use case](../../automating/using/importing-data.md#example--import-workflow-template).
+    * The **[!UICONTROL Load file]** activity allows you to import data in one structured form to use this data in Adobe Campaign. The data is temporarily imported and another activity is necessary to definitively integrate it in the Adobe Campaign database. For more on how to use this activity, refer to [this section](../../automating/using/load-file.md).
+    * The **[!UICONTROL Transfer file]** activity allows you to receive or send files, test whether there are files present, or list files in Adobe Campaign. You can use this activity before a **[!UICONTROL Load file]** in case you need to retrieve the file from an external source. For more on how to use this activity, refer to [this section](../../automating/using/transfer-file.md).
 
 When designing import processes, it is a best practice to use workflow templates that you can adapt to fit your needs. For more on how to set up a workflow template to import data, refer to [this use case](../../automating/using/creating-import-workflow-templates.md).
 
