@@ -88,5 +88,5 @@ You will also find best best practices, to help you with your Privacy compliance
 * [Working with Audience Destinations service](../../audiences/using/aep-about-audience-destinations-service.md)
 * [Working  with Microsoft Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 * [Adobe Shared Audiences](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
-* [Using workflows to import  profiles](../../automating/using/importing-data.md) 
+* [Using workflows to import profiles](../../automating/using/creating-import-workflow-templates.md)
 * [Profiles and audiences videos](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)

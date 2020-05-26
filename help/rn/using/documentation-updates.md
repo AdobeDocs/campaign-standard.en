@@ -578,7 +578,7 @@ The [Configuring transactional messaging](../../administration/using/configuring
 
 Added a technote to learn how to generate a multilingual CSV file to use for push notifications. [Read more](https://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html).
 
-Added information on the **Update Direct mail quarantines and delivery logs** import template. [Read more](../../automating/using/defining-import-templates.md)
+Added information on the **Update Direct mail quarantines and delivery logs** import template. [Read more](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates)
 
 Updated the technical workflow list. [Read more](../../administration/using/technical-workflows.md)
 
@@ -610,7 +610,7 @@ The **[!UICONTROL Working with typologies]** section has been updated for an imp
 
 A new option allowing to gain performance when defining many additional data in a **[!UICONTROL Query]** is now available. [Read more](../../automating/using/query.md)
 
-The profile import example has been updated with a few tips to have your profiles ready to receive direct mails. [Read more](../../automating/using/importing-data.md)
+The profile import example has been updated with a few tips to have your profiles ready to receive direct mails. [Read more](../../automating/using/about-data-import-and-export.md)
 
 A new activity is available in workflows: the **[!UICONTROL Enrichment]** activity. [Read more](../../automating/using/enrichment.md)
 
@@ -812,7 +812,7 @@ Dreamweaver integration live - [Read more](https://docs.adobe.com/content/help/e
 
 Section added on the different types of Adobe Campaign users. [Read more](../../administration/using/users-management.md)
 
-The Workflow guide has been reorganized and extended. Easily find how to [build](../../automating/using/building-a-workflow.md) and [execute](../../automating/using/about-workflow-execution.md) a workflow, how to [target](../../automating/using/targeting-data.md) and [manage](../../automating/using/targeting-data.md#enriching-data) your data, how to [import](../../automating/using/importing-data.md) data, and [how to use workflow data](../../automating/using/using-workflow-data.md) to update the database or to send deliveries.
+The Workflow guide has been reorganized and extended. Easily find how to [build](../../automating/using/building-a-workflow.md) and [execute](../../automating/using/about-workflow-execution.md) a workflow, how to [target](../../automating/using/about-targeting-activities.md) and [manage](../../automating/using/about-targeting-activities.md#enriching-data) your data, how to [import and export](../../automating/using/about-data-import-and-export.md) data, and how to use workflow data to update the database or to send deliveries.
 
 Report indicator calculation now available for dynamic reports, including full description and calculation formula. [Read more](../../reporting/using/indicator-calculation.md)
 

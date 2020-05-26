@@ -24,12 +24,12 @@ Depending on your business needs, you have several ways to import and export dat
 
 When designing import processes, it is a best practice to use workflow templates that you can adapt to fit your needs. For more on how to set up a workflow template to import data, refer to [this use case](../../automating/using/importing-data.md#example--import-workflow-template).
 
+When designing import processes, it is a best practice to use workflow templates that you can adapt to fit your needs. For more on how to set up a workflow template to import data, refer to [this use case](../../automating/using/creating-import-workflow-templates.md).
+
 Adobe Campaign also offers a simplified way to perform regular imports which consists in designing **import templates**. Import templates are specialized workflow templates available through a dedicated screen. Once designed, the user performing the import only has to upload the file to import in a simplified view.
 
 **Related topics**:
 
 * [Importing data with import templates](../../automating/using/importing-data-with-import-templates.md)
-* [Defining import templates](../../automating/using/defining-import-templates.md)
+* [Defining import templates](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates)
 * [Managing packages](../../automating/using/managing-packages.md)
-* [Importing data](../../automating/using/importing-data.md)
-
