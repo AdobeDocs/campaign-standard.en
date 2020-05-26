@@ -246,9 +246,6 @@ user-guide-title: Adobe Campaign Standard Help
   + Workflow general operation {#workflow-general-operation}
        + [Workflow interface](automating/using/workflow-interface.md)
        + [Building a workflow](automating/using/building-a-workflow.md)
-       + [Targeting data](automating/using/targeting-data.md)
-       + [Importing data](automating/using/importing-data.md)
-       + [Using workflow data](automating/using/using-workflow-data.md)
        + [Workflow best practices](automating/using/best-practices-workflows.md)
   + Executing a workflow {#executing-a-workflow}
        + [About workflow execution](automating/using/about-workflow-execution.md)
@@ -301,8 +298,10 @@ user-guide-title: Adobe Campaign Standard Help
        + [List of functions](automating/using/list-of-functions.md)
   + Importing and exporting data {#importing-and-exporting-data}
        + [About data import and export](automating/using/about-data-import-and-export.md)
+       + [Import best practices](automating/using/import-best-practices.md)
        + [Importing data with import templates](automating/using/importing-data-with-import-templates.md)
-       + [Defining import templates](automating/using/defining-import-templates.md)
+       + [Creating workflow templates to import data](automating/using/creating-import-workflow-templates.md)
+       + [Managing encrypted data](automating/using/managing-encrypted-data.md)
        + [Exporting logs](automating/using/exporting-logs.md)
        + [Managing packages](automating/using/managing-packages.md)
        + [Exporting lists](automating/using/exporting-lists.md)
