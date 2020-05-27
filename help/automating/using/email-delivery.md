@@ -54,6 +54,10 @@ The message preparation is triggered according to the workflow execution paramet
 
       For example, for a recurring birthday email, that is sent daily, you can choose to aggregate the sends per month. This allows you to receive reports on your delivery on a monthly basis although the email is sent every day.
 
+    >[!NOTE]
+    >
+    >Recurring deliveries are prepared based on the **aggregation period**. For example, if the aggregation period is "by day", then the delivery will be re-prepared only once a day. If you plan to call this workflow multiple times a day, use [!UICONTROL No aggregation].
+
 1. Select an email type. The email types come from email templates defined in the **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** menu.
 1. Enter the general properties for the email. You can also attach it to an existing campaign. The label of the workflow's delivery activity is updated with the email label.
 1. Define the email content. Refer to the section concerning [content editing](../../designing/using/designing-content-in-adobe-campaign.md).
