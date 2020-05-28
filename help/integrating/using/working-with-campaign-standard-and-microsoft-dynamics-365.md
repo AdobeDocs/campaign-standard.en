@@ -42,8 +42,6 @@ This integration is designed to support three main use cases:
 1. Sending email marketing events (sends, opens, clicks, bounces) from Campaign to Dynamics 365 to display to the sales repository in the Dynamics 365 interface
 1. Synchronizing custom entities from Dynamics 365 to Campaign so they can be used for segmentation and personalization
 
-Watch Dynamics 365-Campaign Standard integration feature video [here](https://helpx.adobe.com/campaign/kt/acs/using/acs-ms-dynamics-crm-connector-tutorial.html).
-
 ### Key benefits
 
 * Consistent messaging between sales & marketing
