@@ -7,7 +7,7 @@ contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
-topic-tags: working-with-campaign-and-experience-manager
+topic-tags: working-with-campaign-and-microsoft-dynamics-365
 discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 
 internal: n
@@ -15,6 +15,10 @@ snippet: y
 ---
 
 # Get Started with Microsoft Dynamics 365 integration
+
+>[!CAUTION]
+>
+>This integration is currently unavailable. A new connector is being developed and will be available soon. For more information, contact your Adobe Sales representative.
 
 Activate your CRM data on cross-channel communication: learn how to pass on contacts from Microsoft Dynamics 365 to Adobe Campaign, and share campaign performance data (sends, opens, clicks, and bounces) back from Adobe Campaign to Microsoft Dynamics 365.
 
