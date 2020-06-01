@@ -18,7 +18,7 @@ snippet: y
 
 >[!CAUTION]
 >
->This integration is currently unavailable. A new connector is being developed and will be available soon. For more information, contact your Adobe Sales representative.
+>This integration is currently unavailable. A new connector is being developed and will be available in the future. For more information, please contact your Adobe Sales representative.
 
 Activate your CRM data on cross-channel communication: learn how to pass on contacts from Microsoft Dynamics 365 to Adobe Campaign, and share campaign performance data (sends, opens, clicks, and bounces) back from Adobe Campaign to Microsoft Dynamics 365.
 
@@ -26,9 +26,7 @@ Activate your CRM data on cross-channel communication: learn how to pass on cont
 >
 >The Microsoft Dynamics 365 / Adobe Campaign Standard integration supports the **Microsoft Dynamics 365 Sales app** only.
 
-## Benefits and use cases
-
-### Principles
+## Principles
 
 The Adobe Campaign and Microsoft Dynamics 365 integration enables synchronization of all available Contact data in the CRM system, making all relevant Contact data available for campaign activities.
 
@@ -42,7 +40,7 @@ This integration is designed to support three main use cases:
 1. Sending email marketing events (sends, opens, clicks, bounces) from Campaign to Dynamics 365 to display to the sales repository in the Dynamics 365 interface
 1. Synchronizing custom entities from Dynamics 365 to Campaign so they can be used for segmentation and personalization
 
-### Key benefits
+## Key benefits
 
 * Consistent messaging between sales & marketing
 
