@@ -18,15 +18,15 @@ snippet: y
 
 Start working with the Email Designer and build reusable templates and fragments from your email HTML created in the Legacy Editor.
 
->[!IMPORTANT]
->
->This section is for advanced users who are familiar with HTML code.
-
 This use case enables you to create an Email Designer template by using an HTML email and dividing it into HTML components in the Email Designer. 
 
 >[!NOTE]
 >
 >Like the compatibility mode, an HTML component is editable with limited options: you can only perform in-place edition.
+
+>[!IMPORTANT]
+>
+>This section is for advanced users who are familiar with HTML code.
 
 ## Preparing your email content
 
