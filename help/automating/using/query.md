@@ -24,6 +24,8 @@ The **[!UICONTROL Query]** activity allows you to filter and extract a populatio
 
 The activity uses the query editor tool. This tool is detailed in a [dedicated section](../../automating/using/editing-queries.md#about-query-editor).
 
+Query samples are also presented in [this section](../../automating/using/query-samples.md).
+
 ## Context of use {#context-of-use}
 
 The **[!UICONTROL Query]** activity can be used for various types of uses:
@@ -61,8 +63,6 @@ Targeting dimensions and resources let you define on which elements a query will
 
 Targeting dimensions are defined in target mappings. For more on this, refer to [this section](../../administration/using/target-mappings-in-campaign.md).
 
-### Defining the targeting dimension and resource of a query {#defining-the-targeting-dimension-and-resource-of-a-query}
-
 Targeting dimension and resources are defined when creating a workflow, in the **[!UICONTROL Properties]** tab of a Query activity.
 
 >[!NOTE]
@@ -91,33 +91,9 @@ Example of available filters for the **[!UICONTROL Deliveries (delivery)]** reso
 
 ![](assets/targeting_dimension5.png)
 
-### Using resources different from targeting dimensions {#using-resources-different-from-targeting-dimensions}
+By default, the targeting dimension and resource are set in order to target profiles. However, it may be useful to use a different resource from the targeting dimension if you want to look up for a specific record in a distant table.
 
-By default, the targeting dimension and resource are set in order to target profiles.
-
-However, it may be useful to use a different resource from the targeting dimension if you want to look up for a specific record in a distant table.
-
-**Example 1: identifying profiles targeted by the delivery with the label ”Welcome back !”**.
-
-* In this case, we want to target profiles. We will set the targeting dimension to **[!UICONTROL Profiles (profile)]**.
-* We want to filter the selected profiles according to the delivery label. We will therefore set the resource to **[!UICONTROL Delivery logs]**. This way, we are filtering directly in the delivery log table, which will offers better performances.
-
-![](assets/targeting_dimension6.png)
-
-![](assets/targeting_dimension7.png)
-
-**Example 2: identifying profiles who were not targeted by the delivery with the label “Welcome back !”**
-
-In the previous example, we used a resource different from the targeting dimension. This operation is only possible if you want to find a record that **is present** in the distant table (delivery logs in our example).
-
-If we want to find a record that **is not present** in the distant table (for example, profiles who were not targeted by a specific delivery), you must use the same resource and targeting dimension, as the record will not be present in the distant table (delivery logs).
-
-* In this case, we want to target profiles. We will set the targeting dimension to **[!UICONTROL Profiles (profile)]**.
-* We want to filter the selected profiles according to the delivery label. It is not possible to filter directly on delivery logs as we are looking for a record not present in the delivery logs table. We will therefore set the resource to **[!UICONTROL Profile (profile)]** and build our query on the profiles table.
-
-![](assets/targeting_dimension8.png)
-
-![](assets/targeting_dimension9.png)
+For more on this, refer to this use case: [Using resources different from targeting dimensions](../../automating/using/using-resources-different-from-targeting-dimensions.md.md)
 
 ## Enriching data {#enriching-data}
 
@@ -138,6 +114,8 @@ After adding any additional data, you can apply an additional filter level to th
 >[!NOTE]
 >
 >By default, the **[!UICONTROL Remove duplicate rows (DISTINCT)]** option is checked in the **[!UICONTROL Advanced options]** of the **[!UICONTROL Additional data]** tab of the query. If the **[!UICONTROL Query]** activity contains many (from 100) additional data defined, it is recommended to uncheck this option, for performance reasons. Beware that unchecking this option can result in getting duplicates, depending on the data queried.
+
+A use case on how to personalize an email with additional data is presented in [this section](../../personalizing-email-with-additional-data.md).
 
 ### Adding a simple field {#adding-a-simple-field}
 
@@ -242,136 +220,3 @@ To do this, in the **[!UICONTROL Output filtering]** tab, simply add a condition
 ![](assets/enrichment_output_filtering2.png)
 
 ![](assets/enrichment_output_filtering.png)
-
-### Example: personalizing an email with additional data {#example--personalizing-an-email-with-additional-data}
-
-The following example illustrates adding different types of additional data to a query and its use as a personalization field in an email.
-
-For this example, [custom resources](../../developing/using/data-model-concepts.md) are used:
-
-* The **profile** resource was extended in order to add a field which allows each profile's loyalty points to be saved.
-* A **transactions** resource was created and identifies all purchases carried out by the profiles in the database. The date, price, and product purchased is saved for each transaction.
-* A **products** resource was created and references the products available for purchase.
-
-The objective is to send an email to the profiles for which at least one transaction has been saved. Via this email, the clients will receive a reminder of the last transaction carried out as well as an overview of all of their transactions: the number of products purchased, total spent, a reminder of the total number of loyalty points that they have accrued.
-
-The workflow is presented as follows:
-
-![](assets/enrichment_example1.png)
-
-1. Add a **[!UICONTROL Query]** activity, which allows you to target the profiles that have carried out at least one transaction.
-
-   ![](assets/enrichment_example2.png)
-
-   From the query's **[!UICONTROL Additional data]** tab, define the different data to be displayed in the final email:
-
-    * The simple field of the **profile** dimension corresponding to the loyalty points. Refer to the [Adding a simple field](#adding-a-simple-field) section.
-    * Two aggregates based on the transactions collection: the number of products purchased and the total amount spent. You can add them from the **[!UICONTROL Data]** tab of the aggregate configuration window, using the **Count** and **Sum** aggregates. Refer to the [Adding an aggregate](#adding-an-aggregate) section.
-    * A collection returning the amount spent, the date, and the product of the last transaction effected.
-
-      To do this, you have to add the different fields that you want to display from the **[!UICONTROL Data]** tab of the collection configuration window.
-
-      To return only the most recent transaction, you have to enter "1" for the **[!UICONTROL Number of lines to return]** and apply a descending sort on the **Date** field of the collection from the **[!UICONTROL Sort]** tab.
-
-      Refer to the [Adding a collection](#adding-a-collection) and [Sorting additional data](#sorting-additional-data) sections.
-
-   ![](assets/enrichment_example4.png)
-
-   If you would like to check that the data is correctly transferred by the activity's outbound transition, start the workflow for the first time (without the **[!UICONTROL Email delivery]** activity) and open the query's outbound transition.
-
-   ![](assets/enrichment_example5.png)
-
-1. Add an **[!UICONTROL Email delivery]** activity. In the email content, insert the personalization fields corresponding to the data calculated in the query. You can find it via the **[!UICONTROL Additional data (targetData)]** link of the personalization fields explorer.
-
-   ![](assets/enrichment_example3.png)
-
-Your workflow is now ready to be executed. The profiles targeted in the query will receive a personalized email containing the data calculated from their transactions.
-
-## Query samples {#query-samples}
-
-### Targeting on simple profile attributes {#targeting-on-simple-profile-attributes}
-
-The following example shows a query activity configured to target men between 18 and 30 years old, living in London.
-
-![](assets/query_sample_1.png)
-
-### Targeting on email attributes {#targeting-on-email-attributes}
-
-The following example shows a query activity configured to target profiles with the email address domain "orange.co.uk".
-
-![](assets/query_sample_emaildomain.png)
-
-The following example shows a query activity configured to target profiles whose email address has been provided. 
-
-![](assets/query_sample_emailnotempty.png)
-
-### Targeting profiles whose birthday is today {#targeting-profiles-whose-birthday-is-today}
-
-The following example shows a query activity configured to target profiles whose birthday is today.
-
-1. Drag the **[!UICONTROL Birthday]** filter in your query.
-
-   ![](assets/query_sample_birthday.png)
-
-1. Set the **[!UICONTROL Filter type]** to **[!UICONTROL Relative]** and select **[!UICONTROL Today]**.
-
-   ![](assets/query_sample_birthday2.png)
-
-### Targeting profiles who opened a specific delivery {#targeting-profiles-who-opened-a-specific-delivery}
-
-The following example shows a query activity configured to filter profiles who opened the delivery with the label "Summer Time".
-
-1. Drag the **[!UICONTROL Opened]** filter in your query.
-
-   ![](assets/query_sample_opened.png)
-
-1. Select the delivery then click **[!UICONTROL Confirm]**.
-
-   ![](assets/query_sample_opened2.png)
-
-### Targeting profiles for whom deliveries failed for a specific reason {#targeting-profiles-for-whom-deliveries-failed-for-a-specific-reason}
-
-The following example shows a query activity configured to filter profiles for whom deliveries failed because their mailbox was full. This query is only available for users with administration rights and belonging to the **[!UICONTROL All (all)]** organizational units (see [this section](../../administration/using/organizational-units.md)).
-
-1. Select the **[!UICONTROL Delivery logs]** resource in order to filter directly in the delivery log table (see [Using resources different from targeting dimensions](#using-resources-different-from-targeting-dimensions)).
-
-   ![](assets/query_sample_failure1.png)
-
-1. Drag the **[!UICONTROL Nature of failure]** filter in your query.
-
-   ![](assets/query_sample_failure2.png)
-
-1. Select the type of failure you want to target. In our case **[!UICONTROL Mailbox full]**.
-
-   ![](assets/query_sample_failure3.png)
-
-### Targeting profiles not contacted during the last 7 days {#targeting-profiles-not-contacted-during-the-last-7-days}
-
-The following example shows a query activity configured to filter profiles who where not contacted during the last 7 days.
-
-1. Drag the **[!UICONTROL Delivery logs (logs)]** filter in your query.
-
-   ![](assets/query_sample_7days.png)
-
-   Select **[!UICONTROL Does not exist]** in the drop-down list, then drag the **[!UICONTROL Delivery]** filter.
-
-   ![](assets/query_sample_7days1.png)
-
-1. Configure the filter as below.
-
-   ![](assets/query_sample_7days2.png)
-
-### Targeting profiles who clicked a specific link {#targeting-profiles-who-clicked-a-specific-link-}
-
-1. Drag the **[!UICONTROL Tracking logs (tracking)]** filter in your query.
-
-   ![](assets/query_sample_trackinglogs.png)
-
-1. Drag the **[!UICONTROL Label (urlLabel)]** filter.
-
-   ![](assets/query_sample_trackinglogs2.png)
-
-1. In the **[!UICONTROL Value]** field, type the label that was defined when inserting the link in the delivery, then confirm.
-
-   ![](assets/query_sample_trackinglogs3.png)
-

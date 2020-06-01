@@ -314,6 +314,8 @@ user-guide-title: Adobe Campaign Standard Help
        + [Retargeting non-openers](automating/using/workflow-cross-channel-retargeting.md)
        + [Building a control group](automating/using/workflow-control-group.md)
        + [Creating a cross-channel delivery](automating/using/workflow-cross-channel-delivery.md)
+       + [Using resources different from targeting dimensions](automating/using/using-resources-different-from-targeting-dimensions.md)
+       + [Personalizing an email with additional data](automating/using/personalizing-email-with-additional-data.md)
   + Working with Adobe Experience Platform audiences {#working-with-aep-audiences}
        + [Targeting Adobe Experience Platform audiences](automating/using/aep-targeting-audiences.md)
        + [Personalizing campaigns using Adobe Experience Platform attributes](automating/using/aep-personalizing-campaigns.md)
