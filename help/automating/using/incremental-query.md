@@ -35,7 +35,14 @@ The **[!UICONTROL Processed data]** tab, which is specific to this activity, all
 The **[!UICONTROL Incremental query]** activity can be used for various types of uses:
 
 * Segmenting individuals to define the target of a message, audience, etc.
+
 * Exporting data.
+
+  You can use an **[!UICONTROL Incremental query]** activity to regularly export new logs in files. It can be useful for example if you want to use your log data in external reporting or BI tools. A complete example is available in the [Exporting logs](../../automating/using/exporting-logs.md) section.
+
+**Related topics**
+
+* [Use case: Filtering subscribers to a service](../../automating/using/external-signal-data-import.md).
 
 ## Configuration {#configuration}
 
@@ -65,35 +72,3 @@ The **[!UICONTROL Incremental query]** activity can be used for various types of
 ## Enriching data {#enriching-data}
 
 Just as for a query, you can enrich the data from an **[!UICONTROL Incremental query]**. Consult the [Enriching data](../../automating/using/query.md#enriching-data) section.
-
-## Example: incremental query on subscribers to a service {#example--incremental-query-on-subscribers-to-a-service}
-
-The following example shows the configuration of an **[!UICONTROL Incremental query]** activity which filters the profiles in the Adobe Campaign database that are subscribed to the **Running Newsletter** service, to send them a welcome email containing a promo code.
-
-The workflow is up made up of the following elements:
-
-![](assets/incremental_query_example1.png)
-
-* A **[!UICONTROL Scheduler]** activity, to execute the workflow every Monday at 6 am.
-
-  ![](assets/incremental_query_example2.png)
-
-* An **[!UICONTROL Incremental query]** activity, which targets all of the current subscribers during the first execution, then only the new subscribers of that week during the following executions.
-
-  ![](assets/incremental_query_example3.png)
-
-* An **[!UICONTROL Email delivery]** activity. The workflow is executed once a week, but you can aggregate the emails sent and the results per month, for example to generate reports over a period of an entire month and not just a single week.
-
-  To do this, choose to create a **[!UICONTROL Recurring email]** here regrouping the emails and the results **[!UICONTROL By month]**.
-
-  Define the content of your email and insert the welcome promo code.
-
-  For more on this, refer to the [Email delivery](../../automating/using/email-delivery.md) and [Defining email content](../../designing/using/personalization.md) sections.
-
-Then start the workflow execution. Each week the new subscribers will receive the welcome email with the promo code.
-
-## Example: incremental query on delivery logs {#example--incremental-query-on-delivery-logs}
-
-You can use an **[!UICONTROL Incremental query]** activity to regularly export new logs in files. It can be useful for example if you want to use your log data in external reporting or BI tools.
-
-A complete example is available in the [Exporting logs](../../automating/using/exporting-logs.md) section.

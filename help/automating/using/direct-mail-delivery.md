@@ -38,6 +38,11 @@ Direct mail recipients are defined upstream of the activity in the same workflow
 
 The message preparation is triggered according to the workflow execution parameters. From the message dashboard, you can select whether to request or not a manual confirmation to send the message (required by default). You can start the workflow manually or place a scheduler activity in the workflow to automate execution.
 
+**Related topics:**
+
+* [Use case: Coupling email and direct mail deliveries](../../automating/coupling-email-direct-mail.md)
+* [About direct mail](../../channels/using/about-direct-mail.md)
+
 ## Configuration {#configuration}
 
 1. Drag and drop a **[!UICONTROL Direct mail delivery]** activity into your workflow.
@@ -85,7 +90,3 @@ The executions of recurring deliveries are masked by default. To view them, chec
 In the parent deliveries, which can be accessed from the marketing activity list or directly via the associated recurring executions, you can view the total number of mails that have been processed (according to the aggregation period specified when the **[!UICONTROL Direct mail delivery]** activity was configured). To do this, open the detail view of the parent delivery's **[!UICONTROL Deployment]** block by selecting the ![](assets/wkf_dlv_detail_button.png) button.
 
 ![](assets/wkf_display_recurrent_executions_3_direct_mail.png)
-
-## Example {#example}
-
-An example of **[!UICONTROL Direct mail delivery]** is available in the [Direct Mail](../../channels/using/example-of-direct-mail-in-a-workflow.md) chapter.
