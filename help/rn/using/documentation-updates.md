@@ -20,7 +20,7 @@ In  addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md),
 
 ## Documentation updates - June 2020 {#doc-updates-june-2020}
 
-Campaign Standard - Microsoft Dynamics 365 integration is currently unavailable. A new connector is being developed and will be available in the future. For more information, please contact your Adobe Sales representative.
+Campaign Standard - Microsoft Dynamics 365 integration is currently unavailable. A new connector is being developed and will be available in the future. The related help pages have been removed. [Read more](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 ## Documentation updates - May 2020 {#doc-updates-may-2020}
 
