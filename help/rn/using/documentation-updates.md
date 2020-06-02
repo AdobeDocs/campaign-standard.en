@@ -18,6 +18,10 @@ snippet: y
 
 In  addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), this page lists all the new updates in Adobe Campaign Standard documentation.
 
+## Documentation updates - June 2020 {#doc-updates-june-2020}
+
+Campaign Standard - Microsoft Dynamics 365 integration is currently unavailable. A new connector is being developed and will be available in the future. For more information, please contact your Adobe Sales representative.
+
 ## Documentation updates - May 2020 {#doc-updates-may-2020}
 
 Campaign Standard overview page has been enriched and reorganized into thematic topics. [Read more](../../start/using/about-campaign-standard.md)

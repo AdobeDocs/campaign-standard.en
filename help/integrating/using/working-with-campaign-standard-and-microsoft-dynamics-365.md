@@ -7,7 +7,7 @@ contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
-topic-tags: working-with-campaign-and-experience-manager
+topic-tags: working-with-campaign-and-microsoft-dynamics-365
 discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 
 internal: n
@@ -16,15 +16,17 @@ snippet: y
 
 # Get Started with Microsoft Dynamics 365 integration
 
+>[!IMPORTANT]
+>
+>This integration is currently unavailable. A new connector is being developed and will be available in the future. For more information, please contact your Adobe Sales representative.
+
 Activate your CRM data on cross-channel communication: learn how to pass on contacts from Microsoft Dynamics 365 to Adobe Campaign, and share campaign performance data (sends, opens, clicks, and bounces) back from Adobe Campaign to Microsoft Dynamics 365.
 
 >[!NOTE]
 >
 >The Microsoft Dynamics 365 / Adobe Campaign Standard integration supports the **Microsoft Dynamics 365 Sales app** only.
 
-## Benefits and use cases
-
-### Principles
+## Principles
 
 The Adobe Campaign and Microsoft Dynamics 365 integration enables synchronization of all available Contact data in the CRM system, making all relevant Contact data available for campaign activities.
 
@@ -38,9 +40,7 @@ This integration is designed to support three main use cases:
 1. Sending email marketing events (sends, opens, clicks, bounces) from Campaign to Dynamics 365 to display to the sales repository in the Dynamics 365 interface
 1. Synchronizing custom entities from Dynamics 365 to Campaign so they can be used for segmentation and personalization
 
-Watch Dynamics 365-Campaign Standard integration feature video [here](https://helpx.adobe.com/campaign/kt/acs/using/acs-ms-dynamics-crm-connector-tutorial.html).
-
-### Key benefits
+## Key benefits
 
 * Consistent messaging between sales & marketing
 
