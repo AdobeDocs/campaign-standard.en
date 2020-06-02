@@ -16,7 +16,7 @@ snippet: y
 
 # Get Started with Microsoft Dynamics 365 integration
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >This integration is currently unavailable. A new connector is being developed and will be available in the future. For more information, please contact your Adobe Sales representative.
 
