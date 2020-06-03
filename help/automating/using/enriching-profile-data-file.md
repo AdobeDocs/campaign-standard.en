@@ -18,14 +18,12 @@ snippet: y
 
 This example shows how to enrich profile data with purchase data contained in a file.We consider here that the purchase data are stored in a third-party system. Each profile can have several purchases stored in the file. The final goal of the workflow is to send an email to the target profiles who have purchased at least two items to thank them for their loyalty.
 
-For more on how to use the **[!UICONTROL Enrichment]** activity, refer to [this section](../../automating/using/enrichment.md).
-
 The workflow is configured as follows:
 
 ![](assets/enrichment_example_workflow.png)
 
-* A **[!UICONTROL Query]** activity that targets the profiles who will receive the message.
-* A **[!UICONTROL Load file]** activity that loads the purchase data. For example:
+* A [Query](../../automating/using/query.md) activity that targets the profiles who will receive the message.
+* A [Load file](../../automating/using/load-file.md) activity that loads the purchase data. For example:
 
   ```
   tcode;tdate;customer;product;tamount
@@ -39,7 +37,7 @@ The workflow is configured as follows:
 
   With this example file, we will use the email address to reconcile the data with the database profiles. You can also enable unique IDs as described in [this document](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).
 
-* An **[!UICONTROL Enrichment]** activity that creates a link between the transaction data loaded from the file and the profiles selected in the **[!UICONTROL Query]**. The link is defined in the **[!UICONTROL Advanced relations]** tab of the activity. The link is based on the transition coming from the **[!UICONTROL Load file]** activity. It uses the "email" field of the profile resource and the "customer" column of the imported file as reconciliation criteria. 
+* An [Enrichment](../../automating/using/enrichment.md) activity that creates a link between the transaction data loaded from the file and the profiles selected in the **[!UICONTROL Query]**. The link is defined in the **[!UICONTROL Advanced relations]** tab of the activity. The link is based on the transition coming from the **[!UICONTROL Load file]** activity. It uses the "email" field of the profile resource and the "customer" column of the imported file as reconciliation criteria. 
 
   ![](assets/enrichment_example_workflow2.png)
 
@@ -77,11 +75,11 @@ The workflow is configured as follows:
     
       ![](assets/enrichment_example_workflow9.png)
 
-* A **[!UICONTROL Segmentation]** activity with only one segment, that retrieves profiles of the initial target that have at least two transactions recorded. Profiles with only one transaction are excluded. To do that, the query of the segmentation is made on the aggregate defined previously.
+* A [Segmentation](../../automating/using/segmentation.md) activity with only one segment, that retrieves profiles of the initial target that have at least two transactions recorded. Profiles with only one transaction are excluded. To do that, the query of the segmentation is made on the aggregate defined previously.
 
   ![](assets/enrichment_example_workflow5.png)
 
-* An **[!UICONTROL Email delivery]** activity that uses the additional data defined in the **[!UICONTROL Enrichment]** to dynamically retrieve the two last purchases made by the profile. The additional data can be found in the **Additional data (TargetData)** node when adding a personalization field.
+* An [Email delivery](../../automating/using/email-delivery.md) activity that uses the additional data defined in the **[!UICONTROL Enrichment]** to dynamically retrieve the two last purchases made by the profile. The additional data can be found in the **Additional data (TargetData)** node when adding a personalization field.
 
   ![](assets/enrichment_example_workflow10.png)
 

@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Subscription Services{#subscription-services}
+# Subscription Services {#subscription-services}
 
 ## Description {#description}
 

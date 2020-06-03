@@ -18,13 +18,11 @@ snippet: y
 
 This example shows how to deduplicate data from a file imported before loading the data into the database. This procedure improves the quality of the data loaded in the database.
 
-For more on how to use the **[!UICONTROL Deduplication]** activity, refer to [this section](../../automating/using/deduplication.md).
-
 The workflow is made up of:
 
 ![](assets/deduplication_example2_workflow.png)
 
-* A file that contains a list of profiles is imported using a **[!UICONTROL Load file]** activity. In this example, the file imported is in .csv format and contains 10 profiles:
+* A file that contains a list of profiles is imported using a [Load file](../../automating/using/load-file.md) activity. In this example, the file imported is in .csv format and contains 10 profiles:
 
   ```
   lastname;firstname;dateofbirth;email
@@ -44,13 +42,13 @@ The workflow is made up of:
 
   ![](assets/deduplication_example2_fileloading.png)
 
-* A **[!UICONTROL Deduplication]** activity. Deduplication is carried out directly after importing the file and before inserting the data into the database. It should therefore be based on the **[!UICONTROL Temporary resource]** from the **[!UICONTROL Load file]** activity.
+* A [Deduplication](../../automating/using/deduplication.md) activity. Deduplication is carried out directly after importing the file and before inserting the data into the database. It should therefore be based on the **[!UICONTROL Temporary resource]** from the **[!UICONTROL Load file]** activity.
 
   For this example, we want to keep a single entry per unique email address contained in the file. Duplicate identification is therefore carried out on the **email** column of the temporary resource. Yet, two email addresses appear twice in the file. Two lines will therefore be considered as duplicates.
 
   ![](assets/deduplication_example2_dedup.png)
 
-* An **[!UICONTROL Update data]** activity allows you to insert the data kept from the deduplication process into the database. It is only when the data is updated that the imported data is identified as belonging to the profile dimension.
+* An [Update data](../../automating/using/update-data.md) activity allows you to insert the data kept from the deduplication process into the database. It is only when the data is updated that the imported data is identified as belonging to the profile dimension.
 
   Here, we would like to **[!UICONTROL Insert only]** the profiles that do not already exist in the database. We are going to do this by using the file's email column and the email field from the **Profile** dimension as the reconciliation key.
 

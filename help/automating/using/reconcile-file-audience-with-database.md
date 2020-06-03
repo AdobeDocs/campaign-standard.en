@@ -18,8 +18,6 @@ snippet: y
 
 This example shows how to use the **[!UICONTROL Read audience]** activity to reconcile an audience directly created from a file import.
 
-For more on how to use the **[!UICONTROL Read audience]** activity, refer to [this section](../../automating/using/read-audience.md).
-
 When performing a file import, you can directly save its content in an audience. This audience is a File audience and its data is not linked to any database resources.
 
 The import workflow is designed as follows:
@@ -50,6 +48,6 @@ The reconciliation workflow is designed as follows:
 
 ![](assets/readaudience_activity_example2.png)
 
-* A **[!UICONTROL Read audience]** activity uploads the File audience created in the import workflow. The audience data is not yet reconciled with the Adobe Campaign database.
+* A [Read audience](../../automating/using/read-audience.md) activity uploads the File audience created in the import workflow. The audience data is not yet reconciled with the Adobe Campaign database.
 * A [Reconciliation](../../automating/using/reconciliation.md) activity identifies the incoming data as profiles through its **[!UICONTROL Identification]** tab. For example by using the **email** field as reconciliation criteria.
 * An [Update data](../../automating/using/update-data.md) activity inserts and updates the profiles resource of the database with the incoming data. As the data is already identified as profiles, you can select the **[!UICONTROL Directly using the targeting dimension]** option and select **[!UICONTROL Profiles]** in the **[!UICONTROL Identification]** tab of the activity. Then, you simply have to add the list of fields that need to be updated in the according tab.

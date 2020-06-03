@@ -327,6 +327,9 @@ user-guide-title: Adobe Campaign Standard Help
        + [External signal activity and data import](automating/using/external-signal-data-import.md)
        + [Birthday delivery](automating/using/birthday-delivery.md)
        + [Coupling email and direct mail deliveries](automating/using/coupling-email-direct-mail.md)
+       + [Updating the database with external data](automating/using/update-database-file.md)
+       + [Updating data based on an automatic file download](automating/using/update-data-automatic-download.md)
+       + [Sending an email with enriched fields](automating/using/sending-email-enriched-fields.md)
   + Working with Adobe Experience Platform audiences {#working-with-aep-audiences}
        + [Targeting Adobe Experience Platform audiences](automating/using/aep-targeting-audiences.md)
        + [Personalizing campaigns using Adobe Experience Platform attributes](automating/using/aep-personalizing-campaigns.md)
@@ -417,7 +420,7 @@ user-guide-title: Adobe Campaign Standard Help
           + [Counting](api/using/counting.md)
           + [Pagination](api/using/pagination.md)
        + [Custom resources](api/using/custom-resources.md)
-  + [Interacting with custom resources](api/using/interacting-with-custom-resources.md)   
+  + [Interacting with custom resources](api/using/interacting-with-custom-resources.md)  
   + Managing profiles {#managing-profiles}
        + [Retrieving profiles](api/using/retrieving-profiles.md)
        + [Updating profiles](api/using/updating-profiles.md)

@@ -20,11 +20,9 @@ snippet: y
 
 In this example, a personalized push notification is sent every first day of the month at 8 pm to the subscribers of your mobile application depending on their time zones.
 
-For more on how to use the **[!UICONTROL Push notification]** activity, refer [this section](../../automating/using/push-notification-delivery.md).
-
 To build the workflow, follow these steps:
 
-1. The **[!UICONTROL Scheduler]** activity allows you to start the workflow days before the start of the delivery to be able to send the notification to every subscriber at 8 pm in any given time zone:
+1. The [Scheduler](../../automating/using/scheduler.md) activity allows you to start the workflow days before the start of the delivery to be able to send the notification to every subscriber at 8 pm in any given time zone:
 
     * In the **[!UICONTROL Execution frequency]** field, select Monthly.
     * Select 8 pm in the **[!UICONTROL Time]** field.
@@ -38,7 +36,7 @@ To build the workflow, follow these steps:
 
    ![](assets/wkf_push_example_5.png)
 
-1. The **Query** activity allows you to target your VIP customers aged between 20-30, who have subscribed to your mobile application and who did not open the email you sent:
+1. The [Query](../../automating/using/query.md) activity allows you to target your VIP customers aged between 20-30, who have subscribed to your mobile application and who did not open the email you sent:
 
     * Select an audience (your VIP customers) and filter on their age.
     * Drag and drop the **Subscriptions to an application** element into the workspace. Select **Exists** and select the mobile application that you want to use.
@@ -48,7 +46,7 @@ To build the workflow, follow these steps:
 
       ![](assets/wkf_push_example_2.png)
 
-1. The **Push notification** activity allows you to enter the content of your message and to select the personalization fields that you want to use:
+1. The [Push notification delivery](../../automating/using/push-notification-delivery.md) activity allows you to enter the content of your message and to select the personalization fields that you want to use:
 
     * Select the **[!UICONTROL Recurring notification]** option.
     * Define the push notification content. For more information on push notification content, refer to this [section](../../channels/using/preparing-and-sending-a-push-notification.md).

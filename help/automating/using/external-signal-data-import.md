@@ -18,8 +18,6 @@ snippet: y
 
 The following example illustrates the **[!UICONTROL External signal]** activity in a typical use case. A data import is performed in a source workflow. Once the import is done and the database updated, a second workflow is triggered. This second workflow is used to update an aggregate on the imported data.
 
-For more on how to use the **[!UICONTROL External signal]** activity, refer to [this section](../../automating/using/external-signal.md).
-
 The source workflow is presented as follows:
 
 * A [Load file](../../automating/using/load-file.md) activity uploads a file containing new purchase data. Note that the [database has been extended](../../developing/using/data-model-concepts.md) accordingly as purchase data are not present by default in the datamart.
@@ -38,13 +36,13 @@ The source workflow is presented as follows:
 
 * A [Reconciliation](../../automating/using/reconciliation.md) activity creates the links between the imported data and the database so that the transactions data are properly connected to profiles and products.
 * An [Update data](../../automating/using/update-data.md) activity inserts and updates the Transactions resource of the database with the incoming data.
-* An **[!UICONTROL End]** activity triggers the destination workflow, which is used to update aggregates.
+* An [End](../../automating/using/end.md) activity triggers the destination workflow, which is used to update aggregates.
 
 ![](assets/signal_example_source1.png)
 
 The destination workflow is presented as follows:
 
-* An **[!UICONTROL External signal]** activity waits for the source workflow to be successfully finished.
+* An [External signal](../../automating/using/external-signal.md) activity waits for the source workflow to be successfully finished.
 * A [Query](../../automating/using/query.md#enriching-data) activity targets profiles and enrich them with a collection set to retrieve the last purchase date.
 * An [Update data](../../automating/using/update-data.md) activity stores the additional data in a dedicated custom field. Note that the profile resource has been extended to add the **Last purchase date** field.
 

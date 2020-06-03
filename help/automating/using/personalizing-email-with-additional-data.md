@@ -30,7 +30,7 @@ The workflow is presented as follows:
 
 ![](assets/enrichment_example1.png)
 
-1. Add a **[!UICONTROL Query]** activity, which allows you to target the profiles that have carried out at least one transaction.
+1. Add a [Query](../../automating/using/query.md) activity, which allows you to target the profiles that have carried out at least one transaction.
 
    ![](assets/enrichment_example2.png)
 
@@ -52,7 +52,7 @@ The workflow is presented as follows:
 
    ![](assets/enrichment_example5.png)
 
-1. Add an **[!UICONTROL Email delivery]** activity. In the email content, insert the personalization fields corresponding to the data calculated in the query. You can find it via the **[!UICONTROL Additional data (targetData)]** link of the personalization fields explorer.
+1. Add an [Email delivery](../../automating/using/email-delivery.md) activity. In the email content, insert the personalization fields corresponding to the data calculated in the query. You can find it via the **[!UICONTROL Additional data (targetData)]** link of the personalization fields explorer.
 
    ![](assets/enrichment_example3.png)
 
