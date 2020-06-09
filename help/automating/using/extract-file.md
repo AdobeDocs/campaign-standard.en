@@ -30,6 +30,10 @@ The way in which the data will be extracted is defined when configuring the acti
 >
 >The **[!UICONTROL Extract file]** activity must be placed after a **[!UICONTROL Query]** activity in order to be used.
 
+**Related topics:**
+
+* [Use case: Exporting profiles in an external file](../../automating/exporting-profiles-in-file.md)
+
 ## Configuration {#configuration}
 
 1. Drag and drop an **[!UICONTROL Extract file]** activity into your workflow.
@@ -67,47 +71,3 @@ The way in which the data will be extracted is defined when configuring the acti
 
 1. In the **[!UICONTROL Properties]** tab, select the **[!UICONTROL Do not generate a file if the inbound transition is empty]** option to avoid creating and uploading empty files on SFTP servers if the inbound transition is empty.
 1. Confirm the configuration of your activity and save your workflow.
-
-## Example {#example}
-
-The following example illustrates how to configure an **[!UICONTROL Extract file]** activity after a **[!UICONTROL Query]** activity.
-
-The aim of this workflow is to export a list of profiles in the form of an external file so that the data can be used outside of Adobe Campaign.
-
-1. Drag and drop an **[!UICONTROL Extract file]** activity into your workflow and place it after the **[!UICONTROL Query]** activity.
-
-   In this example, the query is carried out on all profiles aged 18 to 30.
-
-1. Open the Extract file activity to edit it.
-1. Name the output file.
-1. Add output columns.
-
-   In this example, the email, age, date of birth, first name and last name of the profiles are added as output columns.
-
-   ![](assets/wkf_data_export6.png)
-
-1. Click the **[!UICONTROL File structure]** tab to define:
-
-    * CSV output format
-    
-      ![](assets/wkf_data_export7.png)
-
-    * Date format
-    
-      ![](assets/wkf_data_export9.png)
-
-1. Confirm your activity.
-1. Drag and drop a **[!UICONTROL Transfer file]** activity after the **[!UICONTROL Extract file]** activity to recover the extract file on an external account.
-1. Open the activity and choose the **[!UICONTROL File upload]** action.
-
-   ![](assets/wkf_data_export11.png)
-
-1. Select the external account and enter the path of the folder on the server.
-
-   ![](assets/wkf_data_export12.png)
-
-1. Confirm your activity and save your workflow.
-1. Start the workflow.
-
-   When the workflow has been executed correctly, the extracted file is available on the external account.
-

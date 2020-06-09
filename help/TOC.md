@@ -330,6 +330,11 @@ user-guide-title: Adobe Campaign Standard Help
        + [Updating the database with external data](automating/using/update-database-file.md)
        + [Updating data based on an automatic file download](automating/using/update-data-automatic-download.md)
        + [Sending an email with enriched fields](automating/using/sending-email-enriched-fields.md)
+       + [Data reconciliation using relations](automating/using/reconciliation-using-relations.md)
+       + [Data update using reconciliation](automating/using/data-update-reconciliation.md)
+       + [Use case: Exporting profiles in an external file](automating/exporting-profiles-in-file.md)
+       + [Use case: Updating multiple subscription statuses from a file](automating/using/updating-subscriptions-from-file.md)
+       + [Use case: Subscribing profiles from a file to a specific service](automating/subscribing-profiles-from-file)
   + Working with Adobe Experience Platform audiences {#working-with-aep-audiences}
        + [Targeting Adobe Experience Platform audiences](automating/using/aep-targeting-audiences.md)
        + [Personalizing campaigns using Adobe Experience Platform attributes](automating/using/aep-personalizing-campaigns.md)

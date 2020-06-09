@@ -1,6 +1,6 @@
 ---
-title: "Workflow use-case: Creating deliveries with a complement"
-description: "Workflow use-case: Creating deliveries with a complement"
+title: Creating deliveries with a complement
+description: This use case shows how to creae deliveries with a complement.
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Workflow use-case: Creating deliveries with a complement {#deliveries-with-complement}
+# Creating deliveries with a complement {#deliveries-with-complement}
 
 You can send an email to customers: one for clients created less than a year ago, one for clients created more than a year ago.
 
@@ -24,7 +24,7 @@ You can send an email to customers: one for clients created less than a year ago
 
 ## Create a Query activity {#create-a-query-activity}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, drag and drop a **[!UICONTROL Query activity]** ![](assets/query.png).
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, drag and drop a [Query](../../automating/query.md) activity ![](assets/query.png).
 1. Double-click the activity.
 1. In **[!UICONTROL Shortcuts]**, drag and drop **[!UICONTROL Profiles]** and select **[!UICONTROL email]** with the operator **[!UICONTROL is not empty]**.
 1. In **[!UICONTROL Shortcuts]**, drag and drop **[!UICONTROL Profiles]** and select **[!UICONTROL no longer contact by email]** with the value **[!UICONTROL no]**.
@@ -34,7 +34,7 @@ You can send an email to customers: one for clients created less than a year ago
 
 ## Create a Segmentation activity {#create-a-segmentation-activity}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, drag and drop a **[!UICONTROL Segmentation]** activity and double-click it.
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, drag and drop a [Segmentation](../../automating/segmentation.md) activity and double-click it.
 1. Hover over the segment then click on ![](assets/edit_darkgrey-24px.png) to target customers added this year in the database. 
 1. Drag and drop **[!UICONTROL Profiles]** and select **[!UICONTROL Created]** with the filter type **[!UICONTROL Relative]**.
 1. Change the **[!UICONTROL Level of precision]** to **[!UICONTROL Year]** and select **[!UICONTROL This year]**.
@@ -51,7 +51,7 @@ You can send an email to customers: one for clients created less than a year ago
 
 ## Creating an Email delivery {#create-an-email-delivery}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, drag and drop an email delivery after each segment.
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, drag and drop an **[Email delivery](../../automating/email-delivery.md) activity after each segment.
 1. Click the activity and select ![](assets/edit_darkgrey-24px.png) to edit.
 1. Select **[!UICONTROL Single send email]** and click **[!UICONTROL Next]**.
 1. Select an email template and click **[!UICONTROL Next]**.
@@ -65,9 +65,3 @@ You can send an email to customers: one for clients created less than a year ago
 For more information, refer to [designing an email](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 
 ![](assets/wf-deliveries-with-a-complement.png)
-
-**Related topics:**
-
-* [Query](../../automating/using/query.md)
-* [Segmentation activity](../../automating/using/segmentation.md)
-* [Email delivery](../../automating/using/email-delivery.md)

@@ -1,6 +1,6 @@
 ---
-title: "Workflow use-case: Control group"
-description: "Workflow use-case: Control group"
+title: Building a control group
+description: This use case shows how to build a control group.
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -14,15 +14,15 @@ internal: n
 snippet: y
 ---
 
-# Workflow use-case: Building a control group {#building-control-group}
+# Building a control group {#building-control-group}
 
 To measure the impact of a delivery, you may want to exclude some profiles from your target so that they will not receive a given message. This control group can be used to make a comparison with the behavior of the target population which received the message.
 
 To do this in Adobe Campaign Standard, you can build a workflow including the following activities:
-* A Query activity to target a given population.
-* A Segmentation activity to isolate a random control group from this population.
-* An Email delivery activity to send a message to the main target.
-* An Update data activity to update the profiles that were excluded from the target (the random control group).
+* A [Query](../../automating/query.md) activity to target a given population.
+* A [Segmentation](../../automating/segmentation.md) activity to isolate a random control group from this population.
+* An [Email delivery](../../automating/email-delivery.md) activity to send a message to the main target.
+* An [Update data](../../automating/update-data.md) activity to update the profiles that were excluded from the target (the random control group).
 
 ![](assets/wkf_control-group.png)
 
@@ -55,16 +55,14 @@ The detailed steps to create a workflow are presented in the [Building a workflo
 
 ## Creating a Query activity {#create-a-query-activity}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, drag and drop a **[!UICONTROL Query activity]**.
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, drag and drop a [Query](../../automating/query.md) activity.
 1. Double-click the activity to define your target.
 1. For example, in **[!UICONTROL Shortcuts]**, drag and drop **[!UICONTROL Profile]**, select **[!UICONTROL Age]** with the operator **[!UICONTROL Greater than]** and type 25 in the **[!UICONTROL Value]** field.
 1. Click **[!UICONTROL Confirm]**.
 
-The detailed steps to build a Query activity are presented in the [Query](../../automating/using/query.md) section.
-
 ## Creating a Segmentation activity {#creating-a-segmentation-activity}
 
-1. Drag and drop a **[!UICONTROL Segmentation]** activity and double-click it.
+1. Drag and drop a [Segmentation](../../automating/segmentation.md) activity and double-click it.
 1. In the **[!UICONTROL Segments]** tab, select a segment to edit.
 1. In the **[!UICONTROL Configuration]** tab of that segment, select the **[!UICONTROL Limit the population of this segment]** option.
 
@@ -81,11 +79,9 @@ The detailed steps to build a Query activity are presented in the [Query](../../
 
 1. Click **[!UICONTROL Confirm]**.
 
-The detailed steps to build a Segmentation activity are presented in the [Segmentation](../../automating/using/segmentation.md) section.
-
 ## Creating an Email activity {#creating-an-email-activity}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, drag and drop an **[!UICONTROL Email Delivery]** after the main target segment.
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, drag and drop an [Email delivery](../../automating/email-delivery.md) activity after the main target segment.
 1. Click the activity and select ![](assets/edit_darkgrey-24px.png) to edit it.
 1. Select **[!UICONTROL Single send email]** and click **[!UICONTROL Next]**.
 1. Select an email template and click **[!UICONTROL Next]**.
@@ -94,11 +90,9 @@ The detailed steps to build a Segmentation activity are presented in the [Segmen
 1. Edit and save your content.
 1. In the **[!UICONTROL Schedule]** section of the message dashboard, unselect the **[!UICONTROL Request confirmation before sending messages}** option.
 
-The detailed steps to build an Email activity are presented in the [Email delivery](../../automating/using/email-delivery.md) section.
-
 ## Creating an Update data activity {#creating-update-data-activity}
 
-1. Drag and drop an **[!UICONTROL Update data]** activity after the control group segment.
+1. Drag and drop an [Update data](../../automating/update-data.md) activity after the control group segment.
 1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
 1. In the **[!UICONTROL General]** tab, select **[!UICONTROL Update]** from the **[!UICONTROL Operation type]** drop-down list.
 1. In the **[!UICONTROL Identification]** tab, select the **[!UICONTROL Directly using the targeting dimension]** option.
@@ -111,8 +105,6 @@ The detailed steps to build an Email activity are presented in the [Email delive
     ![](assets/wkf_control-update-fields-to-update.png)
 
 1. Click **[!UICONTROL Confirm]**.
-
-The detailed steps to build an Update data activity are presented in the [Update data](../../automating/using/update-data.md) section.
 
 ## Running the workflow {#running-the-workflow}
 

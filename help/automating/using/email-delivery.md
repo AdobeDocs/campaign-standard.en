@@ -38,7 +38,7 @@ Email recipients are defined upstream of the activity in the same workflow, via 
 
 The message preparation is triggered according to the workflow execution parameters. From the message dashboard, you can select whether to request or not a manual confirmation to send the message (required by default). You can start the workflow manually or place a scheduler activity in the workflow to automate execution.
 
-**Related topics**
+**Related topics:**
 
 * [Use case: Create a once-a-week email delivery](../../automating/using/workflow-weekly-offer.md)
 * [Use case: Creating a delivery segmented on location](../../automating/using/workflow-segmentation-location.md)

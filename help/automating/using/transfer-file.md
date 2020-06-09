@@ -33,6 +33,7 @@ The way in which the data will be extracted is defined when the activity is conf
 You can use this activity to recover data that will then be structured with the **[!UICONTROL Load file]** activity.
 
 **Related topics:**
+
 * [Use case: Updating data based on an automatic file download](../../automating/using/update-data-automatic-download.md)
 
 ## Configuration {#configuration}
