@@ -26,9 +26,9 @@ All release dates are subject to change: we recommend you visit this page on a r
 
 **NEW!** Subscribe to [Campaign Standard release notifications](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) to get details about upcoming releases straight in your inbox.
 
-## Release 20.3.1 - May Release {#release-20-3-may-release}
+## Release 20.4 - October Release {#release-20-4-oct-release}
 
-Environment updates happen in waves, during the indicated timeframes below. Detailed information about this release are available in the [Release Notes](../../rn/using/release-notes.md). If you have any further questions, please contact [Adobe Client Care](https://support.neolane.net/webApp/extranetLogin).
+Environment updates happen in waves, during the indicated timeframes below. Detailed information about this release are available in the [Release Notes](../../rn/using/release-notes.md). If you have any further questions, please contact [Adobe Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
 
 <table>
  <thead>
@@ -40,11 +40,11 @@ Environment updates happen in waves, during the indicated timeframes below. Deta
  <tbody>
   <tr>
    <td>Stage<br /> </td>
-   <td>May 26 - 27, 2020<br /> </td>
+   <td>Sept 21 - 22, 2020<br /> </td>
   </tr>
   <tr>
    <td> Production<br /> </td>
-   <td>May 28 - June 1, 2020<br /> </td>
+   <td>Sept 28 - Oct 5, 2020<br /> </td>
   </tr>
  </tbody>
 </table>
@@ -59,7 +59,7 @@ A: Changes are listed in the [Release Notes](../../rn/using/release-notes.md), i
 
 **Q: What is the validation process?**
 
-A: As your staging instance is upgraded, Adobe recommends to validate your processes and use cases are working properly with this new version, and report any problem to [Adobe Client Care](https://support.neolane.net/webApp/extranetLogin).
+A: As your staging instance is upgraded, Adobe recommends to validate your processes and use cases are working properly with this new version, and report any problem to [Adobe Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
 
 **Q: Will there be access to the instance during the upgrade process?**
 
@@ -81,4 +81,4 @@ A: Yes, they will work. New emails cannot be sent during the upgrade but trackin
 
 A: When logging on to Campaign, a release notification popup will be displayed, with the latest version.
 
-For any other questions, contact [Adobe Client Care](https://support.neolane.net/webApp/extranetLogin).
+For any other questions, contact [Adobe Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
