@@ -28,7 +28,7 @@ All release dates are subject to change: we recommend you visit this page on a r
 
 ## Release 20.3.1 - May Release {#release-20-3-may-release}
 
-Environment updates happen in waves, during the indicated timeframes below. Detailed information about this release are available in the [Release Notes](../../rn/using/release-notes.md). If you have any further questions, please contact [Adobe Client Care](https://support.neolane.net/webApp/extranetLogin).
+Environment updates happen in waves, during the indicated timeframes below. Detailed information about this release are available in the [Release Notes](../../rn/using/release-notes.md). If you have any further questions, please contact [Adobe Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
 
 <table>
  <thead>
@@ -59,7 +59,7 @@ A: Changes are listed in the [Release Notes](../../rn/using/release-notes.md), i
 
 **Q: What is the validation process?**
 
-A: As your staging instance is upgraded, Adobe recommends to validate your processes and use cases are working properly with this new version, and report any problem to [Adobe Client Care](https://support.neolane.net/webApp/extranetLogin).
+A: As your staging instance is upgraded, Adobe recommends to validate your processes and use cases are working properly with this new version, and report any problem to [Adobe Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
 
 **Q: Will there be access to the instance during the upgrade process?**
 
