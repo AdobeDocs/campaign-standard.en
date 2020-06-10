@@ -81,4 +81,4 @@ A: Yes, they will work. New emails cannot be sent during the upgrade but trackin
 
 A: When logging on to Campaign, a release notification popup will be displayed, with the latest version.
 
-For any other questions, contact [Adobe Client Care](https://support.neolane.net/webApp/extranetLogin).
+For any other questions, contact [Adobe Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
