@@ -16,7 +16,7 @@ snippet: y
 
 # Target mappings in Campaign{#target-mappings-in-campaign}
 
-Target mappings are technical objects used by Campaign in order to deliver messages. They contain all the technical settings required to send deliveries (addresses, phone numbers, blacklist indicators, additional identifiers...).
+Target mappings are technical objects used by Campaign in order to deliver messages. They contain all the technical settings required to send deliveries (addresses, phone numbers, block list indicators, additional identifiers...).
 
 Administrators can access target mappings in the **[!UICONTROL Administration > Application settings > Target mappings]** menu.
 
