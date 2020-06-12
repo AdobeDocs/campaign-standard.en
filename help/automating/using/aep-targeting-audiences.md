@@ -32,7 +32,7 @@ To activate an Adobe Experience Platform audience into your workflows, follow th
 
 1. (Optional) Once the audience is selected, you can click the eye button to review and/or edit the segment definition (make sure to save your changes again).
 
-    Clicking the eye button will simply direct you to the Unified Segment Builder (in another tab) associated with the selected audience within Campaign.
+    Clicking the eye button will simply direct you to the Segment Builder (in another tab) associated with the selected audience within Campaign.
 
 1. Select a **[!UICONTROL Platform data mapping]** element to specify the desired targeting dimension for the selected Adobe Experience Platform audience.
 
