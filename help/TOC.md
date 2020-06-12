@@ -316,7 +316,7 @@ user-guide-title: Adobe Campaign Standard Help
           + [Coupling email and direct mail deliveries](automating/using/coupling-email-direct-mail.md)
           + [Sending an email with enriched fields](automating/using/sending-email-enriched-fields.md)
           + [Personalizing an email with additional data](automating/using/personalizing-email-with-additional-data.md)
-       + Segmentation & targeting {#segmentation-targeting}
+       + Segmentation and targeting {#segmentation-targeting}
           + [Union on two refined audiences](automating/using/union-on-two-refined-audiences.md)
           + [Creating a segmentation on location](automating/using/workflow-segmentation-location.md)
           + [Retargeting non-openers](automating/using/workflow-cross-channel-retargeting.md)
