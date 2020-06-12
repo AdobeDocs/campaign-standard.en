@@ -53,7 +53,7 @@ snippet: y
   <tr> 
    <td> 
     <p>The integration between Adobe Campaign Standard and Microsoft Dynamics 365 is now available. You’ll be able to transfer your contact and custom entity records from Dynamics 365 to Campaign, and get email event data back from Campaign to Dynamics 365 for better sales/marketing alignment.</p>
-    <p>Refer to the <a href="../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md">detailed documentation</a> to set this integration up and view the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/integrating/microsoft-dynamics365-connector/introduction.html">how-to video</a>.</p>
+    <p>Refer to the <a href="../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md">detailed documentation</a> to set this integration up and view the <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/campaign-and-microsoft-dynamics-365/working-with-campaign-standard-and-microsoft-dynamics-365.html">how-to video</a>.</p>
   </td>
   </tr> 
  </tbody> 

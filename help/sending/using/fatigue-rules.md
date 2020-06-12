@@ -67,7 +67,7 @@ To create and configure a **[!UICONTROL Fatigue]** typology rule, apply the foll
 
    ![](assets/fatigue20.png)
 
-1. Select the **[!UICONTROL Typologies]** tab and link your typology rule to the typology used for your deliveries. See [Managing typologies](../../sending/using/about-typology-rules.md#managing-typologies) and [Typology rules](../../sending/using/about-typology-rules.md#typology-rules).
+1. Select the **[!UICONTROL Typologies]** tab and link your typology rule to the typology used for your deliveries. See [Managing typologies](../../sending/using/managing-typologies.md) and [Typology rules](../../sending/using/managing-typology-rules.md).
 
    ![](assets/fatigue12.png)
 
