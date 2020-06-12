@@ -44,7 +44,7 @@ The message preparation is triggered according to the workflow execution paramet
 * [Use case: Creating a delivery segmented on location](../../automating/using/workflow-segmentation-location.md)
 * [Use case: Creating deliveries with a complement](../../automating/using/workflow-created-query-with-complement.md)
 * [Use case: Retargeting workflow sending a new delivery to non-openers](../../automating/using/workflow-cross-channel-retargeting.md)
-* [Use case: Birthday delivery](../..automating/using/birthday-delivery.md)
+* [Use case: Birthday delivery](../../automating/using/birthday-delivery.md)
 
 ## Configuration {#configuration}
 

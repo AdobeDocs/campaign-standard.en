@@ -34,8 +34,8 @@ It is therefore advised that a deduplication only has one inbound transition. To
 
 **Related topics**
 
-* [Use case: Identifying duplicates before a delivery](automating/using/identifying-duplicated-before-delivery.md)
-* [Use case: Deduplicating the data from an imported file](automating/using/deduplicating-data-imported-file.md)
+* [Use case: Identifying duplicates before a delivery](../../automating/using/identifying-duplicated-before-delivery.md)
+* [Use case: Deduplicating the data from an imported file](../../automating/using/deduplicating-data-imported-file.md)
 
 ## Configuration {#configuration}
 

@@ -20,7 +20,7 @@ The following example illustrates how to configure an **[!UICONTROL Extract file
 
 The aim of this workflow is to export a list of profiles in the form of an external file so that the data can be used outside of Adobe Campaign.
 
-1. Drag and drop an [Extract file](../../automating/extract-file.md) activity into your workflow and place it after the [Query](../../automating/query.md) activity.
+1. Drag and drop an [Extract file](../../automating/using/extract-file.md) activity into your workflow and place it after the [Query](../../automating/using/query.md) activity.
 
    In this example, the query is carried out on all profiles aged 18 to 30.
 
@@ -43,7 +43,7 @@ The aim of this workflow is to export a list of profiles in the form of an exter
       ![](assets/wkf_data_export9.png)
 
 1. Confirm your activity.
-1. Drag and drop a [Transfer file](../../automating/transfer-file.md) activity after the **[!UICONTROL Extract file]** activity to recover the extract file on an external account.
+1. Drag and drop a [Transfer file](../../automating/using/transfer-file.md) activity after the **[!UICONTROL Extract file]** activity to recover the extract file on an external account.
 1. Open the activity and choose the **[!UICONTROL File upload]** action.
 
    ![](assets/wkf_data_export11.png)

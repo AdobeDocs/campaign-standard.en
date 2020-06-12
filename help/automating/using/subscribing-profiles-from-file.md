@@ -22,7 +22,7 @@ The workflow is presented as follows:
 
 ![](assets/subscription_activity_example1.png)
 
-* A [Load file](../../automating/load-file.md) activity loads the profile file and defines the structure of the imported columns.
+* A [Load file](../../automating/using/load-file.md) activity loads the profile file and defines the structure of the imported columns.
 
   For this example, the file loaded is in the .csv format and contains the following data:
 
@@ -41,14 +41,14 @@ The workflow is presented as follows:
 
   ![](assets/subscription_activity_example2.png)
 
-* A [Reconciliation](../../automating/reconciliation.md) activity identifies the data from the file as belonging to the profile dimension of the Adobe Campaign database. Only the **[!UICONTROL Identification]** tab is configured. It identifies the file data according to the email addresses of the profiles.
+* A [Reconciliation](../../automating/using/reconciliation.md) activity identifies the data from the file as belonging to the profile dimension of the Adobe Campaign database. Only the **[!UICONTROL Identification]** tab is configured. It identifies the file data according to the email addresses of the profiles.
 
   ![](assets/subscription_activity_example3.png)
 
-* A [Deduplication](../../automating/deduplication.md) based on the **email** field of the temporary resource (resulting from the reconciliation) identifies any duplicates. If the data imported from the file contains any duplicates, the subscription to a service will fail for all data.
+* A [Deduplication](../../automating/using/deduplication.md) based on the **email** field of the temporary resource (resulting from the reconciliation) identifies any duplicates. If the data imported from the file contains any duplicates, the subscription to a service will fail for all data.
 
   ![](assets/subscription_activity_example5.png)
 
-* A [Subscription Services](../../automating/subscription-services.md) activity lets you select the service to which the profiles must be subscribed, the field corresponding to the subscription date, and the origin of the subscription.
+* A [Subscription Services](../../automating/using/subscription-services.md) activity lets you select the service to which the profiles must be subscribed, the field corresponding to the subscription date, and the origin of the subscription.
 
   ![](assets/subscription_activity_example4.png)

@@ -24,7 +24,7 @@ You can send an offer via email on the anniversary of the customer's profile cre
 
 ## Creating a Scheduler activity {#creating-a-scheduler-activity}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, drag and drop a [Scheduler](../../automating/scheduler.md) activity.
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, drag and drop a [Scheduler](../../automating/using/scheduler.md) activity.
 1. Double-click the activity.
 1. Configure the execution of your delivery.
 1. In **[!UICONTROL Execution frequency]**, select **[!UICONTROL Daily]**.
@@ -40,7 +40,7 @@ You can send an offer via email on the anniversary of the customer's profile cre
 
 ## Creating a Query activity {#creating-a-query-activity}
 
-1. To select recipients, drag and drop a [Query](../../automating/query.md) activity and double-click it.
+1. To select recipients, drag and drop a [Query](../../automating/using/query.md) activity and double-click it.
 1. Add **[!UICONTROL Profiles]** and select **[!UICONTROL no longer contact by email]** with the value **[!UICONTROL no]**.
 
 ### Retriving profiles created on the same day as the day of execution {#retriving-profiles-created-on-the-same-day}
@@ -84,7 +84,7 @@ The final query displays:
 
 ## Creating an Email delivery{#creating-an-email-delivery}
 
-1. Drag and drop an [Email delivery](../../automating/email-delivery.md) activity.
+1. Drag and drop an [Email delivery](../../automating/using/email-delivery.md) activity.
 1. Click the activity and select ![](assets/edit_darkgrey-24px.png) to edit.
 1. Select **[!UICONTROL Recurring email]** and click **[!UICONTROL Next]**.
 1. Select an email template and click **[!UICONTROL Next]**.

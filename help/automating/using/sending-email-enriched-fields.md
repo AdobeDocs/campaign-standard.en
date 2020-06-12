@@ -48,13 +48,13 @@ To build the workflow, follow these steps:
 
    For more on this, see the [Enrichment](../../automating/using/enrichment.md) section.
 
-1. Drag and drop a [Segmentation](../../autmating/using/segmentation.md) activity into your workflow and open it to refine the main target.
+1. Drag and drop a [Segmentation](../../automating/using/segmentation.md) activity into your workflow and open it to refine the main target.
 
    ![](assets/load_file_segmentation.png)
 
    For more on this, see the [Segmentation](../../automating/using/segmentation.md) section.
 
-1. Drag and drop an [Email delivery](../../autmating/using/email-delivery.md) activity into your workflow and open it.
+1. Drag and drop an [Email delivery](../../automating/using/email-delivery.md) activity into your workflow and open it.
 
    <!--The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.-->
 

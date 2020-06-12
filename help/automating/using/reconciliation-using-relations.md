@@ -26,7 +26,7 @@ The workflow is made up of the following activities:
 
 ![](assets/reconciliation_example1.png)
 
-* A [Load file](../../automating.using/load-file.md) activity, which loads and detects the data of the file to import. The imported file contains the following data:
+* A [Load file](../../automating/using/load-file.md) activity, which loads and detects the data of the file to import. The imported file contains the following data:
 
     * Transaction date
     * Client email address

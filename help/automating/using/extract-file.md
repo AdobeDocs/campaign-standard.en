@@ -32,7 +32,7 @@ The way in which the data will be extracted is defined when configuring the acti
 
 **Related topics:**
 
-* [Use case: Exporting profiles in an external file](../../automating/exporting-profiles-in-file.md)
+* [Use case: Exporting profiles in an external file](../../automating/using/exporting-profiles-in-file.md)
 
 ## Configuration {#configuration}
 

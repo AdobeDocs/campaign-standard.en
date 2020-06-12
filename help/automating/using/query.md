@@ -93,7 +93,7 @@ Example of available filters for the **[!UICONTROL Deliveries (delivery)]** reso
 
 By default, the targeting dimension and resource are set in order to target profiles. However, it may be useful to use a different resource from the targeting dimension if you want to look up for a specific record in a distant table.
 
-For more on this, refer to this use case: [Using resources different from targeting dimensions](../../automating/using/using-resources-different-from-targeting-dimensions.md.md)
+For more on this, refer to this use case: [Using resources different from targeting dimensions](../../automating/using/using-resources-different-from-targeting-dimensions.md)
 
 ## Enriching data {#enriching-data}
 
@@ -115,7 +115,7 @@ After adding any additional data, you can apply an additional filter level to th
 >
 >By default, the **[!UICONTROL Remove duplicate rows (DISTINCT)]** option is checked in the **[!UICONTROL Advanced options]** of the **[!UICONTROL Additional data]** tab of the query. If the **[!UICONTROL Query]** activity contains many (from 100) additional data defined, it is recommended to uncheck this option, for performance reasons. Beware that unchecking this option can result in getting duplicates, depending on the data queried.
 
-A use case on how to personalize an email with additional data is presented in [this section](../../personalizing-email-with-additional-data.md).
+A use case on how to personalize an email with additional data is presented in [this section](../../automating/using/personalizing-email-with-additional-data.md).
 
 ### Adding a simple field {#adding-a-simple-field}
 

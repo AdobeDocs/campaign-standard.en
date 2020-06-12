@@ -37,7 +37,7 @@ If specified in a file through dedicated columns, this activity also lets you ch
 **Related topics:**
 
 * [Use case: Updating multiple subscription statuses from a file](../../automating/using/updating-subscriptions-from-file.md)
-* [Use case: Subscribing profiles from a file to a specific service](../../automating/subscribing-profiles-from-file)
+* [Use case: Subscribing profiles from a file to a specific service](../../automating/using/subscribing-profiles-from-file)
 
 ## Configuration {#configuration}
 

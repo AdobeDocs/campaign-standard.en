@@ -40,7 +40,7 @@ The message preparation is triggered according to the workflow execution paramet
 
 **Related topics:**
 
-* [Use case: Coupling email and direct mail deliveries](../../automating/coupling-email-direct-mail.md)
+* [Use case: Coupling email and direct mail deliveries](../../automating/using/coupling-email-direct-mail.md)
 * [About direct mail](../../channels/using/about-direct-mail.md)
 
 ## Configuration {#configuration}

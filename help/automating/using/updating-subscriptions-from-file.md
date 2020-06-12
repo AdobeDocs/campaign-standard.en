@@ -22,7 +22,7 @@ The workflow is presented as follows:
 
 ![](assets/subscription_activity_example1.png)
 
-* A [Load file](../../automating/load-file.md) activity loads the profile file and defines the structure of the imported columns.
+* A [Load file](../../automating/using/load-file.md) activity loads the profile file and defines the structure of the imported columns.
 
   For this example, the file loaded is in the .csv format and contains the following data:
 
@@ -47,7 +47,7 @@ The workflow is presented as follows:
 
   If your file already uses "0" and "1" to identify the operation, you don't need to remap those values. Only make sure that the column is processed as a **Boolean** or **Integer** in the **[!UICONTROL Column definition]** tab.
 
-* A [Reconciliation](../../automating/reconciliation.md) activity identifies the data from the file as belonging to the profile dimension of the Adobe Campaign database. Through the **[!UICONTROL Identification]** tab, the **email** field of the file is matched to the **email** field of the profile resource.
+* A [Reconciliation](../../automating/using/reconciliation.md) activity identifies the data from the file as belonging to the profile dimension of the Adobe Campaign database. Through the **[!UICONTROL Identification]** tab, the **email** field of the file is matched to the **email** field of the profile resource.
 
   ![](assets/subscription_activity_example3.png)
 
@@ -55,11 +55,11 @@ The workflow is presented as follows:
 
   ![](assets/subscription_example_service_relation.png)
 
-* A [Deduplication](../../automating/deduplication.md) based on the **email** field of the temporary resource (resulting from the reconciliation) identifies duplicates. It is important to eliminate duplicates since the subscription to a service will fail for all data in case of duplicates.
+* A [Deduplication](../../automating/using/deduplication.md) based on the **email** field of the temporary resource (resulting from the reconciliation) identifies duplicates. It is important to eliminate duplicates since the subscription to a service will fail for all data in case of duplicates.
 
   ![](assets/subscription_activity_example5.png)
 
-* A [Subscription Services](../../automating/subscription-services.md) activity identifies the services to update as coming from the transition, through the link created in the **[!UICONTROL Reconciliation]** activity.
+* A [Subscription Services](../../automating/using/subscription-services.md) activity identifies the services to update as coming from the transition, through the link created in the **[!UICONTROL Reconciliation]** activity.
 
   The **[!UICONTROL Operation type]** is identified as coming from the **operation** field of the file. Only Boolean or Integer fields can be selected here. If the column of your file that contains the operation to perform does not appear in the list, make sure that you have correctly set your column format in the **[!UICONTROL Load file]** activity, as explained earlier in this example.
 

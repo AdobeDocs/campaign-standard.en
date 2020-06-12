@@ -19,10 +19,10 @@ snippet: y
 To measure the impact of a delivery, you may want to exclude some profiles from your target so that they will not receive a given message. This control group can be used to make a comparison with the behavior of the target population which received the message.
 
 To do this in Adobe Campaign Standard, you can build a workflow including the following activities:
-* A [Query](../../automating/query.md) activity to target a given population.
-* A [Segmentation](../../automating/segmentation.md) activity to isolate a random control group from this population.
-* An [Email delivery](../../automating/email-delivery.md) activity to send a message to the main target.
-* An [Update data](../../automating/update-data.md) activity to update the profiles that were excluded from the target (the random control group).
+* A [Query](../../automating/using/query.md) activity to target a given population.
+* A [Segmentation](../../automating/using/segmentation.md) activity to isolate a random control group from this population.
+* An [Email delivery](../../automating/using/email-delivery.md) activity to send a message to the main target.
+* An [Update data](../../automating/using/update-data.md) activity to update the profiles that were excluded from the target (the random control group).
 
 ![](assets/wkf_control-group.png)
 

@@ -24,7 +24,7 @@ You can send an email every Tuesday to all the customers for Special Offers.
 
 ## Creating a Scheduler activity{#creating-a-scheduler-activity}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, drag and drop a [Scheduler](../../automating/scheduler.md) activity.
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, drag and drop a [Scheduler](../../automating/using/scheduler.md) activity.
 1. Double-click the activity.
 1. Configure the execution of your delivery. 
 1. In **[!UICONTROL Execution frequency]**, select **[!UICONTROL Weekly]**.
@@ -41,7 +41,7 @@ You can send an email every Tuesday to all the customers for Special Offers.
 
 ## Creating a Query activity{#creating-a-query-activity}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, to select recipients, drag and drop a [Query](../../automating/query.md) activity and double-click it.
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, to select recipients, drag and drop a [Query](../../automating/using/query.md) activity and double-click it.
 1. In **[!UICONTROL Shortcuts]** > **[!UICONTROL Profile]**, drag and drop **[!UICONTROL Email]**.
 1. Select **[!UICONTROL is not empty]** as an operator.
 1. In **[!UICONTROL Shortcuts]** > **[!UICONTROL General]**, add profiles and select **[!UICONTROL no longer contact by email]** with the value **[!UICONTROL No]**.
@@ -51,7 +51,7 @@ You can send an email every Tuesday to all the customers for Special Offers.
 
 ## Creating an Email delivery{#creating-an-email-delivery}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, drag and drop an [Email delivery](../../automating/email-delivery.md) activity.
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, drag and drop an [Email delivery](../../automating/using/email-delivery.md) activity.
 1. Click the activity and select ![](assets/edit_darkgrey-24px.png) to edit.
 1. Select **[!UICONTROL Recurring email]** and click **[!UICONTROL Next]**.
 1. Select an email template and click **[!UICONTROL Next]**.
@@ -65,4 +65,4 @@ For more information, refer to [designing an email](../../designing/using/design
 
 **Related topics:**
 
-* [Email channel](../..//channels/using/creating-an-email.md)
+* [Email channel](../../channels/using/creating-an-email.md)

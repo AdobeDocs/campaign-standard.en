@@ -28,8 +28,8 @@ The **[!UICONTROL Read audience]** activity is a simpler version of the **[!UICO
 
 **Related topics**
 
-* [Use case: Union on two refined audiences](automating/using/union-on-two-refined-audiences.md)
-* [Use case: Reconcile a File audience with the database](automating/using/reconcile-file-audience-with-database.md)
+* [Use case: Union on two refined audiences](../../automating/using/union-on-two-refined-audiences.md)
+* [Use case: Reconcile a File audience with the database](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## Configuration {#configuration}
 

@@ -36,7 +36,7 @@ The source workflow is presented as follows:
 
 * A [Reconciliation](../../automating/using/reconciliation.md) activity creates the links between the imported data and the database so that the transactions data are properly connected to profiles and products.
 * An [Update data](../../automating/using/update-data.md) activity inserts and updates the Transactions resource of the database with the incoming data.
-* An [End](../../automating/using/end.md) activity triggers the destination workflow, which is used to update aggregates.
+* An [End](../../automating/using/start-and-end.md) activity triggers the destination workflow, which is used to update aggregates.
 
 ![](assets/signal_example_source1.png)
 

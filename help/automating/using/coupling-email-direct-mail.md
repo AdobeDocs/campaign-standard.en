@@ -30,5 +30,5 @@ Here is an example of workflow that mixes direct mail and email channels.
 
 **Related topics:**
 
-* [Direct mail delivery activity](../../automating/direct-mail-delivery.md)
+* [Direct mail delivery activity](../../automating/using/direct-mail-delivery.md)
 * [About direct mail](../../channels/using/about-direct-mail.md)

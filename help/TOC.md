@@ -334,9 +334,9 @@ user-guide-title: Adobe Campaign Standard Help
           + [Updating data based on an automatic file download](automating/using/update-data-automatic-download.md)
           + [Data reconciliation using relations](automating/using/reconciliation-using-relations.md)
           + [Data update using reconciliation](automating/using/data-update-reconciliation.md)
-          + [Exporting profiles in an external file](automating/exporting-profiles-in-file.md)
+          + [Exporting profiles in an external file](automating/using/exporting-profiles-in-file.md)
           + [Updating multiple subscription statuses from a file](automating/using/updating-subscriptions-from-file.md)
-          + [Subscribing profiles from a file to a specific service](automating/subscribing-profiles-from-file)
+          + [Subscribing profiles from a file to a specific service](automating/using/subscribing-profiles-from-file)
   + Working with Adobe Experience Platform audiences {#working-with-aep-audiences}
        + [Targeting Adobe Experience Platform audiences](automating/using/aep-targeting-audiences.md)
        + [Personalizing campaigns using Adobe Experience Platform attributes](automating/using/aep-personalizing-campaigns.md)
