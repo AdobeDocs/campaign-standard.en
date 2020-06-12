@@ -1,4 +1,4 @@
---
+---
 title: Segmentation on location"
 description: This use case shows how to perform segmentation on location.
 page-status-flag: never-activated
