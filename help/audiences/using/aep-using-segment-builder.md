@@ -20,7 +20,7 @@ snippet: y
 >
 >Audience Destinations service is currently in beta, which may be subject to frequent updates without notice. Customers are required to be hosted on Azure (currently in beta for North America only) to access these capabilities. Please reach out to Adobe Customer Care if you would like access.
 
-The Segment Builder allows you to build audiences by defining rules based on data coming from the [Unified Profile Service](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html).
+The Segment Builder allows you to build audiences by defining rules based on data coming from the [Real-time Customer Profile](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html).
 
 This section presents global concepts when building a segment. For detailed information on the Segment Builder itself, refer to the [Segment Builder user guide](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
 
