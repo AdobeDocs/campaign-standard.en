@@ -55,14 +55,14 @@ The detailed steps to create a workflow are presented in the [Building a workflo
 
 ## Creating a Query activity {#create-a-query-activity}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, drag and drop a [Query](../../automating/query.md) activity.
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, drag and drop a [Query](../../automating/using/query.md) activity.
 1. Double-click the activity to define your target.
 1. For example, in **[!UICONTROL Shortcuts]**, drag and drop **[!UICONTROL Profile]**, select **[!UICONTROL Age]** with the operator **[!UICONTROL Greater than]** and type 25 in the **[!UICONTROL Value]** field.
 1. Click **[!UICONTROL Confirm]**.
 
 ## Creating a Segmentation activity {#creating-a-segmentation-activity}
 
-1. Drag and drop a [Segmentation](../../automating/segmentation.md) activity and double-click it.
+1. Drag and drop a [Segmentation](../../automating/using/segmentation.md) activity and double-click it.
 1. In the **[!UICONTROL Segments]** tab, select a segment to edit.
 1. In the **[!UICONTROL Configuration]** tab of that segment, select the **[!UICONTROL Limit the population of this segment]** option.
 
@@ -81,7 +81,7 @@ The detailed steps to create a workflow are presented in the [Building a workflo
 
 ## Creating an Email activity {#creating-an-email-activity}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, drag and drop an [Email delivery](../../automating/email-delivery.md) activity after the main target segment.
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, drag and drop an [Email delivery](../../automating/using/email-delivery.md) activity after the main target segment.
 1. Click the activity and select ![](assets/edit_darkgrey-24px.png) to edit it.
 1. Select **[!UICONTROL Single send email]** and click **[!UICONTROL Next]**.
 1. Select an email template and click **[!UICONTROL Next]**.
@@ -92,7 +92,7 @@ The detailed steps to create a workflow are presented in the [Building a workflo
 
 ## Creating an Update data activity {#creating-update-data-activity}
 
-1. Drag and drop an [Update data](../../automating/update-data.md) activity after the control group segment.
+1. Drag and drop an [Update data](../../automating/using/update-data.md) activity after the control group segment.
 1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
 1. In the **[!UICONTROL General]** tab, select **[!UICONTROL Update]** from the **[!UICONTROL Operation type]** drop-down list.
 1. In the **[!UICONTROL Identification]** tab, select the **[!UICONTROL Directly using the targeting dimension]** option.

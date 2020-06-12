@@ -40,7 +40,7 @@ The message preparation is triggered according to the workflow execution paramet
 
 **Related topics**
 
-* [Sending a recurring push notification with a workflow](../../automating/using/recurring-push-notification.md)
+* [Sending a recurring push notification with a workflow](../../automating/using/recurring-push-notifications.md)
 
 ## Configuration {#configuration}
 
