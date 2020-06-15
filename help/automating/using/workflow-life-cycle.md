@@ -38,7 +38,7 @@ Once it has been started, a workflow may also have two other statuses:
 
 * **Erroneous** (red)
 
-  An error occurred when a workflow was executed. The workflow was stopped and the user must carry out an action. To find out more about this error, use the ![](assets/printpreview_darkgrey-24px.png) button to access the workflow log (refer to [Monitoring](#monitoring)).
+  An error occurred when a workflow was executed. The workflow was stopped and the user must carry out an action. To find out more about this error, use the ![](assets/printpreview_darkgrey-24px.png) button to access the workflow log (refer to [Monitoring](../../automating/using/monitoring-workflow-execution.md)).
 
 The list of marketing activities allows you to display all the workflows as well as their statuses. For more on this, see [Managing marketing activities](../../start/using/marketing-activities.md#about-marketing-activities).
 

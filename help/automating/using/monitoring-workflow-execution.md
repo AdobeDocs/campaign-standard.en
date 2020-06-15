@@ -48,7 +48,7 @@ In this case, the erroneous task is aborted. This mode is particularly suited to
 
 >[!NOTE]
 >
->You can apply this configuration individually for each activity. To do this, select an activity and open it using the quick action ![](assets/edit_darkgrey-24px.png). Then select the error management mode in the **Execution options** tab. See [Activity execution options](#activity-execution-options).
+>You can apply this configuration individually for each activity. To do this, select an activity and open it using the quick action ![](assets/edit_darkgrey-24px.png). Then select the error management mode in the **Execution options** tab. See [Activity execution options](../../automating/using/activity-properties.md).
 
 In the [workflow's properties](#workflow-properties), additional options related to error management are available.
 
