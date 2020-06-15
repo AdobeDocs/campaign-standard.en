@@ -552,7 +552,7 @@ Added information on tracking log types. [Read more](../../sending/using/trackin
 
 The query activity section has been updated with query samples. [Read more](../../automating/using/query.md#query-samples)
 
-The section dedicated to blacklisting has been renamed “Understanding opt-in and opt-out processes”. It has been updated with information on how to manage opt-in to specific channels and how to set up landing pages to manage opt-in and opt-out. [Read more](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+The section dedicated to block lists has been renamed “Understanding opt-in and opt-out processes”. It has been updated with information on how to manage opt-in to specific channels and how to set up landing pages to manage opt-in and opt-out. [Read more](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 Learn the best practices for using Adobe hosted SFTP servers. [Read more](../../administration/using/external-accounts.md#sftp-external-account)
 
@@ -576,7 +576,7 @@ Use of Custom Resources in Transactional Messaging - [Read more](../../administr
 
 The GDPR API regroups features that allow the automatic processing of GDPR requests. [Read more](../../api/using/creating-a-privacy-request.md)
 
-Added information on how to set up landing pages to give your recipients the ability to be blacklisted. [Read more](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
+Added information on how to set up landing pages to give your recipients the ability to be added to the block list. [Read more](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
 The [Configuring transactional messaging](../../administration/using/configuring-transactional-messaging.md) section has been reorganized, and a [step-by-step use case](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) has been added.
 
@@ -630,7 +630,7 @@ Added information on how to send a delivery depending on users' time zones in a 
 
 Reorganized the **[!UICONTROL Customizing a push notification]** section with step-by-step use cases. [Read more](../../channels/using/customizing-a-push-notification.md)
 
-New section dedicated to blacklisting management. [Read more](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+New section dedicated to block list management. [Read more](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 Updated information about delivery failures and quarantines. [Read more](../../sending/using/monitoring-a-delivery.md)
 
