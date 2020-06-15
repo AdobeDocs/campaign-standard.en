@@ -1,6 +1,6 @@
 ---
-title: Using the Unified Segment Builder
-description: Learn how to use the Unified Segment Builder to create audiences.
+title: Using the Segment Builder
+description: Learn how to use the Segment Builder to create audiences.
 page-status-flag: never-activated
 uuid: b3996642-96ec-489e-b146-c8c2cb52aa32
 contentOwner: sauviat
@@ -14,17 +14,17 @@ internal: n
 snippet: y
 ---
 
-# Using the Unified Segment Builder {#using-the-unified-segment-builder}
+# Using the Segment Builder {#using-the-segment-builder}
 
 >[!IMPORTANT]
 >
 >Audience Destinations service is currently in beta, which may be subject to frequent updates without notice. Customers are required to be hosted on Azure (currently in beta for North America only) to access these capabilities. Please reach out to Adobe Customer Care if you would like access.
 
-The Unified Segment Builder allows you to build audiences by defining rules based on data coming from the [Unified Profile Service](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html).
+The Segment Builder allows you to build audiences by defining rules based on data coming from the [Real-time Customer Profile](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html).
 
-This section presents global concepts when building a segment. For detailed information on the Unified Segment Builder itself, refer to the [Segment Builder user guide](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
+This section presents global concepts when building a segment. For detailed information on the Segment Builder itself, refer to the [Segment Builder user guide](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
 
-The Unified Segment Builder interface is composed as follows:
+The Segment Builder interface is composed as follows:
 
 * The left pane provides all attributes, events and audiences available to build the segment by dragging and dropping desired fields into the segment builder workspace.
 * The center area provides a workspace to build the segment by defining and combining rules from the available fields.
@@ -36,7 +36,7 @@ The Unified Segment Builder interface is composed as follows:
 
 To build a segment, follow these steps:
 
- The Unified Segment Builder should now be displayed in your workspace. It allows you to build a segment using data from Adobe Experience Platform that will eventually be used to create your audience.
+ The Segment Builder should now be displayed in your workspace. It allows you to build a segment using data from Adobe Experience Platform that will eventually be used to create your audience.
 
 1. Name the segment, then enter a description (optional).
 
@@ -80,7 +80,7 @@ Fields are organized into tabs:
 >
 >For more on this, refer to the [dedicated documentation](https://docs.adobe.com/content/help/en/experience-platform/segmentation/multi-entity-segmentation.html).
 
-By default, the Unified Segment builder displays fields in which data is already present. To display the full schema, including fields for which data is not present, enable the **[!UICONTROL Show full XDM schema]** option from the settings.
+By default, the Segment Builder displays fields in which data is already present. To display the full schema, including fields for which data is not present, enable the **[!UICONTROL Show full XDM schema]** option from the settings.
 
 ![](assets/aep_audiences_populatedfields.png)
 
@@ -120,7 +120,7 @@ Once linked together, the two rules form a container.
 
 ## Comparing fields
 
-The Unified Segment Builder lets you compare two fields to define a rule. For example, females whose home address is in a different ZIP code from their work address.
+The Segment Builder lets you compare two fields to define a rule. For example, females whose home address is in a different ZIP code from their work address.
 
 To do this, follow these steps:
 
