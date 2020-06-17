@@ -29,7 +29,7 @@ If you always get the same error message for an ISP, your email or IP may have b
 
 If the problem persists, contact the commercial or deliverability services, or Adobe Campaign support.
 
-## Block list versus quarantine {#blacklisting-versus-quarantine}
+## Block list versus quarantine {#block-list-versus-quarantine}
 
 * **What is the difference between an email address on a block list and a quarantined email address?**
 
@@ -37,7 +37,7 @@ If the problem persists, contact the commercial or deliverability services, or A
 
     * The status **[!UICONTROL Quarantined]** is a result of a soft or hard bounce.
     
-    For more on this, see this [section](../../sending/using/understanding-quarantine-management.md#quarantine-vs-blacklisting).
+    For more on this, see this [section](../../sending/using/understanding-quarantine-management.md#quarantine-vs-block-list).
 
 * **What do the different quarantine error reasons mean?**
 
@@ -45,7 +45,7 @@ If the problem persists, contact the commercial or deliverability services, or A
     
     For more on this, see [Understanding quarantine management](../../sending/using/understanding-quarantine-management.md).
 
-## Removing from block list {#unblacklisting}
+## Removing from block list {#removing-from-block-list}
 
 * **One of my recipients was added to the block list by mistake. How do I remove them from the block list so that I can start sending them messages again?**
 

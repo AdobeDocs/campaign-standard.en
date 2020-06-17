@@ -32,7 +32,7 @@ Moreover, quarantines help reducing SMS sending costs by excluding erroneous pho
 
 For more on best practices to secure and optimize your deliveries, refer to [this page](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html).
 
-### Quarantine vs block list {#quarantine-vs-blacklisting}
+### Quarantine vs block list {#quarantine-vs-block-list}
 
 **Quarantine** applies only to an address, not the profile itself. It means that, if two profiles have the same email address, they will both be affected if the address is quarantined.
 
