@@ -59,8 +59,6 @@ If the problem persists, contact the commercial or deliverability services, or A
     * [MX Toolbox](https://mxtoolbox.com/)
     * [What is my IP address](https://whatismyipaddress.com)
 
-    <!--[Blocklist Alert](https://blacklistalert.org/)-->
-
     Generally, the result of the IP address check will return a list that contains details of the block list and also the name of the web site that blocked the IP address.
 
     By clicking the corresponding link, you can access the web site details.
