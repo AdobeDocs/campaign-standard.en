@@ -18,7 +18,7 @@ snippet: y
 
 Maintaining your domain and IP address reputation is essential. Here is some advice for setting up a new platform.
 
-Starting to send emails on a new platform is a sensitive step because the platform does not have any history of use and no reputation (when the sending IPs have never been used for this purpose). ISPs are naturally suspicious of IP addresses that have never been used to send email and that suddenly start to send large volumes of email traffic. In effect, spammers generally use "unknown" IP addresses (that is to say addresses that have never been blacklisted) to send the largest possible number of messages before detection.
+Starting to send emails on a new platform is a sensitive step because the platform does not have any history of use and no reputation (when the sending IPs have never been used for this purpose). ISPs are naturally suspicious of IP addresses that have never been used to send email and that suddenly start to send large volumes of email traffic. In effect, spammers generally use "unknown" IP addresses (addresses that have never been add to a block list) to send the largest possible number of messages before detection.
 
 You cannot expect to reach operational speed in terms of output at the very start of the production phase. Furthermore, you should not attempt to send messages at this rate as it might lead the ISPs to block the sending addresses and to severely compromise the rest of the start-up phase.
 

@@ -95,4 +95,4 @@ You are now ready to send the extraction file to your direct mail provider. For 
 * Send it via a regular email, with the file attached
 * Send it via Campaign: perform your direct mail within a campaign [workflow](../../automating/using/direct-mail-delivery.md) and add a **[!UICONTROL Transfer file]** to send the file via FTP for example. See [Transfer file](../../automating/using/transfer-file.md).
 
-The provider retrieves the list of erroneous addresses and sends this information to Adobe Campaign which automatically blacklists the erroneous addresses. See [Return to sender](../../channels/using/return-to-sender.md).
+The provider retrieves the list of erroneous addresses and sends this information to Adobe Campaign which automatically adds to the block list the erroneous addresses. See [Return to sender](../../channels/using/return-to-sender.md).

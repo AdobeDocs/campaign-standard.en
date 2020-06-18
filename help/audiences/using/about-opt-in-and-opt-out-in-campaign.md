@@ -1,6 +1,6 @@
 ---
 title: About opt-in and opt-out in Campaign
-description: Opt-out (or blacklist) results in a profile no longer being targeted by any delivery or by deliveries from a specific channel.
+description: Opt-out results in a profile no longer being targeted by any delivery or by deliveries from a specific channel.
 page-status-flag: never-activated
 uuid: 501d9485-976b-4de7-b242-6886f2814c6c
 contentOwner: sauviat
@@ -16,7 +16,7 @@ snippet: y
 
 # About opt-in and opt-out in Campaign{#about-opt-in-and-opt-out-in-campaign}
 
-Opt-out (or blacklist) results in a profile no longer being targeted by any delivery or by deliveries from a specific channel.
+Opt-out results in a profile no longer being targeted by any delivery or by deliveries from a specific channel.
 
 To give profiles the ability to opt in or opt out, you have to create a dedicated landing page. For more on this, refer to [Setting up opt-in and opt-out landing pages](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#setting-up-opt-in-and-opt-out-landing-pages).
 
