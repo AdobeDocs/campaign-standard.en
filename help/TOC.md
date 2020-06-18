@@ -232,23 +232,12 @@ user-guide-title: Adobe Campaign Standard Help
        + [Testing your triggers](integrating/using/testing-your-triggers.md)
        + [Abandonment Triggers use cases](integrating/using/abandonment-triggers-use-cases.md)
   + Campaign and Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-       + Working with Campaign Standard and Microsoft Dynamics 365 {#working-with-campaign-standard-and-ms-dynamics}
-          + [Get Started with Microsoft Dynamics 365 integration](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
-          + [About Microsoft Dynamics 365 integration](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
-          + [Request and configure the Microsoft Dynamics 365 integration](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
-          + [Use the Microsoft Dynamics 365 integration](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
-       + [Configure Adobe IO for Microsoft Dynamics 365 integration](integrating/using/configure-adobe-io-for-ms-dynamic.md)
-       + [Configure Microsoft Dynamics 365 for Campaign integration](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
-       + [Configure Unifi for Microsoft Dynamics 365 integration](integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md)
-       + [Map Campaign custom resources and Dynamics 365 Custom entities](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
+       + [Get Started with Microsoft Dynamics 365 integration](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 + Managing processes and data {#managing-processes-and-data}
   + [Get started with data and processes management](automating/using/get-started-workflows.md)
   + Workflow general operation {#workflow-general-operation}
        + [Workflow interface](automating/using/workflow-interface.md)
        + [Building a workflow](automating/using/building-a-workflow.md)
-       + [Targeting data](automating/using/targeting-data.md)
-       + [Importing data](automating/using/importing-data.md)
-       + [Using workflow data](automating/using/using-workflow-data.md)
        + [Workflow best practices](automating/using/best-practices-workflows.md)
   + Executing a workflow {#executing-a-workflow}
        + [About workflow execution](automating/using/about-workflow-execution.md)
@@ -301,8 +290,10 @@ user-guide-title: Adobe Campaign Standard Help
        + [List of functions](automating/using/list-of-functions.md)
   + Importing and exporting data {#importing-and-exporting-data}
        + [About data import and export](automating/using/about-data-import-and-export.md)
+       + [Import best practices](automating/using/import-best-practices.md)
        + [Importing data with import templates](automating/using/importing-data-with-import-templates.md)
-       + [Defining import templates](automating/using/defining-import-templates.md)
+       + [Creating workflow templates to import data](automating/using/creating-import-workflow-templates.md)
+       + [Managing encrypted data](automating/using/managing-encrypted-data.md)
        + [Exporting logs](automating/using/exporting-logs.md)
        + [Managing packages](automating/using/managing-packages.md)
        + [Exporting lists](automating/using/exporting-lists.md)

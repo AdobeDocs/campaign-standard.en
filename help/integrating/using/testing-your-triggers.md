@@ -71,8 +71,7 @@ If it is, follow these guide lines:
 If not, move on to the next step. If it is, follow these guide lines:
 
 * Check that the transactional template is published.
-* If the propensityScore threshold is enabled for Campaign, check the trigger's propensity score from the pipeline.
-* Check that the profile is not blacklisted.
+* Check that the profile is not on block list.
 * Check the application of typology rules.
 * Check the transactional message's logs.
 

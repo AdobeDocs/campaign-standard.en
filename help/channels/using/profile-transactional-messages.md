@@ -18,7 +18,7 @@ snippet: y
 
 You can send transactional messages based on customer marketing profiles, which allows you to:
 
-* Apply marketing typology rules such as **[!UICONTROL Blacklisted address]** or [fatigue rules](../../sending/using/fatigue-rules.md).
+* Apply marketing typology rules such as **[!UICONTROL Address on block list]** or [fatigue rules](../../sending/using/fatigue-rules.md).
 * Include the unsubscription link within the messages.
 * Add the transactional messages to the global delivery reporting.
 * Leverage the transactional messages in the customer journey.
@@ -68,11 +68,11 @@ Once the message is published and your site integration is done, you can monitor
 
    ![](assets/message-center_marketing_sending_logs.png)
 
-1. Select the **[!UICONTROL Exclusions logs]** tab to view recipients who have been excluded from the message target, such as blacklisted addresses.
+1. Select the **[!UICONTROL Exclusions logs]** tab to view recipients who have been excluded from the message target, such as addresses on block list.
 
    ![](assets/message-center_marketing_exclusion_logs.png)
 
-For any profile that has opted out, the **[!UICONTROL Blacklisted address]** typology rule excluded the corresponding recipient.
+For any profile that has opted out, the **[!UICONTROL Address on block list]** typology rule excluded the corresponding recipient.
 
 This rule is part of a specific typology that applies to all transactional messages based on the **[!UICONTROL Profile]** table.
 

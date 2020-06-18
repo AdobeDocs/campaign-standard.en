@@ -65,7 +65,7 @@ snippet: y
 
 >[!NOTE]
 >
->New capabilities will be released in Campaign Control Panel in May, including GPG keys management and certificate renewal for CNAME subdomains. For more on these features, refer to the [Control Panel Release Note](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
+>Certificate renewal for CNAME subdomains is released in Campaign Control Panel in May. For more on this, refer to the [Control Panel Release Note](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
 
 **Improvements**
 

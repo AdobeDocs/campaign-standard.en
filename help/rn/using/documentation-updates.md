@@ -18,6 +18,16 @@ snippet: y
 
 In  addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), this page lists all the new updates in Adobe Campaign Standard documentation.
 
+## Documentation updates - June 2020 {#doc-updates-june-2020}
+
+Both ‘whitelist’ and ‘blacklist’ terms have been removed from Adobe Campaign documentation. Some occurrences of these terms may still exist in the product UI, option names and internal code, but will be replaced in upcoming Campaign releases with ‘blocklist’ and ‘allowlist.’
+
+References to the legacy Support website have been replaced by the new URL. [Learn more](https://helpx.adobe.com/campaign/kb/ac-support.html#acs-support-req)
+
+Custom Litmus account configuration has been removed from Inbox rendering capability. [Read more](../../sending/using/email-rendering.md)
+
+Campaign Standard - Microsoft Dynamics 365 integration is currently unavailable. A new connector is being developed and will be available in the future. The related help pages have been removed. [Read more](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+
 ## Documentation updates - May 2020 {#doc-updates-may-2020}
 
 Campaign Standard overview page has been enriched and reorganized into thematic topics. [Read more](../../start/using/about-campaign-standard.md)
@@ -548,7 +558,7 @@ Added information on tracking log types. [Read more](../../sending/using/trackin
 
 The query activity section has been updated with query samples. [Read more](../../automating/using/query.md#query-samples)
 
-The section dedicated to blacklisting has been renamed “Understanding opt-in and opt-out processes”. It has been updated with information on how to manage opt-in to specific channels and how to set up landing pages to manage opt-in and opt-out. [Read more](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+The section dedicated to block lists has been renamed “Understanding opt-in and opt-out processes”. It has been updated with information on how to manage opt-in to specific channels and how to set up landing pages to manage opt-in and opt-out. [Read more](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 Learn the best practices for using Adobe hosted SFTP servers. [Read more](../../administration/using/external-accounts.md#sftp-external-account)
 
@@ -572,13 +582,13 @@ Use of Custom Resources in Transactional Messaging - [Read more](../../administr
 
 The GDPR API regroups features that allow the automatic processing of GDPR requests. [Read more](../../api/using/creating-a-privacy-request.md)
 
-Added information on how to set up landing pages to give your recipients the ability to be blacklisted. [Read more](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
+Added information on how to set up landing pages to give your recipients the ability to be added to the block list. [Read more](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
 The [Configuring transactional messaging](../../administration/using/configuring-transactional-messaging.md) section has been reorganized, and a [step-by-step use case](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) has been added.
 
 Added a technote to learn how to generate a multilingual CSV file to use for push notifications. [Read more](https://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html).
 
-Added information on the **Update Direct mail quarantines and delivery logs** import template. [Read more](../../automating/using/defining-import-templates.md)
+Added information on the **Update Direct mail quarantines and delivery logs** import template. [Read more](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates)
 
 Updated the technical workflow list. [Read more](../../administration/using/technical-workflows.md)
 
@@ -610,7 +620,7 @@ The **[!UICONTROL Working with typologies]** section has been updated for an imp
 
 A new option allowing to gain performance when defining many additional data in a **[!UICONTROL Query]** is now available. [Read more](../../automating/using/query.md)
 
-The profile import example has been updated with a few tips to have your profiles ready to receive direct mails. [Read more](../../automating/using/importing-data.md)
+The profile import example has been updated with a few tips to have your profiles ready to receive direct mails. [Read more](../../automating/using/about-data-import-and-export.md)
 
 A new activity is available in workflows: the **[!UICONTROL Enrichment]** activity. [Read more](../../automating/using/enrichment.md)
 
@@ -626,7 +636,7 @@ Added information on how to send a delivery depending on users' time zones in a 
 
 Reorganized the **[!UICONTROL Customizing a push notification]** section with step-by-step use cases. [Read more](../../channels/using/customizing-a-push-notification.md)
 
-New section dedicated to blacklisting management. [Read more](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+New section dedicated to block list management. [Read more](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 Updated information about delivery failures and quarantines. [Read more](../../sending/using/monitoring-a-delivery.md)
 
@@ -812,7 +822,7 @@ Dreamweaver integration live - [Read more](https://docs.adobe.com/content/help/e
 
 Section added on the different types of Adobe Campaign users. [Read more](../../administration/using/users-management.md)
 
-The Workflow guide has been reorganized and extended. Easily find how to [build](../../automating/using/building-a-workflow.md) and [execute](../../automating/using/about-workflow-execution.md) a workflow, how to [target](../../automating/using/targeting-data.md) and [manage](../../automating/using/targeting-data.md#enriching-data) your data, how to [import](../../automating/using/importing-data.md) data, and [how to use workflow data](../../automating/using/using-workflow-data.md) to update the database or to send deliveries.
+The Workflow guide has been reorganized and extended. Easily find how to [build](../../automating/using/building-a-workflow.md) and [execute](../../automating/using/about-workflow-execution.md) a workflow, how to [target](../../automating/using/about-targeting-activities.md) and [manage](../../automating/using/about-targeting-activities.md#enriching-data) your data, how to [import and export](../../automating/using/about-data-import-and-export.md) data, and how to use workflow data to update the database or to send deliveries.
 
 Report indicator calculation now available for dynamic reports, including full description and calculation formula. [Read more](../../reporting/using/indicator-calculation.md)
 

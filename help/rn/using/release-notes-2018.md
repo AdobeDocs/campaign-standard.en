@@ -82,7 +82,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Fixed an issue that caused pictures uploaded from a camera and shot in portrait mode to display in an unwanted rotated position.
 * Fixed an issue that displayed unclear selection information when using the query editor interface in the Creative Designer.
 * Fixed an issue that prevented from correctly duplicating an element when using the query editor interface in the Creative Designer.
-* Fixed an issue that kept delivering SMS messages to blacklisted recipients even though they had been unsubscribed through an automatic reply. (CAMP-27128)
+* Fixed an issue that kept delivering SMS messages to recipients on the block list, even though they had been unsubscribed through an automatic reply. (CAMP-27128)
 * Fixed an issue that prevented displaying the errors that caused the **Database Cleanup** workflow to fail. (CAMP-26876)
 * Fixed an issue which could prevent the deletion of custom fields in a push notification definition. (CAMP-25588)
 

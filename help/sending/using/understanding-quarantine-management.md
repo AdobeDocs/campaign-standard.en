@@ -26,23 +26,23 @@ In any case, the quarantine procedure complies with specific rules described in 
 
 The profiles whose email addresses or phone number are in quarantine are automatically excluded during message preparation (see [Identifying quarantined addresses for a delivery](#identifying-quarantined-addresses-for-a-delivery)). This will speed up deliveries, as the error rate has a significant effect on delivery speed.
 
-Some internet access providers automatically consider emails to be spam if the rate of invalid addresses is too high. Quarantine therefore allows you to avoid blacklisting by these providers.
+Some internet access providers automatically consider emails to be spam if the rate of invalid addresses is too high. Quarantine therefore allows you to avoid being added to a block list by these providers.
 
 Moreover, quarantines help reducing SMS sending costs by excluding erroneous phone numbers from deliveries.
 
 For more on best practices to secure and optimize your deliveries, refer to [this page](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html).
 
-### Quarantine vs blacklisting {#quarantine-vs-blacklisting}
+### Quarantine vs block list {#quarantine-vs-block-list}
 
 **Quarantine** applies only to an address, not the profile itself. It means that, if two profiles have the same email address, they will both be affected if the address is quarantined.
 
 Likewise, a profile whose email address is quarantined could update his profile and enter a new address, and could then be targeted by delivery actions again.
 
-**Blacklisting**, on the other hand, will result in the profile no longer being targeted by any delivery, for example after an unsubscription (opt-out). For more on the blacklisting process, refer to [Managing blacklisting in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+Being on the **block list**, on the other hand, will result in the profile no longer being targeted by any delivery, for example after an unsubscription (opt-out). For more on the block list process, refer to [About opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 >[!NOTE]
 >
->When a user replies to an SMS message with a keyword such as "STOP" in order to opt-out from SMS deliveries, his profile is not blacklisted like in the email opt-out process. The profile phone number is sent to quarantine with the **[!UICONTROL Blacklisted]** status. This status refers to the phone number only, the profile is not blacklisted so that the user continues receiving email messages. For more on this, refer to [this section](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
+>When a user replies to an SMS message with a keyword such as "STOP" in order to opt-out from SMS deliveries, his profile is not added to the block list like in the email opt-out process. The profile phone number is sent to quarantine with the **[!UICONTROL On block list]** status. This status refers to the phone number only, the profile is not on the block list so that the user continues receiving email messages. For more on this, refer to [this section](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
 
 ## Identifying quarantined addresses {#identifying-quarantined-addresses}
 
@@ -82,7 +82,7 @@ Adobe Campaign manages quarantine according to the delivery failure type and the
 
   When a delivery is successful after a retry, the error counter of the address which was prior to that quarantined is reinitialized. The address status changes to **[!UICONTROL Valid]** and it is deleted from the list of quarantines after two days by the **[!UICONTROL Database cleanup]** workflow.
 
-If a user qualifies an email as a spam (**Feedback loop**), the message is automatically redirected towards a technical mailbox managed by Campaign. The user's email address is then automatically sent to quarantine with the **[!UICONTROL Blacklisted]** status. This status refers to the address only, the profile is not blacklisted, so that the user continues receiving SMS messages and push notifications.
+If a user qualifies an email as a spam (**Feedback loop**), the message is automatically redirected towards a technical mailbox managed by Campaign. The user's email address is then automatically sent to quarantine with the **[!UICONTROL On block list]** status. This status refers to the address only, the profile is not on the block list, so that the user continues receiving SMS messages and push notifications.
 
 >[!NOTE]
 >

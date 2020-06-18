@@ -26,14 +26,14 @@ When a delivery cannot be sent to a profile, the remote server automatically sen
 >
 >**SMS** error messages (or "SR" for "Status Report") are qualified by the MTA process.
 
-Messages can also be excluded during the delivery preparation if an address is quarantined or if a profile is blacklisted. Excluded messages are listed in the **[!UICONTROL Exclusion logs]** tab of the delivery dashboard (see [this section](../../sending/using/monitoring-a-delivery.md#exclusion-logs)).
+Messages can also be excluded during the delivery preparation if an address is quarantined or if a profile is on the block list. Excluded messages are listed in the **[!UICONTROL Exclusion logs]** tab of the delivery dashboard (see [this section](../../sending/using/monitoring-a-delivery.md#exclusion-logs)).
 
 ![](assets/exclusion_logs.png)
 
 **Related topics:**
 
 * [Understanding quarantine management](../../sending/using/understanding-quarantine-management.md)
-* [Managing blacklisting in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* [About opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 ## Identifying delivery failures for a message {#identifying-delivery-failures-for-a-message}
 
@@ -53,27 +53,23 @@ There are three types of errors when a delivery fails:
 
 The possible reasons for a delivery failure are:
 
-* **[!UICONTROL User unknown]** (Hard type): the address does not exist. No further deliveries will be attempted for this profile.
-* **[!UICONTROL Quarantined address]** (Hard type): the address was placed in quarantine.
-* **[!UICONTROL Unreachable]** (Soft/Hard type): an error has occurred in the message delivery chain (such as domain temporarily unreachable). According to the error returned by the provider, the address will be sent to quarantine directly or the delivery will be tried again until Campaign receives an error which justifies the Quarantine status or until the number of errors reaches 5.
-* **[!UICONTROL Address empty]** (Hard type): the address is not defined.
-* **[!UICONTROL Mailbox full]** (Soft type): the mailbox of this user is full and cannot accept more messages. This address can be removed from the quarantine list to make another attempt. It is removed automatically after 30 days.
-
-  In order for the address to be automatically removed from the list of quarantined addresses, the **[!UICONTROL Database cleanup]** technical workflow must be started.
-
-* **[!UICONTROL Refused]** (Soft/Hard type): the address has been placed in quarantine due to a security feedback as a spam report. According to the error returned by the provider, the address will be sent to quarantine directly or the delivery will be tried again until Campaign receives an error which justifies the Quarantine status or until the number of errors reaches 5.
-* **[!UICONTROL Duplicate]**: the address has already been detected in the segmentation.
-* **[!UICONTROL Not defined]** (Soft type): the address is in qualification because errors have not been incremented yet.
-
-  This type of error occurs when a new error message is sent by the server: it can be an isolated error, but if it occurs again, the error counter increases, which will alert the technical teams. 
-
-* **[!UICONTROL Error ignored]**: the address is in the whitelist and an email will be sent to it in any case.
-* **[!UICONTROL Blacklisted address]**: the address was blacklisted at the time of sending.
-* **[!UICONTROL Account disabled]** (Soft/Hard type): when the Internet Access Provider (IAP) detects a lengthy period of inactivity, it can close the user's account: deliveries to the user's address will then be impossible. The Soft or Hard type depends upon the type of error received: if the account is temporarily disabled due to six months of inactivity and can still be activated, the status **[!UICONTROL Erroneous]** will be assigned and the delivery will be tried again. If the error received signals that the account is permanently deactivated then it will directly be sent to Quarantine.
-* **[!UICONTROL Not connected]**: the profile's mobile phone is switched off or not connected to the network when the message is sent.
-* **[!UICONTROL Invalid domain]** (Soft type): the domain of the email address is incorrect or no longer exists. This profile will be targeted again until the error count reaches 5. After this, the record will be set to Quarantine status and no retry will follow.
-* **[!UICONTROL Text too long]**: the number of characters in the SMS message exceeds the limit. For more on this, see [SMS encoding, length and transliteration](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).
-* **[!UICONTROL Character not supported by encoding]**: the SMS message contains one or more characters that are not supported by the encoding. &For more on this, see [Table of characters - GSM Standard](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard).
+Error label | Error type | Description
+---------|----------|---------
+ **[!UICONTROL User unknown]** | Hard | The address does not exist. No further deliveries will be attempted for this profile.
+ **[!UICONTROL Quarantined address]** | Hard | The address was placed in quarantine.
+**[!UICONTROL Unreachable]** | Soft/Hard | An error has occurred in the message delivery chain (such as domain temporarily unreachable). According to the error returned by the provider, the address will be sent to quarantine directly or the delivery will be tried again until Campaign receives an error which justifies the Quarantine status or until the number of errors reaches 5.
+ **[!UICONTROL Address empty]** | Hard | The address is not defined.
+ **[!UICONTROL Mailbox full]** | Soft | The mailbox of this user is full and cannot accept more messages. This address can be removed from the quarantine list to make another attempt. It is removed automatically after 30 days. In order for the address to be automatically removed from the list of quarantined addresses, the **[!UICONTROL Database cleanup]** technical workflow must be started.
+ **[!UICONTROL Refused]** | Soft/Hard | The address has been placed in quarantine due to a security feedback as a spam report. According to the error returned by the provider, the address will be sent to quarantine directly or the delivery will be tried again until Campaign receives an error which justifies the Quarantine status or until the number of errors reaches 5.
+ **[!UICONTROL Duplicate]** | Ignored | The address has already been detected in the segmentation.
+ **[!UICONTROL Not defined]** | Soft | the address is in qualification because errors have not been incremented yet. This type of error occurs when a new error message is sent by the server: it can be an isolated error, but if it occurs again, the error counter increases, which will alert the technical teams.
+ **[!UICONTROL Error ignored]** | Ignored | The address is on the allow list and an email will be sent to it in any case.
+ **[!UICONTROL Address on block list]** | Hard | The address was added to the block list at the time of sending.
+ **[!UICONTROL Account disabled]** | Soft/Hard | When the Internet Access Provider (IAP) detects a lengthy period of inactivity, it can close the user's account: deliveries to the user's address will then be impossible. The Soft or Hard type depends upon the type of error received: if the account is temporarily disabled due to six months of inactivity and can still be activated, the status **[!UICONTROL Erroneous]** will be assigned and the delivery will be tried again. If the error received signals that the account is permanently deactivated then it will directly be sent to Quarantine.
+ **[!UICONTROL Not connected]** | Ignored | The profile's mobile phone is switched off or not connected to the network when the message is sent.
+ **[!UICONTROL Invalid domain]** | Soft | The domain of the email address is incorrect or no longer exists. This profile will be targeted again until the error count reaches 5. After this, the record will be set to Quarantine status and no retry will follow.
+ **[!UICONTROL Text too long]** | Ignored | The number of characters in the SMS message exceeds the limit. For more on this, see [SMS encoding, length and transliteration](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).
+ **[!UICONTROL Character not supported by encoding]** | Ignored | The SMS message contains one or more characters that are not supported by the encoding. &For more on this, see [Table of characters - GSM Standard](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard).
 
 ## Retries after a delivery temporary failure {#retries-after-a-delivery-temporary-failure}
 

@@ -83,8 +83,7 @@ Finally, [Exporting lists](../../automating/using/exporting-lists.md) allow you 
 
 Read more:
 
-* [Importing data](../../automating/using/importing-data.md)
-* [Using workflow data](../../automating/using/using-workflow-data.md)
+* [Importing and exporting data](../../automating/using/about-data-import-and-export.md)
 * [Use case: Exporting / importing custom resources](../../automating/using/exporting-importing-custom-resources.md)
 
 ## Additional resources

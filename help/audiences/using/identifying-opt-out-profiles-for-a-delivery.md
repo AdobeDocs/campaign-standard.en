@@ -18,7 +18,7 @@ snippet: y
 
 Opt-out profiles for a specific delivery are listed after the preparation phase, in the **[!UICONTROL Exclusion logs]** tab of the delivery dashboard.
 
-![](assets/exclusion_blacklisting.png)
+![](assets/exclusion_blocklisting.png)
 
 **Related topics:**
 
