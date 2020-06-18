@@ -57,11 +57,11 @@ The steps to perform this use case are as follows:
 
 1. In the external system, use the public key downloaded from the Control Panel to encrypt the data to import into Campaign Standard.
 
-     ![](assets/gpg_external.png)
+    ![](assets/gpg_external.png)
 
 1. In Campaign Standard, build a workflow to import the encrypted data and decrypt it using the private key that has been installed via the Control Panel. To do this, we will build a workflow as follows:
 
-     ![](assets/gpg_workflow.png)
+   ![](assets/gpg_workflow.png)
 
     * **[!UICONTROL Transfer file]** activity: Transfers the file from the SFTP server to Campaign Classic.
     * **[!UICONTROL Load file]** activity: Loads the data from the file into the database and decrypt it using the private key generated in the Control Panel.
@@ -80,8 +80,46 @@ The steps to perform this use case are as follows:
     >
     >Note that you do not need to specify the private key to use to decrypt the data. The private key is stored in Control Panel, which will automatically detect the key to use to decrypt the file.
 
-     ![](assets/gpg_load.png)
+    ![](assets/gpg_load.png)
 
 1. Click **[!UICONTROL OK]** to confirm the activity configuration.
 
 1. You can now run the workflow.
+
+## Use case: Encrypting and exporting data using a key installed on Control Panel {use-case-gpg-encrypt}
+
+In this use case, we will build a workflow in order to encrypt and export data using a key installed on Control Panel.
+
+The steps to perform this use case are as follows:
+
+1. Generate a GPG key pair (public/private) using a PGP utility, then install the public key onto Control Panel. Detailed steps are available in [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data).
+
+    ![](assets/gpg_install.png)
+
+1. In Campaign Standard, build a workflow to export the data and export it using the private key that has been installed via the Control Panel. To do this, we will build a workflow as follows:
+
+    ![](assets/gpg-workflow-export.png)
+
+    * **[!UICONTROL Query]** activity: In this example, we want to execute a query to target the data from the database that we want to export.
+    * **[!UICONTROL Extract file]** activity: Encrypts and extracts the data into a file.
+    * **[!UICONTROL Transfer file]** activity: Transfers the file containing the encrypted data to an SFTP server.
+
+1. Configure the **[!UICONTROL Query]** activity to target the desired data from the database. For more on this, refer to [this section](../../automating/using/query.md).
+
+1. Open the **[!UICONTROL Extract file]** activity then configure it according to your needs (output file, columns, format, etc). Global concepts on how to configure the activity are available in [this section](../../automating/using/extract-file.md).
+
+    Add a pre-processing stage to the activity, in order to encrypt the data to extract. To do this, select the encryption GPG key to use to encrypt the data.
+
+    ![](assets/gpg-extract-stage.png)
+
+    >[!NOTE]
+    >
+    >The value in parentheses is the **comment** that you defined when generating the key pair using your PGP encryption tool. Make sure you select the correct matching key, otherwise the recipient will not be able to decrypt the file.
+
+1. Open the **[!UICONTROL Transfer file]** activity, then specify the SFTP server to which you want to send the file. Global concepts on how to configure the activity are available in [this section](../../automating/using/transfer-file.md).
+
+    ![](assets/gpg-transfer-encrypt.png)
+
+1. You can now run the workflow. Once it is executed, data target by the query will be exported to the SFTP server into an encrypted .gpg file.
+
+    ![](assets/gpg-sftp-encrypt.png)
