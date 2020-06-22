@@ -20,7 +20,7 @@ snippet: y
 
 Users can be opted in or out by an operator directly from the profile **[!UICONTROL General]** tab.
 
-In the **[!UICONTROL No longer contact (blacklist)]** section, the selected checkboxes correspond to the channels from which the user chose to opt out. Select the channels according to the user's needs.
+In the **[!UICONTROL No longer contact (on block list)]** section, the selected checkboxes correspond to the channels from which the user chose to opt out. Select the channels according to the user's needs.
 
 ![](assets/optin_landingpage_3.png)
 
@@ -28,7 +28,7 @@ In the **[!UICONTROL No longer contact (blacklist)]** section, the selected chec
 
 To give users the ability to opt in or opt out, you have to create and publish a **[!UICONTROL Profile acquisition]** landing page. They will then be able to select the channels according to their needs. To do this, follow the steps below.
 
-You can also set up a **[!UICONTROL BlackList]** landing page that will enable users to opt out from all deliveries. For more on this, refer to [Setting up a landing page to opt out from all deliveries](#setting-up-a-landing-page-to-opt-out-from-all-deliveries).
+You can also set up a **[!UICONTROL Block List]** landing page that will enable users to opt out from all deliveries. For more on this, refer to [Setting up a landing page to opt out from all deliveries](#setting-up-a-landing-page-to-opt-out-from-all-deliveries).
 
 >[!NOTE]
 >
@@ -50,9 +50,9 @@ You can also set up a **[!UICONTROL BlackList]** landing page that will enable u
 
 ### Setting up a landing page to opt out from all deliveries {#setting-up-a-landing-page-to-opt-out-from-all-deliveries}
 
-To give users the ability to opt out from all deliveries, you have to create and publish a **[!UICONTROL BlackList]** landing page. For more on landing pages creation, refer to [this page](../../channels/using/getting-started-with-landing-pages.md).
+To give users the ability to opt out from all deliveries, you have to create and publish a **[!UICONTROL Block list]** landing page. For more on landing pages creation, refer to [this page](../../channels/using/getting-started-with-landing-pages.md).
 
 Once a user clicks on the landing page link, the **[!UICONTROL No longer contact (by any channel)]** option in the profile is automatically selected.
 
-![](assets/blacklisting_allchannels.png)
+![](assets/blocklisting_allchannels.png)
 

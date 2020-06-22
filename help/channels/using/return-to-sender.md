@@ -18,7 +18,7 @@ snippet: y
 
 Flat file exchanges with Direct Mail providers incorporating Return to Sender information are supported. This allows corresponding postal addresses to be excluded from future communications. This also allows you to be notified of an incorrect address and engage with the customer through other channels or to encourage him to update his postal address.
 
-For example, a contact has moved to a new place and did not provide you with his new postal address. The provider retrieves the list of erroneous addresses and sends this information to Adobe Campaign which automatically blacklists the erroneous addresses.
+For example, a contact has moved to a new place and did not provide you with his new postal address. The provider retrieves the list of erroneous addresses and sends this information to Adobe Campaign which automatically adds to the block list the erroneous addresses.
 
 In order for this functionality to work, the direct mail default delivery template includes, in the content, the delivery log ID. Thus, Adobe Campaign will be able to synchronize the profile and delivery data with the information returned by the provider.
 
@@ -30,7 +30,7 @@ An import template is available under **[!UICONTROL Adobe Campaign > Resources >
 
 When the import is done, Adobe Campaign automatically performs the following actions:
 
-* Incorrect addresses are blacklisted at the profile level
+* Incorrect addresses are added to the block list at the profile level
 * The delivery main indicators (KPIs) are updated
 * The delivery logs are updated
 
