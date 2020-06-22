@@ -51,7 +51,7 @@ The steps to perform this use case are as follows:
 1. Use the Control Panel to generate a key pair (public/private). Detailed steps are available in [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data).
 
     * The public key will be shared with the external system, which will use it to  encrypt the data to send to Campaign.
-    * The private key will be used by Campaign Classic to decrypt the incoming encrypted data.
+    * The private key will be used by Campaign to decrypt the incoming encrypted data.
 
     ![](assets/gpg_generate.png)
 
@@ -63,7 +63,7 @@ The steps to perform this use case are as follows:
 
    ![](assets/gpg_workflow.png)
 
-    * **[!UICONTROL Transfer file]** activity: Transfers the file from the SFTP server to Campaign Classic.
+    * **[!UICONTROL Transfer file]** activity: Transfers the file from an external source to Campaign. In this example, we want to transfer the file from an SFTP server.
     * **[!UICONTROL Load file]** activity: Loads the data from the file into the database and decrypt it using the private key generated in the Control Panel.
 
 1. Open the **[!UICONTROL Transfer file]** activity then configure it according to your needs. Global concepts on how to configure the activity are available in [this section](../../automating/using/load-file.md).
