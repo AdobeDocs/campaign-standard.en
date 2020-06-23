@@ -26,3 +26,4 @@ The profiles that were excluded during delivery preparation (typology rules, qua
 
 ![](assets/audience_active_profiles2.png)
 
+If you are hosted on AWS and using Campaign Standard from build 10368, you can also monitor the number of active profiles used on your instances directly from the Control Panel. For more on this, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
