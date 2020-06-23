@@ -92,7 +92,7 @@ In this use case, we will build a workflow in order to encrypt and export data u
 
 The steps to perform this use case are as follows:
 
-1. Generate a GPG key pair (public/private) using a PGP utility, then install the public key onto Control Panel. Detailed steps are available in [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data).
+1. Generate a GPG key pair (public/private) using a GPG utility, then install the public key onto Control Panel. Detailed steps are available in [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data).
 
     ![](assets/gpg_install.png)
 
@@ -114,7 +114,7 @@ The steps to perform this use case are as follows:
 
     >[!NOTE]
     >
-    >The value in parentheses is the **comment** that you defined when generating the key pair using your PGP encryption tool. Make sure you select the correct matching key, otherwise the recipient will not be able to decrypt the file.
+    >The value in parentheses is the **comment** that you defined when generating the key pair using your GPG encryption tool. Make sure you select the correct matching key, otherwise the recipient will not be able to decrypt the file.
 
 1. Open the **[!UICONTROL Transfer file]** activity, then specify the SFTP server to which you want to send the file. Global concepts on how to configure the activity are available in [this section](../../automating/using/transfer-file.md).
 
