@@ -37,7 +37,7 @@ Before accessing the image in Adobe Campaign, the following tasks must first be 
    The integration only supports static images. The rest of the content is not customizable.
 
 1. Enter the name of the rawbox specified in Adobe Target.
-1. If you use Enterprise permissions in your settings in Adobe Target, add the corresponding property in this field. Learn more about Target Enterprise permissions in [this page](https://marketing.adobe.com/resources/help/en_US/target/target/properties-overview.html). This field is optional and not required if you don't use Enterprise permissions in Target.
+1. If you use Enterprise permissions in your settings in Adobe Target, add the corresponding property in this field. Learn more about Target Enterprise permissions in [this page](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/properties-overview.html). This field is optional and not required if you don't use Enterprise permissions in Target.
 1. In **[!UICONTROL Additional decision parameters]**, specify the mapping between the fields defined in the Adobe Target segments and the Adobe Campaign fields.
 
    The Adobe Campaign fields used must have been specified in the rawbox. Here, we will define different experiences depending of the recipient's gender.
@@ -50,7 +50,7 @@ Your delivery containing the dynamic image can now be send. Its results can be f
 
 **Related topics:**
 
-* [Adobe Target Portal](https://marketing.adobe.com/resources/help/en_US/target/a4t/c_campaign_and_target.html)
+* [Adobe Target Portal](https://docs.adobe.com/content/help/en/target/using/integrate/campaign-and-target.html)
 * [About email content design](../../designing/using/designing-content-in-adobe-campaign.md)
 * [Personalize Email Images in Real-Time](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html) video
 
