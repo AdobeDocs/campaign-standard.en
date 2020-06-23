@@ -81,7 +81,7 @@ Customers are advised to review if they make use of the feature/capability in th
    <td> <p>Starting Campaign 19.0 release, the legacy email editor is deprecated. Use <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">the new Email Designer</a> to create and personalize your email content. </p></br>
    <p>Read out <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">this section</a> to learn how to adapt your email templates for the new editor.</p></br>
   <p> 
-  <em>Target removal version: Campaign 20.4 release</em></p>
+  <em>Target removal version: 2021</em></p>
    </td> 
   </tr> 
  </tbody> 
