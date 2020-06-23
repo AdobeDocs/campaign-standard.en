@@ -20,9 +20,13 @@ snippet: y
 
 In some cases, the data that you want to import Campaign Servers may need to be encrypted, for example if it contains PII data.
 
-To be able to import or export encrypted files, you first need to contact Adobe Customer Care so that they provide your instance with the needed encryption/decryption commands.
+To be able to encrypt outgoing data or decrypt incoming data, you need to manage GPG keys using the [Control Panel](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html).
 
-To do this, submit a request indicating:
+>[!NOTE]
+>
+>Control Panel is available to all customers hosted on AWS (excepted for customers who host their marketing instances on premise).
+
+If you are not eligible to use Control Panel, you need to contact Adobe Customer Care so that they provide your instance with the needed encryption/decryption commands. To do this, submit a request indicating:
 
 * The **label** that will display in Campaign interface to use the command. For example "Encrypt file".
 * The **command** to install on your instance.
@@ -30,12 +34,6 @@ To do this, submit a request indicating:
 Once the request is processed, the encryption / decryption commands will be available in the **[!UICONTROL Pre-processing stage]** field from the **[!UICONTROL Load file]** and **[!UICONTROL Extract file]** activities. You can use them to decrypt or encrypt the files that you want to import or export.
 
    ![](assets/preprocessing-encryption.png)
-
->[!NOTE]
->
->Note that GPG keys can be added to your instance using the Control Panel, which is available to all customers hosted on AWS (excepted for customers who host their marketing instances on premise).
->
->For more on this, refer to [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html).
 
 **Related topics:**
 
