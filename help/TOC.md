@@ -57,7 +57,7 @@ user-guide-title: Adobe Campaign Standard Help
   + Working wih Adobe Experience Platform {#working-with-adobe-experience-platform}
        + [About the Audience Destinations service](audiences/using/aep-about-audience-destinations-service.md)
        + [Managing Adobe Experience Platform audiences](audiences/using/aep-managing-audiences.md)
-       + [Using the Unified Segment Builder](audiences/using/aep-using-segment-builder.md)
+       + [Using the Segment Builder](audiences/using/aep-using-segment-builder.md)
 + Communication channels {#communication-channels}
   + [Get started with communication channels](channels/using/get-started-communication-channels.md)
   + About communication channels {#about-communication-channels}

@@ -20,7 +20,7 @@ snippet: y
 
 The ![](assets/printpreview_darkgrey-24px.png) icon opens the workflow log and task menu.
 
-The workflow history is saved for the duration specified in the workflow execution options (refer to [Workflow properties](#workflow-properties)). During this duration, all the messages are therefore saved, even after a restart. If you do not want to save the messages from a previous execution, you have to purge the history by clicking the ![](assets/delete_darkgrey-24px.png) button.
+The workflow history is saved for the duration specified in the workflow execution options (refer to [Workflow properties](../../automating/using/managing-execution-options.md)). During this duration, all the messages are therefore saved, even after a restart. If you do not want to save the messages from a previous execution, you have to purge the history by clicking the ![](assets/delete_darkgrey-24px.png) button.
 
 The **[!UICONTROL Log]** tab contains the execution history of all the activities or any selected activities. It indexes the operations carried out and execution errors by chronological order.
 
@@ -48,9 +48,9 @@ In this case, the erroneous task is aborted. This mode is particularly suited to
 
 >[!NOTE]
 >
->You can apply this configuration individually for each activity. To do this, select an activity and open it using the quick action ![](assets/edit_darkgrey-24px.png). Then select the error management mode in the **Execution options** tab. See [Activity execution options](#activity-execution-options).
+>You can apply this configuration individually for each activity. To do this, select an activity and open it using the quick action ![](assets/edit_darkgrey-24px.png). Then select the error management mode in the **Execution options** tab. See [Activity execution options](../../automating/using/activity-properties.md).
 
-In the [workflow's properties](#workflow-properties), additional options related to error mangement are available.
+In the [workflow's properties](../../automating/using/managing-execution-options.md), additional options related to error management are available.
 
 ![](assets/wkf_execution_error.png)
 

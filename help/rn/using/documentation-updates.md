@@ -20,6 +20,8 @@ In  addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md),
 
 ## Documentation updates - June 2020 {#doc-updates-june-2020}
 
+Use cases have been added on how to [encrypt](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) and [decrypt](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) data using Control Panel and Campaign workflows.
+
 Both ‘whitelist’ and ‘blacklist’ terms have been removed from Adobe Campaign documentation. Some occurrences of these terms may still exist in the product UI, option names and internal code, but will be replaced in upcoming Campaign releases with ‘blocklist’ and ‘allowlist.’
 
 References to the legacy Support website have been replaced by the new URL. [Learn more](https://helpx.adobe.com/campaign/kb/ac-support.html#acs-support-req)
@@ -478,7 +480,7 @@ Updated the Type of users section. [Read more](../../administration/using/users-
 
 In-App messaging (beta) - [Read more](../../channels/using/about-in-app-messaging.md)
 
-Adobe Launch integration for mobile apps (beta) - [Read more](../../sending/using/about-typology-rules.md#typology-rules)
+Adobe Launch integration for mobile apps (beta) - [Read more](../../sending/using/managing-typologies.md)
 
 **Other documentation updates coming with the release**
 
@@ -492,7 +494,7 @@ Updated Push notification built-in report section. [Read more](../../reporting/u
 
 **New capabilities included in the release**
 
-[High priority flag](../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android) and [typology filter](../../sending/using/about-typology-rules.md#typology-rules) for mobile app subscribers.
+[High priority flag](../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android) and [typology filter](../../sending/using/managing-typologies.md) for mobile app subscribers.
 
 Automated content import from a URL at preparation time. [Read more](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
 
@@ -788,7 +790,7 @@ The List of roles section has been updated. [Read more](../../administration/usi
 
 Direct mail - [Read more](../../channels/using/about-direct-mail.md)
 
-Email BCC - [Read more](../../administration/using/configuring-email-channel.md#archiving-emails)
+Email BCC - [Read more](../../sending/using/archiving.md)
 
 **Other documentation updates coming with the release**
 

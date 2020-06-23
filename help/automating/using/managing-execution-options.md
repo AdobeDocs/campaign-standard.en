@@ -26,7 +26,7 @@ Possible options are:
 
 * **[!UICONTROL History in days]**: specifies the number of days after which the history must be purged. The history contains elements related to the workflow : logs, tasks, events (technical objects linked to the workflow operation), as well as files downloaded by the **[!UICONTROL Transfer file]** activity. Default value is 30 days for out-of-the-box workflow templates.
 
-  Purge of the history is performed by the Database cleanup technical workfow, which is executed by default everyday (see [List of technical workflows](../../administration/using/technical-workflows.md).)
+  Purge of the history is performed by the Database cleanup technical workflow, which is executed by default everyday (see [List of technical workflows](../../administration/using/technical-workflows.md).)
 
   >[!IMPORTANT]
   >
@@ -40,4 +40,4 @@ Possible options are:
 
 * **[!UICONTROL Severity]**: allows you to specify a level of priority for executing workflows in your Adobe Campaign instance. Critical workflows will be executed first.
 
-The **[!UICONTROL Error management]** section provides additional options that allow you to manage how workflows behave in case of errors. These options are detailed in the [Error management](#error-management) section.
+The **[!UICONTROL Error management]** section provides additional options that allow you to manage how workflows behave in case of errors. These options are detailed in the [Error management](../../automating/using/monitoring-workflow-execution.md#error-management) section.

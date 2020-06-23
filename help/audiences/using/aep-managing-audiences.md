@@ -40,7 +40,7 @@ To create an Adobe Experience Platform audience directly in Campaign Standard, f
 
     ![](assets/aep_audiences_creation_create.png)
 
-1. The Unified Segment Builder should now be displayed in your workspace. It allows you to build a segment using data from Adobe Experience Platform that will eventually be used to create your audience.
+1. The Segment Builder should now be displayed in your workspace. It allows you to build a segment using data from Adobe Experience Platform that will eventually be used to create your audience.
 
 1. Name the segment in the right pane and enter a description (optional).
 
@@ -54,7 +54,7 @@ To create an Adobe Experience Platform audience directly in Campaign Standard, f
 
 1. Define the rules that will identify the profiles to be retrieved in your audience.
 
-    To do this, drag the desired attributes and/or events from the left pane into the workspace, define the corresponding rules then click the **[!UICONTROL Create segment]** button to save the segment (see [Using the Unified Segment Builder](../../audiences/using/aep-using-segment-builder.md)).
+    To do this, drag the desired attributes and/or events from the left pane into the workspace, define the corresponding rules then click the **[!UICONTROL Create segment]** button to save the segment (see [Using the Segment Builder](../../audiences/using/aep-using-segment-builder.md)).
 
     ![](assets/aep_audiences_creation_query.png)
 
@@ -62,7 +62,7 @@ The audience is now ready to be activated, you can use it as a target for your c
 
 ## Editing audiences
 
-To edit an audience, open it and modify the rules as needed within the Unified Segment Builder interface (see [Using the Unified Segment Builder](../../audiences/using/aep-using-segment-builder.md)).
+To edit an audience, open it and modify the rules as needed within the Segment Builder interface (see [Using the Segment Builder](../../audiences/using/aep-using-segment-builder.md)).
 
 Once the changes have been completed, click the **[!UICONTROL Save segment]** button to update your audience.
 

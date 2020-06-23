@@ -11,8 +11,7 @@ topic: Premium
 
 ## What's New
 
-* **[Email testing using targeted profiles](sending/using/testing-messages-using-target.md)**<br/>
-Learn how to test your emails on real targeted profiles
+* Both ‘whitelist’ and ‘blacklist’ terms have been removed from Adobe Campaign documentation. [Read more](rn/using/documentation-updates.md)
 
 * **[Privacy management](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>
 Learn about the tools provided by Adobe Campaign to help you with your Privacy compliance

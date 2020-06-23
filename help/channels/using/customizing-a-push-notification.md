@@ -36,7 +36,7 @@ A sound will alert users of a push notification, giving it more visibility. To i
 1. Open the push notification and access the **[!UICONTROL Advanced options]** section.
 1. In the **[!UICONTROL Play a sound]** field, enter the filename of the sound file, without the extension, to be played by the mobile device when the notification is received.
 
-   For more information on supported media formats, refer to [Apple](https://support.apple.com/kb/PH16864?locale=en_US) and [Android](https://developer.android.com/guide/topics/media/media-formats.html) documentations.
+   For more information on supported media formats, refer to [Apple](https://support.apple.com/kb/PH16864?locale=en_US) and [Android](https://developer.android.com/guide/topics/media/media-formats) documentations.
 
    ![](assets/push_notif_advanced_7.png)
 
