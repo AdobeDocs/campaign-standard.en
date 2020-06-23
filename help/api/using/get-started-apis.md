@@ -48,4 +48,4 @@ The APIs we provide use **standard concepts** with a REST interface and JSON pay
 
 All the endpoints are described extensively in this documentation with the general notions you should know for manipulating the API, the complete API reference, code examples and quick start guides.
 
-If anything is missing or seems incorrect, please ask the [community](https://help-forums.adobe.com/content/adobeforums/en/campaign-forum/adobe-campaign.html).
+If anything is missing or seems incorrect, please ask the [community](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community).
