@@ -18,6 +18,8 @@ snippet: y
 
 [Release Planning](../../rn/using/release-planning.md) &#124; [Control Panel releases](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) &#124; [Documentation Updates](../../rn/using/documentation-updates.md) &#124; [Previous Release Notes](../../rn/using/release-notes-2020.md) &#124; [Deprecated Features](../../rn/using/deprecated-features.md)
 
+![](assets/do-not-localize/cp-icon.png) **New Control Panel June release** with Active profiles monitoring, Subdomain deliverability audit and GPG keys management. See [Control Panel Release Notes](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
+
 ## Release 20.3 - May 2020 {#release-20-3---may-2020}
 
 **What's new?**
@@ -63,9 +65,7 @@ snippet: y
 </tbody> 
 </table>
 
->[!NOTE]
->
->Certificate renewal for CNAME subdomains is released in Campaign Control Panel in May. For more on this, refer to the [Control Panel Release Note](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **New Control Panel May release** with Certificate renewal for CNAME subdomains. See [Control Panel Release Notes](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
 
 **Improvements**
 
