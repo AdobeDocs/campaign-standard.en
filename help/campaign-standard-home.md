@@ -11,10 +11,11 @@ topic: Premium
 
 ## What's New
 
-* Both ‘whitelist’ and ‘blacklist’ terms have been removed from Adobe Campaign documentation. [Read more](rn/using/documentation-updates.md)
-
 * **[Privacy management](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>
 Learn about the tools provided by Adobe Campaign to help you with your Privacy compliance
+
+* **[External API](automating/using/external-api.md)**<br/>
+Use the External API activity to bring data into the workflow from an external system
 
 * **[Campaign Standard Mobile guide](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>
 Learn more about general guidelines for mobile deliveries
