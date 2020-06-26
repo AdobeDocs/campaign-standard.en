@@ -22,7 +22,7 @@ Combined with organizational units, roles give users a filtered view of the inte
 
 For more on this, refer to the [Roles and permissions table](/help/administration/using/assets/acs_rights.pdf), which details the functions available in the interface depending on the selected authorizations.
 
-   [![image](assets/user_management_3.png](https://docs.adobe.com/content/help/en/campaign-standard/using/administrating/users-and-security/assets/acs_rights.pdf)
+   [![image](assets/user_management_3.png)](https://docs.adobe.com/content/help/en/campaign-standard/using/administrating/users-and-security/assets/acs_rights.pdf)
 
 Roles can be managed from the **[!UICONTROL Administration > Users & Security > Roles]** menu.
 
