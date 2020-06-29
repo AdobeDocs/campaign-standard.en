@@ -24,7 +24,7 @@ In Adobe Campaign, you select the trigger that was previously created, you enric
 
 **Related topics:**
 
-* Learn about the different types of triggers: [Adobe Experience Cloud documentation](https://marketing.adobe.com/resources/help/en_US/mcloud/triggers.html).
+* Learn about the different types of triggers: [Adobe Experience Cloud documentation](https://docs.adobe.com/content/help/en/core-services/interface/activation/triggers.html).
 * Watch the [Trigger Remarketing Messages based on Site Activity](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two) video.
 * Discover our two [Abandonment Triggers use cases](../../integrating/using/abandonment-triggers-use-cases.md).
 
