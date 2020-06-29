@@ -48,6 +48,9 @@ The way in which the data will be extracted is defined when configuring the acti
    >It is possible to use the **[!UICONTROL formatDate]** function in this field to specify the file name.
 
 1. If you like, you can zip the output file by selecting **[!UICONTROL Compression]** in the **[!UICONTROL Add a pre-processing step]** field. The output file will be compressed into a GZIP file (.gz).
+
+   The **[!UICONTROL Add a pre-processing step]** field also allows you to encrypt a file before extracting it. For more on how to work with encrypted files, refer to [this section](../../automating/using/managing-encrypted-data.md)
+
 1. Click the ![](assets/add_darkgrey-24px.png) or **[!UICONTROL Add an element]** button to add an output column.
 
    ![](assets/wkf_data_export2.png)

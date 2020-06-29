@@ -71,7 +71,7 @@ This report presents the email renderings as they appear to the recipient. Email
 
 >[!NOTE]
 >
->The number of available renderings is listed in your license agreement. Each delivery with **Email rendering** enabled decreases your available renderings (known as tokens) by one. If you are a Litmus client, you can use your own Litmus account to provision and use Email rendering in Adobe Campaign. For more on this, contact your Adobe account executive.
+>The number of available renderings is listed in your license agreement. Each delivery with **Email rendering** enabled decreases your available renderings (known as tokens) by one.
 
 The report summary presents the number of messages received, unwanted (spam), not received, or pending reception.
 

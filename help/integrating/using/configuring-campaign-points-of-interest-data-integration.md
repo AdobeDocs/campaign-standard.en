@@ -165,7 +165,7 @@ You must have access to Adobe Analytics to do the following configuration. If yo
 
 >[!NOTE]
 >
->For detailed information on configuring postbacks, refer to the [Adobe Mobile Services documentation](https://marketing.adobe.com/resources/help/en_US/mobile/signals_.html).
+>For detailed information on configuring postbacks, refer to the [Adobe Mobile Services documentation](https://docs.adobe.com/content/help/en/mobile-services/using/manage-app-settings-ug/configuring-app/signals.html).
 
 ### Integrating the SDK into a mobile application {#integrating-the-sdk-into-a-mobile-application}
 
@@ -180,11 +180,11 @@ To define the Points of Interest that are used to collect location data:
 1. Go to the Adobe Mobile Services interface.
 1. Add your application.
 
-   For more information on managing applications in Mobile Services, refer to the [Adobe Mobile Services documentation](https://marketing.adobe.com/resources/help/en_US/mobile/t_new_app.html).
+   For more information on managing applications in Mobile Services, refer to the [Adobe Mobile Services documentation](https://docs.adobe.com/content/help/en/mobile-services/using/manage-apps-ug/t-new-app.html).
 
 1. Define the Points of Interest.
 
-   For more information on managing Points of Interest, refer to the [Adobe Mobile Services documentation](https://marketing.adobe.com/resources/help/en_US/mobile/t_manage_points.html).
+   For more information on managing Points of Interest, refer to the [Adobe Mobile Services documentation](https://docs.adobe.com/content/help/en/mobile-services/using/location-ug/t-manage-points.html).
 
 ### Collecting subscribers' Points of interest data {#collecting-subscribers--points-of-interest-data}
 

@@ -26,14 +26,9 @@ The different integrations presented below allow you to combine the delivery and
 
 Depending on your environment, other solutions can also be linked to Adobe Experience Cloud. They are linked as Organizations (also called Tenants).
 
-An organization is the entity that enables an administrator to configure groups and users, and to control single sign-on in the Experience Cloud. The organization functions like a log-in company that spans all the Experience Cloud products and solutions. Most often, an organization is your company name. However, a company can have many organizations. User and organization management is detailed in the [Adobe Experience Cloud help portal](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html).
+An organization is the entity that enables an administrator to configure groups and users, and to control single sign-on in the Experience Cloud. The organization functions like a log-in company that spans all the Experience Cloud products and solutions. Most often, an organization is your company name. However, a company can have many organizations. User and organization management is detailed in the [Adobe Experience Cloud help portal](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html).
 
 If you would like to integrate data flows from other systems with Adobe Campaign, have a look at our [API documentation](../../api/using/get-started-apis.md).
-
->[!NOTE]
->
->Adobe Campaign Standard can also connect to Microsoft Dynamics 365 : this integration enables synchronization of all available Contact data in the CRM system, making all relevant Contact data available for campaign activities. For more on this integration, refer to [Working with Campaign and Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md).
-
 
 <table> 
  <thead> 
@@ -55,7 +50,7 @@ If you would like to integrate data flows from other systems with Adobe Campaign
    <td> Target<br /> Classic, Standard<br /> </td> 
    <td> Allows you to insert images that are dynamically computed by Adobe Target when an email created and sent by Adobe Campaign is opened.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-target-integration.md">Work with Campaign and Target</a> <br/>, <a href="https://marketing.adobe.com/resources/help/en_US/target/a4t/c_campaign_and_target.html">Integrate Campaign and Target</a><br/>, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">Personalize Email Images in Real-Time</a> video (step 3)
+    <a href="../../integrating/using/about-campaign-target-integration.md">Work with Campaign and Target</a> <br/>, <a href="https://docs.adobe.com/content/help/en/target/using/integrate/campaign-and-target.html">Integrate Campaign and Target</a><br/>, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">Personalize Email Images in Real-Time</a> video (step 3)
     </td> 
   </tr> 
   <tr> 

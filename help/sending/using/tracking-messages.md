@@ -27,7 +27,7 @@ Tracking information are available for each contact of your database into **[!UI
 Adobe Campaign uses two types of cookies:
 
 * A session cookie (nlid). This contains the identifier of the email sent to the contact (broadlogId) and the identifier of the message template (deliveryId). It is added when the contact clicks a URL included in an email sent by Adobe Campaign and enables you to track their behavior on the web. This session cookie is erased automatically when the browser is closed. The contact can configure their browser to refuse cookies.
-* A cookie shared between Adobe Experience Cloud solutions. This enables you to identify the users who interact with the Experience Cloud solutions when they visit a website. The description of this cookie is available [here](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_mc.html).
+* A cookie shared between Adobe Experience Cloud solutions. This enables you to identify the users who interact with the Experience Cloud solutions when they visit a website. The description of this cookie is available [here](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-mc.html).
 
 Tracking with the Adobe Campaign Standard allows you to access to the following functionalities:
 

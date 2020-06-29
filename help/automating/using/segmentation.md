@@ -43,7 +43,7 @@ The **[!UICONTROL Segmentation]** activity is generally placed after targeting a
 
 1. Drag and drop a **[!UICONTROL Segmentation]** activity into your workflow.
 1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
-1. Select the **[!UICONTROL Resource type]** on which the segmentation has to be carried out:
+1. In the **[!UICONTROL General]** tab, select the **[!UICONTROL Resource type]** on which the segmentation has to be carried out:
 
     * **[!UICONTROL Database resource]** if the segmentation is carried out on data that already exists in the database. Select the **[!UICONTROL Filtering dimension]** depending on the data that you want to segment. By default, segmentation is carried out on the **profiles**.
     * **[!UICONTROL Temporary resource]** if the segmentation is carried out on the workflow's temporary data: select the **[!UICONTROL Targeted set]** containing the data to segment. This use case can be encountered after importing a file or if the data in the database was enriched.

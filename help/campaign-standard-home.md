@@ -11,11 +11,11 @@ topic: Premium
 
 ## What's New
 
-* **[Email testing using targeted profiles](sending/using/testing-messages-using-target.md)**<br/>
-Learn how to test your emails on real targeted profiles
-
 * **[Privacy management](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>
 Learn about the tools provided by Adobe Campaign to help you with your Privacy compliance
+
+* **[External API](automating/using/external-api.md)**<br/>
+Use the External API activity to bring data into the workflow from an external system
 
 * **[Campaign Standard Mobile guide](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>
 Learn more about general guidelines for mobile deliveries
