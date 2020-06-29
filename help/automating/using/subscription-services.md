@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Subscription Services{#subscription-services}
+# Subscription Services {#subscription-services}
 
 ## Description {#description}
 
@@ -33,6 +33,11 @@ The **[!UICONTROL Subscription Services]** activity is the only Adobe Campaign f
 You can use this activity after having carried out targeting or having imported a file with identified data.
 
 If specified in a file through dedicated columns, this activity also lets you choose the action (subscribe or unsubscribe) and the service on which to perform the action.
+
+**Related topics:**
+
+* [Use case: Updating multiple subscription statuses from a file](../../automating/using/updating-subscriptions-from-file.md)
+* [Use case: Subscribing profiles from a file to a specific service](../../automating/using/subscribing-profiles-from-file.md)
 
 ## Configuration {#configuration}
 

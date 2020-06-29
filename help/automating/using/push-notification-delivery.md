@@ -38,6 +38,10 @@ The recipients are defined upstream of the activity in the same workflow, via ta
 
 The message preparation is triggered according to the workflow execution parameters. From the message dashboard, you can select whether to request or not a manual confirmation to send the message (required by default). You can start the workflow manually or place a scheduler activity in the workflow to automate execution.
 
+**Related topics**
+
+* [Sending a recurring push notification with a workflow](../../automating/using/recurring-push-notifications.md)
+
 ## Configuration {#configuration}
 
 1. Drag and drop a **[!UICONTROL Push notification]** activity into your workflow.
@@ -73,48 +77,3 @@ By default, starting a delivery workflow only triggers the message preparation. 
 The deliveries created within a workflow can be accessed in the application's marketing activity list. You can view the workflow's execution status using the dashboard. Links in the push notification summary pane allow you to directly access linked elements (workflow, campaign, etc.).
 
 In the parent deliveries, which can be accessed from the marketing activity list, you can view the total number of sends that have been processed (according to the aggregation period specified when the **[!UICONTROL Push notification]** activity was configured). To do this, open the detail view of the parent delivery's **[!UICONTROL Deployment]** block by selecting ![](assets/wkf_dlv_detail_button.png).
-
-## Sending a recurring push notification with a workflow {#sending-a-recurring-push-notification-with-a-workflow}
-
-![](assets/wkf_push_example_1.png)
-
-In this example, a personalized push notification is sent every first day of the month at 8 pm to the subscribers of your mobile application depending on their time zones. To do this:
-
-1. The **[!UICONTROL Scheduler]** activity allows you to start the workflow days before the start of the delivery to be able to send the notification to every subscriber at 8 pm in any given time zone:
-
-    * In the **[!UICONTROL Execution frequency]** field, select Monthly.
-    * Select 8 pm in the **[!UICONTROL Time]** field.
-    * Choose at which day the delivery will be sent every month.
-    * Select a start date for your workflow, at least one day prior to the start of your delivery. Otherwise, some recipients might receive the message a day later if the selected time has already passed in their time zones.
-    * In the **[!UICONTROL Execution options]** tab, select at which time zone your workflow will start in the **[!UICONTROL Time zone]** field. Here, for example, the workflow will start at 8 pm Pacific time, one week before the first day of the month to allow some time for the deliveries to be created for all applicable time zones.
-
-    >[!NOTE]
-    >
-    >By default, the selected time zone is the one defined in the workflow properties (see [Building a workflow](../../automating/using/building-a-workflow.md)).
-
-   ![](assets/wkf_push_example_5.png)
-
-1. The **Query** activity allows you to target your VIP customers aged between 20-30, who have subscribed to your mobile application and who did not open the email you sent:
-
-    * Select an audience (your VIP customers) and filter on their age.
-    * Drag and drop the **Subscriptions to an application** element into the workspace. Select **Exists** and select the mobile application that you want to use.
-    * Select the email that you sent to your customers.
-    * Drag and drop the **Delivery logs (logs)** element into the workspace and select **Exists** to target all of the customers who received the email.
-    * Drag and drop the **Tracking logs (tracking)** element into the workspace and select **Does not exist** to target all of the customers who did not open the email.
-    
-      ![](assets/wkf_push_example_2.png)
-
-1. The **Push notification** activity allows you to enter the content of your message and to select the personalization fields that you want to use:
-
-    * Select the **[!UICONTROL Recurring notification]** option.
-    * Define the push notification content. For more information on push notification content, refer to this [section](../../channels/using/preparing-and-sending-a-push-notification.md).
-    * In the **[!UICONTROL Schedule]** block, select **[!UICONTROL Messages to be sent automatically on the time zone specified below]**. Here, we chose the **[!UICONTROL Time zone of the contact date]** Pacific as in the workflow **[!UICONTROL Scheduler]**.
-    * In the **[!UICONTROL Optimize the sending time per recipient]** field, select **[!UICONTROL Send at the recipient's time zone]**.
-    
-      ![](assets/wkf_push_example_4.png)
-
-1. Click the **[!UICONTROL Start]** button to start your recurring workflow.
-
-   ![](assets/wkf_push_example_3.png)
-
-Your workflow is now running. It will start at the chosen start date of the **[!UICONTROL Scheduler]** at 8 pm Pacific time, the recurring push will then be sent every first day of the month at 8 pm depending on the customers time zone.
