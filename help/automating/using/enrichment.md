@@ -33,6 +33,7 @@ With the **[!UICONTROL Enrichment]** activity, you can leverage the inbound tran
 **Related topics**
 
 * [Use case: Enriching profile data with data contained in a file](../../automating/using/enriching-profile-data-file.md).
+* [Use case: Sending an email with enriched fields](../../automating/using/sending-email-enriched-fields.md)
 
 ## Configuration {#configuration}
 

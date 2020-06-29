@@ -32,6 +32,11 @@ When building your workflow, only use one **[!UICONTROL Scheduler]** activity pe
 >
 >The **[!UICONTROL Repetition frequency]** of the activity cannot be less than 10 minutes. It means that a workflow cannot be automatically executed more than once every 10 minutes.
 
+**Related topics:**
+
+* [Use case: Creating deliveries on profiles' creation date](../../automating/using/workflow-creation-date-query.md)
+* [Use case: Creating an email delivery every Tuesday](../../automating/using/workflow-weekly-offer.md)
+
 ## Configuration {#configuration}
 
 1. Drag and drop a **[!UICONTROL Scheduler]** activity into your workflow.

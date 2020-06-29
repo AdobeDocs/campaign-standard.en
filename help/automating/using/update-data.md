@@ -29,6 +29,7 @@ The **Update data** activity can be used after importing a file in order to inse
 **Related topics:**
 
 * [Use case: Updating data based on a file](../../automating/using/update-database-file.md)
+* [Updating data based on an automatic file download](../../automating/using/update-data-automatic-download.md)
 
 ## Configuration {#configuration}
 

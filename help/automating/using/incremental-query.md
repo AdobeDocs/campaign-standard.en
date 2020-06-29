@@ -42,7 +42,7 @@ The **[!UICONTROL Incremental query]** activity can be used for various types of
 
 **Related topics**
 
-* [Use case: Filtering subscribers to a service](../../automating/using/external-signal-data-import.md).
+* [Use case: Incremental query on subscribers to a service](../../automating/using/incremental-query-on-subscribers.md)
 
 ## Configuration {#configuration}
 

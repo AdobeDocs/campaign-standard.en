@@ -46,6 +46,7 @@ For example, the **[!UICONTROL Reconciliation]** activity can be placed after a 
 
 * [Use case: Data reconciliation using relations](../../automating/using/reconciliation-using-relations.md)
 * [Use case: Data update using reconciliation](../../automating/using/data-update-reconciliation.md)
+* [Use case: Reconcile a File audience with the database](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## Configuration {#configuration}
 

@@ -24,7 +24,10 @@ The **[!UICONTROL Query]** activity allows you to filter and extract a populatio
 
 The activity uses the query editor tool. This tool is detailed in a [dedicated section](../../automating/using/editing-queries.md#about-query-editor).
 
-Query samples are also presented in [this section](../../automating/using/query-samples.md).
+**Related topics:**
+
+* [Query samples](../../automating/using/query-samples.md)
+* [Use case: Retargeting workflow sending a new delivery to non-openers](../../automating/using/workflow-cross-channel-retargeting.md)
 
 ## Context of use {#context-of-use}
 

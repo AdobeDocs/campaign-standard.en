@@ -27,3 +27,9 @@ Each service comes with:
 * A subscription **history**.
 
 Subscriptions can also be managed using the Adobe Campaign Standard API. For more on this, refer to the [dedicated documentation](../../api/using/creating-a-service.md) .
+
+**Related topics**
+
+* [Use case: Incremental query on subscribers to a service](../../automating/using/incremental-query-on-subscribers.md)
+* [Use case: Updating multiple subscription statuses from a file](../../automating/using/updating-subscriptions-from-file.md)
+* [Subscribing profiles to a specific service after importing a file](../../automating/using/subscribing-profiles-from-file.md)

@@ -308,7 +308,7 @@ user-guide-title: Adobe Campaign Standard Help
   + Use cases {#workflow-use-case}
        + Deliveries {#deliveries}
           + [Creating deliveries with a complement](automating/using/workflow-created-query-with-complement.md)
-          + [Creating deliveries on creation date](automating/using/workflow-creation-date-query.md)
+          + [Creating deliveries on profiles' creation date](automating/using/workflow-creation-date-query.md)
           + [Creating a weekly delivery](automating/using/workflow-weekly-offer.md)
           + [Creating a cross-channel delivery](automating/using/workflow-cross-channel-delivery.md)
           + [Identifying duplicates before a delivery](automating/using/identifying-duplicated-before-delivery.md)
@@ -317,10 +317,10 @@ user-guide-title: Adobe Campaign Standard Help
           + [Sending an email with enriched fields](automating/using/sending-email-enriched-fields.md)
           + [Personalizing an email with additional data](automating/using/personalizing-email-with-additional-data.md)
        + Segmentation and targeting {#segmentation-targeting}
+          + [Query samples](automating/using/query-samples.md)
           + [Union on two refined audiences](automating/using/union-on-two-refined-audiences.md)
           + [Creating a segmentation on location](automating/using/workflow-segmentation-location.md)
           + [Retargeting non-openers](automating/using/workflow-cross-channel-retargeting.md)
-          + [Query samples](automating/using/query-samples.md)
           + [Incremental query on subscribers to a service](automating/using/incremental-query-on-subscribers.md)
           + [Segmentation according to age groups](automating/using/segmentation-age-groups.md)
           + [Using resources different from targeting dimensions](automating/using/using-resources-different-from-targeting-dimensions.md)

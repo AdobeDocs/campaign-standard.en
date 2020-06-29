@@ -24,7 +24,7 @@ You can send an email to customers: one for clients created less than a year ago
 
 ## Create a Query activity {#create-a-query-activity}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, drag and drop a [Query](../../automating/using/query.md) activity ![](assets/query.png).
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, drag and drop a [Query](../../automating/using/query.md) activity.
 1. Double-click the activity.
 1. In **[!UICONTROL Shortcuts]**, drag and drop **[!UICONTROL Profiles]** and select **[!UICONTROL email]** with the operator **[!UICONTROL is not empty]**.
 1. In **[!UICONTROL Shortcuts]**, drag and drop **[!UICONTROL Profiles]** and select **[!UICONTROL no longer contact by email]** with the value **[!UICONTROL no]**.
@@ -51,7 +51,7 @@ You can send an email to customers: one for clients created less than a year ago
 
 ## Creating an Email delivery {#create-an-email-delivery}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, drag and drop an **[Email delivery](../../automating/using/email-delivery.md) activity after each segment.
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, drag and drop an [Email delivery](../../automating/using/email-delivery.md) activity after each segment.
 1. Click the activity and select ![](assets/edit_darkgrey-24px.png) to edit.
 1. Select **[!UICONTROL Single send email]** and click **[!UICONTROL Next]**.
 1. Select an email template and click **[!UICONTROL Next]**.

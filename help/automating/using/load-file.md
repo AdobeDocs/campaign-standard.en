@@ -40,6 +40,7 @@ You can:
 * [Use case: Updating the database with external data](../../automating/using/update-database-file.md)
 * [Use case: Updating data based on an automatic file download](../../automating/using/update-data-automatic-download.md)
 * [Use case: Sending an email with enriched fields](../../automating/using/sending-email-enriched-fields.md)
+* [Use case: Reconcile a File audience with the database](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## Configuration {#configuration}
 

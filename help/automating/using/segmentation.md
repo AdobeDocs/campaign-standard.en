@@ -26,6 +26,11 @@ The **[!UICONTROL Segmentation]** activity lets you create one or several segmen
 >
 >By default, a member of the inbound population can only belong to one single segment. The filters are applied according to the order of the segments in the activity.
 
+**Related topics:**
+* [Use case: Segmentation on location](../../automating/using/workflow-segmentation-location.md)
+* [Use case: Building a control group](../../automating/using/workflow-control-group.md)
+* [Use case: Segmentation according to age groups](../../automating/using/segmentation-age-groups.md)
+
 ## Context of use {#context-of-use}
 
 The **[!UICONTROL Segmentation]** activity is generally placed after targeting activities (query, intersection, union, exclusion, etc.) in order to define the standard population based on which the segments are formed.
@@ -91,6 +96,6 @@ The **[!UICONTROL Segmentation]** activity is generally placed after targeting a
 
     * Check the **[!UICONTROL Enable overlapping of outbound populations]** option if you want a member of the inbound population to belong to several segments at the same time. The activity's outbound population may exceed the inbound population.
     * Check the **[!UICONTROL Concatenate the code of each segment]** option if the inbound population has already been assigned a segment code that you want to keep. The segment code specified in the activity will be added to the initial segment code.
-    * Check the **[!UICONTROL Generate complement]** option if you would like to exploit the remaining population.
+    * Check the **[!UICONTROL Generate complement]** option if you would like to exploit the remaining population. See [Use case: Creating deliveries with a complement](../../automating/using/workflow-created-query-with-complement.md).
 
 1. Confirm the configuration of your activity and save your workflow.
