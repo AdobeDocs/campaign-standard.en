@@ -66,7 +66,7 @@ When building your workflow, only use one **[!UICONTROL Scheduler]** activity pe
 
 1. In the **[!UICONTROL Execution options]** tab, set up the time zone for your scheduler in the **[!UICONTROL Time zone]** field.
 
-   For more information on sending delivery depending on the recipient's time zone, refer to this [section](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md) or this [example](../../automating/using/push-notification-delivery.md#sending-a-recurring-push-notification-with-a-workflow) of a recurring workflow.
+   For more information on sending delivery depending on the recipient's time zone, refer to this [section](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md) or this [example](../../automating/using/recurring-push-notifications.md) of a recurring workflow.
 
 1. Confirm the configuration of your activity and save your workflow.
 

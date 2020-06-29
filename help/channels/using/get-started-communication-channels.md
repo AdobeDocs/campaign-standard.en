@@ -100,4 +100,4 @@ Read more:
 * [Importing an AEM content](../../integrating/using/creating-email-experience-manager.md)
 * [Sending messages with workflows](../../automating/using/about-channel-activities.md)
 * [Communication channels tutorial videos](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html)
-* [Use case: Creating a cross-channel delivery](../..elp/automating/using/workflow-cross-channel-delivery.md)
+* [Use case: Creating a cross-channel delivery](../../automating/using/workflow-cross-channel-delivery.md)

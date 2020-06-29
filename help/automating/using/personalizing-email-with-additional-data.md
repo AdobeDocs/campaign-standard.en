@@ -36,15 +36,15 @@ The workflow is presented as follows:
 
    From the query's **[!UICONTROL Additional data]** tab, define the different data to be displayed in the final email:
 
-    * The simple field of the **profile** dimension corresponding to the loyalty points. Refer to the [Adding a simple field](#adding-a-simple-field) section.
-    * Two aggregates based on the transactions collection: the number of products purchased and the total amount spent. You can add them from the **[!UICONTROL Data]** tab of the aggregate configuration window, using the **Count** and **Sum** aggregates. Refer to the [Adding an aggregate](#adding-an-aggregate) section.
+    * The simple field of the **profile** dimension corresponding to the loyalty points. Refer to the [Adding a simple field](../../automating/using/query.md#adding-a-simple-field) section.
+    * Two aggregates based on the transactions collection: the number of products purchased and the total amount spent. You can add them from the **[!UICONTROL Data]** tab of the aggregate configuration window, using the **Count** and **Sum** aggregates. Refer to the [Adding an aggregate](../../automating/using/query.md#adding-an-aggregate) section.
     * A collection returning the amount spent, the date, and the product of the last transaction effected.
 
       To do this, you have to add the different fields that you want to display from the **[!UICONTROL Data]** tab of the collection configuration window.
 
       To return only the most recent transaction, you have to enter "1" for the **[!UICONTROL Number of lines to return]** and apply a descending sort on the **Date** field of the collection from the **[!UICONTROL Sort]** tab.
 
-      Refer to the [Adding a collection](#adding-a-collection) and [Sorting additional data](#sorting-additional-data) sections.
+      Refer to the [Adding a collection](../../automating/using/query.md#adding-a-collection) and [Sorting additional data](../../automating/using/query.md#sorting-additional-data) sections.
 
    ![](assets/enrichment_example4.png)
 
