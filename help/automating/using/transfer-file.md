@@ -26,12 +26,15 @@ The **[!UICONTROL Transfer file]** activity allows you to receive or send files,
 >
 >Starting 20.3 release, files downloaded with the **[!UICONTROL Transfer File]** activity will be deleted after X days, where X is determined by the **[!UICONTROL History in days]** field under the **[!UICONTROL Execution]** menu in the Workflow properties.
 
-
 ## Context of use {#context-of-use}
 
 The way in which the data will be extracted is defined when the activity is configured. The file to load may be a list of contacts, for example.
 
 You can use this activity to recover data that will then be structured with the **[!UICONTROL Load file]** activity.
+
+**Related topics:**
+
+* [Use case: Updating data based on an automatic file download](../../automating/using/update-data-automatic-download.md)
 
 ## Configuration {#configuration}
 
@@ -159,19 +162,3 @@ Every time the activity is executed, the folder is checked as follows:
 >[!NOTE]
 >
 >If the activity is not executed again, its folder will not be checked nor purged. With this in mind, be cautious when transferring large files.
-
-## Example {#example}
-
-The following example shows the configuration of a **File transfer** activity which will then be followed by a **Load file** activity then an **Update data** activity. The goal of this workflow is to add or update the Adobe Campaign database profiles with the data recovered by the workflow.
-
-1. Drag and drop a **Transfer file** activity into your workflow.
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
-1. In the **[!UICONTROL Protocol]** tab, select **SFTP**.
-1. Select the **Use connection parameters defined in an external account** option.
-1. Enter the name of the external account.
-1. Enter the **File path on the remote server**.
-
-   ![](assets/wkf_file_transfer_07.png)
-
-1. Confirm your activity and save your workflow.
-

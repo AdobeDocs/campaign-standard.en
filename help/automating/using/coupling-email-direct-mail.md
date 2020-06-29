@@ -1,6 +1,6 @@
 ---
-title: Example of direct mail in a workflow
-description: Discover an example of a direct mail delivery in a workflow.
+title: Coupling email and direct mail deliveries
+description: This use case presents an example of email and direct mail sending from a workflow.
 page-status-flag: never-activated
 uuid: 1db691b8-c072-4e99-b2fa-27844a179c55
 contentOwner: sauviat
@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Example of direct mail in a workflow{#example-of-direct-mail-in-a-workflow}
+# Coupling email and direct mail deliveries {#coupling-email-direct-mail}
 
 As a marketer, you may want to send out catalogs via direct mail. In the paper catalog, certain pages offer a 10% discount using a promotion code and link to buy the product on the website.
 
@@ -28,3 +28,7 @@ Here is an example of workflow that mixes direct mail and email channels.
 
 ![](assets/direct_mail_10.png)
 
+**Related topics:**
+
+* [Direct mail delivery activity](../../automating/using/direct-mail-delivery.md)
+* [About direct mail](../../channels/using/about-direct-mail.md)

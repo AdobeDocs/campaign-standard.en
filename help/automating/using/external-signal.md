@@ -36,6 +36,11 @@ When triggered, external parameters can be defined and be available in the workf
 
 Note that an **[!UICONTROL External signal]** activity can be triggered from several different events. In that case, the **[!UICONTROL External signal]** is triggered as soon as one of the source workflows or API call is executed. It does not require that all source workflows are finished.
 
+**Related topics**
+
+* [Use case: External signal activity and data import](../../automating/using/external-signal-data-import.md).
+* [Use case: Calling a workflow to create an audience from a file using external parameters](../../automating/using/calling-a-workflow-with-external-parameters.md#use-case)
+
 ## Configuration {#configuration}
 
 When configuring an external signal, it is important to first configure the **[!UICONTROL External signal]** activity in the destination workflow. Once this configuration is done, the **[!UICONTROL External signal]** activity of this workflow becomes available to configure the **[!UICONTROL End]** activity of the source workflow.
@@ -77,38 +82,3 @@ Once the **[!UICONTROL End]** activity of the source workflow or the REST API ca
 >[!NOTE]
 >
 >The destination workflow must be started manually before it can be triggered. When started, the **[!UICONTROL External activity]** is activated and waits for the signal from the source workflow.
-
-## Example {#example}
-
-The following example illustrates the **[!UICONTROL External signal]** activity in a typical use case. A data import is performed in a source workflow. Once the import is done and the database updated, a second workflow is triggered. This second workflow is used to update an aggregate on the imported data.
-
-The source workflow is presented as follows:
-
-* A [Load file](../../automating/using/load-file.md) activity uploads a file containing new purchase data. Note that the [database has been extended](../../developing/using/data-model-concepts.md) accordingly as purchase data are not present by default in the datamart.
-
-  For example:
-
-  ```
-  tcode;tdate;customer;product;tamount
-  aze123;21/05/2015;dannymars@example.com;A2;799
-  aze124;28/05/2015;dannymars@example.com;A7;8
-  aze125;31/07/2015;john.smith@example.com;A7;8
-  aze126;14/12/2015;john.smith@example.com;A10;4
-  aze127;02/01/2016;dannymars@example.com;A3;79
-  aze128;04/03/2016;clara.smith@example.com;A8;149
-  ```
-
-* A [Reconciliation](../../automating/using/reconciliation.md) activity creates the links between the imported data and the database so that the transactions data are properly connected to profiles and products.
-* An [Update data](../../automating/using/update-data.md) activity inserts and updates the Transactions resource of the database with the incoming data.
-* An **[!UICONTROL End]** activity triggers the destination workflow, which is used to update aggregates.
-
-![](assets/signal_example_source1.png)
-
-The destination workflow is presented as follows:
-
-* An **[!UICONTROL External signal]** activity waits for the source workflow to be successfully finished.
-* A [Query](../../automating/using/query.md#enriching-data) activity targets profiles and enrich them with a collection set to retrieve the last purchase date.
-* An [Update data](../../automating/using/update-data.md) activity stores the additional data in a dedicated custom field. Note that the profile resource has been extended to add the **Last purchase date** field.
-
-![](assets/signal_example_source2.png)
-
