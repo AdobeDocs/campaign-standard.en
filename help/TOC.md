@@ -298,6 +298,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Exporting lists](automating/using/exporting-lists.md)
        + [Use case: Exporting / importing custom resources](automating/using/exporting-importing-custom-resources.md)
   + Use cases {#workflow-use-case}
+       + [About workflow use cases](automating/using/about-workflow-use-cases.md)
        + Deliveries {#deliveries}
           + [Creating deliveries with a complement](automating/using/workflow-created-query-with-complement.md)
           + [Creating deliveries on profiles' creation date](automating/using/workflow-creation-date-query.md)
