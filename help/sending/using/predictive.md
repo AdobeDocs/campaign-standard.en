@@ -20,7 +20,7 @@ snippet: y
 
 Using Campaign, you can optimize the design and delivery of customer journeys with advanced ML capabilities to predict each individual's engagement preference. Powered by Adobe Sensei, Adobe Campaign can analyze and predict open rates, optimal send times, and probable churn based on historical engagement metrics.
 
-### Machine learning models{#machine-learning-models}
+**Machine learning models**
 
 In addition to [send time optimization capabilities](../../sending/using/computing-the-sending-date.md), you can now leverage Machine Learning into Campaign. Adobe Campaign Standard offers two new Machine Learning models - Predictive Send Time Optimizations and Predictive Engagement Scoring. These two models are together referred to Journey AI which is a class of machine learning models that are specific to designing and delivering better customer journeys.
 
@@ -28,11 +28,12 @@ In addition to [send time optimization capabilities](../../sending/using/computi
 
 * **Predictive engagement scoring**: Predictive engagement scoring predicts the probability of a recipient engaging with a message as well as the probability of opting out (unsubscribing) within the next 7 days after the next email send. The probabilities are further divided into buckets according to the specific risk of disengagement, medium, or low. Along these the model also provides the risk percentile rank for the customers to understand where the rank of a certain customer in relation to others. 
 
-### Prerequisites{#journey-ai-prereq}
-
-This capability is not available out of the box as part of the product. The implementation requires Adobe Consulting to be engaged. Please reach out to your Adobe representative to find out more.
-
-Separately, the feature required the usage of an Azure Blob storage that must be provided by the customer.
+>[!NOTE]
+> **Prerequisites**
+>
+>This capability is not available out of the box as part of the product. The implementation requires Adobe Consulting to be engaged. Please reach out to your Adobe representative to find out more.
+>
+>Separately, the feature required the usage of an Azure storage that must be provided by the customer.
 
 ## Predictive send time optimization{#predictive-send-time}
 
@@ -40,20 +41,22 @@ Separately, the feature required the usage of an Azure Blob storage that must be
 
 Predictive send time optimization predicts which is the best send time for each recipient profile for email opens and clicks. For each recipient profile, the scores indicate the best send time for each weekday and which weekday is the best to send for best results. 
 
-Within the Predictive Send Time Optimization model there are two sub-models:
+Within the Predictive Send Time Optimization model, there are two sub-models:
 * Predictive send time for open is the best time a communication must be sent to the customer to maximize opens
 * Predictive send time for click is the best time a communication must be sent to the customer to maximize clicks
 
-Model input, output:
+**Model input**: Delivery logs, tracking logs and profile attributes (non-PII)
 
-* Input: Delivery logs, tracking logs and profile attributes (non-PII)
-* Output: Best time to send a message (for opens and clicks)
+**Model output**: Best time to send a message (for opens and clicks)
+
 
 Output details
 
-* Compute the best time of day to send an email for the next 7 days: 1 hour intervals (e.g.: 9:00 am, 10:00 am, 11:00 am)
-* Also will indicate the best time within the next 7 days to send the email
-* Each optimal time is computed twice - once to maximize open rate and once to maximize click rate e.g.: 16 fields are given:
+* Compute the best time of day to send an email for the next 7 days with 1 hour intervals (e.g.: 9:00 am, 10:00 am, 11:00 am)
+* The model will indicate the best time within the next 7 days to send the email
+* Each optimal time is computed twice: once to maximize open rate and once to maximize click rate
+
+*  e.g.: 16 fields are given:
     * best time to send an email to optimize clicks for Monday - values between 0 and 23
     * best time to send an email to optimize opens for Monday - values between 0 and 23
     * best time to send an email to optimize clicks for Tuesday - values between 0 and 23
@@ -68,7 +71,26 @@ Output details
 >
 >These predictive capabilities only apply to email deliveries.
 >
->Campaign needs at least one month of data to produce significant results.
+>The model needs at least one month of data to produce significant results.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### Access profile scores{#access-predictive-send-time-scores}
 
