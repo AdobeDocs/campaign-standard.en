@@ -9,7 +9,6 @@ audience: sending
 content-type: reference
 topic-tags: ai-powered-emails
 discoiquuid: 609355f6-9003-41b9-9981-ea787419fbf5
-
 internal: n
 snippet: y
 ---
@@ -55,8 +54,7 @@ Output details
 * Compute the best time of day to send an email for the next 7 days with 1 hour intervals (e.g.: 9:00 am, 10:00 am, 11:00 am)
 * The model will indicate the best time within the next 7 days to send the email
 * Each optimal time is computed twice: once to maximize open rate and once to maximize click rate
-
-*  e.g.: 16 fields are given:
+* 16 fields are given (14 for days of the week and 2 for the whole week):
     * best time to send an email to optimize clicks for Monday - values between 0 and 23
     * best time to send an email to optimize opens for Monday - values between 0 and 23
     * best time to send an email to optimize clicks for Tuesday - values between 0 and 23
@@ -74,24 +72,6 @@ Output details
 >The model needs at least one month of data to produce significant results.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### Access profile scores{#access-predictive-send-time-scores}
 
 Once implemented into Campaign, Machine Learning capabilities enrich profiles data with new tabs with their best open/click scores. Those metrics are computed by dedicated technical workflows.
@@ -101,8 +81,6 @@ To access those metrics, you need to:
 1. Open a profile and click the Edit button.
 
 1. Click the **Send Time Score By Click** or **Send Time Score By Open** tab.
-
-1. Click the profile identifier >> TO CONFIRM
 
 By default, the profile scores will give the best time of the day for each day of the week and the best overall time in the week.
 
@@ -128,21 +106,68 @@ AddHours([currentDelivery/scheduling/@contactDate],
 
 >[!NOTE]
 >
->The data model might be different depengin on your implementation.
+>The data model might be different depending on your implementation.
+> 
 
-### Use Case{#use-predictive-uc}
 
- You can add a control group to check the impact of your settings. In the example below, where we are keeping 10% of the audience for a non-optimized delivery.
+## Predictive engagement scoring {#predictive-scoring}
 
- 1. Create a new workflow 
+The predictive engagement scoring lets you:
 
- 1. Add the following activities: 
+* **Select an audience**: by using the query activity, you can select the audience to engage with a specific message
+* **Exclude an audience**: by using the query activity, you can remove the audience to unsubscribe
+* **Personalize**: personalize message based on level of engagement (highly engaged users will get a different message than un-engaged ones)
 
- 1. In the Segmentation activity, add a new output transition for the control group segment, as follows:
+This model uses multiple scores to indicate:
 
-   ![](assets/do-not-localize/AddTransition.png)
+* **Open Engagement Score / Click Engagement Score**: this value matches the probability that a subscriber will engage with a specific message (open or click). Values range from 0.0 to 1.0.
+* **Unsubscription probability**: this value matches the probability for recipient to unsubscribe from email channel given one email opened. Values range from 0.0 to 1.0.
+* **Retention level**:  this value ranks users into three levels: low, medium and high. High being most likely to stay with the brand and low value likely to unsubscribe.
+* **Percentile rank of retention**: profile rank in terms of unsubscription probability. Values range from 0.0 to 1.0. For example, if the retention percent rank is 0.953, this recipient is more likely to stay with brand and less likely to unsubscribe than 95.3% of all recipients.
 
- 1. 
+* (To suppress most risky 5% recipients (to keep sending emails to 95% recipients), send emails to recipients with retention percent rank < 0.05)
+
+>[!NOTE]
+>
+>These predictive capabilities only apply to email deliveries.
+>
+>The model needs at least one month of data to produce significant results.
+
+
+**Model Input**: Delivery logs, tracking logs and specific profile attributes
+
+**Model Output**: A profile attribute that describes the profile’s score and category
+
+
+### Using the engagement score for the email channel
+
+To access those metrics, you need to:  
+
+1. Open a profile and click the Edit button.
+
+1. Click the **Engagement Scores for Email Channel** tab. (two tabs are available in the https://acopprod1-mkt-prod4.campaign.adobe.com/ instance??)
+
+By using a query activity in a workflow, you can use the score to optimize your audience:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
  
