@@ -125,8 +125,6 @@ This model uses multiple scores to indicate:
 * **Retention level**:  this value ranks users into three levels: low, medium and high. High being most likely to stay with the brand and low value likely to unsubscribe.
 * **Percentile rank of retention**: profile rank in terms of unsubscription probability. Values range from 0.0 to 1.0. For example, if the retention percent rank is 0.953, this recipient is more likely to stay with brand and less likely to unsubscribe than 95.3% of all recipients.
 
-* (To suppress most risky 5% recipients (to keep sending emails to 95% recipients), send emails to recipients with retention percent rank < 0.05)
-
 >[!NOTE]
 >
 >These predictive capabilities only apply to email deliveries.
@@ -147,7 +145,11 @@ To access those metrics, you need to:
 
 1. Click the **Engagement Scores for Email Channel** tab. (two tabs are available in the https://acopprod1-mkt-prod4.campaign.adobe.com/ instance??)
 
-By using a query activity in a workflow, you can use the score to optimize your audience:
+By using a query activity in a workflow, you can use the score to optimize your audience.
+
+For example, with the **Retention level** criteria:
+
+![](assets/do-not-localize/predictive_score_query.png)
 
 
 
