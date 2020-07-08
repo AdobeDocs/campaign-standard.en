@@ -75,23 +75,3 @@ The deliveries created within a workflow can be accessed in the application's ma
 The executions of recurring deliveries are masked by default, though. To view them, check the **[!UICONTROL Show recurring executions]** option in the marketing activities' search panel.
 
 In the parent deliveries, which can be accessed from the marketing activity list or directly via the associated recurring executions, you can view the total number of sends that have been processed (according to the aggregation period specified when the **[!UICONTROL SMS delivery]** activity was configured). To do this, open the detail view of the parent delivery's **[!UICONTROL Deployment]** block by selecting ![](assets/wkf_dlv_detail_button.png).
-
-## Example {#example}
-
-![](assets/wkf_sms_example_1.png)
-
-This example is a birthday workflow. Every day an SMS is sent to profiles whose birthday is on that day. To do this:
-
-* The **[!UICONTROL Scheduler]** allows you to start the workflow every day at 8am.
-
-  ![](assets/wkf_delivery_example_2.png)
-
-* The **[!UICONTROL Query]** activity allows you to calculate the profiles who have provided a mobile phone number and whose birthday is on the current day, every time the workflow is executed. The birthday calculation is carried out using a predefined filter available in the palette in the query editing tool.
-
-  ![](assets/wkf_delivery_example_3.png)
-
-* The **[!UICONTROL SMS]** is recurring. The sends are aggregated by month. So, all SMS messages sent in a month are aggregated into a single view. In one year, 365 deliveries are therefore executed but they are regrouped into 12 views (also called **recurring executions**) in the Adobe Campaign interface. History and report details are displayed every month and not for every send.
-
-  ![](assets/wkf_sms_example_4.png)
-
-For another example of SMS delivery in a workflow, see [Use case: Retargeting workflow sending a new delivery to non-openers](../../automating/using/workflow-cross-channel-retargeting.md).

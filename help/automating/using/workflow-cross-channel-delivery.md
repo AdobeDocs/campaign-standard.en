@@ -1,6 +1,6 @@
 ---
-title: "Workflow use-case: Cross-channel delivery"
-description: "Workflow use-case: Cross-channel delivery"
+title: Cross-channel delivery
+description: This use case shows how to create a cross-channel delivery
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Workflow use-case: Creating a cross-channel delivery{#cross-channel-delivery}
+# Creating a cross-channel delivery{#cross-channel-delivery}
 
 This document allows you to discover the following Adobe Campaign functionality via a standard use case: creating a cross-channel delivery workflow.
 
@@ -47,7 +47,7 @@ Once the workflow is created, you can access its interface.
 
 Insert a Query activity into your workflow to target the profiles that will receive your deliveries.
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, drag and drop a **[!UICONTROL Query activity]**.
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, drag and drop a [Query](../../automating/using/query.md) activity.
 1. Double-click the activity.
 1. In the **[!UICONTROL Target]** tab, browse the shortcuts and select one of your [audiences](../../audiences/using/about-audiences.md).
 1. Drag and drop the shortcut into the editing zone. According to the type of shortcut selected, a window will appear.
@@ -59,13 +59,11 @@ You can create a query on one or several elements.
 
 Use the **[!UICONTROL Count]** button to see an estimation of the number of profiles targeted by the query.
 
-The detailed steps to build a Query activity are presented in the [Query](../../automating/using/query.md) section.
-
 ## Creating a Segmentation activity {#creating-segmentation-activity}
 
 Once your target is identified by the Query activity, you have to select a criterion to segment the target into two different populations: one will receive an email and the other will receive an SMS.
 
-You have to use a Segmentation activity to create one or several segments from a population computed upstream in a query.
+You have to use a [Segmentation](../../automating/using/segmentation.md) activity to create one or several segments from a population computed upstream in a query.
 
 ![](assets/wkf_segment_activity.png)
 
@@ -110,11 +108,9 @@ Your second transition is now also configured.
 
 ![](assets/wkf_segment_transitions.png)
 
-The detailed steps to build a Segmentation activity are presented in the [Segmentation](../../automating/using/segmentation.md) section.
-
 ## Creating deliveries {#creating-deliveries}
 
-As two transitions were already created, you must now add two types of deliveries to the outbound transitions of the Segmentation activity: an **[!UICONTROL Email delivery]** and an **[!UICONTROL SMS delivery]**.
+As two transitions were already created, you must now add two types of deliveries to the outbound transitions of the Segmentation activity: an [Email delivery](../../automating/using/email-delivery.md) activity and an [SMS delivery](../../automating/using/sms-delivery.md) activity.
 
 Adobe Campaign allows you to add deliveries into a workflow. To do this, select a delivery from the **[!UICONTROL Channels]** category of your workflow's activity palette.
 
@@ -122,7 +118,7 @@ Adobe Campaign allows you to add deliveries into a workflow. To do this, select 
 
 To create an Email delivery:
 
-1. Drag and drop an **[!UICONTROL Email delivery]** after the first segment.
+1. Drag and drop an [Email delivery](../../automating/using/email-delivery.md) activity after the first segment.
 1. Double-click the activity to edit it.
 1. Select **[!UICONTROL Simple email]**.
 1. Select **[!UICONTROL Add an outbound transition with the population]** and click **[!UICONTROL Next]**.
@@ -137,18 +133,14 @@ To create an Email delivery:
 1. Edit and save your content.
 1. In the **[!UICONTROL Schedule]** section of the message dashboard, unselect the **[!UICONTROL Request confirmation before sending messages}** option.
 
-The detailed steps to build an Email activity are presented in the [Email delivery](../../automating/using/email-delivery.md) section.
-
 To create an SMS delivery:
 
-1. Drag and drop an **[!UICONTROL SMS delivery]** after the other segment.
+1. Drag and drop an [SMS delivery](../../automating/using/sms-delivery.md) activity after the other segment.
 1. Double-click the activity to edit it.
 1. Select **[!UICONTROL SMS]** and click **[!UICONTROL Next]**.
 1. Select an SMS template and click **[!UICONTROL Next]**.
 1. Enter the SMS properties and click **[!UICONTROL Next]**.
 1. Edit and save your content.
-
-The detailed steps to build an SMS activity are presented in the [SMS delivery](../../automating/using/sms-delivery.md) section.
 
 Once your deliveries have been created and edited, your workflow is ready to be started.
 
@@ -156,7 +148,7 @@ Once your deliveries have been created and edited, your workflow is ready to be 
 
 ## Running the workflow {#running-the-workflow}
 
-Once the workflow is started, the population targeted by the Query activity will be segmented to receive an Email or SMS delivery.
+Once the workflow is started, the population targeted by the **[!UICONTROL Query]** activity will be segmented to receive an Email or SMS delivery.
 
 To execute your workflow, click the **[!UICONTROL Start]** button from the action bar.
 

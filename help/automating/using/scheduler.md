@@ -32,6 +32,11 @@ When building your workflow, only use one **[!UICONTROL Scheduler]** activity pe
 >
 >The **[!UICONTROL Repetition frequency]** of the activity cannot be less than 10 minutes. It means that a workflow cannot be automatically executed more than once every 10 minutes.
 
+**Related topics:**
+
+* [Use case: Creating deliveries on profiles' creation date](../../automating/using/workflow-creation-date-query.md)
+* [Use case: Creating an email delivery every Tuesday](../../automating/using/workflow-weekly-offer.md)
+
 ## Configuration {#configuration}
 
 1. Drag and drop a **[!UICONTROL Scheduler]** activity into your workflow.
@@ -61,7 +66,7 @@ When building your workflow, only use one **[!UICONTROL Scheduler]** activity pe
 
 1. In the **[!UICONTROL Execution options]** tab, set up the time zone for your scheduler in the **[!UICONTROL Time zone]** field.
 
-   For more information on sending delivery depending on the recipient's time zone, refer to this [section](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md) or this [example](../../automating/using/push-notification-delivery.md#sending-a-recurring-push-notification-with-a-workflow) of a recurring workflow.
+   For more information on sending delivery depending on the recipient's time zone, refer to this [section](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md) or this [example](../../automating/using/recurring-push-notifications.md) of a recurring workflow.
 
 1. Confirm the configuration of your activity and save your workflow.
 

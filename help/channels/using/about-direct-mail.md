@@ -34,6 +34,10 @@ The user process in Adobe Campaign is as follows:
 1. Setting the contact date
 1. Generating the file
 
+**Related topics:**
+
+* [Use case: Coupling email and direct mail deliveries](../../automating/using/coupling-email-direct-mail.md)
+
 ## Recommendations {#recommendations}
 
 ### Direct mail providers {#direct-mail-providers}
@@ -53,4 +57,3 @@ Adobe Campaign offers you a set of predefined calculated fields that follow the 
 An address can contain up to six lines by default: the first calculated field (**[!UICONTROL Line 1]** contains the first name and last name, the next lines contain the postal address (road etc.), and the last line contains the ZIP/Postal code and town or city.
 
 ![](assets/direct_mail_23.png)
-
