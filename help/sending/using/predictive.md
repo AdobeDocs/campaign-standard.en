@@ -17,13 +17,13 @@ snippet: y
 
 ## Get started with AI-powered emails{#journey-ai-ovv}
 
-Using Campaign, you can optimize the design and delivery of customer journeys with advanced ML capabilities to predict each individual's engagement preference. Powered by Adobe Sensei, Adobe Campaign can analyze and predict open rates, optimal send times, and probable churn based on historical engagement metrics.
+Using Campaign, you can optimize the design and delivery of customer journeys with Adobe Sensei to predict each individual's engagement preference. Powered by Adobe Sensei, Adobe Campaign can analyze and predict open rates, optimal send times, and probable churn based on historical engagement metrics.
 
 **Machine learning models**
 
-In addition to [send time optimization capabilities](../../sending/using/computing-the-sending-date.md), you can now leverage Machine Learning into Campaign. Adobe Campaign Standard offers two new Machine Learning models - Predictive Send Time Optimizations and Predictive Engagement Scoring. These two models are together referred to Journey AI which is a class of machine learning models that are specific to designing and delivering better customer journeys.
+Adobe Campaign Standard offers two new Machine Learning models: **Predictive Send Time Optimizations** and **Predictive Engagement Scoring**. These two models are together referred to Journey AI which is a class of machine learning models that are specific to designing and delivering better customer journeys.
 
-* **Predictive send time optimization**: Predictive send time optimization predicts which is the best send time for each recipient profile for email opens and clicks. For each recipient profile, the scores indicate the best send time for each weekday and which weekday is the best to send for best results. 
+* **Predictive send time optimization**: Predictive send time optimization predicts which is the best send time for each recipient profile for email opens or clicks. For each recipient profile, the scores indicate the best send time for each weekday and which weekday is the best to send for best results. 
 
 * **Predictive engagement scoring**: Predictive engagement scoring predicts the probability of a recipient engaging with a message as well as the probability of opting out (unsubscribing) within the next 7 days after the next email send. The probabilities are further divided into buckets according to the specific risk of disengagement, medium, or low. Along these the model also provides the risk percentile rank for the customers to understand where the rank of a certain customer in relation to others. 
 
@@ -74,7 +74,7 @@ Output details
 
 ### Access profile scores{#access-predictive-send-time-scores}
 
-Once implemented into Campaign, Machine Learning capabilities enrich profiles data with new tabs with their best open/click scores. Those metrics are computed by dedicated technical workflows.
+Once implemented into Campaign, Machine Learning capabilities enrich profiles data with new tabs with their best open/click scores. The metrics are computed by Journey AI and they are brought into Campaign using technical workflows.
 
 To access those metrics, you need to:  
 
@@ -143,7 +143,7 @@ To access those metrics, you need to:
 
 1. Open a profile and click the Edit button.
 
-1. Click the **Engagement Scores for Email Channel** tab. (two tabs are available in the https://acopprod1-mkt-prod4.campaign.adobe.com/ instance??)
+1. Click the **Engagement Scores for Email Channel** tab.
 
 By using a query activity in a workflow, you can use the score to optimize your audience.
 
