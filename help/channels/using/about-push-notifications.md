@@ -72,3 +72,6 @@ Before sending your push notifications, you should:
 1. Add the channel-specific configuration to your mobile application set up. For more information, see [Channel-specific application configuration in Adobe Campaign](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign).
 
 1. To support mobile use case implementations, see the detailed instructions about extensions, Experience Platform Launch rules, and the SDK implementation in [Mobile use cases supported in Adobe Campaign Standard by using the Adobe Experience Platform SDKs](https://helpx.adobe.com/campaign/kb/configure-launch-rules-acs-use-cases.html).
+
+## Push notification FAQ {#push-faq}
+

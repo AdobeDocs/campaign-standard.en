@@ -393,6 +393,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Configuring a mobile application](administration/using/configuring-a-mobile-application.md)
        + [Configuring transactional messaging](administration/using/configuring-transactional-messaging.md)
   + Configuring mobile channels {#configuring-mobile}
+       + [Adobe Experience Platform SDK and Adobe Campaign integration FAQ](administration/using/aep-faq.md)  
        + [Implementing Push tracking](administration/using/push-tracking.md)
        + [Display an image from an Adobe Campaign Standard push notification](administration/using/image-push-notification.md)
        + [Understanding Campaign Standard push notifications payload structure](administration/using/push-payload.md)
