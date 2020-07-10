@@ -136,7 +136,7 @@ Please open a customer care ticket.
 
 ### Push notifications are getting delivered from Campaign but the media file is not showing up.{#media-file-unavailable}
 
-Mobile App developers need to handle the support for media files in the App. Sometimes network bandwidth may also prevent a media file from rendering. Refer to this [page](../../administration/using/image-push-notification) for additional pointers.
+Mobile App developers need to handle the support for media files in the App. Sometimes network bandwidth may also prevent a media file from rendering. Refer to this [page](../../administration/using/image-push-notification.md) for additional pointers.
 
 ### What do I have to do to enable Push reporting in Campaign? {#push-reporting-enable}
 
