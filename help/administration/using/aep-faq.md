@@ -26,6 +26,8 @@ For more on this, refer to this [page](https://aep-sdks.gitbook.io/docs/using-mo
 
 Refer to the table below to learn more about these capabilities.
 
+![](assets/faq.png)
+
 >[!Note]
 >
 >[!DNL Places] integration includes places events as triggers for In-App messages (N/A for Push notifications), enriching profiles with [!DNL Places] data and local notifications support. Refer to this [page](../../channels/using/preparing-and-sending-an-in-app-message.md) for more information. <br>[!DNL Places] limited integration includes enriching profiles with [!DNL Places] data.
