@@ -78,7 +78,6 @@ Campaign Standard provides several deliverability tools to help you improve the 
 [Read more](../../sending/using/about-deliverability.md)
 
 **Deliveries**
-
 Once your messages are sent, detailed logs allows you to monitor the deliveries and measure the success of your campaign, as well as track the behavior of the messages recipients.
 [Read more](../../sending/using/monitoring-a-delivery.md)
 
