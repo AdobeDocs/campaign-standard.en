@@ -152,3 +152,10 @@ More detailed instructions can be found in this [page](../../administration/usin
 An out-of-the-box report is available in Adobe Campaign for Push channel. Refer to this [documentation](../../reporting/using/push-notification-report.md).
 
 See this [page](../../reporting/using/indicator-calculation.md#push-notification-delivery) to understand how each push metrics are calculated.
+
+### Are deeplinks supported in Push and In-App messages? {#deeplink-push}
+
+Yes, deeplinks are supported in Push messages. Deeplinks should include:
+
+* language that states that delivery tracking needs to be disabled in order for the deeplinks to work.
+* Appsflyer with Branch as partners that can do the deeplink tracking. For more information on Branch and Adobe Campaign Standard integration, refer to this [page](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
