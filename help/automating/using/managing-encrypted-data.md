@@ -44,6 +44,8 @@ Once the request is processed, the encryption / decryption commands will be avai
 
 In this use case, we will build a workflow in order to import data that has been encrypted in an external system, using a key generated in the Control Panel.
 
+A tutorial video showing how to use a GPG key to decrypt data is also available in [this section](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/decrypting-data.html).
+
 The steps to perform this use case are as follows:
 
 1. Use the Control Panel to generate a key pair (public/private). Detailed steps are available in [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data).
@@ -87,6 +89,8 @@ The steps to perform this use case are as follows:
 ## Use case: Encrypting and exporting data using a key installed on Control Panel {#use-case-gpg-encrypt}
 
 In this use case, we will build a workflow in order to encrypt and export data using a key installed on Control Panel.
+
+A tutorial video showing how to use a GPG key to encrypt data is also available in [this section](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/using-a-gpg-key-to-encrypt-data.html).
 
 The steps to perform this use case are as follows:
 
