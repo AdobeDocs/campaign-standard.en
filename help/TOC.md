@@ -380,6 +380,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Triggering data ingestion through APIs](developing/using/aep-triggering-data-ingestion.md)
 + Administrating {#administrating}
   + [Get started with Campaign Standard administration](administration/using/get-started-campaign-administration.md)
+   + [Monitoring guidelines](administration/using/monitoring-guidelines.md) 
   + [Configuration guidelines](administration/using/about-configuration-guidelines.md)
   + Users and security {#users-and-security}
        + [About access management](administration/using/about-access-management.md)
