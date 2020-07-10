@@ -100,7 +100,7 @@ Yes, deeplinks are supported in In-App messages. Deeplinks should include:
 * language that states that delivery tracking needs to be disabled in order for the deeplinks to work.
 * Appsflyer with Branch as partners that can do the deeplink tracking. For more information on Branch and Adobe Campaign Standard integration, refer to this [page](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
 
-### Can an In-App message be triggered when the user launches the app from a Push notification? {inapp-push-trigger}
+### Can an In-App message be triggered when the user launches the app from a Push notification? {#inapp-push-trigger}
 
 Yes, these messages are also referred as daisy chain messages. Follow the process below:
 
