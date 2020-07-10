@@ -309,6 +309,7 @@ user-guide-title: Adobe Campaign Standard Help
           + [Coupling email and direct mail deliveries](automating/using/coupling-email-direct-mail.md)
           + [Sending an email with enriched fields](automating/using/sending-email-enriched-fields.md)
           + [Personalizing an email with additional data](automating/using/personalizing-email-with-additional-data.md)
+          + [Sending a recurring push notification](automating/using/recurring-push-notifications.md)
        + Segmentation and targeting {#segmentation-targeting}
           + [Query samples](automating/using/query-samples.md)
           + [Union on two refined audiences](automating/using/union-on-two-refined-audiences.md)
