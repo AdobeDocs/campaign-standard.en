@@ -26,6 +26,8 @@ The Privacy Management Overview page has been updated to include information on 
 
 The Mobile channel guide has been reorganized and improved. A new guide Configuring mobile channels has been added with technical documentation on mobile configuration. [Read more](../../administration/using/push-tracking.md)
 
+The Privacy Management in Campaign Standard page has been updated, including clarification on how to manage Privacy requests through the Privacy Core Service integration. [Read more](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)
+
 ## Documentation updates - June 2020 {#doc-updates-june-2020}
 
 Workflow use cases have been updated and reorganized into thematic sections. [Read more](../../automating/using/about-workflow-use-cases.md)
@@ -810,7 +812,7 @@ Numerous screenshots have been updated to reflect interface changes.
 
 A new technote is now available: "Integrating the Adobe Mobile SDK with your mobile app". [Read more](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html)
 
-Instructions to configure People core service or Audience Manager integration with Adobe Campaign havget-started-communication-channels.mdegrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+Instructions to configure People core service or Audience Manager integration with Adobe Campaign have been added. [Read more](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 Authorizations table revised to make certain roles’ function clearer. [Read more](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
 
