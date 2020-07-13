@@ -18,6 +18,10 @@ snippet: y
 
 In  addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), this page lists all the new updates in Adobe Campaign Standard documentation.
 
+## Documentation updates - July 2020 {#doc-updates-july-2020}
+
+New AI-powered emails capabilities: send time optimization and profile scoring [Read more](../../sending/using/predictive.md)
+
 ## Documentation updates - June 2020 {#doc-updates-june-2020}
 
 Workflow use cases have been updated and reorganized into thematic sections. [Read more](../../automating/using/about-workflow-use-cases.md)

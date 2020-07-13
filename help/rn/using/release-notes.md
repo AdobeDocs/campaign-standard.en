@@ -65,7 +65,10 @@ snippet: y
 </tbody> 
 </table>
 
-![](assets/do-not-localize/cp-icon.png) **New Control Panel May release** with Certificate renewal for CNAME subdomains. [Learn more](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
+**Additional capabilities** (starting July 13)
+ 
+* **AI-Powered send time optimization and profile scoring** - You can now you can optimize the design and delivery of customer journeys to predict each individual's engagement preference. Powered by Journey AI, Adobe Campaign can analyze and predict open rates, optimal send times, and probable churn based on historical engagement metrics. [Learn more](../../sending/using/predictive.md)
+* **Brazil’s new privacy regulation** - In addition to the privacy capabilities already available in Campaign, Adobe helps facilitate your readiness for Brazil’s Lei Geral de Proteçao de Datos (LGPD). When creating a Privacy request, the LGPD regulation has been added to Adobe Privacy Core Service. [Learn more](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html)
 
 **Improvements**
 
@@ -117,3 +120,6 @@ snippet: y
 * Fixed an issue which caused data discrepancy when using personalization in transactional emails. (CAMP-41842)
 * Fixed issues which occurred when deleting custom fields in push notification deliveries. (CAMP-37586)
 * Fixed an error which prevented users from making changes to reports. (CAMP-42505)
+
+
+![](assets/do-not-localize/cp-icon.png) **New Control Panel May release** with Certificate renewal for CNAME subdomains. [Learn more](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
