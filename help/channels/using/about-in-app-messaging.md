@@ -65,7 +65,7 @@ Since In-App messages are pulled by the SDK from Campaign, we want to provide a 
 
 You need to configure In-App tracking postback. Instructions can be found [here](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#InApptrackingpostback).
 
-To implement local notification tracking, refer to this [page](https://helpx.adobe.com/campaign/kb/local-notification-tracking.html).
+To implement local notification tracking, refer to this [page](../../administration/using/local-tracking.md).
 
 ### Which reports are available for In-App channel? {#report-inapp}
 
