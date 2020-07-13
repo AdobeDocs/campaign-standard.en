@@ -1,4 +1,4 @@
-f---
+---
 product: adobe campaign
 sub-product: adobe campaign standard
 audience: end-user
