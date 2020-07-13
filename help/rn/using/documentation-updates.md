@@ -16,13 +16,15 @@ snippet: y
 
 # Documentation Updates{#documentation-updates}
 
-In  addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), this page lists all the new updates in Adobe Campaign Standard documentation.
+In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), this page lists all the new updates in Adobe Campaign Standard documentation.
 
 ## Documentation updates - July 2020 {#doc-updates-july-2020}
 
 A new section has been added with guidelines related to Campaign Standard monitoring. [Read more](../../administration/using/monitoring-guidelines.md)
 
 The Privacy Management Overview page has been updated to include information on the Thailand’s Personal Data Protection Act (PDPA) and the Brazil's Lei Geral de Proteção de Dados (LGPD). [Read more](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
+
+The Mobile channel guide has been reorganized and improved. A new guide Configuring mobile channels has been added with technical documentation on mobile configuration. [Read more](../../administration/using/push-tracking.md)
 
 ## Documentation updates - June 2020 {#doc-updates-june-2020}
 
