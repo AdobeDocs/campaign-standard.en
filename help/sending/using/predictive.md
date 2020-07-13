@@ -17,7 +17,7 @@ snippet: y
 
 ## Get started with AI-powered emails{#journey-ai-ovv}
 
-Using Campaign, you can optimize the design and delivery of customer journeys with Adobe Sensei to predict each individual's engagement preference. Powered by Adobe Sensei, Adobe Campaign can analyze and predict open rates, optimal send times, and probable churn based on historical engagement metrics.
+Using Campaign, you can optimize the design and delivery of customer journeys to predict each individual's engagement preference. Powered by Journey AI, Adobe Campaign can analyze and predict open rates, optimal send times, and probable churn based on historical engagement metrics.
 
 **Machine learning models**
 
