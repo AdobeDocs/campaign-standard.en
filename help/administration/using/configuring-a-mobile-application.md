@@ -178,4 +178,4 @@ After your application is deleted, in Adobe Campaign, verify whether your applic
 
 By clicking on your application in Adobe Campaign, you can choose to completely remove this application from Adobe Campaign by clicking Delete from Campaign.
 
-      ![](assets/launch_9.png)
+![](assets/launch_9.png)

@@ -33,7 +33,7 @@ The In-App content editor lets you choose between two In-App message modes:
 
 * [Sending your In-App message](../../channels/using/preparing-and-sending-an-in-app-message.md#sending-your-in-app-message)
 * [In-App reporting](../../reporting/using/in-app-report.md)
-* [Implementing local notification tracking](https://helpx.adobe.com/campaign/kb/local-notification-tracking.html)
+* [Implementing local notification tracking](../../administration/using/local-tracking.md)
 
 ## Customizing with a message template {#customizing-with-a-message-template}
 
@@ -139,7 +139,7 @@ You can add up to two buttons to your In-App message.
 ## Customizing a local notification message type {#customizing-a-local-notification-message-type}
 
 Local notifications can only be triggered by an app on a particular time and depending on an event. They will alert users that something is happening in their app even without having access to the Internet.
-To learn how to track local notification, refer to this [page](https://helpx.adobe.com/campaign/kb/local-notification-tracking.html).
+To learn how to track local notification, refer to this [page](../../administration/using/local-tracking.md).
 
 To customize a local notification:
 
