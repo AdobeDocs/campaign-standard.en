@@ -30,7 +30,7 @@ application. For more information on organizational unit, refer to this [page](.
 
 ## I am unable to edit a configured mobile application in Adobe Campaign Standard and mobile applications are in Read-mode only. {#read-mode-mobile-app}
 
-Check the organizational unit of the mobile application in the **[!UICONTROLAccess Authorization ]** section. Only users of the assigned organizational unit can edit the mobile application.
+Check the organizational unit of the mobile application in the **[!UICONTROL Access Authorization ]** section. Only users of the assigned organizational unit can edit the mobile application.
 
 For more information on organizational unit, refer to this [page](../../administration/using/organizational-units.md).
 
@@ -40,7 +40,7 @@ An administrator with organization unit set to ALL should have rights to all mob
 
 For more information on organizational unit, refer to this [page](../../administration/using/organizational-units.md).
 
-## I created a mobile property in Launch but my property is not visible in Adobe Campaign Standard. {#visibility-mobile-property}
+## I created a mobile property in [!DNL Launch] but my property is not visible in Adobe Campaign Standard. {#visibility-mobile-property}
 
 1. Check that the Adobe Campaign Standard extension is installed in mobile property in [!DNL Launch].
 
@@ -74,7 +74,7 @@ For more information on organizational unit, refer to this [page](../../administ
 
 1. Save it and let the workflow sync run again.
 
-1. Only then the property will appear in **[!UICONTROLReady to Configure]** state in Adobe Campaign and can now be configured.
+1. Only then the property will appear in **[!UICONTROL Ready to Configure]** state in Adobe Campaign and can now be configured.
 
 ## I want to configure a mobile property in Adobe Campaign. Will I have to wait for the technical workflow to sync between Adobe Launch and Adobe Campaign?
 

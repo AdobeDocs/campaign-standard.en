@@ -18,15 +18,15 @@ snippet: y
 
 ## About local tracking {#about-local-tracking}
 
-In this page, learn how to ensure that local notification tracking has been implemented correctly. Note that this implies that Local Notification has already been configured.
+In this page, learn how to ensure that local notification tracking has been implemented correctly. Note that this implies that local notification has already been configured.
 
 Local notification tracking can be split into three types:
 
-* **Local Impressions** - When a local notification has been delivered to the device and is sitting on the notification center, but has not been touched at all.  In most cases, impressions number should be similar if not the same as the delivered number.  It ensures that the device did get the message and relays that information back to the server.
+* **Local impressions** - When a local notification has been delivered to the device and is sitting on the notification center, but has not been touched at all. In most cases, impressions number should be similar if not the same as the delivered number. It ensures that the device did get the message and relays that information back to the server.
 
-* **Local Click** - When a local notification has been delivered to the device and the user has clicked on the device.  The user either wanted to view the notification (which will in turn move to Local Open tracking) OR to dismiss the notification.
+* **Local click** - When a local notification has been delivered to the device and the user has clicked on the device. The user either wanted to view the notification (which will in turn move to local open tracking) or to dismiss the notification.
 
-* **Local Open** - When a local notification has been delivered to the device and the user has clicked on the notification causing the application the open.  This is similar to the Local Click except a Local Open will not be triggered if the notification was dismissed.
+* **Local open** - When a local notification has been delivered to the device and the user has clicked on the notification causing the application the open. This is similar to the local click except a local open will not be triggered if the notification was dismissed.
 
 To implement tracking for Adobe Campaign Standard, the mobile application needs to include Mobile SDK in the application. These SDKs are available in [!DNL Adobe Mobile Services].
 
@@ -48,9 +48,7 @@ The Adobe Experience Platform Mobile SDK starts the impression tracking for loca
 
 ### For iOS {#implement-local-impression-tracking-ios}
 
-To explain how to implement Impression Tracking, you need to understand some major concepts on how iOS deals with push notifications. Apple is very strict about push notification and how much access is given to the application.
-
-To understand iOS notification we need to understand the three states of an application:
+To explain how to implement impression tracking, we need to understand the three states of an application:
 
 * **Foreground**: when the application is currently active and on screen in the foreground.
 
@@ -64,7 +62,7 @@ The Adobe Experience Platform Mobile SDK starts the impression tracking for loca
 
 >[!CAUTION]
 >
->iOS Impression Tracking is not accurate and should not be looked at reliably.
+>iOS impression tracking is not accurate and should not be looked at reliably.
 
 ## Implementing click tracking {#implementing-click-tracking}
 
@@ -148,10 +146,9 @@ You need to send "1" and "2" since user must click on the notification to open t
 
 To track open, we need to create intent. Intent objects allow Android OS to call your method when certain actions are done, in this case clicking the notification to open the app.
 
-This code is based on the implementation of the click impression tracking. With intent set, you now need to send tracking information back to Adobe Campaign. In this case,  Android View(Activity) which triggered the notification will be opened or brought to foreground as a result of the click by user. The Intent object in Activity contains the notification data which can be used to track open.
+This code is based on the implementation of the click impression tracking. With intent set, you now need to send tracking information back to Adobe Campaign. In this case, Android View([!DNL Activity]) which triggered the notification will be opened or brought to foreground as a result of the click by user. The intent object in [!DNL Activity] contains the notification data which can be used to track open.
 
-
-MainActivity.java (extends Activity)
+MainActivity.java (extends [!DNL Activity])
 
 ```
 @Override
