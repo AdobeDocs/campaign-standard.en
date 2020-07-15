@@ -18,7 +18,7 @@ snippet: y
 
 In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), this page lists all the new updates in Adobe Campaign Standard documentation.
 
-## Documentation updates - July 2020 {#doc-updates-july-2020}
+## Documentation updates - July 2020 {#doc-updates--july-2020}
 
 A new section has been added with guidelines related to Campaign Standard monitoring. [Read more](../../administration/using/monitoring-guidelines.md)
 
