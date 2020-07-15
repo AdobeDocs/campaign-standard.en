@@ -49,10 +49,10 @@ Next, reconfigure other activities in the workflow which point to and/or use dat
 
 ### Limitations and guardrails {#guardrails}
 
-The following guardrails have been put in place for this activity:
+The following guardrails apply to this activity:
 
-* 50MB http response data size limit
-* Request timeout is 10 minutes
+* 5MB http response data size limit
+* Request timeout is 1 minute
 * HTTP redirects are not allowed
 * Non-HTTPS Urls are rejected
 * "Accept: application/json" request header and "Content-Type: application/json" response header are allowed
