@@ -33,7 +33,7 @@ Follow the steps described in [Creating a mapped trigger in Campaign](../../inte
 If the trigger is created, move on to the next step. If not, it means that the trigger end point connection failed. Check if Triggers is provisioned in Experience Cloud (Activation services). If it is not, contact your Adobe account executive or professional services partner. The following information is required:
 
 * Marketing Cloud Company Name
-* IMS ORG ID
+* IMS Organization ID
 * Analytics Login Company (can be the same as the Marketing Cloud Company Name)
 
 **Try publishing the trigger**
