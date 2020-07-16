@@ -51,16 +51,15 @@ Next, reconfigure other activities in the workflow which point to and/or use dat
 
 The following guardrails apply to this activity:
 
-* 5MB http response data size limit
-* Request timeout is 1 minute
+* 50MB http response data size limit (5MB recommended)
+* Request timeout is 10 minutes
 * HTTP redirects are not allowed
 * Non-HTTPS Urls are rejected
 * "Accept: application/json" request header and "Content-Type: application/json" response header are allowed
 
->[!CAUTION]
+>[!NOTE]
 >
->Please note that the activity is meant for fetching campaign-wide data (latest set of offers, latest scores, etc.), not for retrieving specific information for each profile as that can result in large amounts of data being transferred. If the use case requires this, the recommendation is to use the [Transfer File](../../automating/using/transfer-file.md) activity.
-
+>Starting Campaign 20.4 release, the http response data size limit and guardrails will be lowered to 5MB and 1 minute.  While this change will only affect new External API activities, it is recommended that current implementations of the External API activity align with these new guardrails to follow best practices.
 
 Specific guardrails have been put in place for the JSON: 
 
@@ -68,12 +67,14 @@ Specific guardrails have been put in place for the JSON:
 * **JSON Max Key Length**: limit the maximum length of the internal key generated to 255. This key is associated with the column ID. 
 * **JSON Max Duplicate Keys Allowed**:  limit the maximum total number of duplicate JSON property names, which are used as column ID, to 150.
 
-
 The activity is not supported JSON structure as:
 
 * Combining array object with other non-array elements
 * JSON array object is nested within one or more intermediate array objects.
 
+>[!CAUTION]
+>
+>The External API activity is meant for fetching campaign-wide data (latest set of offers, latest scores, etc.), not for retrieving specific information for each profile as that can result in large amounts of data being transferred. If the use case requires this, the recommendation is to use the [Transfer File](../../automating/using/transfer-file.md) activity.
 
 ## Configuration {#configuration}
 
