@@ -59,7 +59,7 @@ The following guardrails apply to this activity:
 
 >[!NOTE]
 >
->Starting Campaign 20.4 release, the http response data size limit and guardrails will be lowered to 5MB and 1 minute.  While this change will only affect new External API activities, it is recommended that current implementations of the External API activity align with these new guardrails to follow best practices.
+>Starting with the Campaign 20.4 release, the http response data size limit and response timeout guardrails will be lowered to 5MB and 1 minute, respectively.  While this change will only affect new External API activities, it is strongly recommended that current implementations of the External API activity align with these new guardrails to follow best practices.
 
 Specific guardrails have been put in place for the JSON: 
 
