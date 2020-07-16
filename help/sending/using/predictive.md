@@ -27,9 +27,7 @@ Adobe Campaign Standard offers two new Machine Learning models: **Predictive Sen
 
 * **Predictive engagement scoring**: Predictive engagement scoring predicts the probability of a recipient engaging with a message as well as the probability of opting out (unsubscribing) within the next 7 days after the next email send. The probabilities are further divided into buckets according to the specific risk of disengagement, medium, or low. Along these the model also provides the risk percentile rank for the customers to understand where the rank of a certain customer in relation to others. 
 
->[!NOTE]
-> **Prerequisites**
->
+>[!CAUTION]
 >This capability is not available out of the box as part of the product. The implementation requires Adobe Consulting to be engaged. Please reach out to your Adobe representative to find out more.
 >
 >Separately, the feature required the usage of an Azure storage that must be provided by the customer.
