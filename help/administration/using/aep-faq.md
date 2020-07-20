@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Adobe Experience Platform SDK and Adobe Campaign integration FAQ {#aep-faq}
+# Get Started with Adobe Experience Platform SDK and Campaign {#aep-faq}
 
 ## Is Adobe Experience Platform SDK integration available for both Adobe Campaign Standard and Adobe Campaign Classic? {#aep-validity}
 

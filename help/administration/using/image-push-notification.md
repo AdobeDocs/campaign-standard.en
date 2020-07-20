@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Display an image from an Adobe Campaign Standard push notification {#image-push}
+# Adding images and videos iOS {#image-push}
 
 >[!NOTE]
 >
