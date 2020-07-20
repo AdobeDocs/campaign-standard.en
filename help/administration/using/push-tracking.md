@@ -19,8 +19,10 @@ snippet: y
 ## About push tracking {#about-push-tracking}
 
 To ensure that the push notification has been fully developed you need to be sure that the tracking portion has been implemented correctly.
+This assumes that you have already implemented the first parts of Push Notification implementation:
 
-The following steps allow you to ensure that push tracking has been implemented correctly. This assumes that you have already implemented the first parts of Push Notification implementation: Registering the app user and handling a push notification message.
+* Registering the app user
+* Handling a push notification message
 
 Push Tracking is separated into three types:
 
@@ -30,7 +32,7 @@ Push Tracking is separated into three types:
 
 * **Push Open** - When a push notification has been delivered to the device and the user has clicked on the notification causing the app to open.  This is similar to the Push Click except a Push Open will not be triggered if the notification was dismissed.
 
-To implement tracking for Campaign Standard, the mobile app needs to include Mobile SDK. These SDK are available on Adobe Mobile Services.
+To implement tracking for Campaign Standard, the mobile app needs to include Mobile SDK. These SDK are available on Adobe Mobile Services. For more on this, refer to this [page](../../administration/using/configuring-a-mobile-application.md).
 
 To send tracking information there are three variables that need to be sent. Two that are part of the data received from Campaign Standard and an action variable that dictates whether it is an **Impression**, **Click** or **Open**.
 
@@ -44,7 +46,7 @@ To send tracking information there are three variables that need to be sent. Two
 
 ### How to implement push impression tracking {#push-impression-tracking-android}
 
-For impression tracking, you will have to send value "7" for action when calling trackAction() function.
+For impression tracking, you will have to send value "7" for action when calling **[!UICONTROL trackAction()]** function.
 
 ```
 @Override
@@ -66,7 +68,7 @@ public void onMessageReceived(RemoteMessage remoteMessage) {
 
 ### How to implement click tracking {#push-click-tracking-android}
 
-For click tracking, you will have to send value "2" for action when calling trackAction() function.
+For click tracking, you will have to send value "2" for action when calling **[!UICONTROL trackAction()]** function.
 
 To track click, two scenarios need to be handled:
 
@@ -75,7 +77,7 @@ To track click, two scenarios need to be handled:
 
 To handle this, you need to use two Intents: one for clicking the notification and another one to dismiss the notification.
 
-MyFirebaseMessagingService.java
+**[!UICONTROL MyFirebaseMessagingService.java]**
 
 ```
 private void sendNotification(Map<String, String> data) {
@@ -104,7 +106,7 @@ private void sendNotification(Map<String, String> data) {
 }
 ```
 
-In order for the BroadcastReceiver to work you need to register it to the AndroidManifest.xml
+In order for the **[!UICONTROL BroadcastReceiver]** to work you need to register it to the **[!UICONTROL AndroidManifest.xml]**
 
 ```
 <manifest>
@@ -145,7 +147,7 @@ You will need to send "1" and "2" since user must click notification to open app
 
 In order to track open, you need to create Intent. Intent objects allow Android OS to call your method when certain actions are done. In this case, clicking the notification to open the app.
 
-This code is based on the implementation of the click impression tracking. With Intent set, you now need to send tracking info back to Campaign. In this case, your need to set the Open Intent to open to a certain view in your app, this will call the onResume method WITH the notification data in the Intent Object.
+This code is based on the implementation of the click impression tracking. With **[!UICONTROL Intent]** set, you now need to send tracking info back to Adobe Campaign Standard. In this case, you need to set the **[!UICONTROL Open Intent]** to open to a certain view in your app, this will call the onResume method with the notification data in the **[!UICONTROL Intent Object]**.
 
 ```
 @Override
@@ -187,7 +189,7 @@ private void handleTracking() {
 
 ### How to implement push impression tracking {#push-impression-tracking-iOS}
 
-For impression tracking, you will have to send value "7" for action when calling trackAction() function.
+For impression tracking, you will have to send value "7" for action when calling **[!UICONTROL trackAction()]** function.
 
 To understand how iOS notifications works, the three states of an app needs to be detailed:
 
@@ -197,11 +199,11 @@ To understand how iOS notifications works, the three states of an app needs to b
 
 If an app is closed, Apple will not call the app until the app has been relaunched. This means that you will not be able to know when the notification has been received on iOS.
 
-In order to still have Impression tracking working while the app is in the background we need to send **Content-Available** to let the app know a tracking has to be done.
+In order to still have **[!UICONTROL Impression]** tracking working while the app is in the background we need to send **[!UICONTROL Content-Available]** to let the app know a tracking has to be done.
 
 >[!CAUTION]
 >
->iOS Impression Tracking is not accurate and should not be seen as reliable.
+>iOS impression tracking is not accurate and should not be seen as reliable.
 
 The following code targets background app:
 
@@ -243,7 +245,7 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent noti
 
 ### How to implement click tracking {#push-click-tracking-iOS}
 
-For click tracking, you will have to send value "2" for action when calling trackAction() function.
+For click tracking, you will have to send value "2" for action when calling **[!UICONTROL trackAction()]** function.
 
 ```
 // AppDelegate.swift
@@ -284,7 +286,7 @@ Now when you send Push Notifications you need to add a category. In this case, w
 
 ![](assets/tracking_push.png)
 
-Then to handle the Dismiss and send a tracking info you need to add the following:
+Then to handle the **[!UICONTROL Dismiss]** and send a tracking info you need to add the following:
 
 ```
 func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {

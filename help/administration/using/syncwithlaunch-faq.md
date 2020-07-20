@@ -1,6 +1,6 @@
 ---
-title: About access management
-description: Manage your Adobe Campaign operators using roles, groups and organizational units.
+title: Sync with Launch technical workflow FAQ
+description: Common questions about Launch technical workflow.
 page-status-flag: never-activated
 uuid: 4f538452-cc67-4e03-9e2f-2d9eecc081c7
 contentOwner: sauviat
@@ -13,11 +13,11 @@ internal: n
 snippet: y
 ---
 
-# SyncWithLaunch technical workflow FAQ {#syncwithlaunch-faq}
+# Sync with Launch technical workflow FAQ {#syncwithlaunch-faq}
 
-The **[!UICONTROL Sync with Launch]** workflow enables automatic importing of all Adobe Launch mobile properties into Adobe Campaign Standard.
+You can import Adobe Launch mobile properties into Adobe Campaign Standard through the **[!UICONTROL Sync with Launch]** dedicated technical workflow. For more information, refer to this [page](../../administration/using/technical-workflows.md)
 
-For more information on this, refer to this [page](../../administration/using/technical-workflows.md).
+The section below lists common questions about this synchronization.
 
 >[!NOTE]
 >

@@ -14,7 +14,24 @@ internal: n
 snippet: y
 ---
 
-# Get Started with Adobe Experience Platform SDK and Campaign {#aep-faq}
+# Get Started with Adobe Experience Platform SDK and Campaign Standard {#aep-faq}
+
+To send push notifications and In-App messages with Experience Platform SDK application, a mobile application has to be set up in Adobe Experience Platform SDK and configured in Adobe Campaign.
+
+The section below lists common questions about this synchronization.
+
+For more information on Push or In-app, refer to the following FAQs:
+
+* [Push notification FAQ](../../channels/using/about-push-notifications.md#push-faq)
+* [In-App FAQ](../../channels/using/about-push-notifications.md#in-app-faq)
+* [Sync with Launch technical workflow FAQ](../../administration/using/syncwithlaunch-faq.md)
+
+## Useful resources before starting {#resource-mobile-property}
+
+Check out the resources below for more information on the Adobe Experience Platform SDK and Campaign Standard integration:
+
+* Launch/Mobile [Overview Video](https://www.adobe.com/experience-platform/launch.html#acpl-mobile-video)
+* Launch/Mobile [Tips & Tricks Guide](https://www.adobe.com/content/dam/www/us/en/experience-platform/launch-tag-manager/pdfs/adobe-cloud-platform-launch-tips-and-tricks-sheet.pdf)
 
 ## Is Adobe Experience Platform SDK integration available for both Adobe Campaign Standard and Adobe Campaign Classic? {#aep-validity}
 
@@ -75,13 +92,6 @@ Frequency and design of CollectPII calls should be dictated by business needs an
 ### When I try to access Adobe Experience Platform Apps in Campaign or Launch, I sometimes get a property not available error. {#aep-error}
 
 This is a known issue and happens due to token expiration. You should try login out and in.
-
-## What would be some useful resource recommendations to learn more about Mobile property set up in Adobe Experience Platform Launch? {#resource-mobile-property}
-
-Check out the resources below:
-
-* Launch/Mobile [Overview Video](https://www.adobe.com/experience-platform/launch.html#acpl-mobile-video)
-* Launch/Mobile [Tips & Tricks Guide](https://www.adobe.com/content/dam/www/us/en/experience-platform/launch-tag-manager/pdfs/adobe-cloud-platform-launch-tips-and-tricks-sheet.pdf)
 
 ## What would be some useful resource recommendations to learn more about Adobe Experience Platform SDK (formerly known as SDK V5)?{#resource-aep}
 

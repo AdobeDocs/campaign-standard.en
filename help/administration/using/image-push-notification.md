@@ -20,6 +20,8 @@ snippet: y
 >
 >This document applies to iOS device only.
 
+In this document, learn how to display an image from an Adobe Campaign Standard iOS push notification.
+
 ## Step 1: Set up push notification {#set-up-push}
 
 Push notification is supported by Experience Platform SDKs.
@@ -34,12 +36,12 @@ To send push notifications with an Experience Cloud SDK application, a mobile ap
 
 To fine-tune your push notification, Adobe Campaign allows you to access a set of advanced options while designing a push notification.
 
-1. Create a push notification. For more on this, refer to this page.
+1. Create a push notification. For more on this, refer to this [page](../../channels/using/preparing-and-sending-a-push-notification.md).
 
-1. From your push notification content page, access the Advanced options section.
+1. From your push notification content page, access the **[!UICONTROL Advanced options]** section.
 
-1. Enter the URL of your file in the Rich media content URL field.
-  For iOS 10 or higher, you can insert image, gif, audio and video files. 
+1. Enter the URL of your file in the **[!UICONTROL Rich media content URL]** field.
+  For iOS 10 or higher, you can insert image, gif, audio and video files.
 
     ![](assets/push_notif_advanced_6.png)
 
@@ -53,13 +55,13 @@ After customizing your push notification in Adobe Campaign, you have to configur
 >
 >If your application is in Objective-C, refer to the following [documentation](https://docs.adobe.com/content/help/en/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html).
 
-If your app is in Swift, follow the steps below: 
+If your app is in [!DNL Swift], follow the steps below:
 
-1. Open your xCode project.
+1. Open your [DNL Xcode] project.
 
-1. In your Xcode project, select **File** > **New** > **Target**.
+1. In your [DNL Xcode] project, select **[!UICONTROL File]** > **[!UICONTROL New]** > **[!UICONTROL Target]**.
 
-1. Select Notification Service Extension.
+1. Select **[!UICONTROL Notification Service Extension]**.
 
     ![](assets/push_notif_advanced_12.png)
 
