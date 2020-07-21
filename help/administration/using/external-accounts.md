@@ -128,8 +128,10 @@ As you are setting up this new external account, you need to provide the followi
 
 * Server: enter the URL of the Adobe Experience Manager server. For example:
 
-  ``` http://aem.domain.com:4502 ```
-  
+  ```
+  http://aem.domain.com:4502
+  ```
+
 * AEM account credentials: use the account that will access the Adobe Experience Manager instance. It should be an account part of the campaign-remote group in Experience Manager.
 
 ## Google reCAPTCHA external account {#google-recaptcha-external-account}
