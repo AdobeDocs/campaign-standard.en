@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Understanding Campaign Standard Push Notifications Payload Structure {#push-payload}
+# Understanding push notifications payload structure {#push-payload}
 
 Adobe Campaign allows you to send personalized and segmented push notifications on iOS and Android mobile devices to mobile applications (mobile app).
 
