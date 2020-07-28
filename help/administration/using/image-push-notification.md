@@ -57,9 +57,9 @@ After customizing your push notification in Adobe Campaign, you have to configur
 
 If your app is in [!DNL Swift], follow the steps below:
 
-1. Open your [DNL Xcode] project.
+1. Open your [!DNL Xcode] project.
 
-1. In your [DNL Xcode] project, select **[!UICONTROL File]** > **[!UICONTROL New]** > **[!UICONTROL Target]**.
+1. In your [!DNL Xcode] project, select **[!UICONTROL File]** > **[!UICONTROL New]** > **[!UICONTROL Target]**.
 
 1. Select **[!UICONTROL Notification Service Extension]**.
 
