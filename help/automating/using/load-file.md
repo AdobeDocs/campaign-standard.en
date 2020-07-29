@@ -18,6 +18,11 @@ snippet: y
 
 ## Description {#description}
 
+>[!CAUTION]
+>
+>Please keep in mind the SFTP storage, DB Storage and active profile limits as per your Adobe 
+Campaign contract while using this functionality.
+
 ![](assets/data_loading.png)
 
 The **[!UICONTROL Load file]** activity allows you to import data in one structured form to use this data in Adobe Campaign. The data is temporarily imported and another activity is necessary to definitively integrate it in the Adobe Campaign database.
