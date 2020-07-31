@@ -35,7 +35,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
  <tbody> 
   <tr> 
    <td> In-App messaging (beta)<br /> </td> 
-   <td> In-App messaging allows you to engage Mobile App users more effectively by providing contextual interaction and enabling you to reach users who may have opted out of Push notifications. Use In-app messaging in tandem with Push notifications to create a highly personalized and relevant experience. This leads to better conversion and retention of your App users.<br /> For more information, refer to the <a href="../../channels/using/about-in-app-messaging.md">detailed documentation</a>.<br /> </td> 
+   <td> In-App messaging allows you to engage Mobile App users more effectively by providing contextual interaction and enabling you to reach users who may have opted out of Push notifications. Use In-App messaging in tandem with Push notifications to create a highly personalized and relevant experience. This leads to better conversion and retention of your App users.<br /> For more information, refer to the <a href="../../channels/using/about-in-app-messaging.md">detailed documentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Adobe Launch integration for mobile apps (beta)<br /> </td> 

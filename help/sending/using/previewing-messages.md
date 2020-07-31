@@ -122,7 +122,7 @@ To preview an In-App message using test profiles, follow these steps:
 
    ![](assets/in_app_preview.png)
 
-1. To preview your in-app message using test profiles, click **[!UICONTROL Preview]**.
+1. To preview your In-App message using test profiles, click **[!UICONTROL Preview]**.
 
    ![](assets/in_app_preview_2.png)
 
