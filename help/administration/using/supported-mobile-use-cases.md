@@ -16,17 +16,17 @@ snippet: y
 
 # Mobile use cases supported in Adobe Campaign Standard {#mobile-use-cases}
 
-In this page, you will find the list of every mobile use cases supported in [!DNL Adobe Campaign Standard] using the [!DNL Adobe Experience Platform SDKs]. Note that supporting these use cases involve installing and configuring the [!DNL Adobe Experience Platform SDKs], [!DNL Adobe Experience Platform Launch], and [!DNL Adobe Campaign Standard]. For more information on this, refer to this [page](../administration/using/configuring-a-mobile-application.md).
+In this page, you will find the list of every mobile use cases supported in [!DNL Adobe Campaign Standard] using the [!DNL Adobe Experience Platform SDKs]. Note that supporting these use cases involve installing and configuring the [!DNL Adobe Experience Platform SDKs], [!DNL Adobe Experience Platform Launch], and [!DNL Adobe Campaign Standard]. For more information on this, refer to this [page](../../administration/using/configuring-a-mobile-application.md).
 
 Adobe Campaign Standard supports the following use cases:
 
-* [Register a mobile profile in Campaign Standard](../administration/using/supported-mobile-use-cases.md#register-mobile-profile)
-* [Send a push token to Campaign Standard](../administration/using/supported-mobile-use-cases.md#send-push-token)
-* [Enrich a mobile profile with custom data from your application](../administration/using/supported-mobile-use-cases.md#enrich-mobile-profile-custom)
-* [Enrich a mobile profile with Lifecycle data from your application](../administration/using/supported-mobile-use-cases.md#enrich-mobile-profile-lifecycle)
-* [Track user interaction with Push notifications](../administration/using/supported-mobile-use-cases.md#track-user-push)
-* [Implement a custom event in your mobile app to trigger In-App messages](../administration/using/supported-mobile-use-cases.md#custom-event-inapp)
-* [Set linkage fields for additional authentication for the profile template that is based In-App messages](../administration/using/supported-mobile-use-cases.md#linkage-fields-inapp)
+* [Register a mobile profile in Campaign Standard](../../administration/using/supported-mobile-use-cases.md#register-mobile-profile)
+* [Send a push token to Campaign Standard](../../administration/using/supported-mobile-use-cases.md#send-push-token)
+* [Enrich a mobile profile with custom data from your application](../../administration/using/supported-mobile-use-cases.md#enrich-mobile-profile-custom)
+* [Enrich a mobile profile with Lifecycle data from your application](../../administration/using/supported-mobile-use-cases.md#enrich-mobile-profile-lifecycle)
+* [Track user interaction with Push notifications](../../administration/using/supported-mobile-use-cases.md#track-user-push)
+* [Implement a custom event in your mobile app to trigger In-App messages](../../administration/using/supported-mobile-use-cases.md#custom-event-inapp)
+* [Set linkage fields for additional authentication for the profile template that is based In-App messages](../../administration/using/supported-mobile-use-cases.md#linkage-fields-inapp)
 
 To configure these use cases, you need the following extensions from [!DNL Experience Platform Launch]:
 
@@ -143,7 +143,7 @@ public void onNewToken(String token) {
 
 ## Enrich a mobile profile with custom data from your application {#enrich-mobile-profile-custom}
 
-For this use case to work, you need to create rules for PII postbacks. For more information, see [PII Postbacks](../administration/using/configuring-rules-launch.md#pii-postback).
+For this use case to work, you need to create rules for PII postbacks. For more information, see [PII Postbacks](../../administration/using/configuring-rules-launch.md#pii-postback).
 
 ### With iOS {#enrich-mobile-profile-custom-ios}
 
@@ -175,7 +175,7 @@ MobileCore.collectPii(data);
 
 ## Enrich a mobile profile with Lifecycle data from your application {#enrich-mobile-profile-lifecycle}
 
-For this use case to work, you need to create rules for PII postbacks. For more information, see [PII Postbacks](../administration/using/configuring-rules-launch.md#pii-postback).
+For this use case to work, you need to create rules for PII postbacks. For more information, see [PII Postbacks](../../administration/using/configuring-rules-launch.md#pii-postback).
 
 >[!NOTE]
 >
@@ -254,7 +254,7 @@ public void onResume() {
 
 ## Track user interaction with Push notifications {#track-user-push}
 
-You need to create rules for push notifications tracking postback. For more information, see [Push notifications tracking postback](../administration/using/configuring-rules-launch.md#push-tracking-postback).
+You need to create rules for push notifications tracking postback. For more information, see [Push notifications tracking postback](../../administration/using/configuring-rules-launch.md#push-tracking-postback).
 
 ### With iOS {#track-user-push-ios}
 

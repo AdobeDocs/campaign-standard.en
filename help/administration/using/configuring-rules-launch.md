@@ -22,12 +22,12 @@ To ensure that all configuration changes in [!DNL Adobe Experience Platform Laun
 
 To create rules in [!DNL Experience Platform Launch], follow these steps:
 
-1. [Creating data elements](../administration/using/configuring-rules-launch.md#create-data-elements)
-2. [Creating rules](../administration/using/configuring-rules-launch.md#create-data-elements) for use cases you want to support:
-    * [PII postback](../administration/using/configuring-rules-launch.md#pii-postback)
-    * [In-App tracking postback](../administration/using/configuring-rules-launch.md#inapp-tracking-postback)
-    * [Push notifications tracking postback](../administration/using/configuring-rules-launch.md#push-tracking-postback)
-    * [Location postback](../administration/using/configuring-rules-launch.md#location-postback)
+1. [Creating data elements](../../administration/using/configuring-rules-launch.md#create-data-elements)
+2. [Creating rules](../../administration/using/configuring-rules-launch.md#create-data-elements) for use cases you want to support:
+    * [PII postback](../../administration/using/configuring-rules-launch.md#pii-postback)
+    * [In-App tracking postback](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback)
+    * [Push notifications tracking postback](../../administration/using/configuring-rules-launch.md#push-tracking-postback)
+    * [Location postback](../../administration/using/configuring-rules-launch.md#location-postback)
 
 ## Creating data elements {#create-data-elements}
 
@@ -79,10 +79,10 @@ To create these data elements:
 
 You need to create rules for the following:
 
-* [PII postback](../administration/using/configuring-rules-launch.md#pii-postback)
-* [In-App tracking postback](../administration/using/configuring-rules-launch.md#inapp-tracking-postback)
-* [Push notifications tracking postback](../administration/using/configuring-rules-launch.md#push-tracking-postback)
-* [Location postback](../administration/using/configuring-rules-launch.md#location-postback)
+* [PII postback](../../administration/using/configuring-rules-launch.md#pii-postback)
+* [In-App tracking postback](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback)
+* [Push notifications tracking postback](../../administration/using/configuring-rules-launch.md#push-tracking-postback)
+* [Location postback](../../administration/using/configuring-rules-launch.md#location-postback)
 
 ### PII postback {#pii-postback}
 
@@ -300,7 +300,7 @@ To track app actions, use the trackAction API. For more information, see [Track 
 
     >[!NOTE]
     >
-    >In the example above, the data elements on the right-hand side need to be configured in [!DNL Experience Platform Launch] by leveraging the steps in [Creating data elements](../administration/using/configuring-rules-launch.md#create-data-elements). The data elements on the left-hand side are supported in [!DNL Adobe Campaign Standard] and do not need any configuration. If you require additional data, you need to carry out custom resource extensions in [!DNL Adobe Campaign Standard].
+    >In the example above, the data elements on the right-hand side need to be configured in [!DNL Experience Platform Launch] by leveraging the steps in [Creating data elements](../../administration/using/configuring-rules-launch.md#create-data-elements). The data elements on the left-hand side are supported in [!DNL Adobe Campaign Standard] and do not need any configuration. If you require additional data, you need to carry out custom resource extensions in [!DNL Adobe Campaign Standard].
 
 1. In **[!UICONTROL Content Type]**, type **application/json**.
 
