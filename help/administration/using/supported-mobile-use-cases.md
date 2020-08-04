@@ -143,7 +143,7 @@ public void onNewToken(String token) {
 
 ## Enrich a mobile profile with custom data from your application {#enrich-mobile-profile-custom}
 
-For this use case to work, you need to create rules for PII postbacks. For more information, see [PII Postbacks](../administration/using/configuring-rules-launch#pii-postback).
+For this use case to work, you need to create rules for PII postbacks. For more information, see [PII Postbacks](../administration/using/configuring-rules-launch.md#pii-postback).
 
 ### With iOS {#enrich-mobile-profile-custom-ios}
 
@@ -175,7 +175,7 @@ MobileCore.collectPii(data);
 
 ## Enrich a mobile profile with Lifecycle data from your application {#enrich-mobile-profile-lifecycle}
 
-For this use case to work, you need to create rules for PII postbacks. For more information, see [PII Postbacks](../administration/using/configuring-rules-launch#pii-postback).
+For this use case to work, you need to create rules for PII postbacks. For more information, see [PII Postbacks](../administration/using/configuring-rules-launch.md#pii-postback).
 
 >[!NOTE]
 >
@@ -254,7 +254,7 @@ public void onResume() {
 
 ## Track user interaction with Push notifications {#track-user-push}
 
-You need to create rules for push notifications tracking postback. For more information, see [Push notifications tracking postback](../administration/using/configuring-rules-launch#push-tracking-postback).
+You need to create rules for push notifications tracking postback. For more information, see [Push notifications tracking postback](../administration/using/configuring-rules-launch.md#push-tracking-postback).
 
 ### With iOS {#track-user-push-ios}
 
