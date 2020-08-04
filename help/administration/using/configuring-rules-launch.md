@@ -44,36 +44,23 @@ To create these data elements:
 
 1. To create the **[!UICONTROL Experience Cloud ID]** data element, click **[!UICONTROL Create New Data Element]**.
 
-1. Complete the following steps:
+1. In the **[!UICONTROL Name]** field, for example, type in **mcid**.
 
-    1. In the **[!UICONTROL Name]** field, for example, type in **mcid**.
-    1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Mobile Core]**.
-    1. From the **[!UICONTROL Data element]** type drop-down, select **[!UICONTROL Experience Cloud ID]**.
+1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Mobile Core]**. Then **[!UICONTROL Experience Cloud ID]** in the **[!UICONTROL Data element]** type drop-down.
 
-        ![](assets/rules_1.png)
-
-1. Click **[!UICONTROL Save]**.
+    ![](assets/rules_1.png)
 
 1. To create the Pkey data element, click **[!UICONTROL Add data element]**.
 
-1. Complete the following steps:
+1. In the **[!UICONTROL Name]** field, for example, type in **pkey**.
 
-    1. In the **[!UICONTROL Name]** field, for example, type in **pkey**.
-    1. From the **[!UICONTROL Extensio]** drop-down, select **[!UICONTROL Adobe Campaign Standard]**.
-    1. From the **[!UICONTROL Data element]** type drop-down, select **[!UICONTROL pkey]**.
-    1. Click **[!UICONTROL Save]**.
-
-1. Click **[!UICONTROL Save]**.
+1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Adobe Campaign Standard]**. Then **[!UICONTROL pkey]** in the **[!UICONTROL Data element]** type drop-down.
 
 1. To create the Campaign server data element, click **[!UICONTROL Add data element]**.
 
-1. Complete the following steps:
-    1. In the **[!UICONTROL Name]** field, type a name, for example, **camp-server**.
-    1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Adobe Campaign Standard]**.
-    1. From the **[!UICONTROL Data element]** type drop-down, select **[!UICONTROL Campaign Server]**.
-    1. Click **[!UICONTROL Save]**.
+1. In the **[!UICONTROL Name]** field, type a name, for example, **camp-server**.
 
-1. Click **[!UICONTROL Save]**.
+1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Adobe Campaign Standard]**. Then, **[!UICONTROL Campaign Server]** in the **[!UICONTROL Data element]** type drop-down.
 
 ## Creating rules {#creating-rules}
 
@@ -92,25 +79,19 @@ You need to create rules for the following:
 
 To send PII data to [!DNL Adobe Campaign Standard], create a rule in [!DNL Experience Platform Launch]:
 
-1. In [!DNL Experience Platform Launch], from your mobile application dashboard, click the **[!UICONTROL Rules]** tab.
-
-1. Click **[!UICONTROL Create New Rule]**.
+1. In [!DNL Experience Platform Launch], from your mobile application dashboard, click the **[!UICONTROL Rules]** tab then **[!UICONTROL Create New Rule]**.
 
 1. Type a name, for example, **Mobile Core - Collect PII**.
 
-1. In the **[!UICONTROL Events section, click **[!UICONTROL Add]**.
+1. In the **[!UICONTROL Events]** section, click **[!UICONTROL Add]**.
 
-1. Complete the following steps:
-    1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Mobile Core]**.
-    1. From the **[!UICONTROL Event type]** drop-down, select **[!UICONTROL Collect PII]**.
+1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Mobile Core]**. Then, **[!UICONTROL Collect PII]** in the **[!UICONTROL Event type]** drop-down.
 
 1. Click **[!UICONTROL Keep changes]**.
 
 1. In the **[!UICONTROL Actions]** section, click **[!UICONTROL Add]**.
 
-1. Complete the following steps:
-    1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Mobile Core]**.
-    1. From the **[!UICONTROL Action type]** drop-down, select **[!UICONTROL Send PII]**.
+1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Mobile Core]**. Then, **[!UICONTROL Send PII]** in the **[!UICONTROL Action type]** drop-down.
 
 1. In **[!UICONTROL URL]**, enter the following URL:
 
@@ -138,7 +119,7 @@ To send PII data to [!DNL Adobe Campaign Standard], create a rule in [!DNL Exper
 
     The keys (for example cusEmail, cusFirstName, and cusLastName) should match the field IDs that are defined in your custom resource in the Adobe Campaign Standard instance. The value variables (for example email, firstName, and LastName) should match the keys in the JSON data that is sent from the mobile app while calling the AMS collectPII API from the app code.
 
-    You can also pass Lifecycle data in the Collect PII postback or a different postback depending on your Event triggers. here is an example of the Lifecycle data JSON: 
+    You can also pass Lifecycle data in the Collect PII postback or a different postback depending on your Event triggers. here is an example of the Lifecycle data JSON:
 
         ```
         {
@@ -151,39 +132,31 @@ To send PII data to [!DNL Adobe Campaign Standard], create a rule in [!DNL Exper
 
     The data elements that are defined in [!DNL Experience Platform Launch] should be enclosed in double percentages, for example %%mcid%%, and context variables from app should be enclosed in single percentages, for example %contextdata.email%.
 
-1. In **[!UICONTROL Content Type]**, type **application/json**. 
+1. In **[!UICONTROL Content Type]**, type **application/json**.
 
 1. In **[!UICONTROL Timeout]**, select 0.
 
     ![](assets/rules_2.png)
 
-1. Click **[!UICONTROL Keep changes]** and then **[!UICONTROL Save]**. <br>Your user data is now configured to be sent to Campaign.
+Your user data is now configured to be sent to Campaign.
 
 ### In-App tracking postback {#inapp-tracking-postback}
 
 To send tracking data to [!DNL Adobe Campaign Standard] for reporting on how your users interact with In-App messages in your mobile application, create the following rule in [!DNL Experience Platform Launch]:
 
-1. In [!DNL Experience Platform Launch], from your mobile application dashboard, select the **[!UICONTROL Rules]** tab.
-
-1. Click **[!UICONTROL Add Rule]**.
+1. In [!DNL Experience Platform Launch], from your mobile application dashboard, select the **[!UICONTROL Rules]** tab and click **[!UICONTROL Add Rule]**.
 
 1. Type a name, for example, **Adobe Campaign - In-App click tracking**.
 
 1. In the **[!UICONTROL Events]** section, click **[!UICONTROL Add]**.
 
-1. Complete the following steps:
-
-    1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Adobe Campaign Standard]**.
-    1. From the **[!UICONTROL Event type]** drop-down, select **[!UICONTROL In-App click tracking]**.
+1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Adobe Campaign Standard]**. Then, **[!UICONTROL In-App click tracking]** in the **[!UICONTROL Event type]** drop-down.
 
 1. Click **[!UICONTROL Keep changes]**.
 
 1. In the **[!UICONTROL Actions]** section, click **[!UICONTROL Add]**.
 
-1. Complete the following steps:
-
-    1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Mobile Core]**.
-    1. From the **[!UICONTROL Event type]** drop-down, select **[!UICONTROL Send postback]**.
+1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Mobile Core]**. Then, **[!UICONTROL Send postback]** in the **[!UICONTROL Event type]** drop-down.
 
 1. In **[!UICONTROL URL]**, type the following URL:
 
@@ -201,8 +174,6 @@ To send tracking data to [!DNL Adobe Campaign Standard] for reporting on how you
 
     ![](assets/rules_3.png)
 
-1. Click **[!UICONTROL Keep changes]** and then **[!UICONTROL Save]**.
-
 ### Push notifications tracking postback {#push-tracking-postback}
 
 To send tracking data to [!DNL Adobe Campaign Standard], which helps track your Push notification deliveries and your users’ interaction with your mobile application, you need to create a rule in [!DNL Experience Platform Launch].
@@ -211,29 +182,19 @@ For more information about push tracking, see [Push Tracking](../../administrati
 
 To track app actions, use the trackAction API. For more information, see [Track app actions](https://app.gitbook.com/@aep-sdks/s/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#track-app-actions).
 
-1. In [!DNL Experience Platform Launch], from your mobile application dashboard, click the **[!UICONTROL Rules]** tab.
-
-1. Click **[!UICONTROL Add Rule]**.
+1. In [!DNL Experience Platform Launch], from your mobile application dashboard, click the **[!UICONTROL Rules]** tab and click **[!UICONTROL Add Rule]**.
 
 1. Type a name, for example, **Adobe Campaign - push click tracking**.
 
 1. In the **[!UICONTROL Events]** section, click **[!UICONTROL Add]**.
 
-1. Complete the following steps:
-
-    1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Mobile Core]**.
-    1. From the **[!UICONTROL Event type]** drop-down, select **[!UICONTROL Track Action]**.
+1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Mobile Core]**. Then, **[!UICONTROL Track Action]** in the **[!UICONTROL Event type]** drop-down.
 
 1. From the **[!UICONTROL Action]** drop-down, select **[!UICONTROL Action]**, select **[!UICONTROL equals]**, and type **tracking**.
 
-1. Click **[!UICONTROL Keep changes]**.
+1. Click **[!UICONTROL Keep changes]**. Then, in the **[!UICONTROL Actions]** section, click **[!UICONTROL Add]**.
 
-1. In the **[!UICONTROL Actions]** section, click **[!UICONTROL Add]**.
-
-1. Complete the following steps:
-
-    1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Mobile Core]**.
-    1. From the **[!UICONTROL Action type]** drop-down, select **[!UICONTROL Send postback]**.
+1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Mobile Core]**. Then, **[!UICONTROL Send postback]** in the **[!UICONTROL Action type]** drop-down.
 
 1. In **[!UICONTROL URL]**, enter the following URL:
 
@@ -249,31 +210,23 @@ To track app actions, use the trackAction API. For more information, see [Track 
 
 1. In **[!UICONTROL Timeout]**, select 0.
 
-1. Click **[!UICONTROL Keep changes]** and then **[!UICONTROL Save]**.
-
 ### Location postback {#location-postback}
 
-1. In [!DNL Experience Platform Launch], from your mobile application dashboard, click the **[!UICONTROL Rules]** tab.
-
-1. Click **[!UICONTROL Add Rule]**.
+1. In [!DNL Experience Platform Launch], from your mobile application dashboard, click the **[!UICONTROL Rules]** tab and click **[!UICONTROL Add Rule]**.
 
 1. Type a name, for example, **Location postback**.
 
 1. In the **[!UICONTROL Events]** section, click **[!UICONTROL Add]**.
 
-1. Create an event (for example, Enter POI or Exit POI):
+1. Create an event, for example, Enter POI or Exit POI. From the **[!UICONTROL Extension]** drop-down, select **Places - Beta**. Then, **Enter POI** or **Exit POI** in the **[!UICONTROL Event type]** drop-down.
 
-    1. From the **[!UICONTROL Extension]** drop-down, select **Places - Beta**.
-    1. From the **[!UICONTROL Event type]** drop-down, select **Enter POI** or **Exit POI**.
-    1. Enter a name, for example, **Places - Beta - Enter POI** or **Exit POI**.
+1. Enter a name, for example, **Places - Beta - Enter POI** or **Exit POI**.
 
 1. In the **[!UICONTROL Actions]** section, click **[!UICONTROL Add]**.
 
-1. Complete the following steps:
+1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Mobile Core]**. Then, **[!UICONTROL Send postback]** from the **[!UICONTROL Action type]** drop-down.
 
-    1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Mobile Core]**.
-    1. From the **[!UICONTROL Action type]** drop-down, select **[!UICONTROL Send postback]**.
-    1. Enter a name, for example, **Mobile Core - Send Location Postback**.
+1. Enter a name, for example, **Mobile Core - Send Location Postback**.
 
 1. In **[!UICONTROL URL]**, enter the following URL:
 
@@ -281,9 +234,7 @@ To track app actions, use the trackAction API. For more information, see [Track 
     https://{%%camp-server%%}/rest/head/mobileAppV5/{%%pkey%%}/locations/
     ```
 
-1. Select the **[!UICONTROL Add post body]** check box.
-
-1. Add your post body, for example:
+1. Select the **[!UICONTROL Add post body]** check box and add your post body, for example:
 
     ```
     {
@@ -305,7 +256,5 @@ To track app actions, use the trackAction API. For more information, see [Track 
 1. In **[!UICONTROL Content Type]**, type **application/json**.
 
 1. In **[!UICONTROL Timeout]**, select 5.
-
-1. Click **[!UICONTROL Keep changes]** and then **[!UICONTROL Save]**.
 
     ![](assets/rules_4.png)
