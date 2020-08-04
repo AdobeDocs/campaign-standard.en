@@ -40,7 +40,7 @@ This resource can be extended to collect data you intend to send from the mobile
 
 1. In the **[!UICONTROL Link to profiles]** category, configure the reconciliation key used to link the profiles from the Adobe Campaign database to your applications' subscribers, such as the email.
 
-   Note that for your In-app messages you can only define one reconciliation key for all of your mobile applications.
+   Note that for your In-App messages you can only define one reconciliation key for all of your mobile applications.
 
    ![](assets/in_app_personal_data_3.png)
 

@@ -20,7 +20,7 @@ snippet: y
 >
 >Audience Destinations service is currently in beta, which may be subject to frequent updates without notice. Customers are required to be hosted on Azure (currently in beta for North America only) to access these capabilities. Please reach out to Adobe Customer Care if you would like access.
 >
->**Push** and **in-app** channels are not available yet for personalization using contextual data from Adobe Experience Platform.
+>**Push** and **In-App** channels are not available yet for personalization using contextual data from Adobe Experience Platform.
 
 Once your workflow is configured with an [Adobe Experience Platform audience](../../audiences/using/aep-about-audience-destinations-service.md), you can personalize messages with profile attributes that exist exclusively in the Experience Data Model (XDM).
 

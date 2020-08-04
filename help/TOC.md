@@ -402,6 +402,8 @@ user-guide-title: Adobe Campaign Standard Help
        + [Implementing local notification tracking](administration/using/local-tracking.md)
        + [SyncWithLaunch technical workflow FAQ](administration/using/syncwithlaunch-faq.md)
        + [Get Started with Adobe Experience Platform SDK and Campaign](administration/using/aep-faq.md)  
+       + [Configuring Launch rules to support Adobe Campaign Standard use cases](administration/using/configuring-rules-launch.md)
+       + [ Mobile use cases supported in Adobe Campaign Standard](administration/using/supported-mobile-use-cases.md)
   + Application settings {#application-settings}
        + [About Campaign Standard settings](administration/using/about-campaign-standard-settings.md)
        + [External accounts](administration/using/external-accounts.md)

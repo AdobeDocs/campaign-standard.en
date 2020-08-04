@@ -20,7 +20,7 @@ To send push notifications and In-App messages with Experience Platform SDK appl
 
 The section below lists common questions about this synchronization.
 
-For more information on Push or In-app, refer to the following FAQs:
+For more information on Push or In-App, refer to the following FAQs:
 
 * [Push notification FAQ](../../channels/using/about-push-notifications.md#push-faq)
 * [In-App FAQ](../../channels/using/about-push-notifications.md#in-app-faq)
