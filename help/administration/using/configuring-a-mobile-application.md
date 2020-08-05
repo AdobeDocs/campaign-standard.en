@@ -132,13 +132,13 @@ For more information on Sync Mobile app AEPSDK from Launch technical workflow fe
 
 ## Channel-specific application configuration in Adobe Campaign {#channel-specific-config}
 
-Your mobile application is now ready to be used in Campaign for push notification or In-app deliveries. You can now further configure it if needed to create events that will trigger your in-app messages and/or upload Push certificates.
+Your mobile application is now ready to be used in Campaign for push notification or In-App deliveries. You can now further configure it if needed to create events that will trigger your In-App messages and/or upload Push certificates.
 
 1. From the advanced menu, select **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]**.
 
 1. Select the mobile application you created and configured in Experience Platform Launch.
 
-1. On the **[!UICONTROL Mobile application properties]** tab, you can start adding events that are available in your mobile application for your in-app messages.
+1. On the **[!UICONTROL Mobile application properties]** tab, you can start adding events that are available in your mobile application for your In-App messages.
 
 1. To configure your events, click **[!UICONTROL Create Element]**.
 
@@ -150,7 +150,7 @@ Your mobile application is now ready to be used in Campaign for push notificatio
 
 1. Click **[!UICONTROL Add]**.
 
-   Your event is now available on the Triggers tab when you create an in-app message. For more information, see [Preparing and sending an In-App message](../../channels/using/preparing-and-sending-an-in-app-message.md).
+   Your event is now available on the Triggers tab when you create an In-App message. For more information, see [Preparing and sending an In-App message](../../channels/using/preparing-and-sending-an-in-app-message.md).
 
 1. In the **[!UICONTROL Device-specific settings]** section of a mobile application dashboard, for each device, provide the application details, including the certificate for iOS and the server key for Android.
 

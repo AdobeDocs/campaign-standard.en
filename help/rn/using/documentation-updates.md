@@ -466,7 +466,7 @@ In-App Messaging Beta Improvements - [Read more](../../channels/using/about-in-a
 
 The Designing Content guide has been updated to reflect the Email Designer general availability and the legacy email content editor deprecation. [Read more](../../designing/using/designing-content-in-adobe-campaign.md)
 
-Updated the [In-app](../../channels/using/about-in-app-messaging.md) and [Push notification](../../channels/using/about-push-notifications.md) documentation.
+Updated the [In-App](../../channels/using/about-in-app-messaging.md) and [Push notification](../../channels/using/about-push-notifications.md) documentation.
 
 Added more information concerning the different types of audiences in Adobe Campaign. [Read more](../../audiences/using/about-audiences.md)
 

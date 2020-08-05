@@ -400,8 +400,10 @@ user-guide-title: Adobe Campaign Standard Help
        + [Adding images and videos iOS](administration/using/image-push-notification.md)
        + [Understanding push notifications payload structure](administration/using/push-payload.md)
        + [Implementing local notification tracking](administration/using/local-tracking.md)
-       + [SyncWithLaunch technical workflow FAQ](administration/using/syncwithlaunch-faq.md)
-       + [Get Started with Adobe Experience Platform SDK and Campaign](administration/using/aep-faq.md)  
+       + [Adobe Launch Synchronization FAQ](administration/using/syncwithlaunch-faq.md)
+       + [Experience Platform SDK integration FAQ](administration/using/aep-faq.md)  
+       + [Configuring Launch rules to support Adobe Campaign Standard use cases](administration/using/configuring-rules-launch.md)
+       + [Mobile use cases supported in Adobe Campaign Standard](administration/using/supported-mobile-use-cases.md)
   + Application settings {#application-settings}
        + [About Campaign Standard settings](administration/using/about-campaign-standard-settings.md)
        + [External accounts](administration/using/external-accounts.md)
@@ -414,7 +416,7 @@ user-guide-title: Adobe Campaign Standard Help
 + Working with APIs {#working-with-apis}  
   + [Get started with Campaign Standard APIs](api/using/get-started-apis.md)
   + About Campaign Standard APIs {#about-campaign-standard-apis}
-       + [Why using Campaign Standard APIs](api/using/why-using-campaign-standard-apis.md)
+       + [Why use Campaign Standard APIs](api/using/why-using-campaign-standard-apis.md)
        + [Setting up API access](api/using/setting-up-api-access.md)
   + Global concepts {#global-concepts}
        + [Must-read](api/using/must-read.md)
