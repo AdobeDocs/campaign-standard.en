@@ -400,7 +400,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Adding images and videos iOS](administration/using/image-push-notification.md)
        + [Understanding push notifications payload structure](administration/using/push-payload.md)
        + [Implementing local notification tracking](administration/using/local-tracking.md)
-       + [SyncWithLaunch technical workflow FAQ](administration/using/syncwithlaunch-faq.md)
+       + [Adobe Launch Synchronization FAQ](administration/using/syncwithlaunch-faq.md)
        + [Experience Platform SDK integration FAQ](administration/using/aep-faq.md)  
        + [Configuring Launch rules to support Adobe Campaign Standard use cases](administration/using/configuring-rules-launch.md)
        + [Mobile use cases supported in Adobe Campaign Standard](administration/using/supported-mobile-use-cases.md)
