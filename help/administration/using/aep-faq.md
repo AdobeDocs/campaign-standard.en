@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Get Started with Adobe Experience Platform SDK and Campaign Standard {#aep-faq}
+# Experience Platform SDK integration FAQ {#aep-faq}
 
 To send push notifications and In-App messages with Experience Platform SDK application, a mobile application has to be set up in Adobe Experience Platform SDK and configured in Adobe Campaign.
 
