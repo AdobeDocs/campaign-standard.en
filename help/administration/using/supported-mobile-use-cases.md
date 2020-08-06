@@ -106,7 +106,7 @@ public void onResume() {
  super.onPause();
  MobileCore.lifecyclePause();
  }
- ```
+```
 
 ## Send a push token to Adobe Campaign Standard {#send-push-token}
 
@@ -222,7 +222,7 @@ func applicationDidEnterBackground(_ application: UIApplication) {
  sleep(2)
  ACPCore.lifecycleStart(nil)
  }
- ```
+```
 
 ### With Android {#enrich-mobile-profile-lifecycle-android}
 
@@ -270,7 +270,7 @@ let broadlogId = userInfo["_mId"] as? String
 if (deliveryId != nil && broadlogId != nil) {
     ACPCore.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"2"])
 }
- ```
+```
 
 ### With Android {#track-user-push-android}
 
@@ -300,7 +300,7 @@ Here is a sample implementation of this use case with iOS:
 
 ```
 ACPCore.trackAction(mobileEventName, data: [:] )
- ```
+```
 
 ### With Android {#custom-event-inapp-android}
 
