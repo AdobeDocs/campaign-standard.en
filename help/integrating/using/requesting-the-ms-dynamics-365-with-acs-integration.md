@@ -7,7 +7,7 @@ contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
-topic-tags: working-with-campaign-and-experience-manager
+topic-tags: working-with-campaign-and-ms-dynamics
 discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 
 internal: n
@@ -68,7 +68,7 @@ For any issues with integration data flows, make sure to include the report suit
 
 * Process Title: 
 
-Issue Description: [Description of the issue]
+* Issue Description: [Description of the issue]
 
 
 Integration support is currently 24/5 (24-hours, Monday through Friday, excluding holidays), unless there is as a system-wide issue, which will be covered 24/7.
