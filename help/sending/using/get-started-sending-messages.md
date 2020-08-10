@@ -37,7 +37,7 @@ Campaign Standard **message preparation** analyzes the target, the personalizati
 
 **Preview and test** your messages using various capabilities: send proofs to test profiles or tageted profiles, test your emails' subject line, and check the rendering of your messages to make sure that it will display in an optimal way on a variety of web clients, web mails and devices.
 
-Leverage Campaign scheduling capabilities$$ to define when your messages will be sent. For example, you can adapt sending at the recipient's timezone, optimize the sending time or compute the sending date.
+Leverage Campaign scheduling capabilities to define when your messages will be sent. For example, you can adapt sending at the recipient's timezone, optimize the sending time or compute the sending date.
 
 Use **typologies** to check during the preparation wether your message is valid and meets your quality criteria through fatigue, control and targeting rules. For example, to check that your emails always contain a subject line, or to exclude unsubscribers from the message recipients.
 
@@ -92,3 +92,4 @@ Read more:
 * [Review an email delivery and reports (video)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/reviewing-personalized-email-delivery-and-reports.html)
 * [Getting started with emails](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
 * [Delivery best practices](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+* [Use case: Building a control group](../../automating/using/workflow-control-group.md)

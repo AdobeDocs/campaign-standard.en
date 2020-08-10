@@ -26,15 +26,24 @@ The **[!UICONTROL Segmentation]** activity lets you create one or several segmen
 >
 >By default, a member of the inbound population can only belong to one single segment. The filters are applied according to the order of the segments in the activity.
 
+**Related topics:**
+* [Use case: Segmentation on location](../../automating/using/workflow-segmentation-location.md)
+* [Use case: Building a control group](../../automating/using/workflow-control-group.md)
+* [Use case: Segmentation according to age groups](../../automating/using/segmentation-age-groups.md)
+
 ## Context of use {#context-of-use}
 
 The **[!UICONTROL Segmentation]** activity is generally placed after targeting activities (query, intersection, union, exclusion, etc.) in order to define the standard population based on which the segments are formed.
+
+**Related topics**
+
+* [Use case: Segmenting profiles according to their age groups](../../automating/using/segmentation-age-groups.md).
 
 ## Configuration {#configuration}
 
 1. Drag and drop a **[!UICONTROL Segmentation]** activity into your workflow.
 1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
-1. Select the **[!UICONTROL Resource type]** on which the segmentation has to be carried out:
+1. In the **[!UICONTROL General]** tab, select the **[!UICONTROL Resource type]** on which the segmentation has to be carried out:
 
     * **[!UICONTROL Database resource]** if the segmentation is carried out on data that already exists in the database. Select the **[!UICONTROL Filtering dimension]** depending on the data that you want to segment. By default, segmentation is carried out on the **profiles**.
     * **[!UICONTROL Temporary resource]** if the segmentation is carried out on the workflow's temporary data: select the **[!UICONTROL Targeted set]** containing the data to segment. This use case can be encountered after importing a file or if the data in the database was enriched.
@@ -87,31 +96,6 @@ The **[!UICONTROL Segmentation]** activity is generally placed after targeting a
 
     * Check the **[!UICONTROL Enable overlapping of outbound populations]** option if you want a member of the inbound population to belong to several segments at the same time. The activity's outbound population may exceed the inbound population.
     * Check the **[!UICONTROL Concatenate the code of each segment]** option if the inbound population has already been assigned a segment code that you want to keep. The segment code specified in the activity will be added to the initial segment code.
-    * Check the **[!UICONTROL Generate complement]** option if you would like to exploit the remaining population.
+    * Check the **[!UICONTROL Generate complement]** option if you would like to exploit the remaining population. See [Use case: Creating deliveries with a complement](../../automating/using/workflow-created-query-with-complement.md).
 
 1. Confirm the configuration of your activity and save your workflow.
-
-## Example {#example}
-
-The following example shows a segmentation of database profiles according to their age group. The aim of the workflow is to send a specific email for each age group. Considering the fact that this workflow is part of a test campaign, each segment can only contain a maximum of 100 profiles that are selected randomly in order to use audiences that are limited and representative at the same time.
-
-![](assets/wkf_segment_example_4.png)
-
-The workflow is made up of the following elements:
-
-* A **[!UICONTROL Scheduler]** activity to specify the workflow's execution date. Refer to the [Scheduler](../../automating/using/scheduler.md) section.
-* A **[!UICONTROL Query]** activity to target profiles of people whose birthday and email address have been entered. Refer to the [Query](../../automating/using/query.md) section.
-* A **[!UICONTROL Segmentation]** activity to create 3 segments divided into different outbound transitions: 18-25-year old, 26-32-year old and profiles that are over 32 years old. The segments are defined according to the following parameters:
-
-  ![](assets/wkf_segment_example_3.png)
-
-    * A filter on the age to define the segment's age group
-    
-      ![](assets/wkf_segment_new_segment.png)
-
-    * A **[!UICONTROL Random sampling]** type limit that is linked to a **[!UICONTROL Maximum size]** limit of 100
-    
-      ![](assets/wkf_segment_example_1.png)
-
-* An **[!UICONTROL Email delivery]** activity per segment. Refer to the [Email delivery](../../automating/using/email-delivery.md) section.
-

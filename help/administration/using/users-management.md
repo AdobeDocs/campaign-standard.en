@@ -66,7 +66,7 @@ Here are the main tasks they can perform:
 * [Develop new features to enhance out-of-the-box functionalities](../../developing/using/data-model-concepts.md): manage your custom resources and access diagnostic tools.
 * [Set up the instance parameters](../../administration/using/branding.md): define your different brands and configure their settings (logo, manage tracking, URL domain to access the landing pages, etc.).
 * [Export and import data packages](../../automating/using/managing-packages.md): exchange resources between different Adobe Campaign instances through structured XML files.
-* [Export logs](../../automating/using/exporting-logs.md) and [define import templates](../../automating/using/defining-import-templates.md).
+* [Export logs](../../automating/using/exporting-logs.md) and [define import templates](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates).
 
 ### Advanced users {#advanced-users}
 

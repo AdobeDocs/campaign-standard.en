@@ -235,7 +235,7 @@ Here are a few possible reasons for receiving alerting notifications according t
     * A deliverability issue
     * An erroneous workflow
 
-  If the delivery is triggered with a workflow, check if that workflow was correctly started. For more on this, see [Executing a workflow](../../automating/using/executing-a-workflow.md). Otherwise, get in touch with your Adobe Campaign administrator to solve the issue.
+  If the delivery is triggered with a workflow, check if that workflow was correctly started. For more on this, see [Executing a workflow](../../automating/using/about-workflow-execution.md). Otherwise, get in touch with your Adobe Campaign administrator to solve the issue.
 
 * **[!UICONTROL Deliveries with preparation failed]**: An error can occur during delivery preparation in the following cases:
 
@@ -255,7 +255,7 @@ Here are a few possible reasons for receiving alerting notifications according t
 
   The possible causes for a **[!UICONTROL Delivery with bad error ratio for hard bounces]** alert can be:
 
-    * The recipient is blacklisted, meaning that they no longer want to be contacted.
+    * The recipient is on the block list, meaning that they no longer want to be contacted.
     * The recipient's email address does not exist.
     * The recipient's domain does not exist.
     * The recipient's server is blocking the delivery.
@@ -276,5 +276,5 @@ Here are a few possible reasons for receiving alerting notifications according t
 
 * [Understanding delivery failures](../../sending/using/understanding-delivery-failures.md)
 * [Understanding quarantine management](../../sending/using/understanding-quarantine-management.md)
-* [Managing blacklisting in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* [About opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 

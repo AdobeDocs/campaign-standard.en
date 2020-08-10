@@ -16,13 +16,43 @@ snippet: y
 
 # Documentation Updates{#documentation-updates}
 
-In  addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), this page lists all the new updates in Adobe Campaign Standard documentation.
+In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), this page lists all the new updates in Adobe Campaign Standard documentation.
+
+## Documentation updates - July 2020 {#doc-updates-july-2020}
+
+A new section has been added with guidelines related to Campaign Standard monitoring. [Read more](../../administration/using/monitoring-guidelines.md)
+
+External API Guardrails and limitations section has been updated.[Read more](../../automating/using/external-api.md#guardrails)
+
+The Privacy Management Overview page has been updated to include information on the Thailand’s Personal Data Protection Act (PDPA) and the Brazil's Lei Geral de Proteção de Dados (LGPD). [Read more](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
+
+The Mobile channel guide has been reorganized and improved. A new guide Configuring mobile channels has been added with technical documentation on mobile configuration. [Read more](../../administration/using/push-tracking.md)
+
+The Privacy Management in Campaign Standard page has been updated, including clarification on how to manage Privacy requests through the Privacy Core Service integration. [Read more](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)
+
+New AI-powered emails capabilities: send time optimization and profile scoring. [Read more](../../sending/using/predictive.md)
+
+## Documentation updates - June 2020 {#doc-updates-june-2020}
+
+Workflow use cases have been updated and reorganized into thematic sections. [Read more](../../automating/using/about-workflow-use-cases.md)
+
+Use cases have been added on how to [encrypt](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) and [decrypt](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) data using Control Panel and Campaign workflows.
+
+Both ‘whitelist’ and ‘blacklist’ terms have been removed from Adobe Campaign documentation. Some occurrences of these terms may still exist in the product UI, option names and internal code, but will be replaced in upcoming Campaign releases with ‘blocklist’ and ‘allowlist.’
+
+References to the legacy Support website have been replaced by the new URL. [Learn more](https://helpx.adobe.com/campaign/kb/ac-support.html#acs-support-req)
+
+Custom Litmus account configuration has been removed from Inbox rendering capability. [Read more](../../sending/using/email-rendering.md)
+
+Campaign Standard - Microsoft Dynamics 365 integration is currently unavailable. A new connector is being developed and will be available in the future. The related help pages have been removed. [Read more](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 ## Documentation updates - May 2020 {#doc-updates-may-2020}
 
 Campaign Standard overview page has been enriched and reorganized into thematic topics. [Read more](../../start/using/about-campaign-standard.md)
 
 The Email channel parameters section has been clarified with further information regarding the authorized masks fields and the delivery reports ID. [Read more](../../administration/using/configuring-email-channel.md)
+
+The Configuring a mobile application using Adobe Experience Platform SDKs is now avalaible in the core documentation with further information regarding the Sync Mobile app AEPSDK from Launch technical workflow. [Read more](../../administration/using/configuring-a-mobile-application.md)
 
 ## Release 20.3 - May 2020 {#release-20-3---may-2020}
 
@@ -34,7 +64,7 @@ External API Activity (GA) - [Read more](../../automating/using/external-api.md)
 
 **Other documentation updates coming with the release**
 
-Information has been added on the **[!UICONTROL History in days]** field in workflows' properties that now includes files downloaded by the **[!UICONTROL Transfer file]** activity. [Read more](../../automating/using/executing-a-workflow.md)
+Information has been added on the **[!UICONTROL History in days]** field in workflows' properties that now includes files downloaded by the **[!UICONTROL Transfer file]** activity. [Read more](../../automating/using/managing-execution-options.md)
 
 Information has been added in the profile substitution section regarding the 500 characters limit of the subject line prefix. [Read more](../../sending/using/testing-messages-using-target.md)
 
@@ -112,7 +142,7 @@ A new section dedicated to Campaign Standard data model best practices is now av
 
 Information has been added on the **[!UICONTROL Workflow]** built-in right. [Read more](../../administration/using/list-of-roles.md)
 
-Information has been added on the **[!UICONTROL History in days field]** available in workflows' properties. [Read more](../../automating/using/executing-a-workflow.md)
+Information has been added on the **[!UICONTROL History in days field]** available in workflows' properties. [Read more](../../automating/using/about-workflow-execution.md)
 
 ## Release 20.1 - February 2020 {#release-20-1---february-2020}
 
@@ -436,7 +466,7 @@ In-App Messaging Beta Improvements - [Read more](../../channels/using/about-in-a
 
 The Designing Content guide has been updated to reflect the Email Designer general availability and the legacy email content editor deprecation. [Read more](../../designing/using/designing-content-in-adobe-campaign.md)
 
-Updated the [In-app](../../channels/using/about-in-app-messaging.md) and [Push notification](../../channels/using/about-push-notifications.md) documentation.
+Updated the [In-App](../../channels/using/about-in-app-messaging.md) and [Push notification](../../channels/using/about-push-notifications.md) documentation.
 
 Added more information concerning the different types of audiences in Adobe Campaign. [Read more](../../audiences/using/about-audiences.md)
 
@@ -466,7 +496,7 @@ Updated the Type of users section. [Read more](../../administration/using/users-
 
 In-App messaging (beta) - [Read more](../../channels/using/about-in-app-messaging.md)
 
-Adobe Launch integration for mobile apps (beta) - [Read more](../../sending/using/about-typology-rules.md#typology-rules)
+Adobe Launch integration for mobile apps (beta) - [Read more](../../sending/using/managing-typologies.md)
 
 **Other documentation updates coming with the release**
 
@@ -480,7 +510,7 @@ Updated Push notification built-in report section. [Read more](../../reporting/u
 
 **New capabilities included in the release**
 
-[High priority flag](../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android) and [typology filter](../../sending/using/about-typology-rules.md#typology-rules) for mobile app subscribers.
+[High priority flag](../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android) and [typology filter](../../sending/using/managing-typologies.md) for mobile app subscribers.
 
 Automated content import from a URL at preparation time. [Read more](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
 
@@ -546,7 +576,7 @@ Added information on tracking log types. [Read more](../../sending/using/trackin
 
 The query activity section has been updated with query samples. [Read more](../../automating/using/query.md#query-samples)
 
-The section dedicated to blacklisting has been renamed “Understanding opt-in and opt-out processes”. It has been updated with information on how to manage opt-in to specific channels and how to set up landing pages to manage opt-in and opt-out. [Read more](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+The section dedicated to block lists has been renamed “Understanding opt-in and opt-out processes”. It has been updated with information on how to manage opt-in to specific channels and how to set up landing pages to manage opt-in and opt-out. [Read more](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 Learn the best practices for using Adobe hosted SFTP servers. [Read more](../../administration/using/external-accounts.md#sftp-external-account)
 
@@ -570,13 +600,13 @@ Use of Custom Resources in Transactional Messaging - [Read more](../../administr
 
 The GDPR API regroups features that allow the automatic processing of GDPR requests. [Read more](../../api/using/creating-a-privacy-request.md)
 
-Added information on how to set up landing pages to give your recipients the ability to be blacklisted. [Read more](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
+Added information on how to set up landing pages to give your recipients the ability to be added to the block list. [Read more](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
 The [Configuring transactional messaging](../../administration/using/configuring-transactional-messaging.md) section has been reorganized, and a [step-by-step use case](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) has been added.
 
 Added a technote to learn how to generate a multilingual CSV file to use for push notifications. [Read more](https://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html).
 
-Added information on the **Update Direct mail quarantines and delivery logs** import template. [Read more](../../automating/using/defining-import-templates.md)
+Added information on the **Update Direct mail quarantines and delivery logs** import template. [Read more](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates)
 
 Updated the technical workflow list. [Read more](../../administration/using/technical-workflows.md)
 
@@ -608,7 +638,7 @@ The **[!UICONTROL Working with typologies]** section has been updated for an imp
 
 A new option allowing to gain performance when defining many additional data in a **[!UICONTROL Query]** is now available. [Read more](../../automating/using/query.md)
 
-The profile import example has been updated with a few tips to have your profiles ready to receive direct mails. [Read more](../../automating/using/importing-data.md)
+The profile import example has been updated with a few tips to have your profiles ready to receive direct mails. [Read more](../../automating/using/about-data-import-and-export.md)
 
 A new activity is available in workflows: the **[!UICONTROL Enrichment]** activity. [Read more](../../automating/using/enrichment.md)
 
@@ -624,7 +654,7 @@ Added information on how to send a delivery depending on users' time zones in a 
 
 Reorganized the **[!UICONTROL Customizing a push notification]** section with step-by-step use cases. [Read more](../../channels/using/customizing-a-push-notification.md)
 
-New section dedicated to blacklisting management. [Read more](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+New section dedicated to block list management. [Read more](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 Updated information about delivery failures and quarantines. [Read more](../../sending/using/monitoring-a-delivery.md)
 
@@ -776,7 +806,7 @@ The List of roles section has been updated. [Read more](../../administration/usi
 
 Direct mail - [Read more](../../channels/using/about-direct-mail.md)
 
-Email BCC - [Read more](../../administration/using/configuring-email-channel.md#archiving-emails)
+Email BCC - [Read more](../../sending/using/archiving.md)
 
 **Other documentation updates coming with the release**
 
@@ -786,7 +816,7 @@ Numerous screenshots have been updated to reflect interface changes.
 
 A new technote is now available: "Integrating the Adobe Mobile SDK with your mobile app". [Read more](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html)
 
-Instructions to configure People core service or Audience Manager integration with Adobe Campaign havget-started-communication-channels.mdegrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+Instructions to configure People core service or Audience Manager integration with Adobe Campaign have been added. [Read more](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 Authorizations table revised to make certain roles’ function clearer. [Read more](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
 
@@ -810,7 +840,7 @@ Dreamweaver integration live - [Read more](https://docs.adobe.com/content/help/e
 
 Section added on the different types of Adobe Campaign users. [Read more](../../administration/using/users-management.md)
 
-The Workflow guide has been reorganized and extended. Easily find how to [build](../../automating/using/building-a-workflow.md) and [execute](../../automating/using/executing-a-workflow.md) a workflow, how to [target](../../automating/using/targeting-data.md) and [manage](../../automating/using/targeting-data.md#enriching-data) your data, how to [import](../../automating/using/importing-data.md) data, and [how to use workflow data](../../automating/using/using-workflow-data.md) to update the database or to send deliveries.
+The Workflow guide has been reorganized and extended. Easily find how to [build](../../automating/using/building-a-workflow.md) and [execute](../../automating/using/about-workflow-execution.md) a workflow, how to [target](../../automating/using/about-targeting-activities.md) and [manage](../../automating/using/about-targeting-activities.md#enriching-data) your data, how to [import and export](../../automating/using/about-data-import-and-export.md) data, and how to use workflow data to update the database or to send deliveries.
 
 Report indicator calculation now available for dynamic reports, including full description and calculation formula. [Read more](../../reporting/using/indicator-calculation.md)
 

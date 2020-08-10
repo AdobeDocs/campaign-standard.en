@@ -26,6 +26,11 @@ The **[!UICONTROL Update data]** activity allows you to perform a mass update on
 
 The **Update data** activity can be used after importing a file in order to insert the data recovered into the Adobe Campaign database. Several options allow you to personalize updating the data.
 
+**Related topics:**
+
+* [Use case: Updating data based on a file](../../automating/using/update-database-file.md)
+* [Updating data based on an automatic file download](../../automating/using/update-data-automatic-download.md)
+
 ## Configuration {#configuration}
 
 1. Drag and drop an **[!UICONTROL Update data]** activity into your workflow.
@@ -61,34 +66,8 @@ The **Update data** activity can be used after importing a file in order to inse
    >
    >**Managing updates** The **[!UICONTROL lastModified]**, **[!UICONTROL modifiedBy]**, **[!UICONTROL created]** and **[!UICONTROL createdBy]** fields are automatically updated when an update data activity is run, unless their configuration is explicitly carried out on the field update table. The update is only carried out on the records where at least one difference has been detected. If the values are the same, no update is carried out.
 
-1. If needed, manage the activity's [Transitions](../../automating/using/executing-a-workflow.md#managing-an-activity-s-outbound-transitions) to access the advanced options for the outbound population.
+1. If needed, manage the activity's [Transitions](../../automating/using/activity-properties.md) to access the advanced options for the outbound population.
 
    If you have selected **[!UICONTROL Insert only]** and the data imported may contain records that are already present in the database, check the **[!UICONTROL Generate an outbound transition for the rejects]** box to avoid any possible errors.
 
 1. Confirm the configuration of your activity and save your workflow.
-
-## Example {#example}
-
-The following activity shows the configuration of an **[!UICONTROL Update data]** activity following a **[!UICONTROL Load file]** activity. The aim of this workflow is to add or update profiles to the Adobe Campaign database with the data recovered from the file. The reconciliation key used is the email address.
-
-The file loaded is a **.txt** format file containing the following example data:
-
-```
-lastname;firstname;email;birthdate
-jackman;megan;megan.jackman@testmail.com;07/08/1975
-phillips;edward;phillips@testmail.com;09/03/1986
-weaver;justin;justin_w@testmail.com;11/15/1990
-martin;babeth;babeth_martin@testmail.net;11/25/1964
-reese;richard;rreese@testmail.com;02/08/1987
-cage;nathalie;cage.nathalie227@testmail.com;07/03/1989
-xiuxiu;andrea;andrea.xiuxiu@testmail.com;09/12/1992
-grimes;daryl;daryl_890@testmail.com;12/06/1979
-tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
-```
-
-The **[!UICONTROL Update data]** activity is configured as follows:
-
-![](assets/deduplication_example2_writer1.png)
-
-![](assets/deduplication_example2_writer2.png)
-

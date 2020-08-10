@@ -95,7 +95,7 @@ The steps for creating a standalone In-App message with Adobe Campaign are:
     
     * **[!UICONTROL Life Cycle events]**: Out-of-the-box life cycle events supported by Adobe Mobile SDK.
 
-      For more on life cycle events, refer to this [page](https://marketing.adobe.com/resources/help/en_US/mobile/android/metrics.html).
+      For more on life cycle events, refer to this [page](https://docs.adobe.com/content/help/en/mobile-services/android/metrics.html).
     
     * **[!UICONTROL Analytics Events]**: The following three categories are supported depending on what is instrumented in your mobile app: Adobe Analytics, Context data or View state.
 

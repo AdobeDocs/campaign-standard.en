@@ -20,7 +20,7 @@ snippet: y
 >
 >Audience Destinations service is currently in beta, which may be subject to frequent updates without notice. Customers are required to be hosted on Azure (currently in beta for North America only) to access these capabilities. Please reach out to Adobe Customer Care if you would like access.
 
-Once you have created an [Adobe Experience Platform audience](../../audiences/using/aep-about-audience-destinations-service.md) using the Unified Profile segment builder, you can use it in the same way as you would for a Campaign audience within workflows to personalize and send messages.
+Once you have created an [Adobe Experience Platform audience](../../audiences/using/aep-about-audience-destinations-service.md) using the Segment Builder, you can use it in the same way as you would for a Campaign audience within workflows to personalize and send messages.
 
 To activate an Adobe Experience Platform audience into your workflows, follow these steps:
 
@@ -32,7 +32,7 @@ To activate an Adobe Experience Platform audience into your workflows, follow th
 
 1. (Optional) Once the audience is selected, you can click the eye button to review and/or edit the segment definition (make sure to save your changes again).
 
-    Clicking the eye button will simply direct you to the Unified Segment Builder (in another tab) associated with the selected audience within Campaign.
+    Clicking the eye button will simply direct you to the Segment Builder (in another tab) associated with the selected audience within Campaign.
 
 1. Select a **[!UICONTROL Platform data mapping]** element to specify the desired targeting dimension for the selected Adobe Experience Platform audience.
 
@@ -56,9 +56,9 @@ You can now configure your workflow with other activities. You can, for example,
 
 >[!NOTE]
 >
->Campaign Standard lets you target Adobe Experience Platform audiences within all delivery channels: Emails, SMS messages, Direct mail messages, Push notifications, and In-app messages.
+>Campaign Standard lets you target Adobe Experience Platform audiences within all delivery channels: Emails, SMS messages, Direct mail messages, Push notifications, and In-App messages.
 >
->*Note: For all push and in-app messages, Campaign Standard only supports deliveries for known profiles only.
+>*Note: For all push and In-App messages, Campaign Standard only supports deliveries for known profiles only.
 
 For more on how to use workflows and deliveries, refer to these sections:
 

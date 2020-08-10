@@ -80,7 +80,7 @@ Once personalization is generated (when previewing and preparing the email for e
 
 >[!NOTE]
 >
->If the email is created from a workflow, the additional data computed in the workflow is also available in the personalization fields. For more information about adding additional data from a workflow, refer to the [Enriching data](../../automating/using/targeting-data.md#enriching-data) section.
+>If the email is created from a workflow, the additional data computed in the workflow is also available in the personalization fields. For more information about adding additional data from a workflow, refer to the [Enriching data](../../automating/using/about-targeting-activities.md#enriching-data) section.
 
 ## Adding a content block{#adding-a-content-block}
 
@@ -196,7 +196,7 @@ Adobe Campaign allows you to personalize one or several images in your message a
 
    >[!NOTE]
    >
-   >The domain name (http://mydomain.com) cannot be personalized, it has to be entered manually. The rest of the URL can be personalized. For example: http://mydomain.com/`[Gender]`.jpg
+   >The domain name (http://mydomain.com) cannot be personalized, it has to be entered manually. The rest of the URL can be personalized. For example: http://mydomain.com/ `[Gender]` .jpg
 
 1. Confirm your changes.
 

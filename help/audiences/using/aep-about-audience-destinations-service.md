@@ -24,7 +24,7 @@ Empower your consumer experiences by leveraging the [Adobe Experience Platform](
 
 Adobe Campaign Standard will then use the **Audience Destinations** service to retrieve a collection of profiles, known as **Audiences**, from Adobe Experience Platform for multi-step and/or cross-channel campaign programs.
 
-**Audiences** are created by first building **segments**, which are essentially a set of rules based on virtually any variable (e.g., profile, event, multi-entity data) within a customer profile from Adobe Experience Platform to create a multidimensional target. Global concepts on Unified Profile & Segmentation Services are referenced in these dedicated documents:
+**Audiences** are created by first building **segments**, which are essentially a set of rules based on virtually any variable (e.g., profile, event, multi-entity data) within a customer profile from Adobe Experience Platform to create a multidimensional target. Global concepts on Real-time Customer Profile & Segmentation Services are referenced in these dedicated documents:
 
 * [Real-time Customer Profile overview](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)
 * [Segmentation Service overview](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html)

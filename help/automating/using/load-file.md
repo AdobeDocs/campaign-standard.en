@@ -18,6 +18,11 @@ snippet: y
 
 ## Description {#description}
 
+>[!CAUTION]
+>
+>Please keep in mind the SFTP storage, DB Storage and active profile limits as per your Adobe 
+Campaign contract while using this functionality.
+
 ![](assets/data_loading.png)
 
 The **[!UICONTROL Load file]** activity allows you to import data in one structured form to use this data in Adobe Campaign. The data is temporarily imported and another activity is necessary to definitively integrate it in the Adobe Campaign database.
@@ -34,6 +39,13 @@ You can:
 
 * Use the file structure to apply it to another file's data (recovered using the **[!UICONTROL Transfer file]** activity) or,
 * Use the structure and data from the file to import it into Adobe Campaign.
+
+**Related topics:**
+
+* [Use case: Updating the database with external data](../../automating/using/update-database-file.md)
+* [Use case: Updating data based on an automatic file download](../../automating/using/update-data-automatic-download.md)
+* [Use case: Sending an email with enriched fields](../../automating/using/sending-email-enriched-fields.md)
+* [Use case: Reconcile a File audience with the database](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## Configuration {#configuration}
 
@@ -91,6 +103,9 @@ The activity configuration involves two steps. First, you need to define the exp
       ![](assets/wkf_file_loading1.png)
 
 1. If the file that you want to load the data from is compressed into a GZIP file (.gz), select the **[!UICONTROL Decompression]** option in the **[!UICONTROL Add a pre-processing step]** field. This allows you to unzip the file before loading the data. This option is only available if the file comes from the activity's inbound transition.
+
+   The **[!UICONTROL Add a pre-processing step]** field also allows you to decrypt a file before importing it into the database. For more on how to work with encrypted files, refer to [this section](../../automating/using/managing-encrypted-data.md)
+
 1. The **[!UICONTROL Keep the rejects in a file]** option enables you to download a file containing errors that occurred during the import, and to apply to it a post-processing stage. When the option is activated, the outbound transition is renamed as "Rejects".
 
    >[!NOTE]
@@ -101,7 +116,7 @@ The activity configuration involves two steps. First, you need to define the exp
 
 1. Confirm the configuration of your activity and save your workflow.
 
-  If any error occurs with the activity after executing the workflow, refer to the logs to get more details on the values that are incorrect in the file. For more on workflows logs, refer to [this section](../../automating/using/executing-a-workflow.md#monitoring).
+  If any error occurs with the activity after executing the workflow, refer to the logs to get more details on the values that are incorrect in the file. For more on workflows logs, refer to [this section](../../automating/using/monitoring-workflow-execution.md).
 
 ## Column format {#column-format}
 
@@ -148,75 +163,3 @@ The column formatting allows you to define the value processing of each column:
     * **[!UICONTROL Generate an error for numerical fields]**: generates an error for the numerical fields only, otherwise inserts a NULL value.
     * **[!UICONTROL Insert NULL in the corresponding field]**: authorizes empty values. The value NULL is therefore inserted.
     * **[!UICONTROL Generate an error]**: generates an error if a value is empty.
-
-## Example 1: Updating the database {#example-1-update-the-database}
-
-The load file activity mainly structures the data from a transfer file activity in order to integrate it into the existing data.
-
-The following example shows the result of an automatically downloaded load file activity via a transfer file activity, followed by an update data activity. This workflow aims to enrich the Adobe Campaign database with new profiles or to update existing profiles using the data recovered from the imported file.
-
-![](assets/load_file_workflow_ex1.png)
-
-1. Drag and drop a **[!UICONTROL Transfer file]** activity into your workflow and configure it in a way so that it recovers the file you would like.
-1. Drag and drop a **[!UICONTROL Load file]** activity into your workflow and place it after the **[!UICONTROL Transfer file]** activity.
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
-1. In the **[!UICONTROL File to load]** section of the **[!UICONTROL Execution]** tab, check the **[!UICONTROL Use the file specified in the inbound transition]** option.
-
-   ![](assets/wkf_file_loading8.png)
-
-1. Configure your activity as specified earlier.
-1. Drag and drop an **[!UICONTROL Update data]** activity into your workflow and place it after the **[!UICONTROL Load file]** activity, then configure it. Refer to [Update data](../../automating/using/update-data.md).
-
-Once the workflow has started, the data from the uploaded file is extracted and then used to enrich the Adobe Campaign database.
-
-## Example 2: Sending an email with enriched fields {#example-2-email-with-enriched-fields}
-
-<!--A new example showing how to send an email containing additional data retrieved from a load file activity has been added. [Read more](example-2-email-with-enriched-fields)-->
-
-The load file activity also enables to send an email enriched with additional data from an external file in the same workflow.
-
-The example below shows how to send an email using additional data retrieved from an external file through the load file activity. In this example, the external file contains a list of profiles with their associated account number. You want to import this data to send an email to each profile with their account number.
-
-![](assets/load_file_workflow_ex2.png)
-
-1. Drag and drop a **[!UICONTROL Query]** activity into your workflow and open it to define the main target.
-
-   <!--The Query activity is presented in the [Query](../../automating/using/query.md) section.-->
-
-1. Drag and drop a **[!UICONTROL Load file]** activity to assign some data to a profile. In this example, load a file containing account numbers corresponding to some profiles of the database.
-
-   ![](assets/load_file_activity.png)
-
-1. Drag and drop an **[!UICONTROL Enrichment]** activity into your workflow and link the load file and query activities to it.
-
-1. In the **[!UICONTROL Advanced relations]** tab of the enrichment activity, select the **[!UICONTROL 0 or 1 cardinality simple link]** and define the fields to be used for reconciliation. Here we use the last name to reconcile the data with the database profiles.
-
-   ![](assets/load_file_enrichment_relation.png)
-
-1. In the **[!UICONTROL Additional data]** tab, select the elements that you want to use in your email. Here select Account number (column from the file that you retrieved through the load file activity).
-
-   ![](assets/load_file_enrichment_select_element.png)
-
-   <!--![](assets/load_file_enrichment_additional_data.png)-->
-
-   For more on this, see the [Enrichment](../../automating/using/enrichment.md) section.
-
-1. Drag and drop a **[!UICONTROL Segmentation]** activity into your workflow and open it to refine the main target.
-
-   ![](assets/load_file_segmentation.png)
-
-   For more on this, see the [Segmentation](../../automating/using/segmentation.md) section.
-
-1. Drag and drop an **[!UICONTROL Email delivery]** activity into your workflow and open it.
-
-   <!--The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.-->
-
-1. Add a personalization field and select the additional data defined in the enrichment activity (here Account number) from the **[!UICONTROL Additional data (targetData)]** node. This enables to dynamically retrieve the account number of each profile in the email content.
-
-   ![](assets/load_file_perso_field.png)
-
-1. Save the email and start the workflow.
-
-The email is sent to the target. Each profile receives the email with their corresponding account number.
-
-![](assets/load_file_email.png)

@@ -53,7 +53,7 @@ snippet: y
   <tr> 
    <td> 
     <p>The integration between Adobe Campaign Standard and Microsoft Dynamics 365 is now available. You’ll be able to transfer your contact and custom entity records from Dynamics 365 to Campaign, and get email event data back from Campaign to Dynamics 365 for better sales/marketing alignment.</p>
-    <p>Refer to the <a href="../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md">detailed documentation</a> to set this integration up and view the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/integrating/microsoft-dynamics365-connector/introduction.html">how-to video</a>.</p>
+    <p>Refer to the <a href="../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md">detailed documentation</a> to set this integration up and view the <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/campaign-and-microsoft-dynamics-365/working-with-campaign-standard-and-microsoft-dynamics-365.html">how-to video</a>.</p>
   </td>
   </tr> 
  </tbody> 
@@ -231,7 +231,7 @@ snippet: y
 * Fixed an error which prevented hard bounces email addresses from being put in quarantine. (CAMP-24587)
 * Fixed an issue which occurred when adding a typology rule, then deleting it before saving the typology. (CAMP-32789)
 * Fixed an issue that could prevent landing page content from being displayed when disabling dynamic content. (CAMP-32924)
-* Fixed an issue with recurring deliveries which occurred when using personalization on a master delivery's attributes. (CAMP-32983)
+* Fixed an issue with recurring deliveries which occurred when using personalization on a primary delivery's attributes. (CAMP-32983)
 * Fixed an issue in workflows which prevented from reading results from a transition containing incoming SMS messages data. (CAMP-33134)
 * Fixed an issue in workflows which occurred when combining fork and exclusion activities to create audiences. (CAMP-33401)
 * Fixed an issue that could prevent mirror page content from being displayed, and proof messages from being sent for recurring deliveries. (CAMP-33413)
@@ -287,7 +287,7 @@ Introduced a series of improvements and fixes to optimize fragments in the 19.2 
 * The “Launch_URL_Campaign” option has been added in Campaign to manage properties of mobile applications created with Adobe Experience Platform Mobile SDK.
 * Fixed an error that led to the Sandbox environment option being unchecked after uploading the certificate of a newly created mobile property and exiting the mobile application property page.
 * Fixed an issue which prevented you from enriching a transactional message content with information from the Service resource. (CAMP-33707)
-* Fixed an issue in Blacklist landing pages that occurred when trying to unsubscribe profiles from a service.
+* Fixed an issue in the block list landing pages that occurred when trying to unsubscribe profiles from a service.
 
 ## Release 19.2 - May 2019 {#release-19-2---may-2019}
 
@@ -611,7 +611,7 @@ Several improvements have been added to the Transactional messaging channel in o
 * Fixed an issue, in the query editor, with the join condition between broadlog and tracking log for rtEvent. (CAMP-28780)
 * Fixed an issue which prevented modifications to the "Specific action" landing page option from being saved. (CAMP-29422)
 * Fixed an issue which prevented from exporting an event's payload in a workflow. (CAMP-29029)
-* Fixed an issue that prevented blacklisted SMS numbers from being excluded in an SMS message. (CAMP-28898)
+* Fixed an issue that prevented SMS numbers on the block list from being excluded in an SMS message. (CAMP-28898)
 * Fixed an issue which could prevent SMPP providers from being notified in case of an error while processing incoming messages. (CAMP-29804)
 * Fixed an issue which allowed external accounts with associated deliveries to be deleted. (CAMP-29738)
 * The sending throughput has been improved and stabilized for SMS messages.

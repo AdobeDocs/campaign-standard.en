@@ -126,6 +126,10 @@ The Administrator user has to create the set of security groups that are used to
 
 1. In the **[!UICONTROL User access]** field, assign organizational unit. Here, the Geometrixx security group is assigned the **[!UICONTROL All]** organizational unit.
 
+   >[!NOTE]
+   >
+   >If you are assigning an out-of-the-box security group to your users, you will need to reset the organizational unit.
+
    ![](assets/manage_security_group_6.png)
 
 1. You can also assign roles to your security group. In our case, this step is not needed since the out-of-the-box security groups **[!UICONTROL Administrators]** and **[!UICONTROL Standard users]** are used to assign roles.

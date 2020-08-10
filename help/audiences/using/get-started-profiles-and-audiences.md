@@ -60,7 +60,7 @@ Before starting to send messages to a contact, you need to make sure that you ge
 
 With Campaign, we recommend you to use **easy opt-in and opt-out mechanisms** through [services](../../audiences/using/creating-a-service.md), and [landing pages](../../channels/using/getting-started-with-landing-pages.md) to update your contact information and grow your database.
 
-Providing **unsubscription links** in your messages will enable Profiles to be blacklisted, when necessary, and therefore to improve your platform deliverability. For more on blacklisting, refer to [About opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+Providing **unsubscription links** in your messages will enable Profiles to be added to the block list, when necessary, and therefore to improve your platform deliverability. For more on block list management, refer to [About opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 >[!IMPORTANT]
 >
@@ -88,5 +88,5 @@ You will also find best best practices, to help you with your Privacy compliance
 * [Working with Audience Destinations service](../../audiences/using/aep-about-audience-destinations-service.md)
 * [Working  with Microsoft Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 * [Adobe Shared Audiences](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
-* [Using workflows to import  profiles](../../automating/using/importing-data.md) 
+* [Using workflows to import profiles](../../automating/using/creating-import-workflow-templates.md)
 * [Profiles and audiences videos](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)

@@ -31,7 +31,7 @@ Four execution commands are available to control a workflow:
 * Resume
 * Stop
 
-For more information on the execution commands, refer to the [Campaign documentation](https://helpx.adobe.com/campaign/standard/automating/using/executing-a-workflow.html).
+For more information on the execution commands, refer to the [Campaign documentation](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/executing-a-workflow/about-workflow-execution.html).
 
 <br/>
 

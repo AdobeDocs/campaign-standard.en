@@ -35,7 +35,7 @@ This section lists features and capabilities that have been marked as deprecated
 
 Generally, features that are planned to be removed in a future release are set to deprecated first, with an alternative provided. These features and capabilities are either no longer available for new Campaign Standard customers, or should not be used for any new implementation. They are also removed from product documentation.
 
-Customers are advised to review if they make use of the feature/capability in their current deployment, and make plans to change their implementation to use the alternative provided. Please refer to the target removal date to plan your environment and project updates accordingly.
+Customers are advised to review if they make use of the feature/capability in their current deployment, and make plans to change their implementation to use the alternative provided. Please refer to the target removal version to plan your environment and project updates accordingly.
 
 <table> 
  <thead> 
@@ -64,7 +64,7 @@ Customers are advised to review if they make use of the feature/capability in th
    <td> <p>Starting Campaign 19.4 release, the use of the Campaign API and interface for access and delete requests is deprecated. The 2-step profile deletion will not be available. Use  <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe Privacy Core Service</a>.</p></br>
    <p>See also <a href="https://helpx.adobe.com/campaign/kb/acs-privacy.html">Privacy Management in Campaign Standard</a>.</p>
   <p> 
-  <em>Target removal date: July 2020 - Campaign 20.5 release </em></p>
+  <em>Target removal date: 2021</em></p>
    </td> 
   </tr> 
  </tbody> 
@@ -81,7 +81,7 @@ Customers are advised to review if they make use of the feature/capability in th
    <td> <p>Starting Campaign 19.0 release, the legacy email editor is deprecated. Use <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">the new Email Designer</a> to create and personalize your email content. </p></br>
    <p>Read out <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">this section</a> to learn how to adapt your email templates for the new editor.</p></br>
   <p> 
-  <em>Target removal date: October 2020 - Campaign 20.6 release </em></p>
+  <em>Target removal date: 2021</em></p>
    </td> 
   </tr> 
  </tbody> 
@@ -129,7 +129,7 @@ This section lists features and capabilities that have been removed from Campaig
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Campaign and Adobe Experience Cloud has dropped support for Microsoft Internet Explorer 11 starting Spring 2019, and Campaign 19.2 release. Please switch to Microsoft Edge or another supported browser. <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/getting-started/discovering-the-interface/compatible-browsers.html">Learn more</a>.</p>
+   <td> <p>Adobe Campaign and Adobe Experience Cloud has dropped support for Microsoft Internet Explorer 11 starting Spring 2019, and Campaign 19.2 release. Please switch to Microsoft Edge or another supported browser. <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/administrating/about-configuration-guidelines.html#compatible-browsers">Learn more</a>.</p>
    </td> 
   </tr> 
  </tbody> 

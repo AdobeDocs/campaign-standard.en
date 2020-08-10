@@ -79,3 +79,8 @@ Rather than configuring it themselves, they simply have to enter the desired amo
 
 ![](assets/custom_resource_filter-definition_email-audience_filter.png)
 
+Once a filter is configured, you can use it from Campaign Standard APIs using this syntax:
+
+`GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/by<customFilterName>?<customFilterparam>=<customFilterValue>`
+  
+For more on this, refer to the [Campaign Standard APIs documentation](../../api/using/filtering.md#custom-filters).

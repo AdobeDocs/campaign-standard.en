@@ -20,7 +20,7 @@ In Adobe Campaign, profiles are used by default to define the main target of mes
 
 To create or update a profile in Campaign, you can:
 
-* Import a profile list from a file, via a [workflow](../../automating/using/importing-data.md#example--import-workflow-template)
+* Import a profile list from a file, via a [workflow](../../automating/using/creating-import-workflow-templates.md)
 * Collect data online, via [landing pages](../../channels/using/getting-started-with-landing-pages.md)
 * Create bulk via [REST API](../../api/using/get-started-apis.md)
 * Synchronize profiles from [Microsoft Dynamics](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)

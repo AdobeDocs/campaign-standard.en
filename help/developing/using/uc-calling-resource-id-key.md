@@ -92,7 +92,7 @@ GET /profileAndServicesExt/<resourceName>/by<filterName>?<param1_parameter>=<val
 ```
 
 >[!NOTE]
->To call a customer filter, use the "by" prefix followed by the filter name defined when configuring the filter definition in [step 2](../../developing/using/uc-calling-resource-id-key.md#step-2-configure-the-filter-definition).
+>To call a custom filter, use the "by" prefix followed by the filter name defined when configuring the filter definition in [step 2](../../developing/using/uc-calling-resource-id-key.md#step-2-configure-the-filter-definition).
 
 In our case, the syntax to retrieve a profile from the "spring" category with the "123456" CRM ID would be:
 

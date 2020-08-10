@@ -26,7 +26,7 @@ The principle is to send an email to confirm the visitor's agreement before stor
 
 To set this up, you need to:
 
-1. Create and publish a landing page so that the visitors can register and subscribe. This landing page will be available from a website. Visitors who fill in and submit this landing page will be stored in the database but ‘blacklisted', in order not to receive any communication before the final validation (see [Managing blacklisting in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)). 
+1. Create and publish a landing page so that the visitors can register and subscribe. This landing page will be available from a website. Visitors who fill in and submit this landing page will be stored in the database but added to the block list, in order not to receive any communication before the final validation (see [Block list management in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)). 
 1. Create and send automatically the opt-in email, with a confirmation link. This email will target population who submitted the landing page. It will be based on an email template which allows to target ‘opt-out’ profiles. 
 1. Redirect to a confirmation landing page. This final landing page will propose a confirmation button: the visitors has to click it. You can design a welcome email to be sent as confirmation is done, and for example add a special offer in the email for new recipients.
 
@@ -48,13 +48,13 @@ To create and configure this landing page, you need to:
 
 1. In the **[!UICONTROL Job]** > **[!UICONTROL Additional data]** section, click **[!UICONTROL Add an element]** and enter the following context path:
 
-   /context/profile/blackList
+   /context/profile/blockList
 
    Set the value to **false** and click **[!UICONTROL Add]**.
 
    ![](assets/optin_confirmlp_newelement.png)
 
-   This context removes the blacklist field, in order to be able to send emails. We will see later that the first landing page was setting this field to **true** before confirmation, to prevent from sending emails to non-confirmed profiles. For more on this, see [Step 3: Create the acquisition landing page](#step-3--create-the-acquisition-landing-page).
+   This context removes the 'On block list' field, in order to be able to send emails. We will see later that the first landing page was setting this field to **true** before confirmation, to prevent from sending emails to non-confirmed profiles. For more on this, see [Step 3: Create the acquisition landing page](#step-3--create-the-acquisition-landing-page).
 
 1. Customize the content of the landing page: you can display personalized data and change the label of the confirmation button to ‘Click here to confirm my subscription’ for example.
 
@@ -95,12 +95,12 @@ The event is ready. You can now design the email template. This template must in
 
 ### Create the typology {#create-the-typology-rule}
 
-You need to create a specific [typology](../../sending/using/about-typology-rules.md), by duplicating an out-of-box one. The typology will allow to send messages to profiles who did not confirm their agreement yet and are still blacklisted. By default, typologies exclude opt-out (i.e. blacklisted) profiles. To create this typology, follow these steps:
+You need to create a specific [typology](../../sending/using/about-typology-rules.md), by duplicating an out-of-box one. The typology will allow to send messages to profiles who did not confirm their agreement yet and are still on block list. By default, typologies exclude opt-out (i.e. on block list) profiles. To create this typology, follow these steps:
 
 1. From the Adobe Campaign logo, select **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** and click **[!UICONTROL Typologies]**.
 1. Duplicate the out-of-box typology **[!UICONTROL Transactional message on profile (mcTypologyProfile)]**.
 1. Once duplication confirmed, edit the new typology and enter the label **TYPOLOGY_PROFILE**.
-1. Remove the **blacklisted address** rule.
+1. Remove the **Address on block list** rule.
 1. Click **[!UICONTROL Save]**.
 
 This typology can now be associated to the confirmation email.
@@ -127,11 +127,11 @@ To create and configure this landing page, you need to:
 1. Design a [new landing page](../../channels/using/getting-started-with-landing-pages.md) based on the **[!UICONTROL Profile acquisition (acquisition)]** template. Enter the label '**ACQUISITION**'.
 1. Edit the landing page properties: in the **[!UICONTROL Job]** > **[!UICONTROL Additional data]** section, click **[!UICONTROL Add an element]** and enter the following context path:
 
-   /context/profile/blackList
+   /context/profile/blockList
 
    and set the value to **true**.
 
-   This is mandatory to force blacklist and avoid sending messages to visitors who did not confirm their agreement. The validation of the CONFIRMATION landing page will set this field to **false** after confirmation. For more on this, see [Step 1: Create the confirmation landing page](#step-1--create-the-confirmation-landing-page).
+   This is mandatory to force adding to the block list and avoid sending messages to visitors who did not confirm their agreement. The validation of the CONFIRMATION landing page will set this field to **false** after confirmation. For more on this, see [Step 1: Create the confirmation landing page](#step-1--create-the-confirmation-landing-page).
 
 1. In the **[!UICONTROL Job]** > **[!UICONTROL Specific actions]** section, select the option **[!UICONTROL Start sending messages]**.
 1. In the associated drop-down list, choose the **CONFIRM** transactional message template you created.

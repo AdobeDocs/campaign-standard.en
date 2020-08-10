@@ -50,7 +50,7 @@ Plan, coordinate and orchestrate cross-channel campaigns.
 
 Design and send messages on online and offline communication channels, including email delivery optimization for multiple devices through testing and responsive design strategies.
 
-**Leverage Campaign communication channels** to deliver your marketing campaigns at the right place: email, SMS, push notification, In-App message, direct mail, landing pages. Gain time and consistency across your messaging strategy by creating templates for all types of messages (transactional, recurring, multilingual messages). PErform A/B testing, and capture your audience's interest using personalization and dynamic content functionalities. [Get started with communication channels](../../channels/using/get-started-communication-channels.md)
+**Leverage Campaign communication channels** to deliver your marketing campaigns at the right place: email, SMS, push notification, In-App message, direct mail, landing pages. Gain time and consistency across your messaging strategy by creating templates for all types of messages (transactional, recurring, multilingual messages). Perform A/B testing, and capture your audience's interest using personalization and dynamic content functionalities. [Get started with communication channels](../../channels/using/get-started-communication-channels.md)
 
 **Use Campaign Email Designer** to create captivating, individually tailored email messages. Start from scratch or leverage built-in content fragments or templates to design your emails using HTML format optimized for responsive design. [Get started with email content designing](../../designing/using/designing-content-in-adobe-campaign.md)
 

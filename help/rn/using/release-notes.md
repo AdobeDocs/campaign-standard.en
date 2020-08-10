@@ -18,6 +18,8 @@ snippet: y
 
 [Release Planning](../../rn/using/release-planning.md) &#124; [Control Panel releases](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) &#124; [Documentation Updates](../../rn/using/documentation-updates.md) &#124; [Previous Release Notes](../../rn/using/release-notes-2020.md) &#124; [Deprecated Features](../../rn/using/deprecated-features.md)
 
+![](assets/do-not-localize/cp-icon.png) **New Control Panel June release** with Active profiles monitoring, Subdomain deliverability audit and GPG keys management. [Learn more](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
+
 ## Release 20.3 - May 2020 {#release-20-3---may-2020}
 
 **What's new?**
@@ -63,6 +65,11 @@ snippet: y
 </tbody> 
 </table>
 
+**Additional capabilities** (starting July 13)
+ 
+* **AI-Powered send time optimization and profile scoring** - You can now you can optimize the design and delivery of customer journeys to predict each individual's engagement preference. Powered by Journey AI, Adobe Campaign can analyze and predict open rates, optimal send times, and probable churn based on historical engagement metrics. [Learn more](../../sending/using/predictive.md)
+* **Brazil’s new privacy regulation** - In addition to the privacy capabilities already available in Campaign, Adobe helps facilitate your readiness for Brazil’s Lei Geral de Proteçao de Datos (LGPD). When creating a Privacy request, the LGPD regulation has been added to Adobe Privacy Core Service. [Learn more](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html)
+
 **Improvements**
 
 * The number of characters that can be used in the **Prefix** field to [test messages using targeted profiles](../../sending/using/testing-messages-using-target.md) has been increased from 32 to 500 characters. 
@@ -88,7 +95,7 @@ snippet: y
 * Checkboxes can now be mandatory in a landing page.
 * When downloading the CSV file of a Dynamic report, the limit of 200 rows has been removed. You can now include every row of your report. (CAMP-40810)
 * Added ES-US language in the list of out-of-the-box languages for multilingual emails. (CAMP-42279)
-* Files downloaded with a Transfer File activity will now be deleted after X days, where X is determined by the **History in days** field under the **Execution** menu in the Workflow properties. [Read more](../../automating/using/executing-a-workflow.md#workflow-properties)
+* Files downloaded with a Transfer File activity will now be deleted after X days, where X is determined by the **History in days** field under the **Execution** menu in the Workflow properties. [Read more](../../automating/using/managing-execution-options.md)
 
 **Experience Platform integrations**
 
@@ -113,3 +120,6 @@ snippet: y
 * Fixed an issue which caused data discrepancy when using personalization in transactional emails. (CAMP-41842)
 * Fixed issues which occurred when deleting custom fields in push notification deliveries. (CAMP-37586)
 * Fixed an error which prevented users from making changes to reports. (CAMP-42505)
+
+
+![](assets/do-not-localize/cp-icon.png) **New Control Panel May release** with Certificate renewal for CNAME subdomains. [Learn more](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).

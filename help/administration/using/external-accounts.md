@@ -79,7 +79,7 @@ To avoid such problems, Adobe recommends to follow the best practices below:
 * Occasionally, log-in to SFTP to directly check what is lying there.
 * Remember that SFTP disk management is primarily your responsibility.
 
-Also, note that the public IPs from which you are trying to initiate the SFTP connection must be whitelisted on the Campaign instance. Whitelisting of IP addresses can be requested via a [support ticket](https://support.neolane.net), along with providing the public key to use for authentication.
+Also, note that the public IPs from which you are trying to initiate the SFTP connection must be added to the allow list on the Campaign instance. Adding IP addresses to the allow list can be requested via a [support ticket](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html), along with providing the public key to use for authentication.
 
 SFTP servers can be managed from the Control Panel. For more information, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/sftp-management/about-sftp-management.html).
 
@@ -126,7 +126,12 @@ Process and requirements related to this integration are available in [this docu
 
 As you are setting up this new external account, you need to provide the following details:
 
-* Server: enter the URL of the Adobe Experience Manager server. For example, **http://aem.domain.com:4502**.
+* Server: enter the URL of the Adobe Experience Manager server. For example:
+
+  ```
+  http://aem.domain.com:4502
+  ```
+
 * AEM account credentials: use the account that will access the Adobe Experience Manager instance. It should be an account part of the campaign-remote group in Experience Manager.
 
 ## Google reCAPTCHA external account {#google-recaptcha-external-account}
@@ -156,7 +161,7 @@ For a Google reCAPTCHA V3 external account, provide the following details:
 >
 >Information needed to configure your external account in Adobe Campaign Standard can be found in the Azure Portal by selecting **[!UICONTROL Settings]** > **[!UICONTROL Access keys]**.
 
-The Azure Blob storage connector can be used to import or export data to Adobe Campaign using a **[!UICONTROLTransfer file]** workflow activity. For more on this, refer to this [section](../../automating/using/transfer-file.md#azure-blob-configuration-wf).
+The Azure Blob storage connector can be used to import or export data to Adobe Campaign using a **[!UICONTROL Transfer file]** workflow activity. For more on this, refer to this [section](../../automating/using/transfer-file.md#azure-blob-configuration-wf).
 
 For a Microsoft Azure Blob storage external account, provide the following details:
 

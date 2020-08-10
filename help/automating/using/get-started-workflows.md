@@ -22,7 +22,7 @@ snippet: y
 <td><img src="assets/do-not-localize/icon_manage.svg" width="60px"><p><a href="#import-export-data">Import/export data</a></p></td></tr>
 </table>
 
-Adobe Campaign offers a comprehensive graphical environment that allows you to design complex processes including segmentation, campaign execution, file processing, approvals, etc. For example, you can use a workflow to download a file from a server, decompress it, and then import its records into the Adobe Campaign database.
+Adobe Campaign offers a comprehensive graphical environment that allows you to design complex processes including segmentation, campaign execution, file processing, etc. For example, you can use a workflow to download a file from a server, decompress it, and then import its records into the Adobe Campaign database.
 
 A workflow can also involve users by assigning them tasks or having them approve performed tasks. This means you can assign a task to one or several users to work on content or specify targets, and approve proofs before sending the message.
 
@@ -48,7 +48,7 @@ Finally, [Data management activities](../../automating/using/about-data-manageme
 Read more:
 
 * [Building a workflow](../../automating/using/building-a-workflow.md)
-* [Executing a workflow](../../automating/using/executing-a-workflow.md)
+* [Executing a workflow](../../automating/using/about-workflow-execution.md)
 * [Workflow best practices](../../automating/using/best-practices-workflows.md)
 
 ## Filter data {#filter-data}
@@ -83,8 +83,7 @@ Finally, [Exporting lists](../../automating/using/exporting-lists.md) allow you 
 
 Read more:
 
-* [Importing data](../../automating/using/importing-data.md)
-* [Using workflow data](../../automating/using/using-workflow-data.md)
+* [Importing and exporting data](../../automating/using/about-data-import-and-export.md)
 * [Use case: Exporting / importing custom resources](../../automating/using/exporting-importing-custom-resources.md)
 
 ## Additional resources

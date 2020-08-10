@@ -1,6 +1,6 @@
 ---
-title: "Workflow use-case: Creating deliveries on the creation date of the profile"
-description: "Workflow use-case: Creating deliveries on the creation date of the profile"
+title: Creating deliveries on the creation date of the profile
+description: This use case shows how to create deliveries on the creation date of the profile.
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Workflow use case: Create deliveries on profiles' creation date {#creation-date-query}
+# Creating deliveries on profiles' creation date {#creation-date-query}
 
 You can send an offer via email on the anniversary of the customer's profile creation.
 
@@ -24,7 +24,7 @@ You can send an offer via email on the anniversary of the customer's profile cre
 
 ## Creating a Scheduler activity {#creating-a-scheduler-activity}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, drag and drop a **[!UICONTROL Scheduler activity]**.
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, drag and drop a [Scheduler](../../automating/using/scheduler.md) activity.
 1. Double-click the activity.
 1. Configure the execution of your delivery.
 1. In **[!UICONTROL Execution frequency]**, select **[!UICONTROL Daily]**.
@@ -40,7 +40,7 @@ You can send an offer via email on the anniversary of the customer's profile cre
 
 ## Creating a Query activity {#creating-a-query-activity}
 
-1. To select recipients, drag and drop a **[!UICONTROL Query activity]** and double-click it.
+1. To select recipients, drag and drop a [Query](../../automating/using/query.md) activity and double-click it.
 1. Add **[!UICONTROL Profiles]** and select **[!UICONTROL no longer contact by email]** with the value **[!UICONTROL no]**.
 
 ### Retriving profiles created on the same day as the day of execution {#retriving-profiles-created-on-the-same-day}
@@ -84,7 +84,7 @@ The final query displays:
 
 ## Creating an Email delivery{#creating-an-email-delivery}
 
-1. Drag and drop an email delivery.
+1. Drag and drop an [Email delivery](../../automating/using/email-delivery.md) activity.
 1. Click the activity and select ![](assets/edit_darkgrey-24px.png) to edit.
 1. Select **[!UICONTROL Recurring email]** and click **[!UICONTROL Next]**.
 1. Select an email template and click **[!UICONTROL Next]**.
@@ -98,7 +98,4 @@ For more information, refer to [designing an email](../../designing/using/design
 
 **Related topics:**
 
-* [Query](../../automating/using/query.md)
-* [Scheduler](../../automating/using/scheduler.md)
-* [Email delivery](../../automating/using/email-delivery.md)
 * [Email channel](../../channels/using/creating-an-email.md)
