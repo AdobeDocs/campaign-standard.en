@@ -18,58 +18,33 @@ snippet: y
 
 There are several jobs that this integration performs:
 
-* **Contact sync**: Contacts are sent from Dynamics 365 to Campaign (note: one-way sync).
-* **Custom entity sync**: Custom entity records are sent from Dynamics 365 to Campaign (note one-way sync).  See the page on custom entities for more information.
-* **Event display**: Certain email marketing events are sent from Campaign to Dynamics 365. See Note below.
-* **Contact deletion**: Campaign profile is added to privacy related delete queue when corresponding Contact is deleted in Dynamics 365. 
-* **Opt-Out sync**: Opt-outs are synchronized between Dynamics 365 and Campaign depending on the configuration that customer selects during onboarding (i.e., Dynamics 365 to Campaign sync, Campaign to Dynamics 365 sync, or bi-directional sync).
-* **Single Sign On (SSO)**: Your integration details in Unifi can be accessed directly from Campaign, using your Adobe IMS authentication.
+* **Ingress**:
 
->[!NOTE]
->
->For **Event display**, a maximum of 10k events will be retrieved each time the egress job runs in Unifi.
+    * Bring in **contacts** from Dynamics 365 into Campaign
+
+    * **Custom entities**: Bring in custom tables from Dynamics 365 to Campaign
+
+* **Egress**: Bring in email marketing events from ACS to D365 (email send, open, click, bounce)
+
+* **Opt-out**: Bi-directionally sync opt-out status (e.g., blockList)
+
+More details on the data flows can be found [in this section](#data-flows).
 
 ## Adobe Campaign Standard User Experience
 
-When a contact is created new or modified in Dynamics 365, it will be synchronized over to Campaign after Contacts sync has run.  These contacts will be visible in the Profiles screen in Campaign and can be targeted in marketing campaigns.  See the Profiles screen below.
+When a contact is created or modified (or deleted, if enabled) in Dynamics 365, it will be sent over to Campaign.  These contacts will be visible in the Profiles screen in Campaign and can be targeted in marketing campaigns.  See the Profiles screen below.
 
 ![](assets/MSdynamicsACS-usage1.png)
-
-When a contact is deleted in Dynamics 365, the corresponding profile in Campaign is added to the privacy service delete queue in the Privacy Request screen in Campaign.  For more details on executing data subject delete requests as required to comply with applicable data privacy laws in Campaign, please refer to How to execute legally mandated delete requests in Adobe Campaign Standard.
-
-![](assets/MSdynamicsACS-usage2.png)
 
 It is important to note that, if you have the 2-step process activated in the properties screen, you will need to manually confirm the deletion of each record in the Privacy Screen before they are finally deleted.  See the 2-step process screen below:
 
 ![](assets/MSdynamicsACS-usage3.png)
 
-When an opt-out/blacklist attribute is modified in Campaign, it will be reflected in Dynamics 365 if you’ve selected the Campaign-to-Dynamics 365 or bi-directional opt-out configuration, and if you have that particular attribute mapped correctly.
-
-To access your integration details via single sign on, go to Campaign Navigation menu and click Administration > Microsoft Dynamics 365 Integration. 
-
-![](assets/sso_d365_admin_panel.png)
-
-This page contains links to documentation on the integration and guidelines on how to use the features in accordance with your potential legal obligations. Click on the globe icon, which will automatically route and log you into your Unifi instance where you can manage your integration details.
-
-You can see a video of this functionality in the below video.
-
->[!VIDEO](https://video.tv.adobe.com/v/29254)
-
->[!NOTE]
->
->You will need to submit a ticket to Adobe Customer Care (either directly or through your Adobe contact) to have the single-sign-on feature flag enabled in your Campaign instance.
-
-![](assets/sso_screen.png)
-
->[!NOTE]
->
->You will not see the Microsoft Dynamics 365 Integration icon in your  admin panel out-of-the-box.  You (or your Adobe contact) will need to submit a ticket to have this feature flag enabled for your Campaign instance.
->
->Also, Unifi will need to enable users for SSO access before they can successfully log on via SSO from Campaign.
+When an opt-out attribute is modified in Campaign, it will be reflected in Dynamics 365 if you’ve selected the Campaign-to-Dynamics 365 or bi-directional opt-out configuration, and if you have that particular attribute mapped correctly.
 
 ## Microsoft Dynamics 365 User Experience
 
-For events display, the following email marketing events are sent from Campaign to Dynamics 365 and displayed in the Dynamics 365 Timeline view as custom activities:
+For egress, the following email marketing events are sent from Campaign to Dynamics 365 and displayed in the Dynamics 365 Timeline view as custom activities:
 
 * Adobe Campaign Email Send
 
@@ -111,7 +86,7 @@ The following is a list of the attributes and a description:
 
 * Owner: The application user that is created in the post-provisioning steps
 
-* Regarding: The name of the Contact
+* Regarding: The name of the contact
 
 * Campaign Name: The Campaign ID in Campaign Standard
 
@@ -131,9 +106,68 @@ You can see a video of the mirror page URL being used in the below video.
 >
 >For opt-out, when an opt-out attribute is modified in Dynamics 365, it will be reflected in Campaign if you’ve selected the Dynamics 365-to-Campaign or bi-directional opt-out configuration, and if you have that particular attribute mapped correctly.
 
-**Related Topics**
+## Data Flows {#data-flows}
 
-* Configure Campaign for Campaign/Dynamics 365 integration
-* Configure Dynamics for Campaign/Dynamics 365 integration
-* Configure Unifi for Campaign/Dynamics 365 integration
-* Learn how to map custom resources and custom entities
+### Contact and custom entity Ingress
+
+New and updated (and deleted, if enabled) records are sent from the Dynamics 365 contact table to the Campaign profile table.
+
+Table mappings can be configured to map Dynamics 365 table attributes to Campaign table attributes. The table mappings can be modified to add/remove attributes, as needed.
+
+The initial run of the data flow is designed to transfer all mapped records, including those marked as “inactive”; subsequently, the integration will only process incremental updates. The exception to this is if a filter is configured; basic, attribute-based, filtering rules can be configured to determine which records to sync to Campaign.
+
+Basic replacement rules can be configured to replace an attribute value with a different value (e.g., “green” for “#00FF00”, “F” for 1, etc.).
+
+Depending on the volume of records, your Campaign SFTP storage may need to be utilized for the initial data transfer.  See section on “Initial Data Transfer.”
+
+The Campaign profile table attribute externalId must be populated with the Dynamics 365 contact attribute contactId in order for contact ingress to work. Campaign custom entities must also be populated with a Dynamics 365 unique ID attribute; however, this attribute can be stored in any Campaign custom entity attribute (i.e., doesn’t have to be externalId).
+
+>[!NOTE]
+>
+>For custom entity ingress, change tracking must be enabled within Dynamics 365 for synchronized custom entities.
+
+### Email Marketing Event Flow
+
+Email marketing events are sent from Campaign to Dynamics 365 to appear in the Timeline view.
+
+Supported marketing event types:
+* Send – email sent to recipient
+* Open – email opened by recipient
+* Click – URL within email clicked by recipient
+* Bounce – email to recipient experienced a hard bounce
+
+The following event attributes are displayed within D365:
+* Marketing campaign name
+* Email delivery name
+* Timestamp
+* Email mirror page URL
+* URL clicked (click events only)
+
+Email Marketing Event flow can be configured to filter out one or more event types so that events of those types are not passed to Dynamics 365.
+
+### Opt-Out Flow
+
+Opt-out (e.g., blockList) values are synchronized between systems; you have the following options to choose from when onboarding:
+* Dynamics 365 is source of truth for opt-outs: opt-out attributes will be synchronized in one direction from Dynamics 365 to Campaign Standard
+* Campaign Standard is the source of truth for opt-outs: opt-out attributes will be synchronized in one direction from Campaign Standard to Dynamics 365
+* Dynamics 365 AND Campaign Standard are both sources of truth: opt-out attributes will be synchronized bidirectionally between Campaign Standard and Dynamics 365
+
+Alternatively, if you have a separate process to manage opt-out synchronization between the systems, the integration's opt-out data flow can be disabled.
+
+Opt-out flow mapping is to be specified by the customer since business requirements can differ between companies.  On the Campaign side, only the OOTB opt-out attributes can be used for opt-out mapping:
+* blockList
+* blockListEmail
+* blockListFax
+* blockListMobile
+* blockListPhone
+* blockListPostalMail
+* blockListPushnotification
+* ccpaOptOut
+
+In Dynamics 365, most opt-out fields have the “donot” prefix; however, you can also utilize other attributes for opt-out purposes if the data-types are compatible.
+
+### Initial data transfer
+
+Dynamics 365 tables over 500k records will need to be exported to your Campaign SFTP storage to be imported via Campaign workflow. 
+
+The initial data transfer is a one-time, file-based transfer of data. After the data transfer, the integration will use APIs for the incremental updates.

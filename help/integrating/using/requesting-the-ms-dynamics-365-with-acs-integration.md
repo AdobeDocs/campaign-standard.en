@@ -18,54 +18,27 @@ snippet: y
 
 In order to provision this integration, you will need to follow the steps below.
 
-Please note that this integration uses a third-party provider, Unifi.  In connection with your requests for support assistance, Adobe may be required to share your Adobe Campaign instance information with Unifi.
-
 Please follow the flowchart and flowchart details below to request and configure the integration.
 
 ![](assets/provisioning-wf.png)
 
 Flowchart Details (maps to steps above):
 
-1. You must already have Campaign Standard and Microsoft Dynamics 365 provisioned, with admin access to start implementing this integration.
+* **Step 1** - It is assumed that you already have, or are in the process of procuring, a license for Microsoft Dynamics 365 for Sales and for Adobe Campaign Standard.
 
-1. Read this article, check notices and configuration steps.
+* **Step 2** - The standard integration offering is free* to all customers.
 
-1. Send an account request to adobe-support@unifisoftware.com; Unifi will require the following information when you request an account:
-    * User First Name
-    * User Last Name
-    * User Email
-    * Company Name
-    * Region (North America, EMEA or APAC)
-    * Usage Type:  Customer Type (customer users that will be using their production data in this integration), or Partner Type (partner consultants that are testing out the integration to get a better understanding so that they can help their Campaign customers) or Internal Type (Adobe internal users that are testing out the integration to get a better understanding of the solution)
-    * Campaign Standard data status (starting with clean database or bringing existing data to integration)
-    * Campaign Tenant ID (see Configure Campaign integration section step 3 to get your Tenant ID)
-    * Campaign Instance URL
+    * You will need to sign a zero-dollar contract to take advantage of the integration
 
-    Unifi expected response time: 1 hour during regular U.S. business hours (9am to 5pm Pacific Time, Mon - Fri, excluding holidays).
+    * Additional costs may apply depending on your requirements (see “Guardrails and Product Boundaries” section)
 
-1. Complete post-provisoning steps for Microsoft Dynamics 365 and for Campaign Standard. 
-    Additionally, submit a ticket to Adobe Customer Care (either directly or through your Adobe contact) to have the single-sign-on feature flag enabled in your Campaign instance. Partners should reach out to their Adobe partner sandbox rep, instead contacting Adobe Customer Care, to enable the feature flag.
-    If you have existing data in Campaign that you plan to incorporate into the integration, then follow the guidance in "Existing Campaign Data" and consult closely with your Adobe technical contact before proceeding.
+* **Step 3** - Complete pre-integration steps for Dynamics 365 and Campaign (see section below).
 
-1. Complete initial onboarding steps in Unifi by navigating to Unifi, clicking through onboarding screens, filling in Dynamics 365 and Campaign Standard account credentials, and notifying Unifi when completed.
-
-1. Unifi will ask the customer for their desired opt-out configuration and opt-out attribute mapping.
-
-1. The customer will indicate the selected opt-out configuration and opt-out attribute mapping.
-Unifi expected response time: 1 business day (Mon - Fri, excluding holidays)
-
-1. Configuring Unifi involves reviewing OOTB mappings, filters, jobs, etc. and making modifications, if necessary.  See the Unifi User Guide for details.
-This step involves setting the run frequency of the Unifi schedules
-* Set the run frequency of the schedules in the schedules screen in Unifi; however, for “ingress” and "egress" schedules, run these manually once before setting the schedule frequency
-* The following schedule frequencies are recommended: Ingress (15 minutes), Egress (15 minutes), Deletes (Once a day), Opt-Outs (Once a day)
-
-**It is recommended that you work with Unifi and/or Adobe consulting (contact your Adobe account team) when configuring Unifi.**
-
-To enable the integration between Adobe Campaign Standard and Microsoft Dynamics 365, customers must create a user account with Unifi, a third party provider, as described in this document.   As an end user of the Unifi system, for any inquiries related to data requests initiated by customer within the Unifi system, customer should contact Unifi.
+* **Steps 4-7** - The Adobe onboarding team will work closely with you through the onboarding process.
 
 ## Configuring this integration
 
-Three systems need to be provisioned and configured for this integration: Adobe Campaign Standard, Microsoft Dynamics 365 for Sales and Unifi. Configuration articles are linked below.
+Three systems need to be provisioned and configured for this integration: Adobe Campaign Standard, Microsoft Dynamics 365 for Sales and the integration tool. Configuration articles are linked below.
 
 >[!CAUTION]
 >
@@ -73,18 +46,29 @@ Three systems need to be provisioned and configured for this integration: Adobe 
 >
 >Steps in the articles below will guide you through creating integrations/registrations that involve assigning permissions and/or admin access.  It is your responsibility to ensure these steps comply with your company policies before performing, and to perform them carefully.
 
-In ADOBE CAMPAIGN, you need to set up API access and configure a new integration for Unifi. To achieve this, refer to [this article](../../integrating/using/configure-adobe-io-for-ms-dynamic.md).
+In ADOBE CAMPAIGN, you need to set up API access and configure a new integration for the integration tool. To achieve this, refer to [this article](../../integrating/using/configure-adobe-io-for-ms-dynamic.md).
 
 In MICROSOFT DYNAMICS 365, you need to create a new app registration and enable an application user to use the integration.  To configure Microsoft Dynamics 365 for this integration, refer to [this article](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md).
 
-In UNIFI, you need to setup integration and configure mapping or add custom attributes. To configure Unifi for this integration, refer to [this article](../../integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md).
+In the integration tool, you need to set up the configuration for ingress, egress, and opt-out data flows. To configure the integration tool, refer to [this article](../../integrating/using/configure-integration-tool-for-microsoft-dynamics-365-integration.md).
+
+>[!NOTE]
+>
+>Until the UI for the self-service tool is available later this year, the onboarding team will assist you in configuring the integration. 
 
 ## Requesting support 
 
-If you run into issues, please reach out to Unifi customer support: [support@unifisoftware.atlassian.net](mailto:support@unifisoftware.atlassian.net). 
+Support tickets can be logged with Adobe Custom Care, as usual; Customer Care will bring in support personnel, as needed.
 
-Unifi expected response time: 4 hours during regular U.S. business hours (9am to 5pm Pacific Time, Mon - Fri, excluding holidays).
+For any issues with integration data flows, make sure to include the report suite as part of the issue description as well as the following information:
 
->[!CAUTION]
->
->In connection with your request for support assistance, Adobe may be required to share your Adobe Campaign instance information with Unifi.
+* Process Owner: Engineering Architects
+
+* ES Process ID: 
+
+* Process Title: 
+
+Issue Description: [Description of the issue]
+
+
+Integration support is currently 24/5 (24-hours, Monday through Friday, excluding holidays), unless there is as a system-wide issue, which will be covered 24/7.
