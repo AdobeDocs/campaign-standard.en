@@ -16,7 +16,7 @@ snippet: y
 
 # About Microsoft Dynamics 365 integration
 
-## Support Software Versions 
+## Support Software Versions {#support-software-versions}
 
 This integration requires the following software versions:
 
@@ -92,11 +92,11 @@ The bidirectional opt-out configuration feature is currently not able to support
 
 Your Campaign SFTP storage will need to be utilized by the integration in the use cases below.  You will need to ensure that your SFTP account has adequate storage capacity to accommodate these use cases.  Exceeding the licensed SFTP storage capacity may severely impair the functional use of Campaign, the integration and/or the SFTP account.
 
-| Use case               | Description                                                                                                                                                                                          |
-|------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Initial Data Load      | Dynamics 365 tables over 500k records will need to be exported to the Campaign SFTP storage to be imported via workflow. From that point on, the integration will use APIs for incremental updates.  |
+| Use case | Description |
+|---|---|
+| Initial Data Load | Dynamics 365 tables over 500k records will need to be exported to the Campaign SFTP storage to be imported via workflow. From that point on, the integration will use APIs for incremental updates. |
 | Bi-directional opt-out | Bi-directional opt-out will utilize the Campaign SFTP storage. An ACS workflow will export incremental changes to the SFTP folder. From there, the integration will pick up the records and process. |
-| Disaster recovery      | In the unlikely event of a system disaster, the “Initial Data Load” use case will be followed to feed the incremental updates to Campaign that were missed.    
+| Disaster recovery |  In the unlikely event of a system disaster, the “Initial Data Load” use case will be followed to feed the incremental updates to Campaign that were missed. |
 
 
 ## Existing Campaign data

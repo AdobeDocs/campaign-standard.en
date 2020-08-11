@@ -1,4 +1,4 @@
-----
+---
 title: Configure Adobe IO for Microsoft Dynamics 365 integration
 description: Learn how to configure Adobe IO for Microsoft Dynamics 365 integration.
 page-status-flag: never-activated
