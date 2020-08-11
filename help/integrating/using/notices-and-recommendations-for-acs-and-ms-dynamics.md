@@ -85,8 +85,6 @@ The bidirectional opt-out configuration feature is currently not able to support
 >[!NOTE]
 >
 >It is recommended that, if your company doesn’t require bidirectional opt-out support, that you select a one-direction opt-out option.
-
->[!NOTE]
 >
 >Please review and, if appropriate, update the default and specific typology rules in Adobe Campaign before making changes here to ensure that such changes are correctly applied to all outgoing communications. For example, please be sure that any mappings to opt-out preferences accurately reflect the intent/communication choices of the recipient and do not inadvertently discontinue the delivery of relationship or transactional messages such as customer order confirmations.
 
@@ -98,8 +96,7 @@ Your Campaign SFTP storage will need to be utilized by the integration in the us
 |------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Initial Data Load      | Dynamics 365 tables over 500k records will need to be exported to the Campaign SFTP storage to be imported via workflow. From that point on, the integration will use APIs for incremental updates.  |
 | Bi-directional opt-out | Bi-directional opt-out will utilize the Campaign SFTP storage. An ACS workflow will export incremental changes to the SFTP folder. From there, the integration will pick up the records and process. |
-| Disaster recovery      |  In the unlikely event of a system disaster, the “Initial Data Load” use case will be followed to feed the incremental updates to Campaign that were missed.    
-
+| Disaster recovery      | In the unlikely event of a system disaster, the “Initial Data Load” use case will be followed to feed the incremental updates to Campaign that were missed.    
 
 
 ## Existing Campaign data

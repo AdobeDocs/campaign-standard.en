@@ -26,11 +26,15 @@ Three systems that need to be provisioned for this integration:
 
 1. Adobe Campaign Standard - [Learn more](../../integrating/using/configure-adobe-io-for-ms-dynamic.md)
 1. Microsoft Dynamics 365 for Sales - Described below
-1. Integration tool - [Learn more](../../integrating/using/configuration-tool-for-microsoft-dynamics-365-integration.md)
+1. Integration tool - owned by Adobe Consulting team
 
 Once provisioned, these systems need to be configured by an Administrator.
 
 This article highlights the steps, on the Microsoft Dynamics 365 side, required during pre-configuration setup to enable a customer to use the Adobe Campaign Standard - Microsoft Dynamics 365 integration. 
+
+>[!NOTE]
+>
+>Until the UI for the self-service tool is available later this year, the onboarding team will assist you in configuring the integration. 
 
 ## Prerequisites
 
@@ -81,7 +85,6 @@ Your client secret is now created.  Retain the value for completion of the integ
 >
 >Keep this value as you will need it to complete the integration tool pre-configuration setup. It cannot be retrieved afterwards.
 
-For more information about generating a client secret, refer to this section.
 
 ### Setup permissions
 

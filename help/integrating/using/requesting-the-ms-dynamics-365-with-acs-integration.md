@@ -50,7 +50,7 @@ In ADOBE CAMPAIGN, you need to set up API access and configure a new integration
 
 In MICROSOFT DYNAMICS 365, you need to create a new app registration and enable an application user to use the integration.  To configure Microsoft Dynamics 365 for this integration, refer to [this article](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md).
 
-In the integration tool, you need to set up the configuration for ingress, egress, and opt-out data flows. To configure the integration tool, refer to [this article](../../integrating/using/configure-integration-tool-for-microsoft-dynamics-365-integration.md).
+In the integration tool, you need to set up the configuration for ingress, egress, and opt-out data flows. 
 
 >[!NOTE]
 >
