@@ -18,9 +18,11 @@ snippet: y
 
 Activate your CRM data on cross-channel communication: learn how to pass on contacts from Microsoft Dynamics 365 to Adobe Campaign, and share campaign performance data (sends, opens, clicks, and bounces) back from Adobe Campaign to Microsoft Dynamics 365.
 
->[!NOTE]
+Supported versions are listed [in this page](../../integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md#support-software-versions)
+
+>[!CAUTION]
 >
->The Microsoft Dynamics 365 / Adobe Campaign Standard integration supports the **Microsoft Dynamics 365 Sales app** only.
+>This capability is not available out of the box as part of the product. The implementation requires Adobe Consulting to be engaged. Please reach out to your Adobe representative to find out more.
 
 ## Principles
 
