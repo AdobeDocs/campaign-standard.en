@@ -232,7 +232,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Get Started with Dynamics 365 integration](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
        + [Notice and recommendations](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
        + [Request the integration](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
-       + [Configure Adobe I/O](integrating/using/configure-adobe-io-for-ms-dynamics.md)
+       + [Configure Adobe I/O](integrating/using/configure-adobe-io-for-ms-dynamic.md)
        + [Configure Dynamics 365 for Campaign integration](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
        + [Use the Dynamics 365 integration](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
        + [Integration guardrails](integrating/using/ms-dynamics-365-integration-guardrails.md)
