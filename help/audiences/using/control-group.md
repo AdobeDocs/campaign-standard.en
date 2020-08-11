@@ -22,13 +22,79 @@ To do this in Adobe Campaign Standard, you can create a control group when defin
 
 ## Overview {#overview}
 
-There are two ways you can define a control group:
-* Extracting part of your target based on a sorting that you define. To do this, use the **[!UICONTROL Target extraction]** option.
+The control group can be extracted from the main target and/or come from a specific group or query?
+
+There are two main ways you can define a control group:
+* Extracting part of your target (percentage or fixed number), randomly or based on a sorting. To do this, use the **[!UICONTROL Target extraction]** option.
 * Excluding some profiles based on criteria that you define. To do this, use the **[!UICONTROL Target exclusion]** option.
 
 You can use a combination of the two. All profiles that are extracted and excluded will be removed from the main target and will not receive the delivery.
 
-## Creating a control group {#creating-a-control-group}
+There are four options to define a control group:
+* Select a percentage of the population, randomly or based on a sorting. See 
+* Select a fixed number of profiles to exclude, randomly or based on a sorting. See 
+* Select a pre-defined audience.
+* Select profiles based on a query.
+
+<!--You can define a control group at the delivery level or in a workflow.
+Can you define it at the campaign level? If so, how?
+Can you define it for anything else?
+Can you reuse a control group in a delivery, a workflow, a campaign, something else?
+Can you use a control group for all channels? email, SMS, direct mail-->
+
+## Percentage of the population
+
+Select a percentage of the population, randomly or based on a sorting.
+
+To do this:
+1. Under the **[!UICONTROL Target extraction]** section, do either one of the following:
+    
+    * Select **[!UICONTROL Random sampling]**.
+    * Or select **[!UICONTROL Keep only the first records after sorting]** and define an expression
+    
+1. Select **[!UICONTROL Size (as a % of the initial population)]**.
+1. Fill in the **[!UICONTROL Size (as a % of the population)]** frame.
+
+## Fixed number of profiles
+
+Select a fixed number of profiles to exclude, randomly or based on a sorting.
+
+To do this:
+1. Under the **[!UICONTROL Target extraction]** section, do either one of the following:
+
+    * Select **[!UICONTROL Random sampling]**.
+    * Or select **[!UICONTROL Keep only the first records after sorting]** and define an expression.
+
+1. Select **[!UICONTROL Maximum size]** and fill in the corresponding frame.
+
+## Audience
+
+Select a pre-defined audience.
+
+To do this:
+
+1. Under the **[!UICONTROL Target extraction]** section, select **[!UICONTROL No extraction]**.
+1. From the **[!UICONTROL Target exclusion]** section, click the **[!UICONTROL Define target exclusion button]**
+1. Select an audience.
+
+>[!NOTE]
+>
+>For more on creating an audience, see [this section](../../audiences/using/creating-audiences.md).
+>For more on audiences, see [this section](../../audiences/using/about-audiences.md).
+
+## Based on a query
+
+Select profiles based on a query.
+
+To do this:
+
+1. Under the **[!UICONTROL Target extraction]** section, select **[!UICONTROL No extraction]**.
+1. From the **[!UICONTROL Target exclusion]** section, click the **[!UICONTROL Define target exclusion button]**
+1. Define a query.
+
+The profiles matching the query criteria will be excluded from the target. For more on using the query editor, see the [Editing queries](automating/using/editing-queries.md) section.
+
+## Example {#creating-a-control-group}
 
 1. Create a delivery. For more on this, see [Creating a marketing activity](../../start/using/marketing-activities.md#creating-a-marketing-activity) section.
 1. Define the target of your message. For more on this, see [About profiles](../../audiences/using/about-profiles.md).
@@ -79,7 +145,7 @@ The control group will be excluded from the delivery.
 >As dynamic reporting is based on the delivery dimension, no report is available to analyze the control group that is excluded.
 
 <!--As Dynamic Reporting are based on Delivery dimension, we cannot analyze what is excluded. We won’t change this behavior and this is the reason why Dynamic Reporting cannot help us here.
-Also, we won’t build dedicated report for this.-->
+Also, we won’t build dedicated report for this.
 
 ## Reusing the same control group {#reusing-same-control-group}
 
@@ -87,4 +153,4 @@ The example above enables to create a global control group, as this is stored as
 
 Consequently, next time you want to use the same control group, you can segment on the new “Control group” field rather than doing a random segmentation.
 
-Can you do this?
+Can you do this?-->
