@@ -1,6 +1,6 @@
 ---
-title: "Adding a control group when sending a message with Adobe Campaign Standard"
-description: "Learn how to add a control group when defining the target of a message using Adobe Campaign Standard."
+title: Adding a control group when sending a message
+description: Learn how to add a control group when defining the target of a message using Adobe Campaign Standard.
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
