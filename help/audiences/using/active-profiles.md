@@ -22,7 +22,7 @@ Adobe Campaign provides a report that displays the number of active profiles. Th
 
 The **[!UICONTROL Billing]** technical workflow generates every month a report containing the number of active profiles that were targeted during the last 12-month rolling period.
 
-The profiles that were excluded during delivery preparation (typology rules, quarantines) are not taken into account. A profile that has been targeted by several deliveries will only be counted once. At the bottom of the report, you will find the list of active profiles for each targeting dimension.
+The profiles that were excluded during delivery preparation (typology rules, quarantines, control groups) are not taken into account. A profile that has been targeted by several deliveries will only be counted once. At the bottom of the report, you will find the list of active profiles for each targeting dimension.
 
 ![](assets/audience_active_profiles2.png)
 

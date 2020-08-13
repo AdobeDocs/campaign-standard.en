@@ -1,6 +1,6 @@
 ---
-title: "Workflow use-case: Control group"
-description: "Workflow use-case: Control group"
+title: "Adding a control group when sending a message with Adobe Campaign Standard"
+description: "Learn how to add a control group when defining the target of a message using Adobe Campaign Standard."
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -14,13 +14,16 @@ internal: n
 snippet: y
 ---
 
-# Defining a control group {#defining-control-group}
+# Adding a control group {#defining-control-group}
 
 To measure the impact of a delivery, you may want to withdraw some profiles from your target so that they will not receive a given message.
 
-<img src="assets/do-not-localize/icon_concepts.svg" width="60px">
-
-To do this in Adobe Campaign, you can create a **control group** when defining the target of your delivery.
+<table>
+<tr>
+<td><img src="assets/do-not-localize/icon_concepts.svg" width="60px"></td>
+<td><p>To do this in Adobe Campaign, you can create a <b>control group</b> when defining the target of your delivery.</p></td>
+</tr>
+</table>
 
 This will enable you to make a comparison with the behavior of the target population which did receive the message. You can also use the sending logs in other campaigns.
 
@@ -143,7 +146,9 @@ The profiles that were extracted from the target (the 100 oldest profiles) and t
 
 ## Using the logs {#using-logs}
 
-Check the **[!UICONTROL Sending logs]**. You can see the extracted and excluded profiles with the **[!UICONTROL Ignored]** status and **[!UICONTROL Control group]** as the reason of failure.
+Check the **[!UICONTROL Sending logs]**. For more on the delivery logs and how to access them, see [this section](../../sending/using/monitoring-a-delivery.md#delivery-logs).
+
+You can see the extracted and excluded profiles with the **[!UICONTROL Ignored]** status and **[!UICONTROL Control group]** as the reason of failure.
 
 ![](assets/control-group-sending-logs.png)
 
@@ -153,9 +158,14 @@ You can also check the **[!UICONTROL Exclusion causes]** tab to see the number o
 
 Now that you sent your delivery, what can you do with the control group?
 
-<img src="assets/do-not-localize/icon_concepts.svg" width="60px">
+<table>
+<tr>
+<td><img src="assets/do-not-localize/icon_concepts.svg" width="60px"></td>
+<td><p>You can extract the <b>sending logs</b> to compare how the control group that did not receive the communication reacted compared to the effective target.</p></td>
+</tr>
+</table>
 
-You can extract the sending logs to compare how the control group that did not receive the communication reacted compared to the effective target.
+
 
 You can also use the sending logs to do another targeting. To do this:
 
