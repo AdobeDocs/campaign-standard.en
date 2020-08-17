@@ -66,7 +66,7 @@ After creating a trigger event in Adobe Campaign based on an existing Adobe Expe
 
    Please note that this action will unpublish your trigger and transactional message, you will be required to republish them afterwards.
 
-   ![](assets/remarketing_11.png)
+   ![](assets/trigger_publish_4.png)
 
 1. Click **[!UICONTROL Show Trigger in Experience Cloud]** button allows you to view the trigger definition in Adobe Experience Cloud.
 
