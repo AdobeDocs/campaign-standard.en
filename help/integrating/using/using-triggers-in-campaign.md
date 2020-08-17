@@ -44,14 +44,31 @@ The steps for putting this into place are:
 
    ![](assets/remarketing_4.png)
 
-1. Click the **[!UICONTROL Publish]** button to start publishing the trigger event.
+1. You can now publish your triggers. For more on this, refer to [Publishing a trigger in Campaign](../../integrating/using/using-triggers-in-campaign.md#publishing-trigger-in-campaign).
+
+## Publishing a trigger in Campaign {#publishing-trigger-in-campaign}
+
+After creating a trigger event in Adobe Campaign based on an existing Adobe Experience Cloud trigger, you now need to publish it.
+
+1. From your previously created trigger, Click the **[!UICONTROL Publish]** button to start publishing the trigger event.
+
+   ![](assets/trigger_publish_1.png)
+
+1. You can check the progress of your trigger publication under **[!UICONTROL Publication]**.
+
+   ![](assets/trigger_publish_2.png)
+
+1. When publication is done, the following message will appear under **[!UICONTROL Publication]**.
+
+   ![](assets/trigger_publish_3.png)
+
 1. If you need to make a change in your trigger schema even after publishing your trigger event, click the **[!UICONTROL Update schema]** button to retrieve the latest changes.
 
    Please note that this action will unpublish your trigger and transactional message, you will be required to republish them afterwards.
 
    ![](assets/remarketing_11.png)
 
-The **[!UICONTROL Show Trigger in Experience Cloud]** button allows you to view the trigger definition in Adobe Experience Cloud.
+1. Click **[!UICONTROL Show Trigger in Experience Cloud]** button allows you to view the trigger definition in Adobe Experience Cloud.
 
 Once the event has been published, a transactional template linked to the new event is then automatically created. You then have to modify and publish the template that was just created. For more on this, refer to the [Editing the template](../../start/using/marketing-activity-templates.md) section.
 
