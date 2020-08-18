@@ -129,13 +129,13 @@ user-guide-title: Adobe Campaign Standard Help
   + [Get started with testing and sending](sending/using/get-started-sending-messages.md)
   + Preparing and testing messages {#preparing-and-testing-messages}
        + [Previewing deliveries](sending/using/previewing-messages.md)
-       + [Preparing the send](sending/using/preparing-the-send.md)
        + [Sending proofs](sending/using/sending-proofs.md)
        + [Testing email messages using targeted profiles](sending/using/testing-messages-using-target.md)
        + [Testing the subject line of an email](sending/using/testing-subject-line-email.md)
        + [AI-powered emails](sending/using/predictive.md)       
        + [Email rendering](sending/using/email-rendering.md)
        + [Using traps](sending/using/using-traps.md)
+       + [Preparing the send](sending/using/preparing-the-send.md)
   + Scheduling messages {#scheduling-messages}
        + [About scheduling messages](sending/using/about-scheduling-messages.md)
        + [Optimizing the sending time](sending/using/optimizing-the-sending-time.md)
