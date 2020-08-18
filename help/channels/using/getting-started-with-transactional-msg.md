@@ -14,11 +14,11 @@ internal: n
 snippet: y
 ---
 
-# Getting started with landing pages {#getting-started-with-landing-pages}
+# Getting started with transactional messaging {#getting-started-with-transactional-messaging}
 
 The main steps when creating and managing personalized transactional messages in Adobe Campaign are as follows:
 
-![](assets/lp_steps.png)
+![](assets/message-center-overview.png)
 
 In this page, you will find information on each of these steps, as well as references to the dedicated documentations for more details.
 
