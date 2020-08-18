@@ -47,7 +47,7 @@ All profiles being part of the control group at the delivery preparation stage w
 
 ## Extracting from the target population {#extraction-target-population}
 
-To define a control group, you can choose to extract a percentage or a fixed number of profiles from the target population, randomly or based on a sorting.
+To define a control group, you can choose to extract, randomly or based on a sorting, a percentage or a fixed number of profiles from the target population.
 
 ### Target extraction {#target-extraction}
 
@@ -93,7 +93,7 @@ Whether you selected **[!UICONTROL Random sampling]** or **[!UICONTROL Keep only
 
     >[!NOTE]
     >
-    >If you uncheck the **[!UICONTROL Descending sort]** option, the 50 youngest profiles will be extracted.
+    >If you uncheck the **[!UICONTROL Descending sort]** option, the 100 youngest profiles will be extracted.
 
 ## Excluding a specific population {#excluding-specific-population}
 
@@ -118,11 +118,10 @@ The profiles matching the result of the query will be excluded from the target.
 ## Example {#control-group-example}
 
 1. Create a workflow. The detailed steps to create a workflow are presented in the [Building a workflow](../../automating/using/building-a-workflow.md) section.
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, drag and drop a [Query](../../automating/using/query.md) activity.
-1. Double-click the activity to define your target. <!--For example, in **[!UICONTROL Shortcuts]**, drag and drop **[!UICONTROL Profile]**, select **[!UICONTROL Age]** with the operator **[!UICONTROL Greater than]** and type 25 in the **[!UICONTROL Value]** field.-->
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, drag and drop a [Query](../../automating/using/query.md) activity. Double-click the activity to define your target. <!--For example, in **[!UICONTROL Shortcuts]**, drag and drop **[!UICONTROL Profile]**, select **[!UICONTROL Age]** with the operator **[!UICONTROL Greater than]** and type 25 in the **[!UICONTROL Value]** field.-->
 
 1. In **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, drag and drop an [Email delivery](../../automating/using/email-delivery.md) activity after the main target segment and edit it.
-1. Double-click the **[!UICONTROL Email delivery]** activity and click the **[!UICONTROL Audience]** block from the delivery dashboard.
+1. Click the **[!UICONTROL Audience]** block from the delivery dashboard.
 
 1. Select the **[!UICONTROL Control group]** tab.
 
@@ -135,39 +134,42 @@ The profiles matching the result of the query will be excluded from the target.
 
 1. Set 100 as the maximum size. The 100 oldest profiles from your target will be extracted.
 
-1. From the **[!UICONTROL Target exclusion]** section, define the profiles that will be excluded from your target, based on the criteria of your choice using the [query editor](../../automating/using/editing-queries.md). For example, "Age is less than 20". The profiles whose age is under 20 will also be excluded.
+1. From the **[!UICONTROL Target exclusion]** section, define the profiles that will be excluded from your target, based on the criteria of your choice using the [query editor](../../automating/using/editing-queries.md). For example, "Age is less than 20".
 
     ![](assets/control-group-target-exclusion-example.png)
 
-1. Launch the delivery preparation. See [Preparing the send](../../sending/using/preparing-the-send.md).
-1. Confirm sending. See [Confirming the send](../../sending/using/confirming-the-send.md).
+    The profiles whose age is under 20 will be excluded.
 
-The profiles that were extracted from the target (the 100 oldest profiles) and the ones that were defined based on the query (profiles under 20) will be excluded from the delivery.
+1. Launch the [delivery preparation](../../sending/using/preparing-the-send.md) and [confirm the send](../../sending/using/confirming-the-send.md).
 
-## Using the logs {#using-logs}
+The profiles that were extracted (the 100 oldest profiles) and the ones that were defined based on the query (profiles under 20) will be withdrawn from the main target. They will not receive the message.
 
-Check the **[!UICONTROL Sending logs]**. For more on the delivery logs and how to access them, see [this section](../../sending/using/monitoring-a-delivery.md#delivery-logs).
-
-You can see the extracted and excluded profiles with the **[!UICONTROL Ignored]** status and **[!UICONTROL Control group]** as the reason of failure.
-
-![](assets/control-group-sending-logs.png)
-
-You can also check the **[!UICONTROL Exclusion causes]** tab to see the number of profiles excluded from the delivery.
-
-![](assets/control-group-exclusion-causes.png)
+## Delivery logs {#delivery-logs}
 
 Now that you sent your delivery, what can you do with the control group?
 
 <table>
 <tr>
 <td><img src="assets/do-not-localize/icon_concepts.svg" width="60px"></td>
-<td><p>You can extract the <b>sending logs</b> to compare how the control group that did not receive the communication reacted compared to the effective target.</p></td>
+<td><p>You can extract the <b>sending logs</b> to compare how the control group that did not receive the communication reacted compared to the effective target.<br>You can also use the delivery logs to <b>build another targeting</b>.</br></p></td>
 </tr>
 </table>
 
+### Checking the logs {#checking-logs}
 
+Check the **[!UICONTROL Delivery logs]**. For more on the delivery logs and how to access them, see [this section](../../sending/using/monitoring-a-delivery.md#delivery-logs).
 
-You can also use the sending logs to do another targeting. To do this:
+* In the **[!UICONTROL Sending logs]** tab, you can see the extracted and excluded profiles. They have the **[!UICONTROL Ignored]** status and **[!UICONTROL Control group]** as the reason of failure.
+
+    ![](assets/control-group-sending-logs.png)
+
+* You can also check the **[!UICONTROL Exclusion causes]** tab to see the number of profiles excluded from the delivery.
+
+    ![](assets/control-group-exclusion-causes.png)
+
+### Using the logs {#using-logs}
+
+To use use the delivery logs to do another targeting, follow the steps below:
 
 1. Create a workflow. The detailed steps to create a workflow are presented in the [Building a workflow](../../automating/using/building-a-workflow.md) section.
 1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, drag and drop a [Query](../../automating/using/query.md) activity.
@@ -176,14 +178,18 @@ You can also use the sending logs to do another targeting. To do this:
     ![](assets/control-group-delivery-properties.png)
 
 1. In the **[!UICONTROL Target]** tab, click **[!UICONTROL Delivery logs]**.
-1. Drag and drop **[!UICONTROL Status]** and select **[!UICONTROL Ignored]**. Click **[!UICONTROL Confirm]**.
+1. Drag and drop **[!UICONTROL Status]** and select **[!UICONTROL Ignored]**.
 
     ![](assets/control-group-status-ignored.png)
 
-1. Drag and drop **[!UICONTROL Nature of failure]** and select **[!UICONTROL Control group]**. 1. Click **[!UICONTROL Confirm]**.
+1. Click **[!UICONTROL Confirm]**.
+
+1. Still in the **[!UICONTROL Target]** tab, drag and drop **[!UICONTROL Nature of failure]** and select **[!UICONTROL Control group]**.
 
     ![](assets/control-group-nature-of-failure.png)
 
-You can now target the profiles that did not receive the message using the sending logs of your delivery.
+1. Click **[!UICONTROL Confirm]**.
 
-![](assets/control-group-delivery-target.png)
+    ![](assets/control-group-delivery-target.png)
+
+You can now target the profiles that did not receive your first message because they were part of the control group.
