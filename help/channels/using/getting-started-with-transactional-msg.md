@@ -20,8 +20,8 @@ snippet: y
 
 <table>
 <tr>
-<td><img src="assets/do-not-localize/icon_transactional.svg" width="60px"></td>
-<td><p>Transactional messaging enables you to <b>send individual and unique messages</b> to your customers in real-time.<br>It can be welcome messages, order shipping confirmations, password modification, etc.</p></td>
+<td class="noborder"><img src="assets/do-not-localize/icon_transactional.svg" width="60px"></td>
+<td class="noborder"><p>Transactional messaging enables you to <b>send individual and unique messages</b> to your customers in real-time.<br>It can be welcome messages, order shipping confirmations, password modification, etc.</p></td>
 </tr>
 </table>
 
@@ -39,12 +39,7 @@ Transactional messaging is also available from the Adobe Campaign Standard API. 
 >
 >All transactional messages are now sent with the Adobe Campaign Enhanced MTA for improved deliverability, throughput, and bounce handling. All impacts are the same as for standard marketing messages. For more on this, see this [section](../../administration/using/configuring-email-channel.md).
 
-## Transactional messaging in four questions {#transactional-messaging-operating-principle}
-
-<img src="assets/do-not-localize/icon_concepts.svg" width="60px"><br>What is a transactional message? | <img src="assets/do-not-localize/icon_transactional.svg" width="60px"><br>Why is it particularly<br>expected? | <img src="assets/do-not-localize/icon_landing.svg" width="60px"><br>Why is it important? | <img src="assets/do-not-localize/icon_channels.svg" width="60px"><br>Why should it be carefully designed? |
-|--- |--- |--- | --- |
-| It is an individual and unique communication sent to a customer in real-time. | It contains information that the recipient wants to check or confirm. | It defines the client relation. The user expects it to be sent in real time. | Transactional messages generally have high open rates. |
-| It is sent by a provider such as a website. | It could be a welcome message after creating an account for example, or a confirmation that an order has shipped, a bill, or a message confirming a password change. | Consequently, the delay between the event being triggered and the message arriving therefore has to be very short. | It is therefore important to design it carefully as it can have a strong impact on the customers behavior. |
+## Transactional messaging definition {#transactional-messaging-definition}
 
 <table>
 <tr>
@@ -52,15 +47,15 @@ Transactional messaging is also available from the Adobe Campaign Standard API. 
 <td><p>It is an individual and unique communication, sent by a provider such as a website. It is particularly expected, because it contains important information that the recipient wants to check or confirm.</p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_landing.svg" width="60px"><br><p><b>When is it due?</b></p></td>
+<td align="center"><img src="assets/do-not-localize/icon_channels.svg" width="60px"><br><p><b>When is it due?</b></p></td>
 <td><p> Because this message contains important information, the user expects it to be sent in real time. Consequently, the delay between the event being triggered and the message arriving therefore has to be very short.</p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_channels.svg" width="60px"><br><p><b>Why is it important?</b></p></td>
+<td align="center"><img src="assets/do-not-localize/icon_transactional.svg" width="60px"><br><p><b>Why is it important?</b></p></td>
 <td><p>A transactional message generally has high open rates. It should therefore be carefully designed as it can have a strong impact on the customers behavior. It defines the client relation.</p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_transactional.svg" width="60px"><br><b>For example?</b></td>
+<td align="center"><img src="assets/do-not-localize/icon_concepts.svg" width="60px"><br><b>For example?</b></td>
 <td><p>It could be a welcome message after creating an account, a confirmation that an order has shipped, a bill, a message confirming a password change...</p></td>
 </tr>
 </table>
