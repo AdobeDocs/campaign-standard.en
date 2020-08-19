@@ -16,9 +16,14 @@ snippet: y
 
 # Transactional messaging limitations {#transactional-messaging-limitations}
 
-<img src="assets/do-not-localize/icon_concepts.svg" width="60px">
+<table>
+<tr>
+<td><img src="assets/do-not-localize/icon_concepts.svg" width="60px"></td>
+<td><p>The section below lists the limitations you should be aware of before starting creating transactional messages.</p></td>
+</tr>
+</table>
 
-The section below lists the limitations you should be aware of, before starting creating transactional messages.
+For more on transactional messages, including on how to configure and create them, see [Getting started with transactional messaging](../../channels/using/getting-started-with-transactional-msg.md).
 
 >[!NOTE]
 >
@@ -36,19 +41,19 @@ As you are designing and publishing transactional messages, some of the steps yo
 
 ## Personalization {#personalization}
 
-The way you can personalize a message content depends on the type of transactional message. Specificities are listed below:
+The way you can personalize a message content depends on the type of transactional message. Specificities are listed below.
 
 ### Event-based transactional messages
 
 * The personalization information is coming from the data contained in the event itself. See [Event transactional messages](../../channels/using/event-transactional-messages.md).
-* You cannot use **Unsubscription link** content blocks in an event transactional message.
+* You **cannot** use **[!UICONTROL Unsubscription link]** content blocks in an event transactional message.
 * Event-based transactional messaging is supposed to use only the data that are in the sent event to define the recipient and the message content personalization. However, you can enrich the content of your transactional message using information from the Adobe Campaign database. See [Enriching the transactional message content](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content).
 * As event transactional messages do not contain profile information, they are not compatible with fatigue rules, even in the case of an enrichment with profiles. See [Fatigue rules](../../sending/using/fatigue-rules.md).
 
 ### Profile-based transactional messages
 
 * The personalization information can come from the data contained in the event or from the reconciled profile record. See [Profile transactional messages](../../channels/using/profile-transactional-messages.md).
-* You can use **Unsubscription link** content blocks in a profile transactional message. See [Adding a content block](../../designing/using/personalization.md#adding-a-content-block).
+* You **can** use **[!UICONTROL Unsubscription link]** content blocks in a profile transactional message. See [Adding a content block](../../designing/using/personalization.md#adding-a-content-block).
 * Fatigue rules are compatible with profile transactional messages. See [Fatigue rules](../../sending/using/fatigue-rules.md).
 
 Note that product listings are available in transactional email messages only. See [Using product listings in a transactional message](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message).

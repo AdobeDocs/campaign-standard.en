@@ -16,43 +16,24 @@ snippet: y
 
 # Getting started with transactional messaging {#getting-started-with-transactional-messaging}
 
-The main steps when creating and managing personalized transactional messages in Adobe Campaign are as follows:
-
-![](assets/message-center-overview.png)
-
-In this page, you will find information on each of these steps, as well as references to the dedicated documentations for more details.
-
-## Transactional messaging in four questions {#transactional-messaging-operating-principle}
-
-<img src="assets/do-not-localize/icon_concepts.svg" width="60px"> | <img src="assets/do-not-localize/icon_transactional.svg" width="60px"> | <img src="assets/do-not-localize/icon_landing.svg" width="60px"> | <img src="assets/do-not-localize/icon_channels.svg" width="60px"> |
-|--- |--- |--- | --- |
-| What is a transactional message? | Why is it particularly expected? | Why is it important? | Why should it be carefully designed? |
-| It is an individual and unique communication sent to a customer in real-time. | It contains information that the recipient wants to check or confirm. | It defines the client relation. The user expects it to be sent in real time. | Transactional messages generally have high open rates. |
-| It is sent by a provider such as a website. | It could be a welcome message after creating an account for example, or a confirmation that an order has shipped, a bill, or a message confirming a password change. | Consequently, the delay between the event being triggered and the message arriving therefore has to be very short. | It is therefore important to design it carefully as it can have a strong impact on the customers behavior. |
-
 ## Overview
 
-**Send individual and unique messages** to your customers in real-time: welcome messages, order shipping confirmations, password modification, etc.
+<table>
+<tr>
+<td><img src="assets/do-not-localize/icon_transactional.svg" width="60px"></td>
+<td><p>Transactional messaging enables you to <b>send individual and unique messages</b> to your customers in real-time.<br>It can be welcome messages, order shipping confirmations, password modification, etc.</p></td>
+</tr>
+</table>
 
-Transactional messages are available for the email, SMS and push notification channels, depending on your options. There are two types of messages: **event transactional messages** targeting events without profile information, and **profile transactional messages** targeting profiles from your database.
-
-Read more:
-
-* [About transactional messaging](../../channels/using/about-transactional-messaging.md)
-* [Event transactional messages](../../channels/using/event-transactional-messages.md)
-* [Profile transactional messages](../../channels/using/profile-transactional-messages.md)
-* [Transactional push notifications](../../channels/using/transactional-push-notifications.md)
-* [Follow-up messages](../../channels/using/follow-up-messages.md)
-
-Adobe Campaign allows you to integrate this functionality with an information system which sends it events that are to be transformed into custom transactional messages.
+Adobe Campaign allows you to integrate this functionality with an information system which sends events that are to be transformed into custom transactional messages.
 
 >[!NOTE]
 >
 >Transactional messages can be sent by email, SMS or push notification, depending on your options. Please check your license agreement.
-
->[!NOTE]
 >
->Adobe Campaign prioritizes processing the transactional messages over any other delivery.
+>Adobe Campaign prioritizes processing transactional messages over any other delivery.
+
+There are two types of messages: **event transactional messages** targeting events without profile information, and **profile transactional messages** targeting profiles from your database.
 
 Transactional messaging is also available from the Adobe Campaign Standard API. For more on this, refer to the [dedicated documentation](../../api/using/managing-transactional-messages.md).
 
@@ -60,52 +41,52 @@ Transactional messaging is also available from the Adobe Campaign Standard API. 
 >
 >All transactional messages are now sent with the Adobe Campaign Enhanced MTA for improved deliverability, throughput, and bounce handling. All impacts are the same as for standard marketing messages. For more on this, see this [section](../../administration/using/configuring-email-channel.md).
 
-## Two types of transactional messages
+### Transactional messaging in four questions {#transactional-messaging-operating-principle}
+
+<img src="assets/do-not-localize/icon_concepts.svg" width="60px"><br>What is a transactional message? | <img src="assets/do-not-localize/icon_transactional.svg" width="60px"><br>Why is it particularly<br>expected? | <img src="assets/do-not-localize/icon_landing.svg" width="60px"><br>Why is it important? | <img src="assets/do-not-localize/icon_channels.svg" width="60px"><br>Why should it be carefully designed? |
+|--- |--- |--- | --- |
+| It is an individual and unique communication sent to a customer in real-time. | It contains information that the recipient wants to check or confirm. | It defines the client relation. The user expects it to be sent in real time. | Transactional messages generally have high open rates. |
+| It is sent by a provider such as a website. | It could be a welcome message after creating an account for example, or a confirmation that an order has shipped, a bill, or a message confirming a password change. | Consequently, the delay between the event being triggered and the message arriving therefore has to be very short. | It is therefore important to design it carefully as it can have a strong impact on the customers behavior. |
+
+### Key steps {#key-steps}
+
+The main steps when creating and managing personalized transactional messages in Adobe Campaign are as follows:
+
+![](assets/message-center-overview.png)
+
+In this page, you will find information on each of these steps, as well as references to the dedicated documentations for more details.
+
+## Transactional message types
 
 Two types of transactional messages are available in Adobe Campaign:
 
 * [Event transactional messages](../../channels/using/event-transactional-messages.md) targeting an event. The data contained in the event itself is used to define the delivery target.
+
+    <table>
+    <tr>
+    <td><img src="assets/do-not-localize/icon_concepts.svg" width="60px"></td>
+    <td><p>This type of transactional messages does not contain profile information.<br><b>The delivery target is defined by the data contained in the event itself</b>.</p></td>
+    </tr>
+    </table>
+
 * [Profile transactional messages](../../channels/using/profile-transactional-messages.md) targeting profiles from the Adobe Campaign marketing database. You can use information from the Adobe Campaign database to send a transactional message based on customer marketing profiles.
+
+    <table>
+    <tr>
+    <td><img src="assets/do-not-localize/icon_concepts.svg" width="60px"></td>
+    <td><p>Profile transactional messages alow you to:<ul><li>Apply marketing typology rules such as <b>Address on block list</b> or <a href="../../sending/using/fatigue-rules.md">fatigue rules</a>.</li><li>Include the unsubscription link within the messages.</li><li>Add the transactional messages to the global delivery reporting.</li><li>Leverage the transactional messages in the customer journey.</li></ul></p></td>
+    </tr>
+    </table>
+
+>[!NOTE]
+>
+>To access all transactional messages, you must be part of the **[!UICONTROL Administrators (all units)]** security group.
 
 The message type is defined when configuring the event that will be transformed into a transactional message. See [Transactional messaging configuration](../../administration/using/configuring-transactional-messaging.md).
 
-### Event transactional messages {#event-transactional-messages}
-
-You can send event transactional messages targeting an event. This type of transactional messages does not contain profile information: the delivery target is defined by the data contained in the event itself.
-
-Once you have created and published an event (the cart abandonment as explained in [this section](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle)), the corresponding transactional message is created automatically.
-
-The configuration steps are presented in the [Configuring an event to send an transactional message](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) section.
-
-In order for the event to trigger sending a transactional message, you have to personalize the message, then test it and publish it.
-
 >[!NOTE]
 >
->To access transactional messages, you must be part of the **[!UICONTROL Administrators (all units)]** security group.
->
->Event transactional messages do not contain profile information, therefore they are not compatible with fatigue rules (even in the case of an enrichment with profiles). See [Fatigue rules](../../sending/using/fatigue-rules.md#choosing-the-channel).
-
-### Profile transactional messages {#profile-transactional-messages}
-
-You can send transactional messages based on customer marketing profiles, which allows you to:
-
-* Apply marketing typology rules such as **[!UICONTROL Address on block list]** or [fatigue rules](../../sending/using/fatigue-rules.md).
-* Include the unsubscription link within the messages.
-* Add the transactional messages to the global delivery reporting.
-* Leverage the transactional messages in the customer journey.
-
-Once you have created and published an event (the cart abandonment as per the [example](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) above), the corresponding transactional message is created automatically.
-
-The configuration steps are presented in the [Configuring an event to send a profile transactional message](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) section.
-
-In order for the event to trigger sending a transactional message, you have to personalize the message, then test it and publish it.
-
->[!NOTE]
->
->To access transactional messages, you must be part of the **[!UICONTROL Administrators (all units)]** security group.
->
->Fatigue rules are compatible with profile transactional messages. See [Fatigue rules](../../sending/using/fatigue-rules.md).
-
+>Event transactional messages do not contain profile information, therefore they are not compatible with fatigue rules (even in the case of an enrichment with profiles). However, profile transactional messages are compatible. For more on fatigue rules, see [this section](../../sending/using/fatigue-rules.md#choosing-the-channel).
 
 ## Transactional messaging operating principle {#transactional-messaging-operating-principle}
 
@@ -136,6 +117,14 @@ The chart below illustrates the transactional messaging publication process.
 ![](assets/message-center_pub-process.png)
 
 For more on the event configuration steps, see [Transactional messaging configuration](../../administration/using/configuring-transactional-messaging.md).
+
+Read more:
+
+* [About transactional messaging](../../channels/using/about-transactional-messaging.md)
+* [Event transactional messages](../../channels/using/event-transactional-messages.md)
+* [Profile transactional messages](../../channels/using/profile-transactional-messages.md)
+* [Transactional push notifications](../../channels/using/transactional-push-notifications.md)
+* [Follow-up messages](../../channels/using/follow-up-messages.md)
 
 **Related topics:**
 
