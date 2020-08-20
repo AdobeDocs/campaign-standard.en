@@ -46,7 +46,6 @@ They will help you discover the different contexts in which workflows can be use
 * [Incremental query on subscribers to a service](../../automating/using/incremental-query-on-subscribers.md)
 * [Segmentation according to age groups](../../automating/using/segmentation-age-groups.md)
 * [Using resources different from targeting dimensions](../../automating/using/using-resources-different-from-targeting-dimensions.md)
-* [Building a control group](../../automating/using/workflow-control-group.md)
 
 ## Data management {#management}
 

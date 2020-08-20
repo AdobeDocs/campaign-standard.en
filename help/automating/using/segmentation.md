@@ -28,7 +28,6 @@ The **[!UICONTROL Segmentation]** activity lets you create one or several segmen
 
 **Related topics:**
 * [Use case: Segmentation on location](../../automating/using/workflow-segmentation-location.md)
-* [Use case: Building a control group](../../automating/using/workflow-control-group.md)
 * [Use case: Segmentation according to age groups](../../automating/using/segmentation-age-groups.md)
 
 ## Context of use {#context-of-use}
