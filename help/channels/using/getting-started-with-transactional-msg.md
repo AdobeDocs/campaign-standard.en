@@ -51,11 +51,11 @@ Transactional messaging is also available from the Adobe Campaign Standard API. 
 <td><p> Because this message contains important information, the user expects it to be sent in real time. Consequently, the delay between the event being triggered and the message arriving therefore has to be very short.</p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_transactional.svg" width="60px"><br><p><b>Why is it important?</b></p></td>
+<td align="center"><img src="assets/do-not-localize/icon_important.svg" width="60px"><br><p><b>Why is it important?</b></p></td>
 <td><p>A transactional message generally has high open rates. It should therefore be carefully designed as it can have a strong impact on the customers behavior. It defines the client relation.</p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_concepts.svg" width="60px"><br><b>For example?</b></td>
+<td align="center"><img src="assets/do-not-localize/icon_example.svg" width="60px"><br><b>For example?</b></td>
 <td><p>It could be a welcome message after creating an account, a confirmation that an order has shipped, a bill, a message confirming a password change...</p></td>
 </tr>
 </table>
@@ -68,7 +68,7 @@ Two types of transactional messages are available in Adobe Campaign:
 
     <table>
     <tr>
-    <td><img src="assets/do-not-localize/icon_concepts.svg" width="60px"></td>
+    <td><img src="assets/do-not-localize/icon_event.svg" width="60px"></td>
     <td><p>This type of transactional messages does not contain profile information.<br><b>The delivery target is defined by the data contained in the event itself</b>.</p></td>
     </tr>
     </table>
@@ -77,7 +77,7 @@ Two types of transactional messages are available in Adobe Campaign:
 
     <table>
     <tr>
-    <td><img src="assets/do-not-localize/icon_concepts.svg" width="60px"></td>
+    <td><img src="assets/do-not-localize/icon_profile.svg" width="60px"></td>
     <td><p>Profile transactional messages alow you to:<ul><li>Apply marketing typology rules such as <b>Address on block list</b> or <a href="../../sending/using/fatigue-rules.md">fatigue rules</a>.</li><li>Include the unsubscription link within the messages.</li><li>Add the transactional messages to the global delivery reporting.</li><li>Leverage the transactional messages in the customer journey.</li></ul></p></td>
     </tr>
     </table>
@@ -102,19 +102,27 @@ The steps for putting this into place are:
 
 ### Step 1 - Create and publish the event configuration {#create-event-configuration}
 
-Configure an event that will be named "Cart abandonment" and publishing this event configuration, which automatically creates a transactional message. Creating and publishing an event are presented in the [Configuring an event to send an event transactional message](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) section.
+Configure an event that will be named "Cart abandonment" and publishing this event configuration, which automatically creates a transactional message.
+
+Creating and publishing an event are presented in the [Configuring an event to send an event transactional message](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) section.
 
 ### Step 2 - Edit and publish the transactional message {#create-transactional-message}
 
-The transactional message has to be personalized, tested, then published. See [Event transactional messages](../../channels/using/event-transactional-messages.md).
+The transactional message has to be personalized, tested, then published.
+
+For more on editing and publishing a transactional message, see [Event transactional messages](../../channels/using/event-transactional-messages.md).
 
 ### Step 3 - Integrate the event triggering {#xxx}
 
-In order for the event to be triggered when a client abandons their cart, this event has to be sent from the company's website using the Adobe Campaign Standard REST API. See [Site integration](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website).
+In order for the event to be triggered when a client abandons their cart, this event has to be sent from the company's website using the Adobe Campaign Standard REST API.
+
+For more on this step, see [Site integration](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website).
+
+### Result {#result}
 
 Once all of these steps have been carried out, as soon as a user leaves the site without ordering the products in their cart, they automatically receive a notification email.
 
-### Key steps {#key-steps}
+## Key steps {#key-steps}
 
 The main steps when creating and managing personalized transactional messages in Adobe Campaign are summarized in the chart below:
 
@@ -128,20 +136,15 @@ The chart below illustrates the whole transactional messaging publication proces
 
 For more on the event configuration steps, see [Transactional messaging configuration](../../administration/using/configuring-transactional-messaging.md).
 
-Read more:
+<!--Read more:
 
 * [About transactional messaging](../../channels/using/about-transactional-messaging.md)
 * [Event transactional messages](../../channels/using/event-transactional-messages.md)
 * [Profile transactional messages](../../channels/using/profile-transactional-messages.md)
 * [Transactional push notifications](../../channels/using/transactional-push-notifications.md)
-* [Follow-up messages](../../channels/using/follow-up-messages.md)
+* [Follow-up messages](../../channels/using/follow-up-messages.md)-->
 
 **Related topics:**
 
 * [Key steps to send a message](../../channels/using/key-steps-to-send-a-message.md)
 * [Get started with communication channels](../../channels/using/get-started-communication-channels.md)
-* [About emails](../../channels/using/about-emails.md)
-* [About SMS message](../../channels/using/about-sms-messages.md)
-* [About Push notifications](../../channels/using/about-push-notifications.md)
-* [About In-App messages](../../channels/using/about-in-app-messaging.md)
-* [About Direct mail deliveries](../../channels/using/about-direct-mail.md)
