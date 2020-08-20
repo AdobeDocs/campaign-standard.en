@@ -122,7 +122,7 @@ Creating and publishing an event are presented in the [Configuring an event to s
 
 For more on editing and publishing a transactional message, see [Event transactional messages](../../channels/using/event-transactional-messages.md).
 
-### Step 3 - Integrate the event triggering {#xxx}
+### Step 3 - Integrate the event triggering {#integrate-event-trigger}
 
 <table>
 <tr>
