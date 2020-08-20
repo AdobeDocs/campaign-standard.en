@@ -20,7 +20,7 @@ snippet: y
 
 <table>
 <tr>
-<td class="noborder"><img src="assets/do-not-localize/icon_transactional.svg" width="60px"></td>
+<td class="noborder"><img src="assets/do-not-localize/icon_transactional.svg" width="90px"></td>
 <td class="noborder"><p>Transactional messaging enables you to <b>send individual and unique messages</b> to your customers in real-time.<br>It can be welcome messages, order shipping confirmations, password modification, etc.</p></td>
 </tr>
 </table>
@@ -102,25 +102,45 @@ The steps for putting this into place are:
 
 ### Step 1 - Create and publish the event configuration {#create-event-configuration}
 
-Configure an event that will be named "Cart abandonment" and publishing this event configuration, which automatically creates a transactional message.
+<table>
+<tr>
+<td class="noborder"><img src="assets/do-not-localize/icon_config.svg" width="60px"></td>
+<td class="noborder"><p>Configure an event that will be named "Cart abandonment" and publish this event configuration, which automatically creates a transactional message.</p></td>
+</tr>
+</table>
 
 Creating and publishing an event are presented in the [Configuring an event to send an event transactional message](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) section.
 
 ### Step 2 - Edit and publish the transactional message {#create-transactional-message}
 
-The transactional message has to be personalized, tested, then published.
+<table>
+<tr>
+<td class="noborder"><img src="assets/do-not-localize/icon_transactional.svg" width="60px"></td>
+<td class="noborder"><p>Personalize the transactional message, test it, and then publish it.</p></td>
+</tr>
+</table>
 
 For more on editing and publishing a transactional message, see [Event transactional messages](../../channels/using/event-transactional-messages.md).
 
 ### Step 3 - Integrate the event triggering {#xxx}
 
-In order for the event to be triggered when a client abandons their cart, this event has to be sent from the company's website using the Adobe Campaign Standard REST API.
+<table>
+<tr>
+<td class="noborder"><img src="assets/do-not-localize/icon_api.svg" width="60px"></td>
+<td class="noborder"><p>In order for the event to be triggered when a client abandons their cart, this event has to be sent from the company's website using the Adobe Campaign Standard REST API.</p></td>
+</tr>
+</table>
 
 For more on this step, see [Site integration](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website).
 
 ### Result {#result}
 
-Once all of these steps have been carried out, as soon as a user leaves the site without ordering the products in their cart, they automatically receive a notification email.
+<table>
+<tr>
+<td class="noborder"><img src="assets/do-not-localize/icon_notification.svg" width="60px"></td>
+<td class="noborder"><p>Once all of these steps have been carried out, as soon as a user leaves the site without ordering the products in their cart, they automatically receive a notification email.</p></td>
+</tr>
+</table>
 
 ## Key steps {#key-steps}
 
