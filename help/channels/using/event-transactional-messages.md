@@ -85,7 +85,7 @@ To set up personalization in a transactional message, follow the steps below:
 
 1. Add a subject and edit your message content to suit your needs.
 
-    >[NOTE]
+    >[!NOTE]
     >
     >The link to the abandoned cart is a link to an external URL that will redirect the person to their cart. This parameter is not managed in Adobe Campaign.
 
