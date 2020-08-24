@@ -189,6 +189,13 @@ Once Adobe Campaign starts receiving events related to this event configuration,
 
 The events (in JSON format) are listed from the most recent to the oldest. This list allows you to check data such as the content or the status of an event, for control and debugging purpose.
 
+### Transactional messaging publication process {#transactional-messaging-pub-process}
+
+The chart below illustrates the transactional messaging publication process.
+
+![](assets/message-center_pub-process.png)
+
+
 ### Unpublishing an event {#unpublishing-an-event}
 
 The **[!UICONTROL Unpublish]** button lets you cancel the publication of the event, which deletes from the REST API the resource corresponding to the event that you previously created. Now, even if the event is triggered through your website, the corresponding messages are not sent anymore and they are not stored in the database.
