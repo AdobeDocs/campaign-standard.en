@@ -97,6 +97,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Defining the direct mail content](channels/using/defining-the-direct-mail-content.md)
   + Transactional messaging {#transactional-messaging}
        + [Getting started with transactional messaging](channels/using/getting-started-with-transactional-msg.md)
+       + [Transactional messaging limitations](channels/using/transactional-messaging-limitations.md)
        + [Event transactional messages](channels/using/event-transactional-messages.md)
        + [Profile transactional messages](channels/using/profile-transactional-messages.md)
        + [Transactional push notifications](channels/using/transactional-push-notifications.md)

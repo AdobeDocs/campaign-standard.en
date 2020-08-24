@@ -23,7 +23,7 @@ You can send transactional messages based on customer marketing profiles, which 
 * Add the transactional messages to the global delivery reporting.
 * Leverage the transactional messages in the customer journey.
 
-Once you have created and published an event (the cart abandonment as per the [example](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) above), the corresponding transactional message is created automatically.
+Once you have created and published an event (the cart abandonment as per the [example](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) above), the corresponding transactional message is created automatically.
 
 The configuration steps are presented in the [Configuring an event to send a profile transactional message](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) section.
 

@@ -77,7 +77,7 @@ The **[!UICONTROL Marketing plans]** icon gives you access the following functio
 * **[!UICONTROL Marketing activities]** - for more on this, refer to the [Marketing activity list](../../start/using/marketing-activities.md#about-marketing-activities) section.
 * **[!UICONTROL Programs & Campaigns]** - for more on this, refer to the [Program list](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns) section.
 * **[!UICONTROL Timeline]** - for more on this, refer to the [Timeline](../../start/using/timeline.md) section.
-* **[!UICONTROL Transactional messages]**, which contains the sub-menus **[!UICONTROL Deliveries]** and **[!UICONTROL Event configuration]** - for more on this, refer to the [Transactional messaging](../../channels/using/about-transactional-messaging.md) section.
+* **[!UICONTROL Transactional messages]**, which contains the sub-menus **[!UICONTROL Deliveries]** and **[!UICONTROL Event configuration]** - for more on this, refer to the [Transactional messaging](../../channels/using/getting-started-with-transactional-msg.md) section.
 
 ### Profiles &amp; audiences {#profiles-e-audiences}
 

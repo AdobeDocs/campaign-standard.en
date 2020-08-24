@@ -233,7 +233,7 @@ The **[!UICONTROL Validity period]** section contains the following parameters:
 
 >[!NOTE]
 >
->The **[!UICONTROL Delivery duration]** parameter does not apply to transactional messages. For more on transactional messaging, see [this section](../../channels/using/about-transactional-messaging.md).
+>The **[!UICONTROL Delivery duration]** parameter does not apply to transactional messages. For more on transactional messaging, see [this section](../../channels/using/getting-started-with-transactional-msg.md).
 
 ### Tracking parameters {#tracking-parameters}
 
