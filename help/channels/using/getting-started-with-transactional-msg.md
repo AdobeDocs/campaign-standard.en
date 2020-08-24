@@ -64,7 +64,7 @@ Transactional messaging is also available from the Adobe Campaign Standard API. 
 
 Two types of transactional messages are available in Adobe Campaign:
 
-* [Event transactional messages](../../channels/using/event-transactional-messages.md) targeting an event.<!--The data contained in the event itself is used to define the delivery target.-->
+* [Event transactional messages](../../channels/using/event-transactional-messages.md) targeting an **event**.<!--The data contained in the event itself is used to define the delivery target.-->
 
     <table>
     <tr>
@@ -73,7 +73,7 @@ Two types of transactional messages are available in Adobe Campaign:
     </tr>
     </table>
 
-* [Profile transactional messages](../../channels/using/profile-transactional-messages.md) targeting profiles from the Adobe Campaign marketing database.<!--You can use information from the Adobe Campaign database to send a transactional message based on customer marketing profiles.-->
+* [Profile transactional messages](../../channels/using/profile-transactional-messages.md) targeting **profiles from the Adobe Campaign marketing database**.<!--You can use information from the Adobe Campaign database to send a transactional message based on customer marketing profiles.-->
 
     <table>
     <tr>
@@ -82,15 +82,13 @@ Two types of transactional messages are available in Adobe Campaign:
     </tr>
     </table>
 
->[!NOTE]
+The message type is defined when configuring the event that will be transformed into a transactional message. See [Transactional messaging configuration](../../administration/using/configuring-transactional-messaging.md).
+
+>[!IMPORTANT]
 >
 >To access all transactional messages, you must be part of the **[!UICONTROL Administrators (all units)]** security group.
 
-The message type is defined when configuring the event that will be transformed into a transactional message. See [Transactional messaging configuration](../../administration/using/configuring-transactional-messaging.md).
-
->[!NOTE]
->
->Event transactional messages do not contain profile information, therefore they are not compatible with fatigue rules (even in the case of an enrichment with profiles). However, profile transactional messages are compatible. For more on fatigue rules, see [this section](../../sending/using/fatigue-rules.md#choosing-the-channel).
+<!--Event transactional messages do not contain profile information, therefore they are not compatible with fatigue rules (even in the case of an enrichment with profiles). However, profile transactional messages are compatible. For more on fatigue rules, see [this section](../../sending/using/fatigue-rules.md#choosing-the-channel).-->
 
 ## Transactional messaging operating principle {#transactional-messaging-operating-principle}
 
@@ -98,16 +96,18 @@ Let's take the example of a company that has a website and on this website its c
 
 Adobe Campaign allows you to send a notification email to site users who have added products to their cart: when one of them leaves the site without going through with their purchases, a cart abandonment email is automatically sent to them.
 
-The steps for putting this into place are:
+The steps for putting this into place are the following.
 
 ### Step 1 - Create and publish the event configuration {#create-event-configuration}
 
 <table>
 <tr>
 <td class="noborder"><img src="assets/do-not-localize/icon_config.svg" width="60px"></td>
-<td class="noborder"><p>Configure an event that will be named "Cart abandonment" and publish this event configuration.<br>This automatically creates a transactional message.</p></td>
+<td class="noborder"><p>Configure an event that will be named "Cart abandonment" and publish this event configuration.</p></td>
 </tr>
 </table>
+
+The API that will be used by your website developer is deployed and a transactional message is automatically created.
 
 Creating and publishing an event are presented in the [Configuring an event to send an event transactional message](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) section.
 
@@ -127,15 +127,17 @@ For more on editing and publishing a transactional message, see [Event transacti
 <table>
 <tr>
 <td class="noborder"><img src="assets/do-not-localize/icon_api.svg" width="60px"></td>
-<td class="noborder"><p>The event must be sent from the company's website using the Adobe Campaign Standard REST API.<br>Once done, the event will be triggered when a client abandons their cart.</p></td>
+<td class="noborder"><p>Use the REST Transactional Messages API to integrate the event into your website.</p></td>
 </tr>
 </table>
 
-For more on this step, see [Site integration](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website).
+The event will be triggered when a client abandons their cart.
+
+For more on integrating the event into your website, see [Site integration](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website).
 
 ### Step 4 - Message delivery {#message-delivery}
 
-Once all of these steps have been carried out, the message can be delivered as follows.
+<!--Once all of these steps have been carried out, the message can be delivered:-->
 
 <table>
 <tr>
