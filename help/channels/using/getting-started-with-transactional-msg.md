@@ -105,7 +105,7 @@ The steps for putting this into place are:
 <table>
 <tr>
 <td class="noborder"><img src="assets/do-not-localize/icon_config.svg" width="60px"></td>
-<td class="noborder"><p>Configure an event that will be named "Cart abandonment" and publish this event configuration, which automatically creates a transactional message.</p></td>
+<td class="noborder"><p>Configure an event that will be named "Cart abandonment" and publish this event configuration.<br>This automatically creates a transactional message.</p></td>
 </tr>
 </table>
 
@@ -116,7 +116,7 @@ Creating and publishing an event are presented in the [Configuring an event to s
 <table>
 <tr>
 <td class="noborder"><img src="assets/do-not-localize/icon_transactional.svg" width="60px"></td>
-<td class="noborder"><p>Personalize the transactional message, test it, and then publish it.</p></td>
+<td class="noborder"><p>Edit and personalize the transactional message, test it, and then publish it.</p></td>
 </tr>
 </table>
 
@@ -127,7 +127,7 @@ For more on editing and publishing a transactional message, see [Event transacti
 <table>
 <tr>
 <td class="noborder"><img src="assets/do-not-localize/icon_api.svg" width="60px"></td>
-<td class="noborder"><p>In order for the event to be triggered when a client abandons their cart, this event has to be sent from the company's website using the Adobe Campaign Standard REST API.</p></td>
+<td class="noborder"><p>The event must be sent from the company's website using the Adobe Campaign Standard REST API.<br>Once done, the event will be triggered when a client abandons their cart.</p></td>
 </tr>
 </table>
 
@@ -148,7 +148,7 @@ The main steps when creating and managing personalized transactional messages in
 
 ![](assets/message-center-overview.png)
 
-## Transactional messaging publication process {#transactional-messaging-pub-process}
+<!--## Transactional messaging publication process {#transactional-messaging-pub-process}
 
 The chart below illustrates the whole transactional messaging publication process.
 
@@ -156,7 +156,7 @@ The chart below illustrates the whole transactional messaging publication proces
 
 For more on the event configuration steps, see [Transactional messaging configuration](../../administration/using/configuring-transactional-messaging.md).
 
-<!--Read more:
+Read more:
 
 * [About transactional messaging](../../channels/using/about-transactional-messaging.md)
 * [Event transactional messages](../../channels/using/event-transactional-messages.md)
