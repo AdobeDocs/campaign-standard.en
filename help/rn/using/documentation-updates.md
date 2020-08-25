@@ -18,6 +18,12 @@ snippet: y
 
 In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), this page lists all the new updates in Adobe Campaign Standard documentation.
 
+## Documentation updates - August 2020 {#doc-updates-august-2020}
+
+A new updated section on getting started with transactional messaging is available. [Read more](../../channels/using/getting-started-with-transactional-msg.md)
+
+The Transactional messaging limitations section has been moved. [Read more](../../channels/using/transactional-messaging-limitations.md)
+
 ## Documentation updates - July 2020 {#doc-updates-july-2020}
 
 A new section has been added with guidelines related to Campaign Standard monitoring. [Read more](../../administration/using/monitoring-guidelines.md)
