@@ -36,10 +36,6 @@ When a contact is created or modified (or deleted, if enabled) in Dynamics 365, 
 
 ![](assets/MSdynamicsACS-usage1.png)
 
-It is important to note that, if you have the 2-step process activated in the properties screen, you will need to manually confirm the deletion of each record in the Privacy Screen before they are finally deleted.  See the 2-step process screen below:
-
-![](assets/MSdynamicsACS-usage3.png)
-
 When an opt-out attribute is modified in Campaign, it will be reflected in Dynamics 365 if you’ve selected the Campaign-to-Dynamics 365 or bi-directional opt-out configuration, and if you have that particular attribute mapped correctly.
 
 ## Microsoft Dynamics 365 User Experience
@@ -143,14 +139,14 @@ The following event attributes are displayed within D365:
 * Email mirror page URL
 * URL clicked (click events only)
 
-Email Marketing Event flow can be configured to filter out one or more event types so that events of those types are not passed to Dynamics 365.
+Email Marketing Events can be enabled/disabled by type (send, open, click, bounce) so that only the event types you select will be passed to Dynamics 365.
 
 ### Opt-Out Flow
 
 Opt-out (e.g., blockList) values are synchronized between systems; you have the following options to choose from when onboarding:
 * Dynamics 365 is source of truth for opt-outs: opt-out attributes will be synchronized in one direction from Dynamics 365 to Campaign Standard
 * Campaign Standard is the source of truth for opt-outs: opt-out attributes will be synchronized in one direction from Campaign Standard to Dynamics 365
-* Dynamics 365 AND Campaign Standard are both sources of truth: opt-out attributes will be synchronized bidirectionally between Campaign Standard and Dynamics 365
+* Dynamics 365 AND Campaign Standard are both sources of truth: opt-out attributes will be synchronized bi-directionally between Campaign Standard and Dynamics 365
 
 Alternatively, if you have a separate process to manage opt-out synchronization between the systems, the integration's opt-out data flow can be disabled.
 

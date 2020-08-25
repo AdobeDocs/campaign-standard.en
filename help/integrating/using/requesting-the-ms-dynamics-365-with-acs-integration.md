@@ -26,15 +26,11 @@ Flowchart Details (maps to steps above):
 
 * **Step 1** - It is assumed that you already have, or are in the process of procuring, a license for Microsoft Dynamics 365 for Sales and for Adobe Campaign Standard.
 
-* **Step 2** - The standard integration offering is free* to all customers.
+* **Step 2** - The standard integration offering is free to all customers; however, additional costs may apply depending on your requirements (see "Integration guardrails" and "Integration boundaries" sections. Integration SKUs will need to be added to your Campaign contract to be able to take advantage of the integration.
 
-    * You will need to sign a zero-dollar contract to take advantage of the integration
+* **Step 3** - Complete pre-integration steps for Dynamics 365 and Campaign (see Configuring this integration section below).
 
-    * Additional costs may apply depending on your requirements (see “Guardrails and Product Boundaries” section)
-
-* **Step 3** - Complete pre-integration steps for Dynamics 365 and Campaign (see section below).
-
-* **Steps 4-7** - The Adobe onboarding team will work closely with you through the onboarding process.
+* **Steps 4-7** - The Adobe onboarding team will work with you through the onboarding process.
 
 ## Configuring this integration
 
@@ -50,11 +46,8 @@ In ADOBE CAMPAIGN, you need to set up API access and configure a new integration
 
 In MICROSOFT DYNAMICS 365, you need to create a new app registration and enable an application user to use the integration.  To configure Microsoft Dynamics 365 for this integration, refer to [this article](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md).
 
-In the integration tool, you need to set up the configuration for ingress, egress, and opt-out data flows. 
+You will need to work with the Adobe onboarding team to set up the configuration for ingress, egress, and opt-out data flows.
 
->[!NOTE]
->
->Until the UI for the self-service tool is available later this year, the onboarding team will assist you in configuring the integration. 
 
 ## Requesting support 
 
@@ -64,11 +57,10 @@ For any issues with integration data flows, make sure to include the report suit
 
 * Process Owner: Engineering Architects
 
-* ES Process ID: 
+* ES Process ID: Provided during onboarding process
 
-* Process Title: 
+* Process Title: Dynamics 365 / Adobe Campaign Standard Integration
 
 * Issue Description: [Description of the issue]
 
-
-Integration support is currently 24/5 (24-hours, Monday through Friday, excluding holidays), unless there is as a system-wide issue, which will be covered 24/7.
+Integration support coverage is currently 24x5 (available Monday through Friday, excluding Adobe holidays and break periods).

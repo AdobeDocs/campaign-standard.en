@@ -30,7 +30,7 @@ Three systems that need to be provisioned for this integration:
 
 Once provisioned, these systems need to be configured by an Administrator.
 
-This article highlights the steps, on the Microsoft Dynamics 365 side, required during pre-configuration setup to enable a customer to use the Adobe Campaign Standard - Microsoft Dynamics 365 integration. 
+This article highlights the steps, on the Microsoft Dynamics 365 side, required during pre-integration setup to enable a customer to use the Adobe Campaign Standard - Microsoft Dynamics 365 integration. 
 
 >[!NOTE]
 >
@@ -38,7 +38,9 @@ This article highlights the steps, on the Microsoft Dynamics 365 side, required 
 
 ## Prerequisites
 
-Before performing the pre-configuration setup in this document, it is assumed that you have already provisioned and have admin access to your organization’s Microsoft Dynamics 365 instance.  If this has not happened, then you will need to get in contact with Microsoft customer support to complete Dynamics 365 provisioning.
+Before performing the pre-integration setup in this document, it is assumed that you have already provisioned and have admin access to your organization’s Microsoft Dynamics 365 instance.  If this has not happened, then you will need to get in contact with Microsoft customer support to complete Dynamics 365 provisioning.
+
+If you are configuring the integration for both staging and production environments, you will need to perform the steps below for both your staging and production Dynamics 365 instances. A few instructions below vary slightly depending if you are configuring a stage or production Dynamics 365 instance (e.g., for production instance, select "prod" for `<stage or prod>`)
 
 ## Setting up application and permissions
 
@@ -62,14 +64,14 @@ To generate the OAuth access token, follow the steps outlined below.
 
 1. Fill out the app registration screen:
 
-    * Name: adobe campaign
+    * Name: adobe campaign `<stage or prod>` 
     * Supported account type: **[!UICONTROL Accounts in this organizational directory only]** (default value)
 
  For more information about creating a new application, refer to [this section](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app).
 
 >[!NOTE]
 >
->Azure AD assigns a unique application (client) ID to your app. You will need this ID later on in configuring Dynamics 365, as well as when you perform Unifi Post Provisioning steps.
+>Azure AD assigns a unique application` (client) ID to your app. You will need this ID later on in configuring Dynamics 365, as well as when you perform pre-integration setup for the integration tool.
 
 ### Generate client secret
 
@@ -79,11 +81,11 @@ To generate the OAuth access token, follow the steps outlined below.
 
 1. Enter a description, set duration and click **[!UICONTROL OK]**.
 
-Your client secret is now created.  Retain the value for completion of the integration tool pre-configuration setup.
+Your client secret is now created. Retain the value temporarily for the completion of the pre-integration setup of the integration tool.
 
 >[!CAUTION]
 >
->Keep this value as you will need it to complete the integration tool pre-configuration setup. It cannot be retrieved afterwards.
+>Keep this value as you will need it to complete the integration tool pre-integration setup. It cannot be retrieved afterwards.
 
 
 ### Setup permissions
@@ -112,10 +114,10 @@ This new user is a generic user. It will be used by the application: any change 
 
     Fill out the screen for the new user.  Parameters suggestions:
 
-    * **[!UICONTROL User Name]** (email): adobeapi@`<hostname>`, where `<hostname>` is the hostname of your Dynamics 365 instance
+    * **[!UICONTROL User Name]** (email): adobe_api_`<stage-or-prod>`@`<your-d365-hostname>`" (e.g., adobe_api_stage@some-company.crm.dynamics.com)
     * **[!UICONTROL Application ID]**: ID of the application you registered in Azure AD (this is required)
     * You can leave blank **[!UICONTROL Application ID URI]** and **[!UICONTROL Azure AD Object ID]**
-    * **[!UICONTROL Full Name]**: Adobe API
+    * **[!UICONTROL Full Name]**: Adobe API `<stage or prod>` 
     * **[!UICONTROL Email]**: same as **[!UICONTROL User Name]** (or admin's email if you wish)
 
     For more information about app user creation, refer to [this section](https://docs.microsoft.com/en-gb/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
@@ -132,7 +134,7 @@ This new user is a generic user. It will be used by the application: any change 
 
 ### Get the tenant ID
 
-Follow the instructions [in this page](https://docs.microsoft.com/en-us/onedrive/find-your-office-365-tenant-id) to find your tenant ID.  You’ll need this ID during pre-configuration setup in the integration tool.
+Follow the instructions [in this page](https://docs.microsoft.com/en-us/onedrive/find-your-office-365-tenant-id) to find your tenant ID.  You’ll need this ID during pre-integration setup in the integration tool.
 
 ## Install Campaign Standard for Microsoft Dynamics 365
 
@@ -151,8 +153,6 @@ To integrate the Dynamics 365 App to your Campaign Standard environment, follow 
 >[!NOTE]
 >
 >If at any time you wish to deactivate these processes, you can do so in this **[!UICONTROL Processes]** screen.
-
-Once this configuration is done, you can set up Unifi configuration. For more on this, refer to this [page](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md).
 
 **Related topics** 
 

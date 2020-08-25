@@ -30,7 +30,7 @@ The Adobe Campaign and Microsoft Dynamics 365 integration enables synchronizatio
 
 Conversely, as profiles within Adobe Campaign interact with messages, those data (e.g.: sends, opens, clicks, and bounces) automatically flow into Microsoft Dynamics 365 to keep contact records complete with marketing activity as well.  
 
-The integration also supports for custom entities, enabling custom entities in Dynamics 365 to be synchronized to corresponding custom entities in Campaign.
+The integration also supports custom entities, enabling custom entities in Dynamics 365 to be synchronized to corresponding custom entities in Campaign.
 
 This integration is designed to support four main use cases: 
 
@@ -38,6 +38,8 @@ This integration is designed to support four main use cases:
 1. Synchronizing custom entities from Dynamics 365 to Campaign so they can be used for segmentation and personalization
 1. Sending email marketing events (sends, opens, clicks, bounces) from Campaign to Dynamics 365 to display to the sales repository in the Dynamics 365 interface
 1. Synchronizing opt-out (e.g., do not email) statuses between Dynamics 365 and ACS to maintain customer privacy preferences.
+
+Add Video Link: "Watch Dynamics 365-Campaign Standard integration feature video here."
 
 ## Key benefits
 
@@ -55,4 +57,4 @@ With contact data synchronized to Adobe Campaign, communications can be sent on 
 
 >[!CAUTION]
 >
->For contacts synchronization, this integration considers Dynamics 365 as the source of truth.  Any changes to synchronized contact attributes should be done in Dynamics 365, not in Campaign.  If changes are made in Campaign, they can eventually get overwritten during synchronization.
+>For contact and custom entity synchronization, this integration considers Dynamics 365 as the source of truth.  Any changes to synchronized attributes should be done in Dynamics 365, not in Campaign.  If changes are made in Campaign, they can eventually get overwritten during synchronization.
