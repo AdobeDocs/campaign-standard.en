@@ -42,7 +42,7 @@ Multilingual push requires 14 columns in the CSV file:
 Check the CSV sample by clicking the **[!UICONTROL Download a sample file]** in the **[!UICONTROL Manage Content Variants]** window. For more on this, refer to the this [section](../../channels/using/creating-a-multilingual-push-notification.md).
 
 * **title, messageBody, sound, badge, deeplinkURI, category, iosMediaAttachmentURL, androidMediaAttachmentURL**: regular push payload contents. You need to provide this information in a similar manner as when creating push deliveries.
-* **Custom Fields**:  use JSON format for the custom fields, e.g."{""key1"":""value1"",""key2"":""value2""}". Refer to the sample file above for an example of custom fields.
+* **Custom Fields**:  use JSON format for the custom fields, e.g. `{"key1":"value1","key2":"value2"}`. Refer to the sample file above for an example of custom fields.
 * **isContentAvailable**: flag for Content Available check, value 1 implies true, value 0 implies false. The default value is 0. If you leave this column blank, the value will be considered 0.
 * **isMutableContent**: flag for Mutable Content, value 1 implies true, value 0 implies false. The default value is 0. If you leave this column blank, the value will be considered 0.
 * **locale**: locale is the field for language variants, e.g. "en_us" for US-English and "fr_fr" for France-French.
