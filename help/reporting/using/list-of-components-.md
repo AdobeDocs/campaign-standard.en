@@ -81,7 +81,7 @@ The table below gives you the list of dimensions used in reports and their defin
    <td> Platform of the device from which the message was opened/viewed/clicked on.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Profiles<br /> </td> 
+   <td> Profile<br /> </td> 
    <td> Regroups out-of-the-box and custom profile fields created during the profile resource extension, for more on this refer to this <a href="../../developing/using/key-steps-to-add-a-resource.md">page</a> or this <a href="../../reporting/using/creating-a-custom-profile-dimension.md">example</a>.<br /> Note that data for this dimension is retrieved as soon as the custom resource linked to the profile field is published.<br /> </td> 
   </tr> 
   <tr> 
@@ -307,7 +307,7 @@ The tables below give you the list of metrics used in reports and their definiti
    <td> Percentage of opened push notifications.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unique click<br /> </td> 
+   <td> Unique clicks<br /> </td> 
    <td> Number of times a unique user interacts with the push notification, e.g. clicks on the notification or button.<br /> </td> 
   </tr> 
   <tr> 

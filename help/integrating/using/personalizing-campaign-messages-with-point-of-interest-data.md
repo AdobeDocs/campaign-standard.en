@@ -18,7 +18,7 @@ snippet: y
 
 In Adobe Campaign, you can use the Points of Interest data collected from your mobile application's subscribers to send them personalized marketing messages, such as an email.
 
-You can only react on Point of Interest data with standard deliveries. [Transactional messages](../../channels/using/about-transactional-messaging.md) cannot use location data.
+You can only react on Point of Interest data with standard deliveries. [Transactional messages](../../channels/using/getting-started-with-transactional-msg.md) cannot use location data.
 
 The earliest you can react is about 10 minutes.
 

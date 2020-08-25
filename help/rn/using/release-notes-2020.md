@@ -58,7 +58,7 @@ snippet: y
 
 **Improvements**
 
-* Transactional messaging user experience has been enhanced and the interface consistency was improved. [Read more](../../channels/using/about-transactional-messaging.md)
+* Transactional messaging user experience has been enhanced and the interface consistency was improved. [Read more](../../channels/using/getting-started-with-transactional-msg.md)
 * Campaign Standard now allows you to send proofs to Test profiles using additional data from workflows.
 * Guardrails for the External API activity have been updated. [Read more](../../automating/using/external-api.md)
 

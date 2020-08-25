@@ -353,7 +353,7 @@ Several improvements have been added to the Transactional messaging channel in o
 * The transactional messaging process has been optimized to be able to start in parallel multiple analysis of the same message. 
 * Fixed an issue that could lead to inconsistent throughput and latency for transactional push notifications.
 * Fixed an issue that displayed an incorrect target audience for transactional message execution deliveries.
-* Fixed an issue that occurred when importing a package with an event configuration and the associated transactional message. For more on this, refer to the [detailed documentation](../../channels/using/about-transactional-messaging.md#exporting-and-importing-transactional-messages).
+* Fixed an issue that occurred when importing a package with an event configuration and the associated transactional message. For more on this, refer to the [detailed documentation](../../channels/using/getting-started-with-transactional-msg.md#exporting-and-importing-transactional-messages).
 * Fixed an issue that deleted the collection data from the test profiles created for a transactional message containing product listings.
 
 **Other changes**
