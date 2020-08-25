@@ -28,8 +28,8 @@ Adobe Campaign allows you to integrate this functionality with an information sy
 >[!NOTE]
 >
 >Transactional messages can be sent by email, SMS or push notification, depending on your options. Please check your license agreement.
->
->Adobe Campaign prioritizes processing transactional messages over any other delivery.
+
+Adobe Campaign prioritizes processing transactional messages over any other delivery.
 
 Transactional messaging is also available from the Adobe Campaign Standard API. For more on this, refer to the [dedicated documentation](../../api/using/managing-transactional-messages.md).
 
@@ -56,7 +56,7 @@ Transactional messaging is also available from the Adobe Campaign Standard API. 
 <td><p>Indeed, it can have a strong impact on the customers' behavior as it defines the client relation.</p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_example.svg" width="60px"><br><b>For example?</b></td>
+<td align="center"><img src="assets/do-not-localize/icon_example.svg" width="60px"><br><p><b>For example?</b></p></td>
 <td><p>It could be a welcome message after creating an account, a confirmation that an order has shipped, an invoice...</p></td>
 <td><p>It can also be a message confirming a password change, or a notification after a customer browsed your website...</p></td>
 </tr>
@@ -70,11 +70,11 @@ Two types of transactional messages are available in Adobe Campaign:
 
 <table>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_event.svg" width="60px"><br><a href="../../channels/using/event-transactional-messages.md">Event transactional messages</a><br>targeting an <b>event</b>.</td>
+<td align="center"><img src="assets/do-not-localize/icon_event.svg" width="60px"><br><p><a href="../../channels/using/event-transactional-messages.md">Event transactional messages</a><br>targeting an <b>event</b></p></td>
 <td><p><ul><li>They do not contain profile information.</li><li>They are not compatible with <a href="../../sending/using/fatigue-rules.md">fatigue rules</a> (even in the case of an enrichment with profiles).</li><li>The delivery target is defined by the data contained in the event itself.</li></ul></p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_profile.svg" width="60px"><br><a href="../../channels/using/profile-transactional-messages.md">Profile transactional messages</a><br>targeting <b>profiles from the Adobe Campaign marketing database</b>.</td>
+<td align="center"><img src="assets/do-not-localize/icon_profile.svg" width="60px"><br><a href="../../channels/using/profile-transactional-messages.md"><p>Profile transactional messages</a><br>targeting <b>profiles from the Adobe Campaign marketing database</b></p></td>
 <td><p>Profile transactional messages alow you to:<ul><li>Apply marketing typology rules such as <b>Address on block list</b> or <a href="../../sending/using/fatigue-rules.md">fatigue rules</a>.</li><li>Include the unsubscription link within the messages.</li><li>Add the transactional messages to the global delivery reporting.</li><li>Leverage the transactional messages in the customer journey.</li></ul></p></td>
 </tr>
 </table>
