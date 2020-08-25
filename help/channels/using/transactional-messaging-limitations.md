@@ -16,16 +16,13 @@ snippet: y
 
 # Transactional messaging limitations {#transactional-messaging-limitations}
 
-<table>
-<tr>
-<td><img src="assets/do-not-localize/icon_concepts.svg" width="60px"></td>
-<td><p>The section below lists the limitations you should be aware of before starting creating transactional messages.</p></td>
-</tr>
-</table>
+<img src="assets/do-not-localize/icon_concepts.svg" width="60px">
+
+The section below lists the limitations you should be aware of before starting creating transactional messages.
 
 For more on transactional messages, including on how to configure and create them, see [Getting started with transactional messaging](../../channels/using/getting-started-with-transactional-msg.md).
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >To access transactional messages, you must have administration rights.
 
