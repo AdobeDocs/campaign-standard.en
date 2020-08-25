@@ -45,7 +45,7 @@ To configure a service:
         >
         >You can modify a default message by clicking its label in the **[!UICONTROL Service properties]** section or by selecting it from the Adobe Campaign transactional message list, after checking the **[!UICONTROL Show internal transactional messages]** box.
 
-    * **[!UICONTROL Custom message]**: this mode allows you to handle custom confirmation messages, specific for each service. You then select the **[!UICONTROL Custom subscription event configuration]** which is associated with a specific [transactional message](../../channels/using/about-transactional-messaging.md) template. For more on this, see [Confirming subscription to a service](../../audiences/using/confirming-subscription-to-a-service.md).
+    * **[!UICONTROL Custom message]**: this mode allows you to handle custom confirmation messages, specific for each service. You then select the **[!UICONTROL Custom subscription event configuration]** which is associated with a specific [transactional message](../../channels/using/getting-started-with-transactional-msg.md) template. For more on this, see [Confirming subscription to a service](../../audiences/using/confirming-subscription-to-a-service.md).
 
 1. Save the service. It is now ready to be used.
 

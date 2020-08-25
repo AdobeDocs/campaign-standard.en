@@ -74,7 +74,7 @@ Steps to create these elements are described below. You need to follow them befo
 
 ### Create the event {#create-the-event}
 
-The confirmation email is a [transactional message](../../channels/using/about-transactional-messaging.md) as it reacts to an event: the validation of the form. You must first create the event and then create the template of the transactional message.
+The confirmation email is a [transactional message](../../channels/using/getting-started-with-transactional-msg.md) as it reacts to an event: the validation of the form. You must first create the event and then create the template of the transactional message.
 
 1. Create an event, from the **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]** menu, accessible from the Adobe Campaign logo, and enter the label '**CONFIRM**'.
 1. Select the **[!UICONTROL Profile]** targeting dimension and click **[!UICONTROL Create]**.
