@@ -18,13 +18,10 @@ snippet: y
 
 ## Overview
 
-<table>
-<tr>
-<td class="noborder"><img src="assets/do-not-localize/icon_transactional.svg" width="60px"></td>
-<td class="noborder"><p>Transactional messaging enables you to <b>send individual and unique messages</b> to your customers in real-time.</p></td>
-<td class="noborder"><p>It can be welcome messages, order shipping confirmations, password modification, etc.</p></td>
-</tr>
-</table>
+
+<img src="assets/do-not-localize/icon_transactional.svg" width="60px">
+
+Transactional messaging enables you to <b>send individual and unique messages</b> to your customers in real-time. It can be welcome messages, order shipping confirmations, password modification, etc.
 
 Adobe Campaign allows you to integrate this functionality with an information system which sends events that are to be transformed into custom transactional messages.
 
@@ -44,26 +41,22 @@ Transactional messaging is also available from the Adobe Campaign Standard API. 
 
 <table>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_concepts.svg" width="60px"></td>
-<td align="center"><br><p><b>What is a transactional message?</b></p></td>
+<td align="center"><img src="assets/do-not-localize/icon_concepts.svg" width="60px"><br><p><b>What is a transactional message?</b></p></td>
 <td><p>It is an individual and unique communication, sent by a provider such as a website.</p></td>
 <td><p>It is particularly expected, because it contains important information that the recipient wants to check or confirm.</p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_channels.svg" width="60px"></td>
-<td align="center"><p><b>When is it due?</b></p></td>
+<td align="center"><img src="assets/do-not-localize/icon_channels.svg" width="60px"><br><p><b>When is it due?</b></p></td>
 <td><p> Because this message contains important information, the user expects it to be sent in real time.</p></td>
 <td><p>Consequently, the delay between the event being triggered and the message arriving has to be very short.</p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_important.svg" width="60px"></td>
-<td align="center"><p><b>Why is it important?</b></p></td>
+<td align="center"><img src="assets/do-not-localize/icon_important.svg" width="60px"><br><p><b>Why is it important?</b></p></td>
 <td><p>Generally, a transactional message has high open rates. It should therefore be carefully designed.</p></td>
 <td><p>Indeed, it can have a strong impact on the customers' behavior as it defines the client relation.</p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_example.svg" width="60px"></td>
-<td align="center"><b>For example?</b></td>
+<td align="center"><img src="assets/do-not-localize/icon_example.svg" width="60px"><br><b>For example?</b></td>
 <td><p>It could be a welcome message after creating an account, a confirmation that an order has shipped, an invoice...</p></td>
 <td><p>It can also be a message confirming a password change, or a notification after a customer browsed your website...</p></td>
 </tr>
@@ -77,21 +70,16 @@ Two types of transactional messages are available in Adobe Campaign:
 
 <table>
 <tr>
-<td align="center"><a href="../../channels/using/event-transactional-messages.md">Event transactional messages</a><br>targeting an <b>event</b>.</td>
-<td align="center"><img src="assets/do-not-localize/icon_event.svg" width="60px"></td>
+<td align="center"><img src="assets/do-not-localize/icon_event.svg" width="60px"><br><a href="../../channels/using/event-transactional-messages.md">Event transactional messages</a><br>targeting an <b>event</b>.</td>
 <td><p><ul><li>They do not contain profile information.</li><li>They are not compatible with <a href="../../sending/using/fatigue-rules.md">fatigue rules</a> (even in the case of an enrichment with profiles).</li><li>The delivery target is defined by the data contained in the event itself.</li></ul></p></td>
+</tr>
+<tr>
+<td align="center"><img src="assets/do-not-localize/icon_profile.svg" width="60px"><br><a href="../../channels/using/profile-transactional-messages.md">Profile transactional messages</a><br>targeting <b>profiles from the Adobe Campaign marketing database</b>.</td>
+<td><p>Profile transactional messages alow you to:<ul><li>Apply marketing typology rules such as <b>Address on block list</b> or <a href="../../sending/using/fatigue-rules.md">fatigue rules</a>.</li><li>Include the unsubscription link within the messages.</li><li>Add the transactional messages to the global delivery reporting.</li><li>Leverage the transactional messages in the customer journey.</li></ul></p></td>
 </tr>
 </table>
 
 <!--[Profile transactional messages](../../channels/using/profile-transactional-messages.md) targeting **profiles from the Adobe Campaign marketing database**. You can use information from the Adobe Campaign database to send a transactional message based on customer marketing profiles.-->
-
-<table>
-<tr>
-<td align="center"><a href="../../channels/using/profile-transactional-messages.md">Profile transactional messages</a><br>targeting <b>profiles from the Adobe Campaign marketing database</b>.</td>
-<td align="center"><img src="assets/do-not-localize/icon_profile.svg" width="60px"></td>
-<td><p>Profile transactional messages alow you to:<ul><li>Apply marketing typology rules such as <b>Address on block list</b> or <a href="../../sending/using/fatigue-rules.md">fatigue rules</a>.</li><li>Include the unsubscription link within the messages.</li><li>Add the transactional messages to the global delivery reporting.</li><li>Leverage the transactional messages in the customer journey.</li></ul></p></td>
-</tr>
-</table>
 
 The message type is defined when configuring the event that will be transformed into a transactional message. See [Transactional messaging configuration](../../administration/using/configuring-transactional-messaging.md).
 
@@ -141,7 +129,7 @@ For more on integrating the event into your website, see [Site integration](../.
 
 <!--Once all of these steps have been carried out, the message can be delivered:-->
 
-<img src="assets/do-not-localize/icon_notification.svg" width="60px">
+<img src="assets/do-not-localize/icon_notification.svg" width="40px">
 
 As soon as a user leaves the site without ordering the products in their cart, they automatically receive a notification email.
 
