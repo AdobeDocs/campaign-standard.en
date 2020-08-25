@@ -20,8 +20,9 @@ snippet: y
 
 <table>
 <tr>
-<td class="noborder"><img src="assets/do-not-localize/icon_transactional.svg" width="90px"></td>
-<td class="noborder"><p>Transactional messaging enables you to <b>send individual and unique messages</b> to your customers in real-time.<br>It can be welcome messages, order shipping confirmations, password modification, etc.</p></td>
+<td class="noborder"><img src="assets/do-not-localize/icon_transactional.svg" width="60px"></td>
+<td class="noborder"><p>Transactional messaging enables you to <b>send individual and unique messages</b> to your customers in real-time.</p></td>
+<td class="noborder"><p>It can be welcome messages, order shipping confirmations, password modification, etc.</p></td>
 </tr>
 </table>
 
@@ -43,20 +44,28 @@ Transactional messaging is also available from the Adobe Campaign Standard API. 
 
 <table>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_concepts.svg" width="60px"><br><p><b>What is a transactional message?</b></p></td>
-<td><p>It is an individual and unique communication, sent by a provider such as a website. It is particularly expected, because it contains important information that the recipient wants to check or confirm.</p></td>
+<td align="center"><img src="assets/do-not-localize/icon_concepts.svg" width="60px"></td>
+<td align="center"><br><p><b>What is a transactional message?</b></p></td>
+<td><p>It is an individual and unique communication, sent by a provider such as a website.</p></td>
+<td><p>It is particularly expected, because it contains important information that the recipient wants to check or confirm.</p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_channels.svg" width="60px"><br><p><b>When is it due?</b></p></td>
-<td><p> Because this message contains important information, the user expects it to be sent in real time. Consequently, the delay between the event being triggered and the message arriving has to be very short.</p></td>
+<td align="center"><img src="assets/do-not-localize/icon_channels.svg" width="60px"></td>
+<td align="center"><p><b>When is it due?</b></p></td>
+<td><p> Because this message contains important information, the user expects it to be sent in real time.</p></td>
+<td><p>Consequently, the delay between the event being triggered and the message arriving has to be very short.</p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_important.svg" width="60px"><br><p><b>Why is it important?</b></p></td>
-<td><p>Generally, a transactional message has high open rates. It should therefore be carefully designed as it can have a strong impact on the customers' behavior. It defines the client relation.</p></td>
+<td align="center"><img src="assets/do-not-localize/icon_important.svg" width="60px"></td>
+<td align="center"><p><b>Why is it important?</b></p></td>
+<td><p>Generally, a transactional message has high open rates. It should therefore be carefully designed.</p></td>
+<td><p>Indeed, it can have a strong impact on the customers' behavior as it defines the client relation.</p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_example.svg" width="60px"><br><b>For example?</b></td>
-<td><p>It could be a welcome message after creating an account, a confirmation that an order has shipped, an invoice, a message confirming a password change, or a notification after a customer browsed your website...</p></td>
+<td align="center"><img src="assets/do-not-localize/icon_example.svg" width="60px"></td>
+<td align="center"><b>For example?</b></td>
+<td><p>It could be a welcome message after creating an account, a confirmation that an order has shipped, an invoice...</p></td>
+<td><p>It can also be a message confirming a password change, or a notification after a customer browsed your website...</p></td>
 </tr>
 </table>
 
