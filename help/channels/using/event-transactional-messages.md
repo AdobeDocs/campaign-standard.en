@@ -326,7 +326,7 @@ Once the event has been assigned to an execution delivery, the transactional mes
 
 >[!NOTE]
 >
->When an event is assigned to an execution delivery, it appears in the sending logs of this execution delivery, and only at this time. The failed deliveries are displayed in the **[!UICONTROL Execution list]** tab of the transactional message.
+>When an event is assigned to an execution delivery, it appears in the sending logs of this execution delivery, and only at this time. The failed deliveries are displayed in the **[!UICONTROL Execution list]** tab of the transactional message sending logs.
 
 ### Limitations {#limitations}
 
