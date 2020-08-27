@@ -205,7 +205,7 @@ Declared events variables are now available from the list of personalization fie
 
 The use case below shows how to call workflow with parameters within your workflows.
 
-The objective is to trigger a workflow from an API call with external parameters. This workflow will load data into your database from a file and create an associated audience. Once the audience created, a second workflow will be triggered to send a message personnalized with the external parameters defined in the API call.
+The objective is to trigger a workflow from an API call with external parameters. This workflow will load data into your database from a file and create an associated audience. Once the audience has been created, a second workflow will be triggered to send a message personnalized with the external parameters defined in the API call.
 
 To perform this use case, you need to perform the actions below:
 
