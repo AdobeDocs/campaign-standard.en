@@ -201,13 +201,13 @@ For more on creating a collection and related fields when configuring the event,
 
 ## Testing a transactional message {#testing-a-transactional-message}
 
-You first need to create a specific test profile that will allow you to test properly the transactional message.
+You first need to create a specific test profile that will allow you to properly check the transactional message.
 
 ### Defining a specific test profile {#defining-specific-test-profile}
 
-Define an adapted test profile, which will allow you to preview your message and send a proof to check it.
+Define a test profile that will be linked to your event, which will allow you to preview your message and send a relevant proof.
 
-1. Create a test profile that will be linked to your event.
+1. From the transactional message dashboard, click the **[!UICONTROL Create test profile]** button.
 
    ![](assets/message-center_test-profile.png)
 
@@ -219,14 +219,14 @@ Define an adapted test profile, which will allow you to preview your message and
    >
    >You can also enter the information relating to the profile table. See [Enriching the transactional message content](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content).
 
-1. After having been created, the test profile will be pre-specified in the transactional message. Click the **[!UICONTROL Test profiles]** block of the message to check the target of your proof.
+1. Once created, the test profile will be pre-specified in the transactional message. Click the **[!UICONTROL Test profiles]** block of the message to check the target of your proof.
 
    ![](assets/message-center_5.png)
 
 You can also create a new test profile or use one that already exists in the **[!UICONTROL Test profiles]** menu.
 
 1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
-1. In the **[!UICONTROL Event]** section of the page of the test profile that you have chosen, select the event that you have just created. In this example, select "Cart abandonment (EVTcartAbandonment)".
+1. In the **[!UICONTROL Event]** section, select the event that you have just created. In this example, select "Cart abandonment (EVTcartAbandonment)".
 1. Specify the information to send in JSON format in the **[!UICONTROL Event data]** text box.
 
    ![](assets/message-center_3.png)
@@ -241,7 +241,7 @@ You can also create a new test profile or use one that already exists in the **[
 
 ### Sending the proof {#sending-proof}
 
-Once you have created one or more specific test profiles and saved your transactional message, you can now send a proof to test it.
+Once you have created one or more specific test profiles and saved your transactional message, you can send a proof to test it.
 
 ![](assets/message-center_10.png)
 
