@@ -121,7 +121,7 @@ The profiles matching the result of the query will be excluded from the target.
 Below is an example showing how to define a control group using both methods: extracting profiles from the main target and using a query to exclude a specific population.
 
 1. Create a workflow. The detailed steps to create a workflow are presented in the [Building a workflow](../../automating/using/building-a-workflow.md) section.
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, drag and drop a [Query](../../automating/using/query.md) activity. Double-click the activity to define your target. <!--For example, in **[!UICONTROL Shortcuts]**, drag and drop **[!UICONTROL Profile]**, select **[!UICONTROL Age]** with the operator **[!UICONTROL Greater than]** and type 25 in the **[!UICONTROL Value]** field.-->
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, drag and drop a [Query](../../automating/using/query.md) activity. Double-click the activity and define your target. <!--For example, in **[!UICONTROL Shortcuts]**, drag and drop **[!UICONTROL Profile]**, select **[!UICONTROL Age]** with the operator **[!UICONTROL Greater than]** and type 25 in the **[!UICONTROL Value]** field.-->
 
 1. In **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, drag and drop an [Email delivery](../../automating/using/email-delivery.md) activity after the main target segment and edit it.
 1. Click the **[!UICONTROL Audience]** block from the delivery dashboard.
@@ -153,7 +153,7 @@ Now that you sent your delivery, what can you do with the control group?
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">
 
-You can extract the **sending logs** to compare how the control group that did not receive the communication reacted compared to the effective target.You can also use the delivery logs to **build another targeting**.
+You can extract the **sending logs** to compare how the control group that did not receive the communication reacted compared to the effective target. You can also use the delivery logs to **build another targeting**.
 
 ### Checking the logs {#checking-logs}
 
@@ -178,13 +178,13 @@ To do another targeting based on the control group that did not receive the mess
     ![](assets/control-group-delivery-properties.png)
 
 1. In the **[!UICONTROL Target]** tab, click **[!UICONTROL Delivery logs]**.
-1. Drag and drop **[!UICONTROL Status]** and select **[!UICONTROL Ignored]**.
+1. Drag and drop **[!UICONTROL Status]** and select **[!UICONTROL Ignored]** as the filter condition.
 
     ![](assets/control-group-status-ignored.png)
 
 1. Click **[!UICONTROL Confirm]**.
 
-1. Still in the **[!UICONTROL Target]** tab, drag and drop **[!UICONTROL Nature of failure]** and select **[!UICONTROL Control group]**.
+1. Still in the **[!UICONTROL Target]** tab, drag and drop **[!UICONTROL Nature of failure]** and select **[!UICONTROL Control group]** as the filter condition.
 
     ![](assets/control-group-nature-of-failure.png)
 
