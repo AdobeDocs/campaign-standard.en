@@ -16,7 +16,7 @@ snippet: y
 
 # About workflow use cases {#about-workflow-use-cases}
 
-In is section, you will find various use cases leveraging Campaign workflows capabilities.
+In this section, you will find various use cases leveraging Campaign workflows capabilities.
 
 They will help you discover the different contexts in which workflows can be used and respond to your needs.
 

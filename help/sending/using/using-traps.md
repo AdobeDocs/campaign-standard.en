@@ -56,7 +56,7 @@ When defining a message's audience:
 
 The message is sent to the main target and to the test profile.
 
-You can use traps when sending transactional messages. In this case, the test profile will receive one message per event configuration. For more on transactional messaging, see this [section](../../channels/using/about-transactional-messaging.md).
+You can use traps when sending transactional messages. In this case, the test profile will receive one message per event configuration. For more on transactional messaging, see this [section](../../channels/using/getting-started-with-transactional-msg.md).
 
 >[!NOTE]
 >

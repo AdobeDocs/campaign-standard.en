@@ -121,14 +121,14 @@ To send PII data to [!DNL Adobe Campaign Standard], create a rule in [!DNL Exper
 
     You can also pass Lifecycle data in the Collect PII postback or a different postback depending on your Event triggers. here is an example of the Lifecycle data JSON:
 
-        ```
-        {
-        "marketingCloudId":"{%%mcid%%}",
-        "cusDayslastlaunch": "{%%DaysSinceLastUse%%}", 
-        "cusDaysfirstlaunch": "{%%DaysSinceFirstUse%%}", 
-        "cusLaunches": "{%%Launches%%}"
-        }
-        ```
+    ```
+    {
+    "marketingCloudId":"{%%mcid%%}",
+    "cusDayslastlaunch": "{%%DaysSinceLastUse%%}", 
+    "cusDaysfirstlaunch": "{%%DaysSinceFirstUse%%}", 
+    "cusLaunches": "{%%Launches%%}"
+    }
+    ```
 
     The data elements that are defined in [!DNL Experience Platform Launch] should be enclosed in double percentages, for example %%mcid%%, and context variables from app should be enclosed in single percentages, for example %contextdata.email%.
 

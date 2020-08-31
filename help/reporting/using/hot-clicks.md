@@ -61,7 +61,7 @@ An execution delivery is a non-actionable and non-functional technical message t
 
 * By default once a month for transactional messages, and each time a transactional message is edited and published again.
 
-  For more on transactional messages, see [About transactional messaging](../../channels/using/about-transactional-messaging.md).
+  For more on transactional messages, see [About transactional messaging](../../channels/using/getting-started-with-transactional-msg.md).
 
 >[!NOTE]
 >

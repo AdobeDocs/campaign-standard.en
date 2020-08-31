@@ -18,7 +18,7 @@ snippet: y
 
 You can send event transactional messages targeting an event. This type of transactional messages does not contain profile information: the delivery target is defined by the data contained in the event itself.
 
-Once you have created and published an event (the cart abandonment as explained in [this section](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle)), the corresponding transactional message is created automatically.
+Once you have created and published an event (the cart abandonment as explained in [this section](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)), the corresponding transactional message is created automatically.
 
 The configuration steps are presented in the [Configuring an event to send an transactional message](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) section.
 
@@ -85,7 +85,7 @@ To set up personalization in a transactional message, follow the steps below:
 
 1. Add a subject and edit your message content to suit your needs.
 
-    >[NOTE]
+    >[!NOTE]
     >
     >The link to the abandoned cart is a link to an external URL that will redirect the person to their cart. This parameter is not managed in Adobe Campaign.
 

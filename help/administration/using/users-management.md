@@ -133,7 +133,7 @@ You can then check if your user has been correctly synced to Adobe Campaign:
 
 1. Check your user's security group. Here, you can see that the user has been assigned the **[!UICONTROL Administrators]** security group.
 
-    >[!Note]
+    >[!NOTE]
     >
     >Security groups can only be removed or added to a user in the Admin Console.
 

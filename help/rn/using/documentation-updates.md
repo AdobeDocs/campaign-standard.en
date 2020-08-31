@@ -18,6 +18,12 @@ snippet: y
 
 In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), this page lists all the new updates in Adobe Campaign Standard documentation.
 
+## Documentation updates - August 2020 {#doc-updates-august-2020}
+
+A new updated section on getting started with transactional messaging is available. [Read more](../../channels/using/getting-started-with-transactional-msg.md)
+
+The Transactional messaging limitations section has been moved. [Read more](../../channels/using/transactional-messaging-limitations.md)
+
 ## Documentation updates - July 2020 {#doc-updates-july-2020}
 
 A new section has been added with guidelines related to Campaign Standard monitoring. [Read more](../../administration/using/monitoring-guidelines.md)
@@ -122,7 +128,7 @@ A new section describing how to delete an event configuration is now available. 
 
 The page describing how to test the subject line of an email to predict its open rate has been updated and improved, including a new [troubleshooting](../../sending/using/testing-subject-line-email.md#troubleshooting) section. [Read more](../../sending/using/testing-subject-line-email.md)
 
-The transactional messaging sections have been updated to reflect the multiple user interface slight updates and improvements. [Read more](../../channels/using/about-transactional-messaging.md)
+The transactional messaging sections have been updated to reflect the multiple user interface slight updates and improvements. [Read more](../../channels/using/getting-started-with-transactional-msg.md)
 
 Information related to the External API activity guardrails have been updated. [Read more](../../automating/using/external-api.md)
 
@@ -230,7 +236,7 @@ The list of error messages for Campaign Standard and Campaign Classic has been u
 
 The GDPR getting started guide has been improved and enriched. It is now a privacy management documentation including GDPR and CCPA. [Read more](https://helpx.adobe.com/content/help/en/campaign/kb/campaign-privacy.html)
 
-A new chart presenting the transactional messaging publication process has been added. [Read more](../../channels/using/about-transactional-messaging.md#transactional-messaging-pub-process)
+A new chart presenting the transactional messaging publication process has been added. [Read more](../../administration/using/configuring-transactional-messaging.md#transactional-messaging-pub-process)
 
 The Delivery Best Practices getting started guide has been moved and updated. [Read more](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
@@ -410,7 +416,7 @@ Workflow enhancements - Read more [here](../../automating/using/workflow-interfa
 
 The new onboarding experience to create email contents and other enhancements to the Email Designer have been added to the Editing email content chapter. [Read more](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page)
 
-A new section on Transactional messaging limitations has been added. [Read more](../../channels/using/about-transactional-messaging.md#transactional-messaging-limitations)
+A new section on Transactional messaging limitations has been added. [Read more](../../channels/using/transactional-messaging-limitations.md)
 
 A new section comparing the different email authoring options in Adobe Campaign has been added. [Read more](../../designing/using/using-integrations.md#email-design-options-comparison)
 
