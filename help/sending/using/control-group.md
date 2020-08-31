@@ -18,12 +18,9 @@ snippet: y
 
 To measure the impact of a delivery, you may want to withdraw some profiles from your target so that they will not receive a given message.
 
-<table>
-<tr>
-<td><img src="assets/do-not-localize/icon_concepts.svg" width="60px"></td>
-<td><p>To do this in Adobe Campaign, you can create a <b>control group</b> when defining the target of your delivery.</p></td>
-</tr>
-</table>
+<img src="assets/do-not-localize/icon_concepts.svg" width="60px">
+
+To do this in Adobe Campaign, you can create a <b>control group</b> when defining the target of your delivery.
 
 This will enable you to make a comparison with the behavior of the target population which did receive the message. You can also use the sending logs in other campaigns.
 
@@ -154,12 +151,9 @@ The profiles that were extracted (the 100 oldest profiles) and the ones that wer
 
 Now that you sent your delivery, what can you do with the control group?
 
-<table>
-<tr>
-<td><img src="assets/do-not-localize/icon_concepts.svg" width="60px"></td>
-<td><p>You can extract the <b>sending logs</b> to compare how the control group that did not receive the communication reacted compared to the effective target.<br>You can also use the delivery logs to <b>build another targeting</b>.</br></p></td>
-</tr>
-</table>
+<img src="assets/do-not-localize/icon_concepts.svg" width="60px">
+
+You can extract the **sending logs** to compare how the control group that did not receive the communication reacted compared to the effective target.You can also use the delivery logs to **build another targeting**.
 
 ### Checking the logs {#checking-logs}
 
