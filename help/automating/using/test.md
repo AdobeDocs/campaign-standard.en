@@ -45,11 +45,10 @@ Conditions can be based on **functions**, or on **variables**, for example event
 
    When editing the **[!UICONTROL Condition]** field, two buttons provide help to call events variables and edit expressions combining variables and functions:
 
-    * ![](assets/extsignal_picker.png): select the events variable among all variables that are available in the workflow (see [Customizing a workflow with external parameters](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-a-workflow-with-external-parameters))
+    * ![](assets/extsignal_picker.png): select the events variable among all variables that are available in the workflow (see [](../../automating/using/customizing-workflow-external-parameters.md))
     
       ![](assets/wkf_test_activity_variables.png)
 
     * ![](assets/extsignal_expression_editor.png): edit expressions combining variables and functions. For more on the Expression editor, refer to [this section](../../automating/using/advanced-expression-editing.md).
     
       ![](assets/wkf_test_activity_variables_expression.png)
-
