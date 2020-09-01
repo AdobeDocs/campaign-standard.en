@@ -223,7 +223,7 @@ Define a test profile that will be linked to your event, which will allow you to
 
    ![](assets/message-center_5.png)
 
-You can also create a new test profile or use one that already exists in the **[!UICONTROL Test profiles]** menu.
+You can also create a new test profile or use one that already exists in the **[!UICONTROL Test profiles]** menu. To do this:
 
 1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
 1. In the **[!UICONTROL Event]** section, select the event that you have just created. In this example, select "Cart abandonment (EVTcartAbandonment)".
@@ -336,7 +336,7 @@ Once the event has been assigned to an execution delivery, the transactional mes
 >
 >When an event is assigned to an execution delivery, it appears in the sending logs of this execution delivery, and only at this time. The failed deliveries are displayed in the **[!UICONTROL Execution list]** tab of the transactional message sending logs.
 
-### Limitations {#limitations}
+### Retry process limitations {#limitations}
 
 **Sending logs update**
 
