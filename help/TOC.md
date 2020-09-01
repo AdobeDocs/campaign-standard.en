@@ -245,11 +245,11 @@ user-guide-title: Adobe Campaign Standard Help
        + [Managing execution options](automating/using/managing-execution-options.md)
        + [Managing activities' properties](automating/using/activity-properties.md)
   + Calling a workflow with external parameters {#calling-workflow-external-parameters}
-       + [Declaring the parameters in the External Signal activity](automating/declaring-parameters-external-signal.md)
-       + [Defining the parameters when calling the workflow](automating/defining-parameters-calling-workflow.md)
-       + [Monitoring the events variables](automating/monitoring-events-variables.md)
-       + [Customizing the workflow with external parameters](automating/customizing-workflow-external-parameters.md)
-       + [Use case](automating/use-case-calling-workflow.md)
+       + [Declaring the parameters in the External Signal activity](automating/using/declaring-parameters-external-signal.md)
+       + [Defining the parameters when calling the workflow](automating/using/defining-parameters-calling-workflow.md)
+       + [Monitoring the events variables](automating/using/monitoring-events-variables.md)
+       + [Customizing the workflow with external parameters](automating/using/customizing-workflow-external-parameters.md)
+       + [Use case](automating/using/use-case-calling-workflow.md)
   + Targeting activities {#targeting-activities}
        + [About targeting activities](automating/using/about-targeting-activities.md)
        + [Query](automating/using/query.md)

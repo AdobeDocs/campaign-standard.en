@@ -135,7 +135,7 @@ The **[!UICONTROL File(s) present on the Adobe Campaign server]** protocol corre
 Metacharacters, or wildcards (for example &#42; or ?) can be used to filter files.
 
 Choose if you want to **[!UICONTROL Define a file path]** or **[!UICONTROL Use a dynamic file path]** 
-The **[!UICONTROL Use a dynamic file path]** option, lets you use a standard expression and events variables to personalize the name of the file to transfer. For more on this, refer to this section: [](../../automating/using/customizing-workflow-with-events-variables.md).
+The **[!UICONTROL Use a dynamic file path]** option, lets you use a standard expression and events variables to personalize the name of the file to transfer. For more on this, refer to this section: [](../../automating/using/customizing-workflow-with-external-parameters.md).
 
 Please note that the path must be relative to the storage space directory of the Adobe Campaign server. Files are located in the **sftp&lt;yourinstancename&gt;/** directory. You also cannot browse the directories above the storage space. For example:
 
