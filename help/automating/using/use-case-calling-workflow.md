@@ -28,11 +28,11 @@ To perform this use case, you need to perform the actions below:
 
 ![](assets/extsignal_uc_process.png)
 
-### Prerequisites {#prerequisites}
+## Prerequisites {#prerequisites}
 
 Before configuring the workflows, you need to create Workflow 1 and 2 with an **[!UICONTROL External signal]** activity in each of them. This way, you will be able to target these signal activities when calling the workflows.
 
-### Step 1: Configuring the API call {#step-1--configuring-the-api-call}
+## Step 1: Configuring the API call {#step-1--configuring-the-api-call}
 
 Make an API call to trigger Workflow 1 with parameters. For more on the API call syntax, refer to the [Campaign Standard REST APIs documentation](../../api/using/triggering-a-signal-activity.md).
 
@@ -57,7 +57,7 @@ In our case, we want to call the workflow with the parameters below:
 -d } 
 ```
 
-### Step 2: Configuring Workflow 1 {#step-2--configuring-workflow-1}
+## Step 2: Configuring Workflow 1 {#step-2--configuring-workflow-1}
 
 Workflow 1 will be built as below:
 
@@ -128,7 +128,7 @@ Follow the steps below to configure the workflow:
 
 Workflow 1 is configured, you can now build Workflow 2. For more on this, refer to [this section](../../automating/using/use-case-calling-workflow.md#step-3--configuring-workflow-2).
 
-### Step 3: Configuring Workflow 2 {#step-3--configuring-workflow-2}
+## Step 3: Configuring Workflow 2 {#step-3--configuring-workflow-2}
 
 Workflow 2 will be built as below:
 
@@ -185,6 +185,6 @@ Follow the steps below to configure the workflow:
 
    ![](assets/extsignal_uc14.png)
 
-### Executing the workflows {#executing-the-workflows}
+## Executing the workflows {#executing-the-workflows}
 
 Once the workflows has been built, you can execute them. Make sure the two workflows are started before performing the API call.
