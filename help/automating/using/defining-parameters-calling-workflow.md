@@ -20,7 +20,7 @@ This section details how to define parameters when calling a workflow. For more 
 
 Before defining the parameters, make sure that:
 
-* The parameters have been declared in the **[!UICONTROL External Signal]** activity. See [Declaring the parameters in the External signal activity](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity).
+* The parameters have been declared in the **[!UICONTROL External Signal]** activity. See [](../../automating/using/declaring-parameter-external-signal.md).
 * The workflow containing the signal activity is running.
 
 To configure the **[!UICONTROL End]** activity, follow the steps below:
@@ -29,7 +29,7 @@ To configure the **[!UICONTROL End]** activity, follow the steps below:
 1. Select the workflow and the external signal activity that you want to call.
 1. Click the **[!UICONTROL Create element]** button to add a parameter, then fill in its name and value.
 
-    * **[!UICONTROL Name]**: the name that has been declared in the **[!UICONTROL External signal]** activity (see [Declaring the parameters in the External signal activity](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity)).
+    * **[!UICONTROL Name]**: the name that has been declared in the **[!UICONTROL External signal]** activity (see [](../../automating/using/declaring-parameters-external-signal-activity.md)).
     * **[!UICONTROL Value]**: the value that you want to assign to the parameter. The value should follow the **Standard syntax**, described in [this section](../../automating/using/advanced-expression-editing.md#standard-syntax).
 
    ![](assets/extsignal_definingparameters_2.png)

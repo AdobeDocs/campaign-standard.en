@@ -18,13 +18,13 @@ snippet: y
 
 Once the workflow has been triggered, the parameters are ingested into the events variables and can be used to customize the workflow's activities.
 
-They can, for example, be used to define which audience to read in the **[!UICONTROL Read audience]** activity, the name of the file to transfer in the **[!UICONTROL Transfer file]** activity, etc. (see [](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables)).
+They can, for example, be used to define which audience to read in the **[!UICONTROL Read audience]** activity, the name of the file to transfer in the **[!UICONTROL Transfer file]** activity, etc. (see [](../../automating/using/customizing-workflow-external-parameters.md)).
 
 ## Using events variables {#using-events-variables}
 
 Events variables are used within an expression that must respect the [Standard syntax](../../automating/using/advanced-expression-editing.md#standard-syntax).
 
-The syntax to use events variables must follow the format below, and use the parameter's name that has been defined in the **[!UICONTROL External signal]** activity (see [Declaring the parameters in the External signal activity](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity)):
+The syntax to use events variables must follow the format below, and use the parameter's name that has been defined in the **[!UICONTROL External signal]** activity (see [Declaring the parameters in the External signal activity](../../automating/using/declaring-parameters-external-signal.md)):
 
 ```
 $(vars/@parameterName)
@@ -57,7 +57,7 @@ When using a variable in an activity, the interface provides help to call it.
 
 ## Customizing activities with events variables {#customizing-activities-with-events-variables}
 
-Events variables can be used to customize several activities, listed in the section below. For more on how to call a variable from an activity, refer to [this section](../../automating/using/calling-a-workflow-with-external-parameters.md#using-events-variables).
+Events variables can be used to customize several activities, listed in the section below. For more on how to call a variable from an activity, refer to [this section](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables).
 
 **[!UICONTROL Read audience]** activity: define the audience to target based on events variables.
 

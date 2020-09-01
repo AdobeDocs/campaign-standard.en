@@ -56,7 +56,7 @@ The **[!UICONTROL Query]** activity can be used for various types of uses:
 
 1. In the **[!UICONTROL Transition]** tab, the **[!UICONTROL Enable an outbound transition]** option lets you add an outbound transition after the query activity, even if it retrieves no data.
 
-   The outbound transition's segment code can be personalized using a standard expression and events variables (see [Customizing activities with events variables](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables)).
+   The outbound transition's segment code can be personalized using a standard expression and events variables (see [](../../automating/using/customizing-workflow-events-variables.md)).
 
 1. Confirm the configuration of your activity and save your workflow.
 

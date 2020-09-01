@@ -23,7 +23,7 @@ The first step to call a workflow with parameters is to declare them in an **[!U
 
    >[!CAUTION]
    >
-   >Make sure that the name and number of parameters are identical to what is defined when calling the workflow (see [Defining the parameters when calling the workflow](../../automating/using/calling-a-workflow-with-external-parameters.md#defining-the-parameters-when-calling-the-workflow)). Moreover, the parameters' types must be consistent with the values that are expected.
+   >Make sure that the name and number of parameters are identical to what is defined when calling the workflow (see [](../../automating/using/defining-parameters-calling-workflow.md)). Moreover, the parameters' types must be consistent with the values that are expected.
 
    ![](assets/extsignal_declaringparameters_1.png)
 

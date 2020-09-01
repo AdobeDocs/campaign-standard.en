@@ -22,9 +22,9 @@ The objective is to trigger a workflow from an API call with external parameters
 
 To perform this use case, you need to perform the actions below:
 
-1. **Make an API call** to trigger Workflow 1 with external parameters. See [Step 1: Configuring the API call](../../automating/using/calling-a-workflow-with-external-parameters.md#step-1--configuring-the-api-call).
-1. **Build Workflow 1**: the workflow will transfer a file and load it into the database. It will then test if the data is empty or not, and eventually save the profiles into an audience. Finally, it will trigger Workflow 2. See [Step 2: Configuring Workflow 1](../../automating/using/calling-a-workflow-with-external-parameters.md#step-2--configuring-workflow-1).
-1. **Build Workflow 2**: the workflow will read the audience that has been created in Workflow 1, then send a personalized message to the profiles, with a segment code customized with the parameters. See [Step 3: Configuring Workflow 2](../../automating/using/calling-a-workflow-with-external-parameters.md#step-3--configuring-workflow-2).
+1. **Make an API call** to trigger Workflow 1 with external parameters. See [Step 1: Configuring the API call](../../automating/using/use-case-calling-workflow.md#step-1--configuring-the-api-call).
+1. **Build Workflow 1**: the workflow will transfer a file and load it into the database. It will then test if the data is empty or not, and eventually save the profiles into an audience. Finally, it will trigger Workflow 2. See [Step 2: Configuring Workflow 1](../../automating/using/use-case-calling-workflow.md#step-2--configuring-workflow-1).
+1. **Build Workflow 2**: the workflow will read the audience that has been created in Workflow 1, then send a personalized message to the profiles, with a segment code customized with the parameters. See [Step 3: Configuring Workflow 2](../../automating/using/use-case-calling-workflow.md#step-3--configuring-workflow-2).
 
 ![](assets/extsignal_uc_process.png)
 
@@ -126,7 +126,7 @@ Follow the steps below to configure the workflow:
 
    ![](assets/extsignal_uc7.png)
 
-Workflow 1 is configured, you can now build Workflow 2. For more on this, refer to [this section](../../automating/using/calling-a-workflow-with-external-parameters.md#step-3--configuring-workflow-2).
+Workflow 1 is configured, you can now build Workflow 2. For more on this, refer to [this section](../../automating/using/use-case-calling-workflow.md#step-3--configuring-workflow-2).
 
 ### Step 3: Configuring Workflow 2 {#step-3--configuring-workflow-2}
 
