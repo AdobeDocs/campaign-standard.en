@@ -21,7 +21,12 @@ snippet: y
 
 <img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
-Transactional messaging enables you to <b>send individual and unique messages</b> to your customers in real-time. It can be welcome messages, order shipping confirmations, password modification, etc.
+<table>
+<tr>
+<td ><br><p>Transactional messaging enables you to <b>send individual and unique messages</b> to your customers in real-time.</p></td>
+<td>It can be welcome messages, order shipping confirmations, password modification, etc.</td>
+</tr>
+</table>
 
 Adobe Campaign allows you to integrate this functionality with an information system which sends events that are to be transformed into custom transactional messages.
 
@@ -105,9 +110,11 @@ Configure an event that will be named "Cart abandonment" and publish this event 
 
 The API that will be used by your website developer is deployed and a transactional message is automatically created.-->
 
+<img src="assets/do-not-localize/icon_config.svg" width="60px">
+
 <table>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_config.svg" width="60px"><br><p>Configure an event that will be named "Cart abandonment" and publish this event configuration.</p></td>
+<td><br><p>Configure an event that will be named "Cart abandonment" and publish this event configuration.</p></td>
 <td>The API that will be used by your website developer is deployed and a transactional message is automatically created.</td>
 </tr>
 </table>
@@ -120,9 +127,11 @@ Creating and publishing an event are presented in the [Configuring an event to s
 
 Edit and personalize the transactional message, test it, and then publish it.-->
 
+<img src="assets/do-not-localize/icon_notification.svg" width="45px">
+
 <table>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_notification.svg" width="45px"><br><p>Edit and personalize the transactional message, test it, and then publish it.</p></td>
+<td><br><p>Edit and personalize the transactional message, test it, and then publish it.</p></td>
 <td>The transactional message will then be ready to be sent.</td>
 </tr>
 </table>
@@ -137,9 +146,11 @@ Use the REST Transactional Messages API to integrate the event into your website
 
 The event will be triggered when a client abandons their cart.-->
 
+<img src="assets/do-not-localize/icon_api.svg" width="60px">
+
 <table>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_api.svg" width="60px"><br><p>Use the REST Transactional Messages API to integrate the event into your website.</p></td>
+<td><br><p>Use the REST Transactional Messages API to integrate the event into your website.</p></td>
 <td>The event will be triggered when a client abandons their cart.</td>
 </tr>
 </table>
@@ -154,9 +165,11 @@ For more on integrating the event into your website, see [Site integration](../.
 
 As soon as a user leaves the site without ordering the products in their cart, they automatically receive a notification email.-->
 
+<img src="assets/do-not-localize/icon_channels.svg" width="60px">
+
 <table>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_channels.svg" width="60px"><br><p>Once all of these steps have been carried out, the message can be delivered.</p></td>
+<td><br><p>Once all of these steps have been carried out, the message can be delivered.</p></td>
 <td>As soon as a user leaves the site without ordering the products in their cart, they automatically receive a notification email.</td>
 </tr>
 </table>
