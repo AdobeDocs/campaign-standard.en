@@ -23,8 +23,7 @@ Let's take the following example, where we want to send emails directly from a C
 The process to call a workflow with parameters is the following:
 
 1. Declare the parameters in the **[!UICONTROL External signal]** activity. See [Declaring the parameters in the External signal activity](../../automating/using/declaring-parameters-external-signal.md).
-1. Configure the **[!UICONTROL End]** activity or the API call to define the parameters and trigger the workflow **[!UICONTROL External signal]** activity.
-
-Once the workflow has been triggered, the parameters are ingested into the workflow's events variables and can be used within the workflow. See [](../../automating/using/customizing-workflow-external-parameters.md).
+1. Configure the **[!UICONTROL End]** activity or the API call to define the parameters and trigger the workflow **[!UICONTROL External signal]** activity. See [](../../automating/using/defining-parameters-calling-workflow.md)
+1. Once the workflow has been triggered, the parameters are ingested into the workflow's events variables and can be used within the workflow. See [](../../automating/using/customizing-workflow-external-parameters.md).
 
 ![](assets/extsignal_process.png)
