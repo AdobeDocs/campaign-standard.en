@@ -16,7 +16,7 @@ snippet: y
 
 # Configure Adobe IO for Microsoft Dynamics 365 integration
 
-Activate your CRM data on cross-channel communication: learn steps required during pre-integration setup to create a new integration for Microsoft Dynamics 365.
+Activate your CRM data on cross-channel communication: learn steps required during pre-integration setup to create a new Adobe IO project and configure it for the Microsoft Dynamics 365 integration..
 
 ## Overview
 
@@ -30,19 +30,15 @@ Before performing the pre-integration setup in this article, it is assumed that 
 
 ## Configuration
 
-You need to set up API access and configure a new integration for pre-integration tool. 
+You will need to create a new Adobe IO project and configure it for the integration. 
 
-Configuration is done in Adobe IO: you need to create a new integration for pre-integration tool, as presented in this video:
-
->[!VIDEO](https://video.tv.adobe.com/v/27308)
-
-### Create a new integration
+### Create a new project
 
 To achieve this, follow the procedure below:
 
-1. Navigate to [Adobe IO Console](https://console.adobe.io/home#) and select your Adobe IMS Organization ID from the drop-down menu at the top left (see below).
+1. Navigate to [Adobe IO Console](https://console.adobe.io/home#) and select your Adobe IMS Organization ID from the drop-down menu at the right of the screen.
 
-Then click on **[!UICONTROL New Integration]** at the top right. 
+Then click on **[!UICONTROL Create new project]** under **[!UICONTROL Quick Start]**  at the top right. 
 
 >[!NOTE]
 >
@@ -151,9 +147,7 @@ Review the integration details.  You will need to refer back to them when you ru
 
 When you are done your services should show up top like the picture below. You will not need to complete the section a-on generating a JWT and access token. 
 
-![](assets/do-not-localize/MSdynACSIntegration-6.png)
-
-Pre-integration setup in Campaign is now complete.  Proceed to complete [pre-configuration setup for Microsoft Dynamics 365](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md).
+Pre-integration setup in Campaign is now complete.  Proceed to complete [pre-integration setup for Microsoft Dynamics 365](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md).
 
 **Related Topics** 
 

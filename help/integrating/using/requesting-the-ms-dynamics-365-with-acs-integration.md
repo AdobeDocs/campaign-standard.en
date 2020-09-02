@@ -26,9 +26,9 @@ Flowchart Details (maps to steps above):
 
 * **Step 1** - It is assumed that you already have, or are in the process of procuring, a license for Microsoft Dynamics 365 for Sales and for Adobe Campaign Standard.
 
-* **Step 2** - The standard integration offering is free to all customers; however, additional costs may apply depending on your requirements (see "Integration guardrails" and "Integration boundaries" sections. Integration SKUs will need to be added to your Campaign contract to be able to take advantage of the integration.
+* **Step 2** - The standard integration offering is free to all customers; however, additional costs may apply depending on your requirements (see "Integration guardrails" and "Integration boundaries" sections). A new sales order will need to be signed in order to take advantage of the integration.
 
-* **Step 3** - Complete pre-integration steps for Dynamics 365 and Campaign (see Configuring this integration section below).
+* **Step 3** - Complete pre-integration steps for Dynamics 365 and Campaign (see "Configuring this integration" section below).
 
 * **Steps 4-7** - The Adobe onboarding team will work with you through the onboarding process.
 
@@ -57,7 +57,7 @@ For any issues with integration data flows, make sure to include the report suit
 
 * Process Owner: Engineering Architects
 
-* ES Process ID: Provided during onboarding process
+* ES Process ID: [Provided during onboarding process]
 
 * Process Title: Dynamics 365 / Adobe Campaign Standard Integration
 

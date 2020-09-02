@@ -39,8 +39,6 @@ This integration is designed to support four main use cases:
 1. Sending email marketing events (sends, opens, clicks, bounces) from Campaign to Dynamics 365 to display to the sales repository in the Dynamics 365 interface
 1. Synchronizing opt-out (e.g., do not email) statuses between Dynamics 365 and ACS to maintain customer privacy preferences.
 
-Add Video Link: "Watch Dynamics 365-Campaign Standard integration feature video here."
-
 ## Key benefits
 
 * Consistent messaging between sales & marketing

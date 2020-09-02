@@ -50,7 +50,7 @@ The following guardrails should be taken into consideration when planning to use
 
 * Onboarding maintenance windows may need to be established between Adobe and the customer as initial ingest may cause Campaign slowdowns.
 
-* You are encouraged to communicate known instances of significant increase or “spikes” in connector usage of the integration (e.g., sharp increase in new or updated records), as this could cause slowdowns in data syncing.
+* You are encouraged to communicate known instances of significant increase or “spikes” in usage of the integration (e.g., sharp increase in new or updated records), as this could cause slowdowns in data syncing.
 
 * As part of the integration, you will be expected to complete the pre-integration configuration steps in Microsoft Azure and Dynamics 365.
 
@@ -62,7 +62,7 @@ The integration was designed to solve the general use case of common data moveme
 
 * The integration does not issue any privacy (e.g., GDPR) deletes. The responsibility of fulfilling end-user privacy requests rests with the customer; such requests should be made in both Campaign (via the Adobe Experience Platform Privacy Service) and Dynamics 365 independently. The integration can issue regular deletes to help with data synchronization, if desired.
 
-* No profile or custom entity data will by synchronized from Campaign to Dynamics 365, with the exception of opt-out information (if configured by the customer).
+* No profile or custom entity data will be synchronized from Campaign to Dynamics 365, with the exception of opt-out information (if configured by the customer).
 
 * Campaign subscription management (i.e., subscribes/unsubscribes) is not natively supported.
 
