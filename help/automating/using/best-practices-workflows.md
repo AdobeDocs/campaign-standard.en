@@ -102,7 +102,7 @@ For more information, refer to [Scheduler activity](../../automating/using/sched
 
 ## Calling workflow with parameters{#workflow-with-parameters}
 
-Make sure that the name and number of parameters are identical to what is defined when calling the workflow (see [Defining the parameters when calling the workflow](../../automating/using/calling-a-workflow-with-external-parameters.md#defining-the-parameters-when-calling-the-workflow)). The parameters' types must also be consistent with the values that are expected.
+Make sure that the name and number of parameters are identical to what is defined when calling the workflow (see [](../../automating/using/defining-parameters-calling-workflow.md). The parameters' types must also be consistent with the values that are expected.
 
 Make sure that all the parameters have been declared in the **[!UICONTROL External signal activity]**. Otherwise, an error will occur when running the activity.
 

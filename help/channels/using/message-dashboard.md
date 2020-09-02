@@ -98,4 +98,4 @@ Below is a list of the messages that can be displayed:
 
 * *"This message is a technical transactional message template. You cannot modify or publish it."*
 
-    This warning is displayed in empty transactional message templates that are not editable. For more on transactional messages, see [this section](../../channels/using/about-transactional-messaging.md).
+    This warning is displayed in empty transactional message templates that are not editable. For more on transactional messages, see [this section](../../channels/using/getting-started-with-transactional-msg.md).

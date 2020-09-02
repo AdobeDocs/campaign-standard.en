@@ -39,7 +39,7 @@ Note that an **[!UICONTROL External signal]** activity can be triggered from sev
 **Related topics**
 
 * [Use case: External signal activity and data import](../../automating/using/external-signal-data-import.md).
-* [Use case: Calling a workflow to create an audience from a file using external parameters](../../automating/using/calling-a-workflow-with-external-parameters.md#use-case)
+* [Use case: Calling a workflow to create an audience from a file using external parameters](../../automating/using/use-case-calling-workflow.md)
 
 ## Configuration {#configuration}
 
@@ -49,7 +49,7 @@ When configuring an external signal, it is important to first configure the **[!
 1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
 1. Edit the label of the activity. This label is needed when configuring the source workflow that triggers the **[!UICONTROL External signal]**.
 
-   If you want to call the workflow with parameters, use the **[!UICONTROL Parameters]** area to declare them. For more on this, refer to [this section](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity).
+   If you want to call the workflow with parameters, use the **[!UICONTROL Parameters]** area to declare them. For more on this, refer to this section: [](../../automating/using/declaring-parameters-external-signal.md).
 
    ![](assets/external_signal_configuration.png)
 
@@ -71,7 +71,7 @@ When configuring an external signal, it is important to first configure the **[!
 
    When you set an **[!UICONTROL End]** activity to trigger another workflow, its icon is updated with an additional signal symbol.
 
-   If you want to call the workflow with parameters, use the **[!UICONTROL Parameters and values]** area. For more on this, refer to [this section](../../automating/using/calling-a-workflow-with-external-parameters.md#defining-the-parameters-when-calling-the-workflow).
+   If you want to call the workflow with parameters, use the **[!UICONTROL Parameters and values]** area. For more on this, refer to this section: [](../../automating/using/defining-parameters-calling-workflow.md).
 
    ![](assets/external_signal_end.png)
 

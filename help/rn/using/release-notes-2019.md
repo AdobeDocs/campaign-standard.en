@@ -231,7 +231,7 @@ snippet: y
 * Fixed an error which prevented hard bounces email addresses from being put in quarantine. (CAMP-24587)
 * Fixed an issue which occurred when adding a typology rule, then deleting it before saving the typology. (CAMP-32789)
 * Fixed an issue that could prevent landing page content from being displayed when disabling dynamic content. (CAMP-32924)
-* Fixed an issue with recurring deliveries which occurred when using personalization on a master delivery's attributes. (CAMP-32983)
+* Fixed an issue with recurring deliveries which occurred when using personalization on a primary delivery's attributes. (CAMP-32983)
 * Fixed an issue in workflows which prevented from reading results from a transition containing incoming SMS messages data. (CAMP-33134)
 * Fixed an issue in workflows which occurred when combining fork and exclusion activities to create audiences. (CAMP-33401)
 * Fixed an issue that could prevent mirror page content from being displayed, and proof messages from being sent for recurring deliveries. (CAMP-33413)
@@ -353,7 +353,7 @@ Several improvements have been added to the Transactional messaging channel in o
 * The transactional messaging process has been optimized to be able to start in parallel multiple analysis of the same message. 
 * Fixed an issue that could lead to inconsistent throughput and latency for transactional push notifications.
 * Fixed an issue that displayed an incorrect target audience for transactional message execution deliveries.
-* Fixed an issue that occurred when importing a package with an event configuration and the associated transactional message. For more on this, refer to the [detailed documentation](../../channels/using/about-transactional-messaging.md#exporting-and-importing-transactional-messages).
+* Fixed an issue that occurred when importing a package with an event configuration and the associated transactional message. For more on this, refer to the [detailed documentation](../../channels/using/getting-started-with-transactional-msg.md#exporting-and-importing-transactional-messages).
 * Fixed an issue that deleted the collection data from the test profiles created for a transactional message containing product listings.
 
 **Other changes**

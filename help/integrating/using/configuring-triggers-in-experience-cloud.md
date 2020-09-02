@@ -23,7 +23,7 @@ The functionality must be activated in Adobe Campaign by Adobe. Please contact y
 The Adobe team will need the following information to activate triggers:
 
 * Marketing Cloud Company Name
-* IMS ORG ID
+* IMS Organization ID
 * Analytics Login Company (can be the same as the Marketing Cloud Company Name)
 
 ## Configuring solutions and services {#configuring-solutions-and-services}
@@ -100,7 +100,7 @@ Refer to the [Adobe Experience Cloud documentation](https://docs.adobe.com/conte
 
 Here is a list of best practices and limitations for the use of the Campaign - Triggers integration:
 
-* If you have multiple instances of Campaign Standard, then triggers can be received by all instances as long as they are in the same IMS org ID. Analytics also needs to be on same IMS org ID.
+* If you have multiple instances of Campaign Standard, then triggers can be received by all instances as long as they are in the same IMS Organization ID. Analytics also needs to be on same IMS Organization ID.
 * You cannot create a trigger in the Trigger Core Service using events from two different report suites.
 * Triggers are based on transactional messages. Transactional messages are used whenever you have to send a message very quickly. You cannot queue transactional messages and then loop them in batch.
 * Triggers are not deterministic in nature. When a trigger is generated, it sends all aliases associated with the cookie, so in case of shared browsers such as in retail kiosks, libraries, cyber cafes, or shared devices at home (husband and wife logging in from the same device), it is not possible to map to the right ID. All IDs used to login with the browser are sent to Campaign which sends out a message on the basis of the first reconciliation. If there are multiple "email IDs" eligible for reconciliation, then Campaign does not send an email. There is no way for Campaign to know what the right email ID is unless it is captured and sent by Analytics.

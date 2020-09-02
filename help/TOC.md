@@ -85,9 +85,6 @@ user-guide-title: Adobe Campaign Standard Help
        + [Creating a multilingual push notification](channels/using/creating-a-multilingual-push-notification.md)
        + [Generating a CSV file for Multilingual Push Notification](channels/using/generating-csv-multilingual-push.md)
        + [Creating and updating profile information based on mobile application data](channels/using/updating-profile-with-mobile-app-data.md)
-       + [Implementing Push tracking](channels/using/push-tracking.md)
-       + [Display an image from an Adobe Campaign Standard push notification](channels/using/image-push-notification.md)
-       + [Understanding Campaign Standard push notifications payload structure](channels/using/push-payload.md)
   + In-App messaging {#in-app-messaging}
        + [About In-App messaging](channels/using/about-in-app-messaging.md)
        + [Preparing and sending an In-App message](channels/using/preparing-and-sending-an-in-app-message.md)
@@ -99,7 +96,8 @@ user-guide-title: Adobe Campaign Standard Help
        + [Defining the direct mail audience](channels/using/defining-the-direct-mail-audience.md)
        + [Defining the direct mail content](channels/using/defining-the-direct-mail-content.md)
   + Transactional messaging {#transactional-messaging}
-       + [About transactional messaging](channels/using/about-transactional-messaging.md)
+       + [Getting started with transactional messaging](channels/using/getting-started-with-transactional-msg.md)
+       + [Transactional messaging limitations](channels/using/transactional-messaging-limitations.md)
        + [Event transactional messages](channels/using/event-transactional-messages.md)
        + [Profile transactional messages](channels/using/profile-transactional-messages.md)
        + [Transactional push notifications](channels/using/transactional-push-notifications.md)
@@ -132,12 +130,13 @@ user-guide-title: Adobe Campaign Standard Help
   + [Get started with testing and sending](sending/using/get-started-sending-messages.md)
   + Preparing and testing messages {#preparing-and-testing-messages}
        + [Previewing deliveries](sending/using/previewing-messages.md)
-       + [Preparing the send](sending/using/preparing-the-send.md)
        + [Sending proofs](sending/using/sending-proofs.md)
        + [Testing email messages using targeted profiles](sending/using/testing-messages-using-target.md)
        + [Testing the subject line of an email](sending/using/testing-subject-line-email.md)
+       + [AI-powered emails](sending/using/predictive.md)       
        + [Email rendering](sending/using/email-rendering.md)
        + [Using traps](sending/using/using-traps.md)
+       + [Preparing the send](sending/using/preparing-the-send.md)
   + Scheduling messages {#scheduling-messages}
        + [About scheduling messages](sending/using/about-scheduling-messages.md)
        + [Optimizing the sending time](sending/using/optimizing-the-sending-time.md)
@@ -245,7 +244,13 @@ user-guide-title: Adobe Campaign Standard Help
        + [Monitoring workflow execution](automating/using/monitoring-workflow-execution.md)
        + [Managing execution options](automating/using/managing-execution-options.md)
        + [Managing activities' properties](automating/using/activity-properties.md)
-  + [Calling a workflow with external parameters](automating/using/calling-a-workflow-with-external-parameters.md)
+  + Calling a workflow with external parameters {#calling-workflow-external-parameters}
+       + [Overview](automating/using/calling-a-workflow-with-external-parameters.md)
+       + [Declaring the parameters in the External Signal activity](automating/using/declaring-parameters-external-signal.md)
+       + [Defining the parameters when calling the workflow](automating/using/defining-parameters-calling-workflow.md)
+       + [Monitoring the events variables](automating/using/monitoring-events-variables.md)
+       + [Customizing the workflow with external parameters](automating/using/customizing-workflow-external-parameters.md)
+       + [Use case](automating/using/use-case-calling-workflow.md)
   + Targeting activities {#targeting-activities}
        + [About targeting activities](automating/using/about-targeting-activities.md)
        + [Query](automating/using/query.md)
@@ -309,6 +314,7 @@ user-guide-title: Adobe Campaign Standard Help
           + [Coupling email and direct mail deliveries](automating/using/coupling-email-direct-mail.md)
           + [Sending an email with enriched fields](automating/using/sending-email-enriched-fields.md)
           + [Personalizing an email with additional data](automating/using/personalizing-email-with-additional-data.md)
+          + [Sending a recurring push notification](automating/using/recurring-push-notifications.md)
        + Segmentation and targeting {#segmentation-targeting}
           + [Query samples](automating/using/query-samples.md)
           + [Union on two refined audiences](automating/using/union-on-two-refined-audiences.md)
@@ -380,6 +386,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Triggering data ingestion through APIs](developing/using/aep-triggering-data-ingestion.md)
 + Administrating {#administrating}
   + [Get started with Campaign Standard administration](administration/using/get-started-campaign-administration.md)
+  + [Monitoring guidelines](administration/using/monitoring-guidelines.md)
   + [Configuration guidelines](administration/using/about-configuration-guidelines.md)
   + Users and security {#users-and-security}
        + [About access management](administration/using/about-access-management.md)
@@ -395,6 +402,15 @@ user-guide-title: Adobe Campaign Standard Help
        + [Configuring SMS channel](administration/using/configuring-sms-channel.md)
        + [Configuring a mobile application](administration/using/configuring-a-mobile-application.md)
        + [Configuring transactional messaging](administration/using/configuring-transactional-messaging.md)
+  + Configuring mobile channels {#configuring-mobile}
+       + [Implementing Push tracking](administration/using/push-tracking.md)
+       + [Adding images and videos iOS](administration/using/image-push-notification.md)
+       + [Understanding push notifications payload structure](administration/using/push-payload.md)
+       + [Implementing local notification tracking](administration/using/local-tracking.md)
+       + [Adobe Launch Synchronization FAQ](administration/using/syncwithlaunch-faq.md)
+       + [Experience Platform SDK integration FAQ](administration/using/aep-faq.md)  
+       + [Configuring Launch rules to support Adobe Campaign Standard use cases](administration/using/configuring-rules-launch.md)
+       + [Mobile use cases supported in Adobe Campaign Standard](administration/using/supported-mobile-use-cases.md)
   + Application settings {#application-settings}
        + [About Campaign Standard settings](administration/using/about-campaign-standard-settings.md)
        + [External accounts](administration/using/external-accounts.md)
@@ -407,7 +423,7 @@ user-guide-title: Adobe Campaign Standard Help
 + Working with APIs {#working-with-apis}  
   + [Get started with Campaign Standard APIs](api/using/get-started-apis.md)
   + About Campaign Standard APIs {#about-campaign-standard-apis}
-       + [Why using Campaign Standard APIs](api/using/why-using-campaign-standard-apis.md)
+       + [Why use Campaign Standard APIs](api/using/why-using-campaign-standard-apis.md)
        + [Setting up API access](api/using/setting-up-api-access.md)
   + Global concepts {#global-concepts}
        + [Must-read](api/using/must-read.md)

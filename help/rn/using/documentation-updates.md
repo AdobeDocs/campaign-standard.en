@@ -16,7 +16,33 @@ snippet: y
 
 # Documentation Updates{#documentation-updates}
 
-In  addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), this page lists all the new updates in Adobe Campaign Standard documentation.
+In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), this page lists all the new updates in Adobe Campaign Standard documentation.
+
+## Documentation updates - September 2020 {#doc-updates-september-2020}
+
+The Event transactional messages section has been reorganized and clarified. [Read more](../../channels/using/event-transactional-messages.md)
+
+## Documentation updates - August 2020 {#doc-updates-august-2020}
+
+A new updated section on getting started with transactional messaging is available. [Read more](../../channels/using/getting-started-with-transactional-msg.md)
+
+The Transactional messaging limitations section has been moved. [Read more](../../channels/using/transactional-messaging-limitations.md)
+
+The Preparing the send section has been moved. [Read more](../../sending/using/preparing-the-send.md)
+
+## Documentation updates - July 2020 {#doc-updates-july-2020}
+
+A new section has been added with guidelines related to Campaign Standard monitoring. [Read more](../../administration/using/monitoring-guidelines.md)
+
+External API Guardrails and limitations section has been updated.[Read more](../../automating/using/external-api.md#guardrails)
+
+The Privacy Management Overview page has been updated to include information on the Thailand’s Personal Data Protection Act (PDPA) and the Brazil's Lei Geral de Proteção de Dados (LGPD). [Read more](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
+
+The Mobile channel guide has been reorganized and improved. A new guide Configuring mobile channels has been added with technical documentation on mobile configuration. [Read more](../../administration/using/push-tracking.md)
+
+The Privacy Management in Campaign Standard page has been updated, including clarification on how to manage Privacy requests through the Privacy Core Service integration. [Read more](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)
+
+New AI-powered emails capabilities: send time optimization and profile scoring. [Read more](../../sending/using/predictive.md)
 
 ## Documentation updates - June 2020 {#doc-updates-june-2020}
 
@@ -108,7 +134,7 @@ A new section describing how to delete an event configuration is now available. 
 
 The page describing how to test the subject line of an email to predict its open rate has been updated and improved, including a new [troubleshooting](../../sending/using/testing-subject-line-email.md#troubleshooting) section. [Read more](../../sending/using/testing-subject-line-email.md)
 
-The transactional messaging sections have been updated to reflect the multiple user interface slight updates and improvements. [Read more](../../channels/using/about-transactional-messaging.md)
+The transactional messaging sections have been updated to reflect the multiple user interface slight updates and improvements. [Read more](../../channels/using/getting-started-with-transactional-msg.md)
 
 Information related to the External API activity guardrails have been updated. [Read more](../../automating/using/external-api.md)
 
@@ -216,7 +242,7 @@ The list of error messages for Campaign Standard and Campaign Classic has been u
 
 The GDPR getting started guide has been improved and enriched. It is now a privacy management documentation including GDPR and CCPA. [Read more](https://helpx.adobe.com/content/help/en/campaign/kb/campaign-privacy.html)
 
-A new chart presenting the transactional messaging publication process has been added. [Read more](../../channels/using/about-transactional-messaging.md#transactional-messaging-pub-process)
+A new chart presenting the transactional messaging publication process has been added. [Read more](../../administration/using/configuring-transactional-messaging.md#transactional-messaging-pub-process)
 
 The Delivery Best Practices getting started guide has been moved and updated. [Read more](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
@@ -396,7 +422,7 @@ Workflow enhancements - Read more [here](../../automating/using/workflow-interfa
 
 The new onboarding experience to create email contents and other enhancements to the Email Designer have been added to the Editing email content chapter. [Read more](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page)
 
-A new section on Transactional messaging limitations has been added. [Read more](../../channels/using/about-transactional-messaging.md#transactional-messaging-limitations)
+A new section on Transactional messaging limitations has been added. [Read more](../../channels/using/transactional-messaging-limitations.md)
 
 A new section comparing the different email authoring options in Adobe Campaign has been added. [Read more](../../designing/using/using-integrations.md#email-design-options-comparison)
 
@@ -452,7 +478,7 @@ In-App Messaging Beta Improvements - [Read more](../../channels/using/about-in-a
 
 The Designing Content guide has been updated to reflect the Email Designer general availability and the legacy email content editor deprecation. [Read more](../../designing/using/designing-content-in-adobe-campaign.md)
 
-Updated the [In-app](../../channels/using/about-in-app-messaging.md) and [Push notification](../../channels/using/about-push-notifications.md) documentation.
+Updated the [In-App](../../channels/using/about-in-app-messaging.md) and [Push notification](../../channels/using/about-push-notifications.md) documentation.
 
 Added more information concerning the different types of audiences in Adobe Campaign. [Read more](../../audiences/using/about-audiences.md)
 
@@ -802,7 +828,7 @@ Numerous screenshots have been updated to reflect interface changes.
 
 A new technote is now available: "Integrating the Adobe Mobile SDK with your mobile app". [Read more](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html)
 
-Instructions to configure People core service or Audience Manager integration with Adobe Campaign havget-started-communication-channels.mdegrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+Instructions to configure People core service or Audience Manager integration with Adobe Campaign have been added. [Read more](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 Authorizations table revised to make certain roles’ function clearer. [Read more](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
 

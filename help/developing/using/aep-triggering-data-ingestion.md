@@ -102,7 +102,7 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 
 >[!NOTE]
 >
->Detailed information about the XDM mapping request status and its related jobs is available in Campaign Standard interface, in the **!UICONTROL [Status of data export to platform]** menu (see [Mapping activation](../../developing/using/aep-mapping-activation.md)).
+>Detailed information about the XDM mapping request status and its related jobs is available in Campaign Standard interface, in the **[!UICONTROL Status of data export to platform]** menu (see [Mapping activation](../../developing/using/aep-mapping-activation.md)).
 
 The GET operation returns the information below:
 

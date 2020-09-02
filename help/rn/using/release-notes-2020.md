@@ -58,7 +58,7 @@ snippet: y
 
 **Improvements**
 
-* Transactional messaging user experience has been enhanced and the interface consistency was improved. [Read more](../../channels/using/about-transactional-messaging.md)
+* Transactional messaging user experience has been enhanced and the interface consistency was improved. [Read more](../../channels/using/getting-started-with-transactional-msg.md)
 * Campaign Standard now allows you to send proofs to Test profiles using additional data from workflows.
 * Guardrails for the External API activity have been updated. [Read more](../../automating/using/external-api.md)
 
@@ -198,7 +198,7 @@ snippet: y
 * Fixed performance issues that could occur when selecting and updating test profiles. (CAMP-37976)
 * Fixed an issue that could display error pages when subscribing or unsubscribing via landing pages. (CAMP-37771) 
 * Fixed an issue that occurred when uploading content in zip format, with PNG files referenced in the HTML with their extension in capital letters. (CAMP-37913)
-* Fixed an issue that prevented In-app messages from being sent when adding a test profile to the delivery.
+* Fixed an issue that prevented In-App messages from being sent when adding a test profile to the delivery.
 * Fixed an error with the External API workflow activity which failed when linked to enrichment activities.
 * Fixed an issue which could cause the status of SMS messages to be displayed incorrectly.
 * Fixed an issue with custom resources which caused duplicate entries to appear under different API endpoints.

@@ -22,7 +22,7 @@ snippet: y
 
 The **Push notification** report provides details of marketing performance of push notifications in Adobe Campaign. This out-of-the-box report will help you understand how users interact with push notifications, mobile applications and deliveries.
 
-Some configuration is required in the mobile application to implement push tracking, refer to this [page](https://helpx.adobe.com/campaign/kb/push-tracking.html) for the detailed steps.
+Some configuration is required in the mobile application to implement push tracking, refer to this [page](../../administration/using/push-tracking.md) for the detailed steps.
 
 ![](assets/dynamic_report_push.png)
 
