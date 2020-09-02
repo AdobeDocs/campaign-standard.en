@@ -20,18 +20,14 @@ snippet: y
 
 <table>
 <tr>
+<td align="center"><img src="assets/do-not-localize/icon_transactional.svg" width="60px"><br><p>Introducing the concept of <b>transactional messaging</b></p></td>
 <td ><br><p>Transactional messaging enables you to <b>send individual and unique messages</b> to your customers in real-time.</p></td>
 <td>It can be welcome messages, order shipping confirmations, password modification, etc.</td>
+<td>Adobe Campaign allows you to integrate this functionality with an information system which sends events that are to be transformed into custom transactional messages.</td>
 </tr>
 </table>
 
-<img src="assets/do-not-localize/icon_transactional.svg" width="60px">
-
-Adobe Campaign allows you to integrate this functionality with an information system which sends events that are to be transformed into custom transactional messages.
-
->[!NOTE]
->
->Transactional messages can be sent by email, SMS or push notification, depending on your options. Please check your license agreement.
+Transactional messages can be sent by email, SMS or push notification, depending on your options. Please check your license agreement.
 
 Adobe Campaign prioritizes processing transactional messages over any other delivery.
 
@@ -70,8 +66,6 @@ Transactional messaging is also available from the Adobe Campaign Standard API. 
 
 Two types of transactional messages are available in Adobe Campaign:
 
-<!--[Event transactional messages](../../channels/using/event-transactional-messages.md) targeting an **event**. The data contained in the event itself is used to define the delivery target.-->
-
 <table>
 <tr>
 <td align="center"><img src="assets/do-not-localize/icon_event.svg" width="60px"><br><p><a href="../../channels/using/event-transactional-messages.md">Event transactional messages</a><br>targeting an <b>event</b></p></td>
@@ -83,15 +77,11 @@ Two types of transactional messages are available in Adobe Campaign:
 </tr>
 </table>
 
-<!--[Profile transactional messages](../../channels/using/profile-transactional-messages.md) targeting **profiles from the Adobe Campaign marketing database**. You can use information from the Adobe Campaign database to send a transactional message based on customer marketing profiles.-->
-
 The message type is defined when configuring the event that will be transformed into a transactional message. See [Transactional messaging configuration](../../administration/using/configuring-transactional-messaging.md).
 
 >[!IMPORTANT]
 >
 >To access all transactional messages, you must be part of the **[!UICONTROL Administrators (all units)]** security group.
-
-<!--Event transactional messages do not contain profile information, therefore they are not compatible with fatigue rules (even in the case of an enrichment with profiles). However, profile transactional messages are compatible. For more on fatigue rules, see [this section](../../sending/using/fatigue-rules.md#choosing-the-channel).-->
 
 ## Transactional messaging operating principle {#transactional-messaging-operating-principle}
 
@@ -157,6 +147,11 @@ The main steps when creating and managing personalized transactional messages in
 
 ![](assets/message-center-overview.png)
 
+**Related topics:**
+
+* [Key steps to send a message](../../channels/using/key-steps-to-send-a-message.md)
+* [Get started with communication channels](../../channels/using/get-started-communication-channels.md)
+
 <!--## Transactional messaging publication process {#transactional-messaging-pub-process}
 
 The chart below illustrates the whole transactional messaging publication process.
@@ -167,13 +162,7 @@ For more on the event configuration steps, see [Transactional messaging configur
 
 Read more:
 
-* [About transactional messaging](../../channels/using/about-transactional-messaging.md)
 * [Event transactional messages](../../channels/using/event-transactional-messages.md)
 * [Profile transactional messages](../../channels/using/profile-transactional-messages.md)
 * [Transactional push notifications](../../channels/using/transactional-push-notifications.md)
 * [Follow-up messages](../../channels/using/follow-up-messages.md)-->
-
-**Related topics:**
-
-* [Key steps to send a message](../../channels/using/key-steps-to-send-a-message.md)
-* [Get started with communication channels](../../channels/using/get-started-communication-channels.md)
