@@ -18,15 +18,14 @@ snippet: y
 
 ## Overview
 
-
-<img src="assets/do-not-localize/icon_transactional.svg" width="60px">
-
 <table>
 <tr>
 <td ><br><p>Transactional messaging enables you to <b>send individual and unique messages</b> to your customers in real-time.</p></td>
 <td>It can be welcome messages, order shipping confirmations, password modification, etc.</td>
 </tr>
 </table>
+
+<img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
 Adobe Campaign allows you to integrate this functionality with an information system which sends events that are to be transformed into custom transactional messages.
 
@@ -76,7 +75,7 @@ Two types of transactional messages are available in Adobe Campaign:
 <table>
 <tr>
 <td align="center"><img src="assets/do-not-localize/icon_event.svg" width="60px"><br><p><a href="../../channels/using/event-transactional-messages.md">Event transactional messages</a><br>targeting an <b>event</b></p></td>
-<td><p><ul><li>They do not contain profile information.</li><li>They are not compatible with <a href="../../sending/using/fatigue-rules.md">fatigue rules</a> (even in the case of an enrichment with profiles).</li><li>The delivery target is defined by the data contained in the event itself.</li></ul></p></td>
+<td><p><ul><li>Event transactional messages do not contain profile information.</li><li>They are not compatible with <a href="../../sending/using/fatigue-rules.md">fatigue rules</a> (even in the case of an enrichment with profiles).</li><li>The delivery target is defined by the data contained in the event itself.</li></ul></p></td>
 </tr>
 <tr>
 <td align="center"><img src="assets/do-not-localize/icon_profile.svg" width="60px"><br><p><a href="../../channels/using/profile-transactional-messages.md">Profile transactional messages</a><br>targeting <b>profiles from the Adobe Campaign marketing database</b></p></td>
@@ -104,18 +103,12 @@ The steps for putting this into place are as follows.
 
 ### Step 1 - Create and publish the event configuration {#create-event-configuration}
 
-<!--<img src="assets/do-not-localize/icon_config.svg" width="60px">
-
-Configure an event that will be named "Cart abandonment" and publish this event configuration.
-
-The API that will be used by your website developer is deployed and a transactional message is automatically created.-->
-
-<img src="assets/do-not-localize/icon_config.svg" width="60px">
-
 <table>
 <tr>
+<td align="center"><img src="assets/do-not-localize/icon_config.svg" width="60px"><br><p><b>Transactional event configuration</b></p></td>
 <td><br><p>Configure an event that will be named "Cart abandonment" and publish this event configuration.</p></td>
 <td>The API that will be used by your website developer is deployed and a transactional message is automatically created.</td>
+<td>Note that this step must be performed by a user with <a href="../../administration/using/users-management.md#functional-administrators">administration rights</a>.</td>
 </tr>
 </table>
 
@@ -123,16 +116,12 @@ Creating and publishing an event are presented in the [Configuring an event to s
 
 ### Step 2 - Edit and publish the transactional message {#create-transactional-message}
 
-<!--<img src="assets/do-not-localize/icon_transactional.svg" width="60px">
-
-Edit and personalize the transactional message, test it, and then publish it.-->
-
-<img src="assets/do-not-localize/icon_notification.svg" width="45px">
-
 <table>
 <tr>
+<td align="center"><img src="assets/do-not-localize/icon_notification.svg" width="40px"><br><p><b>Transactional message edition</b></p></td>
 <td><br><p>Edit and personalize the transactional message, test it, and then publish it.</p></td>
 <td>The transactional message will then be ready to be sent.</td>
+<td>This step can be performed by any marketing user with <a href="../../administration/using/users-management.md#basic-users">basic access rights</a>.
 </tr>
 </table>
 
@@ -140,18 +129,12 @@ For more on editing and publishing a transactional message, see [Event transacti
 
 ### Step 3 - Integrate the event triggering {#integrate-event-trigger}
 
-<!--<img src="assets/do-not-localize/icon_api.svg" width="60px">
-
-Use the REST Transactional Messages API to integrate the event into your website.
-
-The event will be triggered when a client abandons their cart.-->
-
-<img src="assets/do-not-localize/icon_api.svg" width="60px">
-
 <table>
 <tr>
+<td align="center"><img src="assets/do-not-localize/icon_api.svg" width="55px"><br><p><b>Event triggering integration</b></p></td>
 <td><br><p>Use the REST Transactional Messages API to integrate the event into your website.</p></td>
 <td>The event will be triggered when a client abandons their cart.</td>
+<td>This step is performed by the developer of your website.
 </tr>
 </table>
 
@@ -159,18 +142,12 @@ For more on integrating the event into your website, see [Site integration](../.
 
 ### Step 4 - Message delivery {#message-delivery}
 
-<!--Once all of these steps have been carried out, the message can be delivered:
-
-<img src="assets/do-not-localize/icon_notification.svg" width="40px">
-
-As soon as a user leaves the site without ordering the products in their cart, they automatically receive a notification email.-->
-
-<img src="assets/do-not-localize/icon_channels.svg" width="60px">
-
 <table>
 <tr>
+<td align="center"><img src="assets/do-not-localize/icon_channels.svg" width="60px"><br><p><b>External event coming from your website</b></p></td>
 <td><br><p>Once all of these steps have been carried out, the message can be delivered.</p></td>
-<td>As soon as a user leaves the site without ordering the products in their cart, they automatically receive a notification email.</td>
+<td>As soon as a user leaves the site without ordering the products in their cart, the corresponding Campaign event is triggered.</td>
+<td>The user then automatically receives a notification email.</td>
 </tr>
 </table>
 
