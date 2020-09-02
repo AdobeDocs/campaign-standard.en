@@ -98,6 +98,12 @@ For both **[!UICONTROL Padding]** and **[!UICONTROL Margin]**, click the lock ic
 
 ## Setting backgrounds {#about-backgrounds}
 
+>[!CONTEXTUALHELP]
+>id="ac_edition_backgroundimage"
+>title="Background settings"
+>abstract="Note that background images are not compatible with all email programs. When not supported, the row background color will be used instead. So make sure that color works well with your content."
+>additional-url="" text=""
+
 When it comes to setting backgrounds with the Email Designer, Adobe recommends the following:
 
 1. Apply a background color to the body of your email if required by your design.

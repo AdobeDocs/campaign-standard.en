@@ -40,6 +40,27 @@ This capability is detailed in the Dreamweaver Documentation accessible [here](h
 
 Email content can be edited in Experience Manager and then used for one or several email messages in Adobe Campaign Standard. Refer to [this document](../../integrating/using/integrating-with-experience-manager.md).
 
+## Product listings {#product-listing}
+
+>[!CONTEXTUALHELP]
+>id="ac_dynamic_image"
+>title="Managing dynamic images"
+>abstract=""
+>additional-url="" text=""
+
+The product listings referencing one or more data collections in the email content is available for transactional email. A dedicated section for this feature is available [here]().
+
+
+## Offers {#offers}
+
+>[!CONTEXTUALHELP]
+>id="ac_offer"
+>title="Managing offers"
+>abstract=""
+>additional-url="" text=""
+
+Beta feature
+
 ## Email design options comparison {#email-design-options-comparison}
 
 Adobe Campaign offers several email authoring options. The table below shows the main possibilities, benefits and limitations for each of them.
