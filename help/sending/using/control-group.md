@@ -193,3 +193,30 @@ To do another targeting based on the control group that did not receive the mess
     ![](assets/control-group-delivery-target.png)
 
 You can now target the profiles that did not receive your first message because they were part of the control group.
+
+### Using the logs {#using-logs-2}
+
+To do another targeting based on the control group that did not receive the message, you can use the delivery logs. Follow the steps below:
+
+1. Create a workflow. The detailed steps to create a workflow are presented in the [Building a workflow](../../automating/using/building-a-workflow.md) section.
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, drag and drop a first [Query](../../automating/using/query.md) activity.
+1. In the **[!UICONTROL Properties]** tab, make sure the **[!UICONTROL Delivery logs]** as the **[!UICONTROL Profile]** resource is selected as the **[!UICONTROL Resource]** and **[!UICONTROL Targeting dimension]**.
+
+    ![](assets/control-group-delivery-properties.png)
+
+1. In the **[!UICONTROL Target]** tab, click **[!UICONTROL Delivery logs]**.
+1. Drag and drop **[!UICONTROL Status]** and select **[!UICONTROL Ignored]** as the filter condition.
+
+    ![](assets/control-group-status-ignored.png)
+
+1. Click **[!UICONTROL Confirm]**.
+
+1. Still in the **[!UICONTROL Target]** tab, drag and drop **[!UICONTROL Nature of failure]** and select **[!UICONTROL Control group]** as the filter condition.
+
+    ![](assets/control-group-nature-of-failure.png)
+
+1. Click **[!UICONTROL Confirm]**.
+
+    ![](assets/control-group-delivery-target.png)
+
+You can now target the profiles that did not receive your first message because they were part of the control group.
