@@ -43,12 +43,11 @@ Email content can be edited in Experience Manager and then used for one or sever
 ## Product listings {#product-listing}
 
 >[!CONTEXTUALHELP]
->id="ac_dynamic_image"
->title="Managing dynamic images"
+>id="ac_product_listing"
+>title="Using product listings"
 >abstract=""
->additional-url="" text=""
 
-The product listings referencing one or more data collections in the email content is available for transactional email. A dedicated section for this feature is available [here]().
+The product listings allows you to reference one or more data collections in the email content. These listings are available for transactional emails. A dedicated section for this feature is available [here](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message).
 
 
 ## Offers {#offers}

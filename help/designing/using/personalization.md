@@ -226,7 +226,6 @@ These conditions adopt the XTK expression syntax (e.g. **context.profile.email !
 >id="ac_dynamic_content"
 >title="Defining dynamic content"
 >abstract=""
->additional-url="" text=""
 
 In an email, you can define different contents which will be displayed dynamically to the recipients according to the conditions defined via the expression editor. For example, from the same email, you can ensure that each profile receives a different message according to their age range.
 

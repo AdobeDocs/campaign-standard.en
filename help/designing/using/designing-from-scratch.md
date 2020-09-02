@@ -74,6 +74,22 @@ To edit the structure of an email:
 
 Once the structure is defined, you are able to add content fragments and components to your email.
 
+## Using a preheader {#preheader}
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_preheader"
+>title="Using a preheader"
+>abstract="Note that preheader is not compatible with all email programs. When not supported, preheader will not display."
+>additional-url="" text=""
+
+A preheader is a short summary text that follows the subject line when viewing an email from your inbox. The preheader delivers an higher open rate.
+
+Select the **[!UICONTROL Preheader]** edit box and complete the content.
+
+![](assets/email_designer_preheader.png)
+
+You can add a **[!UICONTROL Content block]**, a **[!UICONTROL Dynamic content]** or a **[!UICONTROL Personalization fields]** in the preheader content.
+
 ## Using content components {#about-content-components}
 
 Content components are raw, empty components that you can edit once placed in an email.
@@ -128,7 +144,6 @@ Select **[!UICONTROL Fallback view]** to display the fallback image in the Email
 >id="ac_edition_video"
 >title="Video settings"
 >abstract="Note that video is not compatible with all email programs. When not supported, fallback will display."
->additional-url="" text=""
 
     Use this component to insert a video in your email.
 
