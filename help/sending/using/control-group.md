@@ -169,7 +169,7 @@ To see which profiles were removed from the target after the message was sent, c
 
 ### Using the logs {#using-logs}
 
-To do another targeting based on the control group that did not receive the message, you can use the delivery logs. Follow the steps below:
+To filter on the control group, you can use the delivery logs. Follow the steps below:
 
 1. Create a workflow. The detailed steps to create a workflow are presented in the [Building a workflow](../../automating/using/building-a-workflow.md) section.
 1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, drag and drop a [Query](../../automating/using/query.md) activity.
@@ -192,19 +192,30 @@ To do another targeting based on the control group that did not receive the mess
 
     ![](assets/control-group-delivery-target.png)
 
-You can now target the profiles that did not receive your first message because they were part of the control group.
+You can then export the log data using Extract file and Transfer file activities. This will allow you to analyze the results of your campaign on the effective target compared to the control group in your own reporting tool. For more on exporting logs, see [this section](../../automating/using/exporting-logs.md).
 
-### Using the logs {#using-logs-2}
+### Targeting the control group {#targeting-control-group}
 
-To do another targeting based on the control group that did not receive the message, you can use the delivery logs. Follow the steps below:
+To do a targeting based on the control group that did not receive the message, you can also use the delivery logs. Follow the steps below:
 
 1. Create a workflow. The detailed steps to create a workflow are presented in the [Building a workflow](../../automating/using/building-a-workflow.md) section.
 1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, drag and drop a first [Query](../../automating/using/query.md) activity.
-1. In the **[!UICONTROL Properties]** tab, make sure the **[!UICONTROL Delivery logs]** as the **[!UICONTROL Profile]** resource is selected as the **[!UICONTROL Resource]** and **[!UICONTROL Targeting dimension]**.
+1. In the **[!UICONTROL Properties]** tab, make sure the **[!UICONTROL Profile]** resource is selected as the **[!UICONTROL Resource]** and **[!UICONTROL Targeting dimension]**.
 
-    ![](assets/control-group-delivery-properties.png)
+    ![](assets/control-group-delivery-properties-profile.png)
 
-1. In the **[!UICONTROL Target]** tab, click **[!UICONTROL Delivery logs]**.
+1. In the **[!UICONTROL Target]** tab, expand **[!UICONTROL Delivery logs]** and drag and drop **[!UICONTROL Delivery logs]**. Define the following conditions.
+
+    ![](assets/control-group-query-delivery-logs.png)
+
+1. In the **[!UICONTROL Add a rule]** window, drag and drop **[!UICONTROL Delivery]**.
+
+    ![](assets/control-group-rule-delivery.png)
+
+1. Select the email you sent as the filter condition.
+
+    ![](assets/control-group-email-sent.png)
+
 1. Drag and drop **[!UICONTROL Status]** and select **[!UICONTROL Ignored]** as the filter condition.
 
     ![](assets/control-group-status-ignored.png)
@@ -220,3 +231,5 @@ To do another targeting based on the control group that did not receive the mess
     ![](assets/control-group-delivery-target.png)
 
 You can now target the profiles that did not receive your first message because they were part of the control group.
+
+In the same workflow, you can also create another query to target the profiles that did receive the email.
