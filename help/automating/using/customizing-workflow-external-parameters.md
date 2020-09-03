@@ -49,47 +49,36 @@ When using a variable in an activity, the interface provides help to call it.
 
   ![](assets/wkf_test_activity_variables_expression.png)
 
-  This list provides functions that allow you to carry out complex filtering. They are detailed in [this section](../../automating/using/list-of-functions.md), as well as functions that are only available when calling a workflow with external parameters. These are:
+  This list provides functions that allow you to carry out complex filtering. These functions are detailed in [this section](../../automating/using/list-of-functions.md).
+  
+  Additionally, you can use the functions below, which are available in all the activities that allow you to use events variables after calling a workflow with external parameters (see [](../../automating/using/customizing-workflow-external-parameters.md#customizing-activities-with-events-variables)):
 
-  * `EndWith(<String>,<String>)`: indicates if string 1 ends with string 2
-  * `extract`: extracts a substring from the left
-  * `extractRight`: extracts a substring from the left
-  * `startWith`: 
-  * `dateFormat`: 
-  * `fileFormat`:
-
-
-
-**Related topics:**
-
-
-
+  * `EndWith(<String>,<String>)`: Indicates if string 1 ends with string 2.
+  * `startWith(<String>,<String>)`: Indicates if string 1 starts with string 2.
+  * `Extract(<String>,<Separator>)`: Extracts a substring from the left.
+  * `ExtractRight(<String>,<Separator>)`: Extracts a substring from the left.
+  * `DateFormat(<Date>,<Format>)`: Formats a date using a format (like '%4Y%2M%2D').
+  * `FileName(<String>)`: Returns the file name of a file path.
 
 ## Customizing activities with events variables {#customizing-activities-with-events-variables}
 
 Events variables can be used to customize several activities, listed in the section below. For more on how to call a variable from an activity, refer to [this section](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables).
 
-**[!UICONTROL Read audience]** activity: define the audience to target based on events variables.
-
-For more on how to use the activity, refer to the [dedicated section](../../automating/using/read-audience.md).
+**[!UICONTROL Read audience]** activity: define the audience to target based on events variables. For more on how to use the activity, refer to [this section](../../automating/using/read-audience.md).
 
 ![](assets/extsignal_activities_audience.png)
 
-**[!UICONTROL Test]** activity: build conditions based on events variables.
-
-For more on how to use the activity, refer to the [dedicated section](../../automating/using/test.md).
+**[!UICONTROL Test]** activity: build conditions based on events variables. For more on how to use the activity, refer to [this section](../../automating/using/test.md).
 
 ![](assets/extsignal_activities_test.png)
 
-**[!UICONTROL Transfer file]** activity: customize the file to transfer based on events variables.
-
-For more on how to use the activity, refer to the [dedicated section](../../automating/using/transfer-file.md).
+**[!UICONTROL Transfer file]** activity: customize the file to transfer based on events variables. For more on how to use the activity, refer to [this section](../../automating/using/transfer-file.md).
 
 ![](assets/extsignal_activities_transfer.png)
 
 **[!UICONTROL Query]** activity: parameters can be referenced in a query, by using expressions combining events variables and functions. To do this, add a rule then click the **[!UICONTROL Advanced mode]** link to access the expression editing window (see [Advanced expression editing](../../automating/using/advanced-expression-editing.md)).
 
-For more on how to use the activity, refer to the [dedicated section](../../automating/using/query.md).
+For more on how to use the activity, refer to [this section](../../automating/using/query.md).
 
 ![](assets/extsignal_activities_query.png)
 
