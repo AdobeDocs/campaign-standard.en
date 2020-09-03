@@ -53,12 +53,14 @@ When using a variable in an activity, the interface provides help to call it.
   
   Additionally, you can use the functions below, which are available in all the activities that allow you to use events variables after calling a workflow with external parameters (see [](../../automating/using/customizing-workflow-external-parameters.md#customizing-activities-with-events-variables)):
 
-  * `EndWith(<String>,<String>)`: Indicates if string 1 ends with string 2.
-  * `startWith(<String>,<String>)`: Indicates if string 1 starts with string 2.
-  * `Extract(<String>,<Separator>)`: Extracts a substring from the left.
-  * `ExtractRight(<String>,<Separator>)`: Extracts a substring from the left.
-  * `DateFormat(<Date>,<Format>)`: Formats a date using a format (like '%4Y%2M%2D').
-  * `FileName(<String>)`: Returns the file name of a file path.
+  Name | Description | Syntax
+  ---------|----------|---------
+  EndWith | Indicates if a string (1st parameter) ends with a specific string (2nd parameter) | EndWith(&lt;String&gt;,&lt;String&gt;)
+  startWith | Indicates if a string (1st parameter) starts with a specific string (2nd parameter) | startWith(&lt;String&gt;,&lt;String>)
+  Extract | Returns the first characters of a string using a separator | Extract(&lt;String&gt;,&lt;Separator&gt;)
+  ExtractRight | Returns the last characters of a string using a separator | ExtractRight(&lt;String&gt;,&lt;Separator&gt;)
+  DateFormat | Formats a date using the format specified in the 2nd parameter (example:  '%4Y%2M%2D') | DateFormat(&lt;Date&gt;,&lt;Format&gt;)
+  FileName | Returns the file name of a file path | FileName(&lt;String&gt;)
 
 ## Customizing activities with events variables {#customizing-activities-with-events-variables}
 
