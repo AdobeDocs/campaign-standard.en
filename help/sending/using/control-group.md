@@ -204,7 +204,7 @@ To do a targeting based on the control group that did not receive the message, y
 
     ![](assets/control-group-delivery-properties-profile.png)
 
-1. In the **[!UICONTROL Target]** tab, expand **[!UICONTROL Delivery logs]** and drag and drop **[!UICONTROL Delivery logs]**. Define the following conditions.
+1. In the **[!UICONTROL Target]** tab, expand **[!UICONTROL Delivery]** and drag and drop **[!UICONTROL Delivery logs]** and define the conditions below.
 
     ![](assets/control-group-query-delivery-logs.png)
 
@@ -222,14 +222,20 @@ To do a targeting based on the control group that did not receive the message, y
 
 1. Click **[!UICONTROL Confirm]**.
 
-1. Still in the **[!UICONTROL Target]** tab, drag and drop **[!UICONTROL Nature of failure]** and select **[!UICONTROL Control group]** as the filter condition.
+1. Drag and drop **[!UICONTROL Nature of failure]** and select **[!UICONTROL Control group]** as the filter condition.
 
     ![](assets/control-group-nature-of-failure.png)
 
 1. Click **[!UICONTROL Confirm]**.
 
-    ![](assets/control-group-delivery-target.png)
+1. Make sure the conditions are at the same level with the **AND** boolean operator.
+
+    ![](assets/control-group-delivery-logs-conditions.png)
+
+1. Click **[!UICONTROL Confirm]**.
 
 You can now target the profiles that did not receive your first message because they were part of the control group.
 
 In the same workflow, you can also create another query to target the profiles that did receive the email.
+
+![](assets/control-group-targeted-by-delivery.png)
