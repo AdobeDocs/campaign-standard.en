@@ -60,7 +60,7 @@ When using a variable in an activity, the interface provides help to call it.
   Extract | Returns the first characters of a string using a separator | Extract(&lt;String&gt;,&lt;Separator&gt;)
   ExtractRight | Returns the last characters of a string using a separator | ExtractRight(&lt;String&gt;,&lt;Separator&gt;)
   DateFormat | Formats a date using the format specified in the 2nd parameter (example:  '%4Y%2M%2D') | DateFormat(&lt;Date&gt;,&lt;Format&gt;)
-  FileName | Returns the file name of a file path | FileName(&lt;String&gt;)
+  FileName | Returns the name of a file  | FileName(&lt;String&gt;)
 
 ## Customizing activities with events variables {#customizing-activities-with-events-variables}
 
