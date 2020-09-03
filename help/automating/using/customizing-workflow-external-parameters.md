@@ -45,15 +45,25 @@ When using a variable in an activity, the interface provides help to call it.
 
   ![](assets/wkf_test_activity_variables.png)
 
-* ![](assets/extsignal_expression_editor.png): edit expressions combining variables and functions. For more on the Expression editor, refer to [this section](../../automating/using/advanced-expression-editing.md).
+* ![](assets/extsignal_expression_editor.png): edit expressions combining variables and functions (see [](../../automating/using/advanced-expression-editing.md)).
 
   ![](assets/wkf_test_activity_variables_expression.png)
 
+  This list provides functions that allow you to carry out complex filtering. They are detailed in [this section](../../automating/using/list-of-functions.md), as well as functions that are only available when calling a workflow with external parameters. These are:
+
+  * `EndWith(<String>,<String>)`: indicates if string 1 ends with string 2
+  * `extract`: extracts a substring from the left
+  * `extractRight`: extracts a substring from the left
+  * `startWith`: 
+  * `dateFormat`: 
+  * `fileFormat`:
+
+
+
 **Related topics:**
 
-* [Edit an expression](../../automating/using/advanced-expression-editing.md#edit-an-expression)
-* [Standard syntax](../../automating/using/advanced-expression-editing.md#standard-syntax)
-* [List of functions](../../automating/using/list-of-functions.md)
+
+
 
 ## Customizing activities with events variables {#customizing-activities-with-events-variables}
 
