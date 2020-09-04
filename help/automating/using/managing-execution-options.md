@@ -38,6 +38,6 @@ Possible options are:
 
 * **[!UICONTROL Execute in the engine (do not use in production)]**: allows you to execute the workflow locally, for development environment testing purposes.
 
-* **[!UICONTROL Severity]**: allows you to specify a level of priority for executing workflows in your Adobe Campaign instance. Critical workflows will be executed first.
+* **[!UICONTROL Severity]**: allows you to specify a level of priority for executing workflows in your Adobe Campaign instance. This field is used by Adobe teams only for monitoring purposes.
 
 The **[!UICONTROL Error management]** section provides additional options that allow you to manage how workflows behave in case of errors. These options are detailed in the [Error management](../../automating/using/monitoring-workflow-execution.md#error-management) section.
