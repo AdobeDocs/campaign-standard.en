@@ -234,7 +234,8 @@ user-guide-title: Adobe Campaign Standard Help
        + [Request the integration](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
        + [Configure Adobe I/O](integrating/using/configure-adobe-io-for-ms-dynamic.md)
        + [Configure Dynamics 365 for Campaign integration](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
-       + [Use the Dynamics 365 integration](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+       + [Map Campaign custom resources and Dynamics 365 Custom entities](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
+       + [Use the Dynamics 365 integration](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
        + [Integration guardrails](integrating/using/ms-dynamics-365-integration-guardrails.md)
 + Managing processes and data {#managing-processes-and-data}
   + [Get started with data and processes management](automating/using/get-started-workflows.md)
