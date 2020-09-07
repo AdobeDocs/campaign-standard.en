@@ -44,12 +44,11 @@ If the profile delete feature is enabled in the integration, additional steps wi
 
 ## Managing Privacy Requests {#manage-privacy-requests}
 
-This integration is designed to transfer end user data (including, but not limited to, personal information, if it is contained in your end user data), between Microsoft Dynamics 365 and Adobe Campaign Standard. As a data controller, your company is responsible for complying with any privacy laws and regulations applicable to
-your collection and use of personal data.
+This integration is designed to transfer end user data (including, but not limited to, personal information, if it is contained in your end user data), between Microsoft Dynamics 365 and Adobe Campaign Standard. As a data controller, your company is responsible for complying with any privacy laws and regulations applicable to your collection and use of personal data.
 
 The integration does not issue any data subject privacy (e.g., GDPR) deletes or handle any other privacy requests (with the exception of opt-out). When processing privacy requests, you should do so in both Dynamics 365 and Campaign (via the Adobe Experience Platform Privacy Service), independently.
 
-If you have configured the integration to issue regular profile delete calls to Campaign when a contact is deleted in Dynamics 365, the steps below should be followed. Ensure no updates are made to the record in question during this process
+If you have configured the integration to issue regular profile delete calls to Campaign when a contact is deleted in Dynamics 365, the steps below should be followed. Ensure no updates are made to the record in question during this process.
 
 1. Issue privacy delete request to [Adobe Experience Platform Privacy Service](https://www.adobe.io/apis/experiencecloud/gdpr.html)
 
