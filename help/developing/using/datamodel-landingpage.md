@@ -424,7 +424,7 @@ snippet: y
          <td>enumeration (byte) </td>
          <td>
             <ul>
-               <li>Blocklist - blockList - 3</li>
+               <li>Blacklist - blackList - 3</li>
                <li>No specific action - none - 0</li>
                <li>Unsubscription - unsubscription - 2</li>
                <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
@@ -629,7 +629,7 @@ snippet: y
             <ul>
                <li>Generic - generic - 0</li>
                <li>Unsubscription from a service - unsubscription - 3</li>
-               <li>Blocklist - blockList - 4</li>
+               <li>Blacklist - blackList - 4</li>
                <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                <li>Acquisition - acquisition - 1</li>
                <li>Subscription to a service - subscription - 2</li>
