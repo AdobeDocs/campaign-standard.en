@@ -22,7 +22,7 @@ There are several jobs that this integration performs:
 
     * Bring in **contacts** from Dynamics 365 into Campaign
 
-    * **Custom entities**: Bring in custom tables from Dynamics 365 to Campaign
+    * **Custom entities**: Bring in custom tables from Dynamics 365 to Campaign. Learn more [in this section](../../integration/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md).
 
 * **Egress**: Bring in email marketing events from ACS to D365 (email send, open, click, bounce)
 
@@ -94,9 +94,9 @@ The following is a list of the attributes and a description:
 
 * Mirror Page URL: The URL to the mirror page of the email that was sent/opened/clicked/bounced
 
-You can see a video of the mirror page URL being used in the below video.
-
->[!VIDEO](https://video.tv.adobe.com/v/29253)
+>[!NOTE]
+>
+>The expiry period of the email mirror page can be modified in the configuration screen of the corresponding Campaign email channel activity (see [Validity period parameters]( ../../administrating/using/configuring-email-channel.md#validity-period-parameters)).
 
 >[!NOTE]
 >

@@ -38,114 +38,49 @@ To achieve this, follow the procedure below:
 
 1. Navigate to [Adobe IO Console](https://console.adobe.io/home#) and select your Adobe IMS Organization ID from the drop-down menu at the right of the screen.
 
-Then click on **[!UICONTROL Create new project]** under **[!UICONTROL Quick Start]**  at the top right. 
+1. Then click on **[!UICONTROL Create new project]** under **[!UICONTROL Quick Start]**  at the top right.
 
->[!NOTE]
->
->If this is your organization’s first integration, the button for **[!UICONTROL New Integration]** may be in the center of the page.
+![](assets/adobeIO1.png)
 
-1. Select **[!UICONTROL Access an API]** and click **[!UICONTROL Continue]**.
+1. Under **[!UICONTROL Get started with your new project]**, click on **[!UICONTROL Add API]**.
 
-1. Select _Adobe Campaign_ from the **[!UICONTROL Experience Cloud]** section and click **[!UICONTROL Continue]**.
+![](assets/adobeIO2.png)
 
-1. Generate a certificate and key.
+1. Select the Adobe Campaign API (you may need to scroll towards the bottom) and click on "Next".
 
-**For MacOs and Linux platforms**
+![](assets/adobeIO3.png)
 
-Open terminal application and execute below command:
+1. On the next screen you will have the option to upload your own public key or let Adobe IO generate the key pair for you. These instructions will follow the latter option. If you decide to let Adobe IO generate the key pair, click on option 1; then click on "Generate keypair" button.
 
-```
-openssl req -x509 -sha256 -nodes -days 365 -newkey rsa:2048 -keyout private.key -out certificate_pub.crt
-```
+![](assets/adobeIO4.png)
 
-**For Windows platforms**
+1. On the next screen you will be prompted to name and select the download location of the key pair zip file.
 
-* Download an openssl client to generate public certificates (e.g., [Openssl windows client](https://bintray.com/vszakats/generic/download_file?file_path=openssl-1.1.1-win64-mingw.zip))
+Once downloaded, you can unzip the file to reveal the public and private keys. Adobe IO has already applied the public key to your Adobe IO project. You will need to retain your private key for later; the private key will be used during the pre-integration setup of the integration tool.
 
-* Extract the folder from the zip file
+1. Click on "Next" to continue
 
-* Open Command Line Prompt and execute below commands. 
+![](assets/adobeIO5.png)
 
-Replace `<containing folder path>` below with the path of the extracted folder (e.g., C:\Users\labuser\Downloads\openssl-1.1.1-win64-mingw\openssl-1.1.1-win64-mingw): 
+1. On the next screen you will select product profiles to associate with this project.
 
-```
+1. Select the product profile that contains in the title: The tenant ID of your Campaign instance - [!UICONTROL Administrators] - Example: Campaign Standard - your-campaign-tenantID - Administrators
 
-set OPENSSL_CONF=<containing folder path>/openssl.cnf
- 
-cd <containing folder path>/
- 
-openssl req -x509 -sha256 -nodes -days 365 -newkey rsa:2048 -keyout private.key -out certificate_pub.crt
+1. Click on [!UICONTROL Save configured API].
 
-```
+![](assets/adobeIO6.png)
 
-**For all platforms**
+1. On the next screen you will see the details of your new Adobe IO project.
 
-Follow the prompts to finish the certificate request:
+1. Click on "Add to Project" at the top left of the screen and select "API" from the drop down.
 
-```
+![](assets/adobeIO7.png)
 
-Generating a 2048 bit RSA private key
- 
-.................+++
- 
-.......................................+++
- 
-writing new private key to 'private.key'
- 
------
- 
-You are about to be asked to enter information that will be incorporated
- 
-into your certificate request.
- 
-What you are about to enter is what is called a Distinguished Name or a DN.
- 
-There are quite a few fields but you can leave some blank
- 
-For some fields there will be a default value,
- 
-If you enter '.', the field will be left blank.
- 
------
+1. On the next screen you will need to select the I/O Events API, then click "Next".
 
-```
+1. On the next screen click "Save configured API"
 
-After entering the information, two files will be generated: **[!UICONTROL certificate_pub.crt]** and **[!UICONTROL private.key]**.
-
-* **[!UICONTROL certificate_pub.crt]** will expire in 365 days. You can modify the expiration period by changing the value of days in the openssl command above, but rotating credentials periodically is a good security practice.
-
-* **[!UICONTROL certificate_pub.crt]** will be used in the next screen to complete the integration in Adobe I/O Console.
-
->[!NOTE]
->
-> **[!UICONTROL private.key]** will be used at a later time during pre-integration configuration steps for the integration tool.
-
-1. Go back to Adobe I/O Console, and enter a name and description for the integration. 
-
-1. Upload **[!UICONTROL certificate_pub.crt]**
-
-1. Select the product profile that has in the title:
-
-    * The Organization ID of your Campaign instance
-    * **[!UICONTROL Administrators]** 
-
-Example:  Campaign Standard - your-campaign-organizationID - Administrators 
-
-Click on **[!UICONTROL Create Integration]**.
-
-![](assets/do-not-localize/MSdynACSIntegration-4B.png)
-
-### Set up integration details
-
-1. Select **[!UICONTROL Continue to Integration Details]**
-
-Review the integration details.  You will need to refer back to them when you run through the integration tool pre-configuration setup.
-
-![](assets/do-not-localize/MSdynACSIntegration-5.png)
-
-1. Click over to the **[!UICONTROL Services]** tab and add **[!UICONTROL I/O Events]** and **[!UICONTROL I/O Management API]** services.  To add the service, click on the radio button, then **[!UICONTROL Add service]**.  You will do this for each service separately.
-
-When you are done your services should show up top like the picture below. You will not need to complete the section a-on generating a JWT and access token. 
+When you are done your services should show up top. You will not need to complete the section a-on generating a JWT and access token. 
 
 Pre-integration setup in Campaign is now complete.  Proceed to complete [pre-integration setup for Microsoft Dynamics 365](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md).
 
