@@ -26,13 +26,13 @@ Flowchart Details (maps to steps above):
 
 * **Step 1** - It is assumed that you already have, or are in the process of procuring, a license for Microsoft Dynamics 365 for Sales and for Adobe Campaign Standard.
 
-* **Step 2** - The standard integration offering is free to all customers; however, additional costs may apply depending on your requirements (see "Integration guardrails" and "Integration boundaries" sections). A new sales order will need to be signed in order to take advantage of the integration.
+* **Step 2** - The standard integration offering is free to all customers; however, additional costs may apply depending on your requirements (see [Integration guardrails and boundaries](../../integrating/using/ms-dynamics-365-integration-guardrails.md). A new sales order will need to be signed in order to take advantage of the integration.
 
-* **Step 3** - Complete pre-integration steps for Dynamics 365 and Campaign (see "Configuring this integration" section below).
+* **Step 3** - Complete pre-integration steps for Dynamics 365 and Campaign. See [Configure this integration](#configure-this-integration).
 
 * **Steps 4-7** - The Adobe onboarding team will work with you through the onboarding process.
 
-## Configuring this integration
+## Configure this integration {#configure-this-integration}
 
 Three systems need to be provisioned and configured for this integration: Adobe Campaign Standard, Microsoft Dynamics 365 for Sales and the integration tool. Configuration articles are linked below.
 
@@ -49,7 +49,7 @@ In MICROSOFT DYNAMICS 365, you need to create a new app registration and enable 
 You will need to work with the Adobe onboarding team to set up the configuration for ingress, egress, and opt-out data flows.
 
 
-## Requesting support 
+## Request support 
 
 Support tickets can be logged with Adobe Custom Care, as usual; Customer Care will bring in support personnel, as needed.
 

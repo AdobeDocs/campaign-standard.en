@@ -18,7 +18,7 @@ snippet: y
 
 Activate your CRM data on cross-channel communication: learn how to pass on contacts from Microsoft Dynamics 365 to Adobe Campaign, and share campaign performance data (sends, opens, clicks, and bounces) back from Adobe Campaign to Microsoft Dynamics 365.
 
-Supported versions are listed [in this page](../../integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md#support-software-versions).
+Supported versions are listed [in this section](#support-software-versions).
 
 >[!CAUTION]
 >
@@ -56,3 +56,11 @@ With contact data synchronized to Adobe Campaign, communications can be sent on 
 >[!CAUTION]
 >
 >For contact and custom entity synchronization, this integration considers Dynamics 365 as the source of truth.  Any changes to synchronized attributes should be done in Dynamics 365, not in Campaign.  If changes are made in Campaign, they can eventually get overwritten during synchronization.
+
+## Support Software Versions {#support-software-versions}
+
+This integration requires the following software versions:
+
+* Microsoft Dynamics 365 for Sales Online only, latest version
+
+* Adobe Campaign Standard, latest version

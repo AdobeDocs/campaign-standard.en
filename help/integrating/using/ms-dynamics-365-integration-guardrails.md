@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Guardrails and Integration Boundaries
+# Integration guardrails and boundaries
 
 ## Integration Guardrails
 

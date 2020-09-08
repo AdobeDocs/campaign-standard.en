@@ -1,6 +1,6 @@
 ---
-title: About Campaign-Experience Manager integration
-description: With the Adobe Experience Manager integration, you can create content directly in AEM and use it later on in Adobe Campaign.
+title: Map Campaign custom resources and Dynamics 365 custom entities
+description: Learn how to map resources and entities in the context of the integration between Adobe Campaign Standard and Microsoft Dynamics 365.
 page-status-flag: never-activated
 uuid: ed6c1b76-87f7-4d23-b5e2-0765297a905c
 contentOwner: sauviat
@@ -14,14 +14,13 @@ internal: n
 snippet: y
 ---
 
-# Map Campaign custom resources and Dynamics 365 Custom entities
+# Map Campaign resources and Dynamics 365 entities
 
 Learn how to map custom resources and custom entities in the context of the integration between Adobe Campaign Standard and Microsoft Dynamics 365. 
 
 ## Prerequisites
 
-The [Microsoft Dynamics 365-Adobe Campaign Standard integration](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md) supports custom entities,
-enabling custom entities in Dynamics 365 to be synchronized to corresponding custom resources in Campaign.
+The [Microsoft Dynamics 365-Adobe Campaign Standard integration](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md) supports custom entities, enabling custom entities in Dynamics 365 to be synchronized to corresponding custom resources in Campaign.
 
 The new data in the custom resources can be used for several purposes, including segmentation and personalization.
 
@@ -29,9 +28,7 @@ The integration supports both linked and non-linked tables. Linking is supported
 
 >[!CAUTION]
 >
->If any Campaign custom resource record contains personal information, applicable to a customer’s use of Campaign, such record should be linked to a corresponding Campaign profile record (either directly or through another custom resource) so that a privacy related delete on the profile record can also delete the linked custom resource record containing personal information; the linking and deletion options between the entities must be configured to enable this cascade-like removal of the linked records. Personal information should not be entered into a custom resource that is not linked to the profile.
-
-A more comprehensive overview of Campaign custom resources can be found [at this link](../../developing/using/key-steps-to-add-a-resource.md).
+>If any Campaign custom resource record contains personal information, specific recommendations apply. Learn more [in this section](../../integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md#privacy-linked-resources).
 
 ## Notices
 
