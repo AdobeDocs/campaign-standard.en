@@ -23,7 +23,7 @@ Below you will find details on the **[!UICONTROL Delivery throughput]** report a
 * Check each delivery throughput to make sure that it is consistent with the delivery content's validity (e.g. 'flash sales' should be delivered in minutes, not days).
 * When using waves, verify that each wave has enough time to finish before the next one is triggered.
 * Check that the number of errors and new quarantines are consistent with other deliveries.
-* Carefully consult the delivery logs in detail to check the kind of errors that are highlighted (block lists, DNS issues, anti-spam rules, etc…).
+* Carefully consult the delivery logs in detail to check the kind of errors that are highlighted (denylists, DNS issues, anti-spam rules, etc…).
 
 ## Delivery throughput {#delivery-throughput}
 
@@ -61,6 +61,6 @@ Signal Spam also provides direct complaints that end users log through a dedicat
 
 ## 250ok {#solution-250ok}
 
-250ok is a monitoring solution which provides IP and domain block lists, as well as reputation indicators.
+250ok is a monitoring solution which provides IP and domain denylists, as well as reputation indicators.
 
 The information provided is real-time, which allows for a pro-active assistance. 250ok a complementary solution to the Adobe deliverability internal tools.

@@ -22,4 +22,4 @@ The **[!UICONTROL Complaints]** report identifies the deliveries that have recei
 
 The **Flop** table, sorted by recipient domain, displays the number of recipients that have declared an email or junk. The table's results are also available in a chart and summary numbers.
 
-The **Delivered vs Block list rate** table lists the number of recipients that have declared an email as spam or junk. The table is sorted by delivery.
+The **Delivered vs Denylisted rate** table lists the number of recipients that have declared an email as spam or junk. The table is sorted by delivery.

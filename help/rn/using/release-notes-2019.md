@@ -287,7 +287,7 @@ Introduced a series of improvements and fixes to optimize fragments in the 19.2 
 * The “Launch_URL_Campaign” option has been added in Campaign to manage properties of mobile applications created with Adobe Experience Platform Mobile SDK.
 * Fixed an error that led to the Sandbox environment option being unchecked after uploading the certificate of a newly created mobile property and exiting the mobile application property page.
 * Fixed an issue which prevented you from enriching a transactional message content with information from the Service resource. (CAMP-33707)
-* Fixed an issue in the block list landing pages that occurred when trying to unsubscribe profiles from a service.
+* Fixed an issue in the denylist landing pages that occurred when trying to unsubscribe profiles from a service.
 
 ## Release 19.2 - May 2019 {#release-19-2---may-2019}
 
@@ -611,7 +611,7 @@ Several improvements have been added to the Transactional messaging channel in o
 * Fixed an issue, in the query editor, with the join condition between broadlog and tracking log for rtEvent. (CAMP-28780)
 * Fixed an issue which prevented modifications to the "Specific action" landing page option from being saved. (CAMP-29422)
 * Fixed an issue which prevented from exporting an event's payload in a workflow. (CAMP-29029)
-* Fixed an issue that prevented SMS numbers on the block list from being excluded in an SMS message. (CAMP-28898)
+* Fixed an issue that prevented denylisted SMS numbers from being excluded in an SMS message. (CAMP-28898)
 * Fixed an issue which could prevent SMPP providers from being notified in case of an error while processing incoming messages. (CAMP-29804)
 * Fixed an issue which allowed external accounts with associated deliveries to be deleted. (CAMP-29738)
 * The sending throughput has been improved and stabilized for SMS messages.
