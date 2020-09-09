@@ -16,25 +16,23 @@ snippet: y
 
 # Adding a control group {#adding-control-group}
 
-To measure the impact of a delivery, you may want to withdraw some profiles from your target so that they will not receive a given message.
+You can use control groups to avoid sending messages to a portion of your audience in order to measure the impact of your campaigns.
 
-<img src="assets/do-not-localize/icon_concepts.svg" width="60px">
+To do this in Adobe Campaign, create a <b>control group</b> when defining the target of your delivery. Profiles are added to the control group randomly, filtered or not, or based on criteria.
 
-To do this in Adobe Campaign, you can create a <b>control group</b> when defining the target of your delivery.
-
-This will enable you to make a comparison with the behavior of the target population which did receive the message. You can also use the sending logs in other campaigns.
+ You will then be able to compare the behavior of the target population which did receive the message with the behavior of contacts which were not targeted. Based on the sending logs, you can also target a control group in future campaigns.
 
 <!--The control group is built when the delivery is prepared.-->
 
 ## Overview {#overview}
 
-The control group can be selected from the main target and/or come from a specific population. Consequently, there are two main ways you can define a control group:
+The control group can be extracted randomly from the main target and/or selected from a specific population. Consequently, there are two main ways you can define a control group:
 * **Extract** a number of profiles from the main target.
 * **Exclude** some profiles based on criteria defined in a query.
 
 You can use both methods when defining a control group.
 
-All profiles being part of the control group at the delivery preparation stage will be removed from the main target. They will not receive the message once it is sent.
+All profiles being part of the control group at the delivery preparation step will be removed from the main target. They will not receive the message once it is sent.
 
 ## Extracting from the target population {#extraction-target-population}
 
@@ -116,7 +114,7 @@ The profiles matching the result of the query will be excluded from the target.
 
 <!--For more on using the query editor, see the [Editing queries](../../automating/using/editing-queries.md) section.-->
 
-## Example {#control-group-example}
+## Use case: set up a control group {#control-group-example}
 
 Below is an example showing how to define a control group using both methods: extracting profiles from the main target and using a query to exclude a specific population.
 
@@ -147,13 +145,15 @@ Below is an example showing how to define a control group using both methods: ex
 
 The profiles that were extracted (the 100 oldest profiles) and the ones that were defined based on the query (profiles under 20) will be withdrawn from the main target. They will not receive the message.
 
-## Delivery logs {#delivery-logs}
+## Comparing the results {#delivery-logs}
 
 Now that you sent your delivery, what can you do with the control group?
 
-<img src="assets/do-not-localize/icon_concepts.svg" width="60px">
+You can extract the **sending logs** to compare how the control group that did not receive the communication acted compared to the effective target. You can also use the delivery logs to **build another targeting**.
 
-You can extract the **sending logs** to compare how the control group that did not receive the communication reacted compared to the effective target. You can also use the delivery logs to **build another targeting**.
+>[!CAUTION]
+>
+>The [Administrator role](../../administrating/using/user-management.md#functional-administrators) is required to access delivery logs.
 
 ### Checking the delivery logs {#checking-logs}
 
