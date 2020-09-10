@@ -18,8 +18,6 @@ snippet: y
 
 [Release Planning](../../rn/using/release-planning.md) &#124; [Control Panel releases](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) &#124; [Documentation Updates](../../rn/using/documentation-updates.md) &#124; [Previous Release Notes](../../rn/using/release-notes-2020.md) &#124; [Deprecated Features](../../rn/using/deprecated-features.md)
 
-![](assets/do-not-localize/cp-icon.png) **New Control Panel June release** with Active profiles monitoring, Subdomain deliverability audit and GPG keys management. [Learn more](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
-
 ## Release 20.4 - September 2020 {#release-20-4---september-2020}
 
 **What's new?**
@@ -27,53 +25,19 @@ snippet: y
 <table> 
 <thead> 
 <tr> 
-<th> <strong>Adobe Experience Platform Data Connector General Availability</strong><br /> </th> 
+<th> <strong>Experience Platform integration General Availability</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>The integration of Adobe Experience Platform Data Connector with Campaign Standard has moved from beta to GA. You can make your Campaign data available on Adobe Experience Platform by mapping XTK data (data ingested in Campaign) to Adobe Experience Platform Data Model (XDM).
+<td> <p>The following Experience Platform integrations have moved from beta to GA:</p>
+<p>The integration with Adobe Experience Platform Data Connector allows you to make your Campaign data available on Adobe Experience Platform by mapping XTK data (data ingested in Campaign) to Adobe Experience Platform Data Model (XDM). Refer to the <a href="../../developing/using/aep-about-data-connector.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">how-to video</a>.
 </p>
-<p>Please note this feature is available to customers hosted on Azure only (currently in beta for North America). Please reach out to Adobe Customer Care to request access.
+<p>The integration with Audience Destinations allows you to share segments from Adobe Experience Platform with Adobe Campaign. Refer to the <a href="../../audiences/using/aep-about-audience-destinations-service.md">detailed documentation</a> and the and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html">how-to video</a>.
 </p>
-<p>For more information refer to the <a href="../../developing/using/aep-about-data-connector.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">how-to video</a>.</p>
-</td> 
-</tr> 
-</tbody> 
-</table>
-
-<table> 
-<thead> 
-<tr> 
-<th> <strong>Audience Destinations General Availability</strong><br /> </th> 
-</tr> 
-</thead> 
-<tbody> 
-<tr> 
-  <td> <p>The integration of Audience Destinations with Campaign Standard has moved from beta to GA. Audience Destinations allows you to share segments from Adobe Experience Platform with Adobe Campaign.
+<p>The integration with Offer Decisioning provides offer creation, management, and decisioning, allowing you to continuously deliver the best offer and experience to your customers. For more information refer to the XXX.
 </p>
-<p>Please note this feature is available to customers hosted on Azure only (currently in beta for North America). Please reach out to Adobe Customer Care to request access.
-</p>
-<p>For more information refer to the <a href="../../audiences/using/aep-about-audience-destinations-service.md">detailed documentation</a> and the and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html">how-to video</a>.
-</p>
-</td> 
-</tr> 
-</tbody> 
-</table>
-
-<table> 
-<thead> 
-<tr> 
-<th> <strong>Offer Decisioning General Availability</strong><br /> </th> 
-</tr> 
-</thead> 
-<tbody> 
-<tr> 
-  <td> <p>The integration of Offer Decisioning with Campaign Standard has moved from beta to GA. Offer Decisioning provides offer creation, management, and decisioning, allowing you to continuously deliver the best offer and experience to your customers.
-</p>
-<p>Please note this feature is available to customers hosted on Azure only (currently in beta for North America). Please reach out to Adobe Customer Care to request access.
-</p>
-<p>For more information refer to the TBD.
+<p>Please note these integrations are available to customers hosted on Azure only (currently in beta for North America). Please reach out to Adobe Customer Care to request access.
 </p>
 </td> 
 </tr> 
@@ -90,7 +54,7 @@ snippet: y
 <tr> 
   <td> <p>You can now use control groups to avoid sending messages to a portion of your audience and measure the impact of your campaigns. You will then be able to compare the behavior of the target population which did receive the message with the behavior of contacts which were not targeted. Based on the sending logs, you can also target a control group in future campaigns.
 </p>
-<p>For more information refer to the TBD.
+<p>For more information refer to the XXX.
 </p>
 </td> 
 </tr> 
@@ -105,26 +69,9 @@ snippet: y
 </thead> 
 <tbody> 
 <tr> 
-  <td> <p>Introduces the support of OAuth for authentication in the External API activity. This opens up the ability for this workflow activity to transact with systems requiring OAuth support.
+  <td> <p>We're introducing the support of OAuth for authentication in the <strong>External API</strong> activity. This opens up the ability for this workflow activity to communicate with systems requiring OAuth support.
 </p>
-<p>For more information refer to the TBD.
-</p>
-</td> 
-</tr> 
-</tbody> 
-</table>
-
-<table> 
-<thead> 
-<tr> 
-<th> <strong>Unified Shell support Campaign</strong><br /> </th> 
-</tr> 
-</thead> 
-<tbody> 
-<tr> 
-  <td> <p>The interface top bar has been enhanced to improve experience across all Experience Cloud applications. The header now allows you to switch more easily between solutions and displays improved help and notifications.
-</p>
-<p>For more information refer to the TBD.
+<p>For more information refer to the XXX.
 </p>
 </td> 
 </tr> 
@@ -133,110 +80,103 @@ snippet: y
 
 **Improvements**
 
-* SMS errors' provision has been switched from hard to soft errors to avoid large amounts of recipients to be moved to quarantine. Refer to [this page](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html).
 * Workflow execution improvements (beta)
-* Fixed an error where link tracking had to be turned off to be able to use a destination link for Push notifications or In-App messaging preventing reporting to collect data.
 * To improve security, Campaign now uses a signature mechanism for tracking links in emails.
-* Fixed have been implemented to improve mobile app configuration in Adobe Campaign with clearer error messages when uploading iOS certificates or Android key.
-* New delivery mapping has been created for transactional push delivery targeting profiles. The Delivery Logs, Exclusion logs, Tracking logs for these deliveries will now be available in broadLogAppSubRcp, excludeLogAppSubRcp and trackingLogAppSubRcp respectively.
-This will fix an issue which caused delivery analysis to fail when sending a transactional push delivery with target dimension set as profile.
+* Mobile app configuration has been improved with clearer error messages when uploading iOS certificates or Android keys.
+* A new delivery mapping is now available for transactional push messages targeting profiles. The delivery, exclusion and tracking logs for these deliveries will now be available in the broadLogAppSubRcp, excludeLogAppSubRcp and trackingLogAppSubRcp resources. This solves an issue which caused delivery analysis to fail when sending a transactional push message using the profile target dimension.
+* SMS error management has been improved to prevent too many recipients from being added to the quarantine list. By default, SMS errors are now configured as soft errors instead of hard errors. Refer to [this page](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html).
   
 
 **Email Designer enhancements**
 
-* Improved user experience in Campaign Email Designer with the new dynamic contextual help which fully connects user interface and documentation, providing an easy access to the latest help content.
-* Fixed an issue that removed line breaks in a delivery, when editing its text version using the Email Designer. (CAMP-44483)
-* Fixed an issue with the Email designer preventing the Plain text version of an HTML template to be automatically generated and synchronized. (CAMP-44195)
-* Fixed an issue that could occur when resizing images within the Email Designer. Once the messages were sent, the images did not display properly in Microsoft Outlook.(CAMP-44656)
-* Fixed an issue in the Email Designer that occured when inserting a button and setting its width to “auto”. Once the message was sent, the content of the button was not displayed entirely. (CAMP-44560)
-* Fixed an issue which occured when uploading content in the Email Designer from an attached HTML file. Once the message was sent to a Gmail address, the CSS was not applied, causing the message not to render properly. (CAMP-44085)
-* Fixed an issue where content fragments previously included in a delivery were not updated when edited afterward directly in the content template. (CAMP-43973)
-* Fixed an issue with the Fragments' search bar in the Email designer. When searching for an existing fragment, the search bar showed no result. (CAMP-44223)
-* Fixed an issue with the Content Blocks and Fragments search bars in the Email designer. When using one of the search bar, you had to click “Show More Results…”  to have your results displayed. (CAMP-44205)
-* Fixed an issue in the Email Designer which prevented padding between text and images from being displayed in Microsoft Outlook. (CAMP-45370)
-* Fixed an issue when duplicating a Fragment in the Email designer. After duplicating the fragment, the original fragment was missing HTML lines. (CAMP-45207)
-* Fixed an error in the Email designer which caused rendering issue in Microsoft Outlook. (CAMP-44749)
-* Fixed an error that occured when modifying the Structure Component padding in a delivery template. CSS tags did not carry over changes made to the padding which caused rendering issue. (CAMP-45381)
-* Fixed an issue when uploading an image in the Email designer. The image's height was automatically set to 0 which caused rendering issue. (CAMP-45366)
+* We have improved the user experience in the Email Designer with the new dynamic contextual help which fully connects user interface and documentation, providing an easy access to the latest help content.
+* Fixed an issue which removed line breaks in a message when editing its text version. (CAMP-44483)
+* Fixed an issue preventing the plain text version of an HTML template from being automatically generated and synchronized. (CAMP-44195)
+* Fixed an issue that could occur when resizing images. Once the messages were sent, the images did not display properly in Microsoft Outlook. (CAMP-44656)
+* Fixed an issue which occurred when inserting a button and setting its width to “auto”. Once the message was sent, the content of the button was not displayed entirely. (CAMP-44560)
+* Fixed an issue which occurred when uploading content from an attached HTML file. Once the message was sent to a Gmail address, the CSS was not applied, causing a rendering issue. (CAMP-44085)
+* Fixed an issue which prevented content fragments previously used in a message from being updated when they were modified directly in the content template. (CAMP-43973)
+* Fixed an issue with the **[!UICONTROL Fragments]** search bar. When searching for an existing fragment, the search bar showed no result. (CAMP-44223)
+* Fixed an issue with the **[!UICONTROL Content Blocks]** and **[!UICONTROL Fragments]** search bars. When using one of the search bars, results were only displayed if you clicked **[!UICONTROL Show More Results...]**. (CAMP-44205)
+* Fixed an issue which prevented padding between text and images from being applied in Microsoft Outlook. (CAMP-45370)
+* Fixed an issue when duplicating a fragment. After duplicating the fragment, the original fragment was missing HTML lines. (CAMP-45207)
+* Fixed an error which caused rendering issues in Microsoft Outlook. (CAMP-44749)
+* Fixed an error which occurred when modifying the **[!UICONTROL Structure Component]** padding in a delivery template. CSS tags did not carry over changes made to the padding causing a rendering issue. (CAMP-45381)
+* Fixed an issue when uploading an image. The image's height was automatically set to 0 causing a rendering issue. (CAMP-45366)
 
 **Other changes**
 
-* Retry mechanisms have been added in case of error when trying to import an Adobe Experience Platform using a Read audience activity. (CAMP-43947, CAMP-43366)
-* Organizational unit is now automatically set to the same organizational unit as the user creating the profile or entity. Organizational unit can no longer be removed and left empty.
-* A new window has been added for you to confirm the custom resource publication after the preparation with the following message "Access to database is limited during custom updates. Ensure you perform big tables updates during low workflow activity."
-* The popup window which appears when a custom resource fails has been changed to the following: The latest custom resource publication failed. If not fixed, you will not benefit from further upgrades on your instance. Please reach your administrator to let him/her check and fix the situation.
-* The expression editor in workflows has been improved to prevent execution errors. [New functions](../../automating/using/customizing-workflow-external-parameters.md) have been made available: they can be used in all the activities that allow you to use events variables after calling a workflow with external parameters. Additionally, a tooltip now displays in the Expression Editor with the function description. 
+* Retry mechanisms have been added in case of error when trying to import an Experience Platform audience using a **[!UICONTROL Read audience]** activity. (CAMP-43947, CAMP-43366)
+* Organizational units are now automatically set to match the organizational unit of the user creating the profile or entity. Organizational units can no longer be removed and left empty.
+* When publishing a custom resource, a confirmation pop-up is now displayed after preparation.
+* The pop-up message which appears when a custom resource fails has been improved for better clarity.
+* The expression editor in workflows has been improved to prevent execution errors. [New functions](../../automating/using/customizing-workflow-external-parameters.md) are available: they can be used in all the activities that allow you to use event variables after calling a workflow with external parameters. Additionally, a tooltip now displays in the expression editor with the function description. 
 * New filters have been added to the list of transactional events. They allow you to filter the event configurations according to their status, as well as the last time an event was received.
 * The logs displaying when exporting packages have been made more specific and detailed about the encountered errors in case of failure.
-* After sending a delivery, you can now search, filter and export the list of tracked URLs.
-* The synchronization between Launch and Adobe Campaign is now enabled by default.
-* Transactional messages can be sent in priority even in case of significant bulk deliveries workload.
-* Improve workflow export package size by removing the sending proofs export.
-* Add a new message to indicate the size of the downloaded file in the file transfer activity.
-* Improve the error message for invalid session token.
-* Improve the process monitoring with the "Last alive" information for all the nlserver processes. 
-* Add a new mechanism to prevent tracking events from proxies to be added to tracking logs and reporting.
+* After sending a message, you can now search, filter and export the list of tracked URLs.
+* The synchronization between Launch and Campaign is now enabled by default.
+* Transactional messages can be sent with a high priority even in case of significant bulk delivery workload.
+* The size of workflow export packages has been optimized by removing the sending proof export.
+* A new message has been added to indicate the size of the downloaded file in the **[!UICONTROL File transfer]** activity.
+* Error messages for invalid session tokens have been improved.
+* A new mechanism now prevents tracking events from proxies from being added to tracking logs and reporting.
 * A new warning message has been added to help debugging data management activites plugged with a delivery activity.
-* Terminology update for the reporting workspace.
-* Add a feature flag for external SDK used in email editor.
-* Add a new validation step to prevent deletion of technical objects in transactionnal messages.
-* Remove specific support for PostgreSQL 9.4 as ACS has moved to PostgreSQL 11.
-* New filter on delivery status inside a transactionnal message to improve troubleshooting.
+* Labels in the reporting workspace have been improved.
+* A new validation step has been added to prevent the deletion of technical objects in transactional messages.
+* A new filter on delivery status has been added in the **[!UICONTROL Execution list]** tab of a transaction message to improve troubleshooting.
 
 **Patches**
 
-* Fixed an issue that could prevent from assigning brands to a transactional emails. Several error messages could display at the publication time. (CAMP-44988)
-* Fixed an issue in workflows' user interface that could prevent information from being saved in fields requesting numeric values. (CAMP-44025)
-* Fixed an issue that could display an error message when using a Test activity in an import template workflow. (CAMP-42910)
-* Fixed an issue that occured when using a Read audience activity containing an enumeration type field and connected to Union or Enrichment activities. (CAMP-42795)
+* Fixed an issue which prevented you from using a destination link for Push notifications or In-App messaging when tracking was enabled.
+* Fixed an issue which could prevent you from assigning brands to a transactional email. Several error messages could display at publication time. (CAMP-44988)
+* Fixed an issue in the workflow user interface which could prevent information from being saved in fields requesting numeric values. (CAMP-44025)
+* Fixed an issue which could display an error message when using a **[!UICONTROL Test]** activity in an import template workflow. (CAMP-42910)
+* Fixed an issue which occurred when using a **[!UICONTROL Read audience]** activity containing an enumeration type field and connected to **[!UICONTROL Union]** or **[!UICONTROL Enrichment]** activities. (CAMP-42795)
 * Fixed an issue in Dynamic reports when using the out-of-the-box segments to filter data in reports. (CAMP-42627)
-* Fixed an issue that prevented from setting a Scheduler activity to 12 AM. (CAMP-42674)
-* Fixed an issue that could interrupt the sending of SMS messages when the SMPP connection was unstable. (CAMP-42789)
-* Fixed an issue that prevented the Stop preparation button from displaying after refreshing the page. (CAMP-42721)
-* Fixed an issue that prevented hot click reports percentages from displaying when importing content from URL. (CAMP-44468)
-* Fixed an issue that could display a timeout error when selecting a profile to use for profile substitution. (CAMP-44746)
-* Fixed an issue that could prevent instances from working after deploying custom resources containing incorrect links definitions. (CAMP-44406)
-* Fixed an issue that created empty linked entities (typologies, brands, etc.) after copy-pasting a delivery into a campaign template. (CAMP-44765)
-* Fixed an issue that could prevent from deleting links with AEM content in a delivery configured with multilingual content. (CAMP-44029)
-* Fixed an issue in dynamic reports that could diplay an error message when trying to filter dimensions.  (CAMP-43097)
-* Fixed an issue that could display a blank screen when trying to access profiles on an instance configured with custom resources containing specific link definitions. (CAMP-41009)
-* Fixed an issue in workflows that could occur when using an Enrichment activity with two input activities having both target resources linked together. (CAMP-42133)
-* Fixed an issue causing import workflows to loop when using a File transfer activity. (CAMP-43754)
-* Fixed an issue where duplicates were not taken into account  when creating profile with exported logs. (CAMP-45031)
-* Fixed an issue causing data discrepancy between reports in Adobe Campaign and reports exported in pdf files. (CAMP-43010)
-* Fixed an error which caused direct mail delivery workflow to fail when using existing data fields in functions. (CAMP-42737)
-* Fixed an issue when importing package including Transactional events and Message templates. Importation was stuck in a loop at 5% progress.  (CAMP-42544)
-* The following error Uncaught TypeError was generated after modifying the Enrichment activity and adding additional data in a workflow. (CAMP-41877)
-* Fixed an error which prevented workflow deletion. Logs had to be purged in order to delete workflows. (CAMP-44144)
-* Fixed an error when creating a landing page with an HTML code which caused Mandatory checkboxes to not be recognized in Campaign and to not be available in the published landing page. (CAMP-44181)
-* Fixed an issue causing workflows to loop when using the Wait activity. (CAMP-43981)
-* Fixed an issue when sending transactional messages where several e-mail addresses were targeted multiple times in a same delivery. (CAMP-44202)
+* Fixed an issue which prevented you from setting a **[!UICONTROL Scheduler]** activity to 12 AM. (CAMP-42674)
+* Fixed an issue which could interrupt the sending of SMS messages when the SMPP connection was unstable. (CAMP-42789)
+* Fixed an issue which prevented the **[!UICONTROL Stop preparation]** button from displaying after refreshing the page. (CAMP-42721)
+* Fixed an issue which prevented hot click reports percentages from displaying when importing content from URL. (CAMP-44468)
+* Fixed an issue which could display a timeout error when selecting a profile to use for profile substitution. (CAMP-44746)
+* Fixed an issue which could prevent instances from working after deploying custom resources containing incorrect link definitions. (CAMP-44406)
+* Fixed an issue which created empty linked entities (typologies, brands, etc.) after copying and pasting a delivery into a campaign template. (CAMP-44765)
+* Fixed an issue which could prevent you from deleting links with Experience Manager content in a delivery configured with multilingual content. (CAMP-44029)
+* Fixed an issue in dynamic reports that could display an error message when trying to filter dimensions.  (CAMP-43097)
+* Fixed an issue which could display a blank screen when trying to access profiles on an instance configured with custom resources containing specific link definitions. (CAMP-41009)
+* Fixed an issue in workflows that could occur when using an **[!UICONTROL Enrichment]** activity with two input activities having both target resources linked together. (CAMP-42133)
+* Fixed an issue causing import workflows to loop when using a **[!UICONTROL File transfer]** activity. (CAMP-43754)
+* Fixed an issue which led to duplicates not being taken into account when creating a profile with exported logs. (CAMP-45031)
+* Fixed an issue causing data discrepancy between reports in Adobe Campaign and reports exported in PDF files. (CAMP-43010)
+* Fixed an error which caused the direct mail delivery workflow to fail when using existing data fields in functions. (CAMP-42737)
+* Fixed an issue when importing packages including Transactional events and Message templates. The import process stopped at 5%.  (CAMP-42544)
+* Fixed an issue which caused an error (Uncaught TypeError) after modifying the **[!UICONTROL Enrichment]** activity and adding additional data in a workflow. (CAMP-41877)
+* Fixed an error which prevented workflow deletion. Logs had to be purged in order to delete the workflow. (CAMP-44144)
+* Fixed an error when creating a landing page with an HTML code. Mandatory checkboxes were not recognized in Campaign and were not available in the published landing page. (CAMP-44181)
+* Fixed an issue causing workflows to loop when using the **[!UICONTROL Wait]** activity. (CAMP-43981)
+* Fixed an issue when sending transactional messages which led to several email addresses being targeted multiple times in a same delivery. (CAMP-44202)
 * Fixed an error when using profile substitution with targetData personalization. (CAMP-44996)
-* Delivery preview could fail when using the deliverytransactionaltemplate Resource in custom Package exports. (CAMP-44084)
-* Fixed an issue which prevented proofs from being sent to test profiles when using custom Target mappings. (CAMP-43701)
-* Fixed an error which occurred in workflows when using the Read Audience activity and targeting an audience configured with a Targeting dimension other than Profile.  (CAMP-41885)
+* Fixed an issue which caused the delivery preview to fail when using the deliverytransactionaltemplate Resource in custom package exports. (CAMP-44084)
+* Fixed an issue which prevented proofs from being sent to test profiles when using custom target mappings. (CAMP-43701)
+* Fixed an error which occurred in workflows when using the **[!UICONTROL Read Audience]** activity and targeting an audience configured with a targeting dimension other than profile.  (CAMP-41885)
 * Fixed an issue which led to errors when the updateEventsStatus technical workflow was taking too much time retrieving event history (when the workflow was stopped). The unused "sumQueueTime" aggregate field has been removed from the workflow to solve this issue. (CAMP-43920)
 * Fixed a memory issue when deploying custom resources. (CAMP-42909)
 * Fixed an issue in transactional messaging when attributes were missing in collections. Now all missing attributes are defined with a default value and included in the payload. (CAMP-42882)
 * Fixed an issue that could affect performance when querying real-time event delivery logs. (CAMP-42759)
-* Fixed an error which occured when using upper case file extensions with Shared assets. (CAMP-44159)
-* Fixed an issue fixed which displayed an error message when testing the connection to an external account before it was created. The "Test connection" button now displays only once the external account has been created.
+* Fixed an error which occurred when using upper case file extensions with Shared assets. (CAMP-44159)
+* Fixed an issue which displayed an error message when testing the connection to an external account before it was created. The **[!UICONTROL Test connection]** button now displays only once the external account has been created.
 * Fixed an issue that left messages as pending after the Enhanced MTA was restarted on instances configured with sharding.
-* Fixed an issue that could lead the “Active profile” count to mismatch the effective number of sent deliveries.
-* Fixed an issue that could lead to latency when searching for ressources in the Query editor in a workflow.
-* Fixed an issue when selecting the option "Specify the fields to be taken into account in the text search" in a custom resource. If the fields list was left empty, the custom resource publication would fail.
-* Fixed performance issue when displaying the overview of custom tables with large volume of data.
-* Fixed an issue which prevented you from importing a delivery that had profile substitutions.
+* Fixed an issue that could lead the **[!UICONTROL Active profile]** count to mismatch the effective number of sent deliveries.
+* Fixed an issue that could lead to latency when searching for resources in the query editor in a workflow.
+* Fixed an issue when selecting the **[!UICONTROL Specify the fields to be taken into account in the text search]** option in a custom resource. If the field list was left empty, the custom resource publication failed.
+* Fixed a performance issue when displaying the overview of custom resources with a large volume of data.
+* Fixed an issue which prevented you from importing a delivery using profile substitutions.
 * Fixed an issue when using profile substitution, that prevented proofs from being sent immediately if the delivery was scheduled.
-* Fixed an issue that occured when uploading an Android key for a mobile application. The message that showed up after successfully uploading the key displayed the value of the former key.
-* Fixed an issue which prevented from creating test profiles from transactional messages after creating an event configuration with a collection containing no attribute.
-* Fixed an issue that could prevent from publishing custom resources after creating a new filter using an aggregate.
-* Fixed an issue in transactional messaging when attributes were missing in collections. Now all missing attributes are defined with a default value and included in the payload. 
-* Fixed an issue with abnormal open rates tracking logs and Gmail recipients caused by the Gmail images proxy.
+* Fixed an issue that occurred when uploading an Android key for a mobile application. The message that showed up after successfully uploading the key displayed the value of the former key.
+* Fixed an issue which prevented you from creating test profiles from transactional messages after creating an event configuration with a collection containing no attribute.
+* Fixed an issue that could prevent you from publishing custom resources after creating a new filter using an aggregate.
+* Fixed an issue causing an incorrect tracking open rate for Gmail recipients caused by the Gmail image proxy.
 * Fixed an issue causing Out Of Memory errors when importing a package.
-* Fixed an issue which prevented to delete delivery preparation tables in case of database crashes on Azure.
-This error avoids proof messages to be send.
-* Fixed an error when unlink AEM content with specific '%20' character in AEM path.
-* Fixed an error which occurred in workflows on multiple reconciliation activity label and name.
-* Fixed an issue with the transactionnal message picker in a landing page with the option "Start sending message" selected.
-* Fixed an issue for transactional messages or recurring deliveries where the delivery status was not setted with the right value by default. Some error logs have been improved too.
+* Fixed an issue which caused the Experience Manager unlink action to fail when the Experience Manager content included a path with a '%20' character.
+* Fixed an error which occurred in workflows on multiple reconciliation activity labels and names.
+* Fixed an issue with the transactional message picker in a landing page with the option **[!UICONTROL Start sending message]** selected.
+* Fixed an issue with transactional messages or recurring deliveries which prevented the delivery status from being initialized with the right value by default. Error logs have been improved too.
