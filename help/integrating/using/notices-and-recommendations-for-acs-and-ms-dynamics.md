@@ -59,8 +59,6 @@ Below are links to help guide you in implementing access and/or delete privacy r
 
 If any Campaign custom resource record contains personal information, applicable to a customer’s use of Campaign, such record should be linked to a corresponding Campaign profile record (either directly or through another custom resource) so that a privacy related delete on the profile record can also delete the linked custom resource record containing personal information; the linking and deletion options between the entities must be configured to enable this cascade-like removal of the linked records. Personal information should not be entered into a custom resource that is not linked to the profile.
 
-A more comprehensive overview of Campaign custom resources can be found [in this section](../../developing/using/key-steps-to-add-a-resource.md).
-
 Learn how to map Campaign resources and Dynamics 365 entities [in this section](../../integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md).
 
 ## Opt-out
