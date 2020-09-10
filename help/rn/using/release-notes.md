@@ -71,7 +71,7 @@ snippet: y
 <tr> 
   <td> <p>We're introducing the support of OAuth for authentication in the <strong>External API</strong> activity. This opens up the ability for this workflow activity to communicate with systems requiring OAuth support.
 </p>
-<p>For more information refer to the XXX.
+<p>For more information refer to the <a href="../../automating/using/external-api.md">detailed documentation</a>.
 </p>
 </td> 
 </tr> 
