@@ -117,6 +117,8 @@ To make proper use of the Email Designer and create the best emails as simply as
 
   Preview your messages before sending them. Adobe Campaign offers a way to test email rendering using Litmus. For more on this, see [Email rendering](../../sending/using/email-rendering.md).
 
+* Referrer meta tag is not supported in the Email designer.
+
 More design and general best practices regarding messages are presented in the following Adobe Campaign step-by-step guide: [Delivery best practices with Adobe Campaign](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html).
 
 ### Updating fragments {#email-designer-updates}
