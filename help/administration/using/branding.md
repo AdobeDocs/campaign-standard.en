@@ -91,9 +91,9 @@ You can add new entities of your organization in Campaign, or create a new type 
 
 1. **Create a ticket** - Once the subdomain is delegated, Adobe will need to set it up in the your production environment. To request this, [create a ticket to Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) with the following information:
 
-   * Subject: [ACS] New brand set up
+   * Subject: ACS New brand set up
    
-   * Content: A new domain has been delegated to Adobe and we would like to get it set up in our ACS platform
+   * Content: A new domain has been delegated to Adobe and we would like to get it set up in our Campaign platform
    
    * Domain: XXX
    
