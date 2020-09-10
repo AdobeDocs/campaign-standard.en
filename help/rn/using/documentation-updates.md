@@ -22,19 +22,23 @@ In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), 
 
 The Event transactional messages section has been reorganized and clarified. [Read more](../../channels/using/event-transactional-messages.md)
 
+A caution note has been added to warn users about permissions limitation related to log access. [Read more](../../administration/using/users-management.md)
+
+A new section has been added to detail the process to create a new brand. [Read more](../../administration/using/branding.md#creating-a-brand)
+
 ## Documentation updates - August 2020 {#doc-updates-august-2020}
 
 A new updated section on getting started with transactional messaging is available. [Read more](../../channels/using/getting-started-with-transactional-msg.md)
 
-The Transactional messaging limitations section has been moved. [Read more](../../channels/using/transactional-messaging-limitations.md)
+The **Transactional messaging limitations** section has moved [here](../../channels/using/transactional-messaging-limitations.md)
 
-The Preparing the send section has been moved. [Read more](../../sending/using/preparing-the-send.md)
+The **Preparing the send** section has moved [here](../../sending/using/preparing-the-send.md)
 
 ## Documentation updates - July 2020 {#doc-updates-july-2020}
 
 A new section has been added with guidelines related to Campaign Standard monitoring. [Read more](../../administration/using/monitoring-guidelines.md)
 
-External API Guardrails and limitations section has been updated.[Read more](../../automating/using/external-api.md#guardrails)
+External API Guardrails and limitations section has been updated. [Read more](../../automating/using/external-api.md#guardrails)
 
 The Privacy Management Overview page has been updated to include information on the Thailand’s Personal Data Protection Act (PDPA) and the Brazil's Lei Geral de Proteção de Dados (LGPD). [Read more](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
