@@ -1,6 +1,6 @@
 ---
-title: Why using Campaign Standard APIs?
-description: Learn more on Campaign Standard APIs and why to use them.
+title: Why use Campaign Standard APIs?
+description: Learn more on Campaign Standard APIs and why using them.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat

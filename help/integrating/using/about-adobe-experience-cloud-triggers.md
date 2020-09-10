@@ -22,6 +22,10 @@ In Adobe Experience Cloud, you define the different triggers, that is to say, th
 
 In Adobe Campaign, you select the trigger that was previously created, you enrich the event data with datamart data and you define a transactional message template linked to that trigger. For example, when a client abandons his visit on your website, an event is sent to Adobe Campaign which can then leverage this event via a remarketing email that is sent to the client within 15 minutes.
 
+The following diagram details how this integration works.
+
+![](assets/triggers_diagram.png)
+
 **Related topics:**
 
 * Learn about the different types of triggers: [Adobe Experience Cloud documentation](https://docs.adobe.com/content/help/en/core-services/interface/activation/triggers.html).

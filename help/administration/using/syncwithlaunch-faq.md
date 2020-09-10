@@ -13,7 +13,7 @@ internal: n
 snippet: y
 ---
 
-# Sync with Launch technical workflow FAQ {#syncwithlaunch-faq}
+# Adobe Launch Synchronization FAQ {#syncwithlaunch-faq}
 
 You can import Adobe Launch mobile properties into Adobe Campaign Standard through the **[!UICONTROL Sync with Launch]** dedicated technical workflow. For more information, refer to this [page](../../administration/using/technical-workflows.md)
 

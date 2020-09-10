@@ -64,7 +64,7 @@ To link a typology to a message, follow these steps:
 
 1. Access the message properties. Note that message templates are accessible from the **[!UICONTROL Resources]** > **[!UICONTROL Templates]** navigation menu.
 
-1. In the **[!UICONTROL Advanced parameters]** > **[!UICONTROL Prearation]** section, select the typology to link to the message.
+1. In the **[!UICONTROL Advanced parameters]** > **[!UICONTROL Preparation]** section, select the typology to link to the message.
 
    ![](assets/typology_message.png)
 
