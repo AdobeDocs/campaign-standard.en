@@ -22,7 +22,7 @@ There are several jobs that this integration performs:
 
     * Bring in **contacts** from Dynamics 365 into Campaign
 
-    * **Custom entities**: Bring in custom tables from Dynamics 365 to Campaign. Learn more [in this section](../../integration/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md).
+    * **Custom entities**: Bring in custom tables from Dynamics 365 to Campaign. Learn more [in this section](../../integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md).
 
 * **Egress**: Bring in email marketing events from ACS to D365 (email send, open, click, bounce)
 
