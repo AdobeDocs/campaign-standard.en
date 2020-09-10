@@ -48,7 +48,7 @@ To create these data elements:
 
 1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Mobile Core]**. Then **[!UICONTROL Experience Cloud ID]** in the **[!UICONTROL Data element]** type drop-down.
 
-    ![](assets/rules_1.png)
+    ![](assets/do-not-localize/rules_1.png)
 
 1. To create the Pkey data element, click **[!UICONTROL Add data element]**.
 
@@ -136,7 +136,7 @@ To send PII data to [!DNL Adobe Campaign Standard], create a rule in [!DNL Exper
 
 1. In **[!UICONTROL Timeout]**, select 0.
 
-    ![](assets/rules_2.png)
+    ![](assets/do-not-localize/rules_2.png)
 
 Your user data is now configured to be sent to Campaign.
 
@@ -172,7 +172,7 @@ To send tracking data to [!DNL Adobe Campaign Standard] for reporting on how you
 
 1. In **[!UICONTROL Timeout]**, select 0.
 
-    ![](assets/rules_3.png)
+    ![](assets/do-not-localize/rules_3.png)
 
 ### Push notifications tracking postback {#push-tracking-postback}
 
@@ -257,4 +257,4 @@ To track app actions, use the trackAction API. For more information, see [Track 
 
 1. In **[!UICONTROL Timeout]**, select 5.
 
-    ![](assets/rules_4.png)
+    ![](assets/do-not-localize/rules_4.png)
