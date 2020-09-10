@@ -73,6 +73,8 @@ snippet: y
 </p>
 <p>These integrations are available to customers hosted on Azure only (currently in beta for North America). Please reach out to Adobe Customer Care to request access.
 </p>
+<p>For more information refer to the <a href="../../automating/using/external-api.md">detailed documentation</a>.
+</p>
 </td> 
 </tr> 
 </tbody> 
