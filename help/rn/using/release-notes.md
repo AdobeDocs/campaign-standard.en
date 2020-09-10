@@ -18,31 +18,9 @@ snippet: y
 
 [Release Planning](../../rn/using/release-planning.md) &#124; [Control Panel releases](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) &#124; [Documentation Updates](../../rn/using/documentation-updates.md) &#124; [Previous Release Notes](../../rn/using/release-notes-2020.md) &#124; [Deprecated Features](../../rn/using/deprecated-features.md)
 
-## Release 20.4 - September 2020 {#release-20-4---september-2020}
+## Release 20.4 - October 2020 {#release-20-4---october-2020}
 
 **What's new?**
-
-<table> 
-<thead> 
-<tr> 
-<th> <strong>Experience Platform integration General Availability</strong><br /> </th> 
-</tr> 
-</thead> 
-<tbody> 
-<tr> 
-<td> <p>The following Experience Platform integrations have moved from beta to GA:</p>
-<p>The integration with Adobe Experience Platform Data Connector allows you to make your Campaign data available on Adobe Experience Platform by mapping XTK data (data ingested in Campaign) to Adobe Experience Platform Data Model (XDM). Refer to the <a href="../../developing/using/aep-about-data-connector.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">how-to video</a>.
-</p>
-<p>The integration with Audience Destinations allows you to share segments from Adobe Experience Platform with Adobe Campaign. Refer to the <a href="../../audiences/using/aep-about-audience-destinations-service.md">detailed documentation</a> and the and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html">how-to video</a>.
-</p>
-<p>The integration with Offer Decisioning provides offer creation, management, and decisioning, allowing you to continuously deliver the best offer and experience to your customers. For more information refer to the XXX.
-</p>
-<p>Please note these integrations are available to customers hosted on Azure only (currently in beta for North America). Please reach out to Adobe Customer Care to request access.
-</p>
-</td> 
-</tr> 
-</tbody> 
-</table>
 
 <table> 
 <thead> 
@@ -52,9 +30,9 @@ snippet: y
 </thead> 
 <tbody> 
 <tr> 
-  <td> <p>You can now use control groups to avoid sending messages to a portion of your audience and measure the impact of your campaigns. You will then be able to compare the behavior of the target population which did receive the message with the behavior of contacts which were not targeted. Based on the sending logs, you can also target a control group in future campaigns.
+  <td> <p>You can now use <strong>Control groups</strong> to avoid sending messages to a portion of your audience and measure the impact of your campaigns. You will then be able to compare the behavior of the target population which did receive the message with the behavior of contacts which were not targeted. Based on the sending logs, you can also target a control group in future campaigns.
 </p>
-<p>For more information refer to the XXX.
+<p>Learn more in the <a href="../../sending/using/control-groups.md">detailed documentation</a>.
 </p>
 </td> 
 </tr> 
@@ -69,9 +47,31 @@ snippet: y
 </thead> 
 <tbody> 
 <tr> 
-  <td> <p>We're introducing the support of OAuth for authentication in the <strong>External API</strong> activity. This opens up the ability for this workflow activity to communicate with systems requiring OAuth support.
+  <td> <p>Adobe Campaign now supports OAuth for authentication in the <strong>External API</strong> workflow activity. This new capability opens up the ability for this activity to communicate with systems requiring OAuth support.
 </p>
-<p>For more information refer to the XXX.
+<p>For more information refer to the <a href="../../automating/using/external-api.md">detailed documentation</a>..
+</p>
+</td> 
+</tr> 
+</tbody> 
+</table>
+
+<table> 
+<thead> 
+<tr> 
+<th> <strong>Integrations with Adobe Experience Platform (GA)</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td> <p>The following Experience Platform integrations have moved from beta to GA:</p>
+<p>The integration with <strong>Adobe Experience Platform Data Connector</strong> allows you to make your Campaign data available on Adobe Experience Platform by mapping XTK data (data ingested in Campaign) to Adobe Experience Platform Data Model (XDM). Learn more in the <a href="../../developing/using/aep-about-data-connector.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">how-to video</a>.
+</p>
+<p>The integration with <strong>Audience Destinations</strong> allows you to share segments from Adobe Experience Platform with Adobe Campaign. Learn more in the <a href="../../audiences/using/aep-about-audience-destinations-service.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html">how-to video</a>.
+</p>
+<p>The integration with <strong>Offer Decisioning</strong> service gives access to offer creation, management, and decisioning, allowing you to continuously deliver the best offer and experience to your customers. Learn more in the detailed documentation XXX.
+</p>
+<p>These integrations are available to customers hosted on Azure only (currently in beta for North America). Please reach out to Adobe Customer Care to request access.
 </p>
 </td> 
 </tr> 
@@ -80,16 +80,15 @@ snippet: y
 
 **Improvements**
 
-* Workflow execution improvements (beta)
-* To improve security, Campaign now uses a signature mechanism for tracking links in emails.
-* Mobile app configuration has been improved with clearer error messages when uploading iOS certificates or Android keys.
-* A new delivery mapping is now available for transactional push messages targeting profiles. The delivery, exclusion and tracking logs for these deliveries will now be available in the broadLogAppSubRcp, excludeLogAppSubRcp and trackingLogAppSubRcp resources. This solves an issue which caused delivery analysis to fail when sending a transactional push message using the profile target dimension.
-* SMS error management has been improved to prevent too many recipients from being added to the quarantine list. By default, SMS errors are now configured as soft errors instead of hard errors. Refer to [this page](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html).
-  
+* **Workflow execution improvements** (beta): in the context of a global initiative around workflows, some major improvements have been developed to stabilize memory management, reduce latency and optimize the memory consumed by workflows during execution. These improvements are currently in beta, and only available to a set of customers. General availability is planned for early 2021.
+* To improve security, Campaign now uses a **signature mechanism** for tracking links in emails.
+* Mobile app configuration has been improved with **clearer error messages** when uploading iOS certificates or Android keys.
+* A **new delivery mapping** is now available for transactional push messages targeting profiles. The delivery, exclusion and tracking logs for these deliveries will now be available in the broadLogAppSubRcp, excludeLogAppSubRcp and trackingLogAppSubRcp resources. This solves an issue which caused delivery analysis to fail when sending a transactional push message using the profile target dimension.
+* **SMS error management** has been improved to prevent too many recipients from being added to the quarantine list. By default, SMS errors are now configured as soft errors instead of hard errors. Refer to [this page](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html).
 
 **Email Designer enhancements**
 
-* We have improved the user experience in the Email Designer with the new dynamic contextual help which fully connects user interface and documentation, providing an easy access to the latest help content.
+* We have improved the user experience in the Email Designer with the **new dynamic contextual help** which fully connects user interface and documentation, providing an easy access to the latest help content.
 * Fixed an issue which removed line breaks in a message when editing its text version. (CAMP-44483)
 * Fixed an issue preventing the plain text version of an HTML template from being automatically generated and synchronized. (CAMP-44195)
 * Fixed an issue that could occur when resizing images. Once the messages were sent, the images did not display properly in Microsoft Outlook. (CAMP-44656)
