@@ -38,53 +38,51 @@ To achieve this, follow the procedure below:
 
 1. Navigate to [Adobe IO Console](https://console.adobe.io/home#) and select your Adobe IMS Organization ID from the drop-down menu at the top right of the screen.
 
-1. Then click on **[!UICONTROL Create new project]** under **[!UICONTROL Quick Start]**.
+1. Then click **[!UICONTROL Create new project]** under **[!UICONTROL Quick Start]**.
 
-![](assets/adobeIO1.png)
+    ![](assets/adobeIO1.png)
 
-1. Under **[!UICONTROL Get started with your new project]**, click on **[!UICONTROL Add API]**.
+1. Under **[!UICONTROL Get started with your new project]**, click **[!UICONTROL Add API]**.
 
-![](assets/adobeIO2.png)
+    ![](assets/adobeIO2.png)
 
-1. Select the Adobe Campaign API (you may need to scroll towards the bottom) and click on "Next".
+1. Select the Adobe Campaign API (you may need to scroll towards the bottom) and click **[!UICONTROL Next]**.
 
-![](assets/adobeIO3.png)
+    ![](assets/adobeIO3.png)
 
-1. On the next screen you will have the option to upload your own public key or let Adobe IO generate the key pair for you. These instructions will follow the latter option. If you decide to let Adobe IO generate the key pair, click on option 1; then click on "Generate keypair" button.
+1. On the next screen you will have the option to upload your own public key or let Adobe IO generate the key pair for you. These instructions will follow the latter option. If you decide to let Adobe IO generate the key pair, click on option 1; then click the **[!UICONTROL Generate keypair]** button.
 
-![](assets/adobeIO4.png)
+    ![](assets/adobeIO4.png)
 
 1. On the next screen you will be prompted to name and select the download location of the key pair zip file.
 
 Once downloaded, you can unzip the file to reveal the public and private keys. Adobe IO has already applied the public key to your Adobe IO project. You will need to retain your private key for later; the private key will be used during the pre-integration setup of the integration tool.
 
-1. Click on "Next" to continue
+1. Click **[!UICONTROL Next]** to continue
 
-![](assets/adobeIO5.png)
+    ![](assets/adobeIO5.png)
 
-1. On the next screen you will select product profiles to associate with this project.
+1. On the next screen you will select product profiles to associate with this project. Select the product profile that contains in the title: The tenant ID of your Campaign instance - [!UICONTROL Administrators] 
 
-1. Select the product profile that contains in the title: The tenant ID of your Campaign instance - [!UICONTROL Administrators] - Example: Campaign Standard - your-campaign-tenantID - Administrators
+    Example: Campaign Standard - your-campaign-tenantID - Administrators
 
-1. Click on [!UICONTROL Save configured API].
+1. Click **[!UICONTROL Save configured API]**.
 
-![](assets/adobeIO6.png)
+    ![](assets/adobeIO6.png)
 
-1. On the next screen you will see the details of your new Adobe IO project.
+1. On the next screen you will see the details of your new Adobe IO project. Click **[!UICONTROL Add to Project]** at the top left of the screen and select **API** from the drop down.
 
-1. Click on "Add to Project" at the top left of the screen and select "API" from the drop down.
+    ![](assets/adobeIO7.png)
 
-![](assets/adobeIO7.png)
+1. On the next screen you will need to select the I/O Events API, then click **[!UICONTROL Next]**.
 
-1. On the next screen you will need to select the I/O Events API, then click "Next".
+1. On the next screen click **[!UICONTROL Save the configured API]**.  You will be brought back to the project details screen.
 
-1. On the next screen click "Save configured API".  You will be brought back to the project details screen.
+1. Now click **[!UICONTROL Add to Project]** at the top left of the screen and select **API** from the drop down, as you did previously.
 
-1. Now click on "Add to Project" at the top left of the screen and select "API" from the drop down, as you did previously.
+1. On the next screen you will need to select the I/O Management API and click **[!UICONTROL Next]**.
 
-1. On the next screen you will need to select the I/O Management API and click "Next".
-
-1. On the next screen click "Save configured API".
+1. On the next screen click **[!UICONTROL Save the configured API]**.
 
 Pre-integration setup in Campaign is now complete.  Proceed to complete [pre-integration setup for Microsoft Dynamics 365](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md).
 
