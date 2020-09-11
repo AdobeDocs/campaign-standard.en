@@ -55,12 +55,12 @@ Support tickets can be logged with Adobe Custom Care, as usual; Customer Care wi
 
 For any issues with integration data flows, make sure to include the report suite as part of the issue description as well as the following information:
 
-* Process Owner: Engineering Architects
+* **Process Owner**: Engineering Architects
 
-* ES Process ID: [Provided during onboarding process]
+* **ES Process ID**: Provided during onboarding process
 
-* Process Title: Dynamics 365 / Adobe Campaign Standard Integration
+* **Process Title**: Dynamics 365 / Adobe Campaign Standard Integration
 
-* Issue Description: [Description of the issue]
+* **Issue Description**: Description of the issue
 
 Integration support coverage is currently 24x5 (available Monday through Friday, excluding Adobe holidays and break periods).
