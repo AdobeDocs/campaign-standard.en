@@ -52,7 +52,7 @@ The following guardrails should be taken into consideration when planning to use
 
 * You are encouraged to communicate known instances of significant increase or “spikes” in usage of the integration (e.g., sharp increase in new or updated records), as this could cause slowdowns in data syncing.
 
-* As part of the integration, you will be expected to complete the pre-integration configuration steps in Microsoft Azure and Dynamics 365. See the configuration steps [on this page]( ../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
+* As part of the integration, you will be expected to complete the pre-integration configuration steps in Microsoft Azure and Dynamics 365. See the configuration steps [on this page](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
 
 * It is expected that you will bring your Dynamics 365 and Campaign data models to the integration and will maintain them.
 
