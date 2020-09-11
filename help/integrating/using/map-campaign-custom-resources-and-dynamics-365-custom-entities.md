@@ -41,8 +41,11 @@ When configuring custom entity data flows, it is important to be aware of the fo
 * Creating and modifying Campaign custom resources are sensitive operations which must be performed by expert users only.
 * For custom entity data flows, change tracking must be enabled within Dynamics 365 for synchronized custom entities.
 * If a parent and linked child record are created close to the same time in Dynamics 365, due to the parallel processing of the integration, there is a slight chance that a new child record could be written to Campaign before its parent record.
-	* If the parent and child are linked on the Campaign side using the “1 cardinality simple link” option, the child record will remain "hidden" and inaccessible (via UI or API) until the parent record arrives in Campaign.
-	* (Assuming “1 cardinality simple link” in Campaign) If the child record is updated or deleted in Dynamics 365, and that change is written to Campaign before the parent record shows up in Campaign (not likely, but a remote possibility), that update or delete will not be processed in Campaign and an error will be thrown. In the case of update, the record in question will need to be updated in Dynamics 365 again in order to sync the updated record. In the case of delete, the record in question will need to be taken care of separately on the Campaign side since there is no longer a record in Dynamics 365 to delete or update.
-	* If you run into a situation where you believe you have hidden child records and no way to access them, you can temporarily change the cardinality link type to "0 or 1 cardinality simple link" to access those records.
+
+	* If the parent and child are linked on the Campaign side using the **1 cardinality simple link** option, the child record will remain hidden and inaccessible (via UI or API) until the parent record arrives in Campaign.
+
+	* (Assuming **1 cardinality simple link** in Campaign) If the child record is updated or deleted in Dynamics 365, and that change is written to Campaign before the parent record shows up in Campaign (not likely, but a remote possibility), that update or delete will not be processed in Campaign and an error will be thrown. In the case of update, the record in question will need to be updated in Dynamics 365 again in order to sync the updated record. In the case of delete, the record in question will need to be taken care of separately on the Campaign side since there is no longer a record in Dynamics 365 to delete or update.
+
+	* If you run into a situation where you believe you have hidden child records and no way to access them, you can temporarily change the cardinality link type to **0 or 1 cardinality simple link** to access those records.
 
 A more comprehensive overview of Campaign custom resources can be found [in this section](../../developing/using/key-steps-to-add-a-resource.md).
