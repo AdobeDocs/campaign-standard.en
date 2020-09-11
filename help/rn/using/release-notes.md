@@ -139,6 +139,7 @@ snippet: y
 * Fixed an issue which could display a timeout error when selecting a profile to use for profile substitution. (CAMP-44746)
 * Fixed an issue which could prevent instances from working after deploying custom resources containing incorrect link definitions. (CAMP-44406)
 * Fixed an issue which created empty linked entities (typologies, brands, etc.) after copying and pasting a delivery into a campaign template. (CAMP-44765)
+* Fixed an issue which prevented proofs from being sent due to an incorrect handling of delivery preparation tables in case of a database crash or a simple database restart on Azure.
 * Fixed an issue which could prevent you from deleting links with Experience Manager content in a delivery configured with multilingual content. (CAMP-44029)
 * Fixed an issue in dynamic reports that could display an error message when trying to filter dimensions.  (CAMP-43097)
 * Fixed an issue which could display a blank screen when trying to access profiles on an instance configured with custom resources containing specific link definitions. (CAMP-41009)
