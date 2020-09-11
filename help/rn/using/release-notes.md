@@ -32,6 +32,8 @@ snippet: y
 <tr> 
   <td> <p>You can now use <strong>Control groups</strong> to avoid sending messages to a portion of your audience and measure the impact of your campaigns. You will then be able to compare the behavior of the target population which did receive the message with the behavior of contacts which were not targeted. Based on the sending logs, you can also target a control group in future campaigns.
 </p>
+<p>For more information refer to the <a href="../../sending/using/control-group.md">detailed documentation</a>.
+</p>
 </td> 
 </tr> 
 </tbody> 
@@ -47,7 +49,7 @@ snippet: y
 <tr> 
   <td> <p>Adobe Campaign now supports OAuth for authentication in the <strong>External API</strong> workflow activity. This new capability opens up the ability for this activity to communicate with systems requiring OAuth support.
 </p>
-<p>For more information refer to the <a href="../../automating/using/external-api.md">detailed documentation</a>..
+<p>For more information refer to the <a href="../../automating/using/external-api.md">detailed documentation</a>.
 </p>
 </td> 
 </tr> 
