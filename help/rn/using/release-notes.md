@@ -80,6 +80,7 @@ snippet: y
 
 **Improvements**
 
+* **Privacy Management**: the **CCPA Opt-Out** field, which was only available via the Campaign interface and API, is now also supported through the Privacy Core Service. This field allows Adobe Campaign users to track whether a consumer has opted-out for the sale of Personal Information. <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa">Learn more</a>
 * **Workflow execution improvements** (beta): in the context of a global initiative around workflows, some major improvements have been developed to stabilize memory management, reduce latency and optimize the memory consumed by workflows during execution. These improvements are currently in beta, and only available to a set of customers. General availability is planned for early 2021.
 * To improve security, Campaign now uses a **signature mechanism** for tracking links in emails.
 * Mobile app configuration has been improved with **clearer error messages** when uploading iOS certificates or Android keys.
