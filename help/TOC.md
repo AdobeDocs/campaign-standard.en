@@ -3,6 +3,7 @@ product: adobe campaign
 sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
+breadcrumb-title: Campaign Standard Guide
 ---
 
 # Adobe Campaign Standard Help {#using}
