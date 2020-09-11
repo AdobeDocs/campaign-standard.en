@@ -91,5 +91,5 @@ Pre-integration setup in Campaign is now complete.  Proceed to complete [pre-int
 **Related Topics** 
 
 * [Adobe IO - Service Account Integration](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
-* [Campaign Standard - API Access Setup](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#setting-up-api-access)
+* [Campaign Standard - API Access Setup](../../api/using/setting-up-api-access.md)
 * [Campaign Standard - Dynamics 365 integration](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
