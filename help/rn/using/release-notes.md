@@ -119,7 +119,7 @@ snippet: y
 * A new message has been added to indicate the size of the downloaded file in the **File transfer** activity.
 * Error messages for invalid session tokens have been improved.
 * A new mechanism now prevents tracking events from proxies from being added to tracking logs and reporting.
-* A new warning message has been added to help debugging data management activites plugged with a delivery activity.
+* A new warning message has been added to help debugging data management activities plugged with a delivery activity.
 * Labels in the reporting workspace have been improved.
 * A new validation step has been added to prevent the deletion of technical objects in transactional messages.
 * A new filter on delivery status has been added in the **Execution list** tab of a transactional message to improve troubleshooting.
