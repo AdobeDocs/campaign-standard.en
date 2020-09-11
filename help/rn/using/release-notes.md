@@ -32,8 +32,6 @@ snippet: y
 <tr> 
   <td> <p>You can now use <strong>Control groups</strong> to avoid sending messages to a portion of your audience and measure the impact of your campaigns. You will then be able to compare the behavior of the target population which did receive the message with the behavior of contacts which were not targeted. Based on the sending logs, you can also target a control group in future campaigns.
 </p>
-<p>Learn more in the <a href="../../sending/using/control-groups.md">detailed documentation</a>.
-</p>
 </td> 
 </tr> 
 </tbody> 
@@ -124,7 +122,7 @@ snippet: y
 * A new warning message has been added to help debugging data management activites plugged with a delivery activity.
 * Labels in the reporting workspace have been improved.
 * A new validation step has been added to prevent the deletion of technical objects in transactional messages.
-* A new filter on delivery status has been added in the **[!UICONTROL Execution list]** tab of a transaction message to improve troubleshooting.
+* A new filter on delivery status has been added in the **[!UICONTROL Execution list]** tab of a transactional message to improve troubleshooting.
 
 **Patches**
 
