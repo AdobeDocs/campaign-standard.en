@@ -96,7 +96,7 @@ The following is a list of the attributes and a description:
 
 >[!NOTE]
 >
->The expiry period of the email mirror page can be modified in the configuration screen of the corresponding Campaign email channel activity (see [Validity period parameters]( ../../administrating/using/configuring-email-channel.md#validity-period-parameters)).
+>The expiry period of the email mirror page can be modified in the configuration screen of the corresponding Campaign email channel activity (see [Validity period parameters]( ../../administration/using/configuring-email-channel.md#validity-period-parameters)).
 
 >[!NOTE]
 >
