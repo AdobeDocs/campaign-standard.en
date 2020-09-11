@@ -69,11 +69,9 @@ snippet: y
 </p>
 <p>The integration with <strong>Audience Destinations</strong> allows you to share segments from Adobe Experience Platform with Adobe Campaign. Learn more in the <a href="../../audiences/using/aep-about-audience-destinations-service.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html">how-to video</a>.
 </p>
-<p>The integration with <strong>Offer Decisioning</strong> service gives access to offer creation, management, and decisioning, allowing you to continuously deliver the best offer and experience to your customers. Learn more in the detailed documentation XXX.
+<p>The integration with <strong>Offer Decisioning</strong> service gives access to offer creation, management, and decisioning, allowing you to continuously deliver the best offer and experience to your customers.
 </p>
 <p>These integrations are available to customers hosted on Azure only (currently in beta for North America). Please reach out to Adobe Customer Care to request access.
-</p>
-<p>For more information refer to the <a href="../../automating/using/external-api.md">detailed documentation</a>.
 </p>
 </td> 
 </tr> 
