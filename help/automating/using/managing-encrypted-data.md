@@ -57,7 +57,7 @@ The steps to perform this use case are as follows:
 
 1. In the external system, use the public key downloaded from the Control Panel to encrypt the data to import into Campaign Standard.
 
-    ![](assets/gpg_external.png)
+    ![](assets/do-not-localize/gpg_external.png)
 
 1. In Campaign Standard, build a workflow to import the encrypted data and decrypt it using the private key that has been installed via the Control Panel. To do this, we will build a workflow as follows:
 
@@ -124,4 +124,4 @@ The steps to perform this use case are as follows:
 
 1. You can now run the workflow. Once it is executed, data target by the query will be exported to the SFTP server into an encrypted .gpg file.
 
-    ![](assets/gpg-sftp-encrypt.png)
+    ![](assets/do-not-localize/gpg-sftp-encrypt.png)

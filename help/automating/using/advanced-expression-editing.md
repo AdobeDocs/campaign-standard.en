@@ -22,7 +22,7 @@ Editing an expression involves manually entering conditions to form a rule.
 
 This mode allows you to use advanced functions. These functions let you manipulate the values used to carry out specific queries such as manipulating dates, strings, numerical fields, sorting, etc.
 
-It is also possible to use events variables when editing expression. For more on this, refer to the [Customizing activities with events variables](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables) section.
+It is also possible to use workflows' events variables when editing expression. For more on this, refer to the [Customizing activities with events variables](../../automating/using/customizing-workflow-external-parameters.md) section.
 
 You can edit expressions in order to:
 
@@ -51,7 +51,7 @@ Editing expressions can be used in the Audience window while creating an email o
 
    Double clicking a field or an expression adds it to the expression in which the cursor is placed.
 
-   It is possible to use workflows' events variables to build an expression. For more on this, refer to the [Customizing activities with events variables](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables) section.
+   It is possible to use workflows' events variables to build an expression. For more on this, refer to the [Customizing activities with events variables](../../automating/using/customizing-workflow-external-parameters.md) section.
 
 1. Give your rule a specific name if needed. The name entered will appear as the rule name in the query editor workspace.
 

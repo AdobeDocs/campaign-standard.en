@@ -31,7 +31,6 @@ An integration between Adobe Analytics' core service **Triggers** and Adobe Camp
 
 **Related topics:**
 
+* [Overview of Campaign Standard to Analytics integration](https://docs.adobe.com/content/help/en/analytics/integration/adobe-campaign.html)
+* [Configure the Campaign Standard integration](https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html)
 * [Campaign dimensions and metrics in Analytics](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
-* [Reporting](../../reporting/using/about-dynamic-reports.md)
-* [Adobe Analytics documentation](https://docs.adobe.com/content/help/en/analytics/integration/adobe-campaign.html)
-

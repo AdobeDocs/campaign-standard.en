@@ -18,62 +18,30 @@ snippet: y
 
 You can send event transactional messages targeting an event. This type of transactional messages does not contain profile information: the delivery target is defined by the data contained in the event itself.
 
-Once you have created and published an event (the cart abandonment as explained in [this section](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle)), the corresponding transactional message is created automatically.
+Once you have created and published an event (the cart abandonment as explained in [this section](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)), the corresponding transactional message is created automatically.
 
 The configuration steps are presented in the [Configuring an event to send an transactional message](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) section.
 
-In order for the event to trigger sending a transactional message, you have to personalize the message, then test it and publish it.
-
 >[!NOTE]
->
->To access transactional messages, you must be part of the **[!UICONTROL Administrators (all units)]** security group.
 >
 >Event transactional messages do not contain profile information, therefore they are not compatible with fatigue rules (even in the case of an enrichment with profiles). See [Fatigue rules](../../sending/using/fatigue-rules.md#choosing-the-channel).
 
-## Defining a test profile in a transactional message {#defining-a-test-profile-in-a-transactional-message}
+In order for the event to trigger sending a transactional message, you have to personalize the message, then test it and publish it.
 
-Define an adapted test profile, which will allow you to preview your message and send a proof to check it.
+## Accessing transactional messages {#accessing-transactional-messages}
 
-### Creating a test profile within the transactional message {#creating-a-test-profile-within-the-transactional-----------message}
+To access the transactional message that you created:
 
-1. To access the message that you created, click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
+1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner.
+1. Select **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
 
    ![](assets/message-center_4.png)
 
-1. Create a test profile that will be linked to your event.
+1. Click the message of your choice to edit it.
 
-   ![](assets/message-center_test-profile.png)
-
-1. Specify the information to send in JSON format in the **[!UICONTROL Event data used for personalization]** section. This is the content that will be used when previewing the message and when the test profile receives the proof.
-
-   ![](assets/message-center_event-data.png)
-
-   >[!NOTE]
-   >
-   >You can also enter the information relating to the profile table. See [Enriching the transactional message content](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content).
-
-1. After having been created, the test profile will be pre-specified in the transactional message. Click the **[!UICONTROL Test profiles]** block of the message to check the target of your proof.
-
-   ![](assets/message-center_5.png)
-
-### Creating a test profile outside the transactional message {#creating-a-test-profile-outside-the-transactional-----------message}
-
-You can also create a new test profile or use one that already exists in the **[!UICONTROL Test profiles]** menu.
-
-1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
-1. In the **[!UICONTROL Event]** section of the page of the test profile that you have chosen, select the event that you have just created. In this example, select "Cart abandonment (EVTcartAbandonment)".
-1. Specify the information to send in JSON format in the **[!UICONTROL Event data]** text box.
-
-   ![](assets/message-center_3.png)
-
-1. Save your changes.
-
-You can now access the message that you created and select the updated test profile.
-
-**Related topics:**
-
-* [Managing test profiles](../../audiences/using/managing-test-profiles.md)
-* [Defining audiences](../../audiences/using/creating-audiences.md)
+>[!IMPORTANT]
+>
+>To access transactional messages, you must be part of the **[!UICONTROL Administrators (all units)]** security group.
 
 ## Personalizing a transactional message {#personalizing-a-transactional-message}
 
@@ -85,7 +53,7 @@ To set up personalization in a transactional message, follow the steps below:
 
 1. Add a subject and edit your message content to suit your needs.
 
-    >[NOTE]
+    >[!NOTE]
     >
     >The link to the abandoned cart is a link to an external URL that will redirect the person to their cart. This parameter is not managed in Adobe Campaign.
 
@@ -233,7 +201,47 @@ For more on creating a collection and related fields when configuring the event,
 
 ## Testing a transactional message {#testing-a-transactional-message}
 
-Once you have saved your transactional message, you can now send a proof to test it.
+You first need to create a specific test profile that will allow you to properly check the transactional message.
+
+### Defining a specific test profile {#defining-specific-test-profile}
+
+Define a test profile that will be linked to your event, which will allow you to preview your message and send a relevant proof.
+
+1. From the transactional message dashboard, click the **[!UICONTROL Create test profile]** button.
+
+   ![](assets/message-center_test-profile.png)
+
+1. Specify the information to send in JSON format in the **[!UICONTROL Event data used for personalization]** section. This is the content that will be used when previewing the message and when the test profile receives the proof.
+
+   ![](assets/message-center_event-data.png)
+
+   >[!NOTE]
+   >
+   >You can also enter the information relating to the profile table. See [Enriching the transactional message content](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content).
+
+1. Once created, the test profile will be pre-specified in the transactional message. Click the **[!UICONTROL Test profiles]** block of the message to check the target of your proof.
+
+   ![](assets/message-center_5.png)
+
+You can also create a new test profile or use one that already exists in the **[!UICONTROL Test profiles]** menu. To do this:
+
+1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
+1. In the **[!UICONTROL Event]** section, select the event that you have just created. In this example, select "Cart abandonment (EVTcartAbandonment)".
+1. Specify the information to send in JSON format in the **[!UICONTROL Event data]** text box.
+
+   ![](assets/message-center_3.png)
+
+1. Save your changes.
+1. Access the message that you created and select the updated test profile.
+
+**Related topics:**
+
+* [Managing test profiles](../../audiences/using/managing-test-profiles.md)
+* [Defining audiences](../../audiences/using/creating-audiences.md)
+
+### Sending the proof {#sending-proof}
+
+Once you have created one or more specific test profiles and saved your transactional message, you can send a proof to test it.
 
 ![](assets/message-center_10.png)
 
@@ -251,7 +259,7 @@ To access reports concerning your transactional message, use the **[!UICONTROL R
 
 ![](assets/message-center_13.png)
 
-## Suspending a transactional message publication {#suspending-a-transactional-message-publication}
+### Suspending a transactional message publication {#suspending-a-transactional-message-publication}
 
 You can suspend publishing your transactional message by using the **[!UICONTROL Pause]** button, for example, to modify the data contained in the message. The events are therefore no longer processed, but instead kept in a queue in the Adobe Campaign database.
 
@@ -261,7 +269,7 @@ The queued events are kept during a period of time that is defined in the REST A
 
 When clicking **[!UICONTROL Resume]**, all of the queued events (provided that they are not expired) are processed. They now contain all of the modifications carried out while the template publication was suspended.
 
-## Unpublishing a transactional message {#unpublishing-a-transactional-message}
+### Unpublishing a transactional message {#unpublishing-a-transactional-message}
 
 Clicking **[!UICONTROL Unpublish]** allows you to cancel the transactional message publication, but also the publication of the corresponding event, which deletes from the REST API the resource corresponding to the event that you previously created.
 
@@ -279,7 +287,7 @@ The steps for pausing a message are detailed in the [Suspending a transactional 
 
 The **[!UICONTROL Database cleanup]** workflow, which runs every day at 4am, is accessible through **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Workflows]**.
 
-## Deleting a transactional message {#deleting-a-transactional-message}
+### Deleting a transactional message {#deleting-a-transactional-message}
 
 Once a transactional message has been unpublished, or if a transactional message has  not been published yet, you can delete it from the transactional message list. To do this:
 
@@ -326,9 +334,9 @@ Once the event has been assigned to an execution delivery, the transactional mes
 
 >[!NOTE]
 >
->When an event is assigned to an execution delivery, it appears in the sending logs of this execution delivery, and only at this time. The failed deliveries are displayed in the **[!UICONTROL Execution list]** tab of the transactional message.
+>When an event is assigned to an execution delivery, it appears in the sending logs of this execution delivery, and only at this time. The failed deliveries are displayed in the **[!UICONTROL Execution list]** tab of the transactional message sending logs.
 
-### Limitations {#limitations}
+### Retry process limitations {#limitations}
 
 **Sending logs update**
 

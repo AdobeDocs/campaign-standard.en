@@ -50,7 +50,7 @@ First, start by consulting the documentation on the deliverability tools provide
 * [Receiving alerts when failures happen](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Understanding delivery failures](../../sending/using/understanding-delivery-failures.md)
 * [Understanding quarantine management](../../sending/using/understanding-quarantine-management.md)
-* [Quarantine vs block list](../../sending/using/understanding-quarantine-management.md#quarantine-vs-block-list)
+* [Quarantine vs denylist](../../sending/using/understanding-quarantine-management.md#quarantine-vs-block-list)
 * [Dynamic reports](../../reporting/using/about-dynamic-reports.md)
 
 ## Checking network configuration {#network-configuration}

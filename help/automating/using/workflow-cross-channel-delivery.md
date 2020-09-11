@@ -131,7 +131,7 @@ To create an Email delivery:
 1. Enter the email properties and click **[!UICONTROL Next]**.
 1. To create the layout of your email, select **[!UICONTROL Use the Email Designer]**.
 1. Edit and save your content.
-1. In the **[!UICONTROL Schedule]** section of the message dashboard, unselect the **[!UICONTROL Request confirmation before sending messages}** option.
+1. In the **[!UICONTROL Schedule]** section of the message dashboard, unselect the **[!UICONTROL Request confirmation before sending messages]** option.
 
 To create an SMS delivery:
 

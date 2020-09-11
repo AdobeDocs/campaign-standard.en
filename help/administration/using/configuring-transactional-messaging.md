@@ -24,13 +24,17 @@ Event configuration must be performed by an [administrator](../../administration
 >
 >The configuration can vary depending on the type of transactional message you want to send. For more on this, refer to [Transactional event specific configurations](#transactional-event-specific-configurations).
 
-Once the event is published, the corresponding transactional message is automatically created. For more on transactional messaging, refer to [this page](../../channels/using/about-transactional-messaging.md).
+Once the event is published:
+
+* The API that will be used by your website developer is deployed and the transactional events can now be sent. See [Integrating the triggering of the event in a website](#integrating-the-triggering-of-the-event-in-a-website).
+
+* The corresponding transactional message is automatically created. See [Getting started with transactional messaging](../../channels/using/getting-started-with-transactional-msg.md).
 
 ## Creating an event {#creating-an-event}
 
 To get started, create the event corresponding to your needs.
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >Only users holding the **[!UICONTROL Administration]** role and being part of the **[!UICONTROL All]** [organizational unit](../../administration/using/organizational-units.md) have the appropriate rights to create an event configuration.
 
@@ -165,6 +169,8 @@ Before being able to use the event, you must preview and publish it.
 
    ![](assets/message-center_pub.png)
 
+   The API that will be used by your website developer is deployed and the transactional events can now be sent.
+
 1. You can view the publication logs in the corresponding tab.
 
    ![](assets/message-center_logs.png)
@@ -172,7 +178,7 @@ Before being able to use the event, you must preview and publish it.
    >[!IMPORTANT]
    >
    >Each time you modify the event, you must click **[!UICONTROL Publish]** again to generate the updated REST API that will be used by your website developer.
-
+   
    Once the event has been published, a transactional message linked to the new event is automatically created.
 
 1. You can directly access this transactional message through the link located in the left-hand side area.
@@ -188,6 +194,12 @@ Once Adobe Campaign starts receiving events related to this event configuration,
 ![](assets/message-center_latest-events.png)
 
 The events (in JSON format) are listed from the most recent to the oldest. This list allows you to check data such as the content or the status of an event, for control and debugging purpose.
+
+### Transactional messaging publication process {#transactional-messaging-pub-process}
+
+The chart below illustrates the transactional messaging publication process.
+
+![](assets/message-center_pub-process.png)
 
 ### Unpublishing an event {#unpublishing-an-event}
 
@@ -226,7 +238,7 @@ Once an event has been unpublished, or if an event has  not been published yet, 
 
 Once you have created an event, you will have to integrate the triggering of this event into your website.
 
-In the example described in the [Transactional messaging operating principle](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) section, you want a "Cart abandonment" event to be triggered whenever one of your clients leaves your website before purchasing the products in their cart. To do this, your website web developer must use the Adobe Campaign Standard REST API.
+In the example described in the [Transactional messaging operating principle](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) section, you want a "Cart abandonment" event to be triggered whenever one of your clients leaves your website before purchasing the products in their cart. To do this, your website web developer must use the Adobe Campaign Standard REST API.
 
 See the [REST API Documentation](../../api/using/managing-transactional-messages.md) .
 
