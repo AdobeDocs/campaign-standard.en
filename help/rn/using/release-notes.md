@@ -33,7 +33,7 @@ snippet: y
 <td> <p>The following Experience Platform integrations have moved from beta to GA:</p>
 <p>The integration with Adobe Experience Platform Data Connector allows you to make your Campaign data available on Adobe Experience Platform by mapping XTK data (data ingested in Campaign) to Adobe Experience Platform Data Model (XDM). Refer to the <a href="../../developing/using/aep-about-data-connector.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">how-to video</a>.
 </p>
-<p>The integration with Audience Destinations allows you to share segments from Adobe Experience Platform with Adobe Campaign. Refer to the <a href="../../audiences/using/aep-about-audience-destinations-service.md">detailed documentation</a> and the and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html">how-to video</a>.
+<p>The integration with Audience Destinations allows you to share segments from Adobe Experience Platform with Adobe Campaign. Refer to the <a href="../../audiences/using/aep-about-audience-destinations-service.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html">how-to video</a>.
 </p>
 <p>The integration with Offer Decisioning provides offer creation, management, and decisioning, allowing you to continuously deliver the best offer and experience to your customers. For more information refer to the XXX.
 </p>
@@ -80,7 +80,7 @@ snippet: y
 
 **Improvements**
 
-* Workflow execution improvements (beta)
+* Workflow execution improvements (beta).
 * To improve security, Campaign now uses a signature mechanism for tracking links in emails.
 * Mobile app configuration has been improved with clearer error messages when uploading iOS certificates or Android keys.
 * A new delivery mapping is now available for transactional push messages targeting profiles. The delivery, exclusion and tracking logs for these deliveries will now be available in the broadLogAppSubRcp, excludeLogAppSubRcp and trackingLogAppSubRcp resources. This solves an issue which caused delivery analysis to fail when sending a transactional push message using the profile target dimension.
@@ -123,7 +123,7 @@ snippet: y
 * A new warning message has been added to help debugging data management activites plugged with a delivery activity.
 * Labels in the reporting workspace have been improved.
 * A new validation step has been added to prevent the deletion of technical objects in transactional messages.
-* A new filter on delivery status has been added in the **[!UICONTROL Execution list]** tab of a transaction message to improve troubleshooting.
+* A new filter on delivery status has been added in the **[!UICONTROL Execution list]** tab of a transactional message to improve troubleshooting.
 
 **Patches**
 
