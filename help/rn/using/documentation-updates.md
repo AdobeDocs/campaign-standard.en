@@ -26,6 +26,8 @@ A caution note has been added to warn users about permissions limitation related
 
 A new section has been added to detail the process to create a new brand. [Read more](../../administration/using/branding.md#creating-a-brand)
 
+The new Campaign Standard - Microsoft Dynamics 365 integration is now available. [Read more](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+
 ## Documentation updates - August 2020 {#doc-updates-august-2020}
 
 A new updated section on getting started with transactional messaging is available. [Read more](../../channels/using/getting-started-with-transactional-msg.md)
