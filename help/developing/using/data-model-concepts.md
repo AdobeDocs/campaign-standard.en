@@ -37,3 +37,7 @@ Extension fields are generated with a prefix so that they never conflict with th
 You can also [configure the navigation](configuring-the-screen-definition.md) in the screens corresponding to the resource created.
 
 It is possible to **export and import** custom resources, for example from a development to a production environment. For more on this, refer to this [step-by-step use case](../../automating/using/exporting-importing-custom-resources.md).
+
+>[!CAUTION]
+>
+>Only Functional [administrators](../../administration/using/users-management.md#functional-administrators), with **[!UICONTROL Administration]** role and access to **All** units can access sending logs, message logs, tracking logs, exclusion or subscription logs. A non-admin user can target these logs but starting on a linked table (profiles, delivery).

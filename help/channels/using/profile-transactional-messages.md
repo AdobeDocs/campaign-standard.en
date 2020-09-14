@@ -18,12 +18,12 @@ snippet: y
 
 You can send transactional messages based on customer marketing profiles, which allows you to:
 
-* Apply marketing typology rules such as **[!UICONTROL Address on block list]** or [fatigue rules](../../sending/using/fatigue-rules.md).
+* Apply marketing typology rules such as **[!UICONTROL Denylisted address]** or [fatigue rules](../../sending/using/fatigue-rules.md).
 * Include the unsubscription link within the messages.
 * Add the transactional messages to the global delivery reporting.
 * Leverage the transactional messages in the customer journey.
 
-Once you have created and published an event (the cart abandonment as per the [example](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) above), the corresponding transactional message is created automatically.
+Once you have created and published an event (the cart abandonment as per the [example](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) above), the corresponding transactional message is created automatically.
 
 The configuration steps are presented in the [Configuring an event to send a profile transactional message](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) section.
 
@@ -68,11 +68,11 @@ Once the message is published and your site integration is done, you can monitor
 
    ![](assets/message-center_marketing_sending_logs.png)
 
-1. Select the **[!UICONTROL Exclusions logs]** tab to view recipients who have been excluded from the message target, such as addresses on block list.
+1. Select the **[!UICONTROL Exclusions logs]** tab to view recipients who have been excluded from the message target, such as denylisted addresses.
 
    ![](assets/message-center_marketing_exclusion_logs.png)
 
-For any profile that has opted out, the **[!UICONTROL Address on block list]** typology rule excluded the corresponding recipient.
+For any profile that has opted out, the **[!UICONTROL Denylisted address]** typology rule excluded the corresponding recipient.
 
 This rule is part of a specific typology that applies to all transactional messages based on the **[!UICONTROL Profile]** table.
 

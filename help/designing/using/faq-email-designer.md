@@ -30,7 +30,7 @@ You can add padding by using the HTML breadcrumb.
 
 1. On the bottom left of the screen, click the HTML breadcrumb.
 
-   ![](assets/breadcrumb.png)
+   ![](assets/do-not-localize/breadcrumb.png)
 
 1. Click on the element you want to add a padding. 
 1. Click on the parent tag in the HTML breadcrumb.

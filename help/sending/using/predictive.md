@@ -49,8 +49,8 @@ Within the Predictive Send Time Optimization model, there are two sub-models:
 
 Output details
 
-* Compute the best time of day to send an email for the next 7 days with 1 hour intervals (e.g.: 9:00 am, 10:00 am, 11:00 am)
-* The model will indicate the best time within the next 7 days to send the email
+* Compute the best time of day to send an email for in the 7 days of the week with 1 hour intervals (e.g.: 9:00 am, 10:00 am, 11:00 am)
+* The model will indicate the best day in the week and the best hour in that day
 * Each optimal time is computed twice: once to maximize open rate and once to maximize click rate
 * 16 fields are given (14 for days of the week and 2 for the whole week):
     * best time to send an email to optimize clicks for Monday - values between 0 and 23

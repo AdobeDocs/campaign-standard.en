@@ -51,7 +51,7 @@ To do so:
     * The **[!UICONTROL Remove from quarantine]** action removes the profile phone number from quarantine.
     * The **[!UICONTROL None]** action allows you to only send the message to your recipients without carrying an action.
 
-   For example, in the configuration below, if recipients send the keyword "STOP", they will automatically receive an unsubscription confirmation and their phone number will be sent to quarantine with the **[!UICONTROL On block list]** status. This status refers to the phone number only, the profile is not added to the block list so that the user continues receiving email messages.
+   For example, in the configuration below, if recipients send the keyword "STOP", they will automatically receive an unsubscription confirmation and their phone number will be sent to quarantine with the **[!UICONTROL Denylisted]** status. This status refers to the phone number only, the profile is denylisted so that the user continues receiving email messages.
 
    ![](assets/sms_mo.png)
 
