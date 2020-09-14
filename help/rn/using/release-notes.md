@@ -1,6 +1,6 @@
 ---
 title: Latest Release
-description: This page lists all recent releases of Adobe Campaign Standard.
+description: This page details content of the latest Campaign Standard release
 page-status-flag: never-activated
 uuid: 1cf2e40c-beca-43db-8261-a1820ee86ad3
 contentOwner: vignes
@@ -59,21 +59,20 @@ snippet: y
 <table> 
 <thead> 
 <tr> 
-<th> <strong>Integrations with Adobe Experience Platform (GA)</strong><br /> </th> 
+<th> <strong>Journey AI integration</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>The following Experience Platform integrations have moved from beta to GA:</p>
-<p>The integration with <strong>Adobe Experience Platform Data Connector</strong> allows you to make your Campaign data available on Adobe Experience Platform by mapping XTK data (data ingested in Campaign) to Adobe Experience Platform Data Model (XDM). Learn more in the <a href="../../developing/using/aep-about-data-connector.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">how-to video</a>.
-</p>
-<p>The integration with <strong>Audience Destinations</strong> allows you to share segments from Adobe Experience Platform with Adobe Campaign. Learn more in the <a href="../../audiences/using/aep-about-audience-destinations-service.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html">how-to video</a>.
-</p>
-<p>The integration with <strong>Offer Decisioning</strong> service gives access to offer creation, management, and decisioning, allowing you to continuously deliver the best offer and experience to your customers.
-</p>
-<p>These integrations are available to customers hosted on Azure only (currently in beta for North America). Please reach out to Adobe Customer Care to request access.
-</p>
-</td> 
+  <td> <p>We are excited to announce Journey AI for all Adobe Campaign Standard customers.</p>
+  <p>Journey AI uses advanced Machine Learning (ML) to enable companies to optimize the design and delivery of customer journeys by predicting each individual’s engagement preference.</p>
+  <P>Journey AI consists of two ML features:</p>
+<ul> 
+     <li> <strong>Predictive Engagement Scoring</strong>  - Intelligently identifies customers preferred level of engagement to better target and personalize messages to increase conversions and retention.</li> 
+     <li> <strong>Predictive Send Time Optimization</strong>  - Predicts the best time to send emails to each individual in a campaign to maximize engagement rates and improve email campaign ROI. </li>
+    </ul>
+  <p>If you want to learn how to get started with Journey AI, please review the <a href="../../sending/using/predictive.md">detailed documentation</a> and reach out to your Account Executive. Note that while Journey AI is available for free to existing Campaign customers, there is an implementation cost of approximately 50 hours.</p>
+    </td> 
 </tr> 
 </tbody> 
 </table>
@@ -84,14 +83,14 @@ snippet: y
 * **Workflow execution improvements** (beta): in the context of a global initiative around workflows, some major improvements have been developed to stabilize memory management, reduce latency and optimize the memory consumed by workflows during execution. These improvements are currently in beta, and only available to a set of customers. General availability is planned for early 2021.
 * To improve security, Campaign now uses a **signature mechanism** for tracking links in emails.
 * Mobile app configuration has been improved with **clearer error messages** when uploading iOS certificates or Android keys.
-* A **new delivery mapping** is now available for transactional push messages targeting profiles. The delivery, exclusion and tracking logs for these deliveries will now be available in the broadLogAppSubRcp, excludeLogAppSubRcp and trackingLogAppSubRcp resources. This solves an issue which caused delivery analysis to fail when sending a transactional push message using the profile target dimension.
-* **SMS error management** has been improved to prevent too many recipients from being added to the quarantine list. By default, SMS errors are now configured as soft errors instead of hard errors. Refer to [this page](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html).
+* A **new delivery mapping** (mapRtEventAppSubRcp) is now available for transactional push messages targeting profiles. The delivery, exclusion and tracking logs for these deliveries will now be available in the broadLogAppSubRcp, excludeLogAppSubRcp and trackingLogAppSubRcp resources. This solves an issue which caused delivery analysis to fail when sending a transactional push message using the **Profile** target dimension.
+* **SMS error management** has been improved to prevent too many profiles from being added to the quarantine list. By default, SMS errors are now configured as soft errors instead of hard errors. Refer to [this page](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html).
 
 **Email Designer enhancements**
 
 * We have improved the user experience in the Email Designer with the **new dynamic contextual help** which fully connects user interface and documentation, providing an easy access to the latest help content.
 * Fixed an issue which removed line breaks in a message when editing its text version. (CAMP-44483)
-* Fixed an issue preventing the plain text version of an HTML template from being automatically generated and synchronized. (CAMP-44195)
+* Fixed an issue which prevented the plain text version of an HTML template from being automatically generated and synchronized. (CAMP-44195)
 * Fixed an issue that could occur when resizing images. Once the messages were sent, the images did not display properly in Microsoft Outlook. (CAMP-44656)
 * Fixed an issue which occurred when inserting a button and setting its width to “auto”. Once the message was sent, the content of the button was not displayed entirely. (CAMP-44560)
 * Fixed an issue which occurred when uploading content from an attached HTML file. Once the message was sent to a Gmail address, the CSS was not applied, causing a rendering issue. (CAMP-44085)
@@ -99,7 +98,7 @@ snippet: y
 * Fixed an issue with the **Fragments** search bar. When searching for an existing fragment, the search bar showed no result. (CAMP-44223)
 * Fixed an issue with the **Content Blocks** and **Fragments** search bars. When using one of the search bars, results were only displayed if you clicked **Show More Results...**. (CAMP-44205)
 * Fixed an issue which prevented padding between text and images from being applied in Microsoft Outlook. (CAMP-45370)
-* Fixed an issue when duplicating a fragment. After duplicating the fragment, the original fragment was missing HTML lines. (CAMP-45207)
+* Fixed an issue when duplicating a fragment. After duplicating the fragment, the original fragment had missing HTML lines. (CAMP-45207)
 * Fixed an error which caused rendering issues in Microsoft Outlook. (CAMP-44749)
 * Fixed an error which occurred when modifying the **Structure Component** padding in a delivery template. CSS tags did not carry over changes made to the padding causing a rendering issue. (CAMP-45381)
 * Fixed an issue when uploading an image. The image's height was automatically set to 0 causing a rendering issue. (CAMP-45366)
@@ -114,30 +113,35 @@ snippet: y
 * New filters have been added to the list of transactional events. They allow you to filter the event configurations according to their status, as well as the last time an event was received.
 * The logs displaying when exporting packages have been made more specific and detailed about the encountered errors in case of failure.
 * After sending a message, you can now search, filter and export the list of tracked URLs.
-* The synchronization between Launch and Campaign is now enabled by default.
+* Automatic [synchronization between Launch and Campaign](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow) is now GA and enabled by default.
 * Transactional messages can be sent with a high priority even in case of significant bulk delivery workload.
 * The size of workflow export packages has been optimized by removing the sending proof export.
-* A new message has been added to indicate the size of the downloaded file in the **File transfer** activity.
+* A new message has been added to display the size of the downloaded file in the **File transfer** activity.
 * Error messages for invalid session tokens have been improved.
 * A new mechanism now prevents tracking events from proxies from being added to tracking logs and reporting.
-* A new warning message has been added to help debugging data management activities plugged with a delivery activity.
+* A new warning message has been added to help debugging data management activities connected to a delivery activity.
 * Labels in the reporting workspace have been improved.
 * A new validation step has been added to prevent the deletion of technical objects in transactional messages.
 * A new filter on delivery status has been added in the **Execution list** tab of a transactional message to improve troubleshooting.
+* To improve performances and optimize execution time, unused indexes have been removed, based on usage stats of tables identified in preliminary analysis for 350+ customers. 
+
+  * Impacted tables are: nmsaddressStatus, nmscampaign, nmsdelivery, nmslandingpage, nmsprogram, nmsrecipient, nmsseedmember, nmsservice, nmssubhistorcp, nmsaudience, xtkworkflow
+  
+  * Deleted indexes are: pient_blacklistalllastmodified, nmsaddressstatus _sourceid, nmscampaign_sourceid, nmsdelivery_sourceid, nmslandingpage_sourceid, nmsprogram_sourceid, nmsrecipient_sourceid, nmsseedmember_sourceid, nmsservice_sourceid, nmssubhistorcp_sourceid, nmsaudience_sourceid, xtkworkflow_sourceid
 
 **Patches**
 
-* Fixed an issue which prevented you from using a destination link for Push notifications or In-App messaging when tracking was enabled.
-* Fixed an issue which could prevent you from assigning brands to a transactional email. Several error messages could display at publication time. (CAMP-44988)
+* Fixed an issue which prevented from using a destination link for Push notifications or In-App messaging when tracking was enabled.
+* Fixed an issue which could prevent from assigning brands to a transactional email. Several error messages could display at the publication step. (CAMP-44988)
 * Fixed an issue in the workflow user interface which could prevent information from being saved in fields requesting numeric values. (CAMP-44025)
 * Fixed an issue which could display an error message when using a **Test** activity in an import template workflow. (CAMP-42910)
 * Fixed an issue which occurred when using a **Read audience** activity containing an enumeration type field and connected to **Union** or **Enrichment** activities. (CAMP-42795)
 * Fixed an issue in Dynamic reports when using the out-of-the-box segments to filter data in reports. (CAMP-42627)
-* Fixed an issue which prevented you from setting a **Scheduler** activity to 12 AM. (CAMP-42674)
+* Fixed an issue which prevented from setting a **Scheduler** activity to 12 AM. (CAMP-42674)
 * Fixed an issue which could interrupt the sending of SMS messages when the SMPP connection was unstable. (CAMP-42789)
 * Fixed an issue which prevented the **Stop preparation** button from displaying after refreshing the page. (CAMP-42721)
-* Fixed an issue which prevented hot click reports percentages from displaying when importing content from URL. (CAMP-44468)
-* Fixed an issue which could display a timeout error when selecting a profile to use for profile substitution. (CAMP-44746)
+* Fixed an issue which prevented hot click reports percentages from displaying when importing content from a URL. (CAMP-44468)
+* Fixed an issue which could display a timeout error when selecting a profile to use in the context of profile substitution. (CAMP-44746)
 * Fixed an issue which could prevent instances from working after deploying custom resources containing incorrect link definitions. (CAMP-44406)
 * Fixed an issue which created empty linked entities (typologies, brands, etc.) after copying and pasting a delivery into a campaign template. (CAMP-44765)
 * Fixed an issue which prevented proofs from being sent due to an incorrect handling of delivery preparation tables in case of a database crash or a simple database restart on Azure.
@@ -156,10 +160,10 @@ snippet: y
 * Fixed an issue causing workflows to loop when using the **Wait** activity. (CAMP-43981)
 * Fixed an issue when sending transactional messages which led to several email addresses being targeted multiple times in a same delivery. (CAMP-44202)
 * Fixed an error when using profile substitution with targetData personalization. (CAMP-44996)
-* Fixed an issue which caused the delivery preview to fail when using the deliverytransactionaltemplate Resource in custom package exports. (CAMP-44084)
+* Fixed an issue which caused the delivery preview to fail when exporting a delivery template in a package. (CAMP-44084)
 * Fixed an issue which prevented proofs from being sent to test profiles when using custom target mappings. (CAMP-43701)
-* Fixed an error which occurred in workflows when using the **Read Audience** activity and targeting an audience configured with a targeting dimension other than profile.  (CAMP-41885)
-* Fixed an issue which led to errors when the updateEventsStatus technical workflow was taking too much time retrieving event history (when the workflow was stopped). The unused "sumQueueTime" aggregate field has been removed from the workflow to solve this issue. (CAMP-43920)
+* Fixed an error which occurred in workflows when using the **Read Audience** activity and targeting an audience configured with a targeting dimension other than **Profile**.  (CAMP-41885)
+* Fixed an issue which led to errors when the **updateEventsStatus** technical workflow was taking too much time retrieving event history (when the workflow was stopped). The unused "sumQueueTime" aggregate field has been removed from the workflow to solve this issue. (CAMP-43920)
 * Fixed a memory issue when deploying custom resources. (CAMP-42909)
 * Fixed an issue in transactional messaging when attributes were missing in collections. Now all missing attributes are defined with a default value and included in the payload. (CAMP-42882)
 * Fixed an issue that could affect performance when querying real-time event delivery logs. (CAMP-42759)
@@ -178,6 +182,6 @@ snippet: y
 * Fixed an issue causing an incorrect tracking open rate for Gmail recipients caused by the Gmail image proxy.
 * Fixed an issue causing Out Of Memory errors when importing a package.
 * Fixed an issue which caused the Experience Manager unlink action to fail when the Experience Manager content included a path with a '%20' character.
-* Fixed an error which occurred in workflows on multiple reconciliation activity labels and names.
-* Fixed an issue with the transactional message picker in a landing page with the option **Start sending message** selected.
-* Fixed an issue with transactional messages or recurring deliveries which prevented the delivery status from being initialized with the right value by default. Error logs have been improved too.
+* Fixed an error on labels when duplicating workflow activities.
+* Fixed an issue with the transactional message picker in a landing page when the **Start sending message** option is selected.
+* Fixed an issue with transactional messages or recurring deliveries which prevented the delivery status from being initialized with the right default value. Error logs have been also improved.
