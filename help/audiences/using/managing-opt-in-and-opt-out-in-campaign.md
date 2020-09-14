@@ -20,7 +20,7 @@ snippet: y
 
 Users can be opted in or out by an operator directly from the profile **[!UICONTROL General]** tab.
 
-In the **[!UICONTROL No longer contact (denylisted)]** section, the selected checkboxes correspond to the channels from which the user chose to opt out. Select the channels according to the user's needs.
+In the **[!UICONTROL No longer contact (on denylist)]** section, the selected checkboxes correspond to the channels from which the user chose to opt out. Select the channels according to the user's needs.
 
 ![](assets/optin_landingpage_3.png)
 

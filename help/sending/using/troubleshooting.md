@@ -31,9 +31,9 @@ If the problem persists, contact the commercial or deliverability services, or A
 
 ## Denylist versus quarantine {#denylist-versus-quarantine}
 
-* **What is the difference between an denylisted email address and a quarantined email address?**
+* **What is the difference between an email address on denylist and a quarantined email address?**
 
-    * The status **[!UICONTROL Denylisted]** is a result of a feedback loop (when a person reports a message as spam).
+    * The status **[!UICONTROL On denylist]** is a result of a feedback loop (when a person reports a message as spam).
 
     * The status **[!UICONTROL Quarantined]** is a result of a soft or hard bounce.
     
@@ -41,21 +41,21 @@ If the problem persists, contact the commercial or deliverability services, or A
 
 * **What do the different quarantine error reasons mean?**
 
-    Here are 10 possible reasons: not defined, user unknown, invalid domain, denylisted address, refused, error ignored, unreachable, account disabled, mailbox full, not connected.
+    Here are 10 possible reasons: not defined, user unknown, invalid domain, address on denylist, refused, error ignored, unreachable, account disabled, mailbox full, not connected.
     
     For more on this, see [Understanding quarantine management](../../sending/using/understanding-quarantine-management.md).
 
 ## Removing from denylist {#removing-from-denylist}
 
-* **One of my recipients was denylisted by mistake. How do I remove them from the denylist so that I can start sending them messages again?**
+* **One of my recipients was added to the denylist by mistake. How do I remove them from the denylist so that I can start sending them messages again?**
 
     * Go to **[!UICONTROL Administration > Channels > Quarantines > Addresses]**.
     * In the details of the corresponding record, set the value of the **[!UICONTROL Status]** field to **[!UICONTROL Valid]**.
     * Save the record.
 
-* **How can I find out whether one of my IPs is denylisted? How do I remove my IP(s) from a denylist?**
+* **How can I find out whether one of my IPs is on denylist? How do I remove my IP(s) from a denylist?**
 
-    To check whether your IP address is denylisted, you can use various web sites to verify it, such as:
+    To check whether your IP address is on denylist, you can use various web sites to verify it, such as:
     * [MX Toolbox](https://mxtoolbox.com/)
     * [What is my IP address](https://whatismyipaddress.com)
 

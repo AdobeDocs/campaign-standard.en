@@ -616,7 +616,7 @@ Use of Custom Resources in Transactional Messaging - [Read more](../../administr
 
 The GDPR API regroups features that allow the automatic processing of GDPR requests. [Read more](../../api/using/creating-a-privacy-request.md)
 
-Added information on how to set up landing pages to give your recipients the ability to be denylisted. [Read more](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
+Added information on how to set up landing pages to give your recipients the ability to be on denylist. [Read more](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
 The [Configuring transactional messaging](../../administration/using/configuring-transactional-messaging.md) section has been reorganized, and a [step-by-step use case](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) has been added.
 
