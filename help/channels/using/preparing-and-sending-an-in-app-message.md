@@ -121,7 +121,7 @@ The steps for creating a standalone In-App message with Adobe Campaign are:
 
    ![](assets/inapp_creating_5.png)
 
-1. Edit the content of your message and define the advanced options. See [Customizing an In-App message](https://helpx.adobe.com/campaign/standard/channels/using/customizing-a-push-notification.html).
+1. Edit the content of your message and define the advanced options. See [Customizing an In-App message](https://helpx.adobe.com/campaign/standard/channels/using/customizing-an-in-app-message.html).
 
    ![](assets/inapp_creating_6.png)
 
