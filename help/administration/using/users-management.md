@@ -56,6 +56,10 @@ We will rather focus on how the different tasks in Adobe Campaign are split betw
 
 Functional administrators are users who can access the most technical parts of the interface. They hold the **[!UICONTROL Administration]** role and make sure that the platform is all set up so that marketers only have to focus on delivering their campaigns.
 
+>[!CAUTION]
+>
+>Only Functional administrators, with **[!UICONTROL Administration]** role and access to **All** units can access sending logs, message logs, tracking logs, exclusion logs, proposition logs and subscription logs. A non-admin user can target these logs but starting on a linked table (profiles, delivery).
+
 Functional administrators are the only users who can access the **[!UICONTROL Administration]** menu, in the Adobe Campaign interface. Since these users need to access technical resources, more advanced roles should be assigned to them, such as the **[!UICONTROL Administration]** and **[!UICONTROL Datamodel]** out-of-the-box roles. These roles are combined in the **[!UICONTROL Administrators]** out-of-the-box security group. For more on this, refer to this [section](../../administration/using/list-of-roles.md).
 
 Here are the main tasks they can perform:
@@ -133,7 +137,7 @@ You can then check if your user has been correctly synced to Adobe Campaign:
 
 1. Check your user's security group. Here, you can see that the user has been assigned the **[!UICONTROL Administrators]** security group.
 
-    >[!Note]
+    >[!NOTE]
     >
     >Security groups can only be removed or added to a user in the Admin Console.
 

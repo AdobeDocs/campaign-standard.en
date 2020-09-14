@@ -40,7 +40,7 @@ When configuring it from the service, the confirmation transactional message wil
 
 ### Step 1: Create the confirmation email {#step-1--create-the-confirmation-email-1}
 
-A confirmation email will be automatically sent to each profile subscribing to the newsletter (through a landing page or any other means). The subscription is considered as an event and the email is a [transactional message](../../channels/using/about-transactional-messaging.md) which will target each profile that subscribes to the service.
+A confirmation email will be automatically sent to each profile subscribing to the newsletter (through a landing page or any other means). The subscription is considered as an event and the email is a [transactional message](../../channels/using/getting-started-with-transactional-msg.md) which will target each profile that subscribes to the service.
 
 Steps to create the confirmation email are described below. As the transactional message will be referenced in the service, you need to create it first.
 
@@ -129,13 +129,13 @@ When referencing the confirmation message from the landing page, a message will 
 
 ### Step 1: Create the confirmation email {#step-1--create-the-confirmation-email-2}
 
-A confirmation email will be automatically sent to each profile subscribing to the newsletter through a landing page. The subscription is considered as an event and the email is a is a [transactional message](../../channels/using/about-transactional-messaging.md) which will target each profile that subscribes to the service.
+A confirmation email will be automatically sent to each profile subscribing to the newsletter through a landing page. The subscription is considered as an event and the email is a is a [transactional message](../../channels/using/getting-started-with-transactional-msg.md) which will target each profile that subscribes to the service.
 
 Steps to create these elements are described below. As the transactional message will be referenced in the landing page, you need to create it first.
 
 #### Create the event {#create-the-event-2}
 
-The confirmation email is a [transactional message](../../channels/using/about-transactional-messaging.md) as it reacts to an event: the subscription to a service. This message will be sent to confirm subscription to your newsletter.
+The confirmation email is a [transactional message](../../channels/using/getting-started-with-transactional-msg.md) as it reacts to an event: the subscription to a service. This message will be sent to confirm subscription to your newsletter.
 
 1. Create an event from the **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]** menu, accessible from the Adobe Campaign logo.
 1. Enter a label, select a targeting dimension and click **[!UICONTROL Create]**.

@@ -1,6 +1,6 @@
 ---
 title: Why use Campaign Standard APIs?
-description: Learn more on Campaign Standard APIs and why to use them.
+description: Learn more on Campaign Standard APIs and why using them.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Why use Campaign Standard APIs {#why-using-campaign-standard-apis}
+# Why using Campaign Standard APIs {#why-using-campaign-standard-apis}
 
 Adobe Campaign Standard provides APIs which allow existing systems to integrate with the ACS platform to solve real-world problems in real-time.
 

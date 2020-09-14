@@ -88,7 +88,7 @@ The detailed steps to create a workflow are presented in the [Building a workflo
 1. Enter the email properties and click **[!UICONTROL Next]**.
 1. To create the layout of your email, click on **[!UICONTROL Use the Email Designer]**.
 1. Edit and save your content.
-1. In the **[!UICONTROL Schedule]** section of the message dashboard, unselect the **[!UICONTROL Request confirmation before sending messages}** option.
+1. In the **[!UICONTROL Schedule]** section of the message dashboard, unselect the **[!UICONTROL Request confirmation before sending messages]** option.
 
 ## Creating an Update data activity {#creating-update-data-activity}
 

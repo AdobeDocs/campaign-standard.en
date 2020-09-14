@@ -3,6 +3,7 @@ product: adobe campaign
 sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
+breadcrumb-title: Campaign Standard Guide
 ---
 
 # Adobe Campaign Standard Help {#using}
@@ -96,7 +97,8 @@ user-guide-title: Adobe Campaign Standard Help
        + [Defining the direct mail audience](channels/using/defining-the-direct-mail-audience.md)
        + [Defining the direct mail content](channels/using/defining-the-direct-mail-content.md)
   + Transactional messaging {#transactional-messaging}
-       + [About transactional messaging](channels/using/about-transactional-messaging.md)
+       + [Getting started with transactional messaging](channels/using/getting-started-with-transactional-msg.md)
+       + [Transactional messaging limitations](channels/using/transactional-messaging-limitations.md)
        + [Event transactional messages](channels/using/event-transactional-messages.md)
        + [Profile transactional messages](channels/using/profile-transactional-messages.md)
        + [Transactional push notifications](channels/using/transactional-push-notifications.md)
@@ -229,7 +231,14 @@ user-guide-title: Adobe Campaign Standard Help
        + [Testing your triggers](integrating/using/testing-your-triggers.md)
        + [Abandonment Triggers use cases](integrating/using/abandonment-triggers-use-cases.md)
   + Campaign and Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-       + [Get Started with Microsoft Dynamics 365 integration](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+       + [Get Started with Dynamics 365 integration](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+       + [Manage data between Campaign and Dynamics 365](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
+       + [Request the integration](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
+       + [Configure Adobe I/O](integrating/using/configure-adobe-io-for-ms-dynamic.md)
+       + [Configure Dynamics 365 for Campaign integration](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
+       + [Map Campaign custom resources and Dynamics 365 custom entities](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
+       + [Use the Dynamics 365 integration](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
+       + [Integration guardrails](integrating/using/ms-dynamics-365-integration-guardrails.md)
 + Managing processes and data {#managing-processes-and-data}
   + [Get started with data and processes management](automating/using/get-started-workflows.md)
   + Workflow general operation {#workflow-general-operation}
@@ -243,7 +252,13 @@ user-guide-title: Adobe Campaign Standard Help
        + [Monitoring workflow execution](automating/using/monitoring-workflow-execution.md)
        + [Managing execution options](automating/using/managing-execution-options.md)
        + [Managing activities' properties](automating/using/activity-properties.md)
-  + [Calling a workflow with external parameters](automating/using/calling-a-workflow-with-external-parameters.md)
+  + Calling a workflow with external parameters {#calling-workflow-external-parameters}
+       + [Overview](automating/using/calling-a-workflow-with-external-parameters.md)
+       + [Declaring the parameters in the External Signal activity](automating/using/declaring-parameters-external-signal.md)
+       + [Defining the parameters when calling the workflow](automating/using/defining-parameters-calling-workflow.md)
+       + [Monitoring the events variables](automating/using/monitoring-events-variables.md)
+       + [Customizing the workflow with external parameters](automating/using/customizing-workflow-external-parameters.md)
+       + [Use case](automating/using/use-case-calling-workflow.md)
   + Targeting activities {#targeting-activities}
        + [About targeting activities](automating/using/about-targeting-activities.md)
        + [Query](automating/using/query.md)

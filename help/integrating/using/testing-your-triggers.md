@@ -71,7 +71,7 @@ If it is, follow these guide lines:
 If not, move on to the next step. If it is, follow these guide lines:
 
 * Check that the transactional template is published.
-* Check that the profile is not on block list.
+* Check that the profile is not denylisted.
 * Check the application of typology rules.
 * Check the transactional message's logs.
 
