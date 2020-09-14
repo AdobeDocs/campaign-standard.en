@@ -112,7 +112,7 @@ snippet: y
 * The expression editor in workflows has been improved to prevent execution errors. [New functions](../../automating/using/customizing-workflow-external-parameters.md) are available: they can be used in all the activities that allow you to use event variables after calling a workflow with external parameters. Additionally, a tooltip now displays in the expression editor with the function description. 
 * New filters have been added to the list of transactional events. They allow you to filter the event configurations according to their status, as well as the last time an event was received.
 * The logs displaying when exporting packages have been made more specific and detailed about the encountered errors in case of failure.
-* After sending a message, you can now search, filter and export the list of tracked URLs.
+* After sending a message, you can now search, filter and export the list of [tracked URLs](../../sending/using/tracking-messages.md).
 * Automatic [synchronization between Launch and Campaign](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow) is now GA and enabled by default.
 * Transactional messages can be sent with a high priority even in case of significant bulk delivery workload.
 * The size of workflow export packages has been optimized by removing the sending proof export.
