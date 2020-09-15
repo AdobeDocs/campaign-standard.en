@@ -23,6 +23,8 @@ Adobe Campaign provides a report that displays the number of active profiles. Th
 >[!NOTE]
 >
 >If you are hosted on AWS and using Campaign Standard from build 10368, you can also monitor the number of active profiles used on your instances directly from the Control Panel. For more on this, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
+>
+>Note that Active profiles count is available for **Marketing instances** only. It is not available for Execution instances, meaning MID (mid sourcing) and RT (Message Center / Real-time messaging) instances.
 
 This report is generated every month by the **[!UICONTROL Billing]** technical workflow. It contains the number of active profiles that were targeted during the last 12-month rolling period.
 
