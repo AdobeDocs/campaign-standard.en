@@ -64,6 +64,10 @@ To edit the structure of an email:
 
    >[!NOTE]
    >
+   >Note that stack of columns are not compatible with all email programs. When not supported, columns will not be stacked.
+
+   >[!NOTE]
+   >
    >Once placed in the email, you cannot move nor remove your components unless there is already a content component or a fragment placed inside.
 
 1. Several structure components composed of one or more columns are available.
@@ -92,6 +96,11 @@ Select the **[!UICONTROL Preheader]** edit box and complete the content.
 ![](assets/email_designer_preheader.png)
 
 You can add a **[!UICONTROL Content block]**, a **[!UICONTROL Dynamic content]** or a **[!UICONTROL Personalization fields]** in the preheader content.
+
+>[!NOTE]
+>
+>Note that preheader is not compatible with all email programs. When not supported, preheader will not display.
+
 
 ## Using content components {#about-content-components}
 
@@ -146,18 +155,20 @@ Select **[!UICONTROL Fallback view]** to display the fallback image in the Email
     1. Save all the images and assets that you want to use.
     1. If you are familiar with HTML, split your original HTML content into different parts.
 
-### **[!UICONTROL Video]**
+### Video {#video-settings}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_video"
 >title="Video settings"
 >abstract="Use this component to insert a video in your email."
 
-    Use this component to insert a video in your email.
+Insert the video component into a structure component of your email and enter the video link in the **[!UICONTROL Component Settings]**.
 
-    Insert the video component into a structure component of your email and enter the video link in the **[!UICONTROL Component Settings]**.
+>[!NOTE]
+>
+>Note that video is not compatible with all email programs. When not supported, fallback will display.
 
-### **[!UICONTROL Image]**
+### Image
 
     Use this component to insert an image in your email. 
   
@@ -167,7 +178,7 @@ Select **[!UICONTROL Fallback view]** to display the fallback image in the Email
 
     Use this component to insert links to social media pages in your email. You can select which links you want to display and the size of their icon in **[!UICONTROL Component Settings]**.
 
-### **[!UICONTROL Carousel]**
+### Carousel {#carousel-settings}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_carousel"
