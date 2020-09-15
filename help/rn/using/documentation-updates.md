@@ -22,19 +22,25 @@ In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), 
 
 The Event transactional messages section has been reorganized and clarified. [Read more](../../channels/using/event-transactional-messages.md)
 
+A caution note has been added to warn users about permissions limitation related to log access. [Read more](../../administration/using/users-management.md)
+
+A new section has been added to detail the process to create a new brand. [Read more](../../administration/using/branding.md#creating-a-brand)
+
+The new Campaign Standard - Microsoft Dynamics 365 integration is now available. [Read more](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+
 ## Documentation updates - August 2020 {#doc-updates-august-2020}
 
 A new updated section on getting started with transactional messaging is available. [Read more](../../channels/using/getting-started-with-transactional-msg.md)
 
-The Transactional messaging limitations section has been moved. [Read more](../../channels/using/transactional-messaging-limitations.md)
+The **Transactional messaging limitations** section has moved [here](../../channels/using/transactional-messaging-limitations.md)
 
-The Preparing the send section has been moved. [Read more](../../sending/using/preparing-the-send.md)
+The **Preparing the send** section has moved [here](../../sending/using/preparing-the-send.md)
 
 ## Documentation updates - July 2020 {#doc-updates-july-2020}
 
 A new section has been added with guidelines related to Campaign Standard monitoring. [Read more](../../administration/using/monitoring-guidelines.md)
 
-External API Guardrails and limitations section has been updated.[Read more](../../automating/using/external-api.md#guardrails)
+External API Guardrails and limitations section has been updated. [Read more](../../automating/using/external-api.md#guardrails)
 
 The Privacy Management Overview page has been updated to include information on the Thailand’s Personal Data Protection Act (PDPA) and the Brazil's Lei Geral de Proteção de Dados (LGPD). [Read more](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
@@ -49,8 +55,6 @@ New AI-powered emails capabilities: send time optimization and profile scoring. 
 Workflow use cases have been updated and reorganized into thematic sections. [Read more](../../automating/using/about-workflow-use-cases.md)
 
 Use cases have been added on how to [encrypt](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) and [decrypt](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) data using Control Panel and Campaign workflows.
-
-Both ‘whitelist’ and ‘blacklist’ terms have been removed from Adobe Campaign documentation. Some occurrences of these terms may still exist in the product UI, option names and internal code, but will be replaced in upcoming Campaign releases with ‘blocklist’ and ‘allowlist.’
 
 References to the legacy Support website have been replaced by the new URL. [Learn more](https://helpx.adobe.com/campaign/kb/ac-support.html#acs-support-req)
 
@@ -588,7 +592,7 @@ Added information on tracking log types. [Read more](../../sending/using/trackin
 
 The query activity section has been updated with query samples. [Read more](../../automating/using/query.md#query-samples)
 
-The section dedicated to block lists has been renamed “Understanding opt-in and opt-out processes”. It has been updated with information on how to manage opt-in to specific channels and how to set up landing pages to manage opt-in and opt-out. [Read more](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+The section dedicated to denylists has been renamed “Understanding opt-in and opt-out processes”. It has been updated with information on how to manage opt-in to specific channels and how to set up landing pages to manage opt-in and opt-out. [Read more](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 Learn the best practices for using Adobe hosted SFTP servers. [Read more](../../administration/using/external-accounts.md#sftp-external-account)
 
@@ -612,7 +616,7 @@ Use of Custom Resources in Transactional Messaging - [Read more](../../administr
 
 The GDPR API regroups features that allow the automatic processing of GDPR requests. [Read more](../../api/using/creating-a-privacy-request.md)
 
-Added information on how to set up landing pages to give your recipients the ability to be added to the block list. [Read more](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
+Added information on how to set up landing pages to give your recipients the ability to be denylisted. [Read more](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
 The [Configuring transactional messaging](../../administration/using/configuring-transactional-messaging.md) section has been reorganized, and a [step-by-step use case](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) has been added.
 
@@ -666,7 +670,7 @@ Added information on how to send a delivery depending on users' time zones in a 
 
 Reorganized the **[!UICONTROL Customizing a push notification]** section with step-by-step use cases. [Read more](../../channels/using/customizing-a-push-notification.md)
 
-New section dedicated to block list management. [Read more](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+New section dedicated to denylist management. [Read more](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 Updated information about delivery failures and quarantines. [Read more](../../sending/using/monitoring-a-delivery.md)
 

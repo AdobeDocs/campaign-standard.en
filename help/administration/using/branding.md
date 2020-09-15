@@ -26,7 +26,7 @@ Technical administrators can define one or several brands to centrally enter the
 
 The main principle of configuring and using brands is to:
 
-1. Create and configure the brand - this operation requires specific permissions and is carried out by the Adobe Campaign technical administrator.
+1. Create and configure the brand - this operation requires specific permissions and is carried out by the Adobe Campaign technical administrator. Steps to get a new brand in Campaign are detailed [in this section](#creating-a-brand).
 1. Create one or several delivery and landing page templates for this brand. Refer to the [Creating a template](../../start/using/marketing-activity-templates.md) section.
 1. Create messages and landing pages based on this template. Refer to the [Creating an email](../../channels/using/creating-an-email.md) and [Creating a landing page](../../channels/using/designing-a-landing-page.md) sections.
 
@@ -82,6 +82,26 @@ A **Brand** is defined by the following characteristics:
   The additional parameters that allow the links to be tracked on external systems such as Web Analytics tools like Adobe Analytics or Google Analytics are defined here.
 
   ![](assets/branding_05.png)
+
+## Creating a new brand {#creating-a-brand}
+
+You can add new entities of your organization in Campaign, or create a new type of email which you need to send under a different subdomain. To perform this, follow the steps below:
+
+1. **Delegate a new subdomain** - For any new subdomain to be used by Adobe, the first step will be to delegate it. You can perform this through [Campaign Control Panel](https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/subdomains-branding.html) or reach out to your Adobe technical contact. Learn more about subdomain delegation [in this article](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html).
+
+1. **Create a ticket** - Once the subdomain is delegated, Adobe will need to set it up in the your production environment. To request this, [create a ticket to Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) with the following information:
+
+   * Subject: ACS New brand set up
+   
+   * Content: A new domain has been delegated to Adobe and we would like to get it set up in our Campaign platform
+   
+   * Domain: XXX
+   
+   * Production URL: XXX.campaign.adobe.com
+
+1. **Create a delivery template** - Once the new brand is available, best practice is to create at least one new blank delivery template which reference this new brand. [Learn more](#linking-a-brand-to-a-template).
+
+1. **Check deliverability guidelines** - Before starting using the new domain, the strategy should be discussed with Adobe Deliverability team. They will help to define the best practices, if a new affinity should be created to split the IPs between domains for example, and/or if a ramp up plan should be defined. Learn more about Deliverability best practices [in this section](../../sending/using/about-deliverability.md).
 
 ## Assigning a brand to an email {#assigning-a-brand-to-an-email}
 
