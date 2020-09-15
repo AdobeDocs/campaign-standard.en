@@ -26,7 +26,7 @@ In any case, the quarantine procedure complies with specific rules described in 
 
 The profiles whose email addresses or phone number are in quarantine are automatically excluded during message preparation (see [Identifying quarantined addresses for a delivery](#identifying-quarantined-addresses-for-a-delivery)). This will speed up deliveries, as the error rate has a significant effect on delivery speed.
 
-Some internet access providers automatically consider emails to be spam if the rate of invalid addresses is too high. Quarantine therefore allows you to avoid being denylisted by these providers.
+Some internet access providers automatically consider emails to be spam if the rate of invalid addresses is too high. Quarantine therefore allows you to avoid being added to denylist by these providers.
 
 Moreover, quarantines help reducing SMS sending costs by excluding erroneous phone numbers from deliveries.
 
@@ -42,7 +42,7 @@ Being on the **Denylist**, on the other hand, will result in the profile no long
 
 >[!NOTE]
 >
->When a user replies to an SMS message with a keyword such as "STOP" in order to opt-out from SMS deliveries, his profile is not denylisted like in the email opt-out process. The profile phone number is sent to quarantine with the **[!UICONTROL Denylisted]** status. This status refers to the phone number only, the profile is not denylisted so that the user continues receiving email messages. For more on this, refer to [this section](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
+>When a user replies to an SMS message with a keyword such as "STOP" in order to opt-out from SMS deliveries, his profile is not on denylist like in the email opt-out process. The profile phone number is sent to quarantine with the **[!UICONTROL On denylist]** status. This status refers to the phone number only, the profile is not on denylist so that the user continues receiving email messages. For more on this, refer to [this section](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
 
 ## Identifying quarantined addresses {#identifying-quarantined-addresses}
 
@@ -82,7 +82,7 @@ Adobe Campaign manages quarantine according to the delivery failure type and the
 
   When a delivery is successful after a retry, the error counter of the address which was prior to that quarantined is reinitialized. The address status changes to **[!UICONTROL Valid]** and it is deleted from the list of quarantines after two days by the **[!UICONTROL Database cleanup]** workflow.
 
-If a user qualifies an email as a spam (**Feedback loop**), the message is automatically redirected towards a technical mailbox managed by Campaign. The user's email address is then automatically sent to quarantine with the **[!UICONTROL Denylisted]** status. This status refers to the address only, the profile is not on the denylist, so that the user continues receiving SMS messages and push notifications.
+If a user qualifies an email as a spam (**Feedback loop**), the message is automatically redirected towards a technical mailbox managed by Campaign. The user's email address is then automatically sent to quarantine with the **[!UICONTROL On denylist]** status. This status refers to the address only, the profile is not on the denylist, so that the user continues receiving SMS messages and push notifications.
 
 >[!NOTE]
 >

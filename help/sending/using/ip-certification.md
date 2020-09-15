@@ -20,7 +20,7 @@ IP Certification is a sending best practices program that helps ensuring that em
 
 Currently two providers offer IP Certification: Return Path and Certified Senders Alliance.
 
-Certified senders are allowlisted which are used by global mailbox providers and email security companies. These commercial allowlists are based on a system that allows the sender to bypass antispam filters altogether or be assigned incremental points as they enter the system.
+Certified senders are on allowlist which are used by global mailbox providers and email security companies. These commercial allowlists are based on a system that allows the sender to bypass antispam filters altogether or be assigned incremental points as they enter the system.
 
 The [Return Path Certification](https://www.validity.com/products/returnpath/certification/) program offers a number of benefits, including the following:
 * A measurable increase in inbox placement at top mailbox providers like Microsoft, AOL, Yahoo, Gmail, Comcast, Orange, Mail.ru, and more

@@ -611,7 +611,7 @@ Several improvements have been added to the Transactional messaging channel in o
 * Fixed an issue, in the query editor, with the join condition between broadlog and tracking log for rtEvent. (CAMP-28780)
 * Fixed an issue which prevented modifications to the "Specific action" landing page option from being saved. (CAMP-29422)
 * Fixed an issue which prevented from exporting an event's payload in a workflow. (CAMP-29029)
-* Fixed an issue that prevented denylisted SMS numbers from being excluded in an SMS message. (CAMP-28898)
+* Fixed an issue that prevented SMS numbers on the denylist from being excluded in an SMS message. (CAMP-28898)
 * Fixed an issue which could prevent SMPP providers from being notified in case of an error while processing incoming messages. (CAMP-29804)
 * Fixed an issue which allowed external accounts with associated deliveries to be deleted. (CAMP-29738)
 * The sending throughput has been improved and stabilized for SMS messages.

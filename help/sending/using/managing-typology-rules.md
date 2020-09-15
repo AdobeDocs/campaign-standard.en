@@ -65,7 +65,7 @@ In standard operation mode, the rules are applied in the following sequence:
 1. Control rules, if they are applied at the start of targeting.
 1. Filtering rules:
 
-    * Native application rules for address qualification: defined address / non-verified address / denylisted address / quarantined address / address quality.
+    * Native application rules for address qualification: defined address / non-verified address / address on denylist / quarantined address / address quality.
     * Filtering rules defined by the user.
 
 1. Control rules, if they are applied at the end of targeting.

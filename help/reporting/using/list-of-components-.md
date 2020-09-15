@@ -146,7 +146,7 @@ The tables below give you the list of metrics used in reports and their definiti
  </thead> 
  <tbody> 
   <tr> 
-   <td> Denylisted<br /> </td> 
+   <td> On denylist<br /> </td> 
    <td> Number of recipients who have declared an email as spam or junk.<br /> </td> 
   </tr> 
   <tr> 
