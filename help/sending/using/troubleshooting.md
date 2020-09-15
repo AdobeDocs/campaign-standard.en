@@ -37,7 +37,7 @@ If the problem persists, contact the commercial or deliverability services, or A
 
     * The status **[!UICONTROL Quarantined]** is a result of a soft or hard bounce.
     
-    For more on this, see this [section](../../sending/using/understanding-quarantine-management.md#quarantine-vs-block-list).
+    For more on this, see this [section](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist).
 
 * **What do the different quarantine error reasons mean?**
 

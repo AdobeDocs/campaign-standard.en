@@ -28,6 +28,8 @@ A new section has been added to detail the process to create a new brand. [Read 
 
 The new Campaign Standard - Microsoft Dynamics 365 integration is now available. [Read more](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
+Information has been added on anonymous sources in the Active profiles report. [Read more](../../audiences/using/active-profiles.md)
+
 ## Documentation updates - August 2020 {#doc-updates-august-2020}
 
 A new updated section on getting started with transactional messaging is available. [Read more](../../channels/using/getting-started-with-transactional-msg.md)
@@ -270,7 +272,7 @@ The landing pages chapter has been reorganized. It has also been enriched with a
 
 A new section was added in the Push notifications section on how to create and update profile information based on mobile application subscription data. [Read more](../../channels/using/updating-profile-with-mobile-app-data.md)
 
-A new example showing how to send an email containing additional data retrieved from a load file activity has been added. [Read more](../../automating/using/load-file.md#example-2-email-with-enriched-fields)
+A new example showing how to send an email containing additional data retrieved from a load file activity has been added. [Read more](../../automating/using/sending-email-enriched-fields.md)
 
 A new section on how to use traps has been added. [Read more](../../sending/using/using-traps.md).
 
@@ -460,7 +462,7 @@ Added information on the option that lets you keep the rejects in a file. This o
 
 Added a new section on how to duplicate workflow activities through copy-paste operations. [Read more](../../automating/using/workflow-interface.md#duplicating-workflow-activities)
 
-Added information on the new option in the Query ( [Read more](../../automating/using/query.md)) and Segmentation ( [Read more](../../automating/using/segmentation.md)) activities, that lets you add an outbound transition after the activity if it retrieves no data.
+Added information on the new option in the Query ( [Read more](../../automating/using/query-samples.md)) and Segmentation ( [Read more](../../automating/using/segmentation.md)) activities, that lets you add an outbound transition after the activity if it retrieves no data.
 
 Added information in the Update data activity section on the new Batch size field that lets you define the maximum batch size for the data to upload. [Read more](../../automating/using/update-data.md#configuration)
 
@@ -562,7 +564,7 @@ Reorganized the Working with Campaign and Audience Manager or People core servic
 
 Updated the Prepare deliveries role definition. [Read more](../../administration/using/list-of-roles.md)
 
-Added a sample in the query activity section on how to target profiles who clicked a specific link in a delivery. [Read more](../../automating/using/query.md#targeting-profiles-who-clicked-a-specific-link-)
+Added a sample in the query activity section on how to target profiles who clicked a specific link in a delivery. [Read more](../../automating/using/query-samples.md#targeting-profiles-who-clicked-a-specific-link-)
 
 Added a section in the API documentation related to **custom filters**. [Read more](../../api/using/filtering.md)
 
@@ -652,7 +654,7 @@ Release notes have been reorganized in several pages so that you get a more glob
 
 The **[!UICONTROL Working with typologies]** section has been updated for an improved visibility. [Read more](../../sending/using/about-typology-rules.md)
 
-A new option allowing to gain performance when defining many additional data in a **[!UICONTROL Query]** is now available. [Read more](../../automating/using/query.md)
+A new option allowing to gain performance when defining many additional data in a **[!UICONTROL Query]** is now available. [Read more](../../automating/using/query-samples.md)
 
 The profile import example has been updated with a few tips to have your profiles ready to receive direct mails. [Read more](../../automating/using/about-data-import-and-export.md)
 
@@ -666,7 +668,7 @@ The section including the list of authorizations has been removed. [Read more](h
 
 Added a step-by-step use case on how to use SMS auto reply. [Read more](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
-Added information on how to send a delivery depending on users' time zones in a recurring workflow. [Read more](../../automating/using/push-notification-delivery.md#sending-a-recurring-push-notification-with-a-workflow)
+Added information on how to send a delivery depending on users' time zones in a recurring workflow. [Read more](../../automating/using/recurring-push-notifications.md)
 
 Reorganized the **[!UICONTROL Customizing a push notification]** section with step-by-step use cases. [Read more](../../channels/using/customizing-a-push-notification.md)
 
