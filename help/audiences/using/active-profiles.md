@@ -26,6 +26,9 @@ Adobe Campaign provides a report that displays the number of active profiles. Th
 >
 >Note that Active profiles count is available for **Marketing instances** only. It is not available for Execution instances, meaning MID (mid sourcing) and RT (Message Center / Real-time messaging) instances.
 
+
+The profiles that were excluded during delivery preparation (typology rules, quarantines, control groups) are not taken into account. A profile that has been targeted by several deliveries will only be counted once. At the bottom of the report, you will find the list of active profiles for each targeting dimension.
+
 This report is generated every month by the **[!UICONTROL Billing]** technical workflow. It contains the number of active profiles that were targeted during the last 12-month rolling period.
 
 Note that the profiles that were excluded during delivery preparation (typology rules, quarantines) are not taken into account. Moreover, a profile that has been targeted by several deliveries will only be counted once.

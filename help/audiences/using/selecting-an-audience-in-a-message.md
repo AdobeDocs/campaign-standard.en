@@ -49,6 +49,10 @@ Audiences can be defined when creating the message via the creation wizard or fr
 
    For more information on configuring test profiles, refer to the [Test profiles](../../audiences/using/managing-test-profiles.md) section.
 
+1. If needed, you can define a control group using the corresponding tab. This will enable you to withdraw some profiles from your target so that they will not receive the message. For more on this, see [Adding a control group](../../sending/using/control-group.md).
+
+1. You can also use substitution addresses to get an exact representation of the message that the profile will receive.  For more on this, see [Testing email messages using targeted profiles](../../sending/using/testing-messages-using-target.md).
+
 The audiences block is then updated and shows that a target and test profiles have been selected for the email in question.
 
 ![](assets/delivery_audience_definition_3.png)

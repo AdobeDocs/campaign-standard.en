@@ -216,7 +216,7 @@ The getting started guide on how to export / import custom resources has been in
 
 ## Documentation updates - November 2019 {#doc-updates-november-2019}
 
-A new use case has been added describing how to build a control group using a workflow in Campaign Standard. [Read more](../../automating/using/workflow-control-group.md)
+A new use case has been added describing how to build a control group using a workflow in Campaign Standard.
 
 Information related to landing pages’ properties have been moved into a dedicated section. [Read more](../../channels/using/configuring-landing-page.md)
 
