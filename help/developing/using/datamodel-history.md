@@ -41,43 +41,43 @@ snippet: y
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockList</td>
+                  <td>blackList</td>
                   <td>No longer contact (by any channel)</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockListEmail</td>
+                  <td>blackListEmail</td>
                   <td>No longer contact by email</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockListFax</td>
+                  <td>blackListFax</td>
                   <td>No longer contact by fax</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockListMobile</td>
+                  <td>blackListMobile</td>
                   <td>No longer contact by SMS</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockListPhone</td>
+                  <td>blackListPhone</td>
                   <td>No longer contact by phone</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockListPostalMail</td>
+                  <td>blackListPostalMail</td>
                   <td>No longer contact by direct mail</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockListPushnotification</td>
+                  <td>blackListPushnotification</td>
                   <td>No longer contact by push notification</td>
                   <td>boolean </td>
                   <td> </td>

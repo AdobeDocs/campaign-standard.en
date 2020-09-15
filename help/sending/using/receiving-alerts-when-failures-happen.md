@@ -255,7 +255,7 @@ Here are a few possible reasons for receiving alerting notifications according t
 
   The possible causes for a **[!UICONTROL Delivery with bad error ratio for hard bounces]** alert can be:
 
-    * The recipient is on the block list, meaning that they no longer want to be contacted.
+    * The recipient is added to the denylist, meaning that they no longer want to be contacted.
     * The recipient's email address does not exist.
     * The recipient's domain does not exist.
     * The recipient's server is blocking the delivery.

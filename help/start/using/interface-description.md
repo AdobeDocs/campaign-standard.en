@@ -57,12 +57,29 @@ The navigation principles are:
 * The **[!UICONTROL Home]** link allows you to display the Adobe Campaign home page.
 * The **[!UICONTROL Marketing activities]**, **[!UICONTROL Programs & Campaigns]**, **[!UICONTROL Profiles]**, **[!UICONTROL Audiences]** and **[!UICONTROL Reports]** links let you access the views linked to these functionalities. 
 * The **[!UICONTROL Help]** button gives access to the product documentation and contextual help, release notes, version numbers, legal notices, as well as the links to the Adobe Experience Cloud community and customer care.
-
-  ![](assets/ux_help.png)
-
-* The **Select solution** icon lets you switch to another Adobe Experience Cloud solution as well as to the profile settings.
+* The organization button
+* The **Solution switcher** icon lets you switch to another Adobe Experience Cloud solution as well as to the profile settings.
 * The **Notifications** icon displays the latest alerts or information.
 * The **User** icon allows you to display information linked to your profile. It gives access to the **[!UICONTROL Sign out]** button.
+
+### Help {#help}
+
+>[!NOTE]
+>
+>This improvement is a private beta and will be deployed for all customers in 2021.
+
+* **[!UICONTROL Search]** allows you to retrieve documentation, articles and videos and filter content by solution
+
+* **[!UICONTROL Help]** tab
+  * Links gives you quick access to articles, documentation and videos related to the page you are browsing.
+  * **[!UICONTROL Learning]** this link  allows you to access to Experience League.  
+  * **[!UICONTROL Community]** this link allows you access the forum dedicated to your questions on ACS.
+
+* **[!UICONTROL Support]** tab allows you to create a support ticket and contact us by phone or Twitter.
+
+* **[!UICONTROL Feedback]** tab enables you to share issues and ideas about the solution.
+
+  ![](assets/ux_help.png)
 
 ## Advanced menu {#advanced-menu}
 

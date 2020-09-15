@@ -146,12 +146,12 @@ The tables below give you the list of metrics used in reports and their definiti
  </thead> 
  <tbody> 
   <tr> 
-   <td> On block list<br /> </td> 
+   <td> On denylist<br /> </td> 
    <td> Number of recipients who have declared an email as spam or junk.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Block list rate<br /> </td> 
-   <td> Percentage of deliveries marked on block list.<br /> </td> 
+   <td> Denylist rate<br /> </td> 
+   <td> Percentage of deliveries marked on denylist.<br /> </td> 
   </tr> 
   <tr> 
    <td> Bounces + Errors<br /> </td> 

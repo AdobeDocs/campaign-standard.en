@@ -41,15 +41,15 @@ The tables below give you the list of indicators used in the different reports a
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Blocklisted<br /> </td> 
-   <td> @blocklisted<br /> </td> 
+   <td> On denylist<br /> </td> 
+   <td> @blacklisted<br /> </td> 
    <td> count(@failureReason=8, @failureType=2)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Blocklisted rate<br /> </td> 
-   <td> @rateBlocklisted<br /> </td> 
-   <td> @blocklisted/@sent<br /> </td> 
+   <td> Denylist rate<br /> </td> 
+   <td> @rateBlacklisted<br /> </td> 
+   <td> @blacklisted/@sent<br /> </td> 
    <td> Denominator for rate calculation is based on Sent count (Delivered + Bounces).<br /> </td> 
   </tr> 
   <tr> 

@@ -61,7 +61,7 @@ Before starting to send messages to a contact, you need to make sure that you ge
 
 With Campaign, we recommend you to use **easy opt-in and opt-out mechanisms** through [services](../../audiences/using/creating-a-service.md), and [landing pages](../../channels/using/getting-started-with-landing-pages.md) to update your contact information and grow your database.
 
-Providing **unsubscription links** in your messages will enable Profiles to be added to the block list, when necessary, and therefore to improve your platform deliverability. For more on block list management, refer to [About opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+Providing **unsubscription links** in your messages will enable Profiles to be added to the denylist, when necessary, and therefore to improve your platform deliverability. For more on denylist management, refer to [About opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 >[!IMPORTANT]
 >

@@ -1,6 +1,6 @@
 ---
-title: Allow lists in Adobe Campaign Standard
-description: Learn how to optimize allow lists with Adobe Campaign Standard.
+title: Allowlists in Adobe Campaign Standard
+description: Learn how to optimize allowlists with Adobe Campaign Standard.
 page-status-flag: never-activated
 uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
 contentOwner: sauviat
@@ -20,7 +20,7 @@ IP Certification is a sending best practices program that helps ensuring that em
 
 Currently two providers offer IP Certification: Return Path and Certified Senders Alliance.
 
-Certified senders are added to email allow lists which are used by global mailbox providers and email security companies. These commercial allow lists are based on a system that allows the sender to bypass antispam filters altogether or be assigned incremental points as they enter the system.
+Certified senders are on allowlist which are used by global mailbox providers and email security companies. These commercial allowlists are based on a system that allows the sender to bypass antispam filters altogether or be assigned incremental points as they enter the system.
 
 The [Return Path Certification](https://www.validity.com/products/returnpath/certification/) program offers a number of benefits, including the following:
 * A measurable increase in inbox placement at top mailbox providers like Microsoft, AOL, Yahoo, Gmail, Comcast, Orange, Mail.ru, and more
@@ -35,6 +35,6 @@ The [Certified Senders Alliance](https://certified-senders.org/certification-pro
 * Protection from legal and financial risks by fully complying with legal standards
 * Protecting reputation by means of early warnings from the CSA Complaints Office and daily spam trap reports
 
-ISPs are free to use these services and the number of ISPs can vary depending on the allow list.
+ISPs are free to use these services and the number of ISPs can vary depending on the allowlist.
 
 However, because more and more ISPs build their antispam filters based on each inbox owner's behavior rather than analyzing the message content itself, using IP Certification cannot be a guarantee of inbox placement or even delivery.
