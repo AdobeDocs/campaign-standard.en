@@ -81,6 +81,11 @@ snippet: y
 
 * The interface has been enhanced with a new **Experience Cloud top bar** to provide a consistent experience across all Experience Cloud applications. This improvement is in private beta and will available for all customers in 2021. It allows you to switch more easily between solutions and displays improved help and notifications. Benefits will increase as more components and features are added to this common Experience Cloud navigation capability.
 * **Privacy Management**: the **CCPA Opt-Out** field, which was available via the Campaign interface and API, is now also supported through the Privacy Core Service. This field allows Adobe Campaign users to track whether a consumer has opted-out for the sale of Personal Information. <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa">Learn more</a>
+* **Email Feedback service**:
+  * Email Feedback Service is a scalable service which captures feedback from the Enhanced MTA directly. Integration of EFS with Campaign systems can lead to improved and accurate reporting.
+  * EFS captures all categories of events: Delays, Delivered, To Sent, Unsubscribe (Link, List), Feedback (Spam Complaints, Async events) which were not captured before.
+  * Calculation of Sent/ Delivered is now based on real-time feedback and not calculated from Delivered events for improved accuracy and reactivity. We calculate the number of Sent based on Delivered Events today.
+  * All events (sync and async bounces) being processed by Inmail – Leading to inaccurate events today, EFS solves the problem of sync bounces and takes 80% of load off from Inmail.
 * **Workflow execution improvements** (beta): in the context of a global initiative around workflows, some major improvements have been developed to stabilize memory management, reduce latency and optimize the memory consumed by workflows during execution. These improvements are currently in beta, and only available to a set of customers. General availability is planned for early 2021.
 * To improve security, Campaign now uses a **signature mechanism** for tracking links in emails.
 * Mobile app configuration has been improved with **clearer error messages** when uploading iOS certificates or Android keys.
