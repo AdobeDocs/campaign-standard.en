@@ -28,6 +28,8 @@ A new section has been added to detail the process to create a new brand. [Read 
 
 The new Campaign Standard - Microsoft Dynamics 365 integration is now available. [Read more](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
+Information has been added on anonymous sources in the Active profiles report. [Read more](../..hep/audiences/using/active-profiles.md)
+
 ## Documentation updates - August 2020 {#doc-updates-august-2020}
 
 A new updated section on getting started with transactional messaging is available. [Read more](../../channels/using/getting-started-with-transactional-msg.md)
