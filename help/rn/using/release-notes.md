@@ -30,7 +30,7 @@ snippet: y
 </thead> 
 <tbody> 
 <tr> 
-  <td> <p>You can now use <strong>Control groups</strong> to measure the impact of your campaigns by exluding a portion of their audience. You will then be able to compare the behavior of the target population which did receive the message with the behavior of contacts which were not targeted. Based on the sending logs, you can also target a control group in future campaigns.
+  <td> <p>You can now use <strong>Control groups</strong> to measure the impact of your campaigns by excluding a portion of their audience. You will then be able to compare the behavior of the target population which did receive the message with the behavior of contacts which were not targeted. Based on the sending logs, you can also target a control group in future campaigns.
 </p>
 <p>For more information refer to the <a href="../../sending/using/control-group.md">detailed documentation</a>.
 </p>
