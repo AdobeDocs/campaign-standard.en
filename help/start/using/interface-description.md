@@ -64,16 +64,20 @@ The navigation principles are:
 
 ### Help {#help}
 
+>[!NOTE]
+>
+>This improvement is a private beta and will be deployed for all customers in 2021.
+
 * **[!UICONTROL Search]** allows you to retrieve documentation, articles and videos and filter content by solution
 
 * **[!UICONTROL Help]** tab
-  * Links gives you quick access to articles, documentation and videos related to the page you are browsing
+  * Links gives you quick access to articles, documentation and videos related to the page you are browsing.
   * **[!UICONTROL Learning]** this link  allows you to access to Experience League.  
   * **[!UICONTROL Community]** this link allows you access the forum dedicated to your questions on ACS.
 
-* **[!UICONTROL Support]** tab allows you to create a support ticket and contact us by phone or Twitter. 
+* **[!UICONTROL Support]** tab allows you to create a support ticket and contact us by phone or Twitter.
 
-* **[!UICONTROL Feedback ]** tab enables you to share issues and ideas about the solution. 
+* **[!UICONTROL Feedback]** tab enables you to share issues and ideas about the solution.
 
   ![](assets/ux_help.png)
 
