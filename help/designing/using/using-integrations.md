@@ -45,20 +45,9 @@ Email content can be edited in Experience Manager and then used for one or sever
 >[!CONTEXTUALHELP]
 >id="ac_product_listing"
 >title="Using product listings"
->abstract=""
+>abstract="The product listings allows you to reference one or more data collections in the email content."
 
 The product listings allows you to reference one or more data collections in the email content. These listings are available for transactional emails. A dedicated section for this feature is available [here](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message).
-
-
-## Offers {#offers}
-
->[!CONTEXTUALHELP]
->id="ac_offer"
->title="Managing offers"
->abstract=""
->additional-url="" text=""
-
-Beta feature
 
 ## Email design options comparison {#email-design-options-comparison}
 

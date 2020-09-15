@@ -225,7 +225,7 @@ These conditions adopt the XTK expression syntax (e.g. **context.profile.email !
 >[!CONTEXTUALHELP]
 >id="ac_dynamic_content"
 >title="Defining dynamic content"
->abstract=""
+>abstract="Define different contents for your recipients according to rules defined via the expression editor."
 
 In an email, you can define different contents which will be displayed dynamically to the recipients according to the conditions defined via the expression editor. For example, from the same email, you can ensure that each profile receives a different message according to their age range.
 
@@ -332,8 +332,7 @@ The email is created as follows:
 >[!CONTEXTUALHELP]
 >id="ac_dynamic_image"
 >title="Managing dynamic images"
->abstract=""
->additional-url="" text=""
+>abstract="Personnalize your email with dynamic images according to rules defined via the expression editor."
 
 In this example, the dynamic contents applied to the images are configured as follows:
 

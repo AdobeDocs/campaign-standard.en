@@ -38,10 +38,14 @@ You can also check out this [introduction video](https://video.tv.adobe.com/v/22
 ## Defining Email Structure {#defining-the-email-structure}
 
 >[!CONTEXTUALHELP]
+>id="ac_structure_components"
+>title="About Structure components"
+>abstract="Structural elements defining the layout of the email."
+
+>[!CONTEXTUALHELP]
 >id="ac_edition_columns"
 >title="Defining email columns"
->abstract="Note that stack of columns are not compatible with all email programs. When not supported, columns will not be stacked."
->additional-url="" text=""
+>abstract="The Email Designer allows you to easily define the columns structure of your email."
 
 The Email Designer allows you to easily define the structure of your email. By adding and moving structural elements with simple drag-and-drop actions, you can design the shape of your email within seconds.
 
@@ -79,8 +83,7 @@ Once the structure is defined, you are able to add content fragments and compone
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
 >title="Using a preheader"
->abstract="Note that preheader is not compatible with all email programs. When not supported, preheader will not display."
->additional-url="" text=""
+>abstract="The preheader lets your configure a short summary text that will delivers a higher open rate for your email."
 
 A preheader is a short summary text that follows the subject line when viewing an email from your inbox. The preheader delivers an higher open rate.
 
@@ -91,6 +94,11 @@ Select the **[!UICONTROL Preheader]** edit box and complete the content.
 You can add a **[!UICONTROL Content block]**, a **[!UICONTROL Dynamic content]** or a **[!UICONTROL Personalization fields]** in the preheader content.
 
 ## Using content components {#about-content-components}
+
+>[!CONTEXTUALHELP]
+>id="ac_content_components"
+>title="About Content components"
+>abstract="Content components are raw, empty components that you can edit once placed in an email."
 
 Content components are raw, empty components that you can edit once placed in an email.
 
@@ -143,7 +151,7 @@ Select **[!UICONTROL Fallback view]** to display the fallback image in the Email
 >[!CONTEXTUALHELP]
 >id="ac_edition_video"
 >title="Video settings"
->abstract="Note that video is not compatible with all email programs. When not supported, fallback will display."
+>abstract="Use this component to insert a video in your email."
 
     Use this component to insert a video in your email.
 
@@ -164,8 +172,7 @@ Select **[!UICONTROL Fallback view]** to display the fallback image in the Email
 >[!CONTEXTUALHELP]
 >id="ac_edition_carousel"
 >title="Carousel settings"
->abstract="The carousel should work in all clients that supports webkit and moz CSS : Apple Mail 7, Apple Mail 8, Outlook 2011 for Mac, Outlook 2016 for Mac, Mozilla Thunderbird, iPad and iPad mini iOS, iPhone iOS, Android, AOL (Chrome, Firefox and Safari). When not supported, fallback will display."
->additional-url="" text=""
+>abstract="Learn how to insert and configure a carousel into your content."
 
     1. Drag and drop the **[!UICONTROL Carousel]** component inside a structure component.
     1. Browse to select images from your computer.
