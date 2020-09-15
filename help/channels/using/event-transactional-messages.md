@@ -77,7 +77,7 @@ To set up personalization in a transactional message, follow the steps below:
 
    ![](assets/message-center_9.png)
 
-   You can check that the personalization fields match the information entered in the test profile. For more on this, see [Defining a test profile in a transactional message](#defining-a-test-profile-in-a-transactional-message).
+   You can check that the personalization fields match the information entered in the test profile. For more on this, see [Defining a test profile in a transactional message](../../channels/using/event-transactional-messages.md#defining-specific-test-profile).
 
 ## Using product listings in a transactional message {#using-product-listings-in-a-transactional-message}
 
@@ -197,7 +197,7 @@ For more on creating a collection and related fields when configuring the event,
 
    ![](assets/message-center_loop_test-profile_payload.png)
 
-   For more on defining a test profile in a transactional message, see [this section](#defining-a-test-profile-in-a-transactional-message).
+   For more on defining a test profile in a transactional message, see [this section](../../channels/using/event-transactional-messages.md#defining-specific-test-profile).
 
 ## Testing a transactional message {#testing-a-transactional-message}
 

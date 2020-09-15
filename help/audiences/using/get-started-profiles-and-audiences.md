@@ -35,7 +35,7 @@ Manage customers permission and consent using services and landing pages to set 
 
 When you create campaigns or messages, you can specify the target of the deliveries by selecting from contacts in Campaign database, using simple or advanced criteria, or selecting audiences.
 
-Identify customers more effectively across all your channels using **integrated customer profiles** and **customized segments**. When you know your customers, interests, demographics, and channel preferences, it’s easier to create personalized experiences that get noticed.
+Identify customers more effectively across all your channels using **integrated customer profiles**, **customized segments** and **control groups**. When you know your customers, interests, demographics, and channel preferences, it’s easier to create personalized experiences that get noticed.
 
 Adobe Campaign builds rich customer profiles in real time, allowing you to deliver more relevant and personalized offers as your customer’s preferences change. In addition, Adobe Campaign integrates advanced analysis, data management and targeting functionalities to build audiences.
 
@@ -51,6 +51,7 @@ Read more:
 * [Enriching Campaign database](../../audiences/using/enriching-campaign-database.md)
 * [About audiences](../../audiences/using/about-audiences.md)
 * [Selecting an audience in a message](../../audiences/using/selecting-an-audience-in-a-message.md)
+* [Adding a control group](../../sending/using/control-group.md)
 
 ## Permission and consent {#permission}
 
@@ -79,9 +80,7 @@ Adobe Campaign offers a set of tools to help you with your **Privacy Compliance*
 
 Learn more in this [this article](https://helpx.adobe.com/campaign/kb/campaign-privacy.html) about Privacy Management and the features we provide to manage Right to Access, Right to be Forgotten, consent, data retention and user roles.
 
-Privacy and Consent in Campaign and how to manage them are presented in [this section](../../start/using/privacy.md).
-
-You will also find best best practices, to help you with your Privacy compliance when using our service.
+Privacy and Consent in Campaign and how to manage them are presented in [this section](../../start/using/privacy.md). You will also find best best practices, to help you with your Privacy compliance when using our service.
 
 ## Additional resources
 

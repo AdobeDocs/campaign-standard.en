@@ -38,7 +38,7 @@ You can create an email from a [campaign](../../start/using/marketing-activities
    >
    >You can create your email within a parent campaign from the home page or the list of marketing activities. Select it from the campaigns that have already been created.
 
-1. Define the target of your message based on your business criteria. See [Managing profiles](../../audiences/using/about-profiles.md).
+1. Define the target of your message based on your business criteria. See [About profiles](../../audiences/using/about-profiles.md).
 
    You can also define the test profiles who will validate the message. See [Managing test profiles](../../audiences/using/managing-test-profiles.md).
 

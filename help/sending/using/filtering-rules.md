@@ -25,7 +25,7 @@ The table below provides information about out-of-the-box filtering rules, as we
 Label | Channel | Description
 ---------|----------|---------
  **[!UICONTROL Address not specified]** | All | Excludes the target population with no specified address (email, postal address, etc. according to the selected channel).
- **[!UICONTROL Denylisted address]** | All | Excludes addresses that are on the denylist.
+ **[!UICONTROL Address on denylist]** | All | Excludes addresses that are on the denylist.
  **[!UICONTROL Duplicate]** | All | Excludes duplicates based on the target population **[!UICONTROL Address]** field.
  **[!UICONTROL Exclude mobile applications]** | Mobile application | Excludes app subscriptions that do not match the mobile application defined in the message.
  **[!UICONTROL Exclude mobile applications for In-App]** | In-App | Excludes app subscriptions that do not match the mobile application defined in the message (In-App template).
@@ -41,7 +41,7 @@ Additionally to these default filtering rules, two exclusion rules are available
 
 During the email analysis, these rules compare the recipient email addresses with the forbidden addresses or domain names contained in an encrypted global suppression list managed in the deliverability instance. If there is a match, the message is not sent to that recipient.
 
-This is to avoid being denylisted due to malicious activity, especially the use of a Spamtrap. For example, if a Spamtrap is used to subscribe via one of your web forms, a confirmation email is automatically sent to that Spamtrap, and this results in your address being automatically added to the denylist.
+This is to avoid being added to the denylist due to malicious activity, especially the use of a Spamtrap. For example, if a Spamtrap is used to subscribe via one of your web forms, a confirmation email is automatically sent to that Spamtrap, and this results in your address being automatically added to the denylist.
 
 >[!NOTE]
 >

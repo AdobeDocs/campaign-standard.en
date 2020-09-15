@@ -19,10 +19,6 @@ You can import Adobe Launch mobile properties into Adobe Campaign Standard throu
 
 The section below lists common questions about this synchronization.
 
->[!NOTE]
->
->You will need to submit a ticket to Adobe Customer Care (either directly or through your Adobe contact) to have the **[!UICONTROL syncWithLaunch]** technical workflow enabled in your Campaign instance.
-
 ## I created a property in [!DNL Launch] (non-admin of Org-unit ALL). My application is in Ready to Configure state in Adobe Campaign but I am unable to open/configure it. {#configuring-property}
 
 Only administrator of organizational unit ALL can configure mobile applications in Adobe Campaign Standard. Once configured, only users of the assigned organizational unit can edit the 

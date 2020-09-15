@@ -32,6 +32,10 @@ Several function types are available, depending on the desired results and the t
 * String manipulation
 * Sorting
 
+>[!NOTE]
+>
+>Additional functions are available in all the activities that allow you to use events variables after calling a workflow with external parameters. They are detailed in [this section](../../automating/using/customizing-workflow-external-parameters.md).
+
 ## Dates {#dates}
 
 The date functions are used to manipulate date or time values. 

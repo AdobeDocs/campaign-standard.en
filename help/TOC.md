@@ -136,6 +136,7 @@ breadcrumb-title: Campaign Standard Guide
        + [Testing the subject line of an email](sending/using/testing-subject-line-email.md)
        + [AI-powered emails](sending/using/predictive.md)       
        + [Email rendering](sending/using/email-rendering.md)
+       + [Adding a control group](sending/using/control-group.md)
        + [Using traps](sending/using/using-traps.md)
        + [Preparing the send](sending/using/preparing-the-send.md)
   + Scheduling messages {#scheduling-messages}
@@ -331,7 +332,6 @@ breadcrumb-title: Campaign Standard Guide
           + [Incremental query on subscribers to a service](automating/using/incremental-query-on-subscribers.md)
           + [Segmentation according to age groups](automating/using/segmentation-age-groups.md)
           + [Using resources different from targeting dimensions](automating/using/using-resources-different-from-targeting-dimensions.md)
-          + [Building a control group](automating/using/workflow-control-group.md)
        + Data management {#data-management}
           + [Reconcile a File audience with the database](automating/using/reconcile-file-audience-with-database.md)
           + [Deduplicating the data from an imported file](automating/using/deduplicating-data-imported-file.md)

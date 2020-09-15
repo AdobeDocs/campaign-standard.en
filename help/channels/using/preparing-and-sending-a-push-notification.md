@@ -95,7 +95,7 @@ Push notifications can be sent to a selected audience in Adobe Campaign by defin
 
 1. In the **[!UICONTROL Exclusion logs]** tab, you can find the list of all the messages excluded from the target sent and the reason behind this exclusion.
 
-   Here, we can see that one of our mobile app subscribers was excluded because the address was denylisted and the other subscribers because the profile was a duplicate.
+   Here, we can see that one of our mobile app subscribers was excluded because the address was on the denylist and the other subscribers because the profile was a duplicate.
 
    ![](assets/push_send_5.png)
 

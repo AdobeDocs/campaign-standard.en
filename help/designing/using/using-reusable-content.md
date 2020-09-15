@@ -140,6 +140,11 @@ To use it, create an email and select the content template that you just created
 
 ## About fragments {#about-fragments}
 
+>[!CONTEXTUALHELP]
+>id="ac_fragments"
+>title="About Fragments"
+>abstract="A fragment is a reusable component that can be referenced in one or more emails."
+
 A fragment is a reusable component that can be referenced in one or more emails.
 They can be found in the interface under **Resources** > **Content fragments and templates**. 
 
