@@ -20,7 +20,7 @@ Campaign Standard offers several tools to help you grow your marketing database.
 
 ## Importing data through workflows {#importing-data-through-workflows}
 
-Workflows allow you to collect data and import it into Campaign database through the use of [**[!UICONTROL Data management]**](../../automating/using/about-data-management-activities.md) activities.
+Workflows allow you to collect data and import it into Campaign database through the use of [[!UICONTROL Data management]](../../automating/using/about-data-management-activities.md) activities.
 
 Generic information and best practices when importing data through workflows are presented in [this section](../../automating/using/about-data-import-and-export.md).
 
@@ -65,6 +65,6 @@ Campaign Standard APIs allow you to perform operations to update the database li
 
 For more on how to use the APIs, refer to the [dedicated documentation](../../api/using/get-started-apis.md).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Before performing profiles mass creation or update via API calls, please check the scale limitations corresponding to your license agreement. For more on this, refer to [this page](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).

@@ -65,8 +65,6 @@ To edit the structure of an email:
    >[!NOTE]
    >
    >Note that stack of columns are not compatible with all email programs. When not supported, columns will not be stacked.
-
-   >[!NOTE]
    >
    >Once placed in the email, you cannot move nor remove your components unless there is already a content component or a fragment placed inside.
 
@@ -170,13 +168,13 @@ Insert the video component into a structure component of your email and enter th
 
 ### Image
 
-    Use this component to insert an image in your email. 
+Use this component to insert an image in your email. 
   
-    Insert the image component into a structure component and click browse to upload an image file from your computer.
+Insert the image component into a structure component and click browse to upload an image file from your computer.
 
 ### **[!UICONTROL Social]**
 
-    Use this component to insert links to social media pages in your email. You can select which links you want to display and the size of their icon in **[!UICONTROL Component Settings]**.
+Use this component to insert links to social media pages in your email. You can select which links you want to display and the size of their icon in **[!UICONTROL Component Settings]**.
 
 ### Carousel {#carousel-settings}
 
@@ -185,21 +183,21 @@ Insert the video component into a structure component of your email and enter th
 >title="Carousel settings"
 >abstract="Learn how to insert and configure a carousel into your content."
 
-    1. Drag and drop the **[!UICONTROL Carousel]** component inside a structure component.
-    1. Browse to select images from your computer.
+1. Drag and drop the **[!UICONTROL Carousel]** component inside a structure component.
+1. Browse to select images from your computer.
 
-     ![](assets/des_carousel_browse.png)
+    ![](assets/des_carousel_browse.png)
 
-    1. From the **[!UICONTROL Settings]** pane, set the number of thumbnails that you want in the carousel.
-    1. Select a fallback image from your computer.
+1. From the **[!UICONTROL Settings]** pane, set the number of thumbnails that you want in the carousel.
+1. Select a fallback image from your computer.
 
     ![](assets/des_carousel_fallback.png)
 
-    The carousel component is not compatible with all email programs. Upload a fallback to display an image instead when the carousel is not supported in the email.
+The carousel component is not compatible with all email programs. Upload a fallback to display an image instead when the carousel is not supported in the email.
 
-    >[!NOTE]
-    >
-    >The carousel component is compatible with the following email platforms: Apple Mail 7, Apple Mail 8, Outlook 2011 for Mac, Outlook 2016 for Mac, Mozilla Thunderbird, iPad and iPad mini iOS, iPhone iOS, Android, AOL (Chrome, Firefox and Safari).
+>[!NOTE]
+>
+>The carousel component is compatible with the following email platforms: Apple Mail 7, Apple Mail 8, Outlook 2011 for Mac, Outlook 2016 for Mac, Mozilla Thunderbird, iPad and iPad mini iOS, iPhone iOS, Android, AOL (Chrome, Firefox and Safari).
 
 **Related topics**:
 

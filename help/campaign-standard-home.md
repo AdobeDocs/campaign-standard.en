@@ -11,6 +11,9 @@ topic: Premium
 
 ## What's New
 
+* **[Control groups](sending/using/control-group.md)**<br/>
+Measure the impact of your campaigns by excluding a portion of their audience
+
 * **[AI-powered emails](sending/using/predictive.md)**<br/>
 Optimize design and delivery with AI-powered emails
 

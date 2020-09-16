@@ -18,6 +18,20 @@ snippet: y
 
 In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), this page lists all the new updates in Adobe Campaign Standard documentation.
 
+## Release 20.4 - October 2020 {#release-20-4---october-2020}
+
+**New capabilities included in the release**
+
+Control groups - [Read More](../../sending/using/control-group.md)
+
+External API (OAuth Support) - [Read more](../../automating/using/external-api.md)
+
+Journey AI integration - [Read more](../../sending/using/predictive.m)
+
+**Other documentation updates coming with the release**
+
+* The section on how to call a workflow with external parameters has been enriched with new functions available in the Expression Editor. [Read more](../../automating/using/customizing-workflow-external-parameters.md)
+
 ## Documentation updates - September 2020 {#doc-updates-september-2020}
 
 The Event transactional messages section has been reorganized and clarified. [Read more](../../channels/using/event-transactional-messages.md)

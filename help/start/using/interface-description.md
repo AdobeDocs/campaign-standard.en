@@ -37,7 +37,7 @@ The home page is made up of a set of cards that give you quick access to the mai
 * The **[!UICONTROL Create an SMS]** card takes you to the SMS creation assistant. This assistant lets you choose an SMS type, select your message recipients and define your content. Refer to the [Creating an SMS](../../channels/using/creating-an-sms-message.md) section.
 * The **[!UICONTROL Create a Direct mail]** card takes you to the direct mail creation assistant. Refer to the [Creating a direct mail](../../channels/using/creating-the-direct-mail.md) section.
 * The **[!UICONTROL Create a push notification]** card takes you to the notification creation assistant. This assistant lets you choose a push notification type, select your message recipients and define your content. Refer to the [Creating a push notification](../../channels/using/preparing-and-sending-a-push-notification.md) section.
-* The **[!UICONTROL Create an InApp message]** card takes you to the InApp creation assistant. This assistant lets you select the type of InApp message you want to create, define its properties, audience and content. Refer to the [Creating an InApp message](../../channels/using/about-in-app-messaging.md) section.
+* The **[!UICONTROL Create an In-App message]** card takes you to the In-App creation assistant. This assistant lets you select the type of In-App message you want to create, define its properties, audience and content. Refer to the [Creating an In-App message](../../channels/using/about-in-app-messaging.md) section.
 * The **[!UICONTROL Marketing activities]** card takes you to the complete list of all the activities, programs, and campaigns, particularly emails, SMS, workflows, and landing pages. From here you can then filter the elements by searching by name, date, status or activity type. For more on this, refer to the [Marketing activity list](../../start/using/marketing-activities.md#about-marketing-activities) section.
 * The **[!UICONTROL Programs & campaigns]** card takes you to the list of programs in which you can create, and manage your campaigns. Refer to [Program list](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns).
 * The **[!UICONTROL Timeline]** card takes you directly to an interactive timeline of your marketing activities, in which you can consult the ongoing programs and their content. Refer to [Timeline](../../start/using/timeline.md).
@@ -57,29 +57,12 @@ The navigation principles are:
 * The **[!UICONTROL Home]** link allows you to display the Adobe Campaign home page.
 * The **[!UICONTROL Marketing activities]**, **[!UICONTROL Programs & Campaigns]**, **[!UICONTROL Profiles]**, **[!UICONTROL Audiences]** and **[!UICONTROL Reports]** links let you access the views linked to these functionalities. 
 * The **[!UICONTROL Help]** button gives access to the product documentation and contextual help, release notes, version numbers, legal notices, as well as the links to the Adobe Experience Cloud community and customer care.
-* The organization button
-* The **Solution switcher** icon lets you switch to another Adobe Experience Cloud solution as well as to the profile settings.
-* The **Notifications** icon displays the latest alerts or information.
-* The **User** icon allows you to display information linked to your profile. It gives access to the **[!UICONTROL Sign out]** button.
-
-### Help {#help}
-
->[!NOTE]
->
->This improvement is a private beta and will be deployed for all customers in 2021.
-
-* **[!UICONTROL Search]** allows you to retrieve documentation, articles and videos and filter content by solution
-
-* **[!UICONTROL Help]** tab
-  * Links gives you quick access to articles, documentation and videos related to the page you are browsing.
-  * **[!UICONTROL Learning]** this link  allows you to access to Experience League.  
-  * **[!UICONTROL Community]** this link allows you access the forum dedicated to your questions on ACS.
-
-* **[!UICONTROL Support]** tab allows you to create a support ticket and contact us by phone or Twitter.
-
-* **[!UICONTROL Feedback]** tab enables you to share issues and ideas about the solution.
 
   ![](assets/ux_help.png)
+
+* The **Select solution** icon lets you switch to another Adobe Experience Cloud solution as well as to the profile settings.
+* The **Notifications** icon displays the latest alerts or information.
+* The **User** icon allows you to display information linked to your profile. It gives access to the **[!UICONTROL Sign out]** button.
 
 ## Advanced menu {#advanced-menu}
 
