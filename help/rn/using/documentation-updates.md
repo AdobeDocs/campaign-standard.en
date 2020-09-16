@@ -30,9 +30,9 @@ Journey AI integration - [Read more](../../sending/using/predictive.m)
 
 **Other documentation updates coming with the release**
 
-* The section on how to call a workflow with external parameters has been enriched with new functions available in the Expression Editor. [Read more](../../automating/using/customizing-workflow-external-parameters.md)
+The section on how to call a workflow with external parameters has been enriched with new functions available in the Expression Editor. [Read more](../../automating/using/customizing-workflow-external-parameters.md)
 
-* A recommendation has been added to the workflows best practices on the number of activities to use per workflow. [Read more](../../automating/using/best-practices-workflows.md#number-activities)
+A recommendation has been added to the workflows best practices on the number of activities to use per workflow. [Read more](../../automating/using/best-practices-workflows.md#number-activities)
 
 ## Documentation updates - September 2020 {#doc-updates-september-2020}
 
