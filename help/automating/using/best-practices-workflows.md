@@ -68,7 +68,7 @@ The workflow properties allow you to define a specific time zone that will be us
 
 ## Activity{#activity}
 
-### Number of activities per workflow
+### Number of activities per workflow {#number-activities}
 
 We recommend using up to 100 activities into a single workflow. Over 100 activities, you may encounter some performance issues when designing and configuring your workflow.
 
