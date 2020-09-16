@@ -22,11 +22,10 @@ snippet: y
 
 ![](assets/recurrentpaper.png)
 
-The **[!UICONTROL Direct mail delivery]** activity allows you to configure and prepare a file containing profile data that you want to use for a direct mail campaign. This can be a direct mail that is used just once, or it can be a **recurring** direct mail.
+The **[!UICONTROL Direct mail delivery]** activity allows you to configure and prepare a file containing profile data that you want to use for a direct mail campaign. This can be a direct mail that is used just once, or it can be a recurring direct mail.
 
-Standard direct mails are sent once.
-
-Recurring mails allow you to send the same direct mail multiple times to different targets over a defined period. You can aggregate the deliveries per period in order to get reports that correspond to your needs.
+* **Standard** direct mails are sent once.
+* **Recurring** mails allow you to send the same direct mail multiple times to different targets over a defined period. You can aggregate the deliveries per period in order to get reports that correspond to your needs.
 
 ## Context of use {#context-of-use}
 
