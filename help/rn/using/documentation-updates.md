@@ -26,7 +26,7 @@ Control groups - [Read More](../../sending/using/control-group.md)
 
 External API (OAuth Support) - [Read more](../../automating/using/external-api.md)
 
-Journey AI integration - [Read more](../../sending/using/predictive.m)
+Journey AI integration - [Read more](../../sending/using/predictive.md)
 
 **Other documentation updates coming with the release**
 
