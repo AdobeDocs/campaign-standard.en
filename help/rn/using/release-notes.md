@@ -79,7 +79,6 @@ snippet: y
 
 **Improvements**
 
-* The interface has been enhanced with a new **Experience Cloud top bar** to provide a consistent experience across all Experience Cloud applications. This improvement is in private beta and will available for all customers in 2021. It allows you to switch more easily between solutions and displays improved help and notifications. Benefits will increase as more components and features are added to this common Experience Cloud navigation capability.
 * **Privacy Management**: the **CCPA Opt-Out** field, which was available via the Campaign interface and API, is now also supported through the Privacy Core Service. This field allows Adobe Campaign users to track whether a consumer has opted-out for the sale of Personal Information. [Learn more](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa)
 * **Email Feedback service** (beta) is a scalable service which captures feedback from the Enhanced MTA directly, thus improving reporting accuracy. This improvement is a private beta and will be available for all customers in future releases.
   * All categories of events are captured: Delays, Delivered, To Sent, Unsubscribe (Link, List), Feedback (Spam Complaints, Async events).
