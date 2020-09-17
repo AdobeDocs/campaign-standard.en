@@ -89,7 +89,6 @@ SFTP servers can be managed from the Control Panel. For more information, refer 
 >Control Panel is available only to Admin users of customers hosted on AWS. 
 Check if your instance is hosted on AWS [here](https://docs.adobe.com/content/help/en/control-panel/using/faq.html#ims-org-id).
 
-
 ## OAuth 2.0 account {#oauth-account}
 
 For a OAuth 2.0 external account, provide the following details:
@@ -99,10 +98,7 @@ For a OAuth 2.0 external account, provide the following details:
 
 In the **OAuth 2.0 sensitive credentials** section, you can add your Bearer tokens. Depending on the endpoint API, the token should be inserted into the HTTP authorization header or in the post body parameter. If the token needs to be inserted into the header, select the option **Include in header**. For security reasons, once the tokens are inserted, they are no more visible in the ACS interface.
 
-
-
-
-
+In the **OAuth 2.0 non-sensitive credentials** section, you can add some other Bearer tokens that are not secured. These tokens are not hidden in the ACS interface.
 
 ## Amazon S3 external account {#amazon-s3-external-account}
 
