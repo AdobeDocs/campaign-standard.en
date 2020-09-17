@@ -185,3 +185,5 @@ snippet: y
 * Fixed an error on labels when duplicating workflow activities.
 * Fixed an issue with the transactional message picker in a landing page when the **Start sending message** option was selected.
 * Fixed an issue with transactional messages or recurring deliveries which prevented the delivery status from being initialized with the right default value. Error logs have also been improved.
+* Fixed an issue when extending the **Subscription to an application** (appSubscriptionRcp) schema with a profile link using a custom field. The index was not automatically created which could affect push sending time. (CAMP-41120)
+
