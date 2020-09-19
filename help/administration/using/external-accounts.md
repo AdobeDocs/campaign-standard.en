@@ -93,12 +93,18 @@ Check if your instance is hosted on AWS [here](https://docs.adobe.com/content/he
 
 For a OAuth 2.0 external account, provide the following details:
 
-* A **Grant type**: by default the **Client Credentials** value is selected. 
-* A **Secure API URL**: the HTTPS URL endpoint.
+* A **Grant type**: only **client credentials** is supported. 
+* A **Secure API URL**: enter the authorization endpoint.
+* **OAuth 2.0 sensitive credentials**: This section is meant for credentials that are sensitive in nature. Credential values will be masked on the screen after they are added; at that point, they will not be readable nor editable. If the authorization endpoint requires a particular credential be inserted into the HTTP authorization header instead of the POST body parameter, you can select the option Include in header for that credential.
+* **OAuth 2.0 non-sensitive credentials**: This section is meant for credentials that are non-sensitive in nature. Credential values will be visible on the screen after they are added; they will also be editable.  If the authorization endpoint requires a particular credential be inserted into the HTTP authorization header instead of the POST body parameter, you can select the option Include in header for that credential.
 
-In the **OAuth 2.0 sensitive credentials** section, you can add your Bearer tokens. Depending on the endpoint API, the token should be inserted into the HTTP authorization header or in the post body parameter. If the token needs to be inserted into the header, select the option **Include in header**. For security reasons, once the tokens are inserted, they are no more visible in the ACS interface.
+When the end of the configuration, click on **Test connector** to verify that the external account is set up correctly.
 
-In the **OAuth 2.0 non-sensitive credentials** section, you can add some other Bearer tokens that are not secured. These tokens are not hidden in the ACS interface.
+![](assets/external_accounts_OAuth.png)
+
+>[!NOTE]
+>
+>The credentials "Content-Type: application/x-www-form-urlencoded" and "grant_type=client_credentials" will automatically be added to the API call; therefore, you will not need to add them in the credentials section.
 
 ## Amazon S3 external account {#amazon-s3-external-account}
 
