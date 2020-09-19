@@ -100,6 +100,8 @@ For a OAuth 2.0 external account, provide the following details:
 
 When the end of the configuration, click on **Test connector** to verify that the external account is set up correctly.
 
+![](assets/external_accounts_OAuth.png)
+
 >[!NOTE]
 >
 >The credentials "Content-Type: application/x-www-form-urlencoded" and "grant_type=client_credentials" will automatically be added to the API call; therefore, you will not need to add them in the credentials section.
