@@ -121,7 +121,7 @@ If needed by the endpoint, two types of authentification method are available:
 
 * Basic authentification: enter your username/password information in the **[!UICONTROL Request Header(s)]** field. 
 
-* OAuth authentification: By clicking on the **[!UICONTROL Use connection parameters defined in an external account]**, you can select an external account where the OAuth authentification is defined. For more information, refer to the [External accounts](../../administrating/using/external-accounts.md) section.
+* OAuth authentification: By clicking on the **[!UICONTROL Use connection parameters defined in an external account]**, you can select an external account where the OAuth authentification is defined. For more information, refer to the [External accounts](../../administration/using/external-accounts.md) section.
 
 ![](assets/externalAPI-execution.png)
 
