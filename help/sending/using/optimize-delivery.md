@@ -30,7 +30,7 @@ Several factors can directly impact server performance and slow the platform:
 
     **TIP** - To avoid this, coordinate the scheduling of deliveries with the other members of your team to ensure the best performance.
 
-* The [workflow execution](../../automating/using/about-workflow-execution.md): monitoring your workflows is essential to avoid platform performance issues. Follow the guidelines listed [in this page](../../automating/using/monitoring-workflow-execution.md). Learn more in the [workflow best practices](./../automating/using/best-practices-workflows.md) section.
+* The [workflow execution](../../automating/using/about-workflow-execution.md): monitoring your workflows is essential to avoid platform performance issues. Follow the guidelines listed [in this page](../../automating/using/monitoring-workflow-execution.md). Learn more in the [workflow best practices](../../automating/using/best-practices-workflows.md) section.
 
 * You can leverage [Campaign Contol Panel capabilities](https://docs.adobe.com/content/help/en/control-panel/using/discover-control-panel/key-features.html) to monitor your platform, using [performance monitoring](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/about-performance-monitoring.html) functionalities.
 
@@ -62,7 +62,7 @@ When starting to send emails on a new platform, you may use a list of addresses 
 
 **Tips**
 
-* The recipients whose addresses are quarantined are excluded by default during the delivery analysis: they are not targeted. This will speed up deliveries, as the error rate has a significant effect on delivery speed. An email address can be quarantined for example when the inbox is full or if the address does not exist. [Learn more](./../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses)
+* The recipients whose addresses are quarantined are excluded by default during the delivery analysis: they are not targeted. This will speed up deliveries, as the error rate has a significant effect on delivery speed. An email address can be quarantined for example when the inbox is full or if the address does not exist. [Learn more](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses)
 
 * Adobe Campaign manages erroneous addresses according to the type of error returned. For more on this, refer to [this section](../../sending/using/understanding-quarantine-management.md).
 

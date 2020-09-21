@@ -28,7 +28,7 @@ Personalization basics are presented in [this section](../../designing/using/per
 Make sure your message content is properly designed to avoid any errors, which are generally related to personalization.
 
 Dynamic content can be manually added to display different content to your recipients according to conditions defined in the expression editor. When adding dynamic content, you must always leave a default variant for recipients who do not meet the selected conditions.
-For more on dynamic content, refer to the [this section](../../designing/using/personalization.html#defining-dynamic-content-in-an-email).
+For more on dynamic content, refer to the [this section](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 
 **Tips** - Preview your email with different test profiles to make sure that your dynamic content has been correctly configured.
 
@@ -64,7 +64,7 @@ Always include a mirror page link. Preferred position is a the top of the email.
 
 The unsubscription link is essential. It must be visible and valid, and the form must be functional. Learn unsubscription link guidelines [in this section](../../designing/using/personalization.md##about-targeting-dimension).
 
-By default, when the message is analyzed, a control [typology rule](../../sending/using/control-rules.html) checks whether an opt-out link has been included and generates a warning if it is missing.
+By default, when the message is analyzed, a control [typology rule](../../sending/using/control-rules.md) checks whether an opt-out link has been included and generates a warning if it is missing.
 
 **Tip**: Because human error is always possible, check that the opt-out link works correctly before each time you send. For example, when sending the proof, make sure the link is valid, that the form is on-line and that the No longer contact this recipient field is changed to Yes.
 

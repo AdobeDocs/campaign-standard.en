@@ -26,7 +26,7 @@ Before sending a delivery, you need to ensure that your recipients will receive 
 
 This step enables you to detect possible errors and fix them before delivering to your main target.
 
-The steps for validating a delivery are presented [in this section](../../delivery/using/steps-validating-the-delivery.md).
+The steps for validating a delivery are presented [in this section](../../sending/using/get-started-sending-messages.md#prepare-test-send).
 
 ## Email rendering {#email-rendering}
 

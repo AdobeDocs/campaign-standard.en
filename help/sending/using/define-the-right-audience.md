@@ -28,15 +28,13 @@ To make your delivery successful, you want to send the most relevant personalize
 
 ## Target mappings {#target-mappings}
 
-In Campaign Classic, by default, delivery templates target **Recipients**. Adobe Campaign offers other target mappings for your deliveries, that you can change based on your needs.
-
-For example, you can deliver to visitors whose profiles have been collected via social networks or to visitors who are subscribed to an information service.
+By default, delivery templates target **Profiles**. Adobe Campaign offers other target mappings for your deliveries, that you can change based on your needs.
 
 These mappings are presented [in this section](../../automating/using/query.md#targeting-dimensions-and-resources).
 
-You can also create and use a customized target mapping. For more on this, refer to [this section](../../administration/using/target-mappings-in-campaign.md). See also [Targeting dimensions and resources](../../configuration/using/target-mapping.md).
+You can also create and use a customized target mapping. For more on this, refer to [this section](../../administration/using/target-mappings-in-campaign.md).
 
-## External recipients {#external-recipients}
+## External data {#external-data}
 
 You can deliver to recipients who are stored in an external file rather than saved in the database. To do this, design a workflow will load data into your database from a file and create an associated audience.  Learn more [in this use case](../../automating/using/use-case-calling-workflow.md). See also [Calling a workflow with parameters](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
@@ -51,9 +49,9 @@ To send messages to the subscribers of a newsletter, you can directly target the
 To test your delivery, use proofs before sending to the main target.
 Make sure you select appropriate proof recipients, because they validate the form and the content of the message. The steps for sending proofs are presented [in this section](../../sending/using/sending-proofs.md).
 
-Learn more about test profiles [in this section](../../sending/using/managing-test-profiles.md).
+Learn more about test profiles [in this section](../../audiences/using/managing-test-profiles.md).
 
-You can use [Control groups](../../sending/using/control-groups.md) to measure the impact of your campaigns by excluding a portion of their audience. You will then be able to compare the behavior of the target population which did receive the message with the behavior of contacts which were not targeted. Based on the sending logs, you can also target a control group in future campaigns.
+You can use [Control groups](../../sending/using/control-group.md) to measure the impact of your campaigns by excluding a portion of their audience. You will then be able to compare the behavior of the target population which did receive the message with the behavior of contacts which were not targeted. Based on the sending logs, you can also target a control group in future campaigns.
 
 ## Deduplicate addresses {#deduplicate-addresses}
 

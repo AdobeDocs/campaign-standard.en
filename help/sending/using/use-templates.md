@@ -95,4 +95,4 @@ To display or change the brand assigned to a delivery template, select the templ
 
 For more on linking a brand to a template, see [Assigning a brand to an email](../../administration/using/branding.md#assigning-a-brand-to-an-email).
 
-Learn how to create an configure a brand [in this section](../../administration/using/branding.md#creating-a-brand)
+Learn how to create an configure a brand [in this section](../../administration/using/branding.md#creating-a-brand).
