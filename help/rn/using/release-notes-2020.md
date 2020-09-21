@@ -184,7 +184,7 @@ snippet: y
 * The Organizational unit of the Administrators security group can no longer be changed.
 * When creating a profile, the Organizational unit field must now be filled.
 * An Experience Cloud Trigger can now only be deleted if both the event and the transactional template that are linked to it are deleted.
-* Adobe Creative SDK has been decommissioned. It is now deprecated in Campaign Standard. See the [Deprecated and removed features](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) page.
+* [!DNL Adobe Creative SDK] has been decommissioned. It is now deprecated in Campaign Standard. See the [Deprecated and removed features](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) page.
 
 
 **Patches**
