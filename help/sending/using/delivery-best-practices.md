@@ -105,7 +105,7 @@ Learn best practices related to delivery design and sending with Adobe Campaign.
 
 See also:
 
-* [Get started with deliverability](../../delivery/using/about-deliverability.md)
+* [Get started with deliverability](../../sending/using/about-deliverability.md)
 
 * [Get started with messages](../../channels/using/get-started-communication-channels.md)
 

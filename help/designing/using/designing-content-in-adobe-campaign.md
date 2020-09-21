@@ -117,7 +117,7 @@ To make proper use of the Email Designer and create the best emails as simply as
 
   Preview your messages before sending them. Adobe Campaign offers a way to test email rendering using Litmus. For more on this, see [Email rendering](../../sending/using/email-rendering.md).
 
-More design and general best practices regarding messages are presented in the following Adobe Campaign step-by-step guide: [Delivery best practices with Adobe Campaign](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html).
+More design and general best practices regarding messages are presented in the following section: [Delivery best practices](../../sending/using/delivery-best-practices.md).
 
 ### Updating fragments {#email-designer-updates}
 

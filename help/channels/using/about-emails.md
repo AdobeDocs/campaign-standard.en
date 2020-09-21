@@ -25,4 +25,4 @@ You can send different types of emails:
 * A/B testing emails: test up to 3 versions of an email.
 * Transactional emails: unitary emails that are triggered based on your customers' behavior.
 
-To learn the best practices when creating and sending emails, consult the [Delivery best practices](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html) step-by-step guide.
+To learn the best practices when creating and sending emails, consult the [Delivery best practices](../../sending/using/delivery-best-practices.md) section.
