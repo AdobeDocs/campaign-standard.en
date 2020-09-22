@@ -66,6 +66,14 @@ breadcrumb-title: Campaign Standard Guide
        + [Accessing messages](channels/using/accessing-messages.md)
        + [Message dashboard](channels/using/message-dashboard.md)
        + [Multilingual messages templates](channels/using/multilingual-messages-template.md)
+  + Delivery best practices {#delivery-bestpractices}
+       + [Learn good practices](delivery/using/delivery-best-practices.md)
+       + [Optimize delivery](delivery/using/optimize-delivery.md)
+       + [Use templates](delivery/using/use-templates.md)
+       + [Build personalized content](delivery/using/design-and-personalize.md)
+       + [Define the right audience](delivery/using/define-the-right-audience.md)
+       + [Check before sending](delivery/using/check-before-sending.md)
+       + [Track and monitor](delivery/using/track-and-monitor.md) 
   + Email messages {#email-messages}
        + [About emails](channels/using/about-emails.md)
        + [Creating an email](channels/using/creating-an-email.md)
