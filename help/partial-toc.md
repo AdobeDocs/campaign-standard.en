@@ -14,10 +14,9 @@ tutorials-url: https://helpx.adobe.com/campaign/tutorials.html
 other-title: Tutorials2
 other-url: https://helpx.adobe.com/campaign/tutorials.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/campaign-standard.en
-es
 ---
 
-# Campaign-Standard-TOC {#campaign-standard}
+# Campaign-Standard-TOC {#campaign-standard-partial-ignore}
 
 + Administration{#administration}
   + [Fatigue rules](sending/using/fatigue-rules.md)

@@ -46,7 +46,7 @@ Learn more [in this section](../../sending/using/email-rendering.md).
 
 Sending proofs enables you to check the opt-out link, mirror page and any other links, validate the message, verify that images are displayed, detect possible errors, etc. You may also want to check your design and rendering on different devices.
 
-Learn more [[in this section](../../sending/using/sending-proofs.md).
+Learn more [in this section](../../sending/using/sending-proofs.md).
 
 ## Set up A/B testing deliveries {#a-b-testing-deliveries}
 
