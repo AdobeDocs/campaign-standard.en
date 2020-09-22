@@ -64,10 +64,6 @@ The navigation principles are:
 
 ### Help {#help}
 
->[!NOTE]
->
->This improvement is a private beta and will be deployed for all customers in 2021.
-
 * **[!UICONTROL Search]** allows you to retrieve documentation, articles and videos and filter content by solution
 
 * **[!UICONTROL Help]** tab
