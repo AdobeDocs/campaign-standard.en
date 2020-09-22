@@ -102,6 +102,8 @@ More design and general best practices regarding messages are presented in the f
 <!--* You cannot save directly as a fragment some content of an email that you are editing within the Email Designer. You need to copy-paste the HTML corresponding to that content into a new fragment. For more on this, see [Saving content as a fragment](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).-->
 * When editing styles, only the web fonts officially supported by most email clients are available.
 * Styles cannot be saved as a theme for future reuse. However, the CSS style can be saved in a content template or in an email. For more on styles, see [this section](../../designing/using/styles.md).
+* Referrer meta tag is not supported in the Email designer.
+* Some emojis (surrogate pairs) cannot be stored in 2 bytes (16bits) and need to get encoded into 2 UTF-16 characters. These emojis can cause some incompatibility issues in dynamic text. You need to perform strong tests before sending your messages. For example, the following emoji could cause some compatibility issue: UTF-16 encoding 0xD83C 0xDF89.
 
 ### Updating fragments {#email-designer-updates}
 
