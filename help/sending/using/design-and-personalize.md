@@ -72,7 +72,7 @@ Learn how to insert an opt-out link [in this section](../../designing/using/pers
 
 ### Email size
 
-To avoid performance or deliverability issues, the recommended maximum size of an email is about **35KB**. To check the message size, go the **[!UICONTROL Preview]** tab and choose a test profile. Once generated, the message size will be displayed.
+To avoid performance or deliverability issues, the recommended maximum size of an email is about **35KB**.
 
 To keep your email under the limit, consider the following:
 

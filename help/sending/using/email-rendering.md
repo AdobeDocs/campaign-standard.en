@@ -72,6 +72,13 @@ This report presents the email renderings as they appear to the recipient. Email
 >[!NOTE]
 >
 >The number of available renderings is listed in your license agreement. Each delivery with **Email rendering** enabled decreases your available renderings (known as tokens) by one.
+>
+>Tokens account for each individual rendering and not for the whole Email rendering report, meaning that:
+>
+>**Each time** the Inbox rendering report is generated, one token per messaging client is deducted: one token for the Outlook 2000 rendering, one for the Outlook rendering, one for the Apple Mail rendering, and so on.
+>
+>**For the same delivery**, if you generate the Email rendering again, the number of available tokens is again decreased by the number of generated renderings.
+
 
 The report summary presents the number of messages received, unwanted (spam), not received, or pending reception.
 
