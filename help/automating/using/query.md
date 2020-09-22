@@ -64,9 +64,7 @@ The **[!UICONTROL Query]** activity can be used for various types of uses:
 
 Targeting dimensions and resources let you define on which elements a query will be based to determine the target of a delivery.
 
-Targeting dimensions are defined in target mappings. For more on this, refer to [this section](../../administration/using/target-mappings-in-campaign.md).
-
-Targeting dimension and resources are defined when creating a workflow, in the **[!UICONTROL Properties]** tab of a Query activity.
+They are configured in [target mappings](../../administration/using/target-mappings-in-campaign.md), and are defined when creating a workflow, in the **[!UICONTROL Properties]** tab of a Query activity.
 
 >[!NOTE]
 >

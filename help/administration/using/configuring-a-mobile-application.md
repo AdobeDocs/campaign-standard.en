@@ -65,10 +65,6 @@ To complete the configuration, complete the following steps:
 
 ## Sync Mobile app AEPSDK from Launch technical workflow {#aepsdk-workflow}
 
->[!IMPORTANT]
->
->This feature is a beta capability in Adobe Campaign as of release 20.3. You will need to submit a ticket to Adobe Customer Care (either directly or through your Adobe contact) to have the **[!UICONTROL sync Mobile app AEPSDK from Launch]** technical workflow enabled in your Adobe Campaign instance.
-
 After creating and configuring your mobile property in Experience Platform Launch, the **[!UICONTROL Sync Mobile app AEPSDK from Launch]** technical workflow will now synchronize the Adobe Launch mobile properties imported in Adobe Campaign Standard.
 
 By default, the technical worflow starts every 15 minutes. If needed, it can be manually restarted:
@@ -90,9 +86,9 @@ Your workflow will now restart and synchronize the Adobe Launch mobile propertie
 
 To use an Experience Platform Launch mobile property in Campaign, you also need to configure this property in Adobe Campaign. In Adobe Campaign, ensure that the IMS user is part of the Standard User and Administrator Product Profiles.
 
-For users with the Sync Mobile app AEPSDK from Launch technical workflow feature flag enabled, you will need to wait for the technical workflow to run and sync the Launch mobile property to Adobe Campaign. You can then configure it in Adobe Campaign.
+You will need to wait for the technical workflow to run and sync the Launch mobile property to Adobe Campaign. You can then configure it in Adobe Campaign.
 
-For more information on Sync Mobile app AEPSDK from Launch technical workflow feature flag, refer to this [section](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow).
+For more information on Sync Mobile app AEPSDK from Launch technical workflow, refer to this [section](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow).
 
 >[!NOTE]
 >

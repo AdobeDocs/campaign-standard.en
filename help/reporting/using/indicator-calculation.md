@@ -41,7 +41,7 @@ The tables below give you the list of indicators used in the different reports a
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Denylisted<br /> </td> 
+   <td> On denylist<br /> </td> 
    <td> @blacklisted<br /> </td> 
    <td> count(@failureReason=8, @failureType=2)<br /> </td> 
    <td> </td> 

@@ -22,11 +22,10 @@ snippet: y
 
 ![](assets/recurrentsms.png)
 
-The **[!UICONTROL SMS delivery]** activity allows you to configure sending an SMS in a workflow. This can be a **single send** SMS and sent just once, or it can be a **recurring** SMS.
+The **[!UICONTROL SMS delivery]** activity allows you to configure sending an SMS in a workflow. This can be a single send SMS and sent just once, or it can be a recurring SMS.
 
-Single send SMS messages are standard SMS, sent once.
-
-Recurring SMS messages allow you to send the same SMS multiple times to different targets over a defined period. You can aggregate the deliveries per period in order to get reports that correspond to your needs.
+* **Single send** SMS messages are standard SMS, sent once.
+* **Recurring** SMS messages allow you to send the same SMS multiple times to different targets over a defined period. You can aggregate the deliveries per period in order to get reports that correspond to your needs.
 
 ## Context of use {#context-of-use}
 

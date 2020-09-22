@@ -50,6 +50,11 @@ To link two activities, move the end of the arrow from the first activity up to 
 
 Transitions following activities that process data contain the intermediary populations. You can access them if you check the **[!UICONTROL Keep interim results]** option in the **[!UICONTROL Execution]** section of the workflow properties.
 
+  >[!CAUTION]
+  >
+  >This option consumes a lot of disk space and is designed to help you build a workflow and ensure proper configuration and behavior. Leave it unchecked on production instances.
+
+
 When an activity is selected, quick actions appear around the activity, allowing you to interact with it. For example, to configure an activity, select it then open it using the ![](assets/edit_darkgrey-24px_table.png) button in the quick actions.
 
 Certain functions are only enabled in the workspace:

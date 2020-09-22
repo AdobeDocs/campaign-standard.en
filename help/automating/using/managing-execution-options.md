@@ -34,7 +34,11 @@ Possible options are:
 
 * **[!UICONTROL Save SQL queries in the log]**: allows you to save the SQL queries from the workflow into the logs.
 
-* **[!UICONTROL Keep interim results]**: check this option if you would like to be able to view the detail of transitions. Warning: checking this option may significantly slow down the workflow execution.
+* **[!UICONTROL Keep interim results]**: check this option if you would like to be able to view the detail of transitions.
+  
+  >[!CAUTION]
+  >
+  >This option consumes a lot of disk space and is designed to help you build a workflow and ensure proper configuration and behavior. Leave it unchecked on production instances.
 
 * **[!UICONTROL Execute in the engine (do not use in production)]**: allows you to execute the workflow locally, for development environment testing purposes.
 

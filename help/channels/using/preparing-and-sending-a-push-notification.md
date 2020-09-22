@@ -42,7 +42,7 @@ The steps for creating a push notification with Adobe Campaign are:
 
 1. Enter your push notification properties and select your mobile app in the **[!UICONTROL Associate a Mobile App to a delivery]** field.
 
-   Please note that the dropdown will display both SDK V4 and Experience Platform SDK applications.
+   Please note that the drop-down will display both SDK V4 and Experience Platform SDK applications.
 
    ![](assets/push_notif_properties.png)
 
@@ -62,7 +62,7 @@ The steps for creating a push notification with Adobe Campaign are:
 
    The push notification content and options configured here are passed to your mobile app in the form of a payload. The detailed structure of the payload is described in the [Understanding ACS push notifications payload structure](https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html) technote. 
 
-1. Click **[!UICONTROL Create]**. 
+1. Click **[!UICONTROL Create]**.
 
    ![](assets/push_notif_content_2.png)
 
@@ -95,7 +95,7 @@ Push notifications can be sent to a selected audience in Adobe Campaign by defin
 
 1. In the **[!UICONTROL Exclusion logs]** tab, you can find the list of all the messages excluded from the target sent and the reason behind this exclusion.
 
-   Here, we can see that one of our mobile app subscribers was excluded because the address was denylisted and the other subscribers because the profile was a duplicate.
+   Here, we can see that one of our mobile app subscribers was excluded because the address was on the denylist and the other subscribers because the profile was a duplicate.
 
    ![](assets/push_send_5.png)
 
@@ -110,7 +110,7 @@ Push notifications can be sent to a selected audience in Adobe Campaign by defin
 
    ![](assets/push_send_4.png)
 
-1. From the **[!UICONTROL Deployment]** window, click the **[!UICONTROL Sending logs]** tab to access the list of sent push notifications and their statuses. For this delivery, one push notification was successfully sent whereas the other failed due to a bad device token. This subscriber will then be added to the denyist from further deliveries.
+1. From the **[!UICONTROL Deployment]** window, click the **[!UICONTROL Sending logs]** tab to access the list of sent push notifications and their statuses. For this delivery, one push notification was successfully sent whereas the other failed due to a bad device token. This subscriber will then be added to the denylist from further deliveries.
 
    >[!NOTE]
    >

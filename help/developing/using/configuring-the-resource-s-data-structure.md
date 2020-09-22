@@ -155,8 +155,6 @@ A link details the association that one table has with other tables.
    >[!NOTE]
    >
    >Use 30 characters maximum.
-   
-   >[!IMPORTANT]
    >
    >It is not possible to rename a link after creation. To rename a link, you must delete it and create it again.
 

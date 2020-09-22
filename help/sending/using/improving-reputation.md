@@ -16,7 +16,7 @@ snippet: y
 
 # Improving your reputation{#improving-reputation}
 
-To avoid exhausting your recipients, delete duplicate email addresses from your target. This step protects your sending reputation and ensures good quarantine management. Adobe Campaign offers the necessary tools to implement these recommendations and avoid the risk of being denylisted by the ISPs.
+To avoid exhausting your recipients, delete duplicate email addresses from your target. This step protects your sending reputation and ensures good quarantine management. Adobe Campaign offers the necessary tools to implement these recommendations and avoid the risk of being added to the denylist by the ISPs.
 
 Below you will find details on duplicate and quarantine management.
 

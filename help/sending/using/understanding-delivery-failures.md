@@ -26,7 +26,7 @@ When a delivery cannot be sent to a profile, the remote server automatically sen
 >
 >**SMS** error messages (or "SR" for "Status Report") are qualified by the MTA process.
 
-Messages can also be excluded during the delivery preparation if an address is quarantined or if a profile is denylisted. Excluded messages are listed in the **[!UICONTROL Exclusion logs]** tab of the delivery dashboard (see [this section](../../sending/using/monitoring-a-delivery.md#exclusion-logs)).
+Messages can also be excluded during the delivery preparation if an address is quarantined or if a profile is on the denylist. Excluded messages are listed in the **[!UICONTROL Exclusion logs]** tab of the delivery dashboard (see [this section](../../sending/using/monitoring-a-delivery.md#exclusion-logs)).
 
 ![](assets/exclusion_logs.png)
 
@@ -63,8 +63,8 @@ Error label | Error type | Description
  **[!UICONTROL Refused]** | Soft/Hard | The address has been placed in quarantine due to a security feedback as a spam report. According to the error returned by the provider, the address will be sent to quarantine directly or the delivery will be tried again until Campaign receives an error which justifies the Quarantine status or until the number of errors reaches 5.
  **[!UICONTROL Duplicate]** | Ignored | The address has already been detected in the segmentation.
  **[!UICONTROL Not defined]** | Soft | the address is in qualification because errors have not been incremented yet. This type of error occurs when a new error message is sent by the server: it can be an isolated error, but if it occurs again, the error counter increases, which will alert the technical teams.
- **[!UICONTROL Error ignored]** | Ignored | The address is allowlisted and an email will be sent to it in any case.
- **[!UICONTROL Denylisted address]** | Hard | The address was added to the denylist at the time of sending.
+ **[!UICONTROL Error ignored]** | Ignored | The address is on allowlist and an email will be sent to it in any case.
+ **[!UICONTROL Address on denylist]** | Hard | The address was added to the denylist at the time of sending.
  **[!UICONTROL Account disabled]** | Soft/Hard | When the Internet Access Provider (IAP) detects a lengthy period of inactivity, it can close the user's account: deliveries to the user's address will then be impossible. The Soft or Hard type depends upon the type of error received: if the account is temporarily disabled due to six months of inactivity and can still be activated, the status **[!UICONTROL Erroneous]** will be assigned and the delivery will be tried again. If the error received signals that the account is permanently deactivated then it will directly be sent to Quarantine.
  **[!UICONTROL Not connected]** | Ignored | The profile's mobile phone is switched off or not connected to the network when the message is sent.
  **[!UICONTROL Invalid domain]** | Soft | The domain of the email address is incorrect or no longer exists. This profile will be targeted again until the error count reaches 5. After this, the record will be set to Quarantine status and no retry will follow.

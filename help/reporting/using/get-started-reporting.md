@@ -23,7 +23,7 @@ snippet: y
 <td><img src="assets/do-not-localize/icon_customize.svg" width="60px"><p><a href="#customize-reports">Customize your reports</a></p></td></tr>
 </table>
 
-Dynamic Reporting provides fully customizable and real-time reports to measure the impact of your marketing activitied. It adds access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks.
+Dynamic Reporting provides fully customizable and real-time reports to measure the impact of your marketing activities. It adds access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks.
 
 ## Manage and share reports {#manage-share-reports}
 
@@ -42,7 +42,7 @@ Read more:
 
 <img src="assets/do-not-localize/icon_build.svg" width="60px">
 
-Campaign Standard comes with a set of **ready-to-use dynamic reports** allowing you to measure multiple aspects of your markting campaigns: bounces, deliveries that have been declared the most as spam or junk, most viewed deliveries by recipients, channels-related reports, delivery throughput  and tracking reports...
+Campaign Standard comes with a set of **ready-to-use dynamic reports** allowing you to measure multiple aspects of your marketing campaigns: bounces, deliveries that have been declared the most as spam or junk, most viewed deliveries by recipients, channels-related reports, delivery throughput  and tracking reports...
 
 **Combine different components** (dimensions, metrics and segments, time periods) to build your own reports or personalize out-of-the-box reports.
 
@@ -56,11 +56,11 @@ Read more:
 
 <img src="assets/do-not-localize/icon_customize.svg" width="60px">
 
-**Customize your reports** by leverage dynamic reporting designing capabilities: add as many components as you need (panels and freeform tables) to analyse your data using the available metric and dimensions.
+**Customize your reports** by leverage dynamic reporting designing capabilities: add as many components as you need (panels and freeform tables) to analyze your data using the available metric and dimensions.
 
 Drag and drop **visualization items** to add graphical representations of your data into your reports and configure them according to your needs.
 
-Create reports based on **custom profile data** created during the Profile resouce extension, and **reports based on segments** defined in targeting workflows.
+Create reports based on **custom profile data** created during the Profile resource extension, and **reports based on segments** defined in targeting workflows.
 
 Read more:
 
