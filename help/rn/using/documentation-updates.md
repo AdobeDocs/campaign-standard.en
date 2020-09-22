@@ -34,6 +34,8 @@ The section on how to call a workflow with external parameters has been enriched
 
 A recommendation has been added to the workflows best practices on the number of activities to use per workflow. [Read more](../../automating/using/best-practices-workflows.md#number-activities)
 
+A new section about Delivery best practices has been added. [Read more](../../sending/using/delivery-best-practices.md)
+
 ## Documentation updates - September 2020 {#doc-updates-september-2020}
 
 The Event transactional messages section has been reorganized and clarified. [Read more](../../channels/using/event-transactional-messages.md)
@@ -170,7 +172,7 @@ The Configuring a mobile application documentation and related pages have been u
 
 The Adobe Campaign Standard / Adobe Experience Manager integration documentation has been updated and improved. [Read more](../../integrating/using/configure-experience-manager.md)
 
-The Campaign Email Designer documentation and related pages have been updated to reflect Adobe Creative SDK depreciation. [Read more](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+The Campaign Email Designer documentation and related pages have been updated to reflect [!DNL Adobe Creative SDK] depreciation. [Read more](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
 A new section dedicated to Campaign Standard data model best practices is now available. [Read more](../../developing/using/data-model-best-practices.md)
 
@@ -242,9 +244,9 @@ The **Indicator calculation** table has been updated. [Read more](../../reportin
 
 The APIs documentation set has been integrated into Campaign Standard documentation.[Read more](../../api/using/get-started-apis.md)
 
-The Creating a personalized email getting started guide has been moved and updated. [Read more](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
+The Creating a personalized email getting started section has been moved and updated. [Read more](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
 
-The Delivery Best Practices getting started guide has been updated. [Read more](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+The Delivery Best Practices getting started guide has been updated. [Read more](../../sending/using/delivery-best-practices.md)
 
 The datamodel has been integrated into Campaign Standard documentation. [Read more](../../developing/using/datamodel-audience.md)
 
@@ -260,13 +262,13 @@ Microsoft Dynamics 365 integration (GA) - [Read more](../../integrating/using/wo
 
 **Other documentation updates coming with the release**
 
-The list of error messages for Campaign Standard and Campaign Classic has been updated. [Read more](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+The list of error messages for Adobe Campaign has been updated. [Read more](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
 The GDPR getting started guide has been improved and enriched. It is now a privacy management documentation including GDPR and CCPA. [Read more](https://helpx.adobe.com/content/help/en/campaign/kb/campaign-privacy.html)
 
 A new chart presenting the transactional messaging publication process has been added. [Read more](../../administration/using/configuring-transactional-messaging.md#transactional-messaging-pub-process)
 
-The Delivery Best Practices getting started guide has been moved and updated. [Read more](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+The Delivery Best Practices getting started guide has been moved and updated. [Read more](../../sending/using/delivery-best-practices.md)
 
 A new section has been added. It provides an overview of the different methods that allow you to enrich Campaign Standard database. [Read more](../../audiences/using/enriching-campaign-database.md)
 
@@ -604,7 +606,7 @@ Added information on the Licenses option in the Administration menu. [Read more]
 
 Added information on how to use custom fields in a push notification. [Read more](../../channels/using/customizing-a-push-notification.md#add-custom-fields)
 
-Updated delivery best practices step-by-step guide. [Read more](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html)
+Updated delivery best practices step-by-step guide. [Read more](../../sending/using/delivery-best-practices.md)
 
 Added information on tracking log types. [Read more](../../sending/using/tracking-messages.md#tracking-logs)
 

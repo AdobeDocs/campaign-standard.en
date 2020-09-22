@@ -37,7 +37,7 @@ Check out the resources below for more information on the Adobe Experience Platf
 
 Yes, [!DNL Adobe Experience Platform SDK] integration is available for both Adobe Campaign Standard and Adobe Campaign Classic. You need to install the corresponding **[!UICONTROL Extension]** via [!DNL Adobe Launch] to enable the integration.
 
-For more on this, refer to this [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaignclassic) for Campaign Classic and this [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) for Campaign Standard.
+For more on this, refer to this [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
 
 ## What capabilities does Adobe Experience Platform SDK integration facilitate in Adobe Campaign? {#aep-capabilities}
 

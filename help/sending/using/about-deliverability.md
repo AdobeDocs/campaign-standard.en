@@ -40,7 +40,7 @@ Here is a list of the key points to check to ensure good deliverability.
 ## Deliverability tools {#deliverability-tools}
 
 First, start by consulting the documentation on the deliverability tools provided with Campaign Standard:
-* [Delivery best practices](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+* [Delivery best practices](../../sending/using/delivery-best-practices.md)
 * [Personalizing the sender name](../../designing/using/personalization.md#personalizing-the-sender)
 * [Testing the subject line of an email](../../sending/using/testing-subject-line-email.md)
 * [Optimizing the sending time](../../sending/using/optimizing-the-sending-time.md)

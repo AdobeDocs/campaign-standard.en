@@ -96,7 +96,7 @@ Read more:
 ## Additional resources
 
 * [Optimizing your deliverability](../../sending/using/about-deliverability.md)
-* [Delivery best practices](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+* [Delivery best practices](../../sending/using/delivery-best-practices.md)
 * [Designing an email content](../../designing/using/designing-content-in-adobe-campaign.md)
 * [Importing an AEM content](../../integrating/using/creating-email-experience-manager.md)
 * [Sending messages with workflows](../../automating/using/about-channel-activities.md)

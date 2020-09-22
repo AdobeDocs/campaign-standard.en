@@ -91,5 +91,5 @@ Read more:
 * [Send a test, prepare, and send an email (video)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/sending-test-preparing-sending-email.html)
 * [Review an email delivery and reports (video)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/reviewing-personalized-email-delivery-and-reports.html)
 * [Getting started with emails](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
-* [Delivery best practices](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+* [Delivery best practices](../../sending/using/delivery-best-practices.md)
 * [Adding a control group](../../sending/using/control-group.md)

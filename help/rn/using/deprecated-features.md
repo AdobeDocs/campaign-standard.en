@@ -128,7 +128,7 @@ This section lists features and capabilities that have been removed from Campaig
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Creative SDK has been decommissioned. As a consequence, image edition powered by Creative SDK in Campaign Standard emails is no longer available starting Campaign 20.2 release.</p></br>
+   <td> <p>[!DNL Adobe Creative SDK] has been decommissioned. As a consequence, image edition powered by [!DNL Creative SDK] in Campaign Standard emails is no longer available starting Campaign 20.2 release.</p></br>
    </td> 
   </tr> 
  </tbody> 
