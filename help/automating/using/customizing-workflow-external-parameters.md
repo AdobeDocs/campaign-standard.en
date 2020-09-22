@@ -45,41 +45,45 @@ When using a variable in an activity, the interface provides help to call it.
 
   ![](assets/wkf_test_activity_variables.png)
 
-* ![](assets/extsignal_expression_editor.png): edit expressions combining variables and functions. For more on the Expression editor, refer to [this section](../../automating/using/advanced-expression-editing.md).
+* ![](assets/extsignal_expression_editor.png): edit expressions combining variables and functions (see [](../../automating/using/advanced-expression-editing.md)).
 
   ![](assets/wkf_test_activity_variables_expression.png)
 
-**Related topics:**
+  This list provides functions that allow you to carry out complex filtering. These functions are detailed in [this section](../../automating/using/list-of-functions.md).
+  
+  Additionally, you can use the functions below, which are available in all the activities that allow you to use events variables after calling a workflow with external parameters (see [](../../automating/using/customizing-workflow-external-parameters.md#customizing-activities-with-events-variables)):
 
-* [Edit an expression](../../automating/using/advanced-expression-editing.md#edit-an-expression)
-* [Standard syntax](../../automating/using/advanced-expression-editing.md#standard-syntax)
-* [List of functions](../../automating/using/list-of-functions.md)
+  Name | Description | Syntax
+  ---------|----------|---------
+  EndWith | Indicates if a string (1st parameter) ends with a specific string (2nd parameter). | EndWith(&lt;String&gt;,&lt;String&gt;)
+  startWith | Indicates if a string (1st parameter) starts with a specific string (2nd parameter). | startWith(&lt;String&gt;,&lt;String>)
+  Extract | Returns the first characters of a string using a separator. | Extract(&lt;String&gt;,&lt;Separator&gt;)
+  ExtractRight | Returns the last characters of a string using a separator. | ExtractRight(&lt;String&gt;,&lt;Separator&gt;)
+  DateFormat | Formats a date using the format specified in the 2nd parameter (example:  '%4Y%2M%2D') | DateFormat(&lt;Date&gt;,&lt;Format&gt;)
+  FileName | Returns the name of a file path. | FileName(&lt;String&gt;)
+  FileExt | Returns the extension of a file path. | FileExt(&lt;String&gt;)
+  IsNull | Indicates if a string or a date is null. | IsNull(&lt;String/date&gt;)
+  UrlUtf8Encode | Encodes an URL in UTF8. | UrlUtf8Encode(&lt;String&gt;)
 
 ## Customizing activities with events variables {#customizing-activities-with-events-variables}
 
 Events variables can be used to customize several activities, listed in the section below. For more on how to call a variable from an activity, refer to [this section](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables).
 
-**[!UICONTROL Read audience]** activity: define the audience to target based on events variables.
-
-For more on how to use the activity, refer to the [dedicated section](../../automating/using/read-audience.md).
+**[!UICONTROL Read audience]** activity: define the audience to target based on events variables. For more on how to use the activity, refer to [this section](../../automating/using/read-audience.md).
 
 ![](assets/extsignal_activities_audience.png)
 
-**[!UICONTROL Test]** activity: build conditions based on events variables.
-
-For more on how to use the activity, refer to the [dedicated section](../../automating/using/test.md).
+**[!UICONTROL Test]** activity: build conditions based on events variables. For more on how to use the activity, refer to [this section](../../automating/using/test.md).
 
 ![](assets/extsignal_activities_test.png)
 
-**[!UICONTROL Transfer file]** activity: customize the file to transfer based on events variables.
-
-For more on how to use the activity, refer to the [dedicated section](../../automating/using/transfer-file.md).
+**[!UICONTROL Transfer file]** activity: customize the file to transfer based on events variables. For more on how to use the activity, refer to [this section](../../automating/using/transfer-file.md).
 
 ![](assets/extsignal_activities_transfer.png)
 
 **[!UICONTROL Query]** activity: parameters can be referenced in a query, by using expressions combining events variables and functions. To do this, add a rule then click the **[!UICONTROL Advanced mode]** link to access the expression editing window (see [Advanced expression editing](../../automating/using/advanced-expression-editing.md)).
 
-For more on how to use the activity, refer to the [dedicated section](../../automating/using/query.md).
+For more on how to use the activity, refer to [this section](../../automating/using/query.md).
 
 ![](assets/extsignal_activities_query.png)
 

@@ -18,8 +18,6 @@ snippet: y
 
 Learn how to master email content edition. With Email Designer, you can create emails and templates starting with or without your own predefined content. 
 
-## Key steps to create your email {#key-steps-to-create-your-email}
-
 Here are the main steps to create and design an email content from scratch using the Email Designer:
 
 1. Create an email and open its content.
@@ -37,7 +35,17 @@ You can also check out this [introduction video](https://video.tv.adobe.com/v/22
 >
 >To avoid designing email content from scratch, you can use out-of-the-box content templates. For more on this, see [Content templates](../../designing/using/using-reusable-content.md#content-templates).
 
-### Defining Email Structure {#defining-the-email-structure}
+## Defining Email Structure {#defining-the-email-structure}
+
+>[!CONTEXTUALHELP]
+>id="ac_structure_components"
+>title="About Structure components"
+>abstract="Structural elements defining the layout of the email."
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_columns"
+>title="Defining email columns"
+>abstract="The Email Designer allows you to easily define the columns structure of your email."
 
 The Email Designer allows you to easily define the structure of your email. By adding and moving structural elements with simple drag-and-drop actions, you can design the shape of your email within seconds.
 
@@ -56,6 +64,8 @@ To edit the structure of an email:
 
    >[!NOTE]
    >
+   >Note that stack of columns are not compatible with all email programs. When not supported, columns will not be stacked.
+   >
    >Once placed in the email, you cannot move nor remove your components unless there is already a content component or a fragment placed inside.
 
 1. Several structure components composed of one or more columns are available.
@@ -70,7 +80,32 @@ To edit the structure of an email:
 
 Once the structure is defined, you are able to add content fragments and components to your email.
 
-### Using content components {#about-content-components}
+## Using a preheader {#preheader}
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_preheader"
+>title="Using a preheader"
+>abstract="The preheader lets your configure a short summary text that will delivers a higher open rate for your email."
+
+A preheader is a short summary text that follows the subject line when viewing an email from your inbox. The preheader delivers an higher open rate.
+
+Select the **[!UICONTROL Preheader]** edit box and complete the content.
+
+![](assets/email_designer_preheader.png)
+
+You can add a **[!UICONTROL Content block]**, a **[!UICONTROL Dynamic content]** or a **[!UICONTROL Personalization fields]** in the preheader content.
+
+>[!NOTE]
+>
+>Note that preheader is not compatible with all email programs. When not supported, preheader will not display.
+
+
+## Using content components {#about-content-components}
+
+>[!CONTEXTUALHELP]
+>id="ac_content_components"
+>title="About Content components"
+>abstract="Content components are raw, empty components that you can edit once placed in an email."
 
 Content components are raw, empty components that you can edit once placed in an email.
 
@@ -78,7 +113,7 @@ You can add as many content components as you want in a structure component. You
 
 Here is the list of the available components in the Email Designer:
 
-- **[!UICONTROL Button]**
+### **[!UICONTROL Button]**
 
   If you need to use multiple buttons, rather than editing each button from scratch, you can duplicate the **[!UICONTROL Button]** component using the contextual toolbar.
 
@@ -86,15 +121,15 @@ Here is the list of the available components in the Email Designer:
 
 Select **[!UICONTROL Fallback view]** to display the fallback image in the Email Designer.
 
-- **[!UICONTROL Text]**
+### **[!UICONTROL Text]**
 
     Use this component to insert text in your email. You can adjust the color, style and size of your text in **[!UICONTROL Component Settings]**.
 
-- **[!UICONTROL Divider]**
+### **[!UICONTROL Divider]**
 
     Use this component to insert a dividing line in your email. You can select the color, style and size of the breaking line in **[!UICONTROL Component Settings]**.
 
-- **[!UICONTROL Html]**
+### **[!UICONTROL Html]**
 
   Use this component to copy-paste the different parts of your existing HTML. This enables you to create free modular HTML components.
 
@@ -118,39 +153,51 @@ Select **[!UICONTROL Fallback view]** to display the fallback image in the Email
     1. Save all the images and assets that you want to use.
     1. If you are familiar with HTML, split your original HTML content into different parts.
 
-- **[!UICONTROL Video]**
+### Video {#video-settings}
 
-    Use this component to insert a video in your email.
+>[!CONTEXTUALHELP]
+>id="ac_edition_video"
+>title="Video settings"
+>abstract="Use this component to insert a video in your email."
 
-    Insert the video component into a structure component of your email and enter the video link in the **[!UICONTROL Component Settings]**.
+Insert the video component into a structure component of your email and enter the video link in the **[!UICONTROL Component Settings]**.
 
-- **[!UICONTROL Image]**
+>[!NOTE]
+>
+>Note that video is not compatible with all email programs. When not supported, fallback will display.
 
-    Use this component to insert an image in your email. 
+### Image
+
+Use this component to insert an image in your email. 
   
-    Insert the image component into a structure component and click browse to upload an image file from your computer.
+Insert the image component into a structure component and click browse to upload an image file from your computer.
 
-- **[!UICONTROL Social]**
+### **[!UICONTROL Social]**
 
-    Use this component to insert links to social media pages in your email. You can select which links you want to display and the size of their icon in **[!UICONTROL Component Settings]**.
+Use this component to insert links to social media pages in your email. You can select which links you want to display and the size of their icon in **[!UICONTROL Component Settings]**.
 
-- **[!UICONTROL Carousel]**
+### Carousel {#carousel-settings}
 
-    1. Drag and drop the **[!UICONTROL Carousel]** component inside a structure component.
-    1. Browse to select images from your computer.
+>[!CONTEXTUALHELP]
+>id="ac_edition_carousel"
+>title="Carousel settings"
+>abstract="Learn how to insert and configure a carousel into your content."
 
-     ![](assets/des_carousel_browse.png)
+1. Drag and drop the **[!UICONTROL Carousel]** component inside a structure component.
+1. Browse to select images from your computer.
 
-    1. From the **[!UICONTROL Settings]** pane, set the number of thumbnails that you want in the carousel.
-    1. Select a fallback image from your computer.
+    ![](assets/des_carousel_browse.png)
+
+1. From the **[!UICONTROL Settings]** pane, set the number of thumbnails that you want in the carousel.
+1. Select a fallback image from your computer.
 
     ![](assets/des_carousel_fallback.png)
 
-    The carousel component is not compatible with all email programs. Upload a fallback to display an image instead when the carousel is not supported in the email.
+The carousel component is not compatible with all email programs. Upload a fallback to display an image instead when the carousel is not supported in the email.
 
-    >[!NOTE]
-    >
-    >The carousel component is compatible with the following email platforms: Apple Mail 7, Apple Mail 8, Outlook 2011 for Mac, Outlook 2016 for Mac, Mozilla Thunderbird, iPad and iPad mini iOS, iPhone iOS, Android, AOL (Chrome, Firefox and Safari).
+>[!NOTE]
+>
+>The carousel component is compatible with the following email platforms: Apple Mail 7, Apple Mail 8, Outlook 2011 for Mac, Outlook 2016 for Mac, Mozilla Thunderbird, iPad and iPad mini iOS, iPhone iOS, Android, AOL (Chrome, Firefox and Safari).
 
 **Related topics**:
 

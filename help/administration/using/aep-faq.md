@@ -23,7 +23,7 @@ The section below lists common questions about this synchronization.
 For more information on Push or In-App, refer to the following FAQs:
 
 * [Push notification FAQ](../../channels/using/about-push-notifications.md#push-faq)
-* [In-App FAQ](../../channels/using/about-push-notifications.md#in-app-faq)
+* [In-App FAQ](../../channels/using/about-in-app-messaging.md#in-app-faq)
 * [Sync with Launch technical workflow FAQ](../../administration/using/syncwithlaunch-faq.md)
 
 ## Useful resources before starting {#resource-mobile-property}

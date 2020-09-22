@@ -54,7 +54,7 @@ To create and configure this landing page, you need to:
 
    ![](assets/optin_confirmlp_newelement.png)
 
-   This context removes the 'Denylisted' field, in order to be able to send emails. We will see later that the first landing page was setting this field to **true** before confirmation, to prevent from sending emails to non-confirmed profiles. For more on this, see [Step 3: Create the acquisition landing page](#step-3--create-the-acquisition-landing-page).
+   This context removes the 'On denylist' field, in order to be able to send emails. We will see later that the first landing page was setting this field to **true** before confirmation, to prevent from sending emails to non-confirmed profiles. For more on this, see [Step 3: Create the acquisition landing page](#step-3--create-the-acquisition-landing-page).
 
 1. Customize the content of the landing page: you can display personalized data and change the label of the confirmation button to ‘Click here to confirm my subscription’ for example.
 
@@ -95,12 +95,12 @@ The event is ready. You can now design the email template. This template must in
 
 ### Create the typology {#create-the-typology-rule}
 
-You need to create a specific [typology](../../sending/using/about-typology-rules.md), by duplicating an out-of-box one. The typology will allow to send messages to profiles who did not confirm their agreement yet and are still denylisted. By default, typologies exclude opt-out (i.e. denylisted) profiles. To create this typology, follow these steps:
+You need to create a specific [typology](../../sending/using/about-typology-rules.md), by duplicating an out-of-box one. The typology will allow to send messages to profiles who did not confirm their agreement yet and are still on denylist. By default, typologies exclude opt-out (i.e. on denylist) profiles. To create this typology, follow these steps:
 
 1. From the Adobe Campaign logo, select **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** and click **[!UICONTROL Typologies]**.
 1. Duplicate the out-of-box typology **[!UICONTROL Transactional message on profile (mcTypologyProfile)]**.
 1. Once duplication confirmed, edit the new typology and enter the label **TYPOLOGY_PROFILE**.
-1. Remove the **Denylisted address** rule.
+1. Remove the **Address on denylist** rule.
 1. Click **[!UICONTROL Save]**.
 
 This typology can now be associated to the confirmation email.

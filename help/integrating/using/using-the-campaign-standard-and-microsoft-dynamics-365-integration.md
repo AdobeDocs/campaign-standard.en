@@ -26,7 +26,7 @@ There are several jobs that this integration performs:
 
 * **Egress**: Bring in email marketing events from ACS to D365 (email send, open, click, bounce)
 
-* **Opt-out**: Bi-directionally sync opt-out status (e.g., blockList)
+* **Opt-out**: Bi-directionally sync opt-out status (e.g., denyList)
 
 More details on the data flows can be found [in this section](#data-flows).
 
@@ -143,7 +143,7 @@ Email Marketing Events can be enabled/disabled by type (send, open, click, bounc
 
 ### Opt-Out Flow
 
-Opt-out (e.g., blockList) values are synchronized between systems; you have the following options to choose from when onboarding:
+Opt-out (e.g., denyList) values are synchronized between systems; you have the following options to choose from when onboarding:
 * Dynamics 365 is source of truth for opt-outs: opt-out attributes will be synchronized in one direction from Dynamics 365 to Campaign Standard
 * Campaign Standard is the source of truth for opt-outs: opt-out attributes will be synchronized in one direction from Campaign Standard to Dynamics 365
 * Dynamics 365 AND Campaign Standard are both sources of truth: opt-out attributes will be synchronized bi-directionally between Campaign Standard and Dynamics 365
@@ -151,19 +151,19 @@ Opt-out (e.g., blockList) values are synchronized between systems; you have the 
 Alternatively, if you have a separate process to manage opt-out synchronization between the systems, the integration's opt-out data flow can be disabled.
 
 Opt-out flow mapping is to be specified by the customer since business requirements can differ between companies.  On the Campaign side, only the OOTB opt-out attributes can be used for opt-out mapping:
-* blockList
-* blockListEmail
-* blockListFax
-* blockListMobile
-* blockListPhone
-* blockListPostalMail
-* blockListPushnotification
+* denyList
+* denyListEmail
+* denyListFax
+* denyListMobile
+* denyListPhone
+* denyListPostalMail
+* denyListPushnotification
 * ccpaOptOut
 
 In Dynamics 365, most opt-out fields have the “donot” prefix; however, you can also utilize other attributes for opt-out purposes if the data-types are compatible.
 
 ### Initial data transfer
 
-Dynamics 365 tables over 500k records will need to be exported to your Campaign SFTP storage to be imported via Campaign workflow. 
+Dynamics 365 tables over 500k records will need to be exported to your Campaign SFTP storage to be imported via Campaign workflow.
 
 The initial data transfer is a one-time, file-based transfer of data. After the data transfer, the integration will use APIs for the incremental updates.

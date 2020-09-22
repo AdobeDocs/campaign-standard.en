@@ -31,19 +31,19 @@ The main characteristics of this activity are:
 * Ability to receive a JSON response back, map it to output tables and pass downstream to other workflow activities.
 * Failure management with an outbound specific transition
 
-### Transitioning from Beta to GA {#from-beta-to-ga}
+### Backwards compatibility notices {#from-beta-to-ga}
 
-With Campaign Standard 20.3 release, External API capability has moved trom Beta to General Availability (GA).
+With the Campaign Standard 20.4 release, the http response data size limit and response timeout guardrails have been lowered to align with best practices (see "Limitations and guardrails" section). These guardrail modifications will not take effect on existing External API activities; therefore, it is recommended that you replace existing External API activities with new versions in all workflows.
 
->[!CAUTION]
->
->As a consequence, if you were using beta External API activities, you need to replace them with GA External API activities in all workflows.  Workflows that use the beta version of External API will stop working starting 20.3 release.
+If you are upgrading from Campaign Standard 20.2 (or earlier), please note that External API capability moved trom Beta to General Availability in the Campaign Standard 20.3 release.
+
+As a consequence, if you were using beta External API activities, you need to replace them with GA External API activities in all workflows.  Workflows that use the beta version of External API will not work starting with the Campaign Standard 20.3 release.
 
 When replacing External API activities, add the new External API activity to the workflow, manually copy over the configuration details, then delete the old activity.  
 
 >[!NOTE]
 >
->You will not be able to copy over header values as those are masked within the activity.
+>You will not be able to copy over activity-specific header values as those are masked within the activity.
 
 Next, reconfigure other activities in the workflow which point to and/or use data from the beta External API activity to point to and/or use data from the new External API activity instead. Examples of activities: email delivery (personalization fields), enrichment activity, etc.
 
@@ -51,26 +51,17 @@ Next, reconfigure other activities in the workflow which point to and/or use dat
 
 The following guardrails apply to this activity:
 
-* 50MB http response data size limit (5MB recommended)
-* Request timeout is 10 minutes
+* 5MB http response data size limit (note: this is a change from the 50MB limit in the previous release)
+* Request timeout is 1 minute (note: this is a change from the 10 minutes timeout in the previous release)
 * HTTP redirects are not allowed
 * Non-HTTPS Urls are rejected
 * "Accept: application/json" request header and "Content-Type: application/json" response header are allowed
 
->[!NOTE]
->
->Starting with the Campaign 20.4 release, the http response data size limit and response timeout guardrails will be lowered to 5MB and 1 minute, respectively.  While this change will only affect new External API activities, it is strongly recommended that current implementations of the External API activity align with these new guardrails to follow best practices.
-
-Specific guardrails have been put in place for the JSON: 
+Specific guardrails have been put in place: 
 
 * **JSON Max Depth**: limit the maximum depth of a custom nested JSON that can be processed to 10 levels.
 * **JSON Max Key Length**: limit the maximum length of the internal key generated to 255. This key is associated with the column ID. 
 * **JSON Max Duplicate Keys Allowed**:  limit the maximum total number of duplicate JSON property names, which are used as column ID, to 150.
-
-The activity is not supported JSON structure as:
-
-* Combining array object with other non-array elements
-* JSON array object is nested within one or more intermediate array objects.
 
 >[!CAUTION]
 >
@@ -124,7 +115,14 @@ If the **parsing is validated**, a message appears and invites you to customize 
 
 ### Execution
 
-This tab lets you define the **HTTPS Endpoint** that will send data to ACS. If needed, you can enter authentication information in the fields below.
+This tab lets you define the connection endpoint. The **[!UICONTROL URL]** field allows you to define the **HTTPS Endpoint** that will send data to ACS.
+
+If needed by the endpoint, two types of authentification method are available:
+
+* Basic authentification: enter your username/password information in the **[!UICONTROL Request Header(s)]** field. 
+
+* OAuth authentification: By clicking on the **[!UICONTROL Use connection parameters defined in an external account]**, you can select an external account where the OAuth authentification is defined. For more information, refer to the [External accounts](../../administration/using/external-accounts.md) section.
+
 ![](assets/externalAPI-execution.png)
 
 ### Properties
@@ -165,8 +163,7 @@ There two types of log messages added to this new workflow activity: information
 
 ### Information
 
-These log messages are used to log information about useful checkpoints during the execution of the workflow activity. Specifically, the following log messages are used to log the first attempt as well a retry attempt (and reason for failure of first attempt) to access the API.
-
+These log messages are used to log information about useful checkpoints during the execution of the workflow activity.
 <table> 
  <thead> 
   <tr> 
@@ -180,12 +177,32 @@ These log messages are used to log information about useful checkpoints during t
    <td> <p>Invoking API URL 'https://example.com/api/v1/web-coupon?count=2'.</p></td> 
   </tr> 
   <tr> 
-   <td> Retrying API URL '%s', previous attempt failed ('%s').</td> 
-   <td> <p>Retrying API URL 'https://example.com/api/v1/web-coupon?count=2', previous attempt failed ('HTTP - 401').</p></td>
+   <td> Retrying API URL '%s' due to %s in %d ms, attempt %d.</td> 
+   <td> <p>Retrying API URL 'https://example.com/api/v1/web-coupon?count=0' due to HTTP - 401 in 2364 ms, attempt 2.</p></td>
   </tr> 
   <tr> 
    <td> Transferring content from '%s' (%s / %s).</td> 
    <td> <p>Transferring content from 'https://example.com/api/v1/web-coupon?count=2' (1234 / 1234).</p></td> 
+  </tr>
+  <tr> 
+   <td> Using cached access token for provider ID '%s'.</td> 
+   <td> <p>Using cached access token for provider ID 'EXT25'. Note:  EXT25 is the ID (or name) of the external account. </p></td> 
+  </tr>
+  <tr> 
+   <td> Fetched access token from server for provider ID '%s'.</td> 
+   <td> <p>Fetched access token from server for provider ID 'EXT25'. Note: EXT25 is the ID (or name) of the external account.</p></td> 
+  </tr>
+  <tr> 
+   <td> Refreshing OAuth access token due to error (HTTP: '%d').</td> 
+   <td> <p>Refreshing OAuth access token due to error (HTTP: '401').</p></td> 
+  </tr>
+  <tr> 
+   <td> Error refreshing OAuth access token (error: '%d'). </td> 
+   <td> <p>Error refreshing OAuth access token (error: '404').</p></td> 
+  </tr>
+  <tr> 
+   <td> Failed to fetch the OAuth access token using the specified external account on attempt %d, retrying in %d ms.</td> 
+   <td> <p>Failed to fetch the OAuth access token using the specified external account on attempt 1, retrying in 1387 ms.</p></td> 
   </tr>
  </tbody> 
 </table>
@@ -240,7 +257,7 @@ These log messages are used to log information about unexpected error conditions
    <td> <p>HTTP header key is not allowed (header key: 'Accept').</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560247 -  AHTTP header value is bad (header value: '%s').</td> 
+   <td> WKF-560247 -  A HTTP header value is bad (header value: '%s').</td> 
    <td> <p>HTTP header value is bad (header value: '%s'). </p>
     <p>Note: This error is logged when the custom header value fails validation according to <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a></p></td> 
   </tr> 
@@ -258,6 +275,39 @@ These log messages are used to log information about unexpected error conditions
    <td> <p>When activity fails due to HTTP 401 error response - Activity failed (reason: 'HTTP - 401')</p>
         <p>When activity fails due to a failed internal call - Activity failed (reason: 'iRc - -Nn').</p>
         <p>When activity fails due to an invalid Content-Type header. - Activity failed (reason: 'Content-Type - application/html').</p></td> 
+  </tr>
+  <tr> 
+   <td> WKF-560278 - "Error initializing OAuth helper (error: '%d')" .</td> 
+   <td> <p>This error indicates that the activity could not initialize the internal OAuth2.0 helper facility, due to error in using the attributes configured in the external account to initialize the helper.</p></td>
+  </tr>
+  <tr> 
+   <td> WKF-560279 - "HTTP header key is not allowed (header key: '%s')."</td> 
+   <td> <p>This warning (not error) message indicates that the OAuth 2.0 external account has been configured to add a credential as an HTTP header, but the header key used is not allowed because it is a reserved header key.</p></td>
+  </tr>
+  <tr> 
+   <td> WKF-560280 - External account of '%s' ID cannot be found.</td> 
+   <td> <p>External account of 'EXT25' ID cannot be found.  Note: This error indicates that the activity is configured to use an external account, which can no longer be found. This is most likely to happen when the account has been deleted from the DB, and as such not likely to happen in normal operating circumstances.</p></td>
+  </tr>
+  <tr> 
+   <td> WKF-560281 - External account of '%s' ID is disabled.</td> 
+   <td> <p>External account of 'EXT25' ID is disabled. Note: This error indicates that the activity is configured to use an external account, but that account has been disabled (or marked inactive).</p></td>
+  </tr>
+  <tr> 
+   <td> WKF-560282 - Protocol not supported.</td> 
+   <td> <p>This error indicates that the external account associated with the activity is not a OAuth2.0 external account. As such, this error is unlikely to happen unless there is some corruption or manual changes to the activity configuration.</p></td>
+  </tr>
+  <tr> 
+   <td> WKF-560283 - Failed to fetch the OAuth access token.</td> 
+   <td> <p>Most common cause of this error is misconfiguration of the external account (for eg. using the external account without testing that the connection is successful). Might be possible that url/credentials on the external account are changed.</p></td>
+  </tr>
+  <tr> 
+   <td> CRL-290199 - Cannot reach page at: %s.</td> 
+   <td> <p>This error message is shown on the external Accounts UI screen when setting it up for OAuth. It means that the URL for the external authorization server is either incorrect/changed/response from the server is Page not found.</p></td>
+  </tr>
+  <tr> 
+   <td> CRL-290200 - Incomplete/Incorrect credentials.</td> 
+   <td> <p>This error message is shown on the external Accounts UI screen when setting it up for OAuth. This means that credentials are either incorrect or missing some other required credentials to connect to the auth server.
+</p></td>
   </tr>
  </tbody> 
 </table>

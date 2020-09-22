@@ -30,7 +30,7 @@ Adobe Campaign Standard offers two new Machine Learning models: **Predictive Sen
 >[!CAUTION]
 >This capability is not available out of the box as part of the product. The implementation requires Adobe Consulting to be engaged. Please reach out to your Adobe representative to find out more.
 >
->Separately, the feature required the usage of an Azure storage that must be provided by the customer.
+>The feature requires the usage of an Azure storage that must be provided by the customer.
 
 ## Predictive send time optimization{#predictive-send-time}
 

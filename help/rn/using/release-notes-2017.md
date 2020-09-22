@@ -488,7 +488,7 @@ _Workflows_
    <td> Marketing capabilities for transactional messages<br /> </td> 
    <td> Marketers can now send transactional messages based on customer marketing profiles. This allows them to:<br /> 
     <ul> 
-     <li> Apply marketing typology rules such as <span class="uicontrol">Denylisted address</span> . </li> 
+     <li> Apply marketing typology rules such as <span class="uicontrol">Address on denylist</span> . </li> 
      <li> Include the unsubscription link within the messages. </li> 
      <li> Add the transactional messages to the global delivery reporting. </li> 
      <li> Leverage the transactional messages in the customer journey. </li> 
@@ -524,7 +524,7 @@ _Push notifications_
 * Fixed an issue that may have prevented postback from an application to the Adobe Campaign server.
 * Fixed an issue that may have prevented **[!UICONTROL Play a sound]** and **[!UICONTROL Custom fields]** to be taken into account for Android.
 * Fixed an issue that may have caused an extra escaping character to be added to Unicode characters used for Emojis.
-* When a subscriber's registration token is denylisted, the corresponding status is now immediately updated in the application's list of subscribers in Adobe Campaign.
+* When a subscriber's registration token is added to the denylist, the corresponding status is now immediately updated in the application's list of subscribers in Adobe Campaign.
 
 _Workflows_
 

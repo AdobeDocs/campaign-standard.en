@@ -22,11 +22,10 @@ snippet: y
 
 ![](assets/recurrentpush.png)
 
-The **[!UICONTROL Push notification]** activity allows you to configure sending a push notification in a workflow. This can be a **single send** notification and sent just once, or it can be a **recurring** notification.
+The **[!UICONTROL Push notification]** activity allows you to configure sending a push notification in a workflow. This can be a single send notification and sent just once, or it can be a recurring notification.
 
-Single send notifications are standard mobile app push notification deliveries, sent once.
-
-Recurring notifications allow you to send the same mobile app push notification delivery multiple times to different targets over a defined period. You can aggregate the deliveries per period in order to get reports that correspond to your needs.
+* **Single** send notifications are standard mobile app push notification deliveries, sent once.
+* **Recurring** notifications allow you to send the same mobile app push notification delivery multiple times to different targets over a defined period. You can aggregate the deliveries per period in order to get reports that correspond to your needs.
 
 ## Context of use {#context-of-use}
 

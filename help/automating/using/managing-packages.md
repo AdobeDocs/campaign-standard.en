@@ -36,9 +36,11 @@ To display and modify the content of an element, click its label. Refer to the [
 
 ![](assets/packages_14.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
->Exporting packages is not authorized if the resources exported have default IDs. Therefore, the IDs of exportable resources must be changed by using a name that is different from the templates provided as standard by Adobe Campaign Standard. For example, to export test profiles, an ID containing the value "SDM" or "sdm" must not be used. When trying to export packages containing default IDs, you can see errors such as: "The 'Brands (branding)' entity type uses a default ID ('BRD1') that may cause a conflict when importing the package. Change this name and repeat the operation."
+>Exporting packages is not authorized if the resources exported have default IDs. Therefore, the IDs of exportable resources must be changed by using a name that is different from the templates provided as standard by Adobe Campaign Standard. For example, to export test profiles, an ID containing the value "SDM" or "sdm" must not be used.
+>
+>When trying to export packages containing default IDs, you can see errors such as: "The 'Brands (branding)' entity type uses a default ID ('BRD1') that may cause a conflict when importing the package. Change this name and repeat the operation."
 
 The package export steps are described in the [Exporting a package](#exporting-a-package) section.
 

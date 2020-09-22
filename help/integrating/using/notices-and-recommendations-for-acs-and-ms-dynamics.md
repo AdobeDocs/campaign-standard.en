@@ -65,7 +65,8 @@ Learn how to map Campaign resources and Dynamics 365 entities [in this section](
 
 Due to the differences in opt-out attributes between Dynamics 365 and Campaign, and to the differences in business requirements of each customer, opt-out mapping has been left  as an exercise for the customer to complete.  It is important to ensure opt-outs are properly mapped between systems so that end user opt-out preferences are maintained, and they don't receive a communication via a channel that they have opted out of.  
 
-Please be aware that only Campaign attributes with the “blockList” prefix (e.g., blockListEmail) or the specific attribute for CCPA opt-out can be used in opt-out mappings.  In Dynamics 365, most opt-out fields have the “donot” prefix; however, you can also utilize other attributes for opt-out purposes if the data-types are compatible.
+Please be aware that only Campaign attributes with the 'No longer contact by' prefix (e.g., No longer contact by email) or the specific attribute for CCPA opt-out can be used in opt-out mappings. [Learn more](../../developing/using/datamodel-profile.md).
+In Dynamics 365, most opt-out fields have the “donot” prefix; however, you can also utilize other attributes for opt-out purposes if the data-types are compatible.
 
 When provisioning the integration, you will have the opportunity to specify which opt-out configuration you require for your business:
 

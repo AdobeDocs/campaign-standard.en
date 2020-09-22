@@ -66,12 +66,15 @@ For more information, refer to [Executing workflows](../../automating/using/abou
 
 The workflow properties allow you to define a specific time zone that will be used by default in all the its activities. By default, the workflow's time zone is the one defined for the current Campaign operator.
 
-
 ## Activity{#activity}
+
+### Number of activities per workflow {#number-activities}
+
+We recommend using up to 100 activities into a single workflow. Over 100 activities, you may encounter some performance issues when designing and configuring your workflow.
 
 ### Workflow design
 
-To ensure that the workflow ends properly, use an **[!UICONTROL End activity]**. Avoid leaving the last transition of a workflow on its own.
+To ensure that the workflow ends properly, avoid leaving the last transition of a workflow on its own by using an **[!UICONTROL End activity]**. 
 
 To access the detail view of the transitions, check the **[!UICONTROL Keep interim results]** option in the Execution section of the workflow properties.
 
