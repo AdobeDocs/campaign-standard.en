@@ -34,6 +34,8 @@ The section on how to call a workflow with external parameters has been enriched
 
 A recommendation has been added to the workflows best practices on the number of activities to use per workflow. [Read more](../../automating/using/best-practices-workflows.md#number-activities)
 
+A new section about Delivery best practices has been added. [Read more](../../sending/using/delivery-best-practices.md)
+
 ## Documentation updates - September 2020 {#doc-updates-september-2020}
 
 The Event transactional messages section has been reorganized and clarified. [Read more](../../channels/using/event-transactional-messages.md)
