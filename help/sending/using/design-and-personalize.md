@@ -62,7 +62,7 @@ Always include a mirror page link. Preferred position is a the top of the email.
 
 ### Unsubscription link
 
-The unsubscription link is essential. It must be visible and valid, and the form must be functional. Learn unsubscription link guidelines [in this section](../../designing/using/personalization.md##about-targeting-dimension).
+The unsubscription link is essential. It must be visible and valid, and the form must be functional. Learn unsubscription link guidelines [in this section](../../designing/using/personalization.md#about-targeting-dimension).
 
 By default, when the message is analyzed, a control [typology rule](../../sending/using/control-rules.md) checks whether an opt-out link has been included and generates a warning if it is missing.
 
