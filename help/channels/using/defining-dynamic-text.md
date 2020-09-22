@@ -22,7 +22,9 @@ Dynamic text is defined in the same way as dynamic content. Refer to the [Defini
 >
 >For SMS and push, you can only define dynamic text. You can define both dynamic content and text in a landing page. If you want to define dynamic text with the [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md), see [Defining dynamic content in an email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 
-Note that some emojis (surrogate pairs) cannot be stored in 2 bytes (16bits) and need to get encoded into 2 UTF-16 characters. These emojis can cause some incompatibility issues in dynamic text. You need to perform strong tests before sending your messages. For example, the following emoji could cause some compatibility issue: UTF-16 encoding 0xD83C 0xDF89. 
+Note that surrogate pairs, characters not included in the Basic Multilingual Plane of the Unicode character set, cannot be stored in 2 bytes (16bits) and need to get encoded into 2 UTF-16 characters. These characters include some CJK ideographs, most emojis and some languages.
+<br>These characters can cause some incompatibility issues in dynamic text. You need to perform strong tests before sending your messages.
+
 
 The example below shows how to define dynamic text in an SMS message.
 
