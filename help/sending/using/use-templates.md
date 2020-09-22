@@ -60,14 +60,13 @@ To increase the opening rate of your deliveries, Adobe recommends using a name t
 
 For more on personalizing the sender name, see [Email sender](../../designing/using/subject-line.md#email-sender).
 
-##
+## Personalize the SMS sender name
 
-Personalize the SMS sender name in Campaign Standard
-In the Advanced parameters section of an SMS template's properties, the From option allows you to personalize the name of the SMS message sender using a string of characters. This is the name that will appear as the sender name of the SMS message on the recipient's mobile telephone.
+In the **Advanced parameters** section of an SMS template's properties, the **From** option allows you to personalize the name of the SMS message sender using a string of characters. This is the name that will appear as the sender name of the SMS message on the recipient's mobile telephone.
 
-If this field is empty, then it will be the source number provided in the external account that will be used. If no source number is provided, it will be the short code that will be used. For more on this, see Configuring SMS properties.
+If this field is empty, then it will be the source number provided in the external account that will be used. If no source number is provided, it will be the short code that will be used. For more on this, see [SMS configuration](../../administration/using/configuring-sms-channel.md).
 
-Tip: Check the legislation in your country regarding modifying the sender address. You should also check with your SMS service provider to see whether they offer this functionality.
+**Tip** - Check the legislation in your country regarding modifying the sender address. You should also check with your SMS service provider to see whether they offer this functionality.
 
 ## Set up a control group
 
