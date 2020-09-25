@@ -1,6 +1,6 @@
 ---
 title: Get started with testing and sending
-description: Discover the different steps to test and send a message.
+description: Learn how to prepare and test your messages, schedule, send and monitor them, understand failure and quarantine management, and optimize deliverability.
 page-status-flag: never-activated
 uuid: 58666444-6e7c-4049-b2d2-8b26eabf5a82
 contentOwner: sauviat
