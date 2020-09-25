@@ -1,6 +1,6 @@
 ---
 title: Get started with communication channels
-description: Learn how to send personalized messages on various channels and to create cross-channel campaigns to better target your recipients.
+description: Learn how to create personalized messages on various channels (email, push notifications, inApp, SMS and direct mail). Discover how to use templates, create landing pages and check delivery best practices.
 page-status-flag: never-activated
 uuid: 5d61d8df-8256-4f28-8dd3-e791891e312f
 contentOwner: sauviat
