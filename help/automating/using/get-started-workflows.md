@@ -1,6 +1,6 @@
 ---
 title: Get started with processes and data management
-description: Leverage Adobe Campaign's workflow capabilities to automate processes through a powerful comprehensive graphical environment: load data, manage audiences, send messages, implement data management cycles, automate technical processes, and more.
+description: Leverage Adobe Campaign's workflow capabilities to automate processes through a powerful comprehensive graphical environment. Learn how to load data, manage audiences, send messages, implement data management cycles, automate technical processes, and more.
 page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
 contentOwner: sauviat
