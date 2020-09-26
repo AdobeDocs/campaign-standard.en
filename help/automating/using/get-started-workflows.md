@@ -1,6 +1,6 @@
 ---
 title: Get started with processes and data management
-description: Automate processes with workflows, load data, manage audiences, send messages, implement data management cycles, automate technical processes, and more.
+description: Automate processes with workflows, manage data and audiences, send messages, and more.
 page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
 contentOwner: sauviat
