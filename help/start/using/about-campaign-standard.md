@@ -1,6 +1,6 @@
 ---
 title: Get started with Campaign Standard
-description: Adobe Campaign is a powerful cross-channel campaign management tool that can help you align your online and offline strategies to create personalized customer experiences.
+description: Discover key capabilities, user interface and global guidelines.
 page-status-flag: never-activated
 uuid: 027f6787-d2ef-44ae-a40a-8facdfe2ae77
 contentOwner: sauviat

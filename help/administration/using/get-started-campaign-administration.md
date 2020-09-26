@@ -1,6 +1,6 @@
 ---
 title: Get started with Campaign Standard administration
-description: Discover how to manage users, define roles and grant permissions; learn monitoring guidelines, channel-specific configurations and application settings such as target mappings, technical workflows, branding, data retention, and more.
+description: Discover users and permissions management, monitoring guidelines, channel-specific configurations and application settings guidelines.
 page-status-flag: never-activated
 uuid: 64c34729-5c98-4db0-9131-af6dd0e78fb4
 contentOwner: sauviat

@@ -1,6 +1,6 @@
 ---
 title: Get started with Campaign Standard APIs
-description: Campaign Standard APIs are aimed at letting you create integrations and build your own ecosystem by interfacing Campaign with the panel of technologies that you use.
+description: Create integrations and build your own ecosystem by interfacing Campaign with a panel of technologies.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat

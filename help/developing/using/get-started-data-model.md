@@ -1,6 +1,6 @@
 ---
 title: Get started with Campaign Standard data model
-description: Access built-in data model description, extend Campaign Standard data model with custom fields and resources, and monitor all data model changes into one single view.
+description: Enrich Campaign Standard data model with custom fields and resources, and extend REST APIs to expose extended fields.
 page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
 contentOwner: sauviat

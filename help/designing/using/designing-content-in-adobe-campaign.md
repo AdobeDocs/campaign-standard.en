@@ -1,6 +1,6 @@
 ---
 title: Designing content in Adobe Campaign
-description: Use Campaign Email Designer to create captivating, individually tailored emails through a drag and drop interface. Starting from a blank slate, or leveraging existing content fragments or templates, design and refine all content for every email
+description: With Campaign Email Designer, create email content starting from a blank slate, or leveraging existing content fragments or templates.
 page-status-flag: never-activated
 uuid: 8f73407f-ab90-46bc-aeb6-bd87fcb0404c
 contentOwner: sauviat

@@ -1,6 +1,6 @@
 ---
 title: Get started with Campaign integrations
-description: Learn how to combine the advanced campaign management capabilities of Adobe Campaign with a set of solutions created to help you personalize your users' experience such as Adobe Analytics, Experience Manager, Target, Dreamweaver, and more.
+description: Use other Adobe solutions and combine their different capabilities with Campaign.
 page-status-flag: never-activated
 uuid: 59d7cd99-a6f7-47f1-9b5c-c50e27a2bef8
 contentOwner: sauviat
