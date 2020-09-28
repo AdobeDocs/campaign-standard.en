@@ -2,7 +2,7 @@
 product: adobe campaign
 sub-product: adobe campaign standard
 audience: end-user
-user-guide-title: Browse Adobe Campaign Standard Help Center
+user-guide-title: Adobe Campaign Standard Help Center
 breadcrumb-title: Campaign Standard Guide
 ---
 
