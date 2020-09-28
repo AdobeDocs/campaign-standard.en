@@ -20,8 +20,7 @@ snippet: y
 
 >[!CAUTION]
 >
->Please keep in mind the SFTP storage, DB Storage and active profile limits as per your Adobe 
-Campaign contract while using this functionality.
+>Please keep in mind the SFTP storage, DB Storage and active profile limits as per your Adobe Campaign contract while using this functionality.
 
 ![](assets/data_loading.png)
 
