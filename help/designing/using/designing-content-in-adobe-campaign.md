@@ -1,6 +1,6 @@
 ---
 title: Designing content in Adobe Campaign
-description: Learn about all the elements that you can define in your contents with Adobe Campaign.
+description: Create email content starting from scratch, importing HTML or leveraging existing templates.
 page-status-flag: never-activated
 uuid: 8f73407f-ab90-46bc-aeb6-bd87fcb0404c
 contentOwner: sauviat
@@ -19,7 +19,7 @@ snippet: y
 Once you have created an email in Adobe Campaign, you need to define its content.
 
 The Email Designer enables you to create captivating, individually tailored emails through a drag and drop
-interface augmented by native Creative Cloud integrations. Whether you're starting from a blank slate, or leveraging existing content fragments or templates, design and refine all content for every email, whether promotional or transactional.
+interface. Whether you're starting from a blank slate, or leveraging existing content fragments or templates, design and refine all content for every email, whether promotional or transactional.
 
 Built to deliver HTML optimized for responsive design, the Email Designer allows you to easily define and apply visibility conditions and dynamic content to an email, template, or fragment directly through the user interface. You can seamlessly switch betwing the drag and drop interface and HTML code at the click of a button.
 
@@ -117,7 +117,7 @@ To make proper use of the Email Designer and create the best emails as simply as
 
   Preview your messages before sending them. Adobe Campaign offers a way to test email rendering using Litmus. For more on this, see [Email rendering](../../sending/using/email-rendering.md).
 
-More design and general best practices regarding messages are presented in the following Adobe Campaign step-by-step guide: [Delivery best practices with Adobe Campaign](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html).
+More design and general best practices regarding messages are presented in the following section: [Delivery best practices](../../sending/using/delivery-best-practices.md).
 
 ### Updating fragments {#email-designer-updates}
 

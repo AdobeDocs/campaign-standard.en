@@ -74,7 +74,7 @@ _Push notifications_
 _Reports_
 
 * Fixed an issue that prevented the hot click percentages from being displayed in the email content.
-* Fixed an issue with the block list metric which was counted as a hard bounce instead of a bounce.
+* Fixed an issue with the denylist metric which was counted as a hard bounce instead of a bounce.
 * Fixed an issue that led to negative counts being displayed in summary data.
 * Fixed an issue that counted profiles in the wrong age segment.
 * The soft and hard bounce calculation formulas have changed.
@@ -488,7 +488,7 @@ _Workflows_
    <td> Marketing capabilities for transactional messages<br /> </td> 
    <td> Marketers can now send transactional messages based on customer marketing profiles. This allows them to:<br /> 
     <ul> 
-     <li> Apply marketing typology rules such as <span class="uicontrol">Address on block list</span> . </li> 
+     <li> Apply marketing typology rules such as <span class="uicontrol">Address on denylist</span> . </li> 
      <li> Include the unsubscription link within the messages. </li> 
      <li> Add the transactional messages to the global delivery reporting. </li> 
      <li> Leverage the transactional messages in the customer journey. </li> 
@@ -499,7 +499,7 @@ _Workflows_
    <td> The Transactional Messaging API is now available through <a href="https://docs.campaign.adobe.com/doc/standard/en/adobeio.html">adobe.io</a>, making it easier to use and to monitor:<br /> 
     <ul> 
      <li> You can benefit from the adobe.io platform reporting and monitoring capabilites. </li> 
-     <li> Authentication is now carried out using the adobe.io token based authentication instead of IP allow list, making the security process simpler. </li> 
+     <li> Authentication is now carried out using the adobe.io token based authentication instead of IP allowlisting, making the security process simpler. </li> 
      <li> All APIs are now integrated on a single platform, making it simpler than ever to add transactional messaging capabilities to your integration if you already support the Profile and Services API. </li> 
     </ul> </td> 
   </tr> 
@@ -524,7 +524,7 @@ _Push notifications_
 * Fixed an issue that may have prevented postback from an application to the Adobe Campaign server.
 * Fixed an issue that may have prevented **[!UICONTROL Play a sound]** and **[!UICONTROL Custom fields]** to be taken into account for Android.
 * Fixed an issue that may have caused an extra escaping character to be added to Unicode characters used for Emojis.
-* When a subscriber's registration token is added to the block list, the corresponding status is now immediately updated in the application's list of subscribers in Adobe Campaign.
+* When a subscriber's registration token is added to the denylist, the corresponding status is now immediately updated in the application's list of subscribers in Adobe Campaign.
 
 _Workflows_
 

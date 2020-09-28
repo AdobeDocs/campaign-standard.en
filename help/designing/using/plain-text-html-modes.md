@@ -103,7 +103,7 @@ All style options are available in mobile view. The Email Designer style setting
 
    ![](assets/email_designer_mobile_view_change_content.png)
 
-   Click again the **[!UICONTROL Switch to mobile view]** button to go back to the standard desktop view. The changes are reflected.
+1. Click again the **[!UICONTROL Switch to mobile view]** button to go back to the standard desktop view. The changes are reflected.
 
    ![](assets/email_designer_mobile_view_desktop_content-change.png)
 

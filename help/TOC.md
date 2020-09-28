@@ -2,7 +2,8 @@
 product: adobe campaign
 sub-product: adobe campaign standard
 audience: end-user
-user-guide-title: Adobe Campaign Standard Help
+user-guide-title: Browse Adobe Campaign Standard Help Center
+breadcrumb-title: Campaign Standard Guide
 ---
 
 # Adobe Campaign Standard Help {#using}
@@ -65,6 +66,14 @@ user-guide-title: Adobe Campaign Standard Help
        + [Accessing messages](channels/using/accessing-messages.md)
        + [Message dashboard](channels/using/message-dashboard.md)
        + [Multilingual messages templates](channels/using/multilingual-messages-template.md)
+  + Delivery best practices {#delivery-bestpractices}
+       + [Learn good practices](sending/using/delivery-best-practices.md)
+       + [Optimize delivery](sending/using/optimize-delivery.md)
+       + [Use templates](sending/using/use-templates.md)
+       + [Build personalized content](sending/using/design-and-personalize.md)
+       + [Define the right audience](sending/using/define-the-right-audience.md)
+       + [Check before sending](sending/using/check-before-sending.md)
+       + [Track and monitor](sending/using/track-and-monitor.md) 
   + Email messages {#email-messages}
        + [About emails](channels/using/about-emails.md)
        + [Creating an email](channels/using/creating-an-email.md)
@@ -135,6 +144,7 @@ user-guide-title: Adobe Campaign Standard Help
        + [Testing the subject line of an email](sending/using/testing-subject-line-email.md)
        + [AI-powered emails](sending/using/predictive.md)       
        + [Email rendering](sending/using/email-rendering.md)
+       + [Adding a control group](sending/using/control-group.md)
        + [Using traps](sending/using/using-traps.md)
        + [Preparing the send](sending/using/preparing-the-send.md)
   + Scheduling messages {#scheduling-messages}
@@ -230,7 +240,14 @@ user-guide-title: Adobe Campaign Standard Help
        + [Testing your triggers](integrating/using/testing-your-triggers.md)
        + [Abandonment Triggers use cases](integrating/using/abandonment-triggers-use-cases.md)
   + Campaign and Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-       + [Get Started with Microsoft Dynamics 365 integration](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+       + [Get Started with Dynamics 365 integration](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+       + [Manage data between Campaign and Dynamics 365](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
+       + [Request the integration](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
+       + [Configure Adobe I/O](integrating/using/configure-adobe-io-for-ms-dynamic.md)
+       + [Configure Dynamics 365 for Campaign integration](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
+       + [Map Campaign custom resources and Dynamics 365 custom entities](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
+       + [Use the Dynamics 365 integration](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
+       + [Integration guardrails](integrating/using/ms-dynamics-365-integration-guardrails.md)
 + Managing processes and data {#managing-processes-and-data}
   + [Get started with data and processes management](automating/using/get-started-workflows.md)
   + Workflow general operation {#workflow-general-operation}
@@ -323,7 +340,6 @@ user-guide-title: Adobe Campaign Standard Help
           + [Incremental query on subscribers to a service](automating/using/incremental-query-on-subscribers.md)
           + [Segmentation according to age groups](automating/using/segmentation-age-groups.md)
           + [Using resources different from targeting dimensions](automating/using/using-resources-different-from-targeting-dimensions.md)
-          + [Building a control group](automating/using/workflow-control-group.md)
        + Data management {#data-management}
           + [Reconcile a File audience with the database](automating/using/reconcile-file-audience-with-database.md)
           + [Deduplicating the data from an imported file](automating/using/deduplicating-data-imported-file.md)

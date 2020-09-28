@@ -1,7 +1,8 @@
 ---
 keywords: Campaign Standard;home;popular topics
-solution: Campaign Standard
+solution: Campaign
 title: Adobe Campaign Standard product documentation
+description: Browse Campaign Standard product documentation
 topic: Premium
 ---
 
@@ -10,6 +11,9 @@ topic: Premium
 ![](start/using/assets/do-not-localize/banner_acs_doc.jpg) 
 
 ## What's New
+
+* **[Control groups](sending/using/control-group.md)**<br/>
+Measure the impact of your campaigns by excluding a portion of their audience
 
 * **[AI-powered emails](sending/using/predictive.md)**<br/>
 Optimize design and delivery with AI-powered emails

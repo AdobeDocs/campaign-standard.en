@@ -72,33 +72,33 @@ You can add several content components to your email such as image, text and but
 
 * **Image**
 
-1. In **Content Components**, drag and drop image into one of your structure components.
-1. Click **Browse**.
-1. Select your image file from your computer.
+    1. In **Content Components**, drag and drop image into one of your structure components.
+    1. Click **Browse**.
+    1. Select your image file from your computer.
 
-![](assets/browse-image-quick-start.png)
+    ![](assets/browse-image-quick-start.png)
 
 * **Text with personalization**
 
-1. In **Content Components**, drag and drop text into one of your structure components.
-1. Click on the component and enter your text. 
-1. To add a personalization field, click **Insert personalization field** in the toolbar.
-1. Select the field you need, such as First Name.
+    1. In **Content Components**, drag and drop text into one of your structure components.
+    1. Click on the component and enter your text. 
+    1. To add a personalization field, click **Insert personalization field** in the toolbar.
+    1. Select the field you need, such as First Name.
 
-![](assets/edit-text-quick-start.png)
+    ![](assets/edit-text-quick-start.png)
 
 * **HTML**
 
-1. In **Content Components**, drag and drop HTML into one of your structure components.
-1. Click **Show the source code**.
-1. Enter your HTML content.
-1. Click **Save**.
+    1. In **Content Components**, drag and drop HTML into one of your structure components.
+    1. Click **Show the source code**.
+    1. Enter your HTML content.
+    1. Click **Save**.
 
-![](assets/html-component-source-code.png)
+    ![](assets/html-component-source-code.png)
 
-If you are familiar with HTML, you can copy-paste the HTML code from the original footer using the **[!UICONTROL Html]** content component. For more on this, see [About content components](../../designing/using/designing-from-scratch.md#about-content-components).
+    If you are familiar with HTML, you can copy-paste the HTML code from the original footer using the **[!UICONTROL Html]** content component. For more on this, see [About content components](../../designing/using/designing-from-scratch.md#about-content-components).
 
-![](assets/des_loading_compatible_fragment_9.png)
+    ![](assets/des_loading_compatible_fragment_9.png)
 
 ### Styling your email component
 

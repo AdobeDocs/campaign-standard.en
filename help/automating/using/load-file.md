@@ -31,14 +31,14 @@ The **[!UICONTROL Load file]** activity allows you to import data in one structu
 
 The way in which the data will be extracted is defined when the activity is configured. The file to load may be a list of contacts, for example.
 
->[!CAUTION]
->
->Only "flat" structure files are taken into account, such as .txt, .csv, etc., files for example.
-
 You can:
 
 * Use the file structure to apply it to another file's data (recovered using the **[!UICONTROL Transfer file]** activity) or,
 * Use the structure and data from the file to import it into Adobe Campaign.
+
+>[!IMPORTANT]
+>
+>Only "flat" structure files are taken into account, such as .txt, .csv, etc., files for example.
 
 **Related topics:**
 

@@ -58,7 +58,7 @@ If not, check if the trigger is received from the pipeline.
 
 If not, contact Adobe to check the configuration of the pipeline end points.
 
-If it is, follow these guide lines:
+If it is, follow these guidelines:
 
 * Check the reconciliation ID type in Campaign datasource.
 * CustomerId Datasource is created via Customer Attributes.
@@ -68,10 +68,10 @@ If it is, follow these guide lines:
 
 **Is the trigger in pending status?**
 
-If not, move on to the next step. If it is, follow these guide lines:
+If not, move on to the next step. If it is, follow these guidelines:
 
 * Check that the transactional template is published.
-* Check that the profile is not on block list.
+* Check that the profile is not on denylist.
 * Check the application of typology rules.
 * Check the transactional message's logs.
 

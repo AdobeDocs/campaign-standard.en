@@ -28,6 +28,10 @@ You can open activities to check or edit parameters before or after executing th
 
 You can open transitions to check that the data sent is correct during or after executing the workflow. To access the detail view of the transitions, you have to check the **[!UICONTROL Keep interim results]** option in the **[!UICONTROL Execution]** section of the workflow properties.
 
+>[!CAUTION]
+>
+>This option consumes a lot of disk space and is designed to help you build a workflow and ensure proper configuration and behavior. Leave it unchecked on production instances.
+
 ![](assets/workflow_overview.png)
 
 

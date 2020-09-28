@@ -7,7 +7,7 @@ description: Learn how to call a resource using a composite identification key
 
 In some cases, you may need to define for a resource an identification key that is made up of two fields. Once the identification key is configured, you need to configure a filter definition in order to be able to call the resource with this identification key, either from Campaign Standard interface or APIs.
 
-In this use case, the **Profile** resource has been extended with custom **"CRM ID"** and **"category"** field. We will create an identification key for the Profile resource, that will be made up of these two fields. We will then configure a filter definition, so that we can access the Profile resource using the identification key.
+In this use case, the **Profile** resource has been extended with custom **"CRM ID"** and **"category"** fields. We will create an identification key for the Profile resource, that will be made up of these two fields. We will then configure a filter definition, so that we can access the Profile resource using the identification key.
 
 The main steps for this use case are:
 
@@ -69,7 +69,7 @@ Related topics:
    ![](assets/uc_idkey7.png)
 
    >[!NOTE]
-   > Once you have clicked the plus button, the parameter's name is automatically generated. Note this information, as you will need it to use the filter from the APIs.
+   > Once you have clicked the **+** button, the parameter's name is automatically generated. Note this information, as you will need it to use the filter from the APIs.
 
 1. Repeat the steps above with all the fields that compose the identification key ("category"), then save your changes.
 

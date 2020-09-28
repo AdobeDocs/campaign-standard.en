@@ -28,6 +28,7 @@ You can set up the following types of external accounts:
 * Adobe Analytics. For more on this, refer to [this section](../../integrating/using/configure-campaign-analytics-integration.md).
 * Google reCAPTCHA. For more on this, refer to [this section](#google-recaptcha-external-account).
 * Microsoft Azure Blob storage. For more on this, refer to [this section](#microsoft-azure-external-account).
+* OAuth 2.0. For more on this, refer to [this section](#oauth-account).
 
 >[!NOTE]
 >
@@ -79,7 +80,7 @@ To avoid such problems, Adobe recommends to follow the best practices below:
 * Occasionally, log-in to SFTP to directly check what is lying there.
 * Remember that SFTP disk management is primarily your responsibility.
 
-Also, note that the public IPs from which you are trying to initiate the SFTP connection must be added to the allow list on the Campaign instance. Adding IP addresses to the allow list can be requested via a [support ticket](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html), along with providing the public key to use for authentication.
+Also, note that the public IPs from which you are trying to initiate the SFTP connection must be added to the allowlist on the Campaign instance. Adding IP addresses to the allowlist can be requested via a [support ticket](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html), along with providing the public key to use for authentication.
 
 SFTP servers can be managed from the Control Panel. For more information, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/sftp-management/about-sftp-management.html).
 
@@ -87,6 +88,23 @@ SFTP servers can be managed from the Control Panel. For more information, refer 
 >
 >Control Panel is available only to Admin users of customers hosted on AWS. 
 Check if your instance is hosted on AWS [here](https://docs.adobe.com/content/help/en/control-panel/using/faq.html#ims-org-id).
+
+## OAuth 2.0 account {#oauth-account}
+
+For a OAuth 2.0 external account, provide the following details:
+
+* A **Grant type**: only **client credentials** is supported. 
+* A **Secure API URL**: enter the authorization endpoint.
+* **OAuth 2.0 sensitive credentials**: This section is meant for credentials that are sensitive in nature. Credential values will be masked on the screen after they are added; at that point, they will not be readable nor editable. If the authorization endpoint requires a particular credential be inserted into the HTTP authorization header instead of the POST body parameter, you can select the option Include in header for that credential.
+* **OAuth 2.0 non-sensitive credentials**: This section is meant for credentials that are non-sensitive in nature. Credential values will be visible on the screen after they are added; they will also be editable.  If the authorization endpoint requires a particular credential be inserted into the HTTP authorization header instead of the POST body parameter, you can select the option Include in header for that credential.
+
+When the end of the configuration, click on **Test connector** to verify that the external account is set up correctly.
+
+![](assets/external_accounts_OAuth.png)
+
+>[!NOTE]
+>
+>The credentials "Content-Type: application/x-www-form-urlencoded" and "grant_type=client_credentials" will automatically be added to the API call; therefore, you will not need to add them in the credentials section.
 
 ## Amazon S3 external account {#amazon-s3-external-account}
 

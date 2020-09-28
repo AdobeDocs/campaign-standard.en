@@ -1,6 +1,6 @@
 ---
 title: Get started with Campaign Standard
-description: Adobe Campaign is a powerful cross-channel campaign management tool that can help you align your online and offline strategies to create personalized customer experiences.
+description: Discover key capabilities, user interface and global guidelines.
 page-status-flag: never-activated
 uuid: 027f6787-d2ef-44ae-a40a-8facdfe2ae77
 contentOwner: sauviat
@@ -40,7 +40,7 @@ Control the entire process of creating, executing, and tracking cross-channel ca
 
 Plan, coordinate and orchestrate cross-channel campaigns.
 
-**Optimize your marketing plans organization** by creating programs and campaigns. Analyse the impact of your marketing campaigns through reports. Orchestrate your campaigns using mutiple marketing activities accessible from one single interface and set up marketing activities templates to save time. [Get started with Marketing plans and activities](../../start/using/programs-and-campaigns.md)
+**Optimize your marketing plans organization** by creating programs and campaigns. Analyze the impact of your marketing campaigns through reports. Orchestrate your campaigns using multiple marketing activities accessible from one single interface and set up marketing activities templates to save time. [Get started with Marketing plans and activities](../../start/using/programs-and-campaigns.md)
 
 **Leverage workflows** to orchestrate and automate your campaigns. [Get started with processes and data management](../../automating/using/get-started-workflows.md)
 
@@ -60,12 +60,12 @@ Design and send messages on online and offline communication channels, including
 
 <img width="60px" alt="conditions" src="assets/icon_report.svg"/>
 
-Once marketing campaigns have been executed and the different messages have been sent, Campaign Standard allows you monitor them to track their impact as well as their recipients' behaviour.
+Once marketing campaigns have been executed and the different messages have been sent, Campaign Standard allows you monitor them to track their impact as well as their recipients' behavior.
 
 **Monitor your deliveries** once they are sent. Consult and export detailed logs about your deliveries. Retrieve information on their status for each recipient, the messages excluded from the target and many more metrics.
-Leverage the delivery alerting feature to keep track of the delivery successes or faillures through email notifications. Want to learn more? [Get started with messages monitoring](../../sending/using/monitoring-a-delivery.md)
+Leverage the delivery alerting feature to keep track of the delivery successes or failures through email notifications. Want to learn more? [Get started with messages monitoring](../../sending/using/monitoring-a-delivery.md)
 
-**Track the behaviour of your delivery recipients**. Leverage session and permanent cookies to retrieve tracking information for each of your contact of your database. Monitor tracking information on deliveries (clicked URLs, mriror pages, opened messages...) through dedicated logs and reports. [Get started with messages tracking](../../sending/using/tracking-messages.md)
+**Track the behavior of your delivery recipients**. Leverage session and permanent cookies to retrieve tracking information for each of your contact of your database. Monitor tracking information on deliveries (clicked URLs, mirror pages, opened messages...) through dedicated logs and reports. [Get started with messages tracking](../../sending/using/tracking-messages.md)
 
 **Leverage dynamic reports** to outline specific metrics related to your message or campaign. Dynamic reporting provides fully customizable and real-time reports that add access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks. With the drag-and-drop interface, you can explore data, determine how your email campaigns performed against your most important customer segments and measure their impact on recipients. [Get started with dynamic reporting](../../reporting/using/about-dynamic-reports.md)
 

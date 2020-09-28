@@ -108,12 +108,27 @@ This section lists features and capabilities that have been removed from Campaig
 <table> 
  <thead> 
   <tr> 
+   <th> <strong>Propensity Score with Experience Cloud Triggers</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p>The <b>Propensity Score</b> has been decommissioned from Adobe Experience Cloud Triggers. As a consequence, this option has been removed from Adobe Campaign Standard. To avoid any outdated values of Propensity score in the Enrichment schemas, we recommend updating schemas to retrieve the latest changes and republishing existing Triggers. For more information, refer to <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html#publishing-trigger-in-campaign"> Publishing a trigger in Campaign </a>.
+</p></br>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+<table> 
+ <thead> 
+  <tr> 
    <th> <strong>Creative SDK for Campaign Standard</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Creative SDK has been decommissioned. As a consequence, image edition powered by Creative SDK in Campaign Standard emails is no longer available starting Campaign 20.2 release.</p></br>
+   <td> <p>[!DNL Adobe Creative SDK] has been decommissioned. As a consequence, image edition powered by [!DNL Creative SDK] in Campaign Standard emails is no longer available starting Campaign 20.2 release.</p></br>
    </td> 
   </tr> 
  </tbody> 

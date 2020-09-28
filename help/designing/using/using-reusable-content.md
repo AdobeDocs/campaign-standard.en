@@ -140,6 +140,11 @@ To use it, create an email and select the content template that you just created
 
 ## About fragments {#about-fragments}
 
+>[!CONTEXTUALHELP]
+>id="ac_fragments"
+>title="About Fragments"
+>abstract="A fragment is a reusable content block that can be referenced in one or more emails."
+
 A fragment is a reusable component that can be referenced in one or more emails.
 They can be found in the interface under **Resources** > **Content fragments and templates**. 
 
@@ -290,19 +295,19 @@ To do this, follow the steps below:
 1. In Adobe Campaign, go to **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** and create a fragment for your header. For more on this, see [Creating a content fragment](#creating-a-content-fragment).
 1. Add as many structure components as you need to your fragment.
 
-![](assets/des_loading_compatible_fragment_1.png)
+   ![](assets/des_loading_compatible_fragment_1.png)
 
 1. Insert image and text components into your structure.
 
-![](assets/des_loading_compatible_fragment_2.png)
+   ![](assets/des_loading_compatible_fragment_2.png)
 
 1. Upload the corresponding image, enter your text and adjust the settings.
 
-![](assets/des_loading_compatible_fragment_3.png)
+   ![](assets/des_loading_compatible_fragment_3.png)
 
 1. Save your fragment.
 1. Proceed similarly to create your footer and save it.
 
-![](assets/des_loading_compatible_fragment_4.png)
+   ![](assets/des_loading_compatible_fragment_4.png)
 
 Your fragments are now ready to be used in a template.

@@ -222,6 +222,11 @@ These conditions adopt the XTK expression syntax (e.g. **context.profile.email !
 
 ### Defining dynamic content in an email{#defining-dynamic-content-in-an-email}
 
+>[!CONTEXTUALHELP]
+>id="ac_dynamic_content"
+>title="Defining dynamic content"
+>abstract="Define different contents that will be displayed to some profiles only according to conditions that you will define."
+
 In an email, you can define different contents which will be displayed dynamically to the recipients according to the conditions defined via the expression editor. For example, from the same email, you can ensure that each profile receives a different message according to their age range.
 
 Defining dynamic content is different from [defining visibility conditions](#defining-a-visibility-condition).
@@ -323,6 +328,11 @@ The email is created as follows:
   Adding and configuring the personalization fields is detailed in the [Inserting a personalization field](#inserting-a-personalization-field) section.
 
 ### Configuring images {#configuring-images}
+
+>[!CONTEXTUALHELP]
+>id="ac_dynamic_image"
+>title="Managing dynamic images"
+>abstract="Personnalize your email with dynamic images according to conditions that you will define."
 
 In this example, the dynamic contents applied to the images are configured as follows:
 

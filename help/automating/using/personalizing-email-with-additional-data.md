@@ -34,7 +34,7 @@ The workflow is presented as follows:
 
    ![](assets/enrichment_example2.png)
 
-   From the query's **[!UICONTROL Additional data]** tab, define the different data to be displayed in the final email:
+1. From the query's **[!UICONTROL Additional data]** tab, define the different data to be displayed in the final email:
 
     * The simple field of the **profile** dimension corresponding to the loyalty points. Refer to the [Adding a simple field](../../automating/using/query.md#adding-a-simple-field) section.
     * Two aggregates based on the transactions collection: the number of products purchased and the total amount spent. You can add them from the **[!UICONTROL Data]** tab of the aggregate configuration window, using the **Count** and **Sum** aggregates. Refer to the [Adding an aggregate](../../automating/using/query.md#adding-an-aggregate) section.
@@ -48,7 +48,7 @@ The workflow is presented as follows:
 
    ![](assets/enrichment_example4.png)
 
-   If you would like to check that the data is correctly transferred by the activity's outbound transition, start the workflow for the first time (without the **[!UICONTROL Email delivery]** activity) and open the query's outbound transition.
+1. If you would like to check that the data is correctly transferred by the activity's outbound transition, start the workflow for the first time (without the **[!UICONTROL Email delivery]** activity) and open the query's outbound transition.
 
    ![](assets/enrichment_example5.png)
 

@@ -40,7 +40,7 @@ Here is a list of the key points to check to ensure good deliverability.
 ## Deliverability tools {#deliverability-tools}
 
 First, start by consulting the documentation on the deliverability tools provided with Campaign Standard:
-* [Delivery best practices](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+* [Delivery best practices](../../sending/using/delivery-best-practices.md)
 * [Personalizing the sender name](../../designing/using/personalization.md#personalizing-the-sender)
 * [Testing the subject line of an email](../../sending/using/testing-subject-line-email.md)
 * [Optimizing the sending time](../../sending/using/optimizing-the-sending-time.md)
@@ -50,7 +50,7 @@ First, start by consulting the documentation on the deliverability tools provide
 * [Receiving alerts when failures happen](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Understanding delivery failures](../../sending/using/understanding-delivery-failures.md)
 * [Understanding quarantine management](../../sending/using/understanding-quarantine-management.md)
-* [Quarantine vs block list](../../sending/using/understanding-quarantine-management.md#quarantine-vs-block-list)
+* [Quarantine vs denylist](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
 * [Dynamic reports](../../reporting/using/about-dynamic-reports.md)
 
 ## Checking network configuration {#network-configuration}

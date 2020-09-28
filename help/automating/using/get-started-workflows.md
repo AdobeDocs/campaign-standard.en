@@ -1,6 +1,6 @@
 ---
 title: Get started with processes and data management
-description: Adobe Campaign offers a comprehensive graphical environment that allows you to design and automate processes.
+description: Automate processes with workflows, manage data and audiences, send messages, and more.
 page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
 contentOwner: sauviat

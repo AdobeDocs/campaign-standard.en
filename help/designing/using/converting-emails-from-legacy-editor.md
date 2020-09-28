@@ -78,7 +78,7 @@ This use case enables you to create an Email Designer template by using an HTML 
 
 Let's try to convert this email, created in the legacy editor, into an **[!UICONTROL Email Designer]** template.
 
-## Identify the section of your email 
+### Identify the section of your email 
 
 We can identify 11 sections in this email. 
 

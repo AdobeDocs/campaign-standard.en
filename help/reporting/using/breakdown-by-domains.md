@@ -16,7 +16,7 @@ snippet: y
 
 # Breakdown by domains{#breakdown-by-domains}
 
-This report contains the performance data for each domain represented in the audience for an email delivery. If it is a campaign or program report, the performance data is available for multiple audiences. This data allows you to analyze the behavior of each domain in reaction to specific events. For example, link display, URL on block list, etc.
+This report contains the performance data for each domain represented in the audience for an email delivery. If it is a campaign or program report, the performance data is available for multiple audiences. This data allows you to analyze the behavior of each domain in reaction to specific events. For example, link display, URL on denylist, etc.
 
 ![](assets/delivery_reports_6.png)
 
@@ -35,5 +35,5 @@ The second table, **Tracking statistics**, contains the available data for recip
 * **Click**: The number of times content was clicked in a delivery.
 * **Unsubscribed**: The number of clicks on the subscription link.
 * **Mirror Page**: The number of clicks on the mirror page link.
-* **Blocklisted**: The number of recipients who have declared an email as spam or junk (see [Block list management in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
+* **On denylist**: The number of recipients who have declared an email as spam or junk. [Learn more](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
