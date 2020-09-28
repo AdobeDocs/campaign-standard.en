@@ -153,6 +153,24 @@ Once the event and the message are published, this link will allow you to enrich
 * [Previewing and publishing the event](#previewing-and-publishing-the-event).
 * [Personalizing a transactional message](../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message).
 
+## Searching transactional events {#searching-transactional-events}
+
+To access and search the transactional events already created, follow the steps below.
+
+1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
+1. Click the **[!UICONTROL Show search]** button.
+
+   ![](assets/message-center_search-events.png)
+
+1. You can filter on the **[!UICONTROL Publication status]**. This allows you to display only the published events for example.
+1. You can also filter the events using the **[!UICONTROL Last event received]**. For example, if you enter 10, only the event configurations with the last event received 10 days ago or more will be displayed. This enables you to display which events have been inactive for a given period.
+
+   ![](assets/message-center_last-event-received.png)
+
+   >[!NOTE]
+   >
+   >The default value is 0. All events are then displayed.
+
 ## Transactional event specific configurations {#transactional-event-specific-configurations}
 
 Transactional event configuration may vary depending on the type of transactional message you want to send (event or profile), and the channel that will be used.
