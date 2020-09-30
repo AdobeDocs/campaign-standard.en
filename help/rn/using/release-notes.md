@@ -114,7 +114,6 @@ snippet: y
 * The logs displaying when exporting packages have been made more specific and detailed about the encountered errors in case of failure.
 * After sending a message, you can now search, filter and export the list of [tracked URLs](../../sending/using/tracking-messages.md).
 * Automatic [synchronization between Launch and Campaign](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow) is now GA and enabled by default.
-* Transactional messages can be sent with a high priority even in case of significant bulk delivery workload.
 * The size of workflow export packages has been optimized by removing the sending proof export.
 * A new message has been added to display the size of the downloaded file in the **File transfer** activity.
 * Error messages for invalid session tokens have been improved.
@@ -128,6 +127,7 @@ snippet: y
 **Patches**
 
 * Fixed an issue which prevented you from using a destination link for Push notifications or In-App messaging when tracking was enabled.
+* Fixed an issue where high priority in transactional messages was not respected in case of significant bulk delivery.
 * Fixed an issue which could prevent you from assigning brands to a transactional email. Several error messages could display during the publication step. (CAMP-44988)
 * Fixed an issue in the workflow user interface which could prevent information from being saved in fields requesting numeric values. (CAMP-44025)
 * Fixed an issue which could display an error message when using a **Test** activity in an import template workflow. (CAMP-42910)
