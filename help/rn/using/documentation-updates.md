@@ -36,6 +36,8 @@ A recommendation has been added to the workflows best practices on the number of
 
 A new section about Delivery best practices has been added. [Read more](../../sending/using/delivery-best-practices.md)
 
+A section has been added to describe the new filters that enable to search the event configurations according to their status and to the last time an event was received. [Read more](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events)
+
 ## Documentation updates - September 2020 {#doc-updates-september-2020}
 
 The Event transactional messages section has been reorganized and clarified. [Read more](../../channels/using/event-transactional-messages.md)

@@ -1,6 +1,6 @@
 ---
 title: Get started with communication channels
-description: Learn how to send personalized messages on various channels and to create cross-channel campaigns to better target your recipients.
+description: Create personalized messages on various channels, use templates, create landing pages and check best practices.
 page-status-flag: never-activated
 uuid: 5d61d8df-8256-4f28-8dd3-e791891e312f
 contentOwner: sauviat

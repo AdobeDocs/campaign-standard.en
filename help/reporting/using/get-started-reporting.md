@@ -1,6 +1,6 @@
 ---
 title: Get started with dynamic reporting
-description: With dynamic reports, drag and drop variables and dimensions into your freeform environment and analyze the success of your campaigns.
+description: Analyze the success of your campaigns in build-in or customized dynamic reports.
 page-status-flag: never-activated
 uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
 contentOwner: sauviat

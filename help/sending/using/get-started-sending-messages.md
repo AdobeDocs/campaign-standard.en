@@ -1,6 +1,6 @@
 ---
 title: Get started with testing and sending
-description: Discover the different steps to test and send a message.
+description: Prepare, test, schedule, send and monitor your messages.
 page-status-flag: never-activated
 uuid: 58666444-6e7c-4049-b2d2-8b26eabf5a82
 contentOwner: sauviat

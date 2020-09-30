@@ -1,6 +1,6 @@
 ---
 title: Get started with Campaign Standard APIs
-description: Learn more about Campaing Standard APIs.
+description: Create integrations and build your own ecosystem by interfacing Campaign with a panel of technologies.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat

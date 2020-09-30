@@ -40,12 +40,12 @@ You can also check out this [introduction video](https://video.tv.adobe.com/v/22
 >[!CONTEXTUALHELP]
 >id="ac_structure_components"
 >title="About Structure components"
->abstract="Structural elements defining the layout of the email."
+>abstract="Structure components define the layout of the email."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns"
 >title="Defining email columns"
->abstract="The Email Designer allows you to easily define the columns structure of your email."
+>abstract="The Email Designer allows you to easily define the layout of your email by defining column structure."
 
 The Email Designer allows you to easily define the structure of your email. By adding and moving structural elements with simple drag-and-drop actions, you can design the shape of your email within seconds.
 
@@ -105,7 +105,7 @@ You can add a **[!UICONTROL Content block]**, a **[!UICONTROL Dynamic content]**
 >[!CONTEXTUALHELP]
 >id="ac_content_components"
 >title="About Content components"
->abstract="Content components are raw, empty components that you can edit once placed in an email."
+>abstract="Content components are empty content placeholders that you can edit to create an email."
 
 Content components are raw, empty components that you can edit once placed in an email.
 
@@ -158,7 +158,9 @@ Select **[!UICONTROL Fallback view]** to display the fallback image in the Email
 >[!CONTEXTUALHELP]
 >id="ac_edition_video"
 >title="Video settings"
->abstract="Use this component to insert a video in your email."
+>abstract="Use this component to insert a video in your email. Note that videos do not work on all email clients. We advise to set a fallback image."
+>additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="Additional info"
+
 
 Insert the video component into a structure component of your email and enter the video link in the **[!UICONTROL Component Settings]**.
 
@@ -181,7 +183,7 @@ Use this component to insert links to social media pages in your email. You can 
 >[!CONTEXTUALHELP]
 >id="ac_edition_carousel"
 >title="Carousel settings"
->abstract="Learn how to insert and configure a carousel into your content."
+>abstract="Learn how to insert and configure a carousel into your content.Note that carousel do not work on all email client and fallback image will be displayed in case it’s not supported."
 
 1. Drag and drop the **[!UICONTROL Carousel]** component inside a structure component.
 1. Browse to select images from your computer.
