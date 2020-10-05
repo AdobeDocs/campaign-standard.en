@@ -82,4 +82,3 @@ This rule is part of a specific typology that applies to all transactional messa
 
 * [Site integration](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)
 * [Typologies](../../sending/using/about-typology-rules.md)
-

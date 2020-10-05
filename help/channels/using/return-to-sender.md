@@ -33,4 +33,3 @@ When the import is done, Adobe Campaign automatically performs the following act
 * Incorrect addresses are added to denylist at the profile level
 * The delivery main indicators (KPIs) are updated
 * The delivery logs are updated
-

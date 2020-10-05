@@ -123,4 +123,3 @@ Once the workflow is started, every customer that received your cart abandonment
 >[!NOTE]
 >
 >If you selected the **[!UICONTROL Profile]** targeting dimension when creating the event configuration, the follow-up message will also leverage the Adobe Campaign marketing database. See [Profile transactional messages](../../channels/using/profile-transactional-messages.md).
-
