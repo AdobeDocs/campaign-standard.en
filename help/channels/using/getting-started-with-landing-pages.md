@@ -88,9 +88,9 @@ From the template defined in the previous step, create a new landing page in a p
 
     ![](assets/lp-steps3.png)
 
-    >[!NOTE]
-    >
-    >Your modifications are only effective for the landing page that is being edited. If you want to apply these modifications to other landing pages, you can carry them out in a dedicated template and then create other landing pages from that template.
+>[!NOTE]
+>
+>Your modifications are only effective for the landing page that is being edited. If you want to apply these modifications to other landing pages, you can carry them out in a dedicated template and then create other landing pages from that template.
 
 ## Step 3 - Design the landing page {#design-the-landing-page}
 

@@ -38,7 +38,7 @@ As the landing page will impact your platform and data, you need to test careful
 
 1. Repeat this with various profiles and data.
 
-   You can also generate the landing page thumbnail from this screen.
+You can also generate the landing page thumbnail from this screen.
 
 >[!NOTE]
 >
