@@ -39,4 +39,3 @@ To access the SMS and push content editor:
 
 * [Creating an SMS message](../../channels/using/creating-an-sms-message.md)
 * [Creating and sending a push notification](../../channels/using/preparing-and-sending-a-push-notification.md)
-

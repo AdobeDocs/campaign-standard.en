@@ -109,11 +109,7 @@ Setting an expiration date to your push notification allows you to set a specifi
 
 To add an expiration date to your push notification:
 
-1. Check the **[!UICONTROL Expire message]** option.
-
-    >[!NOTE]
-    >
-    >By selecting the **[!UICONTROL Expire message]** option, the duration is automatically set to 0. If you do not change the value, both APNS and FCM will try to send the message immediately. If it fails, the message will not be resent.
+1. Check the **[!UICONTROL Expire message]** option: by selecting the **[!UICONTROL Expire message]** option, the duration is automatically set to 0. If you do not change the value, both APNS and FCM will try to send the message immediately. If it fails, the message will not be resent.
 
 1. In the **[!UICONTROL Duration]** field, select the validity of your push notification.
 
@@ -184,4 +180,3 @@ For Android, you can enter the URL of your file in the **Rich media content URL*
 The **[!UICONTROL High priority]** checkbox allows you to set up a high or normal priority for your push notifications. For more information on message priority, refer to the [Google developer documentation](https://firebase.google.com/docs/cloud-messaging/concept-options#setting-the-priority-of-a-message).
 
 ![](assets/push_notif_advanced_11.png)
-

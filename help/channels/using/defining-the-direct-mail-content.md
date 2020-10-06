@@ -65,4 +65,3 @@ For example, you might want to include, for the direct mail provider, the sender
 The sender address is defined in the **[!UICONTROL Send]** section of the direct mail properties or at the template level.
 
 ![](assets/direct_mail_24.png)
-

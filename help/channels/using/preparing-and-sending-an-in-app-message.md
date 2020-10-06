@@ -165,4 +165,3 @@ Once you have finished preparing your delivery and the approval steps have been 
 
 * [In-App report](../../reporting/using/in-app-report.md)
 * [Sending an In-App message within a workflow](../../automating/using/in-app-delivery.md)
-

@@ -35,6 +35,7 @@ To perform the creation of SMS or email template, follow these steps:
    >You can also modify an existing standard template in a multilingual template by clicking on the **[!UICONTROL Initialize content variant]** button in the template properties.
 
 1. Modify the properties to customize label, tracking, etc.
+
 1. Modify the number of desired variants by clicking on the variants tile. The variants window is displayed
 
    ![](assets/multi_template_variants.png)
@@ -48,6 +49,7 @@ To perform the creation of SMS or email template, follow these steps:
    >Do not delete the "default" variant as it is the variant sent to profiles without a completed preferred language parameter.
 
 1. Customize label variant if needed and click **[!UICONTROL Confirm]**.
+
 1. You can also directly add the content for each variant.
 
 You are now ready to create an email or an SMS message based on this multilingual template.

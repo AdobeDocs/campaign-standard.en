@@ -66,4 +66,3 @@ A message's status is represented by a specific color in the lists. The possible
   >[!NOTE]
   >
   >A yellow notification banner may appear above the card when an action is required, for example when you have to confirm sending a message.
-

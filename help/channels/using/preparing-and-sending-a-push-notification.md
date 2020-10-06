@@ -1,5 +1,5 @@
 ---
-title: Preparing and sending a push notification
+title: Create and send a push notification
 description: Follow these steps to create a single-send push notification in Adobe Campaign.
 page-status-flag: never-activated
 uuid: 01997725-ca0a-420c-9e81-5ea801652f87
@@ -79,7 +79,9 @@ The steps for creating a push notification with Adobe Campaign are:
 
    >[!CAUTION]
    >
-   >If the payload size exceeds 4KB limit, the message will not be delivered. Personalization data impacts the size of message.
+   >If the payload size exceeds 4KB limit, the message will not be delivered. 
+
+Note that personalization data impacts the size of message.
 
 ## Sending the notification {#sending-the-notification}
 
@@ -114,7 +116,7 @@ Push notifications can be sent to a selected audience in Adobe Campaign by defin
 
    >[!NOTE]
    >
-   >Reasons can be any failure downstream to Adobe Campaign. In case of failures from providers like apns and fcm, the reason will reflect that as well. For more information on provider failures, you can refer to the [Apple](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CommunicatingwithAPNs.html) and [Android](https://firebase.google.com/docs/cloud-messaging/http-server-ref  ) documentation.
+   >Reasons can be any failure downstream to Adobe Campaign. In case of failures from providers like apns and fcm, the reason will reflect that as well. For more information on provider failures, you can refer to the [Apple](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CommunicatingwithAPNs.html) and [Android](https://firebase.google.com/docs/cloud-messaging/http-server-ref) documentation.
 
    ![](assets/push_send_6.png)
 
@@ -124,4 +126,3 @@ You can now measure the impact of your push notification delivery with dynamic r
 
 * [Push notification report](../../reporting/using/push-notification-report.md)
 * [Sending a push notification within a workflow](../../automating/using/push-notification-delivery.md)
-

@@ -89,4 +89,3 @@ The SMS and push content editor offers the following functionalities:
 * Add a content block. For more on this, see [Adding a content block](../../designing/using/personalization.md#adding-a-content-block).
 * Add dynamic text. For more on this, see [Defining dynamic text](../../channels/using/defining-dynamic-text.md).
 * Personalize the name of the SMS sender (SMS only). For more on this, see [SMS configuration](../../administration/using/configuring-sms-channel.md#configuring-sms-properties).
-

@@ -46,4 +46,3 @@ The example below shows how to define dynamic text in an SMS message.
 Once a condition is defined for at least one variant, a purple frame is displayed around the dynamic text.
 
 ![](assets/dynamic_text_sms_3.png)
-
