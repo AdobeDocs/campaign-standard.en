@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: data-management-activities
 discoiquuid: 752f2aed-f897-485e-b329-f3cc1756ee8e
 context-tags: fileTransfer,main
-internal: n
-snippet: y
 ---
 
 # Transfer file{#transfer-file}

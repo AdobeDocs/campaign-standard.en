@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: working-with-campaign-and-triggers
 discoiquuid: e526b205-2d01-4a8b-9685-ba1d9a1f459f
 context-tags: trigger,overview;trigger,main
-internal: n
-snippet: y
 ---
 
 # About Adobe Experience Cloud Triggers{#about-adobe-experience-cloud-triggers}

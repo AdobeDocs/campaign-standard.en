@@ -9,8 +9,6 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 ---
 
 # Triggering a signal activity {#triggering-a-signal-activity}

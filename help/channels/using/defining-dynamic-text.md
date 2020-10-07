@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: defining-conditional-content
 discoiquuid: 6bb6cee3-5674-4113-8073-5a9572b3e830
 
-internal: n
-snippet: y
 ---
 
 # Defining dynamic text{#defining-dynamic-text}

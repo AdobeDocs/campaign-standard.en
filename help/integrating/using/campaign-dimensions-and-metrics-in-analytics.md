@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: working-with-campaign-and-analytics
 discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 
-internal: n
-snippet: y
 ---
 
 # Campaign dimensions and metrics in Analytics{#campaign-dimensions-and-metrics-in-analytics}

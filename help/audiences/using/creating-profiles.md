@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: managing-profiles
 discoiquuid: 4ab8a984-f898-4fff-ad8c-ed8f95362f96
 
-internal: n
-snippet: y
 ---
 
 # Creating profiles{#creating-profiles}

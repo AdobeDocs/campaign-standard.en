@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
 discoiquuid: a1736ba3-5121-4d01-bf04-ebb7e701e2e0
 
-internal: n
-snippet: y
 ---
 
 # Personalizing Campaign messages with Point of Interest data{#personalizing-campaign-messages-with-point-of-interest-data}

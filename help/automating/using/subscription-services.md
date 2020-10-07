@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: data-management-activities
 discoiquuid: 74a6df0e-fd85-4404-a42c-9a7406512717
 context-tags: setOfService,workflow,main
-internal: n
-snippet: y
 ---
 
 # Subscription Services {#subscription-services}

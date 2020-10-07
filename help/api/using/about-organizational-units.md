@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 
-internal: n
-snippet: y
 ---
 
 # About organizational units {#about-organizational-units}

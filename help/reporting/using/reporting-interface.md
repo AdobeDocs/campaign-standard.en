@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: about-reporting
 discoiquuid: 14d86b4f-2782-48ec-8968-393a6de4f853
 
-internal: n
-snippet: y
 ---
 
 # Reporting interface{#reporting-interface}

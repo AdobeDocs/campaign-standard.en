@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: use-case--extending-the-api
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 
-internal: n
-snippet: y
 ---
 
 # About extending the API{#about-extending-the-api}

@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: direct-mail
 discoiquuid: 141fa646-5260-4450-bafb-431ef7736c73
 context-tags: delivery,directMailContent,back
-internal: n
-snippet: y
 ---
 
 # Coupling email and direct mail deliveries {#coupling-email-direct-mail}

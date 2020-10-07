@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: data-management-activities
 discoiquuid: cb8c43f4-9cdd-4e85-99a4-004b36b336aa
 context-tags: reconciliation,main
-internal: n
-snippet: y
 ---
 
 # Reconciliation{#reconciliation}

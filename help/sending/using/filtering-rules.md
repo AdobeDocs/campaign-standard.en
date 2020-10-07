@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: working-with-typology-rules
 discoiquuid: 7ddaf36c-74e6-4501-b3eb-3d03f005aaa6
 
-internal: n
-snippet: y
 ---
 
 # Filtering rules {#filtering-rules}

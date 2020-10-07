@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: marketing-plans
 discoiquuid: 3ba165e1-420f-4d6f-b339-467b066b42d0
 context-tags: activity,overview
-internal: n
-snippet: y
 ---
 
 # Marketing activities{#marketing-activities}

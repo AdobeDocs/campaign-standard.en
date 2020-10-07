@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: customizing-reports
 discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
 
-internal: n
-snippet: y
 ---
 
 # Creating a report based on workflow segments{#creating-a-report-workflow-segment}

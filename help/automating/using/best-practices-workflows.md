@@ -9,8 +9,6 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
-internal: n
-snippet: y
 ---
 
 # Workflow best practices{#workflow-best-practices}

@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: data-management-activities
 discoiquuid: 332bd6be-6ca3-4d38-b608-8a66c156d080
 
-internal: n
-snippet: y
 ---
 
 # About data management activities{#about-data-management-activities}

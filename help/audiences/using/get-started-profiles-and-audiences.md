@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: about-profiles-and-audiences
 discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 
-internal: n
-snippet: y
 ---
 
 # Get started with profiles and audiences{#about-profiles-and-audiences}

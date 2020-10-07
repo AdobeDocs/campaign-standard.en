@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: list-of-reports
 discoiquuid: 9349de98-6b77-4d1c-b2fe-cf44cdcd07ce
 context-tags: deliveryTopUrlReport,main;campaignTopUrlReport,main;programTopUrlReport,main
-internal: n
-snippet: y
 ---
 
 # Service summary{#service-summary}

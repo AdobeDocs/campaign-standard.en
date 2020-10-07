@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: monitoring-messages
 discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 
-internal: n
-snippet: y
 ---
 
 # Understanding delivery failures{#understanding-delivery-failures}

@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: adding-or-extending-a-resource
 discoiquuid: 7e130e62-3f6e-41cc-8108-e64127d8d6ec
 
-internal: n
-snippet: y
 ---
 
 # Key steps to add a resource{#key-steps-to-add-a-resource}

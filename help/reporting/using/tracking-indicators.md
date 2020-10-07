@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: list-of-reports
 discoiquuid: 64abc885-2aec-423f-bf5b-5a623a16ca6d
 context-tags: deliveryTrackingReports,main;campaignTrackingReport,main;programTrackingReport,main
-internal: n
-snippet: y
 ---
 
 # Tracking indicators{#tracking-indicators}

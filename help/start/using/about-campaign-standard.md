@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: about-adobe-campaign
 discoiquuid: aee81724-b425-47b4-af92-e55eff97836f
 
-internal: n
-snippet: y
 ---
 
 # Get Started with Campaign Standard {#about-campaign-standard}

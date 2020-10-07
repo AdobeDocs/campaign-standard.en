@@ -9,8 +9,6 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 discoiquuid: a06509f9-4731-4187-b43d-3bfa361284d3
-internal: n
-snippet: y
 ---
 
 # Exporting / importing custom resources {#exporting-importing-custom-resources}

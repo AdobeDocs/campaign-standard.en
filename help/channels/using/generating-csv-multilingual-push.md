@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: email-messages
 discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
 
-internal: n
-snippet: y
 ---
 
 # Generating a CSV file for Multilingual Push Notification{#generating-csv-multilingual-push}

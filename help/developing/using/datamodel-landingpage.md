@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: editing-sms-and-push-content
 discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
 context-tags: delivery,smsContent,back
-internal: n
-snippet: y
 ---
 
 # landingPage (nms:landingPage)

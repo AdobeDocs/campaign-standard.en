@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: about-communication-channels
 discoiquuid: 72a7bd19-4ac7-460e-b3ef-e570d8a802e1
 context-tags: activity,overview
-internal: n
-snippet: y
 ---
 
 # Accessing messages{#accessing-messages}

@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: application-settings
 discoiquuid: b791562b-6c51-447d-9e5b-bb77136f3dd8
 
-internal: n
-snippet: y
 ---
 
 # Data retention{#data-retention}

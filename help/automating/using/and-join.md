@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: execution-activities
 discoiquuid: 4b55efa2-652e-4493-bfa7-eaee59b383ca
 context-tags: andjoin,main
-internal: n
-snippet: y
 ---
 
 # AND-join{#and-join}

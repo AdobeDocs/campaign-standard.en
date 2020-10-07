@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: direct-mail
 discoiquuid: f993d1b6-4b9a-4f95-81fc-60c126211bd2
 context-tags: delivery,directMailContent,back
-internal: n
-snippet: y
 ---
 
 # Defining the direct mail audience{#defining-the-direct-mail-audience}

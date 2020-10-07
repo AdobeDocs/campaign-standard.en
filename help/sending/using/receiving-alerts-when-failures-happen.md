@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: monitoring-messages
 discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 
-internal: n
-snippet: y
 ---
 
 # Receiving alerts when failures happen{#receiving-alerts-when-failures-happen}

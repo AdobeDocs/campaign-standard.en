@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: working-with-typology-rules
 discoiquuid: 2590d94c-51ef-4c0f-b1ec-c2837e94da40
 context-tags: typology,overview;typologyRule,main;typologyRule,overview
-internal: n
-snippet: y
 ---
 
 # Managing typology rules {#managing-typology-rules}

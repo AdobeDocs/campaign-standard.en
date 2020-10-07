@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: landing-pages
 discoiquuid: 899c7152-f415-4df9-b4b4-5ff3470a4e32
 context-tags: landingPage,main
-internal: n
-snippet: y
 ---
 
 # Configuring a landing page {#configuring-landing-page}

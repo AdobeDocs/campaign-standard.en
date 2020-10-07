@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: about-adobe-campaign
 discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 
-internal: n
-snippet: y
 ---
 
 # Enriching the database{#enriching-the-database}

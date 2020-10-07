@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
 discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 
-internal: n
-snippet: y
 ---
 
 # Configure Microsoft Dynamics 365 for Campaign integration

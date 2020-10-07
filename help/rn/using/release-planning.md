@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: campaign-standard-release-planning
 discoiquuid: 
 
-internal: n
-snippet: y
 ---
 
 # Release Planning {#release-planning}

@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: execution-activities
 discoiquuid: 911c71b5-da8b-4916-b645-13bba6d21715
 context-tags: signal,main
-internal: n
-snippet: y
 ---
 
 # External signal{#external-signal}

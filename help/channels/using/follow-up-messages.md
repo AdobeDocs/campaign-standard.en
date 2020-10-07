@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: transactional-messaging
 discoiquuid: 9615e369-754f-4f6a-a1b1-14462f946666
 
-internal: n
-snippet: y
 ---
 
 # Follow-up messages{#follow-up-messages}

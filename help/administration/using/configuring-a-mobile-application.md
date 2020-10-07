@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 2a14500f-5ede-4131-8b1a-b7fd65b7e3aa
 
-internal: n
-snippet: y
 ---
 
 # Configuring a mobile application{#configuring-a-mobile-application}
@@ -104,9 +102,10 @@ For more information on Sync Mobile app AEPSDK from Launch technical workflow, r
    >[!NOTE]
    >
    >By default, to retrieve the list of mobile applications created in Adobe Launch, Campaign Standard uses the value defined in the NmsServer_URL option to look for matching properties.
-   In some cases, the Campaign endpoint for a mobile application may be different from the one defined in NmsServer_URL. In that case, define the endpoint in the Launch_URL_Campaign option. Campaign will use the value from this option to look for matching properties in Adobe Launch.
+   >
+   >In some cases, the Campaign endpoint for a mobile application may be different from the one defined in NmsServer_URL. In that case, define the endpoint in the Launch_URL_Campaign option. Campaign will use the value from this option to look for matching properties in Adobe Launch.
 
-      ![](assets/launch_4.png)
+   ![](assets/launch_4.png)
 
 1. You can change the organizational unit of your mobile application under the **[!UICONTROL Access Authorization]** section to limit access to this mobile application to specific organization units. For more information, refer to this page.
 

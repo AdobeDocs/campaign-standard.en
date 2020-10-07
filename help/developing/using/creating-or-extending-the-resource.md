@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: adding-or-extending-a-resource
 discoiquuid: 8dc45c37-6908-407e-8e41-4a4188cba2b3
 
-internal: n
-snippet: y
 ---
 
 # Creating or extending the resource{#creating-or-extending-the-resource}

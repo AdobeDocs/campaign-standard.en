@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: customizing-reports
 discoiquuid: 6170342b-7e16-4cc5-81a0-fa0bef8569a8
 
-internal: n
-snippet: y
 ---
 
 # Adding visualizations{#adding-visualizations}

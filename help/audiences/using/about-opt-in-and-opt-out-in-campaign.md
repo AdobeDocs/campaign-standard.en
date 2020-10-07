@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
 discoiquuid: 2f26ec22-0809-4541-b2a1-e84ff868ba6e
 
-internal: n
-snippet: y
 ---
 
 # About opt-in and opt-out in Campaign{#about-opt-in-and-opt-out-in-campaign}

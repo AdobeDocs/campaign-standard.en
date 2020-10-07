@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: channel-activities
 discoiquuid: 978592b8-989a-446a-8a84-12b7fecfc130
 context-tags: sms,main;delivery,smsContent,back
-internal: n
-snippet: y
 ---
 
 # SMS delivery{#sms-delivery}

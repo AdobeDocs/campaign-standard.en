@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: sheduling-messages
 discoiquuid: 609355f6-9003-41b9-9981-ea787419fbf5
 
-internal: n
-snippet: y
 ---
 
 # Optimizing the sending time{#optimizing-the-sending-time}

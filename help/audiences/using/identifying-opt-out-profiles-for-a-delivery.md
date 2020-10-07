@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
 discoiquuid: 896859da-a230-4f13-9b1f-cbff34b3c0e0
 
-internal: n
-snippet: y
 ---
 
 # Identifying opt-out profiles for a delivery{#identifying-opt-out-profiles-for-a-delivery}

@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 1f6bb048-7abd-499b-a4b0-187f9492dc47
 context-tags: saveAudience,main
-internal: n
-snippet: y
 ---
 
 # Save audience{#save-audience}

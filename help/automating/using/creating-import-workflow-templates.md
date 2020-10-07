@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 
-internal: n
-snippet: y
 ---
 
 # Creating workflow templates to import data {#import-workflow-template}
