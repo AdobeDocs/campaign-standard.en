@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: landing-pages
 discoiquuid: ca8d1698-6e8a-4f5a-b017-74a152e14286
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
-internal: n
-snippet: y
 ---
 
 # Getting started with landing pages {#getting-started-with-landing-pages}

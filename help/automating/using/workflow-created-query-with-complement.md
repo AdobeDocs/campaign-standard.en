@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: execution-activities
 discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
 context-tags: workflow,use-case,segmentation
-internal: n
-snippet: y
 ---
 
 # Creating deliveries with a complement {#deliveries-with-complement}

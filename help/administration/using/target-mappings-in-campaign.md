@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: application-settings
 discoiquuid: 73d06242-a02f-4a8d-85e9-73efffb5eda1
 
-internal: n
-snippet: y
 ---
 
 # Target mappings in Campaign{#target-mappings-in-campaign}

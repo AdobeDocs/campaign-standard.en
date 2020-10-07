@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: troubleshooting
 discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 
-internal: n
-snippet: y
 ---
 
 # Troubleshooting{#troubleshooting}

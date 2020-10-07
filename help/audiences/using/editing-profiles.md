@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: managing-profiles
 discoiquuid: 8d3ba7bf-90ae-4c6d-aaeb-a48572a69f2f
 
-internal: n
-snippet: y
 ---
 
 # Editing profiles{#editing-profiles}

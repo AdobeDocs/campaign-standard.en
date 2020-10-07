@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: users-and-security
 discoiquuid: ceaa3c94-9e1a-4271-b443-b00b4068929f
 context-tags: role,overview;role,main
-internal: n
-snippet: y
 ---
 
 # List of roles{#list-of-roles}

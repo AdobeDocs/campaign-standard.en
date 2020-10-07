@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: data-management-activities
 discoiquuid: 4db83c95-4b75-4a16-8dbf-bd8940431fa9
 context-tags: writer,main
-internal: n
-snippet: y
 ---
 
 # Update data{#update-data}

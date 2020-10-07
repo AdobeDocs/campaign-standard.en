@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 
-internal: n
-snippet: y
 ---
 
 # About Adobe Experience Platform Data Connector {#about-aep-data-connector}

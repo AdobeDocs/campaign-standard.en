@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: sending-and-tracking-messages
 discoiquuid: 8bb160b1-7de9-4c1f-bb89-b2e5fdafed41
 context-tags: delivery,deployment,back
-internal: n
-snippet: y
 ---
 
 # Confirming the send{#confirming-the-send}

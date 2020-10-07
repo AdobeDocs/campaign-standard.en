@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: customizing-reports
 discoiquuid: f4e1e676-5ca2-4a58-96d7-d378ff803710
 
-internal: n
-snippet: y
 ---
 
 # Adding panels{#adding-panels}

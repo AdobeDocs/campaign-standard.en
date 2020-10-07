@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: working-with-campaign-and-triggers
 discoiquuid: a524c700-bad6-4fcf-857a-c31bfae4d30c
 
-internal: n
-snippet: y
 ---
 
 # Using Triggers in Campaign{#using-triggers-in-campaign}

@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: users-and-security
 discoiquuid: 08c8712a-0066-4b8b-8471-2656b8fb23ed
 
-internal: n
-snippet: y
 ---
 
 # Users management{#users-management}

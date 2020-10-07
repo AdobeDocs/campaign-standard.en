@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: sms-messages
 discoiquuid: b27381a9-19e5-4b65-b194-c72f475ba54d
 delivercontext-tags: deliveryCreation,wizard
-internal: n
-snippet: y
 ---
 
 # Creating an SMS message{#creating-an-sms-message}

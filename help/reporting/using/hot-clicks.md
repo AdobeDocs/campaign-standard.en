@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: list-of-reports
 discoiquuid: ecbc1ade-63d9-4ac2-9828-380a1aa95094
 context-tags: deliveryHotClicksReport,main
-internal: n
-snippet: y
 ---
 
 # Hot clicks{#hot-clicks}

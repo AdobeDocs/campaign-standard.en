@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: marketing-plans
 discoiquuid: 21b84028-d1a7-4ad6-891a-862a94565514
 context-tags: campaign,overview;campaignExplorer,main
-internal: n
-snippet: y
 ---
 
 # Programs and campaigns{#programs-and-campaigns}

@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: get-started-campaign-integrations
 discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 
-internal: n
-snippet: y
 ---
 
 # About Campaign integrations{#get-started-campaign-integrations}

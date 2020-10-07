@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 356d4d4f-3d5a-468c-bff8-96767cd8fff6
 context-tags: extAccountMobile,overview;extAccount,main;delivery,smsContent,back
-internal: n
-snippet: y
 ---
 
 # Configuring SMS channel{#configuring-sms-channel}

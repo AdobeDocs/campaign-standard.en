@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 
-internal: n
-snippet: y
 ---
 
 # Documentation Updates{#documentation-updates}

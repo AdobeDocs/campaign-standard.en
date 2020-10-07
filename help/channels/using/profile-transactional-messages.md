@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: transactional-messaging
 discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
 
-internal: n
-snippet: y
 ---
 
 # Profile transactional messages{#profile-transactional-messages}

@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: use-case--extending-the-api
 discoiquuid: e9a7d1ab-9a4a-49d2-a725-7bcf8fc240d6
 
-internal: n
-snippet: y
 ---
 
 # Step 1: Add extension fields to the profile resource{#step-add-extension-fields-to-the-profile-resource}

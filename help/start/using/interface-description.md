@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: dafd9860-cd22-4c30-86b7-631b64db7b3f
 
-internal: n
-snippet: y
 ---
 
 # Interface description{#interface-description}

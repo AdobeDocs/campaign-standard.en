@@ -10,16 +10,13 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 
-internal: n
-snippet: y
 ---
 
 # Import best practices {#import-best-practices}
 
 >[!CAUTION]
 >
->Please keep in mind the SFTP storage, DB Storage and active profile limits as per your Adobe 
-Campaign contract while using this functionality.
+>Please keep in mind the SFTP storage, DB Storage and active profile limits as per your Adobe Campaign contract while using this functionality.
 
 Being cautious and following the few simple rules detailed below will help a lot in ensuring data consistency within the database and in avoiding common errors during database update or data exports.
 

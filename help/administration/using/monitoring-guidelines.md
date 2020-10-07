@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: 8b33e6af-15c3-4b30-8ad6-d76a1f33be21
 index: y
-internal: n
-snippet: y
 ---
 
 # Monitoring guidelines {#monitoring-guidelines}

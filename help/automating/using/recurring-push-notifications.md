@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: channel-activities
 discoiquuid: e61bdaee-4b48-4845-a2a5-574b577ea796
 
-internal: n
-snippet: y
 ---
 
 # Sending a recurring push notification with a workflow {#sending-a-recurring-push-notification-with-a-workflow}

@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: push-notifications
 discoiquuid: ec930cd4-6365-4e54-babe-9dc2eed041fc
 context-tags: delivery,mobileAppContent,back
-internal: n
-snippet: y
 ---
 
 # Preparing and sending a push notification{#preparing-and-sending-a-push-notification}

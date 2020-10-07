@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: list-of-reports
 discoiquuid: 3f17c2ad-8ba3-4795-93ed-288b2bcee872
 
-internal: n
-snippet: y
 ---
 
 # In-App report{#in-app-report}

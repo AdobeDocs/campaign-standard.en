@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: execution-activities
 discoiquuid: a0a8a725-8ede-4626-9798-b86924b58beb
 
-internal: n
-snippet: y
 ---
 
 # Start and end{#start-and-end}

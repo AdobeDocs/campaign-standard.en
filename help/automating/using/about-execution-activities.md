@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: execution-activities
 discoiquuid: b1c53b8f-4e8d-4a10-8b01-4997a558e144
 
-internal: n
-snippet: y
 ---
 
 # About execution activities{#about-execution-activities}

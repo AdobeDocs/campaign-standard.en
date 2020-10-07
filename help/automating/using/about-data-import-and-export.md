@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 discoiquuid: 31215773-6c0c-48f1-9101-da0ea2a366da
 
-internal: n
-snippet: y
 ---
 
 # About data import and export{#about-data-import-and-export}

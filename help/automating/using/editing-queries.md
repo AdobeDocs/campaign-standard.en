@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: filtering-data
 discoiquuid: 84306a1e-0d9f-44cc-88a7-36d7e5b4da1f
 context-tags: queryFilter,overview;audience,main
-internal: n
-snippet: y
 ---
 
 # Editing queries{#editing-queries}

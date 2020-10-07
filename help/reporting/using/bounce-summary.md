@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: list-of-reports
 discoiquuid: 5ae561b4-03cf-4541-87ff-47f1027d53b8
 context-tags: bounceReport,main;campaignCirculationReport,main;programCirculationReport,main
-internal: n
-snippet: y
 ---
 
 # Bounce summary{#bounce-summary}

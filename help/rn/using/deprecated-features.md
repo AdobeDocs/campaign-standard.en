@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: campaign-standard-deprecated-features
 discoiquuid: 
 
-internal: n
-snippet: y
 ---
 
 # Deprecated and Removed Features {#deprecated-and-removed-features}

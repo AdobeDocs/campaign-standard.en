@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: working-with-campaign-and-assets-core-service
 discoiquuid: e6fefe10-afd5-4628-8d9b-69eeb38070eb
 
-internal: n
-snippet: y
 ---
 
 # Working with Campaign and Assets core service{#working-with-campaign-and-assets-core-service}

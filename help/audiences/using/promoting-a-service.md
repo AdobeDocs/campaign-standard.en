@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: managing-subscriptions
 discoiquuid: 98650305-7abf-456f-8c91-cf0b61f53763
 
-internal: n
-snippet: y
 ---
 
 # Promoting a service{#promoting-a-service}

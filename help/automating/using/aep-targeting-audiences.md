@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: channel-activities
 discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
 
-internal: n
-snippet: y
 ---
 
 # Targeting Adobe Experience Platform audiences {#targeting-aep-audiences}

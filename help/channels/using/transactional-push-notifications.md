@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: transactional-messaging
 discoiquuid: e645d4b9-001f-47d9-8a0f-b4696c75c5d3
 
-internal: n
-snippet: y
 ---
 
 # Transactional push notifications{#transactional-push-notifications}

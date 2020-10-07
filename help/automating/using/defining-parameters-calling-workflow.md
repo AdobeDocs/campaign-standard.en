@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 
-internal: n
-snippet: y
 ---
 
 # Defining the parameters when calling the workflow {#defining-the-parameters-when-calling-the-workflow}

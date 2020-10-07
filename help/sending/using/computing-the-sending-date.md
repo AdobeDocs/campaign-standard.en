@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: sheduling-messages
 discoiquuid: 02a87cc6-c40c-44fe-bb4e-b68870a4859b
 
-internal: n
-snippet: y
 ---
 
 # Computing the sending date{#computing-the-sending-date}

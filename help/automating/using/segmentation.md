@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 0ccd9d02-772e-406b-874a-5381dd0c8709
 context-tags: segmentation,main
-internal: n
-snippet: y
 ---
 
 # Segmentation{#segmentation}

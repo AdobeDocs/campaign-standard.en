@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 discoiquuid: ca8a95d8-523f-4085-a2fc-e1d8262cfbae
 
-internal: n
-snippet: y
 ---
 
 # Exporting logs{#exporting-logs}

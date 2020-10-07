@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: execution-activities 
 discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
 context-tags: workflow,use-case,query,delivery,scheduler
-internal: n
-snippet: y
 ---
 
 # Creating an email delivery every Tuesday{#creating-email-every-tuesday}

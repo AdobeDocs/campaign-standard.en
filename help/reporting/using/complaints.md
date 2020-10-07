@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: list-of-reports
 discoiquuid: e32cfb8f-e973-4bf2-a7f9-e99951a6bfbd
 context-tags: deliveryComplaintsReport,main;campaignComplaintsReport,main;programComplaintsReport,main
-internal: n
-snippet: y
 ---
 
 # Complaints{#complaints}

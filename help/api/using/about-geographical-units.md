@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 
-internal: n
-snippet: y
 ---
 
 # About geographical units {#about-geographical-units}
@@ -19,8 +17,10 @@ snippet: y
 >[!CAUTION]
 >
 >The Geographical unit feature has been deprecated with the Campaign Standard 18.7 release.
-As a result, new Campaign Standard instances, as well as existing instances with no geographical units created, cannot have this capability implemented starting the 18.7 release.
-For more on this, refer to the <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">Deprecated features</a> page.
+>
+>As a result, new Campaign Standard instances, as well as existing instances with no geographical units created, cannot have this capability implemented starting the 18.7 release.
+>
+>For more on this, refer to the <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">Deprecated features</a> page.
 
 The **geoUnitBase** endpoint lets you interact with Geographical units, enabling you, for example, to update their attributes or update a profile's unit.
 

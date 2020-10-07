@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: sms-messages
 discoiquuid: ee1970e6-1ced-46e0-94e6-8337768300ee
 delivercontext-tags: delivery,smsContent,back
-internal: n
-snippet: y
 ---
 
 # Managing incoming SMS{#managing-incoming-sms}

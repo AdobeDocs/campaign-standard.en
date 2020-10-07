@@ -7,8 +7,6 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
-internal: n
-snippet: y
 ---
 
 # External API {#external-api}

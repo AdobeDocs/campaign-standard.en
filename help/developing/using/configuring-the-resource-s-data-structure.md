@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: adding-or-extending-a-resource
 discoiquuid: 4f22ee35-1d5f-4c75-95b4-3e38b85de26e
 context-tags: cusResource,main
-internal: n
-snippet: y
 ---
 
 # Configuring the resource's data structure{#configuring-the-resource-s-data-structure}

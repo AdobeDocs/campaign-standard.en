@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: list-of-reports
 discoiquuid: 536067df-d16d-472a-850a-5fb7c609d60a
 context-tags: deliveryCirculationReport,main;campaignCirculationReport,main;programCirculationReport,main
-internal: n
-snippet: y
 ---
 
 # Delivery summary{#delivery-summary}

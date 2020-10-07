@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: working-with-campaign-and-analytics
 discoiquuid: 2ea51543-fe4d-462b-b47e-9ccaa1d68dfa
 
-internal: n
-snippet: y
 ---
 
 # About Campaign-Analytics integration{#about-campaign-analytics-integration}

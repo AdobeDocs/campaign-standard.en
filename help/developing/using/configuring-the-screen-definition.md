@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: adding-or-extending-a-resource
 discoiquuid: 9dabb328-ac0c-49fd-8996-8d56341ee7ac
 context-tags: cusResource,main
-internal: n
-snippet: y
 ---
 
 # Configuring the screen definition{#configuring-the-screen-definition}

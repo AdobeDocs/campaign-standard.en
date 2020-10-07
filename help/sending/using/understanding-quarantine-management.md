@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: monitoring-messages
 discoiquuid: de3a50b6-ea8f-4521-996b-c49cc1f3c946
 
-internal: n
-snippet: y
 ---
 
 # Understanding quarantine management{#understanding-quarantine-management}

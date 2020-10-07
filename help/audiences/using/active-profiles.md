@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: managing-profiles
 discoiquuid: e029213f-0b65-41b1-8adf-34fa813b0c70
 
-internal: n
-snippet: y
 ---
 
 # Active profiles{#active-profiles}

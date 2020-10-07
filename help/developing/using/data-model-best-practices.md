@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: about-custom-resources
 discoiquuid: 4e0468da-3052-4ce5-8174-45aba1f5c4ed
 context-tags: cusResource,overview;eventCusResource,overview
-internal: n
-snippet: y
 ---
 
 # Data model best practices{#data-model-best-practices}

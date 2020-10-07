@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: push-notifications
 discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
-internal: n
-snippet: y
 ---
 
 # About push notifications{#about-push-notifications}
@@ -55,7 +53,8 @@ As an expert user, to define these specific configurations, refer to the mobile 
 
 >[!NOTE]
 >To leverage the push notification feature from Campaign, you need  to provide a valid push certificate in .pem format with no passwords.
-If you have a valid p12 certificate, you can convert it easily into a .pem file using online resources.
+>
+>If you have a valid p12 certificate, you can convert it easily into a .pem file using online resources.
 
 Before sending your push notifications, you should:
 

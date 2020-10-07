@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 
-internal: n
-snippet: y
 ---
 
 # Declaring the parameters in the External signal activity {#declaring-the-parameters-in-the-external-signal-activity}

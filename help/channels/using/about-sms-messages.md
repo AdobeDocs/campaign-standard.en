@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: sms-messages
 discoiquuid: 6134fe72-77de-4fd0-b794-4d966effaccf
 delivercontext-tags: deliveryCreation,wizard;delivery,smsContent,back
-internal: n
-snippet: y
 ---
 
 # About SMS messages{#about-sms-messages}

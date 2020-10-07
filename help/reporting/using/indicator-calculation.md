@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: about-reporting
 discoiquuid: 45b11631-6b32-4074-8c8d-affd06407810
 
-internal: n
-snippet: y
 ---
 
 # Indicator calculation{#indicator-calculation}
