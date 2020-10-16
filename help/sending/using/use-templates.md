@@ -42,7 +42,7 @@ In the **[!UICONTROL Advanced parameters]** section of an email template's prope
 
 ![](assets/template-parameters.png)
 
-The address domain must be the same as the sub-domain that you delegated to Adobe.
+The address domain must be the same as the sub-domain that you configured.
 
 The **[!UICONTROL Reply to]** fields correspond to the email address and name used for replies.
 
