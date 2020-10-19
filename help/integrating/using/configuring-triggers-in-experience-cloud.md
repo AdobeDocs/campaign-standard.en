@@ -48,7 +48,7 @@ You also need to have a working website.
 
 >[!CAUTION]
 >
->Sub-domain delegation is a deliverability key element. Make sure that the Adobe Campaign emails are sent from the same domain as the one used by the website.
+>Sub-domain configuration is a deliverability key element. Make sure that the Adobe Campaign emails are sent from the same domain as the one used by the website.
 
 You need to configure [Experience Cloud DTM Core Service](#configuring-experience-cloud-dtm-core-service), [Experience Cloud People Core Service](#configuring-experience-cloud-people-core-service) and [Campaign](#configuring-triggers-and-aliases-in-campaign) to run these use cases.
 

@@ -121,7 +121,7 @@ To create the **[!UICONTROL Declared ID]** data source:
 
 For the configuration of the integration with People Core service or Audience manager, we also need to configure Campaign Tracking server.
 
-Here, you need to make sure the Campaign Tracking Server is registered on the domain (CNAME). You can find more information about domain name delegation in [this article](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/Technotes/AdobeCampaign_Deliverability_Sub_Domain_Delegation.pdf).
+Here, you need to make sure the Campaign Tracking Server is registered on the domain (CNAME). You can find more information about domain name configuration in [this article](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/Technotes/AdobeCampaign_Deliverability_Sub_Domain_Delegation.pdf).
 
 ### Step 4: Configure the Visitor ID Service {#step-4--configure-the-visitor-id-service}
 
