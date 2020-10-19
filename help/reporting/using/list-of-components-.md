@@ -244,8 +244,12 @@ The tables below give you the list of metrics used in reports and their definiti
    <td> Number of recipients who opened the delivery.<br /> </td> 
   </tr> 
   <tr> 
+   <td> Unique unsubscription<br /> </td> 
+   <td> Number of recipients who clicked on the unsubscription link.<br /> </td> 
+  </tr> 
+  <tr> 
    <td> Unsubscribe rate<br /> </td> 
-   <td> Percentage of unsubscriptions by recipient compared to the delivered messages.<br /> </td> 
+   <td> Number of unique unsubscription compared to the delivered messages.<br /> </td> 
   </tr> 
   <tr> 
    <td> Unsubscribed<br /> </td> 
