@@ -99,3 +99,11 @@ Check out the resources below:
 * Getting Started with Launch & Experience Platform SDK [documentation](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)
 * Upgrading to Experience Platform SDK [documentation](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep)
 * Github Experience Platform SDK [documentation](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)
+
+## I am getting error "You do not have write access on delivery" while creating a push notification delivery. {#write-access-error}
+
+You should check the following:
+
+* The mobile app should be mapped to the organization unit of the user that needs to create and send push deliveries. User of a child organizational unit can not create a push delivery using an app mapped to the parent organizational unit.
+
+* Campaign or program within which the push delivery is created should be mapped to the organizational unit of the user that needs to create and send push deliveries. User of the child organizational unit can not create a push delivery in a campaign or program mapped to the parent organization unit.
