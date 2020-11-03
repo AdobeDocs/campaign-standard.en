@@ -14,7 +14,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 
 # Integration guardrails and boundaries
 
-# Integration Guardrails
+## Integration Guardrails
 
 The following guardrails should be taken into consideration when planning to use this integration. Consult with your Adobe technical representative if you believe you exceed these guardrails.
 
