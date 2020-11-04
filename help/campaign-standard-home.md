@@ -12,14 +12,14 @@ topic: Premium
 
 ## What's New
 
+* **[Updated release planning](rn/using/release-planning.md)**<br/>
+Upcoming January release dates have been added to the release planning
+
 * **[Control groups](sending/using/control-group.md)**<br/>
 Measure the impact of your campaigns by excluding a portion of their audience
 
 * **[AI-powered emails](sending/using/predictive.md)**<br/>
 Optimize design and delivery with AI-powered emails
-
-* **[Privacy management](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>
-Learn about the tools provided by Adobe Campaign to help you with your Privacy compliance
 
 * **[External API](automating/using/external-api.md)**<br/>
 Use the External API activity to bring data into the workflow from an external system
