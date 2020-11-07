@@ -12,22 +12,19 @@ topic: Premium
 
 ## What's New
 
-* **[Updated release planning](rn/using/release-planning.md)**<br/>
-Upcoming Febuary 2021 release dates have been added to the release planning
+* **[Updated release planning](rn/using/release-planning.md)**<br/> Upcoming Febuary 2021 release dates have been added to the release planning
 
 * **[Control groups](sending/using/control-group.md)**<br/>
 Measure the impact of your campaigns by excluding a portion of their audience
 
-* **[AI-powered emails](sending/using/predictive.md)**<br/>
-Optimize design and delivery with AI-powered emails
+* **[AI-powered emails](sending/using/predictive.md)**<br/> Optimize design and delivery with AI-powered emails
 
 * **[External API](automating/using/external-api.md)**<br/>
 Use the External API activity to bring data into the workflow from an external system
 
-* **[Get started with mobile deliveries](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>
-Learn more about general guidelines for mobile deliveries (SMS, Push, In-App)
+* **[Get started with mobile deliveries](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/> Learn more about general guidelines for mobile deliveries (SMS, Push, In-App)
 
-[Click here for more updates](rn/using/documentation-updates.md)
+[More updates](rn/using/documentation-updates.md)
 
 ## Top pages
 
