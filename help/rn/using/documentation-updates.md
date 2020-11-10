@@ -16,6 +16,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 
 In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), this page lists all the new updates in Adobe Campaign Standard documentation.
 
+## November 2020 {#doc-updates-november-2020}
+
+The Privacy section has been moved and enriched with a new page: [Privacy management](../../start/using/privacy-management.md).
+
 ## Release 20.4 - October 2020 {#release-20-4---october-2020}
 
 **New capabilities included in the release**
