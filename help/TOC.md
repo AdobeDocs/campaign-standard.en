@@ -21,7 +21,9 @@ breadcrumb-title: Campaign Standard Guide
   + [Deprecated Features](rn/using/deprecated-features.md)
 + Getting started {#getting-started}
   + [About Adobe Campaign Standard](start/using/about-campaign-standard.md)
-  + [Privacy and consent](start/using/privacy.md)
+  + Privacy {#privacy}
+       + [Privacy and consent](start/using/privacy.md)
+       + [Privacy management](start/using/privacy-management.md)
   + Discovering the interface {#discovering-the-interface}
        + [About the interface](start/using/about-the-interface.md)
        + [Interface description](start/using/interface-description.md)
