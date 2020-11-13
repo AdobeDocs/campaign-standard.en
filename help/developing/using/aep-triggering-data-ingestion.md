@@ -51,8 +51,11 @@ Immediate ingestion of a XDM mapping into Adobe Experience Platform is triggered
 >
 >In order to execute ingest POST API call, user must have an **SQL function execution** role, which can be provided by a Campaign Standard administrator by executing below JS Script:
 >
->`var sqlRoleObj = REST.head.roleBase.sql.get();
->REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);`
+>```
+>var sqlRoleObj = REST.head.roleBase.sql.get();
+>REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);
+>```
+>
 
 The POST operation returns information regarding the created request status:
 
