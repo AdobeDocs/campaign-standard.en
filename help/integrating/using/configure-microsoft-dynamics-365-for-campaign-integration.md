@@ -18,7 +18,7 @@ Learn how to configure Microsoft Dynamics 365 integration and activate your CRM 
 
 ## Overview
 
-**Adobe Campaign Standard - Microsoft Dynamics 365 integration is described in [this page](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md).**
+Adobe Campaign Standard - Microsoft Dynamics 365 integration is described in [this page](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md).
 
 Three systems that need to be provisioned for this integration: 
 
