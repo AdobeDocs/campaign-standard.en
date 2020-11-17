@@ -62,15 +62,19 @@ Also refer to this [tutorial](https://experienceleague.adobe.com/docs/campaign-s
 
     ![](assets/privacy-namespace-label.png)
 
-1. If you want to use an existing identity service namespace, choose **[!UICONTROL Map from Identity Namespace Service]** and select a namespace in the **[!UICONTROL Identity Service Namespaces]** field.
+1. If you want to use an existing identity service namespace, choose **[!UICONTROL Map from Identity Namespace Service]** and select a namespace from the **[!UICONTROL Identity Service Namespaces]** list.
 
-    If you want to create a new namespace in **[!UICONTROL Identity Service]** and map it in Campaign, select **[!UICONTROL Create new]** and enter a name in the **[!UICONTROL Identity Namespace Name]** field.
+    ![](assets/privacy-map-from-namespace.png)
+
+    If you want to create a new namespace in **[!UICONTROL Identity Service]** and map it in Campaign, select **[!UICONTROL Create new]** and enter a name in the **[!UICONTROL Identity namespace name]** field.
+
+    ![](assets/privacy-create-new-namespace.png)
 
     To learn more about identity namespaces, refer to this [page](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=en).
 
 1. One Identity Service Namespace is mapped to one namespace in Campaign. You need to specify how the namespace will be reconciled in Campaign.
 
-    Select a target mapping (Recipients, Real-time event or Subscriptions to an application). If you want to use several target mappings, you need to create one namespace per target mapping.
+    Select a target mapping (**[!UICONTROL Recipients]**, **[!UICONTROL Real-time event]** or **[!UICONTROL Subscriptions to an application]**). If you want to use several target mappings, you need to create one namespace per target mapping.
 
 1. Choose the **[!UICONTROL Reconciliation key]**. This is the field that will be used to identify the Data Subject in the Adobe Campaign database.
 
