@@ -244,18 +244,18 @@ breadcrumb-title: Campaign Standard Guide
        + [Manage data between Campaign and Dynamics 365](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
        + [Request the integration](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
        + [Integration guardrails](integrating/using/ms-dynamics-365-integration-guardrails.md)
+       + [Use the Dynamics 365 integration](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)       
        + Steps for Configuring the Integration {#campaign-and-microsoft-dynamics-365-pre-requisites}
            + [Configure Adobe I/O](integrating/using/configure-adobe-io-for-ms-dynamic.md)
            + [Configure Dynamics 365 for Campaign integration](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
-           + [Map Campaign custom resources and Dynamics 365 custom entities](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
-           + [Use the Dynamics 365 integration](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
+           + [Map Campaign custom resources and Dynamics 365 custom entities](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)           
        + Self-Service Application {#campaign-and-microsoft-dynamics-365-self-service}
            + [Quick Start Guide](integrating/using/self-service-app-quick-start-guide.md)
            + [Overview](integrating/using/self-service-app-overview.md)           
            + [Workflows](integrating/using/self-service-app-workflows.md)
            + Ingress {#campaign-and-microsoft-dynamics-365-self-service-ingress}
                 + [Table Mappings List](integrating/using/self-service-app-ingress-list.md)
-                + [Editing an Indivdual Table Mapping](integrating/using/self-service-app-ingress-individual-mapping.md)
+                + [Editing an Individual Table Mapping](integrating/using/self-service-app-ingress-individual-mapping.md)
            + [Egress](integrating/using/self-service-app-egress.md)
            + [Opt in/out](integrating/using/self-service-app-optinout.md)
            + [Settings](integrating/using/self-service-app-settings.md)
