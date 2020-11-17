@@ -134,7 +134,7 @@ For this to work, you need to select the **[!UICONTROL Deleting the target recor
 
 1. For each link, click the pencil icon (**[!UICONTROL Edit properties]**).
 
-1. In the [**!UICONTROL Behavior if deleted/duplicated]** section, select the **[!UICONTROL Deleting the target record implies deleting records referenced by the link]** option.
+1. In the **[!UICONTROL Behavior if deleted/duplicated]** section, select the **[!UICONTROL Deleting the target record implies deleting records referenced by the link]** option.
 
     ![](assets/privacy-cus-resource-option.png)
 
