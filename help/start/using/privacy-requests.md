@@ -70,13 +70,17 @@ Also refer to this [tutorial](https://experienceleague.adobe.com/docs/campaign-s
 
     ![](assets/privacy-create-new-namespace.png)
 
-    To learn more about identity namespaces, refer to this [page](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=en).
+    To learn more about identity namespaces, see the [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=en) documentation.
 
 1. One Identity Service Namespace is mapped to one namespace in Campaign. You need to specify how the namespace will be reconciled in Campaign.
 
     Select a target mapping (**[!UICONTROL Recipients]**, **[!UICONTROL Real-time event]** or **[!UICONTROL Subscriptions to an application]**). If you want to use several target mappings, you need to create one namespace per target mapping.
 
+    ![](assets/privacy-namespace-target-mapping.png)
+
 1. Choose the **[!UICONTROL Reconciliation key]**. This is the field that will be used to identify the Data Subject in the Adobe Campaign database.
+
+    ![](assets/privacy-namespace-reconciliation-key.png)
 
 1. Click **[!UICONTROL Create]**. You can now create Privacy requests based on your new namespace. If you use several namespaces, you will need to create one Privacy request per namespace.
 
@@ -100,13 +104,75 @@ The pattern for a file name is : `<InstanceName>-<NamespaceId>-<ReconciliationKe
 * **NamespaceId**: Identity Service Namespace ID of the namespace used
 * **Reconciliation key**: Encoded reconciliation key
 
+### List of resources {#list-of-resources}
+
+When performing a Delete or Access Privacy request, Adobe Campaign searches all the Data Subject's data based on the **Reconciliation** value in all the resources that have a link to the profiles resource (own type).
+
+Here is the list of out-of-the-box resources that are taken into account when performing Privacy requests:
+
+* Profiles (recipient)
+* Profile delivery logs (broadLogRcp)
+* Profile tracking logs (trackingLogRcp)
+* Delivery logs (Subscriptions to an application) (broadLogAppSubRcp)
+* Tracking logs (Subscriptions to an application) (trackingLogAppSubRcp)
+* Subscriptions to an application (appSubscriptionRcp)
+* Subscription history of profiles (subHistoRcp)
+* Profile subscriptions (subscriptionRcp)
+* Visitors (visitor)
+
+If you created custom resources that have a link to the profiles resource (own type), they will also be taken into account. For example, if you have a transaction resource linked to the profiles resource and a transaction details resource linked to the transaction resource, they will be both taken into account.
+
+Also refer to [this tutorial](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/custom-resources-for-privacy-requests.html?lang=en#privacy) on how to modify custom resources.
+
+For this to work, you need to select the **[!UICONTROL Deleting the target record implies deleting records referenced by the link]** option in the custom resource:
+
+1. Click the Adobe Campaign logo in the top left corner, then select **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]**.
+
+1. Select a custom resource that has a link to the profiles resource (own type).
+
+1. Click the **[!UICONTROL Links]** section.
+
+1. For each link, click the pencil icon (**[!UICONTROL Edit properties]**).
+
+1. In the [**!UICONTROL Behavior if deleted/duplicated]** section, select the **[!UICONTROL Deleting the target record implies deleting records referenced by the link]** option.
+
+    ![](assets/privacy-cus-resource-option.png)
+
+### Privacy request statuses {#privacy-request-statuses}
+
+Here are the different statuses for Privacy requests:
+
+* **[!UICONTROL New]** / **[!UICONTROL Retry pending]**: in progress, the workflow has not processed the request yet.
+* **[!UICONTROL Processing]** / **[!UICONTROL Retry in progress]**: the workflow is processing the request.
+* **[!UICONTROL Delete pending]**: the workflow has identified all the recipient data to delete.
+* **[!UICONTROL Delete in progress]**: the workflow is processing the deletion.
+    <!--**[!UICONTROL Delete Confirmation Pending]** (Delete request in 2-steps process mode): the workflow has processed the Access request. Manual confirmation is requested to perform the deletion. The button is available for 15 days.-->
+* **[!UICONTROL Complete]**: the processing of the request has finished without an error.
+* **[!UICONTROL Error]**: the workflow has encountered an error. The reason is displayed in the list of Privacy requests in the **[!UICONTROL Request status]** column. For example, **[!UICONTROL Error data not found]** means that no recipient data matching the Data Subject's **[!UICONTROL Reconciliation value]** has been found in the database.
+
+### Disabling the 2-step process {#disabling-two-step-process}
+
+The Core Privacy Service does not support the 2-step process.
+
+>[!IMPORTANT]
+>
+>Before using the Core Privacy Service integration to manage your Privacy requests, you must disable the 2-step process for Delete requests from the Campaign Standard interface.
+
+If this option is not disabled, all Delete requests managed with the Privacy Core Service will remain in pending state and will not complete.
+
+By default, the 2-step process is activated.
+
+To change this mode, click **[!UICONTROL Edit properties]**, in the top right corner of the **[!UICONTROL Privacy Requests]** screen, then uncheck the **[!UICONTROL Activate the 2-step process]** option.
+
+![](assets/privacy-disable-2-step-process.png)
+
 ## Opt-out for the Sale of Personal Information (CCPA) {#sale-of-personal-information-ccpa}
 
 The **California Consumer Privacy Act** (CCPA) provides California residents new rights in regards to their personal information and imposes data protection responsibilities on certain entities whom conduct business in California.
 
 The configuration and usage of Access and Delete requests are common to both GDPR and CCPA. This section presents the opt-out for the sale of personal data, which is specific to CCPA.
 
-In addition to the [Consent management](../../start/using/privacy-management.md#consent-management) tools provided by Adobe Campaign, you have the possibility to track whether a consumer has opted-out for the sale of Personal Information.
+In addition to the [Consent management](../../start/using/privacy-management.md#consent-management) tools provided by Adobe Campaign, you have the possibility to track whether a consumer has opted-out for the Sale of Personal Information.
 
 A consumer decides, through your system, that he/she does not allow his/her personal information from being sold to a third-party. In Adobe Campaign, you will be able to store and track this information.
 
@@ -116,7 +182,7 @@ A consumer decides, through your system, that he/she does not allow his/her pers
 
 >[!IMPORTANT]
 >
->It is your responsibility as the Data Controller to receive the Data Subject's request and to keep track of the request dates for CCPA. As a technology provider, we only provide a way to opt-out. For more on your role as a Data Controller, see [Personal data and Personas](../../platform/using/privacy-and-recommendations.md#personal-data).
+>It is your responsibility as the Data Controller to receive the Data Subject's request and to keep track of the request dates for CCPA. As a technology provider, we only provide a way to opt-out. For more on your role as a Data Controller, see [Personal data and Personas](../../start/using/privacy.md#personal-data).
 
 ### Prerequisite for custom tables {#ccpa-prerequisite}
 
@@ -134,7 +200,7 @@ For more detailed information on how to extend the profile resource, see [this s
 
     ![](assets/privacy-ccpa-extend-cus.png)
 
-1. Click **[!UICONTROL Add field]** or **[!UICONTROL Create Element]**, add the label, ID and choose the **[!UICONTROL Boolean]** type. For the name, use **[!UICONTROL Opt-Out for CCPA]**. For the ID, use: **[!UICONTROL optOutCcpa]**.
+1. Click **[!UICONTROL Add field]** or **[!UICONTROL Create Element]**, add the label, ID and choose the **[!UICONTROL Boolean]** type. For the name, use **Opt-Out for CCPA**. For the ID, use: **optOutCcpa**.
 
     ![](assets/privacy-ccpa-extend-field.png)
 
@@ -142,11 +208,11 @@ For more detailed information on how to extend the profile resource, see [this s
 
     ![](assets/privacy-ccpa-extend-screen.png)
 
-1. Go to **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Publishing]**, prepare the publication and publish the modifications. For more on this, see [this section](../../developing/using/updating-the-database-structure.md).
+1. Go to **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Publishing]**, prepare the publication and publish the modifications. For more on publishing a resource, see [this section](../../developing/using/updating-the-database-structure.md).
 
     ![](assets/privacy-ccpa-extend-pub.png)
 
-1. Verify that the field is available on a profile’s details (see the next section).
+1. Verify that the field is available on a profile’s details. For more on this, see [this section](#usage).
 
 ### Usage {#usage}
 
@@ -168,7 +234,7 @@ You should then ensure that you never sell to any third party the personal infor
 
     ![](assets/privacy-ccpa-profile-opt-out-true.png)
 
-3. You can configure the profiles list to display the op-out column. To learn how to configure lists, refer to the [detailed documentation](../../start/using/customizing-lists.md).
+1. You can configure the profiles list to display the op-out column. To learn how to configure lists, see [this section](../../start/using/customizing-lists.md).
 
     ![](assets/privacy-ccpa-profile-configure-list.png)
 
