@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: list-of-reports
 discoiquuid: 3567f9f9-ef57-441c-8844-198bbf962c9d
 context-tags: deliveryNonDeliverablesBouncesReport,main;campaignNonDeliverablesBouncesReport,main;programNonDeliverablesBouncesReport,main
-internal: n
-snippet: y
 ---
 
 # Non-deliverables and bounces{#non-deliverables-and-bounces}

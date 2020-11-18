@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 
-internal: n
-snippet: y
 ---
 
 # Declaring the parameters in the External signal activity {#declaring-the-parameters-in-the-external-signal-activity}
@@ -23,7 +21,7 @@ The first step to call a workflow with parameters is to declare them in an **[!U
 
    >[!CAUTION]
    >
-   >Make sure that the name and number of parameters are identical to what is defined when calling the workflow (see [](../../automating/using/defining-parameters-calling-workflow.md)). Moreover, the parameters' types must be consistent with the values that are expected.
+   >Make sure that the name and number of parameters are identical to what is defined when calling the workflow (see [this page](../../automating/using/defining-parameters-calling-workflow.md)). Moreover, the parameters' types must be consistent with the values that are expected.
 
    ![](assets/extsignal_declaringparameters_1.png)
 

@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: list-of-reports
 discoiquuid: a9afbb76-d2b3-44c7-b97a-1694501aa913
 
-internal: n
-snippet: y
 ---
 
 # SMS report{#sms-report}

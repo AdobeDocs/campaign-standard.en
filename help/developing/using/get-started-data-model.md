@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: about-workflows-and-data-management
 discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 
-internal: n
-snippet: y
 ---
 
 # Get started with Campaign Standard data model {#get-started-data-model}

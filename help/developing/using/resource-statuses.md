@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: about-custom-resources
 discoiquuid: 85516477-1b95-4273-a0a7-d2cbb9950afd
 
-internal: n
-snippet: y
 ---
 
 # Resource statuses{#resource-statuses}

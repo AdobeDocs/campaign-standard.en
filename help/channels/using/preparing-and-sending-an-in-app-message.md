@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: in-app-messaging
 discoiquuid: 18bf5297-a688-4302-abe4-e2fbcafdb515
 context-tags: delivery,triggers,back;deliveryCreation,wizard
-internal: n
-snippet: y
 ---
 
 # Preparing and sending an In-App message{#preparing-and-sending-an-in-app-message}
@@ -165,4 +163,3 @@ Once you have finished preparing your delivery and the approval steps have been 
 
 * [In-App report](../../reporting/using/in-app-report.md)
 * [Sending an In-App message within a workflow](../../automating/using/in-app-delivery.md)
-

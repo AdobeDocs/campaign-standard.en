@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 3752d41f-8c59-4fad-b30f-e98e09cd74a8
 context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;delivery,properties,open
-internal: n
-snippet: y
 ---
 
 # Configuring email channel{#configuring-email-channel}
@@ -159,8 +157,8 @@ The **[!UICONTROL Send]** section is only available for email templates. It cont
 Temporarily undelivered messages are subject to an automatic retry. For more on this, see [Retries after a delivery temporary failure](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
 >[!NOTE]
-  >
-  >The minimum delay between retries and the maximum number of retries to be performed are now managed by the Adobe Campaign Enhanced MTA, based on how well an IP is performing both historically and currently at a given domain. The Campaign **Retries** settings will be ignored.
+>
+>The minimum delay between retries and the maximum number of retries to be performed are now managed by the Adobe Campaign Enhanced MTA, based on how well an IP is performing both historically and currently at a given domain. The Campaign **Retries** settings will be ignored.
   
 <!--This section indicates how many retries should be performed the day after the send is started ( **[!UICONTROL Max. number of retries]** ) and the minimum delay between retries ( **[!UICONTROL Retry period]** ).
 

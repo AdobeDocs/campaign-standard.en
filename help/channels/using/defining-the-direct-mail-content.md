@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: direct-mail
 discoiquuid: 9e73d6b5-41b4-474b-a880-a0cd5999c2d1
 context-tags: delivery,directMailContent,back
-internal: n
-snippet: y
 ---
 
 # Defining the direct mail content{#defining-the-direct-mail-content}
@@ -65,4 +63,3 @@ For example, you might want to include, for the direct mail provider, the sender
 The sender address is defined in the **[!UICONTROL Send]** section of the direct mail properties or at the template level.
 
 ![](assets/direct_mail_24.png)
-

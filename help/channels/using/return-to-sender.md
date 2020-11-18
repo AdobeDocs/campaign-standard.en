@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: direct-mail
 discoiquuid: 5f20ff3f-8242-4735-8c60-c57610edff52
 
-internal: n
-snippet: y
 ---
 
 # Return to sender{#return-to-sender}
@@ -33,4 +31,3 @@ When the import is done, Adobe Campaign automatically performs the following act
 * Incorrect addresses are added to denylist at the profile level
 * The delivery main indicators (KPIs) are updated
 * The delivery logs are updated
-

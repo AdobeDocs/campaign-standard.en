@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 80961e73-42ec-463a-8496-cff69fab0475
 context-tags: incremental,main
-internal: n
-snippet: y
 ---
 
 # Incremental query on subscribers to a service {#example--incremental-query-on-subscribers-to-a-service}

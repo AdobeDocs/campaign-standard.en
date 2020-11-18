@@ -10,13 +10,13 @@ content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 
-internal: n
-snippet: y
 ---
 
 # Deleting subscriptions {#mdeleting-subscriptions}
 
-## Deleting a service subscription for a specific profile
+<!--NOTE TO WRITER: There are two duplicate headings that seem to have the same content. Delete one? Rename if different?-->
+
+## Deleting a service subscription for a specific profile {#deleting-service-subscription}
 
 This is a three-steps procedure.
 

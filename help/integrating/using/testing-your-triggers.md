@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: working-with-campaign-and-triggers
 discoiquuid: f67e69f2-09fb-4f33-b2c3-c67a060743e3
 
-internal: n
-snippet: y
 ---
 
 # Testing your triggers{#testing-your-triggers}

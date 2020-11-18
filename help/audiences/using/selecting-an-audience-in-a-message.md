@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: managing-audiences
 discoiquuid: 158da6ff-8899-4e7b-b925-8a42c3de46a1
 context-tags: deliveryCreation,wizard;delivery,audience,back
-internal: n
-snippet: y
 ---
 
 # Selecting an audience in a message{#selecting-an-audience-in-a-message}

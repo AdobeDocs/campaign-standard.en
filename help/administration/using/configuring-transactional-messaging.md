@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 
-internal: n
-snippet: y
 ---
 
 # Configuring transactional messaging{#configuring-transactional-messaging}

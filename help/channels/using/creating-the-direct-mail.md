@@ -10,20 +10,18 @@ content-type: reference
 topic-tags: direct-mail
 discoiquuid: 5b02227f-9438-4001-bc2f-3d8661d173b3
 context-tags: delivery,directMailContent,back
-internal: n
-snippet: y
 ---
 
 # Creating the direct mail{#creating-the-direct-mail}
 
 Creating a direct mail delivery is very similar to creating a regular email. The following steps describe the configuration that is specific to this channel. Refer to [Creating an email](../../channels/using/creating-an-email.md) for more information on other options.
 
+>[!NOTE]
+>
+>You can also add a direct mail activity in a workflow. For more on this, refer to the [Workflows](../../automating/using/direct-mail-delivery.md) guide.
+
 1. Create a new direct mail delivery. You can create one from the Adobe Campaign [home page](../../start/using/interface-description.md#home-page), in a [campaign](../../start/using/marketing-activities.md#creating-a-marketing-activity) or in a [marketing activity list](../../start/using/programs-and-campaigns.md#creating-a-campaign).
-
-   >[!NOTE]
-   >
-   >You can also add a direct mail activity in a workflow. For more on this, refer to the [Workflows](../../automating/using/direct-mail-delivery.md) guide.
-
+  
    ![](assets/direct_mail_1.png)
 
 1. Choose either the out-of-the-box **[!UICONTROL Direct mail]** template or one of your own templates. For more information on templates, refer to the [Managing templates](../../start/using/marketing-activity-templates.md) section.

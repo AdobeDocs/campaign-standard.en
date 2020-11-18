@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: about-communication-channels
 discoiquuid: 72a7bd19-4ac7-460e-b3ef-e570d8a802e1
 context-tags: activity,overview
-internal: n
-snippet: y
 ---
 
 # Accessing messages{#accessing-messages}
@@ -66,4 +64,3 @@ A message's status is represented by a specific color in the lists. The possible
   >[!NOTE]
   >
   >A yellow notification banner may appear above the card when an action is required, for example when you have to confirm sending a message.
-

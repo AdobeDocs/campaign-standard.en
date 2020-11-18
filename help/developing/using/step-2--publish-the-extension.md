@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: use-case--extending-the-api
 discoiquuid: b57042e5-5073-4e79-a3e3-1eed824ac537
 
-internal: n
-snippet: y
 ---
 
 # Step 2: Publish the extension{#step-publish-the-extension}

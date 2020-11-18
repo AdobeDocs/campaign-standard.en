@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: push-notifications
 discoiquuid: f9bb2235-d388-4025-9ace-734beb0c1961
 
-internal: n
-snippet: y
 ---
 
 # Creating a multilingual push notification{#creating-a-multilingual-push-notification}

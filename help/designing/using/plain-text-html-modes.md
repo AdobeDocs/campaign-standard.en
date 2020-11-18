@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 
-internal: n
-snippet: y
 ---
 
 # Editing plain text, HTML and mobile email formats {#plain-text-and-html-modes}

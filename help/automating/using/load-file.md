@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: data-management-activities
 discoiquuid: 584ff893-9b1b-46c9-9628-714ab349ab88
 context-tags: fileImport,main
-internal: n
-snippet: y
 ---
 
 # Load file {#load-file}
@@ -20,8 +18,7 @@ snippet: y
 
 >[!CAUTION]
 >
->Please keep in mind the SFTP storage, DB Storage and active profile limits as per your Adobe 
-Campaign contract while using this functionality.
+>Please keep in mind the SFTP storage, DB Storage and active profile limits as per your Adobe Campaign contract while using this functionality.
 
 ![](assets/data_loading.png)
 

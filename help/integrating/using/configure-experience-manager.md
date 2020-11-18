@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
 discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 
-internal: n
-snippet: y
 ---
 
 # Configuring the Campaign-Experience Manager integration {#configuration-aem}

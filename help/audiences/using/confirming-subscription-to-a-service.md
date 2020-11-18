@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: managing-subscriptions
 discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 
-internal: n
-snippet: y
 ---
 
 # Confirming subscription to a service{#confirming-subscription-to-a-service}

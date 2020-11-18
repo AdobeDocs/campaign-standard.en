@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: working-with-typology-rules
 discoiquuid: 4337a80b-0fb9-4a37-bce3-fe2121a66586
 
-internal: n
-snippet: y
 ---
 
 # Fatigue rules{#fatigue-rules}

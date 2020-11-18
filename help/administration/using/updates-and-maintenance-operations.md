@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: application-settings
 discoiquuid: fb9a8bae-214e-4255-858e-b91a987191d3
 
-internal: n
-snippet: y
 ---
 
 # Updates and maintenance operations{#updates-and-maintenance-operations}

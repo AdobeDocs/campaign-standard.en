@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: marketing-plans
 discoiquuid: 3ba165e1-420f-4d6f-b339-467b066b42d0
 context-tags: activity,overview
-internal: n
-snippet: y
 ---
 
 # Marketing activities{#marketing-activities}
@@ -40,14 +38,14 @@ The **[!UICONTROL Create]** button can be used to create a new activity. For mor
 
 In the main zone, each type of activity in the list has an icon:
 
-* ![](assets/marketing_program_icon.png) : Program
-* ![](assets/marketing_campaign_icon.png) : Campaign
-* ![](assets/marketing_email_icon.png) : Email
-* ![](assets/marketing_sms_icon.png) : SMS
-* ![](assets/marketing_push_icon.png) : Push notification
-* ![](assets/marketing_lp_icon.png) : In-App message
-* ![](assets/marketing_lp_icon.png) : Landing page
-* ![](assets/marketing_workflow_icon.png) : Workflow
+* ![](assets/marketing_program_icon.png) Program
+* ![](assets/marketing_campaign_icon.png) Campaign
+* ![](assets/marketing_email_icon.png) Email
+* ![](assets/marketing_sms_icon.png) SMS
+* ![](assets/marketing_push_icon.png) Push notification
+* ![](assets/marketing_lp_icon.png) In-App message
+* ![](assets/marketing_lp_icon.png) Landing page
+* ![](assets/marketing_workflow_icon.png) Workflow
 
 Depending on its validity period and status, the color associated with this icon indicates the corresponding activity's execution status.
 
@@ -79,16 +77,16 @@ Programs and campaigns are presented in the [Programs and campaigns](../../start
 
 According to the context, you can:
 
-* [Create an email](../../channels/using/creating-an-email.md)
-* [Create an SMS](../../channels/using/creating-an-sms-message.md)
-* [Create a push notification](../../channels/using/preparing-and-sending-a-push-notification.md)
-* [Create an In-App message](../../channels/using/about-in-app-messaging.md)
-* [Create a workflow](../../automating/using/building-a-workflow.md#creating-a-workflow)
-* [Create a landing page](../../channels/using/getting-started-with-landing-pages.md)
-* [Create a campaign](../../start/using/programs-and-campaigns.md#creating-a-campaign)
-* [Create a program](../../start/using/programs-and-campaigns.md#creating-a-program)
+* Create an email - [Learn more](../../channels/using/creating-an-email.md)
+* Create an SMS - [Learn more](../../channels/using/creating-an-sms-message.md)
+* Create a push notification - [Learn more](../../channels/using/preparing-and-sending-a-push-notification.md)
+* Create an In-App message - [Learn more](../../channels/using/about-in-app-messaging.md)
+* Create a workflow - [Learn more](../../automating/using/building-a-workflow.md#creating-a-workflow)
+* Create a landing page - [Learn more](../../channels/using/getting-started-with-landing-pages.md)
+* Create a campaign - [Learn more](../../start/using/programs-and-campaigns.md#creating-a-campaign)
+* Create a program - [Learn more](../../start/using/programs-and-campaigns.md#creating-a-program)
 
 >[!NOTE]
 >
->You can also create a marketing activity from the marketing activity list. In this case, you can create any type of activity. You can choose to link the marketing activity to a parent campaign (or to a parent program if you create a program) via the activity's properties.
+>You can also create a marketing activity from the marketing activity list. In this case, you can create any type of activity, and choose to link the marketing activity to a parent campaign (or to a parent program if you create a program) via the activity's properties.
 

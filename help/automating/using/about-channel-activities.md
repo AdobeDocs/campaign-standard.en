@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: channel-activities
 discoiquuid: 4e665635-5f2a-4344-a924-4e6f6f848568
 
-internal: n
-snippet: y
 ---
 
 # About channel activities{#about-channel-activities}

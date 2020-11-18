@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: landing-pages
 discoiquuid: ca8d1698-6e8a-4f5a-b017-74a152e14286
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
-internal: n
-snippet: y
 ---
 
 # About landing page templates {#landing-page-templates}
@@ -42,3 +40,4 @@ When building a template, we recommend adding a **'type'** attribute to tags. Th
   ```
 
   The official list of 'type' attributes is available at the following address: [https://www.w3schools.com/tags/att_input_type.asp](https://www.w3schools.com/tags/att_input_type.asp)
+  

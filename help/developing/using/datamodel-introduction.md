@@ -8,8 +8,6 @@ audience: developing
 content-type: reference
 discoiquuid: 4e0468da-3052-4ce5-8174-45aba1f5c4ed
 context-tags: cusResource,overview;eventCusResource,overview
-internal: n
-snippet: y
 ---
 
 # Data model description{#data-model-introduction}

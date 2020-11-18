@@ -10,13 +10,13 @@ content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 
-internal: n
-snippet: y
 ---
 
 # Latest Release{#latest-release}
 
 [Release Planning](../../rn/using/release-planning.md) &#124; [Control Panel releases](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) &#124; [Documentation Updates](../../rn/using/documentation-updates.md) &#124; [Previous Release Notes](../../rn/using/release-notes-2020.md) &#124; [Deprecated Features](../../rn/using/deprecated-features.md)
+
+![](assets/do-not-localize/cp-icon.png) **New Control Panel October release** with domain configuration using CNAMEs and new database monitoring capabilities. [Learn more](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
 
 ## Release 20.4 - October 2020 {#release-20-4---october-2020}
 
@@ -83,7 +83,6 @@ snippet: y
 * **Workflow execution improvements** (beta): in the context of a global initiative around workflows, some major improvements have been developed to stabilize memory management, reduce latency and optimize the memory consumed by workflows during execution. These improvements are currently in beta, and only available to a set of customers. General availability is planned for early 2021.
 * To improve security, Campaign now uses a **signature mechanism** for tracking links in emails.
 * Mobile app configuration has been improved with **clearer error messages** when uploading iOS certificates or Android keys.
-* A **new delivery mapping** (mapRtEventAppSubRcp) is now available for transactional push messages targeting profiles. The delivery, exclusion and tracking logs for these deliveries will now be available in the broadLogAppSubRcp, excludeLogAppSubRcp and trackingLogAppSubRcp tables. This solves an issue which caused delivery analysis to fail when sending a transactional push message using the **Profile** target dimension.
 * **SMS error management** has been improved to prevent too many profiles from being added to the quarantine list. By default, SMS errors are now configured as soft errors instead of hard errors. Refer to [this page](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html).
 
 **Email Designer enhancements**
@@ -114,7 +113,6 @@ snippet: y
 * The logs displaying when exporting packages have been made more specific and detailed about the encountered errors in case of failure.
 * After sending a message, you can now search, filter and export the list of [tracked URLs](../../sending/using/tracking-messages.md).
 * Automatic [synchronization between Launch and Campaign](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow) is now GA and enabled by default.
-* Transactional messages can be sent with a high priority even in case of significant bulk delivery workload.
 * The size of workflow export packages has been optimized by removing the sending proof export.
 * A new message has been added to display the size of the downloaded file in the **File transfer** activity.
 * Error messages for invalid session tokens have been improved.
@@ -128,6 +126,7 @@ snippet: y
 **Patches**
 
 * Fixed an issue which prevented you from using a destination link for Push notifications or In-App messaging when tracking was enabled.
+* Fixed an issue where high priority in transactional messages was not respected in case of significant bulk delivery.
 * Fixed an issue which could prevent you from assigning brands to a transactional email. Several error messages could display during the publication step. (CAMP-44988)
 * Fixed an issue in the workflow user interface which could prevent information from being saved in fields requesting numeric values. (CAMP-44025)
 * Fixed an issue which could display an error message when using a **Test** activity in an import template workflow. (CAMP-42910)

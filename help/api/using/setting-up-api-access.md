@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 
-internal: n
-snippet: y
 ---
 
 # Setting up API access {#setting-up-api-access}
@@ -51,3 +49,19 @@ To establish a secure service-to-service Adobe I/O API session, every request to
 * **<API_KEY>**: your personal API Key. It is provided in Adobe I/O after creating a new integration to Adobe Campaign Service.
 
     ![alt text](assets/tenant.png)
+    
+## Troubleshooting
+
+During AdobeIO integration, if the following error appears:
+
+```
+
+{ 
+"code": 502, 
+"message": "Oops. Something went wrong. Check your URI and try again." 
+}
+
+```
+
+
+Refer to your administrator or your Adobe technical contact to check if the CNAME parameter is created correctly.

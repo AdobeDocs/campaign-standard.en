@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: monitoring-messages
 discoiquuid: eb9fa216-4568-423a-9396-8f7b82181ae9
 context-tags: delivery,main
-internal: n
-snippet: y
 ---
 
 # Monitoring a delivery{#monitoring-a-delivery}

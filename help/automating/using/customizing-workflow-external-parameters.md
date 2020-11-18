@@ -10,15 +10,13 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 
-internal: n
-snippet: y
 ---
 
 # Customizing a workflow with external parameters {#customizing-a-workflow-with-external-parameters}
 
 Once the workflow has been triggered, the parameters are ingested into the events variables and can be used to customize the workflow's activities.
 
-They can, for example, be used to define which audience to read in the **[!UICONTROL Read audience]** activity, the name of the file to transfer in the **[!UICONTROL Transfer file]** activity, etc. (see [](../../automating/using/customizing-workflow-external-parameters.md)).
+They can, for example, be used to define which audience to read in the **[!UICONTROL Read audience]** activity, the name of the file to transfer in the **[!UICONTROL Transfer file]** activity, etc. (see [this page](../../automating/using/customizing-workflow-external-parameters.md)).
 
 ## Using events variables {#using-events-variables}
 
@@ -45,13 +43,13 @@ When using a variable in an activity, the interface provides help to call it.
 
   ![](assets/wkf_test_activity_variables.png)
 
-* ![](assets/extsignal_expression_editor.png): edit expressions combining variables and functions (see [](../../automating/using/advanced-expression-editing.md)).
+* ![](assets/extsignal_expression_editor.png): edit expressions combining variables and functions (see [this page](../../automating/using/advanced-expression-editing.md)).
 
   ![](assets/wkf_test_activity_variables_expression.png)
 
   This list provides functions that allow you to carry out complex filtering. These functions are detailed in [this section](../../automating/using/list-of-functions.md).
   
-  Additionally, you can use the functions below, which are available in all the activities that allow you to use events variables after calling a workflow with external parameters (see [](../../automating/using/customizing-workflow-external-parameters.md#customizing-activities-with-events-variables)):
+  Additionally, you can use the functions below, which are available in all the activities that allow you to use events variables after calling a workflow with external parameters (see [this section](../../automating/using/customizing-workflow-external-parameters.md#customizing-activities-with-events-variables)):
 
   Name | Description | Syntax
   ---------|----------|---------

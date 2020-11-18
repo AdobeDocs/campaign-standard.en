@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: transactional-messaging
 discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
 
-internal: n
-snippet: y
 ---
 
 # Profile transactional messages{#profile-transactional-messages}
@@ -82,4 +80,3 @@ This rule is part of a specific typology that applies to all transactional messa
 
 * [Site integration](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)
 * [Typologies](../../sending/using/about-typology-rules.md)
-

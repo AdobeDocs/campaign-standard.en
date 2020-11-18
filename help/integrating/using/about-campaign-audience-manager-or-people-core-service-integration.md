@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 discoiquuid: bf718329-f181-46f7-80a2-b525a8dee46d
 
-internal: n
-snippet: y
 ---
 
 # About Campaign-Audience Manager or People core service integration{#about-campaign-audience-manager-or-people-core-service-integration}

@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: list-of-reports
 discoiquuid: a425cd59-edfd-42c5-a6bd-38773c353ff0
 
-internal: n
-snippet: y
 ---
 
 # Push notification report{#push-notification-report}

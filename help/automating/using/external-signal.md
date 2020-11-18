@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: execution-activities
 discoiquuid: 911c71b5-da8b-4916-b645-13bba6d21715
 context-tags: signal,main
-internal: n
-snippet: y
 ---
 
 # External signal{#external-signal}
@@ -49,7 +47,7 @@ When configuring an external signal, it is important to first configure the **[!
 1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
 1. Edit the label of the activity. This label is needed when configuring the source workflow that triggers the **[!UICONTROL External signal]**.
 
-   If you want to call the workflow with parameters, use the **[!UICONTROL Parameters]** area to declare them. For more on this, refer to this section: [](../../automating/using/declaring-parameters-external-signal.md).
+   If you want to call the workflow with parameters, use the **[!UICONTROL Parameters]** area to declare them. For more on this, refer to [this page](../../automating/using/declaring-parameters-external-signal.md).
 
    ![](assets/external_signal_configuration.png)
 
@@ -71,7 +69,7 @@ When configuring an external signal, it is important to first configure the **[!
 
    When you set an **[!UICONTROL End]** activity to trigger another workflow, its icon is updated with an additional signal symbol.
 
-   If you want to call the workflow with parameters, use the **[!UICONTROL Parameters and values]** area. For more on this, refer to this section: [](../../automating/using/defining-parameters-calling-workflow.md).
+   If you want to call the workflow with parameters, use the **[!UICONTROL Parameters and values]** area. For more on this, refer to [this page](../../automating/using/defining-parameters-calling-workflow.md).
 
    ![](assets/external_signal_end.png)
 

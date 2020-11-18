@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: sheduling-messages
 discoiquuid: daa980ba-8c7c-4673-a68f-379d63e4b8bd
 
-internal: n
-snippet: y
 ---
 
 # Sending messages at the recipient's time zone{#sending-messages-at-the-recipient-s-time-zone}

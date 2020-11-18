@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: about-sending-messages-with-campaign
 discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 
-internal: n
-snippet: y
 ---
 
 # Get started with testing and sending {#about-sending-messages-with-campaign}

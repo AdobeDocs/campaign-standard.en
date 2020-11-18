@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 0ccd9d02-772e-406b-874a-5381dd0c8709
 context-tags: segmentation,main
-internal: n
-snippet: y
 ---
 
 # Segmentation{#segmentation}
@@ -59,7 +57,7 @@ The **[!UICONTROL Segmentation]** activity is generally placed after targeting a
     * **[!UICONTROL Limit segment population]**: lets you limit the segment size.
     * **[!UICONTROL Filter and limit segment population]**: lets you filter the segment population and limit its size.
     * **[!UICONTROL Label]**: segment label.
-    * **[!UICONTROL Segment code]**: code assigned to the segment population.The segment code can be personalized using a standard expression and events variables (see [](../../automating/using/customizing-workflow-external-parameters.md)).
+    * **[!UICONTROL Segment code]**: code assigned to the segment population.The segment code can be personalized using a standard expression and events variables (see [this page](../../automating/using/customizing-workflow-external-parameters.md)).
     * **[!UICONTROL Exclude segment from population]**: lets you exclude the specified segment from the outbound population of the activity. This option can only be used if the **[!UICONTROL Generate all segments in the same transition]** option is selected.
 
    ![](assets/wkf_segment_new_segment.png)

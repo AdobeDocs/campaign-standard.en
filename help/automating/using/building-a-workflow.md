@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: c26fcb0e-19d5-4bd5-b7d6-2d22ce92ad90
 context-tags: workflow,wizard;workflow,main
-internal: n
-snippet: y
 ---
 
 # Building a workflow{#building-a-workflow}

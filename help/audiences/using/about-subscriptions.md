@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: managing-subscriptions
 discoiquuid: 27de5a13-7b7c-4c91-bf26-3dfd324beb8f
 
-internal: n
-snippet: y
 ---
 
 # About subscriptions{#about-subscriptions}
@@ -28,8 +26,18 @@ Each service comes with:
 
 Subscriptions can also be managed using the Adobe Campaign Standard API. For more on this, refer to the [dedicated documentation](../../api/using/creating-a-service.md) .
 
-**Related topics**
+## Key steps to set up and manage subscriptions
+
+Follow the steps below to create a subscription mechanism:
+
+1. **Create a service** - follow the steps decribed [in this section](../../audiences/using/creating-a-service.md) to create a subscription service
+1. **Share the link** - learn how to promote and share your service [in this page](../../audiences/using/promoting-a-service.md)
+1. **Monitor subscriptions** - discover several ways to monitor subscriptions to your service [in this section](../../audiences/using/monitoring-subscriptions.md)
+1. **Confirm subscriptions** - follow [this tutorial](../../audiences/using/confirming-subscription-to-a-service.md) to send a subscription confirmation message
+
+## Additional resources
 
 * [Use case: Incremental query on subscribers to a service](../../automating/using/incremental-query-on-subscribers.md)
 * [Use case: Updating multiple subscription statuses from a file](../../automating/using/updating-subscriptions-from-file.md)
 * [Subscribing profiles to a specific service after importing a file](../../automating/using/subscribing-profiles-from-file.md)
+* [Opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)

@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 5f7607a1-5f71-4d66-9688-3e5a1774f1b4
 
-internal: n
-snippet: y
 ---
 
 # About targeting activities{#about-targeting-activities}

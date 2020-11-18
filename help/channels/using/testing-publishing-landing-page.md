@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: landing-pages
 discoiquuid: f7d4bb71-f957-4f86-97c7-8ac0a0030026
 
-internal: n
-snippet: y
 ---
 
 # Testing and publishing a landing page{#testing-publishing--landing-page}
@@ -38,7 +36,7 @@ As the landing page will impact your platform and data, you need to test careful
 
 1. Repeat this with various profiles and data.
 
-   You can also generate the landing page thumbnail from this screen.
+You can also generate the landing page thumbnail from this screen.
 
 >[!NOTE]
 >

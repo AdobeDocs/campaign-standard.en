@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
 discoiquuid: bc10c650-80cd-4146-ae82-c5981fc62bec
 
-internal: n
-snippet: y
 ---
 
 # About Campaign-Points of Interest data integration{#about-campaign-points-of-interest-data-integration}

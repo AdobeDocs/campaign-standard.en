@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 discoiquuid: 85d13147-fb31-446a-8476-f112c841fb82
 
-internal: n
-snippet: y
 ---
 
 # Defining import templates{#defining-import-templates}

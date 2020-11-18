@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: list-of-reports
 discoiquuid: c8527da3-3c65-4cea-b01a-da152bf6b01e
 context-tags: deliveryUnsubscriptionsReport,main;campaignUnsubscriptionsReport,main;programUnsubscriptionsReport,main
-internal: n
-snippet: y
 ---
 
 # Unsubscriptions{#unsubscriptions}

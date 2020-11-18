@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: transactional-messaging
 discoiquuid: e645d4b9-001f-47d9-8a0f-b4696c75c5d3
 
-internal: n
-snippet: y
 ---
 
 # Transactional push notifications{#transactional-push-notifications}
@@ -96,6 +94,7 @@ The company will send one transactional push notification per user (identified w
    For more on editing a push notification content, see [Creating a push notification](../../channels/using/preparing-and-sending-a-push-notification.md).
 
 1. Save your changes and publish the message. See [Publishing a transactional message](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message).
+
 1. Using the Adobe Campaign Standard REST API, send an event to a registration token (ABCDEF123456789), using one mobile application (WeFlight), on Android (gcm), containing the boarding data.
 
    ```
@@ -165,13 +164,9 @@ For example, an airline company wants to send a last call for boarding to all Ad
 
 1. Go the transactional message that was created to edit it. See [Event transactional messages](../../channels/using/event-transactional-messages.md).
 
-   <!--![](assets/message-center_push_message_profile.png)-->
-
 1. Click the **[!UICONTROL Content]** block to modify your message's title and body.
 
    As opposed to configurations based on real-time events, you have direct access to all profile information to personalize your message. See [Inserting a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field).
-
-   <!--![](assets/message-center_push_content_profile.png)-->
 
    For more on editing a push notification content. See [Creating a push notification](../../channels/using/preparing-and-sending-a-push-notification.md).
 
@@ -195,4 +190,3 @@ For example, an airline company wants to send a last call for boarding to all Ad
    >[!NOTE]
    >
    >There is no registration token, application and push platform fields. In this example, the reconciliation is performed with the email field.
-

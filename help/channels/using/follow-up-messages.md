@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: transactional-messaging
 discoiquuid: 9615e369-754f-4f6a-a1b1-14462f946666
 
-internal: n
-snippet: y
 ---
 
 # Follow-up messages{#follow-up-messages}
@@ -123,4 +121,3 @@ Once the workflow is started, every customer that received your cart abandonment
 >[!NOTE]
 >
 >If you selected the **[!UICONTROL Profile]** targeting dimension when creating the event configuration, the follow-up message will also leverage the Adobe Campaign marketing database. See [Profile transactional messages](../../channels/using/profile-transactional-messages.md).
-

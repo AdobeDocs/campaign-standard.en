@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: defining-conditional-content
 discoiquuid: 6bb6cee3-5674-4113-8073-5a9572b3e830
 
-internal: n
-snippet: y
 ---
 
 # Defining dynamic text{#defining-dynamic-text}
@@ -46,4 +44,3 @@ The example below shows how to define dynamic text in an SMS message.
 Once a condition is defined for at least one variant, a purple frame is displayed around the dynamic text.
 
 ![](assets/dynamic_text_sms_3.png)
-

@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: about-content-design
 discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 
-internal: n
-snippet: y
 ---
 
 # Campaign Email Designer{#designing-content-in-adobe-campaign}
@@ -149,6 +147,8 @@ When it comes to fragments, please note the following:
 
 * When editing styles, only the web fonts officially supported by most email clients are available.
 * Styles cannot be saved as a theme for future reuse. However, the CSS style can be saved in a content template or in an email. For more on styles, see [this section](../../designing/using/styles.md).
+* Referrer meta tag is not supported in the Email designer.
+* Surrogate pairs, characters not included in the Basic Multilingual Plane of the Unicode character set, cannot be stored in 2 bytes (16bits) and need to get encoded into 2 UTF-16 characters. These characters include some CJK ideographs, most emojis and some languages.<br>These characters can cause some incompatibility issues in dynamic text. You need to perform strong tests before sending your messages.
 
 **Related topics**
 

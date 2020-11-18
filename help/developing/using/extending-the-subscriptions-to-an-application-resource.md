@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: use-cases--extending-resources
 discoiquuid: 59faa74e-86fc-42d3-90da-f48580b5ec13
 
-internal: n
-snippet: y
 ---
 
 # Extending the subscriptions to an application resource{#extending-the-subscriptions-to-an-application-resource}

@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 
-internal: n
-snippet: y
 ---
 
 # Defining the subject line and the sender of an email{#defining-the-subject-line-of-an-email}

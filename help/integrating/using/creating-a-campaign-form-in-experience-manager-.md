@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
 discoiquuid: 4a8b5807-87dd-4db4-bd67-890f0adae932
 
-internal: n
-snippet: y
 ---
 
 # Creating a Campaign form in Experience Manager {#creating-a-campaign-form-in-experience-manager}

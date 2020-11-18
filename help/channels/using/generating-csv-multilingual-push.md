@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: email-messages
 discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
 
-internal: n
-snippet: y
 ---
 
 # Generating a CSV file for Multilingual Push Notification{#generating-csv-multilingual-push}
@@ -22,22 +20,20 @@ Uploading a CSV file to generate content for delivery is a feature used to suppo
 
 Multilingual push requires 14 columns in the CSV file:
 
-* title
-* messageBody
-* sound
-* badge
-* deeplinkURI
-* category
-* iosMediaAttachmentURL
-* androidMediaAttachmentURL
-* isContentAvailable
-* isMutableContent
-* customFields
-* locale
-* language
-* silentPush
-
-![](assets/multilingual_push_1.png)
+1. title
+1. messageBody
+1. sound
+1. adge
+1. deeplinkURI
+1. category
+1. iosMediaAttachmentURL
+1. androidMediaAttachmentURL
+1. isContentAvailable
+1. isMutableContent
+1. customFields
+1. locale
+1. language
+1. silentPush
 
 Check the CSV sample by clicking the **[!UICONTROL Download a sample file]** in the **[!UICONTROL Manage Content Variants]** window. For more on this, refer to the this [section](../../channels/using/creating-a-multilingual-push-notification.md).
 

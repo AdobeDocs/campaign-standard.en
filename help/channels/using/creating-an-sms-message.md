@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: sms-messages
 discoiquuid: b27381a9-19e5-4b65-b194-c72f475ba54d
 delivercontext-tags: deliveryCreation,wizard
-internal: n
-snippet: y
 ---
 
 # Creating an SMS message{#creating-an-sms-message}
@@ -77,4 +75,3 @@ Once the sending is finished, you can start measuring the impact of your message
 * [About SMS and push content edition](../../channels/using/about-sms-and-push-content-design.md)
 * [Managing templates](../../start/using/marketing-activity-templates.md)
 * [Create an SMS delivery](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/sms/sms-delivery.html) video
-

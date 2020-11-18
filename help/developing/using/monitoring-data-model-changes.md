@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: about-custom-resources
 discoiquuid: c6375a92-339f-4123-bc69-b0da1deaf577
 
-internal: n
-snippet: y
 ---
 
 # Monitoring data model changes{#monitoring-data-model-changes}

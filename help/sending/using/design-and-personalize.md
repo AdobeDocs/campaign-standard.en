@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: deliveries-best-practices
 discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
 index: y
-internal: n
-snippet: y
 ---
 
 # Build personalized content {#build-personalized-content}
@@ -135,4 +133,4 @@ To be accessible from the outside, the images used in emails and public resource
 
 Adobe recommends previewing your message to check its personalization and how your recipients will see your delivery. 
 
-* In the Email designer, the **[!UICONTROL Preview]** button lets you view the rendering of each content for a recipient. The personalization fields and the conditional elements of content are replaced with the corresponding information for the selected profile. [Learn more](../../sending/using/previewing-messages.md)
+In the Email designer, the **[!UICONTROL Preview]** button lets you view the rendering of each content for a recipient. The personalization fields and the conditional elements of content are replaced with the corresponding information for the selected profile. [Learn more](../../sending/using/previewing-messages.md)

@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: in-app-messaging
 discoiquuid: c9c3e033-e319-447b-8d87-ff7dd4941876
 context-tags: delivery,inAppContent,back
-internal: n
-snippet: y
 ---
 
 # Customizing an In-App message{#customizing-an-in-app-message}
@@ -200,4 +198,3 @@ Before sending your In-App message, you can test with your test profiles to chec
    ![](assets/inapp_sending_3.png)
 
 1. You can now send your message and measure its impact with delivery reports. For more on reporting, refer to [this section](../../reporting/using/in-app-report.md).
-

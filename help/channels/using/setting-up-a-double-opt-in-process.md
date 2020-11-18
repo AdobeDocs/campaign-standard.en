@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: landing-pages
 discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 
-internal: n
-snippet: y
 ---
 
 # Setting up a double opt-in process{#setting-up-a-double-opt-in-process}

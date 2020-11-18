@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: deliveries-best-practices
 discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
 index: y
-internal: n
-snippet: y
 ---
 
 # Use templates {#use-templates}
@@ -44,7 +42,7 @@ In the **[!UICONTROL Advanced parameters]** section of an email template's prope
 
 ![](assets/template-parameters.png)
 
-The address domain must be the same as the sub-domain that you delegated to Adobe.
+The address domain must be the same as the sub-domain that you configured.
 
 The **[!UICONTROL Reply to]** fields correspond to the email address and name used for replies.
 

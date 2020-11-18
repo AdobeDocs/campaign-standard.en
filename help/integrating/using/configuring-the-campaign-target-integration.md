@@ -10,8 +10,6 @@ content-type: reference
 topic-tags: working-with-campaign-and-target
 discoiquuid: f7fb2084-dd6f-4aa2-940f-e48713146635
 
-internal: n
-snippet: y
 ---
 
 # Configuring the Campaign-Target integration{#configuring-the-campaign-target-integration}
