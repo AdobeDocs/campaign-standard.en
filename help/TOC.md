@@ -24,6 +24,7 @@ breadcrumb-title: Campaign Standard Guide
   + Privacy {#privacy}
        + [Privacy and consent](start/using/privacy.md)
        + [Privacy management](start/using/privacy-management.md)
+       + [Privacy requests](start/using/privacy-requests.md)
   + Discovering the interface {#discovering-the-interface}
        + [About the interface](start/using/about-the-interface.md)
        + [Interface description](start/using/interface-description.md)

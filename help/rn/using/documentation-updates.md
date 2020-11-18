@@ -18,7 +18,7 @@ In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), 
 
 ## November 2020 {#doc-updates-november-2020}
 
-The Privacy section has been moved and enriched with a new page: [Privacy management](../../start/using/privacy-management.md).
+The Privacy section has been moved and enriched with two new pages: [Privacy management](../../start/using/privacy-management.md) and [Managing Privacy requests](../../start/using/privacy-requests.md).
 
 ## Release 20.4 - October 2020 {#release-20-4---october-2020}
 
