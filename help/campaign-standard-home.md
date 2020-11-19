@@ -12,7 +12,7 @@ topic: Premium
 
 ## What's New
 
-* **[Updated release planning](rn/using/release-planning.md)**<br/> Upcoming Febuary 2021 release dates have been added to the release planning
+* **[Updated release planning](rn/using/release-planning.md)**<br/> Upcoming February 2021 release dates have been added to the release planning
 
 * **[Control groups](sending/using/control-group.md)**<br/> Measure the impact of your campaigns by excluding a portion of their audience
 
