@@ -246,10 +246,11 @@ breadcrumb-title: Campaign Standard Guide
        + [Integration guardrails](integrating/using/ms-dynamics-365-integration-guardrails.md)
        + [Use the Dynamics 365 integration](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)       
        + Steps for Configuring the Integration {#campaign-and-microsoft-dynamics-365-pre-requisites}
-           + [Configure Adobe I/O](integrating/using/configure-adobe-io-for-ms-dynamic.md)
            + [Configure Dynamics 365 for Campaign integration](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
+           + [Configure Adobe I/O](integrating/using/configure-adobe-io-for-ms-dynamic.md)
            + [Map Campaign custom resources and Dynamics 365 custom entities](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)           
        + Self-Service Application {#campaign-and-microsoft-dynamics-365-self-service}
+           + [Get Access to the Integration App](integration/using/self-service-app-control-access.md)
            + [Quick Start Guide](integrating/using/self-service-app-quick-start-guide.md)
            + [Overview](integrating/using/self-service-app-overview.md)           
            + [Workflows](integrating/using/self-service-app-workflows.md)
