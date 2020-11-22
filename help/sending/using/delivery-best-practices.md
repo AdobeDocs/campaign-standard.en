@@ -2,9 +2,6 @@
 solution: Campaign Standard
 product: campaign
 title: Campaign delivery best practices
-seo-solution: Campaign Standard
-product: campaign
-title: Delivery best practices
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices

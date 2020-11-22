@@ -2,9 +2,6 @@
 solution: Campaign Standard
 product: campaign
 title: Define the right audience
-seo-solution: Campaign Standard
-product: campaign
-title: Define the right audience
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices

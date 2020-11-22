@@ -2,9 +2,6 @@
 solution: Campaign Standard
 product: campaign
 title: Use delivery templates
-seo-solution: Campaign Standard
-product: campaign
-title: Use delivery templates
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices

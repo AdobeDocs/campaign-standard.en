@@ -2,9 +2,6 @@
 solution: Campaign Standard
 product: campaign
 title: Track and monitor messages
-seo-solution: Campaign Standard
-product: campaign
-title: Track and monitor messages
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices

@@ -2,9 +2,6 @@
 solution: Campaign Standard
 product: campaign
 title: Build personalized content
-seo-solution: Campaign Standard
-product: campaign
-title: Build personalized content
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
