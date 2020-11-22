@@ -4,7 +4,8 @@ solution: Campaign Standard
 product: campaign
 title: Adobe Campaign Standard product documentation
 description: Browse Campaign Standard product documentation
-topic: Premium---
+topic: Premium
+---
 
 # Campaign-Standard-TOC {#campaign-standard-partial-ignore}
 
