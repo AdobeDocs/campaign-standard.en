@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Return to sender
 description: Learn how to be notified of an incorrect address and exclude it from future communications.
-page-status-flag: never-activated
-uuid: 11981c2f-0b7f-4166-9daa-ec6a6b4d5367
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: direct-mail
-discoiquuid: 5f20ff3f-8242-4735-8c60-c57610edff52
 
 ---
 

@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Message dashboard
 description: Discover what the message dashboard is made up of, including the action bar and the various functional blocks.
-page-status-flag: never-activated
-uuid: 9bb44ee8-2cf6-43ce-94a4-367f4e469713
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
-discoiquuid: 90a78742-697f-46da-8c54-108048e57b67
 context-tags: delivery,main
 ---
 

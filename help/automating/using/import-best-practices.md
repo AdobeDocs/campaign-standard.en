@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Import best practices
 description: Learn more about the best practices to follow when importing data into the database.
-page-status-flag: never-activated
-uuid: d909d26a-cf50-46af-ae09-f0fd7258ca27
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
-discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 
 ---
 

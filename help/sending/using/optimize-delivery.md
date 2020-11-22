@@ -1,14 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Optimize message delivery
-seo-title: Optimize message delivery
-page-status-flag: never-activated
-uuid: a540efc7-105d-4c7f-a2ee-ade4d22b3445
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
+seo-solution: Campaign Standard
+product: campaign
+title: Optimize message delivery
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
 index: y
 ---
 

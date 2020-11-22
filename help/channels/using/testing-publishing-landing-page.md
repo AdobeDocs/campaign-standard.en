@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Sharing a landing page
 description: Learn how to test and publish a landing page in Adobe Campaign.
-page-status-flag: never-activated
-uuid: fb7b087a-3292-496c-bc41-2e3012bacf59
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: landing-pages
-discoiquuid: f7d4bb71-f957-4f86-97c7-8ac0a0030026
 
 ---
 

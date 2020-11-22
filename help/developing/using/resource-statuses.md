@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Resource statuses
 description: Discover the different resource statuses according to their publication state.
-page-status-flag: never-activated
-uuid: 215c0a2e-27ec-43f3-baac-1eaac7640784
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: about-custom-resources
-discoiquuid: 85516477-1b95-4273-a0a7-d2cbb9950afd
 
 ---
 

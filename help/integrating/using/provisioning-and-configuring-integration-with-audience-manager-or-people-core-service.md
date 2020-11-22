@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Provisioning and configuring integration with Audience Manager or People core service
 description: Learn how to configure the Audience Manager / People core service integration to start sharing audiences or segments with the different Adobe Experience Cloud solutions. 
-page-status-flag: never-activated
-uuid: e7329644-0033-4729-b4a7-61bef137f4b5
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
-discoiquuid: eb24f4ea-325f-433a-91a0-c45906320bcb
 
 ---
 

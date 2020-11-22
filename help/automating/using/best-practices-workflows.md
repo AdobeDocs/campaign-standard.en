@@ -1,10 +1,8 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Workflows best practices
 description: Learn how to best practices to apply to your workflows.
-page-status-flag: never-activated
-uuid: ff02b74e-53e8-49c6-bf8e-0c729eaa7d25
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation

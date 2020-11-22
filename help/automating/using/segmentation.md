@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Segmentation
 description: The Segmentation activity lets you create one or several segments from a population calculated by activities placed earlier in the workflow.
-page-status-flag: never-activated
-uuid: 77796f18-cad5-4e7a-9d7b-4ed0dd8943bf
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 0ccd9d02-772e-406b-874a-5381dd0c8709
 context-tags: segmentation,main
 ---
 

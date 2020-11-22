@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Configuring Adobe Experience Platform Launch rules to support Adobe Campaign Standard use cases
 description: Configuring Adobe Experience Platform Launch rules to support Adobe Campaign Standard use cases
-page-status-flag: never-activated
-uuid: 961aaeb5-6948-4fd2-b8d7-de4510c10566
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: push-notifications
-discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
 ---
 

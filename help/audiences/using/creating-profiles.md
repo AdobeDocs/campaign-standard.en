@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Creating profiles
 description: Learn how to create profiles and collect data on your contacts, using APIs, import capabilities, online acquisition, automatic or manual updates.
-page-status-flag: never-activated
-uuid: a5f5a58a-e798-400f-8648-05dc843d5557
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
-discoiquuid: 4ab8a984-f898-4fff-ad8c-ed8f95362f96
 
 ---
 

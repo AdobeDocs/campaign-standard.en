@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: About direct mail
 description: Discover the main specificities of the direct mail channel in Adobe Campaign.
-page-status-flag: never-activated
-uuid: 24add992-2efe-4b73-81c9-cda3e921ab16
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: direct-mail
-discoiquuid: e1fbf39c-9c30-493c-8322-9c71e18ce98c
 context-tags: delivery,directMailContent,back;deliveryCreation,wizard
 ---
 

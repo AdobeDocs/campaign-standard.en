@@ -1,6 +1,8 @@
 ---
 keywords: Campaign Standard;home;popular topics
 solution: Campaign
+solution: Campaign Standard
+product: campaign
 title: Adobe Campaign Standard product documentation
 description: Browse Campaign Standard product documentation
 topic: Premium

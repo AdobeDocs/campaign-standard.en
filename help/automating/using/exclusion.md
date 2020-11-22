@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Exclusion
 description: The Exclusion  activity allows you to exclude elements from one population according to certain criteria.
-page-status-flag: never-activated
-uuid: b79e7f73-37a0-4ec3-ac5a-5449dc1b1f22
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: d5312fcd-43ad-428e-bde9-90f062e9358c
 context-tags: exclusion,main
 ---
 

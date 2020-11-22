@@ -1,9 +1,11 @@
 ---
-product: adobe campaign
-sub-product: adobe campaign standard
+solution: Campaign Standard
+product: campaign
 audience: end-user
-user-guide-title: Adobe Campaign Standard Help Center
-breadcrumb-title: Campaign Standard Guide
+user-guide-title: Campaign Standard
+title: Adobe Campaign Standard Help Center
+breadcrumb-title: Campaign Standard
+title: Campaign Standard Guide
 ---
 
 # Adobe Campaign Standard Help {#using}

@@ -2,16 +2,26 @@
 cloud: experience-cloud
 product: adobe-campaign-standard
 audience: all
-user-guide-title: Campaign Standard User Guide
+user-guide-solution: Campaign Standard
+product: campaign
+title: Campaign Standard User Guide
 user-guide-url: https://www.adobe.com
-solution-title: Campaign Standard
+solution-solution: Campaign Standard
+product: campaign
+title: Campaign Standard
 solution-hub-url: https://helpx.adobe.com/support/campaign/standard.html
 solution-image: assets/experience-cloud-logo-24.png
-getting-started-title: Getting Started
+getting-started-solution: Campaign Standard
+product: campaign
+title: Getting Started
 getting-started-url: https://helpx.adobe.com/campaign/standard/start/user-guide.html
-tutorials-title: Tutorials23
+tutorials-solution: Campaign Standard
+product: campaign
+title: Tutorials23
 tutorials-url: https://helpx.adobe.com/campaign/tutorials.html
-other-title: Tutorials2
+other-solution: Campaign Standard
+product: campaign
+title: Tutorials2
 other-url: https://helpx.adobe.com/campaign/tutorials.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/campaign-standard.en
 ---

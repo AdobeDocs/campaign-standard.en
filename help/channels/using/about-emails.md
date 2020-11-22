@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: About emails
 description: Discover the different types of emails that you can send with Adobe Campaign.
-page-status-flag: never-activated
-uuid: 1650cad5-afc0-4215-9fb4-7f8ad5f504df
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: email-messages
-discoiquuid: 521463aa-dec0-4f4b-8b71-93a4572e2b33
 context-tags: deliveryCreation,wizard
 ---
 

@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Technical workflows
 description: Technical workflows are out-of-the-box workflows designed to handle background technical processes in Adobe Campaign, ensuring correct behaviour of the platform.
-page-status-flag: never-activated
-uuid: 6e763dc1-e1d3-4d94-bc0b-ef5b1703d8e5
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: application-settings
-discoiquuid: e9f147bd-6a5b-4b82-b9bb-311e38e22c62
 
 ---
 

@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Campaign Standard Release Planning
 description: This page lists upcoming releases of Adobe Campaign Standard.
-page-status-flag: never-activated
-uuid: 
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
-discoiquuid: 
 
 ---
 

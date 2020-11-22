@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Profile transactional messages
 description: Learn how to create and publish a profile transactional         message.
-page-status-flag: never-activated
-uuid: a8efe979-74ae-46ff-a305-b86a90679581
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
-discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
 
 ---
 

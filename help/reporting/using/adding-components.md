@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Adding components
 description: Drag and drog components to your freeform table to start filtering your data and building your report.
-page-status-flag: never-activated
-uuid: a1aa880c-4ee8-4ffb-b3bf-45249e6d446f
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
-discoiquuid: a773b7a8-c290-4c81-bb52-48acc14fc89f
 
 ---
 

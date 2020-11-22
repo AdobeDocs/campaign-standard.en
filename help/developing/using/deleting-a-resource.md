@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Deleting a resource
 description: Learn how to delete a resource 
-page-status-flag: never-activated
-uuid: 5de27589-6fa5-412c-8e5a-a4976de05715
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
-discoiquuid: 0130733d-4e3f-40cd-b959-56381f2c8f44
 
 ---
 
