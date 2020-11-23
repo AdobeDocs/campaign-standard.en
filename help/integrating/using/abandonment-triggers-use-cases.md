@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Abandonment Triggers use cases
 description: Learn how to use the Experience Cloud Triggers integration with these different use cases.
-page-status-flag: never-activated
-uuid: 9e236165-afd5-4155-9151-c1941dc0af99
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-discoiquuid: 1b9aeec5-70bb-4d72-a3e9-12342abf08f7
 
 ---
 

@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Data retention
 description: 
-page-status-flag: never-activated
-uuid: d90852b4-e9f3-4187-bbea-e748d16d1590
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: application-settings
-discoiquuid: b791562b-6c51-447d-9e5b-bb77136f3dd8
 
 ---
 

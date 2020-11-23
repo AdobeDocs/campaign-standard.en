@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Updating the database structure
 description: Discover how to update the Adobe Campaign database.
-page-status-flag: never-activated
-uuid: 6c802f4f-d298-4ca4-acdb-09f2ad3865b9
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
-discoiquuid: 2448b126-66b8-4608-aa6c-8028fb1902a4
 context-tags: deploy,main;eventCusResource,overview
 ---
 

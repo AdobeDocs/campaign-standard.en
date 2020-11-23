@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Promoting a service
 description: Use Adobe Campaign to promote a service and engage your customers through dedicated landing pages, emails or directly on your website.
-page-status-flag: never-activated
-uuid: 2b71d2a1-3e48-4a21-ab21-4a360abc1d36
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
-discoiquuid: 98650305-7abf-456f-8c91-cf0b61f53763
 
 ---
 

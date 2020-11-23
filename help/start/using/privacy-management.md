@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Privacy management in Adobe Campaign Standard
 description: Learn more about the Adobe Campaign Standard features to manage Privacy.
-page-status-flag: never-activated
-uuid: ed9e631c-5ad1-49f1-be1e-b710bc64dc91
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 
 ---
 
@@ -43,7 +40,7 @@ In order to help you facilitate your Privacy readiness, Adobe Campaign allows yo
 
 * Also known as Data Erasure, the **Right to be Forgotten** (delete request) entitles the Data Subject to have the Data Controller erase his/her personal data, cease further dissemination of the data, and potentially have third parties halt processing of the data.
 
-To learn how you can create **Access** and **Delete** requests and how Adobe Campaign processes them, refer to the [implementation steps](https://helpx.adobe.com/campaign/kb/acs-privacy.html).
+To learn how you can create **Access** and **Delete** requests and how Adobe Campaign processes them, refer to the [implementation steps](../../start/using/privacy-requests.md#about-privacy-requests).
 
 Tutorials on Privacy management in Campaign Standard are also available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=en#privacy).
 
@@ -65,7 +62,7 @@ The features to help manage some aspects of consent have been core to Adobe Camp
 
 For more on Consent management, see [About subscriptions](../../audiences/using/about-subscriptions.md) and [Get started with landing pages](../../channels/using/getting-started-with-landing-pages.md).
 
-In addition to the Consent Management tools provided by Adobe Campaign, you have the possibility to track whether a consumer has opted-out for the sale of Personal Information. See [this section](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ccpa).
+In addition to the Consent Management tools provided by Adobe Campaign, you have the possibility to track whether a consumer has opted-out for the sale of Personal Information. See [this section](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).
 
 ### Data retention {#data-retention}
 

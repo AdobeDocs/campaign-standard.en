@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Opens
 description: With the Opens report, learn which delivery was the most viewed according to various criteria.
-page-status-flag: never-activated
-uuid: fe5453b6-cac1-43be-860e-c65c8a5168d6
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
-discoiquuid: c87188e8-cea7-4cc6-becf-b9788e5ec36b
 context-tags: deliveryOpenRateReport,main;campaignOpenRateReport,main;programOpenRateReport,main
 ---
 

@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Creating an email
 description: Follow these steps to create a single-send email in Adobe Campaign.
-page-status-flag: never-activated
-uuid: 74c7ef35-82c0-4bc4-b1f6-8e74fdcaea3c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: email-messages
-discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
 
 ---
 

@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Get started with Campaign integrations
 description: Use other Adobe solutions and combine their different capabilities with Campaign.
-page-status-flag: never-activated
-uuid: 59d7cd99-a6f7-47f1-9b5c-c50e27a2bef8
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: get-started-campaign-integrations
-discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 
 ---
 

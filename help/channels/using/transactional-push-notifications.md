@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Transactional push notifications
 description: Learn how to create and publish a transactional push         notification.
-page-status-flag: never-activated
-uuid: ef31c1b6-9ef8-42e3-b49d-72f9eac8ea32
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
-discoiquuid: e645d4b9-001f-47d9-8a0f-b4696c75c5d3
 
 ---
 

@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Customizing a push notification
 description: Learn how to customize your push notifications with various advanced options.
-page-status-flag: never-activated
-uuid: 8cf74cad-b1ba-4aad-83bd-7289cb22d5f4
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: push-notifications
-discoiquuid: dc944c85-2059-46df-b396-676fe3617dd1
 context-tags: delivery,mobileAppContent,back
 ---
 

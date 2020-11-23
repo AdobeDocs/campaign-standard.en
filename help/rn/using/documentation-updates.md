@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Documentation Updates
 description: Learn about all the latest updates for Adobe Campaign Standard documentation.
-page-status-flag: never-activated
-uuid: 3bdc7d11-8421-4110-a5ba-7b1376a03dda
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 
 ---
 
@@ -18,7 +15,7 @@ In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), 
 
 ## November 2020 {#doc-updates-november-2020}
 
-The Privacy section has been moved and enriched with a new page: [Privacy management](../../start/using/privacy-management.md).
+The Privacy section has been moved and enriched with two new pages: [Privacy management](../../start/using/privacy-management.md) and [Managing Privacy requests](../../start/using/privacy-requests.md).
 
 ## Release 20.4 - October 2020 {#release-20-4---october-2020}
 

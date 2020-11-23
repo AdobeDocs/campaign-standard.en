@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Extract file
 description: The Extract file activity allows you to export data from Adobe Campaign in the form of an external file.
-page-status-flag: never-activated
-uuid: 631f0fbd-9e8d-4f77-a338-fcb7f4fc1774
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
-discoiquuid: a06509f9-4731-4187-b43d-3bfa361284d3
 context-tags: fileExport,main
 ---
 

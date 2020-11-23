@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Campaign Standard Release Planning
 description: This page lists upcoming releases of Adobe Campaign Standard.
-page-status-flag: never-activated
-uuid: 
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
-discoiquuid: 
 
 ---
 
@@ -24,7 +21,7 @@ All release dates are subject to change: we recommend you visit this page on a r
 
 **NEW!** Subscribe to [Campaign Standard release notifications](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) to get details about upcoming releases straight in your inbox.
 
-## Release 21.1 - Febuary Release {#release-21-1-release}
+## Release 21.1 - February Release {#release-21-1-release}
 
 Environment updates happen in waves, during the indicated timeframes below. Detailed information about this release are available in the [Release Notes](../../rn/using/release-notes.md). If you have any further questions, please contact [Adobe Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
 

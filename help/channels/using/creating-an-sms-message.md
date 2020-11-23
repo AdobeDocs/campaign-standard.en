@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Creating an SMS message
 description: Follow these steps to create a single-send SMS message in Adobe Campaign.
-page-status-flag: never-activated
-uuid: 591ae97e-2d19-4f93-be4b-d8d20f1d2d12
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: sms-messages
-discoiquuid: b27381a9-19e5-4b65-b194-c72f475ba54d
 delivercontext-tags: deliveryCreation,wizard
 ---
 

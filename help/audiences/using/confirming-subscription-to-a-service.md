@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Confirming subscription to a service
 description: Follow these steps to set up a confirmation message for profiles subscribing to a service in Adobe Campaign.
-page-status-flag: never-activated
-uuid: 23e6c4c2-e2c7-472f-b616-36a95225ac1d
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
-discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 
 ---
 

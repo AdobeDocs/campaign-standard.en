@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Editing plain text, HTML and mobile email formats
 description: Discover the Plain text and HTML modes
-page-status-flag: never-activated
-uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 
 ---
 

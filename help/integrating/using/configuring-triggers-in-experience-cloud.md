@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Configuring Triggers in Experience Cloud
 description: Learn how to configure the Adobe Experience Cloud Triggers integration to start sending personalized deliveries to your customers based on their previous behaviors. 
-page-status-flag: never-activated
-uuid: 8fd7b804-9528-46a5-a060-bf16b8dc555d
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-discoiquuid: 4163dc0c-8103-4425-b8bf-7aa45c4d3a06
 
 ---
 

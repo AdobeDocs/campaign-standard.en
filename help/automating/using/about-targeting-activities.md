@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: About targeting activities
 description: Targeting activities can be accessed from the left-hand side of the screen.
-page-status-flag: never-activated
-uuid: a6cbc431-1ae3-428e-b2c9-893454b32ae2
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 5f7607a1-5f71-4d66-9688-3e5a1774f1b4
 
 ---
 

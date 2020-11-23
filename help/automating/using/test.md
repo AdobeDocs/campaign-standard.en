@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Test
 description: The Test activity enables a transition based on a test result.
-page-status-flag: never-activated
-uuid: 1562ec7a-253a-4f4f-b66a-c2948b57775a
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: execution-activities
-discoiquuid: 2650bf1f-0bce-4049-a226-2369f6666b95
 context-tags: jstest,main
 ---
 

@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: "Step 1: Add extension fields to the profile resource"
 description: Discover how to extend the profile resource.
-page-status-flag: never-activated
-uuid: cb93ed40-3b00-458d-9554-883954565fdb
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
-discoiquuid: e9a7d1ab-9a4a-49d2-a725-7bcf8fc240d6
 
 ---
 

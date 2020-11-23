@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: About subscriptions
 description: Learn more about services and subscriptions in Campaign Standard.
-page-status-flag: never-activated
-uuid: b0263e40-f910-49f2-a138-0a1302aeeec6
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
-discoiquuid: 27de5a13-7b7c-4c91-bf26-3dfd324beb8f
 
 ---
 

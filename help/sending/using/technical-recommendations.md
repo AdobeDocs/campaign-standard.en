@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Deliverability technical recommendations for Adobe Campaign Standard
 description: Read about some technical recommendations to improve deliverability with Adobe Campaign Standard.
-page-status-flag: never-activated
-uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 ---
 

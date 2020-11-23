@@ -1,9 +1,11 @@
 ---
-product: adobe campaign
-sub-product: adobe campaign standard
+solution: Campaign Standard
+product: campaign
 audience: end-user
-user-guide-title: Adobe Campaign Standard Help Center
-breadcrumb-title: Campaign Standard Guide
+user-guide-title: Campaign Standard
+title: Adobe Campaign Standard Help Center
+breadcrumb-title: Campaign Standard
+title: Campaign Standard Guide
 ---
 
 # Adobe Campaign Standard Help {#using}
@@ -24,6 +26,7 @@ breadcrumb-title: Campaign Standard Guide
   + Privacy {#privacy}
        + [Privacy and consent](start/using/privacy.md)
        + [Privacy management](start/using/privacy-management.md)
+       + [Privacy requests](start/using/privacy-requests.md)
   + Discovering the interface {#discovering-the-interface}
        + [About the interface](start/using/about-the-interface.md)
        + [Interface description](start/using/interface-description.md)

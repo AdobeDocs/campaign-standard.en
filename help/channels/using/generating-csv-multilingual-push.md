@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Generating a CSV file for Multilingual Push Notification with Campaign Standard
 description: Uploading a CSV file to generate content for delivery is a feature used to support Multilingual Push notifications.
-page-status-flag: never-activated
-uuid: e90f4ec8-14e3-4304-b5fc-bce0ba08a4ef
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: email-messages
-discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
 
 ---
 

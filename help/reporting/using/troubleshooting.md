@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Troubleshooting
 description: Find here common questions related to Dynamic reporting.
-page-status-flag: never-activated
-uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
-contentOwner: beneat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: troubleshooting
-discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 
 ---
 
