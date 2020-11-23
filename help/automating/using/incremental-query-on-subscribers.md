@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Incremental query on subscribers to a service
 description: The following example presents how to configure an Incremental query activity to filter subscribers to a service.
-page-status-flag: never-activated
-uuid: 73b42422-e815-43ef-84c0-97c4433ccc98
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 80961e73-42ec-463a-8496-cff69fab0475
 context-tags: incremental,main
 ---
 

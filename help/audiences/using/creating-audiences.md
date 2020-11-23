@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Creating audiences
 description: Learn how to create audiences in Adobe Campaign.
-page-status-flag: never-activated
-uuid: fe99b31b-a949-4832-b0e6-2b36d1c8be80
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
 topic-tags: managing-audiences
-discoiquuid: df8bdcfb-be5e-4044-bc26-aa3466accbbe
 context-tags: readAudience,main;audience,overview;delivery,audience,back
 ---
 

@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Designing an A/B test email
 description: Discover the A/B test functionality and follow these steps to create an email from an A/B test template in Adobe Campaign.
-page-status-flag: never-activated
-uuid: 104f6973-68a7-4692-a90a-a5570a980ec7
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: email-messages
-discoiquuid: e249ba70-90d0-43f2-868c-ce9fdc7e642d
 context-tags: delivery,abTesting,back;deliveryCreation,wizard;delivery,main
 ---
 

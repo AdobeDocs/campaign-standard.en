@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Designing content in Adobe Campaign
 description: Create email content starting from scratch, importing HTML or leveraging existing templates.
-page-status-flag: never-activated
-uuid: 8f73407f-ab90-46bc-aeb6-bd87fcb0404c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: about-content-design
-discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 
 ---
 

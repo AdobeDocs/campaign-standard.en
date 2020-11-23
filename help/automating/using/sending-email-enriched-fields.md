@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Sending an email with enriched fields
 description: The example below shows how to send an email using additional data retrieved from an external file through the load file activity.
-page-status-flag: never-activated
-uuid: 69af12cc-6f82-4977-9f53-aa7bc26f5d7e
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
-discoiquuid: 584ff893-9b1b-46c9-9628-714ab349ab88
 context-tags: fileImport,main
 ---
 

@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Configure Adobe IO for Microsoft Dynamics 365 integration
 description: Learn how to configure Adobe IO for Microsoft Dynamics 365 integration.
-page-status-flag: never-activated
-uuid: effa1028-66b2-4bef-b5e4-7319dbb23d5d
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
-discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 
 ---
 
@@ -60,7 +57,9 @@ Once downloaded, you can unzip the file to reveal the public and private keys. A
 
     ![](assets/adobeIO5.png)
 
-1. On the next screen you will select product profiles to associate with this project. Select the product profile that contains in the title: The tenant ID of your Campaign instance - [!UICONTROL Administrators] 
+1. On the next screen you will select product profiles to associate with this project. Select the product profile that contains in the solution: Campaign Standard
+product: campaign
+title: The tenant ID of your Campaign instance - [!UICONTROL Administrators] 
 
     Example: Campaign Standard - your-campaign-tenantID - Administrators
 

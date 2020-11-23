@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: List of roles
 description: Find out the list of roles that you can assign to your users.
-page-status-flag: never-activated
-uuid: 128aaf9b-9b7d-49f3-9e1f-72e79a29baa0
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-discoiquuid: ceaa3c94-9e1a-4271-b443-b00b4068929f
 context-tags: role,overview;role,main
 ---
 

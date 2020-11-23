@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: "Step 2: Publish the extension"
 description: 
-page-status-flag: never-activated
-uuid: 0c944ed0-3007-4c1b-8960-41c7ef6121cf
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
-discoiquuid: b57042e5-5073-4e79-a3e3-1eed824ac537
 
 ---
 

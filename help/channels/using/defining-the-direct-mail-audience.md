@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Defining the direct mail audience
 description: Learn how to define the target for your direct mail delivery.
-page-status-flag: never-activated
-uuid: f843e368-5c07-4b53-8943-46f7bf45b62b
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: direct-mail
-discoiquuid: f993d1b6-4b9a-4f95-81fc-60c126211bd2
 context-tags: delivery,directMailContent,back
 ---
 

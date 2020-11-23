@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Creating the direct mail
 description: Follow these steps to create a direct mail delivery in Adobe Campaign.
-page-status-flag: never-activated
-uuid: 3b1365c4-4ea1-4434-818b-05ff0c9b42c1
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: direct-mail
-discoiquuid: 5b02227f-9438-4001-bc2f-3d8661d173b3
 context-tags: delivery,directMailContent,back
 ---
 

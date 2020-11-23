@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Auditing export logs
 description: Administrators can track the exports that were made from Adobe Campaign.
-page-status-flag: never-activated
-uuid: 2a93485e-f6b9-4b01-b3a1-c91f2739d188
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-discoiquuid: 1033d0ce-a400-47ad-afda-bcf7419c94c7
 
 ---
 

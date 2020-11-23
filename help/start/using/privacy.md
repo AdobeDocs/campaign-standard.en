@@ -1,4 +1,6 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Privacy and consent
 description: Learn about privacy, personal data and consent management in Adobe Campaign Standard
 audience: start

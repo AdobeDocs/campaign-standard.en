@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Get started with dynamic reporting
 description: Analyze the success of your campaigns in build-in or customized dynamic reports.
-page-status-flag: never-activated
-uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 
 ---
 

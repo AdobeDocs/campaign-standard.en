@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: In-App report
 description: With the In-App out-of-the-box report, learn about the success of your In-App messages.
-page-status-flag: never-activated
-uuid: 802dc606-a314-46dd-b361-b746b0772303
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
-discoiquuid: 3f17c2ad-8ba3-4795-93ed-288b2bcee872
 
 ---
 

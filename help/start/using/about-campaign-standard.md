@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Get started with Campaign Standard
 description: Discover key capabilities, user interface and global guidelines.
-page-status-flag: never-activated
-uuid: 027f6787-d2ef-44ae-a40a-8facdfe2ae77
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
 topic-tags: about-adobe-campaign
-discoiquuid: aee81724-b425-47b4-af92-e55eff97836f
 
 ---
 

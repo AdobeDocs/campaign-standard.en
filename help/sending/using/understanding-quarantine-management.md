@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Understanding quarantine management
 description: Learn how to optimize your deliverability with quarantine management.
-page-status-flag: never-activated
-uuid: 3c287865-1ada-4351-b205-51807ff9f7ed
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-discoiquuid: de3a50b6-ea8f-4521-996b-c49cc1f3c946
 
 ---
 

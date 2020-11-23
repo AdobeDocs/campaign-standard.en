@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Multilingual messages templates
 description: Learn how to define and execute multilingual Email/SMS deliveries through a single delivery based on your automatically segmented customers' preferred language. Report on the performance of every delivery down to the language and individual levels.
-page-status-flag: never-activated
-uuid: 7a2cd5f7-c0fc-4825-a770-a62816c66b3f
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
 topic-tags: managing-templates
-discoiquuid: 064c5c4a-f579-4bab-adf3-51c92eb4518f
 
 ---
 

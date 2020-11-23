@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: About In-App messaging
 description: Display message or alert within the mobile application with In-App messaging.
-page-status-flag: never-activated
-uuid: 6784cdfc-6db9-41dd-9fbb-2e756a5bcb5f
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: in-app-messaging
-discoiquuid: a4168cfb-22bf-4ab3-b9d8-6e76e1bdc055
 context-tags: delivery,triggers,back
 ---
 

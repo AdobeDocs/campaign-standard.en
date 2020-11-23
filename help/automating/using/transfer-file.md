@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Transfer file
 description: The Transfer file activity allows you to receive or send files, test whether there are files present, or list files in Adobe Campaign.
-page-status-flag: never-activated
-uuid: a2f18118-b681-4310-aee0-9e82179d2032
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
-discoiquuid: 752f2aed-f897-485e-b329-f3cc1756ee8e
 context-tags: fileTransfer,main
 ---
 

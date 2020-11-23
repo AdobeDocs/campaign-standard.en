@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Delivery summary
 description: With the Delivery summary out-of-the-box report, learn about your deliveries statistics, such as number of sends, bounces and opens.
-page-status-flag: never-activated
-uuid: 9f64a430-8fee-4c4c-96e6-2913f4d6b831
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
-discoiquuid: 536067df-d16d-472a-850a-5fb7c609d60a
 context-tags: deliveryCirculationReport,main;campaignCirculationReport,main;programCirculationReport,main
 ---
 

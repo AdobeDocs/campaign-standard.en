@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Building a workflow
 description: This section details the main principles and best practices for creating a new workflow.
-page-status-flag: never-activated
-uuid: 11374f64-8d34-40da-937b-09f419250f4c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
-discoiquuid: c26fcb0e-19d5-4bd5-b7d6-2d22ce92ad90
 context-tags: workflow,wizard;workflow,main
 ---
 

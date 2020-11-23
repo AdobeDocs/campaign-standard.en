@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: About data management activities
 description: Data management activities are available from the left-hand side of the screen.
-page-status-flag: never-activated
-uuid: c377bdb6-ae4e-4f23-acb7-ba6b0e095241
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
-discoiquuid: 332bd6be-6ca3-4d38-b608-8a66c156d080
 
 ---
 

@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Target mappings in Campaign
 description: Target mappings are technical objects used by Campaign in order to deliver messages. They contain all the technical settings required to send deliveries.
-page-status-flag: never-activated
-uuid: 0c3841cb-56fb-4b4f-970d-947edd1c2112
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: application-settings
-discoiquuid: 73d06242-a02f-4a8d-85e9-73efffb5eda1
 
 ---
 

@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Personalizing an email with additional data
 description: This use case presents how to add different types of additional data to a query and use it as a personalization field in an email.
-page-status-flag: never-activated
-uuid: b3c629fa-370e-481c-b347-fcf9f5a5e847
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 8d46ce28-0101-4f13-865a-2208ed6d6139
 context-tags: query,main
 ---
 

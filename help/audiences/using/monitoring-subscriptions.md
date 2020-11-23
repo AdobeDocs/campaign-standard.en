@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Monitoring subscriptions
 description: Learn how to track your subscribers and measure the success of your services using dashboards and reports.
-page-status-flag: never-activated
-uuid: b0d8eb80-fa51-4518-a5e6-56de4046f6ff
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
-discoiquuid: 36750524-eb54-47e8-aa1b-ae0b94f58cb1
 
 ---
 

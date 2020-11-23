@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Create and send a push notification
 description: Follow these steps to create a single-send push notification in Adobe Campaign.
-page-status-flag: never-activated
-uuid: 01997725-ca0a-420c-9e81-5ea801652f87
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: push-notifications
-discoiquuid: ec930cd4-6365-4e54-babe-9dc2eed041fc
 context-tags: delivery,mobileAppContent,back
 ---
 

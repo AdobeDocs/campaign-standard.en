@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Defining dynamic text
 description: Learn how to display different texts dynamically to the user according to the conditions defined in Adobe Campaign.
-page-status-flag: never-activated
-uuid: bbcd200c-4fb4-467b-ba39-09b8bee9bcaa
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: defining-conditional-content
-discoiquuid: 6bb6cee3-5674-4113-8073-5a9572b3e830
 
 ---
 

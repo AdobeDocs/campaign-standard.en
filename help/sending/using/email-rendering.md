@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Email rendering
 description: Discover the email rendering feature.
-page-status-flag: never-activated
-uuid: c423e237-ad39-4797-ac3a-4320894a8f99
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
-discoiquuid: 2b5b13c8-2e51-4985-a161-c1d7f0fc32b4
 
 ---
 

@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Triggering data ingestion through APIs
 description: Learn how to trigger data ingestion through APIs.
-page-status-flag: never-activated
-uuid: 867b1c4b-4c79-4c52-9d0a-ef71993e50a2
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 
 ---
 

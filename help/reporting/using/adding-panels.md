@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Adding panels
 description: Dynamic report allows you to add panel to better filter your data depending on the chosen time period.
-page-status-flag: never-activated
-uuid: 8e76e837-5efc-4250-8192-dee1a0bd62fe
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
-discoiquuid: f4e1e676-5ca2-4a58-96d7-d378ff803710
 
 ---
 
