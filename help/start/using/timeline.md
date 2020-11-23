@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Timeline
 description: Learn how to visualize programs that are in progress and their content using the Adobe Campaign Standard interface.
-page-status-flag: never-activated
-uuid: ffa0a63a-2e77-45c0-8e60-212f7aaeb447
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
 topic-tags: marketing-plans
-discoiquuid: 53e3db10-5fed-4fc3-b41e-5226f1e05246
 context-tags: campaignCalendar,main
 ---
 

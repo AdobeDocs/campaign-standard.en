@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Marketing activities
 description: "Learn how to create and manage your marketing activities: campaigns, email, SMS and push notification deliveries, landing pages, workflows. You can easily design a new activity, edit an existing one, and consult their status and validity."
-page-status-flag: never-activated
-uuid: 5d45a935-6d03-4b27-aabd-7c47c11241ba
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
 topic-tags: marketing-plans
-discoiquuid: 3ba165e1-420f-4d6f-b339-467b066b42d0
 context-tags: activity,overview
 ---
 

@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Campaign Standard Deprecated and Removed Features
 description: This page lists deprecated and removed features of Adobe Campaign Standard.
-page-status-flag: never-activated
-uuid: 
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
-discoiquuid: 
 
 ---
 

@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Privacy requests
 description: Learn how to manage Privacy requests in Adobe Campaign Standard
-page-status-flag: never-activated
-uuid: ed9e631c-5ad1-49f1-be1e-b710bc64dc91
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 
 ---
 

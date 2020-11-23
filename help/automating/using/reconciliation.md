@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Reconciliation
 description: The Reconciliation activity allows you to link unidentified data to existing resources.
-page-status-flag: never-activated
-uuid: 7884db8c-1717-4724-be15-3b0b32ccc071
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
-discoiquuid: cb8c43f4-9cdd-4e85-99a4-004b36b336aa
 context-tags: reconciliation,main
 ---
 

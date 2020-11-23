@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Filtering rules
 description: Use filtering rules to refine the audience of your messages.
-page-status-flag: never-activated
-uuid: ed3eea62-3a47-4318-ae22-d82aa857448f
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
-discoiquuid: 7ddaf36c-74e6-4501-b3eb-3d03f005aaa6
 
 ---
 

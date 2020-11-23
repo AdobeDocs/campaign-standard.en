@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Release Notes 2017
 description: This page lists all 2017 releases of Adobe Campaign Standard.
-page-status-flag: never-activated
-uuid: d73f8186-e309-441b-969d-71d0a1c33cf4
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 
 ---
 

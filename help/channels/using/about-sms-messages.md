@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: About SMS messages
 description: Discover the main specificities of the SMS channel in Adobe Campaign.
-page-status-flag: never-activated
-uuid: 14dc7434-8171-4ad1-9540-52ca637659a9
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: sms-messages
-discoiquuid: 6134fe72-77de-4fd0-b794-4d966effaccf
 delivercontext-tags: deliveryCreation,wizard;delivery,smsContent,back
 ---
 

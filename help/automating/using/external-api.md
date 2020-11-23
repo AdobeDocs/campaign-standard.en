@@ -1,8 +1,8 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: External API
 description: 
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: targeting-activities

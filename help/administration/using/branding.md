@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Branding
 description: Discover all the tools available to manage your branding identities.
-page-status-flag: never-activated
-uuid: d66ac5a2-2ae1-4870-b48e-7f276744ffdd
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: application-settings
-discoiquuid: cbb1dcec-3bc6-4013-87fa-27d0e5d32bf8
 context-tags: branding,overview;branding,main
 ---
 

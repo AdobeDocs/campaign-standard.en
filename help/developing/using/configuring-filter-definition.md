@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Configuring filter definition
 description: Discover the filter feature to manage large data set.
-page-status-flag: never-activated
-uuid: c9db95fe-e9aa-40f8-9c0a-e74bb21ac14b
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
-discoiquuid: 993ab2bd-e05f-468e-9ef8-a603761247f8
 context-tags: cusResource,main
 ---
 

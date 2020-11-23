@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Complaints
 description: With the Complaints out-of-the-box report, learn how many time delivery was declared as spam.
-page-status-flag: never-activated
-uuid: 9a973460-fda1-4eb0-9b6e-df421df8ca02
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
-discoiquuid: e32cfb8f-e973-4bf2-a7f9-e99951a6bfbd
 context-tags: deliveryComplaintsReport,main;campaignComplaintsReport,main;programComplaintsReport,main
 ---
 

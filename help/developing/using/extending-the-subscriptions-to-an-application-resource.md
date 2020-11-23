@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Extending the subscriptions to an application resource
 description: 
-page-status-flag: never-activated
-uuid: 8879b427-b31b-4311-bf54-258a91b1fb78
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: use-cases--extending-resources
-discoiquuid: 59faa74e-86fc-42d3-90da-f48580b5ec13
 
 ---
 

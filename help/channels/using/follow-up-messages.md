@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Follow-up messages
 description: Learn how to create and publish a follow-up message.
-page-status-flag: never-activated
-uuid: d2a17da2-e935-420a-8531-78ed6a1fe68b
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
-discoiquuid: 9615e369-754f-4f6a-a1b1-14462f946666
 
 ---
 

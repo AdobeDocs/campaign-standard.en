@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Defining the report period
 description: The time period of your report allows you to filter your data depending on the chosen dates.
-page-status-flag: never-activated
-uuid: 8dfd1ae6-a5a0-4900-bd6f-7815749d0b60
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
-discoiquuid: 8ff74630-860c-4f1c-9aa7-21c3326e47da
 
 ---
 

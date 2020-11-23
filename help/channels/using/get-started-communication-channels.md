@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Get started with communication channels
 description: Create personalized messages on various channels, use templates, create landing pages and check best practices.
-page-status-flag: never-activated
-uuid: 5d61d8df-8256-4f28-8dd3-e791891e312f
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
-discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
 
 ---
 

@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Map Campaign custom resources and Dynamics 365 custom entities
 description: Learn how to map resources and entities in the context of the integration between Adobe Campaign Standard and Microsoft Dynamics 365.
-page-status-flag: never-activated
-uuid: ed6c1b76-87f7-4d23-b5e2-0765297a905c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
-discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 
 ---
 

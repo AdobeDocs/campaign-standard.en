@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Personalizing SMS messages
 description: Discover the specificity of the transliteration options when personalizing SMS messages.
-page-status-flag: never-activated
-uuid: 123fe70c-c279-40a3-88b6-6bfb2453ec83
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: sms-messages
-discoiquuid: 7c64785c-e3c2-4caa-a547-002990aae3f9
 delivercontext-tags: deliveryCreation,wizard;delivery,smsContent,back;delivery,smsContent,back
 ---
 

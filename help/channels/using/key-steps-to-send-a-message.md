@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Key steps to send a message
 description: Follow these steps to create and send messages with Adobe Campaign.
-page-status-flag: never-activated
-uuid: d3fbb1e6-6444-4b56-b9d6-ae39bd8d4804
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
-discoiquuid: a51351ee-e3b6-4996-9e68-b7d5157b8207
 
 ---
 

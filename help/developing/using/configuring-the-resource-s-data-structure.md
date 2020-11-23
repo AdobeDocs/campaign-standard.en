@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Configuring the resource's data structure
 description: Learn how to configure the data structure.
-page-status-flag: never-activated
-uuid: 60fe80c0-9df6-4808-a432-60a1977216ea
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
-discoiquuid: 4f22ee35-1d5f-4c75-95b4-3e38b85de26e
 context-tags: cusResource,main
 ---
 

@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Exporting lists
 description: Adobe Campaign allows you to export the data displayed as lists from an overview screen directly in a file for future use. 
-page-status-flag: never-activated
-uuid: c64fe706-bd6e-4746-958e-f94226f4e2cb
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
-discoiquuid: 12c874da-435f-44b6-a3c8-873301e177cc
 
 ---
 

@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Users management
 description: Adobe Campaign users hold specific roles. Discover the main user types. 
-page-status-flag: never-activated
-uuid: 8c4cc74a-815f-4815-af66-a7c21bc754f1
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-discoiquuid: 08c8712a-0066-4b8b-8471-2656b8fb23ed
 
 ---
 

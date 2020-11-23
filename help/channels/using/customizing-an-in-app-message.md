@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Customizing an In-App message
 description: Learn how to customize your In-App messages with various options.
-page-status-flag: never-activated
-uuid: 1d9c08ed-4de5-440d-bf51-4a437eec67d5
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: in-app-messaging
-discoiquuid: c9c3e033-e319-447b-8d87-ff7dd4941876
 context-tags: delivery,inAppContent,back
 ---
 

@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Reporting interface
 description: Learn more about Dynamic report interface basis and how to navigate through the different tabs and menus.
-page-status-flag: never-activated
-uuid: da6bcf7a-1d57-4d00-a3ba-d84214592417
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-discoiquuid: 14d86b4f-2782-48ec-8968-393a6de4f853
 
 ---
 

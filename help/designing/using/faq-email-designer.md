@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Email Designer Frequently Asked Questions 
 description: Frequently asked questions about Email Designer.
-page-status-flag: never-activated
-uuid: effa1028-66b2-4bef-b5e4-7319dbb23d5d
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
-discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 
 ---
 

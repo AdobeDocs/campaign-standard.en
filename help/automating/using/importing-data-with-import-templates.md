@@ -1,14 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Importing data with import templates
 description: Learn how to collect data to feed your Campaign database.
-page-status-flag: never-activated
-uuid: bfc03235-2032-448a-a9ed-21ff2a83fa09
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
-discoiquuid: fb511bb8-6be7-43f6-86ab-94d5cfa3efc9
 
 ---
 
