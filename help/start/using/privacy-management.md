@@ -35,7 +35,7 @@ For more on this, see [Consent, Retention and Roles](#consent-retention-roles).
 
 It also contains information on important features to manage Privacy ([consent, data retention and user roles](#consent-retention-roles)), as well as best practices to help you with your Privacy compliance when using Adobe Campaign.-->
 
-## Regulations on privacy management {#privacy-management-regulations}
+## Regulations on Privacy management {#privacy-management-regulations}
 
 Adobe Campaign's capabilities help you comply with the following regulations:
 
