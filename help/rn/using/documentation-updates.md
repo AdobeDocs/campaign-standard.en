@@ -17,6 +17,8 @@ In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), 
 
 The Privacy section has been moved and enriched with two new pages: [Privacy management](../../start/using/privacy-management.md) and [Managing Privacy requests](../../start/using/privacy-requests.md).
 
+Information has been added in the Adobe Experience Platform Data Connector section on the data mapping validation error related to privacy management and how to troubleshoot it. [Read more](../../developing/using/aep-mapping-activation.md)
+
 ## Release 20.4 - October 2020 {#release-20-4---october-2020}
 
 **New capabilities included in the release**

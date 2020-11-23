@@ -48,7 +48,7 @@ This occurs when the XDM schema you are using has not been updated with the late
 
 To update the XDM schema, follow these steps:
 
-1. Go to the dataset on Adobe Experience Platform using the link present on the XDM mapping page
+1. Go to the dataset on Adobe Experience Platform using the link present on the XDM mapping page.
 
 1. Navigate to your XDM schema.
 
