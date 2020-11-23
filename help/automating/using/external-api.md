@@ -31,19 +31,13 @@ The main characteristics of this activity are:
 
 ### Backwards compatibility notices {#from-beta-to-ga}
 
-With the Campaign Standard 20.4 release, the http response data size limit and response timeout guardrails have been lowered to align with best practices (see "Limitations and guardrails" section). These guardrail modifications will not take effect on existing External API activities; therefore, it is recommended that you replace existing External API activities with new versions in all workflows.
-
-If you are upgrading from Campaign Standard 20.2 (or earlier), please note that External API capability moved trom Beta to General Availability in the Campaign Standard 20.3 release.
-
-As a consequence, if you were using beta External API activities, you need to replace them with GA External API activities in all workflows.  Workflows that use the beta version of External API will not work starting with the Campaign Standard 20.3 release.
+With the Campaign Standard 20.4 release, the http response data size limit and response timeout guardrails have been lowered to align with best practices - see [Limitations and guardrails](#guardrails). These guardrail modifications will not take effect on existing External API activities; therefore, it is recommended that you replace existing External API activities with new versions in all workflows.
 
 When replacing External API activities, add the new External API activity to the workflow, manually copy over the configuration details, then delete the old activity.  
 
 >[!NOTE]
 >
 >You will not be able to copy over activity-specific header values as those are masked within the activity.
-
-Next, reconfigure other activities in the workflow which point to and/or use data from the beta External API activity to point to and/or use data from the new External API activity instead. Examples of activities: email delivery (personalization fields), enrichment activity, etc.
 
 ### Limitations and guardrails {#guardrails}
 
