@@ -14,11 +14,29 @@ discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 
 # Privacy management {#privacy-management}
 
-Adobe Campaign offers a set of tools to help you comply with Privacy regulations (including GDPR, CCPA, PDPA, LGPD).
+Adobe Campaign offers a set of tools to help you comply with [Privacy regulations](#privacy-management-regulations) (including GDPR, CCPA, PDPA, LGPD).
 
-* This section presents general information on what Privacy management is and the features provided by Adobe Campaign to manage the [Right to Access and Right to be Forgotten](#right-access-forgotten).
+Here are the five main capabilities offered by Adobe Campaign to ensure GDPR and other privacy regulations readiness:
 
-* It also contains information on important features to manage Privacy ([consent, data retention and user roles](#consent-retention-roles)), as well as best practices to help you with your Privacy compliance when using Adobe Campaign.
+![](assets/privacy-gdpr-use-cases.png)
+
+* **Right to Access**
+
+* **Right to Delete**
+
+For more on this, see [Right to Access and Right to be Forgotten](#right-access-forgotten).
+
+* **Consent management**
+
+* **Data retention**
+
+* **Rights management**
+
+For more on this, see [Consent, Retention and Roles](#consent-retention-roles).
+
+<!--This section presents general information on what Privacy management is and the features provided by Adobe Campaign to manage the [Right to Access and Right to be Forgotten](#right-access-forgotten).
+
+It also contains information on important features to manage Privacy ([consent, data retention and user roles](#consent-retention-roles)), as well as best practices to help you with your Privacy compliance when using Adobe Campaign.-->
 
 ## Regulations on privacy management {#privacy-management-regulations}
 
@@ -46,6 +64,10 @@ In order to help you facilitate your Privacy readiness, Adobe Campaign allows yo
 To learn how you can create **Access** and **Delete** requests and how Adobe Campaign processes them, refer to the [implementation steps](../../start/using/privacy-requests.md#about-privacy-requests).
 
 Tutorials on Privacy management in Campaign Standard are also available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=en#privacy).
+
+>[!NOTE]
+>
+>For more on personal data and on the different entities that manage data (Data Controller, Data Processor and Data Subject), see [Personal data and Personas](../../start/using/privacy.md#personal-data).
 
 ## Consent, Retention and Roles {#consent-retention-roles}
 
