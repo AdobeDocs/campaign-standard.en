@@ -42,7 +42,11 @@ It also contains information on important features to manage Privacy ([consent, 
 
 Adobe Campaign's capabilities help you comply with the following regulations:
 
-* **GDPR** ([General Data Protection Regulation](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en)) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements for EU's countries.
+* **GDPR** ([General Data Protection Regulation](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en)) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements for EU's countries. Follow the links below to find general information on GDPR:
+
+    * https://www.adobe.com/privacy/general-data-protection-regulation.html
+    * https://www.adobe.com/marketing-cloud/campaign/general-data-protection-regulation.html
+
 * **CCPA** ([California Consumer Privacy Act](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=1.81.5.&part=4.&chapter=&article=)) provides California residents new rights in regards to their personal information and imposes data protection responsibilities on certain entities whom conduct business in California.
 * **PDPA** ([Personal Data Protection Act](https://secureprivacy.ai/thailand-pdpa-summary-what-businesses-need-to-know/)) is the new privacy law that harmonizes and modernizes data protection requirements for Thailand. 
 * **LGPD** ([Lei Geral de Proteção de Dados](https://iapp.org/media/pdf/resource_center/Brazilian_General_Data_Protection_Law.pdf)) will be effective early 2021 for all companies collecting or processing personal data in Brazil.
