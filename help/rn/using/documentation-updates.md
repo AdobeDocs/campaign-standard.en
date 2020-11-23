@@ -19,6 +19,10 @@ The Privacy section has been moved and enriched with two new pages: [Privacy man
 
 Information has been added in the Adobe Experience Platform Data Connector section on the data mapping validation error related to privacy management and how to troubleshoot it. [Read more](../../developing/using/aep-mapping-activation.md)
 
+The Personal Data and Personas section has been updated with a use case scenario to illustrate how the different personas are interacting when it comes to Privacy. [Read more](../../start/using/privacy.md#use-case-scenario)
+
+A new section listing Frequently Asked Questions on Privacy has been added. [Read more](../../start/using/privacy-faq.md)
+
 ## Release 20.4 - October 2020 {#release-20-4---october-2020}
 
 **New capabilities included in the release**

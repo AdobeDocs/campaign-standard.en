@@ -27,6 +27,7 @@ title: Campaign Standard Guide
        + [Privacy and consent](start/using/privacy.md)
        + [Privacy management](start/using/privacy-management.md)
        + [Privacy requests](start/using/privacy-requests.md)
+       + [Privacy FAQ](start/using/privacy-faq.md)
   + Discovering the interface {#discovering-the-interface}
        + [About the interface](start/using/about-the-interface.md)
        + [Interface description](start/using/interface-description.md)
