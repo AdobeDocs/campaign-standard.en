@@ -298,7 +298,7 @@ Introduced a series of improvements and fixes to optimize fragments in the 19.2 
  <tbody> 
   <tr> 
    <td> Control Panel<br /> </td> 
-   <td> <p>To help increase efficiency in your work as an Admin user, you can easily monitor capacity and manage settings of your instances (starting with SFTP servers management).</p><p>For more information, refer to the <a href="https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/control-panel-overview.html">how-to video</a>.</p></td> 
+   <td> <p>To help increase efficiency in your work as an Admin user, you can easily monitor capacity and manage settings of your instances (starting with SFTP servers management).</p><p>For more information, refer to the <a href="https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html">detailed documentation</a> and the <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=en">how-to video</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Local notifications<br /> </td> 
