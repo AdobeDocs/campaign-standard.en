@@ -1,17 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Configuring transactional messaging
 description: Learn how to configure transactional messaging.
-page-status-flag: never-activated
-uuid: 4caeadbe-f4a7-43ce-986d-e99fa9ca0d0d
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
-
-internal: n
-snippet: y
 ---
 
 # Publishing transactional event{#publishing-transactional-event}
@@ -99,11 +93,3 @@ Once an event has been unpublished, or if an event has  not been published yet, 
 >[!IMPORTANT]
 >
 >Deleting an event configuration that has been published and already used will also delete the corresponding transactional message(s) and its sending and tracking logs.
-
-## Integrating the triggering of the event in a website {#integrating-the-triggering-of-the-event-in-a-website}
-
-Once you have created an event, you will have to integrate the triggering of this event into your website.
-
-In the example described in the [Transactional messaging operating principle](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) section, you want a "Cart abandonment" event to be triggered whenever one of your clients leaves your website before purchasing the products in their cart. To do this, your website web developer must use the Adobe Campaign Standard REST API.
-
-See the [REST API Documentation](../../api/using/managing-transactional-messages.md).

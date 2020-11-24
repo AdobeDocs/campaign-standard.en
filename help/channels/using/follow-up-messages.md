@@ -19,11 +19,22 @@ You want to send a friendly reminder to all of the customers who received the ca
 
 Each concerned customer will then receive a follow-up message based on the same data that was used in the first email that was sent.
 
-## Accessing the follow-up messages {#accessing-the-follow-up-messages}
+## Configuring an event to send a follow-up message {#configuring-an-event-to-send-a-follow-up-message}
 
 Once you have created and published an event (the cart abandonment as per the [example](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) above), the corresponding transactional message and follow-up message are created automatically.
 
-The configuration steps are presented in the [Configuring an event to send a follow-up message](../../administration/using/configuring-transactional-messaging.md#configuring-an-event-to-send-a-follow-up-message) section.
+A follow-up message is a predefined marketing delivery template that can be used in a workflow to send messages to the recipients of a specific transactional message. For more on this, see [Follow-up messages](../../channels/using/follow-up-messages.md).
+
+1. Use the same event configuration that you created to send an event transactional message. See [Event-based transactional messages](#event-based-transactional-messages).
+1. When configuring your event, check the **[!UICONTROL Create follow-up delivery template for this event]** box before publishing the event.
+
+   ![](assets/message-center_follow-up-checkbox.png)
+
+1. Preview and publish the event (see [Previewing and publishing the event](#previewing-and-publishing-the-event)).
+
+   Once the event has been published, a transactional message and a follow-up delivery template linked to the new event are automatically created. For more on using follow-up messages, see [Sending a follow-up message](../../channels/using/follow-up-messages.md#sending-a-follow-up-message).
+
+## Accessing the follow-up messages {#accessing-the-follow-up-messages}
 
 To handle an event in a workflow, a delivery template is required. However, when publishing the event, the [transactional message](../../channels/using/event-transactional-messages.md) that is created cannot be used as a template. Therefore, you need to create a specific follow-up delivery template designed to support this event type and to be used as a template in a workflow.
 

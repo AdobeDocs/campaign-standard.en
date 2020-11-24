@@ -14,7 +14,9 @@ internal: n
 snippet: y
 ---
 
-# Event transactional messages{#event-transactional-messages}
+# Editing transactional messages (Event transactional messages) {#event-transactional-messages}
+
+What about profile transactional messages? To add here?
 
 You can send event transactional messages targeting an event. This type of transactional messages does not contain profile information: the delivery target is defined by the data contained in the event itself.
 

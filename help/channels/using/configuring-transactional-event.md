@@ -1,17 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Configuring transactional messaging
 description: Learn how to configure transactional messaging.
-page-status-flag: never-activated
-uuid: 4caeadbe-f4a7-43ce-986d-e99fa9ca0d0d
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
-
-internal: n
-snippet: y
 ---
 
 # Configuring transactional messaging{#configuring-transactional-messaging}
@@ -213,11 +207,9 @@ To send a profile-based transactional message, you first need to create and conf
 
 1. Integrate the event into your website (see [Integrating the triggering of the event in a website](#integrating-the-triggering-of-the-event-in-a-website)).
 
-
-
-
-
 ### Configuring an event to send a follow-up message {#configuring-an-event-to-send-a-follow-up-message}
+
+=> TO MOVE (to follow-up full section)
 
 A follow-up message is a predefined marketing delivery template that can be used in a workflow to send messages to the recipients of a specific transactional message. For more on this, see [Follow-up messages](../../channels/using/follow-up-messages.md).
 
