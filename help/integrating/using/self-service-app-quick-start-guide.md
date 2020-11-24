@@ -8,7 +8,7 @@ This will be a quick start guide to get to the app, configure the credentials, a
    - make sure that Dynamics 365 has been configured 
         (click [here](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md) to configure)
    - make sure your user has been given access to the Integration App in the Experience Cloud 
-        (click [here] for more instructions)
+        (click [here](integrating/using/self-service-app-control-access.md) to configure)
    - make sure you understand the how the Dynamics 365 to Adobe Campaign connector works by clicking 
         [here](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md).
 ### How to get to the integration app   

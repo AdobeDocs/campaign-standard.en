@@ -120,7 +120,7 @@ The Campaign profile table attribute externalId must be populated with the Dynam
 >
 >For custom entity ingress, change tracking must be enabled within Dynamics 365 for synchronized custom entities.
 
-### Email Marketing Event Flow
+### Email Marketing Event Flow{#email-marketing-event-flow}
 
 Email marketing events are sent from Campaign to Dynamics 365 to appear in the Timeline view.
 
