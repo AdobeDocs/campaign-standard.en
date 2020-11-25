@@ -34,6 +34,18 @@ Customers are advised to review if they make use of the feature/capability in th
 
 <table> 
  <thead> 
+ <tr> 
+   <th> <strong>Predictive Subject Line</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p> Starting December 1st, Predictive Subject Line capability is deprecated.</p><br/>
+   <p>We suggest you leverage AI-powered email capabilities to analyze and predict open rates, optimal send times, and probable churn based on historical engagement metrics. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">Learn more</a></p></br>
+     <p>
+     <em>Target removal: Campaign 21.1 release</em></p>
+     </td> 
+  </tr> 
   <tr> 
    <th> <strong>Push Notifications with SDK v4</strong><br /> </th> 
   </tr> 
@@ -43,7 +55,7 @@ Customers are advised to review if they make use of the feature/capability in th
    <td> <p> Starting 20.1 release, SDK v4 is deprecated. <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">Learn more</a>.</p><br/>
    <p>The <a href="https://aep-sdks.gitbook.io/docs/">Adobe Experience Platform Mobile SDK</a> (previously referred to as v5) will exclusively support upcoming Adobe Experience Cloud features and functionality.</p></br>
      <p>
-     <em>Target removal date: September 30, 2020</em></p>
+     <em>Target removal date: August 31, 2021</em></p>
      </td> 
   </tr> 
  </tbody> 

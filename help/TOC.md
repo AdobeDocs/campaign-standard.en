@@ -147,7 +147,6 @@ title: Campaign Standard Guide
        + [Previewing deliveries](sending/using/previewing-messages.md)
        + [Sending proofs](sending/using/sending-proofs.md)
        + [Testing email messages using targeted profiles](sending/using/testing-messages-using-target.md)
-       + [Testing the subject line of an email](sending/using/testing-subject-line-email.md)
        + [AI-powered emails](sending/using/predictive.md)       
        + [Email rendering](sending/using/email-rendering.md)
        + [Adding a control group](sending/using/control-group.md)
