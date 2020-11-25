@@ -52,6 +52,10 @@ To update the XDM schema, follow these steps:
 
 1. Navigate to your XDM schema.
 
-1. Add the "Provile Privacy" mixin to the schema, then save it.
+1. Add the "Provile Privacy" mixin to the schema.
 
     ![](assets/aep_datamapping_privacyfield.png)
+
+1. Save the schema, then retry publishing the mapping. The publication should now pass.
+
+    ![](assets/aep_save_mapping.png)
