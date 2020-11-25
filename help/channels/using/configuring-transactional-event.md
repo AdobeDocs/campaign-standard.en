@@ -206,18 +206,3 @@ To send a profile-based transactional message, you first need to create and conf
    Once the event has been published, a transactional message linked to the new event is automatically created. In order for the event to trigger sending a transactional message, you must modify and publish the message that was just created, see [Sending a profile transactional message](../../channels/using/profile-transactional-messages.md#sending-a-profile-transactional-message).
 
 1. Integrate the event into your website (see [Integrating the triggering of the event in a website](#integrating-the-triggering-of-the-event-in-a-website)).
-
-### Configuring an event to send a follow-up message {#configuring-an-event-to-send-a-follow-up-message}
-
-=> TO MOVE (to follow-up full section)
-
-A follow-up message is a predefined marketing delivery template that can be used in a workflow to send messages to the recipients of a specific transactional message. For more on this, see [Follow-up messages](../../channels/using/follow-up-messages.md).
-
-1. Use the same event configuration that you created to send an event transactional message. See [Event-based transactional messages](#event-based-transactional-messages).
-1. When configuring your event, check the **[!UICONTROL Create follow-up delivery template for this event]** box before publishing the event.
-
-   ![](assets/message-center_follow-up-checkbox.png)
-
-1. Preview and publish the event (see [Previewing and publishing the event](#previewing-and-publishing-the-event)).
-
-   Once the event has been published, a transactional message and a follow-up delivery template linked to the new event are automatically created. For more on using follow-up messages, see [Sending a follow-up message](../../channels/using/follow-up-messages.md#sending-a-follow-up-message).
