@@ -3,24 +3,35 @@ solution: Campaign Standard
 product: campaign
 title: Configuring transactional messaging
 description: Learn how to configure transactional messaging.
-audience: administration
+audience: channels
 content-type: reference
-topic-tags: configuring-channels
+topic-tags: transactional-messaging
+context-tags: 
 ---
 
 # Publishing transactional event{#publishing-transactional-event}
+
+Once [configuration](../../channels/using/configuring-transactional-event.md) is done, the event is ready to be published. The steps to publish, unpublish and delete an event are described below.
+
+>[!IMPORTANT]
+>
+>Event configuration and publication must be performed by an [administrator](../../administration/using/users-management.md#functional-administrators).
+
+Once publication is done:
+* The corresponding transactional message is automatically created. See [Getting started with transactional messaging](../../channels/using/getting-started-with-transactional-msg.md).
+* The API that will be used by your website developer is deployed and the transactional events can now be sent. See [Integrating the triggering of the event in a website](../../channels/using/transactional-event-triggering.md).
 
 ## Previewing and publishing the event {#previewing-and-publishing-the-event}
 
 Before being able to use the event, you must preview and publish it.
 
-1. Click the **[!UICONTROL API preview]** button to see a simulation of the REST API that will be used by your website developer before it is published. Once the event is published, this button also allows you to see a preview of the API in production. See [Integrating the triggering of the event in a website](#integrating-the-triggering-of-the-event-in-a-website).
+1. Click the **[!UICONTROL API preview]** button to see a simulation of the REST API that will be used by your website developer before it is published. Once the event is published, this button also allows you to see a preview of the API in production. See [Integrating the triggering of the event in a website](../../channels/using/transactional-event-triggering.md).
 
    ![](assets/message-center_api_preview.png)
 
    >[!NOTE]
    >
-   >The REST API varies according to the selected channel and the selected targeting dimension. For more details on the various configurations, refer to [Transactional event specific configurations](#transactional-event-specific-configurations).
+   >The REST API varies according to the selected channel and the selected targeting dimension. For more details on the various configurations, refer to [Transactional event specific configurations](../../channels/using/configuring-transactional-event.md#transactional-event-specific-configurations).
 
 1. Click **[!UICONTROL Publish]** to start publication.
 

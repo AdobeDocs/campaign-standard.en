@@ -6,7 +6,7 @@ description: Learn how to create and publish a transactional push         notifi
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
-
+context-tags: 
 ---
 
 # Transactional push notifications{#transactional-push-notifications}

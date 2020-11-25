@@ -6,23 +6,22 @@ description: Learn how to configure transactional messaging.
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
+context-tags: 
 ---
 
 # Configuring transactional messaging{#configuring-transactional-messaging}
 
-To send a transactional message with Adobe Campaign, your first need to describe the structure of the event data.
+To send a transactional message with Adobe Campaign, you first need to describe the structure of the event data by creating and configuring an event.
 
-Event configuration must be performed by an [administrator](../../administration/using/users-management.md#functional-administrators) following the steps below.
+>[!IMPORTANT]
+>
+>Event configuration must be performed by an [administrator](../../administration/using/users-management.md#functional-administrators).
 
 >[!NOTE]
 >
->The configuration can vary depending on the type of transactional message you want to send. For more on this, refer to [Transactional event specific configurations](#transactional-event-specific-configurations).
+>The configuration varies depending on the type of transactional message you want to send. For more on this, see [Transactional event specific configurations](#transactional-event-specific-configurations).
 
-Once the event is published:
-
-* The API that will be used by your website developer is deployed and the transactional events can now be sent. See [Integrating the triggering of the event in a website](#integrating-the-triggering-of-the-event-in-a-website).
-
-* The corresponding transactional message is automatically created. See [Getting started with transactional messaging](../../channels/using/getting-started-with-transactional-msg.md).
+Once configuration is done, the event must be published. See [Publishing transactional event](../../channels/using/publishing-transactional-event.md).
 
 ## Creating an event {#creating-an-event}
 
@@ -34,7 +33,7 @@ To get started, create the event corresponding to your needs.
 
 1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
 1. Click the **[!UICONTROL Create]** button.
-1. Give a **[!UICONTROL Label]** and an **[!UICONTROL ID]** to the event. The **[!UICONTROL ID]** field is mandatory and should begin with the prefix "EVT". If you do not use this prefix, it is automatically added once you click **[!UICONTROL Create]**. 
+1. Enter a **[!UICONTROL Label]** and an **[!UICONTROL ID]** for the event. The **[!UICONTROL ID]** field is mandatory and should begin with the prefix "EVT". If you do not use this prefix, it is automatically added once you click **[!UICONTROL Create]**. 
 
    ![](assets/message-center_1.png)
 
@@ -54,7 +53,7 @@ To get started, create the event corresponding to your needs.
 
 >[!NOTE]
 >
->The number of created real-time events can have an impact on your platform. To ensure optimal performance, make sure you delete real-time events that you do not need anymore. See [Deleting an event](#deleting-an-event).
+>The number of created real-time events can have an impact on your platform. To ensure optimal performance, make sure you delete real-time events that you do not need anymore. See [Deleting an event](../../channels/using/publishing-transactional-event.md#deleting-an-event).
 
 ## Defining the event attributes {#defining-the-event-attributes}
 
@@ -72,7 +71,7 @@ The steps for adding and modifying fields are the same as for [custom resources]
 
 You can add to the event content a collection of elements, each element itself including several attributes.
 
-This collection can be used in a transactional email to add [product listings](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message) to the content of the message, for example a list of products - with the price, reference number, quantity, etc. for each product of the list.
+This collection can be used in a transactional email to add [product listings](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message) to the content of the message, for example a list of products - with the price, reference number, quantity, etc. for each product of the list.
 
 1. In the **[!UICONTROL Collections]** section, click the **[!UICONTROL Create element]** button.
 
@@ -99,20 +98,21 @@ Here is the API preview for this example:
 
 **Related topics:**
 
-* [Previewing and publishing the event](#previewing-and-publishing-the-event)
+* [Previewing and publishing the event](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 * [Using product listings in a transactional message](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)
+* [Publishing a transactional message](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
 
 ## Enriching the event {#enriching-the-transactional-message-content}
 
 You can enrich the transactional message content with information from the Adobe Campaign database in order to personalize your messages. From the last name or CRM ID of each of your recipients, for example, you can recover data such as their address or date of birth or any other custom field added in the Profile table, in order to personalize the information that is sent to them.
 
-It is possible to enrich the transactional message content with information from extended **[!UICONTROL Profile and services Ext API]**. For more information, refer to [Extending the API: Publishing the extension](../../developing/using/step-2--publish-the-extension.md)
+It is possible to enrich the transactional message content with information from extended **[!UICONTROL Profile and services Ext API]**. For more information, see [Extending the API: Publishing the extension](../../developing/using/step-2--publish-the-extension.md)
 
 This information can also be stored in new resources. In that case, the resource must be linked to the **[!UICONTROL Profile]** or **[!UICONTROL Service]** resources either directly, or via another table. For example, in the configuration below, it is possible to enrich the transactional message content with information from the **[!UICONTROL Product]** resource like the product category or ID, if the **[!UICONTROL Product]** resource is linked to the **[!UICONTROL Profile]** resource.
 
 ![](assets/message-center_usecaseschema.png)
 
-For more on resource creation and publishing, refer to [this page](../../developing/using/key-steps-to-add-a-resource.md).
+For more on resource creation and publishing, see [this section](../../developing/using/key-steps-to-add-a-resource.md).
 
 1. In the **[!UICONTROL Enrichment]** section, click the **[!UICONTROL Create element]** button.
 
@@ -130,9 +130,9 @@ For more on resource creation and publishing, refer to [this page](../../develop
 
    ![](assets/message-center_enrichment-join-fields.png)
 
-    You can also enrich the transactional message content using the **[!UICONTROL Service]** resource. For more on services, see this [section](../../audiences/using/creating-a-service.md).
+    You can also enrich the transactional message content using the **[!UICONTROL Service]** resource. For more on services, see [this section](../../audiences/using/creating-a-service.md).
 
-1. If you are creating or editing a profile-based event, in the **[!UICONTROL Targeting enrichment]** section, select the enrichment that will be used as the message target during the delivery execution.
+1. If you are creating or editing a [profile-based event](#profile-based-transactional-messages), in the **[!UICONTROL Targeting enrichment]** section, select the enrichment that will be used as the message target during the delivery execution.
 
    ![](assets/message-center_marketing_targeting_enrichment.png)
 
@@ -144,8 +144,9 @@ Once the event and the message are published, this link will allow you to enrich
 
 **Related topics:**
 
-* [Previewing and publishing the event](#previewing-and-publishing-the-event).
-* [Personalizing a transactional message](../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message).
+* [Previewing and publishing the event](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
+* [Personalizing a transactional message](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message)
+* [Publishing a transactional message](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
 
 ## Searching transactional events {#searching-transactional-events}
 
@@ -165,16 +166,17 @@ To access and search the transactional events already created, follow the steps 
    >
    >The default value is 0. All events are then displayed.
 
-## Transactional event specific configurations {#transactional-event-specific-configurations}
+## Specific configurations {#transactional-event-specific-configurations}
 
-Transactional event configuration may vary depending on the type of transactional message you want to send (event or profile), and the channel that will be used.
+Transactional event configuration may vary depending on the [type of transactional message](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types) you want to send (event or profile), and the channel that will be used.
 
 The following sections detail what specific configuration should be set according to the desired transactional message. For more on the general steps to configure an event, refer to [Creating an event](#creating-an-event).
 
 ### Event-based transactional messages {#event-based-transactional-messages}
 
-To send an event-based transactional message, you first need to create and configure an event targeting the data contained in the event itself.
-For more information, see [Engaging with transactional messaging](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Managedatatofuelengagingexperiences).
+You can send event transactional messages targeting an event. This type of transactional messages does not contain profile information: the delivery target is defined by the data contained in the event itself.
+
+To send an event-based transactional message, you first need to create and configure an event targeting the **data contained in the event itself**.
 
 1. When creating the event configuration, select the **[!UICONTROL Real-time event]** targeting dimension (see [Creating an event](#creating-an-event)).
 1. Add fields to the event, in order to be able to personalize the transactional message (see [Defining the event attributes](#defining-the-event-attributes)).
@@ -184,25 +186,43 @@ For more information, see [Engaging with transactional messaging](https://helpx.
    >
    >Event-based transactional messaging is supposed to use only the data that are in the sent event to define the recipient and the message content personalization. However, you can enrich the content of your transactional message using information from the Adobe Campaign database.
 
-1. Preview and publish the event (see [Previewing and publishing the event](#previewing-and-publishing-the-event)).
+1. Preview and publish the event (see [Previewing and publishing the event](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)).
 
    When previewing the event, the REST API contains an attribute specifying the email address or mobile phone according to the selected channel.
 
-   Once the event has been published, a transactional message linked to the new event is automatically created. In order for the event to trigger sending a transactional message, you must modify and publish the message that was just created, see [Event transactional messages](../../channels/using/event-transactional-messages.md).
+   Once the event has been published, a transactional message linked to the new event is automatically created. In order for the event to trigger sending a transactional message, you must [modify](../../channels/using/editing-transactional-message.md) and [publish](../../channels/using/publishing-transactional-message.md) the message that was just created.
 
-1. Integrate the event into your website (see [Integrating the triggering of the event in a website](#integrating-the-triggering-of-the-event-in-a-website)).
+1. Integrate the event into your website (see [Integrating the triggering of the event in a website](../../channels/using/transactional-event-triggering.md)).
 
 ### Profile-based transactional messages {#profile-based-transactional-messages}
 
-To send a profile-based transactional message, you first need to create and configure an event targeting data contained in the Adobe Campaign database.
+You can send transactional messages based on customer profiles, which allows you to apply marketing typology rules, include the unsubscribe link, add the message to the global delivery reporting and leverage it in the customer journey.
+
+To send a profile-based transactional message, you first need to create and configure an event targeting **data from the Adobe Campaign database**.
 
 1. When creating the event configuration, select the **[!UICONTROL Profile event]** targeting dimension (see [Creating an event](#creating-an-event)).
 1. Add fields to the event, in order to be able to personalize the transactional message (see [Defining the event attributes](#defining-the-event-attributes)). You must add at least one field to create an enrichment. You do not need to create other fields such as **First name** and **Last name** as you will be able to use personalization fields from the Adobe Campaign database. 
 1. Create an enrichment in order to link the event to the **[!UICONTROL Profile]** resource (see [Enriching the transactional message content](#enriching-the-transactional-message-content)). Creating an enrichment is mandatory when using a **[!UICONTROL Profile]** targeting dimension.
-1. Preview and publish the event (see [Previewing and publishing the event](#previewing-and-publishing-the-event)).
+1. Preview and publish the event (see [Previewing and publishing the event](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)).
 
    When previewing the event, the REST API does not contain an attribute specifying the email address or the mobile phone as it will be retrieved from the **[!UICONTROL Profile]** resource.
 
-   Once the event has been published, a transactional message linked to the new event is automatically created. In order for the event to trigger sending a transactional message, you must modify and publish the message that was just created, see [Sending a profile transactional message](../../channels/using/profile-transactional-messages.md#sending-a-profile-transactional-message).
+   Once the event has been published, a transactional message linked to the new event is automatically created. In order for the event to trigger sending a transactional message, you must [modify](../../channels/using/editing-transactional-message.md) and [publish](../../channels/using/publishing-transactional-message.md) the message that was just created..
 
-1. Integrate the event into your website (see [Integrating the triggering of the event in a website](#integrating-the-triggering-of-the-event-in-a-website)).
+1. Integrate the event into your website (see [Integrating the triggering of the event in a website](../../channels/using/transactional-event-triggering.md)).
+
+### Transactional push notifications {#transactional-push-notifications}
+
+You can send two types of transactional push notifications:
+* An anonymous transactional push notification to all users who have opted in to receive notifications from your mobile application. See [Configuring event-based transactional push notifications](../../channels/using/transactional-push-notifications.md#event-based-transactional-push-notifications).
+* A transactional push notification to the Adobe Campaign profiles who have subscribed to your mobile application. See [Configuring profile-based transactional push notifications](../../channels/using/transactional-push-notifications.md#profile-based-transactional-push-notifications).
+
+>[!IMPORTANT]
+>
+>To be able to send transactional push notifications, you need to configure Adobe Campaign accordingly. See [Configuring a mobile application](../../administration/using/configuring-a-mobile-application.md).
+
+### Follow-up messages {#follow-up-messages}
+
+You can send a follow-up message to the customers who received a specific transactional message.
+
+The steps to configure an event allowing to send a follow-up message are detailed in [this section](../../channels/using/follow-up-messages.md#configuring-an-event-to-send-a-follow-up-message).

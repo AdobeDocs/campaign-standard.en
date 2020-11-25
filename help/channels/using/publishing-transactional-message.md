@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Event transactional messages
 description: Learn how to create and publish an event transactional message.
-page-status-flag: never-activated
-uuid: d747feb5-58fb-4e12-a176-404f0eca5391
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
-discoiquuid: 4f6317a1-9dfe-4714-bc1c-393629d855cd
-context-tags: deliveryTransactionalTemplate,overview
-internal: n
-snippet: y
+context-tags: 
 ---
 
 # Transactional message lifecycle
