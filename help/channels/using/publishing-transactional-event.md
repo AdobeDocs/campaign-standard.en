@@ -9,13 +9,15 @@ topic-tags: transactional-messaging
 context-tags: 
 ---
 
-# Publishing transactional event{#publishing-transactional-event}
+# Publishing a transactional event {#publishing-transactional-event}
 
-Once [configuration](../../channels/using/configuring-transactional-event.md) is done, the event is ready to be published. The steps to publish, unpublish and delete an event are described below.
+Once [configuration](../../channels/using/configuring-transactional-event.md) is done, the event is ready to be published. The steps to preview, publish, unpublish and delete an event are described below.
 
 >[!IMPORTANT]
 >
 >Event configuration and publication must be performed by an [administrator](../../administration/using/users-management.md#functional-administrators).
+
+A chart illustrating the whole transactional messaging publication process, including publishing and unpublishing event configurations, is available in [this section](../../channels/using/publishing-transactional-message.md).
 
 Once publication is done:
 * The corresponding transactional message is automatically created. See [Editing transactional messages](../../channels/using/editing-transactional-message.md).
@@ -55,11 +57,13 @@ Before being able to use the event, you must preview and publish it.
 
    ![](assets/message-center_messagegeneration.png)
 
-   * In order for the event to trigger sending a transactional message, you must modify and publish the message that was just created. See [Editing](../../channels/using/editing-transactional-message.md) and [Publishing a transactional message](../../channels/using/publishing-transactional-message.md) sections.
+   >[!NOTE]
+   >
+   >* In order for the event to trigger sending a transactional message, you must modify and publish the message that was just created. See [Editing](../../channels/using/editing-transactional-message.md) and [Publishing a transactional message](../../channels/using/publishing-transactional-message.md) sections.
+   >
+   >* You also have to [integrate this trigger event](../../channels/using/transactional-event-triggering.md) into your website.
 
-   * You also have to [integrate this trigger event](../../channels/using/transactional-event-triggering.md) into your website.
-
-Once Adobe Campaign starts receiving events related to this event configuration, the **[!UICONTROL Latest transactional events]** link under the **[!UICONTROL History]** section enables you to access the latest events sent by your third-party service and processed by Adobe Campaign.
+1. Once Adobe Campaign starts receiving events related to this event configuration, you can click the **[!UICONTROL Latest transactional events]** link under the **[!UICONTROL History]** section to access the latest events sent by your third-party service and processed by Adobe Campaign.
 
 ![](assets/message-center_latest-events.png)
 
@@ -67,24 +71,25 @@ The events (in JSON format) are listed from the most recent to the oldest. This 
 
 ## Unpublishing an event {#unpublishing-an-event}
 
-The **[!UICONTROL Unpublish]** button lets you cancel the publication of the event, which deletes from the REST API the resource corresponding to the event that you previously created. Now, even if the event is triggered through your website, the corresponding messages are not sent anymore and they are not stored in the database.
+The **[!UICONTROL Unpublish]** button lets you cancel the publication of the event, which deletes from the REST API the resource corresponding to the event that you previously created.
+
+Now, even if the event is triggered through your website, the corresponding messages are not sent anymore and they are not stored in the database.
 
 ![](assets/message-center_unpublish.png)
 
 >[!NOTE]
 >
->If you have already published the corresponding transactional message, the transactional message publication is also canceled. See [Unpublishing a transactional message](../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message).
+>If you have already published the corresponding transactional message, the transactional message publication is also canceled. See [Unpublishing a transactional message](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message).
 
 Click the **[!UICONTROL Publish]** button to generate a new REST API.
 
-### Transactional messaging publication process {#transactional-messaging-pub-process}
+<!--## Transactional messaging publication process {#transactional-messaging-pub-process}
 
 The chart below illustrates the transactional messaging publication process.
 
 ![](assets/message-center_pub-process.png)
 
-For more on publishing, pausing and unpublishing a transactional message, see [this section](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message).
-
+For more on publishing, pausing and unpublishing a transactional message, see [this section](../../channels/using/publishing-transactional-message.md).-->
 
 ## Deleting an event {#deleting-an-event}
 

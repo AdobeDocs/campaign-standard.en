@@ -11,6 +11,20 @@ context-tags:
 
 # Transactional message lifecycle
 
+When the [transactional message](../../channels/using/editing-transactional-message.md) is ready to be sent, it can be published. The steps to test, publish, pause, unpublish and delete an event are detailed below. This section also describes the transactional messaging retry process.
+
+## Transactional messaging publication process {#transactional-messaging-pub-process}
+
+The chart below illustrates the overall transactional messaging publication process.
+
+![](assets/message-center_pub-process.png)
+
+For more on publishing a transactional message, see [this section](#publishing-a-transactional-message).
+For more on pausing a transactional message, see [this section](#suspending-a-transactional-message-publication).
+For more on unpublishing a transactional message, see [this section](#unpublishing-a-transactional-message).
+
+For more on publishing and unpublishing an event configuration, see [this section](../../channels/using/publishing-transactional-event.md).
+
 ## Testing a transactional message {#testing-a-transactional-message}
 
 You first need to create a specific test profile that will allow you to properly check the transactional message.
