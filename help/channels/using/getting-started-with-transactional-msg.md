@@ -31,7 +31,7 @@ Transactional messaging is also available from the Adobe Campaign Standard API. 
 
 >[!NOTE]
 >
->All transactional messages are now sent with the Adobe Campaign Enhanced MTA for improved deliverability, throughput, and bounce handling. All impacts are the same as for standard marketing messages. For more on this, see this [section](../../administration/using/configuring-email-channel.md).
+>All transactional messages are now sent with the Adobe Campaign Enhanced MTA for improved deliverability, throughput, and bounce handling. All impacts are the same as for standard marketing messages. For more on this, see [this section](../../administration/using/configuring-email-channel.md).
 
 ## Transactional messaging definition {#transactional-messaging-definition}
 
@@ -64,7 +64,7 @@ Two types of transactional messages are available in Adobe Campaign:
 
 <img src="assets/do-not-localize/icon_event.svg" width="60px">
 
-[Event transactional messages](../../channels/using/event-transactional-messages.md) are targeting an event.
+**Event transactional messages** are targeting an event.
 
 * These messages do not contain profile information.
 
@@ -72,10 +72,9 @@ Two types of transactional messages are available in Adobe Campaign:
 
 * The delivery target is defined by the data contained in the event itself.
 
-
 <img src="assets/do-not-localize/icon_profile.svg" width="60px">
 
-[Profile transactional messages](../../channels/using/profile-transactional-messages.md) are targeting profiles from the Campaign marketing database. With thse messages, you can:
+**Profile transactional messages** are targeting profiles from the Campaign marketing database. With this type of messages, you can:
 
 * Apply [marketing typology rules](../../sending/using/managing-typology-rules.md) or [fatigue rules](../../sending/using/fatigue-rules.md)
 
@@ -85,7 +84,7 @@ Two types of transactional messages are available in Adobe Campaign:
 
 * Leverage the transactional messages in the customer journey.
 
-The message type is defined when configuring the event that will be transformed into a transactional message. See [Transactional messaging configuration](../../administration/using/configuring-transactional-messaging.md).
+The message type is defined when configuring the event that will be transformed into a transactional message. See [Transactional messaging configuration](../../channels/using/configuring-transactional-event.md#transactional-event-specific-configurations).
 
 >[!IMPORTANT]
 >
@@ -111,11 +110,11 @@ The steps for putting this into place are as follows.
 
 * Note that this step must be performed by a user with [administration rights](../../administration/using/users-management.md#functional-administrators).-->
 
-| Action | Effect | User |
+| Action | Result | User |
 |--- |--- |--- |
 | Configure an event that will be named "Cart abandonment" and publish this event configuration. | The API that will be used by your website developer is deployed and a transactional message is automatically created. | This step must be performed by a user with [administration rights](../../administration/using/users-management.md#functional-administrators). |
 
-Creating and publishing an event are presented in the [Configuring an event to send an event transactional message](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) section.
+Creating and publishing an event are presented in the [Configuring a transactional event](../../channels/using/configuring-transactional-event.md) and [Publishing a transactional event](../../channels/using/publishing-transactional-event.md) sections.
 
 ### Step 2 - Edit and publish the transactional message {#create-transactional-message}
 
@@ -129,39 +128,45 @@ Creating and publishing an event are presented in the [Configuring an event to s
 
 * This step can be performed by any marketing user with [standard user access rights](../../administration/using/users-management.md#basic-users).-->
 
-| Transactional message edition |
-|--- |
-| Edit and personalize the transactional message, test it, and then publish it. |
- | The transactional message will then be ready to be sent. |
- | This step can be performed by any marketing user with [standard user access rights](../../administration/using/users-management.md#basic-users). |
+| Action | Result | User |
+|--- |--- |--- |
+| Edit and personalize the transactional message, test it, and then publish it. | The transactional message will then be ready to be sent. | This step can be performed by any marketing user with [standard user access rights](../../administration/using/users-management.md#basic-users). |
 
-For more on editing and publishing a transactional message, see [Event transactional messages](../../channels/using/event-transactional-messages.md).
+For more on editing and publishing a transactional message, see [Editing transactional messages](../../channels/using/editing-transactional-message.md) and [Transactional message lifecycle](../../channels/using/publishing-transactional-message.md).
 
 ### Step 3 - Integrate the event triggering {#integrate-event-trigger}
 
 <img src="assets/do-not-localize/icon_api.svg" width="55px">
 
-**Event triggering integration**
+<!--**Event triggering integration**
 
 * Use the REST Transactional Messages API to integrate the event into your website.
 
 * The event will be triggered when a client abandons their cart.
 
-* This step is performed by the developer of your website.
+* This step is performed by the developer of your website.-->
 
-For more on integrating the event into your website, see [Site integration](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website).
+| Action | Result | User |
+|--- |--- |--- |
+| Use the REST Transactional Messages API to integrate the event into your website. | The event will be triggered when a client abandons their cart. | This step is performed by the developer of your website. |
+
+For more on integrating the event into your website, see [Transactional event triggering](../../channels/using/transactional-event-triggering.md).
 
 ### Step 4 - Message delivery {#message-delivery}
 
 <img src="assets/do-not-localize/icon_channels.svg" width="60px">
 
-**External event coming from your website**
+<!--**External event coming from your website**
 
 * Once all of these steps have been carried out, the message can be delivered.
 
 * As soon as a user leaves the site without ordering the products in their cart, the corresponding Campaign event is triggered.
 
-* The user then automatically receives a notification email.
+* The user then automatically receives a notification email.-->
+
+| Action | Result | User |
+|--- |--- |--- |
+| Once all of these steps have been carried out, the message can be delivered when the conditions are met, i.e. in this example: as soon as a user leaves the site without ordering the products in their cart. | The corresponding Campaign event is triggered, and the user automatically receives a notification email. | Here the user is the visitor of the website. |
 
 ## Key steps {#key-steps}
 
