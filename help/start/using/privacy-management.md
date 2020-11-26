@@ -11,17 +11,39 @@ topic-tags: discovering-the-interface
 
 # Privacy management {#privacy-management}
 
-Adobe Campaign offers a set of tools to help you comply with Privacy regulations (including GDPR, CCPA, PDPA, LGPD).
+Adobe Campaign offers a set of tools to help you comply with [Privacy regulations](#privacy-management-regulations) (including GDPR, CCPA, PDPA, LGPD).
 
-* This section presents general information on what Privacy management is and the features provided by Adobe Campaign to manage the [Right to Access and Right to be Forgotten](#right-access-forgotten).
+Here are the five main capabilities offered by Adobe Campaign to ensure GDPR and other privacy regulations readiness:
 
-* It also contains information on important features to manage Privacy ([consent, data retention and user roles](#consent-retention-roles)), as well as best practices to help you with your Privacy compliance when using Adobe Campaign.
+![](assets/privacy-gdpr-use-cases.png)
 
-## Regulations on privacy management {#privacy-management-regulations}
+* **Right to Access**
+
+* **Right to Delete**
+
+For more on this, see [Right to Access and Right to be Forgotten](#right-access-forgotten).
+
+* **Consent management**
+
+* **Data retention**
+
+* **Rights management**
+
+For more on this, see [Consent, Retention and Roles](#consent-retention-roles).
+
+<!--This section presents general information on what Privacy management is and the features provided by Adobe Campaign to manage the [Right to Access and Right to be Forgotten](#right-access-forgotten).
+
+It also contains information on important features to manage Privacy ([consent, data retention and user roles](#consent-retention-roles)), as well as best practices to help you with your Privacy compliance when using Adobe Campaign.-->
+
+## Regulations on Privacy management {#privacy-management-regulations}
 
 Adobe Campaign's capabilities help you comply with the following regulations:
 
-* **GDPR** ([General Data Protection Regulation](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en)) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements for EU's countries.
+* **GDPR** ([General Data Protection Regulation](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en)) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements for EU's countries. Follow the links below to find general information on GDPR:
+
+    * https://www.adobe.com/privacy/general-data-protection-regulation.html
+    * https://www.adobe.com/marketing-cloud/campaign/general-data-protection-regulation.html
+
 * **CCPA** ([California Consumer Privacy Act](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=1.81.5.&part=4.&chapter=&article=)) provides California residents new rights in regards to their personal information and imposes data protection responsibilities on certain entities whom conduct business in California.
 * **PDPA** ([Personal Data Protection Act](https://secureprivacy.ai/thailand-pdpa-summary-what-businesses-need-to-know/)) is the new privacy law that harmonizes and modernizes data protection requirements for Thailand. 
 * **LGPD** ([Lei Geral de Proteção de Dados](https://iapp.org/media/pdf/resource_center/Brazilian_General_Data_Protection_Law.pdf)) will be effective early 2021 for all companies collecting or processing personal data in Brazil.
@@ -43,6 +65,10 @@ In order to help you facilitate your Privacy readiness, Adobe Campaign allows yo
 To learn how you can create **Access** and **Delete** requests and how Adobe Campaign processes them, refer to the [implementation steps](../../start/using/privacy-requests.md#about-privacy-requests).
 
 Tutorials on Privacy management in Campaign Standard are also available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=en#privacy).
+
+>[!NOTE]
+>
+>For more on personal data and on the different entities that manage data (Data Controller, Data Processor and Data Subject), see [Personal data and Personas](../../start/using/privacy.md#personal-data).
 
 ## Consent, Retention and Roles {#consent-retention-roles}
 
