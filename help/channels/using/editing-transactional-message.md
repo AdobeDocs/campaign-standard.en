@@ -10,7 +10,7 @@ topic-tags: transactional-messaging
 context-tags: 
 ---
 
-# Editing transactional messages (Event transactional messages) {#event-transactional-messages}
+# Editing transactional messages {#editing-transactional-message}
 
 What about profile transactional messages? To add here?
 

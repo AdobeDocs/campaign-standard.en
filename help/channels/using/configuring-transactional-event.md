@@ -9,7 +9,7 @@ topic-tags: configuring-channels
 context-tags: 
 ---
 
-# Configuring transactional messaging{#configuring-transactional-messaging}
+# Configuring a transactional event {#configuring-transactional-messaging}
 
 To send a transactional message with Adobe Campaign, you first need to describe the structure of the event data by creating and configuring an event.
 

@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: configuring-channels
 ---
 
-# Transactional event triggering
+# Transactional event triggering {#transactional-event-triggering}
 
 Once you have created an event, you need to integrate the triggering of this event into your website.
 

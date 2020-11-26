@@ -18,14 +18,16 @@ Once [configuration](../../channels/using/configuring-transactional-event.md) is
 >Event configuration and publication must be performed by an [administrator](../../administration/using/users-management.md#functional-administrators).
 
 Once publication is done:
-* The corresponding transactional message is automatically created. See [Getting started with transactional messaging](../../channels/using/getting-started-with-transactional-msg.md).
-* The API that will be used by your website developer is deployed and the transactional events can now be sent. See [Integrating the triggering of the event in a website](../../channels/using/transactional-event-triggering.md).
+* The corresponding transactional message is automatically created. See [Editing transactional messages](../../channels/using/editing-transactional-message.md).
+* The API that will be used by your website developer is deployed and the transactional events can now be sent. See [Transactional event triggering](../../channels/using/transactional-event-triggering.md).
 
 ## Previewing and publishing the event {#previewing-and-publishing-the-event}
 
 Before being able to use the event, you must preview and publish it.
 
-1. Click the **[!UICONTROL API preview]** button to see a simulation of the REST API that will be used by your website developer before it is published. Once the event is published, this button also allows you to see a preview of the API in production. See [Integrating the triggering of the event in a website](../../channels/using/transactional-event-triggering.md).
+1. Click the **[!UICONTROL API preview]** button to see a simulation of the REST API that will be used by your website developer before it is published.
+
+   Once the event is published, this button also allows you to see a preview of the API in production. See [Transactional event triggering](../../channels/using/transactional-event-triggering.md).
 
    ![](assets/message-center_api_preview.png)
 
@@ -47,15 +49,15 @@ Before being able to use the event, you must preview and publish it.
    >
    >Each time you modify the event, you must click **[!UICONTROL Publish]** again to generate the updated REST API that will be used by your website developer.
    
-   Once the event has been published, a transactional message linked to the new event is automatically created.
+   Once the event has been published, a [transactional message](../../channels/using/editing-transactional-message.md) linked to the new event is automatically created.
 
 1. You can directly access this transactional message through the link located in the left-hand side area.
 
    ![](assets/message-center_messagegeneration.png)
 
-In order for the event to trigger sending a transactional message, you must modify and publish the message that was just created. See [Event transactional messages](../../channels/using/event-transactional-messages.md).
+   * In order for the event to trigger sending a transactional message, you must modify and publish the message that was just created. See [Editing](../../channels/using/editing-transactional-message.md) and [Publishing a transactional message](../../channels/using/publishing-transactional-message.md) sections.
 
-You also have to integrate this trigger event into your website. See [Integrating the triggering of the event in a website](#integrating-the-triggering-of-the-event-in-a-website).
+   * You also have to [integrate this trigger event](../../channels/using/transactional-event-triggering.md) into your website.
 
 Once Adobe Campaign starts receiving events related to this event configuration, the **[!UICONTROL Latest transactional events]** link under the **[!UICONTROL History]** section enables you to access the latest events sent by your third-party service and processed by Adobe Campaign.
 
