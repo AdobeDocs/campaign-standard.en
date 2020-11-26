@@ -11,7 +11,9 @@ context-tags:
 
 # Transactional message lifecycle {#publishing-transactional-message}
 
-When the [transactional message](../../channels/using/editing-transactional-message.md) is ready to be sent, it can be published. The steps to test, publish, pause, unpublish and delete an event are detailed below. This section also describes the transactional messaging retry process.
+When the [transactional message](../../channels/using/editing-transactional-message.md) is ready to be sent, it can be published.
+
+The steps to test, publish, pause, unpublish and delete an event are detailed below. This section also describes the transactional messaging retry process.
 
 ## Transactional messaging publication process {#transactional-messaging-pub-process}
 
@@ -23,7 +25,7 @@ For more on publishing a transactional message, see [this section](#publishing-a
 For more on pausing a transactional message, see [this section](#suspending-a-transactional-message-publication).
 For more on unpublishing a transactional message, see [this section](#unpublishing-a-transactional-message).
 
-For more on publishing and unpublishing an event configuration, see [this section](../../channels/using/publishing-transactional-event.md).
+For more on publishing and unpublishing an event, see [this section](../../channels/using/publishing-transactional-event.md).
 
 ## Testing a transactional message {#testing-a-transactional-message}
 
@@ -43,7 +45,7 @@ Define a test profile that will be linked to your event, which will allow you to
 
    >[!NOTE]
    >
-   >You can also enter the information relating to the profile table. See [Enriching the transactional message content](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content).
+   >You can also enter the information relating to the profile table. See [Enriching the event](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)<!--and [Personalizing a transactional message](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message)-->.
 
 1. Once created, the test profile will be pre-specified in the transactional message. Click the **[!UICONTROL Test profiles]** block of the message to check the target of your proof.
 
@@ -63,7 +65,7 @@ You can also create a new test profile or use one that already exists in the **[
 **Related topics:**
 
 * [Managing test profiles](../../audiences/using/managing-test-profiles.md)
-* [Defining audiences](../../audiences/using/creating-audiences.md)
+* [Creating audiences](../../audiences/using/creating-audiences.md)
 
 ### Sending the proof {#sending-proof}
 
@@ -71,7 +73,7 @@ Once you have created one or more specific test profiles and saved your transact
 
 ![](assets/message-center_10.png)
 
-The steps for sending a proof are detailed in the [Sending a proof](../../sending/using/sending-proofs.md) section.
+The steps for sending a proof are detailed in the [Sending proofs](../../sending/using/sending-proofs.md) section.
 
 ## Publishing a transactional message {#publishing-a-transactional-message}
 
@@ -81,7 +83,7 @@ Once you have checked your transactional message, you can publish it.
 
 Now, as soon as the "Cart abandonment" event is triggered, it automatically prompts a message containing the recipient's title and last name, the cart URL, the last product consulted or a list of products if you defined a product listing, and the total cart amount to be sent.
 
-To access reports concerning your transactional message, use the **[!UICONTROL Reports]** button. See [Reports](../../reporting/using/about-dynamic-reports.md).
+To access reports concerning your transactional message, use the **[!UICONTROL Reports]** button. See [Dynamic reports](../../reporting/using/about-dynamic-reports.md).
 
 ![](assets/message-center_13.png)
 
@@ -89,7 +91,7 @@ To access reports concerning your transactional message, use the **[!UICONTROL R
 
 You can suspend publishing your transactional message by using the **[!UICONTROL Pause]** button, for example, to modify the data contained in the message. The events are therefore no longer processed, but instead kept in a queue in the Adobe Campaign database.
 
-The queued events are kept during a period of time that is defined in the REST API (see the [REST API documentation](../../api/using/get-started-apis.md)) or in the trigger event if you are using the Triggers core service (see [Working with Campaign and Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
+The queued events are kept during a period of time that is defined in the REST API (see the [REST API documentation](../../api/using/get-started-apis.md)) or in the trigger event if you are using the Triggers core service (see [About Adobe Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
 
 ![](assets/message-center_pause.png)
 
@@ -105,7 +107,7 @@ Now, even if the event is triggered through your website, the corresponding mess
 
 >[!NOTE]
 >
->To publish the message again, you need to go back to the corresponding event configuration, publish it, and then publish the message. For more on this, see [Publishing a transactional message](#publishing-a-transactional-message).
+>To publish the message again, you need to go back to the corresponding event configuration, [publish the event](../../channels/using/publishing-transactional-event.md), and then [publish the message](#publishing-a-transactional-message).
 
 If you unpublish a paused transactional message, you may have to wait up to 24 hours before you can publish it again. This is to let the **[!UICONTROL Database cleanup]** workflow clean all the events that were sent to the queue.
 
@@ -127,7 +129,7 @@ However, deleting a transactional message can only be done under certain conditi
 
 * Make sure the transactional message has the **[!UICONTROL Draft]** status, otherwise you will not be able to delete it. The **[!UICONTROL Draft]** status applies to a message that has not been published yet, or that has been [unpublished](#unpublishing-a-transactional-message) (and not [paused](#suspending-a-transactional-message-publication)).
 
-* **Transactional messages**: Unless another transactional message is linked to the corresponding event, if the transactional message is unpublished, the event configuration also needs to be unpublished to successfully delete your transactional message. For more on this, see [Unpublishing an event](../../administration/using/configuring-transactional-messaging.md#unpublishing-an-event).
+* **Transactional messages**: Unless another transactional message is linked to the corresponding event, if the transactional message is unpublished, the event configuration also needs to be unpublished to successfully delete your transactional message. For more on this, see [Unpublishing an event](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
 
    >[!IMPORTANT]
    >
