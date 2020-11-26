@@ -19,7 +19,7 @@ For more on transactional messages, including on how to configure and create the
 
 >[!IMPORTANT]
 >
->To access transactional events, you must have [administration](../../administration/using/users-management.md#functional-administrators) rights.
+>To access transactional messages, you must have [administration](../../administration/using/users-management.md#functional-administrators) rights.
 
 ## Event configuration and publication {#design-and-publication}
 

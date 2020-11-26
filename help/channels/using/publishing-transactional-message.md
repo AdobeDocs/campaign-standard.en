@@ -9,7 +9,7 @@ topic-tags: transactional-messaging
 context-tags: 
 ---
 
-# Transactional message lifecycle
+# Transactional message lifecycle {#publishing-transactional-message}
 
 When the [transactional message](../../channels/using/editing-transactional-message.md) is ready to be sent, it can be published. The steps to test, publish, pause, unpublish and delete an event are detailed below. This section also describes the transactional messaging retry process.
 

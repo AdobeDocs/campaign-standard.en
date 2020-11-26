@@ -12,19 +12,13 @@ context-tags:
 
 # Editing transactional messages {#editing-transactional-message}
 
-What about profile transactional messages? To add here?
+Once you have created and published an event<!--(the cart abandonment example as explained in [this section](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle))-->, the corresponding transactional message is automatically created. The steps to configure and publish the event are presented in the [Configuring a transactional event](../../channels/using/configuring-transactional-event.md) and [Publishing a transactional event](../../channels/using/publishing-transactional-event.md) section.
 
-You can send event transactional messages targeting an event. This type of transactional messages does not contain profile information: the delivery target is defined by the data contained in the event itself.
+The steps to access, edit and personalize this message are described below.
 
-Once you have created and published an event (the cart abandonment as explained in [this section](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)), the corresponding transactional message is created automatically.
+<!--Event transactional messages do not contain profile information, therefore they are not compatible with fatigue rules (even in the case of an enrichment with profiles). See [Fatigue rules](../../sending/using/fatigue-rules.md#choosing-the-channel).-->
 
-The configuration steps are presented in the [Configuring an event to send an transactional message](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) section.
-
->[!NOTE]
->
->Event transactional messages do not contain profile information, therefore they are not compatible with fatigue rules (even in the case of an enrichment with profiles). See [Fatigue rules](../../sending/using/fatigue-rules.md#choosing-the-channel).
-
-In order for the event to trigger sending a transactional message, you have to personalize the message, then test it and publish it.
+Once your message is ready, it can be tested and published. See [Transactional message lifecylce](../../channels/using/publishing-transactional-message.md).
 
 ## Accessing transactional messages {#accessing-transactional-messages}
 
@@ -43,7 +37,9 @@ To access the transactional message that you created:
 
 ## Personalizing a transactional message {#personalizing-a-transactional-message}
 
-To set up personalization in a transactional message, follow the steps below:
+To set up personalization in a transactional message, follow the steps below.
+
+For example, you want to send a notification to your website users who have added products to their cart and leave the site without going through with their purchases. This example is presented in the [Transactional messaging operating principle](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) section.
 
 1. Click the **[!UICONTROL Content]** block to modify your message's subject and content. For this example, select any template containing images and text. For more on email content templates, see [Designing using templates](../../designing/using/using-reusable-content.md#designing-templates).
 
@@ -55,13 +51,13 @@ To set up personalization in a transactional message, follow the steps below:
     >
     >The link to the abandoned cart is a link to an external URL that will redirect the person to their cart. This parameter is not managed in Adobe Campaign.
 
-1. In this example, you want to add three fields that you defined when you [created your event](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message): first name, last product consulted, total cart amount. To do this, [insert a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field) in the message content.
+1. In this example, you want to add three fields that you defined when you [created your event](../../channels/using/configuring-transactional-event.md): first name, last product consulted, total cart amount. To do this, [insert a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field) in the message content.
     
 1. Browse to those fields through **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
 
    ![](assets/message-center_7.png)
 
-1. To enrich the content of your message, add fields by selecting them from the table with which you linked your event. In our example, select the **[!UICONTROL Title (salutation)]** field in the **[!UICONTROL Profile]** table through **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
+1. To enrich the content of your message, add fields by selecting them from the table with which you linked your event. In this example, select the **[!UICONTROL Title (salutation)]** field in the **[!UICONTROL Profile]** table through **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
 
    ![](assets/message-center_7-enrichment.png)
 
@@ -75,7 +71,7 @@ To set up personalization in a transactional message, follow the steps below:
 
    ![](assets/message-center_9.png)
 
-   You can check that the personalization fields match the information entered in the test profile. For more on this, see [Defining a test profile in a transactional message](#defining-a-test-profile-in-a-transactional-message).
+   You can check that the personalization fields match the information entered in the test profile. For more on this, see [Defining a test profile in a transactional message](../../channels/using/publishing-transactional-message.md#defining-specific-test-profile).
 
 ## Using product listings in a transactional message {#using-product-listings-in-a-transactional-message}
 
@@ -87,7 +83,7 @@ You can create product listings referencing one or more data collections in the 
 
 To add a list of abandoned products in a transactional message, follow the steps below.
 
-You can also watch a set of videos explaining the steps that are required to configure product listings in a transactional email. For more on this, see [this page](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html).
+You can also watch [this set of videos](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html?lang=en#configure-product-listings-in-transactional-emails) explaining the steps that are required to configure product listings in a transactional email.
 
 >[!NOTE]
 >
@@ -95,12 +91,12 @@ You can also watch a set of videos explaining the steps that are required to con
 
 ### Defining a product listing {#defining-a-product-listing}
 
-Before being able to use a product listing in a transactional message, you need to define at the event level the list of products and the fields for each product of the list you want to display. For more on this, see [Defining data collections](../../administration/using/configuring-transactional-messaging.md#defining-data-collections).
+Before being able to use a product listing in a transactional message, you need to define at the event level the list of products and the fields for each product of the list you want to display. For more on this, see [Defining data collections](../../channels/using/configuring-transactional-event.md#defining-data-collections).
 
 1. In the transactional message, click the **[!UICONTROL Content]** block to modify the email content.
-1. Drag and drop a structure component to the workspace. For more on this, see [Editing the email structure](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+1. Drag and drop a structure component to the workspace. For more on this, see [Defining the email structure](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
-   For example, select a one-column structure component and add a text component, an image component and a button component. For more on this, see [Adding fragments and components](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+   For example, select a one-column structure component and add a text component, an image component and a button component. For more on this, see [Using content components](../../designing/using/designing-from-scratch.md#about-content-components).
 
 1. Select the structure component you just created and click the **[!UICONTROL Enable product listing]** icon from the contextual toolbar.
 
@@ -117,13 +113,13 @@ Before being able to use a product listing in a transactional message, you need 
 
    >[!NOTE]
    >
-   >The **[!UICONTROL Column]** option is only available when using a multicolumn structure component ( **[!UICONTROL 2:2 column]**, **[!UICONTROL 3:3 column]** and **[!UICONTROL 4:4 column]** ). When editing the product listing, only fill in the first column: the other columns will not be taken into account. For more on selecting structure components, see [Editing the email structure](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+   >The **[!UICONTROL Column]** option is only available when using a multicolumn structure component ( **[!UICONTROL 2:2 column]**, **[!UICONTROL 3:3 column]** and **[!UICONTROL 4:4 column]** ). When editing the product listing, only fill in the first column: the other columns will not be taken into account. For more on selecting structure components, see [Defining the email structure](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
 1. Select the data collection you created when configuring the event related to the transactional message. You can find it under the **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** node.
 
    ![](assets/message-center_loop_selection.png)
 
-   For more on configuring the event, see [Defining data collections](../../administration/using/configuring-transactional-messaging.md#defining-data-collections).
+   For more on configuring the event, see [Defining data collections](../../channels/using/configuring-transactional-event.md#defining-data-collections).
 
 1. Use the **[!UICONTROL First item]** drop-down list to select which element will start the list displayed in the email.
 
@@ -139,7 +135,7 @@ Before being able to use a product listing in a transactional message, you need 
 
 To display a list of products coming from the event linked to the transactional email, follow the steps below.
 
-For more on creating a collection and related fields when configuring the event, see [Defining data collections](../../administration/using/configuring-transactional-messaging.md#defining-data-collections).
+For more on creating a collection and related fields when configuring the event, see [Defining data collections](../../channels/using/configuring-transactional-event.md#defining-data-collections).
 
 1. Select the image component you inserted, select **[!UICONTROL Enable personalization]** and click the pencil in the Settings pane.
 
@@ -190,9 +186,9 @@ For more on creating a collection and related fields when configuring the event,
 
    The fallback content will be displayed if the collection is empty when the event is triggered, for example if a customer has nothing in his cart.
 
-1. From the Settings pane, edit the styles for the product listing. For more on this, see [Editing email styles](../../designing/using/styles.md).
+1. From the Settings pane, edit the styles for the product listing. For more on this, see [Managing email styles](../../designing/using/styles.md).
 1. Preview the email using a test profile linked to the relevant transactional event and for which you defined collection data. For example, add the following information in the **[!UICONTROL Event data]** section for the test profile you want to use:
 
    ![](assets/message-center_loop_test-profile_payload.png)
 
-   For more on defining a test profile in a transactional message, see [this section](#defining-a-test-profile-in-a-transactional-message).
+   For more on defining a test profile in a transactional message, see [this section](../../channels/using/publishing-transactional-message.md#defining-specific-test-profile).
