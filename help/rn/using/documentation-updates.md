@@ -179,7 +179,7 @@ The Configuring a mobile application documentation and related pages have been u
 
 The Adobe Campaign Standard / Adobe Experience Manager integration documentation has been updated and improved. [Read more](../../integrating/using/configure-experience-manager.md)
 
-The Campaign Email Designer documentation and related pages have been updated to reflect [!DNL Adobe Creative SDK] depreciation. [Read more](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+The Campaign Email Designer documentation and related pages have been updated to reflect [!DNL Adobe Creative SDK] depreciation. [Read more](../../rn/using/deprecated-features.md)
 
 A new section dedicated to Campaign Standard data model best practices is now available. [Read more](../../developing/using/data-model-best-practices.md)
 
@@ -429,7 +429,7 @@ The [SMS connector protocol and settings](https://helpx.adobe.com/campaign/kb/sm
 
 The Get Started Guide has been enriched and reorganized. [Read more](../../start/using/about-campaign-standard.md)
 
-The Deprecated and Removed features page has been updated. [Read more](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+The Deprecated and Removed features page has been updated. [Read more](../../rn/using/deprecated-features.md)
 
 The Dreamweaver integration section has been updated and improved. [Read more](../../designing/using/using-integrations.md#editing-content-in-dreamweaver)
 
@@ -567,7 +567,7 @@ The list of HTML attributes for full compliance with the Creative Designer is no
 
 Added information on default language for multilingual template. [Read more](../../channels/using/multilingual-messages-template.md)
 
-The Users & security guide has been updated to reflect the depreciation of the geographical unit capability for new Campaign Standard instances, as well as existing instances with no geographical units created, starting 18.7 release. [Read more](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+The Users & security guide has been updated to reflect the depreciation of the geographical unit capability for new Campaign Standard instances, as well as existing instances with no geographical units created, starting 18.7 release. [Read more](../../rn/using/deprecated-features.md)
 
 ## Release 18.6 - June 2018 {#release-18-6---june-2018}
 
