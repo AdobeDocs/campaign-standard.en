@@ -43,7 +43,7 @@ Customers are advised to review if they make use of the feature/capability in th
    <td> <p> Starting 20.1 release, SDK v4 is deprecated. <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">Learn more</a>.</p><br/>
    <p>The <a href="https://aep-sdks.gitbook.io/docs/">Adobe Experience Platform Mobile SDK</a> (previously referred to as v5) will exclusively support upcoming Adobe Experience Cloud features and functionality.</p></br>
      <p>
-     <em>Target removal date: September 30, 2020</em></p>
+     <em>Target removal date: August 31, 2021</em></p>
      </td> 
   </tr> 
  </tbody> 
