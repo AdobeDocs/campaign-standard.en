@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Creating a service
 description: Learn how to create your first service and configure it to send email confirmations to your subscribers.
-page-status-flag: never-activated
-uuid: 0d95d852-0f22-4b7b-b301-8fb4844c3ca2
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
-discoiquuid: 6b7788fe-fa6c-472a-97db-765595ce1589
 context-tags: service,wizard;service,main
-internal: n
-snippet: y
 ---
 
 # Creating a service{#creating-a-service}

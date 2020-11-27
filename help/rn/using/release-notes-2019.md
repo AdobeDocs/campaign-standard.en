@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Release Notes 2019
 description: This page lists all 2019 releases of Adobe Campaign Standard.
-page-status-flag: never-activated
-uuid: 99f92a54-4b3d-48b9-b08d-e98b24e75f62
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 
-internal: n
-snippet: y
 ---
 
 # Release Notes 2019{#release-notes-2019}
@@ -303,7 +298,7 @@ Introduced a series of improvements and fixes to optimize fragments in the 19.2 
  <tbody> 
   <tr> 
    <td> Control Panel<br /> </td> 
-   <td> <p>To help increase efficiency in your work as an Admin user, you can easily monitor capacity and manage settings of your instances (starting with SFTP servers management).</p><p>For more information, refer to the <a href="https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/control-panel-overview.html">how-to video</a>.</p></td> 
+   <td> <p>To help increase efficiency in your work as an Admin user, you can easily monitor capacity and manage settings of your instances (starting with SFTP servers management).</p><p>For more information, refer to the <a href="https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html">detailed documentation</a> and the <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=en">how-to video</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Local notifications<br /> </td> 

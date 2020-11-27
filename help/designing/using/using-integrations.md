@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Designing emails through Adobe Campaign integrations 
 description: Discover how to design emails through Adobe Campaign integrations in the Email Designer.
-page-status-flag: never-activated
-uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 
-internal: n
-snippet: y
 ---
 
 # Multi-solution email design {#multi-solution-email-design}
@@ -45,7 +40,7 @@ Email content can be edited in Experience Manager and then used for one or sever
 >[!CONTEXTUALHELP]
 >id="ac_product_listing"
 >title="Using product listings"
->abstract="The product listings allows you to reference one or more data collections in the email content."
+>abstract="The product listings allows you to reference a data collection and display it in the email content."
 
 The product listings allows you to reference one or more data collections in the email content. These listings are available for transactional emails. A dedicated section for this feature is available [here](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message).
 

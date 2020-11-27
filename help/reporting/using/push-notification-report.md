@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Push notification report
 description: With the Push notification out-of-the-box report, learn about the success of your push notifications.
-page-status-flag: never-activated
-uuid: 5b121a37-1c09-4749-a409-6989978ddc4c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
-discoiquuid: a425cd59-edfd-42c5-a6bd-38773c353ff0
 
-internal: n
-snippet: y
 ---
 
 # Push notification report{#push-notification-report}

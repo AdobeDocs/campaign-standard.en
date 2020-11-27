@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: About Campaign-Analytics integration
 description: By collecting the KPI data from Adobe Campaign Standard, you can now share campaign data with Adobe Analytics to measure email marketing metrics from Adobe Campaign.
-page-status-flag: never-activated
-uuid: 7a351e1d-50cb-4ec5-8b66-318b797af77f
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
-discoiquuid: 2ea51543-fe4d-462b-b47e-9ccaa1d68dfa
 
-internal: n
-snippet: y
 ---
 
 # About Campaign-Analytics integration{#about-campaign-analytics-integration}

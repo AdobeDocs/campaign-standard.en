@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: SMS and push content editor interface
 description: Learn how to use the different sections of the editor to modify your SMS and push content.
-page-status-flag: never-activated
-uuid: 4af5d247-555b-45c5-95a7-cb27f356b5a0
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: editing-sms-and-push-content
-discoiquuid: 4e214eb9-d299-4095-b786-8d1de9b1c8a2
 context-tags: delivery,smsContent,back
-internal: n
-snippet: y
 ---
 
 # SMS and push content editor interface{#sms-and-push-content-editor-interface}
@@ -89,4 +84,3 @@ The SMS and push content editor offers the following functionalities:
 * Add a content block. For more on this, see [Adding a content block](../../designing/using/personalization.md#adding-a-content-block).
 * Add dynamic text. For more on this, see [Defining dynamic text](../../channels/using/defining-dynamic-text.md).
 * Personalize the name of the SMS sender (SMS only). For more on this, see [SMS configuration](../../administration/using/configuring-sms-channel.md#configuring-sms-properties).
-

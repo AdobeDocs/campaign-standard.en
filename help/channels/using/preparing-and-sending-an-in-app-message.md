@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Preparing and sending an In-App message
 description: Create In-App message to target your application subscribers with specific content.
-page-status-flag: never-activated
-uuid: a79b0466-8641-46cc-a70f-e4e839587bb2
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: in-app-messaging
-discoiquuid: 18bf5297-a688-4302-abe4-e2fbcafdb515
 context-tags: delivery,triggers,back;deliveryCreation,wizard
-internal: n
-snippet: y
 ---
 
 # Preparing and sending an In-App message{#preparing-and-sending-an-in-app-message}
@@ -165,4 +160,3 @@ Once you have finished preparing your delivery and the approval steps have been 
 
 * [In-App report](../../reporting/using/in-app-report.md)
 * [Sending an In-App message within a workflow](../../automating/using/in-app-delivery.md)
-

@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Sending a recurring push notification with a workflow
 description: In this example, a personalized push notification is sent every first day of the month at 8 pm to the subscribers of your mobile application depending on their time zones.
-page-status-flag: never-activated
-uuid: 994d8fe3-29f0-4b5c-89ee-c6be7c60a31b
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: channel-activities
-discoiquuid: e61bdaee-4b48-4845-a2a5-574b577ea796
 
-internal: n
-snippet: y
 ---
 
 # Sending a recurring push notification with a workflow {#sending-a-recurring-push-notification-with-a-workflow}

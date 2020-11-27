@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Creating and updating profile information based on mobile application data
 description: Learn how to create and update profile information based on mobile application data.
-page-status-flag: never-activated
-uuid: 8cf74cad-b1ba-4aad-83bd-7289cb22d5f4
-contentOwner: lemaitre
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: push-notifications
-discoiquuid: dc944c85-2059-46df-b396-676fe3617dd1
 context-tags: delivery,mobileAppContent,back
-internal: n
-snippet: y
 ---
 
 # Creating and updating profile information based on mobile application data
@@ -72,57 +67,60 @@ The following requirements are assumed in this workflow:
 * Any field from the AppSubscription table which is blank should not be updated in the Profile Table.
 * Any record that has been updated in the AppSubscription table should be included in the next run of the Workflow.
 
-To build the workflow, follow the steps below:
+To build the workflow, drag and drop the following activities into the workspace and link them together: **[!UICONTROL Start]**, **[!UICONTROL Scheduler]**, **[!UICONTROL Incremental query]**, **[!UICONTROL Update data]**.
 
-1. Drag and drop the following activities into the workspace and link them together:
-    1. **[!UICONTROL Start]**
-    1. **[!UICONTROL Scheduler]**
-    1. **[!UICONTROL Incremental query]**
-    1. **[!UICONTROL Update data]**
+ ![](assets/update_profile0.png)
 
-    ![](assets/update_profile0.png)
+Then follow the steps below to configure each activity.
 
-1. Configure the **[!UICONTROL Scheduler]** activity. In the **[!UICONTROL General]** tab, set the **[!UICONTROL Execution frequency]** (for example, "Daily"), the **[!UICONTROL Time]** (for example, "1:00:00 AM"), and the **[!UICONTROL Start]** (for example, Today's date).
+### Configure the **[!UICONTROL Scheduler]** activity
 
-    ![](assets/update_profile2.png)
+In the **[!UICONTROL General]** tab, set the **[!UICONTROL Execution frequency]** (for example, "Daily"), the **[!UICONTROL Time]** (for example, "1:00:00 AM"), and the **[!UICONTROL Start]** (for example, Today's date).
 
-1. Configure the **[!UICONTROL Incremental query]** activity.
-    1. In the **[!UICONTROL Properties]** tab, click the **[!UICONTROL Select an element]** icon of the **[!UICONTROL Resource]** field, then select the **[!UICONTROL Subscriptions to an application (nms:appSubscriptionRcp:appSubscriptionRcpDetail)]** element.
+![](assets/update_profile2.png)
 
-        ![](assets/update_profile3.png)
+### Configure the **[!UICONTROL Incremental query]** activity.
 
-    1. In the **[!UICONTROL Target]** tab, drag the **[!UICONTROL Mobile application]** filter, then select a Mobile application name.
+1. In the **[!UICONTROL Properties]** tab, click the **[!UICONTROL Select an element]** icon of the **[!UICONTROL Resource]** field, then select the **[!UICONTROL Subscriptions to an application (nms:appSubscriptionRcp:appSubscriptionRcpDetail)]** element.
 
-        ![](assets/update_profile4.png)
+    ![](assets/update_profile3.png)
 
-    1. In the **[!UICONTROL Processed data]** tab, select **[!UICONTROL Use a date field]**, then add the **[!UICONTROL Last modified (lastModified)]**  field as **[!UICONTROL Path to the date field]**.
+1. In the **[!UICONTROL Target]** tab, drag the **[!UICONTROL Mobile application]** filter, then select a Mobile application name.
 
-        ![](assets/update_profile5.png)
+    ![](assets/update_profile4.png)
 
-1. Configure the **[!UICONTROL Update data]** activity.
-    1. In the **[!UICONTROL Identification]** tab, make sure that the **[!UICONTROL Dimension to update]** field is set to "Profiles (profile)", then click the **[!UICONTROL Create element]** button to add a field as a reconciliation criteria.
+1. In the **[!UICONTROL Processed data]** tab, select **[!UICONTROL Use a date field]**, then add the **[!UICONTROL Last modified (lastModified)]**  field as **[!UICONTROL Path to the date field]**.
 
-        ![](assets/update_profile_createelement.png)
+    ![](assets/update_profile5.png)
 
-    1. In the **[!UICONTROL Source]** field, select a field from the appSubscrsiptionRcp table as a reconciliation field. It can be the profile's email, crmId, marketingCloudId, etc. In this example case, we will use the "Email (cusEmail)" field.
-    1. In the **[!UICONTROL Destination]** field, select a field from the profile table to reconcile the data from the appSubscriptionRcp table. It can be the profile's email, or any extended field such as crmId, marketingCloudId, etc. In this example, we need to select the "Email (email)" field to map it with the "Email (cusEmail)" field from the appSubscriptionRcp table.
+### Configure the **[!UICONTROL Update data]** activity.
 
-        ![](assets/update_profile7.png)
+1. In the **[!UICONTROL Identification]** tab, make sure that the **[!UICONTROL Dimension to update]** field is set to "Profiles (profile)", then click the **[!UICONTROL Create element]** button to add a field as a reconciliation criteria.
 
-    1. In the **[!UICONTROL Fields to update]** tab, click the **[!UICONTROL Create element]** button, then map the fields that are coming from the appSubscriptionRcp table (**[!UICONTROL Source]** field) with the fields that you want to update in the Profile table (**[!UICONTROL Destination]** field).
-    1. In the **[!UICONTROL Enabled if]** field, add an expression to ensure that the corresponding field in the Profile table is updated only if the source field contains a value. To do this, select the field from the list, then add the "!=''" expression (if the Source field is `[target/@cusEmail]` in the Expression editor make sure to type `[target/@cusEmail] != ''"`).
+    ![](assets/update_profile_createelement.png)
 
-        ![](assets/update_profile8.png)
+1. In the **[!UICONTROL Source]** field, select a field from the appSubscrsiptionRcp table as a reconciliation field. It can be the profile's email, crmId, marketingCloudId, etc. In this example case, we will use the "Email (cusEmail)" field.
 
-        >[!NOTE]
-        >
-        >In this case, the Workflow performs an UPSERT but since it's based on an Incremental Query data is only inserted. Changing the Query can affect what data is inserted or updated.
-        >In addition, settings in the Fields to update tab determine what fields are inserted or updated under specific conditions. These settings can be unique for each application or customer. Take care when configuring these settings as there can be unintended consequences, as updating records in the Profile based on appSubscriptionRcp data can change users personal information without validation.
+1. In the **[!UICONTROL Destination]** field, select a field from the profile table to reconcile the data from the appSubscriptionRcp table. It can be the profile's email, or any extended field such as crmId, marketingCloudId, etc. In this example, we need to select the "Email (email)" field to map it with the "Email (cusEmail)" field from the appSubscriptionRcp table.
 
-    1. When all of the fields to insert/update in Profile have been added, click **[!UICONTROL Confirm]**.
+    ![](assets/update_profile7.png)
 
-        ![](assets/update_profile9.png)
+1. In the **[!UICONTROL Fields to update]** tab, click the **[!UICONTROL Create element]** button, then map the fields that are coming from the appSubscriptionRcp table (**[!UICONTROL Source]** field) with the fields that you want to update in the Profile table (**[!UICONTROL Destination]** field).
 
-1. Save the workflow, then click Start to initiate the Workflow process.
+1. In the **[!UICONTROL Enabled if]** field, add an expression to ensure that the corresponding field in the Profile table is updated only if the source field contains a value. To do this, select the field from the list, then add the "!=''" expression (if the Source field is `[target/@cusEmail]` in the Expression editor make sure to type `[target/@cusEmail] != ''"`).
 
-    ![](assets/update_profile10.png)
+    ![](assets/update_profile8.png)
+
+>[!NOTE]
+>
+>In this case, the Workflow performs an UPSERT but since it's based on an **[!UICONTROL Incremental query]** data is only inserted. Changing the Query can affect what data is inserted or updated.
+>In addition, settings in the Fields to update tab determine what fields are inserted or updated under specific conditions. These settings can be unique for each application or customer.
+>Take care when configuring these settings as there can be unintended consequences, as updating records in the Profile based on appSubscriptionRcp data can change users personal information without validation.
+
+When all of the fields to insert/update in Profile have been added, click **[!UICONTROL Confirm]**.
+
+![](assets/update_profile9.png)
+
+Save the workflow, then click **[!UICONTROL Start]** to execute the Workflow.
+
+![](assets/update_profile10.png)

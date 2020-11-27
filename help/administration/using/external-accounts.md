@@ -1,16 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: External accounts
 description: Configure external accounts to set up connections with external systems such as SFTP servers.
-page-status-flag: never-activated
-uuid: 5d2e2e3d-5d1f-4466-97e5-842c50390146
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: application-settings
-discoiquuid: d5c6a3d4-f767-46c1-a8c0-3b9dc52dcea8
-internal: n
-snippet: y
 context-tags: extAccount,main;extAccount,overview
 ---
 
@@ -28,6 +23,7 @@ You can set up the following types of external accounts:
 * Adobe Analytics. For more on this, refer to [this section](../../integrating/using/configure-campaign-analytics-integration.md).
 * Google reCAPTCHA. For more on this, refer to [this section](#google-recaptcha-external-account).
 * Microsoft Azure Blob storage. For more on this, refer to [this section](#microsoft-azure-external-account).
+* OAuth 2.0. For more on this, refer to [this section](#oauth-account).
 
 >[!NOTE]
 >
@@ -85,8 +81,26 @@ SFTP servers can be managed from the Control Panel. For more information, refer 
 
 >[!NOTE]
 >
->Control Panel is available only to Admin users of customers hosted on AWS. 
-Check if your instance is hosted on AWS [here](https://docs.adobe.com/content/help/en/control-panel/using/faq.html#ims-org-id).
+>Control Panel is available only to Admin users of customers hosted on AWS.
+>
+>Check if your instance is hosted on AWS [here](https://docs.adobe.com/content/help/en/control-panel/using/faq.html#ims-org-id).
+
+## OAuth 2.0 account {#oauth-account}
+
+For a OAuth 2.0 external account, provide the following details:
+
+* A **Grant type**: only **client credentials** is supported. 
+* A **Secure API URL**: enter the authorization endpoint.
+* **OAuth 2.0 sensitive credentials**: This section is meant for credentials that are sensitive in nature. Credential values will be masked on the screen after they are added; at that point, they will not be readable nor editable. If the authorization endpoint requires a particular credential be inserted into the HTTP authorization header instead of the POST body parameter, you can select the option Include in header for that credential.
+* **OAuth 2.0 non-sensitive credentials**: This section is meant for credentials that are non-sensitive in nature. Credential values will be visible on the screen after they are added; they will also be editable.  If the authorization endpoint requires a particular credential be inserted into the HTTP authorization header instead of the POST body parameter, you can select the option Include in header for that credential.
+
+When the end of the configuration, click on **Test connector** to verify that the external account is set up correctly.
+
+![](assets/external_accounts_OAuth.png)
+
+>[!NOTE]
+>
+>The credentials "Content-Type: application/x-www-form-urlencoded" and "grant_type=client_credentials" will automatically be added to the API call; therefore, you will not need to add them in the credentials section.
 
 ## Amazon S3 external account {#amazon-s3-external-account}
 

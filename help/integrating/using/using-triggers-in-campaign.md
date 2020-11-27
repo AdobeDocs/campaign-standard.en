@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Using Triggers in Campaign
 description: 
-page-status-flag: never-activated
-uuid: d844d013-b38a-4e69-9df5-0edc01fa9c6e
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-discoiquuid: a524c700-bad6-4fcf-857a-c31bfae4d30c
 
-internal: n
-snippet: y
 ---
 
 # Using Triggers in Campaign{#using-triggers-in-campaign}

@@ -1,22 +1,27 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Documentation Updates
 description: Learn about all the latest updates for Adobe Campaign Standard documentation.
-page-status-flag: never-activated
-uuid: 3bdc7d11-8421-4110-a5ba-7b1376a03dda
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 
-internal: n
-snippet: y
 ---
 
 # Documentation Updates{#documentation-updates}
 
 In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), this page lists all the new updates in Adobe Campaign Standard documentation.
+
+## November 2020 {#doc-updates-november-2020}
+
+The Privacy section has been moved and enriched with two new pages: [Privacy management](../../start/using/privacy-management.md) and [Managing Privacy requests](../../start/using/privacy-requests.md).
+
+Information has been added in the Adobe Experience Platform Data Connector section on the data mapping validation error related to privacy management and how to troubleshoot it. [Read more](../../developing/using/aep-mapping-activation.md)
+
+The Personal Data and Personas section has been updated with a use case scenario to illustrate how the different personas are interacting when it comes to Privacy. [Read more](../../start/using/privacy.md#use-case-scenario)
+
+A new section listing Frequently Asked Questions on Privacy has been added. [Read more](../../start/using/privacy-faq.md)
 
 ## Release 20.4 - October 2020 {#release-20-4---october-2020}
 
@@ -34,7 +39,11 @@ The section on how to call a workflow with external parameters has been enriched
 
 A recommendation has been added to the workflows best practices on the number of activities to use per workflow. [Read more](../../automating/using/best-practices-workflows.md#number-activities)
 
-## Documentation updates - September 2020 {#doc-updates-september-2020}
+A new section about Delivery best practices has been added. [Read more](../../sending/using/delivery-best-practices.md)
+
+A section has been added to describe the new filters that enable to search the event configurations according to their status and to the last time an event was received. [Read more](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events)
+
+## September 2020 {#doc-updates-september-2020}
 
 The Event transactional messages section has been reorganized and clarified. [Read more](../../channels/using/event-transactional-messages.md)
 
@@ -46,7 +55,7 @@ The new Campaign Standard - Microsoft Dynamics 365 integration is now available.
 
 Information has been added on anonymous sources in the Active profiles report. [Read more](../../audiences/using/active-profiles.md)
 
-## Documentation updates - August 2020 {#doc-updates-august-2020}
+## August 2020 {#doc-updates-august-2020}
 
 A new updated section on getting started with transactional messaging is available. [Read more](../../channels/using/getting-started-with-transactional-msg.md)
 
@@ -54,7 +63,7 @@ The **Transactional messaging limitations** section has moved [here](../../chann
 
 The **Preparing the send** section has moved [here](../../sending/using/preparing-the-send.md)
 
-## Documentation updates - July 2020 {#doc-updates-july-2020}
+## July 2020 {#doc-updates-july-2020}
 
 A new section has been added with guidelines related to Campaign Standard monitoring. [Read more](../../administration/using/monitoring-guidelines.md)
 
@@ -68,7 +77,7 @@ The Privacy Management in Campaign Standard page has been updated, including cla
 
 New AI-powered emails capabilities: send time optimization and profile scoring. [Read more](../../sending/using/predictive.md)
 
-## Documentation updates - June 2020 {#doc-updates-june-2020}
+## June 2020 {#doc-updates-june-2020}
 
 Workflow use cases have been updated and reorganized into thematic sections. [Read more](../../automating/using/about-workflow-use-cases.md)
 
@@ -80,7 +89,7 @@ Custom Litmus account configuration has been removed from Inbox rendering capabi
 
 Campaign Standard - Microsoft Dynamics 365 integration is currently unavailable. A new connector is being developed and will be available in the future. The related help pages have been removed. [Read more](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
-## Documentation updates - May 2020 {#doc-updates-may-2020}
+## May 2020 {#doc-updates-may-2020}
 
 Campaign Standard overview page has been enriched and reorganized into thematic topics. [Read more](../../start/using/about-campaign-standard.md)
 
@@ -108,7 +117,7 @@ A use case has been added to allow you to convert legacy editor emails into the 
 
 A frequently asked question section has been added about the Email Designer. [Read more](../../designing/using/faq-email-designer.md)
 
-## Documentation updates - April 2020 {#doc-updates-april-2020}
+## April 2020 {#doc-updates-april-2020}
 
 The Microsoft Dynamics 365 integration with Adobe Campaign Standard documentation is now available into the core documentation. [Read more](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
@@ -160,7 +169,7 @@ The transactional messaging sections have been updated to reflect the multiple u
 
 Information related to the External API activity guardrails have been updated. [Read more](../../automating/using/external-api.md)
 
-## Documentation updates - March 2020 {#doc-updates-march-2020}
+## March 2020 {#doc-updates-march-2020}
 
 More detailed information on the Enhanced MTA has been added to core documentation, particularly regarding email processing rules and bounce mail qualification. [Read more](../../administration/using/configuring-email-channel.md#email-processing-rules)
 
@@ -170,7 +179,7 @@ The Configuring a mobile application documentation and related pages have been u
 
 The Adobe Campaign Standard / Adobe Experience Manager integration documentation has been updated and improved. [Read more](../../integrating/using/configure-experience-manager.md)
 
-The Campaign Email Designer documentation and related pages have been updated to reflect Adobe Creative SDK depreciation. [Read more](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+The Campaign Email Designer documentation and related pages have been updated to reflect [!DNL Adobe Creative SDK] depreciation. [Read more](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
 A new section dedicated to Campaign Standard data model best practices is now available. [Read more](../../developing/using/data-model-best-practices.md)
 
@@ -206,7 +215,7 @@ Notes have been added to indicate that the application server and mirror page se
 
 The Exporting logs section has been updated to reflect the availability of the Delivery log ID in the Delivery logs and Tracking logs resources, which enables to export a unique identifier for each log. [Read more](../../automating/using/exporting-logs.md)
 
-## Documentation updates - January 2020 {#doc-updates-january-2020}
+## January 2020 {#doc-updates-january-2020}
 
 The Deliverability documentation has been updated with a new section on IP Certification. [Read more](../../sending/using/ip-certification.md)
 
@@ -220,7 +229,7 @@ The Working with Campaign and Experience Manager documentation has been updated 
 
 The APIs documentation homepage has been improved with redirections to the different topics. [Read more](../../api/using/get-started-apis.md)
 
-## Documentation updates - December 2019 {#doc-updates-december-2019}
+## Nov. - Dec. 2019 {#doc-updates-december-2019}
 
 The Configuring S3 external account documentation has been updated. [Read more](../../administration/using/external-accounts.md#amazon-s3-external-account)
 
@@ -229,8 +238,6 @@ The Designing email content section has been reorganized. [Read more](../../desi
 The Deliverability getting started guide has been integrated into the core documentation and updated. [Read more](../../sending/using/about-deliverability.md)
 
 The getting started guide on how to export / import custom resources has been integrated into the core documentation. [Read more](../../automating/using/exporting-importing-custom-resources.md)
-
-## Documentation updates - November 2019 {#doc-updates-november-2019}
 
 A new use case has been added describing how to build a control group using a workflow in Campaign Standard.
 
@@ -242,9 +249,9 @@ The **Indicator calculation** table has been updated. [Read more](../../reportin
 
 The APIs documentation set has been integrated into Campaign Standard documentation.[Read more](../../api/using/get-started-apis.md)
 
-The Creating a personalized email getting started guide has been moved and updated. [Read more](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
+The Creating a personalized email getting started section has been moved and updated. [Read more](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
 
-The Delivery Best Practices getting started guide has been updated. [Read more](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+The Delivery Best Practices getting started guide has been updated. [Read more](../../sending/using/delivery-best-practices.md)
 
 The datamodel has been integrated into Campaign Standard documentation. [Read more](../../developing/using/datamodel-audience.md)
 
@@ -260,13 +267,13 @@ Microsoft Dynamics 365 integration (GA) - [Read more](../../integrating/using/wo
 
 **Other documentation updates coming with the release**
 
-The list of error messages for Campaign Standard and Campaign Classic has been updated. [Read more](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+The list of error messages for Adobe Campaign has been updated. [Read more](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
 The GDPR getting started guide has been improved and enriched. It is now a privacy management documentation including GDPR and CCPA. [Read more](https://helpx.adobe.com/content/help/en/campaign/kb/campaign-privacy.html)
 
 A new chart presenting the transactional messaging publication process has been added. [Read more](../../administration/using/configuring-transactional-messaging.md#transactional-messaging-pub-process)
 
-The Delivery Best Practices getting started guide has been moved and updated. [Read more](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+The Delivery Best Practices getting started guide has been moved and updated. [Read more](../../sending/using/delivery-best-practices.md)
 
 A new section has been added. It provides an overview of the different methods that allow you to enrich Campaign Standard database. [Read more](../../audiences/using/enriching-campaign-database.md)
 
@@ -274,7 +281,7 @@ A new section has been added describing how to style links with the Email Design
 
 Information related to privacy has been added to the APIs documentation [Click here](../../api/using/creating-a-privacy-request.md)
 
-## Documentation updates - October 2019 {#doc-updates-october-2019}
+## Sept. - Oct. 2019 {#doc-updates-october-2019}
 
 A new section related to Campaign Standard settings was added. [Read more](../../administration/using/about-campaign-standard-settings.md)
 
@@ -283,8 +290,6 @@ A new section describing how to send an automatic custom confirmation email to p
 The Transactional messaging section has been modified with the latest UI updates, including editing content with the Email Designer. [Read more](../../channels/using/event-transactional-messages.md)
 
 The landing pages chapter has been reorganized. It has also been enriched with a new section detailing the steps to set up a landing page. [Read more](../../channels/using/getting-started-with-landing-pages.md)
-
-## Documentation updates - September 2019 {#doc-updates-september-2019}
 
 A new section was added in the Push notifications section on how to create and update profile information based on mobile application subscription data. [Read more](../../channels/using/updating-profile-with-mobile-app-data.md)
 
@@ -296,7 +301,7 @@ A note about the **Launch_URL_Campaign** option was added in the page on how to 
 
 The Email Designer guide has been reorganized. [Read more](../../designing/using/designing-content-in-adobe-campaign.md)
 
-## Documentation updates - August 2019 {#doc-updates-august-2019}
+## August 2019 {#doc-updates-august-2019}
 
 A new section with use cases on workflows focusing on queries has been added. [Read more](../../automating/using/workflow-created-query-with-complement.md)
 
@@ -348,7 +353,7 @@ The list of error messages for Campaign Standard and Classic has been updated. [
 
 Added a warning in custom resource documentation. We recommend using 30 characters maximum for custom resource IDs. This also applies to custom resource fields, keys, indexes and links. [Read more](../../developing/using/creating-or-extending-the-resource.md)
 
-## Documentation updates - July 2019 {#doc-updates-2019}
+## June - July 2019 {#doc-updates-2019}
 
 Added a new page on Landing page limitations. [Read more](../../channels/using/getting-started-with-landing-pages.md#landing-page-limitations)
 
@@ -604,7 +609,7 @@ Added information on the Licenses option in the Administration menu. [Read more]
 
 Added information on how to use custom fields in a push notification. [Read more](../../channels/using/customizing-a-push-notification.md#add-custom-fields)
 
-Updated delivery best practices step-by-step guide. [Read more](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html)
+Updated delivery best practices step-by-step guide. [Read more](../../sending/using/delivery-best-practices.md)
 
 Added information on tracking log types. [Read more](../../sending/using/tracking-messages.md#tracking-logs)
 
@@ -935,4 +940,3 @@ URL change: Assets core service - [Read more](../../integrating/using/working-wi
 URL change: People core service - [Read more](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
 Profiles and audiences guide has been reorganized. [Read more](../../audiences/using/get-started-profiles-and-audiences.md)
-

@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Managing typology rules
 description: Discover how to use typology rules.
-page-status-flag: never-activated
-uuid: a98ebc36-172d-4f46-b6ee-b2636a1007c9
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
-discoiquuid: 2590d94c-51ef-4c0f-b1ec-c2837e94da40
 context-tags: typology,overview;typologyRule,main;typologyRule,overview
-internal: n
-snippet: y
 ---
 
 # Managing typology rules {#managing-typology-rules}

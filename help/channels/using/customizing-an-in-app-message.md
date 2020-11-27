@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Customizing an In-App message
 description: Learn how to customize your In-App messages with various options.
-page-status-flag: never-activated
-uuid: 1d9c08ed-4de5-440d-bf51-4a437eec67d5
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: in-app-messaging
-discoiquuid: c9c3e033-e319-447b-8d87-ff7dd4941876
 context-tags: delivery,inAppContent,back
-internal: n
-snippet: y
 ---
 
 # Customizing an In-App message{#customizing-an-in-app-message}
@@ -200,4 +195,3 @@ Before sending your In-App message, you can test with your test profiles to chec
    ![](assets/inapp_sending_3.png)
 
 1. You can now send your message and measure its impact with delivery reports. For more on reporting, refer to [this section](../../reporting/using/in-app-report.md).
-

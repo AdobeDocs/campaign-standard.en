@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Creating a report based on workflow segments
 description: Learn how to check the success of your delivery depending on your workflows' segments in your reports.
-page-status-flag: never-activated
-uuid: f75e005b-5328-4c98-9e78-51d54fd0e246
-contentOwner: beneat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
-discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
 
-internal: n
-snippet: y
 ---
 
 # Creating a report based on workflow segments{#creating-a-report-workflow-segment}

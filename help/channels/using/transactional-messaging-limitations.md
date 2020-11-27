@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Transactional messaging limitations
 description: Learn about the main limitations and recommendations regarding transactional messages in Adobe Campaign Standard.
-page-status-flag: never-activated
-uuid: b316bf47-7d98-46fa-ab4f-67ff50de8095
-contentOwner: lemaitre
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: landing-pages
-discoiquuid: ca8d1698-6e8a-4f5a-b017-74a152e14286
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
-internal: n
-snippet: y
 ---
 
 # Transactional messaging limitations {#transactional-messaging-limitations}

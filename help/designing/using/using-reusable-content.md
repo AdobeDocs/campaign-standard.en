@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Creating and using reusable content 
 description: Start building reusable email content with the Email Designer.
-page-status-flag: never-activated
-uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 
-internal: n
-snippet: y
 ---
 # Creating and using reusable content {#using-reusable-content}
 
@@ -143,7 +138,7 @@ To use it, create an email and select the content template that you just created
 >[!CONTEXTUALHELP]
 >id="ac_fragments"
 >title="About Fragments"
->abstract="A fragment is a reusable component that can be referenced in one or more emails."
+>abstract="A fragment is a reusable content block that can be referenced in one or more emails."
 
 A fragment is a reusable component that can be referenced in one or more emails.
 They can be found in the interface under **Resources** > **Content fragments and templates**. 

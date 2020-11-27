@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: AND-join
 description: The AND-join activity allows you to synchronize multiple execution branches of a workflow.
-page-status-flag: never-activated
-uuid: 9b54fd4c-9915-400f-a494-74e52c329b8a
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: execution-activities
-discoiquuid: 4b55efa2-652e-4493-bfa7-eaee59b383ca
 context-tags: andjoin,main
-internal: n
-snippet: y
 ---
 
 # AND-join{#and-join}

@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Managing packages
 description: Administrators can define packages to exchange resources between different Adobe Campaign instances through structured XML files.
-page-status-flag: never-activated
-uuid: d041f549-bfc5-4e6b-87bf-a63c7c224bca
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
-discoiquuid: c3015cdc-8432-4e57-8ac0-43ae7827e3b0
 context-tags: packageDef,overview;packageInstall,main
-internal: n
-snippet: y
 ---
 
 # Managing packages{#managing-packages}

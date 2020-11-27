@@ -1,22 +1,19 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Latest Release
 description: This page details content of the latest Campaign Standard release
-page-status-flag: never-activated
-uuid: 1cf2e40c-beca-43db-8261-a1820ee86ad3
-contentOwner: vignes
-products: SG_CAMPAIGN/STANDARD
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 
-internal: n
-snippet: y
 ---
 
 # Latest Release{#latest-release}
 
 [Release Planning](../../rn/using/release-planning.md) &#124; [Control Panel releases](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) &#124; [Documentation Updates](../../rn/using/documentation-updates.md) &#124; [Previous Release Notes](../../rn/using/release-notes-2020.md) &#124; [Deprecated Features](../../rn/using/deprecated-features.md)
+
+![](assets/do-not-localize/cp-icon.png) **New Control Panel October release** with domain configuration using CNAMEs and new database monitoring capabilities. [Learn more](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
 
 ## Release 20.4 - October 2020 {#release-20-4---october-2020}
 
@@ -32,7 +29,7 @@ snippet: y
 <tr> 
   <td> <p>You can now use <strong>Control groups</strong> to measure the impact of your campaigns by excluding a portion of their audience. You will then be able to compare the behavior of the target population which did receive the message with the behavior of contacts which were not targeted. Based on the sending logs, you can also target a control group in future campaigns.
 </p>
-<p>For more information refer to the <a href="../../sending/using/control-group.md">detailed documentation</a>.
+<p>For more information refer to the <a href="../../sending/using/control-group.md">detailed documentation</a> and <a href="https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html">how-to video</a>.
 </p>
 </td> 
 </tr> 
@@ -68,8 +65,8 @@ snippet: y
   <p>Journey AI uses advanced Machine Learning (ML) to enable companies to optimize the design and delivery of customer journeys by predicting each individual’s engagement preference.</p>
   <P>Journey AI consists of two ML features:</p>
 <ul> 
-     <li> <strong>Predictive Engagement Scoring</strong>  - Intelligently identifies customers' preferred level of engagement to better target and personalize messages to increase conversions and retention.</li> 
-     <li> <strong>Predictive Send Time Optimization</strong>  - Predicts the best time to send emails to each individual in a campaign to maximize engagement rates and improve email campaign ROI. </li>
+     <li> <strong>Predictive Engagement Scoring</strong>  - Intelligently identifies customers' preferred level of engagement to better target and personalize messages to increase conversions and retention. Watch the <a href="https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html">how-to video</a>.</li> 
+     <li> <strong>Predictive Send Time Optimization</strong>  - Predicts the best time to send emails to each individual in a campaign to maximize engagement rates and improve email campaign ROI. Watch the <a href="https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html">how-to video</a>.</li>
     </ul>
   <p>If you want to learn how to get started with Journey AI, please review the <a href="../../sending/using/predictive.md">detailed documentation</a> and reach out to your Account Executive. Note that while Journey AI is available for free to existing Campaign customers, there is an implementation cost of approximately 50 hours.</p>
     </td> 
@@ -80,14 +77,9 @@ snippet: y
 **Improvements**
 
 * **Privacy Management**: the **CCPA Opt-Out** field, which was available via the Campaign interface and API, is now also supported through the Privacy Core Service. This field allows Adobe Campaign users to track whether a consumer has opted-out for the sale of Personal Information. [Learn more](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa)
-* **Email Feedback service** (beta) is a scalable service which captures feedback from the Enhanced MTA directly, thus improving reporting accuracy. This improvement is a private beta and will be available for all customers in future releases.
-  * All categories of events are captured: Delays, Delivered, To Sent, Unsubscribe (Link, List), Feedback (Spam Complaints, Async events).
-  * Calculation of Sent/ Delivered indicators is now based on real-time feedback from the Enhanced MTA for improved accuracy and reactivity. 
-  * EFS solves the problem of sync bounces and takes 80% of load off from the Inmail process.
 * **Workflow execution improvements** (beta): in the context of a global initiative around workflows, some major improvements have been developed to stabilize memory management, reduce latency and optimize the memory consumed by workflows during execution. These improvements are currently in beta, and only available to a set of customers. General availability is planned for early 2021.
 * To improve security, Campaign now uses a **signature mechanism** for tracking links in emails.
 * Mobile app configuration has been improved with **clearer error messages** when uploading iOS certificates or Android keys.
-* A **new delivery mapping** (mapRtEventAppSubRcp) is now available for transactional push messages targeting profiles. The delivery, exclusion and tracking logs for these deliveries will now be available in the broadLogAppSubRcp, excludeLogAppSubRcp and trackingLogAppSubRcp tables. This solves an issue which caused delivery analysis to fail when sending a transactional push message using the **Profile** target dimension.
 * **SMS error management** has been improved to prevent too many profiles from being added to the quarantine list. By default, SMS errors are now configured as soft errors instead of hard errors. Refer to [this page](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html).
 
 **Email Designer enhancements**
@@ -114,11 +106,10 @@ snippet: y
 * When publishing a custom resource, a confirmation pop-up is now displayed after preparation.
 * The pop-up message which appears when a custom resource fails has been improved for better clarity.
 * The expression editor in workflows has been improved to prevent execution errors. [New functions](../../automating/using/customizing-workflow-external-parameters.md) are available: they can be used in all the activities that allow you to use event variables after calling a workflow with external parameters. Additionally, a tooltip now displays in the expression editor with the function description. 
-* New filters have been added to the list of transactional events. They allow you to filter the event configurations according to their status, as well as the last time an event was received.
+* [New filters](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events) have been added to the list of transactional events. They allow you to filter the event configurations according to their status, as well as the last time an event was received.
 * The logs displaying when exporting packages have been made more specific and detailed about the encountered errors in case of failure.
 * After sending a message, you can now search, filter and export the list of [tracked URLs](../../sending/using/tracking-messages.md).
 * Automatic [synchronization between Launch and Campaign](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow) is now GA and enabled by default.
-* Transactional messages can be sent with a high priority even in case of significant bulk delivery workload.
 * The size of workflow export packages has been optimized by removing the sending proof export.
 * A new message has been added to display the size of the downloaded file in the **File transfer** activity.
 * Error messages for invalid session tokens have been improved.
@@ -132,6 +123,7 @@ snippet: y
 **Patches**
 
 * Fixed an issue which prevented you from using a destination link for Push notifications or In-App messaging when tracking was enabled.
+* Fixed an issue where high priority in transactional messages was not respected in case of significant bulk delivery.
 * Fixed an issue which could prevent you from assigning brands to a transactional email. Several error messages could display during the publication step. (CAMP-44988)
 * Fixed an issue in the workflow user interface which could prevent information from being saved in fields requesting numeric values. (CAMP-44025)
 * Fixed an issue which could display an error message when using a **Test** activity in an import template workflow. (CAMP-42910)
@@ -185,3 +177,5 @@ snippet: y
 * Fixed an error on labels when duplicating workflow activities.
 * Fixed an issue with the transactional message picker in a landing page when the **Start sending message** option was selected.
 * Fixed an issue with transactional messages or recurring deliveries which prevented the delivery status from being initialized with the right default value. Error logs have also been improved.
+* Fixed an issue when extending the **Subscription to an application** (appSubscriptionRcp) schema with a profile link using a custom field. The index was not automatically created which could affect push sending time. (CAMP-41120)
+

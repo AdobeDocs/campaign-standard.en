@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Start and end
 description: The Start and End activities allow you to clearly mark where your workflow starts and ends.
-page-status-flag: never-activated
-uuid: 146b6337-122c-453d-8ffd-5c157db29217
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: execution-activities
-discoiquuid: a0a8a725-8ede-4626-9798-b86924b58beb
 
-internal: n
-snippet: y
 ---
 
 # Start and end{#start-and-end}

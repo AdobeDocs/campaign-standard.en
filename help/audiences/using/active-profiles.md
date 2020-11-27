@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Active profiles
 description: You can access a dedicated report on customer metrics and visualize active profiles in your Campaign database.
-page-status-flag: never-activated
-uuid: ee8ac493-c297-49ca-aed4-3976d8a685a4
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
-discoiquuid: e029213f-0b65-41b1-8adf-34fa813b0c70
 
-internal: n
-snippet: y
 ---
 
 # Active profiles{#active-profiles}

@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Selecting an audience in a message
 description: "Step-be-step procedure to choose audiences of an email: main target population and test profiles."
-page-status-flag: never-activated
-uuid: 7d8f8446-f2e0-49c1-83f6-9667b29bc228
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
 topic-tags: managing-audiences
-discoiquuid: 158da6ff-8899-4e7b-b925-8a42c3de46a1
 context-tags: deliveryCreation,wizard;delivery,audience,back
-internal: n
-snippet: y
 ---
 
 # Selecting an audience in a message{#selecting-an-audience-in-a-message}

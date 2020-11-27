@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Managing encrypted data
 description: Learn how to manage encrypted data.
-page-status-flag: never-activated
-uuid: d909d26a-cf50-46af-ae09-f0fd7258ca27
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
-discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 
-internal: n
-snippet: y
 ---
 
 # Managing encrypted data {#managing-encrypted-data}
@@ -44,7 +39,7 @@ Once the request is processed, the encryption / decryption commands will be avai
 
 In this use case, we will build a workflow in order to import data that has been encrypted in an external system, using a key generated in the Control Panel.
 
-A tutorial video showing how to use a GPG key to decrypt data is also available in [this section](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/decrypting-data.html).
+A tutorial video showing how to use a GPG key to decrypt data is also available in [this section](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/decrypting-data.html?lang=en#instance-settings).
 
 The steps to perform this use case are as follows:
 
@@ -56,8 +51,6 @@ The steps to perform this use case are as follows:
     ![](assets/gpg_generate.png)
 
 1. In the external system, use the public key downloaded from the Control Panel to encrypt the data to import into Campaign Standard.
-
-    ![](assets/do-not-localize/gpg_external.png)
 
 1. In Campaign Standard, build a workflow to import the encrypted data and decrypt it using the private key that has been installed via the Control Panel. To do this, we will build a workflow as follows:
 
@@ -90,7 +83,7 @@ The steps to perform this use case are as follows:
 
 In this use case, we will build a workflow in order to encrypt and export data using a key installed on Control Panel.
 
-A tutorial video showing how to use a GPG key to encrypt data is also available in [this section](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/using-a-gpg-key-to-encrypt-data.html).
+A tutorial video showing how to use a GPG key to encrypt data is also available in [this section](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/using-a-gpg-key-to-encrypt-data.html?lang=en#instance-settings)).
 
 The steps to perform this use case are as follows:
 
@@ -98,7 +91,7 @@ The steps to perform this use case are as follows:
 
     ![](assets/gpg_install.png)
 
-1. In Campaign Standard, build a workflow to export the data and export it using the private key that has been installed via the Control Panel. To do this, we will build a workflow as follows:
+1. In Campaign Standard, build a workflow to export the data and encrypt it using the private key that has been installed via the Control Panel. To do this, we will build a workflow as follows:
 
     ![](assets/gpg-workflow-export.png)
 
@@ -123,5 +116,3 @@ The steps to perform this use case are as follows:
     ![](assets/gpg-transfer-encrypt.png)
 
 1. You can now run the workflow. Once it is executed, data target by the query will be exported to the SFTP server into an encrypted .gpg file.
-
-    ![](assets/do-not-localize/gpg-sftp-encrypt.png)

@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Managing groups and users
 description: Learn how to create security groups and manage users.
-page-status-flag: never-activated
-uuid: b3a3a2e3-9d69-4231-b724-8f37419f7a61
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-discoiquuid: 12f896ab-ee79-4d96-976d-cf34643491b4
 context-tags: user,overview;user,main;security,overview;security,main
-internal: n
-snippet: y
 ---
 
 # Managing groups and users{#managing-groups-and-users}

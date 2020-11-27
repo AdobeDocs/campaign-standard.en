@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Confirming the send
 description: Learn how to finalize the message preparation.
-page-status-flag: never-activated
-uuid: 1eaecb32-ffd2-45d0-a8b4-f97bee59a1bd
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
-discoiquuid: 8bb160b1-7de9-4c1f-bb89-b2e5fdafed41
 context-tags: delivery,deployment,back
-internal: n
-snippet: y
 ---
 
 # Confirming the send{#confirming-the-send}

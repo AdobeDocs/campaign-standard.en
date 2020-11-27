@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Sharing audiences with Audience Manager or People core service
 description: Learn how to import or export your audience within the different Adobe Experience Cloud solutions.
-page-status-flag: never-activated
-uuid: a3701e72-5846-4241-afee-d713b499a27a
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
-discoiquuid: 77af0772-52b5-46bc-a964-675b45965524
 
-internal: n
-snippet: y
 ---
 
 # Sharing audiences with Audience Manager or People core service{#sharing-audiences-with-audience-manager-or-people-core-service}

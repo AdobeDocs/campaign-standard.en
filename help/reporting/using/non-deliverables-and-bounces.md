@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Non-deliverables and bounces
 description: With the Non-deliverables and bounces out-of-the-box report, learn about the errors that may occurred to your delivery. 
-page-status-flag: never-activated
-uuid: b70ae9ec-b659-42bf-b663-73615307005b
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
-discoiquuid: 3567f9f9-ef57-441c-8844-198bbf962c9d
 context-tags: deliveryNonDeliverablesBouncesReport,main;campaignNonDeliverablesBouncesReport,main;programNonDeliverablesBouncesReport,main
-internal: n
-snippet: y
 ---
 
 # Non-deliverables and bounces{#non-deliverables-and-bounces}

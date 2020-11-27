@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Organizational units
 description: Define your users' access levels using organizational units.
-page-status-flag: never-activated
-uuid: 8c82ffea-cef4-4a89-b823-d8b7bae1db4f
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-discoiquuid: 6f60c653-1d12-4d27-9bc8-ce8c19bca466
 context-tags: orgUnit,overview;orgUnit,main;geoUnit,overview;geoUnit,main
-internal: n
-snippet: y
 ---
 
 # Organizational units{#organizational-units}

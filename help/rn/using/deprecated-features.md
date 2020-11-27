@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Campaign Standard Deprecated and Removed Features
 description: This page lists deprecated and removed features of Adobe Campaign Standard.
-page-status-flag: never-activated
-uuid: 
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
-discoiquuid: 
 
-internal: n
-snippet: y
 ---
 
 # Deprecated and Removed Features {#deprecated-and-removed-features}
@@ -62,7 +57,7 @@ Customers are advised to review if they make use of the feature/capability in th
  <tbody> 
   <tr> 
    <td> <p>Starting Campaign 19.4 release, the use of the Campaign API and interface for access and delete requests is deprecated. The 2-step profile deletion will not be available. Use  <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe Privacy Core Service</a>.</p></br>
-   <p>See also <a href="https://helpx.adobe.com/campaign/kb/acs-privacy.html">Privacy Management in Campaign Standard</a>.</p>
+   <p>See also <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=en">Managing Privacy requests</a>.</p>
   <p> 
   <em>Target removal date: 2021</em></p>
    </td> 
@@ -128,7 +123,7 @@ This section lists features and capabilities that have been removed from Campaig
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Creative SDK has been decommissioned. As a consequence, image edition powered by Creative SDK in Campaign Standard emails is no longer available starting Campaign 20.2 release.</p></br>
+   <td> <p>[!DNL Adobe Creative SDK] has been decommissioned. As a consequence, image edition powered by [!DNL Creative SDK] in Campaign Standard emails is no longer available starting Campaign 20.2 release.</p></br>
    </td> 
   </tr> 
  </tbody> 

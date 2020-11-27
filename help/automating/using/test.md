@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Test
 description: The Test activity enables a transition based on a test result.
-page-status-flag: never-activated
-uuid: 1562ec7a-253a-4f4f-b66a-c2948b57775a
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: execution-activities
-discoiquuid: 2650bf1f-0bce-4049-a226-2369f6666b95
 context-tags: jstest,main
-internal: n
-snippet: y
 ---
 
 # Test{#test}
@@ -45,7 +40,7 @@ Conditions can be based on **functions**, or on **variables**, for example event
 
    When editing the **[!UICONTROL Condition]** field, two buttons provide help to call events variables and edit expressions combining variables and functions:
 
-    * ![](assets/extsignal_picker.png): select the events variable among all variables that are available in the workflow (see [](../../automating/using/customizing-workflow-external-parameters.md))
+    * ![](assets/extsignal_picker.png): select the events variable among all variables that are available in the workflow (see [this page](../../automating/using/customizing-workflow-external-parameters.md))
     
       ![](assets/wkf_test_activity_variables.png)
 

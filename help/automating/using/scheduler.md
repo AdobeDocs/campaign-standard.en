@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Scheduler
 description: The Scheduler activity allows you to schedule when a workflow or an activity is started.
-page-status-flag: never-activated
-uuid: f5e50a11-8dc9-4d98-9531-024c0fb3f7da
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: execution-activities
-discoiquuid: 0fb16cea-3941-404f-899c-33f81ced4ed5
 context-tags: schedule,main
-internal: n
-snippet: y
 ---
 
 # Scheduler{#scheduler}

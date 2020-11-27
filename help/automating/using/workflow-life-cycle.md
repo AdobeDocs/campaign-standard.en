@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Workflow life cycle
 description: Learn more about workflow life cycle
-page-status-flag: never-activated
-uuid: ff02b74e-53e8-49c6-bf8e-0c729eaa7d25
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
-discoiquuid: 906c85ea-83b7-4268-86da-cd353f1dc591
 context-tags: workflow,overview;workflow,main
-internal: n
-snippet: y
 ---
 
 # Workflow life cycle {#life-cycle}

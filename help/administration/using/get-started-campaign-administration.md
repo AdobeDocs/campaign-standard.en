@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Get started with Campaign Standard administration
-description: Adobe Campaign provides you with a complete set of administration tools. Learn how to manage your users and configure your channels.
-page-status-flag: never-activated
-uuid: 64c34729-5c98-4db0-9131-af6dd0e78fb4
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
+description: Discover users and permissions management, monitoring guidelines, channel-specific configurations and application settings guidelines.
 audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
-discoiquuid: 5587530a-2308-4be1-9f56-19eeb7a924d5
 
-internal: n
-snippet: y
 ---
 
 # Get started with Campaign Standard administration {#about-administrating-adobe-campaign}
@@ -38,7 +33,7 @@ The different Adobe Campaign admin operations are carried out via the **[!UICONT
 The different menus available are:
 
 * [Users & Security](../../administration/using/about-access-management.md): This menu allows you to manage access to the platform (users, roles, security groups, units). 
-* [Channels](../../administration/using/about-channel-configuration.md): This menu regroups the technical parameters linked to the different platform channels (Email, SMS) as well as typology and quarantine management. 
+* [Channels](../../administration/using/about-channel-configuration.md): This menu regroups the technical parameters linked to the different platform channels (Email, mobile) as well as typology and quarantine management. 
 * [Application settings](../../administration/using/external-accounts.md): This menu allows you to configure different application elements (external accounts, options, technical workflows).
 * [Development](../../developing/using/data-model-concepts.md): This menu allows you to manage your custom resources and access diagnostic tools.
 * [Instance settings](../../administration/using/branding.md): This menu is where you define your different brands and configure their settings (logo, manage tracking, URL domain to access the landing pages, etc.).

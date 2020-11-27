@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Fork
 description: The Fork activity allows you to create outbound transitions to start several activities at the same time.
-page-status-flag: never-activated
-uuid: e4eaf69b-84ee-4f79-8b80-99284697cd2c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: execution-activities
-discoiquuid: f8ffe7af-e18c-4599-8fd0-fcd192565323
 context-tags: fork,main
-internal: n
-snippet: y
 ---
 
 # Fork{#fork}

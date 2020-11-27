@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Designing a landing page
 description: Learn how to design the content of a landing page.
-page-status-flag: never-activated
-uuid: de6fe190-835c-40fd-8101-a809b430b423
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: landing-pages
-discoiquuid: bd77d6f0-3143-4030-a91b-988a2bebc534
 context-tags: landingPage,main
-internal: n
-snippet: y
 ---
 
 # Designing a landing page{#designing-a-landing-page}

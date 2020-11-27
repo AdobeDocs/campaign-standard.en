@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Read audience
 description: The Read audience activity allows you to retrieve an existing audience and to refine it by applying additional filtering conditions.
-page-status-flag: never-activated
-uuid: 58c54e71-f4a7-4ae9-80a3-33c379ab1db9
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 674684e5-8830-4d2f-ba97-59ed4ba7422f
 context-tags: readAudience,main
-internal: n
-snippet: y
 ---
 
 # Read audience{#read-audience}
@@ -39,7 +34,7 @@ The **[!UICONTROL Read audience]** activity is a simpler version of the **[!UICO
 
    You can retrieve audiences of the following types: **[!UICONTROL List]**, **[!UICONTROL Query]**, **[!UICONTROL File]** and **[!UICONTROL Experience Cloud]**. For more information on audience types, refer to the [Audiences](../../audiences/using/about-audiences.md) documentation.
 
-   The **[!UICONTROL Use a dynamic audience]** option lets you define the name of the audience to target based on the workflow's events variables. For more on this, refer to this section: [](../../automating/using/customizing-workflow-external-parameters.md) section.
+   The **[!UICONTROL Use a dynamic audience]** option lets you define the name of the audience to target based on the workflow's events variables. For more on this, refer to [this page](../../automating/using/customizing-workflow-external-parameters.md) section.
 
    ![](assets/readaudience_activity1.png)
 

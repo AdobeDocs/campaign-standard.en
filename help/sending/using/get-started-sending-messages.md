@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Get started with testing and sending
-description: Discover the different steps to test and send a message.
-page-status-flag: never-activated
-uuid: 58666444-6e7c-4049-b2d2-8b26eabf5a82
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
+description: Prepare, test, schedule, send and monitor your messages.
 audience: sending
 content-type: reference
 topic-tags: about-sending-messages-with-campaign
-discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 
-internal: n
-snippet: y
 ---
 
 # Get started with testing and sending {#about-sending-messages-with-campaign}
@@ -91,5 +86,5 @@ Read more:
 * [Send a test, prepare, and send an email (video)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/sending-test-preparing-sending-email.html)
 * [Review an email delivery and reports (video)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/reviewing-personalized-email-delivery-and-reports.html)
 * [Getting started with emails](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
-* [Delivery best practices](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+* [Delivery best practices](../../sending/using/delivery-best-practices.md)
 * [Adding a control group](../../sending/using/control-group.md)

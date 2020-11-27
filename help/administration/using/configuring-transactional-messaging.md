@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Configuring transactional messaging
 description: Learn how to configure transactional messaging.
-page-status-flag: never-activated
-uuid: 4caeadbe-f4a7-43ce-986d-e99fa9ca0d0d
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 
-internal: n
-snippet: y
 ---
 
 # Configuring transactional messaging{#configuring-transactional-messaging}
@@ -195,12 +190,6 @@ Once Adobe Campaign starts receiving events related to this event configuration,
 
 The events (in JSON format) are listed from the most recent to the oldest. This list allows you to check data such as the content or the status of an event, for control and debugging purpose.
 
-### Transactional messaging publication process {#transactional-messaging-pub-process}
-
-The chart below illustrates the transactional messaging publication process.
-
-![](assets/message-center_pub-process.png)
-
 ### Unpublishing an event {#unpublishing-an-event}
 
 The **[!UICONTROL Unpublish]** button lets you cancel the publication of the event, which deletes from the REST API the resource corresponding to the event that you previously created. Now, even if the event is triggered through your website, the corresponding messages are not sent anymore and they are not stored in the database.
@@ -212,6 +201,14 @@ The **[!UICONTROL Unpublish]** button lets you cancel the publication of the eve
 >If you have already published the corresponding transactional message, the transactional message publication is also canceled. See [Unpublishing a transactional message](../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message).
 
 Click the **[!UICONTROL Publish]** button to generate a new REST API.
+
+### Transactional messaging publication process {#transactional-messaging-pub-process}
+
+The chart below illustrates the transactional messaging publication process.
+
+![](assets/message-center_pub-process.png)
+
+For more on publishing, pausing and unpublishing a transactional message, see [this section](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message).
 
 ### Deleting an event {#deleting-an-event}
 
@@ -234,13 +231,31 @@ Once an event has been unpublished, or if an event has  not been published yet, 
 >
 >Deleting an event configuration that has been published and already used will also delete the corresponding transactional message(s) and its sending and tracking logs.
 
+## Searching transactional events {#searching-transactional-events}
+
+To access and search the transactional events already created, follow the steps below.
+
+1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
+1. Click the **[!UICONTROL Show search]** button.
+
+   ![](assets/message-center_search-events.png)
+
+1. You can filter on the **[!UICONTROL Publication status]**. This allows you to display only the published events for example.
+1. You can also filter the events using the **[!UICONTROL Last event received]**. For example, if you enter 10, only the event configurations with the last event received 10 days ago or more will be displayed. This enables you to display which events have been inactive for a given period.
+
+   ![](assets/message-center_last-event-received.png)
+
+   >[!NOTE]
+   >
+   >The default value is 0. All events are then displayed.
+
 ## Integrating the triggering of the event in a website {#integrating-the-triggering-of-the-event-in-a-website}
 
 Once you have created an event, you will have to integrate the triggering of this event into your website.
 
 In the example described in the [Transactional messaging operating principle](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) section, you want a "Cart abandonment" event to be triggered whenever one of your clients leaves your website before purchasing the products in their cart. To do this, your website web developer must use the Adobe Campaign Standard REST API.
 
-See the [REST API Documentation](../../api/using/managing-transactional-messages.md) .
+See the [REST API Documentation](../../api/using/managing-transactional-messages.md).
 
 ## Transactional event specific configurations {#transactional-event-specific-configurations}
 

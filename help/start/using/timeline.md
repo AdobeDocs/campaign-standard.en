@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Timeline
 description: Learn how to visualize programs that are in progress and their content using the Adobe Campaign Standard interface.
-page-status-flag: never-activated
-uuid: ffa0a63a-2e77-45c0-8e60-212f7aaeb447
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
 topic-tags: marketing-plans
-discoiquuid: 53e3db10-5fed-4fc3-b41e-5226f1e05246
 context-tags: campaignCalendar,main
-internal: n
-snippet: y
 ---
 
 # Timeline{#timeline}
@@ -28,7 +23,10 @@ Each program is represented by a box containing the corresponding thumbnail and 
 
 The blue vertical line is a chronological marker to highlight the current date. By default it is found in the middle of the screen. You can scroll right or left within the screen to modify the period displayed.
 
-The ![](assets/timeline_zoom_in.png) and ![](assets/timeline_zoom_out.png) buttons allow you to increase or reduce the perimeter. The ![](assets/timeline_zoom_in.png) button also increases the level of detail for a more limited period, until days are displayed, and the ![](assets/timeline_zoom_out.png) button allows you to display a larger period.
+Use the icons to;
+
+* ![](assets/timeline_zoom_in.png) reduce the perimeter, or increase the level of detail for a more limited period, until days are displayed
+* ![](assets/timeline_zoom_out.png) increase the perimeter, or display a larger timeframe
 
 Click the arrow on the right of each program name to display the corresponding content. A program can contain sub-programs, campaigns, and landing pages. A campaign is deployed in the same way as a program and can contain emails, SMS and landing pages.
 
@@ -42,12 +40,12 @@ When the content of a program or a campaign is being displayed, the correspondin
 
 Each element has an icon that corresponds to its type:
 
-* ![](assets/timeline_program_icon.png) : Program
-* ![](assets/timeline_campaign_icon.png) : Campaign
-* ![](assets/timeline_lp_icon.png) : Landing page
-* ![](assets/timeline_email_icon.png) : Email
-* ![](assets/timeline_sms_icon.png) : SMS
-* ![](assets/timeline_push_icon.png) : Push notification
+* ![](assets/timeline_program_icon.png) Program
+* ![](assets/timeline_campaign_icon.png) Campaign
+* ![](assets/timeline_lp_icon.png) Landing page
+* ![](assets/timeline_email_icon.png) Email
+* ![](assets/timeline_sms_icon.png) SMS
+* ![](assets/timeline_push_icon.png) Push notification
 
 The colored line on the left border of each box indicates the status of the element concerned.
 

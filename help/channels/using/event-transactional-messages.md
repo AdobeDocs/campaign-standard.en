@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Event transactional messages
 description: Learn how to create and publish an event transactional message.
-page-status-flag: never-activated
-uuid: d747feb5-58fb-4e12-a176-404f0eca5391
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
-discoiquuid: 4f6317a1-9dfe-4714-bc1c-393629d855cd
 context-tags: deliveryTransactionalTemplate,overview
-internal: n
-snippet: y
 ---
 
 # Event transactional messages{#event-transactional-messages}
@@ -45,7 +40,9 @@ To access the transactional message that you created:
 
 ## Personalizing a transactional message {#personalizing-a-transactional-message}
 
-To set up personalization in a transactional message, follow the steps below:
+In this example, you will learn how personalize a transactional message by adding three fields that you defined when you [created your event](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message): first name, last product consulted, total cart amount. 
+
+To do this, you will [insert a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field) in the message content. 
 
 1. Click the **[!UICONTROL Content]** block to modify your message's subject and content. For this example, select any template containing images and text. For more on email content templates, see [Designing using templates](../../designing/using/using-reusable-content.md#designing-templates).
 
@@ -56,10 +53,8 @@ To set up personalization in a transactional message, follow the steps below:
     >[!NOTE]
     >
     >The link to the abandoned cart is a link to an external URL that will redirect the person to their cart. This parameter is not managed in Adobe Campaign.
-
-1. In this example, you want to add three fields that you defined when you [created your event](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message): first name, last product consulted, total cart amount. To do this, [insert a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field) in the message content.
-    
-1. Browse to those fields through **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
+   
+1. Browse through **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** to get the personalization fields: first name, last product consulted, total cart amount.
 
    ![](assets/message-center_7.png)
 
@@ -83,19 +78,17 @@ To set up personalization in a transactional message, follow the steps below:
 
 You can create product listings referencing one or more data collections in the content of a transactional email. For example, in a cart abandonment email you can include a list of all products that were in the users' carts when they left your website, with an image, the price, and a link to each product.
 
+Learn more in [this video](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html).
+
 >[!IMPORTANT]
 >
 >Product listings are only available when editing transactional email messages through the [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) interface.
-
-To add a list of abandoned products in a transactional message, follow the steps below.
-
-You can also watch a set of videos explaining the steps that are required to configure product listings in a transactional email. For more on this, see [this page](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html).
-
->[!NOTE]
 >
 >Adobe Campaign does not support nested product listings, meaning that you cannot include a product listing inside another one.
 
-### Defining a product listing {#defining-a-product-listing}
+In the example below, you will learn steps to add a list of abandoned products in a transactional message.
+
+### Step 1: Define a product listing {#defining-a-product-listing}
 
 Before being able to use a product listing in a transactional message, you need to define at the event level the list of products and the fields for each product of the list you want to display. For more on this, see [Defining data collections](../../administration/using/configuring-transactional-messaging.md#defining-data-collections).
 
@@ -137,7 +130,7 @@ Before being able to use a product listing in a transactional message, you need 
    >
    >If you want the elements of your list to be displayed vertically ( **[!UICONTROL Column]** ), the maximum number of items is limited according to the selected structure component (2, 3 or 4 columns). For more on selecting structure components, see [Editing the email structure](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
-### Populating the product listing {#populating-the-product-listing}
+### Step 2: Populate the product listing {#populating-the-product-listing}
 
 To display a list of products coming from the event linked to the transactional email, follow the steps below.
 

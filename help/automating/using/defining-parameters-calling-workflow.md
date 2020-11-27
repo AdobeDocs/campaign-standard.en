@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Calling a workflow with external parameters
 description: This section details thow to call a workflow with external parameters.
-page-status-flag: never-activated
-uuid: beccd1b6-8e6d-4504-9152-9ff537459c4a
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
-discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 
-internal: n
-snippet: y
 ---
 
 # Defining the parameters when calling the workflow {#defining-the-parameters-when-calling-the-workflow}
@@ -20,7 +15,7 @@ This section details how to define parameters when calling a workflow. For more 
 
 Before defining the parameters, make sure that:
 
-* The parameters have been declared in the **[!UICONTROL External Signal]** activity. See [](../../automating/using/declaring-parameters-external-signal.md).
+* The parameters have been declared in the **[!UICONTROL External Signal]** activity. See [this page](../../automating/using/declaring-parameters-external-signal.md).
 * The workflow containing the signal activity is running.
 
 To configure the **[!UICONTROL End]** activity, follow the steps below:
@@ -29,7 +24,7 @@ To configure the **[!UICONTROL End]** activity, follow the steps below:
 1. Select the workflow and the external signal activity that you want to call.
 1. Click the **[!UICONTROL Create element]** button to add a parameter, then fill in its name and value.
 
-    * **[!UICONTROL Name]**: the name that has been declared in the **[!UICONTROL External signal]** activity (see [](../../automating/using/declaring-parameters-external-signal.md)).
+    * **[!UICONTROL Name]**: the name that has been declared in the **[!UICONTROL External signal]** activity (see [this page](../../automating/using/declaring-parameters-external-signal.md)).
     * **[!UICONTROL Value]**: the value that you want to assign to the parameter. The value should follow the **Standard syntax**, described in [this section](../../automating/using/advanced-expression-editing.md#standard-syntax).
 
    ![](assets/extsignal_definingparameters_2.png)

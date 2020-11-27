@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Monitoring data model changes
 description: Learn how to diagnose the Adobe Campaign data model.
-page-status-flag: never-activated
-uuid: 994f1e85-107d-4348-a197-87a95853fca6
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: about-custom-resources
-discoiquuid: c6375a92-339f-4123-bc69-b0da1deaf577
 
-internal: n
-snippet: y
 ---
 
 # Monitoring data model changes{#monitoring-data-model-changes}

@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Adobe Experience Platform SDK and Adobe Campaign integration FAQ
 description: Adobe Experience Platform SDK and Adobe Campaign integration FAQ
-page-status-flag: never-activated
-uuid: 867b1c4b-4c79-4c52-9d0a-ef71993e50a2
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 
-internal: n
-snippet: y
 ---
 
 # Experience Platform SDK integration FAQ {#aep-faq}
@@ -37,7 +32,7 @@ Check out the resources below for more information on the Adobe Experience Platf
 
 Yes, [!DNL Adobe Experience Platform SDK] integration is available for both Adobe Campaign Standard and Adobe Campaign Classic. You need to install the corresponding **[!UICONTROL Extension]** via [!DNL Adobe Launch] to enable the integration.
 
-For more on this, refer to this [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaignclassic) for Campaign Classic and this [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) for Campaign Standard.
+For more on this, refer to this [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
 
 ## What capabilities does Adobe Experience Platform SDK integration facilitate in Adobe Campaign? {#aep-capabilities}
 
@@ -101,3 +96,11 @@ Check out the resources below:
 * Getting Started with Launch & Experience Platform SDK [documentation](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)
 * Upgrading to Experience Platform SDK [documentation](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep)
 * Github Experience Platform SDK [documentation](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)
+
+## I am getting error "You do not have write access on delivery" while creating a push notification delivery. {#write-access-error}
+
+You should check the following:
+
+* The mobile app should be mapped to the organization unit of the user that needs to create and send push deliveries. User of a child organizational unit can not create a push delivery using an app mapped to the parent organizational unit.
+
+* Campaign or program within which the push delivery is created should be mapped to the organizational unit of the user that needs to create and send push deliveries. User of the child organizational unit can not create a push delivery in a campaign or program mapped to the parent organization unit.

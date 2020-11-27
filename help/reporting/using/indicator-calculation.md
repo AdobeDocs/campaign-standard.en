@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Indicator calculation
 description: Understand the results of your reports with a list of every metric's formula.
-page-status-flag: never-activated
-uuid: dfbc9d7e-62db-4e77-bb8e-0ac826ec7333
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-discoiquuid: 45b11631-6b32-4074-8c8d-affd06407810
 
-internal: n
-snippet: y
 ---
 
 # Indicator calculation{#indicator-calculation}

@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Message dashboard
 description: Discover what the message dashboard is made up of, including the action bar and the various functional blocks.
-page-status-flag: never-activated
-uuid: 9bb44ee8-2cf6-43ce-94a4-367f4e469713
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
-discoiquuid: 90a78742-697f-46da-8c54-108048e57b67
 context-tags: delivery,main
-internal: n
-snippet: y
 ---
 
 # Message dashboard{#message-dashboard}
@@ -45,21 +40,11 @@ Depending on the parameters that have been set up and the progress made, certain
 
   For more on proofs, see [Sending proofs](../../sending/using/sending-proofs.md).
 
-* **[!UICONTROL Send a test]**: lets you select the approval mode to use: **[!UICONTROL Email rendering]**, **[!UICONTROL Proof]** or both for an email. For more on test profiles, see [Sending proofs](../../sending/using/sending-proofs.md).
+* **[!UICONTROL Send a test]**: lets you select the approval mode to use: **[!UICONTROL Email rendering]** (email only), **[!UICONTROL Proof]** or both. For more on test profiles, see [Sending proofs](../../sending/using/sending-proofs.md). This button is only enabled once you have created test profiles.
 
-  This button is only enabled once you have established test profiles.
+* **[!UICONTROL Prepare send]**: starts to prepare the send. The **[!UICONTROL Deployment]** block appears and displays the result of the preparation. This button only appears once the target has been entered. You can stop preparation at any time using the corresponding button. For more on message preparation, refer to [Preparing the send](../../sending/using/preparing-the-send.md).
 
-  >[!NOTE]
-  >
-  >For an SMS message, there is no other choice: it is automatically a **[!UICONTROL Proof]**.
-
-* **[!UICONTROL Prepare send]**: starts to prepare the send. The **[!UICONTROL Deployment]** block appears and displays the result of the preparation. This button only appears once the target has been entered. You can stop preparation at any time using the corresponding button.
-
-  For more on message preparation, [Preparing the send](../../sending/using/preparing-the-send.md).
-
-* **[!UICONTROL Confirm send]**: confirms sending the message. The sending statistics appear in the **[!UICONTROL Deployment]** block. This button only appears after the send has been prepared. You can stop or pause the send at any time using the **Stop send** and **[!UICONTROL Pause]** buttons.
-
-  For more on confirming sending, see [Sending messages](../../sending/using/confirming-the-send.md).
+* **[!UICONTROL Confirm send]**: confirms sending the message. The sending statistics appear in the **[!UICONTROL Deployment]** block. This button only appears after the send has been prepared. You can stop or pause the send at any time using the **Stop send** and **[!UICONTROL Pause]** buttons. For more on confirming sending, refer to [Sending messages](../../sending/using/confirming-the-send.md).
 
 ## Blocks {#blocks}
 

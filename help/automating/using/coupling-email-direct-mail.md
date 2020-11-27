@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Coupling email and direct mail deliveries
 description: This use case presents an example of email and direct mail sending from a workflow.
-page-status-flag: never-activated
-uuid: 1db691b8-c072-4e99-b2fa-27844a179c55
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: direct-mail
-discoiquuid: 141fa646-5260-4450-bafb-431ef7736c73
 context-tags: delivery,directMailContent,back
-internal: n
-snippet: y
 ---
 
 # Coupling email and direct mail deliveries {#coupling-email-direct-mail}

@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Customizing lists
 description: "Learn how to customize display and act on list screens in Adobe Campaign Standard:sorting, filtering, deleting or duplicating elements. Lists screens display elements of one or several given resources."
-page-status-flag: never-activated
-uuid: 3350583c-91ca-4ea5-ac14-6b6f11c4a64a
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-discoiquuid: 4ba4f766-fdee-4ff0-8fe4-0612ed2b69a4
 
-internal: n
-snippet: y
 ---
 
 # Design & send messages

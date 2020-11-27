@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Testing the subject line of an email
 description: Discover how to define the subject line of an email in the Email Designer.
-page-status-flag: never-activated
-uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: editing-email-content
-discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 
-internal: n
-snippet: y
 ---
 # Testing the subject line of an email {#testing-a-subject}
 

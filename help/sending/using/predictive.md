@@ -1,16 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Predictive user engagement capabilities
 description: Learn how to use predictive send time and engagement scoring.
-page-status-flag: never-activated
-uuid: c2c13934-9819-4e18-b5c7-60915c907f37
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: ai-powered-emails
-discoiquuid: 609355f6-9003-41b9-9981-ea787419fbf5
-internal: n
-snippet: y
 ---
 
 # Optimizing design and delivery with AI-powered emails{#journey-ai}
@@ -30,7 +25,7 @@ Adobe Campaign Standard offers two new Machine Learning models: **Predictive Sen
 >[!CAUTION]
 >This capability is not available out of the box as part of the product. The implementation requires Adobe Consulting to be engaged. Please reach out to your Adobe representative to find out more.
 >
->Separately, the feature required the usage of an Azure storage that must be provided by the customer.
+>The feature requires the usage of an Azure storage that must be provided by the customer.
 
 ## Predictive send time optimization{#predictive-send-time}
 

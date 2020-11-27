@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Programs and campaigns
 description: In Adobe Campaign, programs and campaigns allow you to group and orchestrate the different marketing activities that are linked to them. Reports on programs and campaigns allow you to analyze their impact.
-page-status-flag: never-activated
-uuid: fe2812a8-196f-4aba-a739-fbbfffd754cb
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
 topic-tags: marketing-plans
-discoiquuid: 21b84028-d1a7-4ad6-891a-862a94565514
 context-tags: campaign,overview;campaignExplorer,main
-internal: n
-snippet: y
 ---
 
 # Programs and campaigns{#programs-and-campaigns}

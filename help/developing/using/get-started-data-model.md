@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Get started with Campaign Standard data model
-description: Extend Campaign Standard data model with your own fields and resources, and monitor all data model changes into one single view.
-page-status-flag: never-activated
-uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
+description: Enrich Campaign Standard data model with custom fields and resources, and extend REST APIs to expose extended fields.
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
-discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 
-internal: n
-snippet: y
 ---
 
 # Get started with Campaign Standard data model {#get-started-data-model}

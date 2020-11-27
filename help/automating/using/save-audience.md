@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Save audience
 description: The Save audience activity allows you to update an existing audience or create a new audience from the population computed upstream in a workflow.
-page-status-flag: never-activated
-uuid: 8babb173-fa59-44a7-a2a5-49f45ba6bf99
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 1f6bb048-7abd-499b-a4b0-187f9492dc47
 context-tags: saveAudience,main
-internal: n
-snippet: y
 ---
 
 # Save audience{#save-audience}

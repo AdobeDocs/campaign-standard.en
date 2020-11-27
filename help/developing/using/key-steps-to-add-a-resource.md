@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Key steps of adding a resource
 description: Learn here the key steps of adding a resource in the Adobe Campaign data model.
-page-status-flag: never-activated
-uuid: b8a32659-17ec-4e3e-92f2-0a0d6aaf2629
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
-discoiquuid: 7e130e62-3f6e-41cc-8108-e64127d8d6ec
 
-internal: n
-snippet: y
 ---
 
 # Key steps to add a resource{#key-steps-to-add-a-resource}

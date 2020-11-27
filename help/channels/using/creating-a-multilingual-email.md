@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Creating a multilingual email
 description: Follow these steps to create a multilingual email targeting recipients with different preferred languages.
-page-status-flag: never-activated
-uuid: e90f4ec8-14e3-4304-b5fc-bce0ba08a4ef
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: email-messages
-discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
 
-internal: n
-snippet: y
 ---
 
 # Creating a multilingual email{#creating-a-multilingual-email}

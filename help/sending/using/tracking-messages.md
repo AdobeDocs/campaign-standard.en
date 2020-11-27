@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Tracking messages
 description: Learn how to track the behavior of your delivery recipients.
-page-status-flag: never-activated
-uuid: c3721647-0663-4614-a9c9-3b3a40af328a
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
-discoiquuid: 6fa50f0d-3dcf-4a9e-bccc-1ecda2bfb449
 
-internal: n
-snippet: y
 ---
 
 # Tracking messages{#tracking-messages}

@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Campaign Standard Release Planning
 description: This page lists upcoming releases of Adobe Campaign Standard.
-page-status-flag: never-activated
-uuid: 
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
-discoiquuid: 
 
-internal: n
-snippet: y
 ---
 
 # Release Planning {#release-planning}
@@ -26,7 +21,7 @@ All release dates are subject to change: we recommend you visit this page on a r
 
 **NEW!** Subscribe to [Campaign Standard release notifications](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) to get details about upcoming releases straight in your inbox.
 
-## Release 20.4 - October Release {#release-20-4-oct-release}
+## Release 21.1 - February Release {#release-21-1-release}
 
 Environment updates happen in waves, during the indicated timeframes below. Detailed information about this release are available in the [Release Notes](../../rn/using/release-notes.md). If you have any further questions, please contact [Adobe Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
 
@@ -40,16 +35,14 @@ Environment updates happen in waves, during the indicated timeframes below. Deta
  <tbody>
   <tr>
    <td>Stage<br /> </td>
-   <td>Sept 21 - 22, 2020<br /> </td>
+   <td>Jan 25 - 26, 2021<br /> </td>
   </tr>
   <tr>
    <td> Production<br /> </td>
-   <td>Sept 28 - Oct 5, 2020<br /> </td>
+   <td>Feb 1 - 8, 2021<br /> </td>
   </tr>
  </tbody>
 </table>
-
-
 
 ## Questions & Answers {#questions-and-answers}
 

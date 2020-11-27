@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Receiving alerts when failures happen
 description: Learn how to use the alert management system.
-page-status-flag: never-activated
-uuid: a3ab733a-e3db-4adc-b930-cd4064b6dc1c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 
-internal: n
-snippet: y
 ---
 
 # Receiving alerts when failures happen{#receiving-alerts-when-failures-happen}

@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Creating a custom profile dimension
 description: Learn how to create a custom profile dimension based on custom profile data.
-page-status-flag: never-activated
-uuid: f75e005b-5328-4c98-9e78-51d54fd0e246
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
-discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
 
-internal: n
-snippet: y
 ---
 
 # Creating a custom profile dimension{#creating-a-custom-profile-dimension}

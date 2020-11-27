@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Workflow interface
 description: Learn the interface and options to create, edit and execute a workflow.
-page-status-flag: never-activated
-uuid: aafe33ed-fa07-4dd9-825e-242099334f1a
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
-discoiquuid: 147fbb0d-17d2-444b-a215-9ad14179c549
 context-tags: workflow,main;workflow,overview
-internal: n
-snippet: y
 ---
 
 # Workflow interface{#workflow-interface}

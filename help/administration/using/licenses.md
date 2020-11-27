@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Licenses
 description: Learn more on licenses installed on your instance.
-page-status-flag: never-activated
-uuid: fea2ea2b-e036-4fe4-9db2-7ba25ec8fb3b
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-discoiquuid: b0056f83-610e-4fdc-95cd-bb5ed9f5c483
 
-internal: n
-snippet: y
 ---
 
 # Licenses{#licenses}

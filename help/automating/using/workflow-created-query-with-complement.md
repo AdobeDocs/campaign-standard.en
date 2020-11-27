@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Creating deliveries with a complement
 description: This use case shows how to creae deliveries with a complement.
-page-status-flag: never-activated
-uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: execution-activities
-discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
 context-tags: workflow,use-case,segmentation
-internal: n
-snippet: y
 ---
 
 # Creating deliveries with a complement {#deliveries-with-complement}

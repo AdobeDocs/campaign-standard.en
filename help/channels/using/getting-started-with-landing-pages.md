@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Main steps to set up a landing page
 description: Learn the main steps to set up a landing page
-page-status-flag: never-activated
-uuid: b316bf47-7d98-46fa-ab4f-67ff50de8095
-contentOwner: lemaitre
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: landing-pages
-discoiquuid: ca8d1698-6e8a-4f5a-b017-74a152e14286
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
-internal: n
-snippet: y
 ---
 
 # Getting started with landing pages {#getting-started-with-landing-pages}
@@ -88,9 +83,9 @@ From the template defined in the previous step, create a new landing page in a p
 
     ![](assets/lp-steps3.png)
 
-    >[!NOTE]
-    >
-    >Your modifications are only effective for the landing page that is being edited. If you want to apply these modifications to other landing pages, you can carry them out in a dedicated template and then create other landing pages from that template.
+>[!NOTE]
+>
+>Your modifications are only effective for the landing page that is being edited. If you want to apply these modifications to other landing pages, you can carry them out in a dedicated template and then create other landing pages from that template.
 
 ## Step 3 - Design the landing page {#design-the-landing-page}
 

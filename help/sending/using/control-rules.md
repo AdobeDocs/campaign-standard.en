@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Control rules
 description: Learn how to reinforce the quality check of your messages with control rules.
-page-status-flag: never-activated
-uuid: 33a1c90c-534e-4fe1-982c-f4e1858d4d2d
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
-discoiquuid: 305cadde-6424-4c6f-b11b-1e8bdbad6ef1
 
-internal: n
-snippet: y
 ---
 
 # Control rules {#control-rules}

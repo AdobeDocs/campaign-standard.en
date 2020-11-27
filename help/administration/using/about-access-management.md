@@ -1,16 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: About access management
 description: Manage your Adobe Campaign operators using roles, groups and organizational units.
-page-status-flag: never-activated
-uuid: 4f538452-cc67-4e03-9e2f-2d9eecc081c7
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-discoiquuid: 54028f63-c9ca-4397-a079-e27e0cfdebf6
-internal: n
-snippet: y
 ---
 
 # About access management{#about-access-management}

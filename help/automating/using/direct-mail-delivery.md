@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Direct mail delivery
 description: The Direct mail delivery activity allows you to configure sending a single send direct mail or a recurring direct mail in a workflow.
-page-status-flag: never-activated
-uuid: bfa7b176-a17c-4079-a073-64b8ce4788ed
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: channel-activities
-discoiquuid: b9ddb2a0-54ff-4ada-be6f-8109fa06d461
 context-tags: directMail,workflow,main
-internal: n
-snippet: y
 ---
 
 # Direct mail delivery{#direct-mail-delivery}

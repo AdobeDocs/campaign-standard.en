@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Personalizing campaigns using Adobe Experience Platform attributes
 description: Learn how to personalize your campaigns using Adobe Eperience Platform attributes.
-page-status-flag: never-activated
-uuid: 528d9472-e447-47af-a6b2-3181aa5fb5ad
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: channel-activities
-discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
 
-internal: n
-snippet: y
 ---
 
 # Personalizing campaigns using Adobe Experience Platform attributes {#personalizing-campaigns-using-aep-attributes}

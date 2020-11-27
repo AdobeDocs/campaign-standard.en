@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Defining import templates
 description: Import templates allow to reduce the settings needed and to import data faster.
-page-status-flag: never-activated
-uuid: 651eb57c-adac-4e3e-b454-b39aea1f0484
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
-discoiquuid: 85d13147-fb31-446a-8476-f112c841fb82
 
-internal: n
-snippet: y
 ---
 
 # Defining import templates{#defining-import-templates}

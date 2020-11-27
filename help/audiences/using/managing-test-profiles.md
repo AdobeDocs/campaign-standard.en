@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Managing test profiles
 description: Learn how to manage test profiles.
-page-status-flag: never-activated
-uuid: eb4d893b-3724-4b15-9312-1ec74784368d
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
-discoiquuid: 37320ec5-196c-4260-8156-98932da3e4a5
 context-tags: seedMember,overview
-internal: n
-snippet: y
 ---
 
 # Managing test profiles {#managing-test-profiles}

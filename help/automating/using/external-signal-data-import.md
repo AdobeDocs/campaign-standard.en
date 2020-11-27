@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: External signal and data import
 description: The following example illustrates the External signal activity used with data import.
-page-status-flag: never-activated
-uuid: 884b6daf-bfd9-440b-8336-004b80c76def
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: execution-activities
-discoiquuid: 911c71b5-da8b-4916-b645-13bba6d21715
 context-tags: signal,main
-internal: n
-snippet: y
 ---
 
 # External signal and data import {#external-signal-data-import}

@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Personalizing email content
 description: Discover how to personalize an email in the Email Designer.
-page-status-flag: never-activated
-uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 
-internal: n
-snippet: y
 ---
 
 # Personalizing email content {#personalization}
@@ -225,7 +220,7 @@ These conditions adopt the XTK expression syntax (e.g. **context.profile.email !
 >[!CONTEXTUALHELP]
 >id="ac_dynamic_content"
 >title="Defining dynamic content"
->abstract="Define different contents for your recipients according to rules defined via the expression editor."
+>abstract="Define different contents that will be displayed to some profiles only according to conditions that you will define."
 
 In an email, you can define different contents which will be displayed dynamically to the recipients according to the conditions defined via the expression editor. For example, from the same email, you can ensure that each profile receives a different message according to their age range.
 
@@ -332,7 +327,7 @@ The email is created as follows:
 >[!CONTEXTUALHELP]
 >id="ac_dynamic_image"
 >title="Managing dynamic images"
->abstract="Personnalize your email with dynamic images according to rules defined via the expression editor."
+>abstract="Personnalize your email with dynamic images according to conditions that you will define."
 
 In this example, the dynamic contents applied to the images are configured as follows:
 

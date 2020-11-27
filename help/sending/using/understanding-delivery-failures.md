@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Understanding delivery failures
 description: Learn how to manage delivery failures with Campaign.
-page-status-flag: never-activated
-uuid: 2735aa05-7b6f-47c9-98c4-a15cc33be39d
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 
-internal: n
-snippet: y
 ---
 
 # Understanding delivery failures{#understanding-delivery-failures}

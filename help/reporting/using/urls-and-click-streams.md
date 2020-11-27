@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: URLs and click streams
 description: With the URLs and click streams out-of-the-box report, learn about the success of the URLs in your deliveries.
-page-status-flag: never-activated
-uuid: 712b26b2-3b4b-487c-8d47-e56dc34609a4
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
-discoiquuid: 9349de98-6b77-4d1c-b2fe-cf44cdcd07ce
 context-tags: deliveryTopUrlReport,main;campaignTopUrlReport,main;programTopUrlReport,main
-internal: n
-snippet: y
 ---
 
 # URLs and click streams{#urls-and-click-streams}

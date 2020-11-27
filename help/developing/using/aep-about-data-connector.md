@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: About Adobe Experience Platform Data Connector
 description: Manage XDM schemas to make your Campaign Standard data available on Adobe Experience Platform.
-page-status-flag: never-activated
-uuid: 867b1c4b-4c79-4c52-9d0a-ef71993e50a2
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 
-internal: n
-snippet: y
 ---
 
 # About Adobe Experience Platform Data Connector {#about-aep-data-connector}

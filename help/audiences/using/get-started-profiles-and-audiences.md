@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Get started with profiles and audiences
-description: "Learn about profiles and audiences management within Adobe Campaign: define targeted populations, select audiences, filter recipients, collect data and update profiles."
-page-status-flag: never-activated
-uuid: f4cb6c38-c8d1-44ec-93f0-d0f5f30a3d9a
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
+description: Define targeted populations, select audiences, filter recipients, collect data and update profiles.
 audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
-discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 
-internal: n
-snippet: y
 ---
 
 # Get started with profiles and audiences{#about-profiles-and-audiences}
