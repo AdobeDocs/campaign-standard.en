@@ -178,6 +178,8 @@ The main steps when creating and managing personalized transactional messages in
 
 * [Key steps to send a message](../../channels/using/key-steps-to-send-a-message.md)
 * [Get started with communication channels](../../channels/using/get-started-communication-channels.md)
+* [Transactional push notifications](../../channels/using/transactional-push-notifications.md)
+* [Follow-up messages](../../channels/using/follow-up-messages.md)
 
 <!--## Transactional messaging publication process {#transactional-messaging-pub-process}
 
@@ -185,11 +187,4 @@ The chart below illustrates the whole transactional messaging publication proces
 
 ![](assets/message-center_pub-process.png)
 
-For more on the event configuration steps, see [Transactional messaging configuration](../../administration/using/configuring-transactional-messaging.md).
-
-Read more:
-
-* [Event transactional messages](../../channels/using/event-transactional-messages.md)
-* [Profile transactional messages](../../channels/using/profile-transactional-messages.md)
-* [Transactional push notifications](../../channels/using/transactional-push-notifications.md)
-* [Follow-up messages](../../channels/using/follow-up-messages.md)-->
+For more on the event configuration steps, see [Configuring a transactional event](../../channels/using/configuring-transactional-event.md).-->

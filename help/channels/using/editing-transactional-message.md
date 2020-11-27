@@ -10,7 +10,7 @@ topic-tags: transactional-messaging
 context-tags: 
 ---
 
-# Editing transactional messages {#editing-transactional-message}
+# Editing a transactional message {#editing-transactional-message}
 
 Once you have created and published an event<!--(the cart abandonment example as explained in [this section](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle))-->, the corresponding transactional message is automatically created. The steps to configure and publish the event are presented in the [Configuring a transactional event](../../channels/using/configuring-transactional-event.md) and [Publishing a transactional event](../../channels/using/publishing-transactional-event.md) section.
 

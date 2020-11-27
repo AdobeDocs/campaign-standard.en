@@ -24,12 +24,6 @@ You can send two types of transactional push notifications:
 * [Transactional push notifications targeting an event](#transactional-push-notifications-targeting-an-event)
 * [Transactional push notifications targeting profiles](#transactional-push-notifications-targeting-a-profile) from the Adobe Campaign database
 
-<!--Once you have created and published an event (the cart abandonment explained in [this section](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)), the corresponding transactional push notification is created automatically.
-
-The configuration steps are presented in the [Configuring an event to send a transactional push notification](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) section.
-
-In order for the event to trigger sending a transactional message, you have to personalize the message, then test it and publish it.-->
-
 >[!NOTE]
 >
 >To access transactional messages, you must be part of the **[!UICONTROL Administrators (all units)]** security group. For more on this, see [Users management](../../administration/using/users-management.md#functional-administrators).

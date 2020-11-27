@@ -32,7 +32,7 @@ Once the event has been published, a transactional message and a follow-up deliv
 
 ## Accessing the follow-up messages {#accessing-the-follow-up-messages}
 
-To handle an event in a workflow, a delivery template is required. However, when publishing the event, the [transactional message](../../channels/using/event-transactional-messages.md) that is created cannot be used as a template. Therefore, you need to create a specific follow-up delivery template designed to support this event type and to be used as a template in a workflow.
+To handle an event in a workflow, a delivery template is required. However, when publishing the event, the [transactional message](../../channels/using/editing-transactional-message.md) that is created cannot be used as a template. Therefore, you need to create a specific follow-up delivery template designed to support this event type and to be used as a template in a workflow.
 
 To access this template:
 
