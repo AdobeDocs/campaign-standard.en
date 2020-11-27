@@ -33,7 +33,7 @@ To access the transactional message that you created:
 
 >[!IMPORTANT]
 >
->To access transactional messages, you must be part of the **[!UICONTROL Administrators (all units)]** security group.
+>To access transactional messages, you must be part of the **[!UICONTROL Administrators (all units)]** security group. For more on this, see [Users management](../../administration/using/users-management.md#functional-administrators).
 
 ## Personalizing a transactional message {#personalizing-a-transactional-message}
 
@@ -41,7 +41,7 @@ To set up personalization in a transactional message, follow the steps below.
 
 For example, you want to send a notification to your website users who have added products to their cart and leave the site without going through with their purchases. This example is presented in the [Transactional messaging operating principle](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) section.
 
-1. Click the **[!UICONTROL Content]** block to modify your message's subject and content. For this example, select any template containing images and text. For more on email content templates, see [Designing using templates](../../designing/using/using-reusable-content.md#designing-templates).
+1. Click the **[!UICONTROL Content]** block to modify your message's subject and content. For this example, select any template containing images and text. For more on email content templates, see [Designing emails using templates](../../designing/using/using-reusable-content.md#designing-templates).
 
    ![](assets/message-center_6.png)
 
@@ -71,7 +71,7 @@ For example, you want to send a notification to your website users who have adde
 
    ![](assets/message-center_9.png)
 
-   You can check that the personalization fields match the information entered in the test profile. For more on this, see [Defining a test profile in a transactional message](../../channels/using/publishing-transactional-message.md#defining-specific-test-profile).
+   You can check that the personalization fields match the information entered in the test profile. For more on this, see [Defining a specific test profile](../../channels/using/publishing-transactional-message.md#defining-specific-test-profile).
 
 ## Using product listings in a transactional message {#using-product-listings-in-a-transactional-message}
 
@@ -192,3 +192,58 @@ For more on creating a collection and related fields when configuring the event,
    ![](assets/message-center_loop_test-profile_payload.png)
 
    For more on defining a test profile in a transactional message, see [this section](../../channels/using/publishing-transactional-message.md#defining-specific-test-profile).
+
+## Profile-based transactional message specificities {#profile-transactional-message-specificities}
+
+You can send transactional messages based on customer marketing profiles, which allows you to leverage all profile information to personalize the message content, use the unsubscription link, and apply marketing typology rules such as [fatigue rules](../../sending/using/fatigue-rules.md).
+
+For more on the differences between event-based and profile-based transactional messages, see [this section](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types).
+
+
+### Editing a profile transactional message {#editing-profile-transactional-message}
+
+The steps for creating, personalizing and publishing a profile transactional message are mostly the same as for an event transactional message.
+
+The differences are listed below.
+
+1. [Go the transactional message](#accessing-transactional-messages) that was created to edit it.
+1. In the transactional message, click the **[!UICONTROL Content]** section. In addition to the transactional email templates, you can also choose any email template targeting the **[!UICONTROL Profile]** resource.
+
+   ![](assets/message-center_marketing_templates.png)
+
+1. Select the default email template. Similar to all marketing emails, it includes an **unsubscription link**.
+
+   ![](assets/message-center_marketing_perso_unsubscription.png)
+
+   For more on templates, see [this section](../../designing/using/using-reusable-content.md#content-templates).
+
+1. Also, as opposed to configurations based on real-time events, you have **direct access to all profile information** to personalize your message. You can add [personalization fields](../../designing/using/personalization.md#inserting-a-personalization-field) as you would do for any other standard marketing email.
+
+1. Save your changes and publish the message. See [Publishing a transactional message](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message).
+
+### Monitoring a profile transactional message delivery {#monitoring-a-profile-transactional-message-delivery}
+
+Once the message is published and your site integration is done, you can monitor the delivery.
+
+1. To view the message delivery log, click the icon at the bottom right of the **[!UICONTROL Deployment]** block.
+
+   For more information on accessing the logs, see [Monitoring a delivery](../../sending/using/monitoring-a-delivery.md).
+
+1. Select the **[!UICONTROL Sending logs]** tab. In the **[!UICONTROL Status]** column, **[!UICONTROL Sent]** indicates that a profile has opted in.
+
+   ![](assets/message-center_marketing_sending_logs.png)
+
+1. Select the **[!UICONTROL Exclusions logs]** tab to view recipients who have been excluded from the message target, such as addresses on denylist.
+
+   ![](assets/message-center_marketing_exclusion_logs.png)
+
+For any profile that has opted out, the **[!UICONTROL Address on denylist]** typology rule excluded the corresponding recipient.
+
+This rule is part of a specific typology that applies to all transactional messages based on the **[!UICONTROL Profile]** table.
+
+![](assets/message-center_marketing_typology.png)
+
+**Related topics**:
+
+* [Transactional event triggering](../../channels/using/transactional-event-triggering.md)
+* [About typologies and typology rules](../../sending/using/about-typology-rules.md)
