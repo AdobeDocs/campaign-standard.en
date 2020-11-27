@@ -429,7 +429,6 @@ title: Campaign Standard Guide
        + [Configuring email channel](administration/using/configuring-email-channel.md)
        + [Configuring SMS channel](administration/using/configuring-sms-channel.md)
        + [Configuring a mobile application](administration/using/configuring-a-mobile-application.md)
-       + [Configuring transactional messaging](administration/using/configuring-transactional-messaging.md)
   + Configuring mobile channels {#configuring-mobile}
        + [Implementing Push tracking](administration/using/push-tracking.md)
        + [Adding images and videos iOS](administration/using/image-push-notification.md)

@@ -9,30 +9,26 @@ topic-tags: transactional-messaging
 
 ---
 
-# Follow-up messages{#follow-up-messages}
+# Follow-up messages {#follow-up-messages}
 
-You can send a follow-up message to the customers who received a specific transactional message. To do this, you need to set up a workflow targeting the corresponding event.
+A follow-up message is a predefined marketing delivery template that can be used in a workflow to send another communication to the recipients of a specific transactional message.
 
 Let's reuse the example described in the [Transactional messaging operating principle](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) section: a cart abandonment email is sent to your website users who added products to their cart, but left the site without going through with their purchases.
 
-You want to send a friendly reminder to all of the customers who received the cart abandonment notification but who did not open it after three days.
-
-Each concerned customer will then receive a follow-up message based on the same data that was used in the first email that was sent.
+You want to send a friendly reminder to all the customers who received the cart abandonment notification but who did not open it after three days. They will receive a follow-up message based on the same data that was used in the first email that was sent.
 
 ## Configuring an event to send a follow-up message {#configuring-an-event-to-send-a-follow-up-message}
 
-Once you have created and published an event (the cart abandonment as per the [example](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) above), the corresponding transactional message and follow-up message are created automatically.
+To send a follow-up message, you first need to configure accordingly the event corresponding to the transactional message that was already received.
 
-A follow-up message is a predefined marketing delivery template that can be used in a workflow to send messages to the recipients of a specific transactional message. For more on this, see [Follow-up messages](../../channels/using/follow-up-messages.md).
-
-1. Use the same event configuration that you created to send an event transactional message. See [Event-based transactional messages](#event-based-transactional-messages).
+1. Use the same event configuration that you created to send an event transactional message. See [Configuring a transactional event](../../channels/using/configuring-transactional-event.md).
 1. When configuring your event, check the **[!UICONTROL Create follow-up delivery template for this event]** box before publishing the event.
 
    ![](assets/message-center_follow-up-checkbox.png)
 
-1. Preview and publish the event (see [Previewing and publishing the event](#previewing-and-publishing-the-event)).
+1. [Preview and publish the event](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
 
-   Once the event has been published, a transactional message and a follow-up delivery template linked to the new event are automatically created. For more on using follow-up messages, see [Sending a follow-up message](../../channels/using/follow-up-messages.md#sending-a-follow-up-message).
+Once the event has been published, a transactional message and a follow-up delivery template linked to the new event are automatically created. The steps to send the follow-up message are detailed in [this section](#sending-a-follow-up-message).
 
 ## Accessing the follow-up messages {#accessing-the-follow-up-messages}
 
@@ -56,9 +52,11 @@ Only the follow-up messages are displayed.
 
 Once you created the follow-up delivery template, you can use it in a workflow to send a follow-up message.
 
+(You need to set up a workflow targeting the event corresponding to the transactional message that was already received.)
+
 1. Access the marketing activity list and create a new workflow.
 
-   See [Creating a workflow](../../automating/using/building-a-workflow.md#creating-a-workflow).
+   See [Building a workflow](../../automating/using/building-a-workflow.md#creating-a-workflow).
 
 1. Drag and drop a **[!UICONTROL Scheduler]** activity into your workflow and open it. Set the execution frequency to once a day.
 
@@ -80,15 +78,15 @@ Once you created the follow-up delivery template, you can use it in a workflow t
 
    ![](assets/message-center_follow-up-query-resource.png)
 
-1. Go to the activity's **[!UICONTROL Target]** tab and drag and drop the **[!UICONTROL Delivery logs (logs)]** element from the palette into the workspace.
+1. Go to the activity's **[!UICONTROL Target]** tab, and drag and drop the **[!UICONTROL Delivery logs (logs)]** element from the palette into the workspace.
 
    ![](assets/message-center_follow-up-delivery-logs.png)
 
-   Select **[!UICONTROL Exists]** to target all of the customers who received the email.
+   Select **[!UICONTROL Exists]** to target all the customers who received the email.
 
    ![](assets/message-center_follow-up-delivery-logs-exists.png)
 
-1. Move the **[!UICONTROL Tracking logs (tracking)]** element from the palette to the workspace and select **[!UICONTROL Does not exist]** to target all of the customers who did not open the email.
+1. Move the **[!UICONTROL Tracking logs (tracking)]** element from the palette to the workspace and select **[!UICONTROL Does not exist]** to target all the customers who did not open the email.
 
    ![](assets/message-center_follow-up-delivery-and-tracking-logs.png)
 
@@ -106,7 +104,7 @@ Once you created the follow-up delivery template, you can use it in a workflow t
 
    ![](assets/message-center_follow-up-workflow.png)
 
-   You can also use an [SMS delivery](../../automating/using/sms-delivery.md) or a [Mobile app delivery](../../automating/using/push-notification-delivery.md) activity. In this case, make sure you select the **[!UICONTROL Mobile (SMS)]** or **[!UICONTROL Mobile application]** channel when creating your event configuration. See [Creating an event](../../administration/using/configuring-transactional-messaging.md#creating-an-event).
+   You can also use an [SMS delivery](../../automating/using/sms-delivery.md) or a [Push notification delivery](../../automating/using/push-notification-delivery.md) activity. In this case, make sure you select the **[!UICONTROL Mobile (SMS)]** or **[!UICONTROL Mobile application]** channel when creating your event configuration. See [Creating an event](../../channels/using/configuring-transactional-event.md#creating-an-event).
 
 1. Open the **Email delivery** activity. In the creation wizard, check the **[!UICONTROL Follow-up messages]** box and select the follow-up delivery template that was created after publishing the event.
 
@@ -116,7 +114,7 @@ Once you created the follow-up delivery template, you can use it in a workflow t
 
    ![](assets/message-center_follow-up-content.png)
 
-1. Find the fields that you defined when creating your event by selecting **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**. See [Personalizing a transactional message](../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message).
+1. Find the fields that you defined when creating your event by selecting **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**. See [Personalizing a transactional message](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
 
    ![](assets/message-center_follow-up-personalization.png)
 
@@ -128,4 +126,4 @@ Once the workflow is started, every customer that received your cart abandonment
 
 >[!NOTE]
 >
->If you selected the **[!UICONTROL Profile]** targeting dimension when creating the event configuration, the follow-up message will also leverage the Adobe Campaign marketing database. See [Profile transactional messages](../../channels/using/profile-transactional-messages.md).
+>If you selected the **[!UICONTROL Profile]** targeting dimension when creating the event configuration, the follow-up message will also leverage the Adobe Campaign marketing database. See [Profile transactional messages](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities).
