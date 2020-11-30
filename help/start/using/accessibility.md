@@ -17,9 +17,9 @@ Accessibility refers to making products usable for people with visual, auditory,
 
 Adobe Campaign Standard provides some tools that make it accessible to use such as contrast, keyboard navigation, contextual help and responsive resize.
 
-## Accessibility features
+## Accessibility features {#accessibility-features}
 
-### Contrast
+### Contrast {#contrast}
 
 Adobe Campaign Standard user interface strives to provide enough contrast in the application to ensure an accessible viewing experience for users with low vision or color deficiencies.
 
@@ -33,7 +33,7 @@ Adobe Campaign Standard user interface strives to provide enough contrast in the
 
 * Adobe Campaign Standard ensures that color, shape or location are not the sole methods used to communicate information or hierarchy.
 
-### User interface
+### User interface {#user-interface}
 
 Adobe Campaign Standard user interface makes it easier for users to see and hear content including separating foreground from background.
 
@@ -51,7 +51,7 @@ Adobe Campaign Standard user interface makes it easier for users to see and hear
 
 * Data table headers cells are not left empty in the corner of table when using lists.
 
-### Create responsive resize for multiple devices
+### Create responsive resize for multiple devices {#resize-devices}
 
 When designing for multiple devices and platforms, it's important to create a seamless experience for screen sizes across mobile and desktop resolutions.
 
@@ -59,7 +59,7 @@ Adobe Campaign Standard allows you to design and test emails and push notificati
 
 ![](assets/accessibility_6.png)
 
-## Contextual help
+## Contextual help {#contextual-help}
 
 >[!NOTE]
 >
@@ -71,35 +71,35 @@ When designing an email, you can hover your cursor over the information button. 
 
 ![](assets/accessibility_7.png)
 
-## Support for screen magnifiers
+## Support for screen magnifiers {#screen-magnifiers}
 
 A screen reader reads text that appears on the computer screen. It also reads non-textual information, such as button labels or image descriptions in the application, provided in accessibility tags or attributes.
 
 In Adobe Campaign Standard, content and functionality are still available even if the user overrides text spacing properties.
 
-## Work in your preferred language
+## Work in your preferred language {#languages}
 
 Adobe Campaign Standard is available in different languages: English, French and German.
 
 Please note that language is set up at the installation, and cannot be changed afterwards.
 
-## Keyboard shortcuts
+## Keyboard shortcuts {#shortcuts}
 
-### Email designer
-
-| Shortcut  |  Action |
-|:-:|:-:|
-| CTRL + Z  | Undo  |
-| CTRL + Y  |  Redo |
-
-### Homepage
+### Homepage {#homepage-shortcuts}
 
 | Shortcut  |  Action |
 |:-:|:-:|
 | Tab | Navigate through individual elements of the user interface|
 | Enter or Space | Activate the selected item |
 
-### Dynamic reports
+### Email designer {#email-designer-shortcuts}
+
+| Shortcut  |  Action |
+|:-:|:-:|
+| CTRL + Z  | Undo  |
+| CTRL + Y  |  Redo |
+
+### Dynamic reports {#report-shortcuts}
 
 | Shortcut  |  Action |
 |:-:|:-:|
@@ -120,7 +120,7 @@ Please note that language is set up at the installation, and cannot be changed a
 | Shift + Alt + S | Send report on schedule |
 | Shift = Alt + L | Scheduled reports |
 
-## Further Reading
+## Further Reading {#further-reading}
 
 Adobe Campaign Standard strives to provide an ever-increasing degree of accessibility, making the product easy to use for everyone.
 
