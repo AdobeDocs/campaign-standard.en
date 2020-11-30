@@ -113,10 +113,14 @@ title: Campaign Standard Guide
   + Transactional messaging {#transactional-messaging}
        + [Getting started with transactional messaging](channels/using/getting-started-with-transactional-msg.md)
        + [Transactional messaging limitations](channels/using/transactional-messaging-limitations.md)
-       + [Event transactional messages](channels/using/event-transactional-messages.md)
-       + [Profile transactional messages](channels/using/profile-transactional-messages.md)
+       + [Configuring a transactional event](channels/using/configuring-transactional-event.md)
+       + [Publishing a transactional event](channels/using/publishing-transactional-event.md)
+       + [Editing a transactional message](channels/using/editing-transactional-message.md)
+       + [Publishing a transactional message](channels/using/publishing-transactional-message.md)
+       + [Transactional event triggering](channels/using/transactional-event-triggering.md)
        + [Transactional push notifications](channels/using/transactional-push-notifications.md)
        + [Follow-up messages](channels/using/follow-up-messages.md)
+       + [Transactional messaging use case](channels/using/transactional-messaging-use-case.md)
   + Landing pages {#landing-pages}
        + [Getting started with landing pages](channels/using/getting-started-with-landing-pages.md)
        + [About landing page templates](channels/using/landing-page-templates.md)
@@ -423,7 +427,6 @@ title: Campaign Standard Guide
        + [Configuring email channel](administration/using/configuring-email-channel.md)
        + [Configuring SMS channel](administration/using/configuring-sms-channel.md)
        + [Configuring a mobile application](administration/using/configuring-a-mobile-application.md)
-       + [Configuring transactional messaging](administration/using/configuring-transactional-messaging.md)
   + Configuring mobile channels {#configuring-mobile}
        + [Implementing Push tracking](administration/using/push-tracking.md)
        + [Adding images and videos iOS](administration/using/image-push-notification.md)

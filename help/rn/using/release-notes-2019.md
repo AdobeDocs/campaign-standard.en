@@ -533,7 +533,7 @@ Several improvements have been added to the Transactional messaging channel in o
   </tr> 
   <tr> 
    <td> Product Listings in Transactional Emails<br /> </td> 
-   <td> <p>You can now reference one or more product collections in a transactional email message. For example, you can automatically send a cart abandonment email listing all the products that were in the user’s cart with an image, price, and link to each product.</p><p>For more information, refer to the <a href="../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html">how-to video</a>.</p> </td> 
+   <td> <p>You can now reference one or more product collections in a transactional email message. For example, you can automatically send a cart abandonment email listing all the products that were in the user’s cart with an image, price, and link to each product.</p><p>For more information, refer to the <a href="../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html">how-to video</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Mobile View in the Email Designer<br /> </td> 
