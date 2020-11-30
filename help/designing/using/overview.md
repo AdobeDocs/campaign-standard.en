@@ -15,7 +15,7 @@ topic-tags: editing-email-content
 
 The Email Designer allows you to create email content and email content templates. It is compatible with simple emails, transactional emails, A/B test emails, multilingual emails, and recurring emails.
 
-To get started with the Email Designer, watch this [set of videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) that explain the general functionality of the Email Designer and how to design an email from scratch or using templates.
+![](assets/do-not-localize/how-to-video.png) [Discover the Email Designer in video](#video)
 
 ### Email Designer home page {#email-designer-home-page}
 
@@ -122,3 +122,11 @@ When it comes to fragments, please note the following:
 * You can still send emails where a fragment that is not updated is already used, but that fragment is not editable.
 
 * Updating fragments used in emails that are already prepared has no impact on those emails.
+
+## Tutorial video {#video}
+
+This video provides an overview of the Email Designer.
+
+>[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
+
+To get started with the Email Designer, watch this [set of videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) that explain the general functionality of the Email Designer and how to design an email from scratch or using templates

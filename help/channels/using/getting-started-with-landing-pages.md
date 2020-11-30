@@ -17,9 +17,10 @@ The main steps when setting up landing pages are as follows:
 
 In this page, you will find information on each of these steps, as well as references to the dedicated documentations for more details.
 
+![](assets/do-not-localize/how-to-video.png) [Discover how to create landing pages in video](#video)
+
 **Related topics:**
 
-* [Creating a landing page tutorial video](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/communication-channels/landing-pages/landing-page-create-and-edit.html)
 * [Creating a service](../../audiences/using/creating-a-service.md)
 * [Setting up a double opt-in process](setting-up-a-double-opt-in-process.md)
 
@@ -124,3 +125,11 @@ Publishing the landing page makes it accessible online. Once published, you can 
 Once published, your landing page is ready to be used. You can then put different mechanisms in place that allow you to access it to acquire new profiles in your database or to obtain additional information on existing profiles.
 
 For more on landing page publishing, refer to [this section](../../channels/using/testing-publishing-landing-page.md#publishing-a-landing-page).
+
+## Tutorial video {#video}
+
+This video shows how to create and edit a landing page.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24093?quality=12)
+
+Additional Campaign Standard how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=en).

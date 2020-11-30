@@ -13,6 +13,8 @@ topic-tags: email-messages
 
 You can create an email from a [campaign](../../start/using/marketing-activities.md#creating-a-marketing-activity), from the Adobe Campaign [home page](../../start/using/interface-description.md#home-page), or in the [marketing activity list](../../start/using/marketing-activities.md#about-marketing-activities). You can also create single-send and recurring emails from a workflow.
 
+![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#video)
+
 1. Once you have started creating an email marketing activity, select the template you would like to use.
 
    By default, you can choose from several templates for each marketing activity. This allows you to pre-configure certain parameters according to your needs and also assign a brand to your delivery. For more on this, see [Managing templates](../../start/using/marketing-activity-templates.md).
@@ -82,7 +84,14 @@ You can create an email from a [campaign](../../start/using/marketing-activities
 
 **Related topics**:
 
-* [Creating an email](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/create-email-from-homepage.html) video
 * [Creating a personalized email](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html) step-by-step guide
-* [Adobe Campaign and Dreamweaver integration](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html) video
+* [Adobe Campaign and Dreamweaver integration](../../designing/using/using-integrations.md#editing-content-in-dreamweaver)
 * [Integrating with Adobe Experience Manager](../../integrating/using/integrating-with-experience-manager.md)
+
+## Tutorial video {#video}
+
+This video shows how to create an email.
+
+>[!VIDEO](https://video.tv.adobe.com/v/23721?quality=12)
+
+Additional Campaign Standard how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=en).

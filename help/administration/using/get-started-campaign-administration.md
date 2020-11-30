@@ -24,6 +24,8 @@ As a cloud-based solution, Adobe Campaign offers administrators different ways t
 >
 >If you have questions or requests about implementation and configuration matters, contact your Adobe account executive.
 
+Note that, if your instance is hosted on AWS, Admin users can also leverage Campaign Control Panel to manage settings and track usages for each of your instances. For more on this, refer to the [dedicated documentation](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html).
+
 ## Administration menu {#administration-menu}
 
 <img src="assets/do-not-localize/icon_menu.svg" width="60px">
@@ -94,8 +96,3 @@ Read more:
 * [Technical workflows](../../administration/using/technical-workflows.md)
 * [Branding](../../administration/using/branding.md)
 * [Sending internal notifications](../../administration/using/sending-internal-notifications.md)
-
-## Additional resources
-
-* [Managing user access rights (video)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html)
-* [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
