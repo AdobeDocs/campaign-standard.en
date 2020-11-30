@@ -40,7 +40,7 @@ To send a transactional push notification to all users who have opted in to rece
 
 >[!NOTE]
 >
->You can still personalize the content of an event-based transactional push notification using [event attributes]((../../channels/using/configuring-transactional-event.md#defining-the-event-attributes)) (data from the event) and [event enrichment](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) (data from the Campaign database). See [the example below](#sending-event-based-transactional-push-notification).
+>You can still personalize the content of an event-based transactional push notification using [event attributes](../../channels/using/configuring-transactional-event.md#defining-the-event-attributes) (data from the event) and [event enrichment](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) (data from the Campaign database). See [the example below](#sending-event-based-transactional-push-notification).
 
 The event must contain the three following elements:
 
