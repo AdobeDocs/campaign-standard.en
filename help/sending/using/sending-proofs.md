@@ -96,7 +96,7 @@ To change the default subject line to use, follow these steps:
 
 **Related topic:**
 
-* [Sending a test, preparing and sending an email](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/sending-test-preparing-sending-email.html) video
+* [Sending a test, preparing and sending an email](../../sending/using/get-started-sending-messages.md#video) video
 * [Testing email messages using targeted profiles](../../sending/using/testing-messages-using-target.md)
 * [Managing test profiles](../../audiences/using/managing-test-profiles.md)
 * [Previewing messages](../../sending/using/previewing-messages.md)
