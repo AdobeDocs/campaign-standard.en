@@ -15,6 +15,8 @@ Creating an SMS delivery is very similar to creating a regular email. The follow
 
 Advanced SMS parameters are detailed in the [SMS configuration](../../administration/using/configuring-sms-channel.md) section.
 
+![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#video)
+
 To create and send SMS messages to a mobile phone, you need:
 
 * A **[!UICONTROL Routing]** external account configured on the **[!UICONTROL Mobile (SMS)]** channel with the **[!UICONTROL Bulk delivery]** mode. For more on this, refer to the [Routing](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing) section.
@@ -71,4 +73,11 @@ Once the sending is finished, you can start measuring the impact of your message
 
 * [About SMS and push content edition](../../channels/using/about-sms-and-push-content-design.md)
 * [Managing templates](../../start/using/marketing-activity-templates.md)
-* [Create an SMS delivery](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/sms/sms-delivery.html) video
+
+## Tutorial video {#video}
+
+This video shows how to create a SMS delivery.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25265/?quality=12)
+
+Additional Campaign Standard how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=en).

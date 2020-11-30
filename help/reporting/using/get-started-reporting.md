@@ -20,6 +20,8 @@ topic-tags: about-reporting
 
 Dynamic Reporting provides fully customizable and real-time reports to measure the impact of your marketing activities. It adds access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks.
 
+![](assets/do-not-localize/how-to-video.png) [Discover dynamic reporting in video](#video)
+
 ## Manage and share reports {#manage-share-reports}
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
@@ -67,6 +69,13 @@ Read more:
 
 ## Additional resources
 
-* [Dynamic reporting tutorial videos](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/reporting/exploring-reports.html)
 * [Exporting logs](../../automating/using/exporting-logs.md)
 * [About Campaign-Analytics integration](../../integrating/using/about-campaign-analytics-integration.md)
+
+## Tutorial video {#video}
+
+This video provides an overview over the reporting capabilities of Adobe Campaign Standard.
+
+>[!VIDEO](https://video.tv.adobe.com/v/23021?quality=12&captions=eng)
+
+Additional Campaign Standard how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=en).

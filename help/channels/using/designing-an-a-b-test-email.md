@@ -78,10 +78,6 @@ In the specific context of an A/B test:
 
 Your email is now defined and sent. You can access its logs and reports to measure the success of your campaign.
 
-**Related topic**:
-
-[Creating an email](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/create-email-from-homepage.html) video
-
 ## About A/B test indicators {#about-a-b-test-indicators}
 
 In the email dashboard, several indicators are available to help you measure your A/B test: number of clicks, opens, bounces, and so on.
