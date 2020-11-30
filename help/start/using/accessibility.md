@@ -11,24 +11,11 @@ topic-tags: editing-email-content
 
 # Accessibility in Adobe Campaign Standard {#accessibility-acs}
 
-A high level summary of the accessibility available in the product - typical topics include keyboard accessibility, headings, alt text for images, contrast, etc. No need to go into details (Release Notes will do that, most likely), but it's helpful to understand in layman's terms what the product provides for support
-Any specific custom solutions (ex. shortcut keys) or "accessibility mode" type features that Campaign has implemented
-Basic tasks and their respective accessibility support
-Read on to know more about the various accessibility features in XD.
+Learn about accessibility support in Adobe Campaign Standard Workspace.
 
-Overview
+Accessibility refers to making products usable for people with visual, auditory, cognitive, motor, and other disabilities. Examples of accessibility features for software products include screen reader support, text equivalents for graphics, keyboard shortcuts, change of display colors to high contrast, and so on.
 
-· Adobe’s commitment to accessibility and inclusivity
-
-· Standards with reference to latest ACR
-
-· Work done on [product] to date
-
-· Supported user needs, assistive technologies, and OS/browser/AT combinations
-
-Accessibility refers to making products usable for people with visual, auditory, motor, and other disabilities.
-
-Examples of accessibility features for software products include contextual help, content assistant, support for screen readers and so on.
+Adobe Campaign Standard provides some tools that make it accessible to use such as contrast, keyboard navigation, contextual help and responsive resize.
 
 ## Accessibility features
 
@@ -40,54 +27,61 @@ Adobe Campaign Standard user interface strives to provide enough contrast in the
 
     ![](assets/accessibility_1.png)
 
-* The text displayed when a delivery is successful contained large green text with an insufficient contrast between the background and the foreground. The contrast have been updated with a minimum ratio of 3:1.
+* The text displayed when a delivery is successful contained large green text with an insufficient contrast between the background and the foreground. The contrast has been updated with a minimum ratio of 3:1.
 
     ![](assets/accessibility_2.png)
 
 * Adobe Campaign Standard ensures that color, shape or location are not the sole methods used to communicate information or hierarchy.
 
-•	Provide a valid label form field
-•	Ensure parts of graphical objects essential for understanding content have sufficient contrast
-•	Ensure active user interface components have sufficient contrast
-
 ### User interface
+
+Adobe Campaign Standard user interface makes it easier for users to see and hear content including separating foreground from background.
 
 * When the user leaves a required ID field blank, a graphic indicates visually which field is in error with an error message text.
 
     ![](assets/accessibility_3.png)
 
-* Ensure that content that appears on hover or focus may be dismissed by the user.
+* Content that appears on hover or focus can be dismissed by the user and does not obscure other content.
 
-* Alternative texts for image buttons The Alt text attribute lets you create alternate text that can be read in lieu of viewing an illustration.
+    ![](assets/accessibility_4.png)
 
-* Ensure that instructive text is placed at the beginning of a form
+* Alternative texts for image buttons have been added and can be read instead of viewing an illustration.
 
-* Ensure data table headers cells are not blank
+    ![](assets/accessibility_5.png)
+
+* Data table headers cells are not left empty in the corner of table when using lists.
 
 ### Create responsive resize for multiple devices
 
 When designing for multiple devices and platforms, it's important to create a seamless experience for screen sizes across mobile and desktop resolutions.
 
-Work in your preferred language
+Adobe Campaign Standard allows you to design and test emails and push notifications on different devices such as: iPhone, Android devices, iPad, Android tablet and desktop.
+
+![](assets/accessibility_6.png)
 
 ## Contextual help
 
-Description of the feature + doc link
+>[!NOTE]
+>
+> The contextual help is only available when using the email designer.
+
+The contextual help can help you better understand the different requested fields and features available. It also guides you through product documentation to learn more information on the selected feature.
+
+When designing an email, you can hover your cursor over the information button. A tooltip will appear providing features descriptions and links to the product documentation.
+
+![](assets/accessibility_7.png)
 
 ## Support for screen magnifiers
 
 A screen reader reads text that appears on the computer screen. It also reads non-textual information, such as button labels or image descriptions in the application, provided in accessibility tags or attributes.
-content and functionality is available when the user overrides text spacing properties
-Ensure text can be resized
-Ensure containing elements allow text resize without loss of functionality.
+
+In Adobe Campaign Standard, content and functionality are still available even if the user overrides text spacing properties.
 
 ## Work in your preferred language
 
-It is available in English, French and German.
+Adobe Campaign Standard is available in different languages: English, French and German.
 
 Please note that language is set up at the installation, and cannot be changed afterwards.
-
-•	Ensure the language of a document is set
 
 ## Keyboard shortcuts
 
@@ -128,14 +122,8 @@ Please note that language is set up at the installation, and cannot be changed a
 
 ## Further Reading
 
-Adobe Campaign Standard strives to provide an ever increasing degree of accessibility, making the product easy to use for everyone.
+Adobe Campaign Standard strives to provide an ever-increasing degree of accessibility, making the product easy to use for everyone.
 
-We encourage you to use the [Adobe Accessibility Feedback Form](https://www.adobe.com/accessibility/feedback.html) to send us improvement suggestions and accessibility issues that you run into. 
+We encourage you to use the [Adobe Accessibility Feedback Form](https://www.adobe.com/accessibility/feedback.html) to send us improvement suggestions and accessibility issues that you run into.
 
-· [Product] user guide and general help documentation
-
-· [Product] release roadmap (if available publicly)
-
-· [Product] release notes (link to)
-
-·
+You can also refer to [Adobe Campaign Standard release notes](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=en#release-notes) to follow the latest improvements and features.
