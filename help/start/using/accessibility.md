@@ -1,11 +1,11 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Accessibility in Email Designer
-description: Learn about accessibility in Email Designer.
+title: Accessibility in Adobe Campaign Standard
+description: Learn about accessibility support in Adobe Campaign Standard Workspace.
 audience: designing
 content-type: reference
-topic-tags: editing-email-content
+topic-tags: accessibility
 
 ---
 
@@ -35,7 +35,7 @@ Adobe Campaign Standard user interface strives to provide enough contrast in the
 
 ### User interface {#user-interface}
 
-Adobe Campaign Standard user interface makes it easier for users to see and hear content including separating foreground from background.
+Adobe Campaign Standard user interface makes it easier for users to see and hear content including separating foreground from background and adding alternative texts to the different available buttons.
 
 * When the user leaves a required ID field blank, a graphic indicates visually which field is in error with an error message text.
 
