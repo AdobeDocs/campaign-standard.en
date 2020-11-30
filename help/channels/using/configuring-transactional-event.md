@@ -110,7 +110,7 @@ This information can also be stored in new resources. In that case, the resource
 
 ![](assets/message-center_usecaseschema.png)
 
-For more on resource creation and publishing, see [this section](../../developing/using/key-steps-to-add-a-resource.md).
+For more on creating and publishing resources, see [this section](../../developing/using/key-steps-to-add-a-resource.md).
 
 1. In the **[!UICONTROL Enrichment]** section, click the **[!UICONTROL Create element]** button.
 

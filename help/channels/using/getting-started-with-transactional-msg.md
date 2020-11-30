@@ -84,7 +84,7 @@ Two types of transactional messages are available in Adobe Campaign:
 
 * Leverage the transactional messages in the customer journey.
 
-The message type is defined when configuring the event that will be transformed into a transactional message. See [Transactional messaging configuration](../../channels/using/configuring-transactional-event.md#transactional-event-specific-configurations).
+The message type is defined when configuring the event that will be transformed into a transactional message. See [this section](../../channels/using/configuring-transactional-event.md#transactional-event-specific-configurations).
 
 >[!IMPORTANT]
 >
@@ -130,7 +130,7 @@ Creating and publishing an event are presented in the [Configuring a transaction
 
 | Action | Result | User |
 |--- |--- |--- |
-| Edit and personalize the transactional message, test it, and then publish it. | The transactional message will then be ready to be sent. | This step can be performed by any marketing user with [standard user access rights](../../administration/using/users-management.md#basic-users). |
+| Edit and personalize the transactional message, test it, and then publish it. | The transactional message is then be ready to be sent. | This step can be performed by any marketing user with [standard user access rights](../../administration/using/users-management.md#basic-users). |
 
 For more on editing and publishing a transactional message, see [Editing transactional messages](../../channels/using/editing-transactional-message.md) and [Transactional message lifecycle](../../channels/using/publishing-transactional-message.md).
 

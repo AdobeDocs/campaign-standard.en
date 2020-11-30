@@ -44,7 +44,7 @@ The way you can personalize a message content depends on the type of transaction
 
 ### Profile-based transactional messages
 
-* The personalization information can come from the data contained in the event or from the reconciled profile record. See [Profile-based transactional message configuration](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages).
+* The personalization information can come from the data contained in the event or from the reconciled profile record. See [Profile-based transactional message configuration](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages) and [Profile-based transactional message specificities](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities).
 * You **can** use **[!UICONTROL Unsubscription link]** content blocks in a profile transactional message. See [Adding a content block](../../designing/using/personalization.md#adding-a-content-block).
 * Fatigue rules are compatible with profile transactional messages. See [Fatigue rules](../../sending/using/fatigue-rules.md).
 
