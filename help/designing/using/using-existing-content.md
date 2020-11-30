@@ -158,7 +158,7 @@ For more on converting an existing email into an Email Designer-compatible email
 **Related topic**:
 
 * [Creating an email](../../channels/using/creating-an-email.md)
-* [Introduction video to the Email Designer](../../designing/using/overview.md#video)
+* [Introduction video to the Email Designer](../../designing/using/designing-content-in-adobe-campaign.md#video)
 * [Designing an email content from scratch](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
 ## Converting HTML content {#converting-an-html-content}

@@ -131,7 +131,7 @@ To use it, create an email and select the content template that you just created
 **Related topic**:
 
 * [Creating an email](../../channels/using/creating-an-email.md)
-* [Introduction video to the Email Designer](../../designing/using/overview.md#video)
+* [Introduction video to the Email Designer](../../designing/using/designing-content-in-adobe-campaign.md#video)
 * [Designing an email content from scratch](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
 ### Tutorial video {#video}
