@@ -1,4 +1,4 @@
-#Dynamics 365 to Campaign
+#Dynamics 365 to Campaign - List of Table Mappings
 
 The Dynamics 365 to Campaign page shows a list of tables in Dynamics 365 and with which tables in Adobe Campaign that 
 they will by syncronized.   The contact-to-profile table mapping will be added out-of-the box and should continue to 
@@ -21,15 +21,25 @@ this table:
 
 * Actions
 
-  - <u>Edit</u>: Clicking on this button will take you to a page that will allow you to edit this mapping.   Remember 
+  - ![](assets/d365-to-acs-icon-edit.png) Edit 
+    
+    Clicking on this button will take you to a page that will allow you to edit this mapping.   Remember 
     that your updates will not be recognized by the integration app until you return to the Workflows page and 
     stop/start the "Dynamics 365 to Campaign" workflow.
   
-  - <u>Replay Data</u>: This button will allow you to re-synchronize (a.k.a replay) all the data in the Dynamics 365
+  - ![](assets/d365-to-acs-icon-replay-enabled.png) Replay Data 
+  
+    This button will allow you to re-synchronize (a.k.a replay) all the data in the Dynamics 365
     table.   Normally the integration app will only synchronize the data in Dynamics 365 that has changed recently.
     However, in some cases (you've made a change or made a mistake) you might want all the data to be 
     syncronized.  In these cases, you would click this button and the next time you stop/start the "Dynamics 365 to
-    Campaign" workflow (in the Workflows page), your data would start to synchronize.  
+    Campaign" workflow (in the Workflows page), your data would start to synchronize.
+    
+    If you click on the replay button and the checks are successful, then the icon will become disabled (see directly
+    below).   When this occurs, it indicates that the data for this table mapping pair will be "replayed" the next time
+    the "Dynamics 365 to Adobe Campaign"
+     
+    ![](assets/d365-to-acs-icon-replay-disabled.png)  
     
     You cannot deselect the "replay data" button once you have selected it.   Consequently, the replay data buttons 
     will be disabled.   These buttons will not be re-enabled until the next time you return to the Workflows page and 
@@ -49,7 +59,7 @@ this table:
     >   workflow (displayed in the Workflows page)
     > * If there are 2,000,000 or more records in the Dynamics 365 Table.
   
-  - <u>Delete</u>:   
+  - ![](assets/d365-to-acs-icon-delete.png) Delete   
     
     This allows you to delete a table mapping.   Remember that this deletion will not be recognized by the integration
     app until you return to the Workflows page and stop/start the "Dynamics 365 to Campaign" workflow. 

@@ -49,10 +49,35 @@ Here is a description of what the values mean under each of the columns in the "
   
   Actions refer to actions that you can take on the workflow.    You have the option to 
   
-  - <u>Edit</u>: Clicking the pencil icon will send you to another page that will allow you to make updates to the 
+  - ![](assets/d365-to-acs-icon-edit.png) Edit  
+  
+    Clicking the pencil icon will send you to another page that will allow you to make updates to the 
     workflow.   Keep in mind that any changes you make will NOT take effect until you stop the worflow and then restart
     it.
   
-  - <u>Stop/Start</u>: The start/stop button is a toggle.   If the workflow processes are currently stopped, then it's
-    a Start button request that the workflow be started.   However, if the workflow processes are running, then this 
-    button makes a request to stop the processes. 
+  - ![](assets/d365-to-acs-icon-start.png) Start 
+    
+    A Start button requests that a stopped workflow be started.   This button will only appear when the processes 
+    associated with the workflow are currently stopped.   The processes are able to start immediately, so expect that
+    state will first change to "STARTING" and then to "RUNNING".   The data associated with the workflow will not start 
+    synching until the workflow is in a RUNNNING state. 
+    
+    The start button is a toggle.   If the workflow processes have been started already, then the button will change to 
+    a "Stop" button.  See the next bullet (directly below) for more information about stop.
+    
+  - ![](assets/d365-to-acs-icon-stop.png) Stop
+  
+    A Stop button requests that a running workflow be stopped.   This button will only appear when the processes 
+    associated with the workflow are currently running.
+    
+    The Stop button is a toggle.   If the workflow processes have been stopped already, then the button will change to 
+    a "Start" button.  See the previous bullet (directly below) for more information about stop.
+    
+    It's important to understand that when you edit a workflow that your updates are NOT immediately incorporated into 
+    the running processes' rules.   It's not until you stop the workflow (by clicking the stop button) and then click 
+    the Start button that your updates will be incorporated into the running processes (once the process returns to a a 
+    "RUNNING" state).  A warning indication is added to the Stop button to let you know when you've (a) made updates to
+    workflow, but (b) have not done a Stop/Start of this workflow.   When the indicator is prsent then the stop button 
+    will look like the following:
+     
+    ![](assets/d365-to-acs-icon-stop-with-changes.png)
