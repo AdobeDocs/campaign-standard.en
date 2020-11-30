@@ -17,9 +17,7 @@ To send a transactional message with Adobe Campaign, you first need to describe 
 >
 >Event configuration must be performed by an [administrator](../../administration/using/users-management.md#functional-administrators).
 
->[!NOTE]
->
->The configuration varies depending on the type of transactional message you want to send. For more on this, see [Transactional event specific configurations](#transactional-event-specific-configurations).
+The configuration varies depending on the [type of transactional message](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types) you want to send, and on the channel that will be used. For more on this, see [Transactional event specific configurations](#transactional-event-specific-configurations).
 
 Once configuration is done, the event must be published. See [Publishing transactional event](../../channels/using/publishing-transactional-event.md).
 
@@ -168,7 +166,7 @@ To access and search the transactional events already created, follow the steps 
 
 ## Specific configurations {#transactional-event-specific-configurations}
 
-Transactional event configuration may vary depending on the [type of transactional message](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types) you want to send (event or profile), and the channel that will be used.
+Transactional event configuration may vary depending on the [type of transactional message](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types) you want to send (event or profile), and on the channel that will be used.
 
 The following sections detail what specific configuration should be set according to the desired transactional message. For more on the general steps to configure an event, refer to [Creating an event](#creating-an-event).
 

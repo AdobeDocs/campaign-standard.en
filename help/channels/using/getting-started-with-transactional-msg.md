@@ -166,7 +166,7 @@ For more on integrating the event into your website, see [Transactional event tr
 
 | Action | Result | User |
 |--- |--- |--- |
-| Once all of these steps have been carried out, the message can be delivered when the conditions are met, i.e. in this example: as soon as a user leaves the site without ordering the products in their cart. | The corresponding Campaign event is triggered, and the user automatically receives a notification email. | Here the user is the visitor of the website. |
+| Once all of these steps have been carried out, the message can be delivered when the conditions are met. In this example, this delivery is triggered as soon as a user leaves the site without ordering the products in their cart. | The corresponding Campaign event is triggered, and the user automatically receives a notification email. | Here the user is the visitor of the website. |
 
 ## Key steps {#key-steps}
 

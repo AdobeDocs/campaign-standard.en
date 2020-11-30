@@ -39,6 +39,12 @@ To access the transactional message that you created:
 
 To set up personalization in a transactional message, follow the steps below.
 
+>[!NOTE]
+>
+>This section describes how to personalize an **event-based** transactional message.  The configuration steps to create an event-based transactional message are presented in [this section](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages).
+>
+>The **profile-based** transactional message specificities are detailed [below](#profile-transactional-message-specificities).
+
 For example, you want to send a notification to your website users who have added products to their cart and leave the site without going through with their purchases. This example is presented in the [Transactional messaging operating principle](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) section.
 
 1. Click the **[!UICONTROL Content]** block to modify your message's subject and content. For this example, select any template containing images and text. For more on email content templates, see [Designing emails using templates](../../designing/using/using-reusable-content.md#designing-templates).
@@ -197,8 +203,9 @@ For more on creating a collection and related fields when configuring the event,
 
 You can send transactional messages based on customer marketing profiles, which allows you to leverage all profile information to personalize the message content, use the unsubscription link, and apply marketing typology rules such as [fatigue rules](../../sending/using/fatigue-rules.md).
 
-For more on the differences between event-based and profile-based transactional messages, see [this section](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types).
+* For more on the differences between event-based and profile-based transactional messages, see [this section](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types).
 
+* The configuration steps to create a profile-based transactional message are detailed in [this section](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages).
 
 ### Editing a profile transactional message {#editing-profile-transactional-message}
 
@@ -219,7 +226,7 @@ The differences are listed below.
 
 1. Also, as opposed to configurations based on real-time events, you have **direct access to all profile information** to personalize your message. You can add [personalization fields](../../designing/using/personalization.md#inserting-a-personalization-field) as you would do for any other standard marketing email.
 
-1. Save your changes and publish the message. See [Publishing a transactional message](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message).
+1. Save your changes before publishing the message. For more on this, see [Publishing a transactional message](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message).
 
 ### Monitoring a profile transactional message delivery {#monitoring-a-profile-transactional-message-delivery}
 
