@@ -113,10 +113,12 @@ title: Campaign Standard Guide
   + Transactional messaging {#transactional-messaging}
        + [Getting started with transactional messaging](channels/using/getting-started-with-transactional-msg.md)
        + [Transactional messaging limitations](channels/using/transactional-messaging-limitations.md)
-       + [Configuring a transactional event](channels/using/configuring-transactional-event.md)
-       + [Publishing a transactional event](channels/using/publishing-transactional-event.md)
-       + [Editing a transactional message](channels/using/editing-transactional-message.md)
-       + [Publishing a transactional message](channels/using/publishing-transactional-message.md)
+       + Event configuration {#event-configuration}
+          + [Configuring a transactional event](channels/using/configuring-transactional-event.md)
+          + [Publishing a transactional event](channels/using/publishing-transactional-event.md)
+       + Transactional message edition {#transactional-message-edition}
+          + [Editing a transactional message](channels/using/editing-transactional-message.md)
+          + [Publishing a transactional message](channels/using/publishing-transactional-message.md)
        + [Transactional event triggering](channels/using/transactional-event-triggering.md)
        + [Transactional push notifications](channels/using/transactional-push-notifications.md)
        + [Follow-up messages](channels/using/follow-up-messages.md)
