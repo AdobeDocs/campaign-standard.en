@@ -32,7 +32,7 @@ The main steps to implement this use case are as follows. To see a graphical rep
 
 1. Create a new event using the **[!UICONTROL Email]** channel. See [Creating an event](../../channels/using/configuring-transactional-event.md#creating-an-event)
 
-1. Select the **[!UICONTROL Profile event]** targeting dimension to create a [profile-based transactional message](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages).
+1. Select the **[!UICONTROL Profile]** targeting dimension to create a [profile-based transactional message](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages).
 
 1. Define the attributes that will be available to personalize the transactional message. In this example, add the "CRM ID" and the "Product identifier" fields. See [Defining the event attributes](../../channels/using/configuring-transactional-event.md#defining-the-event-attributes).
 

@@ -9,13 +9,13 @@ topic-tags: landing-pages
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 ---
 
-# Transactional messaging limitations {#transactional-messaging-limitations}
+# Transactional messaging best practices {#transactional-messaging-limitations}
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">
 
-The section below lists the limitations you should be aware of before starting creating transactional messages.
+The section below lists the best practices and limitations you should be aware of before starting creating transactional messages.
 
-For more on transactional messages, including on how to configure and create them, see [Getting started with transactional messaging](../../channels/using/getting-started-with-transactional-msg.md).
+<!--For more on transactional messages, including on how to configure and create them, see [Getting started with transactional messaging](../../channels/using/getting-started-with-transactional-msg.md).-->
 
 >[!IMPORTANT]
 >
@@ -48,7 +48,9 @@ The way you can personalize a message content depends on the type of transaction
 * You **can** use **[!UICONTROL Unsubscription link]** content blocks in a profile transactional message. See [Adding a content block](../../designing/using/personalization.md#adding-a-content-block).
 * Fatigue rules are compatible with profile transactional messages. See [Fatigue rules](../../sending/using/fatigue-rules.md).
 
-Note that product listings are available in transactional email messages only. See [Using product listings in a transactional message](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message).
+### Product listings
+
+Note that product listings are available in transactional **email messages** only. See [Using product listings in a transactional message](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message).
 
 ## Permissions and branding {#permissions-and-branding}
 

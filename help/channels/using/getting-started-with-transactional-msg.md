@@ -76,7 +76,7 @@ Two types of transactional messages are available in Adobe Campaign:
 
 **Profile transactional messages** are targeting profiles from the Campaign marketing database. With this type of messages, you can:
 
-* Apply [marketing typology rules](../../sending/using/managing-typology-rules.md) or [fatigue rules](../../sending/using/fatigue-rules.md)
+* Apply [marketing typology rules](../../sending/using/managing-typology-rules.md) or [fatigue rules](../../sending/using/fatigue-rules.md).
 
 * Include the unsubscription link within the messages.
 
@@ -92,9 +92,9 @@ The message type is defined when configuring the event that will be transformed 
 
 ## Transactional messaging operating principle {#transactional-messaging-operating-principle}
 
-Let's take the example of a company that has a website and on this website its customers can buy products.
+For example, let's say you are a company with a website where your customers can buy products.
 
-Adobe Campaign allows you to send a notification email to site users who have added products to their cart: when one of them leaves the site without going through with their purchases, a cart abandonment email is automatically sent to them.
+Adobe Campaign allows you to send a notification email to customers who have added products to their cart: when one of them leaves your website without going through with their purchases, a cart abandonment email is automatically sent to them.
 
 The steps for putting this into place are as follows.
 
@@ -166,7 +166,7 @@ For more on integrating the event into your website, see [Transactional event tr
 
 | Action | Result | User |
 |--- |--- |--- |
-| Once all of these steps have been carried out, the message can be delivered when the conditions are met. In this example, this delivery is triggered as soon as a user leaves the site without ordering the products in their cart. | The corresponding Campaign event is triggered, and the user automatically receives a notification email. | Here the user is the visitor of the website. |
+| Once all of these steps have been carried out, the message can be delivered when the conditions are met. In this example, the event is triggered as soon as a user leaves the site without ordering the products in their cart. | The user automatically receives a notification email. | Here the user is the visitor of the website. |
 
 ## Key steps {#key-steps}
 
