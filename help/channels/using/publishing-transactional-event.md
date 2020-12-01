@@ -21,7 +21,7 @@ A chart illustrating the whole transactional messaging publication process, incl
 
 Once publication is done:
 * The corresponding transactional message is automatically created. See [Editing transactional messages](../../channels/using/editing-transactional-message.md).
-* The API that will be used by your website developer is deployed and the transactional events can now be sent. See [Transactional event triggering](../../channels/using/transactional-event-triggering.md).
+* The API that will be used by your website developer is deployed and the transactional events can now be sent. See Integrate event triggering(../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger).
 
 ## Previewing and publishing the event {#previewing-and-publishing-the-event}
 
@@ -29,7 +29,7 @@ Before being able to use the event, you must preview and publish it.
 
 1. Click the **[!UICONTROL API preview]** button to see a simulation of the REST API that will be used by your website developer before it is published.
 
-   Once the event is published, this button also allows you to see a preview of the API in production. See [Transactional event triggering](../../channels/using/transactional-event-triggering.md).
+   Once the event is published, this button also allows you to see a preview of the API in production. See Integrate event triggering(../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger).
 
    ![](assets/message-center_api_preview.png)
 
@@ -61,7 +61,7 @@ Before being able to use the event, you must preview and publish it.
    >
    >* In order for the event to trigger sending a transactional message, you must modify and publish the message that was just created. See [Editing](../../channels/using/editing-transactional-message.md) and [Publishing a transactional message](../../channels/using/publishing-transactional-message.md) sections.
    >
-   >* You also have to [integrate this trigger event](../../channels/using/transactional-event-triggering.md) into your website.
+   >* You also have to [integrate this trigger event](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger) into your website.
 
 1. Once Adobe Campaign starts receiving events related to this event configuration, you can click the **[!UICONTROL Latest transactional events]** link under the **[!UICONTROL History]** section to access the latest events sent by your third-party service and processed by Adobe Campaign.
 
