@@ -27,6 +27,7 @@ title: Campaign Standard Guide
        + [About the interface](start/using/about-the-interface.md)
        + [Interface description](start/using/interface-description.md)
        + [Customizing lists](start/using/customizing-lists.md)
+       + [Accessibility](start/using/accessibility.md)
   + Working with marketing activities {#marketing-plans}
        + [Programs and campaigns](start/using/programs-and-campaigns.md)
        + [Marketing activities](start/using/marketing-activities.md)
