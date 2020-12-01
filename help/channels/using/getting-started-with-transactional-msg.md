@@ -62,9 +62,13 @@ The message type is defined when configuring the event that will be transformed 
 
 ## Transactional messaging operating principle {#transactional-messaging-operating-principle}
 
+The transactional messaging overall process can be described as follows:
+
+![](assets/message-center-process.png)
+
 For example, let's say you are a company with a website where your customers can buy products.
 
-Adobe Campaign allows you to send a notification email to customers who have added products to their cart: when one of them leaves your website without going through with their purchases, a cart abandonment email is automatically sent to them.
+Adobe Campaign allows you to send a notification email to customers who have added products to their cart: when one of them leaves your website without going through with their purchases (external event which triggers a Campaign event), a cart abandonment email is automatically sent to them (transactional message delivery).
 
 <!--The steps for putting this into place are detailed below.-->
 
@@ -73,6 +77,8 @@ Adobe Campaign allows you to send a notification email to customers who have add
 The main steps when creating and managing personalized transactional messages in Adobe Campaign are summarized in the chart below.
 
 ![](assets/message-center-overview.png)
+
+Each of these steps is further detailed below.
 
 ### Step 1 - Create and publish the event configuration {#create-event-configuration}
 
@@ -126,11 +132,7 @@ For more on editing and publishing a transactional message, see [Editing transac
 |--- |--- |--- |
 | This step is performed by the developer of your website. | Use the REST Transactional Messages API to integrate the event into your website. | The event will be triggered when a client abandons their cart. |
 
-Once you have created an event, you need to integrate the triggering of this event into your website.
-
-In the example described in the [Transactional messaging operating principle](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) section, you want a "Cart abandonment" event to be triggered whenever one of your clients leaves your website before purchasing the products in their cart.
-
-To do this, your website web developer must use the **Adobe Campaign Standard REST API**.
+Once you have created an event, you need to integrate the triggering of this event into your website.<!--In this example, you want a "Cart abandonment" event to be triggered whenever one of your clients leaves your website before purchasing the products in their cart.--> To do this, your website web developer must use the **Adobe Campaign Standard REST API**.
 
 For more on using the Campaign REST API to manage transactional messages, see the [REST API documentation](../../api/using/managing-transactional-messages.md).
 
@@ -140,17 +142,15 @@ For more on using the Campaign REST API to manage transactional messages, see th
 
 <img src="assets/do-not-localize/icon_channels.svg" width="60px">
 
-<!--**External event coming from your website**
+<!--**External event coming from your website**-->
 
-* Once all of these steps have been carried out, the message can be delivered.
+Once all of these steps have been carried out, the message can be delivered.
 
-* As soon as a user leaves the site without ordering the products in their cart, the corresponding Campaign event is triggered.
+As soon as a user leaves the site without ordering the products in their cart, the corresponding Campaign event is triggered. The user automatically receives a notification email.
 
-* The user then automatically receives a notification email.-->
-
-| User | Action | Result |
+<!--| User | Action | Result |
 |--- |--- |--- |
-| Here the user is the visitor of the website. | Once all of these steps have been carried out, the message can be delivered when the conditions are met. In this example, the event is triggered as soon as a user leaves the site without ordering the products in their cart. | The user automatically receives a notification email. |
+| Here the user is the visitor of the website. | Once all of these steps have been carried out, the message can be delivered when the conditions are met. In this example, the event is triggered as soon as a user leaves the site without ordering the products in their cart. | The user automatically receives a notification email. |-->
 
 ## Related topics
 

@@ -9,7 +9,7 @@ topic-tags: landing-pages
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 ---
 
-# Transactional messaging best practices {#transactional-messaging-limitations}
+# Transactional messaging best practices and limitations {#transactional-messaging-limitations}
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">
 
