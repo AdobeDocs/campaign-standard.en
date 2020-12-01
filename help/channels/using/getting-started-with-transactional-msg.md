@@ -84,14 +84,6 @@ Each of these steps is further detailed below.
 
 <img src="assets/do-not-localize/icon_config.svg" width="60px">
 
-<!--**Transactional event configuration**
-
-* Configure an event that will be named "Cart abandonment" and publish this event configuration.
-
-* The API that will be used by your website developer is deployed and a transactional message is automatically created.
-
-* Note that this step must be performed by a user with [administration rights](../../administration/using/users-management.md#functional-administrators).-->
-
 | User | Action | Result |
 |--- |--- |--- |
 | This step must be performed by a user with [administration rights](../../administration/using/users-management.md#functional-administrators). | Configure an event that will be named "Cart abandonment" and publish this event configuration. | The API that will be used by your website developer is deployed and a transactional message is automatically created. |
@@ -101,14 +93,6 @@ Creating and publishing an event are presented in the [Configuring a transaction
 ### Step 2 - Edit and publish the transactional message {#create-transactional-message}
 
 <img src="assets/do-not-localize/icon_notification.svg" width="40px">
-
-<!--**Transactional message edition**
-
-* Edit and personalize the transactional message, test it, and then publish it.
-
-* The transactional message will then be ready to be sent.
-
-* This step can be performed by any marketing user with [standard user access rights](../../administration/using/users-management.md#basic-users).-->
 
 | User | Action | Result |
 |--- |--- |--- |
@@ -120,13 +104,7 @@ For more on editing and publishing a transactional message, see [Editing transac
 
 <img src="assets/do-not-localize/icon_api.svg" width="55px">
 
-<!--**Event triggering integration**
-
-* Use the REST Transactional Messages API to integrate the event into your website.
-
-* The event will be triggered when a client abandons their cart.
-
-* This step is performed by the developer of your website.-->
+<!--**Event triggering integration**-->
 
 | User | Action | Result |
 |--- |--- |--- |
@@ -136,21 +114,13 @@ Once you have created an event, you need to integrate the triggering of this eve
 
 For more on using the Campaign REST API to manage transactional messages, see the [REST API documentation](../../api/using/managing-transactional-messages.md).
 
-<!--For more on integrating the event into your website, see Integrate event triggering(../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger).-->
-
 ### Step 4 - Message delivery {#message-delivery}
 
 <img src="assets/do-not-localize/icon_channels.svg" width="60px">
 
-<!--**External event coming from your website**-->
-
 Once all of these steps have been carried out, the message can be delivered.
 
 As soon as a user leaves the site without ordering the products in their cart, the corresponding Campaign event is triggered. The user automatically receives a notification email.
-
-<!--| User | Action | Result |
-|--- |--- |--- |
-| Here the user is the visitor of the website. | Once all of these steps have been carried out, the message can be delivered when the conditions are met. In this example, the event is triggered as soon as a user leaves the site without ordering the products in their cart. | The user automatically receives a notification email. |-->
 
 ## Related topics
 
@@ -158,11 +128,3 @@ As soon as a user leaves the site without ordering the products in their cart, t
 * [Get started with communication channels](../../channels/using/get-started-communication-channels.md)
 * [Transactional push notifications](../../channels/using/transactional-push-notifications.md)
 * [Follow-up messages](../../channels/using/follow-up-messages.md)
-
-<!--## Transactional messaging publication process {#transactional-messaging-pub-process}
-
-The chart below illustrates the whole transactional messaging publication process.
-
-![](assets/message-center_pub-process.png)
-
-For more on the event configuration steps, see [Configuring a transactional event](../../channels/using/configuring-transactional-event.md).-->
