@@ -7,10 +7,14 @@ then click [here](self-service-app-ingress-list.md) to get more information abou
 
 The "Edit Table Mapping" page is split up into five sections:
 * [Tables](#tables)
-* [Mappings](#mappings)
+* [Field Mappings](#mappings)
 * [Field Replacements](#field-replacements)
 * [Filters](#filters)
 * [Advanced Settings](#advanced-settings)
+
+Remember that you must click "Save" your updates.    Also remember that after you've saved your page updates that you 
+must return to the "Workflows" page and stop/start the "Dynamics 365 to Campaign" workflow for the changes to be 
+incorporated into the integration logic.
 
 ## Tables {#tables}
 
@@ -106,10 +110,8 @@ to this field will be propagated from Dynamics 365 to Campaign.   If it is switc
 Adobe Campaign as the updates occur.   If you 
 deselect the button (![](assets/d365-to-acs-icon-switch-off.png)) then it means that the value will be propagated when
 data is intially loaded (or replayed), but incremental updates to the field in Dynamics 365 will not be propagated.
-
-    >[!NOTE]
-    > If you click on the "Apply Updates" column heading then it will show you a dialog that will give you the ability
-    > to update ***all*** of the switches to on or off.
+If you click on the "Apply Updates" column heading (![](assets/d365-to-acs-ui-page-ingress-apply-updates-header.png)) then it will show you a dialog that will give you the ability
+to update ***all*** of the switches to on or off.
     
 The button ![](assets/d365-to-acs-icon-delete.png) allows you to delete a single field mapping.
 
@@ -119,19 +121,60 @@ in mind when mapping values from one field to the other.
 ![](assets/d365-to-acs-ui-page-ingress-mappings-fields-selected.png)    
 
     >[!NOTE]
-    > You cannot map more than one Dynamics 365 fields to a single Campaign field.
+    > You cannot map multiple Dynamics 365 fields to a single Campaign field.
 
 ## Field Replacements {#field-replacements}
 
+Field replacements allow you to identify 
+* a Dynamics 365 field name (that has been added above in the field mappings section), 
+* an existing value (that exists in Dynamics 365), and 
+* new value that you want written to Adobe Campaign
+
+A dropdown list will be provided for picklist, enumeration, and boolean values.   A textbox will be used for other
+string and numeric types.
+
+You can add a new field replacement by clicking on this button:  ![](assets/d365-to-acs-ui-page-ingress-add-new-replacement.png)
+
+You can then delete a single replacement by clicking on this button: 
+![](assets/d365-to-acs-icon-delete.png)
+
 ## Filters {#filters}
+
+You can add filters that will determine which fields which Dynamics 365 records will be propagated to Adobe Campaign.
+You can choose any field associated with a record to add to filters (the field name does not need to be added to the
+field mappings).
+
+You can add a new filter by clicking on this button:  ![](assets/d365-to-acs-ui-page-ingress-add-new-filter.png).
+
+You can then delete a single replacement by clicking on this button: 
+![](assets/d365-to-acs-icon-delete.png)
+
+You specify a filter by filling out the following information:
+* Dynamics 365 field name
+* a comparison value, and
+* a value (from Dynamics 365)
+If the field name, comparison, and value evaluates to true for a given record, then the record will be propagated to
+Adobe Campaign.   
+
+You can choose how these filters are evaluated by setting the input labeled "Choose the filter comparison operator".
+If you choose "And" then all of the filters must be true for a record to get propagated to Adobe Campaign.   If you
+choose "Or", then the record will get propagated if any of them evaluate to true.
+
+The input "Do you want to delete records in ACS that will be filtered out from Dynamics 365?" controls whether you 
+want records that have filtered out to be deleted from Adobe Campaign.   If you select "No" then the records will remain
+in Adobe Campaign.   However, if you click "yes", then they will be deleted by the integration logic.
+
+    >[!NOTE]
+    >
+    > If no filters are added then all records that have been modified will be propagated to Adobe Campaign. 
 
 ## Advanced Settings {#advanced-settings}
 
+If the "Apply deletes in Dynamics 365 to Campaign?" input is "Yes" then deletions that occur in Dynamics 365 will cause 
+the integration logic to delete the corresponding field in Adobe Campaign to get deleted (based on the field name
+mapping).   If you, however, select "No" then deletions in Dynamics 365 will be ignored.
 
-* Overview 
-  - Discuss the differences between adding and editing
-  - Reiterate that the changes do not take effect *until* you save it
-* Mappings
-* Replacements
-* Filters
-* Advanced Settings
+Setting the "Use technical values in Dynamics 365 picklists?" input to "No" then display value associated with a 
+Dynamics 365 picklist will be propagated to Adobe Campaign.   If "Yes" is selected then the technical value associated
+with the picklist will propagated to Adobe Campaign.
+

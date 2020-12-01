@@ -245,21 +245,23 @@ breadcrumb-title: Campaign Standard Guide
        + [Request the integration](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
        + [Integration guardrails](integrating/using/ms-dynamics-365-integration-guardrails.md)
        + [Use the Dynamics 365 integration](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)       
-       + Steps for Configuring the Integration {#campaign-and-microsoft-dynamics-365-pre-requisites}
-           + [Configure Dynamics 365 for Campaign integration](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
-           + [Configure Adobe I/O](integrating/using/configure-adobe-io-for-ms-dynamic.md)
-           + [Map Campaign custom resources and Dynamics 365 custom entities](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)           
        + Self-Service Application {#campaign-and-microsoft-dynamics-365-self-service}
-           + [Get Access to the Integration App](integration/using/self-service-app-control-access.md)
-           + [Quick Start Guide](integrating/using/self-service-app-quick-start-guide.md)
-           + [Overview](integrating/using/self-service-app-overview.md)           
-           + [Workflows](integrating/using/self-service-app-workflows.md)
-           + Ingress {#campaign-and-microsoft-dynamics-365-self-service-ingress}
-                + [Table Mappings List](integrating/using/self-service-app-ingress-list.md)
-                + [Editing an Individual Table Mapping](integrating/using/self-service-app-ingress-individual-mapping.md)
-           + [Egress](integrating/using/self-service-app-egress.md)
-           + [Opt in/out](integrating/using/self-service-app-optinout.md)
-           + [Settings](integrating/using/self-service-app-settings.md)
+           + [Overview](integrating/using/self-service-app-overview.md)  
+           + Setup and Access
+                + [Configure Dynamics 365 for Campaign integration](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
+                + [Configure Adobe I/O](integrating/using/configure-adobe-io-for-ms-dynamic.md)
+                + [Map Campaign custom resources and Dynamics 365 custom entities](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
+                + [Get Access to the Integration App](integration/using/self-service-app-control-access.md)
+                + [Quick Start Guide](integrating/using/self-service-app-quick-start-guide.md)                  
+           + User Interface 
+                + [General Usage](integrating/using/self-service-app-general.md)
+                + [Workflows](integrating/using/self-service-app-workflows.md)
+                + Dynamics 365 to Campaign {#campaign-and-microsoft-dynamics-365-self-service-ingress}
+                    + [Table Mappings List](integrating/using/self-service-app-ingress-list.md)
+                    + [Editing an Individual Table Mapping](integrating/using/self-service-app-ingress-individual-mapping.md)
+                + [Campaign to Dynamics 365](integrating/using/self-service-app-egress.md)
+                + [Opt in/out](integrating/using/self-service-app-optinout.md)
+                + [Settings](integrating/using/self-service-app-settings.md)
 + Managing processes and data {#managing-processes-and-data}
   + [Get started with data and processes management](automating/using/get-started-workflows.md)
   + Workflow general operation {#workflow-general-operation}
