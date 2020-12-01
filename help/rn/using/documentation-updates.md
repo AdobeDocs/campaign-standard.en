@@ -17,6 +17,8 @@ In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), 
 
 The Privacy section has been moved. [Read more](../../start/using/privacy.md)
 
+A new page on accessibility has been added to learn more about accessibility support in Adobe Campaign Standard workspace. [Read more](../../start/using/accessibility.md)
+
 ## November 2020 {#doc-updates-november-2020}
 
 The Personal Data and Personas section has been updated with a use case scenario to illustrate how the different personas are interacting when it comes to Privacy. [Read more](../../start/using/privacy.md#use-case-scenario)

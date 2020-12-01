@@ -61,10 +61,6 @@ Adobe Campaign Standard allows you to design and test emails and push notificati
 
 ## Contextual help {#contextual-help}
 
->[!NOTE]
->
-> The contextual help is only available when using the email designer.
-
 The contextual help can help you better understand the different requested fields and features available. It also guides you through product documentation to learn more information on the selected feature.
 
 When designing an email, you can hover your cursor over the information button. A tooltip will appear providing features descriptions and links to the product documentation.
