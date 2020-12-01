@@ -13,15 +13,19 @@ topic-tags: campaign-standard-releases
 
 In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), this page lists all the new updates in Adobe Campaign Standard documentation.
 
+## December 2020 {#doc-updates-december-2020}
+
+The Privacy section has been moved. [Read more](../../start/using/privacy.md)
+
 ## November 2020 {#doc-updates-november-2020}
-
-The Privacy section has been moved and enriched with two new pages: [Privacy management](../../start/using/privacy-management.md) and [Managing Privacy requests](../../start/using/privacy-requests.md).
-
-Information has been added in the Adobe Experience Platform Data Connector section on the data mapping validation error related to privacy management and how to troubleshoot it. [Read more](../../developing/using/aep-mapping-activation.md)
 
 The Personal Data and Personas section has been updated with a use case scenario to illustrate how the different personas are interacting when it comes to Privacy. [Read more](../../start/using/privacy.md#use-case-scenario)
 
 A new section listing Frequently Asked Questions on Privacy has been added. [Read more](../../start/using/privacy-faq.md)
+
+The Privacy section has been moved and enriched with two new pages: [Privacy management](../../start/using/privacy-management.md) and [Managing Privacy requests](../../start/using/privacy-requests.md).
+
+Information has been added in the Adobe Experience Platform Data Connector section on the data mapping validation error related to privacy management and how to troubleshoot it. [Read more](../../developing/using/aep-mapping-activation.md)
 
 ## Release 20.4 - October 2020 {#release-20-4---october-2020}
 
@@ -179,7 +183,7 @@ The Configuring a mobile application documentation and related pages have been u
 
 The Adobe Campaign Standard / Adobe Experience Manager integration documentation has been updated and improved. [Read more](../../integrating/using/configure-experience-manager.md)
 
-The Campaign Email Designer documentation and related pages have been updated to reflect [!DNL Adobe Creative SDK] depreciation. [Read more](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+The Campaign Email Designer documentation and related pages have been updated to reflect [!DNL Adobe Creative SDK] depreciation. [Read more](../../rn/using/deprecated-features.md)
 
 A new section dedicated to Campaign Standard data model best practices is now available. [Read more](../../developing/using/data-model-best-practices.md)
 
@@ -429,7 +433,7 @@ The [SMS connector protocol and settings](https://helpx.adobe.com/campaign/kb/sm
 
 The Get Started Guide has been enriched and reorganized. [Read more](../../start/using/about-campaign-standard.md)
 
-The Deprecated and Removed features page has been updated. [Read more](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+The Deprecated and Removed features page has been updated. [Read more](../../rn/using/deprecated-features.md)
 
 The Dreamweaver integration section has been updated and improved. [Read more](../../designing/using/using-integrations.md#editing-content-in-dreamweaver)
 
@@ -567,7 +571,7 @@ The list of HTML attributes for full compliance with the Creative Designer is no
 
 Added information on default language for multilingual template. [Read more](../../channels/using/multilingual-messages-template.md)
 
-The Users & security guide has been updated to reflect the depreciation of the geographical unit capability for new Campaign Standard instances, as well as existing instances with no geographical units created, starting 18.7 release. [Read more](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+The Users & security guide has been updated to reflect the depreciation of the geographical unit capability for new Campaign Standard instances, as well as existing instances with no geographical units created, starting 18.7 release. [Read more](../../rn/using/deprecated-features.md)
 
 ## Release 18.6 - June 2018 {#release-18-6---june-2018}
 

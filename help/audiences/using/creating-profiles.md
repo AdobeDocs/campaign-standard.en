@@ -17,6 +17,8 @@ In Adobe Campaign, profiles are used by default to define the main target of mes
 >
 >Profiles creation is also possible using the Adobe Campaign Standard API. For more on this, refer to the [dedicated documentation](../../api/using/creating-profiles.md).
 
+![](assets/do-not-localize/how-to-video.png) [Discover how to import profiles using a workflow in video](#video)
+
 To create or update a profile in Campaign, you can:
 
 * Import a profile list from a file, via a [workflow](../../automating/using/creating-import-workflow-templates.md)
@@ -54,7 +56,10 @@ The profile will now appear in the list.
 >[!NOTE]
 >The preferred language field is used to select the language when sending multilingual messages. For more information about the multilingual messages [refer to this page](../../channels/using/creating-a-multilingual-email.md).
 
-**Related topics:**
+## Tutorial video {#video}
 
-* [About landing pages](../../channels/using/getting-started-with-landing-pages.md) step-by-step guide
-* [Importing profiles](https://video.tv.adobe.com/v/24993) video
+This video shows how to import profiles with a workflow.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24993?quality=12)
+ 
+Additional Campaign Standard how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=en).

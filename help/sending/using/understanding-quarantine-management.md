@@ -25,7 +25,7 @@ Some internet access providers automatically consider emails to be spam if the r
 
 Moreover, quarantines help reducing SMS sending costs by excluding erroneous phone numbers from deliveries.
 
-For more on best practices to secure and optimize your deliveries, refer to [this page](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html).
+For more on best practices to secure and optimize your deliveries, refer to [this page](../../sending/using/delivery-best-practices.md).
 
 ### Quarantine vs Denylist {#quarantine-vs-denylist}
 

@@ -23,20 +23,21 @@ title: Campaign Standard Guide
   + [Deprecated Features](rn/using/deprecated-features.md)
 + Getting started {#getting-started}
   + [About Adobe Campaign Standard](start/using/about-campaign-standard.md)
-  + Privacy {#privacy}
-       + [Privacy and consent](start/using/privacy.md)
-       + [Privacy management](start/using/privacy-management.md)
-       + [Privacy requests](start/using/privacy-requests.md)
-       + [Privacy FAQ](start/using/privacy-faq.md)
   + Discovering the interface {#discovering-the-interface}
        + [About the interface](start/using/about-the-interface.md)
        + [Interface description](start/using/interface-description.md)
        + [Customizing lists](start/using/customizing-lists.md)
+       + [Accessibility](start/using/accessibility.md)
   + Working with marketing activities {#marketing-plans}
        + [Programs and campaigns](start/using/programs-and-campaigns.md)
        + [Marketing activities](start/using/marketing-activities.md)
        + [Marketing activity templates](start/using/marketing-activity-templates.md)
        + [Timeline](start/using/timeline.md)
+  + Privacy {#privacy}
+       + [Privacy and consent](start/using/privacy.md)
+       + [Privacy management](start/using/privacy-management.md)
+       + [Privacy requests](start/using/privacy-requests.md)
+       + [Privacy FAQ](start/using/privacy-faq.md)
 + Profiles and audiences {#profiles-and-audiences}
   + [Get started with profiles and audiences](audiences/using/get-started-profiles-and-audiences.md)
   + Managing profiles {#managing-profiles}

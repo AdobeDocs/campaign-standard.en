@@ -39,7 +39,7 @@ Once the request is processed, the encryption / decryption commands will be avai
 
 In this use case, we will build a workflow in order to import data that has been encrypted in an external system, using a key generated in the Control Panel.
 
-A tutorial video showing how to use a GPG key to decrypt data is also available in [this section](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/decrypting-data.html?lang=en#instance-settings).
+![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#video)
 
 The steps to perform this use case are as follows:
 
@@ -83,7 +83,7 @@ The steps to perform this use case are as follows:
 
 In this use case, we will build a workflow in order to encrypt and export data using a key installed on Control Panel.
 
-A tutorial video showing how to use a GPG key to encrypt data is also available in [this section](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/using-a-gpg-key-to-encrypt-data.html?lang=en#instance-settings)).
+![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#video)
 
 The steps to perform this use case are as follows:
 
@@ -116,3 +116,15 @@ The steps to perform this use case are as follows:
     ![](assets/gpg-transfer-encrypt.png)
 
 1. You can now run the workflow. Once it is executed, data target by the query will be exported to the SFTP server into an encrypted .gpg file.
+
+## Tutorial videos {#video}
+
+This video shows how to use a GPG key to decrypt data.
+
+>[!VIDEO](https://video.tv.adobe.com/v/35753?quality=12)
+
+This video shows how to use a GPG key to encrypt data.
+
+>[!VIDEO](https://video.tv.adobe.com/v/36380?quality=12)
+
+Additional Campaign Standard how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=en).
