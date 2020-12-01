@@ -23,7 +23,7 @@ It is an individual and unique communication, sent in real-time by a provider su
 
 * **For example?** It could be a welcome message after creating an account, a confirmation that an order has shipped, an invoice, a message confirming a password change, or a notification after a customer browsed your website...
 
-### How is it sent?
+### Transactional message sending
 
 Adobe Campaign allows you to integrate this functionality with an information system which sends events that are to be transformed into custom transactional messages.
 
