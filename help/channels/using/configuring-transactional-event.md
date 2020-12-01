@@ -190,7 +190,7 @@ To send an event-based transactional message, you first need to create and confi
 
    Once the event has been published, a transactional message linked to the new event is automatically created. In order for the event to trigger sending a transactional message, you must [modify](../../channels/using/editing-transactional-message.md) and [publish](../../channels/using/publishing-transactional-message.md) the message that was just created.
 
-1. Integrate the event into your website (see [Transactional event triggering](../../channels/using/transactional-event-triggering.md)).
+1. Integrate the event into your website (see Integrate event triggering(../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)).
 
 ### Profile-based transactional messages {#profile-based-transactional-messages}
 
@@ -207,7 +207,7 @@ To send a profile-based transactional message, you first need to create and conf
 
    Once the event has been published, a transactional message linked to the new event is automatically created. In order for the event to trigger sending a transactional message, you must [modify](../../channels/using/editing-transactional-message.md) and [publish](../../channels/using/publishing-transactional-message.md) the message that was just created..
 
-1. Integrate the event into your website (see [Transactional event triggering](../../channels/using/transactional-event-triggering.md)).
+1. Integrate the event into your website (see Integrate event triggering(../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)).
 
 ### Transactional push notifications {#transactional-push-notifications}
 

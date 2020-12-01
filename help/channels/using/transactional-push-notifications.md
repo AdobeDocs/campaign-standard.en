@@ -66,7 +66,7 @@ To configure the event, follow the steps below:
 
    Once the event has been published, a transactional push notification linked to the new event is automatically created. You can now modify and publish the message that was just created (see [this section](#sending-event-based-transactional-push-notification)).
 
-1. Integrate the event into your website (see [Transactional event triggering](../../channels/using/transactional-event-triggering.md)).
+1. Integrate the event into your website (see Integrate event triggering(../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)).
 
 ### Sending an event-based transactional push notification {#sending-event-based-transactional-push-notification}
 
@@ -112,7 +112,7 @@ The company will send one transactional push notification per user (identified w
    
    ```
 
-   For more on integrating the triggering of an event into an external system, see [Transactional event triggering](../../channels/using/transactional-event-triggering.md).
+   For more on integrating the triggering of an event into an external system, see Integrate event triggering(../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger).
 
 If the registration token exists, the corresponding user receives a transactional push notification including the following content:
 
@@ -155,7 +155,7 @@ To send a transactional push notification to the Adobe Campaign profiles who hav
 
    Once the event has been published, a transactional push notification linked to the new event is automatically created. You can now modify and publish the message that was just created (see [this section](#sending-profile-based-transactional-push-notification)).
 
-1. Integrate the event into your website (see [Transactional event triggering](../../channels/using/transactional-event-triggering.md)).
+1. Integrate the event into your website (see Integrate event triggering(../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)).
 
 ### Sending a profile-based transactional push notification {#sending-profile-based-transactional-push-notification}
 
@@ -184,7 +184,7 @@ For example, an airline company wants to send a last call for boarding to all Ad
    
    ```
 
-For more on integrating the triggering of an event into an external system, see [Transactional event triggering](../../channels/using/transactional-event-triggering.md).
+For more on integrating the triggering of an event into an external system, see Integrate event triggering(../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger).
 
 The corresponding user receives a transactional push notification including the all personalization elements retrieved from the Adobe Campaign database.
 

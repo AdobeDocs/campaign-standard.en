@@ -136,7 +136,7 @@ Once you have created an event, you need to integrate the triggering of this eve
 
 For more on using the Campaign REST API to manage transactional messages, see the [REST API documentation](../../api/using/managing-transactional-messages.md).
 
-<!--For more on integrating the event into your website, see [Transactional event triggering](../../channels/using/transactional-event-triggering.md).-->
+<!--For more on integrating the event into your website, see Integrate event triggering(../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger).-->
 
 ### Step 4 - Message delivery {#message-delivery}
 
