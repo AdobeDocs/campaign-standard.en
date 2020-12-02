@@ -97,9 +97,11 @@ To retrieve existing content form a URL, follow the steps below:
 1. Define the URL from which the content will be retrieved.
 1. Click **[!UICONTROL Confirm]**.
 
-**Related topic:**
+Discover this feature in video.
 
-[Importing content from a URL](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#Workingwithexistingcontent) video
+>[!VIDEO](https://video.tv.adobe.com/v/25926?quality=12)
+
+Additional Campaign Standard how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=en).
 
 ### Retrieving content from a URL automatically at preparation time {#retrieving-content-from-a-url-automatically-at-preparation-time}
 
@@ -156,7 +158,7 @@ For more on converting an existing email into an Email Designer-compatible email
 **Related topic**:
 
 * [Creating an email](../../channels/using/creating-an-email.md)
-* [Introduction video to the Email Designer](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true)
+* [Introduction video to the Email Designer](../../designing/using/designing-content-in-adobe-campaign.md#video)
 * [Designing an email content from scratch](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
 ## Converting HTML content {#converting-an-html-content}

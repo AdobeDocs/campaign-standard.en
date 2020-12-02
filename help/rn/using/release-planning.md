@@ -48,7 +48,7 @@ Environment updates happen in waves, during the indicated timeframes below. Deta
 
 **Q: What is the impact?**
 
-A: Changes are listed in the [Release Notes](../../rn/using/release-notes.md), including links to related documentation. Adobe also recommends to consult the [Deprecated and Removed Features page](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html). These pages are available for the new release at the Stage environment upgrade date.
+A: Changes are listed in the [Release Notes](../../rn/using/release-notes.md), including links to related documentation. Adobe also recommends to consult the [Deprecated and Removed Features page](../../rn/using/deprecated-features.md). These pages are available for the new release at the Stage environment upgrade date.
 
 **Q: What is the validation process?**
 

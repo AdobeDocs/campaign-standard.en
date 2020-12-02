@@ -13,6 +13,8 @@ context-tags: service,wizard;service,main
 
 In order to be able to manage subscriptions, you first need to create a service and configure it. Configuring a new service allows you to specify the email confirmations that the profiles will receive when they subscribe to or unsubscribe from the service. You will also define the subscription and unsubscription landing pages linked to the service. For example, a service subscription link inserted into an email will automatically direct the profile to the subscription landing page that is specified in the service.
 
+![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#video)
+
 To configure a service:
 
 1. From the advanced menu **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Services]** via the Adobe Campaign logo, add a new service or select an existing service. If you create a new service, simply follow the steps shown on the screen.
@@ -48,7 +50,14 @@ Once a service has been created, you can start promoting it.
 
 **Related topics:**
 
-* [Managing a service and subscriptions](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/services-and-subscriptions.html) video
 * [Promoting a service](../../audiences/using/promoting-a-service.md)
 * [Creating an audience made of subscribers](../../audiences/using/creating-audiences.md#creating-list-audiences)
 * [Linking a landing page to a service](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)
+
+## Tutorial video {#video}
+
+This video shows how to create a service and manage its subscriptions.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24673?quality=12)
+
+Additional Campaign Standard how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=en).

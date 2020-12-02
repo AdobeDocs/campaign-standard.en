@@ -28,11 +28,11 @@ The main steps are as follows:
 1. **Preview** in the Email Designer how the message will display for the profiles.
 1. Send the proofs.
 
-For more information on the global process, refer to the tutorial video available [here](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html).
-
 >[!IMPORTANT]
 >
 >This feature allows you to send profile personal information to external email addresses. Keep in mind that executing privacy requests (GDPR & CCPA) in Campaign Standard WILL NOT execute that request externally.
+
+![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#video)
 
 ## Selecting profiles and substitution addresses {#selecting-profiles}
 
@@ -259,3 +259,11 @@ The main steps for this use case are as follows:
 1. The proofs are sent according to what has been configured in the **[!UICONTROL Profile substitutions]** tab.
 
     ![](assets/substitution_uc_proofs.png)
+
+## Tutorial video {#video}
+
+This video shows how you can test your email messages using Profile substitution.
+
+>[!VIDEO](https://video.tv.adobe.com/v/32368?quality=12)
+
+Additional Campaign Standard how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=en).

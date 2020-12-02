@@ -19,6 +19,8 @@ The specific roles and the corresponding authorizations are detailed in the foll
 
 Administrators can manage users from the Admin console. Users are then automatically synchronized with Adobe Campaign. For more on this, refer to the [Admin console](https://helpx.adobe.com/enterprise/using/users.html) documentation.
 
+![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#video)
+
 To view the users in Adobe Campaign, click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Administration > Users & Security > Users]**.
 
 To access the user management interface from Adobe Campaign, click **[!UICONTROL User administration]**.
@@ -145,3 +147,11 @@ You can then check if your user has been correctly synced to Adobe Campaign:
 1. Click **[!UICONTROL Save]**.
 
 Your user is now ready to use Adobe Campaign Standard.
+
+## Tutorial video (#video)
+
+This video shows ow to manage user access rights.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24671?quality=12)
+
+Additional Campaign Standard how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=en).

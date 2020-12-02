@@ -15,6 +15,8 @@ context-tags: seedMember,overview
 
 The test profiles allow you to target additional recipients who do not match the defined targeting criteria. They are added to a message's audience to detect any fraudulent use of your recipient database or to ensure the emails arrive in the inboxes.
 
+![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#video)
+
 You can manage your test profiles from the advanced menu **[!UICONTROL Profiles & audiences > Test profiles]**.
 
 A test profile contains fictitious contact information, or contact information controlled by the sender, that can then be used in a message in the following contexts:
@@ -58,10 +60,6 @@ A test profile contains fictitious contact information, or contact information c
 
 The test profile will then be added to the list of profiles.
 
-**Related topic:**
-
-[Creating a test profile](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/test-profiles.html) video
-
 ## Editing test profiles {#editing-test-profiles}
 
 To edit a test profile and consult the data that is linked to it, or to modify it:
@@ -72,3 +70,11 @@ To edit a test profile and consult the data that is linked to it, or to modify i
    ![](assets/test_profile_edit.png)
 
 1. Click **[!UICONTROL Save]** if you have entered your changes, or select the name of the test profile then **[!UICONTROL Test profiles]** in the section at the top of the screen to go back to the test profiles dashboard.
+
+## Tutorial video {#video}
+
+This video shows how to create a test profile.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24094?quality=12)
+
+Additional Campaign Standard how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=en).

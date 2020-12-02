@@ -24,6 +24,8 @@ Once marketing campaigns have been executed and the different messages have been
 
 Finally, leverage deliverability guidelines and tools available in Campaign Standard to improve the number of delivered messages and ensure successfull marketing campaigns.
 
+![](assets/do-not-localize/how-to-video.png) [Discover how to send a test email, prepare and send an email delivery in video](#video)
+
 ## Prepare and test {#prepare-test-send}
 
 <img src="assets/do-not-localize/icon_prepare.svg" width="60px">
@@ -83,8 +85,14 @@ Read more:
 ## Additional resources
 
 * [Designing A/B test emails](../../channels/using/designing-an-a-b-test-email.md)
-* [Send a test, prepare, and send an email (video)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/sending-test-preparing-sending-email.html)
-* [Review an email delivery and reports (video)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/reviewing-personalized-email-delivery-and-reports.html)
 * [Getting started with emails](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
 * [Delivery best practices](../../sending/using/delivery-best-practices.md)
 * [Adding a control group](../../sending/using/control-group.md)
+
+## Tutorial video {#video}
+
+This video shows how to send a test email, prepare and then send an email delivery in Campaign Standard.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24013/)
+
+Additional Campaign Standard how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=en).
