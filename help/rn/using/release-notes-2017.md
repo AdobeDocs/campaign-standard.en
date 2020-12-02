@@ -487,7 +487,7 @@ _Workflows_
      <li> Include the unsubscription link within the messages. </li> 
      <li> Add the transactional messages to the global delivery reporting. </li> 
      <li> Leverage the transactional messages in the customer journey. </li> 
-    </ul> For more information, refer to the <a href="../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities">detailed documentation</a>.<br /> </td> 
+    </ul> For more information, refer to the <a href="../../channels/using/profile-transactional-messages.md">detailed documentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Transactional Messaging API<br /> </td> 
