@@ -9,27 +9,27 @@ topic-tags: landing-pages
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 ---
 
-# Transactional messaging limitations {#transactional-messaging-limitations}
+# Transactional messaging best practices and limitations {#transactional-messaging-limitations}
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">
 
-The section below lists the limitations you should be aware of before starting creating transactional messages.
+The section below lists the best practices and limitations you should be aware of before starting creating transactional messages.
 
-For more on transactional messages, including on how to configure and create them, see [Getting started with transactional messaging](../../channels/using/getting-started-with-transactional-msg.md).
+<!--For more on transactional messages, including on how to configure and create them, see [Getting started with transactional messaging](../../channels/using/getting-started-with-transactional-msg.md).-->
 
 >[!IMPORTANT]
 >
->To access transactional messages, you must have administration rights.
+>To access transactional messages, you must have [administration](../../administration/using/users-management.md#functional-administrators) rights.
 
-## Design and publication {#design-and-publication}
+## Event configuration and publication {#design-and-publication}
 
-As you are designing and publishing transactional messages, some of the steps you need to perform cannot be reverted. You need to be aware of the following limitations:
+As you are configuring and publishing transactional events, some of the steps you need to perform cannot be reverted. You need to be aware of the following limitations:
 
-* Only one channel can be used for each event configuration. See [Creating an event](../../administration/using/configuring-transactional-messaging.md#creating-an-event).
+* Only one channel can be used for each event configuration. See [Creating an event](../../channels/using/configuring-transactional-event.md#creating-an-event).
 * Once the event is created, you cannot change the channel. Therefore, if a message is not sent successfully, you need to design the mechanism allowing to send it from another channel using a workflow. See [Workflow data and processes](../../automating/using/get-started-workflows.md).
-* You cannot change the targeting dimension ( **[!UICONTROL Real-time event]** or **[!UICONTROL Profile]** ) after the event is created. See [Creating an event](../../administration/using/configuring-transactional-messaging.md#creating-an-event).
-* It is not possible to rollback a publication, but you can unpublish an event: this operation makes the event and the associated transactional message inaccessible. See [Unpublishing an event](../../administration/using/configuring-transactional-messaging.md#unpublishing-an-event).
-* The only transactional message that can be associated with an event is the message that is automatically created upon publishing that event. See [Previewing and publishing the event](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event).
+* You cannot change the targeting dimension ( **[!UICONTROL Real-time event]** or **[!UICONTROL Profile]** ) after the event is created. See [Creating an event](../../channels/using/configuring-transactional-event.md#creating-an-event).
+* It is not possible to rollback a publication, but you can unpublish an event: this operation makes the event and the associated transactional message inaccessible. See [Unpublishing an event](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
+* The only transactional message that can be associated with an event is the message that is automatically created upon publishing that event. See [Previewing and publishing the event](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
 
 ## Personalization {#personalization}
 
@@ -37,18 +37,20 @@ The way you can personalize a message content depends on the type of transaction
 
 ### Event-based transactional messages
 
-* The personalization information is coming from the data contained in the event itself. See [Event transactional messages](../../channels/using/event-transactional-messages.md).
+* The personalization information is coming from the data contained in the event itself. See [Event-based transactional message configuration](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages).
 * You **cannot** use **[!UICONTROL Unsubscription link]** content blocks in an event transactional message.
-* Event-based transactional messaging is supposed to use only the data that are in the sent event to define the recipient and the message content personalization. However, you can enrich the content of your transactional message using information from the Adobe Campaign database. See [Enriching the transactional message content](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content).
-* As event transactional messages do not contain profile information, they are not compatible with fatigue rules, even in the case of an enrichment with profiles. See [Fatigue rules](../../sending/using/fatigue-rules.md).
+* Event-based transactional messaging is supposed to use only the data that are in the sent event to define the recipient and the message content personalization. However, you can enrich the content of your transactional message using information from the Adobe Campaign database. See [Enriching an event](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) and [Personalizing a transactional message](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
+* As event transactional messages do not contain profile information, they are not compatible with fatigue rules, even in the case of an enrichment with profiles.
 
 ### Profile-based transactional messages
 
-* The personalization information can come from the data contained in the event or from the reconciled profile record. See [Profile transactional messages](../../channels/using/profile-transactional-messages.md).
+* The personalization information can come from the data contained in the event or from the reconciled profile record. See [Profile-based transactional message configuration](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages) and [Profile-based transactional message specificities](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities).
 * You **can** use **[!UICONTROL Unsubscription link]** content blocks in a profile transactional message. See [Adding a content block](../../designing/using/personalization.md#adding-a-content-block).
 * Fatigue rules are compatible with profile transactional messages. See [Fatigue rules](../../sending/using/fatigue-rules.md).
 
-Note that product listings are available in transactional email messages only. See [Using product listings in a transactional message](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message).
+### Product listings
+
+Note that product listings are available in transactional **email messages** only. See [Using product listings in a transactional message](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message).
 
 ## Permissions and branding {#permissions-and-branding}
 
@@ -67,4 +69,4 @@ Therefore, if you want to use multi-branding in the context of transactional mes
 ## Exporting and importing transactional messages {#exporting-and-importing-transactional-messages}
 
 * To export a transactional message, you need to include the corresponding event configuration when [creating the package export](../../automating/using/managing-packages.md#creating-a-package).
-* Once the transactional message is [imported through a package](../../automating/using/managing-packages.md#importing-a-package), it is not displayed in the transactional message list. You need to [publish](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event) the event configuration in order to make the associated transactional message available.
+* Once the transactional message is [imported through a package](../../automating/using/managing-packages.md#importing-a-package), it is not displayed in the transactional message list. You need to [publish](../../channels/using/publishing-transactional-event.md) the event configuration in order to make the associated transactional message available.

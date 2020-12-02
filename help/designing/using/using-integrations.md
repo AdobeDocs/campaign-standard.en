@@ -44,7 +44,7 @@ Email content can be edited in Experience Manager and then used for one or sever
 >title="Using product listings"
 >abstract="The product listings allows you to reference a data collection and display it in the email content."
 
-The product listings allows you to reference one or more data collections in the email content. These listings are available for transactional emails. A dedicated section for this feature is available [here](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message).
+The product listings allows you to reference one or more data collections in the email content. These listings are available for transactional emails. A dedicated section for this feature is available [here](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message).
 
 ## Email design options comparison {#email-design-options-comparison}
 
