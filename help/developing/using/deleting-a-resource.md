@@ -51,5 +51,4 @@ Your resource is deleted from the data model.
 
 >[!NOTE]
 >
->If a field of a custom resource used on an event is modified or deleted, the corresponding event will automatically be unpublished. See [Configuring transactional messaging](../../administration/using/configuring-transactional-messaging.md).
-
+>If a field of a custom resource used on an event is modified or deleted, the corresponding event will automatically be unpublished. See [Unpublishing a transactional event](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).

@@ -68,7 +68,7 @@ All communication channels in Adobe Campaign must be correctly configured to be 
 
 Configure various **email** parameters: processing rules for bounce, quarantines, email properties and routing parameters, typoly rules. Define routing configurations and properties for the **SMS** channel, as well as SMS encoding and formats.
 
-Set up **mobile applications** in order to be able to send In-App messages and push notifications using Adobe Experience Platform SDKs, and configure **transactional messaging** by creating and setting up events.
+Set up **mobile applications** in order to be able to send In-App messages and push notifications using Adobe Experience Platform SDKs.
 
 Read more:
 
@@ -76,7 +76,6 @@ Read more:
 * [Configuring email channel](../../administration/using/configuring-email-channel.md)
 * [Configuring SMS channel](../../administration/using/configuring-sms-channel.md)
 * [Configuring a mobile application](../../administration/using/configuring-a-mobile-application.md)
-* [Configuring transactional messaging](../../administration/using/configuring-transactional-messaging.md)
 
 ## Application settings {#application-settings}
 
