@@ -38,7 +38,7 @@ You can send an offer via email on the anniversary of the customer's profile cre
 1. To select recipients, drag and drop a [Query](../../automating/using/query.md) activity and double-click it.
 1. Add **[!UICONTROL Profiles]** and select **[!UICONTROL no longer contact by email]** with the value **[!UICONTROL no]**.
 
-### Retriving profiles created on the same day as the day of execution {#retriving-profiles-created-on-the-same-day}
+### Retrieving profiles created on the same day as the day of execution {#retrieving-profiles-created-on-the-same-day}
 
 1. In **[!UICONTROL Profile]**, drag and drop the **[!UICONTROL Created]** field. and click on **[!UICONTROL Advanced Mode]**.
 ![](assets/advanced_mode.png)
@@ -58,7 +58,7 @@ You should end up with:
 
 Click **[!UICONTROL Confirm]**.
 
-### Retriving profiles created on the same month as the month of execution{#retriving-profiles-created-on-the-same-month}
+### Retrieving profiles created on the same month as the month of execution{#retrieving-profiles-created-on-the-same-month}
 
 1. On the **[!UICONTROL Query]** editor, select the first query and duplicate it. 
 1. Open the duplicate.

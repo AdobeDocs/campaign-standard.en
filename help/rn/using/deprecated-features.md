@@ -43,7 +43,7 @@ Customers are advised to review if they make use of the feature/capability in th
    <td> <p> Starting 20.1 release, SDK v4 is deprecated. <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">Learn more</a>.</p><br/>
    <p>The <a href="https://aep-sdks.gitbook.io/docs/">Adobe Experience Platform Mobile SDK</a> (previously referred to as v5) will exclusively support upcoming Adobe Experience Cloud features and functionality.</p></br>
      <p>
-     <em>Target removal date: September 30, 2020</em></p>
+     <em>Target removal date: August 31, 2021</em></p>
      </td> 
   </tr> 
  </tbody> 
@@ -73,10 +73,10 @@ Customers are advised to review if they make use of the feature/capability in th
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Starting Campaign 19.0 release, the legacy email editor is deprecated. Use <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">the new Email Designer</a> to create and personalize your email content. </p></br>
-   <p>Read out <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">this section</a> to learn how to adapt your email templates for the new editor.</p></br>
+   <td> <p>Starting Campaign 19.0 release, the legacy email editor is deprecated. Use <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">Campaign Email Designer</a> to create and personalize your email content. </p></br>
+   <p>Read out <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">this section</a> to learn how to adapt your email templates for the new editor.</p></br>
   <p> 
-  <em>Target removal date: 2021</em></p>
+  <em>Target removal date: end of 2021</em></p>
    </td> 
   </tr> 
  </tbody> 
@@ -108,7 +108,7 @@ This section lists features and capabilities that have been removed from Campaig
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>The <b>Propensity Score</b> has been decommissioned from Adobe Experience Cloud Triggers. As a consequence, this option has been removed from Adobe Campaign Standard. To avoid any outdated values of Propensity score in the Enrichment schemas, we recommend updating schemas to retrieve the latest changes and republishing existing Triggers. For more information, refer to <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html#publishing-trigger-in-campaign"> Publishing a trigger in Campaign </a>.
+   <td> <p>The <b>Propensity Score</b> has been decommissioned from Adobe Experience Cloud Triggers. As a consequence, this option has been removed from Adobe Campaign Standard. To avoid any outdated values of Propensity score in the Enrichment schemas, we recommend updating schemas to retrieve the latest changes and republishing existing Triggers. For more information, refer to <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html"> Publishing a trigger in Campaign </a>.
 </p></br>
    </td> 
   </tr> 
@@ -139,7 +139,7 @@ This section lists features and capabilities that have been removed from Campaig
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Campaign and Adobe Experience Cloud has dropped support for Microsoft Internet Explorer 11 starting Spring 2019, and Campaign 19.2 release. Please switch to Microsoft Edge or another supported browser. <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/administrating/about-configuration-guidelines.html#compatible-browsers">Learn more</a>.</p>
+   <td> <p>Adobe Campaign and Adobe Experience Cloud has dropped support for Microsoft Internet Explorer 11 starting Spring 2019, and Campaign 19.2 release. Please switch to Microsoft Edge or another supported browser. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/about-configuration-guidelines.html">Learn more</a>.</p>
    </td> 
   </tr> 
  </tbody> 

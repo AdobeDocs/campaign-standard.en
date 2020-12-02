@@ -111,7 +111,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
   </tr> 
   <tr> 
    <td> User management<br /> </td> 
-   <td> The geographical unit capability is now unavailable for new Campaign Standard instances, as well as existing instances with no geographical units created, starting 18.7 release.<br /> For more information, refer to this <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">page</a>.<br /> </td> 
+   <td> The geographical unit capability is now unavailable for new Campaign Standard instances, as well as existing instances with no geographical units created, starting 18.7 release.<br /> For more information, refer to this <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">page</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
