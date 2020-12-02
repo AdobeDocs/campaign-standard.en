@@ -17,6 +17,8 @@ In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), 
 
 The Privacy section has been moved. [Read more](../../start/using/privacy.md)
 
+The Transactional messaging section has been reorganized and improved, with a clarified getting started section including [enhanced charts](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle), and an [end-to-end use case](../../channels/using/transactional-messaging-use-case.md) to illustrate the full process. [Read more](../../channels/using/getting-started-with-transactional-msg.md)
+
 ## November 2020 {#doc-updates-november-2020}
 
 The Personal Data and Personas section has been updated with a use case scenario to illustrate how the different personas are interacting when it comes to Privacy. [Read more](../../start/using/privacy.md#use-case-scenario)
