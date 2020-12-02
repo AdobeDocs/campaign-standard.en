@@ -66,11 +66,10 @@ Transactional messages are available for the email, SMS and push notification ch
 
 Read more:
 
+* [About transactional messaging](../../channels/using/getting-started-with-transactional-msg.md)
 * [Getting started with transactional messaging](../../channels/using/getting-started-with-transactional-msg.md)
-* [Configuring a transactional event](../../channels/using/configuring-transactional-event.md)
-* [Publishing a transactional event](../../channels/using/publishing-transactional-event.md)
-* [Editing a transactional message](../../channels/using/editing-transactional-message.md)
-* [Publishing a transactional message](../../channels/using/publishing-transactional-message.md)
+* [Event transactional messages](../../channels/using/event-transactional-messages.md)
+* [Profile transactional messages](../../channels/using/profile-transactional-messages.md)
 * [Transactional push notifications](../../channels/using/transactional-push-notifications.md)
 * [Follow-up messages](../../channels/using/follow-up-messages.md)
 

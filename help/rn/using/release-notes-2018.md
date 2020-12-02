@@ -320,7 +320,7 @@ _Custom resources_
     <ul> 
      <li> Leverage custom fields as a reconciliation criteria to match a transactional message to a profile </li> 
      <li> Leverage full profiles, services and linked data to further personalize transactional messages </li> 
-    </ul> For more information, refer to the <a href="../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content">detailed documentation</a>.<br /> </td> 
+    </ul> For more information, refer to the <a href="../../administration/using/configuring-transactional-messaging.md">detailed documentation</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -45,11 +45,11 @@ A recommendation has been added to the workflows best practices on the number of
 
 A new section about Delivery best practices has been added. [Read more](../../sending/using/delivery-best-practices.md)
 
-A section has been added to describe the new filters that enable to search the event configurations according to their status and to the last time an event was received. [Read more](../../channels/using/configuring-transactional-event.md#searching-transactional-events)
+A section has been added to describe the new filters that enable to search the event configurations according to their status and to the last time an event was received. [Read more](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events)
 
 ## September 2020 {#doc-updates-september-2020}
 
-The Event transactional messages section has been reorganized and clarified. [Read more](../../channels/using/editing-transactional-message.md)
+The Event transactional messages section has been reorganized and clarified. [Read more](../../channels/using/event-transactional-messages.md)
 
 A caution note has been added to warn users about permissions limitation related to log access. [Read more](../../administration/using/users-management.md)
 
@@ -129,7 +129,7 @@ Additional resources have been added to the documentation home page. [Read more]
 
 Information on the Experience Cloud ID Service (ECID) has been added to the Adobe Experience Platform Data Connector documentation. [Read more](../../developing/using/aep-about-data-connector.md#key-concepts)
 
-The Transactional messaging section has been improved with information on how to access the latest transactional events and updated screenshots. [Read more](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
+The Configuring transactional messaging section has been improved with information on how to access the latest transactional events and updated screenshots. [Read more](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
 
 Typologies and typology rules documentation has been improved and updated with additional information on built-in typology rules. [Read more](../../sending/using/about-typology-rules.md)
 
@@ -137,15 +137,15 @@ Information has been added on the **[!UICONTROL Transfer file]** activity's **[!
 
 The documentation on retries after a delivery temporary failure has been updated with more details on how retries are managed once upgraded to the Enhanced MTA. [Read more](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)
 
-The Deleting a transactional message section has been enhanced and clarified. [Read more](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message)
+The Deleting a transactional message section has been enhanced and clarified. [Read more](../../channels/using/event-transactional-messages.md#deleting-a-transactional-message)
 
-The section **Previewing deliveries** has been updated with mobile deliveries examples. [Read more](../../sending/using/previewing-messages.md)
+The section **Previewing deliveries** has been updated with mobile deliveries examples.[Read more](../../sending/using/previewing-messages.md)
 
-Best practice has been added regarding transactional messaging and the deletion of unused real-time events. [Read more](../../channels/using/configuring-transactional-event.md#creating-an-event)
+Best practice has been added regarding transactional messaging and the deletion of unused real-time events. [Read more](../../administration/using/configuring-transactional-messaging.md#creating-an-event)
 
 The Configuring email channel section has been updated with clarification on all the email settings that are now managed by the Adobe Campaign Enhanced MTA. [Read more](../../administration/using/configuring-email-channel.md)
 
-The Transactional messaging section has been updated with further information on the rights needed to edit event configurations and on how to enrich collections in transactional messages. [Read more](../../channels/using/configuring-transactional-event.md).
+The Configuring transactional messaging section has been updated with further information on the rights needed to edit event configurations and on how to enrich collections in transactional messages. [Read more](../../administration/using/configuring-transactional-messaging.md).
 
 ## Release 20.2 - April 2020 {#release-20-2---april-2020}
 
@@ -165,7 +165,7 @@ Limitation has been added with MCPNS when configuring a mobile application. [Rea
 
 A new configuration guidelines section has been added to the Administrating guide. The section on compatible browsers and operating systems has been moved from the Getting started guide to this section. The technote on Campaign Standard network endpoints has also been added to this section. [Read more](../../administration/using/about-configuration-guidelines.md)
 
-A new section describing how to delete an event configuration is now available. [Read more](../../channels/using/publishing-transactional-event.md#deleting-an-event)
+A new section describing how to delete an event configuration is now available. [Read more](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
 
 The page describing how to test the subject line of an email to predict its open rate has been updated and improved, including a new [troubleshooting](../../sending/using/testing-subject-line-email.md#troubleshooting) section. [Read more](../../sending/using/testing-subject-line-email.md)
 
@@ -275,7 +275,7 @@ The list of error messages for Adobe Campaign has been updated. [Read more](http
 
 The GDPR getting started guide has been improved and enriched. It is now a privacy management documentation including GDPR and CCPA. [Read more](https://helpx.adobe.com/content/help/en/campaign/kb/campaign-privacy.html)
 
-A new chart presenting the transactional messaging publication process has been added. [Read more](../../channels/using/publishing-transactional-message.md#transactional-messaging-pub-process)
+A new chart presenting the transactional messaging publication process has been added. [Read more](../../administration/using/configuring-transactional-messaging.md#transactional-messaging-pub-process)
 
 The Delivery Best Practices getting started guide has been moved and updated. [Read more](../../sending/using/delivery-best-practices.md)
 
@@ -291,7 +291,7 @@ A new section related to Campaign Standard settings was added. [Read more](../..
 
 A new section describing how to send an automatic custom confirmation email to profiles who subscribe to a specific service has been added. [Read more](../../audiences/using/confirming-subscription-to-a-service.md)
 
-The Transactional messaging section has been modified with the latest UI updates, including editing content with the Email Designer. [Read more](../../channels/using/editing-transactional-message.md)
+The Transactional messaging section has been modified with the latest UI updates, including editing content with the Email Designer. [Read more](../../channels/using/event-transactional-messages.md)
 
 The landing pages chapter has been reorganized. It has also been enriched with a new section detailing the steps to set up a landing page. [Read more](../../channels/using/getting-started-with-landing-pages.md)
 
@@ -421,7 +421,7 @@ A new section on how to save email content as a fragment in the Email Designer h
 
 The Managing links section has been updated with additional information on how to manage tracked URLs in the Email Designer. [Read more](../../designing/using/links.md#inserting-a-link)
 
-A new section has been added to describe the specific transactional message retry process. [Read more](../../channels/using/publishing-transactional-message.md#transactional-message-retry-process)
+A new section has been added to describe the specific transactional message retry process. [Read more](../../channels/using/event-transactional-messages.md#transactional-message-retry-process)
 
 The Publishing a resource with API extension section has been clarified and updated with the latest UI changes. [Read more](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension)
 
@@ -499,7 +499,7 @@ Added information in the Extract file activity section on the new option that le
 
 Email Designer General Availability - [Read more](../../designing/using/designing-content-in-adobe-campaign.md)
 
-Product Listings in Transactional Emails - [Read more](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message)
+Product Listings in Transactional Emails - [Read more](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)
 
 Mobile View in the Email Designer - [Read more](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)
 
@@ -637,7 +637,7 @@ Creative Designer for Email - [Read more](../../designing/using/designing-conten
 
 Multilingual Push Deliveries - [Read more](../../channels/using/creating-a-multilingual-push-notification.md)
 
-Use of Custom Resources in Transactional Messaging - [Read more](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)
+Use of Custom Resources in Transactional Messaging - [Read more](../../administration/using/configuring-transactional-messaging.md)
 
 **Other documentation updates coming with the release**
 
@@ -645,7 +645,7 @@ The GDPR API regroups features that allow the automatic processing of GDPR reque
 
 Added information on how to set up landing pages to give your recipients the ability to be on denylist. [Read more](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
-The [Configuring transactional messaging](../../channels/using/configuring-transactional-event.md) section has been reorganized, and a [step-by-step use case](../../channels/using/transactional-messaging-use-case.md) has been added.
+The [Configuring transactional messaging](../../administration/using/configuring-transactional-messaging.md) section has been reorganized, and a [step-by-step use case](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) has been added.
 
 Added a technote to learn how to generate a multilingual CSV file to use for push notifications. [Read more](https://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html).
 
@@ -931,7 +931,7 @@ Log export for external reporting - [Read more](../../automating/using/exporting
 
 Transactional Messaging API - [Read more](../../api/using/get-started-apis.md)
 
-Marketing capabilities for transactional messages - [Read more](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities)
+Marketing capabilities for transactional messages - [read more](../../channels/using/profile-transactional-messages.md)
 
 **Other documentation updates coming with the release**
 

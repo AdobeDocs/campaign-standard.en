@@ -106,7 +106,7 @@ topic-tags: campaign-standard-releases
 * When publishing a custom resource, a confirmation pop-up is now displayed after preparation.
 * The pop-up message which appears when a custom resource fails has been improved for better clarity.
 * The expression editor in workflows has been improved to prevent execution errors. [New functions](../../automating/using/customizing-workflow-external-parameters.md) are available: they can be used in all the activities that allow you to use event variables after calling a workflow with external parameters. Additionally, a tooltip now displays in the expression editor with the function description. 
-* [New filters](../../channels/using/configuring-transactional-event.md#searching-transactional-events) have been added to the list of transactional events. They allow you to filter the event configurations according to their status, as well as the last time an event was received.
+* [New filters](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events) have been added to the list of transactional events. They allow you to filter the event configurations according to their status, as well as the last time an event was received.
 * The logs displaying when exporting packages have been made more specific and detailed about the encountered errors in case of failure.
 * After sending a message, you can now search, filter and export the list of [tracked URLs](../../sending/using/tracking-messages.md).
 * Automatic [synchronization between Launch and Campaign](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow) is now GA and enabled by default.
