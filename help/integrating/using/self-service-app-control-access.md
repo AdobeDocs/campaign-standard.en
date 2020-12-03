@@ -6,19 +6,17 @@ are the initial steps required to give you access to the D365/Integration.   Onc
 then there will be more steps described in this document to allow you establish connections to your data and configure 
 the flow of data between the two products.
 
-## Initial Enablement???? 
+## Initial Enablement
 
 <div style="color:&#x1F34E;">
-   Reach out to Adobe consultant (or Client Care?...NAM?...CP?) and provide instance names and orgs.   A ticket will 
-   need to be logged to EA to allow those instance names for that org.
-</div>
-
-<div style="color:&#x1F34E;">
-   This should be internally requested (JIRA ticket through CC) to the EA Team and shouldn't require EA interaction 
-   with the client   
+   Reach out to the Adobe Team and provide the Adobe Campaign Standard org and instance names .   An internal ticket 
+   will be logged to request that the integration be enabled.
 </div>
 
 ## How to get to Adobe Campaign Instances in the Experience Cloud Admin Console {#get-to-instance-page}
+
+You can follow these steps at any time.   Just keep in mind that these steps must be completed in addition to the steps
+in the "Intial Enablement" section above.
 
 1. Browse to https://experience.adobe.com/ and log into the Adobe Experience Cloud
 1. Click on the navigation grid in the top-right of your page to expose a navigation menu

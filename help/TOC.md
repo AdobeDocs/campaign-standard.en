@@ -245,7 +245,7 @@ breadcrumb-title: Campaign Standard Guide
        + [Request the integration](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
        + [Integration guardrails](integrating/using/ms-dynamics-365-integration-guardrails.md)
        + [Use the Dynamics 365 integration](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)       
-       + Self-Service Application {#campaign-and-microsoft-dynamics-365-self-service}
+       + Self-Service Application {#campaign-and-microsdoft-dynamics-365-self-service}
            + [Overview](integrating/using/self-service-app-overview.md)  
            + Setup and Access
                 + [Configure Dynamics 365 for Campaign integration](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
