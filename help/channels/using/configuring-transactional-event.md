@@ -15,19 +15,15 @@ To send a transactional message with Adobe Campaign, you first need to describe 
 
 >[!IMPORTANT]
 >
->Event configuration must be performed by an [administrator](../../administration/using/users-management.md#functional-administrators).
+>Only [administrators](../../administration/using/users-management.md#functional-administrators) being part of the **[!UICONTROL All]** [organizational unit](../../administration/using/organizational-units.md) have the appropriate rights to create and edit event configurations.
 
-The configuration varies depending on the [type of transactional message](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types) you want to send, and on the channel that will be used. For more on this, see [Transactional event specific configurations](#transactional-event-specific-configurations).
+The configuration varies depending on the [type of transactional message](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types) you want to send, and on the channel that will be used. For more on this, see [Specific configurations](#transactional-event-specific-configurations).
 
-Once configuration is done, the event must be published. See [Publishing transactional event](../../channels/using/publishing-transactional-event.md).
+Once configuration is done, the event must be published. See [Publishing a transactional event](../../channels/using/publishing-transactional-event.md).
 
 ## Creating an event {#creating-an-event}
 
 To get started, create the event corresponding to your needs.
-
->[!IMPORTANT]
->
->Only users holding the **[!UICONTROL Administration]** role and being part of the **[!UICONTROL All]** [organizational unit](../../administration/using/organizational-units.md) have the appropriate rights to create an event configuration.
 
 1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
 1. Click the **[!UICONTROL Create]** button.
@@ -39,19 +35,15 @@ To get started, create the event corresponding to your needs.
    >
    >The ID must not exceed 64 characters, including the EVT prefix.
 
-1. Select the channel that will be used to send your transactional messages **[!UICONTROL Email]**, **[!UICONTROL Mobile (SMS)]** or **[!UICONTROL Mobile application]** (push notification).
-
-   >[!NOTE]
-   >
-   >Only one channel can be used for each event configuration. Once the event is created, you cannot change the channel.
+1. Select the channel that will be used to send your transactional messages **[!UICONTROL Email]**, **[!UICONTROL Mobile (SMS)]** or **[!UICONTROL Mobile application]** (push notification). Only one channel can be used for each event and it cannot be changed afterwards.
 
 1. Select the targeting dimension corresponding to the desired event configuration and click **[!UICONTROL Create]**.
 
-   Event-based transactional messages target data contained in the event itself, whereas profile-based transactional messages target data contained in the Adobe Campaign database. For more on this, refer to [Transactional event specific configurations](#transactional-event-specific-configurations).
+   Event-based transactional messages target data contained in the event itself, whereas profile-based transactional messages target data contained in the Adobe Campaign database. For more on this, refer to [Specific configurations](#transactional-event-specific-configurations).
 
 >[!NOTE]
 >
->The number of created real-time events can have an impact on your platform. To ensure optimal performance, make sure you delete real-time events that you do not need anymore. See [Deleting an event](../../channels/using/publishing-transactional-event.md#deleting-an-event).
+>The number of real-time events can have an impact on your platform. To ensure optimal performance, make sure you delete unused real-time events. See [Deleting an event](../../channels/using/publishing-transactional-event.md#deleting-an-event).
 
 ## Defining the event attributes {#defining-the-event-attributes}
 
@@ -190,7 +182,7 @@ To send an event-based transactional message, you first need to create and confi
 
    Once the event has been published, a transactional message linked to the new event is automatically created. In order for the event to trigger sending a transactional message, you must [modify](../../channels/using/editing-transactional-message.md) and [publish](../../channels/using/publishing-transactional-message.md) the message that was just created.
 
-1. Integrate the event into your website (see Integrate event triggering(../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)).
+1. Integrate the event into your website (see [Integrate event triggering](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)).
 
 ### Profile-based transactional messages {#profile-based-transactional-messages}
 
@@ -207,7 +199,7 @@ To send a profile-based transactional message, you first need to create and conf
 
    Once the event has been published, a transactional message linked to the new event is automatically created. In order for the event to trigger sending a transactional message, you must [modify](../../channels/using/editing-transactional-message.md) and [publish](../../channels/using/publishing-transactional-message.md) the message that was just created..
 
-1. Integrate the event into your website (see Integrate event triggering(../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)).
+1. Integrate the event into your website (see [Integrate event triggering](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)).
 
 ### Transactional push notifications {#transactional-push-notifications}
 

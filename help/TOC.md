@@ -113,7 +113,7 @@ title: Campaign Standard Guide
        + [Defining the direct mail content](channels/using/defining-the-direct-mail-content.md)
   + Transactional messaging {#transactional-messaging}
        + [Getting started with transactional messaging](channels/using/getting-started-with-transactional-msg.md)
-       + [Transactional messaging best practices](channels/using/transactional-messaging-limitations.md)
+       + [Best practices and limitations](channels/using/transactional-messaging-limitations.md)
        + Event configuration {#event-configuration}
           + [Configuring a transactional event](channels/using/configuring-transactional-event.md)
           + [Publishing a transactional event](channels/using/publishing-transactional-event.md)

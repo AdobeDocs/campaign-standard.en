@@ -64,7 +64,7 @@ The main steps to implement this use case are as follows. To see a graphical rep
 
 ## Step 3 - Integrate the event triggering {#integrate-event-trigger}
 
-Integrate the event into your website (see Integrate event triggering(../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)).
+Integrate the event into your website (see [Integrate event triggering](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)).
 
 ## Step 4 - Message delivery {#message-delivery}
 

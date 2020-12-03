@@ -21,7 +21,7 @@ A chart illustrating the whole transactional messaging publication process, incl
 
 Once publication is done:
 * The corresponding transactional message is automatically created. See [Editing transactional messages](../../channels/using/editing-transactional-message.md).
-* The API that will be used by your website developer is deployed and the transactional events can now be sent. See Integrate event triggering(../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger).
+* The API that will be used by your website developer is deployed and the transactional events can now be sent. See [Integrate event triggering](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger).
 
 ## Previewing and publishing the event {#previewing-and-publishing-the-event}
 
@@ -29,7 +29,7 @@ Before being able to use the event, you must preview and publish it.
 
 1. Click the **[!UICONTROL API preview]** button to see a simulation of the REST API that will be used by your website developer before it is published.
 
-   Once the event is published, this button also allows you to see a preview of the API in production. See Integrate event triggering(../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger).
+   Once the event is published, this button also allows you to see a preview of the API in production. See [Integrate event triggering](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger).
 
    ![](assets/message-center_api_preview.png)
 

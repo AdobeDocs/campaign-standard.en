@@ -252,5 +252,5 @@ This rule is part of a specific typology that applies to all transactional messa
 
 **Related topics**:
 
-* Integrate event triggering(../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
+* [Integrate event triggering](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
 * [About typologies and typology rules](../../sending/using/about-typology-rules.md)
