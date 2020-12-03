@@ -65,7 +65,9 @@ there is a flow of data from Adobe Campaign to Dynamics 365 (either "Unidirectio
 
 * <u>SFTP Key</u>: TBD (need to include or reference instructions)
 
-QUESTIONS: 
-* ARE WE GOING TO SUPPLY OR IP RANGES FOR THEM TO USE WITH SFTP SETUP?
-* CAN WE DEFINE (SFTP) "SFTP HOST" (ADOBE.IO) "URL" BASED ONT HE CURRENTLY SELECTED INSTANCE NAME?  
+* The IP Ranges will be needed to included in your Adobe Campaign Standard SFTP configuration.   These will need to be
+  whitelisted in order for the integration to make use of the SFTP endpoint.  
 
+* The "Do you want to export logs to your Adobe Campaign SFTP?" allows you to determine if the integration will output
+  logging information to the SFTP endpoint.   This can be used to help with debugging if Campaign or Dynamics 365 isn't
+  showing the information you are expecting.
