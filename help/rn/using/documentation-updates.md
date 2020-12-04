@@ -413,7 +413,7 @@ The Automating guide has been updated with links to related workflow activities.
 
 The Indicator calculation section for Dynamic reports has been updated. [Read more](../../reporting/using/indicator-calculation.md)
 
-Dynamic reporting compatibility table has been added to better understand compatibility between dimensions and metrics. [Read more](https://docs.campaign.adobe.com/doc/standard/en/Technotes/dynamic_report_compatibility.pdf)
+Dynamic reporting compatibility table has been added to better understand compatibility between dimensions and metrics. [Read more](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=en)
 
 The list of functions for workflows has been updated. [Read more](../../automating/using/list-of-functions.md)
 
@@ -691,7 +691,7 @@ The **[!UICONTROL Subscription Services]** activity has been updated to support 
 
 Added a step-by-step use case on how to prepare a delivery. [Read more](../../sending/using/preparing-the-send.md)
 
-The section including the list of authorizations has been removed. [Read more](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf) (PDF).
+The section including the list of authorizations has been removed. [Read more](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en) (PDF).
 
 Added a step-by-step use case on how to use SMS auto reply. [Read more](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
@@ -863,7 +863,7 @@ A new technote is now available: "Integrating the Adobe Mobile SDK with your mob
 
 Instructions to configure People core service or Audience Manager integration with Adobe Campaign have been added. [Read more](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
-Authorizations table revised to make certain roles’ function clearer. [Read more](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
+Authorizations table revised to make certain roles’ function clearer. [Read more](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
 
 Update of the contextual help links available directly from Adobe Campaign.
 
