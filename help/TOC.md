@@ -119,6 +119,7 @@ title: Campaign Standard Guide
           + [Publishing a transactional event](channels/using/publishing-transactional-event.md)
        + Transactional message edition {#transactional-message-edition}
           + [Editing a transactional message](channels/using/editing-transactional-message.md)
+          + [Testing a transactional message](channels/using/testing-transactional-message.md)
           + [Publishing a transactional message](channels/using/publishing-transactional-message.md)
        + [Transactional push notifications](channels/using/transactional-push-notifications.md)
        + [Follow-up messages](channels/using/follow-up-messages.md)
