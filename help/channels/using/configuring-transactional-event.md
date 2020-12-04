@@ -15,7 +15,7 @@ To send a transactional message with Adobe Campaign, you first need to describe 
 
 >[!IMPORTANT]
 >
->Only [administrators](../../administration/using/users-management.md#functional-administrators) being part of the **[!UICONTROL All]** [organizational unit](../../administration/using/organizational-units.md) have the appropriate rights to create and edit event configurations.
+>Only [Functional administrators](../../administration/using/users-management.md#functional-administrators) being part of the **[!UICONTROL All]** [organizational unit](../../administration/using/organizational-units.md) have the appropriate rights to create and edit event configurations.
 
 The configuration varies depending on the [type of transactional message](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types) you want to send, and on the channel that will be used. For more on this, see [Specific configurations](#transactional-event-specific-configurations).
 

@@ -24,7 +24,7 @@ The prerequisites are as follows:
 
 * Create and publish a custom resource corresponding to purchases and link it to the **[!UICONTROL Profile]** resource. This way, you will be able to retrieve information from this resource to enrich the message content.
 
-* For more on extending, creating and publishing resources, see [this section](../../developing/using/key-steps-to-add-a-resource.md).
+For more on extending, creating and publishing resources, see [this section](../../developing/using/key-steps-to-add-a-resource.md).
 
 The main steps to implement this use case are as follows. To see a graphical representation of the transactional messaging general process, see [this chart](../../channels/using/getting-started-with-transactional-msg.md#key-steps).
 
@@ -42,9 +42,15 @@ The main steps to implement this use case are as follows. To see a graphical rep
 
    ![](assets/message-center_usecase2.png)
 
-1. Create a join condition between the "Product identifier" field that was previously added to the message, and the corresponding field from the **[!UICONTROL Purchase]** resource.
+1. Create a join condition between the "Product identifier" field that was previously added to the event, and the corresponding field from the **[!UICONTROL Purchase]** resource.
 
    ![](assets/message-center_usecase3.png)
+
+1. Because it is mandatory for profile-based events, you must also create an enrichment targeting the **[!UICONTROL Profile]** resource.
+
+1. Create a join condition between the "CRM ID" field that was previously added to the message, and the corresponding field from the **[!UICONTROL Profile]** resource that you extended. <!--What's the purpose to have created a CRM ID for this event and to have the CRM ID as a join condition? could it be any other field provided you created it in the event?-->
+
+1. In the Targeting enrichment section, select the enrichment on **[!UICONTROL Profile]** resource (it will be used as the message target during the delivery execution).
 
 1. Preview and publish the event. See [Previewing and publishing the event](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
 

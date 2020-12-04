@@ -21,13 +21,13 @@ The chart below illustrates the overall transactional messaging publication proc
 
 ![](assets/message-center_pub-process.png)
 
-For more on publishing a transactional message, see [this section](#publishing-a-transactional-message).
-For more on pausing a transactional message, see [this section](#suspending-a-transactional-message-publication).
-For more on unpublishing a transactional message, see [this section](#unpublishing-a-transactional-message).
+**Related topics:**
+* [Publishing a transactional message](#publishing-a-transactional-message)
+* [Pausing a transactional message](#suspending-a-transactional-message-publication)
+* [Unpublishing a transactional message](#unpublishing-a-transactional-message)
+* [Publishing an event](../../channels/using/publishing-transactional-event.md)
 
-For more on publishing and unpublishing an event, see [this section](../../channels/using/publishing-transactional-event.md).
-
-## Testing a transactional message {#testing-a-transactional-message}
+<!--## Testing a transactional message {#testing-a-transactional-message}
 
 You first need to create a specific test profile that will allow you to properly check the transactional message.
 
@@ -45,7 +45,7 @@ Define a test profile that will be linked to your event, which will allow you to
 
    >[!NOTE]
    >
-   >You can also enter the information relating to the profile table. See [Enriching the event](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)<!--and [Personalizing a transactional message](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message)-->.
+   >You can also enter the information relating to the profile table. See [Enriching the event](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) and [Personalizing a transactional message](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
 
 1. Once created, the test profile will be pre-specified in the transactional message. Click the **[!UICONTROL Test profiles]** block of the message to check the target of your proof.
 
@@ -73,11 +73,11 @@ Once you have created one or more specific test profiles and saved your transact
 
 ![](assets/message-center_10.png)
 
-The steps for sending a proof are detailed in the [Sending proofs](../../sending/using/sending-proofs.md) section.
+The steps for sending a proof are detailed in the [Sending proofs](../../sending/using/sending-proofs.md) section.-->
 
 ## Publishing a transactional message {#publishing-a-transactional-message}
 
-Once you have checked your transactional message, you can publish it.
+Once you have tested your transactional message, you can publish it.
 
 ![](assets/message-center_12.png)
 
@@ -147,6 +147,8 @@ When a transactional message fails to be sent, there are two retry systems:
 * At the sending process level, once the event has been assigned to an execution delivery, the transactional message can fail due to a temporary error. See [Message sending retry process](#message-sending-retry-process).
 
 ### Event processing retry process {#event-processing-retry-process}
+
+When an event is triggered, it is assigned to an **execution delivery**, which is a non-actionable and non-functional technical message created once a month for each transactional message, and each time a transactional message is edited and published again.
 
 If the event cannot be assigned to an execution delivery, the event processing is postponed. Retries are then performed until it is assigned to a new execution delivery.
 
