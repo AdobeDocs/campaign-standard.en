@@ -16,11 +16,11 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 
 ## Source of truth for one-way sync
 
-For contact and custom entity synchronization, this integration treats Dynamics 365 as the source of truth.  Any changes to  synchronized  attributes should be done in Dynamics 365, not Campaign.  If changes are made in Campaign, they can eventually get overwritten in Campaign during synchronization, as synchronization is in one direction. 
+For contact and custom entity synchronization, this integration treats Microsoft Dynamics 365 as the source of truth.  Any changes to synchronized attributes should be done in Dynamics 365 and not in Adobe Campaign Standard).  If changes are made in Campaign, they can eventually get overwritten in Campaign during synchronization, as synchronization is in one direction. 
 
 ## Contact deletion
 
-If desired, the integration can be configured to issue profile delete calls to Campaign when a contact is deleted in Dynamics 365, to help maintain data integrity.
+The integration can be optionally configured to issue profile delete calls to Campaign when a contact is deleted in Dynamics 365 to help maintain data integrity.
 
 However, a profile delete is different than a privacy delete. A privacy delete in Campaign will remove the Campaign profile record and associated log entries; whereas, a regular profile delete will only delete the ACS profile record, leaving remnants behind in Campaign logs.
 
@@ -30,9 +30,9 @@ If the profile delete feature is enabled in the integration, additional steps wi
 
 ### Manage privacy requests {#manage-privacy-requests}
 
-This integration is designed to transfer end user data (including, but not limited to, personal information, if it is contained in your end user data), between Microsoft Dynamics 365 and Adobe Campaign Standard. As a data controller, your company is responsible for complying with any privacy laws and regulations applicable to your collection and use of personal data.
+This integration is designed to transfer end user data between Microsoft Dynamics 365 and Adobe Campaign Standard. This data includes personal information if it is contained in your end user data.  As a data controller, your company is responsible for complying with any privacy laws and regulations applicable to your collection and use of personal data.
 
-The integration does not issue any data subject privacy (e.g., GDPR) deletes or handle any other privacy requests (with the exception of opt-out). When processing privacy requests, you should do so in both Dynamics 365 and Campaign (via the Adobe Experience Platform Privacy Service), independently.
+The integration does not issue any data subject privacy (e.g., GDPR) deletes or handle any other privacy requests (with the exception of opt-out). When privacy requests, you will need to perform these independently in both Dynamics 365 and Campaign Standard.
 
 If you have configured the integration to issue regular profile delete calls to Campaign when a contact is deleted in Dynamics 365, the steps below should be followed. Ensure no updates are made to the record in question during this process.
 
@@ -57,20 +57,25 @@ Below are links to help guide you in implementing access and/or delete privacy r
 
 If any Campaign custom resource record contains personal information, applicable to a customer’s use of Campaign, such record should be linked to a corresponding Campaign profile record (either directly or through another custom resource) so that a privacy related delete on the profile record can also delete the linked custom resource record containing personal information; the linking and deletion options between the entities must be configured to enable this cascade-like removal of the linked records. Personal information should not be entered into a custom resource that is not linked to the profile.
 
-Learn how to map Campaign resources and Dynamics 365 entities [in this section](../../integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md).
+Learn how to map Campaign resources and Dynamics 365 entities [in this section](../../integrating/using/d365-acs-map-campaign-custom-resources-and-dynamics-365-custom-entities.md).
 
-## Opt-out
+## Opt-out {#opt-out}
 
-Due to the differences in opt-out attributes between Dynamics 365 and Campaign, and to the differences in business requirements of each customer, opt-out mapping has been left  as an exercise for the customer to complete.  It is important to ensure opt-outs are properly mapped between systems so that end user opt-out preferences are maintained, and they don't receive a communication via a channel that they have opted out of.  
+Due to the differences in opt-out attributes between Dynamics 365 and Campaign, and to the differences in business requirements of each customer, opt-out mapping has been left as an exercise for the customer to complete.  It is important to ensure opt-outs are properly mapped between systems so that end user opt-out preferences are maintained, and they don't receive a communication via a channel that they have opted out of.  
 
-Please be aware that only Campaign attributes with the 'No longer contact by' prefix (e.g., No longer contact by email) or the specific attribute for CCPA opt-out can be used in opt-out mappings. [Learn more](../../developing/using/datamodel-profile.md).
-In Dynamics 365, most opt-out fields have the “donot” prefix; however, you can also utilize other attributes for opt-out purposes if the data-types are compatible.
+Please be aware that only the following can be used in opt-out mappings:
+* Campaign attributes with the 'No longer contact by' prefix (e.g., No longer contact by email), or 
+* the specific attribute for CCPA  
+
+More information regarding Profile entity fields can be found [here](../../developing/using/datamodel-profile.md).
+
+In Dynamics 365, most opt-out fields have the “donot” prefix, however, you can also utilize other attributes for opt-out purposes if the data-types are compatible.
 
 When provisioning the integration, you will have the opportunity to specify which opt-out configuration you require for your business:
 
 * Dynamics 365 is source of truth for opt-outs: opt-out attributes will be synchronized in one direction from Dynamics 365 to Campaign
 * Campaign is the source of truth for opt-outs: opt-out attributes will be synchronized in one direction from Campaign to Dynamics 365
-* Dynamics 365 AND Campaign are both sources of truth: opt-out attributes will be synchronized bidirectionally between Campaign and Dynamics 365
+* Dynamics 365 AND Campaign are both sources of truth: opt-out attributes will be synchronized **bidirectionally** between Campaign and Dynamics 365
 
 Alternatively, if you have a separate process to manage opt-out synchronization between the systems, the integration's opt-out data flow can be disabled.
 
@@ -80,7 +85,7 @@ The bidirectional opt-out configuration uses logic to determine which value to w
 >
 >Please review and, if appropriate, update the default and specific typology rules in Adobe Campaign before making changes here to ensure that such changes are correctly applied to all outgoing communications. For example, please be sure that any mappings to opt-out preferences accurately reflect the intent/communication choices of the recipient and do not inadvertently discontinue the delivery of relationship or transactional messages such as customer order confirmations.
 
-If your selected the bi-directional or Campaign to Dynamics 365 opt-out configuration, Campaign opt-out data will be periodically exported via workflow to your Campaign SFTP storage area (see "Campaign SFTP Usage below"). In the event that your Campaign opt-out workflows stops running, you will need to manually restart as soon as possible to reduce the possibility of missed opt-out syncs.
+If your selected the bidirectional or Campaign to Dynamics 365 opt-out configuration, Campaign opt-out data will be periodically exported via workflow to your Campaign SFTP storage area (see "Campaign SFTP Usage below"). In the event that your Campaign opt-out workflows stops running, you will need to manually restart as soon as possible to reduce the possibility of missed opt-out syncs.
 
 ## Campaign SFTP Usage
 
@@ -108,7 +113,7 @@ Keep in mind, that Dynamics 365 is still the source of truth, and that the Campa
 
 The integration utilizes an architecture that allows updates to be detected and added to the processing "queue" shortly after they occur in Dynamics 365 (i.e., streaming, not batch processing). For this reason, there is no need to specify data flow run frequencies or schedules.
 
-The exception to this is the bi-directional and Campaign to Dynamics 365 opt-out data flows. For these opt-out configurations, updated ACS records are exported to SFTP via ACS workflow once per day, after which the integration tool reads the file and processes the record.
+The exception to this is the bidirectional and Campaign to Dynamics 365 opt-out data flows. For these opt-out configurations, updated ACS records are exported to SFTP via ACS workflow once per day, after which the integration tool reads the file and processes the record.
 
 ## Data usage agreement
 

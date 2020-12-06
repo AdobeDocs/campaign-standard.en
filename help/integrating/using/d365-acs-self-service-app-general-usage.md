@@ -3,25 +3,29 @@
 
 There is a separate help page for each of the pages in the Dynamics 365 / Campaign Integration application.   Each of 
 these will describe how to use each page and how the settings will effect the integration logic.   This page, however,
-will give you a high level description of general usage and navigation within the self-service app.
+will give you a high level description of general usage and navigation within the Adobe Campaign Standard integration 
+with Dynamics 365 self-service app.
 
 ### Header
 
-![](assets/d365-to-acs-header-org.png)
+The header within the self-service app allows you define which org and instance you are currently viewing and/or 
+configuring.
 
 The Org in the header allows you to choose which of the Experience Cloud organizations you want to view/edit.   It looks
 read only, however, when you put the mouse cursor over it then it becomes editable.
 
-![](assets/d365-to-acs-header-instance.png)
+![](assets/d365-to-acs-header-org.png)
 
 The Instance in the header allows you to choose which of the Adobe Campaign instances you want to view/edit.   It looks
 read only, however, when you put the mouse cursor over it then it becomes editable.
 
-![](assets/d365-to-acs-icon-hamburger.png)
+![](assets/d365-to-acs-header-instance.png)
 
-There is general dropdown menu that is displayed when you click the button with the three lines (a.k.a hamburger).
+A dropdown menu will be displayed when you click the button with the three horizontal lines (a.k.a hamburger) on the 
+right hand side of the header (it looks like this: ![](assets/d365-to-acs-icon-hamburger.png))
  
-This entries in this menu are described below 
+This entries in the dropdown menu are 
+ 
 * Settings
   
   Selection this will send you to a page that allows you to specify API credentials for Dynamics 365 and Adobe Campaign,
@@ -48,7 +52,7 @@ This entries in this menu are described below
 
 Breadcrumbs appear at the top of some of the pages as you click into the pages.
 
-#### Example
+**Example:**
 
 Below is an example from the "Edit Table Mapping" page that is showing the breadcrumbs and the page title.   In this 
 case, you can click on the "Workflows" or "Dynamics 365 to Campaign" text to go to one of the previous pages.    "Edit
@@ -57,6 +61,8 @@ Table Mapping" in the breadcrumbs isn't clickable in this case because it's the 
 ![](assets/d365-to-acs-breadcrumbs-ingress.png)
 
 ### Common Buttons
+
+The following icons are used in multiple pages in the self-service app.
 
 ![](assets/d365-to-acs-icon-add.png) 
 Adding a new item to a list.
@@ -67,13 +73,6 @@ Editing something that already exists
 ![](assets/d365-to-acs-icon-delete.png)
 Delete an item from a list of items
 
-* Describe the pages involved at a high level 
-  * include links to the individual pages
-* Describe common actions 
-  * Pencil for editing
-  * Garbage Can for deleting items
-  * Hamburger for menu
-  * Stop/Play
-* describe organizations and instance selections
-
+This article serves to explain some general functionality of the self-service app.   We suggest that you also read the 
+articles that describe each of the pages within the self-servcie app in detail. 
   

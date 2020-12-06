@@ -7,7 +7,7 @@ specifics related to the Adobe Campaign SFTP instance.
 
 The Microsoft Dynamics 365 Credentials give the integration app permission to pull your data from Microsoft 
 Dynamics 365.  You must first follow the steps on the page 
-"[Configure Dynamics 365 for Campaign integration](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)" 
+"[Configure Dynamics 365 for Campaign integration](integrating/using/d365-acs-configure-d365.md)" 
 in order to generate the values that will be pasted into this page.   The inputs described below will reference this page.
 
 ![](assets/d365-to-acs-ui-page-workflows-settings-d365.png)
@@ -27,7 +27,7 @@ in order to generate the values that will be pasted into this page.   The inputs
 ## Adobe Credentials
 
 The Adobe Campaign credentials are generated in using adobe.io.  You will need to visit the page 
-[Configure Adobe I/O](integrating/using/configure-adobe-io-for-ms-dynamic.md) and follow the instructions there before
+[Configure Adobe I/O](integrating/using/d365-acs-configure-adobe-io.md) and follow the instructions there before
 you will be able to fill out the inputs in this section.
 
 The following image will explain in detail the mapping between adobe.io and the settings page input.

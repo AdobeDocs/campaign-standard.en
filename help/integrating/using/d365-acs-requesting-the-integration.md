@@ -25,15 +25,18 @@ Flowchart Details (maps to steps above):
 
 * **Step 1** - It is assumed that you already have, or are in the process of procuring, a license for Microsoft Dynamics 365 for Sales and for Adobe Campaign Standard.
 
-* **Step 2** - The standard integration offering is free to all customers; however, additional costs may apply depending on your requirements (see [Integration guardrails and boundaries](../../integrating/using/ms-dynamics-365-integration-guardrails.md). A new sales order will need to be signed in order to take advantage of the integration.
+* **Step 2** - The standard integration offering is free to all customers; however, additional costs may apply depending on your requirements (see [Integration guardrails and boundaries](../../integrating/using/d365-acs-guardrails.md)). A new sales order (SO) will need to be signed in order to take advantage of the integration if it was not included in the original SO.
 
 * **Step 3** - Complete pre-integration steps for Dynamics 365 and Campaign. See [Configure this integration](#configure-this-integration).
 
-* **Steps 4-7** - The Adobe onboarding team will work with you through the onboarding process.
+* **Steps 4-7** - You will configure the integration self-service app based on your required needs.
 
 ## Configure this integration {#configure-this-integration}
 
-Three systems need to be provisioned and configured for this integration: Adobe Campaign Standard, Microsoft Dynamics 365 for Sales and the integration tool. Configuration articles are linked below.
+Three systems need to be provisioned and configured for this integration: 
+* Adobe Campaign Standard, 
+* Microsoft Dynamics 365 for Sales, and 
+* Adobe Campaign Standard integration with Dynamics 365 integration self-service application. 
 
 >[!CAUTION]
 >
@@ -41,17 +44,17 @@ Three systems need to be provisioned and configured for this integration: Adobe 
 >
 >Steps in the articles below will guide you through creating integrations/registrations that involve assigning permissions and/or admin access.  It is your responsibility to ensure these steps comply with your company policies before performing, and to perform them carefully.
 
-In ADOBE CAMPAIGN, you need to set up API access and configure a new integration for the integration tool. To achieve this, refer to [this article](../../integrating/using/configure-adobe-io-for-ms-dynamic.md).
+In **Adobe Campaign Standard**, you need to set up API access and configure a new integration for the integration tool. To achieve this, refer to [this article](../../integrating/using/d365-acs-configure-adobe-io.md).
 
-In MICROSOFT DYNAMICS 365, you need to create a new app registration and enable an application user to use the integration.  To configure Microsoft Dynamics 365 for this integration, refer to [this article](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md).
+In **Microsoft Dynamics 365**, you need to create a new app registration and enable an application user to use the integration.  To configure Microsoft Dynamics 365 for this integration, refer to [this article](../../integrating/using/d365-acs-configure-d365.md).
 
-You will need to work with the Adobe onboarding team to set up the configuration for ingress, egress, and opt-out data flows.
+To get access to the **Adobe Campaign Standard integration with Dynamics 365 Self-Service App**, you will need to follow the steps in [this article](d365-acs-self-service-app-control-access.md).
 
 
 ## Request support 
 
 Support tickets can be logged with Adobe Custom Care, as usual; Customer Care will bring in support personnel, as needed.
-
+~~~~
 For any issues with integration data flows, make sure to include the report suite as part of the issue description as well as the following information:
 
 * **Process Owner**: Engineering Architects

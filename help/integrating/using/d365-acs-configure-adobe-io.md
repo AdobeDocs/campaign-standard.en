@@ -12,13 +12,11 @@ discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 
 ---
 
-# Configure Adobe IO for Microsoft Dynamics 365 integration
+# Configure Adobe I/O for Microsoft Dynamics 365 integration
 
-Activate your CRM data on cross-channel communication: learn steps required during pre-integration setup to create a new Adobe IO project and configure it for the Microsoft Dynamics 365 integration.
+Adobe I/O allows you to enable API access to Adobe Campaign Standard as well as other Adobe products.   This article will detail you to configure Adobe I/O in order to give the Adobe Campaign Standard integration with Dynamics 365 access to synchronize the data.  
 
 ## Overview
-
-Adobe Campaign Standard - Microsoft Dynamics 365 integration is described in [this page](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md).
 
 Before performing the pre-integration setup in this article, it is assumed that you have already been provisioned and have admin access to your organization’s Campaign Standard instance.  If this has not happened, then you will need to get in contact with Adobe Customer Care to complete Campaign provisioning.
 
@@ -82,10 +80,14 @@ Once downloaded, you can unzip the file to reveal the public and private keys. A
 
 1. On the next screen click **[!UICONTROL Save the configured API]**.
 
-Pre-integration setup in Campaign is now complete.  Proceed to complete [pre-integration setup for Microsoft Dynamics 365](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md).
+Pre-integration setup in Campaign is now complete.  Proceed to complete [pre-integration setup for Microsoft Dynamics 365](../../integrating/using/d365-acs-configure-d365.md).
 
 **Related Topics** 
 
+* [Configure Adobe IO for Microsoft Dynamics 365 integration](../../integrating/using/d365-acs-configure-adobe-io.md) is the next step in setting up the integration
+* [Integration Self-Service Application Overview](../../integrating/using/d365-acs-self-service-app-overview.md) contains the full list of steps to get the integration up-and-running.
+
+
 * [Adobe IO - Service Account Integration](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
 * [Campaign Standard - API Access Setup](../../api/using/setting-up-api-access.md)
-* [Campaign Standard - Dynamics 365 integration](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
+* [Campaign Standard - Dynamics 365 integration](../../integrating/using/d365-acs-configure-d365.md)

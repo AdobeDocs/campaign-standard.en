@@ -14,23 +14,26 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 
 # Use the Microsoft Dynamics 365 integration
 
-There are several jobs that this integration performs:
+There are several data flows that the Adobe Campaign Standard Integration with Dynamics 365 performs:
 
-* **Ingress**:
+* Dynamics 365 to Adobe Campaign
 
-    * Bring in **contacts** from Dynamics 365 into Campaign
+    * Bring in *contacts* from Dynamics 365 into Campaign
+    * *Custom entities*: Bring in custom tables from Dynamics 365 to Campaign. Learn more [in this section](../../integrating/using/d365-acs-map-campaign-custom-resources-and-dynamics-365-custom-entities.md).
+    * This is also known as **"Ingress"** (referring to the ingress of data from Dynamics 365 to Adobe Campaign Standard)
 
-    * **Custom entities**: Bring in custom tables from Dynamics 365 to Campaign. Learn more [in this section](../../integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md).
+* Adobe Campaign to Dynamics 365     
+    * Email marketing events from Adobe Campaign Sandard are sent to Dynmics 365 (email send, open, click, bounce)
+    * This is also known as **"Egress"** (referring to the egress of data from Adobe Campaign Standard to Dynamics 365)    
 
-* **Egress**: Bring in email marketing events from ACS to D365 (email send, open, click, bounce)
+* Opt-out
+    * Opt-out statuses (e.g., denyList) can be synchronized from Dynamics 365 to Campaign or from Campaign to Dynamics 365.   The data can also by synchronized bidirectionally (i.e. data flows in both directions).  You can read more about the basics of opt-out in the [Opt-Out Flow](#opt-out) section below.
 
-* **Opt-out**: Bi-directionally sync opt-out status (e.g., denyList)
-
-More details on the data flows can be found [in this section](#data-flows).
+More details on the data flows can be found further down in this document in the [Data Flows](#data-flows)  section.
 
 ## Adobe Campaign Standard User Experience
 
-When a contact is created or modified (or deleted, if enabled) in Dynamics 365, it will be sent over to Campaign.  These contacts will be visible in the Profiles screen in Campaign and can be targeted in marketing campaigns.  See the Profiles screen below.
+When a contact is created, modified, or deleted (if deleted is enabled) in Dynamics 365, it will be sent over to Campaign Standard.  These contacts will be visible in the Profiles screen in Campaign and can be targeted in marketing campaigns.  See the Profiles screen below.
 
 ![](assets/MSdynamicsACS-usage1.png)
 
@@ -52,7 +55,7 @@ To view a contact’s Timeline, navigate to your contacts list by clicking on Sa
 
 >[!NOTE]
 >
->The Adobe Campaign for Dynamics 365 app in AppSource will need to be installed in your Dynamics 365 instance in order to view these events.
+>The "Adobe Campaign for Dynamics 365" app in AppSource will need to be installed in your Dynamics 365 instance in order to view these events.   [This article](d365-acs-configure-d365.md#install-appsource-app) explains more about configuring Dynamics 365 and installing this app.
 
 Below you can see a snapshot of the Contact screen for “Dynamics User”.  In the Timeline view, you you’ll notice that Dynamics User was sent an email associated with Campaign Name “2019LoyaltyCamp” and Delivery Name “DM190”.  Dynamics User opened the email and also clicked a URL in the email; both of these actions created events which also show below.  If you look to the right corner, you’ll see the Relationship Assistant (RA) card; currently, it contains a task to follow up on the clicked URL.
 
@@ -104,7 +107,7 @@ The following is a list of the attributes and a description:
 
 ### Contact and custom entity Ingress
 
-New and updated (and deleted, if enabled) records are sent from the Dynamics 365 contact table to the Campaign profile table.
+New, updated, and deleted records (Note: deleted must be enabled) are sent from the Dynamics 365 contact table to the Campaign profile table.
 
 Table mappings can be configured to map Dynamics 365 table attributes to Campaign table attributes. The table mappings can be modified to add/remove attributes, as needed.
 
@@ -112,13 +115,39 @@ The initial run of the data flow is designed to transfer all mapped records, inc
 
 Basic replacement rules can be configured to replace an attribute value with a different value (e.g., “green” for “#00FF00”, “F” for 1, etc.).
 
-Depending on the volume of records, your Campaign SFTP storage may need to be utilized for the initial data transfer.  See section on “Initial Data Transfer.”
+Depending on the volume of records, your Campaign SFTP storage may need to be utilized for the initial data transfer.  See the section on [Initial Data Transfer](#initial-data-transfer) for more information.
 
 The Campaign profile table attribute externalId must be populated with the Dynamics 365 contact attribute contactId in order for contact ingress to work. Campaign custom entities must also be populated with a Dynamics 365 unique ID attribute; however, this attribute can be stored in any Campaign custom entity attribute (i.e., doesn’t have to be externalId).
 
 >[!NOTE]
 >
 >For custom entity ingress, change tracking must be enabled within Dynamics 365 for synchronized custom entities.
+
+#### Custom Entities
+
+The [Microsoft Dynamics 365-Adobe Campaign Standard integration](../../integrating/using/d365-acs-get-started.md) supports custom entities, enabling custom entities in Dynamics 365 to be synchronized to corresponding custom resources in Campaign.
+
+The new data in the custom resources can be used for several purposes, including segmentation and personalization.
+
+The integration supports both linked and non-linked tables. Linking is supported up to three levels (i.e., level1->level2->level3).
+
+>[!CAUTION]
+>
+>If any Campaign custom resource record contains personal information, specific recommendations apply. Learn more [in this section](../../integrating/using/d365-acs-notices-and-recommendations.md#privacy-linked-resources).
+
+When configuring custom entity data flows, it is important to be aware of the following:
+
+* Creating and modifying Campaign custom resources are sensitive operations which must be performed by expert users only.
+* For custom entity data flows, change tracking must be enabled within Dynamics 365 for synchronized custom entities.
+* If a parent and linked child record are created close to the same time in Dynamics 365, due to the parallel processing of the integration, there is a slight chance that a new child record could be written to Campaign before its parent record.
+
+* If the parent and child are linked on the Campaign side using the **1 cardinality simple link** option, the child record will remain hidden and inaccessible (via UI or API) until the parent record arrives in Campaign.
+
+* (Assuming **1 cardinality simple link** in Campaign) If the child record is updated or deleted in Dynamics 365, and that change is written to Campaign before the parent record shows up in Campaign (not likely, but a remote possibility), that update or delete will not be processed in Campaign and an error will be thrown. In the case of update, the record in question will need to be updated in Dynamics 365 again in order to sync the updated record. In the case of delete, the record in question will need to be taken care of separately on the Campaign side since there is no longer a record in Dynamics 365 to delete or update.
+
+* If you run into a situation where you believe you have hidden child records and no way to access them, you can temporarily change the cardinality link type to **0 or 1 cardinality simple link** to access those records.
+
+A more comprehensive overview of Campaign custom resources can be found [in this section](../../developing/using/key-steps-to-add-a-resource.md).
 
 ### Email Marketing Event Flow{#email-marketing-event-flow}
 
@@ -130,7 +159,7 @@ Supported marketing event types:
 * Click – URL within email clicked by recipient
 * Bounce – email to recipient experienced a hard bounce
 
-The following event attributes are displayed within D365:
+The following event attributes are displayed within Dynamics 365:
 * Marketing campaign name
 * Email delivery name
 * Timestamp
@@ -139,7 +168,7 @@ The following event attributes are displayed within D365:
 
 Email Marketing Events can be enabled/disabled by type (send, open, click, bounce) so that only the event types you select will be passed to Dynamics 365.
 
-### Opt-Out Flow
+### Opt-Out Flow {#opt-out-flow}
 
 Opt-out (e.g., denyList) values are synchronized between systems; you have the following options to choose from when onboarding:
 * Dynamics 365 is source of truth for opt-outs: opt-out attributes will be synchronized in one direction from Dynamics 365 to Campaign Standard
@@ -160,7 +189,7 @@ Opt-out flow mapping is to be specified by the customer since business requireme
 
 In Dynamics 365, most opt-out fields have the “donot” prefix; however, you can also utilize other attributes for opt-out purposes if the data-types are compatible.
 
-### Initial data transfer
+### Initial data transfer {#initial-data-transfer}
 
 Dynamics 365 tables over 500k records will need to be exported to your Campaign SFTP storage to be imported via Campaign workflow.
 
