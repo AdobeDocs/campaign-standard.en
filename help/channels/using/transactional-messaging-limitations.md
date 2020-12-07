@@ -17,14 +17,15 @@ The section below lists the best practices and limitations you should be aware o
 
 <!--For more on transactional messages, including on how to configure and create them, see [Getting started with transactional messaging](../../channels/using/getting-started-with-transactional-msg.md).-->
 
->[!IMPORTANT]
->
->To access transactional messages, you must have [administration](../../administration/using/users-management.md#functional-administrators) rights.
+## Permissions {#permissions}
+
+Only users with the [Administration](../../administration/using/users-management.md#functional-administrators) role can configure transactional events and access transactional messages.
 
 ## Event configuration and publication {#design-and-publication}
 
 As you are configuring and publishing transactional events, some of the steps you need to perform cannot be reverted. You need to be aware of the following limitations:
 
+* The available channels for transactional messaging are: **[!UICONTROL Email]**, **[!UICONTROL Mobile (SMS)]** and **[!UICONTROL Push notification]**.
 * Only one channel can be used for each event configuration. See [Creating an event](../../channels/using/configuring-transactional-event.md#creating-an-event).
 * Once the event is created, you cannot change the channel. Therefore, if a message is not sent successfully, you need to design the mechanism allowing to send it from another channel using a workflow. See [Workflow data and processes](../../automating/using/get-started-workflows.md).
 * You cannot change the targeting dimension ( **[!UICONTROL Real-time event]** or **[!UICONTROL Profile]** ) after the event is created. See [Creating an event](../../channels/using/configuring-transactional-event.md#creating-an-event).
@@ -52,7 +53,7 @@ The way you can personalize a message content depends on the type of transaction
 
 Note that product listings are available in transactional **email messages** only. See [Using product listings in a transactional message](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message).
 
-## Permissions and branding {#permissions-and-branding}
+## Branding {#permissions-and-branding}
 
 When it comes to [branding](../../administration/using/branding.md) management, transactional messaging enables less flexibility than standard messaging. Adobe recommends linking all brands used in transactional messages to the **[!UICONTROL All]** [organizational unit](../../administration/using/organizational-units.md). For more on this, read the detailed explanation below.
 

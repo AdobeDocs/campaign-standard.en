@@ -86,7 +86,7 @@ The confirmation email is a transactional message based on the event that you ju
 
     For more on personalizing a transactional message, see [this section](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
 
-1. Preview your message using a test profile. For more on this, see [Defining a specific test profile](../../channels/using/publishing-transactional-message.md#defining-specific-test-profile).
+1. Preview your message using a test profile. For more on this, see [Defining a specific test profile](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).
 
 1. Click **[!UICONTROL Save & close]** to save your content.
 1. Publish the transactional message. See [Publishing a transactional message](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message).

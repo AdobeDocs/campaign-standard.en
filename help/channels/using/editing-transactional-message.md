@@ -12,13 +12,17 @@ context-tags:
 
 # Editing a transactional message {#editing-transactional-message}
 
-Once you have created and published an event<!--(the cart abandonment example as explained in [this section](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle))-->, the corresponding transactional message is automatically created. The steps to configure and publish the event are presented in the [Configuring a transactional event](../../channels/using/configuring-transactional-event.md) and [Publishing a transactional event](../../channels/using/publishing-transactional-event.md) section.
+Once you have created and published an event<!--(the cart abandonment example as explained in [this section](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle))-->, the corresponding transactional message is automatically created.
+
+The steps to configure and publish the event are presented in the [Configuring a transactional event](../../channels/using/configuring-transactional-event.md) and [Publishing a transactional event](../../channels/using/publishing-transactional-event.md) section.
 
 The steps to access, edit and personalize this message are described below.
 
-<!--Event transactional messages do not contain profile information, therefore they are not compatible with fatigue rules (even in the case of an enrichment with profiles). See [Fatigue rules](../../sending/using/fatigue-rules.md#choosing-the-channel).-->
+>[!IMPORTANT]
+>
+>Only users with the [Administration](../../administration/using/users-management.md#functional-administrators) role can access and edit transactional messages.
 
-Once your message is ready, it can be tested and published. See [Transactional message lifecylce](../../channels/using/publishing-transactional-message.md).
+Once your message is ready, it can be tested and published. See [Testing a transactional message](../../channels/using/testing-transactional-message.md) and [Transactional message lifecylce](../../channels/using/publishing-transactional-message.md).
 
 ## Accessing transactional messages {#accessing-transactional-messages}
 
@@ -31,19 +35,17 @@ To access the transactional message that you created:
 
 1. Click the message of your choice to edit it.
 
->[!IMPORTANT]
->
->To access transactional messages, you must be part of the **[!UICONTROL Administrators (all units)]** security group. For more on this, see [Users management](../../administration/using/users-management.md#functional-administrators).
+   ![](assets/message-center_message-board.png)
+
+You can also directly access a transactional message through the link located in the left-hand side area of the corresponding event configuration screen. See [Previewing and publishing an event](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 
 ## Personalizing a transactional message {#personalizing-a-transactional-message}
 
-To set up personalization in a transactional message, follow the steps below.
+To edit and personalize a transactional message, follow the steps below.
 
 >[!NOTE]
 >
->This section describes how to personalize an **event-based** transactional message.  The configuration steps to create an event-based transactional message are presented in [this section](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages).
->
->The **profile-based** transactional message specificities are detailed [below](#profile-transactional-message-specificities).
+>This section describes how to edit an **event-based** transactional message.  The configuration steps to create an event-based transactional message are presented in [this section](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages). The **profile-based** transactional message specificities are detailed [below](#profile-transactional-message-specificities).
 
 For example, you want to send a notification to your website users who have added products to their cart and leave the site without going through with their purchases. This example is presented in the [Transactional messaging operating principle](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) section.
 
@@ -77,15 +79,15 @@ For example, you want to send a notification to your website users who have adde
 
    ![](assets/message-center_9.png)
 
-   You can check that the personalization fields match the information entered in the test profile. For more on this, see [Defining a specific test profile](../../channels/using/publishing-transactional-message.md#defining-specific-test-profile).
+   You can check that the personalization fields match the information entered in the test profile. For more on this, see [Defining a specific test profile](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).
 
 ## Using product listings in a transactional message {#using-product-listings-in-a-transactional-message}
 
-You can create product listings referencing one or more data collections in the content of a transactional email. For example, in a cart abandonment email you can include a list of all products that were in the users' carts when they left your website, with an image, the price, and a link to each product.
+When editing the content of a transactional email, you can create product listings referencing one or more data collections. For example, in a cart abandonment email, you can include a list of all products that were in the users' carts when they left your website, with an image, the price, and a link to each product.
 
 >[!IMPORTANT]
 >
->Product listings are only available when editing transactional email messages through the [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) interface.
+>Product listings are only available for the email channel, when editing transactional email content through the [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) interface.
 
 To add a list of abandoned products in a transactional message, follow the steps below.
 
@@ -197,7 +199,7 @@ For more on creating a collection and related fields when configuring the event,
 
    ![](assets/message-center_loop_test-profile_payload.png)
 
-   For more on defining a test profile in a transactional message, see [this section](../../channels/using/publishing-transactional-message.md#defining-specific-test-profile).
+   For more on defining a test profile in a transactional message, see [this section](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).
 
 ## Profile-based transactional message specificities {#profile-transactional-message-specificities}
 
@@ -207,9 +209,9 @@ You can send transactional messages based on customer marketing profiles, which 
 
 * The configuration steps to create a profile-based transactional message are detailed in [this section](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages).
 
-### Editing a profile transactional message {#editing-profile-transactional-message}
+<!--### Editing a profile transactional message {#editing-profile-transactional-message}-->
 
-The steps for creating, personalizing and publishing a profile transactional message are mostly the same as for an event transactional message.
+The steps for creating, editing and personalizing a profile transactional message are mostly the same as for an event transactional message.
 
 The differences are listed below.
 
@@ -228,13 +230,19 @@ The differences are listed below.
 
 1. Save your changes before publishing the message. For more on this, see [Publishing a transactional message](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message).
 
-### Monitoring a profile transactional message delivery {#monitoring-a-profile-transactional-message-delivery}
+<!--### Monitoring a profile transactional message delivery {#monitoring-a-profile-transactional-message-delivery}
 
 Once the message is published and your site integration is done, you can monitor the delivery.
 
 1. To view the message delivery log, click the icon at the bottom right of the **[!UICONTROL Deployment]** block.
 
-   For more information on accessing the logs, see [Monitoring a delivery](../../sending/using/monitoring-a-delivery.md).
+1. Click the **[!UICONTROL Execution list]** tab.
+
+   ![](assets/message-center_execution_tab.png)
+
+1. Select the latest execution delivery.
+
+   An **execution delivery** is a non-actionable and non-functional technical message created once a month for each transactional message, and each time a transactional message is edited and published again
 
 1. Select the **[!UICONTROL Sending logs]** tab. In the **[!UICONTROL Status]** column, **[!UICONTROL Sent]** indicates that a profile has opted in.
 
@@ -244,6 +252,10 @@ Once the message is published and your site integration is done, you can monitor
 
    ![](assets/message-center_marketing_exclusion_logs.png)
 
+>[!NOTE]
+>
+>For more information on accessing and using the logs, see [Monitoring a delivery](../../sending/using/monitoring-a-delivery.md).
+
 For any profile that has opted out, the **[!UICONTROL Address on denylist]** typology rule excluded the corresponding recipient.
 
 This rule is part of a specific typology that applies to all transactional messages based on the **[!UICONTROL Profile]** table.
@@ -252,5 +264,5 @@ This rule is part of a specific typology that applies to all transactional messa
 
 **Related topics**:
 
-* Integrate event triggering(../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
-* [About typologies and typology rules](../../sending/using/about-typology-rules.md)
+* [Integrate the event triggering](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
+* [About typologies and typology rules](../../sending/using/about-typology-rules.md)-->
