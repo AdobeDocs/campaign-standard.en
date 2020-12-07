@@ -28,7 +28,7 @@ Default security groups are:
 
 >[!IMPORTANT]
 >
->The **[!UICONTROL Access to the deliverability parameters (Deliverability)]** and **[!UICONTROL Message Center agents]** security groups are internal only and should not be assign to users.
+>The **[!UICONTROL Access to the deliverability parameters (Deliverability)]** and **[!UICONTROL Message Center agents (mcExec)]** security groups are internal only and should not be assign to users.
 
 If a user is not linked to any security group, he will not be able to access Adobe Campaign.
 
