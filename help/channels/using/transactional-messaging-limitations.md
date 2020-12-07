@@ -9,7 +9,7 @@ topic-tags: landing-pages
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 ---
 
-# Best practices and limitations {#transactional-messaging-limitations}
+# Transactional messaging best practices and limitations {#transactional-messaging-limitations}
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">
 
@@ -25,6 +25,7 @@ Only users with the [Administration](../../administration/using/users-management
 
 As you are configuring and publishing transactional events, some of the steps you need to perform cannot be reverted. You need to be aware of the following limitations:
 
+* The available channels for transactional messaging are: **[!UICONTROL Email]**, **[!UICONTROL Mobile (SMS)]** and **[!UICONTROL Push notification]**.
 * Only one channel can be used for each event configuration. See [Creating an event](../../channels/using/configuring-transactional-event.md#creating-an-event).
 * Once the event is created, you cannot change the channel. Therefore, if a message is not sent successfully, you need to design the mechanism allowing to send it from another channel using a workflow. See [Workflow data and processes](../../automating/using/get-started-workflows.md).
 * You cannot change the targeting dimension ( **[!UICONTROL Real-time event]** or **[!UICONTROL Profile]** ) after the event is created. See [Creating an event](../../channels/using/configuring-transactional-event.md#creating-an-event).

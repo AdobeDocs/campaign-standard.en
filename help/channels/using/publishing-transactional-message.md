@@ -13,7 +13,7 @@ context-tags:
 
 When the [transactional message](../../channels/using/editing-transactional-message.md) is ready to be sent, it can be published.
 
-The steps to test, publish, pause, unpublish and delete an event are detailed below. This section also describes the transactional messaging retry process.
+The steps to publish, pause, unpublish and delete a transactional message are detailed below. This section also describes how to monitor the delivery and details the transactional messaging retry process.
 
 ## Transactional messaging publication process {#transactional-messaging-pub-process}
 
@@ -87,7 +87,7 @@ To access reports concerning your transactional message, use the **[!UICONTROL R
 
 ![](assets/message-center_13.png)
 
-### Suspending a transactional message publication {#suspending-a-transactional-message-publication}
+## Suspending a transactional message publication {#suspending-a-transactional-message-publication}
 
 You can suspend publishing your transactional message by using the **[!UICONTROL Pause]** button, for example, to modify the data contained in the message. The events are therefore no longer processed, but instead kept in a queue in the Adobe Campaign database.
 
@@ -97,7 +97,7 @@ The queued events are kept during a period of time that is defined in the REST A
 
 When clicking **[!UICONTROL Resume]**, all of the queued events (provided that they are not expired) are processed. They now contain all of the modifications carried out while the template publication was suspended.
 
-### Unpublishing a transactional message {#unpublishing-a-transactional-message}
+## Unpublishing a transactional message {#unpublishing-a-transactional-message}
 
 Clicking **[!UICONTROL Unpublish]** allows you to cancel the transactional message publication, but also the publication of the corresponding event, which deletes from the REST API the resource corresponding to the event that you previously created.
 
@@ -115,7 +115,7 @@ The steps for pausing a message are detailed in the [Suspending a transactional 
 
 The **[!UICONTROL Database cleanup]** workflow, which runs every day at 4am, is accessible through **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Workflows]**.
 
-### Deleting a transactional message {#deleting-a-transactional-message}
+## Deleting a transactional message {#deleting-a-transactional-message}
 
 Once a transactional message has been unpublished, or if a transactional message has  not been published yet, you can delete it from the transactional message list. To do this:
 
@@ -137,6 +137,57 @@ However, deleting a transactional message can only be done under certain conditi
 
 * **Transactional messages from an out-of-the-box event template (internal transactional messages)**: If an internal transactional message is the only one associated with the corresponding internal event, it cannot be deleted. You must first create another transactional message by duplicating it or through the **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Transactional message templates]** menu.
 
+<!--## Monitoring transactional message delivery {#monitoring-transactional-message-delivery}
+
+Once the message is published and your site integration is done, you can monitor the delivery.
+
+To monitor transactional messaging, you need to access **execution deliveries**. An execution delivery is a non-actionable and non-functional technical message created once a month for each transactional message, and each time a transactional message is edited and published again.
+
+1. To view the message delivery log, click the icon at the bottom right of the **[!UICONTROL Deployment]** block.
+
+   ![](assets/message-center_access_logs.png)
+
+1. Click the **[!UICONTROL Execution list]** tab.
+
+   ![](assets/message-center_execution_tab.png)
+
+1. Select the execution delivery of your choice.
+
+   ![](assets/message-center_execution_delivery.png)
+
+1. Click again the icon at the bottom right of the **[!UICONTROL Deployment]** block.
+
+   ![](assets/message-center_execution_access_logs.png)
+
+   For each execution delivery, you can consult the delivery logs as you would do for a standard delivery. For more on accessing and using the logs, see [Monitoring a delivery](../../sending/using/monitoring-a-delivery.md).
+
+**Related topics**:
+* [Publishing a transactional message](#publishing-a-transactional-message)
+* [Integrate the event triggering](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
+
+### Profile-based transactional message specificities {#profile-transactional-message-monitoring}
+
+For profile-based transactional messages, you can monitor the following profile information.
+
+Select the **[!UICONTROL Sending logs]** tab. In the **[!UICONTROL Status]** column, **[!UICONTROL Sent]** indicates that a profile has opted in.
+
+![](assets/message-center_marketing_sending_logs.png)
+
+Select the **[!UICONTROL Exclusions logs]** tab to view recipients who have been excluded from the message target, such as addresses on denylist.
+
+![](assets/message-center_marketing_exclusion_logs.png)
+
+For any profile that has opted out, the **[!UICONTROL Address on denylist]** typology rule excluded the corresponding recipient.
+
+This rule is part of a specific typology that applies to all transactional messages based on the **[!UICONTROL Profile]** table.
+
+![](assets/message-center_marketing_typology.png)
+
+**Related topics**:
+
+* [About typologies and typology rules](../../sending/using/about-typology-rules.md)
+* [Monitoring a delivery](../../sending/using/monitoring-a-delivery.md)
+
 ## Transactional message retry process {#transactional-message-retry-process}
 
 A temporarily undelivered transactional message is subject to automatic retries that are performed until the delivery expires. For more on the delivery duration, see [Validity period parameters](../../administration/using/configuring-email-channel.md#validity-period-parameters).
@@ -146,9 +197,11 @@ When a transactional message fails to be sent, there are two retry systems:
 * At the transactional messaging level, a transactional message can fail before the event is assigned to an execution delivery, meaning between the event reception and the delivery preparation. See [Event processing retry process](#event-processing-retry-process).
 * At the sending process level, once the event has been assigned to an execution delivery, the transactional message can fail due to a temporary error. See [Message sending retry process](#message-sending-retry-process).
 
+The definition of **execution delivery** can be found in the [Monitoring transactional message delivery](#monitoring-transactional-message-delivery) section.
+
 ### Event processing retry process {#event-processing-retry-process}
 
-When an event is triggered, it is assigned to an **execution delivery**, which is a non-actionable and non-functional technical message created once a month for each transactional message, and each time a transactional message is edited and published again.
+When an event is triggered, it is assigned to an execution delivery.
 
 If the event cannot be assigned to an execution delivery, the event processing is postponed. Retries are then performed until it is assigned to a new execution delivery.
 
@@ -176,4 +229,4 @@ In the retry process, the sending logs of the new execution delivery are not imm
 
 You cannot stop an execution delivery. However, if the current execution delivery fails, a new one is created as soon as a new event is received, and all new events are processed by this new execution delivery. No new events are processed by the failed execution delivery.
 
-If some events already assigned to an execution delivery have been postponed and if that execution delivery fails, the retry system does not assign the postponed events to the new execution delivery, which means that these events are lost.
+If some events already assigned to an execution delivery have been postponed as part of the retry process and if that execution delivery fails, the retry system does not assign the postponed events to the new execution delivery, which means that these events are lost. Check the [delivery logs](#monitoring-transactional-message-delivery) to see the recipients that may have been impacted.-->

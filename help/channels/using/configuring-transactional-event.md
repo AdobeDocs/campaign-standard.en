@@ -15,7 +15,7 @@ To send a transactional message with Adobe Campaign, you first need to describe 
 
 >[!IMPORTANT]
 >
->Only [Functional administrators](../../administration/using/users-management.md#functional-administrators) being part of the **[!UICONTROL All]** [organizational unit](../../administration/using/organizational-units.md) have the appropriate rights to create and edit event configurations.
+>Only [Functional administrators](../../administration/using/users-management.md#functional-administrators) <!--being part of the **[!UICONTROL All]** [organizational unit](../../administration/using/organizational-units.md) -->have the appropriate rights to create and edit event configurations.
 
 The configuration varies depending on the [type of transactional message](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types) you want to send, and on the channel that will be used. For more on this, see [Specific configurations](#transactional-event-specific-configurations).
 
@@ -35,7 +35,7 @@ To get started, create the event corresponding to your needs.
    >
    >The ID must not exceed 64 characters, including the EVT prefix.
 
-1. Select the channel that will be used to send your transactional messages **[!UICONTROL Email]**, **[!UICONTROL Mobile (SMS)]** or **[!UICONTROL Mobile application]** (push notification). Only one channel can be used for each event and it cannot be changed afterwards.
+1. Select the channel that will be used to send your transactional messages **[!UICONTROL Email]**, **[!UICONTROL Mobile (SMS)]** or **[!UICONTROL Push notification]**. Only one channel can be used for each event and it cannot be changed afterwards.
 
 1. Select the targeting dimension corresponding to the desired event configuration and click **[!UICONTROL Create]**.
 
@@ -178,11 +178,11 @@ To send an event-based transactional message, you first need to create and confi
 
 1. Preview and publish the event (see [Previewing and publishing the event](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)).
 
-   When previewing the event, the REST API contains an attribute specifying the email address or mobile phone according to the selected channel.
+   When previewing the event, the REST API contains an attribute specifying the email address, mobile phone, or push notification specific attributes, according to the selected channel.
 
    Once the event has been published, a transactional message linked to the new event is automatically created. In order for the event to trigger sending a transactional message, you must [modify](../../channels/using/editing-transactional-message.md) and [publish](../../channels/using/publishing-transactional-message.md) the message that was just created.
 
-1. Integrate the event into your website (see [Integrate event triggering](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)).
+1. Integrate the event into your website (see [Integrate the event triggering](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)).
 
 ### Profile-based transactional messages {#profile-based-transactional-messages}
 
@@ -195,11 +195,21 @@ To send a profile-based transactional message, you first need to create and conf
 1. Create an enrichment in order to link the event to the **[!UICONTROL Profile]** resource (see [Enriching the transactional message content](#enriching-the-transactional-message-content)). Creating an enrichment is mandatory when using a **[!UICONTROL Profile]** targeting dimension.
 1. Preview and publish the event (see [Previewing and publishing the event](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)).
 
-   When previewing the event, the REST API does not contain an attribute specifying the email address or the mobile phone as it will be retrieved from the **[!UICONTROL Profile]** resource.
+   When previewing the event, the REST API does not contain an attribute specifying the email address, mobile phone, or push notification specific attributes, as it will be retrieved from the **[!UICONTROL Profile]** resource.
 
    Once the event has been published, a transactional message linked to the new event is automatically created. In order for the event to trigger sending a transactional message, you must [modify](../../channels/using/editing-transactional-message.md) and [publish](../../channels/using/publishing-transactional-message.md) the message that was just created..
 
-1. Integrate the event into your website (see [Integrate event triggering](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)).
+1. Integrate the event into your website (see [Integrate the event triggering](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)).
+
+<!--### Transactional SMS messages {#transactional-sms}
+
+The steps to configure an  event to send an SMS transactional message are the same as for the email channel. The only differences are as follows:
+
+* When creating the corresponding event, you need to select the **[!UICONTROL Mobile (SMS)]** channel.
+
+* When previewing the event corresponding to an event-based transactional SMS, the REST API contains an attribute specifying the mobile phone instead of the email address.
+
+* The specificities to edit the content of an SMS transactional message are the same as for a [standard SMS](../../channels/using/about-sms-and-push-content-design.md).-->
 
 ### Transactional push notifications {#transactional-push-notifications}
 

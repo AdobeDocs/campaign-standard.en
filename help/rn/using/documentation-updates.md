@@ -423,7 +423,7 @@ A new section on how to save email content as a fragment in the Email Designer h
 
 The Managing links section has been updated with additional information on how to manage tracked URLs in the Email Designer. [Read more](../../designing/using/links.md#inserting-a-link)
 
-A new section has been added to describe the specific transactional message retry process. [Read more](../../channels/using/publishing-transactional-message.md#transactional-message-retry-process)
+A new section has been added to describe the specific transactional message retry process. [Read more](../../channels/using/transactional-message-execution.md#transactional-message-retry-process)
 
 The Publishing a resource with API extension section has been clarified and updated with the latest UI changes. [Read more](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension)
 
