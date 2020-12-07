@@ -12,11 +12,25 @@ discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 
 ---
 
-# Configure Adobe I/O for Microsoft Dynamics 365 integration
+# Adobe Campaign Standard and Adobe I/O Configuration for the Microsoft Dynamics 365 integration
+
+This article will explain how to configure Adobe Campaign Standard and Adobe I/O to give the integration application access to the data.     
+
+## Configure Adobe Campaign Standard {#campaign-standard}
+
+### Profile Extensions
+
+Please enable “profile extensions” in Adobe Campaign Standard.   This is needed in order for custom fields in the Profile resource to be synced from Microsoft Dynamics 365.   The steps to enable them are:
+
+1. Go to Settings -> Administration -> Development -> Publishing.
+1. Click "Prepare publication" to prepare a publication.
+1. After the preparation is finished check "Create the Profiles & Services Ext API" and click "Publish".
+
+## Configure Adobe I/O {#adobe-io}
 
 Adobe I/O allows you to enable API access to Adobe Campaign Standard as well as other Adobe products.   This article will detail you to configure Adobe I/O in order to give the Adobe Campaign Standard integration with Dynamics 365 access to synchronize the data.  
 
-## Overview
+### Overview
 
 Before performing the pre-integration setup in this article, it is assumed that you have already been provisioned and have admin access to your organization’s Campaign Standard instance.  If this has not happened, then you will need to get in contact with Adobe Customer Care to complete Campaign provisioning.
 
@@ -24,11 +38,11 @@ Before performing the pre-integration setup in this article, it is assumed that 
 >
 >Steps described below need to be performed by an administrator.
 
-## Configuration
+### Configuration
 
 You will need to create a new Adobe IO project and configure it for the integration. 
 
-### Create a new project
+#### Create a new project
 
 To achieve this, follow the procedure below:
 
