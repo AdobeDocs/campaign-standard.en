@@ -24,6 +24,11 @@ Roles can be managed from the **[!UICONTROL Administration > Users & Security > 
 Default rights are:
 
 * **[!UICONTROL Administration]**: Generic administration right.
+
+    >[!NOTE]
+    >
+    >If you need to create Triggers, you will need the **[!UICONTROL Administration]** to be able to access the Triggers menu. For more information on Triggers, refer to this [page](../../integrating/using/about-adobe-experience-cloud-triggers.md).
+
 * **[!UICONTROL Datamodel]**: Right to run publications and create custom resources.
 * **[!UICONTROL Generic import]**: Right to run a generic import on data. For this to work, you need to link the **[!UICONTROL Generic import]** role to the **[!UICONTROL Workflow]** role.
 * **[!UICONTROL Prepare deliveries]**: Right to create, modify, prepare and delete deliveries. Users with this role can prepare the delivery but not send it.

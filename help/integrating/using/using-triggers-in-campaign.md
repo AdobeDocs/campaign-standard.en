@@ -13,6 +13,10 @@ topic-tags: working-with-campaign-and-triggers
 
 ## Creating a mapped trigger in Campaign {#creating-a-mapped-trigger-in-campaign}
 
+>[!NOTE]
+>
+>To create Triggers, you will need the **[!UICONTROL Administration]** role or to be in the **[!UICONTROL Administrators]** security group. For more information on this, refer to this [page](../../administration/using/list-of-roles.md).
+
 You should make sure to define the behaviors that you want to monitor beforehand in Adobe Experience Cloud ( **[!UICONTROL Triggers]** core service). For more on this, refer to the [Adobe Experience Cloud documentation](https://docs.adobe.com/content/help/en/core-services/interface/activation/triggers.html). Note that when you define the trigger, you need to enable the aliases. For each behavior (browsing/form abandonment, adding/deleting products, session expired, etc.), a new trigger must be added in Adobe Experience Cloud.
 
 You now have to create a trigger event in Adobe Campaign based on an existing Adobe Experience Cloud trigger.
