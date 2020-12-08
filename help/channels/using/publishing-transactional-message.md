@@ -93,7 +93,7 @@ To access reports concerning your transactional message, use the **[!UICONTROL R
 
 **Related topics**:
 * [Editing a transactional message](../../channels/using/editing-transactional-message.md)
-* [Testing a transactional message](../..channels/using/testing-transactional-message.md)
+* [Testing a transactional message](../../channels/using/testing-transactional-message.md)
 * [Integrate the event triggering](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
 
 ## Suspending a transactional message publication {#suspending-a-transactional-message-publication}
