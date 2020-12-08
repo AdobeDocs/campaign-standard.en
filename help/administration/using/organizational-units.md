@@ -91,6 +91,7 @@ Whereas the profiles with the Geometrixx organizational unit will be read only, 
 >[!IMPORTANT]
 >
 >We recommend adding this option before importing any profiles since profiles with no organizational units cannot be accessed by users.
+>
 >If you have already imported your customer database, an update is necessary in order to set the organizational unit values on the already imported profiles.
 
 If your organization needs to isolate the profiles contacted by each of your different brands, you can partition your profiles by their organizational units.
