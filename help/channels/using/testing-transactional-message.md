@@ -17,7 +17,7 @@ Before publishing your transactional message, you can create a specific test pro
 
 Define a test profile that will be linked to your event, which will allow you to preview your message and send a relevant proof.
 
-1. From the transactional message dashboard, click the **[!UICONTROL Create test profile]** button.
+1. From the [transactional message dashboard](../../channels/using/editing-transactional-message.md#accessing-transactional-messages), click the **[!UICONTROL Create test profile]** button.
 
    ![](assets/message-center_test-profile.png)
 
@@ -27,7 +27,7 @@ Define a test profile that will be linked to your event, which will allow you to
 
    >[!NOTE]
    >
-   >You can also enter the information relating to the profile table. See [Enriching the event](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) and [Personalizing a transactional message](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
+   >If you enriched your message, you can also enter information relating to another table, such as **[!UICONTROL Profile]**. See [Enriching the event](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) and [Personalizing a transactional message](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
 
 1. Once created, the test profile will be pre-specified in the transactional message. Click the **[!UICONTROL Test profiles]** block of the message to check the target of your proof.
 
@@ -42,7 +42,7 @@ You can also create a new test profile or use one that already exists in the **[
    ![](assets/message-center_3.png)
 
 1. Save your changes.
-1. Access the message that you created and select the updated test profile.
+1. [Access the message](../../channels/using/editing-transactional-message.md#accessing-transactional-messages) that you created and select the updated test profile.
 
 **Related topics:**
 

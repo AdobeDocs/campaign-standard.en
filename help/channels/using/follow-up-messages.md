@@ -44,15 +44,15 @@ To access this template:
 
 Only the follow-up messages are displayed.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->To access transactional messages, you must be part of the **[!UICONTROL Administrators (all units)]** security group.
+>Only users with the [Administration](../../administration/using/users-management.md#functional-administrators) role can access and edit transactional messages.
 
 ## Sending a follow-up message {#sending-a-follow-up-message}
 
 Once you created the follow-up delivery template, you can use it in a workflow to send a follow-up message.
 
-(You need to set up a workflow targeting the event corresponding to the transactional message that was already received.)
+<!--You need to set up a workflow targeting the event corresponding to the transactional message that was already received.-->
 
 1. Access the marketing activity list and create a new workflow.
 

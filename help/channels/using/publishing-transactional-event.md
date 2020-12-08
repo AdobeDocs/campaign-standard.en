@@ -35,7 +35,7 @@ Before being able to use the event, you must preview and publish it.
 
    >[!NOTE]
    >
-   >The REST API varies according to the selected channel and the selected targeting dimension. For more details on the various configurations, refer to [Transactional event specific configurations](../../channels/using/configuring-transactional-event.md#transactional-event-specific-configurations).
+   >The REST API varies according to the selected channel and the selected targeting dimension. For more details on the various configurations, refer to [this section](../../channels/using/configuring-transactional-event.md#transactional-event-specific-configurations).
 
 1. Click **[!UICONTROL Publish]** to start publication.
 

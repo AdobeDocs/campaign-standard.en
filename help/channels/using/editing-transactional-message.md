@@ -45,7 +45,9 @@ To edit and personalize a transactional message, follow the steps below.
 
 >[!NOTE]
 >
->This section describes how to edit an **event-based** transactional message.  The configuration steps to create an event-based transactional message are presented in [this section](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages). The **profile-based** transactional message specificities are detailed [below](#profile-transactional-message-specificities).
+>This section describes how to edit an **event-based** transactional message. The **profile-based** transactional message specificities are detailed [below](#profile-transactional-message-specificities).
+>
+>The configuration steps to create an event-based transactional message are presented in [this section](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages). 
 
 For example, you want to send a notification to your website users who have added products to their cart and leave the site without going through with their purchases. This example is presented in the [Transactional messaging operating principle](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) section.
 
@@ -65,7 +67,7 @@ For example, you want to send a notification to your website users who have adde
 
    ![](assets/message-center_7.png)
 
-1. To enrich the content of your message, add fields by selecting them from the table with which you linked your event. In this example, select the **[!UICONTROL Title (salutation)]** field in the **[!UICONTROL Profile]** table through **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
+1. You can also enrich the content of your message. To do this, add fields from the table that you linked to your event configuration (see [Enriching the event](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)). In this example, select the **[!UICONTROL Title (salutation)]** field from the **[!UICONTROL Profile]** table through **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
 
    ![](assets/message-center_7-enrichment.png)
 

@@ -26,7 +26,11 @@ The prerequisites are as follows:
 
 For more on extending, creating and publishing resources, see [this section](../../developing/using/key-steps-to-add-a-resource.md).
 
-The main steps to implement this use case are as follows. To see a graphical representation of the transactional messaging general process, see [this schema](../../channels/using/getting-started-with-transactional-msg.md#key-steps).
+The main steps to implement this use case are presented below.
+
+>[!NOTE]
+>
+>For a graphical representation of the transactional messaging general process, see [this schema](../../channels/using/getting-started-with-transactional-msg.md#key-steps).
 
 ## Step 1 - Create and publish the event configuration {#create-event-configuration}
 
