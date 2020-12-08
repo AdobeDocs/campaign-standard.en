@@ -13,11 +13,11 @@ topic-tags: campaign-standard-apis
 
 ## About transactional messaging
 
-Once you have created an event, you will have to integrate the triggering of this event into your website.
+Once you have created and published a transactional event, you need to integrate the triggering of this event into your website.
 
 >[!NOTE]
 >
->Creating and publishing an event are presented in [The Campaign documentation](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
+>Configuring an event is presented in [this section](../../channels/using/configuring-transactional-event.md).
 
 For example, you want a "Cart abandonment" event to be triggered whenever one of your clients leaves your website before purchasing the products in their cart. To do this, your web developer must use the REST Transactional Messages API.
 
@@ -44,7 +44,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
   (Note that the transactional messages API endpoint is also visible during the API preview)
 
-* **&lt;eventID&gt;**: the type of event you want to send. This ID is generated when creating the event definition. Refer to the [Campaign documentation](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
+* **&lt;eventID&gt;**: the type of event you want to send. This ID is generated when creating the event configuration (refer to [this section](../../channels/using/configuring-transactional-event.md#creating-an-event)).
 
 ### POST request header
 
@@ -65,7 +65,7 @@ You must add a charset, for example **utf-8**. Note that this value depends on t
 
 ### POST request body
 
-The event data are contained inside the JSON POST body. The event structure depends on its definition. The API preview button in the resource definition screen provides a request sample. Refer to the [Campaign documentation](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
+The event data are contained inside the JSON POST body. The event structure depends on its definition. The API preview button in the resource definition screen provides a request sample. Refer to [this section](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
 
 The following optional parameters can be added to the event content to manage the sending of transactional messages linked to the event:
 
@@ -140,7 +140,7 @@ In the response, the "status" field allows you to know whether the event has bee
 
 * **pending**: the event is pending - the event takes on this status when it has just been triggered.
 * **processing**: the event is pending delivery - it is being transformed into a message and the message is being sent.
-* **paused**: the event process is being paused. It is no longer processed, but kept in a queue in the Adobe Campaign database. For more on this, refer to the [Campaign documentation](https://helpx.adobe.com/campaign/standard/channels/using/event-transactional-messages.html#unpublishing-a-transactional-message).
+* **paused**: the event process is being paused. It is no longer processed, but kept in a queue in the Adobe Campaign database. For more on this, refer to [this section](../../channels/using/publishing-transactional-message.md#suspending-a-transactional-message-publication).
 * **processed**: the event was processed and the message was sent successfully.
 * **ignored**: the event was ignored by the delivery, typically when an address is in quarantine.
 * **deliveryFailed**: a delivery error occurred while the event was being processed.

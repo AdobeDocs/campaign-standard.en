@@ -197,7 +197,7 @@ topic-tags: campaign-standard-releases
 
 * Fixed an issue with the **Enrichment** workflow activity that could occur when adding spaces in the **Alias** field which then created a new row item. (CAMP-39229)
 * Fixed an issue where every test profile could be targeted when sending a proof message.
-* Fixed an issue that occurred after unpublishing and deleting an event configuration. [Read more](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
+* Fixed an issue that occurred after unpublishing and deleting an event configuration. [Read more](../../channels/using/publishing-transactional-event.md#deleting-an-event)
 * Fixed an issue where the **Save** button disappeared when making changes to workflows.
 * Fixed an issue when deleting a privacy request manually in Campaign after it had been processed, which prevented data associated to the request from being deleted even after cleanup.
 * Fixed an issue that could occur when previewing or sending messages that included special characters from Adobe Experience Manager.

@@ -19,7 +19,7 @@ To create a new resource or to extend an existing resource with new fields, seve
 1. [Configuring filter definition](../../developing/using/configuring-filter-definition.md)
 1. [Updating the database structure](../../developing/using/updating-the-database-structure.md)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Creating and modifying resources are sensitive operations which must be performed by expert users only.
 
@@ -28,4 +28,3 @@ This video shows how to create custom resources.
 >[!VIDEO](https://video.tv.adobe.com/v/27715?quality=9&captions=eng)
 
 Additional Campaign Standard how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=en).
-
