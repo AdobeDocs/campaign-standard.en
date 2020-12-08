@@ -55,9 +55,9 @@ Below are links to help guide you in implementing access and/or delete privacy r
 
 ### Privacy and linked resources {#privacy-linked-resources}
 
-If any Campaign custom resource record contains personal information, applicable to a customer’s use of Campaign, such record should be linked to a corresponding Campaign profile record (either directly or through another custom resource) so that a privacy related delete on the profile record can also delete the linked custom resource record containing personal information; the linking and deletion options between the entities must be configured to enable this cascade-like removal of the linked records. Personal information should not be entered into a custom resource that is not linked to the profile.
-
-Learn how to map Campaign resources and Dynamics 365 entities [in this section](../../integrating/using/d365-acs-map-campaign-custom-resources-and-dynamics-365-custom-entities.md).
+>[!CAUTION]
+>
+>If any Campaign custom resource record contains personal information, applicable to a customer’s use of Campaign, such record should be linked to a corresponding Campaign profile record (either directly or through another custom resource) so that a privacy related delete on the profile record can also delete the linked custom resource record containing personal information; the linking and deletion options between the entities must be configured to enable this cascade-like removal of the linked records. Personal information should not be entered into a custom resource that is not linked to the profile.
 
 ## Opt-out {#opt-out}
 
@@ -89,13 +89,11 @@ If your selected the bidirectional or Campaign to Dynamics 365 opt-out configura
 
 ## Campaign SFTP Usage
 
-Your Campaign SFTP storage will need to be utilized by the integration in the use cases below.  You will need to ensure that your SFTP account has adequate storage capacity to accommodate these use cases.  Exceeding the licensed SFTP storage capacity may severely impair the functional use of Campaign, the integration and/or the SFTP account.
+Your Campaign SFTP storage will need to be utilized by the integration in the opt-out use case below.  You will need to ensure that your SFTP account has adequate storage capacity to accommodate these use cases.  Exceeding the licensed SFTP storage capacity may severely impair the functional use of Campaign, the integration and/or the SFTP account.
 
 | Use case | Description |
 |---|---|
-| Initial Data Load | Dynamics 365 tables over 500k records will need to be exported to the Campaign SFTP storage to be imported via workflow. From that point on, the integration will use APIs for incremental updates. |
 | Bi-directional opt-out and Campaign to Dynamics 365 uni-directional opt-out | Bi-directional opt-out and Campaign to Dynamics 365 uni-directional opt-out data flows will utilize the Campaign SFTP storage. An ACS workflow will export incremental changes to the SFTP folder. From there, the integration will pick up the records and process. |
-| Disaster recovery |  In the unlikely event of a system disaster, the “Initial Data Load” use case will be followed to feed the incremental updates to Campaign that were missed. |
 
 ## Existing Campaign data
 
@@ -118,3 +116,30 @@ The exception to this is the bidirectional and Campaign to Dynamics 365 opt-out 
 ## Data usage agreement
 
 If you are located in EMEA or APAC regions, some of your data will be processed in the US as part of this integration. For more information, refer to [this section](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
+
+
+## Impact on ACS Performance
+
+>[!WARNING]
+>
+>Certain actions on your part (e.g., initial ingest of records, replaying of record data, etc.) could result in a large load of records being ingested from Microsoft Dynamics 365 to your Adobe Campaign Standard (ACS) instance. To reduce the risk of performance issues which may adversely impact your ACS instance, it is recommended you stop all ACS processes (e.g., no marketing activity, no running of workflows, etc.) until after the large load of records has been ingested into ACS.
+
+## Custom entities
+
+The [Microsoft Dynamics 365-Adobe Campaign Standard integration](../../integrating/using/d365-acs-get-started.md) supports custom entities, enabling custom entities in Dynamics 365 to be synchronized to corresponding custom resources in Campaign.
+
+The integration supports both linked and non-linked tables.
+
+When configuring custom entity data flows, it is important to be aware of the following:
+
+* Creating and modifying Campaign custom resources are sensitive operations which must be performed by expert users only.
+* For custom entity data flows, change tracking must be enabled within Dynamics 365 for synchronized custom entities.
+* If a parent and linked child record are created close to the same time in Dynamics 365, due to the parallel processing of the integration, there is a slight chance that a new child record could be written to Campaign before its parent record.
+
+* If the parent and child are linked on the Campaign side using the **1 cardinality simple link** option, the child record will remain hidden and inaccessible (via UI or API) until the parent record arrives in Campaign.
+
+* (Assuming **1 cardinality simple link** in Campaign) If the child record is updated or deleted in Dynamics 365, and that change is written to Campaign before the parent record shows up in Campaign (not likely, but a remote possibility), that update or delete will not be processed in Campaign and an error will be thrown. In the case of update, the record in question will need to be updated in Dynamics 365 again in order to sync the updated record. In the case of delete, the record in question will need to be taken care of separately on the Campaign side since there is no longer a record in Dynamics 365 to delete or update.
+
+* If you run into a situation where you believe you have hidden child records and no way to access them, you can temporarily change the cardinality link type to **0 or 1 cardinality simple link** to access those records.
+
+A more comprehensive overview of Campaign custom resources can be found [in this section](../../developing/using/key-steps-to-add-a-resource.md).

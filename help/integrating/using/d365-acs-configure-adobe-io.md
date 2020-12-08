@@ -94,7 +94,7 @@ Once downloaded, you can unzip the file to reveal the public and private keys. A
 
 1. On the next screen click **[!UICONTROL Save the configured API]**.
 
-Pre-integration setup in Campaign is now complete.  Proceed to complete [pre-integration setup for Microsoft Dynamics 365](../../integrating/using/d365-acs-configure-d365.md).
+Pre-integration setup in Campaign is now complete.  
 
 **Related Topics** 
 

@@ -12,13 +12,13 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 
 ---
 
-# Use the Microsoft Dynamics 365 integration
+# Using the Microsoft Dynamics 365 integration
 
 There are several data flows that the Adobe Campaign Standard Integration with Dynamics 365 performs:
 
 * Dynamics 365 to Adobe Campaign
 
-    * Bring in *contacts* from Dynamics 365 into Campaign
+    * Send *contacts* from Dynamics 365 into Campaign
     * *Custom entities*: Bring in custom tables from Dynamics 365 to Campaign. Learn more [in this section](../../integrating/using/d365-acs-map-campaign-custom-resources-and-dynamics-365-custom-entities.md).
     * This is also known as **"Ingress"** (referring to the ingress of data from Dynamics 365 to Adobe Campaign Standard)
 
@@ -109,11 +109,11 @@ The following is a list of the attributes and a description:
 
 New, updated, and deleted records (Note: deleted must be enabled) are sent from the Dynamics 365 contact table to the Campaign profile table.
 
-Table mappings can be configured to map Dynamics 365 table attributes to Campaign table attributes. The table mappings can be modified to add/remove attributes, as needed.
+Table mappings can be configured in the integration application UI to map Dynamics 365 table attributes to Campaign table attributes. The table mappings can be modified to add/remove attributes, as needed.
 
-The initial run of the data flow is designed to transfer all mapped records, including those marked as “inactive”; subsequently, the integration will only process incremental updates. The exception to this is if a filter is configured; basic, attribute-based, filtering rules can be configured to determine which records to sync to Campaign.
+The initial run of the data flow is designed to transfer all mapped records, including those marked as “inactive”; subsequently, the integration will only process incremental updates. The exception to this is if the data is replayed or if a filter is configured; basic, attribute-based, filtering rules can be configured to determine which records to sync to Campaign.
 
-Basic replacement rules can be configured to replace an attribute value with a different value (e.g., “green” for “#00FF00”, “F” for 1, etc.).
+Basic replacement rules can be configured in the integration application UI to replace an attribute value with a different value (e.g., “green” for “#00FF00”, “F” for 1, etc.).
 
 Depending on the volume of records, your Campaign SFTP storage may need to be utilized for the initial data transfer.  See the section on [Initial Data Transfer](#initial-data-transfer) for more information.
 
@@ -177,6 +177,10 @@ Opt-out (e.g., denyList) values are synchronized between systems; you have the f
 
 Alternatively, if you have a separate process to manage opt-out synchronization between the systems, the integration's opt-out data flow can be disabled.
 
+    >[!NOTE]
+    >
+    >In the integration application UI, the uni-directional ACS to Dynamics 365 and the bi-directional opt-out use cases are configured in a separate opt-out workflow. The uni-directional Dynamics 365 to ACS opt-out use case is an exception; it is configured within the ingress (Contact to Profile) workflow.
+
 Opt-out flow mapping is to be specified by the customer since business requirements can differ between companies.  On the Campaign side, only the OOTB opt-out attributes can be used for opt-out mapping:
 * denyList
 * denyListEmail
@@ -191,6 +195,8 @@ In Dynamics 365, most opt-out fields have the “donot” prefix; however, you c
 
 ### Initial data transfer {#initial-data-transfer}
 
-Dynamics 365 tables over 500k records will need to be exported to your Campaign SFTP storage to be imported via Campaign workflow.
+The initial data transfer may take a while depending on how many records you are ingesting from Dynamics 365. After the initial data transfer, the integration will pick up the incremental updates.
 
-The initial data transfer is a one-time, file-based transfer of data. After the data transfer, the integration will use APIs for the incremental updates.
+    >[!WARNING]
+    >
+    >Certain actions on your part (e.g., initial ingest of records, replaying of record data, etc.) could result in a large load of records being ingested from Microsoft Dynamics 365 to your Adobe Campaign Standard (ACS) instance. To reduce the risk of performance issues which may adversely impact your ACS instance, it is recommended you stop all ACS processes (e.g., no marketing activity, no running of workflows, etc.) until after the large load of records has been ingested into ACS.

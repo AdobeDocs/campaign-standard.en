@@ -29,7 +29,9 @@ Flowchart Details (maps to steps above):
 
 * **Step 3** - Complete pre-integration steps for Dynamics 365 and Campaign. See [Configure this integration](#configure-this-integration).
 
-* **Steps 4-7** - You will configure the integration self-service app based on your required needs.
+* **Step 4** - The Adobe onboarding team will provide you access to the integration application user interface (UI).
+
+* **Step 5** - You will be able to configure your data mappings, replacements, filters, etc. and test your integration from within the integration application UI.
 
 ## Configure this integration {#configure-this-integration}
 
@@ -37,6 +39,8 @@ Three systems need to be provisioned and configured for this integration:
 * Adobe Campaign Standard, 
 * Microsoft Dynamics 365 for Sales, and 
 * Adobe Campaign Standard integration with Dynamics 365 integration self-service application. 
+
+Configuration articles are linked below.
 
 >[!CAUTION]
 >

@@ -32,11 +32,7 @@ The following guardrails should be taken into consideration when planning to use
 
 * The integration supports a maximum of 30 million contacts.
 
-* The standard integration offering includes support for up to five custom entities
-
-* Custom entities over 500k records will require extra consulting hours to perform a one-time (per custom entity) initial file-based import via Campaign workflow (which incurs an additional cost)
-
-* The standard integration offering includes support for custom entities up to 50 columns in size.
+* The standard integration offering includes support for up to five custom entities, each with a max of 50 columns in size.
 
 * You will need to create and publish your custom resources before implementing the integration.
 
@@ -44,11 +40,11 @@ The following guardrails should be taken into consideration when planning to use
 
 * There is limited support for Dynamic 365 data types. If your data model contains a data type other than simple data types (e.g., strings, integers, decimals, etc.), you may need to update your data model before using the integration.
 
-* Preserving existing data in Campaign custom entities may incur additional consulting costs to prepare the data for the integration.
+* If you chose to preserve existing data in Campaign custom entities, you will need to prepare the data for the integration.
 
-* Onboarding maintenance windows may need to be established between Adobe and the customer as initial ingest (or "replaying" of existing data) may cause Campaign slowdowns.
+* Onboarding maintenance windows may need to be established between Adobe and the customer.
 
-* You are encouraged to communicate known instances of significant increase or “spikes” in usage of the integration (e.g., sharp increase in new or updated records), as this could cause slowdowns in data syncing.
+* Be aware that significant increases or “spikes” in usage of the integration (e.g., sharp increase in new or updated records) may cause slowdowns in data syncing.
 
 * As part of the integration, you will be expected to complete the pre-integration configuration steps in Microsoft Azure and Dynamics 365. See the configuration steps [on this page](../../integrating/using/d365-acs-configure-d365.md)
 

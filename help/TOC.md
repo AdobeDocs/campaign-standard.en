@@ -254,13 +254,13 @@ breadcrumb-title: Campaign Standard Guide
                 + [Quick Start Guide](integrating/using/d365-acs-self-service-app-quick-start-guide.md)                  
            + Self-Service User Interface 
                 + [General Usage](integrating/using/d365-acs-self-service-app-general-usage.md)
+                + [Settings](integrating/using/d365-acs-self-service-app-settings.md)                
                 + [Workflows](integrating/using/d365-acs-self-service-app-workflows.md)
                 + Dynamics 365 to Campaign (Ingress) {#campaign-and-microsoft-dynamics-365-self-service-ingress}
                     + [Table Mappings List](integrating/using/d365-acs-self-service-app-ingress-list.md)
                     + [Editing an Individual Table Mapping](integrating/using/d365-acs-self-service-app-ingress-individual-mapping.md)
                 + [Campaign to Dynamics 365 (Egress)](integrating/using/d365-acs-self-service-app-egress.md)
-                + [Opt in/out](integrating/using/d365-acs-self-service-app-optinout.md)
-                + [Settings](integrating/using/d365-acs-self-service-app-settings.md)
+                + [Opt in/out](integrating/using/d365-acs-self-service-app-optinout.md)                
 + Managing processes and data {#managing-processes-and-data}
   + [Get started with data and processes management](automating/using/get-started-workflows.md)
   + Workflow general operation {#workflow-general-operation}

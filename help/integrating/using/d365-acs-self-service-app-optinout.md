@@ -11,11 +11,11 @@ Dynamics 365"  workflow and then click play for the integration to incorporate y
 
 ## Opt in/out synchronization direction
 
-* <u>Disabled</u>: When this is selected, no opt in/out information will move from Adobe Campaign and Dynamics 365.
+* <u>Disabled</u>: When this is selected, no opt in/out information will move between Adobe Campaign and Dynamics 365.
 
-* <u>Unidirectional (Dynamics 365 to Campaign)</u>: This selection is used when you want Opt in/out data to flow from Adobe Campaign to Dynamics 365.   The integration app will not let you define anything when this has been selected since you already have a workflow available to you that allow you to define how the data will flow in this direction. In this case, click the "Save" button, then on the Workflows page, and click to edit the "Dynamics 365 to Adobe  Campaign" workflow.   In this workflow, you can edit the contacts/profile table mapping to identify how you want the data to map.
+* <u>Unidirectional (Dynamics 365 to Campaign)</u>: This selection is used when you want Opt in/out data to flow from Dynamics 365 to Adobe Campaign only.   The integration application will not let you configure the flow in this screen; instead, click the "Save" button, and navigate to the  "Dynamics 365 to Adobe Campaign" workflow.   In this workflow, you can edit the contacts/profile table mapping to identify how you want your Opt in/out fields to map.
 
-* <u>Unidirectional (Campaign to Dynamics 365)</u>: This selection will make visable the "Mappings" section.   These inputs will allow you define which Adobe Campaign fields will map data to what fields in Dyhamics 365.   This means that if you happen to manually update a value in Dynamics 365 then its value would be overwritten by the Adobe Campaign value if it happens to change. 
+* <u>Unidirectional (Campaign to Dynamics 365)</u>: This selection will make visible the "Mappings" section.   These inputs will allow you define which Adobe Campaign fields will map data to what fields in Dynamics 365.   This means that if you happen to manually update a value in Dynamics 365 then its value would be overwritten by the Adobe Campaign value if it happens to change.  
 
 * <u>Bidirectional</u>:  This selection will make visible a section named "Mappings".   These pairs will identify which fields in Dynamics 365 and Adobe Campaign will map to each other.   Visit the page  [Manage data between Campaign and Dynamics 365](integrating/using/d365-acs-notices-and-recommendations.md) for more information about how Bidirectional Opt in/out works.
   
