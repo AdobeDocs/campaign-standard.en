@@ -13,7 +13,7 @@ topic-tags: about-reporting
 
 To learn more on compatibility between dimensions and metrics, refer to this [table](/help/reporting/using/assets/dynamic_report_compatibility.pdf). If two components are not compatible, the cell will display the value **None**.
 
-   ![](assets/dynamic_report_compatibility.png)
+[![image](assets/dynamic_report_compatibility.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=en)
 
 ## Dimensions {#dimensions}
 
