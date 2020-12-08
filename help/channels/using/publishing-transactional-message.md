@@ -15,6 +15,10 @@ When the [transactional message](../../channels/using/editing-transactional-mess
 
 The steps to publish, pause, unpublish and delete a transactional message are detailed below. This section also describes how to monitor the delivery and details the transactional messaging retry process.
 
+>[!IMPORTANT]
+>
+>Only users with the [Administration](../../administration/using/users-management.md#functional-administrators) role can access and publish transactional messages.
+
 ## Transactional messaging publication process {#transactional-messaging-pub-process}
 
 The chart below illustrates the overall transactional messaging publication process.

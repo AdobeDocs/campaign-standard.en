@@ -15,7 +15,7 @@ Once [configuration](../../channels/using/configuring-transactional-event.md) is
 
 >[!IMPORTANT]
 >
->Event configuration and publication must be performed by an [administrator](../../administration/using/users-management.md#functional-administrators).
+>Only [Functional administrators](../../administration/using/users-management.md#functional-administrators) <!--being part of the **[!UICONTROL All]** [organizational unit](../../administration/using/organizational-units.md) -->have the appropriate rights to publish event configurations.
 
 A chart illustrating the whole transactional messaging publication process, including publishing and unpublishing event configurations, is available in [this section](../../channels/using/publishing-transactional-message.md).
 
