@@ -19,6 +19,23 @@ Open a browser and browse to the connector associated with your region:
     >[!NOTE]
     >
     > We suggest that you bookmark this link for future use.
+
+### Privacy Request Acknowledgement
+
+When browsing to the self-service UI for the first time, you will be presented with the privacy acknowledgement below.   You will need to acknowledge that you understand your role in performing privacy requests in Campaign and Microsoft Dynamics 365 separately before you can continue.
+
+*This integration is designed to transfer end user data (including, but not limited to, personal information, if it is contained in your end user data), between Microsoft Dynamics 365 and AdobeCampaign Standard. As a data controller, your company is responsible for complying with any privacy laws and regulations applicable to your collection and use of personal data.*
+
+*The integration does not issue any data subject privacy (e.g., GDPR) deletes or handle any other privacy requests (with the exception of opt-out). When processing privacy requests, you should do so in both Microsfot Dynamics 365 and Campaign (via the Adobe Experience Platform Privacy Service), independently.*
+
+*Please review and bookmark the integration&apos;s public documentation section on privacy to learn more about [managing privacy requests](https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/campaign-and-microsoft-dynamics-365/notices-and-recommendations-for-acs-and-ms-dynamics.html#privacy) and other important privacy topics related to the integration.*
+
+*In addition, below are links to help guide you in implementing access and/or delete privacy related requests in each system (please bookmark for later use):*
+
+* [Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/get-started/gdpr/)
+
+* [Adobe Campaign Standard](https://www.adobe.io/apis/experiencecloud/gdpr/docs.html)
+    
    
 ### Setting up your credentials   
 When you browse to the UI for the first time, then you should see a page with a header that looks like this:    
