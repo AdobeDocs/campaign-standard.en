@@ -42,10 +42,39 @@ As the title implies, this section only needs to be defined if you plan on using
 
 * <u>SFTP Host</u>: This will look like this:  <i>&lt;campaign-instance-name&gt;</i>.campaign.adobe.com.   The header of the integration app includes both the "Org" and "Instance".   The "campaign-instance-name" portion of the url would simply be the name found in this instance value.
   
-* <u>SFTP User</u>: TBD (need to include or reference instructions)
+* <u>SFTP User</u>: If you have the SFTP user, add it here.  If you don't, then see the "SFTP Setup in Adobe Campaign Standard" section below.   As part of the process, you will be shown the username.
 
-* <u>SFTP Key</u>: TBD (need to include or reference instructions)
+* <u>SFTP Key</u>: If you have an SSH Key, add it here.   If you don't, then see the "SFTP Setup in Adobe Campaign Standard" section below.
 
-* The IP Ranges will be needed to be included in your Adobe Campaign Standard SFTP configuration.   These will need to be whitelisted in order for the integration to make use of the SFTP endpoint.  
+* The *IP Ranges* will be needed to be included in your Adobe Campaign Standard SFTP configuration.   These will need to be whitelisted in order for the integration to make use of the SFTP endpoint.  
 
 * The "Do you want to export logs to your Adobe Campaign SFTP?" allows you to determine if the integration will output logging information to the SFTP endpoint.   This can be used to help with debugging if Campaign or Dynamics 365 isn't showing the information you are expecting.
+
+## SFTP Setup in Adobe Campaign Standard
+
+Visit [this page](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=en#sftp-management) for information about the Adobe Campaign Standard SFTP server.   There are pages that describe the IP Ranges, generating SSH Key, and connecting to the SFTP Server.   You can also supplement these with the instructions below:
+
+1. Browse to the Experience Cloud
+1. select the org (in the top-right dropdown)
+1. Click on Campaign
+1. Click "Control Panel" (instead of selecting a Campaign Instance)
+1. In the "SFTP" card, click the "Manage" button
+1. In the "Instance List" dropdown (near the top-right), select stage instance
+1. Click the "Key Management" tab
+1. Click "Add new public key" button
+1. On your local, open up file associated with the SSH public key and copy it
+    1. Go [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/generate-ssh-key.html?lang=en#sftp-management) if you want to see how to generate an SSH Key.
+    1. In the browser, paste the public key into the "Public Key" field in the modal window
+    1. Click the "Save" button
+1. Click on the "Add PI to allow list" button
+1. Adding IP Range
+    1. Note: You can get the "IP Ranges" from them inputs in the Settings screen (see description above) 
+    1. click on the "Add new IP Range"
+        1. Add the first "IP Range" for prod
+        1. Give it a label that will be clear if it's dev, stage, or prod and an index 1 (ex: "d365-int-prod-1").
+        1. Click the "Save" button 
+    1. click on the "Add new IP Range"
+        1. Add the second "IP Range" for prod
+        1. Give it a label that will be clear if it's dev, stage, or prod and the index 2 (ex: "d365-int-prod-2").
+        1. Click the "Save" button 
+1. Log into the SFTP server with the private key and create the directory "d365_loads/exports"
