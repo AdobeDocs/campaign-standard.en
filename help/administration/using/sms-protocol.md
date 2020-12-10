@@ -171,7 +171,7 @@ Notable fields in a SUBMIT_SM PDU:
 
 * **registered_delivery**: tells whether a SR is requested or not. Campaign always sets this flag except for automatic replies. For multipart messages, the flag is only set for the first part. All versions have the same behavior.
 
-* **data_coding**: indicates the encoding used in the text field. See SMS text encoding section in this document for more information.
+* **data_coding**: indicates the encoding used in the text field. See the [SMS text encoding](../../administration/using/sms-protocol.md#sms-text-encoding) section for more information.
 
 * **short_message**: the text of the message. If UDH is used, this also contains the UHD header.
 
@@ -530,7 +530,7 @@ These settings are advanced settings that enable to adapt the Adobe Campaign con
 
 **Define a specific mapping of encodings**
 
-Please see the [SMS text encoding](../../administration/using/sms-protocol.md#sms-text-encoding) section for details about text encoding.
+See the [SMS text encoding](../../administration/using/sms-protocol.md#sms-text-encoding) section for details about text encoding.
 
 This setting allows you to define a custom encoding mapping, different from the specification. You will be able to declare a list of encodings, along with their data_coding value.
 
@@ -691,7 +691,7 @@ Also, the Keyword setting is a prefix. For example, if you specify "AD", it will
 
 The Answer column is the text to reply. No personalization is available in this field. If you leave this field empty, no message will be replied but the additional action will be triggered anyway.
 
-The Additional action column provides an extra action to do when both keyword and short code match. Currently, you can send to blocklist or add to allow list the recipient; none will only reply the text. The action is triggered even if you don't specify an answer. Adding to block list occurs only for the specified short code, not for the whole profile (this is the minimum legal requirement of most countries).
+The Additional action column provides an extra action to do when both keyword and short code match (empty short code matches all short codes). Currently, you can send to quarantine or remove from quarantine; none just replies the text and does nothing more. If you specify an additional action but leave the reply field empty, the action will be executed but no reply will be sent. Quarantine is applied only for the specified short code, or all short codes if the field is left empty.
 
 >[!IMPORTANT]
 >
@@ -711,7 +711,7 @@ The field is limited to 21 characters by the SMPP specification, but some provid
 
 ### Delivery parameters {#delivery-parameters}
 
-Maximum number of SMS per message
+**Maximum number of SMS per message**
 
 This setting only works if the Message payload setting is disabled. For more information on this, refer to this [page](../../administrating/using/configuring-channels/configuring-sms-channel). If the message requires more SMS than this value, an error will be triggered.
 
@@ -737,7 +737,7 @@ This setting is transmitted in the dest_addr_subunit optional field in the SUBMI
 
 The validity period is transmitted in the validity_period field of the SUBMIT_SM PDU. The date is always formatted as an absolute UTC time format (the date field will end with "00+").
 
-## ACS SMPP connector {#ACS-SMPP-connector}
+## SMPP connector {#ACS-SMPP-connector}
 
 ![](assets/sms_protocol_3.png)
  
@@ -772,7 +772,7 @@ Checking the above steps requires to enable verbose SMPP traces to manually chec
 
 ## Things to check before going live {#checklist}
 
-This checklist provides a list of things that you should check before going live. An incomplete setup can lead to many issues that could take down the entire SMS connector. 
+This checklist provides a list of things that you should check before going live. An incomplete setup can lead to many issues that could take down the entire SMS connector.
 
 ### Check for external account conflicts {#external-account-conflict}
 
@@ -915,7 +915,7 @@ Once you checked every account individually, there are 2 possible scenarios:
 
 * Check external account settings. Ask the provider in case of doubt about the value of some fields.
 
-* If the connection is successful but unstable, check the Issues with unstable connections section below.
+* If the connection is successful but unstable, check the [Issue with unstable connections](../../administration/using/sms-protocol.md#issues-unstable-connection) section.
 
 * If connection issues are difficult to diagnose, a network capture will provide a lot of information. Make sure that the network capture runs simultaneously while the problem appears so it can be analyzed efficiently. You should also note the exact time at which the problem appears so it's easier to find the problem in network captures.
 
@@ -947,7 +947,7 @@ How to fix connection stability problems:
 
 ### Issue when sending a MT (regular SMS sent to an end-user){#issue-MT}
 
-* Check that the connection is stable: a SMPP connection should stay up for at least 1 hour continuously. See the section Issue with unstable connections above.
+* Check that the connection is stable: a SMPP connection should stay up for at least 1 hour continuously. See the section [Issue with unstable connections](../../administration/using/sms-protocol.md#issues-unstable-connection).
 
 * If restarting the MTA makes sending MT working again for a small period of time, you probably have throttling due to an unstable connection. See the section Issue with unstable connections above.
 
@@ -971,7 +971,8 @@ Duplicates are often caused by retries. It's normal to have duplicates when retr
 
 * If you see duplicates sent exactly 60 seconds apart, it's probably a problem on the provider side, they don't send a SUBMIT_SM_RESP quick enough.
 
-* If you see many BIND/UNBIND, you have an unstable connection: see the Issues with unstable connections section for solutions before attempting to solve duplicate messages issues.
+* If you see many BIND/UNBIND, you have an unstable connection. See the[Issue with unstable connections](../../administration/using/sms-protocol.md#issues-unstable-connection) section for solutions before attempting to solve duplicate messages issues.
+
 Mitigating the amount of duplicates when there is a retry:
 
 * Lower the sending window. The sending window should be big enough to cover for SUBMIT_SM_RESP latency, but not too big. Its value represents the maximum number of messages that can be duplicated if an error happens while the window is full.
@@ -1002,7 +1003,7 @@ If you fixed everything but some invalid SR are still in the provider's buffers,
 
 * If the MO (DELIVER_SM PDU) doesn't appear in the traces, the problem is on the provider side. They will have to do troubleshooting on their platform.
 
-* If the DELIVER_SM PDU appears, check that it's acknowledged by Adobe Campaign with a successful DELIVER_SM_RESP PDU (code 0). This RESP guarantees that all the processing logic has been applied by Campaign (auto reply and blacklist/whitelist). If it's not the case, search for an error message in the MTA logs.
+* If the DELIVER_SM PDU appears, check that it's acknowledged by Adobe Campaign with a successful DELIVER_SM_RESP PDU (code 0). This RESP guarantees that all the processing logic has been applied by Adobe Campaign (auto reply and blacklist/whitelist). If it's not the case, search for an error message in the MTA logs.
 
 * If automatic replies are enabled, check that the SUBMIT_SM has been sent to the provider. If not, it's guaranteed to find an error message in the MTA logs.
 
@@ -1012,7 +1013,7 @@ If you fixed everything but some invalid SR are still in the provider's buffers,
 
 * Check that the phone number format is exactly the same in the quarantine table and in the delivery log. If it's not, see the "Send full phone number" setting above if you are having issues with the plus prefix of the international phone number format.
 
-* Check short codes: Exclusions happen if the short code of the recipient is either the same as defined in the external account or if it's empty (empty = any shortcode). If only one short code is used for the whole Campaign instance, it's easier to leave all "short code" fields empty.
+* Check short codes: Exclusions happen if the short code of the recipient is either the same as defined in the external account or if it's empty (empty = any shortcode). If only one short code is used for the whole Adobe Campaign instance, it's easier to leave all "short code" fields empty.
 
 ### Encoding issues {#encoding-issues}
 
@@ -1090,7 +1091,7 @@ In some cases, capturing network traffic is useless or just a waste of time. Her
 
 * TLS enabled: By definition, TLS traffic is encrypted so it cannot be captured.
 
-* 	Performance issues: Logs contain all the needed information to trace performance issues.
+* Performance issues: Logs contain all the needed information to trace performance issues.
 
 * Timing issues (retry timing, enquire_link period, throughput capping, ...)
 
