@@ -1,8 +1,8 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Event transactional messages
-description: Learn how to create and publish an event transactional message.
+title: Transactional message lifecycle
+description: Learn how to publish, pause, unpublish and delete a transactional message.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
