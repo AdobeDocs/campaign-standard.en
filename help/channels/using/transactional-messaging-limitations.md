@@ -33,9 +33,9 @@ As you are configuring and publishing transactional events, some of the steps yo
 * It is not possible to rollback a publication, but you can unpublish an event: this operation makes the event and the associated transactional message inaccessible. See [Unpublishing an event](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
 * The only transactional message that can be associated with an event is the message that is automatically created upon publishing that event. See [Previewing and publishing the event](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
 
-## Transactional message volume {#transactional-message-volume}
+## Number of transactional messages {#transactional-message-number}
 
-The number of transactional messages can have an impact on your platform. For optimal performance, the number of transactional messages should remain under 100. To ensure this, delete any unused transactional messages. See [Deleting a transactional message](../../channels/using/publishing-transactional-message.md##deleting-a-transactional-message).
+The number of published transactional messages can have a significant impact on your platform. For optimal performance, the number of published transactional messages should remain under 100. To ensure this, unpublish or delete any unused transactional messages. See [Unpublishing a transactional message](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message) and [Deleting a transactional message](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message).
 
 To ensure best performance, you can also delete unused events. Indeed, deleting an event will also delete the corresponding transactional message(s), and its sending and tracking logs if any. See [Deleting an event](../../channels/using/publishing-transactional-event.md#deleting-an-event).
 
