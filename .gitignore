@@ -1,5 +1,3 @@
 
 .DS_Store
 ignorecase = false
-.idea/*.*
-.idea/**
