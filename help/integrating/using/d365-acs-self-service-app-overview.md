@@ -1,6 +1,6 @@
 # Integration Self-Service Application Overview
 
-The Adobe Campaign Standard integration with Dynamics 365 self-service application gives you the ability to configure data flows, control whether or not they are running, and in which environment.   You must, however, complete some pre-requistes before you begin using the self-service application.
+The Adobe Campaign Standard integration with Microsoft Dynamics 365 self-service integration application gives you the ability to configure data flows, control whether or not they are running, and in which environment.   You must, however, complete some prerequisites before you begin using the self-service integration application.
 
 ## Concepts and Restrictions {#concepts-and-restrictions}
 
@@ -13,7 +13,7 @@ The first step is to understand the concepts and guardrails associated with the 
  
 ## Access and Initial Setup 
  
-The next step is configure Dynamics 365 and Adobe Campaign Standard so that the integration has access to your data.   This will take some to configure in Dynamics 365, Adobe Campaign Standard, and adobe.io, however, once configured then you can control the integration through the self-service application's user interface.  The following screens will walk you through the steps to getting setup to enable and access the self-service application:
+The next step is to configure Microsoft Dynamics 365 and Adobe Campaign Standard so that the integration application has access to your data.   This will take some time to configure in Dynamics 365, Adobe Campaign Standard, and Adobe.io; however, once they are configured, you'll be able to control the integration through the self-service integration application's user interface.  The following screens will walk you through enabling and accessing the self-service integration application:
 * [Configure Dynamics 365 for Campaign integration](integrating/using/d365-acs-configure-d365.md)
 * [Configure Adobe I/O](integrating/using/d365-acs-configure-adobe-io.md)
 * [Map Campaign custom resources and Dynamics 365 custom entities](integrating/using/d365-acs-map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
@@ -25,7 +25,7 @@ The next step is configure Dynamics 365 and Adobe Campaign Standard so that the 
 Once you understand the concepts and guardrails of the integration and have completed the steps to gain access to the self-service integration application, you'll want to review the pages describing the user interface in detail (in these screens): 
 * [General Usage](integrating/using/d365-acs-self-service-app-general-usage.md)
 * [Data Flows](integrating/using/d365-acs-self-service-app-workflows.md)
-    * Dynamics 365 to Campaign 
+    * Microsoft Dynamics 365 to Campaign 
         * [Table Mappings List](integrating/using/d365-acs-self-service-app-ingress-list.md)
         * [Editing an Individual Table Mapping](integrating/using/d365-acs-self-service-app-ingress-individual-mapping.md)
     * [Campaign to Dynamics 365](integrating/using/d365-acs-self-service-app-egress.md)
