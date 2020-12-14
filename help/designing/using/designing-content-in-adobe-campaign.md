@@ -20,9 +20,9 @@ Built to deliver HTML optimized for responsive design, the Email Designer allows
 
 The Email Designer allows you to create email content and email content templates. It is compatible with simple emails, transactional emails, A/B test emails, multilingual emails, and recurring emails.
 
-To get started with the Email Designer, watch this [set of videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) that explain the general functionality of the Email Designer and how to design an email from scratch or using templates.
-
 <!--The Email Designer has more features than the Legacy Editor and is backward compatible.-->
+
+![](assets/do-not-localize/how-to-video.png) [Discover the Email Designer in video](#video)
 
 * To discover how to create email content, see [Get started with the Email Designer](../../designing/using/quick-start.md).
 * For an overview of the Email Designer, see [Using the Email Designer](../../designing/using/designing-content-in-adobe-campaign.md).
@@ -153,3 +153,11 @@ When it comes to fragments, please note the following:
 * [Designing a landing page](../../channels/using/designing-a-landing-page.md)
 * [Creating an SMS message](../../channels/using/creating-an-sms-message.md)
 * [Creating and sending a push notification](../../channels/using/preparing-and-sending-a-push-notification.md)
+
+## Tutorial video {#video}
+
+This video provides an overview of the Email Designer.
+
+>[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
+
+To get started with the Email Designer, watch this [set of videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) that explain the general functionality of the Email Designer and how to design an email from scratch or using templates

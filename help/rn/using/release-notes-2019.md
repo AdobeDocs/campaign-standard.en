@@ -11,7 +11,7 @@ topic-tags: campaign-standard-releases
 
 # Release Notes 2019{#release-notes-2019}
 
-[Release Planning](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) &#124; [Control Panel releases](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) &#124; [Documentation Updates](../../rn/using/documentation-updates.md) &#124; [Latest Release Notes](../../rn/using/release-notes.md) &#124; [Deprecated Features](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+[Release Planning](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) &#124; [Control Panel releases](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) &#124; [Documentation Updates](../../rn/using/documentation-updates.md) &#124; [Latest Release Notes](../../rn/using/release-notes.md) &#124; [Deprecated Features](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html)
 
 ## Release 19.4 - December 2019 {#release-19-4---october-2019}
 
@@ -29,7 +29,7 @@ topic-tags: campaign-standard-releases
    <p>In addition to the privacy capabilities already available in Adobe Campaign (including consent management, data retention settings, and user roles), we are taking this opportunity to include additional capabilities, to help facilitate your readiness for CCPA:</p>
    <ul>
     <li>Right to Access and Right to Delete: we are leveraging the capabilities that were added for GDPR. <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#righttoaccess">Learn more</a> </li>
-    <li><p>When creating a Privacy request, the regulation type (GDPR or CCPA) has been added in the Privacy Core Service. This method is the one you should use for all access and delete requests. The use of the Campaign API and interface for access and delete requests is deprecated.  See the <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">Deprecated and Removed Features article</a>.</p></li>
+    <li><p>When creating a Privacy request, the regulation type (GDPR or CCPA) has been added in the Privacy Core Service. This method is the one you should use for all access and delete requests. The use of the Campaign API and interface for access and delete requests is deprecated.  See the <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">Deprecated and Removed Features article</a>.</p></li>
     <li>A <strong>CCPA Opt-Out</strong> field has been added to the Profiles resource to allow Adobe Campaign users to track whether a consumer has opted-out for the sale of Personal Information. <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa">Learn more</a>.</li>
   </ul>
     <p>Refer to the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">how-to video</a>.</p>
@@ -482,7 +482,7 @@ Several improvements have been added to the Transactional messaging channel in o
 
 **Other changes**
 
-* Adobe Campaign and Adobe Experience Cloud will drop support for Microsoft Internet Explorer 11 starting Spring 2019, and Campaign Standard 19.2 release. Please switch to Microsoft Edge or another supported browser. See [Deprecated and removed features](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) page.
+* Adobe Campaign and Adobe Experience Cloud will drop support for Microsoft Internet Explorer 11 starting Spring 2019, and Campaign Standard 19.2 release. Please switch to Microsoft Edge or another supported browser. See [Deprecated and removed features](../../rn/using/deprecated-features.md) page.
 * The **Country code** field from the Profile resource has been renamed to **Country/Region code**.
 
 **Patches**
@@ -529,11 +529,11 @@ Several improvements have been added to the Transactional messaging channel in o
      <li> The ability to <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">retrieve content from a URL automatically at preparation time</a> </li> 
      <li> Fully compliant <a href="../../designing/using/using-reusable-content.md#content-templates">out-of-the box content templates</a>. </li> 
     </ul> 
-    <p>For more information, refer to the <a href="../../designing/using/designing-content-in-adobe-campaign.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">how-to video</a>. Improvements and fixes are listed below.</p><p>As a consequence, the legacy email content editor is now deprecated. For more information, refer to this <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">page</a>.</p> </td> 
+    <p>For more information, refer to the <a href="../../designing/using/designing-content-in-adobe-campaign.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">how-to video</a>. Improvements and fixes are listed below.</p><p>As a consequence, the legacy email content editor is now deprecated. For more information, refer to this <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">page</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Product Listings in Transactional Emails<br /> </td> 
-   <td> <p>You can now reference one or more product collections in a transactional email message. For example, you can automatically send a cart abandonment email listing all the products that were in the user’s cart with an image, price, and link to each product.</p><p>For more information, refer to the <a href="../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html">how-to video</a>.</p> </td> 
+   <td> <p>You can now reference one or more product collections in a transactional email message. For example, you can automatically send a cart abandonment email listing all the products that were in the user’s cart with an image, price, and link to each product.</p><p>For more information, refer to the <a href="../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html">how-to video</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Mobile View in the Email Designer<br /> </td> 

@@ -17,7 +17,7 @@ Each object and user of the platform is linked to an organizational unit. This u
 
 >[!IMPORTANT]
 >
->If a user is not linked to any unit, that user will not be able to connect to Adobe Campaign. If you would like to restrict access for a particular user or group of users, do not link it to the **[!UICONTROL All]** unit.
+>If a user is not linked to any unit, that user will not be able to connect to Adobe Campaign. If you would like to restrict access for a particular user or group of users, do not link it to the **[!UICONTROL All]** unit. We recommend adding the option **Access authorization management fields** before importing any profiles. For more on this, refer to this [section](../../administration/using/organizational-units.md#partitioning-profiles).
 >
 >By default, the **[!UICONTROL All (all)]** organizational unit is assigned to the **[!UICONTROL Administrators]** security group. It is read-only and cannot be modified.
 
@@ -88,26 +88,26 @@ Whereas the profiles with the Geometrixx organizational unit will be read only, 
 
 ## Partitioning profiles {#partitioning-profiles}
 
+>[!IMPORTANT]
+>
+>We recommend adding this option before importing any profiles since profiles with no organizational units cannot be accessed by users.
+>
+>If you have already imported your customer database, an update is necessary in order to set the organizational unit values on the already imported profiles.
+
 If your organization needs to isolate the profiles contacted by each of your different brands, you can partition your profiles by their organizational units.
 
 By default, the organizational unit fields are not available on your profiles and need to be added.
 
-Profiles with no organizational units cannot be accessed by users.
-
->[!IMPORTANT]
->
->We recommend adding this option before importing any profiles. If you have already imported your customer database, an update is necessary in order to set the organizational unit values on the already imported Profiles.
-
 1. From the advanced menu, via the Adobe Campaign logo, select **Administration > Development > Custom resources**.
-1. Select **Profile** or create a new custom resource to extend the profiles.
+1. Select **Profile** or create a new custom resource to extend the profiles. For more information on how to extend the profiles, refer to this [page](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-1--extend-the-profile-resource).
 1. Check the **Add access authorization management fields** box to add the organizational units in the **Profile** extension.
 
    ![](assets/user_management_9.png)
 
 1. Click **[!UICONTROL Save]**.
-1. Update the structure by re-publishing the custom resources. For more information about the publication process, refer to [Updating the structure](../../developing/using/data-model-concepts.md) section.
+1. Update the structure by re-publishing the custom resources. For more information about the publication process, refer to [Updating the structure](../../developing/using/updating-the-database-structure.md) section.
 
-The organizational unit field is added to your profiles in the **[!UICONTROL Access authorization]** section. 
+The organizational unit field is added to your profiles in the **[!UICONTROL Access authorization]** section.
 
 ![](assets/user_management_10.png)
 

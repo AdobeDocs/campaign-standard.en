@@ -111,7 +111,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
   </tr> 
   <tr> 
    <td> User management<br /> </td> 
-   <td> The geographical unit capability is now unavailable for new Campaign Standard instances, as well as existing instances with no geographical units created, starting 18.7 release.<br /> For more information, refer to this <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">page</a>.<br /> </td> 
+   <td> The geographical unit capability is now unavailable for new Campaign Standard instances, as well as existing instances with no geographical units created, starting 18.7 release.<br /> For more information, refer to this <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">page</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -320,7 +320,7 @@ _Custom resources_
     <ul> 
      <li> Leverage custom fields as a reconciliation criteria to match a transactional message to a profile </li> 
      <li> Leverage full profiles, services and linked data to further personalize transactional messages </li> 
-    </ul> For more information, refer to the <a href="../../administration/using/configuring-transactional-messaging.md">detailed documentation</a>.<br /> </td> 
+    </ul> For more information, refer to the <a href="../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content">detailed documentation</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
