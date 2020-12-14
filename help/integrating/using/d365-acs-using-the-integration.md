@@ -1,15 +1,9 @@
 ---
 title: Use the Microsoft Dynamics 365 integration
 description: Learn how to use the Microsoft Dynamics 365 with Campaign Standard integration
-page-status-flag: never-activated
-uuid: ed6c1b76-87f7-4d23-b5e2-0765297a905c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
-discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
-
 ---
 
 # Using the Microsoft Dynamics 365 integration
@@ -24,16 +18,16 @@ There are several data flows that the Adobe Campaign Standard Integration with D
 
 * Adobe Campaign to Dynamics 365     
     * Email marketing events from Adobe Campaign Sandard are sent to Dynmics 365 (email send, open, click, bounce)
-    * This is also known as **"Egress"** (referring to the egress of data from Adobe Campaign Standard to Dynamics 365)    
+    * This is also known as **"Egress"** (referring to the egress of data from Adobe Campaign Standard to Dynamics 365)
 
 * Opt-out
-    * Opt-out statuses (e.g., denyList) can be synchronized from Dynamics 365 to Campaign or from Campaign to Dynamics 365.   The data can also by synchronized bidirectionally (i.e. data flows in both directions).  You can read more about the basics of opt-out in the [Opt-Out Flow](#opt-out) section below.
+    * Opt-out statuses (e.g., denyList) can be synchronized from Dynamics 365 to Campaign or from Campaign to Dynamics 365. The data can also by synchronized bidirectionally (i.e. data flows in both directions).  You can read more about the basics of opt-out in the [Opt-Out Flow](#opt-out) section below.
 
 More details on the data flows can be found further down in this document in the [Data Flows](#data-flows)  section.
 
 ## Adobe Campaign Standard User Experience
 
-When a contact is created, modified, or deleted (if deleted is enabled) in Dynamics 365, it will be sent over to Campaign Standard.  These contacts will be visible in the Profiles screen in Campaign and can be targeted in marketing campaigns.  See the Profiles screen below.
+When a contact is created, modified, or deleted (if deleted is enabled) in Dynamics 365, it will be sent over to Campaign Standard. These contacts will be visible in the Profiles screen in Campaign and can be targeted in marketing campaigns. See the Profiles screen below.
 
 ![](assets/MSdynamicsACS-usage1.png)
 
@@ -51,13 +45,13 @@ For egress, the following email marketing events are sent from Campaign to Dynam
 
 * Adobe Campaign Email Bounce
 
-To view a contact’s Timeline, navigate to your contacts list by clicking on Sales Hub from the Dynamics 365 drop down menu.  Then click on Contacts on the left hand menu bar and select a contact.
+To view a contact’s Timeline, navigate to your contacts list by clicking on Sales Hub from the Dynamics 365 drop down menu. Then click on Contacts on the left hand menu bar and select a contact.
 
 >[!NOTE]
 >
->The "Adobe Campaign for Dynamics 365" app in AppSource will need to be installed in your Dynamics 365 instance in order to view these events.   [This article](d365-acs-configure-d365.md#install-appsource-app) explains more about configuring Dynamics 365 and installing this app.
+>The "Adobe Campaign for Dynamics 365" app in AppSource will need to be installed in your Dynamics 365 instance in order to view these events. [This article](../../integrating/using/d365-acs-configure-d365.md#install-appsource-app) explains more about configuring Dynamics 365 and installing this app.
 
-Below you can see a snapshot of the Contact screen for “Dynamics User”.  In the Timeline view, you you’ll notice that Dynamics User was sent an email associated with Campaign Name “2019LoyaltyCamp” and Delivery Name “DM190”.  Dynamics User opened the email and also clicked a URL in the email; both of these actions created events which also show below.  If you look to the right corner, you’ll see the Relationship Assistant (RA) card; currently, it contains a task to follow up on the clicked URL.
+Below you can see a snapshot of the Contact screen for "Dynamics User". In the Timeline view, you you’ll notice that Dynamics User was sent an email associated with Campaign Name "2019LoyaltyCamp" and Delivery Name "DM190". Dynamics User opened the email and also clicked a URL in the email; both of these actions created events which also show below. If you look to the right corner, you’ll see the Relationship Assistant (RA) card; currently, it contains a task to follow up on the clicked URL.
 
 ![](assets/do-not-localize/MSdynamicsACS-usage4.png)
 
@@ -65,11 +59,11 @@ See below for a close up of the Timeline view for Dynamics User.
 
 ![](assets/do-not-localize/MSdynamicsACS-usage5.png)
 
-Below is a close up of the Relationship Assistant (RA) card.  The AppSource app contains a workflow that watches for an Adobe Email URL Click event.  When this event occurs, it creates a task and sets a due date.  This allows the task to show up in the RA card, giving it additional visibility.  There is a similar workflow for Adobe Email Bounce events, adding a task to reconcile the invalid email address.  These workflows can be turned off in the solution.
+Below is a close up of the Relationship Assistant (RA) card. The AppSource app contains a workflow that watches for an Adobe Email URL Click event. When this event occurs, it creates a task and sets a due date. This allows the task to show up in the RA card, giving it additional visibility. There is a similar workflow for Adobe Email Bounce events, adding a task to reconcile the invalid email address. These workflows can be turned off in the solution.
 
 ![](assets/do-not-localize/MSdynamicsACS-usage6.png)
 
-If you click on the subject of the send event, you’ll see a form similar to the one below.  The forms for open and bounce events are similar.
+If you click on the subject of the send event, you’ll see a form similar to the one below. The forms for open and bounce events are similar.
 
 ![](assets/do-not-localize/mirror_page_url_send.png)
 
@@ -111,9 +105,9 @@ New, updated, and deleted records (Note: deleted must be enabled) are sent from 
 
 Table mappings can be configured in the integration application UI to map Dynamics 365 table attributes to Campaign table attributes. The table mappings can be modified to add/remove attributes, as needed.
 
-The initial run of the data flow is designed to transfer all mapped records, including those marked as “inactive”; subsequently, the integration will only process incremental updates. The exception to this is if the data is replayed or if a filter is configured; basic, attribute-based, filtering rules can be configured to determine which records to sync to Campaign.
+The initial run of the data flow is designed to transfer all mapped records, including those marked as "inactive"; subsequently, the integration will only process incremental updates. The exception to this is if the data is replayed or if a filter is configured; basic, attribute-based, filtering rules can be configured to determine which records to sync to Campaign.
 
-Basic replacement rules can be configured in the integration application UI to replace an attribute value with a different value (e.g., “green” for “#00FF00”, “F” for 1, etc.).
+Basic replacement rules can be configured in the integration application UI to replace an attribute value with a different value (e.g., "green" for "#00FF00", "F" for 1, etc.).
 
 Depending on the volume of records, your Campaign SFTP storage may need to be utilized for the initial data transfer.  See the section on [Initial Data Transfer](#initial-data-transfer) for more information.
 
@@ -177,11 +171,12 @@ Opt-out (e.g., denyList) values are synchronized between systems; you have the f
 
 Alternatively, if you have a separate process to manage opt-out synchronization between the systems, the integration's opt-out data flow can be disabled.
 
-    >[!NOTE]
-    >
-    >In the integration application UI, the uni-directional ACS to Dynamics 365 and the bi-directional opt-out use cases are configured in a separate opt-out workflow. The uni-directional Dynamics 365 to ACS opt-out use case is an exception; it is configured within the ingress (Contact to Profile) workflow.
+>[!NOTE]
+>
+>In the integration application UI, the uni-directional ACS to Dynamics 365 and the bi-directional opt-out use cases are configured in a separate opt-out workflow. The uni-directional Dynamics 365 to ACS opt-out use case is an exception; it is configured within the ingress (Contact to Profile) workflow.
 
-Opt-out flow mapping is to be specified by the customer since business requirements can differ between companies.  On the Campaign side, only the OOTB opt-out attributes can be used for opt-out mapping:
+Opt-out flow mapping is to be specified by the customer since business requirements can differ between companies. On the Campaign side, only the OOTB opt-out attributes can be used for opt-out mapping:
+
 * denyList
 * denyListEmail
 * denyListFax
@@ -191,12 +186,12 @@ Opt-out flow mapping is to be specified by the customer since business requireme
 * denyListPushnotification
 * ccpaOptOut
 
-In Dynamics 365, most opt-out fields have the “donot” prefix; however, you can also utilize other attributes for opt-out purposes if the data-types are compatible.
+In Dynamics 365, most opt-out fields have the "donot" prefix; however, you can also utilize other attributes for opt-out purposes if the data-types are compatible.
 
 ### Initial data transfer {#initial-data-transfer}
 
 The initial data transfer may take a while depending on how many records you are ingesting from Dynamics 365. After the initial data transfer, the integration will pick up the incremental updates.
 
-    >[!WARNING]
-    >
-    >Certain actions on your part (e.g., initial ingest of records, replaying of record data, etc.) could result in a large load of records being ingested from Microsoft Dynamics 365 to your Adobe Campaign Standard (ACS) instance. To reduce the risk of performance issues which may adversely impact your ACS instance, it is recommended you stop all ACS processes (e.g., no marketing activity, no running of workflows, etc.) until after the large load of records has been ingested into ACS.
+>[!WARNING]
+>
+>Certain actions on your part (e.g., initial ingest of records, replaying of record data, etc.) could result in a large load of records being ingested from Microsoft Dynamics 365 to your Adobe Campaign Standard (ACS) instance. To reduce the risk of performance issues which may adversely impact your ACS instance, it is recommended you stop all ACS processes (e.g., no marketing activity, no running of workflows, etc.) until after the large load of records has been ingested into ACS.

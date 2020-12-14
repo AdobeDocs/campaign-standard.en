@@ -1,4 +1,3 @@
-
 ---
 title: Request and configure the Microsoft Dynamics 365 integration
 description: Learn how to Request and configure the Microsoft Dynamics 365 with Campaign Standard integration

@@ -1,3 +1,12 @@
+---
+title: Egress Workflow
+description: Egress Workflow
+products: SG_CAMPAIGN/STANDARD
+audience: integrating
+content-type: reference
+topic-tags: working-with-campaign-and-microsoft-dynamics-365
+---
+
 # Egress Workflow
 
 This page allows you to identify which email marketing events will be mapped from Adobe Campaign to Microsoft Dynamics 365.  By selecting "Yes", you confirm that you do want events of that type to flow to Dynamics 365.   Conversely, "No" means that events of that type will not be communicated to Dynamics 365.   

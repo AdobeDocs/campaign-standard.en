@@ -1,3 +1,12 @@
+---
+title: Egress Workflow
+description: Egress Workflow
+products: SG_CAMPAIGN/STANDARD
+audience: integrating
+content-type: reference
+topic-tags: working-with-campaign-and-microsoft-dynamics-365
+---
+
 #Settings Screen
 
 The Settings screen allows you to specify Dynamics 365 and Adobe API credentials.   There are also inputs to add specifics related to the Adobe Campaign SFTP instance.

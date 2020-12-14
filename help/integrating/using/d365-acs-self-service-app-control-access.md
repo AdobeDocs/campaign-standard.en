@@ -1,3 +1,11 @@
+---
+title: Getting Access to the Adobe Campaign Standard Integration with Dynamics 365 Self-Service App
+description: Getting Access to the Adobe Campaign Standard Integration with Dynamics 365 Self-Service App
+products: SG_CAMPAIGN/STANDARD
+audience: integrating
+content-type: reference
+topic-tags: working-with-campaign-and-microsoft-dynamics-365
+---
 
 # Getting Access to the Adobe Campaign Standard Integration with Dynamics 365 Self-Service App
 
