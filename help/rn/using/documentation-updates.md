@@ -15,11 +15,13 @@ In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), 
 
 ## December 2020 {#doc-updates-december-2020}
 
+The Transactional messaging section has been reorganized and improved, with a clarified getting started section including [enhanced schemas](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle), and an [end-to-end use case](../../channels/using/transactional-messaging-use-case.md) to illustrate the full process. [Read more](../../channels/using/getting-started-with-transactional-msg.md)
+
 The Privacy section has been moved. [Read more](../../start/using/privacy.md)
 
-The Transactional messaging section has been reorganized and improved, with a clarified getting started section including [enhanced charts](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle), and an [end-to-end use case](../../channels/using/transactional-messaging-use-case.md) to illustrate the full process. [Read more](../../channels/using/getting-started-with-transactional-msg.md)
-
 A new page on accessibility has been added to learn more about accessibility support in Adobe Campaign Standard workspace. [Read more](../../start/using/accessibility.md)
+
+A new limitation has been added to the Transactional messaging section, stating that for optimal performance, the number of published transactional messages should remain under 100. [Read more](../../channels/using/transactional-messaging-limitations.md#transactional-message-number)
 
 ## November 2020 {#doc-updates-november-2020}
 
