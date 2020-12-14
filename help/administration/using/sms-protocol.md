@@ -117,7 +117,7 @@ Each section below describes both the PDU and its synchronous response (*_RESP P
 
 PDUs can have optional fields. Only the most common fields are described here. Refer to the SMPP specification and the documentation of the provider for more extensive information.
 
-#### BIND_TRANSMITTER / BIND_RECEIVER / BIND_TRANSCEIVER {#bind}
+#### BIND_TRANSMITTER / BIND_RECEIVER / BIND_TRANSCEIVER {#bind-transmitter}
 
 This PDU is used to initiate a connection to the SMSC. Transmitter, Receiver and Transceiver modes only change the kind of SMS allowed to be transferred over this connection, specifically:
 
@@ -261,9 +261,9 @@ The specification recommends using this format for the SR text field. It is a li
 
 Example of a SR text field matching exactly the Appendix B recommendation:
 
-````
+```
 id:1234567890 sub:001 dlvrd:001 submit date:1608011415 done date:1608011417 stat:DELIVRD err:000 Text:Hello Adobe world
-````
+```
 
 The id field is the ID received in the SUBMIT_SM_RESP PDU (the acknowledge of the MT).
 
@@ -341,8 +341,7 @@ The maximum size of a message depends on its encoding. This table sums up all th
 
 |  Encoding | Usual data_coding  |  Message size (characters) | Part size for multipart SMS | Available characters  |
 |:-:|:-:|:-:|:-:|:-:|
-| GSM7 |  0 | 160 | 152  | GSM7 basic character set + extension
-(extended characters take 2 characters) |
+| GSM7 |  0 | 160 | 152  | GSM7 basic character set + extension (extended characters take 2 characters) |
 | Latin-1 | 3 |  140 | 134 |  ISO-8859-1 |
 |  UCS-2 <br>UTF-16 | 8	 | 70  |  67 |  Unicode (varies from phone to phone) |
 
@@ -408,7 +407,7 @@ In separated transmitter/receiver mode, the number of connections above represen
 
 Use TLS to connect to the provider. The connection will be encrypted. The TLS connection is managed by the OpenSSL library anything applicable to OpenSSL will be true for this connection.
 
-#### Enable verbose SMPP traces in the log file {#enable-verbose}
+#### Enable verbose SMPP traces in the log file {#enable-verbose-log-file}
 
 This setting dumps all SMPP traffic in log files. It's often required to adjust parameters during initial setup. This must be enabled when troubleshooting the connector and compared to the traffic seen by the provider.
 
@@ -487,14 +486,14 @@ The window is the number of SUBMIT_SM PDUs that can be sent without waiting for 
 Example of a transmission with a maximum window of 4:
 
 ![](assets/sms_protocol_2.png)
- 
+
 The window helps increasing throughput when the network link has a high latency.  The value of the window must be at least the number of SMS/s multiplied by the latency of the link (in seconds) so the connector is never waiting for a SUBMIT_SM_RESP before sending the next message.
 If the window is too big, you may send more duplicate messages in case of connection problems (rare case). Also, most providers have a very strict limit for the window and refuse messages that go over the limit.
 
 How to calculate the optimal sending window formula:
 
 * Measure the maximum latency between SUBMIT_SM and SUBMIT_SM_RESP.
-*	Multiply this value (in seconds) to the max MT throughput: this will give the optimal sending window value.
+* Multiply this value (in seconds) to the max MT throughput: this will give the optimal sending window value.
 
 Example: If you have 300 SMS/s set in max MT throughput and there is 100ms latency between SUBMIT_SM and SUBMIT_SM_RESP on average, the optimal value would be 300×0.1 = 30.
 
@@ -520,7 +519,7 @@ This is the timeout between SUBMIT_SM and its matching SUBMIT_SM_RESP. If the RE
 
 Timeout between the TCP connect attempt and the BIND_*_RESP reply. When it times out, the connection is closed by the Campaign connector and it will wait Time before reconnection before trying again.
 
-#### enquire_link period {#enquire-link}
+#### enquire_link period {#enquire-link-period}
 
 enquire_link is a special kind of PDU sent to keep the connection alive. This period is in seconds. The campaign connector only sends enquire_link when the connection is idle in order to conserve bandwidth. If no RESP is received after twice this period, the connection will be considered dead and a reconnection process will be triggered.
 
@@ -812,7 +811,7 @@ Check that BIND_* PDUs are correctly sent. The most important thing to check is 
 
 Check that there aren't too many BIND_* PDUs. If there are too many of them, it might indicate that the connection is unstable. See the Issues with unstable connections troubleshooting section below for more information.
 
-#### ENQUIRE_LINK {#enquire-link}
+#### ENQUIRE_LINK {#enquire-link-pdus}
 
 Check that ENQUIRE_LINK PDUs are regularly exchanged when the connection is idle.
 
