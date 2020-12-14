@@ -72,7 +72,7 @@ Once you checked every account individually, there are 2 possible scenarios:
 
 * Check external account settings. Ask the provider in case of doubt about the value of some fields.
 
-* If the connection is successful but unstable, check the [Issue with unstable connections](../../administration/using/sms-protocol.md#issues-unstable-connection) section.
+* If the connection is successful but unstable, check the [Issue with unstable connections](../../administration/using/troubleshooting-sms.md#issues-unstable-connection) section.
 
 * If connection issues are difficult to diagnose, a network capture will provide a lot of information. Make sure that the network capture runs simultaneously while the problem appears so it can be analyzed efficiently. You should also note the exact time at which the problem appears so it's easier to find the problem in network captures.
 
@@ -104,7 +104,7 @@ How to fix connection stability problems:
 
 ## Issue when sending a MT (regular SMS sent to an end-user){#issue-MT}
 
-* Check that the connection is stable: a SMPP connection should stay up for at least 1 hour continuously. See the section [Issue with unstable connections](../../administration/using/sms-protocol.md#issues-unstable-connection).
+* Check that the connection is stable: a SMPP connection should stay up for at least 1 hour continuously. See the section [Issue with unstable connections](../../administration/using/troubleshooting-sms.md#issues-unstable-connection).
 
 * If restarting the MTA makes sending MT working again for a small period of time, you probably have throttling due to an unstable connection. See the section Issue with unstable connections above.
 
@@ -128,7 +128,7 @@ Duplicates are often caused by retries. It's normal to have duplicates when retr
 
 * If you see duplicates sent exactly 60 seconds apart, it's probably a problem on the provider side, they don't send a SUBMIT_SM_RESP quick enough.
 
-* If you see many BIND/UNBIND, you have an unstable connection. See the[Issue with unstable connections](../../administration/using/sms-protocol.md#issues-unstable-connection) section for solutions before attempting to solve duplicate messages issues.
+* If you see many BIND/UNBIND, you have an unstable connection. See the[Issue with unstable connections](../../administration/using/troubleshooting-sms.md#issues-unstable-connection) section for solutions before attempting to solve duplicate messages issues.
 
 Mitigating the amount of duplicates when there is a retry:
 
