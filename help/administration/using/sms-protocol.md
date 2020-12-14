@@ -117,7 +117,7 @@ Each section below describes both the PDU and its synchronous response (*_RESP P
 
 PDUs can have optional fields. Only the most common fields are described here. Refer to the SMPP specification and the documentation of the provider for more extensive information.
 
-**BIND_TRANSMITTER / BIND_RECEIVER / BIND_TRANSCEIVER**
+#### BIND_TRANSMITTER / BIND_RECEIVER / BIND_TRANSCEIVER {#bind}
 
 This PDU is used to initiate a connection to the SMSC. Transmitter, Receiver and Transceiver modes only change the kind of SMS allowed to be transferred over this connection, specifically:
 
@@ -141,13 +141,13 @@ Notable fields in a BIND_* PDU:
 
 BIND_*_RESP has no specific field, it confirms whether the connection was successful or not.
 
-**UNBIND**
+#### UNBIND {#unbind}
 
 This PDU must be sent by the system before disconnecting. It must wait the matching UNBIND_RESP PDU before closing the connection.
 
 Conforming SMSC must not close the connection, the TCP connection is controlled by the Campaign connector.
 
-**SUBMIT_SM**
+#### SUBMIT_SM {#submit-sm}
 
 This PDU sends a MT to the SMSC. Its response PDU gives the ID of the MT.
 
@@ -181,7 +181,7 @@ Adobe Campaign supports these optional fields:
 
 * **message_payload**: when enabled in the external account, long messages will be sent in a single PDU and the text will be transmitted in this field rather than the short_message field.
 
-**SUBMIT_SM_RESP**
+#### SUBMIT_SM_RESP {#submit-sm-resp}
 
 This PDU will contain the ID of the MT. This is useful to match it with incoming SR.
 
@@ -191,7 +191,7 @@ This PDU will contain the ID of the MT. This is useful to match it with incoming
 
 Some providers send SUBMIT_SM_RESP after sending the SR. To account for that behavior, Adobe Campaign waits 30 seconds before replying "Invalid message ID" to a SR with an unknown ID.
 
-**DELIVER_SM**
+#### DELIVER_SM {#delivery-sm}
 
 This PDU is sent by the SMSC to Adobe Campaign. It contains either a MO or a SR.
 
@@ -207,19 +207,19 @@ Most fields have the same meaning as their SUBMIT_SM counterpart. Here is the li
 
 Adobe Campaign is able to read message ID in the receipted_message_id optional field with some configuration tuning.
 
-**DELIVER_SM_RESP**
+#### DELIVER_SM_RESP {#deliver-sm-resp}
 
 This PDU is sent by Adobe Campaign to acknowledge (or not) SR and MO.
 
 Adobe Campaign Standard only sends a DELIVER_SM_RESP once all processing steps have been successful. This guarantees that no SR or MO is acknowledged while there is still a risk of processing errors.
 
-**ENQUIRE_LINK**
+#### ENQUIRE_LINK {#enquire-links}
 
 This PDU is only used to check that the connection is live. Its frequency should be set according to the provider's needs.
 
 The default 60 seconds should match most configurations set in the external account.
 
-**ENQUIRE_LINK_RESP**
+#### ENQUIRE_LINK_RESP {#enquire-links-resp}
 
 This PDU acknowledges that the connection is alive.
 
@@ -255,7 +255,7 @@ As mentioned above, there are 2 different kinds of errors: synchronous replies i
 
 When a SR is received, status and error can be found in its short_message field (example for Appendix B conforming implementations). Be careful, the short_messagefield of the PDU is often called the text field because it contains text in MT; but in case of SR, it contains technical information plus a sub-field named Text (which is practically useless BTW except for some troubleshooting). These 2 fields are different and short_message actually contains the Text field and other information.
 
-**Format of SR text field described by Appendix B**
+#### SR text field format {#sr-text-field-format}
 
 The specification recommends using this format for the SR text field. It is a list of subfields, space-separated with a colon to separate the field name and its value. Field names are case insensitive.
 
@@ -277,7 +277,7 @@ The err field contains the provider-specific error code. The provider has to giv
 
 Finally, the text field usually contains the beginning of the text of the MT. This is ignored by Campaign and some providers don't transmit it to avoid PII leakage and useless network bandwidth consumption. The only advantage is during troubleshooting: you may spot the SR matching a test MT more easily by reading this field.
 
-**Example of how a SR is processed in Adobe Campaign Standard Extended generic SMPP**
+### Example of SR processing in Adobe Campaign Standard Extended generic SMPP {#sr-processing}
 
 This shows a concrete example of how the MTA processes a SR. This example shows the case of an implementation following exactly the Appendix B recommendation, default values in the external account, and a successful SMS MT.
 
@@ -362,35 +362,35 @@ If you set a value higher than the number of running MTAs, all MTAs will run as 
 
 ### Connection settings {#connection-settings}
 
-**SMPP connection mode**
+#### SMPP connection mode {#smpp-connection-mode}
 
 Set the connection in transceiver mode or in separated transmitter+receiver mode. When you switch to separated transmitter+receiver mode, settings in the SMPP connection mode section apply to the transmitter and settings in the Receiver connection settings section apply to the receiver connection (only if you checked the Use different parameters for the receiver checkbox).
 
-**SMSC implementation name**
+#### SMSC implementation name {#smsc-implementation-name}
 
 Sets the name of the SMSC implementation. It should be set to the name of your provider. Contact the administrator or the deliverability team to know what to put in this field. The role of this field is described in the [SR error management](../../administration/using/sms-protocol.md#sr-error-management) section.
 
-**Server**
+#### Server {#server}
 
 The DNS name or IP address of the server to connect to.
 
-**Port**
+#### Port {#port}
 
 The TCP port to connect to.
 
-**Account**
+#### Account {#account}
 
 The login of the connection. Passed in the system_id field of the BIND PDU.
 
-**Password**
+#### Password {#password}
 
 Password of the SMPP connection. Passed in the password field of the BIND PDU.
 
-**System type**
+#### System type {#system-type}
 
 Value passed in the system_type field of the BIND PDU. Some providers need a specific value here.
 
-**Simultaneous connections**
+#### Simultaneous connections {#simultaneous-connections}
 
 In Adobe Campaign Standard, it defines the number of connections per SMS thread and per MTA process.
 
@@ -404,11 +404,11 @@ Simultaneous connections is set in the external account, number of threads is se
 
 In separated transmitter/receiver mode, the number of connections above represents the number of transmitter/receiver pairs meaning that there will be twice the number of connections in total.
 
-**Enable TLS over SMPP**
+#### Enable TLS over SMPP {#enable-TLS}
 
 Use TLS to connect to the provider. The connection will be encrypted. The TLS connection is managed by the OpenSSL library anything applicable to OpenSSL will be true for this connection.
 
-**Enable verbose SMPP traces in the log file**
+#### Enable verbose SMPP traces in the log file {#enable-verbose}
 
 This setting dumps all SMPP traffic in log files. It's often required to adjust parameters during initial setup. This must be enabled when troubleshooting the connector and compared to the traffic seen by the provider.
 
@@ -416,7 +416,7 @@ This setting dumps all SMPP traffic in log files. It's often required to adjust 
 
 This section is only visible in separated transmitter+receiver mode (see above).
 
-**Use different parameters for the receiver**
+#### Use different parameters for the receiver {#receiver-parameters}
 
 When the box is unchecked, the same settings are used for transmitter and receiver.
 
@@ -428,7 +428,7 @@ These settings apply to the receiver when in transmitter+receiver mode. They wor
 
 ### SMPP channel settings {#smpp-channel-settings}
 
-**Allow character transliteration**
+#### Allow character transliteration {#allow-character-transliteration}
 
 Transliteration is the process of finding equivalent characters to missing ones. For example, the French "ê" (e with circumflex accent) character is missing from GSM encoding, but it can be replaced by "e" without impairing readability too much.
 
@@ -438,17 +438,17 @@ When this box is checked, text encoding will try to convert the string to an app
 
 See the [Define a specific mapping of encodings setting](../../administration/using/sms-protocol.md#SMSC-specifics) for a more general explanation of the encoding process.
 
-**Store incoming MO in the database**
+#### Store incoming MO in the database {#incoming-mo-storing}
 
 When enabled, incoming MO will be stored in the inSMS table of the database. This table can be queried using the query activity of any workflow.
 
-**Enable Real-time KPI updates during SR processing**
+#### Enable Real-time KPI updates during SR processing {#real-time-kpi}
 
 When enabled, KPIs will be updated in real-time on the main delivery page when receiving error SR.
 
 The drawback can be low performance because of the database contention it generates. If disabled, statistics are updated by the syncfromexec workflow, normally running every 20 minutes.
 
-**Source number**
+#### Source number {#source-number}
 
 Defines the default source address for messages. This setting only applies if the source number has been left empty in the delivery.
 
@@ -456,7 +456,7 @@ By default, the source number field is not passed, so the provider will substitu
 
 This enables the sender address / oADC override feature.
 
-**Short code**
+#### Short code {#short-code}
 
 Indicates the main short code of the account. If multiple short codes are used for this account or if the short code is unknown, leave this field empty.
 
@@ -466,13 +466,13 @@ Specifying short code is helpful for 2 features:
 
 * The block list setting of the auto reply feature (described below) only sends to quarantine the user for a specific short code. This is to respect current laws in USA and France for which this feature has been developed.
 
-**Source TON/NPI, Destination TON/NPI**
+#### Source TON/NPI, Destination TON/NPI {#ton-npi}
 
 TON (Type Of Number) and NPI (Numbering Plan Indicator) are described in section 5.2.5 of the SMPP 3.4 specification. These values should be set to the provider's needs.
 
 They are transmitted as-is in source_addr_ton, source_addr_npi, dest_addr_ton and dest_addr_npi fields of the SUBMIT_SM PDU.
 
-**Service type**
+#### Service type {#service-type}
 
 This field is transmitted as-is in the service_type field of the SUBMIT_SM PDU. Set this to the provider's needs.
 
@@ -480,7 +480,7 @@ This field is transmitted as-is in the service_type field of the SUBMIT_SM PDU. 
 
 These settings control all the timing aspects of the SMPP channel. Some providers require very precise control of the message rate, window and retry timings. These settings should be set to values that match the capacity of the provider and the conditions indicated in their contract.
 
-**Sending window**
+#### Sending window {#sending-window}
 
 The window is the number of SUBMIT_SM PDUs that can be sent without waiting for a matching SUBMIT_SM_RESP.
 
@@ -498,7 +498,7 @@ How to calculate the optimal sending window formula:
 
 Example: If you have 300 SMS/s set in max MT throughput and there is 100ms latency between SUBMIT_SM and SUBMIT_SM_RESP on average, the optimal value would be 300×0.1 = 30.
 
-**Max MT throughput**
+#### Max MT throughput {#max-mt-throughput}
 
 Maximum number of MT per second and per connection. This setting is strictly enforced, the MTA will never push messages faster than this limit. It is useful for providers that require precise throttling.
 
@@ -508,19 +508,19 @@ To know the total throughput limit, multiply this number by the total number of 
 
 It is generally recommended to keep this setting under 1000, since it is impossible to guarantee precise throughput above this number unless properly benchmarked on the final architecture and specifically requested SMPP provider. It may be better to increase the number of connections to go above 1000 MT/s.
 
-**Time before reconnection**
+#### Time before reconnection {#time-reconnection}
 
 When the TCP connection is lost, the connector will wait this number of seconds before trying to make a connection.
 
-**Expiration period of the MT**
+#### Expiration period of the MT {#expiration-period}
 
 This is the timeout between SUBMIT_SM and its matching SUBMIT_SM_RESP. If the RESP is not received on time, the message will be considered as failed and global retry policy of the MTA will apply.
 
-**Bind timeout**
+#### Bind timeout {#bind-timeout}
 
 Timeout between the TCP connect attempt and the BIND_*_RESP reply. When it times out, the connection is closed by the Campaign connector and it will wait Time before reconnection before trying again.
 
-**enquire_link period**
+#### enquire_link period {#enquire-link}
 
 enquire_link is a special kind of PDU sent to keep the connection alive. This period is in seconds. The campaign connector only sends enquire_link when the connection is idle in order to conserve bandwidth. If no RESP is received after twice this period, the connection will be considered dead and a reconnection process will be triggered.
 
@@ -528,7 +528,7 @@ enquire_link is a special kind of PDU sent to keep the connection alive. This pe
 
 These settings are advanced settings that enable to adapt the Adobe Campaign connector to most SMPP implementation peculiarities.
 
-**Define a specific mapping of encodings**
+#### Define a specific mapping of encodings {#encoding-specific-mapping}
 
 See the [SMS text encoding](../../administration/using/sms-protocol.md#sms-text-encoding) section for details about text encoding.
 
@@ -553,7 +553,7 @@ This means that the MTA will try to encode the message in GSM. If it succeeds it
 
 If the message cannot be encoded in GSM, it will be encoded in UCS-2 and will set data_coding to 8.
 
-**Enable message_payload**
+#### Enable message_payload {#enable-message-payload}
 
 When unchecked, long SMS will be split by the MTA and sent in multiple SUBMIT_SM PDUs with UDH. The message will be recomposed by the mobile phone following UDH data.
 
@@ -561,7 +561,7 @@ When checked, long SMS will be sent in one SUBMIT_SM PDU, putting the text in th
 
 If this feature is enabled, Adobe Campaign will be unable to count SMS parts individually: all messages will be counted as sent in one part.
 
-**Send the full phone number**
+#### Send the full phone number {#send-full-phone-number}
 
 When this checkbox is not checked, only digits of the phone number are sent to the provider (destination_addr field of the SUBMIT_SM field). This is the default behavior since the international number indicator (usually a + prefix) is replaced by TON and NPI fields in SMPP.
 
@@ -569,23 +569,23 @@ When the checkbox is checked, the phone number is sent as-is, with no preprocess
 
 This feature also has an effect on the behavior of auto reply denylist feature: when the checkbox is not checked, a + prefix will be added to phone numbers inserted into the quarantine table in order to compensate for the + prefix being removed from the phone number by the SMPP protocol itself.
 
-**Skip TLS certificate check**
+#### Skip TLS certificate check {#skip-tls}
 
 When TLS is enabled, skip all certificate checks. When checked, the connection is not secure anymore, so it must not be enabled in production.
 
 It may be useful for debugging or test purposes.
 
-**Bind TON/NPI**
+#### Bind TON/NPI {#bind-ton-npi}
 
 TON (Type Of Number) and NPI (Numbering Plan Indicator) (described in section 5.2.5 of the SMPP 3.4 specification). These values should be set to whatever the provider needs.
 
 They are transmitted as-is in addr_ton and addr_npi fields of the BIND PDU.
 
-**Address range**
+#### Address range {#address-range}
 
 Sent as-is in the address_range field of the BIND PDU. This value should be set to whatever the provider needs.
 
-**Invalid ID acknowledge count**
+#### Invalid ID acknowledge count {#invalid-id}
 
 Limits the number of "Messsage ID invalid" DELIVER_SM_RESP that can be sent for a single SR. 
 
@@ -611,7 +611,7 @@ Setting this field to 0 disables the mechanism where "Message ID invalid" is alw
 
 Setting this field to 1 makes the connector always respond "OK" even if the ID is invalid. This should be set to 1 only under supervision, for troubleshooting and for the minimum amount of time, e.g. to recover from a provider-side issue.
 
-**Extraction regex of the ID in the SR**
+#### Extraction regex of the ID in the SR {#regex-extraction}
 
 SR format is not strictly enforced by the SMPP protocol specification. It is only a recommendation described in [Appendix B](../../administration/using/sms-protocol.md#sr-error-management) of the specification. Because of this, some SMPP implementers format this field differently, so Adobe Campaign needs a way to extract the correct field.
 
@@ -623,13 +623,13 @@ When adjusting this setting, be sure to include as much context as possible to a
 
 Not including enough context in the regex can introduce a small security flaw: the actual content of the message can be included in the SR. If you only match a specific ID format with no context, e.g. a UUID, it may be parsing the actual text content, e.g. a UUID embedded in the text field, instead of the ID.
 
-**Regex applied to determine successful/error status**
+#### Regex applied to determine successful/error status {#regex-applied}
 
 When messages with an unknown stat/err field combination are encountered, these regex are applied on the stat field to determine whether the SR was a success or an error. SR with stat values that don't match any of these regexes are ignored.
 
 By default, stat values that begin with DELIV (e.g. DELIVRD in the [Appendix B](../../administration/using/sms-protocol.md#sr-error-management)) will be considered as successfully delivered and all stat values that match errors (e.g. REJECTED, UNDELIV, ...) are considered errors.
 
-**ID format in MT acknowledgement**
+#### ID format in MT acknowledgement {#id-format-mt}
 
 This indicates the format of the ID returned in the message_id field of the SUBMIT_SM_RESP PDU.
 
@@ -641,7 +641,7 @@ This indicates the format of the ID returned in the message_id field of the SUBM
 
 * **Hexadecimal string**: The ID is expected to be an ASCII-encoded text that is itself a string of bytes encoded as hexadecimal. For example, in the PDU you will find 0x34 0x31 0x34 0x32 0x34 0x33, which translates to ASCII "414243"; then this string is decoded as a hexadecimal string of bytes, and you obtain "ABC" as a result: you will store the ID "ABC" in the database.
 
-**ID format in SR**
+#### ID format in SR {#id-format-sr}
 
 This indicates the format of the ID captured by the Extraction regex of the ID in the SR. Values have the same meaning and the same behavior as the format in MT above.
 
@@ -711,13 +711,13 @@ The field is limited to 21 characters by the SMPP specification, but some provid
 
 ### Delivery parameters {#delivery-parameters}
 
-**Maximum number of SMS per message**
+#### Maximum number of SMS per message {#maximum-sms}
 
 This setting only works if the Message payload setting is disabled. For more information on this, refer to this [page](../../administrating/using/configuring-channels/configuring-sms-channel). If the message requires more SMS than this value, an error will be triggered.
 
 The SMS protocol limits SMS to 255 parts, but some mobile phones have trouble putting together long messages with more than 10 parts or so (the limit depends on the exact model). We advise you not to go over 5 parts per message.
 
-**Transmission mode**
+#### Transmission mode {#transmission-mode}
 
 This field indicates the kind of SMS you wish to transfer: normal or flash messages, storing on the mobile or the SIM card.
 
@@ -733,7 +733,7 @@ This setting is transmitted in the dest_addr_subunit optional field in the SUBMI
 
 * **Save on terminal** sets the value to 3. It tells the phone to store the SMS in the SIM card.
 
-**Validity period**
+#### Validity period {#validity-period}
 
 The validity period is transmitted in the validity_period field of the SUBMIT_SM PDU. The date is always formatted as an absolute UTC time format (the date field will end with "00+").
 
@@ -747,7 +747,7 @@ The number of threads cannot be changed by the customer since it requires changi
 
 ### Description of the behavior of the SMPP connector {#behavior-smpp-connector}
 
-**Matching MT, SR and broad log entries**
+#### Matching MT, SR and broad log entries {#matching-mt-sr}
 
 In Adobe Campaign, a message is a broadlog entry. In Adobe Campaign Standard, external connectors only need to know about the working broadlog table: nmsBroadLogExec. A workflow is in charge of copying broadlog entries back to their specific targeting dimensions (nmsBroadLogXXX).
 
@@ -806,17 +806,17 @@ Even if messages look successful, it is important to check that PDUs are properl
 
 This step is necessary when connecting to a provider that was not connected to Adobe Campaign before.
 
-**BIND**
+#### BIND {#bind}
 
 Check that BIND_* PDUs are correctly sent. The most important thing to check is that the provider always returns successful BIND_*_RESP PDUs (command_status = 0).
 
 Check that there aren't too many BIND_* PDUs. If there are too many of them, it might indicate that the connection is unstable. See the Issues with unstable connections troubleshooting section below for more information.
 
-**ENQUIRE_LINK**
+#### ENQUIRE_LINK {#enquire-link}
 
 Check that ENQUIRE_LINK PDUs are regularly exchanged when the connection is idle.
 
-**SUBMIT_SM / DELIVER_SM**
+#### SUBMIT_SM / DELIVER_SM {#submit-sm-deliver-sm}
 
 Send a message, then search in the logs for its corresponding SUBMIT_SM, SUBMIT_SM_RESP, DELIVER_SM and DELIVER_SM_RESP PDUs.
 
@@ -850,314 +850,3 @@ Even if everything is successful, contact the provider to ask them to check if e
 ### Disable verbose SMPP traces {#disable-verbose}
 
 Once all checks are complete, the last thing is to disable verbose SMPP traces for it to not generate too many logs. You can re-enable them for troubleshooting purposes even on production systems.
-
-## Troubleshooting {#troubleshooting}
-
-### Conflict between different external accounts {#external-account-conflict}
-
-If the instance has multiple SMS external accounts, you must check that problems are not caused by a conflict between accounts.
-
-Adobe Campaign treats external accounts as unrelated entities.
-
-If you have multiple accounts, follow that procedure to isolate the external account causing problems:
-
-1. Disable all external accounts.
-1. Enable one external account.
-1. Try to reproduce the problem.
-1. If the initial problem does not always appear, do a reasonable amount of tries before concluding.
-1. If the problem does not appear with that single account, disable it and restart to step 2 on the next account.
-
-Once you checked every account individually, there are 2 possible scenarios:
-
-* **The problem appeared on one or several accounts**
-
-  In this case, you can apply other troubleshooting procedures on each account individually. It is best to disable other accounts while diagnosing an account, in order to reduce network traffic and the number of logs.
-
-* **The problem did not appear when only one account is active at any time**
-
-  You have a conflict between accounts. As mentioned before, Adobe Campaign treats accounts individually, but the provider may treat them as a single account.
-
-  * You are using different login/password combinations between all your accounts.
-    You will have to contact the provider to diagnose for potential conflicts on their side.
-
-  * Some of the external accounts share the same login/password combination.
-    The provider has no way to tell from which external account the BIND PDU is coming from, so they treat all connections from the multiple accounts as a single one, so they probably route MO and SR randomly over the 2 accounts, causing seemingly random issues.
-    If the provider supports multiple short codes for the same login/password combination, you will have to ask them where to put that short code in the BIND PDU. Note that this piece of information has to be put inside the BIND PDU, and not in SUBMIT_SM, because the BIND PDU is the only place that will allow routing MOs correctly.
-    See the Information in each kind of PDU section above to know what fields are available in the BIND PDU, generally you would put the short code in address_range, but that requires special support from the provider. Contact them to know how they expect to route multiple short codes independently.
-    Adobe Campaign supports handling multiple short codes on the same external accounnt just fine, so often just using a single account for all traffic will work fine.
-
-### Issue with external account in general {#external-account-issues}
-
-* investigate whether connector has been changed recently - and by whom (check External Accounts as a group)
-
-  ```
-  select saccount, (sserver ||':'||sport) as serverPort, iextaccountid, CASE WHEN N0.iactive=1 THEN 'Yes' ELSE 'No' END as "(x) Enabled",
-
-  (select X1.sname from xtkoperator X1 where N0.icreatedbyid = X1.ioperatorid) as "Created By",
-
-  (select X1.sname from xtkoperator X1 where N0.imodifiedbyid = X1.ioperatorid) as "Last Modified By",
-
-  N0.slabel as "External Account", N0.tslastmodified as "LastModifiedDate"
-
-  from nmsextaccount N0 LEFT JOIN xtkoperator X0 ON (N0.icreatedbyid=X0.ioperatorid) order by 8 DESC LIMIT 50;
-  ```
-
-* investigate (in /postupgrade directory) whether system was upgraded and when
-* investigate whether any packages affecting SMS might have been upgraded recently (/var/log/dpkg.log)
-
-### Issue when connecting to the provider {#issue-provider}
-
-* If the BIND PDU returns a non-zero command_status code, ask the provider why this happens.
-
-* Check that the network is properly configured so the TCP connection can be made to the provider.
-
-* Ask the provider to check that they properly whitelisted the IPs of the Campaign instance (most providers require this).
-
-* Check external account settings. Ask the provider in case of doubt about the value of some fields.
-
-* If the connection is successful but unstable, check the [Issue with unstable connections](../../administration/using/sms-protocol.md#issues-unstable-connection) section.
-
-* If connection issues are difficult to diagnose, a network capture will provide a lot of information. Make sure that the network capture runs simultaneously while the problem appears so it can be analyzed efficiently. You should also note the exact time at which the problem appears so it's easier to find the problem in network captures.
-
-### Issues with unstable connection {#issues-unstable-connection}
-
-A connection is considered unstable if any of the following happens:
-
-* Restarting the MTA will fix things temporarily. It means that an unstable connection triggers MTA throttling on Adobe Campaign Standard, restarting the MTA clears throttling. It will happen again until the root cause is found.
-
-* The provider sends UNBIND PDUs.
-
-* enquire_link times out, either on the Adobe Campaign side or on the provider side. You may or may not see ENQUIRE_LINK_RESP with a non-zero error code in that case.
-
-* There are a lot of BIND PDUs. There should not be more than a few during a day (it depends on the number of connections). More than 1 BIND PDU per hour should be alerting.
-
-How to fix connection stability problems:
-
-* Unstable connections are rarely the root cause, it's often the result of another problem triggering a disconnect in a way or another. Finding the root cause is the priority.
-
-* Enable verbose SMPP traces. You will need them to see what's happening when the connection restarts.
-
-* If the provider sends UNBIND PDUs, something might be wrong. Ask your provider why UNBING is sent.
-
-* Taking a network capture is sometimes the only way to see how the connection is closed.
-
-* If the provider closes the connections (by sending either a TCP FIN or a TCP RST packet), ask your provider.
-
-* If the provider closes the connection after sending a clean error (such as DELIVER_SM_RESP with an error code), they must fix their connector because that prevents other kinds of messages from being transmitted and will trigger MTA throttling. This is especially important in transceiver mode where closing the connection impacts both MT and SR.
-
-### Issue when sending a MT (regular SMS sent to an end-user){#issue-MT}
-
-* Check that the connection is stable: a SMPP connection should stay up for at least 1 hour continuously. See the section [Issue with unstable connections](../../administration/using/sms-protocol.md#issues-unstable-connection).
-
-* If restarting the MTA makes sending MT working again for a small period of time, you probably have throttling due to an unstable connection. See the section Issue with unstable connections above.
-
-* Check that the broad log is present and in the correct status with the correct dates. If it's not, it's not a SMS issue but a delivery issue or a delivery preparation issue.
-
-* Check that the MTA actually processes the message. If it's not the case, this is not a SMS issue.
-
-* Check that the SMS connector is actually bound with the provider's equipment. Ask the provider for feedback to make sure all systems are communicating properly. See BIND_TRANSMITTER and BIND_TRANSCEIVER PDUs for information about the bind process. You may need to enable SMPP traces for proper troubleshooting.
-
-* With the SMPP traces enabled, check that the SUBMIT_SM PDU is containing the right information.
-
-* Check that the provider responds with a SUBMIT_SM_RESP PDU with a "OK" value (code 0). Make sure that the PDU arrives with a reasonable delay: anything longer than 1 second is suspicious and must be discussed with the provider, it usually arrives in less than 100ms.
-
-* If all these steps work, you can be confident that the problem is on the provider side. They will have to do the troubleshooting on their platform.
-
-* If it works but throughput is inconsistent, try adjusting the sending window and lowering the MT throughput. You will need to work with the provider to adjust that. Campaign can send messages very quickly so performance problems may arise on the provider's equipment.
-
-### MT are duplicated (the same SMS is sent multiple times in a row){#dupicated-MT}
-
-Duplicates are often caused by retries. It's normal to have duplicates when retrying messages, so you should concentrate your efforts on eliminating the root cause of retries.
-
-* If you see duplicates sent exactly 60 seconds apart, it's probably a problem on the provider side, they don't send a SUBMIT_SM_RESP quick enough.
-
-* If you see many BIND/UNBIND, you have an unstable connection. See the[Issue with unstable connections](../../administration/using/sms-protocol.md#issues-unstable-connection) section for solutions before attempting to solve duplicate messages issues.
-
-Mitigating the amount of duplicates when there is a retry:
-
-* Lower the sending window. The sending window should be big enough to cover for SUBMIT_SM_RESP latency, but not too big. Its value represents the maximum number of messages that can be duplicated if an error happens while the window is full.
-
-### Issue when processing SR (delivery receipts) {#issue-process-SR}
-
-* You will need SMPP traces enabled to do any kind of SR troubleshooting.
-
-* Check that the DELIVER_SM PDU is coming from the provider and that it is well formed.
-
-* Check that Adobe Campaign replies with a successful DELIVER_SM_RESP PDU in a timely manner. On Adobe Campaign Standard, this guarantees that the whole processing logic has been applied, if that's not the case it's guaranteed to have an error message in the logs telling why processing failed.
-
-If the DELIVER_SM PDU is not successfully acknowledged, then you should check the following:
-
-* Check regex related to id extraction and error processing in the external account. You may need to validate them against the content of the DELIVER_SM PDU.
-
-* Check that errors are properly provisioned in the broadLogMsg table.
-
-* For Adobe Campaign Standard, check that broadLog and broadLogExec tables are properly synchronized.
-
-If you fixed everything but some invalid SR are still in the provider's buffers, you can skip them by using the "Invalid ID acknowledge count" option. This should be used with care and reset to 0 as quickly as possible after the buffers are clean.
-
-### Issue when processing MO (and blacklisting/auto reply){#issue-process-MO}
-
-* Enable SMPP traces during tests. If you don't enable TLS, you should do a network capture when troubleshooting MO to check that PDUs contain the correct information and are properly formatted.
-
-* When capturing network traffic or analyzing SMPP traces, be sure to capture the whole conversation with the MO and its reply MT (if a reply is configured).
-
-* If the MO (DELIVER_SM PDU) doesn't appear in the traces, the problem is on the provider side. They will have to do troubleshooting on their platform.
-
-* If the DELIVER_SM PDU appears, check that it's acknowledged by Adobe Campaign with a successful DELIVER_SM_RESP PDU (code 0). This RESP guarantees that all the processing logic has been applied by Adobe Campaign (auto reply and blacklist/whitelist). If it's not the case, search for an error message in the MTA logs.
-
-* If automatic replies are enabled, check that the SUBMIT_SM has been sent to the provider. If not, it's guaranteed to find an error message in the MTA logs.
-
-* If the SUBMIT_SM MT PDU containing the reply is found in the traces but the SMS does not arrive to the mobile phone, you will have to contact the provider for assistance on troubleshooting.
-
-### Issue during delivery preparation not excluding quarantined recipients (quarantined by the auto reply feature) {#issue-delivery-preparation}
-
-* Check that the phone number format is exactly the same in the quarantine table and in the delivery log. If it's not, see the "Send full phone number" setting above if you are having issues with the plus prefix of the international phone number format.
-
-* Check short codes: Exclusions happen if the short code of the recipient is either the same as defined in the external account or if it's empty (empty = any shortcode). If only one short code is used for the whole Adobe Campaign instance, it's easier to leave all "short code" fields empty.
-
-### Encoding issues {#encoding-issues}
-
-**Step 1: Get in touch with the provider**
-
-The provider knows how SMS works. Contact them and see what's wrong with them. They should be able to tell you if the problem is on their side or on Adobe Campaign side. If the problem is in Adobe Campaign, they should be able to tell you exactly what field is incorrect, which helps tremendously.
-
-**Step 2: Know what's in your message**
-
-You will have to know what's in your message. Unicode allows many variants for look-alike characters that Adobe Campaign cannot handle them all.
-
-The most common source of problems is a copy-paste from a word processor, that changes usual characters to typographically correct versions: spaces changed to non-breaking spaces, double quotes changed to opening and closing quotes, minus signs changed to various kinds of hyphens ...
-
-Don't copy-paste your message when testing, always type it directly in the interface.
-
-Don't be intimidated by hexadecimal. With hexadecimal, you can tell the difference between similar characters. A lower-case L, a upper-case I, O, 0, all different types of quotes, non-latin encodings or even different types of spaces can all look the same or even not being displayed at all. 
-
-To convert unicode to hexadecimal, you can use online tools like this: https://r12a.github.io/app-conversion/. Type in your text in the first box (make sure there is no PII such as phone numbers) and click "Convert". You will see the hexadecimal values at the bottom (UTF-32 zone).
-
-When opening tickets about encoding problems, whether with the provider or the Adobe Campaign support, always include a hexadecimal version of what you type and what you see.
-
-**Step 3: Know what you should send**
-
-Determine the encoding you expect to be used and search online for its character table. Check that the characters you intend to send are actually available in the target code page. Check that the data_coding field is correct and matches what you and the provider expect.
-
-**Step 4: Know what you actually sent**
-
-You will need the debug output of the connector in order to see exactly what bytes you send to the provider. Encoding problems appear in SUBMIT_SM PDUs, so be sure to capture them. Send very distinct messages that are easy to find in the log.
-
-Send different kinds of special characters when testing. For example, GSM7 encoding has extended characters that are very distinct in their hexadecimal form, they are easy to spot because they don't appear in any other encoding.
-
-### Elements to include when communicating about a SMS issue {#element-include}
-
-Whenever you seek assistance on a SMS issue (whether it's opening a support ticket to Adobe Campaign, to the SMS provider, or any kind of communication about the issue), you will need to include at least the following information to be sure that it will be properly qualified. Properly qualified issues are key to solving problems faster, so taking a little more time to try to understand the situation and give meaningful information will lead to a giant leap in efficiency.
-
-* Enable verbose SMPP messages during the time when the problem appears. Most SMS problems are virtually impossible to solve without this.
-
-* If the problem is related to SMS traffic, contact the provider first. They are the most knowledgeable and their platform is usually suited for efficient diagnosis of SMS traffic problems in real time.
-
-* Include a brief but factual description of the problem.
-
-* Include a description of the expected result.
-
-* Include the feedback from the provider.
-
-* Include relevant logs and/or network captures. When doing captures, make sure to reproduce the problem during the capture or it will be useless.
-
-* If you include logs, traces or captures, pinpoint the exact location in the file when the problem appears. Captures or traces can be big and tedious to look at, so anything helping to find information in them is helpful.
-
-* If you reference messages, PDUs or logs, clearly state their timestamp so they are easy to find by other people.
-
-* Try to reproduce the problem on a test environment. If you are unsure about a setting, try it on the test environment and check the result with the SMPP traces. It's usually better to report problems replicated on test environments than directly reporting problems on production environments.
-
-* Include any change or tweaks made on the platform. Also, include any change that the provider may have done on their side.
-
-**When do you need a network capture ?**
-
-A network capture is not always needed. Very often, verbose SMPP messages are enough. Here are some guidelines that will help you determine if a network capture is worth the effort:
-
-* Connection issues, but the verbose messages don't show any BIND_RESP PDU.
-
-* Unexplained disconnections with no error message (that's the behavior of the connector when it detects a low level protocol error).
-
-* The provider complains about the unbind / disconnection process.
-
-* There are encoding issues in optional TLV fields.
-
-* Traffic is suspected to be mixed between different connections.
-
-In all other situations, try to analyze verbose SMPP messages first and request a network capture only if it's clear that information is missing in the verbose logs.
-
-**When is a network capture useless ?**
-
-In some cases, capturing network traffic is useless or just a waste of time. Here are the most common situations:
-
-* TLS enabled: By definition, TLS traffic is encrypted so it cannot be captured.
-
-* Performance issues: Logs contain all the needed information to trace performance issues.
-
-* Timing issues (retry timing, enquire_link period, throughput capping, ...)
-
-* SR parsing and processing: verbose logs give much more context and a better presentation.
-
-* MO processing (automatic replies, quarantine).
-
-* Errors not involving actual SMPP traffic: Delivery preparation, Message Center API issues, workflow issues, ...
-
-### Enabling SMPP traces {#enabling-smpp-traces}
-
-New connector supports extended logging through traces. The trace name is SMPP. Traces are output in the MTA log, not on the standard output.
-
-**Enabling per external account (preferred method)**
-
-In the external account, you can find a checkbox "Enable verbose SMPP traces in the log file".
-Check it and save, the connector will reconnect with traces enabled.
-
-** Enabling on the fly**
-
-Adobe Campaign Standard MTA has a HTTP control interface that allows to change the trace filter on the fly.
-A POST call can enable/disable traces. Example URL to enable SMPP traces:
-
-```
-POST http://host:7780/mta/trace?filter=SMPP
-```
-
-To disable traces, set an empty filter:
-
-```
-POST http://host:7780/mta/trace?filter=
-```
-
-**Enabling in configuration**
-
-In the config-instance.xml file, set the following parameters:
-
-```
-<mta args="-tracefilter:SMPP"/>
-```
-
-## Checking the number of open connections on a container {#open-connections}
-
-To check the number of open connections on a container, you can use this command:
-
-```
-(for pid in $(ss -neopts  | sed -n ‘s/^.*:3600[ \t].*users:(([0-9A-Za-z”]*,pid=\([0-9]*\),.*$/\1/p’ | sort ); do  cat /proc/$pid/cmdline; echo  ” $pid” ;done;) | uniq --count
-```
-
-This will list the number of connections opened for a given port. Here we are using the port 3600.
-
-Result should be as follows:
-
-```
-4 nlserversms -noconsole -tracefile:sms@INSTANCE_NAME -instance:INSTANCE_NAME -detach 15180
-2 nlservermtachild -tracefile:mtachild@INSTANCE_NAME -instance:INSTANCE_NAME -detach 1838
-2 nlservermtachild -tracefile:mtachild@INSTANCE_NAME -instance:INSTANCE_NAME -detach 24025
-2 nlservermtachild -tracefile:mtachild@INSTANCE_NAME -instance:INSTANCE_NAME -detach 24029
-2 nlservermtachild -tracefile:mtachild@INSTANCE_NAME -instance:INSTANCE_NAME -detach 29088
-2 nlservermtachild -tracefile:mtachild@INSTANCE_NAME -instance:INSTANCE_NAME -detach 30390
-```
-
-4 opened connections for the sms process and 2 per mta child with 5 children.
-
-## Related documents {#related-documents}
-
-Old ACC SMS connectors (Generic SMPP, Netsize, ...) have their own troubleshooting guide here: ACC - Connector - SMS - Generic SMPP connector - Understanding and troubleshooting. These connectors are deprecated: everyone using them should transition to the extended generic SMPP connector.
-AGS maintains a page that describes settings required for all known and tested providers (do not hesitate to add information in it): Extended generic SMPP settings by provider.
-Also, if you need to analyze SMPP network packets, a Technote details this process thoroughly: SMPP protocol analysis using Wireshark (SMS)

@@ -434,6 +434,10 @@ title: Campaign Standard Guide
        + [Experience Platform SDK integration FAQ](administration/using/aep-faq.md)  
        + [Configuring Launch rules to support Adobe Campaign Standard use cases](administration/using/configuring-rules-launch.md)
        + [Mobile use cases supported in Adobe Campaign Standard](administration/using/supported-mobile-use-cases.md)
+  + Configuring SMS channel {#configuring-sms}
+       + [Implementing the SMS channel](administration/using/configuring-sms-channel.md)
+       + [SMS connector protocol and settings](administration/using/sms-connector.md)
+       + [SMS troubleshooting](administration/using/troubleshooting-sms.md)
   + Application settings {#application-settings}
        + [About Campaign Standard settings](administration/using/about-campaign-standard-settings.md)
        + [External accounts](administration/using/external-accounts.md)
