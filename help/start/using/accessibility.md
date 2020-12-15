@@ -23,7 +23,7 @@ Adobe Campaign Standard provides features that make it more accessible to use su
 
 The Adobe Campaign Standard user interface strives to provide enough contrast in the application to ensure an accessible viewing experience for users with low vision or color deficiencies.
 
-* •	Large text and headings have been enhanced to meet a 3:1 contrast ratio.
+* Large text and headings have been enhanced to meet a 3:1 contrast ratio.
 
     ![](assets/accessibility_2.png)
 
