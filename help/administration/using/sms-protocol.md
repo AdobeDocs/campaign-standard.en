@@ -10,7 +10,7 @@ topic-tags: configuring-channels
 
 # SMS connector protocol and settings {#sms-connector-protocol}
 
-Through this document, all references to details about the protocol, field names and values refer to the SMPP 3.4 specification.
+Through this document, all references to details about the protocol, field names and values refer to the [SMPP 3.4 specification](https://smpp.org/SMPP_v3_4_Issue1_2.pdf).
 
 ## Overview {#overview}
 
@@ -38,7 +38,7 @@ When sending mass SMS through an SMS provider, you will encounter three differen
 
 * **SMS SR (Status Report) or DR or DLR (Delivery Receipt)**: a return receipt sent by the mobile to Adobe Campaign through the SMPP provider indicating that the SMS has been received successfully. Adobe Campaign may also receive SR indicating that the message could not be delivered, often with a description of the error.
 
-Please distinguish between acknowledgments (RESP PDU, part of the SMPP protocol) and SR.
+You need to distinguish between acknowledgments (RESP PDU, part of the SMPP protocol) and SR.
 
 A SR is a kind of SMS that is sent through the network end-to-end, whereas an acknowledgement is only a confirmation that one transfer has been successful.
 
@@ -60,7 +60,7 @@ An SMS carries more information than text. Here a list of what you can expect to
 
 * A validity date, after which no network equipment is allowed to retry (not always present or respected).
 
-* A data_coding field, which indicates the encoding of the text.
+* A `data_coding` field, which indicates the encoding of the text.
 
 ## SMPP protocol {#smpp-protocol}
 
@@ -87,7 +87,7 @@ Note:
 
 SMPP transmission units ("packets") are called PDUs: a **PDU** contains a command, a status, a sequence number and data.
 
-Each PDU must be acknowledged by an SMPP RESP PDU (synchronous response). Requests may be pipelined: the sender can send many commands without waiting for RESP, the number of requests that may be pipelined at any time is called the window. RESP PDU may arrive in any order, unrelated to the order of their corresponding initiator PDU.
+Each PDU must be acknowledged by an `SMPP RESP PDU` (synchronous response). Requests may be pipelined: the sender can send many commands without waiting for `RESP`, the number of requests that may be pipelined at any time is called the window. `RESP PDU` may arrive in any order, unrelated to the order of their corresponding initiator PDU.
 
 In the separated transmitter+receiver mode, the connection used depends on the kind of message transmitted. The transmitter connection is used for MT, and the receiver connection is used for MO and SR. Requests and responses for each kind of message are sent over the same TCP connection.
 
@@ -95,9 +95,9 @@ For example, when sending an MT, the transmitter connection is used and the RESP
 
 ![](assets/sms_protocol_1.png)
 
-In Adobe Campaign Standard, MT↔SR reconciliation is native to the MTA, so there is no dedicated SMS process.
+In Adobe Campaign Standard, MT and SR reconciliation is native to the MTA, so there is no dedicated SMS process.
 
-A successful SUBMIT_SM_RESP PDU triggers the "sent" message status in the sending log while a successful DELIVER_SM (SR) PDU triggers the "received" message status.
+A successful `SUBMIT_SM_RESP PDU` triggers the "sent" message status in the sending log while a successful `DELIVER_SM (SR) PDU` triggers the "received" message status.
 
 ### Security aspects {#security-aspects}
 
@@ -107,7 +107,7 @@ Adobe Campaign supports passing a login and a password during the bind phase.
 
 Adobe Campaign support SMPP over TLS. It should be noted that certificates are required for proper security. While the SMPP connector allows bypassing certificate checks, it should only be used for testing since TLS without certificates provides a significantly lower level of security.
 
-The connector uses the default certificates provided by the system openssl library. Usually it's provided by the /etc/ssl/certs directory on Debian. This directory is provided by the "ca-certificates" package by default but it may be customized.
+The connector uses the default certificates provided by the system `openssl` library. Usually it's provided by the `/etc/ssl/certs` directory on Debian. This directory is provided by the "ca-certificates" package by default but it may be customized.
 
 ### Information in each kind of PDU {#information-pdu}
 
@@ -115,7 +115,7 @@ Each kind of PDU has distinct fields that carry different pieces of information.
 
 Each section below describes both the PDU and its synchronous response (*_RESP PDU). All PDUs must be acknowledged by a corresponding RESP, this is a mandatory part of the specification.
 
-PDUs can have optional fields. Only the most common fields are described here. Refer to the SMPP specification and the documentation of the provider for more extensive information.
+PDUs can have optional fields. Only the most common fields are described here. Refer to the [SMPP 3.4 specification](https://smpp.org/SMPP_v3_4_Issue1_2.pdf) for more information.
 
 #### BIND_TRANSMITTER / BIND_RECEIVER / BIND_TRANSCEIVER {#bind-transmitter}
 
@@ -127,7 +127,7 @@ This PDU is used to initiate a connection to the SMSC. Transmitter, Receiver and
 | Receiver | MO + SR |
 | Transceiver | MT + MO + SR |
 
-Notable fields in a BIND_* PDU:
+Notable fields in a `BIND_* PDU`:
 
 * **system_id**: Login used for authentication. Set in the external account.
 
@@ -135,15 +135,15 @@ Notable fields in a BIND_* PDU:
 
 * **system_type**: Required to be set at a specific value for some providers. Set in the external account, available in all versions. Often distinguishes between different types of contracts, channels, countries, etc.
 
-* **addr_ton** and **addr_npi**: Required by some providers. Set by the "Bind TON" and "Bind NPI" settings in the external account.
+* **addr_ton** and **addr_npi**: Required by some providers. Set by the `Bind TON` and `Bind NPI` settings in the external account.
 
 * **address_range**: Required by some providers. Its meaning can vary. Most of the time, this is a list of shortcodes allowed on this connection. Set in the external account.
 
-BIND_*_RESP has no specific field, it confirms whether the connection was successful or not.
+`BIND_*_RESP` has no specific field, it confirms whether the connection was successful or not.
 
 #### UNBIND {#unbind}
 
-This PDU must be sent by the system before disconnecting. It must wait the matching UNBIND_RESP PDU before closing the connection.
+This PDU must be sent by the system before disconnecting. It must wait the matching `UNBIND_RESP PDU` before closing the connection.
 
 Conforming SMSC must not close the connection, the TCP connection is controlled by the Campaign connector.
 
@@ -151,7 +151,7 @@ Conforming SMSC must not close the connection, the TCP connection is controlled 
 
 This PDU sends a MT to the SMSC. Its response PDU gives the ID of the MT.
 
-Notable fields in a SUBMIT_SM PDU:
+Notable fields in a `SUBMIT_SM PDU`:
 
 * **service_type**: Required by some providers, its meaning can vary. Set in the delivery properties.
 
@@ -179,7 +179,7 @@ Adobe Campaign supports these optional fields:
 
 * **dest_addr_subunit**: used to specify the target of the SMS: flash, mobile or SIM card. Set in the delivery properties.
 
-* **message_payload**: when enabled in the external account, long messages will be sent in a single PDU and the text will be transmitted in this field rather than the short_message field.
+* **message_payload**: when enabled in the external account, long messages will be sent in a single PDU and the text will be transmitted in this field rather than the `short_message` field.
 
 #### SUBMIT_SM_RESP {#submit-sm-resp}
 
@@ -189,13 +189,13 @@ This PDU will contain the ID of the MT. This is useful to match it with incoming
 >
 >Many providers transmit the MT ID in hexadecimal. Make sure that you set the "ID format in MT acknowledgement" setting correctly in the external account.
 
-Some providers send SUBMIT_SM_RESP after sending the SR. To account for that behavior, Adobe Campaign waits 30 seconds before replying "Invalid message ID" to a SR with an unknown ID.
+Some providers send `SUBMIT_SM_RESP` after sending the SR. To account for that behavior, Adobe Campaign waits 30 seconds before replying "Invalid message ID" to a SR with an unknown ID.
 
 #### DELIVER_SM {#delivery-sm}
 
 This PDU is sent by the SMSC to Adobe Campaign. It contains either a MO or a SR.
 
-Most fields have the same meaning as their SUBMIT_SM counterpart. Here is the list of useful fields:
+Most fields have the same meaning as their `SUBMIT_SM` counterpart. Here is the list of useful fields:
 
 * **source_addr**: The source address of the MO/SR. Usually this is a phone number.
 
@@ -211,7 +211,7 @@ Adobe Campaign is able to read message ID in the receipted_message_id optional f
 
 This PDU is sent by Adobe Campaign to acknowledge (or not) SR and MO.
 
-Adobe Campaign Standard only sends a DELIVER_SM_RESP once all processing steps have been successful. This guarantees that no SR or MO is acknowledged while there is still a risk of processing errors.
+Adobe Campaign Standard only sends a `DELIVER_SM_RESP` once all processing steps have been successful. This guarantees that no SR or MO is acknowledged while there is still a risk of processing errors.
 
 #### ENQUIRE_LINK {#enquire-links}
 
@@ -231,9 +231,9 @@ Each part of a long message is an individual SMS. These parts travel independent
 
 There are 2 ways to send long SMS:
 
-* **UDH**: the default and recommended way to send long messages. In this mode the connector splits the message in multiple SUBMIT_SM PDUs with UDH information in them. This protocol is the one used by mobile phones themselves. This means that Adobe Campaign has the most control over the message generation, making it capable to compute exactly how many parts were sent and how they were split.
+* **UDH**: the default and recommended way to send long messages. In this mode the connector splits the message in multiple `SUBMIT_SM PDU`s with UDH information in them. This protocol is the one used by mobile phones themselves. This means that Adobe Campaign has the most control over the message generation, making it capable to compute exactly how many parts were sent and how they were split.
 
-* **message_payload**: the way to send the whole long message in a single SUBMIT_SM PDU. The provider will have to split it, which means that it is impossible for Adobe Campaign to know exactly how many parts have been sent. Some providers require this mode, but we advise you to only use it if they do not support UDH.
+* **message_payload**: the way to send the whole long message in a single `SUBMIT_SM PDU`. The provider will have to split it, which means that it is impossible for Adobe Campaign to know exactly how many parts have been sent. Some providers require this mode, but we advise you to only use it if they do not support UDH.
 
 See the description of the esm_class, short_message and message_payload fields of the [SUBMIT_SM PDU](../../administration/using/sms-protocol.md#information-pdu) for more details about the protocol and formats.
 
@@ -241,11 +241,11 @@ See the description of the esm_class, short_message and message_payload fields o
 
 Most providers require a throughput limit for each SMPP connection. This can be achieved by setting a number of SMS in the external account. Note that throughput throttling happens per connection, so the total effective throughput is the limit per connection multiplied by the total number of connections. This is detailed in the [Simultaneous connections](../../administration/using/sms-protocol.md#connection-settings) section.
 
-To reach maximum possible throughput, you will need to fine tune the maximum sending window. The sending window is the number of SUBMIT_SM PDUs that can be sent without waiting for a SUBMIT_SM_RESP. See the [Sending window setting](../../administration/using/sms-protocol.md#throughput-timeouts) section for more details.
+To reach maximum possible throughput, you will need to fine tune the maximum sending window. The sending window is the number of `SUBMIT_SM PDU`s that can be sent without waiting for a `SUBMIT_SM_RESP`. See the [Sending window setting](../../administration/using/sms-protocol.md#throughput-timeouts) section for more details.
 
 ### SR and error management ("Appendix B") {#sr-error-management}
 
-The SMPP protocol defines standard synchronous errors in RESP PDUs, but it does not define error codes for SR. Each provider uses their own error codes with their meaning.
+The SMPP protocol defines standard synchronous errors in `RESP PDU`s, but it does not define error codes for SR. Each provider uses their own error codes with their meaning.
 
 A recommendation is made in the Appendix B section of the SMPP protocol specification, but this does not list the actual error codes nor their meaning.
 
@@ -253,7 +253,7 @@ To adapt to error management, the broad log message system of Campaign has been 
 
 As mentioned above, there are 2 different kinds of errors: synchronous replies in the SUBMIT_SM_RESP that happen immediately after the message was sent to the SMSC and receipts that may come much later when the mobile received the message or when the message timed out. In that case the error is found in a SR.
 
-When a SR is received, status and error can be found in its short_message field (example for Appendix B conforming implementations). Be careful, the short_messagefield of the PDU is often called the text field because it contains text in MT; but in case of SR, it contains technical information plus a sub-field named Text (which is practically useless BTW except for some troubleshooting). These 2 fields are different and short_message actually contains the Text field and other information.
+When a SR is received, status and error can be found in its `short_message` field (example for Appendix B conforming implementations). Be careful, the `short_message` field of the PDU is often called the text field because it contains text in MT; but in case of SR, it contains technical information plus a sub-field named Text. These 2 fields are different and `short_message` actually contains the Text field and other information.
 
 #### SR text field format {#sr-text-field-format}
 
@@ -265,13 +265,13 @@ Example of a SR text field matching exactly the Appendix B recommendation:
 id:1234567890 sub:001 dlvrd:001 submit date:1608011415 done date:1608011417 stat:DELIVRD err:000 Text:Hello Adobe world
 ```
 
-The id field is the ID received in the SUBMIT_SM_RESP PDU (the acknowledge of the MT).
+The id field is the ID received in the `SUBMIT_SM_RESP PDU`, the acknowledge of the MT.
 
-sub and dlvrd are supposed to count the amount of delivered parts and delivered messages, but this rarely works and is not used by Campaign since the broad log system is superior and gives better, more integrated information.
+`sub` and `dlvrd` are supposed to count the amount of delivered parts and delivered messages, but this rarely works and is not used by Campaign since the broad log system is superior and gives better, more integrated information.
 
-submit date and done date fields are indicative timestamps of when the MT was sent and when the SR was sent by the mobile. Expect some problems with time zones or even wrong timestamps given by mobiles with incorrect date set.
+`submit date` and `done date` fields are indicative timestamps of when the MT was sent and when the SR was sent by the mobile. Expect some problems with time zones or even wrong timestamps given by mobiles with incorrect date set.
 
-The stat field is important: it tells the status of the message. The only important status are DELIVRD, UNDELIV and REJECTD. DELIVRD indicates a success, the other two indicate an error. Other values are possible, but they are usually intermediate notifications (e.g. the MT reached the mobile carrier, but not the mobile phone): these intermediate notifications are ignored by Campaign.
+The stat field is important: it tells the status of the message. The only important status are `DELIVRD`, `UNDELIV` and `REJECTD`. `DELIVRD` indicates a success, the other two indicate an error. Other values are possible, but they are usually intermediate notifications (e.g. the MT reached the mobile carrier, but not the mobile phone): these intermediate notifications are ignored by Campaign.
 
 The err field contains the provider-specific error code. The provider has to give a table of possible error codes along with their meaning to be able to interpret this value.
 
@@ -317,7 +317,7 @@ You should **always contact the SMSC provider in case of encoding problems**. On
 
 SMS messages use a special 7 bits encoding, often called the GSM7 encoding.
 
-In the SMPP protocol, GSM7 text will be expanded to 8 bits per character for easier troubleshooting. The SMSC will pack it into 7 bits per character before it is sent to the mobile. This means that the short_message field of the SMS may be up to 160 bytes long in the SMPP frame whereas it is limited to 140 bytes when sent on the mobile network (the most significant bit is simply discarded).
+In the SMPP protocol, GSM7 text will be expanded to 8 bits per character for easier troubleshooting. The SMSC will pack it into 7 bits per character before it is sent to the mobile. This means that the `short_message` field of the SMS may be up to 160 bytes long in the SMPP frame whereas it is limited to 140 bytes when sent on the mobile network (the most significant bit is simply discarded).
 
 In case of encoding problems, here are some important things to check:
 
@@ -329,13 +329,13 @@ In case of encoding problems, here are some important things to check:
 
 * Latin-1 is not always supported. Check the compatibility with your SMSC provider before attempting to use Latin-1.
 
-* National language shift tables are not supported by the Adobe Campaign connector. You must use UCS-2 or other data_coding instead.
+* National language shift tables are not supported by the Adobe Campaign connector. You must use UCS-2 or other `data_coding` instead.
 
 * UCS-2 and UTF-16 are often mixed by phones. This is a problem for people sending emojis and other rarely used characters not present in UCS-2.
 
-* Most phones don't have font glyphs for all UCS-2 characters. Smartphones tend to be able to display rare characters rather easily, but feature phones generally have limited support to what's useful in the native tongue of the country they were bought in. If you want to use emoji or ASCII-art of some sort, test it on a wide variety of phones before sending. Campaign preview does not simulate missing glyphs and will display whatever symbols are available on the web browser displaying the preview.
+* Most phones don't have font glyphs for all UCS-2 characters. Smartphones tend to be able to display rare characters rather easily, but feature phones generally have limited support to what's useful in the native tongue of the country they were bought in. If you want to use emoji or ASCII-art of some sort, test it on a wide variety of phones before sending. Adobe Campaign preview does not simulate missing glyphs and will display whatever symbols are available on the web browser displaying the preview.
 
-The data_coding field tells you which encoding is used. A major problem is that the value 0 means default SMSC encoding in the specification, in general it means GSM7, but that's not always the case. Check with the SMSC partner which encoding is associated with data_coding = 0 (Adobe Campaign only supports GSM7 for data_coding = 0). Other data_coding values tend to follow the specification, but the only way to be sure is to check with the SMSC provider.
+The `data_coding` field tells you which encoding is used. A major problem is that the value 0 means default SMSC encoding in the specification, in general it means GSM7, but that's not always the case. Check with the SMSC partner which encoding is associated with `data_coding` = 0 which Adobe Campaign only supports. Other `data_coding` values tend to follow the specification, but the only way to be sure is to check with the SMSC provider.
 
 The maximum size of a message depends on its encoding. This table sums up all the relevant information:
 
@@ -355,7 +355,7 @@ Each implementation of the SMPP protocol has many variations. To improve compati
 
 It is possible to set a limit to the number of MTA instances allowed to connect to the SMPP provider. When checked, you can specify how many MTAs can be used at most.
 
-This option allows finer control over the number of connections (see [Simultaneous connections](../../administration/using/sms-protocol.md#connection-settings)).
+This option allows finer control over the number of connections, see [Simultaneous connections](../../administration/using/sms-protocol.md#connection-settings).
 
 If you set a value higher than the number of running MTAs, all MTAs will run as normal: this option is only a limit and cannot spawn additional MTAs.
 
@@ -379,7 +379,7 @@ The TCP port to connect to.
 
 #### Account {#account}
 
-The login of the connection. Passed in the system_id field of the BIND PDU.
+The login of the connection. Passed in the `system_id` field of the BIND PDU.
 
 #### Password {#password}
 
@@ -387,13 +387,11 @@ Password of the SMPP connection. Passed in the password field of the BIND PDU.
 
 #### System type {#system-type}
 
-Value passed in the system_type field of the BIND PDU. Some providers need a specific value here.
+Value passed in the `system_id` field of the BIND PDU. Some providers need a specific value here.
 
 #### Simultaneous connections {#simultaneous-connections}
 
 In Adobe Campaign Standard, it defines the number of connections per SMS thread and per MTA process.
-
-The number of MTA process is determined by the TechOps deployment (usually there are 2 MTAs and 1 thread). The number of threads can be changed in the config-instance.xml file.
 
 Total connections formula for Adobe Campaign Standard:
 
@@ -413,7 +411,7 @@ This setting dumps all SMPP traffic in log files. It's often required to adjust 
 
 ### Receiver connection setting {#receiver-connection}
 
-This section is only visible in separated transmitter+receiver mode (see above).
+This section is only visible in separated transmitter+receiver mode.
 
 #### Use different parameters for the receiver {#receiver-parameters}
 
@@ -459,21 +457,21 @@ This enables the sender address / oADC override feature.
 
 Indicates the main short code of the account. If multiple short codes are used for this account or if the short code is unknown, leave this field empty.
 
-Specifying short code is helpful for 2 features:
+Specifying short code is helpful for two features:
 
 * The preview will display the short code if no source number is provided. It will reflect the real behavior on the mobile phone.
 
-* The block list setting of the auto reply feature (described below) only sends to quarantine the user for a specific short code. This is to respect current laws in USA and France for which this feature has been developed.
+* The block list setting of the auto reply feature only sends to quarantine the user for a specific short code. This is to respect current laws in USA and France for which this feature has been developed.
 
-#### Source TON/NPI, Destination TON/NPI {#ton-npi}
+#### Source TON/NPI, destination TON/NPI {#ton-npi}
 
 TON (Type Of Number) and NPI (Numbering Plan Indicator) are described in section 5.2.5 of the SMPP 3.4 specification. These values should be set to the provider's needs.
 
-They are transmitted as-is in source_addr_ton, source_addr_npi, dest_addr_ton and dest_addr_npi fields of the SUBMIT_SM PDU.
+They are transmitted as-is in `source_addr_ton`, `source_addr_npi`, `dest_addr_ton` and `dest_addr_npi` fields of the `SUBMIT_SM PDU`.
 
 #### Service type {#service-type}
 
-This field is transmitted as-is in the service_type field of the SUBMIT_SM PDU. Set this to the provider's needs.
+This field is transmitted as-is in the `service_type` field of the `SUBMIT_SM PDU`. Set this to the provider's needs.
 
 ### Throughput and timeouts {#throughput-timeouts}
 
@@ -481,21 +479,22 @@ These settings control all the timing aspects of the SMPP channel. Some provider
 
 #### Sending window {#sending-window}
 
-The window is the number of SUBMIT_SM PDUs that can be sent without waiting for a matching SUBMIT_SM_RESP.
+The window is the number of `SUBMIT_SM PDU`s that can be sent without waiting for a matching `SUBMIT_SM_RESP`.
 
 Example of a transmission with a maximum window of 4:
 
 ![](assets/sms_protocol_2.png)
 
-The window helps increasing throughput when the network link has a high latency.  The value of the window must be at least the number of SMS/s multiplied by the latency of the link (in seconds) so the connector is never waiting for a SUBMIT_SM_RESP before sending the next message.
+The window helps increasing throughput when the network link has a high latency.  The value of the window must be at least the number of SMS/s multiplied by the latency of the link (in seconds) so the connector is never waiting for a `SUBMIT_SM_RESP` before sending the next message.
 If the window is too big, you may send more duplicate messages in case of connection problems (rare case). Also, most providers have a very strict limit for the window and refuse messages that go over the limit.
 
 How to calculate the optimal sending window formula:
 
-* Measure the maximum latency between SUBMIT_SM and SUBMIT_SM_RESP.
+* Measure the maximum latency between `SUBMIT_SM` and `SUBMIT_SM_RESP`.
+
 * Multiply this value (in seconds) to the max MT throughput: this will give the optimal sending window value.
 
-Example: If you have 300 SMS/s set in max MT throughput and there is 100ms latency between SUBMIT_SM and SUBMIT_SM_RESP on average, the optimal value would be 300×0.1 = 30.
+Example: If you have 300 SMS/s set in max MT throughput and there is 100ms latency between `SUBMIT_SM` and `SUBMIT_SM_RESP` on average, the optimal value would be `300×0.1 = 30`.
 
 #### Max MT throughput {#max-mt-throughput}
 
@@ -513,15 +512,15 @@ When the TCP connection is lost, the connector will wait this number of seconds 
 
 #### Expiration period of the MT {#expiration-period}
 
-This is the timeout between SUBMIT_SM and its matching SUBMIT_SM_RESP. If the RESP is not received on time, the message will be considered as failed and global retry policy of the MTA will apply.
+This is the timeout between `SUBMIT_SM` and its matching `SUBMIT_SM_RESP`. If the `RESP` is not received on time, the message will be considered as failed and global retry policy of the MTA will apply.
 
 #### Bind timeout {#bind-timeout}
 
-Timeout between the TCP connect attempt and the BIND_*_RESP reply. When it times out, the connection is closed by the Campaign connector and it will wait Time before reconnection before trying again.
+Timeout between the TCP connect attempt and the `BIND_*_RESP` reply. When it times out, the connection is closed by the Campaign connector and it will wait Time before reconnection before trying again.
 
 #### enquire_link period {#enquire-link-period}
 
-enquire_link is a special kind of PDU sent to keep the connection alive. This period is in seconds. The campaign connector only sends enquire_link when the connection is idle in order to conserve bandwidth. If no RESP is received after twice this period, the connection will be considered dead and a reconnection process will be triggered.
+`enquire_link` is a special kind of PDU sent to keep the connection alive. This period is in seconds. The campaign connector only sends `enquire_link` when the connection is idle in order to conserve bandwidth. If no RESP is received after twice this period, the connection will be considered dead and a reconnection process will be triggered.
 
 ### SMSC specifics {#SMSC-specifics}
 
@@ -531,13 +530,13 @@ These settings are advanced settings that enable to adapt the Adobe Campaign con
 
 See the [SMS text encoding](../../administration/using/sms-protocol.md#sms-text-encoding) section for details about text encoding.
 
-This setting allows you to define a custom encoding mapping, different from the specification. You will be able to declare a list of encodings, along with their data_coding value.
+This setting allows you to define a custom encoding mapping, different from the specification. You will be able to declare a list of encodings, along with their `data_coding` value.
 
-The MTA will try to encode using the first encoding in the list; if it fails, it will try to use the next encoding on the list, etc... If no encoding can be used to encode the message, an error will happen. Once the encoding is found, the MTA will create the SUBMIT_SM PDU with the encoded text and the data_coding field set with the value specified in the table.
+The MTA will try to encode using the first encoding in the list; if it fails, it will try to use the next encoding on the list, etc. If no encoding can be used to encode the message, an error will happen. Once the encoding is found, the MTA will create the `SUBMIT_SM PDU` with the encoded text and the `data_coding` field set with the value specified in the table.
 
-The order of items in the table is important: encodings are tries from top to bottom. You should put the cheapest or most recommended encoding at the top of the list, then followed by more and more expensive (or less desirable) encodings.
+The order of items in the table is important: encodings are tries from top to bottom. You should put the cheapest or most recommended encoding at the top of the list, then followed by more and more expensive encodings.
 
-Please note that UCS-2 will never fail as it can encode all characters supported in Campaign and that the maximum length of an UCS-2 SMS is much smaller (70 characters only).
+Please note that UCS-2 will never fail as it can encode all characters supported in Adobe Campaign and that the maximum length of an UCS-2 SMS is much smaller (70 characters only).
 
 You can also use this setting to force a specific encoding to be always used by declaring only 1 line in the mapping table.
 
@@ -548,13 +547,13 @@ The default mapping used when the checkbox is not checked is equivalent to the f
 | 0 | GSM |
 | 9 | UCS-2 |
 
-This means that the MTA will try to encode the message in GSM. If it succeeds it will send it with data_coding set to 0.
+This means that the MTA will try to encode the message in GSM. If it succeeds it will send it with `data_coding` set to 0.
 
-If the message cannot be encoded in GSM, it will be encoded in UCS-2 and will set data_coding to 8.
+If the message cannot be encoded in GSM, it will be encoded in UCS-2 and will set `data_coding` to 8.
 
 #### Enable message_payload {#enable-message-payload}
 
-When unchecked, long SMS will be split by the MTA and sent in multiple SUBMIT_SM PDUs with UDH. The message will be recomposed by the mobile phone following UDH data.
+When unchecked, long SMS will be split by the MTA and sent in multiple `SUBMIT_SM PDU`s with UDH. The message will be recomposed by the mobile phone following UDH data.
 
 When checked, long SMS will be sent in one SUBMIT_SM PDU, putting the text in the message_payload optional field. See the [SMPP specification](../../administration/using/sms-protocol.md#ACS-SMPP-connector) for details about this.
 
@@ -562,7 +561,7 @@ If this feature is enabled, Adobe Campaign will be unable to count SMS parts ind
 
 #### Send the full phone number {#send-full-phone-number}
 
-When this checkbox is not checked, only digits of the phone number are sent to the provider (destination_addr field of the SUBMIT_SM field). This is the default behavior since the international number indicator (usually a + prefix) is replaced by TON and NPI fields in SMPP.
+When this checkbox is not checked, only digits of the phone number are sent to the provider (`destination_addr` field of the `SUBMIT_SM` field). This is the default behavior since the international number indicator (usually a + prefix) is replaced by TON and NPI fields in SMPP.
 
 When the checkbox is checked, the phone number is sent as-is, with no preprocessing (and potential spaces, + prefix or pound/hash/star signs).
 
@@ -576,9 +575,9 @@ It may be useful for debugging or test purposes.
 
 #### Bind TON/NPI {#bind-ton-npi}
 
-TON (Type Of Number) and NPI (Numbering Plan Indicator) (described in section 5.2.5 of the SMPP 3.4 specification). These values should be set to whatever the provider needs.
+TON (Type Of Number) and NPI (Numbering Plan Indicator) described in section 5.2.5 of the SMPP 3.4 specification. These values should be set to whatever the provider needs.
 
-They are transmitted as-is in addr_ton and addr_npi fields of the BIND PDU.
+They are transmitted as-is in `addr_ton` and `addr_npi` fields of the BIND PDU.
 
 #### Address range {#address-range}
 
@@ -586,23 +585,23 @@ Sent as-is in the address_range field of the BIND PDU. This value should be set 
 
 #### Invalid ID acknowledge count {#invalid-id}
 
-Limits the number of "Messsage ID invalid" DELIVER_SM_RESP that can be sent for a single SR. 
+Limits the number of "Messsage ID invalid" `DELIVER_SM_RESP` that can be sent for a single SR. 
 
 **This should be only used for troubleshooting purpose as a workaround** and set to 0 in normal conditions.
 
 Fox example, when setting to 2:
 
-* The provider sends a SR (DELIVER_SM) with ID "1234".
+* The provider sends a SR (`DELIVER_SM`) with ID "1234".
 
 * The ID "1234" could not be found in the database.
 
-* The connector counts 1 "Invalid ID" error for that ID, so it sends DELIVER_SM_RESP with the "Message ID invalid" error code (normal behavior).
+* The connector counts 1 "Invalid ID" error for that ID, so it sends `DELIVER_SM_RESP` with the "Message ID invalid" error code (normal behavior).
 
 * The provider retries the same SR with ID "1234".
 
 * The ID "1234" still could not be found in the database.
 
-* The connector counts 2 "Invalid ID" error for that ID, so it sends DELIVER_SM_RESP "OK", even if it was not processed correctly.
+* The connector counts 2 "Invalid ID" error for that ID, so it sends `DELIVER_SM_RESP` "OK", even if it was not processed correctly.
 
 * This feature is meant to flush SR buffers on the provider side when invalid SR block legitimate that messages cannot be processed.
 
@@ -614,11 +613,11 @@ Setting this field to 1 makes the connector always respond "OK" even if the ID i
 
 SR format is not strictly enforced by the SMPP protocol specification. It is only a recommendation described in [Appendix B](../../administration/using/sms-protocol.md#sr-error-management) of the specification. Because of this, some SMPP implementers format this field differently, so Adobe Campaign needs a way to extract the correct field.
 
-By default, it captures up to 10 alphanumeric characters after "id:".
+By default, it captures up to 10 alphanumeric characters after `id:`.
 
 The regex must have exactly one capture group with a part contained within parentheses. Parentheses must surround the ID part. The regex format is PCRE.
 
-When adjusting this setting, be sure to include as much context as possible to avoid false triggers. If there are specific prefixes, such as "id:" in the standard, include them in the regex. Also use word delimiters (\b) as much as possible to avoid capturing text in the middle of a word.
+When adjusting this setting, be sure to include as much context as possible to avoid false triggers. If there are specific prefixes, such as `id:` in the standard, include them in the regex. Also use word delimiters (\b) as much as possible to avoid capturing text in the middle of a word.
 
 Not including enough context in the regex can introduce a small security flaw: the actual content of the message can be included in the SR. If you only match a specific ID format with no context, e.g. a UUID, it may be parsing the actual text content, e.g. a UUID embedded in the text field, instead of the ID.
 
@@ -626,11 +625,11 @@ Not including enough context in the regex can introduce a small security flaw: t
 
 When messages with an unknown stat/err field combination are encountered, these regex are applied on the stat field to determine whether the SR was a success or an error. SR with stat values that don't match any of these regexes are ignored.
 
-By default, stat values that begin with DELIV (e.g. DELIVRD in the [Appendix B](../../administration/using/sms-protocol.md#sr-error-management)) will be considered as successfully delivered and all stat values that match errors (e.g. REJECTED, UNDELIV, ...) are considered errors.
+By default, stat values that begin with `DELIV` (e.g. `DELIVRD` in the [Appendix B](../../administration/using/sms-protocol.md#sr-error-management)) will be considered as successfully delivered and all stat values that match errors, e.g. `REJECTED`, `UNDELIV`, are considered errors.
 
 #### ID format in MT acknowledgement {#id-format-mt}
 
-This indicates the format of the ID returned in the message_id field of the SUBMIT_SM_RESP PDU.
+This indicates the format of the ID returned in the `message_id` field of the `SUBMIT_SM_RESP PDU`.
 
 * **Do not modify**: The ID is stored as-is in the database, as ASCII-encoded text. No pre-processing nor filtering occurs.
 
@@ -646,9 +645,9 @@ This indicates the format of the ID captured by the Extraction regex of the ID i
 
 **SR ID or error code in optional field**
 
-If checked, the content of optional fields will be appended to the text processed by regexes above. The text will have the format "0xTAG:VALUE", 0xTAG being the 4-digit hexadecimal value of the tag in upper case (e.g. 0x002E).
+If checked, the content of optional fields will be appended to the text processed by regexes above. The text will have the format `0xTAG:VALUE`, `0xTAG` being the 4-digit hexadecimal value of the tag in upper case e.g. `0x002E`.
 
-For example, you might want to capture the ID in the receipted_message_id field. For this, enable this checkbox and the following text will be added to the status:
+For example, you might want to capture the ID in the `receipted_message_id` field. For this, enable this checkbox and the following text will be added to the status:
 
 ```
 0x001E:05e3299e-8d37-49d0-97c6-8e4fe60c7739
@@ -668,7 +667,7 @@ In order to capture this value, you may now set the following regex in the Extra
 
 **SR ID or error code in text field**
 
-If checked, the Text: field will be kept during processing of the status text of the SR.
+If checked, the `Text:` field will be kept during processing of the status text of the SR.
 
 This is useful if the provider places important data in this field like the ID or the status. Usually this field can be safely discarded since it may contain text with a non-ASCII encoding and disrupt regex processing.
 
@@ -704,9 +703,9 @@ Some parameters may be set per delivery template.
 
 ### From field {#from-field}
 
-This field is optional. It allows overriding sender address (oADC). The content of this field is placed in the source_addr field of the SUBMIT_SM PDU.
+This field is optional. It allows overriding sender address (oADC). The content of this field is placed in the `source_addr` field of the `SUBMIT_SM PDU`.
 
-The field is limited to 21 characters by the SMPP specification, but some providers may allow longer values. Note also that very strict restrictions may be applied in some countries (length, content, allowed characters, ...) so you might need to double-check that the content you place here is legal.
+The field is limited to 21 characters by the SMPP specification, but some providers may allow longer values. Note also that very strict restrictions may be applied in some countries, for example length, content, allowed characters.
 
 ### Delivery parameters {#delivery-parameters}
 
@@ -720,7 +719,7 @@ The SMS protocol limits SMS to 255 parts, but some mobile phones have trouble pu
 
 This field indicates the kind of SMS you wish to transfer: normal or flash messages, storing on the mobile or the SIM card.
 
-This setting is transmitted in the dest_addr_subunit optional field in the SUBMIT_SM PDU.
+This setting is transmitted in the `dest_addr_subunit` optional field in the `SUBMIT_SM PDU`.
 
 * **Unspecified** sends no optional field in the PDU
 
@@ -734,34 +733,36 @@ This setting is transmitted in the dest_addr_subunit optional field in the SUBMI
 
 #### Validity period {#validity-period}
 
-The validity period is transmitted in the validity_period field of the SUBMIT_SM PDU. The date is always formatted as an absolute UTC time format (the date field will end with "00+").
+The validity period is transmitted in the `validity_period` field of the `SUBMIT_SM PDU`. The date is always formatted as an absolute UTC time format, the date field will end with "00+".
 
 ## SMPP connector {#ACS-SMPP-connector}
 
 ![](assets/sms_protocol_3.png)
- 
+
 Arrows represent data flow, not TCP connection initiations.
+
 The most important thing to note here is that there are multiple SMPP connector threads. These threads are all identical and share the same configuration. That is why the number of connections is always multiplied by the number of threads.
+
 The number of threads cannot be changed by the customer since it requires changing configuration files.
 
 ### Description of the behavior of the SMPP connector {#behavior-smpp-connector}
 
 #### Matching MT, SR and broad log entries {#matching-mt-sr}
 
-In Adobe Campaign, a message is a broadlog entry. In Adobe Campaign Standard, external connectors only need to know about the working broadlog table: nmsBroadLogExec. A workflow is in charge of copying broadlog entries back to their specific targeting dimensions (nmsBroadLogXXX).
+In Adobe Campaign, a message is a broadlog entry. In Adobe Campaign Standard, external connectors only need to know about the working broadlog table: `nmsBroadLogExec`. A workflow is in charge of copying broadlog entries back to their specific targeting dimensions (nmsBroadLogXXX).
 
 Unfortunately, SMPP does not allow to send an ID along with a message: the provider gives a MT ID to each MT, then provides one or more SR with the same ID.
 
-The ID given by the provider is stored in the sProviderId column of nmsBroadLogExec table. Usually, SR always arrive after the MT was successfully sent and acknowledged, but they sometimes can arrive out of order (known in Adobe Campaign as outstanding SR). The processing thread stores these SR temporarily in RAM until the complete information arrives.
+The ID given by the provider is stored in the `sProviderId` column of `nmsBroadLogExec` table. Usually, SR always arrive after the MT was successfully sent and acknowledged, but they sometimes can arrive out of order (known in Adobe Campaign as outstanding SR). The processing thread stores these SR temporarily in RAM until the complete information arrives.
 
-When an MT is acknowledged (SUBMIT_SM_RESP), sProviderId is immediately updated in database.
+When an MT is acknowledged (`SUBMIT_SM_RESP`), `sProviderId` is immediately updated in database.
 
 Each SR is processed individually by SMPP processing threads. This process is pseudo-synchronous: it is seen as synchronous from the outside, but implemented internally with event-driven implementations. SR are acknowledged only when broadlog has been successfully updated, if an error is encountered the SR is rejected.
 
 Here is the process applied to each SR:
 
 * The ID of the SR is extracted using a regex
-* The ID is searched in nmsBroadLogExec:sProviderId
+* The ID is searched in `nmsBroadLogExec:sProviderId`
 * The status + error code are extracted from the SR using regexes
 * The broad log message mechanism is used to qualify the error and find the broad log message ID
 * The broad log is updated with all the information above
@@ -792,12 +793,12 @@ Even if you cannot check the logs yourself, it will be easier for Support to hel
 
 * **Check that SR are properly processed**
   The SMS should be marked as received in the delivery log. The delivery log should be successful and look like the following:
-  "SR yourProvider stat=DELIVRD err=000|#MESSAGE#".
+  `SR yourProvider stat=DELIVRD err=000|#MESSAGE`
   Check that you changed the delivery provider name. The delivery log should never contain "SR Generic" on production environments.
 
 * **Check that MO are processed**
   If you need to process MO (automatic replies, storing MO in the database, ...) try some tests. Send a few SMS for all automatic reply keywords and check that the reply is fast (no more than a few seconds).
-  Check in the log that Campaign replies with a successful DELIVER_SM_RESP (command_status=0).
+  Check in the log that Campaign replies with a successful `DELIVER_SM_RESP` (command_status=0).
 
 ### Check PDUs {#check-pdus}
 
@@ -807,40 +808,40 @@ This step is necessary when connecting to a provider that was not connected to A
 
 #### BIND {#bind}
 
-Check that BIND_* PDUs are correctly sent. The most important thing to check is that the provider always returns successful BIND_*_RESP PDUs (command_status = 0).
+Check that `BIND_* PDUs` are correctly sent. The most important thing to check is that the provider always returns successful `BIND_*_RESP PDUs` (command_status = 0).
 
-Check that there aren't too many BIND_* PDUs. If there are too many of them, it might indicate that the connection is unstable. See the Issues with unstable connections troubleshooting section below for more information.
+Check that there aren't too many `BIND_* PDU`s. If there are too many of them, it might indicate that the connection is unstable. See the [Issues with unstable connections](../../delivery/using/sms-protocol.md#issues-unstable-connection) section for more information.
 
 #### ENQUIRE_LINK {#enquire-link-pdus}
 
-Check that ENQUIRE_LINK PDUs are regularly exchanged when the connection is idle.
+Check that `ENQUIRE_LINK PDU`s are regularly exchanged when the connection is idle.
 
 #### SUBMIT_SM / DELIVER_SM {#submit-sm-deliver-sm}
 
-Send a message, then search in the logs for its corresponding SUBMIT_SM, SUBMIT_SM_RESP, DELIVER_SM and DELIVER_SM_RESP PDUs.
+Send a message, then search in the logs for its corresponding `SUBMIT_SM`, `SUBMIT_SM_RESP`, `DELIVER_SM` and `DELIVER_SM_RESP PDU`s.
 
-With the SUBMIT_SM PDU:
+With the `SUBMIT_SM PDU`:
 
-* Check that data_coding is correct (0 by default).
-* Check that short_message is properly encoded: try decoding it using a hexadecimal converter that supports multiple encodings (there are some available online).
+* Check that `data_coding` is correct, 0 by default.
+* Check that `short_message` is properly encoded. Try decoding it using a hexadecimal converter that supports multiple encodings.
 
-With the SUBMIT_SM_RESP PDU:
+With the `SUBMIT_SM_RESP PDU`:
 
-* Check that it was successful (command_status = 0).
+* Check that it was successful, command_status = 0.
 * Check that its body contains a properly formatted ID followed by a '0' byte.
 
-With the DELIVER_SM PDU:
+With the `DELIVER_SM PDU`:
 
-* Decode the hexadecimal short_message field (there are online tools for that).
+* Decode the hexadecimal short_message field.
 * Check with a regex checking tool that the regex defined in Extraction regex of the ID in the SR returns exactly one capture group and that it captures the whole ID in the message.
-* Check that the extracted ID matches the one in SUBMIT_SM_RESP.
+* Check that the extracted ID matches the one in `SUBMIT_SM_RESP`.
 * Check that the regex defined in Extraction regex of the status in the SR returns the content of the stat field.
 * Check that the regex defined in Extraction regex of the error in the SR returns the content of the err field.
 
-With the DELIVER_SM_RESP PDU:
+With the `DELIVER_SM_RESP PDU`:
 
-* Check that it was sent quickly after receiving the DELIVER_SM PDU (typically less than 1 second).
-* Check that it was successful (command_status = 0).
+* Check that it was sent quickly after receiving the `DELIVER_SM PDU`, typically less than 1 second.
+* Check that it was successful, command_status = 0.
 
 ### Ask the provider if everything is OK {#provider}
 
