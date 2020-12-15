@@ -1,12 +1,13 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Configuring transactional messaging
-description: Learn how to configure transactional messaging.
+title: Publishing a transactional event
+description: Learn how to preview, publish, unpublish and delete a transactional event configuration.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: 
+
 ---
 
 # Publishing a transactional event {#publishing-transactional-event}

@@ -1,9 +1,8 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Event transactional messages
-description: Learn how to create and publish an event transactional message.
-page-status-flag: never-activated
+title: Editing a transactional message
+description: Learn how to access, edit and personalize a transactional message.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging

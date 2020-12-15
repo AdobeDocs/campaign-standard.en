@@ -1,12 +1,13 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Event transactional messages
-description: Learn how to create and publish an event transactional message.
+title: Transactional messaging execution and monitoring
+description: Learn about transactional messaging execution and discover how to monitor transactional messages.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: 
+
 ---
 
 # Transactional messaging execution and monitoring {#transactional-messaging-execution}

@@ -1,8 +1,8 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Event transactional messages
-description: Learn how to create and publish an event transactional message.
+title: Testing a transactional message
+description: Learn how to test a transactional message in Adobe Campaign.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging

@@ -2,11 +2,12 @@
 solution: Campaign Standard
 product: campaign
 title: Transactional push notifications
-description: Learn how to create and publish a transactional push         notification.
+description: Learn how to send transactional push notifications with Adobe Campaign Standard.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: 
+
 ---
 
 # Transactional push notifications{#transactional-push-notifications}

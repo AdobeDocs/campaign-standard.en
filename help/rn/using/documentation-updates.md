@@ -15,11 +15,13 @@ In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), 
 
 ## December 2020 {#doc-updates-december-2020}
 
+The Transactional messaging section has been reorganized and improved, with a clarified getting started section including [enhanced schemas](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle), and an [end-to-end use case](../../channels/using/transactional-messaging-use-case.md) to illustrate the full process. [Read more](../../channels/using/getting-started-with-transactional-msg.md)
+
 The Privacy section has been moved. [Read more](../../start/using/privacy.md)
 
-The Transactional messaging section has been reorganized and improved, with a clarified getting started section including [enhanced charts](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle), and an [end-to-end use case](../../channels/using/transactional-messaging-use-case.md) to illustrate the full process. [Read more](../../channels/using/getting-started-with-transactional-msg.md)
-
 A new page on accessibility has been added to learn more about accessibility support in Adobe Campaign Standard workspace. [Read more](../../start/using/accessibility.md)
+
+A new limitation has been added to the Transactional messaging section, stating that for optimal performance, the number of published transactional messages should remain under 100. [Read more](../../channels/using/transactional-messaging-limitations.md#transactional-message-number)
 
 ## November 2020 {#doc-updates-november-2020}
 
@@ -170,8 +172,6 @@ Limitation has been added with MCPNS when configuring a mobile application. [Rea
 A new configuration guidelines section has been added to the Administrating guide. The section on compatible browsers and operating systems has been moved from the Getting started guide to this section. The technote on Campaign Standard network endpoints has also been added to this section. [Read more](../../administration/using/about-configuration-guidelines.md)
 
 A new section describing how to delete an event configuration is now available. [Read more](../../channels/using/publishing-transactional-event.md#deleting-an-event)
-
-The page describing how to test the subject line of an email to predict its open rate has been updated and improved, including a new [troubleshooting](../../sending/using/testing-subject-line-email.md#troubleshooting) section. [Read more](../../sending/using/testing-subject-line-email.md)
 
 The transactional messaging sections have been updated to reflect the multiple user interface slight updates and improvements. [Read more](../../channels/using/getting-started-with-transactional-msg.md)
 

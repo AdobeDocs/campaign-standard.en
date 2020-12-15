@@ -30,14 +30,6 @@ Certain ISPs check the validity of the sender address (From) before accepting me
 
 For more on this, see [Personalizing the sender name](../../designing/using/personalization.md#personalizing-the-sender).
   
-## Subject line {#subject-line}
-
-When editing an email, you can try out different subject lines and get an estimation of its open rate before you send it. For more on this, see [Testing the subject line of an email](../../sending/using/testing-subject-line-email.md).
-
-![](assets/predictive_subject_line_example.png)
-
-For more on defining the subject line of an email, see [this section](../../designing/using/subject-line.md).
-  
 ## Send time optimization {#send-time-optimization}
 
 To improve the success rate of your messages, you can manually define a sending time per recipient. Each profile will receive the message at the specified date and time, whenever possible.
