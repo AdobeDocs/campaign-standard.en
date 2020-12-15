@@ -173,8 +173,6 @@ A new configuration guidelines section has been added to the Administrating guid
 
 A new section describing how to delete an event configuration is now available. [Read more](../../channels/using/publishing-transactional-event.md#deleting-an-event)
 
-The page describing how to test the subject line of an email to predict its open rate has been updated and improved, including a new [troubleshooting](../../sending/using/testing-subject-line-email.md#troubleshooting) section. [Read more](../../sending/using/testing-subject-line-email.md)
-
 The transactional messaging sections have been updated to reflect the multiple user interface slight updates and improvements. [Read more](../../channels/using/getting-started-with-transactional-msg.md)
 
 Information related to the External API activity guardrails have been updated. [Read more](../../automating/using/external-api.md)
