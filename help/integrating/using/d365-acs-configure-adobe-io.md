@@ -8,7 +8,7 @@ topic-tags: working-with-campaign-and-ms-dynamics
 
 # Adobe Campaign Standard and Adobe I/O Configuration for the Microsoft Dynamics 365 integration
 
-This article will explain how to configure Adobe Campaign Standard and Adobe I/O to give the integration application access to the data.     
+This article will explain how to configure Adobe Campaign Standard and Adobe I/O to give the integration application access to the data.
 
 ## Configure Adobe Campaign Standard {#campaign-standard}
 
@@ -34,7 +34,7 @@ Before performing the pre-integration setup in this article, it is assumed that 
 
 ### Configuration
 
-You will need to create a new Adobe IO project and configure it for the integration. 
+You will need to create a new Adobe IO project and configure it for the integration.
 
 #### Create a new project
 

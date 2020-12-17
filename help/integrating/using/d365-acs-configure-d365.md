@@ -30,7 +30,7 @@ If you are configuring the integration for both staging and production environme
 
 ## Setting up application and permissions
 
-An OAuth access token allows the integration tool to authenticate with your Microsoft Dynamics 365 instance via web APIs in order to post Campaign Standard experience events to the timeline view of the Microsoft Dynamics 365 interface. 
+An OAuth access token allows the integration tool to authenticate with your Microsoft Dynamics 365 instance via web APIs in order to post Campaign Standard experience events to the timeline view of the Microsoft Dynamics 365 interface.
 
 Main steps are outlined in the following video:
 
@@ -57,7 +57,7 @@ To generate the OAuth access token, follow the steps outlined below.
 
 >[!NOTE]
 >
->Azure AD assigns a unique application` (client) ID to your app. You will need this ID later on in configuring Dynamics 365, as well as when you perform pre-integration setup for the integration tool.
+>Azure AD assigns a unique application (client) ID to your app. You will need this ID later on in configuring Dynamics 365, as well as when you perform pre-integration setup for the integration tool.
 
 ### Generate client secret
 
@@ -141,5 +141,6 @@ To integrate the Dynamics 365 App to your Campaign Standard environment, follow 
 >If at any time you wish to deactivate these processes, you can do so in this **[!UICONTROL Processes]** screen.
 
 **Related topics** 
+
 * [Configure Adobe IO for Microsoft Dynamics 365 integration](../../integrating/using/d365-acs-configure-adobe-io.md) is the next step in setting up the integration
 * [Integration Self-Service Application Overview](../../integrating/using/d365-acs-self-service-app-overview.md) contains the full list of steps to get the integration up-and-running.

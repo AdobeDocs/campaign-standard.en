@@ -54,7 +54,7 @@ The following guardrails should be taken into consideration when planning to use
 
 The integration was designed to solve the general use case of common data movement between Dynamics 365 and Campaign, but it is not intended to address every use case specific to each customer:
 
-* The integration does not issue any privacy (e.g., GDPR) deletes. The responsibility of fulfilling end-user privacy requests rests with the customer; such requests should be made in both Campaign (via the Adobe Experience Platform Privacy Service) and Dynamics 365 independently. The integration can issue regular deletes to help with data synchronization, if desired.   Review [this article](d365-acs-notices-and-recommendations.md#privacy-linked-resources) for more information.
+* The integration does not issue any privacy (e.g., GDPR) deletes. The responsibility of fulfilling end-user privacy requests rests with the customer; such requests should be made in both Campaign (via the Adobe Experience Platform Privacy Service) and Dynamics 365 independently. The integration can issue regular deletes to help with data synchronization, if desired.   Review [this article](../../integrating/using/d365-acs-notices-and-recommendations.md#privacy-linked-resources) for more information.
 
 * No profile or custom entity data will be synchronized from Campaign to Dynamics 365, with the exception of opt-out information (if configured by the customer).
 

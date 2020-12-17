@@ -1,13 +1,13 @@
 
 # User Interface General Usage
 
-There is a separate help page for each of the screens in the integration application UI.   Each of these help pages will describe how to use each screen and how the settings will effect the integration logic.   This help page, however, will give you a high level description of general usage and navigation within the UI.
+There is a separate help page for each of the screens in the integration application UI. Each of these help pages will describe how to use each screen and how the settings will effect the integration logic.   This help page, however, will give you a high level description of general usage and navigation within the UI.
 
 ### Header
 
 The header within the self-service app allows you define which org and instance you are currently viewing and/or configuring.
 
-The Org in the header allows you to choose which of the Experience Cloud organizations you want to view/edit.   It appears read-only; however, it becomes editable when you put your mouse cursor over it.
+The Org in the header allows you to choose which of the Experience Cloud organizations you want to view/edit. It appears read-only; however, it becomes editable when you put your mouse cursor over it.
 
 ![](assets/d365-to-acs-header-org.png)
 
@@ -47,7 +47,7 @@ Breadcrumbs appear at the top of some screens as you navigate the app.
 
 **Example:**
 
-Below is an example from the "Edit Table Mapping" screen that is showing the breadcrumbs and the page title.   In this case, you can click on the "Workflows" or "Dynamics 365 to Campaign" text to go to one of the previous screens.    "Edit Table Mapping" in the breadcrumbs isn't clickable in this case because it's the current screen.
+Below is an example from the "Edit Table Mapping" screen that is showing the breadcrumbs and the page title. In this case, you can click on the "Workflows" or "Dynamics 365 to Campaign" text to go to one of the previous screens. "Edit Table Mapping" in the breadcrumbs isn't clickable in this case because it's the current screen.
 
 ![](assets/d365-to-acs-breadcrumbs-ingress.png)
 
@@ -56,12 +56,15 @@ Below is an example from the "Edit Table Mapping" screen that is showing the bre
 The following icons are used in multiple pages in the self-service app.
 
 ![](assets/d365-to-acs-icon-add.png) 
+
 Add a new item to a list.
 
 ![](assets/d365-to-acs-icon-edit.png)
+
 Edit something that already exists
 
 ![](assets/d365-to-acs-icon-delete.png)
+
 Delete an item from a list of items
 
 This article serves to explain some general functionality of the self-service app.   We suggest that you also read the 

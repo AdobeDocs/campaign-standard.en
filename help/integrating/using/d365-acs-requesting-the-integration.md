@@ -34,10 +34,11 @@ Flowchart Details (maps to steps above):
 
 ## Configure this integration {#configure-this-integration}
 
-Three systems need to be provisioned and configured for this integration: 
+Three systems need to be provisioned and configured for this integration:
+
 * Adobe Campaign Standard, 
 * Microsoft Dynamics 365 for Sales, and 
-* Adobe Campaign Standard integration with Dynamics 365 integration self-service application. 
+* Adobe Campaign Standard integration with Dynamics 365 integration self-service application.
 
 Configuration articles are linked below.
 
@@ -51,13 +52,12 @@ In **Adobe Campaign Standard**, you need to set up API access and configure a ne
 
 In **Microsoft Dynamics 365**, you need to create a new app registration and enable an application user to use the integration.  To configure Microsoft Dynamics 365 for this integration, refer to [this article](../../integrating/using/d365-acs-configure-d365.md).
 
-To get access to the **Adobe Campaign Standard integration with Dynamics 365 Self-Service App**, you will need to follow the steps in [this article](d365-acs-self-service-app-control-access.md).
+To get access to the **Adobe Campaign Standard integration with Dynamics 365 Self-Service App**, you will need to follow the steps in [this article](../../integrating/using/d365-acs-self-service-app-control-access.md).
 
-
-## Request support 
+## Request support
 
 Support tickets can be logged with Adobe Custom Care, as usual; Customer Care will bring in support personnel, as needed.
-~~~~
+
 For any issues with integration data flows, make sure to include the report suite as part of the issue description as well as the following information:
 
 * **Process Owner**: Engineering Architects

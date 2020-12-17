@@ -52,7 +52,6 @@ Below are links to help guide you in implementing access and/or delete privacy r
 
 * [Adobe Campaign Standard](https://www.adobe.io/apis/experiencecloud/gdpr/docs.html)
 
-
 ### Privacy and linked resources {#privacy-linked-resources}
 
 >[!CAUTION]
@@ -64,12 +63,14 @@ Below are links to help guide you in implementing access and/or delete privacy r
 Due to the differences in opt-out attributes between Dynamics 365 and Campaign, and to the differences in business requirements of each customer, opt-out mapping has been left as an exercise for the customer to complete.  It is important to ensure opt-outs are properly mapped between systems so that end user opt-out preferences are maintained, and they don't receive a communication via a channel that they have opted out of.  
 
 Please be aware that only the following can be used in opt-out mappings:
+
 * Campaign attributes with the 'No longer contact by' prefix (e.g., No longer contact by email), or 
-* the specific attribute for CCPA  
+
+* the specific attribute for CCPA 
 
 More information regarding Profile entity fields can be found [here](../../developing/using/datamodel-profile.md).
 
-In Dynamics 365, most opt-out fields have the “donot” prefix, however, you can also utilize other attributes for opt-out purposes if the data-types are compatible.
+In Dynamics 365, most opt-out fields have the "donot" prefix, however, you can also utilize other attributes for opt-out purposes if the data-types are compatible.
 
 When provisioning the integration, you will have the opportunity to specify which opt-out configuration you require for your business:
 
@@ -89,7 +90,7 @@ If your selected the bidirectional or Campaign to Dynamics 365 opt-out configura
 
 ## Campaign SFTP Usage
 
-Your Campaign SFTP storage will need to be utilized by the integration in the opt-out use case below.  You will need to ensure that your SFTP account has adequate storage capacity to accommodate these use cases.  Exceeding the licensed SFTP storage capacity may severely impair the functional use of Campaign, the integration and/or the SFTP account.
+Your Campaign SFTP storage will need to be utilized by the integration in the opt-out use case below.  You will need to ensure that your SFTP account has adequate storage capacity to accommodate these use cases. Exceeding the licensed SFTP storage capacity may severely impair the functional use of Campaign, the integration and/or the SFTP account.
 
 | Use case | Description |
 |---|---|
@@ -116,7 +117,6 @@ The exception to this is the bidirectional and Campaign to Dynamics 365 opt-out 
 ## Data usage agreement
 
 If you are located in EMEA or APAC regions, some of your data will be processed in the US as part of this integration. For more information, refer to [this section](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
-
 
 ## Impact on ACS Performance
 
