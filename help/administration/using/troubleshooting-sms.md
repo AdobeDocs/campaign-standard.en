@@ -200,7 +200,7 @@ Determine the encoding you expect to be used and search online for its character
 
 You will need the debug output of the connector in order to see exactly what bytes you send to the provider. Encoding problems appear in `SUBMIT_SM PDU`s, so be sure to capture them. Send very distinct messages that are easy to find in the log.
 
-Send different kinds of special characters when testing. For example, GSM7 encoding has extended characters that are very distinct in their hexadecimal form, they are easy to spot bsince they don't appear in any other encoding.
+Send different kinds of special characters when testing. For example, GSM7 encoding has extended characters that are very distinct in their hexadecimal form, they are easy to spot since they don't appear in any other encoding.
 
 ## Elements to include when communicating about a SMS issue {#element-include}
 
@@ -232,7 +232,7 @@ A network capture is not always needed, usually verbose SMPP messages are enough
 
 * Connection issues, but the verbose messages don't show any `BIND_RESP PDU`.
 
-* Unexplained disconnections with no error message, the usual behavior of the connector when it detects a low level protocol error.
+* Unexplained disconnections with no error message, the usual behavior of the connector when it detects a low-level protocol error.
 
 * The provider complains about the unbind/disconnection process.
 
