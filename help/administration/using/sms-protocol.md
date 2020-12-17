@@ -616,7 +616,7 @@ Setting this field to 1 makes the connector always respond "OK" even if the ID i
 
 #### Extraction regex of the ID in the SR {#regex-extraction}
 
-SR format is not strictly enforced by the SMPP protocol specification. It is only a recommendation described in [Appendix B](../../delivery/using/sms-protocol.md#sr-error-management) (page 167) of the specification. Some SMPP implementers format this field differently, so Adobe Campaign needs a way to extract the correct field.
+SR format is not strictly enforced by the SMPP protocol specification. It is only a recommendation described in [Appendix B](../../administration/using/sms-protocol.md#sr-error-management) (page 167) of the specification. Some SMPP implementers format this field differently, so Adobe Campaign needs a way to extract the correct field.
 
 By default, it captures up to 10 alphanumeric characters after `id:`.
 
@@ -814,7 +814,7 @@ This step is necessary when connecting to a provider that was not connected to A
 
 Check that `BIND_* PDUs` are correctly sent. The most important thing to check is that the provider always returns successful `BIND_*_RESP PDUs` (command_status = 0).
 
-Check that there aren't too many `BIND_* PDU`s. If there are too many of them, it might indicate that the connection is unstable. See the [Issues with unstable connections](../../delivery/using/sms-protocol.md#issues-unstable-connection) section for more information.
+Check that there aren't too many `BIND_* PDU`s. If there are too many of them, it might indicate that the connection is unstable. See the [Issues with unstable connections](../../administration/using/sms-protocol.md#issues-unstable-connection) section for more information.
 
 #### ENQUIRE_LINK {#enquire-link-pdus}
 
