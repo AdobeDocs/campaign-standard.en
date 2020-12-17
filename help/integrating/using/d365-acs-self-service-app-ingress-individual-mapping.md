@@ -1,6 +1,15 @@
+---
+title: Egress Workflow
+description: Egress Workflow
+products: SG_CAMPAIGN/STANDARD
+audience: integrating
+content-type: reference
+topic-tags: working-with-campaign-and-microsoft-dynamics-365
+---
+
 # Editing Table Mapping
 
-The "Dynamics 365 to Campaign" workflow (a.k.a Ingress) is a list of mappings of Dynamics 365 tales to Campaign tables. This page will explain how to configure a **single**  mapping of one Dynamics 365 table to one Campaign table.   If you want to better understand the page that lists **all** of the table mappings that have been configured, click [here](d365-acs-self-service-app-ingress-list.md) to get more information about this other page.
+The "Dynamics 365 to Campaign" workflow (a.k.a Ingress) is a list of mappings of Dynamics 365 tales to Campaign tables. This page will explain how to configure a **single**  mapping of one Dynamics 365 table to one Campaign table.   If you want to better understand the page that lists **all** of the table mappings that have been configured, click [here](../../integrating/using/d365-acs-self-service-app-ingress-list.md) to get more information about this other page.
 
 The "Edit Table Mapping" page is split into five sections:
 * [Tables](#tables)
@@ -25,7 +34,7 @@ This is by design because the inputs further down in the page are based on the f
 
 ### Adding a New Mapping
 
-If you chose "Add a new Mapping" on the "Dynamics 365 to Campaign" screen you will be shown a screen that will  allow you choose which tables you want to map.    Click [here](d365-acs-self-service-app-ingress-list.md) to see more information about the "Dynamics 365 to Campaign" screen and how you can add a new mapping.
+If you chose "Add a new Mapping" on the "Dynamics 365 to Campaign" screen you will be shown a screen that will  allow you choose which tables you want to map.    Click [here](../../integrating/using/d365-acs-self-service-app-ingress-list.md) to see more information about the "Dynamics 365 to Campaign" screen and how you can add a new mapping.
 
 The first thing you should see when adding a new mapping is something similar to the following:
 
@@ -52,7 +61,7 @@ Once you have chosen a Dynamics 365 and Campaign tables,  click the "OK" button 
 
 ### Primary Keys
 
-If you're adding a new Dynamics 365 to Campaign table mapping, then you will be asked to identify the ID field (similar to below).    The Dynamics 365 field is read only because the integration will recognize which field is the primary key.  You will have an opportunity to select which field will serve as the unique key in Campaign.   It is important that you choose a field that cannot have any duplicates and that field is configured properly in Campaign.    A link to the page [Configuring the resource's data structure](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/configuring-the-resource-s-data-structure.html?lang=en#developing) is provided to give you more information on how to configure this field in Campaign.
+If you're adding a new Dynamics 365 to Campaign table mapping, then you will be asked to identify the ID field (similar to below).    The Dynamics 365 field is read only because the integration will recognize which field is the primary key.  You will have an opportunity to select which field will serve as the unique key in Campaign.   It is important that you choose a field that cannot have any duplicates and that field is configured properly in Campaign.    A link to the page [Configuring the resource's data structure](../../using/developing/adding-or-extending-a-resource/configuring-the-resource-s-data-structure.html?lang=en#developing) is provided to give you more information on how to configure this field in Campaign.
 
 ![](assets/d365-to-acs-ui-page-ingress-mappings-first-key.png)
 

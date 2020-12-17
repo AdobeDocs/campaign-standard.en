@@ -1,10 +1,19 @@
+---
+title: Egress Workflow
+description: Egress Workflow
+products: SG_CAMPAIGN/STANDARD
+audience: integrating
+content-type: reference
+topic-tags: working-with-campaign-and-microsoft-dynamics-365
+---
+
 # Dynamics 365 to Campaign - List of Table Mappings
 
-The Dynamics 365 to Campaign page shows a list of resources in Dynamics 365 and with which entities in Adobe Campaign that they will be synchronized.   The contact-to-profile table mapping will be added out-of-the box and should continue to be displayed unless you delete it.   You will have the opportunity to add new mappings, delete existing mappings, and edit existing mappings. 
+The Dynamics 365 to Campaign page shows a list of resources in Dynamics 365 and with which entities in Adobe Campaign that they will be synchronized. The contact-to-profile table mapping will be added out-of-the box and should continue to be displayed unless you delete it. You will have the opportunity to add new mappings, delete existing mappings, and edit existing mappings. 
 
 ![](assets/d365-to-acs-ui-page-ingress-top.png)
 
-The page that lists each of the mappings.   It details which entity/resources are associated with the mapping and will give you the ability to make changes to each one.   Here is a description of each of the columns in this table:
+The page that lists each of the mappings. It details which entity/resources are associated with the mapping and will give you the ability to make changes to each one. Here is a description of each of the columns in this table:
 
 * Dynamics 365 Table
 

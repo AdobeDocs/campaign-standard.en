@@ -1,3 +1,11 @@
+---
+title: Egress Workflow
+description: Egress Workflow
+products: SG_CAMPAIGN/STANDARD
+audience: integrating
+content-type: reference
+topic-tags: working-with-campaign-and-microsoft-dynamics-365
+---
 
 # Quick Start Guide
 

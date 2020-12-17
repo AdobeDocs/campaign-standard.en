@@ -1,7 +1,6 @@
 ---
 title: Egress Workflow
 description: Egress Workflow
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
@@ -33,16 +32,16 @@ This integration application first reads in data and then writes data to the des
 * Status
 
   This is an indicator letting you know the state of the background processes associated with the workflow. Here are the possible values for the status:
-  - <u>RUNNING</u>:
+  - RUNNING:
     The process is currently running and your data should be synchronized.
     
-  - <u>STOPPED</u>:
+  - STOPPED:
     The process is not currently running, so you should not expect your data should be synchronized.
      
-  - <u>STARTING</u>:
+  - STARTING:
     You have requested that the workflow processes to start.    The application has not yet started to synchronize the data associated with this workflow, but you can expect it will after a few minutes (when it will then show the status of "RUNNING") 
   
-  - <u>FAILED</u>:
+  - FAILED:
     The workflow processes were running but they encountered error(s) and they could not recover from these. 
 
 * Actions
