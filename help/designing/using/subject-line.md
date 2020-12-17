@@ -26,7 +26,6 @@ The message subject is mandatory to prepare and send the message.
     ![](assets/email_designer_subject.png)
 
 1. You can also add personalization fields, content blocks and dynamic content to the subject line by clicking the corresponding icons. For more on this, see [Personalization](../../designing/using/personalization.md).
-1. You can try out different subject lines in order to get an estimation of your email open rate before you send it. For more on this, see [Testing the subject line of an email](../../sending/using/testing-subject-line-email.md).
 
 ## Defining the email sender of an email {#email-sender}
 

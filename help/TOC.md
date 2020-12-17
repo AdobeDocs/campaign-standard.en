@@ -3,6 +3,7 @@ solution: Campaign Standard
 product: campaign
 audience: end-user
 user-guide-title: Campaign Standard
+user-guide-description: Help center for the major features, tasks, settings, and other resources required to use Campaign Standard. 
 title: Adobe Campaign Standard Help Center
 breadcrumb-title: Campaign Standard
 title: Campaign Standard Guide
@@ -113,11 +114,18 @@ title: Campaign Standard Guide
        + [Defining the direct mail content](channels/using/defining-the-direct-mail-content.md)
   + Transactional messaging {#transactional-messaging}
        + [Getting started with transactional messaging](channels/using/getting-started-with-transactional-msg.md)
-       + [Transactional messaging limitations](channels/using/transactional-messaging-limitations.md)
-       + [Event transactional messages](channels/using/event-transactional-messages.md)
-       + [Profile transactional messages](channels/using/profile-transactional-messages.md)
+       + [Best practices and limitations](channels/using/transactional-messaging-limitations.md)
+       + Event configuration {#event-configuration}
+          + [Configuring a transactional event](channels/using/configuring-transactional-event.md)
+          + [Publishing a transactional event](channels/using/publishing-transactional-event.md)
+       + Transactional message edition {#transactional-message-edition}
+          + [Editing a transactional message](channels/using/editing-transactional-message.md)
+          + [Testing a transactional message](channels/using/testing-transactional-message.md)
+          + [Transactional message lifecycle](channels/using/publishing-transactional-message.md)
+          + [Execution and monitoring](channels/using/transactional-message-execution.md)
        + [Transactional push notifications](channels/using/transactional-push-notifications.md)
        + [Follow-up messages](channels/using/follow-up-messages.md)
+       + [Transactional messaging use case](channels/using/transactional-messaging-use-case.md)
   + Landing pages {#landing-pages}
        + [Getting started with landing pages](channels/using/getting-started-with-landing-pages.md)
        + [About landing page templates](channels/using/landing-page-templates.md)
@@ -148,7 +156,6 @@ title: Campaign Standard Guide
        + [Previewing deliveries](sending/using/previewing-messages.md)
        + [Sending proofs](sending/using/sending-proofs.md)
        + [Testing email messages using targeted profiles](sending/using/testing-messages-using-target.md)
-       + [Testing the subject line of an email](sending/using/testing-subject-line-email.md)
        + [AI-powered emails](sending/using/predictive.md)       
        + [Email rendering](sending/using/email-rendering.md)
        + [Adding a control group](sending/using/control-group.md)
@@ -423,7 +430,6 @@ title: Campaign Standard Guide
        + [About channel configuration](administration/using/about-channel-configuration.md)
        + [Configuring email channel](administration/using/configuring-email-channel.md)
        + [Configuring a mobile application](administration/using/configuring-a-mobile-application.md)
-       + [Configuring transactional messaging](administration/using/configuring-transactional-messaging.md)
   + Configuring mobile channels {#configuring-mobile}
        + [Implementing Push tracking](administration/using/push-tracking.md)
        + [Adding images and videos iOS](administration/using/image-push-notification.md)
