@@ -429,7 +429,6 @@ title: Campaign Standard Guide
   + Configuring channels {#configuring-channels}
        + [About channel configuration](administration/using/about-channel-configuration.md)
        + [Configuring email channel](administration/using/configuring-email-channel.md)
-       + [Configuring SMS channel](administration/using/configuring-sms-channel.md)
        + [Configuring a mobile application](administration/using/configuring-a-mobile-application.md)
   + Configuring mobile channels {#configuring-mobile}
        + [Implementing Push tracking](administration/using/push-tracking.md)
@@ -440,6 +439,10 @@ title: Campaign Standard Guide
        + [Experience Platform SDK integration FAQ](administration/using/aep-faq.md)  
        + [Configuring Launch rules to support Adobe Campaign Standard use cases](administration/using/configuring-rules-launch.md)
        + [Mobile use cases supported in Adobe Campaign Standard](administration/using/supported-mobile-use-cases.md)
+  + Configuring SMS channel {#configuring-sms}
+       + [Implementing the SMS channel](administration/using/configuring-sms-channel.md)
+       + [SMS connector protocol and settings](administration/using/sms-protocol.md)
+       + [SMS troubleshooting](administration/using/troubleshooting-sms.md)
   + Application settings {#application-settings}
        + [About Campaign Standard settings](administration/using/about-campaign-standard-settings.md)
        + [External accounts](administration/using/external-accounts.md)
