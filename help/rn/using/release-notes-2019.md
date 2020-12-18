@@ -51,7 +51,7 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
   <tr> 
    <td> 
     <p>The integration between Adobe Campaign Standard and Microsoft Dynamics 365 is now available. You’ll be able to transfer your contact and custom entity records from Dynamics 365 to Campaign, and get email event data back from Campaign to Dynamics 365 for better sales/marketing alignment.</p>
-    <p>Refer to the <a href="../../integrating/using/d365-acs-get-started">detailed documentation</a> to set this integration up.</p>
+    <p>Refer to the <a href="../../integrating/using/d365-acs-get-started.md">detailed documentation</a> to set this integration up.</p>
   </td>
   </tr> 
  </tbody> 
