@@ -8,7 +8,7 @@ topic-tags: working-with-campaign-and-microsoft-dynamics-365
 
 # Workflows
 
-The Workflows screen in the integration application UI lists the three workflows available, gives you the ability to edit them, and allows you to start and stop them. This documentation will explain how this screen works; however, it assumes that you understand the basics of these workflows. If you don't fully understand them, then it is recommended that you  visit the [Data Flows](../../integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md#data-flows) section in the "Use the Microsoft Dynamics 365 integration" documentation page.
+The Workflows screen in the integration application UI lists the three workflows available, gives you the ability to edit them, and allows you to start and stop them. This documentation will explain how this screen works; however, it assumes that you understand the basics of these workflows. If you don't fully understand them, then it is recommended that you  visit the [Data Flows](../../integrating/using/d365-acs-using-the-integration.md) section in the "Use the Microsoft Dynamics 365 integration" documentation page.
 
 ![](assets/d365-to-acs-ui-page-workflows.png)
 

@@ -9,7 +9,7 @@ topic-tags: working-with-campaign-and-microsoft-dynamics-365
 
 # Opt in/out Workflow
 
-This workflow allows you to identify the flow of the opt in/out information between Dynamics 365 and Adobe Campaign. This assumes that the data is associated with the Microsoft Dynamics 365 entity "contact" and the Adobe Campaign resource "profile". Make sure you understand the concepts in the [Opt-out](../../integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration#opt-out-flow) section of this page before  you attempt to configure Opt in/out in the self-service app.
+This workflow allows you to identify the flow of the opt in/out information between Dynamics 365 and Adobe Campaign. This assumes that the data is associated with the Microsoft Dynamics 365 entity "contact" and the Adobe Campaign resource "profile". Make sure you understand the concepts in the [Opt-out](../../integrating/using/d365-acs-notices-and-recommendations.md) section of this page before you attempt to configure Opt in/out in the self-service app.
 
 Remember that you need to click "Save" to save your selections. Also remember that you must stop the "Campaign to Dynamics 365" workflow and then click play for the integration to incorporate your changes.
 
