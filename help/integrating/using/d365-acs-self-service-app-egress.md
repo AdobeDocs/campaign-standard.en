@@ -11,7 +11,7 @@ topic-tags: working-with-campaign-and-microsoft-dynamics-365
 
 This page allows you to identify which email marketing events will be mapped from Adobe Campaign to Microsoft Dynamics 365. By selecting "Yes", you confirm that you do want events of that type to flow to Dynamics 365. Conversely, "No" means that events of that type will not be communicated to Dynamics 365.
 
-The four actions that you are able to control are: Sends, Clicks, Opens, and Bounces. Click [here](../../integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration#email-marketing-event-flow) for more information on these email event flows.
+The four actions that you are able to control are: Sends, Clicks, Opens, and Bounces. Click [here](../../integrating/using/d365-acs-self-service-app-workflows.md) for more information on these email event flows.
 
 ![](assets/d365-to-acs-ui-page-workflows-egress.png) 
 

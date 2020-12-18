@@ -23,9 +23,9 @@ The Adobe Campaign Standard integration with Microsoft Dynamics 365 enables sync
 
 Conversely, as profiles within Adobe Campaign Standard interact with messages, those data (e.g.: sends, opens, clicks, and bounces) automatically flow into Microsoft Dynamics 365 to keep contact records complete with marketing activity as well.  
 
-The integration also supports enabling [custom resources](../../integrating/using/d365-acs-map-campaign-custom-resources-and-dynamics-365-custom-entities.md) in Dynamics 365 to be synchronized to corresponding **custom entities** in Campaign.
+The integration also supports enabling [custom resources](../../integrating/using/d365-acs-self-service-app-settings.md) in Dynamics 365 to be synchronized to corresponding **custom entities** in Campaign.
 
-This integration is designed to support four main use cases: 
+This integration is designed to support four main use cases:
 
 1. Synchronizing contacts from Dynamics 365 to Campaign so they can be targeted in marketing campaigns
 1. Synchronizing custom entities from Dynamics 365 to Campaign so they can be used for segmentation and personalization

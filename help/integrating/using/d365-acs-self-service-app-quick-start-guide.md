@@ -13,13 +13,13 @@ This will be a quick start guide to get to the integration application UI, confi
 
 ## Pre-requisites
 
-* make sure that Dynamics 365 has been configured (click [here](integrating/using/d365-acs-configure-d365.md) to configure)
+* make sure that Dynamics 365 has been configured (click [here](../../integrating/using/d365-acs-configure-d365.md) to configure)
 
-* make sure that adobe.io has been configured (click [here](integrating/using/d365-acs-configure-adobe-io.md) to configure)
+* make sure that adobe.io has been configured (click [here](../../integrating/using/d365-acs-configure-adobe-io.md) to configure)
 
-* make sure your user has been given access to the integration application UI in the Experience Cloud (click [here](integrating/using/d365-acs-self-service-app-control-access.md) for instructions configure)
+* make sure your user has been given access to the integration application UI in the Experience Cloud (click [here](../../integrating/using/d365-acs-self-service-app-control-access.md) for instructions configure)
 
-* make sure you understand the [Concepts and Restrictions](integrating/using/d365-acs-self-service-app-overview.md#concepts-and-restrictions) associated with the integrations app 
+* make sure you understand the [Concepts and Restrictions](../../integrating/using/d365-acs-self-service-app-overview.md#concepts-and-restrictions) associated with the integrations app 
 
 ## How to access the integration application UI
 
@@ -74,7 +74,7 @@ In the Settings page, fill out the following sections:
 * Microsoft Dynamics 365 Credentials
 * Adobe Credentials
   
-Go [here](d365-acs-self-service-app-settings.md) to find more detailed information about where to find the information  for each input.   When you are done, click the "Save" button at the bottom.   It is recommended that you save incrementally s you track down and enter all of the credential information.  This will prevent loss of data if you have internet connectivity issues.
+Go [here](../../integrating/using/d365-acs-self-service-app-settings.md) to find more detailed information about where to find the information  for each input.   When you are done, click the "Save" button at the bottom.   It is recommended that you save incrementally s you track down and enter all of the credential information.  This will prevent loss of data if you have internet connectivity issues.
 
 ## Verifying Your ingress configuration
 
@@ -88,11 +88,11 @@ You should now see the "Dynamics 365 to Campaign" page (shown below).   This wil
 
 ![](assets/d365-to-acs-ui-page-ingress-top-pointers.png)
 
-In the "Edit Table Mapping" page, check the Mappings section to ensure that fields from Dynamics 365 are being mapped to the correct field in Campaign.   If you need to add any other mappings, do so now, as well as any replacements or filters.    Please view the detailed documentation [here](integrating/using/d365-acs-self-service-app-ingress-individual-mapping.md) for more information on how to configure this page.
+In the "Edit Table Mapping" page, check the Mappings section to ensure that fields from Dynamics 365 are being mapped to the correct field in Campaign.   If you need to add any other mappings, do so now, as well as any replacements or filters.    Please view the detailed documentation [here](../../integrating/using/d365-acs-self-service-app-ingress-individual-mapping.md) for more information on how to configure this page.
 
-When you are done, click the "Save" button.    As mentioned before, you are encouraged to save often as you modify your configuration.
+When you are done, click the "Save" button. As mentioned before, you are encouraged to save often as you modify your configuration.
 
-After returning to the "Dynamics 365 to Campaign" page, you'll need to decide if you want to add more mappings to this list or if you're satisfied with running the connector with just the contact/profile mapping configured.   If you want to learn more about adding new mappings, then click [here](integrating/using/d365-acs-self-service-app-ingress-list.md) for more information.   If you are satisfied with just the contact/profile mapping then click the "Return" button to return to the "Workflows" page.
+After returning to the "Dynamics 365 to Campaign" page, you'll need to decide if you want to add more mappings to this list or if you're satisfied with running the connector with just the contact/profile mapping configured.   If you want to learn more about adding new mappings, then click [here](../../integrating/using/d365-acs-self-service-app-ingress-list.md) for more information.   If you are satisfied with just the contact/profile mapping then click the "Return" button to return to the "Workflows" page.
 
 If you feel that your configuration is correct then you could now click the "Play" button next to the "Dynamics 365 to Campaign" workflow in order to start the integration and the flow of data.  Again, we **strongly** recommend that you first run this in your Stage or Dev environments before running in Production.   Please check that the stage/dev intance is selected in the header.
 
