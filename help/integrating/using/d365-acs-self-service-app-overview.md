@@ -27,7 +27,7 @@ The next step is to configure Microsoft Dynamics 365 and Adobe Campaign Standard
 
 * [Configure Dynamics 365 for Campaign integration](../../integrating/using/d365-acs-configure-d365.md)
 * [Configure Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md)
-* [Map Campaign custom resources and Dynamics 365 custom entities](../../integrating/using/d365-acs-map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
+* [Map Campaign custom resources and Dynamics 365 custom entities](../../integrating/using/d365-acs-notices-and-recommendations.md)
 * [Get Access to the Integration App](../../integrating/using/d365-acs-self-service-app-control-access.md)
 * [Quick Start Guide](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md)
 

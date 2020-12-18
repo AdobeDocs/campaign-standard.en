@@ -44,7 +44,7 @@ A caution note has been added to warn users about permissions limitation related
 
 A new section has been added to detail the process to create a new brand. [Read more](../../administration/using/branding.md#creating-a-brand)
 
-The new Campaign Standard - Microsoft Dynamics 365 integration is now available. [Read more](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+The new Campaign Standard - Microsoft Dynamics 365 integration is now available. [Read more](../../integrating/using/d365-acs-get-started.md)
 
 Information has been added on anonymous sources in the Active profiles report. [Read more](../../audiences/using/active-profiles.md)
 
@@ -80,7 +80,7 @@ References to the legacy Support website have been replaced by the new URL. [Lea
 
 Custom Litmus account configuration has been removed from Inbox rendering capability. [Read more](../../sending/using/email-rendering.md)
 
-Campaign Standard - Microsoft Dynamics 365 integration is currently unavailable. A new connector is being developed and will be available in the future. The related help pages have been removed. [Read more](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+Campaign Standard - Microsoft Dynamics 365 integration is currently unavailable. A new connector is being developed and will be available in the future. The related help pages have been removed. [Read more](../../integrating/using/d365-acs-get-started.md)
 
 ## Documentation updates - May 2020 {#doc-updates-may-2020}
 
@@ -112,7 +112,7 @@ A frequently asked question section has been added about the Email Designer. [Re
 
 ## Documentation updates - April 2020 {#doc-updates-april-2020}
 
-The Microsoft Dynamics 365 integration with Adobe Campaign Standard documentation is now available into the core documentation. [Read more](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+The Microsoft Dynamics 365 integration with Adobe Campaign Standard documentation is now available into the core documentation. [Read more](../../integrating/using/d365-acs-get-started.md)
 
 Additional resources have been added to the documentation home page. [Read more](../../campaign-standard-home.md)
 
@@ -258,7 +258,7 @@ The new API endpoint **/customResources** has been added to the API documentatio
 
 California Consumer Privacy Act (CCPA) - [Read more](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa)
 
-Microsoft Dynamics 365 integration (GA) - [Read more](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+Microsoft Dynamics 365 integration (GA) - [Read more](../../integrating/using/d365-acs-get-started.md)
 
 **Other documentation updates coming with the release**
 
@@ -322,7 +322,7 @@ Report on workflow segment - [Read more](../../reporting/using/creating-a-report
 
 Campaign Standard Implementation Guide is now live.[Read more](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
 
-A set of new help articles have been created about Microsoft Dynamics 365 connector implementation and usage. Note that this feature is currently in Limited Availability.[Read more](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+A set of new help articles have been created about Microsoft Dynamics 365 connector implementation and usage. Note that this feature is currently in Limited Availability.[Read more](../../integrating/using/d365-acs-get-started.md)
 
 A note has been added in the [Calling a workflow with parameters](../../automating/using/calling-a-workflow-with-external-parameters.md) section about delivery preparation and their aggregation period.
 

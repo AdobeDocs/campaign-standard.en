@@ -58,7 +58,7 @@ Once you have chosen a Dynamics 365 and Campaign tables,  click the "OK" button 
 
 ### Primary Keys
 
-If you're adding a new Dynamics 365 to Campaign table mapping, then you will be asked to identify the ID field (similar to below).    The Dynamics 365 field is read only because the integration will recognize which field is the primary key.  You will have an opportunity to select which field will serve as the unique key in Campaign. It is important that you choose a field that cannot have any duplicates and that field is configured properly in Campaign. A link to the page [Configuring the resource's data structure](../../using/developing/adding-or-extending-a-resource/configuring-the-resource-s-data-structure.md) is provided to give you more information on how to configure this field in Campaign.
+If you're adding a new Dynamics 365 to Campaign table mapping, then you will be asked to identify the ID field (similar to below).    The Dynamics 365 field is read only because the integration will recognize which field is the primary key.  You will have an opportunity to select which field will serve as the unique key in Campaign. It is important that you choose a field that cannot have any duplicates and that field is configured properly in Campaign.
 
 ![](assets/d365-to-acs-ui-page-ingress-mappings-first-key.png)
 

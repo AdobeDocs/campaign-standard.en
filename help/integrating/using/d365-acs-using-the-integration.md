@@ -13,7 +13,7 @@ There are several data flows that the Adobe Campaign Standard Integration with D
 * Dynamics 365 to Adobe Campaign
 
     * Send *contacts* from Dynamics 365 into Campaign
-    * *Custom entities*: Bring in custom tables from Dynamics 365 to Campaign. Learn more [in this section](../../integrating/using/d365-acs-map-campaign-custom-resources-and-dynamics-365-custom-entities.md).
+    * *Custom entities*: Bring in custom tables from Dynamics 365 to Campaign. Learn more [in this section](../../integrating/using/d365-acs-self-service-app-workflows.md).
     * This is also known as **"Ingress"** (referring to the ingress of data from Dynamics 365 to Adobe Campaign Standard)
 
 * Adobe Campaign to Dynamics 365     
