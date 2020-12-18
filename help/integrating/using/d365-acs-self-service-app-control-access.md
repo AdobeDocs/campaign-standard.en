@@ -13,7 +13,7 @@ This configuration will require you to work with an Experience Cloud (EC) Admini
 
 ## Initial Enablement
 
->[!Note]
+>[!NOTE]
 >
 >You will need to reach out to your Adobe Representative and provide the Adobe Campaign Standard org and instance names. An internal ticket will be logged to request that the integration app be enabled for your organization.
 
@@ -21,7 +21,7 @@ This configuration will require you to work with an Experience Cloud (EC) Admini
 
 The following steps demonstrate how to give Experience Cloud users access to the Adobe Campaign Standard integration with Dynamics 365 self-service app.   Users that have access to your org in the Experience Cloud will not have access to the integration self-service app unless you follow the steps below to grant them access.
 
->[!Warning]
+>[!WARNING]
 >
 > These steps require Admin privilages in the Experience Cloud for your organization. If you aren't an Admin then you will need to ask an admin in your org to perform these steps.
 

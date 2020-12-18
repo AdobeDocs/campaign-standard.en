@@ -13,6 +13,7 @@ The Workflows screen in the integration application UI lists the three workflows
 ![](assets/d365-to-acs-ui-page-workflows.png)
 
 The Workflows page list the three workflows:
+
 * Dynamics 365 to Campaign (a.k.a. "Ingress")
 * Campaign to Dynamics 365 (a.k.a. "Egress")
 * Opt In/Out
@@ -21,9 +22,9 @@ Here is a description of what the values mean under each of the columns in the "
 
 * Name
   
-  - Dynamics 365 to Campaign (a.k.a. "Ingress")
-  - Campaign to Dynamics 365 (a.k.a. "Egress")
-  - Opt In/Out
+  * Dynamics 365 to Campaign (a.k.a. "Ingress")
+  * Campaign to Dynamics 365 (a.k.a. "Egress")
+  * Opt In/Out
 
 * Backlog
 
@@ -32,41 +33,41 @@ This integration application first reads in data and then writes data to the des
 * Status
 
   This is an indicator letting you know the state of the background processes associated with the workflow. Here are the possible values for the status:
-  - RUNNING:
+  * RUNNING:
     The process is currently running and your data should be synchronized.
     
-  - STOPPED:
+  * STOPPED:
     The process is not currently running, so you should not expect your data should be synchronized.
      
-  - STARTING:
+  * STARTING:
     You have requested that the workflow processes to start.    The application has not yet started to synchronize the data associated with this workflow, but you can expect it will after a few minutes (when it will then show the status of "RUNNING") 
   
-  - FAILED:
+  * FAILED:
     The workflow processes were running but they encountered error(s) and they could not recover from these. 
 
 * Actions
   
   Actions refer to actions that you can take on the workflow (see the following): 
   
-  - ![](assets/d365-to-acs-icon-edit.png) Edit  
+  * ![](assets/d365-to-acs-icon-edit.png) Edit  
   
     Clicking the pencil icon will send you to another page that will allow you to make updates to the workflow. Keep in mind that any changes you make will NOT take effect until you stop the workflow and then restart it.
   
-  - ![](assets/d365-to-acs-icon-start.png) Start 
-    
+  * ![](assets/d365-to-acs-icon-start.png) Start 
+
     A Start button requests that a stopped workflow be started.  This button will only appear when the processes associated with the workflow are currently stopped. The processes will first change to "STARTING" and then to "RUNNING". The data associated with the workflow will not start synching until the workflow is in a "RUNNING" state.
-    
+
     The start button is a toggle. If the workflow processes have been started already, the button will change to a "Stop" button. See the next bullet (directly below) for more information about Stop.
-    
+
 >[!CAUTION]
-> 
+>
 >If this is the first time running this workflow or you selected the replay button on any of the table pairs in the "Microsoft Dynamics 365 to Campaign" page then a large load of records (e.g., initial ingest of records, replaying of record data, etc.) could be ingested from Microsoft Dynamics 365 to your Adobe Campaign Standard (ACS) instance. To reduce the risk of performance issues which may adversely impact your ACS instance, it is recommended you stop all ACS processes (e.g., no marketing activity, no running of workflows, etc.) until after the large load of records has been ingested into ACS.
 
-> [!CAUTION]
+>[!CAUTION]
 >
 > It is strongly recommended that you stop the Ingress workflow before publishing changes to either Adobe Campaign Standard or Microsoft Dynamics 365. These changes include updates to resources/entities (and their associated fields), links, identifier columns, etc… that are currently in use by the integration. Failure to do so could lead to data loss and/or the workflow stopping unexpectedly.
 
-- ![](assets/d365-to-acs-icon-stop.png) Stop
+*  ![](assets/d365-to-acs-icon-stop.png) Stop
   
     A Stop button requests that a running workflow be stopped. This button will only appear when the processes associated with the workflow are currently running.
     

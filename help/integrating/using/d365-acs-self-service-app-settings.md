@@ -6,7 +6,7 @@ content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 ---
 
-#Settings Screen
+# Settings Screen
 
 The Settings screen allows you to specify Dynamics 365 and Adobe API credentials.   There are also inputs to add specifics related to the Adobe Campaign SFTP instance.
 
@@ -17,15 +17,15 @@ The Microsoft Dynamics 365 Credentials give the integration application permissi
 
 ![](assets/d365-to-acs-ui-page-workflows-settings-d365.png)
 
-* <u>Client ID</u>: Reference the section "Register a new application" in the screen referenced above in order to 
+* Client ID: Reference the section "Register a new application" in the screen referenced above in order to 
    determine your Client ID.  
 
-* <u>Client Secret</u>: Reference the section "Generate client secret" in the screen referenced above in order to get 
+* Client Secret: Reference the section "Generate client secret" in the screen referenced above in order to get 
    your client secret.
    
-* <u>Tenant</u>: Reference the section "Get the tenant ID" in the screen above to determine how to find your Tenant.
+* Tenant: Reference the section "Get the tenant ID" in the screen above to determine how to find your Tenant.
 
-* <u>URL</u>: The url will have the format `https://&lt;servername&gt;.api.crm.dynamics.com/
+* URL: The url will have the format `https://&lt;servername&gt;.api.crm.dynamics.com/
 
 
 ## Adobe Credentials

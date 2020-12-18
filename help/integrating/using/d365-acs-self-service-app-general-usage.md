@@ -1,9 +1,16 @@
+---
+title: User Interface General Usage
+description: User Interface General Usage
+audience: integrating
+content-type: reference
+topic-tags: working-with-campaign-and-microsoft-dynamics-365
+---
 
 # User Interface General Usage
 
 There is a separate help page for each of the screens in the integration application UI. Each of these help pages will describe how to use each screen and how the settings will effect the integration logic.   This help page, however, will give you a high level description of general usage and navigation within the UI.
 
-### Header
+## Header
 
 The header within the self-service app allows you define which org and instance you are currently viewing and/or configuring.
 
@@ -41,7 +48,7 @@ The entries in the dropdown menu are
 
   This displays a dialog that contains information about the application, including copyright information.
 
-### Breadcrumbs
+## Breadcrumbs
 
 Breadcrumbs appear at the top of some screens as you navigate the app.
 
@@ -51,7 +58,7 @@ Below is an example from the "Edit Table Mapping" screen that is showing the bre
 
 ![](assets/d365-to-acs-breadcrumbs-ingress.png)
 
-### Common Buttons
+## Common Buttons
 
 The following icons are used in multiple pages in the self-service app.
 

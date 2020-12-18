@@ -25,7 +25,6 @@ Remember that you need to click "Save" to save your selections. Also remember th
 
 * *Bidirectional*:  This selection will make visible a section named "Mappings".   These pairs will identify which fields in Dynamics 365 and Adobe Campaign will map to each other. Visit the page  [Manage data between Campaign and Dynamics 365](../../integrating/using/d365-acs-notices-and-recommendations.md) for more information about how Bidirectional Opt in/out works.
 
-
 ## Mappings
 
 This section only applies when the "Opt in/out synchronization direction" input has the selection "Unidirectional  (Campaign to Dynamics 365)" or "Bidirectional".   You can define which fields in Dynamics 365 map to what inputs in Adobe Campaign.
