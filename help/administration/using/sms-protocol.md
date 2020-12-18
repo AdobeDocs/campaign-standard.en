@@ -229,6 +229,8 @@ Multipart SMS, or long SMS, are SMS that are sent in multiple parts. Due to tech
 
 Each part of a long message is an individual SMS. These parts travel independently on the network and are assembled by the receiving mobile phone. To handle retries and connectivity problems, Adobe Campaign sends these parts in reverse order and requests a SR only on the first part of the message, the last sent. Since the mobile phone only displays a message when its first part is received, retries on additional parts won't produce duplicates on the mobile phone.
 
+The maximum number of SMS per message can be set per delivery using the **Maximum number of SMS per message** setting in the **Delivery template**. Messages that go above this limit will fail during sending with a SMS too long failure reason.
+
 There are 2 ways to send long SMS:
 
 * **UDH**: the default and recommended way to send long messages. In this mode, the connector splits the message in multiple `SUBMIT_SM PDU`s with UDH information in them. This protocol is the one used by mobile phones themselves. This means that Adobe Campaign has the most control over the message generation, making it capable to compute exactly how many parts were sent and how they were split.
@@ -362,6 +364,8 @@ This option allows finer control over the number of connections, see [Simultaneo
 
 If you set a value higher than the number of running MTAs, all MTAs will run as normal: this option is only a limit and cannot spawn additional MTAs.
 
+If you need to precisely control the number of connections, e.g. provider requirement, it is recommended to always set this option even if the current deployment has the right number of MTAs running. If additional MTAs are added afterwards, the connection limit will still be respected.
+
 ### Connection settings {#connection-settings}
 
 #### SMPP connection mode {#smpp-connection-mode}
@@ -395,12 +399,13 @@ Value passed in the `system_id` field of the BIND PDU. Some providers need a spe
 #### Simultaneous connections {#simultaneous-connections}
 
 In Adobe Campaign Standard, it defines the number of connections per SMS thread and per MTA process.
+The number of MTA process is determined by the deployment: usually there are 2 MTAs and 1 thread. The number of threads can be changed in the config-instance.xml file using the smppConnectorThreads setting. Usually there is 1 MTA process per container and 1 thread per MTA process.
 
 Total connections formula for Adobe Campaign Standard:
 
 * **Total connections = Simultaneous connections * number of threads * number of MTAs**
 
-Simultaneous connections is set in the external account, number of threads is set in the config-instance.xml file and number of MTAs can be limited in the external account.
+Simultaneous connections is set in the external account, number of threads is set in the config-instance.xml file (smppConnectorThreads) and number of MTAs can be limited in the external account.
 
 In separated **transmitter/receiver** mode, the number of connections above represents the number of **transmitter/receiver** pairs meaning that there will be twice the number of connections in total.
 
@@ -719,6 +724,8 @@ The field is limited to 21 characters by the SMPP specification, but some provid
 This setting only works if the **Message payload** setting is disabled. For more information on this, refer to this [page](../../administration/using/configuring-sms-channel.md). If the message requires more SMS than this value, an error will be triggered.
 
 The SMS protocol limits SMS to 255 parts, but some mobile phones have trouble putting together long messages with more than 10 parts or so, the limit depends on the exact model. We advise you not to go over 5 parts per message.
+
+Due to how personalized messages work in Adobe Campaign, messages can vary in size. Having a great amount of long messages could increase sending costs.
 
 #### Transmission mode {#transmission-mode}
 
