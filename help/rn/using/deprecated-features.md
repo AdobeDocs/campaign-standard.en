@@ -109,7 +109,7 @@ This section lists features and capabilities that have been removed from Campaig
  <tbody> 
   <tr> 
    <td> <p>The <b>Propensity Score</b> has been decommissioned from Adobe Experience Cloud Triggers. As a consequence, this option has been removed from Adobe Campaign Standard. To avoid any outdated values of Propensity score in the Enrichment schemas, we recommend updating schemas to retrieve the latest changes and republishing existing Triggers. For more information, refer to <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html"> Publishing a trigger in Campaign </a>.
-</p></br>
+</p>
    </td> 
   </tr> 
  </tbody> 
