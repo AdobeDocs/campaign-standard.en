@@ -254,14 +254,27 @@ title: Campaign Standard Guide
        + [Testing your triggers](integrating/using/testing-your-triggers.md)
        + [Abandonment Triggers use cases](integrating/using/abandonment-triggers-use-cases.md)
   + Campaign and Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-       + [Get Started with Dynamics 365 integration](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
-       + [Manage data between Campaign and Dynamics 365](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
-       + [Request the integration](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
-       + [Configure Adobe I/O](integrating/using/configure-adobe-io-for-ms-dynamic.md)
-       + [Configure Dynamics 365 for Campaign integration](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
-       + [Map Campaign custom resources and Dynamics 365 custom entities](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
-       + [Use the Dynamics 365 integration](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
-       + [Integration guardrails](integrating/using/ms-dynamics-365-integration-guardrails.md)
+       + [Get Started with Dynamics 365 integration](integrating/using/d365-acs-get-started.md)
+       + [Manage data between Campaign and Dynamics 365](integrating/using/d365-acs-notices-and-recommendations.md)
+       + [Request the integration](integrating/using/d365-acs-requesting-the-integration.md)
+       + [Integration guardrails](integrating/using/d365-acs-guardrails.md)
+       + [Use the Dynamics 365 integration](integrating/using/d365-acs-using-the-integration.md)
+       + Integration Application {#campaign-and-microsdoft-dynamics-365-self-service}
+           + [Overview](integrating/using/d365-acs-self-service-app-overview.md)
+           + Setup and Access {#setup-access}
+                + [Configure Microsoft Dynamics 365 for the integration with Adobe Campaign Standard](integrating/using/d365-acs-configure-d365.md)
+                + [Configure Adobe I/O](integrating/using/d365-acs-configure-adobe-io.md)
+                + [Get Access to the Integration App](integrating/using/d365-acs-self-service-app-control-access.md)
+                + [Quick Start Guide](integrating/using/d365-acs-self-service-app-quick-start-guide.md)
+           + Self-Service User Interface {#self-service-ui}
+                + [General Usage](integrating/using/d365-acs-self-service-app-general-usage.md)
+                + [Settings](integrating/using/d365-acs-self-service-app-settings.md)
+                + [Workflows](integrating/using/d365-acs-self-service-app-workflows.md)
+                + Dynamics 365 to Campaign (Ingress) {#campaign-and-microsoft-dynamics-365-self-service-ingress}
+                    + [Table Mappings List](integrating/using/d365-acs-self-service-app-ingress-list.md)
+                    + [Editing an Individual Table Mapping](integrating/using/d365-acs-self-service-app-ingress-individual-mapping.md)
+                + [Campaign to Dynamics 365 (Egress)](integrating/using/d365-acs-self-service-app-egress.md)
+                + [Opt in/out](integrating/using/d365-acs-self-service-app-optinout.md)
 + Managing processes and data {#managing-processes-and-data}
   + [Get started with data and processes management](automating/using/get-started-workflows.md)
   + Workflow general operation {#workflow-general-operation}
