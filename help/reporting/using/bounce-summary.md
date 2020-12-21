@@ -11,7 +11,7 @@ context-tags: bounceReport,main;campaignCirculationReport,main;programCirculatio
 
 # Bounce summary{#bounce-summary}
 
-This report details the overall hard and soft errors encountered during deliveries as well as the automatic processing of bounces.
+This report details the overall hard and soft errors encountered during deliveries as well as the automatic processing of bounces (see [Understanding delivery failures](../../sending/using/understanding-delivery-failures.md)). 
 
 ![](assets/campaign_reports_bounces.png)
 
