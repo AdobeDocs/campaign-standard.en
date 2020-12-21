@@ -46,6 +46,11 @@ Customers are advised to review if they make use of the feature/capability in th
      <em>Target removal: April 2021</em></p>
      </td> 
   </tr> 
+ </tbody> 
+</table>
+
+<table> 
+ <thead>  
   <tr> 
    <th> <strong>Push Notifications with SDK v4</strong><br /> </th> 
   </tr> 
@@ -60,6 +65,7 @@ Customers are advised to review if they make use of the feature/capability in th
   </tr> 
  </tbody> 
 </table>
+
 <table> 
  <thead> 
   <tr> 
