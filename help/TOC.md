@@ -146,6 +146,7 @@ title: Campaign Standard Guide
        + [Editing plain text, HTML and mobile emails](designing/using/plain-text-html-modes.md)
        + [Converting Legacy Editor emails to the Email Designer](designing/using/converting-emails-from-legacy-editor.md)
   + [Personalizing email content](designing/using/personalization.md)
+  + [Using product listings](designing/using/using-product-listings.md)
   + [Managing email styles](designing/using/styles.md)
   + [Managing links](designing/using/links.md)
   + [Managing images](designing/using/images.md)

@@ -61,7 +61,7 @@ The steps for adding and modifying fields are the same as for [custom resources]
 
 You can add to the event content a collection of elements, each element itself including several attributes.
 
-This collection can be used in a transactional email to add [product listings](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message) to the content of the message, for example a list of products - with the price, reference number, quantity, etc. for each product of the list.
+This collection can be used in a transactional email to add [product listings](../../designing/using/using-product-listings.md) to the content of the message, for example a list of products - with the price, reference number, quantity, etc. for each product of the list.
 
 1. In the **[!UICONTROL Collections]** section, click the **[!UICONTROL Create element]** button.
 
@@ -89,7 +89,7 @@ Here is the API preview for this example:
 **Related topics:**
 
 * [Previewing and publishing the event](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
-* [Using product listings in a transactional message](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message)
+* [Using product listings in a transactional message](../../designing/using/using-product-listings.md)
 * [Publishing a transactional message](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
 
 ## Enriching the event {#enriching-the-transactional-message-content}

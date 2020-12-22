@@ -58,7 +58,7 @@ The way you can personalize a message content depends on the type of transaction
 
 ### Product listings
 
-Note that product listings are available in transactional **email messages** only. See [Using product listings in a transactional message](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message).
+Note that product listings are available in transactional **email messages** only. See [Using product listings in a transactional message](../../designing/using/using-product-listings.md).
 
 ## Branding {#permissions-and-branding}
 
