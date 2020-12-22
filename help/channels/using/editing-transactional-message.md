@@ -82,7 +82,7 @@ For example, you want to send a notification to your website users who have adde
 
    You can check that the personalization fields match the information entered in the test profile. For more on this, see [Defining a specific test profile](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).
 
-## Using product listings in a transactional message {#using-product-listings-in-a-transactional-message}
+<!--## Using product listings in a transactional message {#using-product-listings-in-a-transactional-message}
 
 When editing the content of a transactional email, you can create product listings referencing one or more data collections. For example, in a cart abandonment email, you can include a list of all products that were in the users' carts when they left your website, with an image, the price, and a link to each product.
 
@@ -200,7 +200,7 @@ For more on creating a collection and related fields when configuring the event,
 
    ![](assets/message-center_loop_test-profile_payload.png)
 
-   For more on defining a test profile in a transactional message, see [this section](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).
+   For more on defining a test profile in a transactional message, see [this section](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).-->
 
 ## Profile-based transactional message specificities {#profile-transactional-message-specificities}
 
@@ -209,8 +209,6 @@ You can send transactional messages based on customer marketing profiles, which 
 * For more on the differences between event-based and profile-based transactional messages, see [this section](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types).
 
 * The configuration steps to create a profile-based transactional message are detailed in [this section](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages).
-
-<!--### Editing a profile transactional message {#editing-profile-transactional-message}-->
 
 The steps for creating, editing and personalizing a profile transactional message are mostly the same as for an event transactional message.
 

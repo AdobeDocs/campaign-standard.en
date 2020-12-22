@@ -507,7 +507,7 @@ Added information in the Extract file activity section on the new option that le
 
 Email Designer General Availability - [Read more](../../designing/using/designing-content-in-adobe-campaign.md)
 
-Product Listings in Transactional Emails - [Read more](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message)
+Product Listings in Transactional Emails - [Read more](../../designing/using/using-product-listings.md)
 
 Mobile View in the Email Designer - [Read more](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)
 
