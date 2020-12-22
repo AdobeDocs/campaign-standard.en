@@ -25,6 +25,8 @@ A new **Accessibility** page is available: it details accessibility support in A
 
 A caution note has been added stating that, for optimal performance, the number of published transactional messages should remain under 100. [Read more](../../channels/using/transactional-messaging-limitations.md#transactional-message-number)
 
+The SMS connector protocol and settings page has been moved [here](../../administration/using/sms-protocol.md).
+
 ## November 2020 {#doc-updates-november-2020}
 
 The Personal Data and Personas section has been updated with a use case scenario to illustrate how the different personas are interacting when it comes to Privacy. [Read more](../../start/using/privacy.md#use-case-scenario)
