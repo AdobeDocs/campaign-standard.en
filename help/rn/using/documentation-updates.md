@@ -19,13 +19,15 @@ In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), 
 
 The **Transactional messaging** getting started section now includes [enhanced schemas](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle), and an [end-to-end use case](../../channels/using/transactional-messaging-use-case.md) to illustrate the implementation process. [Read more](../../channels/using/getting-started-with-transactional-msg.md)
 
-The **Privacy** section has moved to a new section. [Read more](../../start/using/privacy.md)
+The **Privacy** section has been moved [here](../../start/using/privacy.md).
 
 A new **Accessibility** page is available: it details accessibility support in Adobe Campaign Standard workspace. [Read more](../../start/using/accessibility.md)
 
 A caution note has been added stating that, for optimal performance, the number of published transactional messages should remain under 100. [Read more](../../channels/using/transactional-messaging-limitations.md#transactional-message-number)
 
 The SMS connector protocol and settings page has been moved [here](../../administration/using/sms-protocol.md).
+
+The **Using product listings in a transactional message** section has been moved [here](../../designing/using/using-product-listings.md).
 
 ## November 2020 {#doc-updates-november-2020}
 
