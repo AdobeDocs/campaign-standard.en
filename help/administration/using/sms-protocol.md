@@ -12,6 +12,8 @@ topic-tags: configuring-channels
 
 >[!NOTE]
 >
+>The **SMS connector protocol and settings** for Adobe Campaign Classic can be found in this [page](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.htmln#sending-messages).
+>
 >Through this document, all references to details about the protocol, field names and values refer to the [SMPP 3.4 specification](https://smpp.org/SMPP_v3_4_Issue1_2.pdf).
 
 ## Overview {#overview}
