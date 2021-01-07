@@ -8,7 +8,7 @@ topic-tags: working-with-campaign-and-microsoft-dynamics-365
 
 # User Interface General Usage
 
-There is a separate help page for each of the screens in the integration application UI. Each of these help pages will describe how to use each screen and how the settings will effect the integration logic.   This help page, however, will give you a high level description of general usage and navigation within the UI.
+There is a separate help page for each of the screens in the integration application UI. Each of these help pages will describe how to use each screen and how the settings will effect the integration logic. This help page, however, will give you a high level description of general usage and navigation within the UI.
 
 ## Header
 
