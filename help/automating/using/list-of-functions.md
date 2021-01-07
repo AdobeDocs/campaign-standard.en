@@ -418,6 +418,11 @@ This table contains the remaining functions avalaible.
    <td> <strong>GetEmailDomain</strong><br /> </td> 
    <td> Extracts the domain from an email address<br /> </td> 
    <td> GetEmailDomain(&lt;value&gt;)<br /> </td> 
+  </tr>
+  <tr> 
+   <td> <strong>GetOption</strong><br /> </td> 
+   <td> Returns the value of the specified function<br /> </td> 
+   <td> GetOption(&lt;optionName&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>GetMirrorURL</strong><br /> </td> 
