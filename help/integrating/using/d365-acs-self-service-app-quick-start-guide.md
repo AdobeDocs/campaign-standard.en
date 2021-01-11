@@ -88,7 +88,7 @@ You should now see the "Dynamics 365 to Campaign" page (shown below).   This wil
 
 ![](assets/d365-to-acs-ui-page-ingress-top-pointers.png)
 
-In the "Edit Table Mapping" page, check the Mappings section to ensure that fields from Dynamics 365 are being mapped to the correct field in Campaign.   If you need to add any other mappings, do so now, as well as any replacements or filters.    Please view the detailed documentation [here](../../integrating/using/d365-acs-self-service-app-ingress-individual-mapping.md) for more information on how to configure this page.
+In the "Edit Table Mapping" page, check the Mappings section to ensure that fields from Dynamics 365 are being mapped to the correct field in Campaign.   If you need to add any other mappings, do so now, as well as any replacements or filters.    Please view the detailed documentation for more information on how to configure this page.
 
 When you are done, click the "Save" button. As mentioned before, you are encouraged to save often as you modify your configuration.
 

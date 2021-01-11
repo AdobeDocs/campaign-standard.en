@@ -16,9 +16,8 @@ The Adobe Campaign Standard integration with Microsoft Dynamics 365 self-service
 The first step is to understand the concepts and guardrails associated with the integration and take some initial steps to gain access. These topics are addressed on the following pages:
 
 * [Get Started with Dynamics 365 integration](../../integrating/using/d365-acs-get-started.md)
-* [Manage data between Campaign and Dynamics 365](../../integrating/using/d365-acs-notices-and-recommendations.md)
-* [Request the integration](../../integrating/using/d365-acs-requesting-the-integration.md)
-* [Integration guardrails](../../integrating/using/d365-acs-guardrails.md)
+* [Integration best practices and limitations](../../integrating/using/d365-acs-notices-and-recommendations.md)
+* [Learn key steps to implement this integration](../../integrating/using/d365-acs-get-started.md#request-and-implement-this-integration)
 * [Use the Dynamics 365 integration](../../integrating/using/d365-acs-using-the-integration.md)
 
 ## Access and Initial Setup 
@@ -39,7 +38,6 @@ Once you understand the concepts and guardrails of the integration and have comp
 * [Workflows](../../integrating/using/d365-acs-self-service-app-workflows.md)
     * Microsoft Dynamics 365 to Campaign 
         * [Table Mappings List](../../integrating/using/d365-acs-self-service-app-ingress-list.md)
-        * [Editing an Individual Table Mapping](../../integrating/using/d365-acs-self-service-app-ingress-individual-mapping.md)
     * [Campaign to Dynamics 365](../../integrating/using/d365-acs-self-service-app-egress.md)
     * [Opt in/out](../../integrating/using/d365-acs-self-service-app-optinout.md)
 * [Settings](../../integrating/using/d365-acs-self-service-app-settings.md)

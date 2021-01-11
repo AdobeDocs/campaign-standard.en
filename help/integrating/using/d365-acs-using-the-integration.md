@@ -127,7 +127,7 @@ The integration supports both linked and non-linked tables. Linking is supported
 
 >[!CAUTION]
 >
->If any Campaign custom resource record contains personal information, specific recommendations apply. Learn more [in this section](../../integrating/using/d365-acs-notices-and-recommendations.md#privacy-linked-resources).
+>If any Campaign custom resource record contains personal information, specific recommendations apply. Learn more [in this section](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-data).
 
 When configuring custom entity data flows, it is important to be aware of the following:
 

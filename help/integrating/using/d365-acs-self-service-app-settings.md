@@ -6,11 +6,13 @@ content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 ---
 
-# Settings Screen
+# Configure the integration app
+
+## Add credentials to the Integration App
 
 The Settings screen allows you to specify Dynamics 365 and Adobe API credentials.   There are also inputs to add specifics related to the Adobe Campaign SFTP instance.
 
-## Microsoft Dynamics 365 Credentials
+### Microsoft Dynamics 365 Credentials
 
 The Microsoft Dynamics 365 Credentials give the integration application permission to pull your data from Microsoft Dynamics 365.  You must first follow the steps on the screen 
 [Configure Dynamics 365 for Campaign integration](../../integrating/using/d365-acs-configure-d365.md) in order to generate the values that will be pasted into this screen. The inputs described below will reference this screen.
@@ -27,8 +29,7 @@ The Microsoft Dynamics 365 Credentials give the integration application permissi
 
 * URL: The url will have the format `https://&lt;servername&gt;.api.crm.dynamics.com/
 
-
-## Adobe Credentials
+### Adobe Credentials
 
 The Adobe Campaign credentials are generated using adobe.io. You will need to visit the screen [Configure Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md) and follow the instructions there before you will be able to fill out the inputs in this section.
 
@@ -40,8 +41,7 @@ The following image will explain in detail the mapping between adobe.io and the 
 
 * *URL*: This value will fit the pattern https\://mc.adobe.io/&lt;campaign-instance-name&gt;. The header of the integration app includes both the "Org" and "Instance". The "campaign-instance-name" portion of the url would simply be the name found in this instance value.
 
-
-## Optional Adobe Campaign SFTP Settings
+## Adobe Campaign SFTP Settings
 
 As the title implies, this section only needs to be defined if you plan on using the Adobe Campaign SFTP instance.  One reason to use the SFTP instance is if you ever want to output logs from the connector. This will be helpful if you experience issues when the integration is running and you need to debug why the output does not meet your  expectations.   The other reason to setup the SFTP server would be if you plan on running the Opt in/out workflow and there is a flow of data from Adobe Campaign to Dynamics 365 (either "Unidirectional Adobe Campaign to Dynamics 365" or "Bidirectional").
 
