@@ -29,7 +29,7 @@ The Microsoft Dynamics 365 Credentials give the integration application permissi
 
 ### Adobe API Credentials
 
-The Adobe Campaign credentials are generated using [Adobe I/O](adobe.io). You will need to visit the screen [Configure Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md) and follow the instructions there before you will be able to fill out the inputs in this section.
+The Adobe Campaign credentials are generated using [Adobe I/O](https://www.adobe.io/). You will need to visit the screen [Configure Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md) and follow the instructions there before you will be able to fill out the inputs in this section.
 
 The following image will explain in detail the mapping between Adobe I/O and the settings screen inputs.
 
