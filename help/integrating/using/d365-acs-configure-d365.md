@@ -138,4 +138,4 @@ To integrate the Dynamics 365 App to your Campaign Standard environment, follow 
 **Related topics** 
 
 * [Configure Adobe IO for Microsoft Dynamics 365 integration](../../integrating/using/d365-acs-configure-adobe-io.md) is the next step in setting up the integration
-* [Integration Self-Service Application Overview](../../integrating/using/d365-acs-self-service-app-overview.md) contains the full list of steps to get the integration up-and-running.
+* [Get started with the self-service integration app](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) contains the full list of steps to get the integration up-and-running.

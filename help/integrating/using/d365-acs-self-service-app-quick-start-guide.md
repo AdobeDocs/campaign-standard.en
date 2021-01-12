@@ -139,31 +139,22 @@ The entries in the dropdown menu are
 
 * **About**: This displays a dialog that contains information about the application, including copyright information.
 
-## Breadcrumbs
+### Breadcrumbs
 
 Breadcrumbs appear at the top of some screens as you navigate the app.
 
 **Example:**
 
-Below is an example from the **[!UICONTROL Edit Table Mapping]** screen that is showing the breadcrumbs and the page title. In this case, you can click on the **[!UICONTROL Workflows]** or "Dynamics 365 to Campaign" text to go to one of the previous screens. "Edit Table Mapping" in the breadcrumbs isn't clickable in this case because it's the current screen.
+Below is an example from the **[!UICONTROL Edit Table Mapping]** screen that is showing the breadcrumbs and the page title. In this case, you can click on the **[!UICONTROL Workflows]** or **[!UICONTROL Dynamics 365 to Campaign]** text to go to one of the previous screens. **[!UICONTROL Edit Table Mapping]** in the breadcrumbs is not clickable in this case because it is the current screen.
 
 ![](assets/d365-to-acs-breadcrumbs-ingress.png)
 
-## Common Buttons
+### Common Buttons
 
 The following icons are used in multiple pages in the self-service app.
 
-![](assets/d365-to-acs-icon-add.png) 
+![](assets/d365-to-acs-icon-add.png)  - Add a new item to a list.
 
-Add a new item to a list.
+![](assets/d365-to-acs-icon-edit.png) - Edit something that already exists
 
-![](assets/d365-to-acs-icon-edit.png)
-
-Edit something that already exists
-
-![](assets/d365-to-acs-icon-delete.png)
-
-Delete an item from a list of items
-
-This article serves to explain some general functionality of the self-service app.   We suggest that you also read the 
-articles that describe each of the pages within the self-servcie app in detail. 
+![](assets/d365-to-acs-icon-delete.png) - Delete an item from a list of items

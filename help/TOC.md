@@ -260,16 +260,13 @@ title: Campaign Standard Guide
        + [Configure Microsoft Dynamics 365](integrating/using/d365-acs-configure-d365.md)
        + [Configure Campaign and Adobe I/O](integrating/using/d365-acs-configure-adobe-io.md)
        + Configure the integration app {#configure-integration-tool}
-          + [Quick Start Guide](integrating/using/d365-acs-self-service-app-quick-start-guide.md)
-          + [Grant access to the integration app](integrating/using/d365-acs-self-service-app-control-access.md)
-          + [Configure the integration app](integrating/using/d365-acs-self-service-app-settings.md)
+          + [Get started with the integration app](integrating/using/d365-acs-self-service-app-quick-start-guide.md)
+          + [Access to the integration app](integrating/using/d365-acs-self-service-app-control-access.md)
+          + [Connect systems with the integration app](integrating/using/d365-acs-self-service-app-settings.md)
+          + [Map data between Dynamics and Campaign](integrating/using/d365-acs-self-service-app-data-sync.md)
+          + [Manage synchronization workflows](integrating/using/d365-acs-self-service-app-workflows.md)
+          + [Manage opt-in/opt-out](integrating/using/d365-acs-self-service-app-optinout.md)
        + [Use the Dynamics 365 integration](integrating/using/d365-acs-using-the-integration.md)
-       + Self-Service User Interface {#self-service-ui}
-          + [Overview](integrating/using/d365-acs-self-service-app-overview.md)
-          + [General Usage](integrating/using/d365-acs-self-service-app-general-usage.md)
-          + [Synchronize data between Dynamics and Campaign](integrating/using/d365-acs-self-service-app-data-sync.md)
-          + [Synchronization workflows](integrating/using/d365-acs-self-service-app-workflows.md)
-          + [Opt in/out](integrating/using/d365-acs-self-service-app-optinout.md)
 + Managing processes and data {#managing-processes-and-data}
   + [Get started with data and processes management](automating/using/get-started-workflows.md)
   + Workflow general operation {#workflow-general-operation}

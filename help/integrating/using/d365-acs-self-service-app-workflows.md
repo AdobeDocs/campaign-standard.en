@@ -14,20 +14,17 @@ The integration application comes with three workflows:
 
 ![](assets/d365-to-acs-ui-page-workflows.png)
 
-1. **Dynamics 365 to Adobe Campaign**
+**Dynamics 365 to Adobe Campaign**
+* Send *contacts* from Dynamics 365 into Campaign
+* *Custom entities*: Bring in custom tables from Dynamics 365 to Campaign. [Learn more](../../integrating/using/d365-acs-using-the-integration.md#data-flows)
+* This is also known as **Ingress** (referring to the ingress of data from Dynamics 365 to Adobe Campaign Standard)
 
-  * Send *contacts* from Dynamics 365 into Campaign
-  * *Custom entities*: Bring in custom tables from Dynamics 365 to Campaign. [Learn more](../../integrating/using/d365-acs-using-the-integration.md#data-flows)
-  * This is also known as **"Ingress"** (referring to the ingress of data from Dynamics 365 to Adobe Campaign Standard)
+**Adobe Campaign to Dynamics 365**
+* Email marketing events from Adobe Campaign Sandard are sent to Dynmics 365 (email send, open, click, bounce). [Learn more](../../integrating/using/d365-acs-using-the-integration.md#email-marketing-event-flow)
+* This is also known as **Egress** (referring to the egress of data from Adobe Campaign Standard to Dynamics 365)
 
-1. **Adobe Campaign to Dynamics 365**
-
-  * Email marketing events from Adobe Campaign Sandard are sent to Dynmics 365 (email send, open, click, bounce). [Learn more](../../integrating/using/d365-acs-using-the-integration.md#email-marketing-event-flow)
-  * This is also known as **"Egress"** (referring to the egress of data from Adobe Campaign Standard to Dynamics 365)
-
-1. **Opt-In/Out**
-
-  * Opt-out statuses (e.g., denyList) can be synchronized from Dynamics 365 to Campaign or from Campaign to Dynamics 365. The data can also by synchronized bidirectionally (i.e. data flows in both directions). [Learn more](#opt-in-out-wf).
+**Opt-In/Out**
+Opt-out statuses (e.g., denyList) can be synchronized from Dynamics 365 to Campaign or from Campaign to Dynamics 365. The data can also by synchronized bidirectionally (i.e. data flows in both directions). [Learn more](#opt-in-out-wf).
 
 >[!IMPORTANT]
 >
