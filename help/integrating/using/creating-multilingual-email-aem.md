@@ -81,7 +81,11 @@ Your language copies are now created, you can now edit your content depending on
 
     ![](assets/aem_acs_12.png)
 
-1. Select your Adobe Campaign multilingual email template configured to receive Adobe Experience Manager content. To learn more on how to create a template linked to your Adobe Experience Manager instance and a multilingual email, refer to this [page](../../integrating/using/configure-experience-manager.md#config-acs).
+1. Select your Adobe Campaign multilingual email template configured to receive Adobe Experience Manager content. To learn more on how to create a template linked to your Adobe Experience Manager instance, refer to this [page](../../integrating/using/configure-experience-manager.md#config-acs).
+
+   >[!NOTE]
+   >
+   >In this case, you will need to duplicate the built-in template **[!UICONTROL Multilingual email (mailMultiLang)]** to be able to send your multilingual email.
 
     ![](assets/aem_acs_13.png)
 
