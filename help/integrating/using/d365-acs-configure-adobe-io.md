@@ -93,7 +93,7 @@ Pre-integration setup in Campaign is now complete.
 **Related Topics** 
 
 * [Configure Adobe IO for Microsoft Dynamics 365 integration](../../integrating/using/d365-acs-configure-adobe-io.md) is the next step in setting up the integration
-* [Integration Self-Service Application Overview](../../integrating/using/d365-acs-self-service-app-overview.md) contains the full list of steps to get the integration up-and-running.
+* [Integration Self-Service Application Overview](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) contains the full list of steps to get the integration up-and-running.
 
 
 * [Adobe IO - Service Account Integration](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)

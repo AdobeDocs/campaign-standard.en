@@ -47,11 +47,11 @@ In this section you will learn how to grant access to the Adobe Campaign Standar
 
    ![](assets/d365-to-acs-access-8.png)
 
-1. Click the "New Profile" button and add a new entry named: **Campaign Standard - your-prod-instance-name - D365/ACS Integration**
+1. Click the **[!UICONTROL New Profile]** button and add a new entry named: **Campaign Standard - your-prod-instance-name - D365/ACS Integration**
 
-   * If you see this entry in the list then you do not need to proceed. Click on "Adobe Campaign Standard" in the left menu and check the other Campaign instances.
+   * If you see this entry in the list then you do not need to proceed. Click on **Adobe Campaign Standard** in the left menu and check the other Campaign instances.
 
-   * Make sure to replace "your-prod-instance-name" with the actual name for your instance name.
+   * Make sure to replace "your-prod-instance-name" with the actual name for your instance.
 
 1. You can leave the **[!UICONTROL Permission Group]** dropdown with the default value.
 

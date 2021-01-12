@@ -1,6 +1,6 @@
 ---
-title: Egress Workflow
-description: Egress Workflow
+title: Configure Campaign-Dynamics integration app
+description: Learn how to configure Campaign-Dynamics integration app
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
@@ -8,9 +8,9 @@ topic-tags: working-with-campaign-and-microsoft-dynamics-365
 
 # Configure the integration app
 
-## Add credentials to the Integration App
+## Add credentials to the integration app
 
-The Settings screen allows you to specify Dynamics 365 and Adobe API credentials.   There are also inputs to add specifics related to the Adobe Campaign SFTP instance.
+The **[!UICONTROL Settings]** screen allows you to specify Microsoft Dynamics 365 and Adobe API credentials. You can also configure settings related to the Adobe Campaign SFTP instance.
 
 ### Microsoft Dynamics 365 Credentials
 
@@ -19,19 +19,17 @@ The Microsoft Dynamics 365 Credentials give the integration application permissi
 
 ![](assets/d365-to-acs-ui-page-workflows-settings-d365.png)
 
-* Client ID: Reference the section "Register a new application" in the screen referenced above in order to 
-   determine your Client ID.  
+* **[!UICONTROL Client ID]**: Learn how to reference your Client ID in [this section](../../integrating/using/d365-acs-configure-d365.md#register-a-new-app) 
 
-* Client Secret: Reference the section "Generate client secret" in the screen referenced above in order to get 
-   your client secret.
+* **[!UICONTROL Client Secret]**: Learn how to generate your Client Secret in [this section](../../integrating/using/d365-acs-configure-d365.md#generate-a-client-secret)
    
-* Tenant: Reference the section "Get the tenant ID" in the screen above to determine how to find your Tenant.
+* **[!UICONTROL Tenant]**: Learn how to find your Tenant ID in [this section](../../integrating/using/d365-acs-configure-d365.md#get-the-tenant-id)
 
-* URL: The url will have the format `https://&lt;servername&gt;.api.crm.dynamics.com/
+* **[!UICONTROL URL]**: The url will have the format `https://&lt;servername&gt;.api.crm.dynamics.com/
 
-### Adobe Credentials
+### Adobe API Credentials
 
-The Adobe Campaign credentials are generated using adobe.io. You will need to visit the screen [Configure Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md) and follow the instructions there before you will be able to fill out the inputs in this section.
+The Adobe Campaign credentials are generated using [Adobe I/O](adobe.io). You will need to visit the screen [Configure Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md) and follow the instructions there before you will be able to fill out the inputs in this section.
 
 The following image will explain in detail the mapping between adobe.io and the settings screen inputs.
 
@@ -43,7 +41,7 @@ The following image will explain in detail the mapping between adobe.io and the 
 
 ## Adobe Campaign SFTP Settings
 
-As the title implies, this section only needs to be defined if you plan on using the Adobe Campaign SFTP instance.  One reason to use the SFTP instance is if you ever want to output logs from the connector. This will be helpful if you experience issues when the integration is running and you need to debug why the output does not meet your  expectations.   The other reason to setup the SFTP server would be if you plan on running the Opt in/out workflow and there is a flow of data from Adobe Campaign to Dynamics 365 (either "Unidirectional Adobe Campaign to Dynamics 365" or "Bidirectional").
+These settings need to be defined if you plan on using the Adobe Campaign SFTP instance. One reason to use the SFTP instance is if you ever want to output logs from the connector. This will be helpful if you experience issues when the integration is running and you need to debug why the output does not meet your  expectations.   The other reason to setup the SFTP server would be if you plan on running the Opt in/out workflow and there is a flow of data from Adobe Campaign to Dynamics 365 (either "Unidirectional Adobe Campaign to Dynamics 365" or "Bidirectional").
 
 ![](assets/d365-to-acs-ui-page-workflows-settings-sftp.png)
 

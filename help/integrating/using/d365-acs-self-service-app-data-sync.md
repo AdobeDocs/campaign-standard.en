@@ -1,23 +1,25 @@
 ---
-title: Egress Workflow
-description: Egress Workflow
+title: Synchronize data between Campaign and Microsoft Dynamics
+description: Synchronize data between Campaign and Dynamics
 products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 ---
 
-# Synchronize data from Microsoft Dynamics 365 to Adobe Campaign 
+# Synchronize data 
 
-## Mapping of tables
+You can synchronize tables from Microsoft Dynamics 365 to Campaign and Campaign marketing metrics to Microsoft Dynamics 365.
+
+>[!IMPORTANT]
+>You need to stop/start the **[!UICONTROL Dynamics 365 to Campaign]** workflow to have your changes taken into account. [Learn more](../../integrating/using/d365-acs-self-service-app-workflows.md)
+>
+
+## Map tables from Microsoft Dynamics 365 to Campaign
 
 The **[!UICONTROL Microsoft Dynamics 365 to Campaign]** page shows a list of entities in Microsoft Dynamics 365 and the custom resources in Adobe Campaign they will be synchronized with. You can add new mappings, edit or delete existing mappings. 
 
 ![](assets/d365-to-acs-ui-page-ingress-top.png)
-
->[!CAUTION]
->You need to stop/start the **[!UICONTROL Dynamics 365 to Campaign]** workflow to have your changes taken into account. [Learn more](../../integrating/using/d365-acs-self-service-app-workflows.md)
->
 
 Here is a description of each of the columns in this table:
 
@@ -42,16 +44,15 @@ Here is a description of each of the columns in this table:
   
     The number of records that need to be re-synchronized varies. If you have a large number of records, it can take some time to complete the synchronization process. Refer to the **[!UICONTROL Backlog]** metric in the **[!UICONTROL Workflows]** page as the integration application works to complete the syncing process.
     
-    >[!CAUTION]
+    >[!IMPORTANT]
     >
-    > * If you have selected the **[!UICONTROL Replay Data]** button on any of the table pairs in the **[!UICONTROL Microsoft Dynamics 365 to Campaign]** page then a large load of records (e.g., initial ingest of records, replaying of record data, etc.) could be ingested from Microsoft Dynamics 365 to your Campaign instance. To reduce the risk of performance issues which may adversely impact your Campaign instance, it is recommended you stop all Campaign processes (e.g., no marketing activity, no running of workflows, etc.) until after the large load of records has been ingested into Campaign.
-    >
-    > * It is strongly recommended you stop the integration workflow when publishing changes to either Adobe Campaign Standard or Microsoft Dynamics 365. Applicable changes include: updates to resources/entities (and their associated fields), links, identifier columns, etc. that are currently in use by tbe integration. 
+    > It is strongly recommended you stop the integration workflow when publishing changes to either Adobe Campaign Standard or Microsoft Dynamics 365. Applicable changes include: updates to resources/entities (and their associated fields), links, identifier columns, etc. that are currently in use by tbe integration. 
     >
 
-## Create a new mapping 
+## Create a new mapping {#add-a-new-mapping}
 
 To create a new mapping, follow the steps below:
+
 1. Click the **[!UICONTROL Add New Mapping]** button.
 
   ![](assets/d365-to-acs-ui-page-ingress-choose-tables.png)
@@ -161,7 +162,7 @@ You specify a filter by filling out the following information:
 * a value (from Dynamics 365)
 If the field name, comparison, and value evaluates to true for a given record, then the record will be propagated to Adobe Campaign.
 
-You can choose how these filters are evaluated by setting the input labeled **[!UICONTROL Choose the filter comparison operator]**.  If you choose **and**, all of the filters must be true for a record to get propagated to Campaign. If you choose **Or**, the record will get propagated if any of them evaluate to true.
+You can choose how these filters are evaluated by setting the input labeled **[!UICONTROL Choose the filter comparison operator]**.  If you choose **And**, all of the filters must be true for a record to get propagated to Campaign. If you choose **Or**, the record will get propagated if any of them evaluate to true.
 
 The option **[!UICONTROL Do you want to delete records in ACS that will be filtered out from Dynamics 365?]** controls whether you want records that have filtered out to be deleted from Campaign. If you select **No** then the records will remain in Adobe Campaign. Select **Yes** to have them deleted by the integration logic.
 
@@ -172,6 +173,20 @@ The option **[!UICONTROL Do you want to delete records in ACS that will be filte
 
 ### Advanced Settings {#advanced-settings}
 
-If the **[!UICONTROL  Apply deletes in Dynamics 365 to Campaign?]** option is set to **Yes**, then deletions that occur in Dynamics 365 will cause the integration logic to delete the corresponding field in Adobe Campaign to get deleted (based on the field name mapping). Select **No** to ignore deletions in Dynamics 365.
+You can set up the following additional options when configuring a mapping:
 
-Set the **[!UICONTROL Use technical values in Dynamics 365 picklists?]** option to **No** if you want to propagate to Campaign the display value associated with a Dynamics 365 picklist. Select **Yes** if you want to propagate the technical value associated with the picklist to Campaign.
+* Set the **[!UICONTROL Apply deletes in Dynamics 365 to Campaign?]** option to **Yes**, if you want to propagate deletions that occur in Dynamics 365 to the corresponding field in Adobe Campaign (based on the field name mapping). Select **No** to ignore deletions in Dynamics 365.
+
+* Set the **[!UICONTROL Use technical values in Dynamics 365 picklists?]** option to **No** if you want to propagate to Campaign the display value associated with a Dynamics 365 picklist. Select **Yes** to propagate the technical value.
+
+## Sychronize Campaign marketing events to Microsoft Dynamics
+
+The **[!UICONTROL Campaign to Microsoft Dynamics 365]** page allows you to identify which email marketing events will be mapped from Adobe Campaign to Microsoft Dynamics 365. 
+
+The four metrics that you are able to control are: **Sends**, **Clicks**, **Opens**, and **Bounces**. 
+
+![](assets/d365-to-acs-ui-page-workflows-egress.png) 
+
+Select **Yes** to confirm that you do want events of that type to flow to Dynamics 365. 
+
+Click [here](../../integrating/using/d365-acs-self-service-app-workflows.md) for more information on these email event flows.

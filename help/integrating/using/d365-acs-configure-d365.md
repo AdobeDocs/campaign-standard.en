@@ -35,7 +35,7 @@ Main steps are outlined in the following video:
 
 To generate the OAuth access token, follow the steps outlined below.
 
-### Register a new application
+### Register a new application {#register-a-new-app}
 
 1. Under your administrator login, login to portal.azure.com.  
 
@@ -54,9 +54,9 @@ To generate the OAuth access token, follow the steps outlined below.
 
 >[!NOTE]
 >
->Azure AD assigns a unique application (client) ID to your app. You will need this ID later on in configuring Dynamics 365, as well as when you perform pre-integration setup for the integration tool.
+>Microsoft Azure Directory assigns a unique application (client) ID to your app. You will need this ID later on in configuring Dynamics 365, as well as when you perform the integration tool setup.
 
-### Generate client secret
+### Generate client secret {#generate-a-client-secret}
 
 1. From the app overview screen, on the sub menu on the left, click **[!UICONTROL Certificates and Secrets > New client secret]**
 
@@ -107,15 +107,13 @@ This new user is a generic user. It will be used by the application: any change 
 
 1. Click on the user icon and upload an Adobe Campaign icon; this is the icon that will be displayed in the Timeline view when new Adobe events appear in Dynamics 365.
 
-<!-- **getfile** adobe campaign logo-->
-
 1. Open the user roles list by clicking **[!UICONTROL MANAGE ROLES]** in the top ribbon.
 
 1. Scroll down and select **[!UICONTROL System administrator]** access for this user.
 
 1. Click **[!UICONTROL OK]**.
 
-### Get the tenant ID
+### Get the tenant ID {#get-the-tenant-id}
 
 Follow the instructions [in this page](https://docs.microsoft.com/en-us/onedrive/find-your-office-365-tenant-id) to find your tenant ID.  You’ll need this ID during pre-integration setup in the integration tool.
 

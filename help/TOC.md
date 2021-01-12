@@ -259,27 +259,17 @@ title: Campaign Standard Guide
           + [Best practices and limitations](integrating/using/d365-acs-notices-and-recommendations.md)
        + [Configure Microsoft Dynamics 365](integrating/using/d365-acs-configure-d365.md)
        + [Configure Campaign and Adobe I/O](integrating/using/d365-acs-configure-adobe-io.md)
-       + Configure the integration tool {#configure-integration-tool}
-          + [Prerequisites](integrating/using/d365-acs-self-service-app-control-access.md)
+       + Configure the integration app {#configure-integration-tool}
           + [Quick Start Guide](integrating/using/d365-acs-self-service-app-quick-start-guide.md)
-          + [Grant access to the Integration App](integrating/using/d365-acs-self-service-app-control-access.md)
-          + [Configure the Integration App](integrating/using/d365-acs-self-service-app-settings.md)
-          + [Synchronize from Dynamics to Campaign](integrating/using/d365-acs-self-service-app-ingress-list.md)
-
-
-
-
-
+          + [Grant access to the integration app](integrating/using/d365-acs-self-service-app-control-access.md)
+          + [Configure the integration app](integrating/using/d365-acs-self-service-app-settings.md)
        + [Use the Dynamics 365 integration](integrating/using/d365-acs-using-the-integration.md)
-       + Integration Application {#campaign-and-microsdoft-dynamics-365-self-service}
-           + [Overview](integrating/using/d365-acs-self-service-app-overview.md)
-           + Self-Service User Interface {#self-service-ui}
-                + [General Usage](integrating/using/d365-acs-self-service-app-general-usage.md)
-                + [Workflows](integrating/using/d365-acs-self-service-app-workflows.md)
-                + Dynamics 365 to Campaign (Ingress) {#campaign-and-microsoft-dynamics-365-self-service-ingress}
-                    + [Table Mappings List](integrating/using/d365-acs-self-service-app-ingress-list.md)
-                + [Campaign to Dynamics 365 (Egress)](integrating/using/d365-acs-self-service-app-egress.md)
-                + [Opt in/out](integrating/using/d365-acs-self-service-app-optinout.md)
+       + Self-Service User Interface {#self-service-ui}
+          + [Overview](integrating/using/d365-acs-self-service-app-overview.md)
+          + [General Usage](integrating/using/d365-acs-self-service-app-general-usage.md)
+          + [Synchronize data between Dynamics and Campaign](integrating/using/d365-acs-self-service-app-data-sync.md)
+          + [Synchronization workflows](integrating/using/d365-acs-self-service-app-workflows.md)
+          + [Opt in/out](integrating/using/d365-acs-self-service-app-optinout.md)
 + Managing processes and data {#managing-processes-and-data}
   + [Get started with data and processes management](automating/using/get-started-workflows.md)
   + Workflow general operation {#workflow-general-operation}
