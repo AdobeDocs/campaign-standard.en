@@ -11,13 +11,13 @@ topic-tags: working-with-campaign-and-experience-manager
 
 # Creating a multilingual email with the Adobe Experience Manager integration {#creating-multilingual-email-aem}
 
-Using this document, you will learn how to create and manage email contents in Adobe Experience Manager, then use them for your marketing campaigns by importing them in your emails into Adobe Campaign Standard.
+Using this document, you will learn how to create a multilingual email using Adobe Experience Manager content and language copies.
 
 The prerequisites are:
 
 * Access to an AEM instance configured for the integration.
 * Access to an Adobe Campaign instance configured for the integration.
-* An Adobe Campaign email template configured to receive AEM content.
+* An Adobe Campaign multilingual email template configured to receive AEM content.
 
 ## Creating new email content in Adobe Experience Manager {#creating-email-content-aem}
 
@@ -77,35 +77,48 @@ Your language copies are now created, you can now edit your content depending on
 
 ## Creating your multilingual content in Adobe Campaign Standard {#multilingual-acs}
 
-1. Create email Campaign
+1. From Adobe Campaign Standard homepage, click **[!UICONTROL Create an email]**.
 
     ![](assets/aem_acs_12.png)
 
-1. Select template AEM multilingual email click next
+1. Select your Adobe Campaign multilingual email template configured to receive Adobe Experience Manager content. To learn more on how to create a template linked to your Adobe Experience Manager instance and a multilingual email, refer to this [page](../../integrating/using/configure-experience-manager.md#config-acs).
 
     ![](assets/aem_acs_13.png)
 
-1. Fill in the Properties
-1. Select audience
-1. Click Create
+1. Fill in the **[!UICONTROL Properties]** and **[!UICONTROL Audience]** of your email.
 
-1. In the Edit properties, from the Content drop-down, select which Adobe Experience Manager account you want to use for this email.
+1. Click **[!UICONTROL Create]**.
 
-1. Access the email designer.
+1. In the **[!UICONTROL Edit properties]**, make sure your Adobe Experience Manager account is correctly set in the **[!UICONTROL Content]** drop-down.
 
-1. Click Use Adobe Experience Manager content.
+    ![](assets/aem_acs_20.png)
+
+1. Access the email designer and click **[!UICONTROL Link with AEM content]**.
 
     ![](assets/aem_acs_14.png)
 
-1. Select your previously created email content.
+1. Select your previously created Adobe Experience Manager email content.
 
     ![](assets/aem_acs_15.png)
 
-1. Edit your email as needed. For more information, refer to this page.
+1. Click **[!UICONTROL Save & Close]**.
 
-1. Click Save & Close.
+1. Click **[!UICONTROL Language copy creation]**.
 
-1. Click Language copy creation.
+    ![](assets/aem_acs_16.png)
 
-1. Select your previously created Adobe Experience Manager content and click Confirm. Be careful with your content path. Content needs to be approved for this to work.
-1. 
+1. Select one of your previously created language copy of your Adobe Experience Manager content and click **[!UICONTROL Confirm]**.
+
+    ![](assets/aem_acs_17.png)
+
+1. Adobe Campaign Standard will automatically link the other language copies to this content. Select the variant you want to add to Adobe Campaign Standard and click **[!UICONTROL Create variants]**.
+
+    ![](assets/aem_acs_18.png)
+
+1. Click the **[!UICONTROL Content variant]** block to change your default variant if needed and click **[!UICONTROL Confirm]**.
+
+    ![](assets/aem_acs_19.png)
+
+1. Your email is ready to be send. For more information on this, refer to this [page](../../sending/using/get-started-sending-messages.md).
+
+Your audience will receive your email depending on the **[!UICONTROL Preferred languages]** set in their **[!UICONTROL Profiles]**. To learn more on how to edit profiles and preferred languages, refer to this [page](../../audiences/using/editing-profiles.md).
