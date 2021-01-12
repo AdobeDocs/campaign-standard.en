@@ -1,38 +1,37 @@
 ---
-title: Egress Workflow
-description: Egress Workflow
+title: Configure Campaign-Dynamics integration app
+description: Learn how to configure Campaign-Dynamics integration app
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 ---
 
-# Settings Screen
+# Configure the integration app
 
-The Settings screen allows you to specify Dynamics 365 and Adobe API credentials.   There are also inputs to add specifics related to the Adobe Campaign SFTP instance.
+## Add credentials to the integration app
 
-## Microsoft Dynamics 365 Credentials
+The **[!UICONTROL Settings]** screen allows you to specify Microsoft Dynamics 365 and Adobe API credentials. You can also configure settings related to the Adobe Campaign SFTP instance.
+
+### Microsoft Dynamics 365 Credentials
 
 The Microsoft Dynamics 365 Credentials give the integration application permission to pull your data from Microsoft Dynamics 365.  You must first follow the steps on the screen 
 [Configure Dynamics 365 for Campaign integration](../../integrating/using/d365-acs-configure-d365.md) in order to generate the values that will be pasted into this screen. The inputs described below will reference this screen.
 
 ![](assets/d365-to-acs-ui-page-workflows-settings-d365.png)
 
-* Client ID: Reference the section "Register a new application" in the screen referenced above in order to 
-   determine your Client ID.  
+* **[!UICONTROL Client ID]**: Learn how to reference your Client ID in [this section](../../integrating/using/d365-acs-configure-d365.md#register-a-new-app) 
 
-* Client Secret: Reference the section "Generate client secret" in the screen referenced above in order to get 
-   your client secret.
+* **[!UICONTROL Client Secret]**: Learn how to generate your Client Secret in [this section](../../integrating/using/d365-acs-configure-d365.md#generate-a-client-secret)
    
-* Tenant: Reference the section "Get the tenant ID" in the screen above to determine how to find your Tenant.
+* **[!UICONTROL Tenant]**: Learn how to find your Tenant ID in [this section](../../integrating/using/d365-acs-configure-d365.md#get-the-tenant-id)
 
-* URL: The url will have the format `https://&lt;servername&gt;.api.crm.dynamics.com/
+* **[!UICONTROL URL]**: The url will have the format `https://&lt;servername&gt;.api.crm.dynamics.com/
 
+### Adobe API Credentials
 
-## Adobe Credentials
+The Adobe Campaign credentials are generated using [Adobe I/O](https://www.adobe.io/). You will need to visit the screen [Configure Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md) and follow the instructions there before you will be able to fill out the inputs in this section.
 
-The Adobe Campaign credentials are generated using adobe.io. You will need to visit the screen [Configure Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md) and follow the instructions there before you will be able to fill out the inputs in this section.
-
-The following image will explain in detail the mapping between adobe.io and the settings screen inputs.
+The following image will explain in detail the mapping between Adobe I/O and the settings screen inputs.
 
 ![](assets/d365-to-acs-ui-page-workflows-settings-adobeio.png)
 
@@ -40,10 +39,9 @@ The following image will explain in detail the mapping between adobe.io and the 
 
 * *URL*: This value will fit the pattern https\://mc.adobe.io/&lt;campaign-instance-name&gt;. The header of the integration app includes both the "Org" and "Instance". The "campaign-instance-name" portion of the url would simply be the name found in this instance value.
 
+## Adobe Campaign SFTP Settings
 
-## Optional Adobe Campaign SFTP Settings
-
-As the title implies, this section only needs to be defined if you plan on using the Adobe Campaign SFTP instance.  One reason to use the SFTP instance is if you ever want to output logs from the connector. This will be helpful if you experience issues when the integration is running and you need to debug why the output does not meet your  expectations.   The other reason to setup the SFTP server would be if you plan on running the Opt in/out workflow and there is a flow of data from Adobe Campaign to Dynamics 365 (either "Unidirectional Adobe Campaign to Dynamics 365" or "Bidirectional").
+These settings need to be defined if you plan on using the Adobe Campaign SFTP instance. One reason to use the SFTP instance is if you ever want to output logs from the connector. This will be helpful if you experience issues when the integration is running and you need to debug why the output does not meet your  expectations.   The other reason to setup the SFTP server would be if you plan on running the Opt in/out workflow and there is a flow of data from Adobe Campaign to Dynamics 365 (either "Unidirectional Adobe Campaign to Dynamics 365" or "Bidirectional").
 
 ![](assets/d365-to-acs-ui-page-workflows-settings-sftp.png)
 
@@ -59,29 +57,18 @@ As the title implies, this section only needs to be defined if you plan on using
 
 ## SFTP Setup in Adobe Campaign Standard
 
-Visit [this page](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=en#sftp-management) for information about the Adobe Campaign Standard SFTP server. There are pages that describe the IP Ranges, generating SSH Key, and connecting to the SFTP Server. You can also supplement these with the instructions below:
+Discover SFTP management with [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=en) in these sections:
 
-1. Browse to the Experience Cloud
-1. Select the org (in the top-right dropdown)
-1. Click on Campaign
-1. Click "Control Panel" (instead of selecting a Campaign Instance)
-1. In the "SFTP" card, click the "Manage" button
-1. In the "Instance List" dropdown (near the top-right), select stage instance
-1. Click the "Key Management" tab
-1. Click "Add new public key" button
-1. On your local, open up file associated with the SSH public key and copy it:
-    1. Go [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/generate-ssh-key.html?lang=en#sftp-management) if you want to see how to generate an SSH Key.
-    1. In the browser, paste the public key into the "Public Key" field in the modal window
-    1. Click the "Save" button
-1. Click on the "Add PI to allow list" button
-1. Adding IP Range
-    1. Note: You can get the "IP Ranges" from them inputs in the Settings screen (see description above) 
-    1. Click on the "Add new IP Range"
-        1. Add the first "IP Range" for prod
-        1. Give it a label that will be clear if it's dev, stage, or prod and an index 1 (ex: "d365-int-prod-1").
-        1. Click the "Save" button 
-    1. Click on the "Add new IP Range"
-        1. Add the second "IP Range" for prod
-        1. Give it a label that will be clear if it's dev, stage, or prod and the index 2 (ex: "d365-int-prod-2").
-        1. Click the "Save" button 
-1. Log into the SFTP server with the private key and create the directory "d365_loads/exports"
+* [About SFTP management](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=en#sftp-management)
+
+* [SFTP storage management](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=en#installing-ssh-key)
+
+* [Add IP ranges](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/ip-range-allow-listing.html?lang=en#sftp-management)
+
+* [Manage keys](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=en#sftp-management)
+
+* [Log on to your SFTP server](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/logging-into-sftp-server.html?lang=en#sftp-management)
+
+Once configuration is done, log into the SFTP server with the private key and create the directory "d365_loads/exports".
+
+[Visit this page](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=en#sftp-management) for information about the Adobe Campaign Standard SFTP server. 

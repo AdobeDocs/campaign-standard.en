@@ -10,18 +10,17 @@ topic-tags: working-with-campaign-and-ms-dynamics
 
 There are several data flows that the Adobe Campaign Standard Integration with Dynamics 365 performs:
 
-* Dynamics 365 to Adobe Campaign
-
+* **Dynamics 365 to Adobe Campaign**
     * Send *contacts* from Dynamics 365 into Campaign
     * *Custom entities*: Bring in custom tables from Dynamics 365 to Campaign. Learn more [in this section](../../integrating/using/d365-acs-self-service-app-workflows.md).
     * This is also known as **"Ingress"** (referring to the ingress of data from Dynamics 365 to Adobe Campaign Standard)
 
-* Adobe Campaign to Dynamics 365     
+* **Adobe Campaign to Dynamics 365**    
     * Email marketing events from Adobe Campaign Sandard are sent to Dynmics 365 (email send, open, click, bounce)
     * This is also known as **"Egress"** (referring to the egress of data from Adobe Campaign Standard to Dynamics 365)
 
-* Opt-out
-    * Opt-out statuses (e.g., denyList) can be synchronized from Dynamics 365 to Campaign or from Campaign to Dynamics 365. The data can also by synchronized bidirectionally (i.e. data flows in both directions).  You can read more about the basics of opt-out in the [Opt-Out Flow](#opt-out) section below.
+* **Opt-out**
+    Opt-out statuses (e.g., denyList) can be synchronized from Dynamics 365 to Campaign or from Campaign to Dynamics 365. The data can also by synchronized bidirectionally (i.e. data flows in both directions).  You can read more about the basics of opt-out in the [Opt-Out Flow](#opt-out) section below.
 
 More details on the data flows can be found further down in this document in the [Data Flows](#data-flows)  section.
 
@@ -117,7 +116,7 @@ The Campaign profile table attribute externalId must be populated with the Dynam
 >
 >For custom entity ingress, change tracking must be enabled within Dynamics 365 for synchronized custom entities.
 
-#### Custom Entities
+#### Custom entities
 
 The [Microsoft Dynamics 365-Adobe Campaign Standard integration](../../integrating/using/d365-acs-get-started.md) supports custom entities, enabling custom entities in Dynamics 365 to be synchronized to corresponding custom resources in Campaign.
 
@@ -127,7 +126,8 @@ The integration supports both linked and non-linked tables. Linking is supported
 
 >[!CAUTION]
 >
->If any Campaign custom resource record contains personal information, specific recommendations apply. Learn more [in this section](../../integrating/using/d365-acs-notices-and-recommendations.md#privacy-linked-resources).
+>If any Campaign custom resource record contains personal information, specific recommendations apply. Learn more [in this section](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-data).
+>
 
 When configuring custom entity data flows, it is important to be aware of the following:
 
@@ -143,7 +143,7 @@ When configuring custom entity data flows, it is important to be aware of the fo
 
 A more comprehensive overview of Campaign custom resources can be found [in this section](../../developing/using/key-steps-to-add-a-resource.md).
 
-### Email Marketing Event Flow{#email-marketing-event-flow}
+### Email marketing event flow{#email-marketing-event-flow}
 
 Email marketing events are sent from Campaign to Dynamics 365 to appear in the Timeline view.
 
@@ -162,7 +162,7 @@ The following event attributes are displayed within Dynamics 365:
 
 Email Marketing Events can be enabled/disabled by type (send, open, click, bounce) so that only the event types you select will be passed to Dynamics 365.
 
-### Opt-Out Flow {#opt-out-flow}
+### Opt-out flow {#opt-out-flow}
 
 Opt-out (e.g., denyList) values are synchronized between systems; you have the following options to choose from when onboarding:
 * Dynamics 365 is source of truth for opt-outs: opt-out attributes will be synchronized in one direction from Dynamics 365 to Campaign Standard
@@ -173,7 +173,10 @@ Alternatively, if you have a separate process to manage opt-out synchronization 
 
 >[!NOTE]
 >
->In the integration application UI, the uni-directional ACS to Dynamics 365 and the bi-directional opt-out use cases are configured in a separate opt-out workflow. The uni-directional Dynamics 365 to ACS opt-out use case is an exception; it is configured within the ingress (Contact to Profile) workflow.
+>In the integration application UI, the uni-directional ACS to Dynamics 365 and the bi-directional opt-out use cases are configured in a separate opt-out workflow. [Learn more](../../integrating/using/d365-acs-self-service-app-workflows.md#opt-in-out-wf).
+>
+>The uni-directional Dynamics 365 to ACS opt-out use case is an exception; it is configured within the ingress (Contact to Profile) workflow.
+>
 
 Opt-out flow mapping is to be specified by the customer since business requirements can differ between companies. On the Campaign side, only the OOTB opt-out attributes can be used for opt-out mapping:
 
@@ -191,7 +194,3 @@ In Dynamics 365, most opt-out fields have the "donot" prefix; however, you can a
 ### Initial data transfer {#initial-data-transfer}
 
 The initial data transfer may take a while depending on how many records you are ingesting from Dynamics 365. After the initial data transfer, the integration will pick up the incremental updates.
-
->[!WARNING]
->
->Certain actions on your part (e.g., initial ingest of records, replaying of record data, etc.) could result in a large load of records being ingested from Microsoft Dynamics 365 to your Adobe Campaign Standard (ACS) instance. To reduce the risk of performance issues which may adversely impact your ACS instance, it is recommended you stop all ACS processes (e.g., no marketing activity, no running of workflows, etc.) until after the large load of records has been ingested into ACS.
