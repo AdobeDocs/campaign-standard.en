@@ -57,29 +57,18 @@ These settings need to be defined if you plan on using the Adobe Campaign SFTP i
 
 ## SFTP Setup in Adobe Campaign Standard
 
-Visit [this page](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=en#sftp-management) for information about the Adobe Campaign Standard SFTP server. There are pages that describe the IP Ranges, generating SSH Key, and connecting to the SFTP Server. You can also supplement these with the instructions below:
+Discover SFTP management with [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=en) in these sections:
 
-1. Browse to the Experience Cloud
-1. Select the org (in the top-right dropdown)
-1. Click on Campaign
-1. Click "Control Panel" (instead of selecting a Campaign Instance)
-1. In the "SFTP" card, click the "Manage" button
-1. In the "Instance List" dropdown (near the top-right), select stage instance
-1. Click the "Key Management" tab
-1. Click "Add new public key" button
-1. On your local, open up file associated with the SSH public key and copy it:
-    1. Go [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/generate-ssh-key.html?lang=en#sftp-management) if you want to see how to generate an SSH Key.
-    1. In the browser, paste the public key into the "Public Key" field in the modal window
-    1. Click the "Save" button
-1. Click on the "Add PI to allow list" button
-1. Adding IP Range
-    1. Note: You can get the "IP Ranges" from them inputs in the Settings screen (see description above) 
-    1. Click on the "Add new IP Range"
-        1. Add the first "IP Range" for prod
-        1. Give it a label that will be clear if it's dev, stage, or prod and an index 1 (ex: "d365-int-prod-1").
-        1. Click the "Save" button 
-    1. Click on the "Add new IP Range"
-        1. Add the second "IP Range" for prod
-        1. Give it a label that will be clear if it's dev, stage, or prod and the index 2 (ex: "d365-int-prod-2").
-        1. Click the "Save" button 
-1. Log into the SFTP server with the private key and create the directory "d365_loads/exports"
+* [About SFTP management](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=en#sftp-management)
+
+* [SFTP storage management](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=en#installing-ssh-key)
+
+* [Add IP ranges](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/ip-range-allow-listing.html?lang=en#sftp-management)
+
+* [Manage keys](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=en#sftp-management)
+
+* [Log on to your SFTP server](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/logging-into-sftp-server.html?lang=en#sftp-management)
+
+Once configuration is done, log into the SFTP server with the private key and create the directory "d365_loads/exports".
+
+[Visit this page](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=en#sftp-management) for information about the Adobe Campaign Standard SFTP server. 
