@@ -8,23 +8,11 @@ topic-tags: working-with-campaign-and-ms-dynamics
 
 # Using the Microsoft Dynamics 365 integration
 
-There are several data flows that the Adobe Campaign Standard Integration with Dynamics 365 performs:
-
-* **Dynamics 365 to Adobe Campaign**
-    * Send *contacts* from Dynamics 365 into Campaign
-    * *Custom entities*: Bring in custom tables from Dynamics 365 to Campaign. Learn more [in this section](../../integrating/using/d365-acs-self-service-app-workflows.md).
-    * This is also known as **"Ingress"** (referring to the ingress of data from Dynamics 365 to Adobe Campaign Standard)
-
-* **Adobe Campaign to Dynamics 365**    
-    * Email marketing events from Adobe Campaign Sandard are sent to Dynmics 365 (email send, open, click, bounce)
-    * This is also known as **"Egress"** (referring to the egress of data from Adobe Campaign Standard to Dynamics 365)
-
-* **Opt-out**
-    Opt-out statuses (e.g., denyList) can be synchronized from Dynamics 365 to Campaign or from Campaign to Dynamics 365. The data can also by synchronized bidirectionally (i.e. data flows in both directions).  You can read more about the basics of opt-out in the [Opt-Out Flow](#opt-out) section below.
+There are several data flows that the Adobe Campaign Standard Integration with Dynamics 365 performs. These flows are detailed in [this page](../../integrating/using/d365-acs-self-service-app-workflows.md). 
 
 More details on the data flows can be found further down in this document in the [Data Flows](#data-flows)  section.
 
-## Adobe Campaign Standard User Experience
+## Adobe Campaign Standard user experience
 
 When a contact is created, modified, or deleted (if deleted is enabled) in Dynamics 365, it will be sent over to Campaign Standard. These contacts will be visible in the Profiles screen in Campaign and can be targeted in marketing campaigns. See the Profiles screen below.
 
@@ -32,7 +20,7 @@ When a contact is created, modified, or deleted (if deleted is enabled) in Dynam
 
 When an opt-out attribute is modified in Campaign, it will be reflected in Dynamics 365 if you’ve selected the Campaign-to-Dynamics 365 or bi-directional opt-out configuration, and if you have that particular attribute mapped correctly.
 
-## Microsoft Dynamics 365 User Experience
+## Microsoft Dynamics 365 user experience
 
 For egress, the following email marketing events are sent from Campaign to Dynamics 365 and displayed in the Dynamics 365 Timeline view as custom activities:
 
@@ -72,33 +60,29 @@ The form for email url click events adds an additional attribute for the URL tha
 
 The following is a list of the attributes and a description:
 
-* Subject: Subject of the event; composed of the Campaign ID and Delivery ID of the email delivery
+* **Subject**: Subject of the event; composed of the Campaign ID and Delivery ID of the email delivery
 
-* Owner: The application user that is created in the post-provisioning steps
+* **Owner**: The application user that is created in the post-provisioning steps
 
-* Regarding: The name of the contact
+* **Regarding**: The name of the contact
 
-* Campaign Name: The Campaign ID in Campaign Standard
+* **Campaign Name**: The Campaign ID in Campaign Standard
 
-* Delivery Name: The Delivery ID in Campaign Standard
+* **Delivery Name**: The Delivery ID in Campaign Standard
 
-* Date Sent/Opened/Clicked/Bounced: Date/time when the event was created
+* **Date Sent/Opened/Clicked/Bounced**: Date/time when the event was created
 
-* Tracking URL: URL that was clicked
+* **Tracking URL**: URL that was clicked
 
-* Mirror Page URL: The URL to the mirror page of the email that was sent/opened/clicked/bounced
-
->[!NOTE]
->
->The expiry period of the email mirror page can be modified in the configuration screen of the corresponding Campaign email channel activity (see [Validity period parameters](../../administration/using/configuring-email-channel.md#validity-period-parameters)).
+* **Mirror Page URL**: The URL to the mirror page of the email that was sent/opened/clicked/bounced. The expiry period of the email mirror page can be modified in the configuration screen of the corresponding Campaign email channel activity. [Learn more](../../administration/using/configuring-email-channel.md#validity-period-parameters).
 
 >[!NOTE]
 >
 >For opt-out, when an opt-out attribute is modified in Dynamics 365, it will be reflected in Campaign if you’ve selected the Dynamics 365-to-Campaign or bi-directional opt-out configuration, and if you have that particular attribute mapped correctly.
 
-## Data Flows {#data-flows}
+## Data flows {#data-flows}
 
-### Contact and custom entity Ingress
+### Contact and custom entity ingress
 
 New, updated, and deleted records (Note: deleted must be enabled) are sent from the Dynamics 365 contact table to the Campaign profile table.
 
@@ -124,7 +108,7 @@ The new data in the custom resources can be used for several purposes, including
 
 The integration supports both linked and non-linked tables. Linking is supported up to three levels (i.e., level1->level2->level3).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >If any Campaign custom resource record contains personal information, specific recommendations apply. Learn more [in this section](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-data).
 >

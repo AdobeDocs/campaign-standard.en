@@ -254,9 +254,8 @@ title: Campaign Standard Guide
        + [Testing your triggers](integrating/using/testing-your-triggers.md)
        + [Abandonment Triggers use cases](integrating/using/abandonment-triggers-use-cases.md)
   + Campaign and Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-       + Get Started with Dynamics 365 integration {#get-started-ms-dyn}
-          + [Implementation steps](integrating/using/d365-acs-get-started.md)
-          + [Best practices and limitations](integrating/using/d365-acs-notices-and-recommendations.md)
+       + [Get started with Dynamics 365 integration](integrating/using/d365-acs-get-started.md)
+       + [Best practices and limitations](integrating/using/d365-acs-notices-and-recommendations.md)
        + [Configure Microsoft Dynamics 365](integrating/using/d365-acs-configure-d365.md)
        + [Configure Campaign and Adobe I/O](integrating/using/d365-acs-configure-adobe-io.md)
        + Configure the integration app {#configure-integration-tool}
@@ -265,7 +264,6 @@ title: Campaign Standard Guide
           + [Connect systems with the integration app](integrating/using/d365-acs-self-service-app-settings.md)
           + [Map data between Dynamics and Campaign](integrating/using/d365-acs-self-service-app-data-sync.md)
           + [Manage synchronization workflows](integrating/using/d365-acs-self-service-app-workflows.md)
-          + [Manage opt-in/opt-out](integrating/using/d365-acs-self-service-app-optinout.md)
        + [Use the Dynamics 365 integration](integrating/using/d365-acs-using-the-integration.md)
 + Managing processes and data {#managing-processes-and-data}
   + [Get started with data and processes management](automating/using/get-started-workflows.md)
