@@ -96,7 +96,7 @@ In the **[!UICONTROL Dynamics 365 to Campaign]** page, you can access the list o
 
 In the **[!UICONTROL Edit Table Mapping]** page, check the **[!UICONTROL Mappings]** section to ensure that fields from Dynamics 365 are being mapped to the correct field in Campaign. If you need to add any other mappings, do so now, as well as any replacements or filters. [Learn more](../../integrating/using/d365-acs-self-service-app-data-sync.md).
 
-If you want to add new mappings, refer to [this section](../../integrating/using/d365-acs-self-service-app-data-sync-list.mdd#add-a-new-mapping) for more information.
+If you want to add new mappings, refer to [this section](../../integrating/using/d365-acs-self-service-app-data-sync-list.md#add-a-new-mapping) for more information.
 
 Once your configuration is correct, click the **[!UICONTROL Play]** button next to the **[!UICONTROL Dynamics 365 to Campaign]** workflow in order to start the integration and the flow of data.  
 
@@ -107,7 +107,7 @@ Once your configuration is correct, click the **[!UICONTROL Play]** button next 
 
 ![](assets/d365-to-acs-ui-page-workflows-ingress-play-pointer.png)
 
-Once running, you should be able to test by adding or modifying entries in Dynamics 365 and observing those changes in Adobe Campaign within a few minutes. If at any time you need to stop this process, then simply press the same button to stop it. [Learn more](../.../integrating/using/d365-acs-self-service-app-workflows.md/#workflow-status)
+Once running, you should be able to test by adding or modifying entries in Dynamics 365 and observing those changes in Adobe Campaign within a few minutes. If at any time you need to stop this process, then simply press the same button to stop it. [Learn more](../.../integrating/using/d365-acs-self-service-app-workflows.md#workflow-status)
 
  
 ## Integration app workspace

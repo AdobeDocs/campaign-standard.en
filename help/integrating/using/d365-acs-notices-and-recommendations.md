@@ -69,7 +69,7 @@ Alternatively, if you have a separate process to manage opt-out synchronization 
 
 The bidirectional opt-out configuration uses logic to determine which value to write to both systems. The logic compares timestamps between the two systems (record-level change in Dynamics 365, attribute-level change in Campaign) to determine which system prevails. If Campaign contains the more recent timestamp, then the Campaign value prevails. If Dynamics 365 contains the more recent timestamp or if they are equal, then opt-out=TRUE will win (assuming one of the values is TRUE).
 
-Learn how to select opt-in/out options in [this section](../../developing/using/d365-acs-self-service-app-workflows.md#opt-in-out-wf).
+Learn how to select opt-in/out options in [this section](../../integrating/using/d365-acs-self-service-app-workflows.md#opt-in-out-wf).
 
 >[!NOTE]
 >
