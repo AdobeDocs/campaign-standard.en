@@ -74,7 +74,7 @@ Three systems need to be provisioned and configured for this integration:
 * **Microsoft Dynamics 365**: you need to create a new app registration and enable an application user to use the integration.  To configure Microsoft Dynamics 365 for this integration, refer to [this article](../../integrating/using/d365-acs-configure-d365.md).
 * **Adobe Campaign Standard integration with Dynamics 365 Self-Service App**: you will need to follow the steps in [this article](../../integrating/using/d365-acs-self-service-app-control-access.md).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >For each system, these steps need to be performed by an **administrator**.
 >

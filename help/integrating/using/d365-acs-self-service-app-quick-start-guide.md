@@ -40,8 +40,6 @@ You can then start with the integration tool. Follow the steps blow:
 1. [Configure the integration app for your usage](../../integrating/using/d365-acs-self-service-app-settings.md)
 1. [Implement data synchronization](../../integrating/using/d365-acs-self-service-app-data-sync.md)
 1. [Configure synchronization workflows](../../integrating/using/d365-acs-self-service-app-workflows.md)
-1. [Understand opt-in/opt-out options](../../integrating/using/d365-acs-self-service-app-optinout.md)
-
 
 ## Link to the integration app
 
