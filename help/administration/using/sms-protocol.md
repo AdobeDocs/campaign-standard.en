@@ -97,7 +97,7 @@ In the separated **Transmitter+receiver** mode, the connection used depends on t
 
 For example, when sending an MT, the transmitter connection is used and the `RESP` that acknowledges the MT is also sent through the transmitter channel. When you receive an MO (or an SR), the receiver connection is used to receive the MO and to send the `RESP` that acknowledges the MO.
 
-![](assets/sms_protocol_1.png)
+![](assets/do-not-localize/sms_protocol_1.png)
 
 In Adobe Campaign Standard, MT and SR reconciliation is native to the MTA, so there is no dedicated SMS process.
 
@@ -493,7 +493,7 @@ The window is the number of `SUBMIT_SM PDU`s that can be sent without waiting fo
 
 Example of a transmission with a maximum window of 4:
 
-![](assets/sms_protocol_2.png)
+![](assets/do-not-localize/sms_protocol_2.png)
 
 The window helps increase the throughput when the network link has a high latency.  The value of the window must be at least the number of SMS/s multiplied by the latency of the link in seconds so the connector is never waiting for a `SUBMIT_SM_RESP` before sending the next message.
 If the window is too big, you may send more duplicate messages in case of connection problems. Also, most providers have a very strict limit for the window and refuse messages that go over the limit.
@@ -751,7 +751,7 @@ The validity period is transmitted in the `validity_period` field of the `SUBMIT
 
 ## SMPP connector {#ACS-SMPP-connector}
 
-![](assets/sms_protocol_3.png)
+![](assets/do-not-localize/sms_protocol_3.png)
 
 Arrows represent data flow.
 
