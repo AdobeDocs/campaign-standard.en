@@ -9,7 +9,7 @@ topic-tags: working-with-campaign-and-microsoft-dynamics-365
 
 # Synchronize data 
 
-You can synchronize tables from Microsoft Dynamics 365 to Campaign and Campaign marketing metrics to Microsoft Dynamics 365.
+You can synchronize tables from Microsoft Dynamics 365 to Campaign and Campaign marketing metrics to Microsoft Dynamics 365. Synchronization is executed through three dedicated technical workflows: **Dynamics 365 to Adobe Campaign**, **Adobe Campaign to Dynamics 365**, **Opt-In/Out**. Refer to this section to [learn more](../../integrating/using/d365-acs-self-service-app-workflows.md).
 
 >[!IMPORTANT]
 >You need to stop/start the **[!UICONTROL Dynamics 365 to Campaign]** workflow to have your changes taken into account. [Learn more](../../integrating/using/d365-acs-self-service-app-workflows.md)
@@ -53,15 +53,15 @@ Here is a description of each of the columns in this table:
 
 To create a new mapping, follow the steps below:
 
-1. Click the **[!UICONTROL Add New Mapping]** button.
-
-  ![](assets/d365-to-acs-ui-page-ingress-choose-tables.png)
+1. in the **[!UICONTROL Microsoft Dynamics 365 to Campaign]** page, click the **[!UICONTROL Add New Mapping]** button.
   
 1. Use the drop-down lists to select Dynamics 365 and Campaign tables to map. 
   Most of the other inputs on the page will be dependent on which tables you choose. 
+
+      ![](assets/d365-to-acs-ui-page-ingress-choose-tables.png)
   
-  >[!NOTE]
-  >You cannot map each table more than once. Therefore, you will notice that the dropdown selections will not include tables that have already been mapped.
+    >[!NOTE]
+    >You cannot map each table more than once. Therefore, you will notice that the dropdown selections will not include tables that have already been mapped.
 
 1. Click **[!UICONTROL OK]** to confirm: the application will need a brief moment to read in field information associated with the selected tables.
 
@@ -190,3 +190,38 @@ The four metrics that you are able to control are: **Sends**, **Clicks**, **Open
 Select **Yes** to confirm that you do want events of that type to flow to Dynamics 365. 
 
 Click [here](../../integrating/using/d365-acs-self-service-app-workflows.md) for more information on these email event flows.
+
+## Opt in/out workflow {#opt-in-out-wf}
+
+The **Opt-In/Out** workflow allows you to identify the flow of the opt in/out information between Microsoft Dynamics 365 and Adobe Campaign. This assumes that the data is associated with the Microsoft Dynamics 365 entity "contact" and the Adobe Campaign resource "profile". 
+
+Learn more about Opt-out management in [this section](../../integrating/using/d365-acs-notices-and-recommendations.md#opt-out).
+
+Remember that you need to click "Save" to save your selections. Also remember that you must stop the "Campaign to Dynamics 365" workflow and then click play for the integration to incorporate your changes.
+
+![](assets/d365-to-acs-ui-page-workflows-optinout-disabled.png)
+
+### Opt in/out synchronization direction
+
+Below is the list of available options for synchronizing data:
+
+* **[!UICONTROL Disabled]**: when this option is selected, no opt in/out information will move between Adobe Campaign and Dynamics 365.
+
+* **[!UICONTROL Unidirectional (Dynamics 365 to Campaign)]**: this option is used to flow opt-in/out from Dynamics 365 to Adobe Campaign only. The integration application will not let you configure the flow in this screen; instead, click the **[!UICONTROL Save button]**, and navigate to the **[!UICONTROL Dynamics 365 to Adobe Campaign]** workflow. In this workflow, you can edit the contacts/profile table mapping to identify how you want your opt-in/out fields to map.
+
+* **[!UICONTROL Unidirectional (Campaign to Dynamics 365)]**: this option will make visible the **Mappings** section. These inputs will allow you define which Adobe Campaign fields will map data to what fields in Dynamics 365. This means that if you happen to manually update a value in Dynamics 365 then its value would be overwritten by the Adobe Campaign value if it happens to change.
+
+* **[!UICONTROL Bidirectional]**: this option will make visible the **Mappings** section. These pairs will identify which fields in Dynamics 365 and Adobe Campaign will map to each other. Visit the page  [Manage data between Campaign and Dynamics 365](../../integrating/using/d365-acs-notices-and-recommendations.md) for more information about how Bidirectional opt-in/out works.
+
+### Mappings
+
+This section only applies when the **[!UICONTROL Opt in/out synchronization direction]** field is set to **[!UICONTROL Unidirectional (Campaign to Dynamics 365)]** or **[!UICONTROL Bidirectional]**. You can define which fields in Dynamics 365 map to what inputs in Adobe Campaign.
+
+The Microsoft Dynamics 365 field names include all of those that are of type **boolean**.
+
+The Adobe Campaign field names are a fixed set of values specific to opt-in/out. 
+
+>[!NOTE]
+>
+> The set of values in this list cannot be changed.
+

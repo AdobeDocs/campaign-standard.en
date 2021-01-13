@@ -6,7 +6,7 @@ content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 ---
 
-# Configure the integration app
+# Connect systemps with the integration app
 
 ## Add credentials to the integration app
 

@@ -15,7 +15,7 @@ topic-tags: working-with-campaign-and-ms-dynamics
 
 For contact and custom entity synchronization, this integration treats **Microsoft Dynamics 365 as the source of truth**.  Any changes to synchronized attributes should be done in Dynamics 365 and not in Adobe Campaign Standard).  If changes are made in Campaign, they can eventually get overwritten in Campaign during synchronization, as synchronization is in one direction. 
 
-The integration can be optionally configured to issue profile delete calls to Campaign when a contact is deleted in Dynamics 365 to help maintain data integrity. However, a profile delete is different than a privacy delete. A privacy delete in Campaign will remove the Campaign profile record and associated log entries; whereas, a regular profile delete will only delete the Campaign profile record, leaving remnants behind in Campaign logs. If the profile delete feature is enabled in the integration, additional steps will need to be followed to properly process data subject privacy requests. Refer to the steps in the [section below](#manage-privacy-requests).
+The integration can be optionally configured to issue profile delete calls to Campaign when a contact is deleted in Dynamics 365 to help maintain data integrity. However, a profile delete is different than a privacy delete. A privacy delete in Campaign will remove the Campaign profile record and associated log entries; whereas, a regular profile delete will only delete the Campaign profile record, leaving remnants behind in Campaign logs. If the profile delete feature is enabled in the integration, additional steps will need to be followed to properly process data subject privacy requests. Refer to the steps in the [Privacy section below](#manage-privacy-requests).
 
 ## Privacy{#acs-msdyn-manage-privacy}
 
@@ -69,7 +69,7 @@ Alternatively, if you have a separate process to manage opt-out synchronization 
 
 The bidirectional opt-out configuration uses logic to determine which value to write to both systems. The logic compares timestamps between the two systems (record-level change in Dynamics 365, attribute-level change in Campaign) to determine which system prevails. If Campaign contains the more recent timestamp, then the Campaign value prevails. If Dynamics 365 contains the more recent timestamp or if they are equal, then opt-out=TRUE will win (assuming one of the values is TRUE).
 
-Learn how to select opt-in/out options in [this section](../../integrating/using/d365-acs-self-service-app-workflows.md#opt-in-out-wf).
+Learn how to select opt-in/out options in [this section](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf).
 
 >[!NOTE]
 >
@@ -175,7 +175,7 @@ The following guardrails should be taken into consideration when planning to use
 
 The integration was designed to solve the general use case of common data movement between Dynamics 365 and Campaign, but it is not intended to address every use case specific to each customer:
 
-* The integration does not issue any privacy (e.g., GDPR) deletes. The responsibility of fulfilling end-user privacy requests rests with the customer; such requests should be made in both Campaign (via the Adobe Experience Platform Privacy Service) and Dynamics 365 independently. The integration can issue regular deletes to help with data synchronization, if desired.   Review [this article](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-data) for more information.
+* The integration does not issue any privacy (e.g., GDPR) deletes. The responsibility of fulfilling end-user privacy requests rests with the customer; such requests should be made in both Campaign (via the Adobe Experience Platform Privacy Service) and Dynamics 365 independently. The integration can issue regular deletes to help with data synchronization, if desired.   Review [the Privacy section](#manage-privacy-requests) for more information.
 
 * No profile or custom entity data will be synchronized from Campaign to Dynamics 365, with the exception of opt-out information (if configured by the customer).
 
