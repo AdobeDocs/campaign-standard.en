@@ -157,7 +157,7 @@ Alternatively, if you have a separate process to manage opt-out synchronization 
 
 >[!NOTE]
 >
->In the integration application UI, the uni-directional ACS to Dynamics 365 and the bi-directional opt-out use cases are configured in a separate opt-out workflow. [Learn more](../../integrating/using/d365-acs-self-service-app-workflows.md#opt-in-out-wf).
+>In the integration application UI, the uni-directional ACS to Dynamics 365 and the bi-directional opt-out use cases are configured in a separate opt-out workflow. [Learn more](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf).
 >
 >The uni-directional Dynamics 365 to ACS opt-out use case is an exception; it is configured within the ingress (Contact to Profile) workflow.
 >

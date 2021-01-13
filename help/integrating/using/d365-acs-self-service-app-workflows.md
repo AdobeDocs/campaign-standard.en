@@ -24,7 +24,7 @@ The integration application comes with three workflows:
 * This is also known as **Egress** (referring to the egress of data from Adobe Campaign Standard to Dynamics 365)
 
 **Opt-In/Out**
-Opt-out statuses (e.g., denyList) can be synchronized from Dynamics 365 to Campaign or from Campaign to Dynamics 365. The data can also by synchronized bidirectionally (i.e. data flows in both directions). [Learn more](#opt-in-out-wf).
+Opt-out statuses (e.g., denyList) can be synchronized from Dynamics 365 to Campaign or from Campaign to Dynamics 365. The data can also by synchronized bidirectionally (i.e. data flows in both directions). [Learn more](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf).
 
 >[!IMPORTANT]
 >
@@ -62,36 +62,3 @@ It's important to understand that when you edit a workflow, your updates are NOT
 
   ![](assets/d365-to-acs-icon-stop-with-changes.png)
 
-## Opt in/out workflow {#opt-in-out-wf}
-
-The **Opt-In/Out** workflow allows you to identify the flow of the opt in/out information between Microsoft Dynamics 365 and Adobe Campaign. This assumes that the data is associated with the Microsoft Dynamics 365 entity "contact" and the Adobe Campaign resource "profile". 
-
-Learn more about Opt-out management in [this section](../../integrating/using/d365-acs-notices-and-recommendations.md#opt-out).
-
-Remember that you need to click "Save" to save your selections. Also remember that you must stop the "Campaign to Dynamics 365" workflow and then click play for the integration to incorporate your changes.
-
-![](assets/d365-to-acs-ui-page-workflows-optinout-disabled.png)
-
-### Opt in/out synchronization direction
-
-Below is the list of available options for synchronizing data:
-
-* **[!UICONTROL Disabled]**: when this option is selected, no opt in/out information will move between Adobe Campaign and Dynamics 365.
-
-* **[!UICONTROL Unidirectional (Dynamics 365 to Campaign)]**: this option is used to flow opt-in/out from Dynamics 365 to Adobe Campaign only. The integration application will not let you configure the flow in this screen; instead, click the **[!UICONTROL Save button]**, and navigate to the **[!UICONTROL Dynamics 365 to Adobe Campaign]** workflow. In this workflow, you can edit the contacts/profile table mapping to identify how you want your opt-in/out fields to map.
-
-* **[!UICONTROL Unidirectional (Campaign to Dynamics 365)]**: this option will make visible the **Mappings** section. These inputs will allow you define which Adobe Campaign fields will map data to what fields in Dynamics 365. This means that if you happen to manually update a value in Dynamics 365 then its value would be overwritten by the Adobe Campaign value if it happens to change.
-
-* **[!UICONTROL Bidirectional]**: this option will make visible the **Mappings** section. These pairs will identify which fields in Dynamics 365 and Adobe Campaign will map to each other. Visit the page  [Manage data between Campaign and Dynamics 365](../../integrating/using/d365-acs-notices-and-recommendations.md) for more information about how Bidirectional opt-in/out works.
-
-### Mappings
-
-This section only applies when the **[!UICONTROL Opt in/out synchronization direction]** field is set to **[!UICONTROL Unidirectional (Campaign to Dynamics 365)]** or **[!UICONTROL Bidirectional]**. You can define which fields in Dynamics 365 map to what inputs in Adobe Campaign.
-
-The Microsoft Dynamics 365 field names include all of those that are of type **boolean**.
-
-The Adobe Campaign field names are a fixed set of values specific to opt-in/out. 
-
->[!NOTE]
->
-> The set of values in this list cannot be changed.
