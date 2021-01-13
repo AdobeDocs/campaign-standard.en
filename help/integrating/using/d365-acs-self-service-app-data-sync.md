@@ -86,12 +86,12 @@ In this section you will learn how to configure a **single** mapping of one Micr
 You can define the following settings: 
 
 * **[!UICONTROL Tables]**: this section lists the name of the Dynamics 365 table and the Campaign table to which it will be mapped.   
-* **[!UICONTROL Field Mappings]**: learn more in [this section](#mappings)
+* **[!UICONTROL Field Mappings]**: learn more in [this section](#field-mappings)
 * **[!UICONTROL Field Replacements]**: learn more in [this section](#field-replacements)
 * **[!UICONTROL Filters]**: learn more in [this section](#filters)
 * **[!UICONTROL Advanced Settings]**: learn more in [this section](#advanced-settings)
 
-### Field Mappings {#mappings}
+### Field Mappings {#field-mappings}
 
 #### Primary Keys
 
