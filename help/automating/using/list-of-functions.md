@@ -420,11 +420,6 @@ This table contains the remaining functions avalaible.
    <td> GetEmailDomain(&lt;value&gt;)<br /> </td> 
   </tr>
   <tr> 
-   <td> <strong>GetOption</strong><br /> </td> 
-   <td> Returns the value of the specified function<br /> </td> 
-   <td> GetOption(&lt;optionName&gt;)<br /> </td> 
-  </tr> 
-  <tr> 
    <td> <strong>GetMirrorURL</strong><br /> </td> 
    <td> Retrieves the URL of the mirror page server<br /> </td> 
    <td> GetMirrorURL(&lt;value&gt;)<br /> </td> 
