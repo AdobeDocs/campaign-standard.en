@@ -63,6 +63,6 @@ Possible actions are listed below.
  
  A warning indication is added to the **Stop** button to let you know when you have (a) made updates to workflow, but (b) have not done a Stop/Start of this workflow. 
 
-  ![](assets/d365-to-acs-icon-stop-with-changes.png)
+![](assets/d365-to-acs-icon-stop-with-changes.png)
 
 When changes have occurred to the workflow that require it be stop/started.
