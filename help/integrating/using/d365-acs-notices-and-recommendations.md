@@ -21,7 +21,9 @@ The integration can be optionally configured to issue profile delete calls to Ca
 
 This integration is designed to transfer end user data between Microsoft Dynamics 365 and Adobe Campaign Standard. This data includes personal information if it is contained in your end user data.  As a data controller, your company is responsible for complying with any privacy laws and regulations applicable to your collection and use of personal data.
 
-The integration does not issue any data subject privacy (e.g., GDPR) deletes or handle any other privacy requests (with the exception of opt-out). When privacy requests, you will need to perform these independently in both Dynamics 365 and Campaign Standard.
+This integration is designed to transfer end user data (including, but not limited to, personal information, if it is contained in your end user data), between Microsoft Dynamics 365 and Adobe Campaign Standard. As a data controller, your company is responsible for complying with any privacy laws and regulations applicable to your collection and use of personal data.
+
+The integration does not issue any data subject privacy (e.g., GDPR) deletes or handle any other privacy requests (with the exception of opt-out). When processing privacy requests, you should do so in both Microsoft Dynamics 365 and Campaign (via the Adobe Experience Platform Privacy Service), independently.
 
 If you have configured the integration to issue regular profile delete calls to Campaign when a contact is deleted in Dynamics 365, the steps below should be followed. Ensure no updates are made to the record in question during this process.
 
@@ -37,9 +39,9 @@ If you have configured the integration to issue regular profile delete calls to 
 
 Below are links to help guide you in implementing access and/or delete privacy related requests in each system:
 
-* [Microsoft Dynamics 365](https://docs.microsoft.com/en-us/microsoft-365/compliance/gdpr-dsr-dynamics365?toc=/microsoft-365/enterprise/toc.json)
+* [Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/get-started/gdpr/)
 
-* [Adobe Campaign Standard](https://www.adobe.io/apis/experiencecloud/gdpr/docs.html)
+* [Adobe Campaign Standard](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)
 
 >[!IMPORTANT]
 >
