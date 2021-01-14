@@ -49,9 +49,10 @@ Open a browser and browse to the connector associated with your region:
 * [Europe, Middle East, or Africa (EMEA)](http://d365-acs-em.ea.adobe.com/)
 * [Americas](http://d365-acs-na.ea.adobe.com/)
 
->[!NOTE]
->
-> We suggest that you bookmark this link for future use.
+## Privacy Request Acknowledgement
+
+When browsing to the self-service UI for the first time, you will be presented with the privacy acknowledgement below. You need to acknowledge that you understand your role in performing privacy requests in Campaign and Microsoft Dynamics 365 separately before you can continue.
+Learn more about managing privacy requests in [this section](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy).
 
 ## Setting up your credentials
 
@@ -65,7 +66,7 @@ When you browse to the UI for the first time, then you should see a page with a 
 
 Please verify that the "ORG" and "INSTANCE" selections are the ones you plan to configure.  If not, then click on bring up a dropdown list and select the correct org and instance.   
 
->[!WARNING]
+>[!IMPORTANT]
 >
 > If you are configuring the connector for the first time and/or you are new to this process, then we **strongly** urge you to select the "stage" or "dev" instance. You'll want to make sure to verify that your configuration works well before attempting the setup in production.
 
@@ -73,7 +74,7 @@ If you have the correct org and instance, then click on the "hamburger" menu to 
 
 ![](assets/d365-to-acs-ui-page-workflows-menu-pointers.png)
 
-In the **Settings** page, fill out the following sections: 
+In the **[!UICONTROL Settings]** page, fill out the following sections: 
 
 * Microsoft Dynamics 365 Credentials
 * Adobe Credentials
