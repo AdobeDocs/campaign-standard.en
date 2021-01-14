@@ -78,6 +78,7 @@ From the **[!UICONTROL Products]**  page, select your Campaign instance and foll
 1. Click on the **[!UICONTROL Add Developer]** button
 
 1. Enter the name or email address of the user you want to add.  Select the result that matches the user.
-   * If this is the first time the user is getting added to the Org, enter details.
+   
+   If this is the first time the user is getting added to the Org, enter details.
 
 1. Click **[!UICONTROL Save]** to confirm.
