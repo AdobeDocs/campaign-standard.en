@@ -22,7 +22,7 @@ Please enable “profile extensions” in Adobe Campaign Standard.   This is nee
 
 ## Configure Adobe I/O {#adobe-io}
 
-Adobe I/O allows you to enable API access to Adobe Campaign Standard as well as other Adobe products.   This article will detail you to configure Adobe I/O in order to give the Adobe Campaign Standard integration with Dynamics 365 access to synchronize the data.  
+Adobe I/O allows you to enable API access to Adobe Campaign Standard as well as other Adobe products.   This article will detail how to configure Adobe I/O in order to give the Adobe Campaign Standard integration with Microsoft Dynamics 365 access to synchronize the data.
 
 ### Overview
 

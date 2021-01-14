@@ -23,7 +23,7 @@ The **[!UICONTROL Microsoft Dynamics 365 to Campaign]** page shows a list of ent
 
 Here is a description of each of the columns in this table:
 
-* **[!UICONTROL MICROSOFT DYNAMICS 365 TABLE]**: this column identifies which entity in Dynamics 365 will be the source of data for the mapping.
+* **[!UICONTROL MICROSOFT DYNAMICS 365 TABLE]**: this column identifies which entity in Microsoft Dynamics 365 will be the source of data for the mapping.
 
 * **[!UICONTROL CAMPAIGN TABLE]**: this column identifies which resource in Adobe Campaign will be the destination of data for the mapping.
 
@@ -33,20 +33,20 @@ Here is a description of each of the columns in this table:
   
   * Use the  **[!UICONTROL Delete]** icon to delete a table mapping.   
   
-  * Click the **[!UICONTROL Replay Data]** icon to re-synchronize all the data in the Dynamics 365 table. Normally the integration application will only synchronize the data in Dynamics 365 that has changed recently.  However, in some cases (e.g., you've made a change or made a mistake) you might want all the data to be re-synchronized.  In these cases, you would click this button and, the next time you stop/start the **[!UICONTROL Dynamics 365 to Campaign]** workflow, your data would start to synchronize.
+  * Click the **[!UICONTROL Replay Data]** icon to re-synchronize all the data in the Microsoft Dynamics 365 table. Normally the integration application will only synchronize the data in Microsoft Dynamics 365 that has changed recently.  However, in some cases (e.g., you've made a change or made a mistake) you might want all the data to be re-synchronized.  In these cases, you would click this button and, the next time you stop/start the **[!UICONTROL Microsoft Dynamics 365 to Campaign]** workflow, your data would start to synchronize.
     
-    If you click on the **[!UICONTROL Replay Data]** button and the checks are successful, the icon will become disabled: it indicates that the data for this table mapping pair will be re-synchronized with the next execution of the **[!UICONTROL Dynamics 365 to Campaign]** workflow.
+    If you click on the **[!UICONTROL Replay Data]** button and the checks are successful, the icon will become disabled: it indicates that the data for this table mapping pair will be re-synchronized with the next execution of the **[!UICONTROL Microsoft Dynamics 365 to Campaign]** workflow.
 
     You cannot select to replay the data when the following are true:
 
-    * If there are 2,000,000 (or more) items in the Backlog metric associated with the **[!UICONTROL Dynamics 365 to Campaign]** workflow (displayed in the **[!UICONTROL Workflows]** page)
-    * If there are 2,000,000 or more records in the Microsoft Dynamics 365 Table.
+    * If there are 2,000,000 (or more) items in the Backlog metric associated with the **[!UICONTROL Microsoft Dynamics 365 to Campaign]** workflow (displayed in the **[!UICONTROL Workflows]** page)
+    * If there are 2,000,000 or more records in the Microsoft Dynamics 365 Table
   
     The number of records that need to be re-synchronized varies. If you have a large number of records, it can take some time to complete the synchronization process. Refer to the **[!UICONTROL Backlog]** metric in the **[!UICONTROL Workflows]** page as the integration application works to complete the syncing process.
     
     >[!IMPORTANT]
     >
-    > It is strongly recommended you stop the integration workflow when publishing changes to either Adobe Campaign Standard or Microsoft Dynamics 365. Applicable changes include: updates to resources/entities (and their associated fields), links, identifier columns, etc. that are currently in use by tbe integration. 
+    > It is strongly recommended you stop the integration workflow when publishing changes to either Adobe Campaign Standard or Microsoft Dynamics 365. Applicable changes include: updates to resources/entities (and their associated fields), links, identifier columns, etc. that are currently in use by the integration. 
     >
 
 ## Create a new mapping {#add-a-new-mapping}
@@ -55,7 +55,7 @@ To create a new mapping, follow the steps below:
 
 1. in the **[!UICONTROL Microsoft Dynamics 365 to Campaign]** page, click the **[!UICONTROL Add New Mapping]** button.
   
-1. Use the drop-down lists to select Dynamics 365 and Campaign tables to map. 
+1. Use the drop-down lists to select Microsoft Dynamics 365 and Campaign tables to map. 
   Most of the other inputs on the page will be dependent on which tables you choose. 
 
       ![](assets/d365-to-acs-ui-page-ingress-choose-tables.png)
@@ -73,11 +73,11 @@ You can then proceed with the mapping configuration. [Learn more](#new-mapping-s
 
 ### Edit an existing mapping
 
-If you edit an existing mapping then you will see that the table selections are not editable (see below).   
+If you edit an existing mapping then you will see that the table selections are not editable.   
 
 ![](assets/d365-to-acs-ui-page-ingress-table-read-only.png)
 
-This is by design because the inputs further down in the page are based on the fields associated with these tables. Changing the tables would make all the fields associated with these tables invalid.    If you want to change the table to map to, you will need to return to the previous page, delete the mapping you want to change, and add a new mapping.
+This is by design because the inputs further down in the page are based on the fields associated with these tables. Changing the tables would make all the fields associated with these tables invalid.  If you want to change the table to map to, you will need to return to the previous page, delete the mapping you want to change, and add a new mapping.
 
 ### Configure an individual table mapping {#new-mapping-settings}
 
@@ -85,7 +85,7 @@ In this section you will learn how to configure a **single** mapping of one Micr
 
 You can define the following settings: 
 
-* **[!UICONTROL Tables]**: this section lists the name of the Dynamics 365 table and the Campaign table to which it will be mapped.   
+* **[!UICONTROL Tables]**: this section lists the name of the Microsoft Dynamics 365 table and the Campaign table to which it will be mapped.   
 * **[!UICONTROL Field Mappings]**: learn more in [this section](#field-mappings)
 * **[!UICONTROL Field Replacements]**: learn more in [this section](#field-replacements)
 * **[!UICONTROL Filters]**: learn more in [this section](#filters)
@@ -95,11 +95,11 @@ You can define the following settings:
 
 #### Primary Keys
 
-When adding a new Dynamics 365 to Campaign table mapping, you need to identify the ID field. 
+When adding a new Microsoft Dynamics 365 to Campaign table mapping, you need to identify the ID field. 
 
 ![](assets/d365-to-acs-ui-page-ingress-mappings-first-key.png)
 
-The Dynamics 365 primary key is read-only because the application will detect it. 
+The Microsoft Dynamics 365 primary key is read-only because the application will detect it. 
 
 For Campaign, you need to select which field will be the unique key. It must be configured as a [CRM ID custom resource](../../developing/using/uc-calling-resource-id-key.md) and must have no duplicates.
 
@@ -115,7 +115,7 @@ The primary keys will always be the first field names listed in the **[!UICONTRO
 
 The **[!UICONTROL Field Mappings]** section allows you to add field mappings other than the Primary Keys. To add a new mapping of a field from Dynamics 365 to Adobe Campaign, click the **[!UICONTROL Add new field mapping]** button.
 
-Select Microsoft Dynamics and Campaign fiel-ds in the lists:
+Select Microsoft Dynamics and Campaign fields in the lists:
 
 ![](assets/d365-to-acs-ui-page-ingress-new-field-mapping.png)
 
@@ -145,26 +145,26 @@ Use the **[!UICONTROL Add New Field Replacement]** button to define a new field 
 
 Field replacements allow you to identify:
 
-* a Dynamics 365 field name (that has been added above in the field mappings section), 
-* an existing value (which exists in Dynamics 365), and 
+* a Microsoft Dynamics 365 field name (that has been added above in the field mappings section), 
+* an existing value (which exists in Microsoft Dynamics 365), and 
 * a new value to write to Adobe Campaign
 
 A dropdown list will be provided for picklist, enumeration, and boolean values. A text box will be used for other string and numeric types.
 
 ### Filters {#filters}
 
-Use the **[!UICONTROL Add New Filter]** button to select which Dynamics 365 records will be propagated to Campaign. You can choose any field associated with a record to add to filters (the field name does not need to be added to the field mappings).
+Use the **[!UICONTROL Add New Filter]** button to select which Microsoft Dynamics 365 records will be propagated to Campaign. You can choose any field associated with a record to add to filters (the field name does not need to be added to the field mappings).
 
 You specify a filter by filling out the following information:
 
-* Dynamics 365 field name
+* Microsoft Dynamics 365 field name
 * a comparison value, and
-* a value (from Dynamics 365)
+* a value (from Microsoft Dynamics 365)
 If the field name, comparison, and value evaluates to true for a given record, then the record will be propagated to Adobe Campaign.
 
 You can choose how these filters are evaluated by setting the input labeled **[!UICONTROL Choose the filter comparison operator]**.  If you choose **And**, all of the filters must be true for a record to get propagated to Campaign. If you choose **Or**, the record will get propagated if any of them evaluate to true.
 
-The option **[!UICONTROL Do you want to delete records in ACS that will be filtered out from Dynamics 365?]** controls whether you want records that have filtered out to be deleted from Campaign. If you select **No** then the records will remain in Adobe Campaign. Select **Yes** to have them deleted by the integration logic.
+The option **[!UICONTROL Do you want to delete records in Adobe Campaign Standard that will be filtered out from Microsoft Dynamics 365?]** controls whether you want records that have filtered out to be deleted from Campaign. If you select **No** then the records will remain in Adobe Campaign. Select **Yes** to have them deleted by the integration logic.
 
 >[!NOTE]
 >
@@ -175,11 +175,11 @@ The option **[!UICONTROL Do you want to delete records in ACS that will be filte
 
 You can set up the following additional options when configuring a mapping:
 
-* Set the **[!UICONTROL Apply deletes in Dynamics 365 to Campaign?]** option to **Yes**, if you want to propagate deletions that occur in Dynamics 365 to the corresponding field in Adobe Campaign (based on the field name mapping). Select **No** to ignore deletions in Dynamics 365.
+* Set the **[!UICONTROL Apply deletes in Microsoft Dynamics 365 to Campaign?]** option to **Yes**, if you want to propagate deletions that occur in Microsoft Dynamics 365 to the corresponding field in Adobe Campaign (based on the field name mapping). Select **No** to ignore deletions in Microsoft Dynamics 365.
 
-* Set the **[!UICONTROL Use technical values in Dynamics 365 picklists?]** option to **No** if you want to propagate to Campaign the display value associated with a Dynamics 365 picklist. Select **Yes** to propagate the technical value.
+* Set the **[!UICONTROL Use technical values in Microsoft Dynamics 365 picklists?]** option to **No** if you want to propagate to Campaign the display value associated with a Microsoft Dynamics 365 picklist. Select **Yes** to propagate the technical value.
 
-## Sychronize Campaign marketing events to Microsoft Dynamics
+## Synchronize Campaign marketing events to Microsoft Dynamics 365
 
 The **[!UICONTROL Campaign to Microsoft Dynamics 365]** page allows you to identify which email marketing events will be mapped from Adobe Campaign to Microsoft Dynamics 365. 
 
@@ -197,7 +197,7 @@ The **Opt-In/Out** workflow allows you to identify the flow of the opt in/out in
 
 Learn more about Opt-out management in [this section](../../integrating/using/d365-acs-notices-and-recommendations.md#opt-out).
 
-Remember that you need to click "Save" to save your selections. Also remember that you must stop the "Campaign to Dynamics 365" workflow and then click play for the integration to incorporate your changes.
+Remember that you need to click "Save" to save your selections. Also remember that you must stop the **Campaign to Microsoft Dynamics 365** workflow and then click play for the integration to incorporate your changes.
 
 ![](assets/d365-to-acs-ui-page-workflows-optinout-disabled.png)
 
@@ -207,15 +207,15 @@ Below is the list of available options for synchronizing data:
 
 * **[!UICONTROL Disabled]**: when this option is selected, no opt in/out information will move between Adobe Campaign and Dynamics 365.
 
-* **[!UICONTROL Unidirectional (Dynamics 365 to Campaign)]**: this option is used to flow opt-in/out from Dynamics 365 to Adobe Campaign only. The integration application will not let you configure the flow in this screen; instead, click the **[!UICONTROL Save button]**, and navigate to the **[!UICONTROL Dynamics 365 to Adobe Campaign]** workflow. In this workflow, you can edit the contacts/profile table mapping to identify how you want your opt-in/out fields to map.
+* **[!UICONTROL Unidirectional (Microsoft Dynamics 365 to Campaign)]**: this option is used to flow opt-in/out from Microsoft Dynamics 365 to Adobe Campaign only. The integration application will not let you configure the flow in this screen; instead, click the **[!UICONTROL Save button]**, and navigate to the **[!UICONTROL Microsoft Dynamics 365 to Adobe Campaign]** workflow. In this workflow, you can edit the contacts/profile table mapping to identify how you want your opt-in/out fields to map.
 
-* **[!UICONTROL Unidirectional (Campaign to Dynamics 365)]**: this option will make visible the **Mappings** section. These inputs will allow you define which Adobe Campaign fields will map data to what fields in Dynamics 365. This means that if you happen to manually update a value in Dynamics 365 then its value would be overwritten by the Adobe Campaign value if it happens to change.
+* **[!UICONTROL Unidirectional (Campaign to Microsoft Dynamics 365)]**: this option will make visible the **Mappings** section. These inputs will allow you define which Adobe Campaign fields will map data to what fields in Microsoft Dynamics 365. This means that if you happen to manually update a value in Microsoft Dynamics 365 then its value would be overwritten by the Adobe Campaign value if it happens to change.
 
-* **[!UICONTROL Bidirectional]**: this option will make visible the **Mappings** section. These pairs will identify which fields in Dynamics 365 and Adobe Campaign will map to each other. Visit the page  [Manage data between Campaign and Dynamics 365](../../integrating/using/d365-acs-notices-and-recommendations.md) for more information about how Bidirectional opt-in/out works.
+* **[!UICONTROL Bidirectional]**: this option will make visible the **Mappings** section. These pairs will identify which fields in Microsoft Dynamics 365 and Adobe Campaign will map to each other. [Learn more](../../integrating/using/d365-acs-notices-and-recommendations.md).
 
 ### Mappings
 
-This section only applies when the **[!UICONTROL Opt in/out synchronization direction]** field is set to **[!UICONTROL Unidirectional (Campaign to Dynamics 365)]** or **[!UICONTROL Bidirectional]**. You can define which fields in Dynamics 365 map to what inputs in Adobe Campaign.
+This section only applies when the **[!UICONTROL Opt in/out synchronization direction]** field is set to **[!UICONTROL Unidirectional (Campaign to Dynamics 365)]** or **[!UICONTROL Bidirectional]**. You can define which fields in Microsoft Dynamics 365 map to what inputs in Adobe Campaign.
 
 The Microsoft Dynamics 365 field names include all of those that are of type **boolean**.
 

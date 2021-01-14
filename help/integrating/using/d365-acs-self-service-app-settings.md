@@ -6,7 +6,7 @@ content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 ---
 
-# Connect systemps with the integration app
+# Connect systems with the integration app
 
 ## Add credentials to the integration app
 
@@ -14,8 +14,7 @@ The **[!UICONTROL Settings]** screen allows you to specify Microsoft Dynamics 36
 
 ### Microsoft Dynamics 365 Credentials
 
-The Microsoft Dynamics 365 Credentials give the integration application permission to pull your data from Microsoft Dynamics 365.  You must first follow the steps on the screen 
-[Configure Dynamics 365 for Campaign integration](../../integrating/using/d365-acs-configure-d365.md) in order to generate the values that will be pasted into this screen. The inputs described below will reference this screen.
+The Microsoft Dynamics 365 Credentials give the integration application permission to pull your data from Microsoft Dynamics 365.  You must first follow the steps on the screen [Configure Microsoft Dynamics 365 for Campaign integration](../../integrating/using/d365-acs-configure-d365.md) in order to generate the values that will be pasted into this screen. The inputs described below will reference this screen.
 
 ![](assets/d365-to-acs-ui-page-workflows-settings-d365.png)
 
@@ -35,13 +34,13 @@ The following image will explain in detail the mapping between Adobe I/O and the
 
 ![](assets/d365-to-acs-ui-page-workflows-settings-adobeio.png)
 
-* *Private Key*: the process to to define this starts by clicking the "Generate public/private keypair" button. This will create a zip file that you must download. Once you download it then unzip the file which will result in two files named certificate_pub.crt and private.key. Make sure to put the private.key is a secure place and don't share it. Open the private.key file in a text editor. Copy the entire value in the text editor (ctrl-A then ctrl-C on a PC, or  cmd-A then cmd-C on a Mac). This should include the lines with "BEGIN PRIVATE KEY" and "END PRIVATE KEY" in their entirety. Paste this entire, multi-line text into the "Private Key" input in the Settings screen.
+* *Private Key*: the process to to define this starts by clicking the "Generate public/private keypair" button. This will create a zip file that you must download. Once you download it then unzip the file which will result in two files named certificate_pub.crt and private.key. Make sure to put the private.key in a secure place and do not share it. Open the private.key file in a text editor. Copy the entire value in the text editor (ctrl-A then ctrl-C on a PC, or  cmd-A then cmd-C on a Mac). This should include the lines with "BEGIN PRIVATE KEY" and "END PRIVATE KEY" in their entirety. Paste this entire, multi-line text into the "Private Key" input in the Settings screen.
 
 * *URL*: This value will fit the pattern https\://mc.adobe.io/&lt;campaign-instance-name&gt;. The header of the integration app includes both the "Org" and "Instance". The "campaign-instance-name" portion of the url would simply be the name found in this instance value.
 
 ## Adobe Campaign SFTP Settings
 
-These settings need to be defined if you plan on using the Adobe Campaign SFTP instance. One reason to use the SFTP instance is if you ever want to output logs from the connector. This will be helpful if you experience issues when the integration is running and you need to debug why the output does not meet your  expectations.   The other reason to setup the SFTP server would be if you plan on running the Opt in/out workflow and there is a flow of data from Adobe Campaign to Dynamics 365 (either "Unidirectional Adobe Campaign to Dynamics 365" or "Bidirectional").
+These settings need to be defined if you plan on using the Adobe Campaign SFTP instance. One reason to use the SFTP instance is if you ever want to output logs from the connector. This will be helpful if you experience issues when the integration is running and you need to debug why the output does not meet your  expectations.   The other reason to setup the SFTP server would be if you plan on running the Opt in/out workflow and there is a flow of data from Adobe Campaign to Microsoft Dynamics 365 (either "Unidirectional Adobe Campaign to Dynamics 365" or "Bidirectional").
 
 ![](assets/d365-to-acs-ui-page-workflows-settings-sftp.png)
 
