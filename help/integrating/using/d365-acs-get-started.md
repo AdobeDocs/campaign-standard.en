@@ -61,10 +61,14 @@ Please follow the flowchart and flowchart details below to request and configure
 Flowchart Details (maps to steps above):
 
 * **Step 1** - It is assumed that you already have, or are in the process of procuring, a license for Microsoft Dynamics 365 for Sales and for Adobe Campaign Standard.
-* **Step 2** - The standard integration offering is free to all customers; however, additional costs may apply depending on your requirements. Learn more about [Best practices and limitations](../../integrating/using/d365-acs-notices-and-recommendations.md)). A new sales order (SO) will need to be signed in order to take advantage of the integration if it was not included in the original SO.
+* **Step 2** - The standard integration offering is free to all customers; however, additional costs may apply depending on your requirements. Learn more about [Best practices and limitations](../../integrating/using/d365-acs-notices-and-recommendations.md). A new sales order (SO) will need to be signed in order to take advantage of the integration if it was not included in the original SO.
 * **Step 3** - Complete pre-integration steps for Dynamics 365 and Campaign. See [Configure this integration](#configure-this-integration).
 * **Step 4** - The Adobe onboarding team will provide you access to the integration application user interface (UI).
 * **Step 5** - You will be able to configure your data mappings, replacements, filters, etc. and test your integration from within the integration application UI.
+  
+    >[!IMPORTANT]
+    >
+    > If you require the bidirectional or Campaign to Dynamics 365 opt-out configuration, you will need to make the request to your Adobe technical contact for the opt-out workflows to be set up on your Campaign instance. [Learn more](../../integrating/using/d365-acs-notices-and-recommendations.md#opt-out).
 
 ### Configure this integration {#configure-this-integration}
 
@@ -72,13 +76,13 @@ Three systems need to be provisioned and configured for this integration:
 
 * **Adobe Campaign Standard**: you need to set up API access and configure a new integration for the integration tool. To achieve this, refer to [this article](../../integrating/using/d365-acs-configure-adobe-io.md).
 * **Microsoft Dynamics 365**: you need to create a new app registration and enable an application user to use the integration.  To configure Microsoft Dynamics 365 for this integration, refer to [this article](../../integrating/using/d365-acs-configure-d365.md).
-* **Adobe Campaign Standard integration with Dynamics 365 Self-Service App**: you will need to follow the steps in [this article](../../integrating/using/d365-acs-self-service-app-control-access.md).
+* **Adobe Campaign Standard integration with Microsoft Dynamics 365 Self-Service App**: you will need to follow the steps in [this article](../../integrating/using/d365-acs-self-service-app-control-access.md).
 
 >[!IMPORTANT]
 >
 >For each system, these steps need to be performed by an **administrator**.
 >
->Steps in thi documentation will guide you through creating integrations/registrations that involve assigning permissions and/or admin access.  It is your responsibility to ensure these steps comply with your company policies before performing, and to perform them carefully.
+>Steps in this documentation will guide you through creating integrations/registrations that involve assigning permissions and/or admin access.  It is your responsibility to ensure these steps comply with your company policies before performing, and to perform them carefully.
 >
 
 ### Request support
@@ -89,7 +93,7 @@ For any issues with integration data flows, make sure to include the report suit
 
 * **Process Owner**: Engineering Architects
 * **ES Process ID**: Provided during onboarding process
-* **Process Title**: Dynamics 365 / Adobe Campaign Standard Integration
+* **Process Title**: Microsoft Dynamics 365 / Adobe Campaign Standard Integration
 * **Issue Description**: Description of the issue
 
 Integration support coverage is currently 24x5 (available Monday through Friday, excluding Adobe holidays and break periods).
