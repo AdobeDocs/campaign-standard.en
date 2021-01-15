@@ -16,17 +16,32 @@ An integrated customer profile is available for each contact of your database. T
 To access the integrated customer profile, steps are as follows:
 
 1. From the Adobe Campaign home page, click the **[!UICONTROL Customer profiles]** card or the **Profiles** tab.
-1. Select a contact.
+
+1. The list of all profiles display. Campaign Standard allows you to search a profile based on a specific field. To do this, follow these steps:
+
+   1. Open the Search pane, then select the field on which you want to perform your search.
+
+      Search can be performed on all out-of-the-box fields as well as custom fields that have been added to the Profile resource list configuration (see [Defining the default list configuration](./..lp/developing/using/configuring-the-screen-definition.md#defining-the-default-list-configuration).
+
+   1. A search box or drop-down list displays below the selected option. Fill in the value that you want to search.
+
+      >[!NOTE]
+      >
+      >Note searches are case-sensitive and performed on prefixes only. For example, you will not be able to look up for a profile using his last name's last letters.
+
+   1. Press Enter to launch the search and display the results.
+
+1. Select a contact to open its profile.
 
    ![](assets/mkt_hist_access.png)
 
 You can then access the **Marketing history** of this contact.
 
-![](assets/mkt_hist_view.png)
-
 Key information about the profile is gathered in this page, as well as the list of events.
+   
+Click an event in the list to open it: you can access the messages which have been sent or the services which the profile has subscribed to.
 
-Click an event in the list to open it: you can access the message which has been sent or the service which the profile has subscribed to.
+![](assets/mkt_hist_view.png)
 
 >[!NOTE]
 >
