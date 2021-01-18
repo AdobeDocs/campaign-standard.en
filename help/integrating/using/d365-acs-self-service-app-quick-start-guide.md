@@ -17,10 +17,10 @@ Before starting with the integration tool, you need to understand the concepts a
 
 Learn more in these sections:
 
-* [Get Started with Dynamics 365 integration](../../integrating/using/d365-acs-get-started.md)
+* [Get Started with Microsoft Dynamics 365 integration](../../integrating/using/d365-acs-get-started.md)
 * [Integration best practices and limitations](../../integrating/using/d365-acs-notices-and-recommendations.md)
 * [Learn key steps to implement this integration](../../integrating/using/d365-acs-get-started.md#request-and-implement-this-integration)
-* [Use the Dynamics 365 integration](../../integrating/using/d365-acs-using-the-integration.md)
+* [Use the Microsoft Dynamics 365 integration](../../integrating/using/d365-acs-using-the-integration.md)
 
 ## Prerequisites 
 
@@ -28,9 +28,9 @@ You need to configure Microsoft Dynamics 365 and Adobe Campaign Standard so that
 
 Learn more in these sections:
 
-* [Configure Dynamics 365 for Campaign integration](../../integrating/using/d365-acs-configure-d365.md)
+* [Configure Microsoft Dynamics 365 for Campaign integration](../../integrating/using/d365-acs-configure-d365.md)
 * [Configure Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md)
-* [Map Campaign custom resources and Dynamics 365 custom entities](../../integrating/using/d365-acs-notices-and-recommendations.md)
+* [Map Campaign custom resources and Microsoft Dynamics 365 custom entities](../../integrating/using/d365-acs-notices-and-recommendations.md)
 
 ## Key steps to configure the self-service integration app
 
@@ -51,8 +51,8 @@ Open a browser and browse to the connector associated with your region:
 
 ## Privacy Request Acknowledgement
 
-When browsing to the self-service UI for the first time, you will be presented with the privacy acknowledgement below. You need to acknowledge that you understand your role in performing privacy requests in Campaign and Microsoft Dynamics 365 separately before you can continue.
-Learn more about managing privacy requests in [this section](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy).
+When browsing to the self-service UI for the first time, you will be presented with the privacy acknowledgement. You need to acknowledge that you understand your role in performing privacy requests in Campaign and Microsoft Dynamics 365 separately before you can continue.
+Learn more about your privacy responsibilities and about how to manage privacy requests in [this section](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy).
 
 ## Setting up your credentials
 
@@ -62,15 +62,15 @@ When you browse to the UI for the first time, then you should see a page with a 
 
 >[!NOTE]
 >
-> It's normal to get alerts that mention that it's "unable to connect" to Adobe Campaign Standard or Dynamics 365 if the app settings have not yet been configured.
+> It's normal to get alerts that mention that it's "unable to connect" to Adobe Campaign Standard or Microsoft Dynamics 365 if the app settings have not yet been configured.
 
-Please verify that the "ORG" and "INSTANCE" selections are the ones you plan to configure.  If not, then click on bring up a dropdown list and select the correct org and instance.   
+Please verify that the "ORG" and "INSTANCE" selections are the ones you plan to configure.  If not, then click on the dropdown list and select the correct org and instance.   
 
 >[!IMPORTANT]
 >
 > If you are configuring the connector for the first time and/or you are new to this process, then we **strongly** urge you to select the "stage" or "dev" instance. You'll want to make sure to verify that your configuration works well before attempting the setup in production.
 
-If you have the correct org and instance, then click on the "hamburger" menu to expose a drop down menu. Then click **Settings...** in the drop down menu to visit the page where you enter your credentials for Dynamics 365 and Campaign (see below).
+If you have the correct org and instance, then click on the "hamburger" menu to expose a drop down menu. Then click **Settings...** in the drop down menu to visit the page where you enter your credentials for Microsoft Dynamics 365 and Campaign (see below).
 
 ![](assets/d365-to-acs-ui-page-workflows-menu-pointers.png)
 
@@ -93,7 +93,7 @@ In the **[!UICONTROL Dynamics 365 to Campaign]** page, you can access the list o
 
 ![](assets/d365-to-acs-ui-page-ingress-top-pointers.png)
 
-In the **[!UICONTROL Edit Table Mapping]** page, check the **[!UICONTROL Mappings]** section to ensure that fields from Dynamics 365 are being mapped to the correct field in Campaign. If you need to add any other mappings, do so now, as well as any replacements or filters. [Learn more](../../integrating/using/d365-acs-self-service-app-data-sync.md).
+In the **[!UICONTROL Edit Table Mapping]** page, check the **[!UICONTROL Mappings]** section to ensure that fields from Microsoft Dynamics 365 are being mapped to the correct field in Campaign. If you need to add any other mappings, do so now, as well as any replacements or filters. [Learn more](../../integrating/using/d365-acs-self-service-app-data-sync.md).
 
 If you want to add new mappings, refer to [this section](../../integrating/using/d365-acs-self-service-app-data-sync.md#add-a-new-mapping) for more information.
 
@@ -106,7 +106,7 @@ Once your configuration is correct, click the **[!UICONTROL Play]** button next 
 
 ![](assets/d365-to-acs-ui-page-workflows-ingress-play-pointer.png)
 
-Once running, you should be able to test by adding or modifying entries in Dynamics 365 and observing those changes in Adobe Campaign within a few minutes. If at any time you need to stop this process, then simply press the same button to stop it. [Learn more](../../integrating/using/d365-acs-self-service-app-workflows.md#workflow-status)
+Once running, you should be able to test by adding or modifying entries in Microsoft Dynamics 365 and observing those changes in Adobe Campaign within a few minutes. If at any time you need to stop this process, then simply press the same button to stop it. [Learn more](../../integrating/using/d365-acs-self-service-app-workflows.md#workflow-status)
 
  
 ## Integration app workspace
@@ -115,20 +115,13 @@ Once running, you should be able to test by adding or modifying entries in Dynam
 
 The header within the self-service app allows you define which org and instance you are currently viewing and/or configuring.
 
-The Org in the header allows you to choose which of the Experience Cloud organizations you want to view/edit. It appears read-only; however, it becomes editable when you put your mouse cursor over it.
+Select the **ORG** and the **INSTANCE** you want to view/edit. These fields appear read-only, however, they become editable when you put your mouse cursor over it.
 
-![](assets/d365-to-acs-header-org.png)
+A dropdown menu will be displayed when you click the button with the three horizontal lines ![](assets/d365-to-acs-icon-hamburger.png) on the right hand side of the header.
 
-The Instance in the header allows you to choose which of the Adobe Campaign instances you want to view/edit.   It appears read-only; however, it becomes editable when you put your mouse cursor over it.
-
-![](assets/d365-to-acs-header-instance.png)
-
-A dropdown menu will be displayed when you click the button with the three horizontal lines (a.k.a hamburger) on the 
-right hand side of the header (it looks like this: ![](assets/d365-to-acs-icon-hamburger.png))
- 
 The entries in the dropdown menu are 
  
-* **Settings**: Selecting this option will send you to a screen that allows you to specify API credentials for Dynamics 365 and Adobe Campaign, as well as other general settings for the application.
+* **Settings**: Selecting this option will send you to a screen that allows you to specify API credentials for Microsoft Dynamics 365 and Adobe Campaign, as well as other general settings for the application.
    
 * **Documentation**: This option is a link to the Adobe Campaign Documentation specific to this integration
 
@@ -152,7 +145,7 @@ Below is an example from the **[!UICONTROL Edit Table Mapping]** screen that is 
 
 The following icons are used in multiple pages in the self-service app.
 
-![](assets/d365-to-acs-icon-add.png)  - Add a new item to a list.
+![](assets/d365-to-acs-icon-add.png) - Add a new item to a list.
 
 ![](assets/d365-to-acs-icon-edit.png) - Edit something that already exists
 

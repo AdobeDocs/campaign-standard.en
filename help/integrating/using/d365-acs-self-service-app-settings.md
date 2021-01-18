@@ -38,9 +38,14 @@ The following image will explain in detail the mapping between Adobe I/O and the
 
 * *URL*: This value will fit the pattern https\://mc.adobe.io/&lt;campaign-instance-name&gt;. The header of the integration app includes both the "Org" and "Instance". The "campaign-instance-name" portion of the url would simply be the name found in this instance value.
 
+>[!IMPORTANT]
+>
+>You are responsible for the information you access and download from the SFTP folders. If the information contains personal data, you are responsible for complying with any applicable privacy laws and regulations. [Learn more](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy).
+>
+
 ## Adobe Campaign SFTP Settings
 
-These settings need to be defined if you plan on using the Adobe Campaign SFTP instance. One reason to use the SFTP instance is if you ever want to output logs from the connector. This will be helpful if you experience issues when the integration is running and you need to debug why the output does not meet your  expectations.   The other reason to setup the SFTP server would be if you plan on running the Opt in/out workflow and there is a flow of data from Adobe Campaign to Microsoft Dynamics 365 (either "Unidirectional Adobe Campaign to Dynamics 365" or "Bidirectional").
+These settings need to be defined if you plan on using the Adobe Campaign SFTP instance. One reason to use the SFTP instance is if you ever want to output logs from the connector. This will be helpful if you experience issues when the integration is running and you need to debug why the output does not meet your  expectations.   The other reason to setup the SFTP server would be if you plan on running the Opt in/out workflow and there is a flow of data from Adobe Campaign to Microsoft Dynamics 365, either **[!UICONTROL Unidirectional (Microsoft Dynamics 365 to Campaign)]** or **[!UICONTROL Bidirectional]**.
 
 ![](assets/d365-to-acs-ui-page-workflows-settings-sftp.png)
 
