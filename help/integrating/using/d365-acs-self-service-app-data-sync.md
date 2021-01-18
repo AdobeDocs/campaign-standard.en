@@ -9,10 +9,10 @@ topic-tags: working-with-campaign-and-microsoft-dynamics-365
 
 # Synchronize data 
 
-You can synchronize tables from Microsoft Dynamics 365 to Campaign and Campaign marketing metrics to Microsoft Dynamics 365. Synchronization is executed through three dedicated technical workflows: **Dynamics 365 to Adobe Campaign**, **Adobe Campaign to Dynamics 365**, **Opt-In/Out**. Refer to this section to [learn more](../../integrating/using/d365-acs-self-service-app-workflows.md).
+You can synchronize tables from Microsoft Dynamics 365 to Campaign and Campaign marketing metrics to Microsoft Dynamics 365. Synchronization is executed through three dedicated technical workflows: **Microsoft Dynamics 365 to Adobe Campaign**, **Adobe Campaign to Microsoft Dynamics 365**, **Opt-In/Out**. Refer to this section to [learn more](../../integrating/using/d365-acs-self-service-app-workflows.md).
 
 >[!IMPORTANT]
->You need to stop/start the **[!UICONTROL Dynamics 365 to Campaign]** workflow to have your changes taken into account. [Learn more](../../integrating/using/d365-acs-self-service-app-workflows.md)
+>You need to stop/start the **[!UICONTROL Microsoft Dynamics 365 to Adobe Campaign]** workflow to have your changes taken into account. [Learn more](../../integrating/using/d365-acs-self-service-app-workflows.md)
 >
 
 ## Map tables from Microsoft Dynamics 365 to Campaign
@@ -113,18 +113,18 @@ The primary keys will always be the first field names listed in the **[!UICONTRO
 
 #### Add other field mappings
 
-The **[!UICONTROL Field Mappings]** section allows you to add field mappings other than the Primary Keys. To add a new mapping of a field from Dynamics 365 to Adobe Campaign, click the **[!UICONTROL Add new field mapping]** button.
+The **[!UICONTROL Field Mappings]** section allows you to add field mappings other than the Primary Keys. To add a new mapping of a field from Microsoft Dynamics 365 to Adobe Campaign, click the **[!UICONTROL Add new field mapping]** button.
 
 Select Microsoft Dynamics and Campaign fields in the lists:
 
 ![](assets/d365-to-acs-ui-page-ingress-new-field-mapping.png)
 
-These lists contain the field names that are associated with the Dynamics 365 and Campaign tables you have selected at the top of the page. 
+These lists contain the field names that are associated with the Microsoft Dynamics 365 and Campaign tables you have selected at the top of the page. 
 
-The **[!UICONTROL Apply updates]** switcher allows you to control whether updates to this field will be propagated from Dynamics 365 to Campaign:
-* If it is switched on ![](assets/d365-to-acs-icon-switch-on.png), updates to the value(s) in Dynamics 365 will be propagated to Adobe Campaign as the updates occur. 
+The **[!UICONTROL Apply updates]** switcher allows you to control whether updates to this field will be propagated from Microsoft Dynamics 365 to Campaign:
+* If it is switched on ![](assets/d365-to-acs-icon-switch-on.png), updates to the value(s) in Microsoft Dynamics 365 will be propagated to Adobe Campaign as the updates occur. 
 
-* If you switched off ![](assets/d365-to-acs-icon-switch-off.png), the value will be propagated when data is initially loaded (or replayed), but incremental updates to the field in Dynamics 365 will not be propagated.  
+* If you switched off ![](assets/d365-to-acs-icon-switch-off.png), the value will be propagated when data is initially loaded (or replayed), but incremental updates to the field in Microsoft Dynamics 365 will not be propagated.  
 
 >[!NOTE]
 >
@@ -137,7 +137,7 @@ When you select field values, you will see the data type show up below the drop 
 
 >[!NOTE]
 >
-> You cannot map multiple Dynamics 365 fields to a single Campaign field.
+> You cannot map multiple Microsoft Dynamics 365 fields to a single Campaign field.
 
 ### Field Replacements {#field-replacements}
 
@@ -187,7 +187,7 @@ The four metrics that you are able to control are: **Sends**, **Clicks**, **Open
 
 ![](assets/d365-to-acs-ui-page-workflows-egress.png) 
 
-Select **Yes** to confirm that you do want events of that type to flow to Dynamics 365. 
+Select **Yes** to confirm that you do want events of that type to flow to Microsoft Dynamics 365. 
 
 Click [here](../../integrating/using/d365-acs-self-service-app-workflows.md) for more information on these email event flows.
 
@@ -205,7 +205,7 @@ Remember that you need to click "Save" to save your selections. Also remember th
 
 Below is the list of available options for synchronizing data:
 
-* **[!UICONTROL Disabled]**: when this option is selected, no opt in/out information will move between Adobe Campaign and Dynamics 365.
+* **[!UICONTROL Disabled]**: when this option is selected, no opt in/out information will move between Adobe Campaign and Microsoft Dynamics 365.
 
 * **[!UICONTROL Unidirectional (Microsoft Dynamics 365 to Campaign)]**: this option is used to flow opt-in/out from Microsoft Dynamics 365 to Adobe Campaign only. The integration application will not let you configure the flow in this screen; instead, click the **[!UICONTROL Save button]**, and navigate to the **[!UICONTROL Microsoft Dynamics 365 to Adobe Campaign]** workflow. In this workflow, you can edit the contacts/profile table mapping to identify how you want your opt-in/out fields to map.
 
@@ -215,13 +215,8 @@ Below is the list of available options for synchronizing data:
 
 ### Mappings
 
-This section only applies when the **[!UICONTROL Opt in/out synchronization direction]** field is set to **[!UICONTROL Unidirectional (Campaign to Dynamics 365)]** or **[!UICONTROL Bidirectional]**. You can define which fields in Microsoft Dynamics 365 map to what inputs in Adobe Campaign.
+This section only applies when the Opt-in/out synchronization direction field is set to **[!UICONTROL Unidirectional (Campaign to Microsoft Dynamics 365)]** or **[!UICONTROL Bidirectional]**. You can define which fields in Microsoft Dynamics 365 map to what inputs in Adobe Campaign.
 
 The Microsoft Dynamics 365 field names include all of those that are of type **boolean**.
 
-The Adobe Campaign field names are a fixed set of values specific to opt-in/out. 
-
->[!NOTE]
->
-> The set of values in this list cannot be changed.
-
+The Adobe Campaign field names are a fixed set of values specific to opt-in/out. The Adobe Campaign field names are a fixed set of values specific to opt-in/out. **The set of values in this list cannot be changed**.

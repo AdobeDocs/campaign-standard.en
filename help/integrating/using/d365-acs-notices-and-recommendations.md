@@ -92,6 +92,11 @@ Your Campaign SFTP storage will need to be utilized by the integration in the us
 | Bidirectional and Unidirectional (Campaign to Microsoft Dynamics 365) | Bidirectional and Unidirectional (Campaign to Microsoft Dynamics 365) opt-out data flows will utilize the Campaign SFTP storage. A Campaign workflow will export incremental changes to the SFTP folder. From there, the integration will pick up the records and process. |
 | Opt-out logs | Output logs from the connector will be helpful when troubleshooting the integration. Output logs can be toggled on/off. |
 
+
+>[!IMPORTANT]
+>
+>You are responsible for the information you access and download from the SFTP folders. If the information contains personal data, you are responsible for complying with any applicable privacy laws and regulations. [Learn more](#acs-msdyn-manage-privacy).
+
 ## Data management
 
 ### Existing Campaign data

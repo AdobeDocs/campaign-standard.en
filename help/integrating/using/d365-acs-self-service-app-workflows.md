@@ -19,13 +19,13 @@ The integration application comes with three workflows:
 * *Custom entities*: Bring in custom tables from Microsoft Dynamics 365 to Adobe Campaign. [Learn more](../../integrating/using/d365-acs-using-the-integration.md#data-flows)
 * This is also known as **Ingress** (referring to the ingress of data from Microsoft Dynamics 365 to Adobe Campaign)
 
-**Adobe Campaign to Dynamics 365**
+**Adobe Campaign to Microsoft Dynamics 365**
 * Email marketing events from Adobe Campaign Sandard are sent to Dynmics 365 (email send, open, click, bounce). [Learn more](../../integrating/using/d365-acs-using-the-integration.md#email-marketing-event-flow)
-* This is also known as **Egress** (referring to the egress of data from Adobe Campaign Standard to Dynamics 365)
+* This is also known as **Egress** (referring to the egress of data from Adobe Campaign to Microsoft Dynamics 365)
 
 **Opt-In/Out**
 
-Opt-out statuses (e.g., denyList) can be synchronized from Dynamics 365 to Campaign or from Campaign to Dynamics 365. The data can also by synchronized bidirectionally (i.e. data flows in both directions). [Learn more](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf).
+Opt-out statuses (e.g., denyList) can be synchronized from Microsoft Dynamics 365 to Adobe Campaign or from Adobe Campaign to Microsoft Dynamics 365. The data can also by synchronized bidirectionally (i.e. data flows in both directions). [Learn more](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf).
 
 >[!IMPORTANT]
 >
@@ -33,10 +33,11 @@ Opt-out statuses (e.g., denyList) can be synchronized from Dynamics 365 to Campa
 
 ## Workflow backlog
 
-This integration application first reads in data and then writes data to the destination. The **[!UICONTROL Backlog]** column indicates the number of records that have been queued and are waiting to be written. This value is expected to grow when you run a large amount of data to process (e.g., you are running the integration for the first time, you are replaying the data, etc.). 
+This integration application first reads in data and then writes data to the destination. The **[!UICONTROL Backlog]** column indicates the number of records that have been queued and are waiting to be written. This value is expected to grow when you have a large amount of data to process (e.g., you are running the integration for the first time, you are replaying the data, etc.). 
 
 >[!NOTE]
 >If your Microsoft Dynamics 365 and/or Campaign records are not updating, you should first check to see if there is a large number of records waiting to be written to the destination.
+>
 
 ## Workflow status {#workflow-status}
 
@@ -64,5 +65,3 @@ Possible actions are listed below.
  A warning indication is added to the **Stop** button to let you know when you have (a) made updates to workflow, but (b) have not done a Stop/Start of this workflow. 
 
 ![](assets/d365-to-acs-icon-stop-with-changes.png)
-
-When changes have occurred to the workflow that require it be stop/started.
