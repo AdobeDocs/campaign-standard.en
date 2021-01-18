@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 ---
 
-# Get started with the self-service integration app
+# Get started with the self-service integration app {#gs-self-service-app}
 
 The Adobe Campaign Standard integration with Microsoft Dynamics 365 self-service integration application gives you the ability to configure data flows, control whether or not they are running, and in which environment. You must, however, complete some prerequisites before you begin using the self-service integration application.
 
@@ -22,7 +22,7 @@ Learn more in these sections:
 * [Learn key steps to implement this integration](../../integrating/using/d365-acs-get-started.md#request-and-implement-this-integration)
 * [Use the Microsoft Dynamics 365 integration](../../integrating/using/d365-acs-using-the-integration.md)
 
-## Prerequisites 
+## Prerequisites {#self-service-app-prerequisites}
 
 You need to configure Microsoft Dynamics 365 and Adobe Campaign Standard so that the integration app has access to your data. This will take some time to configure in Dynamics 365, Adobe Campaign Standard, and Adobe I/O; however, once they are configured, you'll be able to control the integration through the self-service integration application's user interface. 
 
@@ -32,7 +32,7 @@ Learn more in these sections:
 * [Configure Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md)
 * [Map Campaign custom resources and Microsoft Dynamics 365 custom entities](../../integrating/using/d365-acs-notices-and-recommendations.md)
 
-## Key steps to configure the self-service integration app
+## Key steps to configure the self-service integration app {#self-service-app-configuration-steps}
 
 You can then start with the integration tool. Follow the steps blow:
 
@@ -41,7 +41,7 @@ You can then start with the integration tool. Follow the steps blow:
 1. [Implement data synchronization](../../integrating/using/d365-acs-self-service-app-data-sync.md)
 1. [Configure synchronization workflows](../../integrating/using/d365-acs-self-service-app-workflows.md)
 
-## Link to the integration app
+## Link to the integration app {#self-service-app-link}
 
 Open a browser and browse to the connector associated with your region:
 
@@ -49,12 +49,12 @@ Open a browser and browse to the connector associated with your region:
 * [Europe, Middle East, or Africa (EMEA)](http://d365-acs-em.ea.adobe.com/)
 * [Americas](http://d365-acs-na.ea.adobe.com/)
 
-## Privacy Request Acknowledgement
+## Privacy request acknowledgement {#self-service-app-acknowledgement}
 
 When browsing to the self-service UI for the first time, you will be presented with the privacy acknowledgement. You need to acknowledge that you understand your role in performing privacy requests in Campaign and Microsoft Dynamics 365 separately before you can continue.
 Learn more about your privacy responsibilities and about how to manage privacy requests in [this section](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy).
 
-## Setting up your credentials
+## Setting up your credentials {#self-service-app-credentials}
 
 When you browse to the UI for the first time, then you should see a page with a header that looks like this:    
 
@@ -70,7 +70,7 @@ Please verify that the "ORG" and "INSTANCE" selections are the ones you plan to 
 >
 > If you are configuring the connector for the first time and/or you are new to this process, then we **strongly** urge you to select the "stage" or "dev" instance. You'll want to make sure to verify that your configuration works well before attempting the setup in production.
 
-If you have the correct org and instance, then click on the "hamburger" menu to expose a drop down menu. Then click **Settings...** in the drop down menu to visit the page where you enter your credentials for Microsoft Dynamics 365 and Campaign (see below).
+If you have the correct org and instance, then click on the "hamburger" menu to expose a drop down menu. Then click **[!UICONTROL Settings...]** in the drop down menu to visit the page where you enter your credentials for Microsoft Dynamics 365 and Campaign (see below).
 
 ![](assets/d365-to-acs-ui-page-workflows-menu-pointers.png)
 
@@ -81,15 +81,15 @@ In the **[!UICONTROL Settings]** page, fill out the following sections:
   
 Go [here](../../integrating/using/d365-acs-self-service-app-settings.md) to find more detailed information about where to find the information  for each input. When you are done, click the **[!UICONTROL Save]** button at the bottom.
 
-## Check the initial configuration
+## Check the initial configuration {#self-service-app-initial-config}
 
 Assuming that you have completed the pre-requisites above and have correctly add all your credentials, let's now navigate to the **[!UICONTROL Workflows]** page. Learn more about the integration app workflows in [this page](../../integrating/using/d365-acs-self-service-app-workflows.md).
 
-In the  **[!UICONTROL Workflows]** page, click the pencil icon associated with the **[!UICONTROL Dynamics 365 to Campaign]** workflow to edit its configuration.
+In the  **[!UICONTROL Workflows]** page, click the pencil icon associated with the **[!UICONTROL Microsoft Dynamics 365 to Adobe Campaign]** workflow to edit its configuration.
 
 ![](assets/d365-to-acs-ui-page-workflows-ingress-edit-pointer.png)
 
-In the **[!UICONTROL Dynamics 365 to Campaign]** page, you can access the list of the table mappings that you have configured.  It will default you to a contact/profile mapping out-of-the-box. All other custom entities will need to be configured separately. 
+In the **[!UICONTROL Microsoft Dynamics 365 to Adobe Campaign]** page, you can access the list of the table mappings that you have configured.  It will default you to a contact/profile mapping out-of-the-box. All other custom entities will need to be configured separately. 
 
 ![](assets/d365-to-acs-ui-page-ingress-top-pointers.png)
 
@@ -97,7 +97,7 @@ In the **[!UICONTROL Edit Table Mapping]** page, check the **[!UICONTROL Mapping
 
 If you want to add new mappings, refer to [this section](../../integrating/using/d365-acs-self-service-app-data-sync.md#add-a-new-mapping) for more information.
 
-Once your configuration is correct, click the **[!UICONTROL Play]** button next to the **[!UICONTROL Dynamics 365 to Campaign]** workflow in order to start the integration and the flow of data.  
+Once your configuration is correct, click the **[!UICONTROL Play]** button next to the **[!UICONTROL Microsoft Dynamics 365 to Adobe Campaign]** workflow in order to start the integration and the flow of data.  
 
 >[!IMPORTANT]
 >
@@ -109,9 +109,9 @@ Once your configuration is correct, click the **[!UICONTROL Play]** button next 
 Once running, you should be able to test by adding or modifying entries in Microsoft Dynamics 365 and observing those changes in Adobe Campaign within a few minutes. If at any time you need to stop this process, then simply press the same button to stop it. [Learn more](../../integrating/using/d365-acs-self-service-app-workflows.md#workflow-status)
 
  
-## Integration app workspace
+## Integration app workspace {#self-service-app-workspace}
 
-### Header
+### App header {#app-header}
 
 The header within the self-service app allows you define which org and instance you are currently viewing and/or configuring.
 
@@ -131,17 +131,17 @@ The entries in the dropdown menu are
 
 * **About**: This displays a dialog that contains information about the application, including copyright information.
 
-### Breadcrumbs
+### Breadcrumbs {#app-breadcrumbs}
 
 Breadcrumbs appear at the top of some screens as you navigate the app.
 
 **Example:**
 
-Below is an example from the **[!UICONTROL Edit Table Mapping]** screen that is showing the breadcrumbs and the page title. In this case, you can click on the **[!UICONTROL Workflows]** or **[!UICONTROL Dynamics 365 to Campaign]** text to go to one of the previous screens. **[!UICONTROL Edit Table Mapping]** in the breadcrumbs is not clickable in this case because it is the current screen.
+Below is an example from the **[!UICONTROL Edit Table Mapping]** screen that is showing the breadcrumbs and the page title. In this case, you can click on the **[!UICONTROL Workflows]** or **[!UICONTROL Microsoft Dynamics 365 to Campaign]** text to go to one of the previous screens. **[!UICONTROL Edit Table Mapping]** in the breadcrumbs is not clickable in this case because it is the current screen.
 
 ![](assets/d365-to-acs-breadcrumbs-ingress.png)
 
-### Common Buttons
+### Common buttons {#app-buttons}
 
 The following icons are used in multiple pages in the self-service app.
 
