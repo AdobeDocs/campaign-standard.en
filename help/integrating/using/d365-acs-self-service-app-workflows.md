@@ -14,12 +14,12 @@ The integration application comes with three workflows:
 
 ![](assets/d365-to-acs-ui-page-workflows.png)
 
-**Microsoft Dynamics 365 to Adobe Campaign**
+**Microsoft Dynamics 365 to Campaign**
 * Send *contacts* from Microsoft Dynamics 365 into Adobe Campaign
 * *Custom entities*: Bring in custom tables from Microsoft Dynamics 365 to Adobe Campaign. [Learn more](../../integrating/using/d365-acs-using-the-integration.md#data-flows)
 * This is also known as **Ingress** (referring to the ingress of data from Microsoft Dynamics 365 to Adobe Campaign)
 
-**Adobe Campaign to Microsoft Dynamics 365**
+**Campaign to Microsoft Dynamics 365**
 * Email marketing events from Adobe Campaign Sandard are sent to Dynmics 365 (email send, open, click, bounce). [Learn more](../../integrating/using/d365-acs-using-the-integration.md#email-marketing-event-flow)
 * This is also known as **Egress** (referring to the egress of data from Adobe Campaign to Microsoft Dynamics 365)
 
@@ -29,7 +29,7 @@ Opt-out statuses (e.g., denyList) can be synchronized from Microsoft Dynamics 36
 
 >[!IMPORTANT]
 >
->It is strongly recommended that you stop the **Microsoft Dynamics 365 to Adobe Campaign** workflow before publishing changes to either Adobe Campaign Standard or Microsoft Dynamics 365. These changes include updates to resources/entities (and their associated fields), links, identifier columns, etc… that are currently in use by the integration. Failure to do so could lead to data loss and/or the workflow stopping unexpectedly.
+>It is strongly recommended that you stop the **Microsoft Dynamics 365 to Campaign** workflow before publishing changes to either Adobe Campaign Standard or Microsoft Dynamics 365. These changes include updates to resources/entities (and their associated fields), links, identifier columns, etc… that are currently in use by the integration. Failure to do so could lead to data loss and/or the workflow stopping unexpectedly.
 
 ## Workflow backlog
 

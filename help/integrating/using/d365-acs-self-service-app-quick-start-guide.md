@@ -85,11 +85,11 @@ Go [here](../../integrating/using/d365-acs-self-service-app-settings.md) to find
 
 Assuming that you have completed the pre-requisites above and have correctly add all your credentials, let's now navigate to the **[!UICONTROL Workflows]** page. Learn more about the integration app workflows in [this page](../../integrating/using/d365-acs-self-service-app-workflows.md).
 
-In the  **[!UICONTROL Workflows]** page, click the pencil icon associated with the **[!UICONTROL Microsoft Dynamics 365 to Adobe Campaign]** workflow to edit its configuration.
+In the  **[!UICONTROL Workflows]** page, click the pencil icon associated with the **[!UICONTROL Microsoft Dynamics 365 to Campaign]** workflow to edit its configuration.
 
 ![](assets/d365-to-acs-ui-page-workflows-ingress-edit-pointer.png)
 
-In the **[!UICONTROL Microsoft Dynamics 365 to Adobe Campaign]** page, you can access the list of the table mappings that you have configured.  It will default you to a contact/profile mapping out-of-the-box. All other custom entities will need to be configured separately. 
+In the **[!UICONTROL Microsoft Dynamics 365 to Campaign]** page, you can access the list of the table mappings that you have configured.  It will default you to a contact/profile mapping out-of-the-box. All other custom entities will need to be configured separately. 
 
 ![](assets/d365-to-acs-ui-page-ingress-top-pointers.png)
 
@@ -97,7 +97,7 @@ In the **[!UICONTROL Edit Table Mapping]** page, check the **[!UICONTROL Mapping
 
 If you want to add new mappings, refer to [this section](../../integrating/using/d365-acs-self-service-app-data-sync.md#add-a-new-mapping) for more information.
 
-Once your configuration is correct, click the **[!UICONTROL Play]** button next to the **[!UICONTROL Microsoft Dynamics 365 to Adobe Campaign]** workflow in order to start the integration and the flow of data.  
+Once your configuration is correct, click the **[!UICONTROL Play]** button next to the **[!UICONTROL Microsoft Dynamics 365 to Campaign]** workflow in order to start the integration and the flow of data.  
 
 >[!IMPORTANT]
 >
