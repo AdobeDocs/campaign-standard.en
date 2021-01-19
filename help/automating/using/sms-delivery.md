@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: SMS delivery
 description: The SMS delivery activity allows you to configure sending a single send SMS or a recurring SMS in a workflow.
-page-status-flag: never-activated
-uuid: 736078c6-ac91-4440-825b-4a6ae31894ef
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: channel-activities
-discoiquuid: 978592b8-989a-446a-8a84-12b7fecfc130
 context-tags: sms,main;delivery,smsContent,back
-internal: n
-snippet: y
 ---
 
 # SMS delivery{#sms-delivery}

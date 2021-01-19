@@ -1,22 +1,17 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Key steps to send a message
 description: Follow these steps to create and send messages with Adobe Campaign.
-page-status-flag: never-activated
-uuid: d3fbb1e6-6444-4b56-b9d6-ae39bd8d4804
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
-discoiquuid: a51351ee-e3b6-4996-9e68-b7d5157b8207
 
-internal: n
-snippet: y
 ---
 
 # Key steps to send a message{#key-steps-to-send-a-message}
 
-To learn the delivery best practices, consult the [Delivery best practices](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html) getting started.
+To learn the delivery best practices, consult the [Delivery best practices](../../sending/using/delivery-best-practices.md) section.
 
 The steps to create and send messages are as follows:
 

@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Controlling email content in Adobe Campaign Standard
 description: Learn how to improve deliverability in Adobe Campaign Standard when editing your email content.
-page-status-flag: never-activated
-uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
-internal: n
-snippet: y
 ---
 
 # Controlling email content{#control-email-content}
@@ -34,14 +29,6 @@ Certain ISPs check the validity of the sender address (From) before accepting me
 ![](assets/delivery_content_edition16.png)
 
 For more on this, see [Personalizing the sender name](../../designing/using/personalization.md#personalizing-the-sender).
-  
-## Subject line {#subject-line}
-
-When editing an email, you can try out different subject lines and get an estimation of its open rate before you send it. For more on this, see [Testing the subject line of an email](../../sending/using/testing-subject-line-email.md).
-
-![](assets/predictive_subject_line_example.png)
-
-For more on defining the subject line of an email, see [this section](../../designing/using/subject-line.md).
   
 ## Send time optimization {#send-time-optimization}
 

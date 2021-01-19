@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Get started with communication channels
-description: Learn how to send personalized messages on various channels and to create cross-channel campaigns to better target your recipients.
-page-status-flag: never-activated
-uuid: 5d61d8df-8256-4f28-8dd3-e791891e312f
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
+description: Create personalized messages on various channels, use templates, create landing pages and check best practices.
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
-discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
 
-internal: n
-snippet: y
 ---
 
 # Get started with communication channels {#discovering-communication-channels}
@@ -71,10 +66,11 @@ Transactional messages are available for the email, SMS and push notification ch
 
 Read more:
 
-* [About transactional messaging](../../channels/using/getting-started-with-transactional-msg.md)
 * [Getting started with transactional messaging](../../channels/using/getting-started-with-transactional-msg.md)
-* [Event transactional messages](../../channels/using/event-transactional-messages.md)
-* [Profile transactional messages](../../channels/using/profile-transactional-messages.md)
+* [Configuring a transactional event](../../channels/using/configuring-transactional-event.md)
+* [Publishing a transactional event](../../channels/using/publishing-transactional-event.md)
+* [Editing a transactional message](../../channels/using/editing-transactional-message.md)
+* [Publishing a transactional message](../../channels/using/publishing-transactional-message.md)
 * [Transactional push notifications](../../channels/using/transactional-push-notifications.md)
 * [Follow-up messages](../../channels/using/follow-up-messages.md)
 
@@ -96,7 +92,7 @@ Read more:
 ## Additional resources
 
 * [Optimizing your deliverability](../../sending/using/about-deliverability.md)
-* [Delivery best practices](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+* [Delivery best practices](../../sending/using/delivery-best-practices.md)
 * [Designing an email content](../../designing/using/designing-content-in-adobe-campaign.md)
 * [Importing an AEM content](../../integrating/using/creating-email-experience-manager.md)
 * [Sending messages with workflows](../../automating/using/about-channel-activities.md)

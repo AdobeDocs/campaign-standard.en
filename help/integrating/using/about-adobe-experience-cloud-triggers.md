@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: About Adobe Experience Cloud Triggers
 description: By tracking specific behaviors from customers with Adobe Analytics, you can now send personalized emails to your customers in Adobe Campaign.
-page-status-flag: never-activated
-uuid: 0aa4bd6e-1bb5-4d0b-913b-eca93f050acd
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-discoiquuid: e526b205-2d01-4a8b-9685-ba1d9a1f459f
 context-tags: trigger,overview;trigger,main
-internal: n
-snippet: y
 ---
 
 # About Adobe Experience Cloud Triggers{#about-adobe-experience-cloud-triggers}

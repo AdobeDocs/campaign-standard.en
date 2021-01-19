@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Configuring the Campaign-Target integration
 description: Learn how to configure the Adobe Target integration to start using dynamic content in Adobe Campaign.
-page-status-flag: never-activated
-uuid: 0df5701c-dc26-4c30-9af9-ebf92815d90c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
-discoiquuid: f7fb2084-dd6f-4aa2-940f-e48713146635
 
-internal: n
-snippet: y
 ---
 
 # Configuring the Campaign-Target integration{#configuring-the-campaign-target-integration}

@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Designing content in Adobe Campaign
-description: Learn about all the elements that you can define in your contents with Adobe Campaign.
-page-status-flag: never-activated
-uuid: 8f73407f-ab90-46bc-aeb6-bd87fcb0404c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
+description: Create email content starting from scratch, importing HTML or leveraging existing templates.
 audience: designing
 content-type: reference
 topic-tags: about-content-design
-discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 
-internal: n
-snippet: y
 ---
 
 # Campaign Email Designer{#designing-content-in-adobe-campaign}
@@ -19,15 +14,15 @@ snippet: y
 Once you have created an email in Adobe Campaign, you need to define its content.
 
 The Email Designer enables you to create captivating, individually tailored emails through a drag and drop
-interface augmented by native Creative Cloud integrations. Whether you're starting from a blank slate, or leveraging existing content fragments or templates, design and refine all content for every email, whether promotional or transactional.
+interface. Whether you're starting from a blank slate, or leveraging existing content fragments or templates, design and refine all content for every email, whether promotional or transactional.
 
 Built to deliver HTML optimized for responsive design, the Email Designer allows you to easily define and apply visibility conditions and dynamic content to an email, template, or fragment directly through the user interface. You can seamlessly switch betwing the drag and drop interface and HTML code at the click of a button.
 
 The Email Designer allows you to create email content and email content templates. It is compatible with simple emails, transactional emails, A/B test emails, multilingual emails, and recurring emails.
 
-To get started with the Email Designer, watch this [set of videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) that explain the general functionality of the Email Designer and how to design an email from scratch or using templates.
-
 <!--The Email Designer has more features than the Legacy Editor and is backward compatible.-->
+
+![](assets/do-not-localize/how-to-video.png) [Discover the Email Designer in video](#video)
 
 * To discover how to create email content, see [Get started with the Email Designer](../../designing/using/quick-start.md).
 * For an overview of the Email Designer, see [Using the Email Designer](../../designing/using/designing-content-in-adobe-campaign.md).
@@ -151,6 +146,8 @@ When it comes to fragments, please note the following:
 
 * When editing styles, only the web fonts officially supported by most email clients are available.
 * Styles cannot be saved as a theme for future reuse. However, the CSS style can be saved in a content template or in an email. For more on styles, see [this section](../../designing/using/styles.md).
+* Referrer meta tag is not supported in the Email designer.
+* Surrogate pairs, characters not included in the Basic Multilingual Plane of the Unicode character set, cannot be stored in 2 bytes (16bits) and need to get encoded into 2 UTF-16 characters. These characters include some CJK ideographs, most emojis and some languages.<br>These characters can cause some incompatibility issues in dynamic text. You need to perform strong tests before sending your messages.
 
 **Related topics**
 
@@ -158,3 +155,11 @@ When it comes to fragments, please note the following:
 * [Designing a landing page](../../channels/using/designing-a-landing-page.md)
 * [Creating an SMS message](../../channels/using/creating-an-sms-message.md)
 * [Creating and sending a push notification](../../channels/using/preparing-and-sending-a-push-notification.md)
+
+## Tutorial video {#video}
+
+This video provides an overview of the Email Designer.
+
+>[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
+
+To get started with the Email Designer, watch this [set of videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) that explain the general functionality of the Email Designer and how to design an email from scratch or using templates

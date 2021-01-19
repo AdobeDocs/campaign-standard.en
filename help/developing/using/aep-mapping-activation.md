@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Mapping activation
 description: Learn how to activate your data mapping
-page-status-flag: never-activated
-uuid: 867b1c4b-4c79-4c52-9d0a-ef71993e50a2
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 
-internal: n
-snippet: y
 ---
 
 # Mapping activation {#mapping-activation}
@@ -38,9 +33,29 @@ If you want to monitor all the data export jobs, go to **[!UICONTROL Administrat
 
 ![](assets/aep_statusmapping.png)
 
-Data ingestion job statuses:
+Data ingestion job statuses are:
 
 * **[!UICONTROL Created]**: A data ingestion job is created and data ingestion is in progress.
 * **[!UICONTROL Failed]**: A data ingestion job has failed. The reason field describes the reason for the failure. Failure can be transient or permanent. In case of transient failures, a new ingestion job is created after a configured interval. As a first step to troubleshooting, user can check the reason field of the failure. If the reason redirects a user to Adobe Experience Platform UI, user can login to Adobe Experience Platform and can check the batch status in the dataset to determine exact failure reason. 
 * **[!UICONTROL Uploaded]**: A batch is first created in Adobe Experience Platform and data is then ingested to the batch. Batch ID field shows the batch id for the batch in Adobe Experience Platform. Adobe Experience Platform also performs a post validation on the batch. The batch is first marked as uploaded until Adobe Experience Platform completes the post validation step. A job keeps polling Adobe Experience Platform for the status of the batch after uploading. A batch can go either in Failed or in Success state post validation in Adobe Experience Platform.
 * **[!UICONTROL Success]**: After a batch is uploaded to Adobe Experience Platform, the status of the job (post validation in platform) is checked after a configured interval. A status ‘Success’ identified a successful ingestion of data in Adobe Experience Platform.
+
+In some cases, you may get the validation error below when publishing your mapping.
+
+![](assets/aep_datamapping_ccpa.png)
+
+This occurs when the XDM schema you are using has not been updated with the latest XDM field related to privacy management and still contains the deprecated "ccpa" XDM field.
+
+To update the XDM schema, follow these steps:
+
+1. Go to the dataset on Adobe Experience Platform using the link present on the XDM mapping page.
+
+1. Navigate to your XDM schema.
+
+1. Add the "Provile Privacy" mixin to the schema.
+
+    ![](assets/aep_datamapping_privacyfield.png)
+
+1. Save the schema, then retry publishing the mapping. The publication should now pass.
+
+    ![](assets/aep_save_mapping.png)

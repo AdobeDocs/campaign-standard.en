@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Fatigue rules
 description: Create fatigue rules to manage over-communication with profiles.
-page-status-flag: never-activated
-uuid: fa5e3ded-36c2-4f16-b97a-119b85adf679
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
-discoiquuid: 4337a80b-0fb9-4a37-bce3-fe2121a66586
 
-internal: n
-snippet: y
 ---
 
 # Fatigue rules{#fatigue-rules}

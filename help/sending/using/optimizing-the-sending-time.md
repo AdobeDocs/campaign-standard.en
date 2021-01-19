@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Optimizing the sending time
 description: Learn how to set up sending time and improve the open rate of your messages.
-page-status-flag: never-activated
-uuid: c2c13934-9819-4e18-b5c7-60915c907f37
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-discoiquuid: 609355f6-9003-41b9-9981-ea787419fbf5
 
-internal: n
-snippet: y
 ---
 
 # Optimizing the sending time{#optimizing-the-sending-time}

@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Preparing the send
 description: Learn how to define preparation before the send.
-page-status-flag: never-activated
-uuid: 1038dae2-164c-4579-9294-bdf2a4eb12d6
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
-discoiquuid: 003abc83-7f07-471f-ab2f-1d352d22c26f
 
-internal: n
-snippet: y
 ---
 
 # Preparing the send{#preparing-the-send}

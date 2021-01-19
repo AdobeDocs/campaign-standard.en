@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Monitoring a delivery in Adobe Campaign Standard
 description: Discover how to monitor a delivery in Adobe Campaign Standard.
-page-status-flag: never-activated
-uuid: 7772c607-debd-40fd-8322-4d49119979b4
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-discoiquuid: eb9fa216-4568-423a-9396-8f7b82181ae9
 context-tags: delivery,main
-internal: n
-snippet: y
 ---
 
 # Monitoring a delivery{#monitoring-a-delivery}

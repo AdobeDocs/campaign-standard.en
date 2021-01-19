@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Computing the sending date
 description: Discover how to send a message at a specific date and time.
-page-status-flag: never-activated
-uuid: fbbb37a0-7257-4407-a4c9-f76bf04460d4
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-discoiquuid: 02a87cc6-c40c-44fe-bb4e-b68870a4859b
 
-internal: n
-snippet: y
 ---
 
 # Computing the sending date{#computing-the-sending-date}

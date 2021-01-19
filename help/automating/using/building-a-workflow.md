@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Building a workflow
 description: This section details the main principles and best practices for creating a new workflow.
-page-status-flag: never-activated
-uuid: 11374f64-8d34-40da-937b-09f419250f4c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
-discoiquuid: c26fcb0e-19d5-4bd5-b7d6-2d22ce92ad90
 context-tags: workflow,wizard;workflow,main
-internal: n
-snippet: y
 ---
 
 # Building a workflow{#building-a-workflow}
@@ -34,10 +29,11 @@ You can open transitions to check that the data sent is correct during or after 
 
 ![](assets/workflow_overview.png)
 
-
 ## Creating a workflow {#creating-a-workflow}
 
 You can create a workflow from a program, a campaign, or the marketing activity list.
+
+![](assets/do-not-localize/how-to-video.png) [Discover how to build a workflow in video](#video)
 
 Creating a marketing activity is detailed in the [Creating marketing activities](../../start/using/marketing-activities.md#creating-a-marketing-activity) section.
 
@@ -65,14 +61,13 @@ Creating a marketing activity is detailed in the [Creating marketing activities]
 
 1. Confirm creating the activity and the dashboard for that activity will then be displayed. For more on this, refer to the [Workflow interface](../../automating/using/workflow-interface.md) section.
 
-1. Once the workflow is ready to be configured, you can access additional options by clicking the **[!UICONTROL Edit properties]** button. You can, for example, define a specific time zone to use by default in all the workflow's activities. By default, the workflow's time zone is the one defined for the current Campaign operator.
+1. Once the workflow is ready to be configured, you can access additional options by clicking the **[!UICONTROL Edit properties]** button.
+
+   You can, for example, define a specific time zone to use by default in all the workflow's activities. By default, the workflow's time zone is the one defined for the current Campaign operator.
+
+   For more on workflows' properties, refer to [this page](../../automating/using/managing-execution-options.md).
 
     ![](assets/workflow_properties.png)
-
-**Related topic:**
-
-* [Creating a workflow](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/building-a-workflow.html) video
-* [Workflow properties](../../automating/using/managing-execution-options.md)
 
 ## Adding and linking activities {#adding-and-linking-activities}
 
@@ -128,3 +123,11 @@ By default, activities are not set and won't process the data correctly if they 
 1. Define all different options that you need to process the data. Refer to the activity's specific section of this documentation to learn the possible options for each activity.
 1. Save the activity and repeat these operations for each activity of the workflow.
 1. Save the workflow.
+
+## Tutorial video {#video}
+
+This video shows how to create a workflow.
+
+>[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
+
+Additional Campaign Standard how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=en).

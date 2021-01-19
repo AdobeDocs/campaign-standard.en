@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: About templates
 description: "Adobe Campaign templates allow you to pre-configure parameters depending on your needs: templates may contain a full or partial configuration of the marketing activity, to simplify Adobe Campaign usage for non-technical end users."
-page-status-flag: never-activated
-uuid: 018534b6-61a3-433e-bb60-49883c8b9386
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
 topic-tags: managing-templates
-discoiquuid: 95218ebe-5430-42a2-b900-1dadbbc92d99
 
-internal: n
-snippet: y
 ---
 
 # Marketing activity templates {#marketing-activity-templates}

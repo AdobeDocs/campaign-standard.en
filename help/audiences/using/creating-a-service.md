@@ -1,22 +1,19 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Creating a service
 description: Learn how to create your first service and configure it to send email confirmations to your subscribers.
-page-status-flag: never-activated
-uuid: 0d95d852-0f22-4b7b-b301-8fb4844c3ca2
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
-discoiquuid: 6b7788fe-fa6c-472a-97db-765595ce1589
 context-tags: service,wizard;service,main
-internal: n
-snippet: y
 ---
 
 # Creating a service{#creating-a-service}
 
 In order to be able to manage subscriptions, you first need to create a service and configure it. Configuring a new service allows you to specify the email confirmations that the profiles will receive when they subscribe to or unsubscribe from the service. You will also define the subscription and unsubscription landing pages linked to the service. For example, a service subscription link inserted into an email will automatically direct the profile to the subscription landing page that is specified in the service.
+
+![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#video)
 
 To configure a service:
 
@@ -53,7 +50,14 @@ Once a service has been created, you can start promoting it.
 
 **Related topics:**
 
-* [Managing a service and subscriptions](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/services-and-subscriptions.html) video
 * [Promoting a service](../../audiences/using/promoting-a-service.md)
 * [Creating an audience made of subscribers](../../audiences/using/creating-audiences.md#creating-list-audiences)
 * [Linking a landing page to a service](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)
+
+## Tutorial video {#video}
+
+This video shows how to create a service and manage its subscriptions.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24673?quality=12)
+
+Additional Campaign Standard how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=en).

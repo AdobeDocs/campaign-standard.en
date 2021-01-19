@@ -1,22 +1,19 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Creating an email
 description: Follow these steps to create a single-send email in Adobe Campaign.
-page-status-flag: never-activated
-uuid: 74c7ef35-82c0-4bc4-b1f6-8e74fdcaea3c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: email-messages
-discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
 
-internal: n
-snippet: y
 ---
 
 # Creating an email{#creating-an-email}
 
 You can create an email from a [campaign](../../start/using/marketing-activities.md#creating-a-marketing-activity), from the Adobe Campaign [home page](../../start/using/interface-description.md#home-page), or in the [marketing activity list](../../start/using/marketing-activities.md#about-marketing-activities). You can also create single-send and recurring emails from a workflow.
+
+![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#video)
 
 1. Once you have started creating an email marketing activity, select the template you would like to use.
 
@@ -87,7 +84,14 @@ You can create an email from a [campaign](../../start/using/marketing-activities
 
 **Related topics**:
 
-* [Creating an email](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/create-email-from-homepage.html) video
 * [Creating a personalized email](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html) step-by-step guide
-* [Adobe Campaign and Dreamweaver integration](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html) video
+* [Adobe Campaign and Dreamweaver integration](../../designing/using/using-integrations.md#editing-content-in-dreamweaver)
 * [Integrating with Adobe Experience Manager](../../integrating/using/integrating-with-experience-manager.md)
+
+## Tutorial video {#video}
+
+This video shows how to create an email.
+
+>[!VIDEO](https://video.tv.adobe.com/v/23721?quality=12)
+
+Additional Campaign Standard how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=en).

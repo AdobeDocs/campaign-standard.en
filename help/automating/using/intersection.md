@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Intersection
 description: The Intersection activity allows you to keep only the elements common to the different inbound populations in the activity.
-page-status-flag: never-activated
-uuid: a60f9811-0158-44b3-952b-392685c006cc
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 7a107d6b-edc3-44c3-bbb7-ba3dec8e43f9
 
-internal: n
-snippet: y
 ---
 
 # Intersection{#intersection}

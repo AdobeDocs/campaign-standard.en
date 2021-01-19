@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Designing emails from scratch 
 description: Discover how to design emails from scratch email content in the Email Designer.
-page-status-flag: never-activated
-uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 
-internal: n
-snippet: y
 ---
 
 # Designing emails from scratch {#designing-an-email-content-from-scratch}
@@ -40,12 +35,12 @@ You can also check out this [introduction video](https://video.tv.adobe.com/v/22
 >[!CONTEXTUALHELP]
 >id="ac_structure_components"
 >title="About Structure components"
->abstract="Structural elements defining the layout of the email."
+>abstract="Structure components define the layout of the email."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns"
 >title="Defining email columns"
->abstract="The Email Designer allows you to easily define the columns structure of your email."
+>abstract="The Email Designer allows you to easily define the layout of your email by defining column structure."
 
 The Email Designer allows you to easily define the structure of your email. By adding and moving structural elements with simple drag-and-drop actions, you can design the shape of your email within seconds.
 
@@ -99,13 +94,12 @@ You can add a **[!UICONTROL Content block]**, a **[!UICONTROL Dynamic content]**
 >
 >Note that preheader is not compatible with all email programs. When not supported, preheader will not display.
 
-
 ## Using content components {#about-content-components}
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components"
 >title="About Content components"
->abstract="Content components are raw, empty components that you can edit once placed in an email."
+>abstract="Content components are empty content placeholders that you can edit to create an email."
 
 Content components are raw, empty components that you can edit once placed in an email.
 
@@ -115,50 +109,49 @@ Here is the list of the available components in the Email Designer:
 
 ### **[!UICONTROL Button]**
 
-  If you need to use multiple buttons, rather than editing each button from scratch, you can duplicate the **[!UICONTROL Button]** component using the contextual toolbar.
+If you need to use multiple buttons, rather than editing each button from scratch, you can duplicate the **[!UICONTROL Button]** component using the contextual toolbar.
 
-  You can also save buttons into fragments that can be reused. For more on this, see [Creating a content fragment](../../designing/using/using-reusable-content.md#creating-a-content-fragment) and [Saving content as a fragment](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
+You can also save buttons into fragments that can be reused. For more on this, see [Creating a content fragment](../../designing/using/using-reusable-content.md#creating-a-content-fragment) and [Saving content as a fragment](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
 
 Select **[!UICONTROL Fallback view]** to display the fallback image in the Email Designer.
 
 ### **[!UICONTROL Text]**
 
-    Use this component to insert text in your email. You can adjust the color, style and size of your text in **[!UICONTROL Component Settings]**.
+Use this component to insert text in your email. You can adjust the color, style and size of your text in **[!UICONTROL Component Settings]**.
 
 ### **[!UICONTROL Divider]**
 
-    Use this component to insert a dividing line in your email. You can select the color, style and size of the breaking line in **[!UICONTROL Component Settings]**.
+Use this component to insert a dividing line in your email. You can select the color, style and size of the breaking line in **[!UICONTROL Component Settings]**.
 
-### **[!UICONTROL Html]**
+### **[!UICONTROL HTML]**
 
-  Use this component to copy-paste the different parts of your existing HTML. This enables you to create free modular HTML components.
+Use this component to copy-paste the different parts of your existing HTML. This enables you to create free modular HTML components.
 
   >[!NOTE]
   >
   >A free HTML component is editable with limited options. If all styles are not inlined, make sure to add the proper CSS in the **head** section of the HTML code, otherwise the email will not be responsive. Use the **[!UICONTROL Preview]** button to test the responsiveness of your content (see [Previewing messages](../../sending/using/previewing-messages.md)).
 
-  To simply make an external content compliant with the Email Designer, Adobe recommends creating a message from scratch and copy the content from your existing email into fragments and components.
+To simply make an external content compliant with the Email Designer, Adobe recommends creating a message from scratch and copy the content from your existing email into fragments and components.
 
-  When you have a content that cannot be recreated, you can copy-paste the HTML code from the original email using the **[!UICONTROL Html]** content component. Make sure you are familiar with HTML before proceeding.
-
-  <!-- A full example is presented below. -->
+When you have a content that cannot be recreated, you can copy-paste the HTML code from the original email using the **[!UICONTROL Html]** content component. Make sure you are familiar with HTML before proceeding.
 
   >[!NOTE]
   >
   >The new content will not be the exact copy of your original email, but the steps below will guide you through the creation of a message that will be as close as possible.
 
-    **Before copying your content**
+**Before copying your content**
 
-    1. In your original email, identify the reusable sections from the sections that will be unique to each email that you will send.
-    1. Save all the images and assets that you want to use.
-    1. If you are familiar with HTML, split your original HTML content into different parts.
+1. In your original email, identify the reusable sections from the sections that will be unique to each email that you will send.
+1. Save all the images and assets that you want to use.
+1. If you are familiar with HTML, split your original HTML content into different parts.
 
 ### Video {#video-settings}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_video"
 >title="Video settings"
->abstract="Use this component to insert a video in your email."
+>abstract="Use this component to insert a video in your email. Note that videos do not work on all email clients. We advise to set a fallback image."
+>additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="Additional info"
 
 Insert the video component into a structure component of your email and enter the video link in the **[!UICONTROL Component Settings]**.
 
@@ -181,7 +174,7 @@ Use this component to insert links to social media pages in your email. You can 
 >[!CONTEXTUALHELP]
 >id="ac_edition_carousel"
 >title="Carousel settings"
->abstract="Learn how to insert and configure a carousel into your content."
+>abstract="Learn how to insert and configure a carousel into your content.Note that carousel do not work on all email client and fallback image will be displayed in case it’s not supported."
 
 1. Drag and drop the **[!UICONTROL Carousel]** component inside a structure component.
 1. Browse to select images from your computer.

@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Previewing messages
 description: Learn how to preview a message in the content editor or in the Email Designer.
-page-status-flag: never-activated
-uuid: 8dffca95-59fe-4e9b-93cb-73b33ffde020
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
-discoiquuid: 8428f8ac-8ef5-46cd-9d93-10ec0ecd3ded
 
-internal: n
-snippet: y
 ---
 
 # Previewing deliveries {#previewing-messages}

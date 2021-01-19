@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Configuring the screen definition
 description: Learn how to define new Adobe Campaign screens based on the resource data structure.
-page-status-flag: never-activated
-uuid: 40848197-b1a0-4018-bfc3-7df64fb83307
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
-discoiquuid: 9dabb328-ac0c-49fd-8996-8d56341ee7ac
 context-tags: cusResource,main
-internal: n
-snippet: y
 ---
 
 # Configuring the screen definition{#configuring-the-screen-definition}

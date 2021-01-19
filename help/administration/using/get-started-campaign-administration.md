@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Get started with Campaign Standard administration
-description: Adobe Campaign provides you with a complete set of administration tools. Learn how to manage your users and configure your channels.
-page-status-flag: never-activated
-uuid: 64c34729-5c98-4db0-9131-af6dd0e78fb4
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
+description: Discover users and permissions management, monitoring guidelines, channel-specific configurations and application settings guidelines.
 audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
-discoiquuid: 5587530a-2308-4be1-9f56-19eeb7a924d5
 
-internal: n
-snippet: y
 ---
 
 # Get started with Campaign Standard administration {#about-administrating-adobe-campaign}
@@ -29,6 +24,8 @@ As a cloud-based solution, Adobe Campaign offers administrators different ways t
 >
 >If you have questions or requests about implementation and configuration matters, contact your Adobe account executive.
 
+Note that, if your instance is hosted on AWS, Admin users can also leverage Campaign Control Panel to manage settings and track usages for each of your instances. For more on this, refer to the [dedicated documentation](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html).
+
 ## Administration menu {#administration-menu}
 
 <img src="assets/do-not-localize/icon_menu.svg" width="60px">
@@ -38,13 +35,13 @@ The different Adobe Campaign admin operations are carried out via the **[!UICONT
 The different menus available are:
 
 * [Users & Security](../../administration/using/about-access-management.md): This menu allows you to manage access to the platform (users, roles, security groups, units). 
-* [Channels](../../administration/using/about-channel-configuration.md): This menu regroups the technical parameters linked to the different platform channels (Email, SMS) as well as typology and quarantine management. 
+* [Channels](../../administration/using/about-channel-configuration.md): This menu regroups the technical parameters linked to the different platform channels (Email, mobile) as well as typology and quarantine management. 
 * [Application settings](../../administration/using/external-accounts.md): This menu allows you to configure different application elements (external accounts, options, technical workflows).
 * [Development](../../developing/using/data-model-concepts.md): This menu allows you to manage your custom resources and access diagnostic tools.
 * [Instance settings](../../administration/using/branding.md): This menu is where you define your different brands and configure their settings (logo, manage tracking, URL domain to access the landing pages, etc.).
 * [Deployment](../../automating/using/managing-packages.md): This menu regroups the package import and export options.
 * [Customer metrics](../../audiences/using/active-profiles.md): Adobe Campaign provides a report that displays the number of active profiles. This report is only informative, it doesn't have a direct impact on billing. 
-* [Privacy Tools](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html): This menu allows you to create GDPR access and delete requests and track their evolution.
+* [Privacy Tools](../../start/using/privacy-management.md): This menu allows you to create GDPR access and delete requests and track their evolution.
 
 ## Users and security {#users-security}
 
@@ -71,7 +68,7 @@ All communication channels in Adobe Campaign must be correctly configured to be 
 
 Configure various **email** parameters: processing rules for bounce, quarantines, email properties and routing parameters, typoly rules. Define routing configurations and properties for the **SMS** channel, as well as SMS encoding and formats.
 
-Set up **mobile applications** in order to be able to send In-App messages and push notifications using Adobe Experience Platform SDKs, and configure **transactional messaging** by creating and setting up events.
+Set up **mobile applications** in order to be able to send In-App messages and push notifications using Adobe Experience Platform SDKs.
 
 Read more:
 
@@ -79,7 +76,6 @@ Read more:
 * [Configuring email channel](../../administration/using/configuring-email-channel.md)
 * [Configuring SMS channel](../../administration/using/configuring-sms-channel.md)
 * [Configuring a mobile application](../../administration/using/configuring-a-mobile-application.md)
-* [Configuring transactional messaging](../../administration/using/configuring-transactional-messaging.md)
 
 ## Application settings {#application-settings}
 
@@ -99,8 +95,3 @@ Read more:
 * [Technical workflows](../../administration/using/technical-workflows.md)
 * [Branding](../../administration/using/branding.md)
 * [Sending internal notifications](../../administration/using/sending-internal-notifications.md)
-
-## Additional resources
-
-* [Managing user access rights (video)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html)
-* [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)

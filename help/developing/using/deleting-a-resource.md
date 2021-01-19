@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Deleting a resource
 description: Learn how to delete a resource 
-page-status-flag: never-activated
-uuid: 5de27589-6fa5-412c-8e5a-a4976de05715
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
-discoiquuid: 0130733d-4e3f-40cd-b959-56381f2c8f44
 
-internal: n
-snippet: y
 ---
 
 # Deleting a resource{#deleting-a-resource}
@@ -56,5 +51,4 @@ Your resource is deleted from the data model.
 
 >[!NOTE]
 >
->If a field of a custom resource used on an event is modified or deleted, the corresponding event will automatically be unpublished. See [Configuring transactional messaging](../../administration/using/configuring-transactional-messaging.md).
-
+>If a field of a custom resource used on an event is modified or deleted, the corresponding event will automatically be unpublished. See [Unpublishing a transactional event](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).

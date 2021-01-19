@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Interface description
 description: "Learn how to navigate and use the Adobe Campaign workspace: home page, top bar, advanced menus and action bars."
-page-status-flag: never-activated
-uuid: af9f0f1f-d24a-4dc7-b4a8-70290de6eb3f
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-discoiquuid: dafd9860-cd22-4c30-86b7-631b64db7b3f
 
-internal: n
-snippet: y
 ---
 
 # Interface description{#interface-description}

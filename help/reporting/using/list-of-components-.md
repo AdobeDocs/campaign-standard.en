@@ -1,24 +1,19 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: List of components 
 description: Find here the list of every components available in     Dynamic reports as well as their definitions.
-page-status-flag: never-activated
-uuid: a2403806-8df4-4bb1-bac2-2689dc584ae0
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 
-internal: n
-snippet: y
 ---
 
 # List of components {#list-of-components}
 
 To learn more on compatibility between dimensions and metrics, refer to this [table](/help/reporting/using/assets/dynamic_report_compatibility.pdf). If two components are not compatible, the cell will display the value **None**.
 
-   ![](assets/dynamic_report_compatibility.png)
+[![image](assets/dynamic_report_compatibility.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=en)
 
 ## Dimensions {#dimensions}
 

@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Designing emails through Adobe Campaign integrations 
 description: Discover how to design emails through Adobe Campaign integrations in the Email Designer.
-page-status-flag: never-activated
-uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 
-internal: n
-snippet: y
 ---
 
 # Multi-solution email design {#multi-solution-email-design}
@@ -34,7 +29,9 @@ The Adobe Campaign Standard integration with Dreamweaver lets you edit an email'
 
   For the email developer there is no longer a need to add text like `[[FIRSTNAME_PLACEHOLDER]]` nor to look up the syntax of your data model’s tables. The Campaign toolbar in Dreamweaver connects directly to your Campaign instance's data model. That means you can pull in any data you want for personalization from something like First Name to Address. If you’ve created Content Blocks within Campaign, you can also pull those directly into Dreamweaver.
 
-This capability is detailed in the Dreamweaver Documentation accessible [here](https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html). A demonstration [video](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html) is also available.
+This capability is detailed in the Dreamweaver Documentation accessible [here](https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html). 
+
+![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#video)
 
 ## Editing content in Experience Manager {#editing-content-in-experience-manager}
 
@@ -45,9 +42,9 @@ Email content can be edited in Experience Manager and then used for one or sever
 >[!CONTEXTUALHELP]
 >id="ac_product_listing"
 >title="Using product listings"
->abstract="The product listings allows you to reference one or more data collections in the email content."
+>abstract="The product listings allows you to reference a data collection and display it in the email content."
 
-The product listings allows you to reference one or more data collections in the email content. These listings are available for transactional emails. A dedicated section for this feature is available [here](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message).
+The product listings allows you to reference one or more data collections in the email content. These listings are available for transactional emails. A dedicated section for this feature is available [here](../../designing/using/using-product-listings.md).
 
 ## Email design options comparison {#email-design-options-comparison}
 
@@ -145,7 +142,15 @@ Adobe Campaign offers several email authoring options. The table below shows the
    <td> <strong>To learn more</strong><br /> </td> 
    <td> See <a href="../../designing/using/designing-content-in-adobe-campaign.md">About the Email Designer</a>.<br /> </td> 
    <td> See <a href="../../integrating/using/integrating-with-experience-manager.md">Integrating with Experience Manager</a>.<br /> </td> 
-   <td> See <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver and Campaign</a> and watch this <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">video</a>.<br /> </td> 
+   <td> See <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver and Campaign</a> and watch this <a href="#video">video</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
+
+## Tutorial video {#video}
+
+This video shows how to create and edit content for Adobe Campaign Standard using Dreamweaver.
+
+>[!VIDEO](https://video.tv.adobe.com/v/23121?quality=12&captions=eng)
+
+Additional Campaign Standard how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=en).

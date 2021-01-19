@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Email rendering
 description: Discover the email rendering feature.
-page-status-flag: never-activated
-uuid: c423e237-ad39-4797-ac3a-4320894a8f99
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
-discoiquuid: 2b5b13c8-2e51-4985-a161-c1d7f0fc32b4
 
-internal: n
-snippet: y
 ---
 
 # Email rendering{#email-rendering}
@@ -72,6 +67,13 @@ This report presents the email renderings as they appear to the recipient. Email
 >[!NOTE]
 >
 >The number of available renderings is listed in your license agreement. Each delivery with **Email rendering** enabled decreases your available renderings (known as tokens) by one.
+>
+>Tokens account for each individual rendering and not for the whole Email rendering report, meaning that:
+>
+>**Each time** the Inbox rendering report is generated, one token per messaging client is deducted: one token for the Outlook 2000 rendering, one for the Outlook rendering, one for the Apple Mail rendering, and so on.
+>
+>**For the same delivery**, if you generate the Email rendering again, the number of available tokens is again decreased by the number of generated renderings.
+
 
 The report summary presents the number of messages received, unwanted (spam), not received, or pending reception.
 

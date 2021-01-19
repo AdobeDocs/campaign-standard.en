@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Testing your triggers
 description: 
-page-status-flag: never-activated
-uuid: b3a6667d-e843-4ad6-817e-d91542b5f2e2
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-discoiquuid: f67e69f2-09fb-4f33-b2c3-c67a060743e3
 
-internal: n
-snippet: y
 ---
 
 # Testing your triggers{#testing-your-triggers}

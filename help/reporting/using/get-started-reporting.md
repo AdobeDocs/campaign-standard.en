@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Get started with dynamic reporting
-description: With dynamic reports, drag and drop variables and dimensions into your freeform environment and analyze the success of your campaigns.
-page-status-flag: never-activated
-uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
+description: Analyze the success of your campaigns in build-in or customized dynamic reports.
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 
-internal: n
-snippet: y
 ---
 
 # Get started with dynamic reporting {#get-started-reporting}
@@ -24,6 +19,8 @@ snippet: y
 </table>
 
 Dynamic Reporting provides fully customizable and real-time reports to measure the impact of your marketing activities. It adds access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks.
+
+![](assets/do-not-localize/how-to-video.png) [Discover dynamic reporting in video](#video)
 
 ## Manage and share reports {#manage-share-reports}
 
@@ -72,6 +69,13 @@ Read more:
 
 ## Additional resources
 
-* [Dynamic reporting tutorial videos](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/reporting/exploring-reports.html)
 * [Exporting logs](../../automating/using/exporting-logs.md)
 * [About Campaign-Analytics integration](../../integrating/using/about-campaign-analytics-integration.md)
+
+## Tutorial video {#video}
+
+This video provides an overview over the reporting capabilities of Adobe Campaign Standard.
+
+>[!VIDEO](https://video.tv.adobe.com/v/23021?quality=12&captions=eng)
+
+Additional Campaign Standard how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=en).

@@ -1,22 +1,43 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Documentation Updates
 description: Learn about all the latest updates for Adobe Campaign Standard documentation.
-page-status-flag: never-activated
-uuid: 3bdc7d11-8421-4110-a5ba-7b1376a03dda
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 
-internal: n
-snippet: y
 ---
 
 # Documentation Updates{#documentation-updates}
 
 In addition to Adobe Campaign [Release Notes](../../rn/using/release-notes.md), this page lists all the new updates in Adobe Campaign Standard documentation.
+
+## December 2020 {#doc-updates-december-2020}
+
+**Predictive Subject Line** capability is now deprecated. [Read more](../../rn/using/deprecated-features.md)
+
+The **Transactional messaging** getting started section now includes [enhanced schemas](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle), and an [end-to-end use case](../../channels/using/transactional-messaging-use-case.md) to illustrate the implementation process. [Read more](../../channels/using/getting-started-with-transactional-msg.md)
+
+The **Privacy** section has been moved [here](../../start/using/privacy.md).
+
+A new **Accessibility** page is available: it details accessibility support in Adobe Campaign Standard workspace. [Read more](../../start/using/accessibility.md)
+
+A caution note has been added stating that, for optimal performance, the number of published transactional messages should remain under 100. [Read more](../../channels/using/transactional-messaging-limitations.md#transactional-message-number)
+
+The SMS connector protocol and settings page has been moved [here](../../administration/using/sms-protocol.md).
+
+The **Using product listings in a transactional message** section has been moved [here](../../designing/using/using-product-listings.md).
+
+## November 2020 {#doc-updates-november-2020}
+
+The Personal Data and Personas section has been updated with a use case scenario to illustrate how the different personas are interacting when it comes to Privacy. [Read more](../../start/using/privacy.md#use-case-scenario)
+
+A new section listing Frequently Asked Questions on Privacy has been added. [Read more](../../start/using/privacy-faq.md)
+
+The Privacy section has been moved and enriched with two new pages: [Privacy management](../../start/using/privacy-management.md) and [Managing Privacy requests](../../start/using/privacy-requests.md).
+
+Information has been added in the Adobe Experience Platform Data Connector section on the data mapping validation error related to privacy management and how to troubleshoot it. [Read more](../../developing/using/aep-mapping-activation.md)
 
 ## Release 20.4 - October 2020 {#release-20-4---october-2020}
 
@@ -34,9 +55,13 @@ The section on how to call a workflow with external parameters has been enriched
 
 A recommendation has been added to the workflows best practices on the number of activities to use per workflow. [Read more](../../automating/using/best-practices-workflows.md#number-activities)
 
-## Documentation updates - September 2020 {#doc-updates-september-2020}
+A new section about Delivery best practices has been added. [Read more](../../sending/using/delivery-best-practices.md)
 
-The Event transactional messages section has been reorganized and clarified. [Read more](../../channels/using/event-transactional-messages.md)
+A section has been added to describe the new filters that enable to search the event configurations according to their status and to the last time an event was received. [Read more](../../channels/using/configuring-transactional-event.md#searching-transactional-events)
+
+## September 2020 {#doc-updates-september-2020}
+
+The Event transactional messages section has been reorganized and clarified. [Read more](../../channels/using/editing-transactional-message.md)
 
 A caution note has been added to warn users about permissions limitation related to log access. [Read more](../../administration/using/users-management.md)
 
@@ -46,7 +71,7 @@ The new Campaign Standard - Microsoft Dynamics 365 integration is now available.
 
 Information has been added on anonymous sources in the Active profiles report. [Read more](../../audiences/using/active-profiles.md)
 
-## Documentation updates - August 2020 {#doc-updates-august-2020}
+## August 2020 {#doc-updates-august-2020}
 
 A new updated section on getting started with transactional messaging is available. [Read more](../../channels/using/getting-started-with-transactional-msg.md)
 
@@ -54,7 +79,7 @@ The **Transactional messaging limitations** section has moved [here](../../chann
 
 The **Preparing the send** section has moved [here](../../sending/using/preparing-the-send.md)
 
-## Documentation updates - July 2020 {#doc-updates-july-2020}
+## July 2020 {#doc-updates-july-2020}
 
 A new section has been added with guidelines related to Campaign Standard monitoring. [Read more](../../administration/using/monitoring-guidelines.md)
 
@@ -68,7 +93,7 @@ The Privacy Management in Campaign Standard page has been updated, including cla
 
 New AI-powered emails capabilities: send time optimization and profile scoring. [Read more](../../sending/using/predictive.md)
 
-## Documentation updates - June 2020 {#doc-updates-june-2020}
+## June 2020 {#doc-updates-june-2020}
 
 Workflow use cases have been updated and reorganized into thematic sections. [Read more](../../automating/using/about-workflow-use-cases.md)
 
@@ -80,7 +105,7 @@ Custom Litmus account configuration has been removed from Inbox rendering capabi
 
 Campaign Standard - Microsoft Dynamics 365 integration is currently unavailable. A new connector is being developed and will be available in the future. The related help pages have been removed. [Read more](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
-## Documentation updates - May 2020 {#doc-updates-may-2020}
+## May 2020 {#doc-updates-may-2020}
 
 Campaign Standard overview page has been enriched and reorganized into thematic topics. [Read more](../../start/using/about-campaign-standard.md)
 
@@ -108,7 +133,7 @@ A use case has been added to allow you to convert legacy editor emails into the 
 
 A frequently asked question section has been added about the Email Designer. [Read more](../../designing/using/faq-email-designer.md)
 
-## Documentation updates - April 2020 {#doc-updates-april-2020}
+## April 2020 {#doc-updates-april-2020}
 
 The Microsoft Dynamics 365 integration with Adobe Campaign Standard documentation is now available into the core documentation. [Read more](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
@@ -116,7 +141,7 @@ Additional resources have been added to the documentation home page. [Read more]
 
 Information on the Experience Cloud ID Service (ECID) has been added to the Adobe Experience Platform Data Connector documentation. [Read more](../../developing/using/aep-about-data-connector.md#key-concepts)
 
-The Configuring transactional messaging section has been improved with information on how to access the latest transactional events and updated screenshots. [Read more](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
+The Transactional messaging section has been improved with information on how to access the latest transactional events and updated screenshots. [Read more](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 
 Typologies and typology rules documentation has been improved and updated with additional information on built-in typology rules. [Read more](../../sending/using/about-typology-rules.md)
 
@@ -124,15 +149,15 @@ Information has been added on the **[!UICONTROL Transfer file]** activity's **[!
 
 The documentation on retries after a delivery temporary failure has been updated with more details on how retries are managed once upgraded to the Enhanced MTA. [Read more](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)
 
-The Deleting a transactional message section has been enhanced and clarified. [Read more](../../channels/using/event-transactional-messages.md#deleting-a-transactional-message)
+The Deleting a transactional message section has been enhanced and clarified. [Read more](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message)
 
-The section **Previewing deliveries** has been updated with mobile deliveries examples.[Read more](../../sending/using/previewing-messages.md)
+The section **Previewing deliveries** has been updated with mobile deliveries examples. [Read more](../../sending/using/previewing-messages.md)
 
-Best practice has been added regarding transactional messaging and the deletion of unused real-time events. [Read more](../../administration/using/configuring-transactional-messaging.md#creating-an-event)
+Best practice has been added regarding transactional messaging and the deletion of unused real-time events. [Read more](../../channels/using/configuring-transactional-event.md#creating-an-event)
 
 The Configuring email channel section has been updated with clarification on all the email settings that are now managed by the Adobe Campaign Enhanced MTA. [Read more](../../administration/using/configuring-email-channel.md)
 
-The Configuring transactional messaging section has been updated with further information on the rights needed to edit event configurations and on how to enrich collections in transactional messages. [Read more](../../administration/using/configuring-transactional-messaging.md).
+The Transactional messaging section has been updated with further information on the rights needed to edit event configurations and on how to enrich collections in transactional messages. [Read more](../../channels/using/configuring-transactional-event.md).
 
 ## Release 20.2 - April 2020 {#release-20-2---april-2020}
 
@@ -152,15 +177,13 @@ Limitation has been added with MCPNS when configuring a mobile application. [Rea
 
 A new configuration guidelines section has been added to the Administrating guide. The section on compatible browsers and operating systems has been moved from the Getting started guide to this section. The technote on Campaign Standard network endpoints has also been added to this section. [Read more](../../administration/using/about-configuration-guidelines.md)
 
-A new section describing how to delete an event configuration is now available. [Read more](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
-
-The page describing how to test the subject line of an email to predict its open rate has been updated and improved, including a new [troubleshooting](../../sending/using/testing-subject-line-email.md#troubleshooting) section. [Read more](../../sending/using/testing-subject-line-email.md)
+A new section describing how to delete an event configuration is now available. [Read more](../../channels/using/publishing-transactional-event.md#deleting-an-event)
 
 The transactional messaging sections have been updated to reflect the multiple user interface slight updates and improvements. [Read more](../../channels/using/getting-started-with-transactional-msg.md)
 
 Information related to the External API activity guardrails have been updated. [Read more](../../automating/using/external-api.md)
 
-## Documentation updates - March 2020 {#doc-updates-march-2020}
+## March 2020 {#doc-updates-march-2020}
 
 More detailed information on the Enhanced MTA has been added to core documentation, particularly regarding email processing rules and bounce mail qualification. [Read more](../../administration/using/configuring-email-channel.md#email-processing-rules)
 
@@ -170,7 +193,7 @@ The Configuring a mobile application documentation and related pages have been u
 
 The Adobe Campaign Standard / Adobe Experience Manager integration documentation has been updated and improved. [Read more](../../integrating/using/configure-experience-manager.md)
 
-The Campaign Email Designer documentation and related pages have been updated to reflect Adobe Creative SDK depreciation. [Read more](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+The Campaign Email Designer documentation and related pages have been updated to reflect [!DNL Adobe Creative SDK] depreciation. [Read more](../../rn/using/deprecated-features.md)
 
 A new section dedicated to Campaign Standard data model best practices is now available. [Read more](../../developing/using/data-model-best-practices.md)
 
@@ -206,7 +229,7 @@ Notes have been added to indicate that the application server and mirror page se
 
 The Exporting logs section has been updated to reflect the availability of the Delivery log ID in the Delivery logs and Tracking logs resources, which enables to export a unique identifier for each log. [Read more](../../automating/using/exporting-logs.md)
 
-## Documentation updates - January 2020 {#doc-updates-january-2020}
+## January 2020 {#doc-updates-january-2020}
 
 The Deliverability documentation has been updated with a new section on IP Certification. [Read more](../../sending/using/ip-certification.md)
 
@@ -220,7 +243,7 @@ The Working with Campaign and Experience Manager documentation has been updated 
 
 The APIs documentation homepage has been improved with redirections to the different topics. [Read more](../../api/using/get-started-apis.md)
 
-## Documentation updates - December 2019 {#doc-updates-december-2019}
+## Nov. - Dec. 2019 {#doc-updates-december-2019}
 
 The Configuring S3 external account documentation has been updated. [Read more](../../administration/using/external-accounts.md#amazon-s3-external-account)
 
@@ -229,8 +252,6 @@ The Designing email content section has been reorganized. [Read more](../../desi
 The Deliverability getting started guide has been integrated into the core documentation and updated. [Read more](../../sending/using/about-deliverability.md)
 
 The getting started guide on how to export / import custom resources has been integrated into the core documentation. [Read more](../../automating/using/exporting-importing-custom-resources.md)
-
-## Documentation updates - November 2019 {#doc-updates-november-2019}
 
 A new use case has been added describing how to build a control group using a workflow in Campaign Standard.
 
@@ -242,9 +263,9 @@ The **Indicator calculation** table has been updated. [Read more](../../reportin
 
 The APIs documentation set has been integrated into Campaign Standard documentation.[Read more](../../api/using/get-started-apis.md)
 
-The Creating a personalized email getting started guide has been moved and updated. [Read more](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
+The Creating a personalized email getting started section has been moved and updated. [Read more](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
 
-The Delivery Best Practices getting started guide has been updated. [Read more](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+The Delivery Best Practices getting started guide has been updated. [Read more](../../sending/using/delivery-best-practices.md)
 
 The datamodel has been integrated into Campaign Standard documentation. [Read more](../../developing/using/datamodel-audience.md)
 
@@ -260,13 +281,13 @@ Microsoft Dynamics 365 integration (GA) - [Read more](../../integrating/using/wo
 
 **Other documentation updates coming with the release**
 
-The list of error messages for Campaign Standard and Campaign Classic has been updated. [Read more](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+The list of error messages for Adobe Campaign has been updated. [Read more](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
 The GDPR getting started guide has been improved and enriched. It is now a privacy management documentation including GDPR and CCPA. [Read more](https://helpx.adobe.com/content/help/en/campaign/kb/campaign-privacy.html)
 
-A new chart presenting the transactional messaging publication process has been added. [Read more](../../administration/using/configuring-transactional-messaging.md#transactional-messaging-pub-process)
+A new chart presenting the transactional messaging publication process has been added. [Read more](../../channels/using/publishing-transactional-message.md#transactional-messaging-pub-process)
 
-The Delivery Best Practices getting started guide has been moved and updated. [Read more](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+The Delivery Best Practices getting started guide has been moved and updated. [Read more](../../sending/using/delivery-best-practices.md)
 
 A new section has been added. It provides an overview of the different methods that allow you to enrich Campaign Standard database. [Read more](../../audiences/using/enriching-campaign-database.md)
 
@@ -274,17 +295,15 @@ A new section has been added describing how to style links with the Email Design
 
 Information related to privacy has been added to the APIs documentation [Click here](../../api/using/creating-a-privacy-request.md)
 
-## Documentation updates - October 2019 {#doc-updates-october-2019}
+## Sept. - Oct. 2019 {#doc-updates-october-2019}
 
 A new section related to Campaign Standard settings was added. [Read more](../../administration/using/about-campaign-standard-settings.md)
 
 A new section describing how to send an automatic custom confirmation email to profiles who subscribe to a specific service has been added. [Read more](../../audiences/using/confirming-subscription-to-a-service.md)
 
-The Transactional messaging section has been modified with the latest UI updates, including editing content with the Email Designer. [Read more](../../channels/using/event-transactional-messages.md)
+The Transactional messaging section has been modified with the latest UI updates, including editing content with the Email Designer. [Read more](../../channels/using/editing-transactional-message.md)
 
 The landing pages chapter has been reorganized. It has also been enriched with a new section detailing the steps to set up a landing page. [Read more](../../channels/using/getting-started-with-landing-pages.md)
-
-## Documentation updates - September 2019 {#doc-updates-september-2019}
 
 A new section was added in the Push notifications section on how to create and update profile information based on mobile application subscription data. [Read more](../../channels/using/updating-profile-with-mobile-app-data.md)
 
@@ -296,7 +315,7 @@ A note about the **Launch_URL_Campaign** option was added in the page on how to 
 
 The Email Designer guide has been reorganized. [Read more](../../designing/using/designing-content-in-adobe-campaign.md)
 
-## Documentation updates - August 2019 {#doc-updates-august-2019}
+## August 2019 {#doc-updates-august-2019}
 
 A new section with use cases on workflows focusing on queries has been added. [Read more](../../automating/using/workflow-created-query-with-complement.md)
 
@@ -348,7 +367,7 @@ The list of error messages for Campaign Standard and Classic has been updated. [
 
 Added a warning in custom resource documentation. We recommend using 30 characters maximum for custom resource IDs. This also applies to custom resource fields, keys, indexes and links. [Read more](../../developing/using/creating-or-extending-the-resource.md)
 
-## Documentation updates - July 2019 {#doc-updates-2019}
+## June - July 2019 {#doc-updates-2019}
 
 Added a new page on Landing page limitations. [Read more](../../channels/using/getting-started-with-landing-pages.md#landing-page-limitations)
 
@@ -402,7 +421,7 @@ The Automating guide has been updated with links to related workflow activities.
 
 The Indicator calculation section for Dynamic reports has been updated. [Read more](../../reporting/using/indicator-calculation.md)
 
-Dynamic reporting compatibility table has been added to better understand compatibility between dimensions and metrics. [Read more](https://docs.campaign.adobe.com/doc/standard/en/Technotes/dynamic_report_compatibility.pdf)
+Dynamic reporting compatibility table has been added to better understand compatibility between dimensions and metrics. [Read more](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=en)
 
 The list of functions for workflows has been updated. [Read more](../../automating/using/list-of-functions.md)
 
@@ -412,7 +431,7 @@ A new section on how to save email content as a fragment in the Email Designer h
 
 The Managing links section has been updated with additional information on how to manage tracked URLs in the Email Designer. [Read more](../../designing/using/links.md#inserting-a-link)
 
-A new section has been added to describe the specific transactional message retry process. [Read more](../../channels/using/event-transactional-messages.md#transactional-message-retry-process)
+A new section has been added to describe the specific transactional message retry process. [Read more](../../channels/using/transactional-message-execution.md#transactional-message-retry-process)
 
 The Publishing a resource with API extension section has been clarified and updated with the latest UI changes. [Read more](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension)
 
@@ -424,7 +443,7 @@ The [SMS connector protocol and settings](https://helpx.adobe.com/campaign/kb/sm
 
 The Get Started Guide has been enriched and reorganized. [Read more](../../start/using/about-campaign-standard.md)
 
-The Deprecated and Removed features page has been updated. [Read more](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+The Deprecated and Removed features page has been updated. [Read more](../../rn/using/deprecated-features.md)
 
 The Dreamweaver integration section has been updated and improved. [Read more](../../designing/using/using-integrations.md#editing-content-in-dreamweaver)
 
@@ -490,7 +509,7 @@ Added information in the Extract file activity section on the new option that le
 
 Email Designer General Availability - [Read more](../../designing/using/designing-content-in-adobe-campaign.md)
 
-Product Listings in Transactional Emails - [Read more](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)
+Product Listings in Transactional Emails - [Read more](../../designing/using/using-product-listings.md)
 
 Mobile View in the Email Designer - [Read more](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)
 
@@ -562,7 +581,7 @@ The list of HTML attributes for full compliance with the Creative Designer is no
 
 Added information on default language for multilingual template. [Read more](../../channels/using/multilingual-messages-template.md)
 
-The Users & security guide has been updated to reflect the depreciation of the geographical unit capability for new Campaign Standard instances, as well as existing instances with no geographical units created, starting 18.7 release. [Read more](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+The Users & security guide has been updated to reflect the depreciation of the geographical unit capability for new Campaign Standard instances, as well as existing instances with no geographical units created, starting 18.7 release. [Read more](../../rn/using/deprecated-features.md)
 
 ## Release 18.6 - June 2018 {#release-18-6---june-2018}
 
@@ -604,7 +623,7 @@ Added information on the Licenses option in the Administration menu. [Read more]
 
 Added information on how to use custom fields in a push notification. [Read more](../../channels/using/customizing-a-push-notification.md#add-custom-fields)
 
-Updated delivery best practices step-by-step guide. [Read more](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html)
+Updated delivery best practices step-by-step guide. [Read more](../../sending/using/delivery-best-practices.md)
 
 Added information on tracking log types. [Read more](../../sending/using/tracking-messages.md#tracking-logs)
 
@@ -628,7 +647,7 @@ Creative Designer for Email - [Read more](../../designing/using/designing-conten
 
 Multilingual Push Deliveries - [Read more](../../channels/using/creating-a-multilingual-push-notification.md)
 
-Use of Custom Resources in Transactional Messaging - [Read more](../../administration/using/configuring-transactional-messaging.md)
+Use of Custom Resources in Transactional Messaging - [Read more](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)
 
 **Other documentation updates coming with the release**
 
@@ -636,7 +655,7 @@ The GDPR API regroups features that allow the automatic processing of GDPR reque
 
 Added information on how to set up landing pages to give your recipients the ability to be on denylist. [Read more](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
-The [Configuring transactional messaging](../../administration/using/configuring-transactional-messaging.md) section has been reorganized, and a [step-by-step use case](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) has been added.
+The [Configuring transactional messaging](../../channels/using/configuring-transactional-event.md) section has been reorganized, and a [step-by-step use case](../../channels/using/transactional-messaging-use-case.md) has been added.
 
 Added a technote to learn how to generate a multilingual CSV file to use for push notifications. [Read more](https://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html).
 
@@ -680,7 +699,7 @@ The **[!UICONTROL Subscription Services]** activity has been updated to support 
 
 Added a step-by-step use case on how to prepare a delivery. [Read more](../../sending/using/preparing-the-send.md)
 
-The section including the list of authorizations has been removed. [Read more](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf) (PDF).
+The section including the list of authorizations has been removed. [Read more](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en) (PDF).
 
 Added a step-by-step use case on how to use SMS auto reply. [Read more](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
@@ -852,7 +871,7 @@ A new technote is now available: "Integrating the Adobe Mobile SDK with your mob
 
 Instructions to configure People core service or Audience Manager integration with Adobe Campaign have been added. [Read more](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
-Authorizations table revised to make certain roles’ function clearer. [Read more](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
+Authorizations table revised to make certain roles’ function clearer. [Read more](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
 
 Update of the contextual help links available directly from Adobe Campaign.
 
@@ -922,7 +941,7 @@ Log export for external reporting - [Read more](../../automating/using/exporting
 
 Transactional Messaging API - [Read more](../../api/using/get-started-apis.md)
 
-Marketing capabilities for transactional messages - [read more](../../channels/using/profile-transactional-messages.md)
+Marketing capabilities for transactional messages - [Read more](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities)
 
 **Other documentation updates coming with the release**
 
@@ -935,4 +954,3 @@ URL change: Assets core service - [Read more](../../integrating/using/working-wi
 URL change: People core service - [Read more](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
 Profiles and audiences guide has been reorganized. [Read more](../../audiences/using/get-started-profiles-and-audiences.md)
-

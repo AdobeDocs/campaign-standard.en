@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Creating deliveries on the creation date of the profile
 description: This use case shows how to create deliveries on the creation date of the profile.
-page-status-flag: never-activated
-uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: execution-activities 
-discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
 context-tags: workflow,use-case,query
-internal: n
-snippet: y
 ---
 
 # Creating deliveries on profiles' creation date {#creation-date-query}
@@ -43,7 +38,7 @@ You can send an offer via email on the anniversary of the customer's profile cre
 1. To select recipients, drag and drop a [Query](../../automating/using/query.md) activity and double-click it.
 1. Add **[!UICONTROL Profiles]** and select **[!UICONTROL no longer contact by email]** with the value **[!UICONTROL no]**.
 
-### Retriving profiles created on the same day as the day of execution {#retriving-profiles-created-on-the-same-day}
+### Retrieving profiles created on the same day as the day of execution {#retrieving-profiles-created-on-the-same-day}
 
 1. In **[!UICONTROL Profile]**, drag and drop the **[!UICONTROL Created]** field. and click on **[!UICONTROL Advanced Mode]**.
 ![](assets/advanced_mode.png)
@@ -63,7 +58,7 @@ You should end up with:
 
 Click **[!UICONTROL Confirm]**.
 
-### Retriving profiles created on the same month as the month of execution{#retriving-profiles-created-on-the-same-month}
+### Retrieving profiles created on the same month as the month of execution{#retrieving-profiles-created-on-the-same-month}
 
 1. On the **[!UICONTROL Query]** editor, select the first query and duplicate it. 
 1. Open the duplicate.

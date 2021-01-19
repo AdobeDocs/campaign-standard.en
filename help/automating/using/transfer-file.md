@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Transfer file
 description: The Transfer file activity allows you to receive or send files, test whether there are files present, or list files in Adobe Campaign.
-page-status-flag: never-activated
-uuid: a2f18118-b681-4310-aee0-9e82179d2032
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
-discoiquuid: 752f2aed-f897-485e-b329-f3cc1756ee8e
 context-tags: fileTransfer,main
-internal: n
-snippet: y
 ---
 
 # Transfer file{#transfer-file}
@@ -131,7 +126,7 @@ The **[!UICONTROL File(s) present on the Adobe Campaign server]** protocol corre
 Metacharacters, or wildcards (for example &#42; or ?) can be used to filter files.
 
 Choose if you want to **[!UICONTROL Define a file path]** or **[!UICONTROL Use a dynamic file path]** 
-The **[!UICONTROL Use a dynamic file path]** option, lets you use a standard expression and events variables to personalize the name of the file to transfer. For more on this, refer to this section: [](../../automating/using/customizing-workflow-external-parameters.md).
+The **[!UICONTROL Use a dynamic file path]** option, lets you use a standard expression and events variables to personalize the name of the file to transfer. For more on this, refer to [this page](../../automating/using/customizing-workflow-external-parameters.md).
 
 Please note that the path must be relative to the storage space directory of the Adobe Campaign server. Files are located in the **sftp&lt;yourinstancename&gt;/** directory. You also cannot browse the directories above the storage space. For example:
 

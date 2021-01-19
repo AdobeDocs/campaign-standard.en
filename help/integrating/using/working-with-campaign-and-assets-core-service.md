@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Working with Campaign and Assets core service
 description: Use any resources shared within Adobe Experience Cloud in your Adobe Campaign messages and landing pages thanks to the Assets core service integration.
-page-status-flag: never-activated
-uuid: 264a1260-33d6-412b-b2c8-0d57ca10d025
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-assets-core-service
-discoiquuid: e6fefe10-afd5-4628-8d9b-69eeb38070eb
 
-internal: n
-snippet: y
 ---
 
 # Working with Campaign and Assets core service{#working-with-campaign-and-assets-core-service}

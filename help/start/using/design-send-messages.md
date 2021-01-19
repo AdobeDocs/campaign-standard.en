@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Customizing lists
 description: "Learn how to customize display and act on list screens in Adobe Campaign Standard:sorting, filtering, deleting or duplicating elements. Lists screens display elements of one or several given resources."
-page-status-flag: never-activated
-uuid: 3350583c-91ca-4ea5-ac14-6b6f11c4a64a
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-discoiquuid: 4ba4f766-fdee-4ff0-8fe4-0612ed2b69a4
 
-internal: n
-snippet: y
 ---
 
 # Design & send messages
@@ -76,7 +71,7 @@ Personalized messages are key to send relevant content, offer personalized exper
 * Insert [dynamic personalization fields](../../designing/using/personalization.md#inserting-a-personalization-field) in your messages
 * Insert [predefined personalization blocks](../../designing/using/personalization.md#adding-a-content-block)
 * [Personalize the sender](../../designing/using/subject-line.md) of an email or a SMS
-* [Personalize the subject line](../../designing/using/subject-line.md) of an email, or use [Predictive subject line](../../designing/using/subject-line.md#subject-line) capabilities to optimize it
+* [Personalize the subject line](../../designing/using/subject-line.md) of an email
 * Create [conditional content in an email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) or [in a landing page](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
 * Insert [Dynamic text](../../channels/using/defining-dynamic-text.md) in a SMS message or a Push notification
 

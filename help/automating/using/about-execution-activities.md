@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: About execution activities
 description: Execution activities are available from the left-hand side of the screen.
-page-status-flag: never-activated
-uuid: af2d19d7-a819-4064-806f-46e946387799
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: execution-activities
-discoiquuid: b1c53b8f-4e8d-4a10-8b01-4997a558e144
 
-internal: n
-snippet: y
 ---
 
 # About execution activities{#about-execution-activities}

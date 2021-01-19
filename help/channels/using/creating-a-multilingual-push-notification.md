@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Creating a multilingual push notification
 description: Create multilingual push notifications to target your users in their preferred languages and regions.
-page-status-flag: never-activated
-uuid: d4aff741-e969-47c6-bae8-787c6c673191
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: push-notifications
-discoiquuid: f9bb2235-d388-4025-9ace-734beb0c1961
 
-internal: n
-snippet: y
 ---
 
 # Creating a multilingual push notification{#creating-a-multilingual-push-notification}

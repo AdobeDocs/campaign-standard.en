@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Configuring SMS channel
 description: "Find out the SMS configuration steps: routing, encoding, formats and advanced properties. "
-page-status-flag: never-activated
-uuid: 5f13dbd5-9522-4199-8d9a-44c397cb2458
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-discoiquuid: 356d4d4f-3d5a-468c-bff8-96767cd8fff6
 context-tags: extAccountMobile,overview;extAccount,main;delivery,smsContent,back
-internal: n
-snippet: y
 ---
 
 # Configuring SMS channel{#configuring-sms-channel}

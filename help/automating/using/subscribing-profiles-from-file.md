@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Subscribing profiles from a file to a specific service
 description: This use case shows how to import a file containing profiles and subscribe them to an existing service.
-page-status-flag: never-activated
-uuid: 56637024-15ab-4145-9c48-3fbd27ab8af8
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
-discoiquuid: 74a6df0e-fd85-4404-a42c-9a7406512717
 context-tags: setOfService,workflow,main
-internal: n
-snippet: y
 ---
 
 # Subscribing profiles to a specific service after importing a file {#subscribing-profiles-to-a-specific-service-after-importing-a-file}

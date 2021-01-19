@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Troubleshooting
 description: Learn more about  common issues related Campaign Standard APIs.
-page-status-flag: never-activated
-uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
-discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 
-internal: n
-snippet: y
 ---
 
 # Troubleshooting {#troubleshooting}

@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Sending proofs
 description: Learn how to send proofs.
-page-status-flag: never-activated
-uuid: eb4d893b-3724-4b15-9312-1ec74784368d
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
-discoiquuid: 37320ec5-196c-4260-8156-98932da3e4a5
 context-tags: seedMember,overview
-internal: n
-snippet: y
 ---
 
 # Sending proofs {#sending-proofs}
@@ -101,7 +96,7 @@ To change the default subject line to use, follow these steps:
 
 **Related topic:**
 
-* [Sending a test, preparing and sending an email](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/sending-test-preparing-sending-email.html) video
+* [Sending a test, preparing and sending an email](../../sending/using/get-started-sending-messages.md#video) video
 * [Testing email messages using targeted profiles](../../sending/using/testing-messages-using-target.md)
 * [Managing test profiles](../../audiences/using/managing-test-profiles.md)
 * [Previewing messages](../../sending/using/previewing-messages.md)

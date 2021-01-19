@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: About opt-in and opt-out in Campaign
 description: Opt-out results in a profile no longer being targeted by any delivery or by deliveries from a specific channel.
-page-status-flag: never-activated
-uuid: 501d9485-976b-4de7-b242-6886f2814c6c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
-discoiquuid: 2f26ec22-0809-4541-b2a1-e84ff868ba6e
 
-internal: n
-snippet: y
 ---
 
 # About opt-in and opt-out in Campaign{#about-opt-in-and-opt-out-in-campaign}

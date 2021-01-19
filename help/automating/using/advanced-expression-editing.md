@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Advanced expression editing
 description: The query edition wizard allows you to define advanced expressions.
-page-status-flag: never-activated
-uuid: a635f999-27ce-41e0-a88c-8a3882e31efe
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: filtering-data
-discoiquuid: 4375153c-0621-4d4c-bfcc-66d157f04f6c
 context-tags: queryFilter,overview;audience,main
-internal: n
-snippet: y
 ---
 
 # Advanced expression editing{#advanced-expression-editing}

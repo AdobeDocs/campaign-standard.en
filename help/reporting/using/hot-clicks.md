@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Hot clicks
 description: With the Hot clicks out-of-the-box report, learn where your customer clicked on your delivery.
-page-status-flag: never-activated
-uuid: 7ed49dd3-d7ee-466a-9a7b-d2aa16961667
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
-discoiquuid: ecbc1ade-63d9-4ac2-9828-380a1aa95094
 context-tags: deliveryHotClicksReport,main
-internal: n
-snippet: y
 ---
 
 # Hot clicks{#hot-clicks}

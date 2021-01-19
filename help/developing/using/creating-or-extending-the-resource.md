@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Creating or extending the resource
 description: Discover how to define a resource from scratch.
-page-status-flag: never-activated
-uuid: 7c26b63d-9587-472b-804f-cde5c45dfb3c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
-discoiquuid: 8dc45c37-6908-407e-8e41-4a4188cba2b3
 
-internal: n
-snippet: y
 ---
 
 # Creating or extending the resource{#creating-or-extending-the-resource}

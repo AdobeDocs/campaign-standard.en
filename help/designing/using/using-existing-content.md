@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Designing emails using existing content 
 description: Discover how to design emails using existing content email content in the Email Designer.
-page-status-flag: never-activated
-uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 
-internal: n
-snippet: y
 ---
 # Designing using existing content {#designing-using-existing-content}
 
@@ -102,9 +97,11 @@ To retrieve existing content form a URL, follow the steps below:
 1. Define the URL from which the content will be retrieved.
 1. Click **[!UICONTROL Confirm]**.
 
-**Related topic:**
+Discover this feature in video.
 
-[Importing content from a URL](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#Workingwithexistingcontent) video
+>[!VIDEO](https://video.tv.adobe.com/v/25926?quality=12)
+
+Additional Campaign Standard how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=en).
 
 ### Retrieving content from a URL automatically at preparation time {#retrieving-content-from-a-url-automatically-at-preparation-time}
 
@@ -161,7 +158,7 @@ For more on converting an existing email into an Email Designer-compatible email
 **Related topic**:
 
 * [Creating an email](../../channels/using/creating-an-email.md)
-* [Introduction video to the Email Designer](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true)
+* [Introduction video to the Email Designer](../../designing/using/designing-content-in-adobe-campaign.md#video)
 * [Designing an email content from scratch](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
 ## Converting HTML content {#converting-an-html-content}

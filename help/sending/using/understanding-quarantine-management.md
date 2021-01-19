@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Understanding quarantine management
 description: Learn how to optimize your deliverability with quarantine management.
-page-status-flag: never-activated
-uuid: 3c287865-1ada-4351-b205-51807ff9f7ed
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-discoiquuid: de3a50b6-ea8f-4521-996b-c49cc1f3c946
 
-internal: n
-snippet: y
 ---
 
 # Understanding quarantine management{#understanding-quarantine-management}
@@ -30,7 +25,7 @@ Some internet access providers automatically consider emails to be spam if the r
 
 Moreover, quarantines help reducing SMS sending costs by excluding erroneous phone numbers from deliveries.
 
-For more on best practices to secure and optimize your deliveries, refer to [this page](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html).
+For more on best practices to secure and optimize your deliveries, refer to [this page](../../sending/using/delivery-best-practices.md).
 
 ### Quarantine vs Denylist {#quarantine-vs-denylist}
 

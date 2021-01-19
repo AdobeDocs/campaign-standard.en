@@ -1,16 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Release Notes 2018
 description: This page lists all 2018 releases of Adobe Campaign Standard.
-page-status-flag: never-activated
-uuid: 99f92a54-4b3d-48b9-b08d-e98b24e75f62
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
-internal: n
-snippet: y
 ---
 
 # Release Notes 2018{#release-notes}
@@ -116,7 +111,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
   </tr> 
   <tr> 
    <td> User management<br /> </td> 
-   <td> The geographical unit capability is now unavailable for new Campaign Standard instances, as well as existing instances with no geographical units created, starting 18.7 release.<br /> For more information, refer to this <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">page</a>.<br /> </td> 
+   <td> The geographical unit capability is now unavailable for new Campaign Standard instances, as well as existing instances with no geographical units created, starting 18.7 release.<br /> For more information, refer to this <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">page</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -325,7 +320,7 @@ _Custom resources_
     <ul> 
      <li> Leverage custom fields as a reconciliation criteria to match a transactional message to a profile </li> 
      <li> Leverage full profiles, services and linked data to further personalize transactional messages </li> 
-    </ul> For more information, refer to the <a href="../../administration/using/configuring-transactional-messaging.md">detailed documentation</a>.<br /> </td> 
+    </ul> For more information, refer to the <a href="../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content">detailed documentation</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Data update using reconciliation
 description: The following example demonstrates a workflow that creates an audience of profiles directly from an imported file containing new clients.
-page-status-flag: never-activated
-uuid: 7884db8c-1717-4724-be15-3b0b32ccc071
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
-discoiquuid: cb8c43f4-9cdd-4e85-99a4-004b36b336aa
 context-tags: reconciliation,main
-internal: n
-snippet: y
 ---
 
 # Data update using reconciliation {#data-update-reconciliation}

@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: SMS report
 description: With the SMS out-of-the-box report, learn about the success of your SMS deliveries. 
-page-status-flag: never-activated
-uuid: af672a56-f304-4ea9-99b1-e9886a6e1823
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
-discoiquuid: a9afbb76-d2b3-44c7-b97a-1694501aa913
 
-internal: n
-snippet: y
 ---
 
 # SMS report{#sms-report}

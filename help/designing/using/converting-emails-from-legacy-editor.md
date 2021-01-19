@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Converting Legacy Editor Email to the Email Designer 
 description: Discover how to use emails created in the Legacy Editor Email to the Email Designer.
-page-status-flag: never-activated
-uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 
-internal: n
-snippet: y
 ---
 
 # Converting Legacy editor email content {#converting-an-html-content}

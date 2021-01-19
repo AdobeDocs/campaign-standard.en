@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Managing landing page form data
 description: Learn how to manage landing page form data.
-page-status-flag: never-activated
-uuid: 5b222ea2-6628-457f-a618-bfc0e5eb93dd
-contentOwner: lemaitre
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: landing-pages
-discoiquuid: 899c7152-f415-4df9-b4b4-5ff3470a4e32
 context-tags: landingPage,main
-internal: n
-snippet: y
 ---
 
 # Managing landing page form data{#managing-landing-page-form-data}

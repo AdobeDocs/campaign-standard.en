@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Reconcile a File audience with the database
 description: This example shows how to use the Read audience activity to reconcile an audience directly created from a file import.
-page-status-flag: never-activated
-uuid: 58c54e71-f4a7-4ae9-80a3-33c379ab1db9
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 674684e5-8830-4d2f-ba97-59ed4ba7422f
 context-tags: readAudience,main
-internal: n
-snippet: y
 ---
 
 # Reconcile a File audience with the database {#example--reconcile-a-file-audience-with-the-database}

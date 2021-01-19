@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Update data
 description: The Update data activity allows you to perform a mass update on fields in the database.
-page-status-flag: never-activated
-uuid: 1dc55db5-affd-4688-b673-adfb8c1338b5
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
-discoiquuid: 4db83c95-4b75-4a16-8dbf-bd8940431fa9
 context-tags: writer,main
-internal: n
-snippet: y
 ---
 
 # Update data{#update-data}

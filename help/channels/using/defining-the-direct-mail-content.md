@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Defining the direct mail content
 description: Learn how to define the content for your direct mail delivery.
-page-status-flag: never-activated
-uuid: c1234c06-4d22-46d7-ad1b-3c88660f9b06
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: direct-mail
-discoiquuid: 9e73d6b5-41b4-474b-a880-a0cd5999c2d1
 context-tags: delivery,directMailContent,back
-internal: n
-snippet: y
 ---
 
 # Defining the direct mail content{#defining-the-direct-mail-content}
@@ -65,4 +60,3 @@ For example, you might want to include, for the direct mail provider, the sender
 The sender address is defined in the **[!UICONTROL Send]** section of the direct mail properties or at the template level.
 
 ![](assets/direct_mail_24.png)
-

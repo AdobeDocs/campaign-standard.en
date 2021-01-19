@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Get started with processes and data management
-description: Adobe Campaign offers a comprehensive graphical environment that allows you to design and automate processes.
-page-status-flag: never-activated
-uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
+description: Automate processes with workflows, manage data and audiences, send messages, and more.
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
-discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 
-internal: n
-snippet: y
 ---
 
 # Get started with processes and data management {#get-started-processes-data-management}

@@ -1,22 +1,19 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Exporting lists
 description: Adobe Campaign allows you to export the data displayed as lists from an overview screen directly in a file for future use. 
-page-status-flag: never-activated
-uuid: c64fe706-bd6e-4746-958e-f94226f4e2cb
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
-discoiquuid: 12c874da-435f-44b6-a3c8-873301e177cc
 
-internal: n
-snippet: y
 ---
 
 # Exporting lists{#exporting-lists}
 
 Adobe Campaign allows you to export your lists directly in a file for future use. Exporting a list in a file generates a log entry in the **[!UICONTROL Export audits]** menu. For more information on export audits, refer to the [Auditing exports](../../administration/using/auditing-export-logs.md) section.
+
+![](assets/do-not-localize/how-to-video.png) [Discover how to configure a list in video](#video)
 
 The export list option allows you to export a maximum of 100,000 lines by default and defined by the **Nms_ExportListLimit** option. This option can be managed by the functional administrator, under the **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** menu.
 
@@ -72,4 +69,11 @@ Adama;Henry;22/09/1992 02:00:00;henry.adama@mail.com;64120
 
 * [Roles](../../administration/using/list-of-roles.md)
 * [Customizing lists](../../start/using/customizing-lists.md)
-* [Configuring list video](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/configure-a-list.html) 
+
+## Tutorial video {#video}
+
+This video shows how to configure lists.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25288/?quality=12)
+ 
+Additional Campaign Standard how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=en).

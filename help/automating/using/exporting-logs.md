@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Exporting logs
 description: Log data, whether they are related to deliveries or to subscriptions, can be exported through a simple workflow.
-page-status-flag: never-activated
-uuid: 954e919c-0a33-47c3-9a3c-63c7a2a4edc4
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
-discoiquuid: ca8a95d8-523f-4085-a2fc-e1d8262cfbae
 
-internal: n
-snippet: y
 ---
 
 # Exporting logs{#exporting-logs}

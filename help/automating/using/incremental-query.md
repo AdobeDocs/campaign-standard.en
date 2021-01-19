@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Incremental query
 description: The Incremental query activity allows you to filter and extract a population of elements from the Adobe Campaign database.
-page-status-flag: never-activated
-uuid: 73b42422-e815-43ef-84c0-97c4433ccc98
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 80961e73-42ec-463a-8496-cff69fab0475
 context-tags: incremental,main
-internal: n
-snippet: y
 ---
 
 # Incremental query{#incremental-query}

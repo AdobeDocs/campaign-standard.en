@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Deduplication
 description: The Deduplication activity allows you to delete duplicates in the result(s) of the inbound activities.
-page-status-flag: never-activated
-uuid: 11a22a9c-3bfe-4953-8a52-2f4e93c128fb
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: e7a5e1e7-4680-46c7-98b8-0a47bb7be2b8
 context-tags: dedup,main
-internal: n
-snippet: y
 ---
 
 # Deduplication{#deduplication}

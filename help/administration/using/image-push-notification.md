@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Display an image from an Adobe Campaign Standard push notification
 description: Learn here how to display an image from an Adobe Campaign push notification on an iOS device.
-page-status-flag: never-activated
-uuid: 961aaeb5-6948-4fd2-b8d7-de4510c10566
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: push-notifications
-discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
-internal: n
-snippet: y
 ---
 
 # Adding images and videos iOS {#image-push}

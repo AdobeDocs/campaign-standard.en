@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Improving your reputation with Adobe Campaign Standard
 description: Learn how to improve your reputation with Adobe Campaign Standard by managing duplicate email addresses and quarantines.
-page-status-flag: never-activated
-uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
-internal: n
-snippet: y
 ---
 
 # Improving your reputation{#improving-reputation}

@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Users management
 description: Adobe Campaign users hold specific roles. Discover the main user types. 
-page-status-flag: never-activated
-uuid: 8c4cc74a-815f-4815-af66-a7c21bc754f1
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-discoiquuid: 08c8712a-0066-4b8b-8471-2656b8fb23ed
 
-internal: n
-snippet: y
 ---
 
 # Users management{#users-management}
@@ -20,9 +15,11 @@ snippet: y
 
 Adobe Campaign allows you to assign a set of roles to your users to define which part of the interface they can access.
 
-The specific roles and the corresponding authorizations are detailed in the following sections: [understanding roles](../../administration/using/list-of-roles.md) and [authorizations](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
+The specific roles and the corresponding authorizations are detailed in the following sections: [understanding roles](../../administration/using/list-of-roles.md) and [authorizations](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en).
 
 Administrators can manage users from the Admin console. Users are then automatically synchronized with Adobe Campaign. For more on this, refer to the [Admin console](https://helpx.adobe.com/enterprise/using/users.html) documentation.
+
+![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#video)
 
 To view the users in Adobe Campaign, click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Administration > Users & Security > Users]**.
 
@@ -34,7 +31,7 @@ To access the user management interface from Adobe Campaign, click **[!UICONTROL
 
 * [Managing user permissions](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/access-management.html) video
 * [List of roles](../../administration/using/list-of-roles.md)
-* [List of authorizations](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
+* [List of authorizations](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
 
 ## Type of users {#type-of-users}
 
@@ -56,7 +53,7 @@ We will rather focus on how the different tasks in Adobe Campaign are split betw
 
 Functional administrators are users who can access the most technical parts of the interface. They hold the **[!UICONTROL Administration]** role and make sure that the platform is all set up so that marketers only have to focus on delivering their campaigns.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Only Functional administrators, with **[!UICONTROL Administration]** role and access to **All** units can access sending logs, message logs, tracking logs, exclusion logs, proposition logs and subscription logs. A non-admin user can target these logs but starting on a linked table (profiles, delivery).
 
@@ -150,3 +147,11 @@ You can then check if your user has been correctly synced to Adobe Campaign:
 1. Click **[!UICONTROL Save]**.
 
 Your user is now ready to use Adobe Campaign Standard.
+
+## Tutorial video (#video)
+
+This video shows ow to manage user access rights.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24671?quality=12)
+
+Additional Campaign Standard how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=en).

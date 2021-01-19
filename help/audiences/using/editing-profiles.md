@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Editing profiles
 description: Learn how to edit existing profiles and access contact information, prefered channels, tracking logs, subscriptions, etc.
-page-status-flag: never-activated
-uuid: 6fcdb719-6149-48fc-b400-64c24a51487f
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
-discoiquuid: 8d3ba7bf-90ae-4c6d-aaeb-a48572a69f2f
 
-internal: n
-snippet: y
 ---
 
 # Editing profiles{#editing-profiles}

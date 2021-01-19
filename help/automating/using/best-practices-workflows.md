@@ -1,16 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Workflows best practices
 description: Learn how to best practices to apply to your workflows.
-page-status-flag: never-activated
-uuid: ff02b74e-53e8-49c6-bf8e-0c729eaa7d25
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
-internal: n
-snippet: y
 ---
 
 # Workflow best practices{#workflow-best-practices}
@@ -105,7 +101,7 @@ For more information, refer to [Scheduler activity](../../automating/using/sched
 
 ## Calling workflow with parameters{#workflow-with-parameters}
 
-Make sure that the name and number of parameters are identical to what is defined when calling the workflow (see [](../../automating/using/defining-parameters-calling-workflow.md). The parameters' types must also be consistent with the values that are expected.
+Make sure that the name and number of parameters are identical to what is defined when calling the workflow (see [this page](../../automating/using/defining-parameters-calling-workflow.md). The parameters' types must also be consistent with the values that are expected.
 
 Make sure that all the parameters have been declared in the **[!UICONTROL External signal activity]**. Otherwise, an error will occur when running the activity.
 

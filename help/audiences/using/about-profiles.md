@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: About profiles
 description: Contacts are stored as profiles in Campaign database, and updated through their entire life cycle.
-page-status-flag: never-activated
-uuid: 087f91a4-6e69-488e-9aa0-424d23d396ed
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
-discoiquuid: a35e736c-a17b-420c-8411-0debc3c6275a
 context-tags: recipient,overview
-internal: n
-snippet: y
 ---
 
 # About profiles{#about-profiles}

@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Managing email styles
 description: Discover how to manage email styles in the Email Designer.
-page-status-flag: never-activated
-uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 
-internal: n
-snippet: y
 ---
 
 # Managing email styles {#managing-styles}
@@ -101,7 +96,8 @@ For both **[!UICONTROL Padding]** and **[!UICONTROL Margin]**, click the lock ic
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
 >title="Background settings"
->abstract="The Email Designer lets you personnalize background color or background image for your content."
+>abstract="The Email Designer lets you personnalize background color or background image for your content.Note that background image is not supported by all email clients."
+>additional-url="https://docs.google.com/spreadsheets/d/1TLo62YKm3tThUWDOIliCQFWs3dpNjpDfw6DdTr1oGOw/edit#gid=0" text="Additional info"
 
 When it comes to setting backgrounds with the Email Designer, Adobe recommends the following:
 

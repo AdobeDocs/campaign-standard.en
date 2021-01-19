@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Enriching profile data with data contained in a file
 description: This example shows how to enrich profile data with purchase data contained in a file.
-page-status-flag: never-activated
-uuid: 8c1693ef-1312-422c-b05d-263553113f8f
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: f67c1caf-3284-4c34-a5b0-8654a95640ae
 context-tags: enrichment,main
-internal: n
-snippet: y
 ---
 
 # Enriching profile data with data contained in a file {#enriching-profile-data-with-data-contained-in-a-file}

@@ -1,17 +1,12 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Troubleshooting
 description: Learn how to troubleshoot issues when sharing resources.
-page-status-flag: never-activated
-uuid: 1c764dd8-e09f-4e8e-9ccd-88ab3d714284
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
-discoiquuid: c28e1d90-8074-4127-a6fc-ed39d69cdb19
 
-internal: n
-snippet: y
 ---
 
 # Troubleshooting{#troubleshooting}
