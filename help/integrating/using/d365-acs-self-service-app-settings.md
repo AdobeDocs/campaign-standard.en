@@ -43,23 +43,29 @@ The following image will explain in detail the mapping between Adobe I/O and the
 >You are responsible for the information you access and download from the SFTP folders. If the information contains personal data, you are responsible for complying with any applicable privacy laws and regulations. [Learn more](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy).
 >
 
-## Adobe Campaign SFTP Settings
+## Adobe Campaign SFTP Settings {#ac-smtp-settings}
 
-These settings need to be defined if you plan on using the Adobe Campaign SFTP instance. One reason to use the SFTP instance is if you ever want to output logs from the connector. This will be helpful if you experience issues when the integration is running and you need to debug why the output does not meet your  expectations.   The other reason to setup the SFTP server would be if you plan on running the Opt in/out workflow and there is a flow of data from Adobe Campaign to Microsoft Dynamics 365, either **[!UICONTROL Unidirectional (Microsoft Dynamics 365 to Campaign)]** or **[!UICONTROL Bidirectional]**.
+These settings are optional. You need to define them if you plan on using your Adobe Campaign SFTP instance to output logs from the connector. This will be helpful if you experience issues when the integration is running and you need to debug why the output does not meet your expectations.  
+
+The other reason to setup the SFTP server would be if you plan on running the opt-in/out workflow and there is a flow of data from Adobe Campaign to Microsoft Dynamics 365, either **[!UICONTROL Unidirectional (Microsoft Dynamics 365 to Campaign)]** or **[!UICONTROL Bidirectional]**.
+
+To define Campaign SFTP settings for the Microsoft Dynamics 365 integration, access the following section:
 
 ![](assets/d365-to-acs-ui-page-workflows-settings-sftp.png)
 
-* *SFTP Host*: This will look like this: &lt;campaign-instance-name&gt;.campaign.adobe.com. The header of the integration app includes both the "Org" and "Instance". The "campaign-instance-name" portion of the url would simply be the name found in this instance value.
+You need to specify:
+
+* **SFTP Host**: this field will contain &lt;campaign-instance-name&gt;.campaign.adobe.com. The header of the integration app includes both the **Org** and **Instance**. The "campaign-instance-name" portion of the url would simply be the name found in this instance value.
   
-* *SFTP User*: If you have the SFTP user, add it here.  If you don't, then see the "SFTP Setup in Adobe Campaign Standard" section below. As part of the process, you will be shown the username.
+* **SFTP User**: If you have the SFTP user, add it here. Else, refer to [this section](#ac-control-panel-settings). As part of the process, you will be shown the username.
 
-* *SFTP Key*: If you have an SSH Key, add it here. If you don't, then see the "SFTP Setup in Adobe Campaign Standard" section below.
+* **SFTP Key**: If you have an SSH Key, add it here. Else, refer to [this section](#ac-control-panel-settings).
 
-* The *IP Ranges* will be needed to be included in your Adobe Campaign Standard SFTP configuration. These will need to be whitelisted in order for the integration to make use of the SFTP endpoint.  
+* The **IP Ranges** will be needed to be included in your Adobe Campaign SFTP configuration. These will need to be allowlisted in order for the integration to make use of the SFTP endpoint.  
 
-* The "Do you want to export logs to your Adobe Campaign SFTP?" allows you to determine if the integration will output logging information to the SFTP endpoint. This can be used to help with debugging if Campaign or Dynamics 365 isn't showing the information you are expecting.
+* The **Do you want to export logs to your Adobe Campaign SFTP?** allows you to determine if the integration will output logging information to the SFTP endpoint. This can be used to help with debugging if Adobe Campaign or Microsoft Dynamics 365 is not showing the information you are expecting.
 
-## SFTP Setup in Adobe Campaign Standard
+## SFTP setup in Adobe Campaign {#ac-control-panel-settings}
 
 Discover SFTP management with [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=en) in these sections:
 
