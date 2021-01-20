@@ -13,7 +13,7 @@ context-tags: mobileApp,overview
 
 ## About push tracking {#about-push-tracking}
 
-To ensure that the push notification has been fully developed you need to be sure that the tracking portion has been implemented correctly since not every push notification has tracking enabled. To enable this, developers need to identify which deliveries have tracking enabled, Adobe Campaign Standard will send a flag called `_acsDeliveryTracking` with two values **on** or **off**. The app developer should send a tracking request only on deliveries that have the variable set as **on**. 
+To ensure that the push notification has been fully developed you need to be sure that the tracking portion has been implemented correctly since not every push notification has tracking enabled. To enable this, developers need to identify which deliveries have tracking enabled, Adobe Campaign Standard will send a flag called `_acsDeliveryTracking` with two values **on** or **off**. The app developer should send a tracking request only on deliveries that have the variable set as **on**.
 
 >[!IMPORTANT]
 >
