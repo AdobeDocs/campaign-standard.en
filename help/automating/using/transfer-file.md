@@ -162,7 +162,7 @@ Note that event variables can also be passed to another workflow using an extern
 
 Available output variables are:
 
-* **[!UICONTROL fileName]**: name of the transferred files.
-* **[!UICONTROL filesCount]**: number of transferred files.
+* **[!UICONTROL fileName]**: name of the transfered files.
+* **[!UICONTROL filesCount]**: number of transfered files.
 
 
