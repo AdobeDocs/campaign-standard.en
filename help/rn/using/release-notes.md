@@ -203,5 +203,6 @@ topic-tags: campaign-standard-releases
 * Fixed an issue which could prevent you from importing HTML content into a transactional message template. (CAMP-47318)
 * Fixed an issue that could slow down the display of the renderings in the Email rendering report. (CAMP-46226)
 * Fixed an issue which could prevent you from publishing custom resources configured with a List-type element in the screen definition. (CAMP-47217)
-* Fixed an issue in the Creative Designer which prevented line dividers from rendering correctly in Microsoft Outlook when placed at the top of the email content. (CAMP-46294)
+* Fixed an issue in the Email Designer which prevented line dividers from rendering correctly in Microsoft Outlook when placed at the top of the email content. (CAMP-46294)
 * Fixed an issue that caused the KPIs reconciliation with Adobe Analytics technical workflow to get stuck. (CAMP-46576) 
+* Fixed an issue in the Email Designer that prevented fragments from being automatically displayed in search boxes when inserting content blocks. (CAMP-44205)
